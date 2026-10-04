@@ -18,4 +18,4 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: khoi-tao
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 19 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + thuvienxuatnhapkhau.com). GHI CHÚ NGHIỆP VỤ (hs-code-api): Index năm 2018 = bảng mã HS phương tiện đo nhóm 2 (XNK). Có QĐ 2284/QĐ-BKHCN năm 2013 về công bố TCVN trang sức — KHÔNG nhầm số hiệu. Danh mục đo lường nhóm 2 đã được TT 03/2024/TT-BKHCN cập nhật từ 15/10/2024.'
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 19 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + thuvienxuatnhapkhau.com). GHI CHÚ NGHIỆP VỤ (hs-code-api): Index năm 2018 = bảng mã HS phương tiện đo nhóm 2 (XNK). Có QĐ 2284/QĐ-BKHCN năm 2013 về công bố TCVN trang sức — KHÔNG nhầm số hiệu. Danh mục đo lường nhóm 2 đã được TT 03/2024/TT-BKHCN cập nhật từ 15/10/2024. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.'

@@ -11,11 +11,13 @@ nhanh:
 nguon:
   - url: https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-ban-hanh-quyet-dinh-ve-ket-qua-ra-soat-cuoi-ky-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pha.html
     truy_cap: '2026-07-02'
+  - url: https://moit.gov.vn/upload/2005517/fck/files/QD_2822_ket_qua_ra_soat_cuoi_ky_vu_viec_AD04_24_10_2024_d4395.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 16
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
+  muc: NGUON_A
+  pham_vi: số hiệu trên trang moit.gov.vn (tin/thông báo công bố quyết định); chưa tìm thấy trang van-ban-phap-luat riêng
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
+  boi: cursor-agent@ozvietnam
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 16 mã HS). Tiêu đề đã đối chiếu (moit.gov.vn + caselaw.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc ER01.AD04. Gia hạn CBPG thêm 5 năm (24/10/2024–23/10/2029). Số hiệu hay viết 2822/QĐ-BCT-2024.'
