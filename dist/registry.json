@@ -57,7 +57,7 @@
       "trich_dan_trong_bieu_thue": 123,
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "PDF Công báo CDN; Điều 3 khoản 1 hiệu lực 18-07-2021; khoản 2 hết hiệu lực 22/2018/TT-BLĐTBXH",
+        "pham_vi": "PDF Công báo CDN; Điều 5 khoản 1 hiệu lực 18-07-2021; Điều 5 khoản 2 hết hiệu lực 22/2018/TT-BLĐTBXH",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
         "boi": "cursor-agent@ozvietnam"
@@ -68,7 +68,7 @@
           {
             "so_hieu": "22/2018/TT-BLĐTBXH",
             "tu_ngay": "2021-07-18",
-            "can_cu": "Điều 3 khoản 2 TT 01/2021/TT-BLĐTBXH"
+            "can_cu": "Điều 5 khoản 2 TT 01/2021/TT-BLĐTBXH"
           }
         ]
       },
@@ -1980,7 +1980,7 @@
       "trich_dan_trong_bieu_thue": 340,
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "PDF Công báo CDN phần đầu; Điều hiệu lực 30-01-2024; hết hiệu lực 924/QĐ-BNN-TCLN",
+        "pham_vi": "PDF Công báo CDN; Điều 2 khoản 1 hiệu lực 30-01-2024; Điều 2 khoản 2 hết hiệu lực 924/QĐ-BNN-TCLN",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
         "boi": "cursor-agent@ozvietnam"
@@ -1991,7 +1991,7 @@
           {
             "so_hieu": "924/QĐ-BNN-TCLN",
             "tu_ngay": "2024-01-30",
-            "can_cu": "điều khoản thi hành TT 17/2023/TT-BNNPTNT (PDF Công báo phần đầu)"
+            "can_cu": "Điều 2 khoản 2 TT 17/2023/TT-BNNPTNT"
           }
         ]
       },
@@ -2437,7 +2437,7 @@
         "boi": "cursor-agent@ozvietnam"
       },
       "het_hieu_luc_tu": "2021-07-18",
-      "ghi_chu": "Khung stub: 01/2021/TT-BLĐTBXH Điều 3 khoản 2 ghi hết hiệu lực từ ngày 01/2021 có hiệu lực (18-07-2021). Ngày ban hành 06-12-2018 theo trích dẫn trong 01/2021; chưa mở toàn văn 22/2018.",
+      "ghi_chu": "Khung stub: 01/2021/TT-BLĐTBXH Điều 5 khoản 2 ghi hết hiệu lực từ ngày 01/2021 có hiệu lực (18-07-2021). Ngày ban hành 06-12-2018 theo trích dẫn trong 01/2021; chưa mở toàn văn 22/2018.",
       "slug": "22-2018-tt-bldtbxh",
       "bac_nguon_cao_nhat": null,
       "quan_he_nguoc": {
@@ -2447,7 +2447,7 @@
             "quan_he": "thay_the",
             "so_hieu": "22/2018/TT-BLĐTBXH",
             "tu_ngay": "2021-07-18",
-            "can_cu": "Điều 3 khoản 2 TT 01/2021/TT-BLĐTBXH"
+            "can_cu": "Điều 5 khoản 2 TT 01/2021/TT-BLĐTBXH"
           }
         ]
       }
@@ -5187,6 +5187,7 @@
       "loai": "QUYET_DINH",
       "ten": "(chưa có tiêu đề) 924/QĐ-BNN-TCLN",
       "co_quan": "BNNPTNT",
+      "ngay_ban_hanh": "2017-03-24",
       "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bnnmt"
@@ -5199,8 +5200,8 @@
         "boi": "cursor-agent@ozvietnam"
       },
       "het_hieu_luc_tu": "2024-01-30",
-      "ghi_chu": "Hết hiệu lực theo điều khoản thi hành TT 17/2023/TT-BNNPTNT; stub chưa mở toàn văn nguồn A của chính văn bản này.",
-      "slug": "924-qd-bnn-tcln",
+      "ghi_chu": "Hết hiệu lực theo Điều 2 khoản 2 TT 17/2023/TT-BNNPTNT (QĐ ngày 24/3/2017 ban hành Bảng mã HS đối với hàng hóa là động vật, thực vật hoang dã nguy cấp, quý, hiếm — theo trích dẫn trong TT 17/2023); stub chưa mở toàn văn nguồn A của chính văn bản này.",
+      "slug": "924-qd-bnn-tcln-2017",
       "bac_nguon_cao_nhat": null,
       "quan_he_nguoc": {
         "bi_bai_bo_boi": [
@@ -5209,7 +5210,7 @@
             "quan_he": "bai_bo",
             "so_hieu": "924/QĐ-BNN-TCLN",
             "tu_ngay": "2024-01-30",
-            "can_cu": "điều khoản thi hành TT 17/2023/TT-BNNPTNT (PDF Công báo phần đầu)"
+            "can_cu": "Điều 2 khoản 2 TT 17/2023/TT-BNNPTNT"
           }
         ]
       }
