@@ -1,0 +1,26 @@
+name: bao-hs-code-api
+# Cầu nối oz-wiki-plhq → hs-code-api: khi sổ trên main đổi (dist/registry.json), báo hs-code-api đồng bộ ngay
+# (repository_dispatch "plhq-updated" → workflow plhq-sync bên đó). Không có token thì bỏ qua —
+# hs-code-api vẫn tự đồng bộ mỗi ngày lúc 08:17 giờ VN.
+# Token: secret HS_CODE_API_DISPATCH_TOKEN = fine-grained PAT, repo ozvietnam/hs-code-api, quyền Contents: Read and write.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dist/registry.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  bao:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Gửi repository_dispatch
+        env:
+          TOKEN: ${{ secrets.HS_CODE_API_DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then echo "::notice::Chưa có HS_CODE_API_DISPATCH_TOKEN — hs-code-api sẽ đồng bộ theo lịch hằng ngày."; exit 0; fi
+          curl -fsS -X POST -H "Authorization: Bearer $TOKEN" -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/ozvietnam/hs-code-api/dispatches \
+            -d "{\"event_type\":\"plhq-updated\",\"client_payload\":{\"sha\":\"$GITHUB_SHA\"}}"
+          echo "Đã báo hs-code-api đồng bộ (sha $GITHUB_SHA)"

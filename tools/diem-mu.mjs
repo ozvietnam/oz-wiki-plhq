@@ -3,6 +3,7 @@
 // Không gọi AI, không cần mạng. Kết quả là danh sách việc cụ thể cho người và agent.
 //   node tools/diem-mu.mjs            → ghi bao-cao/diem-mu.md + bao-cao/diem-mu.json
 //   node tools/diem-mu.mjs --stdout   → in markdown ra màn hình (dùng làm nội dung issue)
+// Có nhu-cau/hs-code-api.json (tools/nhu-cau.mjs) thì xếp thêm việc theo số mã HS chịu ảnh hưởng.
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { napSo, khoa, bacNguon, chuanCanh, dungDoThi, homNay, ROOT, QUAN_HE_LAM_MAT_HIEU_LUC } from './lib/registry.mjs';
@@ -31,9 +32,17 @@ function quetWiki(root) {
   return out;
 }
 
-export function timDiemMu(so, { today = homNay(), root = ROOT } = {}) {
+/** Đọc nhu cầu của ứng dụng đang dùng sổ (null nếu chưa có). */
+export function docNhuCau(root = ROOT) {
+  const p = join(root, 'nhu-cau', 'hs-code-api.json');
+  if (!existsSync(p)) return null;
+  try { return JSON.parse(readFileSync(p, 'utf8')); } catch { return null; }
+}
+
+export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCau(root) } = {}) {
   const ds = [];
-  const add = (ma, muc, tieuDe, muc_tieu, viec, luong) => ds.push({ ma, muc, tieuDe, muc_tieu, viec, luong });
+  // trongSo: xếp trong cùng nhóm (vd số mã HS chịu ảnh hưởng) — lớn trước.
+  const add = (ma, muc, tieuDe, muc_tieu, viec, luong, trongSo = 0) => ds.push({ ma, muc, tieuDe, muc_tieu, viec, luong, trongSo });
   const { nguoc, thieu } = dungDoThi(so);
   const theoKhoa = (s) => so.theoKhoa.get(khoa(s))?.[0];
 
@@ -157,6 +166,34 @@ export function timDiemMu(so, { today = homNay(), root = ROOT } = {}) {
     add('WIKI_NHAC_CHUA_DANG_KY', MUC.VUA, `Wiki nhắc ${v.so_hieu} nhưng sổ chưa có`, v.so_hieu,
       `Thêm vào sổ (${[...v.files].join(', ')}).`, 'lien-ket-cheo');
   }
+
+  // D-HS — nhu cầu thật từ hs-code-api: văn bản biểu thuế đang dẫn, xếp theo số mã HS chịu ảnh hưởng.
+  // Đối chiếu với sổ HIỆN TẠI (bản đo có thể cũ hơn sổ): việc đã làm xong thì tự biến mất.
+  if (nhuCau) {
+    const tenApp = 'hs-code-api';
+    for (const v of nhuCau.vanBanDuocDan || []) {
+      const d = theoKhoa(v.soHieu);
+      if (!d) {
+        add('HS_API_CHUA_CO', MUC.CAO, `Biểu thuế dẫn nhưng sổ chưa có: ${v.soHieu} (${v.soMaHs} mã HS)`, v.soHieu,
+          `${v.soMaHs} mã HS trong ${tenApp} dẫn văn bản này ở cột chính sách. Thêm vào sổ: node tools/them-van-ban.mjs "${v.soHieu}"`, 'he-thong-hoa', v.soMaHs);
+      } else if (!d.xac_minh?.hieu_luc_da_doi_chieu) {
+        add('HS_API_UU_TIEN_DOI_CHIEU', v.soMaHs >= 50 ? MUC.CAO : MUC.VUA, `Đối chiếu hiệu lực ${d.so_hieu} — ${v.soMaHs} mã HS đang dẫn`, d.so_hieu,
+          `Sổ ghi ${d.tinh_trang} nhưng chưa đối chiếu nguồn A; ${v.soMaHs} mã HS của ${tenApp} dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.`, 'hieu-luc', v.soMaHs);
+      }
+    }
+    const lech = new Map();
+    for (const x of nhuCau.thuVienLech || []) {
+      const k = khoa(x.soHieu || x.code);
+      if (!lech.has(k)) lech.set(k, { ...x, cachViet: new Set() });
+      lech.get(k).cachViet.add(x.code);
+    }
+    for (const x of lech.values()) {
+      const d = theoKhoa(x.soHieu || x.code);
+      if (!d || d.tinh_trang !== x.so) continue; // sổ đã đổi từ lúc đo → chờ lần đo sau
+      add('HS_API_LECH_THU_VIEN', MUC.VUA, `${d.so_hieu}: ${tenApp} ghi ${x.thuVien}, sổ ghi ${x.so}`, d.so_hieu,
+        `Thư viện /api/legal-docs của ${tenApp} (${[...x.cachViet].join(', ')}) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên ${tenApp}.`, 'hieu-luc');
+    }
+  }
   return ds;
 }
 
@@ -167,6 +204,8 @@ const TEN_MA = {
   NUT_CAY_TRONG: 'Nhánh cây chưa có văn bản', NUT_THIEU_LOAI: 'Nhánh cây thiếu loại văn bản bắt buộc', VAN_BAN_KHUNG: 'Văn bản khung thiếu thông tin',
   WIKI_NHAC_CHUA_DANG_KY: 'Wiki nhắc văn bản chưa đăng ký', KHONG_NGUON_A: 'Chưa có nguồn chính thống', KHONG_TOAN_VAN: 'Chưa có toàn văn',
   HIEU_LUC_CHUA_DOI_CHIEU: 'Hiệu lực chưa đối chiếu nguồn A', XAC_MINH_CU: 'Đối chiếu đã cũ', CHUA_PHAN_LOAI: 'Chưa xếp vào cây', CO_QUAN_DA_SAP_NHAP: 'Văn bản của cơ quan đã sáp nhập',
+  HS_API_CHUA_CO: 'Biểu thuế (hs-code-api) dẫn nhưng sổ chưa có', HS_API_UU_TIEN_DOI_CHIEU: 'Ưu tiên đối chiếu — theo số mã HS đang dẫn (hs-code-api)',
+  HS_API_LECH_THU_VIEN: 'Thư viện hs-code-api ghi khác sổ',
 };
 
 export function veMarkdown(ds, { today = homNay(), gioiHan = 40 } = {}) {
@@ -190,7 +229,7 @@ export function veMarkdown(ds, { today = homNay(), gioiHan = 40 } = {}) {
   const ma = [...nhom.keys()].sort((a, b) => THU_TU[nhom.get(a)[0].muc] - THU_TU[nhom.get(b)[0].muc] || nhom.get(b).length - nhom.get(a).length);
   for (const m of ma) lines.push(`| ${TEN_MA[m] || m} | ${nhom.get(m)[0].muc} | ${nhom.get(m).length} | \`${nhom.get(m)[0].luong}\` |`);
   for (const m of ma) {
-    const items = nhom.get(m).sort((a, b) => THU_TU[a.muc] - THU_TU[b.muc]);
+    const items = nhom.get(m).sort((a, b) => THU_TU[a.muc] - THU_TU[b.muc] || (b.trongSo || 0) - (a.trongSo || 0));
     lines.push('', `## ${TEN_MA[m] || m} (${items.length})`, '');
     for (const d of items.slice(0, gioiHan)) lines.push(`- [ ] **${d.tieuDe}** — ${d.viec}`);
     if (items.length > gioiHan) lines.push(`- … và ${items.length - gioiHan} điểm khác (xem bao-cao/diem-mu.json)`);
