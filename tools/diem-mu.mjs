@@ -188,6 +188,8 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
     }
     for (const [sh, dc] of danChieu) {
       if (dc && daCoBang.has(khoa(dc.so_hieu))) continue;
+      // Dẫn sang chính danh mục hàng hoá XNK / biểu thuế (phân loại theo GIR) — không phải bảng cần trích.
+      if (dc && (dc.nhanh || []).some((n) => n.startsWith('phan-loai-hs'))) continue;
       add('DAN_CHIEU_CHUA_CO_BANG', MUC.VUA, `${it.vanBan.so_hieu} dẫn mã HS sang ${sh} — ${dc ? 'văn bản đó chưa có bảng' : 'chưa có trong sổ'}`, sh,
         `${it.tep} có dòng không ghi mã mà dẫn chiếu ${sh}. ${dc ? `Trích danh-muc/${dc._slug}.csv` : `Thêm ${sh} vào sổ rồi trích bảng`} để mã HS của các dòng này tra được.`, 'danh-muc-hs');
     }
