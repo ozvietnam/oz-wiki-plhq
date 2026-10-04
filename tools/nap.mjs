@@ -53,7 +53,13 @@ async function main() {
   const buf = Buffer.from(await res.arrayBuffer());
   if (buf.length > GIOI_HAN) { console.error('Tệp quá 50 MB — bỏ qua.'); process.exit(1); }
   const ct = res.headers.get('content-type') || '';
-  const ext = /pdf/.test(ct) ? '.pdf' : /html/.test(ct) ? '.html' : /msword|officedocument/.test(ct) ? '.docx' : (extname(new URL(url).pathname) || '.bin');
+  const cd = res.headers.get('content-disposition') || '';
+  const magicPdf = buf.length >= 4 && buf.subarray(0, 4).toString('latin1') === '%PDF';
+  const ext = (/pdf/i.test(ct) || /\.pdf["']?\s*$/i.test(cd) || /filename[^;]*=[^;]*\.pdf/i.test(cd) || magicPdf)
+    ? '.pdf'
+    : /html/.test(ct) ? '.html'
+    : /msword|officedocument/.test(ct) ? '.docx'
+    : (extname(new URL(url).pathname) || '.bin');
   const host = new URL(url).hostname.replace(/^www\./, '');
   const dir = join(ROOT, 'raw', 'download', host);
   mkdirSync(dir, { recursive: true });

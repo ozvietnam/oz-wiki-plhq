@@ -1,20 +1,30 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 11/2026/TT-BXD
 loai: THONG_TU
-ten: (chưa có tiêu đề) 11/2026/TT-BXD
+ten: Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu
 co_quan: BXD
-tinh_trang: CHUA_XAC_MINH
+ngay_ban_hanh: '2026-03-31'
+hieu_luc_tu: '2026-06-01'
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong/giay-phep
 quan_he:
   thay_the:
     - so_hieu: 04/2021/TT-BXD
       tu_ngay: '2026-06-01'
-      can_cu: theo ghi chú nghiên cứu của hs-code-api data/legal-docs.json — chưa đối chiếu nguồn A
+      can_cu: Điều 5 khoản 2 TT 11/2026/TT-BXD
+nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-11-2026-tt-bxd-469475.htm
+    truy_cap: '2026-10-04'
+  - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/5/15/469475-1778807343_v1_1778838173_signed.pdf
+    truy_cap: '2026-10-04'
+  - url: https://moc.gov.vn/pl/pages/ChiTietVanBan.aspx?TypeVB=1&vID=667
+    truy_cap: '2026-10-04'
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: hiểu biết nền lúc khởi tạo
-  hieu_luc_da_doi_chieu: false
+  muc: NGUON_A
+  pham_vi: 'PDF Công báo số 277 ngày 16-05-2026 (lớp chữ): Điều 5 khoản 1 hiệu lực 01-06-2026; khoản 2 hết hiệu lực TT 04/2021/TT-BXD; tình trạng hiện tại: sổ/Công báo chưa thấy văn bản thay/bãi TT 11/2026 (kiểm đến 04-10-2026)'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Văn bản khung (stub): chỉ biết qua quan hệ sửa đổi 04/2021/TT-BXD trong hs-code-api. Cần bổ sung tiêu đề, ngày, nguồn.'
+  boi: cursor-agent@ozvietnam
+ghi_chu: Thay TT 04/2021/TT-BXD về hướng dẫn xuất khẩu khoáng sản làm vật liệu xây dựng.
+toan_van: raw/download/congbaocdn.chinhphu.vn/11-2026-tt-bxd.pdf

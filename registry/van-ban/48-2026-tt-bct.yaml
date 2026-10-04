@@ -34,9 +34,9 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'PDF Công báo số 521 ngày 23-09-2026 (có lớp chữ): số hiệu, trích yếu, ngày ký 05-09-2026, người ký Nguyễn Sinh Nhật Tân; Điều 20 khoản 1 hiệu lực 05-09-2026; khoản 2 bãi bỏ toàn bộ, khoản 3 bãi bỏ một phần các văn bản ghi ở quan_he; Điều 21 chuyển tiếp'
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'PDF Công báo số 521 ngày 23-09-2026 (lớp chữ): Điều 20 khoản 1 hiệu lực 05-09-2026; khoản 2–3 bãi bỏ toàn bộ/một phần các văn bản ở quan_he; Điều 21 chuyển tiếp; tình trạng hiện tại: sổ không có văn bản sau ghi thay/bãi TT 48/2026 (kiểm đến 04-10-2026)'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: claude-code@ozvietnam
-ghi_chu: 'Điều 20 khoản 2 còn bãi bỏ toàn bộ TT 04/2007/TT-BTM, TTLT 14/2009/TTLT-BCT-BTC, TT 25/2012/TT-BCT, TTLT 01/2012/TTLT-BCT-BTC; khoản 3 còn bãi bỏ Điều 27 và điểm n, p khoản 4 Điều 37 TT 38/2025/TT-BCT, Điều 18 TT 26/2026/TT-BCT — các văn bản này chưa có trong sổ nên chưa ghi vào quan_he. Điều 21: giấy phép cấp theo TT 12/2018 trước 05-09-2026 tiếp tục thực hiện theo thời hạn; danh mục thiết bị y tế đã qua sử dụng cấm nhập khẩu (Phụ lục I TT 12/2018, sửa bởi Phụ lục I TT 08/2023) tiếp tục thực hiện đến hết 31-12-2026. NĐ 292/2026/NĐ-CP (căn cứ) chưa đăng ký sổ. Chưa kiểm văn bản sửa đổi sau nên hieu_luc_da_doi_chieu: false.'
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Điều 20 khoản 2 còn bãi bỏ TT 04/2007/TT-BTM, TTLT 14/2009, TT 25/2012/TT-BCT, TTLT 01/2012 — chưa có trong sổ. Khoản 3 còn bãi một phần TT 38/2025 và TT 26/2026 — chưa ghi quan_he. NĐ 292/2026/NĐ-CP (căn cứ) đã đăng ký sổ (292-2026-nd-cp.yaml).'
 toan_van: raw/download/congbaocdn.chinhphu.vn/48-2026-tt-bct.pdf

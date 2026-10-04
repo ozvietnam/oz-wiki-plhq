@@ -20,14 +20,26 @@ A:
     ten: Cổng thông tin Hải quan Việt Nam
   - ten_mien: mof.gov.vn
     ten: Bộ Tài chính
+  - ten_mien: bocongan.gov.vn
+    ten: Bộ Công an
+  - ten_mien: vanban.bocongan.gov.vn
+    ten: Cổng văn bản Bộ Công an
   - ten_mien: moit.gov.vn
     ten: Bộ Công Thương
+  - ten_mien: pvtm.gov.vn
+    ten: Cục Phòng vệ thương mại (Bộ Công Thương)
+    ghi_chu: Công bố QĐ/thông báo biện pháp CBPG, tự vệ, chống trợ cấp kèm PDF toàn văn.
+  - ten_mien: trav.gov.vn
+    ten: Cục Phòng vệ thương mại (tên miền cũ, cùng cổng pvtm.gov.vn)
   - ten_mien: moh.gov.vn
     ten: Bộ Y tế
   - ten_mien: mae.gov.vn
     ten: Bộ Nông nghiệp và Môi trường
   - ten_mien: most.gov.vn
     ten: Bộ Khoa học và Công nghệ
+  - ten_mien: mst.gov.vn
+    ten: Bộ Khoa học và Công nghệ (cổng mới, thay most.gov.vn)
+    ghi_chu: Cùng Bộ KH&CN sau sắp xếp bộ máy; dùng khi most.gov.vn chuyển hướng hoặc hết đăng tải.
   - ten_mien: moc.gov.vn
     ten: Bộ Xây dựng
   - ten_mien: quochoi.vn

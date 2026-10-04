@@ -5,17 +5,19 @@ ten: Áp dụng biện pháp chống bán phá giá chính thức đối với s
 co_quan: BCT
 ngay_ban_hanh: '2025-01-14'
 hieu_luc_tu: '2025-01-29'
+het_hieu_luc_tu: '2030-01-29'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - phong-ve-thuong-mai
 nguon:
-  - url: https://luatvietnam.vn/cong-nghiep/quyet-dinh-143-qd-bct-2025-ap-dung-bien-phap-chong-ban-pha-gia-cap-thep-du-ung-luc-387021-d1.html
-    truy_cap: '2026-07-02'
+  - url: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20143_ap%20thue%20chinh%20thuc%20AD17.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 2
 xac_minh:
-  muc: NGUON_B
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
-  hieu_luc_da_doi_chieu: false
+  muc: NGUON_A
+  pham_vi: 'PDF pvtm.gov.vn (OCR): Điều 2 hiệu lực sau 15 ngày kể từ ngày ban hành (14-01-2025 → 29-01-2025); Thông báo thời hạn 05 năm kể từ ngày QĐ có hiệu lực; CON_HIEU_LUC đến hết 28-01-2030 (kiểm đến 04-10-2026)'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 2 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + quangninh.gov.vn (Sở Công Thương)). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc AD17. HS 7312.10.91; 7312.10.99 (đường kính 9,0–16,0 mm). Thuế: Malaysia 9,79%–12,06%, Thái Lan 11%, Trung Quốc 10,48%–28%; 5 năm từ 29/01/2025. Số hiệu hay viết 143/QĐ-BCT-2025.'
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (2 mã HS). Mã vụ việc AD17. PDF Cục PVTM là ảnh — OCR.'
+toan_van: raw/download/pvtm.gov.vn/143-qd-bct.pdf

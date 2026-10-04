@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 4814/QĐ-BCA
+loai: QUYET_DINH
+ten: Bãi bỏ Quyết định 8378/QĐ-BCA ngày 14/10/2025 về danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Công an
+co_quan: BCA
+ngay_ban_hanh: '2026-07-28'
+hieu_luc_tu: '2026-07-28'
+tinh_trang: CHUA_XAC_MINH
+nhanh:
+  - kiem-tra-chuyen-nganh/bca
+quan_he:
+  bai_bo:
+    - so_hieu: 8378/QĐ-BCA
+      tu_ngay: '2026-07-28'
+      can_cu: Điều 1 QĐ 4814/QĐ-BCA (nguồn B luatvietnam/nhansu — chưa mở PDF bậc A)
+nguon:
+  - url: https://luatvietnam.vn/an-ninh-trat-tu/quyet-dinh-4814-qd-bca-2026-bai-bo-quyet-dinh-8378-qd-bca-ve-danh-muc-san-pham-gay-mat-an-toan-442860-d1.html
+    truy_cap: '2026-10-04'
+  - url: https://nhansu.vn/van-ban-phap-luat/Quyet-dinh-4814-QD-BCA-2026-bai-bo-Quyet-dinh-8378-QD-BCA-718152.html
+    truy_cap: '2026-10-04'
+xac_minh:
+  muc: NGUON_B
+  pham_vi: số hiệu, tiêu đề, ngày ban hành; Điều 1 bãi 8378 (chỉ nguồn B)
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-04'
+  boi: cursor-agent@ozvietnam
+  canh_bao: 'Chưa có PDF bậc A. Bãi 8378 không tự hồi phục 6266 — cần PDF A để chốt chuỗi 6266→8378→4814 và quan hệ với TT 125/2026 (khung rủi ro từ 01-07-2026).'
+ghi_chu: 'Đầu mối từ săn hiệu lực HS_API cho 6266/QĐ-BCA.'

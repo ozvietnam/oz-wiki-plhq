@@ -5,17 +5,19 @@ ten: Gia hạn áp dụng biện pháp chống lẩn tránh biện pháp phòng 
 co_quan: BCT
 ngay_ban_hanh: '2023-03-21'
 hieu_luc_tu: '2023-03-22'
+het_hieu_luc_tu: '2026-03-22'
 tinh_trang: HET_HIEU_LUC
 nhanh:
   - phong-ve-thuong-mai
 nguon:
-  - url: https://moit.gov.vn/tin-tuc/thong-bao/gia-han-ap-dung-bien-phap-chong-lan-tranh-bien-phap-phong-ve-thuong-mai-doi-voi-san-pham-thep-cuon-thep-day-nhap-khau.html
-    truy_cap: '2026-07-02'
+  - url: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/Q%C4%90%20693.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 4
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
-  hieu_luc_da_doi_chieu: false
+  muc: NGUON_A
+  pham_vi: 'PDF pvtm.gov.vn (OCR): Điều 3 hiệu lực từ 22-03-2023; Thông báo lịch thuế đến hết 21-03-2026, từ 22-03-2026 trở đi — HET_HIEU_LUC từ 22-03-2026 (kiểm đến 04-10-2026)'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 4 mã HS). Tiêu đề đã đối chiếu (moit.gov.vn + dulieuphapluat.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc AC01.SG04 — thép cuộn, thép dây nhập khẩu (HS 7213.91.90; 7217.10.10; 7217.10.29; 7229.90.99; 9839.10.00). Thuế bổ sung 6,3% → 6,2% → 6,1% → 0% từ 22/03/2026 ⇒ biện pháp đã chấm dứt. Số hiệu hay viết 693/QĐ-BCT-2023 hoặc 693/QĐ-BCT.'
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (4 mã HS). Mã vụ việc AC01.SG04. PDF Cục PVTM là ảnh — OCR.'
+toan_van: raw/download/pvtm.gov.vn/693-qd-bct.pdf

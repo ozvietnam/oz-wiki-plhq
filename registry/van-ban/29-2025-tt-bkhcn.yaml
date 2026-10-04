@@ -6,32 +6,28 @@ ten: Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất 
 co_quan: BKHCN
 ngay_ban_hanh: '2025-11-13'
 hieu_luc_tu: '2025-12-31'
-tinh_trang: CHUA_XAC_MINH
+het_hieu_luc_tu: '2026-07-01'
+tinh_trang: HET_HIEU_LUC
 nhanh:
-- kiem-tra-chuyen-nganh/bkhcn
+  - kiem-tra-chuyen-nganh/bkhcn
 quan_he:
   thay_the:
-  - so_hieu: 2711/QĐ-BKHCN
-    pham_vi: phần sản phẩm CNTT – viễn thông
-    can_cu: theo ghi chú nghiên cứu của hs-code-api data/legal-docs.json — chưa đối chiếu nguồn A
+    - so_hieu: 02/2024/TT-BTTTT
+      tu_ngay: '2025-12-31'
+      can_cu: Điều 5 khoản 2 TT 29/2025/TT-BKHCN
 nguon:
-- url: https://vanban.chinhphu.vn/?docid=215881&pageid=27160
-  truy_cap: '2026-10-04'
-- url: https://thuvienphapluat.vn/van-ban/Thuong-mai/Thong-tu-29-2025-TT-BKHCN-san-pham-hang-hoa-co-kha-nang-gay-mat-an-toan-linh-vuc-cong-nghe-thong-tin-680684.aspx
-  truy_cap: '2026-07-02'
-- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/11/29-bkhcn.pdf
-  truy_cap: '2026-10-04'
+  - url: https://vanban.chinhphu.vn/?docid=215881&pageid=27160
+    truy_cap: '2026-10-04'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/11/46603/59796-1-20251617-161829-2025-tt-bkhcn.pdf
+    truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/36-bkhcn.signed.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 52
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'thẻ vanban.chinhphu.vn: ban hành 13-11-2025, hiệu lực 31-12-2025; người ký Nguyễn Mạnh Hùng'
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'PDF Công báo số 1617+1618: Điều 5–6; tình trạng hiện tại: Điều 6 khoản 2 điểm a TT 36/2026/TT-BKHCN (PDF datafiles ký số, lớp chữ) hết hiệu lực TT 29/2025 từ 01-07-2026 — khớp điều khoản hết hạn khi danh mục rủi ro mới ban hành'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 52 mã HS). Tiêu đề
-  đã đối chiếu (thuvienphapluat.vn + mst.gov.vn (Cổng Bộ KHCN)). KHUNG KTCN 2026 (tin cậy MEDIUM): Khung ''nhóm 2'' (NĐ 132/2008,
-  NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ
-  công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026. GHI CHÚ NGHIỆP VỤ (hs-code-api):
-  [PL2] Phụ lục II của TT 29/2025/TT-BKHCN — SP/HH bắt buộc CÔNG BỐ hợp quy · [PL1] Phụ lục I của TT 29/2025/TT-BKHCN — SP/HH
-  bắt buộc CHỨNG NHẬN hợp quy VÀ công bố hợp quy'
-toan_van: raw/download/datafiles.chinhphu.vn/29-2025-tt-bkhcn.pdf
+ghi_chu: 'Nhập từ hs-code-api (52 mã HS). Hết hiệu lực từ 01-07-2026 theo TT 36/2026/TT-BKHCN.'
+toan_van: raw/download/congbaocdn.chinhphu.vn/29-2025-tt-bkhcn.pdf
