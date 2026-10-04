@@ -10,13 +10,18 @@ nhanh:
   - kiem-tra-chuyen-nganh/byt
   - kiem-tra-chuyen-nganh/an-toan-thuc-pham
 nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-15-2024-tt-byt-44656/55863.htm
+    truy_cap: '2026-10-04'
   - url: https://thuvienphapluat.vn/van-ban/xuat-nhap-khau/thong-tu-15-2024-tt-byt-danh-muc-thuc-pham-phu-gia-thuc-pham-duoc-xac-dinh-ma-so-hang-hoa-625177.aspx
     truy_cap: '2026-07-02'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/44656/55863-1-2025629-63015-2024-tt-byt.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 186
 xac_minh:
-  muc: NGUON_B
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
+  muc: NGUON_A
+  pham_vi: số hiệu/trích yếu trên nguồn A; đã nạp toàn văn
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
+  boi: cursor-agent@ozvietnam
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 186 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn). KHUNG KTCN 2026 (tin cậy LOW): Kiểm tra ATTP vẫn theo NĐ 15/2018/NĐ-CP. Bộ Y tế ra thêm TT 27/2026/TT-BYT (thực phẩm, bao gói tiếp xúc thực phẩm — rủi ro trung bình). Chưa thấy nguồn nói TT 27/2026 thay TT 15/2024 — cần đối chiếu.'
+toan_van: raw/download/congbaocdn.chinhphu.vn/15-2024-tt-byt.pdf
