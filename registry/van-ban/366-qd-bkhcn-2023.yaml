@@ -15,6 +15,8 @@ quan_he:
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=207620
     truy_cap: '2026-07-02'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/3/366-bkhcn.signed.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 6
 xac_minh:
   muc: NGUON_A
@@ -23,3 +25,4 @@ xac_minh:
   ngay: '2026-10-04'
   boi: khoi-tao
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 6 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn + luatvietnam.vn). KHUNG KTCN 2026 (tin cậy MEDIUM): Khung ''nhóm 2'' (NĐ 132/2008, NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026. GHI CHÚ NGHIỆP VỤ (hs-code-api): Bổ sung ống thép không gỉ (HS 7306.40.20; 7306.40.90; 7306.61.10; 7306.61.90; 7306.69.10; 7306.69.90) theo QCVN 20:2019/BKHCN + SĐ1:2021 vào danh mục nhóm 2 của QĐ 2711/QĐ-BKHCN.'
+toan_van: raw/download/datafiles.chinhphu.vn/366-qd-bkhcn.pdf

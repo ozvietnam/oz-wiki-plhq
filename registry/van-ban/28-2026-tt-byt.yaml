@@ -11,10 +11,13 @@ nhanh:
 nguon:
   - url: https://vanban.chinhphu.vn/?classid=1&docid=218707&pageid=27160
     truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/28-byt.signed.pdf
+    truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
   pham_vi: số hiệu, trích yếu, ngày ban hành 01-07-2026 và ngày có hiệu lực 01-07-2026 trên vanban.chinhphu.vn
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: 'Thẻ văn bản cổng Chính phủ khớp số hiệu, Bộ Y tế, người ký Nguyễn Tri Thức, tệp 28-byt.signed.pdf. Chưa đọc điều khoản thi hành nên chưa chốt tình trạng hiệu lực. Mô tả phụ lục từ bài tổng hợp KTCN 2026 (nguồn thứ cấp) — xem hs-code-api data/ktcn-regime-2026.json.'
+ghi_chu: 'Thẻ văn bản cổng Chính phủ khớp số hiệu, Bộ Y tế, người ký Nguyễn Tri Thức, tệp 28-byt.signed.pdf. Chưa đọc điều khoản thi hành nên chưa chốt tình trạng hiệu lực. Mô tả phụ lục từ bài tổng hợp KTCN 2026 (nguồn thứ cấp) — xem hs-code-api data/ktcn-regime-2026.json. PDF datafiles có lớp chữ (2 trang) — chưa đối chiếu điều khoản thi hành trong lần nạp này.'
+toan_van: raw/download/datafiles.chinhphu.vn/28-2026-tt-byt.pdf

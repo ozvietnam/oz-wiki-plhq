@@ -11,6 +11,8 @@ nhanh:
 nguon:
   - url: https://chinhphu.vn/default.aspx?pageid=27160&docid=196087
     truy_cap: '2026-07-02'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/01/47-nhnn.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 2
 xac_minh:
   muc: NGUON_A
@@ -19,3 +21,4 @@ xac_minh:
   ngay: '2026-10-04'
   boi: khoi-tao
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 2 mã HS). Tiêu đề đã đối chiếu (chinhphu.vn + congbao.chinhphu.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Vàng nguyên liệu (HS 7108.12.10; 7108.12.90) thuộc quản lý NHNN.'
+toan_van: raw/download/datafiles.chinhphu.vn/47-2018-tt-nhnn.pdf

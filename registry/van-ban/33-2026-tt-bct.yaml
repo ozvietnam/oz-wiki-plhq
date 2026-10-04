@@ -16,10 +16,13 @@ quan_he:
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=218710&pageid=27160
     truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/33-bct.signed.pdf
+    truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
   pham_vi: số hiệu, trích yếu, ngày ban hành 30-06-2026 và ngày có hiệu lực 01-07-2026 trên vanban.chinhphu.vn
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: 'Thẻ cổng Chính phủ khớp số hiệu, Bộ Công Thương, người ký Nguyễn Sinh Nhật Tân, tệp 33-bct.signed.pdf. Quan hệ thay 41/2023/TT-BCT vẫn theo bài tổng hợp, chưa đọc điều khoản thi hành. Nhóm hàng (tiền chất, hoá chất, nồi hơi…) còn từ nguồn thứ cấp — xem hs-code-api data/ktcn-regime-2026.json.'
+ghi_chu: Thẻ cổng Chính phủ khớp số hiệu, Bộ Công Thương, người ký Nguyễn Sinh Nhật Tân, tệp 33-bct.signed.pdf. Quan hệ thay 41/2023/TT-BCT vẫn theo bài tổng hợp, chưa đọc điều khoản thi hành. Nhóm hàng (tiền chất, hoá chất, nồi hơi…) còn từ nguồn thứ cấp — xem hs-code-api data/ktcn-regime-2026.json.
+toan_van: raw/download/datafiles.chinhphu.vn/33-2026-tt-bct.pdf
