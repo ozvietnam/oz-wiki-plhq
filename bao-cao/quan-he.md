@@ -41,7 +41,8 @@ flowchart LR
   n_24_2026_TT_BYT["24/2026/TT-BYT<br/>còn hiệu lực"]
   n_05_2022_TT_BYT["05/2022/TT-BYT<br/>còn hiệu lực"]
   n_28_2026_TT_BCT["28/2026/TT-BCT<br/>còn hiệu lực"]
-  n_11_2022_TT_BCT["11/2022/TT-BCT<br/>hết hiệu lực"]
+  n_11_2022_TT_BCT["11/2022/TT-BCT<br/>chưa xác minh"]
+  n_1182_Q__BCT["1182/QĐ-BCT<br/>hết hiệu lực"]
   n_29_2025_TT_BKHCN["29/2025/TT-BKHCN<br/>chưa xác minh"]
   n_2711_Q__BKHCN["2711/QĐ-BKHCN<br/>chưa xác minh"]
   n_33_2026_TT_BCT["33/2026/TT-BCT<br/>còn hiệu lực"]
@@ -71,6 +72,7 @@ flowchart LR
   n_15_2026_NQ_CP -->|tạm ngưng| n_46_2026_N__CP
   n_24_2026_TT_BYT -->|sửa đổi| n_05_2022_TT_BYT
   n_28_2026_TT_BCT -->|thay thế| n_11_2022_TT_BCT
+  n_28_2026_TT_BCT -->|bãi bỏ từ 2026-07-17| n_1182_Q__BCT
   n_29_2025_TT_BKHCN -->|thay thế phần sản phẩm CNTT – viễn thông| n_2711_Q__BKHCN
   n_33_2026_TT_BCT -->|thay thế| n_41_2023_TT_BCT
   n_36_2026_TT_BKHCN -->|thay thế| n_10_2024_TT_BKHCN
