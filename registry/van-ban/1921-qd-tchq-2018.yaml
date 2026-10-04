@@ -1,0 +1,37 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 1921/QĐ-TCHQ
+loai: QUYET_DINH
+ten: Về việc ban hành Quy trình phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu nhập khẩu
+co_quan: TCHQ
+ngay_ban_hanh: '2018-06-28'
+tinh_trang: CHUA_XAC_MINH
+nhanh:
+  - phan-loai-hs/quy-trinh-phan-loai
+  - hai-quan/so-tay-nghiep-vu
+nguon:
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/11/21/2022-08%20C%E1%BB%A5c%20ki%E1%BB%83m%20%C4%91%E1%BB%8Bnh%20HQ.pdf
+    truy_cap: '2026-10-04'
+  - url: https://www.vietnamtradeportal.gov.vn/kcfinder/upload/files/1921_QD-TCHQ_.pdf
+    truy_cap: '2026-10-04'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: >-
+    Số hiệu, ngày ban hành, cơ quan và nội dung trích yếu được dẫn trong tài liệu
+    Cục Kiểm định hải quan năm 2023, trang in 10 (trang PDF 14), mục 2.1.
+    Cách ghi đầy đủ trích yếu đối chiếu trang 1 bản đăng lại tại Vietnam Trade Portal.
+    Chưa đối chiếu bản quyết định ký gốc hoặc tình trạng hiệu lực hiện tại.
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-04'
+  boi: Codex@ozvietnam
+  canh_bao: >-
+    Nguồn A là tài liệu nghiên cứu của cơ quan dẫn văn bản, không phải toàn văn
+    quyết định ký gốc. PDF Vietnam Trade Portal mang nhãn THƯ VIỆN PHÁP LUẬT;
+    chỉ dùng đối chiếu bổ sung, không tự gán bậc A cho tên miền này.
+ghi_chu: >-
+  Nhận riêng 1921/QĐ-TCHQ tại issue #2, bình luận 5980982623. Không ghi hieu_luc_tu,
+  toan_van hoặc quan_he khi chưa có bản ký gốc để kiểm chứng điều khoản.
+  Danh mục nguồn và việc cần nhận tiếp: docs/thu-thap/2026-10-04-1921-qd-tchq.md.
+tu_khoa:
+  - phan-loai-hang-hoa
+  - ap-dung-muc-thue
+  - xac-dinh-truoc-ma-so
