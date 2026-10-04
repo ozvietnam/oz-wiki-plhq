@@ -11,6 +11,8 @@ nhanh:
 nguon:
 - url: https://vanban.chinhphu.vn/?docid=193756&pageid=27160
   truy_cap: '2026-10-04'
+- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/05/69.signed.pdf
+  truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 21
 xac_minh:
   muc: NGUON_A
@@ -20,3 +22,4 @@ xac_minh:
   boi: cursor-agent@ozvietnam
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 21 mã HS). Tiêu đề
   đã đối chiếu (reference-trong-08/2023/TT-BCT (chinhphu.vn)).
+toan_van: raw/download/datafiles.chinhphu.vn/69-2018-nd-cp.pdf
