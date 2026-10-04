@@ -34,4 +34,12 @@ xac_minh:
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (1964 mã HS). File datafiles cũ tên 03-bct.signed.pdf là cùng văn bản 08/2023. HET_HIEU_LUC_MOT_PHAN + het_hieu_luc_tu 31-12-2026: khoản 1 Điều 1 và Phụ lục I bị bãi từ 05-09-2026 nhưng nội dung danh mục TB YT đã qua sử dụng còn chuyển tiếp đến hết 31-12-2026 (Điều 21 khoản 3 TT 48/2026); các khoản/phụ lục khác của TT 08/2023 (sửa PL II, sửa 41/2019…) chưa bị 48/2026 bãi hết.'
+danh_muc_hs:
+  tep: danh-muc/08-2023-tt-bct.csv
+  nguon: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/3/39178/44425-1-2023663-66408-2023-tt-bct.pdf
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-04'
+  da_doi_chieu: false
+  ghi_chu: 'Phụ lục I–V từ trang PDF 3. ~465 dòng (314 mã duy nhất 4/6/8). PL I=CAM_NHAP_KHAU; PL II=KHAC (tạm ngừng tạm nhập tái xuất); PL III–V=GIAY_PHEP. Một số dòng «Chương NN toàn bộ» (mã 2 số) không ghi CSV vì schema chỉ 4/6/8 — xem /tmp/extract-danh-muc/08-chapters.txt khi soát.'
+
 toan_van: raw/download/congbaocdn.chinhphu.vn/08-2023-tt-bct.pdf

@@ -12,9 +12,21 @@ quan_he:
   huong_dan:
     - 37/2026/NĐ-CP
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
-  hieu_luc_da_doi_chieu: false
+  muc: NGUON_A
+  pham_vi: 'PDF Công báo số 411 ngày 18-07-2026 (lớp chữ): Điều hiệu lực 01-07-2026; PL I rủi ro trung bình, PL II rủi ro cao; sổ chưa thấy văn bản sau thay/bãi'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: Công báo số 411 ngày 18/7/2026. Không bao gồm kiểm dịch. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
+  boi: cursor-agent@ozvietnam
+ghi_chu: Công báo số 411 ngày 18/7/2026. Không bao gồm kiểm dịch.
+danh_muc_hs:
+  tep: danh-muc/27-2026-tt-bnnmt.csv
+  nguon: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/18/469989-1784362820_v1_1784363213_signed.pdf
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-04'
+  da_doi_chieu: false
+  ghi_chu: 'PDF Công báo số 411 (83 trang). PL I rủi ro trung bình → CONG_BO_HOP_QUY; PL II rủi ro cao → KIEM_TRA_CHAT_LUONG. ~487 dòng / 340 mã. Một số mo_ta đã sửa khi cột tên bị lệch layout.'
+
+toan_van: raw/download/congbaocdn.chinhphu.vn/27-2026-tt-bnnmt.pdf
+nguon:
+  - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/18/469989-1784362820_v1_1784363213_signed.pdf
+    truy_cap: '2026-10-04'
