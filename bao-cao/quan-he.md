@@ -139,6 +139,8 @@ flowchart LR
 flowchart LR
   n_18_2021_N__CP["18/2021/NĐ-CP<br/>còn hiệu lực"]
   n_134_2016_N__CP["134/2016/NĐ-CP<br/>còn hiệu lực"]
+  n_182_2025_N__CP["182/2025/NĐ-CP<br/>còn hiệu lực"]
   n_18_2021_N__CP -->|sửa đổi| n_134_2016_N__CP
+  n_182_2025_N__CP -->|sửa đổi| n_134_2016_N__CP
 ```
 
