@@ -5,21 +5,23 @@ ten: Quy định chi tiết một số điều của Luật Quản lý ngoại t
 co_quan: CP
 ngay_ban_hanh: '2018-05-15'
 hieu_luc_tu: '2018-05-15'
-tinh_trang: CON_HIEU_LUC
+het_hieu_luc_tu: '2026-09-05'
+tinh_trang: HET_HIEU_LUC
 nhanh:
-- quan-ly-ngoai-thuong/luat-khung
+  - quan-ly-ngoai-thuong/luat-khung
 nguon:
-- url: https://vanban.chinhphu.vn/?docid=193756&pageid=27160
-  truy_cap: '2026-10-04'
-- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/05/69.signed.pdf
-  truy_cap: '2026-10-04'
+  - url: https://vanban.chinhphu.vn/?docid=193756&pageid=27160
+    truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/05/69.signed.pdf
+    truy_cap: '2026-10-04'
+  - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-292-2026-nd-cp-470149.htm
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 21
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'thẻ vanban.chinhphu.vn: ban hành 15-05-2018; người ký Nguyễn Xuân Phúc; PDF 69.signed.pdf'
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'thẻ vanban.chinhphu.vn: ban hành 15-05-2018; người ký Nguyễn Xuân Phúc; PDF 69.signed.pdf; Tình trạng: Điều 65 khoản 1 292/2026/NĐ-CP (Công báo số 456 ngày 03-08-2026) — "thay thế 69/2018/NĐ-CP" từ 05-09-2026, người duy trì đã đọc nguyên văn.'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 21 mã HS). Tiêu đề
-  đã đối chiếu (reference-trong-08/2023/TT-BCT (chinhphu.vn)).
+  boi: claude-code@ozvietnam
+ghi_chu: Bị 292/2026/NĐ-CP thay thế từ 2026-09-05. Các mã HS trong phụ lục NĐ 69/2018 phải đối chiếu lại với phụ lục NĐ 292/2026. Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 21 mã HS). Tiêu đề đã đối chiếu (reference-trong-08/2023/TT-BCT (chinhphu.vn)).
 toan_van: raw/download/datafiles.chinhphu.vn/69-2018-nd-cp.pdf
