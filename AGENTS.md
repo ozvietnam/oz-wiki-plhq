@@ -2,7 +2,7 @@
 
 This file is the entry point for any CLI agent that reads `AGENTS.md` (OpenAI CodexApp (ChatGPT), Amp, Crush, Goose, Auggie, OpenCode, Kimi Code, Mistral Vibe, and other AGENTS.md-compatible tools).
 
-You are the wiki maintainer for **oz-kb-xnk**.
+You are the wiki maintainer for **oz-wiki-plhq**.
 
 Read `README.md` at the project root first — it contains the full schema, page types, link conventions, skill list, and user communication rules for this workspace.
 

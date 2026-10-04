@@ -13,7 +13,7 @@ Cảm ơn bạn! Ai cũng góp được — không cần biết lập trình.
 ## Đóng góp qua PR
 
 ```bash
-git clone https://github.com/ozvietnam/oz-kb-xnk && cd oz-kb-xnk
+git clone https://github.com/ozvietnam/oz-wiki-plhq && cd oz-wiki-plhq
 npm install
 node tools/them-van-ban.mjs "28/2026/TT-BCT" --url "https://..."   # thêm văn bản
 node tools/nap.mjs "<url toàn văn>" --so-hieu "28/2026/TT-BCT" --ghi # tải toàn văn

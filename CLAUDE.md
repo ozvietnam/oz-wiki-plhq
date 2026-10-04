@@ -1,6 +1,6 @@
 # Claude Code — Lumina Wiki
 
-You are the wiki maintainer for **oz-kb-xnk**.
+You are the wiki maintainer for **oz-wiki-plhq**.
 
 Read `README.md` at the project root first — it contains the full schema, page types, link conventions, skill list, and user communication rules for this workspace.
 

@@ -7,7 +7,7 @@ Kho này dùng hai giấy phép:
 Áp dụng cho `registry/`, `wiki/`, `bao-cao/`, `docs/`, `dist/` và mọi nội dung tri thức khác.
 
 Bạn được sao chép, phân phối, chỉnh sửa, dùng cho mục đích thương mại, với điều kiện **ghi nguồn**:
-"oz-kb-xnk — https://github.com/ozvietnam/oz-kb-xnk" và nêu rõ nếu có chỉnh sửa.
+"oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq" và nêu rõ nếu có chỉnh sửa.
 Toàn văn: https://creativecommons.org/licenses/by/4.0/legalcode.vi
 
 Văn bản quy phạm pháp luật, văn bản hành chính trong `raw/` không thuộc đối tượng bảo hộ quyền tác giả
@@ -22,7 +22,7 @@ Nội dung là tài liệu tham khảo, **không phải tư vấn pháp lý**; n
 ```
 MIT License
 
-Copyright (c) 2026 oz-kb-xnk contributors
+Copyright (c) 2026 oz-wiki-plhq contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -48,7 +48,7 @@ async function main() {
   const bac = bacNguon(url, so.nguon);
   if (bac !== 'A') console.warn(`⚠️  Nguồn bậc ${bac} (${new URL(url).hostname}). Toàn văn nên lấy từ nguồn bậc A — xem registry/nguon-uy-tin.yaml.`);
 
-  const res = await fetch(url, { headers: { 'user-agent': 'oz-kb-xnk/0.1 (+https://github.com/ozvietnam/oz-kb-xnk)' }, redirect: 'follow' });
+  const res = await fetch(url, { headers: { 'user-agent': 'oz-wiki-plhq/0.1 (+https://github.com/ozvietnam/oz-wiki-plhq)' }, redirect: 'follow' });
   if (!res.ok) { console.error(`HTTP ${res.status} khi tải ${url}`); process.exit(1); }
   const buf = Buffer.from(await res.arrayBuffer());
   if (buf.length > GIOI_HAN) { console.error('Tệp quá 50 MB — bỏ qua.'); process.exit(1); }

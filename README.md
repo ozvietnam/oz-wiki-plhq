@@ -1,4 +1,4 @@
-# Thư viện tri thức pháp luật xuất nhập khẩu Việt Nam (oz-kb-xnk)
+# Thư viện tri thức pháp luật xuất nhập khẩu Việt Nam (oz-wiki-plhq)
 
 Kho mở, miễn phí, cho cộng đồng làm xuất nhập khẩu: **văn bản nào đang điều chỉnh việc gì, còn hiệu lực không, bị văn bản nào thay, nguồn chính thống ở đâu**, kèm wiki giải thích có dẫn nguồn. Người và AI agent cùng đóng góp qua GitHub.
 
@@ -40,7 +40,7 @@ Xem [CONTRIBUTING.md](CONTRIBUTING.md) và [9 luồng công việc](docs/luong-c
 
 ## Giấy phép
 
-Nội dung (sổ, cây, wiki, báo cáo): **CC BY 4.0** — dùng lại thoải mái, ghi nguồn "oz-kb-xnk". Mã công cụ: **MIT**. Văn bản quy phạm pháp luật không thuộc đối tượng bảo hộ quyền tác giả (Luật Sở hữu trí tuệ, Điều 15). Xem [LICENSE.md](LICENSE.md).
+Nội dung (sổ, cây, wiki, báo cáo): **CC BY 4.0** — dùng lại thoải mái, ghi nguồn "oz-wiki-plhq". Mã công cụ: **MIT**. Văn bản quy phạm pháp luật không thuộc đối tượng bảo hộ quyền tác giả (Luật Sở hữu trí tuệ, Điều 15). Xem [LICENSE.md](LICENSE.md).
 
 ---
 
