@@ -6,15 +6,19 @@ co_quan: CP
 ngay_ban_hanh: '2016-09-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - thue/luat-thue
-  - thue/mien-giam-hoan
+- thue/luat-thue
+- thue/mien-giam-hoan
 quan_he:
   huong_dan:
-    - 107/2016/QH13
+  - 107/2016/QH13
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: hiểu biết nền lúc khởi tạo
+  muc: NGUON_A
+  pham_vi: hiểu biết nền lúc khởi tạo; có tệp toàn văn bậc A (datafiles/congbaocdn)
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
+  boi: cursor-agent@ozvietnam
 ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.
+toan_van: raw/download/datafiles.chinhphu.vn/134-2016-nd-cp.pdf
+nguon:
+- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/10/134.signed.pdf
+  truy_cap: '2026-10-04'

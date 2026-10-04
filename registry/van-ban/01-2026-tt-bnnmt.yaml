@@ -6,15 +6,20 @@ co_quan: BNNMT
 hieu_luc_tu: '2026-01-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - kiem-tra-chuyen-nganh/kiem-dich
-  - kiem-tra-chuyen-nganh/bnnmt
+- kiem-tra-chuyen-nganh/kiem-dich
+- kiem-tra-chuyen-nganh/bnnmt
 quan_he:
   huong_dan:
-    - 79/2015/QH13
+  - 79/2015/QH13
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  muc: NGUON_A
+  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc; có tệp toàn văn bậc A (datafiles/congbaocdn)
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Bản hợp nhất VBHN 67/VBHN-BNNMT (2026). Cơ quan: Cục Chăn nuôi và Thú y. Tên mô tả. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Bản hợp nhất VBHN 67/VBHN-BNNMT (2026). Cơ quan: Cục Chăn nuôi và Thú y. Tên mô tả. Bài tổng hợp KTCN 2026 (nguồn
+  thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
+toan_van: raw/download/datafiles.chinhphu.vn/01-2026-tt-bnnmt.pdf
+nguon:
+- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/01-bnnmt.pdf
+  truy_cap: '2026-10-04'

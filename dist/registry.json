@@ -110,15 +110,22 @@
         ]
       },
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "muc": "NGUON_A",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc; có tệp toàn văn bậc A (datafiles/congbaocdn)",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Bản hợp nhất VBHN 67/VBHN-BNNMT (2026). Cơ quan: Cục Chăn nuôi và Thú y. Tên mô tả. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/01-2026-tt-bnnmt.pdf",
+      "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/01-bnnmt.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "slug": "01-2026-tt-bnnmt",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -174,15 +181,22 @@
         "kiem-tra-chuyen-nganh/khung-chat-luong"
       ],
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "muc": "NGUON_A",
+        "pham_vi": "hiểu biết nền lúc khởi tạo; có tệp toàn văn bậc A (datafiles/congbaocdn)",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Đã được sửa đổi bởi Luật 78/2025/QH15 (theo nguồn thứ cấp).",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/05-2007-qh12.doc",
+      "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2007/12/97732_l5qh.doc",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "slug": "05-2007-qh12",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "duoc_huong_dan_boi": [
           {
@@ -310,15 +324,22 @@
         ]
       },
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu, ngày ban hành/hiệu lực theo ghi chú hs-code-api",
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, ngày ban hành/hiệu lực theo ghi chú hs-code-api; có tệp toàn văn bậc A (datafiles/congbaocdn)",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "hs-code-api@ozvietnam"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Tạo từ ghi chú hs-code-api: \"37/2013/TT-BCT được sửa đổi, bổ sung bởi TT 07/2026/TT-BCT (ban hành 24/02/2026, hiệu lực 10/04/2026)\". Cần trích yếu nguyên văn + nguồn A.",
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/07-2026-tt-bct.pdf",
+      "nguon": [
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/12/07bctsigned-1773303436759207525659.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "slug": "07-2026-tt-bct",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -380,6 +401,10 @@
         {
           "url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=160072",
           "truy_cap": "2026-07-02"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/4/03-bct.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "trich_dan_trong_bieu_thue": 1964,
@@ -391,6 +416,7 @@
         "boi": "khoi-tao"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1964 mã HS). Tiêu đề đã đối chiếu (vbpl.vn).",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/08-2023-tt-bct.pdf",
       "slug": "08-2023-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -1035,15 +1061,22 @@
         ]
       },
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "muc": "NGUON_A",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc; có tệp toàn văn bậc A (datafiles/congbaocdn)",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "PCCC và cứu nạn cứu hộ (8 sản phẩm), thiết bị an toàn giao thông, giám sát an ninh công cộng. Nền: Luật 55/2024/QH15. Tem kiểm định cũ hết 30/6/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/125-2026-tt-bca.pdf",
+      "nguon": [
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/8/20/470259-1787037095_v1_1787187913_signed.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "slug": "125-2026-tt-bca",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -1267,15 +1300,22 @@
         ]
       },
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "muc": "NGUON_A",
+        "pham_vi": "hiểu biết nền lúc khởi tạo; có tệp toàn văn bậc A (datafiles/congbaocdn)",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/134-2016-nd-cp.pdf",
+      "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/10/134.signed.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "slug": "134-2016-nd-cp",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_sua_doi_boi": [
           {
@@ -1706,19 +1746,24 @@
         {
           "url": "https://caselaw.vn/van-ban-phap-luat/327200",
           "truy_cap": "2026-07-02"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/03/173-bqp.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "trich_dan_trong_bieu_thue": 41,
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực; có tệp toàn văn bậc A (datafiles/congbaocdn)",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 41 mã HS). Tiêu đề đã đối chiếu (caselaw.vn + luatvietnam.vn).",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/173-2018-tt-bqp.pdf",
       "slug": "173-2018-tt-bqp",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -1760,15 +1805,22 @@
         ]
       },
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "muc": "NGUON_A",
+        "pham_vi": "hiểu biết nền lúc khởi tạo; có tệp toàn văn bậc A (datafiles/congbaocdn)",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/18-2021-nd-cp.pdf",
+      "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2021/03/18.signed.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "slug": "18-2021-nd-cp",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -2035,19 +2087,24 @@
         {
           "url": "https://mst.gov.vn/van-ban-phap-luat/14290.htm",
           "truy_cap": "2026-07-02"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/01/22-btttt.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "trich_dan_trong_bieu_thue": 31,
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực; có tệp toàn văn bậc A (datafiles/congbaocdn)",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 31 mã HS). Tiêu đề đã đối chiếu (mst.gov.vn (Bộ) + caselaw.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Sửa đổi bởi TT 11/2024/TT-BTTTT; hợp nhất tại VB 09/VBHN-BTTTT (2024) · [PL2] Sửa đổi bởi TT 11/2024/TT-BTTTT; hợp nhất tại VB 09/VBHN-BTTTT (2024)",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/22-2018-tt-btttt.pdf",
       "slug": "22-2018-tt-btttt",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_sua_doi_boi": [
           {
@@ -2472,19 +2529,24 @@
         {
           "url": "https://thuvienphapluat.vn/van-ban/Thuong-mai/Quyet-dinh-2711-QD-BKHCN-2022-san-pham-hang-hoa-nhom-2-thuoc-quan-ly-Bo-Khoa-hoc-Cong-nghe-549982.aspx",
           "truy_cap": "2026-07-02"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/2711-bkhcn.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "trich_dan_trong_bieu_thue": 263,
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực; có tệp toàn văn bậc A (datafiles/congbaocdn)",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 263 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn + luatvietnam.vn). KHUNG KTCN 2026 (tin cậy MEDIUM): Khung 'nhóm 2' (NĐ 132/2008, NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026. GHI CHÚ NGHIỆP VỤ (hs-code-api): Đã sửa đổi/bổ sung bởi QĐ 366/QĐ-BKHCN (2023), QĐ 367/QĐ-BKHCN (2024); phần CNTT-viễn thông thay bằng TT 29/2025/TT-BKHCN",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/2711-qd-bkhcn.pdf",
       "slug": "2711-qd-bkhcn-2022",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_thay_the_boi": [
           {
@@ -2521,15 +2583,22 @@
         "bo-may"
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "muc": "NGUON_A",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc; có tệp toàn văn bậc A (datafiles/congbaocdn)",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Bộ Nội vụ nay quản lý an toàn, vệ sinh lao động sau khi Bộ LĐ-TB&XH giải thể. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/276-2026-nd-cp.pdf",
+      "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/276-ndcp.signed.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "slug": "276-2026-nd-cp",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -2663,19 +2732,24 @@
         {
           "url": "https://thuvienphapluat.vn/van-ban/Thuong-mai/Thong-tu-29-2025-TT-BKHCN-san-pham-hang-hoa-co-kha-nang-gay-mat-an-toan-linh-vuc-cong-nghe-thong-tin-680684.aspx",
           "truy_cap": "2026-07-02"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/11/29-bkhcn.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "trich_dan_trong_bieu_thue": 52,
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực; có tệp toàn văn bậc A (datafiles/congbaocdn)",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 52 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn + mst.gov.vn (Cổng Bộ KHCN)). KHUNG KTCN 2026 (tin cậy MEDIUM): Khung 'nhóm 2' (NĐ 132/2008, NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026. GHI CHÚ NGHIỆP VỤ (hs-code-api): [PL2] Phụ lục II của TT 29/2025/TT-BKHCN — SP/HH bắt buộc CÔNG BỐ hợp quy · [PL1] Phụ lục I của TT 29/2025/TT-BKHCN — SP/HH bắt buộc CHỨNG NHẬN hợp quy VÀ công bố hợp quy",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/29-2025-tt-bkhcn.pdf",
       "slug": "29-2025-tt-bkhcn",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -2962,15 +3036,22 @@
         ]
       },
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "muc": "NGUON_A",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc; có tệp toàn văn bậc A (datafiles/congbaocdn)",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Tên đầy đủ chưa xác minh. Chuyển sang CON_HIEU_LUC từ 15/10/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/336-2026-nd-cp.pdf",
+      "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/8/336_2026_nd-cp_22082026-signed.signed.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "slug": "336-2026-nd-cp",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -3308,15 +3389,22 @@
         ]
       },
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "muc": "NGUON_A",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc; có tệp toàn văn bậc A (datafiles/congbaocdn)",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Bỏ \"nhóm 1/nhóm 2\"; từ 01/7/2026 chia rủi ro thấp/trung bình/cao (Điều 82, 83). Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/37-2026-nd-cp.pdf",
+      "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/37-1.signed.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "slug": "37-2026-nd-cp",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "duoc_huong_dan_boi": [
           {
@@ -4080,6 +4168,10 @@
         {
           "url": "https://vbpl.vn/search?q=69%2F2018%2FND-CP",
           "truy_cap": "2026-07-02"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/05/69.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "trich_dan_trong_bieu_thue": 21,
@@ -4091,6 +4183,7 @@
         "boi": "khoi-tao"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 21 mã HS). Tiêu đề đã đối chiếu (reference-trong-08/2023/TT-BCT (chinhphu.vn)).",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/69-2018-nd-cp.pdf",
       "slug": "69-2018-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -4358,19 +4451,24 @@
         {
           "url": "https://luatvietnam.vn/cong-nghiep/nghi-dinh-82-2022-nd-cp-sua-doi-nghi-dinh-113-2017-nd-cp-huong-dan-luat-hoa-chat-231981-d1.html",
           "truy_cap": "2026-07-02"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/10/38082/42150-1-2022801-80282-2022-nd-cp.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "trich_dan_trong_bieu_thue": 258,
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực; có tệp toàn văn bậc A (datafiles/congbaocdn)",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 258 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn).",
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/82-2022-nd-cp.pdf",
       "slug": "82-2022-nd-cp",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -4386,15 +4484,22 @@
         "hai-quan/mot-cua"
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "muc": "NGUON_A",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc; có tệp toàn văn bậc A (datafiles/congbaocdn)",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Sắp hết hiệu lực: bị NĐ 336/2026/NĐ-CP thay thế từ 15/10/2026. Điều 83 khoản 4 NĐ 37/2026 còn dẫn Điều 17 NĐ 85/2019 — dẫn chiếu sẽ lạc hậu. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/85-2019-nd-cp.pdf",
+      "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/11/85.signed.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "slug": "85-2019-nd-cp",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_thay_the_boi": [
           {

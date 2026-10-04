@@ -1,18 +1,24 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 85/2019/NĐ-CP
 loai: NGHI_DINH
-ten: Quy định thủ tục hành chính theo cơ chế một cửa quốc gia, cơ chế một cửa ASEAN và kiểm tra chuyên ngành đối với hàng hoá xuất khẩu, nhập khẩu
+ten: Quy định thủ tục hành chính theo cơ chế một cửa quốc gia, cơ chế một cửa ASEAN và kiểm tra chuyên ngành đối với hàng
+  hoá xuất khẩu, nhập khẩu
 co_quan: CP
 ngay_ban_hanh: '2019-11-14'
 hieu_luc_tu: '2020-01-01'
 het_hieu_luc_tu: '2026-10-15'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - hai-quan/mot-cua
+- hai-quan/mot-cua
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  muc: NGUON_A
+  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc; có tệp toàn văn bậc A (datafiles/congbaocdn)
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Sắp hết hiệu lực: bị NĐ 336/2026/NĐ-CP thay thế từ 15/10/2026. Điều 83 khoản 4 NĐ 37/2026 còn dẫn Điều 17 NĐ 85/2019 — dẫn chiếu sẽ lạc hậu. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Sắp hết hiệu lực: bị NĐ 336/2026/NĐ-CP thay thế từ 15/10/2026. Điều 83 khoản 4 NĐ 37/2026 còn dẫn Điều 17 NĐ 85/2019
+  — dẫn chiếu sẽ lạc hậu. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
+toan_van: raw/download/datafiles.chinhphu.vn/85-2019-nd-cp.pdf
+nguon:
+- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/11/85.signed.pdf
+  truy_cap: '2026-10-04'

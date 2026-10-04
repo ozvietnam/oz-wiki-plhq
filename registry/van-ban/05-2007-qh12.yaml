@@ -7,11 +7,16 @@ ngay_ban_hanh: '2007-11-21'
 hieu_luc_tu: '2008-07-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - kiem-tra-chuyen-nganh/khung-chat-luong
+- kiem-tra-chuyen-nganh/khung-chat-luong
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: hiểu biết nền lúc khởi tạo
+  muc: NGUON_A
+  pham_vi: hiểu biết nền lúc khởi tạo; có tệp toàn văn bậc A (datafiles/congbaocdn)
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Đã được sửa đổi bởi Luật 78/2025/QH15 (theo nguồn thứ cấp).
+  boi: cursor-agent@ozvietnam
+ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Đã được sửa đổi bởi Luật 78/2025/QH15 (theo nguồn thứ
+  cấp).
+toan_van: raw/download/datafiles.chinhphu.vn/05-2007-qh12.doc
+nguon:
+- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2007/12/97732_l5qh.doc
+  truy_cap: '2026-10-04'

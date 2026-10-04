@@ -7,14 +7,20 @@ ngay_ban_hanh: '2026-06-30'
 hieu_luc_tu: '2026-07-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - kiem-tra-chuyen-nganh/bca
+- kiem-tra-chuyen-nganh/bca
 quan_he:
   huong_dan:
-    - 37/2026/NĐ-CP
+  - 37/2026/NĐ-CP
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  muc: NGUON_A
+  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc; có tệp toàn văn bậc A (datafiles/congbaocdn)
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'PCCC và cứu nạn cứu hộ (8 sản phẩm), thiết bị an toàn giao thông, giám sát an ninh công cộng. Nền: Luật 55/2024/QH15. Tem kiểm định cũ hết 30/6/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'PCCC và cứu nạn cứu hộ (8 sản phẩm), thiết bị an toàn giao thông, giám sát an ninh công cộng. Nền: Luật 55/2024/QH15.
+  Tem kiểm định cũ hết 30/6/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api
+  data/ktcn-regime-2026.json.'
+toan_van: raw/download/congbaocdn.chinhphu.vn/125-2026-tt-bca.pdf
+nguon:
+- url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/8/20/470259-1787037095_v1_1787187913_signed.pdf
+  truy_cap: '2026-10-04'

@@ -7,15 +7,20 @@ ngay_ban_hanh: '2018-12-28'
 hieu_luc_tu: '2019-02-12'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - quan-ly-ngoai-thuong/giay-phep
+- quan-ly-ngoai-thuong/giay-phep
 nguon:
-  - url: https://mst.gov.vn/van-ban-phap-luat/14290.htm
-    truy_cap: '2026-07-02'
+- url: https://mst.gov.vn/van-ban-phap-luat/14290.htm
+  truy_cap: '2026-07-02'
+- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/01/22-btttt.signed.pdf
+  truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 31
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
+  muc: NGUON_A
+  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực; có tệp toàn văn bậc A (datafiles/congbaocdn)
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 31 mã HS). Tiêu đề đã đối chiếu (mst.gov.vn (Bộ) + caselaw.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Sửa đổi bởi TT 11/2024/TT-BTTTT; hợp nhất tại VB 09/VBHN-BTTTT (2024) · [PL2] Sửa đổi bởi TT 11/2024/TT-BTTTT; hợp nhất tại VB 09/VBHN-BTTTT (2024)'
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 31 mã HS). Tiêu đề
+  đã đối chiếu (mst.gov.vn (Bộ) + caselaw.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Sửa đổi bởi TT 11/2024/TT-BTTTT; hợp nhất
+  tại VB 09/VBHN-BTTTT (2024) · [PL2] Sửa đổi bởi TT 11/2024/TT-BTTTT; hợp nhất tại VB 09/VBHN-BTTTT (2024)'
+toan_van: raw/download/datafiles.chinhphu.vn/22-2018-tt-btttt.pdf

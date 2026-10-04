@@ -7,14 +7,18 @@ ngay_ban_hanh: '2021-03-11'
 hieu_luc_tu: '2021-04-25'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - thue/luat-thue
+- thue/luat-thue
 quan_he:
   sua_doi:
-    - 134/2016/NĐ-CP
+  - 134/2016/NĐ-CP
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: hiểu biết nền lúc khởi tạo
+  muc: NGUON_A
+  pham_vi: hiểu biết nền lúc khởi tạo; có tệp toàn văn bậc A (datafiles/congbaocdn)
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
+  boi: cursor-agent@ozvietnam
 ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.
+toan_van: raw/download/datafiles.chinhphu.vn/18-2021-nd-cp.pdf
+nguon:
+- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2021/03/18.signed.pdf
+  truy_cap: '2026-10-04'
