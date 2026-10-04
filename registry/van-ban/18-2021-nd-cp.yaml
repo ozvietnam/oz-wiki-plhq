@@ -14,6 +14,8 @@ quan_he:
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=202806&pageid=27160
     truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2021/03/18.signed.pdf
+    truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
   pham_vi: số hiệu, trích yếu, ngày ban hành 11-03-2021 và ngày có hiệu lực 25-04-2021 trên vanban.chinhphu.vn
@@ -21,3 +23,4 @@ xac_minh:
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
 ghi_chu: 'Thẻ cổng Chính phủ khớp ngày và người ký Nguyễn Xuân Phúc. PDF: https://datafiles.chinhphu.vn/cpp/files/vbpq/2021/03/18.signed.pdf. Chưa đọc điều khoản sửa đổi.'
+toan_van: raw/download/datafiles.chinhphu.vn/18-2021-nd-cp.pdf
