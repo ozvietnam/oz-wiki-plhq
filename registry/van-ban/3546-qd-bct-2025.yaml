@@ -17,5 +17,6 @@ xac_minh:
   pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (6 mã HS). Mã vụ việc AR02.AD10. Điều chỉnh mức thuế CBPG theo nhóm công ty, áp dụng đến 15/10/2026 trừ khi có QĐ khác. Đã dò pvtm/moit/datafiles (04-10-2026): chỉ thấy QĐ 421 (khởi xướng) và 2324 (gia hạn điều tra) — chưa công bố PDF kết quả 3546 trên cổng A.'
+  boi: cursor-agent@ozvietnam
+  canh_bao: 'Chưa có PDF bậc A. OCR bản TVXNK (C): Điều 4 hiệu lực sau 07 ngày kể từ ngày ban hành (03-12-2025 → 10-12-2025); Thông báo kèm theo áp dụng thuế đến hết 15-10-2026. Đã dò lại trav AD10/AR01.AD10, pvtm news, moit/datafiles (04-10-2026) — chỉ có 421/2324/3013, chưa thấy toàn văn kết quả 3546 trên cổng A.'
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (6 mã HS). Mã vụ việc AR02.AD10. Điều chỉnh mức thuế CBPG theo nhóm công ty, áp dụng đến 15/10/2026 trừ khi có QĐ khác.'

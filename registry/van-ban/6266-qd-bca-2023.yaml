@@ -18,5 +18,5 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-  canh_bao: 'Chưa có PDF bậc A (datafiles/vbpl/congbao/bocongan — dò 04-10-2026). bocongan.gov.vn nhắc 6266 trong bài hướng dẫn nhập khẩu PCCC nhưng không kèm toàn văn. TT 125/2026/TT-BCA (PDF Công báo) không nêu bãi 6266.'
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (19 mã HS). Nguồn B: hiệu lực sau khi TT 08/2019/TT-BCA bị bãi (TT 06/2024/TT-BCA theo vbpl). Khung rủi ro mới BCA là TT 125/2026/TT-BCA — cần đối chiếu mã khi có PDF 6266.'
+  canh_bao: 'Chưa có PDF bậc A của 6266 (datafiles/vbpl/congbao/bocongan — dò lại 04-10-2026). Đầu mối nguồn B: QĐ 8378/QĐ-BCA (14-10-2025) Điều 2 thay thế 6266; sau đó QĐ 4814/QĐ-BCA (28-07-2026) bãi 8378 — không suy ra hồi phục 6266. TT 125/2026 (PDF Công báo) không liệt kê bãi 6266. Giữ CHUA_XAC_MINH đến khi có PDF A của 8378 hoặc 4814.'
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (19 mã HS). Nguồn B: hiệu lực sau khi TT 08/2019/TT-BCA bị bãi (TT 06/2024/TT-BCA theo vbpl). Khung rủi ro mới BCA là TT 125/2026/TT-BCA. Đã mở stub 8378/QĐ-BCA và 4814/QĐ-BCA trong sổ để theo dõi chuỗi.'

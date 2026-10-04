@@ -20,7 +20,7 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-  canh_bao: 'Tình trạng hiện tại chưa chốt: PDF datafiles NĐ 37/2026 (OCR Điều 97 khoản 2) cho hết NĐ 132/2008 và 74/2018 từ 01-07-2026; khoản 3 cho phép áp dụng nhóm 1/2 theo các NĐ đó đến hết 30-06-2026. TT 36/2026/TT-BKHCN ban hành danh mục rủi ro mới nhưng Điều 6 khoản 2 không liệt kê bãi 2711/QĐ-BKHCN. Không suy ra hết HL QĐ chỉ vì mất khung NĐ — cần QĐ/TT-BKHCN hoặc vbpl ghi rõ hết/còn trước khi đánh true.'
+  canh_bao: 'Tình trạng hiện tại chưa chốt: PDF datafiles NĐ 37/2026 (OCR Điều 97 khoản 2) cho hết NĐ 132/2008 và 74/2018 từ 01-07-2026; khoản 3 cho phép áp dụng nhóm 1/2 theo các NĐ đó đến hết 30-06-2026. TT 36/2026/TT-BKHCN ban hành danh mục rủi ro mới nhưng Điều 6 khoản 2 không liệt kê bãi 2711/QĐ-BKHCN. QĐ 671/QĐ-BKHCN danh mục hết HL toàn bộ/một phần năm 2025 (PDF mic.mediacdn — chưa bậc A) cũng không liệt kê 2711/366/367. Không suy ra hết HL QĐ chỉ vì mất khung NĐ — cần QĐ/TT-BKHCN hoặc vbpl ghi rõ hết/còn trước khi đánh true.'
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (263 mã HS). PDF datafiles là ảnh — điều khoản đọc bằng OCR. Bổ sung bởi QĐ 366/2023 và 367/2024 theo ghi chú hs-code-api.'
 quan_he:
   thay_the:

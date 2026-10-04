@@ -18,5 +18,5 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-  canh_bao: 'Chưa có PDF bậc A (datafiles/vbpl/congbao — dò 04-10-2026). Căn cứ TT 08/2019/TT-BCA đã bị bãi; danh mục nhóm 2 BCA chuyển sang QĐ 6266/2023 rồi khung rủi ro TT 125/2026 — tình trạng 9981 chưa chốt nguồn A.'
+  canh_bao: 'Chưa có PDF bậc A còn sống: URL customs.gov.vn Attachments/12857/QD9981-BCA 2019.PDF (TVXNK dẫn) trả 404 (04-10-2026); datafiles/vbpl/congbao/bocongan cũng không thấy. TVXNK/unicustoms có bản chữ (nguồn C) — Điều 2 hiệu lực từ ngày ký — chưa đủ để đánh true. Chuỗi danh mục BCA: 9981 → 6266 → 8378 → 4814 / TT 125 — tình trạng 9981 chưa chốt A.'
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (12 mã HS). Công bố mã HS cho 29 sản phẩm nhóm 2 theo TT 08/2019/TT-BCA. Cần PDF A trước khi đánh đối chiếu hiệu lực.'

@@ -16,5 +16,5 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-  canh_bao: 'Công báo có 45/2024/TT-BTC và 45/2025/TT-BCT; không thấy 45/2024/TT-BCT trên congbao.chinhphu.vn / moit.gov.vn / vbpl (kiểm lại 04-10-2026). Khả năng cao số hiệu hs-code-api lệch — cần đối chiếu lại mã HS dẫn trước khi nạp toàn văn.'
+  canh_bao: 'Công báo có 45/2024/TT-BTC, 45/2024/TT-BTNMT và 45/2025/TT-BCT; không thấy 45/2024/TT-BCT trên congbao/moit/vbpl/datafiles (kiểm lại 04-10-2026; URL congbao Uploads/.../45-2024-TT-BCT.pdf trả HTML). Khả năng cao số hiệu hs-code-api lệch (1 mã HS) — cần đối chiếu lại mã HS dẫn trước khi nạp toàn văn.'
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (1 mã HS). Giữ stub để điểm mù HS_API còn thấy; không đặt NGUON_A khi chưa xác định đúng văn bản.
