@@ -1,7 +1,7 @@
 {
   "phien_ban": "2026-10-04",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 136,
+  "tong": 141,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -615,7 +615,7 @@
       "co_quan": "BCT",
       "ngay_ban_hanh": "2022-04-06",
       "het_hieu_luc_tu": "2026-07-17",
-      "tinh_trang": "HET_HIEU_LUC",
+      "tinh_trang": "CHUA_XAC_MINH",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct",
         "kiem-tra-chuyen-nganh/an-toan-thuc-pham"
@@ -627,7 +627,7 @@
         "ngay": "2026-10-04",
         "boi": "khoi-tao"
       },
-      "ghi_chu": "Hết hiệu lực 17/7/2026 — nguồn tổng hợp ghi \"đã xác minh nguyên văn\". Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "ghi_chu": "Hết hiệu lực 17/7/2026 — nguồn tổng hợp ghi \"đã xác minh nguyên văn\". Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json. MÂU THUẪN NGUỒN (04/10/2026): bài tổng hợp nói hết hiệu lực 17/7/2026 \"đã xác minh nguyên văn\"; Hermes-211 (hs-code-api nhánh hermes/ktcn-2026-kiem-chung, reports/ktcn-2026/KIEM-CHUNG.md, 04/10/2026) đọc TT 28/2026/TT-BCT không thấy nhắc TT 11/2022. Giữ ngày 17/7/2026 làm ngày dự kiến, chuyển tình trạng sang CHUA_XAC_MINH cho tới khi mở TT 11/2022 và điều khoản thi hành TT 28/2026.",
       "slug": "11-2022-tt-bct",
       "bac_nguon_cao_nhat": null,
       "quan_he_nguoc": {
@@ -635,7 +635,8 @@
           {
             "tu": "28/2026/TT-BCT",
             "quan_he": "thay_the",
-            "so_hieu": "11/2022/TT-BCT"
+            "so_hieu": "11/2022/TT-BCT",
+            "can_cu": "CHỈ theo bài tổng hợp KTCN 2026. MÂU THUẪN: Hermes-211 (hs-code-api nhánh hermes/ktcn-2026-kiem-chung, reports/ktcn-2026/KIEM-CHUNG.md, 04/10/2026) đọc TT 28/2026/TT-BCT và không thấy nhắc TT 11/2022/TT-BCT — cần mở TT 11/2022 và điều khoản thi hành TT 28/2026"
           }
         ]
       }
@@ -807,13 +808,43 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "1175/QĐ-TTg",
+      "loai": "QUYET_DINH",
+      "ten": "Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu (EVFTA)",
+      "co_quan": "TTG",
+      "ngay_ban_hanh": "2020-08-04",
+      "hieu_luc_tu": "2020-08-04",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "xuat-xu-fta/hiep-dinh"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-1175-qd-ttg-31820.htm",
+          "truy_cap": "2026-10-04"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành và mốc hiệu lực trên trang Công báo. Chưa mở toàn văn điều khoản thi hành.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "grok@ozvietnam"
+      },
+      "ghi_chu": "Cùng chủ đề với 126/QĐ-TTg ngày 16/01/2026. Chưa thấy điều khoản nói 126 thay hoặc bãi bỏ 1175, nên không ghi quan_he.",
+      "slug": "1175-qd-ttg-2020",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "1182/QĐ-BCT",
       "loai": "QUYET_DINH",
       "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
       "co_quan": "BCT",
       "ngay_ban_hanh": "2021-04-06",
       "hieu_luc_tu": "2021-04-06",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "het_hieu_luc_tu": "2026-07-17",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
@@ -831,10 +862,20 @@
         "ngay": "2026-10-04",
         "boi": "khoi-tao"
       },
-      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 249 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn + caselaw.vn (PDF gốc BCT)). KHUNG KTCN 2026: QĐ công bố danh mục theo khung cũ — Phụ lục 2 (ATTP) đã bị TT 28/2026/TT-BCT vượt qua; Phụ lục 1 (chất lượng nhóm 2) chuyển sang đối chiếu TT 33/2026/TT-BCT. Quan hệ pháp lý chính thức: CHƯA XÁC MINH. GHI CHÚ NGHIỆP VỤ (hs-code-api): [PL2] Phụ lục 2 của QĐ 1182/QĐ-BCT — Danh mục kiểm tra chuyên ngành về an toàn thực phẩm (sữa; nước giải khát, rượu, bia, cồn; dầu thực vật; bột, tinh bột, bánh, mứt, kẹo) · [PL1] Phụ lục 1 của QĐ 1182/QĐ-BCT — Danh mục kiểm tra chuyên ngành về chất lượng sản phẩm, hàng hóa nhóm 2",
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 249 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn + caselaw.vn (PDF gốc BCT)). KHUNG KTCN 2026: QĐ công bố danh mục theo khung cũ — Phụ lục 2 (ATTP) đã bị TT 28/2026/TT-BCT vượt qua; Phụ lục 1 (chất lượng nhóm 2) chuyển sang đối chiếu TT 33/2026/TT-BCT. Quan hệ pháp lý chính thức: CHƯA XÁC MINH. GHI CHÚ NGHIỆP VỤ (hs-code-api): [PL2] Phụ lục 2 của QĐ 1182/QĐ-BCT — Danh mục kiểm tra chuyên ngành về an toàn thực phẩm (sữa; nước giải khát, rượu, bia, cồn; dầu thực vật; bột, tinh bột, bánh, mứt, kẹo) · [PL1] Phụ lục 1 của QĐ 1182/QĐ-BCT — Danh mục kiểm tra chuyên ngành về chất lượng sản phẩm, hàng hóa nhóm 2 CẬP NHẬT 04/10/2026: hết hiệu lực từ 17/7/2026 theo Điều 4 TT 28/2026/TT-BCT (Hermes-211 (hs-code-api nhánh hermes/ktcn-2026-kiem-chung, reports/ktcn-2026/KIEM-CHUNG.md, 04/10/2026)). Phụ lục 1 (chất lượng nhóm 2) có thuộc phạm vi bãi bỏ không: cần đọc nguyên văn Điều 4.",
       "slug": "1182-qd-bct-2021",
       "bac_nguon_cao_nhat": "B",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "28/2026/TT-BCT",
+            "quan_he": "bai_bo",
+            "so_hieu": "1182/QĐ-BCT",
+            "tu_ngay": "2026-07-17",
+            "can_cu": "Điều 4 TT 28/2026/TT-BCT — theo Hermes-211 (hs-code-api nhánh hermes/ktcn-2026-kiem-chung, reports/ktcn-2026/KIEM-CHUNG.md, 04/10/2026), đã mở văn bản; chưa ghi URL nguồn A"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "12/2018/TT-BCT",
@@ -1024,6 +1065,64 @@
       "ghi_chu": "Cơ quan: Ban Cơ yếu Chính phủ. Chuyển tiếp 24 tháng cho sản phẩm đã cấp phép. Liên quan NĐ 341/2026/NĐ-CP. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
       "slug": "126-2026-tt-bqp",
       "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "126/QĐ-TTg",
+      "loai": "QUYET_DINH",
+      "ten": "Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu (EVFTA)",
+      "co_quan": "TTG",
+      "ngay_ban_hanh": "2026-01-16",
+      "hieu_luc_tu": "2026-01-16",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "xuat-xu-fta/hiep-dinh"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-126-qd-ttg-468798.htm",
+          "truy_cap": "2026-10-04"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành và mốc hiệu lực trên trang Công báo (Công báo số 71). Chưa mở toàn văn.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "grok@ozvietnam"
+      },
+      "ghi_chu": "Trang Công báo ghi ban hành và hiệu lực 16/01/2026. Quan hệ với 1175/QĐ-TTg chưa đối chiếu điều khoản thi hành.",
+      "slug": "126-qd-ttg-2026",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "127/QĐ-TTg",
+      "loai": "QUYET_DINH",
+      "ten": "Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP)",
+      "co_quan": "TTG",
+      "ngay_ban_hanh": "2026-01-16",
+      "hieu_luc_tu": "2026-01-16",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "xuat-xu-fta/hiep-dinh"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-127-qd-ttg-468799.htm",
+          "truy_cap": "2026-10-04"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành và mốc hiệu lực trên trang Công báo (Công báo số 71). Chưa mở toàn văn.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "grok@ozvietnam"
+      },
+      "ghi_chu": "Văn bản triển khai đầu mối CPTPP, không phải nghị quyết phê chuẩn. Phê chuẩn gốc là 72/2018/QH14.",
+      "slug": "127-qd-ttg-2026",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -2420,17 +2519,27 @@
           "15/2018/NĐ-CP"
         ],
         "thay_the": [
-          "11/2022/TT-BCT"
+          {
+            "so_hieu": "11/2022/TT-BCT",
+            "can_cu": "CHỈ theo bài tổng hợp KTCN 2026. MÂU THUẪN: Hermes-211 (hs-code-api nhánh hermes/ktcn-2026-kiem-chung, reports/ktcn-2026/KIEM-CHUNG.md, 04/10/2026) đọc TT 28/2026/TT-BCT và không thấy nhắc TT 11/2022/TT-BCT — cần mở TT 11/2022 và điều khoản thi hành TT 28/2026"
+          }
+        ],
+        "bai_bo": [
+          {
+            "so_hieu": "1182/QĐ-BCT",
+            "tu_ngay": "2026-07-17",
+            "can_cu": "Điều 4 TT 28/2026/TT-BCT — theo Hermes-211 (hs-code-api nhánh hermes/ktcn-2026-kiem-chung, reports/ktcn-2026/KIEM-CHUNG.md, 04/10/2026), đã mở văn bản; chưa ghi URL nguồn A"
+          }
         ]
       },
       "xac_minh": {
         "muc": "NGUON_THU_CAP",
-        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "pham_vi": "Điều 1, 3, 4 theo kiểm chứng của Hermes-211 (đã mở văn bản, chưa ghi URL); phần còn lại theo bài tổng hợp",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "hermes-211@ozvietnam"
       },
-      "ghi_chu": "5 nhóm (rượu, bia, nước giải khát, sữa chế biến, dầu thực vật, bột/tinh bột, bánh mứt kẹo). Công báo số 328 ngày 14/6/2026. Thay QĐ 1182/QĐ-BCT (2021) trên thực tế. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "ghi_chu": "5 nhóm (rượu, bia, nước giải khát, sữa chế biến, dầu thực vật, bột/tinh bột, bánh mứt kẹo). Công báo số 328 ngày 14/6/2026. Điều 4: QĐ 1182/QĐ-BCT hết hiệu lực từ 17/7/2026 (Hermes-211 đối chiếu). Điều 3.2: kiểm tra ATTP theo Điều 40 Luật ATTP và Điều 16 NĐ 15/2018/NĐ-CP; Điều 3.3: miễn kiểm tra khi thuộc Điều 13 NĐ 15/2018/NĐ-CP. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
       "slug": "28-2026-tt-bct",
       "bac_nguon_cao_nhat": null,
       "quan_he_nguoc": {}
@@ -2649,6 +2758,35 @@
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 26 mã HS). Tiêu đề đã đối chiếu (moit.gov.vn + luatvietnam.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc AC03.AD20. Số hiệu hay viết 3176/QĐ-BCT-2025.",
       "slug": "3176-qd-bct-2025",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "328/QĐ-TTg",
+      "loai": "QUYET_DINH",
+      "ten": "Về việc chỉ định các cơ quan đầu mối để triển khai Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)",
+      "co_quan": "TTG",
+      "ngay_ban_hanh": "2022-03-10",
+      "hieu_luc_tu": "2022-03-10",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "xuat-xu-fta/hiep-dinh"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=205452",
+          "truy_cap": "2026-10-04"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành, người ký Phạm Bình Minh, tệp đính kèm 328-qd-ttg.signed.pdf trên vanban.chinhphu.vn. Chưa mở PDF, chưa thấy dòng tình trạng hiệu lực.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "grok@ozvietnam"
+      },
+      "ghi_chu": "Ngày hiệu lực ghi bằng ngày ban hành vì trang nguồn chưa nêu ngày hiệu lực riêng. Nghị quyết phê chuẩn RCEP chưa mở được trên nguồn bậc A trong ca này.",
+      "slug": "328-qd-ttg-2022",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -3985,6 +4123,39 @@
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 8 mã HS). Tiêu đề đã đối chiếu (moit.gov.vn + vbpl.ts24.com.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc ER01.SG06. HS 3105.10.20; 3105.10.90; 3105.20.00; 3105.30.00; 3105.40.00; 3105.51.00; 3105.59.00; 3105.90.00. Thuế tự vệ 1.050.662 đ/tấn (07/03/2020) giảm dần, 0 đ/tấn từ 07/09/2022; Bộ Công Thương KHÔNG gia hạn (thông báo 20/09/2022, QĐ 1845/QĐ-BCT) ⇒ biện pháp đã chấm dứt. Số hiệu hay viết 715/QĐ-BCT-2020.",
       "slug": "715-qd-bct-2020",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "72/2018/QH14",
+      "loai": "NGHI_QUYET",
+      "ten": "Phê chuẩn Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương cùng các văn kiện liên quan",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2018-11-12",
+      "hieu_luc_tu": "2018-12-27",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "xuat-xu-fta/hiep-dinh"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=145200",
+          "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://vbpl.vn/FileData/TW/Lists/vbpq/Attachments/145200/VanBanGoc_72.2018.QH14.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày thông qua, Điều 1 phê chuẩn CPTPP ký 08/3/2018 tại San-ti-a-gô; vbpl ghi còn hiệu lực, ngày có hiệu lực 27/12/2018. PDF gốc ghi Công báo số 1073+1074 ngày 03/12/2018.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-04",
+        "boi": "grok@ozvietnam"
+      },
+      "ghi_chu": "Điều 1 phê chuẩn CPTPP (Comprehensive and Progressive Agreement for Trans-Pacific Partnership) ký ngày 08/3/2018 tại San-ti-a-gô. Ngày hiệp định có hiệu lực với Việt Nam không nằm ở Điều 1 — chưa ghi. Chưa mở Điều khoản về Vương quốc Anh gia nhập sau này.",
+      "slug": "72-2018-qh14",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },

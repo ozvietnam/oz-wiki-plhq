@@ -5,7 +5,7 @@ ten: Danh mục mặt hàng nhập khẩu kèm mã HS phải kiểm tra nhà nư
 co_quan: BCT
 ngay_ban_hanh: '2022-04-06'
 het_hieu_luc_tu: '2026-07-17'
-tinh_trang: HET_HIEU_LUC
+tinh_trang: CHUA_XAC_MINH
 nhanh:
   - kiem-tra-chuyen-nganh/bct
   - kiem-tra-chuyen-nganh/an-toan-thuc-pham
@@ -15,4 +15,4 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: khoi-tao
-ghi_chu: Hết hiệu lực 17/7/2026 — nguồn tổng hợp ghi "đã xác minh nguyên văn". Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
+ghi_chu: 'Hết hiệu lực 17/7/2026 — nguồn tổng hợp ghi "đã xác minh nguyên văn". Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json. MÂU THUẪN NGUỒN (04/10/2026): bài tổng hợp nói hết hiệu lực 17/7/2026 "đã xác minh nguyên văn"; Hermes-211 (hs-code-api nhánh hermes/ktcn-2026-kiem-chung, reports/ktcn-2026/KIEM-CHUNG.md, 04/10/2026) đọc TT 28/2026/TT-BCT không thấy nhắc TT 11/2022. Giữ ngày 17/7/2026 làm ngày dự kiến, chuyển tình trạng sang CHUA_XAC_MINH cho tới khi mở TT 11/2022 và điều khoản thi hành TT 28/2026.'

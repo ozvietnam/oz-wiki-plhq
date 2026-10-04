@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-04",
-  "tong": 386,
+  "tong": 394,
   "diem": [
     {
       "ma": "KHONG_NGUON_A",
@@ -429,10 +429,18 @@
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
-      "tieuDe": "11/2022/TT-BCT: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "tieuDe": "11/2022/TT-BCT: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
       "muc_tieu": "11/2022/TT-BCT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc"
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "11/2022/TT-BCT: chưa có toàn văn trong raw/",
+      "muc_tieu": "11/2022/TT-BCT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"11/2022/TT-BCT\" --ghi",
+      "luong": "nap-lam-sach"
     },
     {
       "ma": "KHONG_NGUON_A",
@@ -563,6 +571,22 @@
       "luong": "nap-lam-sach"
     },
     {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "1175/QĐ-TTg: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
+      "muc_tieu": "1175/QĐ-TTg",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc"
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "1175/QĐ-TTg: chưa có toàn văn trong raw/",
+      "muc_tieu": "1175/QĐ-TTg",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"1175/QĐ-TTg\" --ghi",
+      "luong": "nap-lam-sach"
+    },
+    {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
       "tieuDe": "1182/QĐ-BCT: chưa có nguồn chính thống",
@@ -573,18 +597,10 @@
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Vừa",
-      "tieuDe": "1182/QĐ-BCT: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
+      "tieuDe": "1182/QĐ-BCT: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "1182/QĐ-BCT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc"
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Vừa",
-      "tieuDe": "1182/QĐ-BCT: chưa có toàn văn trong raw/",
-      "muc_tieu": "1182/QĐ-BCT",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"1182/QĐ-BCT\" --ghi",
-      "luong": "nap-lam-sach"
     },
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -712,6 +728,38 @@
       "tieuDe": "126/2026/TT-BQP: chưa có toàn văn trong raw/",
       "muc_tieu": "126/2026/TT-BQP",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"126/2026/TT-BQP\" --ghi",
+      "luong": "nap-lam-sach"
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "126/QĐ-TTg: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
+      "muc_tieu": "126/QĐ-TTg",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc"
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "126/QĐ-TTg: chưa có toàn văn trong raw/",
+      "muc_tieu": "126/QĐ-TTg",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"126/QĐ-TTg\" --ghi",
+      "luong": "nap-lam-sach"
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "127/QĐ-TTg: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
+      "muc_tieu": "127/QĐ-TTg",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc"
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "127/QĐ-TTg: chưa có toàn văn trong raw/",
+      "muc_tieu": "127/QĐ-TTg",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"127/QĐ-TTg\" --ghi",
       "luong": "nap-lam-sach"
     },
     {
@@ -1947,6 +1995,22 @@
       "luong": "nap-lam-sach"
     },
     {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "328/QĐ-TTg: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
+      "muc_tieu": "328/QĐ-TTg",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc"
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "328/QĐ-TTg: chưa có toàn văn trong raw/",
+      "muc_tieu": "328/QĐ-TTg",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"328/QĐ-TTg\" --ghi",
+      "luong": "nap-lam-sach"
+    },
+    {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
       "tieuDe": "33/2014/TT-BNNPTNT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
@@ -2827,6 +2891,14 @@
       "luong": "hieu-luc"
     },
     {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "72/2018/QH14: chưa có toàn văn trong raw/",
+      "muc_tieu": "72/2018/QH14",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"72/2018/QH14\" --ghi",
+      "luong": "nap-lam-sach"
+    },
+    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "74/2018/NĐ-CP: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
@@ -3071,14 +3143,6 @@
       "muc": "Cao",
       "tieuDe": "Nhánh \"Thông báo kết quả phân loại, công văn hướng dẫn mã (TB-TCHQ)\" (phan-loai-hs/thong-bao-phan-loai) chưa có văn bản còn hiệu lực",
       "muc_tieu": "phan-loai-hs/thong-bao-phan-loai",
-      "viec": "Do thám và thêm các văn bản thuộc nhánh này.",
-      "luong": "do-tham"
-    },
-    {
-      "ma": "NUT_CAY_TRONG",
-      "muc": "Cao",
-      "tieuDe": "Nhánh \"Hiệp định FTA (ACFTA, ATIGA, RCEP, CPTPP, EVFTA...)\" (xuat-xu-fta/hiep-dinh) chưa có văn bản còn hiệu lực",
-      "muc_tieu": "xuat-xu-fta/hiep-dinh",
       "viec": "Do thám và thêm các văn bản thuộc nhánh này.",
       "luong": "do-tham"
     },
