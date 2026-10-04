@@ -7,15 +7,16 @@ ngay_ban_hanh: '2018-05-15'
 hieu_luc_tu: '2018-05-15'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - quan-ly-ngoai-thuong/luat-khung
+- quan-ly-ngoai-thuong/luat-khung
 nguon:
-  - url: https://vbpl.vn/search?q=69%2F2018%2FND-CP
-    truy_cap: '2026-07-02'
+- url: https://vanban.chinhphu.vn/?docid=193756&pageid=27160
+  truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 21
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
+  pham_vi: 'thẻ vanban.chinhphu.vn: ban hành 15-05-2018; người ký Nguyễn Xuân Phúc; PDF 69.signed.pdf'
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 21 mã HS). Tiêu đề đã đối chiếu (reference-trong-08/2023/TT-BCT (chinhphu.vn)).
+  boi: cursor-agent@ozvietnam
+ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 21 mã HS). Tiêu đề
+  đã đối chiếu (reference-trong-08/2023/TT-BCT (chinhphu.vn)).

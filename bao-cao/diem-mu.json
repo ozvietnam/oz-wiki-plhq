@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-04",
-  "tong": 366,
+  "tong": 353,
   "diem": [
     {
       "ma": "KHONG_NGUON_A",
@@ -99,14 +99,6 @@
       "luong": "hieu-luc"
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "05/2007/QH12: chưa có nguồn chính thống",
-      "muc_tieu": "05/2007/QH12",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "05/2007/QH12: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -171,14 +163,6 @@
       "luong": "cay-du-lieu"
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "07/2026/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
-      "muc_tieu": "07/2026/TT-BCT",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "07/2026/TT-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -193,14 +177,6 @@
       "muc_tieu": "07/2026/TT-BCT",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"07/2026/TT-BCT\" --ghi",
       "luong": "nap-lam-sach"
-    },
-    {
-      "ma": "VAN_BAN_KHUNG",
-      "muc": "Vừa",
-      "tieuDe": "07/2026/TT-BCT: chưa có tiêu đề, ngày, nguồn",
-      "muc_tieu": "07/2026/TT-BCT",
-      "viec": "Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.",
-      "luong": "he-thong-hoa"
     },
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -619,14 +595,6 @@
       "luong": "cay-du-lieu"
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "125/2026/TT-BCA: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
-      "muc_tieu": "125/2026/TT-BCA",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "125/2026/TT-BCA: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -979,14 +947,6 @@
       "luong": "do-tham"
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "1725/QĐ-BCT: chưa có nguồn chính thống",
-      "muc_tieu": "1725/QĐ-BCT",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "1725/QĐ-BCT: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
@@ -1001,14 +961,6 @@
       "muc_tieu": "1725/QĐ-BCT",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"1725/QĐ-BCT\" --ghi",
       "luong": "nap-lam-sach"
-    },
-    {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "173/2018/TT-BQP: chưa có nguồn chính thống",
-      "muc_tieu": "173/2018/TT-BQP",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
     },
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -1233,14 +1185,6 @@
       "muc_tieu": "22/2018/TT-BLĐTBXH",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc"
-    },
-    {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "22/2018/TT-BTTTT: chưa có nguồn chính thống",
-      "muc_tieu": "22/2018/TT-BTTTT",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
     },
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -1547,14 +1491,6 @@
       "luong": "hieu-luc"
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "2711/QĐ-BKHCN: chưa có nguồn chính thống",
-      "muc_tieu": "2711/QĐ-BKHCN",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Vừa",
       "tieuDe": "2711/QĐ-BKHCN: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
@@ -1569,14 +1505,6 @@
       "muc_tieu": "2711/QĐ-BKHCN",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"2711/QĐ-BKHCN\" --ghi",
       "luong": "nap-lam-sach"
-    },
-    {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "276/2026/NĐ-CP: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
-      "muc_tieu": "276/2026/NĐ-CP",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
     },
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -1625,14 +1553,6 @@
       "muc_tieu": "2822/QĐ-BCT",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"2822/QĐ-BCT\" --ghi",
       "luong": "nap-lam-sach"
-    },
-    {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "29/2025/TT-BKHCN: chưa có nguồn chính thống",
-      "muc_tieu": "29/2025/TT-BKHCN",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
     },
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -2097,14 +2017,6 @@
       "muc_tieu": "37/2013/TT-BCT",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"37/2013/TT-BCT\" --ghi",
       "luong": "nap-lam-sach"
-    },
-    {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "37/2026/NĐ-CP: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
-      "muc_tieu": "37/2026/NĐ-CP",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
     },
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -2675,14 +2587,6 @@
       "luong": "hieu-luc"
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "765/QĐ-BCT: chưa có nguồn chính thống",
-      "muc_tieu": "765/QĐ-BCT",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Vừa",
       "tieuDe": "765/QĐ-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -2745,14 +2649,6 @@
       "muc_tieu": "79/2015/QH13",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"79/2015/QH13\" --ghi",
       "luong": "nap-lam-sach"
-    },
-    {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "82/2022/NĐ-CP: chưa có nguồn chính thống",
-      "muc_tieu": "82/2022/NĐ-CP",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
     },
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
