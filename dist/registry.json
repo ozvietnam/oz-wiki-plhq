@@ -1415,6 +1415,10 @@
         {
           "url": "https://vanban.chinhphu.vn/?docid=192829&pageid=27160",
           "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/02/15.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "xac_minh": {
@@ -1424,7 +1428,8 @@
         "ngay": "2026-10-04",
         "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Vẫn áp dụng tại 10/2026 vì NĐ 46/2026/NĐ-CP thay thế đang bị tạm ngưng. Kiểm tra ATTP: Điều 13 (09 trường hợp miễn), Điều 16, 17, 19 (03/07 ngày làm việc). Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "ghi_chu": "Vẫn áp dụng tại 10/2026 vì NĐ 46/2026/NĐ-CP thay thế đang bị tạm ngưng. Kiểm tra ATTP: Điều 13 (09 trường hợp miễn), Điều 16, 17, 19 (03/07 ngày làm việc). Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json. PDF ký số datafiles: 59 trang, mỗi trang một ảnh, không có lớp chữ — chưa đọc điều khoản từ tệp, cần OCR.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/15-2018-nd-cp.pdf",
       "slug": "15-2018-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -1561,6 +1566,10 @@
         {
           "url": "https://vanban.chinhphu.vn/?classid=1&docid=211504&pageid=27160",
           "truy_cap": "2026-07-02"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/10/16-byt.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "trich_dan_trong_bieu_thue": 17,
@@ -1571,7 +1580,8 @@
         "ngay": "2026-10-04",
         "boi": "khoi-tao"
       },
-      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 17 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn).",
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 17 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn). PDF datafiles: 10 trang, mỗi trang một ảnh, không có lớp chữ — chưa đọc điều khoản từ tệp, cần OCR.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/16-2024-tt-byt.pdf",
       "slug": "16-2024-tt-byt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -2566,6 +2576,10 @@
         {
           "url": "https://vanban.chinhphu.vn/?docid=218330&pageid=27160",
           "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/6/28-bct.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "xac_minh": {
@@ -2575,7 +2589,8 @@
         "ngay": "2026-10-04",
         "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "5 nhóm (rượu, bia, nước giải khát, sữa chế biến, dầu thực vật, bột/tinh bột, bánh mứt kẹo). Công báo số 328 ngày 14/6/2026. Điều 4: QĐ 1182/QĐ-BCT hết hiệu lực từ 17/7/2026 (Hermes-211 đối chiếu). Điều 3.2: kiểm tra ATTP theo Điều 40 Luật ATTP và Điều 16 NĐ 15/2018/NĐ-CP; Điều 3.3: miễn kiểm tra khi thuộc Điều 13 NĐ 15/2018/NĐ-CP. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "ghi_chu": "5 nhóm (rượu, bia, nước giải khát, sữa chế biến, dầu thực vật, bột/tinh bột, bánh mứt kẹo). Công báo số 328 ngày 14/6/2026. Điều 4: QĐ 1182/QĐ-BCT hết hiệu lực từ 17/7/2026 (Hermes-211 đối chiếu). Điều 3.2: kiểm tra ATTP theo Điều 40 Luật ATTP và Điều 16 NĐ 15/2018/NĐ-CP; Điều 3.3: miễn kiểm tra khi thuộc Điều 13 NĐ 15/2018/NĐ-CP. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json. PDF ký số datafiles: 28 trang, mỗi trang một ảnh, không có lớp chữ — chưa đọc điều khoản từ tệp, cần OCR.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/28-2026-tt-bct.pdf",
       "slug": "28-2026-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -2817,16 +2832,21 @@
         {
           "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=205452",
           "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/03/328-qd-ttg.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, trích yếu, ngày ban hành, người ký Phạm Bình Minh, tệp đính kèm 328-qd-ttg.signed.pdf trên vanban.chinhphu.vn. Chưa mở PDF, chưa thấy dòng tình trạng hiệu lực.",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành, người ký Phạm Bình Minh trên vanban.chinhphu.vn. Đã lưu PDF ký số datafiles (5 trang, mỗi trang một ảnh, không có lớp chữ) — chưa đọc được dòng hiệu lực.",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
         "boi": "grok@ozvietnam"
       },
       "ghi_chu": "Ngày hiệu lực ghi bằng ngày ban hành vì trang nguồn chưa nêu ngày hiệu lực riêng. Nghị quyết phê chuẩn RCEP chưa mở được trên nguồn bậc A trong ca này.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/328-qd-ttg.pdf",
       "slug": "328-qd-ttg-2022",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -3880,9 +3900,16 @@
         "ngay": "2026-10-04",
         "boi": "khoi-tao"
       },
-      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Kiểm tra các luật sửa đổi, bổ sung (nếu có) sau 2014.",
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền. Đã lưu PDF ký số datafiles (54 trang, mỗi trang một ảnh, không có lớp chữ) — chưa đọc được số hiệu, trích yếu hay điều khoản từ tệp; cần OCR. Kiểm tra các luật sửa đổi, bổ sung (nếu có) sau 2014.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/54-2014-qh13.pdf",
+      "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2014/08/54_haiquan.signed.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "slug": "54-2014-qh13",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "duoc_huong_dan_boi": [
           {
@@ -3913,6 +3940,10 @@
         {
           "url": "https://vanban.chinhphu.vn/?docid=96032&pageid=27160",
           "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2010/08/100686_l55qh.doc",
+          "truy_cap": "2026-10-04"
         }
       ],
       "xac_minh": {
@@ -3922,7 +3953,8 @@
         "ngay": "2026-10-04",
         "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Toàn văn cổng Chính phủ: thông qua 17-06-2010, Điều 71 hiệu lực 01-07-2011. Thẻ trang ghi ngày ban hành 28-06-2010 (khác ngày thông qua). Chưa đối chiếu lược đồ sửa đổi sau 2011. Đã sửa từng phần (Luật 28/2018/QH14, Luật Thanh tra 84/2025/QH15); bản hợp nhất VBHN 61/VBHN-VPQH (2025) — phần sửa đổi vẫn theo nguồn thứ cấp.",
+      "ghi_chu": "Toàn văn cổng Chính phủ: thông qua 17-06-2010, Điều 71 hiệu lực 01-07-2011. Thẻ trang ghi ngày ban hành 28-06-2010 (khác ngày thông qua). Tệp datafiles là Word .doc (OLE), đọc được chữ; Điều 71 ghi hiệu lực từ 01-07-2011. Chưa đối chiếu lược đồ sửa đổi sau 2011. Đã sửa từng phần (Luật 28/2018/QH14, Luật Thanh tra 84/2025/QH15); bản hợp nhất VBHN 61/VBHN-VPQH (2025) — phần sửa đổi vẫn theo nguồn thứ cấp.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/55-2010-qh12.doc",
       "slug": "55-2010-qh12",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {

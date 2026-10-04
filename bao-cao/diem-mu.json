@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-04",
-  "tong": 383,
+  "tong": 376,
   "diem": [
     {
       "ma": "KHONG_NGUON_A",
@@ -971,14 +971,6 @@
       "luong": "hieu-luc"
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "15/2018/NĐ-CP: chưa có toàn văn trong raw/",
-      "muc_tieu": "15/2018/NĐ-CP",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"15/2018/NĐ-CP\" --ghi",
-      "luong": "nap-lam-sach"
-    },
-    {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
       "tieuDe": "15/2024/TT-BYT: chưa có nguồn chính thống",
@@ -1049,14 +1041,6 @@
       "muc_tieu": "16/2024/TT-BYT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc"
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "16/2024/TT-BYT: chưa có toàn văn trong raw/",
-      "muc_tieu": "16/2024/TT-BYT",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"16/2024/TT-BYT\" --ghi",
-      "luong": "nap-lam-sach"
     },
     {
       "ma": "KHONG_NGUON_A",
@@ -1747,14 +1731,6 @@
       "luong": "hieu-luc"
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "28/2026/TT-BCT: chưa có toàn văn trong raw/",
-      "muc_tieu": "28/2026/TT-BCT",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"28/2026/TT-BCT\" --ghi",
-      "luong": "nap-lam-sach"
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "28/2026/TT-BYT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -1937,14 +1913,6 @@
       "muc_tieu": "328/QĐ-TTg",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc"
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "328/QĐ-TTg: chưa có toàn văn trong raw/",
-      "muc_tieu": "328/QĐ-TTg",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"328/QĐ-TTg\" --ghi",
-      "luong": "nap-lam-sach"
     },
     {
       "ma": "KHONG_NGUON_A",
@@ -2635,14 +2603,6 @@
       "luong": "nap-lam-sach"
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "54/2014/QH13: chưa có nguồn chính thống",
-      "muc_tieu": "54/2014/QH13",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "54/2014/QH13: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -2651,28 +2611,12 @@
       "luong": "hieu-luc"
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Vừa",
-      "tieuDe": "54/2014/QH13: chưa có toàn văn trong raw/",
-      "muc_tieu": "54/2014/QH13",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"54/2014/QH13\" --ghi",
-      "luong": "nap-lam-sach"
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "55/2010/QH12: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "55/2010/QH12",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc"
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Vừa",
-      "tieuDe": "55/2010/QH12: chưa có toàn văn trong raw/",
-      "muc_tieu": "55/2010/QH12",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"55/2010/QH12\" --ghi",
-      "luong": "nap-lam-sach"
     },
     {
       "ma": "KHONG_NGUON_A",
