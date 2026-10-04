@@ -1,21 +1,48 @@
-name: bao-hs-code-api
-# Cầu nối oz-wiki-plhq → hs-code-api: khi sổ trên main đổi (dist/registry.json), báo hs-code-api đồng bộ ngay
-# (repository_dispatch "plhq-updated" → workflow plhq-sync bên đó). Không có token thì bỏ qua —
-# hs-code-api vẫn tự đồng bộ mỗi ngày lúc 08:17 giờ VN.
+name: dung-lai-va-bao-hs-code-api
+# Sau mỗi lần gộp vào main:
+#   1. dựng lại tệp sinh tự động (dist/registry.json, bao-cao/*) từ registry/ + wiki/ + nhu-cau/ và commit nếu đổi
+#      → PR không cần (và không nên) commit dist/ hay bao-cao/: đó là nguyên nhân chính khiến các PR xung đột nhau;
+#   2. báo hs-code-api đồng bộ ngay (repository_dispatch "plhq-updated" → workflow plhq-sync bên đó).
+#      Không có token thì bỏ qua — hs-code-api vẫn tự đồng bộ mỗi ngày lúc 08:17 giờ VN.
 # Token: secret HS_CODE_API_DISPATCH_TOKEN = fine-grained PAT, repo ozvietnam/hs-code-api, quyền Contents: Read and write.
 on:
   push:
     branches: [main]
-    paths:
-      - 'dist/registry.json'
+    paths-ignore:
+      - 'dist/**'
+      - 'bao-cao/**'
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: dung-lai
+  cancel-in-progress: false
 jobs:
-  bao:
+  dung-lai:
     runs-on: ubuntu-latest
     steps:
-      - name: Gửi repository_dispatch
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Dựng lại dist + báo cáo
+        run: |
+          node tools/dung.mjs
+          node tools/diem-mu.mjs
+      - name: Commit nếu có thay đổi
+        run: |
+          git config user.name "kb-bot"
+          git config user.email "kb-bot@users.noreply.github.com"
+          git add dist bao-cao
+          if git diff --cached --quiet; then echo "Tệp sinh tự động đã khớp"; exit 0; fi
+          git commit -q -m "chore(dung): dựng lại dist + bao-cao sau $(git log -1 --format=%h HEAD)"
+          # main có thể vừa có commit mới trong lúc chạy — kéo về rồi đẩy (tệp sinh tự động sẽ được dựng lại ở lần chạy sau).
+          for i in 1 2 3; do git pull -q --rebase -X theirs origin main && git push -q origin HEAD:main && exit 0; sleep 5; done
+          echo "::error::Không đẩy được commit dựng lại"; exit 1
+      - name: Báo hs-code-api đồng bộ
         env:
           TOKEN: ${{ secrets.HS_CODE_API_DISPATCH_TOKEN }}
         run: |

@@ -15,13 +15,25 @@ Agent phải làm việc như một người đóng góp cẩn thận: có ngu�
 
 - **Một PR một việc nhỏ:** một văn bản, một nhóm văn bản cùng ngày, hoặc một trang wiki. PR lớn khó duyệt.
 - **Mỗi khẳng định phải có nguồn.** Tình trạng hiệu lực chỉ được đánh `hieu_luc_da_doi_chieu: true` khi
-  đã mở nguồn bậc A; ghi `xac_minh.boi: <tên-agent>@<người-vận-hành>` và `ngay`.
+  đủ CẢ HAI: (1) đã đọc điều khoản thi hành trên nguồn bậc A, và (2) đã kiểm **tình trạng hiện tại** — tìm
+  văn bản ban hành sau có thay/bãi bỏ/tạm ngưng nó không (thẻ "Văn bản bị thay thế/Tình trạng hiệu lực" trên
+  vbpl.vn, tìm số hiệu trên vanban.chinhphu.vn/congbao.chinhphu.vn). Đọc mỗi điều khoản thi hành của chính
+  văn bản chỉ chứng minh **ngày bắt đầu**, chưa chứng minh **còn hiệu lực hôm nay**. Ghi
+  `xac_minh.boi: <tên-agent>@<người-vận-hành>`, `ngay` và nêu rõ đã kiểm (2) bằng nguồn nào trong `pham_vi`.
+  Vì sao chặt: hs-code-api biến văn bản `HET_HIEU_LUC` + `true` thành cảnh báo "đã bị thay" mức HIGH cho
+  người khai hải quan.
 - **Không suy ra quan hệ thay thế từ tên văn bản.** Phải thấy điều khoản hiệu lực / điều khoản thi hành
   (thường là điều cuối) nói "thay thế", "bãi bỏ", "hết hiệu lực". Ghi `can_cu` (điều, khoản, điểm).
 - **Không sửa `raw/` đã có.** Chỉ thêm tệp mới qua `tools/nap.mjs` hoặc skill LuminaWiki.
 - **Không xoá văn bản khỏi sổ.** Văn bản hết hiệu lực vẫn giữ — người khai cần biết vì sao không dùng nữa.
 - **Không đưa thông tin khách hàng, tờ khai, hợp đồng, giá** vào kho.
 - Chạy `npm test` trước khi mở PR. Đỏ thì sửa, không bỏ qua test.
+- **Không commit `dist/` và `bao-cao/`.** Đó là tệp sinh tự động; bot dựng lại ngay sau khi PR được gộp
+  (workflow `dung-lai-va-bao-hs-code-api`). Commit chúng làm mọi PR mở song song xung đột với nhau. Chạy
+  `node tools/dung.mjs && node tools/diem-mu.mjs` để tự xem kết quả thì được, nhưng trước khi commit:
+  `git checkout -- dist bao-cao`.
+- **Ưu tiên việc có ảnh hưởng thật:** nhóm `HS_API_*` trong báo cáo điểm mù được xếp theo số mã HS mà
+  hs-code-api đang dẫn văn bản đó (xem [tích hợp](tich-hop.md)). Làm từ trên xuống.
 
 ## Mở PR
 

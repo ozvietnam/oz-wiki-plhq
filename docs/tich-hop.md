@@ -46,7 +46,7 @@ Giấy phép CC BY 4.0 — ghi nguồn "oz-wiki-plhq".
 
 | Chiều | Cơ chế | Khi nào |
 |---|---|---|
-| Kho này → hs-code-api | Workflow `plhq-sync` bên hs-code-api tải `dist/registry.json`, đo lại, chạy test, commit (thay đổi lớn → PR cho người duyệt) | Mỗi ngày 08:17 giờ VN; ngay lập tức nếu kho này có secret `HS_CODE_API_DISPATCH_TOKEN` (workflow `bao-hs-code-api`) |
+| Kho này → hs-code-api | Workflow `plhq-sync` bên hs-code-api tải `dist/registry.json`, đo lại, chạy test, commit (thay đổi lớn → PR cho người duyệt) | Mỗi ngày 08:17 giờ VN; ngay sau mỗi lần gộp vào main nếu kho này có secret `HS_CODE_API_DISPATCH_TOKEN` (workflow `dung-lai-va-bao-hs-code-api`, cũng là bước bot dựng lại `dist/` + `bao-cao/`) |
 | hs-code-api → kho này | `node tools/nhu-cau.mjs` kéo `data/plhq-bench-latest.json` (repo công khai) vào `nhu-cau/hs-code-api.json`; `tools/diem-mu.mjs` sinh việc `HS_API_*` xếp theo số mã HS | Mỗi thứ Hai trong workflow `bao-cao-tuan` |
 | Tra cứu trực tiếp | `GET https://hs-kb.uythacnhapkhau.com/api/legal-status?so=28/2026/TT-BCT` (công khai) | Bất kỳ lúc nào |
 
