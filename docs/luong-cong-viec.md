@@ -1,4 +1,4 @@
-# 9 luồng công việc
+# 10 luồng công việc
 
 Mỗi luồng có nhãn GitHub riêng (`luong:<id>`), đầu vào, đầu ra và tiêu chí xong rõ ràng. Người hay agent
 đều nhận việc theo cùng một cách: chọn issue có nhãn luồng → ghi "nhận" trong issue → làm → mở PR có
@@ -15,6 +15,7 @@ Mỗi luồng có nhãn GitHub riêng (`luong:<id>`), đầu vào, đầu ra và
 | 7 | Liên kết chéo | `luong:lien-ket-cheo` | Nối văn bản với văn bản, wiki với sổ, khái niệm với khái niệm |
 | 8 | Cây dữ liệu XNK | `luong:cay-du-lieu` | Giữ cây phân nhánh gọn, đủ, đúng thực tế nghiệp vụ |
 | 9 | Đọc hiểu vào wiki | `luong:doc-hieu` | Đọc toàn văn, viết trang wiki có trích điều khoản |
+| 10 | Danh mục mã HS | `luong:danh-muc-hs` | Trích bảng mã HS trong phụ lục văn bản → biết mã nào chịu văn bản nào |
 
 ---
 
@@ -79,3 +80,16 @@ Mỗi luồng có nhãn GitHub riêng (`luong:<id>`), đầu vào, đầu ra và
 - **Cách làm:** mở phiên AI trong repo, gõ `/lumi-ingest raw/download/.../<tệp>`; duyệt bản nháp; `/lumi-verify` đối chiếu lại với toàn văn. Trang nguồn ghi số hiệu chuẩn để nối với sổ.
 - **Ưu tiên:** văn bản đang có hiệu lực, được biểu thuế dẫn nhiều (`trich_dan_trong_bieu_thue`), danh mục KTCN 2026.
 - **Xong khi:** `/lumi-check` sạch, `npm test` xanh, trang có trong `wiki/index.md`.
+
+## 10. Danh mục mã HS — `luong:danh-muc-hs`
+
+- **Mục tiêu:** với mỗi văn bản có phụ lục mã HS (danh mục KTCN 2026, cấm, giấy phép, phòng vệ thương mại…), có
+  `danh-muc/<slug>.csv` trích **nguyên văn** từ bản gốc → ứng dụng trả lời được "mã 8 số này hôm nay chịu văn bản
+  nào, theo phụ lục nào, điều kiện gì".
+- **Đầu vào:** điểm mù `DANH_MUC_CHUA_TRICH` (xếp sẵn: danh mục KTCN từ 01/7/2026 trước, rồi theo số mã biểu thuế dẫn).
+- **Cách làm:** [docs/luoc-do-danh-muc-hs.md](luoc-do-danh-muc-hs.md). Bản có phụ lục thường là **Công báo** (có lớp
+  chữ); trích bằng máy, không gõ lại, không đoán mã; bản chỉ có ảnh quét → ghi chú và để lại.
+- **Kiểm:** `npm test` (định dạng), `npm run diem-mu` (mã không có trong biểu thuế → `HS_KHONG_TON_TAI`); PR kèm 10 dòng
+  mẫu đặt cạnh nguyên văn.
+- **Xong khi:** bảng qua kiểm, `HS_KHONG_TON_TAI` của bảng = 0 hoặc từng mã đã giải thích, YAML có `danh_muc_hs`.
+

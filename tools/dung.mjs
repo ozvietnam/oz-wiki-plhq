@@ -3,9 +3,11 @@
 //   dist/registry.json      — toàn bộ văn bản + cạnh ngược tính sẵn, cho máy khác dùng (vd hs-code-api)
 //   bao-cao/cay-van-ban.md  — cây dữ liệu XNK kèm văn bản và tình trạng
 //   bao-cao/quan-he.md      — đồ thị cũ–mới (thay thế, sửa đổi, bãi bỏ, tạm ngưng) theo nhánh, dạng Mermaid
+//   dist/hs-index.json      — bảng mã HS ↔ văn bản từ danh-muc/*.csv (docs/luoc-do-danh-muc-hs.md)
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { napSo, khoa, chuanCanh, dungDoThi, homNay, bacNguon, ROOT, QUAN_HE } from './lib/registry.mjs';
+import { dungChiMuc } from './lib/danh-muc.mjs';
 
 const BIEU_TUONG = {
   CON_HIEU_LUC: '🟢', HET_HIEU_LUC: '⚫', HET_HIEU_LUC_MOT_PHAN: '🟡', TAM_NGUNG_HIEU_LUC: '⏸️',
@@ -113,5 +115,8 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   writeFileSync(join(ROOT, 'dist', 'registry.json'), JSON.stringify(dungJson(so, today), null, 2) + '\n');
   writeFileSync(join(ROOT, 'bao-cao', 'cay-van-ban.md'), veCay(so, today) + '\n');
   writeFileSync(join(ROOT, 'bao-cao', 'quan-he.md'), veQuanHe(so, today) + '\n');
+  const cm = dungChiMuc(so, ROOT, today);
+  writeFileSync(join(ROOT, 'dist', 'hs-index.json'), JSON.stringify(cm, null, 1) + '\n');
+  console.log(`dist/hs-index.json (${cm.van_ban.length} bảng, ${cm.van_ban.reduce((n, v) => n + v.dong.length, 0)} dòng)`);
   console.log(`dist/registry.json · bao-cao/cay-van-ban.md · bao-cao/quan-he.md (${so.vanBan.length} văn bản)`);
 }

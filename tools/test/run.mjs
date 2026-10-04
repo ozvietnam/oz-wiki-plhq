@@ -7,7 +7,8 @@ import { kiemTra } from '../kiem-tra.mjs';
 import { timDiemMu } from '../diem-mu.mjs';
 import { dungJson, veQuanHe } from '../dung.mjs';
 import { lamSachHtml } from '../nap.mjs';
-import { rutGonNhuCau } from '../nhu-cau.mjs';
+import { rutGonNhuCau, rutGonBieuThue } from '../nhu-cau.mjs';
+import { docCsv, napDanhMuc, kiemDinhDang, dungChiMuc, demLa, docBieuThue } from '../lib/danh-muc.mjs';
 
 let pass = 0;
 let fail = 0;
@@ -112,6 +113,41 @@ t('nhu cầu: ưu tiên đối chiếu — ≥50 mã là Cao, kèm trọng số'
 const lechTv = dh.filter((d) => d.ma === 'HS_API_LECH_THU_VIEN');
 t('nhu cầu: lệch thư viện gộp theo số hiệu, bỏ dòng sổ đã đổi tình trạng', lechTv.length === 1 && lechTv[0].muc_tieu === '99/2008/NĐ-CP', JSON.stringify(lechTv));
 t('không có nhu-cau → không sinh việc HS_API', !timDiemMu(napSo(r2), { today: '2026-10-04', root: r2 }).some((d) => d.ma.startsWith('HS_API_')));
+// 6. Bảng danh mục mã HS
+t('CSV: ngoặc kép, dấu phẩy và xuống dòng trong ô', JSON.stringify(docCsv('a,b\n"x, ""y""","dòng 1\ndòng 2"\n')) === JSON.stringify([['a', 'b'], ['x, "y"', 'dòng 1\ndòng 2']]));
+const HEAD = 'ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang\n';
+const r6 = soGia({
+  'dm.yaml': `so_hieu: 50/2026/TT-BCT\nloai: THONG_TU\nten: Ban hành Danh mục mặt hàng kiểm tra ATTP\nco_quan: BCT\nhieu_luc_tu: "2026-07-17"\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\ndanh_muc_hs: {tep: danh-muc/dm.csv, nguon: "https://congbao.chinhphu.vn/x", ngay: "2026-10-04"}\n${XM}\n`,
+  'chua.yaml': `so_hieu: 51/2026/TT-BYT\nloai: THONG_TU\nten: Ban hành Danh mục thực phẩm rủi ro trung bình\nco_quan: BYT\nhieu_luc_tu: "2026-07-01"\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/byt]\n${XM}\n`,
+  'hong.yaml': `so_hieu: 52/2026/TT-BCT\nloai: THONG_TU\nten: Danh mục hỏng\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\ndanh_muc_hs: {tep: danh-muc/hong.csv}\n${XM}\n`,
+});
+mkdirSync(join(r6, 'danh-muc'), { recursive: true });
+mkdirSync(join(r6, 'nhu-cau'), { recursive: true });
+writeFileSync(join(r6, 'danh-muc', 'dm.csv'), HEAD
+  + '22030091,Bia đóng chai,1,Phụ lục,KIEM_TRA_ATTP,,,,5\n'
+  + '1901,"Chế phẩm thực phẩm từ bột, tinh bột",2,Phụ lục,KIEM_TRA_ATTP,,"trừ loại dùng cho trẻ em",,5\n'
+  + '22029999,Mã không có,3,Phụ lục,KIEM_TRA_ATTP,,,,6\n'
+  + ',Thực phẩm dinh dưỡng,4,Phụ lục,KIEM_TRA_ATTP,TRUNG_BINH,,15/2024/TT-BYT,6\n');
+writeFileSync(join(r6, 'danh-muc', 'hong.csv'), HEAD + '2203.00.91,Bia,1,Phụ lục,KIEM_ATTP,,,,1\n');
+const taxGia = Object.fromEntries(Array.from({ length: 1200 }, (_, i) => [String(19010000 + i), { hs: String(19010000 + i), vn: 'x' }]));
+taxGia['22030091'] = { hs: '22030091', vn: '- - Bia' };
+writeFileSync(join(r6, 'nhu-cau', 'bieu-thue.json'), JSON.stringify(rutGonBieuThue(taxGia, 'test', '2026-10-04')));
+const so6 = napSo(r6);
+const dm6 = napDanhMuc(so6, r6);
+const hong = dm6.find((x) => x.tep === 'danh-muc/hong.csv');
+t('danh mục: lỗi định dạng mã có dấu chấm + loại tác động sai', kiemDinhDang(hong).some((m) => /2203\.00\.91/.test(m)) && kiemDinhDang(hong).some((m) => /KIEM_ATTP/.test(m)));
+t('danh mục: kiem-tra chặn bảng hỏng', kiemTra(so6, { root: r6 }).loi.some((e) => /hong\.csv/.test(e.msg)));
+const bt6 = docBieuThue(r6);
+t('danh mục: đếm lá theo tiền tố 4 số', demLa(bt6, '1901') === 1200 && demLa(bt6, '190100') === 100 && demLa(bt6, '22030091') === 1 && demLa(bt6, '22029999') === 0);
+const dmu6 = timDiemMu(so6, { today: '2026-10-04', root: r6, nhuCau: null });
+t('điểm mù: văn bản danh mục chưa trích (KTCN 2026 → Cao)', dmu6.some((d) => d.ma === 'DANH_MUC_CHUA_TRICH' && d.muc_tieu === '51/2026/TT-BYT' && d.muc === 'Cao'));
+t('điểm mù: mã HS không có trong biểu thuế', dmu6.some((d) => d.ma === 'HS_KHONG_TON_TAI' && /22029999/.test(d.tieuDe)) && !dmu6.some((d) => d.ma === 'HS_KHONG_TON_TAI' && /mã 1901 /.test(d.tieuDe)));
+t('điểm mù: dẫn chiếu sang văn bản chưa có trong sổ', dmu6.some((d) => d.ma === 'DAN_CHIEU_CHUA_CO_BANG' && d.muc_tieu === '15/2024/TT-BYT'));
+const cm6 = dungChiMuc(so6, r6, '2026-10-04');
+const v6 = cm6.van_ban.find((v) => v.so_hieu === '50/2026/TT-BCT');
+t('hs-index: chỉ xuất bảng hợp lệ, giữ dieu_kien + dan_chieu, bỏ ô trống', cm6.van_ban.length === 1 && v6.dong.length === 4
+  && v6.dong[1].dieu_kien === 'trừ loại dùng cho trẻ em' && v6.dong[3].dan_chieu === '15/2024/TT-BYT' && !('muc_rui_ro' in v6.dong[0]) && v6.tinh_trang === 'CON_HIEU_LUC');
+
 const sach = lamSachHtml('<html><script>x()</script><nav>menu</nav><p>Điều 1.&nbsp;Phạm vi</p><p>Điều 2</p></html>');
 t('làm sạch HTML: bỏ script/menu, giữ đoạn', sach === 'Điều 1. Phạm vi\nĐiều 2', JSON.stringify(sach));
 

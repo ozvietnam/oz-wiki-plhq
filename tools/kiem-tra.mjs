@@ -1,14 +1,15 @@
 #!/usr/bin/env node
 // Kiểm sổ đăng ký văn bản. LỖI → chặn PR (exit 1). CẢNH BÁO → in ra, không chặn.
 //   node tools/kiem-tra.mjs [--json]
-import { napSo, khoa, slugTuSoHieu, bacNguon, chuanCanh, dungDoThi, homNay,
+import { napSo, khoa, slugTuSoHieu, bacNguon, chuanCanh, dungDoThi, homNay, ROOT,
   LOAI, TINH_TRANG, MUC_XAC_MINH, QUAN_HE } from './lib/registry.mjs';
+import { napDanhMuc, kiemDinhDang } from './lib/danh-muc.mjs';
 
 const NGAY = /^\d{4}-\d{2}-\d{2}$/;
 const TRUONG = new Set(['so_hieu', 'loai', 'ten', 'co_quan', 'ngay_ban_hanh', 'hieu_luc_tu', 'het_hieu_luc_tu',
-  'tinh_trang', 'nhanh', 'quan_he', 'nguon', 'toan_van', 'trich_dan_trong_bieu_thue', 'xac_minh', 'ghi_chu', 'tu_khoa', 'so_hieu_khac']);
+  'tinh_trang', 'nhanh', 'quan_he', 'nguon', 'toan_van', 'trich_dan_trong_bieu_thue', 'xac_minh', 'ghi_chu', 'tu_khoa', 'so_hieu_khac', 'danh_muc_hs']);
 
-export function kiemTra(so, { today = homNay() } = {}) {
+export function kiemTra(so, { today = homNay(), root = ROOT } = {}) {
   const loi = [];
   const canhBao = [];
   const L = (file, msg) => loi.push({ file, msg });
@@ -78,6 +79,18 @@ export function kiemTra(so, { today = homNay() } = {}) {
     if (xm.muc === 'NGUON_A' && !nguon.some((n) => bacNguon(n.url, so.nguon) === 'A')) L(f, 'xac_minh.muc = NGUON_A nhưng không có nguồn bậc A (registry/nguon-uy-tin.yaml)');
     if (xm.hieu_luc_da_doi_chieu === true && !nguon.some((n) => bacNguon(n.url, so.nguon) === 'A')) L(f, 'hieu_luc_da_doi_chieu = true cần ít nhất một nguồn bậc A');
   }
+
+  // Bảng danh mục mã HS (docs/luoc-do-danh-muc-hs.md)
+  for (const d of so.vanBan) {
+    const dm = d.danh_muc_hs;
+    if (dm == null) continue;
+    if (typeof dm !== 'object' || Array.isArray(dm)) { L(d._file, 'danh_muc_hs phải là object {tep, nguon, trich_boi, ngay}'); continue; }
+    if (!/^danh-muc\/[a-z0-9-]+\.csv$/.test(String(dm.tep || ''))) L(d._file, 'danh_muc_hs.tep phải dạng danh-muc/<slug>.csv');
+    if (dm.nguon != null && !/^https?:\/\//.test(String(dm.nguon))) L(d._file, 'danh_muc_hs.nguon phải là URL http(s) của bản có phụ lục');
+    if (dm.ngay != null && !NGAY.test(String(dm.ngay))) L(d._file, 'danh_muc_hs.ngay phải dạng YYYY-MM-DD');
+    if (dm.da_doi_chieu === true && !dm.nguon) L(d._file, 'danh_muc_hs.da_doi_chieu = true cần nguon (bản có phụ lục đã mở)');
+  }
+  for (const it of napDanhMuc(so, root)) for (const msg of kiemDinhDang(it)) L(it.vanBan._file, msg);
 
   // Chu trình thay thế (A thay B, B thay A)
   const { nguoc } = dungDoThi(so);

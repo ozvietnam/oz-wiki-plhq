@@ -3,14 +3,29 @@
 // văn bản nào biểu thuế đang dẫn (kèm số mã HS chịu ảnh hưởng), văn bản nào sổ chưa có, văn bản nào thư viện
 // riêng của hs-code-api ghi tình trạng khác sổ. Công cụ này chụp phần cần dùng vào nhu-cau/hs-code-api.json
 // để tools/diem-mu.mjs xếp việc theo mức ảnh hưởng thật — chạy offline, không cần mạng khi dò điểm mù.
-//   node tools/nhu-cau.mjs               → tải bản đo mới nhất (nhánh main của hs-code-api)
-//   node tools/nhu-cau.mjs --from <tệp>  → đọc tệp cục bộ
+// Kèm bản chụp gọn biểu thuế (mã 8 số → mô tả) vào nhu-cau/bieu-thue.json để tools/danh-muc kiểm mã HS
+// trong bảng danh mục có tồn tại không (docs/luoc-do-danh-muc-hs.md).
+//   node tools/nhu-cau.mjs                                  → tải bản đo + biểu thuế mới nhất (nhánh main của hs-code-api)
+//   node tools/nhu-cau.mjs --from <tệp> [--bieu-thue <tệp>]  → đọc tệp cục bộ (tax.json của hs-code-api)
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { ROOT } from './lib/registry.mjs';
 
 export const URL_BENCH = 'https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/plhq-bench-latest.json';
 export const TEP_NHU_CAU = join('nhu-cau', 'hs-code-api.json');
+export const URL_BIEU_THUE = 'https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/tax.json';
+export const TEP_BIEU_THUE = join('nhu-cau', 'bieu-thue.json');
+
+/** Bản chụp gọn biểu thuế: chỉ mã 8 số + mô tả dòng (cắt 120 ký tự). Không chép thuế suất. */
+export function rutGonBieuThue(tax, nguon = URL_BIEU_THUE, ngay = null) {
+  const ma = {};
+  for (const r of Object.values(tax || {})) {
+    const hs = String(r?.hs || '').replace(/\D/g, '');
+    if (hs.length === 8) ma[hs] = String(r.vn || '').replace(/\s+/g, ' ').trim().slice(0, 120);
+  }
+  if (Object.keys(ma).length < 1000) throw new Error('biểu thuế quá ít dòng — tệp nguồn sai?');
+  return { _comment: 'Chụp từ hs-code-api data/tax.json bằng node tools/nhu-cau.mjs — KHÔNG sửa tay. Chỉ dùng để kiểm mã HS trong danh-muc/.', nguon, phien_ban: ngay, tong: Object.keys(ma).length, ma: Object.fromEntries(Object.entries(ma).sort()) };
+}
 
 /** Giữ đúng phần kho cần: không chép số liệu nội bộ khác của ứng dụng. */
 export function rutGonNhuCau(bench, nguon = URL_BENCH) {
@@ -40,4 +55,19 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   mkdirSync(join(ROOT, 'nhu-cau'), { recursive: true });
   writeFileSync(join(ROOT, TEP_NHU_CAU), JSON.stringify(out, null, 1) + '\n');
   console.log(`${out.vanBanDuocDan.length} văn bản biểu thuế dẫn · ${out.thuVienLech.length} lệch thư viện → ${TEP_NHU_CAU}`);
+
+  const j = process.argv.indexOf('--bieu-thue');
+  const fromBt = j >= 0 ? process.argv[j + 1] : null;
+  let tax;
+  if (fromBt) tax = JSON.parse(readFileSync(fromBt, 'utf8'));
+  else if (!from) {
+    const res = await fetch(URL_BIEU_THUE);
+    if (!res.ok) throw new Error(`HTTP ${res.status} khi tải ${URL_BIEU_THUE}`);
+    tax = await res.json();
+  }
+  if (tax) {
+    const bt = rutGonBieuThue(tax, fromBt || URL_BIEU_THUE, bench.ngay || null);
+    writeFileSync(join(ROOT, TEP_BIEU_THUE), JSON.stringify(bt) + '\n');
+    console.log(`${bt.tong} dòng thuế 8 số → ${TEP_BIEU_THUE}`);
+  }
 }
