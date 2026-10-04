@@ -7,24 +7,27 @@ ngay_ban_hanh: '2022-12-30'
 hieu_luc_tu: '2022-12-30'
 tinh_trang: CHUA_XAC_MINH
 nhanh:
-- kiem-tra-chuyen-nganh/bkhcn
+  - kiem-tra-chuyen-nganh/bkhcn
 nguon:
-- url: https://vanban.chinhphu.vn/?classid=2&docid=207275&pageid=27160
-  truy_cap: '2026-10-04'
-- url: https://thuvienphapluat.vn/van-ban/Thuong-mai/Quyet-dinh-2711-QD-BKHCN-2022-san-pham-hang-hoa-nhom-2-thuoc-quan-ly-Bo-Khoa-hoc-Cong-nghe-549982.aspx
-  truy_cap: '2026-07-02'
-- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/2711-bkhcn.signed.pdf
-  truy_cap: '2026-10-04'
+  - url: https://vanban.chinhphu.vn/?classid=2&docid=207275&pageid=27160
+    truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/2711-bkhcn.signed.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 263
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'thẻ vanban.chinhphu.vn: ban hành 30-12-2022; người ký Lê Xuân Định'
+  pham_vi: 'PDF datafiles 2711-bkhcn.signed.pdf (OCR): Điều 3 hiệu lực kể từ ngày ký (30-12-2022); khoản 2 thay thế QĐ 3810/2019 và 3115/2020 QĐ-BKHCN; thẻ vanban.chinhphu.vn khớp ngày/người ký'
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 263 mã HS). Tiêu
-  đề đã đối chiếu (thuvienphapluat.vn + luatvietnam.vn). KHUNG KTCN 2026 (tin cậy MEDIUM): Khung ''nhóm 2'' (NĐ 132/2008,
-  NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ
-  công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026. GHI CHÚ NGHIỆP VỤ (hs-code-api):
-  Đã sửa đổi/bổ sung bởi QĐ 366/QĐ-BKHCN (2023), QĐ 367/QĐ-BKHCN (2024); phần CNTT-viễn thông thay bằng TT 29/2025/TT-BKHCN'
+  canh_bao: 'Tình trạng hiện tại chưa chốt nguồn A: khung «nhóm 2» gắn NĐ 132/2008 và 74/2018 bị NĐ 37/2026/NĐ-CP bãi từ 01-07-2026; TT 36/2026/TT-BKHCN ban hành danh mục rủi ro mới nhưng không nêu bãi 2711/QĐ-BKHCN. Cần QĐ/TT-BKHCN hoặc vbpl ghi rõ hết/còn hiệu lực trước khi đánh true.'
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (263 mã HS). PDF datafiles là ảnh — điều khoản đọc bằng OCR. Bổ sung bởi QĐ 366/2023 và 367/2024 theo ghi chú hs-code-api.'
+quan_he:
+  thay_the:
+    - so_hieu: 3810/QĐ-BKHCN
+      tu_ngay: '2022-12-30'
+      can_cu: Điều 3 khoản 2 điểm a QĐ 2711/QĐ-BKHCN
+    - so_hieu: 3115/QĐ-BKHCN
+      tu_ngay: '2022-12-30'
+      can_cu: Điều 3 khoản 2 điểm b QĐ 2711/QĐ-BKHCN
 toan_van: raw/download/datafiles.chinhphu.vn/2711-qd-bkhcn.pdf

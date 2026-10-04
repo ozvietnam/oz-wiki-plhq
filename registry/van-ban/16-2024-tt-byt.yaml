@@ -10,15 +10,20 @@ nhanh:
   - kiem-tra-chuyen-nganh/byt
 nguon:
   - url: https://vanban.chinhphu.vn/?classid=1&docid=211504&pageid=27160
-    truy_cap: '2026-07-02'
+    truy_cap: '2026-10-04'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/10/16-byt.pdf
     truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 17
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'PDF datafiles 16-byt.pdf (OCR): Điều 5 khoản 1 hiệu lực 15-11-2024; khoản 2 hết hiệu lực TT 09/2018/TT-BYT; thẻ vanban.chinhphu.vn khớp ngày; tình trạng hiện tại: sổ không có văn bản sau ghi thay/bãi 16/2024/TT-BYT (kiểm đến 04-10-2026)'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 17 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn). PDF datafiles: 10 trang, mỗi trang một ảnh, không có lớp chữ — chưa đọc điều khoản từ tệp, cần OCR.'
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (17 mã HS). PDF datafiles là ảnh ký số — điều khoản đọc bằng OCR.'
+quan_he:
+  bai_bo:
+    - so_hieu: 09/2018/TT-BYT
+      tu_ngay: '2024-11-15'
+      can_cu: Điều 5 khoản 2 TT 16/2024/TT-BYT
 toan_van: raw/download/datafiles.chinhphu.vn/16-2024-tt-byt.pdf
