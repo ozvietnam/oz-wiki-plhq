@@ -1,16 +1,21 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 174/2025/NĐ-CP
 loai: NGHI_DINH
-ten: Chính sách giảm thuế giá trị gia tăng (10% → 8%)
+ten: Quy định chính sách giảm thuế giá trị gia tăng theo Nghị quyết số 204/2025/QH15 ngày 17 tháng 6 năm 2025 của Quốc hội
 co_quan: CP
+ngay_ban_hanh: '2025-06-30'
+hieu_luc_tu: '2025-07-01'
 het_hieu_luc_tu: '2026-12-31'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/thue-noi-dia-khau-nk
+nguon:
+  - url: https://vanban.chinhphu.vn/?docid=214310&pageid=27160
+    truy_cap: '2026-10-04'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  muc: NGUON_A
+  pham_vi: số hiệu, trích yếu, ngày ban hành 30-06-2025 và ngày có hiệu lực 01-07-2025 trên vanban.chinhphu.vn
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: Hiệu lực đến 31/12/2026 (theo hs-code-api data-freshness.json). Theo dõi văn bản gia hạn/thay thế.
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Thẻ cổng Chính phủ không ghi ngày hết hiệu lực. Mốc 31-12-2026 vẫn theo hs-code-api data-freshness.json, chưa thấy trên thẻ. Người ký Hồ Đức Phớc.'
