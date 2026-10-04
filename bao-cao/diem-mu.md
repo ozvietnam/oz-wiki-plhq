@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-10-04
 
-Tổng 373 điểm: **5 cao**, 110 vừa, 258 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 367 điểm: **5 cao**, 108 vừa, 254 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -8,7 +8,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 |---|---|---|---|
 | Nhánh cây chưa có văn bản | Cao | 4 | `do-tham` |
 | Sắp hết hiệu lực (≤60 ngày) | Cao | 1 | `hieu-luc` |
-| Chưa có toàn văn | Vừa | 122 | `nap-lam-sach` |
+| Chưa có toàn văn | Vừa | 116 | `nap-lam-sach` |
 | Văn bản khung thiếu thông tin | Vừa | 7 | `he-thong-hoa` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 1 | `doc-hieu` |
 | Hiệu lực chưa đối chiếu nguồn A | Thấp | 141 | `hieu-luc` |
@@ -27,7 +27,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 
 - [ ] **85/2019/NĐ-CP hết hiệu lực ngày 2026-10-15** — Tới ngày thì chuyển tinh_trang; rà mọi trang wiki và văn bản đang dẫn chiếu 85/2019/NĐ-CP.
 
-## Chưa có toàn văn (122)
+## Chưa có toàn văn (116)
 
 - [ ] **01/2021/TT-BLĐTBXH: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "01/2021/TT-BLĐTBXH" --ghi
 - [ ] **01/2024/TT-BNNPTNT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "01/2024/TT-BNNPTNT" --ghi
@@ -48,8 +48,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **38/2019/QH14: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "38/2019/QH14" --ghi
 - [ ] **41/2013/QH13: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "41/2013/QH13" --ghi
 - [ ] **42/2019/TT-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "42/2019/TT-BCT" --ghi
-- [ ] **54/2014/QH13: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "54/2014/QH13" --ghi
-- [ ] **55/2010/QH12: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "55/2010/QH12" --ghi
 - [ ] **765/QĐ-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "765/QĐ-BCT" --ghi
 - [ ] **78/2025/QH15: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "78/2025/QH15" --ghi
 - [ ] **79/2015/QH13: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "79/2015/QH13" --ghi
@@ -69,7 +67,9 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **121/QĐ-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "121/QĐ-BCT" --ghi
 - [ ] **125/2021/TT-BCA: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "125/2021/TT-BCA" --ghi
 - [ ] **125/2026/TT-BCA: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "125/2026/TT-BCA" --ghi
-- … và 82 điểm khác (xem bao-cao/diem-mu.json)
+- [ ] **126/2026/TT-BQP: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "126/2026/TT-BQP" --ghi
+- [ ] **126/QĐ-TTg: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "126/QĐ-TTg" --ghi
+- … và 76 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Văn bản khung thiếu thông tin (7)
 

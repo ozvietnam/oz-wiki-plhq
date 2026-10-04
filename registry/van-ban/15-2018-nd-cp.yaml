@@ -14,10 +14,13 @@ quan_he:
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=192829&pageid=27160
     truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/02/15.signed.pdf
+    truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
   pham_vi: số hiệu, trích yếu, ngày ban hành 02-02-2018 và ngày có hiệu lực 02-02-2018 trên vanban.chinhphu.vn
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: 'Vẫn áp dụng tại 10/2026 vì NĐ 46/2026/NĐ-CP thay thế đang bị tạm ngưng. Kiểm tra ATTP: Điều 13 (09 trường hợp miễn), Điều 16, 17, 19 (03/07 ngày làm việc). Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
+ghi_chu: 'Vẫn áp dụng tại 10/2026 vì NĐ 46/2026/NĐ-CP thay thế đang bị tạm ngưng. Kiểm tra ATTP: Điều 13 (09 trường hợp miễn), Điều 16, 17, 19 (03/07 ngày làm việc). Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json. PDF ký số datafiles: 59 trang, mỗi trang một ảnh, không có lớp chữ — chưa đọc điều khoản từ tệp, cần OCR.'
+toan_van: raw/download/datafiles.chinhphu.vn/15-2018-nd-cp.pdf
