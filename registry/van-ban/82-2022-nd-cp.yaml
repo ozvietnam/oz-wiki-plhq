@@ -6,7 +6,8 @@ ten: Sửa đổi, bổ sung một số điều của Nghị định số 113/20
 co_quan: CP
 ngay_ban_hanh: '2022-10-18'
 hieu_luc_tu: '2022-12-22'
-tinh_trang: CHUA_XAC_MINH
+het_hieu_luc_tu: '2026-01-17'
+tinh_trang: HET_HIEU_LUC
 nhanh:
 - kiem-tra-chuyen-nganh/bct
 quan_he:
@@ -23,11 +24,9 @@ nguon:
 trich_dan_trong_bieu_thue: 258
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Công báo: ban hành 18-10-2022, hiệu lực 22-12-2022; người ký Lê Văn Thành'
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'Công báo: ban hành 18-10-2022, hiệu lực 22-12-2022; người ký Lê Văn Thành; tình trạng hiện tại: Điều 31 khoản 3 NĐ 26/2026/NĐ-CP (PDF Công báo số 78 ngày 02-02-2026, tr. 43) cho NĐ 113/2017 và NĐ 82/2022 hết hiệu lực từ 17-01-2026 (ngày ký, Điều 31 khoản 1)'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-  canh_bao: 'Theo bản chữ thứ cấp, Điều 31 khoản 3 NĐ 26/2026/NĐ-CP (hiệu lực 17-01-2026, thẻ vanban.chinhphu.vn docid=216673) cho NĐ 113/2017 và NĐ 82/2022 hết hiệu lực. Chưa đối chiếu nguồn A của điều khoản.'
-ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 258 mã HS). Tiêu đề
-  đã đối chiếu (luatvietnam.vn).
+  boi: claude-code@ozvietnam
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 258 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn). Hết hiệu lực từ 17-01-2026 theo Điều 31 khoản 3 NĐ 26/2026/NĐ-CP; danh mục hóa chất mới tại NĐ 24/2026/NĐ-CP. Lưu ý chuyển tiếp (Điều 30 NĐ 26/2026): giấy chứng nhận, giấy phép đã cấp theo NĐ 113/2017 được dùng tiếp tới 31-12-2026, 31-12-2027 hoặc hết hạn tuỳ trường hợp.'
 toan_van: raw/download/congbaocdn.chinhphu.vn/82-2022-nd-cp.pdf
