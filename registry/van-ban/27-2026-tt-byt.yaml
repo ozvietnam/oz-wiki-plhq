@@ -21,4 +21,11 @@ xac_minh:
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
 ghi_chu: 'Thẻ văn bản cổng Chính phủ khớp số hiệu, Bộ Y tế, người ký Đỗ Xuân Tuyên, tệp 27-byt.signed.pdf. Chưa đọc điều khoản thi hành. Ghi chú 8 nhóm và Công văn 1913/ATTP-KN còn từ bài tổng hợp KTCN 2026 (nguồn thứ cấp) — xem hs-code-api data/ktcn-regime-2026.json. PDF datafiles có lớp chữ (5 trang) — chưa đối chiếu điều khoản thi hành trong lần nạp này.'
+danh_muc_hs:
+  tep: danh-muc/27-2026-tt-byt.csv
+  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/27-byt.signed.pdf
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-04'
+  da_doi_chieu: false
+  ghi_chu: phụ lục không in mã HS; 8 nhóm dẫn chiếu 15/2024/TT-BYT (và 31/2022/TT-BTC); ma_hs để trống, dan_chieu=15/2024/TT-BYT
 toan_van: raw/download/datafiles.chinhphu.vn/27-2026-tt-byt.pdf
