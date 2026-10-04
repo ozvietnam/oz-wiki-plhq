@@ -96,8 +96,9 @@
     {
       "so_hieu": "01/2026/TT-BNNMT",
       "loai": "THONG_TU",
-      "ten": "Danh mục động vật, sản phẩm động vật trên cạn thuộc diện phải kiểm dịch, miễn kiểm dịch và trình tự thủ tục kiểm dịch",
+      "ten": "Quy định về kiểm dịch động vật, sản phẩm động vật trên cạn",
       "co_quan": "BNNMT",
+      "ngay_ban_hanh": "2026-01-01",
       "hieu_luc_tu": "2026-01-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
@@ -109,16 +110,22 @@
           "79/2015/QH13"
         ]
       },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=216592&pageid=27160",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành 01-01-2026 và ngày có hiệu lực 01-01-2026 trên vanban.chinhphu.vn",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Bản hợp nhất VBHN 67/VBHN-BNNMT (2026). Cơ quan: Cục Chăn nuôi và Thú y. Tên mô tả. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "ghi_chu": "Trích yếu cổng Chính phủ rộng hơn tên mô tả cũ (danh mục kiểm dịch). Người ký Phùng Đức Tiến. Bản hợp nhất VBHN 67/VBHN-BNNMT và Cục Chăn nuôi và Thú y vẫn theo bài tổng hợp, chưa đối chiếu trong toàn văn.",
       "slug": "01-2026-tt-bnnmt",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -211,16 +218,22 @@
       "nhanh": [
         "quan-ly-ngoai-thuong/luat-khung"
       ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=190308&pageid=27160",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành 12-06-2017 và ngày có hiệu lực 01-01-2018 trên vanban.chinhphu.vn",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "ghi_chu": "Thẻ cổng Chính phủ khớp Luật quản lý ngoại thương, người ký Nguyễn Thị Kim Ngân. Chưa đọc điều khoản thi hành.",
       "slug": "05-2017-qh14",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "duoc_huong_dan_boi": [
           {
@@ -338,16 +351,22 @@
           "54/2014/QH13"
         ]
       },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=178689&pageid=27160",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành 21-01-2015 và ngày có hiệu lực 15-03-2015 trên vanban.chinhphu.vn",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "ghi_chu": "Thẻ cổng Chính phủ khớp trích yếu thủ tục hải quan, người ký Nguyễn Tấn Dũng. Chưa đọc điều khoản sửa đổi sau 2015.",
       "slug": "08-2015-nd-cp",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "duoc_huong_dan_boi": [
           {
@@ -553,16 +572,22 @@
       "nhanh": [
         "thue/luat-thue"
       ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=184599&pageid=27160",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành 06-04-2016 và ngày có hiệu lực 01-09-2016 trên vanban.chinhphu.vn",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "ghi_chu": "Thẻ cổng Chính phủ khớp Luật Thuế xuất khẩu, thuế nhập khẩu, người ký Nguyễn Thị Kim Ngân. Chưa đọc điều khoản thi hành.",
       "slug": "107-2016-qh13",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "duoc_huong_dan_boi": [
           {
@@ -1136,16 +1161,22 @@
       "nhanh": [
         "xu-phat"
       ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=201401&pageid=27160",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành 19-10-2020 và ngày có hiệu lực 10-12-2020 trên vanban.chinhphu.vn",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "ghi_chu": "Thẻ cổng Chính phủ khớp xử phạt hải quan, người ký Nguyễn Xuân Phúc. Chưa đọc điều khoản sửa đổi.",
       "slug": "128-2020-nd-cp",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -1250,6 +1281,7 @@
       "ten": "Quy định chi tiết một số điều và biện pháp thi hành Luật Thuế xuất khẩu, thuế nhập khẩu",
       "co_quan": "CP",
       "ngay_ban_hanh": "2016-09-01",
+      "hieu_luc_tu": "2016-09-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "thue/luat-thue",
@@ -1260,16 +1292,22 @@
           "107/2016/QH13"
         ]
       },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=186707&pageid=27160",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành 01-09-2016 và ngày có hiệu lực 01-09-2016 trên vanban.chinhphu.vn",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "ghi_chu": "Thẻ cổng Chính phủ khớp, người ký Nguyễn Xuân Phúc. Chưa đọc điều khoản sửa đổi.",
       "slug": "134-2016-nd-cp",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_sua_doi_boi": [
           {
@@ -1706,23 +1744,31 @@
     {
       "so_hieu": "174/2025/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Chính sách giảm thuế giá trị gia tăng (10% → 8%)",
+      "ten": "Quy định chính sách giảm thuế giá trị gia tăng theo Nghị quyết số 204/2025/QH15 ngày 17 tháng 6 năm 2025 của Quốc hội",
       "co_quan": "CP",
+      "ngay_ban_hanh": "2025-06-30",
+      "hieu_luc_tu": "2025-07-01",
       "het_hieu_luc_tu": "2026-12-31",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "thue/thue-noi-dia-khau-nk"
       ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=214310&pageid=27160",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành 30-06-2025 và ngày có hiệu lực 01-07-2025 trên vanban.chinhphu.vn",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Hiệu lực đến 31/12/2026 (theo hs-code-api data-freshness.json). Theo dõi văn bản gia hạn/thay thế.",
+      "ghi_chu": "Thẻ cổng Chính phủ không ghi ngày hết hiệu lực. Mốc 31-12-2026 vẫn theo hs-code-api data-freshness.json, chưa thấy trên thẻ. Người ký Hồ Đức Phớc.",
       "slug": "174-2025-nd-cp",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -2898,7 +2944,7 @@
     {
       "so_hieu": "336/2026/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Nghị định thay thế Nghị định 85/2019/NĐ-CP (một cửa quốc gia)",
+      "ten": "Quy định thực hiện thủ tục hành chính đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh; phương tiện vận tải xuất cảnh, nhập cảnh, quá cảnh theo cơ chế một cửa quốc gia, cơ chế một cửa ASEAN",
       "co_quan": "CP",
       "ngay_ban_hanh": "2026-08-22",
       "hieu_luc_tu": "2026-10-15",
@@ -2914,16 +2960,22 @@
           }
         ]
       },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?classid=0&docid=219265&pageid=27160",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành 22-08-2026 và ngày có hiệu lực 15-10-2026 trên vanban.chinhphu.vn",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Tên đầy đủ chưa xác minh. Chuyển sang CON_HIEU_LUC từ 15/10/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "ghi_chu": "Thẻ cổng Chính phủ khớp ngày và người ký Nguyễn Văn Thắng. PDF đính kèm là bản ký số. Quan hệ thay thế 85/2019/NĐ-CP giữ từ sổ cũ; điều khoản chưa đọc trên nguồn A nên chưa đặt hieu_luc_da_doi_chieu. Còn CHUA_CO_HIEU_LUC tới 15-10-2026.",
       "slug": "336-2026-nd-cp",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -3393,16 +3445,22 @@
       "nhanh": [
         "thue/luat-thue"
       ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=197312&pageid=27160",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành 13-06-2019 và ngày có hiệu lực 01-07-2020 trên vanban.chinhphu.vn",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "ghi_chu": "Thẻ cổng Chính phủ khớp Luật Quản lý thuế, người ký Nguyễn Thị Kim Ngân. Chưa đọc điều khoản thi hành.",
       "slug": "38-2019-qh14",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -3820,16 +3878,22 @@
       "nhanh": [
         "hai-quan/luat-khung"
       ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=175358&pageid=27160",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành 23-06-2014 và ngày có hiệu lực 01-01-2015 trên vanban.chinhphu.vn",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Kiểm tra các luật sửa đổi, bổ sung (nếu có) sau 2014.",
+      "ghi_chu": "Thẻ cổng Chính phủ khớp Luật Hải quan, người ký Nguyễn Sinh Hùng. Chưa đối chiếu luật sửa đổi sau 2014.",
       "slug": "54-2014-qh13",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "duoc_huong_dan_boi": [
           {
@@ -4317,7 +4381,7 @@
     {
       "so_hieu": "85/2019/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Quy định thủ tục hành chính theo cơ chế một cửa quốc gia, cơ chế một cửa ASEAN và kiểm tra chuyên ngành đối với hàng hoá xuất khẩu, nhập khẩu",
+      "ten": "Quy định thực hiện thủ tục hành chính theo cơ chế một cửa quốc gia, cơ chế một cửa ASEAN và kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu",
       "co_quan": "CP",
       "ngay_ban_hanh": "2019-11-14",
       "hieu_luc_tu": "2020-01-01",
@@ -4326,16 +4390,22 @@
       "nhanh": [
         "hai-quan/mot-cua"
       ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=198329&pageid=27160",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành 14-11-2019 và ngày có hiệu lực 01-01-2020 trên vanban.chinhphu.vn",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Sắp hết hiệu lực: bị NĐ 336/2026/NĐ-CP thay thế từ 15/10/2026. Điều 83 khoản 4 NĐ 37/2026 còn dẫn Điều 17 NĐ 85/2019 — dẫn chiếu sẽ lạc hậu. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "ghi_chu": "Thẻ không ghi văn bản thay thế. Mốc hết hiệu lực 15-10-2026 khớp ngày có hiệu lực trên thẻ 336/2026/NĐ-CP; điều khoản thay thế chưa mở trong PDF ký số. Điều 83 khoản 4 NĐ 37/2026 dẫn Điều 17 vẫn theo bài tổng hợp.",
       "slug": "85-2019-nd-cp",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_thay_the_boi": [
           {

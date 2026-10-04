@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 336/2026/NĐ-CP
 loai: NGHI_DINH
-ten: Nghị định thay thế Nghị định 85/2019/NĐ-CP (một cửa quốc gia)
+ten: Quy định thực hiện thủ tục hành chính đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh; phương tiện vận tải xuất cảnh, nhập cảnh, quá cảnh theo cơ chế một cửa quốc gia, cơ chế một cửa ASEAN
 co_quan: CP
 ngay_ban_hanh: '2026-08-22'
 hieu_luc_tu: '2026-10-15'
@@ -12,10 +12,13 @@ quan_he:
   thay_the:
     - so_hieu: 85/2019/NĐ-CP
       tu_ngay: '2026-10-15'
+nguon:
+  - url: https://vanban.chinhphu.vn/?classid=0&docid=219265&pageid=27160
+    truy_cap: '2026-10-04'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  muc: NGUON_A
+  pham_vi: số hiệu, trích yếu, ngày ban hành 22-08-2026 và ngày có hiệu lực 15-10-2026 trên vanban.chinhphu.vn
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: Tên đầy đủ chưa xác minh. Chuyển sang CON_HIEU_LUC từ 15/10/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Thẻ cổng Chính phủ khớp ngày và người ký Nguyễn Văn Thắng. PDF đính kèm là bản ký số. Quan hệ thay thế 85/2019/NĐ-CP giữ từ sổ cũ; điều khoản chưa đọc trên nguồn A nên chưa đặt hieu_luc_da_doi_chieu. Còn CHUA_CO_HIEU_LUC tới 15-10-2026.'

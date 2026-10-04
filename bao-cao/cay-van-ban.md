@@ -47,8 +47,8 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 2 văn bản, 2 chưa hết hiệu lực.
 
-- 🔵 [336/2026/NĐ-CP](../registry/van-ban/336-2026-nd-cp.yaml) — Nghị định thay thế Nghị định 85/2019/NĐ-CP (một cửa quốc gia)
-- 🟢 [85/2019/NĐ-CP](../registry/van-ban/85-2019-nd-cp.yaml) — Quy định thủ tục hành chính theo cơ chế một cửa quốc gia, cơ chế một cửa ASEAN và kiểm tra chuyên ngành đối với hàng hoá xuất khẩu, nhập khẩu _(hết hiệu lực 2026-10-15)_
+- 🔵 [336/2026/NĐ-CP](../registry/van-ban/336-2026-nd-cp.yaml) — Quy định thực hiện thủ tục hành chính đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh; phương tiện vận tải xuất cảnh, nhập cảnh, quá cảnh theo cơ chế một cửa quốc gia, cơ chế một cửa ASEAN
+- 🟢 [85/2019/NĐ-CP](../registry/van-ban/85-2019-nd-cp.yaml) — Quy định thực hiện thủ tục hành chính theo cơ chế một cửa quốc gia, cơ chế một cửa ASEAN và kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu _(hết hiệu lực 2026-10-15)_
 
 ### Sổ tay, quy trình, hướng dẫn nghiệp vụ của cơ quan hải quan `hai-quan/so-tay-nghiep-vu`
 
@@ -83,7 +83,7 @@ _Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
 
 1 văn bản, 1 chưa hết hiệu lực.
 
-- 🟢 [174/2025/NĐ-CP](../registry/van-ban/174-2025-nd-cp.yaml) — Chính sách giảm thuế giá trị gia tăng (10% → 8%) _(hết hiệu lực 2026-12-31)_
+- 🟢 [174/2025/NĐ-CP](../registry/van-ban/174-2025-nd-cp.yaml) — Quy định chính sách giảm thuế giá trị gia tăng theo Nghị quyết số 204/2025/QH15 ngày 17 tháng 6 năm 2025 của Quốc hội _(hết hiệu lực 2026-12-31)_
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
@@ -201,10 +201,10 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 7 văn bản, 7 chưa hết hiệu lực.
 
+- 🟢 [01/2026/TT-BNNMT](../registry/van-ban/01-2026-tt-bnnmt.yaml) — Quy định về kiểm dịch động vật, sản phẩm động vật trên cạn
 - 🟢 [89/2018/NĐ-CP](../registry/van-ban/89-2018-nd-cp.yaml) — Quy định chi tiết thi hành một số điều của Luật Phòng, chống bệnh truyền nhiễm về kiểm dịch y tế biên giới
 - 🟢 [79/2015/QH13](../registry/van-ban/79-2015-qh13.yaml) — Luật Thú y
 - 🟢 [41/2013/QH13](../registry/van-ban/41-2013-qh13.yaml) — Luật Bảo vệ và kiểm dịch thực vật
-- 🟢 [01/2026/TT-BNNMT](../registry/van-ban/01-2026-tt-bnnmt.yaml) — Danh mục động vật, sản phẩm động vật trên cạn thuộc diện phải kiểm dịch, miễn kiểm dịch và trình tự thủ tục kiểm dịch
 - 🟢 [114/2025/QH15](../registry/van-ban/114-2025-qh15.yaml) — Luật Phòng bệnh
 - 🟢 [30/2014/TT-BNNPTNT](../registry/van-ban/30-2014-tt-bnnptnt.yaml) — Danh mục vật thể thuộc diện kiểm dịch thực vật
 - 🟢 [33/2014/TT-BNNPTNT](../registry/van-ban/33-2014-tt-bnnptnt.yaml) — Quy định trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật
@@ -242,8 +242,8 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 - 🟢 [27/2026/TT-BNNMT](../registry/van-ban/27-2026-tt-bnnmt.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Môi trường
 - 🟢 [22/2026/TT-BNNMT](../registry/van-ban/22-2026-tt-bnnmt.yaml) — Quy định cơ quan kiểm tra nhà nước về an toàn thực phẩm nhập khẩu thuộc Bộ Nông nghiệp và Môi trường
+- 🟢 [01/2026/TT-BNNMT](../registry/van-ban/01-2026-tt-bnnmt.yaml) — Quy định về kiểm dịch động vật, sản phẩm động vật trên cạn
 - 🟢 [17/2023/TT-BNNPTNT](../registry/van-ban/17-2023-tt-bnnptnt.yaml) — Ban hành Bảng mã HS đối với hàng hóa là thực vật rừng, động vật rừng nguy cấp, quý, hiếm và động vật, thực vật thuộc các Phụ lục Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp
-- 🟢 [01/2026/TT-BNNMT](../registry/van-ban/01-2026-tt-bnnmt.yaml) — Danh mục động vật, sản phẩm động vật trên cạn thuộc diện phải kiểm dịch, miễn kiểm dịch và trình tự thủ tục kiểm dịch
 - 🟢 [30/2014/TT-BNNPTNT](../registry/van-ban/30-2014-tt-bnnptnt.yaml) — Danh mục vật thể thuộc diện kiểm dịch thực vật
 
 ### Danh mục thuộc Bộ Khoa học và Công nghệ `kiem-tra-chuyen-nganh/bkhcn`
