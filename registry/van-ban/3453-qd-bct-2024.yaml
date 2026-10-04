@@ -5,17 +5,19 @@ ten: Áp dụng biện pháp chống bán phá giá chính thức đối với m
 co_quan: BCT
 ngay_ban_hanh: '2024-12-24'
 hieu_luc_tu: '2025-01-08'
+het_hieu_luc_tu: '2030-01-08'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - phong-ve-thuong-mai
 nguon:
-  - url: https://luatvietnam.vn/dien-luc/quyet-dinh-3453-qd-bct-cua-bo-cong-thuong-ap-dung-bien-phap-chong-ban-pha-gia-chinh-thuc-doi-voi-mot-so-san-pham-thap-dien-gio-co-xuat-xu-tu-cong-hoa-nhan-dan-trung-hoa-383629-d1.html
-    truy_cap: '2026-07-02'
+  - url: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/2024_12_24%20Quyet%20dinh%20so%203453_QD_BCT%20ap%20thue%20chinh%20thuc.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 4
 xac_minh:
-  muc: NGUON_B
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
-  hieu_luc_da_doi_chieu: false
+  muc: NGUON_A
+  pham_vi: 'PDF pvtm.gov.vn (OCR): Điều 3 hiệu lực sau 15 ngày kể từ ngày ban hành (24-12-2024 → 08-01-2025); Thông báo mục 4.b thời hạn 05 năm kể từ ngày QĐ có hiệu lực; CON_HIEU_LUC đến hết 07-01-2030 (kiểm đến 04-10-2026)'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 4 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + moit.gov.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): HS 7308.20.11; 7308.20.19; 8502.31.10; 8502.31.20. Thuế CBPG 97% (Jiangsu Zhenjiang New Energy Equipment: 0%), 5 năm từ 08/01/2025. Số hiệu hay viết 3453/QĐ-BCT-2024.'
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (4 mã HS). Mã vụ việc AD18. PDF Cục PVTM là ảnh — OCR.'
+toan_van: raw/download/pvtm.gov.vn/3453-qd-bct.pdf
