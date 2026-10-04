@@ -7,15 +7,15 @@ ngay_ban_hanh: '2025-07-25'
 hieu_luc_tu: '2025-09-09'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - kiem-tra-chuyen-nganh/bqp
+- kiem-tra-chuyen-nganh/bqp
 nguon:
-  - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-211-2025-nd-cp-45739/58043.htm
-    truy_cap: '2026-07-02'
+- url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-211-2025-nd-cp-45739/58043.htm
+  truy_cap: '2026-07-02'
 trich_dan_trong_bieu_thue: 34
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
-  hieu_luc_da_doi_chieu: false
+  pham_vi: PDF Công báo CDN; hiệu lực 09-09-2025 khớp sổ
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
+  boi: cursor-agent@ozvietnam
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 34 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn + luatvietnam.vn).

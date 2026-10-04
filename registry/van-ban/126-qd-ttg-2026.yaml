@@ -5,16 +5,21 @@ ten: Chỉ định các cơ quan đầu mối để triển khai thực hiện H
 co_quan: TTG
 ngay_ban_hanh: '2026-01-16'
 hieu_luc_tu: '2026-01-16'
-tinh_trang: CHUA_XAC_MINH
+tinh_trang: CON_HIEU_LUC
 nhanh:
-  - xuat-xu-fta/hiep-dinh
+- xuat-xu-fta/hiep-dinh
 nguon:
-  - url: https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-126-qd-ttg-468798.htm
-    truy_cap: '2026-10-04'
+- url: https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-126-qd-ttg-468798.htm
+  truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, trích yếu, ngày ban hành và mốc hiệu lực trên trang Công báo (Công báo số 71). Chưa mở toàn văn.
-  hieu_luc_da_doi_chieu: false
+  pham_vi: PDF Công báo CDN; Điều 4 hiệu lực từ ngày ký 16-01-2026; Điều 5 thay thế 1175/QĐ-TTg
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: grok@ozvietnam
-ghi_chu: Trang Công báo ghi ban hành và hiệu lực 16/01/2026. Quan hệ với 1175/QĐ-TTg chưa đối chiếu điều khoản thi hành.
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Đã đọc PDF Công báo: Điều 5 thay thế 1175/QĐ-TTg.'
+quan_he:
+  thay_the:
+  - so_hieu: 1175/QĐ-TTg
+    tu_ngay: '2026-01-16'
+    can_cu: Điều 5 QĐ 126/QĐ-TTg
