@@ -186,12 +186,12 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 10 văn bản, 10 chưa hết hiệu lực.
 
-- 🟢 [27/2026/TT-BYT](../registry/van-ban/27-2026-tt-byt.yaml) — Danh mục thực phẩm; dụng cụ chứa đựng, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm theo mức độ rủi ro (rủi ro trung bình)
-- 🟢 [28/2026/TT-BCT](../registry/van-ban/28-2026-tt-bct.yaml) — Danh mục mặt hàng nhập khẩu kèm mã HS phải kiểm tra nhà nước về an toàn thực phẩm thuộc phạm vi quản lý của Bộ Công Thương
-- 🟢 [22/2026/TT-BNNMT](../registry/van-ban/22-2026-tt-bnnmt.yaml) — Quy định cơ quan kiểm tra nhà nước về an toàn thực phẩm nhập khẩu thuộc Bộ Nông nghiệp và Môi trường
-- 🟢 [15/2026/NQ-CP](../registry/van-ban/15-2026-nq-cp.yaml) — Tiếp tục tạm ngưng hiệu lực Nghị định 46/2026/NĐ-CP
-- 🟢 [09/2026/NQ-CP](../registry/van-ban/09-2026-nq-cp.yaml) — Tạm ngưng hiệu lực Nghị định 46/2026/NĐ-CP
-- ⏸️ [46/2026/NĐ-CP](../registry/van-ban/46-2026-nd-cp.yaml) — Nghị định thay thế Nghị định 15/2018/NĐ-CP về an toàn thực phẩm
+- 🟢 [27/2026/TT-BYT](../registry/van-ban/27-2026-tt-byt.yaml) — Ban hành Danh mục thực phẩm; dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm có mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Y tế
+- 🟢 [28/2026/TT-BCT](../registry/van-ban/28-2026-tt-bct.yaml) — Ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã số HS) thực hiện kiểm tra nhà nước về an toàn thực phẩm thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương
+- 🟢 [22/2026/TT-BNNMT](../registry/van-ban/22-2026-tt-bnnmt.yaml) — Sửa đổi, bổ sung một số Thông tư liên quan phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính thuộc phạm vi quản lý nhà nước của Bộ Nông nghiệp và Môi trường
+- 🟢 [15/2026/NQ-CP](../registry/van-ban/15-2026-nq-cp.yaml) — Tạm ngưng hiệu lực Nghị định số 46/2026/NĐ-CP ngày 26 tháng 01 năm 2026 và Nghị quyết số 66.13/2026/NQ-CP ngày 27 tháng 01 năm 2026 của Chính phủ
+- 🟢 [09/2026/NQ-CP](../registry/van-ban/09-2026-nq-cp.yaml) — Tạm ngưng hiệu lực và điều chỉnh thời hạn áp dụng Nghị định số 46/2026/NĐ-CP ngày 26 tháng 01 năm 2026 và Nghị quyết số 66.13/2026/NQ-CP ngày 27 tháng 01 năm 2026
+- ⏸️ [46/2026/NĐ-CP](../registry/van-ban/46-2026-nd-cp.yaml) — Quy định chi tiết thi hành một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật An toàn thực phẩm
 - ❔ [15/2024/TT-BYT](../registry/van-ban/15-2024-tt-byt.yaml) — Ban hành Danh mục thực phẩm, phụ gia thực phẩm và dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam phải kiểm tra nhà nước về an toàn thực phẩm nhập khẩu thuộc phạm vi quản lý của Bộ Y tế
 - ❔ [11/2022/TT-BCT](../registry/van-ban/11-2022-tt-bct.yaml) — Danh mục mặt hàng nhập khẩu kèm mã HS phải kiểm tra nhà nước về an toàn thực phẩm thuộc Bộ Công Thương (cũ) _(hết hiệu lực 2026-07-17)_
 - 🟢 [15/2018/NĐ-CP](../registry/van-ban/15-2018-nd-cp.yaml) — Quy định chi tiết thi hành một số điều của Luật An toàn thực phẩm
@@ -213,8 +213,8 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 9 văn bản, 7 chưa hết hiệu lực.
 
-- 🟢 [33/2026/TT-BCT](../registry/van-ban/33-2026-tt-bct.yaml) — Danh mục sản phẩm, hàng hoá có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Công Thương
-- 🟢 [28/2026/TT-BCT](../registry/van-ban/28-2026-tt-bct.yaml) — Danh mục mặt hàng nhập khẩu kèm mã HS phải kiểm tra nhà nước về an toàn thực phẩm thuộc phạm vi quản lý của Bộ Công Thương
+- 🟢 [33/2026/TT-BCT](../registry/van-ban/33-2026-tt-bct.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương
+- 🟢 [28/2026/TT-BCT](../registry/van-ban/28-2026-tt-bct.yaml) — Ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã số HS) thực hiện kiểm tra nhà nước về an toàn thực phẩm thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương
 - ❔ [1725/QĐ-BCT](../registry/van-ban/1725-qd-bct-2024.yaml) — Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương
 - 🟢 [82/2022/NĐ-CP](../registry/van-ban/82-2022-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 113/2017/NĐ-CP ngày 09/10/2017 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất
 - ❔ [11/2022/TT-BCT](../registry/van-ban/11-2022-tt-bct.yaml) — Danh mục mặt hàng nhập khẩu kèm mã HS phải kiểm tra nhà nước về an toàn thực phẩm thuộc Bộ Công Thương (cũ) _(hết hiệu lực 2026-07-17)_
@@ -228,8 +228,8 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 8 văn bản, 8 chưa hết hiệu lực.
 
 - 🟢 [26/2026/TT-BYT](../registry/van-ban/26-2026-tt-byt.yaml) — Danh mục dược liệu, thuốc cổ truyền theo mức độ rủi ro (rủi ro trung bình)
-- 🟢 [27/2026/TT-BYT](../registry/van-ban/27-2026-tt-byt.yaml) — Danh mục thực phẩm; dụng cụ chứa đựng, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm theo mức độ rủi ro (rủi ro trung bình)
-- 🟢 [28/2026/TT-BYT](../registry/van-ban/28-2026-tt-byt.yaml) — Danh mục thuốc hoá dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc theo mức độ rủi ro
+- 🟢 [27/2026/TT-BYT](../registry/van-ban/27-2026-tt-byt.yaml) — Ban hành Danh mục thực phẩm; dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm có mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Y tế
+- 🟢 [28/2026/TT-BYT](../registry/van-ban/28-2026-tt-byt.yaml) — Ban hành Danh mục thuốc hóa dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc, bán thành phẩm thuốc và bán thành phẩm dược liệu có mức độ rủi ro cao, mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Y tế
 - 🟢 [24/2026/TT-BYT](../registry/van-ban/24-2026-tt-byt.yaml) — Xác định mức độ rủi ro và biện pháp quản lý đối với thiết bị y tế
 - 🟢 [16/2024/TT-BYT](../registry/van-ban/16-2024-tt-byt.yaml) — Ban hành Danh mục chế phẩm diệt côn trùng, diệt khuẩn dùng trong lĩnh vực gia dụng và y tế đã được xác định mã số HS theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam
 - ❔ [15/2024/TT-BYT](../registry/van-ban/15-2024-tt-byt.yaml) — Ban hành Danh mục thực phẩm, phụ gia thực phẩm và dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam phải kiểm tra nhà nước về an toàn thực phẩm nhập khẩu thuộc phạm vi quản lý của Bộ Y tế
@@ -241,7 +241,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 5 văn bản, 5 chưa hết hiệu lực.
 
 - 🟢 [27/2026/TT-BNNMT](../registry/van-ban/27-2026-tt-bnnmt.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Môi trường
-- 🟢 [22/2026/TT-BNNMT](../registry/van-ban/22-2026-tt-bnnmt.yaml) — Quy định cơ quan kiểm tra nhà nước về an toàn thực phẩm nhập khẩu thuộc Bộ Nông nghiệp và Môi trường
+- 🟢 [22/2026/TT-BNNMT](../registry/van-ban/22-2026-tt-bnnmt.yaml) — Sửa đổi, bổ sung một số Thông tư liên quan phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính thuộc phạm vi quản lý nhà nước của Bộ Nông nghiệp và Môi trường
 - 🟢 [17/2023/TT-BNNPTNT](../registry/van-ban/17-2023-tt-bnnptnt.yaml) — Ban hành Bảng mã HS đối với hàng hóa là thực vật rừng, động vật rừng nguy cấp, quý, hiếm và động vật, thực vật thuộc các Phụ lục Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp
 - 🟢 [01/2026/TT-BNNMT](../registry/van-ban/01-2026-tt-bnnmt.yaml) — Danh mục động vật, sản phẩm động vật trên cạn thuộc diện phải kiểm dịch, miễn kiểm dịch và trình tự thủ tục kiểm dịch
 - 🟢 [30/2014/TT-BNNPTNT](../registry/van-ban/30-2014-tt-bnnptnt.yaml) — Danh mục vật thể thuộc diện kiểm dịch thực vật

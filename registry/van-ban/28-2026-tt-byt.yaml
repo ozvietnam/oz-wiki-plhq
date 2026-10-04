@@ -1,18 +1,20 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 28/2026/TT-BYT
 loai: THONG_TU
-ten: Danh mục thuốc hoá dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc theo mức độ rủi ro
+ten: Ban hành Danh mục thuốc hóa dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc, bán thành phẩm thuốc và bán thành phẩm dược liệu có mức độ rủi ro cao, mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Y tế
 co_quan: BYT
 ngay_ban_hanh: '2026-07-01'
 hieu_luc_tu: '2026-07-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
+nguon:
+  - url: https://vanban.chinhphu.vn/?classid=1&docid=218707&pageid=27160
+    truy_cap: '2026-10-04'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  muc: NGUON_A
+  pham_vi: số hiệu, trích yếu, ngày ban hành 01-07-2026 và ngày có hiệu lực 01-07-2026 trên vanban.chinhphu.vn
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-  canh_bao: Chỉ có nguồn thứ cấp — kiểm lại với cơ quan ban hành trước khi dùng.
-ghi_chu: 'PL I rủi ro cao (10 nhóm), PL II rủi ro trung bình. CẢNH BÁO: nguồn tổng hợp chỉ tìm được nguồn thứ cấp, chưa có trang gốc. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Thẻ văn bản cổng Chính phủ khớp số hiệu, Bộ Y tế, người ký Nguyễn Tri Thức, tệp 28-byt.signed.pdf. Chưa đọc điều khoản thi hành nên chưa chốt tình trạng hiệu lực. Mô tả phụ lục từ bài tổng hợp KTCN 2026 (nguồn thứ cấp) — xem hs-code-api data/ktcn-regime-2026.json.'

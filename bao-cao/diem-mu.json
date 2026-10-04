@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-04",
-  "tong": 394,
+  "tong": 383,
   "diem": [
     {
       "ma": "KHONG_NGUON_A",
@@ -273,14 +273,6 @@
       "muc_tieu": "09/2024/TT-BYT",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"09/2024/TT-BYT\" --ghi",
       "luong": "nap-lam-sach"
-    },
-    {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "09/2026/NQ-CP: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
-      "muc_tieu": "09/2026/NQ-CP",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
     },
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -971,14 +963,6 @@
       "luong": "nap-lam-sach"
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "15/2018/NĐ-CP: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
-      "muc_tieu": "15/2018/NĐ-CP",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "15/2018/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -1017,14 +1001,6 @@
       "muc_tieu": "15/2024/TT-BYT",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"15/2024/TT-BYT\" --ghi",
       "luong": "nap-lam-sach"
-    },
-    {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "15/2026/NQ-CP: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
-      "muc_tieu": "15/2026/NQ-CP",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
     },
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -1443,14 +1419,6 @@
       "luong": "do-tham"
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "22/2026/TT-BNNMT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
-      "muc_tieu": "22/2026/TT-BNNMT",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "22/2026/TT-BNNMT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -1707,14 +1675,6 @@
       "luong": "nap-lam-sach"
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "27/2026/TT-BYT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
-      "muc_tieu": "27/2026/TT-BYT",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "27/2026/TT-BYT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -1779,14 +1739,6 @@
       "luong": "nap-lam-sach"
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "28/2026/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
-      "muc_tieu": "28/2026/TT-BCT",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "28/2026/TT-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -1801,22 +1753,6 @@
       "muc_tieu": "28/2026/TT-BCT",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"28/2026/TT-BCT\" --ghi",
       "luong": "nap-lam-sach"
-    },
-    {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "28/2026/TT-BYT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
-      "muc_tieu": "28/2026/TT-BYT",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
-    },
-    {
-      "ma": "CANH_BAO_NGUON",
-      "muc": "Cao",
-      "tieuDe": "28/2026/TT-BYT: Chỉ có nguồn thứ cấp — kiểm lại với cơ quan ban hành trước khi dùng.",
-      "muc_tieu": "28/2026/TT-BYT",
-      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
-      "luong": "truy-vet-nguon"
     },
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -2081,14 +2017,6 @@
       "muc_tieu": "33/2025/TT-BCT",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"33/2025/TT-BCT\" --ghi",
       "luong": "nap-lam-sach"
-    },
-    {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "33/2026/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
-      "muc_tieu": "33/2026/TT-BCT",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
     },
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -2651,14 +2579,6 @@
       "luong": "cay-du-lieu"
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Thấp",
-      "tieuDe": "46/2026/NĐ-CP: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
-      "muc_tieu": "46/2026/NĐ-CP",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "46/2026/NĐ-CP: tình trạng \"TAM_NGUNG_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -2737,14 +2657,6 @@
       "muc_tieu": "54/2014/QH13",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"54/2014/QH13\" --ghi",
       "luong": "nap-lam-sach"
-    },
-    {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "55/2010/QH12: chưa có nguồn chính thống",
-      "muc_tieu": "55/2010/QH12",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
     },
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",

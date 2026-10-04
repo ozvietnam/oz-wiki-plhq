@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 33/2026/TT-BCT
 loai: THONG_TU
-ten: Danh mục sản phẩm, hàng hoá có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Công Thương
+ten: Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương
 co_quan: BCT
 ngay_ban_hanh: '2026-06-30'
 hieu_luc_tu: '2026-07-01'
@@ -13,10 +13,13 @@ quan_he:
     - 37/2026/NĐ-CP
   thay_the:
     - 41/2023/TT-BCT
+nguon:
+  - url: https://vanban.chinhphu.vn/?docid=218710&pageid=27160
+    truy_cap: '2026-10-04'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  muc: NGUON_A
+  pham_vi: số hiệu, trích yếu, ngày ban hành 30-06-2026 và ngày có hiệu lực 01-07-2026 trên vanban.chinhphu.vn
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: Tiền chất thuốc nổ, hoá chất, nồi hơi, bình chịu áp lực, chai LPG, thiết bị điện-điện tử, hiệu suất năng lượng; kèm mã HS và QCVN. Tên theo mẫu chung, chưa đối chiếu nguyên văn. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Thẻ cổng Chính phủ khớp số hiệu, Bộ Công Thương, người ký Nguyễn Sinh Nhật Tân, tệp 33-bct.signed.pdf. Quan hệ thay 41/2023/TT-BCT vẫn theo bài tổng hợp, chưa đọc điều khoản thi hành. Nhóm hàng (tiền chất, hoá chất, nồi hơi…) còn từ nguồn thứ cấp — xem hs-code-api data/ktcn-regime-2026.json.'
