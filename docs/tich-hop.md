@@ -41,3 +41,18 @@ Giấy phép CC BY 4.0 — ghi nguồn "oz-wiki-plhq".
   `data/plhq-registry.json`; `/api/tax` trả `legalBasisRegistry` (hiệu lực từng văn bản mà cột chính sách
   của mã HS dẫn) và đưa văn bản hết hiệu lực/tạm ngưng vào `policyBasisReview`. `scripts/bench-plhq.mjs` đo
   độ phủ trên toàn biểu thuế và in danh sách văn bản cần kho này đối chiếu trước (theo số mã HS chịu ảnh hưởng).
+
+### Cầu nối tự động hai chiều
+
+| Chiều | Cơ chế | Khi nào |
+|---|---|---|
+| Kho này → hs-code-api | Workflow `plhq-sync` bên hs-code-api tải `dist/registry.json`, đo lại, chạy test, commit (thay đổi lớn → PR cho người duyệt) | Mỗi ngày 08:17 giờ VN; ngay lập tức nếu kho này có secret `HS_CODE_API_DISPATCH_TOKEN` (workflow `bao-hs-code-api`) |
+| hs-code-api → kho này | `node tools/nhu-cau.mjs` kéo `data/plhq-bench-latest.json` (repo công khai) vào `nhu-cau/hs-code-api.json`; `tools/diem-mu.mjs` sinh việc `HS_API_*` xếp theo số mã HS | Mỗi thứ Hai trong workflow `bao-cao-tuan` |
+| Tra cứu trực tiếp | `GET https://hs-kb.uythacnhapkhau.com/api/legal-status?so=28/2026/TT-BCT` (công khai) | Bất kỳ lúc nào |
+
+Ba loại việc từ hs-code-api trong báo cáo điểm mù:
+- `HS_API_UU_TIEN_DOI_CHIEU` — văn bản biểu thuế đang dẫn mà sổ chưa đối chiếu nguồn A, xếp theo số mã HS
+  (văn bản dẫn ≥ 50 mã là mức Cao). Đây là hàng đợi nên làm trước của luồng `hieu-luc`.
+- `HS_API_CHUA_CO` — biểu thuế dẫn văn bản mà sổ chưa có.
+- `HS_API_LECH_THU_VIEN` — thư viện `/api/legal-docs` của hs-code-api ghi tình trạng khác sổ; đối chiếu nguồn A
+  rồi sửa bên sai (sổ sai thì sửa ở đây, sổ đúng thì ghi `hieu_luc_da_doi_chieu: true` và mở issue bên hs-code-api).
