@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-10-04
 
-Tổng 383 điểm: **5 cao**, 121 vừa, 257 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 370 điểm: **5 cao**, 108 vừa, 257 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -9,10 +9,10 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Nhánh cây chưa có văn bản | Cao | 4 | `do-tham` |
 | Sắp hết hiệu lực (≤60 ngày) | Cao | 1 | `hieu-luc` |
 | Chưa có toàn văn | Vừa | 121 | `nap-lam-sach` |
-| Văn bản khung thiếu thông tin | Vừa | 7 | `he-thong-hoa` |
+| Văn bản khung thiếu thông tin | Vừa | 6 | `he-thong-hoa` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 1 | `doc-hieu` |
 | Hiệu lực chưa đối chiếu nguồn A | Thấp | 140 | `hieu-luc` |
-| Chưa có nguồn chính thống | Thấp | 94 | `truy-vet-nguon` |
+| Chưa có nguồn chính thống | Thấp | 82 | `truy-vet-nguon` |
 | Văn bản của cơ quan đã sáp nhập | Thấp | 9 | `do-tham` |
 | Chưa xếp vào cây | Thấp | 6 | `cay-du-lieu` |
 
@@ -71,9 +71,8 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **125/2026/TT-BCA: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "125/2026/TT-BCA" --ghi
 - … và 81 điểm khác (xem bao-cao/diem-mu.json)
 
-## Văn bản khung thiếu thông tin (7)
+## Văn bản khung thiếu thông tin (6)
 
-- [ ] **07/2026/TT-BCT: chưa có tiêu đề, ngày, nguồn** — Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.
 - [ ] **11/2026/TT-BXD: chưa có tiêu đề, ngày, nguồn** — Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.
 - [ ] **121/QĐ-BCT: chưa có tiêu đề, ngày, nguồn** — Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.
 - [ ] **1400/QĐ-BCT: chưa có tiêu đề, ngày, nguồn** — Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.
@@ -129,20 +128,17 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **121/QĐ-BCT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - … và 100 điểm khác (xem bao-cao/diem-mu.json)
 
-## Chưa có nguồn chính thống (94)
+## Chưa có nguồn chính thống (82)
 
 - [ ] **01/2026/TT-BNNMT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **05/2007/QH12: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **05/2017/QH14: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **05/2022/TT-BYT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **07/2026/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **08/2015/NĐ-CP: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **10/2022/TT-BTTTT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **107/2016/QH13: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **11/2024/TT-BTTTT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **114/2025/QH15: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **1182/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **125/2026/TT-BCA: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **126/2026/TT-BQP: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **128/2020/NĐ-CP: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **134/2016/NĐ-CP: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
@@ -152,14 +148,11 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **15/2024/TT-BYT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **16/2026/TT-BNV: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **17/2021/TT-BTC: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1725/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **173/2018/TT-BQP: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **174/2025/NĐ-CP: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **18/2021/NĐ-CP: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **1914/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **1959/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **2105/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **22/2018/TT-BTTTT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **2284/QĐ-BKHCN: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **2310/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **235/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
@@ -168,10 +161,16 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **26/2023/NĐ-CP: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **26/2026/TT-BYT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **27/2026/TT-BNNMT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **2711/QĐ-BKHCN: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **276/2026/NĐ-CP: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **29/2025/TT-BKHCN: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- … và 54 điểm khác (xem bao-cao/diem-mu.json)
+- [ ] **30/2014/TT-BNNPTNT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **31/2018/NĐ-CP: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **31/2022/TT-BTC: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **313/2026/NĐ-CP: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **33/2014/TT-BNNPTNT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **33/2023/TT-BTC: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **3453/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **351/2026/NĐ-CP: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **354/2026/NĐ-CP: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- … và 42 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Văn bản của cơ quan đã sáp nhập (9)
 

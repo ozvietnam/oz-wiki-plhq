@@ -5,11 +5,17 @@ ten: Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ ch
 co_quan: CP
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - bo-may
+- bo-may
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  muc: NGUON_A
+  pham_vi: số hiệu, trích yếu, ngày ban hành/hiệu lực 08-07-2026 trên vanban.chinhphu.vn; người ký Phạm Thị Thanh Trà
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: Bộ Nội vụ nay quản lý an toàn, vệ sinh lao động sau khi Bộ LĐ-TB&XH giải thể. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
+  boi: cursor-agent@ozvietnam
+ghi_chu: Bộ Nội vụ nay quản lý an toàn, vệ sinh lao động sau khi Bộ LĐ-TB&XH giải thể. Bài tổng hợp KTCN 2026 (nguồn thứ cấp,
+  có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
+nguon:
+- url: https://vanban.chinhphu.vn/?classid=1&docid=218832&pageid=27160
+  truy_cap: '2026-10-04'
+ngay_ban_hanh: '2026-07-08'
+hieu_luc_tu: '2026-07-08'

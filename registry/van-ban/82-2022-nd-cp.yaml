@@ -1,24 +1,28 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 82/2022/NĐ-CP
 loai: NGHI_DINH
-ten: Sửa đổi, bổ sung một số điều của Nghị định số 113/2017/NĐ-CP ngày 09/10/2017 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất
+ten: Sửa đổi, bổ sung một số điều của Nghị định số 113/2017/NĐ-CP ngày 09/10/2017 của Chính phủ quy định chi tiết và hướng
+  dẫn thi hành một số điều của Luật Hóa chất
 co_quan: CP
 ngay_ban_hanh: '2022-10-18'
 hieu_luc_tu: '2022-12-22'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - kiem-tra-chuyen-nganh/bct
+- kiem-tra-chuyen-nganh/bct
 quan_he:
   sua_doi:
-    - 113/2017/NĐ-CP
+  - 113/2017/NĐ-CP
 nguon:
-  - url: https://luatvietnam.vn/cong-nghiep/nghi-dinh-82-2022-nd-cp-sua-doi-nghi-dinh-113-2017-nd-cp-huong-dan-luat-hoa-chat-231981-d1.html
-    truy_cap: '2026-07-02'
+- url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-82-2022-nd-cp-38082.htm
+  truy_cap: '2026-10-04'
+- url: https://luatvietnam.vn/cong-nghiep/nghi-dinh-82-2022-nd-cp-sua-doi-nghi-dinh-113-2017-nd-cp-huong-dan-luat-hoa-chat-231981-d1.html
+  truy_cap: '2026-07-02'
 trich_dan_trong_bieu_thue: 258
 xac_minh:
-  muc: NGUON_B
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
+  muc: NGUON_A
+  pham_vi: 'Công báo: ban hành 18-10-2022, hiệu lực 22-12-2022; người ký Lê Văn Thành'
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 258 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn).
+  boi: cursor-agent@ozvietnam
+ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 258 mã HS). Tiêu đề
+  đã đối chiếu (luatvietnam.vn).
