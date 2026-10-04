@@ -10,12 +10,13 @@ nhanh:
   - phong-ve-thuong-mai
 nguon:
   - url: https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-khong-gia-han-ap-dung-bien-phap-tu-ve-doi-voi-san-pham-phan-bon-dap-map-nhap-khau.html
-    truy_cap: '2026-07-02'
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 8
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
+  muc: NGUON_A
+  pham_vi: 'Thông báo moit.gov.vn (bậc A): nêu QĐ 715/QĐ-BCT 03-03-2020 và quyết định không gia hạn biện pháp tự vệ DAP/MAP — chưa đủ điều khoản thi hành của chính QĐ 715/QĐ 1845'
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 8 mã HS). Tiêu đề đã đối chiếu (moit.gov.vn + vbpl.ts24.com.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc ER01.SG06. HS 3105.10.20; 3105.10.90; 3105.20.00; 3105.30.00; 3105.40.00; 3105.51.00; 3105.59.00; 3105.90.00. Thuế tự vệ 1.050.662 đ/tấn (07/03/2020) giảm dần, 0 đ/tấn từ 07/09/2022; Bộ Công Thương KHÔNG gia hạn (thông báo 20/09/2022, QĐ 1845/QĐ-BCT) ⇒ biện pháp đã chấm dứt. Số hiệu hay viết 715/QĐ-BCT-2020.'
+  boi: cursor-agent@ozvietnam
+  canh_bao: 'Đã nạp HTML thông báo moit (không gia hạn); link PDF trav.gov.vn chết (404). Cần PDF QĐ 715/QĐ-BCT hoặc QĐ 1845/QĐ-BCT nguồn A trước khi đánh true.'
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (8 mã HS). Mã vụ việc ER01.SG06. HTML thông báo: raw/download/moit.gov.vn/715-qd-bct.html — đây là thông báo không gia hạn, chưa phải toàn văn QĐ 715.'
