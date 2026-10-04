@@ -22,4 +22,9 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: khoi-tao
+  chan:
+    ma: THIEU_BAI_TUONG_MINH
+    viec_tiep: Cùng khung 2711 — chờ bãi tường minh hoặc PDF A của QĐ 3830 (nếu hủy mã HS) trên datafiles/mst.
+    ngay: '2026-10-04'
+  canh_bao: Đã ghi xac_minh.chan (THIEU_BAI_TUONG_MINH) — xem node tools/san-hieu-luc.mjs; không săn lặp URL đã 404.
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 4 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + mst.gov.vn (QĐ 3830/QĐ-BKHCN)). KHUNG KTCN 2026 (tin cậy MEDIUM): Khung ''nhóm 2'' (NĐ 132/2008, NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026. GHI CHÚ NGHIỆP VỤ (hs-code-api): Đèn LED (QCVN 19:2019/BKHCN): bóng LED có balát lắp liền, bóng LED 2 đầu, đèn LED xách tay, đèn LED cố định — kiểm tra chất lượng sau thông quan. QĐ 3830/QĐ-BKHCN ngày 21/11/2025 hủy bỏ mã HS 9405.11.99 (đèn LED cố định, mục 10.4) khỏi danh mục.'

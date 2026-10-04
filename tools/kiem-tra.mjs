@@ -2,7 +2,7 @@
 // Kiểm sổ đăng ký văn bản. LỖI → chặn PR (exit 1). CẢNH BÁO → in ra, không chặn.
 //   node tools/kiem-tra.mjs [--json]
 import { napSo, khoa, slugTuSoHieu, bacNguon, chuanCanh, dungDoThi, homNay, ROOT,
-  LOAI, TINH_TRANG, MUC_XAC_MINH, QUAN_HE } from './lib/registry.mjs';
+  LOAI, TINH_TRANG, MUC_XAC_MINH, CHAN_HIEU_LUC, QUAN_HE } from './lib/registry.mjs';
 import { napDanhMuc, kiemDinhDang } from './lib/danh-muc.mjs';
 
 const NGAY = /^\d{4}-\d{2}-\d{2}$/;
@@ -78,6 +78,15 @@ export function kiemTra(so, { today = homNay(), root = ROOT } = {}) {
     if (!MUC_XAC_MINH.includes(xm.muc)) L(f, `xac_minh.muc "${xm.muc}" không hợp lệ (${MUC_XAC_MINH.join(', ')})`);
     if (xm.muc === 'NGUON_A' && !nguon.some((n) => bacNguon(n.url, so.nguon) === 'A')) L(f, 'xac_minh.muc = NGUON_A nhưng không có nguồn bậc A (registry/nguon-uy-tin.yaml)');
     if (xm.hieu_luc_da_doi_chieu === true && !nguon.some((n) => bacNguon(n.url, so.nguon) === 'A')) L(f, 'hieu_luc_da_doi_chieu = true cần ít nhất một nguồn bậc A');
+    if (xm.chan != null) {
+      if (typeof xm.chan !== 'object' || Array.isArray(xm.chan)) L(f, 'xac_minh.chan phải là object {ma, ngay, viec_tiep}');
+      else {
+        if (!CHAN_HIEU_LUC.includes(xm.chan.ma)) L(f, `xac_minh.chan.ma "${xm.chan.ma}" không hợp lệ (${CHAN_HIEU_LUC.join(', ')})`);
+        if (!xm.chan.ngay || !NGAY.test(String(xm.chan.ngay))) L(f, 'xac_minh.chan.ngay phải dạng YYYY-MM-DD');
+        if (!xm.chan.viec_tiep || !String(xm.chan.viec_tiep).trim()) L(f, 'xac_minh.chan.viec_tiep không được trống');
+        if (xm.hieu_luc_da_doi_chieu === true) L(f, 'không vừa hieu_luc_da_doi_chieu: true vừa có xac_minh.chan — xóa chan khi đã đối chiếu xong');
+      }
+    }
   }
 
   // Bảng danh mục mã HS (docs/luoc-do-danh-muc-hs.md)

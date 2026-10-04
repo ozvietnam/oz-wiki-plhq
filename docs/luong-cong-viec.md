@@ -39,8 +39,9 @@ Mỗi luồng có nhãn GitHub riêng (`luong:<id>`), đầu vào, đầu ra và
 - **Mục tiêu:** trả lời đúng câu "văn bản này còn dùng được không, từ ngày nào thì không".
 - **Ghi gì:** ở văn bản **MỚI**: `quan_he.thay_the / sua_doi / bai_bo / tam_ngung / huong_dan / hop_nhat`; dạng đầy đủ `{so_hieu, pham_vi: "Điều 4", tu_ngay: YYYY-MM-DD, can_cu: "Điều 97 khoản 2 điểm b"}`. Ở văn bản **CŨ**: `tinh_trang`, `het_hieu_luc_tu`.
 - **Phân biệt kỹ:** *thay thế* (cả văn bản) ≠ *sửa đổi* (một phần) ≠ *bãi bỏ* (không có văn bản thay) ≠ *tạm ngưng* (chưa bị bãi bỏ, có thể sống lại — vd NĐ 46/2026 thay NĐ 15/2018 nhưng đang tạm ngưng nên NĐ 15/2018 vẫn áp dụng).
-- **Đầu vào:** điểm mù `MAU_THUAN_HIEU_LUC`, `SAP_HET_HIEU_LUC`, `SAP_CO_HIEU_LUC`, `HUONG_DAN_MO_COI`, `HIEU_LUC_CHUA_DOI_CHIEU`.
-- **Xong khi:** đặt `xac_minh.hieu_luc_da_doi_chieu: true` + `ngay` + `boi` **chỉ sau khi** mở nguồn bậc A.
+- **Đầu vào:** điểm mù `MAU_THUAN_HIEU_LUC`, `SAP_HET_HIEU_LUC`, `SAP_CO_HIEU_LUC`, `HUONG_DAN_MO_COI`, `HIEU_LUC_CHUA_DOI_CHIEU`, `HS_API_UU_TIEN_DOI_CHIEU`.
+- **Trước khi săn hàng đợi HS_API:** `node tools/san-hieu-luc.mjs` — chỉ làm mục «Làm được ngay». Mục đã `xac_minh.chan` nằm ở `HS_API_CHO_MO_CHAN` (Thấp): đừng săn lặp.
+- **Xong khi:** đặt `xac_minh.hieu_luc_da_doi_chieu: true` + `ngay` + `boi` **chỉ sau khi** mở nguồn bậc A (và xóa `chan` nếu có).
 
 ## 4. Truy vết nguồn uy tín — `luong:truy-vet-nguon`
 
