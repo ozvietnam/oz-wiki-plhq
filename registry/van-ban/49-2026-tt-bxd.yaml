@@ -23,13 +23,24 @@ quan_he:
       tu_ngay: '2026-07-01'
       can_cu: Điều 6 khoản 3 điểm c TT 49/2026/TT-BXD
 nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-49-2026-tt-bxd-469975.htm
+    truy_cap: '2026-10-04'
+  - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/18/469975-1784276696_v1_1784336792_signed.pdf
+    truy_cap: '2026-10-04'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd.signed.pdf
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'PDF datafiles ký số (lớp chữ): Điều 6 khoản 1 hiệu lực 01-07-2026 (khoản 2–3 Điều 5 từ 01-07-2029); khoản 3 điểm a–b bãi bỏ toàn bộ TT 12/2022 và 62/2024/TT-BGTVT; điểm c bãi một phần TT 71/2025/TT-BXD; sổ không có văn bản sau ghi thay/bãi TT 49/2026'
+  pham_vi: 'PDF Công báo số 409 ngày 18-07-2026 (lớp chữ): Điều 6 khoản 1 hiệu lực 01-07-2026 (khoản 2–3 Điều 5 từ 01-07-2029); khoản 3 điểm a–b bãi bỏ toàn bộ TT 12/2022 và 62/2024/TT-BGTVT; điểm c bãi một phần TT 71/2025/TT-BXD; sổ không có văn bản sau ghi thay/bãi TT 49/2026'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: 'PL I rủi ro cao / PL II rủi ro trung bình (GTVT). Người ký Nguyễn Xuân Sang (Thứ trưởng).'
-toan_van: raw/download/datafiles.chinhphu.vn/49-2026-tt-bxd.pdf
+ghi_chu: 'Bản datafiles 49-bxd.signed.pdf chỉ có phần chính (4 trang), không kèm phụ lục. Dùng Công báo CDN (20 trang) có Phụ lục I–II.'
+danh_muc_hs:
+  tep: danh-muc/49-2026-tt-bxd.csv
+  nguon: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/18/469975-1784276696_v1_1784336792_signed.pdf
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-04'
+  da_doi_chieu: false
+  ghi_chu: 'Phụ lục I trang 5–14 (CAO → KIEM_TRA_CHAT_LUONG / chứng nhận ATKT); Phụ lục II trang 15–20: Mục I CONG_BO_HOP_QUY, Mục II–III KIEM_TRA_CHAT_LUONG. 104 dòng / 70 mã (gồm mã 4 số dạng 87.03→8703, 6 số, 8 số). Một số mo_ta cắt ngắn vì bảng nhiều cột; mã 84.29.30.00 in lệch đã chuẩn hoá thành 84293000.'
+toan_van: raw/download/congbaocdn.chinhphu.vn/49-2026-tt-bxd.pdf

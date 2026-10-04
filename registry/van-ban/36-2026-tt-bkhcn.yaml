@@ -40,4 +40,11 @@ xac_minh:
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
 ghi_chu: 'Phụ lục I rủi ro cao / Phụ lục II rủi ro trung bình. Bài tổng hợp KTCN 2026 từng ghi thay 10/2024 — đã đối chiếu PDF và sửa.'
+danh_muc_hs:
+  tep: danh-muc/36-2026-tt-bkhcn.csv
+  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/36-bkhcn.signed.pdf
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-04'
+  da_doi_chieu: false
+  ghi_chu: 'PDF datafiles lớp chữ 113 trang; Phụ lục I trang 7–39 (rủi ro cao → KIEM_TRA_CHAT_LUONG, nhập khẩu kiểm tra nhà nước về chất lượng); Phụ lục II trang 40–112 (rủi ro trung bình → CONG_BO_HOP_QUY). 396 dòng / 253 mã (ô gộp tách mỗi mã một dòng); giữ độ dài mã như in (6/8 số). mo_ta lấy cột tên sản phẩm (có thể cắt ngắn vì bảng nhiều cột).'
 toan_van: raw/download/datafiles.chinhphu.vn/36-2026-tt-bkhcn.pdf
