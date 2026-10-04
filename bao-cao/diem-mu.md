@@ -1,12 +1,13 @@
 # Báo cáo điểm mù — 2026-10-04
 
-Tổng 403 điểm: **30 cao**, 127 vừa, 246 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 435 điểm: **51 cao**, 138 vừa, 246 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
 | Nhóm | Mức | Số điểm | Luồng việc |
 |---|---|---|---|
 | Ưu tiên đối chiếu — theo số mã HS đang dẫn (hs-code-api) | Cao | 53 | `hieu-luc` |
+| Văn bản danh mục chưa trích bảng mã HS | Cao | 32 | `danh-muc-hs` |
 | Cảnh báo nguồn | Cao | 8 | `truy-vet-nguon` |
 | Nhánh cây chưa có văn bản | Cao | 4 | `do-tham` |
 | Sắp hết hiệu lực (≤60 ngày) | Cao | 1 | `hieu-luc` |
@@ -62,6 +63,41 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Đối chiếu hiệu lực 2491/QĐ-BCT — 6 mã HS đang dẫn** — Sổ ghi HET_HIEU_LUC nhưng chưa đối chiếu nguồn A; 6 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
 - [ ] **Đối chiếu hiệu lực 3546/QĐ-BCT — 6 mã HS đang dẫn** — Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 6 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
 - … và 13 điểm khác (xem bao-cao/diem-mu.json)
+
+## Văn bản danh mục chưa trích bảng mã HS (32)
+
+- [ ] **Chưa trích bảng mã HS: 125/2026/TT-BCA** — Văn bản danh mục chưa có danh-muc/125-2026-tt-bca.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 126/2026/TT-BQP** — Văn bản danh mục chưa có danh-muc/126-2026-tt-bqp.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 16/2026/TT-BNV** — Văn bản danh mục chưa có danh-muc/16-2026-tt-bnv.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 26/2026/TT-BYT** — Văn bản danh mục chưa có danh-muc/26-2026-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 27/2026/TT-BNNMT** — Văn bản danh mục chưa có danh-muc/27-2026-tt-bnnmt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 27/2026/TT-BYT** — Văn bản danh mục chưa có danh-muc/27-2026-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 28/2026/TT-BCT** — Văn bản danh mục chưa có danh-muc/28-2026-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 28/2026/TT-BYT** — Văn bản danh mục chưa có danh-muc/28-2026-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 33/2026/TT-BCT** — Văn bản danh mục chưa có danh-muc/33-2026-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 36/2026/TT-BKHCN** — Văn bản danh mục chưa có danh-muc/36-2026-tt-bkhcn.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 49/2026/TT-BXD** — Văn bản danh mục chưa có danh-muc/49-2026-tt-bxd.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 08/2023/TT-BCT** — Văn bản danh mục chưa có danh-muc/08-2023-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 1964 mã.
+- [ ] **Chưa trích bảng mã HS: 34/2025/TT-BCT** — Văn bản danh mục chưa có danh-muc/34-2025-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 1764 mã.
+- [ ] **Chưa trích bảng mã HS: 01/2024/TT-BNNPTNT** — Văn bản danh mục chưa có danh-muc/01-2024-tt-bnnptnt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 1468 mã.
+- [ ] **Chưa trích bảng mã HS: 765/QĐ-BCT** — Văn bản danh mục chưa có danh-muc/765-qd-bct-2019.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 1074 mã.
+- [ ] **Chưa trích bảng mã HS: 09/2024/TT-BYT** — Văn bản danh mục chưa có danh-muc/09-2024-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 384 mã.
+- [ ] **Chưa trích bảng mã HS: 11/2018/TT-BTTTT** — Văn bản danh mục chưa có danh-muc/11-2018-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 186 mã.
+- [ ] **Chưa trích bảng mã HS: 15/2024/TT-BYT** — Văn bản danh mục chưa có danh-muc/15-2024-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 186 mã.
+- [ ] **Chưa trích bảng mã HS: 01/2021/TT-BLĐTBXH** — Văn bản danh mục chưa có danh-muc/01-2021-tt-bldtbxh.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 123 mã.
+- [ ] **Chưa trích bảng mã HS: 29/2025/TT-BKHCN** — Văn bản danh mục chưa có danh-muc/29-2025-tt-bkhcn.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 62 mã.
+- [ ] **Chưa trích bảng mã HS: 1725/QĐ-BCT** — Văn bản danh mục chưa có danh-muc/1725-qd-bct-2024.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 61 mã.
+- [ ] **Chưa trích bảng mã HS: 173/2018/TT-BQP** — Văn bản danh mục chưa có danh-muc/173-2018-tt-bqp.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 41 mã.
+- [ ] **Chưa trích bảng mã HS: 41/2019/TT-BCT** — Văn bản danh mục chưa có danh-muc/41-2019-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 32 mã.
+- [ ] **Chưa trích bảng mã HS: 22/2018/TT-BTTTT** — Văn bản danh mục chưa có danh-muc/22-2018-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 31 mã.
+- [ ] **Chưa trích bảng mã HS: 13/2023/QĐ-TTg** — Văn bản danh mục chưa có danh-muc/13-2023-qd-ttg.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 24 mã.
+- [ ] **Chưa trích bảng mã HS: 6266/QĐ-BCA** — Văn bản danh mục chưa có danh-muc/6266-qd-bca-2023.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 19 mã.
+- [ ] **Chưa trích bảng mã HS: 16/2024/TT-BYT** — Văn bản danh mục chưa có danh-muc/16-2024-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 17 mã.
+- [ ] **Chưa trích bảng mã HS: 45/2023/TT-BCT** — Văn bản danh mục chưa có danh-muc/45-2023-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 15 mã.
+- [ ] **Chưa trích bảng mã HS: 9981/QĐ-BCA** — Văn bản danh mục chưa có danh-muc/9981-qd-bca-2019.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 12 mã.
+- [ ] **Chưa trích bảng mã HS: 47/2018/TT-NHNN** — Văn bản danh mục chưa có danh-muc/47-2018-tt-nhnn.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 2 mã.
+- [ ] **Chưa trích bảng mã HS: 11/2022/TT-BCT** — Văn bản danh mục chưa có danh-muc/11-2022-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 30/2014/TT-BNNPTNT** — Văn bản danh mục chưa có danh-muc/30-2014-tt-bnnptnt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
 
 ## Cảnh báo nguồn (8)
 
