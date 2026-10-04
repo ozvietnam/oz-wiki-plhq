@@ -2,6 +2,15 @@
 
 Mũi tên đi từ văn bản MỚI tới văn bản bị tác động. Sinh tự động bằng `node tools/dung.mjs`.
 
+## Chưa phân loại — chờ luồng Hệ thống hoá xếp vào cây
+
+```mermaid
+flowchart LR
+  n_11_2024_TT_BTTTT["11/2024/TT-BTTTT<br/>còn hiệu lực"]
+  n_22_2018_TT_BTTTT["22/2018/TT-BTTTT<br/>còn hiệu lực"]
+  n_11_2024_TT_BTTTT -->|sửa đổi| n_22_2018_TT_BTTTT
+```
+
 ## Hải quan — luật, thủ tục, kiểm tra giám sát
 
 ```mermaid
@@ -33,11 +42,15 @@ flowchart LR
   n_05_2022_TT_BYT["05/2022/TT-BYT<br/>còn hiệu lực"]
   n_28_2026_TT_BCT["28/2026/TT-BCT<br/>còn hiệu lực"]
   n_11_2022_TT_BCT["11/2022/TT-BCT<br/>hết hiệu lực"]
+  n_29_2025_TT_BKHCN["29/2025/TT-BKHCN<br/>chưa xác minh"]
+  n_2711_Q__BKHCN["2711/QĐ-BKHCN<br/>chưa xác minh"]
   n_33_2026_TT_BCT["33/2026/TT-BCT<br/>còn hiệu lực"]
   n_41_2023_TT_BCT["41/2023/TT-BCT<br/>hết hiệu lực"]
   n_36_2026_TT_BKHCN["36/2026/TT-BKHCN<br/>còn hiệu lực"]
   n_10_2024_TT_BKHCN["10/2024/TT-BKHCN<br/>hết hiệu lực"]
   n_01_2009_TT_BKHCN["01/2009/TT-BKHCN<br/>hết hiệu lực"]
+  n_366_Q__BKHCN["366/QĐ-BKHCN<br/>chưa xác minh"]
+  n_367_Q__BKHCN["367/QĐ-BKHCN<br/>chưa xác minh"]
   n_37_2026_N__CP["37/2026/NĐ-CP<br/>còn hiệu lực"]
   n_132_2008_N__CP["132/2008/NĐ-CP<br/>hết hiệu lực"]
   n_74_2018_N__CP["74/2018/NĐ-CP<br/>hết hiệu lực"]
@@ -58,9 +71,12 @@ flowchart LR
   n_15_2026_NQ_CP -->|tạm ngưng| n_46_2026_N__CP
   n_24_2026_TT_BYT -->|sửa đổi| n_05_2022_TT_BYT
   n_28_2026_TT_BCT -->|thay thế| n_11_2022_TT_BCT
+  n_29_2025_TT_BKHCN -->|thay thế phần sản phẩm CNTT – viễn thông| n_2711_Q__BKHCN
   n_33_2026_TT_BCT -->|thay thế| n_41_2023_TT_BCT
   n_36_2026_TT_BKHCN -->|thay thế| n_10_2024_TT_BKHCN
   n_36_2026_TT_BKHCN -->|bãi bỏ| n_01_2009_TT_BKHCN
+  n_366_Q__BKHCN -->|sửa đổi| n_2711_Q__BKHCN
+  n_367_Q__BKHCN -->|sửa đổi| n_2711_Q__BKHCN
   n_37_2026_N__CP -->|bãi bỏ từ 2026-07-01| n_132_2008_N__CP
   n_37_2026_N__CP -->|bãi bỏ từ 2026-07-01| n_74_2018_N__CP
   n_37_2026_N__CP -->|bãi bỏ Điều 4 từ 2026-07-01| n_154_2018_N__CP
@@ -107,9 +123,12 @@ flowchart LR
 
 ```mermaid
 flowchart LR
+  n_07_2026_TT_BCT["07/2026/TT-BCT<br/>còn hiệu lực"]
+  n_37_2013_TT_BCT["37/2013/TT-BCT<br/>còn hiệu lực"]
   n_11_2026_TT_BXD["11/2026/TT-BXD<br/>chưa xác minh"]
-  n_04_2021_TT_BXD["04/2021/TT-BXD<br/>còn hiệu lực"]
-  n_11_2026_TT_BXD -->|sửa đổi| n_04_2021_TT_BXD
+  n_04_2021_TT_BXD["04/2021/TT-BXD<br/>hết hiệu lực"]
+  n_07_2026_TT_BCT -->|sửa đổi| n_37_2013_TT_BCT
+  n_11_2026_TT_BXD -->|thay thế từ 2026-06-01| n_04_2021_TT_BXD
 ```
 
 ## Thuế xuất khẩu, nhập khẩu và các thuế khác khâu nhập khẩu

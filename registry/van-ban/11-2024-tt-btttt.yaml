@@ -8,6 +8,10 @@ hieu_luc_tu: '2024-11-07'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - chua-phan-loai
+quan_he:
+  sua_doi:
+    - so_hieu: 22/2018/TT-BTTTT
+      can_cu: theo ghi chú nghiên cứu của hs-code-api data/legal-docs.json — chưa đối chiếu nguồn A
 nguon:
   - url: https://luatvietnam.vn/xuat-nhap-khau/thong-tu-11-2024-tt-btttt-sua-doi-bo-sung-mot-so-dieu-tt-03-2015-tt-btttt-tt-05-2016-tt-btttt-tt-22-2018-tt-btttt-tt-09-2013-tt-btttt-366670-d1.html
     truy_cap: '2026-07-02'
@@ -18,4 +22,4 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: khoi-tao
-ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 23 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + vcci.com.vn + caselaw.vn).
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 23 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + vcci.com.vn + caselaw.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Bổ sung Danh mục hàng hóa NK theo mã HS lĩnh vực in (nhóm 84.40/84.41/84.42/84.43, khai báo theo NĐ 72/2022/NĐ-CP); sửa Danh mục phần cứng-điện tử của TT 09/2013/TT-BTTTT. Hợp nhất tại 09/VBHN-BTTTT (2024)'

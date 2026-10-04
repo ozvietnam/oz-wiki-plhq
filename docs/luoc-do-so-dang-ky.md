@@ -6,6 +6,7 @@ ban hành (`1182/QĐ-BCT` → `1182-qd-bct-2021`). Tạo nhanh: `node tools/them
 
 ```yaml
 so_hieu: 28/2026/TT-BCT          # bắt buộc — đúng như in trên văn bản
+so_hieu_khac: []                 # tuỳ chọn — cách viết sai/biến thể hay gặp (vd lỗi gõ trong biểu thuế), để máy khác tra được
 loai: THONG_TU                   # bắt buộc — xem danh sách dưới
 ten: "Danh mục ..."              # bắt buộc — nguyên văn trích yếu
 co_quan: BCT                     # ký hiệu trong registry/co-quan.yaml

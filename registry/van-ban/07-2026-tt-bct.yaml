@@ -1,0 +1,21 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 07/2026/TT-BCT
+loai: THONG_TU
+ten: (chưa có tiêu đề) 07/2026/TT-BCT — sửa đổi, bổ sung Thông tư 37/2013/TT-BCT quy định nhập khẩu thuốc lá điếu, xì gà
+co_quan: BCT
+ngay_ban_hanh: '2026-02-24'
+hieu_luc_tu: '2026-04-10'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - quan-ly-ngoai-thuong/giay-phep
+quan_he:
+  sua_doi:
+    - so_hieu: 37/2013/TT-BCT
+      can_cu: theo ghi chú nghiên cứu của hs-code-api data/legal-docs.json — chưa đối chiếu nguồn A
+xac_minh:
+  muc: NGUON_THU_CAP
+  pham_vi: số hiệu, ngày ban hành/hiệu lực theo ghi chú hs-code-api
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-04'
+  boi: hs-code-api@ozvietnam
+ghi_chu: 'Tạo từ ghi chú hs-code-api: "37/2013/TT-BCT được sửa đổi, bổ sung bởi TT 07/2026/TT-BCT (ban hành 24/02/2026, hiệu lực 10/04/2026)". Cần trích yếu nguyên văn + nguồn A.'

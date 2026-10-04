@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-10-04
 
-135 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+136 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -127,19 +127,20 @@ _Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
 
 3 văn bản, 3 chưa hết hiệu lực.
 
-- 🟢 [12/2018/TT-BTC](../registry/van-ban/12-2018-tt-btc.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương
+- 🟢 [12/2018/TT-BCT](../registry/van-ban/12-2018-tt-bct.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương
 - 🟢 [69/2018/NĐ-CP](../registry/van-ban/69-2018-nd-cp.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương
 - 🟢 [05/2017/QH14](../registry/van-ban/05-2017-qh14.yaml) — Luật Quản lý ngoại thương
 
 ### Giấy phép, hạn ngạch, hàng cấm, tạm ngừng `quan-ly-ngoai-thuong/giay-phep`
 
-11 văn bản, 11 chưa hết hiệu lực.
+12 văn bản, 11 chưa hết hiệu lực.
 
+- 🟢 [07/2026/TT-BCT](../registry/van-ban/07-2026-tt-bct.yaml) — (chưa có tiêu đề) 07/2026/TT-BCT — sửa đổi, bổ sung Thông tư 37/2013/TT-BCT quy định nhập khẩu thuốc lá điếu, xì gà
 - 🟢 [01/2024/TT-BNNPTNT](../registry/van-ban/01-2024-tt-bnnptnt.yaml) — Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn
 - 🟢 [45/2023/TT-BCT](../registry/van-ban/45-2023-tt-bct.yaml) — Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý
 - 🟢 [13/2023/QĐ-TTg](../registry/van-ban/13-2023-qd-ttg.yaml) — Ban hành Danh mục phế liệu được phép nhập khẩu từ nước ngoài làm nguyên liệu sản xuất
 - 🟢 [08/2023/TT-BCT](../registry/van-ban/08-2023-tt-bct.yaml) — Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương
-- 🟢 [04/2021/TT-BXD](../registry/van-ban/04-2021-tt-bxd.yaml) — Hướng dẫn xuất khẩu khoáng sản làm vật liệu xây dựng
+- ⚫ [04/2021/TT-BXD](../registry/van-ban/04-2021-tt-bxd.yaml) — Hướng dẫn xuất khẩu khoáng sản làm vật liệu xây dựng _(hết hiệu lực 2026-06-01)_
 - 🟢 [41/2019/TT-BCT](../registry/van-ban/41-2019-tt-bct.yaml) — Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương
 - 🟢 [173/2018/TT-BQP](../registry/van-ban/173-2018-tt-bqp.yaml) — Công bố danh mục cụ thể hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành của Bộ Quốc phòng theo quy định tại Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ
 - 🟢 [22/2018/TT-BTTTT](../registry/van-ban/22-2018-tt-btttt.yaml) — Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm
