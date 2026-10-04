@@ -1,17 +1,20 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 54/2014/QH13
 loai: LUAT
-ten: Luật Hải quan
+ten: LUẬT HẢI QUAN
 co_quan: QH
 ngay_ban_hanh: '2014-06-23'
 hieu_luc_tu: '2015-01-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - hai-quan/luat-khung
+- hai-quan/luat-khung
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: hiểu biết nền lúc khởi tạo
+  muc: NGUON_A
+  pham_vi: 'thẻ vanban.chinhphu.vn: số hiệu 54/2014/QH13, ban hành 23-06-2014, hiệu lực 01-01-2015, ký Nguyễn Sinh Hùng'
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
+  boi: cursor-agent@ozvietnam
 ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Kiểm tra các luật sửa đổi, bổ sung (nếu có) sau 2014.
+nguon:
+- url: https://vanban.chinhphu.vn/?docid=175358&pageid=27160
+  truy_cap: '2026-10-04'

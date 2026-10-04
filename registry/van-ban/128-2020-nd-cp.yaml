@@ -7,11 +7,14 @@ ngay_ban_hanh: '2020-10-19'
 hieu_luc_tu: '2020-12-10'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - xu-phat
+- xu-phat
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: hiểu biết nền lúc khởi tạo
+  muc: NGUON_A
+  pham_vi: 'thẻ vanban.chinhphu.vn: số hiệu 128/2020/NĐ-CP, ban hành 19-10-2020, hiệu lực 10-12-2020, ký Nguyễn Xuân Phúc'
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
+  boi: cursor-agent@ozvietnam
 ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.
+nguon:
+- url: https://vanban.chinhphu.vn/?docid=201401&pageid=27160
+  truy_cap: '2026-10-04'

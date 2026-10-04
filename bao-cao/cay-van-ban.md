@@ -14,7 +14,7 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 - 🟢 [59/2018/NĐ-CP](../registry/van-ban/59-2018-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định 08/2015/NĐ-CP
 - 🟢 [08/2015/NĐ-CP](../registry/van-ban/08-2015-nd-cp.yaml) — Quy định chi tiết và biện pháp thi hành Luật Hải quan về thủ tục hải quan, kiểm tra, giám sát, kiểm soát hải quan
-- 🟢 [54/2014/QH13](../registry/van-ban/54-2014-qh13.yaml) — Luật Hải quan
+- 🟢 [54/2014/QH13](../registry/van-ban/54-2014-qh13.yaml) — LUẬT HẢI QUAN
 
 ### Thủ tục hải quan, khai báo, hồ sơ `hai-quan/thu-tuc`
 
@@ -83,7 +83,7 @@ _Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
 
 1 văn bản, 1 chưa hết hiệu lực.
 
-- 🟢 [174/2025/NĐ-CP](../registry/van-ban/174-2025-nd-cp.yaml) — Chính sách giảm thuế giá trị gia tăng (10% → 8%) _(hết hiệu lực 2026-12-31)_
+- 🟢 [174/2025/NĐ-CP](../registry/van-ban/174-2025-nd-cp.yaml) — Quy định chính sách giảm thuế giá trị gia tăng theo Nghị quyết số 204/2025/QH15 ngày 17 tháng 6 năm 2025 của Quốc hội _(hết hiệu lực 2026-12-31)_
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
@@ -135,7 +135,7 @@ _Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
 
 - 🟢 [12/2018/TT-BCT](../registry/van-ban/12-2018-tt-bct.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương
 - 🟢 [69/2018/NĐ-CP](../registry/van-ban/69-2018-nd-cp.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương
-- 🟢 [05/2017/QH14](../registry/van-ban/05-2017-qh14.yaml) — Luật Quản lý ngoại thương
+- 🟢 [05/2017/QH14](../registry/van-ban/05-2017-qh14.yaml) — Luật quản lý ngoại thương
 
 ### Giấy phép, hạn ngạch, hàng cấm, tạm ngừng `quan-ly-ngoai-thuong/giay-phep`
 

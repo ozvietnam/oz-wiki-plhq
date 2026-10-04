@@ -7,15 +7,18 @@ ngay_ban_hanh: '2015-01-21'
 hieu_luc_tu: '2015-03-15'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - hai-quan/luat-khung
-  - hai-quan/kiem-tra-giam-sat
+- hai-quan/luat-khung
+- hai-quan/kiem-tra-giam-sat
 quan_he:
   huong_dan:
-    - 54/2014/QH13
+  - 54/2014/QH13
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: hiểu biết nền lúc khởi tạo
+  muc: NGUON_A
+  pham_vi: 'thẻ vanban.chinhphu.vn: số hiệu 08/2015/NĐ-CP, ban hành 21-01-2015, hiệu lực 15-03-2015, ký Nguyễn Tấn Dũng'
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
+  boi: cursor-agent@ozvietnam
 ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.
+nguon:
+- url: https://vanban.chinhphu.vn/default.aspx?docid=178689&pageid=27160
+  truy_cap: '2026-10-04'
