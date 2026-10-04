@@ -1,8 +1,9 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 01/2026/TT-BNNMT
 loai: THONG_TU
-ten: Danh mục động vật, sản phẩm động vật trên cạn thuộc diện phải kiểm dịch, miễn kiểm dịch và trình tự thủ tục kiểm dịch
+ten: Quy định về kiểm dịch động vật, sản phẩm động vật trên cạn
 co_quan: BNNMT
+ngay_ban_hanh: '2026-01-01'
 hieu_luc_tu: '2026-01-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
@@ -11,10 +12,13 @@ nhanh:
 quan_he:
   huong_dan:
     - 79/2015/QH13
+nguon:
+  - url: https://vanban.chinhphu.vn/?docid=216592&pageid=27160
+    truy_cap: '2026-10-04'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  muc: NGUON_A
+  pham_vi: số hiệu, trích yếu, ngày ban hành 01-01-2026 và ngày có hiệu lực 01-01-2026 trên vanban.chinhphu.vn
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Bản hợp nhất VBHN 67/VBHN-BNNMT (2026). Cơ quan: Cục Chăn nuôi và Thú y. Tên mô tả. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Trích yếu cổng Chính phủ rộng hơn tên mô tả cũ (danh mục kiểm dịch). Người ký Phùng Đức Tiến. Bản hợp nhất VBHN 67/VBHN-BNNMT và Cục Chăn nuôi và Thú y vẫn theo bài tổng hợp, chưa đối chiếu trong toàn văn.'

@@ -8,10 +8,13 @@ hieu_luc_tu: '2018-01-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong/luat-khung
+nguon:
+  - url: https://vanban.chinhphu.vn/?docid=190308&pageid=27160
+    truy_cap: '2026-10-04'
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: hiểu biết nền lúc khởi tạo
+  muc: NGUON_A
+  pham_vi: số hiệu, trích yếu, ngày ban hành 12-06-2017 và ngày có hiệu lực 01-01-2018 trên vanban.chinhphu.vn
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.
+  boi: cursor-agent@ozvietnam
+ghi_chu: Thẻ cổng Chính phủ khớp Luật quản lý ngoại thương, người ký Nguyễn Thị Kim Ngân. Chưa đọc điều khoản thi hành.

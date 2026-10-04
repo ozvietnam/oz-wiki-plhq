@@ -15,10 +15,13 @@ quan_he:
 nguon:
   - url: https://vanban.chinhphu.vn/?classid=1&docid=218174&pageid=27160
     truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/22-bnnmt.pdf
+    truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
   pham_vi: số hiệu, trích yếu và ngày ban hành 19-05-2026 trên vanban.chinhphu.vn; thẻ ghi ngày có hiệu lực 19-05-2026
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: 'Trích yếu cổng Chính phủ là thông tư phân cấp, cắt giảm thủ tục, không phải tiêu đề "cơ quan kiểm tra ATTP". Ngày ban hành 19-05-2026 khớp sổ. Thẻ ghi ngày có hiệu lực 19-05-2026; sổ vẫn để hieu_luc_tu 2026-09-01 theo bài tổng hợp (mốc đổi cơ quan kiểm tra) — chưa đọc điều khoản nên chưa sửa ngày này. Khoản 1, 2 Điều 3 về Chủ tịch UBND cấp tỉnh vẫn là nguồn thứ cấp (hs-code-api data/ktcn-regime-2026.json).'
+ghi_chu: 'Trích yếu cổng Chính phủ là thông tư phân cấp, cắt giảm thủ tục, không phải tiêu đề "cơ quan kiểm tra ATTP". Ngày ban hành 19-05-2026 khớp sổ. Thẻ ghi ngày có hiệu lực 19-05-2026; sổ vẫn để hieu_luc_tu 2026-09-01 theo bài tổng hợp (mốc đổi cơ quan kiểm tra) — chưa đọc điều khoản nên chưa sửa ngày này. Khoản 1, 2 Điều 3 về Chủ tịch UBND cấp tỉnh vẫn là nguồn thứ cấp (hs-code-api data/ktcn-regime-2026.json). PDF datafiles có lớp chữ (82 trang) — chưa đối chiếu điều khoản thi hành trong lần nạp này.'
+toan_van: raw/download/datafiles.chinhphu.vn/22-2026-tt-bnnmt.pdf

@@ -4,18 +4,28 @@ loai: THONG_TU
 ten: Công bố chi tiết Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm theo mã số HS
 co_quan: BTTTT
 ngay_ban_hanh: '2018-10-15'
-hieu_luc_tu: '2018-12-01'
+hieu_luc_tu: '2018-11-30'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - quan-ly-ngoai-thuong/hang-da-qua-su-dung
+- quan-ly-ngoai-thuong/hang-da-qua-su-dung
 nguon:
-  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-11-2018-tt-btttt-27500.htm
-    truy_cap: '2026-07-02'
+- url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-11-2018-tt-btttt-27500.htm
+  truy_cap: '2026-07-02'
+- url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/10/27500/24162-1-20181011-101211-2018-tt-btttt.pdf
+  truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 186
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
+  pham_vi: PDF Công báo CDN; Điều 3 khoản 1 hiệu lực 30-11-2018 (sửa ngày sổ từ 01-12-2018)
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 186 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn).
+  boi: cursor-agent@ozvietnam
+  canh_bao: 'PDF Công báo chỉ xác nhận hiệu lực từ 30-11-2018 (Điều 3 khoản 1). Tình trạng hiện tại chưa đối chiếu: NĐ 69/2018/NĐ-CP (căn cứ của danh mục) được NĐ 292/2026/NĐ-CP thay từ 05-09-2026 (tin thứ cấp) và Bộ KH&CN đã đưa dự thảo thông tư công bố danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu (mst.gov.vn, 05/2026).'
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 186 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn). Đã đối chiếu PDF Công báo: hiệu lực 30-11-2018 (không phải 01-12)'
+quan_he:
+  sua_doi:
+  - so_hieu: 31/2015/TT-BTTTT
+    pham_vi: Điều 3 và Phụ lục số 01
+    tu_ngay: '2018-11-30'
+    can_cu: Điều 3 khoản 2 TT 11/2018/TT-BTTTT
+toan_van: raw/download/congbaocdn.chinhphu.vn/11-2018-tt-btttt.pdf

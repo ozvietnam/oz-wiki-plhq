@@ -11,6 +11,8 @@ nhanh:
 nguon:
   - url: https://vanban.chinhphu.vn/?classid=1&docid=211504&pageid=27160
     truy_cap: '2026-07-02'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/10/16-byt.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 17
 xac_minh:
   muc: NGUON_A
@@ -18,4 +20,5 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: khoi-tao
-ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 17 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn).
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 17 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn). PDF datafiles: 10 trang, mỗi trang một ảnh, không có lớp chữ — chưa đọc điều khoản từ tệp, cần OCR.'
+toan_van: raw/download/datafiles.chinhphu.vn/16-2024-tt-byt.pdf

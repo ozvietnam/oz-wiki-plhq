@@ -8,10 +8,16 @@ hieu_luc_tu: '2015-01-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - hai-quan/luat-khung
+nguon:
+  - url: https://vanban.chinhphu.vn/?docid=175358&pageid=27160
+    truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2014/08/54_haiquan.signed.pdf
+    truy_cap: '2026-10-04'
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: hiểu biết nền lúc khởi tạo
+  muc: NGUON_A
+  pham_vi: số hiệu, trích yếu, ngày ban hành 23-06-2014 và ngày có hiệu lực 01-01-2015 trên vanban.chinhphu.vn
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Kiểm tra các luật sửa đổi, bổ sung (nếu có) sau 2014.
+  boi: cursor-agent@ozvietnam
+ghi_chu: Thẻ cổng Chính phủ khớp Luật Hải quan, người ký Nguyễn Sinh Hùng. Đã lưu PDF ký số datafiles (54 trang, mỗi trang một ảnh, không có lớp chữ) — chưa đọc được điều khoản từ tệp; cần OCR. Chưa đối chiếu luật sửa đổi sau 2014.
+toan_van: raw/download/datafiles.chinhphu.vn/54-2014-qh13.pdf

@@ -1,21 +1,25 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 08/2023/TT-BCT
 loai: THONG_TU
-ten: Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương
+ten: Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm
+  theo một số Thông tư của Bộ trưởng Bộ Công Thương
 co_quan: BCT
 ngay_ban_hanh: '2023-03-31'
 hieu_luc_tu: '2023-05-16'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - quan-ly-ngoai-thuong/giay-phep
+- quan-ly-ngoai-thuong/giay-phep
 nguon:
-  - url: https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=160072
-    truy_cap: '2026-07-02'
+- url: https://vanban.chinhphu.vn/?classid=1&docid=207706&orggroupid=4&pageid=27160
+  truy_cap: '2026-10-04'
+- url: https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=160072
+  truy_cap: '2026-07-02'
 trich_dan_trong_bieu_thue: 1964
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
+  pham_vi: 'thẻ vanban.chinhphu.vn: ban hành 31-03-2023, hiệu lực 16-05-2023; người ký Nguyễn Sinh Nhật Tân'
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1964 mã HS). Tiêu đề đã đối chiếu (vbpl.vn).
+  boi: cursor-agent@ozvietnam
+ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1964 mã HS). Tiêu
+  đề đã đối chiếu (vbpl.vn).
