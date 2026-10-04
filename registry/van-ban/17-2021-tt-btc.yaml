@@ -5,16 +5,20 @@ ten: Sửa đổi, bổ sung một số điều của Thông tư 14/2015/TT-BTC
 co_quan: BTC
 ngay_ban_hanh: '2021-02-26'
 hieu_luc_tu: '2021-04-12'
-tinh_trang: CON_HIEU_LUC
+het_hieu_luc_tu: '2026-09-15'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - phan-loai-hs/quy-trinh-phan-loai
 quan_he:
   sua_doi:
     - 14/2015/TT-BTC
+nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-85-2026-tt-btc-469982.htm
+    truy_cap: '2026-10-04'
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: hiểu biết nền lúc khởi tạo
-  hieu_luc_da_doi_chieu: false
+  muc: NGUON_A
+  pham_vi: 'Tình trạng: Điều 15 khoản 1 85/2026/TT-BTC (Công báo số 409 ngày 18-07-2026) — "thay thế 17/2021/TT-BTC" từ 15-09-2026, người duy trì đã đọc nguyên văn.'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.
+  boi: claude-code@ozvietnam
+ghi_chu: Bị 85/2026/TT-BTC thay thế từ 2026-09-15. Chuyển tiếp theo Điều 16 TT 85/2026 (xem 14/2015/TT-BTC).
