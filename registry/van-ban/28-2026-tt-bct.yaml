@@ -12,14 +12,11 @@ nhanh:
 quan_he:
   huong_dan:
     - 15/2018/NĐ-CP
-  thay_the:
-    - so_hieu: 11/2022/TT-BCT
-      can_cu: 'CHỈ theo bài tổng hợp KTCN 2026. Toàn văn Công báo số 328 của TT 28/2026 (đã tìm "11/2022": 0 kết quả) KHÔNG nhắc TT 11/2022. MÂU THUẪN: Hermes-211 (hs-code-api nhánh hermes/ktcn-2026-kiem-chung, reports/ktcn-2026/KIEM-CHUNG.md, 04/10/2026) đọc TT 28/2026/TT-BCT và không thấy nhắc TT 11/2022/TT-BCT — cần mở TT 11/2022 và điều khoản thi hành TT 28/2026'
   bai_bo:
     - so_hieu: 1182/QĐ-BCT
       tu_ngay: '2026-07-17'
       pham_vi: Khoản 1 Điều 2 và Phụ lục 2 (danh mục ATTP)
-      can_cu: Điều 4 khoản 2 TT 28/2026/TT-BCT — nguyên văn Công báo số 328 ngày 14-06-2026 (congbaocdn, trang 3 PDF)
+      can_cu: Điều 4 khoản 2 TT 28/2026/TT-BCT — nguyên văn Công báo số 328 ngày 14-06-2026
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=218330&pageid=27160
     truy_cap: '2026-10-04'
@@ -31,11 +28,11 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, trích yếu, ngày ban hành 01-06-2026 trên vanban.chinhphu.vn; Điều 4 (hiệu lực 17-07-2026, chấm dứt Khoản 1 Điều 2 + Phụ lục 2 QĐ 1182) đọc nguyên văn trên Công báo số 328 (có lớp chữ). Chưa kiểm văn bản ban hành sau có thay TT này không.
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'PDF Công báo số 328 ngày 14-06-2026 (lớp chữ): Điều 4 khoản 1 hiệu lực 17-07-2026; khoản 2 hết hiệu lực Khoản 1 Điều 2 và Phụ lục 2 QĐ 1182/QĐ-BCT; tình trạng hiện tại: sổ không có văn bản sau ghi thay/bãi TT 28/2026 (kiểm đến 04-10-2026); toàn văn Công báo không nhắc TT 11/2022/TT-BCT'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: '5 nhóm (rượu, bia, nước giải khát, sữa chế biến, dầu thực vật, bột/tinh bột, bánh mứt kẹo). Công báo số 328 ngày 14/6/2026. Điều 4: QĐ 1182/QĐ-BCT hết hiệu lực từ 17/7/2026 (Hermes-211 đối chiếu). Điều 3.2: kiểm tra ATTP theo Điều 40 Luật ATTP và Điều 16 NĐ 15/2018/NĐ-CP; Điều 3.3: miễn kiểm tra khi thuộc Điều 13 NĐ 15/2018/NĐ-CP. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json. PDF ký số datafiles: 28 trang ảnh, không lớp chữ; bản Công báo số 328 (congbaocdn) có lớp chữ và đủ phụ lục — dùng bản này.'
+ghi_chu: '5 nhóm ATTP. Đã bỏ quan_he.thay_the 11/2022 vì PDF Công báo số 328 không nhắc số hiệu đó (bài tổng hợp KTCN 2026 ghi sai). Bản datafiles ký số là ảnh; dùng Công báo CDN có lớp chữ.'
 danh_muc_hs:
   tep: danh-muc/28-2026-tt-bct.csv
   nguon: https://congbaocdn.chinhphu.vn/180507251028987904/2026/6/12/469681-1781245487_v1_1781258779_signed.pdf
@@ -43,4 +40,4 @@ danh_muc_hs:
   ngay: '2026-10-04'
   da_doi_chieu: false
   ghi_chu: 'Phụ lục trang 4–28 PDF (trang 6–30 Công báo). Phụ lục in cây biểu thuế (4/6/8 số); theo "* Ghi chú" của phụ lục, mã 4/6 số đứng riêng bao trùm mọi mã 8 số bên dưới, mã 8 số chỉ bao trùm chính nó → bảng chỉ giữ mã KHÔNG có mã con in bên dưới trong cùng nhóm (377 mã 8 số + 1103). 5 nhóm: 1 đồ uống (82 dòng), 2 sữa chế biến (50), 3 dầu thực vật (150), 4 bột/tinh bột (34), 5 bánh mứt kẹo (62). mo_ta nguyên văn nên nhiều dòng là "- - Loại khác"; ký hiệu (SEN) và chú thích (1) để nguyên trong mo_ta.'
-toan_van: raw/download/datafiles.chinhphu.vn/28-2026-tt-bct.pdf
+toan_van: raw/download/congbaocdn.chinhphu.vn/28-2026-tt-bct.pdf
