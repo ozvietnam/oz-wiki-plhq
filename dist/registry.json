@@ -1,7 +1,7 @@
 {
   "phien_ban": "2026-10-04",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 154,
+  "tong": 165,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -306,6 +306,11 @@
       "quan_he_nguoc": {
         "duoc_huong_dan_boi": [
           {
+            "tu": "292/2026/NĐ-CP",
+            "quan_he": "huong_dan",
+            "so_hieu": "05/2017/QH14"
+          },
+          {
             "tu": "31/2018/NĐ-CP",
             "quan_he": "huong_dan",
             "so_hieu": "05/2017/QH14"
@@ -346,6 +351,48 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "06/2026/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 13/2015/TT-BTC quy định về kiểm tra, giám sát, tạm dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo vệ quyền sở hữu trí tuệ",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2026-01-26",
+      "hieu_luc_tu": "2026-03-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "13/2015/TT-BTC",
+            "tu_ngay": "2026-03-01",
+            "can_cu": "Điều 1 TT 06/2026/TT-BTC"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-06-2026-tt-btc-468899.htm",
+          "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/2/12/06signed-1770886168414383556979.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Công báo số 106 ngày 13-02-2026: Điều 3 khoản 1 hiệu lực 01-03-2026 (trang tổng hợp Meta AI ghi sai 15-03).",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "claude-code@ozvietnam"
+      },
+      "ghi_chu": "Có quy định riêng cho hàng giao dịch qua thương mại điện tử. Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.",
+      "slug": "06-2026-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "07/2023/TT-NHNN",
@@ -916,6 +963,48 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "11/2026/QH16",
+      "loai": "LUAT",
+      "ten": "Luật sửa đổi, bổ sung một số điều của Luật Hải quan",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2026-08-23",
+      "hieu_luc_tu": "2027-03-01",
+      "tinh_trang": "CHUA_CO_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/luat-khung"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "54/2014/QH13",
+            "tu_ngay": "2027-03-01",
+            "can_cu": "Điều 1 Luật 11/2026/QH16 (Công báo số 518 ngày 21-09-2026)"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/luat-so-11-2026-qh16-470446.htm",
+          "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/9/21/470446-1789727818_v1_1789953100_signed.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Công báo số 518: thông qua 23-08-2026 (Quốc hội khóa XVI); Điều 3 khoản 1 hiệu lực 01-03-2027.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "claude-code@ozvietnam"
+      },
+      "ghi_chu": "Bỏ loại hình kho bảo thuế (Điều 4 chuyển tiếp: NVL tồn kho bảo thuế xử lý trong 06 tháng); bổ sung Điều 16a kiểm tra, giám sát hải quan hàng hóa XNK qua nền tảng thương mại điện tử (Điều 1 khoản 4). Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.",
+      "slug": "11-2026-qh16",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "11/2026/TT-BXD",
       "loai": "THONG_TU",
       "ten": "(chưa có tiêu đề) 11/2026/TT-BXD",
@@ -1275,6 +1364,53 @@
       }
     },
     {
+      "so_hieu": "121/2025/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của các Thông tư quy định về thủ tục hải quan, kiểm tra, giám sát hải quan, thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2025-12-18",
+      "hieu_luc_tu": "2026-02-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "38/2015/TT-BTC",
+            "tu_ngay": "2026-02-01",
+            "can_cu": "Điều 1 TT 121/2025/TT-BTC"
+          },
+          {
+            "so_hieu": "39/2018/TT-BTC",
+            "tu_ngay": "2026-02-01",
+            "can_cu": "Điều 1 TT 121/2025/TT-BTC"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-121-2025-tt-btc-468755.htm",
+          "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/1/29/121signed-1769648656491392901604.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Công báo số 60 ngày 27-01-2026: ban hành 18-12-2025; Điều 3 khoản 1 hiệu lực 01-02-2026.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "claude-code@ozvietnam"
+      },
+      "ghi_chu": "Sửa TT 38/2015 (có Điều 86 XNK tại chỗ) và TT 39/2018; Điều 2 bãi bỏ một phần TT 39/2015, 06/2021, 47/2025 và một số mẫu TT 14/2015 — chưa ghi thành quan hệ (văn bản chưa có đủ trong sổ). Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.",
+      "slug": "121-2025-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "121/QĐ-BCT",
       "loai": "QUYET_DINH",
       "ten": "(chưa có tiêu đề) 121/QĐ-BCT",
@@ -1298,6 +1434,49 @@
       "ghi_chu": "Văn bản khung (stub): chỉ biết qua quan hệ thay thế 2491/QĐ-BCT trong hs-code-api. Cần bổ sung tiêu đề, ngày, nguồn.",
       "slug": "121-qd-bct-2025",
       "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "124/2026/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Bổ sung khoản 10 Điều 15 Thông tư số 33/2023/TT-BTC quy định về xác định xuất xứ hàng hoá xuất khẩu, nhập khẩu",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2026-08-22",
+      "hieu_luc_tu": "2026-08-22",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "xuat-xu-fta/quy-tac-xuat-xu"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "33/2023/TT-BTC",
+            "pham_vi": "bổ sung khoản 10 Điều 15",
+            "tu_ngay": "2026-08-22",
+            "can_cu": "Điều 1 TT 124/2026/TT-BTC"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-124-2026-tt-btc-470346.htm",
+          "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/9/7/470346-1788428311_v1_1788743163_signed.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Công báo số 501 ngày 07-09-2026: Điều 2 khoản 1 hiệu lực 22-08-2026.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "claude-code@ozvietnam"
+      },
+      "ghi_chu": "Chỉ bổ sung một khoản (kiểm tra chứng từ chứng nhận xuất xứ theo quản lý rủi ro). Các ý \"3 mức xanh-vàng-đỏ\", \"từ chối C/O nếu lệch trị giá >10%\" trên trang tổng hợp Meta AI KHÔNG có trong văn bản. Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.",
+      "slug": "124-2026-tt-btc",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -1518,6 +1697,39 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "128/2026/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Quy định về kiểm tra, giám sát và quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh và phương tiện vận tải hoạt động trong khu vực cửa khẩu thông minh",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2026-08-27",
+      "hieu_luc_tu": "2026-10-15",
+      "tinh_trang": "CHUA_CO_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-128-2026-tt-btc-470374.htm",
+          "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/9/15/470374-1788923190_v1_1789434330_signed.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Công báo số 510 ngày 15-09-2026: Điều 13 khoản 1 hiệu lực 15-10-2026; khoản 2 chỉ áp dụng cho cặp cửa khẩu thông minh được đưa vào vận hành.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "claude-code@ozvietnam"
+      },
+      "ghi_chu": "Trang tổng hợp Meta AI ghi sai ngày ban hành (18-08) và hiệu lực (01-10). Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.",
+      "slug": "128-2026-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "13/2022/NĐ-CP",
       "loai": "NGHI_DINH",
       "ten": "Sửa đổi, bổ sung Nghị định 132/2008/NĐ-CP",
@@ -1700,26 +1912,42 @@
       "co_quan": "BTC",
       "ngay_ban_hanh": "2015-01-30",
       "hieu_luc_tu": "2015-03-16",
-      "tinh_trang": "CON_HIEU_LUC",
+      "het_hieu_luc_tu": "2026-09-15",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs/quy-trinh-phan-loai"
       ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-85-2026-tt-btc-469982.htm",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "pham_vi": "hiểu biết nền lúc khởi tạo",
-        "hieu_luc_da_doi_chieu": false,
+        "muc": "NGUON_A",
+        "pham_vi": "Tình trạng: Điều 15 khoản 1 85/2026/TT-BTC (Công báo số 409 ngày 18-07-2026) — \"thay thế 14/2015/TT-BTC\" từ 15-09-2026, người duy trì đã đọc nguyên văn.",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "claude-code@ozvietnam"
       },
-      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "ghi_chu": "Bị 85/2026/TT-BTC thay thế từ 2026-09-15. Điều 16 TT 85/2026: máy liên hợp/tổ hợp máy chương 84, 85, 90 đã đăng ký Danh mục trước 15-09-2026 tiếp tục theo TT 14/2015 đến khi nhập hết; mẫu đã lấy chưa có kết quả xử lý theo văn bản tại thời điểm đăng ký tờ khai.",
       "slug": "14-2015-tt-btc",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_sua_doi_boi": [
           {
             "tu": "17/2021/TT-BTC",
             "quan_he": "sua_doi",
             "so_hieu": "14/2015/TT-BTC"
+          }
+        ],
+        "bi_thay_the_boi": [
+          {
+            "tu": "85/2026/TT-BTC",
+            "quan_he": "thay_the",
+            "so_hieu": "14/2015/TT-BTC",
+            "tu_ngay": "2026-09-15",
+            "can_cu": "Điều 15 khoản 1 TT 85/2026/TT-BTC (Công báo số 409 ngày 18-07-2026)"
           }
         ]
       }
@@ -1748,6 +1976,40 @@
       "ghi_chu": "Văn bản khung (stub): chỉ biết qua quan hệ thay thế 2093/QĐ-BCT trong hs-code-api. Cần bổ sung tiêu đề, ngày, nguồn.",
       "slug": "1400-qd-bct-2025",
       "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "142/2026/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của các Thông tư quy định thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định và dịch vụ chuyển phát nhanh quốc tế",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2026-09-29",
+      "hieu_luc_tu": "2026-11-16",
+      "tinh_trang": "CHUA_CO_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=219685&pageid=27160",
+          "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/142-btc.signed.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Thẻ vanban.chinhphu.vn (docid 219685): ban hành 29-09-2026, hiệu lực 16-11-2026. Chưa đọc điều khoản (PDF ký số là ảnh, chưa đăng Công báo).",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "claude-code@ozvietnam",
+        "canh_bao": "Chưa đọc điều khoản thi hành — chưa biết sửa/thay văn bản nào cụ thể."
+      },
+      "ghi_chu": "Trang tổng hợp Meta AI ghi sai ngày ban hành (03-10). Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.",
+      "slug": "142-2026-tt-btc",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -2035,7 +2297,8 @@
       "co_quan": "BTC",
       "ngay_ban_hanh": "2021-02-26",
       "hieu_luc_tu": "2021-04-12",
-      "tinh_trang": "CON_HIEU_LUC",
+      "het_hieu_luc_tu": "2026-09-15",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs/quy-trinh-phan-loai"
       ],
@@ -2044,17 +2307,33 @@
           "14/2015/TT-BTC"
         ]
       },
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-85-2026-tt-btc-469982.htm",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "pham_vi": "hiểu biết nền lúc khởi tạo",
-        "hieu_luc_da_doi_chieu": false,
+        "muc": "NGUON_A",
+        "pham_vi": "Tình trạng: Điều 15 khoản 1 85/2026/TT-BTC (Công báo số 409 ngày 18-07-2026) — \"thay thế 17/2021/TT-BTC\" từ 15-09-2026, người duy trì đã đọc nguyên văn.",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "claude-code@ozvietnam"
       },
-      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "ghi_chu": "Bị 85/2026/TT-BTC thay thế từ 2026-09-15. Chuyển tiếp theo Điều 16 TT 85/2026 (xem 14/2015/TT-BTC).",
       "slug": "17-2021-tt-btc",
-      "bac_nguon_cao_nhat": null,
-      "quan_he_nguoc": {}
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "85/2026/TT-BTC",
+            "quan_he": "thay_the",
+            "so_hieu": "17/2021/TT-BTC",
+            "tu_ngay": "2026-09-15",
+            "can_cu": "Điều 15 khoản 1 TT 85/2026/TT-BTC (Công báo số 409 ngày 18-07-2026)"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "17/2023/TT-BNNPTNT",
@@ -2687,7 +2966,8 @@
       "co_quan": "TTG",
       "ngay_ban_hanh": "2019-06-27",
       "hieu_luc_tu": "2019-09-01",
-      "tinh_trang": "CON_HIEU_LUC",
+      "het_hieu_luc_tu": "2026-08-14",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "hai-quan/thu-tuc"
       ],
@@ -2699,21 +2979,35 @@
         {
           "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/07/23.signed.pdf",
           "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-31-2026-qd-ttg-469911.htm",
+          "truy_cap": "2026-10-04"
         }
       ],
       "trich_dan_trong_bieu_thue": 749,
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực; Tình trạng: Điều 5 khoản 1 31/2026/QĐ-TTg (Công báo số 393 ngày 14-07-2026) — \"thay thế 23/2019/QĐ-TTg\" từ 14-08-2026, người duy trì đã đọc nguyên văn.",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "claude-code@ozvietnam"
       },
-      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 749 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn).",
+      "ghi_chu": "Bị 31/2026/QĐ-TTg thay thế từ 2026-08-14. Điều 5 khoản 1 QĐ 31/2026: hàng thuộc danh mục cũ nhưng không thuộc danh mục mới, đã đăng ký tờ khai trước 14-08-2026, tiếp tục làm thủ tục tại hải quan cửa khẩu. Biểu thuế hs-code-api còn dẫn văn bản này ở nhiều mã — cần chuyển sang 31/2026/QĐ-TTg. Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 749 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn).",
       "toan_van": "raw/download/datafiles.chinhphu.vn/23-2019-qd-ttg.pdf",
       "slug": "23-2019-qd-ttg",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "31/2026/QĐ-TTg",
+            "quan_he": "thay_the",
+            "so_hieu": "23/2019/QĐ-TTg",
+            "tu_ngay": "2026-08-14",
+            "can_cu": "Điều 5 khoản 1 QĐ 31/2026/QĐ-TTg (Công báo số 393 ngày 14-07-2026)"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "2310/QĐ-BCT",
@@ -2967,7 +3261,18 @@
       "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Kiểm tra các nghị định sửa đổi biểu thuế sau 2023.",
       "slug": "26-2023-nd-cp",
       "bac_nguon_cao_nhat": null,
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "72/2026/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "26/2023/NĐ-CP",
+            "pham_vi": "thuế suất NK ưu đãi một số mặt hàng xăng, dầu",
+            "tu_ngay": "2026-03-09",
+            "can_cu": "Điều 1 NĐ 72/2026/NĐ-CP"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "26/2026/NĐ-CP",
@@ -3387,6 +3692,51 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "292/2026/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2026-07-22",
+      "hieu_luc_tu": "2026-09-05",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/luat-khung"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "69/2018/NĐ-CP",
+            "tu_ngay": "2026-09-05",
+            "can_cu": "Điều 65 khoản 1 NĐ 292/2026/NĐ-CP (Công báo số 456 ngày 03-08-2026)"
+          }
+        ],
+        "huong_dan": [
+          "05/2017/QH14"
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-292-2026-nd-cp-470149.htm",
+          "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=218958&pageid=27160",
+          "truy_cap": "2026-10-04"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Công báo số 456: ban hành 22-07-2026; Điều 65 khoản 1 hiệu lực 05-09-2026 và thay thế NĐ 69/2018/NĐ-CP (người duy trì đã đọc lại nguyên văn).",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "claude-code@ozvietnam"
+      },
+      "ghi_chu": "Điều 65 khoản 2 còn bãi bỏ Điều 31 và Phụ lục X NĐ 146/2025/NĐ-CP, Mục B.I NQ 19/2026/NQ-CP, một số điểm/mẫu Phụ lục I.2 NQ 66.18/2026/NQ-CP, QĐ 11/2013/QĐ-TTg — chưa ghi thành quan hệ (chưa có trong sổ). Được TT 48/2026/TT-BCT hướng dẫn. Trang tổng hợp Meta AI ghi sai hiệu lực (22-07). Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.",
+      "slug": "292-2026-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "30/2014/TT-BNNPTNT",
       "loai": "THONG_TU",
       "ten": "Danh mục vật thể thuộc diện kiểm dịch thực vật",
@@ -3487,6 +3837,48 @@
       "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
       "slug": "31-2022-tt-btc",
       "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "31/2026/QĐ-TTg",
+      "loai": "QUYET_DINH",
+      "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+      "co_quan": "TTG",
+      "ngay_ban_hanh": "2026-06-29",
+      "hieu_luc_tu": "2026-08-14",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "23/2019/QĐ-TTg",
+            "tu_ngay": "2026-08-14",
+            "can_cu": "Điều 5 khoản 1 QĐ 31/2026/QĐ-TTg (Công báo số 393 ngày 14-07-2026)"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-31-2026-qd-ttg-469911.htm",
+          "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/14/469911-1784022525_v1_1784023032_signed.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Công báo số 393: ban hành 29-06-2026; Điều 5 khoản 1 hiệu lực 14-08-2026 và thay thế QĐ 23/2019/QĐ-TTg (người duy trì đã đọc lại nguyên văn).",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "claude-code@ozvietnam"
+      },
+      "ghi_chu": "Điều 5 khoản 1: hàng thuộc danh mục cũ nhưng không thuộc danh mục mới đã đăng ký tờ khai trước 14-08-2026 tiếp tục làm thủ tục tại hải quan cửa khẩu. Danh mục 12 nhóm; Điều 4 khoản 4 vẫn cho ICD Phước Long (TP.HCM). Có phụ lục mã HS → cần trích bảng (luồng danh-muc-hs). Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.",
+      "slug": "31-2026-qd-ttg",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -3617,7 +4009,18 @@
       "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
       "slug": "33-2023-tt-btc",
       "bac_nguon_cao_nhat": null,
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "124/2026/TT-BTC",
+            "quan_he": "sua_doi",
+            "so_hieu": "33/2023/TT-BTC",
+            "pham_vi": "bổ sung khoản 10 Điều 15",
+            "tu_ngay": "2026-08-22",
+            "can_cu": "Điều 1 TT 124/2026/TT-BTC"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "33/2025/TT-BCT",
@@ -4208,6 +4611,13 @@
       "quan_he_nguoc": {
         "bi_sua_doi_boi": [
           {
+            "tu": "121/2025/TT-BTC",
+            "quan_he": "sua_doi",
+            "so_hieu": "38/2015/TT-BTC",
+            "tu_ngay": "2026-02-01",
+            "can_cu": "Điều 1 TT 121/2025/TT-BTC"
+          },
+          {
             "tu": "39/2018/TT-BTC",
             "quan_he": "sua_doi",
             "so_hieu": "38/2015/TT-BTC"
@@ -4330,7 +4740,17 @@
       "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Phụ lục quy định chỉ tiêu khai, gồm yêu cầu mô tả hàng hoá (mục 1.78) mà hs-code-api /api/describe tuân theo.",
       "slug": "39-2018-tt-btc",
       "bac_nguon_cao_nhat": null,
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "121/2025/TT-BTC",
+            "quan_he": "sua_doi",
+            "so_hieu": "39/2018/TT-BTC",
+            "tu_ngay": "2026-02-01",
+            "can_cu": "Điều 1 TT 121/2025/TT-BTC"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "41/2013/QH13",
@@ -4867,8 +5287,61 @@
             "quan_he": "huong_dan",
             "so_hieu": "54/2014/QH13"
           }
+        ],
+        "bi_sua_doi_boi": [
+          {
+            "tu": "11/2026/QH16",
+            "quan_he": "sua_doi",
+            "so_hieu": "54/2014/QH13",
+            "tu_ngay": "2027-03-01",
+            "can_cu": "Điều 1 Luật 11/2026/QH16 (Công báo số 518 ngày 21-09-2026)"
+          }
+        ],
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "54/VBHN-VPQH",
+            "quan_he": "hop_nhat",
+            "so_hieu": "54/2014/QH13"
+          }
         ]
       }
+    },
+    {
+      "so_hieu": "54/VBHN-VPQH",
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Văn bản hợp nhất Luật Hải quan",
+      "co_quan": "VPQH",
+      "ngay_ban_hanh": "2026-03-23",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/luat-khung"
+      ],
+      "quan_he": {
+        "hop_nhat": [
+          "54/2014/QH13"
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-54-vbhn-vpqh-469184.htm",
+          "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/4/9/469184-1775468465_v1_1775696970_signed.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Công báo số 192: VBHN ngày 23-03-2026.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "claude-code@ozvietnam"
+      },
+      "ghi_chu": "Văn bản hợp nhất không có hiệu lực riêng. CHƯA phản ánh Luật 11/2026/QH16 (thông qua 23-08-2026). Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.",
+      "slug": "54-vbhn-vpqh",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "55/2010/QH12",
@@ -5049,7 +5522,8 @@
       "co_quan": "CP",
       "ngay_ban_hanh": "2018-05-15",
       "hieu_luc_tu": "2018-05-15",
-      "tinh_trang": "CON_HIEU_LUC",
+      "het_hieu_luc_tu": "2026-09-05",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "quan-ly-ngoai-thuong/luat-khung"
       ],
@@ -5061,21 +5535,35 @@
         {
           "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/05/69.signed.pdf",
           "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-292-2026-nd-cp-470149.htm",
+          "truy_cap": "2026-10-04"
         }
       ],
       "trich_dan_trong_bieu_thue": 21,
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "thẻ vanban.chinhphu.vn: ban hành 15-05-2018; người ký Nguyễn Xuân Phúc; PDF 69.signed.pdf",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "thẻ vanban.chinhphu.vn: ban hành 15-05-2018; người ký Nguyễn Xuân Phúc; PDF 69.signed.pdf; Tình trạng: Điều 65 khoản 1 292/2026/NĐ-CP (Công báo số 456 ngày 03-08-2026) — \"thay thế 69/2018/NĐ-CP\" từ 05-09-2026, người duy trì đã đọc nguyên văn.",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "boi": "claude-code@ozvietnam"
       },
-      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 21 mã HS). Tiêu đề đã đối chiếu (reference-trong-08/2023/TT-BCT (chinhphu.vn)).",
+      "ghi_chu": "Bị 292/2026/NĐ-CP thay thế từ 2026-09-05. Các mã HS trong phụ lục NĐ 69/2018 phải đối chiếu lại với phụ lục NĐ 292/2026. Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 21 mã HS). Tiêu đề đã đối chiếu (reference-trong-08/2023/TT-BCT (chinhphu.vn)).",
       "toan_van": "raw/download/datafiles.chinhphu.vn/69-2018-nd-cp.pdf",
       "slug": "69-2018-nd-cp",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "292/2026/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "69/2018/NĐ-CP",
+            "tu_ngay": "2026-09-05",
+            "can_cu": "Điều 65 khoản 1 NĐ 292/2026/NĐ-CP (Công báo số 456 ngày 03-08-2026)"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "691/QĐ-BCT",
@@ -5197,6 +5685,51 @@
       },
       "ghi_chu": "Điều 1 phê chuẩn CPTPP (Comprehensive and Progressive Agreement for Trans-Pacific Partnership) ký ngày 08/3/2018 tại San-ti-a-gô. Ngày hiệp định có hiệu lực với Việt Nam không nằm ở Điều 1 — chưa ghi. Chưa mở Điều khoản về Vương quốc Anh gia nhập sau này.",
       "slug": "72-2018-qh14",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "72/2026/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu tại Biểu thuế nhập khẩu ưu đãi ban hành kèm theo Nghị định số 26/2023/NĐ-CP",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2026-03-09",
+      "hieu_luc_tu": "2026-03-09",
+      "het_hieu_luc_tu": "2027-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "26/2023/NĐ-CP",
+            "pham_vi": "thuế suất NK ưu đãi một số mặt hàng xăng, dầu",
+            "tu_ngay": "2026-03-09",
+            "can_cu": "Điều 1 NĐ 72/2026/NĐ-CP"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-72-2026-nd-cp-469066.htm",
+          "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/23/469066-1774001227_v1_1774251976_signed.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Công báo số 157 ngày 24-03-2026: Điều 2 khoản 1 hiệu lực từ ngày ký đến 30-04-2026 (văn bản có thời hạn), khoản 2 cho kéo dài bằng nghị quyết. Kéo dài bởi NQ 25/2026/NQ-CP (tới 30-06), NQ 34/2026/NQ-CP, NQ 43/2026/NQ-CP (30-09-2026) tới hết 31-12-2026 — các nghị quyết chưa có trong sổ.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "claude-code@ozvietnam",
+        "canh_bao": "Văn bản có thời hạn: hết hiệu lực sau 31-12-2026 nếu không có nghị quyết kéo dài tiếp. Không phải mọi dòng về 0% (xăng có chì 20%, loại khác 10%)."
+      },
+      "ghi_chu": "Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.",
+      "slug": "72-2026-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -5459,6 +5992,57 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "85/2026/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Quy định về phân loại hàng hoá, phân tích để phân loại hàng hoá xuất khẩu, nhập khẩu",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2026-06-30",
+      "hieu_luc_tu": "2026-09-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs/quy-trinh-phan-loai"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "14/2015/TT-BTC",
+            "tu_ngay": "2026-09-15",
+            "can_cu": "Điều 15 khoản 1 TT 85/2026/TT-BTC (Công báo số 409 ngày 18-07-2026)"
+          },
+          {
+            "so_hieu": "17/2021/TT-BTC",
+            "tu_ngay": "2026-09-15",
+            "can_cu": "Điều 15 khoản 1 TT 85/2026/TT-BTC (Công báo số 409 ngày 18-07-2026)"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-85-2026-tt-btc-469982.htm",
+          "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/18/469982-1784276703_v1_1784336764_signed.pdf",
+          "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=218770&pageid=27160",
+          "truy_cap": "2026-10-04"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Công báo số 409: ban hành 30-06-2026; Điều 15 khoản 1 hiệu lực 15-09-2026 và thay thế TT 14/2015/TT-BTC, TT 17/2021/TT-BTC (người duy trì đã đọc lại nguyên văn).",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "claude-code@ozvietnam"
+      },
+      "ghi_chu": "Điều 16 chuyển tiếp: mẫu đã lấy chưa có kết quả xử lý theo văn bản tại thời điểm đăng ký tờ khai; máy liên hợp/tổ hợp máy chương 84, 85, 90 đã đăng ký Danh mục trước 15-09-2026 tiếp tục theo TT 14/2015 đến khi nhập hết. Trang tổng hợp Meta AI ghi sai ngày ban hành (20-07) và bịa ý \"30 ngày\" — văn bản quy định mốc 05/08/20 ngày làm việc. Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.",
+      "slug": "85-2026-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "89/2018/NĐ-CP",
