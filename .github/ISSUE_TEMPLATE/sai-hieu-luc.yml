@@ -1,0 +1,23 @@
+name: "⚖️ Sai hiệu lực / quan hệ cũ – mới"
+description: Văn bản ghi sai tình trạng, hoặc thiếu/sai quan hệ thay thế, sửa đổi, bãi bỏ, tạm ngưng
+title: "[Hiệu lực] "
+labels: ["luong:hieu-luc"]
+body:
+  - type: input
+    id: so_hieu
+    attributes:
+      label: Văn bản bị ghi sai
+      placeholder: "11/2022/TT-BCT"
+    validations: { required: true }
+  - type: dropdown
+    id: loai
+    attributes:
+      label: Sai ở đâu
+      options: [Tình trạng hiệu lực, Ngày hiệu lực / hết hiệu lực, Thiếu quan hệ thay thế / sửa đổi / bãi bỏ, Quan hệ ghi sai, Văn bản đang bị tạm ngưng, Khác]
+    validations: { required: true }
+  - type: textarea
+    id: dung
+    attributes:
+      label: Thông tin đúng + căn cứ
+      description: Văn bản nào, điều/khoản/điểm nào, link nguồn bậc A.
+    validations: { required: true }

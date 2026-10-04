@@ -1,0 +1,20 @@
+{
+  "name": "oz-kb-xnk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Thư viện tri thức pháp luật xuất nhập khẩu Việt Nam — sổ đăng ký văn bản, cây văn bản, wiki có dẫn nguồn, phát hiện điểm mù",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "kiem-tra": "node tools/kiem-tra.mjs",
+    "diem-mu": "node tools/diem-mu.mjs",
+    "dung": "node tools/dung.mjs",
+    "nap": "node tools/nap.mjs",
+    "them": "node tools/them-van-ban.mjs",
+    "test": "node tools/test/run.mjs && node tools/kiem-tra.mjs && node _lumina/scripts/lint.mjs --json > /dev/null"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

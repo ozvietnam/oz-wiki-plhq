@@ -1,0 +1,38 @@
+# Đóng góp cho thư viện tri thức pháp luật XNK
+
+Cảm ơn bạn! Ai cũng góp được — không cần biết lập trình.
+
+## Cách nhanh nhất (không cần cài gì)
+
+- **Báo văn bản mới:** mở issue mẫu **"Văn bản mới"**, dán số hiệu + link nguồn.
+- **Báo sai hiệu lực / cũ – mới:** issue mẫu **"Sai hiệu lực"**, ghi văn bản nào thay văn bản nào, điều khoản căn cứ.
+- **Báo điểm mù:** issue mẫu **"Điểm mù"** — câu hỏi nghiệp vụ mà kho chưa trả lời được, mảng văn bản còn thiếu.
+- **Góp ý nội dung wiki:** issue mẫu **"Góp ý nội dung"** hoặc bình luận thẳng vào dòng trong PR.
+- **Sửa nhanh:** mở tệp trên GitHub → bút chì → sửa → "Propose changes" (GitHub tự tạo PR).
+
+## Đóng góp qua PR
+
+```bash
+git clone https://github.com/ozvietnam/oz-kb-xnk && cd oz-kb-xnk
+npm install
+node tools/them-van-ban.mjs "28/2026/TT-BCT" --url "https://..."   # thêm văn bản
+node tools/nap.mjs "<url toàn văn>" --so-hieu "28/2026/TT-BCT" --ghi # tải toàn văn
+npm test                                                           # phải xanh
+npm run diem-mu && npm run dung                                    # cập nhật báo cáo (tuỳ chọn)
+```
+
+Lược đồ tệp văn bản: [docs/luoc-do-so-dang-ky.md](docs/luoc-do-so-dang-ky.md). Luồng việc:
+[docs/luong-cong-viec.md](docs/luong-cong-viec.md). Dùng AI agent: [docs/huong-dan-agent.md](docs/huong-dan-agent.md).
+
+## Năm nguyên tắc
+
+1. **Nguồn bậc A trước khi kết luận** (Công báo, vanban.chinhphu.vn, vbpl.vn, cổng cơ quan ban hành).
+2. **Không chắc thì ghi "chưa xác minh"** — không đoán.
+3. **Trích điều, khoản** khi nói về nghĩa vụ, thời hạn, ngoại lệ.
+4. **Không thông tin khách hàng, tờ khai, hợp đồng, giá cả** — kho công khai.
+5. **Lịch sự, cụ thể.** Bất đồng về cách hiểu điều luật → ghi cả hai cách hiểu kèm nguồn, để người đọc thấy.
+
+## Duyệt PR
+
+Người duy trì duyệt theo: có nguồn bậc A chưa, quan hệ cũ–mới có căn cứ điều khoản chưa, `npm test`
+xanh chưa. PR do agent mở được duyệt như PR của người.

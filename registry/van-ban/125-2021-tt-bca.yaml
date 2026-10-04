@@ -1,0 +1,21 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 125/2021/TT-BCA
+loai: THONG_TU
+ten: Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ
+co_quan: BCA
+ngay_ban_hanh: '2021-12-30'
+hieu_luc_tu: '2022-03-01'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - chua-phan-loai
+nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-125-2021-tt-bca-36544/39412.htm
+    truy_cap: '2026-07-02'
+trich_dan_trong_bieu_thue: 1
+xac_minh:
+  muc: NGUON_A
+  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-04'
+  boi: khoi-tao
+ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn + chinhphu.vn).

@@ -1,0 +1,21 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 9981/QĐ-BCA
+loai: QUYET_DINH
+ten: Về việc công bố mã số HS đối với Danh mục sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Công an
+co_quan: BCA
+ngay_ban_hanh: '2019-12-18'
+hieu_luc_tu: '2019-12-18'
+tinh_trang: CHUA_XAC_MINH
+nhanh:
+  - kiem-tra-chuyen-nganh/bca
+nguon:
+  - url: https://luatvietnam.vn/xuat-nhap-khau/quyet-dinh-9981-qd-bca-2019-cong-bo-ma-so-hs-doi-voi-hang-hoa-nhom-2-181401-d1.html
+    truy_cap: '2026-07-02'
+trich_dan_trong_bieu_thue: 12
+xac_minh:
+  muc: NGUON_B
+  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-04'
+  boi: khoi-tao
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 12 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + lawnet.vn). KHUNG KTCN 2026 (tin cậy MEDIUM): Danh mục rủi ro mới của Bộ Công an là TT 125/2026/TT-BCA (PCCC & cứu nạn cứu hộ, thiết bị an toàn giao thông, giám sát an ninh). Tem kiểm định cũ hết 30/6/2026. Cần đối chiếu mã.'

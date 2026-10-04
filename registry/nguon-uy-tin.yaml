@@ -1,0 +1,51 @@
+# Bậc tin cậy của nguồn. Quy tắc:
+# - Tình trạng hiệu lực chỉ được ghi DA_XAC_MINH khi có ít nhất một nguồn bậc A.
+# - Nguồn bậc B dùng để phát hiện và đối chiếu, không dùng để chốt.
+# - Nguồn bậc C (báo chí, blog, bài tổng hợp) chỉ là đầu mối; mọi thông tin phải tìm lại nguồn A.
+# Thêm tên miền mới: mở PR, ghi rõ lý do xếp bậc.
+
+A:
+  - ten_mien: congbao.chinhphu.vn
+    ten: Công báo nước CHXHCN Việt Nam
+    ghi_chu: Văn bản đăng Công báo có giá trị như bản gốc.
+  - ten_mien: vanban.chinhphu.vn
+    ten: Hệ thống văn bản — Cổng thông tin điện tử Chính phủ
+  - ten_mien: chinhphu.vn
+    ten: Cổng thông tin điện tử Chính phủ (trang văn bản, tệp PDF có chữ ký số)
+  - ten_mien: datafiles.chinhphu.vn
+    ten: Kho tệp PDF có chữ ký số của Cổng Chính phủ
+  - ten_mien: vbpl.vn
+    ten: Cơ sở dữ liệu quốc gia về văn bản pháp luật (Bộ Tư pháp)
+  - ten_mien: customs.gov.vn
+    ten: Cổng thông tin Hải quan Việt Nam
+  - ten_mien: mof.gov.vn
+    ten: Bộ Tài chính
+  - ten_mien: moit.gov.vn
+    ten: Bộ Công Thương
+  - ten_mien: moh.gov.vn
+    ten: Bộ Y tế
+  - ten_mien: mae.gov.vn
+    ten: Bộ Nông nghiệp và Môi trường
+  - ten_mien: most.gov.vn
+    ten: Bộ Khoa học và Công nghệ
+  - ten_mien: moc.gov.vn
+    ten: Bộ Xây dựng
+  - ten_mien: quochoi.vn
+    ten: Quốc hội
+  - ten_mien: wcoomd.org
+    ten: Tổ chức Hải quan Thế giới (WCO)
+
+B:
+  - ten_mien: thuvienphapluat.vn
+    ten: Thư viện Pháp luật
+    ghi_chu: Tiện tra cứu và xem lược đồ hiệu lực; là bên thứ ba, phải đối chiếu lại nguồn A.
+  - ten_mien: luatvietnam.vn
+    ten: LuatVietnam
+  - ten_mien: vbpl.ts24.com.vn
+    ten: Thư viện văn bản TS24
+    ghi_chu: hs-agent (hs-code-api) dùng để do thám văn bản hải quan mới.
+
+C:
+  - ten_mien: "*"
+    ten: Báo chí, blog, bài tổng hợp của doanh nghiệp, diễn đàn
+    ghi_chu: Chỉ là đầu mối. Ghi rõ "nguồn thứ cấp" và mở việc truy vết nguồn A.

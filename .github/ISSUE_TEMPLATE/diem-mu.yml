@@ -1,0 +1,20 @@
+name: "🕳️ Điểm mù"
+description: Câu hỏi nghiệp vụ kho chưa trả lời được, mảng văn bản còn thiếu, hoặc đề xuất luật phát hiện điểm mù mới
+title: "[Điểm mù] "
+labels: ["luong:diem-mu"]
+body:
+  - type: textarea
+    id: mo_ta
+    attributes:
+      label: Thiếu gì?
+      placeholder: "Không tìm thấy văn bản hiện hành về nhãn hàng hoá sau khi NĐ 43/2017 hết hiệu lực."
+    validations: { required: true }
+  - type: input
+    id: ma
+    attributes:
+      label: Mã điểm mù (nếu lấy từ bao-cao/diem-mu.md)
+      placeholder: "NUT_CAY_TRONG · hai-quan/so-tay-nghiep-vu"
+  - type: textarea
+    id: goi_y
+    attributes:
+      label: Gợi ý nguồn / hướng xử lý

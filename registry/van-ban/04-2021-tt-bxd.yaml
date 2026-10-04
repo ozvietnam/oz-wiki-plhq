@@ -1,0 +1,21 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 04/2021/TT-BXD
+loai: THONG_TU
+ten: Hướng dẫn xuất khẩu khoáng sản làm vật liệu xây dựng
+co_quan: BXD
+ngay_ban_hanh: '2021-06-30'
+hieu_luc_tu: '2021-08-15'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - quan-ly-ngoai-thuong/giay-phep
+nguon:
+  - url: https://vbpl.vn/boxaydung/Pages/vbpq-toanvan.aspx?ItemID=150532
+    truy_cap: '2026-07-02'
+trich_dan_trong_bieu_thue: 34
+xac_minh:
+  muc: NGUON_A
+  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-04'
+  boi: khoi-tao
+ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 34 mã HS). Tiêu đề đã đối chiếu (vbpl.vn (boxaydung)).

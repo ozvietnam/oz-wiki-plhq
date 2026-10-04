@@ -1,0 +1,21 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 2333/QĐ-BCT
+loai: QUYET_DINH
+ten: Điều tra áp dụng biện pháp chống bán phá giá đối với một số sản phẩm gạch gốm, sứ ốp lát có xuất xứ từ Cộng hòa Ấn Độ
+co_quan: BCT
+ngay_ban_hanh: '2025-08-18'
+hieu_luc_tu: '2025-08-18'
+tinh_trang: HET_HIEU_LUC
+nhanh:
+  - phong-ve-thuong-mai
+nguon:
+  - url: https://luatvietnam.vn/xuat-nhap-khau/quyet-dinh-2333-qd-bct-cua-bo-cong-thuong-dieu-tra-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pham-gach-gom-su-op-lat-co-xuat-xu-tu-cong-hoa-an-do-409055-d1.html
+    truy_cap: '2026-07-02'
+trich_dan_trong_bieu_thue: 8
+xac_minh:
+  muc: NGUON_B
+  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-04'
+  boi: khoi-tao
+ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 8 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + moit.gov.vn).

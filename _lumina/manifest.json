@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 5,
+  "packageVersion": "1.15.5",
+  "locale": "vi",
+  "mode": "classic",
+  "installedAt": "2026-10-04T06:53:09.817Z",
+  "updatedAt": "2026-10-04T06:53:09.817Z",
+  "packs": {
+    "core": {
+      "version": "1.15.5",
+      "source": "built-in"
+    }
+  },
+  "ideTargets": [
+    "claude_code",
+    "codex",
+    "gemini_cli",
+    "cursor",
+    "generic"
+  ],
+  "profile": "full",
+  "symlinkStrategies": {
+    "lumi-init": "symlink",
+    "lumi-ingest": "symlink",
+    "lumi-ask": "symlink",
+    "lumi-edit": "symlink",
+    "lumi-check": "symlink",
+    "lumi-reset": "symlink",
+    "lumi-verify": "symlink",
+    "lumi-migrate-legacy": "symlink",
+    "lumi-help": "symlink"
+  },
+  "resolvedPaths": {
+    "projectRoot": "/home/user/oz-kb-xnk",
+    "wiki": "/home/user/oz-kb-xnk/wiki",
+    "raw": "/home/user/oz-kb-xnk/raw",
+    "agents": "/home/user/oz-kb-xnk/.agents",
+    "lumina": "/home/user/oz-kb-xnk/_lumina"
+  }
+}

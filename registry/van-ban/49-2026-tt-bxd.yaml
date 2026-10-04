@@ -1,0 +1,23 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 49/2026/TT-BXD
+loai: THONG_TU
+ten: Danh mục sản phẩm, hàng hoá có mức độ rủi ro trung bình, mức độ rủi ro cao trong lĩnh vực giao thông vận tải thuộc Bộ Xây dựng
+co_quan: BXD
+ngay_ban_hanh: '2026-06-30'
+hieu_luc_tu: '2026-07-01'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - kiem-tra-chuyen-nganh/bxd
+quan_he:
+  huong_dan:
+    - 37/2026/NĐ-CP
+  thay_the:
+    - 12/2022/TT-BGTVT
+    - 62/2024/TT-BGTVT
+xac_minh:
+  muc: NGUON_THU_CAP
+  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-04'
+  boi: khoi-tao
+ghi_chu: 'PL I rủi ro cao: ô tô, mô tô, xe gắn máy, xe bốn bánh có động cơ; PL II rủi ro trung bình: phương tiện, phụ tùng, thiết bị GTVT, đường sắt. Tên theo mẫu chung. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'

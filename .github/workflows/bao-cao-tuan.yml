@@ -1,0 +1,38 @@
+name: bao-cao-tuan
+# Mỗi thứ Hai 07:00 giờ VN: dựng lại báo cáo (cây, quan hệ, điểm mù, registry.json), commit lên main,
+# và mở/cập nhật issue "Báo cáo điểm mù" để người + agent nhận việc.
+on:
+  schedule:
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+jobs:
+  bao-cao:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Dựng báo cáo
+        run: |
+          node tools/dung.mjs
+          node tools/diem-mu.mjs
+      - name: Commit nếu có thay đổi
+        run: |
+          git config user.name "kb-bot"
+          git config user.email "kb-bot@users.noreply.github.com"
+          git add bao-cao dist
+          git diff --cached --quiet || git commit -m "chore(bao-cao): cập nhật báo cáo tuần $(date -u +%F)" && git push
+      - name: Mở/cập nhật issue điểm mù
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="Báo cáo điểm mù (tự động)"
+          NUM=$(gh issue list --state open --label "luong:diem-mu" --search "in:title \"$TITLE\"" --json number --jq '.[0].number')
+          if [ -n "$NUM" ]; then gh issue edit "$NUM" --body-file bao-cao/diem-mu.md; else gh issue create --title "$TITLE" --label "luong:diem-mu" --body-file bao-cao/diem-mu.md; fi

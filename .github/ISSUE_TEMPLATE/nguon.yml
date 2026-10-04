@@ -1,0 +1,15 @@
+name: "🔎 Truy vết nguồn"
+description: Thông tin đang dựa vào nguồn thứ cấp, hoặc hai nguồn mâu thuẫn nhau
+title: "[Nguồn] "
+labels: ["luong:truy-vet-nguon"]
+body:
+  - type: input
+    id: so_hieu
+    attributes:
+      label: Văn bản
+    validations: { required: true }
+  - type: textarea
+    id: nguon
+    attributes:
+      label: Các nguồn đang có và chỗ mâu thuẫn
+    validations: { required: true }

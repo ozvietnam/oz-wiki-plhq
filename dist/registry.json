@@ -1,0 +1,4142 @@
+{
+  "phien_ban": "2026-10-04",
+  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
+  "tong": 135,
+  "van_ban": [
+    {
+      "so_hieu": "01/2009/TT-BKHCN",
+      "loai": "THONG_TU",
+      "ten": "Danh mục sản phẩm, hàng hoá có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ KH&CN",
+      "co_quan": "BKHCN",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bkhcn"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json. KHUNG KTCN 2026 (tin cậy MEDIUM): Khung 'nhóm 2' (NĐ 132/2008, NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026. Hết hiệu lực từ 2026-07-01: bị bãi bỏ bởi 36/2026/TT-BKHCN (theo nguồn thứ cấp).",
+      "slug": "01-2009-tt-bkhcn",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "36/2026/TT-BKHCN",
+            "quan_he": "bai_bo",
+            "so_hieu": "01/2009/TT-BKHCN"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "01/2021/TT-BLĐTBXH",
+      "loai": "THONG_TU",
+      "ten": "Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội",
+      "co_quan": "BLDTBXH",
+      "ngay_ban_hanh": "2021-06-03",
+      "hieu_luc_tu": "2021-07-18",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnv"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-01-2021-tt-bldtbxh-33806/35953.htm",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 123,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 123 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn). KHUNG KTCN 2026 (tin cậy LOW): Bộ LĐ-TB&XH đã giải thể, quản lý an toàn lao động chuyển về Bộ Nội vụ; danh mục rủi ro mới là TT 16/2026/TT-BNV (hiệu lực 28/7/2026). CHƯA XÁC MINH TT 16/2026 thay TT 01/2021 — hỏi Bộ Nội vụ trước khi đổi.",
+      "slug": "01-2021-tt-bldtbxh",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "01/2024/TT-BNNPTNT",
+      "loai": "THONG_TU",
+      "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+      "co_quan": "BNNPTNT",
+      "ngay_ban_hanh": "2024-02-02",
+      "hieu_luc_tu": "2024-03-20",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/?docid=209723&pageid=27160",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 1468,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1468 mã HS). Tiêu đề đã đối chiếu (chinhphu.vn).",
+      "slug": "01-2024-tt-bnnptnt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "01/2026/TT-BNNMT",
+      "loai": "THONG_TU",
+      "ten": "Danh mục động vật, sản phẩm động vật trên cạn thuộc diện phải kiểm dịch, miễn kiểm dịch và trình tự thủ tục kiểm dịch",
+      "co_quan": "BNNMT",
+      "hieu_luc_tu": "2026-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich",
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "79/2015/QH13"
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Bản hợp nhất VBHN 67/VBHN-BNNMT (2026). Cơ quan: Cục Chăn nuôi và Thú y. Tên mô tả. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "01-2026-tt-bnnmt",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "04/2021/TT-BXD",
+      "loai": "THONG_TU",
+      "ten": "Hướng dẫn xuất khẩu khoáng sản làm vật liệu xây dựng",
+      "co_quan": "BXD",
+      "ngay_ban_hanh": "2021-06-30",
+      "hieu_luc_tu": "2021-08-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/boxaydung/Pages/vbpq-toanvan.aspx?ItemID=150532",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 34,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 34 mã HS). Tiêu đề đã đối chiếu (vbpl.vn (boxaydung)).",
+      "slug": "04-2021-tt-bxd",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "11/2026/TT-BXD",
+            "quan_he": "sua_doi",
+            "so_hieu": "04/2021/TT-BXD"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "05/2007/QH12",
+      "loai": "LUAT",
+      "ten": "Luật Chất lượng sản phẩm, hàng hoá",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2007-11-21",
+      "hieu_luc_tu": "2008-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/khung-chat-luong"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Đã được sửa đổi bởi Luật 78/2025/QH15 (theo nguồn thứ cấp).",
+      "slug": "05-2007-qh12",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "37/2026/NĐ-CP",
+            "quan_he": "huong_dan",
+            "so_hieu": "05/2007/QH12"
+          }
+        ],
+        "bi_sua_doi_boi": [
+          {
+            "tu": "78/2025/QH15",
+            "quan_he": "sua_doi",
+            "so_hieu": "05/2007/QH12"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "05/2017/QH14",
+      "loai": "LUAT",
+      "ten": "Luật Quản lý ngoại thương",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2017-06-12",
+      "hieu_luc_tu": "2018-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/luat-khung"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "slug": "05-2017-qh14",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "31/2018/NĐ-CP",
+            "quan_he": "huong_dan",
+            "so_hieu": "05/2017/QH14"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "05/2022/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Thông tư về thiết bị y tế (được TT 24/2026/TT-BYT sửa đổi)",
+      "co_quan": "BYT",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Tên đầy đủ chưa xác minh. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "05-2022-tt-byt",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "24/2026/TT-BYT",
+            "quan_he": "sua_doi",
+            "so_hieu": "05/2022/TT-BYT"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "07/2023/TT-NHNN",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 38/2018/TT-NHNN ngày 25/12/2018 của Thống đốc Ngân hàng Nhà nước Việt Nam quy định việc nhập khẩu hàng hóa phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước Việt Nam",
+      "co_quan": "NHNN",
+      "ngay_ban_hanh": "2023-06-30",
+      "hieu_luc_tu": "2023-08-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-07-2023-tt-nhnn-39759/45761.htm",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 20,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 20 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn).",
+      "slug": "07-2023-tt-nhnn",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "08/2015/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết và biện pháp thi hành Luật Hải quan về thủ tục hải quan, kiểm tra, giám sát, kiểm soát hải quan",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2015-01-21",
+      "hieu_luc_tu": "2015-03-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/luat-khung",
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "54/2014/QH13"
+        ]
+      },
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "slug": "08-2015-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "38/2015/TT-BTC",
+            "quan_he": "huong_dan",
+            "so_hieu": "08/2015/NĐ-CP"
+          }
+        ],
+        "bi_sua_doi_boi": [
+          {
+            "tu": "59/2018/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "08/2015/NĐ-CP"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "08/2023/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2023-03-31",
+      "hieu_luc_tu": "2023-05-16",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=160072",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 1964,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1964 mã HS). Tiêu đề đã đối chiếu (vbpl.vn).",
+      "slug": "08-2023-tt-bct",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "09/2024/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Ban hành các Danh mục thuốc, nguyên liệu làm thuốc dùng cho người và mỹ phẩm xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2024-06-11",
+      "hieu_luc_tu": "2024-07-26",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/noi-dung-van-ban-so-09-2024-tt-byt",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 376,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 376 mã HS). Tiêu đề đã đối chiếu (chinhphu.vn + thoibaotaichinhvietnam.vn).",
+      "slug": "09-2024-tt-byt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "09/2026/NQ-CP",
+      "loai": "NGHI_QUYET",
+      "ten": "Tạm ngưng hiệu lực Nghị định 46/2026/NĐ-CP",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2026-02-04",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/an-toan-thuc-pham"
+      ],
+      "quan_he": {
+        "tam_ngung": [
+          "46/2026/NĐ-CP"
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "09-2026-nq-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "10/2022/TT-BTTTT",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 13/2018/TT-BTTTT ngày 15/10/2018 của Bộ trưởng Bộ Thông tin và Truyền thông quy định Danh mục sản phẩm an toàn thông tin mạng nhập khẩu theo giấy phép và trình tự, thủ tục, hồ sơ cấp Giấy phép nhập khẩu sản phẩm an toàn thông tin mạng",
+      "co_quan": "BTTTT",
+      "ngay_ban_hanh": "2022-07-20",
+      "hieu_luc_tu": "2022-09-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "nguon": [
+        {
+          "url": "https://mst.gov.vn/van-ban-phap-luat/14793.htm",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 3,
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 3 mã HS). Tiêu đề đã đối chiếu (mst.gov.vn (Cổng Bộ) + luatvietnam.vn).",
+      "slug": "10-2022-tt-btttt",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "10/2024/TT-BKHCN",
+      "loai": "THONG_TU",
+      "ten": "Danh mục sản phẩm, hàng hoá thuộc trách nhiệm quản lý của Bộ KH&CN (cũ)",
+      "co_quan": "BKHCN",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bkhcn"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Tên đầy đủ chưa xác minh. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json. KHUNG KTCN 2026 (tin cậy MEDIUM): Khung 'nhóm 2' (NĐ 132/2008, NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026. Hết hiệu lực từ 2026-07-01: bị thay bởi 36/2026/TT-BKHCN (theo nguồn thứ cấp).",
+      "slug": "10-2024-tt-bkhcn",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "36/2026/TT-BKHCN",
+            "quan_he": "thay_the",
+            "so_hieu": "10/2024/TT-BKHCN"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "10/2024/TT-BXD",
+      "loai": "THONG_TU",
+      "ten": "Quản lý chất lượng vật liệu xây dựng (cũ)",
+      "co_quan": "BXD",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bxd"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Tên đầy đủ chưa xác minh. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "10-2024-tt-bxd",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "41/2026/TT-BXD",
+            "quan_he": "thay_the",
+            "so_hieu": "10/2024/TT-BXD"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "107/2016/QH13",
+      "loai": "LUAT",
+      "ten": "Luật Thuế xuất khẩu, thuế nhập khẩu",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2016-04-06",
+      "hieu_luc_tu": "2016-09-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/luat-thue"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "slug": "107-2016-qh13",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "134/2016/NĐ-CP",
+            "quan_he": "huong_dan",
+            "so_hieu": "107/2016/QH13"
+          },
+          {
+            "tu": "26/2023/NĐ-CP",
+            "quan_he": "huong_dan",
+            "so_hieu": "107/2016/QH13"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "11/2018/TT-BTTTT",
+      "loai": "THONG_TU",
+      "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm theo mã số HS",
+      "co_quan": "BTTTT",
+      "ngay_ban_hanh": "2018-10-15",
+      "hieu_luc_tu": "2018-12-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/hang-da-qua-su-dung"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-11-2018-tt-btttt-27500.htm",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 186,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 186 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn).",
+      "slug": "11-2018-tt-btttt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "11/2022/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Danh mục mặt hàng nhập khẩu kèm mã HS phải kiểm tra nhà nước về an toàn thực phẩm thuộc Bộ Công Thương (cũ)",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2022-04-06",
+      "het_hieu_luc_tu": "2026-07-17",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct",
+        "kiem-tra-chuyen-nganh/an-toan-thuc-pham"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Hết hiệu lực 17/7/2026 — nguồn tổng hợp ghi \"đã xác minh nguyên văn\". Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "11-2022-tt-bct",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "28/2026/TT-BCT",
+            "quan_he": "thay_the",
+            "so_hieu": "11/2022/TT-BCT"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "11/2024/TT-BTTTT",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT, Thông tư số 05/2016/TT-BTTTT, Thông tư số 22/2018/TT-BTTTT và Thông tư số 09/2013/TT-BTTTT của Bộ trưởng Bộ Thông tin và Truyền thông",
+      "co_quan": "BTTTT",
+      "ngay_ban_hanh": "2024-09-23",
+      "hieu_luc_tu": "2024-11-07",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/xuat-nhap-khau/thong-tu-11-2024-tt-btttt-sua-doi-bo-sung-mot-so-dieu-tt-03-2015-tt-btttt-tt-05-2016-tt-btttt-tt-22-2018-tt-btttt-tt-09-2013-tt-btttt-366670-d1.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 23,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 23 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + vcci.com.vn + caselaw.vn).",
+      "slug": "11-2024-tt-btttt",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "11/2026/TT-BXD",
+      "loai": "THONG_TU",
+      "ten": "(chưa có tiêu đề) 11/2026/TT-BXD",
+      "co_quan": "BXD",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          "04/2021/TT-BXD"
+        ]
+      },
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Văn bản khung (stub): chỉ biết qua quan hệ sửa đổi 04/2021/TT-BXD trong hs-code-api. Cần bổ sung tiêu đề, ngày, nguồn.",
+      "slug": "11-2026-tt-bxd",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "111/2021/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung Nghị định 43/2017/NĐ-CP về nhãn hàng hoá",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2021-12-09",
+      "het_hieu_luc_tu": "2026-01-23",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/nhan-hang-hoa"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          "43/2017/NĐ-CP"
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "111-2021-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "37/2026/NĐ-CP",
+            "quan_he": "bai_bo",
+            "so_hieu": "111/2021/NĐ-CP",
+            "tu_ngay": "2026-01-23",
+            "can_cu": "Điều 97 khoản 4 điểm c"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "113/2017/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2017-10-09",
+      "hieu_luc_tu": "2017-11-25",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-113-2017-nd-cp-24884/19507.htm",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 667,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 667 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn).",
+      "slug": "113-2017-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "82/2022/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "113/2017/NĐ-CP"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "114/2025/QH15",
+      "loai": "LUAT",
+      "ten": "Luật Phòng bệnh",
+      "co_quan": "QH",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Luật gốc của kiểm dịch y tế biên giới từ 01/7/2026. Chưa xác minh có nghị định mới thay NĐ 89/2018 hay chưa. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "114-2025-qh15",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1182/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2021-04-06",
+      "hieu_luc_tu": "2021-04-06",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Quyet-dinh-1182-QD-BCT-2021-Danh-muc-hang-nhap-khau-thuc-hien-kiem-tra-chuyen-nganh-470522.aspx",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 249,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 249 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn + caselaw.vn (PDF gốc BCT)). KHUNG KTCN 2026: QĐ công bố danh mục theo khung cũ — Phụ lục 2 (ATTP) đã bị TT 28/2026/TT-BCT vượt qua; Phụ lục 1 (chất lượng nhóm 2) chuyển sang đối chiếu TT 33/2026/TT-BCT. Quan hệ pháp lý chính thức: CHƯA XÁC MINH.",
+      "slug": "1182-qd-bct-2021",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "12/2018/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2018-06-15",
+      "hieu_luc_tu": "2018-07-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/luat-khung"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-12-2018-tt-bct-26878/23046.htm",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 37,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 37 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn).",
+      "slug": "12-2018-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "12/2022/TT-BGTVT",
+      "loai": "THONG_TU",
+      "ten": "Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Giao thông vận tải",
+      "co_quan": "BGTVT",
+      "ngay_ban_hanh": "2022-06-30",
+      "hieu_luc_tu": "2022-08-15",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bxd"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=206074&pageid=27160",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 1315,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1315 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn). Hết hiệu lực từ 2026-07-01: bị thay bởi 49/2026/TT-BXD (theo nguồn thứ cấp).",
+      "slug": "12-2022-tt-bgtvt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "49/2026/TT-BXD",
+            "quan_he": "thay_the",
+            "so_hieu": "12/2022/TT-BGTVT"
+          }
+        ],
+        "bi_sua_doi_boi": [
+          {
+            "tu": "62/2024/TT-BGTVT",
+            "quan_he": "sua_doi",
+            "so_hieu": "12/2022/TT-BGTVT"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "121/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "(chưa có tiêu đề) 121/QĐ-BCT",
+      "co_quan": "BCT",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "quan_he": {
+        "thay_the": [
+          "2491/QĐ-BCT"
+        ]
+      },
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Văn bản khung (stub): chỉ biết qua quan hệ thay thế 2491/QĐ-BCT trong hs-code-api. Cần bổ sung tiêu đề, ngày, nguồn.",
+      "slug": "121-qd-bct-2025",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "125/2021/TT-BCA",
+      "loai": "THONG_TU",
+      "ten": "Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ",
+      "co_quan": "BCA",
+      "ngay_ban_hanh": "2021-12-30",
+      "hieu_luc_tu": "2022-03-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-125-2021-tt-bca-36544/39412.htm",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 1,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn + chinhphu.vn).",
+      "slug": "125-2021-tt-bca",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "125/2026/TT-BCA",
+      "loai": "THONG_TU",
+      "ten": "Danh mục sản phẩm, hàng hoá có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Công an",
+      "co_quan": "BCA",
+      "ngay_ban_hanh": "2026-06-30",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bca"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "37/2026/NĐ-CP"
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "PCCC và cứu nạn cứu hộ (8 sản phẩm), thiết bị an toàn giao thông, giám sát an ninh công cộng. Nền: Luật 55/2024/QH15. Tem kiểm định cũ hết 30/6/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "125-2026-tt-bca",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "126/2026/TT-BQP",
+      "loai": "THONG_TU",
+      "ten": "Ban hành Danh mục sản phẩm mật mã dân sự có mức độ rủi ro cao thuộc phạm vi quản lý của Bộ trưởng Bộ Quốc phòng",
+      "co_quan": "BQP",
+      "hieu_luc_tu": "2026-09-02",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bqp"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "37/2026/NĐ-CP"
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Cơ quan: Ban Cơ yếu Chính phủ. Chuyển tiếp 24 tháng cho sản phẩm đã cấp phép. Liên quan NĐ 341/2026/NĐ-CP. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "126-2026-tt-bqp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "128/2020/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định xử phạt vi phạm hành chính trong lĩnh vực hải quan",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2020-10-19",
+      "hieu_luc_tu": "2020-12-10",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "xu-phat"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "slug": "128-2020-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "13/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung Nghị định 132/2008/NĐ-CP",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-01-21",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/khung-chat-luong"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "13-2022-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "37/2026/NĐ-CP",
+            "quan_he": "bai_bo",
+            "so_hieu": "13/2022/NĐ-CP",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 97 khoản 2 điểm d (riêng khoản 3–7 Điều 1 từ 23/01/2026, Điều 97 khoản 4 điểm a)"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "13/2023/QĐ-TTg",
+      "loai": "QUYET_DINH",
+      "ten": "Ban hành Danh mục phế liệu được phép nhập khẩu từ nước ngoài làm nguyên liệu sản xuất",
+      "co_quan": "TTG",
+      "ngay_ban_hanh": "2023-05-22",
+      "hieu_luc_tu": "2023-06-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=207922&pageid=27160",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 24,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 24 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn + caselaw.vn).",
+      "slug": "13-2023-qd-ttg",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "132/2008/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết thi hành một số điều của Luật Chất lượng sản phẩm, hàng hoá",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2008-12-31",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/khung-chat-luong"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "132-2008-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "37/2026/NĐ-CP",
+            "quan_he": "bai_bo",
+            "so_hieu": "132/2008/NĐ-CP",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 97 khoản 2 điểm a"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "134/2016/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết một số điều và biện pháp thi hành Luật Thuế xuất khẩu, thuế nhập khẩu",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2016-09-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/luat-thue",
+        "thue/mien-giam-hoan"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "107/2016/QH13"
+        ]
+      },
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "slug": "134-2016-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "18/2021/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "134/2016/NĐ-CP"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "1357/QĐ-TCHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Bảng mã loại hình xuất khẩu, nhập khẩu",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2021-05-18",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/loai-hinh"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "slug": "1357-qd-tchq-2021",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "14/2015/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Hướng dẫn về phân loại hàng hoá, phân tích để phân loại hàng hoá; phân tích để kiểm tra chất lượng, kiểm tra an toàn thực phẩm đối với hàng hoá xuất khẩu, nhập khẩu",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2015-01-30",
+      "hieu_luc_tu": "2015-03-16",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs/quy-trinh-phan-loai"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "slug": "14-2015-tt-btc",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "17/2021/TT-BTC",
+            "quan_he": "sua_doi",
+            "so_hieu": "14/2015/TT-BTC"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "1400/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "(chưa có tiêu đề) 1400/QĐ-BCT",
+      "co_quan": "BCT",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "quan_he": {
+        "thay_the": [
+          "2093/QĐ-BCT"
+        ]
+      },
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Văn bản khung (stub): chỉ biết qua quan hệ thay thế 2093/QĐ-BCT trong hs-code-api. Cần bổ sung tiêu đề, ngày, nguồn.",
+      "slug": "1400-qd-bct-2025",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "143/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Áp dụng biện pháp chống bán phá giá chính thức đối với sản phẩm cáp thép dự ứng lực từ Ma-lai-xi-a, Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2025-01-14",
+      "hieu_luc_tu": "2025-01-29",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/cong-nghiep/quyet-dinh-143-qd-bct-2025-ap-dung-bien-phap-chong-ban-pha-gia-cap-thep-du-ung-luc-387021-d1.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 2,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 2 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + quangninh.gov.vn (Sở Công Thương)).",
+      "slug": "143-qd-bct-2025",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "15/2018/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết thi hành một số điều của Luật An toàn thực phẩm",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2018-02-02",
+      "hieu_luc_tu": "2018-02-02",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/an-toan-thuc-pham"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "55/2010/QH12"
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Vẫn áp dụng tại 10/2026 vì NĐ 46/2026/NĐ-CP thay thế đang bị tạm ngưng. Kiểm tra ATTP: Điều 13 (09 trường hợp miễn), Điều 16, 17, 19 (03/07 ngày làm việc). Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "15-2018-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "22/2026/TT-BNNMT",
+            "quan_he": "huong_dan",
+            "so_hieu": "15/2018/NĐ-CP"
+          },
+          {
+            "tu": "28/2026/TT-BCT",
+            "quan_he": "huong_dan",
+            "so_hieu": "15/2018/NĐ-CP"
+          }
+        ],
+        "bi_thay_the_boi": [
+          {
+            "tu": "46/2026/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "15/2018/NĐ-CP"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "15/2024/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Ban hành Danh mục thực phẩm, phụ gia thực phẩm và dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam phải kiểm tra nhà nước về an toàn thực phẩm nhập khẩu thuộc phạm vi quản lý của Bộ Y tế",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2024-09-19",
+      "hieu_luc_tu": "2024-11-04",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt",
+        "kiem-tra-chuyen-nganh/an-toan-thuc-pham"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/xuat-nhap-khau/thong-tu-15-2024-tt-byt-danh-muc-thuc-pham-phu-gia-thuc-pham-duoc-xac-dinh-ma-so-hang-hoa-625177.aspx",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 186,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 186 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn). KHUNG KTCN 2026 (tin cậy LOW): Kiểm tra ATTP vẫn theo NĐ 15/2018/NĐ-CP. Bộ Y tế ra thêm TT 27/2026/TT-BYT (thực phẩm, bao gói tiếp xúc thực phẩm — rủi ro trung bình). Chưa thấy nguồn nói TT 27/2026 thay TT 15/2024 — cần đối chiếu.",
+      "slug": "15-2024-tt-byt",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "15/2026/NQ-CP",
+      "loai": "NGHI_QUYET",
+      "ten": "Tiếp tục tạm ngưng hiệu lực Nghị định 46/2026/NĐ-CP",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2026-04-06",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/an-toan-thuc-pham"
+      ],
+      "quan_he": {
+        "tam_ngung": [
+          "46/2026/NĐ-CP"
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "15-2026-nq-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "154/2018/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung, bãi bỏ một số quy định về điều kiện đầu tư kinh doanh và kiểm tra chuyên ngành thuộc phạm vi quản lý của Bộ Khoa học và Công nghệ",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2018-11-09",
+      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bkhcn"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Điều 4 hết hiệu lực từ 01/7/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "154-2018-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "37/2026/NĐ-CP",
+            "quan_he": "bai_bo",
+            "so_hieu": "154/2018/NĐ-CP",
+            "pham_vi": "Điều 4",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 97 khoản 2 điểm c"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "16/2024/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Ban hành Danh mục chế phẩm diệt côn trùng, diệt khuẩn dùng trong lĩnh vực gia dụng và y tế đã được xác định mã số HS theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2024-09-30",
+      "hieu_luc_tu": "2024-11-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?classid=1&docid=211504&pageid=27160",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 17,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 17 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn).",
+      "slug": "16-2024-tt-byt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "16/2026/TT-BNV",
+      "loai": "THONG_TU",
+      "ten": "Quy định Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Nội vụ",
+      "co_quan": "BNV",
+      "hieu_luc_tu": "2026-07-28",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnv"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "37/2026/NĐ-CP"
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "18 nhóm, 08 nhóm rủi ro cao: thang máy, cần trục, cầu trục, vận thăng, nồi hơi và thiết bị áp lực, thiết bị nâng, phương tiện bảo vệ cá nhân, thiết bị hàn. Văn bản bị thay (01/2021/TT-BLĐTBXH?) CHƯA XÁC MINH. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "16-2026-tt-bnv",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "17/2021/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư 14/2015/TT-BTC",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2021-02-26",
+      "hieu_luc_tu": "2021-04-12",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs/quy-trinh-phan-loai"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          "14/2015/TT-BTC"
+        ]
+      },
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "slug": "17-2021-tt-btc",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "17/2023/TT-BNNPTNT",
+      "loai": "THONG_TU",
+      "ten": "Ban hành Bảng mã HS đối với hàng hóa là thực vật rừng, động vật rừng nguy cấp, quý, hiếm và động vật, thực vật thuộc các Phụ lục Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp",
+      "co_quan": "BNNPTNT",
+      "ngay_ban_hanh": "2023-12-15",
+      "hieu_luc_tu": "2024-01-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-17-2023-tt-bnnptnt-40996/48231.htm",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 340,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 340 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn).",
+      "slug": "17-2023-tt-bnnptnt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1725/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2024-07-01",
+      "hieu_luc_tu": "2024-07-01",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Quyet-dinh-1725-QD-BCT-2024-Danh-muc-mat-hang-kiem-tra-hieu-suat-nang-luong-615929.aspx",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 61,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 61 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn + luatvietnam.vn). KHUNG KTCN 2026 (tin cậy MEDIUM): Danh mục rủi ro của Bộ Công Thương (TT 33/2026/TT-BCT) có nhóm hiệu suất năng lượng. Cần đối chiếu mã với phụ lục TT 33/2026.",
+      "slug": "1725-qd-bct-2024",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "173/2018/TT-BQP",
+      "loai": "THONG_TU",
+      "ten": "Công bố danh mục cụ thể hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành của Bộ Quốc phòng theo quy định tại Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ",
+      "co_quan": "BQP",
+      "ngay_ban_hanh": "2018-12-31",
+      "hieu_luc_tu": "2019-02-14",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://caselaw.vn/van-ban-phap-luat/327200",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 41,
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 41 mã HS). Tiêu đề đã đối chiếu (caselaw.vn + luatvietnam.vn).",
+      "slug": "173-2018-tt-bqp",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "174/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Chính sách giảm thuế giá trị gia tăng (10% → 8%)",
+      "co_quan": "CP",
+      "het_hieu_luc_tu": "2026-12-31",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/thue-noi-dia-khau-nk"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Hiệu lực đến 31/12/2026 (theo hs-code-api data-freshness.json). Theo dõi văn bản gia hạn/thay thế.",
+      "slug": "174-2025-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "18/2021/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung một số điều của Nghị định 134/2016/NĐ-CP",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2021-03-11",
+      "hieu_luc_tu": "2021-04-25",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/luat-thue"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          "134/2016/NĐ-CP"
+        ]
+      },
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "slug": "18-2021-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1914/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm bột ngọt có xuất xứ từ Cộng hòa In-đô-nê-xi-a và Cộng hòa nhân dân Trung Hoa",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2025-07-02",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/thuong-mai/quyet-dinh-1914-qd-bct-405186-d1.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 1,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + moit.gov.vn).",
+      "slug": "1914-qd-bct",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1959/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm thép cán nóng có xuất xứ từ Cộng hòa nhân dân Trung Hoa và chấm dứt điều tra áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép cán nóng có xuất xứ từ Cộng hòa Ấn Độ",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2025-07-04",
+      "hieu_luc_tu": "2025-07-06",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/thue/quyet-dinh-1959-qd-bct-2025-ap-dung-thue-chong-ban-pha-gia-thep-can-nong-tu-trung-quoc-va-cham-dut-dieu-tra-tu-an-do-405185-d1.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 1,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + moit.gov.vn).",
+      "slug": "1959-qd-bct",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1978/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép hình chữ H có xuất xứ từ Ma-lai-xi-a",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2025-07-08",
+      "hieu_luc_tu": "2025-07-08",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-ban-hanh-quyet-dinh-ra-soat-cuoi-ky-viec-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pham-thep.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 5,
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 5 mã HS). Tiêu đề đã đối chiếu (moit.gov.vn + tapchicongthuong.vn).",
+      "slug": "1978-qd-bct",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "915/QĐ-BCT",
+            "quan_he": "thay_the",
+            "so_hieu": "1978/QĐ-BCT"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "2027/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm bằng plastic được làm từ các polyme từ propylen có xuất xứ từ Ma-lai-xi-a, Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2025-07-14",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-ban-hanh-quyet-dinh-ve-ket-qua-ra-soat-cuoi-ky-viec-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-sa2.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 2,
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 2 mã HS). Tiêu đề đã đối chiếu (moit.gov.vn).",
+      "slug": "2027-qd-bct",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "2093/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Điều tra áp dụng biện pháp chống bán phá giá đối với một số sản phẩm kính nổi không màu có xuất xứ từ Cộng hòa In-đô-nê-xi-a và Ma-lai-xi-a",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2025-07-18",
+      "hieu_luc_tu": "2025-07-18",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/thue/quyet-dinh-2093-qd-bct-406436-d1.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 2,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 2 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + moit.gov.vn).",
+      "slug": "2093-qd-bct",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "1400/QĐ-BCT",
+            "quan_he": "thay_the",
+            "so_hieu": "2093/QĐ-BCT"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "2105/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Sửa đổi Quyết định số 1989/QĐ-BCT về kết quả rà soát lần thứ nhất việc áp dụng biện pháp chống bán phá giá và chống trợ cấp đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2025-07-21",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://web.ts24.com.vn/support/solutions/articles/16000220115",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 6,
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 6 mã HS). Tiêu đề đã đối chiếu (vbpl.ts24.com.vn + thuvienxuatnhapkhau.com).",
+      "slug": "2105-qd-bct-2025",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "211/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định về hoạt động mật mã dân sự và sửa đổi, bổ sung một số điều của Nghị định số 15/2020/NĐ-CP ngày 03/02/2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bưu chính, viễn thông, tần số vô tuyến điện, công nghệ thông tin và giao dịch điện tử",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-07-25",
+      "hieu_luc_tu": "2025-09-09",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bqp"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-211-2025-nd-cp-45739/58043.htm",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 34,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 34 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn + luatvietnam.vn).",
+      "slug": "211-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "2174/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "(chưa có tiêu đề) 2174/QĐ-BCT",
+      "co_quan": "BCT",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "quan_he": {
+        "thay_the": [
+          "2333/QĐ-BCT"
+        ]
+      },
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Văn bản khung (stub): chỉ biết qua quan hệ thay thế 2333/QĐ-BCT trong hs-code-api. Cần bổ sung tiêu đề, ngày, nguồn.",
+      "slug": "2174-qd-bct-2025",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "22/2018/TT-BTTTT",
+      "loai": "THONG_TU",
+      "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
+      "co_quan": "BTTTT",
+      "ngay_ban_hanh": "2018-12-28",
+      "hieu_luc_tu": "2019-02-12",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://mst.gov.vn/van-ban-phap-luat/14290.htm",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 31,
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 31 mã HS). Tiêu đề đã đối chiếu (mst.gov.vn (Bộ) + caselaw.vn).",
+      "slug": "22-2018-tt-btttt",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "22/2026/TT-BNNMT",
+      "loai": "THONG_TU",
+      "ten": "Quy định cơ quan kiểm tra nhà nước về an toàn thực phẩm nhập khẩu thuộc Bộ Nông nghiệp và Môi trường",
+      "co_quan": "BNNMT",
+      "ngay_ban_hanh": "2026-05-19",
+      "hieu_luc_tu": "2026-09-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/an-toan-thuc-pham",
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "15/2018/NĐ-CP"
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khoản 1, 2 Điều 3: cơ quan kiểm tra do Chủ tịch UBND cấp tỉnh giao/chỉ định, thay Cục Thú y và Cục Bảo vệ thực vật. Tên mô tả, chưa đối chiếu nguyên văn. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "22-2026-tt-bnnmt",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "2284/QĐ-BKHCN",
+      "loai": "QUYET_DINH",
+      "ten": "Công bố Bảng mã HS đối với phương tiện đo nhóm 2 phải phê duyệt mẫu thuộc đối tượng kiểm tra nhà nước về đo lường khi nhập khẩu",
+      "co_quan": "BKHCN",
+      "ngay_ban_hanh": "2018-08-15",
+      "hieu_luc_tu": "2018-08-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bkhcn"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/khoa-hoc/quyet-dinh-2284-qd-bkhcn-2018-bang-ma-hs-voi-phuong-tien-do-nhom-2-167392-d1.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 19,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 19 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + thuvienxuatnhapkhau.com).",
+      "slug": "2284-qd-bkhcn-2018",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "23/2019/QĐ-TTg",
+      "loai": "QUYET_DINH",
+      "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+      "co_quan": "TTG",
+      "ngay_ban_hanh": "2019-06-27",
+      "hieu_luc_tu": "2019-09-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=197288&pageid=27160",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 749,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 749 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn).",
+      "slug": "23-2019-qd-ttg",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "2310/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm thép mạ có xuất xứ từ Cộng hòa nhân dân Trung Hoa và Đại Hàn Dân Quốc",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2025-08-14",
+      "hieu_luc_tu": "2025-08-14",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Thuong-mai/Quyet-dinh-2310-QD-BCT-2025-ap-dung-thue-chong-ban-pha-gia-chinh-thuc-thep-ma-co-xuat-xu-tu-Trung-Hoa-669822.aspx",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 38,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 38 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn + luatvietnam.vn).",
+      "slug": "2310-qd-bct-2025",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "2333/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Điều tra áp dụng biện pháp chống bán phá giá đối với một số sản phẩm gạch gốm, sứ ốp lát có xuất xứ từ Cộng hòa Ấn Độ",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2025-08-18",
+      "hieu_luc_tu": "2025-08-18",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/xuat-nhap-khau/quyet-dinh-2333-qd-bct-cua-bo-cong-thuong-dieu-tra-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pham-gach-gom-su-op-lat-co-xuat-xu-tu-cong-hoa-an-do-409055-d1.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 8,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 8 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + moit.gov.vn).",
+      "slug": "2333-qd-bct-2025",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "2174/QĐ-BCT",
+            "quan_he": "thay_the",
+            "so_hieu": "2333/QĐ-BCT"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "235/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Áp dụng biện pháp chống bán phá giá chính thức đối với một số sản phẩm bàn, ghế từ Cộng hòa nhân dân Trung Hoa và chấm dứt điều tra áp dụng biện pháp chống bán phá giá đối với một số sản phẩm bàn ghế từ Ma-lai-xi-a",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2023-02-13",
+      "hieu_luc_tu": "2023-02-13",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/thuong-mai/quyet-dinh-235-qd-bct-243347-d1.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 10,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 10 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + moit.gov.vn).",
+      "slug": "235-qd-bct-2023",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "24/2026/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Xác định mức độ rủi ro và biện pháp quản lý đối với thiết bị y tế",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2026-06-30",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          "05/2022/TT-BYT"
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "24-2026-tt-byt",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "2491/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm ván sợi gỗ có xuất xứ từ Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2025-09-05",
+      "hieu_luc_tu": "2025-09-20",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/xuat-nhap-khau/quyet-dinh-2491-qd-bct-411121-d1.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 6,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 6 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + moit.gov.vn).",
+      "slug": "2491-qd-bct-2025",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "121/QĐ-BCT",
+            "quan_he": "thay_the",
+            "so_hieu": "2491/QĐ-BCT"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "2531/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm nhôm xuất xứ từ Cộng hòa nhân dân Trung Hoa",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2024-09-23",
+      "hieu_luc_tu": "2024-09-23",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/xuat-nhap-khau/quyet-dinh-2531-qd-bct-2024-ket-qua-ra-soat-cuoi-ky-ap-dung-chong-ban-pha-gia-nhom-trung-hoa-367338-d1.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 5,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 5 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + moit.gov.vn).",
+      "slug": "2531-qd-bct-2024",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "26/2023/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hoá và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2023-05-31",
+      "hieu_luc_tu": "2023-07-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "107/2016/QH13"
+        ]
+      },
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Kiểm tra các nghị định sửa đổi biểu thuế sau 2023.",
+      "slug": "26-2023-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "26/2026/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Danh mục dược liệu, thuốc cổ truyền theo mức độ rủi ro (rủi ro trung bình)",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2026-07-01",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Tên mô tả. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "26-2026-tt-byt",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "27/2026/TT-BNNMT",
+      "loai": "THONG_TU",
+      "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Môi trường",
+      "co_quan": "BNNMT",
+      "ngay_ban_hanh": "2026-06-30",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "37/2026/NĐ-CP"
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Công báo số 411 ngày 18/7/2026. Không bao gồm kiểm dịch. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "27-2026-tt-bnnmt",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "27/2026/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Danh mục thực phẩm; dụng cụ chứa đựng, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm theo mức độ rủi ro (rủi ro trung bình)",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2026-07-01",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt",
+        "kiem-tra-chuyen-nganh/an-toan-thuc-pham"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "8 nhóm; Công văn 1913/ATTP-KN hướng dẫn. Tên mô tả. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "27-2026-tt-byt",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "2711/QĐ-BKHCN",
+      "loai": "QUYET_DINH",
+      "ten": "Về việc công bố sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
+      "co_quan": "BKHCN",
+      "ngay_ban_hanh": "2022-12-30",
+      "hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bkhcn"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Thuong-mai/Quyet-dinh-2711-QD-BKHCN-2022-san-pham-hang-hoa-nhom-2-thuoc-quan-ly-Bo-Khoa-hoc-Cong-nghe-549982.aspx",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 263,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 263 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn + luatvietnam.vn). KHUNG KTCN 2026 (tin cậy MEDIUM): Khung 'nhóm 2' (NĐ 132/2008, NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026.",
+      "slug": "2711-qd-bkhcn-2022",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "276/2026/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nội vụ",
+      "co_quan": "CP",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "bo-may"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Bộ Nội vụ nay quản lý an toàn, vệ sinh lao động sau khi Bộ LĐ-TB&XH giải thể. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "276-2026-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "28/2026/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Danh mục mặt hàng nhập khẩu kèm mã HS phải kiểm tra nhà nước về an toàn thực phẩm thuộc phạm vi quản lý của Bộ Công Thương",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2026-06-01",
+      "hieu_luc_tu": "2026-07-17",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct",
+        "kiem-tra-chuyen-nganh/an-toan-thuc-pham"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "15/2018/NĐ-CP"
+        ],
+        "thay_the": [
+          "11/2022/TT-BCT"
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "5 nhóm (rượu, bia, nước giải khát, sữa chế biến, dầu thực vật, bột/tinh bột, bánh mứt kẹo). Công báo số 328 ngày 14/6/2026. Thay QĐ 1182/QĐ-BCT (2021) trên thực tế. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "28-2026-tt-bct",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "28/2026/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Danh mục thuốc hoá dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc theo mức độ rủi ro",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2026-07-01",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao",
+        "canh_bao": "Chỉ có nguồn thứ cấp — kiểm lại với cơ quan ban hành trước khi dùng."
+      },
+      "ghi_chu": "PL I rủi ro cao (10 nhóm), PL II rủi ro trung bình. CẢNH BÁO: nguồn tổng hợp chỉ tìm được nguồn thứ cấp, chưa có trang gốc. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "28-2026-tt-byt",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "2822/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép hợp kim hoặc không hợp kim được cán phẳng, được sơn xuất xứ từ Đại Hàn Dân quốc và Cộng hòa nhân dân Trung Hoa",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2024-10-24",
+      "hieu_luc_tu": "2024-10-24",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-ban-hanh-quyet-dinh-ve-ket-qua-ra-soat-cuoi-ky-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pha.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 16,
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 16 mã HS). Tiêu đề đã đối chiếu (moit.gov.vn + caselaw.vn).",
+      "slug": "2822-qd-bct-2024",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "29/2025/TT-BKHCN",
+      "loai": "THONG_TU",
+      "ten": "Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn lĩnh vực công nghệ thông tin và viễn thông thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
+      "co_quan": "BKHCN",
+      "ngay_ban_hanh": "2025-11-13",
+      "hieu_luc_tu": "2025-12-31",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bkhcn"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Thuong-mai/Thong-tu-29-2025-TT-BKHCN-san-pham-hang-hoa-co-kha-nang-gay-mat-an-toan-linh-vuc-cong-nghe-thong-tin-680684.aspx",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 52,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 52 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn + mst.gov.vn (Cổng Bộ KHCN)). KHUNG KTCN 2026 (tin cậy MEDIUM): Khung 'nhóm 2' (NĐ 132/2008, NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026.",
+      "slug": "29-2025-tt-bkhcn",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "30/2014/TT-BNNPTNT",
+      "loai": "THONG_TU",
+      "ten": "Danh mục vật thể thuộc diện kiểm dịch thực vật",
+      "co_quan": "BNNPTNT",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich",
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Chưa thấy thông tư 2026 thay thế (mới có dự thảo). Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "30-2014-tt-bnnptnt",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "31/2018/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết Luật Quản lý ngoại thương về xuất xứ hàng hoá",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2018-03-08",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "xuat-xu-fta/quy-tac-xuat-xu"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "05/2017/QH14"
+        ]
+      },
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "slug": "31-2018-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "31/2022/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Ban hành Danh mục hàng hoá xuất khẩu, nhập khẩu Việt Nam",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2022-06-08",
+      "hieu_luc_tu": "2022-12-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs/danh-muc"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "slug": "31-2022-tt-btc",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "313/2026/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Y tế",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2026-08-08",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "bo-may"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "313-2026-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "3176/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Khởi xướng điều tra chống lẩn tránh biện pháp phòng vệ thương mại đối với một số sản phẩm thép cán nóng có xuất xứ từ Cộng hòa nhân dân Trung Hoa",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2025-10-27",
+      "hieu_luc_tu": "2025-10-27",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-khoi-xuong-dieu-tra-chong-lan-tranh-bien-phap-phong-ve-thuong-mai-doi-voi-mot-so-san-pham-thep-can-nong-c.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 26,
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 26 mã HS). Tiêu đề đã đối chiếu (moit.gov.vn + luatvietnam.vn).",
+      "slug": "3176-qd-bct-2025",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "33/2014/TT-BNNPTNT",
+      "loai": "THONG_TU",
+      "ten": "Quy định trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật",
+      "co_quan": "BNNPTNT",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Sửa bởi TT 34/2018 (VBHN 02/VBHN-BNNPTNT). Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "33-2014-tt-bnnptnt",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "33/2023/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Quy định về xác định xuất xứ hàng hoá xuất khẩu, nhập khẩu",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2023-05-31",
+      "hieu_luc_tu": "2023-07-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "xuat-xu-fta/quy-tac-xuat-xu"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "slug": "33-2023-tt-btc",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "33/2025/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 01/2018/TT-BCT ngày 27/02/2018 của Bộ trưởng Bộ Công Thương quy định chi tiết hàng hóa mua bán, trao đổi qua cửa khẩu phụ, lối mở biên giới của thương nhân",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2025-06-02",
+      "hieu_luc_tu": "2025-07-21",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/bien-gioi"
+      ],
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/?docid=213824&pageid=27160",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 2015,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 2015 mã HS). Tiêu đề đã đối chiếu (chinhphu.vn).",
+      "slug": "33-2025-tt-bct",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "33/2026/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Danh mục sản phẩm, hàng hoá có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Công Thương",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2026-06-30",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "37/2026/NĐ-CP"
+        ],
+        "thay_the": [
+          "41/2023/TT-BCT"
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Tiền chất thuốc nổ, hoá chất, nồi hơi, bình chịu áp lực, chai LPG, thiết bị điện-điện tử, hiệu suất năng lượng; kèm mã HS và QCVN. Tên theo mẫu chung, chưa đối chiếu nguyên văn. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "33-2026-tt-bct",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "336/2026/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Nghị định thay thế Nghị định 85/2019/NĐ-CP (một cửa quốc gia)",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2026-08-22",
+      "hieu_luc_tu": "2026-10-15",
+      "tinh_trang": "CHUA_CO_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/mot-cua"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "85/2019/NĐ-CP",
+            "tu_ngay": "2026-10-15"
+          }
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Tên đầy đủ chưa xác minh. Chuyển sang CON_HIEU_LUC từ 15/10/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "336-2026-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "34/2025/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 02/2018/TT-BCT ngày 27/02/2018 của Bộ trưởng Bộ Công Thương quy định chi tiết Danh mục hàng hóa mua bán, trao đổi của cư dân biên giới",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2025-06-02",
+      "hieu_luc_tu": "2025-07-21",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/bien-gioi"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=213832&pageid=27160",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 1764,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1764 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn).",
+      "slug": "34-2025-tt-bct",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "3453/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Áp dụng biện pháp chống bán phá giá chính thức đối với một số sản phẩm tháp điện gió có xuất xứ từ Cộng hòa nhân dân Trung Hoa",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2024-12-24",
+      "hieu_luc_tu": "2025-01-08",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/dien-luc/quyet-dinh-3453-qd-bct-cua-bo-cong-thuong-ap-dung-bien-phap-chong-ban-pha-gia-chinh-thuc-doi-voi-mot-so-san-pham-thap-dien-gio-co-xuat-xu-tu-cong-hoa-nhan-dan-trung-hoa-383629-d1.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 4,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 4 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + moit.gov.vn).",
+      "slug": "3453-qd-bct-2024",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "351/2026/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2026-09-11",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "bo-may"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "351-2026-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "354/2026/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Xây dựng",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2026-09-11",
+      "hieu_luc_tu": "2026-09-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "bo-may"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Bộ Xây dựng gồm phần việc Bộ GTVT cũ (Cục Đăng kiểm VN, Cục Hàng hải và Đường thuỷ VN, Cục Đường bộ VN, Cục Hàng không VN). Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "354-2026-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "3546/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Kết quả rà soát lần thứ hai việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm sợi dài làm từ polyester có xuất xứ từ Cộng hòa Ấn Độ, Cộng hòa In-đô-nê-xi-a, Ma-lai-xi-a và Cộng hòa nhân dân Trung Hoa",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2025-12-03",
+      "hieu_luc_tu": "2025-12-10",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/thuong-mai/quyet-dinh-3546-qd-bct-2025-ket-qua-ra-soat-chong-ban-pha-gia-soi-polyester-tu-an-do-indonesia-malaysia-trung-quoc-422166-d1.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 6,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 6 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + sct.tayninh.gov.vn).",
+      "slug": "3546-qd-bct-2025",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "36/2026/TT-BKHCN",
+      "loai": "THONG_TU",
+      "ten": "Danh mục sản phẩm, hàng hoá có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
+      "co_quan": "BKHCN",
+      "ngay_ban_hanh": "2026-06-30",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bkhcn"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "37/2026/NĐ-CP"
+        ],
+        "thay_the": [
+          "10/2024/TT-BKHCN"
+        ],
+        "bai_bo": [
+          "01/2009/TT-BKHCN"
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Xăng dầu, LPG, đồ chơi trẻ em, điện-điện tử gia dụng, dây cáp điện, aptomat; thiết bị đầu cuối di động, trạm gốc, vô tuyến ≥60 mW, phát thanh truyền hình. Tên theo mẫu chung. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "36-2026-tt-bkhcn",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "366/QĐ-BKHCN",
+      "loai": "QUYET_DINH",
+      "ten": "Về việc công bố bổ sung sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
+      "co_quan": "BKHCN",
+      "ngay_ban_hanh": "2023-03-14",
+      "hieu_luc_tu": "2023-03-14",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bkhcn"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=207620",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 6,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 6 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn + luatvietnam.vn). KHUNG KTCN 2026 (tin cậy MEDIUM): Khung 'nhóm 2' (NĐ 132/2008, NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026.",
+      "slug": "366-qd-bkhcn-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "367/QĐ-BKHCN",
+      "loai": "QUYET_DINH",
+      "ten": "Về việc sửa đổi, bổ sung nhóm sản phẩm chiếu sáng bằng công nghệ LED tại mục 10 Phụ lục ban hành kèm theo Quyết định số 2711/QĐ-BKHCN ngày 30/12/2022 của Bộ trưởng Bộ Khoa học và Công nghệ về việc công bố sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
+      "co_quan": "BKHCN",
+      "ngay_ban_hanh": "2024-03-12",
+      "hieu_luc_tu": "2024-03-12",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bkhcn"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/khoa-hoc/quyet-dinh-367-qd-bkhcn-2024-sua-doi-nhom-san-pham-chieu-sang-bang-cong-nghe-led-tai-2711-qd-bkhcn-303766-d1.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 4,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 4 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + mst.gov.vn (QĐ 3830/QĐ-BKHCN)). KHUNG KTCN 2026 (tin cậy MEDIUM): Khung 'nhóm 2' (NĐ 132/2008, NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026.",
+      "slug": "367-qd-bkhcn-2024",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "37/2013/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Quy định nhập khẩu thuốc lá điếu, xì gà",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2013-12-30",
+      "hieu_luc_tu": "2014-02-20",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/xuat-nhap-khau/thong-tu-37-2013-tt-bct-bo-cong-thuong-83869-d1.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 6,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 6 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + congbao.chinhphu.vn).",
+      "slug": "37-2013-tt-bct",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "37/2026/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết Luật Chất lượng sản phẩm, hàng hoá (phân loại hàng hoá theo 3 mức rủi ro)",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2026-01-23",
+      "hieu_luc_tu": "2026-01-23",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/khung-chat-luong",
+        "kiem-tra-chuyen-nganh/nhan-hang-hoa"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "05/2007/QH12"
+        ],
+        "bai_bo": [
+          {
+            "so_hieu": "132/2008/NĐ-CP",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 97 khoản 2 điểm a"
+          },
+          {
+            "so_hieu": "74/2018/NĐ-CP",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 97 khoản 2 điểm b"
+          },
+          {
+            "so_hieu": "154/2018/NĐ-CP",
+            "pham_vi": "Điều 4",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 97 khoản 2 điểm c"
+          },
+          {
+            "so_hieu": "13/2022/NĐ-CP",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 97 khoản 2 điểm d (riêng khoản 3–7 Điều 1 từ 23/01/2026, Điều 97 khoản 4 điểm a)"
+          },
+          {
+            "so_hieu": "43/2017/NĐ-CP",
+            "tu_ngay": "2026-01-23",
+            "can_cu": "Điều 97 khoản 4 điểm b"
+          },
+          {
+            "so_hieu": "111/2021/NĐ-CP",
+            "tu_ngay": "2026-01-23",
+            "can_cu": "Điều 97 khoản 4 điểm c"
+          }
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Bỏ \"nhóm 1/nhóm 2\"; từ 01/7/2026 chia rủi ro thấp/trung bình/cao (Điều 82, 83). Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "37-2026-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "125/2026/TT-BCA",
+            "quan_he": "huong_dan",
+            "so_hieu": "37/2026/NĐ-CP"
+          },
+          {
+            "tu": "126/2026/TT-BQP",
+            "quan_he": "huong_dan",
+            "so_hieu": "37/2026/NĐ-CP"
+          },
+          {
+            "tu": "16/2026/TT-BNV",
+            "quan_he": "huong_dan",
+            "so_hieu": "37/2026/NĐ-CP"
+          },
+          {
+            "tu": "27/2026/TT-BNNMT",
+            "quan_he": "huong_dan",
+            "so_hieu": "37/2026/NĐ-CP"
+          },
+          {
+            "tu": "33/2026/TT-BCT",
+            "quan_he": "huong_dan",
+            "so_hieu": "37/2026/NĐ-CP"
+          },
+          {
+            "tu": "36/2026/TT-BKHCN",
+            "quan_he": "huong_dan",
+            "so_hieu": "37/2026/NĐ-CP"
+          },
+          {
+            "tu": "41/2026/TT-BXD",
+            "quan_he": "huong_dan",
+            "so_hieu": "37/2026/NĐ-CP"
+          },
+          {
+            "tu": "49/2026/TT-BXD",
+            "quan_he": "huong_dan",
+            "so_hieu": "37/2026/NĐ-CP"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "3765/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép cán nguội (ép nguội) dạng cuộn hoặc tấm có xuất xứ từ nước Cộng hòa nhân dân Trung Hoa",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2025-12-26",
+      "hieu_luc_tu": "2025-12-28",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Thuong-mai/Quyet-dinh-3765-QD-BCT-2025-ket-qua-ra-soat-chong-ban-pha-gia-thep-can-nguoi-Trung-Hoa-687545.aspx",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 29,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 29 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn + moit.gov.vn (VnEconomy dẫn QĐ)).",
+      "slug": "3765-qd-bct-2025",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "38/2015/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Quy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hoá xuất khẩu, nhập khẩu",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2015-03-25",
+      "hieu_luc_tu": "2015-04-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "54/2014/QH13",
+          "08/2015/NĐ-CP"
+        ]
+      },
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "slug": "38-2015-tt-btc",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "39/2018/TT-BTC",
+            "quan_he": "sua_doi",
+            "so_hieu": "38/2015/TT-BTC"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "38/2019/QH14",
+      "loai": "LUAT",
+      "ten": "Luật Quản lý thuế",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2019-06-13",
+      "hieu_luc_tu": "2020-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/luat-thue"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "slug": "38-2019-qh14",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "39/2015/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Quy định về trị giá hải quan đối với hàng hoá xuất khẩu, nhập khẩu",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2015-03-25",
+      "hieu_luc_tu": "2015-05-10",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/tri-gia"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "slug": "39-2015-tt-btc",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "60/2019/TT-BTC",
+            "quan_he": "sua_doi",
+            "so_hieu": "39/2015/TT-BTC"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "39/2018/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều tại Thông tư 38/2015/TT-BTC",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2018-04-20",
+      "hieu_luc_tu": "2018-06-05",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          "38/2015/TT-BTC"
+        ]
+      },
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Phụ lục quy định chỉ tiêu khai, gồm yêu cầu mô tả hàng hoá (mục 1.78) mà hs-code-api /api/describe tuân theo.",
+      "slug": "39-2018-tt-btc",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "41/2013/QH13",
+      "loai": "LUAT",
+      "ten": "Luật Bảo vệ và kiểm dịch thực vật",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2013-11-25",
+      "hieu_luc_tu": "2015-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "slug": "41-2013-qh13",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "41/2019/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2019-12-16",
+      "hieu_luc_tu": "2019-12-16",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/search?q=41%2F2019%2FTT-BCT",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 32,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 32 mã HS). Tiêu đề đã đối chiếu (reference-trong-08/2023/TT-BCT (chinhphu.vn)).",
+      "slug": "41-2019-tt-bct",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "41/2023/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Danh mục sản phẩm, hàng hoá có khả năng gây mất an toàn thuộc Bộ Công Thương (cũ)",
+      "co_quan": "BCT",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Tên đầy đủ chưa xác minh; quan hệ bị TT 33/2026 thay: mức tin cậy trung bình–cao. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "41-2023-tt-bct",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "33/2026/TT-BCT",
+            "quan_he": "thay_the",
+            "so_hieu": "41/2023/TT-BCT"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "41/2026/TT-BXD",
+      "loai": "THONG_TU",
+      "ten": "Quản lý chất lượng sản phẩm, hàng hoá vật liệu xây dựng",
+      "co_quan": "BXD",
+      "ngay_ban_hanh": "2026-06-26",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bxd"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "37/2026/NĐ-CP"
+        ],
+        "thay_the": [
+          "10/2024/TT-BXD"
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "3 mức rủi ro, 09 nhóm rủi ro cao; rủi ro trung bình tại Phụ lục III. Công báo số 404 ngày 17/7/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "41-2026-tt-bxd",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "42/2019/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số quy định về chế độ báo cáo định kỳ tại các Thông tư do Bộ trưởng Bộ Công Thương ban hành hoặc liên tịch ban hành",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2019-12-18",
+      "hieu_luc_tu": "2020-02-05",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/default.aspx?docid=198850&pageid=27160",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 3316,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 3316 mã HS). Tiêu đề đã đối chiếu (chinhphu.vn).",
+      "slug": "42-2019-tt-bct",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "43/2017/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Về nhãn hàng hoá",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2017-04-14",
+      "hieu_luc_tu": "2017-06-01",
+      "het_hieu_luc_tu": "2026-01-23",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/nhan-hang-hoa"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Hết hiệu lực 23/01/2026 (không phải 01/7/2026). Văn bản hiện điều chỉnh nhãn hàng hoá: CHƯA XÁC MINH. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "43-2017-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "111/2021/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "43/2017/NĐ-CP"
+          }
+        ],
+        "bi_bai_bo_boi": [
+          {
+            "tu": "37/2026/NĐ-CP",
+            "quan_he": "bai_bo",
+            "so_hieu": "43/2017/NĐ-CP",
+            "tu_ngay": "2026-01-23",
+            "can_cu": "Điều 97 khoản 4 điểm b"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "45/2023/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2023-12-29",
+      "hieu_luc_tu": "2024-02-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-45-2023-tt-bct-40975/48170.htm",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 15,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 15 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn + vbpl.vn).",
+      "slug": "45-2023-tt-bct",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "45/2024/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "(chưa có tiêu đề) 45/2024/TT-BCT",
+      "co_quan": "BCT",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/TW/Pages/vbpq-timkiem.aspx?Keyword=45%2F2024%2FTT-BCT",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 1,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1 mã HS).",
+      "slug": "45-2024-tt-bct",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "46/2026/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Nghị định thay thế Nghị định 15/2018/NĐ-CP về an toàn thực phẩm",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2026-01-26",
+      "tinh_trang": "TAM_NGUNG_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/an-toan-thuc-pham"
+      ],
+      "quan_he": {
+        "thay_the": [
+          "15/2018/NĐ-CP"
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Đang tạm ngưng hiệu lực cho đến khi Luật An toàn thực phẩm sửa đổi có hiệu lực — CHƯA bãi bỏ. Đừng viết \"NĐ 15/2018 đã bị thay\". Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "46-2026-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_tam_ngung_boi": [
+          {
+            "tu": "09/2026/NQ-CP",
+            "quan_he": "tam_ngung",
+            "so_hieu": "46/2026/NĐ-CP"
+          },
+          {
+            "tu": "15/2026/NQ-CP",
+            "quan_he": "tam_ngung",
+            "so_hieu": "46/2026/NĐ-CP"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "47/2018/TT-NHNN",
+      "loai": "THONG_TU",
+      "ten": "Ban hành Danh mục hàng hóa xuất khẩu, nhập khẩu kèm theo mã HS thuộc phạm vi quản lý của Ngân hàng Nhà nước Việt Nam trong lĩnh vực vàng",
+      "co_quan": "NHNN",
+      "ngay_ban_hanh": "2018-12-28",
+      "hieu_luc_tu": "2019-02-12",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=196087",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 2,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 2 mã HS). Tiêu đề đã đối chiếu (chinhphu.vn + congbao.chinhphu.vn).",
+      "slug": "47-2018-tt-nhnn",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "49/2026/TT-BXD",
+      "loai": "THONG_TU",
+      "ten": "Danh mục sản phẩm, hàng hoá có mức độ rủi ro trung bình, mức độ rủi ro cao trong lĩnh vực giao thông vận tải thuộc Bộ Xây dựng",
+      "co_quan": "BXD",
+      "ngay_ban_hanh": "2026-06-30",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bxd"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "37/2026/NĐ-CP"
+        ],
+        "thay_the": [
+          "12/2022/TT-BGTVT",
+          "62/2024/TT-BGTVT"
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "PL I rủi ro cao: ô tô, mô tô, xe gắn máy, xe bốn bánh có động cơ; PL II rủi ro trung bình: phương tiện, phụ tùng, thiết bị GTVT, đường sắt. Tên theo mẫu chung. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "49-2026-tt-bxd",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "54/2014/QH13",
+      "loai": "LUAT",
+      "ten": "Luật Hải quan",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2014-06-23",
+      "hieu_luc_tu": "2015-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/luat-khung"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Kiểm tra các luật sửa đổi, bổ sung (nếu có) sau 2014.",
+      "slug": "54-2014-qh13",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "08/2015/NĐ-CP",
+            "quan_he": "huong_dan",
+            "so_hieu": "54/2014/QH13"
+          },
+          {
+            "tu": "38/2015/TT-BTC",
+            "quan_he": "huong_dan",
+            "so_hieu": "54/2014/QH13"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "55/2010/QH12",
+      "loai": "LUAT",
+      "ten": "Luật An toàn thực phẩm",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2010-06-17",
+      "hieu_luc_tu": "2011-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/an-toan-thuc-pham"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Đã sửa từng phần (Luật 28/2018/QH14, Luật Thanh tra 84/2025/QH15); bản hợp nhất VBHN 61/VBHN-VPQH (2025) — theo nguồn thứ cấp.",
+      "slug": "55-2010-qh12",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "15/2018/NĐ-CP",
+            "quan_he": "huong_dan",
+            "so_hieu": "55/2010/QH12"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "59/2018/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung một số điều của Nghị định 08/2015/NĐ-CP",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2018-04-20",
+      "hieu_luc_tu": "2018-06-05",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/luat-khung"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          "08/2015/NĐ-CP"
+        ]
+      },
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "slug": "59-2018-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "60/2019/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư 39/2015/TT-BTC về trị giá hải quan",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2019-08-30",
+      "hieu_luc_tu": "2019-10-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/tri-gia"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          "39/2015/TT-BTC"
+        ]
+      },
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "slug": "60-2019-tt-btc",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "62/2024/TT-BGTVT",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 12/2022/TT-BGTVT ngày 30/6/2022 của Bộ trưởng Bộ Giao thông vận tải quy định danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Giao thông vận tải",
+      "co_quan": "BGTVT",
+      "ngay_ban_hanh": "2024-12-31",
+      "hieu_luc_tu": "2025-02-15",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bxd"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          "12/2022/TT-BGTVT"
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/search?q=62%2F2024%2FTT-BGTVT",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 1315,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1315 mã HS). Tiêu đề đã đối chiếu (thuvienxuatnhapkhau.com (đối chiếu trích yếu)). Hết hiệu lực từ 2026-07-01: bị thay bởi 49/2026/TT-BXD (theo nguồn thứ cấp).",
+      "slug": "62-2024-tt-bgtvt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "49/2026/TT-BXD",
+            "quan_he": "thay_the",
+            "so_hieu": "62/2024/TT-BGTVT"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "6266/QĐ-BCA",
+      "loai": "QUYET_DINH",
+      "ten": "Ban hành Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Công an",
+      "co_quan": "BCA",
+      "ngay_ban_hanh": "2023-09-13",
+      "hieu_luc_tu": "2023-09-13",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bca"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/an-ninh-trat-tu/quyet-dinh-6266-qd-bca-cua-bo-cong-an-ban-hanh-danh-muc-san-pham-hang-hoa-co-kha-nang-gay-mat-an-toan-thuoc-trach-nhiem-quan-ly-cua-bo-cong-an-361705-d1.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 19,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 19 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn). KHUNG KTCN 2026 (tin cậy MEDIUM): Danh mục rủi ro mới của Bộ Công an là TT 125/2026/TT-BCA (PCCC & cứu nạn cứu hộ, thiết bị an toàn giao thông, giám sát an ninh). Tem kiểm định cũ hết 30/6/2026. Cần đối chiếu mã.",
+      "slug": "6266-qd-bca-2023",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "69/2018/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết một số điều của Luật Quản lý ngoại thương",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2018-05-15",
+      "hieu_luc_tu": "2018-05-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/luat-khung"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/search?q=69%2F2018%2FND-CP",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 21,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 21 mã HS). Tiêu đề đã đối chiếu (reference-trong-08/2023/TT-BCT (chinhphu.vn)).",
+      "slug": "69-2018-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "691/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Gia hạn áp dụng biện pháp tự vệ đối với sản phẩm thép dài nhập khẩu",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2023-03-21",
+      "hieu_luc_tu": "2023-03-22",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/xuat-nhap-khau/quyet-dinh-691-qd-bct-bo-cong-thuong-246910-d1.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 14,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 14 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + moit.gov.vn).",
+      "slug": "691-qd-bct-2023",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "693/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Gia hạn áp dụng biện pháp chống lẩn tránh biện pháp phòng vệ thương mại",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2023-03-21",
+      "hieu_luc_tu": "2023-03-22",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://moit.gov.vn/tin-tuc/thong-bao/gia-han-ap-dung-bien-phap-chong-lan-tranh-bien-phap-phong-ve-thuong-mai-doi-voi-san-pham-thep-cuon-thep-day-nhap-khau.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 4,
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 4 mã HS). Tiêu đề đã đối chiếu (moit.gov.vn + dulieuphapluat.vn).",
+      "slug": "693-qd-bct-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "715/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Gia hạn áp dụng biện pháp tự vệ đối với sản phẩm phân bón DAP, MAP nhập khẩu",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2020-03-03",
+      "hieu_luc_tu": "2020-03-07",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "nguon": [
+        {
+          "url": "https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-khong-gia-han-ap-dung-bien-phap-tu-ve-doi-voi-san-pham-phan-bon-dap-map-nhap-khau.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 8,
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 8 mã HS). Tiêu đề đã đối chiếu (moit.gov.vn + vbpl.ts24.com.vn).",
+      "slug": "715-qd-bct-2020",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "74/2018/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung Nghị định 132/2008/NĐ-CP",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2018-05-15",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/khung-chat-luong"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "74-2018-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "37/2026/NĐ-CP",
+            "quan_he": "bai_bo",
+            "so_hieu": "74/2018/NĐ-CP",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 97 khoản 2 điểm b"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "765/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Về việc công bố Danh mục các mặt hàng (kèm theo mã HS) đã được cắt giảm kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2019-03-29",
+      "hieu_luc_tu": "2019-03-29",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/cong-nghiep/quyet-dinh-765-qd-bct-2019-danh-muc-mat-hang-duoc-cat-giam-kiem-tra-chuyen-nganh-171670-d1.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 1075,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1075 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + sct.dongnai.gov.vn).",
+      "slug": "765-qd-bct-2019",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "78/2025/QH15",
+      "loai": "LUAT",
+      "ten": "Luật sửa đổi, bổ sung Luật Chất lượng sản phẩm, hàng hoá",
+      "co_quan": "QH",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/khung-chat-luong"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          "05/2007/QH12"
+        ]
+      },
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Tên đầy đủ và ngày hiệu lực: chưa xác minh. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "78-2025-qh15",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "79/2015/QH13",
+      "loai": "LUAT",
+      "ten": "Luật Thú y",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2015-06-19",
+      "hieu_luc_tu": "2016-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "slug": "79-2015-qh13",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "01/2026/TT-BNNMT",
+            "quan_he": "huong_dan",
+            "so_hieu": "79/2015/QH13"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "82/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 113/2017/NĐ-CP ngày 09/10/2017 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-10-18",
+      "hieu_luc_tu": "2022-12-22",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          "113/2017/NĐ-CP"
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/cong-nghiep/nghi-dinh-82-2022-nd-cp-sua-doi-nghi-dinh-113-2017-nd-cp-huong-dan-luat-hoa-chat-231981-d1.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 258,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 258 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn).",
+      "slug": "82-2022-nd-cp",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "85/2019/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định thủ tục hành chính theo cơ chế một cửa quốc gia, cơ chế một cửa ASEAN và kiểm tra chuyên ngành đối với hàng hoá xuất khẩu, nhập khẩu",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2019-11-14",
+      "hieu_luc_tu": "2020-01-01",
+      "het_hieu_luc_tu": "2026-10-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/mot-cua"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Sắp hết hiệu lực: bị NĐ 336/2026/NĐ-CP thay thế từ 15/10/2026. Điều 83 khoản 4 NĐ 37/2026 còn dẫn Điều 17 NĐ 85/2019 — dẫn chiếu sẽ lạc hậu. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "85-2019-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "336/2026/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "85/2019/NĐ-CP",
+            "tu_ngay": "2026-10-15"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "89/2018/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết thi hành một số điều của Luật Phòng, chống bệnh truyền nhiễm về kiểm dịch y tế biên giới",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2018-06-25",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Luật gốc đã đổi thành Luật Phòng bệnh 114/2025/QH15 (hl 01/7/2026); chưa xác minh có nghị định mới thay thế. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "slug": "89-2018-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "915/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "(chưa có tiêu đề) 915/QĐ-BCT",
+      "co_quan": "BCT",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "phong-ve-thuong-mai"
+      ],
+      "quan_he": {
+        "thay_the": [
+          "1978/QĐ-BCT"
+        ]
+      },
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "hiểu biết nền lúc khởi tạo",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Văn bản khung (stub): chỉ biết qua quan hệ thay thế 1978/QĐ-BCT trong hs-code-api. Cần bổ sung tiêu đề, ngày, nguồn.",
+      "slug": "915-qd-bct-2025",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "9981/QĐ-BCA",
+      "loai": "QUYET_DINH",
+      "ten": "Về việc công bố mã số HS đối với Danh mục sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Công an",
+      "co_quan": "BCA",
+      "ngay_ban_hanh": "2019-12-18",
+      "hieu_luc_tu": "2019-12-18",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bca"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/xuat-nhap-khau/quyet-dinh-9981-qd-bca-2019-cong-bo-ma-so-hs-doi-voi-hang-hoa-nhom-2-181401-d1.html",
+          "truy_cap": "2026-07-02"
+        }
+      ],
+      "trich_dan_trong_bieu_thue": 12,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "khoi-tao"
+      },
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 12 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + lawnet.vn). KHUNG KTCN 2026 (tin cậy MEDIUM): Danh mục rủi ro mới của Bộ Công an là TT 125/2026/TT-BCA (PCCC & cứu nạn cứu hộ, thiết bị an toàn giao thông, giám sát an ninh). Tem kiểm định cũ hết 30/6/2026. Cần đối chiếu mã.",
+      "slug": "9981-qd-bca-2019",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    }
+  ]
+}

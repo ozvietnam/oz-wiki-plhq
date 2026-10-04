@@ -1,0 +1,20 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 39/2018/TT-BTC
+loai: THONG_TU
+ten: Sửa đổi, bổ sung một số điều tại Thông tư 38/2015/TT-BTC
+co_quan: BTC
+ngay_ban_hanh: '2018-04-20'
+hieu_luc_tu: '2018-06-05'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - hai-quan/thu-tuc
+quan_he:
+  sua_doi:
+    - 38/2015/TT-BTC
+xac_minh:
+  muc: CHUA_XAC_MINH
+  pham_vi: hiểu biết nền lúc khởi tạo
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-04'
+  boi: khoi-tao
+ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Phụ lục quy định chỉ tiêu khai, gồm yêu cầu mô tả hàng hoá (mục 1.78) mà hs-code-api /api/describe tuân theo.

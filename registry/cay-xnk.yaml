@@ -1,0 +1,121 @@
+# Cây dữ liệu pháp luật phục vụ xuất nhập khẩu.
+# Mỗi văn bản trong registry/van-ban/ gắn vào một hoặc nhiều nút qua trường `nhanh`
+# (đường dẫn id, ví dụ: hai-quan/thu-tuc). Thêm nút mới: mở PR sửa file này.
+# `can_co` (tuỳ chọn): những gì một nút cần có để coi là đủ — công cụ diem-mu dùng để báo thiếu.
+
+- id: hai-quan
+  ten: Hải quan — luật, thủ tục, kiểm tra giám sát
+  mo_ta: Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập khẩu.
+  con:
+    - id: luat-khung
+      ten: Luật Hải quan và nghị định quy định chi tiết
+      can_co: [LUAT, NGHI_DINH]
+    - id: thu-tuc
+      ten: Thủ tục hải quan, khai báo, hồ sơ
+      can_co: [THONG_TU]
+    - id: kiem-tra-giam-sat
+      ten: Kiểm tra, giám sát, kiểm soát hải quan
+    - id: tri-gia
+      ten: Trị giá hải quan
+    - id: loai-hinh
+      ten: Mã loại hình xuất nhập khẩu
+    - id: mot-cua
+      ten: Cơ chế một cửa quốc gia, một cửa ASEAN
+    - id: so-tay-nghiep-vu
+      ten: Sổ tay, quy trình, hướng dẫn nghiệp vụ của cơ quan hải quan
+      mo_ta: Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung (không phải văn bản quy phạm nhưng thực tế áp dụng).
+
+- id: thue
+  ten: Thuế xuất khẩu, nhập khẩu và các thuế khác khâu nhập khẩu
+  con:
+    - id: luat-thue
+      ten: Luật thuế XK, NK; Luật Quản lý thuế
+      can_co: [LUAT, NGHI_DINH]
+    - id: bieu-thue
+      ten: Biểu thuế XK, NK ưu đãi và biểu thuế FTA
+      can_co: [NGHI_DINH]
+    - id: mien-giam-hoan
+      ten: Miễn, giảm, hoàn thuế
+    - id: thue-noi-dia-khau-nk
+      ten: Thuế GTGT, TTĐB, BVMT ở khâu nhập khẩu (gồm giảm GTGT)
+
+- id: phan-loai-hs
+  ten: Phân loại hàng hoá (mã HS)
+  con:
+    - id: danh-muc
+      ten: Danh mục hàng hoá XNK Việt Nam
+      can_co: [THONG_TU]
+    - id: quy-trinh-phan-loai
+      ten: Phân loại, phân tích để phân loại, xác định trước mã số
+    - id: chu-giai
+      ten: Chú giải HS, chú giải bổ sung (SEN), 6 quy tắc tổng quát (GIR)
+    - id: thong-bao-phan-loai
+      ten: Thông báo kết quả phân loại, công văn hướng dẫn mã (TB-TCHQ)
+
+- id: xuat-xu-fta
+  ten: Xuất xứ hàng hoá và các hiệp định thương mại tự do
+  con:
+    - id: quy-tac-xuat-xu
+      ten: Quy tắc xuất xứ, chứng nhận và kiểm tra xuất xứ
+    - id: hiep-dinh
+      ten: Hiệp định FTA (ACFTA, ATIGA, RCEP, CPTPP, EVFTA...)
+
+- id: quan-ly-ngoai-thuong
+  ten: Quản lý ngoại thương
+  con:
+    - id: luat-khung
+      ten: Luật Quản lý ngoại thương và nghị định
+      can_co: [LUAT, NGHI_DINH]
+    - id: giay-phep
+      ten: Giấy phép, hạn ngạch, hàng cấm, tạm ngừng
+    - id: hang-da-qua-su-dung
+      ten: Hàng đã qua sử dụng
+    - id: bien-gioi
+      ten: Mua bán, trao đổi qua biên giới, cửa khẩu phụ, lối mở
+
+- id: kiem-tra-chuyen-nganh
+  ten: Kiểm tra chuyên ngành (chất lượng, ATTP, kiểm dịch)
+  mo_ta: Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có danh mục riêng kèm mã HS.
+  con:
+    - id: khung-chat-luong
+      ten: Khung chung về chất lượng sản phẩm, hàng hoá
+      can_co: [LUAT, NGHI_DINH]
+    - id: an-toan-thuc-pham
+      ten: Kiểm tra nhà nước về an toàn thực phẩm
+      can_co: [LUAT, NGHI_DINH]
+    - id: kiem-dich
+      ten: Kiểm dịch động vật, thực vật, thuỷ sản, y tế
+    - id: bct
+      ten: Danh mục thuộc Bộ Công Thương
+    - id: byt
+      ten: Danh mục thuộc Bộ Y tế
+    - id: bnnmt
+      ten: Danh mục thuộc Bộ Nông nghiệp và Môi trường
+    - id: bkhcn
+      ten: Danh mục thuộc Bộ Khoa học và Công nghệ
+    - id: bxd
+      ten: Danh mục thuộc Bộ Xây dựng (vật liệu xây dựng, phương tiện giao thông)
+    - id: bnv
+      ten: Danh mục thuộc Bộ Nội vụ (an toàn lao động)
+    - id: bca
+      ten: Danh mục thuộc Bộ Công an
+    - id: bqp
+      ten: Danh mục thuộc Bộ Quốc phòng (mật mã dân sự)
+    - id: nhan-hang-hoa
+      ten: Nhãn hàng hoá
+
+- id: phong-ve-thuong-mai
+  ten: Phòng vệ thương mại (chống bán phá giá, chống trợ cấp, tự vệ)
+
+- id: xu-phat
+  ten: Xử phạt vi phạm hành chính, cưỡng chế, khiếu nại
+
+- id: dieu-uoc-quoc-te
+  ten: Điều ước quốc tế, chuẩn quốc tế (WCO, Công ước HS, Kyoto sửa đổi)
+
+- id: bo-may
+  ten: Tổ chức bộ máy — chức năng, nhiệm vụ các bộ, cơ quan quản lý
+  mo_ta: Cần để biết cơ quan nào đang quản lý sau sáp nhập 2025–2026.
+
+- id: chua-phan-loai
+  ten: Chưa phân loại — chờ luồng Hệ thống hoá xếp vào cây

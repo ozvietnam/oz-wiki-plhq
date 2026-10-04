@@ -1,0 +1,23 @@
+name: kiem-tra
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Kiểm sổ + công cụ + wiki
+        run: npm test
+      - name: Báo cáo điểm mù (không chặn)
+        run: |
+          node tools/diem-mu.mjs --stdout > diem-mu.md
+          { echo '## Điểm mù sau thay đổi này'; head -30 diem-mu.md; } >> "$GITHUB_STEP_SUMMARY"

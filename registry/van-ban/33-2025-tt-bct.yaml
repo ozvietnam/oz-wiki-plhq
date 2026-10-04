@@ -1,0 +1,21 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 33/2025/TT-BCT
+loai: THONG_TU
+ten: Sửa đổi, bổ sung một số điều của Thông tư số 01/2018/TT-BCT ngày 27/02/2018 của Bộ trưởng Bộ Công Thương quy định chi tiết hàng hóa mua bán, trao đổi qua cửa khẩu phụ, lối mở biên giới của thương nhân
+co_quan: BCT
+ngay_ban_hanh: '2025-06-02'
+hieu_luc_tu: '2025-07-21'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - quan-ly-ngoai-thuong/bien-gioi
+nguon:
+  - url: https://chinhphu.vn/?docid=213824&pageid=27160
+    truy_cap: '2026-07-02'
+trich_dan_trong_bieu_thue: 2015
+xac_minh:
+  muc: NGUON_A
+  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-04'
+  boi: khoi-tao
+ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 2015 mã HS). Tiêu đề đã đối chiếu (chinhphu.vn).

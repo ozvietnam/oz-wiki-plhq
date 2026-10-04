@@ -1,0 +1,16 @@
+name: "💬 Góp ý nội dung wiki"
+description: Trang wiki tóm tắt sai, thiếu ngoại lệ, diễn giải chưa đúng thực tế nghiệp vụ
+title: "[Góp ý] "
+labels: ["luong:doc-hieu"]
+body:
+  - type: input
+    id: trang
+    attributes:
+      label: Trang wiki
+      placeholder: "wiki/summary/khung-kiem-tra-chuyen-nganh-2026.md"
+    validations: { required: true }
+  - type: textarea
+    id: noi_dung
+    attributes:
+      label: Góp ý + căn cứ
+    validations: { required: true }

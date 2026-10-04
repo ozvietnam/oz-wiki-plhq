@@ -1,0 +1,17 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 26/2026/TT-BYT
+loai: THONG_TU
+ten: Danh mục dược liệu, thuốc cổ truyền theo mức độ rủi ro (rủi ro trung bình)
+co_quan: BYT
+ngay_ban_hanh: '2026-07-01'
+hieu_luc_tu: '2026-07-01'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - kiem-tra-chuyen-nganh/byt
+xac_minh:
+  muc: NGUON_THU_CAP
+  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-04'
+  boi: khoi-tao
+ghi_chu: Tên mô tả. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.

@@ -1,0 +1,87 @@
+# Cơ quan ban hành / quản lý. `ky_hieu` là phần sau dấu gạch ngang trong số hiệu văn bản
+# (vd TT-BCT → BCT). Cơ quan đã sáp nhập giữ lại để đọc văn bản cũ; `sap_nhap_vao` chỉ cơ quan
+# đang kế thừa. Thay đổi bộ máy: mở PR kèm nghị định chức năng làm căn cứ.
+
+- ky_hieu: QH
+  ten: Quốc hội
+  tinh_trang: HOAT_DONG
+- ky_hieu: UBTVQH
+  ten: Uỷ ban Thường vụ Quốc hội
+  tinh_trang: HOAT_DONG
+- ky_hieu: CP
+  ten: Chính phủ
+  tinh_trang: HOAT_DONG
+- ky_hieu: TTG
+  ten: Thủ tướng Chính phủ
+  tinh_trang: HOAT_DONG
+- ky_hieu: VPCP
+  ten: Văn phòng Chính phủ
+  tinh_trang: HOAT_DONG
+- ky_hieu: BTC
+  ten: Bộ Tài chính
+  tinh_trang: HOAT_DONG
+- ky_hieu: TCHQ
+  ten: Tổng cục Hải quan
+  tinh_trang: DA_SAP_XEP
+  sap_nhap_vao: CHQ
+  ghi_chu: "Văn bản phân loại năm 2026 trong kho mang ký hiệu CHQ (vd 18391/CHQ-NVTHQ). Mốc chuyển đổi và nghị định căn cứ: CHƯA XÁC MINH — việc của luồng Truy vết nguồn."
+- ky_hieu: CHQ
+  ten: Cục Hải quan (thuộc Bộ Tài chính)
+  tinh_trang: HOAT_DONG
+  website: https://customs.gov.vn
+- ky_hieu: BCT
+  ten: Bộ Công Thương
+  tinh_trang: HOAT_DONG
+  website: https://moit.gov.vn
+- ky_hieu: BYT
+  ten: Bộ Y tế
+  tinh_trang: HOAT_DONG
+  website: https://moh.gov.vn
+- ky_hieu: BNNMT
+  ten: Bộ Nông nghiệp và Môi trường
+  tinh_trang: HOAT_DONG
+  website: https://mae.gov.vn
+- ky_hieu: BNNPTNT
+  ten: Bộ Nông nghiệp và Phát triển nông thôn
+  tinh_trang: DA_SAP_NHAP
+  sap_nhap_vao: BNNMT
+- ky_hieu: BTNMT
+  ten: Bộ Tài nguyên và Môi trường
+  tinh_trang: DA_SAP_NHAP
+  sap_nhap_vao: BNNMT
+- ky_hieu: BKHCN
+  ten: Bộ Khoa học và Công nghệ
+  tinh_trang: HOAT_DONG
+  website: https://most.gov.vn
+- ky_hieu: BTTTT
+  ten: Bộ Thông tin và Truyền thông
+  tinh_trang: DA_SAP_NHAP
+  sap_nhap_vao: BKHCN
+- ky_hieu: BXD
+  ten: Bộ Xây dựng
+  tinh_trang: HOAT_DONG
+  website: https://moc.gov.vn
+- ky_hieu: BGTVT
+  ten: Bộ Giao thông vận tải
+  tinh_trang: DA_SAP_NHAP
+  sap_nhap_vao: BXD
+- ky_hieu: BNV
+  ten: Bộ Nội vụ
+  tinh_trang: HOAT_DONG
+  website: https://moha.gov.vn
+- ky_hieu: BLDTBXH
+  ten: Bộ Lao động - Thương binh và Xã hội
+  tinh_trang: DA_SAP_NHAP
+  sap_nhap_vao: BNV
+- ky_hieu: BCA
+  ten: Bộ Công an
+  tinh_trang: HOAT_DONG
+- ky_hieu: BQP
+  ten: Bộ Quốc phòng
+  tinh_trang: HOAT_DONG
+- ky_hieu: BVHTTDL
+  ten: Bộ Văn hoá, Thể thao và Du lịch
+  tinh_trang: HOAT_DONG
+- ky_hieu: NHNN
+  ten: Ngân hàng Nhà nước Việt Nam
+  tinh_trang: HOAT_DONG

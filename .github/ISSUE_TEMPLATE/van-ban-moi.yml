@@ -1,0 +1,31 @@
+name: "📄 Văn bản mới"
+description: Báo một văn bản mới (hoặc chưa có trong sổ) ảnh hưởng tới xuất nhập khẩu
+title: "[Văn bản mới] "
+labels: ["luong:do-tham"]
+body:
+  - type: input
+    id: so_hieu
+    attributes:
+      label: Số hiệu
+      placeholder: "28/2026/TT-BCT"
+    validations: { required: true }
+  - type: input
+    id: ten
+    attributes:
+      label: Trích yếu (tên văn bản)
+  - type: input
+    id: url
+    attributes:
+      label: Link nguồn
+      description: Ưu tiên congbao.chinhphu.vn, vanban.chinhphu.vn, vbpl.vn, cổng của cơ quan ban hành.
+    validations: { required: true }
+  - type: input
+    id: hieu_luc
+    attributes:
+      label: Ngày ban hành / ngày hiệu lực
+      placeholder: "01/6/2026 — hiệu lực 17/7/2026"
+  - type: textarea
+    id: tac_dong
+    attributes:
+      label: Thay thế / sửa đổi / bãi bỏ văn bản nào? Tác động tới mặt hàng nào?
+      description: Ghi điều khoản căn cứ nếu có (thường ở điều khoản thi hành cuối văn bản).
