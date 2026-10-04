@@ -5,19 +5,20 @@ ten: Chỉ định các cơ quan đầu mối để triển khai thực hiện H
 co_quan: TTG
 ngay_ban_hanh: '2020-08-04'
 hieu_luc_tu: '2020-08-04'
-tinh_trang: CHUA_XAC_MINH
+tinh_trang: HET_HIEU_LUC
 nhanh:
-  - xuat-xu-fta/hiep-dinh
+- xuat-xu-fta/hiep-dinh
 nguon:
-  - url: https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-1175-qd-ttg-31820.htm
-    truy_cap: '2026-10-04'
-  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2020/8/31820/32150-1-2020823-8241175-qd-ttg.pdf
-    truy_cap: '2026-10-04'
+- url: https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-1175-qd-ttg-31820.htm
+  truy_cap: '2026-10-04'
+- url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2020/8/31820/32150-1-2020823-8241175-qd-ttg.pdf
+  truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, trích yếu, ngày ban hành và mốc hiệu lực trên trang Công báo. Chưa mở toàn văn điều khoản thi hành.
-  hieu_luc_da_doi_chieu: false
+  pham_vi: PDF Công báo CDN 1175 Điều 3 hiệu lực từ ngày ký; hết hiệu lực theo Điều 5 của 126/QĐ-TTg (PDF Công báo)
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: grok@ozvietnam
-ghi_chu: Cùng chủ đề với 126/QĐ-TTg ngày 16/01/2026. Chưa thấy điều khoản nói 126 thay hoặc bãi bỏ 1175, nên không ghi quan_he.
+  boi: cursor-agent@ozvietnam
+ghi_chu: Hết hiệu lực từ 16-01-2026 theo Điều 5 QĐ 126/QĐ-TTg.
+het_hieu_luc_tu: '2026-01-16'
 toan_van: raw/download/congbaocdn.chinhphu.vn/1175-qd-ttg.pdf

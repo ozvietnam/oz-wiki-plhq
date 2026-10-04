@@ -4,21 +4,25 @@ loai: THONG_TU
 ten: Sửa đổi, bổ sung một số điều của Thông tư số 38/2018/TT-NHNN ngày 25/12/2018 của Thống đốc Ngân hàng Nhà nước Việt Nam quy định việc nhập khẩu hàng hóa phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước Việt Nam
 co_quan: NHNN
 ngay_ban_hanh: '2023-06-30'
-hieu_luc_tu: '2023-08-15'
+hieu_luc_tu: '2023-08-14'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - chua-phan-loai
+- chua-phan-loai
 nguon:
-  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-07-2023-tt-nhnn-39759/45761.htm
-    truy_cap: '2026-07-02'
-  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/6/39759/45761-1-2023837-83807-2023-tt-nhnn.pdf
-    truy_cap: '2026-10-04'
+- url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-07-2023-tt-nhnn-39759/45761.htm
+  truy_cap: '2026-07-02'
+- url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/6/39759/45761-1-2023837-83807-2023-tt-nhnn.pdf
+  truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 20
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
-  hieu_luc_da_doi_chieu: false
+  pham_vi: PDF Công báo CDN; Điều 4 khoản 1 hiệu lực 14-08-2023 (sửa ngày sổ từ 15-08-2023)
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 20 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn).
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 20 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn). Đã đối chiếu PDF Công báo: hiệu lực 14-08-2023 (không phải 15-08)'
+quan_he:
+  sua_doi:
+  - so_hieu: 38/2018/TT-NHNN
+    can_cu: Điều 1 TT 07/2023/TT-NHNN
 toan_van: raw/download/congbaocdn.chinhphu.vn/07-2023-tt-nhnn.pdf

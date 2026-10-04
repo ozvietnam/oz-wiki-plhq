@@ -5,19 +5,24 @@ ten: Chỉ định các cơ quan đầu mối để triển khai thực hiện H
 co_quan: TTG
 ngay_ban_hanh: '2026-01-16'
 hieu_luc_tu: '2026-01-16'
-tinh_trang: CHUA_XAC_MINH
+tinh_trang: CON_HIEU_LUC
 nhanh:
-  - xuat-xu-fta/hiep-dinh
+- xuat-xu-fta/hiep-dinh
 nguon:
-  - url: https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-127-qd-ttg-468799.htm
-    truy_cap: '2026-10-04'
-  - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/1/31/127signed-1769851114713162569781.pdf
-    truy_cap: '2026-10-04'
+- url: https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-127-qd-ttg-468799.htm
+  truy_cap: '2026-10-04'
+- url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/1/31/127signed-1769851114713162569781.pdf
+  truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, trích yếu, ngày ban hành và mốc hiệu lực trên trang Công báo (Công báo số 71). Chưa mở toàn văn.
-  hieu_luc_da_doi_chieu: false
+  pham_vi: PDF Công báo CDN; Điều 4 hiệu lực từ ngày ký 16-01-2026; Điều 5 thay thế 734/QĐ-TTg
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: grok@ozvietnam
-ghi_chu: Văn bản triển khai đầu mối CPTPP, không phải nghị quyết phê chuẩn. Phê chuẩn gốc là 72/2018/QH14.
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Đã đọc PDF Công báo: Điều 5 thay thế 734/QĐ-TTg ngày 14-06-2019.'
+quan_he:
+  thay_the:
+  - so_hieu: 734/QĐ-TTg
+    tu_ngay: '2026-01-16'
+    can_cu: Điều 5 QĐ 127/QĐ-TTg
 toan_van: raw/download/congbaocdn.chinhphu.vn/127-qd-ttg.pdf

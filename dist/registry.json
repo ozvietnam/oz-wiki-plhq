@@ -1,7 +1,7 @@
 {
   "phien_ban": "2026-10-04",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 142,
+  "tong": 152,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -40,7 +40,7 @@
       "co_quan": "BLDTBXH",
       "ngay_ban_hanh": "2021-06-03",
       "hieu_luc_tu": "2021-07-18",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bnv"
       ],
@@ -57,12 +57,21 @@
       "trich_dan_trong_bieu_thue": 123,
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "PDF Công báo CDN; Điều 3 khoản 1 hiệu lực 18-07-2021; khoản 2 hết hiệu lực 22/2018/TT-BLĐTBXH",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 123 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn). KHUNG KTCN 2026 (tin cậy LOW): Bộ LĐ-TB&XH đã giải thể, quản lý an toàn lao động chuyển về Bộ Nội vụ; danh mục rủi ro mới là TT 16/2026/TT-BNV (hiệu lực 28/7/2026). CHƯA XÁC MINH TT 16/2026 thay TT 01/2021 — hỏi Bộ Nội vụ trước khi đổi.",
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "22/2018/TT-BLĐTBXH",
+            "tu_ngay": "2021-07-18",
+            "can_cu": "Điều 3 khoản 2 TT 01/2021/TT-BLĐTBXH"
+          }
+        ]
+      },
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/01-2021-tt-bldtbxh.pdf",
       "slug": "01-2021-tt-bldtbxh",
       "bac_nguon_cao_nhat": "A",
@@ -137,6 +146,38 @@
       "slug": "01-2026-tt-bnnmt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "04/2014/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "(chưa có tiêu đề) 04/2014/TT-BCT",
+      "co_quan": "BCT",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "stub từ điều khoản thi hành văn bản mới trên Công báo CDN",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "cursor-agent@ozvietnam"
+      },
+      "het_hieu_luc_tu": "2018-06-15",
+      "ghi_chu": "Bị bãi bỏ bởi Điều 17 khoản 2 điểm a TT 12/2018/TT-BCT; stub chưa mở toàn văn nguồn A của chính văn bản này.",
+      "slug": "04-2014-tt-bct",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "12/2018/TT-BCT",
+            "quan_he": "bai_bo",
+            "so_hieu": "04/2014/TT-BCT",
+            "tu_ngay": "2018-06-15",
+            "can_cu": "Điều 17 khoản 2 điểm a TT 12/2018/TT-BCT"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "04/2021/TT-BXD",
@@ -289,7 +330,7 @@
       "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 38/2018/TT-NHNN ngày 25/12/2018 của Thống đốc Ngân hàng Nhà nước Việt Nam quy định việc nhập khẩu hàng hóa phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước Việt Nam",
       "co_quan": "NHNN",
       "ngay_ban_hanh": "2023-06-30",
-      "hieu_luc_tu": "2023-08-15",
+      "hieu_luc_tu": "2023-08-14",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "chua-phan-loai"
@@ -307,12 +348,20 @@
       "trich_dan_trong_bieu_thue": 20,
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "PDF Công báo CDN; Điều 4 khoản 1 hiệu lực 14-08-2023 (sửa ngày sổ từ 15-08-2023)",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 20 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn).",
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 20 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn). Đã đối chiếu PDF Công báo: hiệu lực 14-08-2023 (không phải 15-08)",
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "38/2018/TT-NHNN",
+            "can_cu": "Điều 1 TT 07/2023/TT-NHNN"
+          }
+        ]
+      },
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/07-2023-tt-nhnn.pdf",
       "slug": "07-2023-tt-nhnn",
       "bac_nguon_cao_nhat": "A",
@@ -630,12 +679,76 @@
       }
     },
     {
+      "so_hieu": "108/2008/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "(chưa có tiêu đề) 108/2008/NĐ-CP",
+      "co_quan": "CP",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "stub từ điều khoản thi hành văn bản mới trên Công báo CDN",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "cursor-agent@ozvietnam"
+      },
+      "het_hieu_luc_tu": "2017-11-25",
+      "ghi_chu": "Bị thay bởi Điều 38 khoản 1 NĐ 113/2017/NĐ-CP; stub chưa mở toàn văn nguồn A của chính văn bản này.",
+      "slug": "108-2008-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "113/2017/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "108/2008/NĐ-CP",
+            "tu_ngay": "2017-11-25",
+            "can_cu": "Điều 38 khoản 1 NĐ 113/2017/NĐ-CP"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "11/2017/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "(chưa có tiêu đề) 11/2017/TT-BCT",
+      "co_quan": "BCT",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "stub từ điều khoản thi hành văn bản mới trên Công báo CDN",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "cursor-agent@ozvietnam"
+      },
+      "het_hieu_luc_tu": "2018-06-15",
+      "ghi_chu": "Bị bãi bỏ bởi Điều 17 khoản 2 điểm b TT 12/2018/TT-BCT; stub chưa mở toàn văn nguồn A của chính văn bản này.",
+      "slug": "11-2017-tt-bct",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "12/2018/TT-BCT",
+            "quan_he": "bai_bo",
+            "so_hieu": "11/2017/TT-BCT",
+            "tu_ngay": "2018-06-15",
+            "can_cu": "Điều 17 khoản 2 điểm b TT 12/2018/TT-BCT"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "11/2018/TT-BTTTT",
       "loai": "THONG_TU",
       "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm theo mã số HS",
       "co_quan": "BTTTT",
       "ngay_ban_hanh": "2018-10-15",
-      "hieu_luc_tu": "2018-12-01",
+      "hieu_luc_tu": "2018-11-30",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "quan-ly-ngoai-thuong/hang-da-qua-su-dung"
@@ -653,12 +766,22 @@
       "trich_dan_trong_bieu_thue": 186,
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "PDF Công báo CDN; Điều 3 khoản 1 hiệu lực 30-11-2018 (sửa ngày sổ từ 01-12-2018)",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 186 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn).",
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 186 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn). Đã đối chiếu PDF Công báo: hiệu lực 30-11-2018 (không phải 01-12)",
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "31/2015/TT-BTTTT",
+            "pham_vi": "Điều 3 và Phụ lục số 01",
+            "tu_ngay": "2018-11-30",
+            "can_cu": "Điều 3 khoản 2 TT 11/2018/TT-BTTTT"
+          }
+        ]
+      },
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/11-2018-tt-btttt.pdf",
       "slug": "11-2018-tt-btttt",
       "bac_nguon_cao_nhat": "A",
@@ -827,12 +950,26 @@
       "trich_dan_trong_bieu_thue": 667,
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "PDF Công báo CDN; Điều 38 khoản 1 hiệu lực 25-11-2017, thay thế 108/2008/NĐ-CP và 26/2011/NĐ-CP",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 667 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn).",
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "108/2008/NĐ-CP",
+            "tu_ngay": "2017-11-25",
+            "can_cu": "Điều 38 khoản 1 NĐ 113/2017/NĐ-CP"
+          },
+          {
+            "so_hieu": "26/2011/NĐ-CP",
+            "tu_ngay": "2017-11-25",
+            "can_cu": "Điều 38 khoản 1 NĐ 113/2017/NĐ-CP"
+          }
+        ]
+      },
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/113-2017-nd-cp.pdf",
       "slug": "113-2017-nd-cp",
       "bac_nguon_cao_nhat": "A",
@@ -875,7 +1012,7 @@
       "co_quan": "TTG",
       "ngay_ban_hanh": "2020-08-04",
       "hieu_luc_tu": "2020-08-04",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "xuat-xu-fta/hiep-dinh"
       ],
@@ -891,16 +1028,27 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, trích yếu, ngày ban hành và mốc hiệu lực trên trang Công báo. Chưa mở toàn văn điều khoản thi hành.",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "PDF Công báo CDN 1175 Điều 3 hiệu lực từ ngày ký; hết hiệu lực theo Điều 5 của 126/QĐ-TTg (PDF Công báo)",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "grok@ozvietnam"
+        "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Cùng chủ đề với 126/QĐ-TTg ngày 16/01/2026. Chưa thấy điều khoản nói 126 thay hoặc bãi bỏ 1175, nên không ghi quan_he.",
+      "ghi_chu": "Hết hiệu lực từ 16-01-2026 theo Điều 5 QĐ 126/QĐ-TTg.",
+      "het_hieu_luc_tu": "2026-01-16",
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/1175-qd-ttg.pdf",
       "slug": "1175-qd-ttg-2020",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "126/QĐ-TTg",
+            "quan_he": "thay_the",
+            "so_hieu": "1175/QĐ-TTg",
+            "tu_ngay": "2026-01-16",
+            "can_cu": "Điều 5 QĐ 126/QĐ-TTg"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "1182/QĐ-BCT",
@@ -952,7 +1100,7 @@
       "ten": "Quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương",
       "co_quan": "BCT",
       "ngay_ban_hanh": "2018-06-15",
-      "hieu_luc_tu": "2018-07-30",
+      "hieu_luc_tu": "2018-06-15",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "quan-ly-ngoai-thuong/luat-khung"
@@ -970,12 +1118,31 @@
       "trich_dan_trong_bieu_thue": 37,
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "PDF Công báo CDN; Điều 17 khoản 1 hiệu lực kể từ ngày ký (15-06-2018); khoản 2 bãi bỏ 04/2014, 11/2017, 49/2015 TT-BCT",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 37 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn). Sửa số hiệu: biểu thuế (enrichment) ghi nhầm \"12/2018/TT-BTC\"; văn bản đúng là 12/2018/TT-BCT của Bộ Công Thương (quy định chi tiết Luật Quản lý ngoại thương và NĐ 69/2018/NĐ-CP) — theo ghi chú đã đối chiếu của hs-code-api. GHI CHÚ NGHIỆP VỤ (hs-code-api): TYPO trong enrichment: Gemini ghi '12/2018/TT-BTC' nhưng văn bản đúng là 12/2018/TT-BCT (Bộ Công Thương). Cite ở HS 1701/2401 (hạn ngạch thuế quan đường/thuốc lá) — đúng phạm vi 12/2018/TT-BCT. TT-BTC thật là về giám sát tài chính TCTD, không liên quan HS.",
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 37 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn). Sửa số hiệu: biểu thuế (enrichment) ghi nhầm \"12/2018/TT-BTC\"; văn bản đúng là 12/2018/TT-BCT của Bộ Công Thương (quy định chi tiết Luật Quản lý ngoại thương và NĐ 69/2018/NĐ-CP) — theo ghi chú đã đối chiếu của hs-code-api. GHI CHÚ NGHIỆP VỤ (hs-code-api): TYPO trong enrichment: Gemini ghi '12/2018/TT-BTC' nhưng văn bản đúng là 12/2018/TT-BCT (Bộ Công Thương). Cite ở HS 1701/2401 (hạn ngạch thuế quan đường/thuốc lá) — đúng phạm vi 12/2018/TT-BCT. TT-BTC thật là về giám sát tài chính TCTD, không liên quan HS. Đã đối chiếu PDF Công báo: hiệu lực từ ngày ký 15-06-2018 (sửa từ 30-07-2018 trên sổ cũ)",
+      "quan_he": {
+        "bai_bo": [
+          {
+            "so_hieu": "04/2014/TT-BCT",
+            "tu_ngay": "2018-06-15",
+            "can_cu": "Điều 17 khoản 2 điểm a TT 12/2018/TT-BCT"
+          },
+          {
+            "so_hieu": "11/2017/TT-BCT",
+            "tu_ngay": "2018-06-15",
+            "can_cu": "Điều 17 khoản 2 điểm b TT 12/2018/TT-BCT"
+          },
+          {
+            "so_hieu": "49/2015/TT-BCT",
+            "tu_ngay": "2018-06-15",
+            "can_cu": "Điều 17 khoản 2 điểm c TT 12/2018/TT-BCT"
+          }
+        ]
+      },
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/12-2018-tt-bct.pdf",
       "slug": "12-2018-tt-bct",
       "bac_nguon_cao_nhat": "A",
@@ -1077,10 +1244,10 @@
       "trich_dan_trong_bieu_thue": 1,
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "PDF Công báo CDN; hiệu lực 01-03-2022 khớp sổ",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn + chinhphu.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): QCVN 04:2021/BCA. Kèm Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ (chương 36).",
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/125-2021-tt-bca.pdf",
@@ -1150,7 +1317,7 @@
       "co_quan": "TTG",
       "ngay_ban_hanh": "2026-01-16",
       "hieu_luc_tu": "2026-01-16",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "xuat-xu-fta/hiep-dinh"
       ],
@@ -1166,12 +1333,21 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, trích yếu, ngày ban hành và mốc hiệu lực trên trang Công báo (Công báo số 71). Chưa mở toàn văn.",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "PDF Công báo CDN; Điều 4 hiệu lực từ ngày ký 16-01-2026; Điều 5 thay thế 1175/QĐ-TTg",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "grok@ozvietnam"
+        "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Trang Công báo ghi ban hành và hiệu lực 16/01/2026. Quan hệ với 1175/QĐ-TTg chưa đối chiếu điều khoản thi hành.",
+      "ghi_chu": "Đã đọc PDF Công báo: Điều 5 thay thế 1175/QĐ-TTg.",
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "1175/QĐ-TTg",
+            "tu_ngay": "2026-01-16",
+            "can_cu": "Điều 5 QĐ 126/QĐ-TTg"
+          }
+        ]
+      },
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/126-qd-ttg.pdf",
       "slug": "126-qd-ttg-2026",
       "bac_nguon_cao_nhat": "A",
@@ -1184,7 +1360,7 @@
       "co_quan": "TTG",
       "ngay_ban_hanh": "2026-01-16",
       "hieu_luc_tu": "2026-01-16",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "xuat-xu-fta/hiep-dinh"
       ],
@@ -1200,12 +1376,21 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, trích yếu, ngày ban hành và mốc hiệu lực trên trang Công báo (Công báo số 71). Chưa mở toàn văn.",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "PDF Công báo CDN; Điều 4 hiệu lực từ ngày ký 16-01-2026; Điều 5 thay thế 734/QĐ-TTg",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "grok@ozvietnam"
+        "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Văn bản triển khai đầu mối CPTPP, không phải nghị quyết phê chuẩn. Phê chuẩn gốc là 72/2018/QH14.",
+      "ghi_chu": "Đã đọc PDF Công báo: Điều 5 thay thế 734/QĐ-TTg ngày 14-06-2019.",
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "734/QĐ-TTg",
+            "tu_ngay": "2026-01-16",
+            "can_cu": "Điều 5 QĐ 127/QĐ-TTg"
+          }
+        ]
+      },
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/127-qd-ttg.pdf",
       "slug": "127-qd-ttg-2026",
       "bac_nguon_cao_nhat": "A",
@@ -1773,12 +1958,21 @@
       "trich_dan_trong_bieu_thue": 340,
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "PDF Công báo CDN phần đầu; Điều hiệu lực 30-01-2024; hết hiệu lực 924/QĐ-BNN-TCLN",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 340 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn).",
+      "quan_he": {
+        "bai_bo": [
+          {
+            "so_hieu": "924/QĐ-BNN-TCLN",
+            "tu_ngay": "2024-01-30",
+            "can_cu": "điều khoản thi hành TT 17/2023/TT-BNNPTNT (PDF Công báo phần đầu)"
+          }
+        ]
+      },
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/17-2023-tt-bnnptnt.pdf",
       "slug": "17-2023-tt-bnnptnt",
       "bac_nguon_cao_nhat": "A",
@@ -2159,10 +2353,10 @@
       "trich_dan_trong_bieu_thue": 34,
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "PDF Công báo CDN; hiệu lực 09-09-2025 khớp sổ",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 34 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn + luatvietnam.vn).",
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/211-2025-nd-cp.pdf",
@@ -2195,6 +2389,38 @@
       "slug": "2174-qd-bct-2025",
       "bac_nguon_cao_nhat": null,
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "22/2018/TT-BLĐTBXH",
+      "loai": "THONG_TU",
+      "ten": "Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội",
+      "co_quan": "BLDTBXH",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnv"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "stub từ điều khoản thi hành 01/2021/TT-BLĐTBXH; chưa có URL nguồn A của chính 22/2018",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "cursor-agent@ozvietnam"
+      },
+      "het_hieu_luc_tu": "2021-07-18",
+      "ghi_chu": "Khung stub: 01/2021/TT-BLĐTBXH Điều 3 khoản 2 ghi hết hiệu lực từ ngày 01/2021 có hiệu lực (18-07-2021). Ngày ban hành 06-12-2018 theo trích dẫn trong 01/2021; chưa mở toàn văn 22/2018.",
+      "slug": "22-2018-tt-bldtbxh",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "01/2021/TT-BLĐTBXH",
+            "quan_he": "thay_the",
+            "so_hieu": "22/2018/TT-BLĐTBXH",
+            "tu_ngay": "2021-07-18",
+            "can_cu": "Điều 3 khoản 2 TT 01/2021/TT-BLĐTBXH"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "22/2018/TT-BTTTT",
@@ -2533,6 +2759,38 @@
       "slug": "2531-qd-bct-2024",
       "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "26/2011/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "(chưa có tiêu đề) 26/2011/NĐ-CP",
+      "co_quan": "CP",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "stub từ điều khoản thi hành văn bản mới trên Công báo CDN",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "cursor-agent@ozvietnam"
+      },
+      "het_hieu_luc_tu": "2017-11-25",
+      "ghi_chu": "Bị thay bởi Điều 38 khoản 1 NĐ 113/2017/NĐ-CP; stub chưa mở toàn văn nguồn A của chính văn bản này.",
+      "slug": "26-2011-nd-cp",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "113/2017/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "26/2011/NĐ-CP",
+            "tu_ngay": "2017-11-25",
+            "can_cu": "Điều 38 khoản 1 NĐ 113/2017/NĐ-CP"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "26/2023/NĐ-CP",
@@ -2900,6 +3158,37 @@
       "slug": "30-2014-tt-bnnptnt",
       "bac_nguon_cao_nhat": null,
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "31/2015/TT-BTTTT",
+      "loai": "THONG_TU",
+      "ten": "(chưa có tiêu đề) 31/2015/TT-BTTTT",
+      "co_quan": "BTTTT",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "do-tham"
+      },
+      "ghi_chu": "TT 11/2018/TT-BTTTT thay thế Điều 3 và Phụ lục số 01; stub chưa mở toàn văn.",
+      "slug": "31-2015-tt-btttt",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "11/2018/TT-BTTTT",
+            "quan_he": "sua_doi",
+            "so_hieu": "31/2015/TT-BTTTT",
+            "pham_vi": "Điều 3 và Phụ lục số 01",
+            "tu_ngay": "2018-11-30",
+            "can_cu": "Điều 3 khoản 2 TT 11/2018/TT-BTTTT"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "31/2018/NĐ-CP",
@@ -3662,6 +3951,35 @@
       }
     },
     {
+      "so_hieu": "38/2018/TT-NHNN",
+      "loai": "THONG_TU",
+      "ten": "(chưa có tiêu đề) 38/2018/TT-NHNN",
+      "co_quan": "NHNN",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "do-tham"
+      },
+      "ghi_chu": "Được TT 07/2023/TT-NHNN sửa đổi, bổ sung; stub chưa mở toàn văn.",
+      "slug": "38-2018-tt-nhnn",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "07/2023/TT-NHNN",
+            "quan_he": "sua_doi",
+            "so_hieu": "38/2018/TT-NHNN",
+            "can_cu": "Điều 1 TT 07/2023/TT-NHNN"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "38/2019/QH14",
       "loai": "LUAT",
       "ten": "Luật Quản lý thuế",
@@ -3963,10 +4281,10 @@
       "trich_dan_trong_bieu_thue": 15,
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "PDF Công báo CDN; Điều 3 hiệu lực 15-02-2024 khớp sổ",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 15 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn + vbpl.vn).",
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/45-2023-tt-bct.pdf",
@@ -4087,6 +4405,38 @@
       "slug": "47-2018-tt-nhnn",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "49/2015/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "(chưa có tiêu đề) 49/2015/TT-BCT",
+      "co_quan": "BCT",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "stub từ điều khoản thi hành văn bản mới trên Công báo CDN",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "cursor-agent@ozvietnam"
+      },
+      "het_hieu_luc_tu": "2018-06-15",
+      "ghi_chu": "Bị bãi bỏ bởi Điều 17 khoản 2 điểm c TT 12/2018/TT-BCT; stub chưa mở toàn văn nguồn A của chính văn bản này.",
+      "slug": "49-2015-tt-bct",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "12/2018/TT-BCT",
+            "quan_he": "bai_bo",
+            "so_hieu": "49/2015/TT-BCT",
+            "tu_ngay": "2018-06-15",
+            "can_cu": "Điều 17 khoản 2 điểm c TT 12/2018/TT-BCT"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "49/2026/TT-BXD",
@@ -4493,6 +4843,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "734/QĐ-TTg",
+      "loai": "QUYET_DINH",
+      "ten": "Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP)",
+      "co_quan": "TTG",
+      "ngay_ban_hanh": "2019-06-14",
+      "hieu_luc_tu": "2019-06-14",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "xuat-xu-fta/hiep-dinh"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "stub từ Điều 5 của 127/QĐ-TTg trên Công báo CDN; chưa có URL nguồn A của chính 734",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "cursor-agent@ozvietnam"
+      },
+      "het_hieu_luc_tu": "2026-01-16",
+      "ghi_chu": "Khung stub: 127/QĐ-TTg Điều 5 thay thế 734/QĐ-TTg. Ngày ban hành 14-06-2019 theo trích dẫn trong 127; chưa mở toàn văn 734.",
+      "slug": "734-qd-ttg-2019",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "127/QĐ-TTg",
+            "quan_he": "thay_the",
+            "so_hieu": "734/QĐ-TTg",
+            "tu_ngay": "2026-01-16",
+            "can_cu": "Điều 5 QĐ 127/QĐ-TTg"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "74/2018/NĐ-CP",
       "loai": "NGHI_DINH",
       "ten": "Sửa đổi, bổ sung Nghị định 132/2008/NĐ-CP",
@@ -4733,6 +5117,38 @@
       "slug": "915-qd-bct-2025",
       "bac_nguon_cao_nhat": null,
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "924/QĐ-BNN-TCLN",
+      "loai": "QUYET_DINH",
+      "ten": "(chưa có tiêu đề) 924/QĐ-BNN-TCLN",
+      "co_quan": "BNNPTNT",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "pham_vi": "stub từ điều khoản thi hành văn bản mới trên Công báo CDN",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "cursor-agent@ozvietnam"
+      },
+      "het_hieu_luc_tu": "2024-01-30",
+      "ghi_chu": "Hết hiệu lực theo điều khoản thi hành TT 17/2023/TT-BNNPTNT; stub chưa mở toàn văn nguồn A của chính văn bản này.",
+      "slug": "924-qd-bnn-tcln",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "17/2023/TT-BNNPTNT",
+            "quan_he": "bai_bo",
+            "so_hieu": "924/QĐ-BNN-TCLN",
+            "tu_ngay": "2024-01-30",
+            "can_cu": "điều khoản thi hành TT 17/2023/TT-BNNPTNT (PDF Công báo phần đầu)"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "9981/QĐ-BCA",
