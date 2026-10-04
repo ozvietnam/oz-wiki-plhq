@@ -1,0 +1,30 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 72/2026/NĐ-CP
+loai: NGHI_DINH
+ten: Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu tại Biểu thuế nhập khẩu ưu đãi ban hành kèm theo Nghị định số 26/2023/NĐ-CP
+co_quan: CP
+ngay_ban_hanh: '2026-03-09'
+hieu_luc_tu: '2026-03-09'
+het_hieu_luc_tu: '2027-01-01'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - thue/bieu-thue
+quan_he:
+  sua_doi:
+    - so_hieu: 26/2023/NĐ-CP
+      pham_vi: thuế suất NK ưu đãi một số mặt hàng xăng, dầu
+      tu_ngay: '2026-03-09'
+      can_cu: Điều 1 NĐ 72/2026/NĐ-CP
+nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-72-2026-nd-cp-469066.htm
+    truy_cap: '2026-10-04'
+  - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/23/469066-1774001227_v1_1774251976_signed.pdf
+    truy_cap: '2026-10-04'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Công báo số 157 ngày 24-03-2026: Điều 2 khoản 1 hiệu lực từ ngày ký đến 30-04-2026 (văn bản có thời hạn), khoản 2 cho kéo dài bằng nghị quyết. Kéo dài bởi NQ 25/2026/NQ-CP (tới 30-06), NQ 34/2026/NQ-CP, NQ 43/2026/NQ-CP (30-09-2026) tới hết 31-12-2026 — các nghị quyết chưa có trong sổ.'
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-04'
+  boi: claude-code@ozvietnam
+  canh_bao: 'Văn bản có thời hạn: hết hiệu lực sau 31-12-2026 nếu không có nghị quyết kéo dài tiếp. Không phải mọi dòng về 0% (xăng có chì 20%, loại khác 10%).'
+ghi_chu: 'Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.'
