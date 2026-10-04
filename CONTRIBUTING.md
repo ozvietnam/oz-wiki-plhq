@@ -18,7 +18,8 @@ npm install
 node tools/them-van-ban.mjs "28/2026/TT-BCT" --url "https://..."   # thêm văn bản
 node tools/nap.mjs "<url toàn văn>" --so-hieu "28/2026/TT-BCT" --ghi # tải toàn văn
 npm test                                                           # phải xanh
-npm run diem-mu && npm run dung                                    # cập nhật báo cáo (tuỳ chọn)
+npm run diem-mu && npm run dung                                    # xem báo cáo (tuỳ chọn)
+git checkout -- dist bao-cao                                       # tệp sinh tự động: bot dựng lại sau khi gộp
 ```
 
 Lược đồ tệp văn bản: [docs/luoc-do-so-dang-ky.md](docs/luoc-do-so-dang-ky.md). Luồng việc:
