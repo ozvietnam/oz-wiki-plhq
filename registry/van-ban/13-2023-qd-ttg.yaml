@@ -11,6 +11,8 @@ nhanh:
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=207922&pageid=27160
     truy_cap: '2026-07-02'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/5/13-ttg.signed.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 24
 xac_minh:
   muc: NGUON_A
@@ -19,3 +21,4 @@ xac_minh:
   ngay: '2026-10-04'
   boi: khoi-tao
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 24 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn + caselaw.vn).
+toan_van: raw/download/datafiles.chinhphu.vn/13-2023-qd-ttg.pdf

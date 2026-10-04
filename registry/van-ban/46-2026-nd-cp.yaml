@@ -13,10 +13,13 @@ quan_he:
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=216827&pageid=27160
     truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/46-ndcp.signed.pdf
+    truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
   pham_vi: số hiệu, trích yếu, ngày ban hành 26-01-2026 và ngày có hiệu lực 26-01-2026 trên thẻ vanban.chinhphu.vn
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: 'Thẻ cổng Chính phủ ghi ngày có hiệu lực 26-01-2026 (ngày bắt đầu), không ghi tạm ngưng. Tình trạng TAM_NGUNG giữ theo trích yếu Nghị quyết 09/2026/NQ-CP và 15/2026/NQ-CP trên cùng cổng; chưa đọc điều khoản nên chưa đặt hieu_luc_da_doi_chieu. Đừng viết "NĐ 15/2018 đã bị thay".'
+ghi_chu: Thẻ cổng Chính phủ ghi ngày có hiệu lực 26-01-2026 (ngày bắt đầu), không ghi tạm ngưng. Tình trạng TAM_NGUNG giữ theo trích yếu Nghị quyết 09/2026/NQ-CP và 15/2026/NQ-CP trên cùng cổng; chưa đọc điều khoản nên chưa đặt hieu_luc_da_doi_chieu. Đừng viết "NĐ 15/2018 đã bị thay".
+toan_van: raw/download/datafiles.chinhphu.vn/46-2026-nd-cp.pdf

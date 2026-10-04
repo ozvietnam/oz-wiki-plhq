@@ -78,6 +78,10 @@
         {
           "url": "https://chinhphu.vn/?docid=209723&pageid=27160",
           "truy_cap": "2026-07-02"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/02/01-bnnptnt.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "trich_dan_trong_bieu_thue": 1468,
@@ -89,6 +93,7 @@
         "boi": "khoi-tao"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1468 mã HS). Tiêu đề đã đối chiếu (chinhphu.vn).",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/01-2024-tt-bnnptnt.pdf",
       "slug": "01-2024-tt-bnnptnt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -444,6 +449,10 @@
         {
           "url": "https://vanban.chinhphu.vn/?docid=216891&pageid=27160",
           "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/02/09-cp.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "xac_minh": {
@@ -454,6 +463,7 @@
         "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Trích yếu cổng Chính phủ cũng tạm ngưng Nghị quyết 66.13/2026/NQ-CP. Nghị quyết này chưa có trong sổ, nên chưa ghi quan hệ. Chưa đọc điều khoản để chốt còn hiệu lực tới đâu.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/09-2026-nq-cp.pdf",
       "slug": "09-2026-nq-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -1202,6 +1212,10 @@
         {
           "url": "https://vanban.chinhphu.vn/?docid=207922&pageid=27160",
           "truy_cap": "2026-07-02"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/5/13-ttg.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "trich_dan_trong_bieu_thue": 24,
@@ -1213,6 +1227,7 @@
         "boi": "khoi-tao"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 24 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn + caselaw.vn).",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/13-2023-qd-ttg.pdf",
       "slug": "13-2023-qd-ttg",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -1499,6 +1514,10 @@
         {
           "url": "https://vanban.chinhphu.vn/?classid=1&docid=217667&pageid=27160",
           "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/15-nqcp.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "xac_minh": {
@@ -1509,6 +1528,7 @@
         "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Trích yếu cổng Chính phủ cũng tạm ngưng Nghị quyết 66.13/2026/NQ-CP. Nghị quyết này chưa có trong sổ, nên chưa ghi quan hệ. Người ký trên thẻ: Lê Thành Long. Chưa đọc điều khoản.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/15-2026-nq-cp.pdf",
       "slug": "15-2026-nq-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -2080,6 +2100,10 @@
         {
           "url": "https://vanban.chinhphu.vn/?classid=1&docid=218174&pageid=27160",
           "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/22-bnnmt.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "xac_minh": {
@@ -2090,6 +2114,7 @@
         "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Trích yếu cổng Chính phủ là thông tư phân cấp, cắt giảm thủ tục, không phải tiêu đề \"cơ quan kiểm tra ATTP\". Ngày ban hành 19-05-2026 khớp sổ. Thẻ ghi ngày có hiệu lực 19-05-2026; sổ vẫn để hieu_luc_tu 2026-09-01 theo bài tổng hợp (mốc đổi cơ quan kiểm tra) — chưa đọc điều khoản nên chưa sửa ngày này. Khoản 1, 2 Điều 3 về Chủ tịch UBND cấp tỉnh vẫn là nguồn thứ cấp (hs-code-api data/ktcn-regime-2026.json).",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/22-2026-tt-bnnmt.pdf",
       "slug": "22-2026-tt-bnnmt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -2139,6 +2164,10 @@
         {
           "url": "https://vanban.chinhphu.vn/default.aspx?docid=197288&pageid=27160",
           "truy_cap": "2026-07-02"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/07/23.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "trich_dan_trong_bieu_thue": 749,
@@ -2150,6 +2179,7 @@
         "boi": "khoi-tao"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 749 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn).",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/23-2019-qd-ttg.pdf",
       "slug": "23-2019-qd-ttg",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -2443,6 +2473,10 @@
         {
           "url": "https://vanban.chinhphu.vn/?docid=218706&pageid=27160",
           "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/27-byt.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "xac_minh": {
@@ -2453,6 +2487,7 @@
         "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Thẻ văn bản cổng Chính phủ khớp số hiệu, Bộ Y tế, người ký Đỗ Xuân Tuyên, tệp 27-byt.signed.pdf. Chưa đọc điều khoản thi hành. Ghi chú 8 nhóm và Công văn 1913/ATTP-KN còn từ bài tổng hợp KTCN 2026 (nguồn thứ cấp) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/27-2026-tt-byt.pdf",
       "slug": "27-2026-tt-byt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -2595,6 +2630,10 @@
         {
           "url": "https://vanban.chinhphu.vn/?classid=1&docid=218707&pageid=27160",
           "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/28-byt.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "xac_minh": {
@@ -2605,6 +2644,7 @@
         "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Thẻ văn bản cổng Chính phủ khớp số hiệu, Bộ Y tế, người ký Nguyễn Tri Thức, tệp 28-byt.signed.pdf. Chưa đọc điều khoản thi hành nên chưa chốt tình trạng hiệu lực. Mô tả phụ lục từ bài tổng hợp KTCN 2026 (nguồn thứ cấp) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/28-2026-tt-byt.pdf",
       "slug": "28-2026-tt-byt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -2890,6 +2930,10 @@
         {
           "url": "https://chinhphu.vn/?docid=213824&pageid=27160",
           "truy_cap": "2026-07-02"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/33-bct.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "trich_dan_trong_bieu_thue": 2015,
@@ -2901,6 +2945,7 @@
         "boi": "khoi-tao"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 2015 mã HS). Tiêu đề đã đối chiếu (chinhphu.vn).",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/33-2025-tt-bct.pdf",
       "slug": "33-2025-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -2928,6 +2973,10 @@
         {
           "url": "https://vanban.chinhphu.vn/?docid=218710&pageid=27160",
           "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/33-bct.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "xac_minh": {
@@ -2938,6 +2987,7 @@
         "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Thẻ cổng Chính phủ khớp số hiệu, Bộ Công Thương, người ký Nguyễn Sinh Nhật Tân, tệp 33-bct.signed.pdf. Quan hệ thay 41/2023/TT-BCT vẫn theo bài tổng hợp, chưa đọc điều khoản thi hành. Nhóm hàng (tiền chất, hoá chất, nồi hơi…) còn từ nguồn thứ cấp — xem hs-code-api data/ktcn-regime-2026.json.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/33-2026-tt-bct.pdf",
       "slug": "33-2026-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -2988,6 +3038,10 @@
         {
           "url": "https://vanban.chinhphu.vn/?docid=213832&pageid=27160",
           "truy_cap": "2026-07-02"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/34-bct.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "trich_dan_trong_bieu_thue": 1764,
@@ -2999,6 +3053,7 @@
         "boi": "khoi-tao"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1764 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn).",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/34-2025-tt-bct.pdf",
       "slug": "34-2025-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -3165,6 +3220,10 @@
         {
           "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=207620",
           "truy_cap": "2026-07-02"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/3/366-bkhcn.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "trich_dan_trong_bieu_thue": 6,
@@ -3176,6 +3235,7 @@
         "boi": "khoi-tao"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 6 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn + luatvietnam.vn). KHUNG KTCN 2026 (tin cậy MEDIUM): Khung 'nhóm 2' (NĐ 132/2008, NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026. GHI CHÚ NGHIỆP VỤ (hs-code-api): Bổ sung ống thép không gỉ (HS 7306.40.20; 7306.40.90; 7306.61.10; 7306.61.90; 7306.69.10; 7306.69.90) theo QCVN 20:2019/BKHCN + SĐ1:2021 vào danh mục nhóm 2 của QĐ 2711/QĐ-BKHCN.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/366-qd-bkhcn.pdf",
       "slug": "366-qd-bkhcn-2023",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -3640,6 +3700,10 @@
         {
           "url": "https://chinhphu.vn/default.aspx?docid=198850&pageid=27160",
           "truy_cap": "2026-07-02"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/01/42-bct.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "trich_dan_trong_bieu_thue": 3316,
@@ -3651,6 +3715,7 @@
         "boi": "khoi-tao"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 3316 mã HS). Tiêu đề đã đối chiếu (chinhphu.vn).",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/42-2019-tt-bct.pdf",
       "slug": "42-2019-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -3773,6 +3838,10 @@
         {
           "url": "https://vanban.chinhphu.vn/?docid=216827&pageid=27160",
           "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/46-ndcp.signed.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "xac_minh": {
@@ -3783,6 +3852,7 @@
         "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Thẻ cổng Chính phủ ghi ngày có hiệu lực 26-01-2026 (ngày bắt đầu), không ghi tạm ngưng. Tình trạng TAM_NGUNG giữ theo trích yếu Nghị quyết 09/2026/NQ-CP và 15/2026/NQ-CP trên cùng cổng; chưa đọc điều khoản nên chưa đặt hieu_luc_da_doi_chieu. Đừng viết \"NĐ 15/2018 đã bị thay\".",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/46-2026-nd-cp.pdf",
       "slug": "46-2026-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -3815,6 +3885,10 @@
         {
           "url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=196087",
           "truy_cap": "2026-07-02"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/01/47-nhnn.pdf",
+          "truy_cap": "2026-10-04"
         }
       ],
       "trich_dan_trong_bieu_thue": 2,
@@ -3826,6 +3900,7 @@
         "boi": "khoi-tao"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 2 mã HS). Tiêu đề đã đối chiếu (chinhphu.vn + congbao.chinhphu.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Vàng nguyên liệu (HS 7108.12.10; 7108.12.90) thuộc quản lý NHNN.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/47-2018-tt-nhnn.pdf",
       "slug": "47-2018-tt-nhnn",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
