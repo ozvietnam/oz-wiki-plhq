@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-10-04
 
-152 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+154 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -133,9 +133,10 @@ _Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
 
 ### Luật Quản lý ngoại thương và nghị định `quan-ly-ngoai-thuong/luat-khung`
 
-3 văn bản, 3 chưa hết hiệu lực.
+4 văn bản, 4 chưa hết hiệu lực.
 
-- ❔ [12/2018/TT-BCT](../registry/van-ban/12-2018-tt-bct.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương
+- 🟢 [48/2026/TT-BCT](../registry/van-ban/48-2026-tt-bct.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương
+- 🟡 [12/2018/TT-BCT](../registry/van-ban/12-2018-tt-bct.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương _(hết hiệu lực 2026-12-31)_
 - 🟢 [69/2018/NĐ-CP](../registry/van-ban/69-2018-nd-cp.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương
 - 🟢 [05/2017/QH14](../registry/van-ban/05-2017-qh14.yaml) — Luật Quản lý ngoại thương
 
@@ -213,16 +214,17 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Công Thương `kiem-tra-chuyen-nganh/bct`
 
-9 văn bản, 7 chưa hết hiệu lực.
+10 văn bản, 6 chưa hết hiệu lực.
 
 - 🟢 [33/2026/TT-BCT](../registry/van-ban/33-2026-tt-bct.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương
 - 🟢 [28/2026/TT-BCT](../registry/van-ban/28-2026-tt-bct.yaml) — Ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã số HS) thực hiện kiểm tra nhà nước về an toàn thực phẩm thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương
+- 🟢 [26/2026/NĐ-CP](../registry/van-ban/26-2026-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa
 - ❔ [1725/QĐ-BCT](../registry/van-ban/1725-qd-bct-2024.yaml) — Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương
-- ❔ [82/2022/NĐ-CP](../registry/van-ban/82-2022-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 113/2017/NĐ-CP ngày 09/10/2017 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất
+- ⚫ [82/2022/NĐ-CP](../registry/van-ban/82-2022-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 113/2017/NĐ-CP ngày 09/10/2017 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất _(hết hiệu lực 2026-01-17)_
 - ❔ [11/2022/TT-BCT](../registry/van-ban/11-2022-tt-bct.yaml) — Danh mục mặt hàng nhập khẩu kèm mã HS phải kiểm tra nhà nước về an toàn thực phẩm thuộc Bộ Công Thương (cũ) _(hết hiệu lực 2026-07-17)_
 - ⚫ [1182/QĐ-BCT](../registry/van-ban/1182-qd-bct-2021.yaml) — Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương _(hết hiệu lực 2026-07-17)_
 - 🟢 [765/QĐ-BCT](../registry/van-ban/765-qd-bct-2019.yaml) — Về việc công bố Danh mục các mặt hàng (kèm theo mã HS) đã được cắt giảm kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương
-- ❔ [113/2017/NĐ-CP](../registry/van-ban/113-2017-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất
+- ⚫ [113/2017/NĐ-CP](../registry/van-ban/113-2017-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất _(hết hiệu lực 2026-01-17)_
 - ⚫ [41/2023/TT-BCT](../registry/van-ban/41-2023-tt-bct.yaml) — Danh mục sản phẩm, hàng hoá có khả năng gây mất an toàn thuộc Bộ Công Thương (cũ) _(hết hiệu lực 2026-07-01)_
 
 ### Danh mục thuộc Bộ Y tế `kiem-tra-chuyen-nganh/byt`

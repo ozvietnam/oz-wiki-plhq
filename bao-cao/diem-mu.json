@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-04",
-  "tong": 421,
+  "tong": 403,
   "diem": [
     {
       "ma": "KHONG_NGUON_A",
@@ -57,21 +57,21 @@
       "trongSo": 0
     },
     {
+      "ma": "CANH_BAO_NGUON",
+      "muc": "Cao",
+      "tieuDe": "01/2026/TT-BNNMT: Tệp toan_van là tệp đính kèm thẻ vanban.chinhphu.vn docid=216592 (datafiles …/2026/01/01-bnnmt.pdf) nhưng là bản KHÔNG điền số và ngày (\"Số: /2026/TT-BNNMT\", \"Hà Nội, ngày tháng năm 2026\"), không phải bản ký số/Công báo. Dùng để đọc nội dung (Điều 30 khoản 1 ghi hiệu lực 01-01-2026); cần thay bằng bản Công báo khi trích dẫn.",
+      "muc_tieu": "01/2026/TT-BNNMT",
+      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "01/2026/TT-BNNMT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "01/2026/TT-BNNMT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "01/2026/TT-BNNMT: chưa có toàn văn trong raw/",
-      "muc_tieu": "01/2026/TT-BNNMT",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"01/2026/TT-BNNMT\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -129,15 +129,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Vừa",
-      "tieuDe": "05/2007/QH12: chưa có toàn văn trong raw/",
-      "muc_tieu": "05/2007/QH12",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"05/2007/QH12\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "05/2017/QH14: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -192,21 +183,21 @@
       "trongSo": 0
     },
     {
+      "ma": "CANH_BAO_NGUON",
+      "muc": "Cao",
+      "tieuDe": "07/2026/TT-BCT: PR #24 đặt hieu_luc_da_doi_chieu: true chỉ dựa trên Điều 9 khoản 1 của chính văn bản (chứng minh ngày bắt đầu 10-04-2026), không ghi đã kiểm tình trạng hiện tại nên giữ false. Đã đọc Điều 20 TT 48/2026/TT-BCT (Công báo số 521 ngày 23-09-2026, quy định chi tiết Luật QLNT, hiệu lực 05-09-2026): không bãi bỏ TT 37/2013 hay TT 07/2026 — nhưng chưa tra cứu đủ các văn bản khác ban hành sau 10-04-2026.",
+      "muc_tieu": "07/2026/TT-BCT",
+      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "07/2026/TT-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "07/2026/TT-BCT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "07/2026/TT-BCT: chưa có toàn văn trong raw/",
-      "muc_tieu": "07/2026/TT-BCT",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"07/2026/TT-BCT\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -228,21 +219,21 @@
       "trongSo": 0
     },
     {
+      "ma": "CANH_BAO_NGUON",
+      "muc": "Cao",
+      "tieuDe": "08/2023/TT-BCT: TT 48/2026/TT-BCT Điều 20 khoản 3 điểm c (PDF Công báo số 521 ngày 23-09-2026) bãi bỏ khoản 1 Điều 1 và Phụ lục I của văn bản này từ 05-09-2026; Điều 21 khoản 3 cho Phụ lục I (danh mục thiết bị y tế đã qua sử dụng cấm nhập khẩu) tiếp tục thực hiện đến hết 31-12-2026. Các khoản khác còn lại — chưa đổi tinh_trang sang HET_HIEU_LUC_MOT_PHAN; cần rà phần còn lại (và văn bản khác) rồi quyết định.",
+      "muc_tieu": "08/2023/TT-BCT",
+      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Vừa",
       "tieuDe": "08/2023/TT-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "08/2023/TT-BCT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Vừa",
-      "tieuDe": "08/2023/TT-BCT: chưa có toàn văn trong raw/",
-      "muc_tieu": "08/2023/TT-BCT",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"08/2023/TT-BCT\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -597,24 +588,6 @@
       "trongSo": 0
     },
     {
-      "ma": "CANH_BAO_NGUON",
-      "muc": "Cao",
-      "tieuDe": "113/2017/NĐ-CP: PDF Công báo chỉ xác nhận ngày hiệu lực 25-11-2017 và quan hệ thay 108/2008, 26/2011 (Điều 38 khoản 1) — không xác nhận tình trạng hiện tại. Thẻ vanban.chinhphu.vn docid=216673: NĐ 26/2026/NĐ-CP (quy định chi tiết Luật Hóa chất 2025) ban hành và hiệu lực 17-01-2026; theo bản chữ thứ cấp (thuvienxuatnhapkhau.com), Điều 31 khoản 3 NĐ 26/2026 cho NĐ 113/2017 và NĐ 82/2022 hết hiệu lực từ ngày đó. PDF ký số datafiles của NĐ 26/2026 là ảnh, chưa đọc được điều khoản — cần đăng ký 26/2026/NĐ-CP và đối chiếu Công báo trước khi ghi HET_HIEU_LUC.",
-      "muc_tieu": "113/2017/NĐ-CP",
-      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Vừa",
-      "tieuDe": "113/2017/NĐ-CP: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
-      "muc_tieu": "113/2017/NĐ-CP",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
       "tieuDe": "114/2025/QH15: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
@@ -655,24 +628,6 @@
       "muc": "Vừa",
       "tieuDe": "1182/QĐ-BCT: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "1182/QĐ-BCT",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "CANH_BAO_NGUON",
-      "muc": "Cao",
-      "tieuDe": "12/2018/TT-BCT: PDF Công báo chỉ xác nhận hiệu lực từ 15-06-2018 và các văn bản bị bãi bỏ (Điều 17) — không xác nhận tình trạng hiện tại. Theo tin thứ cấp (vtv.vn, bnews.vn 09/2026; luatvietnam.vn), TT 48/2026/TT-BCT quy định chi tiết Luật Quản lý ngoại thương và NĐ 292/2026/NĐ-CP (thay NĐ 69/2018) có hiệu lực 05-09-2026, giấy phép cấp theo TT 12/2018 trước 05-09-2026 được tiếp tục thực hiện — nhiều khả năng TT 12/2018 đã bị thay/bãi bỏ. Cần đối chiếu điều khoản thi hành TT 48/2026 trên nguồn A.",
-      "muc_tieu": "12/2018/TT-BCT",
-      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "12/2018/TT-BCT: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
-      "muc_tieu": "12/2018/TT-BCT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
       "trongSo": 0
@@ -732,21 +687,21 @@
       "trongSo": 0
     },
     {
+      "ma": "CANH_BAO_NGUON",
+      "muc": "Cao",
+      "tieuDe": "125/2026/TT-BCA: PR #24 đặt hieu_luc_da_doi_chieu: true chỉ dựa trên Điều 5 khoản 1 của chính văn bản (chứng minh ngày bắt đầu 01-07-2026), không ghi đã kiểm tình trạng hiện tại (văn bản sửa đổi/thay thế sau) nên giữ false.",
+      "muc_tieu": "125/2026/TT-BCA",
+      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "125/2026/TT-BCA: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "125/2026/TT-BCA",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "125/2026/TT-BCA: chưa có toàn văn trong raw/",
-      "muc_tieu": "125/2026/TT-BCA",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"125/2026/TT-BCA\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -846,15 +801,6 @@
       "muc_tieu": "134/2016/NĐ-CP",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "134/2016/NĐ-CP: chưa có toàn văn trong raw/",
-      "muc_tieu": "134/2016/NĐ-CP",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"134/2016/NĐ-CP\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -1155,15 +1101,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "173/2018/TT-BQP: chưa có toàn văn trong raw/",
-      "muc_tieu": "173/2018/TT-BQP",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"173/2018/TT-BQP\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "174/2025/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -1188,15 +1125,6 @@
       "muc_tieu": "18/2021/NĐ-CP",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "18/2021/NĐ-CP: chưa có toàn văn trong raw/",
-      "muc_tieu": "18/2021/NĐ-CP",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"18/2021/NĐ-CP\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -1404,15 +1332,6 @@
       "muc_tieu": "22/2018/TT-BTTTT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "22/2018/TT-BTTTT: chưa có toàn văn trong raw/",
-      "muc_tieu": "22/2018/TT-BTTTT",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"22/2018/TT-BTTTT\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -1677,6 +1596,15 @@
       "trongSo": 0
     },
     {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "26/2026/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "26/2026/NĐ-CP",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
       "tieuDe": "26/2026/TT-BYT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
@@ -1749,30 +1677,12 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Vừa",
-      "tieuDe": "2711/QĐ-BKHCN: chưa có toàn văn trong raw/",
-      "muc_tieu": "2711/QĐ-BKHCN",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"2711/QĐ-BKHCN\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "276/2026/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "276/2026/NĐ-CP",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "276/2026/NĐ-CP: chưa có toàn văn trong raw/",
-      "muc_tieu": "276/2026/NĐ-CP",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"276/2026/NĐ-CP\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -1818,15 +1728,6 @@
       "muc_tieu": "29/2025/TT-BKHCN",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "29/2025/TT-BKHCN: chưa có toàn văn trong raw/",
-      "muc_tieu": "29/2025/TT-BKHCN",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"29/2025/TT-BKHCN\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -2118,15 +2019,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "336/2026/NĐ-CP: chưa có toàn văn trong raw/",
-      "muc_tieu": "336/2026/NĐ-CP",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"336/2026/NĐ-CP\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Vừa",
       "tieuDe": "34/2025/TT-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -2343,15 +2235,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "37/2026/NĐ-CP: chưa có toàn văn trong raw/",
-      "muc_tieu": "37/2026/NĐ-CP",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"37/2026/NĐ-CP\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
       "tieuDe": "3765/QĐ-BCT: chưa có nguồn chính thống",
@@ -2550,6 +2433,15 @@
       "trongSo": 0
     },
     {
+      "ma": "CANH_BAO_NGUON",
+      "muc": "Cao",
+      "tieuDe": "41/2019/TT-BCT: TT 48/2026/TT-BCT Điều 20 khoản 3 điểm a (PDF Công báo số 521 ngày 23-09-2026) bãi bỏ Điều 3 và Phụ lục III của văn bản này từ 05-09-2026. Chưa đổi tinh_trang sang HET_HIEU_LUC_MOT_PHAN; cần rà phần còn lại rồi quyết định.",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "41/2019/TT-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -2610,6 +2502,15 @@
       "muc_tieu": "41/2026/TT-BXD",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"41/2026/TT-BXD\" --ghi",
       "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "CANH_BAO_NGUON",
+      "muc": "Cao",
+      "tieuDe": "42/2019/TT-BCT: TT 48/2026/TT-BCT Điều 20 khoản 3 điểm b (PDF Công báo số 521 ngày 23-09-2026) bãi bỏ Điều 25 của văn bản này từ 05-09-2026. Chưa đổi tinh_trang sang HET_HIEU_LUC_MOT_PHAN; cần rà phần còn lại rồi quyết định.",
+      "muc_tieu": "42/2019/TT-BCT",
+      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
+      "luong": "truy-vet-nguon",
       "trongSo": 0
     },
     {
@@ -2698,6 +2599,15 @@
       "muc": "Thấp",
       "tieuDe": "47/2018/TT-NHNN: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "47/2018/TT-NHNN",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "48/2026/TT-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "48/2026/TT-BCT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
       "trongSo": 0
@@ -2883,15 +2793,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "69/2018/NĐ-CP: chưa có toàn văn trong raw/",
-      "muc_tieu": "69/2018/NĐ-CP",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"69/2018/NĐ-CP\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "691/QĐ-BCT: chưa có nguồn chính thống",
@@ -3045,33 +2946,6 @@
       "trongSo": 0
     },
     {
-      "ma": "CANH_BAO_NGUON",
-      "muc": "Cao",
-      "tieuDe": "82/2022/NĐ-CP: Theo bản chữ thứ cấp, Điều 31 khoản 3 NĐ 26/2026/NĐ-CP (hiệu lực 17-01-2026, thẻ vanban.chinhphu.vn docid=216673) cho NĐ 113/2017 và NĐ 82/2022 hết hiệu lực. Chưa đối chiếu nguồn A của điều khoản.",
-      "muc_tieu": "82/2022/NĐ-CP",
-      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Vừa",
-      "tieuDe": "82/2022/NĐ-CP: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
-      "muc_tieu": "82/2022/NĐ-CP",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Vừa",
-      "tieuDe": "82/2022/NĐ-CP: chưa có toàn văn trong raw/",
-      "muc_tieu": "82/2022/NĐ-CP",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"82/2022/NĐ-CP\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
       "ma": "SAP_HET_HIEU_LUC",
       "muc": "Cao",
       "tieuDe": "85/2019/NĐ-CP hết hiệu lực ngày 2026-10-15",
@@ -3087,15 +2961,6 @@
       "muc_tieu": "85/2019/NĐ-CP",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "85/2019/NĐ-CP: chưa có toàn văn trong raw/",
-      "muc_tieu": "85/2019/NĐ-CP",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"85/2019/NĐ-CP\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -3335,15 +3200,6 @@
     {
       "ma": "HS_API_UU_TIEN_DOI_CHIEU",
       "muc": "Cao",
-      "tieuDe": "Đối chiếu hiệu lực 113/2017/NĐ-CP — 667 mã HS đang dẫn",
-      "muc_tieu": "113/2017/NĐ-CP",
-      "viec": "Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 667 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
-      "luong": "hieu-luc",
-      "trongSo": 667
-    },
-    {
-      "ma": "HS_API_UU_TIEN_DOI_CHIEU",
-      "muc": "Cao",
       "tieuDe": "Đối chiếu hiệu lực 1182/QĐ-BCT — 496 mã HS đang dẫn",
       "muc_tieu": "1182/QĐ-BCT",
       "viec": "Sổ ghi HET_HIEU_LUC nhưng chưa đối chiếu nguồn A; 496 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
@@ -3367,15 +3223,6 @@
       "viec": "Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 263 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
       "luong": "hieu-luc",
       "trongSo": 263
-    },
-    {
-      "ma": "HS_API_UU_TIEN_DOI_CHIEU",
-      "muc": "Cao",
-      "tieuDe": "Đối chiếu hiệu lực 82/2022/NĐ-CP — 258 mã HS đang dẫn",
-      "muc_tieu": "82/2022/NĐ-CP",
-      "viec": "Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 258 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
-      "luong": "hieu-luc",
-      "trongSo": 258
     },
     {
       "ma": "HS_API_UU_TIEN_DOI_CHIEU",
@@ -3439,15 +3286,6 @@
       "viec": "Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 38 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
       "luong": "hieu-luc",
       "trongSo": 38
-    },
-    {
-      "ma": "HS_API_UU_TIEN_DOI_CHIEU",
-      "muc": "Vừa",
-      "tieuDe": "Đối chiếu hiệu lực 12/2018/TT-BCT — 37 mã HS đang dẫn",
-      "muc_tieu": "12/2018/TT-BCT",
-      "viec": "Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 37 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
-      "luong": "hieu-luc",
-      "trongSo": 37
     },
     {
       "ma": "HS_API_UU_TIEN_DOI_CHIEU",

@@ -42,7 +42,7 @@ flowchart LR
   n_46_2026_N__CP["46/2026/NĐ-CP<br/>tạm ngưng"]
   n_111_2021_N__CP["111/2021/NĐ-CP<br/>hết hiệu lực"]
   n_43_2017_N__CP["43/2017/NĐ-CP<br/>hết hiệu lực"]
-  n_113_2017_N__CP["113/2017/NĐ-CP<br/>chưa xác minh"]
+  n_113_2017_N__CP["113/2017/NĐ-CP<br/>hết hiệu lực"]
   n_108_2008_N__CP["108/2008/NĐ-CP<br/>hết hiệu lực"]
   n_26_2011_N__CP["26/2011/NĐ-CP<br/>hết hiệu lực"]
   n_15_2026_NQ_CP["15/2026/NQ-CP<br/>còn hiệu lực"]
@@ -50,6 +50,8 @@ flowchart LR
   n_924_Q__BNN_TCLN["924/QĐ-BNN-TCLN<br/>hết hiệu lực"]
   n_24_2026_TT_BYT["24/2026/TT-BYT<br/>còn hiệu lực"]
   n_05_2022_TT_BYT["05/2022/TT-BYT<br/>còn hiệu lực"]
+  n_26_2026_N__CP["26/2026/NĐ-CP<br/>còn hiệu lực"]
+  n_82_2022_N__CP["82/2022/NĐ-CP<br/>hết hiệu lực"]
   n_28_2026_TT_BCT["28/2026/TT-BCT<br/>còn hiệu lực"]
   n_11_2022_TT_BCT["11/2022/TT-BCT<br/>chưa xác minh"]
   n_1182_Q__BCT["1182/QĐ-BCT<br/>hết hiệu lực"]
@@ -75,7 +77,6 @@ flowchart LR
   n_62_2024_TT_BGTVT["62/2024/TT-BGTVT<br/>hết hiệu lực"]
   n_78_2025_QH15["78/2025/QH15<br/>còn hiệu lực"]
   n_05_2007_QH12["05/2007/QH12<br/>còn hiệu lực"]
-  n_82_2022_N__CP["82/2022/NĐ-CP<br/>chưa xác minh"]
   n_01_2021_TT_BL_TBXH -->|thay thế từ 2021-07-18| n_22_2018_TT_BL_TBXH
   n_09_2026_NQ_CP -->|tạm ngưng| n_46_2026_N__CP
   n_111_2021_N__CP -->|sửa đổi| n_43_2017_N__CP
@@ -84,6 +85,8 @@ flowchart LR
   n_15_2026_NQ_CP -->|tạm ngưng| n_46_2026_N__CP
   n_17_2023_TT_BNNPTNT -->|bãi bỏ từ 2024-01-30| n_924_Q__BNN_TCLN
   n_24_2026_TT_BYT -->|sửa đổi| n_05_2022_TT_BYT
+  n_26_2026_N__CP -->|thay thế từ 2026-01-17| n_113_2017_N__CP
+  n_26_2026_N__CP -->|thay thế từ 2026-01-17| n_82_2022_N__CP
   n_28_2026_TT_BCT -->|thay thế| n_11_2022_TT_BCT
   n_28_2026_TT_BCT -->|bãi bỏ từ 2026-07-17| n_1182_Q__BCT
   n_29_2025_TT_BKHCN -->|thay thế phần sản phẩm CNTT – viễn thông| n_2711_Q__BKHCN
@@ -144,16 +147,24 @@ flowchart LR
   n_31_2015_TT_BTTTT["31/2015/TT-BTTTT<br/>chưa xác minh"]
   n_11_2026_TT_BXD["11/2026/TT-BXD<br/>chưa xác minh"]
   n_04_2021_TT_BXD["04/2021/TT-BXD<br/>hết hiệu lực"]
-  n_12_2018_TT_BCT["12/2018/TT-BCT<br/>chưa xác minh"]
+  n_12_2018_TT_BCT["12/2018/TT-BCT<br/>hết hiệu lực một phần"]
   n_04_2014_TT_BCT["04/2014/TT-BCT<br/>hết hiệu lực"]
   n_11_2017_TT_BCT["11/2017/TT-BCT<br/>hết hiệu lực"]
   n_49_2015_TT_BCT["49/2015/TT-BCT<br/>hết hiệu lực"]
+  n_48_2026_TT_BCT["48/2026/TT-BCT<br/>còn hiệu lực"]
+  n_08_2023_TT_BCT["08/2023/TT-BCT<br/>còn hiệu lực"]
+  n_41_2019_TT_BCT["41/2019/TT-BCT<br/>còn hiệu lực"]
+  n_42_2019_TT_BCT["42/2019/TT-BCT<br/>còn hiệu lực"]
   n_07_2026_TT_BCT -->|sửa đổi| n_37_2013_TT_BCT
   n_11_2018_TT_BTTTT -->|sửa đổi Điều 3 và Phụ lục số 01 từ 2018-11-30| n_31_2015_TT_BTTTT
   n_11_2026_TT_BXD -->|thay thế từ 2026-06-01| n_04_2021_TT_BXD
   n_12_2018_TT_BCT -->|bãi bỏ từ 2018-06-15| n_04_2014_TT_BCT
   n_12_2018_TT_BCT -->|bãi bỏ từ 2018-06-15| n_11_2017_TT_BCT
   n_12_2018_TT_BCT -->|bãi bỏ từ 2018-06-15| n_49_2015_TT_BCT
+  n_48_2026_TT_BCT -->|bãi bỏ từ 2026-09-05| n_12_2018_TT_BCT
+  n_48_2026_TT_BCT -->|bãi bỏ khoản 1 Điều 1 và Phụ lục I (Phụ lục I còn thực hiện chuyển tiếp đến 31-12-2026 — Điều 21 khoản 3) từ 2026-09-05| n_08_2023_TT_BCT
+  n_48_2026_TT_BCT -->|bãi bỏ Điều 3 và Phụ lục III từ 2026-09-05| n_41_2019_TT_BCT
+  n_48_2026_TT_BCT -->|bãi bỏ Điều 25 từ 2026-09-05| n_42_2019_TT_BCT
 ```
 
 ## Thuế xuất khẩu, nhập khẩu và các thuế khác khâu nhập khẩu
