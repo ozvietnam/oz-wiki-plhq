@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-04",
-  "tong": 372,
+  "tong": 373,
   "diem": [
     {
       "ma": "KHONG_NGUON_A",
@@ -1147,14 +1147,6 @@
       "luong": "nap-lam-sach"
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "18/2021/NĐ-CP: chưa có nguồn chính thống",
-      "muc_tieu": "18/2021/NĐ-CP",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon"
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "18/2021/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -1168,6 +1160,22 @@
       "tieuDe": "18/2021/NĐ-CP: chưa có toàn văn trong raw/",
       "muc_tieu": "18/2021/NĐ-CP",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"18/2021/NĐ-CP\" --ghi",
+      "luong": "nap-lam-sach"
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "182/2025/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "182/2025/NĐ-CP",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc"
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "182/2025/NĐ-CP: chưa có toàn văn trong raw/",
+      "muc_tieu": "182/2025/NĐ-CP",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"182/2025/NĐ-CP\" --ghi",
       "luong": "nap-lam-sach"
     },
     {
