@@ -53,3 +53,13 @@ Agent phải làm việc như một người đóng góp cẩn thận: có ngu�
 | Tải & làm sạch | liên tục | Văn bản đã có nguồn A nhưng chưa có `toan_van` |
 | Đọc hiểu | theo đợt | Văn bản có toàn văn mà chưa có trang wiki |
 | Điểm mù | hằng tuần (tự động bằng Actions) | Đề xuất luật phát hiện mới khi thấy kiểu lỗi lặp lại |
+
+## Kinh nghiệm đã gặp (cập nhật khi lặp lỗi)
+
+### `hieu-luc` + PDF Công báo
+
+- Ưu tiên PDF trên `congbaocdn.chinhphu.vn` (thường có lớp chữ). Trích điều khoản thi hành bằng `pypdf`/`pdftotext`; đừng chỉ dựa thẻ HTML.
+- `hieu_luc_da_doi_chieu: true` cần **cả** ngày bắt đầu (điều khoản thi hành) **và** tình trạng hiện tại (văn bản sau thay/bãi, hoặc ghi rõ đã kiểm sổ + văn bản khung liên quan như TT 48/2026 không liệt kê).
+- Bãi một phần (vd Điều 20 khoản 3 TT 48/2026) → `HET_HIEU_LUC_MOT_PHAN`, không `HET_HIEU_LUC`. Có chuyển tiếp đến ngày X (vd Phụ lục I đến 31-12-2026) thì ghi `het_hieu_luc_tu` như mẫu TT 12/2018.
+- Chuỗi thay danh mục cửa khẩu: QĐ 31/2026/QĐ-TTg (Công báo số 393) thay QĐ 23/2019 từ 14-08-2026 — ngày ký trên PDF là 29-06-2026, không nhầm với ngày Công báo.
+- Form tìm trên congbao.chinhphu.vn đôi khi trả cùng trang mới nhất bất kể từ khóa — đừng coi đó là “không có văn bản thay”.

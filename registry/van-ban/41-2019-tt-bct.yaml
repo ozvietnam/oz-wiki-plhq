@@ -5,18 +5,20 @@ ten: Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất kh
 co_quan: BCT
 ngay_ban_hanh: '2019-12-16'
 hieu_luc_tu: '2019-12-16'
-tinh_trang: CON_HIEU_LUC
+tinh_trang: HET_HIEU_LUC_MOT_PHAN
 nhanh:
   - quan-ly-ngoai-thuong/giay-phep
 nguon:
   - url: https://vbpl.vn/search?q=41%2F2019%2FTT-BCT
     truy_cap: '2026-07-02'
+  - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/9/23/470460-1789953490_v1_1790125719_signed.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 32
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'tình trạng hiện tại: Điều 20 khoản 3 điểm a TT 48/2026/TT-BCT (PDF Công báo số 521 ngày 23-09-2026) bãi bỏ Điều 3 và Phụ lục III từ 05-09-2026; chưa có PDF toàn văn của chính TT 41/2019 trên Công báo/datafiles trong lượt này — các phụ lục/điều khác chưa rà hết trên nguồn A của chính văn bản'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-  canh_bao: TT 48/2026/TT-BCT Điều 20 khoản 3 điểm a (PDF Công báo số 521 ngày 23-09-2026) bãi bỏ Điều 3 và Phụ lục III của văn bản này từ 05-09-2026. Chưa đổi tinh_trang sang HET_HIEU_LUC_MOT_PHAN; cần rà phần còn lại rồi quyết định.
-ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 32 mã HS). Tiêu đề đã đối chiếu (reference-trong-08/2023/TT-BCT (chinhphu.vn)).
+  boi: cursor-agent@ozvietnam
+  canh_bao: Chưa nạp toan_van TT 41/2019 (không tìm thấy PDF Công báo/datafiles ổn định); kết luận HET_HIEU_LUC_MOT_PHAN dựa trên điều khoản bãi bỏ một phần trong TT 48/2026.
+ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 32 mã HS). Tiêu đề đã đối chiếu (reference trong 08/2023/TT-BCT). Cần bổ sung toan_van khi có PDF bậc A.

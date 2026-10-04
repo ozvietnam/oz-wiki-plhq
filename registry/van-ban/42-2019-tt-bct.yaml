@@ -5,21 +5,40 @@ ten: Sửa đổi, bổ sung một số quy định về chế độ báo cáo �
 co_quan: BCT
 ngay_ban_hanh: '2019-12-18'
 hieu_luc_tu: '2020-02-05'
-tinh_trang: CON_HIEU_LUC
+tinh_trang: HET_HIEU_LUC_MOT_PHAN
 nhanh:
   - chua-phan-loai
+quan_he:
+  bai_bo:
+    - so_hieu: 33/2016/TT-BCT
+      pham_vi: khoản 6 Điều 1
+      tu_ngay: '2020-02-05'
+      can_cu: Điều 37 khoản 2 điểm a TT 42/2019/TT-BCT
+    - so_hieu: 51/2018/TT-BCT
+      pham_vi: Điều 4
+      tu_ngay: '2020-02-05'
+      can_cu: Điều 37 khoản 2 điểm b TT 42/2019/TT-BCT
+    - so_hieu: 31/2018/TT-BCT
+      pham_vi: khoản 20 Điều 1
+      tu_ngay: '2020-02-05'
+      can_cu: Điều 37 khoản 2 điểm c TT 42/2019/TT-BCT
+    - so_hieu: 43/2013/TT-BCT
+      pham_vi: Điều 29
+      tu_ngay: '2020-02-05'
+      can_cu: Điều 37 khoản 2 điểm d TT 42/2019/TT-BCT
 nguon:
   - url: https://chinhphu.vn/default.aspx?docid=198850&pageid=27160
     truy_cap: '2026-07-02'
-  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/01/42-bct.signed.pdf
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2019/12/30485/29519-1-202085-8642-2019-tt-bct.pdf
+    truy_cap: '2026-10-04'
+  - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/9/23/470460-1789953490_v1_1790125719_signed.pdf
     truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 3316
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'PDF Công báo số 85+86 ngày 23-01-2020 (lớp chữ): Điều 37 khoản 1 hiệu lực 05-02-2020; tình trạng hiện tại: Điều 20 khoản 3 điểm b TT 48/2026/TT-BCT (PDF Công báo số 521 ngày 23-09-2026) bãi bỏ Điều 25 từ 05-09-2026 — các điều khác còn lại'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-  canh_bao: TT 48/2026/TT-BCT Điều 20 khoản 3 điểm b (PDF Công báo số 521 ngày 23-09-2026) bãi bỏ Điều 25 của văn bản này từ 05-09-2026. Chưa đổi tinh_trang sang HET_HIEU_LUC_MOT_PHAN; cần rà phần còn lại rồi quyết định.
-ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 3316 mã HS). Tiêu đề đã đối chiếu (chinhphu.vn).
-toan_van: raw/download/datafiles.chinhphu.vn/42-2019-tt-bct.pdf
+  boi: cursor-agent@ozvietnam
+ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 3316 mã HS). HET_HIEU_LUC_MOT_PHAN vì TT 48/2026 chỉ bãi bỏ Điều 25 (chế độ báo cáo gắn TT 12/2018/TT-BCT); phần sửa chế độ báo cáo các thông tư khác vẫn còn.
+toan_van: raw/download/congbaocdn.chinhphu.vn/42-2019-tt-bct.pdf

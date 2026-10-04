@@ -5,20 +5,28 @@ ten: Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải
 co_quan: TTG
 ngay_ban_hanh: '2019-06-27'
 hieu_luc_tu: '2019-09-01'
-tinh_trang: CON_HIEU_LUC
+het_hieu_luc_tu: '2026-08-14'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - hai-quan/thu-tuc
+quan_he:
+  thay_the:
+    - so_hieu: 15/2017/QĐ-TTg
+      tu_ngay: '2019-09-01'
+      can_cu: Điều 6 khoản 1 QĐ 23/2019/QĐ-TTg
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=197288&pageid=27160
     truy_cap: '2026-07-02'
-  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/07/23.signed.pdf
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2019/6/29197/27189-1-2019547-54823-2019-qd-ttg.pdf
+    truy_cap: '2026-10-04'
+  - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/14/469911-1784022525_v1_1784023032_signed.pdf
     truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 749
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'PDF Công báo số 547+548 ngày 10-07-2019 (lớp chữ): Điều 6 khoản 1 hiệu lực 01-09-2019 và thay thế 15/2017/QĐ-TTg; tình trạng hiện tại: Điều 5 khoản 1 QĐ 31/2026/QĐ-TTg (PDF Công báo số 393 ngày 14-07-2026) thay thế toàn bộ từ 14-08-2026'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 749 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn).
-toan_van: raw/download/datafiles.chinhphu.vn/23-2019-qd-ttg.pdf
+  boi: cursor-agent@ozvietnam
+ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 749 mã HS). Hết hiệu lực từ 14-08-2026 do QĐ 31/2026/QĐ-TTg thay thế (Điều 5 khoản 1); tờ khai đăng ký trước ngày đó theo danh mục 23/2019 nhưng không còn trong danh mục 31/2026 tiếp tục hoàn thành thủ tục tại hải quan cửa khẩu.
+toan_van: raw/download/congbaocdn.chinhphu.vn/23-2019-qd-ttg.pdf
