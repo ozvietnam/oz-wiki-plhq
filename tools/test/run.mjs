@@ -7,6 +7,7 @@ import { kiemTra } from '../kiem-tra.mjs';
 import { timDiemMu } from '../diem-mu.mjs';
 import { dungJson, veQuanHe } from '../dung.mjs';
 import { lamSachHtml } from '../nap.mjs';
+import { rutGonNhuCau } from '../nhu-cau.mjs';
 
 let pass = 0;
 let fail = 0;
@@ -90,6 +91,27 @@ t('registry.json có cạnh ngược bi_thay_the_boi', cu?.quan_he_nguoc?.bi_tha
 t('đồ thị Mermaid có mũi tên thay thế', /-->\|thay thế\|/.test(veQuanHe(napSo(r2), '2026-10-04')));
 
 // 6. Làm sạch HTML
+// 5. Nhu cầu từ hs-code-api → điểm mù xếp theo số mã HS
+const nhuCau = rutGonNhuCau({
+  ngay: '2026-10-04', registryVersion: 'x', maHs: { coChinhSach: 10 },
+  theoVanBan: [
+    { soHieu: '12/2018/NĐ-CP', found: true, soMaHs: 120 },
+    { soHieu: '9/2020/TT-BCT', found: true, soMaHs: 7 },
+    { soHieu: '55/2099/TT-BXX', found: false, soMaHs: 3 },
+  ],
+  thuVienLechSo: { lech: [
+    { code: '99/2008/ND-CP', thuVien: 'ACTIVE', so: 'HET_HIEU_LUC', soHieu: '99/2008/NĐ-CP' },
+    { code: '99/2008/ND-CP-PL1', thuVien: 'ACTIVE', so: 'HET_HIEU_LUC', soHieu: '99/2008/NĐ-CP' },
+    { code: '12/2018/NĐ-CP', thuVien: 'EXPIRED', so: 'TAM_NGUNG_HIEU_LUC', soHieu: '12/2018/NĐ-CP' },
+  ] },
+});
+const dh = timDiemMu(napSo(r2), { today: '2026-10-04', root: r2, nhuCau }).filter((d) => d.ma.startsWith('HS_API_'));
+const uu = dh.filter((d) => d.ma === 'HS_API_UU_TIEN_DOI_CHIEU');
+t('nhu cầu: văn bản biểu thuế dẫn chưa có trong sổ', dh.some((d) => d.ma === 'HS_API_CHUA_CO' && d.muc_tieu === '55/2099/TT-BXX'));
+t('nhu cầu: ưu tiên đối chiếu — ≥50 mã là Cao, kèm trọng số', uu.find((d) => d.muc_tieu === '12/2018/NĐ-CP')?.muc === 'Cao' && uu.find((d) => d.muc_tieu === '9/2020/TT-BCT')?.trongSo === 7);
+const lechTv = dh.filter((d) => d.ma === 'HS_API_LECH_THU_VIEN');
+t('nhu cầu: lệch thư viện gộp theo số hiệu, bỏ dòng sổ đã đổi tình trạng', lechTv.length === 1 && lechTv[0].muc_tieu === '99/2008/NĐ-CP', JSON.stringify(lechTv));
+t('không có nhu-cau → không sinh việc HS_API', !timDiemMu(napSo(r2), { today: '2026-10-04', root: r2 }).some((d) => d.ma.startsWith('HS_API_')));
 const sach = lamSachHtml('<html><script>x()</script><nav>menu</nav><p>Điều 1.&nbsp;Phạm vi</p><p>Điều 2</p></html>');
 t('làm sạch HTML: bỏ script/menu, giữ đoạn', sach === 'Điều 1. Phạm vi\nĐiều 2', JSON.stringify(sach));
 
