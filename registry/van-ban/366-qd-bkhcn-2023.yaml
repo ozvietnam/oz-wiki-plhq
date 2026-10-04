@@ -25,6 +25,6 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-  canh_bao: 'Cùng khung nhóm 2 với QĐ 2711 — tình trạng hiện tại chờ nguồn A sau NĐ 37/2026 và TT 36/2026 (xem canh_bao 2711).'
+  canh_bao: 'Cùng khung nhóm 2 với QĐ 2711 — NĐ 37/2026 Điều 97 (OCR) hết NĐ 132/74 từ 01-07-2026 nhưng không nêu bãi 366; TT 36/2026 không liệt kê 366. Giữ false (xem canh_bao 2711).'
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (6 mã HS). Bổ sung ống thép không gỉ (HS 7306.40/7306.61/7306.69) theo QCVN 20:2019/BKHCN.'
 toan_van: raw/download/datafiles.chinhphu.vn/366-qd-bkhcn.pdf

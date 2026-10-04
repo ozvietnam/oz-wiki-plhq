@@ -25,6 +25,6 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-  canh_bao: 'Cùng khung nhóm 2 với QĐ 2711 — tình trạng hiện tại chờ nguồn A sau NĐ 37/2026 và TT 36/2026: TT 36 ban hành danh mục rủi ro mới nhưng không nêu bãi 367/QĐ-BKHCN (xem canh_bao 2711).'
+  canh_bao: 'Cùng khung nhóm 2 với QĐ 2711 — NĐ 37/2026 Điều 97 (OCR) hết NĐ 132/74 từ 01-07-2026 nhưng không nêu bãi 367; TT 36/2026 không liệt kê 367. Giữ false (xem canh_bao 2711).'
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (4 mã HS). Đèn LED (QCVN 19:2019/BKHCN). mst.gov.vn có trang QĐ 3830/QĐ-BKHCN (21/11/2025) hủy mã HS 9405.11.99 khỏi 367 — PDF đang nằm trên mic.mediacdn.vn (chưa xếp bậc A); cần nạp lại từ datafiles/mst khi có bản ký số.'
 toan_van: raw/download/datafiles.chinhphu.vn/367-qd-bkhcn.pdf
