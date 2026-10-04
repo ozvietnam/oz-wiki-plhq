@@ -63,3 +63,5 @@ Agent phải làm việc như một người đóng góp cẩn thận: có ngu�
 - Bãi một phần (vd Điều 20 khoản 3 TT 48/2026) → `HET_HIEU_LUC_MOT_PHAN`, không `HET_HIEU_LUC`. Có chuyển tiếp đến ngày X (vd Phụ lục I đến 31-12-2026) thì ghi `het_hieu_luc_tu` như mẫu TT 12/2018.
 - Chuỗi thay danh mục cửa khẩu: QĐ 31/2026/QĐ-TTg (Công báo số 393) thay QĐ 23/2019 từ 14-08-2026 — ngày ký trên PDF là 29-06-2026, không nhầm với ngày Công báo.
 - Form tìm trên congbao.chinhphu.vn đôi khi trả cùng trang mới nhất bất kể từ khóa — đừng coi đó là “không có văn bản thay”.
+- Khi Công báo slug 404: thử `datafiles.chinhphu.vn/cpp/files/vbpq/<năm>/<tháng>/NN-cq.signed.pdf` (vd `2026/7/16-bnv.signed.pdf`, `36-bkhcn`, `49-bxd`). Nhiều bản ký số 2026 vẫn có lớp chữ.
+- Chuỗi KTCN 2026 đã đối chiếu PDF: TT 16/2026/TT-BNV hết `01/2021/TT-BLĐTBXH`; TT 36/2026/TT-BKHCN hết `29/2025/TT-BKHCN` (không phải `10/2024`); TT 49/2026/TT-BXD bãi `12/2022` và `62/2024` TT-BGTVT.
