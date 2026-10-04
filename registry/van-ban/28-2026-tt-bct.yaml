@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 28/2026/TT-BCT
 loai: THONG_TU
-ten: Danh mục mặt hàng nhập khẩu kèm mã HS phải kiểm tra nhà nước về an toàn thực phẩm thuộc phạm vi quản lý của Bộ Công Thương
+ten: Ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã số HS) thực hiện kiểm tra nhà nước về an toàn thực phẩm thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương
 co_quan: BCT
 ngay_ban_hanh: '2026-06-01'
 hieu_luc_tu: '2026-07-17'
@@ -19,10 +19,13 @@ quan_he:
     - so_hieu: 1182/QĐ-BCT
       tu_ngay: '2026-07-17'
       can_cu: Điều 4 TT 28/2026/TT-BCT — theo Hermes-211 (hs-code-api nhánh hermes/ktcn-2026-kiem-chung, reports/ktcn-2026/KIEM-CHUNG.md, 04/10/2026), đã mở văn bản; chưa ghi URL nguồn A
+nguon:
+  - url: https://vanban.chinhphu.vn/?docid=218330&pageid=27160
+    truy_cap: '2026-10-04'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: Điều 1, 3, 4 theo kiểm chứng của Hermes-211 (đã mở văn bản, chưa ghi URL); phần còn lại theo bài tổng hợp
+  muc: NGUON_A
+  pham_vi: số hiệu, trích yếu, ngày ban hành 01-06-2026 và ngày có hiệu lực 17-07-2026 trên vanban.chinhphu.vn; Điều 4 theo ghi nhận Hermes-211
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: hermes-211@ozvietnam
+  boi: cursor-agent@ozvietnam
 ghi_chu: '5 nhóm (rượu, bia, nước giải khát, sữa chế biến, dầu thực vật, bột/tinh bột, bánh mứt kẹo). Công báo số 328 ngày 14/6/2026. Điều 4: QĐ 1182/QĐ-BCT hết hiệu lực từ 17/7/2026 (Hermes-211 đối chiếu). Điều 3.2: kiểm tra ATTP theo Điều 40 Luật ATTP và Điều 16 NĐ 15/2018/NĐ-CP; Điều 3.3: miễn kiểm tra khi thuộc Điều 13 NĐ 15/2018/NĐ-CP. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'

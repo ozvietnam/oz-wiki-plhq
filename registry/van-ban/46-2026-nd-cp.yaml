@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 46/2026/NĐ-CP
 loai: NGHI_DINH
-ten: Nghị định thay thế Nghị định 15/2018/NĐ-CP về an toàn thực phẩm
+ten: Quy định chi tiết thi hành một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật An toàn thực phẩm
 co_quan: CP
 ngay_ban_hanh: '2026-01-26'
 tinh_trang: TAM_NGUNG_HIEU_LUC
@@ -10,10 +10,13 @@ nhanh:
 quan_he:
   thay_the:
     - 15/2018/NĐ-CP
+nguon:
+  - url: https://vanban.chinhphu.vn/?docid=216827&pageid=27160
+    truy_cap: '2026-10-04'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  muc: NGUON_A
+  pham_vi: số hiệu, trích yếu, ngày ban hành 26-01-2026 và ngày có hiệu lực 26-01-2026 trên thẻ vanban.chinhphu.vn
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: Đang tạm ngưng hiệu lực cho đến khi Luật An toàn thực phẩm sửa đổi có hiệu lực — CHƯA bãi bỏ. Đừng viết "NĐ 15/2018 đã bị thay". Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Thẻ cổng Chính phủ ghi ngày có hiệu lực 26-01-2026 (ngày bắt đầu), không ghi tạm ngưng. Tình trạng TAM_NGUNG giữ theo trích yếu Nghị quyết 09/2026/NQ-CP và 15/2026/NQ-CP trên cùng cổng; chưa đọc điều khoản nên chưa đặt hieu_luc_da_doi_chieu. Đừng viết "NĐ 15/2018 đã bị thay".'

@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 22/2026/TT-BNNMT
 loai: THONG_TU
-ten: Quy định cơ quan kiểm tra nhà nước về an toàn thực phẩm nhập khẩu thuộc Bộ Nông nghiệp và Môi trường
+ten: Sửa đổi, bổ sung một số Thông tư liên quan phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính thuộc phạm vi quản lý nhà nước của Bộ Nông nghiệp và Môi trường
 co_quan: BNNMT
 ngay_ban_hanh: '2026-05-19'
 hieu_luc_tu: '2026-09-01'
@@ -12,10 +12,13 @@ nhanh:
 quan_he:
   huong_dan:
     - 15/2018/NĐ-CP
+nguon:
+  - url: https://vanban.chinhphu.vn/?classid=1&docid=218174&pageid=27160
+    truy_cap: '2026-10-04'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  muc: NGUON_A
+  pham_vi: số hiệu, trích yếu và ngày ban hành 19-05-2026 trên vanban.chinhphu.vn; thẻ ghi ngày có hiệu lực 19-05-2026
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Khoản 1, 2 Điều 3: cơ quan kiểm tra do Chủ tịch UBND cấp tỉnh giao/chỉ định, thay Cục Thú y và Cục Bảo vệ thực vật. Tên mô tả, chưa đối chiếu nguyên văn. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Trích yếu cổng Chính phủ là thông tư phân cấp, cắt giảm thủ tục, không phải tiêu đề "cơ quan kiểm tra ATTP". Ngày ban hành 19-05-2026 khớp sổ. Thẻ ghi ngày có hiệu lực 19-05-2026; sổ vẫn để hieu_luc_tu 2026-09-01 theo bài tổng hợp (mốc đổi cơ quan kiểm tra) — chưa đọc điều khoản nên chưa sửa ngày này. Khoản 1, 2 Điều 3 về Chủ tịch UBND cấp tỉnh vẫn là nguồn thứ cấp (hs-code-api data/ktcn-regime-2026.json).'

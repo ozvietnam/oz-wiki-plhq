@@ -11,10 +11,13 @@ nhanh:
 quan_he:
   huong_dan:
     - 55/2010/QH12
+nguon:
+  - url: https://vanban.chinhphu.vn/?docid=192829&pageid=27160
+    truy_cap: '2026-10-04'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  muc: NGUON_A
+  pham_vi: số hiệu, trích yếu, ngày ban hành 02-02-2018 và ngày có hiệu lực 02-02-2018 trên vanban.chinhphu.vn
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
+  boi: cursor-agent@ozvietnam
 ghi_chu: 'Vẫn áp dụng tại 10/2026 vì NĐ 46/2026/NĐ-CP thay thế đang bị tạm ngưng. Kiểm tra ATTP: Điều 13 (09 trường hợp miễn), Điều 16, 17, 19 (03/07 ngày làm việc). Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
