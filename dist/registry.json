@@ -293,7 +293,7 @@
     {
       "so_hieu": "07/2026/TT-BCT",
       "loai": "THONG_TU",
-      "ten": "(chưa có tiêu đề) 07/2026/TT-BCT — sửa đổi, bổ sung Thông tư 37/2013/TT-BCT quy định nhập khẩu thuốc lá điếu, xì gà",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 37/2013/TT-BCT ngày 30 tháng 12 năm 2013 của Bộ trưởng Bộ Công Thương quy định nhập khẩu thuốc lá điếu, xì gà",
       "co_quan": "BCT",
       "ngay_ban_hanh": "2026-02-24",
       "hieu_luc_tu": "2026-04-10",
@@ -305,20 +305,30 @@
         "sua_doi": [
           {
             "so_hieu": "37/2013/TT-BCT",
-            "can_cu": "theo ghi chú nghiên cứu của hs-code-api data/legal-docs.json — chưa đối chiếu nguồn A"
+            "can_cu": "Điều 1–7 TT 07/2026/TT-BCT (PDF Công báo)"
           }
         ]
       },
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu, ngày ban hành/hiệu lực theo ghi chú hs-code-api",
-        "hieu_luc_da_doi_chieu": false,
+        "muc": "NGUON_A",
+        "pham_vi": "PDF Công báo CDN; Điều 9 khoản 1 hiệu lực 10-04-2026",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "hs-code-api@ozvietnam"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Tạo từ ghi chú hs-code-api: \"37/2013/TT-BCT được sửa đổi, bổ sung bởi TT 07/2026/TT-BCT (ban hành 24/02/2026, hiệu lực 10/04/2026)\". Cần trích yếu nguyên văn + nguồn A.",
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-07-2026-tt-bct-469019.htm",
+          "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/12/07bctsigned-1773303436759207525659.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "slug": "07-2026-tt-bct",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -786,7 +796,8 @@
           {
             "tu": "82/2022/NĐ-CP",
             "quan_he": "sua_doi",
-            "so_hieu": "113/2017/NĐ-CP"
+            "so_hieu": "113/2017/NĐ-CP",
+            "can_cu": "Điều 1–2 NĐ 82/2022/NĐ-CP (PDF Công báo)"
           }
         ]
       }
@@ -1021,7 +1032,7 @@
     {
       "so_hieu": "125/2026/TT-BCA",
       "loai": "THONG_TU",
-      "ten": "Danh mục sản phẩm, hàng hoá có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Công an",
+      "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Công an",
       "co_quan": "BCA",
       "ngay_ban_hanh": "2026-06-30",
       "hieu_luc_tu": "2026-07-01",
@@ -1035,15 +1046,25 @@
         ]
       },
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
-        "hieu_luc_da_doi_chieu": false,
+        "muc": "NGUON_A",
+        "pham_vi": "PDF Công báo CDN; Điều 5 khoản 1 hiệu lực 01-07-2026",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "PCCC và cứu nạn cứu hộ (8 sản phẩm), thiết bị an toàn giao thông, giám sát an ninh công cộng. Nền: Luật 55/2024/QH15. Tem kiểm định cũ hết 30/6/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-125-2026-tt-bca-470259/67719.htm",
+          "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/8/20/470259-1787037095_v1_1787187913_signed.pdf",
+          "truy_cap": "2026-10-04"
+        }
+      ],
       "slug": "125-2026-tt-bca",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -3252,7 +3273,7 @@
             "tu": "07/2026/TT-BCT",
             "quan_he": "sua_doi",
             "so_hieu": "37/2013/TT-BCT",
-            "can_cu": "theo ghi chú nghiên cứu của hs-code-api data/legal-docs.json — chưa đối chiếu nguồn A"
+            "can_cu": "Điều 1–7 TT 07/2026/TT-BCT (PDF Công báo)"
           }
         ]
       }
@@ -4351,10 +4372,21 @@
       ],
       "quan_he": {
         "sua_doi": [
-          "113/2017/NĐ-CP"
+          {
+            "so_hieu": "113/2017/NĐ-CP",
+            "can_cu": "Điều 1–2 NĐ 82/2022/NĐ-CP (PDF Công báo)"
+          }
         ]
       },
       "nguon": [
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/10/38082/42150-1-2022801-80282-2022-nd-cp.pdf",
+          "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-82-2022-nd-cp-38082.htm",
+          "truy_cap": "2026-10-04"
+        },
         {
           "url": "https://luatvietnam.vn/cong-nghiep/nghi-dinh-82-2022-nd-cp-sua-doi-nghi-dinh-113-2017-nd-cp-huong-dan-luat-hoa-chat-231981-d1.html",
           "truy_cap": "2026-07-02"
@@ -4362,15 +4394,15 @@
       ],
       "trich_dan_trong_bieu_thue": 258,
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
+        "muc": "NGUON_A",
+        "pham_vi": "PDF Công báo CDN; Điều 3 khoản 1 hiệu lực 22-12-2022; sửa đổi 113/2017/NĐ-CP",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 258 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn).",
       "slug": "82-2022-nd-cp",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {

@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-04",
-  "tong": 448,
+  "tong": 440,
   "diem": [
     {
       "ma": "KHONG_NGUON_A",
@@ -210,39 +210,12 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "07/2026/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
-      "muc_tieu": "07/2026/TT-BCT",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "07/2026/TT-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "07/2026/TT-BCT",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_TOAN_VAN",
       "muc": "Thấp",
       "tieuDe": "07/2026/TT-BCT: chưa có toàn văn trong raw/",
       "muc_tieu": "07/2026/TT-BCT",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"07/2026/TT-BCT\" --ghi",
       "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
-      "ma": "VAN_BAN_KHUNG",
-      "muc": "Vừa",
-      "tieuDe": "07/2026/TT-BCT: chưa có tiêu đề, ngày, nguồn",
-      "muc_tieu": "07/2026/TT-BCT",
-      "viec": "Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.",
-      "luong": "he-thong-hoa",
       "trongSo": 0
     },
     {
@@ -756,24 +729,6 @@
       "muc_tieu": "125/2021/TT-BCA",
       "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
       "luong": "cay-du-lieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "125/2026/TT-BCA: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
-      "muc_tieu": "125/2026/TT-BCA",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "125/2026/TT-BCA: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "125/2026/TT-BCA",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
       "trongSo": 0
     },
     {
@@ -3261,24 +3216,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "82/2022/NĐ-CP: chưa có nguồn chính thống",
-      "muc_tieu": "82/2022/NĐ-CP",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Vừa",
-      "tieuDe": "82/2022/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "82/2022/NĐ-CP",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_TOAN_VAN",
       "muc": "Vừa",
       "tieuDe": "82/2022/NĐ-CP: chưa có toàn văn trong raw/",
@@ -3574,15 +3511,6 @@
       "viec": "Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 263 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
       "luong": "hieu-luc",
       "trongSo": 263
-    },
-    {
-      "ma": "HS_API_UU_TIEN_DOI_CHIEU",
-      "muc": "Cao",
-      "tieuDe": "Đối chiếu hiệu lực 82/2022/NĐ-CP — 258 mã HS đang dẫn",
-      "muc_tieu": "82/2022/NĐ-CP",
-      "viec": "Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 258 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
-      "luong": "hieu-luc",
-      "trongSo": 258
     },
     {
       "ma": "HS_API_UU_TIEN_DOI_CHIEU",
