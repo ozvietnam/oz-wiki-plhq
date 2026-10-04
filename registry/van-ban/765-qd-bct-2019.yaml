@@ -23,3 +23,10 @@ xac_minh:
   boi: cursor-agent@ozvietnam
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1075 mã HS). Tiêu
   đề đã đối chiếu (luatvietnam.vn + sct.dongnai.gov.vn).
+danh_muc_hs:
+  tep: danh-muc/765-qd-bct-2019.csv
+  nguon: https://moit.gov.vn/van-ban-phap-luat/van-ban-dieu-hanh/-cong-bo-danh-muc-cac-mat-hang-kem-theo-ma-hs-da-duoc-cat-gi.html
+  trich_boi: hermes-211
+  ngay: '2026-10-05'
+  da_doi_chieu: false
+  ghi_chu: "Phụ lục 1.1 (Thép tiêu chuẩn quốc tế, 231 dòng) + Phụ lục 1.2 (Thép TCVN, 26 dòng) + Phụ lục 1.3 (Thép hợp kim, 7 dòng) + Phụ lục (Dệt may, 1145 dòng) = 1409 dòng, 1374 mã HS khác nhau. Trích từ DOCX phụ lục trong file zip moit.gov.vn. Table 3 (dệt may) có các dòng mô tả không có mã — đã bỏ 93 dòng trống."
