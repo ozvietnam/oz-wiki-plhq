@@ -5,8 +5,7 @@ ten: Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo 
 co_quan: BCT
 ngay_ban_hanh: '2021-04-06'
 hieu_luc_tu: '2021-04-06'
-het_hieu_luc_tu: '2026-07-17'
-tinh_trang: HET_HIEU_LUC
+tinh_trang: HET_HIEU_LUC_MOT_PHAN
 nhanh:
   - kiem-tra-chuyen-nganh/bct
 nguon:
@@ -19,4 +18,5 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: khoi-tao
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 249 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn + caselaw.vn (PDF gốc BCT)). KHUNG KTCN 2026: QĐ công bố danh mục theo khung cũ — Phụ lục 2 (ATTP) đã bị TT 28/2026/TT-BCT vượt qua; Phụ lục 1 (chất lượng nhóm 2) chuyển sang đối chiếu TT 33/2026/TT-BCT. Quan hệ pháp lý chính thức: CHƯA XÁC MINH. GHI CHÚ NGHIỆP VỤ (hs-code-api): [PL2] Phụ lục 2 của QĐ 1182/QĐ-BCT — Danh mục kiểm tra chuyên ngành về an toàn thực phẩm (sữa; nước giải khát, rượu, bia, cồn; dầu thực vật; bột, tinh bột, bánh, mứt, kẹo) · [PL1] Phụ lục 1 của QĐ 1182/QĐ-BCT — Danh mục kiểm tra chuyên ngành về chất lượng sản phẩm, hàng hóa nhóm 2 CẬP NHẬT 04/10/2026: hết hiệu lực từ 17/7/2026 theo Điều 4 TT 28/2026/TT-BCT (Hermes-211 (hs-code-api nhánh hermes/ktcn-2026-kiem-chung, reports/ktcn-2026/KIEM-CHUNG.md, 04/10/2026)). Phụ lục 1 (chất lượng nhóm 2) có thuộc phạm vi bãi bỏ không: cần đọc nguyên văn Điều 4.'
+  canh_bao: 'Chỉ Khoản 1 Điều 2 và Phụ lục 2 (ATTP) hết hiệu lực từ 17-07-2026 (Điều 4 khoản 2 TT 28/2026/TT-BCT, Công báo số 328). Phụ lục 1 (chất lượng nhóm 2) chưa rõ còn áp dụng — khung NĐ 37/2026/NĐ-CP bỏ khái niệm nhóm 2 từ 01-07-2026; cần đối chiếu 33/2026/TT-BCT trước khi ghi HET_HIEU_LUC.'
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 249 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn + caselaw.vn (PDF gốc BCT)). KHUNG KTCN 2026: QĐ công bố danh mục theo khung cũ — Phụ lục 2 (ATTP) đã bị TT 28/2026/TT-BCT vượt qua; Phụ lục 1 (chất lượng nhóm 2) chuyển sang đối chiếu TT 33/2026/TT-BCT. Quan hệ pháp lý chính thức: CHƯA XÁC MINH. GHI CHÚ NGHIỆP VỤ (hs-code-api): [PL2] Phụ lục 2 của QĐ 1182/QĐ-BCT — Danh mục kiểm tra chuyên ngành về an toàn thực phẩm (sữa; nước giải khát, rượu, bia, cồn; dầu thực vật; bột, tinh bột, bánh, mứt, kẹo) · [PL1] Phụ lục 1 của QĐ 1182/QĐ-BCT — Danh mục kiểm tra chuyên ngành về chất lượng sản phẩm, hàng hóa nhóm 2 CẬP NHẬT 04/10/2026 (đã đọc nguyên văn Công báo số 328 ngày 14-06-2026): Điều 4 khoản 2 TT 28/2026/TT-BCT chỉ chấm dứt Khoản 1 Điều 2 và Phụ lục 2 từ 17-07-2026 — không phải toàn bộ quyết định; trước đó sổ ghi nhầm HET_HIEU_LUC toàn bộ.'
