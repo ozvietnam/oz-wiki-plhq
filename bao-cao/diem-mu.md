@@ -1,24 +1,25 @@
 # Báo cáo điểm mù — 2026-10-04
 
-Tổng 409 điểm: **21 cao**, 130 vừa, 258 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 421 điểm: **29 cao**, 134 vừa, 258 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
 | Nhóm | Mức | Số điểm | Luồng việc |
 |---|---|---|---|
-| Ưu tiên đối chiếu — theo số mã HS đang dẫn (hs-code-api) | Cao | 52 | `hieu-luc` |
+| Ưu tiên đối chiếu — theo số mã HS đang dẫn (hs-code-api) | Cao | 56 | `hieu-luc` |
+| Cảnh báo nguồn | Cao | 5 | `truy-vet-nguon` |
 | Nhánh cây chưa có văn bản | Cao | 4 | `do-tham` |
 | Sắp hết hiệu lực (≤60 ngày) | Cao | 1 | `hieu-luc` |
 | Văn bản khung thiếu thông tin | Vừa | 14 | `he-thong-hoa` |
 | Thư viện hs-code-api ghi khác sổ | Vừa | 4 | `hieu-luc` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 1 | `doc-hieu` |
-| Hiệu lực chưa đối chiếu nguồn A | Thấp | 139 | `hieu-luc` |
+| Hiệu lực chưa đối chiếu nguồn A | Thấp | 143 | `hieu-luc` |
 | Chưa có toàn văn | Thấp | 91 | `nap-lam-sach` |
 | Chưa có nguồn chính thống | Thấp | 80 | `truy-vet-nguon` |
 | Chưa xếp vào cây | Thấp | 13 | `cay-du-lieu` |
-| Văn bản của cơ quan đã sáp nhập | Thấp | 10 | `do-tham` |
+| Văn bản của cơ quan đã sáp nhập | Thấp | 9 | `do-tham` |
 
-## Ưu tiên đối chiếu — theo số mã HS đang dẫn (hs-code-api) (52)
+## Ưu tiên đối chiếu — theo số mã HS đang dẫn (hs-code-api) (56)
 
 - [ ] **Đối chiếu hiệu lực 42/2019/TT-BCT — 3316 mã HS đang dẫn** — Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 3316 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
 - [ ] **Đối chiếu hiệu lực 33/2025/TT-BCT — 2015 mã HS đang dẫn** — Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 2015 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
@@ -29,15 +30,19 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Đối chiếu hiệu lực 62/2024/TT-BGTVT — 1315 mã HS đang dẫn** — Sổ ghi HET_HIEU_LUC nhưng chưa đối chiếu nguồn A; 1315 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
 - [ ] **Đối chiếu hiệu lực 765/QĐ-BCT — 1074 mã HS đang dẫn** — Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 1074 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
 - [ ] **Đối chiếu hiệu lực 23/2019/QĐ-TTg — 749 mã HS đang dẫn** — Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 749 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
+- [ ] **Đối chiếu hiệu lực 113/2017/NĐ-CP — 667 mã HS đang dẫn** — Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 667 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
 - [ ] **Đối chiếu hiệu lực 1182/QĐ-BCT — 496 mã HS đang dẫn** — Sổ ghi HET_HIEU_LUC nhưng chưa đối chiếu nguồn A; 496 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
 - [ ] **Đối chiếu hiệu lực 09/2024/TT-BYT — 384 mã HS đang dẫn** — Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 384 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
 - [ ] **Đối chiếu hiệu lực 2711/QĐ-BKHCN — 263 mã HS đang dẫn** — Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 263 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
-- [ ] **Đối chiếu hiệu lực 82/2022/NĐ-CP — 258 mã HS đang dẫn** — Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 258 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
+- [ ] **Đối chiếu hiệu lực 82/2022/NĐ-CP — 258 mã HS đang dẫn** — Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 258 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
 - [ ] **Đối chiếu hiệu lực 15/2024/TT-BYT — 186 mã HS đang dẫn** — Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 186 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
+- [ ] **Đối chiếu hiệu lực 11/2018/TT-BTTTT — 186 mã HS đang dẫn** — Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 186 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
+- [ ] **Đối chiếu hiệu lực 01/2021/TT-BLĐTBXH — 123 mã HS đang dẫn** — Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 123 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
 - [ ] **Đối chiếu hiệu lực 29/2025/TT-BKHCN — 62 mã HS đang dẫn** — Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 62 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
 - [ ] **Đối chiếu hiệu lực 1725/QĐ-BCT — 61 mã HS đang dẫn** — Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 61 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
 - [ ] **Đối chiếu hiệu lực 173/2018/TT-BQP — 41 mã HS đang dẫn** — Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 41 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
 - [ ] **Đối chiếu hiệu lực 2310/QĐ-BCT — 38 mã HS đang dẫn** — Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 38 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
+- [ ] **Đối chiếu hiệu lực 12/2018/TT-BCT — 37 mã HS đang dẫn** — Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 37 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
 - [ ] **Đối chiếu hiệu lực 04/2021/TT-BXD — 34 mã HS đang dẫn** — Sổ ghi HET_HIEU_LUC nhưng chưa đối chiếu nguồn A; 34 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
 - [ ] **Đối chiếu hiệu lực 41/2019/TT-BCT — 32 mã HS đang dẫn** — Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 32 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
 - [ ] **Đối chiếu hiệu lực 22/2018/TT-BTTTT — 31 mã HS đang dẫn** — Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 31 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
@@ -56,11 +61,15 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Đối chiếu hiệu lực 715/QĐ-BCT — 8 mã HS đang dẫn** — Sổ ghi HET_HIEU_LUC nhưng chưa đối chiếu nguồn A; 8 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
 - [ ] **Đối chiếu hiệu lực 2333/QĐ-BCT — 8 mã HS đang dẫn** — Sổ ghi HET_HIEU_LUC nhưng chưa đối chiếu nguồn A; 8 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
 - [ ] **Đối chiếu hiệu lực 2105/QĐ-BCT — 6 mã HS đang dẫn** — Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 6 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
-- [ ] **Đối chiếu hiệu lực 37/2013/TT-BCT — 6 mã HS đang dẫn** — Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 6 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
-- [ ] **Đối chiếu hiệu lực 2491/QĐ-BCT — 6 mã HS đang dẫn** — Sổ ghi HET_HIEU_LUC nhưng chưa đối chiếu nguồn A; 6 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
-- [ ] **Đối chiếu hiệu lực 3546/QĐ-BCT — 6 mã HS đang dẫn** — Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 6 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
-- [ ] **Đối chiếu hiệu lực 366/QĐ-BKHCN — 6 mã HS đang dẫn** — Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 6 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.
-- … và 12 điểm khác (xem bao-cao/diem-mu.json)
+- … và 16 điểm khác (xem bao-cao/diem-mu.json)
+
+## Cảnh báo nguồn (5)
+
+- [ ] **01/2021/TT-BLĐTBXH: PDF Công báo chỉ xác nhận hiệu lực từ 18-07-2021 (Điều 5 khoản 1). Tình trạng hiện tại chưa đối chiếu: TT 16/2026/TT-BNV (hiệu lực 28-07-2026) có thể đã thay — xem ghi_chu.** — Xác minh với cơ quan ban hành hoặc Công báo.
+- [ ] **11/2018/TT-BTTTT: PDF Công báo chỉ xác nhận hiệu lực từ 30-11-2018 (Điều 3 khoản 1). Tình trạng hiện tại chưa đối chiếu: NĐ 69/2018/NĐ-CP (căn cứ của danh mục) được NĐ 292/2026/NĐ-CP thay từ 05-09-2026 (tin thứ cấp) và Bộ KH&CN đã đưa dự thảo thông tư công bố danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu (mst.gov.vn, 05/2026).** — Xác minh với cơ quan ban hành hoặc Công báo.
+- [ ] **113/2017/NĐ-CP: PDF Công báo chỉ xác nhận ngày hiệu lực 25-11-2017 và quan hệ thay 108/2008, 26/2011 (Điều 38 khoản 1) — không xác nhận tình trạng hiện tại. Thẻ vanban.chinhphu.vn docid=216673: NĐ 26/2026/NĐ-CP (quy định chi tiết Luật Hóa chất 2025) ban hành và hiệu lực 17-01-2026; theo bản chữ thứ cấp (thuvienxuatnhapkhau.com), Điều 31 khoản 3 NĐ 26/2026 cho NĐ 113/2017 và NĐ 82/2022 hết hiệu lực từ ngày đó. PDF ký số datafiles của NĐ 26/2026 là ảnh, chưa đọc được điều khoản — cần đăng ký 26/2026/NĐ-CP và đối chiếu Công báo trước khi ghi HET_HIEU_LUC.** — Xác minh với cơ quan ban hành hoặc Công báo.
+- [ ] **12/2018/TT-BCT: PDF Công báo chỉ xác nhận hiệu lực từ 15-06-2018 và các văn bản bị bãi bỏ (Điều 17) — không xác nhận tình trạng hiện tại. Theo tin thứ cấp (vtv.vn, bnews.vn 09/2026; luatvietnam.vn), TT 48/2026/TT-BCT quy định chi tiết Luật Quản lý ngoại thương và NĐ 292/2026/NĐ-CP (thay NĐ 69/2018) có hiệu lực 05-09-2026, giấy phép cấp theo TT 12/2018 trước 05-09-2026 được tiếp tục thực hiện — nhiều khả năng TT 12/2018 đã bị thay/bãi bỏ. Cần đối chiếu điều khoản thi hành TT 48/2026 trên nguồn A.** — Xác minh với cơ quan ban hành hoặc Công báo.
+- [ ] **82/2022/NĐ-CP: Theo bản chữ thứ cấp, Điều 31 khoản 3 NĐ 26/2026/NĐ-CP (hiệu lực 17-01-2026, thẻ vanban.chinhphu.vn docid=216673) cho NĐ 113/2017 và NĐ 82/2022 hết hiệu lực. Chưa đối chiếu nguồn A của điều khoản.** — Xác minh với cơ quan ban hành hoặc Công báo.
 
 ## Nhánh cây chưa có văn bản (4)
 
@@ -101,11 +110,14 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 
 - [ ] **336/2026/NĐ-CP có hiệu lực ngày 2026-10-15** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 
-## Hiệu lực chưa đối chiếu nguồn A (139)
+## Hiệu lực chưa đối chiếu nguồn A (143)
 
+- [ ] **01/2021/TT-BLĐTBXH: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **01/2024/TT-BNNPTNT: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **08/2023/TT-BCT: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **09/2024/TT-BYT: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **11/2018/TT-BTTTT: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **113/2017/NĐ-CP: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **1182/QĐ-BCT: tình trạng "HET_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **12/2022/TT-BGTVT: tình trạng "HET_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **15/2024/TT-BYT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
@@ -116,7 +128,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **42/2019/TT-BCT: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **62/2024/TT-BGTVT: tình trạng "HET_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **765/QĐ-BCT: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **82/2022/NĐ-CP: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **82/2022/NĐ-CP: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **01/2009/TT-BKHCN: tình trạng "HET_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **01/2026/TT-BNNMT: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **04/2014/TT-BCT: tình trạng "HET_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
@@ -138,12 +150,9 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **11/2026/TT-BXD: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **111/2021/NĐ-CP: tình trạng "HET_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **114/2025/QH15: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **12/2018/TT-BCT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **121/QĐ-BCT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **125/2026/TT-BCA: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **126/2026/TT-BQP: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **128/2020/NĐ-CP: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **13/2022/NĐ-CP: tình trạng "HET_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- … và 99 điểm khác (xem bao-cao/diem-mu.json)
+- … và 103 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Chưa có toàn văn (91)
 
@@ -249,9 +258,8 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **45/2024/TT-BCT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
 - [ ] **49/2015/TT-BCT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
 
-## Văn bản của cơ quan đã sáp nhập (10)
+## Văn bản của cơ quan đã sáp nhập (9)
 
-- [ ] **01/2021/TT-BLĐTBXH (Bộ Lao động - Thương binh và Xã hội) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNV** — Kiểm tra BNV đã ban hành văn bản thay thế chưa.
 - [ ] **01/2024/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
 - [ ] **10/2022/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN** — Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.
 - [ ] **11/2018/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN** — Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.

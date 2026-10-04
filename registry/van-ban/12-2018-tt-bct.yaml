@@ -7,7 +7,7 @@ ten: Quy định chi tiết một số điều của Luật Quản lý ngoại t
 co_quan: BCT
 ngay_ban_hanh: '2018-06-15'
 hieu_luc_tu: '2018-06-15'
-tinh_trang: CON_HIEU_LUC
+tinh_trang: CHUA_XAC_MINH
 nhanh:
 - quan-ly-ngoai-thuong/luat-khung
 nguon:
@@ -19,9 +19,10 @@ trich_dan_trong_bieu_thue: 37
 xac_minh:
   muc: NGUON_A
   pham_vi: PDF Công báo CDN; Điều 17 khoản 1 hiệu lực kể từ ngày ký (15-06-2018); khoản 2 bãi bỏ 04/2014, 11/2017, 49/2015 TT-BCT
-  hieu_luc_da_doi_chieu: true
+  hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
+  canh_bao: 'PDF Công báo chỉ xác nhận hiệu lực từ 15-06-2018 và các văn bản bị bãi bỏ (Điều 17) — không xác nhận tình trạng hiện tại. Theo tin thứ cấp (vtv.vn, bnews.vn 09/2026; luatvietnam.vn), TT 48/2026/TT-BCT quy định chi tiết Luật Quản lý ngoại thương và NĐ 292/2026/NĐ-CP (thay NĐ 69/2018) có hiệu lực 05-09-2026, giấy phép cấp theo TT 12/2018 trước 05-09-2026 được tiếp tục thực hiện — nhiều khả năng TT 12/2018 đã bị thay/bãi bỏ. Cần đối chiếu điều khoản thi hành TT 48/2026 trên nguồn A.'
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 37 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn). Sửa số hiệu: biểu thuế (enrichment) ghi nhầm "12/2018/TT-BTC"; văn bản đúng là 12/2018/TT-BCT của Bộ Công Thương (quy định chi tiết Luật Quản lý ngoại thương và NĐ 69/2018/NĐ-CP) — theo ghi chú đã đối chiếu của hs-code-api. GHI CHÚ NGHIỆP VỤ (hs-code-api): TYPO trong enrichment: Gemini ghi ''12/2018/TT-BTC'' nhưng văn bản đúng là 12/2018/TT-BCT (Bộ Công Thương). Cite ở HS 1701/2401 (hạn ngạch thuế quan đường/thuốc lá) — đúng phạm vi 12/2018/TT-BCT. TT-BTC thật là về giám sát tài chính TCTD, không liên quan HS. Đã đối chiếu PDF Công báo: hiệu lực từ ngày ký 15-06-2018 (sửa từ 30-07-2018 trên sổ cũ)'
 quan_he:
   bai_bo:

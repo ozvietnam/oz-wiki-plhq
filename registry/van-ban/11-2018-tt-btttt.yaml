@@ -17,9 +17,10 @@ trich_dan_trong_bieu_thue: 186
 xac_minh:
   muc: NGUON_A
   pham_vi: PDF Công báo CDN; Điều 3 khoản 1 hiệu lực 30-11-2018 (sửa ngày sổ từ 01-12-2018)
-  hieu_luc_da_doi_chieu: true
+  hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
+  canh_bao: 'PDF Công báo chỉ xác nhận hiệu lực từ 30-11-2018 (Điều 3 khoản 1). Tình trạng hiện tại chưa đối chiếu: NĐ 69/2018/NĐ-CP (căn cứ của danh mục) được NĐ 292/2026/NĐ-CP thay từ 05-09-2026 (tin thứ cấp) và Bộ KH&CN đã đưa dự thảo thông tư công bố danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu (mst.gov.vn, 05/2026).'
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 186 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn). Đã đối chiếu PDF Công báo: hiệu lực 30-11-2018 (không phải 01-12)'
 quan_he:
   sua_doi:

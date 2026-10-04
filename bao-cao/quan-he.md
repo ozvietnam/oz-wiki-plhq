@@ -36,13 +36,13 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  n_01_2021_TT_BL_TBXH["01/2021/TT-BLĐTBXH<br/>còn hiệu lực"]
+  n_01_2021_TT_BL_TBXH["01/2021/TT-BLĐTBXH<br/>chưa xác minh"]
   n_22_2018_TT_BL_TBXH["22/2018/TT-BLĐTBXH<br/>hết hiệu lực"]
   n_09_2026_NQ_CP["09/2026/NQ-CP<br/>còn hiệu lực"]
   n_46_2026_N__CP["46/2026/NĐ-CP<br/>tạm ngưng"]
   n_111_2021_N__CP["111/2021/NĐ-CP<br/>hết hiệu lực"]
   n_43_2017_N__CP["43/2017/NĐ-CP<br/>hết hiệu lực"]
-  n_113_2017_N__CP["113/2017/NĐ-CP<br/>còn hiệu lực"]
+  n_113_2017_N__CP["113/2017/NĐ-CP<br/>chưa xác minh"]
   n_108_2008_N__CP["108/2008/NĐ-CP<br/>hết hiệu lực"]
   n_26_2011_N__CP["26/2011/NĐ-CP<br/>hết hiệu lực"]
   n_15_2026_NQ_CP["15/2026/NQ-CP<br/>còn hiệu lực"]
@@ -75,7 +75,7 @@ flowchart LR
   n_62_2024_TT_BGTVT["62/2024/TT-BGTVT<br/>hết hiệu lực"]
   n_78_2025_QH15["78/2025/QH15<br/>còn hiệu lực"]
   n_05_2007_QH12["05/2007/QH12<br/>còn hiệu lực"]
-  n_82_2022_N__CP["82/2022/NĐ-CP<br/>còn hiệu lực"]
+  n_82_2022_N__CP["82/2022/NĐ-CP<br/>chưa xác minh"]
   n_01_2021_TT_BL_TBXH -->|thay thế từ 2021-07-18| n_22_2018_TT_BL_TBXH
   n_09_2026_NQ_CP -->|tạm ngưng| n_46_2026_N__CP
   n_111_2021_N__CP -->|sửa đổi| n_43_2017_N__CP
@@ -144,7 +144,7 @@ flowchart LR
   n_31_2015_TT_BTTTT["31/2015/TT-BTTTT<br/>chưa xác minh"]
   n_11_2026_TT_BXD["11/2026/TT-BXD<br/>chưa xác minh"]
   n_04_2021_TT_BXD["04/2021/TT-BXD<br/>hết hiệu lực"]
-  n_12_2018_TT_BCT["12/2018/TT-BCT<br/>còn hiệu lực"]
+  n_12_2018_TT_BCT["12/2018/TT-BCT<br/>chưa xác minh"]
   n_04_2014_TT_BCT["04/2014/TT-BCT<br/>hết hiệu lực"]
   n_11_2017_TT_BCT["11/2017/TT-BCT<br/>hết hiệu lực"]
   n_49_2015_TT_BCT["49/2015/TT-BCT<br/>hết hiệu lực"]

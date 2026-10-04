@@ -6,7 +6,7 @@ ten: Sửa đổi, bổ sung một số điều của Nghị định số 113/20
 co_quan: CP
 ngay_ban_hanh: '2022-10-18'
 hieu_luc_tu: '2022-12-22'
-tinh_trang: CON_HIEU_LUC
+tinh_trang: CHUA_XAC_MINH
 nhanh:
 - kiem-tra-chuyen-nganh/bct
 quan_he:
@@ -24,5 +24,6 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
+  canh_bao: 'Theo bản chữ thứ cấp, Điều 31 khoản 3 NĐ 26/2026/NĐ-CP (hiệu lực 17-01-2026, thẻ vanban.chinhphu.vn docid=216673) cho NĐ 113/2017 và NĐ 82/2022 hết hiệu lực. Chưa đối chiếu nguồn A của điều khoản.'
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 258 mã HS). Tiêu đề
   đã đối chiếu (luatvietnam.vn).

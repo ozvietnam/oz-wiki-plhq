@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-04",
-  "tong": 409,
+  "tong": 421,
   "diem": [
     {
       "ma": "KHONG_NGUON_A",
@@ -21,12 +21,21 @@
       "trongSo": 0
     },
     {
-      "ma": "CO_QUAN_DA_SAP_NHAP",
-      "muc": "Thấp",
-      "tieuDe": "01/2021/TT-BLĐTBXH (Bộ Lao động - Thương binh và Xã hội) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNV",
+      "ma": "CANH_BAO_NGUON",
+      "muc": "Cao",
+      "tieuDe": "01/2021/TT-BLĐTBXH: PDF Công báo chỉ xác nhận hiệu lực từ 18-07-2021 (Điều 5 khoản 1). Tình trạng hiện tại chưa đối chiếu: TT 16/2026/TT-BNV (hiệu lực 28-07-2026) có thể đã thay — xem ghi_chu.",
       "muc_tieu": "01/2021/TT-BLĐTBXH",
-      "viec": "Kiểm tra BNV đã ban hành văn bản thay thế chưa.",
-      "luong": "do-tham",
+      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Vừa",
+      "tieuDe": "01/2021/TT-BLĐTBXH: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
+      "muc_tieu": "01/2021/TT-BLĐTBXH",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
       "trongSo": 0
     },
     {
@@ -435,6 +444,24 @@
       "trongSo": 0
     },
     {
+      "ma": "CANH_BAO_NGUON",
+      "muc": "Cao",
+      "tieuDe": "11/2018/TT-BTTTT: PDF Công báo chỉ xác nhận hiệu lực từ 30-11-2018 (Điều 3 khoản 1). Tình trạng hiện tại chưa đối chiếu: NĐ 69/2018/NĐ-CP (căn cứ của danh mục) được NĐ 292/2026/NĐ-CP thay từ 05-09-2026 (tin thứ cấp) và Bộ KH&CN đã đưa dự thảo thông tư công bố danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu (mst.gov.vn, 05/2026).",
+      "muc_tieu": "11/2018/TT-BTTTT",
+      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Vừa",
+      "tieuDe": "11/2018/TT-BTTTT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "11/2018/TT-BTTTT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
       "ma": "CO_QUAN_DA_SAP_NHAP",
       "muc": "Thấp",
       "tieuDe": "11/2018/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN",
@@ -570,6 +597,24 @@
       "trongSo": 0
     },
     {
+      "ma": "CANH_BAO_NGUON",
+      "muc": "Cao",
+      "tieuDe": "113/2017/NĐ-CP: PDF Công báo chỉ xác nhận ngày hiệu lực 25-11-2017 và quan hệ thay 108/2008, 26/2011 (Điều 38 khoản 1) — không xác nhận tình trạng hiện tại. Thẻ vanban.chinhphu.vn docid=216673: NĐ 26/2026/NĐ-CP (quy định chi tiết Luật Hóa chất 2025) ban hành và hiệu lực 17-01-2026; theo bản chữ thứ cấp (thuvienxuatnhapkhau.com), Điều 31 khoản 3 NĐ 26/2026 cho NĐ 113/2017 và NĐ 82/2022 hết hiệu lực từ ngày đó. PDF ký số datafiles của NĐ 26/2026 là ảnh, chưa đọc được điều khoản — cần đăng ký 26/2026/NĐ-CP và đối chiếu Công báo trước khi ghi HET_HIEU_LUC.",
+      "muc_tieu": "113/2017/NĐ-CP",
+      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Vừa",
+      "tieuDe": "113/2017/NĐ-CP: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
+      "muc_tieu": "113/2017/NĐ-CP",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
       "tieuDe": "114/2025/QH15: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
@@ -610,6 +655,24 @@
       "muc": "Vừa",
       "tieuDe": "1182/QĐ-BCT: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "1182/QĐ-BCT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "CANH_BAO_NGUON",
+      "muc": "Cao",
+      "tieuDe": "12/2018/TT-BCT: PDF Công báo chỉ xác nhận hiệu lực từ 15-06-2018 và các văn bản bị bãi bỏ (Điều 17) — không xác nhận tình trạng hiện tại. Theo tin thứ cấp (vtv.vn, bnews.vn 09/2026; luatvietnam.vn), TT 48/2026/TT-BCT quy định chi tiết Luật Quản lý ngoại thương và NĐ 292/2026/NĐ-CP (thay NĐ 69/2018) có hiệu lực 05-09-2026, giấy phép cấp theo TT 12/2018 trước 05-09-2026 được tiếp tục thực hiện — nhiều khả năng TT 12/2018 đã bị thay/bãi bỏ. Cần đối chiếu điều khoản thi hành TT 48/2026 trên nguồn A.",
+      "muc_tieu": "12/2018/TT-BCT",
+      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "12/2018/TT-BCT: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
+      "muc_tieu": "12/2018/TT-BCT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
       "trongSo": 0
@@ -2982,9 +3045,18 @@
       "trongSo": 0
     },
     {
+      "ma": "CANH_BAO_NGUON",
+      "muc": "Cao",
+      "tieuDe": "82/2022/NĐ-CP: Theo bản chữ thứ cấp, Điều 31 khoản 3 NĐ 26/2026/NĐ-CP (hiệu lực 17-01-2026, thẻ vanban.chinhphu.vn docid=216673) cho NĐ 113/2017 và NĐ 82/2022 hết hiệu lực. Chưa đối chiếu nguồn A của điều khoản.",
+      "muc_tieu": "82/2022/NĐ-CP",
+      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Vừa",
-      "tieuDe": "82/2022/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "tieuDe": "82/2022/NĐ-CP: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
       "muc_tieu": "82/2022/NĐ-CP",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
@@ -3263,6 +3335,15 @@
     {
       "ma": "HS_API_UU_TIEN_DOI_CHIEU",
       "muc": "Cao",
+      "tieuDe": "Đối chiếu hiệu lực 113/2017/NĐ-CP — 667 mã HS đang dẫn",
+      "muc_tieu": "113/2017/NĐ-CP",
+      "viec": "Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 667 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
+      "luong": "hieu-luc",
+      "trongSo": 667
+    },
+    {
+      "ma": "HS_API_UU_TIEN_DOI_CHIEU",
+      "muc": "Cao",
       "tieuDe": "Đối chiếu hiệu lực 1182/QĐ-BCT — 496 mã HS đang dẫn",
       "muc_tieu": "1182/QĐ-BCT",
       "viec": "Sổ ghi HET_HIEU_LUC nhưng chưa đối chiếu nguồn A; 496 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
@@ -3292,7 +3373,7 @@
       "muc": "Cao",
       "tieuDe": "Đối chiếu hiệu lực 82/2022/NĐ-CP — 258 mã HS đang dẫn",
       "muc_tieu": "82/2022/NĐ-CP",
-      "viec": "Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 258 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
+      "viec": "Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 258 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
       "luong": "hieu-luc",
       "trongSo": 258
     },
@@ -3304,6 +3385,24 @@
       "viec": "Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 186 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
       "luong": "hieu-luc",
       "trongSo": 186
+    },
+    {
+      "ma": "HS_API_UU_TIEN_DOI_CHIEU",
+      "muc": "Cao",
+      "tieuDe": "Đối chiếu hiệu lực 11/2018/TT-BTTTT — 186 mã HS đang dẫn",
+      "muc_tieu": "11/2018/TT-BTTTT",
+      "viec": "Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 186 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
+      "luong": "hieu-luc",
+      "trongSo": 186
+    },
+    {
+      "ma": "HS_API_UU_TIEN_DOI_CHIEU",
+      "muc": "Cao",
+      "tieuDe": "Đối chiếu hiệu lực 01/2021/TT-BLĐTBXH — 123 mã HS đang dẫn",
+      "muc_tieu": "01/2021/TT-BLĐTBXH",
+      "viec": "Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 123 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
+      "luong": "hieu-luc",
+      "trongSo": 123
     },
     {
       "ma": "HS_API_UU_TIEN_DOI_CHIEU",
@@ -3340,6 +3439,15 @@
       "viec": "Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 38 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
       "luong": "hieu-luc",
       "trongSo": 38
+    },
+    {
+      "ma": "HS_API_UU_TIEN_DOI_CHIEU",
+      "muc": "Vừa",
+      "tieuDe": "Đối chiếu hiệu lực 12/2018/TT-BCT — 37 mã HS đang dẫn",
+      "muc_tieu": "12/2018/TT-BCT",
+      "viec": "Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 37 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
+      "luong": "hieu-luc",
+      "trongSo": 37
     },
     {
       "ma": "HS_API_UU_TIEN_DOI_CHIEU",
