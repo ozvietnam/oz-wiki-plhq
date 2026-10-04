@@ -7,6 +7,7 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { napSo, khoa, bacNguon, chuanCanh, dungDoThi, homNay, ROOT, QUAN_HE_LAM_MAT_HIEU_LUC } from './lib/registry.mjs';
+import { napDanhMuc, kiemDinhDang, doiChieu, docBieuThue, laVanBanDanhMuc } from './lib/danh-muc.mjs';
 
 const MUC = { CAO: 'Cao', VUA: 'Vừa', THAP: 'Thấp' };
 // Số hiệu văn bản trong chữ: 28/2026/TT-BCT, 08/2015/NĐ-CP, 1182/QĐ-BCT, 54/2014/QH13
@@ -39,7 +40,7 @@ export function docNhuCau(root = ROOT) {
   try { return JSON.parse(readFileSync(p, 'utf8')); } catch { return null; }
 }
 
-export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCau(root) } = {}) {
+export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCau(root), bieuThue = docBieuThue(root) } = {}) {
   const ds = [];
   // trongSo: xếp trong cùng nhóm (vd số mã HS chịu ảnh hưởng) — lớn trước.
   const add = (ma, muc, tieuDe, muc_tieu, viec, luong, trongSo = 0) => ds.push({ ma, muc, tieuDe, muc_tieu, viec, luong, trongSo });
@@ -167,6 +168,31 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
       `Thêm vào sổ (${[...v.files].join(', ')}).`, 'lien-ket-cheo');
   }
 
+  // D-DM — lớp mã HS ↔ văn bản (docs/luoc-do-danh-muc-hs.md)
+  const bangDm = napDanhMuc(so, root);
+  const daCoBang = new Set(bangDm.map((it) => khoa(it.vanBan.so_hieu)));
+  const soMaDan = new Map((nhuCau?.vanBanDuocDan || []).map((v) => [khoa(v.soHieu), v.soMaHs]));
+  for (const d of so.vanBan) {
+    if (daCoBang.has(khoa(d.so_hieu)) || !laVanBanDanhMuc(d)) continue;
+    const dan = soMaDan.get(khoa(d.so_hieu)) || d.trich_dan_trong_bieu_thue || 0;
+    const ktcn2026 = (d.nhanh || []).some((n) => n.startsWith('kiem-tra-chuyen-nganh')) && String(d.hieu_luc_tu || '') >= '2026-07-01';
+    add('DANH_MUC_CHUA_TRICH', ktcn2026 || dan >= 50 ? MUC.CAO : MUC.VUA, `Chưa trích bảng mã HS: ${d.so_hieu}`, d.so_hieu,
+      `Văn bản danh mục chưa có danh-muc/${d._slug}.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.${dan ? ` Biểu thuế đang dẫn ${dan} mã.` : ''}`, 'danh-muc-hs', ktcn2026 ? 10000 + dan : dan);
+  }
+  for (const it of bangDm) {
+    if (kiemDinhDang(it).length) continue;
+    const { khongTonTai, danChieu } = doiChieu(it, { bt: bieuThue, so });
+    for (const o of khongTonTai) {
+      add('HS_KHONG_TON_TAI', MUC.VUA, `${it.vanBan.so_hieu}: mã ${o.ma_hs} không có trong biểu thuế`, it.vanBan.so_hieu,
+        `${it.tep} dòng ${o._dong} ("${o.mo_ta.slice(0, 60)}"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.`, 'danh-muc-hs');
+    }
+    for (const [sh, dc] of danChieu) {
+      if (dc && daCoBang.has(khoa(dc.so_hieu))) continue;
+      add('DAN_CHIEU_CHUA_CO_BANG', MUC.VUA, `${it.vanBan.so_hieu} dẫn mã HS sang ${sh} — ${dc ? 'văn bản đó chưa có bảng' : 'chưa có trong sổ'}`, sh,
+        `${it.tep} có dòng không ghi mã mà dẫn chiếu ${sh}. ${dc ? `Trích danh-muc/${dc._slug}.csv` : `Thêm ${sh} vào sổ rồi trích bảng`} để mã HS của các dòng này tra được.`, 'danh-muc-hs');
+    }
+  }
+
   // D-HS — nhu cầu thật từ hs-code-api: văn bản biểu thuế đang dẫn, xếp theo số mã HS chịu ảnh hưởng.
   // Đối chiếu với sổ HIỆN TẠI (bản đo có thể cũ hơn sổ): việc đã làm xong thì tự biến mất.
   if (nhuCau) {
@@ -206,6 +232,8 @@ const TEN_MA = {
   HIEU_LUC_CHUA_DOI_CHIEU: 'Hiệu lực chưa đối chiếu nguồn A', XAC_MINH_CU: 'Đối chiếu đã cũ', CHUA_PHAN_LOAI: 'Chưa xếp vào cây', CO_QUAN_DA_SAP_NHAP: 'Văn bản của cơ quan đã sáp nhập',
   HS_API_CHUA_CO: 'Biểu thuế (hs-code-api) dẫn nhưng sổ chưa có', HS_API_UU_TIEN_DOI_CHIEU: 'Ưu tiên đối chiếu — theo số mã HS đang dẫn (hs-code-api)',
   HS_API_LECH_THU_VIEN: 'Thư viện hs-code-api ghi khác sổ',
+  DANH_MUC_CHUA_TRICH: 'Văn bản danh mục chưa trích bảng mã HS', HS_KHONG_TON_TAI: 'Mã HS trong bảng không có trong biểu thuế',
+  DAN_CHIEU_CHUA_CO_BANG: 'Bảng dẫn chiếu mã HS sang văn bản chưa có bảng',
 };
 
 export function veMarkdown(ds, { today = homNay(), gioiHan = 40 } = {}) {

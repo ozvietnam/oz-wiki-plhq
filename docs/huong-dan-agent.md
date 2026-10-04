@@ -32,6 +32,8 @@ Agent phải làm việc như một người đóng góp cẩn thận: có ngu�
   (workflow `dung-lai-va-bao-hs-code-api`). Commit chúng làm mọi PR mở song song xung đột với nhau. Chạy
   `node tools/dung.mjs && node tools/diem-mu.mjs` để tự xem kết quả thì được, nhưng trước khi commit:
   `git checkout -- dist bao-cao`.
+- **Bảng mã HS** (`luong:danh-muc-hs`): theo [lược đồ](luoc-do-danh-muc-hs.md) — một PR một văn bản, trích từ lớp chữ
+  của bản có phụ lục (thường là Công báo), không gõ lại, không đoán mã.
 - **Ưu tiên việc có ảnh hưởng thật:** nhóm `HS_API_*` trong báo cáo điểm mù được xếp theo số mã HS mà
   hs-code-api đang dẫn văn bản đó (xem [tích hợp](tich-hop.md)). Làm từ trên xuống.
 
