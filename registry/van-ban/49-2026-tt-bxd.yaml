@@ -15,9 +15,12 @@ quan_he:
     - 12/2022/TT-BGTVT
     - 62/2024/TT-BGTVT
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  muc: NGUON_A
+  pham_vi: số hiệu/trích yếu trên nguồn A (congbao.chinhphu.vn)
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
+  boi: cursor-agent@ozvietnam
 ghi_chu: 'PL I rủi ro cao: ô tô, mô tô, xe gắn máy, xe bốn bánh có động cơ; PL II rủi ro trung bình: phương tiện, phụ tùng, thiết bị GTVT, đường sắt. Tên theo mẫu chung. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
+nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-49-2026-tt-bxd-469975.htm
+    truy_cap: '2026-10-04'

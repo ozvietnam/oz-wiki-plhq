@@ -1,14 +1,18 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 38/2018/TT-NHNN
 loai: THONG_TU
-ten: (chưa có tiêu đề) 38/2018/TT-NHNN
+ten: Thông tư số 38/2018/TT
 co_quan: NHNN
 tinh_trang: CHUA_XAC_MINH
 nhanh:
-- chua-phan-loai
+  - chua-phan-loai
 xac_minh:
-  muc: CHUA_XAC_MINH
+  muc: NGUON_A
+  pham_vi: số hiệu/trích yếu trên nguồn A (congbao.chinhphu.vn)
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: do-tham
+  boi: cursor-agent@ozvietnam
 ghi_chu: Được TT 07/2023/TT-NHNN sửa đổi, bổ sung; stub chưa mở toàn văn.
+nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-38-2018-tt-nhnn-27960.htm
+    truy_cap: '2026-10-04'
