@@ -5,17 +5,21 @@ ten: Áp dụng thuế chống bán phá giá chính thức đối với một s
 co_quan: BCT
 ngay_ban_hanh: '2025-08-14'
 hieu_luc_tu: '2025-08-14'
+het_hieu_luc_tu: '2030-08-14'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - phong-ve-thuong-mai
 nguon:
   - url: https://thuvienphapluat.vn/van-ban/Thuong-mai/Quyet-dinh-2310-QD-BCT-2025-ap-dung-thue-chong-ban-pha-gia-chinh-thuc-thep-ma-co-xuat-xu-tu-Trung-Hoa-669822.aspx
     truy_cap: '2026-07-02'
+  - url: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%202310%20ap%20thue%20chinh%20thuc.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 38
 xac_minh:
-  muc: NGUON_B
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
-  hieu_luc_da_doi_chieu: false
+  muc: NGUON_A
+  pham_vi: 'PDF pvtm.gov.vn (OCR): Điều 1 áp dụng thuế CBPG chính thức thép mạ TQ/HQ; Điều 2 hiệu lực từ 14-08-2025; Thông báo mục 4.b thời hạn áp dụng 05 năm kể từ ngày có hiệu lực; tình trạng hiện tại CON_HIEU_LUC đến hết 13-08-2030 (kiểm đến 04-10-2026)'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 38 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn + luatvietnam.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc AD19. Số hiệu hay viết 2310/QĐ-BCT-2025 hoặc 2310/QĐ-BCT.'
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (38 mã HS). Mã vụ việc AD19. PDF Cục PVTM là ảnh — điều khoản đọc bằng OCR.'
+toan_van: raw/download/pvtm.gov.vn/2310-qd-bct.pdf
