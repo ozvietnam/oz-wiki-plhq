@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-04",
-  "tong": 383,
+  "tong": 371,
   "diem": [
     {
       "ma": "KHONG_NGUON_A",
@@ -25,14 +25,6 @@
       "muc_tieu": "01/2021/TT-BLĐTBXH",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc"
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Vừa",
-      "tieuDe": "01/2021/TT-BLĐTBXH: chưa có toàn văn trong raw/",
-      "muc_tieu": "01/2021/TT-BLĐTBXH",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"01/2021/TT-BLĐTBXH\" --ghi",
-      "luong": "nap-lam-sach"
     },
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -169,14 +161,6 @@
       "muc_tieu": "07/2023/TT-NHNN",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc"
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "07/2023/TT-NHNN: chưa có toàn văn trong raw/",
-      "muc_tieu": "07/2023/TT-NHNN",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"07/2023/TT-NHNN\" --ghi",
-      "luong": "nap-lam-sach"
     },
     {
       "ma": "CHUA_PHAN_LOAI",
@@ -395,14 +379,6 @@
       "luong": "hieu-luc"
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Vừa",
-      "tieuDe": "11/2018/TT-BTTTT: chưa có toàn văn trong raw/",
-      "muc_tieu": "11/2018/TT-BTTTT",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"11/2018/TT-BTTTT\" --ghi",
-      "luong": "nap-lam-sach"
-    },
-    {
       "ma": "CO_QUAN_DA_SAP_NHAP",
       "muc": "Thấp",
       "tieuDe": "11/2018/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN",
@@ -531,14 +507,6 @@
       "luong": "hieu-luc"
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Vừa",
-      "tieuDe": "113/2017/NĐ-CP: chưa có toàn văn trong raw/",
-      "muc_tieu": "113/2017/NĐ-CP",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"113/2017/NĐ-CP\" --ghi",
-      "luong": "nap-lam-sach"
-    },
-    {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
       "tieuDe": "114/2025/QH15: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
@@ -571,14 +539,6 @@
       "luong": "hieu-luc"
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "1175/QĐ-TTg: chưa có toàn văn trong raw/",
-      "muc_tieu": "1175/QĐ-TTg",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"1175/QĐ-TTg\" --ghi",
-      "luong": "nap-lam-sach"
-    },
-    {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
       "tieuDe": "1182/QĐ-BCT: chưa có nguồn chính thống",
@@ -601,14 +561,6 @@
       "muc_tieu": "12/2018/TT-BCT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc"
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "12/2018/TT-BCT: chưa có toàn văn trong raw/",
-      "muc_tieu": "12/2018/TT-BCT",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"12/2018/TT-BCT\" --ghi",
-      "luong": "nap-lam-sach"
     },
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -657,14 +609,6 @@
       "muc_tieu": "125/2021/TT-BCA",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc"
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "125/2021/TT-BCA: chưa có toàn văn trong raw/",
-      "muc_tieu": "125/2021/TT-BCA",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"125/2021/TT-BCA\" --ghi",
-      "luong": "nap-lam-sach"
     },
     {
       "ma": "CHUA_PHAN_LOAI",
@@ -731,28 +675,12 @@
       "luong": "hieu-luc"
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "126/QĐ-TTg: chưa có toàn văn trong raw/",
-      "muc_tieu": "126/QĐ-TTg",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"126/QĐ-TTg\" --ghi",
-      "luong": "nap-lam-sach"
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "127/QĐ-TTg: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
       "muc_tieu": "127/QĐ-TTg",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc"
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "127/QĐ-TTg: chưa có toàn văn trong raw/",
-      "muc_tieu": "127/QĐ-TTg",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"127/QĐ-TTg\" --ghi",
-      "luong": "nap-lam-sach"
     },
     {
       "ma": "KHONG_NGUON_A",
@@ -1115,14 +1043,6 @@
       "luong": "hieu-luc"
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Vừa",
-      "tieuDe": "17/2023/TT-BNNPTNT: chưa có toàn văn trong raw/",
-      "muc_tieu": "17/2023/TT-BNNPTNT",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"17/2023/TT-BNNPTNT\" --ghi",
-      "luong": "nap-lam-sach"
-    },
-    {
       "ma": "CO_QUAN_DA_SAP_NHAP",
       "muc": "Thấp",
       "tieuDe": "17/2023/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT",
@@ -1345,14 +1265,6 @@
       "muc_tieu": "211/2025/NĐ-CP",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc"
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "211/2025/NĐ-CP: chưa có toàn văn trong raw/",
-      "muc_tieu": "211/2025/NĐ-CP",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"211/2025/NĐ-CP\" --ghi",
-      "luong": "nap-lam-sach"
     },
     {
       "ma": "KHONG_NGUON_A",
@@ -2537,14 +2449,6 @@
       "muc_tieu": "45/2023/TT-BCT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc"
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "45/2023/TT-BCT: chưa có toàn văn trong raw/",
-      "muc_tieu": "45/2023/TT-BCT",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"45/2023/TT-BCT\" --ghi",
-      "luong": "nap-lam-sach"
     },
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",

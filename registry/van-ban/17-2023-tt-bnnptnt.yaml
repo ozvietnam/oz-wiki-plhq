@@ -11,6 +11,8 @@ nhanh:
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-17-2023-tt-bnnptnt-40996/48231.htm
     truy_cap: '2026-07-02'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/12/40996/48199-1-2024101-10217-2023-tt-bnnptnt.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 340
 xac_minh:
   muc: NGUON_A
@@ -19,3 +21,4 @@ xac_minh:
   ngay: '2026-10-04'
   boi: khoi-tao
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 340 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn).
+toan_van: raw/download/congbaocdn.chinhphu.vn/17-2023-tt-bnnptnt.pdf
