@@ -86,11 +86,14 @@ export function napSo(root = ROOT) {
   const coQuan = docYaml(join(root, 'registry', 'co-quan.yaml')) || [];
   const nguon = docYaml(join(root, 'registry', 'nguon-uy-tin.yaml')) || {};
 
+  // Chỉ mục theo số hiệu + số hiệu khác (cách viết sai/biến thể hay gặp, vd lỗi gõ trong biểu thuế).
   const theoKhoa = new Map();
   for (const d of vanBan) {
-    const k = khoa(d.so_hieu);
-    if (!theoKhoa.has(k)) theoKhoa.set(k, []);
-    theoKhoa.get(k).push(d);
+    for (const s of [d.so_hieu, ...(Array.isArray(d.so_hieu_khac) ? d.so_hieu_khac : [])]) {
+      const k = khoa(s);
+      if (!theoKhoa.has(k)) theoKhoa.set(k, []);
+      if (!theoKhoa.get(k).includes(d)) theoKhoa.get(k).push(d);
+    }
   }
   return { vanBan, loiDoc, cay, nutCay, coQuan, nguon, theoKhoa };
 }

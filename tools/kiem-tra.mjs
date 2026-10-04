@@ -6,7 +6,7 @@ import { napSo, khoa, slugTuSoHieu, bacNguon, chuanCanh, dungDoThi, homNay,
 
 const NGAY = /^\d{4}-\d{2}-\d{2}$/;
 const TRUONG = new Set(['so_hieu', 'loai', 'ten', 'co_quan', 'ngay_ban_hanh', 'hieu_luc_tu', 'het_hieu_luc_tu',
-  'tinh_trang', 'nhanh', 'quan_he', 'nguon', 'toan_van', 'trich_dan_trong_bieu_thue', 'xac_minh', 'ghi_chu', 'tu_khoa']);
+  'tinh_trang', 'nhanh', 'quan_he', 'nguon', 'toan_van', 'trich_dan_trong_bieu_thue', 'xac_minh', 'ghi_chu', 'tu_khoa', 'so_hieu_khac']);
 
 export function kiemTra(so, { today = homNay() } = {}) {
   const loi = [];
@@ -25,7 +25,7 @@ export function kiemTra(so, { today = homNay() } = {}) {
   }
 
   for (const [k, ds] of so.theoKhoa) {
-    if (ds.length > 1) L(ds.map((d) => d._file).join(', '), `trùng số hiệu ${ds[0].so_hieu} (khoá ${k}) — gộp lại, hoặc ghi rõ năm nếu là hai quyết định khác năm`);
+    if (ds.length > 1) L(ds.map((d) => d._file).join(', '), `trùng số hiệu (khoá ${k}) giữa ${ds.map((d) => d.so_hieu).join(' và ')} — gộp lại, sửa so_hieu_khac, hoặc ghi rõ năm nếu là hai quyết định khác năm`);
   }
 
   for (const d of so.vanBan) {
@@ -33,6 +33,7 @@ export function kiemTra(so, { today = homNay() } = {}) {
     if (!d || typeof d !== 'object') { L(f, 'không phải object'); continue; }
     for (const k of Object.keys(d)) if (!k.startsWith('_') && !TRUONG.has(k)) W(f, `trường lạ "${k}"`);
     if (!d.so_hieu) L(f, 'thiếu so_hieu');
+    if (d.so_hieu_khac != null && !Array.isArray(d.so_hieu_khac)) L(f, 'so_hieu_khac phải là danh sách');
     if (!d.ten) L(f, 'thiếu ten');
     if (!LOAI.includes(d.loai)) L(f, `loai "${d.loai}" không hợp lệ (${LOAI.join(', ')})`);
     if (!TINH_TRANG.includes(d.tinh_trang)) L(f, `tinh_trang "${d.tinh_trang}" không hợp lệ (${TINH_TRANG.join(', ')})`);

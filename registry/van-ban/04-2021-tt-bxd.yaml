@@ -5,7 +5,8 @@ ten: Hướng dẫn xuất khẩu khoáng sản làm vật liệu xây dựng
 co_quan: BXD
 ngay_ban_hanh: '2021-06-30'
 hieu_luc_tu: '2021-08-15'
-tinh_trang: CON_HIEU_LUC
+het_hieu_luc_tu: '2026-06-01'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong/giay-phep
 nguon:
@@ -18,4 +19,4 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: khoi-tao
-ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 34 mã HS). Tiêu đề đã đối chiếu (vbpl.vn (boxaydung)).
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 34 mã HS). Tiêu đề đã đối chiếu (vbpl.vn (boxaydung)). GHI CHÚ NGHIỆP VỤ (hs-code-api): Hết hiệu lực từ 01/6/2026 khi TT 11/2026/TT-BXD có hiệu lực'

@@ -53,7 +53,14 @@ t('lỗi: loại sai + cơ quan lạ', has(/loai "SAI"/) && has(/co_quan "XYZ"/)
 t('lỗi: NGUON_A mà không có nguồn A', has(/NGUON_A nhưng không có nguồn bậc A/));
 t('lỗi: còn hiệu lực nhưng ngày hết hiệu lực đã qua', has(/het_hieu_luc_tu 2020-01-01 đã qua/));
 t('lỗi: chu trình thay thế', has(/chu trình thay thế/));
-t('lỗi: trùng số hiệu', has(/trùng số hiệu 1\/2026\/TT-BTC/));
+t('lỗi: trùng số hiệu', has(/trùng số hiệu.*1\/2026\/TT-BTC/));
+const r3 = soGia({
+  'x.yaml': `so_hieu: 12/2018/TT-BCT\nso_hieu_khac: [12/2018/TT-BTC]\nloai: THONG_TU\nten: X\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [quan-ly-ngoai-thuong/luat-khung]\n${XM}\n`,
+  'y.yaml': `so_hieu: 5/2026/TT-BCT\nloai: THONG_TU\nten: Y\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [quan-ly-ngoai-thuong/luat-khung]\nquan_he: {sua_doi: [12/2018/TT-BTC]}\n${XM}\n`,
+});
+const so3 = napSo(r3);
+t('so_hieu_khac: tra được bằng cách viết sai', so3.theoKhoa.get(khoa('12/2018/TT-BTC'))?.[0]?.so_hieu === '12/2018/TT-BCT');
+t('so_hieu_khac: quan hệ trỏ vào cách viết khác không bị báo thiếu văn bản', !timDiemMu(so3, { today: '2026-10-04', root: r3 }).some((d) => d.ma === 'THIEU_VAN_BAN'));
 t('sổ thật không có lỗi', kiemTra(napSo(), {}).loi.length === 0, JSON.stringify(kiemTra(napSo(), {}).loi.slice(0, 3)));
 
 // 4. Điểm mù

@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-04",
-  "tong": 383,
+  "tong": 386,
   "diem": [
     {
       "ma": "KHONG_NGUON_A",
@@ -85,18 +85,10 @@
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
-      "tieuDe": "04/2021/TT-BXD: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "tieuDe": "04/2021/TT-BXD: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "04/2021/TT-BXD",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc"
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "04/2021/TT-BXD: chưa có toàn văn trong raw/",
-      "muc_tieu": "04/2021/TT-BXD",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"04/2021/TT-BXD\" --ghi",
-      "luong": "nap-lam-sach"
     },
     {
       "ma": "KHONG_NGUON_A",
@@ -193,6 +185,38 @@
       "muc_tieu": "07/2023/TT-NHNN",
       "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
       "luong": "cay-du-lieu"
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "07/2026/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
+      "muc_tieu": "07/2026/TT-BCT",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon"
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "07/2026/TT-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "07/2026/TT-BCT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc"
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "07/2026/TT-BCT: chưa có toàn văn trong raw/",
+      "muc_tieu": "07/2026/TT-BCT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"07/2026/TT-BCT\" --ghi",
+      "luong": "nap-lam-sach"
+    },
+    {
+      "ma": "VAN_BAN_KHUNG",
+      "muc": "Vừa",
+      "tieuDe": "07/2026/TT-BCT: chưa có tiêu đề, ngày, nguồn",
+      "muc_tieu": "07/2026/TT-BCT",
+      "viec": "Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.",
+      "luong": "he-thong-hoa"
     },
     {
       "ma": "KHONG_NGUON_A",
@@ -565,17 +589,17 @@
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
-      "tieuDe": "12/2018/TT-BTC: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "12/2018/TT-BTC",
+      "tieuDe": "12/2018/TT-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "12/2018/TT-BCT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc"
     },
     {
       "ma": "KHONG_TOAN_VAN",
       "muc": "Thấp",
-      "tieuDe": "12/2018/TT-BTC: chưa có toàn văn trong raw/",
-      "muc_tieu": "12/2018/TT-BTC",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"12/2018/TT-BTC\" --ghi",
+      "tieuDe": "12/2018/TT-BCT: chưa có toàn văn trong raw/",
+      "muc_tieu": "12/2018/TT-BCT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"12/2018/TT-BCT\" --ghi",
       "luong": "nap-lam-sach"
     },
     {

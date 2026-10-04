@@ -7,8 +7,10 @@ tinh_trang: CHUA_XAC_MINH
 nhanh:
   - quan-ly-ngoai-thuong/giay-phep
 quan_he:
-  sua_doi:
-    - 04/2021/TT-BXD
+  thay_the:
+    - so_hieu: 04/2021/TT-BXD
+      tu_ngay: '2026-06-01'
+      can_cu: theo ghi chú nghiên cứu của hs-code-api data/legal-docs.json — chưa đối chiếu nguồn A
 xac_minh:
   muc: CHUA_XAC_MINH
   pham_vi: hiểu biết nền lúc khởi tạo
