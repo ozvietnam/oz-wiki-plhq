@@ -6,5 +6,6647 @@
   "phien_ban": "2026-10-04",
   "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/tax.json"
  },
- "van_ban": []
+ "van_ban": [
+  {
+   "so_hieu": "15/2024/TT-BYT",
+   "slug": "15-2024-tt-byt",
+   "ten": "Ban hành Danh mục thực phẩm, phụ gia thực phẩm và dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam phải kiểm tra nhà nước về an toàn thực phẩm nhập khẩu thuộc phạm vi quản lý của Bộ Y tế",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2024-11-02",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": false,
+   "bang": {
+    "tep": "danh-muc/15-2024-tt-byt.csv",
+    "nguon": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/44656/55863-1-2025629-63015-2024-tt-byt.pdf",
+    "trich_boi": "claude-code@ozvietnam",
+    "ngay": "2026-10-04",
+    "da_doi_chieu": false
+   },
+   "dong": [
+    {
+     "mo_ta": "Thực phẩm bổ sung",
+     "nhom": "I.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "dieu_kien": "Ô Mã HS ghi: Mã HS của hàng hóa theo Sáu (6) quy tắc phân loại tổng quát ban hành kèm theo Thông tư số 31/2022/TT-BTC ngày 08/6/2022 của Bộ Tài chính",
+     "dan_chieu": "31/2022/TT-BTC",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 100(i): Curcumin",
+     "nhom": "II.2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "09103000",
+     "mo_ta": "INS 100(ii): Turmeric",
+     "nhom": "II.3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 100(ii): Turmeric",
+     "nhom": "II.3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "29362300",
+     "mo_ta": "INS 101(i): Riboflavin gồm: - Riboflavin, tổng hợp",
+     "nhom": "II.4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "29362300",
+     "mo_ta": "INS 101(ii): Riboflavin gồm: - Natri Riboflavin 5'-phosphat",
+     "nhom": "II.4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "29362300",
+     "mo_ta": "INS 101(iii): Riboflavin gồm: - Riboflavin từ Bacillus subtilis",
+     "nhom": "II.4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "32041900",
+     "mo_ta": "INS 102: Tartrazin",
+     "nhom": "II.5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "32041210",
+     "mo_ta": "INS 104: Quinolin yellow",
+     "nhom": "II.6",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "32041290",
+     "mo_ta": "INS 110: Sunset yellow FCF",
+     "nhom": "II.7",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 120: Carmin",
+     "nhom": "II.8",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "32041710",
+     "mo_ta": "INS 122: Azorubin (Carmoisin)",
+     "nhom": "II.9",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 123: Amaranth",
+     "nhom": "II.10",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "32041900",
+     "mo_ta": "INS 124: Ponceau 4R (Cochineal red A)",
+     "nhom": "II.11",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "32041900",
+     "mo_ta": "INS 127: Erythrosin",
+     "nhom": "II.12",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "32041710",
+     "mo_ta": "INS 129: Allura red AC",
+     "nhom": "II.13",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "32041790",
+     "mo_ta": "INS 129: Allura red AC",
+     "nhom": "II.13",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 132: Indigotin (Indigo carmin)",
+     "nhom": "II.14",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "32041190",
+     "mo_ta": "INS 133: Brilliant blue FCF",
+     "nhom": "II.15",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 140: Clorophylls",
+     "nhom": "II.16",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 141(i): Phức đồng clorophyll",
+     "nhom": "II.17",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 141(ii): Phức đồng clorophyllin (muối natri, kali của nó)",
+     "nhom": "II.18",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "32129021",
+     "mo_ta": "INS 143: Fast green FCF",
+     "nhom": "II.19",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "17029040",
+     "mo_ta": "INS 150a: Các Caramen, gồm: - Caramen nhóm I (caramen nguyên chất)",
+     "nhom": "II.20",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "17029040",
+     "mo_ta": "INS 150b: Các Caramen, gồm: - Caramen nhóm II (caramen sulfit)",
+     "nhom": "II.20",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "17029040",
+     "mo_ta": "INS 150c: Các Caramen, gồm: - Caramen nhóm III (caramen amoni)",
+     "nhom": "II.20",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "17029040",
+     "mo_ta": "INS 150d: Các Caramen, gồm: - Caramen nhóm IV (caramen amoni sulfit)",
+     "nhom": "II.20",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "32041190",
+     "mo_ta": "INS 151: Brilliant black (Black PN)",
+     "nhom": "II.21",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 153: Carbon thực vật",
+     "nhom": "II.22",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "32041900",
+     "mo_ta": "INS 155: Brown HT",
+     "nhom": "II.23",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 160a(i): Các Beta-caroten, gồm: - Beta-caroten tổng hợp",
+     "nhom": "II.24",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 160a(ii): Các Beta-caroten, gồm: - Beta - Caroten (chiết xuất từ thực vật)",
+     "nhom": "II.24",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 160a(iii): Các Beta-caroten, gồm: - Beta-Caroten, Blakeslea trispora",
+     "nhom": "II.24",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 160b(i): Chất chiết xuất từ annatto, gồm: Chất chiết xuất từ annatto, bixin based",
+     "nhom": "II.25",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 160b(ii): Chất chiết xuất từ annatto, gồm: Chất chiết xuất từ annatto, norbixin-based",
+     "nhom": "II.25",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "33019090",
+     "mo_ta": "INS 160c(i): Paprika oleoresin",
+     "nhom": "II.26",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 160d(i): Lycopen, gồm: - Lycopen tổng hợp",
+     "nhom": "II.27",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 160d(ii): Lycopen, gồm: - Lycopen chiết xuất từ cà chua",
+     "nhom": "II.27",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 160d(iii): Lycopen, gồm: - Lycopen, Blakeslea trispora",
+     "nhom": "II.27",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 160e: beta-apo- 8'-Carotenal",
+     "nhom": "II.28",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 160f: Este etyl của acid beta-apo-8'-Carotenoic",
+     "nhom": "II.29",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 161b(i): Lutein, gồm: - Lutein từ Tagetes erecta",
+     "nhom": "II.30",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 161b(iii): Lutein, gồm: - Lutein este từ Tagetes erecta",
+     "nhom": "II.30",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 161g: Canthaxanthin",
+     "nhom": "II.31",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 161h(i): Zeaxanthin tổng hợp",
+     "nhom": "II.32",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 162: Beet red",
+     "nhom": "II.33",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 163(ii): Chất chiết xuất vỏ nho",
+     "nhom": "II.34",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 163(iii): Chất chiết xuất từ quả lý chua đen",
+     "nhom": "II.35",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 163(iv): Màu ngô tím",
+     "nhom": "II.36",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 163(v): Màu bắp cải đỏ",
+     "nhom": "II.37",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 163(vi): Chất chiết xuất từ cà rốt đen",
+     "nhom": "II.38",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 163(vii): Màu khoai lang tím",
+     "nhom": "II.39",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 163(viii): Màu củ cải đỏ",
+     "nhom": "II.40",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 164: Gardenia yellow",
+     "nhom": "II.41",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "28365010",
+     "mo_ta": "INS 170(i): Calci carbonat",
+     "nhom": "II.42",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "28230000",
+     "mo_ta": "INS 171: Titan dioxyd",
+     "nhom": "II.43",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "28211000",
+     "mo_ta": "INS 172(i): Oxyd sắt, gồm: - Oxyd sắt đen",
+     "nhom": "II.44",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "28211000",
+     "mo_ta": "INS 172(ii): Oxyd sắt, gồm: - Oxyd sắt đỏ",
+     "nhom": "II.44",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "28211000",
+     "mo_ta": "INS 172(iii): Oxyd sắt, gồm: - Oxyd sắt vàng",
+     "nhom": "II.44",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "32019000",
+     "mo_ta": "INS 181: Acid tannic (Tannin)",
+     "nhom": "II.45",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "29161900",
+     "mo_ta": "INS 200: Acid sorbic",
+     "nhom": "II.46",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "29161900",
+     "mo_ta": "INS 201: Natri sorbat",
+     "nhom": "II.47",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "29161900",
+     "mo_ta": "INS 202: Kali sorbat",
+     "nhom": "II.48",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "29161900",
+     "mo_ta": "INS 203: Calci sorbat",
+     "nhom": "II.49",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "29163100",
+     "mo_ta": "INS 210: Acid benzoic",
+     "nhom": "II.50",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "29163100",
+     "mo_ta": "INS 211: Muối benzoate, gồm: - Natri benzoat",
+     "nhom": "II.51",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "29163100",
+     "mo_ta": "INS 212: Muối benzoate, gồm: - Kali benzoat",
+     "nhom": "II.51",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "29163100",
+     "mo_ta": "INS 213: Muối benzoate, gồm: - Calci benzoat",
+     "nhom": "II.51",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "29182990",
+     "mo_ta": "INS 214: Ethyl para-hydroxybenzoat",
+     "nhom": "II.52",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "29163100",
+     "mo_ta": "INS 218: Methyl para-hydroxybenzoat",
+     "nhom": "II.53",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "28112920",
+     "mo_ta": "INS 220: Sulfua dioxyd",
+     "nhom": "II.54",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "28321000",
+     "mo_ta": "INS 221: Natri sulfit",
+     "nhom": "II.55",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "28321000",
+     "mo_ta": "INS 222: Natri hydro sulfit",
+     "nhom": "II.56",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "28321000",
+     "mo_ta": "INS 223: Natri metabisulfit",
+     "nhom": "II.57",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "28322000",
+     "mo_ta": "INS 224: Kali metabisulfit",
+     "nhom": "II.58",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "28322000",
+     "mo_ta": "INS 225: Kali sulfit",
+     "nhom": "II.59",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "29071900",
+     "mo_ta": "INS 231: Ortho-phenylphenol",
+     "nhom": "II.60",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "29071900",
+     "mo_ta": "INS 232: Natri ortho-phenylphenol",
+     "nhom": "II.61",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "29419000",
+     "mo_ta": "INS 234: Nisin",
+     "nhom": "II.62",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "29419000",
+     "mo_ta": "INS 235: Natamycin (Pimaricin)",
+     "nhom": "II.63",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "29339990",
+     "mo_ta": "INS 239: Hexamethylen tetramin",
+     "nhom": "II.64",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "29209000",
+     "mo_ta": "INS 242: Dimethyl dicarbonat",
+     "nhom": "II.65",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "29159020",
+     "mo_ta": "INS 243: Lauric argrinat ethyl este",
+     "nhom": "II.66",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "28341000",
+     "mo_ta": "INS 249: Kali nitrit",
+     "nhom": "II.67",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "28341000",
+     "mo_ta": "INS 250: Natri nitrit",
+     "nhom": "II.68",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "28342990",
+     "mo_ta": "INS 251: Natri nitrat",
+     "nhom": "II.69",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "29152100",
+     "mo_ta": "INS 260: Acid acetic băng",
+     "nhom": "II.70",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "29152990",
+     "mo_ta": "INS 261(i): Kali acetat",
+     "nhom": "II.71",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "29152910",
+     "mo_ta": "INS 262(i): Natri acetat",
+     "nhom": "II.72",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "29152990",
+     "mo_ta": "INS 262(ii): Natri diacetat",
+     "nhom": "II.73",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "29152990",
+     "mo_ta": "INS 263: Calci acetat",
+     "nhom": "II.74",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "29322090",
+     "mo_ta": "INS 266: Natri dehydroacetat",
+     "nhom": "II.75",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "29181100",
+     "mo_ta": "INS 270: Acid lactic, L-, D- và DL-",
+     "nhom": "II.76",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "29155000",
+     "mo_ta": "INS 280: Acid propionic",
+     "nhom": "II.77",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "29155000",
+     "mo_ta": "INS 281: Natri propionat",
+     "nhom": "II.78",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "29155000",
+     "mo_ta": "INS 282: Calci propionat",
+     "nhom": "II.79",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "29155000",
+     "mo_ta": "INS 283: Kali propionat",
+     "nhom": "II.80",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "28112100",
+     "mo_ta": "INS 290: Carbon dioxyd",
+     "nhom": "II.81",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "29181900",
+     "mo_ta": "INS 296: Acid malic (DL-)",
+     "nhom": "II.82",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "29171900",
+     "mo_ta": "INS 297: Acid fumaric",
+     "nhom": "II.83",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "29362700",
+     "mo_ta": "INS 300: Acid ascorbic (L-)",
+     "nhom": "II.84",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "29362700",
+     "mo_ta": "INS 301: Natri ascorbat",
+     "nhom": "II.85",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "29181590",
+     "mo_ta": "INS 302: Calci ascorbat",
+     "nhom": "II.86",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "29362700",
+     "mo_ta": "INS 304: Ascorbyl palmitat",
+     "nhom": "II.87",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "29362700",
+     "mo_ta": "INS 305: Ascorbyl stearat",
+     "nhom": "II.88",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "29362800",
+     "mo_ta": "INS 307a: d-alpha-Tocopherol",
+     "nhom": "II.89",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "29362800",
+     "mo_ta": "INS 307b: Tocopherol concentrat (dạng hỗn hợp)",
+     "nhom": "II.90",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "29362800",
+     "mo_ta": "INS 307c: dl-alpha-Tocopherol",
+     "nhom": "II.91",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "29182990",
+     "mo_ta": "INS 310: Propyl gallat",
+     "nhom": "II.92",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "13019090",
+     "mo_ta": "INS 314: Nhựa guaiac",
+     "nhom": "II.93",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "29362700",
+     "mo_ta": "INS 315: Acid erythorbic (acid isoascorbic)",
+     "nhom": "II.94",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "29362700",
+     "mo_ta": "INS 316: Natri erythorbat (natri isoascorbat)",
+     "nhom": "II.95",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "29072990",
+     "mo_ta": "INS 319: Tertiary butylhydroquinon (TBHQ)",
+     "nhom": "II.96",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "29095000",
+     "mo_ta": "INS 320: Butyl hydroxyanisol (BHA)",
+     "nhom": "II.97",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "29071900",
+     "mo_ta": "INS 321: Butyl hydroxytoluen (BHT)",
+     "nhom": "II.98",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "29232011",
+     "mo_ta": "INS 322(i): Lecithin",
+     "nhom": "II.99",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "dieu_kien": "nếu từ thực vật",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "29232019",
+     "mo_ta": "INS 322(i): Lecithin",
+     "nhom": "II.99",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "dieu_kien": "nếu không phải từ thực vật",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "29181100",
+     "mo_ta": "INS 325: Natri lactat",
+     "nhom": "II.100",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "29181100",
+     "mo_ta": "INS 326: Kali lactat",
+     "nhom": "II.101",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "29181100",
+     "mo_ta": "INS 327: Calci lactat",
+     "nhom": "II.102",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "29181100",
+     "mo_ta": "INS 329: Magnesi lactat, DL-",
+     "nhom": "II.103",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "29181400",
+     "mo_ta": "INS 330: Acid citric",
+     "nhom": "II.104",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "29181590",
+     "mo_ta": "INS 331(i): Natri dihydro citrat",
+     "nhom": "II.105",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "29181590",
+     "mo_ta": "INS 331(ii): Dinatri monohydro citrat",
+     "nhom": "II.106",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "29181590",
+     "mo_ta": "INS 331(iii): Trinatri citrat",
+     "nhom": "II.107",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "29181590",
+     "mo_ta": "INS 332(i): Kali dihydro citrat",
+     "nhom": "II.108",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "29181590",
+     "mo_ta": "INS 332(ii): Trikali citrat",
+     "nhom": "II.109",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "29181510",
+     "mo_ta": "INS 333(iii): Tricalci citrat",
+     "nhom": "II.110",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "29181200",
+     "mo_ta": "INS 334: Acid tartaric, L(+)-",
+     "nhom": "II.111",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "29181300",
+     "mo_ta": "INS 335(ii): Natri L(+)-tartrat",
+     "nhom": "II.112",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "29181300",
+     "mo_ta": "INS 337: Kali natri L(+)-tartrat",
+     "nhom": "II.113",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "28092039",
+     "mo_ta": "INS 338: Acid phosphoric",
+     "nhom": "II.114",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "28352200",
+     "mo_ta": "INS 339(i): Natri dihydro phosphat",
+     "nhom": "II.115",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "28352200",
+     "mo_ta": "INS 339(ii): Dinatri hydro phosphat",
+     "nhom": "II.116",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "28352910",
+     "mo_ta": "INS 339(iii): Trinatri phosphat",
+     "nhom": "II.117",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "28352400",
+     "mo_ta": "INS 340(i): Kali dihydro phosphat",
+     "nhom": "II.118",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "28352400",
+     "mo_ta": "INS 340(ii): Dikali hydro phosphat",
+     "nhom": "II.119",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "28352990",
+     "mo_ta": "INS 340(iii): Trikali phosphat",
+     "nhom": "II.120",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "28352600",
+     "mo_ta": "INS 341(i): Calci dihydro phosphat",
+     "nhom": "II.121",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "28352590",
+     "mo_ta": "INS 341(ii): Calci hydro phosphat",
+     "nhom": "II.122",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "28352600",
+     "mo_ta": "INS 341(iii): Tricalci phosphat",
+     "nhom": "II.123",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "28352990",
+     "mo_ta": "INS 342(i): Amoni dihydro phosphat",
+     "nhom": "II.124",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "28352990",
+     "mo_ta": "INS 342(ii): Diamoni hydro phosphat",
+     "nhom": "II.125",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "21"
+    },
+    {
+     "ma_hs": "28352990",
+     "mo_ta": "INS 343(i): Magnesi dihydro phosphat",
+     "nhom": "II.126",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "21"
+    },
+    {
+     "ma_hs": "28352990",
+     "mo_ta": "INS 343(ii): Magnesi hydro phosphat",
+     "nhom": "II.127",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "21"
+    },
+    {
+     "ma_hs": "28352990",
+     "mo_ta": "INS 343(iii): Trimagnesi phosphat",
+     "nhom": "II.128",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "21"
+    },
+    {
+     "ma_hs": "29181900",
+     "mo_ta": "INS 350(i): Natri hyro DL-malat",
+     "nhom": "II.129",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "21"
+    },
+    {
+     "ma_hs": "29181900",
+     "mo_ta": "INS 350(ii): Natri DL-malat",
+     "nhom": "II.130",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "21"
+    },
+    {
+     "ma_hs": "29189900",
+     "mo_ta": "INS 352(ii): Calci malat, D, L-",
+     "nhom": "II.131",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "29181300",
+     "mo_ta": "INS 353: Acid metatartaric",
+     "nhom": "II.132",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "29171290",
+     "mo_ta": "INS 355: Acid adipic",
+     "nhom": "II.133",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "29171900",
+     "mo_ta": "INS 363: Acid succinic",
+     "nhom": "II.134",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "29171900",
+     "mo_ta": "INS 364(ii): Dinatri succinat",
+     "nhom": "II.135",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "29171900",
+     "mo_ta": "INS 365: Natri fumarat (các muối)",
+     "nhom": "II.136",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "29181590",
+     "mo_ta": "INS 380: Triamoni citrat",
+     "nhom": "II.137",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "29181590",
+     "mo_ta": "INS 381: Sắt amoni citrat",
+     "nhom": "II.138",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "29181590",
+     "mo_ta": "INS 384: Isopropyl citrate (các muối)",
+     "nhom": "II.139",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "29212100",
+     "mo_ta": "INS 385: Calci dinatri etylendiamintetraacetat",
+     "nhom": "II.140",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "29224900",
+     "mo_ta": "INS 386: Dinatri ethylendiamintetraacetat (EDTA)",
+     "nhom": "II.141",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "29159090",
+     "mo_ta": "INS 388: Acid thiodipropionic",
+     "nhom": "II.142",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "29309090",
+     "mo_ta": "INS 389: Dilauryl thiodipropionat",
+     "nhom": "II.143",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "13021990",
+     "mo_ta": "INS 392: Chiết xuất hương thảo",
+     "nhom": "II.144",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "39131000",
+     "mo_ta": "INS 400: Acid alginic",
+     "nhom": "II.145",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "39131000",
+     "mo_ta": "INS 401: Natri alginat",
+     "nhom": "II.146",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "39131000",
+     "mo_ta": "INS 402: Kali alginat",
+     "nhom": "II.147",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "24"
+    },
+    {
+     "ma_hs": "39131000",
+     "mo_ta": "INS 403: Amoni alginat",
+     "nhom": "II.148",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "24"
+    },
+    {
+     "ma_hs": "39131000",
+     "mo_ta": "INS 404: Calci alginat",
+     "nhom": "II.149",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "24"
+    },
+    {
+     "ma_hs": "39131000",
+     "mo_ta": "INS 405: Propylen glycol alginat",
+     "nhom": "II.150",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "24"
+    },
+    {
+     "ma_hs": "13023100",
+     "mo_ta": "INS 406: Thạch Aga",
+     "nhom": "II.151",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "13023911",
+     "mo_ta": "INS 407: Carrageenan",
+     "nhom": "II.152",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "13023912",
+     "mo_ta": "INS 407: Carrageenan",
+     "nhom": "II.152",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "13023913",
+     "mo_ta": "INS 407: Carrageenan",
+     "nhom": "II.152",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "13023919",
+     "mo_ta": "INS 407: Carrageenan",
+     "nhom": "II.152",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "13023990",
+     "mo_ta": "INS 407a: Rong biển eucheuma đã qua chế biến",
+     "nhom": "II.153",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "13023990",
+     "mo_ta": "INS 410: Gôm đậu carob",
+     "nhom": "II.154",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "13023200",
+     "mo_ta": "INS 412: Gôm gua",
+     "nhom": "II.155",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "13019090",
+     "mo_ta": "INS 413: Gôm tragacanth",
+     "nhom": "II.156",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "13012000",
+     "mo_ta": "INS 414: Gôm arabic",
+     "nhom": "II.157",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "39139090",
+     "mo_ta": "INS 415: Gôm xanthan",
+     "nhom": "II.158",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "13019090",
+     "mo_ta": "INS 416: Gôm karaya",
+     "nhom": "II.159",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "13023990",
+     "mo_ta": "INS 417: Gôm tara",
+     "nhom": "II.160",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "39139090",
+     "mo_ta": "INS 418: Gôm gellan",
+     "nhom": "II.161",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "29054400",
+     "mo_ta": "INS 420(i): Sorbitol",
+     "nhom": "II.162",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "38246000",
+     "mo_ta": "INS 420(ii): Siro sorbitol",
+     "nhom": "II.163",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "29054300",
+     "mo_ta": "INS 421: Manitol",
+     "nhom": "II.164",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    },
+    {
+     "ma_hs": "29054500",
+     "mo_ta": "INS 422: Glycerol",
+     "nhom": "II.165",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    },
+    {
+     "ma_hs": "13012000",
+     "mo_ta": "INS 423: Gôm arabic biến tính bằng acid octenyl succinic (OSA)",
+     "nhom": "II.166",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    },
+    {
+     "ma_hs": "39139090",
+     "mo_ta": "INS 424: Curdlan",
+     "nhom": "II.167",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    },
+    {
+     "ma_hs": "13023990",
+     "mo_ta": "INS 425: Bột konjac",
+     "nhom": "II.168",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    },
+    {
+     "ma_hs": "13023990",
+     "mo_ta": "INS 427: Gôm cassia",
+     "nhom": "II.169",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    },
+    {
+     "ma_hs": "39072990",
+     "mo_ta": "INS 430: Polyoxyethylen (8) stearat",
+     "nhom": "II.170",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "28"
+    },
+    {
+     "ma_hs": "34024290",
+     "mo_ta": "INS 431: Polyoxyethylen (40) stearat",
+     "nhom": "II.171",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "28"
+    },
+    {
+     "ma_hs": "34024290",
+     "mo_ta": "INS 432: Polyoxyethylen (20) sorbitan monolaurat",
+     "nhom": "II.172",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "28"
+    },
+    {
+     "ma_hs": "34024290",
+     "mo_ta": "INS 433: Polyoxyethylen (20) sorbitan monooleat",
+     "nhom": "II.173",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "28"
+    },
+    {
+     "ma_hs": "34024290",
+     "mo_ta": "INS 434: Polyoxyethylen (20) sorbitan monopalmitat",
+     "nhom": "II.174",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "28"
+    },
+    {
+     "ma_hs": "34024290",
+     "mo_ta": "INS 435: Polyoxyethylen (20) sorbitan monostearat",
+     "nhom": "II.175",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "28"
+    },
+    {
+     "ma_hs": "34024290",
+     "mo_ta": "INS 436: Polyoxyethylen (20) sorbitan tristearat",
+     "nhom": "II.176",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "28"
+    },
+    {
+     "ma_hs": "13022000",
+     "mo_ta": "INS 440: Pectin",
+     "nhom": "II.177",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "28"
+    },
+    {
+     "ma_hs": "28352990",
+     "mo_ta": "INS 442: Các muối amoni của acid phosphatidic",
+     "nhom": "II.178",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "28"
+    },
+    {
+     "ma_hs": "29400000",
+     "mo_ta": "INS 444: Sucrose acetat isobutyrat",
+     "nhom": "II.179",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "29"
+    },
+    {
+     "ma_hs": "38063010",
+     "mo_ta": "INS 445(iii): Glycerol ester của nhựa cây",
+     "nhom": "II.180",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "29"
+    },
+    {
+     "ma_hs": "38063090",
+     "mo_ta": "INS 445(iii): Glycerol ester của nhựa cây",
+     "nhom": "II.180",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "29"
+    },
+    {
+     "ma_hs": "38069010",
+     "mo_ta": "INS 445(iii): Glycerol ester của nhựa cây",
+     "nhom": "II.180",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "29"
+    },
+    {
+     "ma_hs": "38069090",
+     "mo_ta": "INS 445(iii): Glycerol ester của nhựa cây",
+     "nhom": "II.180",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "29"
+    },
+    {
+     "ma_hs": "28352200",
+     "mo_ta": "INS 450(i): Dinatri diphosphat",
+     "nhom": "II.181",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "29"
+    },
+    {
+     "ma_hs": "28352910",
+     "mo_ta": "INS 450(ii): Trinatri diphosphat",
+     "nhom": "II.182",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "29"
+    },
+    {
+     "ma_hs": "28353910",
+     "mo_ta": "INS 450(iii): Tetranatri diphosphat",
+     "nhom": "II.183",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "29"
+    },
+    {
+     "ma_hs": "28353990",
+     "mo_ta": "INS 450(v): Tetrakali diphosphat",
+     "nhom": "II.184",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "30"
+    },
+    {
+     "ma_hs": "28352600",
+     "mo_ta": "INS 450(vi): Dicalci diphosphat",
+     "nhom": "II.185",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "30"
+    },
+    {
+     "ma_hs": "28352600",
+     "mo_ta": "INS 450(vii): Calci dihydro diphosphat",
+     "nhom": "II.186",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "30"
+    },
+    {
+     "ma_hs": "28352990",
+     "mo_ta": "INS 450(ix): Magnesi dihydro diphosphat",
+     "nhom": "II.187",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "31"
+    },
+    {
+     "ma_hs": "28353990",
+     "mo_ta": "INS 451(i): Pentanatri triphosphat",
+     "nhom": "II.188",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "31"
+    },
+    {
+     "ma_hs": "28353990",
+     "mo_ta": "INS 451(ii): Pentakali triphosphat",
+     "nhom": "II.189",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "31"
+    },
+    {
+     "ma_hs": "28353990",
+     "mo_ta": "INS 452(i): Natri polyphosphat",
+     "nhom": "II.190",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "31"
+    },
+    {
+     "ma_hs": "28353990",
+     "mo_ta": "INS 452(ii): Kali polyphosphat",
+     "nhom": "II.191",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "32"
+    },
+    {
+     "ma_hs": "28353990",
+     "mo_ta": "INS 452(iii): Natri calci polyphosphat",
+     "nhom": "II.192",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "32"
+    },
+    {
+     "ma_hs": "28353990",
+     "mo_ta": "INS 452(iv): Calci polyphosphat",
+     "nhom": "II.193",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "32"
+    },
+    {
+     "ma_hs": "28353990",
+     "mo_ta": "INS 452(v): Amoni polyphosphat",
+     "nhom": "II.194",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "32"
+    },
+    {
+     "ma_hs": "21022090",
+     "mo_ta": "INS 455: Mannoprotein của nấm men",
+     "nhom": "II.195",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "33"
+    },
+    {
+     "ma_hs": "35051010",
+     "mo_ta": "INS 457: alpha-Cyclodextrin",
+     "nhom": "II.196",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "33"
+    },
+    {
+     "ma_hs": "29400000",
+     "mo_ta": "INS 458: gamma-Cyclodextrin",
+     "nhom": "II.197",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "33"
+    },
+    {
+     "ma_hs": "35051090",
+     "mo_ta": "INS 459: beta-Cyclodextrin",
+     "nhom": "II.198",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "33"
+    },
+    {
+     "ma_hs": "39129020",
+     "mo_ta": "INS 460(i): Cellulose vi tinh thể (Cellulose gel)",
+     "nhom": "II.199",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "33"
+    },
+    {
+     "ma_hs": "39129090",
+     "mo_ta": "INS 460(i): Cellulose vi tinh thể (Cellulose gel)",
+     "nhom": "II.199",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "33"
+    },
+    {
+     "ma_hs": "39129090",
+     "mo_ta": "INS 460(ii): Bột cellulose",
+     "nhom": "II.200",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "33"
+    },
+    {
+     "ma_hs": "39123900",
+     "mo_ta": "INS 461: Methyl cellulose",
+     "nhom": "II.201",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "33"
+    },
+    {
+     "ma_hs": "39123900",
+     "mo_ta": "INS 462: Ethyl cellulose",
+     "nhom": "II.202",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "34"
+    },
+    {
+     "ma_hs": "39123900",
+     "mo_ta": "INS 463: Hydroxypropyl cellulose",
+     "nhom": "II.203",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "34"
+    },
+    {
+     "ma_hs": "39123900",
+     "mo_ta": "INS 464: Hydroxypropyl methyl cellulose",
+     "nhom": "II.204",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "34"
+    },
+    {
+     "ma_hs": "39123900",
+     "mo_ta": "INS 465: Methyl ethyl cellulose",
+     "nhom": "II.205",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "34"
+    },
+    {
+     "ma_hs": "39123100",
+     "mo_ta": "INS 466: Natri carboxymethyl cellulose (Gôm cellulose)",
+     "nhom": "II.206",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "34"
+    },
+    {
+     "ma_hs": "39123900",
+     "mo_ta": "INS 467: Ethyl hydroxyethyl cellulose",
+     "nhom": "II.207",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "34"
+    },
+    {
+     "ma_hs": "39123100",
+     "mo_ta": "INS 468: Cross-linked natri carboxymethyl cellulose",
+     "nhom": "II.208",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "35"
+    },
+    {
+     "ma_hs": "39123100",
+     "mo_ta": "INS 469: Natri carboxymethyl cellulose, thủy phân bằng enzyme (Gôm cellulose, thủy phân bằng enzym)",
+     "nhom": "II.209",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "35"
+    },
+    {
+     "ma_hs": "29157010",
+     "mo_ta": "INS 470(i): Muối của acid myristic, palmitic và stearic (NH4, Ca, K và Na)",
+     "nhom": "II.210",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "35"
+    },
+    {
+     "ma_hs": "29157030",
+     "mo_ta": "INS 470(i): Muối của acid myristic, palmitic và stearic (NH4, Ca, K và Na)",
+     "nhom": "II.210",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "35"
+    },
+    {
+     "ma_hs": "29159020",
+     "mo_ta": "INS 470(i): Muối của acid myristic, palmitic và stearic (NH4, Ca, K và Na)",
+     "nhom": "II.210",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "35"
+    },
+    {
+     "ma_hs": "29161500",
+     "mo_ta": "INS 470(ii): Muối của acid oleic (Ca, Na và K)",
+     "nhom": "II.211",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "35"
+    },
+    {
+     "ma_hs": "29157030",
+     "mo_ta": "INS 470(iii): Magnesi sterat",
+     "nhom": "II.212",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "35"
+    },
+    {
+     "ma_hs": "15200090",
+     "mo_ta": "INS 471: Mono và diglycerid của các acid béo",
+     "nhom": "II.213",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "35"
+    },
+    {
+     "ma_hs": "38249999",
+     "mo_ta": "INS 472a: Este của glycerol với acid acetic và acid béo",
+     "nhom": "II.214",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "35"
+    },
+    {
+     "ma_hs": "29163990",
+     "mo_ta": "INS 472b: Este của glycerol với acid lactic và acid béo",
+     "nhom": "II.215",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "36"
+    },
+    {
+     "ma_hs": "29163990",
+     "mo_ta": "INS 472c: Este của glycerol với acid citric và acid béo",
+     "nhom": "II.216",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "36"
+    },
+    {
+     "ma_hs": "29163990",
+     "mo_ta": "INS 472e: Este của glycerol với acid diacetyl tartaric và acid béo",
+     "nhom": "II.217",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "36"
+    },
+    {
+     "ma_hs": "29163990",
+     "mo_ta": "INS 473: Este của sucrose với các acid béo",
+     "nhom": "II.218",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "36"
+    },
+    {
+     "ma_hs": "29159090",
+     "mo_ta": "INS 473a: Oligoeste typ 1 và typ 2 của sucrose",
+     "nhom": "II.219",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "36"
+    },
+    {
+     "ma_hs": "38249970",
+     "mo_ta": "INS 474: Sucroglycerid",
+     "nhom": "II.220",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "36"
+    },
+    {
+     "ma_hs": "29163990",
+     "mo_ta": "INS 475: Este của polyglycerol với các acid béo",
+     "nhom": "II.221",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "36"
+    },
+    {
+     "ma_hs": "29163990",
+     "mo_ta": "INS 476: Este của polyglycerol với acid ricinoleic",
+     "nhom": "II.222",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "36"
+    },
+    {
+     "ma_hs": "29163990",
+     "mo_ta": "INS 477: Este của propylen glycol với acid béo",
+     "nhom": "II.223",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "37"
+    },
+    {
+     "ma_hs": "15180014",
+     "mo_ta": "INS 479: Dầu đậu nành oxy hóa nhiệt tương tác với mono và diglycerid của các acid béo",
+     "nhom": "II.224",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "37"
+    },
+    {
+     "ma_hs": "29171900",
+     "mo_ta": "INS 480: Dioctyl natri sulfosuccinat",
+     "nhom": "II.225",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "37"
+    },
+    {
+     "ma_hs": "29157030",
+     "mo_ta": "INS 481(i): Natri stearoyl lactylat",
+     "nhom": "II.226",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "37"
+    },
+    {
+     "ma_hs": "29181100",
+     "mo_ta": "INS 482(i): Calci stearoyl lactylat",
+     "nhom": "II.227",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "37"
+    },
+    {
+     "ma_hs": "29181590",
+     "mo_ta": "INS 484: Stearyl citrat",
+     "nhom": "II.228",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "37"
+    },
+    {
+     "ma_hs": "29054400",
+     "mo_ta": "INS 491: Sorbitan monostearat",
+     "nhom": "II.229",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "37"
+    },
+    {
+     "ma_hs": "29054400",
+     "mo_ta": "INS 492: Sorbitan tristearat",
+     "nhom": "II.230",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "37"
+    },
+    {
+     "ma_hs": "29054400",
+     "mo_ta": "INS 493: Sorbitan monolaurat",
+     "nhom": "II.231",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "38"
+    },
+    {
+     "ma_hs": "29054400",
+     "mo_ta": "INS 494: Sorbitan monooleat",
+     "nhom": "II.232",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "38"
+    },
+    {
+     "ma_hs": "29054400",
+     "mo_ta": "INS 495: Sorbitan monopalmitat",
+     "nhom": "II.233",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "38"
+    },
+    {
+     "ma_hs": "28362000",
+     "mo_ta": "INS 500(i): Natri carbonat",
+     "nhom": "II.234",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "38"
+    },
+    {
+     "ma_hs": "28363000",
+     "mo_ta": "INS 500(ii): Natri hydro carbonat",
+     "nhom": "II.235",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "38"
+    },
+    {
+     "ma_hs": "28369990",
+     "mo_ta": "INS 500(iii): Natri sesquicarbonat",
+     "nhom": "II.236",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "38"
+    },
+    {
+     "ma_hs": "28364000",
+     "mo_ta": "INS 501(i): Kali carbonat",
+     "nhom": "II.237",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "38"
+    },
+    {
+     "ma_hs": "28369990",
+     "mo_ta": "INS 501(ii): Kali hydro carbonat",
+     "nhom": "II.238",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "38"
+    },
+    {
+     "ma_hs": "28369910",
+     "mo_ta": "INS 503(i): Amoni carbonat",
+     "nhom": "II.239",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "39"
+    },
+    {
+     "ma_hs": "28369990",
+     "mo_ta": "INS 503(ii): Amoni hydro carbonat",
+     "nhom": "II.240",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "39"
+    },
+    {
+     "ma_hs": "25191000",
+     "mo_ta": "INS 504(i): Magnesi carbonat",
+     "nhom": "II.241",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "39"
+    },
+    {
+     "ma_hs": "28369990",
+     "mo_ta": "INS 504(i): Magnesi carbonat",
+     "nhom": "II.241",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "39"
+    },
+    {
+     "ma_hs": "28369990",
+     "mo_ta": "INS 504(ii): Magnesi hydroxyd carbonat",
+     "nhom": "II.242",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "39"
+    },
+    {
+     "ma_hs": "28061000",
+     "mo_ta": "INS 507: Acid hydrocloric",
+     "nhom": "II.243",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "39"
+    },
+    {
+     "ma_hs": "28273990",
+     "mo_ta": "INS 508: Kali clorid",
+     "nhom": "II.244",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "39"
+    },
+    {
+     "ma_hs": "28272010",
+     "mo_ta": "INS 509: Calci clorid",
+     "nhom": "II.245",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "39"
+    },
+    {
+     "ma_hs": "28272090",
+     "mo_ta": "INS 509: Calci clorid",
+     "nhom": "II.245",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "39"
+    },
+    {
+     "ma_hs": "28271000",
+     "mo_ta": "INS 510: Amoni clorid",
+     "nhom": "II.246",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "39"
+    },
+    {
+     "ma_hs": "28273100",
+     "mo_ta": "INS 511: Magnesi clorid",
+     "nhom": "II.247",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "39"
+    },
+    {
+     "ma_hs": "28273990",
+     "mo_ta": "INS 512: Thiếc clorid",
+     "nhom": "II.248",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "40"
+    },
+    {
+     "ma_hs": "28331900",
+     "mo_ta": "INS 514(i): Natri sulfat",
+     "nhom": "II.249",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "40"
+    },
+    {
+     "ma_hs": "28331900",
+     "mo_ta": "INS 514(ii): Natri hydro sulfat",
+     "nhom": "II.250",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "40"
+    },
+    {
+     "ma_hs": "28332990",
+     "mo_ta": "INS 515(i): Kali sulfat",
+     "nhom": "II.251",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "40"
+    },
+    {
+     "ma_hs": "28332990",
+     "mo_ta": "INS 515(ii): Kali hydro sulfat",
+     "nhom": "II.252",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "40"
+    },
+    {
+     "ma_hs": "28332990",
+     "mo_ta": "INS 516: Calci sulfat",
+     "nhom": "II.253",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "40"
+    },
+    {
+     "ma_hs": "28332100",
+     "mo_ta": "INS 518: Magnesi sulfat",
+     "nhom": "II.254",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "40"
+    },
+    {
+     "ma_hs": "28332210",
+     "mo_ta": "INS 523: Nhôm amoni sulfat",
+     "nhom": "II.255",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "40"
+    },
+    {
+     "ma_hs": "28332290",
+     "mo_ta": "INS 523: Nhôm amoni sulfat",
+     "nhom": "II.255",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "40"
+    },
+    {
+     "ma_hs": "28151100",
+     "mo_ta": "INS 524: Natri hydroxyd",
+     "nhom": "II.256",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "40"
+    },
+    {
+     "ma_hs": "28151200",
+     "mo_ta": "INS 524: Natri hydroxyd",
+     "nhom": "II.256",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "40"
+    },
+    {
+     "ma_hs": "28152000",
+     "mo_ta": "INS 525: Kali hydroxyd",
+     "nhom": "II.257",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "41"
+    },
+    {
+     "ma_hs": "28259000",
+     "mo_ta": "INS 526: Calci hydroxyd",
+     "nhom": "II.258",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "41"
+    },
+    {
+     "ma_hs": "28142000",
+     "mo_ta": "INS 527: Amoni hydroxyd",
+     "nhom": "II.259",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "41"
+    },
+    {
+     "ma_hs": "28161000",
+     "mo_ta": "INS 528: Magnesi hydroxyd",
+     "nhom": "II.260",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "41"
+    },
+    {
+     "ma_hs": "25221000",
+     "mo_ta": "INS 529: Oxyd calci",
+     "nhom": "II.261",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "41"
+    },
+    {
+     "ma_hs": "28259000",
+     "mo_ta": "INS 529: Oxyd calci",
+     "nhom": "II.261",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "41"
+    },
+    {
+     "ma_hs": "25199010",
+     "mo_ta": "INS 530: Oxyd magnesi",
+     "nhom": "II.262",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "41"
+    },
+    {
+     "ma_hs": "25199090",
+     "mo_ta": "INS 530: Oxyd magnesi",
+     "nhom": "II.262",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "41"
+    },
+    {
+     "ma_hs": "28372000",
+     "mo_ta": "INS 535: Natri ferrocyanid",
+     "nhom": "II.263",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "41"
+    },
+    {
+     "ma_hs": "28372000",
+     "mo_ta": "INS 536: Kali ferrocyanid",
+     "nhom": "II.264",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "41"
+    },
+    {
+     "ma_hs": "28372000",
+     "mo_ta": "INS 538: Calci ferrocyanid",
+     "nhom": "II.265",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "41"
+    },
+    {
+     "ma_hs": "28323000",
+     "mo_ta": "INS 539: Natri thiosulfat",
+     "nhom": "II.266",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "41"
+    },
+    {
+     "ma_hs": "28352990",
+     "mo_ta": "INS 541(i): Natri nhôm phosphat, dạng acid",
+     "nhom": "II.267",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "41"
+    },
+    {
+     "ma_hs": "28352990",
+     "mo_ta": "INS 541(ii): Natri nhôm phosphat, dạng bazo",
+     "nhom": "II.268",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "42"
+    },
+    {
+     "ma_hs": "28232600",
+     "mo_ta": "INS 542: Bone phosphat",
+     "nhom": "II.269",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "42"
+    },
+    {
+     "ma_hs": "28112210",
+     "mo_ta": "INS 551: Dioxyd silic vô định hình",
+     "nhom": "II.270",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "42"
+    },
+    {
+     "ma_hs": "28112290",
+     "mo_ta": "INS 551: Dioxyd silic vô định hình",
+     "nhom": "II.270",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "42"
+    },
+    {
+     "ma_hs": "28421000",
+     "mo_ta": "INS 552: Calci silicat",
+     "nhom": "II.271",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "42"
+    },
+    {
+     "ma_hs": "28399000",
+     "mo_ta": "INS 553(i): Magnesi silicat tổng hợp",
+     "nhom": "II.272",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "42"
+    },
+    {
+     "ma_hs": "25262010",
+     "mo_ta": "INS 553(iii): Bột talc",
+     "nhom": "II.273",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "42"
+    },
+    {
+     "ma_hs": "28421000",
+     "mo_ta": "INS 554: Natri nhôm silicat",
+     "nhom": "II.274",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "42"
+    },
+    {
+     "ma_hs": "29400000",
+     "mo_ta": "INS 575: Glucono delta-lacton",
+     "nhom": "II.275",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "42"
+    },
+    {
+     "ma_hs": "29181600",
+     "mo_ta": "INS 576: Natri gluconat",
+     "nhom": "II.276",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "43"
+    },
+    {
+     "ma_hs": "29181600",
+     "mo_ta": "INS 577: Kali gluconat",
+     "nhom": "II.277",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "43"
+    },
+    {
+     "ma_hs": "29181600",
+     "mo_ta": "INS 578: Calci gluconat",
+     "nhom": "II.278",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "43"
+    },
+    {
+     "ma_hs": "29181600",
+     "mo_ta": "INS 579: Sắt (II) gluconat",
+     "nhom": "II.279",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "43"
+    },
+    {
+     "ma_hs": "29181600",
+     "mo_ta": "INS 580: Magnesi gluconat",
+     "nhom": "II.280",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "43"
+    },
+    {
+     "ma_hs": "29181100",
+     "mo_ta": "INS 585: Sắt (II) lactat",
+     "nhom": "II.281",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "43"
+    },
+    {
+     "ma_hs": "29072990",
+     "mo_ta": "INS 586: 4-hexylresorcinol",
+     "nhom": "II.282",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "43"
+    },
+    {
+     "ma_hs": "29224210",
+     "mo_ta": "INS 620: Acid glutamic (L(+)-)",
+     "nhom": "II.283",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "43"
+    },
+    {
+     "ma_hs": "29224220",
+     "mo_ta": "INS 621: Mononatri L-glutamat",
+     "nhom": "II.284",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "43"
+    },
+    {
+     "ma_hs": "29224290",
+     "mo_ta": "INS 622: Monokali L-glutamat",
+     "nhom": "II.285",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "43"
+    },
+    {
+     "ma_hs": "29224290",
+     "mo_ta": "INS 623: Calci di-L-glutamat",
+     "nhom": "II.286",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "44"
+    },
+    {
+     "ma_hs": "29224220",
+     "mo_ta": "INS 624: Monoamoni glutamat",
+     "nhom": "II.287",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "44"
+    },
+    {
+     "ma_hs": "29224220",
+     "mo_ta": "INS 625: Magnesi di-L-glutamat",
+     "nhom": "II.288",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "44"
+    },
+    {
+     "ma_hs": "29349910",
+     "mo_ta": "INS 626: Acid guanylic, 5'-",
+     "nhom": "II.289",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "44"
+    },
+    {
+     "ma_hs": "29224220",
+     "mo_ta": "INS 627: Dinatri 5'-guanylat",
+     "nhom": "II.290",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "44"
+    },
+    {
+     "ma_hs": "29349990",
+     "mo_ta": "INS 628: Dikali 5'-guanylat",
+     "nhom": "II.291",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "44"
+    },
+    {
+     "ma_hs": "29349910",
+     "mo_ta": "INS 629: Calci 5'-guanylat",
+     "nhom": "II.292",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "44"
+    },
+    {
+     "ma_hs": "29349990",
+     "mo_ta": "INS 630: Acid inosinic, 5'-",
+     "nhom": "II.293",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "44"
+    },
+    {
+     "ma_hs": "29224900",
+     "mo_ta": "INS 631: Dinatri 5'-inosinat",
+     "nhom": "II.294",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "44"
+    },
+    {
+     "ma_hs": "29349990",
+     "mo_ta": "INS 632: Kali 5'-inosinat",
+     "nhom": "II.295",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "44"
+    },
+    {
+     "ma_hs": "29349910",
+     "mo_ta": "INS 633: Calci 5'-inosinat",
+     "nhom": "II.296",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "44"
+    },
+    {
+     "ma_hs": "29349910",
+     "mo_ta": "INS 634: Calci 5'-ribonucleotid",
+     "nhom": "II.297",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "44"
+    },
+    {
+     "ma_hs": "29349990",
+     "mo_ta": "INS 635: Dinatri 5'-ribonucleotid",
+     "nhom": "II.298",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "44"
+    },
+    {
+     "ma_hs": "29329900",
+     "mo_ta": "INS 636: Maltol",
+     "nhom": "II.299",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "44"
+    },
+    {
+     "ma_hs": "29329900",
+     "mo_ta": "INS 637: Ethyl maltol",
+     "nhom": "II.300",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "44"
+    },
+    {
+     "ma_hs": "29224900",
+     "mo_ta": "INS 639: DL-Alanin",
+     "nhom": "II.301",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "45"
+    },
+    {
+     "ma_hs": "29224900",
+     "mo_ta": "INS 640: Glycin",
+     "nhom": "II.302",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "45"
+    },
+    {
+     "ma_hs": "39100090",
+     "mo_ta": "INS 900a: Polydimethylsiloxan",
+     "nhom": "II.303",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "45"
+    },
+    {
+     "ma_hs": "15219010",
+     "mo_ta": "INS 901: Sáp ong",
+     "nhom": "II.304",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "45"
+    },
+    {
+     "ma_hs": "15211000",
+     "mo_ta": "INS 902: Sáp candelilla",
+     "nhom": "II.305",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "45"
+    },
+    {
+     "ma_hs": "15211000",
+     "mo_ta": "INS 903: Sáp carnauba",
+     "nhom": "II.306",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "45"
+    },
+    {
+     "ma_hs": "13019040",
+     "mo_ta": "INS 904: Shellac tẩy trắng",
+     "nhom": "II.307",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "45"
+    },
+    {
+     "ma_hs": "27129090",
+     "mo_ta": "INS 905c(i): Sáp vi tinh thể",
+     "nhom": "II.308",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "45"
+    },
+    {
+     "ma_hs": "27101990",
+     "mo_ta": "INS 905d: Dầu khoáng, độ nhớt cao",
+     "nhom": "II.309",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "46"
+    },
+    {
+     "ma_hs": "27101990",
+     "mo_ta": "INS 905e: Dầu khoáng, độ nhớt trung bình",
+     "nhom": "II.310",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "46"
+    },
+    {
+     "ma_hs": "29349930",
+     "mo_ta": "INS 907: Hydrogenated poly-1-decenes",
+     "nhom": "II.311",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "46"
+    },
+    {
+     "ma_hs": "34049090",
+     "mo_ta": "INS E914: Sáp oxidised polyethylene",
+     "nhom": "II.312",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "46"
+    },
+    {
+     "ma_hs": "28011000",
+     "mo_ta": "INS 925: Khí clor",
+     "nhom": "II.313",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "46"
+    },
+    {
+     "ma_hs": "29270010",
+     "mo_ta": "INS 927a: Azodicarbonamid",
+     "nhom": "II.314",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "46"
+    },
+    {
+     "ma_hs": "29163210",
+     "mo_ta": "INS 928: Benzoyl peroxyd",
+     "nhom": "II.315",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "46"
+    },
+    {
+     "ma_hs": "28259000",
+     "mo_ta": "INS 930: Calci peroxyd",
+     "nhom": "II.316",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "46"
+    },
+    {
+     "ma_hs": "28043000",
+     "mo_ta": "INS 941: Khí nitơ",
+     "nhom": "II.317",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "46"
+    },
+    {
+     "ma_hs": "28112990",
+     "mo_ta": "INS 942: Khí nitơ oxyd",
+     "nhom": "II.318",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "46"
+    },
+    {
+     "ma_hs": "29349990",
+     "mo_ta": "INS 950: Acesulfam kali",
+     "nhom": "II.319",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "47"
+    },
+    {
+     "ma_hs": "29242910",
+     "mo_ta": "INS 951: Aspartam",
+     "nhom": "II.320",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "47"
+    },
+    {
+     "ma_hs": "29213000",
+     "mo_ta": "INS 952(i): Acid cyclamic",
+     "nhom": "II.321",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "47"
+    },
+    {
+     "ma_hs": "29335990",
+     "mo_ta": "INS 952(ii): Calci cyclamat",
+     "nhom": "II.322",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "47"
+    },
+    {
+     "ma_hs": "29299010",
+     "mo_ta": "INS 952(iv): Natri cyclamat",
+     "nhom": "II.323",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "47"
+    },
+    {
+     "ma_hs": "29400000",
+     "mo_ta": "INS 953: Isomalt (Hydrogenated isomaltulose)",
+     "nhom": "II.324",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "47"
+    },
+    {
+     "ma_hs": "29251100",
+     "mo_ta": "INS 954(i): Saccharin và muối của saccharin, gồm: - Saccharin",
+     "nhom": "II.325",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "47"
+    },
+    {
+     "ma_hs": "29251100",
+     "mo_ta": "INS 954(ii): Saccharin và muối của saccharin, gồm: - Calci saccharin",
+     "nhom": "II.325",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "47"
+    },
+    {
+     "ma_hs": "29251100",
+     "mo_ta": "INS 954(iii): Saccharin và muối của saccharin, gồm: - Kali saccharin",
+     "nhom": "II.325",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "47"
+    },
+    {
+     "ma_hs": "29251100",
+     "mo_ta": "INS 954(iv): Saccharin và muối của saccharin, gồm: - Natri saccharin",
+     "nhom": "II.325",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "47"
+    },
+    {
+     "ma_hs": "29400000",
+     "mo_ta": "INS 955: Sucralose (Triclorogalacto sucrose)",
+     "nhom": "II.326",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "48"
+    },
+    {
+     "ma_hs": "29349990",
+     "mo_ta": "INS 956: Alitam",
+     "nhom": "II.327",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "48"
+    },
+    {
+     "ma_hs": "35040000",
+     "mo_ta": "INS 957: Thaumatin",
+     "nhom": "II.328",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "48"
+    },
+    {
+     "ma_hs": "29389000",
+     "mo_ta": "INS 960a: Steviol glycosid từ Stevia rebaudiana Bertoni (Steviol glycosid từ Stevia)",
+     "nhom": "II.329",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "48"
+    },
+    {
+     "ma_hs": "29224900",
+     "mo_ta": "INS 961: Neotam",
+     "nhom": "II.330",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "48"
+    },
+    {
+     "ma_hs": "29242910",
+     "mo_ta": "INS 962: Muối aspartam-acesulfam",
+     "nhom": "II.331",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "48"
+    },
+    {
+     "ma_hs": "38249970",
+     "mo_ta": "INS 964: Siro polyglycitol",
+     "nhom": "II.332",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "48"
+    },
+    {
+     "ma_hs": "29400000",
+     "mo_ta": "INS 965(i): Maltitol",
+     "nhom": "II.333",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "48"
+    },
+    {
+     "ma_hs": "38249970",
+     "mo_ta": "INS 965(ii): Siro maltitol",
+     "nhom": "II.334",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "48"
+    },
+    {
+     "ma_hs": "29400000",
+     "mo_ta": "INS 966: Lactitol",
+     "nhom": "II.335",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "49"
+    },
+    {
+     "ma_hs": "29054900",
+     "mo_ta": "INS 967: Xylitol",
+     "nhom": "II.336",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "49"
+    },
+    {
+     "ma_hs": "29054900",
+     "mo_ta": "INS 968: Erythritol",
+     "nhom": "II.337",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "49"
+    },
+    {
+     "ma_hs": "13021990",
+     "mo_ta": "INS 999(i): Chất chiết xuất từ quillaia nhóm I",
+     "nhom": "II.338",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "49"
+    },
+    {
+     "ma_hs": "13021990",
+     "mo_ta": "INS 999(ii): Chất chiết xuất từ quillaia nhóm II",
+     "nhom": "II.339",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "49"
+    },
+    {
+     "ma_hs": "35079000",
+     "mo_ta": "INS 1100(i): alpha-Amylase, gồm: - alpha-Amylase từ Aspergillus orysee var.",
+     "nhom": "II.340",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "49"
+    },
+    {
+     "ma_hs": "35079000",
+     "mo_ta": "INS 1100(ii): alpha-Amylase, gồm: - alpha-Amylase từ Bacillus stearothermophilus",
+     "nhom": "II.340",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "49"
+    },
+    {
+     "ma_hs": "35079000",
+     "mo_ta": "INS 1100(iii): alpha-Amylase, gồm: - alpha-Amylase từ Bacillus subtilis",
+     "nhom": "II.340",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "49"
+    },
+    {
+     "ma_hs": "35079000",
+     "mo_ta": "INS 1100(iv): alpha-Amylase, gồm: - alpha-Amylase từ Bacillus megaterium expressed in Bacillus subtilis",
+     "nhom": "II.340",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "50"
+    },
+    {
+     "ma_hs": "35079000",
+     "mo_ta": "INS 1100(v): alpha-Amylase, gồm: - alpha-Amylase từ Bacillus stearothermophilus expressed in Bacillus subtilis",
+     "nhom": "II.340",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "50"
+    },
+    {
+     "ma_hs": "35079000",
+     "mo_ta": "INS 1100(vi): Carbohydrase từ Bacillus licheniformis",
+     "nhom": "II.341",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "50"
+    },
+    {
+     "ma_hs": "35079000",
+     "mo_ta": "INS 1101(i): Protease từ Aspergillus orysee var.",
+     "nhom": "II.342",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "50"
+    },
+    {
+     "ma_hs": "35079000",
+     "mo_ta": "INS 1101(ii): Papain",
+     "nhom": "II.343",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "50"
+    },
+    {
+     "ma_hs": "35079000",
+     "mo_ta": "INS 1101(iii): Bromelain",
+     "nhom": "II.344",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "50"
+    },
+    {
+     "ma_hs": "35079000",
+     "mo_ta": "INS 1102: Glucose oxydase",
+     "nhom": "II.345",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "50"
+    },
+    {
+     "ma_hs": "35079000",
+     "mo_ta": "INS 1104: Lipases",
+     "nhom": "II.346",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "50"
+    },
+    {
+     "ma_hs": "35079000",
+     "mo_ta": "INS 1105: Lysozym",
+     "nhom": "II.347",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "50"
+    },
+    {
+     "ma_hs": "39139090",
+     "mo_ta": "INS 1200: Polydextrose",
+     "nhom": "II.348",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "50"
+    },
+    {
+     "ma_hs": "39059910",
+     "mo_ta": "INS 1201: Polyvinylpyrrolidon",
+     "nhom": "II.349",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "51"
+    },
+    {
+     "ma_hs": "39059990",
+     "mo_ta": "INS 1202: Polyvinylpyrrolidon, không tan",
+     "nhom": "II.350",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "51"
+    },
+    {
+     "ma_hs": "39053010",
+     "mo_ta": "INS 1203: Polyvinyl alcohol",
+     "nhom": "II.351",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "51"
+    },
+    {
+     "ma_hs": "39139030",
+     "mo_ta": "INS 1204: Pullulan",
+     "nhom": "II.352",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "51"
+    },
+    {
+     "ma_hs": "39059190",
+     "mo_ta": "INS 1209: Copolyme ghép của Polyvinyl alcohol (PVA) - Polyethylen glycol (PEG)",
+     "nhom": "II.353",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "51"
+    },
+    {
+     "ma_hs": "39069092",
+     "mo_ta": "INS 1210: Natri polyacrylat",
+     "nhom": "II.354",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "51"
+    },
+    {
+     "ma_hs": "35051010",
+     "mo_ta": "INS 1400: Dextrin, tinh bột rang",
+     "nhom": "II.355",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "51"
+    },
+    {
+     "ma_hs": "35051010",
+     "mo_ta": "INS 1401: Tinh bột đã được xử lý bằng acid",
+     "nhom": "II.356",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "51"
+    },
+    {
+     "ma_hs": "35051090",
+     "mo_ta": "INS 1401: Tinh bột đã được xử lý bằng acid",
+     "nhom": "II.356",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "51"
+    },
+    {
+     "ma_hs": "35051010",
+     "mo_ta": "INS 1402: Tinh bột đã được xử lý bằng kiềm",
+     "nhom": "II.357",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "52"
+    },
+    {
+     "ma_hs": "35051090",
+     "mo_ta": "INS 1402: Tinh bột đã được xử lý bằng kiềm",
+     "nhom": "II.357",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "52"
+    },
+    {
+     "ma_hs": "35051010",
+     "mo_ta": "INS 1403: Tinh bột đã khử màu",
+     "nhom": "II.358",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "52"
+    },
+    {
+     "ma_hs": "35051090",
+     "mo_ta": "INS 1403: Tinh bột đã khử màu",
+     "nhom": "II.358",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "52"
+    },
+    {
+     "ma_hs": "35051010",
+     "mo_ta": "INS 1404: Tinh bột xử lý oxy hóa",
+     "nhom": "II.359",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "52"
+    },
+    {
+     "ma_hs": "35051090",
+     "mo_ta": "INS 1404: Tinh bột xử lý oxy hóa",
+     "nhom": "II.359",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "52"
+    },
+    {
+     "ma_hs": "35051010",
+     "mo_ta": "INS 1405: Tinh bột, xử lý bằng enzim",
+     "nhom": "II.360",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "52"
+    },
+    {
+     "ma_hs": "35051090",
+     "mo_ta": "INS 1405: Tinh bột, xử lý bằng enzim",
+     "nhom": "II.360",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "52"
+    },
+    {
+     "ma_hs": "35051090",
+     "mo_ta": "INS 1410: Monostarch phosphat",
+     "nhom": "II.361",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "52"
+    },
+    {
+     "ma_hs": "28352990",
+     "mo_ta": "INS 1412: Distarch phosphat",
+     "nhom": "II.362",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "52"
+    },
+    {
+     "ma_hs": "35051090",
+     "mo_ta": "INS 1413: Phosphated distarch phosphat",
+     "nhom": "II.363",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "52"
+    },
+    {
+     "ma_hs": "35051090",
+     "mo_ta": "INS 1414: Acetylated distarch phosphat",
+     "nhom": "II.364",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "52"
+    },
+    {
+     "ma_hs": "35051090",
+     "mo_ta": "INS 1420: Starch acetate",
+     "nhom": "II.365",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "52"
+    },
+    {
+     "ma_hs": "35051090",
+     "mo_ta": "INS 1421: Starch acetate este hóa với vinyl acetate",
+     "nhom": "II.366",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "52"
+    },
+    {
+     "ma_hs": "35051090",
+     "mo_ta": "INS 1422: Acetylated distarch adipat",
+     "nhom": "II.367",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "53"
+    },
+    {
+     "ma_hs": "35051090",
+     "mo_ta": "INS 1440: Hydroxypropyl starch",
+     "nhom": "II.368",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "53"
+    },
+    {
+     "ma_hs": "35051090",
+     "mo_ta": "INS 1442: Hydroxypropyl distarch phosphat",
+     "nhom": "II.369",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "53"
+    },
+    {
+     "ma_hs": "35051010",
+     "mo_ta": "INS 1450: Starch natri octenyl succinat",
+     "nhom": "II.370",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "53"
+    },
+    {
+     "ma_hs": "35051090",
+     "mo_ta": "INS 1450: Starch natri octenyl succinat",
+     "nhom": "II.370",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "53"
+    },
+    {
+     "ma_hs": "35051090",
+     "mo_ta": "INS 1451: Acetylated oxydized starch",
+     "nhom": "II.371",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "53"
+    },
+    {
+     "ma_hs": "15153010",
+     "mo_ta": "INS 1503: Dầu Castor",
+     "nhom": "II.372",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "53"
+    },
+    {
+     "ma_hs": "15153090",
+     "mo_ta": "INS 1503: Dầu Castor",
+     "nhom": "II.372",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "53"
+    },
+    {
+     "ma_hs": "29400000",
+     "mo_ta": "INS 1504(i): Cyclotetraglucose",
+     "nhom": "II.373",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "53"
+    },
+    {
+     "ma_hs": "29400000",
+     "mo_ta": "INS 1504(ii): Siro cyclotetraglucose",
+     "nhom": "II.374",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "53"
+    },
+    {
+     "ma_hs": "29181590",
+     "mo_ta": "INS 1505: Triethyl citrat",
+     "nhom": "II.375",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "53"
+    },
+    {
+     "ma_hs": "29153990",
+     "mo_ta": "INS 1518: Triacetin",
+     "nhom": "II.376",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "53"
+    },
+    {
+     "ma_hs": "29053200",
+     "mo_ta": "INS 1520: Propylen glycol",
+     "nhom": "II.377",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "54"
+    },
+    {
+     "ma_hs": "39072090",
+     "mo_ta": "INS 1521: Polyethylen glycol",
+     "nhom": "II.378",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "54"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 160c(ii): Chiết xuất Paprika",
+     "nhom": "II.379",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "54"
+    },
+    {
+     "ma_hs": "13019090",
+     "mo_ta": "INS 419: Gôm ghatti",
+     "nhom": "II.380",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "54"
+    },
+    {
+     "ma_hs": "13023990",
+     "mo_ta": "INS 437: Polysaccharid hạt me",
+     "nhom": "II.381",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "54"
+    },
+    {
+     "ma_hs": "29242990",
+     "mo_ta": "INS 969: Advantam",
+     "nhom": "II.382",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "54"
+    },
+    {
+     "ma_hs": "39069099",
+     "mo_ta": "INS 1205: Copolyme của Methacrylat, dạng bazo (BMC)",
+     "nhom": "II.383",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "54"
+    },
+    {
+     "ma_hs": "29389000",
+     "mo_ta": "INS 960b: Các steviol glycosid từ lên men",
+     "nhom": "II.384",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "54"
+    },
+    {
+     "ma_hs": "29389000",
+     "mo_ta": "INS 960c: Các steviol glycosid sản xuất bằng enzym",
+     "nhom": "II.385",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "55"
+    },
+    {
+     "ma_hs": "29389000",
+     "mo_ta": "INS 960d: Các steviol glycosid",
+     "nhom": "II.386",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "55"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 161b(ii): Chiết xuất Tagetes",
+     "nhom": "II.387",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "55"
+    },
+    {
+     "ma_hs": "29362300",
+     "mo_ta": "INS 101(iv): Riboflavin từ Ashbya gossypii",
+     "nhom": "II.388",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "55"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 160a(iv): Chiết xuất giàu β-Carotene từ Dunaliella Salina",
+     "nhom": "II.389",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "55"
+    },
+    {
+     "ma_hs": "28342100",
+     "mo_ta": "INS 252: Kali nitrat",
+     "nhom": "II.390",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "55"
+    },
+    {
+     "ma_hs": "29232090",
+     "mo_ta": "INS 322(ii): Lecithin, thủy phân một phần",
+     "nhom": "II.391",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "55"
+    },
+    {
+     "ma_hs": "32030010",
+     "mo_ta": "INS 134: Chiết xuất Spirulina",
+     "nhom": "II.392",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "55"
+    },
+    {
+     "ma_hs": "39231090",
+     "mo_ta": "Bằng nhựa tổng hợp: Hộp",
+     "nhom": "III.393",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "55"
+    },
+    {
+     "ma_hs": "39232199",
+     "mo_ta": "Bằng nhựa tổng hợp: Bao, túi, màng bọc",
+     "nhom": "III.394",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "55"
+    },
+    {
+     "ma_hs": "39233090",
+     "mo_ta": "Bằng nhựa tổng hợp: Bình, chai, lọ",
+     "nhom": "III.395",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "56"
+    },
+    {
+     "ma_hs": "39239090",
+     "mo_ta": "Bằng nhựa tổng hợp: Thùng chứa, bể chứa",
+     "nhom": "III.396",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "56"
+    },
+    {
+     "ma_hs": "39241010",
+     "mo_ta": "Bằng nhựa tổng hợp: Đồ dùng nhà bếp",
+     "nhom": "III.397",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "dieu_kien": "Từ melamin",
+     "trang": "56"
+    },
+    {
+     "ma_hs": "39241099",
+     "mo_ta": "Bằng nhựa tổng hợp: Đồ dùng nhà bếp",
+     "nhom": "III.397",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "dieu_kien": "Không từ melamin",
+     "trang": "56"
+    },
+    {
+     "ma_hs": "40149010",
+     "mo_ta": "Bằng cao su: Núm vú của bình cho trẻ em ăn và các loại tương tự",
+     "nhom": "III.398",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "56"
+    }
+   ]
+  },
+  {
+   "so_hieu": "28/2026/TT-BCT",
+   "slug": "28-2026-tt-bct",
+   "ten": "Ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã số HS) thực hiện kiểm tra nhà nước về an toàn thực phẩm thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-07-17",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": false,
+   "bang": {
+    "tep": "danh-muc/28-2026-tt-bct.csv",
+    "nguon": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/6/12/469681-1781245487_v1_1781258779_signed.pdf",
+    "trich_boi": "claude-code@ozvietnam",
+    "ngay": "2026-10-04",
+    "da_doi_chieu": false
+   },
+   "dong": [
+    {
+     "ma_hs": "20091100",
+     "mo_ta": "- - Đông lạnh",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "20091200",
+     "mo_ta": "- - Không đông lạnh, với trị giá Brix không quá 20",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "20091900",
+     "mo_ta": "- - Loại khác",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "20092100",
+     "mo_ta": "- - Với trị giá Brix không quá 20",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "20092900",
+     "mo_ta": "- - Loại khác",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "20093100",
+     "mo_ta": "- - Với trị giá Brix không quá 20",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "20093900",
+     "mo_ta": "- - Loại khác",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "20094100",
+     "mo_ta": "- - Với trị giá Brix không quá 20",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "20094900",
+     "mo_ta": "- - Loại khác",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "20095000",
+     "mo_ta": "- Nước cà chua ép",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "20096100",
+     "mo_ta": "- - Với trị giá Brix không quá 30",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "20096900",
+     "mo_ta": "- - Loại khác",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "20097100",
+     "mo_ta": "- - Với trị giá Brix không quá 20",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "20097900",
+     "mo_ta": "- - Loại khác",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "20098110",
+     "mo_ta": "- - - Phù hợp dùng cho trẻ sơ sinh hoặc trẻ nhỏ",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "20098190",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "20098910",
+     "mo_ta": "- - - Nước ép từ quả lý chua đen",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "20098920",
+     "mo_ta": "- - - Nước dừa (SEN)",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "20098930",
+     "mo_ta": "- - - Nước dừa cô đặc (SEN)",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "20098940",
+     "mo_ta": "- - - Nước xoài ép cô đặc",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "20098991",
+     "mo_ta": "- - - - Phù hợp dùng cho trẻ sơ sinh hoặc trẻ nhỏ",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "20098999",
+     "mo_ta": "- - - - Loại khác",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "20099010",
+     "mo_ta": "- - Phù hợp dùng cho trẻ sơ sinh hoặc trẻ nhỏ",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "20099091",
+     "mo_ta": "- - - Dùng ngay được",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "20099099",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "22011020",
+     "mo_ta": "- - Nước có ga",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "22021030",
+     "mo_ta": "- - Nước khoáng xô đa hoặc nước có ga, loại khác, có hương liệu",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "22021090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "22029100",
+     "mo_ta": "- - Bia không cồn",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "22029910",
+     "mo_ta": "- - - Đồ uống chứa sữa tiệt trùng có hương liệu",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "22029920",
+     "mo_ta": "- - - Đồ uống sữa đậu nành",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "22029930",
+     "mo_ta": "- - - Đồ uống từ nước dừa (SEN)",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "22029940",
+     "mo_ta": "- - - Đồ uống có chứa cà phê hoặc đồ uống có hương liệu cà phê",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "22029950",
+     "mo_ta": "- - - Đồ uống không có ga khác dùng ngay được không cần pha loãng",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "22029990",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "22030011",
+     "mo_ta": "- - Có nồng độ cồn không quá 5,8% tính theo thể tích (SEN)",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "22030019",
+     "mo_ta": "- - Loại khác (SEN)",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "22030091",
+     "mo_ta": "- - Có nồng độ cồn không quá 5,8% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "22030099",
+     "mo_ta": "- - Loại khác",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "22041000",
+     "mo_ta": "- Rượu vang nổ",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "22042111",
+     "mo_ta": "- - - - Có nồng độ cồn không quá 15% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "22042113",
+     "mo_ta": "- - - - Có nồng độ cồn trên 15% nhưng không quá 23% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "22042114",
+     "mo_ta": "- - - - Có nồng độ cồn trên 23% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "22042121",
+     "mo_ta": "- - - - Có nồng độ cồn không quá 15% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "22042122",
+     "mo_ta": "- - - - Có nồng độ cồn trên 15% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "22042211",
+     "mo_ta": "- - - - Có nồng độ cồn không quá 15% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "22042212",
+     "mo_ta": "- - - - Có nồng độ cồn trên 15% nhưng không quá 23% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "22042213",
+     "mo_ta": "- - - - Có nồng độ cồn trên 23% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "22042221",
+     "mo_ta": "- - - - Có nồng độ cồn không quá 15% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "22042222",
+     "mo_ta": "- - - - Có nồng độ cồn trên 15% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "22042911",
+     "mo_ta": "- - - - Có nồng độ cồn không quá 15% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "22042912",
+     "mo_ta": "- - - - Có nồng độ cồn trên 15% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "22042921",
+     "mo_ta": "- - - - Có nồng độ cồn không quá 15% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "22042922",
+     "mo_ta": "- - - - Có nồng độ cồn trên 15% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "22043010",
+     "mo_ta": "- - Có nồng độ cồn không quá 15% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "22043020",
+     "mo_ta": "- - Có nồng độ cồn trên 15% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "22051010",
+     "mo_ta": "- - Có nồng độ cồn không quá 15% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "22051020",
+     "mo_ta": "- - Có nồng độ cồn trên 15% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "22059010",
+     "mo_ta": "- - Có nồng độ cồn không quá 15% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "22059020",
+     "mo_ta": "- - Có nồng độ cồn trên 15% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "22060010",
+     "mo_ta": "- Vang táo hoặc vang lê",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "22060020",
+     "mo_ta": "- Rượu sa kê (SEN)",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "22060031",
+     "mo_ta": "- - Loại trong đồ đựng không quá 2 lít (SEN)",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "22060039",
+     "mo_ta": "- - Loại khác (SEN)",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "22060041",
+     "mo_ta": "- - Có nồng độ cồn không quá 1,14% tính theo thể tích (SEN)",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "22060049",
+     "mo_ta": "- - Loại khác (SEN)",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "22060050",
+     "mo_ta": "- Vang mật ong",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "22060060",
+     "mo_ta": "- Rượu thu được từ việc lên men nước ép rau hoặc nước ép quả, trừ nước ép nho tươi (SEN)",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "22060091",
+     "mo_ta": "- - Rượu gạo khác (SEN)",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "22060099",
+     "mo_ta": "- - Loại khác",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "22071000",
+     "mo_ta": "- Cồn etylic chưa biến tính có nồng độ cồn từ 80% trở lên tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "22082050",
+     "mo_ta": "- - Rượu brandy",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "22082090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "22083010",
+     "mo_ta": "- - Được đựng trong đồ chứa trên 5 lít",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "22083090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "22084000",
+     "mo_ta": "- Rượu rum và rượu mạnh khác được cất từ các sản phẩm mía đường lên men",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "22085000",
+     "mo_ta": "- Rượu gin và rượu Geneva",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "22086000",
+     "mo_ta": "- Rượu vodka",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "22087010",
+     "mo_ta": "- - Có nồng độ cồn không quá 57% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "22087090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "22089030",
+     "mo_ta": "- - Rượu sam-su khác có nồng độ cồn không quá 40% tính theo thể tích (SEN)",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "22089040",
+     "mo_ta": "- - Rượu sam-su khác có nồng độ cồn trên 40% tính theo thể tích",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "04011010",
+     "mo_ta": "- - Dạng lỏng",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "04011090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "04012010",
+     "mo_ta": "- - Dạng lỏng",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04012090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04014010",
+     "mo_ta": "- - Sữa dạng lỏng",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04014020",
+     "mo_ta": "- - Sữa dạng đông lạnh",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04014090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04015010",
+     "mo_ta": "- - Dạng lỏng",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04015090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04021041",
+     "mo_ta": "- - - Đóng gói với khối lượng tịnh từ 20 kg trở lên",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04021042",
+     "mo_ta": "- - - Đóng gói với khối lượng tịnh từ 2 kg trở xuống",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04021049",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04021091",
+     "mo_ta": "- - - Đóng gói với khối lượng tịnh từ 20 kg trở lên",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04021092",
+     "mo_ta": "- - - Đóng gói với khối lượng tịnh từ 2 kg trở xuống",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04021099",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04022120",
+     "mo_ta": "- - - Đóng gói với khối lượng tịnh từ 20 kg trở lên",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04022130",
+     "mo_ta": "- - - Đóng gói với khối lượng tịnh từ 2 kg trở xuống",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04022190",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04022920",
+     "mo_ta": "- - - Đóng gói với khối lượng tịnh từ 20 kg trở lên",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04022930",
+     "mo_ta": "- - - Đóng gói với khối lượng tịnh từ 2 kg trở xuống",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04022990",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04029100",
+     "mo_ta": "- - Chưa pha thêm đường hoặc chất tạo ngọt khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "10"
+    },
+    {
+     "ma_hs": "04029900",
+     "mo_ta": "- - Loại khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "04032011",
+     "mo_ta": "- - - Đã thêm hương liệu hoặc thêm hoa quả (kể cả thịt quả và mứt), quả hạch (nuts) hoặc ca cao",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "04032019",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "04032091",
+     "mo_ta": "- - - Đã thêm hương liệu hoặc thêm hoa quả (kể cả thịt quả và mứt), quả hạch (nuts) hoặc ca cao",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "04032099",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "04039010",
+     "mo_ta": "- - Buttermilk",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "04039090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "04041011",
+     "mo_ta": "- - - Whey, thích hợp sử dụng cho người (SEN)",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "04041019",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "04041091",
+     "mo_ta": "- - - Whey, thích hợp sử dụng cho người (SEN)",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "04041099",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "04049000",
+     "mo_ta": "- Loại khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "04051000",
+     "mo_ta": "- Bơ",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "04052000",
+     "mo_ta": "- Chất phết từ bơ sữa",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "04059010",
+     "mo_ta": "- - Chất béo khan của bơ",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "11"
+    },
+    {
+     "ma_hs": "04059020",
+     "mo_ta": "- - Dầu bơ (butteroil)",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "04059030",
+     "mo_ta": "- - Ghee",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "04059090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "04061010",
+     "mo_ta": "- - Pho mát tươi (chưa ủ chín hoặc chưa xử lý), kể cả pho mát whey",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "04061020",
+     "mo_ta": "- - Curd",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "04062010",
+     "mo_ta": "- - Đóng gói với trọng lượng cả bì trên 20 kg",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "04062090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "04063000",
+     "mo_ta": "- Pho mát đã chế biến, chưa xát nhỏ hoặc chưa làm thành bột",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "04064000",
+     "mo_ta": "- Pho mát vân xanh và pho mát khác có vân được sản xuất từ men Penicillium roqueforti",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "04069000",
+     "mo_ta": "- Pho mát loại khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "19011020",
+     "mo_ta": "-- Từ sản phẩm thuộc các nhóm từ 04.01 đến 04.04",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "19019031",
+     "mo_ta": "- - - Chứa sữa (SEN)",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "21050000",
+     "mo_ta": "Kem lạnh và sản phẩm ăn được tương tự khác, có hoặc không chứa ca cao",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "12"
+    },
+    {
+     "ma_hs": "15071000",
+     "mo_ta": "- Dầu thô, đã hoặc chưa khử chất nhựa",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "15079010",
+     "mo_ta": "- - Các phần phân đoạn của dầu đậu tương chưa tinh chế",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "15079020",
+     "mo_ta": "- - Dầu đậu tương đã tinh chế, tẩy và khử mùi (RBD)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "15079090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "15081000",
+     "mo_ta": "- Dầu thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "15089000",
+     "mo_ta": "- Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "15092010",
+     "mo_ta": "- - Đóng gói với khối lượng tịnh không quá 30 kg",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "15092090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "15093000",
+     "mo_ta": "- Dầu ô liu nguyên chất (Virgin olive oil)(1)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "15094000",
+     "mo_ta": "- Dầu ô liu nguyên chất khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "15099011",
+     "mo_ta": "- - - Đóng gói với khối lượng tịnh không quá 30 kg",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "15099019",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "15099091",
+     "mo_ta": "- - - Đóng gói với khối lượng tịnh không quá 30 kg",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "15099099",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "15101000",
+     "mo_ta": "- Dầu bã ô liu (olive pomace oil)(1) thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "15109010",
+     "mo_ta": "- - Dầu thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "13"
+    },
+    {
+     "ma_hs": "15109020",
+     "mo_ta": "- - Các phần phân đoạn của dầu chưa tinh chế",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "15109090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "15111000",
+     "mo_ta": "- Dầu thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "15119020",
+     "mo_ta": "- - Dầu tinh chế",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "15119031",
+     "mo_ta": "- - - - Có chỉ số iốt từ 30 trở lên, nhưng dưới 40",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "15119032",
+     "mo_ta": "- - - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "15119036",
+     "mo_ta": "- - - - Đóng gói với khối lượng tịnh không quá 25kg",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "15119037",
+     "mo_ta": "- - - - Loại khác, có chỉ số iốt từ 55 trở lên, nhưng dưới 60",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "15119039",
+     "mo_ta": "- - - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "15119041",
+     "mo_ta": "- - - Các phần phân đoạn thể rắn (SEN)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "15119042",
+     "mo_ta": "- - - Loại khác, đóng gói với khối lượng tịnh không quá 25kg (SEN)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "15119049",
+     "mo_ta": "- - - Loại khác (SEN)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "15121100",
+     "mo_ta": "- - Dầu thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "15121910",
+     "mo_ta": "- - - Các phần phân đoạn của dầu hướng dương hoặc dầu cây rum chưa tinh chế",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "15121920",
+     "mo_ta": "- - - Đã tinh chế",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "15121990",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "14"
+    },
+    {
+     "ma_hs": "15122100",
+     "mo_ta": "- - Dầu thô, đã hoặc chưa khử gossypol",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "15122910",
+     "mo_ta": "- - - Các phần phân đoạn của dầu hạt bông chưa tinh chế",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "15122990",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "15131110",
+     "mo_ta": "- - - Dầu dừa nguyên chất (SEN)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "15131190",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "15131910",
+     "mo_ta": "- - - Các phần phân đoạn của dầu dừa chưa tinh chế",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "15131990",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "15132110",
+     "mo_ta": "- - - Dầu hạt cọ (SEN)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "15132190",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "15132911",
+     "mo_ta": "- - - - Các phần phân đoạn thể rắn của dầu hạt cọ chưa tinh chế (SEN)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "15132912",
+     "mo_ta": "- - - - Các phần phân đoạn thể rắn của dầu cọ ba -ba-su chưa tinh chế",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "15132913",
+     "mo_ta": "- - - - Loại khác, của dầu hạt cọ chưa tinh chế (olein hạt cọ) (SEN)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "15132914",
+     "mo_ta": "- - - - Loại khác, của dầu cọ ba-ba-su chưa tinh chế",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "15132991",
+     "mo_ta": "- - - - Các phần phân đoạn thể rắn của dầu hạt cọ (SEN)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "15132992",
+     "mo_ta": "- - - - Các phần phân đoạn thể rắn của dầu cọ ba-ba-su",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "15132994",
+     "mo_ta": "- - - - Olein hạt cọ, đã tinh chế, tẩy và khử mùi (RBD)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "15"
+    },
+    {
+     "ma_hs": "15132995",
+     "mo_ta": "- - - - Dầu hạt cọ, đã tinh chế, tẩy và khử mùi (RBD) (SEN)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "15132996",
+     "mo_ta": "- - - - Loại khác, của dầu hạt cọ (SEN)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "15132997",
+     "mo_ta": "- - - - Loại khác, của dầu cọ ba-ba-su",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "15141100",
+     "mo_ta": "- - Dầu thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "15141910",
+     "mo_ta": "- - - Các phần phân đoạn của dầu chưa tinh chế",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "15141920",
+     "mo_ta": "- - - Đã tinh chế",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "15141990",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "15149100",
+     "mo_ta": "- - Dầu thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "15149910",
+     "mo_ta": "- - - Các phần phân đoạn của dầu chưa tinh chế",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "15149990",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "15151100",
+     "mo_ta": "- - Dầu thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "15151900",
+     "mo_ta": "- - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "15152100",
+     "mo_ta": "- - Dầu thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "15152911",
+     "mo_ta": "- - - - Các phần phân đoạn thể rắn",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "15152919",
+     "mo_ta": "- - - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "16"
+    },
+    {
+     "ma_hs": "15152991",
+     "mo_ta": "- - - - Các phần phân đoạn thể rắn",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "15152999",
+     "mo_ta": "- - - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "15153010",
+     "mo_ta": "- - Dầu thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "15153090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "15155010",
+     "mo_ta": "- - Dầu thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "15155020",
+     "mo_ta": "- - Các phần phân đoạn của dầu chưa tinh chế",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "15155090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "15159011",
+     "mo_ta": "- - - Dầu thô (SEN)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "15159012",
+     "mo_ta": "- - - Các phần phân đoạn của dầu chưa tinh chế (SEN)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "15159019",
+     "mo_ta": "- - - Loại khác (SEN)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "15159021",
+     "mo_ta": "- - - Dầu thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "15159022",
+     "mo_ta": "- - - Các phần phân đoạn của dầu chưa tinh chế",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "15159029",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "15159031",
+     "mo_ta": "- - - Dầu thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "15159032",
+     "mo_ta": "- - - Các phần phân đoạn của dầu chưa tinh chế",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "15159039",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "15159091",
+     "mo_ta": "- - - Dầu thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "15159092",
+     "mo_ta": "- - - Các phần phân đoạn của dầu chưa tinh chế",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "15159099",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "17"
+    },
+    {
+     "ma_hs": "15162011",
+     "mo_ta": "- - - Của đậu tương",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162012",
+     "mo_ta": "- - - Của ngô (maize)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162014",
+     "mo_ta": "- - - Của dừa",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162017",
+     "mo_ta": "- - - Của lạc",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162018",
+     "mo_ta": "- - - Của hạt lanh",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162019",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162021",
+     "mo_ta": "- - - Của quả cọ dầu, dạng thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162022",
+     "mo_ta": "- - - Của quả cọ dầu, trừ dạng thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162023",
+     "mo_ta": "- - - Của hạt cọ, dạng thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162024",
+     "mo_ta": "- - - Của hạt cọ, đã tinh chế, tẩy và khử mùi (RBD)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162025",
+     "mo_ta": "- - - Của olein hạt cọ, dạng thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162026",
+     "mo_ta": "- - - Của olein hạt cọ, đã tinh chế, tẩy và khử mùi (RBD)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162029",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162031",
+     "mo_ta": "- - - Của lạc; của dừa; của đậu tương",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162032",
+     "mo_ta": "- - - Của hạt lanh",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162033",
+     "mo_ta": "- - - Của ô liu",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162034",
+     "mo_ta": "- - - Của quả cọ dầu (SEN)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162035",
+     "mo_ta": "- - - Của hạt cọ (SEN)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162039",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162041",
+     "mo_ta": "- - - Của hạt thầu dầu (sáp opal)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162042",
+     "mo_ta": "- - - Của dừa",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162043",
+     "mo_ta": "- - - Của lạc",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162044",
+     "mo_ta": "- - - Của hạt lanh",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162045",
+     "mo_ta": "- - - Của ô liu",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162046",
+     "mo_ta": "- - - Của quả cọ dầu (SEN)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "18"
+    },
+    {
+     "ma_hs": "15162047",
+     "mo_ta": "- - - Của hạt cọ (SEN)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15162048",
+     "mo_ta": "- - - Của đậu tương",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15162049",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15162051",
+     "mo_ta": "- - - Của hạt lanh",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15162052",
+     "mo_ta": "- - - Của ô liu",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15162053",
+     "mo_ta": "- - - Của đậu tương",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15162054",
+     "mo_ta": "- - - Của lạc, cọ dầu hoặc dừa",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15162059",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15162061",
+     "mo_ta": "- - - Dạng thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15162062",
+     "mo_ta": "- - - Đã tinh chế, tẩy và khử mùi (RBD)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15162069",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15162091",
+     "mo_ta": "- - - Stearin cọ, có chỉ số iốt trên 48",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15162092",
+     "mo_ta": "- - - Của hạt lanh",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15162093",
+     "mo_ta": "- - - Của ô liu",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15162094",
+     "mo_ta": "- - - Của đậu tương",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15162096",
+     "mo_ta": "- - - Stearin hạt cọ đã tinh chế, tẩy và khử mùi (RBD)",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15162098",
+     "mo_ta": "- - - Của lạc, của cọ dầu hoặc của dừa",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15162099",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15171010",
+     "mo_ta": "- - Đóng bao bì kín khí để bán lẻ",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15171090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15179010",
+     "mo_ta": "- - Chế phẩm giả ghee",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "19"
+    },
+    {
+     "ma_hs": "15179020",
+     "mo_ta": "- - Margarin lỏng",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "15179030",
+     "mo_ta": "- - Của loại sử dụng như chế phẩm tách khuôn",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "15179043",
+     "mo_ta": "- - - Shortening",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "15179044",
+     "mo_ta": "- - - Chế phẩm giả mỡ lợn",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "15179050",
+     "mo_ta": "- - Hỗn hợp hoặc chế phẩm ở dạng rắn khác của chất béo hoặc dầu thực vật hoặc của các phần phân đoạn của chúng",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "15179061",
+     "mo_ta": "- - - Thành phần chủ yếu là dầu lạc",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "15179062",
+     "mo_ta": "- - - Thành phần chủ yếu là dầu cọ thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "15179063",
+     "mo_ta": "- - - Thành phần chủ yếu là dầu cọ khác, đóng gói với khối lượng tịnh không quá 25kg",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "15179064",
+     "mo_ta": "- - - Thành phần chủ yếu là dầu cọ khác, đóng gói với khối lượng tịnh trên 25kg",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "15179065",
+     "mo_ta": "- - - Thành phần chủ yếu là dầu hạt cọ",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "15179066",
+     "mo_ta": "- - - Thành phần chủ yếu là olein hạt cọ",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "15179067",
+     "mo_ta": "- - - Thành phần chủ yếu là dầu đậu tương hoặc dầu dừa",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "15179068",
+     "mo_ta": "- - - Thành phần chủ yếu là dầu hạt illipe",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "15179069",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "15179090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "15180014",
+     "mo_ta": "- - Dầu lạc, dầu đậu tương, dầu cọ hoặc dầu dừa",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "15180015",
+     "mo_ta": "- - Dầu hạt lanh và các phần phân đoạn của dầu hạt lanh",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "15180016",
+     "mo_ta": "- - Dầu ô liu và các phần phân đoạn của dầu ô liu",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "20"
+    },
+    {
+     "ma_hs": "15180019",
+     "mo_ta": "- - Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "21"
+    },
+    {
+     "ma_hs": "15200010",
+     "mo_ta": "- Glyxerin thô",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "21"
+    },
+    {
+     "ma_hs": "15200090",
+     "mo_ta": "- Loại khác",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "21"
+    },
+    {
+     "ma_hs": "15211000",
+     "mo_ta": "- Sáp thực vật",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "21"
+    },
+    {
+     "ma_hs": "11010011",
+     "mo_ta": "- - Tăng cường vi chất dinh dưỡng (SEN)",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "21"
+    },
+    {
+     "ma_hs": "11010019",
+     "mo_ta": "- - Loại khác",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "21"
+    },
+    {
+     "ma_hs": "11010020",
+     "mo_ta": "- Bột meslin",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "21"
+    },
+    {
+     "ma_hs": "11022000",
+     "mo_ta": "- Bột ngô",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "21"
+    },
+    {
+     "ma_hs": "11029010",
+     "mo_ta": "- - Bột gạo",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "21"
+    },
+    {
+     "ma_hs": "11029020",
+     "mo_ta": "- - Bột lúa mạch đen",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "21"
+    },
+    {
+     "ma_hs": "11029090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "21"
+    },
+    {
+     "ma_hs": "1103",
+     "mo_ta": "Ngũ cốc dạng tấm, dạng bột thô và viên",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "21"
+    },
+    {
+     "ma_hs": "11051000",
+     "mo_ta": "- Bột, bột thô và bột mịn",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "21"
+    },
+    {
+     "ma_hs": "11071000",
+     "mo_ta": "- Chưa rang",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "11072000",
+     "mo_ta": "- Đã rang",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "11081100",
+     "mo_ta": "- - Tinh bột mì",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "11081200",
+     "mo_ta": "- - Tinh bột ngô",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "11081300",
+     "mo_ta": "- - Tinh bột khoai tây",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "11081400",
+     "mo_ta": "- - Tinh bột sắn",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "11081990",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "11082000",
+     "mo_ta": "- Inulin",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "11090000",
+     "mo_ta": "Gluten lúa mì, đã hoặc chưa làm khô.",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "19011099",
+     "mo_ta": "- - - Loại khác:",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "19019099",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "19021100",
+     "mo_ta": "- - Có chứa trứng",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "19021920",
+     "mo_ta": "- - - Mì, bún làm từ gạo (kể cả bee hoon)",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "19021930",
+     "mo_ta": "- - - Miến",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "19021940",
+     "mo_ta": "- - - Mì khác",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "19021990",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "19022010",
+     "mo_ta": "- - Được nhồi thịt hoặc phụ phẩm dạng thịt sau giết mổ",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "19022030",
+     "mo_ta": "- - Được nhồi cá, động vật giáp xác hoặc động vật thân mềm",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "19022090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "19023020",
+     "mo_ta": "- - Mì, bún làm từ gạo (kể cả bee hoon)",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "19023030",
+     "mo_ta": "- - Miến",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "19023040",
+     "mo_ta": "- - Mì ăn liền khác",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "19023090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "19024000",
+     "mo_ta": "- Couscous",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "19030000",
+     "mo_ta": "Sản phẩm từ tinh bột sắn và sản phẩm thay thế chế biến từ tinh bột, ở dạng mảnh, hạt, bột xay, bột rây hay các dạng tương tự.",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "23"
+    },
+    {
+     "ma_hs": "17041000",
+     "mo_ta": "- Kẹo cao su, đã hoặc chưa bọc đường",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "24"
+    },
+    {
+     "ma_hs": "17049010",
+     "mo_ta": "- - Kẹo và viên ngậm ho",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "24"
+    },
+    {
+     "ma_hs": "17049020",
+     "mo_ta": "- - Sô cô la trắng",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "24"
+    },
+    {
+     "ma_hs": "17049091",
+     "mo_ta": "- - - Dẻo, có chứa gelatin (SEN)",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "24"
+    },
+    {
+     "ma_hs": "17049099",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "24"
+    },
+    {
+     "ma_hs": "18062010",
+     "mo_ta": "- - Kẹo sô cô la ở dạng khối, miếng hoặc thanh",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "24"
+    },
+    {
+     "ma_hs": "18062090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "24"
+    },
+    {
+     "ma_hs": "18063100",
+     "mo_ta": "- - Có nhân",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "24"
+    },
+    {
+     "ma_hs": "18063200",
+     "mo_ta": "- - Không có nhân",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "24"
+    },
+    {
+     "ma_hs": "18069010",
+     "mo_ta": "- - Kẹo sô cô la ở dạng viên (tablets) hoặc viên ngậm (pastilles)",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "24"
+    },
+    {
+     "ma_hs": "18069090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "24"
+    },
+    {
+     "ma_hs": "19051000",
+     "mo_ta": "- Bánh mì giòn",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "24"
+    },
+    {
+     "ma_hs": "19052000",
+     "mo_ta": "- Bánh mì có gừng và loại tương tự",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "24"
+    },
+    {
+     "ma_hs": "19053110",
+     "mo_ta": "- - - Không chứa ca cao",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "19053120",
+     "mo_ta": "- - - Chứa ca cao",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "19053210",
+     "mo_ta": "- - - Bánh waffles (SEN)",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "19053220",
+     "mo_ta": "- - - Bánh xốp (SEN)",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "19054010",
+     "mo_ta": "- - Chưa thêm đường, mật ong, trứng, chất béo, pho mát hoặc trái cây",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "19054090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "19059010",
+     "mo_ta": "- - Bánh quy không ngọt dùng cho trẻ mọc răng hoặc thay răng",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "19059020",
+     "mo_ta": "- - Bánh quy không ngọt khác",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "19059030",
+     "mo_ta": "- - Bánh ga tô (cakes)",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "19059040",
+     "mo_ta": "- - Bánh bột nhào (pastry)",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "19059050",
+     "mo_ta": "- - Các loại bánh không bột",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "19059070",
+     "mo_ta": "- - Bánh thánh, bánh xốp sealing wafers, bánh đa và các sản phẩm tương tự",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "19059080",
+     "mo_ta": "- - Các sản phẩm thực phẩm giòn có hương liệu khác",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "19059090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "20060000",
+     "mo_ta": "Rau, quả, quả hạch (nuts), vỏ quả và các phần khác của cây, được bảo quản bằng đường (dạng khô có tẩm đường, ngâm trong nước đường hoặc bọc đường)",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "20071000",
+     "mo_ta": "- Chế phẩm đồng nhất",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "20079100",
+     "mo_ta": "- - Từ quả thuộc chi cam quýt",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "25"
+    },
+    {
+     "ma_hs": "20079910",
+     "mo_ta": "- - - Trái cây dạng nhão, trừ xoài, dứa hoặc dâu tây dạng nhão",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "20079920",
+     "mo_ta": "- - - Mứt và thạch trái cây",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "20079930",
+     "mo_ta": "- - - Xoài nghiền (Mango purée) (SEN)",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "20079990",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "20081110",
+     "mo_ta": "- - - Đã rang",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "20081120",
+     "mo_ta": "- - - Bơ lạc",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "20081190",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "20081910",
+     "mo_ta": "- - - Hạt điều",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "20081991",
+     "mo_ta": "- - - - Đã rang",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "20081999",
+     "mo_ta": "- - - - Loại khác",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "20082010",
+     "mo_ta": "- - Đóng bao bì kín khí để bán lẻ",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "20082090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "20083010",
+     "mo_ta": "- - Đã pha thêm đường hoặc chất tạo ngọt khác hoặc rượu",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "20083090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "20084000",
+     "mo_ta": "- Lê",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "20085000",
+     "mo_ta": "- Mơ",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "20086010",
+     "mo_ta": "- - Đã pha thêm đường hoặc chất tạo ngọt khác hoặc rượu",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "20086090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "26"
+    },
+    {
+     "ma_hs": "20087010",
+     "mo_ta": "- - Đã pha thêm đường hoặc chất tạo ngọt khác hoặc rượu",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    },
+    {
+     "ma_hs": "20087090",
+     "mo_ta": "- - Loại khác",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    },
+    {
+     "ma_hs": "20088000",
+     "mo_ta": "- Dâu tây",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    },
+    {
+     "ma_hs": "20089100",
+     "mo_ta": "- - Lõi cây cọ",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    },
+    {
+     "ma_hs": "20089310",
+     "mo_ta": "- - - Đã pha thêm đường hoặc chất tạo ngọt khác hoặc rượu",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    },
+    {
+     "ma_hs": "20089390",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    },
+    {
+     "ma_hs": "20089710",
+     "mo_ta": "- - - Từ thân cây, rễ cây và các phần ăn được khác của cây, không bao gồm quả hoặc quả hạch (nuts) đã hoặc chưa pha thêm đường hoặc chất tạo ngọt khác hoặc rượu",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    },
+    {
+     "ma_hs": "20089720",
+     "mo_ta": "- - - Loại khác, đã pha thêm đường hoặc chất tạo ngọt khác hoặc rượu",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    },
+    {
+     "ma_hs": "20089790",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    },
+    {
+     "ma_hs": "20089910",
+     "mo_ta": "- - - Quả vải",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    },
+    {
+     "ma_hs": "20089920",
+     "mo_ta": "- - - Quả nhãn",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    },
+    {
+     "ma_hs": "20089930",
+     "mo_ta": "- - - Từ thân cây, rễ cây và các phần ăn được khác của cây, không bao gồm quả hoặc quả hạch (nuts) đã hoặc chưa pha thêm đường hoặc chất tạo ngọt khác hoặc rượu",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    },
+    {
+     "ma_hs": "20089940",
+     "mo_ta": "- - - Loại khác, đã pha thêm đường hoặc chất tạo ngọt khác hoặc rượu",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    },
+    {
+     "ma_hs": "20089990",
+     "mo_ta": "- - - Loại khác",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_ATTP",
+     "trang": "27"
+    }
+   ]
+  }
+ ]
 }

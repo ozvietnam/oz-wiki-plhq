@@ -1,7 +1,16 @@
 {
   "ngay": "2026-10-04",
-  "tong": 435,
+  "tong": 437,
   "diem": [
+    {
+      "ma": "THIEU_VAN_BAN",
+      "muc": "Cao",
+      "tieuDe": "Chưa có trong sổ: 28/2021/TT-BYT",
+      "muc_tieu": "28/2021/TT-BYT",
+      "viec": "Tạo registry/van-ban/ cho 28/2021/TT-BYT (được nhắc bởi 15/2024/TT-BYT (thay_the)). Dùng: node tools/them-van-ban.mjs \"28/2021/TT-BYT\"",
+      "luong": "he-thong-hoa",
+      "trongSo": 0
+    },
     {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
@@ -624,12 +633,30 @@
       "trongSo": 0
     },
     {
+      "ma": "CANH_BAO_NGUON",
+      "muc": "Cao",
+      "tieuDe": "1182/QĐ-BCT: Chỉ Khoản 1 Điều 2 và Phụ lục 2 (ATTP) hết hiệu lực từ 17-07-2026 (Điều 4 khoản 2 TT 28/2026/TT-BCT, Công báo số 328). Phụ lục 1 (chất lượng nhóm 2) chưa rõ còn áp dụng — khung NĐ 37/2026/NĐ-CP bỏ khái niệm nhóm 2 từ 01-07-2026; cần đối chiếu 33/2026/TT-BCT trước khi ghi HET_HIEU_LUC.",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Vừa",
-      "tieuDe": "1182/QĐ-BCT: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "tieuDe": "1182/QĐ-BCT: tình trạng \"HET_HIEU_LUC_MOT_PHAN\" chưa đối chiếu nguồn A",
       "muc_tieu": "1182/QĐ-BCT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: chưa có toàn văn trong raw/",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"1182/QĐ-BCT\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -939,18 +966,9 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "15/2024/TT-BYT: chưa có nguồn chính thống",
-      "muc_tieu": "15/2024/TT-BYT",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Vừa",
-      "tieuDe": "15/2024/TT-BYT: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
+      "tieuDe": "15/2024/TT-BYT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "15/2024/TT-BYT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
@@ -3173,6 +3191,15 @@
     {
       "ma": "DANH_MUC_CHUA_TRICH",
       "muc": "Cao",
+      "tieuDe": "Chưa trích bảng mã HS: 1182/QĐ-BCT",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "Văn bản danh mục chưa có danh-muc/1182-qd-bct-2021.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 496 mã.",
+      "luong": "danh-muc-hs",
+      "trongSo": 496
+    },
+    {
+      "ma": "DANH_MUC_CHUA_TRICH",
+      "muc": "Cao",
       "tieuDe": "Chưa trích bảng mã HS: 125/2026/TT-BCA",
       "muc_tieu": "125/2026/TT-BCA",
       "viec": "Văn bản danh mục chưa có danh-muc/125-2026-tt-bca.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
@@ -3196,15 +3223,6 @@
       "viec": "Văn bản danh mục chưa có danh-muc/13-2023-qd-ttg.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 24 mã.",
       "luong": "danh-muc-hs",
       "trongSo": 24
-    },
-    {
-      "ma": "DANH_MUC_CHUA_TRICH",
-      "muc": "Cao",
-      "tieuDe": "Chưa trích bảng mã HS: 15/2024/TT-BYT",
-      "muc_tieu": "15/2024/TT-BYT",
-      "viec": "Văn bản danh mục chưa có danh-muc/15-2024-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 186 mã.",
-      "luong": "danh-muc-hs",
-      "trongSo": 186
     },
     {
       "ma": "DANH_MUC_CHUA_TRICH",
@@ -3275,15 +3293,6 @@
       "tieuDe": "Chưa trích bảng mã HS: 27/2026/TT-BYT",
       "muc_tieu": "27/2026/TT-BYT",
       "viec": "Văn bản danh mục chưa có danh-muc/27-2026-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
-      "luong": "danh-muc-hs",
-      "trongSo": 10000
-    },
-    {
-      "ma": "DANH_MUC_CHUA_TRICH",
-      "muc": "Cao",
-      "tieuDe": "Chưa trích bảng mã HS: 28/2026/TT-BCT",
-      "muc_tieu": "28/2026/TT-BCT",
-      "viec": "Văn bản danh mục chưa có danh-muc/28-2026-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
       "luong": "danh-muc-hs",
       "trongSo": 10000
     },
@@ -3405,6 +3414,24 @@
       "trongSo": 12
     },
     {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "15/2024/TT-BYT: mã 28232600 không có trong biểu thuế",
+      "muc_tieu": "15/2024/TT-BYT",
+      "viec": "danh-muc/15-2024-tt-byt.csv dòng 303 (\"INS 542: Bone phosphat\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "15/2024/TT-BYT: mã 39072090 không có trong biểu thuế",
+      "muc_tieu": "15/2024/TT-BYT",
+      "viec": "danh-muc/15-2024-tt-byt.csv dòng 427 (\"INS 1521: Polyethylen glycol\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
       "ma": "HS_API_UU_TIEN_DOI_CHIEU",
       "muc": "Cao",
       "tieuDe": "Đối chiếu hiệu lực 42/2019/TT-BCT — 3316 mã HS đang dẫn",
@@ -3490,7 +3517,7 @@
       "muc": "Cao",
       "tieuDe": "Đối chiếu hiệu lực 1182/QĐ-BCT — 496 mã HS đang dẫn",
       "muc_tieu": "1182/QĐ-BCT",
-      "viec": "Sổ ghi HET_HIEU_LUC nhưng chưa đối chiếu nguồn A; 496 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
+      "viec": "Sổ ghi HET_HIEU_LUC_MOT_PHAN nhưng chưa đối chiếu nguồn A; 496 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
       "luong": "hieu-luc",
       "trongSo": 496
     },
@@ -3517,7 +3544,7 @@
       "muc": "Cao",
       "tieuDe": "Đối chiếu hiệu lực 15/2024/TT-BYT — 186 mã HS đang dẫn",
       "muc_tieu": "15/2024/TT-BYT",
-      "viec": "Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 186 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
+      "viec": "Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 186 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.",
       "luong": "hieu-luc",
       "trongSo": 186
     },
@@ -3896,15 +3923,6 @@
       "tieuDe": "62/2024/TT-BGTVT: hs-code-api ghi ACTIVE, sổ ghi HET_HIEU_LUC",
       "muc_tieu": "62/2024/TT-BGTVT",
       "viec": "Thư viện /api/legal-docs của hs-code-api (62/2024/TT-BGTVT) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "HS_API_LECH_THU_VIEN",
-      "muc": "Vừa",
-      "tieuDe": "1182/QĐ-BCT: hs-code-api ghi ACTIVE, sổ ghi HET_HIEU_LUC",
-      "muc_tieu": "1182/QĐ-BCT",
-      "viec": "Thư viện /api/legal-docs của hs-code-api (1182/QD-BCT-PL2-2021, 1182/QD-BCT-PL1-2021, 1182/QD-BCT, 1182/2021/QD-BCT, 1182/QD-BCT-PL1) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
       "luong": "hieu-luc",
       "trongSo": 0
     },
