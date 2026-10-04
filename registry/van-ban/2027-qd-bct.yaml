@@ -4,17 +4,20 @@ loai: QUYET_DINH
 ten: Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm bằng plastic được làm từ các polyme từ propylen có xuất xứ từ Ma-lai-xi-a, Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa
 co_quan: BCT
 ngay_ban_hanh: '2025-07-14'
+hieu_luc_tu: '2025-07-23'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - phong-ve-thuong-mai
 nguon:
-  - url: https://moit.gov.vn/tin-tuc/bo-cong-thuong-ban-hanh-quyet-dinh-ve-ket-qua-ra-soat-cuoi-ky-viec-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-sa2.html
-    truy_cap: '2026-07-02'
+  - url: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/Quye%CC%82%CC%81t%20%C4%91i%CC%A3nh%202027%20Q%C4%90-BCT.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 2
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
-  hieu_luc_da_doi_chieu: false
+  muc: NGUON_A
+  pham_vi: 'PDF pvtm.gov.vn (OCR): Điều 1 chấm dứt, không gia hạn biện pháp CBPG (ER01.AD07 / BOPP); Điều 2 hiệu lực từ 23-07-2025; QĐ còn hiệu lực với tư cách kết luận rà soát (kiểm đến 04-10-2026)'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 2 mã HS). Tiêu đề đã đối chiếu (moit.gov.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc ER01.AD07 — màng BOPP (HS 3920.20.10; 3920.20.91). Kết luận: CHẤM DỨT, không gia hạn thuế CBPG (không còn thuế CBPG với BOPP). Số hiệu hay viết 2027/QĐ-BCT-2025 hoặc 2027/2025/QĐ-BCT.'
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (2 mã HS). Mã vụ việc ER01.AD07. PDF Cục PVTM là ảnh — OCR. Biện pháp CBPG gốc (QĐ 1900/QĐ-BCT) không được gia hạn.'
+toan_van: raw/download/pvtm.gov.vn/2027-qd-bct.pdf
+
