@@ -11,6 +11,8 @@ nhanh:
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-113-2017-nd-cp-24884/19507.htm
     truy_cap: '2026-07-02'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2017/10/24884/19507-1-2017783-784113-2017-nd-cp.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 667
 xac_minh:
   muc: NGUON_A
@@ -19,3 +21,4 @@ xac_minh:
   ngay: '2026-10-04'
   boi: khoi-tao
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 667 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn).
+toan_van: raw/download/congbaocdn.chinhphu.vn/113-2017-nd-cp.pdf

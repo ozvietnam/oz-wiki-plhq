@@ -11,6 +11,8 @@ nhanh:
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-11-2018-tt-btttt-27500.htm
     truy_cap: '2026-07-02'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/10/27500/24162-1-20181011-101211-2018-tt-btttt.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 186
 xac_minh:
   muc: NGUON_A
@@ -19,3 +21,4 @@ xac_minh:
   ngay: '2026-10-04'
   boi: khoi-tao
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 186 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn).
+toan_van: raw/download/congbaocdn.chinhphu.vn/11-2018-tt-btttt.pdf
