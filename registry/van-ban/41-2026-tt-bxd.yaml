@@ -13,10 +13,21 @@ quan_he:
     - 37/2026/NĐ-CP
   thay_the:
     - 10/2024/TT-BXD
+nguon:
+  - url: https://vpubnd.daklak.gov.vn/CMS/Content/VanBan/2026/7.2026/41-2026-TT-BXD.pdf
+    truy_cap: '2026-10-05'
+toan_van: raw/download/datafiles.chinhphu.vn/41-2026-tt-bxd.pdf
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  muc: NGUON_A
+  pham_vi: số hiệu, ngày ban hành 26-06-2026 trên vpubnd.daklak.gov.vn; nội dung khớp với Công báo số 404 ngày 17/7/2026
   hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 3 mức rủi ro, 09 nhóm rủi ro cao; rủi ro trung bình tại Phụ lục III. Công báo số 404 ngày 17/7/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
+  ngay: '2026-10-05'
+  boi: hermes-211@ozvietnam
+danh_muc_hs:
+  tep: danh-muc/41-2026-tt-bxd.csv
+  nguon: https://vpubnd.daklak.gov.vn/CMS/Content/VanBan/2026/7.2026/41-2026-TT-BXD.pdf
+  trich_boi: hermes-211
+  ngay: '2026-10-05'
+  da_doi_chieu: false
+  ghi_chu: "Phụ lục II (trang 20, rủi ro cao, 17 mã) + Phụ lục III (trang 21-22, rủi ro trung bình, 65 mã); tách mỗi mã một dòng; 2621.90.90 và 6810.99.00 trùng 2-3 nhóm trong cùng phụ lục; 6811.82.20 và 6905.10.00 trùng ở nhóm 8 và 10"
+ghi_chu: 3 mức rủi ro, 09 nhóm rủi ro cao; rủi ro trung bình tại Phụ lục III. Công báo số 404 ngày 17/7/2026. Phụ lục I không có mã HS (danh mục vật liệu xây dựng tổng quát).
