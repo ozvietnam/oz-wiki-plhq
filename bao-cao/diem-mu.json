@@ -4318,16 +4318,16 @@
       "muc": "Vừa",
       "tieuDe": "Hàng thật mã 85366932 chưa đối chiếu danh mục KTCN 2026",
       "muc_tieu": "85366932",
-      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-05) mang mã 85366932 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này — hs-code-api chưa biết có phải công bố hợp quy / kiểm tra hay không. Biểu thuế đang dẫn: 42/2019/TT-BCT, 34/2025/TT-BCT. Tìm mã (hoặc tiền tố 4/6 số) trong phụ lục 4814/QĐ-BCA rồi trích theo docs/luoc-do-danh-muc-hs.md.",
+      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-05) mang mã 85366932 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Biểu thuế đang dẫn: 42/2019/TT-BCT, 34/2025/TT-BCT. Bảng KTCN 2026 có dòng cùng nhóm 8536: 33/2026/TT-BCT, 36/2026/TT-BKHCN — mở bản gốc đối chiếu xem mã 85366932 có bị trích sót không. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
       "luong": "danh-muc-hs",
-      "trongSo": 2000
+      "trongSo": 2500
     },
     {
       "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
       "muc": "Thấp",
       "tieuDe": "Hàng thật mã 39264000 chưa đối chiếu danh mục KTCN 2026",
       "muc_tieu": "39264000",
-      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-05) mang mã 39264000 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này — hs-code-api chưa biết có phải công bố hợp quy / kiểm tra hay không. Biểu thuế đang dẫn: 08/2023/TT-BCT. Tìm mã (hoặc tiền tố 4/6 số) trong phụ lục 4814/QĐ-BCA rồi trích theo docs/luoc-do-danh-muc-hs.md.",
+      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-05) mang mã 39264000 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Biểu thuế đang dẫn: 08/2023/TT-BCT. Chưa bảng KTCN 2026 nào có dòng nhóm 3926 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
       "luong": "danh-muc-hs",
       "trongSo": 1000
     },
