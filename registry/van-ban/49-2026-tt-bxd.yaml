@@ -20,14 +20,16 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: khoi-tao
-ghi_chu: "PL I rủi ro cao: ô tô, mô tô, xe gắn máy, xe bốn bánh có động cơ; PL II rủi ro trung bình: phương tiện, phụ tùng, thiết bị GTVT, đường sắt. Bài tổng hợp KTCN 2026 (nguồn thứ cấp) — xem hs-code-api data/ktcn-regime-2026.json."
+ghi_chu: 'PL I rủi ro cao: ô tô, mô tô, xe gắn máy, xe bốn bánh có động cơ; PL II rủi ro trung bình: phương tiện, phụ tùng, thiết bị GTVT, đường sắt. Bài tổng hợp KTCN 2026 (nguồn thứ cấp) — xem hs-code-api data/ktcn-regime-2026.json.'
 toan_van: raw/download/datafiles.chinhphu.vn/49-2026-tt-bxd.pdf
 nguon:
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd.signed.pdf
     truy_cap: '2026-10-04'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd-pl1.pdf
     truy_cap: '2026-10-04'
-    ghi_chu: "Phụ lục I - Danh mục rủi ro cao (10 trang, 619 KB)"
+    ghi_chu: Phụ lục I - Danh mục rủi ro cao (10 trang, 619 KB)
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd-pl2.pdf
     truy_cap: '2026-10-04'
-    ghi_chu: "Phụ lục II - Danh mục rủi ro trung bình (6 trang, 565 KB)"
+    ghi_chu: Phụ lục II - Danh mục rủi ro trung bình (6 trang, 565 KB)
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-49-2026-tt-bxd-469975.htm
+    truy_cap: '2026-10-04'

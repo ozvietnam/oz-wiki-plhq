@@ -37,6 +37,15 @@ Agent phải làm việc như một người đóng góp cẩn thận: có ngu�
 - **Ưu tiên việc có ảnh hưởng thật:** nhóm `HS_API_*` trong báo cáo điểm mù được xếp theo số mã HS mà
   hs-code-api đang dẫn văn bản đó (xem [tích hợp](tich-hop.md)). Làm từ trên xuống.
 
+### Kinh nghiệm — tải toàn văn (`luong:nap-lam-sach`)
+
+- **Ưu tiên URL tải:** `datafiles.chinhphu.vn` và `congbaocdn.chinhphu.vn` (từ trang vanban/congbao), rồi `moit.gov.vn/upload/...`. Dùng `node tools/nap.mjs <url> --so-hieu "..." --ghi`.
+- **Đối chiếu số hiệu trước khi nạp.** Tên tệp trên CDN đôi khi lệch (vd trang 08/2023/TT-BCT gắn `03-bct.signed.pdf`); tiêu đề trang nguồn A mới là chuẩn. Nếu số hiệu trên Công báo khác nội dung sổ đang mô tả thì **không nạp** — ghi `ghi_chu` và để truy vết lại (bài học `11/2022/TT-BCT`).
+- **vbpl.vn FileData / attachment** hay 403/404 — bỏ qua, tìm lại trên vanban/congbao/cổng bộ.
+- **OLE `.doc` bị gắn `.docx`:** kiểm magic `D0 CF 11 E0`, đổi đuôi thành `.doc` và sửa `toan_van` (vd `05/2007/QH12`, `108/2008/NĐ-CP`).
+- **ZIP trên moit:** được phép trích PDF bên trong, ghi `nguon` trỏ ZIP/trang công bố và ghi chú nếu tên tệp trong ZIP sai (vd `765/QĐ-BCT`).
+- PDF ký số dạng ảnh vẫn nạp được; OCR là việc sau.
+
 ## Mở PR
 
 - Tiêu đề: `<luồng>: <việc>` — ví dụ `hieu-luc: 28/2026/TT-BCT thay 11/2022/TT-BCT`.

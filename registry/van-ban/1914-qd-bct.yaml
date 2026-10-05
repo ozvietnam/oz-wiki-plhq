@@ -17,4 +17,4 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: khoi-tao
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + moit.gov.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc ER01.AD09. HS 2922.42.20. Gia hạn CBPG 5 năm (23/07/2025–22/07/2030), thuế 3.396.156–6.385.289 đ/tấn. Số hiệu hay viết 1914/QĐ-BCT-2025.'
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + moit.gov.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc ER01.AD09. HS 2922.42.20. Gia hạn CBPG 5 năm (23/07/2025–22/07/2030), thuế 3.396.156–6.385.289 đ/tấn. Số hiệu hay viết 1914/QĐ-BCT-2025. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.'

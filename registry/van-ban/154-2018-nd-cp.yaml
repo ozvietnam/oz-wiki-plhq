@@ -8,9 +8,12 @@ tinh_trang: HET_HIEU_LUC_MOT_PHAN
 nhanh:
   - kiem-tra-chuyen-nganh/bkhcn
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  muc: NGUON_A
+  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
+  boi: cursor-agent@ozvietnam
 ghi_chu: Điều 4 hết hiệu lực từ 01/7/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
+nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?docid=195316&pageid=27160
+    truy_cap: '2026-10-04'

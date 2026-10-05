@@ -11,9 +11,12 @@ quan_he:
   huong_dan:
     - 37/2026/NĐ-CP
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  muc: NGUON_A
+  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
+  boi: cursor-agent@ozvietnam
 ghi_chu: '18 nhóm, 08 nhóm rủi ro cao: thang máy, cần trục, cầu trục, vận thăng, nồi hơi và thiết bị áp lực, thiết bị nâng, phương tiện bảo vệ cá nhân, thiết bị hàn. Văn bản bị thay (01/2021/TT-BLĐTBXH?) CHƯA XÁC MINH. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
+nguon:
+  - url: https://vanban.chinhphu.vn/?docid=219023&pageid=27160
+    truy_cap: '2026-10-04'

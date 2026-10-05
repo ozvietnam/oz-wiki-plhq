@@ -12,9 +12,12 @@ quan_he:
   sua_doi:
     - 38/2015/TT-BTC
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: hiểu biết nền lúc khởi tạo
+  muc: NGUON_A
+  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
+  boi: cursor-agent@ozvietnam
 ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Phụ lục quy định chỉ tiêu khai, gồm yêu cầu mô tả hàng hoá (mục 1.78) mà hs-code-api /api/describe tuân theo.
+nguon:
+  - url: https://vanban.chinhphu.vn/?docid=193970&pageid=27160
+    truy_cap: '2026-10-04'
