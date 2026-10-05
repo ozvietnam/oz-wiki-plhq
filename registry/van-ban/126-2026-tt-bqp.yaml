@@ -3,6 +3,7 @@ so_hieu: 126/2026/TT-BQP
 loai: THONG_TU
 ten: Ban hành Danh mục sản phẩm mật mã dân sự có mức độ rủi ro cao thuộc phạm vi quản lý của Bộ trưởng Bộ Quốc phòng
 co_quan: BQP
+ngay_ban_hanh: '2026-09-02'
 hieu_luc_tu: '2026-09-02'
 tinh_trang: CON_HIEU_LUC
 nhanh:
@@ -12,11 +13,21 @@ quan_he:
     - 37/2026/NĐ-CP
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'PDF ký số datafiles.chinhphu.vn (ảnh quét, 7 trang): Điều 6 hiệu lực từ 02-09-2026 (viết tay); Điều 5 khoản 2 chuyển tiếp 24 tháng cho sản phẩm đã được cấp phép lưu thông; chưa đăng Công báo (dò ID 469850–470720 ngày 05-10-2026)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-05'
+  boi: claude-code@ozvietnam
 ghi_chu: 'Cơ quan: Ban Cơ yếu Chính phủ. Chuyển tiếp 24 tháng cho sản phẩm đã cấp phép. Liên quan NĐ 341/2026/NĐ-CP. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=219388&pageid=27160
     truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/126-bqp.signed.pdf
+    truy_cap: '2026-10-05'
+toan_van: raw/download/datafiles.chinhphu.vn/126-2026-tt-bqp.pdf
+danh_muc_hs:
+  tep: danh-muc/126-2026-tt-bqp.csv
+  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/126-bqp.signed.pdf
+  trich_boi: claude-code@ozvietnam
+  ngay: '2026-10-05'
+  da_doi_chieu: false
+  ghi_chu: 'Phụ lục trang PDF 5–7 là ẢNH QUÉT (không lớp chữ) — đọc từ ảnh 110 dpi, chưa OCR máy; 54 dòng / 34 mã, cả 34 mã có trong biểu thuế. Cần người thứ hai soát từng mã với ảnh gốc rồi đặt da_doi_chieu: true. Mỗi mã chỉ áp cho sản phẩm CÓ chức năng mật mã (dieu_kien).'

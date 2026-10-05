@@ -11,6 +11,14 @@ nhanh:
 quan_he:
   sua_doi:
     - 05/2022/TT-BYT
+    - so_hieu: 05/2022/TT-BYT
+      pham_vi: Điều 8 (lộ trình kiểm định)
+      tu_ngay: '2026-07-01'
+      can_cu: Điều 3 TT 24/2026/TT-BYT
+  bai_bo:
+    - so_hieu: 59/2025/TT-BYT
+      tu_ngay: '2026-07-01'
+      can_cu: Điều 4 khoản 2 TT 24/2026/TT-BYT
 xac_minh:
   muc: NGUON_A
   pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
@@ -21,3 +29,13 @@ ghi_chu: Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên v�
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=218703&pageid=27160
     truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/24-byt.signed.pdf
+    truy_cap: '2026-10-05'
+toan_van: raw/download/datafiles.chinhphu.vn/24-2026-tt-byt.pdf
+danh_muc_hs:
+  tep: danh-muc/24-2026-tt-byt.csv
+  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/24-byt.signed.pdf
+  trich_boi: claude-code@ozvietnam
+  ngay: '2026-10-05'
+  da_doi_chieu: true
+  ghi_chu: 'Văn bản 3 trang, KHÔNG có phụ lục mã HS. Điều 2 khoản 2: "Mã số HS đối với thiết bị y tế được quy định tại Thông tư số 19/2024/TT-BYT" → một dòng dẫn chiếu.'
