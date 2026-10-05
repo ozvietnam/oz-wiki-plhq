@@ -53,6 +53,8 @@ Giấy phép CC BY 4.0 — ghi nguồn "oz-wiki-plhq".
 Ba loại việc từ hs-code-api trong báo cáo điểm mù:
 - `HS_API_UU_TIEN_DOI_CHIEU` — văn bản biểu thuế đang dẫn mà sổ chưa đối chiếu nguồn A, xếp theo số mã HS
   (văn bản dẫn ≥ 50 mã là mức Cao). Đây là hàng đợi nên làm trước của luồng `hieu-luc`.
+- `HS_API_CHO_MO_CHAN` — cùng nhu cầu trên nhưng sổ đã ghi `xac_minh.chan` (đã săn hết đường A khả thi).
+  Mức Thấp — **không** săn lặp; làm theo `chan.viec_tiep` hoặc chuyển luồng. Xem `node tools/san-hieu-luc.mjs`.
 - `HS_API_CHUA_CO` — biểu thuế dẫn văn bản mà sổ chưa có.
 - `HS_API_LECH_THU_VIEN` — thư viện `/api/legal-docs` của hs-code-api ghi tình trạng khác sổ; đối chiếu nguồn A
   rồi sửa bên sai (sổ sai thì sửa ở đây, sổ đúng thì ghi `hieu_luc_da_doi_chieu: true` và mở issue bên hs-code-api).

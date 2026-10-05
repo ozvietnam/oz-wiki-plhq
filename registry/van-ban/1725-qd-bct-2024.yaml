@@ -5,7 +5,7 @@ ten: Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất 
 co_quan: BCT
 ngay_ban_hanh: '2024-07-01'
 hieu_luc_tu: '2024-07-01'
-tinh_trang: CHUA_XAC_MINH
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/bct
 nguon:
@@ -18,9 +18,15 @@ nguon:
 trich_dan_trong_bieu_thue: 61
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'trang moit.gov.vn: số hiệu 1725/QĐ-BCT, ban hành/hiệu lực 01-07-2024; người ký Thứ trưởng Nguyễn Sinh Nhật Tân'
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'PDF moit.gov.vn (OCR): Điều 3 khoản 1 hiệu lực kể từ ngày ký (01-07-2024); khoản 2 thay thế Phụ lục II QĐ 1182/QĐ-BCT; trang moit trạng thái «Đã có hiệu lực»; sổ không có văn bản sau ghi thay/bãi 1725/QĐ-BCT (kiểm đến 04-10-2026)'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 61 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn + luatvietnam.vn). KHUNG KTCN 2026 (tin cậy MEDIUM): Danh mục rủi ro của Bộ Công Thương (TT 33/2026/TT-BCT) có nhóm hiệu suất năng lượng. Cần đối chiếu mã với phụ lục TT 33/2026.'
+ghi_chu: Nhập từ hs-code-api data/legal-docs.json (61 mã HS). PDF moit là ảnh ký số — điều khoản đọc bằng OCR.
 toan_van: raw/download/moit.gov.vn/1725-qd-bct.pdf
+quan_he:
+  thay_the:
+    - so_hieu: 1182/QĐ-BCT
+      pham_vi: Phụ lục II
+      tu_ngay: '2024-07-01'
+      can_cu: Điều 3 khoản 2 QĐ 1725/QĐ-BCT

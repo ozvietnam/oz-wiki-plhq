@@ -4,7 +4,7 @@ loai: QUYET_DINH
 ten: Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm nhôm xuất xứ từ Cộng hòa nhân dân Trung Hoa
 co_quan: BCT
 ngay_ban_hanh: '2024-09-23'
-hieu_luc_tu: '2024-09-23'
+hieu_luc_tu: '2024-10-03'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - phong-ve-thuong-mai
@@ -13,11 +13,15 @@ nguon:
     truy_cap: '2026-10-04'
   - url: https://luatvietnam.vn/xuat-nhap-khau/quyet-dinh-2531-qd-bct-2024-ket-qua-ra-soat-cuoi-ky-ap-dung-chong-ban-pha-gia-nhom-trung-hoa-367338-d1.html
     truy_cap: '2026-07-02'
+  - url: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%202531%20ket%20qua%20ra%20soat%20ER01_AD05.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 5
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (moit.gov.vn)
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'PDF pvtm.gov.vn (OCR): Điều 1 gia hạn thêm 05 năm CBPG nhôm (ER01.AD05); Điều 3 hiệu lực từ 03-10-2024; Thông báo: thuế áp dụng 03-10-2024 đến 02-10-2029; CON_HIEU_LUC trong kỳ (kiểm đến 04-10-2026)'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 5 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + moit.gov.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc ER01.AD05. Gia hạn CBPG thêm 5 năm (03/10/2024–02/10/2029), thuế 2,85%–35,58%; HS 7604.10.10; 7604.10.90; 7604.21.90; 7604.29.10; 7604.29.90. Số hiệu hay viết 2531/QĐ-BCT-2024.'
+ghi_chu: Nhập từ hs-code-api data/legal-docs.json (5 mã HS). Mã vụ việc ER01.AD05. PDF Cục PVTM là ảnh — OCR. Điều 4 hết hiệu lực QĐ 74/QĐ-BCT.
+het_hieu_luc_tu: '2029-10-03'
+toan_van: raw/download/pvtm.gov.vn/2531-qd-bct.pdf

@@ -13,6 +13,14 @@ export const LOAI = ['HIEN_PHAP', 'LUAT', 'NGHI_QUYET', 'PHAP_LENH', 'NGHI_DINH'
 export const TINH_TRANG = ['CON_HIEU_LUC', 'HET_HIEU_LUC', 'HET_HIEU_LUC_MOT_PHAN', 'TAM_NGUNG_HIEU_LUC',
   'CHUA_CO_HIEU_LUC', 'CHUA_XAC_MINH'];
 export const MUC_XAC_MINH = ['NGUON_A', 'NGUON_B', 'NGUON_THU_CAP', 'CHUA_XAC_MINH'];
+/** Lý do tạm dừng săn đối chiếu hiệu lực — xem docs/huong-dan-agent.md (HS_API đã cạn nguồn A). */
+export const CHAN_HIEU_LUC = [
+  'THIEU_PDF_A',           // chưa có toàn văn bậc A của chính văn bản
+  'THIEU_DIEU_THI_HANH_A', // đã biết tình trạng hiện tại từ A nhưng thiếu điều khoản thi hành trên A
+  'THIEU_BAI_TUONG_MINH',  // có PDF A nhưng không có điều khoản bãi/thay tường minh để chốt còn/hết
+  'SO_HIEU_LECH',          // số hiệu biểu thuế dẫn có vẻ sai / không tồn tại trên nguồn A
+  'CHO_CONG_BO_A',         // kết quả/văn bản đã biết số hiệu nhưng cổng A chưa đăng PDF
+];
 // Quan hệ chiều đi → tên chiều ngược (tính tự động).
 export const QUAN_HE = {
   thay_the: 'bi_thay_the_boi',

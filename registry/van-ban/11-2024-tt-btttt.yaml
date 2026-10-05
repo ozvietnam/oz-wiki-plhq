@@ -10,18 +10,35 @@ nhanh:
   - chua-phan-loai
 quan_he:
   sua_doi:
+    - so_hieu: 05/2016/TT-BTTTT
+      tu_ngay: '2024-11-07'
+      can_cu: Điều 1 TT 11/2024/TT-BTTTT
     - so_hieu: 22/2018/TT-BTTTT
-      can_cu: theo ghi chú nghiên cứu của hs-code-api data/legal-docs.json — chưa đối chiếu nguồn A
+      pham_vi: Điều 1
+      tu_ngay: '2024-11-07'
+      can_cu: Điều 2 TT 11/2024/TT-BTTTT
+    - so_hieu: 03/2015/TT-BTTTT
+      tu_ngay: '2024-11-07'
+      can_cu: Điều 3 TT 11/2024/TT-BTTTT
+    - so_hieu: 09/2013/TT-BTTTT
+      pham_vi: nhóm 2.1.2 Phụ lục số 02
+      tu_ngay: '2024-11-07'
+      can_cu: Điều 4 TT 11/2024/TT-BTTTT
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-11-2024-tt-btttt-42827.htm
     truy_cap: '2026-10-04'
   - url: https://luatvietnam.vn/xuat-nhap-khau/thong-tu-11-2024-tt-btttt-sua-doi-bo-sung-mot-so-dieu-tt-03-2015-tt-btttt-tt-05-2016-tt-btttt-tt-22-2018-tt-btttt-tt-09-2013-tt-btttt-366670-d1.html
     truy_cap: '2026-07-02'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42827/51958-1-20241107-110811-2024-tt-btttt.pdf
+    truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/11/11-btttt.signed.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 23
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (congbao.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'PDF Công báo số 1107+1108 ngày 11-10-2024 (lớp chữ): Điều 5 khoản 1 hiệu lực 07-11-2024; tình trạng hiện tại: sổ không có văn bản sau ghi thay/bãi TT 11/2024; TT 36/2026/TT-BKHCN hết các TT-BTTTT cũ (30/2011, 15/2018, 10/2020) nhưng không nêu 11/2024 (kiểm đến 04-10-2026)'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 23 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + vcci.com.vn + caselaw.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Bổ sung Danh mục hàng hóa NK theo mã HS lĩnh vực in (nhóm 84.40/84.41/84.42/84.43, khai báo theo NĐ 72/2022/NĐ-CP); sửa Danh mục phần cứng-điện tử của TT 09/2013/TT-BTTTT. Hợp nhất tại 09/VBHN-BTTTT (2024)'
+ghi_chu: Nhập từ hs-code-api data/legal-docs.json (23 mã HS). PDF datafiles 11-btttt.signed.pdf (79 trang) là ảnh; dùng bản Công báo CDN (10 trang, lớp chữ) để đối chiếu.
+toan_van: raw/download/congbaocdn.chinhphu.vn/11-2024-tt-btttt.pdf

@@ -9,13 +9,15 @@ tinh_trang: HET_HIEU_LUC
 nhanh:
   - phong-ve-thuong-mai
 nguon:
-  - url: https://luatvietnam.vn/xuat-nhap-khau/quyet-dinh-2491-qd-bct-411121-d1.html
-    truy_cap: '2026-07-02'
+  - url: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20so%20bo%202491_5_9_25.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 6
 xac_minh:
-  muc: NGUON_B
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
-  hieu_luc_da_doi_chieu: false
+  muc: NGUON_A
+  pham_vi: 'PDF pvtm.gov.vn (OCR): Điều 2 hiệu lực sau 15 ngày kể từ ngày ban hành (05-09-2025 → 20-09-2025); Thông báo mục 3.b thời hạn thuế tạm thời 120 ngày kể từ ngày có hiệu lực → hết khoảng 17-01-2026; HET_HIEU_LUC (kiểm đến 04-10-2026)'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 6 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + moit.gov.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc AD21 (HS 4411.12.00; 4411.13.00; 4411.14.00; 4411.92.00; 4411.93.00; 4411.94.00). Thuế tạm thời (hiệu lực sau 15 ngày, áp dụng 120 ngày; Trung Quốc 2,59%–39,88%, Thái Lan 8,30%–20,20%); thay bằng thuế CBPG chính thức tại QĐ 121/QĐ-BCT ngày 19/01/2026 (5 năm từ 19/01/2026). Số hiệu hay viết 2491/QĐ-BCT-2025. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.'
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 6 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + moit.gov.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc AD21 (HS 4411.12.00; 4411.13.00; 4411.14.00; 4411.92.00; 4411.93.00; 4411.94.00). Thuế tạm thời (hiệu lực sau 15 ngày, áp dụng 120 ngày; Trung Quốc 2,59%–39,88%, Thái Lan 8,30%–20,20%); thay bằng thuế CBPG chính thức tại QĐ 121/QĐ-BCT ngày 19/01/2026 (5 năm từ 19/01/2026). Số hiệu hay viết 2491/QĐ-BCT-2025. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL. Nhập từ hs-code-api data/legal-docs.json (6 mã HS). Mã vụ việc AD21. PDF Cục PVTM là ảnh — OCR. Thuế chính thức thay thế: QĐ 121/QĐ-BCT (theo ghi chú hs-code-api) — chưa mở dòng sổ.'
+het_hieu_luc_tu: '2026-01-18'
+toan_van: raw/download/pvtm.gov.vn/2491-qd-bct.pdf

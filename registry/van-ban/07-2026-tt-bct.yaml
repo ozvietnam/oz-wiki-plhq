@@ -11,18 +11,21 @@ nhanh:
 quan_he:
   sua_doi:
     - so_hieu: 37/2013/TT-BCT
-      can_cu: Điều 1–7 TT 07/2026/TT-BCT (PDF Công báo số 147)
+      pham_vi: Điều 6–10, bãi Điều 11, thay Phụ lục I–II
+      tu_ngay: '2026-04-10'
+      can_cu: Điều 1–7 TT 07/2026/TT-BCT
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Công báo số 147: ban hành 24-02-2026, người ký Nguyễn Sinh Nhật Tân; Điều 9 khoản 1 hiệu lực 10-04-2026; Điều 1–7 sửa đổi, bổ sung, bãi bỏ, thay phụ lục TT 37/2013/TT-BCT'
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'PDF Công báo số 147 ngày 12-03-2026 (lớp chữ): Điều 9 khoản 1 hiệu lực 10-04-2026; Điều 1–7 sửa/bãi/thay phụ lục TT 37/2013; trang moit.gov.vn trạng thái «Đã có hiệu lực»; TT 48/2026/TT-BCT (Công báo số 521) không bãi TT 07/2026; sổ không có văn bản sau thay/bãi (kiểm đến 04-10-2026)'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-  canh_bao: 'PR #24 đặt hieu_luc_da_doi_chieu: true chỉ dựa trên Điều 9 khoản 1 của chính văn bản (chứng minh ngày bắt đầu 10-04-2026), không ghi đã kiểm tình trạng hiện tại nên giữ false. Đã đọc Điều 20 TT 48/2026/TT-BCT (Công báo số 521 ngày 23-09-2026, quy định chi tiết Luật QLNT, hiệu lực 05-09-2026): không bãi bỏ TT 37/2013 hay TT 07/2026 — nhưng chưa tra cứu đủ các văn bản khác ban hành sau 10-04-2026.'
-ghi_chu: 'Tạo từ ghi chú hs-code-api: "37/2013/TT-BCT được sửa đổi, bổ sung bởi TT 07/2026/TT-BCT (ban hành 24/02/2026, hiệu lực 10/04/2026)". Cần trích yếu nguyên văn + nguồn A.'
+ghi_chu: Sửa đổi TT 37/2013/TT-BCT về nhập khẩu thuốc lá điếu, xì gà.
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-07-2026-tt-bct-469019.htm
     truy_cap: '2026-10-04'
   - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/12/07bctsigned-1773303436759207525659.pdf
+    truy_cap: '2026-10-04'
+  - url: https://moit.gov.vn/van-ban-phap-luat/thong-tu-sua-doi-bo-sung-mot-so-dieu-cua-thong-tu-so-37-2013-tt-bct-ngay-30-thang-12-nam-2013-cua-bo-truong-bo-cong-thuo.html
     truy_cap: '2026-10-04'
 toan_van: raw/download/congbaocdn.chinhphu.vn/07-2026-tt-bct.pdf

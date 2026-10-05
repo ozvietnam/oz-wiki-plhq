@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 36/2026/TT-BKHCN
 loai: THONG_TU
-ten: Danh mục sản phẩm, hàng hoá có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ
+ten: Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ
 co_quan: BKHCN
 ngay_ban_hanh: '2026-06-30'
 hieu_luc_tu: '2026-07-01'
@@ -12,16 +12,34 @@ quan_he:
   huong_dan:
     - 37/2026/NĐ-CP
   thay_the:
-    - 10/2024/TT-BKHCN
-  bai_bo:
-    - 01/2009/TT-BKHCN
+    - so_hieu: 29/2025/TT-BKHCN
+      tu_ngay: '2026-07-01'
+      can_cu: Điều 6 khoản 2 điểm a TT 36/2026/TT-BKHCN
+    - so_hieu: 30/2011/TT-BTTTT
+      tu_ngay: '2026-07-01'
+      can_cu: Điều 6 khoản 2 điểm b TT 36/2026/TT-BKHCN
+    - so_hieu: 15/2018/TT-BTTTT
+      tu_ngay: '2026-07-01'
+      can_cu: Điều 6 khoản 2 điểm c TT 36/2026/TT-BKHCN
+    - so_hieu: 10/2020/TT-BTTTT
+      tu_ngay: '2026-07-01'
+      can_cu: Điều 6 khoản 2 điểm d TT 36/2026/TT-BKHCN
+    - so_hieu: 58/2015/TTLT-BCT-BKHCN
+      tu_ngay: '2026-07-01'
+      can_cu: Điều 6 khoản 2 điểm đ TT 36/2026/TT-BKHCN
+    - so_hieu: 01/2009/TT-BKHCN
+      tu_ngay: '2026-07-01'
+      can_cu: Điều 6 khoản 2 điểm e TT 36/2026/TT-BKHCN
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'PDF datafiles ký số (lớp chữ, 113 trang): Điều 6 khoản 1 hiệu lực 01-07-2026; khoản 2 điểm a–e hết hiệu lực các văn bản ở quan_he (gồm TT 29/2025/TT-BKHCN); sổ không có văn bản sau ghi thay/bãi TT 36/2026. Đã sửa quan_he: bài tổng hợp KTCN ghi nhầm thay 10/2024/TT-BKHCN — PDF ghi 10/2020/TT-BTTTT'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: Xăng dầu, LPG, đồ chơi trẻ em, điện-điện tử gia dụng, dây cáp điện, aptomat; thiết bị đầu cuối di động, trạm gốc, vô tuyến ≥60 mW, phát thanh truyền hình. Tên theo mẫu chung. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
+ghi_chu: Phụ lục I rủi ro cao / Phụ lục II rủi ro trung bình. Bài tổng hợp KTCN 2026 từng ghi thay 10/2024 — đã đối chiếu PDF và sửa.
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=218716&pageid=27160
     truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/36-bkhcn.signed.pdf
+    truy_cap: '2026-10-04'
+toan_van: raw/download/datafiles.chinhphu.vn/36-2026-tt-bkhcn.pdf

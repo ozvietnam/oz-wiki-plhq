@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 49/2026/TT-BXD
 loai: THONG_TU
-ten: Danh mục sản phẩm, hàng hoá có mức độ rủi ro trung bình, mức độ rủi ro cao trong lĩnh vực giao thông vận tải thuộc Bộ Xây dựng
+ten: Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao lĩnh vực giao thông vận tải thuộc phạm vi quản lý của Bộ Xây dựng
 co_quan: BXD
 ngay_ban_hanh: '2026-06-30'
 hieu_luc_tu: '2026-07-01'
@@ -11,16 +11,24 @@ nhanh:
 quan_he:
   huong_dan:
     - 37/2026/NĐ-CP
-  thay_the:
-    - 12/2022/TT-BGTVT
-    - 62/2024/TT-BGTVT
+  bai_bo:
+    - so_hieu: 12/2022/TT-BGTVT
+      tu_ngay: '2026-07-01'
+      can_cu: Điều 6 khoản 3 điểm a TT 49/2026/TT-BXD
+    - so_hieu: 62/2024/TT-BGTVT
+      tu_ngay: '2026-07-01'
+      can_cu: Điều 6 khoản 3 điểm b TT 49/2026/TT-BXD
+    - so_hieu: 71/2025/TT-BXD
+      pham_vi: Chương X, Phụ lục II và Phụ lục III
+      tu_ngay: '2026-07-01'
+      can_cu: Điều 6 khoản 3 điểm c TT 49/2026/TT-BXD
 xac_minh:
   muc: NGUON_A
-  pham_vi: toàn văn PDF chữ ký số từ Văn phòng Chính phủ; có Phụ lục I (rủi ro cao, 10 trang) + Phụ lục II (rủi ro trung bình, 6 trang) đã tải bổ sung
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'PDF datafiles ký số (lớp chữ): Điều 6 khoản 1 hiệu lực 01-07-2026 (khoản 2–3 Điều 5 từ 01-07-2029); khoản 3 điểm a–b bãi bỏ toàn bộ TT 12/2022 và 62/2024/TT-BGTVT; điểm c bãi một phần TT 71/2025/TT-BXD; sổ không có văn bản sau ghi thay/bãi TT 49/2026'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'PL I rủi ro cao: ô tô, mô tô, xe gắn máy, xe bốn bánh có động cơ; PL II rủi ro trung bình: phương tiện, phụ tùng, thiết bị GTVT, đường sắt. Bài tổng hợp KTCN 2026 (nguồn thứ cấp) — xem hs-code-api data/ktcn-regime-2026.json.'
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'PL I rủi ro cao: ô tô, mô tô, xe gắn máy, xe bốn bánh có động cơ; PL II rủi ro trung bình: phương tiện, phụ tùng, thiết bị GTVT, đường sắt. Bài tổng hợp KTCN 2026 (nguồn thứ cấp) — xem hs-code-api data/ktcn-regime-2026.json. PL I rủi ro cao / PL II rủi ro trung bình (GTVT). Người ký Nguyễn Xuân Sang (Thứ trưởng).'
 toan_van: raw/download/datafiles.chinhphu.vn/49-2026-tt-bxd.pdf
 nguon:
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd.signed.pdf

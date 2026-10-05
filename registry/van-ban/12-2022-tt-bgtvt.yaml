@@ -14,12 +14,14 @@ nguon:
     truy_cap: '2026-07-02'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/06/12-bgtvt.signed.pdf
     truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd.signed.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 1315
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'thẻ vanban.chinhphu.vn + PDF datafiles 12-bgtvt (ảnh, không lớp chữ); tình trạng hiện tại: Điều 6 khoản 3 điểm a TT 49/2026/TT-BXD (PDF datafiles ký số, lớp chữ) bãi bỏ toàn bộ từ 01-07-2026'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1315 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn). Hết hiệu lực từ 2026-07-01: bị thay bởi 49/2026/TT-BXD (theo nguồn thứ cấp).'
+  boi: cursor-agent@ozvietnam
+ghi_chu: Nhập từ hs-code-api (1315 mã HS). Hết hiệu lực do TT 49/2026/TT-BXD bãi bỏ. toan_van datafiles là bản ảnh — điều khoản hết hiệu lực lấy từ PDF TT 49.
 toan_van: raw/download/datafiles.chinhphu.vn/12-2022-tt-bgtvt.pdf
