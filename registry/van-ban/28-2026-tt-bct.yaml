@@ -32,7 +32,7 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: '5 nhóm ATTP. Đã bỏ quan_he.thay_the 11/2022 vì PDF Công báo số 328 không nhắc số hiệu đó (bài tổng hợp KTCN 2026 ghi sai). Bản datafiles ký số là ảnh; dùng Công báo CDN có lớp chữ.'
+ghi_chu: '5 nhóm ATTP. Đã bỏ quan_he.thay_the 11/2022 vì PDF Công báo số 328 không nhắc số hiệu đó (bài tổng hợp KTCN 2026 ghi sai). Bản datafiles ký số là ảnh; dùng Công báo CDN có lớp chữ. 5 nhóm (rượu, bia, nước giải khát, sữa chế biến, dầu thực vật, bột/tinh bột, bánh mứt kẹo). Công báo số 328 ngày 14/6/2026. Điều 4: QĐ 1182/QĐ-BCT hết hiệu lực từ 17/7/2026 (Hermes-211 đối chiếu). Điều 3.2: kiểm tra ATTP theo Điều 40 Luật ATTP và Điều 16 NĐ 15/2018/NĐ-CP; Điều 3.3: miễn kiểm tra khi thuộc Điều 13 NĐ 15/2018/NĐ-CP. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json. PDF ký số datafiles: 28 trang ảnh, không lớp chữ; bản Công báo số 328 (congbaocdn) có lớp chữ và đủ phụ lục — dùng bản này.'
 danh_muc_hs:
   tep: danh-muc/28-2026-tt-bct.csv
   nguon: https://congbaocdn.chinhphu.vn/180507251028987904/2026/6/12/469681-1781245487_v1_1781258779_signed.pdf
