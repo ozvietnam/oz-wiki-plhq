@@ -15,6 +15,26 @@ export const URL_BENCH = 'https://raw.githubusercontent.com/ozvietnam/hs-code-ap
 export const TEP_NHU_CAU = join('nhu-cau', 'hs-code-api.json');
 export const URL_BIEU_THUE = 'https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/tax.json';
 export const TEP_BIEU_THUE = join('nhu-cau', 'bieu-thue.json');
+// Nhu cầu từ HÀNG THẬT (hs-code-api GET /api/demand — CEO OZ 05/10/2026): mã HS của các món hàng thật
+// đi qua phiếu hồ sơ khai báo mà chưa có dòng nào trong bảng danh mục KTCN 2026. Chỉ có mức ưu tiên
+// Cao/Vừa/Thấp, không số lượng / tên hàng / khách.
+export const URL_HANG_THAT = 'https://hs-kb.uythacnhapkhau.com/api/demand';
+export const TEP_HANG_THAT = join('nhu-cau', 'hang-that.json');
+
+/** Giữ phần kho cần từ /api/demand: mã HS hàng thật chờ đối chiếu KTCN 2026. */
+export function rutGonHangThat(d, nguon = URL_HANG_THAT) {
+  if (!d || !Array.isArray(d.ktcn2026)) throw new Error('nhu cầu hàng thật không có ktcn2026[]');
+  const MUC = new Set(['Cao', 'Vừa', 'Thấp']);
+  return {
+    _comment: 'Chụp từ hs-code-api GET /api/demand bằng node tools/nhu-cau.mjs — KHÔNG sửa tay. tools/diem-mu.mjs đọc tệp này.',
+    nguon,
+    ngay: String(d.generatedAt || '').slice(0, 10) || null,
+    tuNgay: d.since || null,
+    maHs: d.ktcn2026
+      .filter((x) => /^\d{8}$/.test(String(x.hs || '')) && MUC.has(x.priority))
+      .map((x) => ({ hs: x.hs, uuTien: x.priority, mucChinhSach: x.policyLevel || null, vanBanDangDan: (x.docs || []).slice(0, 8), gapGanNhat: x.lastSeen || null })),
+  };
+}
 
 /** Bản chụp gọn biểu thuế: chỉ mã 8 số + mô tả dòng (cắt 120 ký tự). Không chép thuế suất. */
 export function rutGonBieuThue(tax, nguon = URL_BIEU_THUE, ngay = null) {
@@ -65,6 +85,19 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     if (!res.ok) throw new Error(`HTTP ${res.status} khi tải ${URL_BIEU_THUE}`);
     tax = await res.json();
   }
+  // Hàng thật: lỗi mạng không chặn — giữ bản đã commit lần trước.
+  if (!from) {
+    try {
+      const res = await fetch(URL_HANG_THAT);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const ht = rutGonHangThat(await res.json());
+      writeFileSync(join(ROOT, TEP_HANG_THAT), JSON.stringify(ht, null, 1) + '\n');
+      console.log(`${ht.maHs.length} mã HS hàng thật chờ đối chiếu KTCN 2026 → ${TEP_HANG_THAT}`);
+    } catch (e) {
+      console.warn(`::warning::Không tải được ${URL_HANG_THAT} (${e.message}) — giữ ${TEP_HANG_THAT} cũ`);
+    }
+  }
+
   if (tax) {
     const bt = rutGonBieuThue(tax, fromBt || URL_BIEU_THUE, bench.ngay || null);
     writeFileSync(join(ROOT, TEP_BIEU_THUE), JSON.stringify(bt) + '\n');
