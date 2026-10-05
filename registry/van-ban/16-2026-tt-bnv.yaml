@@ -39,3 +39,10 @@ nguon:
     truy_cap: '2026-10-04'
 ngay_ban_hanh: '2026-07-28'
 toan_van: raw/download/datafiles.chinhphu.vn/16-2026-tt-bnv.pdf
+danh_muc_hs:
+  tep: danh-muc/16-2026-tt-bnv.csv
+  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/16-bnv.signed.pdf
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-04'
+  da_doi_chieu: false
+  ghi_chu: Phụ lục trang 6–12; Mục I (STT 1–8) rủi ro cao → KIEM_TRA_CHAT_LUONG (kiểm tra nhà nước về chất lượng); Mục II (STT 1–10) rủi ro trung bình → CONG_BO_HOP_QUY; 56 dòng / 52 mã (ô gộp tách mỗi mã một dòng); giữ độ dài mã như in (vd 4015.19→401519, 8428.10→842810, 7311, 8426); mã 8418.86.10 giữ nguyên như bản in
