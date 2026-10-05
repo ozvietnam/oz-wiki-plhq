@@ -25,11 +25,16 @@ Tệp mã hoá UTF-8, có dòng tiêu đề, dùng dấu phẩy và ngoặc kép
 | `mo_ta` | có | Mô tả hàng **nguyên văn** trong phụ lục (gom khoảng trắng, tối đa ~300 ký tự) |
 | `nhom` | | Số thứ tự hoặc nhóm như in trong phụ lục (`I.2`, `3`, `Chương 22`) |
 | `phu_luc` | | `Phụ lục I`, `Phụ lục II`…; phụ lục không đánh số thì ghi `Phụ lục` |
-| `loai_tac_dong` | có | `KIEM_TRA_ATTP`, `KIEM_TRA_CHAT_LUONG`, `KIEM_DICH_DONG_VAT`, `KIEM_DICH_THUC_VAT`, `GIAY_PHEP`, `CAM_NHAP_KHAU`, `CAM_XUAT_KHAU`, `CONG_BO_HOP_QUY`, `DANG_KY_LUU_HANH`, `PHONG_VE_THUONG_MAI`, `KHAC` |
+| `loai_tac_dong` | có | `KIEM_TRA_ATTP`, `KIEM_TRA_CHAT_LUONG`, `KIEM_DICH_DONG_VAT`, `KIEM_DICH_THUC_VAT`, `GIAY_PHEP`, `CAM_NHAP_KHAU`, `CAM_XUAT_KHAU`, `CONG_BO_HOP_QUY`, `DANG_KY_LUU_HANH`, `PHONG_VE_THUONG_MAI`, `CAT_GIAM_KIEM_TRA` (danh mục hàng **được bỏ** kiểm tra — không phải nghĩa vụ), `KHAC` |
 | `muc_rui_ro` | | `CAO`, `TRUNG_BINH`, `THAP`, nếu phụ lục ghi (khung NĐ 37/2026) |
 | `dieu_kien` | | Giới hạn phạm vi in kèm dòng, ví dụ "trừ loại…", "chỉ áp dụng với…", ký hiệu "ex". Để trống nghĩa là **toàn bộ** mã |
 | `dan_chieu` | | Số hiệu văn bản khác chứa mã HS khi dòng **không ghi mã** mà dẫn sang. Ví dụ: 27/2026/TT-BYT ghi "Mã HS: theo 15/2024/TT-BYT" |
 | `trang` | | Số trang (bắt đầu từ 1) trong bản PDF ghi ở `danh_muc_hs.nguon` |
+
+**Đọc kỹ tên văn bản trước khi chọn `loai_tac_dong`:** danh mục "đã qua sử dụng cấm nhập khẩu" thì mọi dòng phải có
+`dieu_kien` "chỉ hàng đã qua sử dụng"; danh mục "đã được cắt giảm kiểm tra" là `CAT_GIAM_KIEM_TRA`, không phải `KIEM_TRA_*`;
+danh mục chỉ để đối chiếu mã HS (không đặt nghĩa vụ) là `KHAC` kèm `dieu_kien` giải thích. Ghi sai loại thì ứng dụng báo
+nghĩa vụ ngược với văn bản.
 
 Mã 4 hoặc 6 số áp cho mọi dòng thuế 8 số bắt đầu bằng mã đó, trừ khi `dieu_kien` thu hẹp lại.
 **Không tự bung ra 8 số.** Ứng dụng tự khớp theo tiền tố, và phải hiện `dieu_kien` cho người khai.

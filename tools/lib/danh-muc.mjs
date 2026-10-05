@@ -6,7 +6,9 @@ import { ROOT, khoa } from './registry.mjs';
 
 export const COT = ['ma_hs', 'mo_ta', 'nhom', 'phu_luc', 'loai_tac_dong', 'muc_rui_ro', 'dieu_kien', 'dan_chieu', 'trang'];
 export const LOAI_TAC_DONG = ['KIEM_TRA_ATTP', 'KIEM_TRA_CHAT_LUONG', 'KIEM_DICH_DONG_VAT', 'KIEM_DICH_THUC_VAT',
-  'GIAY_PHEP', 'CAM_NHAP_KHAU', 'CAM_XUAT_KHAU', 'CONG_BO_HOP_QUY', 'DANG_KY_LUU_HANH', 'PHONG_VE_THUONG_MAI', 'KHAC'];
+  'GIAY_PHEP', 'CAM_NHAP_KHAU', 'CAM_XUAT_KHAU', 'CONG_BO_HOP_QUY', 'DANG_KY_LUU_HANH', 'PHONG_VE_THUONG_MAI',
+  // Danh mục hàng ĐƯỢC BỎ/CẮT GIẢM kiểm tra — mã có trong bảng nhưng KHÔNG phải nghĩa vụ.
+  'CAT_GIAM_KIEM_TRA', 'KHAC'];
 export const MUC_RUI_RO = ['CAO', 'TRUNG_BINH', 'THAP'];
 const MA_HS = /^(\d{4}|\d{6}|\d{8})$/;
 // Văn bản "danh mục" có khả năng kèm bảng mã HS — dùng để dò văn bản chưa trích.
