@@ -1,100 +1,27 @@
 # Báo cáo điểm mù — 2026-10-05
 
-Tổng 316 điểm: **77 cao**, 45 vừa, 194 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 493 điểm: **29 cao**, 166 vừa, 298 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
 | Nhóm | Mức | Số điểm | Luồng việc |
 |---|---|---|---|
-| Được nhắc nhưng chưa có trong sổ | Cao | 35 | `he-thong-hoa` |
-| Văn bản danh mục chưa trích bảng mã HS | Cao | 31 | `danh-muc-hs` |
 | Cảnh báo nguồn | Cao | 19 | `truy-vet-nguon` |
 | Nhánh cây chưa có văn bản | Cao | 3 | `do-tham` |
 | Mâu thuẫn hiệu lực | Cao | 1 | `hieu-luc` |
 | Sắp hết hiệu lực (≤60 ngày) | Cao | 1 | `hieu-luc` |
-| Chưa có nguồn chính thống | Vừa | 15 | `truy-vet-nguon` |
+| Mã HS trong bảng không có trong biểu thuế | Vừa | 123 | `danh-muc-hs` |
+| Văn bản danh mục chưa trích bảng mã HS | Vừa | 18 | `danh-muc-hs` |
 | Văn bản khung thiếu thông tin | Vừa | 10 | `he-thong-hoa` |
 | Thư viện hs-code-api ghi khác sổ | Vừa | 5 | `hieu-luc` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
-| Mã HS trong bảng không có trong biểu thuế | Vừa | 2 | `danh-muc-hs` |
 | Ưu tiên đối chiếu — theo số mã HS đang dẫn (hs-code-api) | Vừa | 1 | `hieu-luc` |
-| Hiệu lực chưa đối chiếu nguồn A | Thấp | 102 | `hieu-luc` |
-| Chưa có toàn văn | Thấp | 58 | `nap-lam-sach` |
-| Chưa xếp vào cây | Thấp | 13 | `cay-du-lieu` |
+| Hiệu lực chưa đối chiếu nguồn A | Thấp | 135 | `hieu-luc` |
+| Chưa có toàn văn | Thấp | 90 | `nap-lam-sach` |
+| Chưa xếp vào cây | Thấp | 48 | `cay-du-lieu` |
+| Chưa có nguồn chính thống | Thấp | 19 | `truy-vet-nguon` |
 | Văn bản của cơ quan đã sáp nhập | Thấp | 9 | `do-tham` |
 | HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp) | Thấp | 8 | `hieu-luc` |
-
-## Được nhắc nhưng chưa có trong sổ (35)
-
-- [ ] **Chưa có trong sổ: 11/2021/TT-BNNPTNT** — Tạo registry/van-ban/ cho 11/2021/TT-BNNPTNT (được nhắc bởi 01/2024/TT-BNNPTNT (thay_the)). Dùng: node tools/them-van-ban.mjs "11/2021/TT-BNNPTNT"
-- [ ] **Chưa có trong sổ: 16/2021/TT-BNNPTNT** — Tạo registry/van-ban/ cho 16/2021/TT-BNNPTNT (được nhắc bởi 01/2024/TT-BNNPTNT (sua_doi)). Dùng: node tools/them-van-ban.mjs "16/2021/TT-BNNPTNT"
-- [ ] **Chưa có trong sổ: 01/2022/TT-BNNPTNT** — Tạo registry/van-ban/ cho 01/2022/TT-BNNPTNT (được nhắc bởi 01/2024/TT-BNNPTNT (sua_doi)). Dùng: node tools/them-van-ban.mjs "01/2022/TT-BNNPTNT"
-- [ ] **Chưa có trong sổ: 13/2015/TT-BTC** — Tạo registry/van-ban/ cho 13/2015/TT-BTC (được nhắc bởi 06/2026/TT-BTC (sua_doi)). Dùng: node tools/them-van-ban.mjs "13/2015/TT-BTC"
-- [ ] **Chưa có trong sổ: 06/2018/TT-BYT** — Tạo registry/van-ban/ cho 06/2018/TT-BYT (được nhắc bởi 09/2024/TT-BYT (bai_bo)). Dùng: node tools/them-van-ban.mjs "06/2018/TT-BYT"
-- [ ] **Chưa có trong sổ: 48/2018/TT-BYT** — Tạo registry/van-ban/ cho 48/2018/TT-BYT (được nhắc bởi 09/2024/TT-BYT (bai_bo)). Dùng: node tools/them-van-ban.mjs "48/2018/TT-BYT"
-- [ ] **Chưa có trong sổ: 03/2021/TT-BYT** — Tạo registry/van-ban/ cho 03/2021/TT-BYT (được nhắc bởi 09/2024/TT-BYT (bai_bo)). Dùng: node tools/them-van-ban.mjs "03/2021/TT-BYT"
-- [ ] **Chưa có trong sổ: 13/2018/TT-BTTTT** — Tạo registry/van-ban/ cho 13/2018/TT-BTTTT (được nhắc bởi 10/2022/TT-BTTTT (sua_doi)). Dùng: node tools/them-van-ban.mjs "13/2018/TT-BTTTT"
-- [ ] **Chưa có trong sổ: 05/2016/TT-BTTTT** — Tạo registry/van-ban/ cho 05/2016/TT-BTTTT (được nhắc bởi 11/2024/TT-BTTTT (sua_doi)). Dùng: node tools/them-van-ban.mjs "05/2016/TT-BTTTT"
-- [ ] **Chưa có trong sổ: 03/2015/TT-BTTTT** — Tạo registry/van-ban/ cho 03/2015/TT-BTTTT (được nhắc bởi 11/2024/TT-BTTTT (sua_doi)). Dùng: node tools/them-van-ban.mjs "03/2015/TT-BTTTT"
-- [ ] **Chưa có trong sổ: 09/2013/TT-BTTTT** — Tạo registry/van-ban/ cho 09/2013/TT-BTTTT (được nhắc bởi 11/2024/TT-BTTTT (sua_doi)). Dùng: node tools/them-van-ban.mjs "09/2013/TT-BTTTT"
-- [ ] **Chưa có trong sổ: 28/2020/QĐ-TTg** — Tạo registry/van-ban/ cho 28/2020/QĐ-TTg (được nhắc bởi 13/2023/QĐ-TTg (thay_the)). Dùng: node tools/them-van-ban.mjs "28/2020/QĐ-TTg"
-- [ ] **Chưa có trong sổ: 1578/QĐ-BCT** — Tạo registry/van-ban/ cho 1578/QĐ-BCT (được nhắc bởi 1309/QĐ-BCT (bai_bo)). Dùng: node tools/them-van-ban.mjs "1578/QĐ-BCT"
-- [ ] **Chưa có trong sổ: 2961/QĐ-BCT** — Tạo registry/van-ban/ cho 2961/QĐ-BCT (được nhắc bởi 1309/QĐ-BCT (bai_bo)). Dùng: node tools/them-van-ban.mjs "2961/QĐ-BCT"
-- [ ] **Chưa có trong sổ: 1989/QĐ-BCT** — Tạo registry/van-ban/ cho 1989/QĐ-BCT (được nhắc bởi 1309/QĐ-BCT (bai_bo)). Dùng: node tools/them-van-ban.mjs "1989/QĐ-BCT"
-- [ ] **Chưa có trong sổ: 28/2021/TT-BYT** — Tạo registry/van-ban/ cho 28/2021/TT-BYT (được nhắc bởi 15/2024/TT-BYT (thay_the)). Dùng: node tools/them-van-ban.mjs "28/2021/TT-BYT"
-- [ ] **Chưa có trong sổ: 09/2018/TT-BYT** — Tạo registry/van-ban/ cho 09/2018/TT-BYT (được nhắc bởi 16/2024/TT-BYT (bai_bo)). Dùng: node tools/them-van-ban.mjs "09/2018/TT-BYT"
-- [ ] **Chưa có trong sổ: 26/2018/TT-BLĐTBXH** — Tạo registry/van-ban/ cho 26/2018/TT-BLĐTBXH (được nhắc bởi 16/2026/TT-BNV (thay_the)). Dùng: node tools/them-van-ban.mjs "26/2018/TT-BLĐTBXH"
-- [ ] **Chưa có trong sổ: 13/2024/TT-BLĐTBXH** — Tạo registry/van-ban/ cho 13/2024/TT-BLĐTBXH (được nhắc bởi 16/2026/TT-BNV (thay_the)). Dùng: node tools/them-van-ban.mjs "13/2024/TT-BLĐTBXH"
-- [ ] **Chưa có trong sổ: 09/2025/TT-BNV** — Tạo registry/van-ban/ cho 09/2025/TT-BNV (được nhắc bởi 16/2026/TT-BNV (bai_bo)). Dùng: node tools/them-van-ban.mjs "09/2025/TT-BNV"
-- [ ] **Chưa có trong sổ: 40/2017/TT-BQP** — Tạo registry/van-ban/ cho 40/2017/TT-BQP (được nhắc bởi 173/2018/TT-BQP (thay_the)). Dùng: node tools/them-van-ban.mjs "40/2017/TT-BQP"
-- [ ] **Chưa có trong sổ: 16/2015/TT-BTTTT** — Tạo registry/van-ban/ cho 16/2015/TT-BTTTT (được nhắc bởi 22/2018/TT-BTTTT (thay_the)). Dùng: node tools/them-van-ban.mjs "16/2015/TT-BTTTT"
-- [ ] **Chưa có trong sổ: 41/2016/TT-BTTTT** — Tạo registry/van-ban/ cho 41/2016/TT-BTTTT (được nhắc bởi 22/2018/TT-BTTTT (thay_the)). Dùng: node tools/them-van-ban.mjs "41/2016/TT-BTTTT"
-- [ ] **Chưa có trong sổ: 02/2024/TT-BTTTT** — Tạo registry/van-ban/ cho 02/2024/TT-BTTTT (được nhắc bởi 29/2025/TT-BKHCN (thay_the)). Dùng: node tools/them-van-ban.mjs "02/2024/TT-BTTTT"
-- [ ] **Chưa có trong sổ: 01/2018/TT-BCT** — Tạo registry/van-ban/ cho 01/2018/TT-BCT (được nhắc bởi 33/2025/TT-BCT (sua_doi)). Dùng: node tools/them-van-ban.mjs "01/2018/TT-BCT"
-- [ ] **Chưa có trong sổ: 02/2018/TT-BCT** — Tạo registry/van-ban/ cho 02/2018/TT-BCT (được nhắc bởi 34/2025/TT-BCT (sua_doi)). Dùng: node tools/them-van-ban.mjs "02/2018/TT-BCT"
-- [ ] **Chưa có trong sổ: 30/2011/TT-BTTTT** — Tạo registry/van-ban/ cho 30/2011/TT-BTTTT (được nhắc bởi 36/2026/TT-BKHCN (thay_the)). Dùng: node tools/them-van-ban.mjs "30/2011/TT-BTTTT"
-- [ ] **Chưa có trong sổ: 15/2018/TT-BTTTT** — Tạo registry/van-ban/ cho 15/2018/TT-BTTTT (được nhắc bởi 36/2026/TT-BKHCN (thay_the)). Dùng: node tools/them-van-ban.mjs "15/2018/TT-BTTTT"
-- [ ] **Chưa có trong sổ: 10/2020/TT-BTTTT** — Tạo registry/van-ban/ cho 10/2020/TT-BTTTT (được nhắc bởi 36/2026/TT-BKHCN (thay_the)). Dùng: node tools/them-van-ban.mjs "10/2020/TT-BTTTT"
-- [ ] **Chưa có trong sổ: 58/2015/TTLT-BCT-BKHCN** — Tạo registry/van-ban/ cho 58/2015/TTLT-BCT-BKHCN (được nhắc bởi 36/2026/TT-BKHCN (thay_the)). Dùng: node tools/them-van-ban.mjs "58/2015/TTLT-BCT-BKHCN"
-- [ ] **Chưa có trong sổ: 33/2016/TT-BCT** — Tạo registry/van-ban/ cho 33/2016/TT-BCT (được nhắc bởi 42/2019/TT-BCT (bai_bo)). Dùng: node tools/them-van-ban.mjs "33/2016/TT-BCT"
-- [ ] **Chưa có trong sổ: 51/2018/TT-BCT** — Tạo registry/van-ban/ cho 51/2018/TT-BCT (được nhắc bởi 42/2019/TT-BCT (bai_bo)). Dùng: node tools/them-van-ban.mjs "51/2018/TT-BCT"
-- [ ] **Chưa có trong sổ: 31/2018/TT-BCT** — Tạo registry/van-ban/ cho 31/2018/TT-BCT (được nhắc bởi 42/2019/TT-BCT (bai_bo)). Dùng: node tools/them-van-ban.mjs "31/2018/TT-BCT"
-- [ ] **Chưa có trong sổ: 43/2013/TT-BCT** — Tạo registry/van-ban/ cho 43/2013/TT-BCT (được nhắc bởi 42/2019/TT-BCT (bai_bo)). Dùng: node tools/them-van-ban.mjs "43/2013/TT-BCT"
-- [ ] **Chưa có trong sổ: 71/2025/TT-BXD** — Tạo registry/van-ban/ cho 71/2025/TT-BXD (được nhắc bởi 49/2026/TT-BXD (bai_bo)). Dùng: node tools/them-van-ban.mjs "71/2025/TT-BXD"
-
-## Văn bản danh mục chưa trích bảng mã HS (31)
-
-- [ ] **Chưa trích bảng mã HS: 125/2026/TT-BCA** — Văn bản danh mục chưa có danh-muc/125-2026-tt-bca.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
-- [ ] **Chưa trích bảng mã HS: 126/2026/TT-BQP** — Văn bản danh mục chưa có danh-muc/126-2026-tt-bqp.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
-- [ ] **Chưa trích bảng mã HS: 16/2026/TT-BNV** — Văn bản danh mục chưa có danh-muc/16-2026-tt-bnv.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
-- [ ] **Chưa trích bảng mã HS: 26/2026/TT-BYT** — Văn bản danh mục chưa có danh-muc/26-2026-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
-- [ ] **Chưa trích bảng mã HS: 27/2026/TT-BNNMT** — Văn bản danh mục chưa có danh-muc/27-2026-tt-bnnmt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
-- [ ] **Chưa trích bảng mã HS: 27/2026/TT-BYT** — Văn bản danh mục chưa có danh-muc/27-2026-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
-- [ ] **Chưa trích bảng mã HS: 28/2026/TT-BYT** — Văn bản danh mục chưa có danh-muc/28-2026-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
-- [ ] **Chưa trích bảng mã HS: 33/2026/TT-BCT** — Văn bản danh mục chưa có danh-muc/33-2026-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
-- [ ] **Chưa trích bảng mã HS: 36/2026/TT-BKHCN** — Văn bản danh mục chưa có danh-muc/36-2026-tt-bkhcn.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
-- [ ] **Chưa trích bảng mã HS: 4814/QĐ-BCA** — Văn bản danh mục chưa có danh-muc/4814-qd-bca-2026.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
-- [ ] **Chưa trích bảng mã HS: 08/2023/TT-BCT** — Văn bản danh mục chưa có danh-muc/08-2023-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 1964 mã.
-- [ ] **Chưa trích bảng mã HS: 34/2025/TT-BCT** — Văn bản danh mục chưa có danh-muc/34-2025-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 1764 mã.
-- [ ] **Chưa trích bảng mã HS: 01/2024/TT-BNNPTNT** — Văn bản danh mục chưa có danh-muc/01-2024-tt-bnnptnt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 1468 mã.
-- [ ] **Chưa trích bảng mã HS: 765/QĐ-BCT** — Văn bản danh mục chưa có danh-muc/765-qd-bct-2019.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 1074 mã.
-- [ ] **Chưa trích bảng mã HS: 1182/QĐ-BCT** — Văn bản danh mục chưa có danh-muc/1182-qd-bct-2021.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 496 mã.
-- [ ] **Chưa trích bảng mã HS: 09/2024/TT-BYT** — Văn bản danh mục chưa có danh-muc/09-2024-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 384 mã.
-- [ ] **Chưa trích bảng mã HS: 11/2018/TT-BTTTT** — Văn bản danh mục chưa có danh-muc/11-2018-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 186 mã.
-- [ ] **Chưa trích bảng mã HS: 1725/QĐ-BCT** — Văn bản danh mục chưa có danh-muc/1725-qd-bct-2024.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 61 mã.
-- [ ] **Chưa trích bảng mã HS: 173/2018/TT-BQP** — Văn bản danh mục chưa có danh-muc/173-2018-tt-bqp.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 41 mã.
-- [ ] **Chưa trích bảng mã HS: 41/2019/TT-BCT** — Văn bản danh mục chưa có danh-muc/41-2019-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 32 mã.
-- [ ] **Chưa trích bảng mã HS: 22/2018/TT-BTTTT** — Văn bản danh mục chưa có danh-muc/22-2018-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 31 mã.
-- [ ] **Chưa trích bảng mã HS: 13/2023/QĐ-TTg** — Văn bản danh mục chưa có danh-muc/13-2023-qd-ttg.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 24 mã.
-- [ ] **Chưa trích bảng mã HS: 6266/QĐ-BCA** — Văn bản danh mục chưa có danh-muc/6266-qd-bca-2023.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 19 mã.
-- [ ] **Chưa trích bảng mã HS: 16/2024/TT-BYT** — Văn bản danh mục chưa có danh-muc/16-2024-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 17 mã.
-- [ ] **Chưa trích bảng mã HS: 45/2023/TT-BCT** — Văn bản danh mục chưa có danh-muc/45-2023-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 15 mã.
-- [ ] **Chưa trích bảng mã HS: 9981/QĐ-BCA** — Văn bản danh mục chưa có danh-muc/9981-qd-bca-2019.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 12 mã.
-- [ ] **Chưa trích bảng mã HS: 47/2018/TT-NHNN** — Văn bản danh mục chưa có danh-muc/47-2018-tt-nhnn.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 2 mã.
-- [ ] **Chưa trích bảng mã HS: 11/2022/TT-BCT** — Văn bản danh mục chưa có danh-muc/11-2022-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
-- [ ] **Chưa trích bảng mã HS: 11/2026/TT-BXD** — Văn bản danh mục chưa có danh-muc/11-2026-tt-bxd.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
-- [ ] **Chưa trích bảng mã HS: 30/2014/TT-BNNPTNT** — Văn bản danh mục chưa có danh-muc/30-2014-tt-bnnptnt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
-- [ ] **Chưa trích bảng mã HS: 8378/QĐ-BCA** — Văn bản danh mục chưa có danh-muc/8378-qd-bca-2025.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
 
 ## Cảnh báo nguồn (19)
 
@@ -132,23 +59,70 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 
 - [ ] **85/2019/NĐ-CP hết hiệu lực ngày 2026-10-15** — Tới ngày thì chuyển tinh_trang; rà mọi trang wiki và văn bản đang dẫn chiếu 85/2019/NĐ-CP.
 
-## Chưa có nguồn chính thống (15)
+## Mã HS trong bảng không có trong biểu thuế (123)
 
-- [ ] **05/2022/TT-BYT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1357/QĐ-TCHQ: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **2105/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **2284/QĐ-BKHCN: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **3546/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **11/2022/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **121/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1400/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **2174/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **4814/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **6266/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **8378/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **915/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **924/QĐ-BNN-TCLN: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **9981/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **01/2024/TT-BNNPTNT: mã 03034900 không có trong biểu thuế** — danh-muc/01-2024-tt-bnnptnt.csv dòng 441 ("- - Loại khác - Cá trích nước lạnh (Clupea harengus, Clupea "). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **01/2024/TT-BNNPTNT: mã 44129990 không có trong biểu thuế** — danh-muc/01-2024-tt-bnnptnt.csv dòng 3008 ("kg/m3 loài cây lá kim Gỗ đã được làm tăng độ rắn, ở dạng khố"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **01/2024/TT-BNNPTNT: mã 44140000 không có trong biểu thuế** — danh-muc/01-2024-tt-bnnptnt.csv dòng 3010 ("kg/chiếc hoặc các sản phẩm bằng gỗ tương tự Hòm, hộp, thùng "). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **08/2023/TT-BCT: mã 40199999 không có trong biểu thuế** — danh-muc/08-2023-tt-bct.csv dòng 12 ("- - - - Loại khác"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **08/2023/TT-BCT: mã 85392292 không có trong biểu thuế** — danh-muc/08-2023-tt-bct.csv dòng 156 ("- - - - Loại dùng trong chiếu sáng trang trí, công suất trên"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **08/2023/TT-BCT: mã 84501200 không có trong biểu thuế** — danh-muc/08-2023-tt-bct.csv dòng 305 ("hoặc 8450.19"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 29230090 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 51 ("Hydroxyurea"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 33043900 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 401 ("19 Nor-testosterone (tên gọi khác là Nandrolone)"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 33042091 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 402 ("Amifloxacin (Dạng uống hoặc dạng mỡ)"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 33042099 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 403 ("Các dạng khác"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 33049099 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 404 ("Azathioprine"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 33049099 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 437 ("Nifuratel"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 39042099 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 446 ("Các dạng khác"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 29339090 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 731 ("Fluconazole"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 35101090 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 798 ("Hydroxyethyl Starch"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 29329990 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 825 ("Isosorbide"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 29329990 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 826 ("Isosorbide 5 Mononitrate"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 29329990 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 827 ("Isosorbide Dinitrate"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 29224990 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 860 ("L-ornithin L-aspartat"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 29224990 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 864 ("L-Phenylalanine"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 29224990 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 871 ("Mefenamic Acid"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 29352100 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 918 ("Retinyl acetat"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 29352300 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 920 ("Riboflavin"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 28389000 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 951 ("Sennosides"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 29329990 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 956 ("Silymarin"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 29339900 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 978 ("Sulbutiamine"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 29239990 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1027 ("Tofisopam"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 29352800 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1072 ("Vitamin E (tocoferol)"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 29352900 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1073 ("Vitamin H (Biotine)"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 29352900 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1074 ("Vitamin K"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 29352900 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1075 ("Vitamin PP (Nicotinamid)"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 30349099 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1129 ("Alcal polyvinyl"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 30022090 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1155 ("Aminosalicylate natri"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 30349099 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1215 ("Benzyl benzoate"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 30344951 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1216 ("Berberin (Dạng uống)"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 30344959 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1217 ("Dạng khác"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 30349099 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1218 ("Betahistine"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 30343290 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1219 ("Betamethasone"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 33045099 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1288 ("Calcifediol"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- [ ] **09/2024/TT-BYT: mã 33045099 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1289 ("Calcipotriol"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
+- … và 83 điểm khác (xem bao-cao/diem-mu.json)
+
+## Văn bản danh mục chưa trích bảng mã HS (18)
+
+- [ ] **Chưa trích bảng mã HS: 126/2026/TT-BQP** — Văn bản danh mục chưa có danh-muc/126-2026-tt-bqp.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 26/2026/TT-BYT** — Văn bản danh mục chưa có danh-muc/26-2026-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 4814/QĐ-BCA** — Văn bản danh mục chưa có danh-muc/4814-qd-bca-2026.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 1182/QĐ-BCT** — Văn bản danh mục chưa có danh-muc/1182-qd-bct-2021.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 496 mã.
+- [ ] **Chưa trích bảng mã HS: 1725/QĐ-BCT** — Văn bản danh mục chưa có danh-muc/1725-qd-bct-2024.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 61 mã.
+- [ ] **Chưa trích bảng mã HS: 173/2018/TT-BQP** — Văn bản danh mục chưa có danh-muc/173-2018-tt-bqp.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 41 mã.
+- [ ] **Chưa trích bảng mã HS: 41/2019/TT-BCT** — Văn bản danh mục chưa có danh-muc/41-2019-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 32 mã.
+- [ ] **Chưa trích bảng mã HS: 22/2018/TT-BTTTT** — Văn bản danh mục chưa có danh-muc/22-2018-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 31 mã.
+- [ ] **Chưa trích bảng mã HS: 13/2023/QĐ-TTg** — Văn bản danh mục chưa có danh-muc/13-2023-qd-ttg.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 24 mã.
+- [ ] **Chưa trích bảng mã HS: 6266/QĐ-BCA** — Văn bản danh mục chưa có danh-muc/6266-qd-bca-2023.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 19 mã.
+- [ ] **Chưa trích bảng mã HS: 16/2024/TT-BYT** — Văn bản danh mục chưa có danh-muc/16-2024-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 17 mã.
+- [ ] **Chưa trích bảng mã HS: 45/2023/TT-BCT** — Văn bản danh mục chưa có danh-muc/45-2023-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 15 mã.
+- [ ] **Chưa trích bảng mã HS: 9981/QĐ-BCA** — Văn bản danh mục chưa có danh-muc/9981-qd-bca-2019.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 12 mã.
+- [ ] **Chưa trích bảng mã HS: 47/2018/TT-NHNN** — Văn bản danh mục chưa có danh-muc/47-2018-tt-nhnn.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 2 mã.
+- [ ] **Chưa trích bảng mã HS: 11/2022/TT-BCT** — Văn bản danh mục chưa có danh-muc/11-2022-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 11/2026/TT-BXD** — Văn bản danh mục chưa có danh-muc/11-2026-tt-bxd.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 30/2014/TT-BNNPTNT** — Văn bản danh mục chưa có danh-muc/30-2014-tt-bnnptnt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 8378/QĐ-BCA** — Văn bản danh mục chưa có danh-muc/8378-qd-bca-2025.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
 
 ## Văn bản khung thiếu thông tin (10)
 
@@ -177,32 +151,40 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **142/2026/TT-BTC có hiệu lực ngày 2026-11-16** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 - [ ] **336/2026/NĐ-CP có hiệu lực ngày 2026-10-15** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 
-## Mã HS trong bảng không có trong biểu thuế (2)
-
-- [ ] **15/2024/TT-BYT: mã 28232600 không có trong biểu thuế** — danh-muc/15-2024-tt-byt.csv dòng 303 ("INS 542: Bone phosphat"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **15/2024/TT-BYT: mã 39072090 không có trong biểu thuế** — danh-muc/15-2024-tt-byt.csv dòng 427 ("INS 1521: Polyethylen glycol"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-
 ## Ưu tiên đối chiếu — theo số mã HS đang dẫn (hs-code-api) (1)
 
 - [ ] **Đối chiếu hiệu lực 367/QĐ-BKHCN — 4 mã HS đang dẫn** — Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 4 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn. Kẹt cứng thì ghi xac_minh.chan (xem docs/huong-dan-agent.md) thay vì săn lặp.
 
-## Hiệu lực chưa đối chiếu nguồn A (102)
+## Hiệu lực chưa đối chiếu nguồn A (135)
 
 - [ ] **2711/QĐ-BKHCN: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **01/2009/TT-BKHCN: tình trạng "HET_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **01/2018/TT-BCT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **01/2022/TT-BNNPTNT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **01/2026/TT-BNNMT: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **02/2018/TT-BCT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **02/2024/TT-BTTTT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **03/2015/TT-BTTTT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **03/2021/TT-BYT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **04/2014/TT-BCT: tình trạng "HET_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **05/2007/QH12: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **05/2016/TT-BTTTT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **05/2017/QH14: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **05/2022/TT-BYT: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **06/2018/TT-BYT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **06/2026/TT-BTC: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **08/2015/NĐ-CP: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **09/2013/TT-BTTTT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **09/2018/TT-BYT: tình trạng "HET_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **09/2025/TT-BNV: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **09/2026/NQ-CP: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **10/2020/TT-BTTTT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **10/2024/TT-BKHCN: tình trạng "HET_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **10/2024/TT-BXD: tình trạng "HET_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **107/2016/QH13: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **108/2008/NĐ-CP: tình trạng "HET_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **11/2017/TT-BCT: tình trạng "HET_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **11/2021/TT-BNNPTNT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **11/2022/TT-BCT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **11/2026/QH16: tình trạng "CHUA_CO_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **111/2021/NĐ-CP: tình trạng "HET_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
@@ -214,81 +196,118 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **126/2026/TT-BQP: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **128/2020/NĐ-CP: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **128/2026/TT-BTC: tình trạng "CHUA_CO_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **13/2022/NĐ-CP: tình trạng "HET_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **132/2008/NĐ-CP: tình trạng "HET_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **134/2016/NĐ-CP: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1357/QĐ-TCHQ: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1400/QĐ-BCT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **142/2026/TT-BTC: tình trạng "CHUA_CO_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **15/2018/NĐ-CP: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **15/2026/NQ-CP: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **154/2018/NĐ-CP: tình trạng "HET_HIEU_LUC_MOT_PHAN" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **174/2025/NĐ-CP: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **18/2021/NĐ-CP: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **182/2025/NĐ-CP: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1921/QĐ-TCHQ: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **2105/QĐ-BCT: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- … và 62 điểm khác (xem bao-cao/diem-mu.json)
+- [ ] **13/2015/TT-BTC: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- … và 95 điểm khác (xem bao-cao/diem-mu.json)
 
-## Chưa có toàn văn (58)
+## Chưa có toàn văn (90)
 
 - [ ] **11/2026/QH16: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "11/2026/QH16" --ghi
 - [ ] **114/2025/QH15: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "114/2025/QH15" --ghi
 - [ ] **41/2013/QH13: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "41/2013/QH13" --ghi
 - [ ] **78/2025/QH15: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "78/2025/QH15" --ghi
 - [ ] **79/2015/QH13: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "79/2015/QH13" --ghi
+- [ ] **01/2018/TT-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "01/2018/TT-BCT" --ghi
+- [ ] **01/2022/TT-BNNPTNT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "01/2022/TT-BNNPTNT" --ghi
+- [ ] **02/2018/TT-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "02/2018/TT-BCT" --ghi
+- [ ] **02/2024/TT-BTTTT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "02/2024/TT-BTTTT" --ghi
+- [ ] **03/2015/TT-BTTTT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "03/2015/TT-BTTTT" --ghi
+- [ ] **03/2021/TT-BYT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "03/2021/TT-BYT" --ghi
+- [ ] **05/2016/TT-BTTTT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "05/2016/TT-BTTTT" --ghi
 - [ ] **05/2022/TT-BYT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "05/2022/TT-BYT" --ghi
+- [ ] **06/2018/TT-BYT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "06/2018/TT-BYT" --ghi
 - [ ] **06/2026/TT-BTC: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "06/2026/TT-BTC" --ghi
+- [ ] **09/2013/TT-BTTTT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "09/2013/TT-BTTTT" --ghi
+- [ ] **09/2025/TT-BNV: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "09/2025/TT-BNV" --ghi
+- [ ] **10/2020/TT-BTTTT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "10/2020/TT-BTTTT" --ghi
+- [ ] **11/2021/TT-BNNPTNT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "11/2021/TT-BNNPTNT" --ghi
 - [ ] **11/2022/TT-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "11/2022/TT-BCT" --ghi
 - [ ] **121/2025/TT-BTC: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "121/2025/TT-BTC" --ghi
 - [ ] **121/QĐ-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "121/QĐ-BCT" --ghi
 - [ ] **124/2026/TT-BTC: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "124/2026/TT-BTC" --ghi
 - [ ] **126/2026/TT-BQP: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "126/2026/TT-BQP" --ghi
 - [ ] **128/2026/TT-BTC: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "128/2026/TT-BTC" --ghi
+- [ ] **13/2015/TT-BTC: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "13/2015/TT-BTC" --ghi
+- [ ] **13/2018/TT-BTTTT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "13/2018/TT-BTTTT" --ghi
+- [ ] **13/2024/TT-BLĐTBXH: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "13/2024/TT-BLĐTBXH" --ghi
 - [ ] **1357/QĐ-TCHQ: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "1357/QĐ-TCHQ" --ghi
 - [ ] **1400/QĐ-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "1400/QĐ-BCT" --ghi
 - [ ] **142/2026/TT-BTC: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "142/2026/TT-BTC" --ghi
+- [ ] **15/2018/TT-BTTTT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "15/2018/TT-BTTTT" --ghi
 - [ ] **154/2018/NĐ-CP: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "154/2018/NĐ-CP" --ghi
+- [ ] **1578/QĐ-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "1578/QĐ-BCT" --ghi
+- [ ] **16/2015/TT-BTTTT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "16/2015/TT-BTTTT" --ghi
+- [ ] **16/2021/TT-BNNPTNT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "16/2021/TT-BNNPTNT" --ghi
 - [ ] **1921/QĐ-TCHQ: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "1921/QĐ-TCHQ" --ghi
+- [ ] **1989/QĐ-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "1989/QĐ-BCT" --ghi
 - [ ] **2105/QĐ-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "2105/QĐ-BCT" --ghi
 - [ ] **2174/QĐ-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "2174/QĐ-BCT" --ghi
-- [ ] **2284/QĐ-BKHCN: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "2284/QĐ-BKHCN" --ghi
-- [ ] **24/2026/TT-BYT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "24/2026/TT-BYT" --ghi
-- [ ] **26/2023/NĐ-CP: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "26/2023/NĐ-CP" --ghi
-- [ ] **26/2026/TT-BYT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "26/2026/TT-BYT" --ghi
-- [ ] **27/2026/TT-BNNMT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "27/2026/TT-BNNMT" --ghi
-- [ ] **292/2026/NĐ-CP: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "292/2026/NĐ-CP" --ghi
-- [ ] **30/2014/TT-BNNPTNT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "30/2014/TT-BNNPTNT" --ghi
-- [ ] **31/2015/TT-BTTTT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "31/2015/TT-BTTTT" --ghi
-- [ ] **31/2018/NĐ-CP: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "31/2018/NĐ-CP" --ghi
-- [ ] **31/2022/TT-BTC: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "31/2022/TT-BTC" --ghi
-- [ ] **31/2026/QĐ-TTg: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "31/2026/QĐ-TTg" --ghi
-- [ ] **313/2026/NĐ-CP: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "313/2026/NĐ-CP" --ghi
-- [ ] **33/2014/TT-BNNPTNT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "33/2014/TT-BNNPTNT" --ghi
-- [ ] **33/2023/TT-BTC: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "33/2023/TT-BTC" --ghi
-- [ ] **351/2026/NĐ-CP: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "351/2026/NĐ-CP" --ghi
-- [ ] **354/2026/NĐ-CP: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "354/2026/NĐ-CP" --ghi
-- [ ] **3546/QĐ-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "3546/QĐ-BCT" --ghi
-- [ ] **367/QĐ-BKHCN: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "367/QĐ-BKHCN" --ghi
-- [ ] **37/2013/TT-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "37/2013/TT-BCT" --ghi
-- [ ] **38/2015/TT-BTC: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "38/2015/TT-BTC" --ghi
-- … và 18 điểm khác (xem bao-cao/diem-mu.json)
+- … và 50 điểm khác (xem bao-cao/diem-mu.json)
 
-## Chưa xếp vào cây (13)
+## Chưa xếp vào cây (48)
 
+- [ ] **01/2018/TT-BCT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **01/2022/TT-BNNPTNT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **02/2018/TT-BCT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **02/2024/TT-BTTTT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **03/2015/TT-BTTTT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **03/2021/TT-BYT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
 - [ ] **04/2014/TT-BCT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **05/2016/TT-BTTTT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **06/2018/TT-BYT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
 - [ ] **07/2023/TT-NHNN: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **09/2013/TT-BTTTT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **09/2018/TT-BYT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **09/2025/TT-BNV: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **10/2020/TT-BTTTT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
 - [ ] **10/2022/TT-BTTTT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
 - [ ] **108/2008/NĐ-CP: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
 - [ ] **11/2017/TT-BCT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **11/2021/TT-BNNPTNT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
 - [ ] **11/2024/TT-BTTTT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
 - [ ] **125/2021/TT-BCA: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **13/2015/TT-BTC: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **13/2018/TT-BTTTT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **13/2024/TT-BLĐTBXH: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **15/2018/TT-BTTTT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **1578/QĐ-BCT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **16/2015/TT-BTTTT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **16/2021/TT-BNNPTNT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **1989/QĐ-BCT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
 - [ ] **26/2011/NĐ-CP: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **26/2018/TT-BLĐTBXH: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **28/2020/QĐ-TTg: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **28/2021/TT-BYT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **2961/QĐ-BCT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **30/2011/TT-BTTTT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
 - [ ] **31/2015/TT-BTTTT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **31/2018/TT-BCT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **33/2016/TT-BCT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
 - [ ] **38/2018/TT-NHNN: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
-- [ ] **42/2019/TT-BCT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
-- [ ] **45/2024/TT-BCT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
-- [ ] **49/2015/TT-BCT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **40/2017/TT-BQP: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **41/2016/TT-BTTTT: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- … và 8 điểm khác (xem bao-cao/diem-mu.json)
+
+## Chưa có nguồn chính thống (19)
+
+- [ ] **05/2022/TT-BYT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1357/QĐ-TCHQ: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **2105/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **2284/QĐ-BKHCN: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **3546/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **03/2021/TT-BYT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **11/2022/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **121/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1400/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **15/2018/TT-BTTTT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **2174/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **2961/QĐ-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **48/2018/TT-BYT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **4814/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **6266/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **8378/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **915/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **924/QĐ-BNN-TCLN: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **9981/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 
 ## Văn bản của cơ quan đã sáp nhập (9)
 
