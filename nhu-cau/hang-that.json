@@ -1,0 +1,27 @@
+{
+ "_comment": "Chụp từ hs-code-api GET /api/demand bằng node tools/nhu-cau.mjs — KHÔNG sửa tay. tools/diem-mu.mjs đọc tệp này.",
+ "nguon": "https://hs-kb.uythacnhapkhau.com/api/demand",
+ "ngay": "2026-10-05",
+ "tuNgay": "2026-07-07",
+ "maHs": [
+  {
+   "hs": "85366932",
+   "uuTien": "Vừa",
+   "mucChinhSach": "INFO",
+   "vanBanDangDan": [
+    "42/2019/TT-BCT",
+    "34/2025/TT-BCT"
+   ],
+   "gapGanNhat": "2026-10-05"
+  },
+  {
+   "hs": "39264000",
+   "uuTien": "Thấp",
+   "mucChinhSach": "NOTICE",
+   "vanBanDangDan": [
+    "08/2023/TT-BCT"
+   ],
+   "gapGanNhat": "2026-10-05"
+  }
+ ]
+}

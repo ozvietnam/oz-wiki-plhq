@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-05",
-  "tong": 493,
+  "tong": 503,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -4314,6 +4314,24 @@
       "trongSo": 0
     },
     {
+      "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
+      "muc": "Vừa",
+      "tieuDe": "Hàng thật mã 85366932 chưa đối chiếu danh mục KTCN 2026",
+      "muc_tieu": "85366932",
+      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-05) mang mã 85366932 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này — hs-code-api chưa biết có phải công bố hợp quy / kiểm tra hay không. Biểu thuế đang dẫn: 42/2019/TT-BCT, 34/2025/TT-BCT. Tìm mã (hoặc tiền tố 4/6 số) trong phụ lục 4814/QĐ-BCA rồi trích theo docs/luoc-do-danh-muc-hs.md.",
+      "luong": "danh-muc-hs",
+      "trongSo": 2000
+    },
+    {
+      "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
+      "muc": "Thấp",
+      "tieuDe": "Hàng thật mã 39264000 chưa đối chiếu danh mục KTCN 2026",
+      "muc_tieu": "39264000",
+      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-05) mang mã 39264000 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này — hs-code-api chưa biết có phải công bố hợp quy / kiểm tra hay không. Biểu thuế đang dẫn: 08/2023/TT-BCT. Tìm mã (hoặc tiền tố 4/6 số) trong phụ lục 4814/QĐ-BCA rồi trích theo docs/luoc-do-danh-muc-hs.md.",
+      "luong": "danh-muc-hs",
+      "trongSo": 1000
+    },
+    {
       "ma": "HS_API_CHO_MO_CHAN",
       "muc": "Thấp",
       "tieuDe": "Chờ mở chặn 2711/QĐ-BKHCN (THIEU_BAI_TUONG_MINH) — 263 mã HS",
@@ -4415,6 +4433,15 @@
     {
       "ma": "HS_API_LECH_THU_VIEN",
       "muc": "Vừa",
+      "tieuDe": "23/2019/QĐ-TTg: hs-code-api ghi ACTIVE, sổ ghi HET_HIEU_LUC",
+      "muc_tieu": "23/2019/QĐ-TTg",
+      "viec": "Thư viện /api/legal-docs của hs-code-api (23/2019/QD-TTG) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_API_LECH_THU_VIEN",
+      "muc": "Vừa",
       "tieuDe": "113/2017/NĐ-CP: hs-code-api ghi AMENDED, sổ ghi HET_HIEU_LUC",
       "muc_tieu": "113/2017/NĐ-CP",
       "viec": "Thư viện /api/legal-docs của hs-code-api (113/2017/ND-CP) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
@@ -4433,9 +4460,72 @@
     {
       "ma": "HS_API_LECH_THU_VIEN",
       "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: hs-code-api ghi EXPIRED, sổ ghi HET_HIEU_LUC_MOT_PHAN",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "Thư viện /api/legal-docs của hs-code-api (1182/QD-BCT-PL2-2021) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_API_LECH_THU_VIEN",
+      "muc": "Vừa",
+      "tieuDe": "01/2021/TT-BLĐTBXH: hs-code-api ghi ACTIVE, sổ ghi HET_HIEU_LUC",
+      "muc_tieu": "01/2021/TT-BLĐTBXH",
+      "viec": "Thư viện /api/legal-docs của hs-code-api (01/2021/TT-BLDTBXH) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_API_LECH_THU_VIEN",
+      "muc": "Vừa",
+      "tieuDe": "29/2025/TT-BKHCN: hs-code-api ghi ACTIVE, sổ ghi HET_HIEU_LUC",
+      "muc_tieu": "29/2025/TT-BKHCN",
+      "viec": "Thư viện /api/legal-docs của hs-code-api (29/2025/TT-BKHCN, 29/2025/TT-BKHCN-PL2, 29/2025/TT-BKHCN-PL1) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_API_LECH_THU_VIEN",
+      "muc": "Vừa",
       "tieuDe": "04/2021/TT-BXD: hs-code-api ghi AMENDED, sổ ghi HET_HIEU_LUC",
       "muc_tieu": "04/2021/TT-BXD",
       "viec": "Thư viện /api/legal-docs của hs-code-api (04/2021/TT-BXD) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_API_LECH_THU_VIEN",
+      "muc": "Vừa",
+      "tieuDe": "69/2018/NĐ-CP: hs-code-api ghi ACTIVE, sổ ghi HET_HIEU_LUC",
+      "muc_tieu": "69/2018/NĐ-CP",
+      "viec": "Thư viện /api/legal-docs của hs-code-api (69/2018/ND-CP) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_API_LECH_THU_VIEN",
+      "muc": "Vừa",
+      "tieuDe": "2333/QĐ-BCT: hs-code-api ghi REPLACED, sổ ghi CON_HIEU_LUC",
+      "muc_tieu": "2333/QĐ-BCT",
+      "viec": "Thư viện /api/legal-docs của hs-code-api (2333/QD-BCT-2025) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_API_LECH_THU_VIEN",
+      "muc": "Vừa",
+      "tieuDe": "1978/QĐ-BCT: hs-code-api ghi EXPIRED, sổ ghi CON_HIEU_LUC",
+      "muc_tieu": "1978/QĐ-BCT",
+      "viec": "Thư viện /api/legal-docs của hs-code-api (1978/QD-BCT, 1978/QD-BCT-2025) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_API_LECH_THU_VIEN",
+      "muc": "Vừa",
+      "tieuDe": "2093/QĐ-BCT: hs-code-api ghi REPLACED, sổ ghi CON_HIEU_LUC",
+      "muc_tieu": "2093/QĐ-BCT",
+      "viec": "Thư viện /api/legal-docs của hs-code-api (2093/QD-BCT-2025) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
       "luong": "hieu-luc",
       "trongSo": 0
     }
