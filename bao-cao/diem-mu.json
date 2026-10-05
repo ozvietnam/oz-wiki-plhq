@@ -1,6 +1,6 @@
 {
-  "ngay": "2026-10-04",
-  "tong": 454,
+  "ngay": "2026-10-05",
+  "tong": 456,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -4076,6 +4076,24 @@
       "tieuDe": "62/2024/TT-BGTVT: hs-code-api ghi ACTIVE, sổ ghi HET_HIEU_LUC",
       "muc_tieu": "62/2024/TT-BGTVT",
       "viec": "Thư viện /api/legal-docs của hs-code-api (62/2024/TT-BGTVT) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_API_LECH_THU_VIEN",
+      "muc": "Vừa",
+      "tieuDe": "113/2017/NĐ-CP: hs-code-api ghi AMENDED, sổ ghi HET_HIEU_LUC",
+      "muc_tieu": "113/2017/NĐ-CP",
+      "viec": "Thư viện /api/legal-docs của hs-code-api (113/2017/ND-CP) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_API_LECH_THU_VIEN",
+      "muc": "Vừa",
+      "tieuDe": "82/2022/NĐ-CP: hs-code-api ghi ACTIVE, sổ ghi HET_HIEU_LUC",
+      "muc_tieu": "82/2022/NĐ-CP",
+      "viec": "Thư viện /api/legal-docs của hs-code-api (82/2022/ND-CP) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
       "luong": "hieu-luc",
       "trongSo": 0
     },
