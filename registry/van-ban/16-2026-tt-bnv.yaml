@@ -10,10 +10,32 @@ nhanh:
 quan_he:
   huong_dan:
     - 37/2026/NĐ-CP
+  thay_the:
+    - so_hieu: 01/2021/TT-BLĐTBXH
+      tu_ngay: '2026-07-28'
+      can_cu: Điều 7 khoản 2 điểm a TT 16/2026/TT-BNV
+    - so_hieu: 26/2018/TT-BLĐTBXH
+      tu_ngay: '2026-07-28'
+      can_cu: Điều 7 khoản 2 điểm b TT 16/2026/TT-BNV
+    - so_hieu: 13/2024/TT-BLĐTBXH
+      tu_ngay: '2026-07-28'
+      can_cu: Điều 7 khoản 2 điểm c TT 16/2026/TT-BNV
+  bai_bo:
+    - so_hieu: 09/2025/TT-BNV
+      pham_vi: Điều 16
+      tu_ngay: '2026-07-28'
+      can_cu: Điều 7 khoản 2 điểm d TT 16/2026/TT-BNV
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
-  hieu_luc_da_doi_chieu: false
+  muc: NGUON_A
+  pham_vi: 'PDF datafiles ký số (lớp chữ): Điều 7 khoản 1 hiệu lực kể từ ngày ký; khoản 2 điểm a–d hết hiệu lực 01/2021, 26/2018, 13/2024 TT-BLĐTBXH và Điều 16 TT 09/2025/TT-BNV; ngày ký trên form trống — giữ ngay_ban_hanh/hieu_luc_tu 28-07-2026 theo stub KTCN + metadata PDF (tạo 25-07, sửa 29-07); sổ không có văn bản sau ghi thay/bãi TT 16/2026'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: '18 nhóm, 08 nhóm rủi ro cao: thang máy, cần trục, cầu trục, vận thăng, nồi hơi và thiết bị áp lực, thiết bị nâng, phương tiện bảo vệ cá nhân, thiết bị hàn. Văn bản bị thay (01/2021/TT-BLĐTBXH?) CHƯA XÁC MINH. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
+  boi: cursor-agent@ozvietnam
+ghi_chu: PDF datafiles 16-bnv.signed.pdf có lớp chữ. 18 nhóm trong phụ lục (8 rủi ro cao).
+nguon:
+  - url: https://vanban.chinhphu.vn/?docid=219023&pageid=27160
+    truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/16-bnv.signed.pdf
+    truy_cap: '2026-10-04'
+ngay_ban_hanh: '2026-07-28'
+toan_van: raw/download/datafiles.chinhphu.vn/16-2026-tt-bnv.pdf

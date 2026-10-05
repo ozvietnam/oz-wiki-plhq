@@ -205,8 +205,15 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
         add('HS_API_CHUA_CO', MUC.CAO, `Biểu thuế dẫn nhưng sổ chưa có: ${v.soHieu} (${v.soMaHs} mã HS)`, v.soHieu,
           `${v.soMaHs} mã HS trong ${tenApp} dẫn văn bản này ở cột chính sách. Thêm vào sổ: node tools/them-van-ban.mjs "${v.soHieu}"`, 'he-thong-hoa', v.soMaHs);
       } else if (!d.xac_minh?.hieu_luc_da_doi_chieu) {
-        add('HS_API_UU_TIEN_DOI_CHIEU', v.soMaHs >= 50 ? MUC.CAO : MUC.VUA, `Đối chiếu hiệu lực ${d.so_hieu} — ${v.soMaHs} mã HS đang dẫn`, d.so_hieu,
-          `Sổ ghi ${d.tinh_trang} nhưng chưa đối chiếu nguồn A; ${v.soMaHs} mã HS của ${tenApp} dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn.`, 'hieu-luc', v.soMaHs);
+        const chan = d.xac_minh?.chan;
+        if (chan?.ma) {
+          // Đã săn hết đường A khả thi — không đẩy lại hàng đợi Cao (agent sẽ lặp probe vô ích).
+          add('HS_API_CHO_MO_CHAN', MUC.THAP, `Chờ mở chặn ${d.so_hieu} (${chan.ma}) — ${v.soMaHs} mã HS`, d.so_hieu,
+            `Đã ghi xac_minh.chan: ${chan.ma} (${chan.ngay}). Việc tiếp: ${chan.viec_tiep}. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.`, 'hieu-luc', v.soMaHs);
+        } else {
+          add('HS_API_UU_TIEN_DOI_CHIEU', v.soMaHs >= 50 ? MUC.CAO : MUC.VUA, `Đối chiếu hiệu lực ${d.so_hieu} — ${v.soMaHs} mã HS đang dẫn`, d.so_hieu,
+            `Sổ ghi ${d.tinh_trang} nhưng chưa đối chiếu nguồn A; ${v.soMaHs} mã HS của ${tenApp} dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn. Kẹt cứng thì ghi xac_minh.chan (xem docs/huong-dan-agent.md) thay vì săn lặp.`, 'hieu-luc', v.soMaHs);
+        }
       }
     }
     const lech = new Map();
@@ -233,6 +240,7 @@ const TEN_MA = {
   WIKI_NHAC_CHUA_DANG_KY: 'Wiki nhắc văn bản chưa đăng ký', KHONG_NGUON_A: 'Chưa có nguồn chính thống', KHONG_TOAN_VAN: 'Chưa có toàn văn',
   HIEU_LUC_CHUA_DOI_CHIEU: 'Hiệu lực chưa đối chiếu nguồn A', XAC_MINH_CU: 'Đối chiếu đã cũ', CHUA_PHAN_LOAI: 'Chưa xếp vào cây', CO_QUAN_DA_SAP_NHAP: 'Văn bản của cơ quan đã sáp nhập',
   HS_API_CHUA_CO: 'Biểu thuế (hs-code-api) dẫn nhưng sổ chưa có', HS_API_UU_TIEN_DOI_CHIEU: 'Ưu tiên đối chiếu — theo số mã HS đang dẫn (hs-code-api)',
+  HS_API_CHO_MO_CHAN: 'HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp)',
   HS_API_LECH_THU_VIEN: 'Thư viện hs-code-api ghi khác sổ',
   DANH_MUC_CHUA_TRICH: 'Văn bản danh mục chưa trích bảng mã HS', HS_KHONG_TON_TAI: 'Mã HS trong bảng không có trong biểu thuế',
   DAN_CHIEU_CHUA_CO_BANG: 'Bảng dẫn chiếu mã HS sang văn bản chưa có bảng',

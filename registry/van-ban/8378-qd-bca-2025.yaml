@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 8378/QĐ-BCA
+loai: QUYET_DINH
+ten: Ban hành Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Công an
+co_quan: BCA
+ngay_ban_hanh: '2025-10-14'
+hieu_luc_tu: '2025-10-14'
+tinh_trang: CHUA_XAC_MINH
+nhanh:
+  - kiem-tra-chuyen-nganh/bca
+quan_he:
+  thay_the:
+    - so_hieu: 6266/QĐ-BCA
+      tu_ngay: '2025-10-14'
+      can_cu: Điều 2 QĐ 8378/QĐ-BCA (nguồn B luatvietnam/nhansu — chưa mở PDF bậc A)
+nguon:
+  - url: https://luatvietnam.vn/an-ninh-trat-tu/quyet-dinh-8378-qd-bca-2025-ban-hanh-danh-muc-san-pham-hang-hoa-co-kha-nang-gay-mat-an-toan-442861-d1.html
+    truy_cap: '2026-10-04'
+  - url: https://nhansu.vn/van-ban-phap-luat/Quyet-dinh-8378-QD-BCA-2026-danh-muc-san-pham-hang-hoa-co-kha-nang-gay-mat-an-toan-696870.html
+    truy_cap: '2026-10-04'
+xac_minh:
+  muc: NGUON_B
+  pham_vi: số hiệu, tiêu đề, ngày ban hành; Điều 2 thay thế 6266 (chỉ nguồn B)
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-04'
+  boi: cursor-agent@ozvietnam
+  canh_bao: 'Chưa có PDF bậc A (datafiles/congbao/bocongan media — dò 04-10-2026). QĐ 4814/QĐ-BCA (28-07-2026, nguồn B) bãi bỏ chính 8378 — chuỗi hiệu lực cần PDF A trước khi đánh true. TT 125/2026 không liệt kê bãi 8378/6266.'
+ghi_chu: 'Đầu mối từ săn hiệu lực HS_API cho 6266/QĐ-BCA. Danh mục nhóm hàng PCCC, súng thể thao, pháo hoa, súng công cụ hỗ trợ theo nguồn B.'

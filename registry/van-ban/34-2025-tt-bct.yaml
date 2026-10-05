@@ -8,17 +8,22 @@ hieu_luc_tu: '2025-07-21'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong/bien-gioi
+quan_he:
+  sua_doi:
+    - so_hieu: 02/2018/TT-BCT
+      tu_ngay: '2025-07-21'
+      can_cu: Điều 1 và Điều 2 TT 34/2025/TT-BCT
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=213832&pageid=27160
     truy_cap: '2026-07-02'
-  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/34-bct.signed.pdf
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/44998/56546-1-2025751-75234-2025-tt-bct.pdf
     truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 1764
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'PDF Công báo số 751+752 ngày 15-06-2025 (lớp chữ): Điều 3 hiệu lực 21-07-2025; tình trạng hiện tại: sổ không có văn bản sau ghi thay/bãi TT 34/2025; Điều 20 TT 48/2026/TT-BCT (PDF Công báo số 521) không liệt kê TT 34/2025'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1764 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn).
-toan_van: raw/download/datafiles.chinhphu.vn/34-2025-tt-bct.pdf
+  boi: cursor-agent@ozvietnam
+ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1764 mã HS).
+toan_van: raw/download/congbaocdn.chinhphu.vn/34-2025-tt-bct.pdf

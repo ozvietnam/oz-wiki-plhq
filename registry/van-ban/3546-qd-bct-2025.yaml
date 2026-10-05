@@ -18,4 +18,9 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: khoi-tao
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 6 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + sct.tayninh.gov.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc AR02.AD10. Điều chỉnh mức thuế CBPG theo nhóm công ty (3,57%–12,63% với Trung Quốc…), áp dụng đến 15/10/2026 trừ khi có QĐ rà soát/gia hạn khác. Số hiệu hay viết 3546/QĐ-BCT-2025.'
+  chan:
+    ma: CHO_CONG_BO_A
+    viec_tiep: Theo dõi pvtm/moit đăng PDF kết quả AR02.AD10; trav AD10 chưa có file 3546 (đến 04-10-2026).
+    ngay: '2026-10-04'
+  canh_bao: Đã ghi xac_minh.chan (CHO_CONG_BO_A) — xem node tools/san-hieu-luc.mjs; không săn lặp URL đã 404.
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 6 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + sct.tayninh.gov.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc AR02.AD10. Điều chỉnh mức thuế CBPG theo nhóm công ty (3,57%–12,63% với Trung Quốc…), áp dụng đến 15/10/2026 trừ khi có QĐ rà soát/gia hạn khác. Số hiệu hay viết 3546/QĐ-BCT-2025. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.'

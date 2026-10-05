@@ -5,12 +5,15 @@ ten: (chưa có tiêu đề) 26/2011/NĐ-CP
 co_quan: CP
 tinh_trang: HET_HIEU_LUC
 nhanh:
-- chua-phan-loai
+  - chua-phan-loai
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: stub từ điều khoản thi hành văn bản mới trên Công báo CDN
+  muc: NGUON_A
+  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
 het_hieu_luc_tu: '2017-11-25'
 ghi_chu: Bị thay bởi Điều 38 khoản 1 NĐ 113/2017/NĐ-CP; stub chưa mở toàn văn nguồn A của chính văn bản này.
+nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?docid=99827&pageid=27160
+    truy_cap: '2026-10-04'

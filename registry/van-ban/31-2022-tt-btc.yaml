@@ -9,9 +9,12 @@ tinh_trang: CON_HIEU_LUC
 nhanh:
   - phan-loai-hs/danh-muc
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: hiểu biết nền lúc khởi tạo
+  muc: NGUON_A
+  pham_vi: số hiệu/trích yếu trên nguồn A (congbao.chinhphu.vn)
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
+  boi: cursor-agent@ozvietnam
 ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.
+nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-31-2022-tt-btc-37431.htm
+    truy_cap: '2026-10-04'

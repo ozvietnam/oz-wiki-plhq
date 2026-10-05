@@ -34,9 +34,17 @@ xac_minh:
   ngay: 2026-10-04
   boi: ten-nguoi-hoac-agent
   canh_bao: "..."                # tuỳ chọn — nghi vấn về nguồn
+  chan:                          # tuỳ chọn — tạm dừng săn đối chiếu (không săn lặp)
+    ma: THIEU_PDF_A              # THIEU_PDF_A | THIEU_DIEU_THI_HANH_A | THIEU_BAI_TUONG_MINH | SO_HIEU_LECH | CHO_CONG_BO_A
+    ngay: 2026-10-04             # ngày kết luận chặn
+    viec_tiep: "Chờ PVTM đăng PDF; săn lại khi có tin mới"
 ghi_chu: "..."
 tu_khoa: [banh-keo, attp]        # tuỳ chọn
 ```
+
+**`xac_minh.chan`:** khi đã săn hết đường nguồn A khả thi mà vẫn chưa đặt `hieu_luc_da_doi_chieu: true`,
+ghi chặn để điểm mù chuyển sang `HS_API_CHO_MO_CHAN` (Thấp) thay vì giữ `HS_API_UU_TIEN_DOI_CHIEU` (Cao).
+Chạy `node tools/san-hieu-luc.mjs` để xem hàng đợi còn làm được. Xóa `chan` khi đã đối chiếu xong.
 
 **`loai`:** `HIEN_PHAP`, `LUAT`, `NGHI_QUYET`, `PHAP_LENH`, `NGHI_DINH`, `QUYET_DINH`, `THONG_TU`,
 `THONG_TU_LIEN_TICH`, `CHI_THI`, `CONG_VAN`, `THONG_BAO`, `VAN_BAN_HOP_NHAT`, `DIEU_UOC`, `TIEU_CHUAN`, `KHAC`.

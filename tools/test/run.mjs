@@ -113,6 +113,19 @@ t('nhu cầu: ưu tiên đối chiếu — ≥50 mã là Cao, kèm trọng số'
 const lechTv = dh.filter((d) => d.ma === 'HS_API_LECH_THU_VIEN');
 t('nhu cầu: lệch thư viện gộp theo số hiệu, bỏ dòng sổ đã đổi tình trạng', lechTv.length === 1 && lechTv[0].muc_tieu === '99/2008/NĐ-CP', JSON.stringify(lechTv));
 t('không có nhu-cau → không sinh việc HS_API', !timDiemMu(napSo(r2), { today: '2026-10-04', root: r2 }).some((d) => d.ma.startsWith('HS_API_')));
+// 5b. xac_minh.chan → HS_API_CHO_MO_CHAN (không giữ UU_TIEN)
+const rChan = soGia({
+  'chan.yaml': `so_hieu: 12/2018/NĐ-CP\nloai: NGHI_DINH\nten: Đã chặn săn\nco_quan: CP\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/an-toan-thuc-pham]\nxac_minh: {muc: NGUON_A, hieu_luc_da_doi_chieu: false, ngay: "2026-10-04", chan: {ma: THIEU_BAI_TUONG_MINH, ngay: "2026-10-04", viec_tiep: "Chờ TT mới"}}\nnguon: [{url: "https://vanban.chinhphu.vn/?docid=1", truy_cap: "2026-10-04"}]\n`,
+  'ok2.yaml': `so_hieu: 9/2020/TT-BCT\nloai: THONG_TU\nten: Chưa chặn\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\n${XM}\n`,
+});
+const dhChan = timDiemMu(napSo(rChan), { today: '2026-10-04', root: rChan, nhuCau }).filter((d) => d.ma.startsWith('HS_API_'));
+t('chan: sinh HS_API_CHO_MO_CHAN mức Thấp', dhChan.some((d) => d.ma === 'HS_API_CHO_MO_CHAN' && d.muc_tieu === '12/2018/NĐ-CP' && d.muc === 'Thấp'));
+t('chan: không còn UU_TIEN cho cùng số hiệu', !dhChan.some((d) => d.ma === 'HS_API_UU_TIEN_DOI_CHIEU' && d.muc_tieu === '12/2018/NĐ-CP'));
+t('chan: mục chưa chan vẫn UU_TIEN', dhChan.some((d) => d.ma === 'HS_API_UU_TIEN_DOI_CHIEU' && d.muc_tieu === '9/2020/TT-BCT'));
+const kChanBad = kiemTra(napSo(soGia({
+  'bad.yaml': `so_hieu: 1/2026/TT-BCT\nloai: THONG_TU\nten: Chan sai\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\nxac_minh: {muc: CHUA_XAC_MINH, hieu_luc_da_doi_chieu: false, ngay: "2026-10-04", chan: {ma: SAI_MA, ngay: "2026-10-04", viec_tiep: "x"}}\n`,
+})), { today: '2026-10-04' });
+t('chan: ma không hợp lệ → lỗi kiểm', kChanBad.loi.some((e) => /chan\.ma/.test(e.msg)));
 // 6. Bảng danh mục mã HS
 t('CSV: ngoặc kép, dấu phẩy và xuống dòng trong ô', JSON.stringify(docCsv('a,b\n"x, ""y""","dòng 1\ndòng 2"\n')) === JSON.stringify([['a', 'b'], ['x, "y"', 'dòng 1\ndòng 2']]));
 const HEAD = 'ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang\n';

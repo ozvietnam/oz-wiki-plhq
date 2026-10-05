@@ -12,11 +12,15 @@ nhanh:
 nguon:
   - url: https://vbpl.vn/boxaydung/Pages/vbpq-toanvan.aspx?ItemID=150532
     truy_cap: '2026-07-02'
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-11-2026-tt-bxd-469475.htm
+    truy_cap: '2026-10-04'
+  - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/5/15/469475-1778807343_v1_1778838173_signed.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 34
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'vbpl.vn (boxaydung) số hiệu/tiêu đề/ngày; tình trạng hiện tại: Điều 5 khoản 2 TT 11/2026/TT-BXD (PDF Công báo số 277 ngày 16-05-2026, lớp chữ) cho hết hiệu lực kể từ ngày TT 11 có hiệu lực (01-06-2026)'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 34 mã HS). Tiêu đề đã đối chiếu (vbpl.vn (boxaydung)). GHI CHÚ NGHIỆP VỤ (hs-code-api): Hết hiệu lực từ 01/6/2026 khi TT 11/2026/TT-BXD có hiệu lực'
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (34 mã HS). Hết hiệu lực toàn văn từ 01-06-2026 theo TT 11/2026/TT-BXD.'

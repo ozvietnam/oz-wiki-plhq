@@ -14,9 +14,12 @@ quan_he:
   thay_the:
     - 10/2024/TT-BXD
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  muc: NGUON_A
+  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
+  boi: cursor-agent@ozvietnam
 ghi_chu: 3 mức rủi ro, 09 nhóm rủi ro cao; rủi ro trung bình tại Phụ lục III. Công báo số 404 ngày 17/7/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
+nguon:
+  - url: https://vanban.chinhphu.vn/?docid=218644&pageid=27160
+    truy_cap: '2026-10-04'

@@ -10,9 +10,12 @@ quan_he:
   sua_doi:
     - 05/2007/QH12
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
+  muc: NGUON_A
+  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
-  boi: khoi-tao
+  boi: cursor-agent@ozvietnam
 ghi_chu: 'Tên đầy đủ và ngày hiệu lực: chưa xác minh. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
+nguon:
+  - url: https://vanban.chinhphu.vn/?docid=214606&pageid=27160
+    truy_cap: '2026-10-04'

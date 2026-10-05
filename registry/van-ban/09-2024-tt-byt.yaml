@@ -9,13 +9,27 @@ tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
 nguon:
-  - url: https://congbao.chinhphu.vn/noi-dung-van-ban-so-09-2024-tt-byt
-    truy_cap: '2026-07-02'
+  - url: https://vbpl.vn/TW/Pages/ivbpq-toanvan.aspx?ItemID=169844
+    truy_cap: '2026-10-04'
+  - url: https://moh.gov.vn/tin-tong-hop/-/asset_publisher/k206Q9qkZOqn/content/bo-y-te-he-thong-van-ban-ban-hanh-nam-2024
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 376
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'toàn văn vbpl.vn ItemID=169844 (bậc A): Điều 4 khoản 1 hiệu lực 26-07-2024; khoản 2 cho hết hiệu lực TT 06/2018, 48/2018, 03/2021 TT-BYT; thẻ thuộc tính vbpl «Hiệu lực: Còn hiệu lực»; lược đồ vbpl không ghi văn bản thay/bãi 09/2024; moh.gov.vn liệt kê trong hệ thống văn bản BYT 2024 (kiểm đến 04-10-2026)'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 376 mã HS). Tiêu đề đã đối chiếu (chinhphu.vn + thoibaotaichinhvietnam.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): [DM7] Danh mục 7 — nguyên liệu làm thuốc là dược chất và bán thành phẩm · [DM8] Danh mục 8 — thuốc chỉ chứa 01 thành phần dược chất · [DM1] Danh mục 1 — thuốc độc, nguyên liệu độc làm thuốc XK/NK đã xác định mã HS · [DM11] Danh mục 11 — dược liệu làm thuốc · [DM14] Danh mục 14 — mỹ phẩm XK/NK đã xác định mã HS · [DM6] Danh mục 6 — nguyên liệu làm thuốc là chất phóng xạ sử dụng trong ngành y tế · [DM3] Danh mục 3 — nguyên liệu làm thuốc là dược chất hướng thần · [DM5] Danh mục 5 — thuốc, dược chất thuộc Danh mục chất cấm sử dụng trong một số ngành, lĩnh vực · [DM2] Danh mục 2 — nguyên liệu làm thuốc là dược chất gây nghiện · [DM9] Danh mục 9 — thuốc dạng phối hợp · [DM12] Danh mục 12 — các chất chiết xuất từ dược liệu, tinh dầu làm thuốc · [DM4] Danh mục 4 — nguyên liệu làm thuốc là tiền chất dùng làm thuốc · [DM10] Danh mục 10 — vắc xin'
+  boi: cursor-agent@ozvietnam
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (376 mã HS). Chưa tìm thấy PDF Công báo/datafiles ổn định; toàn văn HTML vbpl.vn dùng để đối chiếu điều khoản. GHI CHÚ NGHIỆP VỤ (hs-code-api): [DM7]–[DM14] các danh mục thuốc/nguyên liệu/mỹ phẩm.'
+quan_he:
+  bai_bo:
+    - so_hieu: 06/2018/TT-BYT
+      tu_ngay: '2024-07-26'
+      can_cu: Điều 4 khoản 2 điểm a TT 09/2024/TT-BYT
+    - so_hieu: 48/2018/TT-BYT
+      tu_ngay: '2024-07-26'
+      can_cu: Điều 4 khoản 2 điểm b TT 09/2024/TT-BYT
+    - so_hieu: 03/2021/TT-BYT
+      tu_ngay: '2024-07-26'
+      can_cu: Điều 4 khoản 2 điểm c TT 09/2024/TT-BYT
+toan_van: raw/download/vbpl.vn/09-2024-tt-byt.html

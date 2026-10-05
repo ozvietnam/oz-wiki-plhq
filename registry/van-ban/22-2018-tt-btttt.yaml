@@ -7,22 +7,26 @@ ngay_ban_hanh: '2018-12-28'
 hieu_luc_tu: '2019-02-12'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-- quan-ly-ngoai-thuong/giay-phep
+  - quan-ly-ngoai-thuong/giay-phep
 nguon:
-- url: https://vanban.chinhphu.vn/default.aspx?docid=195976&pageid=27160
-  truy_cap: '2026-10-04'
-- url: https://mst.gov.vn/van-ban-phap-luat/14290.htm
-  truy_cap: '2026-07-02'
-- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/01/22-btttt.signed.pdf
-  truy_cap: '2026-10-04'
+  - url: https://vanban.chinhphu.vn/default.aspx?docid=195976&pageid=27160
+    truy_cap: '2026-10-04'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/12/28195/25392-1-2019107-10822-2018-tt-btttt.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 31
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'thẻ vanban.chinhphu.vn: ban hành 28-12-2018, hiệu lực 12-02-2019; người ký Nguyễn Mạnh Hùng'
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'PDF Công báo số 107+108 ngày 29-01-2019 (lớp chữ): Điều 2 khoản 1 hiệu lực 12-02-2019 và thay thế 16/2015, 41/2016 TT-BTTTT; tình trạng hiện tại: sổ ghi TT 11/2024/TT-BTTTT sửa đổi (chưa đối chiếu nguồn A trên chính 11/2024) — không thay toàn bộ; chưa thấy văn bản bãi bỏ toàn bộ 22/2018'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 31 mã HS). Tiêu đề
-  đã đối chiếu (mst.gov.vn (Bộ) + caselaw.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Sửa đổi bởi TT 11/2024/TT-BTTTT; hợp nhất
-  tại VB 09/VBHN-BTTTT (2024) · [PL2] Sửa đổi bởi TT 11/2024/TT-BTTTT; hợp nhất tại VB 09/VBHN-BTTTT (2024)'
-toan_van: raw/download/datafiles.chinhphu.vn/22-2018-tt-btttt.pdf
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (31 mã HS). GHI CHÚ NGHIỆP VỤ (hs-code-api): Sửa đổi bởi TT 11/2024/TT-BTTTT; hợp nhất tại VB 09/VBHN-BTTTT (2024).'
+toan_van: raw/download/congbaocdn.chinhphu.vn/22-2018-tt-btttt.pdf
+quan_he:
+  thay_the:
+    - so_hieu: 16/2015/TT-BTTTT
+      tu_ngay: '2019-02-12'
+      can_cu: Điều 2 khoản 1 điểm a TT 22/2018/TT-BTTTT
+    - so_hieu: 41/2016/TT-BTTTT
+      tu_ngay: '2019-02-12'
+      can_cu: Điều 2 khoản 1 điểm b TT 22/2018/TT-BTTTT

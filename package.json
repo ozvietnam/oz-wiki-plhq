@@ -12,6 +12,7 @@
     "dung": "node tools/dung.mjs",
     "nap": "node tools/nap.mjs",
     "them": "node tools/them-van-ban.mjs",
+    "san-hieu-luc": "node tools/san-hieu-luc.mjs",
     "test": "node tools/test/run.mjs && node tools/kiem-tra.mjs && node _lumina/scripts/lint.mjs --json > /dev/null"
   },
   "dependencies": {
