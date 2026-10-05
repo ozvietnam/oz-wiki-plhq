@@ -1,7 +1,7 @@
 {
   "phien_ban": "2026-10-05",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 204,
+  "tong": 205,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -701,6 +701,14 @@
             "tu": "24/2026/TT-BYT",
             "quan_he": "sua_doi",
             "so_hieu": "05/2022/TT-BYT"
+          },
+          {
+            "tu": "24/2026/TT-BYT",
+            "quan_he": "sua_doi",
+            "so_hieu": "05/2022/TT-BYT",
+            "pham_vi": "Điều 8 (lộ trình kiểm định)",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 3 TT 24/2026/TT-BYT"
           }
         ]
       }
@@ -2395,6 +2403,7 @@
       "loai": "THONG_TU",
       "ten": "Ban hành Danh mục sản phẩm mật mã dân sự có mức độ rủi ro cao thuộc phạm vi quản lý của Bộ trưởng Bộ Quốc phòng",
       "co_quan": "BQP",
+      "ngay_ban_hanh": "2026-09-02",
       "hieu_luc_tu": "2026-09-02",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
@@ -2407,18 +2416,31 @@
       },
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "PDF ký số datafiles.chinhphu.vn (ảnh quét, 7 trang): Điều 6 hiệu lực từ 02-09-2026 (viết tay); Điều 5 khoản 2 chuyển tiếp 24 tháng cho sản phẩm đã được cấp phép lưu thông; chưa đăng Công báo (dò ID 469850–470720 ngày 05-10-2026)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-05",
+        "boi": "claude-code@ozvietnam"
       },
       "ghi_chu": "Cơ quan: Ban Cơ yếu Chính phủ. Chuyển tiếp 24 tháng cho sản phẩm đã cấp phép. Liên quan NĐ 341/2026/NĐ-CP. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?docid=219388&pageid=27160",
           "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/126-bqp.signed.pdf",
+          "truy_cap": "2026-10-05"
         }
       ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/126-2026-tt-bqp.pdf",
+      "danh_muc_hs": {
+        "tep": "danh-muc/126-2026-tt-bqp.csv",
+        "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/126-bqp.signed.pdf",
+        "trich_boi": "claude-code@ozvietnam",
+        "ngay": "2026-10-05",
+        "da_doi_chieu": false,
+        "ghi_chu": "Phụ lục trang PDF 5–7 là ẢNH QUÉT (không lớp chữ) — đọc từ ảnh 110 dpi, chưa OCR máy; 54 dòng / 34 mã, cả 34 mã có trong biểu thuế. Cần người thứ hai soát từng mã với ảnh gốc rồi đặt da_doi_chieu: true. Mỗi mã chỉ áp cho sản phẩm CÓ chức năng mật mã (dieu_kien)."
+      },
       "slug": "126-2026-tt-bqp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -3863,6 +3885,26 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "19/2024/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Ban hành Danh mục thiết bị y tế xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
+      "co_quan": "BYT",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "xac_minh": {
+        "muc": "CHUA_XAC_MINH",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-05",
+        "boi": "do-tham"
+      },
+      "ghi_chu": "Được Điều 2 khoản 2 TT 24/2026/TT-BYT dẫn chiếu làm nguồn mã HS của thiết bị y tế (khung rủi ro NĐ 37/2026). Chưa tìm được bản gốc trên nguồn máy đọc được (vanban/congbao tìm kiếm bằng JS; thuvienphapluat chặn máy) — cần người/agent có trình duyệt lấy PDF + trích bảng.",
+      "slug": "19-2024-tt-byt",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "1914/QĐ-BCT",
       "loai": "QUYET_DINH",
       "ten": "Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm bột ngọt có xuất xứ từ Cộng hòa In-đô-nê-xi-a và Cộng hòa nhân dân Trung Hoa",
@@ -4578,7 +4620,20 @@
       ],
       "quan_he": {
         "sua_doi": [
-          "05/2022/TT-BYT"
+          "05/2022/TT-BYT",
+          {
+            "so_hieu": "05/2022/TT-BYT",
+            "pham_vi": "Điều 8 (lộ trình kiểm định)",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 3 TT 24/2026/TT-BYT"
+          }
+        ],
+        "bai_bo": [
+          {
+            "so_hieu": "59/2025/TT-BYT",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 4 khoản 2 TT 24/2026/TT-BYT"
+          }
         ]
       },
       "xac_minh": {
@@ -4593,8 +4648,21 @@
         {
           "url": "https://vanban.chinhphu.vn/?docid=218703&pageid=27160",
           "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/24-byt.signed.pdf",
+          "truy_cap": "2026-10-05"
         }
       ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/24-2026-tt-byt.pdf",
+      "danh_muc_hs": {
+        "tep": "danh-muc/24-2026-tt-byt.csv",
+        "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/24-byt.signed.pdf",
+        "trich_boi": "claude-code@ozvietnam",
+        "ngay": "2026-10-05",
+        "da_doi_chieu": true,
+        "ghi_chu": "Văn bản 3 trang, KHÔNG có phụ lục mã HS. Điều 2 khoản 2: \"Mã số HS đối với thiết bị y tế được quy định tại Thông tư số 19/2024/TT-BYT\" → một dòng dẫn chiếu."
+      },
       "slug": "24-2026-tt-byt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -4875,8 +4943,21 @@
         {
           "url": "https://vanban.chinhphu.vn/?docid=218705&pageid=27160",
           "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/26-byt-kem.pdf",
+          "truy_cap": "2026-10-05"
         }
       ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/26-2026-tt-byt.pdf",
+      "danh_muc_hs": {
+        "tep": "danh-muc/26-2026-tt-byt.csv",
+        "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/26-byt-kem.pdf",
+        "trich_boi": "claude-code@ozvietnam",
+        "ngay": "2026-10-05",
+        "da_doi_chieu": false,
+        "ghi_chu": "Phụ lục (2 trang, lớp chữ) KHÔNG in mã HS: 2 dòng dẫn chiếu sang Danh mục 11 (dược liệu) và Danh mục 13 (thuốc cổ truyền) của 09/2024/TT-BYT. 455 dòng có mã là SUY RA từ bảng 09/2024 (ghi rõ trong dieu_kien), 2 dòng đầu là nguyên văn phụ lục."
+      },
       "slug": "26-2026-tt-byt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
