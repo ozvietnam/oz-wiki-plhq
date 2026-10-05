@@ -1,0 +1,47 @@
+{
+  "ngay": "2026-10-04",
+  "agent": "Codex@ozvietnam",
+  "issue": 6,
+  "pham_vi": "Thu thập bản ban hành gốc; chưa đối chiếu hiệu lực hiện tại, chưa OCR hoặc nạp wiki",
+  "tai_lieu": [
+    {
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2014/08/54_haiquan.signed.pdf",
+      "truy_cap": "2026-10-04",
+      "sha256": "1c16477bd2fb5aea74f714c86e80255faedd179e91876b3b7191b83da044e9bf",
+      "content_type": "application/pdf",
+      "bytes": 3834753,
+      "bac_nguon": "A",
+      "so_hieu": "54/2014/QH13",
+      "pages": 54,
+      "can_ocr": true,
+      "trang_thai_repo": "DA_CO_TREN_MAIN",
+      "duong_dan_du_kien": "raw/download/datafiles.chinhphu.vn/54-2014-qh13.pdf"
+    },
+    {
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/05/107.signed.pdf",
+      "truy_cap": "2026-10-04",
+      "sha256": "32841618792a0ef83b8f9dab098d39afe556471a83039489f38e1e9ccd91b04b",
+      "content_type": "application/pdf",
+      "bytes": 2068695,
+      "bac_nguon": "A",
+      "so_hieu": "107/2016/QH13",
+      "pages": 29,
+      "can_ocr": true,
+      "trang_thai_repo": "CHO_NAP_PDF",
+      "duong_dan_du_kien": "raw/download/datafiles.chinhphu.vn/107-2016-qh13.pdf"
+    },
+    {
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2017/07/05.signed.pdf",
+      "truy_cap": "2026-10-04",
+      "sha256": "3a8a0686b1d69cedd04fe24be22e61f88cbd69969422173d0a7d107fb26f1c07",
+      "content_type": "application/pdf",
+      "bytes": 2428743,
+      "bac_nguon": "A",
+      "so_hieu": "05/2017/QH14",
+      "pages": 52,
+      "can_ocr": true,
+      "trang_thai_repo": "CHO_NAP_PDF",
+      "duong_dan_du_kien": "raw/download/datafiles.chinhphu.vn/05-2017-qh14.pdf"
+    }
+  ]
+}
