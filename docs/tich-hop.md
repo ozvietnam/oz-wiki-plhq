@@ -48,6 +48,7 @@ Giấy phép CC BY 4.0 — ghi nguồn "oz-wiki-plhq".
 |---|---|---|
 | Kho này → hs-code-api | Workflow `plhq-sync` bên hs-code-api tải `dist/registry.json`, đo lại, chạy test, commit (thay đổi lớn → PR cho người duyệt) | Mỗi ngày 08:17 giờ VN; ngay sau mỗi lần gộp vào main nếu kho này có secret `HS_CODE_API_DISPATCH_TOKEN` (workflow `dung-lai-va-bao-hs-code-api`, cũng là bước bot dựng lại `dist/` + `bao-cao/`) |
 | hs-code-api → kho này | `node tools/nhu-cau.mjs` kéo `data/plhq-bench-latest.json` (repo công khai) vào `nhu-cau/hs-code-api.json`; `tools/diem-mu.mjs` sinh việc `HS_API_*` xếp theo số mã HS | Mỗi thứ Hai trong workflow `bao-cao-tuan` |
+| **Hàng thật** (hs-code-api → kho này) | `node tools/nhu-cau.mjs` kéo `GET https://hs-kb.uythacnhapkhau.com/api/demand` (mục `ktcn2026`) vào `nhu-cau/hang-that.json`: mã HS của món hàng thật đi qua phiếu hồ sơ khai báo mà chưa bảng danh mục KTCN 2026 nào phủ. `tools/diem-mu.mjs` sinh việc `HANG_THAT_CHUA_DOI_CHIEU_KTCN` (mức theo ưu tiên của hs-code-api). Chỉ có mức ưu tiên, không số lượng / tên hàng / khách. Trích xong bảng phủ mã → việc tự biến mất | Mỗi thứ Hai trong workflow `bao-cao-tuan` |
 | Tra cứu trực tiếp | `GET https://hs-kb.uythacnhapkhau.com/api/legal-status?so=28/2026/TT-BCT` (công khai) | Bất kỳ lúc nào |
 
 Ba loại việc từ hs-code-api trong báo cáo điểm mù:

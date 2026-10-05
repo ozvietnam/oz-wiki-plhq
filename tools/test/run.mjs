@@ -7,7 +7,7 @@ import { kiemTra } from '../kiem-tra.mjs';
 import { timDiemMu } from '../diem-mu.mjs';
 import { dungJson, veQuanHe } from '../dung.mjs';
 import { lamSachHtml } from '../nap.mjs';
-import { rutGonNhuCau, rutGonBieuThue } from '../nhu-cau.mjs';
+import { rutGonNhuCau, rutGonBieuThue, rutGonHangThat } from '../nhu-cau.mjs';
 import { docCsv, napDanhMuc, kiemDinhDang, dungChiMuc, demLa, docBieuThue } from '../lib/danh-muc.mjs';
 
 let pass = 0;
@@ -160,6 +160,19 @@ const cm6 = dungChiMuc(so6, r6, '2026-10-04');
 const v6 = cm6.van_ban.find((v) => v.so_hieu === '50/2026/TT-BCT');
 t('hs-index: chỉ xuất bảng hợp lệ, giữ dieu_kien + dan_chieu, bỏ ô trống', cm6.van_ban.length === 1 && v6.dong.length === 4
   && v6.dong[1].dieu_kien === 'trừ loại dùng cho trẻ em' && v6.dong[3].dan_chieu === '15/2024/TT-BYT' && !('muc_rui_ro' in v6.dong[0]) && v6.tinh_trang === 'CON_HIEU_LUC');
+
+// 7. Hàng thật (hs-code-api /api/demand): mã chưa bảng KTCN 2026 nào phủ → điểm mù; đã phủ → không
+const ht = rutGonHangThat({ generatedAt: '2026-10-05T00:00:00Z', since: '2026-07-07', ktcn2026: [
+  { hs: '85366932', priority: 'Cao', policyLevel: 'INFO', docs: ['42/2019/TT-BCT'], lastSeen: '2026-10-05' },
+  { hs: '22030091', priority: 'Vừa', docs: [], lastSeen: '2026-10-04' },
+  { hs: '8536', priority: 'Cao' }, // không đủ 8 số → bỏ
+  { hs: '19012000', priority: 'X' }, // mức lạ → bỏ
+] });
+t('hàng thật: rút gọn giữ mã 8 số + mức hợp lệ', ht.maHs.length === 2 && ht.maHs[0].vanBanDangDan[0] === '42/2019/TT-BCT');
+const dht = timDiemMu(so6, { today: '2026-10-05', root: r6, nhuCau: null, hangThat: ht }).filter((d) => d.ma === 'HANG_THAT_CHUA_DOI_CHIEU_KTCN');
+t('hàng thật: mã chưa phủ → điểm mù mức Cao, gợi văn bản danh mục KTCN 2026 chưa trích', dht.some((d) => d.muc_tieu === '85366932' && d.muc === 'Cao' && /51\/2026\/TT-BYT/.test(d.viec)), JSON.stringify(dht));
+t('hàng thật: mã đã có trong bảng KTCN 2026 (22030091) → không báo', !dht.some((d) => d.muc_tieu === '22030091'));
+t('không có hàng thật → không sinh việc', !timDiemMu(so6, { today: '2026-10-05', root: r6, nhuCau: null, hangThat: null }).some((d) => d.ma === 'HANG_THAT_CHUA_DOI_CHIEU_KTCN'));
 
 const sach = lamSachHtml('<html><script>x()</script><nav>menu</nav><p>Điều 1.&nbsp;Phạm vi</p><p>Điều 2</p></html>');
 t('làm sạch HTML: bỏ script/menu, giữ đoạn', sach === 'Điều 1. Phạm vi\nĐiều 2', JSON.stringify(sach));

@@ -4,6 +4,7 @@
 //   node tools/diem-mu.mjs            → ghi bao-cao/diem-mu.md + bao-cao/diem-mu.json
 //   node tools/diem-mu.mjs --stdout   → in markdown ra màn hình (dùng làm nội dung issue)
 // Có nhu-cau/hs-code-api.json (tools/nhu-cau.mjs) thì xếp thêm việc theo số mã HS chịu ảnh hưởng.
+// Có nhu-cau/hang-that.json thì thêm mã HS của hàng thật chưa bảng KTCN 2026 nào phủ.
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { napSo, khoa, bacNguon, chuanCanh, dungDoThi, homNay, ROOT, QUAN_HE_LAM_MAT_HIEU_LUC } from './lib/registry.mjs';
@@ -40,7 +41,17 @@ export function docNhuCau(root = ROOT) {
   try { return JSON.parse(readFileSync(p, 'utf8')); } catch { return null; }
 }
 
-export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCau(root), bieuThue = docBieuThue(root) } = {}) {
+/** Đọc nhu cầu từ hàng thật (nhu-cau/hang-that.json — hs-code-api /api/demand). null nếu chưa có. */
+export function docHangThat(root = ROOT) {
+  const p = join(root, 'nhu-cau', 'hang-that.json');
+  if (!existsSync(p)) return null;
+  try { return JSON.parse(readFileSync(p, 'utf8')); } catch { return null; }
+}
+
+/** Văn bản danh mục thuộc khung KTCN 2026 (nhánh kiểm tra chuyên ngành, hiệu lực từ 01/7/2026). */
+const laKtcn2026 = (d) => (d.nhanh || []).some((n) => n.startsWith('kiem-tra-chuyen-nganh')) && String(d.hieu_luc_tu || '') >= '2026-07-01';
+
+export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCau(root), bieuThue = docBieuThue(root), hangThat = docHangThat(root) } = {}) {
   const ds = [];
   // trongSo: xếp trong cùng nhóm (vd số mã HS chịu ảnh hưởng) — lớn trước.
   const add = (ma, muc, tieuDe, muc_tieu, viec, luong, trongSo = 0) => ds.push({ ma, muc, tieuDe, muc_tieu, viec, luong, trongSo });
@@ -195,6 +206,26 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
     }
   }
 
+  // D-HT — HÀNG THẬT (hs-code-api /api/demand): mã HS của món hàng thật chưa có dòng nào trong bảng
+  // danh mục KTCN 2026 đã trích. Bảng đã trích có mã (hoặc tiền tố 4/6 số) phủ mã đó → việc tự biến mất.
+  if (hangThat?.maHs?.length) {
+    const phu = [];
+    for (const it of bangDm) {
+      if (!laKtcn2026(it.vanBan) || kiemDinhDang(it).length) continue;
+      for (const o of it.dong) if (o.ma_hs) phu.push(o.ma_hs);
+    }
+    const trongSo = { Cao: 3, 'Vừa': 2, 'Thấp': 1 };
+    const chuaTrich = so.vanBan.filter((d) => laKtcn2026(d) && laVanBanDanhMuc(d) && !daCoBang.has(khoa(d.so_hieu))).map((d) => d.so_hieu);
+    for (const x of hangThat.maHs) {
+      if (phu.some((p) => x.hs.startsWith(p))) continue;
+      const muc = x.uuTien === 'Cao' ? MUC.CAO : x.uuTien === 'Vừa' ? MUC.VUA : MUC.THAP;
+      const dan = x.vanBanDangDan?.length ? ` Biểu thuế đang dẫn: ${x.vanBanDangDan.join(', ')}.` : '';
+      add('HANG_THAT_CHUA_DOI_CHIEU_KTCN', muc, `Hàng thật mã ${x.hs} chưa đối chiếu danh mục KTCN 2026`, x.hs,
+        `Món hàng thật (OZ, gặp gần nhất ${x.gapGanNhat || '?'}) mang mã ${x.hs} nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này — hs-code-api chưa biết có phải công bố hợp quy / kiểm tra hay không.${dan} Tìm mã (hoặc tiền tố 4/6 số) trong phụ lục ${chuaTrich.slice(0, 6).join(', ') || 'các danh mục KTCN 2026'} rồi trích theo docs/luoc-do-danh-muc-hs.md.`,
+        'danh-muc-hs', (trongSo[x.uuTien] || 0) * 1000);
+    }
+  }
+
   // D-HS — nhu cầu thật từ hs-code-api: văn bản biểu thuế đang dẫn, xếp theo số mã HS chịu ảnh hưởng.
   // Đối chiếu với sổ HIỆN TẠI (bản đo có thể cũ hơn sổ): việc đã làm xong thì tự biến mất.
   if (nhuCau) {
@@ -244,6 +275,7 @@ const TEN_MA = {
   HS_API_LECH_THU_VIEN: 'Thư viện hs-code-api ghi khác sổ',
   DANH_MUC_CHUA_TRICH: 'Văn bản danh mục chưa trích bảng mã HS', HS_KHONG_TON_TAI: 'Mã HS trong bảng không có trong biểu thuế',
   DAN_CHIEU_CHUA_CO_BANG: 'Bảng dẫn chiếu mã HS sang văn bản chưa có bảng',
+  HANG_THAT_CHUA_DOI_CHIEU_KTCN: 'Mã HS có hàng thật chưa đối chiếu KTCN 2026 (hs-code-api /api/demand)',
 };
 
 export function veMarkdown(ds, { today = homNay(), gioiHan = 40 } = {}) {
