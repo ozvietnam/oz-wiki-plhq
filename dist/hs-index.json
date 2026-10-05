@@ -14,7 +14,7 @@
    "tinh_trang": "CON_HIEU_LUC",
    "hieu_luc_tu": "2024-11-02",
    "het_hieu_luc_tu": null,
-   "hieu_luc_da_doi_chieu": false,
+   "hieu_luc_da_doi_chieu": true,
    "bang": {
     "tep": "danh-muc/15-2024-tt-byt.csv",
     "nguon": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/44656/55863-1-2025629-63015-2024-tt-byt.pdf",
@@ -3613,7 +3613,7 @@
    "tinh_trang": "CON_HIEU_LUC",
    "hieu_luc_tu": "2026-07-17",
    "het_hieu_luc_tu": null,
-   "hieu_luc_da_doi_chieu": false,
+   "hieu_luc_da_doi_chieu": true,
    "bang": {
     "tep": "danh-muc/28-2026-tt-bct.csv",
     "nguon": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/6/12/469681-1781245487_v1_1781258779_signed.pdf",
@@ -6645,6 +6645,602 @@
      "phu_luc": "Phụ lục",
      "loai_tac_dong": "KIEM_TRA_ATTP",
      "trang": "27"
+    }
+   ]
+  },
+  {
+   "so_hieu": "49/2026/TT-BXD",
+   "slug": "49-2026-tt-bxd",
+   "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao lĩnh vực giao thông vận tải thuộc phạm vi quản lý của Bộ Xây dựng",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-07-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "bang": {
+    "tep": "danh-muc/49-2026-tt-bxd.csv",
+    "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd-pl1.pdf",
+    "trich_boi": "hermes-211",
+    "ngay": "2026-10-04",
+    "da_doi_chieu": false
+   },
+   "dong": [
+    {
+     "ma_hs": "870121",
+     "mo_ta": "Ô tô đầu kéo (dùng để kéo sơ mi rơ moóc)",
+     "nhom": "I.A.1",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "1"
+    },
+    {
+     "ma_hs": "870122",
+     "mo_ta": "Ô tô đầu kéo (dùng để kéo sơ mi rơ moóc)",
+     "nhom": "I.A.1",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "1"
+    },
+    {
+     "ma_hs": "870123",
+     "mo_ta": "Ô tô đầu kéo (dùng để kéo sơ mi rơ moóc)",
+     "nhom": "I.A.1",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "1"
+    },
+    {
+     "ma_hs": "870124",
+     "mo_ta": "Ô tô đầu kéo (dùng để kéo sơ mi rơ moóc)",
+     "nhom": "I.A.1",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "1"
+    },
+    {
+     "ma_hs": "870129",
+     "mo_ta": "Ô tô đầu kéo (dùng để kéo sơ mi rơ moóc)",
+     "nhom": "I.A.1",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "1"
+    },
+    {
+     "ma_hs": "87019590",
+     "mo_ta": "Ô tô kéo rơ moóc",
+     "nhom": "I.A.2",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "1"
+    },
+    {
+     "ma_hs": "8702",
+     "mo_ta": "Ô tô chở người trên 08 chỗ không kể chỗ của người lái xe",
+     "nhom": "I.A.3",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "1"
+    },
+    {
+     "ma_hs": "8703",
+     "mo_ta": "Ô tô chở người đến 08 chỗ không kể chỗ của người lái xe; ô tô chở người chuyên dùng",
+     "nhom": "I.A.4",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "2"
+    },
+    {
+     "ma_hs": "8704",
+     "mo_ta": "Ô tô tải thông dụng",
+     "nhom": "I.A.5",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "2"
+    },
+    {
+     "ma_hs": "8705",
+     "mo_ta": "Ô tô tải chuyên dùng",
+     "nhom": "I.A.6",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "2"
+    },
+    {
+     "ma_hs": "8706",
+     "mo_ta": "Ô tô sát xi không có buồng lái (khung gầm có gắn động cơ); ô tô sát xi có buồng lái",
+     "nhom": "I.A.8",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "2"
+    },
+    {
+     "ma_hs": "87139000",
+     "mo_ta": "Ô tô dành cho người khuyết tật điều khiển",
+     "nhom": "I.A.9",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "2"
+    },
+    {
+     "ma_hs": "8711",
+     "mo_ta": "Xe mô tô (kể cả loại có thùng xe bên cạnh); xe gắn máy",
+     "nhom": "I.B.1",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "2"
+    },
+    {
+     "ma_hs": "87139000",
+     "mo_ta": "Xe mô tô dành cho người khuyết tật điều khiển",
+     "nhom": "I.B.2",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "2"
+    },
+    {
+     "ma_hs": "87139000",
+     "mo_ta": "Xe gắn máy dành cho người khuyết tật điều khiển",
+     "nhom": "I.B.3",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "2"
+    },
+    {
+     "ma_hs": "870310",
+     "mo_ta": "Xe chở người bốn bánh có gắn động cơ: Loại chở dưới 10 người kể cả người lái, bao gồm cả xe chơi golf (golf car, golf buggies), xe hoạt động trong phạm vi hạn chế",
+     "nhom": "I.C.1",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "3"
+    },
+    {
+     "ma_hs": "8702",
+     "mo_ta": "Xe chở người bốn bánh có gắn động cơ: Loại chở từ 10 người trở lên kể cả người lái",
+     "nhom": "I.C.1",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "1"
+    },
+    {
+     "ma_hs": "8704",
+     "mo_ta": "Xe chở hàng bốn bánh có gắn động cơ",
+     "nhom": "I.C.2",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "2"
+    },
+    {
+     "ma_hs": "8716",
+     "mo_ta": "Rơ moóc và sơ mi rơ moóc",
+     "nhom": "II",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "84264100",
+     "mo_ta": "Xe cần cẩu bánh lốp (cần trục bánh lốp) - Loại có chung buồng điều khiển cơ cấu lái và điều khiển cơ cấu công tác",
+     "nhom": "III.1",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "84264900",
+     "mo_ta": "Xe cần cẩu bánh xích (cần trục bánh xích) - Loại có chung buồng điều khiển cơ cấu lái và điều khiển cơ cấu công tác",
+     "nhom": "III.2",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "84271000",
+     "mo_ta": "Xe nâng",
+     "nhom": "III.3",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "84272000",
+     "mo_ta": "Xe nâng",
+     "nhom": "III.4",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "84292000",
+     "mo_ta": "Xe san (máy san)",
+     "nhom": "III.7",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "842940",
+     "mo_ta": "Xe lu",
+     "nhom": "III.9",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "84304100",
+     "mo_ta": "Xe khoan (máy khoan)",
+     "nhom": "III.10",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "84295200",
+     "mo_ta": "Xe đào (máy đào)",
+     "nhom": "III.11",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "84295100",
+     "mo_ta": "Xe xúc (máy xúc)",
+     "nhom": "III.12",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "84295900",
+     "mo_ta": "Xe xúc, đào (máy xúc, đào)",
+     "nhom": "III.13",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "84301000",
+     "mo_ta": "Xe đóng cọc và nhổ cọc (máy đóng cọc và nhổ cọc)",
+     "nhom": "III.14",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "87059090",
+     "mo_ta": "Xe thi công mặt đường; xe kéo trong kho bãi, nhà xưởng; xe kéo, đẩy tàu bay; máy kéo; xe kéo bánh xích; xe cứu thương lưu động; xe địa hình; xe chở hàng; và các xe máy chuyên dùng khác",
+     "nhom": "III.17-25",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "87051000",
+     "mo_ta": "Xe cần cẩu bánh lốp/bánh xích - Loại có buồng lái và buồng điều khiển cơ cấu công tác riêng biệt",
+     "nhom": "III.26-27",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "87054000",
+     "mo_ta": "Xe trộn và vận chuyển bê tông (xe trộn bê tông)",
+     "nhom": "III.28",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "87059050",
+     "mo_ta": "Xe quét, chà sàn; xe hút bùn, bể phốt (chất thải); xe quét đường; xe phun, tưới chất lỏng",
+     "nhom": "III.29-32",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "84158111",
+     "mo_ta": "Xe cấp khí lạnh (điều hòa) cho tàu bay",
+     "nhom": "III.41",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "87013000",
+     "mo_ta": "Xe kéo bánh xích",
+     "nhom": "III.21",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "40114000",
+     "mo_ta": "Lốp hơi dùng cho xe mô tô, xe gắn máy",
+     "nhom": "IV.1",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "40111000",
+     "mo_ta": "Lốp hơi dùng cho ô tô",
+     "nhom": "IV.2",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "401120",
+     "mo_ta": "Lốp hơi dùng cho ô tô (tiếp)",
+     "nhom": "IV.2",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "40119010",
+     "mo_ta": "Lốp hơi dùng cho ô tô (loại khác)",
+     "nhom": "IV.2",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "8507",
+     "mo_ta": "Ắc quy sử dụng cho xe mô tô điện, xe gắn máy điện",
+     "nhom": "IV.3",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "73110099",
+     "mo_ta": "Bình chịu áp lực có áp suất làm việc định mức cao hơn 0,7 bar lắp đặt, sử dụng trên phương tiện giao thông đường bộ (hoặc 73.11)",
+     "nhom": "V.1",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "CAO",
+     "dieu_kien": "ex",
+     "trang": "9"
+    },
+    {
+     "ma_hs": "94018000",
+     "mo_ta": "Thiết bị an toàn cho trẻ em dùng trên ô tô",
+     "nhom": "I.1",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "1"
+    },
+    {
+     "ma_hs": "94017990",
+     "mo_ta": "Thiết bị an toàn cho trẻ em (khác)",
+     "nhom": "I.1",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "1"
+    },
+    {
+     "ma_hs": "94017100",
+     "mo_ta": "Thiết bị an toàn cho trẻ em (ghế)",
+     "nhom": "I.1",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "1"
+    },
+    {
+     "ma_hs": "70091000",
+     "mo_ta": "Gương dùng cho xe ô tô; gương chiếu hậu dùng cho xe mô tô, xe gắn máy",
+     "nhom": "II.1-2",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "1"
+    },
+    {
+     "ma_hs": "87141050",
+     "mo_ta": "Vành bánh xe mô tô, xe gắn máy",
+     "nhom": "II.3",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "2"
+    },
+    {
+     "ma_hs": "870870",
+     "mo_ta": "Vành hợp kim nhẹ dùng cho xe ô tô",
+     "nhom": "II.4",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "2"
+    },
+    {
+     "ma_hs": "851220",
+     "mo_ta": "Đèn chiếu sáng phía trước của phương tiện giao thông cơ giới đường bộ (Trừ xe bốn bánh có gắn động cơ)",
+     "nhom": "II.5",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "dieu_kien": "Trừ xe bốn bánh có gắn động cơ",
+     "trang": "3"
+    },
+    {
+     "ma_hs": "87141030",
+     "mo_ta": "Khung xe mô tô, xe gắn máy",
+     "nhom": "II.6",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "3"
+    },
+    {
+     "ma_hs": "870822",
+     "mo_ta": "Kính an toàn của xe ô tô",
+     "nhom": "II.7",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "3"
+    },
+    {
+     "ma_hs": "8407",
+     "mo_ta": "Động cơ xe mô tô, xe gắn máy",
+     "nhom": "II.8",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "8501",
+     "mo_ta": "Động cơ sử dụng cho xe mô tô điện, xe gắn máy điện",
+     "nhom": "II.9",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "86011000",
+     "mo_ta": "Đầu máy chạy điện từ nguồn điện cấp từ bên ngoài hoặc ắc quy",
+     "nhom": "III.1",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "86012000",
+     "mo_ta": "Đầu máy có hệ thống truyền động sử dụng điện áp cao từ mạng lưới hoặc sử dụng hệ thống ắc quy công suất lớn (Pin Lithium-ion)",
+     "nhom": "III.1",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "8603",
+     "mo_ta": "Toa xe đường sắt đô thị",
+     "nhom": "III.2",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "86040000",
+     "mo_ta": "Phương tiện chuyên dùng: goòng máy; ô tô ray; cần trục đường sắt; máy chèn đường; máy kiểm tra đường; phương tiện khác dùng để phục vụ cứu việc, thi công, bảo dưỡng, sửa chữa, kiểm tra đường sắt",
+     "nhom": "III.3",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "86050000",
+     "mo_ta": "Toa xe hành lý; toa xe bưu vụ; toa xe hàng ăn; toa xe hàng và toa goòng không tự hành",
+     "nhom": "III.4-5,10",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "8606",
+     "mo_ta": "Toa xe hàng và toa goòng không tự hành",
+     "nhom": "III.5",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "86071100",
+     "mo_ta": "Giá chuyển hướng - Bộ phận chạy của đầu máy, toa xe, được cấu thành từ khung giá, bộ trục bánh xe, hệ thống treo và hệ thống hãm",
+     "nhom": "III.6",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "86071200",
+     "mo_ta": "Giá chuyển hướng - Bộ phận chạy của đầu máy, toa xe (khác)",
+     "nhom": "III.6",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "86072100",
+     "mo_ta": "Van phân phối đầu máy - Thiết bị điều khiển khí nén, dùng để điều khiển hãm của đầu máy hoặc toa xe",
+     "nhom": "III.7",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "86073000",
+     "mo_ta": "Bộ móc nối, đỡ đấm - Cụm chi tiết cơ khí liên kết các toa xe thành đoàn tàu, truyền lực kéo và hấp thụ các xung lực va đập",
+     "nhom": "III.8",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "8602",
+     "mo_ta": "Đầu máy điezel",
+     "nhom": "III.9",
+     "phu_luc": "Phụ lục II",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "6"
     }
    ]
   }
