@@ -1,0 +1,4 @@
+# Kết luận đối chiếu mã HS của HÀNG THẬT (hs-code-api /api/demand) với danh mục KTCN 2026.
+# Mỗi dòng: mã 4/6/8 số · ket_luan KHONG_THUOC_DIEN | DA_BO_SUNG_BANG · can_cu (văn bản/phụ lục đã xem) · ngày · ghi chú.
+# tools/diem-mu.mjs bỏ mã có ở đây khỏi nhóm "Mã HS có hàng thật chưa đối chiếu KTCN 2026".
+ma_hs,ket_luan,can_cu,ngay,ghi_chu

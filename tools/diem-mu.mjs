@@ -48,10 +48,30 @@ export function docHangThat(root = ROOT) {
   try { return JSON.parse(readFileSync(p, 'utf8')); } catch { return null; }
 }
 
+/**
+ * Kết luận đối chiếu của người (doi-chieu/hang-that.csv: ma_hs,ket_luan,can_cu,ngay,ghi_chu) —
+ * mã đã đối chiếu KHÔNG thuộc diện (hoặc đã xử lý) thì không đưa lại vào điểm mù.
+ */
+export function docDoiChieu(root = ROOT) {
+  const p = join(root, 'doi-chieu', 'hang-that.csv');
+  if (!existsSync(p)) return new Map();
+  const lines = readFileSync(p, 'utf8').split(/\r?\n/).filter((l) => l.trim() && !l.startsWith('#'));
+  const head = (lines.shift() || '').split(',').map((h) => h.trim());
+  const iMa = head.indexOf('ma_hs');
+  const iKl = head.indexOf('ket_luan');
+  const out = new Map();
+  for (const l of lines) {
+    const c = l.split(',');
+    const ma = (c[iMa] || '').trim();
+    if (/^\d{4,8}$/.test(ma)) out.set(ma, (c[iKl] || '').trim());
+  }
+  return out;
+}
+
 /** Văn bản danh mục thuộc khung KTCN 2026 (nhánh kiểm tra chuyên ngành, hiệu lực từ 01/7/2026). */
 const laKtcn2026 = (d) => (d.nhanh || []).some((n) => n.startsWith('kiem-tra-chuyen-nganh')) && String(d.hieu_luc_tu || '') >= '2026-07-01';
 
-export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCau(root), bieuThue = docBieuThue(root), hangThat = docHangThat(root) } = {}) {
+export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCau(root), bieuThue = docBieuThue(root), hangThat = docHangThat(root), ketLuan = docDoiChieu(root) } = {}) {
   const ds = [];
   // trongSo: xếp trong cùng nhóm (vd số mã HS chịu ảnh hưởng) — lớn trước.
   const add = (ma, muc, tieuDe, muc_tieu, viec, luong, trongSo = 0) => ds.push({ ma, muc, tieuDe, muc_tieu, viec, luong, trongSo });
@@ -209,20 +229,37 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
   // D-HT — HÀNG THẬT (hs-code-api /api/demand): mã HS của món hàng thật chưa có dòng nào trong bảng
   // danh mục KTCN 2026 đã trích. Bảng đã trích có mã (hoặc tiền tố 4/6 số) phủ mã đó → việc tự biến mất.
   if (hangThat?.maHs?.length) {
+    // Bảng KTCN 2026 hợp lệ: mã đã phủ + bảng nào có dòng CÙNG NHÓM 4 số (gợi ý đúng chỗ cần đối chiếu).
     const phu = [];
+    const theoNhom = new Map();
     for (const it of bangDm) {
       if (!laKtcn2026(it.vanBan) || kiemDinhDang(it).length) continue;
-      for (const o of it.dong) if (o.ma_hs) phu.push(o.ma_hs);
+      for (const o of it.dong) {
+        if (!o.ma_hs) continue;
+        phu.push(o.ma_hs);
+        const n4 = o.ma_hs.slice(0, 4);
+        if (!theoNhom.has(n4)) theoNhom.set(n4, new Set());
+        theoNhom.get(n4).add(it.vanBan.so_hieu);
+      }
     }
     const trongSo = { Cao: 3, 'Vừa': 2, 'Thấp': 1 };
-    const chuaTrich = so.vanBan.filter((d) => laKtcn2026(d) && laVanBanDanhMuc(d) && !daCoBang.has(khoa(d.so_hieu))).map((d) => d.so_hieu);
     for (const x of hangThat.maHs) {
       if (phu.some((p) => x.hs.startsWith(p))) continue;
+      if (ketLuan.has(x.hs) || ketLuan.has(x.hs.slice(0, 6)) || ketLuan.has(x.hs.slice(0, 4))) continue;
       const muc = x.uuTien === 'Cao' ? MUC.CAO : x.uuTien === 'Vừa' ? MUC.VUA : MUC.THAP;
       const dan = x.vanBanDangDan?.length ? ` Biểu thuế đang dẫn: ${x.vanBanDangDan.join(', ')}.` : '';
+      const lienQuan = [...(theoNhom.get(x.hs.slice(0, 4)) || [])];
+      const goiY = lienQuan.length
+        ? `Bảng KTCN 2026 có dòng cùng nhóm ${x.hs.slice(0, 4)}: ${lienQuan.join(', ')} — mở bản gốc đối chiếu xem mã ${x.hs} có bị trích sót không.`
+        : `Chưa bảng KTCN 2026 nào có dòng nhóm ${x.hs.slice(0, 4)} — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục.`;
       add('HANG_THAT_CHUA_DOI_CHIEU_KTCN', muc, `Hàng thật mã ${x.hs} chưa đối chiếu danh mục KTCN 2026`, x.hs,
-        `Món hàng thật (OZ, gặp gần nhất ${x.gapGanNhat || '?'}) mang mã ${x.hs} nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này — hs-code-api chưa biết có phải công bố hợp quy / kiểm tra hay không.${dan} Tìm mã (hoặc tiền tố 4/6 số) trong phụ lục ${chuaTrich.slice(0, 6).join(', ') || 'các danh mục KTCN 2026'} rồi trích theo docs/luoc-do-danh-muc-hs.md.`,
-        'danh-muc-hs', (trongSo[x.uuTien] || 0) * 1000);
+        `Món hàng thật (OZ, gặp gần nhất ${x.gapGanNhat || '?'}) mang mã ${x.hs} nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này.${dan} ${goiY} Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.`,
+        'danh-muc-hs', (trongSo[x.uuTien] || 0) * 1000 + (lienQuan.length ? 500 : 0));
+    }
+    // Bản chụp hàng thật quá cũ (API lỗi nhiều tuần) → báo, đừng im lặng dùng dữ liệu cũ.
+    if (hangThat.ngay && hangThat.ngay < cong(today, -14)) {
+      add('HANG_THAT_CU', MUC.VUA, `Nhu cầu hàng thật đã cũ (${hangThat.ngay})`, 'nhu-cau/hang-that.json',
+        `Chưa kéo được ${'/api/demand'} của hs-code-api hơn 14 ngày. Kiểm workflow bao-cao-tuan và https://hs-kb.uythacnhapkhau.com/api/demand.`, 'diem-mu');
     }
   }
 
@@ -276,6 +313,7 @@ const TEN_MA = {
   DANH_MUC_CHUA_TRICH: 'Văn bản danh mục chưa trích bảng mã HS', HS_KHONG_TON_TAI: 'Mã HS trong bảng không có trong biểu thuế',
   DAN_CHIEU_CHUA_CO_BANG: 'Bảng dẫn chiếu mã HS sang văn bản chưa có bảng',
   HANG_THAT_CHUA_DOI_CHIEU_KTCN: 'Mã HS có hàng thật chưa đối chiếu KTCN 2026 (hs-code-api /api/demand)',
+  HANG_THAT_CU: 'Nhu cầu hàng thật đã cũ',
 };
 
 export function veMarkdown(ds, { today = homNay(), gioiHan = 40 } = {}) {
