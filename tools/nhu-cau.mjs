@@ -64,33 +64,17 @@ export function rutGonNhuCau(bench, nguon = URL_BENCH) {
 if (import.meta.url === `file://${process.argv[1]}`) {
   const i = process.argv.indexOf('--from');
   const from = i >= 0 ? process.argv[i + 1] : null;
-  let bench;
-  if (from) bench = JSON.parse(readFileSync(from, 'utf8'));
-  else {
-    const res = await fetch(URL_BENCH);
-    if (!res.ok) throw new Error(`HTTP ${res.status} khi tải ${URL_BENCH}`);
-    bench = await res.json();
-  }
-  const out = rutGonNhuCau(bench, from || URL_BENCH);
+  const layJson = async (url) => {
+    const res = await fetch(url, { signal: AbortSignal.timeout(60000) });
+    if (!res.ok) throw new Error(`HTTP ${res.status} khi tải ${url}`);
+    return res.json();
+  };
   mkdirSync(join(ROOT, 'nhu-cau'), { recursive: true });
-  writeFileSync(join(ROOT, TEP_NHU_CAU), JSON.stringify(out, null, 1) + '\n');
-  console.log(`${out.vanBanDuocDan.length} văn bản biểu thuế dẫn · ${out.thuVienLech.length} lệch thư viện → ${TEP_NHU_CAU}`);
 
-  const j = process.argv.indexOf('--bieu-thue');
-  const fromBt = j >= 0 ? process.argv[j + 1] : null;
-  let tax;
-  if (fromBt) tax = JSON.parse(readFileSync(fromBt, 'utf8'));
-  else if (!from) {
-    const res = await fetch(URL_BIEU_THUE);
-    if (!res.ok) throw new Error(`HTTP ${res.status} khi tải ${URL_BIEU_THUE}`);
-    tax = await res.json();
-  }
-  // Hàng thật: lỗi mạng không chặn — giữ bản đã commit lần trước.
+  // Hàng thật chạy TRƯỚC và độc lập: bước khác lỗi mạng không kéo theo (review 05/10/2026).
   if (!from) {
     try {
-      const res = await fetch(URL_HANG_THAT);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const ht = rutGonHangThat(await res.json());
+      const ht = rutGonHangThat(await layJson(URL_HANG_THAT));
       writeFileSync(join(ROOT, TEP_HANG_THAT), JSON.stringify(ht, null, 1) + '\n');
       console.log(`${ht.maHs.length} mã HS hàng thật chờ đối chiếu KTCN 2026 → ${TEP_HANG_THAT}`);
     } catch (e) {
@@ -98,9 +82,26 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     }
   }
 
-  if (tax) {
-    const bt = rutGonBieuThue(tax, fromBt || URL_BIEU_THUE, bench.ngay || null);
-    writeFileSync(join(ROOT, TEP_BIEU_THUE), JSON.stringify(bt) + '\n');
-    console.log(`${bt.tong} dòng thuế 8 số → ${TEP_BIEU_THUE}`);
+  let bench = null;
+  try {
+    bench = from ? JSON.parse(readFileSync(from, 'utf8')) : await layJson(URL_BENCH);
+    const out = rutGonNhuCau(bench, from || URL_BENCH);
+    writeFileSync(join(ROOT, TEP_NHU_CAU), JSON.stringify(out, null, 1) + '\n');
+    console.log(`${out.vanBanDuocDan.length} văn bản biểu thuế dẫn · ${out.thuVienLech.length} lệch thư viện → ${TEP_NHU_CAU}`);
+  } catch (e) {
+    console.warn(`::warning::Không cập nhật được bản đo (${e.message}) — giữ ${TEP_NHU_CAU} cũ`);
+  }
+
+  const j = process.argv.indexOf('--bieu-thue');
+  const fromBt = j >= 0 ? process.argv[j + 1] : null;
+  try {
+    const tax = fromBt ? JSON.parse(readFileSync(fromBt, 'utf8')) : (!from ? await layJson(URL_BIEU_THUE) : null);
+    if (tax) {
+      const bt = rutGonBieuThue(tax, fromBt || URL_BIEU_THUE, bench?.ngay || null);
+      writeFileSync(join(ROOT, TEP_BIEU_THUE), JSON.stringify(bt) + '\n');
+      console.log(`${bt.tong} dòng thuế 8 số → ${TEP_BIEU_THUE}`);
+    }
+  } catch (e) {
+    console.warn(`::warning::Không cập nhật được biểu thuế (${e.message}) — giữ ${TEP_BIEU_THUE} cũ`);
   }
 }

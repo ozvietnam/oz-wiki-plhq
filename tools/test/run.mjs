@@ -170,7 +170,14 @@ const ht = rutGonHangThat({ generatedAt: '2026-10-05T00:00:00Z', since: '2026-07
 ] });
 t('hàng thật: rút gọn giữ mã 8 số + mức hợp lệ', ht.maHs.length === 2 && ht.maHs[0].vanBanDangDan[0] === '42/2019/TT-BCT');
 const dht = timDiemMu(so6, { today: '2026-10-05', root: r6, nhuCau: null, hangThat: ht }).filter((d) => d.ma === 'HANG_THAT_CHUA_DOI_CHIEU_KTCN');
-t('hàng thật: mã chưa phủ → điểm mù mức Cao, gợi văn bản danh mục KTCN 2026 chưa trích', dht.some((d) => d.muc_tieu === '85366932' && d.muc === 'Cao' && /51\/2026\/TT-BYT/.test(d.viec)), JSON.stringify(dht));
+t('hàng thật: mã chưa phủ → điểm mù mức Cao, hướng dẫn ghi kết luận để tự đóng', dht.some((d) => d.muc_tieu === '85366932' && d.muc === 'Cao' && /doi-chieu\/hang-that\.csv/.test(d.viec)), JSON.stringify(dht));
+const ht2 = { ...ht, maHs: [...ht.maHs, { hs: '22030099', uuTien: 'Thấp', vanBanDangDan: [], gapGanNhat: '2026-10-05' }] };
+const dht2 = timDiemMu(so6, { today: '2026-10-05', root: r6, nhuCau: null, hangThat: ht2, ketLuan: new Map() }).filter((d) => d.ma === 'HANG_THAT_CHUA_DOI_CHIEU_KTCN');
+t('hàng thật: bảng KTCN 2026 có dòng cùng nhóm 4 số → gợi đúng bảng đó (nghi trích sót)', dht2.some((d) => d.muc_tieu === '22030099' && /50\/2026\/TT-BCT/.test(d.viec)), JSON.stringify(dht2.map((d) => d.viec)));
+const dht3 = timDiemMu(so6, { today: '2026-10-05', root: r6, nhuCau: null, hangThat: ht, ketLuan: new Map([['85366932', 'KHONG_THUOC_DIEN']]) }).filter((d) => d.ma === 'HANG_THAT_CHUA_DOI_CHIEU_KTCN');
+t('hàng thật: đã ghi kết luận đối chiếu → việc tự đóng', !dht3.some((d) => d.muc_tieu === '85366932'));
+const htCu = timDiemMu(so6, { today: '2026-11-30', root: r6, nhuCau: null, hangThat: ht, ketLuan: new Map() });
+t('hàng thật: bản chụp >14 ngày → báo cũ', htCu.some((d) => d.ma === 'HANG_THAT_CU'));
 t('hàng thật: mã đã có trong bảng KTCN 2026 (22030091) → không báo', !dht.some((d) => d.muc_tieu === '22030091'));
 t('không có hàng thật → không sinh việc', !timDiemMu(so6, { today: '2026-10-05', root: r6, nhuCau: null, hangThat: null }).some((d) => d.ma === 'HANG_THAT_CHUA_DOI_CHIEU_KTCN'));
 
