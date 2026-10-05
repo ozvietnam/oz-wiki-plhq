@@ -21,6 +21,8 @@ nguon:
     truy_cap: '2026-10-04'
   - url: https://thuvienphapluat.vn/van-ban/xuat-nhap-khau/thong-tu-15-2024-tt-byt-danh-muc-thuc-pham-phu-gia-thuc-pham-duoc-xac-dinh-ma-so-hang-hoa-625177.aspx
     truy_cap: '2026-07-02'
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-15-2024-tt-byt-44656/55863.htm
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 186
 xac_minh:
   muc: NGUON_A
@@ -36,3 +38,4 @@ danh_muc_hs:
   ngay: '2026-10-04'
   da_doi_chieu: false
   ghi_chu: 'Danh mục trang 5–56 PDF (trang 38–89 Công báo). 398 STT → 447 dòng (11 nhóm INS gộp ô mã HS tách mỗi chỉ số một dòng; ô nhiều mã cách ";" tách mỗi mã một dòng); mo_ta = "INS <số>: <tên>"; phần III ghi kèm vật liệu. I.1 "Thực phẩm bổ sung" không ghi mã — dẫn chiếu 31/2022/TT-BTC (6 quy tắc GIR). Hai mã IN TRONG VĂN BẢN không có trong biểu thuế hiện hành, giữ nguyên văn: 28232600 (II.269 INS 542, gần như chắc là 2835.26.00) và 39072090 (II.378 INS 1521, mã HS 2017; nay là 3907.29.90).'
+toan_van: raw/download/congbaocdn.chinhphu.vn/15-2024-tt-byt.pdf
