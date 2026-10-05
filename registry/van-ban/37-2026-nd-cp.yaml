@@ -7,43 +7,41 @@ ngay_ban_hanh: '2026-01-23'
 hieu_luc_tu: '2026-01-23'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-- kiem-tra-chuyen-nganh/khung-chat-luong
-- kiem-tra-chuyen-nganh/nhan-hang-hoa
+  - kiem-tra-chuyen-nganh/khung-chat-luong
+  - kiem-tra-chuyen-nganh/nhan-hang-hoa
 quan_he:
   huong_dan:
-  - 05/2007/QH12
+    - 05/2007/QH12
   bai_bo:
-  - so_hieu: 132/2008/NĐ-CP
-    tu_ngay: '2026-07-01'
-    can_cu: Điều 97 khoản 2 điểm a
-  - so_hieu: 74/2018/NĐ-CP
-    tu_ngay: '2026-07-01'
-    can_cu: Điều 97 khoản 2 điểm b
-  - so_hieu: 154/2018/NĐ-CP
-    pham_vi: Điều 4
-    tu_ngay: '2026-07-01'
-    can_cu: Điều 97 khoản 2 điểm c
-  - so_hieu: 13/2022/NĐ-CP
-    tu_ngay: '2026-07-01'
-    can_cu: Điều 97 khoản 2 điểm d (riêng khoản 3–7 Điều 1 từ 23/01/2026, Điều 97 khoản 4 điểm a)
-  - so_hieu: 43/2017/NĐ-CP
-    tu_ngay: '2026-01-23'
-    can_cu: Điều 97 khoản 4 điểm b
-  - so_hieu: 111/2021/NĐ-CP
-    tu_ngay: '2026-01-23'
-    can_cu: Điều 97 khoản 4 điểm c
+    - so_hieu: 132/2008/NĐ-CP
+      tu_ngay: '2026-07-01'
+      can_cu: Điều 97 khoản 2 điểm a
+    - so_hieu: 74/2018/NĐ-CP
+      tu_ngay: '2026-07-01'
+      can_cu: Điều 97 khoản 2 điểm b
+    - so_hieu: 154/2018/NĐ-CP
+      pham_vi: Điều 4
+      tu_ngay: '2026-07-01'
+      can_cu: Điều 97 khoản 2 điểm c
+    - so_hieu: 13/2022/NĐ-CP
+      tu_ngay: '2026-07-01'
+      can_cu: Điều 97 khoản 2 điểm d (riêng khoản 3–7 Điều 1 từ 23/01/2026, Điều 97 khoản 4 điểm a)
+    - so_hieu: 43/2017/NĐ-CP
+      tu_ngay: '2026-01-23'
+      can_cu: Điều 97 khoản 4 điểm b
+    - so_hieu: 111/2021/NĐ-CP
+      tu_ngay: '2026-01-23'
+      can_cu: Điều 97 khoản 4 điểm c
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, trích yếu, ngày ban hành 23-01-2026 và hiệu lực 23-01-2026 trên vanban.chinhphu.vn; người ký Nguyễn Chí
-    Dũng
+  pham_vi: số hiệu, trích yếu, ngày ban hành 23-01-2026 và hiệu lực 23-01-2026 trên vanban.chinhphu.vn; người ký Nguyễn Chí Dũng
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: Bỏ "nhóm 1/nhóm 2"; từ 01/7/2026 chia rủi ro thấp/trung bình/cao (Điều 82, 83). Bài tổng hợp KTCN 2026 (nguồn thứ
-  cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
+ghi_chu: Bỏ "nhóm 1/nhóm 2"; từ 01/7/2026 chia rủi ro thấp/trung bình/cao (Điều 82, 83). Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
 nguon:
-- url: https://vanban.chinhphu.vn/?docid=216764&pageid=27160
-  truy_cap: '2026-10-04'
-- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/37-1.signed.pdf
-  truy_cap: '2026-10-04'
+  - url: https://vanban.chinhphu.vn/?docid=216764&pageid=27160
+    truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/37-1.signed.pdf
+    truy_cap: '2026-10-04'
 toan_van: raw/download/datafiles.chinhphu.vn/37-2026-nd-cp.pdf

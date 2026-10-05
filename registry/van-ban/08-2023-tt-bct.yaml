@@ -1,21 +1,20 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 08/2023/TT-BCT
 loai: THONG_TU
-ten: Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm
-  theo một số Thông tư của Bộ trưởng Bộ Công Thương
+ten: Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương
 co_quan: BCT
 ngay_ban_hanh: '2023-03-31'
 hieu_luc_tu: '2023-05-16'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-- quan-ly-ngoai-thuong/giay-phep
+  - quan-ly-ngoai-thuong/giay-phep
 nguon:
-- url: https://vanban.chinhphu.vn/?classid=1&docid=207706&orggroupid=4&pageid=27160
-  truy_cap: '2026-10-04'
-- url: https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=160072
-  truy_cap: '2026-07-02'
-- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/4/03-bct.signed.pdf
-  truy_cap: '2026-10-04'
+  - url: https://vanban.chinhphu.vn/?classid=1&docid=207706&orggroupid=4&pageid=27160
+    truy_cap: '2026-10-04'
+  - url: https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=160072
+    truy_cap: '2026-07-02'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/4/03-bct.signed.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 1964
 xac_minh:
   muc: NGUON_A
@@ -24,6 +23,5 @@ xac_minh:
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
   canh_bao: TT 48/2026/TT-BCT Điều 20 khoản 3 điểm c (PDF Công báo số 521 ngày 23-09-2026) bãi bỏ khoản 1 Điều 1 và Phụ lục I của văn bản này từ 05-09-2026; Điều 21 khoản 3 cho Phụ lục I (danh mục thiết bị y tế đã qua sử dụng cấm nhập khẩu) tiếp tục thực hiện đến hết 31-12-2026. Các khoản khác còn lại — chưa đổi tinh_trang sang HET_HIEU_LUC_MOT_PHAN; cần rà phần còn lại (và văn bản khác) rồi quyết định.
-ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1964 mã HS). Tiêu
-  đề đã đối chiếu (vbpl.vn).
+ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1964 mã HS). Tiêu đề đã đối chiếu (vbpl.vn). Tệp trên datafiles.chinhphu.vn mang tên 03-bct.signed.pdf nhưng gắn tại trang vanban.chinhphu.vn docid=207706 (trích yếu Thông tư 08/2023/TT-BCT). PDF ký số dạng ảnh, chưa OCR.
 toan_van: raw/download/datafiles.chinhphu.vn/08-2023-tt-bct.pdf
