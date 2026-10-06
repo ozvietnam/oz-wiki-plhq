@@ -8,6 +8,9 @@ key_sources: []
 related_concepts:
   - muc-do-rui-ro-hang-hoa
   - kiem-tra-nha-nuoc-an-toan-thuc-pham
+  - nhan-hang-hoa-nhap-khau
+  - thu-tuc-hai-quan-xnk
+  - thue-gtgt-hang-nhap-khau
 confidence: medium
 tags: [phuong-phap, hieu-luc]
 ---
@@ -34,10 +37,14 @@ Căn cứ xác định hiệu lực thường nằm ở **điều khoản thi h�
 
 - [[concepts/muc-do-rui-ro-hang-hoa]]
 - [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]]
+- [[concepts/nhan-hang-hoa-nhap-khau]] — ví dụ bãi bỏ khung nhãn cũ.
+- [[concepts/thu-tuc-hai-quan-xnk]] — ví dụ sửa đổi thông tư và thay thế một cửa.
+- [[concepts/thue-gtgt-hang-nhap-khau]] — ví dụ `het_hieu_luc_tu` có ngày cụ thể trên sổ.
 
 ## Mentioned in
 
 - [[summary/khung-kiem-tra-chuyen-nganh-2026]]
+- [[summary/khung-thu-tuc-hai-quan]]
 
 ## Notes
 
