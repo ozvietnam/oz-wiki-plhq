@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-09",
-  "tong": 534,
+  "tong": 564,
   "diem": [
     {
       "ma": "THIEU_NGUON_AHTN",
@@ -18,33 +18,6 @@
       "muc_tieu": "WCO-COMPENDIUM",
       "viec": "Sếp chỉ định: (a) mua bản chính thức, (b) tải từng Classification Opinion mới nhất từ wcoomd.org (~50 opinions/session, 2 session/năm), hoặc (c) chấp nhận dùng TB-TCHQ thay thế.",
       "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "THIEU_VAN_BAN",
-      "muc": "Cao",
-      "tieuDe": "Chưa có trong sổ: 76-VBHN/VPQH",
-      "muc_tieu": "76-VBHN/VPQH",
-      "viec": "Tạo registry/van-ban/ cho 76-VBHN/VPQH (được nhắc bởi 105/2016/QH13 (hop_nhat)). Dùng: node tools/them-van-ban.mjs \"76-VBHN/VPQH\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
-    },
-    {
-      "ma": "THIEU_VAN_BAN",
-      "muc": "Cao",
-      "tieuDe": "Chưa có trong sổ: 14/2018/TT-BYT",
-      "muc_tieu": "14/2018/TT-BYT",
-      "viec": "Tạo registry/van-ban/ cho 14/2018/TT-BYT (được nhắc bởi 19/2024/TT-BYT (thay_the)). Dùng: node tools/them-van-ban.mjs \"14/2018/TT-BYT\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
-    },
-    {
-      "ma": "THIEU_VAN_BAN",
-      "muc": "Cao",
-      "tieuDe": "Chưa có trong sổ: 59/2025/TT-BYT",
-      "muc_tieu": "59/2025/TT-BYT",
-      "viec": "Tạo registry/van-ban/ cho 59/2025/TT-BYT (được nhắc bởi 24/2026/TT-BYT (bai_bo)). Dùng: node tools/them-van-ban.mjs \"59/2025/TT-BYT\"",
-      "luong": "he-thong-hoa",
       "trongSo": 0
     },
     {
@@ -993,6 +966,24 @@
       "trongSo": 0
     },
     {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "14/2018/TT-BYT: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
+      "muc_tieu": "14/2018/TT-BYT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "14/2018/TT-BYT: chưa có toàn văn trong raw/",
+      "muc_tieu": "14/2018/TT-BYT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"14/2018/TT-BYT\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "1400/QĐ-BCT: chưa có nguồn chính thống",
@@ -1380,17 +1371,8 @@
       "trongSo": 0
     },
     {
-      "ma": "MAU_THUAN_HIEU_LUC",
-      "muc": "Cao",
-      "tieuDe": "2105/QĐ-BCT còn ghi \"còn hiệu lực\" nhưng đã bị bãi bỏ bởi 1309/QĐ-BCT",
-      "muc_tieu": "2105/QĐ-BCT",
-      "viec": "Đối chiếu nguồn A rồi sửa tinh_trang/het_hieu_luc_tu trong registry/van-ban/2105-qd-bct-2025.yaml, hoặc sửa quan hệ ở văn bản 1309/QĐ-BCT nếu sai.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
+      "muc": "Thấp",
       "tieuDe": "2105/QĐ-BCT: chưa có nguồn chính thống",
       "muc_tieu": "2105/QĐ-BCT",
       "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
@@ -1409,19 +1391,10 @@
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
-      "tieuDe": "2105/QĐ-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "tieuDe": "2105/QĐ-BCT: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "2105/QĐ-BCT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "2105/QĐ-BCT: chưa có toàn văn trong raw/",
-      "muc_tieu": "2105/QĐ-BCT",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"2105/QĐ-BCT\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -1476,15 +1449,6 @@
       "muc_tieu": "22/2018/TT-BTTTT",
       "viec": "Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.",
       "luong": "do-tham",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "22/2026/TT-BNNMT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "22/2026/TT-BNNMT",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
       "trongSo": 0
     },
     {
@@ -2003,15 +1967,6 @@
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
-      "tieuDe": "328/QĐ-TTg: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
-      "muc_tieu": "328/QĐ-TTg",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
       "tieuDe": "33/2014/TT-BNNPTNT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "33/2014/TT-BNNPTNT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
@@ -2295,24 +2250,6 @@
       "muc_tieu": "38/2019/QH14",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "39/2015/TT-BTC: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "39/2015/TT-BTC",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "39/2015/TT-BTC: chưa có toàn văn trong raw/",
-      "muc_tieu": "39/2015/TT-BTC",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"39/2015/TT-BTC\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -2759,6 +2696,24 @@
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
+      "tieuDe": "59/2025/TT-BYT: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
+      "muc_tieu": "59/2025/TT-BYT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "59/2025/TT-BYT: chưa có toàn văn trong raw/",
+      "muc_tieu": "59/2025/TT-BYT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"59/2025/TT-BYT\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
       "tieuDe": "60/2019/TT-BTC: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "60/2019/TT-BTC",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
@@ -2928,6 +2883,24 @@
       "trongSo": 0
     },
     {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "76-VBHN/VPQH: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
+      "muc_tieu": "76-VBHN/VPQH",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "76-VBHN/VPQH: chưa có toàn văn trong raw/",
+      "muc_tieu": "76-VBHN/VPQH",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"76-VBHN/VPQH\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
       "ma": "CANH_BAO_NGUON",
       "muc": "Cao",
       "tieuDe": "765/QĐ-BCT: datafiles.chinhphu.vn/cpp/files/vbpq/2019/06/765.signed.pdf (đã nạp nhầm vào raw/download/datafiles.chinhphu.vn/765-qd-bct.pdf) thực chất là 765/QĐ-TTg về Hội đồng Quốc gia Giáo dục — không dùng làm toàn văn 765/QĐ-BCT.",
@@ -3006,15 +2979,6 @@
       "muc_tieu": "8378/QĐ-BCA",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"8378/QĐ-BCA\" --ghi",
       "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
-      "ma": "SAP_HET_HIEU_LUC",
-      "muc": "Cao",
-      "tieuDe": "85/2019/NĐ-CP hết hiệu lực ngày 2026-10-15",
-      "muc_tieu": "85/2019/NĐ-CP",
-      "viec": "Tới ngày thì chuyển tinh_trang; rà mọi trang wiki và văn bản đang dẫn chiếu 85/2019/NĐ-CP.",
-      "luong": "hieu-luc",
       "trongSo": 0
     },
     {
@@ -3182,9 +3146,126 @@
     {
       "ma": "WIKI_NHAC_CHUA_DANG_KY",
       "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 121/QĐ-TTg nhưng sổ chưa có",
+      "muc_tieu": "121/QĐ-TTg",
+      "viec": "Thêm vào sổ (wiki/concepts/cptpp.md, wiki/sources/127-qd-ttg-2026.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 35/2019/NĐ-CP nhưng sổ chưa có",
+      "muc_tieu": "35/2019/NĐ-CP",
+      "viec": "Thêm vào sổ (wiki/concepts/dong-vat-hoang-da-nguy-cap.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
       "tieuDe": "Wiki nhắc 31/2025/TT-BYT nhưng sổ chưa có",
       "muc_tieu": "31/2025/TT-BYT",
       "viec": "Thêm vào sổ (wiki/concepts/duoc-lieu-theo-luat-duoc-2016.md, wiki/summary/luat-duoc-va-phan-loai-hs.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 1201/QĐ-TTg nhưng sổ chưa có",
+      "muc_tieu": "1201/QĐ-TTg",
+      "viec": "Thêm vào sổ (wiki/concepts/evfta.md, wiki/sources/126-qd-ttg-2026.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 169/2016/TT-BTC nhưng sổ chưa có",
+      "muc_tieu": "169/2016/TT-BTC",
+      "viec": "Thêm vào sổ (wiki/concepts/giay-phep-xuat-nhap-khau-mat-ma.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 105/2022/NĐ-CP nhưng sổ chưa có",
+      "muc_tieu": "105/2022/NĐ-CP",
+      "viec": "Thêm vào sổ (wiki/concepts/go-rung.md, wiki/sources/17-2023-tt-bnnptnt.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 18/2019/QĐ-TTg nhưng sổ chưa có",
+      "muc_tieu": "18/2019/QĐ-TTg",
+      "viec": "Thêm vào sổ (wiki/concepts/hang-cu-cam-nhap-khau.md, wiki/sources/48-2026-tt-bct.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 09/2024/QĐ-TTg nhưng sổ chưa có",
+      "muc_tieu": "09/2024/QĐ-TTg",
+      "viec": "Thêm vào sổ (wiki/concepts/hang-cu-cam-nhap-khau.md, wiki/sources/48-2026-tt-bct.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 14/2018/NĐ-CP nhưng sổ chưa có",
+      "muc_tieu": "14/2018/NĐ-CP",
+      "viec": "Thêm vào sổ (wiki/concepts/hang-hoa-bien-gioi.md, wiki/sources/33-2025-tt-bct.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 05/2018/TT-BYT nhưng sổ chưa có",
+      "muc_tieu": "05/2018/TT-BYT",
+      "viec": "Thêm vào sổ (wiki/concepts/ktcl-byt-attp-2024.md, wiki/concepts/phu-gia-thuc-pham-ins.md, wiki/sources/15-2024-tt-byt.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 13/NQ-CP nhưng sổ chưa có",
+      "muc_tieu": "13/NQ-CP",
+      "viec": "Thêm vào sổ (wiki/concepts/rcep.md, wiki/sources/328-qd-ttg-2022.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 01/QĐ-TTg nhưng sổ chưa có",
+      "muc_tieu": "01/QĐ-TTg",
+      "viec": "Thêm vào sổ (wiki/concepts/rcep.md, wiki/sources/328-qd-ttg-2022.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 55/2024/QH15 nhưng sổ chưa có",
+      "muc_tieu": "55/2024/QH15",
+      "viec": "Thêm vào sổ (wiki/concepts/thiet-bi-pccc.md, wiki/sources/125-2026-tt-bca.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 21/2017/TT-BNNPTNT nhưng sổ chưa có",
+      "muc_tieu": "21/2017/TT-BNNPTNT",
+      "viec": "Thêm vào sổ (wiki/concepts/thuoc-bvtv-nhap-khau.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },
@@ -3212,6 +3293,15 @@
       "tieuDe": "Wiki nhắc 12/2025/TT-BYT nhưng sổ chưa có",
       "muc_tieu": "12/2025/TT-BYT",
       "viec": "Thêm vào sổ (wiki/readings/105-2016-qh13/03-chuong-iii-quan-ly-thuoc.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 40/2025/NĐ-CP nhưng sổ chưa có",
+      "muc_tieu": "40/2025/NĐ-CP",
+      "viec": "Thêm vào sổ (wiki/sources/07-2026-tt-bct.md, wiki/sources/33-2025-tt-bct.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },
@@ -3254,9 +3344,90 @@
     {
       "ma": "WIKI_NHAC_CHUA_DANG_KY",
       "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 149/2020/TT-BCA nhưng sổ chưa có",
+      "muc_tieu": "149/2020/TT-BCA",
+      "viec": "Thêm vào sổ (wiki/sources/125-2026-tt-bca.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 58/2020/TT-BCA nhưng sổ chưa có",
+      "muc_tieu": "58/2020/TT-BCA",
+      "viec": "Thêm vào sổ (wiki/sources/125-2026-tt-bca.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
       "tieuDe": "Wiki nhắc 31/2021/NĐ-CP nhưng sổ chưa có",
       "muc_tieu": "31/2021/NĐ-CP",
       "viec": "Thêm vào sổ (wiki/sources/163-2025-nd-cp.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 15/2020/NĐ-CP nhưng sổ chưa có",
+      "muc_tieu": "15/2020/NĐ-CP",
+      "viec": "Thêm vào sổ (wiki/sources/211-2025-nd-cp.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 07/2026/TT-BNNMT nhưng sổ chưa có",
+      "muc_tieu": "07/2026/TT-BNNMT",
+      "viec": "Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 17/2025/TT-BNNMT nhưng sổ chưa có",
+      "muc_tieu": "17/2025/TT-BNNMT",
+      "viec": "Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 11/2026/TT-BNNMT nhưng sổ chưa có",
+      "muc_tieu": "11/2026/TT-BNNMT",
+      "viec": "Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 17/2015/TT-BTNMT nhưng sổ chưa có",
+      "muc_tieu": "17/2015/TT-BTNMT",
+      "viec": "Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 04/2018/TT-BNNPTNT nhưng sổ chưa có",
+      "muc_tieu": "04/2018/TT-BNNPTNT",
+      "viec": "Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 03/2024/TT-BNNPTNT nhưng sổ chưa có",
+      "muc_tieu": "03/2024/TT-BNNPTNT",
+      "viec": "Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md, wiki/sources/27-2026-tt-bnnmt.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },
@@ -3272,9 +3443,45 @@
     {
       "ma": "WIKI_NHAC_CHUA_DANG_KY",
       "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 71/2014/QH13 nhưng sổ chưa có",
-      "muc_tieu": "71/2014/QH13",
-      "viec": "Thêm vào sổ (wiki/sources/54-2014-qh13.md, wiki/sources/54-vbhn-vpqh.md).",
+      "tieuDe": "Wiki nhắc 122/2024/NĐ-CP nhưng sổ chưa có",
+      "muc_tieu": "122/2024/NĐ-CP",
+      "viec": "Thêm vào sổ (wiki/sources/33-2025-tt-bct.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 28/2021/TT-BCT nhưng sổ chưa có",
+      "muc_tieu": "28/2021/TT-BCT",
+      "viec": "Thêm vào sổ (wiki/sources/48-2026-tt-bct.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 36/2024/QH15 nhưng sổ chưa có",
+      "muc_tieu": "36/2024/QH15",
+      "viec": "Thêm vào sổ (wiki/sources/49-2026-tt-bxd.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 118/2025/QH15 nhưng sổ chưa có",
+      "muc_tieu": "118/2025/QH15",
+      "viec": "Thêm vào sổ (wiki/sources/49-2026-tt-bxd.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 68/2006/QH11 nhưng sổ chưa có",
+      "muc_tieu": "68/2006/QH11",
+      "viec": "Thêm vào sổ (wiki/sources/49-2026-tt-bxd.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },
@@ -3283,6 +3490,51 @@
       "muc": "Vừa",
       "tieuDe": "Wiki nhắc 35/2018/QH14 nhưng sổ chưa có",
       "muc_tieu": "35/2018/QH14",
+      "viec": "Thêm vào sổ (wiki/sources/49-2026-tt-bxd.md, wiki/sources/54-2014-qh13.md, wiki/sources/54-vbhn-vpqh.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 70/2025/QH15 nhưng sổ chưa có",
+      "muc_tieu": "70/2025/QH15",
+      "viec": "Thêm vào sổ (wiki/sources/49-2026-tt-bxd.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 95/2025/QH15 nhưng sổ chưa có",
+      "muc_tieu": "95/2025/QH15",
+      "viec": "Thêm vào sổ (wiki/sources/49-2026-tt-bxd.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 22/2026/NĐ-CP nhưng sổ chưa có",
+      "muc_tieu": "22/2026/NĐ-CP",
+      "viec": "Thêm vào sổ (wiki/sources/49-2026-tt-bxd.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 33/2025/NĐ-CP nhưng sổ chưa có",
+      "muc_tieu": "33/2025/NĐ-CP",
+      "viec": "Thêm vào sổ (wiki/sources/49-2026-tt-bxd.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 71/2014/QH13 nhưng sổ chưa có",
+      "muc_tieu": "71/2014/QH13",
       "viec": "Thêm vào sổ (wiki/sources/54-2014-qh13.md, wiki/sources/54-vbhn-vpqh.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
@@ -3455,6 +3707,24 @@
       "tieuDe": "Chưa trích bảng mã HS: 4814/QĐ-BCA",
       "muc_tieu": "4814/QĐ-BCA",
       "viec": "Văn bản danh mục chưa có danh-muc/4814-qd-bca-2026.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
+      "luong": "danh-muc-hs",
+      "trongSo": 10000
+    },
+    {
+      "ma": "DANH_MUC_CHUA_TRICH",
+      "muc": "Cao",
+      "tieuDe": "Chưa trích bảng mã HS: 49-PL1/2026/TT-BXD",
+      "muc_tieu": "49-PL1/2026/TT-BXD",
+      "viec": "Văn bản danh mục chưa có danh-muc/49-2026-tt-bxd-pl1.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
+      "luong": "danh-muc-hs",
+      "trongSo": 10000
+    },
+    {
+      "ma": "DANH_MUC_CHUA_TRICH",
+      "muc": "Cao",
+      "tieuDe": "Chưa trích bảng mã HS: 49-PL2/2026/TT-BXD",
+      "muc_tieu": "49-PL2/2026/TT-BXD",
+      "viec": "Văn bản danh mục chưa có danh-muc/49-2026-tt-bxd-pl2.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
       "luong": "danh-muc-hs",
       "trongSo": 10000
     },

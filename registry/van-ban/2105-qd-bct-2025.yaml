@@ -4,9 +4,15 @@ loai: QUYET_DINH
 ten: Sửa đổi Quyết định số 1989/QĐ-BCT về kết quả rà soát lần thứ nhất việc áp dụng biện pháp chống bán phá giá và chống trợ cấp đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan
 co_quan: BCT
 ngay_ban_hanh: '2025-07-21'
-tinh_trang: CON_HIEU_LUC
+tinh_trang: HET_HIEU_LUC
+het_hieu_luc_tu: '2026-06-16'
 nhanh:
   - phong-ve-thuong-mai
+quan_he:
+  bai_bo:
+    - so_hieu: 1309/QĐ-BCT
+      tu_ngay: '2026-06-16'
+      can_cu: Điều 3 khoản 4 QĐ 1309/QĐ-BCT (kết quả rà soát cuối kỳ)
 nguon:
   - url: https://web.ts24.com.vn/support/solutions/articles/16000220115
     truy_cap: '2026-07-02'
