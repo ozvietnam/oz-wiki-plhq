@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-10-09
 
-Tổng 507 điểm: **26 cao**, 180 vừa, 301 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 509 điểm: **28 cao**, 180 vừa, 301 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -8,6 +8,8 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 |---|---|---|---|
 | Cảnh báo nguồn | Cao | 19 | `truy-vet-nguon` |
 | Được nhắc nhưng chưa có trong sổ | Cao | 2 | `he-thong-hoa` |
+| THIEU_NGUON_AHTN | Cao | 1 | `truy-vet-nguon` |
+| THIEU_NGUON_WCO_COMPENDIUM | Cao | 1 | `truy-vet-nguon` |
 | Mâu thuẫn hiệu lực | Cao | 1 | `hieu-luc` |
 | Sắp hết hiệu lực (≤60 ngày) | Cao | 1 | `hieu-luc` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 123 | `danh-muc-hs` |
@@ -50,6 +52,14 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 
 - [ ] **Chưa có trong sổ: 14/2018/TT-BYT** — Tạo registry/van-ban/ cho 14/2018/TT-BYT (được nhắc bởi 19/2024/TT-BYT (thay_the)). Dùng: node tools/them-van-ban.mjs "14/2018/TT-BYT"
 - [ ] **Chưa có trong sổ: 59/2025/TT-BYT** — Tạo registry/van-ban/ cho 59/2025/TT-BYT (được nhắc bởi 24/2026/TT-BYT (bai_bo)). Dùng: node tools/them-van-ban.mjs "59/2025/TT-BYT"
+
+## THIEU_NGUON_AHTN (1)
+
+- [ ] **AHTN 2022 (ASEAN Harmonized Tariff Nomenclature): chưa có toàn văn trong raw/download/asean.org/ — TT 85/2026/TT-BTC Điều 6.1(c) yêu cầu dùng SEN (Chú giải bổ sung) AHTN khi không xác định được mã. Hiện dùng tạm tax.json (mã 8 số VN = AHTN 8 số) thay thế.** — Sếp chỉ định: (a) mua bản PDF chính thức, (b) screenshot từ atr.asean.org bằng session browser, hoặc (c) chấp nhận dùng tax.json làm nguồn tạm thời.
+
+## THIEU_NGUON_WCO_COMPENDIUM (1)
+
+- [ ] **WCO Compendium of Classification Opinions: chưa có toàn văn trong raw/download/wco.org/ — TT 85/2026/TT-BTC Điều 6.1(b) yêu cầu dùng Tuyển tập ý kiến WCO làm nguồn ưu tiên thứ 2. Bản chính thức bán qua WCO Bookshop (~500 EUR). Hiện dùng tạm TB-TCHQ VN (LV=313) làm "Compendium VN" thay thế.** — Sếp chỉ định: (a) mua bản chính thức, (b) tải từng Classification Opinion mới nhất từ wcoomd.org (~50 opinions/session, 2 session/năm), hoặc (c) chấp nhận dùng TB-TCHQ thay thế.
 
 ## Mâu thuẫn hiệu lực (1)
 
