@@ -25,4 +25,11 @@ xac_minh:
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (2 mã HS). GHI CHÚ NGHIỆP VỤ: Vàng nguyên liệu (HS 7108.12.10; 7108.12.90) thuộc quản lý NHNN. PDF datafiles cũ là ảnh — dùng bản Công báo CDN có lớp chữ.'
+danh_muc_hs:
+  tep: danh-muc/47-2018-tt-nhnn.csv
+  nguon: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/12/28060/25176-1-201965-6647-2018-tt-nhnn.pdf
+  trich_boi: hermes-sub-agent-nhnn
+  ngay: '2026-10-09'
+  da_doi_chieu: false
+  ghi_chu: 'PDF Công báo số 65+66 (4 trang; trang VB=59). 4 dòng / 2 mã HS (7108.12.10; 7108.12.90). Mỗi mã xuất hiện 2 lần: mục I. Hàng NK + mục II. Hàng XK — cùng mô tả "vàng nguyên liệu". Loại tác động GIAY_PHEP: NHNN cấp giấy phép XNK vàng theo Điều 6 NĐ 69/2018/NĐ-CP; trừ vàng dạng bột/dung dịch/vẩy hàn/muối vàng/vàng trang sức bán thành phẩm.'
 toan_van: raw/download/congbaocdn.chinhphu.vn/47-2018-tt-nhnn.pdf
