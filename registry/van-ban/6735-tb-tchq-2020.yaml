@@ -1,0 +1,20 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 6735/TB-TCHQ
+loai: THONG_BAO
+ten: Thông báo kết quả phân loại đối với hàng hoá xuất khẩu, nhập khẩu (màng nhựa phức hợp PP/PE-VA — mã 3920.20.99)
+co_quan: TCHQ
+ngay_ban_hanh: '2020-10-19'
+hieu_luc_tu: '2020-10-19'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs/thong-bao-phan-loai
+nguon:
+  - url: https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Thong-bao-6735-TB-TCHQ-2020-ket-qua-phan-loai-doi-voi-hang-hoa-xuat-khau-nhap-khau-455913.aspx
+    truy_cap: '2026-10-04'
+xac_minh:
+  muc: NGUON_B
+  pham_vi: số hiệu, ngày, kết quả phân loại theo nguồn bậc B; chưa đối chiếu bản gốc trên customs.gov.vn
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-04'
+  boi: bc-469c3f42-high-blind-spots
+ghi_chu: Mẫu TB-TCHQ điển hình để phủ nhánh thong-bao-phan-loai. Cần nguồn A (customs.gov.vn) và kiểm tra còn được áp dụng sau Danh mục HS mới.
