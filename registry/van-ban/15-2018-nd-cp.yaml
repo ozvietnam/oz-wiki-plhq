@@ -18,9 +18,9 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, trích yếu, ngày ban hành 02-02-2018 và ngày có hiệu lực 02-02-2018 trên vanban.chinhphu.vn
+  pham_vi: 'số hiệu, trích yếu, ngày 02-02-2018, hiệu lực 02-02-2018, toàn văn OCR 59 trang'
   hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: 'Vẫn áp dụng tại 10/2026 vì NĐ 46/2026/NĐ-CP thay thế đang bị tạm ngưng. Kiểm tra ATTP: Điều 13 (09 trường hợp miễn), Điều 16, 17, 19 (03/07 ngày làm việc). Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json. PDF ký số datafiles: 59 trang, mỗi trang một ảnh, không có lớp chữ — chưa đọc điều khoản từ tệp, cần OCR.'
+  ngay: '2026-10-09'
+  boi: legal-customs@ozvietnam
+ghi_chu: 'Vẫn áp dụng tại 10/2026 vì NĐ 46/2026/NĐ-CP thay thế đang bị tạm ngưng. Đã đọc toàn văn 09/10/2026 qua OCR: 7 chương, KTCL ATTP Điều 13 (miễn), 16 (3 phương thức), 19 (3+7 ngày). VBHN 15/VBHN-VPQH ngày 23/02/2026.'
 toan_van: raw/download/datafiles.chinhphu.vn/15-2018-nd-cp.pdf
