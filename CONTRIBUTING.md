@@ -33,6 +33,39 @@ Lược đồ tệp văn bản: [docs/luoc-do-so-dang-ky.md](docs/luoc-do-so-dan
 4. **Không thông tin khách hàng, tờ khai, hợp đồng, giá cả** — kho công khai.
 5. **Lịch sự, cụ thể.** Bất đồng về cách hiểu điều luật → ghi cả hai cách hiểu kèm nguồn, để người đọc thấy.
 
+## Khi bị IP block: dùng Tor SOCKS5
+
+Nếu server `files.customs.gov.vn` (hoặc Cổng TTĐT Bộ, tỉnh) trả **504 Gateway Timeout** dài hạn → IP công ty đã bị chặn. **ĐỪNG** cào tiếp bằng IP cũ — chỉ làm nặng thêm.
+
+Hướng dẫn đầy đủ: **[docs/thu-thap/tor-fallback-khi-bi-ip-block.md](docs/thu-thap/tor-fallback-khi-bi-ip-block.md)**. Tóm tắt 5 phút:
+
+```bash
+brew install tor
+mkdir -p ~/.hermes/cache/tor-data && chmod 700 ~/.hermes/cache/tor-data
+cat > ~/.hermes/cache/tor/torrc << 'EOF'
+SocksPort 9050
+ControlPort 9051
+CookieAuthentication 1
+DataDirectory /Users/$(whoami)/.hermes/cache/tor-data
+Log notice stdout
+EOF
+/opt/homebrew/opt/tor/bin/tor -f ~/.hermes/cache/tor/torrc &
+/opt/homebrew/bin/python3.14 -m pip install --break-system-packages stem pysocks requests
+```
+
+Dùng với Node:
+```bash
+export https_proxy=socks5h://127.0.0.1:9050
+node tools/nap.mjs "https://files.customs.gov.vn/..." --so-hieu "..." --ghi
+```
+
+**Quy tắc cứng** (rút ra từ sự cố 2026-10-09):
+- 1 process tại 1 thời điểm, KHÔNG chạy song song
+- Delay tối thiểu 1s giữa các request
+- Sample 100–500 trước khi cào lớn
+- Dừng nếu 10 fail liên tiếp
+- KHÔNG gọi 60K+ requests/phút (kể cả qua Tor)
+
 ## Duyệt PR
 
 Người duy trì duyệt theo: có nguồn bậc A chưa, quan hệ cũ–mới có căn cứ điều khoản chưa, `npm test`
