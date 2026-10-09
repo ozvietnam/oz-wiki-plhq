@@ -4,76 +4,72 @@ _This catalog is updated by /lumi-ingest and /lumi-init._
 
 ## Summary
 
-- [[summary/khung-kiem-tra-chuyen-nganh-2026]] — Khung kiểm tra chuyên ngành hàng nhập khẩu từ 2026 (3 mức rủi ro, danh mục 8 bộ, ATTP)
-- [[summary/khung-thu-tuc-hai-quan]] — Khung thủ tục hải quan, phân loại HS, GTGT khâu nhập (neo sổ đăng ký)
-- [[summary/luat-duoc-va-phan-loai-hs]] — Luật Dược 2016: ảnh hưởng đến phân loại HS, bảng quyết định nhanh, điểm mù thường gặp
-- [[summary/tom-tat-14-dm-09-2024-tt-byt]] — 14 Danh mục của 09/2024/TT-BYT: cấu trúc, cách tìm tên dược liệu, use case cao dán gừng + ngải cứu
+- [[summary/khung-kiem-tra-chuyen-nganh-2026]] — Khung kiểm tra chuyên ngành hàng nhập khẩu từ 2026
+- [[summary/khung-thu-tuc-hai-quan]] — Khung thủ tục hải quan hàng xuất nhập khẩu
+- [[summary/luat-duoc-va-phan-loai-hs]] — Luật Dược 2016 và ảnh hưởng đến phân loại HS hàng nhập khẩu
+- [[summary/tom-tat-14-dm-09-2024-tt-byt]] — 14 Danh mục của 09/2024/TT-BYT — tóm tắt cấu trúc và cách tra cứu
 
 ## Concepts
 
-- [[concepts/muc-do-rui-ro-hang-hoa]] — Ba mức rủi ro thay cho nhóm 1/nhóm 2 (NĐ 37/2026)
-- [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]] — Kiểm tra ATTP hàng nhập khẩu (NĐ 15/2018 vẫn áp dụng)
-- [[concepts/doc-tinh-trang-hieu-luc]] — Thay thế, sửa đổi, bãi bỏ, tạm ngưng khác nhau thế nào
-- [[concepts/thu-tuc-hai-quan-xnk]] — Luật / NĐ / TT thủ tục hải quan và chỉ tiêu khai
-- [[concepts/phan-loai-ma-hs]] — Quy trình phân loại và danh mục mã HS
-- [[concepts/thue-gtgt-hang-nhap-khau]] — Chính sách GTGT 8%/10% khâu nhập (NĐ 174/2025)
-- [[concepts/nhan-hang-hoa-nhap-khau]] — Nhãn hàng hoá sau 23/01/2026 (điểm mù)
+- [[concepts/cat-giam-thu-tuc-hanh-chinh-bnnmt]] — Cắt giảm TTHC Bộ Nông nghiệp & Môi trường
+- [[concepts/cites-vn]] — Công ước CITES tại Việt Nam
+- [[concepts/co-quan-dau-moi-fta]] — Cơ quan đầu mối FTA: bảng phân công theo Hiệp định và Chương
+- [[concepts/cptpp]] — CPTPP - Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương
+- [[concepts/cua-khau-phu-loi-mo]] — Cửa khẩu phụ, lối mở biên giới
+- [[concepts/doc-tinh-trang-hieu-luc]] — Đọc tình trạng hiệu lực: thay thế, sửa đổi, bãi bỏ, tạm ngưng
+- [[concepts/dong-vat-hoang-da-nguy-cap]] — Động vật hoang dã nguy cấp, quý, hiếm
+- [[concepts/duoc-lieu-theo-luat-duoc-2016]] — Dược liệu: định nghĩa, nguồn gốc, cách phân loại
+- [[concepts/evfta]] — EVFTA - Hiệp định thương mại tự do Việt Nam - Liên minh châu Âu
+- [[concepts/giay-phep-hoa-chat-co-dieu-kien]] — Giấy phép/giấy chứng nhận hóa chất có điều kiện
+- [[concepts/giay-phep-kinh-doanh-mat-ma]] — Giấy phép kinh doanh sản phẩm, dịch vụ mật mã dân sự
+- [[concepts/giay-phep-xuat-nhap-khau-mat-ma]] — Giấy phép XNK sản phẩm mật mã dân sự
+- [[concepts/go-rung]] — Gỗ rừng và sản phẩm từ gỗ
+- [[concepts/han-ngach-thue-quan]] — Hạn ngạch thuế quan nhập khẩu
+- [[concepts/hang-cu-cam-nhap-khau]] — Hàng tiêu dùng và phương tiện đã qua sử dụng cấm nhập khẩu
+- [[concepts/hang-hoa-bien-gioi]] — Hàng hóa mua bán, trao đổi qua biên giới
+- [[concepts/hoa-chat-nguy-hiem-trong-hang-hoa]] — Hóa chất nguy hiểm trong sản phẩm, hàng hóa
+- [[concepts/khai-bao-hoa-chat-nhap-khau]] — Khai báo hóa chất nhập khẩu
+- [[concepts/kiem-dich-dong-thuc-vat]] — Kiểm dịch động vật, thực vật nhập khẩu
+- [[concepts/kiem-tra-chat-luong-bxd]] — Kiểm tra chất lượng sản phẩm hàng hóa BXD
+- [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]] — Kiểm tra nhà nước về an toàn thực phẩm hàng nhập khẩu
+- [[concepts/kim-cuong-tho]] — Kim cương thô - XK/NK theo Quy chế KP
+- [[concepts/ktcl-bca-2026]] — Kiểm tra chất lượng BCA (TT 125/2026)
+- [[concepts/ktcl-bkhcn-2026]] — Kiểm tra chất lượng BKHCN (TT 36/2026)
+- [[concepts/ktcl-bnnmt-2026]] — Kiểm tra chất lượng BNNMT (TT 27/2026)
+- [[concepts/ktcl-bnv-2026]] — Kiểm tra chất lượng BNV (TT 16/2026) - PPE
+- [[concepts/ktcl-bxd-vlxd-2026]] — Kiểm tra chất lượng VLXD BXD (TT 41/2026)
+- [[concepts/ktcl-byt-attp-2024]] — Kiểm tra chất lượng BYT - ATTP (TT 15/2024)
+- [[concepts/mat-ma-dan-su-san-pham]] — Mật mã dân sự - sản phẩm, dịch vụ
+- [[concepts/muc-do-rui-ro-hang-hoa]] — Mức độ rủi ro của hàng hoá (thấp – trung bình – cao)
+- [[concepts/nhan-hang-hoa-nhap-khau]] — Nhãn hàng hoá nhập khẩu (điểm mù sau 23/01/2026)
+- [[concepts/nhap-khau-thuoc-la]] — Nhập khẩu thuốc lá điếu, xì gà
+- [[concepts/phan-biet-3004-3005-3006]] — Phân biệt 3004 vs 3005 vs 3006 — thuốc dạng liều, băng/gạc tẩm dược chất, chế phẩm đặc thù
+- [[concepts/phan-bon-nhap-khau]] — Phân bón nhập khẩu
+- [[concepts/phan-loai-ma-hs]] — Phân loại mã số HS hàng xuất nhập khẩu
+- [[concepts/phu-gia-thuc-pham-ins]] — Phụ gia thực phẩm theo mã INS
+- [[concepts/phuong-tien-giao-thong-van-tai]] — Phương tiện giao thông vận tải
+- [[concepts/ppe-nhap-khau]] — PPE - Trang thiết bị bảo hộ lao động nhập khẩu
+- [[concepts/quy-tac-xuat-xu]] — Quy tắc xuất xứ trong các FTA mà Việt Nam tham gia
+- [[concepts/rcep]] — RCEP - Hiệp định Đối tác Kinh tế Toàn diện Khu vực
+- [[concepts/rui-ro-cao-vs-trung-binh]] — Phân loại rủi ro: Cao vs Trung bình (KTCL)
+- [[concepts/thiet-bi-giam-sat-atgt]] — Thiết bị giám sát an ninh + ATGT
+- [[concepts/thiet-bi-pccc]] — Thiết bị PCCC và cứu nạn cứu hộ
+- [[concepts/thu-tuc-hai-quan-xnk]] — Thủ tục hải quan hàng xuất nhập khẩu
+- [[concepts/thue-gtgt-hang-nhap-khau]] — Thuế GTGT hàng nhập khẩu (chính sách 8% / 10%)
+- [[concepts/thuoc-bvtv-nhap-khau]] — Thuốc bảo vệ thực vật nhập khẩu
 - [[concepts/thuoc-theo-luat-duoc-2016]] — Thuốc theo Luật Dược 2016: định nghĩa, phân loại, hệ quả HS
-- [[concepts/duoc-lieu-theo-luat-duoc-2016]] — Dược liệu: định nghĩa, nguồn gốc, cách phân loại theo mức chế biến
-- [[concepts/phan-biet-3004-3005-3006]] — Phân biệt 3004 vs 3005 vs 3006: thuốc dạng liều vs băng/gạc tẩm dược chất vs chế phẩm đặc thù (decision tree)
+- [[concepts/trang-thiet-bi-bao-ho-lao-dong]] — Các loại PPE phổ biến trong XNK
+- [[concepts/vat-lieu-bao-bi-tiep-xuc-thuc-pham]] — Vật liệu bao bì tiếp xúc thực phẩm
+- [[concepts/vat-lieu-xay-dung-nhap-khau]] — Vật liệu xây dựng nhập khẩu phổ biến
+- [[concepts/xi-ga]] — Xì gà (Cigars)
 
 ## Sources
 
 Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 
 <!-- lumina:index -->
-- [[concepts/cat-giam-thu-tuc-hanh-chinh-bnnmt]]
-- [[concepts/co-quan-dau-moi-fta]]
-- [[concepts/cptpp]]
-- [[concepts/cua-khau-phu-loi-mo]]
-- [[concepts/doc-tinh-trang-hieu-luc]]
-- [[concepts/duoc-lieu-theo-luat-duoc-2016]]
-- [[concepts/evfta]]
-- [[concepts/giay-phep-hoa-chat-co-dieu-kien]]
-- [[concepts/giay-phep-kinh-doanh-mat-ma]]
-- [[concepts/giay-phep-xuat-nhap-khau-mat-ma]]
-- [[concepts/han-ngach-thue-quan]]
-- [[concepts/hang-cu-cam-nhap-khau]]
-- [[concepts/hang-hoa-bien-gioi]]
-- [[concepts/hoa-chat-nguy-hiem-trong-hang-hoa]]
-- [[concepts/khai-bao-hoa-chat-nhap-khau]]
-- [[concepts/kiem-dich-dong-thuc-vat]]
-- [[concepts/kiem-tra-chat-luong-bxd]]
-- [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]]
-- [[concepts/kim-cuong-tho]]
-- [[concepts/ktcl-bca-2026]]
-- [[concepts/ktcl-bkhcn-2026]]
-- [[concepts/ktcl-bnnmt-2026]]
-- [[concepts/ktcl-bnv-2026]]
-- [[concepts/ktcl-bxd-vlxd-2026]]
-- [[concepts/ktcl-byt-attp-2024]]
-- [[concepts/mat-ma-dan-su-san-pham]]
-- [[concepts/muc-do-rui-ro-hang-hoa]]
-- [[concepts/nhan-hang-hoa-nhap-khau]]
-- [[concepts/phan-biet-3004-3005-3006]]
-- [[concepts/phan-bon-nhap-khau]]
-- [[concepts/phan-loai-ma-hs]]
-- [[concepts/phu-gia-thuc-pham-ins]]
-- [[concepts/phuong-tien-giao-thong-van-tai]]
-- [[concepts/ppe-nhap-khau]]
-- [[concepts/quy-tac-xuat-xu]]
-- [[concepts/rcep]]
-- [[concepts/rui-ro-cao-vs-trung-binh]]
-- [[concepts/thiet-bi-giam-sat-atgt]]
-- [[concepts/thiet-bi-pccc]]
-- [[concepts/thu-tuc-hai-quan-xnk]]
-- [[concepts/thue-gtgt-hang-nhap-khau]]
-- [[concepts/thuoc-bvtv-nhap-khau]]
-- [[concepts/thuoc-theo-luat-duoc-2016]]
-- [[concepts/trang-thiet-bi-bao-ho-lao-dong]]
-- [[concepts/vat-lieu-bao-bi-tiep-xuc-thuc-pham]]
-- [[concepts/vat-lieu-xay-dung-nhap-khau]]
 - [[sources/05-2007-qh12]]
+- [[sources/07-2026-tt-bct]]
 - [[sources/08-2015-nd-cp]]
 - [[sources/09-2024-tt-byt]]
 - [[sources/09-2026-nq-cp]]
@@ -89,6 +85,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/15-2026-nq-cp]]
 - [[sources/16-2026-tt-bnv]]
 - [[sources/163-2025-nd-cp]]
+- [[sources/17-2023-tt-bnnptnt]]
 - [[sources/211-2025-nd-cp]]
 - [[sources/22-2026-tt-bnnmt]]
 - [[sources/26-2026-nd-cp]]
@@ -120,7 +117,57 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/62-2024-tt-bgtvt]]
 - [[sources/71-2025-tt-bxd]]
 - [[sources/78-2025-qh15]]
-- [[sources/85-2026-tt-btc]]
+- [[concepts/cat-giam-thu-tuc-hanh-chinh-bnnmt]]
+- [[concepts/cites-vn]]
+- [[concepts/co-quan-dau-moi-fta]]
+- [[concepts/cptpp]]
+- [[concepts/cua-khau-phu-loi-mo]]
+- [[concepts/doc-tinh-trang-hieu-luc]]
+- [[concepts/dong-vat-hoang-da-nguy-cap]]
+- [[concepts/duoc-lieu-theo-luat-duoc-2016]]
+- [[concepts/evfta]]
+- [[concepts/giay-phep-hoa-chat-co-dieu-kien]]
+- [[concepts/giay-phep-kinh-doanh-mat-ma]]
+- [[concepts/giay-phep-xuat-nhap-khau-mat-ma]]
+- [[concepts/go-rung]]
+- [[concepts/han-ngach-thue-quan]]
+- [[concepts/hang-cu-cam-nhap-khau]]
+- [[concepts/hang-hoa-bien-gioi]]
+- [[concepts/hoa-chat-nguy-hiem-trong-hang-hoa]]
+- [[concepts/khai-bao-hoa-chat-nhap-khau]]
+- [[concepts/kiem-dich-dong-thuc-vat]]
+- [[concepts/kiem-tra-chat-luong-bxd]]
+- [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]]
+- [[concepts/kim-cuong-tho]]
+- [[concepts/ktcl-bca-2026]]
+- [[concepts/ktcl-bkhcn-2026]]
+- [[concepts/ktcl-bnnmt-2026]]
+- [[concepts/ktcl-bnv-2026]]
+- [[concepts/ktcl-bxd-vlxd-2026]]
+- [[concepts/ktcl-byt-attp-2024]]
+- [[concepts/mat-ma-dan-su-san-pham]]
+- [[concepts/muc-do-rui-ro-hang-hoa]]
+- [[concepts/nhan-hang-hoa-nhap-khau]]
+- [[concepts/nhap-khau-thuoc-la]]
+- [[concepts/phan-biet-3004-3005-3006]]
+- [[concepts/phan-bon-nhap-khau]]
+- [[concepts/phan-loai-ma-hs]]
+- [[concepts/phu-gia-thuc-pham-ins]]
+- [[concepts/phuong-tien-giao-thong-van-tai]]
+- [[concepts/ppe-nhap-khau]]
+- [[concepts/quy-tac-xuat-xu]]
+- [[concepts/rcep]]
+- [[concepts/rui-ro-cao-vs-trung-binh]]
+- [[concepts/thiet-bi-giam-sat-atgt]]
+- [[concepts/thiet-bi-pccc]]
+- [[concepts/thu-tuc-hai-quan-xnk]]
+- [[concepts/thue-gtgt-hang-nhap-khau]]
+- [[concepts/thuoc-bvtv-nhap-khau]]
+- [[concepts/thuoc-theo-luat-duoc-2016]]
+- [[concepts/trang-thiet-bi-bao-ho-lao-dong]]
+- [[concepts/vat-lieu-bao-bi-tiep-xuc-thuc-pham]]
+- [[concepts/vat-lieu-xay-dung-nhap-khau]]
+- [[concepts/xi-ga]]
 - [[summary/khung-kiem-tra-chuyen-nganh-2026]]
 - [[summary/khung-thu-tuc-hai-quan]]
 - [[summary/luat-duoc-va-phan-loai-hs]]
