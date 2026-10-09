@@ -15,10 +15,19 @@ nguon:
   truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: PDF Công báo CDN 1175 Điều 3 hiệu lực từ ngày ký; hết hiệu lực theo Điều 5 của 126/QĐ-TTg (PDF Công báo)
+  pham_vi: |
+    PDF Công báo CDN số 823+824 ngày 12-08-2020: Điều 1 (Phụ lục) chỉ định cơ quan đầu mối cho từng Chương Hiệp định EVFTA (1-17); Điều 2 cho phép BCT điều chỉnh phù hợp tình hình thực tế, báo cáo TTgCP; Điều 3 hiệu lực từ ngày ký 04-08-2020; Điều 4 trách nhiệm thi hành
+    Hết hiệu lực toàn bộ từ 16-01-2026 theo Điều 5 QĐ 126/QĐ-TTg (PDF Công báo số 71 ngày 31-01-2026)
+    Tình trạng hiện tại: HET_HIEU_LUC, sổ đăng ký không có VB sau ghi thay thế
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: Hết hiệu lực từ 16-01-2026 theo Điều 5 QĐ 126/QĐ-TTg.
+ghi_chu: Hết hiệu lực từ 16-01-2026 theo Điều 5 QĐ 126/QĐ-TTg. Đã đọc toàn văn 4 Điều + Phụ lục (Danh sách cơ quan đầu mối theo Chương Hiệp định EVFTA).
 het_hieu_luc_tu: '2026-01-16'
+quan_he:
+  sua_doi:
+    - so_hieu: 126/QĐ-TTg
+      pham_vi: Thay thế hoàn toàn 1175/QĐ-TTg
+      tu_ngay: '2026-01-16'
+      can_cu: Điều 5 QĐ 126/QĐ-TTg ngày 16-01-2026
 toan_van: raw/download/congbaocdn.chinhphu.vn/1175-qd-ttg.pdf
