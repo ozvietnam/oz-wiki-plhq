@@ -1,22 +1,23 @@
-# Báo cáo điểm mù — 2026-10-08
+# Báo cáo điểm mù — 2026-10-09
 
-Tổng 504 điểm: **30 cao**, 177 vừa, 297 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 513 điểm: **35 cao**, 181 vừa, 297 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
 | Nhóm | Mức | Số điểm | Luồng việc |
 |---|---|---|---|
-| Cảnh báo nguồn | Cao | 19 | `truy-vet-nguon` |
+| Cảnh báo nguồn | Cao | 21 | `truy-vet-nguon` |
+| Được nhắc nhưng chưa có trong sổ | Cao | 4 | `he-thong-hoa` |
 | Nhánh cây chưa có văn bản | Cao | 3 | `do-tham` |
 | THIEU_NGUON_AHTN | Cao | 1 | `truy-vet-nguon` |
 | THIEU_NGUON_WCO_COMPENDIUM | Cao | 1 | `truy-vet-nguon` |
-| Được nhắc nhưng chưa có trong sổ | Cao | 1 | `he-thong-hoa` |
 | Mâu thuẫn hiệu lực | Cao | 1 | `hieu-luc` |
 | Sắp hết hiệu lực (≤60 ngày) | Cao | 1 | `hieu-luc` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 123 | `danh-muc-hs` |
 | Văn bản danh mục chưa trích bảng mã HS | Vừa | 17 | `danh-muc-hs` |
 | Thư viện hs-code-api ghi khác sổ | Vừa | 13 | `hieu-luc` |
 | Văn bản khung thiếu thông tin | Vừa | 10 | `he-thong-hoa` |
+| Wiki nhắc văn bản chưa đăng ký | Vừa | 4 | `lien-ket-cheo` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
 | Mã HS có hàng thật chưa đối chiếu KTCN 2026 (hs-code-api /api/demand) | Vừa | 2 | `danh-muc-hs` |
 | Bảng dẫn chiếu mã HS sang văn bản chưa có bảng | Vừa | 1 | `danh-muc-hs` |
@@ -28,12 +29,14 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Văn bản của cơ quan đã sáp nhập | Thấp | 9 | `do-tham` |
 | HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp) | Thấp | 8 | `hieu-luc` |
 
-## Cảnh báo nguồn (19)
+## Cảnh báo nguồn (21)
 
 - [ ] **01/2026/TT-BNNMT: Tệp toan_van là tệp đính kèm thẻ vanban.chinhphu.vn docid=216592 (datafiles …/2026/01/01-bnnmt.pdf) nhưng là bản KHÔNG điền số và ngày ("Số: /2026/TT-BNNMT", "Hà Nội, ngày tháng năm 2026"), không phải bản ký số/Công báo. Dùng để đọc nội dung (Điều 30 khoản 1 ghi hiệu lực 01-01-2026); cần thay bằng bản Công báo khi trích dẫn.** — Xác minh với cơ quan ban hành hoặc Công báo.
+- [ ] **105/2016/QH13: Chương VI Điều 73.3: Bộ Y tế giao hướng dẫn 'thuốc cổ truyền có dạng bào chế hiện đại' (bao gồm cao dán) — chưa có TT hướng dẫn cụ thể → vùng xám pháp lý** — Xác minh với cơ quan ban hành hoặc Công báo.
 - [ ] **1182/QĐ-BCT: Phụ lục 1 còn mở — cần đối chiếu TT 33/2026/TT-BCT trước khi ghi HET_HIEU_LUC toàn bộ.** — Xác minh với cơ quan ban hành hoặc Công báo.
 - [ ] **125/2026/TT-BCA: PR #24 đặt hieu_luc_da_doi_chieu: true chỉ dựa trên Điều 5 khoản 1 của chính văn bản (chứng minh ngày bắt đầu 01-07-2026), không ghi đã kiểm tình trạng hiện tại (văn bản sửa đổi/thay thế sau) nên giữ false.** — Xác minh với cơ quan ban hành hoặc Công báo.
 - [ ] **142/2026/TT-BTC: Chưa đọc điều khoản thi hành — chưa biết sửa/thay văn bản nào cụ thể.** — Xác minh với cơ quan ban hành hoặc Công báo.
+- [ ] **163/2025/NĐ-CP: OCR bằng tesseract 5.5.3 + vie language model - chất lượng 90-95% (một số ký tự sai VD: cỗ/cổ, đuọc/dược, dạng/dạng). PDF gốc có digital signature nên đã strip bằng pikepdf trước khi OCR.** — Xác minh với cơ quan ban hành hoặc Công báo.
 - [ ] **1921/QĐ-TCHQ: Nguồn A là tài liệu nghiên cứu của cơ quan dẫn văn bản, không phải toàn văn quyết định ký gốc. PDF Vietnam Trade Portal mang nhãn THƯ VIỆN PHÁP LUẬT; chỉ dùng đối chiếu bổ sung, không tự gán bậc A cho tên miền này.** — Xác minh với cơ quan ban hành hoặc Công báo.
 - [ ] **2105/QĐ-BCT: Đã ghi xac_minh.chan (THIEU_DIEU_THI_HANH_A) — xem node tools/san-hieu-luc.mjs; không săn lặp URL đã 404.** — Xác minh với cơ quan ban hành hoặc Công báo.
 - [ ] **2284/QĐ-BKHCN: Đã ghi xac_minh.chan (THIEU_PDF_A) — xem node tools/san-hieu-luc.mjs; không săn lặp URL đã 404.** — Xác minh với cơ quan ban hành hoặc Công báo.
@@ -50,6 +53,13 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **8378/QĐ-BCA: Chưa có PDF bậc A (datafiles/congbao/bocongan media — dò 04-10-2026). QĐ 4814/QĐ-BCA (28-07-2026, nguồn B) bãi bỏ chính 8378 — chuỗi hiệu lực cần PDF A trước khi đánh true. TT 125/2026 không liệt kê bãi 8378/6266.** — Xác minh với cơ quan ban hành hoặc Công báo.
 - [ ] **9981/QĐ-BCA: Đã ghi xac_minh.chan (THIEU_PDF_A) — xem node tools/san-hieu-luc.mjs; không săn lặp URL đã 404.** — Xác minh với cơ quan ban hành hoặc Công báo.
 
+## Được nhắc nhưng chưa có trong sổ (4)
+
+- [ ] **Chưa có trong sổ: 34/2005/QH11** — Tạo registry/van-ban/ cho 34/2005/QH11 (được nhắc bởi 105/2016/QH13 (thay_the)). Dùng: node tools/them-van-ban.mjs "34/2005/QH11"
+- [ ] **Chưa có trong sổ: 28/2018/QH14** — Tạo registry/van-ban/ cho 28/2018/QH14 (được nhắc bởi 105/2016/QH13 (sua_doi)). Dùng: node tools/them-van-ban.mjs "28/2018/QH14"
+- [ ] **Chưa có trong sổ: 76-VBHN/VPQH** — Tạo registry/van-ban/ cho 76-VBHN/VPQH (được nhắc bởi 105/2016/QH13 (hop_nhat)). Dùng: node tools/them-van-ban.mjs "76-VBHN/VPQH"
+- [ ] **Chưa có trong sổ: 59/2025/TT-BYT** — Tạo registry/van-ban/ cho 59/2025/TT-BYT (được nhắc bởi 24/2026/TT-BYT (bai_bo)). Dùng: node tools/them-van-ban.mjs "59/2025/TT-BYT"
+
 ## Nhánh cây chưa có văn bản (3)
 
 - [ ] **Nhánh "Chú giải HS, chú giải bổ sung (SEN), 6 quy tắc tổng quát (GIR)" (phan-loai-hs/chu-giai) chưa có văn bản còn hiệu lực** — Do thám và thêm các văn bản thuộc nhánh này.
@@ -63,10 +73,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 ## THIEU_NGUON_WCO_COMPENDIUM (1)
 
 - [ ] **WCO Compendium of Classification Opinions: chưa có toàn văn trong raw/download/wco.org/ — TT 85/2026/TT-BTC Điều 6.1(b) yêu cầu dùng Tuyển tập ý kiến WCO làm nguồn ưu tiên thứ 2. Bản chính thức bán qua WCO Bookshop (~500 EUR). Hiện dùng tạm TB-TCHQ VN (LV=313) làm "Compendium VN" thay thế.** — Sếp chỉ định: (a) mua bản chính thức, (b) tải từng Classification Opinion mới nhất từ wcoomd.org (~50 opinions/session, 2 session/năm), hoặc (c) chấp nhận dùng TB-TCHQ thay thế.
-
-## Được nhắc nhưng chưa có trong sổ (1)
-
-- [ ] **Chưa có trong sổ: 59/2025/TT-BYT** — Tạo registry/van-ban/ cho 59/2025/TT-BYT (được nhắc bởi 24/2026/TT-BYT (bai_bo)). Dùng: node tools/them-van-ban.mjs "59/2025/TT-BYT"
 
 ## Mâu thuẫn hiệu lực (1)
 
@@ -168,6 +174,13 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **49/2015/TT-BCT: chưa có tiêu đề, ngày, nguồn** — Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.
 - [ ] **915/QĐ-BCT: chưa có tiêu đề, ngày, nguồn** — Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.
 - [ ] **924/QĐ-BNN-TCLN: chưa có tiêu đề, ngày, nguồn** — Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.
+
+## Wiki nhắc văn bản chưa đăng ký (4)
+
+- [ ] **Wiki nhắc 31/2025/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/duoc-lieu-theo-luat-duoc-2016.md, wiki/summary/luat-duoc-va-phan-loai-hs.md).
+- [ ] **Wiki nhắc 98/2021/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/thuoc-theo-luat-duoc-2016.md).
+- [ ] **Wiki nhắc 31/2021/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/163-2025-nd-cp.md).
+- [ ] **Wiki nhắc 20/2017/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/summary/luat-duoc-va-phan-loai-hs.md).
 
 ## Sắp có hiệu lực (≤60 ngày) (3)
 

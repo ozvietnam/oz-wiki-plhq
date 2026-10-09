@@ -1,6 +1,6 @@
 {
-  "ngay": "2026-10-08",
-  "tong": 504,
+  "ngay": "2026-10-09",
+  "tong": 513,
   "diem": [
     {
       "ma": "THIEU_NGUON_AHTN",
@@ -18,6 +18,33 @@
       "muc_tieu": "WCO-COMPENDIUM",
       "viec": "Sếp chỉ định: (a) mua bản chính thức, (b) tải từng Classification Opinion mới nhất từ wcoomd.org (~50 opinions/session, 2 session/năm), hoặc (c) chấp nhận dùng TB-TCHQ thay thế.",
       "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "THIEU_VAN_BAN",
+      "muc": "Cao",
+      "tieuDe": "Chưa có trong sổ: 34/2005/QH11",
+      "muc_tieu": "34/2005/QH11",
+      "viec": "Tạo registry/van-ban/ cho 34/2005/QH11 (được nhắc bởi 105/2016/QH13 (thay_the)). Dùng: node tools/them-van-ban.mjs \"34/2005/QH11\"",
+      "luong": "he-thong-hoa",
+      "trongSo": 0
+    },
+    {
+      "ma": "THIEU_VAN_BAN",
+      "muc": "Cao",
+      "tieuDe": "Chưa có trong sổ: 28/2018/QH14",
+      "muc_tieu": "28/2018/QH14",
+      "viec": "Tạo registry/van-ban/ cho 28/2018/QH14 (được nhắc bởi 105/2016/QH13 (sua_doi)). Dùng: node tools/them-van-ban.mjs \"28/2018/QH14\"",
+      "luong": "he-thong-hoa",
+      "trongSo": 0
+    },
+    {
+      "ma": "THIEU_VAN_BAN",
+      "muc": "Cao",
+      "tieuDe": "Chưa có trong sổ: 76-VBHN/VPQH",
+      "muc_tieu": "76-VBHN/VPQH",
+      "viec": "Tạo registry/van-ban/ cho 76-VBHN/VPQH (được nhắc bởi 105/2016/QH13 (hop_nhat)). Dùng: node tools/them-van-ban.mjs \"76-VBHN/VPQH\"",
+      "luong": "he-thong-hoa",
       "trongSo": 0
     },
     {
@@ -531,6 +558,15 @@
       "muc_tieu": "10/2024/TT-BXD",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "CANH_BAO_NGUON",
+      "muc": "Cao",
+      "tieuDe": "105/2016/QH13: Chương VI Điều 73.3: Bộ Y tế giao hướng dẫn 'thuốc cổ truyền có dạng bào chế hiện đại' (bao gồm cao dán) — chưa có TT hướng dẫn cụ thể → vùng xám pháp lý",
+      "muc_tieu": "105/2016/QH13",
+      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
+      "luong": "truy-vet-nguon",
       "trongSo": 0
     },
     {
@@ -1215,6 +1251,15 @@
       "muc_tieu": "16/2021/TT-BNNPTNT",
       "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
       "luong": "cay-du-lieu",
+      "trongSo": 0
+    },
+    {
+      "ma": "CANH_BAO_NGUON",
+      "muc": "Cao",
+      "tieuDe": "163/2025/NĐ-CP: OCR bằng tesseract 5.5.3 + vie language model - chất lượng 90-95% (một số ký tự sai VD: cỗ/cổ, đuọc/dược, dạng/dạng). PDF gốc có digital signature nên đã strip bằng pikepdf trước khi OCR.",
+      "muc_tieu": "163/2025/NĐ-CP",
+      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
+      "luong": "truy-vet-nguon",
       "trongSo": 0
     },
     {
@@ -3051,6 +3096,42 @@
       "muc_tieu": "dieu-uoc-quoc-te",
       "viec": "Do thám và thêm các văn bản thuộc nhánh này.",
       "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 31/2025/TT-BYT nhưng sổ chưa có",
+      "muc_tieu": "31/2025/TT-BYT",
+      "viec": "Thêm vào sổ (wiki/concepts/duoc-lieu-theo-luat-duoc-2016.md, wiki/summary/luat-duoc-va-phan-loai-hs.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 98/2021/NĐ-CP nhưng sổ chưa có",
+      "muc_tieu": "98/2021/NĐ-CP",
+      "viec": "Thêm vào sổ (wiki/concepts/thuoc-theo-luat-duoc-2016.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 31/2021/NĐ-CP nhưng sổ chưa có",
+      "muc_tieu": "31/2021/NĐ-CP",
+      "viec": "Thêm vào sổ (wiki/sources/163-2025-nd-cp.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 20/2017/TT-BYT nhưng sổ chưa có",
+      "muc_tieu": "20/2017/TT-BYT",
+      "viec": "Thêm vào sổ (wiki/summary/luat-duoc-va-phan-loai-hs.md).",
+      "luong": "lien-ket-cheo",
       "trongSo": 0
     },
     {
