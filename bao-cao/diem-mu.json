@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-09",
-  "tong": 494,
+  "tong": 493,
   "diem": [
     {
       "ma": "THIEU_NGUON_AHTN",
@@ -2881,15 +2881,6 @@
       "viec": "Văn bản danh mục chưa có danh-muc/09-2013-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
       "luong": "danh-muc-hs",
       "trongSo": 0
-    },
-    {
-      "ma": "DANH_MUC_CHUA_TRICH",
-      "muc": "Vừa",
-      "tieuDe": "Chưa trích bảng mã HS: 10/2022/TT-BTTTT",
-      "muc_tieu": "10/2022/TT-BTTTT",
-      "viec": "Văn bản danh mục chưa có danh-muc/10-2022-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 3 mã.",
-      "luong": "danh-muc-hs",
-      "trongSo": 3
     },
     {
       "ma": "DANH_MUC_CHUA_TRICH",
