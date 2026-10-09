@@ -26,10 +26,32 @@ nguon:
 trich_dan_trong_bieu_thue: 186
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'PDF Công báo số 629+630 ngày 12-04-2025 (lớp chữ): Điều 5 khoản 1 hiệu lực 02-11-2024, khoản 2 thay TT 28/2021/TT-BYT; tình trạng hiện tại: TT 27/2026/TT-BYT dẫn TT 15/2024 làm căn cứ mã HS (không thay); sổ không có văn bản sau ghi thay/bãi TT 15/2024 (kiểm đến 04-10-2026)'
+  pham_vi: 'Toàn văn 6 Điều + 1 Phụ lục (PDF Công báo số 629+630 ngày 12-04-2025, tr.34-89; file body.txt 6159 dòng). Điều 1 Phạm vi điều chỉnh: ban hành DM + nguyên tắc áp dụng. Điều 2 Ban hành Danh mục. Điều 3 Nguyên tắc áp dụng Danh mục: (1) trường hợp khác biệt phân loại HS → theo pháp luật hải quan; (2) hàng chưa liệt kê → tra HS theo luật hải quan, sau thông quan gửi Cục ATTP để cập nhật; (3) kiểm tra ATTP nhập khẩu theo Điều 37 NĐ 15/2018/NĐ-CP — hàng có tên trong DM thực hiện Điều 40 Luật ATTP + Điều 16 NĐ 15/2018; (4) miễn/không thuộc đối tượng KTCL — Điều 13 NĐ 15/2018 (trừ cảnh báo), hàng không nhằm mục đích làm thực phẩm, dụng cụ/bao gói không chứa đựng và không tiếp xúc trực tiếp; (5) phụ gia hỗn hợp ≥2 chất có tên trong DM → mã HS theo 6 GIR kèm TT 31/2022/TT-BTC. Điều 4 Điều khoản tham chiếu. Điều 5 Hiệu lực: (1) 02-11-2024; (2) thay TT 28/2021/TT-BYT. Điều 6 Trách nhiệm thi hành — Cục trưởng Cục ATTP, các đơn vị BYT, Sở Y tế/Sở ATTP địa phương. Phụ lục DM 3 nhóm: I. Thực phẩm bổ sung (mã HS theo 6 GIR TT 31/2022/TT-BTC); II. Phụ gia thực phẩm đơn chất (~391 dòng, mã INS 100–957); III. Dụng cụ chứa đựng/vật liệu bao gói tiếp xúc trực tiếp (6 dòng, nhựa + cao su). Phạm vi KTCL: nhập khẩu thuộc quản lý BYT; căn cứ NĐ 15/2018/NĐ-CP; nguyên tắc phân loại HS theo TT 31/2022/TT-BTC. Tình trạng: TT 27/2026/TT-BYT dẫn TT 15/2024 làm căn cứ mã HS (không thay); sổ không có văn bản sau ghi thay/bãi TT 15/2024 (kiểm đến 04-10-2026).'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
+  dieu_count: 6
+  chuong_hs:
+    - Ch.09 (gia vị — nghệ turmeric INS 100(ii))
+    - Ch.13 (nhựa cây, chiết xuất thực vật)
+    - Ch.15 (chất béo, sáp ong, dầu oxy hóa)
+    - Ch.17 (đường caramen INS 150a-d)
+    - Ch.21 (chiết xuất nấm men)
+    - Ch.25 (muối khoáng: carbonat, oxyd)
+    - Ch.27 (sáp vi tinh thể, dầu khoáng)
+    - Ch.28 (hợp chất vô cơ: calci, sắt, titan)
+    - Ch.29 (hợp chất hữu cơ: vitamin, riboflavin)
+    - Ch.32 (phẩm màu, curcumin, tartrazin)
+    - Ch.33 (tinh dầu, oleoresin)
+    - Ch.34 (chất nhũ hóa: polyoxyethylen)
+    - Ch.35 (cyclodextrin, thaumatin)
+    - Ch.38 (siro sorbitol, ester nhựa cây)
+    - Ch.39 (nhựa tổng hợp — acid alginic, bao bì nhựa, đồ dùng nhà bếp)
+    - Ch.40 (cao su — núm vú bình cho trẻ em)
+  item_groups:
+    - I. Thực phẩm bổ sung (Supplemented Food) — mã HS theo 6 GIR TT 31/2022/TT-BTC
+    - II. Phụ gia thực phẩm đơn chất (Single-substance food additives) — ~391 dòng, mã INS 100–957, đầy đủ 16 chương HS
+    - III. Dụng cụ chứa đựng thực phẩm / Vật liệu bao gói tiếp xúc trực tiếp (Food contact materials) — 6 dòng: nhựa tổng hợp (hộp, bao/túi/màng, bình/chai/lọ, thùng/bể chứa, đồ dùng nhà bếp) + cao su (núm vú bình trẻ em)
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (186 mã HS). QĐ 988/QĐ-BYT ngày 24-03-2025 đính chính TT 15/2024 (Công báo cùng số, tr. 94–95) — không đổi mã HS. Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 186 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn). KHUNG KTCN 2026 (tin cậy LOW): Kiểm tra ATTP vẫn theo NĐ 15/2018/NĐ-CP. Bộ Y tế ra thêm TT 27/2026/TT-BYT (thực phẩm, bao gói tiếp xúc thực phẩm — rủi ro trung bình). Chưa thấy nguồn nói TT 27/2026 thay TT 15/2024 — cần đối chiếu. CẬP NHẬT 04/10/2026: QĐ 988/QĐ-BYT ngày 24-03-2025 (cùng số Công báo, trang 94–95) đính chính TT 15/2024 — sửa viện dẫn điểm d khoản 4 Điều 3 và bỏ dòng thừa "II. Phụ gia thực phẩm đơn chất:" đầu bảng; không đổi mã HS.'
 danh_muc_hs:
   tep: danh-muc/15-2024-tt-byt.csv
