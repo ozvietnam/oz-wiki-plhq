@@ -47,3 +47,8 @@ Chưa nạp toàn văn Nghị định 37/2026/NĐ-CP. Nội dung trên theo ngu�
 ## Notes
 
 Danh mục theo bộ và tình trạng từng văn bản: xem nhánh `kiem-tra-chuyen-nganh` trong `bao-cao/cay-van-ban.md`.
+
+## Sources covered
+
+- [37/2026/NĐ-CP](../sources/37-2026-nd-cp.md)
+- [05/2007/QH12](../sources/05-2007-qh12.md)

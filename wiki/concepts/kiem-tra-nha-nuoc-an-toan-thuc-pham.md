@@ -41,3 +41,8 @@ Chưa nạp toàn văn. Theo nguồn thứ cấp — cần đối chiếu. Số 
 ## Notes
 
 Đừng viết "Nghị định 15/2018 đã bị Nghị định 46/2026 thay thế": Nghị định 46/2026/NĐ-CP đang bị tạm ngưng, chưa bị bãi bỏ, và sẽ có hiệu lực trở lại khi Luật An toàn thực phẩm sửa đổi có hiệu lực.
+
+## Sources covered
+
+- [15/2018/NĐ-CP](../sources/15-2018-nd-cp.md)
+- [46/2026/NĐ-CP](../sources/46-2026-nd-cp.md)

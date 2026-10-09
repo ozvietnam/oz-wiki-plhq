@@ -21,6 +21,7 @@ _This catalog is updated by /lumi-ingest and /lumi-init._
 
 _Chưa có — nạp toàn văn vào raw/ rồi chạy /lumi-ingest._
 
+<<<<<<< HEAD
 ## Doc-hieu mở rộng
 
 - [Khung thủ tục hải quan](summary/khung-thu-tuc-hai-quan.md)
@@ -28,3 +29,8 @@ _Chưa có — nạp toàn văn vào raw/ rồi chạy /lumi-ingest._
 - [Phân loại mã HS](concepts/phan-loai-ma-hs.md)
 - [Thuế GTGT hàng nhập khẩu](concepts/thue-gtgt-hang-nhap-khau.md)
 - [Nhãn hàng hoá nhập khẩu](concepts/nhan-hang-hoa-nhap-khau.md)
+=======
+## Sources
+
+Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
+>>>>>>> 2286601 (truy-vet-nguon: gắn nguồn A và mở catalog wiki/sources)
