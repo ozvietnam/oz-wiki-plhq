@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-10-09
 
-219 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+224 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -10,13 +10,14 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Luật Hải quan và nghị định quy định chi tiết `hai-quan/luat-khung`
 
-5 văn bản, 5 chưa hết hiệu lực.
+6 văn bản, 6 chưa hết hiệu lực.
 
 - 🔵 [11/2026/QH16](../registry/van-ban/11-2026-qh16.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Hải quan
 - 🟢 [54/VBHN-VPQH](../registry/van-ban/54-vbhn-vpqh.yaml) — Văn bản hợp nhất Luật Hải quan
 - 🟢 [59/2018/NĐ-CP](../registry/van-ban/59-2018-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định 08/2015/NĐ-CP
 - 🟢 [08/2015/NĐ-CP](../registry/van-ban/08-2015-nd-cp.yaml) — Quy định chi tiết và biện pháp thi hành Luật Hải quan về thủ tục hải quan, kiểm tra, giám sát, kiểm soát hải quan
 - 🟢 [54/2014/QH13](../registry/van-ban/54-2014-qh13.yaml) — Luật Hải quan
+- ❔ [76-VBHN/VPQH](../registry/van-ban/76-vbhn-vpqh.yaml) — VB hợp nhất 76/VBHN-VPQH (hợp nhất 105/2016/QH13)
 
 ### Thủ tục hải quan, khai báo, hồ sơ `hai-quan/thu-tuc`
 
@@ -56,7 +57,7 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 2 văn bản, 2 chưa hết hiệu lực.
 
 - 🔵 [336/2026/NĐ-CP](../registry/van-ban/336-2026-nd-cp.yaml) — Quy định thực hiện thủ tục hành chính đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh; phương tiện vận tải xuất cảnh, nhập cảnh, quá cảnh theo cơ chế một cửa quốc gia, cơ chế một cửa ASEAN
-- 🟢 [85/2019/NĐ-CP](../registry/van-ban/85-2019-nd-cp.yaml) — Quy định thực hiện thủ tục hành chính theo cơ chế một cửa quốc gia, cơ chế một cửa ASEAN và kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu _(hết hiệu lực 2026-10-15)_
+- 🟢 [85/2019/NĐ-CP](../registry/van-ban/85-2019-nd-cp.yaml) — Quy định thực hiện thủ tục hành chính theo cơ chế một cửa quốc gia, cơ chế một cửa ASEAN và kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu
 
 ### Sổ tay, quy trình, hướng dẫn nghiệp vụ của cơ quan hải quan `hai-quan/so-tay-nghiep-vu`
 
@@ -144,7 +145,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 - 🟢 [126/QĐ-TTg](../registry/van-ban/126-qd-ttg-2026.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu (EVFTA)
 - 🟢 [127/QĐ-TTg](../registry/van-ban/127-qd-ttg-2026.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP)
-- ❔ [328/QĐ-TTg](../registry/van-ban/328-qd-ttg-2022.yaml) — Về việc chỉ định các cơ quan đầu mối để triển khai Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)
+- 🟢 [328/QĐ-TTg](../registry/van-ban/328-qd-ttg-2022.yaml) — Về việc chỉ định các cơ quan đầu mối để triển khai Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)
 - ⚫ [1175/QĐ-TTg](../registry/van-ban/1175-qd-ttg-2020.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu (EVFTA) _(hết hiệu lực 2026-01-16)_
 - 🟢 [102/2020/QH14](../registry/van-ban/102-2020-qh14.yaml) — Phê chuẩn Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu
 - ⚫ [734/QĐ-TTg](../registry/van-ban/734-qd-ttg-2019.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP) _(hết hiệu lực 2026-01-16)_
@@ -259,7 +260,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Y tế `kiem-tra-chuyen-nganh/byt`
 
-19 văn bản, 15 chưa hết hiệu lực.
+21 văn bản, 17 chưa hết hiệu lực.
 
 - 🟢 [26/2026/TT-BYT](../registry/van-ban/26-2026-tt-byt.yaml) — Danh mục dược liệu, thuốc cổ truyền theo mức độ rủi ro (rủi ro trung bình)
 - 🟢 [27/2026/TT-BYT](../registry/van-ban/27-2026-tt-byt.yaml) — Ban hành Danh mục thực phẩm; dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm có mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Y tế
@@ -280,6 +281,8 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [105/2016/QH13](../registry/van-ban/105-2016-qh13.yaml) — Luật Dược
 - ⚫ [34/2005/QH11](../registry/van-ban/34-2005-qh11.yaml) — Luật Dược 2005 (bản gốc, đã hết hiệu lực) _(hết hiệu lực 2017-01-01)_
 - 🟢 [05/2022/TT-BYT](../registry/van-ban/05-2022-tt-byt.yaml) — Thông tư về thiết bị y tế (được TT 24/2026/TT-BYT sửa đổi)
+- ❔ [14/2018/TT-BYT](../registry/van-ban/14-2018-tt-byt.yaml) — TT 14/2018/TT-BYT (được nhắc bởi 19/2024)
+- ❔ [59/2025/TT-BYT](../registry/van-ban/59-2025-tt-byt.yaml) — TT 59/2025/TT-BYT (bị bãi bởi 24/2026)
 
 ### Danh mục thuộc Bộ Nông nghiệp và Môi trường `kiem-tra-chuyen-nganh/bnnmt`
 
@@ -310,8 +313,10 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Xây dựng (vật liệu xây dựng, phương tiện giao thông) `kiem-tra-chuyen-nganh/bxd`
 
-5 văn bản, 2 chưa hết hiệu lực.
+7 văn bản, 4 chưa hết hiệu lực.
 
+- 🟢 [49-PL1/2026/TT-BXD](../registry/van-ban/49-2026-tt-bxd-pl1.yaml) — Phụ lục I — Danh mục sản phẩm, hàng hóa có mức độ rủi ro cao thuộc phạm vi quản lý của Bộ Xây dựng (ban hành kèm theo TT 49/2026/TT-BXD)
+- 🟢 [49-PL2/2026/TT-BXD](../registry/van-ban/49-2026-tt-bxd-pl2.yaml) — Phụ lục II — Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình thuộc phạm vi quản lý của Bộ Xây dựng (ban hành kèm theo TT 49/2026/TT-BXD)
 - 🟢 [49/2026/TT-BXD](../registry/van-ban/49-2026-tt-bxd.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao lĩnh vực giao thông vận tải thuộc phạm vi quản lý của Bộ Xây dựng
 - 🟢 [41/2026/TT-BXD](../registry/van-ban/41-2026-tt-bxd.yaml) — Quản lý chất lượng sản phẩm, hàng hoá vật liệu xây dựng
 - ⚫ [62/2024/TT-BGTVT](../registry/van-ban/62-2024-tt-bgtvt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 12/2022/TT-BGTVT ngày 30/6/2022 của Bộ trưởng Bộ Giao thông vận tải quy định danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Giao thông vận tải _(hết hiệu lực 2026-07-01)_
@@ -354,7 +359,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ## Phòng vệ thương mại (chống bán phá giá, chống trợ cấp, tự vệ) `phong-ve-thuong-mai`
 
-25 văn bản, 21 chưa hết hiệu lực.
+25 văn bản, 20 chưa hết hiệu lực.
 
 - 🟢 [1309/QĐ-BCT](../registry/van-ban/1309-qd-bct-2026.yaml) — Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá và chống trợ cấp đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan
 - 🟢 [3765/QĐ-BCT](../registry/van-ban/3765-qd-bct-2025.yaml) — Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép cán nguội (ép nguội) dạng cuộn hoặc tấm có xuất xứ từ nước Cộng hòa nhân dân Trung Hoa _(hết hiệu lực 2030-12-28)_
@@ -363,7 +368,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - ⚫ [2491/QĐ-BCT](../registry/van-ban/2491-qd-bct-2025.yaml) — Áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm ván sợi gỗ có xuất xứ từ Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa _(hết hiệu lực 2026-01-18)_
 - 🟢 [2333/QĐ-BCT](../registry/van-ban/2333-qd-bct-2025.yaml) — Điều tra áp dụng biện pháp chống bán phá giá đối với một số sản phẩm gạch gốm, sứ ốp lát có xuất xứ từ Cộng hòa Ấn Độ
 - 🟢 [2310/QĐ-BCT](../registry/van-ban/2310-qd-bct-2025.yaml) — Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm thép mạ có xuất xứ từ Cộng hòa nhân dân Trung Hoa và Đại Hàn Dân Quốc _(hết hiệu lực 2030-08-14)_
-- 🟢 [2105/QĐ-BCT](../registry/van-ban/2105-qd-bct-2025.yaml) — Sửa đổi Quyết định số 1989/QĐ-BCT về kết quả rà soát lần thứ nhất việc áp dụng biện pháp chống bán phá giá và chống trợ cấp đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan
+- ⚫ [2105/QĐ-BCT](../registry/van-ban/2105-qd-bct-2025.yaml) — Sửa đổi Quyết định số 1989/QĐ-BCT về kết quả rà soát lần thứ nhất việc áp dụng biện pháp chống bán phá giá và chống trợ cấp đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan _(hết hiệu lực 2026-06-16)_
 - 🟢 [2093/QĐ-BCT](../registry/van-ban/2093-qd-bct.yaml) — Điều tra áp dụng biện pháp chống bán phá giá đối với một số sản phẩm kính nổi không màu có xuất xứ từ Cộng hòa In-đô-nê-xi-a và Ma-lai-xi-a
 - 🟢 [2027/QĐ-BCT](../registry/van-ban/2027-qd-bct.yaml) — Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm bằng plastic được làm từ các polyme từ propylen có xuất xứ từ Ma-lai-xi-a, Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa
 - 🟢 [1978/QĐ-BCT](../registry/van-ban/1978-qd-bct.yaml) — Rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép hình chữ H có xuất xứ từ Ma-lai-xi-a
