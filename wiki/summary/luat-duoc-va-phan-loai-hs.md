@@ -38,12 +38,10 @@ Luật Dược 2016 (105/2016/QH13, sửa bổ sung bởi 44/2024/QH15) là **c�
 | **Cao dán thảo mộc** (gừng + ngải cứu) | ✅ Có (thuốc cổ truyền) | **3004.90.98** | Giấy phép NK thuốc (09/2024/TT-BYT-DM8) |
 | **Bột gừng khô** để nấu ăn | ❌ Không (thực phẩm) | 0910.30 (gia vị) | Không |
 | **Bột gừng** đạt chuẩn dược điển, SX thuốc | ✅ Có (nguyên liệu thuốc) | **3003.90.90** | Giấy phép NK nguyên liệu |
-| **Tinh dầu tràm** (mua để xông hơi) | ✅ Có (thuốc cổ truyền) | **3004.90.98** hoặc **3301** | Tùy công bố |
-| **Tinh dầu tràm** (mua để thư giãn, không công bố dược) | ❌ Không (mỹ phẩm) | 3301.29 | Mỹ phẩm |
-| **Kính mắt (cận/viễn/lão)** | ❌ Không (TTBYT) | **9004.90.10** | TTBYT theo NĐ 98/2021 |
-| **Thấu kính áp tròng** | ❌ Không (TTBYT) | **9001.30.00** | TTBYT theo NĐ 98/2021 |
-| **Thuốc nhỏ mắt** | ✅ Có (thuốc) | **3004.90.96** | Giấy phép NK thuốc |
-| **Dung dịch kính áp tròng** | ✅ Có (thuốc) | **3004.90** | Giấy phép NK thuốc |
+| **Bột quế** (để nấu ăn) | ❌ Không (thực phẩm) | 0906.11 (quế chưa nghiền) hoặc 0906.20 (đã nghiền) | Không |
+| **Bột quế** (SX thuốc) | ✅ Có (nguyên liệu thuốc) | **3003.90.90** | Giấy phép NK nguyên liệu |
+| **Hỗn hợp bột gừng + bột quế** (gói thành phẩm, bán lẻ) | ⚠️ Tùy công bố | 0910.30/0906.20 (nếu gia vị) hoặc **3004.90.98** (nếu thuốc cổ truyền) | Tùy công bố |
+| **Cao dán chỉ giữ ấm vật lý**, KHÔNG công dụng dược lý | Có thể không phải thuốc | 3005.10 (nếu băng y tế) hoặc 3824 (chế phẩm hóa học) | Tùy mã |
 
 ## Điểm mù thường gặp
 
