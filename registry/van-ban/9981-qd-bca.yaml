@@ -14,12 +14,15 @@ nguon:
 trich_dan_trong_bieu_thue: 12
 xac_minh:
   muc: NGUON_B
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
+  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực. Hiệu lực hiện tại CHƯA xác minh được từ nguồn bậc A.
   hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: khoi-tao
+  ngay: '2026-10-09'
+  boi: hermes (loop 2026-10-09)
   chan:
     ma: THIEU_PDF_A
-    viec_tiep: customs Attachments/12857 đã 404; chờ bản ký số trên datafiles/bocongan. Không nạp từ TVXNK (C) để đánh true.
-    ngay: '2026-10-04'
+    viec_tiep: >-
+      customs Attachments/12857 đã 404; chờ bản ký số trên datafiles/bocongan. Không nạp từ TVXNK (C)
+      để đánh true. Ngoài ra, 6266/QĐ-BCA (2023) thay TT 08/2019/TT-BCA, KHÔNG thay QĐ 9981. 125/2026/TT-BCA
+      Điều 5 quy định chuyển tiếp nhưng không ghi rõ thay 9981 — cần đối chiếu thêm khi có nguồn A.
+    ngay: '2026-10-09'
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 12 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + lawnet.vn). KHUNG KTCN 2026 (tin cậy MEDIUM): Danh mục rủi ro mới của Bộ Công an là TT 125/2026/TT-BCA (PCCC & cứu nạn cứu hộ, thiết bị an toàn giao thông, giám sát an ninh). Tem kiểm định cũ hết 30/6/2026. Cần đối chiếu mã. GHI CHÚ NGHIỆP VỤ (hs-code-api): Công bố mã HS cho 29 sản phẩm nhóm 2 (vũ khí, vật liệu nổ, công cụ hỗ trợ, áo giáp…). Căn cứ TT 08/2019/TT-BCA — thông tư này đã bị bãi bỏ, danh mục nhóm 2 BCA hiện theo QĐ 6266/QĐ-BCA (2023); cần đối chiếu mã HS với QĐ 6266. Số hiệu hay viết 9981/QĐ-BCA 2019. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.'

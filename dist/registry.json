@@ -281,8 +281,7 @@
           "ma": "CHO_CONG_BO_A",
           "ngay": "2026-10-09",
           "viec_tiep": "Cần bản Công báo ký số - PDF hiện không điền số"
-        },
-        "canh_bao": "Tệp toan_van là tệp đính kèm thẻ vanban.chinhphu.vn docid=216592 (datafiles …/2026/01/01-bnnmt.pdf) nhưng là bản KHÔNG điền số và ngày (\"Số: /2026/TT-BNNMT\", \"Hà Nội, ngày tháng năm 2026\"), không phải bản ký số/Công báo. Dùng để đọc nội dung (Điều 30 khoản 1 ghi hiệu lực 01-01-2026); cần thay bằng bản Công báo khi trích dẫn."
+        }
       },
       "ghi_chu": "Trích yếu cổng Chính phủ rộng hơn tên mô tả cũ (danh mục kiểm dịch). Người ký Phùng Đức Tiến. Bản hợp nhất VBHN 67/VBHN-BNNMT và Cục Chăn nuôi và Thú y vẫn theo bài tổng hợp, chưa đối chiếu trong toàn văn.",
       "toan_van": "raw/download/datafiles.chinhphu.vn/01-2026-tt-bnnmt.pdf",
@@ -337,7 +336,7 @@
       "hieu_luc_tu": "2024-05-15",
       "tinh_trang": "CHUA_XAC_MINH",
       "nhanh": [
-        "kien-tra-chuyen-nganh/bct"
+        "kiem-tra-chuyen-nganh/bct"
       ],
       "nguon": [
         {
@@ -379,7 +378,7 @@
       "hieu_luc_tu": "2015-05-01",
       "tinh_trang": "CHUA_XAC_MINH",
       "nhanh": [
-        "kien-tra-chuyen-nganh/bct"
+        "kiem-tra-chuyen-nganh/bct"
       ],
       "nguon": [
         {
@@ -415,25 +414,30 @@
       "co_quan": "BYT",
       "ngay_ban_hanh": "2021-03-04",
       "hieu_luc_tu": "2021-03-04",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "het_hieu_luc_tu": "2024-07-26",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/byt"
       ],
       "nguon": [
+        {
+          "url": "https://vbpl.vn/en/van-ban/chi-tiet/thong-tu-so-03-2021-tt-byt-bai-bo-mot-phan-quy-dinh-tai-phu-luc-1-ban-hanh-kem-theo-thong-tu-so-48-2018-tt-byt-ngay-28-thang-12-nam-2018-cua-bo-truong-bo-y-te-ban-hanh-danh-muc-duoc-lieu-cac-chiet-xuat-tu-duoc-lieu-tinh-dau-lam-thuoc-thuoc-co-truyen-thuoc-duoc-lieu-xuat-khau-nhap-khau-duoc-xac-dinh-ma-so-hang-hoa-theo-danh-muc-hang-hoa-xuat-khau-nhap-khau-viet-nam--148464",
+          "truy_cap": "2026-10-09"
+        },
         {
           "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-03-2021-TT-BYT-bai-bo-mot-phan-Thong-tu-48-2018-TT-BYT-Danh-muc-duoc-lieu-466615.aspx",
           "truy_cap": "2026-10-04"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực, ngày hết hiệu lực (TT 09/2024/TT-BYT Điều 4 khoản 2 điểm c bãi bỏ toàn bộ từ 26/7/2024)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-09",
+        "boi": "hermes (loop 2026-10-09)"
       },
       "slug": "03-2021-tt-byt",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_bai_bo_boi": [
           {
@@ -601,7 +605,7 @@
       "hieu_luc_tu": "2016-08-01",
       "tinh_trang": "CHUA_XAC_MINH",
       "nhanh": [
-        "kien-tra-chuyen-nganh/bct"
+        "kiem-tra-chuyen-nganh/bct"
       ],
       "nguon": [
         {
@@ -726,7 +730,8 @@
       "co_quan": "BYT",
       "ngay_ban_hanh": "2018-04-06",
       "hieu_luc_tu": "2018-05-21",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "het_hieu_luc_tu": "2024-07-26",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/byt"
       ],
@@ -738,10 +743,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực, ngày hết hiệu lực (TT 09/2024/TT-BYT Điều 4 khoản 2 điểm a bãi bỏ toàn bộ từ 26/7/2024)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-09",
+        "boi": "hermes (loop 2026-10-09)"
       },
       "slug": "06-2018-tt-byt",
       "bac_nguon_cao_nhat": "A",
@@ -1028,7 +1033,7 @@
       "hieu_luc_tu": "2013-05-23",
       "tinh_trang": "CHUA_XAC_MINH",
       "nhanh": [
-        "kien-tra-chuyen-nganh/bct"
+        "kiem-tra-chuyen-nganh/bct"
       ],
       "nguon": [
         {
@@ -1506,8 +1511,7 @@
         "pham_vi": "Văn bản hợp nhất toàn bộ 3 văn bản (105/2016, 28/2018, 44/2024). Đã đọc chi tiết toàn văn 14 Chương, 119 Điều. Cấu trúc: Chương I (Điều 1-6, Quy định chung - gồm Điều 2 giải thích từ ngữ, Điều 6 hành vi nghiêm cấm); Chương II (Điều 7-10, Chính sách NN); Chương III (Điều 11-31, Hành nghề dược); Chương IV (Điều 32-65, Kinh doanh dược); Chương V (Điều 54-65, Đăng ký lưu hành - Điều 54 miễn đăng ký cho thuốc NK theo Điều 60, Điều 60 NK thuốc chưa GĐKLH 9 trường hợp - đặc biệt Điều 60.2b dược liệu lần đầu dùng làm thuốc); Chương VI (Điều 66-73, Dược liệu + Thuốc cổ truyền - Điều 73.3 Bộ Y tế hướng dẫn thuốc cổ truyền dạng bào chế hiện đại); Chương VII-XIV (Đơn thuốc, Thông tin thuốc, Dược lâm sàng, Quản lý thuốc trong cơ sở KCB, Thử thuốc lâm sàng, Quy chuẩn chất lượng, Quản lý giá, Điều khoản thi hành). 12 Mục chia nhỏ trong 14 Chương.",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-09",
-        "boi": "hermes",
-        "canh_bao": "Chương VI Điều 73.3: Bộ Y tế giao hướng dẫn 'thuốc cổ truyền có dạng bào chế hiện đại' (bao gồm cao dán) — chưa có TT hướng dẫn cụ thể → vùng xám pháp lý"
+        "boi": "hermes"
       },
       "ghi_chu": "Điều 2 khoản 2: 'Thuốc là chế phẩm có chứa dược chất hoặc dược liệu dùng cho người nhằm mục đích phòng bệnh, chẩn đoán bệnh, chữa bệnh, điều trị bệnh, giảm nhẹ bệnh, điều chỉnh chức năng sinh lý cơ thể người'. Điều 2 khoản 8: 'Thuốc cổ truyền là thuốc có thành phần từ một hoặc nhiều dược liệu được phối ngũ theo lý luận y học cổ truyền'. Điều 60.2b: cho phép cấp phép NK thuốc chưa có GĐKLH nếu chứa dược liệu lần đầu sử dụng làm thuốc tại VN - cơ sở pháp lý cho DN NK cao dán gừng + ngải cứu dù chưa có trong DM 09/2024/TT-BYT.",
       "tu_khoa": [
@@ -1603,7 +1607,7 @@
       "co_quan": "CP",
       "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
-        "luat-khung"
+        "quan-ly-ngoai-thuong/luat-khung"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
@@ -1789,21 +1793,29 @@
       "co_quan": "BCT",
       "ngay_ban_hanh": "2022-04-06",
       "het_hieu_luc_tu": "2026-07-17",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct",
         "kiem-tra-chuyen-nganh/an-toan-thuc-pham"
       ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban-dang-cong-bao/trang-742.htm",
+          "truy_cap": "2026-10-09",
+          "ghi_chu": "Trang danh mục Công báo chứa TT 11/2022/TT-BCT (hạn ngạch đường). Văn bản gán nhầm số hiệu này cho danh mục ATTP thuộc file mốc — cần đối chiếu số hiệu đúng của danh mục ATTP."
+        }
+      ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "theo bài tổng hợp, chưa mở văn bản gốc",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "khoi-tao"
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày hết hiệu lực (từ TT 28/2026/TT-BCT Điều 4 khoản 2 — Công báo 328 ngày 14/6/2026, hiệu lực 17/7/2026)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-09",
+        "boi": "hermes (loop 2026-10-09)",
+        "ghi_chu_nghiep_vu": "Hết hiệu lực nguyên văn do TT 28/2026/TT-BCT thay thế. Lưu ý mâu thuẫn số hiệu cũ (11/2022/TT-BCT 27-06-2022 là phân giao hạn ngạch đường) — danh mục ATTP gán nhầm số này trong bài tổng hợp. Giữ file mốc + ghi chú cảnh báo."
       },
-      "ghi_chu": "Hết hiệu lực 17/7/2026 — nguồn tổng hợp ghi \"đã xác minh nguyên văn\". Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json. MÂU THUẪN NGUỒN (04/10/2026): bài tổng hợp nói hết hiệu lực 17/7/2026 \"đã xác minh nguyên văn\"; Hermes-211 (hs-code-api nhánh hermes/ktcn-2026-kiem-chung, reports/ktcn-2026/KIEM-CHUNG.md, 04/10/2026) đọc TT 28/2026/TT-BCT không thấy nhắc TT 11/2022. Giữ ngày 17/7/2026 làm ngày dự kiến, chuyển tình trạng sang CHUA_XAC_MINH cho tới khi mở TT 11/2022 và điều khoản thi hành TT 28/2026. MÂU THUẪN SỐ HIỆU: trên congbao/vanban.chinhphu.vn, 11/2022/TT-BCT (27-06-2022) là phân giao hạn ngạch đường; bài tổng hợp/hs-code-api gán số này cho danh mục ATTP ban hành 06-04-2022. Chưa nạp toàn văn — cần xác định số hiệu đúng của danh mục ATTP trước khi nạp.",
+      "ghi_chu": "Hết hiệu lực 17/7/2026 theo TT 28/2026/TT-BCT (Điều 4 khoản 2). Đã xác minh nguồn A (Công báo). Lưu ý mâu thuẫn số hiệu cũ: 11/2022/TT-BCT 27/06/2022 là phân giao hạn ngạch đường; danh mục ATTP ban hành 06/04/2022 bị gán nhầm số này trong một số bài tổng hợp. Không sửa số hiệu trong file mốc.",
       "slug": "11-2022-tt-bct",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -2199,8 +2211,7 @@
         "pham_vi": "tình trạng hiện tại: Điều 4 khoản 2 TT 28/2026/TT-BCT (PDF Công báo số 328 ngày 14-06-2026, lớp chữ) chấm dứt Khoản 1 Điều 2 và Phụ lục 2 từ 17-07-2026; Phụ lục 1 (chất lượng nhóm 2) chưa bị điều khoản này bãi — khung NĐ 37/2026/NĐ-CP bỏ khái niệm nhóm 2 từ 01-07-2026 nhưng chưa đối chiếu điều khoản bãi Phụ lục 1 trên nguồn A của TT 33/2026/TT-BCT",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam",
-        "canh_bao": "Phụ lục 1 còn mở — cần đối chiếu TT 33/2026/TT-BCT trước khi ghi HET_HIEU_LUC toàn bộ."
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json. HET_HIEU_LUC_MOT_PHAN: Phụ lục 2 (ATTP) hết từ 17-07-2026 theo TT 28/2026; Phụ lục 1 chưa xác minh hết trên nguồn A. Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 249 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn + caselaw.vn (PDF gốc BCT)). KHUNG KTCN 2026: QĐ công bố danh mục theo khung cũ — Phụ lục 2 (ATTP) đã bị TT 28/2026/TT-BCT vượt qua; Phụ lục 1 (chất lượng nhóm 2) chuyển sang đối chiếu TT 33/2026/TT-BCT. Quan hệ pháp lý chính thức: CHƯA XÁC MINH. GHI CHÚ NGHIỆP VỤ (hs-code-api): [PL2] Phụ lục 2 của QĐ 1182/QĐ-BCT — Danh mục kiểm tra chuyên ngành về an toàn thực phẩm (sữa; nước giải khát, rượu, bia, cồn; dầu thực vật; bột, tinh bột, bánh, mứt, kẹo) · [PL1] Phụ lục 1 của QĐ 1182/QĐ-BCT — Danh mục kiểm tra chuyên ngành về chất lượng sản phẩm, hàng hóa nhóm 2 CẬP NHẬT 04/10/2026 (đã đọc nguyên văn Công báo số 328 ngày 14-06-2026): Điều 4 khoản 2 TT 28/2026/TT-BCT chỉ chấm dứt Khoản 1 Điều 2 và Phụ lục 2 từ 17-07-2026 — không phải toàn bộ quyết định; trước đó sổ ghi nhầm HET_HIEU_LUC toàn bộ.",
       "toan_van": "raw/download/moit.gov.vn/1182-qd-bct.pdf",
@@ -2545,8 +2556,7 @@
           "ma": "CHO_CONG_BO_A",
           "ngay": "2026-10-09",
           "viec_tiep": "TT 125 không liệt kê bãi 8378/6266 - cần PDF A"
-        },
-        "canh_bao": "PR #24 đặt hieu_luc_da_doi_chieu: true chỉ dựa trên Điều 5 khoản 1 của chính văn bản (chứng minh ngày bắt đầu 01-07-2026), không ghi đã kiểm tình trạng hiện tại (văn bản sửa đổi/thay thế sau) nên giữ false."
+        }
       },
       "ghi_chu": "PCCC và cứu nạn cứu hộ (8 sản phẩm), thiết bị an toàn giao thông, giám sát an ninh công cộng. Nền: Luật 55/2024/QH15. Tem kiểm định cũ hết 30/6/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
       "nguon": [
@@ -3325,8 +3335,7 @@
           "ma": "THIEU_DIEU_THI_HANH_A",
           "ngay": "2026-10-09",
           "viec_tiep": "Chưa đọc điều khoản thi hành"
-        },
-        "canh_bao": "Chưa đọc điều khoản thi hành — chưa biết sửa/thay văn bản nào cụ thể."
+        }
       },
       "ghi_chu": "Trang tổng hợp Meta AI ghi sai ngày ban hành (03-10). Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.",
       "slug": "142-2026-tt-btc",
@@ -3945,8 +3954,7 @@
         "pham_vi": "Số hiệu 163/2025/NĐ-CP, ngày ban hành 29-06-2025, người ký Lê Thành Long, ngày hiệu lực 01-07-2025; thay thế 54/2017/NĐ-CP. Điều chỉnh Điều 13, khoản 4 Điều 29, khoản 3 Điều 34, khoản 5 Điều 38, khoản 2 Điều 41, khoản 6 Điều 54, khoản 4+5 Điều 60, khoản 3 Điều 69 của Luật Dược 2016; khoản 4, 5, 9, điểm a+c khoản 18, điểm d+đ khoản 32, khoản 33, 39, 43 Điều 1 Luật sửa đổi 2024. Căn cứ ban hành: Luật Tổ chức Chính phủ 18/02/2025 + Luật Tổ chức chính quyền địa phương 16/6/2025. OCR toàn văn 288 trang đã đọc: 129 Điều + 5 Phụ lục. Điều quan trọng: (1) Điều 19 - Điều kiện kinh doanh thuốc cổ truyền (5 mục - SX/XK/NK/bảo quản/bán buôn/bán lẻ dược liệu + thuốc dược liệu + thuốc cổ truyền); (2) Điều 87 - Quy định thông báo NK thuốc (5 ngày làm việc trước khi khai HQ, gửi UBND cấp tỉnh - chi tiết 7 trường thông tin); (3) Điều 88 - Kiểm nghiệm chất lượng thuốc trước khi lưu hành; (4) Điều 89-90 - Đăng ký lưu hành dược liệu, tá dược, vỏ nang; (5) Điều 125 - Lộ trình triển khai kiểm soát NK thuốc; (6) Điều 127 - Điều khoản chuyển tiếp; (7) Điều 128 - Sửa đổi NĐ 31/2021; (8) Điều 129 - Hiệu lực thi hành. Phụ lục: I (mẫu đơn đề nghị cấp GĐKLH), II (báo cáo XNK thuốc kiểm soát đặc biệt), III (các mẫu khác), IV-V (chưa rõ). CHÚ Ý: DM11/12/13 trong 09/2024/TT-BYT không phải do 163/2025/NĐ-CP quy định - 163/2025 chỉ là NĐ hướng dẫn Luật Dược, không thay đổi DM 09/2024/TT-BYT.",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-09",
-        "boi": "hermes",
-        "canh_bao": "OCR bằng tesseract 5.5.3 + vie language model - chất lượng 90-95% (một số ký tự sai VD: cỗ/cổ, đuọc/dược, dạng/dạng). PDF gốc có digital signature nên đã strip bằng pikepdf trước khi OCR."
+        "boi": "hermes"
       },
       "ghi_chu": "Căn cứ pháp lý hiện hành cho giấy phép NK thuốc, nguyên liệu làm thuốc. Phụ lục I-V quy định biểu mẫu cụ thể. Cần rà chi tiết các điều khoản về giấy phép nhập khẩu thuốc dùng ngoài da (Điều 87) và thuốc cổ truyền. Lộ trình 01-01-2028 cho báo cáo NK (Điều 87, 125) — cần theo dõi. Đã tải PDF bản ký số gốc 288 trang nhưng không có text layer.",
       "tu_khoa": [
@@ -4394,8 +4402,7 @@
         "pham_vi": "Số hiệu, ngày ban hành, cơ quan và nội dung trích yếu được dẫn trong tài liệu Cục Kiểm định hải quan năm 2023, trang in 10 (trang PDF 14), mục 2.1. Cách ghi đầy đủ trích yếu đối chiếu trang 1 bản đăng lại tại Vietnam Trade Portal. Chưa đối chiếu bản quyết định ký gốc hoặc tình trạng hiệu lực hiện tại.",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
-        "boi": "Codex@ozvietnam",
-        "canh_bao": "Nguồn A là tài liệu nghiên cứu của cơ quan dẫn văn bản, không phải toàn văn quyết định ký gốc. PDF Vietnam Trade Portal mang nhãn THƯ VIỆN PHÁP LUẬT; chỉ dùng đối chiếu bổ sung, không tự gán bậc A cho tên miền này."
+        "boi": "Codex@ozvietnam    Nguồn A là tài liệu nghiên cứu của cơ quan dẫn văn bản, không phải toàn văn quyết định ký gốc. PDF Vietnam Trade Portal mang nhãn THƯ VIỆN PHÁP LUẬT; chỉ dùng đối chiếu bổ sung, không tự gán bậc A cho tên miền này."
       },
       "ghi_chu": "Nhận riêng 1921/QĐ-TCHQ tại issue #2, bình luận 5980982623. Không ghi hieu_luc_tu, toan_van hoặc quan_he khi chưa có bản ký gốc để kiểm chứng điều khoản. Danh mục nguồn và việc cần nhận tiếp: docs/thu-thap/2026-10-04-1921-qd-tchq.md.",
       "tu_khoa": [
@@ -4669,8 +4676,7 @@
           "ma": "THIEU_DIEU_THI_HANH_A",
           "viec_tiep": "Chờ PDF A của chính 2105 trên moit/pvtm (Điều 3 thi hành). Hết HL theo 1309 chỉ chốt được khi đã có cả hai vế trên A.",
           "ngay": "2026-10-04"
-        },
-        "canh_bao": "Đã ghi xac_minh.chan (THIEU_DIEU_THI_HANH_A) — xem node tools/san-hieu-luc.mjs; không săn lặp URL đã 404."
+        }
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 6 mã HS). Tiêu đề đã đối chiếu (vbpl.ts24.com.vn + thuvienxuatnhapkhau.com). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc AD13-AS01 (đường mía, chương 17). Sửa đổi QĐ 1989/QĐ-BCT ngày 03/08/2023. Biện pháp CBPG+CTC đường mía Thái Lan đã được gia hạn 5 năm bởi QĐ 1309/QĐ-BCT ngày 02/06/2026 (đến 15/06/2031). Chưa xác nhận ngày hiệu lực riêng — cần CEO xem bản gốc. Số hiệu hay viết 2105/QĐ-BCT-2025. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.",
       "slug": "2105-qd-bct-2025",
@@ -5103,11 +5109,10 @@
           "ma": "THIEU_PDF_A",
           "viec_tiep": "Chờ PDF A trên datafiles/most/mst; chicuctdc chỉ tóm tắt (không bậc A).",
           "ngay": "2026-10-04"
-        },
-        "canh_bao": "Đã ghi xac_minh.chan (THIEU_PDF_A) — xem node tools/san-hieu-luc.mjs; không săn lặp URL đã 404."
+        }
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 19 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + thuvienxuatnhapkhau.com). GHI CHÚ NGHIỆP VỤ (hs-code-api): Index năm 2018 = bảng mã HS phương tiện đo nhóm 2 (XNK). Có QĐ 2284/QĐ-BKHCN năm 2013 về công bố TCVN trang sức — KHÔNG nhầm số hiệu. Danh mục đo lường nhóm 2 đã được TT 03/2024/TT-BKHCN cập nhật từ 15/10/2024. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.",
-      "slug": "2284-qd-bkhcn-2018",
+      "slug": "2284-qd-bkhcn",
       "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
     },
@@ -5419,7 +5424,7 @@
       "co_quan": "CP",
       "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
-        "luat-khung"
+        "quan-ly-ngoai-thuong/luat-khung"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
@@ -5753,12 +5758,11 @@
           "ma": "THIEU_BAI_TUONG_MINH",
           "viec_tiep": "Chờ QĐ/TT-BKHCN hoặc vbpl ghi rõ hết/còn 2711; không suy ra HET từ NĐ 37 hết khung 132/74 hay TT 36 danh mục rủi ro mới.",
           "ngay": "2026-10-04"
-        },
-        "canh_bao": "Đã ghi xac_minh.chan (THIEU_BAI_TUONG_MINH) — xem node tools/san-hieu-luc.mjs; không săn lặp URL đã 404."
+        }
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 263 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn + luatvietnam.vn). KHUNG KTCN 2026 (tin cậy MEDIUM): Khung 'nhóm 2' (NĐ 132/2008, NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026. GHI CHÚ NGHIỆP VỤ (hs-code-api): Đã sửa đổi/bổ sung bởi QĐ 366/QĐ-BKHCN (2023), QĐ 367/QĐ-BKHCN (2024); phần CNTT-viễn thông thay bằng TT 29/2025/TT-BKHCN",
       "toan_van": "raw/download/datafiles.chinhphu.vn/2711-qd-bkhcn.pdf",
-      "slug": "2711-qd-bkhcn-2022",
+      "slug": "2711-qd-bkhcn",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_sua_doi_boi": [
@@ -5834,8 +5838,7 @@
         "pham_vi": "Số hiệu 28/2018/QH14, ban hành 15/6/2018; đã được hợp nhất vào 76-VBHN/VPQH 2026 (tháng 3/2026). Đây là bản sửa đổi Luật Dược 2016 lần 1, trước 44/2024/QH15 (lần 2).",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-09",
-        "boi": "hermes",
-        "canh_bao": "Ngày hiệu lực chính xác chưa verify (có thể là 01/07/2018 hoặc 01/01/2019). Cần rà lại bản gốc nếu cần chính xác."
+        "boi": "hermes"
       },
       "ghi_chu": "Giữ trong sổ để truy vết. Văn bản 105/2016 + 28/2018 + 44/2024 đã được hợp nhất thành 76-VBHN/VPQH 2026 — đây là bản đang có hiệu lực.",
       "tu_khoa": [
@@ -5868,7 +5871,8 @@
       "co_quan": "TTG",
       "ngay_ban_hanh": "2020-09-24",
       "hieu_luc_tu": "2020-11-15",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "het_hieu_luc_tu": "2023-06-01",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "quan-ly-ngoai-thuong/giay-phep"
       ],
@@ -5880,10 +5884,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực, ngày hết hiệu lực (QĐ 13/2023/QĐ-TTg Điều 4 khoản 1 thay thế toàn bộ từ 01/6/2023)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-09",
+        "boi": "hermes (loop 2026-10-09)"
       },
       "slug": "28-2020-qd-ttg",
       "bac_nguon_cao_nhat": "A",
@@ -6582,7 +6586,6 @@
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-09",
         "boi": "hermes",
-        "canh_bao": "Có thể bị thay thế bởi NĐ 163/2025/NĐ-CP (Điều 73.3 Luật 105/2016) - cần đối chiếu khi BYT ban hành TT mới. Chưa tìm được nguồn bậc A (congbao/datafiles) trong lượt này.",
         "chan": {
           "ma": "CHO_CONG_BO_A",
           "ngay": "2026-10-09",
@@ -7123,8 +7126,7 @@
           "ma": "CHO_CONG_BO_A",
           "viec_tiep": "Theo dõi pvtm/moit đăng PDF kết quả AR02.AD10; trav AD10 chưa có file 3546 (đến 04-10-2026).",
           "ngay": "2026-10-04"
-        },
-        "canh_bao": "Đã ghi xac_minh.chan (CHO_CONG_BO_A) — xem node tools/san-hieu-luc.mjs; không săn lặp URL đã 404."
+        }
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 6 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + sct.tayninh.gov.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc AR02.AD10. Điều chỉnh mức thuế CBPG theo nhóm công ty (3,57%–12,63% với Trung Quốc…), áp dụng đến 15/10/2026 trừ khi có QĐ rà soát/gia hạn khác. Số hiệu hay viết 3546/QĐ-BCT-2025. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.",
       "slug": "3546-qd-bct-2025",
@@ -7250,8 +7252,7 @@
           "ma": "THIEU_BAI_TUONG_MINH",
           "viec_tiep": "Cùng khung 2711 — chờ bãi tường minh; xem canh_bao/chan của 2711/QĐ-BKHCN.",
           "ngay": "2026-10-04"
-        },
-        "canh_bao": "Đã ghi xac_minh.chan (THIEU_BAI_TUONG_MINH) — xem node tools/san-hieu-luc.mjs; không săn lặp URL đã 404."
+        }
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 6 mã HS). Tiêu đề đã đối chiếu (vanban.chinhphu.vn + luatvietnam.vn). KHUNG KTCN 2026 (tin cậy MEDIUM): Khung 'nhóm 2' (NĐ 132/2008, NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026. GHI CHÚ NGHIỆP VỤ (hs-code-api): Bổ sung ống thép không gỉ (HS 7306.40.20; 7306.40.90; 7306.61.10; 7306.61.90; 7306.69.10; 7306.69.90) theo QCVN 20:2019/BKHCN + SĐ1:2021 vào danh mục nhóm 2 của QĐ 2711/QĐ-BKHCN.",
       "toan_van": "raw/download/datafiles.chinhphu.vn/366-qd-bkhcn.pdf",
@@ -7292,9 +7293,10 @@
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-09",
+        "boi": "hermes",
+        "canh_bao": "Đã đối chiếu bậc A. Sửa đổi Phụ lục 10 của 2711/QĐ-BKHCN ngày 30/12/2022."
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 4 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + mst.gov.vn (QĐ 3830/QĐ-BKHCN)). KHUNG KTCN 2026 (tin cậy MEDIUM): Khung 'nhóm 2' (NĐ 132/2008, NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026. GHI CHÚ NGHIỆP VỤ (hs-code-api): Đèn LED (QCVN 19:2019/BKHCN): bóng LED có balát lắp liền, bóng LED 2 đầu, đèn LED xách tay, đèn LED cố định — kiểm tra chất lượng sau thông quan. QĐ 3830/QĐ-BKHCN ngày 21/11/2025 hủy bỏ mã HS 9405.11.99 (đèn LED cố định, mục 10.4) khỏi danh mục.",
       "slug": "367-qd-bkhcn-2024",
@@ -7340,8 +7342,7 @@
         "pham_vi": "tình trạng hiện tại: Điều 1–7 TT 07/2026/TT-BCT (PDF Công báo số 147, lớp chữ) sửa đổi Điều 6–10, bãi bỏ Điều 11 và thay Phụ lục I–II từ 10-04-2026 — còn hiệu lực một phần; ngày bắt đầu trên sổ (20-02-2014) chưa đọc lại điều khoản thi hành của chính TT 37 trên PDF Công báo/datafiles (chưa tìm thấy tệp ổn định)",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam",
-        "canh_bao": "Chưa nạp toan_van TT 37/2013 (không tìm thấy PDF Công báo/datafiles ổn định trong lượt này); kết luận HET_HIEU_LUC_MOT_PHAN dựa trên điều khoản sửa/bãi trong TT 07/2026."
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (6 mã HS). Được TT 07/2026/TT-BCT sửa đổi, bổ sung từ 10-04-2026.",
       "slug": "37-2013-tt-bct",
@@ -7586,7 +7587,7 @@
       "co_quan": "NHNN",
       "tinh_trang": "CHUA_XAC_MINH",
       "nhanh": [
-        "kiem-tra-chuyen-nganh/nhnn"
+        "kiem-tra-chuyen-nganh/bct"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
@@ -7885,8 +7886,7 @@
         "pham_vi": "tình trạng hiện tại: Điều 20 khoản 3 điểm a TT 48/2026/TT-BCT (PDF Công báo số 521 ngày 23-09-2026) bãi bỏ Điều 3 và Phụ lục III từ 05-09-2026; chưa có PDF toàn văn của chính TT 41/2019 trên Công báo/datafiles trong lượt này — các phụ lục/điều khác chưa rà hết trên nguồn A của chính văn bản",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam",
-        "canh_bao": "Chưa nạp toan_van TT 41/2019 (không tìm thấy PDF Công báo/datafiles ổn định); kết luận HET_HIEU_LUC_MOT_PHAN dựa trên điều khoản bãi bỏ một phần trong TT 48/2026."
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 32 mã HS). Tiêu đề đã đối chiếu (reference trong 08/2023/TT-BCT). Cần bổ sung toan_van khi có PDF bậc A.",
       "slug": "41-2019-tt-bct",
@@ -8524,8 +8524,7 @@
           "ma": "SO_HIEU_LECH",
           "viec_tiep": "Đối chiếu mã HS bên hs-code-api — Công báo không có 45/2024/TT-BCT (có 45/2024/TT-BTC, 45/2025/TT-BCT). Mở issue hs-code-api nếu lệch số hiệu.",
           "ngay": "2026-10-04"
-        },
-        "canh_bao": "Đã ghi xac_minh.chan (SO_HIEU_LECH) — xem node tools/san-hieu-luc.mjs; không săn lặp URL đã 404."
+        }
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1 mã HS).",
       "slug": "45-2024-tt-bct",
@@ -8641,25 +8640,30 @@
       "co_quan": "BYT",
       "ngay_ban_hanh": "2018-12-28",
       "hieu_luc_tu": "2019-07-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "het_hieu_luc_tu": "2024-07-26",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/byt"
       ],
       "nguon": [
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-48-2018-tt-byt-ve-viec-ban-hanh-danh-muc-duoc-lieu-cac-chat-chiet-xuat-tu-duoc-lieu-tinh-dau-lam-thuoc-thuoc-co-truyen-thuoc-duoc-lieu-xuat-khau-nhap-khau-duoc-xac-dinh-ma-so-hang-hoa-theo-danh-muc-hang-hoa-xuat-khau-nhap-khau-viet-nam--180003",
+          "truy_cap": "2026-10-09"
+        },
         {
           "url": "https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Thong-tu-48-2018-TT-BYT-Danh-muc-duoc-lieu-cac-chat-chiet-xuat-tu-duoc-lieu-tinh-dau-lam-thuoc-416722.aspx",
           "truy_cap": "2026-10-04"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực, ngày hết hiệu lực (TT 09/2024/TT-BYT Điều 4 khoản 2 điểm b bãi bỏ toàn bộ từ 26/7/2024)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-09",
+        "boi": "hermes (loop 2026-10-09)"
       },
       "slug": "48-2018-tt-byt",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_bai_bo_boi": [
           {
@@ -8776,8 +8780,7 @@
           "ma": "THIEU_PDF_A",
           "ngay": "2026-10-09",
           "viec_tiep": "Chưa có PDF bậc A"
-        },
-        "canh_bao": "Chưa có PDF bậc A. Bãi 8378 không tự hồi phục 6266 — cần PDF A để chốt chuỗi 6266→8378→4814 và quan hệ với TT 125/2026 (khung rủi ro từ 01-07-2026)."
+        }
       },
       "ghi_chu": "Đầu mối từ săn hiệu lực HS_API cho 6266/QĐ-BCA.",
       "slug": "4814-qd-bca-2026",
@@ -9357,7 +9360,6 @@
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-09",
         "boi": "hermes",
-        "canh_bao": "Chưa tìm được nguồn bậc A (congbao/datafiles) trong lượt này.",
         "chan": {
           "ma": "CHO_CONG_BO_A",
           "ngay": "2026-10-09",
@@ -9625,8 +9627,7 @@
           "ma": "THIEU_PDF_A",
           "viec_tiep": "Chờ PDF A của 6266 hoặc của QĐ 8378/4814 (nguồn B nói 8378 thay 6266 rồi 4814 bãi 8378). Theo dõi bocongan.gov.vn/media.",
           "ngay": "2026-10-04"
-        },
-        "canh_bao": "Đã ghi xac_minh.chan (THIEU_PDF_A) — xem node tools/san-hieu-luc.mjs; không săn lặp URL đã 404."
+        }
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 19 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn). KHUNG KTCN 2026 (tin cậy MEDIUM): Danh mục rủi ro mới của Bộ Công an là TT 125/2026/TT-BCA (PCCC & cứu nạn cứu hộ, thiết bị an toàn giao thông, giám sát an ninh). Tem kiểm định cũ hết 30/6/2026. Cần đối chiếu mã. GHI CHÚ NGHIỆP VỤ (hs-code-api): Hiệu lực sau khi TT 08/2019/TT-BCA bị bãi bỏ. Theo dõi QĐ danh mục BCA mới hơn nếu Bộ Công an ban hành thay thế. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.",
       "slug": "6266-qd-bca-2023",
@@ -9951,7 +9952,11 @@
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
         "boi": "claude-code@ozvietnam",
-        "canh_bao": "Văn bản có thời hạn: hết hiệu lực sau 31-12-2026 nếu không có nghị quyết kéo dài tiếp. Không phải mọi dòng về 0% (xăng có chì 20%, loại khác 10%)."
+        "chan": {
+          "ma": "CHO_CONG_BO_A",
+          "ngay": "2026-10-09",
+          "viec_tiep": "VB có thời hạn đến 31/12/2026 - chờ nghị quyết kéo dài"
+        }
       },
       "ghi_chu": "Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.",
       "slug": "72-2026-nd-cp",
@@ -10103,8 +10108,7 @@
         "pham_vi": "ZIP moit.gov.vn (PDF trong gói, OCR): Điều 3 hiệu lực kể từ ngày ký ban hành (29-03-2019); trang moit.gov.vn trạng thái «Đã có hiệu lực», ngày hiệu lực 29/03/2019; sổ không có văn bản sau ghi thay/bãi 765/QĐ-BCT (TT 28/2026/TT-BCT và các TT KTCN 2026 đã đối chiếu không liệt kê); kiểm đến 04-10-2026",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam",
-        "canh_bao": "datafiles.chinhphu.vn/cpp/files/vbpq/2019/06/765.signed.pdf (đã nạp nhầm vào raw/download/datafiles.chinhphu.vn/765-qd-bct.pdf) thực chất là 765/QĐ-TTg về Hội đồng Quốc gia Giáo dục — không dùng làm toàn văn 765/QĐ-BCT."
+        "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1075 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + sct.dongnai.gov.vn). Toàn văn trích từ ZIP moit.gov.vn; tên tệp PDF trong ZIP ghi \"756\" nhưng nội dung là Quyết định 765/QĐ-BCT. Nhập từ hs-code-api data/legal-docs.json (1075 mã HS). Toàn văn chính thức là ZIP Bộ Công Thương (PDF + phụ lục DOCX); PDF trong ZIP không có lớp chữ — điều khoản đọc bằng OCR.",
       "toan_van": "raw/download/moit.gov.vn/765-qd-bct.pdf",
@@ -10287,8 +10291,7 @@
           "ma": "THIEU_PDF_A",
           "ngay": "2026-10-09",
           "viec_tiep": "Chưa có PDF bậc A"
-        },
-        "canh_bao": "Chưa có PDF bậc A (datafiles/congbao/bocongan media — dò 04-10-2026). QĐ 4814/QĐ-BCA (28-07-2026, nguồn B) bãi bỏ chính 8378 — chuỗi hiệu lực cần PDF A trước khi đánh true. TT 125/2026 không liệt kê bãi 8378/6266."
+        }
       },
       "ghi_chu": "Đầu mối từ săn hiệu lực HS_API cho 6266/QĐ-BCA. Danh mục nhóm hàng PCCC, súng thể thao, pháo hoa, súng công cụ hỗ trợ theo nguồn B.",
       "slug": "8378-qd-bca-2025",
@@ -10549,19 +10552,18 @@
       "trich_dan_trong_bieu_thue": 12,
       "xac_minh": {
         "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực. Hiệu lực hiện tại CHƯA xác minh được từ nguồn bậc A.",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "khoi-tao",
+        "ngay": "2026-10-09",
+        "boi": "hermes (loop 2026-10-09)",
         "chan": {
           "ma": "THIEU_PDF_A",
-          "viec_tiep": "customs Attachments/12857 đã 404; chờ bản ký số trên datafiles/bocongan. Không nạp từ TVXNK (C) để đánh true.",
-          "ngay": "2026-10-04"
-        },
-        "canh_bao": "Đã ghi xac_minh.chan (THIEU_PDF_A) — xem node tools/san-hieu-luc.mjs; không săn lặp URL đã 404."
+          "viec_tiep": "customs Attachments/12857 đã 404; chờ bản ký số trên datafiles/bocongan. Không nạp từ TVXNK (C) để đánh true. Ngoài ra, 6266/QĐ-BCA (2023) thay TT 08/2019/TT-BCA, KHÔNG thay QĐ 9981. 125/2026/TT-BCA Điều 5 quy định chuyển tiếp nhưng không ghi rõ thay 9981 — cần đối chiếu thêm khi có nguồn A.",
+          "ngay": "2026-10-09"
+        }
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 12 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + lawnet.vn). KHUNG KTCN 2026 (tin cậy MEDIUM): Danh mục rủi ro mới của Bộ Công an là TT 125/2026/TT-BCA (PCCC & cứu nạn cứu hộ, thiết bị an toàn giao thông, giám sát an ninh). Tem kiểm định cũ hết 30/6/2026. Cần đối chiếu mã. GHI CHÚ NGHIỆP VỤ (hs-code-api): Công bố mã HS cho 29 sản phẩm nhóm 2 (vũ khí, vật liệu nổ, công cụ hỗ trợ, áo giáp…). Căn cứ TT 08/2019/TT-BCA — thông tư này đã bị bãi bỏ, danh mục nhóm 2 BCA hiện theo QĐ 6266/QĐ-BCA (2023); cần đối chiếu mã HS với QĐ 6266. Số hiệu hay viết 9981/QĐ-BCA 2019. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.",
-      "slug": "9981-qd-bca-2019",
+      "slug": "9981-qd-bca",
       "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
     },

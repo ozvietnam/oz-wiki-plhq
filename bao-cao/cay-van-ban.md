@@ -160,17 +160,19 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Luật Quản lý ngoại thương và nghị định `quan-ly-ngoai-thuong/luat-khung`
 
-5 văn bản, 4 chưa hết hiệu lực.
+7 văn bản, 4 chưa hết hiệu lực.
 
 - 🟢 [48/2026/TT-BCT](../registry/van-ban/48-2026-tt-bct.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương
 - 🟢 [292/2026/NĐ-CP](../registry/van-ban/292-2026-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương
 - 🟡 [12/2018/TT-BCT](../registry/van-ban/12-2018-tt-bct.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương _(hết hiệu lực 2026-12-31)_
 - ⚫ [69/2018/NĐ-CP](../registry/van-ban/69-2018-nd-cp.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương _(hết hiệu lực 2026-09-05)_
 - 🟢 [05/2017/QH14](../registry/van-ban/05-2017-qh14.yaml) — Luật Quản lý ngoại thương
+- ⚫ [108/2008/NĐ-CP](../registry/van-ban/108-2008-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất _(hết hiệu lực 2017-11-25)_
+- ⚫ [26/2011/NĐ-CP](../registry/van-ban/26-2011-nd-cp.yaml) — (chưa có tiêu đề) 26/2011/NĐ-CP _(hết hiệu lực 2017-11-25)_
 
 ### Giấy phép, hạn ngạch, hàng cấm, tạm ngừng `quan-ly-ngoai-thuong/giay-phep`
 
-21 văn bản, 20 chưa hết hiệu lực.
+21 văn bản, 19 chưa hết hiệu lực.
 
 - 🟢 [11/2026/TT-BXD](../registry/van-ban/11-2026-tt-bxd.yaml) — Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu
 - 🟢 [07/2026/TT-BCT](../registry/van-ban/07-2026-tt-bct.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 37/2013/TT-BCT ngày 30 tháng 12 năm 2013 của Bộ trưởng Bộ Công Thương quy định nhập khẩu thuốc lá điếu, xì gà
@@ -186,7 +188,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [125/2021/TT-BCA](../registry/van-ban/125-2021-tt-bca.yaml) — Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ
 - ⚫ [04/2021/TT-BXD](../registry/van-ban/04-2021-tt-bxd.yaml) — Hướng dẫn xuất khẩu khoáng sản làm vật liệu xây dựng _(hết hiệu lực 2026-06-01)_
 - ❔ [1578/QĐ-BCT](../registry/van-ban/1578-qd-bct-2021.yaml) — Áp dụng thuế chống bán phá giá và thuế chống trợ cấp chính thức đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan
-- ❔ [28/2020/QĐ-TTg](../registry/van-ban/28-2020-qd-ttg.yaml) — Ban hành Danh mục phế liệu được phép nhập khẩu từ nước ngoài làm nguyên liệu sản xuất
+- ⚫ [28/2020/QĐ-TTg](../registry/van-ban/28-2020-qd-ttg.yaml) — Ban hành Danh mục phế liệu được phép nhập khẩu từ nước ngoài làm nguyên liệu sản xuất _(hết hiệu lực 2023-06-01)_
 - 🟡 [41/2019/TT-BCT](../registry/van-ban/41-2019-tt-bct.yaml) — Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương
 - 🟢 [173/2018/TT-BQP](../registry/van-ban/173-2018-tt-bqp.yaml) — Công bố danh mục cụ thể hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành của Bộ Quốc phòng theo quy định tại Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ _(hết hiệu lực 2026-12-31)_
 - 🟢 [22/2018/TT-BTTTT](../registry/van-ban/22-2018-tt-btttt.yaml) — Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm
@@ -225,7 +227,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Kiểm tra nhà nước về an toàn thực phẩm `kiem-tra-chuyen-nganh/an-toan-thuc-pham`
 
-10 văn bản, 10 chưa hết hiệu lực.
+10 văn bản, 9 chưa hết hiệu lực.
 
 - 🟢 [27/2026/TT-BYT](../registry/van-ban/27-2026-tt-byt.yaml) — Ban hành Danh mục thực phẩm; dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm có mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Y tế
 - 🟢 [28/2026/TT-BCT](../registry/van-ban/28-2026-tt-bct.yaml) — Ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã số HS) thực hiện kiểm tra nhà nước về an toàn thực phẩm thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương
@@ -234,7 +236,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [09/2026/NQ-CP](../registry/van-ban/09-2026-nq-cp.yaml) — Tạm ngưng hiệu lực và điều chỉnh thời hạn áp dụng Nghị định số 46/2026/NĐ-CP ngày 26 tháng 01 năm 2026 và Nghị quyết số 66.13/2026/NQ-CP ngày 27 tháng 01 năm 2026
 - ⏸️ [46/2026/NĐ-CP](../registry/van-ban/46-2026-nd-cp.yaml) — Quy định chi tiết thi hành một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật An toàn thực phẩm
 - 🟢 [15/2024/TT-BYT](../registry/van-ban/15-2024-tt-byt.yaml) — Ban hành Danh mục thực phẩm, phụ gia thực phẩm và dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam phải kiểm tra nhà nước về an toàn thực phẩm nhập khẩu thuộc phạm vi quản lý của Bộ Y tế
-- ❔ [11/2022/TT-BCT](../registry/van-ban/11-2022-tt-bct.yaml) — Danh mục mặt hàng nhập khẩu kèm mã HS phải kiểm tra nhà nước về an toàn thực phẩm thuộc Bộ Công Thương (cũ) _(hết hiệu lực 2026-07-17)_
+- ⚫ [11/2022/TT-BCT](../registry/van-ban/11-2022-tt-bct.yaml) — Danh mục mặt hàng nhập khẩu kèm mã HS phải kiểm tra nhà nước về an toàn thực phẩm thuộc Bộ Công Thương (cũ) _(hết hiệu lực 2026-07-17)_
 - 🟢 [15/2018/NĐ-CP](../registry/van-ban/15-2018-nd-cp.yaml) — Quy định chi tiết thi hành một số điều của Luật An toàn thực phẩm
 - 🟢 [55/2010/QH12](../registry/van-ban/55-2010-qh12.yaml) — Luật An toàn thực phẩm
 
@@ -252,14 +254,15 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Công Thương `kiem-tra-chuyen-nganh/bct`
 
-26 văn bản, 20 chưa hết hiệu lực.
+31 văn bản, 24 chưa hết hiệu lực.
 
 - 🟢 [33/2026/TT-BCT](../registry/van-ban/33-2026-tt-bct.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương
 - 🟢 [28/2026/TT-BCT](../registry/van-ban/28-2026-tt-bct.yaml) — Ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã số HS) thực hiện kiểm tra nhà nước về an toàn thực phẩm thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương
 - 🟢 [26/2026/NĐ-CP](../registry/van-ban/26-2026-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa
 - 🟢 [1725/QĐ-BCT](../registry/van-ban/1725-qd-bct-2024.yaml) — Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương
+- ❔ [02/2024/TT-BTTTT](../registry/van-ban/02-2024-tt-btttt.yaml) — Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Thông tin và Truyền thông
 - ⚫ [82/2022/NĐ-CP](../registry/van-ban/82-2022-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 113/2017/NĐ-CP ngày 09/10/2017 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất _(hết hiệu lực 2026-01-17)_
-- ❔ [11/2022/TT-BCT](../registry/van-ban/11-2022-tt-bct.yaml) — Danh mục mặt hàng nhập khẩu kèm mã HS phải kiểm tra nhà nước về an toàn thực phẩm thuộc Bộ Công Thương (cũ) _(hết hiệu lực 2026-07-17)_
+- ⚫ [11/2022/TT-BCT](../registry/van-ban/11-2022-tt-bct.yaml) — Danh mục mặt hàng nhập khẩu kèm mã HS phải kiểm tra nhà nước về an toàn thực phẩm thuộc Bộ Công Thương (cũ) _(hết hiệu lực 2026-07-17)_
 - 🟡 [1182/QĐ-BCT](../registry/van-ban/1182-qd-bct-2021.yaml) — Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương
 - ❔ [10/2020/TT-BTTTT](../registry/van-ban/10-2020-tt-btttt.yaml) — Sửa đổi, bổ sung một số nội dung của Thông tư số 30/2011/TT-BTTTT ngày 31 tháng 10 năm 2011 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về chứng nhận hợp quy và công bố hợp quy đối với sản phẩm, hàng hóa chuyên ngành công nghệ thông tin và truyền thông
 - 🟢 [765/QĐ-BCT](../registry/van-ban/765-qd-bct-2019.yaml) — Về việc công bố Danh mục các mặt hàng (kèm theo mã HS) đã được cắt giảm kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương
@@ -270,20 +273,24 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - ⚫ [113/2017/NĐ-CP](../registry/van-ban/113-2017-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất _(hết hiệu lực 2026-01-17)_
 - ❔ [41/2016/TT-BTTTT](../registry/van-ban/41-2016-tt-btttt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 16/2015/TT-BTTTT ngày 17 tháng 6 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết thi hành Nghị định số 187/2013/NĐ-CP ngày 20 tháng 11 năm 2013 của Chính phủ về xuất khẩu, nhập khẩu hàng hóa trong lĩnh vực in, phát hành xuất bản phẩm
 - ❔ [33/2016/TT-BCT](../registry/van-ban/33-2016-tt-bct.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 36/2015/TT-BCT ngày 28 tháng 10 năm 2015 ban hành Quy chuẩn kỹ thuật quốc gia đối với sản phẩm khăn giấy và giấy vệ sinh
+- ❔ [05/2016/TT-BTTTT](../registry/van-ban/05-2016-tt-btttt.yaml) — Quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế
 - ❔ [58/2015/TTLT-BCT-BKHCN](../registry/van-ban/58-2015-ttlt-bct-bkhcn.yaml) — Quy định về quản lý chất lượng thép sản xuất trong nước và thép nhập khẩu
 - ❔ [16/2015/TT-BTTTT](../registry/van-ban/16-2015-tt-btttt.yaml) — Quy định chi tiết thi hành Nghị định số 187/2013/NĐ-CP ngày 20 tháng 11 năm 2013 của Chính phủ về xuất khẩu, nhập khẩu hàng hóa trong lĩnh vực in, phát hành xuất bản phẩm
+- ❔ [03/2015/TT-BTTTT](../registry/van-ban/03-2015-tt-btttt.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in
 - ❔ [43/2013/TT-BCT](../registry/van-ban/43-2013-tt-bct.yaml) — Quy định nội dung, trình tự, thủ tục lập, thẩm định, phê duyệt và điều chỉnh Quy hoạch phát triển điện lực
+- ❔ [09/2013/TT-BTTTT](../registry/van-ban/09-2013-tt-btttt.yaml) — Ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử
 - ❔ [30/2011/TT-BTTTT](../registry/van-ban/30-2011-tt-btttt.yaml) — Quy định về chứng nhận hợp quy và công bố hợp quy đối với sản phẩm, hàng hóa chuyên ngành công nghệ thông tin và truyền thông
 - ⚫ [04/2014/TT-BCT](../registry/van-ban/04-2014-tt-bct.yaml) — Quy định chi tiết thi hành một số điều của Nghị định số 187/2013/NĐ-CP ngày 20 tháng 11 năm 2013 của Chính phủ quy định chi tiết thi hành Luật Thương mại về hoạt động mua bán hàng hóa quốc tế và các hoạt động đại lý mua, bán, gia công và quá cảnh hàng hóa với nước ngoài _(hết hiệu lực 2018-06-15)_
 - ⚫ [11/2017/TT-BCT](../registry/van-ban/11-2017-tt-bct.yaml) — Quy định về hoạt động tạm nhập, tái xuất; tạm xuất, tái nhập và chuyển khẩu _(hết hiệu lực 2018-06-15)_
 - ❔ [31/2015/TT-BTTTT](../registry/van-ban/31-2015-tt-btttt.yaml) — (chưa có tiêu đề) 31/2015/TT-BTTTT
+- ❔ [38/2018/TT-NHNN](../registry/van-ban/38-2018-tt-nhnn.yaml) — (chưa có tiêu đề) 38/2018/TT-NHNN
 - ⚫ [41/2023/TT-BCT](../registry/van-ban/41-2023-tt-bct.yaml) — Danh mục sản phẩm, hàng hoá có khả năng gây mất an toàn thuộc Bộ Công Thương (cũ) _(hết hiệu lực 2026-07-01)_
 - 🟢 [45/2024/TT-BCT](../registry/van-ban/45-2024-tt-bct.yaml) — (chưa có tiêu đề) 45/2024/TT-BCT
 - ⚫ [49/2015/TT-BCT](../registry/van-ban/49-2015-tt-bct.yaml) — (chưa có tiêu đề) 49/2015/TT-BCT _(hết hiệu lực 2018-06-15)_
 
 ### Danh mục thuộc Bộ Y tế `kiem-tra-chuyen-nganh/byt`
 
-26 văn bản, 21 chưa hết hiệu lực.
+26 văn bản, 18 chưa hết hiệu lực.
 
 - 🟢 [26/2026/TT-BYT](../registry/van-ban/26-2026-tt-byt.yaml) — Danh mục dược liệu, thuốc cổ truyền theo mức độ rủi ro (rủi ro trung bình)
 - 🟢 [27/2026/TT-BYT](../registry/van-ban/27-2026-tt-byt.yaml) — Ban hành Danh mục thực phẩm; dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm có mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Y tế
@@ -298,12 +305,12 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [15/2024/TT-BYT](../registry/van-ban/15-2024-tt-byt.yaml) — Ban hành Danh mục thực phẩm, phụ gia thực phẩm và dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam phải kiểm tra nhà nước về an toàn thực phẩm nhập khẩu thuộc phạm vi quản lý của Bộ Y tế
 - 🟢 [09/2024/TT-BYT](../registry/van-ban/09-2024-tt-byt.yaml) — Ban hành các Danh mục thuốc, nguyên liệu làm thuốc dùng cho người và mỹ phẩm xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam
 - ❔ [28/2021/TT-BYT](../registry/van-ban/28-2021-tt-byt.yaml) — Ban hành danh mục thực phẩm, phụ gia thực phẩm và dụng cụ, vật liệu bao gói, chứa đựng thực phẩm đã được xác định mã số hàng hóa theo danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam phục vụ cho kiểm tra nhà nước về an toàn thực phẩm đối với thực phẩm nhập khẩu
-- ❔ [03/2021/TT-BYT](../registry/van-ban/03-2021-tt-byt.yaml) — Bãi bỏ một phần quy định tại Phụ lục 1 ban hành kèm theo Thông tư số 48/2018/TT-BYT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Y tế ban hành Danh mục dược liệu; các chất chiết xuất từ dược liệu, tinh dầu làm thuốc; thuốc cổ truyền, thuốc dược liệu xuất khẩu, nhập khẩu được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam
+- ⚫ [03/2021/TT-BYT](../registry/van-ban/03-2021-tt-byt.yaml) — Bãi bỏ một phần quy định tại Phụ lục 1 ban hành kèm theo Thông tư số 48/2018/TT-BYT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Y tế ban hành Danh mục dược liệu; các chất chiết xuất từ dược liệu, tinh dầu làm thuốc; thuốc cổ truyền, thuốc dược liệu xuất khẩu, nhập khẩu được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam _(hết hiệu lực 2024-07-26)_
 - 🟢 [32/2020/TT-BYT](../registry/van-ban/32-2020-tt-byt.yaml) — Quy định tiêu chuẩn chế biến, bào chế thuốc cổ truyền trong cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền
-- ❔ [48/2018/TT-BYT](../registry/van-ban/48-2018-tt-byt.yaml) — Ban hành Danh mục dược liệu; các chất chiết xuất từ dược liệu, tinh dầu làm thuốc; thuốc cổ truyền, thuốc dược liệu xuất khẩu, nhập khẩu được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam
+- ⚫ [48/2018/TT-BYT](../registry/van-ban/48-2018-tt-byt.yaml) — Ban hành Danh mục dược liệu; các chất chiết xuất từ dược liệu, tinh dầu làm thuốc; thuốc cổ truyền, thuốc dược liệu xuất khẩu, nhập khẩu được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam _(hết hiệu lực 2024-07-26)_
 - ⚫ [28/2018/QH14](../registry/van-ban/28-2018-qh14.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Dược 2018 (đã hợp nhất) _(hết hiệu lực 2026-03-01)_
 - ⚫ [09/2018/TT-BYT](../registry/van-ban/09-2018-tt-byt.yaml) — Ban hành Danh mục hóa chất, chế phẩm diệt côn trùng, diệt khuẩn dùng trong gia dụng và y tế thuộc lĩnh vực quản lý nhà nước của Bộ Y tế được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam _(hết hiệu lực 2024-11-15)_
-- ❔ [06/2018/TT-BYT](../registry/van-ban/06-2018-tt-byt.yaml) — Ban hành Danh mục thuốc, nguyên liệu làm thuốc dùng cho người và mỹ phẩm xuất khẩu, nhập khẩu được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam
+- ⚫ [06/2018/TT-BYT](../registry/van-ban/06-2018-tt-byt.yaml) — Ban hành Danh mục thuốc, nguyên liệu làm thuốc dùng cho người và mỹ phẩm xuất khẩu, nhập khẩu được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam _(hết hiệu lực 2024-07-26)_
 - ⚫ [54/2017/NĐ-CP](../registry/van-ban/54-2017-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp thi hành Luật Dược _(hết hiệu lực 2025-07-01)_
 - ⚫ [54/2017/NĐ-CP](../registry/van-ban/54-2017-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp thi hành Luật Dược _(hết hiệu lực 2025-07-01)_
 - 🟢 [105/2016/QH13](../registry/van-ban/105-2016-qh13.yaml) — Luật Dược
@@ -337,10 +344,10 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [11/2024/TT-BTTTT](../registry/van-ban/11-2024-tt-btttt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT, Thông tư số 05/2016/TT-BTTTT, Thông tư số 22/2018/TT-BTTTT và Thông tư số 09/2013/TT-BTTTT của Bộ trưởng Bộ Thông tin và Truyền thông
 - ❔ [367/QĐ-BKHCN](../registry/van-ban/367-qd-bkhcn-2024.yaml) — Về việc sửa đổi, bổ sung nhóm sản phẩm chiếu sáng bằng công nghệ LED tại mục 10 Phụ lục ban hành kèm theo Quyết định số 2711/QĐ-BKHCN ngày 30/12/2022 của Bộ trưởng Bộ Khoa học và Công nghệ về việc công bố sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ
 - ❔ [366/QĐ-BKHCN](../registry/van-ban/366-qd-bkhcn-2023.yaml) — Về việc công bố bổ sung sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ
-- ❔ [2711/QĐ-BKHCN](../registry/van-ban/2711-qd-bkhcn-2022.yaml) — Về việc công bố sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ
+- ❔ [2711/QĐ-BKHCN](../registry/van-ban/2711-qd-bkhcn.yaml) — Về việc công bố sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ
 - 🟢 [10/2022/TT-BTTTT](../registry/van-ban/10-2022-tt-btttt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 13/2018/TT-BTTTT ngày 15/10/2018 của Bộ trưởng Bộ Thông tin và Truyền thông quy định Danh mục sản phẩm an toàn thông tin mạng nhập khẩu theo giấy phép và trình tự, thủ tục, hồ sơ cấp Giấy phép nhập khẩu sản phẩm an toàn thông tin mạng
 - 🟡 [154/2018/NĐ-CP](../registry/van-ban/154-2018-nd-cp.yaml) — Sửa đổi, bổ sung, bãi bỏ một số quy định về điều kiện đầu tư kinh doanh và kiểm tra chuyên ngành thuộc phạm vi quản lý của Bộ Khoa học và Công nghệ
-- 🟢 [2284/QĐ-BKHCN](../registry/van-ban/2284-qd-bkhcn-2018.yaml) — Công bố Bảng mã HS đối với phương tiện đo nhóm 2 phải phê duyệt mẫu thuộc đối tượng kiểm tra nhà nước về đo lường khi nhập khẩu
+- 🟢 [2284/QĐ-BKHCN](../registry/van-ban/2284-qd-bkhcn.yaml) — Công bố Bảng mã HS đối với phương tiện đo nhóm 2 phải phê duyệt mẫu thuộc đối tượng kiểm tra nhà nước về đo lường khi nhập khẩu
 - ⚫ [01/2009/TT-BKHCN](../registry/van-ban/01-2009-tt-bkhcn.yaml) — Danh mục sản phẩm, hàng hoá có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ KH&CN _(hết hiệu lực 2026-07-01)_
 - ⚫ [10/2024/TT-BKHCN](../registry/van-ban/10-2024-tt-bkhcn.yaml) — Danh mục sản phẩm, hàng hoá thuộc trách nhiệm quản lý của Bộ KH&CN (cũ) _(hết hiệu lực 2026-07-01)_
 
@@ -375,7 +382,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - ❔ [8378/QĐ-BCA](../registry/van-ban/8378-qd-bca-2025.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Công an
 - ❔ [6266/QĐ-BCA](../registry/van-ban/6266-qd-bca-2023.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Công an
 - 🟢 [125/2021/TT-BCA](../registry/van-ban/125-2021-tt-bca.yaml) — Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ
-- ❔ [9981/QĐ-BCA](../registry/van-ban/9981-qd-bca-2019.yaml) — Về việc công bố mã số HS đối với Danh mục sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Công an
+- ❔ [9981/QĐ-BCA](../registry/van-ban/9981-qd-bca.yaml) — Về việc công bố mã số HS đối với Danh mục sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Công an
 
 ### Danh mục thuộc Bộ Quốc phòng (mật mã dân sự) `kiem-tra-chuyen-nganh/bqp`
 
