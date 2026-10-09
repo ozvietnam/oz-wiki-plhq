@@ -13,11 +13,14 @@ quan_he:
     - 08/2015/NĐ-CP
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
+  pham_vi: 'số hiệu, trích yếu, ngày 20/04/2018, hiệu lực 05/06/2018, toàn văn OCR 48 trang'
   hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.
+  ngay: '2026-10-09'
+  boi: legal-customs@ozvietnam
+toan_van: raw/download/datafiles.chinhphu.vn/2018/05/59-2018-nd-cp.pdf
+ghi_chu: 'Khởi tạo 2026-10-04; đã đọc toàn văn OCR 09/10/2026. Bổ sung: KTCL, cổng một cửa quốc gia, thủ tục HQ điện tử, địa điểm tập kết kiểm tra tập trung. Có thể bị thay thế một phần bởi Luật 11/2026/QH16 (hiệu lực 01/03/2027).'
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=193550&pageid=27160
     truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/05/59.signed.pdf
+    truy_cap: '2026-10-09'
