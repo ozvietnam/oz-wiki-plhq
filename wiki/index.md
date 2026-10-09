@@ -6,6 +6,7 @@ _This catalog is updated by /lumi-ingest and /lumi-init._
 
 - [[summary/khung-kiem-tra-chuyen-nganh-2026]] — Khung kiểm tra chuyên ngành hàng nhập khẩu từ 2026 (3 mức rủi ro, danh mục 8 bộ, ATTP)
 - [[summary/luat-duoc-va-phan-loai-hs]] — Luật Dược 2016: ảnh hưởng đến phân loại HS, bảng quyết định nhanh, điểm mù thường gặp
+- [[summary/tom-tat-14-dm-09-2024-tt-byt]] — 14 Danh mục của 09/2024/TT-BYT: cấu trúc, cách tìm tên dược liệu, use case cao dán gừng + ngải cứu
 
 ## Concepts
 
