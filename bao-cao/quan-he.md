@@ -60,7 +60,7 @@ flowchart LR
   n_34_2005_QH11["34/2005/QH11<br/>hết hiệu lực"]
   n_28_2018_QH14["28/2018/QH14<br/>hết hiệu lực"]
   n_44_2024_QH15["44/2024/QH15<br/>còn hiệu lực"]
-  n_76_VBHN_VPQH["76-VBHN/VPQH<br/>chưa có trong sổ"]
+  n_76_VBHN_VPQH["76-VBHN/VPQH<br/>chưa xác minh"]
   n_11_2024_TT_BTTTT["11/2024/TT-BTTTT<br/>còn hiệu lực"]
   n_05_2016_TT_BTTTT["05/2016/TT-BTTTT<br/>chưa xác minh"]
   n_22_2018_TT_BTTTT["22/2018/TT-BTTTT<br/>còn hiệu lực"]
@@ -87,10 +87,10 @@ flowchart LR
   n_1725_Q__BCT["1725/QĐ-BCT<br/>còn hiệu lực"]
   n_1182_Q__BCT["1182/QĐ-BCT<br/>hết hiệu lực một phần"]
   n_19_2024_TT_BYT["19/2024/TT-BYT<br/>còn hiệu lực"]
-  n_14_2018_TT_BYT["14/2018/TT-BYT<br/>chưa có trong sổ"]
+  n_14_2018_TT_BYT["14/2018/TT-BYT<br/>chưa xác minh"]
   n_24_2026_TT_BYT["24/2026/TT-BYT<br/>còn hiệu lực"]
   n_05_2022_TT_BYT["05/2022/TT-BYT<br/>còn hiệu lực"]
-  n_59_2025_TT_BYT["59/2025/TT-BYT<br/>chưa có trong sổ"]
+  n_59_2025_TT_BYT["59/2025/TT-BYT<br/>chưa xác minh"]
   n_26_2026_N__CP["26/2026/NĐ-CP<br/>còn hiệu lực"]
   n_82_2022_N__CP["82/2022/NĐ-CP<br/>hết hiệu lực"]
   n_28_2026_TT_BCT["28/2026/TT-BCT<br/>còn hiệu lực"]
@@ -181,6 +181,7 @@ flowchart LR
   n_49_2026_TT_BXD -->|bãi bỏ từ 2026-07-01| n_62_2024_TT_BGTVT
   n_49_2026_TT_BXD -->|bãi bỏ Chương X, Phụ lục II và Phụ lục III từ 2026-07-01| n_71_2025_TT_BXD
   n_62_2024_TT_BGTVT -->|sửa đổi khoản 2–3 Điều 3; Điều 6–7; thay Phụ lục I–II từ 2025-02-15| n_12_2022_TT_BGTVT
+  n_71_2025_TT_BXD -->|bãi bỏ Chương X, Phụ lục II và Phụ lục III (một phần) từ 2026-07-01| n_49_2026_TT_BXD
   n_78_2025_QH15 -->|sửa đổi| n_05_2007_QH12
   n_82_2022_N__CP -->|sửa đổi| n_113_2017_N__CP
   n_8378_Q__BCA -->|thay thế từ 2025-10-14| n_6266_Q__BCA
@@ -208,7 +209,7 @@ flowchart LR
   n_1578_Q__BCT["1578/QĐ-BCT<br/>chưa xác minh"]
   n_2961_Q__BCT["2961/QĐ-BCT<br/>chưa xác minh"]
   n_1989_Q__BCT["1989/QĐ-BCT<br/>chưa xác minh"]
-  n_2105_Q__BCT["2105/QĐ-BCT<br/>còn hiệu lực"]
+  n_2105_Q__BCT["2105/QĐ-BCT<br/>hết hiệu lực"]
   n_1400_Q__BCT["1400/QĐ-BCT<br/>chưa xác minh"]
   n_2093_Q__BCT["2093/QĐ-BCT<br/>còn hiệu lực"]
   n_2174_Q__BCT["2174/QĐ-BCT<br/>chưa xác minh"]
@@ -221,6 +222,7 @@ flowchart LR
   n_1309_Q__BCT -->|bãi bỏ từ 2026-06-16| n_1989_Q__BCT
   n_1309_Q__BCT -->|bãi bỏ từ 2026-06-16| n_2105_Q__BCT
   n_1400_Q__BCT -->|thay thế| n_2093_Q__BCT
+  n_2105_Q__BCT -->|bãi bỏ từ 2026-06-16| n_1309_Q__BCT
   n_2174_Q__BCT -->|thay thế| n_2333_Q__BCT
   n_915_Q__BCT -->|thay thế| n_1978_Q__BCT
 ```
