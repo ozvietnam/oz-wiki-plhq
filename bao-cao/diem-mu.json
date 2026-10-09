@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-09",
-  "tong": 500,
+  "tong": 507,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -522,6 +522,15 @@
       "muc_tieu": "10/2024/TT-BXD",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "102/2020/QH14: chưa có toàn văn trong raw/",
+      "muc_tieu": "102/2020/QH14",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"102/2020/QH14\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -1278,6 +1287,42 @@
       "muc_tieu": "1921/QĐ-TCHQ",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"1921/QĐ-TCHQ\" --ghi",
       "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "1966/QĐ-TCHQ: chưa có nguồn chính thống",
+      "muc_tieu": "1966/QĐ-TCHQ",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "1966/QĐ-TCHQ: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "1966/QĐ-TCHQ",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "1966/QĐ-TCHQ: chưa có toàn văn trong raw/",
+      "muc_tieu": "1966/QĐ-TCHQ",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"1966/QĐ-TCHQ\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "1966/QĐ-TCHQ (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "1966/QĐ-TCHQ",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -2694,6 +2739,42 @@
       "trongSo": 0
     },
     {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "6735/TB-TCHQ: chưa có nguồn chính thống",
+      "muc_tieu": "6735/TB-TCHQ",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "6735/TB-TCHQ: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "6735/TB-TCHQ",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "6735/TB-TCHQ: chưa có toàn văn trong raw/",
+      "muc_tieu": "6735/TB-TCHQ",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"6735/TB-TCHQ\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "6735/TB-TCHQ (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "6735/TB-TCHQ",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "71/2025/TT-BXD: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
@@ -3009,30 +3090,12 @@
       "trongSo": 0
     },
     {
-      "ma": "NUT_CAY_TRONG",
-      "muc": "Cao",
-      "tieuDe": "Nhánh \"Chú giải HS, chú giải bổ sung (SEN), 6 quy tắc tổng quát (GIR)\" (phan-loai-hs/chu-giai) chưa có văn bản còn hiệu lực",
-      "muc_tieu": "phan-loai-hs/chu-giai",
-      "viec": "Do thám và thêm các văn bản thuộc nhánh này.",
-      "luong": "do-tham",
-      "trongSo": 0
-    },
-    {
-      "ma": "NUT_CAY_TRONG",
-      "muc": "Cao",
-      "tieuDe": "Nhánh \"Thông báo kết quả phân loại, công văn hướng dẫn mã (TB-TCHQ)\" (phan-loai-hs/thong-bao-phan-loai) chưa có văn bản còn hiệu lực",
-      "muc_tieu": "phan-loai-hs/thong-bao-phan-loai",
-      "viec": "Do thám và thêm các văn bản thuộc nhánh này.",
-      "luong": "do-tham",
-      "trongSo": 0
-    },
-    {
-      "ma": "NUT_CAY_TRONG",
-      "muc": "Cao",
-      "tieuDe": "Nhánh \"Điều ước quốc tế, chuẩn quốc tế (WCO, Công ước HS, Kyoto sửa đổi)\" (dieu-uoc-quoc-te) chưa có văn bản còn hiệu lực",
-      "muc_tieu": "dieu-uoc-quoc-te",
-      "viec": "Do thám và thêm các văn bản thuộc nhánh này.",
-      "luong": "do-tham",
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "Công ước HS: chưa có toàn văn trong raw/",
+      "muc_tieu": "Công ước HS",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"Công ước HS\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {

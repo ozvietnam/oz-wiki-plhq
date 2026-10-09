@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-10-09
 
-205 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+209 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -61,9 +61,10 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung (không phải văn bản quy phạm nhưng thực tế áp dụng)._
 
-1 văn bản, 1 chưa hết hiệu lực.
+2 văn bản, 2 chưa hết hiệu lực.
 
 - ❔ [1921/QĐ-TCHQ](../registry/van-ban/1921-qd-tchq-2018.yaml) — Về việc ban hành Quy trình phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu nhập khẩu
+- 🟢 [1966/QĐ-TCHQ](../registry/van-ban/1966-qd-tchq.yaml) — Ban hành Quy trình thủ tục hải quan đối với hàng hoá xuất khẩu, nhập khẩu
 
 ## Thuế xuất khẩu, nhập khẩu và các thuế khác khâu nhập khẩu `thue`
 
@@ -115,11 +116,16 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Chú giải HS, chú giải bổ sung (SEN), 6 quy tắc tổng quát (GIR) `phan-loai-hs/chu-giai`
 
-_Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
+2 văn bản, 2 chưa hết hiệu lực.
+
+- 🟢 [31/2022/TT-BTC](../registry/van-ban/31-2022-tt-btc.yaml) — Ban hành Danh mục hàng hoá xuất khẩu, nhập khẩu Việt Nam
+- 🟢 [Công ước HS](../registry/van-ban/cong-uoc-hs.yaml) — Công ước quốc tế về Hệ thống hài hòa mô tả và mã hóa hàng hoá (International Convention on the Harmonized Commodity Description and Coding System)
 
 ### Thông báo kết quả phân loại, công văn hướng dẫn mã (TB-TCHQ) `phan-loai-hs/thong-bao-phan-loai`
 
-_Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
+1 văn bản, 1 chưa hết hiệu lực.
+
+- 🟢 [6735/TB-TCHQ](../registry/van-ban/6735-tb-tchq-2020.yaml) — Thông báo kết quả phân loại đối với hàng hoá xuất khẩu, nhập khẩu (màng nhựa phức hợp PP/PE-VA — mã 3920.20.99)
 
 ## Xuất xứ hàng hoá và các hiệp định thương mại tự do `xuat-xu-fta`
 
@@ -133,12 +139,13 @@ _Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
 
 ### Hiệp định FTA (ACFTA, ATIGA, RCEP, CPTPP, EVFTA...) `xuat-xu-fta/hiep-dinh`
 
-6 văn bản, 4 chưa hết hiệu lực.
+7 văn bản, 5 chưa hết hiệu lực.
 
 - 🟢 [126/QĐ-TTg](../registry/van-ban/126-qd-ttg-2026.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu (EVFTA)
 - 🟢 [127/QĐ-TTg](../registry/van-ban/127-qd-ttg-2026.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP)
 - ❔ [328/QĐ-TTg](../registry/van-ban/328-qd-ttg-2022.yaml) — Về việc chỉ định các cơ quan đầu mối để triển khai Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)
 - ⚫ [1175/QĐ-TTg](../registry/van-ban/1175-qd-ttg-2020.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu (EVFTA) _(hết hiệu lực 2026-01-16)_
+- 🟢 [102/2020/QH14](../registry/van-ban/102-2020-qh14.yaml) — Phê chuẩn Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu
 - ⚫ [734/QĐ-TTg](../registry/van-ban/734-qd-ttg-2019.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP) _(hết hiệu lực 2026-01-16)_
 - 🟢 [72/2018/QH14](../registry/van-ban/72-2018-qh14.yaml) — Phê chuẩn Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương cùng các văn kiện liên quan
 
@@ -361,7 +368,9 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ## Điều ước quốc tế, chuẩn quốc tế (WCO, Công ước HS, Kyoto sửa đổi) `dieu-uoc-quoc-te`
 
-_Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
+1 văn bản, 1 chưa hết hiệu lực.
+
+- 🟢 [Công ước HS](../registry/van-ban/cong-uoc-hs.yaml) — Công ước quốc tế về Hệ thống hài hòa mô tả và mã hóa hàng hoá (International Convention on the Harmonized Commodity Description and Coding System)
 
 ## Tổ chức bộ máy — chức năng, nhiệm vụ các bộ, cơ quan quản lý `bo-may`
 
