@@ -22,6 +22,13 @@ xac_minh:
   boi: cursor-agent@ozvietnam
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (31 mã HS). GHI CHÚ NGHIỆP VỤ (hs-code-api): Sửa đổi bởi TT 11/2024/TT-BTTTT; hợp nhất tại VB 09/VBHN-BTTTT (2024).'
 toan_van: raw/download/congbaocdn.chinhphu.vn/22-2018-tt-btttt.pdf
+danh_muc_hs:
+  tep: danh-muc/22-2018-tt-btttt.csv
+  nguon: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/12/28195/25392-1-2019107-10822-2018-tt-btttt.pdf
+  trich_boi: hermes-sub-agent-btttt
+  ngay: '2026-10-09'
+  da_doi_chieu: false
+  ghi_chu: '33 dòng: 18 mã nhóm 84.43 (Phụ lục I - lĩnh vực in) + 15 mã Ch.49 (Phụ lục II - phát hành xuất bản phẩm); toàn bộ GIAY_PHEP; chênh 31 mã theo registry (đếm trước trong hs-code-api/legal-docs.json có thể loại 2 mã phụ)'
 quan_he:
   thay_the:
     - so_hieu: 16/2015/TT-BTTTT
