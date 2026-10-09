@@ -1,4 +1,4 @@
-# Quan hệ cũ – mới giữa các văn bản — 2026-10-05
+# Quan hệ cũ – mới giữa các văn bản — 2026-10-09
 
 Mũi tên đi từ văn bản MỚI tới văn bản bị tác động. Sinh tự động bằng `node tools/dung.mjs`.
 
@@ -94,6 +94,8 @@ flowchart LR
   n_924_Q__BNN_TCLN["924/QĐ-BNN-TCLN<br/>hết hiệu lực"]
   n_1725_Q__BCT["1725/QĐ-BCT<br/>còn hiệu lực"]
   n_1182_Q__BCT["1182/QĐ-BCT<br/>hết hiệu lực một phần"]
+  n_19_2024_TT_BYT["19/2024/TT-BYT<br/>còn hiệu lực"]
+  n_14_2018_TT_BYT["14/2018/TT-BYT<br/>chưa có trong sổ"]
   n_24_2026_TT_BYT["24/2026/TT-BYT<br/>còn hiệu lực"]
   n_05_2022_TT_BYT["05/2022/TT-BYT<br/>còn hiệu lực"]
   n_59_2025_TT_BYT["59/2025/TT-BYT<br/>chưa có trong sổ"]
@@ -147,6 +149,7 @@ flowchart LR
   n_16_2026_TT_BNV -->|bãi bỏ Điều 16 từ 2026-07-28| n_09_2025_TT_BNV
   n_17_2023_TT_BNNPTNT -->|bãi bỏ từ 2024-01-30| n_924_Q__BNN_TCLN
   n_1725_Q__BCT -->|thay thế Phụ lục II từ 2024-07-01| n_1182_Q__BCT
+  n_19_2024_TT_BYT -->|thay thế từ 2024-11-16| n_14_2018_TT_BYT
   n_24_2026_TT_BYT -->|sửa đổi| n_05_2022_TT_BYT
   n_24_2026_TT_BYT -->|sửa đổi Điều 8 (lộ trình kiểm định) từ 2026-07-01| n_05_2022_TT_BYT
   n_24_2026_TT_BYT -->|bãi bỏ từ 2026-07-01| n_59_2025_TT_BYT

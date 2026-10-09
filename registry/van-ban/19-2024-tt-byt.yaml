@@ -3,12 +3,33 @@ so_hieu: 19/2024/TT-BYT
 loai: THONG_TU
 ten: Ban hành Danh mục thiết bị y tế xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam
 co_quan: BYT
-tinh_trang: CHUA_XAC_MINH
+ngay_ban_hanh: '2024-10-01'
+hieu_luc_tu: '2024-11-16'
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
+quan_he:
+  thay_the:
+    - so_hieu: 14/2018/TT-BYT
+      tu_ngay: '2024-11-16'
+      can_cu: Điều 3 TT 19/2024/TT-BYT (theo trang chinhphu.vn, chưa đọc trực tiếp điều khoản — bản quét)
 xac_minh:
-  muc: CHUA_XAC_MINH
+  muc: NGUON_A
+  pham_vi: số hiệu/trích yếu/ngày ban hành/hiệu lực trên chinhphu.vn; phụ lục đối chiếu từng dòng với bản quét gốc (trang 4–9)
   hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-05'
-  boi: do-tham
-ghi_chu: Được Điều 2 khoản 2 TT 24/2026/TT-BYT dẫn chiếu làm nguồn mã HS của thiết bị y tế (khung rủi ro NĐ 37/2026). Chưa tìm được bản gốc trên nguồn máy đọc được (vanban/congbao tìm kiếm bằng JS; thuvienphapluat chặn máy) — cần người/agent có trình duyệt lấy PDF + trích bảng.
+  ngay: '2026-10-09'
+  boi: claude-code@ozvietnam
+ghi_chu: Nguồn mã HS của thiết bị y tế — được Điều 2 khoản 2 TT 24/2026/TT-BYT dẫn chiếu. Bản PDF chinhphu.vn là ảnh quét (không có lớp chữ) → bảng lấy từ bản gõ lại trên nguồn thứ cấp (thutucnhapkhauthietbiyte.com.vn) rồi đối chiếu từng dòng bằng mắt với ảnh quét; OCR tesseract đọc sai 19/112 mã nên không dùng OCR làm nguồn. Ca thật 08/10/2026 — kính lão 9004.90.10 (dòng 44) không bị cờ vì thiếu bảng này.
+nguon:
+  - url: https://chinhphu.vn/?docid=211347&pageid=27160
+    truy_cap: '2026-10-09'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/19-byt.pdf
+    truy_cap: '2026-10-09'
+toan_van: raw/download/datafiles.chinhphu.vn/19-2024-tt-byt.pdf
+danh_muc_hs:
+  tep: danh-muc/19-2024-tt-byt.csv
+  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/19-byt.pdf
+  trich_boi: claude-code@ozvietnam
+  ngay: '2026-10-09'
+  da_doi_chieu: true
+  ghi_chu: 'Phụ lục trang 4–9, 95 dòng, 112 mã 8 số (ô nhiều mã đã tách: dòng 1, 21, 22, 36, 40, 67, 69, 94, 95). Đối chiếu từng dòng với ảnh quét gốc 2026-10-09. loai_tac_dong DANG_KY_LUU_HANH với dieu_kien giải thích phân loại A/B công bố, C/D đăng ký (NĐ 98/2021).'
