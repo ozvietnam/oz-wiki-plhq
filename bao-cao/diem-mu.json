@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-09",
-  "tong": 535,
+  "tong": 534,
   "diem": [
     {
       "ma": "THIEU_NGUON_AHTN",
@@ -2754,15 +2754,6 @@
       "muc_tieu": "59/2018/NĐ-CP",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "59/2018/NĐ-CP: chưa có toàn văn trong raw/",
-      "muc_tieu": "59/2018/NĐ-CP",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"59/2018/NĐ-CP\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
