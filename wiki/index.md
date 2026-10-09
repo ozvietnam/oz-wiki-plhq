@@ -25,3 +25,38 @@ _This catalog is updated by /lumi-ingest and /lumi-init._
 ## Sources
 
 Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
+
+<!-- lumina:index -->
+- [[concepts/doc-tinh-trang-hieu-luc]]
+- [[concepts/duoc-lieu-theo-luat-duoc-2016]]
+- [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]]
+- [[concepts/muc-do-rui-ro-hang-hoa]]
+- [[concepts/nhan-hang-hoa-nhap-khau]]
+- [[concepts/phan-biet-3004-3005-3006]]
+- [[concepts/phan-loai-ma-hs]]
+- [[concepts/thu-tuc-hai-quan-xnk]]
+- [[concepts/thue-gtgt-hang-nhap-khau]]
+- [[concepts/thuoc-theo-luat-duoc-2016]]
+- [[sources/05-2007-qh12]]
+- [[sources/09-2024-tt-byt]]
+- [[sources/09-2026-nq-cp]]
+- [[sources/105-2016-qh13]]
+- [[sources/15-2018-nd-cp]]
+- [[sources/15-2026-nq-cp]]
+- [[sources/163-2025-nd-cp]]
+- [[sources/28-2026-tt-bct]]
+- [[sources/32-2020-tt-byt]]
+- [[sources/33-2026-tt-bct]]
+- [[sources/37-2026-nd-cp]]
+- [[sources/44-2024-qh15]]
+- [[sources/46-2026-nd-cp]]
+- [[sources/54-2014-qh13]]
+- [[sources/54-2017-nd-cp]]
+- [[sources/55-2010-qh12]]
+- [[sources/55-2025-tt-byt]]
+- [[sources/78-2025-qh15]]
+- [[summary/khung-kiem-tra-chuyen-nganh-2026]]
+- [[summary/khung-thu-tuc-hai-quan]]
+- [[summary/luat-duoc-va-phan-loai-hs]]
+- [[summary/tom-tat-14-dm-09-2024-tt-byt]]
+<!-- /lumina:index -->
