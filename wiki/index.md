@@ -14,6 +14,7 @@ _This catalog is updated by /lumi-ingest and /lumi-init._
 - [[concepts/doc-tinh-trang-hieu-luc]] — Thay thế, sửa đổi, bãi bỏ, tạm ngưng khác nhau thế nào
 - [[concepts/thuoc-theo-luat-duoc-2016]] — Thuốc theo Luật Dược 2016: định nghĩa, phân loại, hệ quả HS
 - [[concepts/duoc-lieu-theo-luat-duoc-2016]] — Dược liệu: định nghĩa, nguồn gốc, cách phân loại theo mức chế biến
+- [[concepts/phan-biet-3004-3005-3006]] — Phân biệt 3004 vs 3005 vs 3006: thuốc dạng liều vs băng/gạc tẩm dược chất vs chế phẩm đặc thù (decision tree)
 
 ## Sources
 
