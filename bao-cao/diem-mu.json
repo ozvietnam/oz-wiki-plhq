@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-09",
-  "tong": 502,
+  "tong": 509,
   "diem": [
     {
       "ma": "THIEU_NGUON_AHTN",
@@ -18,15 +18,6 @@
       "muc_tieu": "WCO-COMPENDIUM",
       "viec": "Sếp chỉ định: (a) mua bản chính thức, (b) tải từng Classification Opinion mới nhất từ wcoomd.org (~50 opinions/session, 2 session/năm), hoặc (c) chấp nhận dùng TB-TCHQ thay thế.",
       "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "THIEU_VAN_BAN",
-      "muc": "Cao",
-      "tieuDe": "Chưa có trong sổ: 2711/QĐ-BKHCN",
-      "muc_tieu": "2711/QĐ-BKHCN",
-      "viec": "Tạo registry/van-ban/ cho 2711/QĐ-BKHCN (được nhắc bởi 366/QĐ-BKHCN (sua_doi), 367/QĐ-BKHCN (sua_doi)). Dùng: node tools/them-van-ban.mjs \"2711/QĐ-BKHCN\"",
-      "luong": "he-thong-hoa",
       "trongSo": 0
     },
     {
@@ -1173,6 +1164,33 @@
       "trongSo": 0
     },
     {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "2284/QĐ-BKHCN: chưa có nguồn chính thống",
+      "muc_tieu": "2284/QĐ-BKHCN",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "2284/QĐ-BKHCN: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "2284/QĐ-BKHCN",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "2284/QĐ-BKHCN: chưa có toàn văn trong raw/",
+      "muc_tieu": "2284/QĐ-BKHCN",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"2284/QĐ-BKHCN\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "24/2026/TT-BYT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -1258,6 +1276,15 @@
       "muc": "Thấp",
       "tieuDe": "27/2026/TT-BYT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "27/2026/TT-BYT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Vừa",
+      "tieuDe": "2711/QĐ-BKHCN: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
+      "muc_tieu": "2711/QĐ-BKHCN",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
       "trongSo": 0
@@ -2478,6 +2505,33 @@
       "trongSo": 0
     },
     {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Thấp",
+      "tieuDe": "9981/QĐ-BCA: chưa có nguồn chính thống",
+      "muc_tieu": "9981/QĐ-BCA",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "9981/QĐ-BCA: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
+      "muc_tieu": "9981/QĐ-BCA",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "9981/QĐ-BCA: chưa có toàn văn trong raw/",
+      "muc_tieu": "9981/QĐ-BCA",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"9981/QĐ-BCA\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
       "ma": "KHONG_TOAN_VAN",
       "muc": "Thấp",
       "tieuDe": "Công ước HS: chưa có toàn văn trong raw/",
@@ -3223,6 +3277,15 @@
       "viec": "Văn bản danh mục chưa có danh-muc/8378-qd-bca-2025.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
       "luong": "danh-muc-hs",
       "trongSo": 0
+    },
+    {
+      "ma": "DANH_MUC_CHUA_TRICH",
+      "muc": "Vừa",
+      "tieuDe": "Chưa trích bảng mã HS: 9981/QĐ-BCA",
+      "muc_tieu": "9981/QĐ-BCA",
+      "viec": "Văn bản danh mục chưa có danh-muc/9981-qd-bca.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 12 mã.",
+      "luong": "danh-muc-hs",
+      "trongSo": 12
     },
     {
       "ma": "HS_KHONG_TON_TAI",
@@ -4458,12 +4521,12 @@
       "trongSo": 1000
     },
     {
-      "ma": "HS_API_CHUA_CO",
-      "muc": "Cao",
-      "tieuDe": "Biểu thuế dẫn nhưng sổ chưa có: 2711/QĐ-BKHCN (263 mã HS)",
+      "ma": "HS_API_CHO_MO_CHAN",
+      "muc": "Thấp",
+      "tieuDe": "Chờ mở chặn 2711/QĐ-BKHCN (THIEU_BAI_TUONG_MINH) — 263 mã HS",
       "muc_tieu": "2711/QĐ-BKHCN",
-      "viec": "263 mã HS trong hs-code-api dẫn văn bản này ở cột chính sách. Thêm vào sổ: node tools/them-van-ban.mjs \"2711/QĐ-BKHCN\"",
-      "luong": "he-thong-hoa",
+      "viec": "Đã ghi xac_minh.chan: THIEU_BAI_TUONG_MINH (2026-10-04). Việc tiếp: Chờ QĐ/TT-BKHCN hoặc vbpl ghi rõ hết/còn 2711; không suy ra HET từ NĐ 37 hết khung 132/74 hay TT 36 danh mục rủi ro mới.. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.",
+      "luong": "hieu-luc",
       "trongSo": 263
     },
     {
@@ -4476,21 +4539,21 @@
       "trongSo": 19
     },
     {
-      "ma": "HS_API_CHUA_CO",
-      "muc": "Cao",
-      "tieuDe": "Biểu thuế dẫn nhưng sổ chưa có: 2284/QĐ-BKHCN (19 mã HS)",
+      "ma": "HS_API_CHO_MO_CHAN",
+      "muc": "Thấp",
+      "tieuDe": "Chờ mở chặn 2284/QĐ-BKHCN (THIEU_PDF_A) — 19 mã HS",
       "muc_tieu": "2284/QĐ-BKHCN",
-      "viec": "19 mã HS trong hs-code-api dẫn văn bản này ở cột chính sách. Thêm vào sổ: node tools/them-van-ban.mjs \"2284/QĐ-BKHCN\"",
-      "luong": "he-thong-hoa",
+      "viec": "Đã ghi xac_minh.chan: THIEU_PDF_A (2026-10-04). Việc tiếp: Chờ PDF A trên datafiles/most/mst; chicuctdc chỉ tóm tắt (không bậc A).. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.",
+      "luong": "hieu-luc",
       "trongSo": 19
     },
     {
-      "ma": "HS_API_CHUA_CO",
-      "muc": "Cao",
-      "tieuDe": "Biểu thuế dẫn nhưng sổ chưa có: 9981/QĐ-BCA (12 mã HS)",
+      "ma": "HS_API_CHO_MO_CHAN",
+      "muc": "Thấp",
+      "tieuDe": "Chờ mở chặn 9981/QĐ-BCA (THIEU_PDF_A) — 12 mã HS",
       "muc_tieu": "9981/QĐ-BCA",
-      "viec": "12 mã HS trong hs-code-api dẫn văn bản này ở cột chính sách. Thêm vào sổ: node tools/them-van-ban.mjs \"9981/QĐ-BCA\"",
-      "luong": "he-thong-hoa",
+      "viec": "Đã ghi xac_minh.chan: THIEU_PDF_A (2026-10-04). Việc tiếp: customs Attachments/12857 đã 404; chờ bản ký số trên datafiles/bocongan. Không nạp từ TVXNK (C) để đánh true.. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.",
+      "luong": "hieu-luc",
       "trongSo": 12
     },
     {
