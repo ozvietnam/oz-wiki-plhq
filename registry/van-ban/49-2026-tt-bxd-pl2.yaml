@@ -1,0 +1,40 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+# Phụ lục II của TT 49/2026/TT-BXD — bản tách riêng để tra mã HS nhanh.
+so_hieu: 49-PL2/2026/TT-BXD
+loai: THONG_TU
+ten: Phụ lục II — Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình thuộc phạm vi quản lý của Bộ Xây dựng (ban hành kèm theo TT 49/2026/TT-BXD)
+phu_luc: II
+co_quan: BXD
+ngay_ban_hanh: '2026-06-30'
+hieu_luc_tu: '2026-07-01'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - kiem-tra-chuyen-nganh/bxd
+quan_he:
+  huong_dan:
+    - 37/2026/NĐ-CP
+nguon:
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd-pl2.pdf
+    truy_cap: '2026-10-09'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd.signed.pdf
+    truy_cap: '2026-10-09'
+    ghi_chu: Bản VB chính trên datafiles.chinhphu.vn
+toan_van: raw/download/datafiles.chinhphu.vn/49-2026-tt-bxd-pl2.pdf
+lien_ket:
+  van_ban_me: 49/2026/TT-BXD
+  vi_tri: Phụ lục II (ban hành kèm theo TT 49/2026/TT-BXD ngày 30/6/2026)
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Phụ lục II — bảng 6 cột (STT, Tên sản phẩm/hàng hóa, QCVN, Mã số HS, Mô tả, Yêu cầu QLCL). Phạm vi: phương tiện giao thông đường bộ còn lại, phụ tùng, thiết bị GTVT, vật liệu xây dựng dạng công nghiệp, xe máy chuyên dùng. Yêu cầu KTCL theo QCVN tương ứng nhưng mức độ trung bình → kiểm tra theo tỷ lệ/tần suất.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-09'
+  boi: hermes
+ghi_chu: 'Tách riêng Phụ lục II để tra mã HS nhanh. VB chính 49/2026/TT-BXD đã có file 49-2026-tt-bxd.yaml. Có hiệu lực 01/7/2026 cùng PL I.'
+ma_hs_danh_muc:
+  tep: danh-muc/49-2026-tt-bxd.csv
+  cot_loc: phu_luc
+  gia_tri_loc: 'Phụ lục II'
+  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd-pl2.pdf
+  trich_boi: hermes
+  ngay: '2026-10-09'
+  ghi_chu: 'Dùng CSV gốc 49-2026-tt-bxd.csv, lọc theo cột phu_luc="Phụ lục II".'

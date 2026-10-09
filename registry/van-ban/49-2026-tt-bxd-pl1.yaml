@@ -1,0 +1,91 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+# Phụ lục I của TT 49/2026/TT-BXD — bản tách riêng để tra mã HS nhanh. VB chính: 49-2026-tt-bxd.yaml.
+# Số hiệu phân biệt với VB chính bằng hậu tố " (Phụ lục I)"; tham chiếu VB mẹ ở truong `lien_ket`.
+so_hieu: 49-PL1/2026/TT-BXD
+loai: THONG_TU
+ten: Phụ lục I — Danh mục sản phẩm, hàng hóa có mức độ rủi ro cao thuộc phạm vi quản lý của Bộ Xây dựng (ban hành kèm theo TT 49/2026/TT-BXD)
+phu_luc: I
+co_quan: BXD
+ngay_ban_hanh: '2026-06-30'
+hieu_luc_tu: '2026-07-01'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - kiem-tra-chuyen-nganh/bxd
+quan_he:
+  huong_dan:
+    - 37/2026/NĐ-CP
+nguon:
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd-pl1.pdf
+    truy_cap: '2026-10-04'
+    ghi_chu: 'Phụ lục I (10 trang) — bản PDF đã lưu kèm .nguon.json'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd.signed.pdf
+    truy_cap: '2026-10-04'
+    ghi_chu: 'Bản VB chính (4 trang) trên datafiles.chinhphu.vn'
+toan_van: raw/download/datafiles.chinhphu.vn/49-2026-tt-bxd-pl1.pdf
+lien_ket:
+  van_ban_me: 49/2026/TT-BXD
+  vi_tri: 'Phụ lục I (ban hành kèm theo TT 49/2026/TT-BXD ngày 30/6/2026)'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Phụ lục I — bảng 6 cột (STT, Tên sản phẩm/hàng hóa, Quy chuẩn kỹ thuật quốc gia, Mã số HS, Mô tả, Yêu cầu quản lý chất lượng). Đếm thực tế từ body trích: 48 dòng mã HS duy nhất (một số mã ghi cả dạng 2-số và 6/8-số, ví dụ 73.11 / 7311.00.99 — quy về một). Phạm vi: ô tô, mô tô, xe gắn máy, xe bốn bánh có gắn động cơ; rơ moóc/sơ mi rơ moóc; xe máy chuyên dùng; phụ tùng xe cơ giới; sản phẩm công nghiệp dùng trong GTVT (bình áp lực, cần trục, xe nâng, sàn nâng).'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-09'
+  boi: hermes-subagent
+ghi_chu: 'Tách riêng Phụ lục I để tra mã HS nhanh. VB chính 49/2026/TT-BXD đã có file 49-2026-tt-bxd.yaml — file này bổ sung dữ liệu mã HS chi tiết. 73.11 (hoặc 7311.00.99) ghi 1 mã. 87.01 ghi dạng chương; các 8701.xx ghi riêng — tổng cộng 48 dòng mã duy nhất trong bảng (gần sát 46 mã ước tính).'
+ma_hs_danh_muc:
+  tep: danh-muc/49-2026-tt-bxd.csv
+  cot_loc: phu_luc
+  gia_tri_loc: 'Phụ lục I'
+  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd-pl1.pdf
+  trich_boi: hermes
+  ngay: '2026-10-04'
+  ghi_chu: 'Dùng CSV gốc 49-2026-tt-bxd.csv (đã trích trước), lọc theo cột phu_luc="Phụ lục I". 38 mã unique.'
+danh_sach_ma_hs:
+  - '4011.10.00'
+  - '4011.20'
+  - '4011.40.00'
+  - '4011.90.10'
+  - '7311.00.99'
+  - '73.11'
+  - '84.26'
+  - '84.27'
+  - '84.28'
+  - '84.29'
+  - '84.29.30.00'
+  - '84.30'
+  - '84.79'
+  - '85.07'
+  - '87.01'
+  - '87.02'
+  - '87.03'
+  - '87.04'
+  - '87.05'
+  - '87.06'
+  - '87.09'
+  - '87.11'
+  - '87.16'
+  - '8415.81.11'
+  - '8426.41.00'
+  - '8426.49.00'
+  - '8427.10.00'
+  - '8427.20.00'
+  - '8429.20.00'
+  - '8429.40'
+  - '8429.51.00'
+  - '8429.52.00'
+  - '8429.59.00'
+  - '8430.10.00'
+  - '8430.41.00'
+  - '8701.21'
+  - '8701.22'
+  - '8701.23'
+  - '8701.24'
+  - '8701.29'
+  - '8701.30.00'
+  - '8701.95.90'
+  - '8703.10'
+  - '8705.10.00'
+  - '8705.40.00'
+  - '8705.90.50'
+  - '8705.90.90'
+  - '8713.90.00'
