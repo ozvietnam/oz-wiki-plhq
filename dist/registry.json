@@ -1,7 +1,7 @@
 {
   "phien_ban": "2026-10-09",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 209,
+  "tong": 211,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -803,7 +803,7 @@
       "hieu_luc_tu": "2023-08-14",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "chua-phan-loai"
+        "quan-ly-ngoai-thuong/giay-phep"
       ],
       "nguon": [
         {
@@ -1290,7 +1290,8 @@
       "hieu_luc_tu": "2022-09-15",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "chua-phan-loai"
+        "quan-ly-ngoai-thuong/giay-phep",
+        "kiem-tra-chuyen-nganh/bkhcn"
       ],
       "nguon": [
         {
@@ -1688,7 +1689,8 @@
       "hieu_luc_tu": "2024-11-07",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "chua-phan-loai"
+        "kiem-tra-chuyen-nganh/bkhcn",
+        "quan-ly-ngoai-thuong/giay-phep"
       ],
       "quan_he": {
         "sua_doi": [
@@ -2354,7 +2356,8 @@
       "hieu_luc_tu": "2022-03-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "chua-phan-loai"
+        "kiem-tra-chuyen-nganh/bca",
+        "quan-ly-ngoai-thuong/giay-phep"
       ],
       "nguon": [
         {
@@ -2593,7 +2596,15 @@
       "toan_van": "raw/download/datafiles.chinhphu.vn/128-2020-nd-cp.pdf",
       "slug": "128-2020-nd-cp",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "90/2020/TT-BTC",
+            "quan_he": "huong_dan",
+            "so_hieu": "128/2020/NĐ-CP"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "128/2026/TT-BTC",
@@ -3141,6 +3152,38 @@
       "het_hieu_luc_tu": "2030-01-29",
       "toan_van": "raw/download/pvtm.gov.vn/143-qd-bct.pdf",
       "slug": "143-qd-bct-2025",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "15/2012/QH13",
+      "loai": "LUAT",
+      "ten": "Luật Xử lý vi phạm hành chính",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2012-06-20",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "xu-phat"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/luat-so-15-2012-qh13-915.htm",
+          "truy_cap": "2026-10-04"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "cay-du-lieu-agent"
+      },
+      "ghi_chu": "Khung chung xử lý VPHC; đã được sửa đổi/bổ sung nhiều lần (gồm Luật 88/2025/QH15). Ngày hiệu lực đầy đủ cần đối chiếu nguồn A (không đoán).",
+      "tu_khoa": [
+        "xu-phat",
+        "xu-ly-vphc"
+      ],
+      "slug": "15-2012-qh13",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -6791,6 +6834,7 @@
       "hieu_luc_tu": "2015-04-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
+        "hai-quan/kiem-tra-giam-sat",
         "hai-quan/thu-tuc"
       ],
       "quan_he": {
@@ -7245,7 +7289,7 @@
       "hieu_luc_tu": "2020-02-05",
       "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
       "nhanh": [
-        "chua-phan-loai"
+        "quan-ly-ngoai-thuong"
       ],
       "quan_he": {
         "bai_bo": [
@@ -8952,6 +8996,44 @@
         }
       ],
       "slug": "89-2018-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "90/2020/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Quy định các biểu mẫu sử dụng để xử phạt vi phạm hành chính trong lĩnh vực hải quan",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2020-11-11",
+      "hieu_luc_tu": "2020-12-26",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "xu-phat"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "128/2020/NĐ-CP"
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-90-2020-tt-btc-32537/33457.htm",
+          "truy_cap": "2026-10-04"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-04",
+        "boi": "cay-du-lieu-agent"
+      },
+      "ghi_chu": "Làm dày nhánh xu-phat (cặp với 128/2020/NĐ-CP).",
+      "tu_khoa": [
+        "xu-phat",
+        "bieu-mau"
+      ],
+      "slug": "90-2020-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },

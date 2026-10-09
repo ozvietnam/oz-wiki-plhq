@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-09",
-  "tong": 507,
+  "tong": 508,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -363,15 +363,6 @@
       "trongSo": 0
     },
     {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "07/2023/TT-NHNN: chưa xếp vào cây",
-      "muc_tieu": "07/2023/TT-NHNN",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
-      "trongSo": 0
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "08/2015/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -484,15 +475,6 @@
       "muc": "Thấp",
       "tieuDe": "10/2020/TT-BTTTT: chưa xếp vào cây",
       "muc_tieu": "10/2020/TT-BTTTT",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "10/2022/TT-BTTTT: chưa xếp vào cây",
-      "muc_tieu": "10/2022/TT-BTTTT",
       "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
       "luong": "cay-du-lieu",
       "trongSo": 0
@@ -642,15 +624,6 @@
       "trongSo": 0
     },
     {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "11/2024/TT-BTTTT: chưa xếp vào cây",
-      "muc_tieu": "11/2024/TT-BTTTT",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
-      "trongSo": 0
-    },
-    {
       "ma": "CO_QUAN_DA_SAP_NHAP",
       "muc": "Thấp",
       "tieuDe": "11/2024/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN",
@@ -783,15 +756,6 @@
       "muc_tieu": "124/2026/TT-BTC",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"124/2026/TT-BTC\" --ghi",
       "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "125/2021/TT-BCA: chưa xếp vào cây",
-      "muc_tieu": "125/2021/TT-BCA",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
       "trongSo": 0
     },
     {
@@ -1061,6 +1025,24 @@
       "tieuDe": "142/2026/TT-BTC: chưa có toàn văn trong raw/",
       "muc_tieu": "142/2026/TT-BTC",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"142/2026/TT-BTC\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "15/2012/QH13: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "15/2012/QH13",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Vừa",
+      "tieuDe": "15/2012/QH13: chưa có toàn văn trong raw/",
+      "muc_tieu": "15/2012/QH13",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"15/2012/QH13\" --ghi",
       "luong": "nap-lam-sach",
       "trongSo": 0
     },
@@ -2379,15 +2361,6 @@
       "trongSo": 0
     },
     {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "42/2019/TT-BCT: chưa xếp vào cây",
-      "muc_tieu": "42/2019/TT-BCT",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
-      "trongSo": 0
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "43/2013/TT-BCT: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
@@ -2991,6 +2964,24 @@
       "trongSo": 0
     },
     {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "90/2020/TT-BTC: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "90/2020/TT-BTC",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "90/2020/TT-BTC: chưa có toàn văn trong raw/",
+      "muc_tieu": "90/2020/TT-BTC",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"90/2020/TT-BTC\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "915/QĐ-BCT: chưa có nguồn chính thống",
@@ -3101,6 +3092,15 @@
     {
       "ma": "DANH_MUC_CHUA_TRICH",
       "muc": "Vừa",
+      "tieuDe": "Chưa trích bảng mã HS: 10/2022/TT-BTTTT",
+      "muc_tieu": "10/2022/TT-BTTTT",
+      "viec": "Văn bản danh mục chưa có danh-muc/10-2022-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 3 mã.",
+      "luong": "danh-muc-hs",
+      "trongSo": 3
+    },
+    {
+      "ma": "DANH_MUC_CHUA_TRICH",
+      "muc": "Vừa",
       "tieuDe": "Chưa trích bảng mã HS: 11/2022/TT-BCT",
       "muc_tieu": "11/2022/TT-BCT",
       "viec": "Văn bản danh mục chưa có danh-muc/11-2022-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
@@ -3124,6 +3124,15 @@
       "viec": "Văn bản danh mục chưa có danh-muc/1182-qd-bct-2021.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 496 mã.",
       "luong": "danh-muc-hs",
       "trongSo": 496
+    },
+    {
+      "ma": "DANH_MUC_CHUA_TRICH",
+      "muc": "Vừa",
+      "tieuDe": "Chưa trích bảng mã HS: 125/2021/TT-BCA",
+      "muc_tieu": "125/2021/TT-BCA",
+      "viec": "Văn bản danh mục chưa có danh-muc/125-2021-tt-bca.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 1 mã.",
+      "luong": "danh-muc-hs",
+      "trongSo": 1
     },
     {
       "ma": "DANH_MUC_CHUA_TRICH",
