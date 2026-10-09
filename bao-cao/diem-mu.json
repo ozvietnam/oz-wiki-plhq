@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-09",
-  "tong": 489,
+  "tong": 494,
   "diem": [
     {
       "ma": "THIEU_NGUON_AHTN",
@@ -2984,15 +2984,6 @@
     {
       "ma": "DANH_MUC_CHUA_TRICH",
       "muc": "Vừa",
-      "tieuDe": "Chưa trích bảng mã HS: 22/2018/TT-BTTTT",
-      "muc_tieu": "22/2018/TT-BTTTT",
-      "viec": "Văn bản danh mục chưa có danh-muc/22-2018-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 31 mã.",
-      "luong": "danh-muc-hs",
-      "trongSo": 31
-    },
-    {
-      "ma": "DANH_MUC_CHUA_TRICH",
-      "muc": "Vừa",
       "tieuDe": "Chưa trích bảng mã HS: 28/2021/TT-BYT",
       "muc_tieu": "28/2021/TT-BYT",
       "viec": "Văn bản danh mục chưa có danh-muc/28-2021-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
@@ -3545,6 +3536,60 @@
       "tieuDe": "16/2026/TT-BNV: mã 84188610 không có trong biểu thuế",
       "muc_tieu": "16/2026/TT-BNV",
       "viec": "danh-muc/16-2026-tt-bnv.csv dòng 42 (\"Hệ thống lạnh sử dụng môi chất lạnh nhóm B1; B2L; B2; B3; A2\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "22/2018/TT-BTTTT: mã 49051000 không có trong biểu thuế",
+      "muc_tieu": "22/2018/TT-BTTTT",
+      "viec": "danh-muc/22-2018-tt-btttt.csv dòng 25 (\"Quả địa cầu (có in bản đồ)\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "22/2018/TT-BTTTT: mã 49059100 không có trong biểu thuế",
+      "muc_tieu": "22/2018/TT-BTTTT",
+      "viec": "danh-muc/22-2018-tt-btttt.csv dòng 26 (\"Bản đồ biểu đồ dạng quyển\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "22/2018/TT-BTTTT: mã 49059900 không có trong biểu thuế",
+      "muc_tieu": "22/2018/TT-BTTTT",
+      "viec": "danh-muc/22-2018-tt-btttt.csv dòng 27 (\"Bản đồ biểu đồ dạng tờ rời tờ gấp\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "22/2018/TT-BTTTT: mã 49119139 không có trong biểu thuế",
+      "muc_tieu": "22/2018/TT-BTTTT",
+      "viec": "danh-muc/22-2018-tt-btttt.csv dòng 32 (\"Tranh in ảnh khác loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "22/2018/TT-BTTTT: mã 49119190 không có trong biểu thuế",
+      "muc_tieu": "22/2018/TT-BTTTT",
+      "viec": "danh-muc/22-2018-tt-btttt.csv dòng 33 (\"Tranh in ảnh loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "DAN_CHIEU_CHUA_CO_BANG",
+      "muc": "Vừa",
+      "tieuDe": "22/2018/TT-BTTTT dẫn mã HS sang trừ đơn sắc (đen trắng) — chưa có trong sổ",
+      "muc_tieu": "trừ đơn sắc (đen trắng)",
+      "viec": "danh-muc/22-2018-tt-btttt.csv có dòng không ghi mã mà dẫn chiếu trừ đơn sắc (đen trắng). Thêm trừ đơn sắc (đen trắng) vào sổ rồi trích bảng để mã HS của các dòng này tra được.",
       "luong": "danh-muc-hs",
       "trongSo": 0
     },
