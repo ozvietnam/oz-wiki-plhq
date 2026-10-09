@@ -44,6 +44,10 @@ Luật Dược 2016 (105/2016/QH13, sửa bổ sung bởi 44/2024/QH15) là **c�
 | **Bột quế** (SX thuốc) | ✅ Có (nguyên liệu thuốc) | **3003.90.90** | Giấy phép NK nguyên liệu |
 | **Hỗn hợp bột gừng + bột quế** (gói thành phẩm, bán lẻ) | ⚠️ Tùy công bố | 0910.30/0906.20 (nếu gia vị) hoặc **3004.90.98** (nếu thuốc cổ truyền) | Tùy công bố |
 | **Cao dán chỉ giữ ấm vật lý**, KHÔNG công dụng dược lý | Có thể không phải thuốc | 3005.10 (nếu băng y tế) hoặc 3824 (chế phẩm hóa học) | Tùy mã |
+| **Cao dán gừng + ngải cứu** (thuốc cổ truyền, **chưa có trong DM 09/2024**) | ✅ Có (Điều 2.8 Luật 105/2016) | **3004.90.98** (dự kiến) | Có thể xin theo **Điều 60.2b** Luật 105/2016: NK thuốc chứa dược liệu lần đầu VN. Cơ sở pháp lý cho dạng "cao dán" = "**các dạng khác**" theo TT 32/2020/TT-BYT Điều 2.2(b) |
+| **Dược liệu chưa qua chế biến** (gừng, quế, ngải cứu khô) | ❌ Không phải thuốc (nguyên liệu) | 0910 (gia vị) hoặc **1211** (dược liệu chưa chế biến, có trong DM11) | Không nếu chỉ làm gia vị |
+| **Tinh dầu gừng, tinh dầu quế** (làm thuốc) | ✅ Có (DM12 09/2024) | **3301.29.70** | Giấy phép NK (Cục QLYDCT) |
+| **Thuốc cổ truyền chưa có GĐKLH** (ví dụ cao dán mới) | ✅ Có (Điều 2.8) | Tùy dạng bào chế | **Điều 60.2b** Luật 105/2016 cho phép cấp phép NK |
 
 ## Điểm mù thường gặp
 
@@ -93,6 +97,8 @@ Không có số đăng ký lưu hành → **không được NK** dù có giấy 
 **Miếng dán thảo mộc (gừng + ngải cứu)** trước khi có tóm tắt này:
 - Câu trả lời đầu tiên: `3004.90.98` (Thuốc cổ truyền) + KTCL — ✅ đúng
 - Câu trả lời thứ 2: `3005.10.90` (Băng y tế) — ❌ sai vì Luật Dược định nghĩa rõ "thuốc cổ truyền" bao gồm dược liệu phối ngũ theo YHCT
+- Sau khi đọc kỹ **Điều 60.2b Luật 105/2016**: DN có cơ sở pháp lý để xin NK thuốc cổ truyền dạng bào chế mới (cao dán) chưa có trong DM 09/2024 — gửi hồ sơ về **Cục QLYDCT** (Điều 5 09/2024/TT-BYT)
+- **Điều 87 Nghị định 163/2025/NĐ-CP**: khi được cấp phép NK, phải thông báo UBND cấp tỉnh **5 ngày làm việc trước** khi khai HQ
 
 Bài học: **Đọc định nghĩa pháp lý trước khi chọn mã HS**.
 
