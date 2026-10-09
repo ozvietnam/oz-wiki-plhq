@@ -1,7 +1,16 @@
 {
-  "ngay": "2026-10-05",
-  "tong": 503,
+  "ngay": "2026-10-09",
+  "tong": 500,
   "diem": [
+    {
+      "ma": "THIEU_VAN_BAN",
+      "muc": "Cao",
+      "tieuDe": "Chưa có trong sổ: 14/2018/TT-BYT",
+      "muc_tieu": "14/2018/TT-BYT",
+      "viec": "Tạo registry/van-ban/ cho 14/2018/TT-BYT (được nhắc bởi 19/2024/TT-BYT (thay_the)). Dùng: node tools/them-van-ban.mjs \"14/2018/TT-BYT\"",
+      "luong": "he-thong-hoa",
+      "trongSo": 0
+    },
     {
       "ma": "THIEU_VAN_BAN",
       "muc": "Cao",
@@ -1236,30 +1245,12 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Thấp",
-      "tieuDe": "19/2024/TT-BYT: chưa có nguồn chính thống",
-      "muc_tieu": "19/2024/TT-BYT",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
-      "tieuDe": "19/2024/TT-BYT: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
+      "tieuDe": "19/2024/TT-BYT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "19/2024/TT-BYT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "19/2024/TT-BYT: chưa có toàn văn trong raw/",
-      "muc_tieu": "19/2024/TT-BYT",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"19/2024/TT-BYT\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -3110,15 +3101,6 @@
     {
       "ma": "DANH_MUC_CHUA_TRICH",
       "muc": "Vừa",
-      "tieuDe": "Chưa trích bảng mã HS: 19/2024/TT-BYT",
-      "muc_tieu": "19/2024/TT-BYT",
-      "viec": "Văn bản danh mục chưa có danh-muc/19-2024-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
-      "luong": "danh-muc-hs",
-      "trongSo": 0
-    },
-    {
-      "ma": "DANH_MUC_CHUA_TRICH",
-      "muc": "Vừa",
       "tieuDe": "Chưa trích bảng mã HS: 22/2018/TT-BTTTT",
       "muc_tieu": "22/2018/TT-BTTTT",
       "viec": "Văn bản danh mục chưa có danh-muc/22-2018-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 31 mã.",
@@ -3653,15 +3635,6 @@
       "tieuDe": "16/2026/TT-BNV: mã 84188610 không có trong biểu thuế",
       "muc_tieu": "16/2026/TT-BNV",
       "viec": "danh-muc/16-2026-tt-bnv.csv dòng 42 (\"Hệ thống lạnh sử dụng môi chất lạnh nhóm B1; B2L; B2; B3; A2\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
-      "luong": "danh-muc-hs",
-      "trongSo": 0
-    },
-    {
-      "ma": "DAN_CHIEU_CHUA_CO_BANG",
-      "muc": "Vừa",
-      "tieuDe": "24/2026/TT-BYT dẫn mã HS sang 19/2024/TT-BYT — văn bản đó chưa có bảng",
-      "muc_tieu": "19/2024/TT-BYT",
-      "viec": "danh-muc/24-2026-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 19/2024/TT-BYT. Trích danh-muc/19-2024-tt-byt.csv để mã HS của các dòng này tra được.",
       "luong": "danh-muc-hs",
       "trongSo": 0
     },
