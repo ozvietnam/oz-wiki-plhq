@@ -57,6 +57,7 @@ Hàng hóa thương nhân Việt Nam được phép mua bán, trao đổi với 
 ## Key sources
 
 - [[sources/33-2025-tt-bct]] — TT 33/2025 (hiện hành)
+- [[sources/01-2018-tt-bct]] — TT 01/2018 (bị sửa, chưa tạo wiki)
 - **NĐ 14/2018/NĐ-CP** — khung pháp lý về TM biên giới
 
 ## Related concepts
