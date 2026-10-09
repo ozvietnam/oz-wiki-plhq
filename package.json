@@ -13,7 +13,9 @@
     "nap": "node tools/nap.mjs",
     "them": "node tools/them-van-ban.mjs",
     "san-hieu-luc": "node tools/san-hieu-luc.mjs",
-    "test": "node tools/test/run.mjs && node tools/kiem-tra.mjs && node _lumina/scripts/lint.mjs --json > /dev/null"
+    "test": "node tools/test/run.mjs && node tools/kiem-tra.mjs && node _lumina/scripts/lint.mjs --json > /dev/null",
+    "test:parser": "python3 tools/test-trich-14dm.py",
+    "trich": "python3 tools/trich-14dm.mjs.py"
   },
   "dependencies": {
     "js-yaml": "^4.1.0"

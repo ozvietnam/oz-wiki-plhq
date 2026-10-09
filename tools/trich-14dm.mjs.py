@@ -219,6 +219,8 @@ def parse_dm14(section):
 # Parse DM8: nhiều STT có 2 dạng dùng (Dạng A MHS1 + Dạng B MHS2) hoặc mã HS có dấu "/"
 def parse_dm8(section):
     """DM8: thuốc 1 thành phần - mỗi STT có thể có 1-2 dòng mã HS"""
+    # Fix mã HS bị split: "3004. 90. 99" -> "3004.90.99"
+    section = re.sub(r'(\d{4})\.\s+(\d{2})\.\s+(\d{2})', r'\1.\2.\3', section)
     section = re.sub(r'(\d{4}\.\d{2})\s+(\d{2})', r'\1.\2', section)
     # DM8 STT 1 bắt đầu bằng "1 2, 4 Dichlorobenzyl" - pattern đặc biệt
     m = re.search(r'\b1\s+[\d, ]+\s*[A-ZÀ-Ỹ]', section)
