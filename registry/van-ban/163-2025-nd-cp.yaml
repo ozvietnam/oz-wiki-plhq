@@ -8,8 +8,6 @@ hieu_luc_tu: 2025-07-01
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
-  - kiem-tra-chuyen-nganh/byt
-  - kiem-tra-chuyen-nganh/byt
 quan_he:
   thay_the:
     - so_hieu: 54/2017/NĐ-CP
@@ -25,14 +23,17 @@ quan_he:
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=214322
     truy_cap: 2026-10-09
-toan_van: raw/download/vanban.chinhphu.vn/2025/6/163-2025-nd-cp.htm
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/163nd.signed.pdf
+    truy_cap: 2026-10-09
+    ghi_chu: 'PDF bản ký số 288 trang (bản scan, không có text layer)'
+toan_van: raw/download/datafiles.chinhphu.vn/2025/7/163-2025-nd-cp.signed.pdf
 trich_dan_trong_bieu_thue: 0
 xac_minh:
   muc: NGUON_A
-  pham_vi: "Số hiệu, ngày ban hành 29-06-2025, người ký (Lê Thành Long), ngày hiệu lực 01-07-2025; xác nhận thay thế 54/2017/NĐ-CP"
+  pham_vi: "Số hiệu 163/2025/NĐ-CP, ngày ban hành 29-06-2025, người ký Lê Thành Long, ngày hiệu lực 01-07-2025; thay thế 54/2017/NĐ-CP. Điều chỉnh Điều 13, khoản 4 Điều 29, khoản 3 Điều 34, khoản 5 Điều 38, khoản 2 Điều 41, khoản 6 Điều 54, khoản 4+5 Điều 60, khoản 3 Điều 69 của Luật Dược 2016; khoản 4, 5, 9, điểm a+c khoản 18, điểm d+đ khoản 32, khoản 33, 39, 43 Điều 1 Luật sửa đổi 2024. Căn cứ ban hành: Luật Tổ chức Chính phủ 18/02/2025 + Luật Tổ chức chính quyền địa phương 16/6/2025. Nội dung chính (theo tóm tắt VCCI + nhansu.vn): (1) Quản lý hoạt động NK thuốc chưa có GĐKLH; (2) Quy định hạn dùng còn lại tại thời điểm thông quan; (3) Quy định cửa khẩu NK; (4) Yêu cầu đối với cơ sở cung cấp thuốc NLLSthuốc NK; (5) Ngừng tiếp nhận/cấp phép NK; (6) Quy định báo cáo XNK; (7) Quy định giấy tờ chuyên ngành phải nộp khi thông quan. Đối tượng: cơ quan, tổ chức, cá nhân trong/ngoài nước có hoạt động liên quan đến dược tại VN. Phụ lục I-V kèm theo (mẫu biểu báo cáo). Điều 87 và 125 quy định báo cáo NK áp dụng từ 01-01-2028 (lộ trình)."
   hieu_luc_da_doi_chieu: true
   ngay: 2026-10-09
   boi: hermes
-  canh_bao: "Một số khoản có lộ trình áp dụng từ 01-01-2028 (báo cáo nhập khẩu Điều 87, 125) — cần theo dõi"
-ghi_chu: "Căn cứ pháp lý hiện hành cho giấy phép NK thuốc, nguyên liệu làm thuốc. Phụ lục I-V quy định biểu mẫu cụ thể. Cần rà chi tiết các điều khoản về giấy phép nhập khẩu thuốc dùng ngoài da (Điều 87) và thuốc cổ truyền."
+  canh_bao: "PDF bản scan 288 trang KHÔNG có text layer — chưa đọc được chi tiết từng điều khoản, chỉ dựa vào tóm tắt từ VCCI + nhansu.vn. CẦN OCR hoặc nguồn HTML có text để đọc chi tiết"
+ghi_chu: "Căn cứ pháp lý hiện hành cho giấy phép NK thuốc, nguyên liệu làm thuốc. Phụ lục I-V quy định biểu mẫu cụ thể. Cần rà chi tiết các điều khoản về giấy phép nhập khẩu thuốc dùng ngoài da (Điều 87) và thuốc cổ truyền. Lộ trình 01-01-2028 cho báo cáo NK (Điều 87, 125) — cần theo dõi. Đã tải PDF bản ký số gốc 288 trang nhưng không có text layer."
 tu_khoa: [dược-phẩm, nguyên-liệu-làm-thuốc, gcn-dkkdd, 105-2016, 44-2024]
