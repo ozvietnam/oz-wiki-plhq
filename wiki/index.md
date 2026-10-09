@@ -20,3 +20,26 @@ _This catalog is updated by /lumi-ingest and /lumi-init._
 ## Sources
 
 Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
+
+<!-- lumina:index -->
+- [[concepts/doc-tinh-trang-hieu-luc]]
+- [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]]
+- [[concepts/muc-do-rui-ro-hang-hoa]]
+- [[concepts/nhan-hang-hoa-nhap-khau]]
+- [[concepts/phan-loai-ma-hs]]
+- [[concepts/thu-tuc-hai-quan-xnk]]
+- [[concepts/thue-gtgt-hang-nhap-khau]]
+- [[sources/05-2007-qh12]]
+- [[sources/09-2026-nq-cp]]
+- [[sources/15-2018-nd-cp]]
+- [[sources/15-2026-nq-cp]]
+- [[sources/28-2026-tt-bct]]
+- [[sources/33-2026-tt-bct]]
+- [[sources/37-2026-nd-cp]]
+- [[sources/46-2026-nd-cp]]
+- [[sources/54-2014-qh13]]
+- [[sources/55-2010-qh12]]
+- [[sources/78-2025-qh15]]
+- [[summary/khung-kiem-tra-chuyen-nganh-2026]]
+- [[summary/khung-thu-tuc-hai-quan]]
+<!-- /lumina:index -->
