@@ -46,6 +46,11 @@ flowchart LR
   n_03_2021_TT_BYT["03/2021/TT-BYT<br/>chưa xác minh"]
   n_09_2026_NQ_CP["09/2026/NQ-CP<br/>còn hiệu lực"]
   n_46_2026_N__CP["46/2026/NĐ-CP<br/>tạm ngưng"]
+  n_105_2016_QH13["105/2016/QH13<br/>còn hiệu lực"]
+  n_34_2005_QH11["34/2005/QH11<br/>hết hiệu lực"]
+  n_28_2018_QH14["28/2018/QH14<br/>hết hiệu lực"]
+  n_44_2024_QH15["44/2024/QH15<br/>còn hiệu lực"]
+  n_76_VBHN_VPQH["76-VBHN/VPQH<br/>chưa có trong sổ"]
   n_11_2024_TT_BTTTT["11/2024/TT-BTTTT<br/>còn hiệu lực"]
   n_05_2016_TT_BTTTT["05/2016/TT-BTTTT<br/>chưa xác minh"]
   n_22_2018_TT_BTTTT["22/2018/TT-BTTTT<br/>còn hiệu lực"]
@@ -65,6 +70,8 @@ flowchart LR
   n_26_2018_TT_BL_TBXH["26/2018/TT-BLĐTBXH<br/>chưa xác minh"]
   n_13_2024_TT_BL_TBXH["13/2024/TT-BLĐTBXH<br/>chưa xác minh"]
   n_09_2025_TT_BNV["09/2025/TT-BNV<br/>chưa xác minh"]
+  n_163_2025_N__CP["163/2025/NĐ-CP<br/>còn hiệu lực"]
+  n_54_2017_N__CP["54/2017/NĐ-CP<br/>hết hiệu lực"]
   n_17_2023_TT_BNNPTNT["17/2023/TT-BNNPTNT<br/>còn hiệu lực"]
   n_924_Q__BNN_TCLN["924/QĐ-BNN-TCLN<br/>hết hiệu lực"]
   n_1725_Q__BCT["1725/QĐ-BCT<br/>còn hiệu lực"]
@@ -112,6 +119,10 @@ flowchart LR
   n_09_2024_TT_BYT -->|bãi bỏ từ 2024-07-26| n_48_2018_TT_BYT
   n_09_2024_TT_BYT -->|bãi bỏ từ 2024-07-26| n_03_2021_TT_BYT
   n_09_2026_NQ_CP -->|tạm ngưng| n_46_2026_N__CP
+  n_105_2016_QH13 -->|thay thế từ 2017-01-01| n_34_2005_QH11
+  n_105_2016_QH13 -->|sửa đổi Một số điều liên quan đến quy hoạch từ 2019-01-01| n_28_2018_QH14
+  n_105_2016_QH13 -->|sửa đổi Sửa đổi, bổ sung một số điều Luật Dược (Điều 2, 11, 13, 29, 34, 38, 41, 54, 60, 69...) từ 2025-07-01| n_44_2024_QH15
+  n_105_2016_QH13 -->|hợp nhất Văn bản hợp nhất toàn bộ Luật 105/2016, 28/2018, 44/2024 từ 2026-03-01| n_76_VBHN_VPQH
   n_11_2024_TT_BTTTT -->|sửa đổi từ 2024-11-07| n_05_2016_TT_BTTTT
   n_11_2024_TT_BTTTT -->|sửa đổi Điều 1 từ 2024-11-07| n_22_2018_TT_BTTTT
   n_11_2024_TT_BTTTT -->|sửa đổi từ 2024-11-07| n_03_2015_TT_BTTTT
@@ -126,6 +137,7 @@ flowchart LR
   n_16_2026_TT_BNV -->|thay thế từ 2026-07-28| n_26_2018_TT_BL_TBXH
   n_16_2026_TT_BNV -->|thay thế từ 2026-07-28| n_13_2024_TT_BL_TBXH
   n_16_2026_TT_BNV -->|bãi bỏ Điều 16 từ 2026-07-28| n_09_2025_TT_BNV
+  n_163_2025_N__CP -->|thay thế từ 2025-07-01| n_54_2017_N__CP
   n_17_2023_TT_BNNPTNT -->|bãi bỏ từ 2024-01-30| n_924_Q__BNN_TCLN
   n_1725_Q__BCT -->|thay thế Phụ lục II từ 2024-07-01| n_1182_Q__BCT
   n_19_2024_TT_BYT -->|thay thế từ 2024-11-16| n_14_2018_TT_BYT
@@ -152,6 +164,7 @@ flowchart LR
   n_37_2026_N__CP -->|bãi bỏ từ 2026-01-23| n_43_2017_N__CP
   n_37_2026_N__CP -->|bãi bỏ từ 2026-01-23| n_111_2021_N__CP
   n_41_2026_TT_BXD -->|thay thế| n_10_2024_TT_BXD
+  n_44_2024_QH15 -->|sửa đổi Điều 2 (giải thích từ ngữ), Điều 11 (chứng chỉ hành nghề), khoản 4, 5, 9, điểm a và c khoản 18, điểm d và đ khoản 32, khoản 33, 39, 43 Điều 1 từ 2025-07-01| n_105_2016_QH13
   n_46_2026_N__CP -->|thay thế| n_15_2018_N__CP
   n_4814_Q__BCA -->|bãi bỏ từ 2026-07-28| n_8378_Q__BCA
   n_49_2026_TT_BXD -->|bãi bỏ từ 2026-07-01| n_12_2022_TT_BGTVT

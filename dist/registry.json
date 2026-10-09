@@ -1,7 +1,7 @@
 {
   "phien_ban": "2026-10-09",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 211,
+  "tong": 219,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -1115,17 +1115,22 @@
         {
           "url": "https://moh.gov.vn/tin-tong-hop/-/asset_publisher/k206Q9qkZOqn/content/bo-y-te-he-thong-van-ban-ban-hanh-nam-2024",
           "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://vcci.com.vn/legal-document/09-2024-tt-byt",
+          "truy_cap": "2026-10-09",
+          "ghi_chu": "VCCI (bậc B) — bản chữ toàn văn đã trích từ Next.js payload; đối chiếu với vbpl.vn"
         }
       ],
       "trich_dan_trong_bieu_thue": 376,
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "toàn văn vbpl.vn ItemID=169844 (bậc A): Điều 4 khoản 1 hiệu lực 26-07-2024; khoản 2 cho hết hiệu lực TT 06/2018, 48/2018, 03/2021 TT-BYT; thẻ thuộc tính vbpl «Hiệu lực: Còn hiệu lực»; lược đồ vbpl không ghi văn bản thay/bãi 09/2024; moh.gov.vn liệt kê trong hệ thống văn bản BYT 2024 (kiểm đến 04-10-2026)",
+        "pham_vi": "toàn văn vbpl.vn ItemID=169844 (bậc A) + VCCI (bậc B đối chiếu): Điều 1 (Phạm vi điều chỉnh): ban hành 14 DM + nguyên tắc áp dụng; loại trừ tá dược, vỏ nang, hàng không phải nguyên liệu làm thuốc dùng cho người. Điều 2 (Ban hành DM): 14 DM (DM1-5 thuốc KSĐB/thuốc độc/nguyên liệu gây nghiện/hướng thần/tiền chất/chất cấm; DM6 chất phóng xạ; DM7-9 thuốc TP/dược chất/thuốc phối hợp; DM10 vắc xin; DM11 dược liệu; DM12 chất chiết xuất + tinh dầu; DM13 thuốc cổ truyền + thuốc dược liệu; DM14 mỹ phẩm). Điều 3 (Nguyên tắc áp dụng): k1 khác biệt phân loại theo PL HQVN; k2 hàng chưa có trong DM theo PL HQVN + DN gửi VB BYT (Cục QLD hoặc Cục QLYDCT) sau thông quan để cập nhật DM; k3 cùng mặt hàng nhiều mục đích theo PL tương ứng. Điều 4 (Hiệu lực): 26/07/2024; bãi bỏ TT 06/2018, 48/2018, 03/2021. Điều 5 (Trách nhiệm): Cục QLD (DM1-10,14) / Cục QLYDCT (DM11-13) tiếp nhận hồ sơ + giải quyết vướng mắc. Phụ lục: 14 DM, 3.335 dòng. Cấu trúc cột từng DM: DM1-4 (STT|Mô tả|Mã HS|Tên nguyên liệu|Dạng dùng), DM5 (STT|Mô tả|Mã HS|Tên dược chất|Dạng dùng), DM6 (STT|Tên thuốc phóng xạ|Mã HS), DM7 (STT|Tên nguyên liệu/Dạng dùng|Mã HS), DM8 (STT|Mô tả|Mã HS|Tên dược chất|Dạng dùng), DM9 (STT|Mô tả|Mã HS|Tên thành phần hoạt chất|Dạng dùng), DM10 (STT|Tên vắc xin|Công dụng|Mã HS), DM11 (STT|Tên VN|Bộ phận dùng|Tên KH|Mô tả|Mã HS), DM12 (STT|Tên|Tên KH|Mã HS), DM13 (STT|Tên thuốc|Thành phần|Dạng bào chế|Mã HS), DM14 (STT|Mô tả|Mã HS). Phát hiện: (a) Ngải cứu thường gọi = Thanh cao theo Dược điển VN, mã 12119017/12119018 trong DM11; (b) DM9 có 1 dòng Menthol + Methyl salicylate + Camphor + Thymol ở mã 3005.10.10 (chỉ dược chất tổng hợp, KHÔNG có dược liệu tự nhiên); (c) DM13 chỉ có dạng viên/siro, KHÔNG có cao dán.",
         "hieu_luc_da_doi_chieu": true,
-        "ngay": "2026-10-04",
+        "ngay": "2026-10-09",
         "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (376 mã HS). Chưa tìm thấy PDF Công báo/datafiles ổn định; toàn văn HTML vbpl.vn dùng để đối chiếu điều khoản. GHI CHÚ NGHIỆP VỤ (hs-code-api): [DM7]–[DM14] các danh mục thuốc/nguyên liệu/mỹ phẩm.",
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (376 mã HS). Toàn văn HTML vbpl.vn ItemID=169844 + bản chữ từ VCCI (bậc B) dùng để đối chiếu điều khoản. CSV trích chỉ 2 cột (ma_hs + mo_ta) từ 14 DM — MẤT thông tin: cột Tên VN/Bộ phận dùng/Tên KH (DM11), Tên thành phần hoạt chất/Dạng dùng (DM9), Tên dược chất/Dạng dùng (DM1-5,8), Công dụng (DM10), Dạng bào chế (DM13), Tên thuốc phóng xạ (DM6), Tên nguyên liệu/Dạng dùng (DM7). Cần trích lại CSV với đầy đủ cột để tra cứu chính xác tên Dược điển VN (Ngải cứu = Thanh cao) và bộ phận dùng. Cấu trúc cột từng DM đã ghi trong xac_minh.pham_vi. Phân công: Cục QLD (DM1-10, 14) / Cục QLYDCT (DM11-13). 14 danh mục: DM1=219 dòng thuốc độc, DM2=43 gây nghiện, DM3=70 hướng thần, DM4=8 tiền chất, DM5=124 chất cấm, DM6=1 phóng xạ, DM7=620 dược chất+bán TP, DM8=1280 thuốc 1 TP, DM9=412 thuốc phối hợp, DM10=56 vắc xin, DM11=365 dược liệu, DM12=25 chất chiết+tinh dầu, DM13=90 thuốc cổ truyền, DM14=21 mỹ phẩm.",
       "quan_he": {
         "bai_bo": [
           {
@@ -1153,7 +1158,7 @@
         "da_doi_chieu": false,
         "ghi_chu": "Trích từ toàn văn vbpl ItemID=169844 (bậc A). Tệp raw HTML cũ chỉ là trang chủ Next.js — dùng bản chữ đã lấy lại. 14 danh mục → 3334 dòng / 333 mã duy nhất (nhiều hoạt chất/mỹ phẩm trùng mã). Chưa có PDF Công báo ổn định."
       },
-      "toan_van": "raw/download/vbpl.vn/09-2024-tt-byt.html",
+      "toan_van": "raw/download/vcci.com.vn/2024/6/09-2024-tt-byt-body.txt",
       "slug": "09-2024-tt-byt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -1422,6 +1427,114 @@
       "slug": "102-2020-qh14",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "105/2016/QH13",
+      "loai": "LUAT",
+      "ten": "Luật Dược",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2016-04-06",
+      "hieu_luc_tu": "2017-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "34/2005/QH11",
+            "tu_ngay": "2017-01-01",
+            "can_cu": "Điều 116 khoản 4 Luật 105/2016/QH13"
+          }
+        ],
+        "sua_doi": [
+          {
+            "so_hieu": "28/2018/QH14",
+            "pham_vi": "Một số điều liên quan đến quy hoạch",
+            "tu_ngay": "2019-01-01",
+            "can_cu": "Điều 1 Luật 28/2018/QH14"
+          },
+          {
+            "so_hieu": "44/2024/QH15",
+            "pham_vi": "Sửa đổi, bổ sung một số điều Luật Dược (Điều 2, 11, 13, 29, 34, 38, 41, 54, 60, 69...)",
+            "tu_ngay": "2025-07-01",
+            "can_cu": "Điều 1 Luật 44/2024/QH15"
+          }
+        ],
+        "bai_bo": [],
+        "tam_ngung": [],
+        "huong_dan": [
+          {
+            "so_hieu": "54/2017/NĐ-CP"
+          },
+          {
+            "so_hieu": "163/2025/NĐ-CP"
+          }
+        ],
+        "hop_nhat": [
+          {
+            "so_hieu": "76-VBHN/VPQH",
+            "pham_vi": "Văn bản hợp nhất toàn bộ Luật 105/2016, 28/2018, 44/2024",
+            "tu_ngay": "2026-03-01",
+            "can_cu": "Văn phòng Quốc hội công bố"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf",
+          "truy_cap": "2026-10-09"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/2026/3/76-vbhn-vpqh-2026.md",
+      "trich_dan_trong_bieu_thue": 0,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Văn bản hợp nhất toàn bộ 3 văn bản (105/2016, 28/2018, 44/2024). Đã đọc chi tiết toàn văn 14 Chương, 119 Điều. Cấu trúc: Chương I (Điều 1-6, Quy định chung - gồm Điều 2 giải thích từ ngữ, Điều 6 hành vi nghiêm cấm); Chương II (Điều 7-10, Chính sách NN); Chương III (Điều 11-31, Hành nghề dược); Chương IV (Điều 32-65, Kinh doanh dược); Chương V (Điều 54-65, Đăng ký lưu hành - Điều 54 miễn đăng ký cho thuốc NK theo Điều 60, Điều 60 NK thuốc chưa GĐKLH 9 trường hợp - đặc biệt Điều 60.2b dược liệu lần đầu dùng làm thuốc); Chương VI (Điều 66-73, Dược liệu + Thuốc cổ truyền - Điều 73.3 Bộ Y tế hướng dẫn thuốc cổ truyền dạng bào chế hiện đại); Chương VII-XIV (Đơn thuốc, Thông tin thuốc, Dược lâm sàng, Quản lý thuốc trong cơ sở KCB, Thử thuốc lâm sàng, Quy chuẩn chất lượng, Quản lý giá, Điều khoản thi hành). 12 Mục chia nhỏ trong 14 Chương.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-09",
+        "boi": "hermes",
+        "canh_bao": "Chương VI Điều 73.3: Bộ Y tế giao hướng dẫn 'thuốc cổ truyền có dạng bào chế hiện đại' (bao gồm cao dán) — chưa có TT hướng dẫn cụ thể → vùng xám pháp lý"
+      },
+      "ghi_chu": "Điều 2 khoản 2: 'Thuốc là chế phẩm có chứa dược chất hoặc dược liệu dùng cho người nhằm mục đích phòng bệnh, chẩn đoán bệnh, chữa bệnh, điều trị bệnh, giảm nhẹ bệnh, điều chỉnh chức năng sinh lý cơ thể người'. Điều 2 khoản 8: 'Thuốc cổ truyền là thuốc có thành phần từ một hoặc nhiều dược liệu được phối ngũ theo lý luận y học cổ truyền'. Điều 60.2b: cho phép cấp phép NK thuốc chưa có GĐKLH nếu chứa dược liệu lần đầu sử dụng làm thuốc tại VN - cơ sở pháp lý cho DN NK cao dán gừng + ngải cứu dù chưa có trong DM 09/2024/TT-BYT.",
+      "tu_khoa": [
+        "dược-phẩm",
+        "thuốc",
+        "nguyên-liệu-làm-thuốc",
+        "y-hoc-co-truyen",
+        "kiem-soat-dac-biet"
+      ],
+      "slug": "105-2016-qh13",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "163/2025/NĐ-CP",
+            "quan_he": "huong_dan",
+            "so_hieu": "105/2016/QH13"
+          },
+          {
+            "tu": "32/2020/TT-BYT",
+            "quan_he": "huong_dan",
+            "so_hieu": "105/2016/QH13"
+          },
+          {
+            "tu": "54/2017/NĐ-CP",
+            "quan_he": "huong_dan",
+            "so_hieu": "105/2016/QH13"
+          }
+        ],
+        "bi_sua_doi_boi": [
+          {
+            "tu": "44/2024/QH15",
+            "quan_he": "sua_doi",
+            "so_hieu": "105/2016/QH13",
+            "pham_vi": "Điều 2 (giải thích từ ngữ), Điều 11 (chứng chỉ hành nghề), khoản 4, 5, 9, điểm a và c khoản 18, điểm d và đ khoản 32, khoản 33, 39, 43 Điều 1",
+            "tu_ngay": "2025-07-01",
+            "can_cu": "Điều 1 Luật 44/2024/QH15"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "107/2016/QH13",
@@ -3654,6 +3767,84 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "163/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Dược",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-06-29",
+      "hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "54/2017/NĐ-CP",
+            "tu_ngay": "2025-07-01",
+            "can_cu": "Điều 129 khoản 2 NĐ 163/2025/NĐ-CP"
+          }
+        ],
+        "sua_doi": [],
+        "bai_bo": [],
+        "tam_ngung": [],
+        "huong_dan": [
+          {
+            "so_hieu": "105/2016/QH13"
+          },
+          {
+            "so_hieu": "44/2024/QH15"
+          }
+        ],
+        "hop_nhat": []
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=214322",
+          "truy_cap": "2026-10-09"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/163nd.signed.pdf",
+          "truy_cap": "2026-10-09",
+          "ghi_chu": "PDF bản ký số 288 trang (bản scan, không có text layer)"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/2025/7/163-2025-nd-cp-body.txt",
+      "trich_dan_trong_bieu_thue": 0,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Số hiệu 163/2025/NĐ-CP, ngày ban hành 29-06-2025, người ký Lê Thành Long, ngày hiệu lực 01-07-2025; thay thế 54/2017/NĐ-CP. Điều chỉnh Điều 13, khoản 4 Điều 29, khoản 3 Điều 34, khoản 5 Điều 38, khoản 2 Điều 41, khoản 6 Điều 54, khoản 4+5 Điều 60, khoản 3 Điều 69 của Luật Dược 2016; khoản 4, 5, 9, điểm a+c khoản 18, điểm d+đ khoản 32, khoản 33, 39, 43 Điều 1 Luật sửa đổi 2024. Căn cứ ban hành: Luật Tổ chức Chính phủ 18/02/2025 + Luật Tổ chức chính quyền địa phương 16/6/2025. OCR toàn văn 288 trang đã đọc: 129 Điều + 5 Phụ lục. Điều quan trọng: (1) Điều 19 - Điều kiện kinh doanh thuốc cổ truyền (5 mục - SX/XK/NK/bảo quản/bán buôn/bán lẻ dược liệu + thuốc dược liệu + thuốc cổ truyền); (2) Điều 87 - Quy định thông báo NK thuốc (5 ngày làm việc trước khi khai HQ, gửi UBND cấp tỉnh - chi tiết 7 trường thông tin); (3) Điều 88 - Kiểm nghiệm chất lượng thuốc trước khi lưu hành; (4) Điều 89-90 - Đăng ký lưu hành dược liệu, tá dược, vỏ nang; (5) Điều 125 - Lộ trình triển khai kiểm soát NK thuốc; (6) Điều 127 - Điều khoản chuyển tiếp; (7) Điều 128 - Sửa đổi NĐ 31/2021; (8) Điều 129 - Hiệu lực thi hành. Phụ lục: I (mẫu đơn đề nghị cấp GĐKLH), II (báo cáo XNK thuốc kiểm soát đặc biệt), III (các mẫu khác), IV-V (chưa rõ). CHÚ Ý: DM11/12/13 trong 09/2024/TT-BYT không phải do 163/2025/NĐ-CP quy định - 163/2025 chỉ là NĐ hướng dẫn Luật Dược, không thay đổi DM 09/2024/TT-BYT.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-09",
+        "boi": "hermes",
+        "canh_bao": "OCR bằng tesseract 5.5.3 + vie language model - chất lượng 90-95% (một số ký tự sai VD: cỗ/cổ, đuọc/dược, dạng/dạng). PDF gốc có digital signature nên đã strip bằng pikepdf trước khi OCR."
+      },
+      "ghi_chu": "Căn cứ pháp lý hiện hành cho giấy phép NK thuốc, nguyên liệu làm thuốc. Phụ lục I-V quy định biểu mẫu cụ thể. Cần rà chi tiết các điều khoản về giấy phép nhập khẩu thuốc dùng ngoài da (Điều 87) và thuốc cổ truyền. Lộ trình 01-01-2028 cho báo cáo NK (Điều 87, 125) — cần theo dõi. Đã tải PDF bản ký số gốc 288 trang nhưng không có text layer.",
+      "tu_khoa": [
+        "dược-phẩm",
+        "nguyên-liệu-làm-thuốc",
+        "gcn-dkkdd",
+        "105-2016",
+        "44-2024"
+      ],
+      "slug": "163-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "105/2016/QH13",
+            "quan_he": "huong_dan",
+            "so_hieu": "163/2025/NĐ-CP"
+          },
+          {
+            "tu": "44/2024/QH15",
+            "quan_he": "huong_dan",
+            "so_hieu": "163/2025/NĐ-CP"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "17/2021/TT-BTC",
       "loai": "THONG_TU",
       "ten": "Sửa đổi, bổ sung một số điều của Thông tư 14/2015/TT-BTC",
@@ -5285,6 +5476,56 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "28/2018/QH14",
+      "loai": "LUAT",
+      "ten": "Luật sửa đổi, bổ sung một số điều của Luật Dược 2018 (đã hợp nhất)",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2018-06-15",
+      "tinh_trang": "HET_HIEU_LUC",
+      "het_hieu_luc_tu": "2026-03-01",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=49815",
+          "truy_cap": "2026-10-09"
+        }
+      ],
+      "toan_van": null,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "Số hiệu 28/2018/QH14, ban hành 15/6/2018; đã được hợp nhất vào 76-VBHN/VPQH 2026 (tháng 3/2026). Đây là bản sửa đổi Luật Dược 2016 lần 1, trước 44/2024/QH15 (lần 2).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-09",
+        "boi": "hermes",
+        "canh_bao": "Ngày hiệu lực chính xác chưa verify (có thể là 01/07/2018 hoặc 01/01/2019). Cần rà lại bản gốc nếu cần chính xác."
+      },
+      "ghi_chu": "Giữ trong sổ để truy vết. Văn bản 105/2016 + 28/2018 + 44/2024 đã được hợp nhất thành 76-VBHN/VPQH 2026 — đây là bản đang có hiệu lực.",
+      "tu_khoa": [
+        "luat",
+        "duoc",
+        "sua-doi",
+        "hop-nhat",
+        "105-2016",
+        "44-2024"
+      ],
+      "slug": "28-2018-qh14",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "105/2016/QH13",
+            "quan_he": "sua_doi",
+            "so_hieu": "28/2018/QH14",
+            "pham_vi": "Một số điều liên quan đến quy hoạch",
+            "tu_ngay": "2019-01-01",
+            "can_cu": "Điều 1 Luật 28/2018/QH14"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "28/2020/QĐ-TTg",
       "loai": "QUYET_DINH",
       "ten": "Ban hành Danh mục phế liệu được phép nhập khẩu từ nước ngoài làm nguyên liệu sản xuất",
@@ -5972,6 +6213,62 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "32/2020/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Quy định tiêu chuẩn chế biến, bào chế thuốc cổ truyền trong cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2020-12-31",
+      "hieu_luc_tu": "2021-02-17",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "quan_he": {
+        "thay_the": [],
+        "sua_doi": [],
+        "bai_bo": [],
+        "tam_ngung": [],
+        "huong_dan": [
+          "105/2016/QH13"
+        ],
+        "hop_nhat": []
+      },
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-32-2020-TT-BYT-tieu-chuan-che-bien-bao-che-thuoc-co-truyen-trong-co-so-kham-chua-benh-461317.aspx",
+          "truy_cap": "2026-10-09"
+        }
+      ],
+      "toan_van": "raw/download/thuvienphapluat.vn/2021/1/32-2020-tt-byt-body.txt",
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "Số hiệu 32/2020/TT-BYT, ban hành 31/12/2020 bởi Bộ trưởng Nguyễn Trường Sơn, hiệu lực 17/02/2021. Còn hiệu lực. Quy định tiêu chuẩn chế biến, bào chế thuốc cổ truyền trong cơ sở KCB bằng YHCT. Định nghĩa: (a) Dạng bào chế truyền thống: cao, hoàn cứng, hoàn mềm, bột thuốc, trà thuốc, rượu thuốc, cồn thuốc. (b) Dạng bào chế hiện đại: viên nén, bột hòa tan, cốm hòa tan, hoàn nhỏ giọt, siro, viên nang cứng/mềm, thuốc phun mù và CÁC DẠNG KHÁC (kể cả cao dán). Phụ lục I-II kèm theo.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-09",
+        "boi": "hermes",
+        "canh_bao": "Có thể bị thay thế bởi NĐ 163/2025/NĐ-CP (Điều 73.3 Luật 105/2016) - cần đối chiếu khi BYT ban hành TT mới. Chưa tìm được nguồn bậc A (congbao/datafiles) trong lượt này."
+      },
+      "ghi_chu": "Giải quyết vùng xám pháp lý Điều 73.3 Luật 105/2016: \"Các dạng khác\" trong dạng bào chế hiện đại cover cao dán thuốc cổ truyền.",
+      "tu_khoa": [
+        "thong-tu",
+        "duoc",
+        "co-truyen",
+        "bao-che",
+        "ktc"
+      ],
+      "slug": "32-2020-tt-byt",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "55/2025/TT-BYT",
+            "quan_he": "huong_dan",
+            "so_hieu": "32/2020/TT-BYT"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "328/QĐ-TTg",
       "loai": "QUYET_DINH",
       "ten": "Về việc chỉ định các cơ quan đầu mối để triển khai Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)",
@@ -6259,6 +6556,53 @@
       "slug": "336-2026-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "34/2005/QH11",
+      "loai": "LUAT",
+      "ten": "Luật Dược 2005 (bản gốc, đã hết hiệu lực)",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2005-06-14",
+      "hieu_luc_tu": "2005-10-01",
+      "het_hieu_luc_tu": "2017-01-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=9345",
+          "truy_cap": "2026-10-09"
+        }
+      ],
+      "toan_van": null,
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "Số hiệu 34/2005/QH11, ban hành 14/6/2005, hiệu lực 01/10/2005; hết hiệu lực 01/01/2017 do bị thay thế bởi 105/2016/QH13. Đây là bản Luật Dược nền tảng trước 105/2016. Khai thác qua vbpl.vn (nguồn bậc B - thứ cấp đáng tin).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-09",
+        "boi": "hermes"
+      },
+      "ghi_chu": "Giữ trong sổ để truy vết lịch sử pháp lý. Không dùng cho khai báo hải quan hiện tại.",
+      "tu_khoa": [
+        "luat",
+        "duoc",
+        "het-hieu-luc",
+        "105-2016"
+      ],
+      "slug": "34-2005-qh11",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "105/2016/QH13",
+            "quan_he": "thay_the",
+            "so_hieu": "34/2005/QH11",
+            "tu_ngay": "2017-01-01",
+            "can_cu": "Điều 116 khoản 4 Luật 105/2016/QH13"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "34/2025/TT-BCT",
@@ -7449,6 +7793,81 @@
       }
     },
     {
+      "so_hieu": "44/2024/QH15",
+      "loai": "LUAT",
+      "ten": "Luật sửa đổi, bổ sung một số điều của Luật Dược",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2024-11-21",
+      "hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt",
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "quan_he": {
+        "thay_the": [],
+        "sua_doi": [
+          {
+            "so_hieu": "105/2016/QH13",
+            "pham_vi": "Điều 2 (giải thích từ ngữ), Điều 11 (chứng chỉ hành nghề), khoản 4, 5, 9, điểm a và c khoản 18, điểm d và đ khoản 32, khoản 33, 39, 43 Điều 1",
+            "tu_ngay": "2025-07-01",
+            "can_cu": "Điều 1 Luật 44/2024/QH15"
+          }
+        ],
+        "bai_bo": [],
+        "tam_ngung": [],
+        "huong_dan": [
+          {
+            "so_hieu": "163/2025/NĐ-CP"
+          }
+        ],
+        "hop_nhat": []
+      },
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/luat-so-44-2024-qh15-43548.htm",
+          "truy_cap": "2026-10-09"
+        }
+      ],
+      "toan_van": "raw/download/congbao.chinhphu.vn/2024/11/44-2024-qh15.htm",
+      "trich_dan_trong_bieu_thue": 0,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Số hiệu, ngày ban hành, ngày hiệu lực, người ký (Trần Thanh Mẫn); xác nhận thay đổi Điều 2 Luật Dược",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-09",
+        "boi": "hermes"
+      },
+      "ghi_chu": "Căn cứ pháp lý then chốt để xác định thuốc cổ truyền, nguyên liệu làm thuốc. Cần kiểm tra chi tiết Điều 1 để xác định phạm vi thay đổi cụ thể từng khoản.",
+      "tu_khoa": [
+        "dược-phẩm",
+        "thuốc",
+        "sua-doi-luat-duoc",
+        "105-2016"
+      ],
+      "slug": "44-2024-qh15",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "105/2016/QH13",
+            "quan_he": "sua_doi",
+            "so_hieu": "44/2024/QH15",
+            "pham_vi": "Sửa đổi, bổ sung một số điều Luật Dược (Điều 2, 11, 13, 29, 34, 38, 41, 54, 60, 69...)",
+            "tu_ngay": "2025-07-01",
+            "can_cu": "Điều 1 Luật 44/2024/QH15"
+          }
+        ],
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "163/2025/NĐ-CP",
+            "quan_he": "huong_dan",
+            "so_hieu": "44/2024/QH15"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "45/2023/TT-BCT",
       "loai": "THONG_TU",
       "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
@@ -7975,6 +8394,74 @@
       }
     },
     {
+      "so_hieu": "54/2017/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết một số điều và biện pháp thi hành Luật Dược",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2017-05-08",
+      "hieu_luc_tu": "2017-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "het_hieu_luc_tu": "2025-07-01",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt",
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "quan_he": {
+        "thay_the": [],
+        "sua_doi": [],
+        "bai_bo": [],
+        "tam_ngung": [],
+        "huong_dan": [
+          {
+            "so_hieu": "105/2016/QH13"
+          }
+        ],
+        "hop_nhat": []
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=189761",
+          "truy_cap": "2026-10-09"
+        }
+      ],
+      "toan_van": "raw/download/vanban.chinhphu.vn/2017/5/54-2017-nd-cp.htm",
+      "trich_dan_trong_bieu_thue": 0,
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Số hiệu, ngày ban hành, người ký (Nguyễn Xuân Phúc); xác nhận hết hiệu lực 01-07-2025 do 163/2025/NĐ-CP thay thế (Điều 129 khoản 2)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-09",
+        "boi": "hermes"
+      },
+      "ghi_chu": "Hết hiệu lực từ 01-07-2025, thay thế bởi 163/2025/NĐ-CP. Cần đối chiếu điều khoản cụ thể trước khi trích dẫn cho giai đoạn 2017-2025.",
+      "tu_khoa": [
+        "dược-phẩm",
+        "nguyên-liệu-làm-thuốc",
+        "gcn-dkkdd",
+        "het-hieu-luc"
+      ],
+      "slug": "54-2017-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "105/2016/QH13",
+            "quan_he": "huong_dan",
+            "so_hieu": "54/2017/NĐ-CP"
+          }
+        ],
+        "bi_thay_the_boi": [
+          {
+            "tu": "163/2025/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "54/2017/NĐ-CP",
+            "tu_ngay": "2025-07-01",
+            "can_cu": "Điều 129 khoản 2 NĐ 163/2025/NĐ-CP"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "54/VBHN-VPQH",
       "loai": "VAN_BAN_HOP_NHAT",
       "ten": "Văn bản hợp nhất Luật Hải quan",
@@ -8052,6 +8539,53 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "55/2025/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Quy định về kê đơn thuốc cổ truyền, thuốc dược liệu và kê đơn kết hợp trong cơ sở khám chữa bệnh",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2025-12-31",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "quan_he": {
+        "thay_the": [],
+        "sua_doi": [],
+        "bai_bo": [],
+        "tam_ngung": [],
+        "huong_dan": [
+          "32/2020/TT-BYT"
+        ],
+        "hop_nhat": []
+      },
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-55-2025-TT-BYT-ke-don-thuoc-co-truyen-thuoc-duoc-lieu-trong-co-so-kham-chua-benh-687441.aspx",
+          "truy_cap": "2026-10-09"
+        }
+      ],
+      "toan_van": "raw/download/thuvienphapluat.vn/2025/12/55-2025-tt-byt-body.txt",
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "Số hiệu 55/2025/TT-BYT, ban hành 31/12/2025 bởi Bộ Y tế. Quy định kê đơn thuốc cổ truyền, thuốc dược liệu và kê đơn kết hợp. Tham chiếu trực tiếp 32/2020/TT-BYT về dạng bào chế. 6 nguyên tắc kê đơn. Cho phép kết hợp thuốc cổ truyền (cả dạng bào chế truyền thống và hiện đại) với thuốc hóa dược.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-09",
+        "boi": "hermes",
+        "canh_bao": "Chưa tìm được nguồn bậc A (congbao/datafiles) trong lượt này."
+      },
+      "ghi_chu": "VB hướng dẫn Điều 73.3 Luật 105/2016 + 163/2025/NĐ-CP về thuốc cổ truyền dạng bào chế hiện đại.",
+      "tu_khoa": [
+        "thong-tu",
+        "duoc",
+        "co-truyen",
+        "ke-don",
+        "ktc"
+      ],
+      "slug": "55-2025-tt-byt",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "58/2015/TTLT-BCT-BKHCN",
