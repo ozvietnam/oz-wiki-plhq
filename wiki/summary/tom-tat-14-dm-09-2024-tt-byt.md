@@ -61,13 +61,27 @@ Theo **bản chất + mục đích sử dụng**:
 
 ### Bước 2: Tìm bằng tên trong CSV
 
-⚠️ **Lưu ý:** Tên trong CSV là **tên Dược điển VN** hoặc **tên khoa học (Latin)**, KHÔNG phải tên thương mại phổ thông.
+⚠️ **Lưu ý:** Tên trong DM là **tên Dược điển VN** hoặc **tên khoa học (Latin)**, KHÔNG phải tên thương mại phổ thông. Ngoài ra, **cấu trúc CSV hiện tại chỉ có 2 cột `ma_hs` + `mo_ta`** — mất 60-70% thông tin so với VB gốc (Tên VN, Tên KH, Bộ phận dùng, Dạng dùng...).
 
 VD: "Ngải cứu" (tên thường) → trong DM11 ghi là **"Thanh cao"** (tên Dược điển VN, vì Ngải cứu = Artemisia vulgaris, cùng chi Artemisia với Thanh cao = Artemisia annua).
 
-Cách tìm:
-1. Tra tên thường gọi → tra tên khoa học → tra tên Dược điển VN
-2. Hoặc dùng `csvkit` / `pandas` để grep CSV theo nhiều alias
+**Cấu trúc cột đầy đủ của từng DM (theo VB gốc):**
+
+| DM | Số cột | Cấu trúc |
+|---|---|---|
+| DM1-4 | 5 | STT \| Mô tả \| Mã HS \| Tên nguyên liệu \| Dạng dùng |
+| DM5 | 5 | STT \| Mô tả \| Mã HS \| **Tên dược chất** \| Dạng dùng |
+| DM6 | 3 | STT \| **Tên thuốc phóng xạ** \| Mã HS |
+| DM7 | 4 | STT \| **Tên nguyên liệu, bán thành phẩm** \| Dạng dùng \| Mã HS |
+| DM8 | 5 | STT \| Mô tả \| Mã HS \| **Tên dược chất** \| Dạng dùng |
+| DM9 | 5 | STT \| Mô tả \| Mã HS \| **Tên thành phần hoạt chất** \| Dạng dùng |
+| DM10 | 4 | STT \| **Tên vắc xin** \| **Công dụng** \| Mã HS |
+| **DM11** | 6 | STT \| Tên VN \| **Bộ phận dùng** \| **Tên KH** \| Mô tả \| Mã HS |
+| DM12 | 4 | STT \| Tên \| **Tên KH** \| Mã HS |
+| DM13 | 5 | STT \| Tên thuốc \| **Thành phần** \| **Dạng bào chế** \| Mã HS |
+| DM14 | 3 | STT \| Mô tả \| Mã HS |
+
+**Cần trích lại CSV với đầy đủ cột** để tra cứu chính xác tên Dược điển VN, bộ phận dùng, dạng bào chế.
 
 ### Bước 3: Nếu không có trong DM
 
@@ -78,7 +92,7 @@ Theo **Điều 3.2 09/2024/TT-BYT**:
 
 → **Bài học thực tế:** Cao dán gừng + ngải cứu KHÔNG có trong DM9 → BYT từ chối tiếp nhận hồ sơ cấp phép. DN phải:
 1. Tự đề xuất mã HS theo pháp luật HQVN (3005.10.90 — theo chú giải heading 3005)
-2. Gửi VB về Cục QLD **sau khi thông quan** đề nghị BYT bổ sung DM
+2. Gửi VB về **Cục QLYDCT** (Điều 5) **sau khi thông quan** đề nghị BYT bổ sung DM
 3. Chờ BYT ban hành DM bổ sung mới có thể xin giấy phép nhập khẩu chính thức
 
 ## Điều 3.3 — Cùng mặt hàng nhiều mục đích
