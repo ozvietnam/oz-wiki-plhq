@@ -1,5 +1,5 @@
 ---
-id: 06-chuong-vi-duoc-lieu-thuoc-co-truyen
+id: readings/105-2016-qh13/06-chuong-vi-duoc-lieu-thuoc-co-truyen
 title: "Chương VI - Dược liệu và thuốc cổ truyền (Điều 66-73)"
 type: reading
 created: 2026-10-09

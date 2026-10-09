@@ -1,5 +1,5 @@
 ---
-id: 02-chuong-ii-dinh-nghia
+id: readings/105-2016-qh13/02-chuong-ii-dinh-nghia
 title: "Chương II - Định nghĩa thuốc, dược liệu, thuốc cổ truyền (Điều 2-3)"
 type: reading
 created: 2026-10-09

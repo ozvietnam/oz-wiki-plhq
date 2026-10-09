@@ -1,5 +1,5 @@
 ---
-id: 03-chuong-iii-thuoc
+id: readings/105-2016-qh13/03-chuong-iii-quan-ly-thuoc
 title: "Chương III - Quản lý thuốc (Điều 32-46)"
 type: reading
 created: 2026-10-09

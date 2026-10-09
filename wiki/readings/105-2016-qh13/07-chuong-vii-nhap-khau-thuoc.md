@@ -1,5 +1,5 @@
 ---
-id: 07-chuong-vii-nhap-khau-thuoc
+id: readings/105-2016-qh13/07-chuong-vii-nhap-khau-thuoc
 title: "Chương VII - Xuất nhập khẩu thuốc (Điều 55-65)"
 type: reading
 created: 2026-10-09
