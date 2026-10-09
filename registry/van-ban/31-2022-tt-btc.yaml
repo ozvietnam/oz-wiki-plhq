@@ -8,13 +8,14 @@ hieu_luc_tu: '2022-12-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - phan-loai-hs/danh-muc
+  - phan-loai-hs/chu-giai
 xac_minh:
   muc: NGUON_A
   pham_vi: số hiệu/trích yếu trên nguồn A (congbao.chinhphu.vn)
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.
+ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Phụ lục thường kèm 6 quy tắc tổng quát (GIR) — gắn thêm nhanh phan-loai-hs/chu-giai để phủ nhánh chú giải.
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-31-2022-tt-btc-37431.htm
     truy_cap: '2026-10-04'
