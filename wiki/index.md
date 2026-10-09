@@ -19,7 +19,8 @@ _This catalog is updated by /lumi-ingest and /lumi-init._
 
 ## Sources
 
-- [[registry/van-ban/105-2016-qh13|Luật Dược 105/2016/QH13 (hợp nhất)]] — Luật nền tảng, Điều 2 định nghĩa thuốc
-- [[registry/van-ban/44-2024-qh15|Luật 44/2024/QH15]] — Sửa đổi, bổ sung một số điều của Luật Dược
-- [[registry/van-ban/163-2025-nd-cp|Nghị định 163/2025/NĐ-CP]] — Quy định chi tiết thi hành Luật Dược (hiện hành)
-- [[registry/van-ban/54-2017-nd-cp|Nghị định 54/2017/NĐ-CP]] — NĐ hướng dẫn Luật Dược cũ (đã hết hiệu lực 01/07/2025)
+- [[sources/105-2016-qh13|Luật Dược 105/2016/QH13 (hợp nhất)]] — Luật nền tảng, Điều 2 định nghĩa thuốc, Điều 60.2b cho phép NK thuốc chứa dược liệu lần đầu tại VN
+- [[sources/44-2024-qh15|Luật 44/2024/QH15]] — Sửa đổi Điều 2.8 (định nghĩa thuốc cổ truyền dạng bào chế hiện đại), Điều 60.5a (bổ sung trường hợp NK)
+- [[sources/163-2025-nd-cp|Nghị định 163/2025/NĐ-CP]] — Quy định chi tiết thi hành Luật Dược (hiện hành 01/07/2025; Điều 19 điều kiện KD thuốc cổ truyền, Điều 87 thông báo NK 5 ngày trước khai HQ)
+- [[sources/54-2017-nd-cp|Nghị định 54/2017/NĐ-CP]] — NĐ hướng dẫn Luật Dược cũ (đã hết hiệu lực 01/07/2025, thay bởi 163/2025)
+- [[sources/09-2024-tt-byt|Thông tư 09/2024/TT-BYT]] — 14 Danh mục KTCL (BYT; 3.335 dòng, 333 mã HS; phân công Cục QLD cho DM1-10+14, Cục QLYDCT cho DM11-13)

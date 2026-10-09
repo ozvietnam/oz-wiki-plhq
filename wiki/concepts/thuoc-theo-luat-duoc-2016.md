@@ -5,10 +5,11 @@ type: concept
 created: 2026-10-09
 updated: 2026-10-09
 key_sources:
-  - 105/2016/QH13
-  - 44/2024/QH15
-  - 54/2017/NĐ-CP
-  - 163/2025/NĐ-CP
+  - 105-2016-qh13
+  - 44-2024-qh15
+  - 54-2017-nd-cp
+  - 163-2025-nd-cp
+  - 09-2024-tt-byt
 related_concepts:
   - muc-do-rui-ro-hang-hoa
   - kiem-tra-nha-nuoc-an-toan-thuc-pham

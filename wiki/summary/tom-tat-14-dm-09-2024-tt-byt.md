@@ -4,8 +4,10 @@ title: "14 Danh mục của 09/2024/TT-BYT — tóm tắt cấu trúc và cách 
 type: summary
 created: 2026-10-09
 updated: 2026-10-09
-key_sources:
-  - 09/2024/TT-BYT
+key_sources: []
+covers:
+  - 09-2024-tt-byt
+  - 105-2016-qh13
 related_concepts:
   - thuoc-theo-luat-duoc-2016
   - duoc-lieu-theo-luat-duoc-2016

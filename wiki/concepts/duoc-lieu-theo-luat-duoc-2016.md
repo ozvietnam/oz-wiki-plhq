@@ -5,7 +5,9 @@ type: concept
 created: 2026-10-09
 updated: 2026-10-09
 key_sources:
-  - 105/2016/QH13
+  - 105-2016-qh13
+  - 09-2024-tt-byt
+  - 163-2025-nd-cp
 related_concepts:
   - thuoc-theo-luat-duoc-2016
 confidence: high

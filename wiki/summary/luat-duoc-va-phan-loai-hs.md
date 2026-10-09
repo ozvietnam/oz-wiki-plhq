@@ -4,11 +4,13 @@ title: "Luật Dược 2016 và ảnh hưởng đến phân loại HS hàng nh�
 type: summary
 created: 2026-10-09
 updated: 2026-10-09
-key_sources:
-  - 105/2016/QH13
-  - 44/2024/QH15
-  - 54/2017/NĐ-CP
-  - 163/2025/NĐ-CP
+key_sources: []
+covers:
+  - 105-2016-qh13
+  - 44-2024-qh15
+  - 54-2017-nd-cp
+  - 163-2025-nd-cp
+  - 09-2024-tt-byt
 related_concepts:
   - thuoc-theo-luat-duoc-2016
   - duoc-lieu-theo-luat-duoc-2016
