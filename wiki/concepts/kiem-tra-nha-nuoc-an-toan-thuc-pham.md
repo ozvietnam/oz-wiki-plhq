@@ -8,6 +8,7 @@ key_sources: []
 related_concepts:
   - muc-do-rui-ro-hang-hoa
   - doc-tinh-trang-hieu-luc
+  - nhan-hang-hoa-nhap-khau
 confidence: medium
 tags: [attp, kiem-tra-chuyen-nganh]
 ---
@@ -25,12 +26,13 @@ Thực phẩm, phụ gia, dụng cụ và vật liệu bao gói tiếp xúc tr�
 
 ## Key sources
 
-Chưa nạp toàn văn. Theo nguồn thứ cấp — cần đối chiếu.
+Chưa nạp toàn văn. Theo nguồn thứ cấp — cần đối chiếu. Số hiệu neo sổ: `15/2018/NĐ-CP`, `46/2026/NĐ-CP`, `09/2026/NQ-CP`, `15/2026/NQ-CP`, `28/2026/TT-BCT`, `22/2026/TT-BNNMT`.
 
 ## Related concepts
 
 - [[concepts/muc-do-rui-ro-hang-hoa]] — khung chất lượng chung; thực phẩm theo pháp luật an toàn thực phẩm riêng.
 - [[concepts/doc-tinh-trang-hieu-luc]] — ví dụ điển hình của "tạm ngưng" khác "thay thế".
+- [[concepts/nhan-hang-hoa-nhap-khau]] — nhãn/thông tin hàng có thể giao với ATTP; không gộp khung.
 
 ## Mentioned in
 
