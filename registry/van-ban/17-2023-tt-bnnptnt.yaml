@@ -43,3 +43,10 @@ quan_he:
     tu_ngay: '2024-01-30'
     can_cu: Điều 2 khoản 2 TT 17/2023/TT-BNNPTNT
 toan_van: raw/download/congbaocdn.chinhphu.vn/17-2023-tt-bnnptnt.pdf
+danh_muc_hs:
+  tep: danh-muc/17-2023-tt-bnnptnt.csv
+  nguon: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/12/40996/48199-1-2024101-10217-2023-tt-bnnptnt.pdf
+  trich_boi: hermes-sub-agent-cites
+  ngay: '2026-10-09'
+  da_doi_chieu: false
+  ghi_chu: 'Trích 765 dòng (loài × mã HS) từ Bảng mã HS PDF trang 3-61 bằng pdfplumber.extract_tables; 18 mã HS chương 01.01-01.06 (Động vật sống) — phần gỗ/trầm hương/da lông/thực vật tiếp tục trong Công báo 103+104 nên CHƯA trích trong file này; cột dieu_kien ghi ngoại lệ (trừ loài nhà, quốc gia áp dụng) từ PDF'
