@@ -78,6 +78,27 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
   const { nguoc, thieu } = dungDoThi(so);
   const theoKhoa = (s) => so.theoKhoa.get(khoa(s))?.[0];
 
+  // D0 — nguồn tham chiếu pháp lý cốt lõi theo TT 85/2026/TT-BTC Điều 6.1
+  // (a) Chú giải chi tiết HS WCO  → chỉ dùng tax.json + wco-hs-international.csv thay thế
+  // (b) Tuyển tập ý kiến WCO      → chưa có (trả phí)
+  // (c) Chú giải bổ sung AHTN SEN  → chưa có (cần đăng ký ATR)
+  const ahtnPath = join(root, 'raw', 'download', 'asean.org', 'ahtn-2022.pdf');
+  const wcoCompendiumPath = join(root, 'raw', 'download', 'wco.org', 'compendium-classification-opinions.pdf');
+  if (!existsSync(ahtnPath)) {
+    add('THIEU_NGUON_AHTN', MUC.CAO,
+      'AHTN 2022 (ASEAN Harmonized Tariff Nomenclature): chưa có toàn văn trong raw/download/asean.org/ — TT 85/2026/TT-BTC Điều 6.1(c) yêu cầu dùng SEN (Chú giải bổ sung) AHTN khi không xác định được mã. Hiện dùng tạm tax.json (mã 8 số VN = AHTN 8 số) thay thế.',
+      'AHTN-2022',
+      'Sếp chỉ định: (a) mua bản PDF chính thức, (b) screenshot từ atr.asean.org bằng session browser, hoặc (c) chấp nhận dùng tax.json làm nguồn tạm thời.',
+      'truy-vet-nguon');
+  }
+  if (!existsSync(wcoCompendiumPath)) {
+    add('THIEU_NGUON_WCO_COMPENDIUM', MUC.CAO,
+      'WCO Compendium of Classification Opinions: chưa có toàn văn trong raw/download/wco.org/ — TT 85/2026/TT-BTC Điều 6.1(b) yêu cầu dùng Tuyển tập ý kiến WCO làm nguồn ưu tiên thứ 2. Bản chính thức bán qua WCO Bookshop (~500 EUR). Hiện dùng tạm TB-TCHQ VN (LV=313) làm "Compendium VN" thay thế.',
+      'WCO-COMPENDIUM',
+      'Sếp chỉ định: (a) mua bản chính thức, (b) tải từng Classification Opinion mới nhất từ wcoomd.org (~50 opinions/session, 2 session/năm), hoặc (c) chấp nhận dùng TB-TCHQ thay thế.',
+      'truy-vet-nguon');
+  }
+
   // D1 — văn bản được nhắc trong quan hệ nhưng chưa có trong sổ
   for (const t of thieu.values()) {
     add('THIEU_VAN_BAN', MUC.CAO, `Chưa có trong sổ: ${t.so_hieu}`, t.so_hieu,
