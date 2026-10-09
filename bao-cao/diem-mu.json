@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-09",
-  "tong": 531,
+  "tong": 533,
   "diem": [
     {
       "ma": "THIEU_NGUON_AHTN",
@@ -3227,6 +3227,15 @@
     {
       "ma": "DANH_MUC_CHUA_TRICH",
       "muc": "Vừa",
+      "tieuDe": "Chưa trích bảng mã HS: 02/2024/TT-BTTTT",
+      "muc_tieu": "02/2024/TT-BTTTT",
+      "viec": "Văn bản danh mục chưa có danh-muc/02-2024-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "DANH_MUC_CHUA_TRICH",
+      "muc": "Vừa",
       "tieuDe": "Chưa trích bảng mã HS: 03/2021/TT-BYT",
       "muc_tieu": "03/2021/TT-BYT",
       "viec": "Văn bản danh mục chưa có danh-muc/03-2021-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
@@ -3239,6 +3248,15 @@
       "tieuDe": "Chưa trích bảng mã HS: 06/2018/TT-BYT",
       "muc_tieu": "06/2018/TT-BYT",
       "viec": "Văn bản danh mục chưa có danh-muc/06-2018-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "DANH_MUC_CHUA_TRICH",
+      "muc": "Vừa",
+      "tieuDe": "Chưa trích bảng mã HS: 09/2013/TT-BTTTT",
+      "muc_tieu": "09/2013/TT-BTTTT",
+      "viec": "Văn bản danh mục chưa có danh-muc/09-2013-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
       "luong": "danh-muc-hs",
       "trongSo": 0
     },
