@@ -13,7 +13,39 @@ quan_he:
     - 37/2026/NĐ-CP
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Công báo số 475: ban hành 30-06-2026, người ký Đại tướng Lương Tam Quang; Điều 5 khoản 1 hiệu lực 01-07-2026'
+  pham_vi: |
+    Thông tư 125/2026/TT-BCA gồm 7 Điều + 1 Phụ lục (Công báo số 475, 20-08-2026):
+    Điều 1 (Phạm vi điều chỉnh): Danh mục + nguyên tắc quản lý SP/HH rủi ro trung bình & rủi ro cao do BCA quản lý.
+    Điều 2 (Đối tượng áp dụng): (1) Đơn vị thuộc BCA, CA tỉnh/TP; (2) Tổ chức/cá nhân NK, SX, KD SP/HH trong Danh mục; (3) Tổ chức đánh giá sự phù hợp.
+    Điều 3 (Danh mục): Phụ lục ban hành kèm; Cục KH-CLS Công an chủ trì rà soát sửa đổi/bổ sung theo từng thời kỳ.
+    Điều 4 (Nguyên tắc quản lý chất lượng): Theo Luật CL SPHH, Luật TCCS-QCKT, yêu cầu tại Phụ lục + pháp luật liên quan.
+    Điều 5 (Hiệu lực): (1) Hiệu lực 01-07-2026; (2) VBQPPL/QCTKQG dẫn chiếu trong Danh mục bị sửa đổi/thay thế → áp dụng văn bản mới.
+    Điều 6 (Chuyển tiếp): (1) Giấy CN hợp quy, TB tiếp nhận CBHQ cấp trước ngày hiệu lực còn giá trị đến hết hạn; (2) Rủi ro CAO: truy xuất nguồn gốc sau 06 tháng từ ngày hiệu lực.
+    Điều 7 (Trách nhiệm thi hành): (1) Cục KH-CLS Công an hướng dẫn, kiểm tra, đôn đốc; (2) Thủ trưởng đơn vị thuộc BCA, GĐ CA tỉnh/TP, tổ chức/cá nhân liên quan chịu trách nhiệm; vướng mắc báo BCA (qua Cục KH-CLS).
+    Phụ lục (Danh mục SP/HH):
+      (I) PHẦN A — RỦI RO CAO (4 mã HS):
+        1. Pháo hoa các loại → 3604.10.00 — QCVN 04:2021/BCA.
+        2. Bình chữa cháy (có bộ phận kích hoạt tay/điện/cơ khí) → 8424.10.90 — QCVN 03:2023/BCA.
+        3. Chất chữa cháy (gốc nước, bột, khí, bọt) → 3813.00.00 — QCVN 03:2023/BCA.
+        4. Chai/thiết bị chứa khí chữa cháy (vỏ thép sơn đỏ, van xả/kích hoạt tự động) → 8424.10.90 — QCVN 03:2023/BCA.
+      (II) PHẦN B — RỦI RO TRUNG BÌNH (55 mã HS):
+        Mục I. Phương tiện PCCC & cứu nạn, cứu hộ (11 mã, QCVN 03:2023/BCA):
+          1. Tủ trung tâm báo cháy → 8537.10.99.
+          2. Đầu báo cháy các loại → 8531.10.20 / 8531.10.30 / 8531.90.90.
+          3. Đầu phun chất chữa cháy → 8424.90.99.
+          4. Đèn chiếu sáng sự cố, đèn chỉ dẫn thoát nạn → 9405.11.99 / 9405.19.92 / 9405.19.99 / 9405.61.90 / 9405.69.90.
+          5. Máy bơm chữa cháy → 8413.19.10 / 8413.19.20 / 8413.70.
+          6. Van báo động; van tràn ngập → 8481.40.90.
+          7. Vòi đẩy chữa cháy → 5909.00.10.
+        Mục II. Phương tiện giám sát TT-ATGT, an toàn xã hội (44 mã, QCVN 05/06/11:2024–2026/BCA):
+          1. Thiết bị giám sát hành trình & ghi nhận hình ảnh người lái → 8525.81.10/20/90 — QCVN 06:2024 + 11:2026.
+          2. Thiết bị đo tốc độ tự động (radar) → 8525.82.10/20/90 — QCVN 05:2024 + 11:2026.
+          3. Camera quan sát giao thông → 8525.83.10/20/90 — QCVN 05:2024 + 11:2026.
+          4. Camera giám sát giao thông → 8525.89.10/20/30/90 + 8481.80 — QCVN 11:2026 + 05:2024.
+          5. Camera nhận dạng biển số → QCVN 05:2024 + 11:2026.
+          6. Camera đo đếm lưu lượng phương tiện → QCVN 05:2024 + 11:2026.
+          7. Camera giám sát dùng giao thức Internet → QCVN 11:2026.
+    Tổng: 59 mã HS (A: 4 rủi ro CAO, B: 55 rủi ro TB). Quản lý chất lượng: rủi ro CAO phải chứng nhận hợp quy + kiểm tra NN chất lượng; rủi ro TB công bố phù hợp QCKT; PCCC-CNCH thử nghiệm tại VN tổ chức được chỉ định/công nhận; Điều 44 Luật 55/2024/QH15 áp dụng đồng thời.
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
