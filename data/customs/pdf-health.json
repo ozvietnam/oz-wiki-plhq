@@ -1,10 +1,253 @@
 {
-  "checked_at": "2026-10-09T09:30:00Z",
-  "note": "Pending - server files.customs.gov.vn quá tải với 18K PDF requests. Đã fix double domain 6465 records. Verify sẽ chạy background trong cron weekly.",
-  "total_pdfs": 18034,
-  "alive": "unknown - server returned 504 Gateway Timeout on all sampled requests",
-  "fix_applied": {
-    "double_domain_url_fixed": 6465,
-    "verification": "0 records còn double domain sau fix"
-  }
+  "checked_at": "2026-10-09T10:28:21Z",
+  "method": "tor_socks5",
+  "tor_ip_used": "23.191.200.57",
+  "total_checked": 100,
+  "by_status": {
+    "alive": 60,
+    "error": 40
+  },
+  "alive_rate": 60.0,
+  "dead_urls_sample": [
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DONG_NAI//Data/Cv_Hqdn/511_HQDNa_GSQL_21_03_2014.pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DONG_NAI//Data/Cv_Hqdn/752_HQDNa_GSQL_21_04_2014.pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/19/151. Dia diem tap ket. Cty Logistis QT Bắc Giang.pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DONG_NAI//Data/Cv_Hqdn/753_HQDNa_TXNK_06_04_2015.pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/343 TTHQ dau boi tron XK thang 3-14.tif",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/5/30/24-CUC KE TOAN NN.pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DONG_NAI//Data/CV_nganh_khac/4047_BKHCN_TDT_28_09_2016(1).PDF",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/10496.tif",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/0560.TIF",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/van_ban_phap_luat/Lists/VanBanPhapLuat/Attachments/11492/Vanban_829.PDF",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/8170-NK xe oto dv du an ODA khong hoan lai.tif",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DONG_NAI//Data/CV_HQDN/2071_HQDNa_NV_21_08_09.PDF",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DONG_NAI//Data/Cv_Hqdn/1939_HQDNa_GSQL_30_09_2013.pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DONG_NAI//Data/Nghi_dinh/92_2011_ND_CP_17_10_2011.PDF",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/CustomsCMS/QUANG_NINH/2024/4/12/KS 1 thong bao T4.pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DONG_NAI//Data/Cv_Hqdn/1509_HQDNa_TXNK_26_07_2013.pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/66.signed.pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/21/34. Bien lai.pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/van_ban_phap_luat/Lists/VanBanPhapLuat/Attachments/13147/CV3248BCT.PDF",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DONG_NAI//Data/Cv_Hqdn/1549_HQDNa_TXNK_06_08_2020.pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/BA_RIA_VUNG_TAU/uploads/document/197/Phu luc.doc",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/9208-dieuchinh TT 08-XK khoang san.tif",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/QD 813-2014-TTg CK La Lay len CK QTe.tif",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DONG_NAI//Data/Cv_Hqdn/521_HQDNa_TXNK_16_03_2017.pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/van_ban_phap_luat/Lists/VanBanPhapLuat/Attachments/7275/ND102005CP.doc",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DONG_NAI//Data/CV_Hqdn/312_HQDNa_TXNK_16_03_2011.PDF",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DA_NANG/Uploads/65E32243-11BF-4695-985D-C1563E8C13BA/472148.tif",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DONG_NAI//Data/CV_Hqdn/1325_HQDNa_NV_25_05_2009.pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DONG_NAI//Data/CV_HQDN/2820_HQDNa_NV_24_11_2009.PDF",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/CustomsCMS/HA_NAM_NINH/2023/8/15/QD 405 ngay 15082023 Cty Dung Tran.pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DONG_NAI//Data/Cv_Hqdn/2331_2332_HQDNa_DKS_09_10_2014.pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/CustomsCMS/HAI_PHONG/2026/4/10/Gui so UBND HN (mau 07-CC) L3 (1).pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/1_9264.TIF",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DONG_NAI//Data/Cv_Hqdn/491_HQDNa_GSQL_19_03_2013.pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DONG_NAI//Data/CV_Hqdn/371_HQDN_NV_11_03_2010.PDF",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DONG_NAI//Data/CV_HQDN/2430_HQDNa_NV_05_10_2009.PDF",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/CustomsCMS/QUANG_NINH/2025/3/27/Thẩm định giá.pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DONG_NAI//Data/CV_TCHQ/9955_TB_TCHQ_27_10_2015.pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/DONG_NAI//Data/CV_Hqdn/2043_HQDNa_TXNK_26_11_2010.PDF",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    },
+    {
+      "url": "https://files.customs.gov.vnhttps://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/6/19/313 (2).pdf",
+      "status": "error",
+      "http_code": 0,
+      "error": "SOCKSHTTPSConnectionPool(host='files.customs.gov.v"
+    }
+  ]
 }
