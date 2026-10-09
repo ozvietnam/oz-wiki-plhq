@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-10-09
 
-Tổng 531 điểm: **31 cao**, 239 vừa, 261 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 533 điểm: **31 cao**, 241 vừa, 261 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -11,7 +11,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | THIEU_NGUON_WCO_COMPENDIUM | Cao | 1 | `truy-vet-nguon` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 123 | `danh-muc-hs` |
 | Wiki nhắc văn bản chưa đăng ký | Vừa | 48 | `lien-ket-cheo` |
-| Văn bản danh mục chưa trích bảng mã HS | Vừa | 30 | `danh-muc-hs` |
+| Văn bản danh mục chưa trích bảng mã HS | Vừa | 32 | `danh-muc-hs` |
 | Thư viện hs-code-api ghi khác sổ | Vừa | 13 | `hieu-luc` |
 | Văn bản khung thiếu thông tin | Vừa | 10 | `he-thong-hoa` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
@@ -146,7 +146,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Wiki nhắc 70/2025/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/49-2026-tt-bxd.md).
 - … và 8 điểm khác (xem bao-cao/diem-mu.json)
 
-## Văn bản danh mục chưa trích bảng mã HS (30)
+## Văn bản danh mục chưa trích bảng mã HS (32)
 
 - [ ] **Chưa trích bảng mã HS: 4814/QĐ-BCA** — Văn bản danh mục chưa có danh-muc/4814-qd-bca-2026.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
 - [ ] **Chưa trích bảng mã HS: 49-PL1/2026/TT-BXD** — Văn bản danh mục chưa có danh-muc/49-2026-tt-bxd-pl1.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
@@ -165,8 +165,10 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Chưa trích bảng mã HS: 47/2018/TT-NHNN** — Văn bản danh mục chưa có danh-muc/47-2018-tt-nhnn.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 2 mã.
 - [ ] **Chưa trích bảng mã HS: 125/2021/TT-BCA** — Văn bản danh mục chưa có danh-muc/125-2021-tt-bca.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 1 mã.
 - [ ] **Chưa trích bảng mã HS: 02/2018/TT-BCT** — Văn bản danh mục chưa có danh-muc/02-2018-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 02/2024/TT-BTTTT** — Văn bản danh mục chưa có danh-muc/02-2024-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
 - [ ] **Chưa trích bảng mã HS: 03/2021/TT-BYT** — Văn bản danh mục chưa có danh-muc/03-2021-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
 - [ ] **Chưa trích bảng mã HS: 06/2018/TT-BYT** — Văn bản danh mục chưa có danh-muc/06-2018-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+- [ ] **Chưa trích bảng mã HS: 09/2013/TT-BTTTT** — Văn bản danh mục chưa có danh-muc/09-2013-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
 - [ ] **Chưa trích bảng mã HS: 11/2021/TT-BNNPTNT** — Văn bản danh mục chưa có danh-muc/11-2021-tt-bnnptnt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
 - [ ] **Chưa trích bảng mã HS: 11/2022/TT-BCT** — Văn bản danh mục chưa có danh-muc/11-2022-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
 - [ ] **Chưa trích bảng mã HS: 11/2026/TT-BXD** — Văn bản danh mục chưa có danh-muc/11-2026-tt-bxd.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
