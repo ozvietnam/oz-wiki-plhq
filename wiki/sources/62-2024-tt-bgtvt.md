@@ -1,6 +1,6 @@
 ---
 id: 62-2024-tt-bgtvt
-title: "TT 62/2024/TT-BGTVT — HẾT HIỆU LỰC, KHÔNG THAM KHẢO"
+title: "TT 62/2024/TT-BGTVT (bãi bỏ bởi 49/2026/TT-BXD)"
 type: source
 created: 2026-10-09
 updated: 2026-10-09
@@ -8,46 +8,25 @@ authors:
   - BGTVT
 year: 2024
 source_type: phap-ly
-importance: 1
-provenance: missing
+importance: 2
+provenance: partial
 confidence: high
 tags:
   - bgtvt
-  - het-hieu-luc
-  - khong-tham-khao
+  - bi-bai-bo
 raw_paths: []
 related_concepts: []
 ---
 
-# ⚠️ VĂN BẢN HẾT HIỆU LỰC — KHÔNG CÒN GIÁ TRỊ THAM KHẢO
+## Summary
 
-> **Ghi chú từ Sếp Thắng (2026-10-09):**
->
-> Văn bản này **hết hiệu lực**, bị **thay thế bởi TT 49/2026/TT-BXD** từ 01/7/2026.
->
-> **Toàn bộ nội dung không còn giá trị tham khảo** — kể cả định nghĩa, khái niệm, danh mục mã HS.
->
-> Khi viết bài mới, định nghĩa mới phải tự tạo từ đầu dựa trên VB hiện hành ([[sources/49-2026-tt-bxd]]).
->
-> **Không bổ sung, không cập nhật, không tham chiếu nội dung VB này.**
+Thông tư 62/2024/TT-BGTVT (sửa đổi 12/2022/TT-BGTVT). **Bị bãi bỏ toàn bộ** từ 01/7/2026 theo Điều 6 khoản 3 điểm b TT 49/2026/TT-BXD. Stub.
 
----
+## Evidence
 
-## Tình trạng
-
-- **Số hiệu:** 62/2024/TT-BGTVT
-- **Cơ quan:** Bộ Giao thông vận tải (BGTVT - đã giải thể, sáp nhập vào BXD)
-- **Ngày hết hiệu lực:** 01/7/2026
-- **Bị thay thế bởi:** [[sources/49-2026-tt-bxd]] (TT 49/2026/TT-BXD, ngày 30/6/2026)
-- **Căn cứ:** Điều 6 khoản 3 điểm b TT 49/2026/TT-BXD
-- **Lưu ý:** VB này vốn chỉ sửa đổi TT 12/2022/TT-BGTVT - bản thân nó không có nội dung gốc
-
-## Cầu nối hs-code-api
-
-Xem `data/ktcn-regime-2026.json` → `superseded.bgtvt-12-2022` (gộp chung với 12/2022) để biết quan hệ thay thế.
+- Cited trong `registry/van-ban/49-2026-tt-bxd.yaml`
+- TT 49/2026/TT-BXD, Điều 6 khoản 3 điểm b
 
 ## Notes
 
-- File này được giữ lại làm **mốc lịch sử** (CEO Thắng chỉ đạo 2026-10-09)
-- Agent khác KHÔNG được bổ sung nội dung
-- Mọi tham chiếu phải trỏ về [[sources/49-2026-tt-bxd]] (VB hiện hành)
+- Chưa đọc toàn văn
