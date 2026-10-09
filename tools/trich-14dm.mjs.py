@@ -45,9 +45,10 @@ DM_NAMES = [
 # ============== PARSERS ==============
 
 def clean_section(section):
-    """Bỏ space trong mã HS + bỏ header"""
+    """Bỏ space trong mã HS + bỏ header (tìm STT=1 đứng 1 mình)"""
     section = re.sub(r'(\d{4}\.\d{2})\s+(\d{2})', r'\1.\2', section)
-    m = re.search(r'\b1\s+[A-ZÀ-Ỹ]', section)
+    # Tìm số "1" đứng 1 mình (sau space, theo sau là optional số khác + chữ HOA)
+    m = re.search(r'(?:^|\s)1\s+(?:\d+\s+)?[A-ZÀ-Ỹ]', section)
     if m:
         section = section[m.start():]
     return section
@@ -56,6 +57,30 @@ def split_stt_lines(section, end_pattern):
     """Tách section thành các dòng theo STT, kết thúc bằng end_pattern (regex)"""
     lines = re.split(end_pattern, section)
     return [l.strip() for l in lines if l.strip()]
+
+def parse_dm5(section):
+    """DM5 có 2 phần: I. dược chất (1-59) + II. thuốc (1-65) = 124 dòng"""
+    pos_ii = section.find('II. Danh mục')
+    if pos_ii < 0:
+        return parse_4col(section)
+    sub1 = section[:pos_ii]
+    sub2 = section[pos_ii:]
+    m1 = parse_4col(sub1, 100)
+    m2 = parse_4col(sub2, 100)
+    return m1 + [(s + 59, t, d, h) for (s, t, d, h) in m2]
+
+def parse_dm1(section):
+    """DM1 có 2 phần: I. nguyên liệu độc (1-111) + II. thuốc độc (1-108) = 219 dòng
+    Cả 2 phần cùng cấu trúc 4-cột nhưng STT độc lập."""
+    pos_ii = section.find('II. Thuốc độc')
+    if pos_ii < 0:
+        return parse_4col(section)
+    sub1 = section[:pos_ii]
+    sub2 = section[pos_ii:]
+    m1 = parse_4col(sub1, 200)
+    m2 = parse_4col(sub2, 200)
+    # Tránh trùng STT: cộng offset 111 cho phần 2
+    return m1 + [(s + 111, t, d, h) for (s, t, d, h) in m2]
 
 # Parse DM1-5, 7-10, 12-13: 4-cột
 def parse_4col(section, max_stt=10000):
@@ -123,17 +148,35 @@ def parse_dm10(section):
                 data.append((stt, ten, cong_dung, ma_hs))
     return data
 
-# Parse DM11: 6-cột - GIỮ nguyên cả phần giữa
+# Parse DM11: 6-cột (STT | Tên VN | Bộ phận | Tên KH | Mô tả | Mã HS)
+# Mỗi STT có thể có nhiều mã HS (multi-line)
 def parse_dm11(section):
-    section = clean_section(section)
-    lines = split_stt_lines(section, r'(?<=\d{4}\.\d{2}\.\d{2})\s+(?=\d+\s+[A-ZÀ-Ỹ])')
+    """DM11: STT | Tên VN | Bộ phận | Tên KH Latin | Mô tả | Mã HS (8 số, có thể multi)"""
+    section = re.sub(r'(\d{4}\.\d{2})\s+(\d{2})', r'\1.\2', section)
+    m = re.search(r'(?:^|\s)1\s+[A-ZÀ-Ỹ]', section)
+    if m:
+        section = section[m.start():]
     data = []
-    for line in lines:
-        m = re.match(r'^(\d+)\s+(.+?)\s+(\d{4}\.\d{2}\.\d{2})$', line)
-        if m:
-            stt = int(m.group(1))
-            if 1 <= stt <= 1000:
-                data.append((stt, m.group(2), '', m.group(3)))
+    parts = re.split(r'(?:^|\s)(?=\d+\s+[A-ZÀ-Ỹ])', section)
+    for part in parts:
+        part = part.strip()
+        if not part:
+            continue
+        m = re.match(r'^(\d+)\s+(.+)$', part, re.DOTALL)
+        if not m:
+            continue
+        stt = int(m.group(1))
+        if not (1 <= stt <= 500):
+            continue
+        body = m.group(2).strip()
+        ma_hs_list = re.findall(r'\d{4}\.\d{2}\.\d{2}', body)
+        if not ma_hs_list:
+            continue
+        first_ma_hs = ma_hs_list[0]
+        first_pos = body.find(first_ma_hs)
+        before_first = body[:first_pos].strip()
+        ten_vn = before_first[:50]
+        data.append((stt, ten_vn, before_first, first_ma_hs))
     return data
 
 # Parse DM14: multi-MHS, mỗi STT có nhiều mã HS con
@@ -172,6 +215,70 @@ def parse_dm14(section):
     return data
 
 # ============== MAIN ==============
+
+# Parse DM8: nhiều STT có 2 dạng dùng (Dạng A MHS1 + Dạng B MHS2) hoặc mã HS có dấu "/"
+def parse_dm8(section):
+    """DM8: thuốc 1 thành phần - mỗi STT có thể có 1-2 dòng mã HS"""
+    section = re.sub(r'(\d{4}\.\d{2})\s+(\d{2})', r'\1.\2', section)
+    # DM8 STT 1 bắt đầu bằng "1 2, 4 Dichlorobenzyl" - pattern đặc biệt
+    m = re.search(r'\b1\s+[\d, ]+\s*[A-ZÀ-Ỹ]', section)
+    if m:
+        section = section[m.start():]
+        # Bỏ số "1" đầu tiên trong STT
+        section = re.sub(r'^1\s+', '', section)
+    data = []
+    # Tách theo STT - thay placeholder rồi split (look-behind cần fixed-width)
+    section_marker = section.replace(' \n', ' \u0001 ')
+    # Match: 4 số . 2 số [/số]? (có thể .2 số) + space + số 1-4 + space + chữ HOA
+    # Dùng lambda để chèn ký tự phân cách
+    SEP = ''
+    def replacer(m):
+        return m.group(1) + SEP + m.group(2)
+    section_marker = re.sub(
+        r'(\d{4}\.\d{2}(?:\.\d{2})?(?:/\d{2,4})?)\s+(\d{1,4}\s+[A-ZÀ-Ỹ])',
+        replacer,
+        section_marker
+    )
+    parts = section_marker.split(SEP)
+    dangs = sorted([
+        'Uống: các dạng Tiêm: các dạng', 'Tiêm: các dạng Uống: các dạng',
+        'Các dạng', 'Dạng uống', 'Dạng tiêm', 'Dạng bôi', 'Dạng khác',
+        'Dạng đặt', 'Dạng hít', 'Dạng xông', 'Dạng ngoài da',
+        'Dạng phun', 'Dạng cấy', 'Dạng dán', 'Dạng ngậm', 'Dạng nhai',
+        'Khí hoá lỏng', 'Khí hóa lỏng',
+        'Tiêm: Các dạng', 'Tiêm: các dạng', 'Uống: các dạng',
+        'Dạng uống hoặc dạng mỡ', 'Dạng khác',
+    ], key=len, reverse=True)
+    for part in parts:
+        part = part.strip()
+        if not part:
+            continue
+        m = re.match(r'^(\d+)\s+(.+)$', part, re.DOTALL)
+        if not m:
+            continue
+        stt = int(m.group(1))
+        if not (1 <= stt <= 1500):
+            continue
+        body = m.group(2).strip()
+        # Mã HS có thể có dấu "/" (VD 3004.90.55/59) hoặc nhiều mã cách nhau
+        # Lấy mã HS đầu tiên
+        ma_hs_match = re.search(r'(\d{4}\.\d{2}(?:\.\d{2})?(?:/\d{2,4})?)', body)
+        if not ma_hs_match:
+            continue
+        ma_hs = ma_hs_match.group(1)
+        # Phần trước mã HS = tên + dạng
+        before = body[:ma_hs_match.start()].strip()
+        # Tìm dạng dùng ở cuối
+        dang = ''
+        ten = before
+        for d in dangs:
+            if before.endswith(' ' + d):
+                dang = d
+                ten = before[:-len(d)].strip()
+                break
+        data.append((stt, ten, dang, ma_hs))
+    return data
+
 def main():
     with open(VCCI_BODY) as f:
         text = f.read()
@@ -181,7 +288,11 @@ def main():
         dm_num = dm_idx + 1
         section = text[start:end]
 
-        if dm_num == 6:
+        if dm_num == 1:
+            parsed = parse_dm1(section)
+        elif dm_num == 5:
+            parsed = parse_dm5(section)
+        elif dm_num == 6:
             parsed = parse_dm6(section)
         elif dm_num == 10:
             parsed = parse_dm10(section)
@@ -191,8 +302,10 @@ def main():
             parsed = parse_dm14(section)
         elif dm_num == 7:
             parsed = parse_4col(section)  # DM7 = 4-col
+        elif dm_num == 8:
+            parsed = parse_dm8(section)  # DM8: multi-MHS
         else:
-            # DM1-5, 8-9, 12-13
+            # DM2-4, 9, 12-13
             parsed = parse_4col(section)
 
         print(f'DM{dm_num}: {len(parsed)} entries')
