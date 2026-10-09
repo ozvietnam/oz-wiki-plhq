@@ -19,12 +19,27 @@ _This catalog is updated by /lumi-ingest and /lumi-init._
 
 ## Sources
 
-_Chưa có — nạp toàn văn vào raw/ rồi chạy /lumi-ingest._
+Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 
-## Doc-hieu mở rộng
-
-- [Khung thủ tục hải quan](summary/khung-thu-tuc-hai-quan.md)
-- [Thủ tục hải quan XNK](concepts/thu-tuc-hai-quan-xnk.md)
-- [Phân loại mã HS](concepts/phan-loai-ma-hs.md)
-- [Thuế GTGT hàng nhập khẩu](concepts/thue-gtgt-hang-nhap-khau.md)
-- [Nhãn hàng hoá nhập khẩu](concepts/nhan-hang-hoa-nhap-khau.md)
+<!-- lumina:index -->
+- [[concepts/doc-tinh-trang-hieu-luc]]
+- [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]]
+- [[concepts/muc-do-rui-ro-hang-hoa]]
+- [[concepts/nhan-hang-hoa-nhap-khau]]
+- [[concepts/phan-loai-ma-hs]]
+- [[concepts/thu-tuc-hai-quan-xnk]]
+- [[concepts/thue-gtgt-hang-nhap-khau]]
+- [[sources/05-2007-qh12]]
+- [[sources/09-2026-nq-cp]]
+- [[sources/15-2018-nd-cp]]
+- [[sources/15-2026-nq-cp]]
+- [[sources/28-2026-tt-bct]]
+- [[sources/33-2026-tt-bct]]
+- [[sources/37-2026-nd-cp]]
+- [[sources/46-2026-nd-cp]]
+- [[sources/54-2014-qh13]]
+- [[sources/55-2010-qh12]]
+- [[sources/78-2025-qh15]]
+- [[summary/khung-kiem-tra-chuyen-nganh-2026]]
+- [[summary/khung-thu-tuc-hai-quan]]
+<!-- /lumina:index -->

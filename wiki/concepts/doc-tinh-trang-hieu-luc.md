@@ -49,3 +49,10 @@ Căn cứ xác định hiệu lực thường nằm ở **điều khoản thi h�
 ## Notes
 
 Ngày mất hiệu lực có thể khác nhau trong cùng một văn bản: Điều 97 Nghị định 37/2026/NĐ-CP cho một số nghị định hết hiệu lực từ 23/01/2026 và số khác từ 01/7/2026.
+
+## Sources covered
+
+- [54/2014/QH13](../sources/54-2014-qh13.md)
+- [78/2025/QH15](../sources/78-2025-qh15.md)
+- [05/2007/QH12](../sources/05-2007-qh12.md)
+- [55/2010/QH12](../sources/55-2010-qh12.md)
