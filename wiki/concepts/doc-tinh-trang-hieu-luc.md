@@ -8,6 +8,9 @@ key_sources: []
 related_concepts:
   - muc-do-rui-ro-hang-hoa
   - kiem-tra-nha-nuoc-an-toan-thuc-pham
+  - nhan-hang-hoa-nhap-khau
+  - thu-tuc-hai-quan-xnk
+  - thue-gtgt-hang-nhap-khau
 confidence: medium
 tags: [phuong-phap, hieu-luc]
 ---
@@ -34,11 +37,22 @@ Căn cứ xác định hiệu lực thường nằm ở **điều khoản thi h�
 
 - [[concepts/muc-do-rui-ro-hang-hoa]]
 - [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]]
+- [[concepts/nhan-hang-hoa-nhap-khau]] — ví dụ bãi bỏ khung nhãn cũ.
+- [[concepts/thu-tuc-hai-quan-xnk]] — ví dụ sửa đổi thông tư và thay thế một cửa.
+- [[concepts/thue-gtgt-hang-nhap-khau]] — ví dụ `het_hieu_luc_tu` có ngày cụ thể trên sổ.
 
 ## Mentioned in
 
 - [[summary/khung-kiem-tra-chuyen-nganh-2026]]
+- [[summary/khung-thu-tuc-hai-quan]]
 
 ## Notes
 
 Ngày mất hiệu lực có thể khác nhau trong cùng một văn bản: Điều 97 Nghị định 37/2026/NĐ-CP cho một số nghị định hết hiệu lực từ 23/01/2026 và số khác từ 01/7/2026.
+
+## Sources covered
+
+- [54/2014/QH13](../sources/54-2014-qh13.md)
+- [78/2025/QH15](../sources/78-2025-qh15.md)
+- [05/2007/QH12](../sources/05-2007-qh12.md)
+- [55/2010/QH12](../sources/55-2010-qh12.md)

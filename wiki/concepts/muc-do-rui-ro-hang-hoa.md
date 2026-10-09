@@ -8,6 +8,8 @@ key_sources: []
 related_concepts:
   - kiem-tra-nha-nuoc-an-toan-thuc-pham
   - doc-tinh-trang-hieu-luc
+  - nhan-hang-hoa-nhap-khau
+  - phan-loai-ma-hs
 confidence: medium
 tags: [kiem-tra-chuyen-nganh, chat-luong, 2026]
 ---
@@ -28,17 +30,25 @@ Lưu ý: Điều 86 Nghị định 37/2026/NĐ-CP nói về miễn, giảm kiể
 
 ## Key sources
 
-Chưa nạp toàn văn Nghị định 37/2026/NĐ-CP. Nội dung trên theo nguồn thứ cấp — cần đối chiếu.
+Chưa nạp toàn văn Nghị định 37/2026/NĐ-CP. Nội dung trên theo nguồn thứ cấp — cần đối chiếu. Số hiệu neo sổ: `37/2026/NĐ-CP`, `05/2007/QH12`, `132/2008/NĐ-CP` (bị bãi từ 01/7/2026 theo quan hệ trên sổ).
 
 ## Related concepts
 
 - [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]] — an toàn thực phẩm có khung riêng, không theo ba mức này.
 - [[concepts/doc-tinh-trang-hieu-luc]]
+- [[concepts/nhan-hang-hoa-nhap-khau]] — cùng `37/2026/NĐ-CP` bãi khung nhãn cũ.
+- [[concepts/phan-loai-ma-hs]] — danh mục rủi ro theo bộ gắn mã HS.
 
 ## Mentioned in
 
 - [[summary/khung-kiem-tra-chuyen-nganh-2026]]
+- [[summary/khung-thu-tuc-hai-quan]]
 
 ## Notes
 
 Danh mục theo bộ và tình trạng từng văn bản: xem nhánh `kiem-tra-chuyen-nganh` trong `bao-cao/cay-van-ban.md`.
+
+## Sources covered
+
+- [37/2026/NĐ-CP](../sources/37-2026-nd-cp.md)
+- [05/2007/QH12](../sources/05-2007-qh12.md)

@@ -8,6 +8,7 @@ covers:
   - muc-do-rui-ro-hang-hoa
   - kiem-tra-nha-nuoc-an-toan-thuc-pham
   - doc-tinh-trang-hieu-luc
+  - nhan-hang-hoa-nhap-khau
 tags: [kiem-tra-chuyen-nganh, 2026, chat-luong, attp]
 ---
 
@@ -35,13 +36,14 @@ Chưa có trang nguồn: toàn văn các văn bản chưa được nạp vào `r
 - [[concepts/muc-do-rui-ro-hang-hoa]]
 - [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]]
 - [[concepts/doc-tinh-trang-hieu-luc]]
+- [[concepts/nhan-hang-hoa-nhap-khau]]
 
 ## Open questions
 
 - 16/2026/TT-BNV thay văn bản nào? Nguồn tổng hợp không khẳng định thay 01/2021/TT-BLĐTBXH.
 - 28/2026/TT-BYT: mới có nguồn thứ cấp, chưa thấy trang gốc.
 - Thông tư danh mục kiểm dịch thuỷ sản năm 2026: chưa xác minh được số hiệu.
-- Sau khi Nghị định 43/2017/NĐ-CP hết hiệu lực, văn bản nào đang điều chỉnh nhãn hàng hoá?
+- Sau khi Nghị định 43/2017/NĐ-CP hết hiệu lực, văn bản nào đang điều chỉnh nhãn hàng hoá? — xem [[concepts/nhan-hang-hoa-nhap-khau]] (điểm mù có chủ đích).
 - Thời hạn thủ tục theo 125/2026/TT-BCA: chưa xác minh.
 
 ## Notes

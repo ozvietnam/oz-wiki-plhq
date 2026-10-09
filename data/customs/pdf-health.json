@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-09T09:30:00Z",
+  "note": "Pending - server files.customs.gov.vn quá tải với 18K PDF requests. Đã fix double domain 6465 records. Verify sẽ chạy background trong cron weekly.",
+  "total_pdfs": 18034,
+  "alive": "unknown - server returned 504 Gateway Timeout on all sampled requests",
+  "fix_applied": {
+    "double_domain_url_fixed": 6465,
+    "verification": "0 records còn double domain sau fix"
+  }
+}
