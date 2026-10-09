@@ -11,9 +11,19 @@ nhanh:
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-71-2025-tt-bxd-468849.htm
     truy_cap: '2026-10-04'
+quan_he:
+  bai_bo:
+    - so_hieu: 49/2026/TT-BXD
+      pham_vi: Chương X, Phụ lục II và Phụ lục III (một phần)
+      tu_ngay: '2026-07-01'
+      can_cu: Điều 6 khoản 3 điểm c TT 49/2026/TT-BXD
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực'
+  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực. CHƯA đọc toàn văn — chỉ xác minh được quan hệ bãi một phần qua TT 49/2026 (Điều 6 khoản 3 điểm c). Phần còn lại (ngoài Ch.X, PL II, PL III) vẫn còn hiệu lực.'
   hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  ngay: '2026-10-09'
+  boi: hermes
+  chan:
+    ma: SO_HIEU_LECH
+    ngay: '2026-10-09'
+    viec_tiep: Cần đọc toàn văn TT 71/2025/TT-BXD để xác minh nội dung Ch.X, PL II, PL III (bãi) và phần còn lại (còn hiệu lực)
