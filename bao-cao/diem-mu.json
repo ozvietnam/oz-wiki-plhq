@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-09",
-  "tong": 453,
+  "tong": 502,
   "diem": [
     {
       "ma": "THIEU_NGUON_AHTN",
@@ -23,9 +23,9 @@
     {
       "ma": "THIEU_VAN_BAN",
       "muc": "Cao",
-      "tieuDe": "Chưa có trong sổ: 1182/QĐ-BCT",
-      "muc_tieu": "1182/QĐ-BCT",
-      "viec": "Tạo registry/van-ban/ cho 1182/QĐ-BCT (được nhắc bởi 1725/QĐ-BCT (thay_the), 28/2026/TT-BCT (bai_bo)). Dùng: node tools/them-van-ban.mjs \"1182/QĐ-BCT\"",
+      "tieuDe": "Chưa có trong sổ: 2711/QĐ-BKHCN",
+      "muc_tieu": "2711/QĐ-BKHCN",
+      "viec": "Tạo registry/van-ban/ cho 2711/QĐ-BKHCN (được nhắc bởi 366/QĐ-BKHCN (sua_doi), 367/QĐ-BKHCN (sua_doi)). Dùng: node tools/them-van-ban.mjs \"2711/QĐ-BKHCN\"",
       "luong": "he-thong-hoa",
       "trongSo": 0
     },
@@ -1173,42 +1173,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "2284/QĐ-BKHCN: chưa có nguồn chính thống",
-      "muc_tieu": "2284/QĐ-BKHCN",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "CANH_BAO_NGUON",
-      "muc": "Cao",
-      "tieuDe": "2284/QĐ-BKHCN: Đã ghi xac_minh.chan (THIEU_PDF_A) — xem node tools/san-hieu-luc.mjs; không săn lặp URL đã 404.",
-      "muc_tieu": "2284/QĐ-BKHCN",
-      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "2284/QĐ-BKHCN: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "2284/QĐ-BKHCN",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "2284/QĐ-BKHCN: chưa có toàn văn trong raw/",
-      "muc_tieu": "2284/QĐ-BKHCN",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"2284/QĐ-BKHCN\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "24/2026/TT-BYT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -1294,24 +1258,6 @@
       "muc": "Thấp",
       "tieuDe": "27/2026/TT-BYT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "27/2026/TT-BYT",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "CANH_BAO_NGUON",
-      "muc": "Cao",
-      "tieuDe": "2711/QĐ-BKHCN: Đã ghi xac_minh.chan (THIEU_BAI_TUONG_MINH) — xem node tools/san-hieu-luc.mjs; không săn lặp URL đã 404.",
-      "muc_tieu": "2711/QĐ-BKHCN",
-      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Vừa",
-      "tieuDe": "2711/QĐ-BKHCN: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
-      "muc_tieu": "2711/QĐ-BKHCN",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
       "trongSo": 0
@@ -2532,42 +2478,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Thấp",
-      "tieuDe": "9981/QĐ-BCA: chưa có nguồn chính thống",
-      "muc_tieu": "9981/QĐ-BCA",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "CANH_BAO_NGUON",
-      "muc": "Cao",
-      "tieuDe": "9981/QĐ-BCA: Đã ghi xac_minh.chan (THIEU_PDF_A) — xem node tools/san-hieu-luc.mjs; không săn lặp URL đã 404.",
-      "muc_tieu": "9981/QĐ-BCA",
-      "viec": "Xác minh với cơ quan ban hành hoặc Công báo.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "9981/QĐ-BCA: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
-      "muc_tieu": "9981/QĐ-BCA",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "9981/QĐ-BCA: chưa có toàn văn trong raw/",
-      "muc_tieu": "9981/QĐ-BCA",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"9981/QĐ-BCA\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_TOAN_VAN",
       "muc": "Thấp",
       "tieuDe": "Công ước HS: chưa có toàn văn trong raw/",
@@ -2867,15 +2777,6 @@
     {
       "ma": "WIKI_NHAC_CHUA_DANG_KY",
       "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 1182/QĐ-BCT nhưng sổ chưa có",
-      "muc_tieu": "1182/QĐ-BCT",
-      "viec": "Thêm vào sổ (wiki/sources/28-2026-tt-bct.md, wiki/summary/khung-kiem-tra-chuyen-nganh-2026.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
       "tieuDe": "Wiki nhắc 486/QĐ-BYT nhưng sổ chưa có",
       "muc_tieu": "486/QĐ-BYT",
       "viec": "Thêm vào sổ (wiki/sources/32-2020-tt-byt.md).",
@@ -3100,6 +3001,15 @@
     },
     {
       "ma": "DANH_MUC_CHUA_TRICH",
+      "muc": "Cao",
+      "tieuDe": "Chưa trích bảng mã HS: 1182/QĐ-BCT",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "Văn bản danh mục chưa có danh-muc/1182-qd-bct-2021.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 496 mã.",
+      "luong": "danh-muc-hs",
+      "trongSo": 496
+    },
+    {
+      "ma": "DANH_MUC_CHUA_TRICH",
       "muc": "Vừa",
       "tieuDe": "Chưa trích bảng mã HS: 125/2021/TT-BCA",
       "muc_tieu": "125/2021/TT-BCA",
@@ -3286,15 +3196,6 @@
       "viec": "Văn bản danh mục chưa có danh-muc/8378-qd-bca-2025.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
       "luong": "danh-muc-hs",
       "trongSo": 0
-    },
-    {
-      "ma": "DANH_MUC_CHUA_TRICH",
-      "muc": "Vừa",
-      "tieuDe": "Chưa trích bảng mã HS: 9981/QĐ-BCA",
-      "muc_tieu": "9981/QĐ-BCA",
-      "viec": "Văn bản danh mục chưa có danh-muc/9981-qd-bca-2019.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 12 mã.",
-      "luong": "danh-muc-hs",
-      "trongSo": 12
     },
     {
       "ma": "HS_KHONG_TON_TAI",
@@ -3855,6 +3756,555 @@
       "trongSo": 0
     },
     {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 72104912 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 63 (\"- - - - Loại khác, chiều dày không quá 1,2mm\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 72104913 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 64 (\"- - - - Chiều dày trên 1,2mm nhưng không quá 1,5mm\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 72106912 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 75 (\"- - - - Chiều dày trên 1,2mm nhưng không quá 1,5mm\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 72107011 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 79 (\"- - - Được sơn\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 72121013 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 88 (\"- - - Dạng đai và dải , có chiều rộng trên 25 mm nhưng không\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 72121092 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 90 (\"- - - Dạng đai và dải , có chiều rộng không quá 25 mm\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 72121093 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 91 (\"- - - Dạng đai và dải , có chiều rộng trên 25 mm nhưng không\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 72124092 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 108 (\"- - - Dạng đai và dải; tấm phổ dụng\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 72125013 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 110 (\"- - - Dạng đai và dải , có chiều rộng không quá 25 mm\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 72149121 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 150 (\"- - - - Có hàm lượng mangan dưới 1,15% tính theo trọng lượng\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 72149129 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 151 (\"- - - - Loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 72159090 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 165 (\"- - Loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 72279000 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 215 (\"- Loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 42032100 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 267 (\"- - Loại thiết kế đặc biệt dùng cho thể thao\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 51121100 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 303 (\"- - Trọng lượng không quá 200 g/m2\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 570320 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 662 (\"- Từ ni lông hoặc các polyamit khác:\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 57032010 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 663 (\"- - Thảm cầu nguyện\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 57032090 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 664 (\"- - Loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 570330 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 665 (\"- Từ các vật liệu dệt nhân tạo khác:\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 57033010 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 666 (\"- - Thảm cầu nguyện\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 57033090 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 667 (\"- - Loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 58013710 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 722 (\"- - - Đã ngâm tẩm, tráng, phủ hoặc ép bề mặt\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 58013790 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 723 (\"- - - Loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 58021100 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 730 (\"- - Chưa tẩy trắng\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 58021900 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 731 (\"- - Loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 60019911 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 799 (\"- - - - Chứa sợi đàn hồi hoặc sợi cao su\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 60019919 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 800 (\"- - - - Loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 60019990 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 801 (\"- - - Loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62011100 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1032 (\"- - Từ lông cừu hoặc lông động vật loại mịn\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62011200 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1033 (\"- - Từ bông\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62011300 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1034 (\"- - Từ sợi nhân tạo\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 620119 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1035 (\"- - Từ các vật liệu dệt khác:\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62011910 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1036 (\"- - - Từ tơ tằm\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62011920 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1037 (\"- - - Từ ramie\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62011990 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1038 (\"- - - Loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62019100 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1039 (\"- - Từ lông cừu hoặc lông động vật loại mịn\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62019200 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1040 (\"- - Từ bông\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62019300 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1041 (\"- - Từ sợi nhân tạo\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 620199 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1042 (\"- - Từ các vật liệu dệt khác:\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62019910 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1043 (\"- - - Từ tơ tằm\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62019920 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1044 (\"- - - Từ ramie\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62019990 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1045 (\"- - - Loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62021100 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1047 (\"- - Từ lông cừu hoặc lông động vật loại mịn\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62021200 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1048 (\"- - Từ bông\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62021300 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1049 (\"- - Từ sợi nhân tạo\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 620219 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1050 (\"- - Từ các vật liệu dệt khác:\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62021910 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1051 (\"- - - Từ tơ tằm\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62021920 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1052 (\"- - - Từ ramie\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62021990 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1053 (\"- - - Loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62029100 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1054 (\"- - Từ lông cừu hoặc lông động vật loại mịn\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62029200 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1055 (\"- - Từ bông\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62029300 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1056 (\"- - Từ sợi nhân tạo\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 620299 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1057 (\"- - Từ các vật liệu dệt khác:\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62029910 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1058 (\"- - - Từ tơ tằm\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62029920 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1059 (\"- - - Từ ramie\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62029990 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1060 (\"- - - Loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 62114940 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1249 (\"- - - Loại khác, từ lông cừu hoặc lông động vật loại mịn\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 64041900 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1376 (\"- - Loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 94049010 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1399 (\"- - Chăn quilt, chăn phủ giường (bedspreads) và bọc đệm (mat\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 94049090 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1400 (\"- - Loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "765/QĐ-BCT: mã 96190091 không có trong biểu thuế",
+      "muc_tieu": "765/QĐ-BCT",
+      "viec": "danh-muc/765-qd-bct-2019.csv dòng 1407 (\"- - Dệt kim hoặc vải móc\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
       "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
       "muc": "Vừa",
       "tieuDe": "Hàng thật mã 85366932 chưa đối chiếu danh mục KTCN 2026",
@@ -3875,28 +4325,10 @@
     {
       "ma": "HS_API_CHUA_CO",
       "muc": "Cao",
-      "tieuDe": "Biểu thuế dẫn nhưng sổ chưa có: 765/QĐ-BCT (1074 mã HS)",
-      "muc_tieu": "765/QĐ-BCT",
-      "viec": "1074 mã HS trong hs-code-api dẫn văn bản này ở cột chính sách. Thêm vào sổ: node tools/them-van-ban.mjs \"765/QĐ-BCT\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 1074
-    },
-    {
-      "ma": "HS_API_CHUA_CO",
-      "muc": "Cao",
-      "tieuDe": "Biểu thuế dẫn nhưng sổ chưa có: 1182/QĐ-BCT (496 mã HS)",
-      "muc_tieu": "1182/QĐ-BCT",
-      "viec": "496 mã HS trong hs-code-api dẫn văn bản này ở cột chính sách. Thêm vào sổ: node tools/them-van-ban.mjs \"1182/QĐ-BCT\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 496
-    },
-    {
-      "ma": "HS_API_CHO_MO_CHAN",
-      "muc": "Thấp",
-      "tieuDe": "Chờ mở chặn 2711/QĐ-BKHCN (THIEU_BAI_TUONG_MINH) — 263 mã HS",
+      "tieuDe": "Biểu thuế dẫn nhưng sổ chưa có: 2711/QĐ-BKHCN (263 mã HS)",
       "muc_tieu": "2711/QĐ-BKHCN",
-      "viec": "Đã ghi xac_minh.chan: THIEU_BAI_TUONG_MINH (2026-10-04). Việc tiếp: Chờ QĐ/TT-BKHCN hoặc vbpl ghi rõ hết/còn 2711; không suy ra HET từ NĐ 37 hết khung 132/74 hay TT 36 danh mục rủi ro mới.. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.",
-      "luong": "hieu-luc",
+      "viec": "263 mã HS trong hs-code-api dẫn văn bản này ở cột chính sách. Thêm vào sổ: node tools/them-van-ban.mjs \"2711/QĐ-BKHCN\"",
+      "luong": "he-thong-hoa",
       "trongSo": 263
     },
     {
@@ -3909,21 +4341,21 @@
       "trongSo": 19
     },
     {
-      "ma": "HS_API_CHO_MO_CHAN",
-      "muc": "Thấp",
-      "tieuDe": "Chờ mở chặn 2284/QĐ-BKHCN (THIEU_PDF_A) — 19 mã HS",
+      "ma": "HS_API_CHUA_CO",
+      "muc": "Cao",
+      "tieuDe": "Biểu thuế dẫn nhưng sổ chưa có: 2284/QĐ-BKHCN (19 mã HS)",
       "muc_tieu": "2284/QĐ-BKHCN",
-      "viec": "Đã ghi xac_minh.chan: THIEU_PDF_A (2026-10-04). Việc tiếp: Chờ PDF A trên datafiles/most/mst; chicuctdc chỉ tóm tắt (không bậc A).. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.",
-      "luong": "hieu-luc",
+      "viec": "19 mã HS trong hs-code-api dẫn văn bản này ở cột chính sách. Thêm vào sổ: node tools/them-van-ban.mjs \"2284/QĐ-BKHCN\"",
+      "luong": "he-thong-hoa",
       "trongSo": 19
     },
     {
-      "ma": "HS_API_CHO_MO_CHAN",
-      "muc": "Thấp",
-      "tieuDe": "Chờ mở chặn 9981/QĐ-BCA (THIEU_PDF_A) — 12 mã HS",
+      "ma": "HS_API_CHUA_CO",
+      "muc": "Cao",
+      "tieuDe": "Biểu thuế dẫn nhưng sổ chưa có: 9981/QĐ-BCA (12 mã HS)",
       "muc_tieu": "9981/QĐ-BCA",
-      "viec": "Đã ghi xac_minh.chan: THIEU_PDF_A (2026-10-04). Việc tiếp: customs Attachments/12857 đã 404; chờ bản ký số trên datafiles/bocongan. Không nạp từ TVXNK (C) để đánh true.. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.",
-      "luong": "hieu-luc",
+      "viec": "12 mã HS trong hs-code-api dẫn văn bản này ở cột chính sách. Thêm vào sổ: node tools/them-van-ban.mjs \"9981/QĐ-BCA\"",
+      "luong": "he-thong-hoa",
       "trongSo": 12
     },
     {
@@ -4013,6 +4445,15 @@
       "tieuDe": "82/2022/NĐ-CP: hs-code-api ghi ACTIVE, sổ ghi HET_HIEU_LUC",
       "muc_tieu": "82/2022/NĐ-CP",
       "viec": "Thư viện /api/legal-docs của hs-code-api (82/2022/ND-CP) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_API_LECH_THU_VIEN",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: hs-code-api ghi EXPIRED, sổ ghi HET_HIEU_LUC_MOT_PHAN",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "Thư viện /api/legal-docs của hs-code-api (1182/QD-BCT-PL2-2021) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
       "luong": "hieu-luc",
       "trongSo": 0
     },
