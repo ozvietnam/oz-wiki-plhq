@@ -27,3 +27,10 @@ xac_minh:
   boi: cursor-agent@ozvietnam
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 24 mã HS).
 toan_van: raw/download/congbaocdn.chinhphu.vn/13-2023-qd-ttg.pdf
+danh_muc_hs:
+  tep: danh-muc/13-2023-qd-ttg.csv
+  nguon: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/5/39342/44754-1-2023723-72413-2023-q-ttg.pdf
+  trich_boi: hermes-sub-agent-ttg
+  ngay: '2026-10-09'
+  da_doi_chieu: false
+  ghi_chu: 24 dòng, 24 mã HS (Phụ lục - Danh mục phế liệu được phép NK làm nguyên liệu SX, kèm QĐ 13/2023/QĐ-TTg)
