@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-10",
-  "tong": 4519,
+  "tong": 4520,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -35,6 +35,24 @@
       "tieuDe": "Chưa có trong sổ: 204/2025/QH15",
       "muc_tieu": "204/2025/QH15",
       "viec": "Tạo registry/van-ban/ cho 204/2025/QH15 (được nhắc bởi 174/2025/NĐ-CP (huong_dan)). Dùng: node tools/them-van-ban.mjs \"204/2025/QH15\"",
+      "luong": "he-thong-hoa",
+      "trongSo": 0
+    },
+    {
+      "ma": "THIEU_VAN_BAN",
+      "muc": "Cao",
+      "tieuDe": "Chưa có trong sổ: 98/2021/NĐ-CP",
+      "muc_tieu": "98/2021/NĐ-CP",
+      "viec": "Tạo registry/van-ban/ cho 98/2021/NĐ-CP (được nhắc bởi 19/2024/TT-BYT (huong_dan)). Dùng: node tools/them-van-ban.mjs \"98/2021/NĐ-CP\"",
+      "luong": "he-thong-hoa",
+      "trongSo": 0
+    },
+    {
+      "ma": "THIEU_VAN_BAN",
+      "muc": "Cao",
+      "tieuDe": "Chưa có trong sổ: 07/2023/NĐ-CP",
+      "muc_tieu": "07/2023/NĐ-CP",
+      "viec": "Tạo registry/van-ban/ cho 07/2023/NĐ-CP (được nhắc bởi 19/2024/TT-BYT (huong_dan)). Dùng: node tools/them-van-ban.mjs \"07/2023/NĐ-CP\"",
       "luong": "he-thong-hoa",
       "trongSo": 0
     },
@@ -8746,15 +8764,6 @@
       "muc": "Thấp",
       "tieuDe": "1898/TB-TCHQ/2018: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
       "muc_tieu": "1898/TB-TCHQ/2018",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "19/2024/TT-BYT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "19/2024/TT-BYT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
       "trongSo": 0
@@ -38662,7 +38671,7 @@
       "muc": "Vừa",
       "tieuDe": "Wiki nhắc 98/2021/NĐ-CP nhưng sổ chưa có",
       "muc_tieu": "98/2021/NĐ-CP",
-      "viec": "Thêm vào sổ (wiki/concepts/thuoc-theo-luat-duoc-2016.md).",
+      "viec": "Thêm vào sổ (wiki/concepts/thuoc-theo-luat-duoc-2016.md, wiki/sources/19-2024-tt-byt.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },
