@@ -16,7 +16,23 @@ nguon:
 trich_dan_trong_bieu_thue: 340
 xac_minh:
   muc: NGUON_A
-  pham_vi: PDF Công báo CDN; Điều 2 khoản 1 hiệu lực 30-01-2024; Điều 2 khoản 2 hết hiệu lực 924/QĐ-BNN-TCLN
+  pham_vi: |
+    PDF Công báo CDN (48199-1-2024101-10217-2023-tt-bnnptnt.pdf, 1.056.612 bytes, SHA256 1a168b92…).
+    Văn bản có 3 Điều + 01 Bảng mã HS kèm theo (ban hành kèm theo Thông tư):
+    • Điều 1: Ban hành kèm theo Thông tư Bảng mã HS đối với hàng hóa là thực vật rừng, động vật rừng
+      nguy cấp, quý, hiếm và động vật, thực vật thuộc các Phụ lục Công ước CITES.
+    • Điều 2: Hiệu lực thi hành — khoản 1 có hiệu lực kể từ 30/01/2024; khoản 2 bãi bỏ QĐ 924/QĐ-BNN-TCLN
+      (24/3/2017); khoản 3 ưu tiên văn bản QPPL mới về tên loài/nhóm loài; khoản 4 mã HS/loại hàng hóa
+      áp dụng theo Danh mục hàng hóa XK/NK của Bộ Tài chính.
+    • Điều 3: Trách nhiệm thi hành — Chánh VP Bộ, Cục trưởng Cục Kiểm lâm, Thủ trưởng các đơn vị thuộc Bộ
+      NN&PTNT và tổ chức, cá nhân liên quan.
+    Bảng mã HS (Phụ lục CITES I, II, III; phạm vi điều chỉnh = mẫu vật hoang dã nguy cấp, loài thuần hóa
+    ngoài phạm vi): I. Hàng hóa là mẫu vật động vật rừng nguy cấp, quý, hiếm và động vật thuộc các Phụ lục CITES
+    (Động vật sống — Chương HS 01.01, 01.02, 01.03, 01.04, 01.06: ngựa/lừa, trâu bò, lợn, cừu/dê, động vật sống khác
+    gồm bộ Linh trưởng, bộ Ăn thịt/Họ Mèo, Họ Chó, Họ Gấu, Bộ Voi, Bộ Tê giác, Bộ Ngựa vằn, Bộ Lợn vòi, Bò sát
+    [Rùa, Rắn, Kỳ nhông, Cá sấu, Thằn lằn], Chim [Vẹt, Cú, Đà điểu]). Các phần tiếp theo (Gỗ, Trầm hương, Da lông,
+    Thực vật, Sản phẩm từ loài hoang dã) được đăng tiếp trong Công báo số 103+104 (xem "Xem tiếp Công báo số 103 + 104").
+    Trích dẫn 340 mã HS trong biểu thuế EN2022/NĐ 26/2023.
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
@@ -27,3 +43,10 @@ quan_he:
     tu_ngay: '2024-01-30'
     can_cu: Điều 2 khoản 2 TT 17/2023/TT-BNNPTNT
 toan_van: raw/download/congbaocdn.chinhphu.vn/17-2023-tt-bnnptnt.pdf
+danh_muc_hs:
+  tep: danh-muc/17-2023-tt-bnnptnt.csv
+  nguon: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/12/40996/48199-1-2024101-10217-2023-tt-bnnptnt.pdf
+  trich_boi: hermes-sub-agent-cites
+  ngay: '2026-10-09'
+  da_doi_chieu: false
+  ghi_chu: 'Trích 765 dòng (loài × mã HS) từ Bảng mã HS PDF trang 3-61 bằng pdfplumber.extract_tables; 18 mã HS chương 01.01-01.06 (Động vật sống) — phần gỗ/trầm hương/da lông/thực vật tiếp tục trong Công báo 103+104 nên CHƯA trích trong file này; cột dieu_kien ghi ngoại lệ (trừ loài nhà, quốc gia áp dụng) từ PDF'
