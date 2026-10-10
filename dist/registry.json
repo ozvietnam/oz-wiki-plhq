@@ -2919,6 +2919,14 @@
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 24 mã HS).",
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/13-2023-qd-ttg.pdf",
+      "danh_muc_hs": {
+        "tep": "danh-muc/13-2023-qd-ttg.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/5/39342/44754-1-2023723-72413-2023-q-ttg.pdf",
+        "trich_boi": "hermes-sub-agent-ttg",
+        "ngay": "2026-10-09",
+        "da_doi_chieu": false,
+        "ghi_chu": "24 dòng, 24 mã HS (Phụ lục - Danh mục phế liệu được phép NK làm nguyên liệu SX, kèm QĐ 13/2023/QĐ-TTg)"
+      },
       "slug": "13-2023-qd-ttg",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -3698,6 +3706,14 @@
         ]
       },
       "toan_van": "raw/download/datafiles.chinhphu.vn/16-2024-tt-byt.pdf",
+      "danh_muc_hs": {
+        "tep": "danh-muc/16-2024-tt-byt.csv",
+        "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/10/16-byt.pdf",
+        "trich_boi": "hermes-sub-agent-byt",
+        "ngay": "2026-10-09",
+        "da_doi_chieu": false,
+        "ghi_chu": "49 dòng mã HS từ 16 STT (Phụ lục duy nhất). Trích từ PDF scan bằng tesseract OCR (vie). Nhóm 38.08 (Thuốc trừ sâu, thuốc trừ côn trùng, thuốc diệt khuẩn, nấm mốc...). Lưu ý: registry trich_dan_trong_bieu_thue: 17 có thể là số mã ban đầu do hs-code-api; thực tế OCR 49 dòng."
+      },
       "slug": "16-2024-tt-byt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -3925,7 +3941,7 @@
       "trich_dan_trong_bieu_thue": 340,
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "PDF Công báo CDN; Điều 2 khoản 1 hiệu lực 30-01-2024; Điều 2 khoản 2 hết hiệu lực 924/QĐ-BNN-TCLN",
+        "pham_vi": "PDF Công báo CDN (48199-1-2024101-10217-2023-tt-bnnptnt.pdf, 1.056.612 bytes, SHA256 1a168b92…).\nVăn bản có 3 Điều + 01 Bảng mã HS kèm theo (ban hành kèm theo Thông tư):\n• Điều 1: Ban hành kèm theo Thông tư Bảng mã HS đối với hàng hóa là thực vật rừng, động vật rừng\n  nguy cấp, quý, hiếm và động vật, thực vật thuộc các Phụ lục Công ước CITES.\n• Điều 2: Hiệu lực thi hành — khoản 1 có hiệu lực kể từ 30/01/2024; khoản 2 bãi bỏ QĐ 924/QĐ-BNN-TCLN\n  (24/3/2017); khoản 3 ưu tiên văn bản QPPL mới về tên loài/nhóm loài; khoản 4 mã HS/loại hàng hóa\n  áp dụng theo Danh mục hàng hóa XK/NK của Bộ Tài chính.\n• Điều 3: Trách nhiệm thi hành — Chánh VP Bộ, Cục trưởng Cục Kiểm lâm, Thủ trưởng các đơn vị thuộc Bộ\n  NN&PTNT và tổ chức, cá nhân liên quan.\nBảng mã HS (Phụ lục CITES I, II, III; phạm vi điều chỉnh = mẫu vật hoang dã nguy cấp, loài thuần hóa\nngoài phạm vi): I. Hàng hóa là mẫu vật động vật rừng nguy cấp, quý, hiếm và động vật thuộc các Phụ lục CITES\n(Động vật sống — Chương HS 01.01, 01.02, 01.03, 01.04, 01.06: ngựa/lừa, trâu bò, lợn, cừu/dê, động vật sống khác\ngồm bộ Linh trưởng, bộ Ăn thịt/Họ Mèo, Họ Chó, Họ Gấu, Bộ Voi, Bộ Tê giác, Bộ Ngựa vằn, Bộ Lợn vòi, Bò sát\n[Rùa, Rắn, Kỳ nhông, Cá sấu, Thằn lằn], Chim [Vẹt, Cú, Đà điểu]). Các phần tiếp theo (Gỗ, Trầm hương, Da lông,\nThực vật, Sản phẩm từ loài hoang dã) được đăng tiếp trong Công báo số 103+104 (xem \"Xem tiếp Công báo số 103 + 104\").\nTrích dẫn 340 mã HS trong biểu thuế EN2022/NĐ 26/2023.\n",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
         "boi": "cursor-agent@ozvietnam"
@@ -3941,6 +3957,14 @@
         ]
       },
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/17-2023-tt-bnnptnt.pdf",
+      "danh_muc_hs": {
+        "tep": "danh-muc/17-2023-tt-bnnptnt.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/12/40996/48199-1-2024101-10217-2023-tt-bnnptnt.pdf",
+        "trich_boi": "hermes-sub-agent-cites",
+        "ngay": "2026-10-09",
+        "da_doi_chieu": false,
+        "ghi_chu": "Trích 765 dòng (loài × mã HS) từ Bảng mã HS PDF trang 3-61 bằng pdfplumber.extract_tables; 18 mã HS chương 01.01-01.06 (Động vật sống) — phần gỗ/trầm hương/da lông/thực vật tiếp tục trong Công báo 103+104 nên CHƯA trích trong file này; cột dieu_kien ghi ngoại lệ (trừ loài nhà, quốc gia áp dụng) từ PDF"
+      },
       "slug": "17-2023-tt-bnnptnt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}

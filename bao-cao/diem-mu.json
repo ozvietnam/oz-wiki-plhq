@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-10",
-  "tong": 539,
+  "tong": 543,
   "diem": [
     {
       "ma": "THIEU_NGUON_AHTN",
@@ -3379,24 +3379,6 @@
     },
     {
       "ma": "DANH_MUC_CHUA_TRICH",
-      "muc": "Vừa",
-      "tieuDe": "Chưa trích bảng mã HS: 13/2023/QĐ-TTg",
-      "muc_tieu": "13/2023/QĐ-TTg",
-      "viec": "Văn bản danh mục chưa có danh-muc/13-2023-qd-ttg.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 24 mã.",
-      "luong": "danh-muc-hs",
-      "trongSo": 24
-    },
-    {
-      "ma": "DANH_MUC_CHUA_TRICH",
-      "muc": "Vừa",
-      "tieuDe": "Chưa trích bảng mã HS: 16/2024/TT-BYT",
-      "muc_tieu": "16/2024/TT-BYT",
-      "viec": "Văn bản danh mục chưa có danh-muc/16-2024-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 17 mã.",
-      "luong": "danh-muc-hs",
-      "trongSo": 17
-    },
-    {
-      "ma": "DANH_MUC_CHUA_TRICH",
       "muc": "Cao",
       "tieuDe": "Chưa trích bảng mã HS: 1725/QĐ-BCT",
       "muc_tieu": "1725/QĐ-BCT",
@@ -3923,6 +3905,60 @@
       "tieuDe": "15/2024/TT-BYT: mã 39072090 không có trong biểu thuế",
       "muc_tieu": "15/2024/TT-BYT",
       "viec": "danh-muc/15-2024-tt-byt.csv dòng 427 (\"INS 1521: Polyethylen glycol\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "DAN_CHIEU_CHUA_CO_BANG",
+      "muc": "Vừa",
+      "tieuDe": "16/2024/TT-BYT dẫn mã HS sang 3 — chưa có trong sổ",
+      "muc_tieu": "3",
+      "viec": "danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 3. Thêm 3 vào sổ rồi trích bảng để mã HS của các dòng này tra được.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "DAN_CHIEU_CHUA_CO_BANG",
+      "muc": "Vừa",
+      "tieuDe": "16/2024/TT-BYT dẫn mã HS sang 4 — chưa có trong sổ",
+      "muc_tieu": "4",
+      "viec": "danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 4. Thêm 4 vào sổ rồi trích bảng để mã HS của các dòng này tra được.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "DAN_CHIEU_CHUA_CO_BANG",
+      "muc": "Vừa",
+      "tieuDe": "16/2024/TT-BYT dẫn mã HS sang 5 — chưa có trong sổ",
+      "muc_tieu": "5",
+      "viec": "danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 5. Thêm 5 vào sổ rồi trích bảng để mã HS của các dòng này tra được.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "DAN_CHIEU_CHUA_CO_BANG",
+      "muc": "Vừa",
+      "tieuDe": "16/2024/TT-BYT dẫn mã HS sang 6 — chưa có trong sổ",
+      "muc_tieu": "6",
+      "viec": "danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 6. Thêm 6 vào sổ rồi trích bảng để mã HS của các dòng này tra được.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "DAN_CHIEU_CHUA_CO_BANG",
+      "muc": "Vừa",
+      "tieuDe": "16/2024/TT-BYT dẫn mã HS sang 7 — chưa có trong sổ",
+      "muc_tieu": "7",
+      "viec": "danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 7. Thêm 7 vào sổ rồi trích bảng để mã HS của các dòng này tra được.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "DAN_CHIEU_CHUA_CO_BANG",
+      "muc": "Vừa",
+      "tieuDe": "16/2024/TT-BYT dẫn mã HS sang 8 — chưa có trong sổ",
+      "muc_tieu": "8",
+      "viec": "danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 8. Thêm 8 vào sổ rồi trích bảng để mã HS của các dòng này tra được.",
       "luong": "danh-muc-hs",
       "trongSo": 0
     },
