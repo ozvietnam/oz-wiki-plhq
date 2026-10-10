@@ -24,5 +24,8 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-  canh_bao: 'Chưa có PDF bậc A. Bãi 8378 không tự hồi phục 6266 — cần PDF A để chốt chuỗi 6266→8378→4814 và quan hệ với TT 125/2026 (khung rủi ro từ 01-07-2026).'
+  chan:
+    ma: THIEU_PDF_A
+    ngay: 2026-10-09
+    viec_tiep: "Chưa có PDF bậc A"
 ghi_chu: 'Đầu mối từ săn hiệu lực HS_API cho 6266/QĐ-BCA.'

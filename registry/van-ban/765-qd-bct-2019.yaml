@@ -22,7 +22,6 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-  canh_bao: datafiles.chinhphu.vn/cpp/files/vbpq/2019/06/765.signed.pdf (đã nạp nhầm vào raw/download/datafiles.chinhphu.vn/765-qd-bct.pdf) thực chất là 765/QĐ-TTg về Hội đồng Quốc gia Giáo dục — không dùng làm toàn văn 765/QĐ-BCT.
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1075 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + sct.dongnai.gov.vn). Toàn văn trích từ ZIP moit.gov.vn; tên tệp PDF trong ZIP ghi "756" nhưng nội dung là Quyết định 765/QĐ-BCT. Nhập từ hs-code-api data/legal-docs.json (1075 mã HS). Toàn văn chính thức là ZIP Bộ Công Thương (PDF + phụ lục DOCX); PDF trong ZIP không có lớp chữ — điều khoản đọc bằng OCR.
 toan_van: raw/download/moit.gov.vn/765-qd-bct.pdf
 danh_muc_hs:
