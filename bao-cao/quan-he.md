@@ -2,6 +2,15 @@
 
 Mũi tên đi từ văn bản MỚI tới văn bản bị tác động. Sinh tự động bằng `node tools/dung.mjs`.
 
+## Chưa phân loại — chờ luồng Hệ thống hoá xếp vào cây
+
+```mermaid
+flowchart LR
+  n_71_2025_TT_BXD["71/2025/TT-BXD<br/>chưa xác minh"]
+  n_49_2026_TT_BXD["49/2026/TT-BXD<br/>còn hiệu lực"]
+  n_71_2025_TT_BXD -->|bãi bỏ Chương X, Phụ lục II và Phụ lục III (một phần) từ 2026-07-01| n_49_2026_TT_BXD
+```
+
 ## Hải quan — luật, thủ tục, kiểm tra giám sát
 
 ```mermaid
@@ -17,17 +26,18 @@ flowchart LR
   n_23_2019_Q__TTg["23/2019/QĐ-TTg<br/>hết hiệu lực"]
   n_336_2026_N__CP["336/2026/NĐ-CP<br/>chưa có hiệu lực"]
   n_85_2019_N__CP["85/2019/NĐ-CP<br/>còn hiệu lực"]
+  n_39_2015_TT_BTC["39/2015/TT-BTC<br/>còn hiệu lực"]
+  n_60_2019_TT_BTC["60/2019/TT-BTC<br/>còn hiệu lực"]
   n_54_VBHN_VPQH["54/VBHN-VPQH<br/>còn hiệu lực"]
   n_59_2018_N__CP["59/2018/NĐ-CP<br/>còn hiệu lực"]
   n_08_2015_N__CP["08/2015/NĐ-CP<br/>còn hiệu lực"]
-  n_60_2019_TT_BTC["60/2019/TT-BTC<br/>còn hiệu lực"]
-  n_39_2015_TT_BTC["39/2015/TT-BTC<br/>còn hiệu lực"]
   n_06_2026_TT_BTC -->|sửa đổi từ 2026-03-01| n_13_2015_TT_BTC
   n_11_2026_QH16 -->|sửa đổi từ 2027-03-01| n_54_2014_QH13
   n_121_2025_TT_BTC -->|sửa đổi từ 2026-02-01| n_38_2015_TT_BTC
   n_121_2025_TT_BTC -->|sửa đổi từ 2026-02-01| n_39_2018_TT_BTC
   n_31_2026_Q__TTg -->|thay thế từ 2026-08-14| n_23_2019_Q__TTg
   n_336_2026_N__CP -->|thay thế từ 2026-10-15| n_85_2019_N__CP
+  n_39_2015_TT_BTC -->|sửa đổi Sửa đổi, bổ sung một số điều của TT 39/2015/TT-BTC từ 2019-06-06| n_60_2019_TT_BTC
   n_39_2018_TT_BTC -->|sửa đổi| n_38_2015_TT_BTC
   n_54_VBHN_VPQH -->|hợp nhất| n_54_2014_QH13
   n_59_2018_N__CP -->|sửa đổi| n_08_2015_N__CP
@@ -306,12 +316,13 @@ flowchart LR
 
 ```mermaid
 flowchart LR
+  n_1175_Q__TTg["1175/QĐ-TTg<br/>hết hiệu lực"]
+  n_126_Q__TTg["126/QĐ-TTg<br/>còn hiệu lực"]
   n_124_2026_TT_BTC["124/2026/TT-BTC<br/>còn hiệu lực"]
   n_33_2023_TT_BTC["33/2023/TT-BTC<br/>còn hiệu lực"]
-  n_126_Q__TTg["126/QĐ-TTg<br/>còn hiệu lực"]
-  n_1175_Q__TTg["1175/QĐ-TTg<br/>hết hiệu lực"]
   n_127_Q__TTg["127/QĐ-TTg<br/>còn hiệu lực"]
   n_734_Q__TTg["734/QĐ-TTg<br/>hết hiệu lực"]
+  n_1175_Q__TTg -->|sửa đổi Thay thế hoàn toàn 1175/QĐ-TTg từ 2026-01-16| n_126_Q__TTg
   n_124_2026_TT_BTC -->|sửa đổi bổ sung khoản 10 Điều 15 từ 2026-08-22| n_33_2023_TT_BTC
   n_126_Q__TTg -->|thay thế từ 2026-01-16| n_1175_Q__TTg
   n_127_Q__TTg -->|thay thế từ 2026-01-16| n_734_Q__TTg

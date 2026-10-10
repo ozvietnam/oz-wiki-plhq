@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-10-10
 
-219 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+221 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -144,7 +144,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 - 🟢 [126/QĐ-TTg](../registry/van-ban/126-qd-ttg-2026.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu (EVFTA)
 - 🟢 [127/QĐ-TTg](../registry/van-ban/127-qd-ttg-2026.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP)
-- ❔ [328/QĐ-TTg](../registry/van-ban/328-qd-ttg-2022.yaml) — Về việc chỉ định các cơ quan đầu mối để triển khai Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)
+- 🟢 [328/QĐ-TTg](../registry/van-ban/328-qd-ttg-2022.yaml) — Về việc chỉ định các cơ quan đầu mối để triển khai Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)
 - ⚫ [1175/QĐ-TTg](../registry/van-ban/1175-qd-ttg-2020.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu (EVFTA) _(hết hiệu lực 2026-01-16)_
 - 🟢 [102/2020/QH14](../registry/van-ban/102-2020-qh14.yaml) — Phê chuẩn Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu
 - ⚫ [734/QĐ-TTg](../registry/van-ban/734-qd-ttg-2019.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP) _(hết hiệu lực 2026-01-16)_
@@ -310,8 +310,10 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Xây dựng (vật liệu xây dựng, phương tiện giao thông) `kiem-tra-chuyen-nganh/bxd`
 
-5 văn bản, 2 chưa hết hiệu lực.
+7 văn bản, 4 chưa hết hiệu lực.
 
+- 🟢 [49-PL1/2026/TT-BXD](../registry/van-ban/49-2026-tt-bxd-pl1.yaml) — Phụ lục I — Danh mục sản phẩm, hàng hóa có mức độ rủi ro cao thuộc phạm vi quản lý của Bộ Xây dựng (ban hành kèm theo TT 49/2026/TT-BXD)
+- 🟢 [49-PL2/2026/TT-BXD](../registry/van-ban/49-2026-tt-bxd-pl2.yaml) — Phụ lục II — Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình thuộc phạm vi quản lý của Bộ Xây dựng (ban hành kèm theo TT 49/2026/TT-BXD)
 - 🟢 [49/2026/TT-BXD](../registry/van-ban/49-2026-tt-bxd.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao lĩnh vực giao thông vận tải thuộc phạm vi quản lý của Bộ Xây dựng
 - 🟢 [41/2026/TT-BXD](../registry/van-ban/41-2026-tt-bxd.yaml) — Quản lý chất lượng sản phẩm, hàng hoá vật liệu xây dựng
 - ⚫ [62/2024/TT-BGTVT](../registry/van-ban/62-2024-tt-bgtvt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 12/2022/TT-BGTVT ngày 30/6/2022 của Bộ trưởng Bộ Giao thông vận tải quy định danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Giao thông vận tải _(hết hiệu lực 2026-07-01)_

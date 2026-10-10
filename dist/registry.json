@@ -1,7 +1,7 @@
 {
   "phien_ban": "2026-10-10",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 219,
+  "tong": 221,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -2123,13 +2123,23 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "PDF Công báo CDN 1175 Điều 3 hiệu lực từ ngày ký; hết hiệu lực theo Điều 5 của 126/QĐ-TTg (PDF Công báo)",
+        "pham_vi": "PDF Công báo CDN số 823+824 ngày 12-08-2020: Điều 1 (Phụ lục) chỉ định cơ quan đầu mối cho từng Chương Hiệp định EVFTA (1-17); Điều 2 cho phép BCT điều chỉnh phù hợp tình hình thực tế, báo cáo TTgCP; Điều 3 hiệu lực từ ngày ký 04-08-2020; Điều 4 trách nhiệm thi hành\nHết hiệu lực toàn bộ từ 16-01-2026 theo Điều 5 QĐ 126/QĐ-TTg (PDF Công báo số 71 ngày 31-01-2026)\nTình trạng hiện tại: HET_HIEU_LUC, sổ đăng ký không có VB sau ghi thay thế\n",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
         "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Hết hiệu lực từ 16-01-2026 theo Điều 5 QĐ 126/QĐ-TTg.",
+      "ghi_chu": "Hết hiệu lực từ 16-01-2026 theo Điều 5 QĐ 126/QĐ-TTg. Đã đọc toàn văn 4 Điều + Phụ lục (Danh sách cơ quan đầu mối theo Chương Hiệp định EVFTA).",
       "het_hieu_luc_tu": "2026-01-16",
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "126/QĐ-TTg",
+            "pham_vi": "Thay thế hoàn toàn 1175/QĐ-TTg",
+            "tu_ngay": "2026-01-16",
+            "can_cu": "Điều 5 QĐ 126/QĐ-TTg ngày 16-01-2026"
+          }
+        ]
+      },
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/1175-qd-ttg.pdf",
       "slug": "1175-qd-ttg-2020",
       "bac_nguon_cao_nhat": "A",
@@ -2640,7 +2650,18 @@
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/126-qd-ttg.pdf",
       "slug": "126-qd-ttg-2026",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "1175/QĐ-TTg",
+            "quan_he": "sua_doi",
+            "so_hieu": "126/QĐ-TTg",
+            "pham_vi": "Thay thế hoàn toàn 1175/QĐ-TTg",
+            "tu_ngay": "2026-01-16",
+            "can_cu": "Điều 5 QĐ 126/QĐ-TTg ngày 16-01-2026"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "127/QĐ-TTg",
@@ -4596,7 +4617,131 @@
       "trich_dan_trong_bieu_thue": 34,
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "PDF Công báo CDN; hiệu lực 09-09-2025 khớp sổ",
+        "pham_vi": {
+          "tong_quan": "Nghị định gồm 2 phần: (1) Quy định chi tiết hoạt động mật mã dân sự theo Luật An toàn thông tin mạng (Chương I-III, Điều 1-10); (2) Sửa đổi, bổ sung Nghị định số 15/2020/NĐ-CP về XPHC trong lĩnh vực bưu chính, viễn thông, tần số vô tuyến điện, CNTT và giao dịch điện tử (Chương IV, Điều 11). Chương V quy định hiệu lực, chuyển tiếp, trách nhiệm thi hành.",
+          "chuong": [
+            {
+              "so": "I",
+              "ten": "NHỮNG QUY ĐỊNH CHUNG",
+              "dieu": [
+                "1",
+                "2"
+              ],
+              "noi_dung": [
+                "Điều 1: Phạm vi điều chỉnh (chi tiết Luật ATTTM về kinh doanh/XK/NK SP MMDS, đánh giá sự phù hợp; sửa NĐ 15/2020)",
+                "Điều 2: Đối tượng áp dụng (DN kinh doanh SP DV MMDS, tổ chức đánh giá sự phù hợp, tổ chức/cá nhân VPHC)"
+              ]
+            },
+            {
+              "so": "II",
+              "ten": "KINH DOANH SP, DV MẬT MÃ DÂN SỰ VÀ XK, NK SP MẬT MÃ DÂN SỰ",
+              "dieu": [
+                "3",
+                "4",
+                "5",
+                "6",
+                "7"
+              ],
+              "noi_dung": [
+                "Điều 3: Ban hành DM SP DV MMDS (Phụ lục I) + DM SP MMDS XK/NK theo GP (Phụ lục II)",
+                "Điều 4: Áp dụng DM XK/NK theo GP (chỉ áp dụng khi mã HS + mô tả + đặc tính kỹ thuật trùng; khác biệt thì theo PL về hải quan)",
+                "Điều 5: Điều kiện cấp GPKD SP DV MMDS (cụ thể hóa khoản 2 Điều 31 Luật ATTTM: 02 CBKT + CBQL đại học ĐTVT/CNTT/Toán/ATTT; hệ thống PVKH & bảo đảm kỹ thuật)",
+                "Điều 6: Trình tự thủ tục cấp mới/sửa đổi/bổ sung/cấp lại/gia hạn GPKD (hồ sơ mẫu 01-06 PL III; thời hạn cấp mới 20 ngày, sửa bổ 10 ngày, cấp lại mất/hỏng 04 ngày)",
+                "Điều 7: Trình tự thủ tục cấp GP XK/NK SP MMDS (hồ sơ mẫu 07-08 PL III; thời hạn 07 ngày làm việc)"
+              ]
+            },
+            {
+              "so": "III",
+              "ten": "ĐÁNH GIÁ SỰ PHÙ HỢP SP MẬT MÃ DÂN SỰ",
+              "dieu": [
+                "8",
+                "9",
+                "10"
+              ],
+              "noi_dung": [
+                "Điều 8: Trách nhiệm Ban Cơ yếu Chính phủ (cấp GCN đăng ký ĐGSSH, chỉ định tổ chức ĐGSSH, tiếp nhận công bố hợp quy)",
+                "Điều 9: Điều kiện/trình tự/thủ tục đăng ký ĐGSSH, chỉ định tổ chức ĐGSSH, công bố hợp quy (theo PL hiện hành)",
+                "Điều 10: Thừa nhận kết quả ĐGSSH giữa VN và quốc tế; Ban Cơ yếu giúp BQP quyết định thừa nhận đơn phương"
+              ]
+            },
+            {
+              "so": "IV",
+              "ten": "SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA NĐ 15/2020/NĐ-CP (được sửa bởi NĐ 14/2022/NĐ-CP)",
+              "dieu": [
+                "11"
+              ],
+              "noi_dung": [
+                "khoản 1: Sửa Điều 3 NĐ 15/2020 (bổ sung MMDS vào DS tước GPLH 1-24 tháng; tịch thu tang vật; buộc tái xuất SP MMDS NK; kiến nghị thu hồi GPLH; thêm 4 biện pháp buộc: báo cáo kinh doanh, lưu giữ KH, khai báo SD không phép, cung cấp khóa mã)",
+                "khoản 2: Bổ sung Điều 93a (XPHC kinh doanh MMDS, mức phạt cảnh cáo → 180 triệu) + Điều 93b (XPHC XK/NK MMDS, mức phạt cảnh cáo → 100 triệu)",
+                "khoản 3: Sửa Điều 114 (thẩm quyền XPHC của Thanh tra các Bộ/ngành, Trưởng đoàn thanh tra cấp Bộ)",
+                "khoản 4: Bổ sung Điều 114a (thẩm quyền XPHC của Thanh tra Cơ yếu, Trưởng ban Ban Cơ yếu Chính phủ - thẩm quyền cao nhất về MMDS)",
+                "khoản 5: Sửa các Điều 115, 116, 117, 118, 119, 119a, 120, 121 (thẩm quyền XPHC UBND các cấp, CAND, BĐBP, CSB, QLTT, Hải quan; phân định thẩm quyền; lập biên bản VPHC)"
+              ]
+            },
+            {
+              "so": "V",
+              "ten": "ĐIỀU KHOẢN THI HÀNH",
+              "dieu": [
+                "12",
+                "13",
+                "14"
+              ],
+              "noi_dung": [
+                "Điều 12: Hiệu lực thi hành từ 09/9/2025; thay thế NĐ 58/2016, NĐ 53/2018, NĐ 32/2023",
+                "Điều 13: Quy định chuyển tiếp (GP cũ còn hạn được dùng đến hết hạn; 30 ngày trước khi hết hạn phải xin cấp lại; hồ sơ tiếp nhận trước HL thì theo NĐ cũ; từ ngày HL thì theo NĐ này)",
+                "Điều 14: Trách nhiệm thi hành (Bộ trưởng, TTr cơ quan ngang Bộ, UBND cấp tỉnh, tổ chức/cá nhân liên quan)"
+              ]
+            }
+          ],
+          "phu_luc": [
+            {
+              "so": "I",
+              "ten": "DANH MỤC SP, DV MẬT MÃ DÂN SỰ",
+              "noi_dung": "7 nhóm SP MMDS (sinh/quản lý/lưu trữ khóa mã; bảo mật dữ liệu lưu giữ; bảo mật dữ liệu trao đổi trên mạng; bảo mật luồng IP; bảo mật thoại tương tự và thoại số; bảo mật thông tin vô tuyến; bảo mật fax, điện báo) + 12 sản phẩm LOẠI TRỪ (HĐH/trình duyệt, máy tính bảng/DVD/camera, ĐTDĐ không mã hóa đầu cuối, smartcard, bảo vệ bản quyền, xác thực định danh, truy cập từ xa, ổ cứng SED, IDS/IPS, chip TPM, bảo vệ truy cập không dây, y tế) + 3 DV MMDS (bảo vệ thông tin, kiểm định/đánh giá, tư vấn bảo mật/ATTTM)"
+            },
+            {
+              "so": "II",
+              "ten": "DANH MỤC SP MẬT MÃ DÂN SỰ XK, NK THEO GIẤY PHÉP",
+              "noi_dung": "Bảng 7 nhóm SP kèm mã HS đầy đủ: (1) HSM/PKI Token/Smartcard/SimPKI (8471.30.90, 8471.41.90, 8471.49.90, 8471.80.90, 8542.32.00); (2) Bảo mật dữ liệu lưu giữ (8523.51.11/.21/.99, 8523.52.00); (3) Bảo mật dữ liệu trao đổi trên mạng (8471.30.90/.41.90/.49.90 + 8517.62.42/.43/.49/.51/.53/.59/.61/.69/.91/.92/.99); (4) Bảo mật luồng IP/VPN (8471.30.90/.41.90/.49.90 + 8517.62.42/.43/.49/.51/.53/.59/.61/.69/.91/.92/.99); (5) Bảo mật thoại tương tự & số (8517.11/.13/.14/.18); (6) Bảo mật thông tin vô tuyến (8525.50.00, 8525.60.00, 8526.91.10/.90, 8526.92.00); (7) Bảo mật fax, điện báo (8443.31.31/.39/.91/.99, 8443.32.40)"
+            },
+            {
+              "so": "III",
+              "ten": "MẪU HỒ SƠ, THỦ TỤC CẤP GPKD & GP XK/NK SP, DV MMDS",
+              "noi_dung": "8 biểu mẫu: 01 (Đơn đề nghị cấp GPKD MMDS); 02 (Đơn đề nghị sửa đổi, bổ sung/cấp lại/gia hạn GPKD); 03 (Phương án kỹ thuật); 04 (Phương án kinh doanh); 05 (Phương án bảo mật & ATTTM); 06 (GPKD SP DV MMDS của Ban Cơ yếu Chính phủ); 07 (Đơn đề nghị cấp GP XK/NK MMDS); 08 (GP XK/NK SP MMDS của Ban Cơ yếu Chính phủ)"
+            }
+          ],
+          "vb_thay_the": [
+            {
+              "so": "58/2016/NĐ-CP",
+              "mo_ta": "Quy định chi tiết về kinh doanh SP DV MMDS và XK/NK SP MMDS",
+              "ngay": "2016-07-01"
+            },
+            {
+              "so": "53/2018/NĐ-CP",
+              "mo_ta": "Sửa đổi, bổ sung NĐ 58/2016",
+              "ngay": "2018-04-16"
+            },
+            {
+              "so": "32/2023/NĐ-CP",
+              "mo_ta": "Sửa đổi, bổ sung NĐ 53/2018",
+              "ngay": "2023-06-09"
+            }
+          ],
+          "vb_duoc_sua_doi": [
+            {
+              "so": "15/2020/NĐ-CP",
+              "mo_ta": "XPHC trong lĩnh vực bưu chính, viễn thông, tần số VTDĐ, CNTT và giao dịch điện tử",
+              "ngay": "2020-02-03",
+              "sua_boi": "14/2022/NĐ-CP ngày 27/01/2022"
+            }
+          ],
+          "hieu_luc_tu": "2025-09-09",
+          "kiem_tra_chuyen_nganh_ap_dung": [
+            {
+              "bqp": "Ban Cơ yếu Chính phủ là cơ quan thường trực quản lý MMDS, cấp GPKD, GP XK/NK, GCN ĐGSSH; BQP kiểm tra chuyên ngành MMDS đối với hàng hóa XK/NK qua biên giới"
+            }
+          ]
+        },
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
         "boi": "cursor-agent@ozvietnam"
@@ -5278,7 +5423,7 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "PDF Công báo số 78 ngày 02-02-2026 (có lớp chữ): số hiệu, trích yếu, ngày ký 17-01-2026, người ký Bùi Thanh Sơn; Điều 31 khoản 1 hiệu lực từ ngày ký; khoản 2 Điều 19, 20 hiệu lực 01-07-2026; khoản 3 cho NĐ 113/2017 và NĐ 82/2022 hết hiệu lực; khoản 4 bãi bỏ một phần NĐ 17/2020, NĐ 33/2024, NĐ 146/2025. Thẻ vanban.chinhphu.vn docid=216673 khớp ngày ban hành/hiệu lực.",
+        "pham_vi": "PDF Công báo số 78 ngày 02-02-2026 (có lớp chữ): số hiệu, trích yếu, ngày ký 17-01-2026, người ký Bùi Thanh Sơn. Cấu trúc 5 Chương / 31 Điều / 0 Phụ lục (toàn văn không có phụ lục riêng; chỉ tham chiếu Phụ lục III của NĐ 24/2026/NĐ-CP tại Điều 14, 16). Chương I (Đ1–3) QUY ĐỊNH CHUNG: Đ1 Phạm vi điều chỉnh, Đ2 Giải thích từ ngữ, Đ3 Trách nhiệm quản lý nhà nước về hóa chất. Chương II (Đ4–22) QUẢN LÝ HOẠT ĐỘNG HÓA CHẤT: Đ4 ĐK chung an toàn SX hóa chất, Đ5 ĐK chung an toàn KD hóa chất, Đ6 Khai báo hóa chất NK, Đ7 ĐK SX hóa chất có ĐK, Đ8 ĐK KD hóa chất có ĐK, Đ9 Hồ sơ/trình tự/thủ tục cấp GCN đủ ĐK SX hóa chất có ĐK, Đ10 XK/NK hóa chất có ĐK, Đ11 ĐK SX hóa chất cần kiểm soát đặc biệt, Đ12 ĐK KD hóa chất cần kiểm soát đặc biệt, Đ13 Hồ sơ cấp Giấy phép SX, Đ14 Hồ sơ cấp Giấy phép KD, Đ15 Công bố loại hóa chất và mục đích SD, Đ16 ĐK SX hóa chất cấm, Đ17 Hồ sơ cấp GCN hóa chất cấm, Đ18 XK/NK hóa chất cấm, Đ19 ĐK cấp GCN đủ ĐK dịch vụ tồn trữ hóa chất, Đ20 Hồ sơ cấp GCN dịch vụ tồn trữ, Đ21 Miễn cấp GCN, Đ22 Thu hồi GCN. Chương III (Đ23–27) THÔNG TIN HÓA CHẤT: Đ23 Đăng ký hóa chất mới, Đ24 Tổ chức đánh giá hóa chất mới, Đ25 Quản lý hóa chất mới, Đ26 Bảo mật thông tin, Đ27 Chuyển đổi số trong QLNN về hóa chất. Chương IV (Đ28–29) HÓA CHẤT NGUY HIỂM TRONG SẢN PHẨM, HÀNG HOÁ: Đ28 Kiểm soát HC nguy hiểm trong SX SP, Đ29 Công bố thông tin hàm lượng HC nguy hiểm trong SP/hàng hóa. Chương V (Đ30–31) ĐIỀU KHOẢN THI HÀNH: Đ30 Điều khoản chuyển tiếp, Đ31 Hiệu lực thi hành. Điều 31: khoản 1 hiệu lực từ ngày ký; khoản 2 Điều 19, 20 hiệu lực 01-07-2026; khoản 3 cho NĐ 113/2017 và NĐ 82/2022 hết hiệu lực; khoản 4 bãi bỏ một phần NĐ 17/2020, NĐ 33/2024, NĐ 146/2025. Thẻ vanban.chinhphu.vn docid=216673 khớp ngày ban hành/hiệu lực.",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
         "boi": "claude-code@ozvietnam"
@@ -6313,9 +6458,9 @@
       "loai": "QUYET_DINH",
       "ten": "Về việc chỉ định các cơ quan đầu mối để triển khai Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)",
       "co_quan": "TTG",
-      "ngay_ban_hanh": "2022-03-10",
-      "hieu_luc_tu": "2022-03-10",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2022-03-11",
+      "hieu_luc_tu": "2022-03-11",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "xuat-xu-fta/hiep-dinh"
       ],
@@ -6331,12 +6476,13 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, trích yếu, ngày ban hành, người ký Phạm Bình Minh trên vanban.chinhphu.vn. Đã lưu PDF ký số datafiles (5 trang, mỗi trang một ảnh, không có lớp chữ) — chưa đọc được dòng hiệu lực.",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "grok@ozvietnam"
+        "pham_vi": "PDF datafiles (5 trang, bản scan ảnh, đã OCR bằng tesseract 5.5.3): Điều 1 ban hành Phụ lục Danh sách cơ quan đầu mối Hiệp định RCEP (20 cơ quan); Điều 2 điều chỉnh phù hợp tình hình thực tế; Điều 3 hiệu lực từ ngày ký 11-03-2022; Điều 4 trách nhiệm thi hành\nOCR lỗi: \"40 tháng 3\" → \"11 tháng 3\" (số 4 và 1 bị nhầm), \"QUYÉT ĐỊNH\" → \"QUYẾT ĐỊNH\"\nTình trạng hiện tại: CON_HIEU_LUC, sổ đăng ký không có VB sau ghi thay thế rõ ràng (126/127/QĐ-TTg 2026 chỉ thay 1175 và 734)\n",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-09",
+        "boi": "hermes"
       },
-      "ghi_chu": "Ngày hiệu lực ghi bằng ngày ban hành vì trang nguồn chưa nêu ngày hiệu lực riêng. Nghị quyết phê chuẩn RCEP chưa mở được trên nguồn bậc A trong ca này.",
+      "ghi_chu": "Bản PDF trên datafiles là bản scan ảnh, đã OCR bằng tesseract 5.5.3 + vie language pack. OCR text lưu tại raw/download/datafiles.chinhphu.vn/328-qd-ttg-body.txt.\nCông báo số 161 ngày 11-03-2022. Người ký: Thủ tướng Chính phủ Phạm Minh Chính. 20 cơ quan đầu mối cho các Chương/Điều Hiệp định RCEP (3, 5, 6, 8, 14, 16, 19...).\n",
+      "quan_he": {},
       "toan_van": "raw/download/datafiles.chinhphu.vn/328-qd-ttg.pdf",
       "slug": "328-qd-ttg-2022",
       "bac_nguon_cao_nhat": "A",
@@ -6879,7 +7025,7 @@
       },
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "PDF datafiles ký số (lớp chữ, 113 trang): Điều 6 khoản 1 hiệu lực 01-07-2026; khoản 2 điểm a–e hết hiệu lực các văn bản ở quan_he (gồm TT 29/2025/TT-BKHCN); sổ không có văn bản sau ghi thay/bãi TT 36/2026. Đã sửa quan_he: bài tổng hợp KTCN ghi nhầm thay 10/2024/TT-BKHCN — PDF ghi 10/2020/TT-BTTTT",
+        "pham_vi": "PDF datafiles ký số (lớp chữ, 113 trang, 7657 dòng body.txt): 8 Điều + 2 Phụ lục. Đ1 Phạm vi điều chỉnh (Danh mục rủi ro TB + rủi ro cao BKHCN + mã HS). Đ2 Đối tượng áp dụng (SX/NK/KD + cơ quan liên quan). Đ3 Danh mục rủi ro CAO = Phụ lục I: I. Tiêu chuẩn/Đo lường/Chất lượng — 1.1 Xăng/nhiên liệu điêzen/nhiên liệu sinh học (HS 2710.12.21/.22/.23/.24/.25/.26; 2710.19.71/.72; 2710.20.00 — xăng E5/E10 RON92/95, diesel, B5, RON95-II), 1.2 Khí dầu mỏ hóa lỏng LPG (HS 2711.11/.12/.13/.19; 2711.21.10/.90 — propane/butane/Propylene/Butylene); II. CNTT & Viễn thông — 2.1–2.10 Thiết bị phát/thu-phát vô tuyến điện (HS 8517.11/.13/.14/.18 base stations, 8517.61/.62/.69, 8525.50/.60, 8526.10/.91/.92, 8528.71/.72 set-top box TV, 8543.10/.70 RFID, 8531.10/.90 báo động/chuông, 8517.62.43/.51/.53/.59/.69/.99), 3.1–3.14 Thiết bị vô tuyến điện cự ly ngắn SRD (HS 8539.52.10/.90 đèn LED vô tuyến, 8514.40 thiết bị gia nhiệt/rêu cảm ứng, các thiết bị 60mW+ 2.4/5/6GHz, thiết bị Bluetooth/Zigbee ≥60mW), 4.1–4.6 Pin Lithium (HS 8507.60.10/.31/.90 cho laptop/ĐTDĐ); 5.1–5.2 thiết bị hàn; 6.1–6.2 thiết bị điện gia dụng (HS 8536 CB/RCCB/RCBO); III. An toàn bức xạ & Hạt nhân (quặng urani/thori, chất phóng xạ, nguồn phóng xạ, chất đánh dấu, thiết bị X-quang y tế/công nghiệp). Yêu cầu: KIỂM TRA NHÀ NƯỚC VỀ CHẤT LƯỢNG HÀNG NHẬP KHẨU + CHỨNG NHẬN HỢP QUY. Đ4 Danh mục rủi ro TRUNG BÌNH = Phụ lục II: I. Tiêu chuẩn/Đo lường/Chất lượng — 1 Etanol nhiên liệu (HS 2207.10.00; 2207.20.11/.19), 2 Hàng hóa nhóm thép (HS 7213.91.20/.99.20, 7214.20.31/.41/.51/.61, 7215.50.91, 7215.90.10, 7217.10.22/.33, 7219–7223 thép không gỉ cán phẳng/dài, 7225–7229 thép hợp kim khác, 7306.40/.61/.69 ống thép, 7310.29 bình chứa, 7312.10.91), 3 Máy móc thiết bị công nghiệp (HS 8401.10/.20/.30/.40 lò phản ứng hạt nhân, 8467.21 khoan, 8414.51/.59 quạt, 8421.21/.29 lọc), 4 Hàng tiêu dùng & điện gia dụng (HS 7321 bếp gas, 8418.10/.21/.29/.30/.40/.50/.69 tủ lạnh/tủ đông/máy làm đá, 8450.11/.12/.19 máy giặt, 8516.10/.31/.32/.33/.40/.50/.60/.71/.72/.79 điện/đun nước/lò/ủi/bàn là, 8508.11/.19 máy hút bụi, 8509.40 máy xay/ép, 8544.42 cáp, 8518.10/.21/.22/.29/.30 loa/micro/tai nghe, 9405.11 đèn LED, 8523.52 thẻ thông minh, 8523.59 thẻ gần NFC), 5–9 VTT hi-tech (HS 8517.13/.14/.18/8471.30/.41/.60 máy tính/Laptop, 8528.71 TV, đồ chơi 9503, 9504 game console, …). Yêu cầu: TỰ ĐÁNH GIÁ hoặc CHỨNG NHẬN HỢP QUY + CÔNG BỐ HỢP QUY (CCBQ) cho hàng NK. Đ5 Nguyên tắc quản lý (khoản 1–5: theo QCVN + pháp luật chất lượng; trường hợp nhiều QCVN — đáp ứng đầy đủ & không trùng lặp; QCVN ban hành sau — theo QCVN mới; ngoại lệ năng lượng nguyên tử). Đ6 (khoản 1) Hiệu lực 01-07-2026; (khoản 2) Hết hiệu lực kể từ 01-07-2026: a) 29/2025/TT-BKHCN 13-11-2025 (CNTT-TT mất ATSH); b) 30/2011/TT-BTTTT 31-10-2011 (chứng nhận hợp quy CNTT-TT); c) 15/2018/TT-BTTTT 15-11-2018 (sửa đổi 30); d) 10/2020/TT-BTTTT 07-5-2020 (sửa đổi 30); đ) 58/2015/TTLT-BCT-BKHCN 31-12-2015 (chất lượng thép); e) 01/2009/TT-BKHCN 20-3-2009 (DM ATSH); (khoản 3) chiếu dẫn VBPL mới/thay thế. Đ7 Chuyển tiếp (khoản 1 GCNHQ + TBN hợp quy cũ còn HSD; khoản 2 hồ sơ tiếp nhận trước 01-07-2026 chưa xử lý — theo PL tại thời điểm tiếp nhận; khoản 3 tổ chức đánh giá sự phù hợp đã chỉ định tiếp tục HĐ đến hết HĐ chỉ định; khoản 4 giai đoạn chuyển tiếp Cổng 1 cửa quốc gia — nộp trên Cổng DVCQG; khoản 5 hồ sơ chỉ định cũ). Đ8 Tổ chức thực hiện (khoản 1–3: Bộ KH&CN + Tổng cục TC ĐLCL chủ trì; khoản 4 UBND tỉnh: Sở KH&CN kiểm tra NK trừ xăng/diesel/LPG; khoản 5 phản ánh khó khăn). Trích xuất 396 dòng → 253 mã HS duy nhất.",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
         "boi": "cursor-agent@ozvietnam"
@@ -7166,6 +7312,16 @@
             "so_hieu": "37/2026/NĐ-CP"
           },
           {
+            "tu": "49-PL1/2026/TT-BXD",
+            "quan_he": "huong_dan",
+            "so_hieu": "37/2026/NĐ-CP"
+          },
+          {
+            "tu": "49-PL2/2026/TT-BXD",
+            "quan_he": "huong_dan",
+            "so_hieu": "37/2026/NĐ-CP"
+          },
+          {
             "tu": "49/2026/TT-BXD",
             "quan_he": "huong_dan",
             "so_hieu": "37/2026/NĐ-CP"
@@ -7350,18 +7506,41 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "PDF Công báo số 501+502/Ngày 17-4-2015 (congbaocdn.chinhphu.vn): 21 Điều + Phụ lục I, II\nĐiều 1: Phạm vi điều chỉnh và đối tượng áp dụng (quy định trị giá HQ đối với hàng XK, NK; áp dụng cho DN XK, NK, cơ quan HQ)\nĐiều 2: Giải thích từ ngữ (trị giá HQ, người mua, người bán, người có quan hệ đặc biệt...)\nĐiều 3: Quyền và nghĩa vụ của người khai HQ, trách nhiệm và quyền của cơ quan HQ\nĐiều 4: Nguyên tắc và phương pháp xác định trị giá HQ đối với hàng hóa NK\nĐiều 5: Nguyên tắc và phương pháp xác định trị giá HQ đối với hàng hóa XK\nĐiều 6: Phương pháp trị giá giao dịch (transaction value)\nĐiều 7: Mối quan hệ đặc biệt (related persons)\nĐiều 8: Phương pháp trị giá giao dịch hàng NK giống hệt (identical goods)\nĐiều 9: Phương pháp trị giá giao dịch hàng NK tương tự (similar goods)\nĐiều 10: Phương pháp trị giá khấu trừ (deductive value)\nĐiều 11: Phương pháp trị giá tính toán (computed value)\nĐiều 12: Phương pháp suy luận (fallback method)\nĐiều 13: Các khoản điều chỉnh cộng\nĐiều 14: Phí bản quyền, phí giấy phép\nĐiều 15: Các khoản điều chỉnh trừ\nĐiều 16: Phân bổ các khoản điều chỉnh\nĐiều 17: Trị giá HQ đối với hàng hóa XK, NK trong một số trường hợp\nĐiều 18: Đối tượng khai tờ khai trị giá HQ\nĐiều 19: Mẫu tờ khai trị giá HQ\nĐiều 20: Nguyên tắc khai, nộp tờ khai trị giá HQ\nĐiều 21: Cơ sở dữ liệu trị giá\nPhụ lục I, II: Mẫu tờ khai trị giá HQ, biểu thuế suất/định mức\nTình trạng hiện tại: CON_HIEU_LUC, bị sửa bởi 60/2019/TT-BTC\n",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-09",
+        "boi": "hermes"
       },
-      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
+      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền (cursor-agent). 2026-10-09: đọc xong 21 Điều + Phụ lục I, II. Bị sửa bởi 60/2019/TT-BTC.",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?docid=179552&pageid=27160",
           "truy_cap": "2026-10-04"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-39-2015-tt-btc-9959.htm",
+          "truy_cap": "2026-10-09"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2015/3/9959/5917-1-2015501-502-392015tt-btcpdf",
+          "truy_cap": "2026-10-09"
         }
       ],
+      "quan_he": {
+        "huong_dan": [
+          "54/2014/QH13"
+        ],
+        "sua_doi": [
+          {
+            "so_hieu": "60/2019/TT-BTC",
+            "pham_vi": "Sửa đổi, bổ sung một số điều của TT 39/2015/TT-BTC",
+            "tu_ngay": "2019-06-06",
+            "can_cu": "Điều 1 TT 60/2019/TT-BTC"
+          }
+        ]
+      },
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/2015/3/39-2015-tt-btc.pdf",
+      "text_body": "raw/download/congbaocdn.chinhphu.vn/2015/3/39-2015-tt-btc-body.txt",
       "slug": "39-2015-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -8262,6 +8441,165 @@
       }
     },
     {
+      "so_hieu": "49-PL1/2026/TT-BXD",
+      "loai": "THONG_TU",
+      "ten": "Phụ lục I — Danh mục sản phẩm, hàng hóa có mức độ rủi ro cao thuộc phạm vi quản lý của Bộ Xây dựng (ban hành kèm theo TT 49/2026/TT-BXD)",
+      "phu_luc": "I",
+      "co_quan": "BXD",
+      "ngay_ban_hanh": "2026-06-30",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bxd"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "37/2026/NĐ-CP"
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd-pl1.pdf",
+          "truy_cap": "2026-10-04",
+          "ghi_chu": "Phụ lục I (10 trang) — bản PDF đã lưu kèm .nguon.json"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd.signed.pdf",
+          "truy_cap": "2026-10-04",
+          "ghi_chu": "Bản VB chính (4 trang) trên datafiles.chinhphu.vn"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/49-2026-tt-bxd-pl1.pdf",
+      "lien_ket": {
+        "van_ban_me": "49/2026/TT-BXD",
+        "vi_tri": "Phụ lục I (ban hành kèm theo TT 49/2026/TT-BXD ngày 30/6/2026)"
+      },
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Phụ lục I — bảng 6 cột (STT, Tên sản phẩm/hàng hóa, Quy chuẩn kỹ thuật quốc gia, Mã số HS, Mô tả, Yêu cầu quản lý chất lượng). Đếm thực tế từ body trích: 48 dòng mã HS duy nhất (một số mã ghi cả dạng 2-số và 6/8-số, ví dụ 73.11 / 7311.00.99 — quy về một). Phạm vi: ô tô, mô tô, xe gắn máy, xe bốn bánh có gắn động cơ; rơ moóc/sơ mi rơ moóc; xe máy chuyên dùng; phụ tùng xe cơ giới; sản phẩm công nghiệp dùng trong GTVT (bình áp lực, cần trục, xe nâng, sàn nâng).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-09",
+        "boi": "hermes-subagent"
+      },
+      "ghi_chu": "Tách riêng Phụ lục I để tra mã HS nhanh. VB chính 49/2026/TT-BXD đã có file 49-2026-tt-bxd.yaml — file này bổ sung dữ liệu mã HS chi tiết. 73.11 (hoặc 7311.00.99) ghi 1 mã. 87.01 ghi dạng chương; các 8701.xx ghi riêng — tổng cộng 48 dòng mã duy nhất trong bảng (gần sát 46 mã ước tính).",
+      "ma_hs_danh_muc": {
+        "tep": "danh-muc/49-2026-tt-bxd.csv",
+        "cot_loc": "phu_luc",
+        "gia_tri_loc": "Phụ lục I",
+        "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd-pl1.pdf",
+        "trich_boi": "hermes",
+        "ngay": "2026-10-04",
+        "ghi_chu": "Dùng CSV gốc 49-2026-tt-bxd.csv (đã trích trước), lọc theo cột phu_luc=\"Phụ lục I\". 38 mã unique."
+      },
+      "danh_sach_ma_hs": [
+        "4011.10.00",
+        "4011.20",
+        "4011.40.00",
+        "4011.90.10",
+        "7311.00.99",
+        "73.11",
+        "84.26",
+        "84.27",
+        "84.28",
+        "84.29",
+        "84.29.30.00",
+        "84.30",
+        "84.79",
+        "85.07",
+        "87.01",
+        "87.02",
+        "87.03",
+        "87.04",
+        "87.05",
+        "87.06",
+        "87.09",
+        "87.11",
+        "87.16",
+        "8415.81.11",
+        "8426.41.00",
+        "8426.49.00",
+        "8427.10.00",
+        "8427.20.00",
+        "8429.20.00",
+        "8429.40",
+        "8429.51.00",
+        "8429.52.00",
+        "8429.59.00",
+        "8430.10.00",
+        "8430.41.00",
+        "8701.21",
+        "8701.22",
+        "8701.23",
+        "8701.24",
+        "8701.29",
+        "8701.30.00",
+        "8701.95.90",
+        "8703.10",
+        "8705.10.00",
+        "8705.40.00",
+        "8705.90.50",
+        "8705.90.90",
+        "8713.90.00"
+      ],
+      "slug": "49-2026-tt-bxd-pl1",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "49-PL2/2026/TT-BXD",
+      "loai": "THONG_TU",
+      "ten": "Phụ lục II — Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình thuộc phạm vi quản lý của Bộ Xây dựng (ban hành kèm theo TT 49/2026/TT-BXD)",
+      "phu_luc": "II",
+      "co_quan": "BXD",
+      "ngay_ban_hanh": "2026-06-30",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bxd"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "37/2026/NĐ-CP"
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd-pl2.pdf",
+          "truy_cap": "2026-10-09"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd.signed.pdf",
+          "truy_cap": "2026-10-09",
+          "ghi_chu": "Bản VB chính trên datafiles.chinhphu.vn"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/49-2026-tt-bxd-pl2.pdf",
+      "lien_ket": {
+        "van_ban_me": "49/2026/TT-BXD",
+        "vi_tri": "Phụ lục II (ban hành kèm theo TT 49/2026/TT-BXD ngày 30/6/2026)"
+      },
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Phụ lục II — bảng 6 cột (STT, Tên sản phẩm/hàng hóa, QCVN, Mã số HS, Mô tả, Yêu cầu QLCL). Phạm vi: phương tiện giao thông đường bộ còn lại, phụ tùng, thiết bị GTVT, vật liệu xây dựng dạng công nghiệp, xe máy chuyên dùng. Yêu cầu KTCL theo QCVN tương ứng nhưng mức độ trung bình → kiểm tra theo tỷ lệ/tần suất.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-09",
+        "boi": "hermes"
+      },
+      "ghi_chu": "Tách riêng Phụ lục II để tra mã HS nhanh. VB chính 49/2026/TT-BXD đã có file 49-2026-tt-bxd.yaml. Có hiệu lực 01/7/2026 cùng PL I.",
+      "ma_hs_danh_muc": {
+        "tep": "danh-muc/49-2026-tt-bxd.csv",
+        "cot_loc": "phu_luc",
+        "gia_tri_loc": "Phụ lục II",
+        "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd-pl2.pdf",
+        "trich_boi": "hermes",
+        "ngay": "2026-10-09",
+        "ghi_chu": "Dùng CSV gốc 49-2026-tt-bxd.csv, lọc theo cột phu_luc=\"Phụ lục II\"."
+      },
+      "slug": "49-2026-tt-bxd-pl2",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "49/2026/TT-BXD",
       "loai": "THONG_TU",
       "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao lĩnh vực giao thông vận tải thuộc phạm vi quản lý của Bộ Xây dựng",
@@ -8337,7 +8675,18 @@
       },
       "slug": "49-2026-tt-bxd",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "71/2025/TT-BXD",
+            "quan_he": "bai_bo",
+            "so_hieu": "49/2026/TT-BXD",
+            "pham_vi": "Chương X, Phụ lục II và Phụ lục III (một phần)",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 6 khoản 3 điểm c TT 49/2026/TT-BXD"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "51/2018/TT-BCT",
@@ -8419,6 +8768,11 @@
           },
           {
             "tu": "38/2015/TT-BTC",
+            "quan_he": "huong_dan",
+            "so_hieu": "54/2014/QH13"
+          },
+          {
+            "tu": "39/2015/TT-BTC",
             "quan_he": "huong_dan",
             "so_hieu": "54/2014/QH13"
           }
@@ -8748,7 +9102,18 @@
       ],
       "slug": "60-2019-tt-btc",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "39/2015/TT-BTC",
+            "quan_he": "sua_doi",
+            "so_hieu": "60/2019/TT-BTC",
+            "pham_vi": "Sửa đổi, bổ sung một số điều của TT 39/2015/TT-BTC",
+            "tu_ngay": "2019-06-06",
+            "can_cu": "Điều 1 TT 60/2019/TT-BTC"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "62/2024/TT-BGTVT",
@@ -9020,12 +9385,27 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "quan_he": {
+        "bai_bo": [
+          {
+            "so_hieu": "49/2026/TT-BXD",
+            "pham_vi": "Chương X, Phụ lục II và Phụ lục III (một phần)",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 6 khoản 3 điểm c TT 49/2026/TT-BXD"
+          }
+        ]
+      },
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực. CHƯA đọc toàn văn — chỉ xác minh được quan hệ bãi một phần qua TT 49/2026 (Điều 6 khoản 3 điểm c). Phần còn lại (ngoài Ch.X, PL II, PL III) vẫn còn hiệu lực.",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "ngay": "2026-10-09",
+        "boi": "hermes",
+        "chan": {
+          "ma": "SO_HIEU_LECH",
+          "ngay": "2026-10-09",
+          "viec_tiep": "Cần đọc toàn văn TT 71/2025/TT-BXD để xác minh nội dung Ch.X, PL II, PL III (bãi) và phần còn lại (còn hiệu lực)"
+        }
       },
       "slug": "71-2025-tt-bxd",
       "bac_nguon_cao_nhat": "A",
