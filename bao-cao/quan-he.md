@@ -1,4 +1,4 @@
-# Quan hệ cũ – mới giữa các văn bản — 2026-10-09
+# Quan hệ cũ – mới giữa các văn bản — 2026-10-10
 
 Mũi tên đi từ văn bản MỚI tới văn bản bị tác động. Sinh tự động bằng `node tools/dung.mjs`.
 
