@@ -10,11 +10,49 @@ nhanh:
   - hai-quan/tri-gia
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.
+  pham_vi: |
+    PDF Công báo số 501+502/Ngày 17-4-2015 (congbaocdn.chinhphu.vn): 21 Điều + Phụ lục I, II
+    Điều 1: Phạm vi điều chỉnh và đối tượng áp dụng (quy định trị giá HQ đối với hàng XK, NK; áp dụng cho DN XK, NK, cơ quan HQ)
+    Điều 2: Giải thích từ ngữ (trị giá HQ, người mua, người bán, người có quan hệ đặc biệt...)
+    Điều 3: Quyền và nghĩa vụ của người khai HQ, trách nhiệm và quyền của cơ quan HQ
+    Điều 4: Nguyên tắc và phương pháp xác định trị giá HQ đối với hàng hóa NK
+    Điều 5: Nguyên tắc và phương pháp xác định trị giá HQ đối với hàng hóa XK
+    Điều 6: Phương pháp trị giá giao dịch (transaction value)
+    Điều 7: Mối quan hệ đặc biệt (related persons)
+    Điều 8: Phương pháp trị giá giao dịch hàng NK giống hệt (identical goods)
+    Điều 9: Phương pháp trị giá giao dịch hàng NK tương tự (similar goods)
+    Điều 10: Phương pháp trị giá khấu trừ (deductive value)
+    Điều 11: Phương pháp trị giá tính toán (computed value)
+    Điều 12: Phương pháp suy luận (fallback method)
+    Điều 13: Các khoản điều chỉnh cộng
+    Điều 14: Phí bản quyền, phí giấy phép
+    Điều 15: Các khoản điều chỉnh trừ
+    Điều 16: Phân bổ các khoản điều chỉnh
+    Điều 17: Trị giá HQ đối với hàng hóa XK, NK trong một số trường hợp
+    Điều 18: Đối tượng khai tờ khai trị giá HQ
+    Điều 19: Mẫu tờ khai trị giá HQ
+    Điều 20: Nguyên tắc khai, nộp tờ khai trị giá HQ
+    Điều 21: Cơ sở dữ liệu trị giá
+    Phụ lục I, II: Mẫu tờ khai trị giá HQ, biểu thuế suất/định mức
+    Tình trạng hiện tại: CON_HIEU_LUC, bị sửa bởi 60/2019/TT-BTC
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-09'
+  boi: hermes
+ghi_chu: "Khởi tạo 2026-10-04 từ hiểu biết nền (cursor-agent). 2026-10-09: đọc xong 21 Điều + Phụ lục I, II. Bị sửa bởi 60/2019/TT-BTC."
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=179552&pageid=27160
     truy_cap: '2026-10-04'
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-39-2015-tt-btc-9959.htm
+    truy_cap: '2026-10-09'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2015/3/9959/5917-1-2015501-502-392015tt-btcpdf
+    truy_cap: '2026-10-09'
+quan_he:
+  huong_dan:
+    - 54/2014/QH13
+  sua_doi:
+    - so_hieu: 60/2019/TT-BTC
+      pham_vi: Sửa đổi, bổ sung một số điều của TT 39/2015/TT-BTC
+      tu_ngay: '2019-06-06'
+      can_cu: Điều 1 TT 60/2019/TT-BTC
+toan_van: raw/download/congbaocdn.chinhphu.vn/2015/3/39-2015-tt-btc.pdf
+text_body: raw/download/congbaocdn.chinhphu.vn/2015/3/39-2015-tt-btc-body.txt

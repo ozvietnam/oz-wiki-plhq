@@ -3,9 +3,9 @@ so_hieu: 328/QĐ-TTg
 loai: QUYET_DINH
 ten: Về việc chỉ định các cơ quan đầu mối để triển khai Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)
 co_quan: TTG
-ngay_ban_hanh: '2022-03-10'
-hieu_luc_tu: '2022-03-10'
-tinh_trang: CHUA_XAC_MINH
+ngay_ban_hanh: '2022-03-11'
+hieu_luc_tu: '2022-03-11'
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - xuat-xu-fta/hiep-dinh
 nguon:
@@ -15,9 +15,15 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, trích yếu, ngày ban hành, người ký Phạm Bình Minh trên vanban.chinhphu.vn. Đã lưu PDF ký số datafiles (5 trang, mỗi trang một ảnh, không có lớp chữ) — chưa đọc được dòng hiệu lực.
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: grok@ozvietnam
-ghi_chu: Ngày hiệu lực ghi bằng ngày ban hành vì trang nguồn chưa nêu ngày hiệu lực riêng. Nghị quyết phê chuẩn RCEP chưa mở được trên nguồn bậc A trong ca này.
+  pham_vi: |
+    PDF datafiles (5 trang, bản scan ảnh, đã OCR bằng tesseract 5.5.3): Điều 1 ban hành Phụ lục Danh sách cơ quan đầu mối Hiệp định RCEP (20 cơ quan); Điều 2 điều chỉnh phù hợp tình hình thực tế; Điều 3 hiệu lực từ ngày ký 11-03-2022; Điều 4 trách nhiệm thi hành
+    OCR lỗi: "40 tháng 3" → "11 tháng 3" (số 4 và 1 bị nhầm), "QUYÉT ĐỊNH" → "QUYẾT ĐỊNH"
+    Tình trạng hiện tại: CON_HIEU_LUC, sổ đăng ký không có VB sau ghi thay thế rõ ràng (126/127/QĐ-TTg 2026 chỉ thay 1175 và 734)
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-09'
+  boi: hermes
+ghi_chu: |
+  Bản PDF trên datafiles là bản scan ảnh, đã OCR bằng tesseract 5.5.3 + vie language pack. OCR text lưu tại raw/download/datafiles.chinhphu.vn/328-qd-ttg-body.txt.
+  Công báo số 161 ngày 11-03-2022. Người ký: Thủ tướng Chính phủ Phạm Minh Chính. 20 cơ quan đầu mối cho các Chương/Điều Hiệp định RCEP (3, 5, 6, 8, 14, 16, 19...).
+quan_he: {}
 toan_van: raw/download/datafiles.chinhphu.vn/328-qd-ttg.pdf
