@@ -9,16 +9,22 @@ het_hieu_luc_tu: '2026-12-31'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/thue-noi-dia-khau-nk
+quan_he:
+  can_cu:
+    - so_hieu: 204/2025/QH15
+      pham_vi: NQ QH về giảm thuế GTGT
+      tu_ngay: '2025-06-17'
+      can_cu: NQ 204/2025/QH15
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Toàn văn 3 điều + 3 phụ lục (56 trang PDF, đã OCR 10/10/2026). Có hiệu lực 01/7/2025 - 31/12/2026.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-10'
+  boi: legal-customs@ozvietnam
+ghi_chu: 'NĐ giảm thuế GTGT từ 10% xuống 8% theo NQ 204/2025/QH15. Áp dụng cho MỌI hàng/dịch vụ chịu thuế suất 10% TRỪ Phụ lục I (5 nhóm khai khoáng, viễn thông, tài chính, BĐS, kim loại) và Phụ lục II (TTĐB trừ xăng).'
+toan_van: raw/download/datafiles.chinhphu.vn/174-2025-nd-cp.pdf
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=214310&pageid=27160
     truy_cap: '2026-10-04'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/174nd.signed.pdf
-    truy_cap: '2026-10-04'
-xac_minh:
-  muc: NGUON_A
-  pham_vi: số hiệu, trích yếu, ngày ban hành 30-06-2025 và ngày có hiệu lực 01-07-2025 trên vanban.chinhphu.vn
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: Thẻ cổng Chính phủ không ghi ngày hết hiệu lực. Mốc 31-12-2026 vẫn theo hs-code-api data-freshness.json, chưa thấy trên thẻ. Người ký Hồ Đức Phớc.
-toan_van: raw/download/datafiles.chinhphu.vn/174-2025-nd-cp.pdf
+    truy_cap: '2026-10-10'
