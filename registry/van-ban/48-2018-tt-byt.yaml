@@ -5,15 +5,18 @@ ten: Ban hành Danh mục dược liệu; các chất chiết xuất từ dượ
 co_quan: BYT
 ngay_ban_hanh: '2018-12-28'
 hieu_luc_tu: '2019-07-01'
-tinh_trang: CHUA_XAC_MINH
+het_hieu_luc_tu: '2024-07-26'
+tinh_trang: HET_HIEU_LUC
 nhanh:
-  - chua-phan-loai
+  - kiem-tra-chuyen-nganh/byt
 nguon:
+  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-48-2018-tt-byt-ve-viec-ban-hanh-danh-muc-duoc-lieu-cac-chat-chiet-xuat-tu-duoc-lieu-tinh-dau-lam-thuoc-thuoc-co-truyen-thuoc-duoc-lieu-xuat-khau-nhap-khau-duoc-xac-dinh-ma-so-hang-hoa-theo-danh-muc-hang-hoa-xuat-khau-nhap-khau-viet-nam--180003
+    truy_cap: '2026-10-09'
   - url: https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Thong-tu-48-2018-TT-BYT-Danh-muc-duoc-lieu-cac-chat-chiet-xuat-tu-duoc-lieu-tinh-dau-lam-thuoc-416722.aspx
     truy_cap: '2026-10-04'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực, ngày hết hiệu lực (TT 09/2024/TT-BYT Điều 4 khoản 2 điểm b bãi bỏ toàn bộ từ 26/7/2024)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-09'
+  boi: hermes (loop 2026-10-09)
