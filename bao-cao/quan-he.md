@@ -55,6 +55,8 @@ flowchart LR
   n_28_2018_QH14["28/2018/QH14<br/>hết hiệu lực"]
   n_44_2024_QH15["44/2024/QH15<br/>còn hiệu lực"]
   n_76_VBHN_VPQH["76-VBHN/VPQH<br/>chưa xác minh"]
+  n_11_2017_TT_BCT["11/2017/TT-BCT<br/>hết hiệu lực"]
+  n_12_2018_TT_BCT["12/2018/TT-BCT<br/>hết hiệu lực một phần"]
   n_11_2024_TT_BTTTT["11/2024/TT-BTTTT<br/>còn hiệu lực"]
   n_05_2016_TT_BTTTT["05/2016/TT-BTTTT<br/>chưa xác minh"]
   n_22_2018_TT_BTTTT["22/2018/TT-BTTTT<br/>còn hiệu lực"]
@@ -127,6 +129,7 @@ flowchart LR
   n_105_2016_QH13 -->|sửa đổi Một số điều liên quan đến quy hoạch từ 2019-01-01| n_28_2018_QH14
   n_105_2016_QH13 -->|sửa đổi Sửa đổi, bổ sung một số điều Luật Dược (Điều 2, 11, 13, 29, 34, 38, 41, 54, 60, 69...) từ 2025-07-01| n_44_2024_QH15
   n_105_2016_QH13 -->|hợp nhất Văn bản hợp nhất toàn bộ Luật 105/2016, 28/2018, 44/2024 từ 2026-03-01| n_76_VBHN_VPQH
+  n_11_2017_TT_BCT -->|bãi bỏ Bãi bỏ toàn bộ từ 2018-06-15| n_12_2018_TT_BCT
   n_11_2024_TT_BTTTT -->|sửa đổi từ 2024-11-07| n_05_2016_TT_BTTTT
   n_11_2024_TT_BTTTT -->|sửa đổi Điều 1 từ 2024-11-07| n_22_2018_TT_BTTTT
   n_11_2024_TT_BTTTT -->|sửa đổi từ 2024-11-07| n_03_2015_TT_BTTTT
