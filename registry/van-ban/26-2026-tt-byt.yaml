@@ -10,11 +10,18 @@ nhanh:
   - kiem-tra-chuyen-nganh/byt
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: Tên mô tả. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
+  pham_vi: |
+    TT 26/2026/TT-BYT ban hành 01/07/2026, ký Bộ trưởng Bộ Y tế (theo OCR PDF bản quét 2 trang, đã đọc toàn văn).
+    Là phụ lục kèm theo TT — nội dung là Danh mục dược liệu, thuốc cổ truyền rủi ro trung bình thuộc trách nhiệm quản lý BYT.
+    Dẫn chiếu: Luật Dược 105/2016/QH13 (sửa bởi 44/2024/QH15), NĐ 163/2025/NĐ-CP, TT 32/2025/TT-BYT, TT 29/2025/TT-BYT, TT 32/2020/TT-BYT, TT 09/2024/TT-BYT (Danh mục II + Danh mục 13).
+    Không có điều khoản "Hiệu lực thi hành" riêng (là phụ lục ban hành kèm TT khác).
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-10'
+  boi: legal-customs@ozvietnam
+  nguon_da_mo:
+    - 'vanban.chinhphu.vn/?docid=218705 (thẻ metadata)'
+    - 'datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/26-byt-kem.pdf (toàn văn 2 trang, OCR)'
+ghi_chu: 'Phụ lục 2 trang KHÔNG in mã HS trực tiếp: 2 dòng đầu dẫn chiếu Danh mục II (dược liệu) + Danh mục 13 (thuốc cổ truyền) của 09/2024/TT-BYT. Mã HS suy ra từ bảng 09/2024 (ghi trong dieu_kien).'
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=218705&pageid=27160
     truy_cap: '2026-10-04'

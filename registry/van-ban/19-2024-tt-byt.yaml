@@ -19,11 +19,22 @@ quan_he:
       can_cu: Điều 3 TT 19/2024/TT-BYT
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Toàn văn 5 điều + danh mục 95 mục (112 mã 8 số), 9 trang PDF scan, OCR tesseract + đối chiếu thủ công, đã đọc 10/10/2026.'
+  pham_vi: |
+    TT 19/2024/TT-BYT ban hành 01/10/2024, ký Bộ trưởng Bộ Y tế (theo OCR PDF bản quét 9 trang, đã đọc toàn văn).
+    Điều 1 (Phạm vi điều chỉnh): ban hành Danh mục thiết bị y tế XNK đã được xác định mã số theo Danh mục hàng hóa XNK VN.
+    Điều 2: ban hành Danh mục kèm theo.
+    Điều 3: nguyên tắc áp dụng Danh mục.
+    Điều 4.1: hiệu lực 16/11/2024.
+    Điều 4.2: thay thế TT 14/2018/TT-BYT ngày 15/5/2018 (Bộ trưởng Bộ Y tế) kể từ ngày TT này có hiệu lực.
+    Điều 5: trách nhiệm thi hành.
+    Căn cứ: Luật HQ 54/2014/QH13, NĐ 08/2015/NĐ-CP (sửa bởi NĐ 59/2018), NĐ 98/2021/NĐ-CP (quản lý thiết bị y tế, sửa bởi NĐ 07/2023 + NĐ 96/2023), NĐ 96/2023/NĐ-CP.
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-10'
   boi: legal-customs@ozvietnam
-ghi_chu: 'Nguồn mã HS của thiết bị y tế — được Điều 2 khoản 2 TT 24/2026/TT-BYT dẫn chiếu. 95 mục trải rộng Ch.30, 37, 87, 90, 94 (HS 3005-9405).'
+  nguon_da_mo:
+    - 'chinhphu.vn/?docid=211347 (thẻ metadata)'
+    - 'datafiles.chinhphu.vn/cpp/files/vbpq/2024/10/19-byt.signed.pdf (toàn văn 9 trang, OCR)'
+ghi_chu: 'Nguồn mã HS của thiết bị y tế — được Điều 2 khoản 2 TT 24/2026/TT-BYT dẫn chiếu. 95 mục trải rộng Ch.30, 37, 87, 90, 94 (HS 3005-9405). Wiki source đầy đủ tại wiki/sources/19-2024-tt-byt.md.'
 toan_van: raw/download/datafiles.chinhphu.vn/19-2024-tt-byt.pdf
 nguon:
   - url: https://chinhphu.vn/?docid=211347&pageid=27160

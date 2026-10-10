@@ -15,11 +15,21 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, trích yếu, ngày ban hành 01-07-2026 và ngày có hiệu lực 01-07-2026 trên vanban.chinhphu.vn
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: 'Thẻ văn bản cổng Chính phủ khớp số hiệu, Bộ Y tế, người ký Nguyễn Tri Thức, tệp 28-byt.signed.pdf. Chưa đọc điều khoản thi hành nên chưa chốt tình trạng hiệu lực. PDF datafiles chính (2 trang) không có bảng phụ lục; phụ lục ở tệp kèm 28-byt-kem.pdf (7 trang, Phụ lục I/II) — không liệt kê mã HS, dẫn chiếu danh mục kèm 09/2024/TT-BYT.'
+  pham_vi: |
+    TT 28/2026/TT-BYT ban hành 01/07/2026, ký Bộ trưởng Bộ Y tế Nguyễn Tri Thức (theo text layer PDF datafiles, đã đọc toàn văn 2 trang).
+    Điều 1.1: Phạm vi — thuốc hóa dược + thuốc dược liệu + vắc xin + sinh phẩm + nguyên liệu + bán thành phẩm thuộc BYT.
+    Điều 1.2: KHÔNG điều chỉnh nguyên liệu làm thuốc là dược liệu.
+    Điều 2: Ban hành Danh mục rủi ro cao (Phụ lục I) + rủi ro trung bình (Phụ lục II).
+    Điều 3: Trách nhiệm thi hành (Cục Quản lý Dược, UBND các tỉnh).
+    Điều 4: Hiệu lực 01/07/2026.
+    Căn cứ: Luật Chất lượng SPHH 05/2007/QH12 (sửa bởi 78/2025/QH15), Luật Dược 105/2016/QH13 (sửa bởi 44/2024/QH15), NĐ 37/2026/NĐ-CP, NĐ 163/2025/NĐ-CP, NĐ 42/2025/NĐ-CP.
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-10'
+  boi: legal-customs@ozvietnam
+  nguon_da_mo:
+    - 'vanban.chinhphu.vn/?classid=1&docid=218707 (thẻ metadata)'
+    - 'datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/28-byt.signed.pdf (toàn văn 2 trang, text layer)'
+ghi_chu: 'Phụ lục I (13 nhóm rủi ro cao) + Phụ lục II (4 nhóm rủi ro trung bình) ở tệp 28-byt-kem.pdf; không in mã HS — ma_hs để trống, dan_chieu=09/2024/TT-BYT; loai_tac_dong=DANG_KY_LUU_HANH.'
 danh_muc_hs:
   tep: danh-muc/28-2026-tt-byt.csv
   nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/28-byt-kem.pdf

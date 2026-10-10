@@ -21,11 +21,23 @@ quan_he:
       can_cu: Điều 4 khoản 2 TT 24/2026/TT-BYT
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
+  pham_vi: |
+    TT 24/2026/TT-BYT ban hành 30/06/2026, ký Bộ trưởng Bộ Y tế (theo OCR PDF bản quét 3 trang, đã đọc toàn văn).
+    Điều 1: Phạm vi điều chỉnh (xác định mức rủi ro + sửa 05/2022/TT-BYT).
+    Điều 2.1: Mức rủi ro theo NĐ 98/2021.
+    Điều 2.2: Mã số HS theo TT 19/2024/TT-BYT.
+    Điều 3: Sửa đổi Điều 8 (lộ trình kiểm định) của 05/2022/TT-BYT — mua sắm sau 30/06/2027 phải kiểm định; trước 01/07/2027 hoàn thành kiểm định trước 01/01/2028.
+    Điều 4.1: Hiệu lực 01/07/2026.
+    Điều 4.2: Bãi bỏ TT 59/2025/TT-BYT kể từ ngày TT này có hiệu lực.
+    Điều 5: Điều khoản tham chiếu (forward).
+    Căn cứ: Luật Điều ước quốc tế 108/2016/QH13, Luật Chất lượng SPHH 05/2007/QH12 (sửa bởi 78/2025/QH15), NĐ 42/2025/NĐ-CP (chức năng BYT), NĐ 98/2021/NĐ-CP (sửa bởi 07/2023 + 96/2023 + 04/2025), NĐ 37/2026/NĐ-CP.
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-10'
+  boi: legal-customs@ozvietnam
+  nguon_da_mo:
+    - 'vanban.chinhphu.vn/?docid=218703 (thẻ metadata)'
+    - 'datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/24-byt.signed.pdf (toàn văn 3 trang, OCR)'
+ghi_chu: 'Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json. Điều 2 khoản 2 dẫn chiếu TT 19/2024/TT-BYT về mã số HS.'
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=218703&pageid=27160
     truy_cap: '2026-10-04'
