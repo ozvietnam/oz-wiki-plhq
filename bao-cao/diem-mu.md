@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-10-10
 
-Tổng 567 điểm: **36 cao**, 232 vừa, 299 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 571 điểm: **36 cao**, 237 vừa, 298 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -13,7 +13,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Mâu thuẫn hiệu lực | Cao | 1 | `hieu-luc` |
 | Sắp hết hiệu lực (≤60 ngày) | Cao | 1 | `hieu-luc` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 128 | `danh-muc-hs` |
-| Wiki nhắc văn bản chưa đăng ký | Vừa | 43 | `lien-ket-cheo` |
+| Wiki nhắc văn bản chưa đăng ký | Vừa | 48 | `lien-ket-cheo` |
 | Văn bản danh mục chưa trích bảng mã HS | Vừa | 15 | `danh-muc-hs` |
 | Thư viện hs-code-api ghi khác sổ | Vừa | 13 | `hieu-luc` |
 | Văn bản khung thiếu thông tin | Vừa | 10 | `he-thong-hoa` |
@@ -21,7 +21,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
 | Mã HS có hàng thật chưa đối chiếu KTCN 2026 (hs-code-api /api/demand) | Vừa | 2 | `danh-muc-hs` |
 | Ưu tiên đối chiếu — theo số mã HS đang dẫn (hs-code-api) | Vừa | 1 | `hieu-luc` |
-| Hiệu lực chưa đối chiếu nguồn A | Thấp | 138 | `hieu-luc` |
+| Hiệu lực chưa đối chiếu nguồn A | Thấp | 137 | `hieu-luc` |
 | Chưa có toàn văn | Thấp | 91 | `nap-lam-sach` |
 | Chưa xếp vào cây | Thấp | 43 | `cay-du-lieu` |
 | Chưa có nguồn chính thống | Thấp | 23 | `truy-vet-nguon` |
@@ -121,7 +121,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **09/2024/TT-BYT: mã 33045099 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1289 ("Calcipotriol"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
 - … và 88 điểm khác (xem bao-cao/diem-mu.json)
 
-## Wiki nhắc văn bản chưa đăng ký (43)
+## Wiki nhắc văn bản chưa đăng ký (48)
 
 - [ ] **Wiki nhắc 121/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/cptpp.md, wiki/sources/127-qd-ttg-2026.md).
 - [ ] **Wiki nhắc 31/2025/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/duoc-lieu-theo-luat-duoc-2016.md, wiki/summary/luat-duoc-va-phan-loai-hs.md).
@@ -146,7 +146,12 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Wiki nhắc 58/2020/TT-BCA nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/125-2026-tt-bca.md).
 - [ ] **Wiki nhắc 31/2021/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/163-2025-nd-cp.md).
 - [ ] **Wiki nhắc 15/2020/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/211-2025-nd-cp.md).
-- [ ] **Wiki nhắc 03/2024/TT-BNNPTNT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/27-2026-tt-bnnmt.md).
+- [ ] **Wiki nhắc 07/2026/TT-BNNMT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md).
+- [ ] **Wiki nhắc 17/2025/TT-BNNMT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md).
+- [ ] **Wiki nhắc 11/2026/TT-BNNMT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md).
+- [ ] **Wiki nhắc 17/2015/TT-BTNMT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md).
+- [ ] **Wiki nhắc 04/2018/TT-BNNPTNT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md).
+- [ ] **Wiki nhắc 03/2024/TT-BNNPTNT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md, wiki/sources/27-2026-tt-bnnmt.md).
 - [ ] **Wiki nhắc 486/QĐ-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/32-2020-tt-byt.md).
 - [ ] **Wiki nhắc 122/2024/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/33-2025-tt-bct.md).
 - [ ] **Wiki nhắc 40/2025/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/33-2025-tt-bct.md).
@@ -158,12 +163,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Wiki nhắc 70/2025/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/49-2026-tt-bxd.md).
 - [ ] **Wiki nhắc 95/2025/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/49-2026-tt-bxd.md).
 - [ ] **Wiki nhắc 22/2026/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/49-2026-tt-bxd.md).
-- [ ] **Wiki nhắc 33/2025/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/49-2026-tt-bxd.md).
-- [ ] **Wiki nhắc 71/2014/QH13 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/54-2014-qh13.md, wiki/sources/54-vbhn-vpqh.md).
-- [ ] **Wiki nhắc 07/2022/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/54-2014-qh13.md, wiki/sources/54-vbhn-vpqh.md).
-- [ ] **Wiki nhắc 90/2025/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/54-2014-qh13.md, wiki/sources/54-vbhn-vpqh.md).
-- [ ] **Wiki nhắc 133/2025/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/54-2014-qh13.md, wiki/sources/54-vbhn-vpqh.md).
-- … và 3 điểm khác (xem bao-cao/diem-mu.json)
+- … và 8 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Văn bản danh mục chưa trích bảng mã HS (15)
 
@@ -237,7 +237,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 
 - [ ] **Đối chiếu hiệu lực 367/QĐ-BKHCN — 4 mã HS đang dẫn** — Sổ ghi CHUA_XAC_MINH nhưng chưa đối chiếu nguồn A; 4 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn. Kẹt cứng thì ghi xac_minh.chan (xem docs/huong-dan-agent.md) thay vì săn lặp.
 
-## Hiệu lực chưa đối chiếu nguồn A (138)
+## Hiệu lực chưa đối chiếu nguồn A (137)
 
 - [ ] **2711/QĐ-BKHCN: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **01/2009/TT-BKHCN: tình trạng "HET_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
@@ -279,7 +279,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **128/2026/TT-BTC: tình trạng "CHUA_CO_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **13/2015/TT-BTC: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **13/2018/TT-BTTTT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- … và 98 điểm khác (xem bao-cao/diem-mu.json)
+- … và 97 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Chưa có toàn văn (91)
 

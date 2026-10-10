@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-10",
-  "tong": 567,
+  "tong": 571,
   "diem": [
     {
       "ma": "THIEU_NGUON_AHTN",
@@ -1476,15 +1476,6 @@
       "muc_tieu": "22/2018/TT-BTTTT",
       "viec": "Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.",
       "luong": "do-tham",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "22/2026/TT-BNNMT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "22/2026/TT-BNNMT",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
       "trongSo": 0
     },
     {
@@ -3362,9 +3353,54 @@
     {
       "ma": "WIKI_NHAC_CHUA_DANG_KY",
       "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 07/2026/TT-BNNMT nhưng sổ chưa có",
+      "muc_tieu": "07/2026/TT-BNNMT",
+      "viec": "Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 17/2025/TT-BNNMT nhưng sổ chưa có",
+      "muc_tieu": "17/2025/TT-BNNMT",
+      "viec": "Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 11/2026/TT-BNNMT nhưng sổ chưa có",
+      "muc_tieu": "11/2026/TT-BNNMT",
+      "viec": "Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 17/2015/TT-BTNMT nhưng sổ chưa có",
+      "muc_tieu": "17/2015/TT-BTNMT",
+      "viec": "Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 04/2018/TT-BNNPTNT nhưng sổ chưa có",
+      "muc_tieu": "04/2018/TT-BNNPTNT",
+      "viec": "Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
       "tieuDe": "Wiki nhắc 03/2024/TT-BNNPTNT nhưng sổ chưa có",
       "muc_tieu": "03/2024/TT-BNNPTNT",
-      "viec": "Thêm vào sổ (wiki/sources/27-2026-tt-bnnmt.md).",
+      "viec": "Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md, wiki/sources/27-2026-tt-bnnmt.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },
