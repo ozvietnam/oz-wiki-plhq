@@ -49,7 +49,10 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-  canh_bao: 'PR #24 đặt hieu_luc_da_doi_chieu: true chỉ dựa trên Điều 5 khoản 1 của chính văn bản (chứng minh ngày bắt đầu 01-07-2026), không ghi đã kiểm tình trạng hiện tại (văn bản sửa đổi/thay thế sau) nên giữ false.'
+  chan:
+    ma: CHO_CONG_BO_A
+    ngay: 2026-10-09
+    viec_tiep: "TT 125 không liệt kê bãi 8378/6266 - cần PDF A"
 ghi_chu: 'PCCC và cứu nạn cứu hộ (8 sản phẩm), thiết bị an toàn giao thông, giám sát an ninh công cộng. Nền: Luật 55/2024/QH15. Tem kiểm định cũ hết 30/6/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-125-2026-tt-bca-470259/67719.htm
