@@ -27,6 +27,7 @@ _This catalog is updated by /lumi-ingest and /lumi-init._
 Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 
 <!-- lumina:index -->
+- [[concepts/cat-giam-thu-tuc-hanh-chinh-bnnmt]]
 - [[concepts/co-quan-dau-moi-fta]]
 - [[concepts/cptpp]]
 - [[concepts/cua-khau-phu-loi-mo]]
@@ -41,6 +42,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[concepts/hang-hoa-bien-gioi]]
 - [[concepts/hoa-chat-nguy-hiem-trong-hang-hoa]]
 - [[concepts/khai-bao-hoa-chat-nhap-khau]]
+- [[concepts/kiem-dich-dong-thuc-vat]]
 - [[concepts/kiem-tra-chat-luong-bxd]]
 - [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]]
 - [[concepts/kim-cuong-tho]]
@@ -48,6 +50,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[concepts/ktcl-bkhcn-2026]]
 - [[concepts/ktcl-bnnmt-2026]]
 - [[concepts/ktcl-bnv-2026]]
+- [[concepts/ktcl-bxd-vlxd-2026]]
 - [[concepts/ktcl-byt-attp-2024]]
 - [[concepts/mat-ma-dan-su-san-pham]]
 - [[concepts/muc-do-rui-ro-hang-hoa]]
@@ -69,6 +72,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[concepts/thuoc-theo-luat-duoc-2016]]
 - [[concepts/trang-thiet-bi-bao-ho-lao-dong]]
 - [[concepts/vat-lieu-bao-bi-tiep-xuc-thuc-pham]]
+- [[concepts/vat-lieu-xay-dung-nhap-khau]]
 - [[sources/05-2007-qh12]]
 - [[sources/08-2015-nd-cp]]
 - [[sources/09-2024-tt-byt]]
@@ -86,6 +90,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/16-2026-tt-bnv]]
 - [[sources/163-2025-nd-cp]]
 - [[sources/211-2025-nd-cp]]
+- [[sources/22-2026-tt-bnnmt]]
 - [[sources/26-2026-nd-cp]]
 - [[sources/27-2026-tt-bnnmt-pl1]]
 - [[sources/27-2026-tt-bnnmt-pl2]]
@@ -99,6 +104,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/36-2026-tt-bkhcn-pl2]]
 - [[sources/36-2026-tt-bkhcn]]
 - [[sources/37-2026-nd-cp]]
+- [[sources/41-2026-tt-bxd]]
 - [[sources/44-2024-qh15]]
 - [[sources/46-2026-nd-cp]]
 - [[sources/48-2026-tt-bct]]
