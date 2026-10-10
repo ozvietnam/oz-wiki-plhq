@@ -23,8 +23,15 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Công báo số 60 ngày 27-01-2026: ban hành 18-12-2025; Điều 3 khoản 1 hiệu lực 01-02-2026.'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: claude-code@ozvietnam
-ghi_chu: 'Sửa TT 38/2015 (có Điều 86 XNK tại chỗ) và TT 39/2018; Điều 2 bãi bỏ một phần TT 39/2015, 06/2021, 47/2025 và một số mẫu TT 14/2015 — chưa ghi thành quan hệ (văn bản chưa có đủ trong sổ). Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.'
+  pham_vi: |
+    Công báo số 60 ngày 27-01-2026: ban hành 18-12-2025; Điều 3 khoản 1 hiệu lực 01-02-2026.
+    Sửa đổi, bổ sung Phụ lục I (chỉ tiêu thông tin) của TT 38/2015 (đã được sửa bởi TT 39/2018) theo Mục 2 Phụ lục I ban hành kèm theo Thông tư này (điểm a khoản 67 Điều 1).
+    Sửa mục 1.78 "Mô tả hàng hóa" Phụ lục II: thêm các trường "hàm lượng, tính chất lý hóa, quy cách đóng gói, nhà sản xuất"; bổ sung "Trường hợp khai gộp mã HS theo quy định tại khoản 2 Điều 18 Thông tư này thì mô tả khái quát hàng hóa"; bổ sung "Trường hợp hàng hóa nhập khẩu là máy móc, thiết bị được phân loại theo bộ phận chính hoặc máy thực hiện chức năng chính hoặc nhóm phù hợp với chức năng xác định của máy hoặc hàng hóa ở dạng chưa lắp ráp hoặc tháo rời được phân loại theo nguyên chiếc thì ... ghi rõ tên chi tiết từng máy móc/thiết bị… đã đăng ký trong Danh mục máy móc, thiết bị là tổ hợp, dây chuyền hoặc tên từng chi tiết, linh kiện rời" (Công báo số 60, trang 144-145).
+    Toàn văn đã tải về /tmp/cb60.pdf (4.7MB, 375 trang, sha256 đang cập nhật; chưa nạp vào raw/download/).
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-10'
+  boi: hermes@ozvietnam
+  nguon_da_mo:
+    - 'congbaocdn.chinhphu.vn/.../121signed-1769648656491392901604.pdf'
+    - 'congbaocdn.chinhphu.vn/.../cong-bao-so-60-ngay-27-01-46958signed-1769648620477270334287.pdf (Công báo số 60, chứa Phụ lục I/II)'
+ghi_chu: 'Sửa TT 38/2015 (có Điều 86 XNK tại chỗ) và TT 39/2018; Điều 2 bãi bỏ một phần TT 39/2015, 06/2021, 47/2025 và một số mẫu TT 14/2015 — chưa ghi thành quan hệ (văn bản chưa có đủ trong sổ). PR #120 mục 4: TT 121/2025 có sửa mục 1.78 PL II TT 39/2018 — đã xác minh từ Công báo số 60/2026. Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.'

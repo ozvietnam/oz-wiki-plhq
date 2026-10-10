@@ -40,7 +40,7 @@ Phân loại mã HS là việc gắn hàng hoá xuất nhập khẩu vào mã s�
 | Điều | Nội dung |
 |---|---|
 | Điều 4 | 5 nguyên tắc tuân thủ gồm **6 GRI WCO** — lần đầu ghi nhận trong luật nội địa |
-| Điều 6.1 | Thứ tự ưu tiên **4 nguồn tra cứu** khi chưa xác định được mã duy nhất: (1) Chú giải chi tiết HS WCO → (2) Tuyển tập ý kiến WCO → (3) Chú giải bổ sung AHTN → (4) CSDL VN |
+| Điều 6.1 | Liệt kê **4 tài liệu** tra cứu khi chưa xác định được mã duy nhất: (a) Chú giải chi tiết HS WCO, (b) Tuyển tập ý kiến WCO, (c) Chú giải bổ sung AHTN, (d) CSDL VN. **Nguyên văn không quy định thứ tự ưu tiên** giữa 4 tài liệu. |
 | Điều 6.2 | Mô tả VN khác HS WCO thì **áp dụng HS WCO** — mặc định ưu tiên quốc tế |
 | Điều 7 | Phân loại máy liên hợp/tổ hợp máy Ch.84/85/90 theo Chú giải pháp lý 3, 4, 5 Phần XVI |
 | Điều 16 | Máy liên hợp đã đăng ký Danh mục trước 15/09/2026 tiếp tục theo TT 14/2015 đến khi nhập hết (chuyển tiếp) |

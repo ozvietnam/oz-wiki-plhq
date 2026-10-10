@@ -80,22 +80,27 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
 
   // D0 — nguồn tham chiếu pháp lý cốt lõi theo TT 85/2026/TT-BTC Điều 6.1
   // (a) Chú giải chi tiết HS WCO  → chỉ dùng tax.json + wco-hs-international.csv thay thế
-  // (b) Tuyển tập ý kiến WCO      → chưa có (trả phí)
-  // (c) Chú giải bổ sung AHTN SEN  → chưa có (cần đăng ký ATR)
+  // (b) Tuyển tập ý kiến WCO      → chưa có (trả phí) — hs-code-api mua bản quyền WCO Bookshop, xử lý nội bộ (xem xac_minh.nguon_rieng_tu trên TT 85/2026)
+  // (c) Chú giải bổ sung AHTN SEN  → chưa có (cần đăng ký ATR) — hs-code-api đã có SEN 2022 (395 mục / 683 mã), không cần nạp vào kho công khai
+  // Bỏ qua điểm mù khi VB tham chiếu (TT 85/2026) đã ghi nguon_rieng_tu có key tương ứng.
   const ahtnPath = join(root, 'raw', 'download', 'asean.org', 'ahtn-2022.pdf');
   const wcoCompendiumPath = join(root, 'raw', 'download', 'wco.org', 'compendium-classification-opinions.pdf');
-  if (!existsSync(ahtnPath)) {
+  const coNguonRiengTu = (key) => {
+    const tt85 = so.vanBan.find((d) => khoa(d.so_hieu) === '85/2026/TT-BTC');
+    return !!tt85?.xac_minh?.nguon_rieng_tu?.[key];
+  };
+  if (!existsSync(ahtnPath) && !coNguonRiengTu('ahtn_sen')) {
     add('THIEU_NGUON_AHTN', MUC.CAO,
       'AHTN 2022 (ASEAN Harmonized Tariff Nomenclature): chưa có toàn văn trong raw/download/asean.org/ — TT 85/2026/TT-BTC Điều 6.1(c) yêu cầu dùng SEN (Chú giải bổ sung) AHTN khi không xác định được mã. Hiện dùng tạm tax.json (mã 8 số VN = AHTN 8 số) thay thế.',
       'AHTN-2022',
-      'Sếp chỉ định: (a) mua bản PDF chính thức, (b) screenshot từ atr.asean.org bằng session browser, hoặc (c) chấp nhận dùng tax.json làm nguồn tạm thời.',
+      'Sếp chỉ định: (a) mua bản PDF chính thức, (b) screenshot từ atr.asean.org bằng session browser, (c) chấp nhận dùng tax.json làm nguồn tạm thời, hoặc (d) ghi xac_minh.nguon_rieng_tu.ahtn_sen trên TT 85/2026 để báo nguồn do hs-code-api giữ riêng.',
       'truy-vet-nguon');
   }
-  if (!existsSync(wcoCompendiumPath)) {
+  if (!existsSync(wcoCompendiumPath) && !coNguonRiengTu('wco_compendium')) {
     add('THIEU_NGUON_WCO_COMPENDIUM', MUC.CAO,
       'WCO Compendium of Classification Opinions: chưa có toàn văn trong raw/download/wco.org/ — TT 85/2026/TT-BTC Điều 6.1(b) yêu cầu dùng Tuyển tập ý kiến WCO làm nguồn ưu tiên thứ 2. Bản chính thức bán qua WCO Bookshop (~500 EUR). Hiện dùng tạm TB-TCHQ VN (LV=313) làm "Compendium VN" thay thế.',
       'WCO-COMPENDIUM',
-      'Sếp chỉ định: (a) mua bản chính thức, (b) tải từng Classification Opinion mới nhất từ wcoomd.org (~50 opinions/session, 2 session/năm), hoặc (c) chấp nhận dùng TB-TCHQ thay thế.',
+      'Sếp chỉ định: (a) mua bản chính thức, (b) tải từng Classification Opinion mới nhất từ wcoomd.org (~50 opinions/session, 2 session/năm), (c) chấp nhận dùng TB-TCHQ thay thế, hoặc (d) ghi xac_minh.nguon_rieng_tu.wco_compendium trên TT 85/2026 để báo nguồn do hs-code-api mua và giữ riêng.',
       'truy-vet-nguon');
   }
 
