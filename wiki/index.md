@@ -105,6 +105,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/174-2025-nd-cp]]
 - [[sources/18-2021-nd-cp]]
 - [[sources/182-2025-nd-cp]]
+- [[sources/19-2024-tt-byt]]
 - [[sources/204-2025-qh15]]
 - [[sources/211-2025-nd-cp]]
 - [[sources/22-2026-tt-bnnmt]]
