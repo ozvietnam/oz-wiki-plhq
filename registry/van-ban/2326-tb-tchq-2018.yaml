@@ -1,0 +1,29 @@
+# Sổ đăng ký văn bản — tự động từ tracuuhs.com
+so_hieu: 2326/TB-TCHQ/2018
+loai: THONG_BAO
+ten: Phân loại mã HS theo tracuuhs.com (3902.10.40)
+co_quan: TCHQ
+ngay_ban_hanh: '2018-01-01'
+hieu_luc_tu: '2018-01-01'
+tinh_trang: CHUA_XAC_MINH
+nhanh:
+  - phan-loai-hs
+xac_minh:
+  muc: NGUON_B
+  pham_vi: 'HS code lấy từ tracuuhs.com — TB-TCHQ 2326/2018'
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-10'
+  boi: hermes-agent@ozvietnam
+  ghi_chu: 'Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A'
+nguon:
+  - url: https://www.tracuuhs.com/tin-tuc/tchq-2326-2018
+    truy_cap: '30/01/2015'
+toan_van: chua_co
+danh_muc_hs:
+  tep: ''
+  nguon: tracuuhs.com
+  hs_code: 3902.10.40
+  trich_boi: hermes-agent@ozvietnam
+  ngay: '2026-10-10'
+  da_doi_chieu: false
+  ghi_chu: 'Tự động từ tracuuhs.com'
