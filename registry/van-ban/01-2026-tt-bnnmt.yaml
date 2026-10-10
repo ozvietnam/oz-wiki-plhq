@@ -10,22 +10,23 @@ nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
   - kiem-tra-chuyen-nganh/bnnmt
 quan_he:
-  huong_dan:
-    - 79/2015/QH13
+  can_cu:
+    - so_hieu: 79/2015/QH13
+      pham_vi: Luật Thú y
+      tu_ngay: '2015-06-19'
+    - so_hieu: 35/2025/NĐ-CP
+      pham_vi: NĐ chức năng BNNMT
+      tu_ngay: '2025-02-25'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Toàn văn 4 chương 37 điều + 14 phụ lục, 125 trang PDF có text layer, đã đọc 10/10/2026.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-10'
+  boi: legal-customs@ozvietnam
+ghi_chu: 'TT mới nhất 2026 về kiểm dịch động vật trên cạn. Thay thế các TT cũ. Áp dụng cho mọi lô hàng XK NK có mã HS thuộc Phụ lục I (bò, lợn, gia cầm, sữa, trứng, mật ong, da, lông).'
+toan_van: raw/download/datafiles.chinhphu.vn/01-2026-tt-bnnmt.pdf
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=216592&pageid=27160
     truy_cap: '2026-10-04'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/01-bnnmt.pdf
-    truy_cap: '2026-10-04'
-xac_minh:
-  muc: NGUON_A
-  pham_vi: số hiệu, trích yếu, ngày ban hành 01-01-2026 và ngày có hiệu lực 01-01-2026 trên vanban.chinhphu.vn
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-  chan:
-    ma: CHO_CONG_BO_A
-    ngay: 2026-10-09
-    viec_tiep: "Cần bản Công báo ký số - PDF hiện không điền số"
-ghi_chu: Trích yếu cổng Chính phủ rộng hơn tên mô tả cũ (danh mục kiểm dịch). Người ký Phùng Đức Tiến. Bản hợp nhất VBHN 67/VBHN-BNNMT và Cục Chăn nuôi và Thú y vẫn theo bài tổng hợp, chưa đối chiếu trong toàn văn.
-toan_van: raw/download/datafiles.chinhphu.vn/01-2026-tt-bnnmt.pdf
+    truy_cap: '2026-10-10'

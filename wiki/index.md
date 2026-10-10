@@ -78,6 +78,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[concepts/vat-lieu-bao-bi-tiep-xuc-thuc-pham]]
 - [[concepts/vat-lieu-xay-dung-nhap-khau]]
 - [[concepts/xi-ga]]
+- [[sources/01-2026-tt-bnnmt]]
 - [[sources/05-2007-qh12]]
 - [[sources/07-2026-tt-bct]]
 - [[sources/08-2015-nd-cp]]
