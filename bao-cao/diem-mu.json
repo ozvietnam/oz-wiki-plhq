@@ -1,25 +1,7 @@
 {
   "ngay": "2026-10-10",
-  "tong": 499,
+  "tong": 503,
   "diem": [
-    {
-      "ma": "THIEU_NGUON_AHTN",
-      "muc": "Cao",
-      "tieuDe": "AHTN 2022 (ASEAN Harmonized Tariff Nomenclature): chưa có toàn văn trong raw/download/asean.org/ — TT 85/2026/TT-BTC Điều 6.1(c) yêu cầu dùng SEN (Chú giải bổ sung) AHTN khi không xác định được mã. Hiện dùng tạm tax.json (mã 8 số VN = AHTN 8 số) thay thế.",
-      "muc_tieu": "AHTN-2022",
-      "viec": "Sếp chỉ định: (a) mua bản PDF chính thức, (b) screenshot từ atr.asean.org bằng session browser, (c) chấp nhận dùng tax.json làm nguồn tạm thời, hoặc (d) ghi xac_minh.nguon_rieng_tu.ahtn_sen trên TT 85/2026 để báo nguồn do hs-code-api giữ riêng.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "THIEU_NGUON_WCO_COMPENDIUM",
-      "muc": "Cao",
-      "tieuDe": "WCO Compendium of Classification Opinions: chưa có toàn văn trong raw/download/wco.org/ — TT 85/2026/TT-BTC Điều 6.1(b) yêu cầu dùng Tuyển tập ý kiến WCO làm nguồn ưu tiên thứ 2. Bản chính thức bán qua WCO Bookshop (~500 EUR). Hiện dùng tạm TB-TCHQ VN (LV=313) làm \"Compendium VN\" thay thế.",
-      "muc_tieu": "WCO-COMPENDIUM",
-      "viec": "Sếp chỉ định: (a) mua bản chính thức, (b) tải từng Classification Opinion mới nhất từ wcoomd.org (~50 opinions/session, 2 session/năm), (c) chấp nhận dùng TB-TCHQ thay thế, hoặc (d) ghi xac_minh.nguon_rieng_tu.wco_compendium trên TT 85/2026 để báo nguồn do hs-code-api mua và giữ riêng.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
@@ -1040,6 +1022,42 @@
     {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
+      "tieuDe": "2166/QĐ-TCHQ: chưa có nguồn chính thống",
+      "muc_tieu": "2166/QĐ-TCHQ",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "2166/QĐ-TCHQ: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "2166/QĐ-TCHQ",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "2169/QĐ-CHQ: chưa có nguồn chính thống",
+      "muc_tieu": "2169/QĐ-CHQ",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "2169/QĐ-CHQ: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "2169/QĐ-CHQ",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Thấp",
       "tieuDe": "2174/QĐ-BCT: chưa có nguồn chính thống",
       "muc_tieu": "2174/QĐ-BCT",
       "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
@@ -1296,6 +1314,24 @@
       "muc_tieu": "2961/QĐ-BCT",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"2961/QĐ-BCT\" --ghi",
       "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Thấp",
+      "tieuDe": "2999/QĐ-TCHQ: chưa có nguồn chính thống",
+      "muc_tieu": "2999/QĐ-TCHQ",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "2999/QĐ-TCHQ: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "2999/QĐ-TCHQ",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
       "trongSo": 0
     },
     {
