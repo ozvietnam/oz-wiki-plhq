@@ -86,6 +86,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/09-2026-nq-cp]]
 - [[sources/105-2016-qh13]]
 - [[sources/107-2016-qh13]]
+- [[sources/11-2017-tt-bct]]
 - [[sources/11-2026-qh16]]
 - [[sources/1175-qd-ttg-2020]]
 - [[sources/12-2022-tt-bgtvt]]
