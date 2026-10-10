@@ -87,6 +87,25 @@ export function kiemTra(so, { today = homNay(), root = ROOT } = {}) {
         if (xm.hieu_luc_da_doi_chieu === true) L(f, 'không vừa hieu_luc_da_doi_chieu: true vừa có xac_minh.chan — xóa chan khi đã đối chiếu xong');
       }
     }
+    // xac_minh.dieu_khoan: danh sách điều khoản có cấu trúc (cho hs-code-api). Mỗi entry bắt buộc có "dieu" (số nguyên) và "noi_dung" (chuỗi).
+    if (xm.dieu_khoan != null) {
+      if (!Array.isArray(xm.dieu_khoan)) L(f, 'xac_minh.dieu_khoan phải là danh sách');
+      else for (let i = 0; i < xm.dieu_khoan.length; i++) {
+        const it = xm.dieu_khoan[i];
+        if (!it || typeof it !== 'object') L(f, `xac_minh.dieu_khoan[${i}] phải là object`);
+        else {
+          if (typeof it.dieu !== 'number' || !Number.isInteger(it.dieu) || it.dieu < 1) L(f, `xac_minh.dieu_khoan[${i}].dieu phải là số nguyên >= 1`);
+          if (typeof it.noi_dung !== 'string' || !it.noi_dung.trim()) L(f, `xac_minh.dieu_khoan[${i}].noi_dung không được trống`);
+        }
+      }
+    }
+    // xac_minh.nguon_rieng_tu: map key (wco_compendium | ahtn_sen | ...) → chuỗi mô tả. Cho biết nguồn do bên thứ ba (hs-code-api) giữ riêng, không nạp vào kho công khai.
+    if (xm.nguon_rieng_tu != null) {
+      if (typeof xm.nguon_rieng_tu !== 'object' || Array.isArray(xm.nguon_rieng_tu)) L(f, 'xac_minh.nguon_rieng_tu phải là object {key: mô_tả}');
+      else for (const [k, v] of Object.entries(xm.nguon_rieng_tu)) {
+        if (typeof v !== 'string' || !v.trim()) L(f, `xac_minh.nguon_rieng_tu.${k} phải là chuỗi mô tả`);
+      }
+    }
   }
 
   // Bảng danh mục mã HS (docs/luoc-do-danh-muc-hs.md)
