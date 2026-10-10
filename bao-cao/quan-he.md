@@ -303,11 +303,16 @@ flowchart LR
 
 ```mermaid
 flowchart LR
+  n_107_2016_QH13["107/2016/QH13<br/>còn hiệu lực"]
+  n_Lu_t_thu__XK_NK_2005["Luật thuế XK NK 2005<br/>chưa có trong sổ"]
   n_18_2021_N__CP["18/2021/NĐ-CP<br/>còn hiệu lực"]
-  n_134_2016_N__CP["134/2016/NĐ-CP<br/>còn hiệu lực"]
   n_182_2025_N__CP["182/2025/NĐ-CP<br/>còn hiệu lực"]
+  n_134_2016_N__CP["134/2016/NĐ-CP<br/>còn hiệu lực"]
   n_72_2026_N__CP["72/2026/NĐ-CP<br/>còn hiệu lực"]
   n_26_2023_N__CP["26/2023/NĐ-CP<br/>còn hiệu lực"]
+  n_107_2016_QH13 -->|thay thế từ 2016-09-01| n_Lu_t_thu__XK_NK_2005
+  n_107_2016_QH13 -->|sửa đổi Sửa đổi, bổ sung một số điều về giảm/hoàn thuế từ 2021-01-01| n_18_2021_N__CP
+  n_107_2016_QH13 -->|sửa đổi Sửa đổi, bổ sung NĐ 134/2016 (lần 2) từ 2025-01-01| n_182_2025_N__CP
   n_18_2021_N__CP -->|sửa đổi| n_134_2016_N__CP
   n_182_2025_N__CP -->|sửa đổi| n_134_2016_N__CP
   n_72_2026_N__CP -->|sửa đổi thuế suất NK ưu đãi một số mặt hàng xăng, dầu từ 2026-03-09| n_26_2023_N__CP

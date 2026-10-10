@@ -3,6 +3,15 @@
   "tong": 3075,
   "diem": [
     {
+      "ma": "THIEU_VAN_BAN",
+      "muc": "Cao",
+      "tieuDe": "Chưa có trong sổ: Luật thuế XK NK 2005",
+      "muc_tieu": "Luật thuế XK NK 2005",
+      "viec": "Tạo registry/van-ban/ cho Luật thuế XK NK 2005 (được nhắc bởi 107/2016/QH13 (thay_the)). Dùng: node tools/them-van-ban.mjs \"Luật thuế XK NK 2005\"",
+      "luong": "he-thong-hoa",
+      "trongSo": 0
+    },
+    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "01/2009/TT-BKHCN: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -934,15 +943,6 @@
       "muc": "Thấp",
       "tieuDe": "1062/TB-TCHQ/2022: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
       "muc_tieu": "1062/TB-TCHQ/2022",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "107/2016/QH13: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "107/2016/QH13",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
       "trongSo": 0
