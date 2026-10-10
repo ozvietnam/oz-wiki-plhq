@@ -39,7 +39,6 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[concepts/khai-bao-hoa-chat-nhap-khau]]
 - [[concepts/kiem-tra-chat-luong-bxd]]
 - [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]]
-- [[concepts/ktcl-bkhcn-2026]]
 - [[concepts/mat-ma-dan-su-san-pham]]
 - [[concepts/muc-do-rui-ro-hang-hoa]]
 - [[concepts/nhan-hang-hoa-nhap-khau]]
