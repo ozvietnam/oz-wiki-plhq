@@ -3,21 +3,32 @@ so_hieu: 11/2017/TT-BCT
 loai: THONG_TU
 ten: Quy định về hoạt động tạm nhập, tái xuất; tạm xuất, tái nhập và chuyển khẩu
 co_quan: BCT
+ngay_ban_hanh: '2017-07-28'
+hieu_luc_tu: '2017-09-15'
+het_hieu_luc_tu: '2018-06-15'
 tinh_trang: HET_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/bct
+  - kiem-tra-chuyen-nganh/tam-nhap-tai-xuat
+quan_he:
+  huong_dan:
+    - 187/2013/NĐ-CP
+  bai_bo:
+    - so_hieu: 12/2018/TT-BCT
+      pham_vi: Bãi bỏ toàn bộ
+      tu_ngay: '2018-06-15'
+      can_cu: Điều 17 khoản 2 điểm b TT 12/2018/TT-BCT
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, trích yếu trên nguồn A; đã nạp toàn văn
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-het_hieu_luc_tu: '2018-06-15'
-ghi_chu: Bị bãi bỏ bởi Điều 17 khoản 2 điểm b TT 12/2018/TT-BCT; stub chưa mở toàn văn nguồn A của chính văn bản này.
+  pham_vi: 'Toàn văn 4 chương 20 điều + 12 phụ lục, 58 trang PDF có text layer, đã đọc 10/10/2026.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-10'
+  boi: legal-customs@ozvietnam
+ghi_chu: 'TT lịch sử về TNTX, tạm xuất tái nhập, chuyển khẩu. Đã hết hiệu lực 15/6/2018. Hiện áp dụng TT 12/2018/TT-BCT (sửa đổi bởi 06/2021, 28/2021).'
 toan_van: raw/download/congbaocdn.chinhphu.vn/11-2017-tt-bct.pdf
 nguon:
-  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-11-2017-tt-bct-24495.htm
-    truy_cap: '2026-10-04'
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-11-2017-tt-bct-2869.htm
+    truy_cap: '2026-10-10'
   - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2017/7/24495/18911-1-2017647-64811-2017-tt-bct.pdf
     truy_cap: '2026-10-04'
   - url: https://vanban.chinhphu.vn/default.aspx?docid=191148&pageid=27160
