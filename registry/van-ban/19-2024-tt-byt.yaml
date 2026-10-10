@@ -40,8 +40,7 @@ nguon:
   - url: https://chinhphu.vn/?docid=211347&pageid=27160
     truy_cap: '2026-10-09'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/19-byt.pdf
-<<<<<<< HEAD
-    truy_cap: '2026-10-10'
+    truy_cap: '2026-10-09'
 danh_muc_hs:
   tep: danh-muc/19-2024-tt-byt.csv
   nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/19-byt.pdf
@@ -49,7 +48,3 @@ danh_muc_hs:
   ngay: '2026-10-10'
   da_doi_chieu: true
   ghi_chu: 'Phụ lục trang 4–9, 95 dòng, 112 mã 8 số.'
-=======
-    truy_cap: '2026-10-09'
-toan_van: raw/download/datafiles.chinhphu.vn/19-2024-tt-byt.pdf
->>>>>>> 7a663bd (fix(schema): truy_cap DD/MM/YYYY → YYYY-MM-DD (715 file) + xóa danh_muc_hs rỗng (742 file) + can_cu → huong_dan (1 file))
