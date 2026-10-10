@@ -8,16 +8,31 @@ hieu_luc_tu: '2016-09-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/luat-thue
+quan_he:
+  huong_dan:
+    - 134/2016/NĐ-CP
+  sua_doi:
+    - so_hieu: 18/2021/NĐ-CP
+      pham_vi: Sửa đổi, bổ sung một số điều về giảm/hoàn thuế
+      tu_ngay: '2021-01-01'
+      can_cu: NĐ 18/2021/NĐ-CP
+    - so_hieu: 182/2025/NĐ-CP
+      pham_vi: Sửa đổi, bổ sung NĐ 134/2016 (lần 2)
+      tu_ngay: '2025-01-01'
+      can_cu: NĐ 182/2025/NĐ-CP
+  thay_the:
+    - so_hieu: Luật thuế XK NK 2005
+      tu_ngay: '2016-09-01'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Toàn văn 4 chương 22 điều, có hiệu lực 01/9/2016. Đã OCR PDF gốc 29 trang ngày 10/10/2026. Số điều có thể không khớp do OCR (cần đối chiếu PDF).'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-10'
+  boi: legal-customs@ozvietnam
+ghi_chu: 'Luật nền tảng cho mọi tính thuế XK NK. OCR 29 trang, 4 chương 22 điều. Sẽ sửa tiếp bởi Luật 11/2026/QH16.'
+toan_van: raw/download/datafiles.chinhphu.vn/107-2016-qh13.pdf
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=184599&pageid=27160
     truy_cap: '2026-10-04'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/05/107.signed.pdf
-    truy_cap: '2026-10-04'
-xac_minh:
-  muc: NGUON_A
-  pham_vi: số hiệu, trích yếu, ngày ban hành 06-04-2016 và ngày có hiệu lực 01-09-2016 trên vanban.chinhphu.vn
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: Thẻ cổng Chính phủ khớp Luật Thuế xuất khẩu, thuế nhập khẩu, người ký Nguyễn Thị Kim Ngân. Chưa đọc điều khoản thi hành. Codex@ozvietnam đã tải và kiểm tra PDF gốc 29 trang ngày 04/10/2026; PDF quét ảnh, cần OCR. Bản nhị phân chưa được đưa vào PR này do tải lên bị treo; chưa đặt toan_van. Xem dấu SHA-256 và bàn giao tại docs/thu-thap/2026-10-04-ba-luat-loi.json.
-toan_van: raw/download/datafiles.chinhphu.vn/107-2016-qh13.pdf
+    truy_cap: '2026-10-10'
