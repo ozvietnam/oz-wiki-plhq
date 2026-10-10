@@ -16,7 +16,14 @@ nguon:
     truy_cap: '2026-07-02'
   - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/7/37592/41355-1-2022637-63810-2022-tt-btttt.pdf
     truy_cap: '2026-10-04'
-trich_dan_trong_bieu_thue: 3
+trich_dan_trong_bieu_thue: 5
+danh_muc_hs:
+  tep: danh-muc/10-2022-tt-btttt.csv
+  nguon: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/7/37592/41355-1-2022637-63810-2022-tt-btttt.pdf
+  trich_boi: hermes-sub-agent-btttt-sua
+  ngay: '2026-10-09'
+  da_doi_chieu: false
+  ghi_chu: 102 dòng, 5 mã HS (8471.30.90, 8471.41.90, 8471.49.90, 8517.62.43, 8517.62.49) × 24 sản phẩm Phụ lục I; thay PL I, II TT 13/2018/TT-BTTTT (danh mục SP an toàn thông tin mạng NK theo giấy phép). Phụ lục II chỉ chứa 3 mẫu đơn/giấy phép — không có mã HS.
 xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF Công báo số 637+638 ngày 31-07-2022 (lớp chữ): Điều 3 khoản 1 hiệu lực 15-09-2022; thẻ Công báo «Hiệu lực: 15/09/2022»; tình trạng hiện tại: sổ không có văn bản sau ghi thay/bãi TT 10/2022; TT 36/2026/TT-BKHCN không nêu 10/2022 (kiểm đến 04-10-2026)'
