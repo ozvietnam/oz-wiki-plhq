@@ -1312,7 +1312,15 @@
           "truy_cap": "2026-10-04"
         }
       ],
-      "trich_dan_trong_bieu_thue": 3,
+      "trich_dan_trong_bieu_thue": 5,
+      "danh_muc_hs": {
+        "tep": "danh-muc/10-2022-tt-btttt.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/7/37592/41355-1-2022637-63810-2022-tt-btttt.pdf",
+        "trich_boi": "hermes-sub-agent-btttt-sua",
+        "ngay": "2026-10-09",
+        "da_doi_chieu": false,
+        "ghi_chu": "102 dòng, 5 mã HS (8471.30.90, 8471.41.90, 8471.49.90, 8517.62.43, 8517.62.49) × 24 sản phẩm Phụ lục I; thay PL I, II TT 13/2018/TT-BTTTT (danh mục SP an toàn thông tin mạng NK theo giấy phép). Phụ lục II chỉ chứa 3 mẫu đơn/giấy phép — không có mã HS."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "PDF Công báo số 637+638 ngày 31-07-2022 (lớp chữ): Điều 3 khoản 1 hiệu lực 15-09-2022; thẻ Công báo «Hiệu lực: 15/09/2022»; tình trạng hiện tại: sổ không có văn bản sau ghi thay/bãi TT 10/2022; TT 36/2026/TT-BKHCN không nêu 10/2022 (kiểm đến 04-10-2026)",
@@ -4670,6 +4678,14 @@
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (31 mã HS). GHI CHÚ NGHIỆP VỤ (hs-code-api): Sửa đổi bởi TT 11/2024/TT-BTTTT; hợp nhất tại VB 09/VBHN-BTTTT (2024).",
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/22-2018-tt-btttt.pdf",
+      "danh_muc_hs": {
+        "tep": "danh-muc/22-2018-tt-btttt.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/12/28195/25392-1-2019107-10822-2018-tt-btttt.pdf",
+        "trich_boi": "hermes-sub-agent-btttt",
+        "ngay": "2026-10-09",
+        "da_doi_chieu": false,
+        "ghi_chu": "33 dòng: 18 mã nhóm 84.43 (Phụ lục I - lĩnh vực in) + 15 mã Ch.49 (Phụ lục II - phát hành xuất bản phẩm); toàn bộ GIAY_PHEP; chênh 31 mã theo registry (đếm trước trong hs-code-api/legal-docs.json có thể loại 2 mã phụ)"
+      },
       "quan_he": {
         "thay_the": [
           {
@@ -8025,6 +8041,14 @@
         "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (2 mã HS). GHI CHÚ NGHIỆP VỤ: Vàng nguyên liệu (HS 7108.12.10; 7108.12.90) thuộc quản lý NHNN. PDF datafiles cũ là ảnh — dùng bản Công báo CDN có lớp chữ.",
+      "danh_muc_hs": {
+        "tep": "danh-muc/47-2018-tt-nhnn.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/12/28060/25176-1-201965-6647-2018-tt-nhnn.pdf",
+        "trich_boi": "hermes-sub-agent-nhnn",
+        "ngay": "2026-10-09",
+        "da_doi_chieu": false,
+        "ghi_chu": "PDF Công báo số 65+66 (4 trang; trang VB=59). 4 dòng / 2 mã HS (7108.12.10; 7108.12.90). Mỗi mã xuất hiện 2 lần: mục I. Hàng NK + mục II. Hàng XK — cùng mô tả \"vàng nguyên liệu\". Loại tác động GIAY_PHEP: NHNN cấp giấy phép XNK vàng theo Điều 6 NĐ 69/2018/NĐ-CP; trừ vàng dạng bột/dung dịch/vẩy hàn/muối vàng/vàng trang sức bán thành phẩm."
+      },
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/47-2018-tt-nhnn.pdf",
       "slug": "47-2018-tt-nhnn",
       "bac_nguon_cao_nhat": "A",
