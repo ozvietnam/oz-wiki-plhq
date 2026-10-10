@@ -3,33 +3,57 @@ id: phan-loai-ma-hs
 title: "Phân loại mã số HS hàng xuất nhập khẩu"
 type: concept
 created: 2026-10-04
-updated: 2026-10-04
-key_sources: []
+updated: 2026-10-09
+key_sources:
+  - 85-2026-tt-btc
+  - 14-2015-tt-btc
+  - 17-2021-tt-btc
+  - 31-2022-tt-btc
 related_concepts:
   - thu-tuc-hai-quan-xnk
   - thue-gtgt-hang-nhap-khau
   - muc-do-rui-ro-hang-hoa
-confidence: medium
+  - gri-wco
+confidence: high
 tags: [phan-loai-hs, hai-quan]
 ---
 
 ## Definition
 
-Phân loại mã HS là việc gắn hàng hoá xuất nhập khẩu vào mã số trong Danh mục hàng hoá XNK Việt Nam để xác định thuế, chính sách và kiểm tra chuyên ngành. Trong sổ đăng ký, quy trình phân loại/phân tích thuộc nhánh `phan-loai-hs/quy-trinh-phan-loai` (`14/2015/TT-BTC`, sửa bởi `17/2021/TT-BTC`); danh mục mã số thuộc `phan-loai-hs/danh-muc` (`31/2022/TT-BTC`).
+Phân loại mã HS là việc gắn hàng hoá xuất nhập khẩu vào mã số trong Danh mục hàng hoá XNK Việt Nam để xác định thuế, chính sách và kiểm tra chuyên ngành. Quy trình thuộc nhánh `phan-loai-hs/quy-trinh-phan-loai`; danh mục mã số thuộc nhánh `phan-loai-hs/danh-muc`.
 
-## Variants
+## Trạng thái hiệu lực (cập nhật 09/10/2026)
 
-| Văn bản (sổ) | Tên ngắn theo sổ | Nhánh | Ghi chú sổ |
+**Đã thay thế vào 15/09/2026**: TT 14/2015/TT-BTC + TT 17/2021/TT-BTC **HẾT hiệu lực** theo Điều 15.1 của **TT 85/2026/TT-BTC** (Công báo số 409 ngày 18/07/2026). Mọi tra cứu quy trình phân loại phải dùng 85/2026/TT-BTC từ 15/09/2026 trở đi.
+
+## Variants (3 VB then chốt)
+
+| Văn bản (sổ) | Tên ngắn theo sổ | Nhánh | Hiệu lực |
 |---|---|---|---|
-| `14/2015/TT-BTC` | Phân loại hàng hoá; phân tích để phân loại; phân tích kiểm tra chất lượng/ATTP | `phan-loai-hs/quy-trinh-phan-loai` | `CON_HIEU_LUC`; chưa đối chiếu nguồn A |
-| `17/2021/TT-BTC` | Sửa đổi, bổ sung một số điều của `14/2015/TT-BTC` | cùng nhánh | `quan_he.sua_doi` → `14/2015/TT-BTC` |
-| `31/2022/TT-BTC` | Ban hành Danh mục hàng hoá xuất khẩu, nhập khẩu Việt Nam | `phan-loai-hs/danh-muc` | hiệu lực từ `2022-12-01` theo sổ |
+| `85/2026/TT-BTC` | Quy định phân loại hàng hoá, phân tích để phân loại hàng hoá XNK | `phan-loai-hs/quy-trinh-phan-loai` | **CÒN** hiệu lực từ 15/09/2026; thay thế 14/2015 + 17/2021 |
+| `14/2015/TT-BTC` | Hướng dẫn phân loại hàng hoá; phân tích để phân loại; phân tích kiểm tra chất lượng/ATTP | `phan-loai-hs/quy-trinh-phan-loai` | **HẾT** hiệu lực từ 15/09/2026 |
+| `17/2021/TT-BTC` | Sửa đổi, bổ sung một số điều của 14/2015/TT-BTC | `phan-loai-hs/quy-trinh-phan-loai` | **HẾT** hiệu lực từ 15/09/2026 |
+| `31/2022/TT-BTC` | Ban hành Danh mục hàng hoá xuất khẩu, nhập khẩu Việt Nam | `phan-loai-hs/danh-muc` | CÒN hiệu lực từ 01/12/2022 |
 
-**Đọc đúng cặp gốc–sửa:** khi tra quy trình phân loại, đọc `14/2015/TT-BTC` **kèm** `17/2021/TT-BTC` (xem [[concepts/doc-tinh-trang-hieu-luc]]). Danh mục mã số là văn bản riêng (`31/2022/TT-BTC`), không thay thế thông tư quy trình.
+## Điểm mới trong 85/2026 (so với 14/2015)
+
+| Điều | Nội dung |
+|---|---|
+| Điều 4 | 5 nguyên tắc tuân thủ gồm **6 GRI WCO** — lần đầu ghi nhận trong luật nội địa |
+| Điều 6.1 | Thứ tự ưu tiên **4 nguồn tra cứu** khi chưa xác định được mã duy nhất: (1) Chú giải chi tiết HS WCO → (2) Tuyển tập ý kiến WCO → (3) Chú giải bổ sung AHTN → (4) CSDL VN |
+| Điều 6.2 | Mô tả VN khác HS WCO thì **áp dụng HS WCO** — mặc định ưu tiên quốc tế |
+| Điều 7 | Phân loại máy liên hợp/tổ hợp máy Ch.84/85/90 theo Chú giải pháp lý 3, 4, 5 Phần XVI |
+| Điều 16 | Máy liên hợp đã đăng ký Danh mục trước 15/09/2026 tiếp tục theo TT 14/2015 đến khi nhập hết (chuyển tiếp) |
+
+**Đọc đúng cặp gốc–sửa:** từ 15/09/2026, đọc `85/2026/TT-BTC` (kế thừa 14/2015 + 17/2021, xem [[concepts/doc-tinh-trang-hieu-luc]]). Danh mục mã số là văn bản riêng (`31/2022/TT-BTC`), không thay thế thông tư quy trình.
 
 ## Key sources
 
-Chưa nạp toàn văn. Các khẳng định trên chỉ lặp lại tiêu đề, nhánh, quan hệ và ngày trong `registry/van-ban/`.
+- `registry/van-ban/85-2026-tt-btc.yaml` (NGUON_A, đã đọc toàn văn 23 trang, 711KB)
+- `registry/van-ban/14-2015-tt-btc.yaml` (HET_HIEU_LUC từ 15/09/2026, NGUON_A)
+- `registry/van-ban/17-2021-tt-btc.yaml` (HET_HIEU_LUC theo quan hệ thay thế 85/2026)
+- `registry/van-ban/31-2022-tt-btc.yaml` (CON_HIEU_LUC từ 01/12/2022)
+- Toàn văn 85/2026: `raw/download/congbaocdn.chinhphu.vn/2026/7/18/85-2026-tt-btc.pdf`
 
 ## Related concepts
 
@@ -39,8 +63,10 @@ Chưa nạp toàn văn. Các khẳng định trên chỉ lặp lại tiêu đề
 
 ## Mentioned in
 
-- [[summary/khung-thu-tuc-hai-quan]]
+- [[summary/luat-duoc-va-phan-loai-hs]]
 
 ## Notes
 
-Câu hỏi mẫu #8 (xác định trước mã số: hồ sơ, thời hạn) đánh dấu **chưa** trong `docs/cau-hoi-mau.md` — cần trích điều từ toàn văn `14/2015/TT-BTC` / `17/2021/TT-BTC`. Nhánh `phan-loai-hs/chu-giai` và `phan-loai-hs/thong-bao-phan-loai` đang trống trên cây (điểm mù cao).
+- **Quan trọng**: Trước 15/09/2026, tham chiếu `14/2015/TT-BTC + 17/2021/TT-BTC`. Từ 15/09/2026, **chỉ tham chiếu `85/2026/TT-BTC`**.
+- Câu hỏi mẫu #8 (xác định trước mã số: hồ sơ, thời hạn) trong `docs/cau-hoi-mau.md` đánh dấu **chưa** — cần trích điều từ toàn văn 85/2026/TT-BTC (Điều 8-12).
+- Nhánh `phan-loai-hs/chu-giai` và `phan-loai-hs/thong-bao-phan-loai` đang trống trên cây (điểm mù cao).
