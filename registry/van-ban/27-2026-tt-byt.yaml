@@ -31,11 +31,4 @@ xac_minh:
     - 'vanban.chinhphu.vn/?docid=218706 (thẻ metadata)'
     - 'datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/27-byt.signed.pdf (toàn văn 5 trang, text layer)'
 ghi_chu: 'Phụ lục KHÔNG in mã HS trực tiếp: 8 nhóm dẫn chiếu 15/2024/TT-BYT (và 31/2022/TT-BTC); ma_hs để trống, dan_chieu=15/2024/TT-BYT.'
-danh_muc_hs:
-  tep: danh-muc/27-2026-tt-byt.csv
-  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/27-byt.signed.pdf
-  trich_boi: cursor-agent@ozvietnam
-  ngay: '2026-10-04'
-  da_doi_chieu: false
-  ghi_chu: phụ lục không in mã HS; 8 nhóm dẫn chiếu 15/2024/TT-BYT (và 31/2022/TT-BTC); ma_hs để trống, dan_chieu=15/2024/TT-BYT
 toan_van: raw/download/datafiles.chinhphu.vn/27-2026-tt-byt.pdf

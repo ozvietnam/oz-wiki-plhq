@@ -26,12 +26,5 @@ xac_minh:
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1764 mã HS).
-danh_muc_hs:
-  tep: danh-muc/34-2025-tt-bct.csv
-  nguon: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/44998/56546-1-2025751-75234-2025-tt-bct.pdf
-  trich_boi: cursor-agent@ozvietnam
-  ngay: '2026-10-04'
-  da_doi_chieu: false
-  ghi_chu: 'Phụ lục trang PDF 3–10. ~80 dòng mã 4/6/8. Các dòng «Toàn bộ Chương 7/8/44/61/62/64/66» (mã 2 số, có trừ mã) chưa ghi CSV (schema 4/6/8); một số mo_ta bị cắt do layout nhiều cột — cần soi lại khi da_doi_chieu.'
 
 toan_van: raw/download/congbaocdn.chinhphu.vn/34-2025-tt-bct.pdf

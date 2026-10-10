@@ -30,11 +30,4 @@ xac_minh:
     - 'vanban.chinhphu.vn/?classid=1&docid=218707 (thẻ metadata)'
     - 'datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/28-byt.signed.pdf (toàn văn 2 trang, text layer)'
 ghi_chu: 'Phụ lục I (13 nhóm rủi ro cao) + Phụ lục II (4 nhóm rủi ro trung bình) ở tệp 28-byt-kem.pdf; không in mã HS — ma_hs để trống, dan_chieu=09/2024/TT-BYT; loai_tac_dong=DANG_KY_LUU_HANH.'
-danh_muc_hs:
-  tep: danh-muc/28-2026-tt-byt.csv
-  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/28-byt-kem.pdf
-  trich_boi: cursor-agent@ozvietnam
-  ngay: '2026-10-04'
-  da_doi_chieu: false
-  ghi_chu: 'Phụ lục I (13 nhóm rủi ro cao) + Phụ lục II (4 nhóm rủi ro trung bình); không in mã HS — ma_hs để trống, dan_chieu=09/2024/TT-BYT; loai_tac_dong=DANG_KY_LUU_HANH (cấp giấy đăng ký lưu hành / giấy phép nhập khẩu)'
 toan_van: raw/download/datafiles.chinhphu.vn/28-2026-tt-byt.pdf

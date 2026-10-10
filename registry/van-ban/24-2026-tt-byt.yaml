@@ -44,10 +44,3 @@ nguon:
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/24-byt.signed.pdf
     truy_cap: '2026-10-05'
 toan_van: raw/download/datafiles.chinhphu.vn/24-2026-tt-byt.pdf
-danh_muc_hs:
-  tep: danh-muc/24-2026-tt-byt.csv
-  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/24-byt.signed.pdf
-  trich_boi: claude-code@ozvietnam
-  ngay: '2026-10-05'
-  da_doi_chieu: true
-  ghi_chu: 'Văn bản 3 trang, KHÔNG có phụ lục mã HS. Điều 2 khoản 2: "Mã số HS đối với thiết bị y tế được quy định tại Thông tư số 19/2024/TT-BYT" → một dòng dẫn chiếu.'

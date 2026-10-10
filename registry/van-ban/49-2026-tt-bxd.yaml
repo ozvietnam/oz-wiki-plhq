@@ -43,9 +43,3 @@ nguon:
     truy_cap: '2026-10-04'
   - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/18/469975-1784276696_v1_1784336792_signed.pdf
     truy_cap: '2026-10-04'
-danh_muc_hs:
-  tep: danh-muc/49-2026-tt-bxd.csv
-  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd-pl1.pdf
-  trich_boi: hermes-211
-  ngay: '2026-10-04'
-  ghi_chu: 'Phụ lục I (rủi ro cao): trang 1-10; Phụ lục II (rủi ro trung bình): trang 1-6. Trang từ pypdf extract_text, khớp cả mã có dấu chấm (87.02) và không dấu (8702).'

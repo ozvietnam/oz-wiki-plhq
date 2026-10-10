@@ -24,10 +24,3 @@ nguon:
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/126-bqp.signed.pdf
     truy_cap: '2026-10-05'
 toan_van: raw/download/datafiles.chinhphu.vn/126-2026-tt-bqp.pdf
-danh_muc_hs:
-  tep: danh-muc/126-2026-tt-bqp.csv
-  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/126-bqp.signed.pdf
-  trich_boi: claude-code@ozvietnam
-  ngay: '2026-10-05'
-  da_doi_chieu: false
-  ghi_chu: 'Phụ lục trang PDF 5–7 là ẢNH QUÉT (không lớp chữ) — đọc từ ảnh 110 dpi, chưa OCR máy; 54 dòng / 34 mã, cả 34 mã có trong biểu thuế. Cần người thứ hai soát từng mã với ảnh gốc rồi đặt da_doi_chieu: true. Mỗi mã chỉ áp cho sản phẩm CÓ chức năng mật mã (dieu_kien).'
