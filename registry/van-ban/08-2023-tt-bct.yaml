@@ -34,10 +34,3 @@ quan_he:
     - so_hieu: 41/2019/TT-BCT
       tu_ngay: '2023-05-16'
       can_cu: Điều 2 TT 08/2023/TT-BCT
-danh_muc_hs:
-  tep: danh-muc/08-2023-tt-bct.csv
-  nguon: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/3/39178/44425-1-2023663-66408-2023-tt-bct.pdf
-  trich_boi: cursor-agent@ozvietnam
-  ngay: '2026-10-04'
-  da_doi_chieu: false
-  ghi_chu: Phụ lục I–V từ trang PDF 3. ~465 dòng (314 mã duy nhất 4/6/8). PL I=CAM_NHAP_KHAU; PL II=KHAC (tạm ngừng tạm nhập tái xuất); PL III–V=GIAY_PHEP. Một số dòng «Chương NN toàn bộ» (mã 2 số) không ghi CSV vì schema chỉ 4/6/8 — xem /tmp/extract-danh-muc/08-chapters.txt khi soát.

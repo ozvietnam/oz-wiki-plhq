@@ -29,11 +29,4 @@ xac_minh:
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
 ghi_chu: 'Bản datafiles 33-bct.signed.pdf là ảnh quét (35 trang). Dùng Công báo CDN có lớp chữ (70 trang) để trích phụ lục. Mục B rủi ro cao trong phụ lục để trống (chỉ dấu "-").'
-danh_muc_hs:
-  tep: danh-muc/33-2026-tt-bct.csv
-  nguon: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/17/469965-1784194321_v1_1784250703_signed.pdf
-  trich_boi: cursor-agent@ozvietnam
-  ngay: '2026-10-04'
-  da_doi_chieu: false
-  ghi_chu: 'Phụ lục trang 4–69 PDF Công báo (Mục A rủi ro trung bình → CONG_BO_HOP_QUY). Mục B rủi ro cao trống — không có mã. 957 dòng / 920 mã; ô gộp tách mỗi mã một dòng. mo_ta ưu tiên cột tên sản phẩm / mô tả thuế khi in cạnh mã.'
 toan_van: raw/download/congbaocdn.chinhphu.vn/33-2026-tt-bct.pdf

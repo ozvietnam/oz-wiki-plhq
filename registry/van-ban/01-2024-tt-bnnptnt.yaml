@@ -35,12 +35,5 @@ xac_minh:
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1468 mã HS). Lưu ý: sau sáp nhập bộ, một phần danh mục có thể chuyển sang BNNMT — chưa thấy văn bản thay toàn bộ trên sổ.'
-danh_muc_hs:
-  tep: danh-muc/01-2024-tt-bnnptnt.csv
-  nguon: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/2/41292/48972-1-2024329-33001-2024-tt-bnnptnt.pdf
-  trich_boi: cursor-agent@ozvietnam
-  ngay: '2026-10-04'
-  da_doi_chieu: false
-  ghi_chu: 'Phụ lục trải Công báo 329+330 … 343+344 (8 tệp PDF CDN). ~3692 dòng / 2102 mã duy nhất. PL I Mục 1–27 + PL II + PL III; PL IV chỉ phương thức kiểm tra (không có mã HS). Nguồn phần 1: 48972-…329-330…; phần tiếp p2–p8 tại raw/download/congbaocdn.chinhphu.vn/01-2024-tt-bnnptnt-p*.pdf.'
 
 toan_van: raw/download/congbaocdn.chinhphu.vn/01-2024-tt-bnnptnt.pdf

@@ -27,10 +27,3 @@ quan_he:
       tu_ngay: '2024-11-15'
       can_cu: Điều 5 khoản 2 TT 16/2024/TT-BYT
 toan_van: raw/download/datafiles.chinhphu.vn/16-2024-tt-byt.pdf
-danh_muc_hs:
-  tep: danh-muc/16-2024-tt-byt.csv
-  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/10/16-byt.pdf
-  trich_boi: hermes-sub-agent-byt
-  ngay: '2026-10-09'
-  da_doi_chieu: false
-  ghi_chu: '49 dòng mã HS từ 16 STT (Phụ lục duy nhất). Trích từ PDF scan bằng tesseract OCR (vie). Nhóm 38.08 (Thuốc trừ sâu, thuốc trừ côn trùng, thuốc diệt khuẩn, nấm mốc...). Lưu ý: registry trich_dan_trong_bieu_thue: 17 có thể là số mã ban đầu do hs-code-api; thực tế OCR 49 dòng.'

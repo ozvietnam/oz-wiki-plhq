@@ -16,16 +16,19 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, trích yếu, ngày ban hành 01-07-2026 và ngày có hiệu lực 01-07-2026 trên vanban.chinhphu.vn
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: 'Thẻ văn bản cổng Chính phủ khớp số hiệu, Bộ Y tế, người ký Đỗ Xuân Tuyên, tệp 27-byt.signed.pdf. Chưa đọc điều khoản thi hành. Ghi chú 8 nhóm và Công văn 1913/ATTP-KN còn từ bài tổng hợp KTCN 2026 (nguồn thứ cấp) — xem hs-code-api data/ktcn-regime-2026.json. PDF datafiles có lớp chữ (5 trang) — chưa đối chiếu điều khoản thi hành trong lần nạp này.'
-danh_muc_hs:
-  tep: danh-muc/27-2026-tt-byt.csv
-  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/27-byt.signed.pdf
-  trich_boi: cursor-agent@ozvietnam
-  ngay: '2026-10-04'
-  da_doi_chieu: false
-  ghi_chu: phụ lục không in mã HS; 8 nhóm dẫn chiếu 15/2024/TT-BYT (và 31/2022/TT-BTC); ma_hs để trống, dan_chieu=15/2024/TT-BYT
+  pham_vi: |
+    TT 27/2026/TT-BYT ban hành 01/07/2026, ký Bộ trưởng Bộ Y tế Đỗ Xuân Tuyên (theo text layer PDF datafiles, đã đọc toàn văn 5 trang).
+    Điều 1: Danh mục thực phẩm + dụng cụ chứa + vật liệu bao gói rủi ro trung bình.
+    Điều 2: Điều khoản tham chiếu (forward).
+    Điều 3.1: Cục trưởng Cục An toàn thực phẩm tổ chức triển khai + rà soát Danh mục.
+    Điều 3.2: UBND các tỉnh tổ chức thực hiện tại địa phương.
+    Điều 4: Hiệu lực 01/07/2026.
+    Căn cứ: Luật ATTP 55/2010/QH12, Luật Chất lượng SPHH 05/2007/QH12 (sửa bởi 78/2025/QH15), NĐ 37/2026/NĐ-CP, NĐ 15/2018/NĐ-CP (hướng dẫn Luật ATTP), NĐ 42/2025/NĐ-CP (chức năng BYT).
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-10'
+  boi: legal-customs@ozvietnam
+  nguon_da_mo:
+    - 'vanban.chinhphu.vn/?docid=218706 (thẻ metadata)'
+    - 'datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/27-byt.signed.pdf (toàn văn 5 trang, text layer)'
+ghi_chu: 'Phụ lục KHÔNG in mã HS trực tiếp: 8 nhóm dẫn chiếu 15/2024/TT-BYT (và 31/2022/TT-BTC); ma_hs để trống, dan_chieu=15/2024/TT-BYT.'
 toan_van: raw/download/datafiles.chinhphu.vn/27-2026-tt-byt.pdf
