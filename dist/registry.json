@@ -1315,25 +1315,36 @@
     {
       "so_hieu": "10/2019/TT-BCT",
       "loai": "THONG_TU",
-      "ten": "Quy tắc mặt hàng cụ thể ATIGA",
+      "ten": "Sửa đổi, bổ sung Thông tư 22/2016/TT-BCT thực hiện Quy tắc xuất xứ hàng hóa ATIGA",
       "co_quan": "BCT",
-      "ngay_ban_hanh": "2019-01-01",
-      "hieu_luc_tu": "2019-07-22",
+      "ngay_ban_hanh": "2019-07-22",
+      "hieu_luc_tu": "2019-09-05",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "thue/bieu-thue"
+        "bieu-thue-xnk",
+        "xuat-xu-fta/hiep-dinh"
       ],
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF",
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-10",
         "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Không crawl được PDF. Cần tìm từ nguồn bậc A khác."
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn docid=197774"
       },
-      "toan_van": "chua_co",
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=197774&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/09/10-bct.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/10-2019-tt-bct.pdf",
       "slug": "10-2019-tt-bct",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {

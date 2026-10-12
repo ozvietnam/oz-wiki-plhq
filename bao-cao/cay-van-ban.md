@@ -83,7 +83,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Biểu thuế XK, NK ưu đãi và biểu thuế FTA `thue/bieu-thue`
 
-41 văn bản, 41 chưa hết hiệu lực.
+40 văn bản, 40 chưa hết hiệu lực.
 
 - 🟢 [72/2026/NĐ-CP](../registry/van-ban/72-2026-nd-cp.yaml) — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu tại Biểu thuế nhập khẩu ưu đãi ban hành kèm theo Nghị định số 26/2023/NĐ-CP _(hết hiệu lực 2027-01-01)_
 - 🟢 [228/QĐ-BCT](../registry/van-ban/228-qd-bct.yaml) — Áp dụng thuế CBPG tạm thời đối với kính nổi không màu (ID, MA) - vụ AD22
@@ -122,7 +122,6 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [129/2022/NĐ-CP](../registry/van-ban/129-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi RCEP
 - 🟢 [41/2022/TT-BCT](../registry/van-ban/41-2022-tt-bct.yaml) — Quy tắc mặt hàng cụ thể EVFTA
 - 🟢 [03/2019/TT-BCT](../registry/van-ban/03-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể CPTPP
-- 🟢 [10/2019/TT-BCT](../registry/van-ban/10-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể ATIGA
 - 🟢 [12/2019/TT-BCT](../registry/van-ban/12-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể ACFTA
 - 🟢 [13/2019/TT-BCT](../registry/van-ban/13-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể AKFTA
 - 🟢 [11/2018/TT-BCT](../registry/van-ban/11-2018-tt-bct.yaml) — Quy tắc mặt hàng cụ thể VNEAEUFTA
@@ -2197,13 +2196,14 @@ _Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
 
 ### Hiệp định FTA (ACFTA, ATIGA, RCEP, CPTPP, EVFTA...) `xuat-xu-fta/hiep-dinh`
 
-7 văn bản, 5 chưa hết hiệu lực.
+8 văn bản, 6 chưa hết hiệu lực.
 
 - 🟢 [126/QĐ-TTg](../registry/van-ban/126-qd-ttg-2026.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu (EVFTA)
 - 🟢 [127/QĐ-TTg](../registry/van-ban/127-qd-ttg-2026.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP)
 - 🟢 [328/QĐ-TTg](../registry/van-ban/328-qd-ttg-2022.yaml) — Về việc chỉ định các cơ quan đầu mối để triển khai Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)
 - ⚫ [1175/QĐ-TTg](../registry/van-ban/1175-qd-ttg-2020.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu (EVFTA) _(hết hiệu lực 2026-01-16)_
 - 🟢 [102/2020/QH14](../registry/van-ban/102-2020-qh14.yaml) — Phê chuẩn Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu
+- 🟢 [10/2019/TT-BCT](../registry/van-ban/10-2019-tt-bct.yaml) — Sửa đổi, bổ sung Thông tư 22/2016/TT-BCT thực hiện Quy tắc xuất xứ hàng hóa ATIGA
 - ⚫ [734/QĐ-TTg](../registry/van-ban/734-qd-ttg-2019.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP) _(hết hiệu lực 2026-01-16)_
 - 🟢 [72/2018/QH14](../registry/van-ban/72-2018-qh14.yaml) — Phê chuẩn Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương cùng các văn kiện liên quan
 
