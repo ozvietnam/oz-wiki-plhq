@@ -130,7 +130,7 @@ def render_markdown(result):
         '',
         f'**Ngày check:** {today}  ',
         f'**CSV input:** `danh-muc/09-2024-tt-byt-full.csv` ({len(result["rows"])} dòng)  ',
-        f'**Biểu thuế:** `data/tax.json` ({len(result["tax"])} mã HS)  ',
+        f'**Biểu thuế:** `nhu-cau/bieu-thue.json` ({len(result["tax"])} mã HS, chụp từ hs-code-api)  ',
         '',
         '## Tóm tắt',
         '',
