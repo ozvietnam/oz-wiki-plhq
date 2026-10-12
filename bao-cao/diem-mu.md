@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-10-12
 
-Tổng 4470 điểm: **31 cao**, 134 vừa, 4305 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 4478 điểm: **39 cao**, 134 vừa, 4305 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -9,6 +9,8 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Văn bản danh mục chưa trích bảng mã HS | Cao | 45 | `danh-muc-hs` |
 | Mã HS có hàng thật chưa đối chiếu KTCN 2026 (hs-code-api /api/demand) | Cao | 9 | `danh-muc-hs` |
 | Được nhắc nhưng chưa có trong sổ | Cao | 6 | `he-thong-hoa` |
+| Nhánh cây chưa có văn bản | Cao | 5 | `do-tham` |
+| Nhánh cây thiếu loại văn bản bắt buộc | Cao | 3 | `do-tham` |
 | Cảnh báo nguồn | Cao | 1 | `truy-vet-nguon` |
 | Chưa có nguồn chính thống | Vừa | 2036 | `truy-vet-nguon` |
 | Wiki nhắc văn bản chưa đăng ký | Vừa | 60 | `lien-ket-cheo` |
@@ -86,27 +88,41 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Chưa có trong sổ: 98/2021/NĐ-CP** — Tạo registry/van-ban/ cho 98/2021/NĐ-CP (được nhắc bởi 19/2024/TT-BYT (huong_dan)). Dùng: node tools/them-van-ban.mjs "98/2021/NĐ-CP"
 - [ ] **Chưa có trong sổ: 07/2023/NĐ-CP** — Tạo registry/van-ban/ cho 07/2023/NĐ-CP (được nhắc bởi 19/2024/TT-BYT (huong_dan)). Dùng: node tools/them-van-ban.mjs "07/2023/NĐ-CP"
 
+## Nhánh cây chưa có văn bản (5)
+
+- [ ] **Nhánh "Biểu thuế XNK (TT-BCT, quy tắc mặt hàng cụ thể các FTA)" (thue/bieu-thue-xnk) chưa có văn bản còn hiệu lực** — Do thám và thêm các văn bản thuộc nhánh này.
+- [ ] **Nhánh "CPTPP (Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương)" (xuat-xu-fta/hiep-dinh/cptpp) chưa có văn bản còn hiệu lực** — Do thám và thêm các văn bản thuộc nhánh này.
+- [ ] **Nhánh "VCFTA / VKFTA (Việt Nam – Liên minh châu Âu / Hàn Quốc)" (xuat-xu-fta/hiep-dinh/vcfeta) chưa có văn bản còn hiệu lực** — Do thám và thêm các văn bản thuộc nhánh này.
+- [ ] **Nhánh "Hiệp định thương mại Việt Nam – Chile" (xuat-xu-fta/hiep-dinh/chile) chưa có văn bản còn hiệu lực** — Do thám và thêm các văn bản thuộc nhánh này.
+- [ ] **Nhánh "Chống bán phá giá, chống trợ cấp, tự vệ" (phong-ve-thuong-mai/chong-ban-pha-gia) chưa có văn bản còn hiệu lực** — Do thám và thêm các văn bản thuộc nhánh này.
+
+## Nhánh cây thiếu loại văn bản bắt buộc (3)
+
+- [ ] **Nhánh "Biểu thuế XNK (TT-BCT, quy tắc mặt hàng cụ thể các FTA)" thiếu THONG_TU còn hiệu lực** — Tìm THONG_TU đang điều chỉnh nhánh này.
+- [ ] **Nhánh "Chống bán phá giá, chống trợ cấp, tự vệ" thiếu QUYET_DINH còn hiệu lực** — Tìm QUYET_DINH đang điều chỉnh nhánh này.
+- [ ] **Nhánh "Chống bán phá giá, chống trợ cấp, tự vệ" thiếu NGHI_DINH còn hiệu lực** — Tìm NGHI_DINH đang điều chỉnh nhánh này.
+
 ## Cảnh báo nguồn (1)
 
 - [ ] **367/QĐ-BKHCN: Đã đối chiếu bậc A. Sửa đổi Phụ lục 10 của 2711/QĐ-BKHCN ngày 30/12/2022.** — Xác minh với cơ quan ban hành hoặc Công báo.
 
 ## Chưa có nguồn chính thống (2036)
 
-- [ ] **03/2019/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **04/2023/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **03/2019/TT-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **04/2023/TT-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **05/2022/TT-BYT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **10/2019/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **11/2018/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **12/2019/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **13/2019/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **10/2019/TT-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **11/2018/TT-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **12/2019/TT-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **13/2019/TT-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **1357/QĐ-TCHQ: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **1966/QĐ-TCHQ: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **2169/QĐ-CHQ: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **2284/QĐ-BKHCN: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **32/2020/TT-BYT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **3546/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **3830/QĐ-BKHCN: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **41/2022/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **3830/QĐ-BKHCN: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **41/2022/TT-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **55/2025/TT-BYT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **6735/TB-TCHQ: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **08/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.

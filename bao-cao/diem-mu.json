@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-12",
-  "tong": 4470,
+  "tong": 4478,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -167,7 +167,7 @@
     {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
-      "tieuDe": "03/2019/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
+      "tieuDe": "03/2019/TT-BCT: chưa có nguồn chính thống",
       "muc_tieu": "03/2019/TT-BCT",
       "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
       "luong": "truy-vet-nguon",
@@ -194,7 +194,7 @@
     {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
-      "tieuDe": "04/2023/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
+      "tieuDe": "04/2023/TT-BCT: chưa có nguồn chính thống",
       "muc_tieu": "04/2023/TT-BCT",
       "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
       "luong": "truy-vet-nguon",
@@ -374,7 +374,7 @@
     {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
-      "tieuDe": "10/2019/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
+      "tieuDe": "10/2019/TT-BCT: chưa có nguồn chính thống",
       "muc_tieu": "10/2019/TT-BCT",
       "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
       "luong": "truy-vet-nguon",
@@ -1751,7 +1751,7 @@
     {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
-      "tieuDe": "11/2018/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
+      "tieuDe": "11/2018/TT-BCT: chưa có nguồn chính thống",
       "muc_tieu": "11/2018/TT-BCT",
       "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
       "luong": "truy-vet-nguon",
@@ -3281,7 +3281,7 @@
     {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
-      "tieuDe": "12/2019/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
+      "tieuDe": "12/2019/TT-BCT: chưa có nguồn chính thống",
       "muc_tieu": "12/2019/TT-BCT",
       "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
       "luong": "truy-vet-nguon",
@@ -4406,7 +4406,7 @@
     {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
-      "tieuDe": "13/2019/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
+      "tieuDe": "13/2019/TT-BCT: chưa có nguồn chính thống",
       "muc_tieu": "13/2019/TT-BCT",
       "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
       "luong": "truy-vet-nguon",
@@ -23162,7 +23162,7 @@
     {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
-      "tieuDe": "3830/QĐ-BKHCN: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
+      "tieuDe": "3830/QĐ-BKHCN: chưa có nguồn chính thống",
       "muc_tieu": "3830/QĐ-BKHCN",
       "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
       "luong": "truy-vet-nguon",
@@ -24881,7 +24881,7 @@
     {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
-      "tieuDe": "41/2022/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
+      "tieuDe": "41/2022/TT-BCT: chưa có nguồn chính thống",
       "muc_tieu": "41/2022/TT-BCT",
       "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
       "luong": "truy-vet-nguon",
@@ -39006,6 +39006,78 @@
       "muc_tieu": "Công ước HS",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"Công ước HS\" --ghi",
       "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "NUT_CAY_TRONG",
+      "muc": "Cao",
+      "tieuDe": "Nhánh \"Biểu thuế XNK (TT-BCT, quy tắc mặt hàng cụ thể các FTA)\" (thue/bieu-thue-xnk) chưa có văn bản còn hiệu lực",
+      "muc_tieu": "thue/bieu-thue-xnk",
+      "viec": "Do thám và thêm các văn bản thuộc nhánh này.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "NUT_THIEU_LOAI",
+      "muc": "Cao",
+      "tieuDe": "Nhánh \"Biểu thuế XNK (TT-BCT, quy tắc mặt hàng cụ thể các FTA)\" thiếu THONG_TU còn hiệu lực",
+      "muc_tieu": "thue/bieu-thue-xnk",
+      "viec": "Tìm THONG_TU đang điều chỉnh nhánh này.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "NUT_CAY_TRONG",
+      "muc": "Cao",
+      "tieuDe": "Nhánh \"CPTPP (Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương)\" (xuat-xu-fta/hiep-dinh/cptpp) chưa có văn bản còn hiệu lực",
+      "muc_tieu": "xuat-xu-fta/hiep-dinh/cptpp",
+      "viec": "Do thám và thêm các văn bản thuộc nhánh này.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "NUT_CAY_TRONG",
+      "muc": "Cao",
+      "tieuDe": "Nhánh \"VCFTA / VKFTA (Việt Nam – Liên minh châu Âu / Hàn Quốc)\" (xuat-xu-fta/hiep-dinh/vcfeta) chưa có văn bản còn hiệu lực",
+      "muc_tieu": "xuat-xu-fta/hiep-dinh/vcfeta",
+      "viec": "Do thám và thêm các văn bản thuộc nhánh này.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "NUT_CAY_TRONG",
+      "muc": "Cao",
+      "tieuDe": "Nhánh \"Hiệp định thương mại Việt Nam – Chile\" (xuat-xu-fta/hiep-dinh/chile) chưa có văn bản còn hiệu lực",
+      "muc_tieu": "xuat-xu-fta/hiep-dinh/chile",
+      "viec": "Do thám và thêm các văn bản thuộc nhánh này.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "NUT_CAY_TRONG",
+      "muc": "Cao",
+      "tieuDe": "Nhánh \"Chống bán phá giá, chống trợ cấp, tự vệ\" (phong-ve-thuong-mai/chong-ban-pha-gia) chưa có văn bản còn hiệu lực",
+      "muc_tieu": "phong-ve-thuong-mai/chong-ban-pha-gia",
+      "viec": "Do thám và thêm các văn bản thuộc nhánh này.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "NUT_THIEU_LOAI",
+      "muc": "Cao",
+      "tieuDe": "Nhánh \"Chống bán phá giá, chống trợ cấp, tự vệ\" thiếu QUYET_DINH còn hiệu lực",
+      "muc_tieu": "phong-ve-thuong-mai/chong-ban-pha-gia",
+      "viec": "Tìm QUYET_DINH đang điều chỉnh nhánh này.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "NUT_THIEU_LOAI",
+      "muc": "Cao",
+      "tieuDe": "Nhánh \"Chống bán phá giá, chống trợ cấp, tự vệ\" thiếu NGHI_DINH còn hiệu lực",
+      "muc_tieu": "phong-ve-thuong-mai/chong-ban-pha-gia",
+      "viec": "Tìm NGHI_DINH đang điều chỉnh nhánh này.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {

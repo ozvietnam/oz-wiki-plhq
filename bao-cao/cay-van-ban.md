@@ -127,6 +127,10 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [13/2019/TT-BCT](../registry/van-ban/13-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể AKFTA
 - 🟢 [11/2018/TT-BCT](../registry/van-ban/11-2018-tt-bct.yaml) — Quy tắc mặt hàng cụ thể VNEAEUFTA
 
+### Biểu thuế XNK (TT-BCT, quy tắc mặt hàng cụ thể các FTA) `thue/bieu-thue-xnk`
+
+_Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
+
 ### Miễn, giảm, hoàn thuế `thue/mien-giam-hoan`
 
 1 văn bản, 1 chưa hết hiệu lực.
@@ -2203,6 +2207,18 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - ⚫ [734/QĐ-TTg](../registry/van-ban/734-qd-ttg-2019.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP) _(hết hiệu lực 2026-01-16)_
 - 🟢 [72/2018/QH14](../registry/van-ban/72-2018-qh14.yaml) — Phê chuẩn Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương cùng các văn kiện liên quan
 
+#### CPTPP (Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương) `xuat-xu-fta/hiep-dinh/cptpp`
+
+_Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
+
+#### VCFTA / VKFTA (Việt Nam – Liên minh châu Âu / Hàn Quốc) `xuat-xu-fta/hiep-dinh/vcfeta`
+
+_Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
+
+#### Hiệp định thương mại Việt Nam – Chile `xuat-xu-fta/hiep-dinh/chile`
+
+_Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
+
 ## Quản lý ngoại thương `quan-ly-ngoai-thuong`
 
 1 văn bản, 1 chưa hết hiệu lực.
@@ -2481,6 +2497,10 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - ❔ [1400/QĐ-BCT](../registry/van-ban/1400-qd-bct-2025.yaml) — (chưa có tiêu đề) 1400/QĐ-BCT
 - ❔ [2174/QĐ-BCT](../registry/van-ban/2174-qd-bct-2025.yaml) — (chưa có tiêu đề) 2174/QĐ-BCT
 - ❔ [915/QĐ-BCT](../registry/van-ban/915-qd-bct-2025.yaml) — (chưa có tiêu đề) 915/QĐ-BCT
+
+### Chống bán phá giá, chống trợ cấp, tự vệ `phong-ve-thuong-mai/chong-ban-pha-gia`
+
+_Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
 
 ## Xử phạt vi phạm hành chính, cưỡng chế, khiếu nại `xu-phat`
 
