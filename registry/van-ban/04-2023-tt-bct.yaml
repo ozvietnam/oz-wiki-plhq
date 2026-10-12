@@ -9,10 +9,15 @@ tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/bieu-thue
 xac_minh:
-  muc: CHUA_XAC_MINH
+  muc: NGUON_A
   pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF'
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-10'
   boi: hermes-agent@ozvietnam
-  ghi_chu: 'Không crawl được PDF. Cần tìm từ nguồn bậc A khác.'
-toan_van: chua_co
+  ghi_chu: 'Crawl từ vanban.chinhphu.vn docid=207527'
+nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?docid=207527&pageid=27160
+    truy_cap: '2026-10-10'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/3/04-bct.pdf
+    truy_cap: '2026-10-10'
+toan_van: raw/download/datafiles.chinhphu.vn/04-2023-tt-bct.pdf
