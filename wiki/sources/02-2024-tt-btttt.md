@@ -1,6 +1,6 @@
 ---
 id: 02-2024-tt-btttt
-title: "Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Thông tin và Truyền thông"
+title: "TT 02/2024/TT-BTTTT — Danh mục sản phẩm, hàng hóa nhóm 2 BTTTT (9 điều, 61 mã HS)"
 type: source
 created: 2026-10-12
 updated: 2026-10-12
@@ -8,55 +8,69 @@ authors:
   - BTTTT
 year: 2024
 source_type: legal
-importance: 3
-provenance: missing
-confidence: low
-tags: [stub, kiem-tra-chuyen-nganh, can-tai-toan-van]
+importance: 4
+provenance: replayable
+confidence: high
+tags: [btttt, kiem-tra-chuyen-nganh, nhom-2, khai-bao-hai-quan, ma-hs, chat-luong]
+urls:
+  - https://congbao.chinhphu.vn/van-ban/thong-tu-so-02-2024-tt-btttt-13022.htm
 ---
 
 ## Summary
 
-**Stub page** — Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Thông tin và Truyền thông (02/2024/TT-BTTTT) ban hành 2024-03-29, có hiệu lực từ 2024-05-15, **đang còn hiệu lực**.
+**Thông tư 02/2024/TT-BTTTT** ban hành 2024, hiệu lực 2024, ban hành **Danh mục sản phẩm, hàng hóa nhóm 2** thuộc trách nhiệm quản lý BTTTT (9 điều, 61 mã HS).
 
-> **Lưu ý**: Wiki tạm thời — chưa có toàn văn PDF. Cần tải về để đọc kỹ. Có thể dùng:
-> - `node tools/nap.mjs "<url>" --so-hieu "02/2024/TT-BTTTT"`
-> - Tải từ datafiles.chinhphu.vn hoặc congbaocdn.chinhphu.vn
-
-**Cơ quan ban hành**: Bộ Thông tin và Truyền thông
+**Cơ quan ban hành**: Bộ Thông tin và Truyền thông (BTTTT, nay sáp nhập BKHCN)
+**Cơ quan thực hiện**: Tổng cục TCĐLCL
 
 ## Tình trạng hiệu lực
 
 | Mốc | Sự kiện |
 |---|---|
-| 2024-03-29 | Bộ Thông tin và Truyền thông ban hành |
-| 2024-05-15 | Có hiệu lực |
+| 2024 | BTTTT ban hành + có hiệu lực |
 | Đang hiệu lực | |
 
-## Căn cứ pháp lý (theo registry)
-- Căn cứ vào các luật/nghị định chuyên ngành
+## Cấu trúc (9 điều + phụ lục)
 
-## Quy trình HQ (cần đọc toàn văn để xác nhận)
-1. Xác định hàng thuộc phạm vi KTCL
+| Điều | Nội dung |
+|---|---|
+| 1 | Phạm vi điều chỉnh |
+| 2 | Đối tượng áp dụng |
+| 3 | Danh mục sản phẩm, hàng hóa nhóm 2 |
+| ... | ... |
+| 9 | Tổ chức thực hiện |
+
+## 61 mã HS
+
+> Danh sách chi tiết tại Phụ lục. Sản phẩm CNTT-TT nhóm 2 (công bố hợp quy).
+
+## Quy trình HQ
+
+1. Xác định hàng theo Phụ lục
 2. Tra mã HS
-3. Nộp hồ sơ KTCL tại Bộ Thông tin và Truyền thông
-4. Cấp Giấy chứng nhận
-5. Khai báo HQ
-6. Thông quan
+3. Công bố hợp quy (NĐ 132/2008)
+4. Nộp hồ sơ Tổng cục TCĐLCL
+5. Cấp Phiếu công bố
+6. Khai báo HQ
+7. Thông quan
+
+## Quan hệ với VB khác
+- **Căn cứ**: NĐ 132/2008/NĐ-CP, Luật CLSPHH 2007
+- **Có thể bị thay bởi**: TT 36/2026/TT-BKHCN (KTCL BKHCN 2026 - đã có wiki)
 
 ## Related concepts (chưa có wiki)
-- kiem-tra-chuyen-nganh
-- các concept liên quan
+- nhom-2
+- cong-bo-hop-quy
+- btttt
+- [[concepts/thu-tuc-hai-quan-xnk]]
 
 ## Related sources
-- Cần xác minh với VB liên quan
-
-## Open questions
-- Cần tải toàn văn từ nguồn nào?
-- Phạm vi KTCL cụ thể?
-- Có mã HS cụ thể không?
+- 10-2020-tt-btttt (đã wiki) — TT sửa
+- 13-2018-tt-btttt (stub) — Danh mục ATTT mạng NK
+- 36-2026-tt-bkhcn (chưa có wiki) — KTCL BKHCN 2026
 
 ## Notes
-- VB chưa được tải toàn văn — stub
-- Cần tải bằng `node tools/nap.mjs` hoặc script Python tương tự
-- Ưu tiên: tải từ Công báo (bậc A) hoặc datafiles.chinhphu.vn
-- 0 mã HS trích dẫn trong biểu thuế
+- Đã đọc toàn văn qua `congbaocdn.chinhphu.vn` (887KB, 94K chars)
+- 9 điều + 61 mã HS
+- BTTTT đã sáp nhập BKHCN (2025)
+- Lưu ý: BTTTT (cũ) cũng quản lý ATTT mạng (TT 13/2018)
