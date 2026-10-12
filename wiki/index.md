@@ -36,6 +36,9 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[concepts/dong-vat-hoang-da-nguy-cap]]
 - [[concepts/duoc-lieu-theo-luat-duoc-2016]]
 - [[concepts/evfta]]
+- [[concepts/vcfeta]] — VCFTA / VKFTA
+- [[concepts/acfta]] — ACFTA (Form E)
+- [[concepts/xuat-xu-fta]] — Xuất xứ hàng hoá và FTA
 - [[concepts/giay-phep-hoa-chat-co-dieu-kien]]
 - [[concepts/giay-phep-kinh-doanh-mat-ma]]
 - [[concepts/giay-phep-xuat-nhap-khau-mat-ma]]
@@ -51,6 +54,8 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[concepts/kim-cuong-tho]]
 - [[concepts/ktcl-bca-2026]]
 - [[concepts/ktcl-bkhcn-2026]]
+- [[concepts/ktcl-bct-2026]] — KTCL / cắt giảm BCT
+- [[concepts/kiem-tra-chuyen-nganh]] — Khung KTCL 8 bộ từ 01/7/2026
 - [[concepts/ktcl-bnnmt-2026]]
 - [[concepts/ktcl-bnv-2026]]
 - [[concepts/ktcl-bxd-vlxd-2026]]
