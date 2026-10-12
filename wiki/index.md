@@ -103,6 +103,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/16-2026-tt-bnv]]
 - [[sources/163-2025-nd-cp]]
 - [[sources/17-2023-tt-bnnptnt]]
+- [[sources/1725-qd-bct]]
 - [[sources/174-2025-nd-cp]]
 - [[sources/18-2021-nd-cp]]
 - [[sources/182-2025-nd-cp]]
