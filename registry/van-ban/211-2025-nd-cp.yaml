@@ -10,10 +10,10 @@ nhanh:
   - chua-phan-loai
   - kiem-tra-chuyen-nganh/bqp
 nguon:
-- url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-211-2025-nd-cp-45739/58043.htm
-  truy_cap: '2026-07-02'
-- url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/7/45739/58043-1-20251053-1054211-2025-nd-cp.pdf
-  truy_cap: '2026-10-04'
+  - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-211-2025-nd-cp-45739/58043.htm
+    truy_cap: '2026-07-02'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/7/45739/58043-1-20251053-1054211-2025-nd-cp.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 34
 xac_minh:
   muc: NGUON_A
