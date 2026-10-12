@@ -1,0 +1,23 @@
+# Sổ đăng ký văn bản — crawl từ vanban.chinhphu.vn (sheet HT biểu thuế)
+so_hieu: 129/2022/NĐ-CP
+loai: NĐ-CP
+ten: Biểu thuế NK ưu đãi RCEP
+co_quan: Chính phủ
+ngay_ban_hanh: '2022-01-01'
+hieu_luc_tu: '2022-12-30'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - bieu-thue-xnk
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05'
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-10'
+  boi: hermes-agent@ozvietnam
+  ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
+nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?docid=207257&pageid=27160
+    truy_cap: '2026-10-10'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/129-nd.signed.pdf
+    truy_cap: '2026-10-10'
+toan_van: raw/download/datafiles.chinhphu.vn/129-2022-nd-cp.pdf

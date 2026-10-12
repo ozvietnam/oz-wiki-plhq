@@ -1,0 +1,23 @@
+# Sổ đăng ký văn bản — crawl từ vanban.chinhphu.vn (sheet HT biểu thuế)
+so_hieu: 260/2025/NĐ-CP
+loai: NĐ-CP
+ten: Biểu thuế xuất khẩu (sửa)
+co_quan: Chính phủ
+ngay_ban_hanh: '2025-01-01'
+hieu_luc_tu: '15/07/2023'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - bieu-thue-xnk
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05'
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-10'
+  boi: hermes-agent@ozvietnam
+  ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
+nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?docid=215575&pageid=27160
+    truy_cap: '2026-10-10'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/10/260nd.signed.pdf
+    truy_cap: '2026-10-10'
+toan_van: raw/download/datafiles.chinhphu.vn/260-2025-nd-cp.pdf

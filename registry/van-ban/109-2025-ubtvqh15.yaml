@@ -1,0 +1,23 @@
+# Sổ đăng ký văn bản — crawl từ vanban.chinhphu.vn (sheet HT biểu thuế)
+so_hieu: 109/2025/UBTVQH15
+loai: UBTVQH15
+ten: Thuế bảo vệ môi trường
+co_quan: UBND
+ngay_ban_hanh: '2025-01-01'
+hieu_luc_tu: '01/01/2026'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - bieu-thue-xnk
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05'
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-10'
+  boi: hermes-agent@ozvietnam
+  ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
+nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?docid=215926&pageid=27160
+    truy_cap: '2026-10-10'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/11/nq109cuaubtvqh.pdf
+    truy_cap: '2026-10-10'
+toan_van: raw/download/datafiles.chinhphu.vn/109-2025-ubtvqh15.pdf
