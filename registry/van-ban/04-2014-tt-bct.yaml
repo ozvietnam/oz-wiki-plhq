@@ -8,12 +8,17 @@ nhanh:
   - kiem-tra-chuyen-nganh/bct
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, trích yếu trên nguồn A; đã nạp toàn văn
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'TT 04/2014/TT-BCT (Bộ Công Thương, ban hành 17/02/2014) — Quy định chi tiết thi hành NĐ 187/2013 về hoạt động mua bán hàng hoá quốc tế. Hết hiệu lực 2018-06-15, bị bãi bỏ bởi Điều 17 khoản 2 điểm a TT 12/2018/TT-BCT. Đã nạp toàn văn PDF datafiles.chinhphu.vn.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-12'
+  boi: legal-customs@ozvietnam
 het_hieu_luc_tu: '2018-06-15'
 ghi_chu: Bị bãi bỏ bởi Điều 17 khoản 2 điểm a TT 12/2018/TT-BCT; stub chưa mở toàn văn nguồn A của chính văn bản này.
+quan_he:
+  bai_bo:
+    - so_hieu: 12/2018/TT-BCT
+      tu_ngay: '2018-06-15'
+      can_cu: 'Điều 17 khoản 2 điểm a TT 12/2018/TT-BCT'
 toan_van: raw/download/datafiles.chinhphu.vn/04-2014-tt-bct.pdf
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-04-2014-tt-bct-2930.htm
