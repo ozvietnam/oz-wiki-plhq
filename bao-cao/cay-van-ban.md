@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-10-12
 
-2232 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2271 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -83,10 +83,49 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Biểu thuế XK, NK ưu đãi và biểu thuế FTA `thue/bieu-thue`
 
-2 văn bản, 2 chưa hết hiệu lực.
+41 văn bản, 41 chưa hết hiệu lực.
 
 - 🟢 [72/2026/NĐ-CP](../registry/van-ban/72-2026-nd-cp.yaml) — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu tại Biểu thuế nhập khẩu ưu đãi ban hành kèm theo Nghị định số 26/2023/NĐ-CP _(hết hiệu lực 2027-01-01)_
+- 🟢 [228/QĐ-BCT](../registry/van-ban/228-qd-bct.yaml) — Áp dụng thuế CBPG tạm thời đối với kính nổi không màu (ID, MA) - vụ AD22
+- 🟢 [56/2026/NĐ-CP](../registry/van-ban/56-2026-nd-cp.yaml) — Biểu thuế NK ưu đãi VN-Cam
+- 🟢 [108/2025/NĐ-CP](../registry/van-ban/108-2025-nd-cp.yaml) — Biểu thuế xuất khẩu (sửa)
+- 🟢 [109/2025/UBTVQH15](../registry/van-ban/109-2025-ubtvqh15.yaml) — Thuế bảo vệ môi trường
+- 🟢 [181/2025/NĐ-CP](../registry/van-ban/181-2025-nd-cp.yaml) — Biểu thuế VAT
+- 🟢 [199/2025/NĐ-CP](../registry/van-ban/199-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
+- 🟢 [206/2025/NĐ-CP](../registry/van-ban/206-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi VN-Lào
+- 🟢 [21/2025/NĐ-CP](../registry/van-ban/21-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
+- 🟢 [260/2025/NĐ-CP](../registry/van-ban/260-2025-nd-cp.yaml) — Biểu thuế xuất khẩu (sửa)
+- 🟢 [3830/QĐ-BKHCN](../registry/van-ban/3830-qd-bkhcn.yaml) — Hàng hóa nhóm 2 thuộc trách nhiệm của BKHCN (đợt 4)
+- 🟢 [66/2025/QH15](../registry/van-ban/66-2025-qh15.yaml) — Luật Thuế tiêu thụ đặc biệt
+- 🟢 [73/2025/NĐ-CP](../registry/van-ban/73-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
+- 🟢 [3011/QĐ-BCT](../registry/van-ban/3011-qd-bct.yaml) — Kết quả rà soát cuối kỳ áp dụng CBPG thép không gỉ cán nguội (TW, ID, MA, CN)
+- 🟢 [144/2024/NĐ-CP](../registry/van-ban/144-2024-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
+- 🟢 [77/2023/NĐ-CP](../registry/van-ban/77-2023-nd-cp.yaml) — Quản lý nhập khẩu hàng hóa tân trang theo Hiệp định CPTPP
 - 🟢 [26/2023/NĐ-CP](../registry/van-ban/26-2023-nd-cp.yaml) — Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hoá và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan
+- 🟢 [04/2023/TT-BCT](../registry/van-ban/04-2023-tt-bct.yaml) — Hạn ngạch thuế quan NK thuốc lá, trứng gia cầm
+- 🟢 [15/2023/QĐ-TTg](../registry/van-ban/15-2023-qd-ttg.yaml) — Biểu thuế NK thông thường
+- 🟢 [112/2022/NĐ-CP](../registry/van-ban/112-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Chi Lê giai đoạn 2022 - 2027
+- 🟢 [113/2022/NĐ-CP](../registry/van-ban/113-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi VN-EAEU
+- 🟢 [114/2022/NĐ-CP](../registry/van-ban/114-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi VN-Cuba
+- 🟢 [115/2022/NĐ-CP](../registry/van-ban/115-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi CPTPP
+- 🟢 [116/2022/NĐ-CP](../registry/van-ban/116-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi EVFTA
+- 🟢 [117/2022/NĐ-CP](../registry/van-ban/117-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi UKVFTA
+- 🟢 [118/2022/NĐ-CP](../registry/van-ban/118-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi ACFTA
+- 🟢 [119/2022/NĐ-CP](../registry/van-ban/119-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi AKFTA
+- 🟢 [120/2022/NĐ-CP](../registry/van-ban/120-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi AJCEP
+- 🟢 [121/2022/NĐ-CP](../registry/van-ban/121-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi AANZFTA
+- 🟢 [122/2022/NĐ-CP](../registry/van-ban/122-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi AIFTA
+- 🟢 [123/2022/NĐ-CP](../registry/van-ban/123-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi AHKFTA
+- 🟢 [124/2022/NĐ-CP](../registry/van-ban/124-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi VJEPA
+- 🟢 [125/2022/NĐ-CP](../registry/van-ban/125-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi VKFTA
+- 🟢 [126/2022/NĐ-CP](../registry/van-ban/126-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi ATIGA
+- 🟢 [129/2022/NĐ-CP](../registry/van-ban/129-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi RCEP
+- 🟢 [41/2022/TT-BCT](../registry/van-ban/41-2022-tt-bct.yaml) — Quy tắc mặt hàng cụ thể EVFTA
+- 🟢 [03/2019/TT-BCT](../registry/van-ban/03-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể CPTPP
+- 🟢 [10/2019/TT-BCT](../registry/van-ban/10-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể ATIGA
+- 🟢 [12/2019/TT-BCT](../registry/van-ban/12-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể ACFTA
+- 🟢 [13/2019/TT-BCT](../registry/van-ban/13-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể AKFTA
+- 🟢 [11/2018/TT-BCT](../registry/van-ban/11-2018-tt-bct.yaml) — Quy tắc mặt hàng cụ thể VNEAEUFTA
 
 ### Miễn, giảm, hoàn thuế `thue/mien-giam-hoan`
 
@@ -2470,5 +2509,15 @@ _Cần để biết cơ quan nào đang quản lý sau sáp nhập 2025–2026._
 
 ## Chưa phân loại — chờ luồng Hệ thống hoá xếp vào cây `chua-phan-loai`
 
-_Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
+9 văn bản, 7 chưa hết hiệu lực.
+
+- 🟢 [126/QĐ-TTg](../registry/van-ban/126-qd-ttg-2026.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu (EVFTA)
+- 🟢 [127/QĐ-TTg](../registry/van-ban/127-qd-ttg-2026.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP)
+- 🟢 [211/2025/NĐ-CP](../registry/van-ban/211-2025-nd-cp.yaml) — Quy định về hoạt động mật mã dân sự và sửa đổi, bổ sung một số điều của Nghị định số 15/2020/NĐ-CP ngày 03/02/2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bưu chính, viễn thông, tần số vô tuyến điện, công nghệ thông tin và giao dịch điện tử
+- 🟢 [45/2023/TT-BCT](../registry/van-ban/45-2023-tt-bct.yaml) — Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý
+- 🟢 [17/2023/TT-BNNPTNT](../registry/van-ban/17-2023-tt-bnnptnt.yaml) — Ban hành Bảng mã HS đối với hàng hóa là thực vật rừng, động vật rừng nguy cấp, quý, hiếm và động vật, thực vật thuộc các Phụ lục Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp
+- ⚫ [1175/QĐ-TTg](../registry/van-ban/1175-qd-ttg-2020.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu (EVFTA) _(hết hiệu lực 2026-01-16)_
+- 🟡 [12/2018/TT-BCT](../registry/van-ban/12-2018-tt-bct.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương _(hết hiệu lực 2026-12-31)_
+- ⚫ [113/2017/NĐ-CP](../registry/van-ban/113-2017-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất _(hết hiệu lực 2026-01-17)_
+- 🟢 [15/2012/QH13](../registry/van-ban/15-2012-qh13.yaml) — Luật Xử lý vi phạm hành chính
 

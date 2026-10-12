@@ -1,7 +1,7 @@
 {
   "phien_ban": "2026-10-12",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2232,
+  "tong": 2271,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -404,6 +404,30 @@
       }
     },
     {
+      "so_hieu": "03/2019/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Quy tắc mặt hàng cụ thể CPTPP",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2019-01-01",
+      "hieu_luc_tu": "2019-01-22",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Không crawl được PDF. Cần tìm từ nguồn bậc A khác."
+      },
+      "toan_van": "chua_co",
+      "slug": "03-2019-tt-bct",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "03/2021/TT-BYT",
       "loai": "THONG_TU",
       "ten": "Bãi bỏ một phần quy định tại Phụ lục 1 ban hành kèm theo Thông tư số 48/2018/TT-BYT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Y tế ban hành Danh mục dược liệu; các chất chiết xuất từ dược liệu, tinh dầu làm thuốc; thuốc cổ truyền, thuốc dược liệu xuất khẩu, nhập khẩu được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
@@ -542,6 +566,30 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "04/2023/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Hạn ngạch thuế quan NK thuốc lá, trứng gia cầm",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2023-01-01",
+      "hieu_luc_tu": "2023-02-20",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Không crawl được PDF. Cần tìm từ nguồn bậc A khác."
+      },
+      "toan_van": "chua_co",
+      "slug": "04-2023-tt-bct",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "05/2007/QH12",
@@ -1262,6 +1310,30 @@
       "toan_van": "raw/download/datafiles.chinhphu.vn/09-2026-nq-cp.pdf",
       "slug": "09-2026-nq-cp",
       "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "10/2019/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Quy tắc mặt hàng cụ thể ATIGA",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2019-01-01",
+      "hieu_luc_tu": "2019-07-22",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Không crawl được PDF. Cần tìm từ nguồn bậc A khác."
+      },
+      "toan_van": "chua_co",
+      "slug": "10-2019-tt-bct",
+      "bac_nguon_cao_nhat": null,
       "quan_he_nguoc": {}
     },
     {
@@ -3322,6 +3394,40 @@
       }
     },
     {
+      "so_hieu": "108/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế xuất khẩu (sửa)",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-01-01",
+      "hieu_luc_tu": "2025-07-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=213700&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/5/108-cp.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/108-2025-nd-cp.pdf",
+      "slug": "108-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "108/TB-TCHQ/2020",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (2827.39.10)",
@@ -3379,6 +3485,40 @@
       "toan_van": "chua_co",
       "slug": "1089-tb-tchq-2020",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "109/2025/UBTVQH15",
+      "loai": "NGHI_QUYET",
+      "ten": "Thuế bảo vệ môi trường",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-01-01",
+      "hieu_luc_tu": "2026-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=215926&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/11/nq109cuaubtvqh.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/109-2025-ubtvqh15.pdf",
+      "slug": "109-2025-ubtvqh15",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -3863,6 +4003,30 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "11/2018/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Quy tắc mặt hàng cụ thể VNEAEUFTA",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2018-01-01",
+      "hieu_luc_tu": "2018-05-29",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Không crawl được PDF. Cần tìm từ nguồn bậc A khác."
+      },
+      "toan_van": "chua_co",
+      "slug": "11-2018-tt-bct",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "11/2018/TT-BTTTT",
@@ -4578,6 +4742,36 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "112/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Chi Lê giai đoạn 2022 - 2027",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-12-30",
+      "hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ datafiles.chinhphu.vn (PDF path: 2023/01/112nd.signed.pdf)"
+      },
+      "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/112nd.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/112-2022-nd-cp.pdf",
+      "slug": "112-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "1124/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (2933.69.00)",
@@ -4737,6 +4931,7 @@
       "het_hieu_luc_tu": "2026-01-17",
       "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
+        "chua-phan-loai",
         "kiem-tra-chuyen-nganh/bct"
       ],
       "nguon": [
@@ -4794,6 +4989,40 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "113/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi VN-EAEU",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-01-01",
+      "hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207172&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/113-nd.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/113-2022-nd-cp.pdf",
+      "slug": "113-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "1133/TB-TCHQ/2022",
@@ -4913,6 +5142,40 @@
       "toan_van": "chua_co",
       "slug": "1139-tb-tchq-2020",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "114/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi VN-Cuba",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-01-01",
+      "hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207171&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/114-nd.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/114-2022-nd-cp.pdf",
+      "slug": "114-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -5424,6 +5687,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "115/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi CPTPP",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-01-01",
+      "hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207173&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/36-bct.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/115-2022-nd-cp.pdf",
+      "slug": "115-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "115/TB-TCHQ/2020",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (3824.99.99)",
@@ -5511,6 +5808,40 @@
       "toan_van": "chua_co",
       "slug": "1151-tb-tchq-2019",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "116/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi EVFTA",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-01-01",
+      "hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207169&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/116-nd.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/116-2022-nd-cp.pdf",
+      "slug": "116-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -5814,6 +6145,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "117/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi UKVFTA",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-01-01",
+      "hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207168&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/117-nd.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/117-2022-nd-cp.pdf",
+      "slug": "117-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "1170/TB-TCHQ/2020",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (3815...)",
@@ -5942,6 +6307,7 @@
       "hieu_luc_tu": "2020-08-04",
       "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
+        "chua-phan-loai",
         "xuat-xu-fta/hiep-dinh"
       ],
       "nguon": [
@@ -6016,6 +6382,40 @@
       "toan_van": "chua_co",
       "slug": "1175-tb-chq-2025",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "118/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi ACFTA",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-01-01",
+      "hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207167&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/118-nd.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/118-2022-nd-cp.pdf",
+      "slug": "118-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -6357,6 +6757,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "119/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi AKFTA",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-01-01",
+      "hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207166&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/119-nd.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/119-2022-nd-cp.pdf",
+      "slug": "119-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "119/TB-TCHQ/2025",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (1515.11.00)",
@@ -6639,6 +7073,7 @@
       "het_hieu_luc_tu": "2026-12-31",
       "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
       "nhanh": [
+        "chua-phan-loai",
         "quan-ly-ngoai-thuong/luat-khung"
       ],
       "nguon": [
@@ -6711,6 +7146,30 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "12/2019/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Quy tắc mặt hàng cụ thể ACFTA",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2019-01-01",
+      "hieu_luc_tu": "2019-07-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Không crawl được PDF. Cần tìm từ nguồn bậc A khác."
+      },
+      "toan_van": "chua_co",
+      "slug": "12-2019-tt-bct",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "12/2022/TT-BGTVT",
@@ -6800,6 +7259,40 @@
       "toan_van": "chua_co",
       "slug": "12-tb-tchq-2021",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "120/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi AJCEP",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-01-01",
+      "hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207165&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/120-nd.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/120-2022-nd-cp.pdf",
+      "slug": "120-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -6980,6 +7473,40 @@
       "toan_van": "chua_co",
       "slug": "1209-tb-tchq-2020",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "121/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi AANZFTA",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-01-01",
+      "hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207164&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/121nd.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/121-2022-nd-cp.pdf",
+      "slug": "121-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -7457,6 +7984,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "122/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi AIFTA",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-01-01",
+      "hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207163&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/122-nd.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/122-2022-nd-cp.pdf",
+      "slug": "122-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "122/TB-CHQ/2025",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (2106.90.59)",
@@ -7817,6 +8378,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "123/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi AHKFTA",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-01-01",
+      "hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207162&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/123-nd.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/123-2022-nd-cp.pdf",
+      "slug": "123-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "1233/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (7229.90.91)",
@@ -7874,6 +8469,40 @@
       "toan_van": "chua_co",
       "slug": "1234-tb-tchq-2019",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "124/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi VJEPA",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-01-01",
+      "hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207161&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/124-nd.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/124-2022-nd-cp.pdf",
+      "slug": "124-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -7952,6 +8581,40 @@
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn + chinhphu.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): QCVN 04:2021/BCA. Kèm Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ (chương 36).",
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/125-2021-tt-bca.pdf",
       "slug": "125-2021-tt-bca",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "125/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi VKFTA",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-01-01",
+      "hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207160&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/125-nd.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/125-2022-nd-cp.pdf",
+      "slug": "125-2022-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -8120,6 +8783,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "126/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi ATIGA",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-01-01",
+      "hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207159&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/126-nd.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/126-2022-nd-cp.pdf",
+      "slug": "126-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "126/2026/TT-BQP",
       "loai": "THONG_TU",
       "ten": "Ban hành Danh mục sản phẩm mật mã dân sự có mức độ rủi ro cao thuộc phạm vi quản lý của Bộ trưởng Bộ Quốc phòng",
@@ -8167,6 +8864,7 @@
       "hieu_luc_tu": "2026-01-16",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
+        "chua-phan-loai",
         "xuat-xu-fta/hiep-dinh"
       ],
       "nguon": [
@@ -8251,6 +8949,7 @@
       "hieu_luc_tu": "2026-01-16",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
+        "chua-phan-loai",
         "xuat-xu-fta/hiep-dinh"
       ],
       "nguon": [
@@ -8541,6 +9240,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "129/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi RCEP",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-01-01",
+      "hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207257&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/129-nd.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/129-2022-nd-cp.pdf",
+      "slug": "129-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "129/TB-TCHQ/2021",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (5806.10.90)",
@@ -8709,6 +9442,30 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "13/2019/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Quy tắc mặt hàng cụ thể AKFTA",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2019-01-01",
+      "hieu_luc_tu": "2019-07-31",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Không crawl được PDF. Cần tìm từ nguồn bậc A khác."
+      },
+      "toan_van": "chua_co",
+      "slug": "13-2019-tt-bct",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "13/2022/NĐ-CP",
@@ -10853,6 +11610,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "144/2024/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi (sửa)",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2024-01-01",
+      "hieu_luc_tu": "2024-07-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=211569&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/11/144-cp.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/144-2024-nd-cp.pdf",
+      "slug": "144-2024-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "144/TB-TCHQ/2020",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (3824.99.99)",
@@ -11160,6 +11951,7 @@
       "ngay_ban_hanh": "2012-06-20",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
+        "chua-phan-loai",
         "xu-phat"
       ],
       "nguon": [
@@ -11280,6 +12072,40 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "15/2023/QĐ-TTg",
+      "loai": "QUYET_DINH",
+      "ten": "Biểu thuế NK thông thường",
+      "co_quan": "TTG",
+      "ngay_ban_hanh": "2023-01-01",
+      "hieu_luc_tu": "2023-07-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207990&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/6/15-ttg.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/15-2023-qd-ttg.pdf",
+      "slug": "15-2023-qd-ttg",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "15/2024/TT-BYT",
@@ -12993,6 +13819,7 @@
       "hieu_luc_tu": "2024-01-30",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
+        "chua-phan-loai",
         "kiem-tra-chuyen-nganh/bnnmt"
       ],
       "nguon": [
@@ -15829,6 +16656,40 @@
       "toan_van": "chua_co",
       "slug": "1807-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "181/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế VAT",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-01-01",
+      "hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=214336&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/181nd.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/181-2025-nd-cp.pdf",
+      "slug": "181-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -19729,6 +20590,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "199/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi (sửa)",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-01-01",
+      "hieu_luc_tu": "2025-09-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=214494&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/199-ndcp.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/199-2025-nd-cp.pdf",
+      "slug": "199-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "199/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (3824.90.99)",
@@ -20908,6 +21803,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "206/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi VN-Lào",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-01-01",
+      "hieu_luc_tu": "2025-07-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=214630&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/206-cp.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/206-2025-nd-cp.pdf",
+      "slug": "206-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "2063/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (3214.10.00)",
@@ -21277,6 +22206,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "21/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi (sửa)",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-01-01",
+      "hieu_luc_tu": "2025-07-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=212714&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/01/21-cp.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/21-2025-nd-cp.pdf",
+      "slug": "21-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "21/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (2822.00.00)",
@@ -21579,6 +22542,7 @@
       "hieu_luc_tu": "2025-09-09",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
+        "chua-phan-loai",
         "kiem-tra-chuyen-nganh/bqp"
       ],
       "nguon": [
@@ -23576,6 +24540,40 @@
       "toan_van": "chua_co",
       "slug": "2276-tb-tchq-2024",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "228/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Áp dụng thuế CBPG tạm thời đối với kính nổi không màu (ID, MA) - vụ AD22",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2026-01-30",
+      "hieu_luc_tu": "2026-02-14",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ moit.gov.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-ap-dung-thue-chong-ban-pha-gia-tam-thoi-doi-voi-mot-so-san-pham-kinh-noi-khong-mau-co-xuat-xu-tu-cong-hoa.html",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://moit.gov.vn/upload/2005517/fck/files/QD_228_QD_BCT_30_01_2026_ap_dung_thue_CBPG_tam_thoi_AD22_ae66b.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/moit.gov.vn/228-qd-bct.pdf",
+      "slug": "228-qd-bct",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -27329,6 +28327,40 @@
       "toan_van": "chua_co",
       "slug": "26-tb-tchq-2020",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "260/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế xuất khẩu (sửa)",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-01-01",
+      "hieu_luc_tu": "2025-07-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=215575&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/10/260nd.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/260-2025-nd-cp.pdf",
+      "slug": "260-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -31896,6 +32928,40 @@
       "toan_van": "chua_co",
       "slug": "301-tb-tchq-2025",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "3011/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Kết quả rà soát cuối kỳ áp dụng CBPG thép không gỉ cán nguội (TW, ID, MA, CN)",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2024-11-12",
+      "hieu_luc_tu": "2024-11-12",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ moit.gov.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-hoan-tat-dieu-tra-ra-soat-cuoi-ky-viec-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pham-thep-k.html",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://moit.gov.vn/upload/2005517/fck/files/QD_3011_12_11_24_65001.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/moit.gov.vn/3011-qd-bct.pdf",
+      "slug": "3011-qd-bct",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -42817,6 +43883,30 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "3830/QĐ-BKHCN",
+      "loai": "QUYET_DINH",
+      "ten": "Hàng hóa nhóm 2 thuộc trách nhiệm của BKHCN (đợt 4)",
+      "co_quan": "BKHCN",
+      "ngay_ban_hanh": "2025-01-01",
+      "hieu_luc_tu": "2025-11-21",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Không crawl được PDF. Cần tìm từ nguồn bậc A khác."
+      },
+      "toan_van": "chua_co",
+      "slug": "3830-qd-bkhcn",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "3830/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (3824.99.99)",
@@ -45786,6 +46876,30 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "41/2022/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Quy tắc mặt hàng cụ thể EVFTA",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2022-01-01",
+      "hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Không crawl được PDF. Cần tìm từ nguồn bậc A khác."
+      },
+      "toan_van": "chua_co",
+      "slug": "41-2022-tt-bct",
+      "bac_nguon_cao_nhat": null,
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "41/2023/TT-BCT",
@@ -48828,6 +49942,7 @@
       "hieu_luc_tu": "2024-02-15",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
+        "chua-phan-loai",
         "quan-ly-ngoai-thuong/giay-phep"
       ],
       "nguon": [
@@ -56110,6 +57225,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "56/2026/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi VN-Cam",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2026-01-01",
+      "hieu_luc_tu": "2026-02-12",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=216953&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/02/56-nd.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/56-2026-nd-cp.pdf",
+      "slug": "56-2026-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "5606/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (2840.20.00)",
@@ -61874,6 +63023,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "66/2025/QH15",
+      "loai": "LUAT",
+      "ten": "Luật Thuế tiêu thụ đặc biệt",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2025-01-01",
+      "hieu_luc_tu": "2026-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=214598&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/66qhm.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/66-2025-qh15.pdf",
+      "slug": "66-2025-qh15",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "6625/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (2931.90.90)",
@@ -66063,6 +67246,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "73/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế NK ưu đãi (sửa)",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-01-01",
+      "hieu_luc_tu": "2025-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=213245&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/3/73-cp.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/73-2025-nd-cp.pdf",
+      "slug": "73-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "730/TB-TCHQ/2023",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (2106.90.72)",
@@ -67593,6 +68810,40 @@
       "toan_van": "chua_co",
       "slug": "7651-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "77/2023/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quản lý nhập khẩu hàng hóa tân trang theo Hiệp định CPTPP",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2023-11-02",
+      "hieu_luc_tu": "2024-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-10",
+        "boi": "hermes-agent@ozvietnam",
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn docid=208887"
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=208887&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/11/77-cp.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/77-2023-nd-cp.pdf",
+      "slug": "77-2023-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
