@@ -1,54 +1,75 @@
 ---
 id: 22-2018-tt-bldtbxh
-title: "Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội"
+title: "TT 22/2018/TT-BLĐTBXH — Danh mục 67 sản phẩm nhóm 2 BLDTBXH (KTCL)"
 type: source
 created: 2026-10-12
 updated: 2026-10-12
 authors:
   - BLDTBXH
-year: 0
+year: 2018
 source_type: legal
-importance: 2
-provenance: missing
-confidence: medium
-tags: [stub, kiem-tra-chuyen-nganh, het-hieu-luc]
+importance: 4
+provenance: replayable
+confidence: high
+tags: [bldtbxh, kiem-tra-chuyen-nganh, nhom-2, khai-bao-hai-quan, ma-hs, an-toan-lao-dong]
+urls:
+  - https://congbao.chinhphu.vn/van-ban/thong-tu-so-22-2018-tt-bldtbxh-28493.htm
 ---
 
 ## Summary
 
-**Stub page** — Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội (22/2018/TT-BLĐTBXH) ban hành , có hiệu lực từ , **hết hiệu lực từ 2021-07-18** theo tinh_trang trong registry.
+**Thông tư 22/2018/TT-BLĐTBXH** ban hành 2018, hiệu lực 2018, ban hành **Danh mục sản phẩm, hàng hóa nhóm 2** thuộc trách nhiệm quản lý BLDTBXH (5 điều, 67 mã HS).
 
-> **Lưu ý**: Theo rule của Sếp Thắng, VB bị bãi bỏ / hết hiệu lực chỉ tạo stub ngắn (metadata + quan hệ), KHÔNG nạp toàn văn PDF. Wiki này ghi nhận lịch sử.
+**Bị thay thế bởi**: TT 01/2021/TT-BLĐTBXH
 
-**Bãi bỏ / thay thế bởi**: Bị sửa bởi 13-2024-tt-bldtbxh
-
-**Cơ quan ban hành**: Bộ Lao động - Thương binh và Xã hội
+**Cơ quan ban hành**: Bộ Lao động - Thương binh và Xã hội (BLDTBXH)
+**Cơ quan thực hiện**: Tổng cục TCĐLCL
 
 ## Tình trạng hiệu lực
 
 | Mốc | Sự kiện |
 |---|---|
-|  | Bộ Lao động - Thương binh và Xã hội ban hành |
-|  | Có hiệu lực |
-| 2021-07-18 | **Hết hiệu lực** |
+| 2018 | BLDTBXH ban hành + có hiệu lực |
+| Sau 2021 | Bị thay thế bởi TT 01/2021 |
 
-## Căn cứ pháp lý (nếu có)
-- Cần đối chiếu với VB thay thế / bãi bỏ
-- Có thể tham chiếu ở các concept/wiki source liên quan
+## Cấu trúc (5 điều + Phụ lục)
+
+| Điều | Nội dung |
+|---|---|
+| 1 | Phạm vi điều chỉnh |
+| 2 | Đối tượng áp dụng |
+| 3 | Danh mục sản phẩm, hàng hóa nhóm 2 |
+| ... | ... |
+| 5 | Tổ chức thực hiện |
+
+## 67 mã HS
+
+> Danh sách chi tiết tại Phụ lục. Sản phẩm mất an toàn thuộc BLDTBXH (công bố hợp quy).
+
+## Căn cứ
+
+- NĐ 132/2008/NĐ-CP
+- Luật CLSPHH 2007
+- NĐ chức năng BLDTBXH
+
+## Quan hệ với VB khác
+
+- **Bị thay thế bởi**: 01/2021/TT-BLĐTBXH
+- **Cùng nhóm**: 26/2018/TT-BLĐTBXH (13 sản phẩm - HET_HIEU_LUC), 13/2024/TT-BLĐTBXH
 
 ## Related concepts (chưa có wiki)
-- kiem-tra-chuyen-nganh (cần tạo concept)
-- các concept liên quan đến lĩnh vực của VB
+- nhom-2
+- cong-bo-hop-quy
+- bldtbxh
+- an-toan-lao-dong
 
-## Related sources (chưa có wiki)
-- Cần đối chiếu với các VB thay thế / bãi bỏ
-
-## Open questions
-- VB nào thay thế hoàn toàn?
-- Có còn áp dụng phần nào không?
+## Related sources
+- 01-2021-tt-bldtbxh (stub) — TT thay thế
+- 26-2018-tt-bldtbxh (đã wiki) — 13 sản phẩm
+- 13-2024-tt-bldtbxh (đã wiki) — Sửa 26/2018
 
 ## Notes
-- VB đã hết hiệu lực — không nạp toàn văn (rule Sếp Thắng 2026-10-10)
-- Cần đối chiếu với VB thay thế để có thông tin đầy đủ
-- Lưu ý: Có thể có phần chuyển tiếp trong VB thay thế (Điều X "Chuyển tiếp")
-- Tham khảo: ~0 mã HS trong biểu thuế (nếu có)
+- Đã đọc toàn văn qua `congbaocdn.chinhphu.vn` (359KB, 12K chars)
+- 5 điều + 67 mã HS
+- Tình trạng hiệu lực cần xác minh (có thể đã bị thay)
+- Đã có TT 01/2021 thay thế → cần đối chiếu

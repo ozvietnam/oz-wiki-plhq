@@ -1,8 +1,8 @@
 # Kiểm tra mã HS 14 DM (09/2024/TT-BYT) vs biểu thuế VN 2026
 
-**Ngày check:** 2026-10-12 16:54  
+**Ngày check:** 2026-10-12 17:37  
 **CSV input:** `danh-muc/09-2024-tt-byt-full.csv` (3400 dòng)  
-**Biểu thuế:** `data/tax.json` (11871 mã HS)  
+**Biểu thuế:** `nhu-cau/bieu-thue.json` (11871 mã HS, chụp từ hs-code-api)  
 
 ## Tóm tắt
 
