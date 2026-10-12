@@ -122,6 +122,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/27-2026-tt-bnnmt-pl2]]
 - [[sources/27-2026-tt-bnnmt]]
 - [[sources/27-2026-tt-byt]]
+- [[sources/2711-qd-bkhcn]]
 - [[sources/28-2026-tt-bct]]
 - [[sources/28-2026-tt-byt]]
 - [[sources/32-2020-tt-byt]]
