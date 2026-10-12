@@ -1,5 +1,5 @@
 // Test công cụ trên sổ giả lập (thư mục tạm) — không đụng registry/ thật, không cần mạng.
-import { mkdtempSync, mkdirSync, writeFileSync, cpSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, writeFileSync, cpSync, readFileSync, existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { napSo, khoa, slugTuSoHieu, bacNguon, ROOT } from '../lib/registry.mjs';
@@ -183,6 +183,19 @@ t('không có hàng thật → không sinh việc', !timDiemMu(so6, { today: '20
 
 const sach = lamSachHtml('<html><script>x()</script><nav>menu</nav><p>Điều 1.&nbsp;Phạm vi</p><p>Điều 2</p></html>');
 t('làm sạch HTML: bỏ script/menu, giữ đoạn', sach === 'Điều 1. Phạm vi\nĐiều 2', JSON.stringify(sach));
+
+// 8. Bản chụp biểu thuế (issue #133: data/tax.json trùng byte với hs-code-api — đã chuyển sang
+// nhu-cau/bieu-thue.json chụp tự động). Đảm bảo luôn có nguồn + phiên bản + đủ dòng mã HS.
+const taxSnap = JSON.parse(readFileSyncSafe('nhu-cau/bieu-thue.json'));
+t('bản chụp biểu thuế: tồn tại + có _comment + nguon + phien_ban + tong + ma',
+  taxSnap && taxSnap.nguon && taxSnap.nguon.startsWith('https://raw.githubusercontent.com/ozvietnam/hs-code-api/')
+  && typeof taxSnap.tong === 'number' && taxSnap.tong >= 10000
+  && taxSnap.ma && Object.keys(taxSnap.ma).length >= 10000,
+  JSON.stringify({ nguon: taxSnap?.nguon, tong: taxSnap?.tong, soMa: Object.keys(taxSnap?.ma || {}).length }));
+t('bản chụp biểu thuế: không phải file cũ data/tax.json 5.7MB', !existsSyncSafe('data/tax.json'));
+
+function readFileSyncSafe(p) { try { return readFileSync(join(ROOT, p), 'utf8'); } catch { return null; } }
+function existsSyncSafe(p) { try { return existsSync(join(ROOT, p)); } catch { return false; } }
 
 console.log(`\n${pass} passed, ${fail} failed`);
 process.exit(fail ? 1 : 0);
