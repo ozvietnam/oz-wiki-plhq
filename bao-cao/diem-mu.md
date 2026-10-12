@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-10-12
 
-Tổng 4492 điểm: **39 cao**, 148 vừa, 4305 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 4496 điểm: **39 cao**, 152 vừa, 4305 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -13,7 +13,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Nhánh cây thiếu loại văn bản bắt buộc | Cao | 3 | `do-tham` |
 | Cảnh báo nguồn | Cao | 1 | `truy-vet-nguon` |
 | Chưa có nguồn chính thống | Vừa | 2036 | `truy-vet-nguon` |
-| Wiki nhắc văn bản chưa đăng ký | Vừa | 74 | `lien-ket-cheo` |
+| Wiki nhắc văn bản chưa đăng ký | Vừa | 78 | `lien-ket-cheo` |
 | Thư viện hs-code-api ghi khác sổ | Vừa | 14 | `hieu-luc` |
 | Văn bản khung thiếu thông tin | Vừa | 10 | `he-thong-hoa` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
@@ -150,7 +150,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **1022/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - … và 1996 điểm khác (xem bao-cao/diem-mu.json)
 
-## Wiki nhắc văn bản chưa đăng ký (74)
+## Wiki nhắc văn bản chưa đăng ký (78)
 
 - [ ] **Wiki nhắc 121/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/cptpp.md, wiki/sources/127-qd-ttg-2026.md).
 - [ ] **Wiki nhắc 35/2019/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/dong-vat-hoang-da-nguy-cap.md).
@@ -182,17 +182,17 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Wiki nhắc 99/2015/QH13 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2026-qh16.md).
 - [ ] **Wiki nhắc 101/2015/QH13 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2026-qh16.md).
 - [ ] **Wiki nhắc 117/2025/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2026-qh16.md).
+- [ ] **Wiki nhắc 127/2007/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/125-2021-tt-bca.md).
+- [ ] **Wiki nhắc 01/2018/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/125-2021-tt-bca.md).
+- [ ] **Wiki nhắc 137/2020/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/125-2021-tt-bca.md).
+- [ ] **Wiki nhắc 65/2014/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/125-2021-tt-bca.md).
 - [ ] **Wiki nhắc 149/2020/TT-BCA nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/125-2026-tt-bca.md).
 - [ ] **Wiki nhắc 58/2020/TT-BCA nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/125-2026-tt-bca.md).
 - [ ] **Wiki nhắc 31/2021/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/163-2025-nd-cp.md).
 - [ ] **Wiki nhắc 21/2011/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/1725-qd-bct.md).
 - [ ] **Wiki nhắc 96/2022/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/1725-qd-bct.md).
 - [ ] **Wiki nhắc 04/2017/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/1725-qd-bct.md).
-- [ ] **Wiki nhắc 14/2023/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/1725-qd-bct.md).
-- [ ] **Wiki nhắc 36/2016/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/1725-qd-bct.md).
-- [ ] **Wiki nhắc 204/2025/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/174-2025-nd-cp.md, wiki/sources/204-2025-qh15.md).
-- [ ] **Wiki nhắc 94/2025/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/174-2025-nd-cp.md).
-- … và 34 điểm khác (xem bao-cao/diem-mu.json)
+- … và 38 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Thư viện hs-code-api ghi khác sổ (14)
 
