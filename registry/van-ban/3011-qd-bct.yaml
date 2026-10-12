@@ -1,18 +1,24 @@
 # Sổ đăng ký văn bản — từ sheet HT biểu thuế
 so_hieu: 3011/QĐ-BCT
 loai: QĐ-BCT
-ten: Áp thuế CBPG Thép không gỉ cán nguội (TW, ID, MA, CN)
+ten: Kết quả rà soát cuối kỳ áp dụng CBPG thép không gỉ cán nguội (TW, ID, MA, CN)
 co_quan: Bộ Công Thương
-ngay_ban_hanh: '2024-01-01'
-hieu_luc_tu: '12/11/2024'
+ngay_ban_hanh: '2024-11-12'
+hieu_luc_tu: '2024-11-12'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - bieu-thue-xnk
+  - chong-ban-pha-gia
 xac_minh:
-  muc: NGUON_C
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF'
+  muc: NGUON_A
+  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05'
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-10'
   boi: hermes-agent@ozvietnam
-  ghi_chu: 'Không crawl được PDF. Cần tìm từ nguồn bậc A khác.'
-toan_van: chua_co
+  ghi_chu: 'Crawl từ moit.gov.vn'
+nguon:
+  - url: https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-hoan-tat-dieu-tra-ra-soat-cuoi-ky-viec-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pham-thep-k.html
+    truy_cap: '2026-10-10'
+  - url: https://moit.gov.vn/upload/2005517/fck/files/QD_3011_12_11_24_65001.pdf
+    truy_cap: '2026-10-10'
+toan_van: raw/download/moit.gov.vn/3011-qd-bct.pdf

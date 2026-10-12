@@ -9,11 +9,15 @@ tinh_trang: CON_HIEU_LUC
 nhanh:
   - bieu-thue-xnk
   - chile
+  - vcfeta
 xac_minh:
-  muc: NGUON_C
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy docid trên vanban.chinhphu.vn'
+  muc: NGUON_A
+  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05'
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-10'
   boi: hermes-agent@ozvietnam
-  ghi_chu: 'Cần tìm nguồn PDF khác (BCT hoặc CHILE đại sứ quán)'
-toan_van: chua_co
+  ghi_chu: 'Crawl từ datafiles.chinhphu.vn (PDF path: 2023/01/112nd.signed.pdf)'
+nguon:
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/112nd.signed.pdf
+    truy_cap: '2026-10-10'
+toan_van: raw/download/datafiles.chinhphu.vn/112-2022-nd-cp.pdf
