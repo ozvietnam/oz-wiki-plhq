@@ -146,6 +146,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/60-2019-tt-btc]]
 - [[sources/62-2024-tt-bgtvt]]
 - [[sources/71-2025-tt-bxd]]
+- [[sources/765-qd-bct]]
 - [[sources/78-2025-qh15]]
 - [[sources/85-2026-tt-btc]]
 - [[summary/khung-kiem-tra-chuyen-nganh-2026]]
