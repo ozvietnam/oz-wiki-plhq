@@ -9,8 +9,8 @@ nhanh:
   - chua-phan-loai
   - xu-phat
 nguon:
-- url: https://congbao.chinhphu.vn/van-ban/luat-so-15-2012-qh13-915.htm
-  truy_cap: '2026-10-04'
+  - url: https://congbao.chinhphu.vn/van-ban/luat-so-15-2012-qh13-915.htm
+    truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
   pham_vi: số hiệu, tiêu đề, ngày ban hành
@@ -19,5 +19,5 @@ xac_minh:
   boi: cay-du-lieu-agent
 ghi_chu: Khung chung xử lý VPHC; đã được sửa đổi/bổ sung nhiều lần (gồm Luật 88/2025/QH15). Ngày hiệu lực đầy đủ cần đối chiếu nguồn A (không đoán).
 tu_khoa:
-- xu-phat
-- xu-ly-vphc
+  - xu-phat
+  - xu-ly-vphc
