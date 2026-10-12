@@ -13167,6 +13167,14 @@
         "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (17 mã HS). PDF datafiles là ảnh ký số — điều khoản đọc bằng OCR.",
+      "danh_muc_hs": {
+        "tep": "danh-muc/16-2024-tt-byt.csv",
+        "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/10/16-byt.pdf",
+        "trich_boi": "legal-customs@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": true,
+        "ghi_chu": "Phụ lục trang 3-9, 49 dòng, 17 mã 8 số unique (tập trung Ch.3808: 3808.61, 3808.62, 3808.69, 3808.91, 3808.94). Mã trùng nhắc nhiều lần ở các dòng khác nhau."
+      },
       "quan_he": {
         "bai_bo": [
           {

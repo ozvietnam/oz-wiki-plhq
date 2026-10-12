@@ -8,6 +8,465 @@
  },
  "van_ban": [
   {
+   "so_hieu": "16/2024/TT-BYT",
+   "slug": "16-2024-tt-byt",
+   "ten": "Ban hành Danh mục chế phẩm diệt côn trùng, diệt khuẩn dùng trong lĩnh vực gia dụng và y tế đã được xác định mã số HS theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2024-11-15",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "bang": {
+    "tep": "danh-muc/16-2024-tt-byt.csv",
+    "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/10/16-byt.pdf",
+    "trich_boi": "legal-customs@ozvietnam",
+    "ngay": "2026-10-12",
+    "da_doi_chieu": true
+   },
+   "dong": [
+    {
+     "ma_hs": "38086110",
+     "mo_ta": "Hương (nhang) vòng chống muỗi đóng gói TL ≤ 300g (chứa alpha-cypermethrin, bendiocarb, bifenthrin, chlorfenapyr, deltamethrin, etofenprox, fenitrothion, lambda-cyhalothrin, pirimiphos-methyl hoặc propoxur)",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Hương (nhang) xua, diệt côn trùng dùng trong gia dụng và y tế",
+     "dan_chieu": "3"
+    },
+    {
+     "ma_hs": "38086190",
+     "mo_ta": "Hương (nhang) chống muỗi không dạng hương vòng đóng gói TL ≤ 300g (chứa alpha-cypermethrin, bendiocarb, bifenthrin, chlorfenapyr, deltamethrin, etofenprox, fenitrothion, lambda-cyhalothrin, pirimiphos-methyl hoặc propoxur)",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Hương (nhang) xua, diệt côn trùng dùng trong gia dụng và y tế",
+     "dan_chieu": "3"
+    },
+    {
+     "ma_hs": "38086220",
+     "mo_ta": "Hương (nhang) vòng chống muỗi đóng gói TL trên 300g nhưng không quá 7,5kg",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Hương (nhang) xua, diệt côn trùng dùng trong gia dụng và y tế",
+     "dan_chieu": "3"
+    },
+    {
+     "ma_hs": "38086290",
+     "mo_ta": "Hương (nhang) chống muỗi không dạng hương vòng đóng gói TL trên 300g nhưng không quá 7,5kg",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Hương (nhang) xua, diệt côn trùng dùng trong gia dụng và y tế",
+     "dan_chieu": "3"
+    },
+    {
+     "ma_hs": "38089140",
+     "mo_ta": "Hương (nhang) vòng chống muỗi trừ loại có thành phần thuộc 3808.61.10; 3808.61.90; 3808.62.20; 3808.62.90",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Hương (nhang) xua, diệt côn trùng dùng trong gia dụng và y tế",
+     "dan_chieu": "3"
+    },
+    {
+     "ma_hs": "38089199",
+     "mo_ta": "Hương (nhang) chống muỗi không dạng hương vòng trừ loại có thành phần thuộc 3808.61.10; 3808.61.90; 3808.62.20; 3808.62.90",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Hương (nhang) xua, diệt côn trùng dùng trong gia dụng và y tế",
+     "dan_chieu": "3"
+    },
+    {
+     "ma_hs": "38086120",
+     "mo_ta": "Tấm tẩm hóa chất (dùng điện hoặc không dùng điện) đóng gói TL ≤ 300g",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Tấm tẩm hóa chất xua, diệt muỗi (dùng hoặc không dùng điện) dùng trong gia dụng và y tế",
+     "dan_chieu": "4"
+    },
+    {
+     "ma_hs": "38086230",
+     "mo_ta": "Tấm tẩm hóa chất (dùng điện hoặc không dùng điện) đóng gói TL trên 300g nhưng không quá 7,5kg",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Tấm tẩm hóa chất xua, diệt muỗi (dùng hoặc không dùng điện) dùng trong gia dụng và y tế",
+     "dan_chieu": "4"
+    },
+    {
+     "ma_hs": "38089150",
+     "mo_ta": "Tấm tẩm hóa chất (dùng điện hoặc không dùng điện) trừ loại có thành phần thuộc 3808.61.20; 3808.62.30",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Tấm tẩm hóa chất xua, diệt muỗi (dùng hoặc không dùng điện) dùng trong gia dụng và y tế",
+     "dan_chieu": "4"
+    },
+    {
+     "ma_hs": "38086140",
+     "mo_ta": "Dung dịch bốc hơi xua, diệt côn trùng đóng gói TL ≤ 300g",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Dung dịch bốc hơi xua, diệt côn trùng (không có chức năng khử mùi) dùng trong gia dụng và y tế",
+     "dan_chieu": "4"
+    },
+    {
+     "ma_hs": "38086250",
+     "mo_ta": "Dung dịch bốc hơi xua, diệt côn trùng đóng gói TL trên 300g nhưng không quá 7,5kg",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Dung dịch bốc hơi xua, diệt côn trùng (không có chức năng khử mùi) dùng trong gia dụng và y tế",
+     "dan_chieu": "4"
+    },
+    {
+     "ma_hs": "38086990",
+     "mo_ta": "Dung dịch bốc hơi xua, diệt côn trùng đóng gói TL trên 7,5kg",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Dung dịch bốc hơi xua, diệt côn trùng (không có chức năng khử mùi) dùng trong gia dụng và y tế",
+     "dan_chieu": "4"
+    },
+    {
+     "ma_hs": "38089199",
+     "mo_ta": "Dung dịch bốc hơi xua, diệt côn trùng trừ loại có thành phần thuộc 3808.61.40; 3808.62.50; 3808.69.90",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Dung dịch bốc hơi xua, diệt côn trùng (không có chức năng khử mùi) dùng trong gia dụng và y tế",
+     "dan_chieu": "4"
+    },
+    {
+     "ma_hs": "38086130",
+     "mo_ta": "Bình xịt xua, diệt côn trùng đóng gói TL ≤ 300g",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Bình xịt xua, diệt côn trùng dùng trong gia dụng và y tế",
+     "dan_chieu": "4"
+    },
+    {
+     "ma_hs": "38086240",
+     "mo_ta": "Bình xịt xua, diệt côn trùng đóng gói TL trên 300g nhưng không quá 7,5kg",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Bình xịt xua, diệt côn trùng dùng trong gia dụng và y tế",
+     "dan_chieu": "5"
+    },
+    {
+     "ma_hs": "38086990",
+     "mo_ta": "Bình xịt xua, diệt côn trùng đóng gói TL trên 7,5kg",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Bình xịt xua, diệt côn trùng dùng trong gia dụng và y tế",
+     "dan_chieu": "5"
+    },
+    {
+     "ma_hs": "38089130",
+     "mo_ta": "Bình xịt xua, diệt côn trùng trừ loại có thành phần thuộc 3808.61.30; 3808.62.40; 3808.69.90",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Bình xịt xua, diệt côn trùng dùng trong gia dụng và y tế",
+     "dan_chieu": "5"
+    },
+    {
+     "ma_hs": "38086140",
+     "mo_ta": "Chế phẩm xua, diệt côn trùng dạng lỏng đóng gói TL ≤ 300g",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm xua, diệt côn trùng dùng trong gia dụng và y tế dạng bột, gel, kem, sơn (sơn có chứa hoạt chất xua, diệt côn trùng), bã",
+     "dan_chieu": "5"
+    },
+    {
+     "ma_hs": "38086190",
+     "mo_ta": "Chế phẩm xua, diệt côn trùng dạng lỏng đóng gói TL ≤ 300g ở dạng lỏng (bao gồm cả dạng gel)",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm xua, diệt côn trùng dùng trong gia dụng và y tế dạng bột, gel, kem, sơn (sơn có chứa hoạt chất xua, diệt côn trùng), bã",
+     "dan_chieu": "5"
+    },
+    {
+     "ma_hs": "38086250",
+     "mo_ta": "Chế phẩm xua, diệt côn trùng dạng lỏng đóng gói TL trên 300g nhưng không quá 7,5kg",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm xua, diệt côn trùng dùng trong gia dụng và y tế dạng bột, gel, kem, sơn (sơn có chứa hoạt chất xua, diệt côn trùng), bã",
+     "dan_chieu": "5"
+    },
+    {
+     "ma_hs": "38086290",
+     "mo_ta": "Chế phẩm xua, diệt côn trùng dạng lỏng đóng gói TL trên 300g nhưng không quá 7,5kg ở dạng lỏng (bao gồm cả dạng gel)",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm xua, diệt côn trùng dùng trong gia dụng và y tế dạng bột, gel, kem, sơn (sơn có chứa hoạt chất xua, diệt côn trùng), bã",
+     "dan_chieu": "5"
+    },
+    {
+     "ma_hs": "38086990",
+     "mo_ta": "Chế phẩm xua, diệt côn trùng đóng gói TL trên 7,5kg",
+     "nhom": "5",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm xua, diệt côn trùng dùng trong gia dụng và y tế dạng bột, gel, kem, sơn (sơn có chứa hoạt chất xua, diệt côn trùng), bã",
+     "dan_chieu": "5"
+    },
+    {
+     "ma_hs": "38089130",
+     "mo_ta": "Chế phẩm dạng kem xoa, gel, bình xịt dùng trên người",
+     "nhom": "6",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm dạng kem xoa, gel, bình xịt, tấm dán, vòng xua côn trùng cho người",
+     "dan_chieu": "6"
+    },
+    {
+     "ma_hs": "38089199",
+     "mo_ta": "Tấm dán, vòng đeo tay tẩm hóa chất xua côn trùng dùng trên người",
+     "nhom": "6",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm dạng kem xoa, gel, bình xịt, tấm dán, vòng xua côn trùng cho người",
+     "dan_chieu": "6"
+    },
+    {
+     "ma_hs": "38089199",
+     "mo_ta": "Chế phẩm dạng kem xoa, gel dùng trên người",
+     "nhom": "6",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm dạng kem xoa, gel, bình xịt, tấm dán, vòng xua côn trùng cho người",
+     "dan_chieu": "6"
+    },
+    {
+     "ma_hs": "38086190",
+     "mo_ta": "Chế phẩm mạn, rèm, võng, vải, giấy được tẩm hóa chất xua, diệt côn trùng đóng gói TL ≤ 300g",
+     "nhom": "7",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm mạn, rèm, võng, vải, giấy được tẩm hóa chất xua, diệt côn trùng dùng trong gia dụng và y tế",
+     "dan_chieu": "6"
+    },
+    {
+     "ma_hs": "38086290",
+     "mo_ta": "Chế phẩm mạn, rèm, võng, vải, giấy được tẩm hóa chất xua, diệt côn trùng đóng gói TL trên 300g nhưng không quá 7,5kg",
+     "nhom": "7",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm mạn, rèm, võng, vải, giấy được tẩm hóa chất xua, diệt côn trùng dùng trong gia dụng và y tế",
+     "dan_chieu": "6"
+    },
+    {
+     "ma_hs": "38086990",
+     "mo_ta": "Chế phẩm mạn, rèm, võng, vải, giấy được tẩm hóa chất xua, diệt côn trùng đóng gói TL trên 7,5kg",
+     "nhom": "7",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm mạn, rèm, võng, vải, giấy được tẩm hóa chất xua, diệt côn trùng dùng trong gia dụng và y tế",
+     "dan_chieu": "6"
+    },
+    {
+     "ma_hs": "38089199",
+     "mo_ta": "Chế phẩm mạn, rèm, võng, vải, giấy được tẩm hóa chất xua, diệt côn trùng trừ loại có thành phần thuộc 3808.61.90; 3808.62.90; 3808.69.90",
+     "nhom": "7",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm mạn, rèm, võng, vải, giấy được tẩm hóa chất xua, diệt côn trùng dùng trong gia dụng và y tế",
+     "dan_chieu": "6"
+    },
+    {
+     "ma_hs": "38086140",
+     "mo_ta": "Chế phẩm dạng lỏng (không bao gồm dạng huyền phù (SC), nhũ dầu (EC), nhũ dầu nano (NE), huyền phù vi nang (CS) và các loại huyền phù hoặc nhũ tương khác) dùng để phun tồn lưu (bề mặt), phun mù nóng, mù lạnh để diệt côn trùng, tẩm màn chống muỗi dùng trong gia dụng và y tế hoặc diệt côn trùng trên máy bay, đóng gói với trọng lượng tịnh ≤ 300g",
+     "nhom": "8",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm phun diệt côn trùng dùng trong gia dụng và y tế hoặc diệt côn trùng trên máy bay",
+     "dan_chieu": "7"
+    },
+    {
+     "ma_hs": "38086190",
+     "mo_ta": "Chế phẩm không ở dạng lỏng dùng để phun tồn lưu (bề mặt), phun mù nóng, mù lạnh để diệt côn trùng, tẩm màn chống muỗi dùng trong gia dụng và y tế hoặc diệt côn trùng trên máy bay, đóng gói với trọng lượng tịnh ≤ 300g",
+     "nhom": "8",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm phun diệt côn trùng dùng trong gia dụng và y tế hoặc diệt côn trùng trên máy bay",
+     "dan_chieu": "7"
+    },
+    {
+     "ma_hs": "38086250",
+     "mo_ta": "Chế phẩm dạng lỏng bao gồm dạng huyền phù (SC), nhũ dầu (EC), nhũ dầu nano (NE), huyền phù vi nang (CS) và các loại huyền phù hoặc nhũ tương khác) dùng để phun tồn lưu (bề mặt), phun mù nóng, mù lạnh để diệt côn trùng, tẩm màn chống muỗi dùng trong gia dụng và y tế hoặc diệt côn trùng trên máy bay, đóng gói với trọng lượng tịnh trên 300g nhưng ≤ 7,5kg",
+     "nhom": "8",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm phun diệt côn trùng dùng trong gia dụng và y tế hoặc diệt côn trùng trên máy bay",
+     "dan_chieu": "7"
+    },
+    {
+     "ma_hs": "38086290",
+     "mo_ta": "Chế phẩm không ở dạng lỏng (không bao gồm dạng huyền phù (SC), nhũ dầu (EC), nhũ dầu nano (NE), huyền phù vi nang (CS) và các loại huyền phù hoặc nhũ tương khác) dùng để phun tồn lưu, phun mù nóng, mù lạnh để diệt côn trùng, tẩm màn chống muỗi dùng trong gia dụng và y tế hoặc diệt côn trùng trên máy bay, đóng gói với trọng lượng tịnh trên 300g nhưng ≤ 7,5kg",
+     "nhom": "8",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm phun diệt côn trùng dùng trong gia dụng và y tế hoặc diệt côn trùng trên máy bay",
+     "dan_chieu": "8"
+    },
+    {
+     "ma_hs": "38086990",
+     "mo_ta": "Chế phẩm dùng để phun tồn lưu (bề mặt), phun mù nóng, mù lạnh để diệt côn trùng, tẩm màn chống muỗi dùng trong gia dụng và y tế hoặc diệt côn trùng trên máy bay và được đóng gói với trọng lượng tịnh trên 7,5kg",
+     "nhom": "8",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm phun diệt côn trùng dùng trong gia dụng và y tế hoặc diệt côn trùng trên máy bay",
+     "dan_chieu": "8"
+    },
+    {
+     "ma_hs": "38089199",
+     "mo_ta": "Chế phẩm dùng để phun tồn lưu (bề mặt), phun mù nóng, mù lạnh để diệt côn trùng, tẩm màn chống muỗi dùng trong gia dụng và y tế hoặc diệt côn trùng trên máy bay trừ loại có thành phần thuộc 3808.61.40; 3808.61.90; 3808.62.50; 3808.62.90; 3808.69.90",
+     "nhom": "8",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm phun diệt côn trùng dùng trong gia dụng và y tế hoặc diệt côn trùng trên máy bay",
+     "dan_chieu": "8"
+    },
+    {
+     "ma_hs": "38089199",
+     "mo_ta": "Chế phẩm dùng trong nước để diệt bọ gậy muỗi, bao gồm cả chế phẩm chứa vi sinh vật Bacillus thuringiensis israelensis (Bti)",
+     "nhom": "9",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm diệt bọ gậy dùng trong gia dụng và y tế",
+     "dan_chieu": "7"
+    },
+    {
+     "ma_hs": "38089420",
+     "mo_ta": "Chế phẩm để diệt khuẩn tay dùng trong gia dụng đóng gói dạng bình xịt",
+     "nhom": "10",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm diệt khuẩn tay không dùng nước dùng trong gia dụng",
+     "dan_chieu": "7"
+    },
+    {
+     "ma_hs": "38089490",
+     "mo_ta": "Chế phẩm để diệt khuẩn tay dùng trong gia dụng không thuộc mã 3808.94.20",
+     "nhom": "10",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm diệt khuẩn tay không dùng nước dùng trong gia dụng",
+     "dan_chieu": "7"
+    },
+    {
+     "ma_hs": "38089420",
+     "mo_ta": "Chế phẩm để diệt khuẩn da toàn thân dùng trong y tế cho bệnh nhân, nhân viên y tế đóng gói dạng bình xịt",
+     "nhom": "11",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm tẩm diệt khuẩn dùng trong y tế cho bệnh nhân, nhân viên y tế",
+     "dan_chieu": "7"
+    },
+    {
+     "ma_hs": "38089490",
+     "mo_ta": "Chế phẩm để diệt khuẩn da toàn thân dùng trong y tế cho bệnh nhân, nhân viên y tế không thuộc mã 3808.94.20",
+     "nhom": "11",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm tẩm diệt khuẩn dùng trong y tế cho bệnh nhân, nhân viên y tế",
+     "dan_chieu": "7"
+    },
+    {
+     "ma_hs": "38089420",
+     "mo_ta": "Chế phẩm để diệt khuẩn bề mặt, dụng cụ dùng trong gia dụng đóng gói dạng bình xịt",
+     "nhom": "12",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm diệt khuẩn dụng cụ, bề mặt, đồ dùng trong gia dụng",
+     "dan_chieu": "7"
+    },
+    {
+     "ma_hs": "38089490",
+     "mo_ta": "Chế phẩm để diệt khuẩn bề mặt, dụng cụ dùng trong gia dụng không thuộc mã 3808.94.20",
+     "nhom": "12",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm diệt khuẩn dụng cụ, bề mặt, đồ dùng trong gia dụng",
+     "dan_chieu": "7"
+    },
+    {
+     "ma_hs": "38089490",
+     "mo_ta": "Chế phẩm diệt khuẩn nước sinh hoạt, nước bể bơi trong gia đình",
+     "nhom": "13",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm diệt khuẩn nước trong gia dụng",
+     "dan_chieu": "7"
+    },
+    {
+     "ma_hs": "38089420",
+     "mo_ta": "Chế phẩm diệt khuẩn tay cho nhân viên y tế, diệt khuẩn da bệnh nhân đóng gói dạng bình xịt",
+     "nhom": "14",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm diệt khuẩn da dùng trong y tế",
+     "dan_chieu": "7"
+    },
+    {
+     "ma_hs": "38089490",
+     "mo_ta": "Chế phẩm diệt khuẩn tay cho nhân viên y tế, diệt khuẩn da bệnh nhân không thuộc mã 3808.94.20",
+     "nhom": "14",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm diệt khuẩn da dùng trong y tế",
+     "dan_chieu": "8"
+    },
+    {
+     "ma_hs": "38089420",
+     "mo_ta": "Chế phẩm dùng để diệt khuẩn các bề mặt trong cơ sở y tế đóng gói dạng bình xịt",
+     "nhom": "15",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm diệt khuẩn bề mặt dùng trong y tế",
+     "dan_chieu": "8"
+    },
+    {
+     "ma_hs": "38089490",
+     "mo_ta": "Chế phẩm dùng để diệt khuẩn các bề mặt trong cơ sở y tế không thuộc mã 3808.94.20",
+     "nhom": "15",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm diệt khuẩn bề mặt dùng trong y tế",
+     "dan_chieu": "8"
+    },
+    {
+     "ma_hs": "38089420",
+     "mo_ta": "Chế phẩm dùng để diệt khuẩn trên máy bay đóng gói dạng bình xịt",
+     "nhom": "16",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm diệt khuẩn trên máy bay",
+     "dan_chieu": "8"
+    },
+    {
+     "ma_hs": "38089490",
+     "mo_ta": "Chế phẩm dùng để diệt khuẩn trên máy bay không thuộc mã 3808.94.20",
+     "nhom": "16",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "dieu_kien": "Chế phẩm diệt khuẩn trên máy bay",
+     "dan_chieu": "8"
+    }
+   ]
+  },
+  {
    "so_hieu": "19/2024/TT-BYT",
    "slug": "19-2024-tt-byt",
    "ten": "Ban hành Danh mục thiết bị y tế xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",

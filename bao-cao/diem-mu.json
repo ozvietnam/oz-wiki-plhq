@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-12",
-  "tong": 4502,
+  "tong": 4507,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -40000,15 +40000,6 @@
     },
     {
       "ma": "DANH_MUC_CHUA_TRICH",
-      "muc": "Vừa",
-      "tieuDe": "Chưa trích bảng mã HS: 16/2024/TT-BYT",
-      "muc_tieu": "16/2024/TT-BYT",
-      "viec": "Văn bản danh mục chưa có danh-muc/16-2024-tt-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 17 mã.",
-      "luong": "danh-muc-hs",
-      "trongSo": 17
-    },
-    {
-      "ma": "DANH_MUC_CHUA_TRICH",
       "muc": "Cao",
       "tieuDe": "Chưa trích bảng mã HS: 16/2026/TT-BNV",
       "muc_tieu": "16/2026/TT-BNV",
@@ -40240,6 +40231,60 @@
       "viec": "Văn bản danh mục chưa có danh-muc/9981-qd-bca.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 12 mã.",
       "luong": "danh-muc-hs",
       "trongSo": 12
+    },
+    {
+      "ma": "DAN_CHIEU_CHUA_CO_BANG",
+      "muc": "Vừa",
+      "tieuDe": "16/2024/TT-BYT dẫn mã HS sang 3 — chưa có trong sổ",
+      "muc_tieu": "3",
+      "viec": "danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 3. Thêm 3 vào sổ rồi trích bảng để mã HS của các dòng này tra được.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "DAN_CHIEU_CHUA_CO_BANG",
+      "muc": "Vừa",
+      "tieuDe": "16/2024/TT-BYT dẫn mã HS sang 4 — chưa có trong sổ",
+      "muc_tieu": "4",
+      "viec": "danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 4. Thêm 4 vào sổ rồi trích bảng để mã HS của các dòng này tra được.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "DAN_CHIEU_CHUA_CO_BANG",
+      "muc": "Vừa",
+      "tieuDe": "16/2024/TT-BYT dẫn mã HS sang 5 — chưa có trong sổ",
+      "muc_tieu": "5",
+      "viec": "danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 5. Thêm 5 vào sổ rồi trích bảng để mã HS của các dòng này tra được.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "DAN_CHIEU_CHUA_CO_BANG",
+      "muc": "Vừa",
+      "tieuDe": "16/2024/TT-BYT dẫn mã HS sang 6 — chưa có trong sổ",
+      "muc_tieu": "6",
+      "viec": "danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 6. Thêm 6 vào sổ rồi trích bảng để mã HS của các dòng này tra được.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "DAN_CHIEU_CHUA_CO_BANG",
+      "muc": "Vừa",
+      "tieuDe": "16/2024/TT-BYT dẫn mã HS sang 7 — chưa có trong sổ",
+      "muc_tieu": "7",
+      "viec": "danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 7. Thêm 7 vào sổ rồi trích bảng để mã HS của các dòng này tra được.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "DAN_CHIEU_CHUA_CO_BANG",
+      "muc": "Vừa",
+      "tieuDe": "16/2024/TT-BYT dẫn mã HS sang 8 — chưa có trong sổ",
+      "muc_tieu": "8",
+      "viec": "danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 8. Thêm 8 vào sổ rồi trích bảng để mã HS của các dòng này tra được.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
     },
     {
       "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
