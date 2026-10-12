@@ -17,6 +17,8 @@ export function kiemTra(so, { today = homNay(), root = ROOT } = {}) {
 
   for (const e of so.loiDoc) L(e.file, `YAML hỏng: ${e.message}`);
   const nut = new Set(so.nutCay.map((n) => n.path));
+  // Chấp nhận cả id-only (backward-compatible): mỗi nút được tham chiếu bằng id hoặc path đầy đủ.
+  for (const n of so.nutCay) nut.add(n.id);
   const coQuan = new Set(so.coQuan.map((c) => c.ky_hieu));
   const idCay = new Map();
   for (const n of so.nutCay) {
