@@ -6,8 +6,8 @@ created: 2026-10-09
 updated: 2026-10-09
 key_sources:
   - 49-2026-tt-bxd
-  - 49-2026-tt-bxd-pl1
-  - 49-2026-tt-bxd-pl2
+  - 49-pl1-2026-tt-bxd
+  - 49-pl2-2026-tt-bxd
 related_concepts: []
 confidence: high
 tags:
@@ -39,8 +39,8 @@ Khi hàng hóa có mã HS nằm trong PL I hoặc PL II của TT 49/2026/TT-BXD 
 ## Key sources
 
 - [[sources/49-2026-tt-bxd]] — VB chính
-- [[sources/49-2026-tt-bxd-pl1]] — PL I (rủi ro cao)
-- [[sources/49-2026-tt-bxd-pl2]] — PL II (rủi ro trung bình)
+- [[sources/49-pl1-2026-tt-bxd]] — PL I (rủi ro cao)
+- [[sources/49-pl2-2026-tt-bxd]] — PL II (rủi ro trung bình)
 
 ## Related concepts
 
