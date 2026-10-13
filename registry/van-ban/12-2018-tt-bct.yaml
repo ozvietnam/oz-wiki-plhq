@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 12/2018/TT-BCT
 so_hieu_khac:
-- 12/2018/TT-BTC
+  - 12/2018/TT-BTC
 loai: THONG_TU
 ten: Quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương
 co_quan: BCT
@@ -10,12 +10,13 @@ hieu_luc_tu: '2018-06-15'
 het_hieu_luc_tu: '2026-12-31'
 tinh_trang: HET_HIEU_LUC_MOT_PHAN
 nhanh:
-- quan-ly-ngoai-thuong/luat-khung
+  - chua-phan-loai
+  - quan-ly-ngoai-thuong/luat-khung
 nguon:
-- url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-12-2018-tt-bct-26878/23046.htm
-  truy_cap: '2026-07-02'
-- url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/6/26878/23046-1-2018769-77012-2018-tt-bct.pdf
-  truy_cap: '2026-10-04'
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-12-2018-tt-bct-26878/23046.htm
+    truy_cap: '2026-07-02'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/6/26878/23046-1-2018769-77012-2018-tt-bct.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 37
 xac_minh:
   muc: NGUON_A

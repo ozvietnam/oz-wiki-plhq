@@ -5,15 +5,16 @@ ten: Ban hành Danh mục phế liệu được phép nhập khẩu từ nước
 co_quan: TTG
 ngay_ban_hanh: '2020-09-24'
 hieu_luc_tu: '2020-11-15'
-tinh_trang: CHUA_XAC_MINH
+het_hieu_luc_tu: '2023-06-01'
+tinh_trang: HET_HIEU_LUC
 nhanh:
-  - chua-phan-loai
+  - quan-ly-ngoai-thuong/giay-phep
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-28-2020-qd-ttg-32152.htm
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực, ngày hết hiệu lực (QĐ 13/2023/QĐ-TTg Điều 4 khoản 1 thay thế toàn bộ từ 01/6/2023)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-09'
+  boi: hermes (loop 2026-10-09)

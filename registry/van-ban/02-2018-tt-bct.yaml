@@ -5,15 +5,20 @@ ten: Quy định chi tiết Danh mục hàng hóa mua bán, trao đổi của c�
 co_quan: BCT
 ngay_ban_hanh: '2018-02-27'
 hieu_luc_tu: '2018-02-27'
-tinh_trang: CHUA_XAC_MINH
+tinh_trang: CON_HIEU_LUC
 nhanh:
-  - chua-phan-loai
+  - quan-ly-ngoai-thuong/giay-phep
 nguon:
   - url: https://moit.gov.vn/van-ban-phap-luat/van-ban-phap-quy/-thong-tu-quy-dinh-chi-tiet-danh-muc-hang-hoa-mua-ban-trao-d.html
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'TT 02/2018/TT-BCT (Bộ Công Thương, ban hành 27/02/2018) — Quy định chi tiết Danh mục hàng hóa mua bán, trao đổi của cư dân biên giới. Hiệu lực từ 27/02/2018. Đã sửa đổi bởi TT 34/2025/TT-BCT (hiệu lực 21/07/2025) — vẫn còn hiệu lực ở mức cơ bản.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-12'
+  boi: legal-customs@ozvietnam
+quan_he:
+  sua_doi:
+    - so_hieu: 34/2025/TT-BCT
+      tu_ngay: '2025-07-21'
+      can_cu: 'Sửa đổi, bổ sung một số điều của TT 02/2018/TT-BCT'

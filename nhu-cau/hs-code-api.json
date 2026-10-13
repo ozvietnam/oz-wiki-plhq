@@ -1,8 +1,8 @@
 {
  "_comment": "Chụp từ hs-code-api (scripts/bench-plhq.mjs) bằng node tools/nhu-cau.mjs — KHÔNG sửa tay. tools/diem-mu.mjs đọc tệp này.",
  "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/plhq-bench-latest.json",
- "ngayDo": "2026-10-05",
- "registryVersionKhiDo": "2026-10-05",
+ "ngayDo": "2026-10-10",
+ "registryVersionKhiDo": "2026-10-10",
  "maHsCoChinhSach": 7928,
  "vanBanDuocDan": [
   {
@@ -391,6 +391,12 @@
    "soHieu": "2333/QĐ-BCT"
   },
   {
+   "code": "2105/QD-BCT-2025",
+   "thuVien": "ACTIVE",
+   "so": "HET_HIEU_LUC",
+   "soHieu": "2105/QĐ-BCT"
+  },
+  {
    "code": "1978/QD-BCT",
    "thuVien": "EXPIRED",
    "so": "CON_HIEU_LUC",
@@ -401,6 +407,12 @@
    "thuVien": "EXPIRED",
    "so": "CON_HIEU_LUC",
    "soHieu": "1978/QĐ-BCT"
+  },
+  {
+   "code": "2105/QD-BCT",
+   "thuVien": "ACTIVE",
+   "so": "HET_HIEU_LUC",
+   "soHieu": "2105/QĐ-BCT"
   },
   {
    "code": "2093/QD-BCT-2025",

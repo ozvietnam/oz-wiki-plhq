@@ -1,0 +1,42 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 2169/QĐ-CHQ
+loai: QUYET_DINH
+ten: Ban hành Quy trình phân tích phân loại hàng hoá xuất khẩu, nhập khẩu và kiểm tra, đánh giá tiêu chí kỹ thuật của hàng hoá bằng máy móc, trang thiết bị tại cơ quan Kiểm định hải quan
+co_quan: CHQ
+ngay_ban_hanh: '2025-12-31'
+hieu_luc_tu: '2026-02-01'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs/quy-trinh-phan-loai
+quan_he:
+  thay_the:
+    - so_hieu: 2999/QĐ-TCHQ
+      tu_ngay: '2026-02-01'
+      can_cu: Điều 2 khoản 2 QĐ 2169/QĐ-CHQ (PDF trang 2-3, đã OCR)
+    - so_hieu: 2166/QĐ-TCHQ
+      tu_ngay: '2026-02-01'
+      can_cu: Điều 2 khoản 2 QĐ 2169/QĐ-CHQ (PDF trang 2-3, đã OCR)
+nguon:
+  - url: https://drive.google.com/file/d/1aYmalFpHrMnQ2gn5mZ8JIk-v6krhXJds/view?usp=sharing
+    truy_cap: '2026-10-10'
+toan_van: raw/download/customs.gov.vn/qd2169-chq-2025/qd2169.pdf
+xac_minh:
+  muc: NGUON_B
+  pham_vi: |
+    QĐ 2169/QĐ-CHQ ngày 31-12-2025 của Cục trưởng Cục Hải quan (ký Phó Cục trưởng theo ủy quyền):
+    Điều 1: Ban hành Quy trình phân tích phân loại hàng hoá XNK và kiểm tra, đánh giá tiêu chí kỹ thuật + 3 Phụ lục (1: Kỹ thuật lấy mẫu + bao bì; 2: Danh mục biểu mẫu; 3: Danh mục TCVN hướng dẫn lấy mẫu khoáng sản).
+    Điều 2.1: Hiệu lực 01-02-2026.
+    Điều 2.2: Thay thế QĐ 2999/QĐ-TCHQ 06-9-2017 (Quy chế Kiểm định, phân tích hàng hoá XNK) + QĐ 2166/QĐ-TCHQ 04-8-2021 (Quy trình Phân tích để phân loại hàng hoá XNK).
+    Điều 2.3: Khi văn bản được viện dẫn sửa đổi, bổ sung hoặc thay thế thì áp dụng văn bản mới (forward).
+    Căn cứ: NĐ 08/2015 (sửa bởi NĐ 167/2025), TT 14/2015, TT 17/2021, TT 121/2025 (khoản 11, 14, 16 Điều 1), QĐ 1892/QĐ-BTC, QĐ 382/QĐ-BTC, QĐ 2019/QĐ-BTC. CHƯA tham chiếu TT 85/2026 (ban hành sau, hiệu lực 15-9-2026).
+    Toàn văn đã OCR (PDF scan, 77 trang, sha256 2a6e9da08f7a60d1965e4bc5f0ee79d6b4d50db95ce8c1fc3a76fc8e3e519849, 22MB).
+  hieu_luc_da_doi_chieu: false
+  chan:
+    ma: THIEU_PDF_A
+    ngay: '2026-10-10'
+    viec_tiep: 'Cần tải PDF gốc từ customs.gov.vn (đã bị Cloudflare chặn); bài ISEC Hải quan Facebook + Google Drive link đã verify. Khi customs.gov.vn truy cập được thì nạp raw/download/ và nâng NGUON_A.'
+  ngay: '2026-10-10'
+  boi: hermes@ozvietnam
+  nguon_da_mo:
+    - 'drive.google.com/.../1aYmalFpHrMnQ2gn5mZ8JIk-v6krhXJds/view (Cục Hải quan chia sẻ qua ISEC Hải quan)'
+ghi_chu: 'Đây là Quy trình theo Điều 17.1 TT 85/2026/TT-BTC (về mặt nội dung: quy trình phân tích phân loại do Cục trưởng Cục Hải quan ban hành) nhưng về mặt pháp lý được ban hành theo TT 14/2015/TT-BTC + TT 17/2021 + TT 121/2025 (căn cứ đã liệt kê). Khi TT 85/2026 có hiệu lực 15-9-2026, QĐ 2169 tiếp tục áp dụng theo Điều 2.3 (forward) + Điều 15.2 TT 85/2026. Nguồn bậc B (Google Drive chia sẻ bởi ISEC Hải quan trên Facebook) — cần xác minh thêm từ customs.gov.vn khi có thể.'

@@ -7,12 +7,13 @@ ngay_ban_hanh: '2023-12-29'
 hieu_luc_tu: '2024-02-15'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-- quan-ly-ngoai-thuong/giay-phep
+  - chua-phan-loai
+  - quan-ly-ngoai-thuong/giay-phep
 nguon:
-- url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-45-2023-tt-bct-40975/48170.htm
-  truy_cap: '2026-07-02'
-- url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/12/40975/48170-1-202495-9645-2023-tt-bct.pdf
-  truy_cap: '2026-10-04'
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-45-2023-tt-bct-40975/48170.htm
+    truy_cap: '2026-07-02'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/12/40975/48170-1-202495-9645-2023-tt-bct.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 15
 xac_minh:
   muc: NGUON_A

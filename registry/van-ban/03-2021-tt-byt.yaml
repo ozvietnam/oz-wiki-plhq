@@ -5,15 +5,18 @@ ten: Bãi bỏ một phần quy định tại Phụ lục 1 ban hành kèm theo 
 co_quan: BYT
 ngay_ban_hanh: '2021-03-04'
 hieu_luc_tu: '2021-03-04'
-tinh_trang: CHUA_XAC_MINH
+het_hieu_luc_tu: '2024-07-26'
+tinh_trang: HET_HIEU_LUC
 nhanh:
-  - chua-phan-loai
+  - kiem-tra-chuyen-nganh/byt
 nguon:
+  - url: https://vbpl.vn/en/van-ban/chi-tiet/thong-tu-so-03-2021-tt-byt-bai-bo-mot-phan-quy-dinh-tai-phu-luc-1-ban-hanh-kem-theo-thong-tu-so-48-2018-tt-byt-ngay-28-thang-12-nam-2018-cua-bo-truong-bo-y-te-ban-hanh-danh-muc-duoc-lieu-cac-chiet-xuat-tu-duoc-lieu-tinh-dau-lam-thuoc-thuoc-co-truyen-thuoc-duoc-lieu-xuat-khau-nhap-khau-duoc-xac-dinh-ma-so-hang-hoa-theo-danh-muc-hang-hoa-xuat-khau-nhap-khau-viet-nam--148464
+    truy_cap: '2026-10-09'
   - url: https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-03-2021-TT-BYT-bai-bo-mot-phan-Thong-tu-48-2018-TT-BYT-Danh-muc-duoc-lieu-466615.aspx
     truy_cap: '2026-10-04'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực, ngày hết hiệu lực (TT 09/2024/TT-BYT Điều 4 khoản 2 điểm c bãi bỏ toàn bộ từ 26/7/2024)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-09'
+  boi: hermes (loop 2026-10-09)

@@ -10,11 +10,15 @@ nhanh:
   - kiem-tra-chuyen-nganh/khung-chat-luong
 xac_minh:
   muc: NGUON_A
-  pham_vi: thẻ vanban.chinhphu.vn số hiệu 05/2007/QH12, trích yếu Luật Chất lượng sản phẩm, hàng hoá; thẻ ghi ngày ban hành 05-12-2007, người ký Nguyễn Phú Trọng
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Đã được sửa đổi bởi Luật 78/2025/QH15 (theo nguồn thứ cấp).
+  pham_vi: 'Luật 05/2007/QH12 (Quốc hội KH 12, ban hành 21/11/2007) — Luật Chất lượng sản phẩm, hàng hoá. Hiệu lực từ 01/07/2008. Người ký: Nguyễn Phú Trọng. Đã nạp toàn văn DOC datafiles.chinhphu.vn.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-12'
+  boi: legal-customs@ozvietnam
+ghi_chu: 'Đã được sửa đổi bởi Luật 78/2025/QH15 (theo nguồn thứ cấp).'
+quan_he:
+  sua_doi:
+    - so_hieu: 78/2025/QH15
+      can_cu: 'Luật sửa đổi, bổ sung Luật Chất lượng SP, hàng hoá'
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=51259&pageid=27160
     truy_cap: '2026-10-04'

@@ -16,6 +16,13 @@ nguon:
   - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/9/23/470460-1789953490_v1_1790125719_signed.pdf
     truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 1964
+danh_muc_hs:
+  tep: danh-muc/08-2023-tt-bct.csv
+  nguon: https://congbaocdn.chinhphu.vn/180507251028987904/2026/9/23/470460-1789953490_v1_1790125719_signed.pdf
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-12'
+  da_doi_chieu: false
+  ghi_chu: 'Bảng CSV sẵn có trên main (465 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF Công báo số 663+664 ngày 14-04-2023 (lớp chữ): Điều 3 khoản 1 hiệu lực 16-05-2023; tình trạng hiện tại: Điều 20 khoản 3 điểm c TT 48/2026/TT-BCT (PDF Công báo số 521 ngày 23-09-2026) bãi bỏ khoản 1 Điều 1 và Phụ lục I từ 05-09-2026; Điều 21 khoản 3 cho danh mục thiết bị y tế đã qua sử dụng cấm nhập khẩu (Phụ lục I TT 12/2018 sửa bởi Phụ lục I TT 08/2023) tiếp tục thực hiện đến hết 31-12-2026'
@@ -34,10 +41,3 @@ quan_he:
     - so_hieu: 41/2019/TT-BCT
       tu_ngay: '2023-05-16'
       can_cu: Điều 2 TT 08/2023/TT-BCT
-danh_muc_hs:
-  tep: danh-muc/08-2023-tt-bct.csv
-  nguon: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/3/39178/44425-1-2023663-66408-2023-tt-bct.pdf
-  trich_boi: cursor-agent@ozvietnam
-  ngay: '2026-10-04'
-  da_doi_chieu: false
-  ghi_chu: Phụ lục I–V từ trang PDF 3. ~465 dòng (314 mã duy nhất 4/6/8). PL I=CAM_NHAP_KHAU; PL II=KHAC (tạm ngừng tạm nhập tái xuất); PL III–V=GIAY_PHEP. Một số dòng «Chương NN toàn bộ» (mã 2 số) không ghi CSV vì schema chỉ 4/6/8 — xem /tmp/extract-danh-muc/08-chapters.txt khi soát.

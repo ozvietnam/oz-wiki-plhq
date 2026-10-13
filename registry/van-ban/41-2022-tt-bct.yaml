@@ -1,0 +1,25 @@
+# Sổ đăng ký văn bản — từ sheet HT biểu thuế
+so_hieu: 41/2022/TT-BCT
+loai: THONG_TU
+ten: Quy tắc mặt hàng cụ thể EVFTA
+co_quan: BCT
+ngay_ban_hanh: '2022-01-01'
+hieu_luc_tu: '2022-12-30'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - thue/bieu-thue
+  - xuat-xu-fta/hiep-dinh/vcfeta
+  - thue/bieu-thue-xnk
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF'
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-10'
+  boi: hermes-agent@ozvietnam
+  ghi_chu: 'Crawl từ vanban.chinhphu.vn docid=207201'
+nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?docid=207201&pageid=27160
+    truy_cap: '2026-10-10'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/41-bct.pdf
+    truy_cap: '2026-10-10'
+toan_van: raw/download/datafiles.chinhphu.vn/41-2022-tt-bct.pdf

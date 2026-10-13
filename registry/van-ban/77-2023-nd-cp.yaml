@@ -1,0 +1,24 @@
+# Sổ đăng ký văn bản — từ sheet HT biểu thuế
+so_hieu: 77/2023/NĐ-CP
+loai: NGHI_DINH
+ten: Quản lý nhập khẩu hàng hóa tân trang theo Hiệp định CPTPP
+co_quan: CP
+ngay_ban_hanh: '2023-11-02'
+hieu_luc_tu: '2024-01-01'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - thue/bieu-thue
+  - xuat-xu-fta/hiep-dinh/cptpp
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05'
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-10'
+  boi: hermes-agent@ozvietnam
+  ghi_chu: 'Crawl từ vanban.chinhphu.vn docid=208887'
+nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?docid=208887&pageid=27160
+    truy_cap: '2026-10-10'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/11/77-cp.signed.pdf
+    truy_cap: '2026-10-10'
+toan_van: raw/download/datafiles.chinhphu.vn/77-2023-nd-cp.pdf

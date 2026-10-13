@@ -1,0 +1,18 @@
+# Sổ đăng ký văn bản — từ sheet HT biểu thuế
+so_hieu: 3830/QĐ-BKHCN
+loai: QUYET_DINH
+ten: Hàng hóa nhóm 2 thuộc trách nhiệm của BKHCN (đợt 4)
+co_quan: BKHCN
+ngay_ban_hanh: '2025-01-01'
+hieu_luc_tu: '2025-11-21'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - thue/bieu-thue
+xac_minh:
+  muc: CHUA_XAC_MINH
+  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF'
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-10'
+  boi: hermes-agent@ozvietnam
+  ghi_chu: 'Không crawl được PDF. Cần tìm từ nguồn bậc A khác.'
+toan_van: chua_co

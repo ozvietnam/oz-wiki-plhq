@@ -11,6 +11,13 @@ nhanh:
 quan_he:
   huong_dan:
     - 37/2026/NĐ-CP
+danh_muc_hs:
+  tep: danh-muc/126-2026-tt-bqp.csv
+  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/126-bqp.signed.pdf
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-12'
+  da_doi_chieu: false
+  ghi_chu: 'Bảng CSV sẵn có trên main (54 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF ký số datafiles.chinhphu.vn (ảnh quét, 7 trang): Điều 6 hiệu lực từ 02-09-2026 (viết tay); Điều 5 khoản 2 chuyển tiếp 24 tháng cho sản phẩm đã được cấp phép lưu thông; chưa đăng Công báo (dò ID 469850–470720 ngày 05-10-2026)'
@@ -24,10 +31,3 @@ nguon:
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/126-bqp.signed.pdf
     truy_cap: '2026-10-05'
 toan_van: raw/download/datafiles.chinhphu.vn/126-2026-tt-bqp.pdf
-danh_muc_hs:
-  tep: danh-muc/126-2026-tt-bqp.csv
-  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/126-bqp.signed.pdf
-  trich_boi: claude-code@ozvietnam
-  ngay: '2026-10-05'
-  da_doi_chieu: false
-  ghi_chu: 'Phụ lục trang PDF 5–7 là ẢNH QUÉT (không lớp chữ) — đọc từ ảnh 110 dpi, chưa OCR máy; 54 dòng / 34 mã, cả 34 mã có trong biểu thuế. Cần người thứ hai soát từng mã với ảnh gốc rồi đặt da_doi_chieu: true. Mỗi mã chỉ áp cho sản phẩm CÓ chức năng mật mã (dieu_kien).'

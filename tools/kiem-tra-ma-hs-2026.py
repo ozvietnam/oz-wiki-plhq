@@ -9,20 +9,28 @@ Phát hiện:
 - Mã HS mới (chỉ có trong biểu thuế 2026, không có trong BYT 2024) - tùy chọn
 
 Input:  danh-muc/09-2024-tt-byt-full.csv
-        data/tax.json
+        nhu-cau/bieu-thue.json   (chụp tự động từ hs-code-api bởi tools/nhu-cau.mjs)
 Output: danh-muc/kiem-tra-ma-hs-2026.md (báo cáo markdown)
 
-Usage:  python3 tools/kiem-tra-ma-hs-2026.py
+Usage:  python3 tools/kiem-tra-ma-hs-2026.py [<csv-path>]
+        (mặc định: danh-muc/09-2024-tt-byt-full.csv)
+
+Nếu nhu-cau/bieu-thue.json chưa có: chạy `node tools/nhu-cau.mjs` trước.
+Không dùng path cứng trên máy cá nhân — issue #133.
 """
 import csv
 import json
 import os
+import sys
 from collections import defaultdict
 from datetime import datetime
 
-CSV_PATH = '/Users/ozvietnamdesktop/Documents/Claude/Projects/oz-wiki-plhq/danh-muc/09-2024-tt-byt-full.csv'
-TAX_JSON = '/Users/ozvietnamdesktop/Documents/Claude/Projects/oz-wiki-plhq/data/tax.json'
-OUT_MD = '/Users/ozvietnamdesktop/Documents/Claude/Projects/oz-wiki-plhq/danh-muc/kiem-tra-ma-hs-2026.md'
+# Đường dẫn tương đối từ tools/ lên root repo. Tất cả tool/đầu vào/đầu ra đều relative,
+# không hardcode đường dẫn máy cá nhân.
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CSV_PATH = os.path.join(ROOT, sys.argv[1] if len(sys.argv) > 1 else 'danh-muc/09-2024-tt-byt-full.csv')
+TAX_JSON = os.path.join(ROOT, 'nhu-cau', 'bieu-thue.json')  # chụp tự động bởi tools/nhu-cau.mjs
+OUT_MD = os.path.join(ROOT, 'danh-muc', 'kiem-tra-ma-hs-2026.md')
 
 def load_csv():
     """Đọc CSV 14 DM"""
@@ -30,9 +38,27 @@ def load_csv():
         return list(csv.DictReader(f))
 
 def load_tax():
-    """Đọc tax.json (biểu thuế VN 2026)"""
+    """Đọc nhu-cau/bieu-thue.json (chụp tự động từ hs-code-api).
+
+    Format: {_comment, nguon, phien_ban, tong, ma: {hs: 'mô tả'}}.
+    Hỗ trợ fallback nếu tệp chỉ là dict phẳng (VD khi chạy --from trực tiếp
+    data/tax.json của hs-code-api).
+
+    Nếu chưa có: thông báo chạy tools/nhu-cau.mjs trước.
+    """
+    if not os.path.exists(TAX_JSON):
+        sys.exit(
+            f'❌ Không tìm thấy {TAX_JSON}\n'
+            f'Chạy trước:  node tools/nhu-cau.mjs\n'
+            f'(script này đọc biểu thuế từ hs-code-api và chụp vào nhu-cau/bieu-thue.json — '
+            f'xem issue #133).'
+        )
     with open(TAX_JSON) as f:
-        return json.load(f)
+        tax = json.load(f)
+    # nhu-cau/bieu-thue.json có dạng {ma: {hs: mô tả}}; data/tax.json thô có dạng {hs: {...}}
+    if isinstance(tax, dict) and 'ma' in tax and isinstance(tax['ma'], dict):
+        return tax['ma']
+    return tax
 
 def normalize_hs(hs):
     """Chuẩn hóa mã HS: bỏ dấu chấm, bỏ /xx"""
@@ -104,7 +130,7 @@ def render_markdown(result):
         '',
         f'**Ngày check:** {today}  ',
         f'**CSV input:** `danh-muc/09-2024-tt-byt-full.csv` ({len(result["rows"])} dòng)  ',
-        f'**Biểu thuế:** `data/tax.json` ({len(result["tax"])} mã HS)  ',
+        f'**Biểu thuế:** `nhu-cau/bieu-thue.json` ({len(result["tax"])} mã HS, chụp từ hs-code-api)  ',
         '',
         '## Tóm tắt',
         '',

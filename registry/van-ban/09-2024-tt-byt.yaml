@@ -17,6 +17,13 @@ nguon:
     truy_cap: '2026-10-09'
     ghi_chu: 'VCCI (bậc B) — bản chữ toàn văn đã trích từ Next.js payload; đối chiếu với vbpl.vn'
 trich_dan_trong_bieu_thue: 376
+danh_muc_hs:
+  tep: danh-muc/09-2024-tt-byt.csv
+  nguon: https://moh.gov.vn/tin-tong-hop/-/asset_publisher/k206Q9qkZOqn/content/bo-y-te-he-thong-van-ban-ban-hanh-nam-2024
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-12'
+  da_doi_chieu: false
+  ghi_chu: 'Bảng CSV sẵn có trên main (3334 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'toàn văn vbpl.vn ItemID=169844 (bậc A) + VCCI (bậc B đối chiếu): Điều 1 (Phạm vi điều chỉnh): ban hành 14 DM + nguyên tắc áp dụng; loại trừ tá dược, vỏ nang, hàng không phải nguyên liệu làm thuốc dùng cho người. Điều 2 (Ban hành DM): 14 DM (DM1-5 thuốc KSĐB/thuốc độc/nguyên liệu gây nghiện/hướng thần/tiền chất/chất cấm; DM6 chất phóng xạ; DM7-9 thuốc TP/dược chất/thuốc phối hợp; DM10 vắc xin; DM11 dược liệu; DM12 chất chiết xuất + tinh dầu; DM13 thuốc cổ truyền + thuốc dược liệu; DM14 mỹ phẩm). Điều 3 (Nguyên tắc áp dụng): k1 khác biệt phân loại theo PL HQVN; k2 hàng chưa có trong DM theo PL HQVN + DN gửi VB BYT (Cục QLD hoặc Cục QLYDCT) sau thông quan để cập nhật DM; k3 cùng mặt hàng nhiều mục đích theo PL tương ứng. Điều 4 (Hiệu lực): 26/07/2024; bãi bỏ TT 06/2018, 48/2018, 03/2021. Điều 5 (Trách nhiệm): Cục QLD (DM1-10,14) / Cục QLYDCT (DM11-13) tiếp nhận hồ sơ + giải quyết vướng mắc. Phụ lục: 14 DM, 3.335 dòng. Cấu trúc cột từng DM: DM1-4 (STT|Mô tả|Mã HS|Tên nguyên liệu|Dạng dùng), DM5 (STT|Mô tả|Mã HS|Tên dược chất|Dạng dùng), DM6 (STT|Tên thuốc phóng xạ|Mã HS), DM7 (STT|Tên nguyên liệu/Dạng dùng|Mã HS), DM8 (STT|Mô tả|Mã HS|Tên dược chất|Dạng dùng), DM9 (STT|Mô tả|Mã HS|Tên thành phần hoạt chất|Dạng dùng), DM10 (STT|Tên vắc xin|Công dụng|Mã HS), DM11 (STT|Tên VN|Bộ phận dùng|Tên KH|Mô tả|Mã HS), DM12 (STT|Tên|Tên KH|Mã HS), DM13 (STT|Tên thuốc|Thành phần|Dạng bào chế|Mã HS), DM14 (STT|Mô tả|Mã HS). Phát hiện: (a) Ngải cứu thường gọi = Thanh cao theo Dược điển VN, mã 12119017/12119018 trong DM11; (b) DM9 có 1 dòng Menthol + Methyl salicylate + Camphor + Thymol ở mã 3005.10.10 (chỉ dược chất tổng hợp, KHÔNG có dược liệu tự nhiên); (c) DM13 chỉ có dạng viên/siro, KHÔNG có cao dán.'
@@ -35,12 +42,5 @@ quan_he:
     - so_hieu: 03/2021/TT-BYT
       tu_ngay: '2024-07-26'
       can_cu: Điều 4 khoản 2 điểm c TT 09/2024/TT-BYT
-danh_muc_hs:
-  tep: danh-muc/09-2024-tt-byt.csv
-  nguon: https://vbpl.vn/TW/Pages/ivbpq-toanvan.aspx?ItemID=169844
-  trich_boi: cursor-agent@ozvietnam
-  ngay: '2026-10-04'
-  da_doi_chieu: false
-  ghi_chu: 'Trích từ toàn văn vbpl ItemID=169844 (bậc A). Tệp raw HTML cũ chỉ là trang chủ Next.js — dùng bản chữ đã lấy lại. 14 danh mục → 3334 dòng / 333 mã duy nhất (nhiều hoạt chất/mỹ phẩm trùng mã). Chưa có PDF Công báo ổn định.'
 
 toan_van: raw/download/vcci.com.vn/2024/6/09-2024-tt-byt-body.txt

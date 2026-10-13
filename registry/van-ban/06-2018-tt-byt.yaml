@@ -5,15 +5,16 @@ ten: Ban hành Danh mục thuốc, nguyên liệu làm thuốc dùng cho ngườ
 co_quan: BYT
 ngay_ban_hanh: '2018-04-06'
 hieu_luc_tu: '2018-05-21'
-tinh_trang: CHUA_XAC_MINH
+het_hieu_luc_tu: '2024-07-26'
+tinh_trang: HET_HIEU_LUC
 nhanh:
-  - chua-phan-loai
+  - kiem-tra-chuyen-nganh/byt
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=194362&pageid=27160
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực, ngày hết hiệu lực (TT 09/2024/TT-BYT Điều 4 khoản 2 điểm a bãi bỏ toàn bộ từ 26/7/2024)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-09'
+  boi: hermes (loop 2026-10-09)

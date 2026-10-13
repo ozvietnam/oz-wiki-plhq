@@ -1,5 +1,5 @@
 // Test công cụ trên sổ giả lập (thư mục tạm) — không đụng registry/ thật, không cần mạng.
-import { mkdtempSync, mkdirSync, writeFileSync, cpSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, writeFileSync, cpSync, readFileSync, existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { napSo, khoa, slugTuSoHieu, bacNguon, ROOT } from '../lib/registry.mjs';
@@ -7,7 +7,7 @@ import { kiemTra } from '../kiem-tra.mjs';
 import { timDiemMu } from '../diem-mu.mjs';
 import { dungJson, veQuanHe } from '../dung.mjs';
 import { lamSachHtml } from '../nap.mjs';
-import { rutGonNhuCau, rutGonBieuThue, rutGonHangThat } from '../nhu-cau.mjs';
+import { rutGonNhuCau, rutGonBieuThue, rutGonHangThat, rutGonVanBanBieuThue } from '../nhu-cau.mjs';
 import { docCsv, napDanhMuc, kiemDinhDang, dungChiMuc, demLa, docBieuThue } from '../lib/danh-muc.mjs';
 
 let pass = 0;
@@ -208,8 +208,47 @@ t('hàng thật: bản chụp >14 ngày → báo cũ', htCu.some((d) => d.ma ===
 t('hàng thật: mã đã có trong bảng KTCN 2026 (22030091) → không báo', !dht.some((d) => d.muc_tieu === '22030091'));
 t('không có hàng thật → không sinh việc', !timDiemMu(so6, { today: '2026-10-05', root: r6, nhuCau: null, hangThat: null }).some((d) => d.ma === 'HANG_THAT_CHUA_DOI_CHIEU_KTCN'));
 
+// Văn bản biểu thuế XNK Tổng cục nêu (hs-code-api data/bieu-thue/van-ban-bieu-thue.json)
+const rBt = soGia({
+  '99-2020-nd-cp.yaml': `so_hieu: 99/2020/NĐ-CP\nloai: NĐ-CP\nten: Biểu thuế thử (cũ)\nco_quan: Chính phủ\ntinh_trang: HET_HIEU_LUC\nnhanh: [bieu-thue-xnk]\n${XM}\n`,
+  '98-2026-nd-cp.yaml': `so_hieu: 98/2026/NĐ-CP\nloai: NĐ-CP\nten: Biểu thuế thử (mới)\nco_quan: Chính phủ\ntinh_trang: CON_HIEU_LUC\nnhanh: [bieu-thue-xnk]\nquan_he:\n  thay_the:\n    - so_hieu: 99/2020/NĐ-CP\n      tu_ngay: '2026-07-01'\n      can_cu: Điều 9\n${XM}\n`,
+  '97-2019-tt-bct.yaml': `so_hieu: 97/2019/TT-BCT\nloai: TT-BCT\nten: Thông tư thử (hiện hành nhưng sổ ghi hết, chưa có văn bản thay)\nco_quan: Bộ Công Thương\ntinh_trang: HET_HIEU_LUC\nnhanh: [bieu-thue-xnk]\n${XM}\n`,
+});
+const vbBt = rutGonVanBanBieuThue({ nguon: 'bieu-thue@2026.04.05', ngay: '2026-10-12', vanBan: [
+  { soHieu: '96/2022/NĐ-CP', vaiTro: ['HIEN_HANH'], noiDung: ['Biểu thuế FTA thử'], soMaHs: 0, trongSo: false },
+  { soHieu: '95/2017/NĐ-CP', vaiTro: ['BI_THAY_THE'], noiDung: ['Biểu thuế FTA thử'], soMaHs: 0 },
+  { soHieu: '94/2025/NĐ-CP', vaiTro: ['CHINH_SACH_MA_HS'], noiDung: [], soMaHs: 332 },
+  { soHieu: '99/2020/NĐ-CP', vaiTro: ['HIEN_HANH', 'CHINH_SACH_MA_HS'], noiDung: ['Biểu thuế thử'], soMaHs: 120 },
+  { soHieu: '97/2019/TT-BCT', vaiTro: ['HIEN_HANH'], noiDung: ['Quy tắc thử'], soMaHs: 3 },
+  { soHieu: '98/2026/NĐ-CP', vaiTro: ['HIEN_HANH'], noiDung: ['Biểu thuế thử'], soMaHs: 0 },
+] }, 'test');
+t('rutGonVanBanBieuThue: giữ số hiệu/vai trò/tên/số mã HS, bỏ tình trạng do hs-code-api đối chiếu', vbBt.vanBan.length === 6 && vbBt.bieuThue === 'bieu-thue@2026.04.05' && !('trongSo' in vbBt.vanBan[0]) && vbBt.vanBan[3].soMaHs === 120, JSON.stringify(vbBt.vanBan[0]));
+const dbt = timDiemMu(napSo(rBt), { today: '2026-10-12', root: rBt, nhuCau: null, hangThat: null, vanBanBieuThue: vbBt });
+const chuaCo = dbt.filter((d) => d.ma === 'BIEU_THUE_CHUA_CO');
+t('biểu thuế: văn bản hiện hành sổ chưa có → BIEU_THUE_CHUA_CO mức Cao', chuaCo.some((d) => d.muc_tieu === '96/2022/NĐ-CP' && d.muc === 'Cao'), JSON.stringify(chuaCo));
+t('biểu thuế: văn bản bị thay sổ chưa có → mức Vừa', chuaCo.some((d) => d.muc_tieu === '95/2017/NĐ-CP' && d.muc === 'Vừa'));
+t('biểu thuế: văn bản chỉ ở cột chính sách → không lặp (đã có HS_API_CHUA_CO)', !chuaCo.some((d) => d.muc_tieu === '94/2025/NĐ-CP'));
+const daHet = dbt.filter((d) => d.ma === 'BIEU_THUE_HIEN_HANH_DA_HET');
+t('biểu thuế: hiện hành nhưng sổ ghi hết, đã có văn bản thay → việc nêu văn bản thay, mức Cao vì ≥50 mã HS', daHet.some((d) => d.muc_tieu === '99/2020/NĐ-CP' && d.muc === 'Cao' && /98\/2026\/NĐ-CP/.test(d.viec)), JSON.stringify(daHet));
+t('biểu thuế: hiện hành nhưng sổ ghi hết, CHƯA có văn bản thay → việc ghi quan hệ thay_the', daHet.some((d) => d.muc_tieu === '97/2019/TT-BCT' && /CHƯA ghi văn bản thay/.test(d.viec)));
+t('biểu thuế: văn bản còn hiệu lực → không sinh việc BIEU_THUE', !dbt.some((d) => d.ma.startsWith('BIEU_THUE_') && d.muc_tieu === '98/2026/NĐ-CP'));
+t('không có danh sách văn bản biểu thuế → không sinh việc BIEU_THUE', !timDiemMu(napSo(rBt), { today: '2026-10-12', root: rBt, nhuCau: null, hangThat: null, vanBanBieuThue: null }).some((d) => d.ma.startsWith('BIEU_THUE_')));
+
 const sach = lamSachHtml('<html><script>x()</script><nav>menu</nav><p>Điều 1.&nbsp;Phạm vi</p><p>Điều 2</p></html>');
 t('làm sạch HTML: bỏ script/menu, giữ đoạn', sach === 'Điều 1. Phạm vi\nĐiều 2', JSON.stringify(sach));
+
+// 8. Bản chụp biểu thuế (issue #133: data/tax.json trùng byte với hs-code-api — đã chuyển sang
+// nhu-cau/bieu-thue.json chụp tự động). Đảm bảo luôn có nguồn + phiên bản + đủ dòng mã HS.
+const taxSnap = JSON.parse(readFileSyncSafe('nhu-cau/bieu-thue.json'));
+t('bản chụp biểu thuế: tồn tại + có _comment + nguon + phien_ban + tong + ma',
+  taxSnap && taxSnap.nguon && taxSnap.nguon.startsWith('https://raw.githubusercontent.com/ozvietnam/hs-code-api/')
+  && typeof taxSnap.tong === 'number' && taxSnap.tong >= 10000
+  && taxSnap.ma && Object.keys(taxSnap.ma).length >= 10000,
+  JSON.stringify({ nguon: taxSnap?.nguon, tong: taxSnap?.tong, soMa: Object.keys(taxSnap?.ma || {}).length }));
+t('bản chụp biểu thuế: không phải file cũ data/tax.json 5.7MB', !existsSyncSafe('data/tax.json'));
+
+function readFileSyncSafe(p) { try { return readFileSync(join(ROOT, p), 'utf8'); } catch { return null; } }
+function existsSyncSafe(p) { try { return existsSync(join(ROOT, p)); } catch { return false; } }
 
 console.log(`\n${pass} passed, ${fail} failed`);
 process.exit(fail ? 1 : 0);

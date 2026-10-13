@@ -22,6 +22,13 @@ quan_he:
       pham_vi: Chương X, Phụ lục II và Phụ lục III
       tu_ngay: '2026-07-01'
       can_cu: Điều 6 khoản 3 điểm c TT 49/2026/TT-BXD
+danh_muc_hs:
+  tep: danh-muc/49-2026-tt-bxd.csv
+  nguon: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/18/469975-1784276696_v1_1784336792_signed.pdf
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-12'
+  da_doi_chieu: false
+  ghi_chu: 'Bảng CSV sẵn có trên main (64 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF Công báo số 409 ngày 18-07-2026 (lớp chữ): Điều 6 khoản 1 hiệu lực 01-07-2026 (khoản 2–3 Điều 5 từ 01-07-2029); khoản 3 điểm a–b bãi bỏ toàn bộ TT 12/2022 và 62/2024/TT-BGTVT; điểm c bãi một phần TT 71/2025/TT-BXD; sổ không có văn bản sau ghi thay/bãi TT 49/2026'
@@ -43,9 +50,3 @@ nguon:
     truy_cap: '2026-10-04'
   - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/18/469975-1784276696_v1_1784336792_signed.pdf
     truy_cap: '2026-10-04'
-danh_muc_hs:
-  tep: danh-muc/49-2026-tt-bxd.csv
-  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd-pl1.pdf
-  trich_boi: hermes-211
-  ngay: '2026-10-04'
-  ghi_chu: 'Phụ lục I (rủi ro cao): trang 1-10; Phụ lục II (rủi ro trung bình): trang 1-6. Trang từ pypdf extract_text, khớp cả mã có dấu chấm (87.02) và không dấu (8702).'

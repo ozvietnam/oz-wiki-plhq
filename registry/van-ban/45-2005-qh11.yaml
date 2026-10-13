@@ -1,0 +1,32 @@
+# Sổ đăng ký văn bản — stub. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 45/2005/QH11
+loai: LUAT
+ten: Luật Thuế xuất khẩu, thuế nhập khẩu
+co_quan: QH
+ngay_ban_hanh: '2005-06-14'
+hieu_luc_tu: '2006-01-01'
+het_hieu_luc_tu: '2016-09-01'
+tinh_trang: HET_HIEU_LUC
+nhanh:
+  - thue/luat-thue
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Luật 45/2005/QH11 (Quốc hội khóa 11, kỳ họp thứ 7) — Luật Thuế xuất khẩu, thuế nhập khẩu. Có hiệu lực từ 01/01/2006, hết hiệu lực 01/09/2016 (bị thay thế bởi Luật 107/2016/QH13). Nạp stub để hoàn thiện quan hệ thay_the; cần OCR/đọc toàn văn.'
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-12'
+  boi: legal-customs@ozvietnam
+  chan:
+    ngay: '2026-10-12'
+    ma: 'THIEU_PDF_A'
+    viec_tiep: 'Tải toàn văn PDF từ datafiles.chinhphu.vn hoặc vanban.chinhphu.vn để đọc toàn văn + ghi xac_minh.pham_vi chi tiết'
+ghi_chu: 'Luật nền tảng cho thuế XK NK giai đoạn 2006-2016. Bị thay thế bởi Luật 107/2016/QH13 (có hiệu lực 01/09/2016).'
+toan_van: chua_co
+nguon:
+  - url: https://vanban.chinhphu.vn/?docid=10454&pageid=27160
+    truy_cap: '2026-10-12'
+    ghi_chu: 'Thẻ metadata trên vanban.chinhphu.vn — cần verify URL chính xác khi đọc toàn văn'
+quan_he:
+  bai_bo:
+    - so_hieu: 107/2016/QH13
+      tu_ngay: '2016-09-01'
+      can_cu: 'Điều 4 Luật 107/2016/QH13 (quy định chuyển tiếp)'

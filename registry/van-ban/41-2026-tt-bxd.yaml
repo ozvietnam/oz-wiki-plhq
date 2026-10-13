@@ -13,12 +13,63 @@ quan_he:
     - 37/2026/NĐ-CP
   thay_the:
     - 10/2024/TT-BXD
+danh_muc_hs:
+  tep: danh-muc/41-2026-tt-bxd.csv
+  nguon: https://vpubnd.daklak.gov.vn/CMS/Content/VanBan/2026/7.2026/41-2026-TT-BXD.pdf
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-12'
+  da_doi_chieu: false
+  ghi_chu: 'Bảng CSV sẵn có trên main (85 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
+  pham_vi: |
+    Toàn văn 18 Điều + 4 Phụ lục (đối chiếu body 1756 dòng tại
+    raw/download/datafiles.chinhphu.vn/41-2026-tt-bxd-body.txt):
+
+    Cấu trúc 4 Chương:
+    - Chương I (Điều 1-5): Quy định chung — phạm vi, đối tượng, phân loại rủi ro,
+      ghi nhãn, yêu cầu chất lượng chung.
+    - Chương II (Điều 6-11): Quản lý chất lượng theo giai đoạn — sản xuất, xuất khẩu,
+      nhập khẩu, lưu thông, sử dụng trong công trình, công bố hợp chuẩn.
+    - Chương III (Điều 12-14): Công bố hợp quy, tổ chức đánh giá sự phù hợp/giám
+      định tư pháp, trách nhiệm bộ ngang bộ.
+    - Chương IV (Điều 15-18): Trách nhiệm UBND tỉnh, tổ chức đánh giá, điều
+      khoản chuyển tiếp, hiệu lực thi hành (26/6/2026, có hiệu lực từ 1/7/2026).
+
+    18 Điều:
+      Điều 1. Phạm vi điều chỉnh (L37)
+      Điều 2. Đối tượng áp dụng (L54)
+      Điều 3. Sản phẩm, hàng hoá VLXD và phân loại rủi ro — cao/trung bình/thấp (L63)
+      Điều 4. Ghi nhãn hàng hoá VLXD (L93)
+      Điều 5. Yêu cầu chung về quản lý chất lượng VLXD (L111)
+      Điều 6. Quản lý chất lượng trong sản xuất (L144)
+      Điều 7. Quản lý chất lượng hàng hoá xuất khẩu (L168)
+      Điều 8. Quản lý chất lượng hàng hoá nhập khẩu (L176)
+      Điều 9. Quản lý chất lượng hàng hoá lưu thông trên thị trường (L208)
+      Điều 10. Quản lý chất lượng trong sử dụng công trình XD (L224)
+      Điều 11. Công bố hợp chuẩn (L243)
+      Điều 12. Công bố hợp quy (L252)
+      Điều 13. Tổ chức đánh giá sự phù hợp, giám định tư pháp (L285)
+      Điều 14. Trách nhiệm bộ, cơ quan ngang bộ (L309)
+      Điều 15. Trách nhiệm UBND tỉnh/thành phố (L321)
+      Điều 16. Trách nhiệm tổ chức đánh giá sự phù hợp/giám định (L348)
+      Điều 17. Điều khoản chuyển tiếp (L364)
+      Điều 18. Hiệu lực thi hành (L390)
+
+    4 Phụ lục (body xác nhận chỉ có 4, không có Phụ lục V):
+      Phụ lục I  (L435) — Danh mục VLXD tổng quát (không có mã HS)
+      Phụ lục II (L1321, tr.20) — Nhóm rủi ro CAO: 17 mã HS, 8 nhóm hàng
+      Phụ lục III (L1433, tr.21-22) — Nhóm rủi ro TRUNG BÌNH: 65 mã HS, 11 nhóm hàng
+      Phụ lục IV (L1610, tr.23-24) — Mẫu Báo cáo tình hình kiểm tra chất
+                             lượng (3 Bảng: kết quả đạt / không đạt / DN trốn
+                             tránh kiểm tra)
+    Ghi chú: Thông tư có 4 Phụ lục (không phải 5) — danh sách Phụ lục ban hành
+    kèm theo Thông tư chỉ liệt kê I, II, III, IV trong cả body lẫn các điều
+    khoản viện dẫn (L395 chỉ đề cập Phụ lục II & III).
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
+
 ghi_chu: 3 mức rủi ro, 09 nhóm rủi ro cao; rủi ro trung bình tại Phụ lục III. Công báo số 404 ngày 17/7/2026. Phụ lục I không có mã HS (danh mục vật liệu xây dựng tổng quát).
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=218644&pageid=27160
@@ -26,10 +77,3 @@ nguon:
   - url: https://vpubnd.daklak.gov.vn/CMS/Content/VanBan/2026/7.2026/41-2026-TT-BXD.pdf
     truy_cap: '2026-10-05'
 toan_van: raw/download/datafiles.chinhphu.vn/41-2026-tt-bxd.pdf
-danh_muc_hs:
-  tep: danh-muc/41-2026-tt-bxd.csv
-  nguon: https://vpubnd.daklak.gov.vn/CMS/Content/VanBan/2026/7.2026/41-2026-TT-BXD.pdf
-  trich_boi: hermes-211
-  ngay: '2026-10-05'
-  da_doi_chieu: false
-  ghi_chu: 'Phụ lục II (trang 20, rủi ro cao, 17 mã) + Phụ lục III (trang 21-22, rủi ro trung bình, 65 mã); tách mỗi mã một dòng; 2621.90.90 và 6810.99.00 trùng 2-3 nhóm trong cùng phụ lục; 6811.82.20 và 6905.10.00 trùng ở nhóm 8 và 10; 68029290 (trang 22, Đá ốp lát): biểu thuế hiện chưa có mã này — ghi chú theo bản gốc 6802.92.90'

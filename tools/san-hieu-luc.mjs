@@ -16,7 +16,10 @@ function cong(ngay, soNgay) {
 
 /** Gợi ý URL datafiles thường gặp để --probe (không phải danh sách đủ). */
 export function goiYDatafiles(soHieu, ngayBanHanh) {
-  const m = String(soHieu).match(/^(\d+)\/(?:(\d{4})\/)?(?:QĐ|QD|TT|NĐ|ND)-([A-ZĐ]+)/i);
+  // Mở rộng regex: thêm QH\d+ (Luật/Nghị quyết QH — không có dấu -), UBTVQH\d+, NQ-CP, PL.
+  // Trước đây regex chỉ match QĐ/QD/TT/NĐ/ND nên 22 VB QH (LUAT, NGHI_QUYET, ...) bị bỏ sót
+  // khi gợi ý URL datafiles.chinhphu.vn — issue phát hiện trong loop rà bug 2026-10-12.
+  const m = String(soHieu).match(/^(\d+)\/(?:(\d{4})\/)?(?:QĐ|QD|TT|NĐ|ND|QH\d+|UBTVQH\d+|NQ-CP|PL)-?([A-ZĐĐ-]*)/i);
   if (!m) return [];
   const so = m[1];
   const nam = m[2] || String(ngayBanHanh || '').slice(0, 4);

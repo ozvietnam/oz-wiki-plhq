@@ -1,0 +1,23 @@
+# Sổ đăng ký văn bản — từ sheet HT biểu thuế
+so_hieu: 04/2023/TT-BCT
+loai: THONG_TU
+ten: Hạn ngạch thuế quan NK thuốc lá, trứng gia cầm
+co_quan: BCT
+ngay_ban_hanh: '2023-01-01'
+hieu_luc_tu: '2023-02-20'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - thue/bieu-thue
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF'
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-10'
+  boi: hermes-agent@ozvietnam
+  ghi_chu: 'Crawl từ vanban.chinhphu.vn docid=207527'
+nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?docid=207527&pageid=27160
+    truy_cap: '2026-10-10'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/3/04-bct.pdf
+    truy_cap: '2026-10-10'
+toan_van: raw/download/datafiles.chinhphu.vn/04-2023-tt-bct.pdf

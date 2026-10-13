@@ -9,10 +9,10 @@ nhanh:
   - kiem-tra-chuyen-nganh/bkhcn
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'Metadata đối chiếu URL vanban.chinhphu.vn: TT 01/2009/TT-BKHCN (Bộ KH&CN, ban hành 2009) — Danh mục SP/HH có khả năng gây mất an toàn. Hết hiệu lực 2026-07-01 (bị thay bởi 36/2026/TT-BKHCN theo nguồn thứ cấp). Đối chiếu metadata; cần OCR toàn văn để xác minh nội dung chi tiết.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-12'
+  boi: legal-customs@ozvietnam
 ghi_chu: 'Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json. KHUNG KTCN 2026 (tin cậy MEDIUM): Khung ''nhóm 2'' (NĐ 132/2008, NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026. Hết hiệu lực từ 2026-07-01: bị bãi bỏ bởi 36/2026/TT-BKHCN (theo nguồn thứ cấp).'
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=87602&pageid=27160

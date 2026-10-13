@@ -25,6 +25,9 @@ xac_minh:
   hieu_luc_da_doi_chieu: false
   ngay: 2026-10-09
   boi: hermes
-  canh_bao: 'Có thể bị thay thế bởi NĐ 163/2025/NĐ-CP (Điều 73.3 Luật 105/2016) - cần đối chiếu khi BYT ban hành TT mới. Chưa tìm được nguồn bậc A (congbao/datafiles) trong lượt này.'
+  chan:
+    ma: CHO_CONG_BO_A
+    ngay: 2026-10-09
+    viec_tiep: "Chưa tìm được nguồn bậc A - chờ"
 ghi_chu: 'Giải quyết vùng xám pháp lý Điều 73.3 Luật 105/2016: "Các dạng khác" trong dạng bào chế hiện đại cover cao dán thuốc cổ truyền.'
 tu_khoa: [thong-tu, duoc, co-truyen, bao-che, ktc]

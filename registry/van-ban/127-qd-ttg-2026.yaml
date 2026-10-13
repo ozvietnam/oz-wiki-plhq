@@ -7,12 +7,12 @@ ngay_ban_hanh: '2026-01-16'
 hieu_luc_tu: '2026-01-16'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-- xuat-xu-fta/hiep-dinh
+  - xuat-xu-fta/hiep-dinh/cptpp
 nguon:
-- url: https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-127-qd-ttg-468799.htm
-  truy_cap: '2026-10-04'
-- url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/1/31/127signed-1769851114713162569781.pdf
-  truy_cap: '2026-10-04'
+  - url: https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-127-qd-ttg-468799.htm
+    truy_cap: '2026-10-04'
+  - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/1/31/127signed-1769851114713162569781.pdf
+    truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
   pham_vi: PDF Công báo CDN; Điều 4 hiệu lực từ ngày ký 16-01-2026; Điều 5 thay thế 734/QĐ-TTg

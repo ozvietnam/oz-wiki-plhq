@@ -5,6 +5,7 @@
 //   node tools/diem-mu.mjs --stdout   → in markdown ra màn hình (dùng làm nội dung issue)
 // Có nhu-cau/hs-code-api.json (tools/nhu-cau.mjs) thì xếp thêm việc theo số mã HS chịu ảnh hưởng.
 // Có nhu-cau/hang-that.json thì thêm mã HS của hàng thật chưa bảng KTCN 2026 nào phủ.
+// Có nhu-cau/bieu-thue-van-ban.json thì thêm văn bản biểu thuế XNK Tổng cục nêu mà sổ chưa có / đã hết hiệu lực.
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { napSo, khoa, bacNguon, chuanCanh, dungDoThi, homNay, ROOT, QUAN_HE_LAM_MAT_HIEU_LUC } from './lib/registry.mjs';
@@ -41,6 +42,13 @@ export function docNhuCau(root = ROOT) {
   try { return JSON.parse(readFileSync(p, 'utf8')); } catch { return null; }
 }
 
+/** Đọc văn bản mà biểu thuế XNK Tổng cục nêu (nhu-cau/bieu-thue-van-ban.json — hs-code-api skill bieu-thue-xnk). null nếu chưa có. */
+export function docVanBanBieuThue(root = ROOT) {
+  const p = join(root, 'nhu-cau', 'bieu-thue-van-ban.json');
+  if (!existsSync(p)) return null;
+  try { return JSON.parse(readFileSync(p, 'utf8')); } catch { return null; }
+}
+
 /** Đọc nhu cầu từ hàng thật (nhu-cau/hang-that.json — hs-code-api /api/demand). null nếu chưa có. */
 export function docHangThat(root = ROOT) {
   const p = join(root, 'nhu-cau', 'hang-that.json');
@@ -71,7 +79,7 @@ export function docDoiChieu(root = ROOT) {
 /** Văn bản danh mục thuộc khung KTCN 2026 (nhánh kiểm tra chuyên ngành, hiệu lực từ 01/7/2026). */
 const laKtcn2026 = (d) => (d.nhanh || []).some((n) => n.startsWith('kiem-tra-chuyen-nganh')) && String(d.hieu_luc_tu || '') >= '2026-07-01';
 
-export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCau(root), bieuThue = docBieuThue(root), hangThat = docHangThat(root), ketLuan = docDoiChieu(root) } = {}) {
+export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCau(root), bieuThue = docBieuThue(root), hangThat = docHangThat(root), ketLuan = docDoiChieu(root), vanBanBieuThue = docVanBanBieuThue(root) } = {}) {
   const ds = [];
   // trongSo: xếp trong cùng nhóm (vd số mã HS chịu ảnh hưởng) — lớn trước.
   const add = (ma, muc, tieuDe, muc_tieu, viec, luong, trongSo = 0) => ds.push({ ma, muc, tieuDe, muc_tieu, viec, luong, trongSo });
@@ -80,22 +88,27 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
 
   // D0 — nguồn tham chiếu pháp lý cốt lõi theo TT 85/2026/TT-BTC Điều 6.1
   // (a) Chú giải chi tiết HS WCO  → chỉ dùng tax.json + wco-hs-international.csv thay thế
-  // (b) Tuyển tập ý kiến WCO      → chưa có (trả phí)
-  // (c) Chú giải bổ sung AHTN SEN  → chưa có (cần đăng ký ATR)
+  // (b) Tuyển tập ý kiến WCO      → chưa có (trả phí) — hs-code-api mua bản quyền WCO Bookshop, xử lý nội bộ (xem xac_minh.nguon_rieng_tu trên TT 85/2026)
+  // (c) Chú giải bổ sung AHTN SEN  → chưa có (cần đăng ký ATR) — hs-code-api đã có SEN 2022 (395 mục / 683 mã), không cần nạp vào kho công khai
+  // Bỏ qua điểm mù khi VB tham chiếu (TT 85/2026) đã ghi nguon_rieng_tu có key tương ứng.
   const ahtnPath = join(root, 'raw', 'download', 'asean.org', 'ahtn-2022.pdf');
   const wcoCompendiumPath = join(root, 'raw', 'download', 'wco.org', 'compendium-classification-opinions.pdf');
-  if (!existsSync(ahtnPath)) {
+  const coNguonRiengTu = (key) => {
+    const tt85 = so.vanBan.find((d) => khoa(d.so_hieu) === '85/2026/TT-BTC');
+    return !!tt85?.xac_minh?.nguon_rieng_tu?.[key];
+  };
+  if (!existsSync(ahtnPath) && !coNguonRiengTu('ahtn_sen')) {
     add('THIEU_NGUON_AHTN', MUC.CAO,
       'AHTN 2022 (ASEAN Harmonized Tariff Nomenclature): chưa có toàn văn trong raw/download/asean.org/ — TT 85/2026/TT-BTC Điều 6.1(c) yêu cầu dùng SEN (Chú giải bổ sung) AHTN khi không xác định được mã. Hiện dùng tạm tax.json (mã 8 số VN = AHTN 8 số) thay thế.',
       'AHTN-2022',
-      'Sếp chỉ định: (a) mua bản PDF chính thức, (b) screenshot từ atr.asean.org bằng session browser, hoặc (c) chấp nhận dùng tax.json làm nguồn tạm thời.',
+      'Sếp chỉ định: (a) mua bản PDF chính thức, (b) screenshot từ atr.asean.org bằng session browser, (c) chấp nhận dùng tax.json làm nguồn tạm thời, hoặc (d) ghi xac_minh.nguon_rieng_tu.ahtn_sen trên TT 85/2026 để báo nguồn do hs-code-api giữ riêng.',
       'truy-vet-nguon');
   }
-  if (!existsSync(wcoCompendiumPath)) {
+  if (!existsSync(wcoCompendiumPath) && !coNguonRiengTu('wco_compendium')) {
     add('THIEU_NGUON_WCO_COMPENDIUM', MUC.CAO,
       'WCO Compendium of Classification Opinions: chưa có toàn văn trong raw/download/wco.org/ — TT 85/2026/TT-BTC Điều 6.1(b) yêu cầu dùng Tuyển tập ý kiến WCO làm nguồn ưu tiên thứ 2. Bản chính thức bán qua WCO Bookshop (~500 EUR). Hiện dùng tạm TB-TCHQ VN (LV=313) làm "Compendium VN" thay thế.',
       'WCO-COMPENDIUM',
-      'Sếp chỉ định: (a) mua bản chính thức, (b) tải từng Classification Opinion mới nhất từ wcoomd.org (~50 opinions/session, 2 session/năm), hoặc (c) chấp nhận dùng TB-TCHQ thay thế.',
+      'Sếp chỉ định: (a) mua bản chính thức, (b) tải từng Classification Opinion mới nhất từ wcoomd.org (~50 opinions/session, 2 session/năm), (c) chấp nhận dùng TB-TCHQ thay thế, hoặc (d) ghi xac_minh.nguon_rieng_tu.wco_compendium trên TT 85/2026 để báo nguồn do hs-code-api mua và giữ riêng.',
       'truy-vet-nguon');
   }
 
@@ -340,6 +353,31 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
         `Thư viện /api/legal-docs của ${tenApp} (${[...x.cachViet].join(', ')}) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên ${tenApp}.`, 'hieu-luc');
     }
   }
+
+  // D-BT — văn bản mà BIỂU THUẾ XNK Tổng cục nêu (sheet "Hệ thống văn bản": hiện hành / bị thay; cột chính sách mặt hàng).
+  // Chỉ số hiệu + vai trò từ hs-code-api; sổ HIỆN TẠI quyết định có/chưa, còn/hết — việc xong thì tự biến mất.
+  if (vanBanBieuThue) {
+    const TEN_VAI = { HIEN_HANH: 'văn bản hiện hành của biểu/danh mục', BI_THAY_THE: 'văn bản bị thay (theo biểu)', CHINH_SACH_MA_HS: 'cột chính sách mặt hàng' };
+    for (const v of vanBanBieuThue.vanBan || []) {
+      const vai = Array.isArray(v.vaiTro) ? v.vaiTro : [];
+      const hienHanh = vai.includes('HIEN_HANH');
+      const moTa = vai.map((x) => TEN_VAI[x] || x).join(', ') + (v.soMaHs ? ` (${v.soMaHs} mã HS)` : '') + (v.noiDung?.length ? ` — ${v.noiDung.join(' / ')}` : '');
+      const d = theoKhoa(v.soHieu);
+      if (!d) {
+        // Văn bản chỉ xuất hiện ở cột chính sách đã có việc HS_API_CHUA_CO xếp theo số mã HS — không lặp.
+        if (!hienHanh && !vai.includes('BI_THAY_THE')) continue;
+        add('BIEU_THUE_CHUA_CO', hienHanh ? MUC.CAO : MUC.VUA, `Biểu thuế Tổng cục nêu nhưng sổ chưa có: ${v.soHieu}`, v.soHieu,
+          `${moTa}. Thêm vào sổ: node tools/them-van-ban.mjs "${v.soHieu}"`, 'he-thong-hoa', v.soMaHs || 0);
+      } else if (hienHanh && (d.tinh_trang === 'HET_HIEU_LUC' || d.tinh_trang === 'TAM_NGUNG_HIEU_LUC')) {
+        const thay = (nguoc.get(khoa(d.so_hieu))?.bi_thay_the_boi || []).map((c) => c.tu);
+        add('BIEU_THUE_HIEN_HANH_DA_HET', v.soMaHs >= 50 ? MUC.CAO : MUC.VUA, `Biểu thuế ${vanBanBieuThue.bieuThue || ''} còn dẫn ${d.so_hieu} nhưng sổ ghi ${d.tinh_trang}`, d.so_hieu,
+          thay.length
+            ? `${moTa}. Sổ ghi bị thay bởi ${thay.join(', ')} — hs-code-api sẽ báo người khai dùng văn bản thay; kiểm lại đối chiếu nguồn A.`
+            : `${moTa}. Sổ ghi ${d.tinh_trang} nhưng CHƯA ghi văn bản thay — ghi quan hệ thay_the ở văn bản mới (chiều đi) kèm điều khoản, để hs-code-api dẫn người khai sang văn bản đúng.`,
+          'hieu-luc', v.soMaHs || 0);
+      }
+    }
+  }
   return ds;
 }
 
@@ -357,6 +395,8 @@ const TEN_MA = {
   DAN_CHIEU_CHUA_CO_BANG: 'Bảng dẫn chiếu mã HS sang văn bản chưa có bảng',
   HANG_THAT_CHUA_DOI_CHIEU_KTCN: 'Mã HS có hàng thật chưa đối chiếu KTCN 2026 (hs-code-api /api/demand)',
   HANG_THAT_CU: 'Nhu cầu hàng thật đã cũ',
+  BIEU_THUE_CHUA_CO: 'Biểu thuế XNK Tổng cục nêu nhưng sổ chưa có (hs-code-api skill bieu-thue-xnk)',
+  BIEU_THUE_HIEN_HANH_DA_HET: 'Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay',
 };
 
 export function veMarkdown(ds, { today = homNay(), gioiHan = 40 } = {}) {

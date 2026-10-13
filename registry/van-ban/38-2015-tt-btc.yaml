@@ -13,13 +13,29 @@ quan_he:
   huong_dan:
     - 54/2014/QH13
     - 08/2015/NĐ-CP
+  sua_doi:
+    - so_hieu: 39/2018/TT-BTC
+      pham_vi: Bổ sung nộp chứng từ điện tử, sửa mẫu tờ khai
+      tu_ngay: '2018-06-05'
+      can_cu: Điều 1 TT 39/2018/TT-BTC
+    - so_hieu: 60/2019/TT-BTC
+      pham_vi: Sửa trị giá HQ
+      tu_ngay: '2019-10-15'
+      can_cu: Điều 1 TT 60/2019/TT-BTC
+    - so_hieu: 121/2025/TT-BTC
+      pham_vi: Sửa nhiều điều về thủ tục HQ, thuế XK NK
+      tu_ngay: '2026-02-01'
+      can_cu: Điều 1 TT 121/2025/TT-BTC
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (congbao.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.
+  pham_vi: 'Toàn văn Công báo số 509-518 ngày 21/4/2015: 9 chương 149 điều, có hiệu lực từ 01/4/2015. Đã đọc hết toàn văn 09/10/2026.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-10'
+  boi: legal-customs@ozvietnam
+ghi_chu: 'Đã đọc toàn văn Công báo 509-518/2015 (5 phần PDF ghép, 467 trang). TT nền tảng cho thủ tục HQ + thuế XK NK. Sẽ bị thay thế một phần bởi Luật 11/2026/QH16 (01/03/2027).'
+toan_van: raw/download/congbaocdn.chinhphu.vn/2015/3/26/38-2015-tt-btc.pdf
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-38-2015-tt-btc-9949.htm
     truy_cap: '2026-10-04'
+  - url: https://congbaocdn.chinhphu.vn/180507251028987904/2015/3/26/38-2015-tt-btc.pdf
+    truy_cap: '2026-10-10'
