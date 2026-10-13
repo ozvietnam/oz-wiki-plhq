@@ -9,13 +9,41 @@ tinh_trang: CON_HIEU_LUC
 nhanh:
   - phan-loai-hs/danh-muc
   - phan-loai-hs/chu-giai
+quan_he:
+  thay_the:
+    - so_hieu: 65/2017/TT-BTC
+      pham_vi: toàn bộ Danh mục
+      tu_ngay: '2022-12-01'
+      can_cu: Điều 4 khoản 2 TT 31/2022/TT-BTC
+    - so_hieu: 09/2019/TT-BTC
+      pham_vi: toàn bộ
+      tu_ngay: '2022-12-01'
+      can_cu: Điều 4 khoản 2 TT 31/2022/TT-BTC
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (congbao.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Phụ lục thường kèm 6 quy tắc tổng quát (GIR) — gắn thêm nhanh phan-loai-hs/chu-giai để phủ nhánh chú giải.
+  pham_vi: >-
+    (1) Điều khoản thi hành: bản chữ Công báo (18 phần 523–558 tại raw/download/congbaocdn.chinhphu.vn/tt-31-2022-cb-*.pdf,
+    mỗi phần kèm .nguon.json) — Điều 4 khoản 1 hiệu lực 01-12-2022; khoản 2 thay thế TT 65/2017/TT-BTC và TT 09/2019/TT-BTC.
+    Toàn bộ 97 chương Danh mục + Phụ lục II (6 quy tắc tổng quát + chú giải) đã đọc; chú giải chương/phân nhóm trích vào
+    danh-muc/chu-giai-chuong.json bằng tools/trich-chu-giai.mjs.
+    (2) Tình trạng hiện tại: rà registry 13-10-2026 — không có văn bản nào sau ghi thay/bãi/tạm ngưng TT 31/2022;
+    các danh mục KTCN 2026 (vd 15/2024, 27/2026/TT-BYT) vẫn dẫn TT 31/2022 làm căn cứ mã HS; bản chụp biểu thuế
+    Tổng cục 2026.04 dùng đúng hệ mã 8 số của Danh mục này.
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-13'
+  boi: zcode-glm@ozvietnam
+ghi_chu: >-
+  Danh mục hàng hóa XK-NK Việt Nam theo AHTN 2022 — xương sống phân loại: Điều 3 quy định dùng để xây dựng biểu thuế,
+  danh mục quản lý nhà nước và thống kê. Chú giải chương + phân nhóm + GIR (Phụ lục II) trích sẵn cho tra cứu:
+  node tools/chu-giai.mjs <chương|mã HS> | --quy-tac. Chú giải bổ sung (SEN) của AHTN không in trong tài liệu này —
+  văn bản chỉ dẫn tham khảo ấn phẩm SEN của AHTN 2022.
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-31-2022-tt-btc-37431.htm
     truy_cap: '2026-10-04'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/6/37431/41003-1-2022523-52431-2022-tt-btc.pdf
+    truy_cap: '2026-10-13'
+    ghi_chu: Phần 1/18 (Công báo 523+524) — các phần 2-18 cùng thư mục raw/download/congbaocdn.chinhphu.vn/, tên tt-31-2022-cb-*.pdf
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/6/37431/41056-1-2022557-55831-2022-tt-btc.pdf
+    truy_cap: '2026-10-13'
+    ghi_chu: Phần 18/18 (Công báo 557+558) — phần cuối, chứa Phụ lục II (GIR) và chương 95-97
+toan_van: raw/download/congbaocdn.chinhphu.vn/tt-31-2022-cb-523-524.pdf
