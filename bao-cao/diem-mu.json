@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-13",
-  "tong": 4605,
+  "tong": 4598,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -277,6 +277,15 @@
       "muc": "Thấp",
       "tieuDe": "09/2026/NQ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "09/2026/NQ-CP",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "10/2018/NĐ-CP: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "10/2018/NĐ-CP",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
       "trongSo": 0
@@ -3999,15 +4008,6 @@
       "trongSo": 0
     },
     {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "126/QĐ-TTg: chưa xếp vào cây",
-      "muc_tieu": "126/QĐ-TTg",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "1261/TB-TCHQ/2022: chưa có nguồn chính thống",
@@ -4023,15 +4023,6 @@
       "muc_tieu": "1261/TB-TCHQ/2022",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "127/QĐ-TTg: chưa xếp vào cây",
-      "muc_tieu": "127/QĐ-TTg",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
       "trongSo": 0
     },
     {
@@ -37731,6 +37722,24 @@
       "trongSo": 0
     },
     {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "86/2025/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "86/2025/NĐ-CP",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "86/2025/NĐ-CP: chưa có toàn văn trong raw/",
+      "muc_tieu": "86/2025/NĐ-CP",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"86/2025/NĐ-CP\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "860/TB-TCHQ/2019: chưa có nguồn chính thống",
@@ -38844,78 +38853,6 @@
       "muc_tieu": "Công ước HS",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"Công ước HS\" --ghi",
       "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
-      "ma": "NUT_CAY_TRONG",
-      "muc": "Cao",
-      "tieuDe": "Nhánh \"Biểu thuế XNK (TT-BCT, quy tắc mặt hàng cụ thể các FTA)\" (thue/bieu-thue-xnk) chưa có văn bản còn hiệu lực",
-      "muc_tieu": "thue/bieu-thue-xnk",
-      "viec": "Do thám và thêm các văn bản thuộc nhánh này.",
-      "luong": "do-tham",
-      "trongSo": 0
-    },
-    {
-      "ma": "NUT_THIEU_LOAI",
-      "muc": "Cao",
-      "tieuDe": "Nhánh \"Biểu thuế XNK (TT-BCT, quy tắc mặt hàng cụ thể các FTA)\" thiếu THONG_TU còn hiệu lực",
-      "muc_tieu": "thue/bieu-thue-xnk",
-      "viec": "Tìm THONG_TU đang điều chỉnh nhánh này.",
-      "luong": "do-tham",
-      "trongSo": 0
-    },
-    {
-      "ma": "NUT_CAY_TRONG",
-      "muc": "Cao",
-      "tieuDe": "Nhánh \"CPTPP (Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương)\" (xuat-xu-fta/hiep-dinh/cptpp) chưa có văn bản còn hiệu lực",
-      "muc_tieu": "xuat-xu-fta/hiep-dinh/cptpp",
-      "viec": "Do thám và thêm các văn bản thuộc nhánh này.",
-      "luong": "do-tham",
-      "trongSo": 0
-    },
-    {
-      "ma": "NUT_CAY_TRONG",
-      "muc": "Cao",
-      "tieuDe": "Nhánh \"VCFTA / VKFTA (Việt Nam – Liên minh châu Âu / Hàn Quốc)\" (xuat-xu-fta/hiep-dinh/vcfeta) chưa có văn bản còn hiệu lực",
-      "muc_tieu": "xuat-xu-fta/hiep-dinh/vcfeta",
-      "viec": "Do thám và thêm các văn bản thuộc nhánh này.",
-      "luong": "do-tham",
-      "trongSo": 0
-    },
-    {
-      "ma": "NUT_CAY_TRONG",
-      "muc": "Cao",
-      "tieuDe": "Nhánh \"Hiệp định thương mại Việt Nam – Chile\" (xuat-xu-fta/hiep-dinh/chile) chưa có văn bản còn hiệu lực",
-      "muc_tieu": "xuat-xu-fta/hiep-dinh/chile",
-      "viec": "Do thám và thêm các văn bản thuộc nhánh này.",
-      "luong": "do-tham",
-      "trongSo": 0
-    },
-    {
-      "ma": "NUT_CAY_TRONG",
-      "muc": "Cao",
-      "tieuDe": "Nhánh \"Chống bán phá giá, chống trợ cấp, tự vệ\" (phong-ve-thuong-mai/chong-ban-pha-gia) chưa có văn bản còn hiệu lực",
-      "muc_tieu": "phong-ve-thuong-mai/chong-ban-pha-gia",
-      "viec": "Do thám và thêm các văn bản thuộc nhánh này.",
-      "luong": "do-tham",
-      "trongSo": 0
-    },
-    {
-      "ma": "NUT_THIEU_LOAI",
-      "muc": "Cao",
-      "tieuDe": "Nhánh \"Chống bán phá giá, chống trợ cấp, tự vệ\" thiếu QUYET_DINH còn hiệu lực",
-      "muc_tieu": "phong-ve-thuong-mai/chong-ban-pha-gia",
-      "viec": "Tìm QUYET_DINH đang điều chỉnh nhánh này.",
-      "luong": "do-tham",
-      "trongSo": 0
-    },
-    {
-      "ma": "NUT_THIEU_LOAI",
-      "muc": "Cao",
-      "tieuDe": "Nhánh \"Chống bán phá giá, chống trợ cấp, tự vệ\" thiếu NGHI_DINH còn hiệu lực",
-      "muc_tieu": "phong-ve-thuong-mai/chong-ban-pha-gia",
-      "viec": "Tìm NGHI_DINH đang điều chỉnh nhánh này.",
-      "luong": "do-tham",
       "trongSo": 0
     },
     {

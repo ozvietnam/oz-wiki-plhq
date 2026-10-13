@@ -1,7 +1,7 @@
 {
   "phien_ban": "2026-10-13",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2277,
+  "tong": 2279,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -429,7 +429,9 @@
       "hieu_luc_tu": "2019-01-22",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "thue/bieu-thue"
+        "thue/bieu-thue",
+        "xuat-xu-fta/hiep-dinh/cptpp",
+        "thue/bieu-thue-xnk"
       ],
       "xac_minh": {
         "muc": "CHUA_XAC_MINH",
@@ -1433,6 +1435,50 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "10/2018/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết một số điều của Luật Quản lý ngoại thương về các biện pháp phòng vệ thương mại",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2018-01-15",
+      "hieu_luc_tu": "2018-01-15",
+      "het_hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-10-2018-nd-cp-25762.htm",
+          "truy_cap": "2026-10-12"
+        },
+        {
+          "url": "https://chinhphu.vn/default.aspx?docid=192739&pageid=27160",
+          "truy_cap": "2026-10-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày từ Công báo; hết HL theo NĐ 86/2025",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-12",
+        "boi": "cursor-agent@ozvietnam"
+      },
+      "ghi_chu": "Đã được NĐ 86/2025/NĐ-CP thay từ 01/07/2025. Stub để đóng quan_he.thay_the.",
+      "slug": "10-2018-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "86/2025/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "10/2018/NĐ-CP",
+            "tu_ngay": "2025-07-01",
+            "can_cu": "NĐ 86/2025 thay NĐ 10/2018 (Công báo / vanban.chinhphu.vn)"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "10/2019/TT-BCT",
       "loai": "THONG_TU",
       "ten": "Sửa đổi, bổ sung Thông tư 22/2016/TT-BCT thực hiện Quy tắc xuất xứ hàng hóa ATIGA",
@@ -1441,8 +1487,7 @@
       "hieu_luc_tu": "2019-09-05",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "bieu-thue-xnk",
-        "xuat-xu-fta/hiep-dinh"
+        "xuat-xu-fta/quy-tac-xuat-xu"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
@@ -2180,7 +2225,7 @@
       "hieu_luc_tu": "2020-06-08",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "xuat-xu-fta/hiep-dinh"
+        "xuat-xu-fta/hiep-dinh/vcfeta"
       ],
       "nguon": [
         {
@@ -4162,7 +4207,9 @@
       "hieu_luc_tu": "2018-05-29",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "thue/bieu-thue"
+        "thue/bieu-thue",
+        "xuat-xu-fta/hiep-dinh/vcfeta",
+        "thue/bieu-thue-xnk"
       ],
       "xac_minh": {
         "muc": "CHUA_XAC_MINH",
@@ -4908,7 +4955,9 @@
       "hieu_luc_tu": "2022-12-30",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "thue/bieu-thue"
+        "thue/bieu-thue",
+        "xuat-xu-fta/hiep-dinh/chile",
+        "thue/bieu-thue-xnk"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
@@ -5853,7 +5902,9 @@
       "hieu_luc_tu": "2022-12-30",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "thue/bieu-thue"
+        "thue/bieu-thue",
+        "xuat-xu-fta/hiep-dinh/cptpp",
+        "thue/bieu-thue-xnk"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
@@ -5977,7 +6028,9 @@
       "hieu_luc_tu": "2022-12-30",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "thue/bieu-thue"
+        "thue/bieu-thue",
+        "xuat-xu-fta/hiep-dinh/vcfeta",
+        "thue/bieu-thue-xnk"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
@@ -7321,7 +7374,8 @@
       "hieu_luc_tu": "2019-07-30",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "thue/bieu-thue"
+        "thue/bieu-thue",
+        "thue/bieu-thue-xnk"
       ],
       "xac_minh": {
         "muc": "CHUA_XAC_MINH",
@@ -8760,7 +8814,9 @@
       "hieu_luc_tu": "2022-12-30",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "thue/bieu-thue"
+        "thue/bieu-thue",
+        "xuat-xu-fta/hiep-dinh/vcfeta",
+        "thue/bieu-thue-xnk"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
@@ -9047,8 +9103,7 @@
       "hieu_luc_tu": "2026-01-16",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "chua-phan-loai",
-        "xuat-xu-fta/hiep-dinh"
+        "xuat-xu-fta/hiep-dinh/vcfeta"
       ],
       "nguon": [
         {
@@ -9132,8 +9187,7 @@
       "hieu_luc_tu": "2026-01-16",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "chua-phan-loai",
-        "xuat-xu-fta/hiep-dinh"
+        "xuat-xu-fta/hiep-dinh/cptpp"
       ],
       "nguon": [
         {
@@ -9636,7 +9690,8 @@
       "hieu_luc_tu": "2019-07-31",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "thue/bieu-thue"
+        "thue/bieu-thue",
+        "thue/bieu-thue-xnk"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
@@ -9859,7 +9914,7 @@
       "hieu_luc_tu": "2026-06-16",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "phong-ve-thuong-mai"
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "quan_he": {
         "bai_bo": [
@@ -11729,7 +11784,7 @@
       "hieu_luc_tu": "2025-01-29",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "phong-ve-thuong-mai"
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "nguon": [
         {
@@ -13171,7 +13226,8 @@
       "hieu_luc_tu": "2021-06-16",
       "tinh_trang": "CHUA_XAC_MINH",
       "nhanh": [
-        "quan-ly-ngoai-thuong/giay-phep"
+        "quan-ly-ngoai-thuong/giay-phep",
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "nguon": [
         {
@@ -19205,7 +19261,7 @@
       "ngay_ban_hanh": "2025-07-02",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "phong-ve-thuong-mai"
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "nguon": [
         {
@@ -20026,7 +20082,7 @@
       "hieu_luc_tu": "2025-07-06",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "phong-ve-thuong-mai"
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "nguon": [
         {
@@ -20336,7 +20392,7 @@
       "hieu_luc_tu": "2025-07-08",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "phong-ve-thuong-mai"
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "nguon": [
         {
@@ -20825,7 +20881,8 @@
       "hieu_luc_tu": "2023-08-18",
       "tinh_trang": "CHUA_XAC_MINH",
       "nhanh": [
-        "quan-ly-ngoai-thuong/giay-phep"
+        "quan-ly-ngoai-thuong/giay-phep",
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "nguon": [
         {
@@ -21376,7 +21433,7 @@
       "ngay_ban_hanh": "2025-07-14",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "phong-ve-thuong-mai"
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "nguon": [
         {
@@ -22398,7 +22455,7 @@
       "hieu_luc_tu": "2025-07-18",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "phong-ve-thuong-mai"
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "nguon": [
         {
@@ -24903,7 +24960,7 @@
       "hieu_luc_tu": "2026-02-14",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "thue/bieu-thue"
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
@@ -25112,7 +25169,7 @@
       "hieu_luc_tu": "2025-08-14",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "phong-ve-thuong-mai"
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "nguon": [
         {
@@ -25658,7 +25715,7 @@
       "hieu_luc_tu": "2025-08-18",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "phong-ve-thuong-mai"
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "nguon": [
         {
@@ -26207,7 +26264,7 @@
       "hieu_luc_tu": "2023-02-13",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "phong-ve-thuong-mai"
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "nguon": [
         {
@@ -28207,7 +28264,7 @@
       "hieu_luc_tu": "2024-10-03",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "phong-ve-thuong-mai"
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "nguon": [
         {
@@ -30937,7 +30994,7 @@
       "hieu_luc_tu": "2024-10-24",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "phong-ve-thuong-mai"
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "nguon": [
         {
@@ -32701,7 +32758,8 @@
       "hieu_luc_tu": "2022-12-30",
       "tinh_trang": "CHUA_XAC_MINH",
       "nhanh": [
-        "quan-ly-ngoai-thuong/giay-phep"
+        "quan-ly-ngoai-thuong/giay-phep",
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "nguon": [
         {
@@ -33340,7 +33398,7 @@
       "hieu_luc_tu": "2024-11-12",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "thue/bieu-thue"
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
@@ -36375,7 +36433,7 @@
       "hieu_luc_tu": "2025-10-27",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "phong-ve-thuong-mai"
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "nguon": [
         {
@@ -40353,7 +40411,7 @@
       "hieu_luc_tu": "2025-01-08",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "phong-ve-thuong-mai"
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "nguon": [
         {
@@ -41164,7 +41222,7 @@
       "hieu_luc_tu": "2025-12-10",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "phong-ve-thuong-mai"
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "nguon": [
         {
@@ -43652,7 +43710,7 @@
       "hieu_luc_tu": "2025-12-28",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "phong-ve-thuong-mai"
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "nguon": [
         {
@@ -47375,7 +47433,9 @@
       "hieu_luc_tu": "2022-12-30",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "thue/bieu-thue"
+        "thue/bieu-thue",
+        "xuat-xu-fta/hiep-dinh/vcfeta",
+        "thue/bieu-thue-xnk"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
@@ -49793,7 +49853,6 @@
       "hieu_luc_tu": "2025-07-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "kiem-tra-chuyen-nganh/byt",
         "kiem-tra-chuyen-nganh/byt"
       ],
       "quan_he": {
@@ -56416,7 +56475,6 @@
       "tinh_trang": "HET_HIEU_LUC",
       "het_hieu_luc_tu": "2025-07-01",
       "nhanh": [
-        "kiem-tra-chuyen-nganh/byt",
         "kiem-tra-chuyen-nganh/byt"
       ],
       "quan_he": {
@@ -66913,7 +66971,7 @@
       "hieu_luc_tu": "2018-12-27",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "xuat-xu-fta/hiep-dinh"
+        "xuat-xu-fta/hiep-dinh/cptpp"
       ],
       "nguon": [
         {
@@ -69111,7 +69169,8 @@
       "hieu_luc_tu": "2024-01-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "thue/bieu-thue"
+        "thue/bieu-thue",
+        "xuat-xu-fta/hiep-dinh/cptpp"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
@@ -70761,6 +70820,48 @@
       "toan_van": "chua_co",
       "slug": "859-tb-tchq-2019",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "86/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết một số điều của Luật Quản lý ngoại thương về các biện pháp phòng vệ thương mại",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-04-11",
+      "hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "10/2018/NĐ-CP",
+            "tu_ngay": "2025-07-01",
+            "can_cu": "NĐ 86/2025 thay NĐ 10/2018 (Công báo / vanban.chinhphu.vn)"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=213376&pageid=27160",
+          "truy_cap": "2026-10-12"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-86-2025-nd-cp-44745.htm",
+          "truy_cap": "2026-10-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực từ vanban + Công báo; chưa đọc toàn văn",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-12",
+        "boi": "cursor-agent@ozvietnam"
+      },
+      "ghi_chu": "Khung NĐ phòng vệ thương mại hiện hành (thay 10/2018 từ 01/07/2025). Gắn nhánh chong-ban-pha-gia để đóng NUT_THIEU_LOAI NGHI_DINH.",
+      "slug": "86-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {

@@ -15,8 +15,6 @@ flowchart LR
   n_04_2014_TT_BCT["04/2014/TT-BCT<br/>hết hiệu lực"]
   n_11_2017_TT_BCT["11/2017/TT-BCT<br/>hết hiệu lực"]
   n_49_2015_TT_BCT["49/2015/TT-BCT<br/>hết hiệu lực"]
-  n_127_Q__TTg["127/QĐ-TTg<br/>còn hiệu lực"]
-  n_734_Q__TTg["734/QĐ-TTg<br/>hết hiệu lực"]
   n_17_2023_TT_BNNPTNT["17/2023/TT-BNNPTNT<br/>còn hiệu lực"]
   n_924_Q__BNN_TCLN["924/QĐ-BNN-TCLN<br/>hết hiệu lực"]
   n_113_2017_N__CP -->|thay thế từ 2017-11-25| n_108_2008_N__CP
@@ -25,8 +23,6 @@ flowchart LR
   n_12_2018_TT_BCT -->|bãi bỏ từ 2018-06-15| n_04_2014_TT_BCT
   n_12_2018_TT_BCT -->|bãi bỏ từ 2018-06-15| n_11_2017_TT_BCT
   n_12_2018_TT_BCT -->|bãi bỏ từ 2018-06-15| n_49_2015_TT_BCT
-  n_126_Q__TTg -->|thay thế từ 2026-01-16| n_1175_Q__TTg
-  n_127_Q__TTg -->|thay thế từ 2026-01-16| n_734_Q__TTg
   n_17_2023_TT_BNNPTNT -->|bãi bỏ từ 2024-01-30| n_924_Q__BNN_TCLN
 ```
 
@@ -245,6 +241,8 @@ flowchart LR
   n_2093_Q__BCT["2093/QĐ-BCT<br/>còn hiệu lực"]
   n_2174_Q__BCT["2174/QĐ-BCT<br/>chưa xác minh"]
   n_2333_Q__BCT["2333/QĐ-BCT<br/>còn hiệu lực"]
+  n_86_2025_N__CP["86/2025/NĐ-CP<br/>còn hiệu lực"]
+  n_10_2018_N__CP["10/2018/NĐ-CP<br/>hết hiệu lực"]
   n_915_Q__BCT["915/QĐ-BCT<br/>chưa xác minh"]
   n_1978_Q__BCT["1978/QĐ-BCT<br/>còn hiệu lực"]
   n_121_Q__BCT -->|thay thế| n_2491_Q__BCT
@@ -255,6 +253,7 @@ flowchart LR
   n_1400_Q__BCT -->|thay thế| n_2093_Q__BCT
   n_2105_Q__BCT -->|bãi bỏ từ 2026-06-16| n_1309_Q__BCT
   n_2174_Q__BCT -->|thay thế| n_2333_Q__BCT
+  n_86_2025_N__CP -->|thay thế từ 2025-07-01| n_10_2018_N__CP
   n_915_Q__BCT -->|thay thế| n_1978_Q__BCT
 ```
 
@@ -355,6 +354,12 @@ flowchart LR
 flowchart LR
   n_124_2026_TT_BTC["124/2026/TT-BTC<br/>còn hiệu lực"]
   n_33_2023_TT_BTC["33/2023/TT-BTC<br/>còn hiệu lực"]
+  n_126_Q__TTg["126/QĐ-TTg<br/>còn hiệu lực"]
+  n_1175_Q__TTg["1175/QĐ-TTg<br/>hết hiệu lực"]
+  n_127_Q__TTg["127/QĐ-TTg<br/>còn hiệu lực"]
+  n_734_Q__TTg["734/QĐ-TTg<br/>hết hiệu lực"]
   n_124_2026_TT_BTC -->|sửa đổi bổ sung khoản 10 Điều 15 từ 2026-08-22| n_33_2023_TT_BTC
+  n_126_Q__TTg -->|thay thế từ 2026-01-16| n_1175_Q__TTg
+  n_127_Q__TTg -->|thay thế từ 2026-01-16| n_734_Q__TTg
 ```
 
