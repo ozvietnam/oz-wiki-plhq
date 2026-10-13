@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-13",
-  "tong": 4508,
+  "tong": 4498,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -189,15 +189,6 @@
       "muc_tieu": "06/2026/TT-BTC",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "06/2026/TT-BTC: chưa có toàn văn trong raw/",
-      "muc_tieu": "06/2026/TT-BTC",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"06/2026/TT-BTC\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -1719,15 +1710,6 @@
       "muc_tieu": "11/2026/QH16",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Vừa",
-      "tieuDe": "11/2026/QH16: chưa có toàn văn trong raw/",
-      "muc_tieu": "11/2026/QH16",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"11/2026/QH16\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -3360,15 +3342,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "121/2025/TT-BTC: chưa có toàn văn trong raw/",
-      "muc_tieu": "121/2025/TT-BTC",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"121/2025/TT-BTC\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "121/QĐ-BCT: chưa có nguồn chính thống",
@@ -3927,15 +3900,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "124/2026/TT-BTC: chưa có toàn văn trong raw/",
-      "muc_tieu": "124/2026/TT-BTC",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"124/2026/TT-BTC\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "125/2022/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -4113,15 +4077,6 @@
       "muc_tieu": "128/2026/TT-BTC",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "128/2026/TT-BTC: chưa có toàn văn trong raw/",
-      "muc_tieu": "128/2026/TT-BTC",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"128/2026/TT-BTC\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -5283,15 +5238,6 @@
       "muc_tieu": "142/2026/TT-BTC",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "142/2026/TT-BTC: chưa có toàn văn trong raw/",
-      "muc_tieu": "142/2026/TT-BTC",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"142/2026/TT-BTC\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -17706,15 +17652,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "31/2026/QĐ-TTg: chưa có toàn văn trong raw/",
-      "muc_tieu": "31/2026/QĐ-TTg",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"31/2026/QĐ-TTg\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "3104/TB-TCHQ/2018: chưa có nguồn chính thống",
@@ -29775,15 +29712,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "54/VBHN-VPQH: chưa có toàn văn trong raw/",
-      "muc_tieu": "54/VBHN-VPQH",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"54/VBHN-VPQH\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "540/TB-TCHQ/2018: chưa có nguồn chính thống",
@@ -35823,15 +35751,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "72/2026/NĐ-CP: chưa có toàn văn trong raw/",
-      "muc_tieu": "72/2026/NĐ-CP",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"72/2026/NĐ-CP\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "720/TB-TCHQ/2018: chưa có nguồn chính thống",
@@ -37755,15 +37674,6 @@
       "muc_tieu": "85/2019/NĐ-CP",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "85/2026/TT-BTC: chưa có toàn văn trong raw/",
-      "muc_tieu": "85/2026/TT-BTC",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"85/2026/TT-BTC\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
