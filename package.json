@@ -20,7 +20,9 @@
     "trich": "python3 tools/trich-14dm.mjs.py",
     "check-hs": "python3 tools/kiem-tra-ma-hs-2026.py",
     "test:check-hs": "python3 tools/test-kiem-tra-ma-hs.py",
-    "tien-le": "node tools/tien-le.mjs"
+    "tien-le": "node tools/tien-le.mjs",
+    "chu-giai": "node tools/chu-giai.mjs",
+    "trich-chu-giai": "node tools/trich-chu-giai.mjs"
   },
   "dependencies": {
     "js-yaml": "^4.1.0"

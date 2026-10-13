@@ -262,6 +262,18 @@ t('tiền lệ: tra theo đầu số hiệu 503/TB-TCHQ', /503\/TB-TCHQ\/2018/.t
 const tienLeRong = execSyncNode('node tools/tien-le.mjs 99999999');
 t('tiền lệ: mã không khớp → báo rõ không có kết quả', /Không có tiền lệ nào khớp "99999999"/.test(tienLeRong));
 
+// 8b. Chú giải chương TT 31/2022 (danh-muc/chu-giai-chuong.json) — trích từ Công báo gốc.
+const cg = JSON.parse(readFileSync(join(ROOT, 'danh-muc', 'chu-giai-chuong.json'), 'utf8'));
+t('chú giải: đủ 97 chương + GIR có cả 6 quy tắc',
+  cg.tong_chuong === 97 && Object.keys(cg.chuong).length === 97
+  && ['QUY TẮC 1', 'QUY TẮC 6'].every((x) => cg.quy_tac_tong_quat.includes(x)) && cg.quy_tac_tong_quat.includes('SÁU QUY TẮC TỔNG QUÁT'));
+t('chú giải ch.87: note khung gầm + phân nhóm 8708.22 (nguồn Công báo 553+554)',
+  cg.chuong['87'].chu_giai.includes('Khung gầm có động cơ') && cg.chuong['87'].chu_giai_phan_nhom.includes('8708.22')
+  && cg.chuong['87'].nguon_file.includes('553-554'));
+t('chú giải ch.50: chương không note vẫn có tên, chu_giai rỗng', cg.chuong['50'].ten.includes('Tơ tằm') && cg.chuong['50'].chu_giai === '');
+const cgOut = execSyncNode('node tools/chu-giai.mjs 8708.22');
+t('chu-giai.mjs: tra mã 8708.22 → chương 87 + dòng nhắc phân nhóm', /Chương 87/.test(cgOut) && /Dòng chú giải nhắc tới 8708\.22/.test(cgOut) && /Khung gầm/.test(cgOut));
+
 // 9. Phiên bản lược đồ (docs/yeu-cau/ozplugin.md W1): hai tệp dist đều có luoc_do_phien_ban, khớp semver, bằng nhau.
 const semverOk = (s) => /^\d+\.\d+\.\d+$/.test(s);
 t('lược đồ: dungJson + dungChiMuc gắn luoc_do_phien_ban từ một hằng số chung',
