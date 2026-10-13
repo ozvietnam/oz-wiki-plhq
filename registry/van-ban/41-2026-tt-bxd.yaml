@@ -69,9 +69,11 @@ xac_minh:
     Ghi chú: Thông tư có 4 Phụ lục (không phải 5) — danh sách Phụ lục ban hành
     kèm theo Thông tư chỉ liệt kê I, II, III, IV trong cả body lẫn các điều
     khoản viện dẫn (L395 chỉ đề cập Phụ lục II & III).
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+    (2) Tình trạng hiện tại: rà registry 13-10-2026 — không có văn bản nào sau ghi thay/bãi/tạm ngưng
+    TT 41/2026 (quan hệ duy nhất ghi ngược là 10/2024/TT-BXD bị TT 41 bãi bỏ theo Điều 18 khoản 3).
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-13'
+  boi: zcode-glm@ozvietnam
 
 ghi_chu: 3 mức rủi ro, 09 nhóm rủi ro cao; rủi ro trung bình tại Phụ lục III. Công báo số 404 ngày 17/7/2026. Phụ lục I không có mã HS (danh mục vật liệu xây dựng tổng quát).
 nguon:

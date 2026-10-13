@@ -34,11 +34,22 @@ quan_he:
       can_cu: Điều 97 khoản 4 điểm c
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, trích yếu, ngày ban hành 23-01-2026 và hiệu lực 23-01-2026 trên vanban.chinhphu.vn; người ký Nguyễn Chí Dũng
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: Bỏ "nhóm 1/nhóm 2"; từ 01/7/2026 chia rủi ro thấp/trung bình/cao (Điều 82, 83). Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
+  pham_vi: >-
+    (1) Điều khoản thi hành: PDF datafiles bậc A dạng ảnh (sha256 30e8d3…f660), OCR tesseract lưu tại
+    raw/download/datafiles.chinhphu.vn/37-2026-nd-cp-body-ocr.txt — Điều 97 khoản 1: hiệu lực từ ngày ký 23-01-2026;
+    khoản 2 điểm a–d: NĐ 132/2008, NĐ 74/2018, Điều 4 NĐ 154/2018, NĐ 13/2022 hết hiệu lực 01-07-2026;
+    khoản 4: NĐ 43/2017 và NĐ 111/2021 hết hiệu lực 23-01-2026. Nội dung lõi đã đọc nguyên văn: Điều 82 khoản 1
+    (rủi ro trung bình — không kiểm tra khi nhập, phải công bố hợp quy), khoản 2 (rủi ro cao — đăng ký kiểm tra theo
+    Điều 83), Điều 83 khoản 1 điểm b (thời hạn 01/07/05 ngày làm việc), Điều 86 (miễn, giảm kiểm tra rủi ro cao).
+    (2) Tình trạng hiện tại: rà registry 13-10-2026 — không có văn bản nào sau ghi thay/bãi/tạm ngưng NĐ 37;
+    các TT KTCN 2026 của 8 bộ đều ghi NĐ 37 ở quan hệ huong_dan (đúng chiều).
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-13'
+  boi: zcode-glm@ozvietnam
+ghi_chu: >-
+  Bỏ "nhóm 1/nhóm 2"; từ 01/7/2026 chia rủi ro thấp/trung bình/cao (Điều 82, 83). Đối chiếu nguồn A xong 13-10-2026
+  (PDF ảnh + OCR — lỗi dấu có thể có, trích đăng wiki phải đối chiếu ngữ cảnh). Bài tổng hợp KTCN 2026 (nguồn thứ cấp,
+  có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=216764&pageid=27160
     truy_cap: '2026-10-04'
