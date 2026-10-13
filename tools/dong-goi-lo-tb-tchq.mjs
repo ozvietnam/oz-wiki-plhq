@@ -113,10 +113,12 @@ function dọnMôTả(thô, hsCode) {
   s = s.replace(/\s{2,}/g, ' ').replace(/\s+([.,;])/g, '$1').trim();
   return s;
 }
-// Cắt mô tả cụt về tiền tố còn cân ngoặc, tối thiểu 40 ký tự
+// Cắt mô tả cụt về tiền tố còn cân ngoặc, tối thiểu 40 ký tự, tối đa 480 (validator giới hạn 500)
 function cắtCânBằng40(s) {
+  const MAX = 480;
   for (let i = s.length; i >= 40; i--) {
     const p = s.slice(0, i).trimEnd().replace(/[,;:\-–—]+$/, '').trimEnd();
+    if (p.length > MAX) continue;  // Bỏ qua nếu vẫn quá dài - sẽ bị cắt cứng bên dưới
     if (!unbalanced(p)) return p;
   }
   return null;
@@ -268,7 +270,20 @@ for (const r of records) {
     dọnMôTả(moTaGọn, hsCode),
     dọnMôTả(môTảTừToànVăn(nd) || '', hsCode),
     dọnMôTả(môTảTừCôngDụng(nd) || '', hsCode),
-  ].filter(Boolean).map((d) => (unbalanced(d) ? cắtCânBằng40(d) : d)).filter(Boolean);
+  ].filter(Boolean).map((d) => {
+    if (unbalanced(d)) d = cắtCânBằng40(d);
+    // Cắt cứng nếu vẫn quá dài (validator giới hạn 500)
+    // Lùi dần từ 480 về 40 cho đến khi cân ngoặc
+    if (d && d.length > 480) {
+      for (let i = 480; i >= 40; i--) {
+        const p = d.slice(0, i).trimEnd().replace(/[,;:\-–—]+$/, '').trimEnd();
+        if (!unbalanced(p)) { d = p; break; }
+      }
+      // Nếu vẫn chưa cân → giữ 480 chars (validator sẽ cảnh báo, không chặn)
+      if (d && d.length > 480) d = d.slice(0, 480).trimEnd();
+    }
+    return d;
+  }).filter(Boolean);
   const sạchCorp = (d) => d.replace(/\s*\((?:[A-Z]{2,}[\s-])+[A-Z0-9-]{3,}\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim();
   let description = ứngViên.find((d) => d.length >= 40 && !nốiTênNhóm(d)) || '';
   if (description && CÔNG_TY.test(description)) {
