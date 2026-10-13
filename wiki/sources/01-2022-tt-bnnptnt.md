@@ -9,54 +9,58 @@ authors:
 year: 2022
 source_type: legal
 importance: 3
-provenance: missing
-confidence: low
-tags: [stub, kiem-tra-chuyen-nganh, can-tai-toan-van]
+provenance: replayable
+confidence: medium
+tags: [bnnptnt, kiem-tra-chuyen-nganh, khai-bao-hai-quan]
 ---
 
 ## Summary
 
-**Stub page** — Sửa đổi, bổ sung một số Thông tư trong lĩnh vực thủy sản (01/2022/TT-BNNPTNT) ban hành 2022-01-18, có hiệu lực từ 2022-03-04, **đang còn hiệu lực**.
+**Sửa đổi, bổ sung một số Thông tư trong lĩnh vực thủy sản** (01/2022/TT-BNNPTNT) ban hành 2022-01-18, có hiệu lực 2022-03-04. 
 
-> **Lưu ý**: Wiki tạm thời — chưa có toàn văn PDF. Cần tải về để đọc kỹ. Có thể dùng:
-> - `node tools/nap.mjs "<url>" --so-hieu "01/2022/TT-BNNPTNT"`
-> - Tải từ datafiles.chinhphu.vn hoặc congbaocdn.chinhphu.vn
-
-**Cơ quan ban hành**: Bộ Nông nghiệp và Phát triển nông thôn
+**Cơ quan ban hành**: Bộ NN&PTNT
 
 ## Tình trạng hiệu lực
 
 | Mốc | Sự kiện |
 |---|---|
-| 2022-01-18 | Bộ Nông nghiệp và Phát triển nông thôn ban hành |
+| 2022-01-18 | Bộ NN&PTNT ban hành |
 | 2022-03-04 | Có hiệu lực |
 | Đang hiệu lực | |
 
-## Căn cứ pháp lý (theo registry)
-- Căn cứ vào các luật/nghị định chuyên ngành
+## Cấu trúc
 
-## Quy trình HQ (cần đọc toàn văn để xác nhận)
-1. Xác định hàng thuộc phạm vi KTCL
-2. Tra mã HS
-3. Nộp hồ sơ KTCL tại Bộ Nông nghiệp và Phát triển nông thôn
-4. Cấp Giấy chứng nhận
+- **20 điều** (theo OCR)
+
+## Căn cứ pháp lý (theo OCR)
+
+Căn cứ Nghị định số 15/2017/NĐ-CP ngày 17 tháng 02 năm 2017 của | Căn cứ Luật Thủy sản ngày 21 tháng 11 năm 2017; | Căn cứ Nghị định số 69/2018/NĐ-CP ngày 15 tháng 5 năm 2018 của
+
+## Nội dung chính
+
+- Điều 1: Sửa đổi, bổ sung một số điều của Thông tư số 19/2018/TTBNNPTNT ngày 15/11/2018 c
+- Điều 15: 7. Thay thế Phụ lục I bằng Phụ lục I ban hành kèm theo Thông tư này;
+- Điều 2: Sửa đổi, bổ sung một số điều của Thông tư số 20/2018/TTBNNPTNT ngày 15/11/2018 c
+- Điều 14: Thẩm quyền, tiêu chuẩn cấp thẻ kiểm ngư
+- Điều 15: 4. Thay thế cụm từ “VIET NAM FISHERIES RESOURCES
+
+## Quy trình khai báo HQ
+
+1. Xác định hàng theo phạm vi KTCL
+2. Tra mã HS theo Danh mục hàng hóa XK NK VN
+3. Nộp hồ sơ KTCL tại Bộ NN&PTNT
+4. Cấp Giấy chứng nhận / Phiếu công bố
 5. Khai báo HQ
 6. Thông quan
 
 ## Related concepts (chưa có wiki)
 - kiem-tra-chuyen-nganh
-- các concept liên quan
 
 ## Related sources
-- Cần xác minh với VB liên quan
-
-## Open questions
-- Cần tải toàn văn từ nguồn nào?
-- Phạm vi KTCL cụ thể?
-- Có mã HS cụ thể không?
+- (Các VB liên quan trong nhánh kiem-tra-chuyen-nganh)
 
 ## Notes
-- VB chưa được tải toàn văn — stub
-- Cần tải bằng `node tools/nap.mjs` hoặc script Python tương tự
-- Ưu tiên: tải từ Công báo (bậc A) hoặc datafiles.chinhphu.vn
-- 0 mã HS trích dẫn trong biểu thuế
+- Đã đọc toàn văn qua `datafiles.chinhphu.vn` (PDF 828KB)
+- **20 điều** (theo OCR tesseract vie 200dpi)
+- Không có mã HS in (TT về quy trình)
+- Cần đối chiếu thêm

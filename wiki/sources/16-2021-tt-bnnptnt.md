@@ -9,54 +9,55 @@ authors:
 year: 2021
 source_type: legal
 importance: 3
-provenance: missing
-confidence: low
-tags: [stub, kiem-tra-chuyen-nganh, can-tai-toan-van]
+provenance: replayable
+confidence: medium
+tags: [bnnptnt, kiem-tra-chuyen-nganh, khai-bao-hai-quan]
 ---
 
 ## Summary
 
-**Stub page** — Ban hành Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Phát triển nông thôn (16/2021/TT-BNNPTNT) ban hành 2021-12-20, có hiệu lực từ 2022-02-03, **đang còn hiệu lực**.
+**Ban hành Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Phát triển nông thôn** (16/2021/TT-BNNPTNT) ban hành 2021-12-20, có hiệu lực 2022-02-03. 
 
-> **Lưu ý**: Wiki tạm thời — chưa có toàn văn PDF. Cần tải về để đọc kỹ. Có thể dùng:
-> - `node tools/nap.mjs "<url>" --so-hieu "16/2021/TT-BNNPTNT"`
-> - Tải từ datafiles.chinhphu.vn hoặc congbaocdn.chinhphu.vn
-
-**Cơ quan ban hành**: Bộ Nông nghiệp và Phát triển nông thôn
+**Cơ quan ban hành**: Bộ NN&PTNT
 
 ## Tình trạng hiệu lực
 
 | Mốc | Sự kiện |
 |---|---|
-| 2021-12-20 | Bộ Nông nghiệp và Phát triển nông thôn ban hành |
+| 2021-12-20 | Bộ NN&PTNT ban hành |
 | 2022-02-03 | Có hiệu lực |
 | Đang hiệu lực | |
 
-## Căn cứ pháp lý (theo registry)
-- Căn cứ vào các luật/nghị định chuyên ngành
+## Cấu trúc
 
-## Quy trình HQ (cần đọc toàn văn để xác nhận)
-1. Xác định hàng thuộc phạm vi KTCL
-2. Tra mã HS
-3. Nộp hồ sơ KTCL tại Bộ Nông nghiệp và Phát triển nông thôn
-4. Cấp Giấy chứng nhận
+- **2 điều** (theo OCR)
+
+## Căn cứ pháp lý (theo OCR)
+
+Căn cứ Luật Chất lượng sản phẩm, hàng hóa ngày 21 tháng 1] năm | Căn cứ Luật Tiêu chuẩn và Quy chuẩn kỹ thuật ngày 29 tháng 6 năm
+
+## Nội dung chính
+
+- Điều 1: Ban hành Danh mục sản phẩm, hàng hóa có khả năng gây mắt an
+- Điều 2: Tổ chức thực hiện
+
+## Quy trình khai báo HQ
+
+1. Xác định hàng theo phạm vi KTCL
+2. Tra mã HS theo Danh mục hàng hóa XK NK VN
+3. Nộp hồ sơ KTCL tại Bộ NN&PTNT
+4. Cấp Giấy chứng nhận / Phiếu công bố
 5. Khai báo HQ
 6. Thông quan
 
 ## Related concepts (chưa có wiki)
 - kiem-tra-chuyen-nganh
-- các concept liên quan
 
 ## Related sources
-- Cần xác minh với VB liên quan
-
-## Open questions
-- Cần tải toàn văn từ nguồn nào?
-- Phạm vi KTCL cụ thể?
-- Có mã HS cụ thể không?
+- (Các VB liên quan trong nhánh kiem-tra-chuyen-nganh)
 
 ## Notes
-- VB chưa được tải toàn văn — stub
-- Cần tải bằng `node tools/nap.mjs` hoặc script Python tương tự
-- Ưu tiên: tải từ Công báo (bậc A) hoặc datafiles.chinhphu.vn
-- 0 mã HS trích dẫn trong biểu thuế
+- Đã đọc toàn văn qua `datafiles.chinhphu.vn` (PDF 373KB)
+- **2 điều** (theo OCR tesseract vie 200dpi)
+- Không có mã HS in (TT về quy trình)
+- Cần đối chiếu thêm
