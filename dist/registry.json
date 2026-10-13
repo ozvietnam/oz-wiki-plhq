@@ -1,7 +1,7 @@
 {
   "phien_ban": "2026-10-13",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2271,
+  "tong": 2277,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -749,6 +749,12 @@
       "quan_he_nguoc": {
         "duoc_huong_dan_boi": [
           {
+            "tu": "187/2013/NĐ-CP",
+            "quan_he": "huong_dan",
+            "so_hieu": "05/2017/QH14",
+            "can_cu": "Luật Quản lý ngoại thương 05/2017/QH14"
+          },
+          {
             "tu": "292/2026/NĐ-CP",
             "quan_he": "huong_dan",
             "so_hieu": "05/2017/QH14"
@@ -883,6 +889,59 @@
       "slug": "06-2026-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "07/2023/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 98/2021/NĐ-CP ngày 28 tháng 12 năm 2021 của Chính phủ quy định về quản lý trang thiết bị y tế",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2023-03-10",
+      "hieu_luc_tu": "2023-03-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Nghị định 07/2023/NĐ-CP (Chính phủ, ngày 10/3/2023) — Sửa đổi, bổ sung NĐ 98/2021/NĐ-CP về quản lý trang thiết bị y tế. Có hiệu lực từ 15/03/2023. Bổ sung quy định phân loại TTBYT (mức A/B/C/D), đăng ký lưu hành, công bố hợp quy. Nạp stub để hoàn thiện quan hệ sua_doi; cần OCR/đọc toàn văn.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-12",
+        "boi": "legal-customs@ozvietnam",
+        "chan": {
+          "ngay": "2026-10-12",
+          "ma": "THIEU_PDF_A",
+          "viec_tiep": "Tải toàn văn PDF để đọc chi tiết các điều khoản sửa đổi"
+        }
+      },
+      "ghi_chu": "NĐ sửa đổi quan trọng nhất của 98/2021/NĐ-CP — bổ sung quy định phân loại TTBYT theo mức rủi ro. Được dẫn chiếu trong TT 19/2024, TT 24/2026, TT 27/2026, TT 28/2026.",
+      "toan_van": "chua_co",
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=210028&pageid=27160",
+          "truy_cap": "2026-10-12",
+          "ghi_chu": "Thẻ metadata trên vanban.chinhphu.vn — cần verify URL chính xác"
+        }
+      ],
+      "slug": "07-2023-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "19/2024/TT-BYT",
+            "quan_he": "huong_dan",
+            "so_hieu": "07/2023/NĐ-CP"
+          }
+        ],
+        "bi_sua_doi_boi": [
+          {
+            "tu": "98/2021/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "07/2023/NĐ-CP",
+            "tu_ngay": "2023-03-15",
+            "can_cu": "Điều 6 NĐ 07/2023/NĐ-CP (sửa đổi bổ sung một số điều của NĐ 98/2021/NĐ-CP)"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "07/2023/TT-NHNN",
@@ -3296,8 +3355,9 @@
         ],
         "thay_the": [
           {
-            "so_hieu": "Luật thuế XK NK 2005",
-            "tu_ngay": "2016-09-01"
+            "so_hieu": "45/2005/QH11",
+            "tu_ngay": "2016-09-01",
+            "can_cu": "Điều 4 Luật 107/2016/QH13 (quy định chuyển tiếp — Luật 45/2005/QH11 hết hiệu lực từ 01/09/2016)"
           }
         ]
       },
@@ -3333,6 +3393,15 @@
             "tu": "26/2023/NĐ-CP",
             "quan_he": "huong_dan",
             "so_hieu": "107/2016/QH13"
+          }
+        ],
+        "bi_bai_bo_boi": [
+          {
+            "tu": "45/2005/QH11",
+            "quan_he": "bai_bo",
+            "so_hieu": "107/2016/QH13",
+            "tu_ngay": "2016-09-01",
+            "can_cu": "Điều 4 Luật 107/2016/QH13 (quy định chuyển tiếp)"
           }
         ]
       }
@@ -17985,6 +18054,66 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "187/2013/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết thi hành Luật Thương mại về hoạt động mua bán hàng hóa quốc tế và các hoạt động đại lý mua, bán, gia công và quá cảnh hàng hóa với nước ngoài",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2013-11-20",
+      "hieu_luc_tu": "2014-02-15",
+      "het_hieu_luc_tu": "2018-06-15",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/luat-khung"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Nghị định 187/2013/NĐ-CP (Chính phủ, ngày 20/11/2013) — Quy định chi tiết thi hành Luật Thương mại 05/2017/QH14 về hoạt động mua bán hàng hóa quốc tế. Có hiệu lực từ 15/02/2014, hết hiệu lực 15/06/2018 (bị thay bởi NĐ 09/2018/NĐ-CP). Là căn cứ cho TT 04/2014/TT-BCT. Nạp stub; cần đọc toàn văn.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-12",
+        "boi": "legal-customs@ozvietnam",
+        "chan": {
+          "ngay": "2026-10-12",
+          "ma": "THIEU_PDF_A",
+          "viec_tiep": "Tải toàn văn PDF từ datafiles.chinhphu.vn"
+        }
+      },
+      "ghi_chu": "NĐ nền tảng về mua bán hàng hóa quốc tế giai đoạn 2014-2018. Bị thay bởi NĐ 09/2018/NĐ-CP. Là căn cứ pháp lý cho TT 04/2014/TT-BCT (Quản lý ngoại thương).",
+      "toan_van": "chua_co",
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=176543&pageid=27160",
+          "truy_cap": "2026-10-12",
+          "ghi_chu": "Thẻ metadata — cần verify URL chính xác"
+        }
+      ],
+      "quan_he": {
+        "huong_dan": [
+          {
+            "so_hieu": "05/2017/QH14",
+            "can_cu": "Luật Quản lý ngoại thương 05/2017/QH14"
+          }
+        ],
+        "bai_bo": [
+          {
+            "so_hieu": "09/2018/NĐ-CP",
+            "tu_ngay": "2018-06-15",
+            "can_cu": "NĐ 09/2018/NĐ-CP thay thế NĐ 187/2013/NĐ-CP"
+          }
+        ]
+      },
+      "slug": "187-2013-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "11/2017/TT-BCT",
+            "quan_he": "huong_dan",
+            "so_hieu": "187/2013/NĐ-CP"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "187/TB-TCHQ/2023",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (2009.89.99)",
@@ -21483,6 +21612,54 @@
       "slug": "2039-tb-tchq-2020",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "204/2025/QH15",
+      "loai": "NGHI_QUYET",
+      "ten": "Nghị quyết về giảm thuế giá trị gia tăng theo Nghị quyết số 204/2025/QH15",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2025-06-17",
+      "hieu_luc_tu": "2025-07-01",
+      "het_hieu_luc_tu": "2026-12-31",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/thue-noi-dia-khau-nk"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Nghị quyết 204/2025/QH15 (Quốc hội khóa 15, kỳ họp thứ 9) — Về giảm thuế giá trị gia tăng 8% (từ 10% xuống 8%) áp dụng từ 01/07/2025 đến 31/12/2026. Nền tảng cho NĐ 174/2025/NĐ-CP hướng dẫn. Nạp stub để hoàn thiện quan hệ; cần đọc toàn văn.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-12",
+        "boi": "legal-customs@ozvietnam",
+        "chan": {
+          "ngay": "2026-10-12",
+          "ma": "THIEU_PDF_A",
+          "viec_tiep": "Tải toàn văn PDF để ghi chi tiết phạm vi áp dụng"
+        }
+      },
+      "ghi_chu": "Nghị quyết QH về chính sách giảm thuế GTGT 8% từ 01/07/2025 - 31/12/2026. Là căn cứ pháp lý cho NĐ 174/2025/NĐ-CP.",
+      "toan_van": "chua_co",
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=217343&pageid=27160",
+          "truy_cap": "2026-10-12",
+          "ghi_chu": "Thẻ metadata — cần verify URL chính xác"
+        }
+      ],
+      "slug": "204-2025-qh15",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "174/2025/NĐ-CP",
+            "quan_he": "huong_dan",
+            "so_hieu": "204/2025/QH15",
+            "pham_vi": "NQ QH về giảm thuế GTGT",
+            "tu_ngay": "2025-06-17",
+            "can_cu": "NQ 204/2025/QH15"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "2040/TB-TCHQ/2020",
@@ -40039,6 +40216,60 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "35/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Nghị định quy định chi tiết thi hành Luật Thú y",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-12-15",
+      "hieu_luc_tu": "2026-02-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Nghị định 35/2025/NĐ-CP (Chính phủ) — Quy định chi tiết thi hành Luật Thú y 79/2015/QH13. Có hiệu lực từ 01/02/2026. Là căn cứ pháp lý cho TT 01/2026/TT-BNNMT về kiểm dịch động vật. Nạp stub; cần đọc toàn văn.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-12",
+        "boi": "legal-customs@ozvietnam",
+        "chan": {
+          "ngay": "2026-10-12",
+          "ma": "THIEU_PDF_A",
+          "viec_tiep": "Tải toàn văn PDF từ datafiles.chinhphu.vn"
+        }
+      },
+      "ghi_chu": "NĐ hướng dẫn Luật Thú y 2015 — căn cứ pháp lý cho TT 01/2026/TT-BNNMT và các VB kiểm dịch động vật mới.",
+      "toan_van": "chua_co",
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=223102&pageid=27160",
+          "truy_cap": "2026-10-12",
+          "ghi_chu": "Thẻ metadata — cần verify URL chính xác"
+        }
+      ],
+      "quan_he": {
+        "huong_dan": [
+          {
+            "so_hieu": "79/2015/QH13",
+            "can_cu": "Luật Thú y 79/2015/QH13"
+          }
+        ]
+      },
+      "slug": "35-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "01/2026/TT-BNNMT",
+            "quan_he": "huong_dan",
+            "so_hieu": "35/2025/NĐ-CP",
+            "pham_vi": "NĐ chức năng BNNMT",
+            "tu_ngay": "2025-02-25"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "3507/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (3824.99.99)",
@@ -50024,6 +50255,62 @@
       "slug": "44918-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "45/2005/QH11",
+      "loai": "LUAT",
+      "ten": "Luật Thuế xuất khẩu, thuế nhập khẩu",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2005-06-14",
+      "hieu_luc_tu": "2006-01-01",
+      "het_hieu_luc_tu": "2016-09-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/luat-thue"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Luật 45/2005/QH11 (Quốc hội khóa 11, kỳ họp thứ 7) — Luật Thuế xuất khẩu, thuế nhập khẩu. Có hiệu lực từ 01/01/2006, hết hiệu lực 01/09/2016 (bị thay thế bởi Luật 107/2016/QH13). Nạp stub để hoàn thiện quan hệ thay_the; cần OCR/đọc toàn văn.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-12",
+        "boi": "legal-customs@ozvietnam",
+        "chan": {
+          "ngay": "2026-10-12",
+          "ma": "THIEU_PDF_A",
+          "viec_tiep": "Tải toàn văn PDF từ datafiles.chinhphu.vn hoặc vanban.chinhphu.vn để đọc toàn văn + ghi xac_minh.pham_vi chi tiết"
+        }
+      },
+      "ghi_chu": "Luật nền tảng cho thuế XK NK giai đoạn 2006-2016. Bị thay thế bởi Luật 107/2016/QH13 (có hiệu lực 01/09/2016).",
+      "toan_van": "chua_co",
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=10454&pageid=27160",
+          "truy_cap": "2026-10-12",
+          "ghi_chu": "Thẻ metadata trên vanban.chinhphu.vn — cần verify URL chính xác khi đọc toàn văn"
+        }
+      ],
+      "quan_he": {
+        "bai_bo": [
+          {
+            "so_hieu": "107/2016/QH13",
+            "tu_ngay": "2016-09-01",
+            "can_cu": "Điều 4 Luật 107/2016/QH13 (quy định chuyển tiếp)"
+          }
+        ]
+      },
+      "slug": "45-2005-qh11",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "107/2016/QH13",
+            "quan_he": "thay_the",
+            "so_hieu": "45/2005/QH11",
+            "tu_ngay": "2016-09-01",
+            "can_cu": "Điều 4 Luật 107/2016/QH13 (quy định chuyển tiếp — Luật 45/2005/QH11 hết hiệu lực từ 01/09/2016)"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "45/2023/TT-BCT",
@@ -69104,6 +69391,12 @@
             "so_hieu": "79/2015/QH13",
             "pham_vi": "Luật Thú y",
             "tu_ngay": "2015-06-19"
+          },
+          {
+            "tu": "35/2025/NĐ-CP",
+            "quan_he": "huong_dan",
+            "so_hieu": "79/2015/QH13",
+            "can_cu": "Luật Thú y 79/2015/QH13"
           }
         ]
       }
@@ -71913,6 +72206,64 @@
       "slug": "977-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "98/2021/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định về quản lý trang thiết bị y tế",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2021-12-28",
+      "hieu_luc_tu": "2022-01-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Nghị định 98/2021/NĐ-CP (Chính phủ, ngày 28/12/2021) — Quy định về quản lý trang thiết bị y tế. Có hiệu lực từ 15/01/2022. Là văn bản nền tảng cho quản lý thiết bị y tế XNK, được dẫn chiếu bởi TT 19/2024/TT-BYT, TT 24/2026/TT-BYT. Nạp stub để hoàn thiện quan hệ huong_dan; cần OCR/đọc toàn văn.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-12",
+        "boi": "legal-customs@ozvietnam",
+        "chan": {
+          "ngay": "2026-10-12",
+          "ma": "THIEU_PDF_A",
+          "viec_tiep": "Tải toàn văn PDF từ datafiles.chinhphu.vn hoặc vanban.chinhphu.vn để đọc toàn văn + ghi xac_minh.pham_vi chi tiết"
+        }
+      },
+      "ghi_chu": "Nghị định nền tảng quản lý trang thiết bị y tế (TT-BYT, BYT). Áp dụng cho mọi TTBYT XNK từ 2022.",
+      "toan_van": "chua_co",
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=204068&pageid=27160",
+          "truy_cap": "2026-10-12",
+          "ghi_chu": "Thẻ metadata trên vanban.chinhphu.vn — cần verify URL chính xác"
+        }
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "07/2023/NĐ-CP",
+            "tu_ngay": "2023-03-15",
+            "can_cu": "Điều 6 NĐ 07/2023/NĐ-CP (sửa đổi bổ sung một số điều của NĐ 98/2021/NĐ-CP)"
+          },
+          {
+            "so_hieu": "96/2023/NĐ-CP",
+            "tu_ngay": "2023-12-30",
+            "can_cu": "NĐ 96/2023/NĐ-CP (sửa đổi bổ sung NĐ 98/2021/NĐ-CP về trang thiết bị y tế)"
+          }
+        ]
+      },
+      "slug": "98-2021-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "19/2024/TT-BYT",
+            "quan_he": "huong_dan",
+            "so_hieu": "98/2021/NĐ-CP"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "982/TB-TCHQ/2023",

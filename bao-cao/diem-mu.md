@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-10-13
 
-Tổng 4511 điểm: **39 cao**, 172 vừa, 4300 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 4509 điểm: **35 cao**, 168 vừa, 4306 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -8,17 +8,17 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 |---|---|---|---|
 | Văn bản danh mục chưa trích bảng mã HS | Cao | 44 | `danh-muc-hs` |
 | Mã HS có hàng thật chưa đối chiếu KTCN 2026 (hs-code-api /api/demand) | Cao | 9 | `danh-muc-hs` |
-| Được nhắc nhưng chưa có trong sổ | Cao | 6 | `he-thong-hoa` |
 | Nhánh cây chưa có văn bản | Cao | 5 | `do-tham` |
 | Nhánh cây thiếu loại văn bản bắt buộc | Cao | 3 | `do-tham` |
+| Được nhắc nhưng chưa có trong sổ | Cao | 2 | `he-thong-hoa` |
 | Cảnh báo nguồn | Cao | 1 | `truy-vet-nguon` |
 | Chưa có nguồn chính thống | Vừa | 2032 | `truy-vet-nguon` |
-| Wiki nhắc văn bản chưa đăng ký | Vừa | 97 | `lien-ket-cheo` |
+| Wiki nhắc văn bản chưa đăng ký | Vừa | 93 | `lien-ket-cheo` |
 | Thư viện hs-code-api ghi khác sổ | Vừa | 14 | `hieu-luc` |
 | Văn bản khung thiếu thông tin | Vừa | 10 | `he-thong-hoa` |
 | Bảng dẫn chiếu mã HS sang văn bản chưa có bảng | Vừa | 6 | `danh-muc-hs` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
-| Hiệu lực chưa đối chiếu nguồn A | Thấp | 2166 | `hieu-luc` |
+| Hiệu lực chưa đối chiếu nguồn A | Thấp | 2172 | `hieu-luc` |
 | Chưa có toàn văn | Thấp | 87 | `nap-lam-sach` |
 | Văn bản của cơ quan đã sáp nhập | Thấp | 11 | `do-tham` |
 | Chưa xếp vào cây | Thấp | 9 | `cay-du-lieu` |
@@ -80,15 +80,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Hàng thật mã 87082995 chưa đối chiếu danh mục KTCN 2026** — Món hàng thật (OZ, gặp gần nhất 2026-10-05) mang mã 87082995 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Chưa bảng KTCN 2026 nào có dòng nhóm 8708 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.
 - [ ] **Hàng thật mã 90049090 chưa đối chiếu danh mục KTCN 2026** — Món hàng thật (OZ, gặp gần nhất 2026-10-05) mang mã 90049090 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Chưa bảng KTCN 2026 nào có dòng nhóm 9004 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.
 
-## Được nhắc nhưng chưa có trong sổ (6)
-
-- [ ] **Chưa có trong sổ: 35/2025/NĐ-CP** — Tạo registry/van-ban/ cho 35/2025/NĐ-CP (được nhắc bởi 01/2026/TT-BNNMT (huong_dan)). Dùng: node tools/them-van-ban.mjs "35/2025/NĐ-CP"
-- [ ] **Chưa có trong sổ: Luật thuế XK NK 2005** — Tạo registry/van-ban/ cho Luật thuế XK NK 2005 (được nhắc bởi 107/2016/QH13 (thay_the)). Dùng: node tools/them-van-ban.mjs "Luật thuế XK NK 2005"
-- [ ] **Chưa có trong sổ: 187/2013/NĐ-CP** — Tạo registry/van-ban/ cho 187/2013/NĐ-CP (được nhắc bởi 11/2017/TT-BCT (huong_dan)). Dùng: node tools/them-van-ban.mjs "187/2013/NĐ-CP"
-- [ ] **Chưa có trong sổ: 204/2025/QH15** — Tạo registry/van-ban/ cho 204/2025/QH15 (được nhắc bởi 174/2025/NĐ-CP (huong_dan)). Dùng: node tools/them-van-ban.mjs "204/2025/QH15"
-- [ ] **Chưa có trong sổ: 98/2021/NĐ-CP** — Tạo registry/van-ban/ cho 98/2021/NĐ-CP (được nhắc bởi 19/2024/TT-BYT (huong_dan)). Dùng: node tools/them-van-ban.mjs "98/2021/NĐ-CP"
-- [ ] **Chưa có trong sổ: 07/2023/NĐ-CP** — Tạo registry/van-ban/ cho 07/2023/NĐ-CP (được nhắc bởi 19/2024/TT-BYT (huong_dan)). Dùng: node tools/them-van-ban.mjs "07/2023/NĐ-CP"
-
 ## Nhánh cây chưa có văn bản (5)
 
 - [ ] **Nhánh "Biểu thuế XNK (TT-BCT, quy tắc mặt hàng cụ thể các FTA)" (thue/bieu-thue-xnk) chưa có văn bản còn hiệu lực** — Do thám và thêm các văn bản thuộc nhánh này.
@@ -102,6 +93,11 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Nhánh "Biểu thuế XNK (TT-BCT, quy tắc mặt hàng cụ thể các FTA)" thiếu THONG_TU còn hiệu lực** — Tìm THONG_TU đang điều chỉnh nhánh này.
 - [ ] **Nhánh "Chống bán phá giá, chống trợ cấp, tự vệ" thiếu QUYET_DINH còn hiệu lực** — Tìm QUYET_DINH đang điều chỉnh nhánh này.
 - [ ] **Nhánh "Chống bán phá giá, chống trợ cấp, tự vệ" thiếu NGHI_DINH còn hiệu lực** — Tìm NGHI_DINH đang điều chỉnh nhánh này.
+
+## Được nhắc nhưng chưa có trong sổ (2)
+
+- [ ] **Chưa có trong sổ: 09/2018/NĐ-CP** — Tạo registry/van-ban/ cho 09/2018/NĐ-CP (được nhắc bởi 187/2013/NĐ-CP (bai_bo)). Dùng: node tools/them-van-ban.mjs "09/2018/NĐ-CP"
+- [ ] **Chưa có trong sổ: 96/2023/NĐ-CP** — Tạo registry/van-ban/ cho 96/2023/NĐ-CP (được nhắc bởi 98/2021/NĐ-CP (sua_doi)). Dùng: node tools/them-van-ban.mjs "96/2023/NĐ-CP"
 
 ## Cảnh báo nguồn (1)
 
@@ -151,7 +147,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **1025/TB-TCHQ/2019: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - … và 1992 điểm khác (xem bao-cao/diem-mu.json)
 
-## Wiki nhắc văn bản chưa đăng ký (97)
+## Wiki nhắc văn bản chưa đăng ký (93)
 
 - [ ] **Wiki nhắc 121/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/cptpp.md, wiki/sources/127-qd-ttg-2026.md).
 - [ ] **Wiki nhắc 35/2019/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/dong-vat-hoang-da-nguy-cap.md).
@@ -167,17 +163,14 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Wiki nhắc 01/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/rcep.md, wiki/sources/328-qd-ttg-2022.md).
 - [ ] **Wiki nhắc 55/2024/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/thiet-bi-pccc.md, wiki/sources/125-2026-tt-bca.md).
 - [ ] **Wiki nhắc 21/2017/TT-BNNPTNT nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/thuoc-bvtv-nhap-khau.md).
-- [ ] **Wiki nhắc 98/2021/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/thuoc-theo-luat-duoc-2016.md, wiki/sources/19-2024-tt-byt.md, wiki/sources/24-2026-tt-byt.md).
 - [ ] **Wiki nhắc 122/2024/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/xuat-xu-fta.md, wiki/sources/33-2025-tt-bct.md).
 - [ ] **Wiki nhắc 33/2024/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/xuat-xu-fta.md).
 - [ ] **Wiki nhắc 31/2020/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/xuat-xu-fta.md).
 - [ ] **Wiki nhắc 14/2024/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/readings/105-2016-qh13/03-chuong-iii-quan-ly-thuoc.md).
 - [ ] **Wiki nhắc 12/2025/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/readings/105-2016-qh13/03-chuong-iii-quan-ly-thuoc.md).
 - [ ] **Wiki nhắc 15/2017/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/01-2022-tt-bnnptnt.md).
-- [ ] **Wiki nhắc 35/2025/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/01-2026-tt-bnnmt.md).
 - [ ] **Wiki nhắc 25/2016/TT-BNNPTNT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/01-2026-tt-bnnmt.md).
 - [ ] **Wiki nhắc 60/2014/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/03-2015-tt-btttt.md, wiki/sources/11-2024-tt-btttt.md).
-- [ ] **Wiki nhắc 187/2013/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/04-2014-tt-bct.md, wiki/sources/11-2017-tt-bct.md, wiki/sources/16-2015-tt-btttt.md, wiki/sources/31-2015-tt-btttt.md, wiki/sources/40-2017-tt-bqp.md, wiki/sources/41-2016-tt-btttt.md, wiki/sources/765-qd-bct.md).
 - [ ] **Wiki nhắc 40/2025/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/07-2026-tt-bct.md, wiki/sources/33-2025-tt-bct.md).
 - [ ] **Wiki nhắc 71/2007/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/09-2013-tt-btttt.md).
 - [ ] **Wiki nhắc 108/2016/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/10-2022-tt-btttt.md).
@@ -193,7 +186,10 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Wiki nhắc 101/2015/QH13 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2026-qh16.md).
 - [ ] **Wiki nhắc 117/2025/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2026-qh16.md).
 - [ ] **Wiki nhắc 127/2007/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/125-2021-tt-bca.md, wiki/sources/2711-qd-bkhcn.md, wiki/sources/366-qd-bkhcn.md, wiki/sources/367-qd-bkhcn-2024.md, wiki/sources/58-2015-ttlt-bct-bkhcn.md).
-- … và 57 điểm khác (xem bao-cao/diem-mu.json)
+- [ ] **Wiki nhắc 01/2018/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/125-2021-tt-bca.md).
+- [ ] **Wiki nhắc 137/2020/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/125-2021-tt-bca.md).
+- [ ] **Wiki nhắc 65/2014/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/125-2021-tt-bca.md).
+- … và 53 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Thư viện hs-code-api ghi khác sổ (14)
 
@@ -240,7 +236,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **142/2026/TT-BTC có hiệu lực ngày 2026-11-16** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 - [ ] **336/2026/NĐ-CP có hiệu lực ngày 2026-10-15** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 
-## Hiệu lực chưa đối chiếu nguồn A (2166)
+## Hiệu lực chưa đối chiếu nguồn A (2172)
 
 - [ ] **2711/QĐ-BKHCN: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **01/2018/TT-BCT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
@@ -252,6 +248,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **05/2016/TT-BTTTT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **05/2022/TT-BYT: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **06/2026/TT-BTC: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **07/2023/NĐ-CP: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **08/2015/NĐ-CP: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **08/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **09/2013/TT-BTTTT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
@@ -281,8 +278,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **1018/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **1019/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **102/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1020/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- … và 2126 điểm khác (xem bao-cao/diem-mu.json)
+- … và 2132 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Chưa có toàn văn (87)
 

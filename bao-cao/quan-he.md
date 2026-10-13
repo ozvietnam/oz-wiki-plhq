@@ -145,6 +145,9 @@ flowchart LR
   n_62_2024_TT_BGTVT["62/2024/TT-BGTVT<br/>hết hiệu lực"]
   n_71_2025_TT_BXD["71/2025/TT-BXD<br/>chưa xác minh"]
   n_6266_Q__BCA["6266/QĐ-BCA<br/>chưa xác minh"]
+  n_98_2021_N__CP["98/2021/NĐ-CP<br/>còn hiệu lực"]
+  n_07_2023_N__CP["07/2023/NĐ-CP<br/>còn hiệu lực"]
+  n_96_2023_N__CP["96/2023/NĐ-CP<br/>chưa có trong sổ"]
   n_01_2021_TT_BL_TBXH -->|thay thế từ 2021-07-18| n_22_2018_TT_BL_TBXH
   n_04_2014_TT_BCT -->|bãi bỏ từ 2018-06-15| n_12_2018_TT_BCT
   n_05_2007_QH12 -->|sửa đổi| n_78_2025_QH15
@@ -206,6 +209,8 @@ flowchart LR
   n_78_2025_QH15 -->|sửa đổi| n_05_2007_QH12
   n_82_2022_N__CP -->|sửa đổi| n_113_2017_N__CP
   n_8378_Q__BCA -->|thay thế từ 2025-10-14| n_6266_Q__BCA
+  n_98_2021_N__CP -->|sửa đổi từ 2023-03-15| n_07_2023_N__CP
+  n_98_2021_N__CP -->|sửa đổi từ 2023-12-30| n_96_2023_N__CP
 ```
 
 ## Phân loại hàng hoá (mã HS)
@@ -280,6 +285,8 @@ flowchart LR
   n_28_2020_Q__TTg["28/2020/QĐ-TTg<br/>hết hiệu lực"]
   n_173_2018_TT_BQP["173/2018/TT-BQP<br/>còn hiệu lực"]
   n_40_2017_TT_BQP["40/2017/TT-BQP<br/>chưa xác minh"]
+  n_187_2013_N__CP["187/2013/NĐ-CP<br/>hết hiệu lực"]
+  n_09_2018_N__CP["09/2018/NĐ-CP<br/>chưa có trong sổ"]
   n_22_2018_TT_BTTTT["22/2018/TT-BTTTT<br/>còn hiệu lực"]
   n_16_2015_TT_BTTTT["16/2015/TT-BTTTT<br/>chưa xác minh"]
   n_41_2016_TT_BTTTT["41/2016/TT-BTTTT<br/>chưa xác minh"]
@@ -306,6 +313,7 @@ flowchart LR
   n_11_2026_TT_BXD -->|thay thế từ 2026-06-01| n_04_2021_TT_BXD
   n_13_2023_Q__TTg -->|thay thế từ 2023-06-01| n_28_2020_Q__TTg
   n_173_2018_TT_BQP -->|thay thế từ 2019-01-01| n_40_2017_TT_BQP
+  n_187_2013_N__CP -->|bãi bỏ từ 2018-06-15| n_09_2018_N__CP
   n_22_2018_TT_BTTTT -->|thay thế từ 2019-02-12| n_16_2015_TT_BTTTT
   n_22_2018_TT_BTTTT -->|thay thế từ 2019-02-12| n_41_2016_TT_BTTTT
   n_292_2026_N__CP -->|thay thế từ 2026-09-05| n_69_2018_N__CP
@@ -326,17 +334,18 @@ flowchart LR
 ```mermaid
 flowchart LR
   n_107_2016_QH13["107/2016/QH13<br/>còn hiệu lực"]
-  n_Lu_t_thu__XK_NK_2005["Luật thuế XK NK 2005<br/>chưa có trong sổ"]
+  n_45_2005_QH11["45/2005/QH11<br/>hết hiệu lực"]
   n_18_2021_N__CP["18/2021/NĐ-CP<br/>còn hiệu lực"]
   n_182_2025_N__CP["182/2025/NĐ-CP<br/>còn hiệu lực"]
   n_134_2016_N__CP["134/2016/NĐ-CP<br/>còn hiệu lực"]
   n_72_2026_N__CP["72/2026/NĐ-CP<br/>còn hiệu lực"]
   n_26_2023_N__CP["26/2023/NĐ-CP<br/>còn hiệu lực"]
-  n_107_2016_QH13 -->|thay thế từ 2016-09-01| n_Lu_t_thu__XK_NK_2005
+  n_107_2016_QH13 -->|thay thế từ 2016-09-01| n_45_2005_QH11
   n_107_2016_QH13 -->|sửa đổi Sửa đổi, bổ sung một số điều về giảm/hoàn thuế từ 2021-01-01| n_18_2021_N__CP
   n_107_2016_QH13 -->|sửa đổi Sửa đổi, bổ sung NĐ 134/2016 (lần 2) từ 2025-01-01| n_182_2025_N__CP
   n_18_2021_N__CP -->|sửa đổi| n_134_2016_N__CP
   n_182_2025_N__CP -->|sửa đổi| n_134_2016_N__CP
+  n_45_2005_QH11 -->|bãi bỏ từ 2016-09-01| n_107_2016_QH13
   n_72_2026_N__CP -->|sửa đổi thuế suất NK ưu đãi một số mặt hàng xăng, dầu từ 2026-03-09| n_26_2023_N__CP
 ```
 
