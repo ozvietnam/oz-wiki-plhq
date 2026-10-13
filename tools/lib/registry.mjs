@@ -12,7 +12,7 @@ export const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
 // Đổi phá vỡ (đổi tên/xoá trường, đổi nghĩa/kiểu, đổi giá trị liệt kê) → tăng major; thêm trường mới → minor.
 // Bên đọc (hs-code-api, ozplugin) so major: lệch major thì từ chối bản chụp thay vì trả sai tình trạng hiệu lực.
 // Lịch sử: docs/luoc-do-so-dang-ky.md § Lịch sử lược đồ. Yêu cầu: docs/yeu-cau/ozplugin.md W1.
-export const LUOC_DO_PHIEN_BAN = '1.0.0';
+export const LUOC_DO_PHIEN_BAN = '1.1.0';
 
 export const LOAI = ['HIEN_PHAP', 'LUAT', 'NGHI_QUYET', 'PHAP_LENH', 'NGHI_DINH', 'QUYET_DINH', 'THONG_TU',
   'THONG_TU_LIEN_TICH', 'CHI_THI', 'CONG_VAN', 'THONG_BAO', 'VAN_BAN_HOP_NHAT', 'DIEU_UOC', 'TIEU_CHUAN', 'KHAC'];

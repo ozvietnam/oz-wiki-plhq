@@ -74,3 +74,4 @@ chối bản chụp và báo lỗi, thay vì trả sai tình trạng hiệu lự
 | Phiên bản | Ngày | Đổi gì |
 |---|---|---|
 | 1.0.0 | 2026-10-13 | Phiên bản đầu: cấu trúc như hiện tại; thêm `luoc_do_phien_ban` vào hai tệp máy (yêu cầu tích hợp [docs/yeu-cau/ozplugin.md](yeu-cau/ozplugin.md) W1) |
+| 1.1.0 | 2026-10-13 | Thêm tệp mới `dist/hs-index-theo-ma.json` (nhóm mã HS → văn bản, đảo chiều của `hs-index.json`); cấu trúc hai tệp cũ không đổi — minor theo quy ước W1 |
