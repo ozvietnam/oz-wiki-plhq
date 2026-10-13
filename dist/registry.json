@@ -24283,13 +24283,14 @@
         "boi": "cursor-agent@ozvietnam"
       },
       "het_hieu_luc_tu": "2021-07-18",
-      "ghi_chu": "Khung stub: 01/2021/TT-BLĐTBXH Điều 5 khoản 2 ghi hết hiệu lực từ ngày 01/2021 có hiệu lực (18-07-2021). Ngày ban hành 06-12-2018 theo trích dẫn trong 01/2021; chưa mở toàn văn 22/2018.",
+      "ghi_chu": "PDF bậc A từ congbao.chinhphu.vn",
       "nguon": [
         {
           "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-22-2018-tt-bldtbxh-28214/25424.htm",
           "truy_cap": "2026-10-04"
         }
       ],
+      "toan_van": "raw/download/congbao.chinhphu.vn/22-2018-tt-bldtbxh.pdf",
       "slug": "22-2018-tt-bldtbxh",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -33017,6 +33018,7 @@
         "ngay": "2026-10-04",
         "boi": "cursor-agent@ozvietnam"
       },
+      "toan_van": "raw/download/congbao.chinhphu.vn/30-2011-tt-btttt.pdf",
       "slug": "30-2011-tt-btttt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -42909,17 +42911,17 @@
             "so_hieu": "37/2026/NĐ-CP"
           },
           {
+            "tu": "49/2026/TT-BXD",
+            "quan_he": "huong_dan",
+            "so_hieu": "37/2026/NĐ-CP"
+          },
+          {
             "tu": "49-PL1/2026/TT-BXD",
             "quan_he": "huong_dan",
             "so_hieu": "37/2026/NĐ-CP"
           },
           {
             "tu": "49-PL2/2026/TT-BXD",
-            "quan_he": "huong_dan",
-            "so_hieu": "37/2026/NĐ-CP"
-          },
-          {
-            "tu": "49/2026/TT-BXD",
             "quan_he": "huong_dan",
             "so_hieu": "37/2026/NĐ-CP"
           }
@@ -44806,7 +44808,6 @@
         ]
       },
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/2015/3/39-2015-tt-btc.pdf",
-      "text_body": "raw/download/congbaocdn.chinhphu.vn/2015/3/39-2015-tt-btc-body.txt",
       "slug": "39-2015-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -47286,227 +47287,6 @@
         "ngay": "2026-10-04",
         "boi": "cursor-agent@ozvietnam"
       },
-      "item_groups": [
-        {
-          "ten": "Xi măng & phụ gia xi măng",
-          "hs_count": 3,
-          "nhom_csv": [
-            "1 (Phụ lục II amiăng, 1 Phụ lục III xi măng)"
-          ],
-          "chuong_hs": [
-            25,
-            38
-          ],
-          "muc_rui_ro": [
-            "CAO",
-            "TRUNG_BINH"
-          ],
-          "ghi_chu": "Xi măng poóc lăng/hỗn hợp/bền sun phát (2523.29.10/90, TRUNG_BÌNH); thạch cao phospho SX xi măng (3824.40.00, CAO); amiăng trắng (2524.90.00, CAO)"
-        },
-        {
-          "ten": "Phụ gia tro bay & xỉ công nghiệp cho bê tông",
-          "hs_count": 4,
-          "nhom_csv": [
-            "2",
-            "3",
-            "4 (Phụ lục II)"
-          ],
-          "chuong_hs": [
-            26
-          ],
-          "muc_rui_ro": [
-            "CAO"
-          ],
-          "ghi_chu": "Xỉ hạt lò cao + tro bay (2618.00.00, 2621.90.90 mã Cao), tro xỉ nhiệt điện san lấp (2621.90.90), xỉ thép san lấp (2619.00.00). Nhập khẩu theo QĐ BVMT."
-        },
-        {
-          "ten": "Thạch cao san lấp/sx xi măng",
-          "hs_count": 1,
-          "nhom_csv": [
-            "5",
-            "6 (Phụ lục II)"
-          ],
-          "chuong_hs": [
-            38
-          ],
-          "muc_rui_ro": [
-            "CAO"
-          ],
-          "ghi_chu": "Hỗn hợp thạch cao phốt pho (3825.69.00); thạch cao phospho SX xi măng (3824.40.00)"
-        },
-        {
-          "ten": "Tấm/Panel thạch cao",
-          "hs_count": 3,
-          "nhom_csv": [
-            "7 (Phụ lục II)"
-          ],
-          "chuong_hs": [
-            68
-          ],
-          "muc_rui_ro": [
-            "CAO"
-          ],
-          "ghi_chu": "6809.11.00, 6809.19.90, 6809.90.90 (tấm thạch cao, panel cốt sợi, panel sợi thủy tinh)"
-        },
-        {
-          "ten": "Kính xây dựng",
-          "hs_count": 7,
-          "nhom_csv": [
-            "8 (Phụ lục II)"
-          ],
-          "chuong_hs": [
-            70
-          ],
-          "muc_rui_ro": [
-            "CAO"
-          ],
-          "ghi_chu": "Kính nổi, phủ phản quang, Low-E, tôi nhiệt, dán an toàn, kính hộp (7005.10.90, 7005.21.90, 7005.29.20/90, 7007.19.90, 7007.29.90, 7008.00.00)"
-        },
-        {
-          "ten": "Sơn tường dạng nhũ tương",
-          "hs_count": 1,
-          "nhom_csv": [
-            "2 (Phụ lục III)"
-          ],
-          "chuong_hs": [
-            32
-          ],
-          "muc_rui_ro": [
-            "TRUNG_BINH"
-          ],
-          "ghi_chu": "3209.10.90"
-        },
-        {
-          "ten": "Ống & phụ tùng (PE/PP/PVC/GRP/gang dẻo)",
-          "hs_count": 9,
-          "nhom_csv": [
-            "3 (Phụ lục III)"
-          ],
-          "chuong_hs": [
-            39,
-            73
-          ],
-          "muc_rui_ro": [
-            "TRUNG_BINH"
-          ],
-          "ghi_chu": "3917.21/22/23/29.25/40.00 (ống nhựa) + 7303.00.11/19, 7307.19.00 (ống gang dẻo & phụ tùng)"
-        },
-        {
-          "ten": "Ván gỗ nhân tạo & gỗ ghép",
-          "hs_count": 33,
-          "nhom_csv": [
-            "4 (Phụ lục III)"
-          ],
-          "chuong_hs": [
-            44
-          ],
-          "muc_rui_ro": [
-            "TRUNG_BINH"
-          ],
-          "ghi_chu": "4410.11/12/19/90.00, 4411.12/13/14/92/93/94.00, 4412.10/31/33/34/39/41.10/41.90/49.00, 4412.51/52/59.00, 4412.91.10/91.90/92/99.00, 4418.75/79/81.10/81.90/82/89/99.00 — ván dăm, ván sợi khô, gỗ dán, ván ghép thanh"
-        },
-        {
-          "ten": "Đá ốp lát (tự nhiên + nhân tạo)",
-          "hs_count": 11,
-          "nhom_csv": [
-            "5 (Phụ lục III)"
-          ],
-          "chuong_hs": [
-            68
-          ],
-          "muc_rui_ro": [
-            "TRUNG_BINH"
-          ],
-          "ghi_chu": "6802.21/23, 6802.29.10/90, 6802.91.10/90, 6802.92.90, 6802.93.10, 6802.99.00, 6810.19.10/90/99.00. Lưu ý: 68029290 trong biểu thuế hiện chưa có (theo dõi)."
-        },
-        {
-          "ten": "Gạch gốm ốp lát",
-          "hs_count": 1,
-          "nhom_csv": [
-            "6 (Phụ lục III)"
-          ],
-          "chuong_hs": [
-            68
-          ],
-          "muc_rui_ro": [
-            "TRUNG_BINH"
-          ],
-          "ghi_chu": "6810.99.00 (trùng nhóm 8, 10)"
-        },
-        {
-          "ten": "Bê tông khí chưng áp (AAC)",
-          "hs_count": 1,
-          "nhom_csv": [
-            "7 (Phụ lục III)"
-          ],
-          "chuong_hs": [
-            68
-          ],
-          "muc_rui_ro": [
-            "TRUNG_BINH"
-          ],
-          "ghi_chu": "6810.91.90"
-        },
-        {
-          "ten": "Tấm tường đúc sẵn (panel tường)",
-          "hs_count": 3,
-          "nhom_csv": [
-            "8 (Phụ lục III)"
-          ],
-          "chuong_hs": [
-            68,
-            69
-          ],
-          "muc_rui_ro": [
-            "TRUNG_BINH"
-          ],
-          "ghi_chu": "6810.99.00, 6811.82.20, 6905.10.00 — tấm tường rỗng đùn ép, 3 lớp xen kẹp, AAC cốt thép. 6811.82.20 và 6905.10.00 trùng nhóm 10."
-        },
-        {
-          "ten": "Tấm sóng amiăng xi măng",
-          "hs_count": 1,
-          "nhom_csv": [
-            "9 (Phụ lục III)"
-          ],
-          "chuong_hs": [
-            68
-          ],
-          "muc_rui_ro": [
-            "TRUNG_BINH"
-          ],
-          "ghi_chu": "6811.82.20"
-        },
-        {
-          "ten": "Ngói lợp mái",
-          "hs_count": 3,
-          "nhom_csv": [
-            "10 (Phụ lục III)"
-          ],
-          "chuong_hs": [
-            68,
-            69
-          ],
-          "muc_rui_ro": [
-            "TRUNG_BINH"
-          ],
-          "ghi_chu": "6810.99.00, 6811.82.20, 6905.10.00 — ngói đất sét nung, gốm tráng men, bê tông (kể cả bê tông sợi)"
-        },
-        {
-          "ten": "Thiết bị vệ sinh",
-          "hs_count": 5,
-          "nhom_csv": [
-            "11 (Phụ lục III)"
-          ],
-          "chuong_hs": [
-            69,
-            73
-          ],
-          "muc_rui_ro": [
-            "TRUNG_BINH"
-          ],
-          "ghi_chu": "7324.10.90, 7324.90.10/99, 6910.10.00, 6910.90.00 — chậu rửa, bồn tiểu nam/nữ, bệ xí bệt"
-        }
-      ],
       "ghi_chu": "3 mức rủi ro, 09 nhóm rủi ro cao; rủi ro trung bình tại Phụ lục III. Công báo số 404 ngày 17/7/2026. Phụ lục I không có mã HS (danh mục vật liệu xây dựng tổng quát).",
       "nguon": [
         {
@@ -52408,165 +52188,6 @@
       }
     },
     {
-      "so_hieu": "49-PL1/2026/TT-BXD",
-      "loai": "THONG_TU",
-      "ten": "Phụ lục I — Danh mục sản phẩm, hàng hóa có mức độ rủi ro cao thuộc phạm vi quản lý của Bộ Xây dựng (ban hành kèm theo TT 49/2026/TT-BXD)",
-      "phu_luc": "I",
-      "co_quan": "BXD",
-      "ngay_ban_hanh": "2026-06-30",
-      "hieu_luc_tu": "2026-07-01",
-      "tinh_trang": "CON_HIEU_LUC",
-      "nhanh": [
-        "kiem-tra-chuyen-nganh/bxd"
-      ],
-      "quan_he": {
-        "huong_dan": [
-          "37/2026/NĐ-CP"
-        ]
-      },
-      "nguon": [
-        {
-          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd-pl1.pdf",
-          "truy_cap": "2026-10-04",
-          "ghi_chu": "Phụ lục I (10 trang) — bản PDF đã lưu kèm .nguon.json"
-        },
-        {
-          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd.signed.pdf",
-          "truy_cap": "2026-10-04",
-          "ghi_chu": "Bản VB chính (4 trang) trên datafiles.chinhphu.vn"
-        }
-      ],
-      "toan_van": "raw/download/datafiles.chinhphu.vn/49-2026-tt-bxd-pl1.pdf",
-      "lien_ket": {
-        "van_ban_me": "49/2026/TT-BXD",
-        "vi_tri": "Phụ lục I (ban hành kèm theo TT 49/2026/TT-BXD ngày 30/6/2026)"
-      },
-      "xac_minh": {
-        "muc": "NGUON_A",
-        "pham_vi": "Phụ lục I — bảng 6 cột (STT, Tên sản phẩm/hàng hóa, Quy chuẩn kỹ thuật quốc gia, Mã số HS, Mô tả, Yêu cầu quản lý chất lượng). Đếm thực tế từ body trích: 48 dòng mã HS duy nhất (một số mã ghi cả dạng 2-số và 6/8-số, ví dụ 73.11 / 7311.00.99 — quy về một). Phạm vi: ô tô, mô tô, xe gắn máy, xe bốn bánh có gắn động cơ; rơ moóc/sơ mi rơ moóc; xe máy chuyên dùng; phụ tùng xe cơ giới; sản phẩm công nghiệp dùng trong GTVT (bình áp lực, cần trục, xe nâng, sàn nâng).",
-        "hieu_luc_da_doi_chieu": true,
-        "ngay": "2026-10-09",
-        "boi": "hermes-subagent"
-      },
-      "ghi_chu": "Tách riêng Phụ lục I để tra mã HS nhanh. VB chính 49/2026/TT-BXD đã có file 49-2026-tt-bxd.yaml — file này bổ sung dữ liệu mã HS chi tiết. 73.11 (hoặc 7311.00.99) ghi 1 mã. 87.01 ghi dạng chương; các 8701.xx ghi riêng — tổng cộng 48 dòng mã duy nhất trong bảng (gần sát 46 mã ước tính).",
-      "ma_hs_danh_muc": {
-        "tep": "danh-muc/49-2026-tt-bxd.csv",
-        "cot_loc": "phu_luc",
-        "gia_tri_loc": "Phụ lục I",
-        "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd-pl1.pdf",
-        "trich_boi": "hermes",
-        "ngay": "2026-10-04",
-        "ghi_chu": "Dùng CSV gốc 49-2026-tt-bxd.csv (đã trích trước), lọc theo cột phu_luc=\"Phụ lục I\". 38 mã unique."
-      },
-      "danh_sach_ma_hs": [
-        "4011.10.00",
-        "4011.20",
-        "4011.40.00",
-        "4011.90.10",
-        "7311.00.99",
-        "73.11",
-        "84.26",
-        "84.27",
-        "84.28",
-        "84.29",
-        "84.29.30.00",
-        "84.30",
-        "84.79",
-        "85.07",
-        "87.01",
-        "87.02",
-        "87.03",
-        "87.04",
-        "87.05",
-        "87.06",
-        "87.09",
-        "87.11",
-        "87.16",
-        "8415.81.11",
-        "8426.41.00",
-        "8426.49.00",
-        "8427.10.00",
-        "8427.20.00",
-        "8429.20.00",
-        "8429.40",
-        "8429.51.00",
-        "8429.52.00",
-        "8429.59.00",
-        "8430.10.00",
-        "8430.41.00",
-        "8701.21",
-        "8701.22",
-        "8701.23",
-        "8701.24",
-        "8701.29",
-        "8701.30.00",
-        "8701.95.90",
-        "8703.10",
-        "8705.10.00",
-        "8705.40.00",
-        "8705.90.50",
-        "8705.90.90",
-        "8713.90.00"
-      ],
-      "slug": "49-2026-tt-bxd-pl1",
-      "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
-    },
-    {
-      "so_hieu": "49-PL2/2026/TT-BXD",
-      "loai": "THONG_TU",
-      "ten": "Phụ lục II — Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình thuộc phạm vi quản lý của Bộ Xây dựng (ban hành kèm theo TT 49/2026/TT-BXD)",
-      "phu_luc": "II",
-      "co_quan": "BXD",
-      "ngay_ban_hanh": "2026-06-30",
-      "hieu_luc_tu": "2026-07-01",
-      "tinh_trang": "CON_HIEU_LUC",
-      "nhanh": [
-        "kiem-tra-chuyen-nganh/bxd"
-      ],
-      "quan_he": {
-        "huong_dan": [
-          "37/2026/NĐ-CP"
-        ]
-      },
-      "nguon": [
-        {
-          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd-pl2.pdf",
-          "truy_cap": "2026-10-09"
-        },
-        {
-          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd.signed.pdf",
-          "truy_cap": "2026-10-09",
-          "ghi_chu": "Bản VB chính trên datafiles.chinhphu.vn"
-        }
-      ],
-      "toan_van": "raw/download/datafiles.chinhphu.vn/49-2026-tt-bxd-pl2.pdf",
-      "lien_ket": {
-        "van_ban_me": "49/2026/TT-BXD",
-        "vi_tri": "Phụ lục II (ban hành kèm theo TT 49/2026/TT-BXD ngày 30/6/2026)"
-      },
-      "xac_minh": {
-        "muc": "NGUON_A",
-        "pham_vi": "Phụ lục II — bảng 6 cột (STT, Tên sản phẩm/hàng hóa, QCVN, Mã số HS, Mô tả, Yêu cầu QLCL). Phạm vi: phương tiện giao thông đường bộ còn lại, phụ tùng, thiết bị GTVT, vật liệu xây dựng dạng công nghiệp, xe máy chuyên dùng. Yêu cầu KTCL theo QCVN tương ứng nhưng mức độ trung bình → kiểm tra theo tỷ lệ/tần suất.",
-        "hieu_luc_da_doi_chieu": true,
-        "ngay": "2026-10-09",
-        "boi": "hermes"
-      },
-      "ghi_chu": "Tách riêng Phụ lục II để tra mã HS nhanh. VB chính 49/2026/TT-BXD đã có file 49-2026-tt-bxd.yaml. Có hiệu lực 01/7/2026 cùng PL I.",
-      "ma_hs_danh_muc": {
-        "tep": "danh-muc/49-2026-tt-bxd.csv",
-        "cot_loc": "phu_luc",
-        "gia_tri_loc": "Phụ lục II",
-        "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd-pl2.pdf",
-        "trich_boi": "hermes",
-        "ngay": "2026-10-09",
-        "ghi_chu": "Dùng CSV gốc 49-2026-tt-bxd.csv, lọc theo cột phu_luc=\"Phụ lục II\"."
-      },
-      "slug": "49-2026-tt-bxd-pl2",
-      "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
-    },
-    {
       "so_hieu": "49/2026/TT-BXD",
       "loai": "THONG_TU",
       "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao lĩnh vực giao thông vận tải thuộc phạm vi quản lý của Bộ Xây dựng",
@@ -52647,6 +52268,87 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "49-PL1/2026/TT-BXD",
+      "loai": "THONG_TU",
+      "ten": "Phụ lục I — Danh mục sản phẩm, hàng hóa có mức độ rủi ro cao thuộc phạm vi quản lý của Bộ Xây dựng (ban hành kèm theo TT 49/2026/TT-BXD)",
+      "co_quan": "BXD",
+      "ngay_ban_hanh": "2026-06-30",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bxd"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "37/2026/NĐ-CP"
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd-pl1.pdf",
+          "truy_cap": "2026-10-04",
+          "ghi_chu": "Phụ lục I (10 trang) — bản PDF đã lưu kèm .nguon.json"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd.signed.pdf",
+          "truy_cap": "2026-10-04",
+          "ghi_chu": "Bản VB chính (4 trang) trên datafiles.chinhphu.vn"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/49-2026-tt-bxd-pl1.pdf",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Phụ lục I — bảng 6 cột (STT, Tên sản phẩm/hàng hóa, Quy chuẩn kỹ thuật quốc gia, Mã số HS, Mô tả, Yêu cầu quản lý chất lượng). Đếm thực tế từ body trích: 48 dòng mã HS duy nhất (một số mã ghi cả dạng 2-số và 6/8-số, ví dụ 73.11 / 7311.00.99 — quy về một). Phạm vi: ô tô, mô tô, xe gắn máy, xe bốn bánh có gắn động cơ; rơ moóc/sơ mi rơ moóc; xe máy chuyên dùng; phụ tùng xe cơ giới; sản phẩm công nghiệp dùng trong GTVT (bình áp lực, cần trục, xe nâng, sàn nâng).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-09",
+        "boi": "hermes-subagent"
+      },
+      "ghi_chu": "Tách riêng Phụ lục I để tra mã HS nhanh. VB chính 49/2026/TT-BXD đã có file 49-2026-tt-bxd.yaml — file này bổ sung dữ liệu mã HS chi tiết. 73.11 (hoặc 7311.00.99) ghi 1 mã. 87.01 ghi dạng chương; các 8701.xx ghi riêng — tổng cộng 48 dòng mã duy nhất trong bảng (gần sát 46 mã ước tính).",
+      "slug": "49-pl1-2026-tt-bxd",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "49-PL2/2026/TT-BXD",
+      "loai": "THONG_TU",
+      "ten": "Phụ lục II — Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình thuộc phạm vi quản lý của Bộ Xây dựng (ban hành kèm theo TT 49/2026/TT-BXD)",
+      "co_quan": "BXD",
+      "ngay_ban_hanh": "2026-06-30",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bxd"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "37/2026/NĐ-CP"
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd-pl2.pdf",
+          "truy_cap": "2026-10-09"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd.signed.pdf",
+          "truy_cap": "2026-10-09",
+          "ghi_chu": "Bản VB chính trên datafiles.chinhphu.vn"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/49-2026-tt-bxd-pl2.pdf",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Phụ lục II — bảng 6 cột (STT, Tên sản phẩm/hàng hóa, QCVN, Mã số HS, Mô tả, Yêu cầu QLCL). Phạm vi: phương tiện giao thông đường bộ còn lại, phụ tùng, thiết bị GTVT, vật liệu xây dựng dạng công nghiệp, xe máy chuyên dùng. Yêu cầu KTCL theo QCVN tương ứng nhưng mức độ trung bình → kiểm tra theo tỷ lệ/tần suất.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-09",
+        "boi": "hermes"
+      },
+      "ghi_chu": "Tách riêng Phụ lục II để tra mã HS nhanh. VB chính 49/2026/TT-BXD đã có file 49-2026-tt-bxd.yaml. Có hiệu lực 01/7/2026 cùng PL I.",
+      "slug": "49-pl2-2026-tt-bxd",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "4902/TB-TCHQ/2022",
@@ -70514,7 +70216,6 @@
       "ngay_ban_hanh": "2019-11-14",
       "hieu_luc_tu": "2020-01-01",
       "tinh_trang": "CON_HIEU_LUC",
-      "canh_bao": "Sắp hết hiệu lực 2026-10-15 (còn 6 ngày) — NĐ 37/2026 thay thế",
       "nhanh": [
         "hai-quan/mot-cua"
       ],
