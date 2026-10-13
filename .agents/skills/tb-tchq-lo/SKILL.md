@@ -229,3 +229,37 @@ Kết quả gộp:
 - [ ] Tất cả hsCode có trong tax.json?
 - [ ] Validate: 0 lỗi?
 - [ ] Test-merge: 25/25?
+
+### 🧠 Triết lý xử lý legacy (từ Sếp 2026-10-14)
+
+> **"Lập luận trong văn bản mới là tinh túy cần ghi chép lại cẩn thận"**
+
+Khi hsCode crawl từ nguồn cũ không có trong biểu thuế hiện hành:
+
+**❌ KHÔNG ĐƯỢC**:
+- Xóa bản ghi
+- Bỏ qua bản ghi
+- Sửa hsCode thành mã mới (mất giá trị lịch sử)
+
+**✅ PHẢI LÀM**:
+- Giữ nguyên bản ghi gốc
+- Đánh dấu `legacyHs: true` (hoặc tương tự)
+- Thêm `legacyHsRemap` (mã EN2022 tương đương)
+- Thêm `legacyHsConfidence` (high/medium/low)
+- Thêm `legacyHsReasoning` (lý do remap)
+- Để API có thể trả về cả 2 mã khi khách hỏi
+
+**Lý do**: TB-TCHQ là văn bản pháp lý, chứng minh tại sao hàng hóa được phân loại như vậy tại thời điểm ban hành. Xóa = mất giá trị lịch sử.
+
+### Workflow khi phát hiện hsCode legacy
+1. Check `hs in tax.json` (biểu thuế hiện hành)
+2. Nếu KHÔNG có → tìm mã tương đương theo 6 số đầu
+3. Nếu có → set `legacyHs: true` + `legacyHsRemap: [...]` + `legacyHsConfidence: 'high'/'medium'/'low'`
+4. Nếu không có cùng 6 số → check cùng 4 số + suy luận + đánh `low` confidence
+5. Cập nhật file mapping `data/legacy-hs-YYYY-to-YYYY-mapping.json` để dùng lại
+
+### Ví dụ đã làm
+\`data/customs/lo/legacy-hs-2017-to-2022-mapping.json\`:
+- 13 mã legacy, 18 bản precedents
+- 4 high, 11 medium, 3 low
+- Có thể mở rộng khi gặp thêm mã mới
