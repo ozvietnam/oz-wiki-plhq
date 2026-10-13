@@ -101,6 +101,33 @@ function kếtLuậnTừToànVăn(nd, hsCode) {
   if (unbalanced(gọn)) gọn = cânBằng(gọn, hsCode);
   return gọn;
 }
+// Hai loại TB (CEO 13/10/2026): xác định trước (hỏi trước khi hàng về) vs kết quả phân loại
+// (thường sau tranh chấp/phân tích mẫu); đính chính = cơ quan sửa chính mình — cặp mã cũ→mới là bài học lớn.
+function nhanLoaiTB(nd) {
+  const đầu = nd.slice(0, 600);
+  if (/ĐÍNH CHÍNH|đính chính/i.test(đầu)) return 'DINH_CHINH';
+  if (/XÁC ĐỊNH TRƯỚC MÃ SỐ|xác định trước mã số/i.test(đầu)) return 'XAC_DINH_TRUOC';
+  return 'KET_QUA_PHAN_LOAI';
+}
+// Mã bị bác / mã cũ (đính chính) — CHỈ nhận mã có nguyên văn, khác mã kết luận
+function mãBịBác(nd, hsCode, loaiTB) {
+  const out = new Set();
+  if (loaiTB === 'DINH_CHINH') {
+    // Bảng đính chính in 3 cột (số TB | nội dung đã ban hành | nội dung đính chính); bản tách phẳng
+    // giữ theo hàng: sau "Nội dung đính chính" là "Thông báo số <ref>" rồi tới ô ĐÃ BAN HÀNH (mã cũ).
+    const mRef = nd.match(/Nội dung đính chính[\s\S]{0,80}?Thông báo số\s*\d+\/TB-[A-Z-]+/i);
+    const sau = mRef ? nd.slice(mRef.index + mRef[0].length, mRef.index + mRef[0].length + 400) : '';
+    for (const m of sau.matchAll(/mã số\s*(\d{4}[.\s]\d{2}([.\s]\d{2})?)|nhóm\s*(\d{2}[.\s]\d{2})/gi)) {
+      const so = m[0].replace(/\D/g, '');
+      if ([4, 6, 8].includes(so.length) && so !== hsCode) out.add(so);
+    }
+  }
+  for (const m of nd.matchAll(/không (?:đồng ý|phù hợp|thuộc|đúng)[^.\n]{0,140}?mã số\s*(\d{4}[.\s]\d{2}([.\s]\d{2})?)/gi)) {
+    const so = m[1].replace(/\D/g, '');
+    if ([4, 6, 8].includes(so.length) && so !== hsCode) out.add(so);
+  }
+  return [...out];
+}
 const CẤM_ĐIỂN_HÌNH = /kết quả phân loại|tên gọi theo cấu tạo|(^|[\s—–-])g thức hóa học|nhà sản xuất\s*:|hàng hóa theo thông báo/i;
 const CÔNG_TY = /\b(Inc|Ltd|LLC|GmbH|B\.?V|S\.?A|AG|Co\.,?|Corp(oration)?|Group|JSC|Pte|Sdn\s+Bhd|Limited)\b\.?(?![-\d])/;
 
@@ -132,11 +159,19 @@ for (const r of records) {
   const issuedDate = `${y}-${String(+m).padStart(2, '0')}-${String(+d).padStart(2, '0')}`;
   const bieuThue = bieuThueTheoNgay(issuedDate);
   if (!BIEU_THUE.has(String(bieuThue))) { ghiChú(r, 'không suy được biểu thuế theo ngày ký'); continue; }
+  const loaiTB = nhanLoaiTB(nd);
 
   // ketLuan: câu kết luận nguyên văn có mã số — ưu tiên reasonVi crawl (đã là chuỗi kết luận),
   // nếu không có mã thì lấy câu kết luận trong toàn văn và ghép reasonVi để chứa nguyên văn.
   let ketLuan = null;
   let reasonVi = String(r.reasonVi || '').replace(/\s+/g, ' ').trim();
+  if (loaiTB === 'DINH_CHINH') {
+    const vùngĐc = (nd.match(/Nội dung đính chính([\s\S]{40,2500}?)(?:tại Danh mục[^\n]{0,140}Việt Nam|Các nội dung khác)/) || [])[1];
+    if (vùngĐc) {
+      const gọnĐc = vùngĐc.replace(/\s+/g, ' ').trim();
+      if (hsInText(hsCode, gọnĐc) && gọnĐc.length >= 80) reasonVi = gọnĐc;
+    }
+  }
   if (!hsInText(hsCode, reasonVi)) {
     const đoạn = nd.match(new RegExp(`[^.!?]{20,600}?mã số\\s*${hsCode.slice(0, 4)}[.\\s]?${hsCode.slice(4, 6)}[.\\s]?${hsCode.slice(6)}[^.!?]{0,200}`, 'i'));
     if (đoạn) reasonVi = (đoạn[0].replace(/\s+/g, ' ').trim() + ' ' + reasonVi).replace(/\s+/g, ' ').trim();
@@ -162,14 +197,26 @@ for (const r of records) {
     const tail = parts.slice(1).join(' - ').trim().toLowerCase();
     return Boolean(tail) && tênNhóm.some((h) => h.startsWith(tail.slice(0, 25)));
   };
+  if (loaiTB === 'DINH_CHINH') {
+    const tbCũ = (nd.match(/đính chính Thông báo[^\d]{0,40}?(\d+\/TB-[A-Z-]+)/i) || [])[1]
+      || (nd.match(/Thông báo số\s*(\d+\/TB-[A-Z-]+)/i) || [])[1] || '?';
+    const trích = (nd.match(/[“"]([^”"]{40,450})[”"]/) || [])[1];
+    if (trích) {
+      const môTảĐc = dọnMôTả(`Đính chính Thông báo ${tbCũ}: ${trích.slice(0, 260)}`, hsCode);
+      if (môTảĐc.length >= 40 && !CẤM_ĐIỂN_HÌNH.test(môTảĐc) && !unbalanced(môTảĐc)) {
+        r._descĐc = môTảĐc;
+      }
+    }
+  }
   const tenGọn = String(r.ten_hang || '').replace(/\s+/g, ' ').trim();
   const moTaGọn = String(r.mo_ta || '').replace(/\s+/g, ' ').trim();
   const ứngViên = [
+    r._descĐc || '',
     dọnMôTả([tenGọn, moTaGọn].filter(Boolean).join(' - '), hsCode),
     dọnMôTả(tenGọn, hsCode),
     dọnMôTả(moTaGọn, hsCode),
     dọnMôTả(môTảTừToànVăn(nd) || '', hsCode),
-  ].map((d) => (unbalanced(d) ? cắtCânBằng40(d) : d)).filter(Boolean);
+  ].filter(Boolean).map((d) => (unbalanced(d) ? cắtCânBằng40(d) : d)).filter(Boolean);
   const sạchCorp = (d) => d.replace(/\s*\((?:[A-Z]{2,}[\s-])+[A-Z0-9-]{3,}\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim();
   let description = ứngViên.find((d) => d.length >= 40 && !nốiTênNhóm(d)) || '';
   if (description && CÔNG_TY.test(description)) {
@@ -187,8 +234,10 @@ for (const r of records) {
   if (đãThấy.has(key)) { trùngTrongLo += 1; continue; }
   đãThấy.add(key);
 
+  const bác = mãBịBác(nd, hsCode, loaiTB);
   giữ.push({
     hsCode,
+    ...(bác.length ? { confusedWith: bác } : {}),
     description,
     source: {
       type: 'TB-TCHQ',
@@ -196,7 +245,7 @@ for (const r of records) {
       issuedDate,
       url: `https://www.tracuuhs.com/tin-tuc/tchq-${reference.split('/')[0]}-${String(issuedDate).slice(0, 4) || year}`,
     },
-    attributes: { bieuThue },
+    attributes: { bieuThue, loaiTB },
     reasonVi,
     evidence: { soHieu: reference, ketLuan },
   });
