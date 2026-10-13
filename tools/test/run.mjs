@@ -1,5 +1,6 @@
 // Test công cụ trên sổ giả lập (thư mục tạm) — không đụng registry/ thật, không cần mạng.
 import { mkdtempSync, mkdirSync, writeFileSync, cpSync, readFileSync, existsSync } from 'node:fs';
+import { execSync } from 'node:child_process';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { napSo, khoa, slugTuSoHieu, bacNguon, ROOT, LUOC_DO_PHIEN_BAN } from '../lib/registry.mjs';
@@ -253,6 +254,14 @@ t('bản chụp biểu thuế: tồn tại + có _comment + nguon + phien_ban + 
   JSON.stringify({ nguon: taxSnap?.nguon, tong: taxSnap?.tong, soMa: Object.keys(taxSnap?.ma || {}).length }));
 t('bản chụp biểu thuế: không phải file cũ data/tax.json 5.7MB', !existsSyncSafe('data/tax.json'));
 
+// 10. Tiền lệ TB-TCHQ (docs/tien-le-tb-tchq.md): tra theo mã HS và số hiệu từ dữ liệu crawl đã commit.
+const tienLe8708 = execSyncNode('node tools/tien-le.mjs 8708');
+t('tiền lệ: tra 8708 trả nhóm 87.08 kèm ngày từ customs.gov.vn', /Tiền lệ TB-TCHQ khớp "8708": [1-9]/.test(tienLe8708) && /87\.08/.test(tienLe8708) && /\(ngày /.test(tienLe8708), tienLe8708.slice(0, 200));
+const tienLeSo = execSyncNode('node tools/tien-le.mjs 503/TB-TCHQ');
+t('tiền lệ: tra theo đầu số hiệu 503/TB-TCHQ', /503\/TB-TCHQ\/2018/.test(tienLeSo));
+const tienLeRong = execSyncNode('node tools/tien-le.mjs 99999999');
+t('tiền lệ: mã không khớp → báo rõ không có kết quả', /Không có tiền lệ nào khớp "99999999"/.test(tienLeRong));
+
 // 9. Phiên bản lược đồ (docs/yeu-cau/ozplugin.md W1): hai tệp dist đều có luoc_do_phien_ban, khớp semver, bằng nhau.
 const semverOk = (s) => /^\d+\.\d+\.\d+$/.test(s);
 t('lược đồ: dungJson + dungChiMuc gắn luoc_do_phien_ban từ một hằng số chung',
@@ -267,6 +276,7 @@ t('lược đồ: hai tệp máy có luoc_do_phien_ban khớp semver và bằng 
   JSON.stringify({ reg: regDist.luoc_do_phien_ban, hs: hsDist.luoc_do_phien_ban }));
 
 function readFileSyncSafe(p) { try { return readFileSync(join(ROOT, p), 'utf8'); } catch { return null; } }
+function execSyncNode(cmd) { return execSync(cmd, { cwd: ROOT, encoding: 'utf8' }); }
 function existsSyncSafe(p) { try { return existsSync(join(ROOT, p)); } catch { return false; } }
 
 console.log(`\n${pass} passed, ${fail} failed`);
