@@ -49,3 +49,49 @@ KHÔNG nhồi vào lô, KHÔNG bịa trường.
 
 - Validator báo lỗi cùng loại nhiều bản ghi → cải tiến `tools/dong-goi-lo-tb-tchq.mjs`, ghi lý do trong commit.
 - Validator chặn nhầm (model hàng trùng pattern) → giữ nguyên dữ liệu, ghi rõ trong PR để người review xác nhận.
+
+## Kinh nghiệm từ goi-058 (2026-10-13, 17 bản mới)
+
+### Bài học kỹ thuật
+
+1. **tracuuhs.com = SPA** — KHÔNG fetch được bằng `curl` (chỉ thấy HTML rỗng).
+   - **Dùng Playwright Python** với `wait_until="networkidle"` mới lấy được text.
+   - Mẫu code: `tools/crawl_goi_058.py` (đã mở PR #186).
+
+2. **Mã HS trên tracuuhs chỉ hiển thị 4 số + ".."** (vd "Mã HS: 3824..").
+   - Mã 8 số đầy đủ **CHỈ** có trong `reasonVi` dạng dotted (`3824.81.00`).
+   - Regex ưu tiên: `\\b(\\d{4}\\.\\d{2}\\.\\d{2})\\b` → bỏ dấu chấm.
+   - Fallback: `\\b(\\d{8})\\b` rồi `\\b(\\d{4}\\.\\d{2})\\b`.
+
+3. **Che thông tin trước khi ghi file** (CONTRIBUTING + luật privacy):
+   - Tên DN: `(Công ty|Cty|C\\.ty|Tập đoàn)\\s+[A-ZÀ-Ỹ][^,.\\n]{2,80}` → `##DN##`
+   - MST: `\\b\\d{10}(?:-\\d{3})?\\b` hoặc `\\b\\d{13}\\b` → `##MST##`
+   - Số tờ khai: `\\b\\d{6,8}/[A-Z]\\d{1,3}\\b` → `##MST##/TK`
+
+4. **Envelope format** bên nhận (`hs-code-api/scripts/validate-community.mjs`):
+   - `contributor` PHẢI là **object** `{name: "...", github: "..."}`, KHÔNG phải string.
+   - Tool `dong-goi-lo` (oz-wiki-plhq) ghi string → phải sửa tay sau khi tool chạy.
+
+5. **Trùng bản ghi khi merge**:
+   - Cùng `hsCode` đã có trong kho → `merge-community.mjs` skip (đúng luật "không nhân bản").
+   - 17 bản crawl → chỉ 5 bản thực sự mới (12 trùng hsCode).
+   - **Trước khi PR**: luôn chạy `validate-community.mjs` ở hs-code-api để check trùng.
+
+### Workflow chuẩn (5 bước)
+
+\`\`\`
+1. Comment "nhận goi-NNN" trên issue #185 (tránh 2 agent trùng gói)
+2. Python script (Playwright): crawl 20 URL, 1.5s/URL, che DN/MST/TK
+3. npm run dong-goi-lo → 20/20 đạt
+4. Copy sang hs-code-api/data/community/tb-tchq/ + node scripts/validate-community.mjs
+5. Sửa 2 thứ thường gặp: (a) contributor object, (b) loại trùng → 17 bản
+6. node scripts/merge-community.mjs + sync-doc-counts + test
+7. Commit + push 2 PR (oz-wiki-plhq + hs-code-api)
+8. Comment "xong goi-NNN" trên #185
+\`\`\`
+
+### Quyết định có nên nhận gói tiếp không
+
+- **Nên nhận** nếu: gói có `nhom_hs` còn mỏng trong kho (vd Ch.38 mới chỉ 30+ bản vs 2.083 tổng)
+- **Cân nhắc** nếu: gói thuộc chương đã có nhiều bản (vd Ch.04, Ch.29 thường xuyên cập nhật)
+- **Bỏ qua** nếu: chương quá lớn (>50 TB) — chia nhỏ gói tiếp theo
