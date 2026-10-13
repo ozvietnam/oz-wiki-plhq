@@ -170,3 +170,24 @@ Kết quả gộp:
   - Script \`/tmp/10-goi-moi.py\` có sẵn trong /tmp/10-goi-moi.json
 - **Refresh tự động**: cùng \`source.reference\` → tool so sánh và thay bản giàu hơn (đã có sẵn ở PR #268)
 - **Bài học mới**: contributor PHẢI là object \`{name, github}\`, tool \`dong-goi-lo\` ghi string → fix tự động trong \`process_goi.sh\`
+
+### Cập nhật 2026-10-14 đợt 2: bài học từ skill doi-chieu-tb-tchq-2-repo
+
+- **Bug match \`source.reference\`**:
+  - \`source.reference\` trong kho: \`503/TB-TCHQ\` (KHÔNG có năm)
+  - \`so_hieu\` trong manifest: \`503/TB-TCHQ/2018\` (CÓ năm)
+  - **BẮT BUỘC strip năm** trước khi match: \`re.sub(r'/\\d{4}$', '', so_hieu)\`
+- **79% TB đã có sẵn trong kho** (sau khi strip năm):
+  - 1.634/2.043 TB (79%) từ luatvietnam.vn (lvn-cu-1/2/3 = 1.111 bản)
+  - → Crawl từ tracuuhs.com chỉ thực sự bổ sung ~21% TB
+- **Tiêu chí chọn gói tốt hơn**:
+  - CŨ: chọn theo chapter mỏng (số bản trong kho) → tỉ lệ mới 8%
+  - MỚI: chọn theo **TB chưa có trong kho** (count source.reference) → tỉ lệ mới 16%
+  - Script: \`/tmp/10-goi-moi-v2.json\`
+
+### Tổng kết 2 đợt
+| Đợt | Gói | Crawl | Mới | Tỉ lệ |
+|---|---|---|---|---|
+| Đợt 1 | 10 (chapter mỏng) | 220 | 17 | 8% |
+| Đợt 2 | 10 (TB chưa có) | 200 | 32 | 16% |
+| **Tổng** | **20** | **420** | **49** | **12%** |
