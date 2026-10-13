@@ -2,7 +2,7 @@
 import { mkdtempSync, mkdirSync, writeFileSync, cpSync, readFileSync, existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { napSo, khoa, slugTuSoHieu, bacNguon, ROOT } from '../lib/registry.mjs';
+import { napSo, khoa, slugTuSoHieu, bacNguon, ROOT, LUOC_DO_PHIEN_BAN } from '../lib/registry.mjs';
 import { kiemTra } from '../kiem-tra.mjs';
 import { timDiemMu } from '../diem-mu.mjs';
 import { dungJson, veQuanHe } from '../dung.mjs';
@@ -252,6 +252,19 @@ t('bản chụp biểu thuế: tồn tại + có _comment + nguon + phien_ban + 
   && taxSnap.ma && Object.keys(taxSnap.ma).length >= 10000,
   JSON.stringify({ nguon: taxSnap?.nguon, tong: taxSnap?.tong, soMa: Object.keys(taxSnap?.ma || {}).length }));
 t('bản chụp biểu thuế: không phải file cũ data/tax.json 5.7MB', !existsSyncSafe('data/tax.json'));
+
+// 9. Phiên bản lược đồ (docs/yeu-cau/ozplugin.md W1): hai tệp dist đều có luoc_do_phien_ban, khớp semver, bằng nhau.
+const semverOk = (s) => /^\d+\.\d+\.\d+$/.test(s);
+t('lược đồ: dungJson + dungChiMuc gắn luoc_do_phien_ban từ một hằng số chung',
+  dungJson(napSo(r6)).luoc_do_phien_ban === LUOC_DO_PHIEN_BAN && dungChiMuc(napSo(r6), r6, '2026-10-13').luoc_do_phien_ban === LUOC_DO_PHIEN_BAN);
+const tmpDist = mkdtempSync(join(tmpdir(), 'kb-dist-'));
+writeFileSync(join(tmpDist, 'registry.json'), JSON.stringify(dungJson(napSo(r6))));
+writeFileSync(join(tmpDist, 'hs-index.json'), JSON.stringify(dungChiMuc(napSo(r6), r6, '2026-10-13')));
+const regDist = JSON.parse(readFileSync(join(tmpDist, 'registry.json'), 'utf8'));
+const hsDist = JSON.parse(readFileSync(join(tmpDist, 'hs-index.json'), 'utf8'));
+t('lược đồ: hai tệp máy có luoc_do_phien_ban khớp semver và bằng nhau',
+  semverOk(regDist.luoc_do_phien_ban) && semverOk(hsDist.luoc_do_phien_ban) && regDist.luoc_do_phien_ban === hsDist.luoc_do_phien_ban,
+  JSON.stringify({ reg: regDist.luoc_do_phien_ban, hs: hsDist.luoc_do_phien_ban }));
 
 function readFileSyncSafe(p) { try { return readFileSync(join(ROOT, p), 'utf8'); } catch { return null; } }
 function existsSyncSafe(p) { try { return existsSync(join(ROOT, p)); } catch { return false; } }

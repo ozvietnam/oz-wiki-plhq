@@ -59,3 +59,18 @@ Chạy `node tools/san-hieu-luc.mjs` để xem hàng đợi còn làm được. 
 **Kiểm tra tự động** (`node tools/kiem-tra.mjs`, chặn PR khi lỗi): trường bắt buộc, giá trị hợp lệ,
 ngày đúng dạng và hợp lý so với tình trạng, nhánh có trong cây, cơ quan có trong danh sách, không trùng
 số hiệu, không chu trình thay thế, `NGUON_A` / `hieu_luc_da_doi_chieu: true` phải có nguồn bậc A.
+
+## Lịch sử lược đồ (tệp máy)
+
+`dist/registry.json` và `dist/hs-index.json` mang `luoc_do_phien_ban` (semver, hai tệp dùng chung một hằng
+số trong `tools/lib/registry.mjs`); `phien_ban` vẫn là ngày dựng. Bên đọc so **major**: lệch major thì từ
+chối bản chụp và báo lỗi, thay vì trả sai tình trạng hiệu lực. Quy ước:
+
+- Đổi **phá vỡ** — đổi tên/xoá trường, đổi nghĩa hoặc kiểu giá trị, đổi tên giá trị liệt kê
+  (`tinh_trang`, `loai`…) — thì tăng **major**.
+- Thêm trường mới hoặc giá trị liệt kê mới, không phá bên đọc — tăng **minor**. Giá trị liệt kê mới luôn
+  được ghi dòng dưới đây để bên ánh xạ nhãn kịp cập nhật.
+
+| Phiên bản | Ngày | Đổi gì |
+|---|---|---|
+| 1.0.0 | 2026-10-13 | Phiên bản đầu: cấu trúc như hiện tại; thêm `luoc_do_phien_ban` vào hai tệp máy (yêu cầu tích hợp [docs/yeu-cau/ozplugin.md](yeu-cau/ozplugin.md) W1) |

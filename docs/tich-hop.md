@@ -4,26 +4,72 @@ Kho này xuất `dist/registry.json` (dựng bằng `npm run dung`, tự cập n
 **đọc** tệp này; muốn sửa dữ liệu thì mở PR vào `registry/` — không sửa bản chụp ở phía ứng dụng.
 
 URL ổn định: `https://raw.githubusercontent.com/ozvietnam/oz-wiki-plhq/main/dist/registry.json`
-Giấy phép CC BY 4.0 — ghi nguồn "oz-wiki-plhq".
+
+Giấy phép **CC BY 4.0** — chuỗi ghi nguồn chuẩn (thống nhất 13/10/2026, dùng đúng chuỗi này ở mọi sản phẩm
+dẫn dữ liệu kho, kèm ngày `phien_ban` của bản đang dùng):
+
+> Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản `phien_ban`). Đã rút gọn và đổi nhãn hiển thị.
 
 ## Cấu trúc
 
+Hai tệp máy `dist/registry.json` và `dist/hs-index.json` đều mang `luoc_do_phien_ban` — số semver của
+**cấu trúc** (riêng với `phien_ban` là ngày dựng; ngày này đổi mỗi lần dựng, không đổi cấu trúc). Bên đọc
+so **major**: lệch major thì từ chối bản chụp và báo lỗi, thay vì trả sai tình trạng hiệu lực. Lịch sử
+lược đồ: [docs/luoc-do-so-dang-ky.md](luoc-do-so-dang-ky.md#lịch-sử-lược-đồ-tệp-máy).
+
 ```json
 {
-  "phien_ban": "2026-10-04",
-  "tong": 136,
+  "phien_ban": "2026-10-13",
+  "luoc_do_phien_ban": "1.0.0",
+  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
+  "tong": 2279,
   "van_ban": [{
     "so_hieu": "12/2022/TT-BGTVT",
     "so_hieu_khac": [],
+    "loai": "THONG_TU",
+    "ten": "Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn …",
+    "co_quan": "BGTVT",
+    "ngay_ban_hanh": "2022-06-30",
+    "hieu_luc_tu": "2022-08-15",
     "tinh_trang": "HET_HIEU_LUC",
     "het_hieu_luc_tu": "2026-07-01",
-    "quan_he_nguoc": { "bi_thay_the_boi": [{ "tu": "49/2026/TT-BXD", "quan_he": "thay_the" }] },
-    "xac_minh": { "muc": "NGUON_A", "hieu_luc_da_doi_chieu": false },
+    "quan_he_nguoc": {
+      "bi_bai_bo_boi": [{ "tu": "49/2026/TT-BXD", "quan_he": "bai_bo", "so_hieu": "12/2022/TT-BGTVT", "tu_ngay": "2026-07-01", "can_cu": "Điều 6 khoản 3 điểm a TT 49/2026/TT-BXD" }]
+    },
+    "xac_minh": { "muc": "NGUON_A", "hieu_luc_da_doi_chieu": true },
     "bac_nguon_cao_nhat": "A",
+    "nguon": [{ "url": "https://vanban.chinhphu.vn/?docid=206074&pageid=27160", "truy_cap": "2026-07-02" }],
     "slug": "12-2022-tt-bgtvt"
   }]
 }
 ```
+
+Ghi chú: `quan_he` (chiều đi) chỉ xuất hiện khi văn bản có quan hệ; `quan_he_nguoc` luôn có (rỗng nếu
+không có cạnh). `luoc_do_phien_ban` mới thêm ở 1.0.0 — bản chụp cũ hơn chưa có trường này.
+
+## Hợp đồng trường (bên đọc tiêu thụ — ozplugin "Cổng OZ", docs/yeu-cau/ozplugin.md W3)
+
+Các trường sau được cam kết ổn định: **đổi tên hoặc đổi nghĩa → tăng major** (`luoc_do_phien_ban`);
+thêm trường/giá trị mới không phá bên đọc → tăng minor, ghi vào lịch sử lược đồ.
+
+`dist/registry.json`, mỗi phần tử `van_ban[]`:
+
+| Trường | Cam kết |
+|---|---|
+| `so_hieu`, `so_hieu_khac` | Khoá tra cứu; so khớp qua `khoa()` (quy tắc 1 dưới đây) |
+| `tinh_trang` | 6 giá trị (`docs/luoc-do-so-dang-ky.md`); bên đọc nguyên giá trị, không suy lại |
+| `hieu_luc_tu`, `het_hieu_luc_tu` | Vắng giá trị thì không suy ra gì; `hieu_luc_tu` tương lai = `CHUA_CO_HIEU_LUC` |
+| `quan_he` (chiều đi) | `thay_the`, `sua_doi`, `bai_bo`, `tam_ngung`, `huong_dan`, `hop_nhat` — giữ nguyên `pham_vi`, `tu_ngay`, `can_cu` |
+| `quan_he_nguoc` | `bi_thay_the_boi`, `bi_sua_doi_boi`, `bi_bai_bo_boi`, `bi_tam_ngung_boi`, `duoc_huong_dan_boi`, `duoc_hop_nhat_boi` — tính sẵn |
+| `xac_minh.muc`, `xac_minh.hieu_luc_da_doi_chieu` | `false` → bên đọc hiện cảnh báo "chưa đối chiếu nguồn A" |
+| `xac_minh.chan` | Chỉ để hiểu vì sao chưa đối chiếu; không hiện cho người dùng cuối |
+| `nguon[].url`, `bac_nguon_cao_nhat` | Chọn nguồn bậc A làm liên kết "văn bản gốc" |
+
+`dist/hs-index.json`: danh sách theo văn bản — `so_hieu`, `tinh_trang`, `hieu_luc_tu`, `het_hieu_luc_tu`,
+`hieu_luc_da_doi_chieu`, mảng `dong` (`ma_hs`, `loai_tac_dong`, `dieu_kien`, `muc_rui_ro`, `dan_chieu`,
+`trang`). Danh sách giá trị `loai_tac_dong` (12 giá trị, `tools/lib/danh-muc.mjs` `LOAI_TAC_DONG`) được giữ
+ổn định — thêm giá trị mới là minor và ghi vào lịch sử lược đồ, vì bên đọc ánh xạ sang nhãn tiếng Việt.
+
 
 ## Quy tắc khi dùng
 

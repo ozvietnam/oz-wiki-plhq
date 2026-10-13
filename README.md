@@ -40,7 +40,7 @@ Xem [CONTRIBUTING.md](CONTRIBUTING.md) và [9 luồng công việc](docs/luong-c
 
 ## Giấy phép
 
-Nội dung (sổ, cây, wiki, báo cáo): **CC BY 4.0** — dùng lại thoải mái, ghi nguồn "oz-wiki-plhq". Mã công cụ: **MIT**. Văn bản quy phạm pháp luật không thuộc đối tượng bảo hộ quyền tác giả (Luật Sở hữu trí tuệ, Điều 15). Xem [LICENSE.md](LICENSE.md).
+Nội dung (sổ, cây, wiki, báo cáo): **CC BY 4.0** — dùng lại thoải mái với chuỗi ghi nguồn chuẩn: `Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0)`; có rút gọn/đổi nhãn thì ghi thêm `Đã rút gọn và đổi nhãn hiển thị`, kèm ngày `phien_ban` của bản dữ liệu đang dùng. Mã công cụ: **MIT**. Văn bản quy phạm pháp luật không thuộc đối tượng bảo hộ quyền tác giả (Luật Sở hữu trí tuệ, Điều 15). Xem [LICENSE.md](LICENSE.md).
 
 ---
 
