@@ -157,3 +157,16 @@ Kết quả gộp:
 - **Nên nhận** nếu: gói có `nhom_hs` còn mỏng trong kho (vd Ch.38 mới chỉ 30+ bản vs 2.083 tổng)
 - **Cân nhắc** nếu: gói thuộc chương đã có nhiều bản (vd Ch.04, Ch.29 thường xuyên cập nhật)
 - **Bỏ qua** nếu: chương quá lớn (>50 TB) — chia nhỏ gói tiếp theo
+
+### Cập nhật 2026-10-14: loop 10 gói
+
+- **Tools tự động**:
+  - \`tools/crawl_goi.py\`: generic, nhận \`<goi_id> [date]\` (mặc định hôm nay)
+  - \`tools/process_goi.sh\`: end-to-end (crawl → đóng gói → validate → fix envelope → merge → commit)
+- **Loop 10 gói trong ~10 phút** (chỉ cần \`bash tools/process_goi.sh <goi> [date]\` cho mỗi gói)
+- **Tiêu chí chọn gói ưu tiên**:
+  - Chapter mỏng (1-15 bản trong kho hs-code-api) → tỉ lệ mới 50-80%
+  - Chapter dày (200+ bản) → tỉ lệ mới <10% (đa số trùng hsCode)
+  - Script \`/tmp/10-goi-moi.py\` có sẵn trong /tmp/10-goi-moi.json
+- **Refresh tự động**: cùng \`source.reference\` → tool so sánh và thay bản giàu hơn (đã có sẵn ở PR #268)
+- **Bài học mới**: contributor PHẢI là object \`{name, github}\`, tool \`dong-goi-lo\` ghi string → fix tự động trong \`process_goi.sh\`
