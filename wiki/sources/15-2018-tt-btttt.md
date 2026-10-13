@@ -9,54 +9,58 @@ authors:
 year: 2018
 source_type: legal
 importance: 3
-provenance: missing
-confidence: low
-tags: [stub, kiem-tra-chuyen-nganh, can-tai-toan-van]
+provenance: replayable
+confidence: medium
+tags: [btttt, kiem-tra-chuyen-nganh, khai-bao-hai-quan]
 ---
 
 ## Summary
 
-**Stub page** — Sửa đổi, bổ sung một số nội dung của Thông tư số 30/2011/TT-BTTTT ngày 31 tháng 10 năm 2011 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về chứng nhận hợp quy và công bố hợp quy đối với sản phẩm, hàng hóa chuyên ngành công nghệ thông tin và truyền thông (15/2018/TT-BTTTT) ban hành 2018-11-15, có hiệu lực từ 2019-01-01, **đang còn hiệu lực**.
+**Sửa đổi, bổ sung một số nội dung của Thông tư số 30/2011/TT-BTTTT ngày 31 tháng 10 năm 2011 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về chứng nhận hợp quy và công bố hợp quy đối với sản phẩm, hàng hóa chuyên ngành công nghệ thông tin và truyền thông** (15/2018/TT-BTTTT) ban hành 2018-11-15, có hiệu lực 2019-01-01.
 
-> **Lưu ý**: Wiki tạm thời — chưa có toàn văn PDF. Cần tải về để đọc kỹ. Có thể dùng:
-> - `node tools/nap.mjs "<url>" --so-hieu "15/2018/TT-BTTTT"`
-> - Tải từ datafiles.chinhphu.vn hoặc congbaocdn.chinhphu.vn
-
-**Cơ quan ban hành**: Bộ Thông tin và Truyền thông
+**Cơ quan ban hành**: Bộ TT&TT
 
 ## Tình trạng hiệu lực
 
 | Mốc | Sự kiện |
 |---|---|
-| 2018-11-15 | Bộ Thông tin và Truyền thông ban hành |
+| 2018-11-15 | Bộ TT&TT ban hành |
 | 2019-01-01 | Có hiệu lực |
 | Đang hiệu lực | |
 
-## Căn cứ pháp lý (theo registry)
-- Căn cứ vào các luật/nghị định chuyên ngành
+## Cấu trúc
 
-## Quy trình HQ (cần đọc toàn văn để xác nhận)
-1. Xác định hàng thuộc phạm vi KTCL
-2. Tra mã HS
-3. Nộp hồ sơ KTCL tại Bộ Thông tin và Truyền thông
-4. Cấp Giấy chứng nhận
+- **9 điều** (theo OCR)
+- Không có mã HS in (TT về quy trình hoặc quản lý chung)
+
+## Căn cứ pháp lý (theo OCR)
+
+Căn cứ Luật Viễn thông ngày 23 tháng 11 năm 2009; | Căn cứ Luật Tân số vô tuyến điện ngày 23 tháng 11 năm 2009; | Căn cứ Luật Tiêu chuẩn và Quy chuẩn kỹ thuật ngày 29 tháng 6 năm
+
+## Nội dung chính
+
+- Điều 1: Sửa đổi, _bỗ sung một số nội dung của Thông tư số
+- Điều 6: Danh mục sản phẩm, hàng hóa và hình thức quản lý
+- Điều 11: Phương thức chứng nhận hợp quy
+- Điều 15: Biện pháp công bố hợp quy
+- Điều 16: Quy trình, thủ tục công bố hợp quy
+
+## Quy trình khai báo HQ
+
+1. Xác định hàng theo phạm vi KTCL
+2. Tra mã HS theo Danh mục hàng hóa XK NK VN
+3. Nộp hồ sơ KTCL tại Bộ TT&TT
+4. Cấp Giấy chứng nhận / Phiếu công bố
 5. Khai báo HQ
 6. Thông quan
 
 ## Related concepts (chưa có wiki)
 - kiem-tra-chuyen-nganh
-- các concept liên quan
 
 ## Related sources
-- Cần xác minh với VB liên quan
-
-## Open questions
-- Cần tải toàn văn từ nguồn nào?
-- Phạm vi KTCL cụ thể?
-- Có mã HS cụ thể không?
+- (Các VB liên quan trong nhánh kiem-tra-chuyen-nganh)
 
 ## Notes
-- VB chưa được tải toàn văn — stub
-- Cần tải bằng `node tools/nap.mjs` hoặc script Python tương tự
-- Ưu tiên: tải từ Công báo (bậc A) hoặc datafiles.chinhphu.vn
-- 0 mã HS trích dẫn trong biểu thuế
+- Đã đọc toàn văn qua `datafiles.chinhphu.vn` (PDF 1260KB)
+- **9 điều** (theo OCR tesseract vie 200dpi)
+- Không có mã HS in (TT về quy trình)
