@@ -6,7 +6,7 @@
 //   dist/hs-index.json      — bảng mã HS ↔ văn bản từ danh-muc/*.csv (docs/luoc-do-danh-muc-hs.md)
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
-import { napSo, khoa, chuanCanh, dungDoThi, homNay, bacNguon, ROOT, QUAN_HE } from './lib/registry.mjs';
+import { napSo, khoa, chuanCanh, dungDoThi, homNay, bacNguon, ROOT, QUAN_HE, LUOC_DO_PHIEN_BAN } from './lib/registry.mjs';
 import { dungChiMuc } from './lib/danh-muc.mjs';
 
 const BIEU_TUONG = {
@@ -23,6 +23,7 @@ export function dungJson(so, today = homNay()) {
   const strip = (d) => Object.fromEntries(Object.entries(d).filter(([k]) => !k.startsWith('_')));
   return {
     phien_ban: today,
+    luoc_do_phien_ban: LUOC_DO_PHIEN_BAN,
     giay_phep: 'CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/',
     tong: so.vanBan.length,
     van_ban: so.vanBan.map((d) => ({

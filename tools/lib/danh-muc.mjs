@@ -2,7 +2,7 @@
 // Lược đồ: docs/luoc-do-danh-muc-hs.md. Không gọi mạng; biểu thuế đối chiếu lấy từ nhu-cau/bieu-thue.json.
 import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
-import { ROOT, khoa } from './registry.mjs';
+import { ROOT, khoa, LUOC_DO_PHIEN_BAN } from './registry.mjs';
 
 export const COT = ['ma_hs', 'mo_ta', 'nhom', 'phu_luc', 'loai_tac_dong', 'muc_rui_ro', 'dieu_kien', 'dan_chieu', 'trang'];
 export const LOAI_TAC_DONG = ['KIEM_TRA_ATTP', 'KIEM_TRA_CHAT_LUONG', 'KIEM_DICH_DONG_VAT', 'KIEM_DICH_THUC_VAT',
@@ -131,6 +131,7 @@ export function dungChiMuc(so, root = ROOT, today) {
   const bt = docBieuThue(root);
   return {
     phien_ban: today,
+    luoc_do_phien_ban: LUOC_DO_PHIEN_BAN,
     giay_phep: 'CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/',
     luoc_do: 'docs/luoc-do-danh-muc-hs.md',
     bieu_thue_doi_chieu: bt ? { phien_ban: bt.phien_ban || null, nguon: bt.nguon || null } : null,

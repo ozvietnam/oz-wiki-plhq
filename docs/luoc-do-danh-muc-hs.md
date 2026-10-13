@@ -84,3 +84,14 @@ danh_muc_hs:
 `npm run dung` xuất `dist/hs-index.json`, gồm mỗi văn bản kèm tình trạng hiệu lực và các dòng bảng.
 [hs-code-api](https://github.com/ozvietnam/hs-code-api) đồng bộ tệp này, và `/api/tax?hs=…` trả về danh sách
 văn bản danh mục chứa mã đó, kèm `dieu_kien` và mức khớp: đúng 8 số hay theo nhóm 4 hoặc 6 số.
+
+## Lịch sử lược đồ (tệp máy)
+
+`dist/hs-index.json` mang `luoc_do_phien_ban` (semver, chung một hằng số với `dist/registry.json` trong
+`tools/lib/registry.mjs`). Quy ước tăng phiên bản như [lược đồ sổ đăng ký](luoc-do-so-dang-ky.md#lịch-sử-lược-đồ-tệp-máy):
+phá vỡ → major, thêm trường/giá trị liệt kê không phá bên đọc → minor. Bên ánh xạ `loai_tac_dong` sang nhãn
+tiếng Việt kiểm dòng dưới đây trước khi cập nhật nhãn.
+
+| Phiên bản | Ngày | Đổi gì |
+|---|---|---|
+| 1.0.0 | 2026-10-13 | Phiên bản đầu: cấu trúc như hiện tại; thêm `luoc_do_phien_ban` (yêu cầu tích hợp [docs/yeu-cau/ozplugin.md](yeu-cau/ozplugin.md) W1) |
