@@ -148,6 +148,28 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
           'Kiểm tra văn bản này còn được áp dụng không (thường hết hiệu lực theo văn bản gốc), hoặc đã có văn bản hướng dẫn mới.', 'hieu-luc');
       }
     }
+    // D15 — văn bản bị sửa đổi ≥3 lần mà chưa có văn bản hợp nhất (VBHN)
+    const soLanSua = (ng.bi_sua_doi_boi || []).length;
+    if (soLanSua >= 3) {
+      const kd = khoa(d.so_hieu);
+      const laVbhnCuaD = (x) => {
+        if (x === d) return false;
+        // Cách 1: VB có số hiệu dạng <gốc>-VBHN hoặc <gốc>/VBHN → match theo prefix
+        const xK = khoa(x.so_hieu || '');
+        if (xK.startsWith(kd + '-VBHN') || xK.startsWith(kd + '/VBHN')) return true;
+        // Cách 2: VB có `ten` chứa "VBHN"/"hợp nhất" + có quan hệ trỏ về d
+        const laVbhn = /VBHN|hợp nhất/i.test(x.ten || '');
+        if (!laVbhn) return false;
+        const hn = (x.quan_he?.hop_nhat || []).map(chuanCanh).filter(Boolean);
+        const ts = (x.quan_he?.thay_the || []).map(chuanCanh).filter(Boolean);
+        return hn.some((c) => khoa(c.so_hieu) === kd) || ts.some((c) => khoa(c.so_hieu) === kd);
+      };
+      const daCoVbhn = so.vanBan.some(laVbhnCuaD);
+      if (!daCoVbhn) {
+        add('THIEU_VBHN', soLanSua >= 5 ? MUC.CAO : MUC.VUA, `${d.so_hieu} đã bị sửa đổi ${soLanSua} lần nhưng chưa có văn bản hợp nhất`, d.so_hieu,
+          `Tìm văn bản hợp nhất (VBHN) của ${d.so_hieu} trên vanban.chinhphu.vn; nếu có, thêm vào sổ kèm quan_he.hop_nhat trỏ về ${d.so_hieu}.`, 'nap-lam-sach');
+      }
+    }
 
     // D2 — không có nguồn bậc A (ưu tiên văn bản được biểu thuế dẫn nhiều)
     if (!coA) {

@@ -1,0 +1,21 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 14/2018/TT-BYT
+loai: THONG_TU
+ten: Danh mục thiết bị y tế xuất khẩu, nhập khẩu
+co_quan: BYT
+ngay_ban_hanh: '2018-01-01'
+hieu_luc_tu: '2018-03-01'
+het_hieu_luc_tu: '2024-11-16'
+tinh_trang: HET_HIEU_LUC
+nhanh:
+  - kiem-tra-chuyen-nganh/byt
+quan_he: {}
+nguon: []
+xac_minh:
+  muc: CHUA_XAC_MINH
+  pham_vi: chưa đối chiếu nguồn nào
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-09'
+  boi: claude-code@ozvietnam
+  canh_bao: 'CHUA_RO: ngày ban hành và ngày có hiệu lực chưa xác minh (đặt tạm đầu năm 2018); số hiệu, trích yếu, tình trạng hiệu lực đều chưa đối chiếu nguồn bậc A. Được nhắc bởi quan hệ thay_the của 19/2024/TT-BYT (từ 2024-11-16).'
+ghi_chu: Đóng điểm mù do 19/2024/TT-BYT nhắc tới trong quan hệ thay_the. Bản ghi này KHÔNG có nguồn và chưa đối chiếu hiệu lực — cần săn nguồn bậc A (vanban.chinhphu.vn / datafiles.chinhphu.vn) để bổ sung nguon, ngày ban hành chính xác, và thay CHUA_XAC_MINH.
