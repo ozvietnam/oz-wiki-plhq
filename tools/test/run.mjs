@@ -9,7 +9,7 @@ import { timDiemMu } from '../diem-mu.mjs';
 import { dungJson, veQuanHe } from '../dung.mjs';
 import { lamSachHtml } from '../nap.mjs';
 import { rutGonNhuCau, rutGonBieuThue, rutGonHangThat, rutGonVanBanBieuThue } from '../nhu-cau.mjs';
-import { docCsv, napDanhMuc, kiemDinhDang, dungChiMuc, demLa, docBieuThue } from '../lib/danh-muc.mjs';
+import { docCsv, napDanhMuc, kiemDinhDang, dungChiMuc, dungChiMucTheoMa, demLa, docBieuThue } from '../lib/danh-muc.mjs';
 
 let pass = 0;
 let fail = 0;
@@ -271,6 +271,12 @@ writeFileSync(join(tmpDist, 'registry.json'), JSON.stringify(dungJson(napSo(r6))
 writeFileSync(join(tmpDist, 'hs-index.json'), JSON.stringify(dungChiMuc(napSo(r6), r6, '2026-10-13')));
 const regDist = JSON.parse(readFileSync(join(tmpDist, 'registry.json'), 'utf8'));
 const hsDist = JSON.parse(readFileSync(join(tmpDist, 'hs-index.json'), 'utf8'));
+const cmTheoMa = dungChiMucTheoMa(cm6);
+const traMa = Object.entries(cmTheoMa.ma).filter(([k]) => '22030091'.startsWith(k) || k === '22030091').flatMap(([, v]) => v);
+t('hs-index-theo-ma: đảo chiều — mã 22030091 tra ra 50/2026/TT-BCT kèm KIEM_TRA_ATTP',
+  cmTheoMa.ma['22030091']?.[0]?.so_hieu === '50/2026/TT-BCT' && cmTheoMa.ma['22030091']?.[0]?.loai_tac_dong === 'KIEM_TRA_ATTP' && traMa.length >= 1 && cmTheoMa.cach_tra.includes('tiền tố'), JSON.stringify(Object.keys(cmTheoMa.ma)));
+t('hs-index-theo-ma: cạnh không mang trường mã (chỉ ở khoá) — không trùng lặp',
+  !('ma_hs' in (cmTheoMa.ma['22030091']?.[0] || {})) && cmTheoMa.tong_nhom_ma >= 1);
 t('lược đồ: hai tệp máy có luoc_do_phien_ban khớp semver và bằng nhau',
   semverOk(regDist.luoc_do_phien_ban) && semverOk(hsDist.luoc_do_phien_ban) && regDist.luoc_do_phien_ban === hsDist.luoc_do_phien_ban,
   JSON.stringify({ reg: regDist.luoc_do_phien_ban, hs: hsDist.luoc_do_phien_ban }));

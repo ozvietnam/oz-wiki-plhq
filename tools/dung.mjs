@@ -7,7 +7,7 @@
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { napSo, khoa, chuanCanh, dungDoThi, homNay, bacNguon, ROOT, QUAN_HE, LUOC_DO_PHIEN_BAN } from './lib/registry.mjs';
-import { dungChiMuc } from './lib/danh-muc.mjs';
+import { dungChiMuc, dungChiMucTheoMa } from './lib/danh-muc.mjs';
 
 const BIEU_TUONG = {
   CON_HIEU_LUC: '🟢', HET_HIEU_LUC: '⚫', HET_HIEU_LUC_MOT_PHAN: '🟡', TAM_NGUNG_HIEU_LUC: '⏸️',
@@ -119,5 +119,8 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const cm = dungChiMuc(so, ROOT, today);
   writeFileSync(join(ROOT, 'dist', 'hs-index.json'), JSON.stringify(cm, null, 1) + '\n');
   console.log(`dist/hs-index.json (${cm.van_ban.length} bảng, ${cm.van_ban.reduce((n, v) => n + v.dong.length, 0)} dòng)`);
+  const cmMa = dungChiMucTheoMa(cm);
+  writeFileSync(join(ROOT, 'dist', 'hs-index-theo-ma.json'), JSON.stringify(cmMa, null, 1) + '\n');
+  console.log(`dist/hs-index-theo-ma.json (${cmMa.tong_nhom_ma} nhóm mã, ${Object.values(cmMa.ma).reduce((n, v) => n + v.length, 0)} cạnh mã↔văn bản)`);
   console.log(`dist/registry.json · bao-cao/cay-van-ban.md · bao-cao/quan-he.md (${so.vanBan.length} văn bản)`);
 }

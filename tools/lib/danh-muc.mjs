@@ -151,3 +151,30 @@ export function dungChiMuc(so, root = ROOT, today) {
     }),
   };
 }
+
+/** Đảo chiều của dungChiMuc → dist/hs-index-theo-ma.json: nhóm mã HS (4/6/8 số) → danh sách văn bản áp.
+ *  Bên tra mã 8 số lấy mọi khoá là tiền tố của mã đó (4, 6 số) cộng khoá trùng 8 số — cùng ngữ nghĩa
+ *  khớp tiền tố mà hs-code-api vẫn dùng khi tra thuận chiều. */
+export function dungChiMucTheoMa(chiMuc) {
+  const ma = {};
+  for (const vb of chiMuc.van_ban || []) {
+    for (const d of vb.dong || []) {
+      if (!d.ma_hs) continue;
+      (ma[d.ma_hs] ||= []).push({
+        so_hieu: vb.so_hieu, slug: vb.slug, ten: vb.ten, tinh_trang: vb.tinh_trang,
+        hieu_luc_tu: vb.hieu_luc_tu, het_hieu_luc_tu: vb.het_hieu_luc_tu, hieu_luc_da_doi_chieu: vb.hieu_luc_da_doi_chieu,
+        loai_tac_dong: d.loai_tac_dong, muc_rui_ro: d.muc_rui_ro || null, dieu_kien: d.dieu_kien || null,
+        nhom: d.nhom || null, phu_luc: d.phu_luc || null,
+      });
+    }
+  }
+  return {
+    phien_ban: chiMuc.phien_ban,
+    luoc_do_phien_ban: chiMuc.luoc_do_phien_ban,
+    giay_phep: chiMuc.giay_phep,
+    luoc_do: 'docs/luoc-do-danh-muc-hs.md',
+    cach_tra: 'Khoá là nhóm mã HS trong bảng (4, 6 hoặc 8 số). Tra mã 8 số: ghép mọi khoá là tiền tố của mã (độ dài 4, 6) và khoá trùng 8 số. Cạnh giữ nguyên dieu_kien — "trừ loại…" là trừ diện, không phải diện áp.',
+    tong_nhom_ma: Object.keys(ma).length,
+    ma,
+  };
+}

@@ -86,6 +86,11 @@ thêm trường/giá trị mới không phá bên đọc → tăng minor, ghi v�
 `trang`). Danh sách giá trị `loai_tac_dong` (12 giá trị, `tools/lib/danh-muc.mjs` `LOAI_TAC_DONG`) được giữ
 ổn định — thêm giá trị mới là minor và ghi vào lịch sử lược đồ, vì bên đọc ánh xạ sang nhãn tiếng Việt.
 
+`dist/hs-index-theo-ma.json` (từ 1.1.0): bản đảo chiều sẵn — `ma` là ánh xạ **nhóm mã HS (4/6/8 số) →
+danh sách văn bản áp** kèm `loai_tac_dong`, `muc_rui_ro`, `dieu_kien`, `tinh_trang`. Tra mã 8 số: ghép mọi
+khoá là tiền tố của mã (4, 6 số) và khoá trùng 8 số — ngữ nghĩa khớp tiền tố như khi tra thuận chiều;
+hướng dẫn bằng chữ nằm trong trường `cach_tra` của chính tệp.
+
 
 ## Quy tắc khi dùng
 
