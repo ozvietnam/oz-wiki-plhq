@@ -84,6 +84,33 @@ t('điểm mù: sắp hết hiệu lực', co('SAP_HET_HIEU_LUC', '13/2019/NĐ-C
 t('điểm mù: wiki nhắc văn bản chưa đăng ký (77/2026/TT-BYT), không báo văn bản đã có', co('WIKI_NHAC_CHUA_DANG_KY', '77/2026/TT-BYT') && !co('WIKI_NHAC_CHUA_DANG_KY', '10/2026/TT-BCT'));
 t('điểm mù: nhánh cây trống', co('NUT_CAY_TRONG', 'thue/bieu-thue'));
 t('điểm mù: nhánh thiếu LUAT bắt buộc', dm.some((d) => d.ma === 'NUT_THIEU_LOAI' && d.muc_tieu === 'hai-quan/luat-khung'));
+// 4b. Điểm mù: THIEU_VBHN
+const rVbhn = soGia({
+  'sua3.yaml': `so_hieu: 20/2026/TT-BCT\nloai: THONG_TU\nten: Bi sua 3 lan\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\n${XM}\n`,
+  'a.yaml': `so_hieu: 30/2026/TT-BCT\nloai: THONG_TU\nten: Sua 1\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\nquan_he: {sua_doi: [20/2026/TT-BCT]}\n${XM}\n`,
+  'b.yaml': `so_hieu: 31/2026/TT-BCT\nloai: THONG_TU\nten: Sua 2\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\nquan_he: {sua_doi: [20/2026/TT-BCT]}\n${XM}\n`,
+  'c.yaml': `so_hieu: 32/2026/TT-BCT\nloai: THONG_TU\nten: Sua 3\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\nquan_he: {sua_doi: [20/2026/TT-BCT]}\n${XM}\n`,
+  'sua5.yaml': `so_hieu: 50/2026/TT-BCT\nloai: THONG_TU\nten: Bi sua 5 lan\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\n${XM}\n`,
+  'd1.yaml': `so_hieu: 51/2026/TT-BCT\nloai: THONG_TU\nten: Sua 50 lan 1\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\nquan_he: {sua_doi: [50/2026/TT-BCT]}\n${XM}\n`,
+  'd2.yaml': `so_hieu: 52/2026/TT-BCT\nloai: THONG_TU\nten: Sua 50 lan 2\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\nquan_he: {sua_doi: [50/2026/TT-BCT]}\n${XM}\n`,
+  'd3.yaml': `so_hieu: 53/2026/TT-BCT\nloai: THONG_TU\nten: Sua 50 lan 3\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\nquan_he: {sua_doi: [50/2026/TT-BCT]}\n${XM}\n`,
+  'd4.yaml': `so_hieu: 54/2026/TT-BCT\nloai: THONG_TU\nten: Sua 50 lan 4\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\nquan_he: {sua_doi: [50/2026/TT-BCT]}\n${XM}\n`,
+  'd5.yaml': `so_hieu: 55/2026/TT-BCT\nloai: THONG_TU\nten: Sua 50 lan 5\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\nquan_he: {sua_doi: [50/2026/TT-BCT]}\n${XM}\n`,
+  'co_vbhn.yaml': `so_hieu: 60/2026/TT-BCT\nloai: THONG_TU\nten: Bi sua 3 lan co VBHN\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\n${XM}\n`,
+  'e1.yaml': `so_hieu: 61/2026/TT-BCT\nloai: THONG_TU\nten: Sua 60 lan 1\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\nquan_he: {sua_doi: [60/2026/TT-BCT]}\n${XM}\n`,
+  'e2.yaml': `so_hieu: 62/2026/TT-BCT\nloai: THONG_TU\nten: Sua 60 lan 2\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\nquan_he: {sua_doi: [60/2026/TT-BCT]}\n${XM}\n`,
+  'e3.yaml': `so_hieu: 63/2026/TT-BCT\nloai: THONG_TU\nten: Sua 60 lan 3\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\nquan_he: {sua_doi: [60/2026/TT-BCT]}\n${XM}\n`,
+  'vbhn_60.yaml': `so_hieu: 60/2026/TT-BCT-VBHN\nloai: THONG_TU\nten: Van ban hop nhat 60/2026/TT-BCT\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\n${XM}\n`,
+  'sua1.yaml': `so_hieu: 70/2026/TT-BCT\nloai: THONG_TU\nten: Bi sua 1 lan (duoi nguong)\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\n${XM}\n`,
+  'f1.yaml': `so_hieu: 71/2026/TT-BCT\nloai: THONG_TU\nten: Sua 70 lan 1\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\nquan_he: {sua_doi: [70/2026/TT-BCT]}\n${XM}\n`,
+});
+const dmVbhn = timDiemMu(napSo(rVbhn), { today: '2026-10-04', root: rVbhn });
+const vbhn = (ma, muc_tieu) => dmVbhn.find((d) => d.ma === ma && d.muc_tieu === muc_tieu);
+t('điểm mù: bị sửa 3 lần chưa VBHN → báo Vừa', vbhn('THIEU_VBHN', '20/2026/TT-BCT')?.muc === 'Vừa');
+t('điểm mù: bị sửa 5 lần chưa VBHN → báo Cao', vbhn('THIEU_VBHN', '50/2026/TT-BCT')?.muc === 'Cao');
+t('điểm mù: bị sửa 3 lần có VBHN → không báo', !vbhn('THIEU_VBHN', '60/2026/TT-BCT'));
+t('điểm mù: bị sửa 1 lần → không báo', !vbhn('THIEU_VBHN', '70/2026/TT-BCT'));
+
 
 // 5. Dựng
 const j = dungJson(napSo(r2), '2026-10-04');
