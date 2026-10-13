@@ -5,8 +5,8 @@ type: concept
 created: 2026-10-09
 updated: 2026-10-09
 key_sources:
-  - 49-2026-tt-bxd-pl1
-  - 49-2026-tt-bxd-pl2
+  - 49-pl1-2026-tt-bxd
+  - 49-pl2-2026-tt-bxd
 related_concepts:
   - kiem-tra-chat-luong-bxd
 confidence: high
@@ -45,8 +45,8 @@ Nhóm hàng hóa gồm phương tiện vận tải đường bộ (ô tô, mô t
 
 ## Key sources
 
-- [[sources/49-2026-tt-bxd-pl1]] — 48 mã HS rủi ro cao
-- [[sources/49-2026-tt-bxd-pl2]] — rủi ro trung bình
+- [[sources/49-pl1-2026-tt-bxd]] — 48 mã HS rủi ro cao
+- [[sources/49-pl2-2026-tt-bxd]] — rủi ro trung bình
 
 ## Related concepts
 
