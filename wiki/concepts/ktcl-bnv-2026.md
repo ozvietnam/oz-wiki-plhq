@@ -71,3 +71,16 @@ Quy trình kiểm tra chất lượng (KTCL) **trang thiết bị bảo hộ cá
 - PPE từ TQ rất phổ biến nhưng nhiều hàng không đạt QCVN
 - Đặc biệt: giày bảo hộ, găng tay - hàng NK chính
 - Có thể chồng lấn với TT BNNMT (mặt nạ kèm thuốc BVTV)
+
+## Playbook nhập hàng (chuẩn hoá 13/10/2026)
+
+| # | Mục | Chi tiết | Căn cứ |
+|---|---|---|---|
+| 1 | Tra diện kiểm tra | `danh-muc/16-2026-tt-bnv.csv` (56 dòng có mã HS — PPE) | Sổ `16/2026/TT-BNV` (hiệu lực 28/7/2026, đã đối chiếu nguồn A) |
+| 2 | Rủi ro trung bình | Không kiểm tra khi nhập, phải **công bố hợp quy** | Điều 82 khoản 1 NĐ 37/2026/NĐ-CP (nguồn A) |
+| 3 | Rủi ro cao | **Đăng ký kiểm tra chất lượng** theo Điều 83 | Điều 82 khoản 2 NĐ 37/2026/NĐ-CP |
+| 4 | Cơ quan kiểm tra | **Cục Việc làm là cơ quan kiểm tra chất lượng sản phẩm, hàng hoá** (nguyên văn) | Toàn văn TT 16/2026/TT-BNV |
+| 5 | Danh mục + nguyên tắc | Điều 3 (danh mục), Điều 4 (nguyên tắc quản lý), Điều 6 (chuyển tiếp) | Điều 3, 4, 6 TT 16/2026/TT-BNV |
+| 6 | Thời hạn (khung) | 01/07/05 ngày làm việc | Điều 83 khoản 1 điểm b NĐ 37/2026/NĐ-CP |
+
+Nghĩa vụ theo mức rủi ro (nguồn A): [[concepts/muc-do-rui-ro-hang-hoa]]. TT 16/2026 thay thế 01/2021/TT-BLĐTBXH từ 28/7/2026 (sổ).

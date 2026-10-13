@@ -63,3 +63,16 @@ Khi hàng hóa có mã HS thuộc PL I (rủi ro cao) của TT 36/2026:
 - Tổng cục Tiêu chuẩn Đo lường Chất lượng (TCĐLCL) trực thuộc BKHCN
 - 254 mã HS thuộc diện KTCL
 - Có thể chồng lấn với BCT (hóa chất), BCA (PCCC), BQP (mật mã)
+
+## Playbook nhập hàng (chuẩn hoá 13/10/2026)
+
+| # | Mục | Chi tiết | Căn cứ |
+|---|---|---|---|
+| 1 | Tra diện kiểm tra | `danh-muc/36-2026-tt-bkhcn.csv` (396 dòng có mã HS); Phần rủi ro cao — Điều 3, trung bình — Điều 4 | Sổ `36/2026/TT-BKHCN` (hiệu lực 01/7/2026, đã đối chiếu nguồn A) |
+| 2 | Rủi ro trung bình | Không kiểm tra khi nhập, phải **công bố hợp quy** | Điều 82 khoản 1 NĐ 37/2026/NĐ-CP (nguồn A) |
+| 3 | Rủi ro cao | **Đăng ký kiểm tra chất lượng** theo Điều 83 | Điều 82 khoản 2 NĐ 37/2026/NĐ-CP |
+| 4 | Nguyên tắc riêng | Điều 5 TT 36/2026 quy định nguyên tắc quản lý chất lượng theo từng mức | Điều 5 TT 36/2026/TT-BKHCN |
+| 5 | Thời hạn (khung) | 01/07/05 ngày làm việc | Điều 83 khoản 1 điểm b NĐ 37/2026/NĐ-CP |
+| 6 | Miễn/giảm | Chỉ cho hàng rủi ro cao | Điều 86 NĐ 37/2026/NĐ-CP |
+
+Nghĩa vụ theo mức rủi ro (nguồn A): [[concepts/muc-do-rui-ro-hang-hoa]]. TT 36/2026 thay thế 29/2025/TT-BKHCN từ 01/7/2026 (sổ).

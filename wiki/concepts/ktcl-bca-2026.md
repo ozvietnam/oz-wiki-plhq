@@ -62,3 +62,16 @@ Khi NK thiết bị PCCC hoặc camera → tra cứu PL TT 125/2026:
 - Tem kiểm định PCCC cũ hết hạn 30/6/2026
 - Camera TQ (Hikvision, Dahua) rất phổ biến - phải có kiểm định
 - Pháo hoa là hàng nhạy cảm - quản lý chặt
+
+## Playbook nhập hàng (chuẩn hoá 13/10/2026)
+
+| # | Mục | Chi tiết | Căn cứ |
+|---|---|---|---|
+| 1 | Tra diện kiểm tra | `danh-muc/125-2026-tt-bca.csv` (59 dòng có mã HS): Phần A rủi ro cao 4 mã (pháo hoa 3604.10.00; bình chữa cháy 8424.10.90; chất chữa cháy 3813.00.00; chai chứa khí chữa cháy) — Phần B trung bình 55 mã (phương tiện PCCC-CNCH; thiết bị giám sát TT-ATGT, an toàn xã hội) | Sổ `125/2026/TT-BCA` (hiệu lực 01/7/2026, đã đối chiếu nguồn A 13/10/2026) |
+| 2 | Rủi ro trung bình | Không kiểm tra khi nhập, phải **công bố hợp quy** phù hợp QCVN 03/05/06/11:2021–2026/BCA | Điều 82 khoản 1 NĐ 37/2026/NĐ-CP (nguồn A) |
+| 3 | Rủi ro cao | **Chứng nhận hợp quy + kiểm tra nhà nước khi nhập** | Điều 82 khoản 2; Điều 83 NĐ 37/2026/NĐ-CP |
+| 4 | Cơ quan | Cục KH-CLS Công an chủ trì hướng dẫn, kiểm tra, đôn đốc | Điều 7 TT 125/2026/TT-BCA |
+| 5 | Chuyển tiếp | Giấy CN hợp quy, TB tiếp nhận CBHQ cấp trước 01/7/2026 còn giá trị đến hết hạn; hàng rủi ro cao truy xuất nguồn gốc sau 06 tháng từ ngày hiệu lực | Điều 6 TT 125/2026/TT-BCA |
+| 6 | Thời hạn (khung) | 01/07/05 ngày làm việc | Điều 83 khoản 1 điểm b NĐ 37/2026/NĐ-CP |
+
+Nghĩa vụ theo mức rủi ro (nguồn A): [[concepts/muc-do-rui-ro-hang-hoa]]. Nền: Luật 55/2024/QH15 (Điều 44 áp dụng đồng thời). TT 125 **không** bãi tường minh QĐ 8378/6266/9981/QĐ-BCA — Điều 5 khoản 2 chỉ là dẫn chiếu chuyển tiếp (sổ, ghi_chu).
