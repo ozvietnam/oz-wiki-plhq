@@ -369,11 +369,24 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
         add('BIEU_THUE_CHUA_CO', hienHanh ? MUC.CAO : MUC.VUA, `Biểu thuế Tổng cục nêu nhưng sổ chưa có: ${v.soHieu}`, v.soHieu,
           `${moTa}. Thêm vào sổ: node tools/them-van-ban.mjs "${v.soHieu}"`, 'he-thong-hoa', v.soMaHs || 0);
       } else if (hienHanh && (d.tinh_trang === 'HET_HIEU_LUC' || d.tinh_trang === 'TAM_NGUNG_HIEU_LUC')) {
-        const thay = (nguoc.get(khoa(d.so_hieu))?.bi_thay_the_boi || []).map((c) => c.tu);
-        add('BIEU_THUE_HIEN_HANH_DA_HET', v.soMaHs >= 50 ? MUC.CAO : MUC.VUA, `Biểu thuế ${vanBanBieuThue.bieuThue || ''} còn dẫn ${d.so_hieu} nhưng sổ ghi ${d.tinh_trang}`, d.so_hieu,
-          thay.length
-            ? `${moTa}. Sổ ghi bị thay bởi ${thay.join(', ')} — hs-code-api sẽ báo người khai dùng văn bản thay; kiểm lại đối chiếu nguồn A.`
-            : `${moTa}. Sổ ghi ${d.tinh_trang} nhưng CHƯA ghi văn bản thay — ghi quan hệ thay_the ở văn bản mới (chiều đi) kèm điều khoản, để hs-code-api dẫn người khai sang văn bản đúng.`,
+        // Quan hệ đóng việc là cả thay/sửa lẫn bãi bỏ/tạm ngưng tường minh — nguyên văn ghi "bãi bỏ" thì không suy ra thay_the.
+        const q = nguoc.get(khoa(d.so_hieu)) || {};
+        const dong = [
+          ...(q.bi_thay_the_boi || []).map((c) => `thay bởi ${c.tu}`),
+          ...(q.bi_bai_bo_boi || []).map((c) => `bãi bỏ bởi ${c.tu}`),
+          ...(q.bi_tam_ngung_boi || []).map((c) => `tạm ngưng bởi ${c.tu}`),
+        ];
+        const daDoiChieu = d.xac_minh?.hieu_luc_da_doi_chieu === true;
+        // Sổ đã đối chiếu nguồn A (cả khi hết theo thời hạn biện pháp, không có văn bản thay) → phần sổ xong, lệch nằm bên biểu.
+        const muc = daDoiChieu ? MUC.THAP : (v.soMaHs >= 50 ? MUC.CAO : MUC.VUA);
+        add('BIEU_THUE_HIEN_HANH_DA_HET', muc, `Biểu thuế ${vanBanBieuThue.bieuThue || ''} còn dẫn ${d.so_hieu} nhưng sổ ghi ${d.tinh_trang}`, d.so_hieu,
+          dong.length
+            ? (daDoiChieu
+              ? `${moTa}. Sổ ghi bị ${dong.join(', ')} (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.`
+              : `${moTa}. Sổ ghi bị ${dong.join(', ')} — hs-code-api sẽ báo người khai dùng văn bản mới; kiểm lại đối chiếu nguồn A.`)
+            : (daDoiChieu
+              ? `${moTa}. Sổ ghi ${d.tinh_trang} từ ${d.het_hieu_luc_tu || 'ngày đã đối chiếu'} (đã đối chiếu nguồn A), không có văn bản thay/bãi trong sổ — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.`
+              : `${moTa}. Sổ ghi ${d.tinh_trang} nhưng CHƯA ghi văn bản thay — ghi quan hệ thay_the/bai_bo ở văn bản mới (chiều đi) kèm điều khoản, để hs-code-api dẫn người khai sang văn bản đúng.`),
           'hieu-luc', v.soMaHs || 0);
       }
     }
