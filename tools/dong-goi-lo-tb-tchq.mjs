@@ -38,6 +38,46 @@ function hsInText(hs, text) {
   return t.includes(dotted || h) || t.includes(h);
 }
 const unbalanced = (t) => { const s = String(t || ''); const n = (re) => (s.match(re) || []).length; return n(/\(/g) !== n(/\)/g) || n(/“/g) !== n(/”/g) || n(/"/g) % 2 === 1; };
+// Sửa lỗi crawl: thay cặp nháy ASCII thừa (mở-không-đóng) bằng cặp smart quote cân đôi.
+// Áp dụng khi reasonVi bị crawl mất dấu đóng — 7 dấu " mở 0 đóng thành 7/2=3 cặp lẻ.
+// Cách: bỏ dấu " cuối cùng để chẵn, rồi thay từng cặp " thành "/".
+const cânNháyCrawlLỗi = (s) => {
+  // Hàm nội bộ: thay N cặp quote lệch (mở nhiều hơn đóng) bằng cách bỏ (diff) dấu thừa
+  const sửaLệch = (đo, open, close) => {
+    const mở = [], đóng = [];
+    for (let i = 0; i < đo.length; i++) {
+      if (đo[i] === open) mở.push(i);
+      else if (đo[i] === close) đóng.push(i);
+    }
+    if (mở.length === đóng.length) return đo;
+    let bỏ = 0, dùng = [];
+    if (mở.length > đóng.length) { bỏ = mở.length - đóng.length; dùng = mở.slice(-bỏ); }
+    else { bỏ = đóng.length - mở.length; dùng = đóng.slice(0, bỏ); }
+    const skip = new Set(dùng);
+    let kq = '';
+    for (let i = 0; i < đo.length; i++) if (!skip.has(i)) kq += đo[i];
+    return kq;
+  };
+  let sĐã = String(s || "");
+  // Smart quote đôi: " và "
+  sĐã = sửaLệch(sĐã, '\u201C', '\u201D');
+  // ASCII " — bỏ dấu thừa + thay cặp còn lại thành smart
+  const đo = sĐã;
+  const vịTrí = [];
+  for (let i = 0; i < đo.length; i++) if (đo[i] === '"') vịTrí.push(i);
+  if (vịTrí.length === 0) return sĐã;
+  if (vịTrí.length % 2 !== 0) {
+    const bỏ = vịTrí[vịTrí.length - 1];
+    sĐã = đo.slice(0, bỏ) + đo.slice(bỏ + 1);
+  }
+  // Thay từng cặp " còn lại thành "/"
+  let kq = '', d = 0;
+  for (const c of sĐã) {
+    if (c === '"') { kq += d % 2 === 0 ? '\u201C' : '\u201D'; d += 1; }
+    else kq += c;
+  }
+  return kq;
+};
 // Sửa cắt cụt: lấy tiền tố dài nhất còn cân ngoặc VÀ còn mã kết luận (bên nhận chặn reasonVi lệch ngoặc)
 const cânBằng = (s, hsCode) => {
   for (let i = s.length; i >= 80; i--) {
@@ -73,17 +113,27 @@ function dọnMôTả(thô, hsCode) {
   s = s.replace(/\s{2,}/g, ' ').replace(/\s+([.,;])/g, '$1').trim();
   return s;
 }
-// Cắt mô tả cụt về tiền tố còn cân ngoặc, tối thiểu 40 ký tự
+// Cắt mô tả cụt về tiền tố còn cân ngoặc, tối thiểu 40 ký tự, tối đa 480 (validator giới hạn 500)
 function cắtCânBằng40(s) {
+  const MAX = 480;
   for (let i = s.length; i >= 40; i--) {
     const p = s.slice(0, i).trimEnd().replace(/[,;:\-–—]+$/, '').trimEnd();
+    if (p.length > MAX) continue;  // Bỏ qua nếu vẫn quá dài - sẽ bị cắt cứng bên dưới
     if (!unbalanced(p)) return p;
   }
   return null;
 }
 // Rút mô tả chuẩn từ toàn văn: mục "Tóm tắt mô tả ..." (đúng mục 6 hướng dẫn bên nhận)
 function môTảTừToànVăn(nd) {
-  const m = nd.match(/Tóm tắt mô tả[^:\n]*:\s*([\s\S]{40,600}?)(?=\n\s*(?:Kết quả|Kết luận|Ý kiến|Tuy nhiên|$))/);
+  const m = nd.match(/Tóm tắt mô tả[^\n]*:[\s\S]{40,1500}?(?=\n\s*(?:Kết quả|Quy trình|Thông số|Căn cứ|Hiệu lực|$))/);
+  if (!m) return null;
+  // Bỏ phần "Tóm tắt mô tả ... :" ở đầu, lấy phần nội dung
+  const start = m[0].indexOf(':') + 1;
+  return m[0].slice(start).replace(/\s+/g, ' ').trim();
+}
+// Rút mô tả fallback từ mục "Công dụng theo thiết kế" (khi Tóm tắt mô tả không có/không đạt)
+function môTảTừCôngDụng(nd) {
+  const m = nd.match(/Công dụng theo thiết kế[\s:]+([\s\S]{40,1500}?)(?=\n\s*(?:Kết quả|Quy trình|Thông số|Căn cứ|Hiệu lực|$))/);
   return m ? m[1].replace(/\s+/g, ' ').trim() : null;
 }
 // Rút chuỗi kết luận từ toàn văn quanh vị trí mã kết luận: "thuộc nhóm … mã số X “…”."
@@ -128,7 +178,7 @@ function mãBịBác(nd, hsCode, loaiTB) {
   }
   return [...out];
 }
-const CẤM_ĐIỂN_HÌNH = /kết quả phân loại|tên gọi theo cấu tạo|(^|[\s—–-])g thức hóa học|nhà sản xuất\s*:|hàng hóa theo thông báo/i;
+const CẤM_ĐIỂN_HÌNH = /kết quả phân loại|tên gọi theo cấu tạo|(^|[\s—–-])công thức hóa học(?![,:.\s])|nhà sản xuất\s*:|hàng hóa theo thông báo/i;
 const CÔNG_TY = /\b(Inc|Ltd|LLC|GmbH|B\.?V|S\.?A|AG|Co\.,?|Corp(oration)?|Group|JSC|Pte|Sdn\s+Bhd|Limited)\b\.?(?![-\d])/;
 
 // ----- xử từng bản ghi -----
@@ -176,7 +226,10 @@ for (const r of records) {
     const đoạn = nd.match(new RegExp(`[^.!?]{20,600}?mã số\\s*${hsCode.slice(0, 4)}[.\\s]?${hsCode.slice(4, 6)}[.\\s]?${hsCode.slice(6)}[^.!?]{0,200}`, 'i'));
     if (đoạn) reasonVi = (đoạn[0].replace(/\s+/g, ' ').trim() + ' ' + reasonVi).replace(/\s+/g, ' ').trim();
   }
-  if (unbalanced(reasonVi)) reasonVi = cânBằng(reasonVi, hsCode);
+  if (unbalanced(reasonVi)) {
+    reasonVi = cânNháyCrawlLỗi(reasonVi);
+    if (unbalanced(reasonVi)) reasonVi = cânBằng(reasonVi, hsCode);
+  }
   if (!reasonVi || reasonVi.length < 80) {
     let kl = kếtLuậnTừToànVăn(nd, hsCode);
     if (!kl) {
@@ -216,7 +269,21 @@ for (const r of records) {
     dọnMôTả(tenGọn, hsCode),
     dọnMôTả(moTaGọn, hsCode),
     dọnMôTả(môTảTừToànVăn(nd) || '', hsCode),
-  ].filter(Boolean).map((d) => (unbalanced(d) ? cắtCânBằng40(d) : d)).filter(Boolean);
+    dọnMôTả(môTảTừCôngDụng(nd) || '', hsCode),
+  ].filter(Boolean).map((d) => {
+    if (unbalanced(d)) d = cắtCânBằng40(d);
+    // Cắt cứng nếu vẫn quá dài (validator giới hạn 500)
+    // Lùi dần từ 480 về 40 cho đến khi cân ngoặc
+    if (d && d.length > 480) {
+      for (let i = 480; i >= 40; i--) {
+        const p = d.slice(0, i).trimEnd().replace(/[,;:\-–—]+$/, '').trimEnd();
+        if (!unbalanced(p)) { d = p; break; }
+      }
+      // Nếu vẫn chưa cân → giữ 480 chars (validator sẽ cảnh báo, không chặn)
+      if (d && d.length > 480) d = d.slice(0, 480).trimEnd();
+    }
+    return d;
+  }).filter(Boolean);
   const sạchCorp = (d) => d.replace(/\s*\((?:[A-Z]{2,}[\s-])+[A-Z0-9-]{3,}\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim();
   let description = ứngViên.find((d) => d.length >= 40 && !nốiTênNhóm(d)) || '';
   if (description && CÔNG_TY.test(description)) {

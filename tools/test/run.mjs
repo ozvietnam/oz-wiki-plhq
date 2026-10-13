@@ -297,14 +297,18 @@ writeFileSync(vaoLo, JSON.stringify({
       noi_dung: 'Số: 7777/TB-TCHQ\nHà Nội, ngày 10 tháng 3 năm 2019\n(không có câu kết luận rõ trong toàn văn).' },
     { so_hieu: '6666/TB-TCHQ/2019', nam: 2019, ma_hs: '38249999',
       ten_hang: '', mo_ta: '',
-      reasonVi: 'thuộc nhóm 38.24 “Chất gắn đã điều chế dùng cho các loại khuôn đúc hoặc lõi đúc; các sản phẩm và chế phẩm hóa học của ngành công nghiệp hóa chất hoặc các ngành công nghiệp có liên quan”, mã số 3824.99.99 “- - - - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.',
-      noi_dung: 'Số: 6666/TB-TCHQ\nHà Nội, ngày 15 tháng 3 năm 2019\nĐÍNH CHÍNH THÔNG BÁO KẾT QUẢ PHÂN LOẠI\nNội dung đã ban hành | Nội dung đính chính\nThông báo số 1234/TB-TCHQ ngày 06/03/2019\nthuộc nhóm 34.02 “Chất gắn đã điều chế dùng cho các loại khuôn đúc hoặc lõi đúc; các sản phẩm và chế phẩm hóa học của ngành công nghiệp hóa chất hoặc các ngành công nghiệp có liên quan (kể cả các sản phẩm và chế phẩm chứa hỗn hợp các sản phẩm tự nhiên).”\nthuộc nhóm 38.24 “Chất gắn đã điều chế dùng cho các loại khuôn đúc hoặc lõi đúc”, mã số 3824.99.99 tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.' },
+      reasonVi: 'thuộc nhóm 38.24 “Chất gắn đã điều chỉnh dùng cho các loại khuôn đúc hoặc lõi đúc; các sản phẩm và chế phẩm hóa học của ngành công nghiệp hóa chất hoặc các ngành công nghiệp có liên quan”, mã số 3824.99.99 “- - - - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.',
+      noi_dung: 'Số: 6666/TB-TCHQ\nHà Nội, ngày 15 tháng 3 năm 2019\nĐÍNH CHÍNH THÔNG BÁO KẾT QUẢ PHÂN LOẠI\nNội dung đã ban hành | Nội dung đính chính\nThông báo số 1234/TB-TCHQ ngày 06/03/2019\nthuộc nhóm 34.02 “Chất gắn đã điều chỉnh dùng cho các loại khuôn đúc hoặc lõi đúc; các sản phẩm và chế phẩm hóa học của ngành công nghiệp hóa chất hoặc các ngành công nghiệp có liên quan (kể cả các sản phẩm và chế phẩm chứa hỗn hợp các sản phẩm tự nhiên).”\nthuộc nhóm 38.24 “Chất gắn đã điều chỉnh dùng cho các loại khuôn đúc hoặc lõi đúc”, mã số 3824.99.99 tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.' },
+    { so_hieu: '5555/TB-TCHQ/2024', nam: 2024, ma_hs: '39119000',
+      ten_hang: '1000HNX hardener; Chất làm cứng', mo_ta: '',
+      reasonVi: 'thuộc nhóm 39.11 “Polymere acrylique, dạng sơ cấp”, phân nhóm 3911.90 “- Loại khác”, mã số 3911.90.00 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.',
+      noi_dung: 'Số: 5555/TB-TCHQ\nHà Nội, ngày 15 tháng 3 năm 2024\nVỀ KẾT QUẢ XÁC ĐỊNH TRƯỚC MÃ SỐ\nTổng cục Hải quan thông báo:\nHàng hóa đề nghị xác định trước mã số do tổ chức cung cấp:\nTên thương mại: 1000HNX hardener\nTên gọi theo cấu tạo, công dụng: Chất làm cứng\nTóm tắt mô tả hàng hóa: Thành phần, cấu tạo, công thức hóa học, hàm lượng tính trên trọng lượng: Hexamethylene diisocyanate homopolymer: 96% - 100%\nCông dụng theo thiết kế:\nPha trực tiếp vào mực in để giúp mực in bám chắc hơn trên quần áo, nhãn mác, vải vóc\nKết quả xác định trước mã số: thuộc nhóm 39.11 ... mã số 3911.90.00 tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.' },
   ],
 }), 'utf8');
 execSyncNode(`node tools/dong-goi-lo-tb-tchq.mjs --vao "${vaoLo}" --ra "${raLo}" --bao-cao "${bcLo}"`);
 const lo = JSON.parse(readFileSync(raLo, 'utf8'));
-t('lô TB-TCHQ: gói đúng envelope + 2 bản ghi đạt (evidence + bieuThue + loaiTB + url + description sạch)',
-  lo.kind === 'precedent' && lo.contributor.name === 'test' && lo.license === 'CC-BY-SA-4.0' && lo.records.length === 2
+t('lô TB-TCHQ: gói đúng envelope + 3 bản ghi đạt (evidence + bieuThue + loaiTB + url + description sạch)',
+  lo.kind === 'precedent' && lo.contributor.name === 'test' && lo.license === 'CC-BY-SA-4.0' && lo.records.length === 3
   && lo.records[0].hsCode === '85366932' && lo.records[0].evidence.soHieu === '9999/TB-TCHQ'
   && lo.records[0].evidence.ketLuan.includes('8536.69.32') && lo.records[0].attributes.bieuThue === '2017'
   && lo.records[0].attributes.loaiTB === 'KET_QUA_PHAN_LOAI'
@@ -315,9 +319,13 @@ t('lô TB-TCHQ: đính chính → loaiTB DINH_CHINH + mã cũ vào confusedWith 
   đc && đc.attributes.loaiTB === 'DINH_CHINH' && (đc.confusedWith || []).includes('3402')
   && !(đc.confusedWith || []).includes('38249999') && /Đính chính Thông báo 1234\/TB-TCHQ/.test(đc.description),
   JSON.stringify(đc && { loaiTB: đc.attributes.loaiTB, cw: đc.confusedWith, desc: đc.description.slice(0, 60) }));
+const fg = lo.records.find((x) => x.hsCode === '39119000');
+t('lô TB-TCHQ: mô tả từ "Công dụng theo thiết kế" khi tên hàng < 40 ký tự và có "công thức hóa học" trong Tóm tắt',
+  fg && /Pha trực tiếp vào mực in/.test(fg.description),
+  JSON.stringify(fg && { desc: fg.description.slice(0, 60) }));
 const bcLoNd = readFileSync(bcLo, 'utf8');
 t('lô TB-TCHQ: thiếu ngày ký / lý do mỏng vào "cần xử tay", KHÔNG nhồi lô',
-  lo.records.length === 2 && /8888\/TB-TCHQ/.test(bcLoNd) && /7777\/TB-TCHQ/.test(bcLoNd) && /ngày ký/.test(bcLoNd) && /mỏng/.test(bcLoNd));
+  lo.records.length === 3 && /8888\/TB-TCHQ/.test(bcLoNd) && /7777\/TB-TCHQ/.test(bcLoNd) && /ngày ký/.test(bcLoNd) && /mỏng/.test(bcLoNd));
 
 // 8d. Hàng đợi chia gói TB-TCHQ (tools/chia-goi-tb-tchq.mjs → data/customs/lo/hang-doi-tb-tchq.json)
 const hd = JSON.parse(readFileSync(join(ROOT, 'data/customs/lo/hang-doi-tb-tchq.json'), 'utf8'));
