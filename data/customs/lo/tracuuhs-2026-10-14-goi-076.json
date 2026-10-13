@@ -1,50 +1,373 @@
 {
-  "kind": "precedent",
-  "contributor": {
-    "name": "hermes-tracuuhs",
-    "github": "ozvietnam"
+ "kind": "precedent",
+ "contributor": {
+  "name": "hermes-tracuuhs",
+  "github": "ozvietnam"
+ },
+ "license": "CC-BY-SA-4.0",
+ "submittedAt": "2026-10-13T18:22:30Z",
+ "note": "Lô tracuuhs.com — 19 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-14-goi-076.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 19/20 đạt luật validate-community của kể từ 06/10.",
+ "records": [
+  {
+   "hsCode": "58063190",
+   "description": "Vải dệt thoi khổ hẹp Cotton Tape CM019 (15MM x 100M/cuộn) định lượng 200g/m2, dùng in nhãn mác. Hàng mới 100% - Vải dệt thoi khổ hẹp đi từ bông, dạng cuộn, chiều rộng 4cm, bề mặt không tráng phủ, đã tạo biên ở hai mép; dùng để in nhãn mác.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "332/TB-TCHQ",
+    "issuedDate": "2018-01-18",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-332-2018"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi khổ hẹp đi từ bông, dạng cuộn, chiều rộng 4cm, bề mặt không tráng phủ, đã tạo biên ở hai mép; dùng để in nhãn mác. thuộc nhóm 58.06 “Vải dệt thoi khổ hẹp, trừ các loại hàng thuộc nhóm 58.07; vải khổ hẹp gồm toàn sợi dọc không có sợi ngang liên kết với nhau bằng chất keo dính (bolducs)”, phân nhóm “-Vải dệt thoi khác”, phân nhóm 5806.31 “- - Từ bông”, mã số 5806.31.90 “- - - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
+   "evidence": {
+    "soHieu": "332/TB-TCHQ",
+    "ketLuan": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi khổ hẹp đi từ bông, dạng cuộn, chiều rộng 4cm, bề mặt không tráng phủ, đã tạo biên ở hai mép; dùng để in nhãn mác. thuộc nhóm 58.06 “Vải dệt thoi khổ hẹp, trừ các loại hàng thuộc nhóm 58.07; vải khổ hẹp gồm toàn sợi dọc không có sợi ngang liên kết với nhau bằng chất keo dính (bolducs)”, phân nhóm “-Vải dệt thoi khác”, phân nhóm 5806.31 “- - Từ bông”, mã số 5806.31.90 “- - - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam."
+   }
   },
-  "license": "CC-BY-SA-4.0",
-  "submittedAt": "2026-10-13T18:22:30Z",
-  "note": "Lô tracuuhs.com — 20 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-14-goi-076.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 20/20 đạt luật validate-community của kể từ 06/10.",
-  "records": [
-    {
-      "hsCode": "59031090",
-      "description": "Vải dệt thoi 100% polyester khổ: 142cm, dùng bọc sofa, định lượng: 373g/m2. - Vải dệt thoi thành phần từ 100% polyeste, một mặt đã được phủ poly; trọng lượng mẫu 368g/m2; dạng cuộn, khổ lớn hơn 1m, dùng để bọc sofa",
-      "source": {
-        "type": "TB-TCHQ",
-        "reference": "2101/TB-TCHQ",
-        "issuedDate": "2018-04-19",
-        "url": "https://www.tracuuhs.com/tin-tuc/tchq-2101-2018"
-      },
-      "attributes": {
-        "bieuThue": "2017",
-        "loaiTB": "KET_QUA_PHAN_LOAI"
-      },
-      "reasonVi": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi thành phần từ 100% polyeste, một mặt đã được phủ poly(vinyl clorua); trọng lượng mẫu 368g/m2; dạng cuộn, khổ lớn hơn 1m, dùng để bọc sofa thuộc nhóm 59.03 “Vải dệt đã được ngâm tẩm, tráng, phủ hoặc ép với plastic, trừ các loại thuộc nhóm 59.02”, phân nhóm 5903.10 “- Với poly(vinyl clorua)”, mã số 5903.10.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
-      "evidence": {
-        "soHieu": "2101/TB-TCHQ",
-        "ketLuan": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi thành phần từ 100% polyeste, một mặt đã được phủ poly(vinyl clorua); trọng lượng mẫu 368g/m2; dạng cuộn, khổ lớn hơn 1m, dùng để bọc sofa thuộc nhóm 59.03 “Vải dệt đã được ngâm tẩm, tráng, phủ hoặc ép với plastic, trừ các loại thuộc nhóm 59.02”, phân nhóm 5903.10 “- Với poly(vinyl clorua)”, mã số 5903.10.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam."
-      }
-    },
-    {
-      "hsCode": "59070060",
-      "description": "Thông báo 6304/TB-TCHQ 2023 kết quả xác định trước mã số | HSTC",
-      "source": {
-        "type": "TB-TCHQ",
-        "reference": "6304/TB-TCHQ",
-        "issuedDate": "2023-12-07",
-        "url": "https://www.tracuuhs.com/tin-tuc/tchq-6304-2023"
-      },
-      "attributes": {
-        "bieuThue": "2022",
-        "loaiTB": "XAC_DINH_TRUOC"
-      },
-      "reasonVi": "07 “Các loại vải dệt được ngâm tẩm, tráng hoặc phủ bằng cách khác; vải canvas được vẽ làm phông cảnh cho rạp hát, phông trường quay hoặc loại tương tự”, mã số 5907.00.60 “- Các loại vải được ngâm tẩm, tráng hoặc phủ bằng các vật liệu khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
-      "evidence": {
-        "soHieu": "6304/TB-TCHQ",
-        "ketLuan": "07 “Các loại vải dệt được ngâm tẩm, tráng hoặc phủ bằng cách khác; vải canvas được vẽ làm phông cảnh cho rạp hát, phông trường quay hoặc loại tương tự”, mã số 5907.00.60 “- Các loại vải được ngâm tẩm, tráng hoặc phủ bằng các vật liệu khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
-      }
-    }
-  ]
+  {
+   "hsCode": "58063290",
+   "description": "Chỉ đầu cuốn sách, là dải bằng vải polyeste, đã may viền một bên, khổ rộng: 1.5cm, dài: 457.2m, dạng cuộn, dùng để dán mép bìa giấy, 615kg/180cuộn, mới 100%",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "1142/TB-TCHQ",
+    "issuedDate": "2020-02-26",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-1142-2020"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "32 “- Từ xơ nhân tạo:”, mã số 5806.32.90 “- - - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam Tên gọi theo cấu tạo, công dụng: Vải dệt thoi khổ hẹp từ các sợi có màu khác nhau, một biên tạo ống có chứa sợi xe độ mảnh 5957,5 decitex, thành phần tính theo trọng lượng: 59% xơ filament polyeste, 26% xơ bông và 15% xơ staple polyeste, chưa thấm tẩm, bề mặt chưa tráng phủ hay kết hợp với vật liệu khác, trọng lượng 269 g/m2, dạng cuộn khổ 14 mm, thường dùng để làm gáy sách dầy. thuộc nhóm 58.06 “Vải dệt thoi khổ hẹp, trừ các loại hàng thuộc nhóm 58.07; vải khổ hẹp gồm toàn sợi dọc không có sợi ngang liên kết với nhau bằng chất keo dính (bolducs) ”, phân nhóm “- Vải dệt thoi khác:”, phân nhóm 5806.32 -",
+   "evidence": {
+    "soHieu": "1142/TB-TCHQ",
+    "ketLuan": "32 “- Từ xơ nhân tạo:”, mã số 5806.32.90 “- - - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam Tên gọi theo cấu tạo, công dụng: Vải dệt thoi khổ hẹp từ các sợi có màu khác nhau, một biên tạo ống có chứa sợi xe độ mảnh 5957,5 decitex, thành phần tính theo trọng lượng: 59% xơ filament polyeste, 26% xơ bông và 15% xơ staple polyeste, chưa thấm tẩm, bề mặt chưa tráng phủ hay kết hợp với vật liệu khác, trọng lượng 269 g/m2, dạng cuộn khổ 14 mm, thường dùng để làm gáy sách dầy. thuộc nhóm 58.06 “Vải dệt thoi khổ hẹp, trừ các loại hàng thuộc nhóm 58.07; vải khổ hẹp gồm toàn sợi dọc không có sợi ngang liên kết với nhau bằng chất keo dính (bolducs) ”, phân nhóm “- Vải dệt thoi khác:”, phân nhóm 5806.32 -"
+   }
+  },
+  {
+   "hsCode": "58089090",
+   "description": "Vật liệu tiếp xúc làm từ sợi nylon, diện tích bề mặt: 280m2/m3, dùng để tạo bề mặt bám dính cho hệ thống vi sinh vật trong bể thiếu khí, do xử lý nước bằng công nghệ vi sinh, Hàng mới 100% - Sản phẩm thường dùng làm giá thể vi sinh trong công nghệ xử lý nước thải, được tạo thành từ sợi multifilament polypropylene đã tết bện, tạo vòng lông quanh lõi đi từ sợi multifilament polypropylene, sợi bện và lõi được kết dính bằng nhựa, dạng cuộn tròn và đóng gói 100m/bao",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "331/TB-TCHQ",
+    "issuedDate": "2018-01-18",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-331-2018"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "Tên gọi theo cấu tạo, công dụng: Sản phẩm thường dùng làm giá thể vi sinh trong công nghệ xử lý nước thải, được tạo thành từ sợi multifilament polypropylene đã tết bện, tạo vòng lông quanh lõi đi từ sợi multifilament polypropylene, sợi bện và lõi được kết dính bằng nhựa, dạng cuộn tròn và đóng gói 100m/bao thuộc nhóm 58.08 “Các dải bện dạng chiếc; dải, mảnh trang trí dạng chiếc, không thêu, trừ loại dệt kim hoặc móc; tua, ngù và các mặt hàng tương tự”, phân nhóm 5808.90 “- Loại khác”, mã số 5808.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
+   "evidence": {
+    "soHieu": "331/TB-TCHQ",
+    "ketLuan": "Tên gọi theo cấu tạo, công dụng: Sản phẩm thường dùng làm giá thể vi sinh trong công nghệ xử lý nước thải, được tạo thành từ sợi multifilament polypropylene đã tết bện, tạo vòng lông quanh lõi đi từ sợi multifilament polypropylene, sợi bện và lõi được kết dính bằng nhựa, dạng cuộn tròn và đóng gói 100m/bao thuộc nhóm 58.08 “Các dải bện dạng chiếc; dải, mảnh trang trí dạng chiếc, không thêu, trừ loại dệt kim hoặc móc; tua, ngù và các mặt hàng tương tự”, phân nhóm 5808.90 “- Loại khác”, mã số 5808.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam."
+   }
+  },
+  {
+   "hsCode": "59011000",
+   "description": "Mành dán gáy sách, là băng vải dạng cuộn chưa tráng keo dùng để dán gáy sách, khổ rộng: 195-305mm, dài: 275m, 1102kg/350cuộn, mới 100% - Vải dệt thoi vân điểm thưa, thành phần tính theo trọng lượng: 31,4% xơ bông và 68,6% xơ staple polyeste, đã thấm tẩm tráng hồ tinh bột thường dùng để dán gáy sách, trọng lượng 42 g/m2, dạng cuộn khổ 19,5 cm.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "1143/TB-TCHQ",
+    "issuedDate": "2020-02-26",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-1143-2020"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi vân điểm thưa, thành phần tính theo trọng lượng: 31,4% xơ bông và 68,6% xơ staple polyeste, đã thấm tẩm tráng hồ tinh bột thường dùng để dán gáy sách, trọng lượng 42 g/m2, dạng cuộn khổ 19,5 cm. thuộc nhóm 59.01 “Vải dệt được tráng gôm gồm hồ tinh bột, dùng để bọc ngoài bìa sách hoặc loại tương tự; vải can; vải canvas đã xử lý để vẽ; vải hồ cứng và các loại vải dệt đã được làm cứng tương tự để làm cốt mũ”, mã số 5901.10.00 “- Vải dệt được tráng gôm hoặc hồ tinh bột, dùng để bọc ngoài bìa sách hoặc các loại tương tự” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./.",
+   "evidence": {
+    "soHieu": "1143/TB-TCHQ",
+    "ketLuan": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi vân điểm thưa, thành phần tính theo trọng lượng: 31,4% xơ bông và 68,6% xơ staple polyeste, đã thấm tẩm tráng hồ tinh bột thường dùng để dán gáy sách, trọng lượng 42 g/m2, dạng cuộn khổ 19,5 cm. thuộc nhóm 59.01 “Vải dệt được tráng gôm gồm hồ tinh bột, dùng để bọc ngoài bìa sách hoặc loại tương tự; vải can; vải canvas đã xử lý để vẽ; vải hồ cứng và các loại vải dệt đã được làm cứng tương tự để làm cốt mũ”, mã số 5901.10.00 “- Vải dệt được tráng gôm hoặc hồ tinh bột, dùng để bọc ngoài bìa sách hoặc các loại tương tự” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./."
+   }
+  },
+  {
+   "hsCode": "59039090",
+   "description": "Vải 100% polyeste dùng bọc nệm. Khổ 1.5m. Hàng mới 100% - Vải dệt thoi thành phần từ 90,3% polyeste và 9,7% bông, một mặt đã được phủ polyacrylat; trọng lượng mẫu 508 g/m2; dạng cuộn, khổ lớn hơn 1m.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "1759/TB-TCHQ",
+    "issuedDate": "2018-04-05",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-1759-2018"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi thành phần từ 90,3% polyeste và 9,7% bông, một mặt đã được phủ polyacrylat; trọng lượng mẫu 508 g/m2; dạng cuộn, khổ lớn hơn 1m. thuộc nhóm 59.03 “Vải dệt đã được ngâm tẩm, tráng, phủ hoặc ép với plastic, trừ các loại thuộc nhóm 59.02”, phân nhóm 5903.90 “- Loại khác”, mã số 5903.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
+   "evidence": {
+    "soHieu": "1759/TB-TCHQ",
+    "ketLuan": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi thành phần từ 90,3% polyeste và 9,7% bông, một mặt đã được phủ polyacrylat; trọng lượng mẫu 508 g/m2; dạng cuộn, khổ lớn hơn 1m. thuộc nhóm 59.03 “Vải dệt đã được ngâm tẩm, tráng, phủ hoặc ép với plastic, trừ các loại thuộc nhóm 59.02”, phân nhóm 5903.90 “- Loại khác”, mã số 5903.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam."
+   }
+  },
+  {
+   "hsCode": "59031090",
+   "description": "Vải dệt thoi 100% polyester khổ: 142cm, dùng bọc sofa, định lượng: 373g/m2. - Vải dệt thoi thành phần từ 100% polyeste, một mặt đã được phủ poly; trọng lượng mẫu 368g/m2; dạng cuộn, khổ lớn hơn 1m, dùng để bọc sofa",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "2101/TB-TCHQ",
+    "issuedDate": "2018-04-19",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-2101-2018"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi thành phần từ 100% polyeste, một mặt đã được phủ poly(vinyl clorua); trọng lượng mẫu 368g/m2; dạng cuộn, khổ lớn hơn 1m, dùng để bọc sofa thuộc nhóm 59.03 “Vải dệt đã được ngâm tẩm, tráng, phủ hoặc ép với plastic, trừ các loại thuộc nhóm 59.02”, phân nhóm 5903.10 “- Với poly(vinyl clorua)”, mã số 5903.10.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
+   "evidence": {
+    "soHieu": "2101/TB-TCHQ",
+    "ketLuan": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi thành phần từ 100% polyeste, một mặt đã được phủ poly(vinyl clorua); trọng lượng mẫu 368g/m2; dạng cuộn, khổ lớn hơn 1m, dùng để bọc sofa thuộc nhóm 59.03 “Vải dệt đã được ngâm tẩm, tráng, phủ hoặc ép với plastic, trừ các loại thuộc nhóm 59.02”, phân nhóm 5903.10 “- Với poly(vinyl clorua)”, mã số 5903.10.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam."
+   }
+  },
+  {
+   "hsCode": "59039090",
+   "description": "Vải dệt kim tráng keo Poly-cotton canvas - Vải dệt thoi từ xơ cotton và xơ polyeste, đã được tráng phủ một mặt với plastic, thành phần lớp tráng phủ plastic từ copolymer acrylat và hợp chất vô cơ, định lượng mẫu 425,2g/m2, dạng cuộn, khổ lớn hơn 1m.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "2876/TB-TCHQ",
+    "issuedDate": "2018-05-23",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-2876-2018"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi từ xơ cotton và xơ polyeste, đã được tráng phủ một mặt với plastic, thành phần lớp tráng phủ plastic từ copolymer acrylat và hợp chất vô cơ, định lượng mẫu 425,2g/m2, dạng cuộn, khổ lớn hơn 1m. thuộc nhóm 59.03 “Vải dệt đã được ngâm tẩm, tráng, phủ hoặc ép với plastic, trừ các loại thuộc nhóm 59.02”, phân nhóm 5903.90 “- Loại khác”, mã số 5903.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
+   "evidence": {
+    "soHieu": "2876/TB-TCHQ",
+    "ketLuan": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi từ xơ cotton và xơ polyeste, đã được tráng phủ một mặt với plastic, thành phần lớp tráng phủ plastic từ copolymer acrylat và hợp chất vô cơ, định lượng mẫu 425,2g/m2, dạng cuộn, khổ lớn hơn 1m. thuộc nhóm 59.03 “Vải dệt đã được ngâm tẩm, tráng, phủ hoặc ép với plastic, trừ các loại thuộc nhóm 59.02”, phân nhóm 5903.90 “- Loại khác”, mã số 5903.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam."
+   }
+  },
+  {
+   "hsCode": "59039090",
+   "description": "Vải dệt kim tráng keo polyester-canvas - Vải dệt thoi từ xơ polyeste, đã được tráng phủ một mặt với plastic, thành phần lớp tráng phủ plastic từ copolymer acrylat và hợp chất vô cơ, định lượng mẫu 291,5 g/m2, dạng cuộn, khổ lớn hơn 1m.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "2877/TB-TCHQ",
+    "issuedDate": "2018-05-23",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-2877-2018"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi từ xơ polyeste, đã được tráng phủ một mặt với plastic, thành phần lớp tráng phủ plastic từ copolymer acrylat và hợp chất vô cơ, định lượng mẫu 291,5 g/m2, dạng cuộn, khổ lớn hơn 1m. thuộc nhóm 59.03 “Vải dệt đã được ngâm tẩm, tráng, phủ hoặc ép với plastic, trừ các loại thuộc nhóm 59.02”, phân nhóm 5903.90 “- Loại khác”, mã số 5903.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
+   "evidence": {
+    "soHieu": "2877/TB-TCHQ",
+    "ketLuan": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi từ xơ polyeste, đã được tráng phủ một mặt với plastic, thành phần lớp tráng phủ plastic từ copolymer acrylat và hợp chất vô cơ, định lượng mẫu 291,5 g/m2, dạng cuộn, khổ lớn hơn 1m. thuộc nhóm 59.03 “Vải dệt đã được ngâm tẩm, tráng, phủ hoặc ép với plastic, trừ các loại thuộc nhóm 59.02”, phân nhóm 5903.90 “- Loại khác”, mã số 5903.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam."
+   }
+  },
+  {
+   "hsCode": "59031090",
+   "description": "Vải giả da dệt thoi từ sợi polyester, vải phủ nhựa PVC 1 mặt (không phải mành) vải dùng để may túi xách, giầy dép, ví, dạng cuộn, khổ 130-180cm, dày 0,6-2,6mm, dài 20-50m. Định lượng 300-500grams/m. Mới 100%. - Vải dệt kim cào lông một mặt từ xơ polyester (chiếm 9,24% tỷ trọng), đã nhuộm, một mặt được tráng phủ PVC; trọng lượng 1099g/m2, dạng cuộn, khổ 1,4m, thường dùng để may túi xách, giầy dép, ví.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "3237/TB-TCHQ",
+    "issuedDate": "2018-06-08",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-3237-2018"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "Tên gọi theo cấu tạo, công dụng: Vải dệt kim cào lông một mặt từ xơ polyester (chiếm 9,24% tỷ trọng), đã nhuộm, một mặt được tráng phủ PVC (chiếm 90,76% tỷ trọng); trọng lượng 1099g/m2, dạng cuộn, khổ 1,4m, thường dùng để may túi xách, giầy dép, ví. Thuộc nhóm 5903 “Vải dệt đã được ngâm tẩm, tráng, phủ hoặc ép với plastic, trừ các loại thuộc nhóm 59.02”, phân nhóm 5903.10 “- Với poly (vinyl clorua)”, mã số 5903.10.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
+   "evidence": {
+    "soHieu": "3237/TB-TCHQ",
+    "ketLuan": "Tên gọi theo cấu tạo, công dụng: Vải dệt kim cào lông một mặt từ xơ polyester (chiếm 9,24% tỷ trọng), đã nhuộm, một mặt được tráng phủ PVC (chiếm 90,76% tỷ trọng); trọng lượng 1099g/m2, dạng cuộn, khổ 1,4m, thường dùng để may túi xách, giầy dép, ví. Thuộc nhóm 5903 “Vải dệt đã được ngâm tẩm, tráng, phủ hoặc ép với plastic, trừ các loại thuộc nhóm 59.02”, phân nhóm 5903.10 “- Với poly (vinyl clorua)”, mã số 5903.10.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam."
+   }
+  },
+  {
+   "hsCode": "59039090",
+   "description": "Vải dệt kim 7526CO, trọng lượng 60 g/m2+-g, 100% polyester đã được phủ plastic khô 60 inches, dùng làm lớp lót trong may mặc, hàng mới 100%. - Vải dệt kim sợi ngang, thành phần 100% polyeste, một mặt có rải các hạt nhựa polyeste, vải màu trắng, định lượng 62,7 g/m2; dạng cuộn, khổ lớn hơn 1m.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "3368/TB-TCHQ",
+    "issuedDate": "2018-06-14",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-3368-2018"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "Tên gọi theo cấu tạo, công dụng: Vải dệt kim sợi ngang, thành phần 100% polyeste, một mặt có rải các hạt nhựa polyeste, vải màu trắng, định lượng 62,7 g/m2 ; dạng cuộn, khổ lớn hơn 1m. thuộc nhóm 59.03 Vải dệt đã được ngâm tẩm, tráng, phủ hoặc ép với plastic, trừ các loại thuộc nhóm 59.02, phân nhóm 5903.90 - Loại khác, mã số 5903.90.90 - - Loại khác tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
+   "evidence": {
+    "soHieu": "3368/TB-TCHQ",
+    "ketLuan": "Tên gọi theo cấu tạo, công dụng: Vải dệt kim sợi ngang, thành phần 100% polyeste, một mặt có rải các hạt nhựa polyeste, vải màu trắng, định lượng 62,7 g/m2 ; dạng cuộn, khổ lớn hơn 1m. thuộc nhóm 59.03 Vải dệt đã được ngâm tẩm, tráng, phủ hoặc ép với plastic, trừ các loại thuộc nhóm 59.02, phân nhóm 5903.90 - Loại khác, mã số 5903.90.90 - - Loại khác tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam."
+   }
+  },
+  {
+   "hsCode": "59039090",
+   "description": "PE Vải lưới PE 3612 (21) - (Thành phần: 500D*1000D có độ bền cao, sợi polyester tráng PE) khổ 52’’, dùng để sản xuất đồ nội thất. - Vải dệt thoi dạng mắt lưới, được làm bằng sợi có cấu tạo từ multifilament polyester bao ngoài bằng polyetylen, định lượng 425g/m2, dạng cuộn, khổ lớn hơn 50cm.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "6028/TB-TCHQ",
+    "issuedDate": "2018-10-15",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-6028-2018"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi dạng mắt lưới, được làm bằng sợi có cấu tạo từ multifilament polyester bao ngoài bằng polyetylen, định lượng 425g/m2, dạng cuộn, khổ lớn hơn 50cm. Thuộc nhóm 5903 “Vải dệt đã được ngâm tẩm, tráng, phủ hoặc ép với plastic, trừ các loại thuộc nhóm 59.02”, phân nhóm 5903.90 “- Loại khác”, mã số 5903.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
+   "evidence": {
+    "soHieu": "6028/TB-TCHQ",
+    "ketLuan": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi dạng mắt lưới, được làm bằng sợi có cấu tạo từ multifilament polyester bao ngoài bằng polyetylen, định lượng 425g/m2, dạng cuộn, khổ lớn hơn 50cm. Thuộc nhóm 5903 “Vải dệt đã được ngâm tẩm, tráng, phủ hoặc ép với plastic, trừ các loại thuộc nhóm 59.02”, phân nhóm 5903.90 “- Loại khác”, mã số 5903.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam."
+   }
+  },
+  {
+   "hsCode": "59031010",
+   "description": "Vải P600*600D 64T,chất liệu 100% POLYESTE, tráng phủ bề mặt bằng PVC, dệt thoi, dùng để may ba-lô, túi xách, kt (dày x rộng: 0.4mm x 1.5m) định lượng G/m2: 433.657 hàng mới 100% - Sản phẩm dạng cuộn, khổ lớn hơn 0,5m, trọng lượng 398 g/m2, thường dùng làm vải lót, cấu tạo bởi: vải dệt thoi, thành phần 100% polyester, một mặt phủ poly (vinyl clorua) không xốp, lớp vải dệt thoi chiếm 45,4% khối lượng, lớp poly(vinyl clorua) chiếm 54,6% khối lượng.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "7463/TB-TCHQ",
+    "issuedDate": "2018-12-19",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-7463-2018"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "Tên gọi theo cấu tạo, công dụng: Sản phẩm dạng cuộn, khổ lớn hơn 0,5m, trọng lượng 398 g/m2, thường dùng làm vải lót, cấu tạo bởi: vải dệt thoi, thành phần 100% polyester, một mặt phủ poly (vinyl clorua) không xốp, lớp vải dệt thoi chiếm 45,4% khối lượng, lớp poly(vinyl clorua) chiếm 54,6% khối lượng. thuộc nhóm 59.03 “Vải dệt đã được ngâm tẩm, tráng, phủ hoặc ép với plastic, trừ các loại thuộc nhóm 59.02.”, phân nhóm 5903.10 “- Với poly (vinyl clorua):”, mã số 5903.10.10 -",
+   "evidence": {
+    "soHieu": "7463/TB-TCHQ",
+    "ketLuan": "Tên gọi theo cấu tạo, công dụng: Sản phẩm dạng cuộn, khổ lớn hơn 0,5m, trọng lượng 398 g/m2, thường dùng làm vải lót, cấu tạo bởi: vải dệt thoi, thành phần 100% polyester, một mặt phủ poly (vinyl clorua) không xốp, lớp vải dệt thoi chiếm 45,4% khối lượng, lớp poly(vinyl clorua) chiếm 54,6% khối lượng. thuộc nhóm 59.03 “Vải dệt đã được ngâm tẩm, tráng, phủ hoặc ép với plastic, trừ các loại thuộc nhóm 59.02.”, phân nhóm 5903.10 “- Với poly (vinyl clorua):”, mã số 5903.10.10 -"
+   }
+  },
+  {
+   "hsCode": "59049000",
+   "description": "Thảm dán sàn (loại vải sơn từ vật liệu dệt, dạng tấm) Marmoleum decibel độ dày 3.5mm x khổ rộng 2m, code màu 3708 fossil. Hãng sản xuất Forbo. Thành phần chính dầu lanh. Hàng mới 100%",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "2811/TB-TCHQ",
+    "issuedDate": "2018-05-22",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-2811-2018"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "thuộc nhóm 59.04 “Vải sơn, đã hoặc chưa cắt theo hình; các loại trải sàn có một lớp tráng hoặc phủ gắn trên lớp bồi là vật liệu dệt, đã hoặc chưa cắt thành hình”, mã số 5904.90.5904.90.00 “- Loại khác”",
+   "evidence": {
+    "soHieu": "2811/TB-TCHQ",
+    "ketLuan": "thuộc nhóm 59.04 “Vải sơn, đã hoặc chưa cắt theo hình; các loại trải sàn có một lớp tráng hoặc phủ gắn trên lớp bồi là vật liệu dệt, đã hoặc chưa cắt thành hình”, mã số 5904.90.5904.90.00 “- Loại khác”"
+   }
+  },
+  {
+   "hsCode": "59069990",
+   "description": "Vải dệt đã ngâm tẩm với cao su (cao su hóa) để tăng bám dính với cao su, dùng trong sản xuất băng tải cao su, ký hiệu EP150, khổ rộng 1250mm. Hàng mới 100%.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "6518/TB-TCHQ",
+    "issuedDate": "2018-11-06",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-6518-2018"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi, dệt từ sợi multifilament; thành phần sợi dọc từ 100% polyester, sợi ngang từ 100% nylon; độ bền tương đối của sợi dọc là 52,7 cN/tex, độ bền tương đối của sợi ngang là 62,3 cN/tex; vải đã được thấm tẩm cao su (không nhìn thấy bằng mắt thường), trọng lượng 532,8g/m2, dạng cuộn, khổ 1,25m, thường dùng để sản xuất băng tải. Thuộc nhóm 5906 “Vải dệt cao su hóa, trừ các loại thuộc nhóm 59.02”, phân nhóm “ - Loại khác”, phân nhóm 5906.99 ",
+   "evidence": {
+    "soHieu": "6518/TB-TCHQ",
+    "ketLuan": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi, dệt từ sợi multifilament; thành phần sợi dọc từ 100% polyester, sợi ngang từ 100% nylon; độ bền tương đối của sợi dọc là 52,7 cN/tex, độ bền tương đối của sợi ngang là 62,3 cN/tex; vải đã được thấm tẩm cao su (không nhìn thấy bằng mắt thường), trọng lượng 532,8g/m2, dạng cuộn, khổ 1,25m, thường dùng để sản xuất băng tải. Thuộc nhóm 5906 “Vải dệt cao su hóa, trừ các loại thuộc nhóm 59.02”, phân nhóm “ - Loại khác”, phân nhóm 5906.99 "
+   }
+  },
+  {
+   "hsCode": "59070040",
+   "description": "Tấm nhựa PU - Vải dệt kim đi từ 100% polyeste, một mặt ép lớp với màng polyetylen xốp (chiếm 28% trọng lượng) một mặt được phủ tạo lông bằng lớp xơ vụn từ rayon, định lượng 310g/m2, khổ 185cm, dạng cuộn.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "1345/TB-TCHQ",
+    "issuedDate": "2019-03-11",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-1345-2019"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "Tên gọi theo cấu tạo, công dụng: Vải dệt kim đi từ 100% polyeste, một mặt ép lớp với màng polyetylen xốp (chiếm 28% trọng lượng) một mặt được phủ tạo lông bằng lớp xơ vụn từ rayon, định lượng 310g/m2, khổ 185cm, dạng cuộn. thuộc nhóm 59.07 “Các loại vải dệt được ngâm tẩm, tráng hoặc phủ bằng cách khác; vải canvas được vẽ làm phông cảnh cho rạp hát, phông trường quay hoặc loại tương tự.”, mã số 5907.00.40 “- Các loại vải được ngâm tẩm, tráng hoặc phủ với nhung xơ vụn, toàn bộ bề mặt được phủ với xơ vụn dệt” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
+   "evidence": {
+    "soHieu": "1345/TB-TCHQ",
+    "ketLuan": "Tên gọi theo cấu tạo, công dụng: Vải dệt kim đi từ 100% polyeste, một mặt ép lớp với màng polyetylen xốp (chiếm 28% trọng lượng) một mặt được phủ tạo lông bằng lớp xơ vụn từ rayon, định lượng 310g/m2, khổ 185cm, dạng cuộn. thuộc nhóm 59.07 “Các loại vải dệt được ngâm tẩm, tráng hoặc phủ bằng cách khác; vải canvas được vẽ làm phông cảnh cho rạp hát, phông trường quay hoặc loại tương tự.”, mã số 5907.00.40 “- Các loại vải được ngâm tẩm, tráng hoặc phủ với nhung xơ vụn, toàn bộ bề mặt được phủ với xơ vụn dệt” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam."
+   }
+  },
+  {
+   "hsCode": "59070060",
+   "description": "Vải dệt kim phủ tường Textile with removable adhesive - Vải dệt thoi từ polyeste, một mặt đã được tráng keo và dính trên lớp giấy chống dính màu trắng, định lượng mẫu 313,2 g/m2, dạng cuộn, khổ lớn hơn 1m.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "2875/TB-TCHQ",
+    "issuedDate": "2018-05-23",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-2875-2018"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi từ polyeste, một mặt đã được tráng keo và dính trên lớp giấy chống dính màu trắng, định lượng mẫu 313,2 g/m2, dạng cuộn, khổ lớn hơn 1m. thuộc nhóm 59.07 “Các loại vải dệt được ngâm tẩm, tráng hoặc phủ bằng cách khác; vải canvas được vẽ làm phông cảnh cho rạp hát, phông trường quay hoặc loại tương tự”, mã số 5907.00.60 “- Các loại vải được ngâm tẩm, tráng hoặc phủ bằng các vật liệu khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
+   "evidence": {
+    "soHieu": "2875/TB-TCHQ",
+    "ketLuan": "Tên gọi theo cấu tạo, công dụng: Vải dệt thoi từ polyeste, một mặt đã được tráng keo và dính trên lớp giấy chống dính màu trắng, định lượng mẫu 313,2 g/m2, dạng cuộn, khổ lớn hơn 1m. thuộc nhóm 59.07 “Các loại vải dệt được ngâm tẩm, tráng hoặc phủ bằng cách khác; vải canvas được vẽ làm phông cảnh cho rạp hát, phông trường quay hoặc loại tương tự”, mã số 5907.00.60 “- Các loại vải được ngâm tẩm, tráng hoặc phủ bằng các vật liệu khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam."
+   }
+  },
+  {
+   "hsCode": "59070060",
+   "description": "Vải dệt đã được phủ nhựa - INSULATION SILVER TOP CROSS FILM 1,060MM",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "3696/TB-TCHQ",
+    "issuedDate": "2019-06-05",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-3696-2019"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "thuộc nhóm 59.07 “Các loại vải dệt được ngâm tẩm, tráng hoặc phủ bằng cách khác; vải canvas được vẽ làm phông cảnh cho rạp hát, phông trường quay hoặc loại tương tự.”, mã số 5907.00.5907.00.60 “- Các loại vải được ngâm tẩm, tráng hoặc phủ bằng các vật liệu khác”",
+   "evidence": {
+    "soHieu": "3696/TB-TCHQ",
+    "ketLuan": "thuộc nhóm 59.07 “Các loại vải dệt được ngâm tẩm, tráng hoặc phủ bằng cách khác; vải canvas được vẽ làm phông cảnh cho rạp hát, phông trường quay hoặc loại tương tự.”, mã số 5907.00.5907.00.60 “- Các loại vải được ngâm tẩm, tráng hoặc phủ bằng các vật liệu khác”"
+   }
+  },
+  {
+   "hsCode": "59070060",
+   "description": "Thông báo 6304/TB-TCHQ 2023 kết quả xác định trước mã số | HSTC",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "6304/TB-TCHQ",
+    "issuedDate": "2023-12-07",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-6304-2023"
+   },
+   "attributes": {
+    "bieuThue": "2022",
+    "loaiTB": "XAC_DINH_TRUOC"
+   },
+   "reasonVi": "07 “Các loại vải dệt được ngâm tẩm, tráng hoặc phủ bằng cách khác; vải canvas được vẽ làm phông cảnh cho rạp hát, phông trường quay hoặc loại tương tự”, mã số 5907.00.60 “- Các loại vải được ngâm tẩm, tráng hoặc phủ bằng các vật liệu khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
+   "evidence": {
+    "soHieu": "6304/TB-TCHQ",
+    "ketLuan": "07 “Các loại vải dệt được ngâm tẩm, tráng hoặc phủ bằng cách khác; vải canvas được vẽ làm phông cảnh cho rạp hát, phông trường quay hoặc loại tương tự”, mã số 5907.00.60 “- Các loại vải được ngâm tẩm, tráng hoặc phủ bằng các vật liệu khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
+   }
+  },
+  {
+   "hsCode": "59119090",
+   "description": "Ống địa kỹ thuật làm bằng vải mã hàng HG120/120NW kích thước 1.5m*9.5m. Hàng mới 100%.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "657/TB-TCHQ",
+    "issuedDate": "2022-02-28",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-657-2022"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "thuộc nhóm 59.11 “Các sản phẩm và mặt hàng dệt, phục vụ cho mục đích kỹ thuật, đã nêu tại Chú giải 7 của Chương này.”, phân nhóm 5911.90 “- Loại khác:”, mã số 5911.90.5911.90.90 “- - Loại khác”",
+   "evidence": {
+    "soHieu": "657/TB-TCHQ",
+    "ketLuan": "thuộc nhóm 59.11 “Các sản phẩm và mặt hàng dệt, phục vụ cho mục đích kỹ thuật, đã nêu tại Chú giải 7 của Chương này.”, phân nhóm 5911.90 “- Loại khác:”, mã số 5911.90.5911.90.90 “- - Loại khác”"
+   }
+  }
+ ]
 }

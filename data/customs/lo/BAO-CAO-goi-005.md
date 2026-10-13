@@ -1,12 +1,13 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-005.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-005.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-005.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 2415/TB-TCHQ (2022-06-21) → 17049020 — Hershey’s kisses - - Thành phần, cấu tạo, công thức hóa học: Sô cô la …
 - 1946/TB-TCHQ (2018-04-11) → 18069090 — THỰC PHẨM BẢO VỆ SỨC KHỎE : OCULAR DEFENSE (HỘP=30 VIÊN). HIỆU : HERBA…
+- 2090/TB-TCHQ (2020-03-31) → 18069090 — Sản phẩm hình cầu gồm 3 lớp: lớp kem ngoài cùng màu nâu, bề mặt có mản…
 - 2091/TB-TCHQ (2020-03-31) → 18069090 — Kẹo sô cô la có nhân Ferrero collection (269.4g x 4 gói / thùng) nhà s…
 - 2092/TB-TCHQ (2020-03-31) → 18069090 — Kẹo sô cô la có nhân Ferrero Rocher (375g x 12 gói/ thùng) nhà sản xuấ…
 - 2093/TB-TCHQ (2020-03-31) → 18069090 — Kẹo sô cô la có nhân Ferrero Rocher (37.5g x 96 gói/ thùng) nhà sản xu…
@@ -27,7 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 2090/TB-TCHQ/2020 → 18069090: description có tên doanh nghiệp — "Kẹo sô cô la có nhân hạnh nhân dạng viên, 1kg/túi, 6 túi/hộp. nhà sản xuất Jiang"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

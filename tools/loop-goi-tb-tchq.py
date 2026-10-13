@@ -14,8 +14,8 @@ import shutil
 import sys
 import time
 
-OZ = "/Users/ozvietnamdesktop/Projects/oz-wiki"
-HS = "/Users/ozvietnamdesktop/Documents/Claude/Projects/hs-code-api"
+OZ = os.environ.get("OZ_WIKI_ROOT", os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+HS = os.environ.get("HS_CODE_API_ROOT", os.path.abspath(os.path.join(OZ, "..", "hs-code-api")))
 
 
 def run(cmd, cwd=None, timeout=120):

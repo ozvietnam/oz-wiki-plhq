@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-021.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-021.json` — **17 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **3**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-021.json` — **18 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **2**
 
 ## Vào lô
 - 6410/TB-TCHQ (2018-11-01) → 25061000 — Đá florit thô, màu trắng, chưa qua gia công cắt gọt, do Trung quốc sản…
@@ -12,6 +12,7 @@
 - 6498/TB-TCHQ (2018-11-05) → 25199090 — mgMagenesium oxide (MgO) - Magie oxit, dạng bột…
 - 6024/TB-TCHQ (2018-10-15) → 25291010 — Tràng thạch Potash FKF 200 MESH, dạng bột, dùng cho sản xuất gạch, đón…
 - 448/TB-TCHQ (2019-01-21) → 26011190 — Quặng sắt chưa nung kết, loại tiêu chuẩn PBL của công ty Rio Tinto, th…
+- 617/TB-TCHQ (2018-01-31) → 26011100 — Xỉ thu được từ công nghiệp luyện sắt thép. - Tinh quặng sắt nâu, chưa …
 - 755/TB-TCHQ (2019-01-31) → 26011190 — Quặng sắt chưa nung kết, loại tiêu chuẩn HIY của công ty Rio Tinto, th…
 - 757/TB-TCHQ (2019-01-31) → 26011190 — Quặng sắt chưa nung kết, loại tiêu chuẩn PBF của công ty Rio Tinto, th…
 - 3104/TB-TCHQ (2018-06-04) → 26011190 — Quặng sắt, hàm lượng Fe ≥ 54%, Mn ≥ 9%, P ≥ 0,09%, cỡ hạt ≤ 15cm, quặn…
@@ -25,7 +26,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 617/TB-TCHQ/2018 → 5705: ma_hs không phải 8 số — "Mục 1: Xỉ thu được từ công nghiệp luyện sắt thép."
 - 3422/TB-TCHQ/2018 → 26060000: reasonVi mỏng/cụt, toàn văn cũng không rút được chuỗi kết luận — "Tinh quặng Bauxit hàm lượng Al2O3 ≥ 50% #&VN"
 - 522/TB-TCHQ/2018 → 26080000: reasonVi mỏng/cụt, toàn văn cũng không rút được chuỗi kết luận — "Mục 1: 01#&Quặng kẽm 28% (Hàm lượng kẽm chiếm 28% theo khối lượng)."
 

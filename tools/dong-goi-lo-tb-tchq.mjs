@@ -100,6 +100,7 @@ const ghiChú = (r, why) => xửTay.push({ so_hieu: r.so_hieu, ma_hs: r.ma_hs, w
 function dọnMôTả(thô, hsCode) {
   let s = String(thô || '').replace(/\s+/g, ' ').trim();
   s = s.replace(/^Mục\s+\d+\s*[:.]\s*/i, '');                     // "Mục 1:"
+  s = s.replace(/(^|[\s—–-])Mục\s+\d+\s*[:.]\s*/gi, ' ');         // "- Mục 1:" / giữa câu
   s = s.replace(/\bKý, mã hiệu[^;]*;\s*/gi, '');                  // nhãn mục
   s = s.replace(/\(?\s*mục\s+\d+[^)]{0,30}?(tờ khai|PLTK|TK\b|phụ lục)[^)]*\)?/gi, '');
   s = s.replace(/#&/g, '');
@@ -178,8 +179,9 @@ function mãBịBác(nd, hsCode, loaiTB) {
   }
   return [...out];
 }
-const CẤM_ĐIỂN_HÌNH = /kết quả phân loại|tên gọi theo cấu tạo|(^|[\s—–-])công thức hóa học(?![,:.\s])|nhà sản xuất\s*:|hàng hóa theo thông báo/i;
-const CÔNG_TY = /\b(Inc|Ltd|LLC|GmbH|B\.?V|S\.?A|AG|Co\.,?|Corp(oration)?|Group|JSC|Pte|Sdn\s+Bhd|Limited)\b\.?(?![-\d])/;
+const CẤM_ĐIỂN_HÌNH = /kết quả phân loại|tên gọi theo cấu tạo|(^|[\s—–-])công thức hóa học(?![,:.\s])|nhà sản xuất\s*:|hàng hóa theo thông báo|(^|[\s—–-])Mục\s*\d+\s*:/i;
+// English corp suffixes + Vietnamese pháp nhân (Công ty / TNHH / Cổ phần / …)
+const CÔNG_TY = /\b(Inc|Ltd|LLC|GmbH|B\.?V|S\.?A|AG|Co\.,?|Corp(oration)?|Group|JSC|Pte|Sdn\s+Bhd|Limited)\b\.?(?![-\d])|(?:Công\s*ty|Cty)\s+(?:TNHH|Cổ\s*phần|CP|MTV|cổ\s*phần)|\bTNHH\b|\bCổ\s*phần\b|Đơn\s*vị\s*(?:xuất|nhập)\s*khẩu|MST\b|Mã\s*số\s*thuế/i;
 
 // ----- xử từng bản ghi -----
 const đãThấy = new Set();
@@ -284,8 +286,18 @@ for (const r of records) {
     }
     return d;
   }).filter(Boolean);
-  const sạchCorp = (d) => d.replace(/\s*\((?:[A-Z]{2,}[\s-])+[A-Z0-9-]{3,}\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim();
-  let description = ứngViên.find((d) => d.length >= 40 && !nốiTênNhóm(d)) || '';
+  const sạchCorp = (d) => d
+    .replace(/\s*\((?:hãng\s*sx|NSX|nhà\s*sản\s*xuất)\s*:[^)]*\)/gi, ' ')
+    .replace(/(?:[,;]?\s*)(?:hãng\s*sx|NSX|nhà\s*sản\s*xuất)\s*:\s*[^.;]*/gi, '')
+    .replace(/(?:Đơn\s*vị\s*(?:xuất|nhập)\s*khẩu|Hàng\s*không\s*khai\s*báo)[^.;]*/gi, '')
+    .replace(/\s*\((?:[A-Z]{2,}[\s-])+[A-Z0-9-]{3,}\)\s*/g, ' ')
+    .replace(/\s{2,}/g, ' ')
+    .replace(/^[\s,;.—–-]+|[\s,;.—–-]+$/g, '')
+    .trim();
+  let description = ứngViên.find((d) => d.length >= 40 && !nốiTênNhóm(d) && !CẤM_ĐIỂN_HÌNH.test(d) && !CÔNG_TY.test(d))
+    || ứngViên.find((d) => d.length >= 40 && !nốiTênNhóm(d) && !CẤM_ĐIỂN_HÌNH.test(d))
+    || ứngViên.find((d) => d.length >= 40 && !nốiTênNhóm(d))
+    || '';
   if (description && CÔNG_TY.test(description)) {
     const thử = sạchCorp(description);
     if (!CÔNG_TY.test(thử) && thử.length >= 40) description = thử;
