@@ -1,12 +1,12 @@
 # Báo cáo điểm mù — 2026-10-13
 
-Tổng 4627 điểm: **10 cao**, 320 vừa, 4297 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 4627 điểm: **12 cao**, 320 vừa, 4295 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
 | Nhóm | Mức | Số điểm | Luồng việc |
 |---|---|---|---|
-| Được nhắc nhưng chưa có trong sổ | Cao | 2 | `he-thong-hoa` |
+| Được nhắc nhưng chưa có trong sổ | Cao | 4 | `he-thong-hoa` |
 | Cảnh báo nguồn | Cao | 1 | `truy-vet-nguon` |
 | Chưa có nguồn chính thống | Vừa | 2032 | `truy-vet-nguon` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 128 | `danh-muc-hs` |
@@ -17,16 +17,18 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Văn bản khung thiếu thông tin | Vừa | 10 | `he-thong-hoa` |
 | Bảng dẫn chiếu mã HS sang văn bản chưa có bảng | Vừa | 7 | `danh-muc-hs` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
-| Hiệu lực chưa đối chiếu nguồn A | Thấp | 2170 | `hieu-luc` |
-| Chưa có toàn văn | Thấp | 76 | `nap-lam-sach` |
+| Hiệu lực chưa đối chiếu nguồn A | Thấp | 2169 | `hieu-luc` |
+| Chưa có toàn văn | Thấp | 75 | `nap-lam-sach` |
 | Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay | Thấp | 13 | `hieu-luc` |
 | Văn bản của cơ quan đã sáp nhập | Thấp | 11 | `do-tham` |
 | HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp) | Thấp | 8 | `hieu-luc` |
 | Chưa xếp vào cây | Thấp | 7 | `cay-du-lieu` |
 
-## Được nhắc nhưng chưa có trong sổ (2)
+## Được nhắc nhưng chưa có trong sổ (4)
 
 - [ ] **Chưa có trong sổ: 09/2018/NĐ-CP** — Tạo registry/van-ban/ cho 09/2018/NĐ-CP (được nhắc bởi 187/2013/NĐ-CP (bai_bo)). Dùng: node tools/them-van-ban.mjs "09/2018/NĐ-CP"
+- [ ] **Chưa có trong sổ: 65/2017/TT-BTC** — Tạo registry/van-ban/ cho 65/2017/TT-BTC (được nhắc bởi 31/2022/TT-BTC (thay_the)). Dùng: node tools/them-van-ban.mjs "65/2017/TT-BTC"
+- [ ] **Chưa có trong sổ: 09/2019/TT-BTC** — Tạo registry/van-ban/ cho 09/2019/TT-BTC (được nhắc bởi 31/2022/TT-BTC (thay_the)). Dùng: node tools/them-van-ban.mjs "09/2019/TT-BTC"
 - [ ] **Chưa có trong sổ: 96/2023/NĐ-CP** — Tạo registry/van-ban/ cho 96/2023/NĐ-CP (được nhắc bởi 98/2021/NĐ-CP (sua_doi)). Dùng: node tools/them-van-ban.mjs "96/2023/NĐ-CP"
 
 ## Cảnh báo nguồn (1)
@@ -268,7 +270,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **142/2026/TT-BTC có hiệu lực ngày 2026-11-16** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 - [ ] **336/2026/NĐ-CP có hiệu lực ngày 2026-10-15** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 
-## Hiệu lực chưa đối chiếu nguồn A (2170)
+## Hiệu lực chưa đối chiếu nguồn A (2169)
 
 - [ ] **2711/QĐ-BKHCN: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **01/2018/TT-BCT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
@@ -310,9 +312,9 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **1018/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **1019/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **102/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- … và 2130 điểm khác (xem bao-cao/diem-mu.json)
+- … và 2129 điểm khác (xem bao-cao/diem-mu.json)
 
-## Chưa có toàn văn (76)
+## Chưa có toàn văn (75)
 
 - [ ] **114/2025/QH15: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "114/2025/QH15" --ghi
 - [ ] **15/2012/QH13: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "15/2012/QH13" --ghi
@@ -354,7 +356,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **2961/QĐ-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "2961/QĐ-BCT" --ghi
 - [ ] **30/2014/TT-BNNPTNT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "30/2014/TT-BNNPTNT" --ghi
 - [ ] **31/2015/TT-BTTTT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "31/2015/TT-BTTTT" --ghi
-- … và 36 điểm khác (xem bao-cao/diem-mu.json)
+- … và 35 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay (13)
 

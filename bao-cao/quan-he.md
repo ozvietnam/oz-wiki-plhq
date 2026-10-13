@@ -218,10 +218,15 @@ flowchart LR
   n_2169_Q__CHQ["2169/QĐ-CHQ<br/>còn hiệu lực"]
   n_2999_Q__TCHQ["2999/QĐ-TCHQ<br/>hết hiệu lực"]
   n_2166_Q__TCHQ["2166/QĐ-TCHQ<br/>hết hiệu lực"]
+  n_31_2022_TT_BTC["31/2022/TT-BTC<br/>còn hiệu lực"]
+  n_65_2017_TT_BTC["65/2017/TT-BTC<br/>chưa có trong sổ"]
+  n_09_2019_TT_BTC["09/2019/TT-BTC<br/>chưa có trong sổ"]
   n_85_2026_TT_BTC["85/2026/TT-BTC<br/>còn hiệu lực"]
   n_17_2021_TT_BTC -->|sửa đổi| n_14_2015_TT_BTC
   n_2169_Q__CHQ -->|thay thế từ 2026-02-01| n_2999_Q__TCHQ
   n_2169_Q__CHQ -->|thay thế từ 2026-02-01| n_2166_Q__TCHQ
+  n_31_2022_TT_BTC -->|thay thế toàn bộ Danh mục từ 2022-12-01| n_65_2017_TT_BTC
+  n_31_2022_TT_BTC -->|thay thế toàn bộ từ 2022-12-01| n_09_2019_TT_BTC
   n_85_2026_TT_BTC -->|thay thế từ 2026-09-15| n_14_2015_TT_BTC
   n_85_2026_TT_BTC -->|thay thế từ 2026-09-15| n_17_2021_TT_BTC
 ```
