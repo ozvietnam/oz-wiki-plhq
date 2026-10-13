@@ -53,14 +53,12 @@ xac_minh:
           6. Camera đo đếm lưu lượng phương tiện → QCVN 05:2024 + 11:2026.
           7. Camera giám sát dùng giao thức Internet → QCVN 11:2026.
     Tổng: 59 mã HS (A: 4 rủi ro CAO, B: 55 rủi ro TB). Quản lý chất lượng: rủi ro CAO phải chứng nhận hợp quy + kiểm tra NN chất lượng; rủi ro TB công bố phù hợp QCKT; PCCC-CNCH thử nghiệm tại VN tổ chức được chỉ định/công nhận; Điều 44 Luật 55/2024/QH15 áp dụng đồng thời.
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-  chan:
-    ma: CHO_CONG_BO_A
-    ngay: 2026-10-09
-    viec_tiep: "TT 125 không liệt kê bãi 8378/6266 - cần PDF A"
-ghi_chu: 'PCCC và cứu nạn cứu hộ (8 sản phẩm), thiết bị an toàn giao thông, giám sát an ninh công cộng. Nền: Luật 55/2024/QH15. Tem kiểm định cũ hết 30/6/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
+    (2) Tình trạng hiện tại: rà registry 13-10-2026 — không có văn bản nào sau ghi thay/bãi/tạm ngưng TT 125
+    (chỉ được nhắc trong ghi_chu nghiệp vụ của QĐ 9981/QĐ-BCA và QĐ 6266/QĐ-BCA về chuỗi danh mục cũ).
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-13'
+  boi: zcode-glm@ozvietnam
+ghi_chu: 'PCCC và cứu nạn cứu hộ (8 sản phẩm), thiết bị an toàn giao thông, giám sát an ninh công cộng. Nền: Luật 55/2024/QH15. Tem kiểm định cũ hết 30/6/2026. TT 125 KHÔNG bãi tường minh QĐ 8378/6266/9981/QĐ-BCA — Điều 5 khoản 2 chỉ quy định dẫn chiếu chuyển tiếp (VB/danh mục được dẫn bị thay thì áp dụng văn bản mới); việc săn PDF bậc A cho các QĐ đó theo chan trên tệp riêng của từng QĐ.'
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-125-2026-tt-bca-470259/67719.htm
     truy_cap: '2026-10-04'
