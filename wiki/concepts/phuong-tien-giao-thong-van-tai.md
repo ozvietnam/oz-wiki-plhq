@@ -56,3 +56,16 @@ Nhóm hàng hóa gồm phương tiện vận tải đường bộ (ô tô, mô t
 
 - Ch.87 là chương lớn nhất về số mã HS trong TT 49/2026 (>50%)
 - Phụ tùng (lốp 4011, kính 7007, ắc quy 8507) tách riêng theo chương vật liệu
+
+## Playbook nhập hàng phương tiện GTVT (chuẩn hoá 13/10/2026)
+
+| # | Mục | Chi tiết | Căn cứ |
+|---|---|---|---|
+| 1 | Tra diện kiểm tra | `danh-muc/49-2026-tt-bxd.csv` (64 dòng có mã HS): Phụ lục I rủi ro cao (ô tô, mô tô, xe gắn máy, xe bốn bánh có động cơ), Phụ lục II trung bình (phương tiện, phụ tùng, thiết bị GTVT, đường sắt) | Sổ `49/2026/TT-BXD` (hiệu lực 01/7/2026, đã đối chiếu nguồn A) |
+| 2 | Ví dụ tra cứu | Phụ tùng thân xe **8708** (870870 vành hợp kim, 870822 kính an toàn) → Phụ lục II, mức **TRUNG_BÌNH** → công bố hợp quy, không phải đăng ký kiểm tra | `danh-muc/49-2026-tt-bxd.csv` + Điều 82 khoản 1 NĐ 37/2026/NĐ-CP |
+| 3 | Rủi ro cao | **Đăng ký kiểm tra chất lượng** khi nhập | Điều 82 khoản 2; Điều 83 NĐ 37/2026/NĐ-CP |
+| 4 | Truy xuất nguồn gốc | Yêu cầu riêng với sản phẩm, hàng hoá thuộc danh mục | Điều 5 TT 49/2026/TT-BXD |
+| 5 | Bãi bỏ cũ | Toàn bộ TT 12/2022/TT-BGTVT (điểm a) và TT 62/2024/TT-BGTVT (điểm b) từ 01/7/2026 | Điều 6 khoản 3 TT 49/2026/TT-BXD |
+| 6 | Thời hạn (khung) | 01/07/05 ngày làm việc | Điều 83 khoản 1 điểm b NĐ 37/2026/NĐ-CP |
+
+Nghĩa vụ theo mức rủi ro (nguồn A): [[concepts/muc-do-rui-ro-hang-hoa]].

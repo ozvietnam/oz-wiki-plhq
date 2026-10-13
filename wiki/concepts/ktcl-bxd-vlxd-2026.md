@@ -83,3 +83,16 @@ Quy trình kiểm tra chất lượng (KTCL) **vật liệu xây dựng (VLXD)**
 - Gỗ: yêu cầu FSC, CITES (nếu là gỗ quý hiếm)
 - Sơn TQ: test VOC, chì, thủy ngân
 - Amiăng - theo Công ước Rotterdam, Basel - phải có giấy phép đặc biệt
+
+## Playbook nhập hàng (chuẩn hoá 13/10/2026)
+
+| # | Mục | Chi tiết | Căn cứ |
+|---|---|---|---|
+| 1 | Tra diện kiểm tra | `danh-muc/41-2026-tt-bxd.csv` (85 dòng, 79 mã unique): Phụ lục II rủi ro cao (17 mã), Phụ lục III trung bình (65 mã) | Sổ `41/2026/TT-BXD` (hiệu lực 01/7/2026, đã đối chiếu nguồn A 13/10/2026) |
+| 2 | Điều khoản riêng của TT | **Điều 8 — Quản lý chất lượng hàng hoá nhập khẩu** (khung 4 chương, 18 điều) | Điều 8 TT 41/2026/TT-BXD |
+| 3 | Rủi ro trung bình | Không kiểm tra khi nhập, phải **công bố hợp quy** | Điều 82 khoản 1 NĐ 37/2026/NĐ-CP (nguồn A) |
+| 4 | Rủi ro cao | **Đăng ký kiểm tra chất lượng** theo Điều 83 | Điều 82 khoản 2 NĐ 37/2026/NĐ-CP |
+| 5 | Bãi bỏ cũ | Toàn bộ TT 10/2024/TT-BXD từ 01/7/2026 | Điều 18 khoản 3 TT 41/2026/TT-BXD |
+| 6 | Thời hạn (khung) | 01/07/05 ngày làm việc | Điều 83 khoản 1 điểm b NĐ 37/2026/NĐ-CP |
+
+Nghĩa vụ theo mức rủi ro (nguồn A): [[concepts/muc-do-rui-ro-hang-hoa]].

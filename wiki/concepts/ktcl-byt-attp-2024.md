@@ -78,3 +78,15 @@ Quy trình kiểm tra nhà nước về **an toàn thực phẩm (ATTP)** nhập
 - Phụ gia INS - phải có MSDS tiếng Việt
 - Bao bì nhựa, kim loại tiếp xúc TP - phải test di cư (migration)
 - Thời gian kiểm tra: 7-15 ngày làm việc
+
+## Playbook nhập hàng BYT (chuẩn hoá 13/10/2026) — chồng 2026 lên khung 2024
+
+| # | Mục | Chi tiết | Căn cứ |
+|---|---|---|---|
+| 1 | Danh mục 2026 | **27/2026/TT-BYT** — thực phẩm, dụng cụ chứa đựng, vật liệu bao gói tiếp xúc ATTP (Cục An toàn thực phẩm; bảng CSV **chưa có mã HS** — tra theo tên nhóm + QCVN) · **24/2026/TT-BYT** — thiết bị y tế, xác định mức rủi ro + biện pháp quản lý (sửa 05/2022/TT-BYT, Điều 2) · **26/2026/TT-BYT** — dược liệu, thuốc cổ truyền (rủi ro trung bình) · **28/2026/TT-BYT** — thuốc hoá dược, dược liệu, vắc-xin, sinh phẩm (Cục Quản lý Dược) | Sổ 4 TT (đều CON_HIEU_LUC, đã đối chiếu nguồn A) |
+| 2 | Khung ATTP | Kiểm tra ATTP khi nhập vẫn theo **NĐ 15/2018/NĐ-CP** (nghị định thay thế đang bị tạm ngưng) | [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]] |
+| 3 | Chất lượng (phi ATTP) | Rủi ro trung bình → công bố hợp quy; cao → đăng ký kiểm tra | Điều 82 khoản 1, khoản 2 NĐ 37/2026/NĐ-CP (nguồn A) |
+| 4 | Thời hạn (khung) | 01/07/05 ngày làm việc | Điều 83 khoản 1 điểm b NĐ 37/2026/NĐ-CP |
+| 5 | Hạn chế dữ liệu | 3 bảng CSV BYT (24/26/27/28) chưa mang mã HS — tra cứu theo mã HS tạm thời **không** trả diện BYT; cần đối chiếu theo tên nhóm hàng | `danh-muc/*.csv` + điểm mù |
+
+Nghĩa vụ theo mức rủi ro (nguồn A): [[concepts/muc-do-rui-ro-hang-hoa]].

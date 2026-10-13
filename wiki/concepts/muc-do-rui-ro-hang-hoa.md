@@ -43,6 +43,7 @@ Lưu ý: Điều 86 Nghị định 37/2026/NĐ-CP nói về miễn, giảm kiể
 
 - [[summary/khung-kiem-tra-chuyen-nganh-2026]]
 - [[summary/khung-thu-tuc-hai-quan]]
+- [[concepts/ktcl-bct-2026]] · [[concepts/ktcl-bkhcn-2026]] · [[concepts/ktcl-bnnmt-2026]] · [[concepts/ktcl-bnv-2026]] · [[concepts/ktcl-bca-2026]] · [[concepts/ktcl-bxd-vlxd-2026]] · [[concepts/ktcl-byt-attp-2024]] · [[concepts/phuong-tien-giao-thong-van-tai]] — playbook nhập hàng theo bộ (chuẩn hoá 13/10/2026)
 
 ## Notes
 

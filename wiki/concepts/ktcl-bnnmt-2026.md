@@ -65,3 +65,16 @@ Khi NK sản phẩm nông nghiệp → tra cứu PL I/II TT 27/2026:
 - PL II thuốc BVTV cực kỳ quan trọng - ảnh hưởng an toàn thực phẩm
 - Phối hợp với kiểm dịch thực vật (Cục BVTV)
 - Khác: kiểm dịch động vật (Chăn nuôi) - áp dụng riêng
+
+## Playbook nhập hàng (chuẩn hoá 13/10/2026)
+
+| # | Mục | Chi tiết | Căn cứ |
+|---|---|---|---|
+| 1 | Tra diện kiểm tra | `danh-muc/27-2026-tt-bnnmt.csv` (487 dòng có mã HS); danh mục trung bình — Điều 3, cao — Điều 4 | Sổ `27/2026/TT-BNNMT` (hiệu lực 01/7/2026, đã đối chiếu nguồn A) |
+| 2 | Rủi ro trung bình | Không kiểm tra khi nhập, phải **công bố hợp quy** | Điều 82 khoản 1 NĐ 37/2026/NĐ-CP (nguồn A) |
+| 3 | Rủi ro cao | **Đăng ký kiểm tra chất lượng** theo Điều 83 | Điều 82 khoản 2 NĐ 37/2026/NĐ-CP |
+| 4 | Nguyên tắc riêng | Điều 5 TT 27/2026; chuyển tiếp — Điều 7 | Điều 5, Điều 7 TT 27/2026/TT-BNNMT |
+| 5 | Thời hạn (khung) | 01/07/05 ngày làm việc | Điều 83 khoản 1 điểm b NĐ 37/2026/NĐ-CP |
+| 6 | Kiểm dịch | Động/thực vật đi luồng kiểm dịch riêng, không thay bằng KTCL | [[concepts/kiem-dich-dong-thuc-vat]] |
+
+Nghĩa vụ theo mức rủi ro (nguồn A): [[concepts/muc-do-rui-ro-hang-hoa]].
