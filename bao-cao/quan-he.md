@@ -193,7 +193,7 @@ flowchart LR
   n_37_2026_N__CP -->|bãi bỏ từ 2026-07-01| n_13_2022_N__CP
   n_37_2026_N__CP -->|bãi bỏ từ 2026-01-23| n_43_2017_N__CP
   n_37_2026_N__CP -->|bãi bỏ từ 2026-01-23| n_111_2021_N__CP
-  n_41_2026_TT_BXD -->|thay thế| n_10_2024_TT_BXD
+  n_41_2026_TT_BXD -->|bãi bỏ toàn bộ từ 2026-07-01| n_10_2024_TT_BXD
   n_44_2024_QH15 -->|sửa đổi Điều 2 (giải thích từ ngữ), Điều 11 (chứng chỉ hành nghề), khoản 4, 5, 9, điểm a và c khoản 18, điểm d và đ khoản 32, khoản 33, 39, 43 Điều 1 từ 2025-07-01| n_105_2016_QH13
   n_46_2026_N__CP -->|thay thế| n_15_2018_N__CP
   n_4814_Q__BCA -->|bãi bỏ từ 2026-07-28| n_8378_Q__BCA

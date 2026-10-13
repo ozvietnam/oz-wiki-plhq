@@ -1642,21 +1642,23 @@
     {
       "so_hieu": "10/2024/TT-BXD",
       "loai": "THONG_TU",
-      "ten": "Quản lý chất lượng vật liệu xây dựng (cũ)",
+      "ten": "Quản lý chất lượng sản phẩm, hàng hóa vật liệu xây dựng",
       "co_quan": "BXD",
+      "ngay_ban_hanh": "2024-11-01",
       "het_hieu_luc_tu": "2026-07-01",
       "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bxd"
       ],
+      "quan_he": {},
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "(1) Điều 18 khoản 3 TT 41/2026/TT-BXD (PDF datafiles ký số, lớp chữ tại raw/download/datafiles.chinhphu.vn/41-2026-tt-bxd-body.txt): bãi bỏ toàn bộ từ 01-07-2026, đồng thời cho biết ngày ban hành 01-11-2024 và trích yếu tên. (2) Tình trạng hiện tại: registry không còn văn bản nào khác ghi thay/bãi 10/2024; bản thân TT 41/2026 đã đối chiếu nguồn A và đang CON_HIEU_LUC.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-13",
+        "boi": "zcode-glm@ozvietnam"
       },
-      "ghi_chu": "Tên đầy đủ chưa xác minh. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "ghi_chu": "Tên lấy theo trích yếu tại Điều 18 khoản 3 TT 41/2026/TT-BXD (nguồn A). Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?docid=211651&pageid=27160",
@@ -1666,11 +1668,14 @@
       "slug": "10-2024-tt-bxd",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
-        "bi_thay_the_boi": [
+        "bi_bai_bo_boi": [
           {
             "tu": "41/2026/TT-BXD",
-            "quan_he": "thay_the",
-            "so_hieu": "10/2024/TT-BXD"
+            "quan_he": "bai_bo",
+            "so_hieu": "10/2024/TT-BXD",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 18 khoản 3 TT 41/2026/TT-BXD — \"Bãi bỏ Thông tư số 10/2024/TT-BXD ngày 01 tháng 11 năm 2024 ... kể từ ngày Thông tư này có hiệu lực thi hành\""
           }
         ]
       }
@@ -47515,8 +47520,13 @@
         "huong_dan": [
           "37/2026/NĐ-CP"
         ],
-        "thay_the": [
-          "10/2024/TT-BXD"
+        "bai_bo": [
+          {
+            "so_hieu": "10/2024/TT-BXD",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 18 khoản 3 TT 41/2026/TT-BXD — \"Bãi bỏ Thông tư số 10/2024/TT-BXD ngày 01 tháng 11 năm 2024 ... kể từ ngày Thông tư này có hiệu lực thi hành\""
+          }
         ]
       },
       "danh_muc_hs": {

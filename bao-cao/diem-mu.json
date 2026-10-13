@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-13",
-  "tong": 4630,
+  "tong": 4629,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -331,15 +331,6 @@
       "muc": "Thấp",
       "tieuDe": "10/2024/TT-BKHCN: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "10/2024/TT-BKHCN",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "10/2024/TT-BXD: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "10/2024/TT-BXD",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
       "trongSo": 0
@@ -41548,91 +41539,91 @@
     },
     {
       "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
-      "muc": "Cao",
+      "muc": "Thấp",
       "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 12/2022/TT-BGTVT nhưng sổ ghi HET_HIEU_LUC",
       "muc_tieu": "12/2022/TT-BGTVT",
-      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (1315 mã HS) — HHNK phải chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường trước khi thông quan / Sản phẩm, hàng hóa phải chứng nhận công bố hợp quy. Sổ ghi HET_HIEU_LUC nhưng CHƯA ghi văn bản thay — ghi quan hệ thay_the ở văn bản mới (chiều đi) kèm điều khoản, để hs-code-api dẫn người khai sang văn bản đúng.",
+      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (1315 mã HS) — HHNK phải chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường trước khi thông quan / Sản phẩm, hàng hóa phải chứng nhận công bố hợp quy. Sổ ghi bị bãi bỏ bởi 49/2026/TT-BXD (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
       "luong": "hieu-luc",
       "trongSo": 1315
     },
     {
       "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
-      "muc": "Cao",
+      "muc": "Thấp",
       "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 62/2024/TT-BGTVT nhưng sổ ghi HET_HIEU_LUC",
       "muc_tieu": "62/2024/TT-BGTVT",
-      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (1315 mã HS) — HHNK phải chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường trước khi thông quan / Sản phẩm, hàng hóa phải chứng nhận công bố hợp quy. Sổ ghi HET_HIEU_LUC nhưng CHƯA ghi văn bản thay — ghi quan hệ thay_the ở văn bản mới (chiều đi) kèm điều khoản, để hs-code-api dẫn người khai sang văn bản đúng.",
+      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (1315 mã HS) — HHNK phải chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường trước khi thông quan / Sản phẩm, hàng hóa phải chứng nhận công bố hợp quy. Sổ ghi bị bãi bỏ bởi 49/2026/TT-BXD (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
       "luong": "hieu-luc",
       "trongSo": 1315
     },
     {
       "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
-      "muc": "Cao",
+      "muc": "Thấp",
       "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 23/2019/QĐ-TTg nhưng sổ ghi HET_HIEU_LUC",
       "muc_tieu": "23/2019/QĐ-TTg",
-      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (749 mã HS) — HH NK phải làm thủ tục hải quan tại cửa khẩu nhập. Sổ ghi bị thay bởi 31/2026/QĐ-TTg — hs-code-api sẽ báo người khai dùng văn bản thay; kiểm lại đối chiếu nguồn A.",
+      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (749 mã HS) — HH NK phải làm thủ tục hải quan tại cửa khẩu nhập. Sổ ghi bị thay bởi 31/2026/QĐ-TTg (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
       "luong": "hieu-luc",
       "trongSo": 749
     },
     {
       "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
-      "muc": "Cao",
+      "muc": "Thấp",
       "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 01/2021/TT-BLĐTBXH nhưng sổ ghi HET_HIEU_LUC",
       "muc_tieu": "01/2021/TT-BLĐTBXH",
-      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (123 mã HS) — DM sản phẩm, HH nhóm 2 thuộc trách nhiệm QLNN của Bộ LĐTBXH. Sổ ghi bị thay bởi 16/2026/TT-BNV — hs-code-api sẽ báo người khai dùng văn bản thay; kiểm lại đối chiếu nguồn A.",
+      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (123 mã HS) — DM sản phẩm, HH nhóm 2 thuộc trách nhiệm QLNN của Bộ LĐTBXH. Sổ ghi bị thay bởi 16/2026/TT-BNV (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
       "luong": "hieu-luc",
       "trongSo": 123
     },
     {
       "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
-      "muc": "Cao",
+      "muc": "Thấp",
       "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 10/2024/TT-BXD nhưng sổ ghi HET_HIEU_LUC",
       "muc_tieu": "10/2024/TT-BXD",
-      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (80 mã HS) — DM sản phẩm, hàng hóa vật liệu xây dựng có khả năng gây mất an toàn (nhóm 2). Sổ ghi bị thay bởi 41/2026/TT-BXD — hs-code-api sẽ báo người khai dùng văn bản thay; kiểm lại đối chiếu nguồn A.",
+      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (80 mã HS) — DM sản phẩm, hàng hóa vật liệu xây dựng có khả năng gây mất an toàn (nhóm 2). Sổ ghi bị bãi bỏ bởi 41/2026/TT-BXD (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
       "luong": "hieu-luc",
       "trongSo": 80
     },
     {
       "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
-      "muc": "Cao",
+      "muc": "Thấp",
       "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 29/2025/TT-BKHCN nhưng sổ ghi HET_HIEU_LUC",
       "muc_tieu": "29/2025/TT-BKHCN",
-      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (62 mã HS) — SPHH lĩnh vực CNTT và VT bắt buộc phải chứng nhận hợp quy và công bố hợp quy / SPHH lĩnh vực CNTT và VT bắt buộc phải công bố hợp quy. Sổ ghi bị thay bởi 36/2026/TT-BKHCN — hs-code-api sẽ báo người khai dùng văn bản thay; kiểm lại đối chiếu nguồn A.",
+      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (62 mã HS) — SPHH lĩnh vực CNTT và VT bắt buộc phải chứng nhận hợp quy và công bố hợp quy / SPHH lĩnh vực CNTT và VT bắt buộc phải công bố hợp quy. Sổ ghi bị thay bởi 36/2026/TT-BKHCN (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
       "luong": "hieu-luc",
       "trongSo": 62
     },
     {
       "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
-      "muc": "Vừa",
+      "muc": "Thấp",
       "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 04/2021/TT-BXD nhưng sổ ghi HET_HIEU_LUC",
       "muc_tieu": "04/2021/TT-BXD",
-      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (34 mã HS) — DM, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng XK. Sổ ghi bị thay bởi 11/2026/TT-BXD — hs-code-api sẽ báo người khai dùng văn bản thay; kiểm lại đối chiếu nguồn A.",
+      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (34 mã HS) — DM, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng XK. Sổ ghi bị thay bởi 11/2026/TT-BXD (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
       "luong": "hieu-luc",
       "trongSo": 34
     },
     {
       "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
-      "muc": "Vừa",
+      "muc": "Thấp",
       "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 69/2018/NĐ-CP nhưng sổ ghi HET_HIEU_LUC",
       "muc_tieu": "69/2018/NĐ-CP",
-      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (21 mã HS) — DM HH cấm kinh doanh TNTX, CK. Sổ ghi bị thay bởi 292/2026/NĐ-CP — hs-code-api sẽ báo người khai dùng văn bản thay; kiểm lại đối chiếu nguồn A.",
+      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (21 mã HS) — DM HH cấm kinh doanh TNTX, CK. Sổ ghi bị thay bởi 292/2026/NĐ-CP (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
       "luong": "hieu-luc",
       "trongSo": 21
     },
     {
       "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
-      "muc": "Vừa",
+      "muc": "Thấp",
       "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 691/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC",
       "muc_tieu": "691/QĐ-BCT",
-      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (14 mã HS) — Áp thuế tự vệ đối với Phôi thép và thép dài (Nhiều nước). Sổ ghi HET_HIEU_LUC nhưng CHƯA ghi văn bản thay — ghi quan hệ thay_the ở văn bản mới (chiều đi) kèm điều khoản, để hs-code-api dẫn người khai sang văn bản đúng.",
+      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (14 mã HS) — Áp thuế tự vệ đối với Phôi thép và thép dài (Nhiều nước). Sổ ghi HET_HIEU_LUC từ 2026-03-22 (đã đối chiếu nguồn A), không có văn bản thay/bãi trong sổ — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
       "luong": "hieu-luc",
       "trongSo": 14
     },
     {
       "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
-      "muc": "Vừa",
+      "muc": "Thấp",
       "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 715/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC",
       "muc_tieu": "715/QĐ-BCT",
-      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (8 mã HS) — Áp thuế tự vệ đối với Phân bón (Nhiều nước). Sổ ghi HET_HIEU_LUC nhưng CHƯA ghi văn bản thay — ghi quan hệ thay_the ở văn bản mới (chiều đi) kèm điều khoản, để hs-code-api dẫn người khai sang văn bản đúng.",
+      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (8 mã HS) — Áp thuế tự vệ đối với Phân bón (Nhiều nước). Sổ ghi HET_HIEU_LUC từ 2022-09-07 (đã đối chiếu nguồn A), không có văn bản thay/bãi trong sổ — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
       "luong": "hieu-luc",
       "trongSo": 8
     },
@@ -41641,16 +41632,16 @@
       "muc": "Vừa",
       "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 2105/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC",
       "muc_tieu": "2105/QĐ-BCT",
-      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (6 mã HS) — Áp thuế chống bán phá giá và chống trợ cấp đối với Đường (TH). Sổ ghi HET_HIEU_LUC nhưng CHƯA ghi văn bản thay — ghi quan hệ thay_the ở văn bản mới (chiều đi) kèm điều khoản, để hs-code-api dẫn người khai sang văn bản đúng.",
+      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (6 mã HS) — Áp thuế chống bán phá giá và chống trợ cấp đối với Đường (TH). Sổ ghi bị bãi bỏ bởi 1309/QĐ-BCT — hs-code-api sẽ báo người khai dùng văn bản mới; kiểm lại đối chiếu nguồn A.",
       "luong": "hieu-luc",
       "trongSo": 6
     },
     {
       "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
-      "muc": "Vừa",
+      "muc": "Thấp",
       "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 693/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC",
       "muc_tieu": "693/QĐ-BCT",
-      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (4 mã HS) — Áp dụng biện pháp chống lẩn tránh PVTM đối với Thép cuộn, thép dây (Nhiều nước). Sổ ghi HET_HIEU_LUC nhưng CHƯA ghi văn bản thay — ghi quan hệ thay_the ở văn bản mới (chiều đi) kèm điều khoản, để hs-code-api dẫn người khai sang văn bản đúng.",
+      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (4 mã HS) — Áp dụng biện pháp chống lẩn tránh PVTM đối với Thép cuộn, thép dây (Nhiều nước). Sổ ghi HET_HIEU_LUC từ 2026-03-22 (đã đối chiếu nguồn A), không có văn bản thay/bãi trong sổ — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
       "luong": "hieu-luc",
       "trongSo": 4
     },
@@ -41665,10 +41656,10 @@
     },
     {
       "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
-      "muc": "Vừa",
+      "muc": "Thấp",
       "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 2491/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC",
       "muc_tieu": "2491/QĐ-BCT",
-      "viec": "văn bản hiện hành của biểu/danh mục — Áp thuế chống bán phá giá đối với Một số sản phẩm ván sợi gỗ (TH, CN). Sổ ghi bị thay bởi 121/QĐ-BCT — hs-code-api sẽ báo người khai dùng văn bản thay; kiểm lại đối chiếu nguồn A.",
+      "viec": "văn bản hiện hành của biểu/danh mục — Áp thuế chống bán phá giá đối với Một số sản phẩm ván sợi gỗ (TH, CN). Sổ ghi bị thay bởi 121/QĐ-BCT (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
       "luong": "hieu-luc",
       "trongSo": 0
     }

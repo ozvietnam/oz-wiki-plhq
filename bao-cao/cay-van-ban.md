@@ -2452,8 +2452,8 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [41/2026/TT-BXD](../registry/van-ban/41-2026-tt-bxd.yaml) — Quản lý chất lượng sản phẩm, hàng hoá vật liệu xây dựng
 - ❔ [71/2025/TT-BXD](../registry/van-ban/71-2025-tt-bxd.yaml) — Sửa đổi, bổ sung một số điều của các Thông tư để cắt giảm, đơn giản hóa thủ tục hành chính trong lĩnh vực đăng kiểm, hàng không dân dụng và thanh tra thuộc phạm vi quản lý của Bộ Xây dựng
 - ⚫ [62/2024/TT-BGTVT](../registry/van-ban/62-2024-tt-bgtvt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 12/2022/TT-BGTVT ngày 30/6/2022 của Bộ trưởng Bộ Giao thông vận tải quy định danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Giao thông vận tải _(hết hiệu lực 2026-07-01)_
+- ⚫ [10/2024/TT-BXD](../registry/van-ban/10-2024-tt-bxd.yaml) — Quản lý chất lượng sản phẩm, hàng hóa vật liệu xây dựng _(hết hiệu lực 2026-07-01)_
 - ⚫ [12/2022/TT-BGTVT](../registry/van-ban/12-2022-tt-bgtvt.yaml) — Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Giao thông vận tải _(hết hiệu lực 2026-07-01)_
-- ⚫ [10/2024/TT-BXD](../registry/van-ban/10-2024-tt-bxd.yaml) — Quản lý chất lượng vật liệu xây dựng (cũ) _(hết hiệu lực 2026-07-01)_
 
 ### Danh mục thuộc Bộ Nội vụ (an toàn lao động) `kiem-tra-chuyen-nganh/bnv`
 
