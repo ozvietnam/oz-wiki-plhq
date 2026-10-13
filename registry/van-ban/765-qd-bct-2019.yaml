@@ -16,6 +16,13 @@ nguon:
   - url: https://moit.gov.vn/upload/2005517/20210623/_VB_1553855847482_VB_QD%20765%20BCT%202019.zip
     truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 1075
+danh_muc_hs:
+  tep: danh-muc/765-qd-bct-2019.csv
+  nguon: https://luatvietnam.vn/cong-nghiep/quyet-dinh-765-qd-bct-2019-danh-muc-mat-hang-duoc-cat-giam-kiem-tra-chuyen-nganh-171670-d1.html
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-12'
+  da_doi_chieu: false
+  ghi_chu: 'Bảng CSV sẵn có trên main (1407 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'ZIP moit.gov.vn (PDF trong gói, OCR): Điều 3 hiệu lực kể từ ngày ký ban hành (29-03-2019); trang moit.gov.vn trạng thái «Đã có hiệu lực», ngày hiệu lực 29/03/2019; sổ không có văn bản sau ghi thay/bãi 765/QĐ-BCT (TT 28/2026/TT-BCT và các TT KTCN 2026 đã đối chiếu không liệt kê); kiểm đến 04-10-2026'

@@ -25,6 +25,13 @@ quan_he:
       pham_vi: Điều 16
       tu_ngay: '2026-07-28'
       can_cu: Điều 7 khoản 2 điểm d TT 16/2026/TT-BNV
+danh_muc_hs:
+  tep: danh-muc/16-2026-tt-bnv.csv
+  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/16-bnv.signed.pdf
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-12'
+  da_doi_chieu: false
+  ghi_chu: 'Bảng CSV sẵn có trên main (56 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
 xac_minh:
   muc: NGUON_A
   pham_vi: |

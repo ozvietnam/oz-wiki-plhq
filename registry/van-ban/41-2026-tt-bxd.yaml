@@ -13,6 +13,13 @@ quan_he:
     - 37/2026/NĐ-CP
   thay_the:
     - 10/2024/TT-BXD
+danh_muc_hs:
+  tep: danh-muc/41-2026-tt-bxd.csv
+  nguon: https://vpubnd.daklak.gov.vn/CMS/Content/VanBan/2026/7.2026/41-2026-TT-BXD.pdf
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-12'
+  da_doi_chieu: false
+  ghi_chu: 'Bảng CSV sẵn có trên main (85 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
 xac_minh:
   muc: NGUON_A
   pham_vi: |

@@ -14,6 +14,13 @@ nguon:
     truy_cap: '2026-10-04'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/27-byt.signed.pdf
     truy_cap: '2026-10-04'
+danh_muc_hs:
+  tep: danh-muc/27-2026-tt-byt.csv
+  nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/27-byt.signed.pdf
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-12'
+  da_doi_chieu: false
+  ghi_chu: 'Bảng CSV sẵn có trên main (8 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
 xac_minh:
   muc: NGUON_A
   pham_vi: |

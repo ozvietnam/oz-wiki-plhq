@@ -19,6 +19,13 @@ nguon:
   - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/5/39342/44754-1-2023723-72413-2023-q-ttg.pdf
     truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 24
+danh_muc_hs:
+  tep: danh-muc/13-2023-qd-ttg.csv
+  nguon: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/5/39342/44754-1-2023723-72413-2023-q-ttg.pdf
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-12'
+  da_doi_chieu: false
+  ghi_chu: 'Bảng CSV sẵn có trên main (24 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF Công báo số 723+724 ngày 31-05-2023 (lớp chữ): Điều 4 khoản 1 hiệu lực 01-06-2023 và thay thế 28/2020/QĐ-TTg; tình trạng hiện tại: sổ không có văn bản sau ghi thay/bãi QĐ 13/2023'

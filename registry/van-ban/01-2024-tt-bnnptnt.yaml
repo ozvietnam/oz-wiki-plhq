@@ -28,6 +28,13 @@ nguon:
   - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/2/41292/48972-1-2024329-33001-2024-tt-bnnptnt.pdf
     truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 1468
+danh_muc_hs:
+  tep: danh-muc/01-2024-tt-bnnptnt.csv
+  nguon: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/2/41292/48972-1-2024329-33001-2024-tt-bnnptnt.pdf
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-12'
+  da_doi_chieu: false
+  ghi_chu: 'Bảng CSV sẵn có trên main (3692 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF Công báo số 329+330 ngày 21-02-2024 (lớp chữ): Điều 3 khoản 1 hiệu lực 20-03-2024; khoản 2 thay/bãi 11/2021, một phần 16/2021 và 01/2022 TT-BNNPTNT; tình trạng hiện tại: sổ không có văn bản sau ghi thay/bãi TT 01/2024'

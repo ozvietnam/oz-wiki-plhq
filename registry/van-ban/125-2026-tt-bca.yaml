@@ -11,6 +11,13 @@ nhanh:
 quan_he:
   huong_dan:
     - 37/2026/NĐ-CP
+danh_muc_hs:
+  tep: danh-muc/125-2026-tt-bca.csv
+  nguon: https://congbaocdn.chinhphu.vn/180507251028987904/2026/8/20/470259-1787037095_v1_1787187913_signed.pdf
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-12'
+  da_doi_chieu: false
+  ghi_chu: 'Bảng CSV sẵn có trên main (59 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
 xac_minh:
   muc: NGUON_A
   pham_vi: |
