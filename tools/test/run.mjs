@@ -319,6 +319,23 @@ const bcLoNd = readFileSync(bcLo, 'utf8');
 t('lô TB-TCHQ: thiếu ngày ký / lý do mỏng vào "cần xử tay", KHÔNG nhồi lô',
   lo.records.length === 2 && /8888\/TB-TCHQ/.test(bcLoNd) && /7777\/TB-TCHQ/.test(bcLoNd) && /ngày ký/.test(bcLoNd) && /mỏng/.test(bcLoNd));
 
+// 8d. Hàng đợi chia gói TB-TCHQ (tools/chia-goi-tb-tchq.mjs → data/customs/lo/hang-doi-tb-tchq.json)
+const hd = JSON.parse(readFileSync(join(ROOT, 'data/customs/lo/hang-doi-tb-tchq.json'), 'utf8'));
+const detDone = new Set(JSON.parse(readFileSync(join(ROOT, 'data/customs/processed/tracuuhs-detail-2026-10-10.json'), 'utf8')).records.map((r) => r.so_hieu));
+const tbGoi = hd.goi.flatMap((g) => g.tb.map((x) => x.so_hieu));
+t('hàng đợi TB-TCHQ: 2043 TB / 103 gói — không trùng đã-xong, không trùng lẫn nhau',
+  hd.thong_ke.con_lai === 2043 && hd.goi.length === 103 && tbGoi.length === 2043
+  && new Set(tbGoi).size === 2043 && !tbGoi.some((x) => detDone.has(x)),
+  JSON.stringify({ con_lai: hd.thong_ke.con_lai, so_goi: hd.goi.length, tb: tbGoi.length }));
+t('hàng đợi TB-TCHQ: mỗi gói 1..20 TB, id goi-NNN, url đúng theo số hiệu',
+  hd.goi.every((g) => g.so_luong === g.tb.length && g.tb.length >= 1 && g.tb.length <= 20 && /^goi-\d{3}$/.test(g.id))
+  && hd.goi.every((g) => g.tb.every((x) => {
+    const m = String(x.so_hieu).match(/^(\d+)\/TB-TCHQ\/(\d{4})$/);
+    return m && x.url === `https://www.tracuuhs.com/tin-tuc/tchq-${m[1]}-${m[2]}`;
+  })));
+t('hàng đợi TB-TCHQ: 15 mục xử lý tay kèm nguồn',
+  hd.xu_ly_tay.length === 15 && hd.xu_ly_tay.every((x) => x.nguon && x.muc), `n=${hd.xu_ly_tay.length}`);
+
 // 9. Phiên bản lược đồ (docs/yeu-cau/ozplugin.md W1): hai tệp dist đều có luoc_do_phien_ban, khớp semver, bằng nhau.
 const semverOk = (s) => /^\d+\.\d+\.\d+$/.test(s);
 t('lược đồ: dungJson + dungChiMuc gắn luoc_do_phien_ban từ một hằng số chung',
