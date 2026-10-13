@@ -234,6 +234,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/89-2018-nd-cp]]
 - [[sources/924-qd-bnn-tcln-2017]]
 - [[sources/9981-qd-bca]]
+- [[summary/dong-bo-quan-diem-phan-loai]]
 - [[summary/khung-kiem-tra-chuyen-nganh-2026]]
 - [[summary/khung-thu-tuc-hai-quan]]
 - [[summary/luat-duoc-va-phan-loai-hs]]
