@@ -15,6 +15,13 @@ nguon:
   - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/12/40996/48199-1-2024101-10217-2023-tt-bnnptnt.pdf
     truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 340
+danh_muc_hs:
+  tep: danh-muc/17-2023-tt-bnnptnt.csv
+  nguon: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/12/40996/48199-1-2024101-10217-2023-tt-bnnptnt.pdf
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-12'
+  da_doi_chieu: false
+  ghi_chu: 'Bảng CSV sẵn có trên main (763 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
 xac_minh:
   muc: NGUON_A
   pham_vi: |

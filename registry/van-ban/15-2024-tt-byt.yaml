@@ -24,6 +24,13 @@ nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-15-2024-tt-byt-44656/55863.htm
     truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 186
+danh_muc_hs:
+  tep: danh-muc/15-2024-tt-byt.csv
+  nguon: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/44656/55863-1-2025629-63015-2024-tt-byt.pdf
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-12'
+  da_doi_chieu: false
+  ghi_chu: 'Bảng CSV sẵn có trên main (447 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'Toàn văn 6 Điều + 1 Phụ lục (PDF Công báo số 629+630 ngày 12-04-2025, tr.34-89; file body.txt 6159 dòng). Điều 1 Phạm vi điều chỉnh: ban hành DM + nguyên tắc áp dụng. Điều 2 Ban hành Danh mục. Điều 3 Nguyên tắc áp dụng Danh mục: (1) trường hợp khác biệt phân loại HS → theo pháp luật hải quan; (2) hàng chưa liệt kê → tra HS theo luật hải quan, sau thông quan gửi Cục ATTP để cập nhật; (3) kiểm tra ATTP nhập khẩu theo Điều 37 NĐ 15/2018/NĐ-CP — hàng có tên trong DM thực hiện Điều 40 Luật ATTP + Điều 16 NĐ 15/2018; (4) miễn/không thuộc đối tượng KTCL — Điều 13 NĐ 15/2018 (trừ cảnh báo), hàng không nhằm mục đích làm thực phẩm, dụng cụ/bao gói không chứa đựng và không tiếp xúc trực tiếp; (5) phụ gia hỗn hợp ≥2 chất có tên trong DM → mã HS theo 6 GIR kèm TT 31/2022/TT-BTC. Điều 4 Điều khoản tham chiếu. Điều 5 Hiệu lực: (1) 02-11-2024; (2) thay TT 28/2021/TT-BYT. Điều 6 Trách nhiệm thi hành — Cục trưởng Cục ATTP, các đơn vị BYT, Sở Y tế/Sở ATTP địa phương. Phụ lục DM 3 nhóm: I. Thực phẩm bổ sung (mã HS theo 6 GIR TT 31/2022/TT-BTC); II. Phụ gia thực phẩm đơn chất (~391 dòng, mã INS 100–957); III. Dụng cụ chứa đựng/vật liệu bao gói tiếp xúc trực tiếp (6 dòng, nhựa + cao su). Phạm vi KTCL: nhập khẩu thuộc quản lý BYT; căn cứ NĐ 15/2018/NĐ-CP; nguyên tắc phân loại HS theo TT 31/2022/TT-BTC. Tình trạng: TT 27/2026/TT-BYT dẫn TT 15/2024 làm căn cứ mã HS (không thay); sổ không có văn bản sau ghi thay/bãi TT 15/2024 (kiểm đến 04-10-2026).'

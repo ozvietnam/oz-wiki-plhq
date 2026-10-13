@@ -17,6 +17,13 @@ nguon:
   - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/7/37592/41355-1-2022637-63810-2022-tt-btttt.pdf
     truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 5
+danh_muc_hs:
+  tep: danh-muc/10-2022-tt-btttt.csv
+  nguon: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/7/37592/41355-1-2022637-63810-2022-tt-btttt.pdf
+  trich_boi: cursor-agent@ozvietnam
+  ngay: '2026-10-12'
+  da_doi_chieu: false
+  ghi_chu: 'Bảng CSV sẵn có trên main (102 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF Công báo số 637+638 ngày 31-07-2022 (lớp chữ): Điều 3 khoản 1 hiệu lực 15-09-2022; thẻ Công báo «Hiệu lực: 15/09/2022»; tình trạng hiện tại: sổ không có văn bản sau ghi thay/bãi TT 10/2022; TT 36/2026/TT-BKHCN không nêu 10/2022 (kiểm đến 04-10-2026)'
