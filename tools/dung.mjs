@@ -4,10 +4,10 @@
 //   bao-cao/cay-van-ban.md  — cây dữ liệu XNK kèm văn bản và tình trạng
 //   bao-cao/quan-he.md      — đồ thị cũ–mới (thay thế, sửa đổi, bãi bỏ, tạm ngưng) theo nhánh, dạng Mermaid
 //   dist/hs-index.json      — bảng mã HS ↔ văn bản từ danh-muc/*.csv (docs/luoc-do-danh-muc-hs.md)
-import { writeFileSync, mkdirSync } from 'node:fs';
+import { writeFileSync, mkdirSync, readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { napSo, khoa, chuanCanh, dungDoThi, homNay, bacNguon, ROOT, QUAN_HE, LUOC_DO_PHIEN_BAN } from './lib/registry.mjs';
-import { dungChiMuc, dungChiMucTheoMa } from './lib/danh-muc.mjs';
+import { dungChiMuc, dungChiMucTheoMa, docBieuThue } from './lib/danh-muc.mjs';
 
 const BIEU_TUONG = {
   CON_HIEU_LUC: '🟢', HET_HIEU_LUC: '⚫', HET_HIEU_LUC_MOT_PHAN: '🟡', TAM_NGUNG_HIEU_LUC: '⏸️',
@@ -119,8 +119,30 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const cm = dungChiMuc(so, ROOT, today);
   writeFileSync(join(ROOT, 'dist', 'hs-index.json'), JSON.stringify(cm, null, 1) + '\n');
   console.log(`dist/hs-index.json (${cm.van_ban.length} bảng, ${cm.van_ban.reduce((n, v) => n + v.dong.length, 0)} dòng)`);
-  const cmMa = dungChiMucTheoMa(cm);
+  // v2: đối chiếu nhóm mã với biểu thuế + mật độ tiền lệ TB-TCHQ (hai nguồn tiền lệ vắng thì bỏ qua phần đó).
+  const tienLe8 = (() => {
+    try {
+      const dong = readFileSync(join(ROOT, 'danh-muc', 'tb-tchq-hs-lookup.csv'), 'utf8').trim().split('\n');
+      const m = {};
+      for (let i = 1; i < dong.length; i++) {
+        const [hs, dem, mau, ngay] = dong[i].split(',');
+        if (!hs) continue;
+        m[hs.replace(/\./g, '')] = { so_luong: Number(dem) || 0, mau: mau || null, ngay: ngay || null };
+      }
+      return Object.keys(m).length ? m : null;
+    } catch { return null; }
+  })();
+  const tienLe4 = (() => {
+    try {
+      const f = readdirSync(join(ROOT, 'data', 'customs', 'processed')).filter((x) => /^tracuuhs-ket-qua-phan-loai-.*\.json$/.test(x)).sort().pop();
+      const ds = JSON.parse(readFileSync(join(ROOT, 'data', 'customs', 'processed', f), 'utf8'));
+      const m = {};
+      for (const x of ds) { const k = String(x.nhom_hs || '').replace(/\./g, ''); if (k.length === 4) m[k] = (m[k] || 0) + 1; }
+      return Object.keys(m).length ? m : null;
+    } catch { return null; }
+  })();
+  const cmMa = dungChiMucTheoMa(cm, { bt: docBieuThue(ROOT), tienLe8, tienLe4 });
   writeFileSync(join(ROOT, 'dist', 'hs-index-theo-ma.json'), JSON.stringify(cmMa, null, 1) + '\n');
-  console.log(`dist/hs-index-theo-ma.json (${cmMa.tong_nhom_ma} nhóm mã, ${Object.values(cmMa.ma).reduce((n, v) => n + v.length, 0)} cạnh mã↔văn bản)`);
+  console.log(`dist/hs-index-theo-ma.json (${cmMa.tong_nhom_ma} nhóm mã, ${cmMa.tong_canh} cạnh mã↔văn bản${cmMa.bieu_thue_doi_chieu ? `, ${cmMa.bieu_thue_doi_chieu.nhom_ngoai_bieu_thue} nhóm ngoài biểu thuế` : ''})`);
   console.log(`dist/registry.json · bao-cao/cay-van-ban.md · bao-cao/quan-he.md (${so.vanBan.length} văn bản)`);
 }
