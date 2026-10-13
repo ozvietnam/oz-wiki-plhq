@@ -138,19 +138,39 @@ function môTảTừCôngDụng(nd) {
   return m ? m[1].replace(/\s+/g, ' ').trim() : null;
 }
 // Rút chuỗi kết luận từ toàn văn quanh vị trí mã kết luận: "thuộc nhóm … mã số X “…”."
+// Case-insensitive; ưu tiên mốc "thuộc Nhóm/mã số" NGOÀI cùng (tránh nhánh ngoặc "trừ … thuộc nhóm 30.02…").
 function kếtLuậnTừToànVăn(nd, hsCode) {
   const re = new RegExp(`${hsCode.slice(0, 4)}[.\\s]?${hsCode.slice(4, 6)}[.\\s]?${hsCode.slice(6)}`);
   const i = nd.search(re);
   if (i < 0) return null;
   const trước = nd.slice(0, i);
-  const start = Math.max(trước.lastIndexOf('thuộc nhóm'), trước.lastIndexOf('thuộc phân nhóm'));
-  if (start < 0) return null;
-  let tail = nd.slice(i, i + hsCode.length + 240);
-  const đóng = tail.indexOf('”');
-  if (đóng >= 0 && đóng < 200) tail = tail.slice(0, đóng + 1);
-  let gọn = (nd.slice(start, i + hsCode.length) + tail).replace(/\s+/g, ' ').trim();
+  const mốc = [...trước.matchAll(/thuộc\s+(?:nhóm|phân\s*nhóm|mã\s*số)/gi)];
+  if (!mốc.length) return null;
+  // Chọn mốc cuối cùng mà không nằm trong cụm "trừ các mặt hàng thuộc nhóm" (nhánh loại trừ).
+  let start = mốc[mốc.length - 1].index;
+  for (let k = mốc.length - 1; k >= 0; k--) {
+    const idx = mốc[k].index;
+    const cửaSổ = trước.slice(Math.max(0, idx - 40), idx).toLowerCase();
+    if (/trừ[^.]{0,40}$/.test(cửaSổ) || /mặt hàng\s*$/.test(cửaSổ)) continue;
+    start = idx;
+    break;
+  }
+  // Kéo tới hết "… tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
+  const sau = nd.slice(i);
+  const hết = sau.search(/Việt Nam\s*\.?\/?\.?/);
+  let end = i + (hết >= 0 ? hết + 'Việt Nam'.length : Math.min(sau.length, 280));
+  // nếu không thấy Việt Nam, cắt sau dấu ” của nhãn mã
+  if (hết < 0) {
+    const đóng = sau.indexOf('”');
+    if (đóng >= 0 && đóng < 200) end = i + đóng + 1;
+  }
+  let gọn = nd.slice(start, end).replace(/\s+/g, ' ').trim();
+  // Đừng để chuỗi kết thúc cụt ở "tại Danh mục"
+  if (/tại\s+Danh mục\s*$/i.test(gọn) && /Danh mục hàng hóa xuất khẩu,\s*nhập khẩu Việt Nam/i.test(nd)) {
+    gọn = gọn.replace(/tại\s+Danh mục\s*$/i, 'tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam');
+  }
   if (unbalanced(gọn)) gọn = cânBằng(gọn, hsCode);
-  return gọn;
+  return gọn && gọn.length >= 80 && hsInText(hsCode, gọn) ? gọn : (gọn && hsInText(hsCode, gọn) ? gọn : null);
 }
 // Hai loại TB (CEO 13/10/2026): xác định trước (hỏi trước khi hàng về) vs kết quả phân loại
 // (thường sau tranh chấp/phân tích mẫu); đính chính = cơ quan sửa chính mình — cặp mã cũ→mới là bài học lớn.
@@ -232,17 +252,30 @@ for (const r of records) {
     reasonVi = cânNháyCrawlLỗi(reasonVi);
     if (unbalanced(reasonVi)) reasonVi = cânBằng(reasonVi, hsCode);
   }
-  if (!reasonVi || reasonVi.length < 80) {
+  // Luôn thử rút lại từ toàn văn khi crawl mỏng, cụt giữa câu, hoặc lệch ngoặc / thiếu "mã số".
+  const reasonMỏng = !reasonVi || reasonVi.length < 80;
+  const reasonCụt = reasonVi && (
+    unbalanced(reasonVi)
+    || /^(thuộc nhóm\s*30\.0[245]|thuộc nhóm\s*\d+\.\d+,\s*\d+)/i.test(reasonVi)
+    || (!/^thuộc\s+(nhóm|phân\s*nhóm|mã\s*số)/i.test(reasonVi) && reasonVi.length < 200)
+    || !/mã số/i.test(reasonVi)
+  );
+  {
     let kl = kếtLuậnTừToànVăn(nd, hsCode);
     if (!kl) {
-      const m = nd.match(/(thuộc (?:nhóm|phân nhóm)[\s\S]{40,900}?Việt Nam\s*\.\/\.)/);
+      const m = nd.match(/(thuộc\s+(?:nhóm|phân\s*nhóm|mã\s*số)[\s\S]{40,900}?Việt Nam\s*\.\/?\.?)/i);
       kl = m ? m[1].replace(/\s+/g, ' ').trim() : null;
     }
     if (kl && unbalanced(kl)) kl = cânBằng(kl, hsCode);
-    if (kl && hsInText(hsCode, kl) && kl.length >= 80) reasonVi = kl;
+    if (kl && hsInText(hsCode, kl) && kl.length >= 80 && (reasonMỏng || reasonCụt || kl.length > (reasonVi || '').length + 20)) {
+      reasonVi = kl;
+    }
   }
   if (reasonVi && reasonVi.length > 1000) reasonVi = cânBằng(reasonVi.slice(0, 1000), hsCode);
-  if (!reasonVi || reasonVi.length < 80) { ghiChú(r, 'reasonVi mỏng/cụt, toàn văn cũng không rút được chuỗi kết luận'); continue; }
+  if (!reasonVi || reasonVi.length < 80 || !hsInText(hsCode, reasonVi)) {
+    ghiChú(r, 'reasonVi mỏng/cụt, toàn văn cũng không rút được chuỗi kết luận');
+    continue;
+  }
   ketLuan = reasonVi;
 
   // description — chỉ giữ đặc tính hàng, KHÔNG nối tên nhóm biểu thuế (luật bên nhận)

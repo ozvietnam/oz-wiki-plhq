@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-14-goi-076.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-14-goi-076.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-14-goi-076.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 332/TB-TCHQ (2018-01-18) → 58063190 — Vải dệt thoi khổ hẹp Cotton Tape CM019 (15MM x 100M/cuộn) định lượng 2…
@@ -24,10 +24,10 @@
 - 3696/TB-TCHQ (2019-06-05) → 59070060 — Vải dệt đã được phủ nhựa - INSULATION SILVER TOP CROSS FILM 1,060MM…
 - 6304/TB-TCHQ (2023-12-07) → 59070060 — Thông báo 6304/TB-TCHQ 2023 kết quả xác định trước mã số | HSTC…
 - 657/TB-TCHQ (2022-02-28) → 59119090 — Ống địa kỹ thuật làm bằng vải mã hàng HG120/120NW kích thước 1.5m*9.5m…
+- 658/TB-TCHQ (2022-02-28) → 59119090 — Ống địa kỹ thuật, dạng ống; được may bởi vải dệt thoi, dệt từ sợi dạng…
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 658/TB-TCHQ/2022 → 59119090: description có tên doanh nghiệp — "Ống địa kỹ thuật loại dệt Geotube GT750M - kt: chiều dài 25M, chu vi 12.6M (đầu "
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

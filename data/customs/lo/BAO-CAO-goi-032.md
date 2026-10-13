@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-032.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-032.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-032.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 3130/TB-TCHQ (2019-05-21) → 29241990 — OM - Oleyl amide, CAS 301-02-0, dẫn xuất chứa carboxyamit mạch hở, dạn…
@@ -20,6 +20,7 @@
 - 527/TB-TCHQ (2018-01-26) → 29252900 — Nguyên liệu sản xuất thực phẩm chức năng: L-ARGININE HCL. Số lô: 17061…
 - 1963/TB-TCHQ (2020-03-25) → 29252900 — Creamino-dẫn xuất của axit amin Glycine và Arginine cung cấp acid Guan…
 - 1022/TB-TCHQ (2020-02-21) → 29280090 — Hoá chất Diphenylcarbazide 85% (25G/chai) là chất chỉ thị dùng trong p…
+- 2321/TB-TCHQ (2018-05-02) → 29309090 — Hóa chất dùng trong ngành mạ điện kim loại Thiourea, 25kg/ thùng. Hàng…
 - 4162/TB-TCHQ (2019-06-26) → 29309090 — Chất phụ gia ADDICTIVE TI (Chlorobenzene: 0,1%) - p- Toluenesulfonyl i…
 - 1097/TB-TCHQ (2020-02-25) → 29313900 — Bột nhão nhôm dùng để tạo sự óng ánh cho sản phẩm sơn (ALUMINUM PASTE)…
 - 3162/TB-TCHQ (2019-05-21) → 29319090 — Hợp chất hữu cơ Cyclohexylmethyldimethoxysilane - Of-Catalyst (C-Donor…
@@ -27,7 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 2321/TB-TCHQ/2018 → 2930: ma_hs không phải 8 số — "Hóa chất dùng trong ngành mạ điện kim loại Thiourea, 25kg/ thùng. Hàng mới 100%"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

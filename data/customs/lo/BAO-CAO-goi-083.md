@@ -1,11 +1,12 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-14-goi-083.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-14-goi-083.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-14-goi-083.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 2870/TB-TCHQ (2018-05-23) → 72083990 — Thép không hợp kim cán phẳng cán nóng dạng cuộn, chưa tráng phủ mạ sơn…
+- 2871/TB-TCHQ (2018-05-23) → 72083990 — Thép không hợp kim cán phẳng, dạng cuộn, cán nóng, chiều dày 2,75mm, c…
 - 2872/TB-TCHQ (2018-05-23) → 72083990 — Thép không hợp kim cán nóng được cán phẳng, chưa tráng phủ mạ, chưa ng…
 - 3309/TB-TCHQ (2018-06-12) → 72085490 — 0026 Thép tấm hợp kim (được cán phẳng, có chiều rộng trên 600mm) (1.8 …
 - 3343/TB-TCHQ (2019-05-29) → 72082799 — Thép không hợp kim dạng cuộn, được cán nóng, đã ngâm tẩy gỉ, chưa phủ …
@@ -27,7 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 2871/TB-TCHQ/2018 → 72083990: description có tên doanh nghiệp — "Thép cuộn cán nóng, được cán phẳng, không tráng phủ mạ sơn, không hợp kim. Tiêu "
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

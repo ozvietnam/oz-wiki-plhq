@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-029.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-029.json` — **18 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **2**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-029.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **1**
 
 ## Vào lô
 - 2841/TB-TCHQ (2018-05-23) → 29161900 — MTL 9034 - Chất chống oxy hóa, dùng làm nguyên liệu để sản xuất dầu bô…
@@ -20,6 +20,7 @@
 - 718/TB-TCHQ (2018-02-06) → 29181900 — 1310100043/Ursodeoxycholic acid (nguyên liệu sx thuốc) - Mẫu yêu cầu p…
 - 753/TB-TCHQ (2019-01-31) → 29182990 — 20001047-Axit carboxylic có chức phenol nhưng không có chức oxy khác-l…
 - 1100/TB-TCHQ (2019-02-25) → 29181900 — Chất hoạt động bề mặt dạng anion, dạng lỏng (Emulsol GMR) - NPL làm mẫ…
+- 1111/TB-TCHQ (2018-03-01) → 29181900 — Nước dung môi (chất rửa khuôn) HB-028 - Hàng mới 100% - Metyl glycolat…
 - 1672/TB-TCHQ (2020-03-17) → 29181900 — Cosmol 222-Chế phẩm hóa học(10cartonx16kg)- Nguyên liệu cho sản xuất m…
 - 3243/TB-TCHQ (2019-05-24) → 29181900 — Axit butanoic, axit pentanoic, muối và este của nó - DMBA -CAS:10097-0…
 - 1168/TB-TCHQ (2019-02-28) → 29199000 — MTL 8201 - Phụ gia chịu cực áp để sản xuất dầu nhớt bôi trơn. 200lit/t…
@@ -27,7 +28,6 @@
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
 - 531/TB-TCHQ/2018 → 29171900: không chọn được description đạt (dài/có tên nhóm biểu thuế) — ứng viên đầu: Diethoxyethyl succinate. — "Tri-ethylhexyl Trimellitate, dạng lỏng (Crodamol DES-LQ(JP) - NPL SX mỹ phẩm"
-- 1111/TB-TCHQ/2018 → 2918: ma_hs không phải 8 số — "Nước dung môi (chất rửa khuôn) HB-028 - Hàng mới 100%"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

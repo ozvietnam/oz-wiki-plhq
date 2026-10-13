@@ -6,7 +6,7 @@
  },
  "license": "CC-BY-SA-4.0",
  "submittedAt": "2026-10-13T18:33:14Z",
- "note": "Lô tracuuhs.com — 15 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-14-goi-084.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 15/19 đạt luật validate-community của kể từ 06/10.",
+ "note": "Lô tracuuhs.com — 19 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-14-goi-084.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 19/19 đạt luật validate-community của kể từ 06/10.",
  "records": [
   {
    "hsCode": "72092710",
@@ -63,6 +63,25 @@
    "evidence": {
     "soHieu": "6787/TB-TCHQ",
     "ketLuan": "Thép không hợp kim được cán phẳng, dạng cuộn, cán nguội, chiều rộng trên 600mm, chiều dày dưới 0,58mm, chưa dát phủ mạ hoặc tráng thuộc nhóm 72.09 “Các sản phẩm sắt hoặc thép không hợp kim được cán phẳng, có chiều rộng từ 600mm trở lên, cán nguội (ép nguội), chưa dát phủ, mạ hoặc tráng”; phân nhóm - Ở dạng cuộn, chưa được gia công quá mức cán nguội (ép nguội); phân nhóm 7209.17 - - Có chiều dày từ 0,5mm đến 1mm; mã số 7209.17.10 - - - Chiều rộng không quá 1.250mm tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./."
+   }
+  },
+  {
+   "hsCode": "72107011",
+   "description": "Thép không hợp kim cán phẳng (hàm lượng C<0,6% tính theo trọng lượng), dạng cuộn, chiều dày <1,5mm, chiều rộng trên 600mm, một mặt phủ nhôm-kẽm, một mặt phủ sơn",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "451/TB-TCHQ",
+    "issuedDate": "2019-01-21",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-451-2019"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "thuộc nhóm 72.10 “Phế liệu và mảnh vụn sắt; thỏi đúc phế liệu nấu lại từ sắt hoặc thép. Các sản phẩm sắt hoặc thép không hợp kim được cán phẳng, có chiều rộng từ 600mm trở lên, đã phủ, mạ hoặc tráng”, phân nhóm 7210.70 “- Được sơn, quét vécni hoặc phủ plastic”, phân nhóm “- - Có hàm lượng carbon dưới 0,6% tính theo trọng lượng và chiều dày không quá 1,5 mm”, mã số 7210.70.11 “- Được sơn” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
+   "evidence": {
+    "soHieu": "451/TB-TCHQ",
+    "ketLuan": "thuộc nhóm 72.10 “Phế liệu và mảnh vụn sắt; thỏi đúc phế liệu nấu lại từ sắt hoặc thép. Các sản phẩm sắt hoặc thép không hợp kim được cán phẳng, có chiều rộng từ 600mm trở lên, đã phủ, mạ hoặc tráng”, phân nhóm 7210.70 “- Được sơn, quét vécni hoặc phủ plastic”, phân nhóm “- - Có hàm lượng carbon dưới 0,6% tính theo trọng lượng và chiều dày không quá 1,5 mm”, mã số 7210.70.11 “- Được sơn” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam."
    }
   },
   {
@@ -181,6 +200,25 @@
   },
   {
    "hsCode": "72107011",
+   "description": "Thép không hợp kim cán phẳng (hàm lượng C<0,6% tính theo trọng lượng), dạng cuộn, chiều dày < 1,5mm, chiều rộng trên 600mm, phủ sơn.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "3212/TB-TCHQ",
+    "issuedDate": "2018-06-08",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-3212-2018"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "thuộc Nhóm 72.10 “Các sản phẩm sắt hoặc thép không hợp kim được cán phẳng, có chiều rộng từ 600mm trở lên, đã phủ, mạ hoặc tráng”, phân nhóm 7210.70 “- Được sơn, quét vécni hoặc phủ plastic”, phân nhóm “- - Có hàm lượng carhon dưới 0,6% tính theo trọng tượng và chiều dày không quá 1,5 mm ”, mã số 7210.70.11 “- - - Được sơn” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./.",
+   "evidence": {
+    "soHieu": "3212/TB-TCHQ",
+    "ketLuan": "thuộc Nhóm 72.10 “Các sản phẩm sắt hoặc thép không hợp kim được cán phẳng, có chiều rộng từ 600mm trở lên, đã phủ, mạ hoặc tráng”, phân nhóm 7210.70 “- Được sơn, quét vécni hoặc phủ plastic”, phân nhóm “- - Có hàm lượng carhon dưới 0,6% tính theo trọng tượng và chiều dày không quá 1,5 mm ”, mã số 7210.70.11 “- - - Được sơn” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./."
+   }
+  },
+  {
+   "hsCode": "72107011",
    "description": "Thép lá dạng cuộn được sơn màu, cán phẳng (thép lá mạ màu, không hợp kim) 0.31x1200mm. Màu xanh dương/xám. Hàm lượng Carbon < 0.6%. Tiêu chuẩn JIS G3322, hàng mới 100%. - Thép không hợp kim cán phẳng (hàm lượng C <0,6% tính theo trọng lượng), dạng cuộn, chiều dày < 1,5mm, chiều rộng trên 600mm, phủ sơn.",
    "source": {
     "type": "TB-TCHQ",
@@ -291,6 +329,44 @@
    "evidence": {
     "soHieu": "3218/TB-TCHQ",
     "ketLuan": "Tên gọi theo cấu tạo, công dụng: Thép không hợp kim cán phẳng (hàm lượng C<0,6% tính theo trọng lượng), dạng cuộn , chiều dày nhỏ hơn 1,5mm, chiều rộng lớn hơn 600mm, phủ sơn thuộc Nhóm 72.10 “Các sản phẩm sắt hoặc thép không hợp kim được cán phẳng, có chiều rộng từ 600mm trở lên, đã phủ, mạ hoặc tráng”, phân nhóm 7210.70 “- Được sơn, quét vécni hoặc phủ plastic”, phân nhóm “- - Có hàm lượng carbon dưới 0,6% tính theo trọng lượng và chiều dày không quá 1,5 mm”, mã số 7210.70.11 “- - - Được sơn” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./."
+   }
+  },
+  {
+   "hsCode": "72107011",
+   "description": "Thép không hợp kim cán phẳng (hàm lượng C<0,6% tính theo trọng lượng), dạng cuộn, chiều dày < 1,5mm, chiều rộng trên 600mm, phủ sơn.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "3219/TB-TCHQ",
+    "issuedDate": "2018-06-08",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-3219-2018"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "thuộc Nhóm 72.10 “Các sản phẩm sắt hoặc thép không hợp kim được cán phẳng, có chiều rộng từ 600mm trở lên, đã phủ, mạ hoặc tráng”, phân nhóm 7210.70 “- Được sơn, quét vécni hoặc phủ plastic”, phân nhóm “- - Có hàm lượng carbon dưới 0,6% tỉnh theo trọng lượng và chiều dày không quá 1,5 mm”, mã số 7210.70.11 “- - - Được sơn” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./.",
+   "evidence": {
+    "soHieu": "3219/TB-TCHQ",
+    "ketLuan": "thuộc Nhóm 72.10 “Các sản phẩm sắt hoặc thép không hợp kim được cán phẳng, có chiều rộng từ 600mm trở lên, đã phủ, mạ hoặc tráng”, phân nhóm 7210.70 “- Được sơn, quét vécni hoặc phủ plastic”, phân nhóm “- - Có hàm lượng carbon dưới 0,6% tỉnh theo trọng lượng và chiều dày không quá 1,5 mm”, mã số 7210.70.11 “- - - Được sơn” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./."
+   }
+  },
+  {
+   "hsCode": "72107011",
+   "description": "Thép không hợp kim cán phẳng, dạng cuộn (hàm lượng C<0,6% tính theo trọng lượng), chiều dày < 1,5mm, chiều rộng trên 600mm, phủ sơn.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "3225/TB-TCHQ",
+    "issuedDate": "2018-06-08",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-3225-2018"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "thuộc Nhóm 72.10 “Các sản phẩm sắt hoặc thép không hợp kim được cán phẳng, có chiều rộng từ 600mm trở lên, đã phủ, mạ hoặc tráng”, phân nhóm 7210.70 “- Được sơn, quét vécni hoặc phủ plastic”, phân nhóm “- - Có hàm lượng carbon dưới 0,6% tính theo trọng lượng và chiều dày không quá 1,5mm”, mã số 7210.70.11 “- - - Được sơn” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./.",
+   "evidence": {
+    "soHieu": "3225/TB-TCHQ",
+    "ketLuan": "thuộc Nhóm 72.10 “Các sản phẩm sắt hoặc thép không hợp kim được cán phẳng, có chiều rộng từ 600mm trở lên, đã phủ, mạ hoặc tráng”, phân nhóm 7210.70 “- Được sơn, quét vécni hoặc phủ plastic”, phân nhóm “- - Có hàm lượng carbon dưới 0,6% tính theo trọng lượng và chiều dày không quá 1,5mm”, mã số 7210.70.11 “- - - Được sơn” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./."
    }
   }
  ]

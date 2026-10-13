@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-041.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-041.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-041.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 1261/TB-TCHQ (2022-04-12) → 32100010 — Chất phủ mạch - Theo hồ sơ xác định trước mã số, thông tin mặt hàng nh…
@@ -14,6 +14,7 @@
 - 3401/TB-TCHQ (2018-06-15) → 32149000 — Vật liệu phủ bề mặt không chịu nhiệt, dùng để phủ sàn, tường (Flowgrou…
 - 3402/TB-TCHQ (2018-06-15) → 32149000 — Vật liệu phủ bề mặt không chịu nhiệt, dùng để phủ sàn, tường (Flowgrou…
 - 5417/TB-TCHQ (2022-12-14) → 32151900 — S-200 WEF - Theo hồ sơ xác định trước mã số, thông tin mặt hàng như sa…
+- 5418/TB-TCHQ (2022-12-14) → 32151900 — S-200 WEF10 - Theo hồ sơ xác định trước mã số, thông tin mặt hàng như …
 - 804/TB-TCHQ (2018-02-08) → 33012900 — Nociceptol Gel 40ml (18 tuýt/ thùng) là loại Gel hỗ trợ giảm đau dùng …
 - 5139/TB-TCHQ (2022-11-30) → 33011900 — DAir Air Sanitizing & - - Thành phần, cấu tạo, công thức hóa học, hàm …
 - 33/TB-TCHQ (2018-01-03) → 33021090 — Hương dừa - Coconut Flavor A1781121/02 - - Thành phần, cấu tạo, công t…
@@ -27,7 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 5418/TB-TCHQ/2022 → 3215: ma_hs không phải 8 số — "S-200 WEF10"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-040.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-040.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-040.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 2714/TB-TCHQ (2022-07-05) → 32089090 — Chất xử lý LOCTITE BONDAGE P-6-2 15KG - Theo hồ sơ xác định trước mã s…
@@ -22,12 +22,12 @@
 - 5437/TB-TCHQ (2022-12-15) → 32089090 — Theo hồ sơ xác định trước mã số, thông tin mặt hàng như sau: - Thành p…
 - 5438/TB-TCHQ (2022-12-15) → 32089090 — SPI-606 MATT BLACK - Theo hồ sơ xác định trước mã số, thông tin mặt hà…
 - 6269/TB-TCHQ (2020-09-24) → 32089090 — SOLVENT BASE HI-810(Black)_ Chất tạo màu (0,94Kg/BOX), dùng trong ngàn…
+- 7281/TB-TCHQ (2018-12-11) → 32089090 — Chất nhuộm màu HPO RED (bán thành phẩm của sơn) (Nhập 135kg có chứa To…
 - 1923/TB-TCHQ (2018-04-10) → 32091010 — Keo Polyvinyl Acetate 328GT - Vecni đi từ polyvinyl acetate phân tán t…
 - 6268/TB-TCHQ (2020-09-24) → 32099000 — Waterpon#800 _ Chất hoàn tất, dùng trong ngành sản xuất sơn (1000 kg/D…
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 7281/TB-TCHQ/2018 → 3208: ma_hs không phải 8 số — "Chất nhuộm màu HPO RED (bán thành phẩm của sơn) (Nhập 135kg có chứa Toluene 60-7"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

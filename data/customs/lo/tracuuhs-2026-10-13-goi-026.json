@@ -6,8 +6,27 @@
  },
  "license": "CC-BY-SA-4.0",
  "submittedAt": "2026-10-13T00:00:00Z",
- "note": "Lô tracuuhs.com — 14 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-13-goi-026.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 14/20 đạt luật validate-community của kể từ 06/10.",
+ "note": "Lô tracuuhs.com — 18 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-13-goi-026.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 18/20 đạt luật validate-community của kể từ 06/10.",
  "records": [
+  {
+   "hsCode": "28332930",
+   "description": "Hóa chất dùng trong ngành mạ điện kim loại Chromium Sulfate, 30kg/ thùng. Hàng mới 100% - Dung dịch crom sunfat.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "2323/TB-TCHQ",
+    "issuedDate": "2018-05-02",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-2323-2018"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "thuộc Nhóm 28.33 “Sulphat; phèn (alums); peroxosulphat (persulphat) ”, phân nhóm “- Sulphat loại khác”, phân nhóm 2833.29 “- - Loại khác”, mã số 2833.29.30 “- - - Của crôm ” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./.",
+   "evidence": {
+    "soHieu": "2323/TB-TCHQ",
+    "ketLuan": "thuộc Nhóm 28.33 “Sulphat; phèn (alums); peroxosulphat (persulphat) ”, phân nhóm “- Sulphat loại khác”, phân nhóm 2833.29 “- - Loại khác”, mã số 2833.29.30 “- - - Của crôm ” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./."
+   }
+  },
   {
    "hsCode": "28332990",
    "description": "Hợp chất Sulphat của sắt Fe2(SO4)3 dùng xử lý nước thải công nghiệp trong nhà máy dệt nhuộm mã CAS 10028-22-5 - Sắt (III) sunphat đã hòa tan trong nước",
@@ -21,10 +40,10 @@
     "bieuThue": "2017",
     "loaiTB": "KET_QUA_PHAN_LOAI"
    },
-   "reasonVi": "thuộc nhóm 28.33 “Sulphat; phèn (alums); peroxosulphat (persulphat). ”, phân nhóm “- Sulphat loại khác: ”, phân nhóm 2833.29 “- - Loại khác:”, mã số 2833.29.90 “- - - Loại khác” tại Danh mục",
+   "reasonVi": "thuộc nhóm 28.33 “Sulphat; phèn (alums); peroxosulphat (persulphat). ”, phân nhóm “- Sulphat loại khác: ”, phân nhóm 2833.29 “- - Loại khác:”, mã số 2833.29.90 “- - - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
    "evidence": {
     "soHieu": "3117/TB-TCHQ",
-    "ketLuan": "thuộc nhóm 28.33 “Sulphat; phèn (alums); peroxosulphat (persulphat). ”, phân nhóm “- Sulphat loại khác: ”, phân nhóm 2833.29 “- - Loại khác:”, mã số 2833.29.90 “- - - Loại khác” tại Danh mục"
+    "ketLuan": "thuộc nhóm 28.33 “Sulphat; phèn (alums); peroxosulphat (persulphat). ”, phân nhóm “- Sulphat loại khác: ”, phân nhóm 2833.29 “- - Loại khác:”, mã số 2833.29.90 “- - - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
    }
   },
   {
@@ -59,10 +78,48 @@
     "bieuThue": "2017",
     "loaiTB": "XAC_DINH_TRUOC"
    },
-   "reasonVi": "thuộc nhóm 28.33 “Sulphat; phèn (alums); peroxosulphat (persulphat)”, mã số 2833.30.00 “- Phèn” tại Danh mục",
+   "reasonVi": "thuộc nhóm 28.33 “Sulphat; phèn (alums); peroxosulphat (persulphat)”, mã số 2833.30.00 “- Phèn” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
    "evidence": {
     "soHieu": "6432/TB-TCHQ",
-    "ketLuan": "thuộc nhóm 28.33 “Sulphat; phèn (alums); peroxosulphat (persulphat)”, mã số 2833.30.00 “- Phèn” tại Danh mục"
+    "ketLuan": "thuộc nhóm 28.33 “Sulphat; phèn (alums); peroxosulphat (persulphat)”, mã số 2833.30.00 “- Phèn” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
+   }
+  },
+  {
+   "hsCode": "28342990",
+   "description": "Hóa chất dùng trong ngành mạ điện kim loại Nitrate de cuivre trihydrate, 25kg/ thùng. Hàng mới 100% - Đồng nitrat, dạng tinh thể.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "2322/TB-TCHQ",
+    "issuedDate": "2018-05-02",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-2322-2018"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "thuộc Nhóm 28.34 “Nitrit; nitrat, phân nhóm “- Nitrat”, phân nhóm 2834.29 “- - Loại khác”, mã số 2834.29.90 - - - Loại khác ” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./.",
+   "evidence": {
+    "soHieu": "2322/TB-TCHQ",
+    "ketLuan": "thuộc Nhóm 28.34 “Nitrit; nitrat, phân nhóm “- Nitrat”, phân nhóm 2834.29 “- - Loại khác”, mã số 2834.29.90 - - - Loại khác ” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./."
+   }
+  },
+  {
+   "hsCode": "28341000",
+   "description": "Muối Natri Nitrit dùng để vệ sinh đầu thông sợi, trong công đoạn bắn sợi, mã CAS 7632-00-0 - SODIUM NITRITE - Hàng mới 100% - Natri nitrit, dạng bột",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "3541/TB-TCHQ",
+    "issuedDate": "2019-05-31",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-3541-2019"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "thuộc nhóm 28.34 “Nitrit; nitrat.”, mã số 2834.10.00 “- Nitrit” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./.",
+   "evidence": {
+    "soHieu": "3541/TB-TCHQ",
+    "ketLuan": "thuộc nhóm 28.34 “Nitrit; nitrat.”, mã số 2834.10.00 “- Nitrit” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./."
    }
   },
   {
@@ -78,10 +135,29 @@
     "bieuThue": "2017",
     "loaiTB": "KET_QUA_PHAN_LOAI"
    },
-   "reasonVi": "thuộc nhóm 28.34 “Nitrit; nitrat.”, phân nhóm “- Nitrat: ”, phân nhóm 2834.29 “- - Loại khác:”, mã số 2834.29.90 “- - - Loại khác” tại Danh mục",
+   "reasonVi": "thuộc nhóm 28.34 “Nitrit; nitrat.”, phân nhóm “- Nitrat: ”, phân nhóm 2834.29 “- - Loại khác:”, mã số 2834.29.90 “- - - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
    "evidence": {
     "soHieu": "4979/TB-TCHQ",
-    "ketLuan": "thuộc nhóm 28.34 “Nitrit; nitrat.”, phân nhóm “- Nitrat: ”, phân nhóm 2834.29 “- - Loại khác:”, mã số 2834.29.90 “- - - Loại khác” tại Danh mục"
+    "ketLuan": "thuộc nhóm 28.34 “Nitrit; nitrat.”, phân nhóm “- Nitrat: ”, phân nhóm 2834.29 “- - Loại khác:”, mã số 2834.29.90 “- - - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
+   }
+  },
+  {
+   "hsCode": "28352990",
+   "description": "Muối phốtphát của mănggan - PL - 55A_Mn3(PO4)2 (Manganese dihydrogen phosphate CAS 10124-54-6; 80~90%) - Mangan hydrogen phosphat, dạng bột.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "143/TB-TCHQ",
+    "issuedDate": "2020-01-07",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-143-2020"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "thuộc nhóm 28.35 “Phosphinat (hypophosphit), phosphonat (phosphit) và phosphat; polyphosphat, đã hoặc chưa xác định về mặt hoá học.”, phân nhóm “- Phosphat:”, phân nhóm 2835.29 “- - Loại khác:”, mã số 2835.29.90 “- - - Loại khác” Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./.",
+   "evidence": {
+    "soHieu": "143/TB-TCHQ",
+    "ketLuan": "thuộc nhóm 28.35 “Phosphinat (hypophosphit), phosphonat (phosphit) và phosphat; polyphosphat, đã hoặc chưa xác định về mặt hoá học.”, phân nhóm “- Phosphat:”, phân nhóm 2835.29 “- - Loại khác:”, mã số 2835.29.90 “- - - Loại khác” Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./."
    }
   },
   {
@@ -97,10 +173,10 @@
     "bieuThue": "2017",
     "loaiTB": "KET_QUA_PHAN_LOAI"
    },
-   "reasonVi": "thuộc nhóm 28.35 \"Phosphinat (hypophosphit), phosphonat (phosphit) và phosphat; polyphosphat, đã hoặc chưa xác định về mặt hoá học\", phân nhóm \"- - Phosphat\", phân nhóm 2835.29 \"- - Loại khác\", mã số 2835.29.90 \"- - - Loại khác\" tại Danh mục",
+   "reasonVi": "thuộc nhóm 28.35 \"Phosphinat (hypophosphit), phosphonat (phosphit) và phosphat; polyphosphat, đã hoặc chưa xác định về mặt hoá học\", phân nhóm \"- - Phosphat\", phân nhóm 2835.29 \"- - Loại khác\", mã số 2835.29.90 \"- - - Loại khác\" tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
    "evidence": {
     "soHieu": "1071/TB-TCHQ",
-    "ketLuan": "thuộc nhóm 28.35 \"Phosphinat (hypophosphit), phosphonat (phosphit) và phosphat; polyphosphat, đã hoặc chưa xác định về mặt hoá học\", phân nhóm \"- - Phosphat\", phân nhóm 2835.29 \"- - Loại khác\", mã số 2835.29.90 \"- - - Loại khác\" tại Danh mục"
+    "ketLuan": "thuộc nhóm 28.35 \"Phosphinat (hypophosphit), phosphonat (phosphit) và phosphat; polyphosphat, đã hoặc chưa xác định về mặt hoá học\", phân nhóm \"- - Phosphat\", phân nhóm 2835.29 \"- - Loại khác\", mã số 2835.29.90 \"- - - Loại khác\" tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
    }
   },
   {
@@ -116,10 +192,10 @@
     "bieuThue": "2017",
     "loaiTB": "KET_QUA_PHAN_LOAI"
    },
-   "reasonVi": "thuộc nhóm 28.35: “Phosphinat (hypophosphit), phosphonat (phosphit) và phosphat; polyphosphat, đã hoặc chưa xác định về mặt hóa học”, phân nhóm: “- Phosphat”, mã số 2835.26.00:“- - Các phosphate khác của canxi” tại Danh mục",
+   "reasonVi": "thuộc nhóm 28.35: “Phosphinat (hypophosphit), phosphonat (phosphit) và phosphat; polyphosphat, đã hoặc chưa xác định về mặt hóa học”, phân nhóm: “- Phosphat”, mã số 2835.26.00:“- - Các phosphate khác của canxi” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
    "evidence": {
     "soHieu": "3701/TB-TCHQ",
-    "ketLuan": "thuộc nhóm 28.35: “Phosphinat (hypophosphit), phosphonat (phosphit) và phosphat; polyphosphat, đã hoặc chưa xác định về mặt hóa học”, phân nhóm: “- Phosphat”, mã số 2835.26.00:“- - Các phosphate khác của canxi” tại Danh mục"
+    "ketLuan": "thuộc nhóm 28.35: “Phosphinat (hypophosphit), phosphonat (phosphit) và phosphat; polyphosphat, đã hoặc chưa xác định về mặt hóa học”, phân nhóm: “- Phosphat”, mã số 2835.26.00:“- - Các phosphate khác của canxi” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
    }
   },
   {
@@ -135,10 +211,10 @@
     "bieuThue": "2017",
     "loaiTB": "KET_QUA_PHAN_LOAI"
    },
-   "reasonVi": "thuộc nhóm 28.36 “Carbonat; peroxocarbonat (percarbonat); amoni carbonat thương phẩm có chứa amoni carbamat.”, phân nhóm 2836.50 “- Canxi carbonat:”, mã số 2836.50.90 “- - Loại khác” tại Danh mục",
+   "reasonVi": "thuộc nhóm 28.36 “Carbonat; peroxocarbonat (percarbonat); amoni carbonat thương phẩm có chứa amoni carbamat.”, phân nhóm 2836.50 “- Canxi carbonat:”, mã số 2836.50.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
    "evidence": {
     "soHieu": "3246/TB-TCHQ",
-    "ketLuan": "thuộc nhóm 28.36 “Carbonat; peroxocarbonat (percarbonat); amoni carbonat thương phẩm có chứa amoni carbamat.”, phân nhóm 2836.50 “- Canxi carbonat:”, mã số 2836.50.90 “- - Loại khác” tại Danh mục"
+    "ketLuan": "thuộc nhóm 28.36 “Carbonat; peroxocarbonat (percarbonat); amoni carbonat thương phẩm có chứa amoni carbamat.”, phân nhóm 2836.50 “- Canxi carbonat:”, mã số 2836.50.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
    }
   },
   {
@@ -154,10 +230,10 @@
     "bieuThue": "2017",
     "loaiTB": "KET_QUA_PHAN_LOAI"
    },
-   "reasonVi": "thuộc nhóm 28.40 “Borat; peroxoborat (perborat)”, mã số 2840.20.00 “- Borat khác”, tại Danh mục",
+   "reasonVi": "thuộc nhóm 28.40 “Borat; peroxoborat (perborat)”, mã số 2840.20.00 “- Borat khác”, tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
    "evidence": {
     "soHieu": "5606/TB-TCHQ",
-    "ketLuan": "thuộc nhóm 28.40 “Borat; peroxoborat (perborat)”, mã số 2840.20.00 “- Borat khác”, tại Danh mục"
+    "ketLuan": "thuộc nhóm 28.40 “Borat; peroxoborat (perborat)”, mã số 2840.20.00 “- Borat khác”, tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
    }
   },
   {
@@ -173,10 +249,10 @@
     "bieuThue": "2017",
     "loaiTB": "KET_QUA_PHAN_LOAI"
    },
-   "reasonVi": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hay peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit.”, phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục",
+   "reasonVi": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hay peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit.”, phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
    "evidence": {
     "soHieu": "240/TB-TCHQ",
-    "ketLuan": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hay peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit.”, phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục"
+    "ketLuan": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hay peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit.”, phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
    }
   },
   {
@@ -192,10 +268,10 @@
     "bieuThue": "2017",
     "loaiTB": "KET_QUA_PHAN_LOAI"
    },
-   "reasonVi": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hay peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit.”, phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục",
+   "reasonVi": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hay peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit.”, phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
    "evidence": {
     "soHieu": "1025/TB-TCHQ",
-    "ketLuan": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hay peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit.”, phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục"
+    "ketLuan": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hay peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit.”, phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
    }
   },
   {
@@ -211,10 +287,10 @@
     "bieuThue": "2022",
     "loaiTB": "KET_QUA_PHAN_LOAI"
    },
-   "reasonVi": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hoặc peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit”; mã số 2842.10.00 - Silicat kép hoặc phức, kể cả nhôm silicat đã hoặc chưa xác định về mặt hoá học tại Danh mục",
+   "reasonVi": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hoặc peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit”; mã số 2842.10.00 - Silicat kép hoặc phức, kể cả nhôm silicat đã hoặc chưa xác định về mặt hoá học tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
    "evidence": {
     "soHieu": "1311/TB-TCHQ",
-    "ketLuan": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hoặc peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit”; mã số 2842.10.00 - Silicat kép hoặc phức, kể cả nhôm silicat đã hoặc chưa xác định về mặt hoá học tại Danh mục"
+    "ketLuan": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hoặc peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit”; mã số 2842.10.00 - Silicat kép hoặc phức, kể cả nhôm silicat đã hoặc chưa xác định về mặt hoá học tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
    }
   },
   {
@@ -230,10 +306,10 @@
     "bieuThue": "2017",
     "loaiTB": "KET_QUA_PHAN_LOAI"
    },
-   "reasonVi": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hay peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit.”, phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục",
+   "reasonVi": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hay peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit.”, phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
    "evidence": {
     "soHieu": "3158/TB-TCHQ",
-    "ketLuan": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hay peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit.”, phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục"
+    "ketLuan": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hay peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit.”, phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
    }
   },
   {
@@ -249,10 +325,10 @@
     "bieuThue": "2022",
     "loaiTB": "KET_QUA_PHAN_LOAI"
    },
-   "reasonVi": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hoặc peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit.” phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục",
+   "reasonVi": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hoặc peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit.” phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
    "evidence": {
     "soHieu": "4612/TB-TCHQ",
-    "ketLuan": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hoặc peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit.” phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục"
+    "ketLuan": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hoặc peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hóa học), trừ các chất azit.” phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
    }
   },
   {
@@ -268,10 +344,10 @@
     "bieuThue": "2022",
     "loaiTB": "KET_QUA_PHAN_LOAI"
    },
-   "reasonVi": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hay peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hoá học), trừ các chất azit.”, phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục",
+   "reasonVi": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hay peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hoá học), trừ các chất azit.”, phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
    "evidence": {
     "soHieu": "5492/TB-TCHQ",
-    "ketLuan": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hay peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hoá học), trừ các chất azit.”, phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục"
+    "ketLuan": "thuộc nhóm 28.42 “Muối khác của axit vô cơ hay peroxoaxit (kể cả nhôm silicat đã hoặc chưa xác định về mặt hoá học), trừ các chất azit.”, phân nhóm 2842.90 “- Loại khác:”, mã số 2842.90.90 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
    }
   }
  ]

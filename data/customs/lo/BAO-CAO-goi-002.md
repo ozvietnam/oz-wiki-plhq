@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-002.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-002.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-002.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 6411/TB-TCHQ (2018-11-01) → 04041010 — Bột Whey ngọt - SWEET WHEY POWDER, nguyên liệu dùng trong sản xuất sữa…
@@ -13,6 +13,7 @@
 - 5235/TB-TCHQ (2024-10-28) → 09012120 — Cà phê phin giấy KOPIKO VOLCANIC - Theo hồ sơ xác định trước mã số, th…
 - 7392/TB-TCHQ (2018-12-17) → 09023090 — Trà Phổ Nhĩ (Di-et Pu-Erh tea) dạng túi lọc, hạn sử dụng: 07.06.2019, …
 - 6431/TB-TCHQ (2018-11-02) → 11041990 — Hạt lúa mạch đen (rye) đã vỡ mảnh (nghiền thô) (Tarwevlokken Afgez/Whe…
+- 3581/TB-TCHQ (2022-08-30) → 11082000 — Fuji FF Inulin. - Theo hồ sơ đề nghị xác định trước mã số, thông tin m…
 - 105/TB-TCHQ (2020-01-06) → 12081000 — Phụ gia thực phẩm - Bột đậu nành - SOJA AUSTRIA SAN đã qua chế biến, d…
 - 469/TB-TCHQ (2019-01-21) → 12119099 — Trà tuyết trắng mã hàng 3 (8kg/túi/thùng). Tên khoa học: Lethariella c…
 - 483/TB-TCHQ (2019-01-21) → 12119099 — Trà tuyết trắng mã hàng 1 (8kg/túi/thùng). Tên khoa học: Lethariella c…
@@ -27,7 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 3581/TB-TCHQ/2022 → 11082000: reasonVi mỏng/cụt, toàn văn cũng không rút được chuỗi kết luận — "Fuji FF Inulin."
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).
