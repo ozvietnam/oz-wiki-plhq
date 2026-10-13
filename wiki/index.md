@@ -66,6 +66,8 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[concepts/phuong-tien-giao-thong-van-tai]]
 - [[concepts/ppe-nhap-khau]]
 - [[concepts/quy-tac-xuat-xu]]
+- [[concepts/xuat-xu-fta]] — Xuất xứ hàng hoá + 13 FTA VN đang tham gia + 11 loại C/O (Form D, E, AK, VJ, VC, VK, CPTPP, EVFTA, RCEP, UKVFTA, AJ)
+- [[concepts/kiem-tra-chuyen-nganh]] — KTCL khung 3 mức rủi ro từ 01/7/2026 (NĐ 37/2026) + 8 bộ quản lý
 - [[concepts/rcep]]
 - [[concepts/rui-ro-cao-vs-trung-binh]]
 - [[concepts/thiet-bi-giam-sat-atgt]]
