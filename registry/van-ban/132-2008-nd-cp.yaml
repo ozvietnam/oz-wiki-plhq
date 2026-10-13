@@ -9,12 +9,14 @@ tinh_trang: HET_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/khung-chat-luong
 xac_minh:
-  muc: NGUON_A
+  muc: NGUON_B
   pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
+ghi_chu: 'PDF 5.4MB từ chicucttbvtvhcm.gov.vn (NGUON_B). Nguồn bậc A không có trên datafiles.chinhphu.vn'
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=82467&pageid=27160
     truy_cap: '2026-10-04'
+
+toan_van: raw/download/chicucttbvtvhcm.gov.vn/132-2008-nd-cp.pdf
