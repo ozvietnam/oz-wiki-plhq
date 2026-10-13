@@ -9,54 +9,58 @@ authors:
 year: 2015
 source_type: legal
 importance: 3
-provenance: missing
-confidence: low
-tags: [stub, kiem-tra-chuyen-nganh, can-tai-toan-van]
+provenance: replayable
+confidence: medium
+tags: [bkhcn, kiem-tra-chuyen-nganh, khai-bao-hai-quan]
 ---
 
 ## Summary
 
-**Stub page** — Quy định về quản lý chất lượng thép sản xuất trong nước và thép nhập khẩu (58/2015/TTLT-BCT-BKHCN) ban hành 2015-12-31, có hiệu lực từ 2016-03-21, **đang còn hiệu lực**.
+**Quy định về quản lý chất lượng thép sản xuất trong nước và thép nhập khẩu** (58/2015/TTLT-BCT-BKHCN) ban hành 2015-12-31, có hiệu lực 2016-03-21. 
 
-> **Lưu ý**: Wiki tạm thời — chưa có toàn văn PDF. Cần tải về để đọc kỹ. Có thể dùng:
-> - `node tools/nap.mjs "<url>" --so-hieu "58/2015/TTLT-BCT-BKHCN"`
-> - Tải từ datafiles.chinhphu.vn hoặc congbaocdn.chinhphu.vn
-
-**Cơ quan ban hành**: Bộ Khoa học và Công nghệ
+**Cơ quan ban hành**: Bộ KH&CN
 
 ## Tình trạng hiệu lực
 
 | Mốc | Sự kiện |
 |---|---|
-| 2015-12-31 | Bộ Khoa học và Công nghệ ban hành |
+| 2015-12-31 | Bộ KH&CN ban hành |
 | 2016-03-21 | Có hiệu lực |
 | Đang hiệu lực | |
 
-## Căn cứ pháp lý (theo registry)
-- Căn cứ vào các luật/nghị định chuyên ngành
+## Cấu trúc
 
-## Quy trình HQ (cần đọc toàn văn để xác nhận)
-1. Xác định hàng thuộc phạm vi KTCL
-2. Tra mã HS
-3. Nộp hồ sơ KTCL tại Bộ Khoa học và Công nghệ
-4. Cấp Giấy chứng nhận
+- **22 điều** (theo OCR)
+
+## Căn cứ pháp lý (theo OCR)
+
+: Căn cứ Luật Tiêu chuẩn và Quy chuẩn kỹ thuật ngày 29 tháng 6 năm 2006; | Căn cứ Luật Chất lượng sản phẩm, bàng hóa ngày 21 tháng 11 năm 2007; | Căn cứ Nghị định số 127/2007/NĐ-CP ngày 01 tháng 8 năm 2007 của
+
+## Nội dung chính
+
+- Điều 1: Phạm vi điều chỉnh và đối tượng áp đụng
+- Điều 2: Giải thích từ ngữ :
+- Điều 3: Công bố tiêu chuẩn áp dụng và áp dụng phương pháp thử
+- Điều 4: Quy định quần lý chất lượng thép sản xuất trong nước
+- Điều 5: Quy định quản lý chất lượng thép nhập khẩu
+
+## Quy trình khai báo HQ
+
+1. Xác định hàng theo phạm vi KTCL
+2. Tra mã HS theo Danh mục hàng hóa XK NK VN
+3. Nộp hồ sơ KTCL tại Bộ KH&CN
+4. Cấp Giấy chứng nhận / Phiếu công bố
 5. Khai báo HQ
 6. Thông quan
 
 ## Related concepts (chưa có wiki)
 - kiem-tra-chuyen-nganh
-- các concept liên quan
 
 ## Related sources
-- Cần xác minh với VB liên quan
-
-## Open questions
-- Cần tải toàn văn từ nguồn nào?
-- Phạm vi KTCL cụ thể?
-- Có mã HS cụ thể không?
+- (Các VB liên quan trong nhánh kiem-tra-chuyen-nganh)
 
 ## Notes
-- VB chưa được tải toàn văn — stub
-- Cần tải bằng `node tools/nap.mjs` hoặc script Python tương tự
-- Ưu tiên: tải từ Công báo (bậc A) hoặc datafiles.chinhphu.vn
-- 0 mã HS trích dẫn trong biểu thuế
+- Đã đọc toàn văn qua `datafiles.chinhphu.vn` (PDF 1480KB)
+- **22 điều** (theo OCR tesseract vie 200dpi)
+- **279 mã HS** trích trong văn bản
+- Cần đối chiếu thêm

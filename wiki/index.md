@@ -27,6 +27,7 @@ _This catalog is updated by /lumi-ingest and /lumi-init._
 Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 
 <!-- lumina:index -->
+- [[concepts/acfta]]
 - [[concepts/cat-giam-thu-tuc-hanh-chinh-bnnmt]]
 - [[concepts/cites-vn]]
 - [[concepts/co-quan-dau-moi-fta]]
@@ -47,9 +48,11 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[concepts/khai-bao-hoa-chat-nhap-khau]]
 - [[concepts/kiem-dich-dong-thuc-vat]]
 - [[concepts/kiem-tra-chat-luong-bxd]]
+- [[concepts/kiem-tra-chuyen-nganh]]
 - [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]]
 - [[concepts/kim-cuong-tho]]
 - [[concepts/ktcl-bca-2026]]
+- [[concepts/ktcl-bct-2026]]
 - [[concepts/ktcl-bkhcn-2026]]
 - [[concepts/ktcl-bnnmt-2026]]
 - [[concepts/ktcl-bnv-2026]]
@@ -77,7 +80,9 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[concepts/trang-thiet-bi-bao-ho-lao-dong]]
 - [[concepts/vat-lieu-bao-bi-tiep-xuc-thuc-pham]]
 - [[concepts/vat-lieu-xay-dung-nhap-khau]]
+- [[concepts/vcfeta]]
 - [[concepts/xi-ga]]
+- [[concepts/xuat-xu-fta]]
 - [[sources/01-2009-tt-bkhcn]]
 - [[sources/01-2021-tt-bldtbxh]]
 - [[sources/01-2022-tt-bnnptnt]]
