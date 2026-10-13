@@ -26,7 +26,7 @@ Kho mở, miễn phí, cho cộng đồng làm xuất nhập khẩu: **văn bả
 
 ## Đóng góp — người và agent
 
-Xem [CONTRIBUTING.md](CONTRIBUTING.md) và [9 luồng công việc](docs/luong-cong-viec.md): **Do thám** văn bản mới · **Hệ thống hoá** · **Hiệu lực cũ–mới, phủ định** · **Truy vết nguồn uy tín** · **Tải & làm sạch** · **Điểm mù** · **Liên kết chéo** · **Cây dữ liệu XNK** · **Đọc hiểu vào wiki**. Agent đọc thêm [docs/huong-dan-agent.md](docs/huong-dan-agent.md).
+Xem [CONTRIBUTING.md](CONTRIBUTING.md) và [11 luồng công việc](docs/luong-cong-viec.md): **Do thám** văn bản mới · **Hệ thống hoá** · **Hiệu lực cũ–mới, phủ định** · **Truy vết nguồn uy tín** · **Tải & làm sạch** · **Điểm mù** · **Liên kết chéo** · **Cây dữ liệu XNK** · **Đọc hiểu vào wiki** · **Danh mục mã HS** · **Tiền lệ TB-TCHQ**. Agent đọc thêm [docs/huong-dan-agent.md](docs/huong-dan-agent.md).
 
 ## Quy tắc riêng của thư viện (agent ĐỌC TRƯỚC phần schema bên dưới)
 

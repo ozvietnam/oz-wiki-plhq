@@ -1,4 +1,4 @@
-# 10 luồng công việc
+# 11 luồng công việc
 
 Mỗi luồng có nhãn GitHub riêng (`luong:<id>`), đầu vào, đầu ra và tiêu chí xong rõ ràng. Người hay agent
 đều nhận việc theo cùng một cách: chọn issue có nhãn luồng → ghi "nhận" trong issue → làm → mở PR có
@@ -16,6 +16,7 @@ Mỗi luồng có nhãn GitHub riêng (`luong:<id>`), đầu vào, đầu ra và
 | 8 | Cây dữ liệu XNK | `luong:cay-du-lieu` | Giữ cây phân nhánh gọn, đủ, đúng thực tế nghiệp vụ |
 | 9 | Đọc hiểu vào wiki | `luong:doc-hieu` | Đọc toàn văn, viết trang wiki có trích điều khoản |
 | 10 | Danh mục mã HS | `luong:danh-muc-hs` | Trích bảng mã HS trong phụ lục văn bản → biết mã nào chịu văn bản nào |
+| 11 | Tiền lệ TB-TCHQ | `luong:tb-tchq` | Đóng gói TB-TCHQ đã crawl thành lô gửi kho tiền lệ hs-code-api |
 
 ---
 
@@ -94,3 +95,15 @@ Mỗi luồng có nhãn GitHub riêng (`luong:<id>`), đầu vào, đầu ra và
   mẫu đặt cạnh nguyên văn.
 - **Xong khi:** bảng qua kiểm, `HS_KHONG_TON_TAI` của bảng = 0 hoặc từng mã đã giải thích, YAML có `danh_muc_hs`.
 
+## 11. Tiền lệ TB-TCHQ — `luong:tb-tchq`
+
+- **Mục tiêu:** tiền lệ phân loại đã crawl (tracuuhs.com, customs.gov.vn LV313…) đi **hết đường** sang kho
+  tiền lệ của hs-code-api — người khai tra được "mã này Tổng cục từng kết luận gì, vì sao".
+- **Đầu vào:** `data/customs/processed/*` (đã mở chi tiết), danh sách "cần xử tay" của lô trước, tồn đọng trong
+  [docs/luong-tb-tchq.md](luong-tb-tchq.md) (mục Nhịp & tồn đọng).
+- **Cách làm:** [docs/luong-tb-tchq.md](luong-tb-tchq.md) — đóng gói bằng `node tools/dong-goi-lo-tb-tchq.mjs`,
+  **kiểm bằng `validate-community.mjs` của hs-code-api (0 lỗi mới đi tiếp)**, gộp `merge-community.mjs`, PR sang
+  hs-code-api. Agent dùng skill `/tb-tchq-lo`.
+- **Xong khi:** PR bên hs-code-api xanh CI và được gộp (lô + `precedents.json` + số đếm tài liệu); báo cáo
+  "cần xử tay" cập nhật cho lô sau.
+- **Cho agent:** một lô ≤500 bản ghi, một PR; lỗi cùng loại nhiều bản ghi → sửa tool đóng gói, đừng sửa tay lô.
