@@ -3,14 +3,16 @@ so_hieu: 59/2025/TT-BYT
 loai: THONG_TU
 ten: TT 59/2025/TT-BYT (bị bãi bởi 24/2026)
 co_quan: BYT
-tinh_trang: CHUA_XAC_MINH
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
 nguon:
+  - url: https://cdn.thuvienphapluat.vn/uploads/Hoidapphapluat/2026/LNMK/THANG7/24-2026-TT-BYT.pdf
+    truy_cap: '2026-10-10'
   - url: https://vanban.chinhphu.vn/?docid=200125
     truy_cap: '2026-10-09'
 xac_minh:
   muc: CHUA_XAC_MINH
   hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-09'
+  ngay: '2026-07-01'
   boi: do-tham
