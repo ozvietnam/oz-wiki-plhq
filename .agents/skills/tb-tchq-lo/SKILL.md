@@ -170,3 +170,62 @@ Kết quả gộp:
   - Script \`/tmp/10-goi-moi.py\` có sẵn trong /tmp/10-goi-moi.json
 - **Refresh tự động**: cùng \`source.reference\` → tool so sánh và thay bản giàu hơn (đã có sẵn ở PR #268)
 - **Bài học mới**: contributor PHẢI là object \`{name, github}\`, tool \`dong-goi-lo\` ghi string → fix tự động trong \`process_goi.sh\`
+
+### Cập nhật 2026-10-14 đợt 2: bài học từ skill doi-chieu-tb-tchq-2-repo
+
+- **Bug match \`source.reference\`**:
+  - \`source.reference\` trong kho: \`503/TB-TCHQ\` (KHÔNG có năm)
+  - \`so_hieu\` trong manifest: \`503/TB-TCHQ/2018\` (CÓ năm)
+  - **BẮT BUỘC strip năm** trước khi match: \`re.sub(r'/\\d{4}$', '', so_hieu)\`
+- **79% TB đã có sẵn trong kho** (sau khi strip năm):
+  - 1.634/2.043 TB (79%) từ luatvietnam.vn (lvn-cu-1/2/3 = 1.111 bản)
+  - → Crawl từ tracuuhs.com chỉ thực sự bổ sung ~21% TB
+- **Tiêu chí chọn gói tốt hơn**:
+  - CŨ: chọn theo chapter mỏng (số bản trong kho) → tỉ lệ mới 8%
+  - MỚI: chọn theo **TB chưa có trong kho** (count source.reference) → tỉ lệ mới 16%
+  - Script: \`/tmp/10-goi-moi-v2.json\`
+
+### Tổng kết 2 đợt
+| Đợt | Gói | Crawl | Mới | Tỉ lệ |
+|---|---|---|---|---|
+| Đợt 1 | 10 (chapter mỏng) | 220 | 17 | 8% |
+| Đợt 2 | 10 (TB chưa có) | 200 | 32 | 16% |
+| **Tổng** | **20** | **420** | **49** | **12%** |
+
+### 🐛 BUG NGHIÊM TRỌNG phát hiện 2026-10-14 (sau khi rà 21 gói đã làm)
+
+**1. hsCode từ tracuuhs.com KHÔNG khớp tax.json VN hiện tại**
+- 31/54 hsCode (57%) KHÔNG CÓ trong `hs-code-api/data/tax.json` (biểu thuế EN2022)
+- Lý do: tracuuhs.com crawl từ biểu thuế 2017. Nhiều mã đã được remap:
+  - `7210.70.11` (2017) → `7210.70.12` (2022)
+  - `3402.20.15` (2017) → không còn (đã chuyển sang 3402.90.xx)
+- **Hệ quả**: Merge mã HS cũ vào kho dùng biểu thuế mới → nhiễu dữ liệu
+- **Cách phát hiện**: Check `hs in tax.json` cho TỪNG bản
+- **Cách xử lý**:
+  - Option A: Bỏ các bản có hsCode không có trong tax.json
+  - Option B: Remap sang mã 2022 tương đương (cần manual)
+  - Option C: Lưu thêm `attributes.bieuThue: 2017` để phân biệt
+
+**2. bieuThue 2017 trộn với 2022**
+- 61/71 bản có `bieuThue: 2017`, 10/71 bản có `bieuThue: 2022`
+- Script `process_goi.sh` tự động gán bieuThue dựa vào `issuedDate`
+- TB 2018-2020 thường dùng biểu thuế 2017; TB 2022+ dùng 2022
+- Nhưng mã HS có thể đã được remap giữa 2 biểu thuế → cần check cả 2 phiên bản
+
+**3. Số liệu báo cáo sai**
+- Em báo "49 mới" và "66 mới" trong các comment
+- Thực tế:
+  - File lô: 54 bản (gồm 14 bản đã có source.reference trùng → bị loại khi merge)
+  - Bản merge thật vào precedents.json: 40 bản (32 đợt 2 + 17 đợt 1 - 9 bị skip do conflict)
+  - Lệch: 14 bản (chênh giữa file lô và precedents)
+- **Bài học**: Số liệu báo cáo phải khớp với:
+  - Số records trong file lô (output tool)
+  - Số records trong precedents.json (sau merge-community.mjs)
+  - KHÔNG bịa số từ script
+
+### Checklist trước khi báo cáo "xong gói"
+- [ ] `len(file_lo.records)` = ?
+- [ ] `git diff --cached data/precedents.json | grep -c '^+.*tracuuhs-...'` = ?
+- [ ] Tất cả hsCode có trong tax.json?
+- [ ] Validate: 0 lỗi?
+- [ ] Test-merge: 25/25?
