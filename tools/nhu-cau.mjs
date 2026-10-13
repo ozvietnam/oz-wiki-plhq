@@ -6,7 +6,7 @@
 // Kèm bản chụp gọn biểu thuế (mã 8 số → mô tả) vào nhu-cau/bieu-thue.json để tools/danh-muc kiểm mã HS
 // trong bảng danh mục có tồn tại không (docs/luoc-do-danh-muc-hs.md).
 //   node tools/nhu-cau.mjs                                  → tải bản đo + biểu thuế mới nhất (nhánh main của hs-code-api)
-//   node tools/nhu-cau.mjs --from <tệp> [--bieu-thue <tệp>]  → đọc tệp cục bộ (tax.json của hs-code-api)
+//   node tools/nhu-cau.mjs --from <tệp> [--bieu-thue <tệp>] [--van-ban <tệp>]  → đọc tệp cục bộ (tax.json, van-ban-bieu-thue.json của hs-code-api)
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { ROOT } from './lib/registry.mjs';
@@ -20,6 +20,26 @@ export const TEP_BIEU_THUE = join('nhu-cau', 'bieu-thue.json');
 // Cao/Vừa/Thấp, không số lượng / tên hàng / khách.
 export const URL_HANG_THAT = 'https://hs-kb.uythacnhapkhau.com/api/demand';
 export const TEP_HANG_THAT = join('nhu-cau', 'hang-that.json');
+// Văn bản mà BIỂU THUẾ XNK Tổng cục nêu (sheet "Hệ thống văn bản" + cột chính sách mặt hàng), hs-code-api trích bằng
+// skill bieu-thue-xnk và công bố data/bieu-thue/van-ban-bieu-thue.json. Chỉ số hiệu, vai trò, tên biểu/danh mục, số mã HS —
+// nội dung và hiệu lực văn bản là việc của kho này (CEO OZ 12/10/2026). tools/diem-mu.mjs sinh việc BIEU_THUE_*.
+export const URL_VAN_BAN_BIEU_THUE = 'https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/bieu-thue/van-ban-bieu-thue.json';
+export const TEP_VAN_BAN_BIEU_THUE = join('nhu-cau', 'bieu-thue-van-ban.json');
+
+/** Giữ phần kho cần từ danh sách văn bản biểu thuế: không chép tình trạng do hs-code-api đối chiếu (sổ tự đối chiếu lại). */
+export function rutGonVanBanBieuThue(d, nguon = URL_VAN_BAN_BIEU_THUE) {
+  if (!d || !Array.isArray(d.vanBan)) throw new Error('danh sách văn bản biểu thuế không có vanBan[]');
+  const VAI = new Set(['HIEN_HANH', 'BI_THAY_THE', 'CHINH_SACH_MA_HS']);
+  return {
+    _comment: 'Chụp từ hs-code-api data/bieu-thue/van-ban-bieu-thue.json bằng node tools/nhu-cau.mjs — KHÔNG sửa tay. tools/diem-mu.mjs đọc tệp này.',
+    nguon,
+    bieuThue: d.nguon || null,
+    ngay: d.ngay || null,
+    vanBan: d.vanBan
+      .filter((v) => v && v.soHieu)
+      .map((v) => ({ soHieu: String(v.soHieu), vaiTro: (v.vaiTro || []).filter((x) => VAI.has(x)), noiDung: (v.noiDung || []).map((x) => String(x).slice(0, 90)).slice(0, 3), soMaHs: Number(v.soMaHs) || 0 })),
+  };
+}
 
 /** Giữ phần kho cần từ /api/demand: mã HS hàng thật chờ đối chiếu KTCN 2026. */
 export function rutGonHangThat(d, nguon = URL_HANG_THAT) {
@@ -90,6 +110,20 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     console.log(`${out.vanBanDuocDan.length} văn bản biểu thuế dẫn · ${out.thuVienLech.length} lệch thư viện → ${TEP_NHU_CAU}`);
   } catch (e) {
     console.warn(`::warning::Không cập nhật được bản đo (${e.message}) — giữ ${TEP_NHU_CAU} cũ`);
+  }
+
+  // Văn bản biểu thuế nêu (hs-code-api): độc lập với bản đo; --van-ban <tệp> để đọc tệp cục bộ.
+  const k = process.argv.indexOf('--van-ban');
+  const fromVb = k >= 0 ? process.argv[k + 1] : null;
+  try {
+    const vb = fromVb ? JSON.parse(readFileSync(fromVb, 'utf8')) : (!from ? await layJson(URL_VAN_BAN_BIEU_THUE) : null);
+    if (vb) {
+      const out = rutGonVanBanBieuThue(vb, fromVb || URL_VAN_BAN_BIEU_THUE);
+      writeFileSync(join(ROOT, TEP_VAN_BAN_BIEU_THUE), JSON.stringify(out, null, 1) + '\n');
+      console.log(`${out.vanBan.length} văn bản biểu thuế Tổng cục nêu (${out.bieuThue}) → ${TEP_VAN_BAN_BIEU_THUE}`);
+    }
+  } catch (e) {
+    console.warn(`::warning::Không cập nhật được văn bản biểu thuế (${e.message}) — giữ ${TEP_VAN_BAN_BIEU_THUE} cũ`);
   }
 
   const j = process.argv.indexOf('--bieu-thue');

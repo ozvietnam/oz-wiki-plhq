@@ -1,0 +1,1597 @@
+{
+ "_comment": "Chụp từ hs-code-api data/bieu-thue/van-ban-bieu-thue.json bằng node tools/nhu-cau.mjs — KHÔNG sửa tay. tools/diem-mu.mjs đọc tệp này.",
+ "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/bieu-thue/van-ban-bieu-thue.json",
+ "bieuThue": "bieu-thue@2026.04.05",
+ "ngay": "2026-10-12",
+ "vanBan": [
+  {
+   "soHieu": "33/2024/NĐ-CP",
+   "vaiTro": [
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [],
+   "soMaHs": 60
+  },
+  {
+   "soHieu": "03/2022/QH15",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Thuế tiêu thụ đặc biệt"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "05/2018/TT-BYT",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "DM thực phẩm, phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm và dụng cụ, vật liệu bao g"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "05/2019/TT-BXD",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "DM, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng XK"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "07/2020/NĐ-CP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Hồng Kông, Trung Quốc giai đoạn 2022 - 2027"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "08/2019/TT-BCA",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "SPHH có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Công An"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "111/2020/NĐ-CP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam -Liên minh Châu Âu",
+    "Biểu thuế xuất khẩu ưu đãi EVFTA"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "127/2022/NĐ-CP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Lào"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "149/2017/NĐ-CP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Hàn Quốc giai đoạn 2022 - 2027"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "150/2017/NĐ-CP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Liên minh Kinh tế Á-Âu và các quốc gia thàn"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "153/2017/NĐ-CP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Trung Quốc giai đoạn 2022 - 2027"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "154/2017/NĐ-CP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam và Chi Lê giai đoạn 2022 - 2027"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "155/2017/NĐ-CP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Nhật Bản giai đoạn 2022 – 2028"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "156/2017/NĐ-CP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN giai đoạn 2022 – 2027"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "157/2017/NĐ-CP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Hàn Quốc giai đoạn 2022 - 2017"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "158/2017/NĐ-CP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Khu vực Thương mại tự do ASEAN – Ốt-xtrây-lin – Niu Di"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "159/2017/NĐ-CP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Ấn Độ giai đoạn 2022 - 2027"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "160/2017/NĐ-CP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Nhật Bản giai đoạn 2022 - 2023 - 2024 - 2025 -"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "23/2021/TT-BCT",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Chủng loại và tiêu chuẩn khoáng sản XK"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "32/2023/NĐ-CP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "DM sản phẩm mật mã dân sự XNK theo giấy phép"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "34/2024/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Danh mục hóa chất Bảng 1,2,3",
+    "Danh mục hóa chất nhập khẩu phải khai báo trước khi thông quan qua cổng thông tin một cửa ",
+    "Danh mục hóa chất Hóa chất cấm đầu tư kinh doanh theo quy định của Luật Đầu tư"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "39/2020/NĐ-CP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Cuba"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "41/2018/TT-BGTVT",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "HHNK phải chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường trước khi thông quan",
+    "Sản phẩm, hàng hóa phải chứng nhận công bố hợp quy"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "45/2017/QĐ-TTg",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu thông thường"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "53/2021/NĐ-CP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Liên hiệp Vương quốc Anh và Bắc Ai-len",
+    "Biểu thuế NK ưu đãi đặc biệt UKVFTA"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "57/2019/NĐ-CP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác Toàn diện ",
+    "Biểu thuế xuất khẩu ưu đãi để thực hiện hiệp định CPTPP"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "57/2020/NĐ-CP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi",
+    "Biểu thuế xuất khẩu"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "65/2017/TT-BTC",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Danh mục hàng hóa XNK"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "924/QĐ-BNN",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "HH là mẫu vật động vật rừng nguy cấp, quý, hiếm và động vật thuộc các phụ lục CITES",
+    "HH là mẫu vật thực vật rừng nguy cấp, quý hiếm; thực vật thuộc các phụ lục CITES",
+    "Đồ trang sức làm bằng chất liệu thực vật rừng, động vật rừng nguy cấp, quý, hiếm và động v"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "42/2019/TT-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM Hàng hóa được nhập khẩu dưới hình thức mua bán, trao đổi của cư dân biên giới",
+    "DM HH mua bán, trao đổi qua cửa khẩu phụ, lối mở biên giới của thương nhân"
+   ],
+   "soMaHs": 3316
+  },
+  {
+   "soHieu": "33/2025/TT-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM HH mua bán, trao đổi qua cửa khẩu phụ, lối mở biên giới của thương nhân"
+   ],
+   "soMaHs": 2015
+  },
+  {
+   "soHieu": "08/2023/TT-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Hàng tiêu dùng QSD cấp NK",
+    "HH tạm ngừng KD TNTX CK",
+    "Mã HS MMTB chuyên ngành thuốc Lá"
+   ],
+   "soMaHs": 1964
+  },
+  {
+   "soHieu": "34/2025/TT-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM Hàng hóa được nhập khẩu dưới hình thức mua bán, trao đổi của cư dân biên giới"
+   ],
+   "soMaHs": 1764
+  },
+  {
+   "soHieu": "01/2024/TT-BNNPTNT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Động vật, sản phẩm động vật trên cạn thuộc diện phải kiểm dịch",
+    "Giống vật nuôi cấm xuất khẩu",
+    "Giống vật nuôi cần bảo tồn"
+   ],
+   "soMaHs": 1468
+  },
+  {
+   "soHieu": "12/2022/TT-BGTVT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "HHNK phải chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường trước khi thông quan",
+    "Sản phẩm, hàng hóa phải chứng nhận công bố hợp quy"
+   ],
+   "soMaHs": 1315
+  },
+  {
+   "soHieu": "62/2024/TT-BGTVT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "HHNK phải chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường trước khi thông quan",
+    "Sản phẩm, hàng hóa phải chứng nhận công bố hợp quy"
+   ],
+   "soMaHs": 1315
+  },
+  {
+   "soHieu": "765/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM mặt hàng đã được cắt giảm kiểm tra chuyên ngành"
+   ],
+   "soMaHs": 1074
+  },
+  {
+   "soHieu": "23/2019/QĐ-TTg",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "HH NK phải làm thủ tục hải quan tại cửa khẩu nhập"
+   ],
+   "soMaHs": 749
+  },
+  {
+   "soHieu": "1182/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "BI_THAY_THE",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Danh mục các mặt hàng kiểm tra chuyên ngành về chất lượng sản phẩm hàng hóa nhóm 2",
+    "Danh mục các mặt hàng kiểm tra chuyên ngành về an toàn thực phẩm",
+    "Danh mục các mặt hàng kiểm tra chuyên ngành về hiệu suất năng lượng."
+   ],
+   "soMaHs": 496
+  },
+  {
+   "soHieu": "09/2024/TT-BYT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM NL làm thuốc XK, NK là chất phóng xạ sử dụng trong ngành y tế",
+    "DM NL làm thuốc XK, NK là dược chất và BTP thuốc",
+    "DM thuốc chỉ chứa 01 thành phần dược chất XK, NK"
+   ],
+   "soMaHs": 384
+  },
+  {
+   "soHieu": "17/2023/TT-BNNPTNT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "HH là mẫu vật động vật rừng nguy cấp, quý, hiếm và động vật thuộc các phụ lục CITES",
+    "HH là mẫu vật thực vật rừng nguy cấp, quý hiếm; thực vật thuộc các phụ lục CITES",
+    "Đồ trang sức làm bằng chất liệu thực vật rừng, động vật rừng nguy cấp, quý, hiếm và động v"
+   ],
+   "soMaHs": 340
+  },
+  {
+   "soHieu": "181/2025/NĐ-CP",
+   "vaiTro": [
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [],
+   "soMaHs": 332
+  },
+  {
+   "soHieu": "2711/QĐ-BKHCN",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Hàng hóa nhóm 2 thuộc trách nhiệm của BKHCN"
+   ],
+   "soMaHs": 263
+  },
+  {
+   "soHieu": "11/2018/TT-BTTTT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM sản phẩm CNTT đã qua sử dụng cấm NK kèm theo mã số HS"
+   ],
+   "soMaHs": 186
+  },
+  {
+   "soHieu": "15/2024/TT-BYT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM thực phẩm, phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm và dụng cụ, vật liệu bao g"
+   ],
+   "soMaHs": 186
+  },
+  {
+   "soHieu": "01/2021/TT-BLĐTBXH",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM sản phẩm, HH nhóm 2 thuộc trách nhiệm QLNN của Bộ LĐTBXH"
+   ],
+   "soMaHs": 123
+  },
+  {
+   "soHieu": "10/2024/TT-BXD",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM sản phẩm, hàng hóa vật liệu xây dựng có khả năng gây mất an toàn (nhóm 2)"
+   ],
+   "soMaHs": 80
+  },
+  {
+   "soHieu": "29/2025/TT-BKHCN",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "SPHH lĩnh vực CNTT và VT bắt buộc phải chứng nhận hợp quy và công bố hợp quy",
+    "SPHH lĩnh vực CNTT và VT bắt buộc phải công bố hợp quy"
+   ],
+   "soMaHs": 62
+  },
+  {
+   "soHieu": "1725/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Danh mục các mặt hàng kiểm tra chuyên ngành về hiệu suất năng lượng."
+   ],
+   "soMaHs": 61
+  },
+  {
+   "soHieu": "26/2026/NĐ-CP",
+   "vaiTro": [
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [],
+   "soMaHs": 60
+  },
+  {
+   "soHieu": "173/2018/TT-BQP",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM cụ thể HH cấm XK, cấm NK thuộc diện QLCN của Bộ Quốc Phòng theo quy định tại Nghị định "
+   ],
+   "soMaHs": 41
+  },
+  {
+   "soHieu": "2310/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp thuế chống bán phá giá đối với Thép mạ (CN, KR)"
+   ],
+   "soMaHs": 38
+  },
+  {
+   "soHieu": "12/2018/TT-BTC",
+   "vaiTro": [
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [],
+   "soMaHs": 37
+  },
+  {
+   "soHieu": "04/2021/TT-BXD",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng XK"
+   ],
+   "soMaHs": 34
+  },
+  {
+   "soHieu": "211/2025/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM sản phẩm mật mã dân sự XNK theo giấy phép"
+   ],
+   "soMaHs": 34
+  },
+  {
+   "soHieu": "41/2019/TT-BCT",
+   "vaiTro": [
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [],
+   "soMaHs": 32
+  },
+  {
+   "soHieu": "22/2018/TT-BTTTT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM HH theo mã số HS và hình thức quản lý đối với HH NK, XK trong lĩnh vực in",
+    "DM HH theo mã số HS và hình thức quản lý đối với HH NK, XK trong lĩnh vực phát hành xuất b"
+   ],
+   "soMaHs": 31
+  },
+  {
+   "soHieu": "3765/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp thuế chống bán phá giá đối với Thép cán nguội (NƯỚC CN)"
+   ],
+   "soMaHs": 29
+  },
+  {
+   "soHieu": "3176/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp dụng biện pháp chống lẩn tránh PVTM đối với Một số sản phẩm thép cán nóng (CN)"
+   ],
+   "soMaHs": 26
+  },
+  {
+   "soHieu": "13/2023/QĐ-TTg",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM phế liệu được phép NK từ nước ngoài làm nguyên liệu sản xuất"
+   ],
+   "soMaHs": 24
+  },
+  {
+   "soHieu": "11/2024/TT-BTTTT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM HH theo mã số HS và hình thức quản lý đối với HH NK, XK trong lĩnh vực in",
+    "DM HH theo mã số HS và hình thức quản lý đối với HH NK, XK trong lĩnh vực phát hành xuất b"
+   ],
+   "soMaHs": 23
+  },
+  {
+   "soHieu": "69/2018/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM HH cấm kinh doanh TNTX, CK"
+   ],
+   "soMaHs": 21
+  },
+  {
+   "soHieu": "07/2023/TT-NHNN",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM HH chỉ định cơ sở in, đúc tiền NK phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước"
+   ],
+   "soMaHs": 20
+  },
+  {
+   "soHieu": "2284/QĐ-BKHCN",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Phương tiện đo phải kiểm tra nhà nước về đo lường khi NK"
+   ],
+   "soMaHs": 19
+  },
+  {
+   "soHieu": "6266/QĐ-BCA",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "SPHH có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Công An"
+   ],
+   "soMaHs": 19
+  },
+  {
+   "soHieu": "16/2024/TT-BYT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM hóa chất, chế phẩm diệt côn trùng, diệt khuẩn dùng trong gia dụng và y tế thuộc lĩnh vự"
+   ],
+   "soMaHs": 17
+  },
+  {
+   "soHieu": "2822/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp thuế chống bán phá giá đối với Một số sản phẩm thép hợp kim hoặc không hợp kim được cán"
+   ],
+   "soMaHs": 16
+  },
+  {
+   "soHieu": "45/2023/TT-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Chủng loại và tiêu chuẩn khoáng sản XK"
+   ],
+   "soMaHs": 15
+  },
+  {
+   "soHieu": "691/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp thuế tự vệ đối với Phôi thép và thép dài (Nhiều nước)"
+   ],
+   "soMaHs": 14
+  },
+  {
+   "soHieu": "9981/QĐ-BCA",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM SPHH nhóm 2 thuộc trách nhiệm quản lý của Bộ Công An"
+   ],
+   "soMaHs": 12
+  },
+  {
+   "soHieu": "235/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp thuế chống bán phá giá đối với Bàn, ghế (CN )"
+   ],
+   "soMaHs": 10
+  },
+  {
+   "soHieu": "2333/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp thuế chống bán phá giá đối với Gạch ốp lát (IN)"
+   ],
+   "soMaHs": 8
+  },
+  {
+   "soHieu": "715/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp thuế tự vệ đối với Phân bón (Nhiều nước)"
+   ],
+   "soMaHs": 8
+  },
+  {
+   "soHieu": "121/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp thuế chống bán phá giá đối với Một số sản phẩm ván sợi gỗ (TH, CN)"
+   ],
+   "soMaHs": 6
+  },
+  {
+   "soHieu": "2105/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp thuế chống bán phá giá và chống trợ cấp đối với Đường (TH)"
+   ],
+   "soMaHs": 6
+  },
+  {
+   "soHieu": "3546/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp thuế chống bán phá giá đối với Sợi dài làm từ polyester (IN, ID, MA, CN)"
+   ],
+   "soMaHs": 6
+  },
+  {
+   "soHieu": "366/QĐ-BKHCN",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Hàng hóa nhóm 2 thuộc trách nhiệm của BKHCN"
+   ],
+   "soMaHs": 6
+  },
+  {
+   "soHieu": "37/2013/TT-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM thuốc lá điếu, xì gà NK"
+   ],
+   "soMaHs": 6
+  },
+  {
+   "soHieu": "1978/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp thuế chống bán phá giá đối với Thép hình chữ H (MA)"
+   ],
+   "soMaHs": 5
+  },
+  {
+   "soHieu": "2531/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp thuế chống bán phá giá đối với Sản phẩm nhôm (CN)"
+   ],
+   "soMaHs": 5
+  },
+  {
+   "soHieu": "3453/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp thuế chống bán phá giá đối với Một số sản phẩm tháp điện gió (CN)"
+   ],
+   "soMaHs": 4
+  },
+  {
+   "soHieu": "367/QĐ-BKHCN",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Hàng hóa nhóm 2 thuộc trách nhiệm của BKHCN"
+   ],
+   "soMaHs": 4
+  },
+  {
+   "soHieu": "693/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp dụng biện pháp chống lẩn tránh PVTM đối với Thép cuộn, thép dây (Nhiều nước)"
+   ],
+   "soMaHs": 4
+  },
+  {
+   "soHieu": "143/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp thuế chống bán phá giá đối với Cáp thép dự ứng lực (MA, TH, CN)"
+   ],
+   "soMaHs": 2
+  },
+  {
+   "soHieu": "2027/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp thuế chống bán phá giá đối với Plastic và SP Plastic (MA, TH, CN)"
+   ],
+   "soMaHs": 2
+  },
+  {
+   "soHieu": "228/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp thuế chống bán phá giá đối với Một số sản phẩm kính nổi không màu (ID, MA)"
+   ],
+   "soMaHs": 2
+  },
+  {
+   "soHieu": "47/2018/TT-NHNN",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "DM hàng hóa là vàng theo mã HS thuộc quản lý của NHNN"
+   ],
+   "soMaHs": 2
+  },
+  {
+   "soHieu": "1914/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp thuế chống bán phá giá đối với Bột ngọt (ID, CN)"
+   ],
+   "soMaHs": 1
+  },
+  {
+   "soHieu": "1959/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH",
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [
+    "Áp thuế chống bán phá giá đối với Một số sản phẩm thép cán nóng (CN)"
+   ],
+   "soMaHs": 1
+  },
+  {
+   "soHieu": "45/2024/TT-BCT",
+   "vaiTro": [
+    "CHINH_SACH_MA_HS"
+   ],
+   "noiDung": [],
+   "soMaHs": 1
+  },
+  {
+   "soHieu": "01/2018/TT-BCT",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "DM HH mua bán, trao đổi qua cửa khẩu phụ, lối mở biên giới của thương nhân"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "01/2022/TT-BNNPTNN",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Động vật, sản phẩm động vật trên cạn thuộc diện phải kiểm dịch",
+    "Giống vật nuôi cấm xuất khẩu",
+    "Giống vật nuôi cần bảo tồn"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "02/2024/TT-BTTTT",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "SPHH lĩnh vực CNTT và VT bắt buộc phải chứng nhận hợp quy và công bố hợp quy",
+    "SPHH lĩnh vực CNTT và VT bắt buộc phải công bố hợp quy"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "03/2019/TT-BCT",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Quy tắc mặt hàng cụ thể CPTPP"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "03/2021/TT-BYT",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "DM NL làm thuốc XK, NK là chất phóng xạ sử dụng trong ngành y tế",
+    "DM NL làm thuốc XK, NK là dược chất và BTP thuốc",
+    "DM thuốc chỉ chứa 01 thành phần dược chất XK, NK"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "04/2023/TT-BCT",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Hạn ngạch thuế quan nhập khẩu thuốc lá nguyên liệu, trứng gia cầm có xuất xứ từ các nước t"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "09/2018/TT-BYT",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "DM hóa chất, chế phẩm diệt côn trùng, diệt khuẩn dùng trong gia dụng và y tế thuộc lĩnh vự"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "10/2019/TT-BCT",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Quy tắc mặt hàng cụ thể ATIGA"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "10/2022/TT-BTTTT",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "DM sản phẩm an toàn thông tin mạng NK theo giấy phép"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "108/2025/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế xuất khẩu"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "11/2017/TT-BCT",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Hạn ngạch thuế quan NK"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "11/2018/TT-BCT",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Quy tắc mặt hàng cụ thể VNEAEUFTA"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "11/2021/TT-BNNPTNT",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Động vật, sản phẩm động vật trên cạn thuộc diện phải kiểm dịch",
+    "Giống vật nuôi cấm xuất khẩu",
+    "Giống vật nuôi cần bảo tồn"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "112/2022/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam và Chi Lê giai đoạn 2022 - 2027"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "113/2017/NĐ-CP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "Danh mục hóa chất Bảng 1,2,3",
+    "Danh mục hóa chất nhập khẩu phải khai báo trước khi thông quan qua cổng thông tin một cửa ",
+    "Danh mục hóa chất Hóa chất cấm đầu tư kinh doanh theo quy định của Luật Đầu tư"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "113/2022/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Liên minh Kinh tế Á-Âu và các quốc gia thàn"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "114/2022/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Cuba"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "115/2022/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác Toàn diện ",
+    "Biểu thuế xuất khẩu ưu đãi để thực hiện hiệp định CPTPP"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "116/2022/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam -Liên minh Châu Âu",
+    "Biểu thuế xuất khẩu ưu đãi EVFTA"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "117/2022/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Liên hiệp Vương quốc Anh và Bắc Ai-len",
+    "Biểu thuế NK ưu đãi đặc biệt UKVFTA"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "118/2022/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Trung Quốc giai đoạn 2022 - 2027"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "119/2022/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Hàn Quốc giai đoạn 2022 - 2017"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "12/2018/TT-BCT",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Hạn ngạch thuế quan NK"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "12/2019/TT-BCT",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Quy tắc mặt hàng cụ thể ACFTA"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "120/2022/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Nhật Bản giai đoạn 2022 - 2023 - 2024 - 2025 -"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "121/2022/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Khu vực Thương mại tự do ASEAN – Ốt-xtrây-lin – Niu Di"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "122/2022/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Ấn Độ giai đoạn 2022 - 2027"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "123/2022/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Hồng Kông, Trung Quốc giai đoạn 2022 - 2027"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "124/2022/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Nhật Bản giai đoạn 2022 – 2028"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "125/2021/TT-BCA",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Pháo hoa, pháo nổ thuộc quản lý của BCA"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "125/2022/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Hàn Quốc giai đoạn 2022 - 2027"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "126/2022/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN giai đoạn 2022 – 2027"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "129/2022/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Hiệp định Kinh tế Toàn diện Khu vực giai đoạn 2022 - 2"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "13/2018/TT-BTTTT",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "DM sản phẩm an toàn thông tin mạng NK theo giấy phép"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "13/2019/TT-BCT",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Quy tắc mặt hàng cụ thể AKFTA"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "144/2024/ND-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi",
+    "Biểu thuế xuất khẩu"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "15/2023/QĐ-TTg",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu thông thường"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "174/2025/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế giá trị gia tăng"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "199/2025/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi",
+    "Biểu thuế xuất khẩu"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "206/2025/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Lào"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "2093/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Áp thuế chống bán phá giá đối với Một số sản phẩm kính nổi không màu (ID, MA)"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "21/2025/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "22/2018/TT-BLĐTBXH",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "DM sản phẩm, HH nhóm 2 thuộc trách nhiệm QLNN của Bộ LĐTBXH"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "2491/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Áp thuế chống bán phá giá đối với Một số sản phẩm ván sợi gỗ (TH, CN)"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "26/2023/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi",
+    "Biểu thuế xuất khẩu"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "260/2025/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế xuất khẩu"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "28/2020/QĐ-TTg",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "DM phế liệu được phép NK từ nước ngoài làm nguyên liệu sản xuất"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "3011/QĐ-BCT",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Áp thuế chống bán phá giá đối với Thép không gỉ cán nguội (TW, ID, MA, CN)"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "31/2022/TT-BTC",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Danh mục hàng hóa XNK"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "38/2018/TT-NHNN",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "DM HH chỉ định cơ sở in, đúc tiền NK phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "3830/QĐ-BKHCN",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Hàng hóa nhóm 2 thuộc trách nhiệm của BKHCN"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "40/2017/TT-BQP",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "DM cụ thể HH cấm XK, cấm NK thuộc diện QLCN của Bộ Quốc Phòng theo quy định tại Nghị định "
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "41/2016/TT-BTTTT",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "DM HH theo mã số HS và hình thức quản lý đối với HH NK, XK trong lĩnh vực in",
+    "DM HH theo mã số HS và hình thức quản lý đối với HH NK, XK trong lĩnh vực phát hành xuất b",
+    "DM sản phẩm CNTT đã qua sử dụng cấm NK kèm theo mã số HS"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "41/2022/TT-BCT",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Quy tắc mặt hàng cụ thể EVFTA"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "48/2018/TT-BYT",
+   "vaiTro": [
+    "BI_THAY_THE"
+   ],
+   "noiDung": [
+    "DM NL làm thuốc XK, NK là chất phóng xạ sử dụng trong ngành y tế",
+    "DM NL làm thuốc XK, NK là dược chất và BTP thuốc",
+    "DM thuốc chỉ chứa 01 thành phần dược chất XK, NK"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "56/2026/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Camphuchia"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "66/2025/QH15",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Thuế tiêu thụ đặc biệt"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "72/2026/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "73/2025/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "Biểu thuế nhập khẩu ưu đãi"
+   ],
+   "soMaHs": 0
+  },
+  {
+   "soHieu": "77/2023/NĐ-CP",
+   "vaiTro": [
+    "HIEN_HANH"
+   ],
+   "noiDung": [
+    "DM quản lý nhập khẩu hàng hóa tân trang theo Hiệp định CPTPP"
+   ],
+   "soMaHs": 0
+  }
+ ]
+}
