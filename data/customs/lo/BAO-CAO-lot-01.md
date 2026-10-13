@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-10.json` — 261 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-10-lot-01.json` — **245 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **16**
+- Ra: `data/customs/lo/tracuuhs-2026-10-10-lot-01.json` — **246 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **15**
 
 ## Vào lô
 - 1012/TB-TCHQ (2019-02-21) → 39093100 — Hợp chất Diphenyl Methane Diisocyanate MDI MILLIONATE MR-200 (Hóa chất…
@@ -33,12 +33,11 @@
 - 1309/TB-TCHQ (2024-03-27) → 85177921 — BRACKET-KEY BRACKET;STS304,SM-S918,BLACK; Khung đỡ phím chức năng của …
 - 1311/TB-TCHQ (2019-03-08) → 38249999 — Chế phẩm hóa học chống gỉ cho sản phẩm thép- COSMER SAI-471 (PASSIVATI…
 - 1372/TB-TCHQ (2018-03-15) → 38249099 — Hỗn hợp muối Coban và muối Crom dùng trong ngành xi mạ R-ALUMA SEAL SP…
+- 1377/TB-TCHQ (2018-03-15) → 38249999 — Đính chính Thông báo 1182/TB-TCHQ: Chất gắn đã điều chế dùng cho các l…
 - 144/TB-TCHQ (2020-01-07) → 38249999 — Chế phẩm hóa học có thành phần chính là kẽm photphat và phụ gia, dạng …
-- 1443/TB-TCHQ (2022-04-22) → 85258039 — Matrice 30 Series (M30T).; Camera tích hợp trên Drone dùng để chụp ảnh…
-- … và 215 bản ghi nữa trong tệp lô
+- … và 216 bản ghi nữa trong tệp lô
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 1377/TB-TCHQ/2018 → 38249999: không chọn được description đạt (dài/có tên nhóm biểu thuế) — ứng viên đầu:  — ""
 - 170/TB-TCHQ/2024 → 38249999: reasonVi mỏng/cụt, toàn văn cũng không rút được chuỗi kết luận — "COPPER GLEAM™ HVS-202A (J); Dung dịch Copper Gleam HVS-202A (J)"
 - 2131/TB-TCHQ/2024 → 38249970: reasonVi mỏng/cụt, toàn văn cũng không rút được chuỗi kết luận — "Polyglycitol Syrup ESWEE 30; Phụ gia thực phẩm Polyglicitol Syrup"
 - 3246/TB-TCHQ/2024 → 85177999: reasonVi mỏng/cụt, toàn văn cũng không rút được chuỗi kết luận — "Khối thu phát RRU5502N (Bộ phận thiết bị trạm gốc thông tin di động UMTS/LTE FDD"

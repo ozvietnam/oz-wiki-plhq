@@ -71,6 +71,20 @@ CI bên nhận (`community-data` workflow) tự chạy `validate-community` trê
 Mở `BAO-CAO-lot-NN.md` → với mỗi mục: mở `noi_dung` của bản ghi gốc, **đọc toàn văn**, chép đúng theo
 hướng dẫn trích (không đoán), rồi bổ sung vào **lô sau** (không sửa lô đã gộp — trùng số hiệu sẽ bị chặn).
 
+## Hai loại TB và cặp bài học (CEO 13/10/2026)
+
+| Loại (`attributes.loaiTB`) | Khi nào | Giá trị |
+|---|---|---|
+| `XAC_DINH_TRUOC` | Doanh nghiệp hỏi **trước khi hàng về/khai** | Phòng tranh chấp — chốt mã từ đầu, độ tin cậy cao |
+| `KET_QUA_PHAN_LOAI` | Sau phân tích mẫu / phát sinh khai báo | Kết luận cuối cùng, đối chiếu được với hành vi khai |
+| `DINH_CHINH` | Cơ quan **sửa chính** thông báo trước | Cặp mã cũ → mã mới là bài học đắt nhất |
+
+**Luật trích:** loại TB đọc từ tiêu đề văn bản (mapper tự làm). Ca **kết quả khác lần khai**: mã doanh
+nghiệp từng khai/cơ quan từng kết luận mà bị bác → ghi vào `confusedWith` (CHỈ mã có nguyên văn; với đính
+chính đọc cột "Nội dung đã ban hành"). **Giới hạn nguồn hiện tại:** TB phân loại chỉ ghi "Tên hàng theo
+khai báo", KHÔNG ghi mã doanh nghiệp khai — cặp đầy đủ "mã khai → mã kết luận" phải ghép từ nguồn tờ khai
+(oz_precedents/`/api/demand` bên hs-code-api) trong đợt sau; đừng tự suy mã khai từ tên hàng.
+
 ## Bảng ghi nhớ luật bên nhận (từ 06/10/2026)
 
 | Luật | Ngưỡng |
@@ -81,6 +95,7 @@ hướng dẫn trích (không đoán), rồi bổ sung vào **lô sau** (không 
 | `attributes.bieuThue` | 2012 / 2017 / 2022 theo ngày ký |
 | `source.issuedDate` / `source.url` | YYYY-MM-DD / trang chi tiết đã đọc |
 | Mỗi tệp | ≤500 bản ghi; một số hiệu + mã chỉ nằm ở một tệp |
+| `attributes.loaiTB` | luôn ghi: `XAC_DINH_TRUOC` / `KET_QUA_PHAN_LOAI` / `DINH_CHINH` |
 | Riêng tư | repo công khai — không tên doanh nghiệp, MST, số tờ khai, trị giá, liên hệ |
 
 ## Mẫu đã chạy (đợt 1, 13/10/2026)
