@@ -2,3 +2,12 @@
 # Mỗi dòng: mã 4/6/8 số · ket_luan KHONG_THUOC_DIEN | DA_BO_SUNG_BANG · can_cu (văn bản/phụ lục đã xem) · ngày · ghi chú.
 # tools/diem-mu.mjs bỏ mã có ở đây khỏi nhóm "Mã HS có hàng thật chưa đối chiếu KTCN 2026".
 ma_hs,ket_luan,can_cu,ngay,ghi_chu
+90049010,KHONG_THUOC_DIEN,"Đối chiếu các bảng KTCN 2026 đã trích (36/2026/TT-BKHCN, 49/2026/TT-BXD, 16/2026/TT-BNV, 28·33/2026/TT-BCT, 27/2026/TT-BNNMT, 125/2026/TT-BCA, 126/2026/TT-BQP, 41/2026/TT-BXD): không có dòng nhóm 9004",2026-10-12,"Biểu thuế dẫn 19/2024/TT-BYT · 05/2022/TT-BYT (không phải khung KTCN 2026). Kính mắt/bảo vệ mắt thông thường — ngoài danh mục rủi ro các bộ đã trích."
+90049090,KHONG_THUOC_DIEN,"Cùng kết luận nhóm 9004: không có trong các bảng KTCN 2026 đã trích",2026-10-12,"Cùng nhóm với 90049010."
+87089962,KHONG_THUOC_DIEN,"49/2026/TT-BXD (CSV 64 dòng) chỉ có 870870 (vành hợp kim) và 870822 (kính an toàn) trong nhóm 8708 — không có 87089962; các bảng KTCN 2026 khác không phủ nhóm 8708",2026-10-12,"Phụ tùng ô tô khác. Biểu thuế dẫn 12/2022/TT-BGTVT · 62/2024/TT-BGTVT (tiền KTCN 2026)."
+87082916,KHONG_THUOC_DIEN,"49/2026/TT-BXD: nhóm 8708 chỉ 870870 · 870822 — không có 87082916",2026-10-12,"Thân xe / bộ phận thân xe — ngoài phụ lục rủi ro BXD đã trích."
+87082995,KHONG_THUOC_DIEN,"49/2026/TT-BXD: nhóm 8708 chỉ 870870 · 870822 — không có 87082995",2026-10-12,"Cùng nhóm thân xe với 87082916."
+42050090,KHONG_THUOC_DIEN,"16/2026/TT-BNV (CSV 56 dòng) nhóm 4205 chỉ có 42050020 (dây đai an toàn / chống rơi PPE) — không có 42050090; bảng KTCN 2026 khác không phủ 4205",2026-10-12,"Hàng da khác. Biểu thuế dẫn 17/2023/TT-BNNPTNT (tiền khung)."
+64039990,KHONG_THUOC_DIEN,"16/2026/TT-BNV nhóm 6403 chỉ giày/ủng bảo hộ lao động (64034000 · 64035990 · 64039110) — không có 64039990; bảng KTCN 2026 khác không phủ mã này",2026-10-12,"Giày dép thông thường. Biểu thuế dẫn 08/2023 · 42/2019 · 34/2025/TT-BCT."
+39269099,KHONG_THUOC_DIEN,"Không bảng KTCN 2026 nào đã trích có dòng nhóm 3926",2026-10-12,"Nhựa khác. Biểu thuế dẫn 08/2023/TT-BCT."
+84626191,KHONG_THUOC_DIEN,"Không bảng KTCN 2026 nào đã trích có dòng nhóm 8462",2026-10-12,"Máy gia công kim loại — ngoài các danh mục rủi ro bộ đã trích."
