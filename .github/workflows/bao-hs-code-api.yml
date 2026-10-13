@@ -2,7 +2,9 @@ name: dung-lai-va-bao-hs-code-api
 # Sau mỗi lần gộp vào main:
 #   1. dựng lại tệp sinh tự động (dist/registry.json, bao-cao/*) từ registry/ + wiki/ + nhu-cau/ và commit nếu đổi
 #      → PR không cần (và không nên) commit dist/ hay bao-cao/: đó là nguyên nhân chính khiến các PR xung đột nhau;
-#   2. báo hs-code-api đồng bộ ngay (repository_dispatch "plhq-updated" → workflow plhq-sync bên đó).
+#   2. dist/registry.json hay dist/hs-index.json đổi so với HEAD → tạo GitHub Release gắn thẻ dist-YYYY-MM-DD
+#      (hậu tố .N nếu trùng ngày), đính kèm hai tệp + SHA256SUMS — bản chụp bất biến cho bên dùng (docs/tich-hop.md);
+#   3. báo hs-code-api đồng bộ ngay (repository_dispatch "plhq-updated" → workflow plhq-sync bên đó).
 #      Không có token thì bỏ qua — hs-code-api vẫn tự đồng bộ mỗi ngày lúc 08:17 giờ VN.
 # Token: secret HS_CODE_API_DISPATCH_TOKEN = fine-grained PAT, repo ozvietnam/hs-code-api, quyền Contents: Read and write.
 on:
@@ -32,6 +34,25 @@ jobs:
         run: |
           node tools/dung.mjs
           node tools/diem-mu.mjs
+      - name: Tạo Release nếu dist đổi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cu() { git show "HEAD:$1" 2>/dev/null | sha256sum | cut -d' ' -f1 || echo none; }
+          truoc_reg=$(cu dist/registry.json); truoc_idx=$(cu dist/hs-index.json)
+          sau_reg=$(sha256sum dist/registry.json | cut -d' ' -f1)
+          sau_idx=$(sha256sum dist/hs-index.json | cut -d' ' -f1)
+          if [ "$truoc_reg" = "$sau_reg" ] && [ "$truoc_idx" = "$sau_idx" ]; then
+            echo "dist không đổi so với HEAD — không tạo release"; exit 0
+          fi
+          (cd dist && sha256sum registry.json hs-index.json > SHA256SUMS)
+          tag="dist-$(date +%F)"
+          n=1
+          while gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; do n=$((n+1)); tag="dist-$(date +%F).$n"; done
+          ghi_chu="Bản chụp dist sau ${GITHUB_SHA::7} — kiểm tra bằng SHA256SUMS. URL thẻ là bất biến; bản cũ không bị xoá (docs/tich-hop.md)."
+          gh release create "$tag" dist/registry.json dist/hs-index.json dist/SHA256SUMS \
+            --repo "$GITHUB_REPOSITORY" --title "$tag" --notes "$ghi_chu"
+          echo "Đã tạo release $tag"
       - name: Commit nếu có thay đổi
         run: |
           git config user.name "kb-bot"

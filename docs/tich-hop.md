@@ -4,6 +4,22 @@ Kho này xuất `dist/registry.json` (dựng bằng `npm run dung`, tự cập n
 **đọc** tệp này; muốn sửa dữ liệu thì mở PR vào `registry/` — không sửa bản chụp ở phía ứng dụng.
 
 URL ổn định: `https://raw.githubusercontent.com/ozvietnam/oz-wiki-plhq/main/dist/registry.json`
+(hợp đồng: URL này luôn khớp `registry/` — bot dựng lại ngay sau mỗi lần gộp).
+
+## Phát hành ổn định (bản chụp gắn thẻ)
+
+Ngoài URL `main`, mỗi lần nội dung hai tệp máy **đổi**, workflow `dung-lai-va-bao-hs-code-api` tạo một
+GitHub Release gắn thẻ `dist-YYYY-MM-DD` (hậu tố `.N` nếu trùng ngày), đính kèm `registry.json`,
+`hs-index.json` và `SHA256SUMS`. Ba loại URL, hợp đồng như sau:
+
+| URL | Đổi hay không |
+|---|---|
+| `…/releases/download/dist-YYYY-MM-DD[.N]/registry.json` | **Bất biến** — bản cũ không bị xoá, quay lại được khi bản mới lỗi |
+| `…/releases/latest/download/registry.json` (và `…/hs-index.json`) | Đổi trỏ theo **mỗi** lần phát hành — cho bên muốn luôn bản mới nhưng không phụ thuộc `main` |
+| `raw.githubusercontent.com/…/main/dist/…` | Luôn khớp `registry/` — giữ cho bên đang dùng, không xoá |
+
+Không tạo release nếu hai tệp không đổi. Kiểm tải về bằng `SHA256SUMS` đính kèm; kiểm cấu trúc bằng
+`luoc_do_phien_ban` (so major — xem [Cấu trúc](#cấu-trúc) bên dưới).
 
 Giấy phép **CC BY 4.0** — chuỗi ghi nguồn chuẩn (thống nhất 13/10/2026, dùng đúng chuỗi này ở mọi sản phẩm
 dẫn dữ liệu kho, kèm ngày `phien_ban` của bản đang dùng):
