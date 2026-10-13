@@ -1,5 +1,5 @@
 {
-  "phien_ban": "2026-10-12",
+  "phien_ban": "2026-10-13",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
   "tong": 2271,
   "van_ban": [
@@ -15,10 +15,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "Metadata đối chiếu URL vanban.chinhphu.vn: TT 01/2009/TT-BKHCN (Bộ KH&CN, ban hành 2009) — Danh mục SP/HH có khả năng gây mất an toàn. Hết hiệu lực 2026-07-01 (bị thay bởi 36/2026/TT-BKHCN theo nguồn thứ cấp). Đối chiếu metadata; cần OCR toàn văn để xác minh nội dung chi tiết.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-12",
+        "boi": "legal-customs@ozvietnam"
       },
       "ghi_chu": "Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json. KHUNG KTCN 2026 (tin cậy MEDIUM): Khung 'nhóm 2' (NĐ 132/2008, NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026. Hết hiệu lực từ 2026-07-01: bị bãi bỏ bởi 36/2026/TT-BKHCN (theo nguồn thứ cấp).",
       "nguon": [
@@ -292,7 +292,7 @@
       "co_quan": "BCT",
       "ngay_ban_hanh": "2018-02-27",
       "hieu_luc_tu": "2018-02-27",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "quan-ly-ngoai-thuong/giay-phep"
       ],
@@ -304,10 +304,19 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "TT 02/2018/TT-BCT (Bộ Công Thương, ban hành 27/02/2018) — Quy định chi tiết Danh mục hàng hóa mua bán, trao đổi của cư dân biên giới. Hiệu lực từ 27/02/2018. Đã sửa đổi bởi TT 34/2025/TT-BCT (hiệu lực 21/07/2025) — vẫn còn hiệu lực ở mức cơ bản.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-12",
+        "boi": "legal-customs@ozvietnam"
+      },
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "34/2025/TT-BCT",
+            "tu_ngay": "2025-07-21",
+            "can_cu": "Sửa đổi, bổ sung một số điều của TT 02/2018/TT-BCT"
+          }
+        ]
       },
       "slug": "02-2018-tt-bct",
       "bac_nguon_cao_nhat": "A",
@@ -481,13 +490,22 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, trích yếu trên nguồn A; đã nạp toàn văn",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "TT 04/2014/TT-BCT (Bộ Công Thương, ban hành 17/02/2014) — Quy định chi tiết thi hành NĐ 187/2013 về hoạt động mua bán hàng hoá quốc tế. Hết hiệu lực 2018-06-15, bị bãi bỏ bởi Điều 17 khoản 2 điểm a TT 12/2018/TT-BCT. Đã nạp toàn văn PDF datafiles.chinhphu.vn.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-12",
+        "boi": "legal-customs@ozvietnam"
       },
       "het_hieu_luc_tu": "2018-06-15",
       "ghi_chu": "Bị bãi bỏ bởi Điều 17 khoản 2 điểm a TT 12/2018/TT-BCT; stub chưa mở toàn văn nguồn A của chính văn bản này.",
+      "quan_he": {
+        "bai_bo": [
+          {
+            "so_hieu": "12/2018/TT-BCT",
+            "tu_ngay": "2018-06-15",
+            "can_cu": "Điều 17 khoản 2 điểm a TT 12/2018/TT-BCT"
+          }
+        ]
+      },
       "toan_van": "raw/download/datafiles.chinhphu.vn/04-2014-tt-bct.pdf",
       "nguon": [
         {
@@ -604,12 +622,20 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "thẻ vanban.chinhphu.vn số hiệu 05/2007/QH12, trích yếu Luật Chất lượng sản phẩm, hàng hoá; thẻ ghi ngày ban hành 05-12-2007, người ký Nguyễn Phú Trọng",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "Luật 05/2007/QH12 (Quốc hội KH 12, ban hành 21/11/2007) — Luật Chất lượng sản phẩm, hàng hoá. Hiệu lực từ 01/07/2008. Người ký: Nguyễn Phú Trọng. Đã nạp toàn văn DOC datafiles.chinhphu.vn.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-12",
+        "boi": "legal-customs@ozvietnam"
       },
-      "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Đã được sửa đổi bởi Luật 78/2025/QH15 (theo nguồn thứ cấp).",
+      "ghi_chu": "Đã được sửa đổi bởi Luật 78/2025/QH15 (theo nguồn thứ cấp).",
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "78/2025/QH15",
+            "can_cu": "Luật sửa đổi, bổ sung Luật Chất lượng SP, hàng hoá"
+          }
+        ]
+      },
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?docid=51259&pageid=27160",
@@ -701,10 +727,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, trích yếu, ngày ban hành 12-06-2017 và ngày có hiệu lực 01-01-2018 trên vanban.chinhphu.vn",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "Luật 05/2017/QH14 (Quốc hội KH 14, ban hành 12/06/2017) — Luật Quản lý ngoại thương. Hiệu lực từ 01/01/2018. Đã nạp toàn văn PDF datafiles.chinhphu.vn.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-12",
+        "boi": "legal-customs@ozvietnam"
       },
       "ghi_chu": "Thẻ cổng Chính phủ khớp Luật quản lý ngoại thương, người ký Nguyễn Thị Kim Ngân. Chưa đọc điều khoản thi hành. Codex@ozvietnam đã tải và kiểm tra PDF gốc 52 trang ngày 04/10/2026; PDF quét ảnh, cần OCR. Bản nhị phân chưa được đưa vào PR này do tải lên bị treo; chưa đặt toan_van. Xem dấu SHA-256 và bàn giao tại docs/thu-thap/2026-10-04-ba-luat-loi.json.",
       "toan_van": "raw/download/datafiles.chinhphu.vn/05-2017-qh14.pdf",
@@ -7129,17 +7155,14 @@
       "slug": "12-2018-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
-        "bi_sua_doi_boi": [
-          {
-            "tu": "08/2023/TT-BCT",
-            "quan_he": "sua_doi",
-            "so_hieu": "12/2018/TT-BCT",
-            "pham_vi": "Phụ lục I, Phụ lục II (và các phụ lục khác theo Điều 1)",
-            "tu_ngay": "2023-05-16",
-            "can_cu": "Điều 1 TT 08/2023/TT-BCT"
-          }
-        ],
         "bi_bai_bo_boi": [
+          {
+            "tu": "04/2014/TT-BCT",
+            "quan_he": "bai_bo",
+            "so_hieu": "12/2018/TT-BCT",
+            "tu_ngay": "2018-06-15",
+            "can_cu": "Điều 17 khoản 2 điểm a TT 12/2018/TT-BCT"
+          },
           {
             "tu": "11/2017/TT-BCT",
             "quan_he": "bai_bo",
@@ -7154,6 +7177,16 @@
             "so_hieu": "12/2018/TT-BCT",
             "tu_ngay": "2026-09-05",
             "can_cu": "Điều 20 khoản 2 điểm đ TT 48/2026/TT-BCT (Phụ lục I còn thực hiện chuyển tiếp đến 31-12-2026 — Điều 21 khoản 3)"
+          }
+        ],
+        "bi_sua_doi_boi": [
+          {
+            "tu": "08/2023/TT-BCT",
+            "quan_he": "sua_doi",
+            "so_hieu": "12/2018/TT-BCT",
+            "pham_vi": "Phụ lục I, Phụ lục II (và các phụ lục khác theo Điều 1)",
+            "tu_ngay": "2023-05-16",
+            "can_cu": "Điều 1 TT 08/2023/TT-BCT"
           }
         ]
       }
@@ -39633,7 +39666,17 @@
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/34-2025-tt-bct.pdf",
       "slug": "34-2025-tt-bct",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "02/2018/TT-BCT",
+            "quan_he": "sua_doi",
+            "so_hieu": "34/2025/TT-BCT",
+            "tu_ngay": "2025-07-21",
+            "can_cu": "Sửa đổi, bổ sung một số điều của TT 02/2018/TT-BCT"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "3401/TB-TCHQ/2018",
@@ -68985,7 +69028,16 @@
       ],
       "slug": "78-2025-qh15",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "05/2007/QH12",
+            "quan_he": "sua_doi",
+            "so_hieu": "78/2025/QH15",
+            "can_cu": "Luật sửa đổi, bổ sung Luật Chất lượng SP, hàng hoá"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "79/2015/QH13",

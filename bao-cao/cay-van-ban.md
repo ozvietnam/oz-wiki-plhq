@@ -1,4 +1,4 @@
-# Cây văn bản pháp luật XNK — 2026-10-12
+# Cây văn bản pháp luật XNK — 2026-10-13
 
 2271 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
@@ -2260,7 +2260,7 @@ _Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
 - 🟢 [173/2018/TT-BQP](../registry/van-ban/173-2018-tt-bqp.yaml) — Công bố danh mục cụ thể hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành của Bộ Quốc phòng theo quy định tại Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ _(hết hiệu lực 2026-12-31)_
 - 🟢 [22/2018/TT-BTTTT](../registry/van-ban/22-2018-tt-btttt.yaml) — Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm
 - 🟢 [47/2018/TT-NHNN](../registry/van-ban/47-2018-tt-nhnn.yaml) — Ban hành Danh mục hàng hóa xuất khẩu, nhập khẩu kèm theo mã HS thuộc phạm vi quản lý của Ngân hàng Nhà nước Việt Nam trong lĩnh vực vàng
-- ❔ [02/2018/TT-BCT](../registry/van-ban/02-2018-tt-bct.yaml) — Quy định chi tiết Danh mục hàng hóa mua bán, trao đổi của cư dân biên giới
+- 🟢 [02/2018/TT-BCT](../registry/van-ban/02-2018-tt-bct.yaml) — Quy định chi tiết Danh mục hàng hóa mua bán, trao đổi của cư dân biên giới
 - ⚫ [11/2017/TT-BCT](../registry/van-ban/11-2017-tt-bct.yaml) — Quy định về hoạt động tạm nhập, tái xuất; tạm xuất, tái nhập và chuyển khẩu _(hết hiệu lực 2018-06-15)_
 - 🟡 [37/2013/TT-BCT](../registry/van-ban/37-2013-tt-bct.yaml) — Quy định nhập khẩu thuốc lá điếu, xì gà
 

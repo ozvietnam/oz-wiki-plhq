@@ -1,4 +1,4 @@
-# Quan hệ cũ – mới giữa các văn bản — 2026-10-12
+# Quan hệ cũ – mới giữa các văn bản — 2026-10-13
 
 Mũi tên đi từ văn bản MỚI tới văn bản bị tác động. Sinh tự động bằng `node tools/dung.mjs`.
 
@@ -72,6 +72,10 @@ flowchart LR
 flowchart LR
   n_01_2021_TT_BL_TBXH["01/2021/TT-BLĐTBXH<br/>hết hiệu lực"]
   n_22_2018_TT_BL_TBXH["22/2018/TT-BLĐTBXH<br/>hết hiệu lực"]
+  n_04_2014_TT_BCT["04/2014/TT-BCT<br/>hết hiệu lực"]
+  n_12_2018_TT_BCT["12/2018/TT-BCT<br/>hết hiệu lực một phần"]
+  n_05_2007_QH12["05/2007/QH12<br/>còn hiệu lực"]
+  n_78_2025_QH15["78/2025/QH15<br/>còn hiệu lực"]
   n_09_2024_TT_BYT["09/2024/TT-BYT<br/>còn hiệu lực"]
   n_06_2018_TT_BYT["06/2018/TT-BYT<br/>hết hiệu lực"]
   n_48_2018_TT_BYT["48/2018/TT-BYT<br/>hết hiệu lực"]
@@ -84,7 +88,6 @@ flowchart LR
   n_44_2024_QH15["44/2024/QH15<br/>còn hiệu lực"]
   n_76_VBHN_VPQH["76-VBHN/VPQH<br/>chưa xác minh"]
   n_11_2017_TT_BCT["11/2017/TT-BCT<br/>hết hiệu lực"]
-  n_12_2018_TT_BCT["12/2018/TT-BCT<br/>hết hiệu lực một phần"]
   n_11_2024_TT_BTTTT["11/2024/TT-BTTTT<br/>còn hiệu lực"]
   n_05_2016_TT_BTTTT["05/2016/TT-BTTTT<br/>chưa xác minh"]
   n_22_2018_TT_BTTTT["22/2018/TT-BTTTT<br/>còn hiệu lực"]
@@ -141,10 +144,10 @@ flowchart LR
   n_12_2022_TT_BGTVT["12/2022/TT-BGTVT<br/>hết hiệu lực"]
   n_62_2024_TT_BGTVT["62/2024/TT-BGTVT<br/>hết hiệu lực"]
   n_71_2025_TT_BXD["71/2025/TT-BXD<br/>chưa xác minh"]
-  n_78_2025_QH15["78/2025/QH15<br/>còn hiệu lực"]
-  n_05_2007_QH12["05/2007/QH12<br/>còn hiệu lực"]
   n_6266_Q__BCA["6266/QĐ-BCA<br/>chưa xác minh"]
   n_01_2021_TT_BL_TBXH -->|thay thế từ 2021-07-18| n_22_2018_TT_BL_TBXH
+  n_04_2014_TT_BCT -->|bãi bỏ từ 2018-06-15| n_12_2018_TT_BCT
+  n_05_2007_QH12 -->|sửa đổi| n_78_2025_QH15
   n_09_2024_TT_BYT -->|bãi bỏ từ 2024-07-26| n_06_2018_TT_BYT
   n_09_2024_TT_BYT -->|bãi bỏ từ 2024-07-26| n_48_2018_TT_BYT
   n_09_2024_TT_BYT -->|bãi bỏ từ 2024-07-26| n_03_2021_TT_BYT
@@ -258,6 +261,8 @@ flowchart LR
   n_11_2021_TT_BNNPTNT["11/2021/TT-BNNPTNT<br/>chưa xác minh"]
   n_16_2021_TT_BNNPTNT["16/2021/TT-BNNPTNT<br/>chưa xác minh"]
   n_01_2022_TT_BNNPTNT["01/2022/TT-BNNPTNT<br/>chưa xác minh"]
+  n_02_2018_TT_BCT["02/2018/TT-BCT<br/>còn hiệu lực"]
+  n_34_2025_TT_BCT["34/2025/TT-BCT<br/>còn hiệu lực"]
   n_07_2023_TT_NHNN["07/2023/TT-NHNN<br/>còn hiệu lực"]
   n_38_2018_TT_NHNN["38/2018/TT-NHNN<br/>chưa xác minh"]
   n_07_2026_TT_BCT["07/2026/TT-BCT<br/>còn hiệu lực"]
@@ -282,8 +287,6 @@ flowchart LR
   n_69_2018_N__CP["69/2018/NĐ-CP<br/>hết hiệu lực"]
   n_33_2025_TT_BCT["33/2025/TT-BCT<br/>còn hiệu lực"]
   n_01_2018_TT_BCT["01/2018/TT-BCT<br/>chưa xác minh"]
-  n_34_2025_TT_BCT["34/2025/TT-BCT<br/>còn hiệu lực"]
-  n_02_2018_TT_BCT["02/2018/TT-BCT<br/>chưa xác minh"]
   n_42_2019_TT_BCT["42/2019/TT-BCT<br/>hết hiệu lực một phần"]
   n_33_2016_TT_BCT["33/2016/TT-BCT<br/>chưa xác minh"]
   n_51_2018_TT_BCT["51/2018/TT-BCT<br/>chưa xác minh"]
@@ -293,6 +296,7 @@ flowchart LR
   n_01_2024_TT_BNNPTNT -->|thay thế từ 2024-03-20| n_11_2021_TT_BNNPTNT
   n_01_2024_TT_BNNPTNT -->|sửa đổi mục 3.1, mục 4, mục 8, mục 9 Phụ lục từ 2024-03-20| n_16_2021_TT_BNNPTNT
   n_01_2024_TT_BNNPTNT -->|sửa đổi bãi bỏ Điều 9 và Phụ lục XXIII từ 2024-03-20| n_01_2022_TT_BNNPTNT
+  n_02_2018_TT_BCT -->|sửa đổi từ 2025-07-21| n_34_2025_TT_BCT
   n_07_2023_TT_NHNN -->|sửa đổi| n_38_2018_TT_NHNN
   n_07_2026_TT_BCT -->|sửa đổi Điều 6–10, bãi Điều 11, thay Phụ lục I–II từ 2026-04-10| n_37_2013_TT_BCT
   n_08_2023_TT_BCT -->|sửa đổi Phụ lục I, Phụ lục II (và các phụ lục khác theo Điều 1) từ 2023-05-16| n_12_2018_TT_BCT
