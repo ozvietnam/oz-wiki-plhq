@@ -74,12 +74,12 @@ def parse_ten_hang(noi_dung, loai_vb):
 
 def parse_don_vi_xnk(noi_dung):
     """Tìm '2. Đơn vị' - dừng trước '3. Số' hoặc '3. Tóm tắt' """
-    # Tìm "2. Đơn vị" ở đầu dòng
-    m = re.search(r'(?:^|\n)\s*2\.\s*Đơn\s*\n?\s*vị[\s\S]+?(?=[\n]\s*3\.\s+(?:Số|Tóm tắt|Đơn vị|To))', noi_dung)
+    # Tìm "2. Đơn vị" cho phép nhiều khoảng trắng/xuống dòng trước
+    m = re.search(r'(?:^|[\n\s]+)2\.\s*Đơn\s*\n?\s*vị[\s\S]+?(?=\n\s*3\.\s+(?:Số|Tóm tắt|Đơn vị|To))', noi_dung)
     if m:
         text = m.group(0)
-        # Bỏ header
-        text = re.sub(r'^\s*2\.\s*Đơn\s*\n?\s*vị[^\n]*:\s*', '', text)
+        # Bỏ header (chấp nhận nhiều khoảng trắng/xuống dòng)
+        text = re.sub(r'^\s*[\n\s]*2\.\s*Đơn\s*\n?\s*vị[^\n]*:\s*', '', text)
         # Che MST/CCCD
         text = re.sub(r'(mã số thuế|MST)\s*[:]\s*\d+', r'\1: ##MST##', text, flags=re.IGNORECASE)
         text = re.sub(r'(số\s*CMND/CCCD|CCCD/CMND)\s*[:]\s*[\d\-\s]+', r'\1: ##MST##', text, flags=re.IGNORECASE)
@@ -89,18 +89,20 @@ def parse_don_vi_xnk(noi_dung):
     return None
 
 def parse_mo_ta(noi_dung):
-    """Tìm 'Tóm tắt mô tả' - dừng trước '5. Kết quả' hoặc '4. Kết quả' """
-    m = re.search(r'(?:^|\n)\s*\d\.\s*Tóm tắt\s*\n?\s*mô tả[\s\S]+?(?=\n\s*\d\.\s+(?:Kết quả|Căn cứ|Thông số))', noi_dung)
+    """Tìm 'Tóm tắt mô tả' - dừng trước '5. Kết quả' hoặc 'Công dụng theo thiết kế' """
+    # Tìm "Tóm tắt mô tả" - cho phép xuống dòng giữa các từ
+    m = re.search(r'(?:^|\s+)(?:\d\.\s*)?Tóm tắt\s*\n?\s*mô\s*\n?\s*tả[\s\S]+?(?=\n\s*\d\.\s+(?:Kết quả|Căn cứ|Thông số)|- Công dụng theo thiết kế)', noi_dung)
     if m:
         text = m.group(0)
-        # Bỏ phần header "X. Tóm tắt mô tả hàng hóa được xác định trước mã số: "
-        text = re.sub(r'^\s*\d\.\s*Tóm tắt\s*\n?\s*mô tả[^:\n]*:\s*', '', text)
+        # Bỏ phần header "X. Tóm tắt mô tả hàng hóa được xác định trước mã số: " (cho phép xuống dòng)
+        text = re.sub(r'^\s*[\n\s]*(?:\d\.\s*)?Tóm tắt\s*\n?\s*mô\s*\n?\s*tả[\s\S]*?:\s*', '', text)
         return re.sub(r'\s+', ' ', text).strip()
     return None
 
 def parse_reason_vi(noi_dung):
-    """Tìm 'thuộc nhóm' / 'Thuộc nhóm' đến 'tại Danh mục' hoặc 'Thông báo này'"""
-    m = re.search(r'[Tt]huộc\s*nhóm\s+[\d.]+[\s\S]*?(?:tại Danh mục[\s\S]*?\.|Thông báo này[\s\S]*?\.)', noi_dung)
+    """Tìm 'thuộc [nhóm|X.XX]' / 'thuôc [nhóm]' / 'thuộc mã số' đến 'tại Danh mục'"""
+    # Tìm "thu[ộô]c [nhóm|mã số|X.XX]" đến "tại" + Danh mục
+    m = re.search(r'[Tt]hu[ộô]c\s+(?:nhóm|mã số|[\d.]+)[\s\S]+?(?:tại\s+(?:[\s\n]*Danh[\s\n]+mục|Thông báo này))', noi_dung)
     if m:
         text = m.group(0)
         return re.sub(r'\s+', ' ', text).strip()
