@@ -63,10 +63,18 @@ def parse_ten_hang(noi_dung, loai_vb):
         return re.sub(r'\s+', ' ', text).strip()
 
     # Pattern 2: "1. Tên hàng theo khai báo: X" (Phân loại)
-    m = re.search(r'1\.\s*Tên\s*\n?\s*hàng[^:\n]*[:.]\s*([^\n]+)', noi_dung)
+    # Hỗ trợ cả "1. Tên hàng" (cùng dòng) và "1. Tên\n hàng" (xuống dòng)
+    m = re.search(r'1\.\s*Tên\s*hàng[^:\n]*:\s*([^\n]+)', noi_dung)
     if m:
         text = m.group(1).strip()
         # Bỏ phần "Tên gọi theo cấu tạo" nếu lẫn vào
+        text = re.split(r'\n\s*Tên gọi theo cấu tạo', text)[0]
+        return re.sub(r'\s+', ' ', text).strip()
+
+    # Pattern 2b: "1. Tên\n hàng theo khai báo: X" (xuống dòng giữa Tên và hàng)
+    m = re.search(r'1\.\s*Tên\s*\n\s*hàng[^:\n]*:\s*([^\n]+)', noi_dung)
+    if m:
+        text = m.group(1).strip()
         text = re.split(r'\n\s*Tên gọi theo cấu tạo', text)[0]
         return re.sub(r'\s+', ' ', text).strip()
 

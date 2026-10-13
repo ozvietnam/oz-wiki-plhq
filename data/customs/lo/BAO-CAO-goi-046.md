@@ -1,10 +1,11 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
-- Vào: `data/customs/processed/tracuuhs-detail-2026-10-14-goi-046.json` — 19 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-14-goi-046.json` — **18 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-046.json` — 20 bản ghi
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-046.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
 - Cần xử tay: **1**
 
 ## Vào lô
+- 3611/TB-TCHQ (2019-06-03) → 34029099 — Silicone dùng trong sản xuất hóa mỹ phẩm - DOWSIL (TM) 2501 COSMETIC W…
 - 3673/TB-TCHQ (2019-06-05) → 34029012 — Chế phẩm sản xuất sữa tắm hiệu Bubble & Wesser Top-to-toe Wash, hương …
 - 3755/TB-TCHQ (2019-06-06) → 34022015 — Bình xịt vệ sinh hệ thống làm mát_universal super cool, code: 546, siz…
 - 3756/TB-TCHQ (2019-06-06) → 34022015 — Phụ gia nước làm mát_universal cooling system cleaner, code: 540, size…
@@ -26,7 +27,7 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 4616/TB-TCHQ/2024 → 34029099: reasonVi mỏng/cụt, toàn văn cũng không rút được chuỗi kết luận — "Thông báo 4616/TB-TCHQ 2024 kết quả xác định trước mã số TETRANYL L6 88E MB | HS"
+- 4616/TB-TCHQ/2024 → 34029099: không chọn được description đạt (dài/có tên nhóm biểu thuế) — ứng viên đầu: TETRANYL L6-88E/MB — "TETRANYL L6-88E/MB"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).
