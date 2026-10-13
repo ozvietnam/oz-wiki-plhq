@@ -211,7 +211,9 @@ t('không có hàng thật → không sinh việc', !timDiemMu(so6, { today: '20
 // Văn bản biểu thuế XNK Tổng cục nêu (hs-code-api data/bieu-thue/van-ban-bieu-thue.json)
 const rBt = soGia({
   '99-2020-nd-cp.yaml': `so_hieu: 99/2020/NĐ-CP\nloai: NĐ-CP\nten: Biểu thuế thử (cũ)\nco_quan: Chính phủ\ntinh_trang: HET_HIEU_LUC\nnhanh: [bieu-thue-xnk]\n${XM}\n`,
-  '98-2026-nd-cp.yaml': `so_hieu: 98/2026/NĐ-CP\nloai: NĐ-CP\nten: Biểu thuế thử (mới)\nco_quan: Chính phủ\ntinh_trang: CON_HIEU_LUC\nnhanh: [bieu-thue-xnk]\nquan_he:\n  thay_the:\n    - so_hieu: 99/2020/NĐ-CP\n      tu_ngay: '2026-07-01'\n      can_cu: Điều 9\n${XM}\n`,
+  '98-2026-nd-cp.yaml': `so_hieu: 98/2026/NĐ-CP\nloai: NĐ-CP\nten: Biểu thuế thử (mới)\nco_quan: Chính phủ\ntinh_trang: CON_HIEU_LUC\nnhanh: [bieu-thue-xnk]\nquan_he:\n  thay_the:\n    - so_hieu: 99/2020/NĐ-CP\n      tu_ngay: '2026-07-01'\n      can_cu: Điều 9\n  bai_bo:\n    - so_hieu: 96/2021/TT-BCT\n      tu_ngay: '2026-07-01'\n      can_cu: Điều 6 khoản 3 điểm b\n${XM}\n`,
+  '96-2021-tt-bct.yaml': `so_hieu: 96/2021/TT-BCT\nloai: TT-BCT\nten: Thông tư thử (sổ ghi hết, bị bãi bỏ tường minh, đã đối chiếu nguồn A)\nco_quan: Bộ Công Thương\ntinh_trang: HET_HIEU_LUC\nhet_hieu_luc_tu: '2026-07-01'\nnhanh: [bieu-thue-xnk]\nquan_he: {}\nxac_minh: {muc: NGUON_A, hieu_luc_da_doi_chieu: true, ngay: "2026-10-01"}\n`,
+  '93-2018-tt-bct.yaml': `so_hieu: 93/2018/TT-BCT\nloai: TT-BCT\nten: Thông tư thử (hết theo thời hạn biện pháp, không có văn bản thay, đã đối chiếu)\nco_quan: Bộ Công Thương\ntinh_trang: HET_HIEU_LUC\nhet_hieu_luc_tu: '2022-09-07'\nnhanh: [bieu-thue-xnk]\nquan_he: {}\nxac_minh: {muc: NGUON_A, hieu_luc_da_doi_chieu: true, ngay: "2026-10-01"}\n`,
   '97-2019-tt-bct.yaml': `so_hieu: 97/2019/TT-BCT\nloai: TT-BCT\nten: Thông tư thử (hiện hành nhưng sổ ghi hết, chưa có văn bản thay)\nco_quan: Bộ Công Thương\ntinh_trang: HET_HIEU_LUC\nnhanh: [bieu-thue-xnk]\n${XM}\n`,
 });
 const vbBt = rutGonVanBanBieuThue({ nguon: 'bieu-thue@2026.04.05', ngay: '2026-10-12', vanBan: [
@@ -220,9 +222,11 @@ const vbBt = rutGonVanBanBieuThue({ nguon: 'bieu-thue@2026.04.05', ngay: '2026-1
   { soHieu: '94/2025/NĐ-CP', vaiTro: ['CHINH_SACH_MA_HS'], noiDung: [], soMaHs: 332 },
   { soHieu: '99/2020/NĐ-CP', vaiTro: ['HIEN_HANH', 'CHINH_SACH_MA_HS'], noiDung: ['Biểu thuế thử'], soMaHs: 120 },
   { soHieu: '97/2019/TT-BCT', vaiTro: ['HIEN_HANH'], noiDung: ['Quy tắc thử'], soMaHs: 3 },
+  { soHieu: '93/2018/TT-BCT', vaiTro: ['HIEN_HANH'], noiDung: ['Quy tắc thử'], soMaHs: 5 },
+  { soHieu: '96/2021/TT-BCT', vaiTro: ['HIEN_HANH'], noiDung: ['Quy tắc thử'], soMaHs: 60 },
   { soHieu: '98/2026/NĐ-CP', vaiTro: ['HIEN_HANH'], noiDung: ['Biểu thuế thử'], soMaHs: 0 },
 ] }, 'test');
-t('rutGonVanBanBieuThue: giữ số hiệu/vai trò/tên/số mã HS, bỏ tình trạng do hs-code-api đối chiếu', vbBt.vanBan.length === 6 && vbBt.bieuThue === 'bieu-thue@2026.04.05' && !('trongSo' in vbBt.vanBan[0]) && vbBt.vanBan[3].soMaHs === 120, JSON.stringify(vbBt.vanBan[0]));
+t('rutGonVanBanBieuThue: giữ số hiệu/vai trò/tên/số mã HS, bỏ tình trạng do hs-code-api đối chiếu', vbBt.vanBan.length === 8 && vbBt.bieuThue === 'bieu-thue@2026.04.05' && !('trongSo' in vbBt.vanBan[0]) && vbBt.vanBan[3].soMaHs === 120, JSON.stringify(vbBt.vanBan[0]));
 const dbt = timDiemMu(napSo(rBt), { today: '2026-10-12', root: rBt, nhuCau: null, hangThat: null, vanBanBieuThue: vbBt });
 const chuaCo = dbt.filter((d) => d.ma === 'BIEU_THUE_CHUA_CO');
 t('biểu thuế: văn bản hiện hành sổ chưa có → BIEU_THUE_CHUA_CO mức Cao', chuaCo.some((d) => d.muc_tieu === '96/2022/NĐ-CP' && d.muc === 'Cao'), JSON.stringify(chuaCo));
@@ -231,6 +235,8 @@ t('biểu thuế: văn bản chỉ ở cột chính sách → không lặp (đã
 const daHet = dbt.filter((d) => d.ma === 'BIEU_THUE_HIEN_HANH_DA_HET');
 t('biểu thuế: hiện hành nhưng sổ ghi hết, đã có văn bản thay → việc nêu văn bản thay, mức Cao vì ≥50 mã HS', daHet.some((d) => d.muc_tieu === '99/2020/NĐ-CP' && d.muc === 'Cao' && /98\/2026\/NĐ-CP/.test(d.viec)), JSON.stringify(daHet));
 t('biểu thuế: hiện hành nhưng sổ ghi hết, CHƯA có văn bản thay → việc ghi quan hệ thay_the', daHet.some((d) => d.muc_tieu === '97/2019/TT-BCT' && /CHƯA ghi văn bản thay/.test(d.viec)));
+t('biểu thuế: bị bãi bỏ tường minh + đã đối chiếu → nêu văn bản bãi, hạ Thấp (sổ đã xong, còn lệch bên biểu)', daHet.some((d) => d.muc_tieu === '96/2021/TT-BCT' && d.muc === 'Thấp' && /bãi bỏ bởi 98\/2026\/NĐ-CP/.test(d.viec)), JSON.stringify(daHet));
+t('biểu thuế: hết theo thời hạn, đã đối chiếu, không có văn bản thay → hạ Thấp, không bắt đi tìm văn bản thay', daHet.some((d) => d.muc_tieu === '93/2018/TT-BCT' && d.muc === 'Thấp' && /không có văn bản thay\/bãi trong sổ/.test(d.viec)), JSON.stringify(daHet));
 t('biểu thuế: văn bản còn hiệu lực → không sinh việc BIEU_THUE', !dbt.some((d) => d.ma.startsWith('BIEU_THUE_') && d.muc_tieu === '98/2026/NĐ-CP'));
 t('không có danh sách văn bản biểu thuế → không sinh việc BIEU_THUE', !timDiemMu(napSo(rBt), { today: '2026-10-12', root: rBt, nhuCau: null, hangThat: null, vanBanBieuThue: null }).some((d) => d.ma.startsWith('BIEU_THUE_')));
 
