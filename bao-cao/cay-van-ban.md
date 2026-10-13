@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-10-13
 
-2278 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2277 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -2229,13 +2229,12 @@ _Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
 
 ### Luật Quản lý ngoại thương và nghị định `quan-ly-ngoai-thuong/luat-khung`
 
-9 văn bản, 4 chưa hết hiệu lực.
+8 văn bản, 4 chưa hết hiệu lực.
 
 - 🟢 [48/2026/TT-BCT](../registry/van-ban/48-2026-tt-bct.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương
 - 🟢 [292/2026/NĐ-CP](../registry/van-ban/292-2026-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương
 - 🟡 [12/2018/TT-BCT](../registry/van-ban/12-2018-tt-bct.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương _(hết hiệu lực 2026-12-31)_
 - ⚫ [69/2018/NĐ-CP](../registry/van-ban/69-2018-nd-cp.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương _(hết hiệu lực 2026-09-05)_
-- ⚫ [09/2018/NĐ-CP](../registry/van-ban/09-2018-nd-cp.yaml) — Quy định chi tiết Luật Thương mại về hoạt động mua bán hàng hóa quốc tế và các hoạt động đại lý mua, bán, gia công và quá cảnh hàng hóa với nước ngoài _(hết hiệu lực 2022-01-15)_
 - 🟢 [05/2017/QH14](../registry/van-ban/05-2017-qh14.yaml) — Luật Quản lý ngoại thương
 - ⚫ [187/2013/NĐ-CP](../registry/van-ban/187-2013-nd-cp.yaml) — Quy định chi tiết thi hành Luật Thương mại về hoạt động mua bán hàng hóa quốc tế và các hoạt động đại lý mua, bán, gia công và quá cảnh hàng hóa với nước ngoài _(hết hiệu lực 2018-06-15)_
 - ⚫ [108/2008/NĐ-CP](../registry/van-ban/108-2008-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất _(hết hiệu lực 2017-11-25)_

@@ -1,7 +1,7 @@
 {
   "phien_ban": "2026-10-13",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2278,
+  "tong": 2277,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -223,6 +223,14 @@
         }
       ],
       "trich_dan_trong_bieu_thue": 1468,
+      "danh_muc_hs": {
+        "tep": "danh-muc/01-2024-tt-bnnptnt.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/2/41292/48972-1-2024329-33001-2024-tt-bnnptnt.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (3692 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "PDF Công báo số 329+330 ngày 21-02-2024 (lớp chữ): Điều 3 khoản 1 hiệu lực 20-03-2024; khoản 2 thay/bãi 11/2021, một phần 16/2021 và 01/2022 TT-BNNPTNT; tình trạng hiện tại: sổ không có văn bản sau ghi thay/bãi TT 01/2024",
@@ -1116,6 +1124,14 @@
         }
       ],
       "trich_dan_trong_bieu_thue": 1964,
+      "danh_muc_hs": {
+        "tep": "danh-muc/08-2023-tt-bct.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/9/23/470460-1789953490_v1_1790125719_signed.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (465 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "PDF Công báo số 663+664 ngày 14-04-2023 (lớp chữ): Điều 3 khoản 1 hiệu lực 16-05-2023; tình trạng hiện tại: Điều 20 khoản 3 điểm c TT 48/2026/TT-BCT (PDF Công báo số 521 ngày 23-09-2026) bãi bỏ khoản 1 Điều 1 và Phụ lục I từ 05-09-2026; Điều 21 khoản 3 cho danh mục thiết bị y tế đã qua sử dụng cấm nhập khẩu (Phụ lục I TT 12/2018 sửa bởi Phụ lục I TT 08/2023) tiếp tục thực hiện đến hết 31-12-2026",
@@ -1230,42 +1246,6 @@
       }
     },
     {
-      "so_hieu": "09/2018/NĐ-CP",
-      "loai": "NGHI_DINH",
-      "ten": "Quy định chi tiết Luật Thương mại về hoạt động mua bán hàng hóa quốc tế và các hoạt động đại lý mua, bán, gia công và quá cảnh hàng hóa với nước ngoài",
-      "co_quan": "CP",
-      "ngay_ban_hanh": "2018-01-15",
-      "hieu_luc_tu": "2018-06-15",
-      "het_hieu_luc_tu": "2022-01-15",
-      "tinh_trang": "HET_HIEU_LUC",
-      "nhanh": [
-        "quan-ly-ngoai-thuong/luat-khung"
-      ],
-      "nguon": [],
-      "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-12",
-        "boi": "legal-customs@ozvietnam"
-      },
-      "ghi_chu": "NĐ thay thế NĐ 187/2013/NĐ-CP từ 15/06/2018 về hoạt động mua bán hàng hóa quốc tế. Hết hiệu lực 15/01/2022, bị thay bởi NĐ 98/2021/NĐ-CP. Ngày ban hành và trích yếu nguyên văn CHUA_RO: LLM không có internet để đối chiếu cổng văn bản Chính phủ.",
-      "quan_he": {},
-      "toan_van": "chua_co",
-      "slug": "09-2018-nd-cp",
-      "bac_nguon_cao_nhat": null,
-      "quan_he_nguoc": {
-        "bi_bai_bo_boi": [
-          {
-            "tu": "187/2013/NĐ-CP",
-            "quan_he": "bai_bo",
-            "so_hieu": "09/2018/NĐ-CP",
-            "tu_ngay": "2018-06-15",
-            "can_cu": "NĐ 09/2018/NĐ-CP thay thế NĐ 187/2013/NĐ-CP"
-          }
-        ]
-      }
-    },
-    {
       "so_hieu": "09/2018/TT-BYT",
       "loai": "THONG_TU",
       "ten": "Ban hành Danh mục hóa chất, chế phẩm diệt côn trùng, diệt khuẩn dùng trong gia dụng và y tế thuộc lĩnh vực quản lý nhà nước của Bộ Y tế được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
@@ -1331,6 +1311,14 @@
         }
       ],
       "trich_dan_trong_bieu_thue": 376,
+      "danh_muc_hs": {
+        "tep": "danh-muc/09-2024-tt-byt.csv",
+        "nguon": "https://moh.gov.vn/tin-tong-hop/-/asset_publisher/k206Q9qkZOqn/content/bo-y-te-he-thong-van-ban-ban-hanh-nam-2024",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (3334 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "toàn văn vbpl.vn ItemID=169844 (bậc A) + VCCI (bậc B đối chiếu): Điều 1 (Phạm vi điều chỉnh): ban hành 14 DM + nguyên tắc áp dụng; loại trừ tá dược, vỏ nang, hàng không phải nguyên liệu làm thuốc dùng cho người. Điều 2 (Ban hành DM): 14 DM (DM1-5 thuốc KSĐB/thuốc độc/nguyên liệu gây nghiện/hướng thần/tiền chất/chất cấm; DM6 chất phóng xạ; DM7-9 thuốc TP/dược chất/thuốc phối hợp; DM10 vắc xin; DM11 dược liệu; DM12 chất chiết xuất + tinh dầu; DM13 thuốc cổ truyền + thuốc dược liệu; DM14 mỹ phẩm). Điều 3 (Nguyên tắc áp dụng): k1 khác biệt phân loại theo PL HQVN; k2 hàng chưa có trong DM theo PL HQVN + DN gửi VB BYT (Cục QLD hoặc Cục QLYDCT) sau thông quan để cập nhật DM; k3 cùng mặt hàng nhiều mục đích theo PL tương ứng. Điều 4 (Hiệu lực): 26/07/2024; bãi bỏ TT 06/2018, 48/2018, 03/2021. Điều 5 (Trách nhiệm): Cục QLD (DM1-10,14) / Cục QLYDCT (DM11-13) tiếp nhận hồ sơ + giải quyết vướng mắc. Phụ lục: 14 DM, 3.335 dòng. Cấu trúc cột từng DM: DM1-4 (STT|Mô tả|Mã HS|Tên nguyên liệu|Dạng dùng), DM5 (STT|Mô tả|Mã HS|Tên dược chất|Dạng dùng), DM6 (STT|Tên thuốc phóng xạ|Mã HS), DM7 (STT|Tên nguyên liệu/Dạng dùng|Mã HS), DM8 (STT|Mô tả|Mã HS|Tên dược chất|Dạng dùng), DM9 (STT|Mô tả|Mã HS|Tên thành phần hoạt chất|Dạng dùng), DM10 (STT|Tên vắc xin|Công dụng|Mã HS), DM11 (STT|Tên VN|Bộ phận dùng|Tên KH|Mô tả|Mã HS), DM12 (STT|Tên|Tên KH|Mã HS), DM13 (STT|Tên thuốc|Thành phần|Dạng bào chế|Mã HS), DM14 (STT|Mô tả|Mã HS). Phát hiện: (a) Ngải cứu thường gọi = Thanh cao theo Dược điển VN, mã 12119017/12119018 trong DM11; (b) DM9 có 1 dòng Menthol + Methyl salicylate + Camphor + Thymol ở mã 3005.10.10 (chỉ dược chất tổng hợp, KHÔNG có dược liệu tự nhiên); (c) DM13 chỉ có dạng viên/siro, KHÔNG có cao dán.",
@@ -1548,6 +1536,14 @@
         }
       ],
       "trich_dan_trong_bieu_thue": 5,
+      "danh_muc_hs": {
+        "tep": "danh-muc/10-2022-tt-btttt.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/7/37592/41355-1-2022637-63810-2022-tt-btttt.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (102 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "PDF Công báo số 637+638 ngày 31-07-2022 (lớp chữ): Điều 3 khoản 1 hiệu lực 15-09-2022; thẻ Công báo «Hiệu lực: 15/09/2022»; tình trạng hiện tại: sổ không có văn bản sau ghi thay/bãi TT 10/2022; TT 36/2026/TT-BKHCN không nêu 10/2022 (kiểm đến 04-10-2026)",
@@ -4208,6 +4204,14 @@
         }
       ],
       "trich_dan_trong_bieu_thue": 186,
+      "danh_muc_hs": {
+        "tep": "danh-muc/11-2018-tt-btttt.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/31/470149-1785470166_v1_1785493136_signed.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (39 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "PDF Công báo CDN (lớp chữ): Điều 3 khoản 1 hiệu lực 30-11-2018; căn cứ NĐ 69/2018/NĐ-CP; tình trạng hiện tại: Điều 64 khoản 4 NĐ 292/2026/NĐ-CP (PDF Công báo số 456, lớp chữ) cho VBQPPL hướng dẫn thi hành NĐ 69 tiếp tục thực hiện đến hết 31-12-2026 — TT này thuộc nhóm đó; chưa thấy thông tư thay danh mục CNTT đã qua sử dụng trên nguồn A (kiểm đến 04-10-2026)",
@@ -8797,6 +8801,14 @@
           "37/2026/NĐ-CP"
         ]
       },
+      "danh_muc_hs": {
+        "tep": "danh-muc/125-2026-tt-bca.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/8/20/470259-1787037095_v1_1787187913_signed.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (59 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "Thông tư 125/2026/TT-BCA gồm 7 Điều + 1 Phụ lục (Công báo số 475, 20-08-2026):\nĐiều 1 (Phạm vi điều chỉnh): Danh mục + nguyên tắc quản lý SP/HH rủi ro trung bình & rủi ro cao do BCA quản lý.\nĐiều 2 (Đối tượng áp dụng): (1) Đơn vị thuộc BCA, CA tỉnh/TP; (2) Tổ chức/cá nhân NK, SX, KD SP/HH trong Danh mục; (3) Tổ chức đánh giá sự phù hợp.\nĐiều 3 (Danh mục): Phụ lục ban hành kèm; Cục KH-CLS Công an chủ trì rà soát sửa đổi/bổ sung theo từng thời kỳ.\nĐiều 4 (Nguyên tắc quản lý chất lượng): Theo Luật CL SPHH, Luật TCCS-QCKT, yêu cầu tại Phụ lục + pháp luật liên quan.\nĐiều 5 (Hiệu lực): (1) Hiệu lực 01-07-2026; (2) VBQPPL/QCTKQG dẫn chiếu trong Danh mục bị sửa đổi/thay thế → áp dụng văn bản mới.\nĐiều 6 (Chuyển tiếp): (1) Giấy CN hợp quy, TB tiếp nhận CBHQ cấp trước ngày hiệu lực còn giá trị đến hết hạn; (2) Rủi ro CAO: truy xuất nguồn gốc sau 06 tháng từ ngày hiệu lực.\nĐiều 7 (Trách nhiệm thi hành): (1) Cục KH-CLS Công an hướng dẫn, kiểm tra, đôn đốc; (2) Thủ trưởng đơn vị thuộc BCA, GĐ CA tỉnh/TP, tổ chức/cá nhân liên quan chịu trách nhiệm; vướng mắc báo BCA (qua Cục KH-CLS).\nPhụ lục (Danh mục SP/HH):\n  (I) PHẦN A — RỦI RO CAO (4 mã HS):\n    1. Pháo hoa các loại → 3604.10.00 — QCVN 04:2021/BCA.\n    2. Bình chữa cháy (có bộ phận kích hoạt tay/điện/cơ khí) → 8424.10.90 — QCVN 03:2023/BCA.\n    3. Chất chữa cháy (gốc nước, bột, khí, bọt) → 3813.00.00 — QCVN 03:2023/BCA.\n    4. Chai/thiết bị chứa khí chữa cháy (vỏ thép sơn đỏ, van xả/kích hoạt tự động) → 8424.10.90 — QCVN 03:2023/BCA.\n  (II) PHẦN B — RỦI RO TRUNG BÌNH (55 mã HS):\n    Mục I. Phương tiện PCCC & cứu nạn, cứu hộ (11 mã, QCVN 03:2023/BCA):\n      1. Tủ trung tâm báo cháy → 8537.10.99.\n      2. Đầu báo cháy các loại → 8531.10.20 / 8531.10.30 / 8531.90.90.\n      3. Đầu phun chất chữa cháy → 8424.90.99.\n      4. Đèn chiếu sáng sự cố, đèn chỉ dẫn thoát nạn → 9405.11.99 / 9405.19.92 / 9405.19.99 / 9405.61.90 / 9405.69.90.\n      5. Máy bơm chữa cháy → 8413.19.10 / 8413.19.20 / 8413.70.\n      6. Van báo động; van tràn ngập → 8481.40.90.\n      7. Vòi đẩy chữa cháy → 5909.00.10.\n    Mục II. Phương tiện giám sát TT-ATGT, an toàn xã hội (44 mã, QCVN 05/06/11:2024–2026/BCA):\n      1. Thiết bị giám sát hành trình & ghi nhận hình ảnh người lái → 8525.81.10/20/90 — QCVN 06:2024 + 11:2026.\n      2. Thiết bị đo tốc độ tự động (radar) → 8525.82.10/20/90 — QCVN 05:2024 + 11:2026.\n      3. Camera quan sát giao thông → 8525.83.10/20/90 — QCVN 05:2024 + 11:2026.\n      4. Camera giám sát giao thông → 8525.89.10/20/30/90 + 8481.80 — QCVN 11:2026 + 05:2024.\n      5. Camera nhận dạng biển số → QCVN 05:2024 + 11:2026.\n      6. Camera đo đếm lưu lượng phương tiện → QCVN 05:2024 + 11:2026.\n      7. Camera giám sát dùng giao thức Internet → QCVN 11:2026.\nTổng: 59 mã HS (A: 4 rủi ro CAO, B: 55 rủi ro TB). Quản lý chất lượng: rủi ro CAO phải chứng nhận hợp quy + kiểm tra NN chất lượng; rủi ro TB công bố phù hợp QCKT; PCCC-CNCH thử nghiệm tại VN tổ chức được chỉ định/công nhận; Điều 44 Luật 55/2024/QH15 áp dụng đồng thời.\n",
@@ -8994,6 +9006,14 @@
         "huong_dan": [
           "37/2026/NĐ-CP"
         ]
+      },
+      "danh_muc_hs": {
+        "tep": "danh-muc/126-2026-tt-bqp.csv",
+        "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/126-bqp.signed.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (54 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
       },
       "xac_minh": {
         "muc": "NGUON_A",
@@ -9711,6 +9731,14 @@
         }
       ],
       "trich_dan_trong_bieu_thue": 24,
+      "danh_muc_hs": {
+        "tep": "danh-muc/13-2023-qd-ttg.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/5/39342/44754-1-2023723-72413-2023-q-ttg.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (24 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "PDF Công báo số 723+724 ngày 31-05-2023 (lớp chữ): Điều 4 khoản 1 hiệu lực 01-06-2023 và thay thế 28/2020/QĐ-TTg; tình trạng hiện tại: sổ không có văn bản sau ghi thay/bãi QĐ 13/2023",
@@ -12322,6 +12350,14 @@
         }
       ],
       "trich_dan_trong_bieu_thue": 186,
+      "danh_muc_hs": {
+        "tep": "danh-muc/15-2024-tt-byt.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/44656/55863-1-2025629-63015-2024-tt-byt.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (447 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "Toàn văn 6 Điều + 1 Phụ lục (PDF Công báo số 629+630 ngày 12-04-2025, tr.34-89; file body.txt 6159 dòng). Điều 1 Phạm vi điều chỉnh: ban hành DM + nguyên tắc áp dụng. Điều 2 Ban hành Danh mục. Điều 3 Nguyên tắc áp dụng Danh mục: (1) trường hợp khác biệt phân loại HS → theo pháp luật hải quan; (2) hàng chưa liệt kê → tra HS theo luật hải quan, sau thông quan gửi Cục ATTP để cập nhật; (3) kiểm tra ATTP nhập khẩu theo Điều 37 NĐ 15/2018/NĐ-CP — hàng có tên trong DM thực hiện Điều 40 Luật ATTP + Điều 16 NĐ 15/2018; (4) miễn/không thuộc đối tượng KTCL — Điều 13 NĐ 15/2018 (trừ cảnh báo), hàng không nhằm mục đích làm thực phẩm, dụng cụ/bao gói không chứa đựng và không tiếp xúc trực tiếp; (5) phụ gia hỗn hợp ≥2 chất có tên trong DM → mã HS theo 6 GIR kèm TT 31/2022/TT-BTC. Điều 4 Điều khoản tham chiếu. Điều 5 Hiệu lực: (1) 02-11-2024; (2) thay TT 28/2021/TT-BYT. Điều 6 Trách nhiệm thi hành — Cục trưởng Cục ATTP, các đơn vị BYT, Sở Y tế/Sở ATTP địa phương. Phụ lục DM 3 nhóm: I. Thực phẩm bổ sung (mã HS theo 6 GIR TT 31/2022/TT-BTC); II. Phụ gia thực phẩm đơn chất (~391 dòng, mã INS 100–957); III. Dụng cụ chứa đựng/vật liệu bao gói tiếp xúc trực tiếp (6 dòng, nhựa + cao su). Phạm vi KTCL: nhập khẩu thuộc quản lý BYT; căn cứ NĐ 15/2018/NĐ-CP; nguyên tắc phân loại HS theo TT 31/2022/TT-BTC. Tình trạng: TT 27/2026/TT-BYT dẫn TT 15/2024 làm căn cứ mã HS (không thay); sổ không có văn bản sau ghi thay/bãi TT 15/2024 (kiểm đến 04-10-2026).",
@@ -13393,6 +13429,14 @@
           }
         ]
       },
+      "danh_muc_hs": {
+        "tep": "danh-muc/16-2026-tt-bnv.csv",
+        "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/16-bnv.signed.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (56 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "8 Điều + 1 Phụ lục. Đ1 Phạm vi điều chỉnh — Thông tư ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình và mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Nội vụ kèm mã HS và yêu cầu quản lý chất lượng tương ứng. Đ2 Đối tượng áp dụng — tổ chức/cá nhân trong nước & nước ngoài tại VN SX/XK/NK/kinh doanh/sử dụng; tổ chức/cá nhân đánh giá sự phù hợp; cơ quan QLNN & các bên liên quan. Đ3 Danhục sản phẩm rủi ro TB/cao — Mục I (rủi ro cao) và Mục II (rủi ro trung bình) của Phụ lục kèm theo Thông tư. Đ4 Nguyên tắc quản lý — tuân thủ Luật CLSPHH 05/2007 (sửa bổ sung 78/2025), Luật TC&QCKT 68/2006 (sửa bổ sung 35/2018, 70/2025); thực hiện CN/CB hợp quy theo QCVN & TT 14/2026/TT-BKHCN; trường hợp SP đồng thời thuộc nhiều QCVN thì phải đáp ứng đầy đủ, bảo đảm không trùng lặp nội dung đánh giá. Đ5 Trách nhiệm QLNN về CL — Cục Việc làm (BNV) = cơ quan kiểm tra CL Trung ương; UBND các cấp & cơ quan chuyên môn thuộc UBND tỉnh/TP = cơ quan kiểm tra CL địa phương; tổ chức/cá nhân nhập khẩu đăng ký kiểm tra nhà nước về CL tại UBND nơi được phân công. Đ6 Điều khoản chuyển tiếp — Giấy CN hợp quy & Thông báo tiếp nhận bản công bố hợp quy đã cấp trước ngày TT có hiệu lực còn giá trị đến hết hạn ghi trên giấy; hồ sơ đăng ký CN hợp quy tiếp nhận trước 01/7/2026 chưa giải quyết xong thì tiếp tục theo quy định tại thời điểm tiếp nhận; tổ chức đánh giá sự phù hợp đã được chỉ định với SP nhóm 2 tiếp tục đến hết hạn QĐ chỉ định; trong thời gian Cổng một cửa QG nâng cấp, đăng ký kiểm tra trên Cổng DVCQG hoặc theo hướng dẫn cơ quan kiểm tra. Đ7 Hiệu lực thi hành — có hiệu lực kể từ ngày ký (28/7/2026); hết hiệu lực TT 01/2021/BLĐTBXH (khoản 2 điểm a), TT 26/2018/BLĐTBXH (điểm b), TT 13/2024/BLĐTBXH (điểm c), Điều 16 TT 09/2025/TT-BNV (điểm d); VB viện dẫn được sửa đổi/thay thế áp dụng theo VB mới; QCVN khác biệt về biện pháp QLCL áp dụng theo TT 16/2026; QCVN mới đối với hàng trong DM áp dụng theo QCVN mới; SP chưa liệt kê HS/không thống nhất HS thì xác định theo pháp luật hải quan. Đ8 Tổ chức thực hiện — Cục Việc làm chủ trì rà soát/trình Bộ trưởng cập nhật DM & rà soát QCVN tương ứng; UBND tỉnh/TP trực thuộc TW tổ chức tuyên truyền/hướng dẫn/kiểm tra; khó khăn vướng mắc phản ánh về BNV.\nPhụ lục — Mục I rủi ro cao (8 nhóm): (1) Phương tiện bảo vệ đầu: mũ an toàn công nghiệp; (2) Phương tiện bảo vệ cơ quan hô hấp (trừ khẩu trang y tế): thiết bị bảo vệ hô hấp bộ lọc bụi, bộ lọc dùng trong mặt nạ & bán mặt nạ phòng độc; (3) Phương tiện bảo vệ tay (trừ găng tay y tế/găng khám bệnh): găng tay cách điện; (4) Phương tiện bảo vệ chân: giày/ủng cách điện, giày/ủng an toàn; (5) Dây đai an toàn & Hệ thống chống rơi ngã cá nhân (trừ dây cứu sinh phục vụ PCCC); (6) Quần áo chống nhiệt & lửa; (7) Thang máy & các bộ phận an toàn thang máy: khóa cửa tầng & khóa cửa cabin, bộ hãm an toàn, máy dẫn động (hệ thống phanh của máy dẫn động), bộ khống chế vượt tốc, bộ giảm chấn, van ngắt/van một chiều thang máy thủy lực; (8) Thang cuốn & băng tải chở người. Yêu cầu QLCL Mục I: công bố hợp quy trên cơ sở CN hợp quy của tổ chức CN được chỉ định; phương thức 5 & 7 (riêng STT 7,8 thêm phương thức 8) theo TT 14/2026/TT-BKHCN; hàng NK kiểm tra nhà nước về CL theo quy định.\nPhụ lục — Mục II rủi ro trung bình (10 nhóm): (1) Nồi hơi có áp suất định mức hơi >0,7 bar; (2) Bình/bồn/bể/xi téc/chai/thùng áp suất định mức >0,7 bar theo TCVN 8366:2010 (trừ chai khí dùng 1 lần & chai/bình/bồn chứa khí quay vòng tạm nhập-tái xuất/tạm xuất-tái nhập); (3) Hệ thống lạnh môi chất B1/B2L/B2/B3/A2/A3 nhóm A2L lượng nạp ≥5 kg (TCVN 6104 & TCVN 6739); (4) Cần trục; (5) Cầu trục & cổng trục; (6) Vận thăng; (7) Thiết bị nâng dùng để nâng/di chuyển/hạ hàng; (8) Xe nâng dùng động cơ tải trọng nâng ≥1.000 kg; (9) Bàn nâng người, sàn nâng người; (10) Pa lăng điện. Yêu cầu QLCL Mục II: công bố phù hợp QCVN trên cơ sở CN hợp quy (tổ chức CN được công nhận) hoặc tự đánh giá dựa trên thử nghiệm của tổ chức thử nghiệm được công nhận/chỉ định; phương thức 5, 7 & 8 theo TT 14/2026/TT-BKHCN; hàng NK công bố hợp quy trước khi lưu thông.\nMã HS (khử trùng lặp) phủ 12 chương 39, 40, 42, 61, 62, 63, 64, 65, 73, 76, 84, 90: 6506.10.20; 6506.10.30; 9020.00.10; 9020.00.90; 4015.19; 4203.29.10; 6116.10.90; 6216.00.10; 6216.00.99; 6401.10.00; 6402.91.91; 6402.99.10; 6402.99.20; 6403.40.00; 6403.59.90; 6403.91.10; 6405.10.00; 4205.00.20; 6307.90.61; 6307.90.69; 6114.30.20; 6210.30.20; 6210.20.20; 8428.10; 8431.31.10; 8431.31.20; 8428.40.00; 8402.11; 8402.12; 8402.19; 8402.20; 8403.10.00; 7311; 3923.30.20; 7613.00.00; 6104; 8415.81; 8415.82; 8418.69; 8418.86.10; 8418.99.10; 8426; 8428.10.39; 8427.10.00; 8427.20.00; 8427.90.00; 8425.41.00; 8425.42.90; 8426.12.00; 8425.49; 8425.11.00; 8425.31.00; 8425.49.10.\nCăn cứ pháp lý: Luật ATVSLĐ 84/2015/QH13; Luật CLSPHH 05/2007/QH12 sửa bổ sung bởi 78/2025/QH15; Luật TC&QCKT 68/2006/QH11 sửa bổ sung bởi 35/2018/QH14 & 70/2025/QH15; NĐ-CP 37/2026, 22/2026, 276/2026; QCVN áp dụng: 06:2012, 08:2012, 10:2012, 24:2014, 15:2013, 36:2019, 23:2014, 37:2019, QCVN:02/2019, 32:2018, 11:2012, 01-2008, 21:2015, 7:2012, 29:2016, 30:2016, 16:2013, 25:2015, 12:2013, 20:2015, 13:2013 (BLĐTBXH).\n",
@@ -14016,6 +14060,14 @@
         }
       ],
       "trich_dan_trong_bieu_thue": 340,
+      "danh_muc_hs": {
+        "tep": "danh-muc/17-2023-tt-bnnptnt.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/12/40996/48199-1-2024101-10217-2023-tt-bnnptnt.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (763 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "PDF Công báo CDN (48199-1-2024101-10217-2023-tt-bnnptnt.pdf, 1.056.612 bytes, SHA256 1a168b92…).\nVăn bản có 3 Điều + 01 Bảng mã HS kèm theo (ban hành kèm theo Thông tư):\n• Điều 1: Ban hành kèm theo Thông tư Bảng mã HS đối với hàng hóa là thực vật rừng, động vật rừng\n  nguy cấp, quý, hiếm và động vật, thực vật thuộc các Phụ lục Công ước CITES.\n• Điều 2: Hiệu lực thi hành — khoản 1 có hiệu lực kể từ 30/01/2024; khoản 2 bãi bỏ QĐ 924/QĐ-BNN-TCLN\n  (24/3/2017); khoản 3 ưu tiên văn bản QPPL mới về tên loài/nhóm loài; khoản 4 mã HS/loại hàng hóa\n  áp dụng theo Danh mục hàng hóa XK/NK của Bộ Tài chính.\n• Điều 3: Trách nhiệm thi hành — Chánh VP Bộ, Cục trưởng Cục Kiểm lâm, Thủ trưởng các đơn vị thuộc Bộ\n  NN&PTNT và tổ chức, cá nhân liên quan.\nBảng mã HS (Phụ lục CITES I, II, III; phạm vi điều chỉnh = mẫu vật hoang dã nguy cấp, loài thuần hóa\nngoài phạm vi): I. Hàng hóa là mẫu vật động vật rừng nguy cấp, quý, hiếm và động vật thuộc các Phụ lục CITES\n(Động vật sống — Chương HS 01.01, 01.02, 01.03, 01.04, 01.06: ngựa/lừa, trâu bò, lợn, cừu/dê, động vật sống khác\ngồm bộ Linh trưởng, bộ Ăn thịt/Họ Mèo, Họ Chó, Họ Gấu, Bộ Voi, Bộ Tê giác, Bộ Ngựa vằn, Bộ Lợn vòi, Bò sát\n[Rùa, Rắn, Kỳ nhông, Cá sấu, Thằn lằn], Chim [Vẹt, Cú, Đà điểu]). Các phần tiếp theo (Gỗ, Trầm hương, Da lông,\nThực vật, Sản phẩm từ loài hoang dã) được đăng tiếp trong Công báo số 103+104 (xem \"Xem tiếp Công báo số 103 + 104\").\nTrích dẫn 340 mã HS trong biểu thuế EN2022/NĐ 26/2023.\n",
@@ -24369,6 +24421,14 @@
         }
       ],
       "trich_dan_trong_bieu_thue": 31,
+      "danh_muc_hs": {
+        "tep": "danh-muc/22-2018-tt-btttt.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/12/28195/25392-1-2019107-10822-2018-tt-btttt.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (33 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "PDF Công báo số 107+108 ngày 29-01-2019 (lớp chữ): Điều 2 khoản 1 hiệu lực 12-02-2019 và thay thế 16/2015, 41/2016 TT-BTTTT; tình trạng hiện tại: sổ ghi TT 11/2024/TT-BTTTT sửa đổi (chưa đối chiếu nguồn A trên chính 11/2024) — không thay toàn bộ; chưa thấy văn bản bãi bỏ toàn bộ 22/2018",
@@ -26683,6 +26743,14 @@
           }
         ]
       },
+      "danh_muc_hs": {
+        "tep": "danh-muc/24-2026-tt-byt.csv",
+        "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/24-byt.signed.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (1 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "TT 24/2026/TT-BYT ban hành 30/06/2026, ký Bộ trưởng Bộ Y tế (theo OCR PDF bản quét 3 trang, đã đọc toàn văn).\nĐiều 1: Phạm vi điều chỉnh (xác định mức rủi ro + sửa 05/2022/TT-BYT).\nĐiều 2.1: Mức rủi ro theo NĐ 98/2021.\nĐiều 2.2: Mã số HS theo TT 19/2024/TT-BYT.\nĐiều 3: Sửa đổi Điều 8 (lộ trình kiểm định) của 05/2022/TT-BYT — mua sắm sau 30/06/2027 phải kiểm định; trước 01/07/2027 hoàn thành kiểm định trước 01/01/2028.\nĐiều 4.1: Hiệu lực 01/07/2026.\nĐiều 4.2: Bãi bỏ TT 59/2025/TT-BYT kể từ ngày TT này có hiệu lực.\nĐiều 5: Điều khoản tham chiếu (forward).\nCăn cứ: Luật Điều ước quốc tế 108/2016/QH13, Luật Chất lượng SPHH 05/2007/QH12 (sửa bởi 78/2025/QH15), NĐ 42/2025/NĐ-CP (chức năng BYT), NĐ 98/2021/NĐ-CP (sửa bởi 07/2023 + 96/2023 + 04/2025), NĐ 37/2026/NĐ-CP.\n",
@@ -28564,6 +28632,14 @@
       "nhanh": [
         "kiem-tra-chuyen-nganh/byt"
       ],
+      "danh_muc_hs": {
+        "tep": "danh-muc/26-2026-tt-byt.csv",
+        "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/26-byt-kem.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (457 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "TT 26/2026/TT-BYT ban hành 01/07/2026, ký Bộ trưởng Bộ Y tế (theo OCR PDF bản quét 2 trang, đã đọc toàn văn).\nLà phụ lục kèm theo TT — nội dung là Danh mục dược liệu, thuốc cổ truyền rủi ro trung bình thuộc trách nhiệm quản lý BYT.\nDẫn chiếu: Luật Dược 105/2016/QH13 (sửa bởi 44/2024/QH15), NĐ 163/2025/NĐ-CP, TT 32/2025/TT-BYT, TT 29/2025/TT-BYT, TT 32/2020/TT-BYT, TT 09/2024/TT-BYT (Danh mục II + Danh mục 13).\nKhông có điều khoản \"Hiệu lực thi hành\" riêng (là phụ lục ban hành kèm TT khác).\n",
@@ -29091,6 +29167,14 @@
           "37/2026/NĐ-CP"
         ]
       },
+      "danh_muc_hs": {
+        "tep": "danh-muc/27-2026-tt-bnnmt.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/18/469989-1784362820_v1_1784363213_signed.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (487 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "PDF Công báo số 411 ngày 18-07-2026 (lớp chữ), đối chiếu 8 Điều + 2 Phụ lục: Điều 1 Phạm vi điều chỉnh (ban hành DM rủi ro TB/cao BNNMT); Điều 2 Đối tượng áp dụng (tổ chức/cá nhân sxkd, tổ chức đánh giá phù hợp, cơ quan QLCL); Điều 3 Danh mục rủi ro trung bình (→ tự công bố TC áp dụng, tự đánh giá/CC được công nhận theo QCVN); Điều 4 Danh mục rủi ro cao (→ KTCC trước thông quan, tự công bố + tổ chức CC được chỉ định); Điều 5 Nguyên tắc quản lý chất lượng (HS thực tế theo PL hải quan; QLCL theo tính chất/thành phần/công dụng); Điều 6 Hiệu lực 01-07-2026, bãi TT 16/2021/TT-BNNPTNT và một phần PL II/PL III TT 01/2024/TT-BNNPTNT và Điều 1, khoản 1 điểm a khoản 3 Điều 2, khoản 1 Điều 5, Điều 6, khoản 1 Điều 8 TT 39/2018/TT-BNNPTNT (muối CN); Điều 7 Chuyển tiếp (GCN/TB tiếp nhận cũ còn HLDL, hồ sơ tiếp nhận trước 01-7-2026 giải quyết theo PL thời điểm tiếp nhận, QĐ chỉ định TCC còn HLDL được tiếp tục đến hết HLDL); Điều 8 Tổ chức thực hiện (VPB + 6 Cục QL chuyên ngành + Sở NN&MT địa phương; Cục QL chuyên ngành đề xuất cập nhật DM, hướng dẫn, rà soát QCVN). Phụ lục I - 466 dòng HS / 66 nhóm con thuộc 8 nhóm lớn rủi ro TRUNG BÌNH (loai_tac_dong=CONG_BO_HOP_QUY): 1) Giống cây trồng (1.1 lúa 1006.10.10; 1.2 ngô 1005.10.00); 2) Phân bón (2/2.1.2/2.2/2.2.4-6/2.3/2.5/2.5.5/2.5.9 → 31.01-31.05 gồm phân hữu cơ, N, P, K, hỗn hợp); 3) Thức ăn chăn nuôi (3.1.1-3.1.3, 3.2, 3.3, 3.4 + 3.4.2/3.4.6/3.4.7/3.4.9/3.4.15/3.4.16/3.4.18/3.4.19/3.4.20/3.4.21, 3.5.1, 3.5.2.1, 3.5.2.3, 3.5.2.6, 3.5.7 → chế phẩm/nguyên liệu/vitamin-khoáng/phụ gia TA chăn nuôi); 4) Thuốc Thú y (4.1 + 13 nhóm con: 4.1.1.2, 4.1.1.3, 4.1.2.1, 4.1.3, 4.1.3.4, 4.1.4.2, 4.1.7, 4.1.11, 4.1.13, 4.1.15, 4.2, 4.3, 4.4 → chương 30.02/30.04 gồm kháng sinh, hormone, vắc-xin, enzyme, kháng thể, dược phẩm thú y); 5) Thức ăn thủy sản (5.1.1, 5.1.1.3, 5.1.2.1, 5.1.2.4, 5.1.3.2, 5.1.3.3, 5.1.3.5, 5.1.4 → nguyên liệu/thành phẩm/phụ gia TA thủy sản, rong biển, trứng Artemia); 6) Sản phẩm xử lý môi trường nuôi trồng thủy sản (6.1-6.6, 6.8 → zeolite, dolomite, calcium carbonat, muối khoáng, premix vitamin); 7) Keo dán gỗ (HS 35.06.91.90/35.06.99.00); 8) Máy, thiết bị nông nghiệp (8.1.1 máy phun TBS; 8.2/8.3 máy thu hoạch/cắt cỏ → HS 84.24/84.33). Phụ lục II - 21 dòng HS / 6 nhóm con rủi ro CAO (loai_tac_dong=KIEM_TRA_CHAT_LUONG) về Thuốc bảo vệ thực vật chương 38.08: 1) BVTV (1, 1.1.1 thuốc trừ côn trùng; 1.2.1.1 thuốc trừ nấm; 1.3 thuốc diệt cỏ/trừ mầm; 1.4.1 chất bảo quản/tẩy trắng; 1.5.1 các loại khác → HS 3808.91/3808.92/3808.93/3808.94/3808.99). Đối chiếu: PDF Công báo PDF ngày 18-07-2026 khớp trích yếu + 8 Điều + 2 PL đầy đủ; sổ chưa thấy văn bản sau thay/bãi trên nguồn A (kiểm đến 04-10-2026)",
@@ -29136,6 +29220,14 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "danh_muc_hs": {
+        "tep": "danh-muc/27-2026-tt-byt.csv",
+        "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/27-byt.signed.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (8 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "TT 27/2026/TT-BYT ban hành 01/07/2026, ký Bộ trưởng Bộ Y tế Đỗ Xuân Tuyên (theo text layer PDF datafiles, đã đọc toàn văn 5 trang).\nĐiều 1: Danh mục thực phẩm + dụng cụ chứa + vật liệu bao gói rủi ro trung bình.\nĐiều 2: Điều khoản tham chiếu (forward).\nĐiều 3.1: Cục trưởng Cục An toàn thực phẩm tổ chức triển khai + rà soát Danh mục.\nĐiều 3.2: UBND các tỉnh tổ chức thực hiện tại địa phương.\nĐiều 4: Hiệu lực 01/07/2026.\nCăn cứ: Luật ATTP 55/2010/QH12, Luật Chất lượng SPHH 05/2007/QH12 (sửa bởi 78/2025/QH15), NĐ 37/2026/NĐ-CP, NĐ 15/2018/NĐ-CP (hướng dẫn Luật ATTP), NĐ 42/2025/NĐ-CP (chức năng BYT).\n",
@@ -30589,6 +30681,14 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "danh_muc_hs": {
+        "tep": "danh-muc/28-2026-tt-bct.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/6/12/469681-1781245487_v1_1781258779_signed.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (378 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "PDF Công báo số 328 ngày 14-06-2026 (lớp chữ): Điều 4 khoản 1 hiệu lực 17-07-2026; khoản 2 hết hiệu lực Khoản 1 Điều 2 và Phụ lục 2 QĐ 1182/QĐ-BCT; tình trạng hiện tại: sổ không có văn bản sau ghi thay/bãi TT 28/2026 (kiểm đến 04-10-2026); toàn văn Công báo không nhắc TT 11/2022/TT-BCT",
@@ -30623,6 +30723,14 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "danh_muc_hs": {
+        "tep": "danh-muc/28-2026-tt-byt.csv",
+        "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/28-byt.signed.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (17 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "TT 28/2026/TT-BYT ban hành 01/07/2026, ký Bộ trưởng Bộ Y tế Nguyễn Tri Thức (theo text layer PDF datafiles, đã đọc toàn văn 2 trang).\nĐiều 1.1: Phạm vi — thuốc hóa dược + thuốc dược liệu + vắc xin + sinh phẩm + nguyên liệu + bán thành phẩm thuộc BYT.\nĐiều 1.2: KHÔNG điều chỉnh nguyên liệu làm thuốc là dược liệu.\nĐiều 2: Ban hành Danh mục rủi ro cao (Phụ lục I) + rủi ro trung bình (Phụ lục II).\nĐiều 3: Trách nhiệm thi hành (Cục Quản lý Dược, UBND các tỉnh).\nĐiều 4: Hiệu lực 01/07/2026.\nCăn cứ: Luật Chất lượng SPHH 05/2007/QH12 (sửa bởi 78/2025/QH15), Luật Dược 105/2016/QH13 (sửa bởi 44/2024/QH15), NĐ 37/2026/NĐ-CP, NĐ 163/2025/NĐ-CP, NĐ 42/2025/NĐ-CP.\n",
@@ -38684,6 +38792,14 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "danh_muc_hs": {
+        "tep": "danh-muc/33-2026-tt-bct.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/17/469965-1784194321_v1_1784250703_signed.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (957 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "PDF Công báo số 406 ngày 17-07-2026 (lớp chữ): Điều 6 khoản 1 hiệu lực 01-07-2026; khoản 2 hết hiệu lực TT 41/2023/TT-BCT; sổ không có văn bản sau ghi thay/bãi TT 33/2026",
@@ -39897,6 +40013,14 @@
         }
       ],
       "trich_dan_trong_bieu_thue": 1764,
+      "danh_muc_hs": {
+        "tep": "danh-muc/34-2025-tt-bct.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/44998/56546-1-2025751-75234-2025-tt-bct.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (80 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "PDF Công báo số 751+752 ngày 15-06-2025 (lớp chữ): Điều 3 hiệu lực 21-07-2025; tình trạng hiện tại: sổ không có văn bản sau ghi thay/bãi TT 34/2025; Điều 20 TT 48/2026/TT-BCT (PDF Công báo số 521) không liệt kê TT 34/2025",
@@ -41503,6 +41627,14 @@
             "can_cu": "Điều 6 khoản 2 điểm e TT 36/2026/TT-BKHCN"
           }
         ]
+      },
+      "danh_muc_hs": {
+        "tep": "danh-muc/36-2026-tt-bkhcn.csv",
+        "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/36-bkhcn.signed.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (396 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
       },
       "xac_minh": {
         "muc": "NGUON_A",
@@ -47323,6 +47455,14 @@
           "10/2024/TT-BXD"
         ]
       },
+      "danh_muc_hs": {
+        "tep": "danh-muc/41-2026-tt-bxd.csv",
+        "nguon": "https://vpubnd.daklak.gov.vn/CMS/Content/VanBan/2026/7.2026/41-2026-TT-BXD.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (85 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "Toàn văn 18 Điều + 4 Phụ lục (đối chiếu body 1756 dòng tại\nraw/download/datafiles.chinhphu.vn/41-2026-tt-bxd-body.txt):\n\nCấu trúc 4 Chương:\n- Chương I (Điều 1-5): Quy định chung — phạm vi, đối tượng, phân loại rủi ro,\n  ghi nhãn, yêu cầu chất lượng chung.\n- Chương II (Điều 6-11): Quản lý chất lượng theo giai đoạn — sản xuất, xuất khẩu,\n  nhập khẩu, lưu thông, sử dụng trong công trình, công bố hợp chuẩn.\n- Chương III (Điều 12-14): Công bố hợp quy, tổ chức đánh giá sự phù hợp/giám\n  định tư pháp, trách nhiệm bộ ngang bộ.\n- Chương IV (Điều 15-18): Trách nhiệm UBND tỉnh, tổ chức đánh giá, điều\n  khoản chuyển tiếp, hiệu lực thi hành (26/6/2026, có hiệu lực từ 1/7/2026).\n\n18 Điều:\n  Điều 1. Phạm vi điều chỉnh (L37)\n  Điều 2. Đối tượng áp dụng (L54)\n  Điều 3. Sản phẩm, hàng hoá VLXD và phân loại rủi ro — cao/trung bình/thấp (L63)\n  Điều 4. Ghi nhãn hàng hoá VLXD (L93)\n  Điều 5. Yêu cầu chung về quản lý chất lượng VLXD (L111)\n  Điều 6. Quản lý chất lượng trong sản xuất (L144)\n  Điều 7. Quản lý chất lượng hàng hoá xuất khẩu (L168)\n  Điều 8. Quản lý chất lượng hàng hoá nhập khẩu (L176)\n  Điều 9. Quản lý chất lượng hàng hoá lưu thông trên thị trường (L208)\n  Điều 10. Quản lý chất lượng trong sử dụng công trình XD (L224)\n  Điều 11. Công bố hợp chuẩn (L243)\n  Điều 12. Công bố hợp quy (L252)\n  Điều 13. Tổ chức đánh giá sự phù hợp, giám định tư pháp (L285)\n  Điều 14. Trách nhiệm bộ, cơ quan ngang bộ (L309)\n  Điều 15. Trách nhiệm UBND tỉnh/thành phố (L321)\n  Điều 16. Trách nhiệm tổ chức đánh giá sự phù hợp/giám định (L348)\n  Điều 17. Điều khoản chuyển tiếp (L364)\n  Điều 18. Hiệu lực thi hành (L390)\n\n4 Phụ lục (body xác nhận chỉ có 4, không có Phụ lục V):\n  Phụ lục I  (L435) — Danh mục VLXD tổng quát (không có mã HS)\n  Phụ lục II (L1321, tr.20) — Nhóm rủi ro CAO: 17 mã HS, 8 nhóm hàng\n  Phụ lục III (L1433, tr.21-22) — Nhóm rủi ro TRUNG BÌNH: 65 mã HS, 11 nhóm hàng\n  Phụ lục IV (L1610, tr.23-24) — Mẫu Báo cáo tình hình kiểm tra chất\n                         lượng (3 Bảng: kết quả đạt / không đạt / DN trốn\n                         tránh kiểm tra)\nGhi chú: Thông tư có 4 Phụ lục (không phải 5) — danh sách Phụ lục ban hành\nkèm theo Thông tư chỉ liệt kê I, II, III, IV trong cả body lẫn các điều\nkhoản viện dẫn (L395 chỉ đề cập Phụ lục II & III).\n",
@@ -51185,6 +51325,14 @@
         }
       ],
       "trich_dan_trong_bieu_thue": 2,
+      "danh_muc_hs": {
+        "tep": "danh-muc/47-2018-tt-nhnn.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/12/28060/25176-1-201965-6647-2018-tt-nhnn.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (4 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "PDF Công báo số 65+66 ngày 18-01-2019 (lớp chữ): Điều 2 hiệu lực 12-02-2019; lược đồ Công báo không ghi văn bản thay/bãi; vbpl.vn ItemID=133842 thẻ «Hiệu lực: Còn hiệu lực» (kiểm đến 04-10-2026)",
@@ -52263,6 +52411,14 @@
             "can_cu": "Điều 6 khoản 3 điểm c TT 49/2026/TT-BXD"
           }
         ]
+      },
+      "danh_muc_hs": {
+        "tep": "danh-muc/49-2026-tt-bxd.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/18/469975-1784276696_v1_1784336792_signed.pdf",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (64 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
       },
       "xac_minh": {
         "muc": "NGUON_A",
@@ -68895,6 +69051,14 @@
         }
       ],
       "trich_dan_trong_bieu_thue": 1075,
+      "danh_muc_hs": {
+        "tep": "danh-muc/765-qd-bct-2019.csv",
+        "nguon": "https://luatvietnam.vn/cong-nghiep/quyet-dinh-765-qd-bct-2019-danh-muc-mat-hang-duoc-cat-giam-kiem-tra-chuyen-nganh-171670-d1.html",
+        "trich_boi": "cursor-agent@ozvietnam",
+        "ngay": "2026-10-12",
+        "da_doi_chieu": false,
+        "ghi_chu": "Bảng CSV sẵn có trên main (1407 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "ZIP moit.gov.vn (PDF trong gói, OCR): Điều 3 hiệu lực kể từ ngày ký ban hành (29-03-2019); trang moit.gov.vn trạng thái «Đã có hiệu lực», ngày hiệu lực 29/03/2019; sổ không có văn bản sau ghi thay/bãi 765/QĐ-BCT (TT 28/2026/TT-BCT và các TT KTCN 2026 đã đối chiếu không liệt kê); kiểm đến 04-10-2026",
