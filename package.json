@@ -22,7 +22,8 @@
     "test:check-hs": "python3 tools/test-kiem-tra-ma-hs.py",
     "tien-le": "node tools/tien-le.mjs",
     "chu-giai": "node tools/chu-giai.mjs",
-    "trich-chu-giai": "node tools/trich-chu-giai.mjs"
+    "trich-chu-giai": "node tools/trich-chu-giai.mjs",
+    "dong-goi-lo": "node tools/dong-goi-lo-tb-tchq.mjs"
   },
   "dependencies": {
     "js-yaml": "^4.1.0"

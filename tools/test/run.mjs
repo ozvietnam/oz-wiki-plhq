@@ -274,6 +274,41 @@ t('chú giải ch.50: chương không note vẫn có tên, chu_giai rỗng', cg.
 const cgOut = execSyncNode('node tools/chu-giai.mjs 8708.22');
 t('chu-giai.mjs: tra mã 8708.22 → chương 87 + dòng nhắc phân nhóm', /Chương 87/.test(cgOut) && /Dòng chú giải nhắc tới 8708\.22/.test(cgOut) && /Khung gầm/.test(cgOut));
 
+// 8c. Đóng gói lô TB-TCHQ → format community hs-code-api (tools/dong-goi-lo-tb-tchq.mjs)
+const tmpLo = mkdtempSync(join(tmpdir(), 'kb-lo-'));
+const vaoLo = join(tmpLo, 'vao.json');
+const raLo = join(tmpLo, 'ra.json');
+const bcLo = join(tmpLo, 'bc.md');
+writeFileSync(vaoLo, JSON.stringify({
+  kind: 'precedent', contributor: { name: 'test', github: 'ozvietnam' }, license: 'CC-BY-SA-4.0',
+  submittedAt: '2026-10-10T00:00:00Z', note: 'fixture',
+  records: [
+    { so_hieu: '9999/TB-TCHQ/2020', nam: 2020, ma_hs: '85366932',
+      ten_hang: 'Đầu nối điện thoại Connector 12P dùng cho bo mạch điện thoại di động, hàng mới 100%', mo_ta: '',
+      reasonVi: 'thuộc nhóm 85.36 “Thiết bị điện để đóng ngắt mạch điện”, mã số 8536.69.32 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.',
+      noi_dung: 'BỘ TÀI CHÍNH\nSố: 9999/TB-TCHQ\nHà Nội, ngày 15 tháng 5 năm 2020\nVỀ KẾT QUẢ PHÂN LOẠI\nKết quả phân loại: thuộc nhóm 85.36, mã số 8536.69.32 ./.' },
+    { so_hieu: '8888/TB-TCHQ/2021', nam: 2021, ma_hs: '39269099',
+      ten_hang: 'Sản phẩm nhựa kỹ thuật dùng trong máy công nghiệp, kích thước 100x200mm', mo_ta: '',
+      reasonVi: 'thuộc nhóm 39.26 “Sản phẩm khác bằng plastic”, mã số 3926.90.99 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.',
+      noi_dung: 'Số: 8888/TB-TCHQ\nVĂN BẢN KHÔNG GHI NGÀY KÝ.' },
+    { so_hieu: '7777/TB-TCHQ/2019', nam: 2019, ma_hs: '39269099',
+      ten_hang: 'Tấm nhựa kỹ thuật dùng trong máy công nghiệp, kích thước 100x200mm', mo_ta: '',
+      reasonVi: 'thuộc nhóm 39.26',
+      noi_dung: 'Số: 7777/TB-TCHQ\nHà Nội, ngày 10 tháng 3 năm 2019\n(không có câu kết luận rõ trong toàn văn).' },
+  ],
+}), 'utf8');
+execSyncNode(`node tools/dong-goi-lo-tb-tchq.mjs --vao "${vaoLo}" --ra "${raLo}" --bao-cao "${bcLo}"`);
+const lo = JSON.parse(readFileSync(raLo, 'utf8'));
+t('lô TB-TCHQ: gói đúng envelope + 1 bản ghi đạt (evidence + bieuThue + url + description sạch)',
+  lo.kind === 'precedent' && lo.contributor.name === 'test' && lo.license === 'CC-BY-SA-4.0' && lo.records.length === 1
+  && lo.records[0].hsCode === '85366932' && lo.records[0].evidence.soHieu === '9999/TB-TCHQ'
+  && lo.records[0].evidence.ketLuan.includes('8536.69.32') && lo.records[0].attributes.bieuThue === '2017'
+  && /tracuuhs\.com\/tin-tuc\/tchq-9999-2020/.test(lo.records[0].source.url)
+  && lo.records[0].description.startsWith('Đầu nối điện thoại'), JSON.stringify(lo.records[0]).slice(0, 240));
+const bcLoNd = readFileSync(bcLo, 'utf8');
+t('lô TB-TCHQ: thiếu ngày ký / lý do mỏng vào "cần xử tay", KHÔNG nhồi lô',
+  lo.records.length === 1 && /8888\/TB-TCHQ/.test(bcLoNd) && /7777\/TB-TCHQ/.test(bcLoNd) && /ngày ký/.test(bcLoNd) && /mỏng/.test(bcLoNd));
+
 // 9. Phiên bản lược đồ (docs/yeu-cau/ozplugin.md W1): hai tệp dist đều có luoc_do_phien_ban, khớp semver, bằng nhau.
 const semverOk = (s) => /^\d+\.\d+\.\d+$/.test(s);
 t('lược đồ: dungJson + dungChiMuc gắn luoc_do_phien_ban từ một hằng số chung',
