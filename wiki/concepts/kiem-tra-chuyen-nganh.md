@@ -14,7 +14,6 @@ key_sources:
 related_concepts:
   - ktcl-byt-attp-2024
   - ktcl-bnnmt-2026
-  - ktcl-bct-2026
   - ktcl-bkhcn-2026
   - ktcl-bnv-2026
   - ktcl-bca-2026
@@ -97,11 +96,11 @@ Mỗi bộ có danh mục hàng riêng kèm mã HS (gọi là "danh mục KTCL" 
 
 - [[concepts/ktcl-byt-attp-2024]] — ATTP BYT (TT 15/2024)
 - [[concepts/ktcl-bnnmt-2026]] — Kiểm dịch BNNMT
-- [[concepts/ktcl-bct-2026]] — Cắt giảm KTCL BCT
 - [[concepts/ktcl-bkhcn-2026]] — Nhóm 2 BKHCN
 - [[concepts/ktcl-bnv-2026]] — Thiết bị giám sát BNV
 - [[concepts/ktcl-bca-2026]] — Pháo hoa BCA
 - [[concepts/ktcl-bxd-vlxd-2026]] — Vật liệu xây dựng BXD
+- **KTCL BCT 2026** (TT 1725/QĐ + 765/QĐ — DM hiệu suất năng lượng, cắt giảm KTCL) — concept KTCL BCT 2026 chưa có wiki
 - [[concepts/muc-do-rui-ro-hang-hoa]] — Mức rủi ro theo NĐ 37/2026
 
 ## Notes
