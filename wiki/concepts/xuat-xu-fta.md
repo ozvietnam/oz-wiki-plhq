@@ -12,8 +12,6 @@ related_concepts:
   - cptpp
   - evfta
   - rcep
-  - acfta
-  - vcfeta
 confidence: high
 tags: [fta, xuat-xu, hiep-dinh, thuong-mai, mfn, acfta, evfta, cptpp, rcep, ukvfta, ajfta]
 ---
@@ -107,8 +105,8 @@ tags: [fta, xuat-xu, hiep-dinh, thuong-mai, mfn, acfta, evfta, cptpp, rcep, ukvf
 - [[concepts/cptpp]] — CPTPP (các quy tắc riêng)
 - [[concepts/evfta]] — EVFTA (các quy tắc riêng)
 - [[concepts/rcep]] — RCEP
-- [[concepts/acfta]] — ACFTA
-- [[concepts/vcfeta]] — VCFTA / VKFTA
+- **ACFTA** (ASEAN - Trung Quốc) — concept ACFTA chưa có wiki
+- **VCFTA / VKFTA** (VN - Chile / Hàn Quốc) — concept chưa có wiki
 
 ## Notes
 
