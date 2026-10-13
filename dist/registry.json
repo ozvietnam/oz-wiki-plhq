@@ -597,16 +597,26 @@
         "thue/bieu-thue"
       ],
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
+        "muc": "NGUON_A",
         "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-10",
         "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Không crawl được PDF. Cần tìm từ nguồn bậc A khác."
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn docid=207527"
       },
-      "toan_van": "chua_co",
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207527&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/3/04-bct.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/04-2023-tt-bct.pdf",
       "slug": "04-2023-tt-bct",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -9499,16 +9509,26 @@
         "thue/bieu-thue"
       ],
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
+        "muc": "NGUON_A",
         "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-10",
         "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Không crawl được PDF. Cần tìm từ nguồn bậc A khác."
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn docid=197728"
       },
-      "toan_van": "chua_co",
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=197728&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/08/13-bct.signed.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/13-2019-tt-bct.pdf",
       "slug": "13-2019-tt-bct",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -46951,16 +46971,26 @@
         "thue/bieu-thue"
       ],
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
+        "muc": "NGUON_A",
         "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-10",
         "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Không crawl được PDF. Cần tìm từ nguồn bậc A khác."
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn docid=207201"
       },
-      "toan_van": "chua_co",
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207201&pageid=27160",
+          "truy_cap": "2026-10-10"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/41-bct.pdf",
+          "truy_cap": "2026-10-10"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/41-2022-tt-bct.pdf",
       "slug": "41-2022-tt-bct",
-      "bac_nguon_cao_nhat": null,
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
