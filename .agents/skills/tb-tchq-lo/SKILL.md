@@ -45,6 +45,68 @@ KHÔNG nhồi vào lô, KHÔNG bịa trường.
 - Đưa tên doanh nghiệp, MST, số tờ khai, trị giá vào bất kỳ trường nào — repo công khai, lịch sử git không xoá được.
 - Tự suy ra `girRule`/`confusedWith` — chỉ ghi khi văn bản viện dẫn rõ.
 
+
+## Bài học từ batch 20 gói (Hermes Sonnet 4.5, 13/10/2026)
+
+1. **PR #273 workflow chuẩn (354 TB → 202 bản mới)**: Tạo branch mới từ `tracuuhs/goi-batch-2026-10-14` (base) → `tracuuhs/goi-batch-2026-10-15-v2` (head). Workflow: copy 20 lô → `validate-community.mjs` riêng từng gói → sửa description/lọc trùng → `merge-community.mjs` → `sync-doc-counts.mjs` → `test-merge-community.mjs` (25/25) → commit + push → tạo PR.
+
+2. **Test từng gói riêng biệt** (không test cả batch) — chạy `validate-community.mjs` rồi filter lỗi theo `f"goi-{n:03d}"` để tách lỗi của từng gói. Nếu test cả batch thì lỗi 1 file (vd `goi-003` cũ) sẽ che hết lỗi của 20 file mới.
+
+3. **3 lỗi description hay gặp**:
+   - **False positive "chì"**: "Kẹo bút chì kanro" bị regex `chì + 4+ chars` match. Fix: rephrase thành "Kẹo hình bút chì thương hiệu Kanro" (bỏ "chì + space + 4 chars").
+   - **MST trong desc**: "1310100062/Selenium..." → strip phần "XXXXX/" đầu tiên.
+   - **"công ty" trong desc**: dùng rephrase hoặc thay bằng "Doanh nghiệp".
+
+4. **Trùng bản ghi với kho cũ (`lvn-cu-1/2/3`, `lvn-2019`)**:
+   - Check `merge-community.mjs` skipDup count
+   - Lấy danh sách từ stderr của `validate-community.mjs`: "trùng bản ghi trong data/community/tb-tchq/lvn-cu-2.json"
+   - **Cẩn thận**: cần Sếp duyệt trước khi xóa (lỡ xóa nhầm bản ghi chất lượng hơn). Workflow chuẩn: báo cáo Sếp, đợi OK, rồi xóa.
+
+5. **File goi-003 cũ có lỗi từ commit 7ccb71c** (của agent khác, "CO.,LTD" trong desc) — KHÔNG thuộc PR em. Khi validator fail, phân biệt lỗi của file em (cần sửa) vs file cũ (ghi rõ trong PR để Sếp xử lý sau).
+
+6. **File của agent khác trong working directory** (vd `hermes-tracuuhs` đã thêm `goi-037`, `goi-046`, `goi-084`):
+   - KHÔNG stage file của agent khác
+   - Sau khi merge, có thể xóa các file rỗng (`goi-037` có 0 records)
+   - File có data của agent khác (`goi-046` 11 records) → bỏ qua, để họ xử lý.
+
+7. **Branch naming chuẩn**: `tracuuhs/goi-batch-YYYY-MM-DD-vN` (N = version khi cần retry vì conflict). VD: `tracuuhs/goi-batch-2026-10-15-v2` (lần 2 vì lần 1 branch mới có file lạ).
+
+8. **Commit message mẫu**:
+```
+feat(tb-tchq): thêm 20 lô batch 2026-10-15 (354 TB crawl, 202 bản refresh/mới)
+
+Loop 20 gói từ hàng đợi oz-wiki-plhq#185:
+- goi-004 (Ch.15·16·17)  20→19
+...
+
+Tổng: 354 TB crawl → 202 bản refresh/mới trong kho.
+
+Sửa description trước khi gộp:
+- goi-004/14: "bút chì kanro" → "Kẹo hình bút chì thương hiệu Kanro"
+...
+
+Kết quả gộp:
+- 1.048 → 1.052 mã có tiền lệ (+4 mã mới)
+- 3.132 → 3.334 bản ghi (+202)
+- test-merge-community: 25/25 pass
+- sync-doc-counts: OK
+```
+
+9. **DỪNG khi thấy lỗi** (CEO mode): dù task nhỏ (1 record), KHÔNG tự sửa nếu không chắc chắn. Báo cáo Sếp với: (a) tên lỗi, (b) bản ghi vi phạm, (c) gợi ý fix, (d) hỏi OK. Sếp "đồng ý" → mới sửa. Ví dụ: "A" (xóa) / "B" (bỏ qua) / "C" (khác).
+
+10. **File lô chỉ là tạm thời** — sau khi merge xong, có thể xóa file `data/customs/lo/tracuuhs-*.json` để giảm clutter. Nhưng giữ lại `BAO-CAO-*.md` để audit.
+
+11. **Khi nào dùng `merge-community.mjs` vs `merge-loai-khac.mjs`**:
+    - `merge-community.mjs`: cho tiền lệ TB-TCHQ/TB-CHQ (workflow chuẩn)
+    - `merge-loai-khac.mjs`: cho văn bản khác (QĐ, NĐ, TT khác loại TB-TCHQ)
+
+12. **Tool đóng gói đã có sẵn** (`tools/dong-goi-lo-tb-tchq.mjs`) — KHÔNG cần viết script mới. Workflow chuẩn:
+    ```bash
+    node tools/dong-goi-lo-tb-tchq.mjs --vao <detail> --ra <lo> --bao-cao <md>
+    ```
+    Skip nếu file lô đã tồn tại (idempotent).
+
+
 ## Khi bị chặn
 
 - Validator báo lỗi cùng loại nhiều bản ghi → cải tiến `tools/dong-goi-lo-tb-tchq.mjs`, ghi lý do trong commit.
