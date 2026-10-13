@@ -5,7 +5,9 @@
   "description": "Thư viện tri thức pháp luật xuất nhập khẩu Việt Nam — sổ đăng ký văn bản, cây văn bản, wiki có dẫn nguồn, phát hiện điểm mù",
   "type": "module",
   "license": "MIT",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "kiem-tra": "node tools/kiem-tra.mjs",
     "diem-mu": "node tools/diem-mu.mjs",
@@ -17,7 +19,8 @@
     "test:parser": "python3 tools/test-trich-14dm.py",
     "trich": "python3 tools/trich-14dm.mjs.py",
     "check-hs": "python3 tools/kiem-tra-ma-hs-2026.py",
-    "test:check-hs": "python3 tools/test-kiem-tra-ma-hs.py"
+    "test:check-hs": "python3 tools/test-kiem-tra-ma-hs.py",
+    "tien-le": "node tools/tien-le.mjs"
   },
   "dependencies": {
     "js-yaml": "^4.1.0"
