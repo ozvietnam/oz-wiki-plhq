@@ -277,6 +277,20 @@ t('hs-index-theo-ma: đảo chiều — mã 22030091 tra ra 50/2026/TT-BCT kèm 
   cmTheoMa.ma['22030091']?.[0]?.so_hieu === '50/2026/TT-BCT' && cmTheoMa.ma['22030091']?.[0]?.loai_tac_dong === 'KIEM_TRA_ATTP' && traMa.length >= 1 && cmTheoMa.cach_tra.includes('tiền tố'), JSON.stringify(Object.keys(cmTheoMa.ma)));
 t('hs-index-theo-ma: cạnh không mang trường mã (chỉ ở khoá) — không trùng lặp',
   !('ma_hs' in (cmTheoMa.ma['22030091']?.[0] || {})) && cmTheoMa.tong_nhom_ma >= 1);
+const cmMaV2 = dungChiMucTheoMa(cm6, {
+  bt: docBieuThue(r6),
+  tienLe8: { '22030091': { so_luong: 2, mau: '1/TB-TCHQ/2026', ngay: '2026-01-01' } },
+  tienLe4: { '1901': 3 },
+});
+t('hs-index-theo-ma v2: cảnh báo đúng nhóm ngoài biểu thuế (22029999), không cảnh báo mã còn',
+  cmMaV2.canh_bao_ma.includes('22029999') && !cmMaV2.canh_bao_ma.includes('22030091') && cmMaV2.bieu_thue_doi_chieu.nhom_ngoai_bieu_thue >= 1,
+  JSON.stringify(cmMaV2.canh_bao_ma));
+t('hs-index-theo-ma v2: gắn mật độ tiền lệ TB-TCHQ theo mã 8 số và nhóm 4 số',
+  cmMaV2.tien_le_tb_tchq.theo_ma_8['22030091'].so_luong === 2 && cmMaV2.tien_le_tb_tchq.theo_nhom_4['1901'] === 3);
+const cmTrung = { phien_ban: '2026-10-13', luoc_do_phien_ban: LUOC_DO_PHIEN_BAN, giay_phep: 'x', van_ban: [{ so_hieu: 'X/2026/TT-T', slug: 'x', ten: 't', tinh_trang: 'CON_HIEU_LUC', hieu_luc_tu: null, het_hieu_luc_tu: null, hieu_luc_da_doi_chieu: false, dong: [{ ma_hs: '1111', loai_tac_dong: 'GIAY_PHEP' }, { ma_hs: '1111', loai_tac_dong: 'GIAY_PHEP' }, { ma_hs: '1111', loai_tac_dong: 'GIAY_PHEP', muc_rui_ro: 'CAO' }] }] };
+const cmTrungMa = dungChiMucTheoMa(cmTrung);
+t('hs-index-theo-ma v2: gộp cạnh trùng toàn trường, giữ cạnh khác mức rủi ro',
+  cmTrungMa.ma['1111'].length === 2 && cmTrungMa.tong_canh === 2, JSON.stringify(cmTrungMa.ma['1111'].length));
 t('lược đồ: hai tệp máy có luoc_do_phien_ban khớp semver và bằng nhau',
   semverOk(regDist.luoc_do_phien_ban) && semverOk(hsDist.luoc_do_phien_ban) && regDist.luoc_do_phien_ban === hsDist.luoc_do_phien_ban,
   JSON.stringify({ reg: regDist.luoc_do_phien_ban, hs: hsDist.luoc_do_phien_ban }));

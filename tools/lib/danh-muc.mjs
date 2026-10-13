@@ -154,27 +154,56 @@ export function dungChiMuc(so, root = ROOT, today) {
 
 /** Đảo chiều của dungChiMuc → dist/hs-index-theo-ma.json: nhóm mã HS (4/6/8 số) → danh sách văn bản áp.
  *  Bên tra mã 8 số lấy mọi khoá là tiền tố của mã đó (4, 6 số) cộng khoá trùng 8 số — cùng ngữ nghĩa
- *  khớp tiền tố mà hs-code-api vẫn dùng khi tra thuận chiều. */
-export function dungChiMucTheoMa(chiMuc) {
+ *  khớp tiền tố mà hs-code-api vẫn dùng khi tra thuận chiều.
+ *  Tuỳ chọn { bt, tienLe8, tienLe4 } (v2): đối chiếu nhóm mã với bản chụp biểu thuế (cảnh báo mã AHTN cũ
+ *  /trích lệch đã rơi khỏi biểu thuế) và gắn mật độ tiền lệ TB-TCHQ theo mã 8 số + nhóm 4 số. */
+export function dungChiMucTheoMa(chiMuc, { bt = null, tienLe8 = null, tienLe4 = null } = {}) {
   const ma = {};
   for (const vb of chiMuc.van_ban || []) {
     for (const d of vb.dong || []) {
       if (!d.ma_hs) continue;
-      (ma[d.ma_hs] ||= []).push({
+      const canh = {
         so_hieu: vb.so_hieu, slug: vb.slug, ten: vb.ten, tinh_trang: vb.tinh_trang,
         hieu_luc_tu: vb.hieu_luc_tu, het_hieu_luc_tu: vb.het_hieu_luc_tu, hieu_luc_da_doi_chieu: vb.hieu_luc_da_doi_chieu,
         loai_tac_dong: d.loai_tac_dong, muc_rui_ro: d.muc_rui_ro || null, dieu_kien: d.dieu_kien || null,
         nhom: d.nhom || null, phu_luc: d.phu_luc || null,
-      });
+      };
+      const ds = (ma[d.ma_hs] ||= []);
+      // Gộp cạnh trùng toàn bộ trường (dòng trích đôi trong cùng văn bản); khác mức rủi ro/phụ lục thì giữ.
+      const chu = JSON.stringify(canh);
+      if (!ds.some((x) => JSON.stringify(x) === chu)) ds.push(canh);
     }
   }
-  return {
+  const tongCanh = Object.values(ma).reduce((n, v) => n + v.length, 0);
+  const out = {
     phien_ban: chiMuc.phien_ban,
     luoc_do_phien_ban: chiMuc.luoc_do_phien_ban,
     giay_phep: chiMuc.giay_phep,
     luoc_do: 'docs/luoc-do-danh-muc-hs.md',
-    cach_tra: 'Khoá là nhóm mã HS trong bảng (4, 6 hoặc 8 số). Tra mã 8 số: ghép mọi khoá là tiền tố của mã (độ dài 4, 6) và khoá trùng 8 số. Cạnh giữ nguyên dieu_kien — "trừ loại…" là trừ diện, không phải diện áp.',
+    cach_tra: 'Khoá là nhóm mã HS trong bảng (4, 6 hoặc 8 số). Tra mã 8 số: ghép mọi khoá là tiền tố của mã (độ dài 4, 6) và khoá trùng 8 số. Cạnh giữ nguyên dieu_kien — "trừ loại…" là trừ diện, không phải diện áp. canh_bao_ma = nhóm mã không có trong biểu thuế đối chiếu — tra ra các khoá này thì dừng và đối chiếu lại văn bản gốc, đừng kết luận diện áp. tien_le_tb_tchq = mật độ thông báo phân loại của Tổng cục (bậc C, tham khảo).',
     tong_nhom_ma: Object.keys(ma).length,
-    ma,
+    tong_canh: tongCanh,
   };
+  if (bt) {
+    const btMa = bt.ma || {};
+    const p4 = new Set(); const p6 = new Set();
+    for (const c of Object.keys(btMa)) { p4.add(c.slice(0, 4)); p6.add(c.slice(0, 6)); }
+    const hopLe = (k) => (k.length === 8 ? k in btMa : k.length === 6 ? p6.has(k) : k.length === 4 ? p4.has(k) : false);
+    const ngoai = Object.keys(ma).filter((k) => !hopLe(k)).sort();
+    out.bieu_thue_doi_chieu = {
+      nguon: bt.nguon || null, phien_ban: bt.phien_ban || null, tong_ma: bt.tong ?? null,
+      nhom_ngoai_bieu_thue: ngoai.length,
+      ghi_chu: 'Nhóm mã không có trong bản chụp biểu thuế — thường là mã AHTN cũ (văn bản danh mục ban hành theo AHTN 2017/2022, biểu thuế đã bỏ) hoặc trích lệch. KHÔNG dùng các khoá này làm căn cứ diện áp cho người khai; đối chiếu lại văn bản gốc (ví dụ phân tích danh-muc/kiem-tra-ma-hs-2026.md).',
+    };
+    out.canh_bao_ma = ngoai;
+  }
+  if (tienLe8 || tienLe4) {
+    out.tien_le_tb_tchq = {
+      ghi_chu: 'Số thông báo phân loại TB-TCHQ/TB-CHQ của Tổng cục Hải quan theo mã — văn bản cá biệt, bậc C, CHỈ tham khảo cho quan điểm phân loại, không phải căn cứ khai báo. Tra chi tiết: npm run tien-le <mã>.',
+      theo_ma_8: tienLe8 || null,
+      theo_nhom_4: tienLe4 || null,
+    };
+  }
+  out.ma = ma;
+  return out;
 }

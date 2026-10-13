@@ -8,6 +8,7 @@ _This catalog is updated by /lumi-ingest and /lumi-init._
 - [[summary/khung-thu-tuc-hai-quan]] — Khung thủ tục hải quan, phân loại HS, GTGT khâu nhập (neo sổ đăng ký)
 - [[summary/luat-duoc-va-phan-loai-hs]] — Luật Dược 2016: ảnh hưởng đến phân loại HS, bảng quyết định nhanh, điểm mù thường gặp
 - [[summary/tom-tat-14-dm-09-2024-tt-byt]] — 14 Danh mục của 09/2024/TT-BYT: cấu trúc, cách tìm tên dược liệu, use case cao dán gừng + ngải cứu
+- [[summary/dong-bo-quan-diem-phan-loai]] — Đồng bộ quan điểm phân loại: biểu thuế ↔ văn bản ↔ tiền lệ TB-TCHQ; quy tắc khi quan điểm lệch nhau
 
 ## Concepts
 

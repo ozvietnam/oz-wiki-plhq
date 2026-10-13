@@ -91,6 +91,14 @@ danh sách văn bản áp** kèm `loai_tac_dong`, `muc_rui_ro`, `dieu_kien`, `ti
 khoá là tiền tố của mã (4, 6 số) và khoá trùng 8 số — ngữ nghĩa khớp tiền tố như khi tra thuận chiều;
 hướng dẫn bằng chữ nằm trong trường `cach_tra` của chính tệp.
 
+Từ **1.2.0** tệp này thêm ba khối đồng bộ quan điểm phân loại:
+
+| Trường | Nghĩa | Bên đọc nên làm |
+|---|---|---|
+| `bieu_thue_doi_chieu` | Bản chụp biểu thuế đã dùng để soi (nguồn, phiên bản, số mã) + đếm nhóm mã không khớp | Ghi phiên bản khi trích dẫn |
+| `canh_bao_ma` | Nhóm mã **không có trong biểu thuế** (mã AHTN cũ hoặc trích lệch — vd `28389000` của 09/2024/TT-BYT) | Tra ra khoá này thì **dừng**, không kết luận diện áp; đối chiếu văn bản gốc |
+| `tien_le_tb_tchq` | Mật độ thông báo phân loại Tổng cục: `theo_ma_8` (721 mã 8 số, customs.gov.vn) + `theo_nhom_4` (397 nhóm, tracuuhs) | Chỉ tham khảo — văn bản cá biệt bậc C; tra chi tiết `npm run tien-le` |
+
 
 ## Quy tắc khi dùng
 

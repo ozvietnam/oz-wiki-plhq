@@ -63,6 +63,8 @@ Phân loại mã HS là việc gắn hàng hoá xuất nhập khẩu vào mã s�
 
 ## Mentioned in
 
+- [[summary/dong-bo-quan-diem-phan-loai]]
+
 - [[summary/luat-duoc-va-phan-loai-hs]]
 
 ## Notes
