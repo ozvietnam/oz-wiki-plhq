@@ -290,7 +290,7 @@ flowchart LR
   n_173_2018_TT_BQP["173/2018/TT-BQP<br/>còn hiệu lực"]
   n_40_2017_TT_BQP["40/2017/TT-BQP<br/>chưa xác minh"]
   n_187_2013_N__CP["187/2013/NĐ-CP<br/>hết hiệu lực"]
-  n_09_2018_N__CP["09/2018/NĐ-CP<br/>chưa có trong sổ"]
+  n_09_2018_N__CP["09/2018/NĐ-CP<br/>hết hiệu lực"]
   n_22_2018_TT_BTTTT["22/2018/TT-BTTTT<br/>còn hiệu lực"]
   n_16_2015_TT_BTTTT["16/2015/TT-BTTTT<br/>chưa xác minh"]
   n_41_2016_TT_BTTTT["41/2016/TT-BTTTT<br/>chưa xác minh"]

@@ -1,16 +1,7 @@
 {
   "ngay": "2026-10-14",
-  "tong": 4627,
+  "tong": 4628,
   "diem": [
-    {
-      "ma": "THIEU_VAN_BAN",
-      "muc": "Cao",
-      "tieuDe": "Chưa có trong sổ: 09/2018/NĐ-CP",
-      "muc_tieu": "09/2018/NĐ-CP",
-      "viec": "Tạo registry/van-ban/ cho 09/2018/NĐ-CP (được nhắc bởi 187/2013/NĐ-CP (bai_bo)). Dùng: node tools/them-van-ban.mjs \"09/2018/NĐ-CP\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
-    },
     {
       "ma": "THIEU_VAN_BAN",
       "muc": "Cao",
@@ -261,6 +252,24 @@
       "muc_tieu": "09/2013/TT-BTTTT",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"09/2013/TT-BTTTT\" --ghi",
       "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Thấp",
+      "tieuDe": "09/2018/NĐ-CP: chưa có nguồn chính thống",
+      "muc_tieu": "09/2018/NĐ-CP",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "09/2018/NĐ-CP: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "09/2018/NĐ-CP",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
       "trongSo": 0
     },
     {
