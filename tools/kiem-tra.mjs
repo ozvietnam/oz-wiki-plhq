@@ -7,7 +7,10 @@ import { napDanhMuc, kiemDinhDang } from './lib/danh-muc.mjs';
 
 const NGAY = /^\d{4}-\d{2}-\d{2}$/;
 const TRUONG = new Set(['so_hieu', 'loai', 'ten', 'co_quan', 'ngay_ban_hanh', 'hieu_luc_tu', 'het_hieu_luc_tu',
-  'tinh_trang', 'nhanh', 'quan_he', 'nguon', 'toan_van', 'trich_dan_trong_bieu_thue', 'xac_minh', 'ghi_chu', 'tu_khoa', 'so_hieu_khac', 'danh_muc_hs']);
+  'tinh_trang', 'nhanh', 'quan_he', 'nguon', 'toan_van', 'trich_dan_trong_bieu_thue', 'xac_minh', 'ghi_chu', 'tu_khoa', 'so_hieu_khac', 'danh_muc_hs',
+  // TB-TCHQ subtype (research): tools/lib/loai-phan-loai-tb-tchq.mjs
+  'loai_phan_loai', 'loai_phan_loai_can_cu', 'loai_phan_loai_ngay']);
+const LOAI_PHAN_LOAI = ['XAC_DINH_TRUOC', 'KIEM_TRA_XAC_DINH_LAI', 'DINH_CHINH', 'CHUA_XAC_DINH'];
 
 export function kiemTra(so, { today = homNay(), root = ROOT } = {}) {
   const loi = [];
@@ -40,6 +43,13 @@ export function kiemTra(so, { today = homNay(), root = ROOT } = {}) {
     if (!d.ten) L(f, 'thiếu ten');
     if (!LOAI.includes(d.loai)) L(f, `loai "${d.loai}" không hợp lệ (${LOAI.join(', ')})`);
     if (!TINH_TRANG.includes(d.tinh_trang)) L(f, `tinh_trang "${d.tinh_trang}" không hợp lệ (${TINH_TRANG.join(', ')})`);
+    if (d.loai_phan_loai != null) {
+      if (!LOAI_PHAN_LOAI.includes(d.loai_phan_loai)) L(f, `loai_phan_loai "${d.loai_phan_loai}" không hợp lệ (${LOAI_PHAN_LOAI.join(', ')})`);
+      if (d.loai_phan_loai_can_cu != null && (typeof d.loai_phan_loai_can_cu !== 'string' || !String(d.loai_phan_loai_can_cu).trim())) {
+        L(f, 'loai_phan_loai_can_cu phải là chuỗi không rỗng khi có');
+      }
+      if (d.loai_phan_loai_ngay != null && !NGAY.test(String(d.loai_phan_loai_ngay))) L(f, 'loai_phan_loai_ngay phải dạng YYYY-MM-DD');
+    }
     if (d.co_quan && !coQuan.has(d.co_quan)) L(f, `co_quan "${d.co_quan}" chưa có trong registry/co-quan.yaml`);
     for (const k of ['ngay_ban_hanh', 'hieu_luc_tu', 'het_hieu_luc_tu']) {
       if (d[k] != null && !NGAY.test(String(d[k]))) L(f, `${k} phải dạng YYYY-MM-DD`);

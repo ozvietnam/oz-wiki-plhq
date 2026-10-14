@@ -1,0 +1,96 @@
+{
+  "ngay": "2026-10-14",
+  "index_chua_xac_dinh": [
+    "4138/TB-TCHQ/2026"
+  ],
+  "registry_chua_xac_dinh": [
+    {
+      "so_hieu": "16011/TB-TCHQ/2024",
+      "can_cu": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+      "file": "16011-tb-tchq-2024.yaml"
+    },
+    {
+      "so_hieu": "36635/TB-TCHQ/2018",
+      "can_cu": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+      "file": "36635-tb-tchq-2018.yaml"
+    },
+    {
+      "so_hieu": "12015/TB-TCHQ/2023",
+      "can_cu": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+      "file": "12015-tb-tchq-2023.yaml"
+    },
+    {
+      "so_hieu": "21902/TB-TCHQ/2018",
+      "can_cu": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+      "file": "21902-tb-tchq-2018.yaml"
+    },
+    {
+      "so_hieu": "22016/TB-TCHQ/2023",
+      "can_cu": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+      "file": "22016-tb-tchq-2023.yaml"
+    },
+    {
+      "so_hieu": "43204/TB-TCHQ/2018",
+      "can_cu": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+      "file": "43204-tb-tchq-2018.yaml"
+    },
+    {
+      "so_hieu": "99899/TB-TCHQ/2023",
+      "can_cu": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+      "file": "99899-tb-tchq-2023.yaml"
+    },
+    {
+      "so_hieu": "12014/TB-TCHQ/2023",
+      "can_cu": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+      "file": "12014-tb-tchq-2023.yaml"
+    },
+    {
+      "so_hieu": "8195/TB-TCHQ/2018",
+      "can_cu": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+      "file": "8195-tb-tchq-2018.yaml"
+    },
+    {
+      "so_hieu": "21409/TB-TCHQ/2018",
+      "can_cu": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+      "file": "21409-tb-tchq-2018.yaml"
+    },
+    {
+      "so_hieu": "15971/TB-TCHQ/2024",
+      "can_cu": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+      "file": "15971-tb-tchq-2024.yaml"
+    },
+    {
+      "so_hieu": "23937/TB-TCHQ/2019",
+      "can_cu": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+      "file": "23937-tb-tchq-2019.yaml"
+    },
+    {
+      "so_hieu": "94719/TB-TCHQ/2018",
+      "can_cu": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+      "file": "94719-tb-tchq-2018.yaml"
+    },
+    {
+      "so_hieu": "44918/TB-TCHQ/2018",
+      "can_cu": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+      "file": "44918-tb-tchq-2018.yaml"
+    }
+  ],
+  "blockers": {
+    "4138/TB-TCHQ/2026": "Không có bài/slug trên Supabase tracuuhs; không có noi_dung local — CHUA_XAC_DINH",
+    "16011/TB-TCHQ/2024": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+    "36635/TB-TCHQ/2018": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+    "12015/TB-TCHQ/2023": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+    "21902/TB-TCHQ/2018": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+    "22016/TB-TCHQ/2023": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+    "43204/TB-TCHQ/2018": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+    "99899/TB-TCHQ/2023": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+    "12014/TB-TCHQ/2023": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+    "8195/TB-TCHQ/2018": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+    "21409/TB-TCHQ/2018": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+    "15971/TB-TCHQ/2024": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+    "23937/TB-TCHQ/2019": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+    "94719/TB-TCHQ/2018": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van",
+    "44918/TB-TCHQ/2018": "so_hieu_khong_co_tren_tracuuhs_va_thieu_toan_van"
+  },
+  "ghi_chu": "14 sổ còn CHUA: số hiệu không tồn tại trên tracuuhs (có thể lỗi crawl slug) + thiếu toàn văn. Index chỉ còn 4138/2026."
+}
