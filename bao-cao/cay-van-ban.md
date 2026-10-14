@@ -1,4 +1,4 @@
-# Cây văn bản pháp luật XNK — 2026-10-13
+# Cây văn bản pháp luật XNK — 2026-10-14
 
 2279 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
