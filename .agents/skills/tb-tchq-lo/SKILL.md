@@ -305,3 +305,40 @@ Nội dung kỹ thuật (3 loại TB, DINH_CHINH workflow, field `noi_dung`, che
 
 - `git reset --hard origin/<branch>` XÓA file untracked + chưa commit — backup hoặc `git stash` trước
 - Repo có team khác commit lên cùng branch — khi pull rebase gặp conflict, hãy reset về origin rồi stage lại file của mình (chỉ `git add` file có tiền tố `goi-NNN` của mình, không `git add -A`)
+
+
+## Bugs phát hiện từ 5 gói song song (2026-10-15, Hermes Sonnet 4.5)
+
+### Bug 1: Regex "mã số" không match "mã,số"
+- 1 TB trong 84 có text "mã,số" (có dấu phẩy)
+- Fix: `re.search(r"mã[,\s]*số\s+(\d{4}\.\d{2}\.\d{2})", text, re.IGNORECASE)`
+- Cũ: `r"mã\s*số\s+(\d{4}\.\d{2}\.\d{2})"` - chỉ match space
+
+### Bug 2: Script crash khi ma_hs=None
+- `record.get('ma_hs', 'NONE')[:8]` - default CHỈ dùng khi KEY không tồn tại
+- Nếu value=None (key tồn tại) → `None[:8]` → TypeError
+- Fix: `(record.get('ma_hs') or 'NONE')[:8]`
+
+### Bug 3: Workflow thêm record thủ công
+Khi thêm record thủ công vào file processed, PHẢI set đủ fields:
+```python
+r['noi_dung'] = open(r['text_cache']).read()
+r['loai_phan_loai'] = r.get('loai', '')
+r['ten_hang'] = r.get('description', '')
+r['don_vi'] = ''
+r['mo_ta'] = r.get('description', '')
+r['reasonVi'] = r.get('reason_vi', '')
+r['source'] = {'reference': r['so_hieu'].split('/')[0] + '/' + r['so_hieu'].split('/')[1]}
+```
+
+### Pattern crawl nhiều gói
+- Dùng 1 Chrome instance cho tất cả gói (port 9226)
+- Mỗi gói có cache riêng (`/tmp/tb-text-cache-goi-NNN/`)
+- Mỗi gói có output riêng (`tracuuhs-detail-...-goi-NNN.json`)
+- Lưu log riêng để debug
+
+### Edge case parser
+- Luôn kiểm tra `None` trước khi slice/index
+- Pattern "mã,số" / "Mã HS" / "Mã số" / "Mã" - variations
+- DINH_CHINH: confusedWith + so_hieu mới
+- Text có thể chứa footer "HSTC là công cụ..." - cắt bỏ
