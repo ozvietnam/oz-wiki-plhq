@@ -16,6 +16,11 @@ allowed-tools:
 
 # /tb-tchq-lo — đóng gói lô tiền lệ TB-TCHQ gửi hs-code-api
 
+## Hỗ trợ
+
+- `scripts/crawl_goi.py` — Chrome CDP crawl 1 gói (20 TB) với PII scrub + parse 3 loại
+- `references/loai-tb-parsing.md` — chi tiết 3 loại TB (KET_QUA_PHAN_LOAI / XAC_DINH_TRUOC / DINH_CHINH) + pitfall anchor in hoa vs lowercase
+
 ## Role
 
 Bạn là người **đóng gói và gửi** dữ liệu tiền lệ phân loại — không phải người tự suy luận pháp lý.
@@ -41,9 +46,26 @@ KHÔNG nhồi vào lô, KHÔNG bịa trường.
 ## Không được làm
 
 - Sửa tay từng bản ghi trong tệp lô — sửa **tool đóng gói** rồi chạy lại.
-- Nhồi bản ghi thiếu `evidence.ketLuan`/mã không có trong kết luận — bên nhận chặn (từ 06/10/2026) và đó là luật đúng.
+- Nhồi bản ghi thiếu `evidence.ketLuan`/mã không có trong kết quả — bên nhận chặn (từ 06/10/2026) và đó là luật đúng.
 - Đưa tên doanh nghiệp, MST, số tờ khai, trị giá vào bất kỳ trường nào — repo công khai, lịch sử git không xoá được.
 - Tự suy ra `girRule`/`confusedWith` — chỉ ghi khi văn bản viện dẫn rõ.
+
+## Gate RÀ LẠI TAY — không thể bỏ qua
+
+Trước khi báo "xong gói", PHẢI spot-check 2–3 record ngẫu nhiên của file lô bằng cách **mở `text_cache` gốc và đọc lại**, không chỉ nhìn output tool:
+
+- Có PII lọt không? (regex `MST\s*[:.]?\s*\d{2}` / `@[\w.-]+` / `Công ty\s+(?:TNHH|CP|MTV)` / `Đ/c:` / `\b\d{8,15}/A\d` — phải match **0 lần** trong record đã che)
+- Description có bị cắt giữa câu không? Có lẫn "Tên gọi" của "Hàng hóa đề nghị" trong XAC_DINH_TRUOC không?
+- Nguyên tắc phân loại (lập luận pháp lý) có còn trong `reasonVi` không? — nếu thiếu, nguyên tắc mới là giá trị cốt lõi, không phải mã HS
+
+Validator chỉ check format. Nó không phát hiện: PII lọt, parser lấy nhầm "Tên gọi" lần 1, nguyên tắc bị mất khi cắt text 500 chars. Đó là lý do Sếp bảo "làm ẩu thế, rà lại những văn bản mà em đọc đi" — không phải validator sai, mà vì em không đọc lại tay.
+
+Checklist trước commit:
+- [ ] Mở 2–3 file `text_cache` (không phải file lô, file gốc trong `/tmp/tb-text-cache-goi-NNN/`)
+- [ ] So `description` trong lô với đoạn tương ứng trong raw
+- [ ] Tìm MST/Email/Địa chỉ/TK trong raw, xác nhận đã thành `##X##` trong lô
+- [ ] Với XAC_DINH_TRUOC: confirm "Tên gọi" lấy đúng lần 2
+- [ ] Nếu DINH_CHINH: confirm `confusedWith` đúng số TB cũ
 
 
 ## Bài học từ batch 20 gói (Hermes Sonnet 4.5, 13/10/2026)
@@ -267,41 +289,19 @@ Khi hsCode crawl từ nguồn cũ không có trong biểu thuế hiện hành:
 
 ## Bài học từ goi-101 (Hermes Sonnet 4.5, 15/10/2026)
 
-### 3 loại TB-TCHQ cần phân biệt
-- **KET_QUA_PHAN_LOAI**: "VỀ KẾT QUẢ PHÂN LOẠI" + "Kết quả phân loại:"
-- **XAC_DINH_TRUOC**: "VỀ KẾT QUẢ XÁC ĐỊNH TRƯỚC" + "Kết quả xác định trước mã số:" (có 2 "Tên gọi" - lấy CUỐI)
-- **DINH_CHINH**: "VỀ SỬA ĐỔI, THAY THẾ..." + confusedWith = TB cũ
-
-### DINH_CHINH workflow
-- Số hiệu trong body = TB MỚI (vd "Số: 23956/TB-CHQ")
-- Số hiệu cũ bị thay thế = confusedWith (vd "4967/TB-TCHQ/2024")
-- **Quy ước đổi `so_hieu` thành TB mới** (match "Số:" trong body)
-- confusedWith = list các TB cũ bị thay thế
-
-### Bắt buộc field `noi_dung`
-Tool `dong-goi-lo-tb-tchq.mjs` tìm "Số:" trong `noi_dung` để verify record:
-```python
-# File processed PHẢI có field 'noi_dung' chứa text full
-r['noi_dung'] = open(r['text_cache']).read()
-# Tool mới match được "Số: 7458" trong text với r['so_hieu'] = "7458/TB-TCHQ/2018"
-```
-
-### Che PII toàn bộ (CONTRIBUTING + privacy)
-- ##MST##, ##DN##, ##DC##, ##TK##, ##SDT##, ##EMAIL##
-- Cắt footer "HSTC là công cụ..."
-- KHÔNG có ngoại lệ - 20/20 record gốc đều có PII
+Nội dung kỹ thuật (3 loại TB, DINH_CHINH workflow, field `noi_dung`, che PII toàn bộ) đã được chuyển sang `references/loai-tb-parsing.md` và Gate RÀ LẠI TAY ở trên. Phần này giữ workflow tóm tắt + 1 cảnh báo môi trường cụ thể.
 
 ### Workflow chuẩn (gói-101, 3 phút 10 giây)
 1. Chrome CDP port 9226 (headless) - mỗi URL: 8s load + 1.5s delay
 2. Lưu text cache vào `/tmp/tb-text-cache-goi-NNN/`
-3. Parse thông minh 3 loại + che PII
+3. Parse thông minh 3 loại + che PII (xem `scripts/crawl_goi.py`)
 4. Thêm field `noi_dung` cho tool đóng gói
 5. DINH_CHINH: đổi so_hieu + confusedWith
 6. `tools/dong-goi-lo-tb-tchq.mjs` → 20/20 đạt
 7. Copy sang hs-code-api + `validate-community.mjs` → 0 lỗi
 8. `merge-community.mjs` + `sync-doc-counts.mjs` + `test-merge-community.mjs`
 
-### Reset --hard CẨN THẬN
-- `git reset --hard origin/branch` XÓA file untracked + file chưa commit
-- LUÔN backup trước: `git stash` hoặc copy file ra `/tmp/`
-- File đã commit mới reset an toàn (chỉ mất local changes)
+### Cảnh báo môi trường
+
+- `git reset --hard origin/<branch>` XÓA file untracked + chưa commit — backup hoặc `git stash` trước
+- Repo có team khác commit lên cùng branch — khi pull rebase gặp conflict, hãy reset về origin rồi stage lại file của mình (chỉ `git add` file có tiền tố `goi-NNN` của mình, không `git add -A`)
