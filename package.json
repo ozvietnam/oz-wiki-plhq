@@ -24,7 +24,8 @@
     "chu-giai": "node tools/chu-giai.mjs",
     "trich-chu-giai": "node tools/trich-chu-giai.mjs",
     "dong-goi-lo": "node tools/dong-goi-lo-tb-tchq.mjs",
-    "chia-goi": "node tools/chia-goi-tb-tchq.mjs"
+    "chia-goi": "node tools/chia-goi-tb-tchq.mjs",
+    "doi-chieu-kho": "node tools/doi-chieu-kho-tb-tchq.mjs"
   },
   "dependencies": {
     "js-yaml": "^4.1.0"

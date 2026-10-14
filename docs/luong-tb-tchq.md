@@ -22,6 +22,26 @@ phục vụ người tra cứu.
 
 ## Các bước
 
+### 0. ĐỐI CHIẾU KHO TRƯỚC KHI NHẬN GÓI — bắt buộc (luật CEO 14/10/2026)
+
+**Không cào trước rồi mới phát hiện trùng.** Trước khi nhận một gói, chạy:
+
+```bash
+npm run doi-chieu-kho     # node tools/doi-chieu-kho-tb-tchq.mjs
+```
+
+Tool đối chiếu từng TB trong manifest với kho tiền lệ hs-code-api (`precedents.json`, tải trực tiếp —
+repo công khai) và ghi **`data/customs/lo/hang-doi-uu-tien.json`**: mỗi gói kèm `chua_co` (TB chưa có
+trong kho — giá trị mới thật) · `mong_co` (đã có nhưng lý do < 150 ký tự — **giá trị nâng cấp**) ·
+`da_co` (đã có bản đủ — gần như không đáng cào lại).
+
+**Thứ tự giá trị:** TB chưa có ≫ bản mỏng cần nâng cấp > bản đủ (bỏ qua). Nhận gói theo bảng xếp hạng
+trong `hang-doi-uu-tien.json` (chưa có nhiều nhất trước), KHÔNG nhận theo thứ tự số gói. Chạy lại
+`npm run doi-chieu-kho` sau mỗi đợt gộp để bảng khớp kho mới nhất.
+
+> Số thật 14/10/2026: cả 103 gói chỉ còn **50 TB chưa có + 223 bản mỏng** trên tổng 2.043 — 97,6% đã
+> nằm trong kho. Cào tràn lan là lãng phí; đối chiếu trước là điều kiện nhận gói.
+
 ### 1. Chuẩn bị dữ liệu gốc
 
 - crawl/parse TB từ `tracuuhs.com` (SPA, 1 load/trang — nhanh) hoặc `customs.gov.vn` (ổn định 100% URL).

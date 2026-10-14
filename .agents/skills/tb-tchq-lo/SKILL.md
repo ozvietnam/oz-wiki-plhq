@@ -30,6 +30,7 @@ KHÔNG nhồi vào lô, KHÔNG bịa trường.
 
 ## Vòng làm việc
 
+0. **Đối chiếu kho trước khi nhận gói (bắt buộc, luật CEO 14/10/2026):** chạy `npm run doi-chieu-kho` → nhận gói theo bảng xếp hạng trong `data/customs/lo/hang-doi-uu-tien.json` (nhiều TB `chua_co` trước, rồi nhiều `mong_co`). KHÔNG cào tràn lan rồi mới phát hiện trùng — cả hàng đợi 2.043 TB ngày 14/10 chỉ còn 50 TB chưa có.
 1. Xác định nguồn: file detail trong `data/customs/processed/` hay danh sách "cần xử tay" của lô trước.
 2. Đóng gói: `node tools/dong-goi-lo-tb-tchq.mjs --vao … --ra data/customs/lo/<tên-lô>.json --bao-cao …`
    — tool tự gán `attributes.loaiTB` (XAC_DINH_TRUOC / KET_QUA_PHAN_LOAI / DINH_CHINH) và trích `confusedWith`

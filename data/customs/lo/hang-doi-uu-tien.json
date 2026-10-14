@@ -1,0 +1,1016 @@
+{
+ "_comment": "Xếp hạng gói hàng đợi TB-TCHQ theo số TB CHƯA CÓ trong kho tiền lệ hs-code-api — agent nhận gói TỪ TRÊN XUỐNG để tỉ lệ giá trị mới cao. Sinh bằng tools/doi-chieu-kho-tb-tchq.mjs; chạy lại khi kho đổi.",
+ "ngay": "2026-10-14",
+ "nguon_kho": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/precedents.json",
+ "tong_tb_chua_co": 50,
+ "tong_tb_da_co": 1993,
+ "goi": [
+  {
+   "id": "goi-091",
+   "tieu_de": "Ch.72·73",
+   "so_luong": 20,
+   "chua_co": 6,
+   "da_co": 14,
+   "mong_co": 2,
+   "tb_chua_co": [
+    "89/TB-TCHQ/2019",
+    "90/TB-TCHQ/2019",
+    "91/TB-TCHQ/2019",
+    "139/TB-TCHQ/2019",
+    "1234/TB-TCHQ/2019",
+    "6022/TB-TCHQ/2018"
+   ]
+  },
+  {
+   "id": "goi-044",
+   "tieu_de": "Ch.33·34",
+   "so_luong": 20,
+   "chua_co": 4,
+   "da_co": 16,
+   "mong_co": 4,
+   "tb_chua_co": [
+    "223/TB-TCHQ/2025",
+    "1227/TB-TCHQ/2019",
+    "1228/TB-TCHQ/2019",
+    "1328/TB-TCHQ/2018"
+   ]
+  },
+  {
+   "id": "goi-079",
+   "tieu_de": "Ch.68·69",
+   "so_luong": 20,
+   "chua_co": 4,
+   "da_co": 16,
+   "mong_co": 3,
+   "tb_chua_co": [
+    "2102/TB-TCHQ/2018",
+    "18/TB-TCHQ/2019",
+    "3622/TB-TCHQ/2018",
+    "3623/TB-TCHQ/2018"
+   ]
+  },
+  {
+   "id": "goi-081",
+   "tieu_de": "Ch.70",
+   "so_luong": 20,
+   "chua_co": 3,
+   "da_co": 17,
+   "mong_co": 3,
+   "tb_chua_co": [
+    "22/TB-TCHQ/2019",
+    "1968/TB-TCHQ/2018",
+    "6895/TB-TCHQ/2018"
+   ]
+  },
+  {
+   "id": "goi-085",
+   "tieu_de": "Ch.72",
+   "so_luong": 20,
+   "chua_co": 3,
+   "da_co": 17,
+   "mong_co": 0,
+   "tb_chua_co": [
+    "3234/TB-TCHQ/2018",
+    "3801/TB-TCHQ/2018",
+    "5201/TB-TCHQ/2018"
+   ]
+  },
+  {
+   "id": "goi-093",
+   "tieu_de": "Ch.76·80·81·82",
+   "so_luong": 20,
+   "chua_co": 2,
+   "da_co": 18,
+   "mong_co": 9,
+   "tb_chua_co": [
+    "3745/TB-TCHQ/2019",
+    "2075/TB-TCHQ/2023"
+   ]
+  },
+  {
+   "id": "goi-069",
+   "tieu_de": "Ch.48·49·51",
+   "so_luong": 20,
+   "chua_co": 2,
+   "da_co": 18,
+   "mong_co": 3,
+   "tb_chua_co": [
+    "576/TB-TCHQ/2018",
+    "3865/TB-TCHQ/2019"
+   ]
+  },
+  {
+   "id": "goi-102",
+   "tieu_de": "Ch.90·91·94·95·96",
+   "so_luong": 20,
+   "chua_co": 2,
+   "da_co": 18,
+   "mong_co": 2,
+   "tb_chua_co": [
+    "2411/TB-TCHQ/2018",
+    "6132/TB-TCHQ/2024"
+   ]
+  },
+  {
+   "id": "goi-090",
+   "tieu_de": "Ch.72",
+   "so_luong": 20,
+   "chua_co": 2,
+   "da_co": 18,
+   "mong_co": 1,
+   "tb_chua_co": [
+    "3350/TB-TCHQ/2019",
+    "1133/TB-TCHQ/2022"
+   ]
+  },
+  {
+   "id": "goi-011",
+   "tieu_de": "Ch.21",
+   "so_luong": 20,
+   "chua_co": 2,
+   "da_co": 18,
+   "mong_co": 0,
+   "tb_chua_co": [
+    "3788/TB-TCHQ/2019",
+    "3790/TB-TCHQ/2019"
+   ]
+  },
+  {
+   "id": "goi-095",
+   "tieu_de": "Ch.84",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 8,
+   "tb_chua_co": [
+    "3270/TB-TCHQ/2018"
+   ]
+  },
+  {
+   "id": "goi-039",
+   "tieu_de": "Ch.32",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 7,
+   "tb_chua_co": [
+    "2174/TB-TCHQ/2020"
+   ]
+  },
+  {
+   "id": "goi-094",
+   "tieu_de": "Ch.82·83·84",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 7,
+   "tb_chua_co": [
+    "123/TB-TCHQ/2025"
+   ]
+  },
+  {
+   "id": "goi-026",
+   "tieu_de": "Ch.28",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 6,
+   "tb_chua_co": [
+    "3160/TB-TCHQ/2019"
+   ]
+  },
+  {
+   "id": "goi-050",
+   "tieu_de": "Ch.38",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 6,
+   "tb_chua_co": [
+    "976/TB-TCHQ/2018"
+   ]
+  },
+  {
+   "id": "goi-002",
+   "tieu_de": "Ch.04·08·09·11·12·13",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 5,
+   "tb_chua_co": [
+    "6411/TB-TCHQ/2018"
+   ]
+  },
+  {
+   "id": "goi-041",
+   "tieu_de": "Ch.32·33",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 5,
+   "tb_chua_co": [
+    "804/TB-TCHQ/2018"
+   ]
+  },
+  {
+   "id": "goi-027",
+   "tieu_de": "Ch.28·29",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 4,
+   "tb_chua_co": [
+    "3000/TB-TCHQ/2019"
+   ]
+  },
+  {
+   "id": "goi-042",
+   "tieu_de": "Ch.33",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 3,
+   "tb_chua_co": [
+    "174/TB-TCHQ/2022"
+   ]
+  },
+  {
+   "id": "goi-005",
+   "tieu_de": "Ch.17·18·19",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 2,
+   "tb_chua_co": [
+    "3261/TB-TCHQ/2018"
+   ]
+  },
+  {
+   "id": "goi-075",
+   "tieu_de": "Ch.56·57·58",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 1,
+   "tb_chua_co": [
+    "6742/TB-TCHQ/2018"
+   ]
+  },
+  {
+   "id": "goi-086",
+   "tieu_de": "Ch.72",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 1,
+   "tb_chua_co": [
+    "7280/TB-TCHQ/2018"
+   ]
+  },
+  {
+   "id": "goi-087",
+   "tieu_de": "Ch.72",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 1,
+   "tb_chua_co": [
+    "7088/TB-TCHQ/2018"
+   ]
+  },
+  {
+   "id": "goi-018",
+   "tieu_de": "Ch.22",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 0,
+   "tb_chua_co": [
+    "2968/TB-TCHQ/2018"
+   ]
+  },
+  {
+   "id": "goi-030",
+   "tieu_de": "Ch.29",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 0,
+   "tb_chua_co": [
+    "665/TB-TCHQ/2018"
+   ]
+  },
+  {
+   "id": "goi-068",
+   "tieu_de": "Ch.42·44·46·47·48",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 0,
+   "tb_chua_co": [
+    "4138/TB-TCHQ/2026"
+   ]
+  },
+  {
+   "id": "goi-070",
+   "tieu_de": "Ch.51·52",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 0,
+   "tb_chua_co": [
+    "3267/TB-TCHQ/2018"
+   ]
+  },
+  {
+   "id": "goi-073",
+   "tieu_de": "Ch.54·55",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 0,
+   "tb_chua_co": [
+    "3241/TB-TCHQ/2019"
+   ]
+  },
+  {
+   "id": "goi-077",
+   "tieu_de": "Ch.59·60",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 0,
+   "tb_chua_co": [
+    "3268/TB-TCHQ/2018"
+   ]
+  },
+  {
+   "id": "goi-084",
+   "tieu_de": "Ch.72",
+   "so_luong": 20,
+   "chua_co": 1,
+   "da_co": 19,
+   "mong_co": 0,
+   "tb_chua_co": [
+    "2454/TB-TCHQ/2018"
+   ]
+  },
+  {
+   "id": "goi-037",
+   "tieu_de": "Ch.30",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 14,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-048",
+   "tieu_de": "Ch.35·37",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 10,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-047",
+   "tieu_de": "Ch.34·35",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 9,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-036",
+   "tieu_de": "Ch.30",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 8,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-035",
+   "tieu_de": "Ch.29·30",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 7,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-034",
+   "tieu_de": "Ch.29",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 6,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-038",
+   "tieu_de": "Ch.30·31·32",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 6,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-043",
+   "tieu_de": "Ch.33",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 6,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-040",
+   "tieu_de": "Ch.32",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 5,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-080",
+   "tieu_de": "Ch.69·70",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 5,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-092",
+   "tieu_de": "Ch.73·74·75",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 5,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-096",
+   "tieu_de": "Ch.84·85",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 5,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-025",
+   "tieu_de": "Ch.28",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 3,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-031",
+   "tieu_de": "Ch.29",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 3,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-052",
+   "tieu_de": "Ch.38",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 3,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-067",
+   "tieu_de": "Ch.39·40·41·42",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 3,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-082",
+   "tieu_de": "Ch.70·71·72",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 3,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-098",
+   "tieu_de": "Ch.85",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 3,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-099",
+   "tieu_de": "Ch.85",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 3,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-101",
+   "tieu_de": "Ch.85·87·89·90",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 3,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-029",
+   "tieu_de": "Ch.29",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 2,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-033",
+   "tieu_de": "Ch.29",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 2,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-045",
+   "tieu_de": "Ch.34",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 2,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-054",
+   "tieu_de": "Ch.38",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 2,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-064",
+   "tieu_de": "Ch.39",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 2,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-078",
+   "tieu_de": "Ch.60·61·63·68",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 2,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-083",
+   "tieu_de": "Ch.72",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 2,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-088",
+   "tieu_de": "Ch.72",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 2,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-020",
+   "tieu_de": "Ch.22·23·25",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 1,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-021",
+   "tieu_de": "Ch.25·26·27",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 1,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-022",
+   "tieu_de": "Ch.27",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 1,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-046",
+   "tieu_de": "Ch.34",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 1,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-053",
+   "tieu_de": "Ch.38",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 1,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-057",
+   "tieu_de": "Ch.38",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 1,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-061",
+   "tieu_de": "Ch.38",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 1,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-062",
+   "tieu_de": "Ch.38",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 1,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-063",
+   "tieu_de": "Ch.38·39",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 1,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-066",
+   "tieu_de": "Ch.39",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 1,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-076",
+   "tieu_de": "Ch.58·59",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 1,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-089",
+   "tieu_de": "Ch.72",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 1,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-097",
+   "tieu_de": "Ch.85",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 1,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-100",
+   "tieu_de": "Ch.85",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 1,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-001",
+   "tieu_de": "Ch.02·03·04",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-003",
+   "tieu_de": "Ch.13·14·15",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-004",
+   "tieu_de": "Ch.15·16·17",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-006",
+   "tieu_de": "Ch.19",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-007",
+   "tieu_de": "Ch.19",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-008",
+   "tieu_de": "Ch.19",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-009",
+   "tieu_de": "Ch.19·20",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-010",
+   "tieu_de": "Ch.20·21",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-012",
+   "tieu_de": "Ch.21",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-013",
+   "tieu_de": "Ch.21",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-014",
+   "tieu_de": "Ch.21",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-015",
+   "tieu_de": "Ch.21",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-016",
+   "tieu_de": "Ch.21·22",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-017",
+   "tieu_de": "Ch.22",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-019",
+   "tieu_de": "Ch.22",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-023",
+   "tieu_de": "Ch.27",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-024",
+   "tieu_de": "Ch.27·28",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-028",
+   "tieu_de": "Ch.29",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-032",
+   "tieu_de": "Ch.29",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-049",
+   "tieu_de": "Ch.38",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-051",
+   "tieu_de": "Ch.38",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-055",
+   "tieu_de": "Ch.38",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-056",
+   "tieu_de": "Ch.38",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-058",
+   "tieu_de": "Ch.38",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-059",
+   "tieu_de": "Ch.38",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-060",
+   "tieu_de": "Ch.38",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-065",
+   "tieu_de": "Ch.39",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-071",
+   "tieu_de": "Ch.52·53·54",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-072",
+   "tieu_de": "Ch.54",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-074",
+   "tieu_de": "Ch.55·56",
+   "so_luong": 20,
+   "chua_co": 0,
+   "da_co": 20,
+   "mong_co": 0,
+   "tb_chua_co": []
+  },
+  {
+   "id": "goi-103",
+   "tieu_de": "Ch.96",
+   "so_luong": 3,
+   "chua_co": 0,
+   "da_co": 3,
+   "mong_co": 0,
+   "tb_chua_co": []
+  }
+ ]
+}

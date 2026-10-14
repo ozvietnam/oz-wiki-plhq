@@ -357,6 +357,31 @@ t('hàng đợi TB-TCHQ: mỗi gói 1..20 TB, id goi-NNN, url đúng theo số h
 t('hàng đợi TB-TCHQ: 15 mục xử lý tay kèm nguồn',
   hd.xu_ly_tay.length === 15 && hd.xu_ly_tay.every((x) => x.nguon && x.muc), `n=${hd.xu_ly_tay.length}`);
 
+// 8e. Đối chiếu hàng đợi TB-TCHQ với kho tiền lệ (luật CEO 14/10: xem kho trước khi cào)
+const { chuanSoHieu, banDoKho, xepHangGoi } = await import('../doi-chieu-kho-tb-tchq.mjs');
+t('đối chiếu kho: chuẩn hoá số hiệu bỏ năm + số 0 đầu',
+  chuanSoHieu('1005/TB-TCHQ/2025') === '1005/TB-TCHQ' && chuanSoHieu('08/TB-TCHQ') === '8/TB-TCHQ' && chuanSoHieu('16238/TB-CHQ') === '16238/TB-CHQ');
+const khoGia = { '14049099': [
+  { tbTchqNumber: '503/TB-TCHQ', technicalSpec: 'x'.repeat(200) },
+  { tbTchqNumber: '1005/TB-TCHQ', technicalSpec: 'ngắn' },
+] };
+const hdGia = { goi: [
+  { id: 'goi-001', tieu_de: 'Ch.02', so_luong: 2, tb: [{ so_hieu: '503/TB-TCHQ/2018' }, { so_hieu: '1005/TB-TCHQ/2025' }] },
+  { id: 'goi-002', tieu_de: 'Ch.03', so_luong: 2, tb: [{ so_hieu: '999/TB-TCHQ/2019' }, { so_hieu: '08/TB-TCHQ/2020' }] },
+  { id: 'goi-003', tieu_de: 'Ch.04', so_luong: 1, tb: [{ so_hieu: '777/TB-TCHQ/2021' }] },
+] };
+const xpGia = xepHangGoi(hdGia, banDoKho(khoGia));
+t('đối chiếu kho: xếp gói theo chưa-có giảm dần, đếm đúng bản mỏng',
+  xpGia[0].id === 'goi-002' && xpGia[0].chua_co === 2 && xpGia[1].id === 'goi-003' && xpGia[2].chua_co === 0 && xpGia[2].mong_co === 1,
+  JSON.stringify(xpGia.map((g) => ({ id: g.id, chua: g.chua_co, mong: g.mong_co }))));
+const uuTien = JSON.parse(readFileSync(join(ROOT, 'data/customs/lo/hang-doi-uu-tien.json'), 'utf8'));
+t('đối chiếu kho: bảng ưu tiên đã commit — tổng khớp và xếp giảm dần',
+  uuTien.goi.length === 103
+  && uuTien.goi.every((g) => g.chua_co + g.da_co === g.so_luong)
+  && uuTien.goi.every((g, i, a) => i === 0 || a[i - 1].chua_co >= g.chua_co)
+  && uuTien.tong_tb_chua_co === uuTien.goi.reduce((n, g) => n + g.chua_co, 0),
+  JSON.stringify({ n: uuTien.goi.length, tong: uuTien.tong_tb_chua_co }));
+
 // 9. Phiên bản lược đồ (docs/yeu-cau/ozplugin.md W1): hai tệp dist đều có luoc_do_phien_ban, khớp semver, bằng nhau.
 const semverOk = (s) => /^\d+\.\d+\.\d+$/.test(s);
 t('lược đồ: dungJson + dungChiMuc gắn luoc_do_phien_ban từ một hằng số chung',
