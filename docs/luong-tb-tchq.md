@@ -71,13 +71,18 @@ CI bên nhận (`community-data` workflow) tự chạy `validate-community` trê
 Mở `BAO-CAO-lot-NN.md` → với mỗi mục: mở `noi_dung` của bản ghi gốc, **đọc toàn văn**, chép đúng theo
 hướng dẫn trích (không đoán), rồi bổ sung vào **lô sau** (không sửa lô đã gộp — trùng số hiệu sẽ bị chặn).
 
-## Hai loại TB và cặp bài học (CEO 13/10/2026)
+## Ba loại TB nghiệp vụ + cặp bài học (CEO 13/10/2026; sổ 14/10/2026)
 
-| Loại (`attributes.loaiTB`) | Khi nào | Giá trị |
-|---|---|---|
-| `XAC_DINH_TRUOC` | Doanh nghiệp hỏi **trước khi hàng về/khai** | Phòng tranh chấp — chốt mã từ đầu, độ tin cậy cao |
-| `KET_QUA_PHAN_LOAI` | Sau phân tích mẫu / phát sinh khai báo | Kết luận cuối cùng, đối chiếu được với hành vi khai |
-| `DINH_CHINH` | Cơ quan **sửa chính** thông báo trước | Cặp mã cũ → mã mới là bài học đắt nhất |
+Trên **lô** gửi hs-code-api giữ mã packer `attributes.loaiTB`. Trên **sổ / detail / index** dùng
+`loai_phan_loai` (cùng 3 nhóm; thiếu toàn văn → `CHUA_XAC_DINH`). Mapper: `tools/lib/loai-phan-loai-tb-tchq.mjs`.
+Bảng tra: `data/customs/lo/tb-tchq-loai-phan-loai.json`.
+
+| Nghiệp vụ | `loai_phan_loai` (sổ) | `attributes.loaiTB` (lô) | Căn cứ thường gặp |
+|---|---|---|---|
+| Xin xác nhận / xác định trước mã số | `XAC_DINH_TRUOC` | `XAC_DINH_TRUOC` | Tiêu đề `XÁC ĐỊNH TRƯỚC MÃ SỐ` |
+| Kiểm tra và xác định lại mã số | `KIEM_TRA_XAC_DINH_LAI` | `KET_QUA_PHAN_LOAI` | Trong kho hầu hết là tiêu đề `VỀ KẾT QUẢ PHÂN LOẠI…` — ghi `loai_phan_loai_can_cu: proxy_ket_qua_phan_loai_title` (chưa thấy cụm đúng「kiểm tra và xác định lại」trong toàn văn đã nạp) |
+| Đính chính kết quả | `DINH_CHINH` | `DINH_CHINH` | Tiêu đề / `loai_vb` đính chính |
+| Chưa đủ tín hiệu | `CHUA_XAC_DINH` | — | Chưa có `noi_dung` / bot-wall |
 
 **Luật trích:** loại TB đọc từ tiêu đề văn bản (mapper tự làm). Ca **kết quả khác lần khai**: mã doanh
 nghiệp từng khai/cơ quan từng kết luận mà bị bác → ghi vào `confusedWith` (CHỈ mã có nguyên văn; với đính

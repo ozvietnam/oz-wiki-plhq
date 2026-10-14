@@ -8,6 +8,9 @@ ban hành (`1182/QĐ-BCT` → `1182-qd-bct-2021`). Tạo nhanh: `node tools/them
 so_hieu: 28/2026/TT-BCT          # bắt buộc — đúng như in trên văn bản
 so_hieu_khac: []                 # tuỳ chọn — cách viết sai/biến thể hay gặp (vd lỗi gõ trong biểu thuế), để máy khác tra được
 loai: THONG_TU                   # bắt buộc — xem danh sách dưới
+loai_phan_loai: XAC_DINH_TRUOC   # tuỳ chọn — chỉ TB-TCHQ: XAC_DINH_TRUOC | KIEM_TRA_XAC_DINH_LAI | DINH_CHINH | CHUA_XAC_DINH
+loai_phan_loai_can_cu: title_xac_dinh_truoc   # tuỳ chọn — căn cứ phân loại (không bịa; xem docs/luong-tb-tchq.md)
+loai_phan_loai_ngay: 2026-10-14  # tuỳ chọn — ngày gắn loại
 ten: "Danh mục ..."              # bắt buộc — nguyên văn trích yếu
 co_quan: BCT                     # ký hiệu trong registry/co-quan.yaml
 ngay_ban_hanh: 2026-06-01
@@ -76,3 +79,4 @@ chối bản chụp và báo lỗi, thay vì trả sai tình trạng hiệu lự
 | 1.0.0 | 2026-10-13 | Phiên bản đầu: cấu trúc như hiện tại; thêm `luoc_do_phien_ban` vào hai tệp máy (yêu cầu tích hợp [docs/yeu-cau/ozplugin.md](yeu-cau/ozplugin.md) W1) |
 | 1.1.0 | 2026-10-13 | Thêm tệp mới `dist/hs-index-theo-ma.json` (nhóm mã HS → văn bản, đảo chiều của `hs-index.json`); cấu trúc hai tệp cũ không đổi — minor theo quy ước W1 |
 | 1.2.0 | 2026-10-13 | `hs-index-theo-ma.json`: thêm `bieu_thue_doi_chieu` + `canh_bao_ma` (nhóm mã ngoài biểu thuế), `tien_le_tb_tchq` (mật độ TB-TCHQ theo mã 8 số / nhóm 4 số), `tong_canh`; gộp cạnh trùng toàn trường (13.543 → 9.900) |
+| 1.3.0 | 2026-10-14 | Thêm trường tuỳ chọn TB-TCHQ: `loai_phan_loai` / `loai_phan_loai_can_cu` / `loai_phan_loai_ngay` (3 nhóm nghiệp vụ + `CHUA_XAC_DINH`). Không đổi trường bắt buộc — minor |

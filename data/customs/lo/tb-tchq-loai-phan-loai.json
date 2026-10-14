@@ -1,0 +1,5883 @@
+{
+  "kind": "tracuuhs.tb-tchq.loai-phan-loai",
+  "ngay": "2026-10-14",
+  "quy_uoc": {
+    "XAC_DINH_TRUOC": "Xin xác nhận trước / xác định trước mã số",
+    "KIEM_TRA_XAC_DINH_LAI": "Kiểm tra và xác định lại mã số (trong kho thường = tiêu đề Kết quả phân loại — xem can_cu)",
+    "DINH_CHINH": "Đính chính kết quả",
+    "CHUA_XAC_DINH": "Chưa đủ toàn văn / tín hiệu để phân loại"
+  },
+  "tu_detail": {
+    "1012/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1013/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "102/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "102/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1023/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "103/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "103/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "107/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1098/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1112/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1113/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1114/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1114/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1115/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1116/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1117/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1128/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1129/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1130/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1179/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1180/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1181/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1220/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1293/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1294/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1309/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1311/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1372/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1377/TB-TCHQ/2018": {
+      "ma": "DINH_CHINH",
+      "can_cu": "title_dinh_chinh"
+    },
+    "144/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1443/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1506/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1553/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1572/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "170/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "171/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1714/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1714/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1714/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1715/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "172/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "173/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1764/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1779/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1804/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "188/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1885/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1887/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "189/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1893/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1969/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1970/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "199/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1994/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2030/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2034/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2131/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2330/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2331/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2332/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2338/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2387/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2388/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2389/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2390/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2391/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2414/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2487/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "25/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2519/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2619/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2620/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2681/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "271/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2765/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2843/TB-TCHQ/2026": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2845/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2979/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3038/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3062/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3071/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3136/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3137/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3138/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3144/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "321/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3218/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "322/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3235/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3236/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3237/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "324/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3245/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3245/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3246/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3266/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "328/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "328/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "329/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3299/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "330/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3313/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3330/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3332/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3334/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3345/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3345/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3346/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3346/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3347/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3348/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3349/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3387/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3408/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3516/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3517/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3542/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3543/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3594/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3614/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3614/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3635/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3647/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3668/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3818/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3820/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3821/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3822/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3831/TB-TCHQ/2021": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3831/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "388/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3925/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4008/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4031/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4032/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4034/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4035/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4059/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4066/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4090/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4110/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4116/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4130/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4141/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4145/TB-TCHQ/2018": {
+      "ma": "DINH_CHINH",
+      "can_cu": "title_dinh_chinh"
+    },
+    "4211/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4341/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4360/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4369/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4386/TB-TCHQ/2021": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4402/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4403/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4418/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4451/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4466/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4467/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4475/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4561/TB-TCHQ/2021": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4561/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4562/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4590/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4614/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4617/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4707/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4710/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4738/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4746/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4765/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4777/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4786/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4787/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4794/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4814/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4814/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4815/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "49/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4902/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4977/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5006/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5007/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5075/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5075/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5076/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5077/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5108/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5109/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "511/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5120/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5121/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5122/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5123/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5124/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5125/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5126/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5141/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5142/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5146/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5196/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5198/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5211/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5213/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5215/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5252/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "529/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "529/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5293/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5294/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5295/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5343/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5344/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5432/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5433/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5436/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5439/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5463/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5510/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5524/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5525/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5876/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5919/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5920/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5921/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5967/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5968/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5969/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5970/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5970/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5971/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5985/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5998/TB-TCHQ/2021": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6011/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6012/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6014/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6016/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6017/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "620/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6200/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6201/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "622/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6255/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6316/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6317/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6326/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6331/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "64/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6436/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6448/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6449/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "65/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6632/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "681/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6834/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7018/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "706/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "706/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "707/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "707/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "717/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7388/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7396/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7479/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "503/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "988/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "989/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3873/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3874/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4780/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2907/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6104/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6105/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6304/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "462/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "527/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "528/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7293/TB-TCHQ/2018": {
+      "ma": "DINH_CHINH",
+      "can_cu": "title_dinh_chinh"
+    },
+    "7294/TB-TCHQ/2018": {
+      "ma": "DINH_CHINH",
+      "can_cu": "title_dinh_chinh"
+    },
+    "7295/TB-TCHQ/2018": {
+      "ma": "DINH_CHINH",
+      "can_cu": "title_dinh_chinh"
+    },
+    "7296/TB-TCHQ/2018": {
+      "ma": "DINH_CHINH",
+      "can_cu": "title_dinh_chinh"
+    },
+    "7297/TB-TCHQ/2018": {
+      "ma": "DINH_CHINH",
+      "can_cu": "title_dinh_chinh"
+    },
+    "1220/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2101/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6411/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "525/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "526/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6488/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5193/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5235/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "7392/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6431/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3581/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "105/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "469/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "483/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "529/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1258/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2232/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5818/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "613/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "510/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2966/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3336/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6336/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1455/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2037/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6313/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1798/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2840/TB-TCHQ/2026": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "288/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "234/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1148/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1149/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2836/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6412/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1991/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "100/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "119/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "237/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2833/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2834/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2835/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2837/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2839/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3593/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6407/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "221/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1025/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2455/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4124/TB-TCHQ/2021": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4153/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5192/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1764/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4847/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "362/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "547/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "901/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1224/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "181/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "182/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "183/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "184/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "185/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2415/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1946/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2090/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2091/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2092/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2093/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2094/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2413/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2414/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3261/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3649/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4661/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7393/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7394/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7395/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "118/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "200/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "449/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "520/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "814/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "815/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "816/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "817/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "818/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "819/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "820/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "821/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "822/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "823/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "824/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "825/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1627/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1853/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1854/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1855/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1856/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1886/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2223/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2224/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2225/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2726/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3659/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3660/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3661/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4013/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4817/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4818/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6439/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6447/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6448/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6449/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6450/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1762/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2347/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6313/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6489/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6490/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "7391/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "186/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "252/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "253/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "254/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "255/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "256/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "257/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "258/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1257/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3058/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3674/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3675/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3676/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3677/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3678/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3679/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3681/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3682/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7285/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7286/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7287/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7288/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7300/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7301/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6931/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6932/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "146/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "450/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "534/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "800/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1095/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1096/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1713/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1995/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2817/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3391/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4325/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4327/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4328/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5453/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "151/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "187/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1769/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2412/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3386/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3387/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3388/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3389/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3392/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1395/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1626/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3337/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3648/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1505/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2889/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3534/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4288/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6015/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6064/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7547/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "238/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "446/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "474/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "475/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "476/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "477/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "565/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "813/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1211/TB-TCHQ/2020": {
+      "ma": "DINH_CHINH",
+      "can_cu": "title_dinh_chinh"
+    },
+    "1225/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1503/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1705/TB-TCHQ/2020": {
+      "ma": "DINH_CHINH",
+      "can_cu": "title_dinh_chinh"
+    },
+    "3224/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3662/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3697/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3788/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3790/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4136/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4319/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7341/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7545/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7546/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "812/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "817/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3915/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3916/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3917/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3922/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4015/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "08/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "10/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "11/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "235/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "248/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "509/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "512/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "513/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "514/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "515/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "516/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "524/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "533/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "568/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "569/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "570/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "571/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "572/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "574/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "581/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "630/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "631/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "638/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "730/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "731/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "756/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1099/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1212/TB-TCHQ/2020": {
+      "ma": "DINH_CHINH",
+      "can_cu": "title_dinh_chinh"
+    },
+    "1216/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1217/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1218/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1220/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1547/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2026/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2027/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2030/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2172/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2194/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2196/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2306/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2708/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2709/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2710/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2905/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2906/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2969/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3005/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3258/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3259/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3260/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3390/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3508/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3683/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3684/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3685/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3811/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3823/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3825/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3903/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3940/TB-TCHQ/2021": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3969/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3979/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4014/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4016/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4326/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4611/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4788/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4816/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4931/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5388/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_loai_vb_phan_loai_hang_hoa"
+    },
+    "5523/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5655/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5730/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5731/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5733/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6157/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6158/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6937/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6938/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6939/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6940/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6941/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6942/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6943/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6944/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6945/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6946/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6947/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7009/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7017/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7019/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7390/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "70/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "71/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "249/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "281/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "511/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1312/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1313/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1314/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1315/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1316/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1897/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1898/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1900/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1901/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1920/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1921/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1922/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2317/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2346/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2354/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2355/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2473/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2621/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2968/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3074/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3119/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3142/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3222/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3223/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3349/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3509/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3545/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3672/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3734/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4083/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4084/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6257/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6258/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6260/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7157/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7158/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7159/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7174/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7180/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "456/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1421/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1422/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1423/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1424/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1425/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1752/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1852/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2926/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2927/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2928/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2929/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2930/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2931/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3109/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3110/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3111/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3112/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3113/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3115/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3116/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3117/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3976/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5286/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4287/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "319/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6409/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "809/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "810/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "811/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "218/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3978/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1990/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3536/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4172/TB-TCHQ/2019": {
+      "ma": "DINH_CHINH",
+      "can_cu": "title_dinh_chinh"
+    },
+    "6705/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6713/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6410/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3535/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3546/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "984/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6498/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6024/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "448/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "617/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "755/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "757/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3104/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4005/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5729/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3422/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "522/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "618/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2479/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "922/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1373/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "927/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1062/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1672/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2315/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2348/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3509/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4960/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5079/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5227/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5228/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "198/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "326/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "327/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "557/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "587/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "928/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "982/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "985/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "986/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "987/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1005/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1420/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2790/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3054/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3055/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3056/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4001/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4010/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4011/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4012/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4021/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4022/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4466/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4640/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5340/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5341/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5690/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5691/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5811/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5852/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5909/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6026/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6306/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6491/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "189/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "190/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "566/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6270/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6271/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6272/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6408/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "798/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "799/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1050/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3153/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3893/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1902/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4156/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6499/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1142/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6482/TB-TCHQ/2018": {
+      "ma": "DINH_CHINH",
+      "can_cu": "title_dinh_chinh"
+    },
+    "6483/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6485/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6486/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "21/TB-TCHQ/2019": {
+      "ma": "DINH_CHINH",
+      "can_cu": "title_dinh_chinh"
+    },
+    "1095/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3149/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3151/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1096/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2320/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3141/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6631/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "108/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2337/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3995/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4158/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5984/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1766/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1767/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2452/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3120/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2323/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3117/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3996/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6432/TB-TCHQ/2020": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2322/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3541/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4979/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "143/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1071/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3160/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3701/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6433/TB-TCHQ/2020": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3246/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5606/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "240/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1025/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1311/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3158/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4612/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5492/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "517/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4874/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6311/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "183/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3072/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "325/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3987/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "134/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "811/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1058/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1097/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1500/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2341/TB-TCHQ/2018": {
+      "ma": "DINH_CHINH",
+      "can_cu": "title_dinh_chinh"
+    },
+    "3000/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3140/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7651/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "241/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "517/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "779/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1057/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3069/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4006/TB-TCHQ/2026": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2046/TB-TCHQ/2020": {
+      "ma": "DINH_CHINH",
+      "can_cu": "title_dinh_chinh"
+    },
+    "3131/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6322/TB-TCHQ/2020": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1501/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2396/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4167/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4223/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "100/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "637/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1979/TB-TCHQ/2019": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6633/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1090/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1144/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1166/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2451/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "579/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1089/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1560/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2841/TB-TCHQ/2026": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3700/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3747/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3999/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4194/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "531/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "573/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2328/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3068/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5464/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6311/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "508/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "530/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "718/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "753/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1100/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1111/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1672/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3243/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1168/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "14/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "665/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1020/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1021/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1091/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1112/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1150/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1913/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2044/TB-TCHQ/2020": {
+      "ma": "DINH_CHINH",
+      "can_cu": "title_dinh_chinh"
+    },
+    "2327/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3154/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3156/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3918/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "525/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "532/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2123/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2333/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3181/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3244/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3698/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4009/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "133/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "214/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1165/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1953/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1954/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2042/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3031/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3150/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3348/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3994/TB-TCHQ/2021": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4007/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4008/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4174/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "526/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1054/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1169/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2124/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2888/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3067/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3130/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3142/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3155/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3175/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3179/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3547/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3751/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3921/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6257/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6259/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6260/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7117/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "527/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1963/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1022/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2321/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4162/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1097/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3162/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3748/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4815/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5076/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6625/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "326/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "754/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5317/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "103/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "600/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "705/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1124/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1141/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1167/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2890/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3180/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4156/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4173/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4176/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4613/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6309/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6310/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6720/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "601/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1793/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "109/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2450/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3220/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "99/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "577/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1140/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1327/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2970/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3152/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3299/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3300/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3301/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3832/TB-TCHQ/2021": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3997/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4856/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6305/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "535/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "635/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6276/TB-TCHQ/2020": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3919/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3159/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3699/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6764/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1897/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5197/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "197/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "504/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "507/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3800/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3920/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "143/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "191/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "293/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "294/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "313/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "492/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "587/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "732/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1107/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1715/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1771/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1800/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1801/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1802/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1972/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2036/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2258/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2344/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2688/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2719/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3134/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3163/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3308/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3664/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3750/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3859/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3860/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3861/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_loai_vb_phan_loai_body_blocked"
+    },
+    "3862/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3863/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3904/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3913/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4097/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4098/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4099/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4100/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4101/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4127/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4215/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4323/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4796/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4945/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5062/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5283/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5284/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5285/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5750/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5757/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5758/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5760/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6101/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "7170/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7480/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1055/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4222/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4224/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4324/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5538/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6207/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6208/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "619/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4389/TB-TCHQ/2022": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5244/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2152/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1028/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1029/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2100/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3110/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7122/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4468/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4588/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5282/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1504/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1616/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "185/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1189/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1210/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1811/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1822/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1823/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2122/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2174/TB-TCHQ/2020": {
+      "ma": "DINH_CHINH",
+      "can_cu": "title_dinh_chinh"
+    },
+    "2382/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2710/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2711/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2712/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2713/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2714/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2715/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2716/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2717/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2718/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2719/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2720/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2721/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2722/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3403/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3836/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3837/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4667/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5419/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5437/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5438/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6269/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7281/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1923/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6268/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1261/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "130/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "132/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1763/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2063/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2064/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3401/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3402/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5417/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5418/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "804/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5139/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "33/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "920/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "924/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1276/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1883/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "12/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "13/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "15/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "174/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "480/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "493/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "963/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1061/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1126/TB-TCHQ/2018": {
+      "ma": "DINH_CHINH",
+      "can_cu": "title_dinh_chinh"
+    },
+    "1448/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1663/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1812/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2324/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2325/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3133/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3135/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3749/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4051/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4375/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6071/TB-TCHQ/2021": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3132/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3797/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "57/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "96/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "144/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "176/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "680/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "991/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1015/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1325/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1326/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1548/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1980/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2276/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3167/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3196/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4053/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4054/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4055/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4238/TB-TCHQ/2021": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4239/TB-TCHQ/2021": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4240/TB-TCHQ/2021": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4903/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5189/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5751/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6504/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "636/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "716/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "717/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6065/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "192/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "223/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "247/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "248/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "716/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "974/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1101/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1147/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1183/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1227/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1228/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1328/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1405/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1406/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1407/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1408/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1755/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1776/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1778/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1807/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1850/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1992/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2040/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2042/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2308/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2350/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2373/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2908/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3115/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3116/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3118/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3119/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3141/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3611/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3673/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3755/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3756/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3828/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3963/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4017/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4213/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4320/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4616/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5010/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5011/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5190/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5191/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5878/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6305/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6468/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6721/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6722/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7102/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7116/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "528/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "632/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1187/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1192/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3702/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7566/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4514/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1327/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5983/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7121/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2222/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2516/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2517/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2518/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2654/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4376/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4745/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4789/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4790/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4791/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5682/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6256/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1671/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1673/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1703/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1704/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1705/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1706/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3312/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3566/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3568/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3819/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5147/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5678/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "924/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3236/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4368/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5420/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5421/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2339/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2345/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2413/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2614/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2793/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2830/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2831/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2844/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2847/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2873/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2874/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3139/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3145/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3157/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3277/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3293/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3310/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3507/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3510/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3604/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3409/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "7421/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7435/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7544/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5353/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5354/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4719/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7164/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1805/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1806/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2028/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "923/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "92/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "864/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1032/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3204/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3829/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6023/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1030/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "629/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3064/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3065/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3066/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3070/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3262/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3263/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3264/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3265/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3266/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3267/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "5856/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "230/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "458/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "200/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7049/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3074/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3075/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3076/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "515/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "516/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "813/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3073/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3847/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3063/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3846/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3989/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2713/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3177/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3178/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4059/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "513/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "613/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1461/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1900/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1952/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2618/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2636/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2714/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2795/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "332/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1142/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "331/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1143/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1759/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2101/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2876/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2877/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3237/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3368/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6028/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7463/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2811/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6518/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1345/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2875/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3696/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6304/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "657/TB-TCHQ/2022": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "658/TB-TCHQ/2022": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "555/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "556/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7570/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "553/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6635/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7048/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7050/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7051/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "554/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "611/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6936/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1555/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1556/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1557/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1558/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1404/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1760/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1791/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1792/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1802/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2870/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2871/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2872/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3309/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3343/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3744/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6063/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6269/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "7284/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "215/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "459/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "461/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "523/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "537/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1195/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1209/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1449/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1754/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1761/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2127/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2842/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6786/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6787/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "451/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1765/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3174/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3208/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3209/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3210/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3211/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3212/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3213/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3214/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3215/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3216/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3217/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3218/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3219/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3225/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3928/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3929/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3930/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1967/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3964/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3965/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3966/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "899/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "900/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1825/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3743/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "1259/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "123/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "504/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "869/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "150/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3432/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3433/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4785/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4433/TB-TCHQ/2021": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5922/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "715/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1538/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5950/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5951/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2106/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3270/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2580/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5501/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5666/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "437/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "573/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "939/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "940/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1909/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2470/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3812/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4708/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "701/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3582/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2395/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6440/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6441/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6442/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6443/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6444/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2491/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "6108/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "214/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "215/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "971/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "238/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "491/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2978/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "477/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "535/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "7389/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "878/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "879/TB-TCHQ/2025": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "206/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3819/TB-TCHQ/2021": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4418/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4419/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4420/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "7274/TB-TCHQ/2018": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "loai_vb_xac_dinh_truoc"
+    },
+    "681/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "4615/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "2411/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "4706/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "1093/TB-TCHQ/2020": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3739/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "3741/TB-TCHQ/2022": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5628/TB-TCHQ/2023": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "252/TB-TCHQ/2021": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "866/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "2551/TB-TCHQ/2018": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "6132/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "5875/TB-TCHQ/2024": {
+      "ma": "XAC_DINH_TRUOC",
+      "can_cu": "title_xac_dinh_truoc"
+    },
+    "954/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    },
+    "3831/TB-TCHQ/2019": {
+      "ma": "KIEM_TRA_XAC_DINH_LAI",
+      "can_cu": "proxy_ket_qua_phan_loai_title"
+    }
+  },
+  "thong_ke_detail": {
+    "KIEM_TRA_XAC_DINH_LAI": 866,
+    "XAC_DINH_TRUOC": 575,
+    "DINH_CHINH": 18
+  },
+  "thong_ke_registry": {
+    "typed": 1239,
+    "chua": 686,
+    "by": {
+      "KIEM_TRA_XAC_DINH_LAI": 824,
+      "XAC_DINH_TRUOC": 397,
+      "CHUA_XAC_DINH": 686,
+      "DINH_CHINH": 18
+    }
+  },
+  "thong_ke_index": {
+    "typed": 1459,
+    "chua_xac_dinh": 845,
+    "by": {
+      "XAC_DINH_TRUOC": 575,
+      "KIEM_TRA_XAC_DINH_LAI": 866,
+      "DINH_CHINH": 18,
+      "CHUA_XAC_DINH": 845
+    }
+  },
+  "thong_ke_hang_doi": {
+    "typed": 1198,
+    "chua_xac_dinh": 845,
+    "by": {
+      "XAC_DINH_TRUOC": 395,
+      "KIEM_TRA_XAC_DINH_LAI": 787,
+      "DINH_CHINH": 16,
+      "CHUA_XAC_DINH": 845
+    }
+  }
+}

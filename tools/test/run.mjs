@@ -4,6 +4,7 @@ import { execSync } from 'node:child_process';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { napSo, khoa, slugTuSoHieu, bacNguon, ROOT, LUOC_DO_PHIEN_BAN } from '../lib/registry.mjs';
+import { phanLoaiTbTchq, tuLoaiTB } from '../lib/loai-phan-loai-tb-tchq.mjs';
 import { kiemTra } from '../kiem-tra.mjs';
 import { timDiemMu } from '../diem-mu.mjs';
 import { dungJson, veQuanHe } from '../dung.mjs';
@@ -326,6 +327,18 @@ t('lô TB-TCHQ: mô tả từ "Công dụng theo thiết kế" khi tên hàng < 
 const bcLoNd = readFileSync(bcLo, 'utf8');
 t('lô TB-TCHQ: thiếu ngày ký / lý do mỏng vào "cần xử tay", KHÔNG nhồi lô',
   lo.records.length === 3 && /8888\/TB-TCHQ/.test(bcLoNd) && /7777\/TB-TCHQ/.test(bcLoNd) && /ngày ký/.test(bcLoNd) && /mỏng/.test(bcLoNd));
+
+// 8c2. Phân loại nghiệp vụ TB-TCHQ (sổ loai_phan_loai)
+t('loai_phan_loai: xác định trước từ tiêu đề',
+  phanLoaiTbTchq('Số: 1/TB-TCHQ\nVỀ KẾT QUẢ XÁC ĐỊNH TRƯỚC MÃ SỐ\nCăn cứ', '').ma === 'XAC_DINH_TRUOC');
+t('loai_phan_loai: kết quả phân loại → KIEM_TRA_XAC_DINH_LAI (proxy) + can_cu trung thực',
+  (() => { const r = phanLoaiTbTchq('Số: 2/TB-TCHQ\nVỀ KẾT QUẢ PHÂN LOẠI ĐỐI VỚI HÀNG HÓA XUẤT KHẨU, NHẬP KHẨU\nCăn cứ', 'Phân loại hàng hóa'); return r.ma === 'KIEM_TRA_XAC_DINH_LAI' && r.can_cu === 'proxy_ket_qua_phan_loai_title'; })());
+t('loai_phan_loai: đính chính từ tiêu đề',
+  phanLoaiTbTchq('Số: 3/TB-TCHQ\nĐÍNH CHÍNH THÔNG BÁO KẾT QUẢ PHÂN LOẠI\nNội dung', '').ma === 'DINH_CHINH');
+t('loai_phan_loai: thiếu toàn văn → CHUA_XAC_DINH',
+  phanLoaiTbTchq('', '').ma === 'CHUA_XAC_DINH' && phanLoaiTbTchq('', '').can_cu === 'chua_co_toan_van');
+t('loai_phan_loai: tuLoaiTB map KET_QUA_PHAN_LOAI → KIEM_TRA_XAC_DINH_LAI',
+  tuLoaiTB('KET_QUA_PHAN_LOAI') === 'KIEM_TRA_XAC_DINH_LAI');
 
 // 8d. Hàng đợi chia gói TB-TCHQ (tools/chia-goi-tb-tchq.mjs → data/customs/lo/hang-doi-tb-tchq.json)
 const hd = JSON.parse(readFileSync(join(ROOT, 'data/customs/lo/hang-doi-tb-tchq.json'), 'utf8'));
