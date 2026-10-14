@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-14-goi-080.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-14-goi-080.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-14-goi-080.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 555/TB-TCHQ (2019-01-24) → 69041000 — , chưa tráng men, hình hộp chữ nhật kích thước (230x115x65)mm.…
@@ -12,6 +12,7 @@
 - 6635/TB-TCHQ (2018-11-13) → 69072110 — , dùng trong máy nghiền, không tráng men, độ hút nước không vượt quá 0…
 - 7048/TB-TCHQ (2018-11-29) → 69072192 — Gạch ốp lát bằng gốm, không tráng men, kích thước 300 x 600mm, loại có…
 - 7050/TB-TCHQ (2018-11-29) → 69072192 — Gạch ốp lát bằng gốm, không tráng men, kích thước 600 x 600mm, loại có…
+- 7051/TB-TCHQ (2018-11-29) → 69072394 — Gạch ốp lát bằng gốm, đã tráng men, kích thước 400x800mm, loại có độ h…
 - 554/TB-TCHQ (2019-01-24) → 69149000 — Vật liệu gốm, dạng hình cầu, đường kính khoảng 10mm, dùng để trồng cây…
 - 611/TB-TCHQ (2018-01-30) → 69149000 — , kích thước 590x540x30mm. Hợp chất Al2O3 và SiO2 chiếm 85%, chịu được…
 - 6936/TB-TCHQ (2018-11-26) → 70022000 — Thủy tinh, dạng thanh, chiều dài 2420mm, mắt cật ngang hình tròn, đườn…
@@ -27,7 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 7051/TB-TCHQ/2018 → 69072394: description còn nhãn mục văn bản — "Mục 1 tờ khai hải quan: Gạch lát sàn (ceramic, có độ hút nước không vượt qua 15-"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).
