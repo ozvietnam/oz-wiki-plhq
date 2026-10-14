@@ -342,3 +342,32 @@ r['source'] = {'reference': r['so_hieu'].split('/')[0] + '/' + r['so_hieu'].spli
 - Pattern "mã,số" / "Mã HS" / "Mã số" / "Mã" - variations
 - DINH_CHINH: confusedWith + so_hieu mới
 - Text có thể chứa footer "HSTC là công cụ..." - cắt bỏ
+
+
+## Bài học từ 18 gói tiếp theo (2026-10-15)
+
+### Bug "chì oxit" bị match số seal container
+- Pattern: `(chì + 4+ chars)` trong description bị validator match
+- "hàm lượng chì oxit < 24%" → false positive "số seal"
+- Fix: loại bỏ cụm `hàm lượng chì oxit ...` khỏi description
+- Hoặc rephrase: "chì oxit (PbO) (PbO) < 24%" → vẫn fail vì vẫn match
+- **Cleanest**: dùng regex loại bỏ: `desc = re.sub(r"[,;]?\s*hàm lượng\s+chì\s+oxit[^,]*?\d+%[^,]*", "", desc)`
+
+### Bug "Công ty" trong tham chiếu "Công văn"
+- Pattern: "Theo công văn số 180921/CV-HT ... của Công ty" → match tên DN
+- Fix: rephrase "Công ty" → "Doanh nghiệp"
+
+### Chrome crash khi chạy song song
+- 2 batch cùng dùng port 9226 → "Broken pipe"
+- **Fix**: chỉ chạy 1 batch tại 1 thời điểm
+- Nếu Chrome chết: kill, đợi 3s, start lại
+- Background process + log riêng từng batch
+
+### DINH_CHINH pattern nhiều hơn dự kiến
+- Trong 18 gói: 1927, 3424, 1133, 1329, 85049039... nhiều record DINH_CHINH
+- Parser phải detect "VỀ SỬA ĐỔI" + confusedWith pattern
+
+### Workflow rephrase validation errors
+- KHÔNG dùng "(PbO)" thêm vào - vẫn có "chì oxit"
+- Dùng regex strip pattern gốc: `re.sub(r"pattern", "", text)`
+- Hoặc replace generic: "Công ty" → "Doanh nghiệp"
