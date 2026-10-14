@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-047.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-047.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-047.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 7116/TB-TCHQ (2018-12-04) → 34029013 — Chất tẩy trắng làm sạch mịn vải MF-3000 (Na2CO3) dùng cho sản phẩm thê…
@@ -23,11 +23,11 @@
 - 2654/TB-TCHQ (2023-05-31) → 35040000 — SUPRO 548 IP DBB Isolated Soy - Theo hồ sơ xác định trước mã số, thông…
 - 4376/TB-TCHQ (2022-10-18) → 35040000 — Qbind Pork OP80. - Theo hồ sơ đề nghị xác định trước mã số, thông tin …
 - 4745/TB-TCHQ (2024-10-02) → 35040000 — SUPRO EX 33 - Theo hồ sơ xác định trước mã số, thông tin mặt hàng như …
+- 4789/TB-TCHQ (2024-10-04) → 35040000 — VERISOL B SA - Theo hồ sơ xác định trước mã số, thông tin mặt hàng như…
 - 4790/TB-TCHQ (2024-10-04) → 35040000 — PEPTIPLUS XB AGGL - Theo hồ sơ xác định trước mã số, thông tin mặt hàn…
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 4789/TB-TCHQ/2024 → 35040000: description có tên doanh nghiệp — "VERISOL B SA"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

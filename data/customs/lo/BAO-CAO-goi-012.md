@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-012.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-012.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-012.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 812/TB-TCHQ (2018-02-08) → 21041099 — Súp mì gà, hiệu Bell Foods 1 kg/gói - Chế phẩm thực phẩm thành phần ch…
@@ -17,6 +17,7 @@
 - 11/TB-TCHQ (2020-01-02) → 21069099 — Topping kem phủ trang trí bánh vị sô cô la trắng - Glassa A Specchio W…
 - 235/TB-TCHQ (2019-01-09) → 21069059 — NLSX nước uống tăng lực: Chiết xuất Maca (bột quả Maca) MACATONIC PE 4…
 - 248/TB-TCHQ (2021-01-18) → 21069096 — Thực phẩm bổ sung dinh dưỡng y tế (Glucema shake -) 237 ml x 24 chai/ …
+- 509/TB-TCHQ (2025-02-05) → 21069072 — Bổ sung lợi khuẩn cho cơ thể. Đối tượng sử dụng: Trẻ từ 4 tuổi trở lên…
 - 512/TB-TCHQ (2025-02-05) → 21069072 — Thực phẩm bảo - - Thành phần, cấu tạo, công thức hóa học: Trong 1 viên…
 - 513/TB-TCHQ (2025-02-05) → 21069072 — Thực phẩm bảo - - Thành phần, cấu tạo, công thức hóa học: Trong 1 viên…
 - 514/TB-TCHQ (2025-02-05) → 21069072 — Thực phẩm bảo - - Thành phần, cấu tạo, công thức hóa học: Trong 1 viên…
@@ -27,7 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 509/TB-TCHQ/2025 → 21069072: không chọn được description đạt (dài/có tên nhóm biểu thuế) — ứng viên đầu: Thực phẩm bảo — "Thực phẩm bảo"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-024.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-024.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-024.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 6026/TB-TCHQ (2018-10-15) → 27101270 — PUROLAN IDD - Dẫn xuất dầu hydrocabon dùng làm dung môi trong các sản …
@@ -10,6 +10,7 @@
 - 6491/TB-TCHQ (2018-11-05) → 27101299 — cleanCleaning Naphtha - Hỗn hợp dung môi hydrocacbon thuộc phân đoạn d…
 - 189/TB-TCHQ (2023-01-13) → 27111490 — C4 Thô - Theo hồ sơ xác định trước mã số, thông tin mặt hàng như sau: …
 - 190/TB-TCHQ (2023-01-13) → 27111490 — C4 Raffinate-1 - Theo hồ sơ xác định trước mã số, thông tin mặt hàng n…
+- 566/TB-TCHQ (2019-01-24) → 27150090 — Keo lót - Mẫu yêu cầu phân tích là chế phẩm chứa bitum dựa trên asphal…
 - 6270/TB-TCHQ (2018-10-25) → 27150090 — CONMIK 101 - Hỗn hợp chống thấm nguồn gốc bitum dùng trong xây dựng, 2…
 - 6271/TB-TCHQ (2018-10-25) → 27150090 — CONMIK Membrane - Hỗn hợp chống thấm nguồn gốc bitum dùng trong xây dự…
 - 6272/TB-TCHQ (2018-10-25) → 27150090 — CKA Membrane - Hỗn hợp chống thấm nguồn gốc bitum dùng trong xây dựng,…
@@ -27,7 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 566/TB-TCHQ/2019 → 27150090: reasonVi mỏng/cụt, toàn văn cũng không rút được chuỗi kết luận — "Keo lót chống thấm gốc nước BPR 101, dùng để chống thấm trong các công trình xây"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

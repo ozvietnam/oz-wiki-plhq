@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-004.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-004.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-004.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 2839/TB-TCHQ (2018-05-23) → 15159091 — Dầu Cám gạo: Số lượng: 200kg; Đóng gói: 25kg/can; Số lô: SO170954-16 -…
@@ -11,6 +11,7 @@
 - 221/TB-TCHQ (2025-01-14) → 15161020 — MEG-3™ 1048rTG - Theo hồ sơ xác định trước mã số, thông tin mặt hàng n…
 - 1025/TB-TCHQ (2019-02-21) → 15162034 — NLSX bánh kẹo: Chất béo từ dầu cọ thuộc phân đoạn Palm stearin, đã hyd…
 - 2455/TB-TCHQ (2018-05-07) → 15162047 — Dầu Olein nhân cọ đã được tinh luyện (tinh chế, tẩy và khử mùi (RBD)) …
+- 4124/TB-TCHQ (2021-08-20) → 15179080 — MEG-3 TM DHA rf - Theo hồ sơ xác định trước mã số, thông tin mặt hàng …
 - 4153/TB-TCHQ (2018-07-16) → 15179090 — Dầu cá dạng lỏng - MEG- 3 (TM) '15' N- 3 Emulsion LV - Nguyên liệu thự…
 - 5192/TB-TCHQ (2024-10-25) → 15179090 — Special Mum Omega Capsules - Theo hồ sơ đề nghị xác định trước mã số, …
 - 1764/TB-TCHQ (2018-04-05) → 15180031 — Sáp thực vật (100% chiết xuất dầu cọ) - Mẫu yêu cầu phân tích là este …
@@ -27,7 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 4124/TB-TCHQ/2021 → 15179080: reasonVi mỏng/cụt, toàn văn cũng không rút được chuỗi kết luận — "MEG-3 TM DHA rf"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

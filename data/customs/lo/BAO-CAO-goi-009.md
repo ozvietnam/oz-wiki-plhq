@@ -1,13 +1,14 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-009.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-009.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-009.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 7300/TB-TCHQ (2018-12-11) → 19053200 — Bánh quy ngọt hương dừa Cocount cracker KOREAN CRACKER IN PLASTIC CASE…
 - 7301/TB-TCHQ (2018-12-11) → 19053200 — Bánh quy hương táo Laver cracker KOREAN CRACKER IN PLASTIC CASE (JOONG…
 - 6931/TB-TCHQ (2018-11-26) → 20019090 — DUONG NK-NN HHDC lo 720DUONG NK- Hỗn hợp Dưa chuột, cà chua đóng lọ 72…
+- 6932/TB-TCHQ (2018-11-26) → 20019090 — DUONG NK- NN CC dong lo 720ML - Cà chua nguyên quả và bột quả cà chua …
 - 146/TB-TCHQ (2024-01-10) → 20079990 — ASEPTIC PINK GUAVA PUREE - Theo hồ sơ xác định trước mã số, thông tin …
 - 450/TB-TCHQ (2019-01-22) → 20089930 — Thực phẩm bảo vệ sức khỏe; Hồng sâm Goryeo thái lát; quy cách đóng gói…
 - 534/TB-TCHQ (2018-01-26) → 20089930 — Thực Phẩm Bảo Vệ Sức Khỏe : Hồng Sâm Lát Tẩm Mật Ong - SLICED KOREAN R…
@@ -27,7 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 6932/TB-TCHQ/2018 → 20019090: reasonVi mỏng/cụt, toàn văn cũng không rút được chuỗi kết luận — "DUONG NK- NN CC dong lo 720ML#&DUONG NK- Cà Chua đóng lọ 720 M1#&VN"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

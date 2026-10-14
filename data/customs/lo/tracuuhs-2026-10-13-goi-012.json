@@ -6,7 +6,7 @@
  },
  "license": "CC-BY-SA-4.0",
  "submittedAt": "2026-10-13T00:00:00Z",
- "note": "Lô tracuuhs.com — 19 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-13-goi-012.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 19/20 đạt luật validate-community của kể từ 06/10.",
+ "note": "Lô tracuuhs.com — 20 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-13-goi-012.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 20/20 đạt luật validate-community của kể từ 06/10.",
  "records": [
   {
    "hsCode": "21041099",
@@ -234,6 +234,25 @@
    "evidence": {
     "soHieu": "248/TB-TCHQ",
     "ketLuan": "thuộc nhóm 21.06 “Các chế phẩm thực phẩm chưa được chi tiết hoặc ghi ở nơi khác.”, phân nhóm 2106.90 “- Loại khác”, phân nhóm “- - Loại khác:”, mã số 2106.90.96 “- - - Sản phẩm dinh dưỡng y tế khác (SEN)” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
+   }
+  },
+  {
+   "hsCode": "21069072",
+   "description": "Bổ sung lợi khuẩn cho cơ thể. Đối tượng sử dụng: Trẻ từ 4 tuổi trở lên, người trưởng thành, phụ nữ có thai.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "509/TB-TCHQ",
+    "issuedDate": "2025-02-05",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-509-2025"
+   },
+   "attributes": {
+    "bieuThue": "2022",
+    "loaiTB": "XAC_DINH_TRUOC"
+   },
+   "reasonVi": "thuộc nhóm 21.06 “ác chế phẩm thực phẩm chưa được chi tiết hoặc ghi ở nơi khác”, phân nhóm 2106.90 “- Loại khác”, phân nhóm “- - Thực phẩm bảo vệ sức khỏe (food supplements) khác; hỗn hợp vi chất để bổ sung vào thực phẩm”, mã số 2106.90.72 “- - - Thực phẩm bảo vệ sức khỏe khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
+   "evidence": {
+    "soHieu": "509/TB-TCHQ",
+    "ketLuan": "thuộc nhóm 21.06 “ác chế phẩm thực phẩm chưa được chi tiết hoặc ghi ở nơi khác”, phân nhóm 2106.90 “- Loại khác”, phân nhóm “- - Thực phẩm bảo vệ sức khỏe (food supplements) khác; hỗn hợp vi chất để bổ sung vào thực phẩm”, mã số 2106.90.72 “- - - Thực phẩm bảo vệ sức khỏe khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam."
    }
   },
   {

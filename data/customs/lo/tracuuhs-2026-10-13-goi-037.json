@@ -6,7 +6,7 @@
  },
  "license": "CC-BY-SA-4.0",
  "submittedAt": "2026-10-13T00:00:00Z",
- "note": "Lô tracuuhs.com — 19 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-13-goi-037.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 19/20 đạt luật validate-community của kể từ 06/10.",
+ "note": "Lô tracuuhs.com — 20 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-13-goi-037.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 20/20 đạt luật validate-community của kể từ 06/10.",
  "records": [
   {
    "hsCode": "30049099",
@@ -82,6 +82,25 @@
    "evidence": {
     "soHieu": "3904/TB-TCHQ",
     "ketLuan": "thuộc nhóm 29.37”, phân nhóm 3004.32 “- - Chứa hormon tuyến thượng thận, các dẫn xuất hoặc cấu trúc tương tự của chúng”, mã số 3004.32.90 “- - - Loại khác"
+   }
+  },
+  {
+   "hsCode": "30042091",
+   "description": "Thuốc thú y dùng trong chăn nuôi: Pulmotil AC (240 ml/lo) - NK theo TT24/2017/TT-BNNPTNT ngày 15/11/2017 - Thuốc thú y chứa kháng sinh Tilmicosin sử dụng đường uống, đóng gói bán lẻ chai 200ml.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "3913/TB-TCHQ",
+    "issuedDate": "2019-06-13",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-3913-2019"
+   },
+   "attributes": {
+    "bieuThue": "2017",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "Tên gọi theo cấu tạo, công dụng: Thuốc thú y chứa kháng sinh Tilmicosin sử dụng đường uống, đóng gói bán lẻ chai 200ml thuộc nhóm 30.04 “Thuốc (trừ các mặt hàng thuộc nhóm 30.02, 30.05 hoặc 30.06) gồm các sản phẩm đã hoặc chưa pha trộn dùng cho phòng bệnh hoặc chữa bệnh, đã được đóng gói theo liều lượng (kể cả các sản phẩm thuộc loại dùng để hấp thụ qua da) hoặc làm thành dạng nhất định hoặc đóng gói để bán lẻ.”, phân nhóm 3004.20 “- Loại khác, chứa kháng sinh:”, phân nhóm “- - Loại khác:”, mã số số 3004.20.91 “- - - Dạng uống (*) hoặc dạng mỡ” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./.",
+   "evidence": {
+    "soHieu": "3913/TB-TCHQ",
+    "ketLuan": "Tên gọi theo cấu tạo, công dụng: Thuốc thú y chứa kháng sinh Tilmicosin sử dụng đường uống, đóng gói bán lẻ chai 200ml thuộc nhóm 30.04 “Thuốc (trừ các mặt hàng thuộc nhóm 30.02, 30.05 hoặc 30.06) gồm các sản phẩm đã hoặc chưa pha trộn dùng cho phòng bệnh hoặc chữa bệnh, đã được đóng gói theo liều lượng (kể cả các sản phẩm thuộc loại dùng để hấp thụ qua da) hoặc làm thành dạng nhất định hoặc đóng gói để bán lẻ.”, phân nhóm 3004.20 “- Loại khác, chứa kháng sinh:”, phân nhóm “- - Loại khác:”, mã số số 3004.20.91 “- - - Dạng uống (*) hoặc dạng mỡ” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./."
    }
   },
   {

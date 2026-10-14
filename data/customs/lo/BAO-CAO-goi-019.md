@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-019.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-019.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-019.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 7159/TB-TCHQ (2018-12-05) → 22029950 — Thực phẩm bảo vệ sức khỏe tăng sức đề kháng, hệ miễn dịch: GADOPAX FOR…
@@ -17,6 +17,7 @@
 - 1752/TB-TCHQ (2022-05-17) → 22087010 — RƯỢU VODKA CÀ PHÊ - Theo hồ sơ xác định trước mã số, thông tin mặt hàn…
 - 1852/TB-TCHQ (2020-03-23) → 22089099 — Chế phẩm dùng để tẩy rửa thiếc hàn trong quá trình sản xuất tấm mạch i…
 - 2926/TB-TCHQ (2022-07-18) → 22087010 — Rượu The Choya Golden Ume Fruit - Theo hồ sơ xác định trước mã số, thô…
+- 2927/TB-TCHQ (2022-07-18) → 22087010 — Rượu Choya Uji - Rượu Choya Uji Green Tea Umeshu…
 - 2928/TB-TCHQ (2022-07-18) → 22087010 — Rượu Choya Kokuto - Theo hồ sơ xác định trước mã số, thông tin mặt hàn…
 - 2929/TB-TCHQ (2022-07-18) → 22087010 — Rượu Choya Jyuku - Theo hồ sơ xác định trước mã số, thông tin mặt hàng…
 - 2930/TB-TCHQ (2022-07-18) → 22087010 — Rượu Choya Gold - Theo hồ sơ xác định trước mã số, thông tin mặt hàng …
@@ -27,7 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 2927/TB-TCHQ/2022 → 22087010: không chọn được description đạt (dài/có tên nhóm biểu thuế) — ứng viên đầu: Rượu Choya Uji — "Rượu Choya Uji"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

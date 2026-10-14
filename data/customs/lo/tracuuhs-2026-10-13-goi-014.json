@@ -6,7 +6,7 @@
  },
  "license": "CC-BY-SA-4.0",
  "submittedAt": "2026-10-13T00:00:00Z",
- "note": "Lô tracuuhs.com — 19 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-13-goi-014.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 19/20 đạt luật validate-community của kể từ 06/10.",
+ "note": "Lô tracuuhs.com — 20 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-13-goi-014.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 20/20 đạt luật validate-community của kể từ 06/10.",
  "records": [
   {
    "hsCode": "21069072",
@@ -82,6 +82,25 @@
    "evidence": {
     "soHieu": "2172/TB-TCHQ",
     "ketLuan": "thuộc nhóm 21.06 “Các chế phẩm thực phẩm chưa được chi tiết hoặc ghi ở nơi khác.”, phân nhóm 2106.90 “- Loại khác”, phân nhóm hai gạch “- - Loại khác, các chế phẩm không chứa cồn được sử dụng để chế biến hoặc sản xuất đồ uống:”, mã số 2106.90.59 “- - - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
+   }
+  },
+  {
+   "hsCode": "21069041",
+   "description": "Chất chiết nấm men tự phân dạng bột dùng trong thực phẩm: + Đồ kho, súp, nước sốt và nước thịt + Thực phẩm tiện lợi, sản phẩm thịt và cá + Bánh quy, bánh nướng, khoai tây chiên giòn, đồ ăn nhẹ + Gia vị, hỗn hợp hương liệu",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "2194/TB-TCHQ",
+    "issuedDate": "2023-05-10",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-2194-2023"
+   },
+   "attributes": {
+    "bieuThue": "2022",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "thuộc nhóm 21.06 “Các chế phẩm thực phẩm chưa được chi tiết hoặc ghi ở nơi khác.”, phân nhóm 2106.90 “- Loại khác:”, phân nhóm “- - Chất chiết nấm men tự phân:”, mã số 2106.90.41 “- - - Dạng bột” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./.",
+   "evidence": {
+    "soHieu": "2194/TB-TCHQ",
+    "ketLuan": "thuộc nhóm 21.06 “Các chế phẩm thực phẩm chưa được chi tiết hoặc ghi ở nơi khác.”, phân nhóm 2106.90 “- Loại khác:”, phân nhóm “- - Chất chiết nấm men tự phân:”, mã số 2106.90.41 “- - - Dạng bột” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./."
    }
   },
   {
@@ -257,7 +276,7 @@
   },
   {
    "hsCode": "21069059",
-   "description": "Si rô táo xanh - Chế phẩm thực phẩm không chứa cồn, dạng xirô có thành phần chính đi từ xirô, nước ép quả (táo), màu thực phẩm. Thường dùng để chế biến đồ uống. Cách dùng: Cho 30 ml xirô vào 1 ly nước lọc đá, khuấy đều trước khi uống.",
+   "description": "Si rô táo xanh Tờ khai) - Chế phẩm thực phẩm không chứa cồn, dạng xirô có thành phần chính đi từ xirô, nước ép quả (táo",
    "source": {
     "type": "TB-TCHQ",
     "reference": "3258/TB-TCHQ",
@@ -276,7 +295,7 @@
   },
   {
    "hsCode": "21069059",
-   "description": "Si rô vỏ cam xanh - Chế phẩm thực phẩm không chứa cồn, dạng xirô có thành phần chính đi từ xirô, màu thực phẩm, chiết xuất hương cam tự nhiên. Thường dùng để chế biến đồ uống. Cách dùng: Cho 30 ml xirô vào 1 ly nước lọc đá, khuấy đều trước khi uống.",
+   "description": "Chế phẩm thực phẩm không chứa cồn, dạng xirô có thành phần chính đi từ xirô, màu thực phẩm, chiết xuất hương cam tự nhiên. Thường dùng để chế biến đồ uống. Cách dùng: Cho 30 ml xirô vào 1 ly nước lọc đá, khuấy đều trước khi uống.",
    "source": {
     "type": "TB-TCHQ",
     "reference": "3259/TB-TCHQ",
@@ -295,7 +314,7 @@
   },
   {
    "hsCode": "21069059",
-   "description": "Si rô việt quất - Chế phẩm thực phẩm không chứa cồn, dạng xirô có thành phần chính đi từ xirô, nước ép quả (việt quất). Thường dùng để chế biến đồ uống. Cách dùng: Cho 30 ml xirô vào 1 ly nước lọc đá, khuấy đều trước khi uống.",
+   "description": "Si rô việt quất Tờ khai) - Chế phẩm thực phẩm không chứa cồn, dạng xirô có thành phần chính đi từ xirô, nước ép quả (việt quất",
    "source": {
     "type": "TB-TCHQ",
     "reference": "3260/TB-TCHQ",

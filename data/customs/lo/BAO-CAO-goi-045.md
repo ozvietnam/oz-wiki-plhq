@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-045.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-045.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-045.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 1406/TB-TCHQ (2018-03-19) → 34029013 — Chất giữ sạch lưới xeo, Amispray AP8969.Mới 100% - Chế phẩm làm sạch, …
@@ -18,6 +18,7 @@
 - 2042/TB-TCHQ (2018-04-17) → 34029012 — Chất tẩy rửa, làm sạch chăn ép, Amispray AP8980. Mới 100% - Chế phẩm l…
 - 2308/TB-TCHQ (2023-05-16) → 34025019 — MS - Theo hồ sơ xác định trước mã số, thông tin mặt hàng như sau: - Th…
 - 2350/TB-TCHQ (2023-05-17) → 34025019 — Chế phẩm làm - Theo hồ sơ xác định trước mã số, thông tin mặt hàng như…
+- 2373/TB-TCHQ (2024-05-29) → 34029099 — Chất hoạt động bề mặt cation dùng làm nguyên liệu sản xuất nước làm mề…
 - 2908/TB-TCHQ (2023-06-12) → 34025019 — Chế phẩm làm sạch AQUANOX - Theo hồ sơ xác định trước mã số, thông tin…
 - 3115/TB-TCHQ (2019-05-20) → 34022015 — DILAC NP FOR CIP - Chế phẩm làm sạch dạng lỏng dùng trong nhà máy công…
 - 3116/TB-TCHQ (2019-05-20) → 34022015 — KRISTALLE VB79 - Chế phẩm làm sạch dạng lỏng dùng trong nhà máy công n…
@@ -27,7 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 2373/TB-TCHQ/2024 → 34029099: không chọn được description đạt (dài/có tên nhóm biểu thuế) — ứng viên đầu: TETRANYL L6-88E — "TETRANYL L6-88E"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

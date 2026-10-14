@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-035.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-035.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-035.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 635/TB-TCHQ (2018-01-31) → 29372900 — Nguyên liệu thực phẩm Pregnenolone acetate, dạng bột màu trắng, đóng 2…
@@ -18,6 +18,7 @@
 - 507/TB-TCHQ (2018-01-26) → 30032000 — Doxipan Mix 100 - Thuốc thú y có thành phần Doxycyline Hyclate dùng để…
 - 3800/TB-TCHQ (2019-06-10) → 30039000 — Flubenol 5% (25 kg/bao) : Thuốc thú y chứa Flubendazole, sử dụng đường…
 - 3920/TB-TCHQ (2019-06-13) → 30032000 — Thuốc thú y dùng trong chế biến thức ăn chăn nuôi: Surmax 100 (25 kg/b…
+- 143/TB-TCHQ (2024-01-10) → 30049099 — Gel Kienzit MS được chỉ định để điều trị tại chỗ bệnh trứng cá.…
 - 191/TB-TCHQ (2024-01-12) → 30049099 — Glentaz Forte - Theo hồ sơ xác định trước mã số, thông tin mặt hàng nh…
 - 293/TB-TCHQ (2018-01-18) → 30042091 — Flustop 20 sol (1 lít/chai) - Thuốc thú y có thành phần Florfenicol dạ…
 - 294/TB-TCHQ (2018-01-18) → 30049099 — STERILE DILUENT (N.S.S Blue) - Dung môi vô khuẩn dạng dung dịch dùng đ…
@@ -27,7 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 143/TB-TCHQ/2024 → 30049099: không chọn được description đạt (dài/có tên nhóm biểu thuế) — ứng viên đầu: KLENZIT MS — "KLENZIT MS"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

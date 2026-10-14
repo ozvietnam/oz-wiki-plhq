@@ -6,11 +6,30 @@
  },
  "license": "CC-BY-SA-4.0",
  "submittedAt": "2026-10-13T18:17:57Z",
- "note": "Lô tracuuhs.com — 18 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-14-goi-068.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 18/19 đạt luật validate-community của kể từ 06/10.",
+ "note": "Lô tracuuhs.com — 19 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-14-goi-068.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 19/19 đạt luật validate-community của kể từ 06/10.",
  "records": [
   {
+   "hsCode": "42023200",
+   "description": "Bảo vệ điện thoại di động khỏi hư hỏng do va chạm bên ngoài hoặc bị nhiễm bẩn bằng cách gắn và sử dụng trực tiếp mà không cần tháo vỏ sau điện thoại. Ngoài ra, module IC được gắn trên vỏ có tác dụng liên kết với điện thoại giúp mở/tắt màn hình điện thoại tự động, thao tác một số chức năng của điện thoại di động trên màn hình chờ mà không cần mở vỏ.",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "3409/TB-TCHQ",
+    "issuedDate": "2024-07-12",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-3409-2024"
+   },
+   "attributes": {
+    "bieuThue": "2022",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "thuộc nhóm 42.02 “Hòm, vali, xắc đựng đồ nữ trang, cặp tài liệu, cặp sách, túi, cặp đeo vai cho học sinh, bao kính, bao ống nhòm, hộp camera, hộp nhạc cụ, bao súng, bao súng ngắn và các loại đồ chứa tương tự; túi du lịch, túi đựng đồ ăn hoặc đồ uống có phủ lớp cách, túi đựng đồ vệ sinh cá nhân, ba lô, túi xách tay, túi đi chợ, xắc cắt, ví, túi đựng bản đồ, hộp đựng thuốc lá điếu, hộp đựng thuốc lá sợi, túi đựng dụng cụ, túi thể thao, túi đựng chai rượu, hộp đựng đồ trang sức, hộp đựng phấn, hộp dựng dao kéo và các loại đồ chứa tương tự bằng da thuộc hoặc da thuộc tổng hợp, bằng tấm plastic, bằng vật liệu dệt, bằng sợi lưu hóa hoặc bằng bìa, hoặc được phủ toàn bộ hoặc chủ yếu bằng các vật liệu trên hoặc bằng giấy”, phân nhóm “- Các đồ vật thuộc loại thường mang theo trong túi hoặc trong túi xách tay”, mã số 4202.32.00 “- - Mặt ngoài bằng tấm plastic hoặc vật liệu dệt” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
+   "evidence": {
+    "soHieu": "3409/TB-TCHQ",
+    "ketLuan": "thuộc nhóm 42.02 “Hòm, vali, xắc đựng đồ nữ trang, cặp tài liệu, cặp sách, túi, cặp đeo vai cho học sinh, bao kính, bao ống nhòm, hộp camera, hộp nhạc cụ, bao súng, bao súng ngắn và các loại đồ chứa tương tự; túi du lịch, túi đựng đồ ăn hoặc đồ uống có phủ lớp cách, túi đựng đồ vệ sinh cá nhân, ba lô, túi xách tay, túi đi chợ, xắc cắt, ví, túi đựng bản đồ, hộp đựng thuốc lá điếu, hộp đựng thuốc lá sợi, túi đựng dụng cụ, túi thể thao, túi đựng chai rượu, hộp đựng đồ trang sức, hộp đựng phấn, hộp dựng dao kéo và các loại đồ chứa tương tự bằng da thuộc hoặc da thuộc tổng hợp, bằng tấm plastic, bằng vật liệu dệt, bằng sợi lưu hóa hoặc bằng bìa, hoặc được phủ toàn bộ hoặc chủ yếu bằng các vật liệu trên hoặc bằng giấy”, phân nhóm “- Các đồ vật thuộc loại thường mang theo trong túi hoặc trong túi xách tay”, mã số 4202.32.00 “- - Mặt ngoài bằng tấm plastic hoặc vật liệu dệt” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam."
+   }
+  },
+  {
    "hsCode": "44014000",
-   "description": "Hoá phẩm khoan dầu khí: MIL-PLUG COARSE thành phần chính: (Cellulose) Công dụng chống mất dung dịch khoan - Mặt hàng là vỏ quả hạch đã được nghiền thô, được khai báo dùng chống mất dung dịch khoan dầu khí",
+   "description": "Hoá phẩm khoan dầu khí: MIL-PLUG COARSE thành phần chính: (Cellulose) Công dụng chống mất dung dịch khoan tờ khai",
    "source": {
     "type": "TB-TCHQ",
     "reference": "7421/TB-TCHQ",
@@ -29,7 +48,7 @@
   },
   {
    "hsCode": "44013900",
-   "description": "Mùn cưa ép thành khối làm từ gỗ keo rừng trồng, 73200 tấm, kích thước: (90x90x70)mm - Mùn cưa đã được ép, cắt thành bánh, kích thước (90x90x70)mm (dài x rộng x cao) và tạo lỗ đường kính 10mm ở giữa",
+   "description": "Mùn cưa ép thành khối làm từ gỗ keo rừng trồng, 73200 tấm, kích thước: (90x90x70)mm tờ khai) - Mùn cưa đã được ép, cắt thành bánh, kích thước (90x90x70)mm (dài x rộng x cao",
    "source": {
     "type": "TB-TCHQ",
     "reference": "7435/TB-TCHQ",
@@ -48,7 +67,7 @@
   },
   {
    "hsCode": "44091000",
-   "description": "Ván gỗ dùng lót sàn, tường hoặc ốp trần (làm từ gỗ Hinoki Nhật Bản nhập khẩu) không có mắt, size (1.200x2.400.10)mm - Mẫu gồm 12 thanh gỗ ván từ cây lá kim, mỗi thanh có kích cỡ: (10x100x2400)mm, đã được bào 2 mặt, mặt dưới tạo 3 rãnh song song chạy dọc theo chiều dài, 2 cạnh bên được soi rãnh và tạo gân để lắp ghép với nhau khi sử dụng",
+   "description": "Ván gỗ dùng lót sàn, tường hoặc ốp trần (làm từ gỗ Hinoki Nhật Bản nhập khẩu) không có mắt, size (1.200x2.400.10)mm tờ khai) - Mẫu gồm 12 thanh gỗ ván từ cây lá kim, mỗi thanh có kích cỡ: (10x100x2400",
    "source": {
     "type": "TB-TCHQ",
     "reference": "7544/TB-TCHQ",
@@ -67,7 +86,7 @@
   },
   {
    "hsCode": "44111400",
-   "description": "Ván sợi bằng gỗ tỷ trọng trung bình loại A (kích cỡ: 16,5mmx1220mmx2440mm) - Ván sợi bằng gỗ, được sản xuất theo quy trình sản xuất khô, có tỷ trọng trung bình (MDF), dày 16,5mm",
+   "description": "Ván sợi bằng gỗ tỷ trọng trung bình loại A (kích cỡ: 16,5mmx1220mmx2440mm) tờ khai) - Ván sợi bằng gỗ, được sản xuất theo quy trình sản xuất khô, có tỷ trọng trung bình (MDF",
    "source": {
     "type": "TB-TCHQ",
     "reference": "5353/TB-TCHQ",
@@ -86,7 +105,7 @@
   },
   {
    "hsCode": "44111400",
-   "description": "Ván sợi bằng gỗ tỷ trọng trung bình loại A (kích cỡ: 16,5mmx1220mmx2440mm) - Ván sợi bằng gỗ, được sản xuất theo quy trình sản xuất khô, có tỷ trọng trung bình (MDF), dày 16,5mm",
+   "description": "Ván sợi bằng gỗ tỷ trọng trung bình loại A (kích cỡ: 16,5mmx1220mmx2440mm) tờ khai) - Ván sợi bằng gỗ, được sản xuất theo quy trình sản xuất khô, có tỷ trọng trung bình (MDF",
    "source": {
     "type": "TB-TCHQ",
     "reference": "5354/TB-TCHQ",
@@ -105,7 +124,7 @@
   },
   {
    "hsCode": "44123900",
-   "description": "Gỗ dán chống nước chưa phủ nhựa, có 2 lớp mặt ngoài bằng gỗ thông radiata, lõi cây dương (poplar), gồm 9 lớp, mỗi lớp dày < 4mm (nguyên liệu sản xuất: tủ, bàn ghế, giường,...), 1220x2440x12mm, 750 tấm - Gỗ dán ván lạng dạng tấm, cấu tạo gồm 9 lớp gỗ được dán ghép với nhau, mỗi lớp gỗ có chiều dày không quá 6mm và có hai lớp mặt ngoài bằng gỗ từ cây thông radiata (tên khoa học: Pinus radiata) thuộc loại cây lá kim. Kích thước: (1220x2440x12)mm",
+   "description": "Gỗ dán chống nước chưa phủ nhựa, có 2 lớp mặt ngoài bằng gỗ thông radiata, lõi cây dương (poplar), gồm 9 lớp, mỗi lớp dày < 4mm (nguyên liệu sản xuất: tủ, bàn ghế, giường,...), 1220x2440x12mm, 750 tấm tờ khai) - Gỗ dán ván lạng dạng tấm, cấu tạo gồm 9 lớp gỗ được dán ghép với nhau, mỗi lớp gỗ có chiều dày không quá 6mm và có hai lớp mặt ngoài bằng gỗ từ cây thông radiata (tên khoa học: Pinus radiata) thuộc loại cây lá kim. Kích thước: (1220x2440x12",
    "source": {
     "type": "TB-TCHQ",
     "reference": "4719/TB-TCHQ",
@@ -200,7 +219,7 @@
   },
   {
    "hsCode": "47071000",
-   "description": "Giấy, bìa carton phế liệu (dạng lõi) được thu hồi từ các sản phẩm đã qua sử dụng, chưa được tẩy trắng, phù hợp với TT: 41/2015/TT-BTNMT ngày 09/09/2015, đáp ứng QCKT QG về môi trường: QCVN33:2010/BTNMT (Mục 1) - Phế liệu giấy, dạng ống lõi, đã bọc kim loại hai đầu (tỷ lệ kim loại <2% khối lượng mẫu), được làm chủ yếu từ bột giấy kraft chưa tẩy trắng, có chứa bột giấy tái chế",
+   "description": "Giấy, bìa carton phế liệu (dạng lõi) được thu hồi từ các sản phẩm đã qua sử dụng, chưa được tẩy trắng, phù hợp với TT: 41/2015/TT-BTNMT ngày 09/09/2015, đáp ứng QCKT QG về môi trường: QCVN33:2010/BTNMT - Phế liệu giấy, dạng ống lõi, đã bọc kim loại hai đầu (tỷ lệ kim loại <2% khối lượng mẫu), được làm chủ yếu từ bột giấy kraft chưa tẩy trắng, có chứa bột giấy tái chế",
    "source": {
     "type": "TB-TCHQ",
     "reference": "923/TB-TCHQ",
@@ -238,7 +257,7 @@
   },
   {
    "hsCode": "48025839",
-   "description": "Giấy tráng hai mặt (kích cỡ: 192mm x 1080m). (Mục 3) - Giấy từ bột giấy hóa học đã tẩy trắng, hàm lượng bột giấy cơ học và hóa cơ dưới 10% so với tổng trọng lượng, chưa tráng phủ, chưa in, chưa nhuộm màu. Mẫu có định lượng 250g/m2, dạng cuộn, khổ 19,2 cm, hàm lượng tro 15.5%, độ trắng 91%, loại dùng để in",
+   "description": "Giấy tráng hai mặt (kích cỡ: 192mm x 1080m). - Giấy từ bột giấy hóa học đã tẩy trắng, hàm lượng bột giấy cơ học và hóa cơ dưới 10% so với tổng trọng lượng, chưa tráng phủ, chưa in, chưa nhuộm màu. Mẫu có định lượng 250g/m2, dạng cuộn, khổ 19,2 cm, hàm lượng tro 15.5%, độ trắng 91%, loại dùng để in",
    "source": {
     "type": "TB-TCHQ",
     "reference": "864/TB-TCHQ",
@@ -249,10 +268,10 @@
     "bieuThue": "2017",
     "loaiTB": "KET_QUA_PHAN_LOAI"
    },
-   "reasonVi": "58 “- Định lượng trên 150 g/m2”, phân nhóm “- - - Loại dùng để viết, in và các mục đích đồ bản khác”, mã số 4802.58.39 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam Tên gọi theo cấu tạo, công dụng: Giấy từ bột giấy hóa học đã tẩy trắng, hàm lượng bột giấy cơ học và hóa cơ dưới 10% so với tổng trọng lượng, chưa tráng phủ, chưa in, chưa nhuộm màu. Mẫu có định lượng 250g/m2, dạng cuộn, khổ 19,2 cm, hàm lượng tro 15.5%, độ trắng 91%, loại dùng để in",
+   "reasonVi": "thuộc nhóm 48.02 “Giấy và bìa không tráng, loại dùng để in, viết hoặc dùng cho các mục đích đồ bản khác, và giấy làm thẻ và giấy băng chưa đục lỗ, dạng cuộn hoặc tờ hình chữ nhật (kể cả hình vuông), kích thước bất kỳ, trừ giấy thuộc nhóm 48.01 hoặc 48.03; giấy và bìa sản xuất thủ công”, phân nhóm “- Giấy và bìa khác, không chứa bột giấy thu được từ quá trình cơ học hoặc quá trình hóa cơ hoặc có hàm lượng các bột giấy này không quá 10% so với tổng lượng bột giấy tính theo trọng lượng”, phân nhóm “- Giấy và bìa khác, không chứa bột giấy thu được từ quá trình cơ học hoặc quá trình hóa cơ hoặc có hàm lượng các bột giấy này không quá 10% so với tổng lượng bột giấy tính theo trọng lượng”, phân nhóm 4802.58 “- Định lượng trên 150 g/m2”, phân nhóm “- - - Loại dùng để viết, in và các mục đích đồ bản khác”, mã số 4802.58.39 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
    "evidence": {
     "soHieu": "864/TB-TCHQ",
-    "ketLuan": "58 “- Định lượng trên 150 g/m2”, phân nhóm “- - - Loại dùng để viết, in và các mục đích đồ bản khác”, mã số 4802.58.39 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam Tên gọi theo cấu tạo, công dụng: Giấy từ bột giấy hóa học đã tẩy trắng, hàm lượng bột giấy cơ học và hóa cơ dưới 10% so với tổng trọng lượng, chưa tráng phủ, chưa in, chưa nhuộm màu. Mẫu có định lượng 250g/m2, dạng cuộn, khổ 19,2 cm, hàm lượng tro 15.5%, độ trắng 91%, loại dùng để in"
+    "ketLuan": "thuộc nhóm 48.02 “Giấy và bìa không tráng, loại dùng để in, viết hoặc dùng cho các mục đích đồ bản khác, và giấy làm thẻ và giấy băng chưa đục lỗ, dạng cuộn hoặc tờ hình chữ nhật (kể cả hình vuông), kích thước bất kỳ, trừ giấy thuộc nhóm 48.01 hoặc 48.03; giấy và bìa sản xuất thủ công”, phân nhóm “- Giấy và bìa khác, không chứa bột giấy thu được từ quá trình cơ học hoặc quá trình hóa cơ hoặc có hàm lượng các bột giấy này không quá 10% so với tổng lượng bột giấy tính theo trọng lượng”, phân nhóm “- Giấy và bìa khác, không chứa bột giấy thu được từ quá trình cơ học hoặc quá trình hóa cơ hoặc có hàm lượng các bột giấy này không quá 10% so với tổng lượng bột giấy tính theo trọng lượng”, phân nhóm 4802.58 “- Định lượng trên 150 g/m2”, phân nhóm “- - - Loại dùng để viết, in và các mục đích đồ bản khác”, mã số 4802.58.39 “- - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam."
    }
   },
   {
@@ -295,7 +314,7 @@
   },
   {
    "hsCode": "48025590",
-   "description": "Giấy không tráng phủ, có hàm lượng bột giấy cơ học dưới 10%, chiều rộng: 1030mm, định lượng 42g/m2, dùng để sản xuất nền giấy băng keo - Hàng mới 100% (Mục 1)",
+   "description": "Giấy không tráng phủ, có hàm lượng bột giấy cơ học dưới 10%, chiều rộng: 1030mm, định lượng 42g/m2, dùng để sản xuất nền giấy băng keo - Hàng mới 100%",
    "source": {
     "type": "TB-TCHQ",
     "reference": "3829/TB-TCHQ",
@@ -333,7 +352,7 @@
   },
   {
    "hsCode": "48030030",
-   "description": "Giấy để làm giấy vệ sinh chưa in hình, in chữ được làm từ bột giấy, dạng cuộn, khổ rộng 1930mm +/-10mm, định lượng 15-30g/m2. Hàng mới 100% (Mục 1) - Màng xơ sợi xenlulo làm từ bột giấy đã tẩy trắng, chưa ngâm tẩm, bề mặt chưa tráng phủ hay kết hợp với vật liệu khác, định lượng 16,3 g/m2, dạng cuộn khổ lớn hơn 125 cm, thường dùng để làm giấy vệ sinh",
+   "description": "Giấy để làm giấy vệ sinh chưa in hình, in chữ được làm từ bột giấy, dạng cuộn, khổ rộng 1930mm +/-10mm, định lượng 15-30g/m2. Hàng mới 100% - Màng xơ sợi xenlulo làm từ bột giấy đã tẩy trắng, chưa ngâm tẩm, bề mặt chưa tráng phủ hay kết hợp với vật liệu khác, định lượng 16,3 g/m2, dạng cuộn khổ lớn hơn 125 cm, thường dùng để làm giấy vệ sinh",
    "source": {
     "type": "TB-TCHQ",
     "reference": "1030/TB-TCHQ",

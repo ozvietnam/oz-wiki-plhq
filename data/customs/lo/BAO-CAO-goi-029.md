@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-029.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-029.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-029.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 2841/TB-TCHQ (2018-05-23) → 29161900 — MTL 9034 - Chất chống oxy hóa, dùng làm nguyên liệu để sản xuất dầu bô…
@@ -10,6 +10,7 @@
 - 3747/TB-TCHQ (2019-06-06) → 29161490 — Chế phẩm hóa học- ACRYLIC MONOMER PY0164 KK0369,1 DRU, 1DRU=200KGS. Mớ…
 - 3999/TB-TCHQ (2018-07-09) → 29161500 — Chất cải thiện độ nhớt: PC 32 (185Kgs/Drum). Hàng mới 100% - Acid lino…
 - 4194/TB-TCHQ (2018-07-17) → 29161500 — Chất hoàn tất có tác dụng chống thấm nước - P-100 water resistant agen…
+- 531/TB-TCHQ (2018-01-26) → 29171900 — Tri-ethylhexyl Trimellitate, dạng lỏng (Crodamol DES-LQ(JP)) - NPL SX …
 - 573/TB-TCHQ (2018-01-29) → 29171900 — Dodecanedioic acid dùng làm phụ gia để làm dẻo dùng sản xuất dầu nhờn.…
 - 2328/TB-TCHQ (2018-05-02) → 29171300 — MTL 3519 - Chất chống gỉ để sản xuất dầu cắt gọt pha nước,Hàng mới 100…
 - 3068/TB-TCHQ (2019-05-20) → 29172000 — Chất hoạt động bề mặt dạng lỏng (Neosolue-Aqulio) - NPL SX mỹ phẩm - B…
@@ -27,7 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 531/TB-TCHQ/2018 → 29171900: không chọn được description đạt (dài/có tên nhóm biểu thuế) — ứng viên đầu: Diethoxyethyl succinate. — "Tri-ethylhexyl Trimellitate, dạng lỏng (Crodamol DES-LQ(JP) - NPL SX mỹ phẩm"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

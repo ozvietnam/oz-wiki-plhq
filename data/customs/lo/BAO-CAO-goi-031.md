@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-031.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-031.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-031.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 4009/TB-TCHQ (2024-08-22) → 29215100 — O-TDA. - Theo hồ sơ xác định trước mã số, thông tin mặt hàng như sau: …
@@ -18,6 +18,7 @@
 - 3994/TB-TCHQ (2021-08-11) → 29225090 — L-TYROSINE. - Theo hồ sơ xác định trước mã số, thông tin mặt hàng như …
 - 4007/TB-TCHQ (2022-09-27) → 29224900 — Disodium Dihydrogen - Theo hồ sơ xác định trước mã số, thông tin mặt h…
 - 4008/TB-TCHQ (2022-09-27) → 29224900 — Disodium Dihydrogen - Theo hồ sơ xác định trước mã số, thông tin mặt h…
+- 4174/TB-TCHQ (2019-06-26) → 29224900 — Natri ethylendiamintetraaxetat Natri ethylendiamintetraaxetat…
 - 526/TB-TCHQ (2018-01-26) → 29239000 — Nguyên liệu sản xuất thực phẩm chức năng: L-Carnitine Fumarate. Số lô:…
 - 1054/TB-TCHQ (2018-02-27) → 29239000 — Chất cation hóa QUAB 188 (PTAC 1881), phụ gia hoàn tất giấy dùng trong…
 - 1169/TB-TCHQ (2018-03-06) → 29239000 — Chất xúc tác làm tăng độ bền khô dùng trong sản xuất giấy, DMC, mới 10…
@@ -27,7 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 4174/TB-TCHQ/2019 → 29224900: không chọn được description đạt (dài/có tên nhóm biểu thuế) — ứng viên đầu: Natri ethylendiamintetraaxetat — "MHK 2963 - Phụ gia hoạt động bề mặt. (ETHYLENEDIAMINETETR AACETIC ACID . CAS:60-"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

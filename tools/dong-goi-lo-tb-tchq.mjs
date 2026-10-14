@@ -34,8 +34,11 @@ function bieuThueTheoNgay(iso) {
 function hsInText(hs, text) {
   const h = String(hs);
   const dotted = h.length === 8 ? `${h.slice(0, 4)}.${h.slice(4, 6)}.${h.slice(6)}` : null;
+  // OCR đôi khi ghi "282739.90" (thiếu chấm giữa nhóm) thay vì "2827.39.90"
+  const ocrCompact = h.length === 8 ? `${h.slice(0, 6)}.${h.slice(6)}` : null;
   const t = String(text || '').replace(/\s+/g, '');
-  return t.includes(dotted || h) || t.includes(h);
+  const digits = t.replace(/\D/g, '');
+  return t.includes(dotted || h) || t.includes(h) || (ocrCompact && t.includes(ocrCompact)) || digits.includes(h);
 }
 const unbalanced = (t) => { const s = String(t || ''); const n = (re) => (s.match(re) || []).length; return n(/\(/g) !== n(/\)/g) || n(/“/g) !== n(/”/g) || n(/"/g) % 2 === 1; };
 // Sửa lỗi crawl: thay cặp nháy ASCII thừa (mở-không-đóng) bằng cặp smart quote cân đôi.
@@ -101,6 +104,7 @@ function dọnMôTả(thô, hsCode) {
   let s = String(thô || '').replace(/\s+/g, ' ').trim();
   s = s.replace(/^Mục\s+\d+\s*[:.]\s*/i, '');                     // "Mục 1:"
   s = s.replace(/(^|[\s—–-])Mục\s+\d+\s*[:.]\s*/gi, ' ');         // "- Mục 1:" / giữa câu
+  s = s.replace(/\(?\s*mục\s+\d+\s*\)?/gi, ' ');                  // "(mục 12)"
   s = s.replace(/\bKý, mã hiệu[^;]*;\s*/gi, '');                  // nhãn mục
   s = s.replace(/\(?\s*mục\s+\d+[^)]{0,30}?(tờ khai|PLTK|TK\b|phụ lục)[^)]*\)?/gi, '');
   s = s.replace(/#&/g, '');
@@ -109,7 +113,11 @@ function dọnMôTả(thô, hsCode) {
   if (dotted) s = s.replaceAll(dotted, '').replaceAll(hsCode, '');
   s = s.replace(/\b\d{1,3}([.,]\d{3}){2,}\s*(vnd|đ|usd)?\b/gi, ' ');   // trị giá lô (luật privacy bên nhận)
   s = s.replace(/\(?\s*tên tiếng anh[^:)]*:\s*[^)]*\)?/gi, ' ');        // nhãn tiếng anh nhà SX
-  s = s.replace(/tên gọi theo cấu tạo\s*:\s*/gi, '');                    // nhãn mục văn bản
+  s = s.replace(/tên gọi theo cấu tạo[,\s]*công dụng\s*:\s*/gi, '');   // nhãn mục văn bản
+  s = s.replace(/tên gọi theo cấu tạo\s*:\s*/gi, '');
+  s = s.replace(/\d+\.\s*Kết quả phân loại\s*:\s*/gi, '');
+  // Cắt phần kết luận lẫn vào mo_ta
+  s = s.split(/\s+thuộc\s+(?:tại\s+)?(?:nhóm|mã số)/i)[0];
   s = s.replace(/\s*\(([^)]*)\)\s*;?\s*;/g, ';');                        // ngoặc lặp còn trơ
   s = s.replace(/\s{2,}/g, ' ').replace(/\s+([.,;])/g, '$1').trim();
   return s;
@@ -125,8 +133,9 @@ function cắtCânBằng40(s) {
   return null;
 }
 // Rút mô tả chuẩn từ toàn văn: mục "Tóm tắt mô tả ..." (đúng mục 6 hướng dẫn bên nhận)
+// Stop cho phép "3. Kết quả…" / "5. Kết quả…" (số thứ tự mục thường đứng trước).
 function môTảTừToànVăn(nd) {
-  const m = nd.match(/Tóm tắt mô tả[^\n]*:[\s\S]{40,1500}?(?=\n\s*(?:Kết quả|Quy trình|Thông số|Căn cứ|Hiệu lực|$))/);
+  const m = nd.match(/Tóm tắt mô tả[^\n]*:[\s\S]{40,1500}?(?=\n\s*(?:\d+\.\s*)?(?:Kết quả|Quy trình|Thông số|Căn cứ|Hiệu lực|Tên thương mại|$))/);
   if (!m) return null;
   // Bỏ phần "Tóm tắt mô tả ... :" ở đầu, lấy phần nội dung
   const start = m[0].indexOf(':') + 1;
@@ -134,8 +143,34 @@ function môTảTừToànVăn(nd) {
 }
 // Rút mô tả fallback từ mục "Công dụng theo thiết kế" (khi Tóm tắt mô tả không có/không đạt)
 function môTảTừCôngDụng(nd) {
-  const m = nd.match(/Công dụng theo thiết kế[\s:]+([\s\S]{40,1500}?)(?=\n\s*(?:Kết quả|Quy trình|Thông số|Căn cứ|Hiệu lực|$))/);
+  const m = nd.match(/Công dụng theo thiết kế[\s:]+([\s\S]{40,1500}?)(?=\n\s*(?:\d+\.\s*)?(?:Kết quả|Quy trình|Thông số|Căn cứ|Hiệu lực|Tên thương mại|$))/);
   return m ? m[1].replace(/\s+/g, ' ').trim() : null;
+}
+// Rút mô tả ngắn từ "Tên gọi theo cấu tạo, công dụng:" trước mốc "thuộc nhóm/mã số"
+function môTảTừTênGọi(nd) {
+  const m = nd.match(/Tên gọi theo cấu tạo,\s*công dụng\s*:\s*([\s\S]{10,500}?)(?=\s+thuộc\s+(?:tại\s+)?(?:nhóm|phân\s*nhóm|mã\s*số)|$)/i);
+  if (!m) return null;
+  return m[1].replace(/\s+/g, ' ').trim();
+}
+// Rút từ "Tên hàng theo khai báo" (cắt trước Đơn vị / MST / tờ khai) — chỉ dùng khi đã scrub DN
+function môTảTừKhaiBáo(nd) {
+  const m = nd.match(/Tên hàng theo khai báo\s*:\s*([\s\S]{20,600}?)(?=\n\s*\d+\.\s*Đơn vị|\n\s*Đơn vị\s+(?:xuất|nhập)|MST\b|Mã số thuế|$)/i);
+  if (!m) return null;
+  return m[1].replace(/\s+/g, ' ').trim();
+}
+// Sửa lệch ngoặc nguồn OCR trong chuỗi kết luận (vd. cut-backs" thiếu ); ) thừa không có mở)
+function sửaNgoặcOCR(s) {
+  let t = String(s || '');
+  // "(ví dụ, … cut-backs" → "(ví dụ, … cut-backs)"
+  t = t.replace(/(\(ví dụ,[^)”"]{0,200}?)([”"])/gi, '$1)$2');
+  // Bỏ dấu ) mồ côi (nhiều đóng hơn mở)
+  let out = '', depth = 0;
+  for (const c of t) {
+    if (c === '(') { depth += 1; out += c; }
+    else if (c === ')') { if (depth > 0) { depth -= 1; out += c; } }
+    else out += c;
+  }
+  return out;
 }
 // Rút chuỗi kết luận từ toàn văn quanh vị trí mã kết luận: "thuộc nhóm … mã số X “…”."
 // Case-insensitive; ưu tiên mốc "thuộc Nhóm/mã số" NGOÀI cùng (tránh nhánh ngoặc "trừ … thuộc nhóm 30.02…").
@@ -144,7 +179,7 @@ function kếtLuậnTừToànVăn(nd, hsCode) {
   const i = nd.search(re);
   if (i < 0) return null;
   const trước = nd.slice(0, i);
-  const mốc = [...trước.matchAll(/thuộc\s+(?:nhóm|phân\s*nhóm|mã\s*số)/gi)];
+  const mốc = [...trước.matchAll(/thuộc\s+(?:tại\s+)?(?:nhóm|phân\s*nhóm|mã\s*số)/gi)];
   if (!mốc.length) return null;
   // Chọn mốc cuối cùng mà không nằm trong cụm "trừ các mặt hàng thuộc nhóm" (nhánh loại trừ).
   let start = mốc[mốc.length - 1].index;
@@ -201,7 +236,8 @@ function mãBịBác(nd, hsCode, loaiTB) {
 }
 const CẤM_ĐIỂN_HÌNH = /kết quả phân loại|tên gọi theo cấu tạo|(^|[\s—–-])công thức hóa học(?![,:.\s])|nhà sản xuất\s*:|hàng hóa theo thông báo|(^|[\s—–-])Mục\s*\d+\s*:/i;
 // English corp suffixes + Vietnamese pháp nhân (Công ty / TNHH / Cổ phần / …)
-const CÔNG_TY = /\b(Inc|Ltd|LLC|GmbH|B\.?V|S\.?A|AG|Co\.,?|Corp(oration)?|Group|JSC|Pte|Sdn\s+Bhd|Limited)\b\.?(?![-\d])|(?:Công\s*ty|Cty)\s+(?:TNHH|Cổ\s*phần|CP|MTV|cổ\s*phần)|\bTNHH\b|\bCổ\s*phần\b|Đơn\s*vị\s*(?:xuất|nhập)\s*khẩu|MST\b|Mã\s*số\s*thuế/i;
+// S.A phải có dấu chấm (tránh false positive mã hàng "VERISOL B SA")
+const CÔNG_TY = /\b(Inc|Ltd|LLC|GmbH|B\.?V|S\.\s?A|AG|Co\.,?|Corp(oration)?|Group|JSC|Pte|Sdn\s+Bhd|Limited)\b\.?(?![-\d])|(?:Công\s*ty|Cty)\s+(?:TNHH|Cổ\s*phần|CP|MTV|cổ\s*phần)|\bTNHH\b|\bCổ\s*phần\b|Đơn\s*vị\s*(?:xuất|nhập)\s*khẩu|MST\b|Mã\s*số\s*thuế/i;
 
 // ----- xử từng bản ghi -----
 const đãThấy = new Set();
@@ -249,7 +285,7 @@ for (const r of records) {
     if (đoạn) reasonVi = (đoạn[0].replace(/\s+/g, ' ').trim() + ' ' + reasonVi).replace(/\s+/g, ' ').trim();
   }
   if (unbalanced(reasonVi)) {
-    reasonVi = cânNháyCrawlLỗi(reasonVi);
+    reasonVi = sửaNgoặcOCR(cânNháyCrawlLỗi(reasonVi));
     if (unbalanced(reasonVi)) reasonVi = cânBằng(reasonVi, hsCode);
   }
   // Luôn thử rút lại từ toàn văn khi crawl mỏng, cụt giữa câu, hoặc lệch ngoặc / thiếu "mã số".
@@ -266,13 +302,15 @@ for (const r of records) {
       const m = nd.match(/(thuộc\s+(?:nhóm|phân\s*nhóm|mã\s*số)[\s\S]{40,900}?Việt Nam\s*\.\/?\.?)/i);
       kl = m ? m[1].replace(/\s+/g, ' ').trim() : null;
     }
+    if (kl && unbalanced(kl)) kl = sửaNgoặcOCR(kl);
     if (kl && unbalanced(kl)) kl = cânBằng(kl, hsCode);
     if (kl && hsInText(hsCode, kl) && kl.length >= 80 && (reasonMỏng || reasonCụt || kl.length > (reasonVi || '').length + 20)) {
       reasonVi = kl;
     }
   }
+  if (reasonVi && unbalanced(reasonVi)) reasonVi = sửaNgoặcOCR(reasonVi);
   if (reasonVi && reasonVi.length > 1000) reasonVi = cânBằng(reasonVi.slice(0, 1000), hsCode);
-  if (!reasonVi || reasonVi.length < 80 || !hsInText(hsCode, reasonVi)) {
+  if (!reasonVi || reasonVi.length < 80 || !hsInText(hsCode, reasonVi) || unbalanced(reasonVi)) {
     ghiChú(r, 'reasonVi mỏng/cụt, toàn văn cũng không rút được chuỗi kết luận');
     continue;
   }
@@ -305,6 +343,8 @@ for (const r of records) {
     dọnMôTả(moTaGọn, hsCode),
     dọnMôTả(môTảTừToànVăn(nd) || '', hsCode),
     dọnMôTả(môTảTừCôngDụng(nd) || '', hsCode),
+    dọnMôTả(môTảTừTênGọi(nd) || '', hsCode),
+    dọnMôTả(môTảTừKhaiBáo(nd) || '', hsCode),
   ].filter(Boolean).map((d) => {
     if (unbalanced(d)) d = cắtCânBằng40(d);
     // Cắt cứng nếu vẫn quá dài (validator giới hạn 500)

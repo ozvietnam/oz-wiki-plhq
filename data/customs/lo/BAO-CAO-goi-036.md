@@ -1,12 +1,14 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-036.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-036.json` — **18 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **2**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-036.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 732/TB-TCHQ (2023-02-21) → 30049099 — Thuốc - Theo hồ sơ xác định trước mã số, thông tin mặt hàng như sau: -…
 - 1107/TB-TCHQ (2023-03-14) → 30049099 — Differin Cream 0,1% - - Thành phần, cấu tạo, công thức hoá học: Thành …
+- 1715/TB-TCHQ (2023-04-12) → 30049099 — Thuốc Tavanic - - Thành phần, cấu tạo, công thức hoá học: Mỗi viên nén…
+- 1771/TB-TCHQ (2023-04-14) → 30042091 — Thuốc Rodogyl - - Thành phần, cấu tạo, công thức hoá học: Mỗi viên nén…
 - 1800/TB-TCHQ (2023-04-18) → 30049099 — NeilMed Sinus Rinse Kit 60 - Theo hồ sơ xác định trước mã số, thông ti…
 - 1801/TB-TCHQ (2023-04-18) → 30049099 — NeilMed Sinus Rinse 10 sachets - Theo hồ sơ xác định trước mã số, thôn…
 - 1802/TB-TCHQ (2023-04-18) → 30049099 — NeilMed Sinus Rinse Pediatric - Theo hồ sơ xác định trước mã số, thông…
@@ -26,8 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 1715/TB-TCHQ/2023 → 30049099: reasonVi mỏng/cụt, toàn văn cũng không rút được chuỗi kết luận — "Thuốc Tavanic"
-- 1771/TB-TCHQ/2023 → 30042091: reasonVi mỏng/cụt, toàn văn cũng không rút được chuỗi kết luận — "Thuốc Rodogyl"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

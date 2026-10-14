@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-033.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-033.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-033.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 4815/TB-TCHQ (2018-08-16) → 29319090 — Xiameter (R) OFS-6341 SILANE (175 kgs/Drum) - Phụ gia dùng trong công …
@@ -20,6 +20,7 @@
 - 2890/TB-TCHQ (2018-05-24) → 29334990 — 1310100125/Moxifloxacin Hydrochloride (nguyên liệu sx thuốc). - Moxifl…
 - 3180/TB-TCHQ (2019-05-22) → 29332900 — ADVAN BQ-04ADVAN BQ-04 là chế phẩm hoạt động bề mặt, dạng lỏng, thành …
 - 4156/TB-TCHQ (2019-06-25) → 29336900 — RAB0017 (ZZ12-X165), BTAC-245-Chất phụ gia Hợp chất dị vòng chỉ chứa (…
+- 4173/TB-TCHQ (2019-06-26) → 29339990 — MKH 3489 - Phụ gia chống ăn mòn (Tolytriazole) - Natri tolyltriazole t…
 - 4176/TB-TCHQ (2019-06-26) → 29336900 — 2,4,6-tri-(6-aminocaproic acid)-1,3,5-triazine…
 - 4613/TB-TCHQ (2024-09-26) → 29337900 — Dung môi hữu cơ N - Theo hồ sơ xác định trước mã số, thông tin mặt hàn…
 - 6309/TB-TCHQ (2020-09-25) → 29333990 — NLSX THUỐC: DESLORATADINE - Desloratadine.…
@@ -27,7 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 4173/TB-TCHQ/2019 → 29339990: không chọn được description đạt (dài/có tên nhóm biểu thuế) — ứng viên đầu: Natri tolyltriazole trong nước — "MKH 3489 - Phụ gia chống ăn mòn (Tolytriazole Sodium Muối (chất lỏng) (nội dung "
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

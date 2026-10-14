@@ -6,11 +6,11 @@
  },
  "license": "CC-BY-SA-4.0",
  "submittedAt": "2026-10-13T00:00:00Z",
- "note": "Lô tracuuhs.com — 19 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-13-goi-044.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 19/20 đạt luật validate-community của kể từ 06/10.",
+ "note": "Lô tracuuhs.com — 20 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-13-goi-044.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 20/20 đạt luật validate-community của kể từ 06/10.",
  "records": [
   {
    "hsCode": "33074910",
-   "description": "- Mục 1, 2, 3, 4, 5: Chế phẩm làm thơm phòng, thành phần chính có chứa hương liệu, chất mang gel, nước..., dạng rắn, đóng gói khối lượng tịnh 70g - Mục 6, 7, 8, 9, 10: Chế phẩm làm thơm phòng, thành phần chính có chứa hương liệu, chất mang gel, nước..., dạng rắn, đóng gói khối lượng tịnh 170g",
+   "description": "-, 2, 3, 4, 5: Chế phẩm làm thơm phòng, thành phần chính có chứa hương liệu, chất mang gel, nước..., dạng rắn, đóng gói khối lượng tịnh 70g -, 7, 8, 9, 10: Chế phẩm làm thơm phòng, thành phần chính có chứa hương liệu, chất mang gel, nước..., dạng rắn, đóng gói khối lượng tịnh 170g",
    "source": {
     "type": "TB-TCHQ",
     "reference": "5189/TB-TCHQ",
@@ -67,7 +67,7 @@
   },
   {
    "hsCode": "34011990",
-   "description": "SOAPxà phòng. - Xà phòng từ hỗn hợp của muối natri của axit béo và phụ gia, dạng bánh (dùng để giặt len không đạt tiêu chuẩn về màu).",
+   "description": "SOAPxà phòng PLTK). - Xà phòng từ hỗn hợp của muối natri của axit béo và phụ gia, dạng bánh (dùng để giặt len không đạt tiêu chuẩn về màu",
    "source": {
     "type": "TB-TCHQ",
     "reference": "636/TB-TCHQ",
@@ -139,6 +139,25 @@
    "evidence": {
     "soHieu": "6065/TB-TCHQ",
     "ketLuan": "thuộc nhóm 34.01 “Xà phòng; các sản phẩm và các chế phẩm hữu cơ hoạt động bề mặt dùng như xà phòng, ở dạng thanh, bánh, được nén thành miếng hoặc hình dạng nhất định, có hoặc không chứa xà phòng; các sản phẩm và các chế phẩm hữu cơ hoạt động bề mặt dùng để làm sạch da, ở dạng lỏng hoặc ở dạng kem và đã được đóng gói để bán lẻ, có hoặc không chứa xà phòng; giấy, mền xơ, nỉ và sản phẩm không dệt, đã thấm tẩm, tráng hoặc phủ xà phòng hoặc chất tẩy.”, mã số 3401.30.00 “- Các sản phẩm và chế phẩm hữu cơ hoạt động bề mặt dùng để làm sạch da, dạng lỏng hoặc dạng kem và đã được đóng gói để bán lẻ, có hoặc không chứa xà phòng” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
+   }
+  },
+  {
+   "hsCode": "34024290",
+   "description": "FATTY ALCOHOL ETHOXYLATE AEO9 - Primary alcohol Ethoxylate-9/Peregal-",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "192/TB-TCHQ",
+    "issuedDate": "2024-01-12",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-192-2024"
+   },
+   "attributes": {
+    "bieuThue": "2022",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "thuộc nhóm 34.02 “Chất hữu cơ hoạt động bề mặt (trừ xà phòng); các chế phẩm hoạt động bề mặt, các chế phẩm dùng để giặt, rửa (kể cả các chế phẩm dùng để giặt, rửa phụ trợ) và các chế phẩm làm sạch, có hoặc không chứa xà phòng, trừ các loại thuộc nhóm 34.01. ”, phân nhóm “- Các chất hữu cơ hoạt động bề mặt khác, đã hoặc chưa đóng gói để bán lẻ: ”, phân nhóm 3402.42 “- - Dạng không phân ly (non - ionic): ”, mã số 3402.42.90 “- - - Loại khác ” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./.",
+   "evidence": {
+    "soHieu": "192/TB-TCHQ",
+    "ketLuan": "thuộc nhóm 34.02 “Chất hữu cơ hoạt động bề mặt (trừ xà phòng); các chế phẩm hoạt động bề mặt, các chế phẩm dùng để giặt, rửa (kể cả các chế phẩm dùng để giặt, rửa phụ trợ) và các chế phẩm làm sạch, có hoặc không chứa xà phòng, trừ các loại thuộc nhóm 34.01. ”, phân nhóm “- Các chất hữu cơ hoạt động bề mặt khác, đã hoặc chưa đóng gói để bán lẻ: ”, phân nhóm 3402.42 “- - Dạng không phân ly (non - ionic): ”, mã số 3402.42.90 “- - - Loại khác ” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./."
    }
   },
   {

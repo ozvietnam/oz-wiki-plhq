@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-025.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-025.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-025.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 6483/TB-TCHQ (2018-11-05) → 28181000 — Quặng nhôm đã được làm giàu (Al2O3 >=70 %+- 2%), Fe2O3 <= 2,5%; cỡ hạt…
@@ -17,6 +17,7 @@
 - 3141/TB-TCHQ (2018-06-06) → 28261900 — LIF1Lithium Fluoride (CTHH: LIF) - Liti florua, dạng bột…
 - 6631/TB-TCHQ (2018-11-13) → 28261900 — Hóa chất công nghiệp: Nikel Fluoride Tetrahydrate (Rank one) -NiF2.4H2…
 - 108/TB-TCHQ (2020-01-06) → 28273910 — COBALT CHLORIDE- Coban clorua dạng bột, màu đỏ, dùng làm nguyên liệu đ…
+- 2337/TB-TCHQ (2018-05-02) → 28273990 — Chất xử lý bề mặt kim loại Copper (II) Chloride - Đồng clorua, dạng bộ…
 - 3995/TB-TCHQ (2019-06-17) → 28274900 — Zirconium dioxide dùng trong quá trình sản xuất keo, hàng mới 100% - Z…
 - 4158/TB-TCHQ (2019-06-25) → 28274900 — Adjusting agent - Chất điện giải PAC. Có thành phần chính là các muối …
 - 5984/TB-TCHQ (2018-10-12) → 28273910 — Chất dùng trong thí nghiệm (BARIUM CHLORIDE DIHYDRATE) (500g/EA) (60EA…
@@ -27,7 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 2337/TB-TCHQ/2018 → 2827: ma_hs không phải 8 số — "Chất xử lý bề mặt kim loại Copper (II) Chloride dihydrate. Thành phần: Copper Ch"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

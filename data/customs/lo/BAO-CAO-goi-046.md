@@ -1,8 +1,8 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-046.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-046.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-046.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 3611/TB-TCHQ (2019-06-03) → 34029099 — Silicone dùng trong sản xuất hóa mỹ phẩm - DOWSIL (TM) 2501 COSMETIC W…
@@ -14,6 +14,7 @@
 - 4017/TB-TCHQ (2018-07-09) → 34029012 — BUSPERSE 47 - Chất chống hình thành cặn dạng bùn, cặn hữu cơ dùng tron…
 - 4213/TB-TCHQ (2019-06-27) → 34022095 — Phụ gia dùng thuộc da, bột làm trơn da, hiệu: BRTHON, model: D103, (đã…
 - 4320/TB-TCHQ (2019-07-01) → 34029013 — Chất hữu cơ hoạt động bề mặt dạng anion - Alkaline Cleaner Bonderite C…
+- 4616/TB-TCHQ (2024-09-26) → 34029099 — Chất hoạt động bề mặt cation dùng làm nguyên liệu sản xuất nước làm mề…
 - 5010/TB-TCHQ (2018-08-28) → 34029093 — Chế phẩm chuyên dùng để khử dầu trên các linh kiện đúc bằng hợp kim nh…
 - 5011/TB-TCHQ (2018-08-28) → 34029013 — Chế phẩm làm sạch bề mặt nhôm và hợp kim nhôm tẩy sạch dầu mỡ và loại …
 - 5190/TB-TCHQ (2018-09-05) → 34021200 — VEGESHINE Q10 - Chất hoạt động bề mặt dạng cationic dùng trong sản xuấ…
@@ -27,7 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 4616/TB-TCHQ/2024 → 34029099: không chọn được description đạt (dài/có tên nhóm biểu thuế) — ứng viên đầu: TETRANYL L6-88E/MB — "TETRANYL L6-88E/MB"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

@@ -6,7 +6,7 @@
  },
  "license": "CC-BY-SA-4.0",
  "submittedAt": "2026-10-13T00:00:00Z",
- "note": "Lô tracuuhs.com — 18 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-13-goi-036.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 18/20 đạt luật validate-community của kể từ 06/10.",
+ "note": "Lô tracuuhs.com — 20 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-13-goi-036.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 20/20 đạt luật validate-community của kể từ 06/10.",
  "records": [
   {
    "hsCode": "30049099",
@@ -44,6 +44,44 @@
    "evidence": {
     "soHieu": "1107/TB-TCHQ",
     "ketLuan": "thuộc nhóm 30.04 “Thuốc (trừ các mặt hàng thuộc nhóm 30.02, 30.05 hoặc 30.06) gồm các sản phẩm đã hoặc chưa pha trộn dùng cho phòng bệnh hoặc chữa bệnh, đã được đóng gói theo liều lượng (kể cả các sản phẩm thuộc loại dùng để hấp thụ qua da) hoặc làm thành dạng nhất định hoặc đóng gói để bán lẻ.”, phân loại tại phân nhóm 3004.90 “- Loại khác: ”, phân nhóm “- - Loại khác: ”, phân nhóm “- - - Loại khác: ”, mã số 3004.90.99 “- - - - Loại khác ” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
+   }
+  },
+  {
+   "hsCode": "30049099",
+   "description": "Thuốc Tavanic - - Thành phần, cấu tạo, công thức hoá học: Mỗi viên nén bao phim chứa: + Thành phần chính: Levofloxacin: 500 mg (tương đương 512,46 mg Levofloxacin Hemihydrat) + Thành phần tá dược: Crospovidon, hypromellose, microcrystallin cellulose, natri stearyl fumarat, hypromellose, macrogol 8000, titan dioxyd (E171), talc, red ferric oxyd (E172) và yellow ferric oxyd (E172) - Cơ chế hoạt động, cách thức sử dụng: Tavanic là một kháng sinh tổng hợp",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "1715/TB-TCHQ",
+    "issuedDate": "2023-04-12",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-1715-2023"
+   },
+   "attributes": {
+    "bieuThue": "2022",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "thuộc nhóm 30.04 “Thuốc (trừ các mặt hàng thuộc nhóm 30.02, 30.05 hoặc 30.06) gồm các sản phẩm đã hoặc chưa pha trộn dùng cho phòng bệnh hoặc chữa bệnh, đã được đóng gói theo liều lượng (kể cả các sản phẩm thuộc loại dùng để hấp thụ qua da) hoặc làm thành dạng nhất định hoặc đóng gói để bán lẻ.”, phân nhóm 3004.90 “- Loại khác: ”, phân nhóm “- - Loại khác: ”, phân nhóm “- - - Loại khác: , mã số 3004.90.99 - - - - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
+   "evidence": {
+    "soHieu": "1715/TB-TCHQ",
+    "ketLuan": "thuộc nhóm 30.04 “Thuốc (trừ các mặt hàng thuộc nhóm 30.02, 30.05 hoặc 30.06) gồm các sản phẩm đã hoặc chưa pha trộn dùng cho phòng bệnh hoặc chữa bệnh, đã được đóng gói theo liều lượng (kể cả các sản phẩm thuộc loại dùng để hấp thụ qua da) hoặc làm thành dạng nhất định hoặc đóng gói để bán lẻ.”, phân nhóm 3004.90 “- Loại khác: ”, phân nhóm “- - Loại khác: ”, phân nhóm “- - - Loại khác: , mã số 3004.90.99 - - - - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam."
+   }
+  },
+  {
+   "hsCode": "30042091",
+   "description": "Thuốc Rodogyl - - Thành phần, cấu tạo, công thức hoá học: Mỗi viên nén bao phim chứa: Thành phần chính: + Spiramycin: 750000 IU + Metronidazole: 125 mg Thành phần tá dược: Tinh bột ngô, povidone K30, natri croscarmellose, Silica colloidal khan, Sorbitol, Magnesi stearat, cellulose vi tinh thể, hypromellose, titan dioxid, macrogol 6000 - Cơ chế hoạt động, cách thức sử dụng: Viên nén bao phim Rodogyl được chỉ định để điều trị các bệnh nhiễm trùng răng miệng như áp xe răng ở ngư",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "1771/TB-TCHQ",
+    "issuedDate": "2023-04-14",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-1771-2023"
+   },
+   "attributes": {
+    "bieuThue": "2022",
+    "loaiTB": "KET_QUA_PHAN_LOAI"
+   },
+   "reasonVi": "thuộc nhóm 30.04 “Thuốc (trừ các mặt hàng thuộc nhóm 30.02, 30.05 hoặc 30.06) gồm các sản phẩm đã hoặc chưa pha trộn dùng cho phòng bệnh hoặc chữa bệnh, đã được đóng gói theo liều lượng (kể cả các sản phẩm thuộc loại dùng để hấp thụ qua da) hoặc làm thành dạng nhất định hoặc đóng gói để bán lẻ.”, phân nhóm 3004.20 “- Loại khác, chứa kháng sinh:”, phân nhóm “- - Loại khác:”, mã số 3004.20.91 “- - - Dạng uống (*) hoặc dạng mỡ” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
+   "evidence": {
+    "soHieu": "1771/TB-TCHQ",
+    "ketLuan": "thuộc nhóm 30.04 “Thuốc (trừ các mặt hàng thuộc nhóm 30.02, 30.05 hoặc 30.06) gồm các sản phẩm đã hoặc chưa pha trộn dùng cho phòng bệnh hoặc chữa bệnh, đã được đóng gói theo liều lượng (kể cả các sản phẩm thuộc loại dùng để hấp thụ qua da) hoặc làm thành dạng nhất định hoặc đóng gói để bán lẻ.”, phân nhóm 3004.20 “- Loại khác, chứa kháng sinh:”, phân nhóm “- - Loại khác:”, mã số 3004.20.91 “- - - Dạng uống (*) hoặc dạng mỡ” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
    }
   },
   {

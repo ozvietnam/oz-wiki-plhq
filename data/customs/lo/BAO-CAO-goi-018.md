@@ -1,12 +1,13 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-018.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-018.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **1**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-018.json` — **20 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **0**
 
 ## Vào lô
 - 2473/TB-TCHQ (2018-05-07) → 22029950 — - Thực phẩm bảo vệ sức khỏe Albavit Kids Cold & Flu giúp giảm cảm lạnh…
 - 2621/TB-TCHQ (2018-05-15) → 22029030 — Thực phẩm bảo vệ sức khỏe Miravit drops(1ml chứa Vitamin A 1000UI,D3 2…
+- 2968/TB-TCHQ (2018-05-29) → 22029950 — TPCN: Thực phẩm bảo vệ - Mẫu yêu cầu phân tích là chế phẩm thực phẩm b…
 - 3074/TB-TCHQ (2018-06-01) → 22029990 — - Nước ép táo có gas hiệu ARBUTUS (750 ml x 12 chai/ thùng), hàng mới …
 - 3119/TB-TCHQ (2018-06-05) → 22029990 — THỰC PHẨM BẢO VỆ SỨC KHỎE : Lô hội thảo mộc cô đặc - hương quýt (chai …
 - 3142/TB-TCHQ (2019-05-21) → 22029950 — Thực phẩm bảo vệ sức khỏe, bổ sung vitamin D: DIMAO ORAL SPRAY, 25 ml.…
@@ -27,7 +28,6 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 2968/TB-TCHQ/2018 → 2202: ma_hs không phải 8 số — "TPCN: Thực phẩm bảo vệ sức khỏe Syrop Prawoslazowy Z malinami I cynkiem giúp tăn"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

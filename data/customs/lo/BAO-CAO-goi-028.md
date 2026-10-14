@@ -1,13 +1,14 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
 - Vào: `data/customs/processed/tracuuhs-detail-2026-10-13-goi-028.json` — 20 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-028.json` — **18 bản ghi đạt** (trùng trong lô bỏ: 0)
-- Cần xử tay: **2**
+- Ra: `data/customs/lo/tracuuhs-2026-10-13-goi-028.json` — **19 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Cần xử tay: **1**
 
 ## Vào lô
 - 3069/TB-TCHQ (2019-05-20) → 29053900 — Dung môi (Zemea (R) Select Propanediol) - NPL SX mỹ phẩm…
 - 4006/TB-TCHQ (2018-07-09) → 29052900 — PL-75 (Polyme acrylic dạng nguyên sinh) - 2-metyl-3-butyn-2-ol…
-- 3131/TB-TCHQ (2019-05-21) → 29071900 — 3,5-Dimethylphenol (Mục 27) - 3,5-Dimethylphenol…
+- 2046/TB-TCHQ (2020-03-30) → 29072300 — Bisphenol-A (Bisphenol-A) - Bisphenol A Bisphenol A…
+- 6322/TB-TCHQ (2020-09-28) → 29071900 — Purolan BHT - 2,6-Di-tert.-butyl-4-methyl-phenol. - Thành phần, cấu tạ…
 - 1501/TB-TCHQ (2018-03-22) → 29096000 — TBH 70X: Tertiary Butyl Hydroperoxide 70x là một peroxit hữu cơ được s…
 - 2396/TB-TCHQ (2018-05-03) → 29093000 — ACEOX NHBCD - Nguyên liệu dùng trong sản xuất hạt nhựa (1,1'-(ISOPROPY…
 - 4167/TB-TCHQ (2019-06-26) → 29095000 — SENSE HOT - VANILLYL BUTYL ETHER - Dẫn xuất Ether của vanillyl butyl -…
@@ -26,8 +27,7 @@
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
-- 2046/TB-TCHQ/2020 → 29072300: không chọn được description đạt (dài/có tên nhóm biểu thuế) — ứng viên đầu: Bisphenol-A (Bisphenol-A) - Bisphenol A — "Bisphenol-A (Bisphenol-A)"
-- 6322/TB-TCHQ/2020 → 29071900: description còn nhãn mục văn bản — "Purolan BHT"
+- 3131/TB-TCHQ/2019 → 29071900: không chọn được description đạt (dài/có tên nhóm biểu thuế) — ứng viên đầu: 3,5-Dimethylphenol - 3,5-Dimethylphenol — "3,5-Dimethylphenol (Mục 27)"
 
 ## Bước tiếp
 1. Chạy `node scripts/validate-community.mjs` trong hs-code-api với tệp lô này (phải 0 lỗi).

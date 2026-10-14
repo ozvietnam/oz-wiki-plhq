@@ -6,7 +6,7 @@
  },
  "license": "CC-BY-SA-4.0",
  "submittedAt": "2026-10-13T00:00:00Z",
- "note": "Lô tracuuhs.com — 19 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-13-goi-047.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 19/20 đạt luật validate-community của kể từ 06/10.",
+ "note": "Lô tracuuhs.com — 20 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-13-goi-047.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 20/20 đạt luật validate-community của kể từ 06/10.",
  "records": [
   {
    "hsCode": "34029013",
@@ -348,6 +348,25 @@
    "evidence": {
     "soHieu": "4745/TB-TCHQ",
     "ketLuan": "thuộc mã số 3504.00.00 “Pepton và các dẫn xuất của chúng; protein khác và các dẫn xuất của chúng, chưa được chi tiết hoặc ghi ở nơi khác; bột da sống, đã hoặc chưa crom hóa.” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
+   }
+  },
+  {
+   "hsCode": "35040000",
+   "description": "VERISOL B SA - Theo hồ sơ xác định trước mã số, thông tin mặt hàng như sau: - Thành phần, cấu tạo, công thức hóa học: 100% collagen hydrolysate - Cơ chế hoạt động, cách thức sử dụng: VERISOL B SA là Collagen Peptide tinh khiết cao từ da bò, đặc biệt trung tính về mùi vị. Trọng lượng phân tử trung bình nằm trong khoảng 2.000 g/mol. VERISOL® B (SA) được chứng minh lâm sàng có tác dụng kích thích tổng hợp collagen, proteoglycan và đàn hồi trong nguyên bào sợi (tế bào da) của con",
+   "source": {
+    "type": "TB-TCHQ",
+    "reference": "4789/TB-TCHQ",
+    "issuedDate": "2024-10-04",
+    "url": "https://www.tracuuhs.com/tin-tuc/tchq-4789-2024"
+   },
+   "attributes": {
+    "bieuThue": "2022",
+    "loaiTB": "XAC_DINH_TRUOC"
+   },
+   "reasonVi": "thuộc mã số 3504.00.00 “Pepton và các dẫn xuất của chúng; protein khác và các dẫn xuất của chúng, chưa được chi tiết hoặc ghi ở nơi khác; bột da sống, đã hoặc chưa crom hóa.” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./.",
+   "evidence": {
+    "soHieu": "4789/TB-TCHQ",
+    "ketLuan": "thuộc mã số 3504.00.00 “Pepton và các dẫn xuất của chúng; protein khác và các dẫn xuất của chúng, chưa được chi tiết hoặc ghi ở nơi khác; bột da sống, đã hoặc chưa crom hóa.” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./."
    }
   },
   {
