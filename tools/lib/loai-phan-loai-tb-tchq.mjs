@@ -28,8 +28,9 @@ export function phanLoaiTbTchq(noiDung, loaiVb = '') {
   const bot = /Vercel Security Checkpoint|We.?re verifying your browser/i.test(nd.slice(0, 500));
   const empty = !nd.trim();
 
-  const dcTitle = /(?:VỀ\s+VIỆC\s+)?ĐÍNH\s*CHÍNH|THÔNG\s*BÁO\s+ĐÍNH\s*CHÍNH|ĐÍNH\s*CHÍNH\s+THÔNG\s*BÁO/i.test(head);
-  const dcLoai = /đính\s*chính|DINH_CHINH/i.test(loai);
+  // Chỉ nhận đính chính khi là tiêu đề văn bản / loai_vb — không bắt cụm "đính chính" lẫn trong đoạn dẫn chiếu TB khác.
+  const dcTitle = /(?:^|\n)\s*(?:VỀ\s+VIỆC\s+)?ĐÍNH\s*CHÍNH(?:\s+THÔNG\s*BÁO)?|(?:^|\n)\s*THÔNG\s*BÁO\s+ĐÍNH\s*CHÍNH|ĐÍNH\s*CHÍNH\s+THÔNG\s*BÁO\s+KẾT\s*QUẢ/i.test(head);
+  const dcLoai = /^(?:Đính chính|DINH_CHINH)|đính\s*chính/i.test(loai);
   const xdTitle = /VỀ\s+KẾT\s*QUẢ\s+XÁC\s*ĐỊNH\s*TRƯỚC|XÁC\s*ĐỊNH\s*TRƯỚC\s*MÃ\s*SỐ|XÁC\s*NHẬN\s*TRƯỚC\s*MÃ\s*SỐ/i.test(head);
   const xdLoai = /xác\s*định\s*trước|XAC_DINH_TRUOC/i.test(loai);
   const ktExact = /KIỂM\s*TRA\s+VÀ\s+XÁC\s*ĐỊNH\s*LẠI(?:\s+MÃ\s*SỐ)?/i.test(head);
