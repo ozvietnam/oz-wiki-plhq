@@ -263,3 +263,45 @@ Khi hsCode crawl từ nguồn cũ không có trong biểu thuế hiện hành:
 - 13 mã legacy, 18 bản precedents
 - 4 high, 11 medium, 3 low
 - Có thể mở rộng khi gặp thêm mã mới
+
+
+## Bài học từ goi-101 (Hermes Sonnet 4.5, 15/10/2026)
+
+### 3 loại TB-TCHQ cần phân biệt
+- **KET_QUA_PHAN_LOAI**: "VỀ KẾT QUẢ PHÂN LOẠI" + "Kết quả phân loại:"
+- **XAC_DINH_TRUOC**: "VỀ KẾT QUẢ XÁC ĐỊNH TRƯỚC" + "Kết quả xác định trước mã số:" (có 2 "Tên gọi" - lấy CUỐI)
+- **DINH_CHINH**: "VỀ SỬA ĐỔI, THAY THẾ..." + confusedWith = TB cũ
+
+### DINH_CHINH workflow
+- Số hiệu trong body = TB MỚI (vd "Số: 23956/TB-CHQ")
+- Số hiệu cũ bị thay thế = confusedWith (vd "4967/TB-TCHQ/2024")
+- **Quy ước đổi `so_hieu` thành TB mới** (match "Số:" trong body)
+- confusedWith = list các TB cũ bị thay thế
+
+### Bắt buộc field `noi_dung`
+Tool `dong-goi-lo-tb-tchq.mjs` tìm "Số:" trong `noi_dung` để verify record:
+```python
+# File processed PHẢI có field 'noi_dung' chứa text full
+r['noi_dung'] = open(r['text_cache']).read()
+# Tool mới match được "Số: 7458" trong text với r['so_hieu'] = "7458/TB-TCHQ/2018"
+```
+
+### Che PII toàn bộ (CONTRIBUTING + privacy)
+- ##MST##, ##DN##, ##DC##, ##TK##, ##SDT##, ##EMAIL##
+- Cắt footer "HSTC là công cụ..."
+- KHÔNG có ngoại lệ - 20/20 record gốc đều có PII
+
+### Workflow chuẩn (gói-101, 3 phút 10 giây)
+1. Chrome CDP port 9226 (headless) - mỗi URL: 8s load + 1.5s delay
+2. Lưu text cache vào `/tmp/tb-text-cache-goi-NNN/`
+3. Parse thông minh 3 loại + che PII
+4. Thêm field `noi_dung` cho tool đóng gói
+5. DINH_CHINH: đổi so_hieu + confusedWith
+6. `tools/dong-goi-lo-tb-tchq.mjs` → 20/20 đạt
+7. Copy sang hs-code-api + `validate-community.mjs` → 0 lỗi
+8. `merge-community.mjs` + `sync-doc-counts.mjs` + `test-merge-community.mjs`
+
+### Reset --hard CẨN THẬN
+- `git reset --hard origin/branch` XÓA file untracked + file chưa commit
+- LUÔN backup trước: `git stash` hoặc copy file ra `/tmp/`
+- File đã commit mới reset an toàn (chỉ mất local changes)
