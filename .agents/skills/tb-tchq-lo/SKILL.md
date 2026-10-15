@@ -35,13 +35,24 @@ KHÔNG nhồi vào lô, KHÔNG bịa trường.
 
 ## Vòng làm việc
 
+**Crawl thủ công là MẶC ĐỊNH** khi làm việc với dữ liệu pháp lý. Workflow tự động (auto-tool) chỉ dùng khi đã có data đã được rà lại tay 1 lần. Mỗi gói:
 1. Xác định nguồn: file detail trong `data/customs/processed/` hay danh sách "cần xử tay" của lô trước.
-2. Đóng gói: `node tools/dong-goi-lo-tb-tchq.mjs --vao … --ra data/customs/lo/<tên-lô>.json --bao-cao …`
-   — tool tự gán `attributes.loaiTB` (XAC_DINH_TRUOC / KET_QUA_PHAN_LOAI / DINH_CHINH) và trích `confusedWith`
-   (mã bị bác / mã cũ trong đính chính, nguyên văn). Cặp mã khai → mã kết luận chỉ lấy từ nguồn tờ khai, không suy.
-3. **Kiểm bằng validator thật**: chép tệp lô vào `data/community/tb-tchq/` bên hs-code-api → `node scripts/validate-community.mjs` → phải **0 lỗi**.
-4. Gộp + PR: `merge-community.mjs` → `sync-doc-counts.mjs` → `test-merge-community.mjs` → commit cả lô + `data/precedents.json` (+ docs số đếm) → `gh pr create` (mô tả: nguồn, đạt/giữ lại, cảnh báo).
-5. Xử tay `BAO-CAO-lot-*.md` → bổ sung vào lô sau, không sửa lô đã gộp.
+2. **Crawl thủ công qua Chrome CDP** (KHÔNG dùng auto-crawl):
+   - 1 Chrome instance duy nhất (port 9226 hoặc 9222)
+   - Mỗi URL: 8s load + 1.5s delay
+   - Lưu text full vào `/tmp/tb-text-cache-goi-NNN/`
+   - KHÔNG chạy song song 2 batch (Chrome sẽ crash với "Broken pipe")
+3. Parse + che PII (xem `scripts/crawl_goi.py`):
+   - Phân biệt 3 loại: KET_QUA_PHAN_LOAI / XAC_DINH_TRUOC / DINH_CHINH
+   - Che MST/DN/ĐC/TK/SDT/Email + cắt footer "HSTC là công cụ..."
+   - Anchor in hoa "VỀ KẾT QUẢ ..." (KHÔNG dùng "kết quả" thường)
+   - Regex mã số: `mã[,\s]*số\s+(\d{4}\.\d{2}\.\d{2})` (chấp nhận "mã,số" có dấu phẩy)
+4. Đóng gói: `node tools/dong-goi-lo-tb-tchq.mjs --vao … --ra data/customs/lo/<tên-lô>.json --bao-cao …`
+   — tool tự gán `attributes.loaiTB` và trích `confusedWith` (mã cũ trong đính chính).
+5. **RÀ LẠI TAY trước khi validate** (xem Gate RÀ LẠI TAY bên dưới).
+6. **Kiểm bằng validator thật**: chép tệp lô vào `data/community/tb-tchq/` bên hs-code-api → `node scripts/validate-community.mjs` → phải **0 lỗi**.
+7. Gộp + PR: `merge-community.mjs` → `sync-doc-counts.mjs` → `test-merge-community.mjs` → commit cả lô + `data/precedents.json` (+ docs số đếm) → `gh pr create` (mô tả: nguồn, đạt/giữ lại, cảnh báo).
+8. Xử tay `BAO-CAO-lot-*.md` → bổ sung vào lô sau, không sửa lô đã gộp.
 
 ## Không được làm
 
@@ -371,3 +382,26 @@ r['source'] = {'reference': r['so_hieu'].split('/')[0] + '/' + r['so_hieu'].spli
 - KHÔNG dùng "(PbO)" thêm vào - vẫn có "chì oxit"
 - Dùng regex strip pattern gốc: `re.sub(r"pattern", "", text)`
 - Hoặc replace generic: "Công ty" → "Doanh nghiệp"
+
+### Phục hồi Chrome CDP khi crash
+- Triệu chứng: script báo `'NoneType' object is not subscriptable` hoặc `[Errno 32] Broken pipe`
+- Nguyên nhân: Chrome tab websocket bị chết, port 9226 vẫn listen nhưng không response
+- Phục hồi theo thứ tự:
+  1. Kill process crawl: `pkill -f crawl_v2.py`
+  2. Kill Chrome cũ: `pkill -f "chrome.*9226"`
+  3. Đợi 3 giây
+  4. Xóa profile cũ: `rm -rf /tmp/chrome-batchN-9226`
+  5. Start Chrome mới qua terminal background:
+     ```bash
+     /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+       --headless=new --no-sandbox --disable-gpu --disable-dev-shm-usage \
+       --user-data-dir=/tmp/chrome-batchN-9226 --remote-debugging-port=9226 \
+       about:blank > /tmp/chrome-batchN.log 2>&1 &
+     ```
+  6. Test: `curl -s http://localhost:9226/json/version` phải trả `Chrome/...`
+  7. Test tab page: `curl -s http://localhost:9226/json/list | grep '"type": "page"'`
+  8. Chạy lại script với Chrome mới
+
+### Script file path quan trọng
+- Lưu script ở `~/.hermes/cache/scratch/` thay vì `/tmp/` — `/tmp/` có thể bị sandbox reset
+- Cache text: `/tmp/tb-text-cache-goi-NNN/` chấp nhận được vì có thể crawl lại từ URL

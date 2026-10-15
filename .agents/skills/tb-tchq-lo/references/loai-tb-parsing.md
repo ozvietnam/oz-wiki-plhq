@@ -47,3 +47,12 @@ TB-TCHQ có 3 dạng heading chính. Mỗi loại cần anchor riêng, dễ nh�
 - Chỉ dùng heading **IN HOA** (`VỀ KẾT QUẢ ...`) làm anchor body
 - Cũng không dùng `Kết quả phân loại` (lowercase K) — đó là caption trang, không phải body
 - Dấu hai chấm `Kết quả phân loại:` (có `:`) là anchor ổn định nhất ở bên trong body sau khi đã cắt bằng heading
+
+## Pitfall: mã số có dấu câu giữa các nhóm số
+
+- Một số TB viết "mã,số" thay vì "mã số" (có dấu phẩy) — dạng lỗi font/typing từ bản gốc PDF
+- Cũng có thể viết "mã số 7212.30 10" (có khoảng trắng giữa `30` và `10` thay vì dấu chấm)
+- Regex **phải** accept cả 2:
+  - Mã chuẩn: `r"mã[,\s]*số\s+(\d{4}\.\d{2}\.\d{2})"`
+  - Mã có khoảng trắng: kiểm tra `r"(\d{4}\.\d{2})\s+(\d{2})"` riêng
+- Nếu cả 2 fail → để vào "cần xử tay", **không tự điền mã** dù có trong heading "Kết quả phân loại"

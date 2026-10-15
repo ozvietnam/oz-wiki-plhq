@@ -143,7 +143,7 @@ def parse_tb(text, so_hieu):
         return None
 
     m_nhom = re.search(r"thuộc\s+nhóm\s+(\d{2}\.\d{2})", body, re.IGNORECASE)
-    m_ma = re.search(r"mã\s*số\s+(\d{4}\.\d{2}\.\d{2})", body, re.IGNORECASE)
+    m_ma = re.search(r"mã[,\s]*số\s+(\d{4}\.\d{2}\.\d{2})", body, re.IGNORECASE)
     if desc:
         desc = che_pii(desc).strip()
         if not desc.endswith("."):
