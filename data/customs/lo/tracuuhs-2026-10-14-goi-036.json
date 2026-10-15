@@ -1,12 +1,4 @@
 {
-  "kind": "precedent",
-  "contributor": {
-    "name": "hermes-tracuuhs",
-    "github": "ozvietnam"
-  },
-  "license": "CC-BY-SA-4.0",
-  "submittedAt": "2026-10-13T18:40:23Z",
-  "note": "Lô tracuuhs.com — 10 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-14-goi-036.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 10/20 đạt luật validate-community của kể từ 06/10.",
   "records": [
     {
       "hsCode": "30049099",
@@ -21,10 +13,10 @@
         "bieuThue": "2022",
         "loaiTB": "XAC_DINH_TRUOC"
       },
-      "reasonVi": "90 “- Loại khác:”, phân nhóm “- - Loại khác:”, phân nhóm “- - - Loại khác:”, mã số 3004.90.99 “- - - - Loại khác” tại Danh mụ",
+      "reasonVi": "thuộc nhóm 30.04 “Thuốc (trừ các mặt hàng thuộc nhóm 30.02, 30.05 hoặc 30.06) gồm các sản phẩm đã hoặc chưa pha trộn dùng cho phòng bệnh hoặc chữa bệnh, đã được đóng gói theo liều lượng (kể cả các sản phẩm thuộc loại dùng để hấp thụ qua da) hoặc làm thành dạng nhất định hoặc đóng gói để bán lẻ.”, phân nhóm 3004.90 “- Loại khác:”, phân nhóm “- - Loại khác:”, phân nhóm “- - - Loại khác:”, mã số 3004.90.99 “- - - - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
       "evidence": {
         "soHieu": "732/TB-TCHQ",
-        "ketLuan": "90 “- Loại khác:”, phân nhóm “- - Loại khác:”, phân nhóm “- - - Loại khác:”, mã số 3004.90.99 “- - - - Loại khác” tại Danh mụ"
+        "ketLuan": "thuộc nhóm 30.04 “Thuốc (trừ các mặt hàng thuộc nhóm 30.02, 30.05 hoặc 30.06) gồm các sản phẩm đã hoặc chưa pha trộn dùng cho phòng bệnh hoặc chữa bệnh, đã được đóng gói theo liều lượng (kể cả các sản phẩm thuộc loại dùng để hấp thụ qua da) hoặc làm thành dạng nhất định hoặc đóng gói để bán lẻ.”, phân nhóm 3004.90 “- Loại khác:”, phân nhóm “- - Loại khác:”, phân nhóm “- - - Loại khác:”, mã số 3004.90.99 “- - - - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam."
       }
     },
     {
@@ -60,5 +52,13 @@
         "ketLuan": "Tên gọi theo cấu tạo, công dụng: Thuốc thú y chứa kháng sinh Tylosin, đóng gói chai 100ml, dạng dung dịch tiêm thuộc nhóm 3004: “Thuốc (trừ các mặt hàng thuộc nhóm 30.02, 30.05 hoặc 30.06) gồm các sản phẩm đã hoặc chưa pha trộn dùng cho phòng bệnh hoặc chữa bệnh, đã được đóng gói theo liều lượng (kể cả các sản phẩm thuộc loại dùng để hấp thụ qua da) hoặc làm thành dạng nhất định hoặc đóng gói để bán lẻ”, phân nhóm 3004.20 “- loại khác, chứa kháng sinh”, phân nhóm “- - Loại khác:”, mã số 3004.20.90"
       }
     }
-  ]
+  ],
+  "kind": "precedent",
+  "contributor": {
+    "name": "hermes-tracuuhs",
+    "github": "ozvietnam"
+  },
+  "license": "CC-BY-SA-4.0",
+  "submittedAt": "2026-10-13T18:40:23Z",
+  "note": "Lô tracuuhs.com — 10 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-14-goi-036.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 10/20 đạt luật validate-community của kể từ 06/10."
 }

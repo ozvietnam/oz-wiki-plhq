@@ -1,12 +1,4 @@
 {
-  "kind": "precedent",
-  "contributor": {
-    "name": "hermes-tracuuhs",
-    "github": "ozvietnam"
-  },
-  "license": "CC-BY-SA-4.0",
-  "submittedAt": "2026-10-13T18:26:59Z",
-  "note": "Lô tracuuhs.com — 7 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-14-goi-048.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 7/20 đạt luật validate-community của kể từ 06/10.",
   "records": [
     {
       "hsCode": "35061000",
@@ -65,5 +57,13 @@
         "ketLuan": "Tên gọi theo cấu tạo, công dụng: Tấm kim loại kích thước 0.3mm x 1030mm x 800mm, dùng trong công nghệ in CTP, làm bằng nhôm, một mặt đã được đánh bóng, một mặt đã được sơn phủ chất nhạy sáng màu xanh dương làm bản in (khuôn in), hình ảnh cần in được truyền từ computer qua thiết bị chiếu đèn laser và lưu lại trên mặt màu xanh của tấm nhôm thuộc nhóm 37.0 “Các tấm và phim để tạo ảnh ở dạng phẳng, có phủ lớp chất nhạy, chưa phơi sáng, bằng vật liệu bất kỳ trừ giấy, bìa hoặc vật liệu dệt; phim in ngay dạng phẳng, có phủ lớp chất nhạy, chưa phơi sáng, đã hoặc chưa đóng gói”, mã số 3701.30.00 “- Tấm và phim loại khác, có một chiều trên 255 mm” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam./."
       }
     }
-  ]
+  ],
+  "kind": "precedent",
+  "contributor": {
+    "name": "hermes-tracuuhs",
+    "github": "ozvietnam"
+  },
+  "license": "CC-BY-SA-4.0",
+  "submittedAt": "2026-10-13T18:26:59Z",
+  "note": "Lô tracuuhs.com — 7 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-14-goi-048.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 7/20 đạt luật validate-community của kể từ 06/10."
 }

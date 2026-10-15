@@ -1,12 +1,4 @@
 {
-  "kind": "precedent",
-  "contributor": {
-    "name": "hermes-tracuuhs",
-    "github": "ozvietnam"
-  },
-  "license": "CC-BY-SA-4.0",
-  "submittedAt": "2026-10-13T18:46:22Z",
-  "note": "Lô tracuuhs.com — 6 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-14-goi-043.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 6/20 đạt luật validate-community của kể từ 06/10.",
   "records": [
     {
       "hsCode": "33074910",
@@ -27,5 +19,13 @@
         "ketLuan": "49 “- - Loại khác ”, mã số 3307.49.10 “Các chế phẩm làm thơm phòng, có hoặc không có đặc tính khử trùng” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
       }
     }
-  ]
+  ],
+  "kind": "precedent",
+  "contributor": {
+    "name": "hermes-tracuuhs",
+    "github": "ozvietnam"
+  },
+  "license": "CC-BY-SA-4.0",
+  "submittedAt": "2026-10-13T18:46:22Z",
+  "note": "Lô tracuuhs.com — 6 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-14-goi-043.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 6/20 đạt luật validate-community của kể từ 06/10."
 }

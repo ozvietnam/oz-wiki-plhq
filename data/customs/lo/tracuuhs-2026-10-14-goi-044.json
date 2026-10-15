@@ -1,12 +1,4 @@
 {
-  "kind": "precedent",
-  "contributor": {
-    "name": "hermes-tracuuhs",
-    "github": "ozvietnam"
-  },
-  "license": "CC-BY-SA-4.0",
-  "submittedAt": "2026-10-14T20:06:44Z",
-  "note": "Lô tracuuhs.com — 17 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-14-goi-044.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 17/20 đạt luật validate-community của kể từ 06/10.",
   "records": [
     {
       "hsCode": "33079050",
@@ -293,5 +285,13 @@
         "ketLuan": "Tên gọi theo cấu tạo, công dụng: Chế phẩm hoạt động bề mặt anion và nonionic, dạng lỏng. thuộc nhóm 34.02 “Chất hữu cơ hoạt động bề mặt (trừ xà phòng); các chế phẩm hoạt động bề mặt, các chế phẩm dùng để giặt, rửa (kể cả các chế phẩm dùng để giặt, rửa phụ trợ) và các chế phẩm làm sạch, có hoặc không chứa xà phòng, trừ các loại thuộc nhóm 34.01”, phân nhóm 3402.90 “- Loại khác” phân nhóm hai gạch “- - Dạng lỏng: ”, mã số 3402.90.19 “- - - Loại khác” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam."
       }
     }
-  ]
+  ],
+  "kind": "precedent",
+  "contributor": {
+    "name": "hermes-tracuuhs",
+    "github": "ozvietnam"
+  },
+  "license": "CC-BY-SA-4.0",
+  "submittedAt": "2026-10-14T20:06:44Z",
+  "note": "Lô tracuuhs.com — 17 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-14-goi-044.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 17/20 đạt luật validate-community của kể từ 06/10."
 }
