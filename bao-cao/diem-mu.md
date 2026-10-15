@@ -1,12 +1,13 @@
-# Báo cáo điểm mù — 2026-10-14
+# Báo cáo điểm mù — 2026-10-15
 
-Tổng 4628 điểm: **11 cao**, 320 vừa, 4297 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 4630 điểm: **13 cao**, 320 vừa, 4297 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
 | Nhóm | Mức | Số điểm | Luồng việc |
 |---|---|---|---|
 | Được nhắc nhưng chưa có trong sổ | Cao | 3 | `he-thong-hoa` |
+| Mâu thuẫn hiệu lực | Cao | 2 | `hieu-luc` |
 | Cảnh báo nguồn | Cao | 1 | `truy-vet-nguon` |
 | Chưa có nguồn chính thống | Vừa | 2033 | `truy-vet-nguon` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 128 | `danh-muc-hs` |
@@ -29,6 +30,11 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Chưa có trong sổ: 65/2017/TT-BTC** — Tạo registry/van-ban/ cho 65/2017/TT-BTC (được nhắc bởi 31/2022/TT-BTC (thay_the)). Dùng: node tools/them-van-ban.mjs "65/2017/TT-BTC"
 - [ ] **Chưa có trong sổ: 09/2019/TT-BTC** — Tạo registry/van-ban/ cho 09/2019/TT-BTC (được nhắc bởi 31/2022/TT-BTC (thay_the)). Dùng: node tools/them-van-ban.mjs "09/2019/TT-BTC"
 - [ ] **Chưa có trong sổ: 96/2023/NĐ-CP** — Tạo registry/van-ban/ cho 96/2023/NĐ-CP (được nhắc bởi 98/2021/NĐ-CP (sua_doi)). Dùng: node tools/them-van-ban.mjs "96/2023/NĐ-CP"
+
+## Mâu thuẫn hiệu lực (2)
+
+- [ ] **128/2026/TT-BTC ghi "chưa có hiệu lực" nhưng ngày hiệu lực 2026-10-15 đã qua** — Chuyển tinh_trang sang CON_HIEU_LUC sau khi đối chiếu.
+- [ ] **336/2026/NĐ-CP ghi "chưa có hiệu lực" nhưng ngày hiệu lực 2026-10-15 đã qua** — Chuyển tinh_trang sang CON_HIEU_LUC sau khi đối chiếu.
 
 ## Cảnh báo nguồn (1)
 
