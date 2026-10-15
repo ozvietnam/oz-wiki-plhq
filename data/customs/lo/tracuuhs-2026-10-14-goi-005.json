@@ -1,12 +1,4 @@
 {
-  "kind": "precedent",
-  "contributor": {
-    "name": "hermes-tracuuhs",
-    "github": "ozvietnam"
-  },
-  "license": "CC-BY-SA-4.0",
-  "submittedAt": "2026-10-13T18:23:36Z",
-  "note": "Lô tracuuhs.com — 15 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-14-goi-005.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 15/20 đạt luật validate-community của kể từ 06/10.",
   "records": [
     {
       "hsCode": "17049020",
@@ -46,5 +38,13 @@
         "ketLuan": "thuộc nhóm 18.06 “Sô cô la và các chế phẩm thực phẩm khác có chứa ca cao.”, phân nhóm 1806.90 “- Loại khác:”, mã số 1806.90.1806.90.90 “- - Loại khác”"
       }
     }
-  ]
+  ],
+  "kind": "precedent",
+  "contributor": {
+    "name": "hermes-tracuuhs",
+    "github": "ozvietnam"
+  },
+  "license": "CC-BY-SA-4.0",
+  "submittedAt": "2026-10-13T18:23:36Z",
+  "note": "Lô tracuuhs.com — 15 TB-TCHQ mở chi tiết (mã 8 số + lý do nguyên văn + evidence), đóng gói từ data/customs/processed/tracuuhs-detail-2026-10-14-goi-005.json bằng tools/dong-goi-lo-tb-tchq.mjs (oz-wiki-plhq). Bản 15/20 đạt luật validate-community của kể từ 06/10."
 }
