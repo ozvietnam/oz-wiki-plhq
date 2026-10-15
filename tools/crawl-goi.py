@@ -119,7 +119,7 @@ def parse_reason_vi(noi_dung):
 def parse_ma_hs_from_reason(reason):
     if not reason:
         return None
-    m = re.search(r'mã số\s+([0-9]{4}\.[0-9]{2}\.[0-9]{2})', reason)
+    m = re.search(r'mã số\s+([0-9]{2,4}(?:\.[0-9]{2}){0,2})\b', reason)
     return m.group(1).replace('.', '') if m else None
 
 def main(goi_id, tb_list):
