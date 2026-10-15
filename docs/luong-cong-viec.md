@@ -1,4 +1,4 @@
-# 11 luồng công việc
+# 12 luồng công việc
 
 Mỗi luồng có nhãn GitHub riêng (`luong:<id>`), đầu vào, đầu ra và tiêu chí xong rõ ràng. Người hay agent
 đều nhận việc theo cùng một cách: chọn issue có nhãn luồng → ghi "nhận" trong issue → làm → mở PR có
@@ -17,6 +17,7 @@ Mỗi luồng có nhãn GitHub riêng (`luong:<id>`), đầu vào, đầu ra và
 | 9 | Đọc hiểu vào wiki | `luong:doc-hieu` | Đọc toàn văn, viết trang wiki có trích điều khoản |
 | 10 | Danh mục mã HS | `luong:danh-muc-hs` | Trích bảng mã HS trong phụ lục văn bản → biết mã nào chịu văn bản nào |
 | 11 | Tiền lệ TB-TCHQ | `luong:tb-tchq` | Đóng gói TB-TCHQ đã crawl thành lô gửi kho tiền lệ hs-code-api |
+| 12 | Tiền lệ quốc tế & Made-in-China | `luong:quoc-te-mic` | Crawl + kiểm chứng tiền lệ phân loại quốc tế và dữ kiện MiC, đóng gói lô gửi hs-code-api (bước 12 bên đó) |
 
 ---
 
@@ -107,3 +108,21 @@ Mỗi luồng có nhãn GitHub riêng (`luong:<id>`), đầu vào, đầu ra và
 - **Xong khi:** PR bên hs-code-api xanh CI và được gộp (lô + `precedents.json` + số đếm tài liệu); báo cáo
   "cần xử tay" cập nhật cho lô sau.
 - **Cho agent:** một lô ≤500 bản ghi, một PR; lỗi cùng loại nhiều bản ghi → sửa tool đóng gói, đừng sửa tay lô.
+
+## 12. Tiền lệ quốc tế & Made-in-China — `luong:quoc-te-mic`
+
+- **Mục tiêu:** tiền lệ phân loại quốc tế (CBP Mỹ, ABF Úc, EU BTI…) và dữ kiện sản phẩm Made-in-China
+  (thông số kỹ thuật + HS 10 số người bán — **tín hiệu, không phải bằng chứng**) đi hết đường sang kho
+  hs-code-api theo kế hoạch bước 12 bên đó (backlog PR #299).
+- **Đầu vào:** nguồn quốc tế + trang MiC theo bảng license trong [docs/luong-quoc-te-va-mic.md](luong-quoc-te-va-mic.md).
+- **Cách làm:** [docs/luong-quoc-te-va-mic.md](luong-quoc-te-va-mic.md) — crawl lịch sự đêm, đóng gói
+  `dong-goi-lo-quoc-te.mjs` / `dong-goi-lo-mic.mjs` (cần dựng theo khuôn Luồng 11), kiểm
+  `validate-community.mjs` 0 lỗi, PR sang hs-code-api. Bộ bóc MiC port từ repo ozsource
+  (`extractMadeInChina()`).
+- **Luật riêng:** WCO OP/EN KHÔNG re-host ở wiki (bản quyền, chỉ nằm hs-code-api); MiC chỉ giữ trường
+  dữ kiện + URL nguồn, không gallery/mô tả dài; mọi bản ghi có `snapshotHash + retrievedAt + license`.
+- **Xong khi:** PR bên hs-code-api xanh CI và được gộp; `/api/precedents` trả tiền lệ quốc tế theo
+  truy vấn mô tả chức năng (case đối chiếu: "glove box gas purification" → WCO 8421.39/1 + CBP M82907
+  + ABF TCO 1679759).
+- **Cho agent:** dựng 2 tool đóng gói trước (thẻ đầu tiên của luồng); chọn nguồn theo demand-signals,
+  đừng cào tràn lan.
