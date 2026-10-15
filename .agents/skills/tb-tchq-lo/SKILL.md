@@ -466,3 +466,67 @@ for k in all_keys:
 - **KHÔNG** rebase khi branch quá xa main (>5 commit) - tạo branch mới
 - **KHÔNG** để file của agent khác bị conflict với file em tạo (cùng tên)
 - Khi conflict precedents.json quá lớn, merge thủ công bằng Python
+
+## 🚨 BÀI HỌC NGHIÊM TRỌNG (15/10/2026 — gói 058-103, 25 file lô)
+
+### Bug 1: PATH LEAK trong 25/25 file lô (NGUY HIỂM PUBLIC)
+- **Triệu chứng**: field `note` chứa `/Users/ozvietnamdesktop/Projects/oz-wiki/data/customs/processed/tracuuhs-detail-2026-10-15-goi-NNN.json`
+- **Nguy cơ**: Lộ username + path máy Sếp + cấu trúc thư mục nội bộ khi merge public
+- **Phát hiện**: Sếp review PR → "25/25 file lô có leak path máy tính"
+- **Fix**: 
+  ```python
+  import re
+  fixed = re.sub(r"/Users/[^/\s]+(?:/[^/\s]+){1,10}/tracuuhs-detail-", "tracuuhs-detail-", note)
+  fixed = re.sub(r"/Users/[^/\s]+(?:/[^/\s]+){1,10}/tools/", "tools/", fixed)
+  ```
+- **Quy tắc**: KHÔNG BAO GIỜ ghi absolute path `/Users/...` vào field JSON. Chỉ ghi tên file + path tương đối.
+
+### Bug 2: MERGE TOOL MẤT 7 FIELD ĐẶC BIỆT (MẤT TOÀN BỘ CÔNG SỨC)
+- **Triệu chứng**: 0/4220 records có `nguyen_tac_phan_loai` trong `precedents.json` dù file lô có 1.000+ records có field này
+- **Root cause**: `scripts/merge-community.mjs` chỉ giữ `loaiTB` + `legacyHs` boolean, KHÔNG copy các field `nguyen_tac_phan_loai`, `nhom_hs`, `hs_code_goc`, `loai_hang_ma`, `hs_in_tax_2022`, `legacy_hs`, `bieuThue`
+- **Nguy cơ**: Toàn bộ công sức thu thập "nguyên tắc phân loại" (giá trị cốt lõi - xem rule 75 của `tb-tchq-extract`) bị MẤT khi merge → mất giá trị TB-TCHQ
+- **Fix**: thêm 7 field vào `merge-community.mjs`:
+  ```js
+  ...(rec.attributes?.nguyen_tac_phan_loai ? { nguyenTacPhanLoai: rec.attributes.nguyen_tac_phan_loai } : {}),
+  ...(rec.attributes?.nhom_hs ? { nhomHs: rec.attributes.nhom_hs } : {}),
+  ...(rec.attributes?.hs_code_goc ? { hsCodeGoc: rec.attributes.hs_code_goc } : {}),
+  ...(rec.attributes?.loai_hang_ma ? { loaiHangMa: rec.attributes.loai_hang_ma } : {}),
+  ...(rec.attributes?.hs_in_tax_2022 !== undefined ? { hsInTax2022: rec.attributes.hs_in_tax_2022 } : {}),
+  ...(rec.attributes?.legacy_hs !== undefined ? { legacyHs2022: rec.attributes.legacy_hs } : {}),
+  ...(rec.attributes?.bieuThue ? { bieuThueGoc: rec.attributes.bieuThue } : {}),
+  ```
+- **Test**: tạo file test với mã `99999999` → merge → check `precedents.json` có 7 field
+- **Bài học**: KHI THÊM FIELD MỚI VÀO SCHEMA → CHECK CẢ merge tool có copy không. Đừng chỉ thêm vào file lô.
+
+### Bug 3: DINH_CHINH reference sai + reason_vi None (15 records mất)
+- **Triệu chứng**: 4967/TB-TCHQ/2026 (TB DINH_CHINH) bị skip vì:
+  - `description=None` (regex `Kết quả xác định trước mã số:` chỉ lấy 1 dòng)
+  - `reason_vi=None` (regex non-greedy cắt cụt ở newline đầu)
+  - `reference` sai: `4967/TB-TCHQ` thay vì `23956/TB-CHQ` (TB mới thay thế)
+- **Phát hiện**: 0/25 file lô có `loaiTB=DINH_CHINH` dù 15/135 records trong file detail là DINH_CHINH
+- **Root cause**:
+  - File detail có `loai=DINH_CHINH` → tool đóng gói check `r.loaiTB === 'DINH_CHINH'` → fail
+  - Reason regex `(.+?)(?:Thông báo này|./.$|$)` chỉ lấy 1 dòng (newline)
+- **Fix thủ công**:
+  ```python
+  # 1. Set loaiTB
+  rec['loaiTB'] = rec.get('loai', 'DINH_CHINH')
+  # 2. Re-parse từ text cache
+  text = open(rec['text_cache']).read()
+  # 3. Lấy từ "Sửa đổi Thông báo..." đến "Việt Nam."
+  m = re.search(r"(Sửa\s*đổi\s+Thông\s*báo\s+kết\s*quả\s*xác\s*định.*?Việt\s*Nam\.?/?\.?)", text, re.IGNORECASE | re.DOTALL)
+  m2 = re.search(r"(thuộc\s+nhóm\s+\d+\.\d+.*?Việt\s*Nam\.?/?\.?)", m.group(1), re.IGNORECASE | re.DOTALL)
+  rec['reason_vi'] = m2.group(1).strip()
+  # 4. Đổi reference
+  rec['source']['reference'] = '23956/TB-CHQ'
+  ```
+- **Bài học**:
+  - DINH_CHINH text KHÔNG có "Kết quả xác định trước mã số:" → cần anchor riêng
+  - DINH_CHINH reference PHẢI là số hiệu TB mới (TB thay thế), không phải TB cũ
+  - confusedWith: phải có số hiệu TB cũ bị sửa
+
+### Lessons
+- **BEFORE PUSH**: scan tất cả field `note` trong mọi file lô → đảm bảo KHÔNG có absolute path
+- **BEFORE PUSH**: test merge với 1 file → grep field mới trong precedents.json
+- **BEFORE PUSH**: count records có loaiTB=DINH_CHINH khớp với file detail
+- **Workflow DINH_CHINH**: khi phát hiện TB thay thế → đổi reference NGAY, không giữ reference cũ
