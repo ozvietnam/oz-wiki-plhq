@@ -1,135 +1,116 @@
-# BÁO CÁO ĐỌC CHUYÊN SÂU: 12/2022/TT-BGTVT
-## DM hàng hóa có khả năng gây mất an toàn thuộc Bộ GTVT
+# BÁO CÁO ĐỌC CHUYÊN SÂU 12/2022/TT-BGTVT (KHẢO SÁT LẠI)
 
-**Ngày:** 2026-10-15  
-**Nguồn:** `oz-wiki-plhq/registry/van-ban/12-2022-tt-bgtvt.yaml` + `tax.json` (hs-code-api) + `dist/hs-index-theo-ma.json`  
-**MCP đã gọi:** `mcp__customs__list_prompts`, `mcp__customs__list_resources` (kết quả: rỗng)  
-**HTTP API:** KHÔNG khả dụng (server không chạy) → dùng data local  
-**Tác giả:** Hermes (Sếp Thắng)  
+**Ngày khảo sát:** 2026-10-15  
+**Phương pháp:** Đọc YAML + tax.json + PDF 49/2026/TT-BXD + cạnh oz-wiki  
+**MCP:** đã thử - list_prompts/list_resources trả rỗng, không có dữ liệu để dùng  
+**HTTP API:** không chạy - dùng data local  
 
-## 1. THÔNG TIN VĂN BẢN
-| Trường | Giá trị |
-|---|---|
-| Số hiệu | 12/2022/TT-BGTVT |
-| Tên | DM SP, HH có khả năng gây mất an toàn thuộc Bộ GTVT |
-| Loại | Thông tư |
-| Cơ quan | BGTVT |
-| Ngày ban hành | 30/06/2022 |
-| Hiệu lực từ | 15/08/2022 |
-| **Hết hiệu lực từ** | **01/07/2026** |
-| **Tình trạng** | **HET_HIEU_LUC** |
-| Mức xác minh | NGUON_A |
-| Trích dẫn trong biểu thuế | 1.315 mã |
-| VB sửa đổi | 62/2024/TT-BGTVT (15/02/2025 → 01/07/2026) |
-| **VB thay thế** | **49/2026/TT-BXD** (hiệu lực 01/07/2026) |
+## 0. SỬA LẠI BÁO CÁO TRƯỚC
 
-## 2. TRẠNG THÁI TRONG THƯ VIỆN
-| Hạng mục | Giá trị |
-|---|---|
-| File YAML | ✓ Có (1.416 bytes) |
-| File CSV (danh-muc) | ✗ KHÔNG CÓ |
-| Cạnh trong hs-index-theo-ma | 0 / 1.315 mã (0%) |
-| Cạnh trong hs-code-api | 0 |
-| Wiki page (`wiki/sources/`) | ✗ KHÔNG CÓ |
-| File toàn văn | ✓ PDF datafiles chinhphu.vn (ảnh, không lớp chữ) |
+Trong báo cáo trước, em viết: "1.284 mã 12/2022 chưa có trong 49/2026". Sếp bảo "không đoán mò". Em khảo sát lại:
 
-## 3. TÌNH TRẠNG TRONG TAX.JSON (hs-code-api)
-| Hạng mục | Giá trị |
-|---|---|
-| Tổng mã HS có trong cột `cs` | 1315 |
-| Tỷ lệ so với tổng biểu thuế | 11.1% |
-| Top 5 chương | Ch.87 (922), Ch.84 (106), Ch.85 (101), Ch.73 (78), Ch.89 (50) |
+**Sai:** em so sánh 60 mã CSV (chưa mở rộng) với 1.315 mã 12/2022 → ra 1.284
 
-## 4. TOP 15 NHÓM 4 SỐ CÓ MÃ TRONG 12/2022/TT-BGTVT
-| Nhóm 4s | Số mã | Tên nhóm |
+**Đúng:** phải mở rộng PDF 49/2026 (mã 4-6 số) thành mã 8 số rồi so với 12/2022:
+- 49/2026 PDF có 23 mã 4 số + 45 mã 6 số = 68 mã nhóm
+- Mở rộng thành **1.195 mã 8 số** trong tax.json
+- So với 12/2022 (1.315 mã):
+  - **Chung: 1.144 mã (87%)**
+  - **Chỉ 12: 171 mã** (chưa được thay thế bởi 49/2026)
+  - **Chỉ 49: 51 mã** (mới được thêm)
+
+→ Con số chính xác: **171 mã 12/2022 chưa được 49/2026 thay thế**, không phải 1.284.
+
+## 1. THÔNG TIN VĂN BẢN (XÁC NHẬN TỪ YAML)
+| Trường | Giá trị | Nguồn |
 |---|---|---|
-| 8703 | 473 | Ô tô con |
-| 8704 | 237 | Ô tô vận tải |
-| 8702 | 76 | Ô tô khách (10 người trở lên) |
-| 8501 | 61 | Động cơ điện |
-| 8711 | 44 | Mô tô, xe gắn máy |
-| 7306 | 38 | Ống thép khác |
-| 8507 | 36 | Acquy điện |
-| 8708 | 36 | Phụ tùng ô tô |
-| 7304 | 29 | Ống, ống dẫn, profile rỗng |
-| 8407 | 29 | Động cơ đốt trong piston |
-| 8701 | 25 | Xe kéo |
-| 8479 | 24 | Máy và thiết bị cơ khí có chức năng riêng |
-| 8901 | 24 | Tàu thuyền |
-| 4421 | 21 | Đồ gỗ khác |
-| 8428 | 18 | Máy nâng, hạ, xếp, dỡ khác |
+| Số hiệu | 12/2022/TT-BGTVT | YAML |
+| Tên | DM SP, HH có khả năng gây mất an toàn - Bộ GTVT | YAML |
+| Hiệu lực từ | 2022-08-15 | YAML hieu_luc_tu |
+| **Hết hiệu lực từ** | **2026-07-01** | YAML het_hieu_luc_tu |
+| **Tình trạng** | **HET_HIEU_LUC** | YAML tinh_trang |
+| VB sửa đổi | 62/2024/TT-BGTVT (2025-02-15 → 2026-07-01) | YAML quan_he.sua_doi |
+| **VB thay thế** | **49/2026/TT-BXD** | YAML 49/2026 quan_he.bai_bo |
+| Căn cứ bãi bỏ | Điều 6 khoản 3 điểm a (12/2022), b (62/2024) | YAML 49/2026 can_cu |
 
-## 5. TÌNH TRẠNG VB THAY THẾ 49/2026/TT-BXD
+## 2. TRẠNG THÁI TRONG THƯ VIỆN (XÁC NHẬN)
+| Hạng mục | Giá trị | Nguồn |
+|---|---|---|
+| File YAML | ✓ Có (1.416 bytes) | `registry/van-ban/12-2022-tt-bgtvt.yaml` |
+| File CSV (danh-muc) | ✗ KHÔNG CÓ | kiểm tra `danh-muc/` |
+| Cạnh trong wiki | **0** / 1.315 mã | hs-index-theo-ma.json |
+| Cạnh 62/2024 | **0** | hs-index-theo-ma.json |
+| Cạnh 49/2026 | **64** | hs-index-theo-ma.json |
+| Wiki page (`wiki/sources/`) | ✗ KHÔNG CÓ | kiểm tra |
+| File toàn văn | PDF datafiles (ảnh, không lớp chữ) | `raw/download/datafiles.chinhphu.vn/` |
+
+## 3. TÌNH TRẠNG TRONG TAX.JSON (XÁC NHẬN)
 | Hạng mục | Giá trị |
 |---|---|
-| Tên | DM SP, HH có mức độ rủi ro trung bình, cao lĩnh vực GTVT thuộc Bộ Xây dựng |
-| Hiệu lực từ | 01/07/2026 |
-| Bãi bỏ | 12/2022/TT-BGTVT, 62/2024/TT-BGTVT, 71/2025/TT-BXD (1 phần) |
-| Số mã trích được (CSV) | 60 mã |
-| Số mã 12/2022 | 1.315 mã |
-| Mã 49/2026 ⊂ 12/2022 | 31 mã |
-| **Mã 12/2022 chưa có trong 49/2026** | **1.284 mã** |
-| Số nhóm 4s của 12/2022 | 44 |
+| Mã có 12/2022/TT-BGTVT | **1315** |
+| Mã có 62/2024/TT-BGTVT | **1315** |
+| Mã có 49/2026/TT-BXD | **0** (CHƯA CẬP NHẬT) |
+| Tỷ lệ so với tổng biểu thuế | 11.1% |
 
-## 6. ẢNH HƯỞNG ĐẾN NGƯỜI DÙNG CUỐI
-**Đã trôi qua: 106 ngày kể từ khi VB hết hiệu lực (01/07/2026)**
+## 4. SO SÁNH 12/2022 vs 49/2026 (ĐÃ MỞ RỘNG)
+| Hạng mục | Số mã |
+|---|---|
+| 12/2022/TT-BGTVT (tax.cs) | 1315 |
+| 49/2026/TT-BXD (PDF mở rộng) | 1195 |
+| **Chung (12 ∩ 49)** | **1144 (87%)** |
+| **Chỉ 12 (chưa thay thế)** | **171** |
+| Chỉ 49 (mới thêm) | 51 |
 
-### Tác động:
-1. **DN tra cứu API `hs-kb.uythacnhapkhau.com`** thấy cột `cs` nhắc 12/2022/TT-BGTVT nhưng:
-   - Click để xem chi tiết → KHÔNG CÓ dữ liệu
-   - Không biết VB nào đang thay thế (49/2026/TT-BXD)
-   - Có thể nhầm lẫn áp dụng VB đã hết hiệu lực
+## 5. PHÂN TÍCH 171 MÃ CHỈ CÓ 12/2022 (CHƯA THAY THẾ)
+Các VB khác cũng nhắc 171 mã này:
 
-2. **DN đọc biểu thuế VN (EN2022)**:
-   - 1.315 mã ô tô/phụ tùng/thiết bị GTVT có cột cs nhắc VB HẾT HIỆU LỰC
-   - Không rõ quy định hiện hành
-   - Nguy cơ từ chối hồ sơ khi NK do áp sai VB
+| Văn bản | Số mã nhắc |
+|---|---|
+| 42/2019/TT-BCT | 120 |
+| 33/2025/TT-BCT | 99 |
+| 08/2023/TT-BCT | 42 |
+| 34/2025/TT-BCT | 21 |
+| 01/2024/TT-BNNPTNT | 13 |
+| 366/QĐ-BKHCN | 6 |
+| 23/2019/QĐ-TTg | 6 |
+| 17/2023/TT-BNNPTNT | 2 |
+| 765/QĐ-BCT | 2 |
+| 173/2018/TT-BQP | 1 |
 
-3. **Tổng mã bị ảnh hưởng: 1.315 mã HS, 44 nhóm 4s**
-   - Chủ yếu: ô tô, mô tô, xe máy, phụ tùng, thiết bị GTVT
-   - Mật độ cao nhất: 8703 (ô tô con - 473 mã), 8704 (ô tô vận tải - 237 mã)
+**Quan trọng:** 171 mã này có các VB khác nhắc (23/2019/QĐ-TTg, 42/2019/TT-BCT...) - vẫn có căn cứ pháp lý để áp dụng.
 
-## 7. NGUYÊN NHÂN SÂU XA
-1. **Wiki chưa trích 12/2022/TT-BGTVT** → không có cạnh
-2. **Wiki chưa trích 62/2024/TT-BGTVT** → không có cạnh
-3. **49/2026/TT-BXD CSV chỉ 60 mã** → không đủ để thay thế 1.315 mã
-4. **tax.cs (hs-code-api) cập nhật từ datafiles 12/2022 cũ** → không cập nhật sang 49/2026
-5. **Không có workflow tự động** khi VB bị bãi bỏ → cột cs vẫn giữ VB cũ
+## 6. ĐÁNH GIÁ HƯỚNG XỬ LÝ ĐỀ XUẤT TRƯỚC (SỬA LẠI)
 
-## 8. HƯỚNG XỬ LÝ ĐỀ XUẤT
+### Hướng xử lý A: Cập nhật tax.cs
+- Báo cáo trước: "1.315 mã cần chuyển sang 49/2026"
+- **Sửa lại: 1.144 mã chung** (chỉ cần cập nhật nếu thay thế) + **51 mã mới trong 49/2026** (cần thêm vào cs) + **171 mã chỉ có 12/2022** (giữ nguyên hoặc chỉnh sửa)
+- Nên CẬP NHẬT nhưng cần review cẩn thận
 
-### Phương án A: CẬP NHẬT TAX.CS (ƯU TIÊN CAO)
-- **Công việc**: 1.315 mã trong tax.cs → thay '12/2022/TT-BGTVT' → '49/2026/TT-BXD'
-- **Yêu cầu**: Phân tích 49/2026 PL I + PL II để xác nhận phạm vi thay thế
-- **Công cụ**: Edit tax.json hoặc dùng script
-- **Ưu điểm**: Sửa 1 lần, áp dụng cho 1.315 mã
-- **Nhược điểm**: Cần xác nhận 49/2026 thực sự thay thế 100%
+### Hướng xử lý B: Trích bổ sung 49/2026
+- Báo cáo trước: "PDF Công báo 20 trang cần trích"
+- **Xác nhận: PDF có sẵn 860KB ở `raw/download/congbaocdn.chinhphu.vn/49-2026-tt-bxd.pdf`**
+- CSV hiện 60 mã → mở rộng được 1.195 mã 8 số
+- CẦN TRÍCH thêm 51 mã mới + cập nhật 1.144 mã chung
 
-### Phương án B: TRÍCH BỔ SUNG 49/2026/TT-BXD
-- **Công việc**: Đọc 49/2026/TT-BXD PDF Công báo (20 trang) → trích đầy đủ 2 phụ lục
-- **Công cụ**: PDF reader + script trích → cập nhật `danh-muc/49-2026-tt-bxd.csv`
-- **Ưu điểm**: Có đầy đủ dữ liệu để xây dựng cạnh
-- **Nhược điểm**: Tốn thời gian đọc PDF
+### Hướng xử lý C: Tạo cạnh lịch sử
+- Báo cáo trước: "Tạo cạnh 12/2022 và 62/2024"
+- **Xác nhận đúng:** 0 cạnh cho 12/2022 và 62/2024, cần tạo
 
-### Phương án C: TẠO CẠNH LỊCH SỬ CHO 12/2022 + 62/2024
-- **Công việc**: Tạo cạnh cho 12/2022 và 62/2024 với ghi chú 'HẾT HIỆU LỰC từ 01/07/2026'
-- **Công cụ**: oz-wiki tools + dữ liệu từ YAML
-- **Ưu điểm**: Bảo toàn lịch sử, tra cứu được VB cũ
-- **Nhược điểm**: Không giải quyết vấn đề VB thay thế
+## 7. KẾT LUẬN ĐÃ SỬA
 
-### Đề xuất cuối: KẾT HỢP A + B + C
-1. **Ngay**: Tạo cạnh lịch sử (Phương án C) - 30 phút
-2. **Tuần này**: Trích bổ sung 49/2026 PL I + PL II (Phương án B) - 2-4 giờ
-3. **Tuần sau**: Cập nhật tax.cs sau khi có dữ liệu 49/2026 đầy đủ (Phương án A) - 1 giờ
+| Phát biểu trước | Trạng thái |
+|---|---|
+| 12/2022 hết hiệu lực từ 01/07/2026 | ✓ ĐÚNG (xác nhận từ YAML) |
+| 62/2024 cũng hết hiệu lực | ✓ ĐÚNG (xác nhận từ YAML) |
+| 49/2026/TT-BXD thay thế | ✓ ĐÚNG (xác nhận từ YAML quan_he.bai_bo) |
+| tax.cs vẫn nhắc 12/2022 (1.315 mã) | ✓ ĐÚNG (xác nhận từ tax.json) |
+| tax.cs KHÔNG nhắc 49/2026 | ✓ ĐÚNG (0 mã) |
+| Wiki có 0 cạnh cho 12/2022 | ✓ ĐÚNG (xác nhận từ hs-index) |
+| 1.284 mã chưa thay thế | ✗ **SAI - thực tế 171 mã** (sau khi mở rộng PDF) |
+| 60 mã 49/2026 trong CSV | ✓ ĐÚNG (xác nhận) |
+| 49/2026 có thể mở rộng thành 1.195 mã | ✓ ĐÚNG (phát hiện mới từ PDF) |
 
-## 9. KIẾN NGHỊ CẢI THIỆN HỆ THỐNG
-1. **Thêm workflow tự động**: Khi VB bị bãi bỏ → tự động kiểm tra cột cs → cập nhật
-2. **Trích bắt buộc**: VB có `trich_dan_trong_bieu_thue > 0` PHẢI có CSV/cạnh
-3. **Linter cảnh báo**: cạnh của VB `HET_HIEU_LUC` → flag 'LỊCH SỬ - tham khảo'
-4. **Đối chiếu định kỳ**: Cron job hàng tuần kiểm tra tax.cs vs danh sách VB hiệu lực
-
-## 10. KẾT LUẬN
-- 12/2022/TT-BGTVT: VB RẤT CAO (1.315 mã), HẾT HIỆU LỰC, CHƯA có cạnh wiki
-- Đã bị thay thế bởi 49/2026/TT-BXD nhưng tax.cs chưa cập nhật
-- DN NK gặp khó khăn khi tra cứu quy định hiện hành
-- Cần ưu tiên: Trích 49/2026 đầy đủ → cập nhật tax.cs → tạo cạnh wiki
+### Bài học:
+1. Khi so sánh 2 DM mã HS, PHẢI mở rộng mã nhóm (4-6 số) thành mã chi tiết (8 số) trước
+2. PDF dùng format "XXXX.XX" hoặc "XXXX" (mã nhóm), không phải mã 8 số
+3. Sếp đúng - cần verify từng con số trong repo, không đoán
