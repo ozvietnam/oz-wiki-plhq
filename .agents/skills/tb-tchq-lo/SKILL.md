@@ -405,3 +405,64 @@ r['source'] = {'reference': r['so_hieu'].split('/')[0] + '/' + r['so_hieu'].spli
 ### Script file path quan trọng
 - Lưu script ở `~/.hermes/cache/scratch/` thay vì `/tmp/` — `/tmp/` có thể bị sandbox reset
 - Cache text: `/tmp/tb-text-cache-goi-NNN/` chấp nhận được vì có thể crawl lại từ URL
+
+
+## Bài học về xử lý conflict khi nhiều agent cùng base (2026-10-15)
+
+### Vấn đề
+- Branch em base từ commit cũ 2258a4f
+- Main đã merge 4 PR khác (PR #288-292) - thêm 339 records vào precedents.json
+- Rebase tạo 148K+ conflict markers trong precedents.json
+- `git pull --rebase` fail do commit quá xa
+
+### Giải pháp tốt nhất: TẠO BRANCH MỚI từ main
+```bash
+# 1. Tạo branch mới base từ main (không phải branch cũ)
+git checkout -b tracuuhs/v2-NAME origin/main
+
+# 2. Cherry-pick 6 commit của em
+git cherry-pick <commit1> <commit2> ...
+
+# 3. Hoặc đơn giản: copy file từ branch cũ, stage, commit
+git show OLD_BRANCH:path/to/file > path/to/file
+git add . && git commit -m "..."
+```
+
+### Nếu cần merge thủ công precedents.json
+```python
+import json, urllib.request
+# Main
+main = json.loads(urllib.request.urlopen("https://raw.githubusercontent.com/.../main/data/precedents.json").read())
+# Branch em
+em = json.loads(open("data/precedents.json").read())
+
+# Format: mỗi mã = list of records
+# Merge: union keys, dedup theo (tbTchqNumber, year, productName[:50])
+merged = {}
+all_keys = set(main.keys()) | set(em.keys())
+for k in all_keys:
+    recs = (main.get(k) or []) + (em.get(k) or [])
+    seen = set()
+    result = []
+    for r in recs:
+        if not isinstance(r, dict):
+            continue
+        sh = r.get('so_hieu') or r.get('reference') or r.get('tbTchqNumber') or ''
+        yr = r.get('year') or r.get('issuedDate') or ''
+        tn = (r.get('ten_hang') or r.get('productName') or '')[:50]
+        k_uniq = f"{sh}|{yr}|{tn}"
+        if k_uniq not in seen:
+            seen.add(k_uniq)
+            result.append(r)
+    merged[k] = result
+```
+
+### Bug fix: format field name
+- Main: `tbTchqNumber`, `productName`, `year`, `issuedDate`
+- Em: `so_hieu`, `ten_hang`, `mo_ta`, `reasonVi`
+- Phải fallback: `r.get('ten_hang') or r.get('productName') or ''`
+
+### Lessons
+- **KHÔNG** rebase khi branch quá xa main (>5 commit) - tạo branch mới
+- **KHÔNG** để file của agent khác bị conflict với file em tạo (cùng tên)
+- Khi conflict precedents.json quá lớn, merge thủ công bằng Python
