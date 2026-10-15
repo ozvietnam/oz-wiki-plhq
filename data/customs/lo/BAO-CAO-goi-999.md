@@ -1,7 +1,7 @@
 # Báo cáo đóng gói lô TB-TCHQ → hs-code-api
 
-- Vào: `data/customs/processed/tracuuhs-detail-2026-10-15-goi-999.json` — 16 bản ghi
-- Ra: `data/customs/lo/tracuuhs-2026-10-15-goi-999.json` — **16 bản ghi đạt** (trùng trong lô bỏ: 0)
+- Vào: `data/customs/processed/tracuuhs-detail-2026-10-15-goi-999.json` — 17 bản ghi
+- Ra: `data/customs/lo/tracuuhs-2026-10-15-goi-999.json` — **17 bản ghi đạt** (trùng trong lô bỏ: 0)
 - Cần xử tay: **0**
 
 ## Vào lô
@@ -21,6 +21,7 @@
 - 1328/TB-TCHQ (2018-03-14) → 34021190 — Chất rửa bản in - WA-82 (20kg/thùng) dùng trong đúc bản in mềm. Hàng m…
 - 3865/TB-TCHQ (2019-06-12) → 48119099 — (theo Phụ lục đính kèm) - (theo Phụ lục đính kèm)…
 - 3267/TB-TCHQ (2018-06-11) → 51111990 — Vải dệt thoi từ sợi len lông cừu chải thô, mã hàng HWA100MG #4463, thà…
+- 4138/TB-TCHQ (2015-05-07) → 38244000 — Sitau F1 (Aluminum Hydroxide powder) - Phụ gia dùng cho bê tông, thành…
 
 
 ## Cần xử tay (agent đọc toàn văn chỉnh rồi bổ sung vào lô sau)
