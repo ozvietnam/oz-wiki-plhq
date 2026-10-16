@@ -5,7 +5,7 @@ ten: Quy định về kiểm tra, giám sát và quản lý hải quan đối v�
 co_quan: BTC
 ngay_ban_hanh: '2026-08-27'
 hieu_luc_tu: '2026-10-15'
-tinh_trang: CHUA_CO_HIEU_LUC
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - hai-quan/kiem-tra-giam-sat
 nguon:
@@ -15,9 +15,9 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Công báo số 510 ngày 15-09-2026: Điều 13 khoản 1 hiệu lực 15-10-2026; khoản 2 chỉ áp dụng cho cặp cửa khẩu thông minh được đưa vào vận hành.'
+  pham_vi: 'Công báo số 510 ngày 15-09-2026: Điều 13 khoản 1 hiệu lực 15-10-2026; khoản 2 chỉ áp dụng cho cặp cửa khẩu thông minh được đưa vào vận hành; 16-10-2026 đã qua ngày hiệu lực, không thấy văn bản hoãn/sửa trên nguồn → chuyển CON_HIEU_LUC'
   hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
+  ngay: '2026-10-16'
   boi: claude-code@ozvietnam
 ghi_chu: 'Trang tổng hợp Meta AI ghi sai ngày ban hành (18-08) và hiệu lực (01-10). Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.'
 toan_van: raw/download/congbaocdn.chinhphu.vn/128-2026-tt-btc.pdf
