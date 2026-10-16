@@ -5,7 +5,7 @@ ten: Quy định thực hiện thủ tục hành chính đối với hàng hóa 
 co_quan: CP
 ngay_ban_hanh: '2026-08-22'
 hieu_luc_tu: '2026-10-15'
-tinh_trang: CHUA_CO_HIEU_LUC
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - hai-quan/mot-cua
 quan_he:
@@ -19,9 +19,9 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, trích yếu, ngày ban hành 22-08-2026 và ngày có hiệu lực 15-10-2026 trên vanban.chinhphu.vn
+  pham_vi: số hiệu, trích yếu, ngày ban hành 22-08-2026 và ngày có hiệu lực 15-10-2026 trên vanban.chinhphu.vn; 16-10-2026 đã qua ngày hiệu lực, không thấy văn bản hoãn/sửa trên nguồn → chuyển CON_HIEU_LUC
   hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
+  ngay: '2026-10-16'
   boi: cursor-agent@ozvietnam
-ghi_chu: Thẻ cổng Chính phủ khớp ngày và người ký Nguyễn Văn Thắng. PDF đính kèm là bản ký số. Quan hệ thay thế 85/2019/NĐ-CP giữ từ sổ cũ; điều khoản chưa đọc trên nguồn A nên chưa đặt hieu_luc_da_doi_chieu. Còn CHUA_CO_HIEU_LUC tới 15-10-2026.
+ghi_chu: Thẻ cổng Chính phủ khớp ngày và người ký Nguyễn Văn Thắng. PDF đính kèm là bản ký số. Quan hệ thay thế 85/2019/NĐ-CP giữ từ sổ cũ; điều khoản chưa đọc trên nguồn A nên chưa đặt hieu_luc_da_doi_chieu. Đã có hiệu lực từ 15-10-2026 (kiểm lại 16-10-2026); điều khoản chưa đọc trên nguồn A nên hieu_luc_da_doi_chieu vẫn false.
 toan_van: raw/download/datafiles.chinhphu.vn/336-2026-nd-cp.pdf
