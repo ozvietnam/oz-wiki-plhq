@@ -34,7 +34,7 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 5 văn bản, 5 chưa hết hiệu lực.
 
-- 🔵 [128/2026/TT-BTC](../registry/van-ban/128-2026-tt-btc.yaml) — Quy định về kiểm tra, giám sát và quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh và phương tiện vận tải hoạt động trong khu vực cửa khẩu thông minh
+- 🟢 [128/2026/TT-BTC](../registry/van-ban/128-2026-tt-btc.yaml) — Quy định về kiểm tra, giám sát và quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh và phương tiện vận tải hoạt động trong khu vực cửa khẩu thông minh
 - 🟢 [06/2026/TT-BTC](../registry/van-ban/06-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 13/2015/TT-BTC quy định về kiểm tra, giám sát, tạm dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo vệ quyền sở hữu trí tuệ
 - 🟢 [38/2015/TT-BTC](../registry/van-ban/38-2015-tt-btc.yaml) — Quy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hoá xuất khẩu, nhập khẩu
 - ❔ [13/2015/TT-BTC](../registry/van-ban/13-2015-tt-btc.yaml) — Quy định về kiểm tra, giám sát, tạm dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo vệ quyền sở hữu trí tuệ; kiểm soát hàng giả và hàng hóa xâm phạm quyền sở hữu trí tuệ
@@ -55,10 +55,10 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Cơ chế một cửa quốc gia, một cửa ASEAN `hai-quan/mot-cua`
 
-2 văn bản, 2 chưa hết hiệu lực.
+2 văn bản, 1 chưa hết hiệu lực.
 
-- 🔵 [336/2026/NĐ-CP](../registry/van-ban/336-2026-nd-cp.yaml) — Quy định thực hiện thủ tục hành chính đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh; phương tiện vận tải xuất cảnh, nhập cảnh, quá cảnh theo cơ chế một cửa quốc gia, cơ chế một cửa ASEAN
-- 🟢 [85/2019/NĐ-CP](../registry/van-ban/85-2019-nd-cp.yaml) — Quy định thực hiện thủ tục hành chính theo cơ chế một cửa quốc gia, cơ chế một cửa ASEAN và kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu
+- 🟢 [336/2026/NĐ-CP](../registry/van-ban/336-2026-nd-cp.yaml) — Quy định thực hiện thủ tục hành chính đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh; phương tiện vận tải xuất cảnh, nhập cảnh, quá cảnh theo cơ chế một cửa quốc gia, cơ chế một cửa ASEAN
+- ⚫ [85/2019/NĐ-CP](../registry/van-ban/85-2019-nd-cp.yaml) — Quy định thực hiện thủ tục hành chính theo cơ chế một cửa quốc gia, cơ chế một cửa ASEAN và kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu _(hết hiệu lực 2026-10-15)_
 
 ### Sổ tay, quy trình, hướng dẫn nghiệp vụ của cơ quan hải quan `hai-quan/so-tay-nghiep-vu`
 

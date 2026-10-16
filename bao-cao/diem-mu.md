@@ -1,13 +1,12 @@
 # Báo cáo điểm mù — 2026-10-16
 
-Tổng 4630 điểm: **13 cao**, 320 vừa, 4297 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 4626 điểm: **11 cao**, 318 vừa, 4297 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
 | Nhóm | Mức | Số điểm | Luồng việc |
 |---|---|---|---|
 | Được nhắc nhưng chưa có trong sổ | Cao | 3 | `he-thong-hoa` |
-| Mâu thuẫn hiệu lực | Cao | 2 | `hieu-luc` |
 | Cảnh báo nguồn | Cao | 1 | `truy-vet-nguon` |
 | Chưa có nguồn chính thống | Vừa | 2033 | `truy-vet-nguon` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 128 | `danh-muc-hs` |
@@ -17,7 +16,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Thư viện hs-code-api ghi khác sổ | Vừa | 14 | `hieu-luc` |
 | Văn bản khung thiếu thông tin | Vừa | 10 | `he-thong-hoa` |
 | Bảng dẫn chiếu mã HS sang văn bản chưa có bảng | Vừa | 7 | `danh-muc-hs` |
-| Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
+| Sắp có hiệu lực (≤60 ngày) | Vừa | 1 | `doc-hieu` |
 | Hiệu lực chưa đối chiếu nguồn A | Thấp | 2170 | `hieu-luc` |
 | Chưa có toàn văn | Thấp | 75 | `nap-lam-sach` |
 | Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay | Thấp | 13 | `hieu-luc` |
@@ -30,11 +29,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Chưa có trong sổ: 65/2017/TT-BTC** — Tạo registry/van-ban/ cho 65/2017/TT-BTC (được nhắc bởi 31/2022/TT-BTC (thay_the)). Dùng: node tools/them-van-ban.mjs "65/2017/TT-BTC"
 - [ ] **Chưa có trong sổ: 09/2019/TT-BTC** — Tạo registry/van-ban/ cho 09/2019/TT-BTC (được nhắc bởi 31/2022/TT-BTC (thay_the)). Dùng: node tools/them-van-ban.mjs "09/2019/TT-BTC"
 - [ ] **Chưa có trong sổ: 96/2023/NĐ-CP** — Tạo registry/van-ban/ cho 96/2023/NĐ-CP (được nhắc bởi 98/2021/NĐ-CP (sua_doi)). Dùng: node tools/them-van-ban.mjs "96/2023/NĐ-CP"
-
-## Mâu thuẫn hiệu lực (2)
-
-- [ ] **128/2026/TT-BTC ghi "chưa có hiệu lực" nhưng ngày hiệu lực 2026-10-15 đã qua** — Chuyển tinh_trang sang CON_HIEU_LUC sau khi đối chiếu.
-- [ ] **336/2026/NĐ-CP ghi "chưa có hiệu lực" nhưng ngày hiệu lực 2026-10-15 đã qua** — Chuyển tinh_trang sang CON_HIEU_LUC sau khi đối chiếu.
 
 ## Cảnh báo nguồn (1)
 
@@ -269,11 +263,9 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **16/2024/TT-BYT dẫn mã HS sang 8 — chưa có trong sổ** — danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 8. Thêm 8 vào sổ rồi trích bảng để mã HS của các dòng này tra được.
 - [ ] **22/2018/TT-BTTTT dẫn mã HS sang trừ đơn sắc (đen trắng) — chưa có trong sổ** — danh-muc/22-2018-tt-btttt.csv có dòng không ghi mã mà dẫn chiếu trừ đơn sắc (đen trắng). Thêm trừ đơn sắc (đen trắng) vào sổ rồi trích bảng để mã HS của các dòng này tra được.
 
-## Sắp có hiệu lực (≤60 ngày) (3)
+## Sắp có hiệu lực (≤60 ngày) (1)
 
-- [ ] **128/2026/TT-BTC có hiệu lực ngày 2026-10-15** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 - [ ] **142/2026/TT-BTC có hiệu lực ngày 2026-11-16** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
-- [ ] **336/2026/NĐ-CP có hiệu lực ngày 2026-10-15** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 
 ## Hiệu lực chưa đối chiếu nguồn A (2170)
 

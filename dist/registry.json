@@ -9871,7 +9871,7 @@
       "co_quan": "BTC",
       "ngay_ban_hanh": "2026-08-27",
       "hieu_luc_tu": "2026-10-15",
-      "tinh_trang": "CHUA_CO_HIEU_LUC",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "hai-quan/kiem-tra-giam-sat"
       ],
@@ -9887,9 +9887,9 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Công báo số 510 ngày 15-09-2026: Điều 13 khoản 1 hiệu lực 15-10-2026; khoản 2 chỉ áp dụng cho cặp cửa khẩu thông minh được đưa vào vận hành.",
+        "pham_vi": "Công báo số 510 ngày 15-09-2026: Điều 13 khoản 1 hiệu lực 15-10-2026; khoản 2 chỉ áp dụng cho cặp cửa khẩu thông minh được đưa vào vận hành; 16-10-2026 đã qua ngày hiệu lực, không thấy văn bản hoãn/sửa trên nguồn → chuyển CON_HIEU_LUC",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
+        "ngay": "2026-10-16",
         "boi": "claude-code@ozvietnam"
       },
       "ghi_chu": "Trang tổng hợp Meta AI ghi sai ngày ban hành (18-08) và hiệu lực (01-10). Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.",
@@ -42688,7 +42688,7 @@
       "co_quan": "CP",
       "ngay_ban_hanh": "2026-08-22",
       "hieu_luc_tu": "2026-10-15",
-      "tinh_trang": "CHUA_CO_HIEU_LUC",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "hai-quan/mot-cua"
       ],
@@ -42712,12 +42712,12 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, trích yếu, ngày ban hành 22-08-2026 và ngày có hiệu lực 15-10-2026 trên vanban.chinhphu.vn",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành 22-08-2026 và ngày có hiệu lực 15-10-2026 trên vanban.chinhphu.vn; 16-10-2026 đã qua ngày hiệu lực, không thấy văn bản hoãn/sửa trên nguồn → chuyển CON_HIEU_LUC",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
+        "ngay": "2026-10-16",
         "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Thẻ cổng Chính phủ khớp ngày và người ký Nguyễn Văn Thắng. PDF đính kèm là bản ký số. Quan hệ thay thế 85/2019/NĐ-CP giữ từ sổ cũ; điều khoản chưa đọc trên nguồn A nên chưa đặt hieu_luc_da_doi_chieu. Còn CHUA_CO_HIEU_LUC tới 15-10-2026.",
+      "ghi_chu": "Thẻ cổng Chính phủ khớp ngày và người ký Nguyễn Văn Thắng. PDF đính kèm là bản ký số. Quan hệ thay thế 85/2019/NĐ-CP giữ từ sổ cũ; điều khoản chưa đọc trên nguồn A nên chưa đặt hieu_luc_da_doi_chieu. Đã có hiệu lực từ 15-10-2026 (kiểm lại 16-10-2026); điều khoản chưa đọc trên nguồn A nên hieu_luc_da_doi_chieu vẫn false.",
       "toan_van": "raw/download/datafiles.chinhphu.vn/336-2026-nd-cp.pdf",
       "slug": "336-2026-nd-cp",
       "bac_nguon_cao_nhat": "A",
@@ -76178,7 +76178,8 @@
       "co_quan": "CP",
       "ngay_ban_hanh": "2019-11-14",
       "hieu_luc_tu": "2020-01-01",
-      "tinh_trang": "CON_HIEU_LUC",
+      "het_hieu_luc_tu": "2026-10-15",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "hai-quan/mot-cua"
       ],
@@ -76199,7 +76200,7 @@
         "ngay": "2026-10-04",
         "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Thẻ không ghi văn bản thay thế. Mốc hết hiệu lực 15-10-2026 khớp ngày có hiệu lực trên thẻ 336/2026/NĐ-CP; điều khoản thay thế chưa mở trong PDF ký số. Điều 83 khoản 4 NĐ 37/2026 dẫn Điều 17 vẫn theo bài tổng hợp.",
+      "ghi_chu": "Hết hiệu lực từ 15-10-2026 do bị NĐ 336/2026 thay thế (quan hệ thay thế ghi ở sổ 336/2026/NĐ-CP); điều khoản thay thế chưa mở trong PDF ký số nên hieu_luc_da_doi_chieu giữ false. Điều 83 khoản 4 NĐ 37/2026 dẫn Điều 17 vẫn theo bài tổng hợp.",
       "toan_van": "raw/download/datafiles.chinhphu.vn/85-2019-nd-cp.pdf",
       "slug": "85-2019-nd-cp",
       "bac_nguon_cao_nhat": "A",
