@@ -1,8 +1,8 @@
 {
  "_comment": "Chụp từ hs-code-api GET /api/demand bằng node tools/nhu-cau.mjs — KHÔNG sửa tay. tools/diem-mu.mjs đọc tệp này.",
  "nguon": "https://hs-kb.uythacnhapkhau.com/api/demand",
- "ngay": "2026-10-12",
- "tuNgay": "2026-07-14",
+ "ngay": "2026-10-19",
+ "tuNgay": "2026-07-21",
  "maHs": [
   {
    "hs": "90049010",
@@ -23,6 +23,18 @@
     "62/2024/TT-BGTVT"
    ],
    "gapGanNhat": "2026-10-05"
+  },
+  {
+   "hs": "39241010",
+   "uuTien": "Thấp",
+   "mucChinhSach": "BLOCKING",
+   "vanBanDangDan": [
+    "15/2024/TT-BYT",
+    "08/2023/TT-BCT",
+    "34/2025/TT-BCT",
+    "42/2019/TT-BCT"
+   ],
+   "gapGanNhat": "2026-10-12"
   },
   {
    "hs": "39269099",
@@ -54,11 +66,42 @@
    "gapGanNhat": "2026-10-05"
   },
   {
+   "hs": "84123100",
+   "uuTien": "Thấp",
+   "mucChinhSach": "NONE",
+   "vanBanDangDan": [],
+   "gapGanNhat": "2026-10-12"
+  },
+  {
+   "hs": "84561190",
+   "uuTien": "Thấp",
+   "mucChinhSach": "NONE",
+   "vanBanDangDan": [],
+   "gapGanNhat": "2026-10-12"
+  },
+  {
    "hs": "84626191",
    "uuTien": "Thấp",
    "mucChinhSach": "NONE",
    "vanBanDangDan": [],
    "gapGanNhat": "2026-10-05"
+  },
+  {
+   "hs": "85158090",
+   "uuTien": "Thấp",
+   "mucChinhSach": "NONE",
+   "vanBanDangDan": [],
+   "gapGanNhat": "2026-10-12"
+  },
+  {
+   "hs": "85369099",
+   "uuTien": "Thấp",
+   "mucChinhSach": "INFO",
+   "vanBanDangDan": [
+    "34/2025/TT-BCT",
+    "42/2019/TT-BCT"
+   ],
+   "gapGanNhat": "2026-10-12"
   },
   {
    "hs": "87082916",
@@ -80,6 +123,28 @@
    "mucChinhSach": "NONE",
    "vanBanDangDan": [],
    "gapGanNhat": "2026-10-05"
+  },
+  {
+   "hs": "94054110",
+   "uuTien": "Thấp",
+   "mucChinhSach": "BLOCKING",
+   "vanBanDangDan": [
+    "08/2023/TT-BCT",
+    "1182/QĐ-BCT-PL1",
+    "2711/QĐ-BKHCN"
+   ],
+   "gapGanNhat": "2026-10-12"
+  },
+  {
+   "hs": "94054140",
+   "uuTien": "Thấp",
+   "mucChinhSach": "BLOCKING",
+   "vanBanDangDan": [
+    "08/2023/TT-BCT",
+    "1182/QĐ-BCT-PL1",
+    "2711/QĐ-BKHCN"
+   ],
+   "gapGanNhat": "2026-10-12"
   }
  ]
 }
