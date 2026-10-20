@@ -1,8 +1,8 @@
 {
-  "phien_ban": "2026-10-19",
+  "phien_ban": "2026-10-20",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2280,
+  "tong": 2289,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -816,6 +816,49 @@
             "pham_vi": "Điều 8 (lộ trình kiểm định)",
             "tu_ngay": "2026-07-01",
             "can_cu": "Điều 3 TT 24/2026/TT-BYT"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "06/2007/QH12",
+      "loai": "LUAT",
+      "ten": "Luật Hóa chất",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2007-11-21",
+      "hieu_luc_tu": "2008-07-01",
+      "het_hieu_luc_tu": "2026-01-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=51260",
+          "truy_cap": "2026-10-20"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, ngày ban hành 21-11-2007 trên thẻ vanban.chinhphu.vn; hiệu lực 01-07-2008 theo thông tin ban hành; hết hiệu lực 01-01-2026 do bị Luật Hóa chất 69/2025/QH15 thay thế (thẻ docid=214610 ghi ngày có hiệu lực 01-01-2026)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-20",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Hết hiệu lực từ 01-01-2026 khi Luật Hóa chất 69/2025/QH15 có hiệu lực; điều khoản chuyển tiếp của Luật mới chưa đọc nên hieu_luc_da_doi_chieu giữ false. Đây là gốc chuỗi hóa chất — NĐ 113/2017 và 82/2022 hết hiệu lực 17-01-2026 theo NĐ 26/2026/NĐ-CP (đã có trong sổ).",
+      "tu_khoa": [
+        "hoa-chat",
+        "tien-chat"
+      ],
+      "slug": "06-2007-qh12",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "69/2025/QH15",
+            "quan_he": "thay_the",
+            "so_hieu": "06/2007/QH12",
+            "tu_ngay": "2026-01-01"
           }
         ]
       }
@@ -13061,6 +13104,13 @@
       "slug": "15-2018-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "155/2018/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "15/2018/NĐ-CP"
+          }
+        ],
         "duoc_huong_dan_boi": [
           {
             "tu": "22/2026/TT-BNNMT",
@@ -13644,6 +13694,55 @@
       "toan_van": "chua_co",
       "slug": "1548-tb-tchq-2024",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "155/2018/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung một số quy định liên quan đến điều kiện đầu tư kinh doanh thuộc phạm vi quản lý nhà nước của Bộ Y tế",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2018-11-12",
+      "hieu_luc_tu": "2019-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/an-toan-thuc-pham"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "15/2018/NĐ-CP"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=195324",
+          "truy_cap": "2026-10-20"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-155-2018-nd-cp-27636.htm",
+          "truy_cap": "2026-10-20"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/11/155.signed.pdf",
+          "truy_cap": "2026-10-20"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=195324): ban hành 12-11-2018; hiệu lực 01-01-2019 theo thẻ Công báo 27636",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-20",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Sửa nhiều nghị định lĩnh vực BYT, trong đó có NĐ 15/2018/NĐ-CP (điều kiện ATTP, miễn công bố, GCN cơ sở đủ điều kiện ATTP). Bị sửa tiếp bởi NĐ 129/2024/NĐ-CP (chưa có trong sổ — điểm mù). Lưu ý NĐ 46/2026/NĐ-CP (thay thế 15/2018) đang bị tạm ngưng theo NQ 09/2026 và 15/2026/NQ-CP → 15/2018 (đã sửa bởi 155/2018) VẪN áp dụng.",
+      "tu_khoa": [
+        "attp",
+        "kiem-tra-attp"
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/155-2018-nd-cp.pdf",
+      "slug": "155-2018-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -32937,6 +33036,62 @@
       }
     },
     {
+      "so_hieu": "28/2026/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định các danh mục chất ma túy và tiền chất",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2026-01-19",
+      "hieu_luc_tu": "2026-01-19",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "57/2022/NĐ-CP",
+            "tu_ngay": "2026-01-19",
+            "can_cu": "Điều 3 khoản 2 NĐ 28/2026/NĐ-CP (OCR PDF ký số)"
+          },
+          {
+            "so_hieu": "90/2024/NĐ-CP",
+            "tu_ngay": "2026-01-19",
+            "can_cu": "Điều 3 khoản 2 NĐ 28/2026/NĐ-CP (OCR PDF ký số)"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=216717",
+          "truy_cap": "2026-10-20"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-28-2026-nd-cp-468827.htm",
+          "truy_cap": "2026-10-20"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/28-cp.signed.pdf",
+          "truy_cap": "2026-10-20"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=216717): ban hành 19-01-2026, hiệu lực 19-01-2026; nguyên văn Điều 3 khoản 1-2 (hiệu lực + bãi bỏ NĐ 57/2022 và 90/2024) đối chiếu bằng OCR PDF ký số — kèm raw/download/datafiles.chinhphu.vn/28-2026-nd-cp-dieu3-ocr.txt",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-20",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Danh mục tiền chất mới chia IV.A/IV.B/IV.C (79 tiền chất). Điều 3 khoản 3-4 có lộ trình riêng cho Carisoprodol, Etomidate (từ 01-06-2026) và 1,4-Butanediol (trước 31-12-2026) — đọc nguyên văn khi trả lời ca cụ thể.",
+      "tu_khoa": [
+        "ma-tuy",
+        "tien-chat"
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/28-2026-nd-cp.pdf",
+      "slug": "28-2026-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "28/2026/TT-BCT",
       "loai": "THONG_TU",
       "ten": "Ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã số HS) thực hiện kiểm tra nhà nước về an toàn thực phẩm thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -42721,6 +42876,39 @@
       "toan_van": "raw/download/datafiles.chinhphu.vn/336-2026-nd-cp.pdf",
       "slug": "336-2026-nd-cp",
       "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "3366/CHQ-GSQL",
+      "loai": "CONG_VAN",
+      "ten": "Chính sách quản lý đối với hàng hóa xuất khẩu, nhập khẩu chứa tiền chất công nghiệp",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2025-04-25",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct"
+      ],
+      "nguon": [
+        {
+          "url": "https://hethongphapluat.com/cong-van-3366-chq-gsql-nam-2025-ve-chinh-sach-quan-ly-doi-voi-hang-hoa-xuat-khau-nhap-khau-chua-tien-chat-cong-nghiep-do-cuc-hai-quan-ban-hanh.html",
+          "truy_cap": "2026-10-20"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "số hiệu, ngày 25-04-2025, trích yếu qua re-publish Hệ thống Pháp luật / vbpl.ts24 — CHƯA tìm được bản gốc trên customs.gov.vn",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-20",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Công văn Cục Hải quan (GSQL) — tham khảo. Cùng chuỗi có CV 1546/CHQ-GSQL (10-04-2025) và CV 22574/CHQ-GSQL (05-09-2025, bổ sung hướng dẫn) — chưa nạp. Nâng nguồn khi tìm bản gốc customs.gov.vn.",
+      "tu_khoa": [
+        "tien-chat",
+        "hoa-chat",
+        "hai-quan"
+      ],
+      "slug": "3366-chq-gsql-2025",
+      "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
     },
     {
@@ -58427,6 +58615,39 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "5133/BCT-HC",
+      "loai": "CONG_VAN",
+      "ten": "Ý kiến đối với việc xuất nhập khẩu sản phẩm, hàng hóa có chứa tiền chất công nghiệp",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2025-07-10",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/cong-nghiep/cong-van-5133-bct-hc-cua-bo-cong-thuong-ve-y-kien-doi-voi-viec-xuat-nhap-khau-san-pham-hang-hoa-co-chua-tien-chat-cong-nghiep-406842-d6.html",
+          "truy_cap": "2026-10-20"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, ngày 10-07-2025, trích yếu qua thẻ LuatVietnam; bản quét PDF gốc re-host tại unicustomsconsulting.com — CHƯA tìm được bản gốc trên moit.gov.vn",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-20",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Công văn hướng dẫn (không phải quy phạm pháp luật) — giá trị tham khảo khi trả lời khách về XNK sản phẩm chứa tiền chất công nghiệp. Chưa có bản gốc Bộ Công Thương; nâng NGUON_A khi tìm được.",
+      "tu_khoa": [
+        "tien-chat",
+        "hoa-chat",
+        "xnk"
+      ],
+      "slug": "5133-bct-hc-2025",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "5139/TB-TCHQ/2022",
       "loai": "THONG_BAO",
       "loai_phan_loai": "XAC_DINH_TRUOC",
@@ -62649,6 +62870,65 @@
       "slug": "5691-tb-tchq-2022",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "57/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định các danh mục chất ma túy và tiền chất",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-08-25",
+      "hieu_luc_tu": "2022-08-25",
+      "het_hieu_luc_tu": "2026-01-19",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "73/2018/NĐ-CP",
+            "tu_ngay": "2022-08-25"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-57-2022-nd-cp-37734.htm",
+          "truy_cap": "2026-10-20"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "thẻ Công báo 37734: ban hành 25-08-2022, hiệu lực 25-08-2022; hết hiệu lực 19-01-2026 theo nguyên văn Điều 3 khoản 2 NĐ 28/2026/NĐ-CP (OCR PDF ký số, kèm raw/download/datafiles.chinhphu.vn/28-2026-nd-cp-dieu3-ocr.txt)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-20",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Bị NĐ 28/2026/NĐ-CP bãi bỏ từ 19-01-2026 — nguyên văn Điều 3 khoản 2: NĐ 57/2022 và NĐ 90/2024 \"hết hiệu lực kể từ ngày Nghị định này có hiệu lực thi hành\". Trả lời khách theo danh mục 57/2022 sau ngày này là SAI.",
+      "tu_khoa": [
+        "ma-tuy",
+        "tien-chat"
+      ],
+      "slug": "57-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "28/2026/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "57/2022/NĐ-CP",
+            "tu_ngay": "2026-01-19",
+            "can_cu": "Điều 3 khoản 2 NĐ 28/2026/NĐ-CP (OCR PDF ký số)"
+          }
+        ],
+        "bi_sua_doi_boi": [
+          {
+            "tu": "90/2024/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "57/2022/NĐ-CP"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "57/TB-TCHQ/2023",
@@ -70025,6 +70305,47 @@
       }
     },
     {
+      "so_hieu": "69/2025/QH15",
+      "loai": "LUAT",
+      "ten": "Luật Hóa chất",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2025-06-14",
+      "hieu_luc_tu": "2026-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "06/2007/QH12",
+            "tu_ngay": "2026-01-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=214610",
+          "truy_cap": "2026-10-20"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, ngày ban hành 14-06-2025 và ngày có hiệu lực 01-01-2026 trên thẻ vanban.chinhphu.vn",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-20",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Thay thế Luật Hóa chất 06/2007/QH12; nghị định hướng dẫn thi hành (thay NĐ 26/2026/NĐ-CP) đang soạn thảo — theo dõi khi ban hành.",
+      "tu_khoa": [
+        "hoa-chat",
+        "tien-chat"
+      ],
+      "slug": "69-2025-qh15",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "691/QĐ-BCT",
       "loai": "QUYET_DINH",
       "ten": "Gia hạn áp dụng biện pháp tự vệ đối với sản phẩm thép dài nhập khẩu",
@@ -73035,6 +73356,47 @@
       "toan_van": "chua_co",
       "slug": "7299-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "73/2021/QH14",
+      "loai": "LUAT",
+      "ten": "Luật Phòng, chống ma túy",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2021-03-30",
+      "hieu_luc_tu": "2022-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "23/2000/QH10",
+            "tu_ngay": "2022-01-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=204940",
+          "truy_cap": "2026-10-20"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, ngày ban hành 30-03-2021, hiệu lực 01-01-2022 trên thẻ vanban.chinhphu.vn; thay thế Luật PCTM 23/2000/QH10",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-20",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Issue",
+      "tu_khoa": [
+        "ma-tuy",
+        "tien-chat"
+      ],
+      "slug": "73-2021-qh14",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -77021,6 +77383,61 @@
       "slug": "90-2020-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "90/2024/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung danh mục chất ma túy và tiền chất ban hành kèm theo Nghị định số 57/2022/NĐ-CP",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2024-07-17",
+      "hieu_luc_tu": "2024-07-17",
+      "het_hieu_luc_tu": "2026-01-19",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "57/2022/NĐ-CP"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=210694",
+          "truy_cap": "2026-10-20"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-90-2024-nd-cp-42369.htm",
+          "truy_cap": "2026-10-20"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=210694): ban hành 17-07-2024; hết hiệu lực 19-01-2026 theo nguyên văn Điều 3 khoản 2 NĐ 28/2026/NĐ-CP (OCR PDF ký số)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-20",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Sửa danh mục ban hành kèm NĐ 57/2022/NĐ-CP (bổ sung 15 chất). Bị bãi bỏ cùng NĐ 57/2022 từ 19-01-2026 theo Điều 3 khoản 2 NĐ 28/2026/NĐ-CP.",
+      "tu_khoa": [
+        "ma-tuy",
+        "tien-chat"
+      ],
+      "slug": "90-2024-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "28/2026/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "90/2024/NĐ-CP",
+            "tu_ngay": "2026-01-19",
+            "can_cu": "Điều 3 khoản 2 NĐ 28/2026/NĐ-CP (OCR PDF ký số)"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "90/TB-TCHQ/2019",
