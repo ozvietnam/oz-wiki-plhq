@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-10-20
 
-2289 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2290 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -71,13 +71,17 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Thuế xuất khẩu, nhập khẩu và các thuế khác khâu nhập khẩu `thue`
 
+1 văn bản, 1 chưa hết hiệu lực.
+
+- 🟢 [108/2025/QH15](../registry/van-ban/108-2025-qh15.yaml) — Luật Quản lý thuế
+
 ### Luật thuế XK, NK; Luật Quản lý thuế `thue/luat-thue`
 
-6 văn bản, 5 chưa hết hiệu lực.
+6 văn bản, 4 chưa hết hiệu lực.
 
 - 🟢 [182/2025/NĐ-CP](../registry/van-ban/182-2025-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 134/2016/NĐ-CP ngày 01 tháng 9 năm 2016 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Thuế xuất khẩu, thuế nhập khẩu đã được sửa đổi, bổ sung theo Nghị định số 18/2021/NĐ-CP ngày 11 tháng 3 năm 2021 của Chính phủ
 - 🟢 [18/2021/NĐ-CP](../registry/van-ban/18-2021-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 134/2016/NĐ-CP ngày 01 tháng 9 năm 2016 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Thuế xuất khẩu, thuế nhập khẩu
-- 🟢 [38/2019/QH14](../registry/van-ban/38-2019-qh14.yaml) — Luật Quản lý thuế
+- ⚫ [38/2019/QH14](../registry/van-ban/38-2019-qh14.yaml) — Luật Quản lý thuế _(hết hiệu lực 2026-07-01)_
 - 🟢 [134/2016/NĐ-CP](../registry/van-ban/134-2016-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp thi hành Luật Thuế xuất khẩu, thuế nhập khẩu
 - 🟢 [107/2016/QH13](../registry/van-ban/107-2016-qh13.yaml) — Luật Thuế xuất khẩu, thuế nhập khẩu
 - ⚫ [45/2005/QH11](../registry/van-ban/45-2005-qh11.yaml) — Luật Thuế xuất khẩu, thuế nhập khẩu _(hết hiệu lực 2016-09-01)_

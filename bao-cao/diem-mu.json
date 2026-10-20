@@ -1,7 +1,16 @@
 {
   "ngay": "2026-10-20",
-  "tong": 4653,
+  "tong": 4656,
   "diem": [
+    {
+      "ma": "THIEU_VAN_BAN",
+      "muc": "Cao",
+      "tieuDe": "Chưa có trong sổ: 56/2024/QH15",
+      "muc_tieu": "56/2024/QH15",
+      "viec": "Tạo registry/van-ban/ cho 56/2024/QH15 (được nhắc bởi 108/2025/QH15 (thay_the)). Dùng: node tools/them-van-ban.mjs \"56/2024/QH15\"",
+      "luong": "he-thong-hoa",
+      "trongSo": 0
+    },
     {
       "ma": "THIEU_VAN_BAN",
       "muc": "Cao",
@@ -22793,7 +22802,7 @@
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
-      "tieuDe": "38/2019/QH14: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "tieuDe": "38/2019/QH14: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "38/2019/QH14",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
@@ -39221,6 +39230,24 @@
       "tieuDe": "Wiki nhắc 68/2006/QH11 nhưng sổ chưa có",
       "muc_tieu": "68/2006/QH11",
       "viec": "Thêm vào sổ (wiki/sources/10-2024-tt-bxd.md, wiki/sources/49-2026-tt-bxd.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 56/2024/QH15 nhưng sổ chưa có",
+      "muc_tieu": "56/2024/QH15",
+      "viec": "Thêm vào sổ (wiki/sources/108-2025-qh15.md, wiki/sources/38-2019-qh14.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 88/2015/QH13 nhưng sổ chưa có",
+      "muc_tieu": "88/2015/QH13",
+      "viec": "Thêm vào sổ (wiki/sources/108-2025-qh15.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },
