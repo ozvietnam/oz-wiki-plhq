@@ -231,6 +231,8 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/82-2022-nd-cp]]
 - [[sources/8378-qd-bca-2025]]
 - [[sources/85-2026-tt-btc]]
+- [[sources/38-2019-qh14]]
+- [[sources/108-2025-qh15]]
 - [[sources/89-2018-nd-cp]]
 - [[sources/924-qd-bnn-tcln-2017]]
 - [[sources/9981-qd-bca]]

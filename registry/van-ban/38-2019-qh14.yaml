@@ -5,19 +5,18 @@ ten: Luật Quản lý thuế
 co_quan: QH
 ngay_ban_hanh: '2019-06-13'
 hieu_luc_tu: '2020-07-01'
-tinh_trang: CON_HIEU_LUC
+het_hieu_luc_tu: '2026-07-01'
+tinh_trang: HET_HIEU_LUC
 nhanh:
-  - thue/luat-thue
+  - thue
 nguon:
-  - url: https://vanban.chinhphu.vn/?docid=197312&pageid=27160
-    truy_cap: '2026-10-04'
-  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/07/38.signed.pdf
-    truy_cap: '2026-10-04'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=197312
+    truy_cap: '2026-10-20'
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, trích yếu, ngày ban hành 13-06-2019 và ngày có hiệu lực 01-07-2020 trên vanban.chinhphu.vn
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=197312): ban hành 13-06-2019, hiệu lực 01-07-2020; hết hiệu lực 01-07-2026 do bị Luật 108/2025/QH15 thay thế (thẻ docid=216541, hiệu lực 01-07-2026)'
   hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: Thẻ cổng Chính phủ khớp Luật Quản lý thuế, người ký Nguyễn Thị Kim Ngân. Chưa đọc điều khoản thi hành.
-toan_van: raw/download/datafiles.chinhphu.vn/38-2019-qh14.pdf
+  ngay: '2026-10-20'
+  boi: zcode@ozvietnam
+ghi_chu: Sửa đổi bởi Luật 56/2024/QH15 (chưa nạp — điểm mù). Trích dẫn ấn định thuế cho phát sinh từ 01-07-2026 phải dùng Luật 108/2025/QH15 (Điều 24).
+tu_khoa: [thue, an-dinh-thue, quan-ly-thue]
