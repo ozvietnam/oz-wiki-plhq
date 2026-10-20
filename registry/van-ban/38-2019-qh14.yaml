@@ -8,15 +8,18 @@ hieu_luc_tu: '2020-07-01'
 het_hieu_luc_tu: '2026-07-01'
 tinh_trang: HET_HIEU_LUC
 nhanh:
-  - thue
+  - thue/luat-thue
 nguon:
-  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=197312
+  - url: https://vanban.chinhphu.vn/?docid=197312&pageid=27160
     truy_cap: '2026-10-20'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/07/38.signed.pdf
+    truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'thẻ vanban.chinhphu.vn (docid=197312): ban hành 13-06-2019, hiệu lực 01-07-2020; hết hiệu lực 01-07-2026 do bị Luật 108/2025/QH15 thay thế (thẻ docid=216541, hiệu lực 01-07-2026)'
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=197312): ban hành 13-06-2019, hiệu lực 01-07-2020; hết hiệu lực 01-07-2026 do bị Luật 108/2025/QH15 thay thế (thẻ docid=216541 ghi hiệu lực 01-07-2026)'
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-20'
   boi: zcode@ozvietnam
-ghi_chu: Sửa đổi bởi Luật 56/2024/QH15 (chưa nạp — điểm mù). Trích dẫn ấn định thuế cho phát sinh từ 01-07-2026 phải dùng Luật 108/2025/QH15 (Điều 24).
+ghi_chu: 'Sửa đổi bởi Luật 56/2024/QH15 (chưa nạp — điểm mù). Trích dẫn ấn định thuế cho phát sinh từ 01-07-2026 phải dùng Luật 108/2025/QH15 (Điều 24). Bản cũ ghi CON_HIEU_LUC — đã sửa theo thực trạng thay thế.'
 tu_khoa: [thue, an-dinh-thue, quan-ly-thue]
+toan_van: raw/download/datafiles.chinhphu.vn/38-2019-qh14.pdf
