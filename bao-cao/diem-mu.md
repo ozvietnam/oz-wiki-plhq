@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-10-20
 
-Tổng 4651 điểm: **13 cao**, 323 vừa, 4315 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 4653 điểm: **13 cao**, 325 vừa, 4315 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -10,7 +10,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Cảnh báo nguồn | Cao | 1 | `truy-vet-nguon` |
 | Chưa có nguồn chính thống | Vừa | 2035 | `truy-vet-nguon` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 128 | `danh-muc-hs` |
-| Wiki nhắc văn bản chưa đăng ký | Vừa | 94 | `lien-ket-cheo` |
+| Wiki nhắc văn bản chưa đăng ký | Vừa | 96 | `lien-ket-cheo` |
 | Biểu thuế XNK Tổng cục nêu nhưng sổ chưa có (hs-code-api skill bieu-thue-xnk) | Vừa | 29 | `he-thong-hoa` |
 | Văn bản danh mục chưa trích bảng mã HS | Vừa | 23 | `danh-muc-hs` |
 | Thư viện hs-code-api ghi khác sổ | Vừa | 14 | `hieu-luc` |
@@ -125,7 +125,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **09/2024/TT-BYT: mã 33045099 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1289 ("Calcipotriol"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
 - … và 88 điểm khác (xem bao-cao/diem-mu.json)
 
-## Wiki nhắc văn bản chưa đăng ký (94)
+## Wiki nhắc văn bản chưa đăng ký (96)
 
 - [ ] **Wiki nhắc 121/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/cptpp.md, wiki/sources/127-qd-ttg-2026.md).
 - [ ] **Wiki nhắc 35/2019/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/dong-vat-hoang-da-nguy-cap.md).
@@ -167,7 +167,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Wiki nhắc 127/2007/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/125-2021-tt-bca.md, wiki/sources/2711-qd-bkhcn.md, wiki/sources/366-qd-bkhcn.md, wiki/sources/367-qd-bkhcn-2024.md, wiki/sources/58-2015-ttlt-bct-bkhcn.md).
 - [ ] **Wiki nhắc 01/2018/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/125-2021-tt-bca.md).
 - [ ] **Wiki nhắc 137/2020/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/125-2021-tt-bca.md).
-- … và 54 điểm khác (xem bao-cao/diem-mu.json)
+- … và 56 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Biểu thuế XNK Tổng cục nêu nhưng sổ chưa có (hs-code-api skill bieu-thue-xnk) (29)
 
