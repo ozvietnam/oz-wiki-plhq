@@ -1,19 +1,23 @@
-# Sổ đăng ký văn bản — từ sheet HT biểu thuế
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 12/2019/TT-BCT
 loai: THONG_TU
-ten: Quy tắc mặt hàng cụ thể ACFTA
+ten: Quy định Quy tắc xuất xứ hàng hóa trong Hiệp định khung về hợp tác kinh tế toàn diện giữa ASEAN và Trung Quốc (ACFTA)
 co_quan: BCT
-ngay_ban_hanh: '2019-01-01'
-hieu_luc_tu: '2019-07-30'
+ngay_ban_hanh: '2019-07-30'
+hieu_luc_tu: '2019-09-12'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - thue/bieu-thue
-  - thue/bieu-thue-xnk
+  - xuat-xu-fta
+nguon:
+  - url: https://moit.gov.vn/van-ban-phap-luat/van-ban-phap-quy/-thong-tu-quy-dinh-quy-tac-xuat-xu-hang-hoa-trong-hiep-dinh-3.html
+    truy_cap: '2026-10-21'
+  - url: https://luatvietnam.vn/thuong-mai/thong-tu-12-2019-tt-bct-quy-tac-xuat-xu-hang-hoa-trong-hiep-dinh-hop-tac-giua-asean-va-trung-quoc-175969-d1.html
+    truy_cap: '2026-10-21'
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF'
+  muc: NGUON_B
+  pham_vi: 'trang văn bản pháp quy của Bộ Công Thương (bộ ban hành) + thẻ LuatVietnam: ban hành 30-07-2019, hiệu lực 12-09-2019; thẻ vanban.chinhphu.vn CHƯA tìm ra docid — nâng NGUON_A khi có'
   hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
-  ghi_chu: 'Không crawl được PDF. Cần tìm từ nguồn bậc A khác.'
-toan_van: chua_co
+  ngay: '2026-10-21'
+  boi: zcode@ozvietnam
+ghi_chu: 'BỘ QUY TẮC XUẤT XỨ ACFTA (C/O form E) ĐANG ÁP DỤNG HÔM NAY: 4 chương 34 điều + 4 phụ lục (Phụ lục I = quy tắc cụ thể theo mặt hàng). Sửa đổi bởi TT 10/2022/TT-BCT (chưa nạp — điểm mù). LƯU Ý PHÂN BIỆT: TT 49/2025/TT-BCT là AKFTA (Hàn Quốc), KHÔNG phải ACFTA.'
+tu_khoa: [acfta, form-e, xuat-xu]
