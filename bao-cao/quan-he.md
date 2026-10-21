@@ -8,7 +8,12 @@ Mũi tên đi từ văn bản MỚI tới văn bản bị tác động. Sinh t�
 flowchart LR
   n_124_2020_N__CP["124/2020/NĐ-CP<br/>còn hiệu lực"]
   n_81_2013_N__CP["81/2013/NĐ-CP<br/>chưa có trong sổ"]
+  n_155_2026_N__CP["155/2026/NĐ-CP<br/>còn hiệu lực"]
+  n_81_2025_QH15["81/2025/QH15<br/>còn hiệu lực"]
+  n_02_2011_QH13["02/2011/QH13<br/>còn hiệu lực"]
   n_124_2020_N__CP -->|thay thế từ 2020-12-10| n_81_2013_N__CP
+  n_155_2026_N__CP -->|sửa đổi| n_124_2020_N__CP
+  n_81_2025_QH15 -->|sửa đổi| n_02_2011_QH13
 ```
 
 ## Chưa phân loại — chờ luồng Hệ thống hoá xếp vào cây
@@ -46,6 +51,10 @@ flowchart LR
   n_121_2025_TT_BTC["121/2025/TT-BTC<br/>còn hiệu lực"]
   n_38_2015_TT_BTC["38/2015/TT-BTC<br/>còn hiệu lực"]
   n_39_2018_TT_BTC["39/2018/TT-BTC<br/>còn hiệu lực"]
+  n_167_2025_N__CP["167/2025/NĐ-CP<br/>còn hiệu lực"]
+  n_08_2015_N__CP["08/2015/NĐ-CP<br/>còn hiệu lực"]
+  n_98_2015_N__CP["98/2015/NĐ-CP<br/>chưa có trong sổ"]
+  n_39_2018_N__CP["39/2018/NĐ-CP<br/>chưa có trong sổ"]
   n_31_2026_Q__TTg["31/2026/QĐ-TTg<br/>còn hiệu lực"]
   n_23_2019_Q__TTg["23/2019/QĐ-TTg<br/>hết hiệu lực"]
   n_336_2026_N__CP["336/2026/NĐ-CP<br/>còn hiệu lực"]
@@ -54,11 +63,13 @@ flowchart LR
   n_39_2015_TT_BTC["39/2015/TT-BTC<br/>còn hiệu lực"]
   n_54_VBHN_VPQH["54/VBHN-VPQH<br/>còn hiệu lực"]
   n_59_2018_N__CP["59/2018/NĐ-CP<br/>còn hiệu lực"]
-  n_08_2015_N__CP["08/2015/NĐ-CP<br/>còn hiệu lực"]
   n_06_2026_TT_BTC -->|sửa đổi từ 2026-03-01| n_13_2015_TT_BTC
   n_11_2026_QH16 -->|sửa đổi từ 2027-03-01| n_54_2014_QH13
   n_121_2025_TT_BTC -->|sửa đổi từ 2026-02-01| n_38_2015_TT_BTC
   n_121_2025_TT_BTC -->|sửa đổi từ 2026-02-01| n_39_2018_TT_BTC
+  n_167_2025_N__CP -->|sửa đổi| n_08_2015_N__CP
+  n_167_2025_N__CP -->|sửa đổi| n_98_2015_N__CP
+  n_167_2025_N__CP -->|bãi bỏ từ 2025-08-15| n_39_2018_N__CP
   n_31_2026_Q__TTg -->|thay thế từ 2026-08-14| n_23_2019_Q__TTg
   n_336_2026_N__CP -->|thay thế từ 2026-10-15| n_85_2019_N__CP
   n_38_2015_TT_BTC -->|sửa đổi Bổ sung nộp chứng từ điện tử, sửa mẫu tờ khai từ 2018-06-05| n_39_2018_TT_BTC
@@ -100,10 +111,12 @@ flowchart LR
   n_09_2013_TT_BTTTT["09/2013/TT-BTTTT<br/>chưa xác minh"]
   n_111_2021_N__CP["111/2021/NĐ-CP<br/>hết hiệu lực"]
   n_43_2017_N__CP["43/2017/NĐ-CP<br/>hết hiệu lực"]
+  n_129_2024_N__CP["129/2024/NĐ-CP<br/>còn hiệu lực"]
+  n_91_2016_N__CP["91/2016/NĐ-CP<br/>chưa có trong sổ"]
+  n_155_2018_N__CP["155/2018/NĐ-CP<br/>còn hiệu lực"]
   n_15_2024_TT_BYT["15/2024/TT-BYT<br/>còn hiệu lực"]
   n_28_2021_TT_BYT["28/2021/TT-BYT<br/>chưa xác minh"]
   n_15_2026_NQ_CP["15/2026/NQ-CP<br/>còn hiệu lực"]
-  n_155_2018_N__CP["155/2018/NĐ-CP<br/>còn hiệu lực"]
   n_15_2018_N__CP["15/2018/NĐ-CP<br/>còn hiệu lực"]
   n_16_2024_TT_BYT["16/2024/TT-BYT<br/>còn hiệu lực"]
   n_09_2018_TT_BYT["09/2018/TT-BYT<br/>hết hiệu lực"]
@@ -179,6 +192,8 @@ flowchart LR
   n_11_2024_TT_BTTTT -->|sửa đổi từ 2024-11-07| n_03_2015_TT_BTTTT
   n_11_2024_TT_BTTTT -->|sửa đổi nhóm 2.1.2 Phụ lục số 02 từ 2024-11-07| n_09_2013_TT_BTTTT
   n_111_2021_N__CP -->|sửa đổi| n_43_2017_N__CP
+  n_129_2024_N__CP -->|sửa đổi| n_91_2016_N__CP
+  n_129_2024_N__CP -->|sửa đổi| n_155_2018_N__CP
   n_15_2024_TT_BYT -->|thay thế từ 2024-11-02| n_28_2021_TT_BYT
   n_15_2026_NQ_CP -->|tạm ngưng| n_46_2026_N__CP
   n_155_2018_N__CP -->|sửa đổi| n_15_2018_N__CP

@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-21",
-  "tong": 4688,
+  "tong": 4694,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -17,6 +17,33 @@
       "tieuDe": "Chưa có trong sổ: 81/2013/NĐ-CP",
       "muc_tieu": "81/2013/NĐ-CP",
       "viec": "Tạo registry/van-ban/ cho 81/2013/NĐ-CP (được nhắc bởi 124/2020/NĐ-CP (thay_the)). Dùng: node tools/them-van-ban.mjs \"81/2013/NĐ-CP\"",
+      "luong": "he-thong-hoa",
+      "trongSo": 0
+    },
+    {
+      "ma": "THIEU_VAN_BAN",
+      "muc": "Cao",
+      "tieuDe": "Chưa có trong sổ: 91/2016/NĐ-CP",
+      "muc_tieu": "91/2016/NĐ-CP",
+      "viec": "Tạo registry/van-ban/ cho 91/2016/NĐ-CP (được nhắc bởi 129/2024/NĐ-CP (sua_doi)). Dùng: node tools/them-van-ban.mjs \"91/2016/NĐ-CP\"",
+      "luong": "he-thong-hoa",
+      "trongSo": 0
+    },
+    {
+      "ma": "THIEU_VAN_BAN",
+      "muc": "Cao",
+      "tieuDe": "Chưa có trong sổ: 98/2015/NĐ-CP",
+      "muc_tieu": "98/2015/NĐ-CP",
+      "viec": "Tạo registry/van-ban/ cho 98/2015/NĐ-CP (được nhắc bởi 167/2025/NĐ-CP (sua_doi)). Dùng: node tools/them-van-ban.mjs \"98/2015/NĐ-CP\"",
+      "luong": "he-thong-hoa",
+      "trongSo": 0
+    },
+    {
+      "ma": "THIEU_VAN_BAN",
+      "muc": "Cao",
+      "tieuDe": "Chưa có trong sổ: 39/2018/NĐ-CP",
+      "muc_tieu": "39/2018/NĐ-CP",
+      "viec": "Tạo registry/van-ban/ cho 39/2018/NĐ-CP (được nhắc bởi 167/2025/NĐ-CP (bai_bo)). Dùng: node tools/them-van-ban.mjs \"39/2018/NĐ-CP\"",
       "luong": "he-thong-hoa",
       "trongSo": 0
     },
@@ -4228,6 +4255,15 @@
       "muc": "Thấp",
       "tieuDe": "129/2022/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "129/2022/NĐ-CP",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "129/2024/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "129/2024/NĐ-CP",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
       "trongSo": 0
@@ -37299,6 +37335,15 @@
       "trongSo": 0
     },
     {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "81/2025/QH15: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "81/2025/QH15",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "810/TB-TCHQ/2022: chưa có nguồn chính thống",
@@ -39184,16 +39229,7 @@
       "muc": "Vừa",
       "tieuDe": "Wiki nhắc 42/2013/QH13 nhưng sổ chưa có",
       "muc_tieu": "42/2013/QH13",
-      "viec": "Thêm vào sổ (wiki/sources/02-2011-qh13.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 81/2025/QH15 nhưng sổ chưa có",
-      "muc_tieu": "81/2025/QH15",
-      "viec": "Thêm vào sổ (wiki/sources/02-2011-qh13.md).",
+      "viec": "Thêm vào sổ (wiki/sources/02-2011-qh13.md, wiki/sources/81-2025-qh15.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },
@@ -39239,15 +39275,6 @@
       "tieuDe": "Wiki nhắc 40/2025/NĐ-CP nhưng sổ chưa có",
       "muc_tieu": "40/2025/NĐ-CP",
       "viec": "Thêm vào sổ (wiki/sources/07-2026-tt-bct.md, wiki/sources/33-2025-tt-bct.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 167/2025/NĐ-CP nhưng sổ chưa có",
-      "muc_tieu": "167/2025/NĐ-CP",
-      "viec": "Thêm vào sổ (wiki/sources/08-2015-nd-cp.md, wiki/sources/85-2026-tt-btc.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },
@@ -39533,15 +39560,6 @@
     {
       "ma": "WIKI_NHAC_CHUA_DANG_KY",
       "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 155/2026/NĐ-CP nhưng sổ chưa có",
-      "muc_tieu": "155/2026/NĐ-CP",
-      "viec": "Thêm vào sổ (wiki/sources/124-2020-nd-cp.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
       "tieuDe": "Wiki nhắc 127/2007/NĐ-CP nhưng sổ chưa có",
       "muc_tieu": "127/2007/NĐ-CP",
       "viec": "Thêm vào sổ (wiki/sources/125-2021-tt-bca.md, wiki/sources/2711-qd-bkhcn.md, wiki/sources/366-qd-bkhcn.md, wiki/sources/367-qd-bkhcn-2024.md, wiki/sources/58-2015-ttlt-bct-bkhcn.md).",
@@ -39641,6 +39659,24 @@
     {
       "ma": "WIKI_NHAC_CHUA_DANG_KY",
       "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 91/2016/NĐ-CP nhưng sổ chưa có",
+      "muc_tieu": "91/2016/NĐ-CP",
+      "viec": "Thêm vào sổ (wiki/sources/129-2024-nd-cp.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 49/2015/TT-BTC nhưng sổ chưa có",
+      "muc_tieu": "49/2015/TT-BTC",
+      "viec": "Thêm vào sổ (wiki/sources/142-2026-tt-btc.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
       "tieuDe": "Wiki nhắc 105/2006/NĐ-CP nhưng sổ chưa có",
       "muc_tieu": "105/2006/NĐ-CP",
       "viec": "Thêm vào sổ (wiki/sources/154-2018-nd-cp.md).",
@@ -39653,6 +39689,24 @@
       "tieuDe": "Wiki nhắc 31/2021/NĐ-CP nhưng sổ chưa có",
       "muc_tieu": "31/2021/NĐ-CP",
       "viec": "Thêm vào sổ (wiki/sources/163-2025-nd-cp.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 39/2018/NĐ-CP nhưng sổ chưa có",
+      "muc_tieu": "39/2018/NĐ-CP",
+      "viec": "Thêm vào sổ (wiki/sources/167-2025-nd-cp.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 98/2015/NĐ-CP nhưng sổ chưa có",
+      "muc_tieu": "98/2015/NĐ-CP",
+      "viec": "Thêm vào sổ (wiki/sources/167-2025-nd-cp.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },
