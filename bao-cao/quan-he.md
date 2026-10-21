@@ -2,6 +2,15 @@
 
 Mũi tên đi từ văn bản MỚI tới văn bản bị tác động. Sinh tự động bằng `node tools/dung.mjs`.
 
+## Tổ chức bộ máy — chức năng, nhiệm vụ các bộ, cơ quan quản lý
+
+```mermaid
+flowchart LR
+  n_124_2020_N__CP["124/2020/NĐ-CP<br/>còn hiệu lực"]
+  n_81_2013_N__CP["81/2013/NĐ-CP<br/>chưa có trong sổ"]
+  n_124_2020_N__CP -->|thay thế từ 2020-12-10| n_81_2013_N__CP
+```
+
 ## Chưa phân loại — chờ luồng Hệ thống hoá xếp vào cây
 
 ```mermaid

@@ -2,7 +2,7 @@
   "phien_ban": "2026-10-21",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2290,
+  "tong": 2292,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -291,6 +291,43 @@
         }
       ],
       "slug": "01-2026-tt-bnnmt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "02/2011/QH13",
+      "loai": "LUAT",
+      "ten": "Luật Khiếu nại",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2011-11-11",
+      "hieu_luc_tu": "2012-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "bo-may"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=162374",
+          "truy_cap": "2026-10-20"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2012/07/luat_khieunai_02.doc",
+          "truy_cap": "2026-10-20"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=162374): ban hành 11-11-2011, hiệu lực 01-07-2012; toàn văn Điều 1-70 từ tệp .doc gốc datafiles (Điều 71+ chưa có trong tệp — điểm mù)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-20",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Sửa đổi bởi Luật 42/2013/QH13 (Điều 75, 78 — chưa nạp) và Luật 81/2025/QH15 (chưa nạp) — vẫn còn hiệu lực theo bản đã sửa.",
+      "tu_khoa": [
+        "khieu-nai"
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/luat-khieu-nai-02-2011.doc",
+      "slug": "02-2011-qh13",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -9348,6 +9385,51 @@
       "toan_van": "chua_co",
       "slug": "1234-tb-tchq-2019",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "124/2020/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết một số điều và biện pháp thi hành Luật Khiếu nại",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2020-11-05",
+      "hieu_luc_tu": "2020-12-10",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "bo-may"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "81/2013/NĐ-CP",
+            "tu_ngay": "2020-12-10"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=201363",
+          "truy_cap": "2026-10-20"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/10/124.signed.pdf",
+          "truy_cap": "2026-10-20"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=201363): ban hành 05-11-2020, hiệu lực 10-12-2020, thay thế NĐ 81/2013/NĐ-CP; thân văn bản OCR toàn bộ từ PDF ký số (kèm sidecar)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-20",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Sửa đổi bởi NĐ 155/2026/NĐ-CP (15-05-2026, hiệu lực 01-07-2026, triển khai Luật 136/2025 — chưa nạp, điểm mù). Hiệu lực theo bản đã sửa.",
+      "tu_khoa": [
+        "khieu-nai"
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/124-2020-nd-cp.pdf",
+      "slug": "124-2020-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
