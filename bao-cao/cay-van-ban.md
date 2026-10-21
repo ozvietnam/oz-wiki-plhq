@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-10-21
 
-2296 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2298 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -92,7 +92,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Biểu thuế XK, NK ưu đãi và biểu thuế FTA `thue/bieu-thue`
 
-38 văn bản, 38 chưa hết hiệu lực.
+37 văn bản, 37 chưa hết hiệu lực.
 
 - 🟢 [72/2026/NĐ-CP](../registry/van-ban/72-2026-nd-cp.yaml) — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu tại Biểu thuế nhập khẩu ưu đãi ban hành kèm theo Nghị định số 26/2023/NĐ-CP _(hết hiệu lực 2027-01-01)_
 - 🟢 [56/2026/NĐ-CP](../registry/van-ban/56-2026-nd-cp.yaml) — Biểu thuế NK ưu đãi VN-Cam
@@ -129,13 +129,12 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [129/2022/NĐ-CP](../registry/van-ban/129-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi RCEP
 - 🟢 [41/2022/TT-BCT](../registry/van-ban/41-2022-tt-bct.yaml) — Quy tắc mặt hàng cụ thể EVFTA
 - 🟢 [03/2019/TT-BCT](../registry/van-ban/03-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể CPTPP
-- 🟢 [12/2019/TT-BCT](../registry/van-ban/12-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể ACFTA
 - 🟢 [13/2019/TT-BCT](../registry/van-ban/13-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể AKFTA
 - 🟢 [11/2018/TT-BCT](../registry/van-ban/11-2018-tt-bct.yaml) — Quy tắc mặt hàng cụ thể VNEAEUFTA
 
 ### Biểu thuế XNK (TT-BCT, quy tắc mặt hàng cụ thể các FTA) `thue/bieu-thue-xnk`
 
-9 văn bản, 9 chưa hết hiệu lực.
+8 văn bản, 8 chưa hết hiệu lực.
 
 - 🟢 [112/2022/NĐ-CP](../registry/van-ban/112-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Chi Lê giai đoạn 2022 - 2027
 - 🟢 [115/2022/NĐ-CP](../registry/van-ban/115-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi CPTPP
@@ -143,7 +142,6 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [125/2022/NĐ-CP](../registry/van-ban/125-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi VKFTA
 - 🟢 [41/2022/TT-BCT](../registry/van-ban/41-2022-tt-bct.yaml) — Quy tắc mặt hàng cụ thể EVFTA
 - 🟢 [03/2019/TT-BCT](../registry/van-ban/03-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể CPTPP
-- 🟢 [12/2019/TT-BCT](../registry/van-ban/12-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể ACFTA
 - 🟢 [13/2019/TT-BCT](../registry/van-ban/13-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể AKFTA
 - 🟢 [11/2018/TT-BCT](../registry/van-ban/11-2018-tt-bct.yaml) — Quy tắc mặt hàng cụ thể VNEAEUFTA
 
@@ -2203,6 +2201,12 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [6735/TB-TCHQ](../registry/van-ban/6735-tb-tchq-2020.yaml) — Thông báo kết quả phân loại đối với hàng hoá xuất khẩu, nhập khẩu (màng nhựa phức hợp PP/PE-VA — mã 3920.20.99)
 
 ## Xuất xứ hàng hoá và các hiệp định thương mại tự do `xuat-xu-fta`
+
+3 văn bản, 3 chưa hết hiệu lực.
+
+- 🟢 [49/2025/TT-BCT](../registry/van-ban/49-2025-tt-bct.yaml) — Quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Thương mại hàng hóa thuộc Hiệp định khung về Hợp tác Kinh tế Toàn diện ASEAN - Hàn Quốc (AKFTA)
+- 🟢 [40/2025/TT-BCT](../registry/van-ban/40-2025-tt-bct.yaml) — Quy định về cấp Giấy chứng nhận xuất xứ hàng hóa và chấp thuận bằng văn bản cho thương nhân tự chứng nhận xuất xứ hàng hóa xuất khẩu
+- 🟢 [12/2019/TT-BCT](../registry/van-ban/12-2019-tt-bct.yaml) — Quy định Quy tắc xuất xứ hàng hóa trong Hiệp định khung về hợp tác kinh tế toàn diện giữa ASEAN và Trung Quốc (ACFTA)
 
 ### Quy tắc xuất xứ, chứng nhận và kiểm tra xuất xứ `xuat-xu-fta/quy-tac-xuat-xu`
 

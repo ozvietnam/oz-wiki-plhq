@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-21",
-  "tong": 4690,
+  "tong": 4696,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -3261,21 +3261,21 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "12/2019/TT-BCT: chưa có nguồn chính thống",
-      "muc_tieu": "12/2019/TT-BCT",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "12/2019/TT-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "12/2019/TT-BCT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "12/2019/TT-BCT: chưa có toàn văn trong raw/",
+      "muc_tieu": "12/2019/TT-BCT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"12/2019/TT-BCT\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -24078,6 +24078,15 @@
       "trongSo": 0
     },
     {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "40/2025/TT-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "40/2025/TT-BCT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "4000/TB-TCHQ/2018: chưa có nguồn chính thống",
@@ -27486,6 +27495,24 @@
       "muc_tieu": "49/2015/TT-BCT",
       "viec": "Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.",
       "luong": "he-thong-hoa",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "49/2025/TT-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "49/2025/TT-BCT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "49/2025/TT-BCT: chưa có toàn văn trong raw/",
+      "muc_tieu": "49/2025/TT-BCT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"49/2025/TT-BCT\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -39392,6 +39419,33 @@
       "tieuDe": "Wiki nhắc 117/2025/QH15 nhưng sổ chưa có",
       "muc_tieu": "117/2025/QH15",
       "viec": "Thêm vào sổ (wiki/sources/11-2026-qh16.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 10/2022/TT-BCT nhưng sổ chưa có",
+      "muc_tieu": "10/2022/TT-BCT",
+      "viec": "Thêm vào sổ (wiki/sources/12-2019-tt-bct.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 12/2007/QĐ-BTM nhưng sổ chưa có",
+      "muc_tieu": "12/2007/QĐ-BTM",
+      "viec": "Thêm vào sổ (wiki/sources/12-2019-tt-bct.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 36/2010/TT-BTC nhưng sổ chưa có",
+      "muc_tieu": "36/2010/TT-BTC",
+      "viec": "Thêm vào sổ (wiki/sources/12-2019-tt-bct.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },
