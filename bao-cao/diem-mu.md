@@ -1,16 +1,16 @@
 # Báo cáo điểm mù — 2026-10-21
 
-Tổng 4694 điểm: **18 cao**, 358 vừa, 4318 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 4690 điểm: **16 cao**, 356 vừa, 4318 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
 | Nhóm | Mức | Số điểm | Luồng việc |
 |---|---|---|---|
-| Được nhắc nhưng chưa có trong sổ | Cao | 10 | `he-thong-hoa` |
+| Được nhắc nhưng chưa có trong sổ | Cao | 8 | `he-thong-hoa` |
 | Cảnh báo nguồn | Cao | 1 | `truy-vet-nguon` |
 | Chưa có nguồn chính thống | Vừa | 2035 | `truy-vet-nguon` |
-| Wiki nhắc văn bản chưa đăng ký | Vừa | 129 | `lien-ket-cheo` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 128 | `danh-muc-hs` |
+| Wiki nhắc văn bản chưa đăng ký | Vừa | 127 | `lien-ket-cheo` |
 | Biểu thuế XNK Tổng cục nêu nhưng sổ chưa có (hs-code-api skill bieu-thue-xnk) | Vừa | 29 | `he-thong-hoa` |
 | Văn bản danh mục chưa trích bảng mã HS | Vừa | 23 | `danh-muc-hs` |
 | Thư viện hs-code-api ghi khác sổ | Vừa | 14 | `hieu-luc` |
@@ -25,13 +25,11 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Chưa xếp vào cây | Thấp | 7 | `cay-du-lieu` |
 | Mã HS có hàng thật chưa đối chiếu KTCN 2026 (hs-code-api /api/demand) | Thấp | 7 | `danh-muc-hs` |
 
-## Được nhắc nhưng chưa có trong sổ (10)
+## Được nhắc nhưng chưa có trong sổ (8)
 
 - [ ] **Chưa có trong sổ: 56/2024/QH15** — Tạo registry/van-ban/ cho 56/2024/QH15 (được nhắc bởi 108/2025/QH15 (thay_the)). Dùng: node tools/them-van-ban.mjs "56/2024/QH15"
 - [ ] **Chưa có trong sổ: 81/2013/NĐ-CP** — Tạo registry/van-ban/ cho 81/2013/NĐ-CP (được nhắc bởi 124/2020/NĐ-CP (thay_the)). Dùng: node tools/them-van-ban.mjs "81/2013/NĐ-CP"
 - [ ] **Chưa có trong sổ: 91/2016/NĐ-CP** — Tạo registry/van-ban/ cho 91/2016/NĐ-CP (được nhắc bởi 129/2024/NĐ-CP (sua_doi)). Dùng: node tools/them-van-ban.mjs "91/2016/NĐ-CP"
-- [ ] **Chưa có trong sổ: 98/2015/NĐ-CP** — Tạo registry/van-ban/ cho 98/2015/NĐ-CP (được nhắc bởi 167/2025/NĐ-CP (sua_doi)). Dùng: node tools/them-van-ban.mjs "98/2015/NĐ-CP"
-- [ ] **Chưa có trong sổ: 39/2018/NĐ-CP** — Tạo registry/van-ban/ cho 39/2018/NĐ-CP (được nhắc bởi 167/2025/NĐ-CP (bai_bo)). Dùng: node tools/them-van-ban.mjs "39/2018/NĐ-CP"
 - [ ] **Chưa có trong sổ: 65/2017/TT-BTC** — Tạo registry/van-ban/ cho 65/2017/TT-BTC (được nhắc bởi 31/2022/TT-BTC (thay_the)). Dùng: node tools/them-van-ban.mjs "65/2017/TT-BTC"
 - [ ] **Chưa có trong sổ: 09/2019/TT-BTC** — Tạo registry/van-ban/ cho 09/2019/TT-BTC (được nhắc bởi 31/2022/TT-BTC (thay_the)). Dùng: node tools/them-van-ban.mjs "09/2019/TT-BTC"
 - [ ] **Chưa có trong sổ: 73/2018/NĐ-CP** — Tạo registry/van-ban/ cho 73/2018/NĐ-CP (được nhắc bởi 57/2022/NĐ-CP (thay_the)). Dùng: node tools/them-van-ban.mjs "73/2018/NĐ-CP"
@@ -86,50 +84,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **1023/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - … và 1995 điểm khác (xem bao-cao/diem-mu.json)
 
-## Wiki nhắc văn bản chưa đăng ký (129)
-
-- [ ] **Wiki nhắc 121/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/cptpp.md, wiki/sources/127-qd-ttg-2026.md).
-- [ ] **Wiki nhắc 35/2019/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/dong-vat-hoang-da-nguy-cap.md).
-- [ ] **Wiki nhắc 31/2025/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/duoc-lieu-theo-luat-duoc-2016.md, wiki/summary/luat-duoc-va-phan-loai-hs.md).
-- [ ] **Wiki nhắc 1201/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/evfta.md, wiki/sources/126-qd-ttg-2026.md).
-- [ ] **Wiki nhắc 169/2016/TT-BTC nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/giay-phep-xuat-nhap-khau-mat-ma.md).
-- [ ] **Wiki nhắc 105/2022/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/go-rung.md, wiki/sources/17-2023-tt-bnnptnt.md).
-- [ ] **Wiki nhắc 18/2019/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/hang-cu-cam-nhap-khau.md, wiki/sources/48-2026-tt-bct.md).
-- [ ] **Wiki nhắc 09/2024/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/hang-cu-cam-nhap-khau.md, wiki/sources/48-2026-tt-bct.md).
-- [ ] **Wiki nhắc 14/2018/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/hang-hoa-bien-gioi.md, wiki/sources/33-2025-tt-bct.md, wiki/sources/38-2015-tt-btc.md).
-- [ ] **Wiki nhắc 55/2024/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/ktcl-bca-2026.md, wiki/concepts/thiet-bi-pccc.md, wiki/sources/125-2026-tt-bca.md).
-- [ ] **Wiki nhắc 6266/9981/QĐ-BCA nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/ktcl-bca-2026.md).
-- [ ] **Wiki nhắc 05/2018/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/ktcl-byt-attp-2024.md, wiki/concepts/phu-gia-thuc-pham-ins.md, wiki/sources/15-2024-tt-byt.md).
-- [ ] **Wiki nhắc 13/NQ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/rcep.md, wiki/sources/328-qd-ttg-2022.md).
-- [ ] **Wiki nhắc 01/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/rcep.md, wiki/sources/328-qd-ttg-2022.md).
-- [ ] **Wiki nhắc 21/2017/TT-BNNPTNT nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/thuoc-bvtv-nhap-khau.md).
-- [ ] **Wiki nhắc 122/2024/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/xuat-xu-fta.md, wiki/sources/33-2025-tt-bct.md).
-- [ ] **Wiki nhắc 33/2024/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/xuat-xu-fta.md).
-- [ ] **Wiki nhắc 31/2020/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/xuat-xu-fta.md).
-- [ ] **Wiki nhắc 14/2024/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/readings/105-2016-qh13/03-chuong-iii-quan-ly-thuoc.md).
-- [ ] **Wiki nhắc 12/2025/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/readings/105-2016-qh13/03-chuong-iii-quan-ly-thuoc.md).
-- [ ] **Wiki nhắc 15/2017/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/01-2022-tt-bnnptnt.md).
-- [ ] **Wiki nhắc 25/2016/TT-BNNPTNT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/01-2026-tt-bnnmt.md).
-- [ ] **Wiki nhắc 42/2013/QH13 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/02-2011-qh13.md, wiki/sources/81-2025-qh15.md).
-- [ ] **Wiki nhắc 09/1998/QH10 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/02-2011-qh13.md).
-- [ ] **Wiki nhắc 26/2004/QH11 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/02-2011-qh13.md).
-- [ ] **Wiki nhắc 58/2005/QH11 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/02-2011-qh13.md).
-- [ ] **Wiki nhắc 60/2014/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/03-2015-tt-btttt.md, wiki/sources/11-2024-tt-btttt.md).
-- [ ] **Wiki nhắc 40/2025/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/07-2026-tt-bct.md, wiki/sources/33-2025-tt-bct.md).
-- [ ] **Wiki nhắc 71/2007/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/09-2013-tt-btttt.md).
-- [ ] **Wiki nhắc 108/2016/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/10-2022-tt-btttt.md).
-- [ ] **Wiki nhắc 17/2017/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/10-2022-tt-btttt.md, wiki/sources/11-2024-tt-btttt.md).
-- [ ] **Wiki nhắc 28/2023/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/10-2024-tt-bkhcn.md).
-- [ ] **Wiki nhắc 08/2014/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/10-2024-tt-bkhcn.md).
-- [ ] **Wiki nhắc 68/2006/QH11 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/10-2024-tt-bxd.md, wiki/sources/49-2026-tt-bxd.md).
-- [ ] **Wiki nhắc 56/2024/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/108-2025-qh15.md, wiki/sources/38-2019-qh14.md).
-- [ ] **Wiki nhắc 88/2015/QH13 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/108-2025-qh15.md).
-- [ ] **Wiki nhắc 06/2021/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2017-tt-bct.md).
-- [ ] **Wiki nhắc 28/2021/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2017-tt-bct.md, wiki/sources/48-2026-tt-bct.md).
-- [ ] **Wiki nhắc 98/2017/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2022-tt-bct.md, wiki/sources/765-qd-bct.md).
-- [ ] **Wiki nhắc 50/2005/QH11 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2026-qh16.md).
-- … và 89 điểm khác (xem bao-cao/diem-mu.json)
-
 ## Mã HS trong bảng không có trong biểu thuế (128)
 
 - [ ] **01/2024/TT-BNNPTNT: mã 03034900 không có trong biểu thuế** — danh-muc/01-2024-tt-bnnptnt.csv dòng 441 ("- - Loại khác - Cá trích nước lạnh (Clupea harengus, Clupea "). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
@@ -173,6 +127,50 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **09/2024/TT-BYT: mã 33045099 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1288 ("Calcifediol"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
 - [ ] **09/2024/TT-BYT: mã 33045099 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1289 ("Calcipotriol"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
 - … và 88 điểm khác (xem bao-cao/diem-mu.json)
+
+## Wiki nhắc văn bản chưa đăng ký (127)
+
+- [ ] **Wiki nhắc 121/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/cptpp.md, wiki/sources/127-qd-ttg-2026.md).
+- [ ] **Wiki nhắc 35/2019/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/dong-vat-hoang-da-nguy-cap.md).
+- [ ] **Wiki nhắc 31/2025/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/duoc-lieu-theo-luat-duoc-2016.md, wiki/summary/luat-duoc-va-phan-loai-hs.md).
+- [ ] **Wiki nhắc 1201/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/evfta.md, wiki/sources/126-qd-ttg-2026.md).
+- [ ] **Wiki nhắc 169/2016/TT-BTC nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/giay-phep-xuat-nhap-khau-mat-ma.md).
+- [ ] **Wiki nhắc 105/2022/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/go-rung.md, wiki/sources/17-2023-tt-bnnptnt.md).
+- [ ] **Wiki nhắc 18/2019/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/hang-cu-cam-nhap-khau.md, wiki/sources/48-2026-tt-bct.md).
+- [ ] **Wiki nhắc 09/2024/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/hang-cu-cam-nhap-khau.md, wiki/sources/48-2026-tt-bct.md).
+- [ ] **Wiki nhắc 14/2018/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/hang-hoa-bien-gioi.md, wiki/sources/33-2025-tt-bct.md, wiki/sources/38-2015-tt-btc.md).
+- [ ] **Wiki nhắc 55/2024/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/ktcl-bca-2026.md, wiki/concepts/thiet-bi-pccc.md, wiki/sources/125-2026-tt-bca.md).
+- [ ] **Wiki nhắc 6266/9981/QĐ-BCA nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/ktcl-bca-2026.md).
+- [ ] **Wiki nhắc 05/2018/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/ktcl-byt-attp-2024.md, wiki/concepts/phu-gia-thuc-pham-ins.md, wiki/sources/15-2024-tt-byt.md).
+- [ ] **Wiki nhắc 13/NQ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/rcep.md, wiki/sources/328-qd-ttg-2022.md).
+- [ ] **Wiki nhắc 01/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/rcep.md, wiki/sources/328-qd-ttg-2022.md).
+- [ ] **Wiki nhắc 21/2017/TT-BNNPTNT nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/thuoc-bvtv-nhap-khau.md).
+- [ ] **Wiki nhắc 122/2024/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/xuat-xu-fta.md, wiki/sources/33-2025-tt-bct.md).
+- [ ] **Wiki nhắc 33/2024/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/xuat-xu-fta.md).
+- [ ] **Wiki nhắc 31/2020/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/xuat-xu-fta.md).
+- [ ] **Wiki nhắc 14/2024/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/readings/105-2016-qh13/03-chuong-iii-quan-ly-thuoc.md).
+- [ ] **Wiki nhắc 12/2025/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/readings/105-2016-qh13/03-chuong-iii-quan-ly-thuoc.md).
+- [ ] **Wiki nhắc 15/2017/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/01-2022-tt-bnnptnt.md).
+- [ ] **Wiki nhắc 25/2016/TT-BNNPTNT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/01-2026-tt-bnnmt.md).
+- [ ] **Wiki nhắc 42/2013/QH13 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/02-2011-qh13.md, wiki/sources/81-2025-qh15.md).
+- [ ] **Wiki nhắc 09/1998/QH10 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/02-2011-qh13.md).
+- [ ] **Wiki nhắc 26/2004/QH11 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/02-2011-qh13.md).
+- [ ] **Wiki nhắc 58/2005/QH11 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/02-2011-qh13.md).
+- [ ] **Wiki nhắc 60/2014/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/03-2015-tt-btttt.md, wiki/sources/11-2024-tt-btttt.md).
+- [ ] **Wiki nhắc 40/2025/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/07-2026-tt-bct.md, wiki/sources/33-2025-tt-bct.md).
+- [ ] **Wiki nhắc 71/2007/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/09-2013-tt-btttt.md).
+- [ ] **Wiki nhắc 108/2016/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/10-2022-tt-btttt.md).
+- [ ] **Wiki nhắc 17/2017/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/10-2022-tt-btttt.md, wiki/sources/11-2024-tt-btttt.md).
+- [ ] **Wiki nhắc 28/2023/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/10-2024-tt-bkhcn.md).
+- [ ] **Wiki nhắc 08/2014/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/10-2024-tt-bkhcn.md).
+- [ ] **Wiki nhắc 68/2006/QH11 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/10-2024-tt-bxd.md, wiki/sources/49-2026-tt-bxd.md).
+- [ ] **Wiki nhắc 56/2024/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/108-2025-qh15.md, wiki/sources/38-2019-qh14.md).
+- [ ] **Wiki nhắc 88/2015/QH13 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/108-2025-qh15.md).
+- [ ] **Wiki nhắc 06/2021/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2017-tt-bct.md).
+- [ ] **Wiki nhắc 28/2021/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2017-tt-bct.md, wiki/sources/48-2026-tt-bct.md).
+- [ ] **Wiki nhắc 98/2017/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2022-tt-bct.md, wiki/sources/765-qd-bct.md).
+- [ ] **Wiki nhắc 50/2005/QH11 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2026-qh16.md).
+- … và 87 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Biểu thuế XNK Tổng cục nêu nhưng sổ chưa có (hs-code-api skill bieu-thue-xnk) (29)
 

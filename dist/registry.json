@@ -15175,14 +15175,11 @@
         "sua_doi": [
           {
             "so_hieu": "08/2015/NĐ-CP"
-          },
-          {
-            "so_hieu": "98/2015/NĐ-CP"
           }
         ],
         "bai_bo": [
           {
-            "so_hieu": "39/2018/NĐ-CP",
+            "so_hieu": "59/2018/NĐ-CP",
             "tu_ngay": "2025-08-15"
           }
         ]
@@ -15199,12 +15196,12 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "thẻ vanban.chinhphu.vn (docid=214375): ban hành 30-06-2025; hiệu lực 15-08-2025, riêng khoản 5, 6, 19 Điều 1 (sửa Điều 10, 11, 35 NĐ 08/2015) hiệu lực 01-07-2025 (nguyên văn Điều 4 từ OCR); bãi bỏ NĐ 39/2018/NĐ-CP (KTSTQ)",
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=214375): ban hành 30-06-2025; hiệu lực 15-08-2025, riêng khoản 5, 6, 19 Điều 1 (sửa Điều 10, 11, 35 NĐ 08/2015) hiệu lực 01-07-2025 (nguyên văn Điều 4 từ OCR); bãi bỏ NĐ 59/2018/NĐ-CP (sửa NĐ 08/2015 lần đầu — đính chính 21/10: bản OCR đọc nhầm 59→39, 08→98)",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-21",
         "boi": "zcode@ozvietnam"
       },
-      "ghi_chu": "Khoản 15 Điều 1 sửa Điều 16 NĐ 08/2015 (phân loại — TT 85/2026 viện dẫn \"NĐ 08/2015 Điều 16 sửa bởi NĐ 167/2025 khoản 15 Điều 1\"). Sửa cả phần kiểm tra, xác định trị giá hải quan của NĐ 08/2015. Bãi NĐ 39/2018/NĐ-CP (kiểm tra sau thông quan).",
+      "ghi_chu": "Khoản 15 Điều 1 sửa Điều 16 NĐ 08/2015 (phân loại — TT 85/2026 viện dẫn \"NĐ 08/2015 Điều 16 sửa bởi NĐ 167/2025 khoản 15 Điều 1\"). Sửa cả phần kiểm tra, xác định trị giá hải quan của NĐ 08/2015. Bãi bỏ NĐ 59/2018/NĐ-CP (văn bản sửa NĐ 08 lần đầu).",
       "tu_khoa": [
         "thu-tuc-hai-quan",
         "ktstq"
@@ -64425,7 +64422,8 @@
       "co_quan": "CP",
       "ngay_ban_hanh": "2018-04-20",
       "hieu_luc_tu": "2018-06-05",
-      "tinh_trang": "CON_HIEU_LUC",
+      "het_hieu_luc_tu": "2025-08-15",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "hai-quan/luat-khung"
       ],
@@ -64442,7 +64440,7 @@
         "boi": "legal-customs@ozvietnam"
       },
       "toan_van": "raw/download/datafiles.chinhphu.vn/2018/05/59-2018-nd-cp.pdf",
-      "ghi_chu": "Khởi tạo 2026-10-04; đã đọc toàn văn OCR 09/10/2026. Bổ sung: KTCL, cổng một cửa quốc gia, thủ tục HQ điện tử, địa điểm tập kết kiểm tra tập trung. Có thể bị thay thế một phần bởi Luật 11/2026/QH16 (hiệu lực 01/03/2027).",
+      "ghi_chu": "Khởi tạo 2026-10-04; đã đọc toàn văn OCR 09/10/2026. BỊ BÃI BỎ BỞI NĐ 167/2025/NĐ-CP TỪ 15-08-2025 (điều khoản thi hành). Nội dung sửa NĐ 08/2015 đã được NĐ 167/2025 tiếp quản. Có thể bị thay thế một phần bởi Luật 11/2026/QH16 (hiệu lực 01/03/2027).",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?docid=193550&pageid=27160",
@@ -64455,7 +64453,16 @@
       ],
       "slug": "59-2018-nd-cp",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "167/2025/NĐ-CP",
+            "quan_he": "bai_bo",
+            "so_hieu": "59/2018/NĐ-CP",
+            "tu_ngay": "2025-08-15"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "59/2025/TT-BYT",
