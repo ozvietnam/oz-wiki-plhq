@@ -85,12 +85,12 @@ flowchart LR
 flowchart LR
   n_01_2021_TT_BL_TBXH["01/2021/TT-BLĐTBXH<br/>hết hiệu lực"]
   n_22_2018_TT_BL_TBXH["22/2018/TT-BLĐTBXH<br/>hết hiệu lực"]
-  n_03_2022_TT_BYT["03/2022/TT-BYT<br/>còn hiệu lực"]
-  n_06_2011_TT_BYT["06/2011/TT-BYT<br/>còn hiệu lực"]
   n_04_2014_TT_BCT["04/2014/TT-BCT<br/>hết hiệu lực"]
   n_12_2018_TT_BCT["12/2018/TT-BCT<br/>hết hiệu lực một phần"]
   n_05_2007_QH12["05/2007/QH12<br/>còn hiệu lực"]
   n_78_2025_QH15["78/2025/QH15<br/>còn hiệu lực"]
+  n_09_2015_TT_BYT["09/2015/TT-BYT<br/>còn hiệu lực"]
+  n_06_2011_TT_BYT["06/2011/TT-BYT<br/>còn hiệu lực"]
   n_09_2024_TT_BYT["09/2024/TT-BYT<br/>còn hiệu lực"]
   n_06_2018_TT_BYT["06/2018/TT-BYT<br/>hết hiệu lực"]
   n_48_2018_TT_BYT["48/2018/TT-BYT<br/>hết hiệu lực"]
@@ -140,6 +140,7 @@ flowchart LR
   n_57_2022_N__CP["57/2022/NĐ-CP<br/>hết hiệu lực"]
   n_90_2024_N__CP["90/2024/NĐ-CP<br/>hết hiệu lực"]
   n_28_2026_TT_BCT["28/2026/TT-BCT<br/>còn hiệu lực"]
+  n_29_2020_TT_BYT["29/2020/TT-BYT<br/>còn hiệu lực"]
   n_29_2025_TT_BKHCN["29/2025/TT-BKHCN<br/>hết hiệu lực"]
   n_02_2024_TT_BTTTT["02/2024/TT-BTTTT<br/>chưa xác minh"]
   n_33_2026_TT_BCT["33/2026/TT-BCT<br/>còn hiệu lực"]
@@ -168,7 +169,6 @@ flowchart LR
   n_62_2024_TT_BGTVT["62/2024/TT-BGTVT<br/>hết hiệu lực"]
   n_71_2025_TT_BXD["71/2025/TT-BXD<br/>chưa xác minh"]
   n_73_2018_N__CP["73/2018/NĐ-CP<br/>chưa có trong sổ"]
-  n_64_2015_TT_BYT["64/2015/TT-BYT<br/>còn hiệu lực"]
   n_69_2025_QH15["69/2025/QH15<br/>còn hiệu lực"]
   n_06_2007_QH12["06/2007/QH12<br/>hết hiệu lực"]
   n_73_2021_QH14["73/2021/QH14<br/>còn hiệu lực"]
@@ -178,9 +178,9 @@ flowchart LR
   n_07_2023_N__CP["07/2023/NĐ-CP<br/>còn hiệu lực"]
   n_96_2023_N__CP["96/2023/NĐ-CP<br/>chưa có trong sổ"]
   n_01_2021_TT_BL_TBXH -->|thay thế từ 2021-07-18| n_22_2018_TT_BL_TBXH
-  n_03_2022_TT_BYT -->|sửa đổi| n_06_2011_TT_BYT
   n_04_2014_TT_BCT -->|bãi bỏ từ 2018-06-15| n_12_2018_TT_BCT
   n_05_2007_QH12 -->|sửa đổi| n_78_2025_QH15
+  n_09_2015_TT_BYT -->|sửa đổi| n_06_2011_TT_BYT
   n_09_2024_TT_BYT -->|bãi bỏ từ 2024-07-26| n_06_2018_TT_BYT
   n_09_2024_TT_BYT -->|bãi bỏ từ 2024-07-26| n_48_2018_TT_BYT
   n_09_2024_TT_BYT -->|bãi bỏ từ 2024-07-26| n_03_2021_TT_BYT
@@ -201,6 +201,7 @@ flowchart LR
   n_15_2024_TT_BYT -->|thay thế từ 2024-11-02| n_28_2021_TT_BYT
   n_15_2026_NQ_CP -->|tạm ngưng| n_46_2026_N__CP
   n_155_2018_N__CP -->|sửa đổi| n_15_2018_N__CP
+  n_155_2018_N__CP -->|sửa đổi| n_06_2011_TT_BYT
   n_16_2024_TT_BYT -->|bãi bỏ từ 2024-11-15| n_09_2018_TT_BYT
   n_16_2026_TT_BNV -->|thay thế từ 2026-07-28| n_01_2021_TT_BL_TBXH
   n_16_2026_TT_BNV -->|thay thế từ 2026-07-28| n_26_2018_TT_BL_TBXH
@@ -217,6 +218,7 @@ flowchart LR
   n_28_2026_N__CP -->|thay thế từ 2026-01-19| n_57_2022_N__CP
   n_28_2026_N__CP -->|thay thế từ 2026-01-19| n_90_2024_N__CP
   n_28_2026_TT_BCT -->|bãi bỏ Khoản 1 Điều 2 và Phụ lục 2 (danh mục ATTP) từ 2026-07-17| n_1182_Q__BCT
+  n_29_2020_TT_BYT -->|sửa đổi| n_06_2011_TT_BYT
   n_29_2025_TT_BKHCN -->|thay thế từ 2025-12-31| n_02_2024_TT_BTTTT
   n_33_2026_TT_BCT -->|thay thế| n_41_2023_TT_BCT
   n_34_2025_TT_BYT -->|sửa đổi| n_06_2011_TT_BYT
@@ -243,7 +245,6 @@ flowchart LR
   n_49_2026_TT_BXD -->|bãi bỏ Chương X, Phụ lục II và Phụ lục III từ 2026-07-01| n_71_2025_TT_BXD
   n_57_2022_N__CP -->|thay thế từ 2022-08-25| n_73_2018_N__CP
   n_62_2024_TT_BGTVT -->|sửa đổi khoản 2–3 Điều 3; Điều 6–7; thay Phụ lục I–II từ 2025-02-15| n_12_2022_TT_BGTVT
-  n_64_2015_TT_BYT -->|sửa đổi| n_06_2011_TT_BYT
   n_69_2025_QH15 -->|thay thế từ 2026-01-01| n_06_2007_QH12
   n_71_2025_TT_BXD -->|bãi bỏ Chương X, Phụ lục II và Phụ lục III (một phần) từ 2026-07-01| n_49_2026_TT_BXD
   n_73_2021_QH14 -->|thay thế từ 2022-01-01| n_23_2000_QH10

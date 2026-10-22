@@ -536,40 +536,6 @@
       }
     },
     {
-      "so_hieu": "03/2022/TT-BYT",
-      "loai": "THONG_TU",
-      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 06/2011/TT-BYT về quản lý mỹ phẩm",
-      "co_quan": "BYT",
-      "tinh_trang": "CON_HIEU_LUC",
-      "nhanh": [
-        "kiem-tra-chuyen-nganh/byt"
-      ],
-      "quan_he": {
-        "sua_doi": [
-          {
-            "so_hieu": "06/2011/TT-BYT"
-          }
-        ]
-      },
-      "nguon": [
-        {
-          "url": "https://luatvietnam.vn/y-te/van-ban-hop-nhat-09-vbhn-byt-nam-2025-do-bo-y-te-ban-hanh-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-406752-d5.html",
-          "truy_cap": "2026-10-22"
-        }
-      ],
-      "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu + vai trò sửa TT 06/2011 theo issue #224; ngày ban hành chưa đối chiếu — điểm mù",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-22",
-        "boi": "zcode@ozvietnam"
-      },
-      "ghi_chu": "Sửa TT 06/2011 (lần 2).",
-      "slug": "03-2022-tt-byt",
-      "bac_nguon_cao_nhat": "B",
-      "quan_he_nguoc": {}
-    },
-    {
       "so_hieu": "04/2014/TT-BCT",
       "loai": "THONG_TU",
       "ten": "Quy định chi tiết thi hành một số điều của Nghị định số 187/2013/NĐ-CP ngày 20 tháng 11 năm 2013 của Chính phủ quy định chi tiết thi hành Luật Thương mại về hoạt động mua bán hàng hóa quốc tế và các hoạt động đại lý mua, bán, gia công và quá cảnh hàng hóa với nước ngoài",
@@ -955,34 +921,47 @@
       ],
       "nguon": [
         {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=99376",
+          "truy_cap": "2026-10-22"
+        },
+        {
           "url": "https://luatvietnam.vn/y-te/van-ban-hop-nhat-09-vbhn-byt-nam-2025-do-bo-y-te-ban-hanh-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-406752-d5.html",
           "truy_cap": "2026-10-22"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "ban hành 25-01-2011, hiệu lực 01-04-2011 (issue #224 kiểm chứng nguồn công khai 21-10 + LuatVietnam 09/VBHN-BYT); chưa thấy trực tiếp thẻ vanban — điểm mù nâng nguồn A",
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 25/01/2011, hiệu lực 01/04/2011; chuỗi sửa đổi đối chiếu NGUYÊN VĂN đầu VBHN 09/VBHN-BYT (25/7/2025): NĐ 155/2018/NĐ-CP + TT 09/2015/TT-BYT + TT 29/2020/TT-BYT + TT 34/2025/TT-BYT",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-22",
         "boi": "zcode@ozvietnam"
       },
-      "ghi_chu": "Nền pháp lý mỹ phẩm; bị sửa bởi TT 64/2015, 03/2022, 34/2025; hợp nhất trong 09/VBHN-BYT (25-07-2025). Câu trả lời khách: bộ hiện hành đọc theo VBHN.",
+      "ghi_chu": "Nền pháp lý mỹ phẩm; còn hiệu lực. Bị sửa bởi TT 09/2015 (quảng cáo), NĐ 155/2018 (điều kiện đầu tư), TT 29/2020, TT 34/2025 (HL 18/8/2025). Đọc bản hợp nhất 09/VBHN-BYT thay bản gốc. CẢNH BÁO NGUỒN: các nhắc \"TT 64/2015/TT-BYT, 03/2022/TT-BYT sửa 06/2011\" trên web là NHIỄU (64/2015 là TT-BTNMT; 03/2022 là chức danh nghề nghiệp) — đã loại khỏi sổ. Điểm nhập khẩu theo VBHN: CFS (Đ4, miễn theo điều kiện CPTPP/ASEAN), ký điện tử (Đ5), nộp Cổng DVC quốc gia theo NĐ 118/2025/NĐ-CP (Đ7), số tiếp nhận Phiếu công bố có giá trị 05 năm (Đ10, PL 01-MP).",
+      "tu_khoa": [
+        "my-pham",
+        "cong-bo-my-pham"
+      ],
       "slug": "06-2011-tt-byt",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_sua_doi_boi": [
           {
-            "tu": "03/2022/TT-BYT",
+            "tu": "09/2015/TT-BYT",
+            "quan_he": "sua_doi",
+            "so_hieu": "06/2011/TT-BYT"
+          },
+          {
+            "tu": "155/2018/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "06/2011/TT-BYT"
+          },
+          {
+            "tu": "29/2020/TT-BYT",
             "quan_he": "sua_doi",
             "so_hieu": "06/2011/TT-BYT"
           },
           {
             "tu": "34/2025/TT-BYT",
-            "quan_he": "sua_doi",
-            "so_hieu": "06/2011/TT-BYT"
-          },
-          {
-            "tu": "64/2015/TT-BYT",
             "quan_he": "sua_doi",
             "so_hieu": "06/2011/TT-BYT"
           }
@@ -1431,6 +1410,46 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "09/2015/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Quy định về xác nhận nội dung quảng cáo đối với sản phẩm, hàng hóa, dịch vụ đặc biệt thuộc lĩnh vực quản lý của Bộ Y tế",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2015-05-25",
+      "hieu_luc_tu": "2015-07-16",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "06/2011/TT-BYT"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/y-te/van-ban-hop-nhat-09-vbhn-byt-nam-2025-do-bo-y-te-ban-hanh-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-406752-d5.html",
+          "truy_cap": "2026-10-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 25/5/2015, hiệu lực 16/7/2015 (trích nguyên văn mục 2 đầu VBHN 09/VBHN-BYT)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam",
+        "canh_bao": "Chưa đối chiếu tình trạng trên nguồn bậc A (chế độ xác nhận quảng cáo thay nhiều lần sau 2015 — cần rà riêng)."
+      },
+      "tu_khoa": [
+        "my-pham",
+        "quang-cao"
+      ],
+      "slug": "09-2015-tt-byt",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "09/2018/NĐ-CP",
@@ -14081,6 +14100,9 @@
         "sua_doi": [
           {
             "so_hieu": "15/2018/NĐ-CP"
+          },
+          {
+            "so_hieu": "06/2011/TT-BYT"
           }
         ]
       },
@@ -14108,7 +14130,8 @@
       "ghi_chu": "Sửa nhiều nghị định lĩnh vực BYT, trong đó có NĐ 15/2018/NĐ-CP (điều kiện ATTP, miễn công bố, GCN cơ sở đủ điều kiện ATTP). Bị sửa tiếp bởi NĐ 129/2024/NĐ-CP (chưa có trong sổ — điểm mù). Lưu ý NĐ 46/2026/NĐ-CP (thay thế 15/2018) đang bị tạm ngưng theo NQ 09/2026 và 15/2026/NQ-CP → 15/2018 (đã sửa bởi 155/2018) VẪN áp dụng.",
       "tu_khoa": [
         "attp",
-        "kiem-tra-attp"
+        "kiem-tra-attp",
+        "my-pham"
       ],
       "toan_van": "raw/download/datafiles.chinhphu.vn/155-2018-nd-cp.pdf",
       "slug": "155-2018-nd-cp",
@@ -35180,6 +35203,45 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "29/2020/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung và bãi bỏ một số văn bản quy phạm pháp luật do Bộ trưởng Bộ Y tế ban hành, liên tịch ban hành",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2020-12-31",
+      "hieu_luc_tu": "2021-02-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "06/2011/TT-BYT"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/y-te/van-ban-hop-nhat-09-vbhn-byt-nam-2025-do-bo-y-te-ban-hanh-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-406752-d5.html",
+          "truy_cap": "2026-10-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 31/12/2020, hiệu lực 15/02/2021 (trích nguyên văn mục 3 đầu VBHN 09/VBHN-BYT)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam",
+        "canh_bao": "Sửa/bãi bỏ nhiều văn bản BYT; phần đụng TT 06/2011 còn hiệu lực theo VBHN 25/7/2025 — chưa đối chiếu bậc A."
+      },
+      "tu_khoa": [
+        "my-pham"
+      ],
+      "slug": "29-2020-tt-byt",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "29/2025/TT-BKHCN",
       "loai": "THONG_TU",
       "ten": "Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn lĩnh vực công nghệ thông tin và viễn thông thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
@@ -43884,6 +43946,7 @@
       "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 06/2011/TT-BYT về quản lý mỹ phẩm",
       "co_quan": "BYT",
       "ngay_ban_hanh": "2025-07-03",
+      "hieu_luc_tu": "2025-08-18",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/byt"
@@ -43908,7 +43971,7 @@
         "ngay": "2026-10-22",
         "boi": "zcode@ozvietnam"
       },
-      "ghi_chu": "Sửa mới nhất TT 06/2011; TTHC sửa theo QĐ 2393/QĐ-BYT.",
+      "ghi_chu": "Sửa mới nhất TT 06/2011 (hiệu lực 18/8/2025 — đối chiếu nguyên văn VBHN 09/VBHN-BYT + medgate.vn): hồ sơ công bố trực tuyến + chữ ký điện tử, không bắt buộc dấu hộ kinh doanh, chuẩn hoá ghi thành phần/công thức, rút ngắn quy trình phản hồi. Kèm QĐ 2393/QĐ-BYT công bố TTHC sửa đổi.",
       "slug": "34-2025-tt-byt",
       "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
@@ -67956,40 +68019,6 @@
       "toan_van": "chua_co",
       "slug": "638-tb-tchq-2025",
       "bac_nguon_cao_nhat": "C",
-      "quan_he_nguoc": {}
-    },
-    {
-      "so_hieu": "64/2015/TT-BYT",
-      "loai": "THONG_TU",
-      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 06/2011/TT-BYT về quản lý mỹ phẩm",
-      "co_quan": "BYT",
-      "tinh_trang": "CON_HIEU_LUC",
-      "nhanh": [
-        "kiem-tra-chuyen-nganh/byt"
-      ],
-      "quan_he": {
-        "sua_doi": [
-          {
-            "so_hieu": "06/2011/TT-BYT"
-          }
-        ]
-      },
-      "nguon": [
-        {
-          "url": "https://luatvietnam.vn/y-te/van-ban-hop-nhat-09-vbhn-byt-nam-2025-do-bo-y-te-ban-hanh-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-406752-d5.html",
-          "truy_cap": "2026-10-22"
-        }
-      ],
-      "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu + vai trò sửa TT 06/2011 theo issue #224 (nguồn công khai 21-10); ngày ban hành chưa đối chiếu — điểm mù",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-22",
-        "boi": "zcode@ozvietnam"
-      },
-      "ghi_chu": "Sửa TT 06/2011 (lần 1).",
-      "slug": "64-2015-tt-byt",
-      "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
     },
     {
