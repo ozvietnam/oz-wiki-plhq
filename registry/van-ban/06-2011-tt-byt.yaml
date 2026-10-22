@@ -9,12 +9,15 @@ tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
 nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=99376
+    truy_cap: '2026-10-22'
   - url: https://luatvietnam.vn/y-te/van-ban-hop-nhat-09-vbhn-byt-nam-2025-do-bo-y-te-ban-hanh-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-406752-d5.html
     truy_cap: '2026-10-22'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: "ban hành 25-01-2011, hiệu lực 01-04-2011 (issue #224 kiểm chứng nguồn công khai 21-10 + LuatVietnam 09/VBHN-BYT); chưa thấy trực tiếp thẻ vanban — điểm mù nâng nguồn A"
+  muc: NGUON_A
+  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 25/01/2011, hiệu lực 01/04/2011; chuỗi sửa đổi đối chiếu NGUYÊN VĂN đầu VBHN 09/VBHN-BYT (25/7/2025): NĐ 155/2018/NĐ-CP + TT 09/2015/TT-BYT + TT 29/2020/TT-BYT + TT 34/2025/TT-BYT'
   hieu_luc_da_doi_chieu: false
   ngay: '2026-10-22'
   boi: zcode@ozvietnam
-ghi_chu: "Nền pháp lý mỹ phẩm; bị sửa bởi TT 64/2015, 03/2022, 34/2025; hợp nhất trong 09/VBHN-BYT (25-07-2025). Câu trả lời khách: bộ hiện hành đọc theo VBHN."
+ghi_chu: 'Nền pháp lý mỹ phẩm; còn hiệu lực. Bị sửa bởi TT 09/2015 (quảng cáo), NĐ 155/2018 (điều kiện đầu tư), TT 29/2020, TT 34/2025 (HL 18/8/2025). Đọc bản hợp nhất 09/VBHN-BYT thay bản gốc. CẢNH BÁO NGUỒN: các nhắc "TT 64/2015/TT-BYT, 03/2022/TT-BYT sửa 06/2011" trên web là NHIỄU (64/2015 là TT-BTNMT; 03/2022 là chức danh nghề nghiệp) — đã loại khỏi sổ. Điểm nhập khẩu theo VBHN: CFS (Đ4, miễn theo điều kiện CPTPP/ASEAN), ký điện tử (Đ5), nộp Cổng DVC quốc gia theo NĐ 118/2025/NĐ-CP (Đ7), số tiếp nhận Phiếu công bố có giá trị 05 năm (Đ10, PL 01-MP).'
+tu_khoa: [my-pham, cong-bo-my-pham]
