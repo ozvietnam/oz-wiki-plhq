@@ -1,8 +1,8 @@
 {
-  "phien_ban": "2026-10-21",
+  "phien_ban": "2026-10-22",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2298,
+  "tong": 2307,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -536,6 +536,40 @@
       }
     },
     {
+      "so_hieu": "03/2022/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 06/2011/TT-BYT về quản lý mỹ phẩm",
+      "co_quan": "BYT",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "06/2011/TT-BYT"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/y-te/van-ban-hop-nhat-09-vbhn-byt-nam-2025-do-bo-y-te-ban-hanh-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-406752-d5.html",
+          "truy_cap": "2026-10-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu + vai trò sửa TT 06/2011 theo issue #224; ngày ban hành chưa đối chiếu — điểm mù",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Sửa TT 06/2011 (lần 2).",
+      "slug": "03-2022-tt-byt",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "04/2014/TT-BCT",
       "loai": "THONG_TU",
       "ten": "Quy định chi tiết thi hành một số điều của Nghị định số 187/2013/NĐ-CP ngày 20 tháng 11 năm 2013 của Chính phủ quy định chi tiết thi hành Luật Thương mại về hoạt động mua bán hàng hóa quốc tế và các hoạt động đại lý mua, bán, gia công và quá cảnh hàng hóa với nước ngoài",
@@ -904,6 +938,60 @@
             "quan_he": "thay_the",
             "so_hieu": "06/2007/QH12",
             "tu_ngay": "2026-01-01"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "06/2011/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Quy định về quản lý mỹ phẩm",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2011-01-25",
+      "hieu_luc_tu": "2011-04-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/y-te/van-ban-hop-nhat-09-vbhn-byt-nam-2025-do-bo-y-te-ban-hanh-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-406752-d5.html",
+          "truy_cap": "2026-10-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "ban hành 25-01-2011, hiệu lực 01-04-2011 (issue #224 kiểm chứng nguồn công khai 21-10 + LuatVietnam 09/VBHN-BYT); chưa thấy trực tiếp thẻ vanban — điểm mù nâng nguồn A",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nền pháp lý mỹ phẩm; bị sửa bởi TT 64/2015, 03/2022, 34/2025; hợp nhất trong 09/VBHN-BYT (25-07-2025). Câu trả lời khách: bộ hiện hành đọc theo VBHN.",
+      "slug": "06-2011-tt-byt",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "03/2022/TT-BYT",
+            "quan_he": "sua_doi",
+            "so_hieu": "06/2011/TT-BYT"
+          },
+          {
+            "tu": "34/2025/TT-BYT",
+            "quan_he": "sua_doi",
+            "so_hieu": "06/2011/TT-BYT"
+          },
+          {
+            "tu": "64/2015/TT-BYT",
+            "quan_he": "sua_doi",
+            "so_hieu": "06/2011/TT-BYT"
+          }
+        ],
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "09/VBHN-BYT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "06/2011/TT-BYT"
           }
         ]
       }
@@ -1565,6 +1653,41 @@
       "toan_van": "raw/download/datafiles.chinhphu.vn/09-2026-nq-cp.pdf",
       "slug": "09-2026-nq-cp",
       "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "09/VBHN-BYT",
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Hợp nhất Thông tư quy định về quản lý mỹ phẩm",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2025-07-25",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "quan_he": {
+        "hop_nhat": [
+          {
+            "so_hieu": "06/2011/TT-BYT"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/y-te/van-ban-hop-nhat-09-vbhn-byt-nam-2025-do-bo-y-te-ban-hanh-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-406752-d5.html",
+          "truy_cap": "2026-10-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "hợp nhất ban hành 25-07-2025 (LuatVietnam 406752 + issue #224) của TT 06/2011 + các sửa đổi (64/2015, 03/2022, 34/2025)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "BẢN DOANH NGHIỆP CẦN ĐỌC — ưu tiên trích VBHN thay từng thông tư thành phần.",
+      "slug": "09-vbhn-byt-2025",
+      "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
     },
     {
@@ -13811,6 +13934,34 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "1536/QĐ-BYT",
+      "loai": "QUYET_DINH",
+      "ten": "Công bố danh mục thủ tục hành chính sửa đổi trong lĩnh vực quản lý mỹ phẩm",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2026-05-28",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx",
+          "truy_cap": "2026-10-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "ban hành 28-05-2026 theo issue #224 (kiểm chứng nguồn công khai 21-10)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Bản sửa TTHC mỹ phẩm mới nhất (28-05-2026).",
+      "slug": "1536-qd-byt-2026",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "154/2018/NĐ-CP",
       "loai": "NGHI_DINH",
       "ten": "Sửa đổi, bổ sung, bãi bỏ một số quy định về điều kiện đầu tư kinh doanh và kiểm tra chuyên ngành thuộc phạm vi quản lý của Bộ Khoa học và Công nghệ",
@@ -16622,6 +16773,34 @@
       "toan_van": "chua_co",
       "slug": "1759-tb-tchq-2020",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "176/2013/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định xử phạt vi phạm hành chính trong lĩnh vực y tế",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2013-11-13",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx",
+          "truy_cap": "2026-10-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "theo issue #224: còn hiệu lực, sửa bởi NĐ 114/2015/NĐ-CP (chưa nạp); CẦN KIỂM nghĩa định xử phạt y tế mới (nếu có ban hành 2024-2026) — điểm mù",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Xử phạt VPHC y tế (gồm mỹ phẩm). Trước khi trích mức phạt: kiểm VBHN/nghị định sửa mới nhất.",
+      "slug": "176-2013-nd-cp",
+      "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
     },
     {
@@ -29038,6 +29217,33 @@
       "toan_van": "chua_co",
       "slug": "239-tb-tchq-2019",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "2393/QĐ-BYT",
+      "loai": "QUYET_DINH",
+      "ten": "Công bố danh mục thủ tục hành chính sửa đổi, bổ sung trong lĩnh vực quản lý mỹ phẩm theo TT 34/2025/TT-BYT",
+      "co_quan": "BYT",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx",
+          "truy_cap": "2026-10-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu + vai trò theo issue #224 (kiểm chứng nguồn công khai 21-10); ngày chưa đối chiếu — điểm mù",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Công bố TTHC sửa theo TT 34/2025.",
+      "slug": "2393-qd-byt-2025",
+      "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
     },
     {
@@ -43673,6 +43879,41 @@
       }
     },
     {
+      "so_hieu": "34/2025/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 06/2011/TT-BYT về quản lý mỹ phẩm",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2025-07-03",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "06/2011/TT-BYT"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx",
+          "truy_cap": "2026-10-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "ban hành 03-07-2025 (thẻ TVPL 663703 + issue #224): CFS, hồ sơ công bố trực tuyến, số tiếp nhận phiếu công bố SP mỹ phẩm NK; hiệu lực chưa đối chiếu ngày cụ thể — điểm mù",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Sửa mới nhất TT 06/2011; TTHC sửa theo QĐ 2393/QĐ-BYT.",
+      "slug": "34-2025-tt-byt",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "3401/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -53674,31 +53915,29 @@
     {
       "so_hieu": "43/2017/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Về nhãn hàng hoá",
+      "ten": "Quy định về ghi nhãn hàng hóa",
       "co_quan": "CP",
       "ngay_ban_hanh": "2017-04-14",
-      "hieu_luc_tu": "2017-06-01",
-      "het_hieu_luc_tu": "2026-01-23",
-      "tinh_trang": "HET_HIEU_LUC",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "kiem-tra-chuyen-nganh/nhan-hang-hoa"
+        "quan-ly-ngoai-thuong"
       ],
-      "xac_minh": {
-        "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
-      },
-      "ghi_chu": "Hết hiệu lực 23/01/2026 (không phải 01/7/2026). Văn bản hiện điều chỉnh nhãn hàng hoá: CHƯA XÁC MINH. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
       "nguon": [
         {
-          "url": "https://vanban.chinhphu.vn/?docid=189385&pageid=27160",
-          "truy_cap": "2026-10-04"
+          "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx",
+          "truy_cap": "2026-10-22"
         }
       ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "theo issue #224: mẫu nhãn trong hồ sơ công bố mỹ phẩm; CẦN KIỂM nghị định thay thế/sửa (vd 111/2025?) — điểm mù nâng nguồn A",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Ghi nhãn hàng hóa (nhãn mỹ phẩm trong hồ sơ công bố).",
       "slug": "43-2017-nd-cp",
-      "bac_nguon_cao_nhat": "A",
+      "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {
         "bi_sua_doi_boi": [
           {
@@ -67720,6 +67959,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "64/2015/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 06/2011/TT-BYT về quản lý mỹ phẩm",
+      "co_quan": "BYT",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "06/2011/TT-BYT"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/y-te/van-ban-hop-nhat-09-vbhn-byt-nam-2025-do-bo-y-te-ban-hanh-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-406752-d5.html",
+          "truy_cap": "2026-10-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu + vai trò sửa TT 06/2011 theo issue #224 (nguồn công khai 21-10); ngày ban hành chưa đối chiếu — điểm mù",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Sửa TT 06/2011 (lần 1).",
+      "slug": "64-2015-tt-byt",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "64/TB-TCHQ/2024",
       "loai": "THONG_BAO",
       "loai_phan_loai": "XAC_DINH_TRUOC",
@@ -75715,6 +75988,33 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "7866/QĐ-BYT",
+      "loai": "QUYET_DINH",
+      "ten": "Công bố danh mục thủ tục hành chính trong lĩnh vực quản lý mỹ phẩm",
+      "co_quan": "BYT",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx",
+          "truy_cap": "2026-10-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu + vai trò theo issue #224; năm ban hành chưa đối chiếu — điểm mù",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "TTHC mỹ phẩm; bị sửa bởi QĐ 1536/QĐ-BYT (28-05-2026).",
+      "slug": "7866-qd-byt",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "79/2015/QH13",

@@ -1,6 +1,6 @@
-# Cây văn bản pháp luật XNK — 2026-10-21
+# Cây văn bản pháp luật XNK — 2026-10-22
 
-2298 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2307 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -2254,9 +2254,10 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Quản lý ngoại thương `quan-ly-ngoai-thuong`
 
-1 văn bản, 1 chưa hết hiệu lực.
+2 văn bản, 2 chưa hết hiệu lực.
 
 - 🟡 [42/2019/TT-BCT](../registry/van-ban/42-2019-tt-bct.yaml) — Sửa đổi, bổ sung một số quy định về chế độ báo cáo định kỳ tại các Thông tư do Bộ trưởng Bộ Công Thương ban hành hoặc liên tịch ban hành
+- 🟢 [43/2017/NĐ-CP](../registry/van-ban/43-2017-nd-cp.yaml) — Quy định về ghi nhãn hàng hóa
 
 ### Luật Quản lý ngoại thương và nghị định `quan-ly-ngoai-thuong/luat-khung`
 
@@ -2403,13 +2404,16 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Y tế `kiem-tra-chuyen-nganh/byt`
 
-27 văn bản, 19 chưa hết hiệu lực.
+36 văn bản, 28 chưa hết hiệu lực.
 
 - 🟢 [26/2026/TT-BYT](../registry/van-ban/26-2026-tt-byt.yaml) — Danh mục dược liệu, thuốc cổ truyền theo mức độ rủi ro (rủi ro trung bình)
 - 🟢 [27/2026/TT-BYT](../registry/van-ban/27-2026-tt-byt.yaml) — Ban hành Danh mục thực phẩm; dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm có mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Y tế
 - 🟢 [28/2026/TT-BYT](../registry/van-ban/28-2026-tt-byt.yaml) — Ban hành Danh mục thuốc hóa dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc, bán thành phẩm thuốc và bán thành phẩm dược liệu có mức độ rủi ro cao, mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Y tế
 - 🟢 [24/2026/TT-BYT](../registry/van-ban/24-2026-tt-byt.yaml) — Xác định mức độ rủi ro và biện pháp quản lý đối với thiết bị y tế
+- 🟢 [1536/QĐ-BYT](../registry/van-ban/1536-qd-byt-2026.yaml) — Công bố danh mục thủ tục hành chính sửa đổi trong lĩnh vực quản lý mỹ phẩm
 - 🟢 [55/2025/TT-BYT](../registry/van-ban/55-2025-tt-byt.yaml) — Quy định về kê đơn thuốc cổ truyền, thuốc dược liệu và kê đơn kết hợp trong cơ sở khám chữa bệnh
+- 🟢 [09/VBHN-BYT](../registry/van-ban/09-vbhn-byt-2025.yaml) — Hợp nhất Thông tư quy định về quản lý mỹ phẩm
+- 🟢 [34/2025/TT-BYT](../registry/van-ban/34-2025-tt-byt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 06/2011/TT-BYT về quản lý mỹ phẩm
 - 🟢 [163/2025/NĐ-CP](../registry/van-ban/163-2025-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Dược
 - 🟢 [44/2024/QH15](../registry/van-ban/44-2024-qh15.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Dược
 - 🟢 [129/2024/NĐ-CP](../registry/van-ban/129-2024-nd-cp.yaml) — Sửa đổi, bổ sung một số Điều của Nghị định số 91/2016/NĐ-CP và Nghị định số 155/2018/NĐ-CP
@@ -2428,10 +2432,16 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - ⚫ [06/2018/TT-BYT](../registry/van-ban/06-2018-tt-byt.yaml) — Ban hành Danh mục thuốc, nguyên liệu làm thuốc dùng cho người và mỹ phẩm xuất khẩu, nhập khẩu được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam _(hết hiệu lực 2024-07-26)_
 - ⚫ [54/2017/NĐ-CP](../registry/van-ban/54-2017-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp thi hành Luật Dược _(hết hiệu lực 2025-07-01)_
 - 🟢 [105/2016/QH13](../registry/van-ban/105-2016-qh13.yaml) — Luật Dược
+- 🟢 [176/2013/NĐ-CP](../registry/van-ban/176-2013-nd-cp.yaml) — Quy định xử phạt vi phạm hành chính trong lĩnh vực y tế
+- 🟢 [06/2011/TT-BYT](../registry/van-ban/06-2011-tt-byt.yaml) — Quy định về quản lý mỹ phẩm
 - ⚫ [34/2005/QH11](../registry/van-ban/34-2005-qh11.yaml) — Luật Dược 2005 (bản gốc, đã hết hiệu lực) _(hết hiệu lực 2017-01-01)_
+- 🟢 [03/2022/TT-BYT](../registry/van-ban/03-2022-tt-byt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 06/2011/TT-BYT về quản lý mỹ phẩm
 - 🟢 [05/2022/TT-BYT](../registry/van-ban/05-2022-tt-byt.yaml) — Thông tư về thiết bị y tế (được TT 24/2026/TT-BYT sửa đổi)
 - ⚫ [14/2018/TT-BYT](../registry/van-ban/14-2018-tt-byt.yaml) — Danh mục thiết bị y tế xuất khẩu, nhập khẩu _(hết hiệu lực 2024-11-16)_
+- 🟢 [2393/QĐ-BYT](../registry/van-ban/2393-qd-byt-2025.yaml) — Công bố danh mục thủ tục hành chính sửa đổi, bổ sung trong lĩnh vực quản lý mỹ phẩm theo TT 34/2025/TT-BYT
 - ❔ [59/2025/TT-BYT](../registry/van-ban/59-2025-tt-byt.yaml) — TT 59/2025/TT-BYT (bị bãi bởi 24/2026)
+- 🟢 [64/2015/TT-BYT](../registry/van-ban/64-2015-tt-byt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 06/2011/TT-BYT về quản lý mỹ phẩm
+- 🟢 [7866/QĐ-BYT](../registry/van-ban/7866-qd-byt.yaml) — Công bố danh mục thủ tục hành chính trong lĩnh vực quản lý mỹ phẩm
 
 ### Danh mục thuộc Bộ Nông nghiệp và Môi trường `kiem-tra-chuyen-nganh/bnnmt`
 
@@ -2508,11 +2518,10 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Nhãn hàng hoá `kiem-tra-chuyen-nganh/nhan-hang-hoa`
 
-3 văn bản, 1 chưa hết hiệu lực.
+2 văn bản, 1 chưa hết hiệu lực.
 
 - 🟢 [37/2026/NĐ-CP](../registry/van-ban/37-2026-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Chất lượng sản phẩm, hàng hóa
 - ⚫ [111/2021/NĐ-CP](../registry/van-ban/111-2021-nd-cp.yaml) — Sửa đổi, bổ sung Nghị định 43/2017/NĐ-CP về nhãn hàng hoá _(hết hiệu lực 2026-01-23)_
-- ⚫ [43/2017/NĐ-CP](../registry/van-ban/43-2017-nd-cp.yaml) — Về nhãn hàng hoá _(hết hiệu lực 2026-01-23)_
 
 ## Phòng vệ thương mại (chống bán phá giá, chống trợ cấp, tự vệ) `phong-ve-thuong-mai`
 
