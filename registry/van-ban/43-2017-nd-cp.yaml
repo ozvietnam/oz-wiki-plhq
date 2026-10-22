@@ -1,21 +1,19 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 43/2017/NĐ-CP
 loai: NGHI_DINH
-ten: Về nhãn hàng hoá
+ten: Quy định về ghi nhãn hàng hóa
 co_quan: CP
 ngay_ban_hanh: '2017-04-14'
-hieu_luc_tu: '2017-06-01'
-het_hieu_luc_tu: '2026-01-23'
-tinh_trang: HET_HIEU_LUC
+tinh_trang: CON_HIEU_LUC
 nhanh:
-  - kiem-tra-chuyen-nganh/nhan-hang-hoa
-xac_minh:
-  muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: 'Hết hiệu lực 23/01/2026 (không phải 01/7/2026). Văn bản hiện điều chỉnh nhãn hàng hoá: CHƯA XÁC MINH. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
+  - quan-ly-ngoai-thuong
 nguon:
-  - url: https://vanban.chinhphu.vn/?docid=189385&pageid=27160
-    truy_cap: '2026-10-04'
+  - url: https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx
+    truy_cap: '2026-10-22'
+xac_minh:
+  muc: NGUON_B
+  pham_vi: "theo issue #224: mẫu nhãn trong hồ sơ công bố mỹ phẩm; CẦN KIỂM nghị định thay thế/sửa (vd 111/2025?) — điểm mù nâng nguồn A"
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-22'
+  boi: zcode@ozvietnam
+ghi_chu: "Ghi nhãn hàng hóa (nhãn mỹ phẩm trong hồ sơ công bố)."
