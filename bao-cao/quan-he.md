@@ -1,4 +1,4 @@
-# Quan hệ cũ – mới giữa các văn bản — 2026-10-22
+# Quan hệ cũ – mới giữa các văn bản — 2026-10-23
 
 Mũi tên đi từ văn bản MỚI tới văn bản bị tác động. Sinh tự động bằng `node tools/dung.mjs`.
 
@@ -392,6 +392,8 @@ flowchart LR
   n_38_2019_QH14["38/2019/QH14<br/>hết hiệu lực"]
   n_56_2024_QH15["56/2024/QH15<br/>chưa có trong sổ"]
   n_134_2016_N__CP["134/2016/NĐ-CP<br/>còn hiệu lực"]
+  n_26_2015_TT_BTC["26/2015/TT-BTC<br/>còn hiệu lực"]
+  n_219_2013_TT_BTC["219/2013/TT-BTC<br/>còn hiệu lực"]
   n_72_2026_N__CP["72/2026/NĐ-CP<br/>còn hiệu lực"]
   n_26_2023_N__CP["26/2023/NĐ-CP<br/>còn hiệu lực"]
   n_107_2016_QH13 -->|thay thế từ 2016-09-01| n_45_2005_QH11
@@ -401,6 +403,7 @@ flowchart LR
   n_108_2025_QH15 -->|thay thế từ 2026-07-01| n_56_2024_QH15
   n_18_2021_N__CP -->|sửa đổi| n_134_2016_N__CP
   n_182_2025_N__CP -->|sửa đổi| n_134_2016_N__CP
+  n_26_2015_TT_BTC -->|sửa đổi| n_219_2013_TT_BTC
   n_45_2005_QH11 -->|bãi bỏ từ 2016-09-01| n_107_2016_QH13
   n_72_2026_N__CP -->|sửa đổi thuế suất NK ưu đãi một số mặt hàng xăng, dầu từ 2026-03-09| n_26_2023_N__CP
 ```

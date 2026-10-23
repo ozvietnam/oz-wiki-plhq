@@ -1,8 +1,8 @@
 {
-  "phien_ban": "2026-10-22",
+  "phien_ban": "2026-10-23",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2307,
+  "tong": 2315,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -731,6 +731,38 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "05/2014/TT-NHNN",
+      "loai": "THONG_TU",
+      "ten": "Quy định về quản lý ngoại hối đối với giao dịch vãng lai của tổ chức, cá nhân Việt Nam",
+      "co_quan": "NHNN",
+      "ngay_ban_hanh": "2014-06-17",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Ngan-hang/Thong-tu-05-2014-TT-NHNN-255527.aspx",
+          "truy_cap": "2026-10-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "TT 05/2014/TT-NHNN — bộ chứng từ mua ngoại tệ/thanh toán quốc tế cho giao dịch thương mại KHÔNG có tờ khai hải quan (đúng ca giao thẳng nước thứ ba)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Điểm ăn tiền ca #227: hàng không về VN → không có tờ khai → thanh toán/mua ngoại tệ theo bộ chứng từ thương mại (hợp đồng, hóa đơn, chứng từ thanh toán) theo TT này.",
+      "tu_khoa": [
+        "giao-thang-nuoc-thu-ba",
+        "thue"
+      ],
+      "slug": "05-2014-tt-nhnn",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "05/2016/TT-BTTTT",
@@ -9456,6 +9488,46 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "123/2020/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Về hóa đơn, chứng từ",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2020-09-19",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Tai-chinh-Nha-nuoc/Nghi-dinh-123-2020-ND-CP-379445.aspx",
+          "truy_cap": "2026-10-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "NĐ 123/2020 — hóa đơn điện tử; cách lập hóa đơn hàng không chịu thuế GTGT; hướng dẫn bởi TT 78/2021/TT-BTC",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Hóa đơn hàng giao thẳng nước thứ ba — ghi hàng hóa không chịu thuế GTGT theo NĐ này + TT 78/2021 (#227).",
+      "tu_khoa": [
+        "giao-thang-nuoc-thu-ba",
+        "thue"
+      ],
+      "slug": "123-2020-nd-cp",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "78/2021/TT-BTC",
+            "quan_he": "huong_dan",
+            "so_hieu": "123/2020/NĐ-CP"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "123/2022/NĐ-CP",
       "loai": "NGHI_DINH",
       "ten": "Biểu thuế NK ưu đãi AHKFTA",
@@ -10598,6 +10670,39 @@
       "toan_van": "chua_co",
       "slug": "1294-tb-tchq-2023",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "13/2008/QH12",
+      "loai": "LUAT",
+      "ten": "Luật Thuế giá trị gia tăng",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2008-06-03",
+      "hieu_luc_tu": "2009-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Tai-chinh-Nha-nuoc/Luat-thue-gia-tri-gia-tang-13-2008-QH12-96190.aspx",
+          "truy_cap": "2026-10-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "Luật GTGT 2008 — Điều 5 (hàng hóa dịch vụ không chịu GTGT, gồm mua bán hàng nước ngoài không qua VN); sửa bởi Luật 31/2013/QH13 (khoản sửa Điều 5)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Điều 5: mua bán hàng nước ngoài không qua lãnh thổ VN KHÔNG chịu GTGT — trái tim ca giao thẳng (#227). Sửa bởi Luật 31/2013/QH13 (chưa nạp — điểm mù).",
+      "tu_khoa": [
+        "giao-thang-nuoc-thu-ba",
+        "thue"
+      ],
+      "slug": "13-2008-qh12",
+      "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
     },
     {
@@ -26706,6 +26811,47 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "219/2013/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Hướng dẫn thi hành Luật Thuế GTGT và Luật Quản lý thuế",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2013-12-31",
+      "hieu_luc_tu": "2014-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Tai-chinh-Nha-nuoc/Thong-tu-219-2013-TT-BTC-215512.aspx",
+          "truy_cap": "2026-10-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "TT 219/2013 hướng dẫn GTGT — Điều 5 mẫu 05: hàng hóa dịch vụ không chịu GTGT; sửa bởi TT 26/2015/TT-BTC",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Điều 5 TT 219/2013: hóa đơn hàng không chịu thuế GTGT mẫu 05 — dùng cho hàng giao thẳng nước thứ ba (#227).",
+      "tu_khoa": [
+        "giao-thang-nuoc-thu-ba",
+        "thue"
+      ],
+      "slug": "219-2013-tt-btc",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "26/2015/TT-BTC",
+            "quan_he": "sua_doi",
+            "so_hieu": "219/2013/TT-BTC"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "21902/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "CHUA_XAC_DINH",
@@ -27072,6 +27218,38 @@
       "toan_van": "chua_co",
       "slug": "22016-tb-tchq-2023",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "221/2013/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Hướng dẫn Luật Thuế thu nhập doanh nghiệp",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2013-12-31",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Tai-chinh-Nha-nuoc/Thong-tu-221-2013-TT-BTC-166188.aspx",
+          "truy_cap": "2026-10-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "TT 221/2013 — kế toán xác định doanh thu chi phí hoạt động mua bán quốc tế (tái hiện trong giá vốn hàng giao thẳng)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Kế toán TNDN cho hoạt động mua bán quốc tế (#227).",
+      "tu_khoa": [
+        "giao-thang-nuoc-thu-ba",
+        "thue"
+      ],
+      "slug": "221-2013-tt-btc",
+      "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
     },
     {
@@ -31280,6 +31458,44 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "26/2015/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 219/2013/TT-BTC",
+      "co_quan": "BTC",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "219/2013/TT-BTC"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Tai-chinh-Nha-nuoc/Thong-tu-219-2013-TT-BTC-215512.aspx",
+          "truy_cap": "2026-10-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "Sửa TT 219/2013 (theo issue #227 kiểm chứng nguồn công khai); ngày ban hành chưa đối chiếu — điểm mù",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Sửa TT 219/2013 — hiệu lực theo bản đã sửa.",
+      "tu_khoa": [
+        "giao-thang-nuoc-thu-ba",
+        "thue"
+      ],
+      "slug": "26-2015-tt-btc",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "26/2018/TT-BLĐTBXH",
@@ -45618,6 +45834,39 @@
       "toan_van": "chua_co",
       "slug": "3594-tb-tchq-2024",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "36/2005/QH11",
+      "loai": "LUAT",
+      "ten": "Luật Thương mại",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2005-06-14",
+      "hieu_luc_tu": "2006-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Thuong-mai/Luat-Thuong-mai-36-2005-QH11-5707.aspx",
+          "truy_cap": "2026-10-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "Luật Thương mại 2005 — nền quyền mua bán hàng hóa quốc tế của thương nhân VN (Điều 27, 28: mua bán hàng hóa quốc tế)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Điều 27-28 là căn cứ quyền mua bán hàng quốc tế của thương nhân VN — ca giao thẳng nước thứ ba (#227).",
+      "tu_khoa": [
+        "giao-thang-nuoc-thu-ba",
+        "thue"
+      ],
+      "slug": "36-2005-qh11",
+      "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
     },
     {
@@ -75975,6 +76224,44 @@
       "toan_van": "chua_co",
       "slug": "779-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "78/2021/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Hướng dẫn một số điều về hóa đơn, chứng từ theo NĐ 123/2020/NĐ-CP",
+      "co_quan": "BTC",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          {
+            "so_hieu": "123/2020/NĐ-CP"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Tai-chinh-Nha-nuoc/Nghi-dinh-123-2020-ND-CP-379445.aspx",
+          "truy_cap": "2026-10-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "TT 78/2021 hướng dẫn NĐ 123/2020 (mẫu hóa đơn, ghi chú hàng không chịu thuế); ngày HL chưa đối chiếu — điểm mù",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-22",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Hướng dẫn NĐ 123/2020.",
+      "tu_khoa": [
+        "giao-thang-nuoc-thu-ba",
+        "thue"
+      ],
+      "slug": "78-2021-tt-btc",
+      "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
     },
     {

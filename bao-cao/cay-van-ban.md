@@ -1,6 +1,6 @@
-# Cây văn bản pháp luật XNK — 2026-10-22
+# Cây văn bản pháp luật XNK — 2026-10-23
 
-2307 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2315 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -75,9 +75,16 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Thuế xuất khẩu, nhập khẩu và các thuế khác khâu nhập khẩu `thue`
 
-1 văn bản, 1 chưa hết hiệu lực.
+8 văn bản, 8 chưa hết hiệu lực.
 
 - 🟢 [108/2025/QH15](../registry/van-ban/108-2025-qh15.yaml) — Luật Quản lý thuế
+- 🟢 [123/2020/NĐ-CP](../registry/van-ban/123-2020-nd-cp.yaml) — Về hóa đơn, chứng từ
+- 🟢 [05/2014/TT-NHNN](../registry/van-ban/05-2014-tt-nhnn.yaml) — Quy định về quản lý ngoại hối đối với giao dịch vãng lai của tổ chức, cá nhân Việt Nam
+- 🟢 [219/2013/TT-BTC](../registry/van-ban/219-2013-tt-btc.yaml) — Hướng dẫn thi hành Luật Thuế GTGT và Luật Quản lý thuế
+- 🟢 [221/2013/TT-BTC](../registry/van-ban/221-2013-tt-btc.yaml) — Hướng dẫn Luật Thuế thu nhập doanh nghiệp
+- 🟢 [13/2008/QH12](../registry/van-ban/13-2008-qh12.yaml) — Luật Thuế giá trị gia tăng
+- 🟢 [26/2015/TT-BTC](../registry/van-ban/26-2015-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 219/2013/TT-BTC
+- 🟢 [78/2021/TT-BTC](../registry/van-ban/78-2021-tt-btc.yaml) — Hướng dẫn một số điều về hóa đơn, chứng từ theo NĐ 123/2020/NĐ-CP
 
 ### Luật thuế XK, NK; Luật Quản lý thuế `thue/luat-thue`
 
@@ -2254,10 +2261,11 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Quản lý ngoại thương `quan-ly-ngoai-thuong`
 
-2 văn bản, 2 chưa hết hiệu lực.
+3 văn bản, 3 chưa hết hiệu lực.
 
 - 🟡 [42/2019/TT-BCT](../registry/van-ban/42-2019-tt-bct.yaml) — Sửa đổi, bổ sung một số quy định về chế độ báo cáo định kỳ tại các Thông tư do Bộ trưởng Bộ Công Thương ban hành hoặc liên tịch ban hành
 - 🟢 [43/2017/NĐ-CP](../registry/van-ban/43-2017-nd-cp.yaml) — Quy định về ghi nhãn hàng hóa
+- 🟢 [36/2005/QH11](../registry/van-ban/36-2005-qh11.yaml) — Luật Thương mại
 
 ### Luật Quản lý ngoại thương và nghị định `quan-ly-ngoai-thuong/luat-khung`
 
