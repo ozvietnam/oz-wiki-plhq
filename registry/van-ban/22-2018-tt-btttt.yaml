@@ -1,39 +1,20 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 22/2018/TT-BTTTT
 loai: THONG_TU
-ten: Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm
+ten: "Quy định danh mục hàng hóa xuất khẩu, nhập khẩu lĩnh vực in, phát hành thuộc diện quản lý chuyên ngành của Bộ Thông tin và Truyền thông"
 co_quan: BTTTT
-ngay_ban_hanh: '2018-12-28'
-hieu_luc_tu: '2019-02-12'
+ngay_ban_hanh: '2018-11-16'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - quan-ly-ngoai-thuong/giay-phep
+  - kiem-tra-chuyen-nganh/bct
 nguon:
-  - url: https://vanban.chinhphu.vn/default.aspx?docid=195976&pageid=27160
-    truy_cap: '2026-10-04'
-  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/12/28195/25392-1-2019107-10822-2018-tt-btttt.pdf
-    truy_cap: '2026-10-04'
-trich_dan_trong_bieu_thue: 31
-danh_muc_hs:
-  tep: danh-muc/22-2018-tt-btttt.csv
-  nguon: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/12/28195/25392-1-2019107-10822-2018-tt-btttt.pdf
-  trich_boi: cursor-agent@ozvietnam
-  ngay: '2026-10-12'
-  da_doi_chieu: false
-  ghi_chu: 'Bảng CSV sẵn có trên main (33 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
+  - url: https://thuvienphapluat.vn/van-ban/Thong-tu-11-2024-TT-BTTTT-danh-muc-hang-hoa-xuat-nhap-khau-linh-vuc-in-639655.aspx
+    truy_cap: '2026-10-22'
 xac_minh:
-  muc: NGUON_A
-  pham_vi: 'PDF Công báo số 107+108 ngày 29-01-2019 (lớp chữ): Điều 2 khoản 1 hiệu lực 12-02-2019 và thay thế 16/2015, 41/2016 TT-BTTTT; tình trạng hiện tại: sổ ghi TT 11/2024/TT-BTTTT sửa đổi (chưa đối chiếu nguồn A trên chính 11/2024) — không thay toàn bộ; chưa thấy văn bản bãi bỏ toàn bộ 22/2018'
-  hieu_luc_da_doi_chieu: true
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (31 mã HS). GHI CHÚ NGHIỆP VỤ (hs-code-api): Sửa đổi bởi TT 11/2024/TT-BTTTT; hợp nhất tại VB 09/VBHN-BTTTT (2024).'
-toan_van: raw/download/congbaocdn.chinhphu.vn/22-2018-tt-btttt.pdf
-quan_he:
-  thay_the:
-    - so_hieu: 16/2015/TT-BTTTT
-      tu_ngay: '2019-02-12'
-      can_cu: Điều 2 khoản 1 điểm a TT 22/2018/TT-BTTTT
-    - so_hieu: 41/2016/TT-BTTTT
-      tu_ngay: '2019-02-12'
-      can_cu: Điều 2 khoản 1 điểm b TT 22/2018/TT-BTTTT
+  muc: NGUON_B
+  pham_vi: "danh mục HH XNK lĩnh vực in (mã HS 4905, 8443… thuộc diện VB xác nhận đăng ký NK / GP NK); sửa bởi TT 11/2024 (HL 07/11/2024)"
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-22'
+  boi: zcode@ozvietnam
+ghi_chu: "Danh mục HH XNK lĩnh vực in — mã 4905, 8443; sửa bởi TT 11/2024."
+tu_khoa: [xuat-ban, in, xuat-nhap-khau]
