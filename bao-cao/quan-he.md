@@ -105,10 +105,7 @@ flowchart LR
   n_76_VBHN_VPQH["76-VBHN/VPQH<br/>chưa xác minh"]
   n_11_2017_TT_BCT["11/2017/TT-BCT<br/>hết hiệu lực"]
   n_11_2024_TT_BTTTT["11/2024/TT-BTTTT<br/>còn hiệu lực"]
-  n_05_2016_TT_BTTTT["05/2016/TT-BTTTT<br/>chưa xác minh"]
   n_22_2018_TT_BTTTT["22/2018/TT-BTTTT<br/>còn hiệu lực"]
-  n_03_2015_TT_BTTTT["03/2015/TT-BTTTT<br/>chưa xác minh"]
-  n_09_2013_TT_BTTTT["09/2013/TT-BTTTT<br/>chưa xác minh"]
   n_111_2021_N__CP["111/2021/NĐ-CP<br/>hết hiệu lực"]
   n_43_2017_N__CP["43/2017/NĐ-CP<br/>còn hiệu lực"]
   n_129_2024_N__CP["129/2024/NĐ-CP<br/>còn hiệu lực"]
@@ -191,10 +188,7 @@ flowchart LR
   n_105_2016_QH13 -->|sửa đổi Sửa đổi, bổ sung một số điều Luật Dược (Điều 2, 11, 13, 29, 34, 38, 41, 54, 60, 69...) từ 2025-07-01| n_44_2024_QH15
   n_105_2016_QH13 -->|hợp nhất Văn bản hợp nhất toàn bộ Luật 105/2016, 28/2018, 44/2024 từ 2026-03-01| n_76_VBHN_VPQH
   n_11_2017_TT_BCT -->|bãi bỏ Bãi bỏ toàn bộ từ 2018-06-15| n_12_2018_TT_BCT
-  n_11_2024_TT_BTTTT -->|sửa đổi từ 2024-11-07| n_05_2016_TT_BTTTT
-  n_11_2024_TT_BTTTT -->|sửa đổi Điều 1 từ 2024-11-07| n_22_2018_TT_BTTTT
-  n_11_2024_TT_BTTTT -->|sửa đổi từ 2024-11-07| n_03_2015_TT_BTTTT
-  n_11_2024_TT_BTTTT -->|sửa đổi nhóm 2.1.2 Phụ lục số 02 từ 2024-11-07| n_09_2013_TT_BTTTT
+  n_11_2024_TT_BTTTT -->|sửa đổi| n_22_2018_TT_BTTTT
   n_111_2021_N__CP -->|sửa đổi| n_43_2017_N__CP
   n_129_2024_N__CP -->|sửa đổi| n_91_2016_N__CP
   n_129_2024_N__CP -->|sửa đổi| n_155_2018_N__CP
@@ -338,9 +332,8 @@ flowchart LR
   n_40_2017_TT_BQP["40/2017/TT-BQP<br/>chưa xác minh"]
   n_187_2013_N__CP["187/2013/NĐ-CP<br/>hết hiệu lực"]
   n_09_2018_N__CP["09/2018/NĐ-CP<br/>hết hiệu lực"]
-  n_22_2018_TT_BTTTT["22/2018/TT-BTTTT<br/>còn hiệu lực"]
-  n_16_2015_TT_BTTTT["16/2015/TT-BTTTT<br/>chưa xác minh"]
-  n_41_2016_TT_BTTTT["41/2016/TT-BTTTT<br/>chưa xác minh"]
+  n_25_2018_N__CP["25/2018/NĐ-CP<br/>còn hiệu lực"]
+  n_195_2013_N__CP["195/2013/NĐ-CP<br/>còn hiệu lực"]
   n_292_2026_N__CP["292/2026/NĐ-CP<br/>còn hiệu lực"]
   n_69_2018_N__CP["69/2018/NĐ-CP<br/>hết hiệu lực"]
   n_33_2025_TT_BCT["33/2025/TT-BCT<br/>còn hiệu lực"]
@@ -351,6 +344,7 @@ flowchart LR
   n_31_2018_TT_BCT["31/2018/TT-BCT<br/>chưa xác minh"]
   n_43_2013_TT_BCT["43/2013/TT-BCT<br/>chưa xác minh"]
   n_48_2026_TT_BCT["48/2026/TT-BCT<br/>còn hiệu lực"]
+  n_60_2014_N__CP["60/2014/NĐ-CP<br/>còn hiệu lực"]
   n_01_2024_TT_BNNPTNT -->|thay thế từ 2024-03-20| n_11_2021_TT_BNNPTNT
   n_01_2024_TT_BNNPTNT -->|sửa đổi mục 3.1, mục 4, mục 8, mục 9 Phụ lục từ 2024-03-20| n_16_2021_TT_BNNPTNT
   n_01_2024_TT_BNNPTNT -->|sửa đổi bãi bỏ Điều 9 và Phụ lục XXIII từ 2024-03-20| n_01_2022_TT_BNNPTNT
@@ -365,8 +359,7 @@ flowchart LR
   n_13_2023_Q__TTg -->|thay thế từ 2023-06-01| n_28_2020_Q__TTg
   n_173_2018_TT_BQP -->|thay thế từ 2019-01-01| n_40_2017_TT_BQP
   n_187_2013_N__CP -->|bãi bỏ từ 2018-06-15| n_09_2018_N__CP
-  n_22_2018_TT_BTTTT -->|thay thế từ 2019-02-12| n_16_2015_TT_BTTTT
-  n_22_2018_TT_BTTTT -->|thay thế từ 2019-02-12| n_41_2016_TT_BTTTT
+  n_25_2018_N__CP -->|sửa đổi| n_195_2013_N__CP
   n_292_2026_N__CP -->|thay thế từ 2026-09-05| n_69_2018_N__CP
   n_33_2025_TT_BCT -->|sửa đổi bãi bỏ điểm c khoản 2 Điều 3; thay thế Phụ lục I từ 2025-07-21| n_01_2018_TT_BCT
   n_34_2025_TT_BCT -->|sửa đổi từ 2025-07-21| n_02_2018_TT_BCT
@@ -378,6 +371,7 @@ flowchart LR
   n_48_2026_TT_BCT -->|bãi bỏ khoản 1 Điều 1 và Phụ lục I (Phụ lục I còn thực hiện chuyển tiếp đến 31-12-2026 — Điều 21 khoản 3) từ 2026-09-05| n_08_2023_TT_BCT
   n_48_2026_TT_BCT -->|bãi bỏ Điều 3 và Phụ lục III từ 2026-09-05| n_41_2019_TT_BCT
   n_48_2026_TT_BCT -->|bãi bỏ Điều 25 từ 2026-09-05| n_42_2019_TT_BCT
+  n_60_2014_N__CP -->|sửa đổi| n_195_2013_N__CP
 ```
 
 ## Thuế xuất khẩu, nhập khẩu và các thuế khác khâu nhập khẩu

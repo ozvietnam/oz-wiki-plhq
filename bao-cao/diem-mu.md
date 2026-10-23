@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-10-23
 
-Tổng 4757 điểm: **19 cao**, 383 vừa, 4355 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 4774 điểm: **19 cao**, 388 vừa, 4367 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -9,19 +9,20 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Được nhắc nhưng chưa có trong sổ | Cao | 8 | `he-thong-hoa` |
 | Cảnh báo nguồn | Cao | 3 | `truy-vet-nguon` |
 | Mâu thuẫn hiệu lực | Cao | 1 | `hieu-luc` |
-| Chưa có nguồn chính thống | Vừa | 2051 | `truy-vet-nguon` |
-| Wiki nhắc văn bản chưa đăng ký | Vừa | 133 | `lien-ket-cheo` |
-| Mã HS trong bảng không có trong biểu thuế | Vừa | 128 | `danh-muc-hs` |
+| Chưa có nguồn chính thống | Vừa | 2058 | `truy-vet-nguon` |
+| Wiki nhắc văn bản chưa đăng ký | Vừa | 132 | `lien-ket-cheo` |
+| Mã HS trong bảng không có trong biểu thuế | Vừa | 123 | `danh-muc-hs` |
 | Biểu thuế XNK Tổng cục nêu nhưng sổ chưa có (hs-code-api skill bieu-thue-xnk) | Vừa | 29 | `he-thong-hoa` |
-| Văn bản danh mục chưa trích bảng mã HS | Vừa | 26 | `danh-muc-hs` |
+| Văn bản danh mục chưa trích bảng mã HS | Vừa | 28 | `danh-muc-hs` |
 | Thư viện hs-code-api ghi khác sổ | Vừa | 14 | `hieu-luc` |
 | Văn bản khung thiếu thông tin | Vừa | 10 | `he-thong-hoa` |
-| Bảng dẫn chiếu mã HS sang văn bản chưa có bảng | Vừa | 7 | `danh-muc-hs` |
+| Bảng dẫn chiếu mã HS sang văn bản chưa có bảng | Vừa | 6 | `danh-muc-hs` |
+| Ưu tiên đối chiếu — theo số mã HS đang dẫn (hs-code-api) | Vừa | 2 | `hieu-luc` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 1 | `doc-hieu` |
-| Hiệu lực chưa đối chiếu nguồn A | Thấp | 2201 | `hieu-luc` |
-| Chưa có toàn văn | Thấp | 98 | `nap-lam-sach` |
+| Hiệu lực chưa đối chiếu nguồn A | Thấp | 2207 | `hieu-luc` |
+| Chưa có toàn văn | Thấp | 104 | `nap-lam-sach` |
+| Văn bản của cơ quan đã sáp nhập | Thấp | 13 | `do-tham` |
 | Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay | Thấp | 13 | `hieu-luc` |
-| Văn bản của cơ quan đã sáp nhập | Thấp | 12 | `do-tham` |
 | HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp) | Thấp | 8 | `hieu-luc` |
 | Chưa xếp vào cây | Thấp | 7 | `cay-du-lieu` |
 | Mã HS có hàng thật chưa đối chiếu KTCN 2026 (hs-code-api /api/demand) | Thấp | 7 | `danh-muc-hs` |
@@ -47,7 +48,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 
 - [ ] **43/2017/NĐ-CP còn ghi "còn hiệu lực" nhưng đã bị bãi bỏ bởi 37/2026/NĐ-CP** — Đối chiếu nguồn A rồi sửa tinh_trang/het_hieu_luc_tu trong registry/van-ban/43-2017-nd-cp.yaml, hoặc sửa quan hệ ở văn bản 37/2026/NĐ-CP nếu sai.
 
-## Chưa có nguồn chính thống (2051)
+## Chưa có nguồn chính thống (2058)
 
 - [ ] **03/2019/TT-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **05/2014/TT-NHNN: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
@@ -55,18 +56,24 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **09/2015/TT-BYT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **09/VBHN-BYT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **11/2018/TT-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **11/2024/TT-BTTTT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **123/2020/NĐ-CP: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **13/2008/QH12: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **1357/QĐ-TCHQ: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **1536/QĐ-BYT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **16/2015/TT-BTTTT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **176/2013/NĐ-CP: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **195/2013/NĐ-CP: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **1966/QĐ-TCHQ: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **2169/QĐ-CHQ: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **219/2013/TT-BTC: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **22/2018/TT-BTTTT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **221/2013/TT-BTC: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **2284/QĐ-BKHCN: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **2393/QĐ-BYT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **25/2018/NĐ-CP: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **26/2015/TT-BTC: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **29/2012/QH12: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **29/2020/TT-BYT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **32/2020/TT-BYT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **3366/CHQ-GSQL: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
@@ -77,21 +84,15 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **43/2017/NĐ-CP: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **5133/BCT-HC: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **55/2025/TT-BYT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **60/2014/NĐ-CP: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **6735/TB-TCHQ: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **78/2021/TT-BTC: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **7866/QĐ-BYT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **08/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **09/2018/NĐ-CP: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **10/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **100/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **100/TB-TCHQ/2021: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1005/TB-TCHQ/2025: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **101/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1010/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1011/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- … và 2011 điểm khác (xem bao-cao/diem-mu.json)
+- … và 2018 điểm khác (xem bao-cao/diem-mu.json)
 
-## Wiki nhắc văn bản chưa đăng ký (133)
+## Wiki nhắc văn bản chưa đăng ký (132)
 
 - [ ] **Wiki nhắc 121/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/cptpp.md, wiki/sources/127-qd-ttg-2026.md).
 - [ ] **Wiki nhắc 35/2019/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/dong-vat-hoang-da-nguy-cap.md).
@@ -119,7 +120,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Wiki nhắc 09/1998/QH10 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/02-2011-qh13.md).
 - [ ] **Wiki nhắc 26/2004/QH11 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/02-2011-qh13.md).
 - [ ] **Wiki nhắc 58/2005/QH11 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/02-2011-qh13.md).
-- [ ] **Wiki nhắc 60/2014/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/03-2015-tt-btttt.md, wiki/sources/11-2024-tt-btttt.md).
 - [ ] **Wiki nhắc 40/2025/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/07-2026-tt-bct.md, wiki/sources/33-2025-tt-bct.md).
 - [ ] **Wiki nhắc 71/2007/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/09-2013-tt-btttt.md).
 - [ ] **Wiki nhắc 108/2016/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/10-2022-tt-btttt.md).
@@ -133,9 +133,10 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Wiki nhắc 28/2021/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2017-tt-bct.md, wiki/sources/48-2026-tt-bct.md).
 - [ ] **Wiki nhắc 98/2017/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2022-tt-bct.md, wiki/sources/765-qd-bct.md).
 - [ ] **Wiki nhắc 50/2005/QH11 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2026-qh16.md).
-- … và 93 điểm khác (xem bao-cao/diem-mu.json)
+- [ ] **Wiki nhắc 99/2015/QH13 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2026-qh16.md).
+- … và 92 điểm khác (xem bao-cao/diem-mu.json)
 
-## Mã HS trong bảng không có trong biểu thuế (128)
+## Mã HS trong bảng không có trong biểu thuế (123)
 
 - [ ] **01/2024/TT-BNNPTNT: mã 03034900 không có trong biểu thuế** — danh-muc/01-2024-tt-bnnptnt.csv dòng 441 ("- - Loại khác - Cá trích nước lạnh (Clupea harengus, Clupea "). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
 - [ ] **01/2024/TT-BNNPTNT: mã 44129990 không có trong biểu thuế** — danh-muc/01-2024-tt-bnnptnt.csv dòng 3008 ("kg/m3 loài cây lá kim Gỗ đã được làm tăng độ rắn, ở dạng khố"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
@@ -177,7 +178,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **09/2024/TT-BYT: mã 30343290 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1219 ("Betamethasone"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
 - [ ] **09/2024/TT-BYT: mã 33045099 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1288 ("Calcifediol"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
 - [ ] **09/2024/TT-BYT: mã 33045099 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1289 ("Calcipotriol"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- … và 88 điểm khác (xem bao-cao/diem-mu.json)
+- … và 83 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Biểu thuế XNK Tổng cục nêu nhưng sổ chưa có (hs-code-api skill bieu-thue-xnk) (29)
 
@@ -211,7 +212,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 65/2017/TT-BTC** — văn bản bị thay (theo biểu) — Danh mục hàng hóa XNK. Thêm vào sổ: node tools/them-van-ban.mjs "65/2017/TT-BTC"
 - [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 924/QĐ-BNN** — văn bản bị thay (theo biểu) — HH là mẫu vật động vật rừng nguy cấp, quý, hiếm và động vật thuộc các phụ lục CITES / HH là mẫu vật thực vật rừng nguy cấp, quý hiếm; thực vật thuộc các phụ lục CITES / Đồ trang sức làm bằng chất liệu thực vật rừng, động vật rừng nguy cấp, quý, hiếm và động v. Thêm vào sổ: node tools/them-van-ban.mjs "924/QĐ-BNN"
 
-## Văn bản danh mục chưa trích bảng mã HS (26)
+## Văn bản danh mục chưa trích bảng mã HS (28)
 
 - [ ] **Chưa trích bảng mã HS: 4814/QĐ-BCA** — Văn bản danh mục chưa có danh-muc/4814-qd-bca-2026.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
 - [ ] **Chưa trích bảng mã HS: 49-PL1/2026/TT-BXD** — Văn bản danh mục chưa có danh-muc/49-pl1-2026-tt-bxd.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
@@ -220,6 +221,8 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Chưa trích bảng mã HS: 1725/QĐ-BCT** — Văn bản danh mục chưa có danh-muc/1725-qd-bct-2024.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 61 mã.
 - [ ] **Chưa trích bảng mã HS: 173/2018/TT-BQP** — Văn bản danh mục chưa có danh-muc/173-2018-tt-bqp.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 41 mã.
 - [ ] **Chưa trích bảng mã HS: 41/2019/TT-BCT** — Văn bản danh mục chưa có danh-muc/41-2019-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 32 mã.
+- [ ] **Chưa trích bảng mã HS: 22/2018/TT-BTTTT** — Văn bản danh mục chưa có danh-muc/22-2018-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 31 mã.
+- [ ] **Chưa trích bảng mã HS: 11/2024/TT-BTTTT** — Văn bản danh mục chưa có danh-muc/11-2024-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 23 mã.
 - [ ] **Chưa trích bảng mã HS: 6266/QĐ-BCA** — Văn bản danh mục chưa có danh-muc/6266-qd-bca-2023.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 19 mã.
 - [ ] **Chưa trích bảng mã HS: 45/2023/TT-BCT** — Văn bản danh mục chưa có danh-muc/45-2023-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 15 mã.
 - [ ] **Chưa trích bảng mã HS: 9981/QĐ-BCA** — Văn bản danh mục chưa có danh-muc/9981-qd-bca.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 12 mã.
@@ -270,7 +273,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **915/QĐ-BCT: chưa có tiêu đề, ngày, nguồn** — Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.
 - [ ] **924/QĐ-BNN-TCLN: chưa có tiêu đề, ngày, nguồn** — Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.
 
-## Bảng dẫn chiếu mã HS sang văn bản chưa có bảng (7)
+## Bảng dẫn chiếu mã HS sang văn bản chưa có bảng (6)
 
 - [ ] **16/2024/TT-BYT dẫn mã HS sang 3 — chưa có trong sổ** — danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 3. Thêm 3 vào sổ rồi trích bảng để mã HS của các dòng này tra được.
 - [ ] **16/2024/TT-BYT dẫn mã HS sang 4 — chưa có trong sổ** — danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 4. Thêm 4 vào sổ rồi trích bảng để mã HS của các dòng này tra được.
@@ -278,13 +281,17 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **16/2024/TT-BYT dẫn mã HS sang 6 — chưa có trong sổ** — danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 6. Thêm 6 vào sổ rồi trích bảng để mã HS của các dòng này tra được.
 - [ ] **16/2024/TT-BYT dẫn mã HS sang 7 — chưa có trong sổ** — danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 7. Thêm 7 vào sổ rồi trích bảng để mã HS của các dòng này tra được.
 - [ ] **16/2024/TT-BYT dẫn mã HS sang 8 — chưa có trong sổ** — danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 8. Thêm 8 vào sổ rồi trích bảng để mã HS của các dòng này tra được.
-- [ ] **22/2018/TT-BTTTT dẫn mã HS sang trừ đơn sắc (đen trắng) — chưa có trong sổ** — danh-muc/22-2018-tt-btttt.csv có dòng không ghi mã mà dẫn chiếu trừ đơn sắc (đen trắng). Thêm trừ đơn sắc (đen trắng) vào sổ rồi trích bảng để mã HS của các dòng này tra được.
+
+## Ưu tiên đối chiếu — theo số mã HS đang dẫn (hs-code-api) (2)
+
+- [ ] **Đối chiếu hiệu lực 22/2018/TT-BTTTT — 31 mã HS đang dẫn** — Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 31 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn. Kẹt cứng thì ghi xac_minh.chan (xem docs/huong-dan-agent.md) thay vì săn lặp.
+- [ ] **Đối chiếu hiệu lực 11/2024/TT-BTTTT — 23 mã HS đang dẫn** — Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 23 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn. Kẹt cứng thì ghi xac_minh.chan (xem docs/huong-dan-agent.md) thay vì săn lặp.
 
 ## Sắp có hiệu lực (≤60 ngày) (1)
 
 - [ ] **142/2026/TT-BTC có hiệu lực ngày 2026-11-16** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 
-## Hiệu lực chưa đối chiếu nguồn A (2201)
+## Hiệu lực chưa đối chiếu nguồn A (2207)
 
 - [ ] **2711/QĐ-BKHCN: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **01/2018/TT-BCT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
@@ -326,13 +333,14 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **1012/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **1013/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **1014/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- … và 2161 điểm khác (xem bao-cao/diem-mu.json)
+- … và 2167 điểm khác (xem bao-cao/diem-mu.json)
 
-## Chưa có toàn văn (98)
+## Chưa có toàn văn (104)
 
 - [ ] **114/2025/QH15: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "114/2025/QH15" --ghi
 - [ ] **13/2008/QH12: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "13/2008/QH12" --ghi
 - [ ] **15/2012/QH13: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "15/2012/QH13" --ghi
+- [ ] **29/2012/QH12: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "29/2012/QH12" --ghi
 - [ ] **36/2005/QH11: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "36/2005/QH11" --ghi
 - [ ] **41/2013/QH13: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "41/2013/QH13" --ghi
 - [ ] **69/2025/QH15: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "69/2025/QH15" --ghi
@@ -355,6 +363,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **10/2020/TT-BTTTT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "10/2020/TT-BTTTT" --ghi
 - [ ] **102/2020/QH14: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "102/2020/QH14" --ghi
 - [ ] **11/2021/TT-BNNPTNT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "11/2021/TT-BNNPTNT" --ghi
+- [ ] **11/2024/TT-BTTTT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "11/2024/TT-BTTTT" --ghi
 - [ ] **12/2019/TT-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "12/2019/TT-BCT" --ghi
 - [ ] **121/QĐ-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "121/QĐ-BCT" --ghi
 - [ ] **123/2020/NĐ-CP: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "123/2020/NĐ-CP" --ghi
@@ -368,9 +377,23 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **154/2018/NĐ-CP: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "154/2018/NĐ-CP" --ghi
 - [ ] **1578/QĐ-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "1578/QĐ-BCT" --ghi
 - [ ] **16/2015/TT-BTTTT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "16/2015/TT-BTTTT" --ghi
-- [ ] **16/2021/TT-BNNPTNT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "16/2021/TT-BNNPTNT" --ghi
-- [ ] **176/2013/NĐ-CP: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "176/2013/NĐ-CP" --ghi
-- … và 58 điểm khác (xem bao-cao/diem-mu.json)
+- … và 64 điểm khác (xem bao-cao/diem-mu.json)
+
+## Văn bản của cơ quan đã sáp nhập (13)
+
+- [ ] **01/2024/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
+- [ ] **10/2022/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN** — Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.
+- [ ] **11/2018/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN** — Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.
+- [ ] **11/2024/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN** — Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.
+- [ ] **1357/QĐ-TCHQ (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
+- [ ] **16/2015/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN** — Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.
+- [ ] **17/2023/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
+- [ ] **1966/QĐ-TCHQ (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
+- [ ] **22/2018/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN** — Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.
+- [ ] **30/2014/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
+- [ ] **33/2014/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
+- [ ] **3366/CHQ-GSQL (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
+- [ ] **6735/TB-TCHQ (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
 
 ## Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay (13)
 
@@ -387,21 +410,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Biểu thuế bieu-thue@2026.04.05 còn dẫn 715/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC** — văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (8 mã HS) — Áp thuế tự vệ đối với Phân bón (Nhiều nước). Sổ ghi HET_HIEU_LUC từ 2022-09-07 (đã đối chiếu nguồn A), không có văn bản thay/bãi trong sổ — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.
 - [ ] **Biểu thuế bieu-thue@2026.04.05 còn dẫn 693/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC** — văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (4 mã HS) — Áp dụng biện pháp chống lẩn tránh PVTM đối với Thép cuộn, thép dây (Nhiều nước). Sổ ghi HET_HIEU_LUC từ 2026-03-22 (đã đối chiếu nguồn A), không có văn bản thay/bãi trong sổ — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.
 - [ ] **Biểu thuế bieu-thue@2026.04.05 còn dẫn 2491/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC** — văn bản hiện hành của biểu/danh mục — Áp thuế chống bán phá giá đối với Một số sản phẩm ván sợi gỗ (TH, CN). Sổ ghi bị thay bởi 121/QĐ-BCT (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.
-
-## Văn bản của cơ quan đã sáp nhập (12)
-
-- [ ] **01/2024/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
-- [ ] **10/2022/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN** — Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.
-- [ ] **11/2018/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN** — Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.
-- [ ] **11/2024/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN** — Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.
-- [ ] **1357/QĐ-TCHQ (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **17/2023/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
-- [ ] **1966/QĐ-TCHQ (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **22/2018/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN** — Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.
-- [ ] **30/2014/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
-- [ ] **33/2014/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
-- [ ] **3366/CHQ-GSQL (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **6735/TB-TCHQ (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
 
 ## HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp) (8)
 

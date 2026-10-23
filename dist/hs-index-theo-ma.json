@@ -4,13 +4,13 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "luoc_do": "docs/luoc-do-danh-muc-hs.md",
  "cach_tra": "Khoá là nhóm mã HS trong bảng (4, 6 hoặc 8 số). Tra mã 8 số: ghép mọi khoá là tiền tố của mã (độ dài 4, 6) và khoá trùng 8 số. Cạnh giữ nguyên dieu_kien — \"trừ loại…\" là trừ diện, không phải diện áp. canh_bao_ma = nhóm mã không có trong biểu thuế đối chiếu — tra ra các khoá này thì dừng và đối chiếu lại văn bản gốc, đừng kết luận diện áp. tien_le_tb_tchq = mật độ thông báo phân loại của Tổng cục (bậc C, tham khảo).",
- "tong_nhom_ma": 6416,
- "tong_canh": 13193,
+ "tong_nhom_ma": 6387,
+ "tong_canh": 13160,
  "bieu_thue_doi_chieu": {
   "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/tax.json",
   "phien_ban": "2026-10-16",
   "tong_ma": 11871,
-  "nhom_ngoai_bieu_thue": 114,
+  "nhom_ngoai_bieu_thue": 109,
   "ghi_chu": "Nhóm mã không có trong bản chụp biểu thuế — thường là mã AHTN cũ (văn bản danh mục ban hành theo AHTN 2017/2022, biểu thuế đã bỏ) hoặc trích lệch. KHÔNG dùng các khoá này làm căn cứ diện áp cho người khai; đối chiếu lại văn bản gốc (ví dụ phân tích danh-muc/kiem-tra-ma-hs-2026.md)."
  },
  "canh_bao_ma": [
@@ -50,11 +50,6 @@
   "42032100",
   "44129990",
   "44140000",
-  "49051000",
-  "49059100",
-  "49059900",
-  "49119139",
-  "49119190",
   "51121100",
   "570320",
   "57032010",
@@ -68549,134 +68544,6 @@
     "phu_luc": "Phụ lục I"
    }
   ],
-  "49011000": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Nhập khẩu để kinh doanh: văn bản xác nhận đăng ký nhập khẩu; không kinh doanh: giấy phép nhập khẩu (Điều 39 41 Luật Xuất bản)",
-    "nhom": "I",
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "49019100": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Nhập khẩu để kinh doanh: văn bản xác nhận đăng ký nhập khẩu; không kinh doanh: giấy phép nhập khẩu",
-    "nhom": "I",
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "49019910": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Nhập khẩu để kinh doanh: văn bản xác nhận đăng ký nhập khẩu; không kinh doanh: giấy phép nhập khẩu",
-    "nhom": "I",
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "49019990": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Nhập khẩu để kinh doanh: văn bản xác nhận đăng ký nhập khẩu; không kinh doanh: giấy phép nhập khẩu",
-    "nhom": "I",
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "49030000": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Nhập khẩu để kinh doanh: văn bản xác nhận đăng ký nhập khẩu; không kinh doanh: giấy phép nhập khẩu",
-    "nhom": "I",
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "49051000": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Nhập khẩu để kinh doanh: văn bản xác nhận đăng ký nhập khẩu; không kinh doanh: giấy phép nhập khẩu",
-    "nhom": "I",
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "49059100": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Nhập khẩu để kinh doanh: văn bản xác nhận đăng ký nhập khẩu; không kinh doanh: giấy phép nhập khẩu",
-    "nhom": "I",
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "49059900": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Nhập khẩu để kinh doanh: văn bản xác nhận đăng ký nhập khẩu; không kinh doanh: giấy phép nhập khẩu",
-    "nhom": "I",
-    "phu_luc": "Phụ lục II"
-   }
-  ],
   "49100000": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -68691,116 +68558,6 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
-   },
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Nhập khẩu để kinh doanh: văn bản xác nhận đăng ký nhập khẩu; không kinh doanh: giấy phép nhập khẩu",
-    "nhom": "I",
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "49111010": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Không yêu cầu văn bản xác nhận đăng ký nhập khẩu và không yêu cầu giấy phép nhập khẩu",
-    "nhom": "I",
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "49111090": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Nhập khẩu để kinh doanh: văn bản xác nhận đăng ký nhập khẩu; không kinh doanh: giấy phép nhập khẩu",
-    "nhom": "I",
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "49119129": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Nhập khẩu để kinh doanh: văn bản xác nhận đăng ký nhập khẩu; không kinh doanh: giấy phép nhập khẩu",
-    "nhom": "I",
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "49119139": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Nhập khẩu để kinh doanh: văn bản xác nhận đăng ký nhập khẩu; không kinh doanh: giấy phép nhập khẩu",
-    "nhom": "I",
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "49119190": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Nhập khẩu để kinh doanh: văn bản xác nhận đăng ký nhập khẩu; không kinh doanh: giấy phép nhập khẩu",
-    "nhom": "I",
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "49119990": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Nhập khẩu để kinh doanh: văn bản xác nhận đăng ký nhập khẩu; không kinh doanh: giấy phép nhập khẩu",
-    "nhom": "I",
-    "phu_luc": "Phụ lục II"
    }
   ],
   "50010000": [
@@ -103635,134 +103392,6 @@
     "phu_luc": "Phụ lục I"
    }
   ],
-  "84431100": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Giấy phép nhập khẩu BTTTT (chỉ áp dụng HS 8 số; xuất khẩu không cần giấy phép)",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
-   }
-  ],
-  "84431200": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Giấy phép nhập khẩu BTTTT (chỉ áp dụng HS 8 số; xuất khẩu không cần giấy phép)",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
-   }
-  ],
-  "84431300": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Giấy phép nhập khẩu BTTTT (chỉ áp dụng HS 8 số; xuất khẩu không cần giấy phép)",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
-   }
-  ],
-  "84431400": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Giấy phép nhập khẩu BTTTT (chỉ áp dụng HS 8 số; xuất khẩu không cần giấy phép)",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
-   }
-  ],
-  "84431500": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Giấy phép nhập khẩu BTTTT (chỉ áp dụng HS 8 số; xuất khẩu không cần giấy phép)",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
-   }
-  ],
-  "84431600": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Giấy phép nhập khẩu BTTTT (chỉ áp dụng HS 8 số; xuất khẩu không cần giấy phép)",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
-   }
-  ],
-  "84431700": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Giấy phép nhập khẩu BTTTT (chỉ áp dụng HS 8 số; xuất khẩu không cần giấy phép)",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
-   }
-  ],
-  "84433111": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Giấy phép nhập khẩu BTTTT chỉ cấp cho máy in có chức năng photocopy màu (đa màu)",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
-   }
-  ],
   "84433119": [
    {
     "so_hieu": "11/2018/TT-BTTTT",
@@ -103777,22 +103406,6 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
-   }
-  ],
-  "84433121": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Giấy phép nhập khẩu BTTTT chỉ cấp cho máy in có chức năng photocopy màu (đa màu)",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
    }
   ],
   "84433129": [
@@ -103825,20 +103438,6 @@
     "dieu_kien": "CHỈ sản phẩm có chức năng mật mã (mã hoá/giải mã, ký số) bảo vệ thông tin không thuộc bí mật nhà nước; QCVN 4:2026/BQP, QCVN 5:2016/BQP, QCVN 6:2016/BQP; Công bố hợp quy trên cơ sở kết quả chứng nhận hợp quy của tổ chức chứng nhận được chỉ định; phương thức 5 hoặc 7 theo TT 14/2026/TT-BKHCN; hàng nhập khẩu kiểm tra nhà nước về chất lượng",
     "nhom": "3",
     "phu_luc": "Phụ lục"
-   },
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Giấy phép nhập khẩu BTTTT chỉ cấp cho máy in có chức năng photocopy màu (đa màu)",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
    }
   ],
   "84433139": [
@@ -103885,20 +103484,6 @@
     "dieu_kien": "CHỈ sản phẩm có chức năng mật mã (mã hoá/giải mã, ký số) bảo vệ thông tin không thuộc bí mật nhà nước; QCVN 4:2026/BQP, QCVN 5:2016/BQP, QCVN 6:2016/BQP; Công bố hợp quy trên cơ sở kết quả chứng nhận hợp quy của tổ chức chứng nhận được chỉ định; phương thức 5 hoặc 7 theo TT 14/2026/TT-BKHCN; hàng nhập khẩu kiểm tra nhà nước về chất lượng",
     "nhom": "3",
     "phu_luc": "Phụ lục"
-   },
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Giấy phép nhập khẩu BTTTT chỉ cấp cho máy in có chức năng photocopy màu (đa màu)",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
    }
   ],
   "84433199": [
@@ -103915,20 +103500,6 @@
     "dieu_kien": "CHỈ sản phẩm có chức năng mật mã (mã hoá/giải mã, ký số) bảo vệ thông tin không thuộc bí mật nhà nước; QCVN 4:2026/BQP, QCVN 5:2016/BQP, QCVN 6:2016/BQP; Công bố hợp quy trên cơ sở kết quả chứng nhận hợp quy của tổ chức chứng nhận được chỉ định; phương thức 5 hoặc 7 theo TT 14/2026/TT-BKHCN; hàng nhập khẩu kiểm tra nhà nước về chất lượng",
     "nhom": "3",
     "phu_luc": "Phụ lục"
-   },
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Giấy phép nhập khẩu BTTTT chỉ cấp cho máy in có chức năng photocopy màu (đa màu)",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
    }
   ],
   "84433219": [
@@ -103947,22 +103518,6 @@
     "phu_luc": "Phụ lục"
    }
   ],
-  "84433221": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Giấy phép nhập khẩu BTTTT chỉ cấp cho máy in phun kỹ thuật số tốc độ >60 tờ/phút khổ A4 hoặc khổ in >A3",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
-   }
-  ],
   "84433229": [
    {
     "so_hieu": "11/2018/TT-BTTTT",
@@ -103977,22 +103532,6 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
-   }
-  ],
-  "84433231": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Giấy phép nhập khẩu BTTTT chỉ cấp cho máy in laser kỹ thuật số tốc độ >60 tờ/phút khổ A4 hoặc khổ in >A3",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
    }
   ],
   "84433239": [
@@ -104057,70 +103596,6 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
-   }
-  ],
-  "84433910": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Giấy phép nhập khẩu BTTTT (chỉ áp dụng HS 8 số; xuất khẩu không cần giấy phép)",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
-   }
-  ],
-  "84433920": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Giấy phép nhập khẩu BTTTT chỉ cấp cho máy photocopy màu (đa màu)",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
-   }
-  ],
-  "84433930": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Giấy phép nhập khẩu BTTTT (chỉ áp dụng HS 8 số; xuất khẩu không cần giấy phép)",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
-   }
-  ],
-  "84433940": [
-   {
-    "so_hieu": "22/2018/TT-BTTTT",
-    "slug": "22-2018-tt-btttt",
-    "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2019-02-12",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": "Giấy phép nhập khẩu BTTTT chỉ cấp cho máy in phun màu kỹ thuật số (đa màu) tốc độ >60 tờ/phút khổ A4 hoặc khổ in >A3",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
    }
   ],
   "84439920": [

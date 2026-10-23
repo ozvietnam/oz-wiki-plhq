@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-23",
-  "tong": 4757,
+  "tong": 4774,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -1889,6 +1889,33 @@
       "tieuDe": "11/2021/TT-BNNPTNT: chưa có toàn văn trong raw/",
       "muc_tieu": "11/2021/TT-BNNPTNT",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"11/2021/TT-BNNPTNT\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "11/2024/TT-BTTTT: chưa có nguồn chính thống",
+      "muc_tieu": "11/2024/TT-BTTTT",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "11/2024/TT-BTTTT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "11/2024/TT-BTTTT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "11/2024/TT-BTTTT: chưa có toàn văn trong raw/",
+      "muc_tieu": "11/2024/TT-BTTTT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"11/2024/TT-BTTTT\" --ghi",
       "luong": "nap-lam-sach",
       "trongSo": 0
     },
@@ -6447,9 +6474,18 @@
       "trongSo": 0
     },
     {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "16/2015/TT-BTTTT: chưa có nguồn chính thống",
+      "muc_tieu": "16/2015/TT-BTTTT",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
-      "tieuDe": "16/2015/TT-BTTTT: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
+      "tieuDe": "16/2015/TT-BTTTT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "16/2015/TT-BTTTT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
@@ -6462,6 +6498,15 @@
       "muc_tieu": "16/2015/TT-BTTTT",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"16/2015/TT-BTTTT\" --ghi",
       "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "16/2015/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN",
+      "muc_tieu": "16/2015/TT-BTTTT",
+      "viec": "Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -9967,6 +10012,33 @@
     },
     {
       "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "195/2013/NĐ-CP: chưa có nguồn chính thống",
+      "muc_tieu": "195/2013/NĐ-CP",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "195/2013/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "195/2013/NĐ-CP",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "195/2013/NĐ-CP: chưa có toàn văn trong raw/",
+      "muc_tieu": "195/2013/NĐ-CP",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"195/2013/NĐ-CP\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "1951/TB-TCHQ/2020: chưa có nguồn chính thống",
       "muc_tieu": "1951/TB-TCHQ/2020",
@@ -12531,6 +12603,33 @@
       "trongSo": 0
     },
     {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "22/2018/TT-BTTTT: chưa có nguồn chính thống",
+      "muc_tieu": "22/2018/TT-BTTTT",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "22/2018/TT-BTTTT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "22/2018/TT-BTTTT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "22/2018/TT-BTTTT: chưa có toàn văn trong raw/",
+      "muc_tieu": "22/2018/TT-BTTTT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"22/2018/TT-BTTTT\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
       "ma": "CO_QUAN_DA_SAP_NHAP",
       "muc": "Thấp",
       "tieuDe": "22/2018/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN",
@@ -14373,6 +14472,33 @@
       "muc_tieu": "249/TB-TCHQ/2021",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "25/2018/NĐ-CP: chưa có nguồn chính thống",
+      "muc_tieu": "25/2018/NĐ-CP",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "25/2018/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "25/2018/NĐ-CP",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "25/2018/NĐ-CP: chưa có toàn văn trong raw/",
+      "muc_tieu": "25/2018/NĐ-CP",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"25/2018/NĐ-CP\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -16614,6 +16740,33 @@
       "muc_tieu": "2890/TB-TCHQ/2018",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "29/2012/QH12: chưa có nguồn chính thống",
+      "muc_tieu": "29/2012/QH12",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "29/2012/QH12: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "29/2012/QH12",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Vừa",
+      "tieuDe": "29/2012/QH12: chưa có toàn văn trong raw/",
+      "muc_tieu": "29/2012/QH12",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"29/2012/QH12\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -31926,6 +32079,33 @@
       "trongSo": 0
     },
     {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "60/2014/NĐ-CP: chưa có nguồn chính thống",
+      "muc_tieu": "60/2014/NĐ-CP",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "60/2014/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "60/2014/NĐ-CP",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "60/2014/NĐ-CP: chưa có toàn văn trong raw/",
+      "muc_tieu": "60/2014/NĐ-CP",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"60/2014/NĐ-CP\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "60/2019/TT-BTC: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -39767,15 +39947,6 @@
     {
       "ma": "WIKI_NHAC_CHUA_DANG_KY",
       "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 60/2014/NĐ-CP nhưng sổ chưa có",
-      "muc_tieu": "60/2014/NĐ-CP",
-      "viec": "Thêm vào sổ (wiki/sources/03-2015-tt-btttt.md, wiki/sources/11-2024-tt-btttt.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
       "tieuDe": "Wiki nhắc 40/2025/NĐ-CP nhưng sổ chưa có",
       "muc_tieu": "40/2025/NĐ-CP",
       "viec": "Thêm vào sổ (wiki/sources/07-2026-tt-bct.md, wiki/sources/33-2025-tt-bct.md).",
@@ -40766,6 +40937,15 @@
     {
       "ma": "DANH_MUC_CHUA_TRICH",
       "muc": "Vừa",
+      "tieuDe": "Chưa trích bảng mã HS: 11/2024/TT-BTTTT",
+      "muc_tieu": "11/2024/TT-BTTTT",
+      "viec": "Văn bản danh mục chưa có danh-muc/11-2024-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 23 mã.",
+      "luong": "danh-muc-hs",
+      "trongSo": 23
+    },
+    {
+      "ma": "DANH_MUC_CHUA_TRICH",
+      "muc": "Vừa",
       "tieuDe": "Chưa trích bảng mã HS: 11/2026/TT-BXD",
       "muc_tieu": "11/2026/TT-BXD",
       "viec": "Văn bản danh mục chưa có danh-muc/11-2026-tt-bxd.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
@@ -40834,6 +41014,15 @@
       "viec": "Văn bản danh mục chưa có danh-muc/173-2018-tt-bqp.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 41 mã.",
       "luong": "danh-muc-hs",
       "trongSo": 41
+    },
+    {
+      "ma": "DANH_MUC_CHUA_TRICH",
+      "muc": "Vừa",
+      "tieuDe": "Chưa trích bảng mã HS: 22/2018/TT-BTTTT",
+      "muc_tieu": "22/2018/TT-BTTTT",
+      "viec": "Văn bản danh mục chưa có danh-muc/22-2018-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 31 mã.",
+      "luong": "danh-muc-hs",
+      "trongSo": 31
     },
     {
       "ma": "DANH_MUC_CHUA_TRICH",
@@ -41471,60 +41660,6 @@
       "tieuDe": "16/2026/TT-BNV: mã 84188610 không có trong biểu thuế",
       "muc_tieu": "16/2026/TT-BNV",
       "viec": "danh-muc/16-2026-tt-bnv.csv dòng 42 (\"Hệ thống lạnh sử dụng môi chất lạnh nhóm B1; B2L; B2; B3; A2\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
-      "luong": "danh-muc-hs",
-      "trongSo": 0
-    },
-    {
-      "ma": "HS_KHONG_TON_TAI",
-      "muc": "Vừa",
-      "tieuDe": "22/2018/TT-BTTTT: mã 49051000 không có trong biểu thuế",
-      "muc_tieu": "22/2018/TT-BTTTT",
-      "viec": "danh-muc/22-2018-tt-btttt.csv dòng 25 (\"Quả địa cầu (có in bản đồ)\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
-      "luong": "danh-muc-hs",
-      "trongSo": 0
-    },
-    {
-      "ma": "HS_KHONG_TON_TAI",
-      "muc": "Vừa",
-      "tieuDe": "22/2018/TT-BTTTT: mã 49059100 không có trong biểu thuế",
-      "muc_tieu": "22/2018/TT-BTTTT",
-      "viec": "danh-muc/22-2018-tt-btttt.csv dòng 26 (\"Bản đồ biểu đồ dạng quyển\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
-      "luong": "danh-muc-hs",
-      "trongSo": 0
-    },
-    {
-      "ma": "HS_KHONG_TON_TAI",
-      "muc": "Vừa",
-      "tieuDe": "22/2018/TT-BTTTT: mã 49059900 không có trong biểu thuế",
-      "muc_tieu": "22/2018/TT-BTTTT",
-      "viec": "danh-muc/22-2018-tt-btttt.csv dòng 27 (\"Bản đồ biểu đồ dạng tờ rời tờ gấp\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
-      "luong": "danh-muc-hs",
-      "trongSo": 0
-    },
-    {
-      "ma": "HS_KHONG_TON_TAI",
-      "muc": "Vừa",
-      "tieuDe": "22/2018/TT-BTTTT: mã 49119139 không có trong biểu thuế",
-      "muc_tieu": "22/2018/TT-BTTTT",
-      "viec": "danh-muc/22-2018-tt-btttt.csv dòng 32 (\"Tranh in ảnh khác loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
-      "luong": "danh-muc-hs",
-      "trongSo": 0
-    },
-    {
-      "ma": "HS_KHONG_TON_TAI",
-      "muc": "Vừa",
-      "tieuDe": "22/2018/TT-BTTTT: mã 49119190 không có trong biểu thuế",
-      "muc_tieu": "22/2018/TT-BTTTT",
-      "viec": "danh-muc/22-2018-tt-btttt.csv dòng 33 (\"Tranh in ảnh loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
-      "luong": "danh-muc-hs",
-      "trongSo": 0
-    },
-    {
-      "ma": "DAN_CHIEU_CHUA_CO_BANG",
-      "muc": "Vừa",
-      "tieuDe": "22/2018/TT-BTTTT dẫn mã HS sang trừ đơn sắc (đen trắng) — chưa có trong sổ",
-      "muc_tieu": "trừ đơn sắc (đen trắng)",
-      "viec": "danh-muc/22-2018-tt-btttt.csv có dòng không ghi mã mà dẫn chiếu trừ đơn sắc (đen trắng). Thêm trừ đơn sắc (đen trắng) vào sổ rồi trích bảng để mã HS của các dòng này tra được.",
       "luong": "danh-muc-hs",
       "trongSo": 0
     },
@@ -42247,6 +42382,24 @@
       "viec": "Đã ghi xac_minh.chan: THIEU_BAI_TUONG_MINH (2026-10-04). Việc tiếp: Chờ QĐ/TT-BKHCN hoặc vbpl ghi rõ hết/còn 2711; không suy ra HET từ NĐ 37 hết khung 132/74 hay TT 36 danh mục rủi ro mới.. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.",
       "luong": "hieu-luc",
       "trongSo": 263
+    },
+    {
+      "ma": "HS_API_UU_TIEN_DOI_CHIEU",
+      "muc": "Vừa",
+      "tieuDe": "Đối chiếu hiệu lực 22/2018/TT-BTTTT — 31 mã HS đang dẫn",
+      "muc_tieu": "22/2018/TT-BTTTT",
+      "viec": "Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 31 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn. Kẹt cứng thì ghi xac_minh.chan (xem docs/huong-dan-agent.md) thay vì săn lặp.",
+      "luong": "hieu-luc",
+      "trongSo": 31
+    },
+    {
+      "ma": "HS_API_UU_TIEN_DOI_CHIEU",
+      "muc": "Vừa",
+      "tieuDe": "Đối chiếu hiệu lực 11/2024/TT-BTTTT — 23 mã HS đang dẫn",
+      "muc_tieu": "11/2024/TT-BTTTT",
+      "viec": "Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 23 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn. Kẹt cứng thì ghi xac_minh.chan (xem docs/huong-dan-agent.md) thay vì săn lặp.",
+      "luong": "hieu-luc",
+      "trongSo": 23
     },
     {
       "ma": "HS_API_CHO_MO_CHAN",
