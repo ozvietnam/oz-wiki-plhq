@@ -1,9 +1,9 @@
 {
  "_comment": "Chụp từ hs-code-api (scripts/bench-plhq.mjs) bằng node tools/nhu-cau.mjs — KHÔNG sửa tay. tools/diem-mu.mjs đọc tệp này.",
  "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/plhq-bench-latest.json",
- "ngayDo": "2026-10-16",
- "registryVersionKhiDo": "2026-10-16",
- "maHsCoChinhSach": 7928,
+ "ngayDo": "2026-10-25",
+ "registryVersionKhiDo": "2026-10-25",
+ "maHsCoChinhSach": 7673,
  "vanBanDuocDan": [
   {
    "soHieu": "42/2019/TT-BCT",
@@ -51,11 +51,6 @@
    "soMaHs": 749
   },
   {
-   "soHieu": "113/2017/NĐ-CP",
-   "found": true,
-   "soMaHs": 667
-  },
-  {
    "soHieu": "1182/QĐ-BCT",
    "found": true,
    "soMaHs": 496
@@ -71,14 +66,14 @@
    "soMaHs": 340
   },
   {
+   "soHieu": "181/2025/NĐ-CP",
+   "found": true,
+   "soMaHs": 332
+  },
+  {
    "soHieu": "2711/QĐ-BKHCN",
    "found": true,
    "soMaHs": 263
-  },
-  {
-   "soHieu": "82/2022/NĐ-CP",
-   "found": true,
-   "soMaHs": 258
   },
   {
    "soHieu": "15/2024/TT-BYT",
@@ -96,6 +91,11 @@
    "soMaHs": 123
   },
   {
+   "soHieu": "10/2024/TT-BXD",
+   "found": true,
+   "soMaHs": 80
+  },
+  {
    "soHieu": "29/2025/TT-BKHCN",
    "found": true,
    "soMaHs": 62
@@ -104,6 +104,16 @@
    "soHieu": "1725/QĐ-BCT",
    "found": true,
    "soMaHs": 61
+  },
+  {
+   "soHieu": "33/2024/NĐ-CP",
+   "found": false,
+   "soMaHs": 60
+  },
+  {
+   "soHieu": "26/2026/NĐ-CP",
+   "found": true,
+   "soMaHs": 60
   },
   {
    "soHieu": "173/2018/TT-BQP",
@@ -231,7 +241,7 @@
    "soMaHs": 6
   },
   {
-   "soHieu": "2491/QĐ-BCT",
+   "soHieu": "121/QĐ-BCT",
    "found": true,
    "soMaHs": 6
   },
@@ -276,7 +286,7 @@
    "soMaHs": 2
   },
   {
-   "soHieu": "2093/QĐ-BCT",
+   "soHieu": "228/QĐ-BCT",
    "found": true,
    "soMaHs": 2
   },
@@ -297,11 +307,6 @@
   },
   {
    "soHieu": "1914/QĐ-BCT",
-   "found": true,
-   "soMaHs": 1
-  },
-  {
-   "soHieu": "125/2021/TT-BCA",
    "found": true,
    "soMaHs": 1
   },

@@ -1,8 +1,8 @@
 {
  "_comment": "Chụp từ hs-code-api GET /api/demand bằng node tools/nhu-cau.mjs — KHÔNG sửa tay. tools/diem-mu.mjs đọc tệp này.",
  "nguon": "https://hs-kb.uythacnhapkhau.com/api/demand",
- "ngay": "2026-10-19",
- "tuNgay": "2026-07-21",
+ "ngay": "2026-10-26",
+ "tuNgay": "2026-07-28",
  "maHs": [
   {
    "hs": "90049010",
@@ -13,6 +13,13 @@
     "05/2022/TT-BYT"
    ],
    "gapGanNhat": "2026-10-05"
+  },
+  {
+   "hs": "39191099",
+   "uuTien": "Vừa",
+   "mucChinhSach": "NONE",
+   "vanBanDangDan": [],
+   "gapGanNhat": "2026-10-19"
   },
   {
    "hs": "87089962",
@@ -66,11 +73,70 @@
    "gapGanNhat": "2026-10-05"
   },
   {
+   "hs": "76109099",
+   "uuTien": "Thấp",
+   "mucChinhSach": "NOTICE",
+   "vanBanDangDan": [
+    "42/2019/TT-BCT",
+    "33/2025/TT-BCT"
+   ],
+   "gapGanNhat": "2026-10-19"
+  },
+  {
+   "hs": "76169990",
+   "uuTien": "Thấp",
+   "mucChinhSach": "NOTICE",
+   "vanBanDangDan": [
+    "42/2019/TT-BCT",
+    "33/2025/TT-BCT"
+   ],
+   "gapGanNhat": "2026-10-19"
+  },
+  {
    "hs": "84123100",
    "uuTien": "Thấp",
    "mucChinhSach": "NONE",
    "vanBanDangDan": [],
    "gapGanNhat": "2026-10-12"
+  },
+  {
+   "hs": "84134000",
+   "uuTien": "Thấp",
+   "mucChinhSach": "NONE",
+   "vanBanDangDan": [],
+   "gapGanNhat": "2026-10-19"
+  },
+  {
+   "hs": "84198110",
+   "uuTien": "Thấp",
+   "mucChinhSach": "NOTICE",
+   "vanBanDangDan": [
+    "08/2023/TT-BCT"
+   ],
+   "gapGanNhat": "2026-10-19"
+  },
+  {
+   "hs": "84224000",
+   "uuTien": "Thấp",
+   "mucChinhSach": "BLOCKING",
+   "vanBanDangDan": [
+    "08/2023/TT-BCT"
+   ],
+   "gapGanNhat": "2026-10-19"
+  },
+  {
+   "hs": "84248990",
+   "uuTien": "Thấp",
+   "mucChinhSach": "NONE",
+   "vanBanDangDan": [],
+   "gapGanNhat": "2026-10-19"
+  },
+  {
+   "hs": "84388091",
+   "uuTien": "Thấp",
+   "mucChinhSach": "NONE",
+   "vanBanDangDan": [],
+   "gapGanNhat": "2026-10-19"
   },
   {
    "hs": "84561190",
@@ -87,11 +153,28 @@
    "gapGanNhat": "2026-10-05"
   },
   {
+   "hs": "84642010",
+   "uuTien": "Thấp",
+   "mucChinhSach": "NONE",
+   "vanBanDangDan": [],
+   "gapGanNhat": "2026-10-19"
+  },
+  {
    "hs": "85158090",
    "uuTien": "Thấp",
    "mucChinhSach": "NONE",
    "vanBanDangDan": [],
    "gapGanNhat": "2026-10-12"
+  },
+  {
+   "hs": "85366932",
+   "uuTien": "Thấp",
+   "mucChinhSach": "INFO",
+   "vanBanDangDan": [
+    "34/2025/TT-BCT",
+    "42/2019/TT-BCT"
+   ],
+   "gapGanNhat": "2026-10-19"
   },
   {
    "hs": "85369099",
@@ -123,6 +206,19 @@
    "mucChinhSach": "NONE",
    "vanBanDangDan": [],
    "gapGanNhat": "2026-10-05"
+  },
+  {
+   "hs": "94035000",
+   "uuTien": "Thấp",
+   "mucChinhSach": "BLOCKING",
+   "vanBanDangDan": [
+    "01/2024/TT-BNNPTNT",
+    "08/2023/TT-BCT",
+    "34/2025/TT-BCT",
+    "42/2019/TT-BCT",
+    "17/2023/TT-BNNPTNT"
+   ],
+   "gapGanNhat": "2026-10-19"
   },
   {
    "hs": "94054110",
