@@ -1,0 +1,30 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 43/2024/QH15
+loai: LUAT
+ten: Luật Bảo vệ và kiểm dịch thực vật
+co_quan: QH
+ngay_ban_hanh: '2024-11-18'
+hieu_luc_tu: '2025-01-01'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - kiem-tra-chuyen-nganh/kiem-dich
+quan_he:
+  thay_the:
+    - so_hieu: 41/2013/QH13
+      tu_ngay: '2025-01-01'
+      can_cu: Điều lệ thi hành Luật 43/2024/QH15
+  sua_doi:
+    - so_hieu: 146/2025/QH15
+      pham_vi: một số điều (Luật sửa đổi 15 luật lĩnh vực nông nghiệp, môi trường)
+nguon:
+  - url: https://kiemdichthucvatthanhhoa.gov.vn/luat-bao-ve-va-kiem-dich-thuc-vat
+    truy_cap: '2026-10-28'
+  - url: https://thuvienphapluat.vn/banan/tin-tuc/chu-de/bao-ve-va-kiem-dich-thuc-vat
+    truy_cap: '2026-10-28'
+xac_minh:
+  muc: NGUON_B
+  pham_vi: 'số hiệu, tiêu đề, thông qua kỳ họp 8 Quốc hội khóa XV tháng 11-2024, hiệu lực 01-01-2025 thay Luật 41/2013/QH13 (nhiều nguồn độc lập); ngày 18-11-2024 và điều khoản thi hành chưa đối chiếu công báo gốc'
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-28'
+  boi: zcode@ozvietnam
+ghi_chu: 'Luật khung KDTV hiện hành — nạp theo #237. Cần nâng NGUON_A (công báo) khi có nhu cầu trích điều.'

@@ -1,0 +1,25 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 15/2020/TT-BNNPTNT
+so_hieu_khac:
+  - 15/2020/TT-BNNMT
+loai: THONG_TU
+ten: Ban hành Quy chuẩn kỹ thuật quốc gia QCVN 01-01:2020/BNNPTNT đối với vật thể thuộc diện kiểm dịch thực vật nhập khẩu vào Việt Nam
+co_quan: BNNPTNT
+tinh_trang: CHUA_XAC_MINH
+nhanh:
+  - kiem-tra-chuyen-nganh/kiem-dich
+nguon:
+  - url: https://congtt.bacninh.gov.vn/news/-/details/20182/thong-tu-so-15-2020-tt-bnnptnt-cua-bo-nong-nghiep-va-phat-trien-nong-thon-ban-hanh-quy-chuan-ky-thuat-quoc-gia-oi-voi-vat-the-thuoc-dien-kiem-dich-thuc-vat-nhap-khau
+    truy_cap: '2026-10-28'
+  - url: https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Thong-tu-15-2020-TT-BNNPTNT-trinh-tu-thu-tuc-kiem-dich-thuc-vat-394368.aspx
+    truy_cap: '2026-10-28'
+xac_minh:
+  muc: NGUON_B
+  pham_vi: 'số hiệu, tiêu đề (QCVN 01-01:2020/BNNPTNT); ngày ban hành/hiệu lực chưa đối chiếu'
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-28'
+  boi: zcode@ozvietnam
+ghi_chu: >-
+  Issue #237 mô tả TT 15/2020 là "trình tự thủ tục + danh mục" — KHÔNG ĐÚNG: TT 15/2020 là thông tư
+  QCVN kỹ thuật nhập khẩu. Trình tự thủ tục nằm ở chuỗi TT 33/2014 (sửa 20/2021, 11/2022) — VBHN 19/2024;
+  danh mục vật thể + PRA ở TT 30/2014 → TT 14/2024. Nạp để khách tra tên này không trượt, kèm điều chỉnh hiểu nhầm.
