@@ -17,7 +17,7 @@ import { fileURLToPath } from 'node:url';
 import {
   chuanHoaURL, tachSoHieu, slugTB, docCsvObject, docChiMucPDF, timUNGPDF,
   trichTenHang, trichDacTinh, trichMaKetLuan8So, trichLyDo, trichDonViDeNghi,
-  lamSachQuyenRiengTu, coDauHieuCaNhan, giaiMaSoHieuTrongVanBan,
+  lamSachQuyenRiengTu, coDauHieuCaNhan, giaiMaSoHieuTrongVanBan, gonChu,
 } from '../lib/tb-tchq.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
@@ -203,6 +203,25 @@ t('trích: don_vi_de_nghi lấy sau "đề nghị của"',
   trichDonViDeNghi(VAN_BAN_TB));
 t('trích: văn bản không có mã số → không bịa (null)',
   trichMaKetLuan8So('Chỉ có câu văn không mã.') === null && trichLyDo('Chỉ có câu văn không mã.') === null);
+
+// ------------------------------------------------------------------ 4b. chịu được nhiễu OCR
+t('PDF: số hiệu có rác OCR vẫn bóc được ("50\'26" → 5026)',
+  giaiMaSoHieuTrongVanBan("Số: 50'26/TB-TCHQ")[0] === 5026,
+  JSON.stringify(giaiMaSoHieuTrongVanBan("Số: 50'26/TB-TCHQ")));
+t('PDF: dải số vẫn mở rộng đúng',
+  giaiMaSoHieuTrongVanBan('Số: 503-508/TB-TCHQ').join(',') === '503,504,505,506,507,508');
+t('trích: OCR mất hẳn đoạn "thuộc nhóm" vẫn lấy được chuỗi kết luận từ "mã số"',
+  (trichLyDo('thuộc mã số 3504.00.00 “Pepton và các dẫn xuất của chúng” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.')?.ly_do || '')
+    .includes('mã số 3504.00.00'));
+t('trích: nhãn "mã số" nằm trong câu KHÔNG được dùng để cắt cụt giá trị',
+  (trichDacTinh('2. Tóm tắt mô tả hàng hóa được xác định trước mã số: Theo hồ sơ xác định trước mã số, thông tin mặt hàng như sau:\n- Thành phần, cấu tạo: Dầu cá tinh chế 99.68%') || '')
+    .includes('Dầu cá tinh chế'),
+  trichDacTinh('2. Tóm tắt mô tả hàng hóa được xác định trước mã số: Theo hồ sơ xác định trước mã số, thông tin mặt hàng như sau:\n- Thành phần, cấu tạo: Dầu cá tinh chế 99.68%'));
+t('trích: dọn rác OCR ký hiệu "|" của bảng', !gonChu('a | | b').includes('|'), gonChu('a | | b'));
+t('trích: câu dẫn "Theo … như sau:" không bị coi là mô tả hàng',
+  (trichDacTinh('Tóm tắt mô tả và đặc tính hàng hóa: Theo hồ sơ xác định trước mã số, thông tin mặt hàng như sau:') || '')
+    .length < 20,
+  trichDacTinh('Tóm tắt mô tả và đặc tính hàng hóa: Theo hồ sơ xác định trước mã số, thông tin mặt hàng như sau:'));
 
 // ------------------------------------------------------------------ 5. quyền riêng tư
 t('riêng tư: bỏ MST',
