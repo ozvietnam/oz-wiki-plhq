@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-28",
-  "tong": 4803,
+  "tong": 4820,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -192,6 +192,42 @@
       "trongSo": 0
     },
     {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "03/2024/TT-BNNPTNT: chưa có nguồn chính thống",
+      "muc_tieu": "03/2024/TT-BNNPTNT",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "03/2024/TT-BNNPTNT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "03/2024/TT-BNNPTNT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "03/2024/TT-BNNPTNT: chưa có toàn văn trong raw/",
+      "muc_tieu": "03/2024/TT-BNNPTNT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"03/2024/TT-BNNPTNT\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "03/2024/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT",
+      "muc_tieu": "03/2024/TT-BNNPTNT",
+      "viec": "Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "04/2023/TT-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -225,6 +261,42 @@
       "muc_tieu": "05/2014/TT-NHNN",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"05/2014/TT-NHNN\" --ghi",
       "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "05/2015/TT-BNNPTNT: chưa có nguồn chính thống",
+      "muc_tieu": "05/2015/TT-BNNPTNT",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "05/2015/TT-BNNPTNT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "05/2015/TT-BNNPTNT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "05/2015/TT-BNNPTNT: chưa có toàn văn trong raw/",
+      "muc_tieu": "05/2015/TT-BNNPTNT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"05/2015/TT-BNNPTNT\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "05/2015/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT",
+      "muc_tieu": "05/2015/TT-BNNPTNT",
+      "viec": "Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -304,6 +376,15 @@
       "muc": "Thấp",
       "tieuDe": "06/2026/TT-BTC: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "06/2026/TT-BTC",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "06/VBHN-BNNPTNT: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "06/VBHN-BNNPTNT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
       "trongSo": 0
@@ -6015,6 +6096,42 @@
       "trongSo": 0
     },
     {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "15/2021/TT-BNNPTNT: chưa có nguồn chính thống",
+      "muc_tieu": "15/2021/TT-BNNPTNT",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "15/2021/TT-BNNPTNT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "15/2021/TT-BNNPTNT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "15/2021/TT-BNNPTNT: chưa có toàn văn trong raw/",
+      "muc_tieu": "15/2021/TT-BNNPTNT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"15/2021/TT-BNNPTNT\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "15/2021/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT",
+      "muc_tieu": "15/2021/TT-BNNPTNT",
+      "viec": "Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "15/2023/QĐ-TTg: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -9444,30 +9561,21 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Thấp",
-      "tieuDe": "19/VBHN-BNNPTNT: chưa có nguồn chính thống",
-      "muc_tieu": "19/VBHN-BNNPTNT",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "19/VBHN-BNNPTNT: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
-      "muc_tieu": "19/VBHN-BNNPTNT",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_TOAN_VAN",
       "muc": "Thấp",
       "tieuDe": "19/VBHN-BNNPTNT: chưa có toàn văn trong raw/",
       "muc_tieu": "19/VBHN-BNNPTNT",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"19/VBHN-BNNPTNT\" --ghi",
       "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "19/VBHN-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT",
+      "muc_tieu": "19/VBHN-BNNPTNT",
+      "viec": "Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -10926,6 +11034,33 @@
       "muc_tieu": "1995/TB-TCHQ/2019",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "20/2017/TT-BNNPTNT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "20/2017/TT-BNNPTNT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "20/2017/TT-BNNPTNT: chưa có toàn văn trong raw/",
+      "muc_tieu": "20/2017/TT-BNNPTNT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"20/2017/TT-BNNPTNT\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "20/2017/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT",
+      "muc_tieu": "20/2017/TT-BNNPTNT",
+      "viec": "Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -21420,6 +21555,33 @@
       "muc_tieu": "3399/TB-TCHQ/2024",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Thấp",
+      "tieuDe": "34/2018/TT-BNNPTNT: chưa có nguồn chính thống",
+      "muc_tieu": "34/2018/TT-BNNPTNT",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "34/2018/TT-BNNPTNT: tình trạng \"HET_HIEU_LUC_MOT_PHAN\" chưa đối chiếu nguồn A",
+      "muc_tieu": "34/2018/TT-BNNPTNT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "34/2018/TT-BNNPTNT: chưa có toàn văn trong raw/",
+      "muc_tieu": "34/2018/TT-BNNPTNT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"34/2018/TT-BNNPTNT\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -40643,15 +40805,6 @@
       "tieuDe": "Wiki nhắc 04/2018/TT-BNNPTNT nhưng sổ chưa có",
       "muc_tieu": "04/2018/TT-BNNPTNT",
       "viec": "Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 03/2024/TT-BNNPTNT nhưng sổ chưa có",
-      "muc_tieu": "03/2024/TT-BNNPTNT",
-      "viec": "Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md, wiki/sources/27-2026-tt-bnnmt.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },

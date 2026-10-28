@@ -2,7 +2,7 @@
   "phien_ban": "2026-10-28",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2326,
+  "tong": 2332,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -529,6 +529,54 @@
       }
     },
     {
+      "so_hieu": "03/2024/TT-BNNPTNT",
+      "so_hieu_khac": [
+        "03/2024/TT-BNNMT"
+      ],
+      "loai": "THONG_TU",
+      "ten": "Bãi bỏ một số quy định tại Thông tư số 34/2018/TT-BNNPTNT ngày 16 tháng 11 năm 2018 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn",
+      "co_quan": "BNNPTNT",
+      "ngay_ban_hanh": "2024-04-01",
+      "hieu_luc_tu": "2024-05-16",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich"
+      ],
+      "quan_he": {
+        "bai_bo": [
+          {
+            "so_hieu": "34/2018/TT-BNNPTNT",
+            "pham_vi": "một số quy định",
+            "tu_ngay": "2024-05-16"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://www.ppd.gov.vn/FileUpload/Documents/vbhn_19_thong_tu_33_va_thong_tu_03_cua_bo_nnptnt.pdf",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 01-04-2024, hiệu lực 16-05-2024, bãi một số quy định tại TT 34/2018 (trang đầu PDF hợp nhất Cục BVTV trích nguyên văn)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "slug": "03-2024-tt-bnnptnt",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "19/VBHN-BNNPTNT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "03/2024/TT-BNNPTNT"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "04/2014/TT-BCT",
       "loai": "THONG_TU",
       "ten": "Quy định chi tiết thi hành một số điều của Nghị định số 187/2013/NĐ-CP ngày 20 tháng 11 năm 2013 của Chính phủ quy định chi tiết thi hành Luật Thương mại về hoạt động mua bán hàng hóa quốc tế và các hoạt động đại lý mua, bán, gia công và quá cảnh hàng hóa với nước ngoài",
@@ -756,6 +804,46 @@
       "slug": "05-2014-tt-nhnn",
       "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "05/2015/TT-BNNPTNT",
+      "so_hieu_khac": [
+        "05/2015/TT-BNNMT"
+      ],
+      "loai": "THONG_TU",
+      "ten": "Quy định về trình tự, thủ tục cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật",
+      "co_quan": "BNNPTNT",
+      "ngay_ban_hanh": "2015-02-12",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.ppd.gov.vn/FileUpload/Documents/vbhn_19_thong_tu_33_va_thong_tu_03_cua_bo_nnptnt.pdf",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 12-02-2015 (trích nguyên văn trang đầu PDF hợp nhất Cục BVTV); bị TT 15/2021 sửa một số điều — hiệu lực gốc chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nạp tối thiểu làm đích sửa đổi cho TT 15/2021 (#237 — giải nợ mâu thuẫn nguồn).",
+      "slug": "05-2015-tt-bnnptnt",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "15/2021/TT-BNNPTNT",
+            "quan_he": "sua_doi",
+            "so_hieu": "05/2015/TT-BNNPTNT",
+            "tu_ngay": "2022-01-21"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "05/2016/TT-BTTTT",
@@ -1071,6 +1159,50 @@
       "slug": "06-2026-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "06/VBHN-BNNPTNT",
+      "so_hieu_khac": [
+        "06/VBHN-BNNMT"
+      ],
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Hợp nhất Thông tư quy định về trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật",
+      "co_quan": "BNNPTNT",
+      "ngay_ban_hanh": "2023-03-10",
+      "het_hieu_luc_tu": "2024-05-27",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/en/van-ban/chi-tiet/van-ban-hop-nhat-so-06-vbhn-bnnptnt-quy-dinh-trinh-tu-thu-tuc-kiem-dich-thuc-vat-nhap-khau-xuat-khau-qua-canh-va-sau-nhap-khau-vat-the-thuoc-dien-kiem-dich-thuc-vat--159604",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://thutucxuatnhapkhau.vn/van-ban-hop-nhat-06-vbhn-bnnptnt-nam-2023",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 10-03-2023; bị VBHN 19/VBHN-BNNPTNT ngày 27-05-2024 thay (bản hợp nhất mới hơn của cùng chuỗi)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "slug": "06-vbhn-bnnptnt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "19/VBHN-BNNPTNT",
+            "quan_he": "thay_the",
+            "so_hieu": "06/VBHN-BNNPTNT",
+            "tu_ngay": "2024-05-27"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "07/2023/NĐ-CP",
@@ -4915,14 +5047,6 @@
       "nhanh": [
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
-      "quan_he": {
-        "sua_doi": [
-          {
-            "so_hieu": "33/2014/TT-BNNPTNT",
-            "tu_ngay": "2022-09-20"
-          }
-        ]
-      },
       "nguon": [
         {
           "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-11-2022-tt-bnnptnt-37919.htm",
@@ -4931,22 +5055,14 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề (Công báo 37919); hiệu lực 20-09-2022 theo Điều 4 (nguồn phụ lawplayer dẫn nguyên văn) — ngày ban hành chưa đối chiếu công báo",
+        "pham_vi": "số hiệu, tiêu đề (Công báo 37919); hiệu lực 20-09-2022 theo Điều 4 (nguồn phụ lawplayer dẫn nguyên văn) — ngày ban hành chưa đối chiếu công báo. Không ghi đích sửa đổi: sửa TTHC nhiều thông tư trong lĩnh vực BV&KDTV, chưa đối chiếu danh sách",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-28",
         "boi": "zcode@ozvietnam"
       },
       "slug": "11-2022-tt-bnnptnt",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {
-        "duoc_hop_nhat_boi": [
-          {
-            "tu": "19/VBHN-BNNPTNT",
-            "quan_he": "hop_nhat",
-            "so_hieu": "11/2022/TT-BNNPTNT"
-          }
-        ]
-      }
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "11/2024/TT-BTTTT",
@@ -13737,10 +13853,61 @@
         "ngay": "2026-10-28",
         "boi": "zcode@ozvietnam"
       },
-      "ghi_chu": "Issue #237 mô tả TT 15/2020 là \"trình tự thủ tục + danh mục\" — KHÔNG ĐÚNG: TT 15/2020 là thông tư QCVN kỹ thuật nhập khẩu. Trình tự thủ tục nằm ở chuỗi TT 33/2014 (sửa 20/2021, 11/2022) — VBHN 19/2024; danh mục vật thể + PRA ở TT 30/2014 → TT 14/2024. Nạp để khách tra tên này không trượt, kèm điều chỉnh hiểu nhầm.",
+      "ghi_chu": "Issue #237 mô tả TT 15/2020 là \"trình tự thủ tục + danh mục\" — KHÔNG ĐÚNG: TT 15/2020 là thông tư QCVN kỹ thuật nhập khẩu. Trình tự thủ tục nằm ở chuỗi TT 33/2014 (sửa 34/2018, 15/2021; 03/2024 bãi một phần 34/2018) — VBHN 19/2024; danh mục vật thể + PRA ở TT 30/2014 → TT 14/2024. Nạp để khách tra tên này không trượt, kèm điều chỉnh hiểu nhầm.",
       "slug": "15-2020-tt-bnnptnt",
       "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "15/2021/TT-BNNPTNT",
+      "so_hieu_khac": [
+        "15/2021/TT-BNNMT"
+      ],
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 05/2015/TT-BNNPTNT ngày 12 tháng 02 năm 2015 và Thông tư số 33/2014/TT-BNNPTNT ngày 30 tháng 10 năm 2014",
+      "co_quan": "BNNPTNT",
+      "ngay_ban_hanh": "2021-12-06",
+      "hieu_luc_tu": "2022-01-21",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "05/2015/TT-BNNPTNT",
+            "tu_ngay": "2022-01-21"
+          },
+          {
+            "so_hieu": "33/2014/TT-BNNPTNT",
+            "tu_ngay": "2022-01-21"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://www.ppd.gov.vn/FileUpload/Documents/vbhn_19_thong_tu_33_va_thong_tu_03_cua_bo_nnptnt.pdf",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 06-12-2021, hiệu lực 21-01-2022, sửa 05/2015 + 33/2014 (trang đầu PDF hợp nhất Cục BVTV trích nguyên văn)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "slug": "15-2021-tt-bnnptnt",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "19/VBHN-BNNPTNT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "15/2021/TT-BNNPTNT"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "15/2023/QĐ-TTg",
@@ -20824,7 +20991,8 @@
       "loai": "VAN_BAN_HOP_NHAT",
       "ten": "Hợp nhất Thông tư quy định về trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật",
       "co_quan": "BNNPTNT",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2024-05-27",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
@@ -20834,14 +21002,31 @@
             "so_hieu": "33/2014/TT-BNNPTNT"
           },
           {
-            "so_hieu": "20/2021/TT-BNNPTNT"
+            "so_hieu": "34/2018/TT-BNNPTNT"
           },
           {
-            "so_hieu": "11/2022/TT-BNNPTNT"
+            "so_hieu": "15/2021/TT-BNNPTNT"
+          },
+          {
+            "so_hieu": "03/2024/TT-BNNPTNT"
+          }
+        ],
+        "thay_the": [
+          {
+            "so_hieu": "06/VBHN-BNNPTNT",
+            "tu_ngay": "2024-05-27"
           }
         ]
       },
       "nguon": [
+        {
+          "url": "https://chinhphu.vn/?pageid=27160&docid=207302",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Van-ban-hop-nhat-19-VBHN-BNNPTNT-2024-Thong-tu-trinh-tu-kiem-dich-thuc-vat-nhap-xuat-khau-612987.aspx",
+          "truy_cap": "2026-10-28"
+        },
         {
           "url": "https://nguonluat.com/docs/19vbhn-bnnptnt-van-ban-hop-nhat-19vbhn-bnnptnt-nam-2024-hop-nhat-thong-tu-quy-dinh-trinh-tu-thu-tuc-kiem-dich-thuc-vat-nhap-khau-xuat-khau-qua-canh-va-sau-nhap-khau-vat-the-thuoc-dien-kiem-dich-thuc-vat-do-bo-truong-bo-nong-nghiep-va-phat-trien-nong-thon-b",
           "truy_cap": "2026-10-28"
@@ -20852,15 +21037,15 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, năm 2024, thành phần hợp nhất (33/2014 + 20/2021 + 11/2022 theo nguonluat); ngày ban hành chưa có — chưa đối chiếu",
-        "hieu_luc_da_doi_chieu": false,
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 27-05-2024 (chinhphu.vn docid=207302); thành phần hợp nhất 33/2014 + 34/2018 + 15/2021 + 03/2024 — đối chiếu NGUYÊN VĂN trang đầu PDF hợp nhất Cục BVTV (ppd.gov.vn)",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-28",
         "boi": "zcode@ozvietnam"
       },
-      "ghi_chu": "CẢNH BÁO mâu thuẫn nguồn: PDF Cục BVTV (ppd.gov.vn) đặt tên \"vbhn_19 — Thông tư 33 và Thông tư 03\" (gợi ý hợp nhất gồm cả một TT sửa đổi số 03 — trùng số với ghi chú sổ cũ về TT 34/2018), nguonluat liệt kê 33/2014 + 20/2021 + 11/2022. Cần đối chiếu PDF gốc khi nâng NGUON_A.",
+      "ghi_chu": "Mâu thuẫn nguồn đã giải xong 28-10: PDF Cục BVTV liệt kê nguyên văn 3 văn bản sửa đổi 33/2014 (34/2018 + 15/2021 + 03/2024) — nguonluat ghi \"20/2021 + 11/2022\" là tóm tắt SAI (2 thông tư đó không thuộc chuỗi hợp nhất này). \"TT 03\" trong tên file PDF là TT 03/2024, không phải 03/2018.",
       "slug": "19-vbhn-bnnptnt",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -23634,26 +23819,62 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "20/2017/TT-BNNPTNT",
+      "so_hieu_khac": [
+        "20/2017/TT-BNNMT"
+      ],
+      "loai": "THONG_TU",
+      "ten": "Hướng dẫn thực hiện một số nội dung của Nghị định số 39/2017/NĐ-CP ngày 04 tháng 4 năm 2017 của Chính phủ về quản lý thức ăn chăn nuôi, thủy sản",
+      "co_quan": "BNNPTNT",
+      "ngay_ban_hanh": "2017-11-10",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-20-2017-tt-bnnptnt-25118.htm",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Thong-tu-20-2017-TT-BNNPTNT-huong-dan-Nghi-dinh-39-2017-ND-CP-ve-quan-ly-thuc-an-chan-nuoi-367828.aspx",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 10-11-2017 (Công báo 25118 + TVPL); bị TT 34/2018 sửa một số điều (trích dẫn trong PDF hợp nhất Cục BVTV) — hiệu lực gốc chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nạp tối thiểu làm đích sửa đổi cho TT 34/2018 (#237 — giải nợ mâu thuẫn nguồn).",
+      "slug": "20-2017-tt-bnnptnt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "34/2018/TT-BNNPTNT",
+            "quan_he": "sua_doi",
+            "so_hieu": "20/2017/TT-BNNPTNT",
+            "tu_ngay": "2019-01-01"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "20/2021/TT-BNNPTNT",
       "so_hieu_khac": [
         "20/2021/TT-BNNMT"
       ],
       "loai": "THONG_TU",
-      "ten": "Quy định về hồ sơ nghiệp vụ kiểm dịch thực vật và sửa đổi, bổ sung một số điều của Thông tư số 33/2014/TT-BNNPTNT",
+      "ten": "Quy định về hồ sơ nghiệp vụ kiểm dịch thực vật",
       "co_quan": "BNNPTNT",
       "ngay_ban_hanh": "2021-11-30",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
-      "quan_he": {
-        "sua_doi": [
-          {
-            "so_hieu": "33/2014/TT-BNNPTNT",
-            "tu_ngay": "2022-02-01"
-          }
-        ]
-      },
       "nguon": [
         {
           "url": "https://trolyluat.vn/van-ban/thong-tu-202021tt-bnnptnt-quy-dinh-ho-so-nghiep-vu-kiem-dich-thuc-vat-33032",
@@ -23662,22 +23883,14 @@
       ],
       "xac_minh": {
         "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 30-11-2021, nội dung sửa 33/2014; hiệu lực chưa đối chiếu PDF gốc (nguồn phụ ghi ~01-02-2022 theo thời hạn 60 ngày)",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 30-11-2021; hiệu lực chưa đối chiếu PDF gốc (nguồn phụ ghi ~01-02-2022 theo thời hạn 60 ngày). KHÔNG ghi quan hệ sửa 33/2014: PDF hợp nhất Cục BVTV không liệt kê TT 20/2021 trong chuỗi sửa đổi trình tự thủ tục",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-28",
         "boi": "zcode@ozvietnam"
       },
       "slug": "20-2021-tt-bnnptnt",
       "bac_nguon_cao_nhat": "C",
-      "quan_he_nguoc": {
-        "duoc_hop_nhat_boi": [
-          {
-            "tu": "19/VBHN-BNNPTNT",
-            "quan_he": "hop_nhat",
-            "so_hieu": "20/2021/TT-BNNPTNT"
-          }
-        ]
-      }
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "20/TB-CHQ/2026",
@@ -42880,6 +43093,7 @@
       "ten": "Quy định trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật",
       "co_quan": "BNNPTNT",
       "ngay_ban_hanh": "2014-10-30",
+      "hieu_luc_tu": "2015-01-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/kiem-dich"
@@ -42891,7 +43105,7 @@
         "ngay": "2026-10-28",
         "boi": "zcode@ozvietnam"
       },
-      "ghi_chu": "Văn bản GỐC của mảng trình tự thủ tục KDTV (issue #237). Bị sửa bởi TT 34/2018 (ghi chú sổ cũ, chưa đối chiếu PDF) và TT 20/2021, TT 11/2022; hợp nhất trong VBHN 19/2024. Lưu ý: TT 15/2020 bị nhầm là văn bản trình tự — thực chất là QCVN kỹ thuật. Bài tổng hợp KTCN 2026 — xem hs-code-api data/ktcn-regime-2026.json.",
+      "ghi_chu": "Văn bản GỐC của mảng trình tự thủ tục KDTV (issue #237), hiệu lực gốc 01-01-2015 (nguyên văn PDF hợp nhất Cục BVTV). Bị sửa bởi TT 34/2018, TT 15/2021; TT 03/2024 bãi một phần TT 34/2018. Hợp nhất hiện hành: VBHN 19/VBHN-BNNPTNT ngày 27-05-2024. Lưu ý: TT 15/2020 là QCVN kỹ thuật, không phải trình tự. Bài tổng hợp KTCN 2026 — xem hs-code-api data/ktcn-regime-2026.json.",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?docid=177307&pageid=27160",
@@ -42903,16 +43117,16 @@
       "quan_he_nguoc": {
         "bi_sua_doi_boi": [
           {
-            "tu": "11/2022/TT-BNNPTNT",
+            "tu": "15/2021/TT-BNNPTNT",
             "quan_he": "sua_doi",
             "so_hieu": "33/2014/TT-BNNPTNT",
-            "tu_ngay": "2022-09-20"
+            "tu_ngay": "2022-01-21"
           },
           {
-            "tu": "20/2021/TT-BNNPTNT",
+            "tu": "34/2018/TT-BNNPTNT",
             "quan_he": "sua_doi",
             "so_hieu": "33/2014/TT-BNNPTNT",
-            "tu_ngay": "2022-02-01"
+            "tu_ngay": "2019-01-01"
           }
         ],
         "duoc_hop_nhat_boi": [
@@ -44416,6 +44630,70 @@
             "so_hieu": "34/2005/QH11",
             "tu_ngay": "2017-01-01",
             "can_cu": "Điều 116 khoản 4 Luật 105/2016/QH13"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "34/2018/TT-BNNPTNT",
+      "so_hieu_khac": [
+        "34/2018/TT-BNNMT"
+      ],
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 33/2014/TT-BNNPTNT ngày 30 tháng 10 năm 2014 và Thông tư số 20/2017/TT-BNNPTNT ngày 10 tháng 11 năm 2017",
+      "co_quan": "BNNPTNT",
+      "ngay_ban_hanh": "2018-11-16",
+      "hieu_luc_tu": "2019-01-01",
+      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "33/2014/TT-BNNPTNT",
+            "tu_ngay": "2019-01-01"
+          },
+          {
+            "so_hieu": "20/2017/TT-BNNPTNT",
+            "tu_ngay": "2019-01-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://www.ppd.gov.vn/FileUpload/Documents/vbhn_19_thong_tu_33_va_thong_tu_03_cua_bo_nnptnt.pdf",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://www.ppd.gov.vn/van-ban---thong-tin-ve-kdtv/sua-doi-bo-sung-mot-so-dieu-cua-thong-tu-332014tt-bnnptnt-ngay-30-thang-10-nam-2014-va-thong-tu-202017tt-bnnptnt-ngay-10-thang-11-nam-2017-cua-bo-nong-nghiep-va-phat-trien-non.html",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 16-11-2018, hiệu lực 01-01-2019, sửa 33/2014 + 20/2017 (trang đầu PDF hợp nhất Cục BVTV trích nguyên văn); HẾT một phần: TT 03/2024 ngày 01-04-2024 bãi bỏ một số quy định tại TT này, hiệu lực 16-05-2024",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "slug": "34-2018-tt-bnnptnt",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "03/2024/TT-BNNPTNT",
+            "quan_he": "bai_bo",
+            "so_hieu": "34/2018/TT-BNNPTNT",
+            "pham_vi": "một số quy định",
+            "tu_ngay": "2024-05-16"
+          }
+        ],
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "19/VBHN-BNNPTNT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "34/2018/TT-BNNPTNT"
           }
         ]
       }
