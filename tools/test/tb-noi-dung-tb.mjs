@@ -14,6 +14,7 @@ import { existsSync, mkdirSync, mkdtempSync, readFileSync, readdirSync, realpath
 import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { soHieuKhop } from '../trich-noi-dung-tb.mjs';
 import {
   chuanHoaURL, tachSoHieu, slugTB, docCsvObject, docChiMucPDF, timUNGPDF,
   trichTenHang, trichDacTinh, trichMaKetLuan8So, trichLyDo, trichDonViDeNghi,
@@ -218,6 +219,9 @@ t('trích: nhãn "mã số" nằm trong câu KHÔNG được dùng để cắt c
     .includes('Dầu cá tinh chế'),
   trichDacTinh('2. Tóm tắt mô tả hàng hóa được xác định trước mã số: Theo hồ sơ xác định trước mã số, thông tin mặt hàng như sau:\n- Thành phần, cấu tạo: Dầu cá tinh chế 99.68%'));
 t('trích: dọn rác OCR ký hiệu "|" của bảng', !gonChu('a | | b').includes('|'), gonChu('a | | b'));
+t('đối chiếu số hiệu: OCR ăn mất chữ số → "không rõ" (null), KHÔNG kết luận sai',
+  soHieuKhop(102, [10]) === null && soHieuKhop(5076, [5026]) === true && soHieuKhop(102, [403]) === false,
+  JSON.stringify({a: soHieuKhop(102, [10]), b: soHieuKhop(5076, [5026]), c: soHieuKhop(102, [403])}));
 t('trích: câu dẫn "Theo … như sau:" không bị coi là mô tả hàng',
   (trichDacTinh('Tóm tắt mô tả và đặc tính hàng hóa: Theo hồ sơ xác định trước mã số, thông tin mặt hàng như sau:') || '')
     .length < 20,
