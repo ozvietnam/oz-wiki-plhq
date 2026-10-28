@@ -102,13 +102,18 @@ export function soHieuKhop(numYeuCau, numsTrongPDF) {
   if (!numsTrongPDF || !numsTrongPDF.length) return null;
   if (numsTrongPDF.includes(numYeuCau)) return true;
   const a = String(numYeuCau);
-  return numsTrongPDF.some((n) => {
+  let coCungDoDai = false;
+  for (const n of numsTrongPDF) {
     const b = String(n);
-    if (a.length !== b.length) return false;
+    // khác độ dài → OCR ăn mất chữ số, KHÔNG đủ cơ sở kết luận là văn bản khác
+    if (a.length !== b.length) continue;
+    coCungDoDai = true;
     let lech = 0;
     for (let i = 0; i < a.length; i += 1) if (a[i] !== b[i]) lech += 1;
-    return lech <= 1;   // sai 1 chữ số: nhiễu OCR hợp lý; sai từ 2: văn bản khác
-  });
+    if (lech <= 1) return true;   // sai 1 chữ số: nhiễu OCR hợp lý
+  }
+  // cùng độ dài mà khác từ 2 chữ số trở lại → VĂN BẢN KHÁC
+  return coCungDoDai ? false : null;
 }
 
 /** Rút 5 trường + tự kiểm "không bịa": thiếu gì thì nói rõ, không đoán bừa. */
