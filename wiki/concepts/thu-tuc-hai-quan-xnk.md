@@ -4,7 +4,10 @@ title: "Thủ tục hải quan hàng xuất nhập khẩu"
 type: concept
 created: 2026-10-04
 updated: 2026-10-04
-key_sources: []
+key_sources:
+  - 81-2019-tt-btc
+  - 06-2024-tt-btc
+  - 1921-qd-tchq
 related_concepts:
   - phan-loai-ma-hs
   - thue-gtgt-hang-nhap-khau
@@ -31,7 +34,11 @@ Thủ tục hải quan là chuỗi nghĩa vụ khai, nộp hồ sơ, chịu ki�
 
 ## Key sources
 
-Chưa có trang nguồn wiki. Căn cứ hiện tại: tệp sổ `registry/van-ban/` cho các số hiệu trên (`xac_minh.hieu_luc_da_doi_chieu: false` với nhóm khung hải quan lúc khởi tạo).
+- [[sources/81-2019-tt-btc]] — TT 81/2019/TT-BTC: quản lý rủi ro + **phân luồng tờ khai** (Điều 22: Luồng 1 Xanh / Luồng 2 Vàng / Luồng 3 Đỏ)
+- [[sources/06-2024-tt-btc]] — TT 06/2024/TT-BTC: sửa TT 81/2019 (hiệu lực 15/03/2024)
+- [[sources/1921-qd-tchq]] — QĐ 1921/QĐ-TCHQ: quy trình phân loại + áp dụng mức thuế của ngành Hải quan (chưa xác minh)
+
+Phần lớn các văn bản trong bảng trên **chưa có trang nguồn wiki**. Căn cứ hiện tại: tệp sổ `registry/van-ban/` cho các số hiệu trên (`xac_minh.hieu_luc_da_doi_chieu: false` với nhóm khung hải quan lúc khởi tạo).
 
 ## Related concepts
 

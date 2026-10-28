@@ -1,0 +1,107 @@
+{
+  "id": "86278",
+  "docType": {
+    "id": "0a5362e8-cdca-436e-96cd-979598df3b16",
+    "name": "Quyết định",
+    "code": "QĐ",
+    "parentCode": "VBQPPL",
+    "parentName": null
+  },
+  "docGroup": "VBQPPL",
+  "docNum": "1628/QĐ-TCHQ",
+  "title": "Quyết định số 1628/QĐ-TCHQ Ban hành “quy chế phân tích, phân loại hàng hóa xuất nhập khẩu trong ngành Hải Quan”",
+  "applicationNote": null,
+  "issueDate": "2010-07-15T00:00:00",
+  "effFrom": "2010-08-01T00:00:00",
+  "effTo": "2013-12-09T00:00:00",
+  "publicDate": null,
+  "effStatus": {
+    "id": "f55c1469-4341-4274-93ef-32b283db4dbd",
+    "name": "Hết hiệu lực toàn bộ",
+    "code": "HHL",
+    "parentCode": null,
+    "parentName": null
+  },
+  "status": "Publish",
+  "lang": "vi",
+  "defaultLanguage": "VN",
+  "updatedBy": "dungdvm_II.4",
+  "updatedDate": "2026-01-10T10:37:06",
+  "agencyName": "Tổng cục Hải quan",
+  "organization": {
+    "id": "d2907e2d-b1d4-4f22-8cfc-35f786fbf860",
+    "code": "BTC",
+    "name": "Bộ Tài chính",
+    "nameEn": "Bộ Tài chính",
+    "shortName": "BTC",
+    "orgType": "0"
+  },
+  "isLw": false,
+  "documentContent": {
+    "id": "86278",
+    "title": null,
+    "content": "$c"
+  },
+  "documentContentEn": null,
+  "documentContentFileName": null,
+  "documentContentFileDocName": "1628.QD.TCHQ.PHULUC.doc",
+  "documentIssues": [
+    {
+      "id": "bcafc470-2277-4a9c-a5e9-f4e2b4a9a74d",
+      "agencyId": "119",
+      "agencyName": "Tổng cục Hải quan",
+      "agencyNameEn": null,
+      "agencyCode": "CODE256",
+      "personId": "1380",
+      "personName": "Đang cập nhật",
+      "jobTitleId": "b498a01f-a750-43f8-80d3-8e1571884152",
+      "jobTitleCode": "PTCT",
+      "jobTitleName": "Phó Tổng cục  trưởng",
+      "orderIndex": 1
+    }
+  ],
+  "documentMajors": [
+    {
+      "id": "nganh_57",
+      "name": "Công Thương",
+      "code": null,
+      "parentCode": null,
+      "parentName": null
+    }
+  ],
+  "documentFields": [
+    {
+      "id": "6776",
+      "name": "Xuất nhập khẩu",
+      "code": null,
+      "parentCode": null,
+      "parentName": null
+    }
+  ],
+  "documentRelatedList": [
+    {
+      "id": "9799466f-30a6-4a58-9fe9-6be15c458501",
+      "fileName": "86278_body_content.html",
+      "relatedType": "MARKDOWN",
+      "fileTitle": "86278_body_content.html",
+      "fileOrder": null
+    }
+  ],
+  "provisionTree": null,
+  "references": null,
+  "isEffectAllDocument": false,
+  "isOld": true,
+  "reviewStatus": "INITIAL",
+  "reviewed": false,
+  "isTranslationDoc": false,
+  "isConsolidatedDocument": false,
+  "isConstitutionDocument": false,
+  "isAdministrativeDocument": false,
+  "viewCount": 13,
+  "showViewCount": true,
+  "hasContent": true,
+  "hasOriginalPdf": null,
+  "hasAIProcessed": false,
+  "hasClauseRelation": null,
+  "aiResults": []
+}

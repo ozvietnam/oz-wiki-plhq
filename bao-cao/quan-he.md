@@ -44,8 +44,10 @@ flowchart LR
 
 ```mermaid
 flowchart LR
+  n_06_2024_TT_BTC["06/2024/TT-BTC<br/>còn hiệu lực"]
+  n_81_2019_TT_BTC["81/2019/TT-BTC<br/>còn hiệu lực"]
   n_06_2026_TT_BTC["06/2026/TT-BTC<br/>còn hiệu lực"]
-  n_13_2015_TT_BTC["13/2015/TT-BTC<br/>chưa xác minh"]
+  n_13_2015_TT_BTC["13/2015/TT-BTC<br/>còn hiệu lực"]
   n_11_2026_QH16["11/2026/QH16<br/>chưa có hiệu lực"]
   n_54_2014_QH13["54/2014/QH13<br/>còn hiệu lực"]
   n_121_2025_TT_BTC["121/2025/TT-BTC<br/>còn hiệu lực"]
@@ -61,6 +63,9 @@ flowchart LR
   n_60_2019_TT_BTC["60/2019/TT-BTC<br/>còn hiệu lực"]
   n_39_2015_TT_BTC["39/2015/TT-BTC<br/>còn hiệu lực"]
   n_54_VBHN_VPQH["54/VBHN-VPQH<br/>còn hiệu lực"]
+  n_464_Q__BTC["464/QĐ-BTC<br/>chưa có trong sổ"]
+  n_465_Q__BTC["465/QĐ-BTC<br/>chưa có trong sổ"]
+  n_06_2024_TT_BTC -->|sửa đổi sửa Điều 10, 13, 14, 15, 17, 19, 20, 22, 26; bổ sung Điều 31a; sửa Điều 33 và cụm từ, khoản, phụ lục từ 2024-03-15| n_81_2019_TT_BTC
   n_06_2026_TT_BTC -->|sửa đổi từ 2026-03-01| n_13_2015_TT_BTC
   n_11_2026_QH16 -->|sửa đổi từ 2027-03-01| n_54_2014_QH13
   n_121_2025_TT_BTC -->|sửa đổi từ 2026-02-01| n_38_2015_TT_BTC
@@ -77,6 +82,8 @@ flowchart LR
   n_54_VBHN_VPQH -->|hợp nhất| n_54_2014_QH13
   n_59_2018_N__CP -->|sửa đổi| n_08_2015_N__CP
   n_60_2019_TT_BTC -->|sửa đổi| n_39_2015_TT_BTC
+  n_81_2019_TT_BTC -->|bãi bỏ Quyết định ban hành quy định quản lý rủi ro trong hoạt động nghiệp vụ hải quan từ 2021-01-01| n_464_Q__BTC
+  n_81_2019_TT_BTC -->|bãi bỏ Bộ tiêu chí quản lý rủi ro trong hoạt động nghiệp vụ hải quan từ 2021-01-01| n_465_Q__BTC
 ```
 
 ## Kiểm tra chuyên ngành (chất lượng, ATTP, kiểm dịch)
@@ -280,8 +287,11 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  n_17_2021_TT_BTC["17/2021/TT-BTC<br/>hết hiệu lực"]
   n_14_2015_TT_BTC["14/2015/TT-BTC<br/>hết hiệu lực"]
+  n_49_2010_TT_BTC["49/2010/TT-BTC<br/>hết hiệu lực"]
+  n_1628_Q__TCHQ["1628/QĐ-TCHQ<br/>hết hiệu lực"]
+  n_1671_Q__TCHQ["1671/QĐ-TCHQ<br/>chưa có trong sổ"]
+  n_17_2021_TT_BTC["17/2021/TT-BTC<br/>hết hiệu lực"]
   n_2169_Q__CHQ["2169/QĐ-CHQ<br/>còn hiệu lực"]
   n_2999_Q__TCHQ["2999/QĐ-TCHQ<br/>hết hiệu lực"]
   n_2166_Q__TCHQ["2166/QĐ-TCHQ<br/>hết hiệu lực"]
@@ -289,6 +299,8 @@ flowchart LR
   n_65_2017_TT_BTC["65/2017/TT-BTC<br/>chưa có trong sổ"]
   n_09_2019_TT_BTC["09/2019/TT-BTC<br/>chưa có trong sổ"]
   n_85_2026_TT_BTC["85/2026/TT-BTC<br/>còn hiệu lực"]
+  n_14_2015_TT_BTC -->|bãi bỏ từ 2015-03-16| n_49_2010_TT_BTC
+  n_1628_Q__TCHQ -->|thay thế toàn bộ từ 2010-08-01| n_1671_Q__TCHQ
   n_17_2021_TT_BTC -->|sửa đổi| n_14_2015_TT_BTC
   n_2169_Q__CHQ -->|thay thế từ 2026-02-01| n_2999_Q__TCHQ
   n_2169_Q__CHQ -->|thay thế từ 2026-02-01| n_2166_Q__TCHQ
@@ -337,8 +349,6 @@ flowchart LR
   n_11_2021_TT_BNNPTNT["11/2021/TT-BNNPTNT<br/>hết hiệu lực"]
   n_16_2021_TT_BNNPTNT["16/2021/TT-BNNPTNT<br/>chưa xác minh"]
   n_01_2022_TT_BNNPTNT["01/2022/TT-BNNPTNT<br/>chưa xác minh"]
-  n_02_2018_TT_BCT["02/2018/TT-BCT<br/>còn hiệu lực"]
-  n_34_2025_TT_BCT["34/2025/TT-BCT<br/>còn hiệu lực"]
   n_07_2023_TT_NHNN["07/2023/TT-NHNN<br/>còn hiệu lực"]
   n_38_2018_TT_NHNN["38/2018/TT-NHNN<br/>chưa xác minh"]
   n_07_2026_TT_BCT["07/2026/TT-BCT<br/>còn hiệu lực"]
@@ -364,6 +374,8 @@ flowchart LR
   n_69_2018_N__CP["69/2018/NĐ-CP<br/>hết hiệu lực"]
   n_33_2025_TT_BCT["33/2025/TT-BCT<br/>còn hiệu lực"]
   n_01_2018_TT_BCT["01/2018/TT-BCT<br/>chưa xác minh"]
+  n_34_2025_TT_BCT["34/2025/TT-BCT<br/>còn hiệu lực"]
+  n_02_2018_TT_BCT["02/2018/TT-BCT<br/>còn hiệu lực"]
   n_42_2019_TT_BCT["42/2019/TT-BCT<br/>hết hiệu lực một phần"]
   n_33_2016_TT_BCT["33/2016/TT-BCT<br/>chưa xác minh"]
   n_51_2018_TT_BCT["51/2018/TT-BCT<br/>chưa xác minh"]
@@ -377,7 +389,6 @@ flowchart LR
   n_01_2024_TT_BNNPTNT -->|thay thế từ 2024-03-20| n_11_2021_TT_BNNPTNT
   n_01_2024_TT_BNNPTNT -->|sửa đổi mục 3.1, mục 4, mục 8, mục 9 Phụ lục từ 2024-03-20| n_16_2021_TT_BNNPTNT
   n_01_2024_TT_BNNPTNT -->|sửa đổi bãi bỏ Điều 9 và Phụ lục XXIII từ 2024-03-20| n_01_2022_TT_BNNPTNT
-  n_02_2018_TT_BCT -->|sửa đổi từ 2025-07-21| n_34_2025_TT_BCT
   n_07_2023_TT_NHNN -->|sửa đổi| n_38_2018_TT_NHNN
   n_07_2026_TT_BCT -->|sửa đổi Điều 6–10, bãi Điều 11, thay Phụ lục I–II từ 2026-04-10| n_37_2013_TT_BCT
   n_08_2023_TT_BCT -->|sửa đổi Phụ lục I, Phụ lục II (và các phụ lục khác theo Điều 1) từ 2023-05-16| n_12_2018_TT_BCT
@@ -438,12 +449,15 @@ flowchart LR
 
 ```mermaid
 flowchart LR
+  n_02_2018_TT_BCT["02/2018/TT-BCT<br/>còn hiệu lực"]
+  n_34_2025_TT_BCT["34/2025/TT-BCT<br/>còn hiệu lực"]
   n_124_2026_TT_BTC["124/2026/TT-BTC<br/>còn hiệu lực"]
   n_33_2023_TT_BTC["33/2023/TT-BTC<br/>còn hiệu lực"]
   n_126_Q__TTg["126/QĐ-TTg<br/>còn hiệu lực"]
   n_1175_Q__TTg["1175/QĐ-TTg<br/>hết hiệu lực"]
   n_127_Q__TTg["127/QĐ-TTg<br/>còn hiệu lực"]
   n_734_Q__TTg["734/QĐ-TTg<br/>hết hiệu lực"]
+  n_02_2018_TT_BCT -->|sửa đổi từ 2025-07-21| n_34_2025_TT_BCT
   n_124_2026_TT_BTC -->|sửa đổi bổ sung khoản 10 Điều 15 từ 2026-08-22| n_33_2023_TT_BTC
   n_126_Q__TTg -->|thay thế từ 2026-01-16| n_1175_Q__TTg
   n_127_Q__TTg -->|thay thế từ 2026-01-16| n_734_Q__TTg

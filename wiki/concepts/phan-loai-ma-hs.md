@@ -9,6 +9,9 @@ key_sources:
   - 14-2015-tt-btc
   - 17-2021-tt-btc
   - 31-2022-tt-btc
+  - 49-2010-tt-btc
+  - 1628-qd-tchq
+  - 1921-qd-tchq
 related_concepts:
   - thu-tuc-hai-quan-xnk
   - thue-gtgt-hang-nhap-khau
@@ -49,10 +52,16 @@ Phân loại mã HS là việc gắn hàng hoá xuất nhập khẩu vào mã s�
 
 ## Key sources
 
+- [[sources/49-2010-tt-btc]] — TT 49/2010/TT-BTC, khung "phân loại + áp dụng mức thuế" đầu tiên (đã hết hiệu lực 16/03/2015)
+- [[sources/1628-qd-tchq]] — QĐ 1628/QĐ-TCHQ, quy chế phân tích/phân loại của ngành Hải quan (đã hết hiệu lực 09/12/2013)
+- [[sources/1921-qd-tchq]] — QĐ 1921/QĐ-TCHQ, Quy trình phân loại hàng hóa, áp dụng mức thuế của ngành Hải quan (2018) — **CHƯA XÁC MINH**, mới có bản bậc C
 - `registry/van-ban/85-2026-tt-btc.yaml` (NGUON_A, đã đọc toàn văn 23 trang, 711KB)
 - `registry/van-ban/14-2015-tt-btc.yaml` (HET_HIEU_LUC từ 15/09/2026, NGUON_A)
 - `registry/van-ban/17-2021-tt-btc.yaml` (HET_HIEU_LUC theo quan hệ thay thế 85/2026)
 - `registry/van-ban/31-2022-tt-btc.yaml` (CON_HIEU_LUC từ 01/12/2022)
+- `registry/van-ban/49-2010-tt-btc.yaml` (HET_HIEU_LUC từ 16/03/2015 — TT 49/2010 "Hướng dẫn việc phân loại, áp dụng mức thuế", bản nền tảng trước TT 14/2015)
+- `registry/van-ban/1628-qd-tchq.yaml` (HET_HIEU_LUC từ 09/12/2013 — Quy chế phân tích, phân loại hàng hoá **của ngành Hải quan**)
+- `registry/van-ban/1921-qd-tchq-2018.yaml` (CHUA_XAC_MINH — Quy trình phân loại + áp dụng mức thuế của ngành Hải quan, 2018; mới có bản đăng lại bậc C)
 - Toàn văn 85/2026: `raw/download/congbaocdn.chinhphu.vn/2026/7/18/85-2026-tt-btc.pdf`
 
 ## Related concepts
@@ -72,3 +81,4 @@ Phân loại mã HS là việc gắn hàng hoá xuất nhập khẩu vào mã s�
 - **Quan trọng**: Trước 15/09/2026, tham chiếu `14/2015/TT-BTC + 17/2021/TT-BTC`. Từ 15/09/2026, **chỉ tham chiếu `85/2026/TT-BTC`**.
 - Câu hỏi mẫu #8 (xác định trước mã số: hồ sơ, thời hạn) trong `docs/cau-hoi-mau.md` đánh dấu **chưa** — cần trích điều từ toàn văn 85/2026/TT-BTC (Điều 8-12).
 - Nhánh `phan-loai-hs/chu-giai` và `phan-loai-hs/thong-bao-phan-loai` đang trống trên cây (điểm mù cao).
+- Có **hai** nhánh văn bản về phân loại song song: của **Bộ Tài chính** (TT 49/2010 → TT 14/2015 → TT 85/2026) và của **ngành Hải quan** (QĐ 1628/QĐ-TCHQ → 4023/QĐ-TCHQ → 2131 → 2999 → 2166 → 2169/QĐ-CHQ). Cả hai đều đã hết hiệu lực ở các mốc khác nhau — xem [[sources/1628-qd-tchq]].

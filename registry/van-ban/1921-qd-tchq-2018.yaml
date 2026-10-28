@@ -14,21 +14,37 @@ nguon:
   - url: https://www.vietnamtradeportal.gov.vn/kcfinder/upload/files/1921_QD-TCHQ_.pdf
     truy_cap: '2026-10-04'
 xac_minh:
-  muc: NGUON_A
+  muc: NGUON_B
   pham_vi: >-
-    Số hiệu, ngày ban hành, cơ quan và nội dung trích yếu được dẫn trong tài liệu
-    Cục Kiểm định hải quan năm 2023, trang in 10 (trang PDF 14), mục 2.1.
-    Cách ghi đầy đủ trích yếu đối chiếu trang 1 bản đăng lại tại Vietnam Trade Portal.
-    Chưa đối chiếu bản quyết định ký gốc hoặc tình trạng hiệu lực hiện tại.
+    Toàn văn Quy trình phân loại hàng hóa, áp dụng mức thuế (Quyết định 3 điều + Quy trình 10 điều
+    + 03 Phụ lục) đã tải và đọc từ bản đăng lại tại Vietnam Trade Portal (nguồn BẬC C, bản không
+    có chữ ký số / con dấu). Số hiệu, ngày ban hành 28-06-2018, cơ quan ban hành và nội dung trích
+    yếu khớp với phần dẫn trong tài liệu Cục Kiểm định hải quan năm 2023 (nguồn bậc A theo tên
+    miền customs.gov.vn, nhưng là tài liệu dẫn chiếu — không phải toàn văn quyết định).
+    CHƯA đối chiếu bản quyết định ký gốc; CHƯA xác minh tình trạng hiệu lực hiện nay; CHƯA
+    xác minh danh mục văn bản bị bãi bỏ tại Điều 2.2.
   hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: Codex@ozvietnam    Nguồn A là tài liệu nghiên cứu của cơ quan dẫn văn bản, không phải toàn văn
+  chan:
+    ma: THIEU_PDF_A
+    ngay: '2026-10-28'
+    viec_tiep: >-
+      Cần bản ký gốc (vbpl.vn / customs.gov.vn / CSDLQG) để xác minh hiệu lực và danh mục bãi bỏ
+      Điều 2.2; sau đó mới ghi hieu_luc_tu, quan_he và tinh_trang.
+  ngay: '2026-10-28'
+  boi: zcode@ozvietnam    Nguồn A là tài liệu nghiên cứu của cơ quan dẫn văn bản, không phải toàn văn
     quyết định ký gốc. PDF Vietnam Trade Portal mang nhãn THƯ VIỆN PHÁP LUẬT;
     chỉ dùng đối chiếu bổ sung, không tự gán bậc A cho tên miền này.
+toan_van: raw/download/vietnamtradeportal.gov.vn/1921-qd-tchq.txt
 ghi_chu: >-
   Nhận riêng 1921/QĐ-TCHQ tại issue #2, bình luận 5980982623. Không ghi hieu_luc_tu,
   toan_van hoặc quan_he khi chưa có bản ký gốc để kiểm chứng điều khoản.
   Danh mục nguồn và việc cần nhận tiếp: docs/thu-thap/2026-10-04-1921-qd-tchq.md.
+  Cập nhật 28-10-2026 (issue #87, PR #1): nạp toàn văn + trích đoạn, hạ muc xác minh từ NGUON_A
+  xuống NGUON_B (mức NGUON_A trước đây MÂU THUẪN với chính pham_vi ghi "chưa đối chiếu bản ký
+  gốc" — nguồn duy nhất là tài liệu dẫn chiếu, không phải toàn văn). Vẫn giữ tinh_trang
+  CHUA_XAC_MINH và hieu_luc_da_doi_chieu: false vì chưa có bản ký gốc.
+  Điều 2.2 (bản bậc C) cho biết QĐ này bãi bỏ 2134/QĐ-TCHQ, 2135/QĐ-TCHQ, Điều 52-54 quy trình
+  kèm QĐ 1966/QĐ-TCHQ, và 3 công văn — CHƯA ghi quan_he vì chưa đối chiếu bản gốc.
 tu_khoa:
   - phan-loai-hang-hoa
   - ap-dung-muc-thue

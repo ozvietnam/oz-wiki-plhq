@@ -4,7 +4,9 @@ title: "Mức độ rủi ro của hàng hoá (thấp – trung bình – cao)"
 type: concept
 created: 2026-10-04
 updated: 2026-10-13
-key_sources: []
+key_sources:
+  - 81-2019-tt-btc
+  - 1921-qd-tchq
 related_concepts:
   - kiem-tra-nha-nuoc-an-toan-thuc-pham
   - doc-tinh-trang-hieu-luc
@@ -29,6 +31,9 @@ Từ 01/7/2026, hàng hoá thuộc phạm vi Luật Chất lượng sản phẩm
 Lưu ý: Điều 86 Nghị định 37/2026/NĐ-CP nói về miễn, giảm kiểm tra hàng **rủi ro cao** — đừng trích cho hàng rủi ro thấp.
 
 ## Key sources
+
+- [[sources/1921-qd-tchq]] — QĐ 1921/QĐ-TCHQ, Điều 3 khoản 1 điểm đ: riêng hàng hóa **phân luồng xanh** thì công chức hải quan kiểm tra theo chỉ dẫn rủi ro Vnaccs (chưa xác minh — bản bậc C).
+- [[sources/81-2019-tt-btc]] — TT 81/2019/TT-BTC, Điều 16: khung 3 mức rủi ro **trong nghiệp vụ hải quan** (rủi ro cao / trung bình / thấp) — khác với khung rủi ro kiểm tra chuyên ngành của NĐ 37/2026; Điều 22 cùng văn bản là nơi quy định **phân luồng tờ khai** theo mức rủi ro.
 
 Đã đối chiếu nguồn A ngày 13/10/2026 (PDF datafiles bậc A dạng ảnh, OCR lưu `raw/download/datafiles.chinhphu.vn/37-2026-nd-cp-body-ocr.txt`; sổ bật `hieu_luc_da_doi_chieu: true`): Điều 82 khoản 1 nguyên văn *"không phải thực hiện kiểm tra chất lượng khi nhập khẩu nhưng phải thực hiện công bố hợp quy"*; khoản 2 *"phải thực hiện đăng ký kiểm tra chất lượng theo quy định tại Điều 83"*; Điều 83 khoản 1 điểm b — thời hạn 01/07/05 ngày làm việc. Số hiệu neo sổ: `37/2026/NĐ-CP`, `05/2007/QH12`, `132/2008/NĐ-CP` (bị bãi từ 01/7/2026 theo Điều 97 khoản 2 điểm a).
 

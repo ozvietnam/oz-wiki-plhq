@@ -2,7 +2,7 @@
   "phien_ban": "2026-10-28",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2338,
+  "tong": 2342,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -351,7 +351,7 @@
       "hieu_luc_tu": "2018-02-27",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "quan-ly-ngoai-thuong/giay-phep"
+        "xuat-xu-fta/quy-tac-xuat-xu"
       ],
       "nguon": [
         {
@@ -1118,6 +1118,55 @@
       }
     },
     {
+      "so_hieu": "06/2024/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 81/2019/TT-BTC ngày 15 tháng 11 năm 2019 của Bộ trưởng Bộ Tài chính quy định quản lý rủi ro trong hoạt động nghiệp vụ hải quan",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2024-01-29",
+      "hieu_luc_tu": "2024-03-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat",
+        "hai-quan/thu-tuc"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "81/2019/TT-BTC",
+            "pham_vi": "sửa Điều 10, 13, 14, 15, 17, 19, 20, 22, 26; bổ sung Điều 31a; sửa Điều 33 và cụm từ, khoản, phụ lục",
+            "tu_ngay": "2024-03-15",
+            "can_cu": "Điều 1 và Điều 2 khoản 1 Thông tư 06/2024/TT-BTC"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=209651",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/02/06-tt-btc.signed.pdf",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-06-2024-tt-btc-sua-doi-bo-sung-mot-so-dieu-cua-thong-tu-so-81-2019-tt-btc-ngay-15-thang-11-nam-2019-cua-bo-truong-bo-tai-chinh-quy-dinh-quan-ly-rui-ro-trong-hoat-dong-nghiep-vu-hai-quan--166065",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 29-01-2024, hiệu lực 15-03-2024, người ký Nguyễn Đức Chi (Bộ trưởng Bộ Tài chính), toàn văn OCR",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-28",
+        "boi": "claude-code@ozvietnam"
+      },
+      "toan_van": "raw/download/datafiles.chinhphu.vn/06-2024-tt-btc.pdf",
+      "ghi_chu": "Điều 1 khoản 1: hiệu lực 15/03/2024; riêng khoản 4, 5, 6 Điều 1 hiệu lực từ 15/07/2025. Điều 1 khoản 6 sửa lại Điều 14 (phân loại mức độ rủi ro) — Hạng 7/8/9 đổi thành \"không có hoạt động xuất khẩu, nhập khẩu hàng hóa trong 365 ngày trở về trước\" thay cho \"có hoạt động\". Điều 1 khoản 12 sửa điểm c.3 khoản 1 Điều 22 (kiểm tra bằng phân tích, kiểm định tại đơn vị kiểm định hải quan, trạm kiểm định di động hải quan hoặc giám định theo quy định). Điều 1 khoản 13 sửa Điều 26 về hồ sơ hoàn thuế theo 3 mức rủi ro. Điều 3 khoản 2 bãi bỏ Điều 24 TT 39/2015/TT-BTC và khoản 13 Điều 1 TT 138/2019/TT-BTC.",
+      "slug": "06-2024-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "06/2026/TT-BTC",
       "loai": "THONG_TU",
       "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 13/2015/TT-BTC quy định về kiểm tra, giám sát, tạm dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo vệ quyền sở hữu trí tuệ",
@@ -1404,6 +1453,14 @@
             "tu": "38/2015/TT-BTC",
             "quan_he": "huong_dan",
             "so_hieu": "08/2015/NĐ-CP"
+          },
+          {
+            "tu": "81/2019/TT-BTC",
+            "quan_he": "huong_dan",
+            "so_hieu": "08/2015/NĐ-CP",
+            "pham_vi": "quy định chi tiết Điều 14, 15 về phân loại mức độ rủi ro và phân luồng kiểm tra hải quan",
+            "tu_ngay": "2020-01-01",
+            "can_cu": "Điều 13 khoản 1 và Điều 15 khoản 1 Thông tư 81/2019/TT-BTC"
           }
         ]
       }
@@ -10820,22 +10877,22 @@
       "co_quan": "BTC",
       "ngay_ban_hanh": "2015-01-30",
       "hieu_luc_tu": "2015-03-15",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "hai-quan/kiem-tra-giam-sat"
       ],
       "nguon": [
         {
           "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-13-2015-tt-btc-7958.htm",
-          "truy_cap": "2026-10-04"
+          "truy_cap": "2026-10-28"
         }
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "Đã đối chiếu lại trên Công báo (nguồn bậc A) ngày 28-10-2026: ban hành 30-01-2015, hiệu lực 15-03-2015, cơ quan Bộ Tài chính. Mục \"Lược đồ\" của Công báo cho biết văn bản CHƯA bị thay thế/bãi bỏ và CHƯA bị sửa đổi/đính chính. Ngoài ra đã bị TT 06/2026/TT-BTC sửa đổi, bổ sung từ 01-03-2026 (chiều đi ghi ở văn bản mới: registry/van-ban/06-2026-tt-btc.yaml) — nên vẫn còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
       },
       "slug": "13-2015-tt-btc",
       "bac_nguon_cao_nhat": "A",
@@ -12479,6 +12536,15 @@
       "nhanh": [
         "phan-loai-hs/quy-trinh-phan-loai"
       ],
+      "quan_he": {
+        "bai_bo": [
+          {
+            "so_hieu": "49/2010/TT-BTC",
+            "tu_ngay": "2015-03-16",
+            "can_cu": "Điều 16 khoản 1 nguyên văn: \"Bãi bỏ Thông tư số 49/2010/TT-BTC ngày 12/4/2010; Điều 17, Điều 97 Thông tư số 128/2013/TT-BTC ngày 10/9/2013; công văn số 1280/BTC-TCHQ ngày 24/1/2014 của Bộ Tài chính hướng dẫn trừ lùi các chi tiết, linh kiện rời của máy móc, thiết bị nguyên chiếc.\" (đọc từ toàn văn TT 14/2015/TT-BTC trên CSDLQG vbpl.vn, id 59720, 28-10-2026)"
+          }
+        ]
+      },
       "nguon": [
         {
           "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-85-2026-tt-btc-469982.htm",
@@ -15509,6 +15575,52 @@
       "toan_van": "chua_co",
       "slug": "1627-tb-tchq-2022",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1628/QĐ-TCHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Ban hành Quy chế phân tích, phân loại hàng hóa xuất nhập khẩu trong ngành Hải quan",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2010-07-15",
+      "hieu_luc_tu": "2010-08-01",
+      "het_hieu_luc_tu": "2013-12-09",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs/quy-trinh-phan-loai"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "1671/QĐ-TCHQ",
+            "tu_ngay": "2010-08-01",
+            "pham_vi": "toàn bộ",
+            "can_cu": "Điều 2 nguyên văn: \"Quyết định này có hiệu lực kể từ ngày 01/08/2010 và thay thế Quyết định số 1671/QĐ-TCHQ ngày 20/10/2005 của Tổng cục trưởng Tổng cục Hải quan về 'Quy chế phân tích, phân loại hàng hóa xuất nhập khẩu trong ngành Hải quan' và các văn bản hướng dẫn thực hiện quy chế theo Quyết định số 1671/QĐ-TCHQ ngày 20/10/2005 nêu trên.\""
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/quyet-dinh-so-1628-qd-tchq-ban-hanh-quy-che-phan-tich-phan-loai-hang-hoa-xuat-nhap-khau-trong-nganh-hai-quan--86278",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "toan_van": "raw/download/vbpl.vn/1628-qd-tchq-noi-dung.txt",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "CSDLQG về pháp luật (Bộ Tư pháp) — vbpl.vn, đọc ngày 28-10-2026: số hiệu 1628/QĐ-TCHQ, tiêu đề, ngày ban hành 15-07-2010, ngày hiệu lực 01-08-2010, ngày hết hiệu lực 09-12-2013, trạng thái \"Hết hiệu lực toàn bộ\" (effStatus HHL); cơ quan ban hành Tổng cục Hải quan. Đã đọc toàn văn (Quyết định 3 điều + Quy chế 4 chương 14 điều). Người ký: Hoàng Việt Cường, Phó Tổng cục trưởng.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nạp theo issue #87 (PR #1, vai trò \"quy chế phân loại hàng\"). Đây là quy chế của ngành Hải quan về phân tích, phân loại hàng hoá — bên cạnh nhánh \"phân loại hàng hoá\" của Bộ Tài chính (TT 49/2010/TT-BTC rồi TT 14/2015/TT-BTC). Điều 1 quy chế định nghĩa PTPL; Điều 4 quy định đơn vị PTPL là Trung tâm Phân tích, phân loại hàng hoá XNK và các chi nhánh. ĐÃ HẾT HIỆU LỰC từ 09-12-2013. Văn bản thay thế là Quyết định 4023/QĐ-TCHQ ngày 09-12-2013 của Tổng cục Hải quan — CHƯA có trong sổ; cần nạp để chốt quan hệ chiều đi. Sau đó còn 2131/QĐ-TCHQ (31-07-2015) → 2999/QĐ-TCHQ (06-09-2017) → 2166/QĐ-TCHQ (04-08-2021) → 2169/QĐ-CHQ (31-12-2025, hiện hành từ 01-02-2026). Điều 17.1 TT 14/2015/TT-BTC là căn cứ cho quy chế phân tích để phân loại của ngành Hải quan.",
+      "tu_khoa": [
+        "phan-loai-hang-hoa",
+        "quy-che",
+        "phan-tich-phan-loai"
+      ],
+      "slug": "1628-qd-tchq",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -21958,13 +22070,19 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_A",
-        "pham_vi": "Số hiệu, ngày ban hành, cơ quan và nội dung trích yếu được dẫn trong tài liệu Cục Kiểm định hải quan năm 2023, trang in 10 (trang PDF 14), mục 2.1. Cách ghi đầy đủ trích yếu đối chiếu trang 1 bản đăng lại tại Vietnam Trade Portal. Chưa đối chiếu bản quyết định ký gốc hoặc tình trạng hiệu lực hiện tại.",
+        "muc": "NGUON_B",
+        "pham_vi": "Toàn văn Quy trình phân loại hàng hóa, áp dụng mức thuế (Quyết định 3 điều + Quy trình 10 điều + 03 Phụ lục) đã tải và đọc từ bản đăng lại tại Vietnam Trade Portal (nguồn BẬC C, bản không có chữ ký số / con dấu). Số hiệu, ngày ban hành 28-06-2018, cơ quan ban hành và nội dung trích yếu khớp với phần dẫn trong tài liệu Cục Kiểm định hải quan năm 2023 (nguồn bậc A theo tên miền customs.gov.vn, nhưng là tài liệu dẫn chiếu — không phải toàn văn quyết định). CHƯA đối chiếu bản quyết định ký gốc; CHƯA xác minh tình trạng hiệu lực hiện nay; CHƯA xác minh danh mục văn bản bị bãi bỏ tại Điều 2.2.",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "Codex@ozvietnam    Nguồn A là tài liệu nghiên cứu của cơ quan dẫn văn bản, không phải toàn văn quyết định ký gốc. PDF Vietnam Trade Portal mang nhãn THƯ VIỆN PHÁP LUẬT; chỉ dùng đối chiếu bổ sung, không tự gán bậc A cho tên miền này."
+        "chan": {
+          "ma": "THIEU_PDF_A",
+          "ngay": "2026-10-28",
+          "viec_tiep": "Cần bản ký gốc (vbpl.vn / customs.gov.vn / CSDLQG) để xác minh hiệu lực và danh mục bãi bỏ Điều 2.2; sau đó mới ghi hieu_luc_tu, quan_he và tinh_trang."
+        },
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam    Nguồn A là tài liệu nghiên cứu của cơ quan dẫn văn bản, không phải toàn văn quyết định ký gốc. PDF Vietnam Trade Portal mang nhãn THƯ VIỆN PHÁP LUẬT; chỉ dùng đối chiếu bổ sung, không tự gán bậc A cho tên miền này."
       },
-      "ghi_chu": "Nhận riêng 1921/QĐ-TCHQ tại issue #2, bình luận 5980982623. Không ghi hieu_luc_tu, toan_van hoặc quan_he khi chưa có bản ký gốc để kiểm chứng điều khoản. Danh mục nguồn và việc cần nhận tiếp: docs/thu-thap/2026-10-04-1921-qd-tchq.md.",
+      "toan_van": "raw/download/vietnamtradeportal.gov.vn/1921-qd-tchq.txt",
+      "ghi_chu": "Nhận riêng 1921/QĐ-TCHQ tại issue #2, bình luận 5980982623. Không ghi hieu_luc_tu, toan_van hoặc quan_he khi chưa có bản ký gốc để kiểm chứng điều khoản. Danh mục nguồn và việc cần nhận tiếp: docs/thu-thap/2026-10-04-1921-qd-tchq.md. Cập nhật 28-10-2026 (issue #87, PR #1): nạp toàn văn + trích đoạn, hạ muc xác minh từ NGUON_A xuống NGUON_B (mức NGUON_A trước đây MÂU THUẪN với chính pham_vi ghi \"chưa đối chiếu bản ký gốc\" — nguồn duy nhất là tài liệu dẫn chiếu, không phải toàn văn). Vẫn giữ tinh_trang CHUA_XAC_MINH và hieu_luc_da_doi_chieu: false vì chưa có bản ký gốc. Điều 2.2 (bản bậc C) cho biết QĐ này bãi bỏ 2134/QĐ-TCHQ, 2135/QĐ-TCHQ, Điều 52-54 quy trình kèm QĐ 1966/QĐ-TCHQ, và 3 công văn — CHƯA ghi quan_he vì chưa đối chiếu bản gốc.",
       "tu_khoa": [
         "phan-loai-hang-hoa",
         "ap-dung-muc-thue",
@@ -58309,6 +58427,52 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "49/2010/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Hướng dẫn việc phân loại, áp dụng mức thuế đối với hàng hóa xuất khẩu, nhập khẩu",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2010-04-12",
+      "hieu_luc_tu": "2010-05-27",
+      "het_hieu_luc_tu": "2015-03-16",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs/quy-trinh-phan-loai"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-49-2010-tt-btc-huong-dan-viec-phan-loai-ap-dung-muc-thue-doi-voi-hang-hoa-xuat-khau-nhap-khau--25288",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "toan_van": "raw/download/vbpl.vn/49-2010-tt-btc-noi-dung.txt",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "CSDLQG về pháp luật (Bộ Tư pháp) — vbpl.vn, đọc ngày 28-10-2026: số hiệu 49/2010/TT-BTC, ngày ban hành 12-04-2010, ngày hiệu lực 27-05-2010, ngày hết hiệu lực 16-03-2015, trạng thái \"Hết hiệu lực toàn bộ\" (effStatus HHL); trường applicationNote ghi \"Bị bãi bỏ bởi Thông tư 14/2015/TT-BTC\". Người ký: Đỗ Hoàng Anh Tuấn, Thứ trưởng Bộ Tài chính. Đã đọc toàn văn (31 điều + phụ lục) từ CSDLQG; Điều 31.1 nguyên văn: \"Thông tư này có hiệu lực thi hành sau 45 ngày kể từ ngày ký, thay thế Thông tư số 85/2003/TT-BTC ngày 29 tháng 08 năm 2003 của Bộ Tài chính và các văn bản hướng dẫn trước đây của Bộ Tài chính trái với Thông tư này.\"",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nạp theo issue #87 (PR #1, vai trò \"phân loại HS, áp mức thuế\"). Văn bản nền tảng đầu tiên của Bộ Tài chính về phân loại hàng hoá + áp dụng mức thuế, định nghĩa 4 khái niệm nền: \"Phân tích, phân loại\", \"phân loại trước\" (Điều 2.3-2.4), \"Cơ sở dữ liệu phân loại hàng hoá, áp dụng mức thuế\" (Điều 2.5). Đã bị bãi bỏ bởi TT 14/2015/TT-BTC (Điều 16.1) — chiều đi ghi ở văn bản mới (registry/van-ban/14-2015-tt-btc.yaml). Chi tiết lịch sử hiệu lực: wiki/sources/49-2010-tt-btc.md",
+      "tu_khoa": [
+        "phan-loai-hang-hoa",
+        "ap-dung-muc-thue",
+        "phan-loai-truoc"
+      ],
+      "slug": "49-2010-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "14/2015/TT-BTC",
+            "quan_he": "bai_bo",
+            "so_hieu": "49/2010/TT-BTC",
+            "tu_ngay": "2015-03-16",
+            "can_cu": "Điều 16 khoản 1 nguyên văn: \"Bãi bỏ Thông tư số 49/2010/TT-BTC ngày 12/4/2010; Điều 17, Điều 97 Thông tư số 128/2013/TT-BTC ngày 10/9/2013; công văn số 1280/BTC-TCHQ ngày 24/1/2014 của Bộ Tài chính hướng dẫn trừ lùi các chi tiết, linh kiện rời của máy móc, thiết bị nguyên chiếc.\" (đọc từ toàn văn TT 14/2015/TT-BTC trên CSDLQG vbpl.vn, id 59720, 28-10-2026)"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "49/2015/TT-BCT",
       "loai": "THONG_TU",
       "ten": "(chưa có tiêu đề) 49/2015/TT-BCT",
@@ -77441,6 +77605,80 @@
       "slug": "809-tb-tchq-2022",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "81/2019/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Quy định quản lý rủi ro trong hoạt động nghiệp vụ hải quan",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2019-11-15",
+      "hieu_luc_tu": "2020-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat",
+        "hai-quan/thu-tuc"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          {
+            "so_hieu": "08/2015/NĐ-CP",
+            "pham_vi": "quy định chi tiết Điều 14, 15 về phân loại mức độ rủi ro và phân luồng kiểm tra hải quan",
+            "tu_ngay": "2020-01-01",
+            "can_cu": "Điều 13 khoản 1 và Điều 15 khoản 1 Thông tư 81/2019/TT-BTC"
+          }
+        ],
+        "bai_bo": [
+          {
+            "so_hieu": "464/QĐ-BTC",
+            "pham_vi": "Quyết định ban hành quy định quản lý rủi ro trong hoạt động nghiệp vụ hải quan",
+            "tu_ngay": "2021-01-01",
+            "can_cu": "Điều 34 khoản 2 Thông tư 81/2019/TT-BTC"
+          },
+          {
+            "so_hieu": "465/QĐ-BTC",
+            "pham_vi": "Bộ tiêu chí quản lý rủi ro trong hoạt động nghiệp vụ hải quan",
+            "tu_ngay": "2021-01-01",
+            "can_cu": "Điều 34 khoản 2 Thông tư 81/2019/TT-BTC"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=198479",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/12/81-btc.signed.pdf",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-81-2019-tt-btc-quy-dinh-quan-ly-rui-ro-trong-hoat-dong-nghiep-vu-hai-quan--139957",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 15-11-2019, hiệu lực 01-01-2020, người ký Vũ Thị Mai (Bộ trưởng Bộ Tài chính), toàn văn OCR 30 trang thân văn + phụ lục",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-10-28",
+        "boi": "claude-code@ozvietnam"
+      },
+      "toan_van": "raw/download/datafiles.chinhphu.vn/81-2019-tt-btc.pdf",
+      "ghi_chu": "Văn bản nền tảng về phân luồng tờ khai: Điều 22 quy định Luồng 1 (Xanh) / Luồng 2 (Vàng) / Luồng 3 (Đỏ) theo mức độ rủi ro thấp - trung bình - cao. Điều 14 phân loại người khai hải quan thành 9 hạng rủi ro (Hạng 1 doanh nghiệp ưu tiên; Hạng 2 rất thấp; Hạng 3 thấp; Hạng 4 trung bình; Hạng 5 cao; Hạng 6 rất cao; Hạng 7-9 theo lịch sử vi phạm). Điều 10 phân loại mức độ tuân thủ pháp luật thành 5 Mức (1 doanh nghiệp ưu tiên; 2 tuân thủ cao; 3 tuân thủ trung bình; 4 tuân thủ thấp; 5 không tuân thủ). Điều 20 khoản 2 cho phép thủ trưởng cơ quan hải quan quyết định thay đổi hình thức, mức độ kiểm tra khi có thông tin nghi ngờ vi phạm. Đã bị sửa đổi, bổ sung bởi TT 06/2024/TT-BTC từ 15-03-2024. Người ký: Vũ Thị Mai.",
+      "slug": "81-2019-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "06/2024/TT-BTC",
+            "quan_he": "sua_doi",
+            "so_hieu": "81/2019/TT-BTC",
+            "pham_vi": "sửa Điều 10, 13, 14, 15, 17, 19, 20, 22, 26; bổ sung Điều 31a; sửa Điều 33 và cụm từ, khoản, phụ lục",
+            "tu_ngay": "2024-03-15",
+            "can_cu": "Điều 1 và Điều 2 khoản 1 Thông tư 06/2024/TT-BTC"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "81/2025/QH15",
