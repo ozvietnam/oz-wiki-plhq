@@ -15,7 +15,7 @@
     "nap": "node tools/nap.mjs",
     "them": "node tools/them-van-ban.mjs",
     "san-hieu-luc": "node tools/san-hieu-luc.mjs",
-    "test": "node tools/test/run.mjs && node tools/kiem-tra.mjs && node _lumina/scripts/lint.mjs --json > /dev/null",
+    "test": "node tools/test/run.mjs && node tools/test/tb-noi-dung-tb.mjs && node tools/kiem-tra.mjs && node _lumina/scripts/lint.mjs --json > /dev/null",
     "test:parser": "python3 tools/test-trich-14dm.py",
     "trich": "python3 tools/trich-14dm.mjs.py",
     "check-hs": "python3 tools/kiem-tra-ma-hs-2026.py",
@@ -25,7 +25,10 @@
     "trich-chu-giai": "node tools/trich-chu-giai.mjs",
     "dong-goi-lo": "node tools/dong-goi-lo-tb-tchq.mjs",
     "chia-goi": "node tools/chia-goi-tb-tchq.mjs",
-    "doi-chieu-kho": "node tools/doi-chieu-kho-tb-tchq.mjs"
+    "doi-chieu-kho": "node tools/doi-chieu-kho-tb-tchq.mjs",
+    "tai-pdf-tb": "node tools/tai-pdf-tb.mjs",
+    "trich-noi-dung-tb": "node tools/trich-noi-dung-tb.mjs",
+    "tb-chay-lo": "node tools/tb-chay-lo.mjs"
   },
   "dependencies": {
     "js-yaml": "^4.1.0"
