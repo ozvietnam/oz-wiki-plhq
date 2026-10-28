@@ -5,26 +5,35 @@ so_hieu_khac:
 loai: VAN_BAN_HOP_NHAT
 ten: Hợp nhất Thông tư quy định về trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật
 co_quan: BNNPTNT
-tinh_trang: CHUA_XAC_MINH
+ngay_ban_hanh: '2024-05-27'
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
 quan_he:
   hop_nhat:
     - so_hieu: 33/2014/TT-BNNPTNT
-    - so_hieu: 20/2021/TT-BNNPTNT
-    - so_hieu: 11/2022/TT-BNNPTNT
+    - so_hieu: 34/2018/TT-BNNPTNT
+    - so_hieu: 15/2021/TT-BNNPTNT
+    - so_hieu: 03/2024/TT-BNNPTNT
+  thay_the:
+    - so_hieu: 06/VBHN-BNNPTNT
+      tu_ngay: '2024-05-27'
 nguon:
+  - url: https://chinhphu.vn/?pageid=27160&docid=207302
+    truy_cap: '2026-10-28'
+  - url: https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Van-ban-hop-nhat-19-VBHN-BNNPTNT-2024-Thong-tu-trinh-tu-kiem-dich-thuc-vat-nhap-xuat-khau-612987.aspx
+    truy_cap: '2026-10-28'
   - url: https://nguonluat.com/docs/19vbhn-bnnptnt-van-ban-hop-nhat-19vbhn-bnnptnt-nam-2024-hop-nhat-thong-tu-quy-dinh-trinh-tu-thu-tuc-kiem-dich-thuc-vat-nhap-khau-xuat-khau-qua-canh-va-sau-nhap-khau-vat-the-thuoc-dien-kiem-dich-thuc-vat-do-bo-truong-bo-nong-nghiep-va-phat-trien-nong-thon-b
     truy_cap: '2026-10-28'
   - url: https://www.ppd.gov.vn/FileUpload/Documents/vbhn_19_thong_tu_33_va_thong_tu_03_cua_bo_nnptnt.pdf
     truy_cap: '2026-10-28'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề, năm 2024, thành phần hợp nhất (33/2014 + 20/2021 + 11/2022 theo nguonluat); ngày ban hành chưa có — chưa đối chiếu'
-  hieu_luc_da_doi_chieu: false
+  muc: NGUON_A
+  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 27-05-2024 (chinhphu.vn docid=207302); thành phần hợp nhất 33/2014 + 34/2018 + 15/2021 + 03/2024 — đối chiếu NGUYÊN VĂN trang đầu PDF hợp nhất Cục BVTV (ppd.gov.vn)'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-10-28'
   boi: zcode@ozvietnam
 ghi_chu: >-
-  CẢNH BÁO mâu thuẫn nguồn: PDF Cục BVTV (ppd.gov.vn) đặt tên "vbhn_19 — Thông tư 33 và Thông tư 03"
-  (gợi ý hợp nhất gồm cả một TT sửa đổi số 03 — trùng số với ghi chú sổ cũ về TT 34/2018), nguonluat
-  liệt kê 33/2014 + 20/2021 + 11/2022. Cần đối chiếu PDF gốc khi nâng NGUON_A.
+  Mâu thuẫn nguồn đã giải xong 28-10: PDF Cục BVTV liệt kê nguyên văn 3 văn bản sửa đổi 33/2014
+  (34/2018 + 15/2021 + 03/2024) — nguonluat ghi "20/2021 + 11/2022" là tóm tắt SAI (2 thông tư đó
+  không thuộc chuỗi hợp nhất này). "TT 03" trong tên file PDF là TT 03/2024, không phải 03/2018.
