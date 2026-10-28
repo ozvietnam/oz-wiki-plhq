@@ -6,6 +6,7 @@ loai: THONG_TU
 ten: Quy định trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật
 co_quan: BNNPTNT
 ngay_ban_hanh: '2014-10-30'
+hieu_luc_tu: '2015-01-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
@@ -16,10 +17,10 @@ xac_minh:
   ngay: '2026-10-28'
   boi: zcode@ozvietnam
 ghi_chu: >-
-  Văn bản GỐC của mảng trình tự thủ tục KDTV (issue #237). Bị sửa bởi TT 34/2018 (ghi chú sổ
-  cũ, chưa đối chiếu PDF) và TT 20/2021, TT 11/2022; hợp nhất trong VBHN 19/2024. Lưu ý: TT 15/2020
-  bị nhầm là văn bản trình tự — thực chất là QCVN kỹ thuật. Bài tổng hợp KTCN 2026 — xem
-  hs-code-api data/ktcn-regime-2026.json.
+  Văn bản GỐC của mảng trình tự thủ tục KDTV (issue #237), hiệu lực gốc 01-01-2015 (nguyên văn
+  PDF hợp nhất Cục BVTV). Bị sửa bởi TT 34/2018, TT 15/2021; TT 03/2024 bãi một phần TT 34/2018.
+  Hợp nhất hiện hành: VBHN 19/VBHN-BNNPTNT ngày 27-05-2024. Lưu ý: TT 15/2020 là QCVN kỹ thuật,
+  không phải trình tự. Bài tổng hợp KTCN 2026 — xem hs-code-api data/ktcn-regime-2026.json.
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=177307&pageid=27160
     truy_cap: '2026-10-04'
