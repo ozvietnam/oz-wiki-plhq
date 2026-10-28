@@ -1,0 +1,30 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 19/VBHN-BNNPTNT
+so_hieu_khac:
+  - 19/VBHN-BNNMT
+loai: VAN_BAN_HOP_NHAT
+ten: Hợp nhất Thông tư quy định về trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật
+co_quan: BNNPTNT
+tinh_trang: CHUA_XAC_MINH
+nhanh:
+  - kiem-tra-chuyen-nganh/kiem-dich
+quan_he:
+  hop_nhat:
+    - so_hieu: 33/2014/TT-BNNPTNT
+    - so_hieu: 20/2021/TT-BNNPTNT
+    - so_hieu: 11/2022/TT-BNNPTNT
+nguon:
+  - url: https://nguonluat.com/docs/19vbhn-bnnptnt-van-ban-hop-nhat-19vbhn-bnnptnt-nam-2024-hop-nhat-thong-tu-quy-dinh-trinh-tu-thu-tuc-kiem-dich-thuc-vat-nhap-khau-xuat-khau-qua-canh-va-sau-nhap-khau-vat-the-thuoc-dien-kiem-dich-thuc-vat-do-bo-truong-bo-nong-nghiep-va-phat-trien-nong-thon-b
+    truy_cap: '2026-10-28'
+  - url: https://www.ppd.gov.vn/FileUpload/Documents/vbhn_19_thong_tu_33_va_thong_tu_03_cua_bo_nnptnt.pdf
+    truy_cap: '2026-10-28'
+xac_minh:
+  muc: NGUON_B
+  pham_vi: 'số hiệu, tiêu đề, năm 2024, thành phần hợp nhất (33/2014 + 20/2021 + 11/2022 theo nguonluat); ngày ban hành chưa có — chưa đối chiếu'
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-28'
+  boi: zcode@ozvietnam
+ghi_chu: >-
+  CẢNH BÁO mâu thuẫn nguồn: PDF Cục BVTV (ppd.gov.vn) đặt tên "vbhn_19 — Thông tư 33 và Thông tư 03"
+  (gợi ý hợp nhất gồm cả một TT sửa đổi số 03 — trùng số với ghi chú sổ cũ về TT 34/2018), nguonluat
+  liệt kê 33/2014 + 20/2021 + 11/2022. Cần đối chiếu PDF gốc khi nâng NGUON_A.

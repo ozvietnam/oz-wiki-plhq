@@ -4,17 +4,20 @@ loai: LUAT
 ten: Luật Bảo vệ và kiểm dịch thực vật
 co_quan: QH
 ngay_ban_hanh: '2013-11-25'
-hieu_luc_tu: '2015-01-01'
-tinh_trang: CON_HIEU_LUC
+hieu_luc_tu: '2014-01-01'
+het_hieu_luc_tu: '2025-01-01'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
 xac_minh:
-  muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.
+  muc: NGUON_B
+  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 25-11-2013; hiệu lực 01-01-2014 (Điều 77); HẾT hiệu lực 01-01-2025 — bị Luật 43/2024/QH15 thay (kỳ họp 8 Quốc hội KH XV, nhiều nguồn độc lập); trước đó bị Luật 35/2018/QH14 sửa một phần'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-28'
+  boi: zcode@ozvietnam
+ghi_chu: >-
+  Sửa 28-10-2026 theo #237: hieu_luc_tu cũ 2015-01-01 là SAI (Điều 77: 01-01-2014);
+  tình trạng CON cũ là SAI — đã bị Luật 43/2024/QH15 thay từ 01-01-2025.
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=171413&pageid=27160
     truy_cap: '2026-10-04'
