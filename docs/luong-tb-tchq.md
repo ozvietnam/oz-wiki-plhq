@@ -134,3 +134,40 @@ Lô mẫu này là ví dụ chuẩn — mở ra xem trước khi đóng gói lô
 - tracuuhs: mở chi tiết ~2.043 TB còn lại (lô tiếp theo ~280/ngày).
 - customs.gov.vn LV313: 1.631 TB chưa nạp — cần kiểm lại PDF sống/chết trước khi tải (2 nguồn báo cáo mâu thuẫn).
 - Ưu tiên 3 (2014–2017, CSV Sếp): 2.332 TB — cần TVPL/caselaw (Cloudflare), làm riêng.
+
+## Nạp tầng nội dung TB-TCHQ (tool mới, issue #232)
+
+Ba công cụ Node chạy **độc lập** trên máy chủ Linux — chỉ cần `node` + `pdftotext` +
+`pdftoppm` + `tesseract`, không cần gói npm nào, không cần LLM, không gọi mạng ngoài
+trừ việc tải PDF từ customs.gov.vn.
+
+| Công cụ | Việc |
+|---|---|
+| `node tools/tai-pdf-tb.mjs <số hiệu…>` | tra `pdf_url_primary` trong master CSV `data/customs/processed/all-1990-2026.csv`, tải PDF về `--out` (mặc định `/opt/oz-wiki-data/tb-pdf`), ghi log JSONL; link chết → `loi-nap.jsonl` |
+| `node tools/trich-noi-dung-tb.mjs <file.pdf>` | `pdftotext -layout` trước; không có lớp chữ thì `pdftoppm -r 150` + `tesseract -l vie --psm 4` từng trang. Rút 5 trường, bỏ tên DN/MST/tờ khai, ghi 1 JSON/TB vào `--out-dir` |
+| `node tools/tb-chay-lo.mjs [--limit=N]` | vòng chạy hàng loạt: bỏ TB đã có nội dung, xếp theo nhu cầu thật (`nhu-cau/hang-that.json`) rồi theo số TB trong nhóm, `--limit`/`--offset`, log mỗi 10 TB, Ctrl-C dừng sau khi xong TB đang chạy |
+
+```bash
+# đêm: nạp 200 TB kế tiếp, ưu tiên nhóm hay được tra
+node tools/tb-chay-lo.mjs --limit=200 \
+  --out-dir=data/customs/processed/tb-noi-dung \
+  --pdf-dir=/opt/oz-wiki-data/tb-pdf
+```
+
+**Luật (không đổi):** thà thiếu còn hơn sai. Trích được thì ghi; không trích được thì
+ghi `trang_thai: "khong_trich_duoc"` + lý do cụ thể — KHÔNG bịa. Đã qua OCR thì
+`canh_bao_ocr: true`. Mỗi TB 1 tệp JSON: `ten_hang`, `dac_tinh`, `ma_ket_luan_8_so`,
+`ly_do` (chuỗi nhóm → phân nhóm → mã), `don_vi_de_nghi`.
+
+**Số hiệu phải khớp số + NĂM.** Số TB-TCHQ đánh số lại theo từng năm, nên `989/TB-TCHQ`
+năm 2019 và `989/TB-TCHQ` năm 2022 là hai văn bản khác nhau — khớp số mà lệch năm là
+văn bản khác, tool chỉ nhận khớp số + năm.
+
+**Sửa URL trước khi tải.** Master CSV có URL lỗi thật (tiền tố lặp
+`https://files.customs.gov.vnhttps://…`, `//` thừa, khoảng trắng trong tên tệp) —
+không chuẩn hoá thì nhiều link chết dù file có thật trên server. Một phần tệp của
+Tổng cục là ảnh `.tif` chứ không phải PDF → tool ghi `loi-nap.jsonl`, không ghi tệp rỗng.
+
+**Nhịp thật đo được (28/10/2026, 40 TB):** 2 phút 33 giây (~3,8 giây/TB) — 27 TB trích
+đủ 5 trường (12 TB phải qua OCR), 13 TB hỏng link (10) hoặc không có PDF trong master
+CSV (3). Tốc độ này thay cho ước lượng 2 phút/TB trong issue #232.
