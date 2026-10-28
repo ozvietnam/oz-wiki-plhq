@@ -84,12 +84,14 @@ export async function taiMotTB(soHieu, { chiMuc, out, log, loiNap, rateSleepMs =
     return { trang_thai: 'khong_tim_thay_pdf' };
   }
   let loiCuoi = null;
+  let urlThatFail = null;
   for (const ung of ungVien) {
     const r = await tai(ung.url, { retry, rateSleepMs });
-    if (!r.ok) { loiCuoi = `${ung.url} — ${r.loi}`; continue; }
+    if (!r.ok) { loiCuoi = `${ung.url} — ${r.loi}`; urlThatFail = ung.url; continue; }
     // Không phải PDF (vd .tif) → thử ứng viên tiếp theo
     if (r.buf.subarray(0, 5).toString('latin1') !== '%PDF-') {
       loiCuoi = `${ung.url} — tệp không phải PDF (${r.buf.subarray(0, 5).toString('latin1').replace(/[^\x20-\x7e]/g, '.')})`;
+      urlThatFail = ung.url;
       continue;
     }
     mkdirSync(out, { recursive: true });
@@ -103,9 +105,9 @@ export async function taiMotTB(soHieu, { chiMuc, out, log, loiNap, rateSleepMs =
     ghiJsonl(log, dong);
     return { trang_thai: 'ok', tep };
   }
-  const dong = { so_hieu: soHieu, url: ungVien[0]?.url || null, bytes: null, sha256: null, trang_thai: 'loi', luc };
+  const dong = { so_hieu: soHieu, url: urlThatFail || ungVien[0]?.url || null, bytes: null, sha256: null, trang_thai: 'loi', luc };
   ghiJsonl(log, dong);
-  if (ghiLoiNap) ghiJsonl(loiNap, { so_hieu: soHieu, url: ungVien[0]?.url || null, loi: loiCuoi || 'tải thất bại', luc });
+  if (ghiLoiNap) ghiJsonl(loiNap, { so_hieu: soHieu, url: urlThatFail || ungVien[0]?.url || null, loi: loiCuoi || 'tải thất bại', luc });
   return { trang_thai: 'loi' };
 }
 

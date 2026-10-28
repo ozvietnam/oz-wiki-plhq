@@ -185,11 +185,15 @@ export function timUNGPDF(chiMuc, soHieu) {
 export function giaiMaSoHieuTrongVanBan(text) {
   const t = String(text ?? '');
   const out = new Set();
-  for (const m of t.matchAll(/Số\s*:?\s*([0-9][0-9\s.,\-/]{0,40}?)\s*\/?\s*TB[-–]?(TCHQ|CHQ)\b/gi)) {
+  // Lấy phần giữa "Số:" và "TB-TCHQ" rồi bóc SỐ trong đó — chấp nhận rác OCR
+  // trong số ("50'26" thay vì "5076").
+  for (const m of t.matchAll(/Số\s*:?\s*([^\n]{0,40}?)\s*\/?\s*TB[-–]?(TCHQ|CHQ)\b/gi)) {
     const p = m[1];
     const nums = [...p.matchAll(/\d+/g)].map((x) => Number(x[0]));
-    if (nums.length === 2 && nums[1] > nums[0] && nums[1] - nums[0] <= 300) {
-      for (let n = nums[0]; n <= nums[1]; n += 1) out.add(n);
+    if (nums.length === 2 && nums[1] > nums[0] && nums[1] - nums[0] <= 300 && /-/.test(p)) {
+      for (let n = nums[0]; n <= nums[1]; n += 1) out.add(n);   // dải số "503-508"
+    } else if (nums.length > 1 && !/-\s*\d/.test(p)) {
+      out.add(Number(nums.join('')));                      // rác OCR trong số: "50'26" → 5026
     } else for (const n of nums) out.add(n);
   }
   return [...out];
@@ -205,7 +209,12 @@ export function docSoHieuTrongPDF(text) {
 
 /** Gộp khoảng trắng (PDF/OCR xuống dòng vụng) thành một dòng, giữ nguyên chữ. */
 export function gonChu(s) {
-  return String(s ?? '').replace(/[ \t ]+/g, ' ').replace(/\s*\n\s*/g, ' ').replace(/\s{2,}/g, ' ').trim();
+  return String(s ?? '')
+    .replace(/\|+\s*\|*/g, ' ')          // rác OCR: ký hiệu "|" của bảng
+    .replace(/[ \t\u00a0]+/g, ' ')
+    .replace(/\s*\n\s*/g, ' ')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
 }
 
 /**
@@ -219,8 +228,10 @@ const NHAN = [
   'Tóm tắt mô tả hàng hóa được xác định trước mã số',
   'Đơn vị nhập khẩu', 'Đơn vị xuất khẩu', 'Đơn vị xuất khẩu/nhập khẩu', 'Số, ngày tờ khai',
   'Kết quả phân loại', 'Kết quả xác định trước mã số', 'Nơi nhận', 'Ghi chú', 'Thông tin khác',
-  'thuộc nhóm', 'mã số', 'đề nghị của',
 ];
+// Dấu hiệu nằm TRONG câu — chỉ dùng để tìm, KHÔNG dùng làm ranh giới cắt giá trị
+// ("… xác định trước mã số, thông tin mặt hàng …" không phải nhãn mới).
+const NHAN_DAU = ['thuộc nhóm', 'mã số', 'đề nghị của'];
 
 /**
  * Bỏ dấu + hạ chữ nhưng GIỮ NGUYÊN ĐỘ DÀI (mỗi ký tự → 1 ký tự).
@@ -302,7 +313,10 @@ export function trichTenHang(text) {
 export function trichDacTinh(text) {
   const x = layGiaTriSauNhan(text, 'Tóm tắt mô tả và đặc tính hàng hóa', { maxLen: 1400, minLen: 20 })
     || layGiaTriSauNhan(text, 'Tóm tắt mô tả hàng hóa được xác định trước mã số', { maxLen: 1400, minLen: 20 });
-  if (x) return lamSachQuyenRiengTu(x);
+  // Bỏ câu dẫn kiểu "Theo hồ sơ …, thông tin mặt hàng như sau:" — phần mô tả
+  // thật nằm SAU câu đó. Câu dẫn không phải mô tả hàng → bỏ, rồi tìm nguồn khác.
+  const x2 = x ? x.replace(/^(Theo[^:]{0,200}?như sau:?)\s*/i, '').trim() : x;
+  if (x2 && x2.length >= 20) return lamSachQuyenRiengTu(x2);
   const tp = layGiaTriSauNhan(text, 'Thành phần, cấu tạo, công thức hóa học', { maxLen: 900, minLen: 20 })
     || layGiaTriSauNhan(text, 'Thành phần, cấu tạo', { maxLen: 900, minLen: 20 });
   const cd = layGiaTriSauNhan(text, 'Công dụng theo thiết kế', { maxLen: 700, minLen: 10 });
@@ -335,8 +349,21 @@ export function trichLyDo(text) {
   const t = String(text ?? '');
   const re = new RegExp(`${reNhanCham('thuộc nhóm').source}[ \\t]*(\\d{2})[.\\s]*(\\d{2})`, 'gi');
   const ds = [...fold1(t).matchAll(re)];
-  if (!ds.length) return null;
-  const moc = ds[ds.length - 1];
+  let moc = null;
+  if (ds.length) {
+    // Chuỗi kết luận mở đầu bằng "thuộc nhóm" ở ĐẦU DÒNG. Bên trong tên phân nhóm
+    // cũng có "thuộc nhóm 85.28" (ví dụ "… dùng cho hàng hóa thuộc nhóm 85.28") —
+    // bắt nhầm chỗ đó sẽ cắt mất đầu chuỗi.
+    const dauDong = ds.filter((m) => m.index === 0 || t[m.index - 1] === '\n');
+    moc = dauDong.length ? dauDong[0] : ds[ds.length - 1];
+  } else {
+    // OCR có khi mất hẳn đoạn "thuộc nhóm … phân nhóm …" (đọc thành "thuộc mã số …")
+    // → neo vào "mã số" để vẫn giữ được phần kết luận có mã.
+    const reMa = new RegExp(`${reNhanCham('mã số').source}[.:]?[ \\t]*(\\d{4})[.\\s]*(\\d{2})[.\\s]*(\\d{2})`, 'gi');
+    const dsMa = [...fold1(t).matchAll(reMa)];
+    if (!dsMa.length) return null;
+    moc = dsMa[dsMa.length - 1];
+  }
   const sau = t.slice(moc.index, moc.index + 2000);
   const het = sau.search(/Việt Nam/i);
   let ket = het >= 0 ? sau.slice(0, het + 'Việt Nam'.length) : sau.slice(0, 600);

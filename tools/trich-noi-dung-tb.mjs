@@ -83,10 +83,16 @@ export function layChuTrongPDF(tep, { minChu = 200, dpi = 150, lang = 'vie', psm
   }
 }
 
-/** Số hiệu TB đọc được trong PDF (danh sách số) + năm ký. */
+/**
+ * Số hiệu TB đọc được trong PDF (danh sách số) + năm ký.
+ * Năm lấy ở ngày NGAY SAU dòng "Số:" — nếu lấy ngày đầu tiên trong văn bản thì
+ * dễ dính năm của văn bản được dẫn ở phần "Căn cứ" (vd "Luật Hải quan … năm 2014").
+ */
 export function docSoHieuPDF(chu) {
   const nums = giaiMaSoHieuTrongVanBan(chu);
-  const nam = (String(chu).match(/ngày\s+(\d{1,2})\s*tháng\s*(\d{1,2})\s*năm\s*(\d{4})/i) || [])[3];
+  const viTriSo = String(chu).search(/Số\s*:?/i);
+  const vung = viTriSo >= 0 ? String(chu).slice(viTriSo, viTriSo + 400) : String(chu).slice(0, 600);
+  const nam = (vung.match(/ngày\s+(\d{1,2})\s*tháng\s*(\d{1,2})\s*năm\s*(\d{4})/i) || [])[3];
   return { nums, nam: nam ? Number(nam) : null };
 }
 
@@ -151,10 +157,10 @@ export function trichNoiDung(tep, options = {}) {
   if (khop === false) {
     trang_thai = 'khong_trich_duoc';
     ly_do_khong_trich = `PDF không chứa số hiệu đã yêu cầu (${req.num}; trong PDF đọc được: ${trong.nums.join(', ') || 'không đọc được'})`;
-  } else if (req.nam && trong.nam && req.nam !== trong.nam) {
-    trang_thai = 'khong_trich_duoc';
-    ly_do_khong_trich = `năm trong PDF (${trong.nam}) khác năm của số hiệu yêu cầu (${req.nam})`;
   }
+  // Lệch năm KHÔNG loại nội dung: năm trong PDF có thể bị OCR đọc sai, còn số hiệu
+  // (mốc nhận diện văn bản) mới là thứ phải khớp. Lệch năm thì ghi cảnh báo.
+  const lechNam = !!(req.nam && trong.nam && req.nam !== trong.nam);
   const ket = {
     so_hieu: soHieuDung,
     nhom_hs: nhomHs || null,
@@ -174,6 +180,8 @@ export function trichNoiDung(tep, options = {}) {
       cach_lay_chu: cach,
       so_hieu_trong_pdf: trong.nums.length ? trong.nums.join(', ') : null,
       so_hieu_khop: khop,
+      nam_trong_pdf: trong.nam,
+      canh_bao_nam: lechNam,
       loi_he_thong: loi || null,
     },
     trich_xuat_luc: new Date().toISOString(),
