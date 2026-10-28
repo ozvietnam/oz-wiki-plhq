@@ -2,7 +2,7 @@
   "phien_ban": "2026-10-28",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2332,
+  "tong": 2338,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -13685,6 +13685,37 @@
       "toan_van": "chua_co",
       "slug": "149-tb-tchq-2019",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "15/2009/TT-BKHCN",
+      "loai": "THONG_TU",
+      "ten": "Hướng dẫn trình tự, thủ tục đăng ký việc sử dụng phụ gia không thông dụng để sản xuất, chế biến, pha chế xăng và nhiên liệu",
+      "co_quan": "BKHCN",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://moit.gov.vn/van-ban-phap-luat/van-ban-phap-quy/-thong-tu-huong-dan-trinh-tu-thu-tuc-dang-ky-viec-su-dung-ph.html",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=88003",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề (chinhphu.vn docid=88003 + moit.gov.vn); ngày ban hành/hiệu lực chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nạp theo #240 (tra kèm TT phụ gia nhiên liệu). Chuỗi đăng ký phụ gia hiện hành cần rà thêm sau NĐ 80/2023.",
+      "slug": "15-2009-tt-bkhcn",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -48902,6 +48933,44 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "38/2014/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Quy định chi tiết một số điều của Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ quy định về sản xuất, kinh doanh xăng dầu",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2014-10-24",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          {
+            "so_hieu": "83/2014/NĐ-CP"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://www.hiephoixangdau.org/nd/tin-trong-nuoc/ban-hanh-thong-tu-huong-dan-nghi-dinh-83-2014-nd-cp.html",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://moit.gov.vn/van-ban-phap-luat/van-ban-hop-nhat/-van-ban-hop-nhat-thong-tu-quy-dinh-chi-tiet-mot-so-dieu-cua.html",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 24-10-2014; đã có văn bản hợp nhất hướng dẫn trên moit.gov.vn — hiệu lực chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "slug": "38-2014-tt-bct",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "38/2015/TT-BTC",
       "loai": "THONG_TU",
       "ten": "Quy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hoá xuất khẩu, nhập khẩu",
@@ -77199,6 +77268,49 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "80/2023/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 95/2021/NĐ-CP ngày 01 tháng 11 năm 2021 và Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ quy định về sản xuất, kinh doanh xăng dầu",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2023-11-17",
+      "hieu_luc_tu": "2023-11-17",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "83/2014/NĐ-CP",
+            "can_cu": "nhập khẩu phụ gia nhiên liệu phải đạt QCVN + đăng ký Bộ Công Thương"
+          },
+          {
+            "so_hieu": "95/2021/NĐ-CP"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://gialai.gov.vn/van-ban-trung-uong-sao-luc/nghi-dinh-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-95-2021-nd-cp-ngay-01-thang-11-nam-2021-va-nghi-dinh-so-83-2014-n",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://www.vietnamtradeportal.gov.vn/index.php?r=site/display&id=4096",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề đầy đủ, ngày ban hành 17-11-2023, hiệu lực kể từ ngày ký 17-11-2023 (sao y Gia Lai + Vietnam Trade Portal + SCT Đồng Nai); điều kiện nhập khẩu phụ gia nhiên liệu (QCVN + đăng ký BCT)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "slug": "80-2023-nd-cp",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "800/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -78220,6 +78332,60 @@
       "slug": "828-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "83/2014/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định về sản xuất, kinh doanh xăng dầu",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2014-09-03",
+      "hieu_luc_tu": "2014-11-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://hethongphapluat.com/nghi-dinh-83-2014-nd-cp-ve-kinh-doanh-xang-dau/dieu-13/khoan-1",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://www.hiephoixangdau.org/nd/tin-trong-nuoc/ban-hanh-thong-tu-huong-dan-nghi-dinh-83-2014-nd-cp.html",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 03-09-2014, hiệu lực 01-11-2014 (60 ngày); bị sửa bởi NĐ 95/2021 và NĐ 80/2023 — còn hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Bộ luật nền của mảng kinh doanh + nhập khẩu xăng dầu/phụ gia nhiên liệu (issue #240 — gia đình thiếu thứ 7, ca khách 26/10 hỏi GP phụ gia chống oxy hóa 2921.5900 \"Sở hay Bộ\"). ĐÍNH CHÍNH lore: NĐ 80/2014/NĐ-CP là nghị định THOÁT NƯỚC — không phải xăng dầu; xăng dầu là NĐ 83/2014 này.",
+      "slug": "83-2014-nd-cp",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "38/2014/TT-BCT",
+            "quan_he": "huong_dan",
+            "so_hieu": "83/2014/NĐ-CP"
+          }
+        ],
+        "bi_sua_doi_boi": [
+          {
+            "tu": "80/2023/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "83/2014/NĐ-CP",
+            "can_cu": "nhập khẩu phụ gia nhiên liệu phải đạt QCVN + đăng ký Bộ Công Thương"
+          },
+          {
+            "tu": "95/2021/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "83/2014/NĐ-CP"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "8378/QĐ-BCA",
@@ -79937,6 +80103,52 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "95/2021/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ quy định về sản xuất, kinh doanh xăng dầu",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2021-11-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "83/2014/NĐ-CP"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://lsu.vn/van-ban/nghi-dinh-95-2021-nd-cp-sua-doi-bo-sung-nghi-dinh-83-2014-nd-cp-ve-kinh-doanh-xang-dau",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://sct.dongnai.gov.vn/vi/news/Quan-ly-thuong-mai/ngay-17-11-2023-chinh-phu-da-ban-hanh-nghi-dinh-so-80-2023-nd-cp-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-95-2021-nd-cp-ngay-01-11-2021-va-nghi-dinh-so-83",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 01-11-2021, sửa NĐ 83/2014 (cơ chế điều hành giá, quỹ bình ổn giá); bị sửa tiếp bởi NĐ 80/2023",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "slug": "95-2021-nd-cp",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "80/2023/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "95/2021/NĐ-CP"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "950/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -80774,6 +80986,33 @@
       "ghi_chu": "Việt Nam là thành viên; Danh mục HS VN (vd 31/2022/TT-BTC) triển khai Công ước + 6 quy tắc tổng quát (GIR). Ngày Việt Nam phê chuẩn/có hiệu lực nội địa cần bổ sung từ Quyết định Chủ tịch nước (chưa đăng ký trong sổ).",
       "slug": "cong-uoc-hs",
       "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "QCVN 1:2023/BKHCN",
+      "loai": "TIEU_CHUAN",
+      "ten": "Quy chuẩn kỹ thuật quốc gia về chỉ tiêu kỹ thuật xăng sinh học E5, RON 92-95",
+      "co_quan": "BKHCN",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "số hiệu, tên gọi tóm lược — tham chiếu; số hiệu chính thức/ký hiệu đầy đủ + hiệu lực chưa đối chiếu (nạp dạng tham chiếu theo #240)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nạp THAM CHIẾU cho ca phụ gia/xăng dầu (#240) — cần nâng nguồn khi có khách hỏi trực tiếp tiêu chuẩn.",
+      "slug": "qcvn-1-2023-bkhcn",
+      "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
     }
   ]

@@ -371,6 +371,9 @@ flowchart LR
   n_43_2013_TT_BCT["43/2013/TT-BCT<br/>chưa xác minh"]
   n_48_2026_TT_BCT["48/2026/TT-BCT<br/>còn hiệu lực"]
   n_60_2014_N__CP["60/2014/NĐ-CP<br/>còn hiệu lực"]
+  n_80_2023_N__CP["80/2023/NĐ-CP<br/>còn hiệu lực"]
+  n_83_2014_N__CP["83/2014/NĐ-CP<br/>còn hiệu lực"]
+  n_95_2021_N__CP["95/2021/NĐ-CP<br/>còn hiệu lực"]
   n_01_2024_TT_BNNPTNT -->|thay thế từ 2024-03-20| n_11_2021_TT_BNNPTNT
   n_01_2024_TT_BNNPTNT -->|sửa đổi mục 3.1, mục 4, mục 8, mục 9 Phụ lục từ 2024-03-20| n_16_2021_TT_BNNPTNT
   n_01_2024_TT_BNNPTNT -->|sửa đổi bãi bỏ Điều 9 và Phụ lục XXIII từ 2024-03-20| n_01_2022_TT_BNNPTNT
@@ -398,6 +401,9 @@ flowchart LR
   n_48_2026_TT_BCT -->|bãi bỏ Điều 3 và Phụ lục III từ 2026-09-05| n_41_2019_TT_BCT
   n_48_2026_TT_BCT -->|bãi bỏ Điều 25 từ 2026-09-05| n_42_2019_TT_BCT
   n_60_2014_N__CP -->|sửa đổi| n_195_2013_N__CP
+  n_80_2023_N__CP -->|sửa đổi| n_83_2014_N__CP
+  n_80_2023_N__CP -->|sửa đổi| n_95_2021_N__CP
+  n_95_2021_N__CP -->|sửa đổi| n_83_2014_N__CP
 ```
 
 ## Thuế xuất khẩu, nhập khẩu và các thuế khác khâu nhập khẩu
