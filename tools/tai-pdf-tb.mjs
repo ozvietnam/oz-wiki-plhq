@@ -25,7 +25,7 @@ import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import {
   UA, CSV_MAC_DINH, KET_QUA_MAC_DINH, FILE_LOI_NAP_MAC_DINH, FILE_NHAT_KY_MAC_DINH,
-  docArg, docChiMucPDF, docCsvObject, ghiJsonl, nghe, timUNGPDF, slugTB,
+  chuanHoaNhom, docArg, docChiMucPDF, docCsvObject, ghiJsonl, nghe, timUNGPDF, slugTB,
 } from './lib/tb-tchq.mjs';
 
 const ROOT = resolve(dirname(new URL(import.meta.url).pathname), '..');
@@ -40,19 +40,14 @@ export function docDanhSachTB(file) {
     .filter((r) => r.so_hieu);
 }
 
-/** Chuẩn hoá nhóm HS 4 số: "38.24" / "3824" → "3824". */
-export function chuanHoaNhom(nhom) {
-  return String(nhom || '').replace(/\D/g, '');
-}
-
 /**
  * Tải 1 URL, thử lại tối đa `retry` lần. Trả { ok, bytes?, loi? }.
  * Retry khi lỗi mạng hoặc HTTP 5xx (lỗi 4xx là link chết — không thử lại).
  */
-async function tai(url, { retry = 2, rateSleepMs = 1100, truoc = false } = {}) {
+async function tai(url, { retry = 2, rateSleepMs = 1100 } = {}) {
   let loi = null;
   for (let lan = 0; lan <= retry; lan += 1) {
-    if (lan > 0 || !truoc) await nghe(rateSleepMs);
+    await nghe(rateSleepMs);   // luôn giữ ≤ 1 req/s với server customs.gov.vn
     try {
       const res = await fetch(url, { headers: { 'User-Agent': UA }, redirect: 'follow', signal: AbortSignal.timeout(120000) });
       if (!res.ok) {

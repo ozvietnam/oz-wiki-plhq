@@ -92,6 +92,11 @@ export function tachSoHieu(soHieu) {
   };
 }
 
+/** Chuẩn hoá nhóm HS 4 số: "38.24" / "3824" → "3824". */
+export function chuanHoaNhom(nhom) {
+  return String(nhom || '').replace(/\D/g, '');
+}
+
 /** Slug tệp cho 1 TB: "503/TB-TCHQ/2018" → "503-tb-tchq-2018". */
 export function slugTB(soHieu) {
   const { so_base: sb, nam } = tachSoHieu(soHieu);

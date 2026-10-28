@@ -16,7 +16,8 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import {
-  CSV_MAC_DINH, KET_QUA_MAC_DINH, THU_MUC_NOI_DUNG_MAC_DINH, docArg, docJson, ghiJsonl, slugTB,
+  CSV_MAC_DINH, KET_QUA_MAC_DINH, THU_MUC_NOI_DUNG_MAC_DINH, chuanHoaNhom, docArg, docChiMucPDF,
+  docCsvObject, docJson, ghiJsonl, slugTB,
 } from './lib/tb-tchq.mjs';
 import { taiMotTB } from './tai-pdf-tb.mjs';
 import { trichNoiDung } from './trich-noi-dung-tb.mjs';
@@ -24,11 +25,6 @@ import { trichNoiDung } from './trich-noi-dung-tb.mjs';
 const ROOT = resolve(dirname(new URL(import.meta.url).pathname), '..');
 const FILE_DEMAND = join('nhu-cau', 'hang-that.json');
 const FILE_LOG_NAP = 'log-nap.jsonl';
-
-/** Chuẩn hoá nhóm HS 4 số: "38.24" → "3824". */
-export function chuanHoaNhom(nhom) {
-  return String(nhom || '').replace(/\D/g, '');
-}
 
 /** Bậc ưu tiên theo nhu cầu: Cao=1, Vừa=2, Thấp=3. */
 const BAC_UU_TIEN = { Cao: 1, 'Vừa': 2, Thấp: 3 };
@@ -122,7 +118,6 @@ export async function chayLo(options = {}) {
     console.log(`Nhóm đầu: ${thuTu.slice(0, 8).map((x) => `${x.nhom}(${x.so_tb}${x.bac ? `,bac${x.bac}` : ''})`).join(' ')}`);
   }
   const tepLog = logNap || join(outDir, FILE_LOG_NAP);
-  const { docChiMucPDF, docCsvObject } = await import('./lib/tb-tchq.mjs');
   const chiMuc = docChiMucPDF(docCsvObject(readFileSync(csv, 'utf8')));
   const ket = { tong: gioiHan.length, ok: 0, loi: 0, dung: false };
   for (const [i, tb] of gioiHan.entries()) {
