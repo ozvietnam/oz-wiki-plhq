@@ -1,0 +1,25 @@
+{
+  "so_hieu": "535/TB-TCHQ/2018",
+  "nhom_hs": "2937",
+  "ten_hang": "Bán thành phẩm của bản mạch Bộ chuyển đổi nguồn và xử lý tín hiệu cho Tivi (Semi-finished PCB for TV)",
+  "dac_tinh": "2 Bán thành phẩm của bản mạch Bộ chuyển đổi nguồn và xử lý tín hiệu cho Tivi (Semi-finished PCB for TV) gồm 6 khối linh kiện chính và các linh kiện phụ trợ. (1) AC Input (đầu vào cấp nguồn điện xoay chiều 110/220V 50/60Hz): Cổng cắm, cầu chì, varistor, eyelet. (2) EMI Line Filter (khối lọc nguồn điện áp xoay chiều): Cuộn lọc, điện trở nhiệt, Film Cap, eyelet. (3) Main Cap: Rectifier main Capacitor: Tụ hóa phân cực, eyelet. (4) Flyback Block (switching): IC dao động, điện trở, tụ gốm, tản nhiệt, mosfet, đi-ốt chỉnh lưu (DC-DC), jumper (dây nối), photocoupler transformer (biến áp xung), eyelet. (5) LED Drive Block (LED control): IC điều khiển, đi-ốt chỉnh lưu (DC- DC), mosfet, cuộn cảm, tụ gốm, tụ hóa phân cực, điện trở, connector (cổng cắm), jumper (dây nối), eyelet. (6) 13V Output: đi-ốt chỉnh lưu (DC-DC), tụ hóa phân cực, Semi-finished PCB for TV là linh kiện bộ phận dùng sản xuất ra Bảng mạch Bộ chuyển đổi nguồn và xử lý tín hiệu cho TV (Bảng mạch 3 trong 1). Bảng mạch 3 trong 1 là bảng mạch của TV có tích hợp bộ nguồn chuyển mạch từ điện áp xoay chiều sang một chiều và mạch xử lý tín hiệu thu nhận hình ảnh của TV. 3.",
+  "ma_ket_luan_8_so": "85299054",
+  "ly_do": "thuộc nhóm 85.29 “Bộ phận chỉ dùng hoặc chủ yếu dùng với các thiết bị thuộc các nhóm từ 85.24 đến 85.28”, phân nhóm 8529.90 “- Loại khác”, phân nhóm “- - Tấm mạch in khác, đã lắp ráp”, phân nhóm “- - - Dùng cho hàng hoá thuộc nhóm 85.28”, mã số 8529.90.54 “- - - - Loại khác, dùng cho máy thu truyền hình” tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
+  "don_vi_de_nghi": "Cục trưởng Cục Thuế Xuất nhập khẩu",
+  "trang_thai": "ok",
+  "ly_do_khong_trich": null,
+  "canh_bao_ocr": false,
+  "nguon": {
+    "tep": "/opt/oz-wiki-data/tb-pdf/535-tb-tchq-2018.pdf",
+    "sha256": "32aec1274bb816af800869c1b9bba5004a2ed5de8fe7fd8b0ee1982c13c45452",
+    "bytes": 2889183,
+    "trang": 5,
+    "cach_lay_chu": "pdftotext",
+    "so_hieu_trong_pdf": "535, 6792",
+    "so_hieu_khop": true,
+    "nam_trong_pdf": 2025,
+    "canh_bao_nam": true,
+    "loi_he_thong": null
+  },
+  "trich_xuat_luc": "2026-10-28T08:58:13.942Z"
+}

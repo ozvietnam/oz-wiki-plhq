@@ -1,0 +1,25 @@
+{
+  "so_hieu": "6740/TB-TCHQ/2018",
+  "nhom_hs": "6006",
+  "ten_hang": "Bản mạch in đã lắp ráp (chuyên đôi nguôn và xử lý tín hiệu cho tivi)",
+  "dac_tinh": "Bản mạch in (PCB) 4 lớp, vật liệu FR4, với các linh kiện gắn trên bản mạch bao gồm: + ÁC Power (Input): Đầu nối nguồn điện áp xoay chiều (AC) cung cấp đầu vào cho sản phâm. + SoC (System-on-Chip): Vi xử lý trung tâm video/audio. + eMMC (embedded MultiMediaCard): Bộ nhớ lưu trữ hệ điều hành. + Flash BIOS: Vi mạch khởi động hệ thống. + EEPROM: Vi mạch lưu trữ thông số của hệ thống. + DDR RAM: Bộ nhớ tạm thời cho SoC (System-on-Chip - Vi xử lý trung tâm). + Cổng kết nói: HDMI (High-Definition Multimedia Interface): Truyền tải hình ảnh và âm thanh kỹ thuật số chất lượng cao; USB (Universal Serial Bus): Kết nối với các thiết bị lưu trữ ngoài như USB, ỗ cứng di động để xem phim, nghe nhạc, xem ảnh trực tiếp trên tivi; LAN (Local Area Network): Kết nói tivi với Internet thông qua dây cáp mạng LAN; RF (Radio Frequency): Thu nhận tín hiệu truyền hình cho tivi thông qua cáp đồng trục (ăng Bảng mạch chuyền đổi nguồn và xử lý tín hiệu cho TV (Bảng mạch 3 trong 1). Bảng mạch 3 trong 1 là bảng mạch của TV tích hợp chức năng chuyển đổi nguồn từ điện ấp xoay chiều sang một. chiều, xử lý tín hiệu âm thanh, hình ảnh và điều khiển ánh sáng đèn LED nền. Cung cấp hệ thống hoàn chỉnh cho Tivi giúp tối ưu hiệu suất và chất lượng hình ảnh hiền thị. 3.",
+  "ma_ket_luan_8_so": "85299054",
+  "ly_do": "thuộc nhóm 85.29 “Bộ phận chỉ dùng hoặc chủ yêu dùng với các thiết bị thuộc các nhóm từ 85.24 đến 85.28”, phân nhóm 8529.90 “- Loại khác ”, phân nhóm - - Tấm mạch in khác, đã lắp ráp”, phân nhóm “- - - Dùng cho hàng hóa boy nhóm 85.28”, mã số 8529.90.54 “- - - - Loại khác, dùng cho máy thu truyện hình ” tại Danh mục hàng hóa xuất khâu, nhập khẩu Việt Nam",
+  "don_vi_de_nghi": null,
+  "trang_thai": "ok",
+  "ly_do_khong_trich": null,
+  "canh_bao_ocr": true,
+  "nguon": {
+    "tep": "/opt/oz-wiki-data/tb-pdf/6740-tb-tchq-2018.pdf",
+    "sha256": "2df08b7b55a2e91fd261e6a63fd883c18819c3c56ce3a7468eb786d1c7b697dd",
+    "bytes": 2517866,
+    "trang": 5,
+    "cach_lay_chu": "ocr",
+    "so_hieu_trong_pdf": null,
+    "so_hieu_khop": null,
+    "nam_trong_pdf": 2014,
+    "canh_bao_nam": true,
+    "loi_he_thong": null
+  },
+  "trich_xuat_luc": "2026-10-28T08:44:08.767Z"
+}

@@ -1,0 +1,25 @@
+{
+  "so_hieu": "620/TB-TCHQ/2025",
+  "nhom_hs": "8537",
+  "ten_hang": "LS Programmable Logic Controller",
+  "dac_tinh": "Thiết bị điều khiển có thiết kế nhiều đầu vào/đầu ra, có chương trình để điều khiển máy trong dây chuyền của nhà máy. Chỉ tiết như sau: 1) Bộ nhớ chương trình: RAM, ROM, ngoài ra có thể sử dụng vùng nhớ ngoài — EPROM. 2) Bộ xử lý trung tâm CPU. 3) Module input/output: Thông thường Module L/O được tích hợp trên PLC, khi có nhu cầu mở rộng I/O có thê lắp Module L/O. 4) Ngoài ra, PLUC còn có các bộ phận khác: Cổng kết nối PLC và máy tính: RS232, RS422, RS485 thực hiện để chương trình và giám sát chương trình; Cổng truyền thông: PLC tích hợp giao thức MASTER-K chuyên dụng, Modbus, User-defined. - PLC K7M-DR10U được dùng cho máy ráp lò xo vào holder. Khi công nhân đặt lò xo và holder vào vị trí thì cảm biến nhận tín hiệu đưa về PLC (PLC xử lý theo câu lệnh đã được lập trình) PLC sẽ đưa ra tín hiệu để điều khiển cylinder đi vào. 3.",
+  "ma_ket_luan_8_so": "85371099",
+  "ly_do": "thuộc nhóm 85.37 “Bảng, panel, giá đỡ, bàn, tủ và các loại hộp và đề khác, được lắp với hai hoặc nhiều thiết bị thuộc nhóm 85.35 hoặc 85.36, dùng để điều khiển hoặc phân phối điện, kể cả các loại trên có lắp các dụng cụ hoặc thiết bị thuộc Chương 90, và các thiết bị điều khiển số, trừ các thiết bị chuyển mạch thuộc nhóm 85.17”, phân nhóm 8537. 10 “- Dùng cho điện áp không quá 1.000 Ÿ”, phân nhóm “- - Loại khác”, mã số 8537.10.99 “- - - Loại khác ” tại Danh mục hàng hóa xuất khẩu, nhập Khẩu Việt Nam",
+  "don_vi_de_nghi": "Cục trưởng Cục Thuế Xuất nhập khẩu",
+  "trang_thai": "ok",
+  "ly_do_khong_trich": null,
+  "canh_bao_ocr": true,
+  "nguon": {
+    "tep": "/opt/oz-wiki-data/tb-pdf/620-tb-tchq-2025.pdf",
+    "sha256": "b5e5d6dff0448abd56711a1809158eb8c8ba578260ab3f895c968edd62bb830b",
+    "bytes": 1814023,
+    "trang": 4,
+    "cach_lay_chu": "ocr",
+    "so_hieu_trong_pdf": null,
+    "so_hieu_khop": null,
+    "nam_trong_pdf": null,
+    "canh_bao_nam": false,
+    "loi_he_thong": null
+  },
+  "trich_xuat_luc": "2026-10-28T07:52:10.799Z"
+}
