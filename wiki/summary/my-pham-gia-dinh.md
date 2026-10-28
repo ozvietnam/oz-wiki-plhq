@@ -13,7 +13,7 @@ tags: [tong-hop, my-pham, byt, kiem-tra-chuyen-nganh, quan-trong]
 
 ## Summary
 
-Gia đình pháp lý **mỹ phẩm** (nguồn issue #224 — ca khách 21/10 hỏi "công bố mỹ phẩm theo văn bản nào"). Câu trả lời ngắn cho khách: **bộ hiện hành = TT 06/2011/TT-BYT (đã sửa 4 lần, gần nhất TT 34/2025) — đọc bản hợp nhất **09/VBHN-BYT (25/07/2025)**; thủ tục hiện hành theo QĐ 1536/QĐ-BYT (28/05/2026)**.
+Gia đình pháp lý **mỹ phẩm** (nguồn issue #224 — ca khách 21/10 hỏi "công bố mỹ phẩm theo văn bản nào"). Câu trả lời ngắn cho khách: **bộ hiện hành = TT 06/2011/TT-BYT (đã sửa 4 lần, gần nhất TT 34/2025) — đọc bản hợp nhất [[sources/09-vbhn-byt-2025|09/VBHN-BYT (25/07/2025)]] — trang có sẵn 2 BẢNG VÀNG (mục 8/10 + Phụ lục 05-MP); thủ tục hiện hành theo QĐ 1536/QĐ-BYT (28/05/2026)**.
 
 ## Sơ đồ
 
