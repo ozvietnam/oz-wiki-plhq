@@ -236,6 +236,8 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/155-2026-nd-cp]]
 - [[sources/12-2019-tt-bct]]
 - [[summary/my-pham-gia-dinh]]
+- [[summary/phan-mem-di-kem-hang-nhap]]
+- [[summary/tach-may-dung-cu-hoa-chat]]
 - [[sources/09-vbhn-byt-2025]]
 - [[summary/mua-ban-giao-thang-nuoc-thu-ba]]
 - [[sources/40-2025-tt-bct]]
