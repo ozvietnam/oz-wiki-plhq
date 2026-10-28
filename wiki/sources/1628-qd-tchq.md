@@ -249,21 +249,20 @@ Phân tích, phân loại hàng hóa xuất nhập khẩu (sau đây viết tắ
 1. Hồ sơ PTPL gồm có:
 a. Hồ sơ yêu cầu PTPL quy định tại điều 19-Thông tư 49/2010/TT-BTC.
 b. Phiếu tiếp nhận yêu cầu PTPL (theo mẫu tại Thông tư 49/2010/TT-BTC).
-
----
-
-Chương c. Biên bản PTPL (theo mẫu quy định tại Phụ lục 2 của quy chế này).
-
-
-
----
-
-Chương d. Thông báo kết quả PTPL (theo mẫu tại Thông tư 49/2010/TT-BTC). e. Các bản minh họa của việc PTPL (nếu có).
-
+c. Biên bản PTPL (theo mẫu quy định tại Phụ lục 2 của quy chế này).
+d. Thông báo kết quả PTPL (theo mẫu tại Thông tư 49/2010/TT-BTC).
+e. Các bản minh họa của việc PTPL (nếu có).
 f. Kết luận của tổ chức kỹ thuật hoặc cơ quan giám định (nếu có).
 g. Biên bản trả lại mẫu (nếu có và theo mẫu tại Thông tư 49/2010/TT-BTC).
 h. Các văn bản khác có liên quan (nếu có).
 2. Hồ sơ PTPL được lưu giữ theo quy định của ngành Hải quan.
+
+> ⚠️ **Lỗi số hóa của nguồn (đã sửa ở đây).** Tệp nội dung gốc của CSDLQG về pháp luật
+> (`raw/download/vbpl.vn/1628-qd-tchq-noi-dung.html`) ghi các mục c. và d. của Điều 11 khoản 1
+> thành **"Chương c."** và **"Chương d."** (do lỗi ánh xạ style `prov-chapter` khi số hóa), và
+> gộp mục d. với mục e. vào một thẻ `<p>`. Đây là lỗi của nguồn, không phải của bản gốc: 8 mục
+> a.–h. là một danh mục điểm của Điều 11 khoản 1, không phải các "Chương". Trang này đã sửa lại
+> theo ngữ cảnh cấu trúc (mục a. và b. nằm ngay trên, mục f.–h. nằm ngay dưới, cùng cấp).
 
 ---
 
