@@ -1,4 +1,4 @@
-# Quan hệ cũ – mới giữa các văn bản — 2026-10-28
+# Quan hệ cũ – mới giữa các văn bản — 2026-10-29
 
 Mũi tên đi từ văn bản MỚI tới văn bản bị tác động. Sinh tự động bằng `node tools/dung.mjs`.
 
@@ -46,37 +46,84 @@ flowchart LR
 flowchart LR
   n_06_2026_TT_BTC["06/2026/TT-BTC<br/>còn hiệu lực"]
   n_13_2015_TT_BTC["13/2015/TT-BTC<br/>chưa xác minh"]
+  n_07_2022_QH15["07/2022/QH15<br/>còn hiệu lực"]
+  n_50_2005_QH11["50/2005/QH11<br/>còn hiệu lực"]
   n_11_2026_QH16["11/2026/QH16<br/>chưa có hiệu lực"]
   n_54_2014_QH13["54/2014/QH13<br/>còn hiệu lực"]
+  n_119_2010_N__CP["119/2010/NĐ-CP<br/>hết hiệu lực"]
+  n_105_2006_N__CP["105/2006/NĐ-CP<br/>hết hiệu lực"]
   n_121_2025_TT_BTC["121/2025/TT-BTC<br/>còn hiệu lực"]
   n_38_2015_TT_BTC["38/2015/TT-BTC<br/>còn hiệu lực"]
   n_39_2018_TT_BTC["39/2018/TT-BTC<br/>còn hiệu lực"]
+  n_126_2021_N__CP["126/2021/NĐ-CP<br/>còn hiệu lực"]
+  n_99_2013_N__CP["99/2013/NĐ-CP<br/>còn hiệu lực"]
+  n_131_2013_N__CP["131/2013/NĐ-CP<br/>còn hiệu lực"]
+  n_47_2009_N__CP["47/2009/NĐ-CP<br/>chưa có trong sổ"]
+  n_109_2011_N__CP["109/2011/NĐ-CP<br/>chưa có trong sổ"]
+  n_155_VBHN_VPQH["155/VBHN-VPQH<br/>còn hiệu lực"]
+  n_36_2009_QH12["36/2009/QH12<br/>còn hiệu lực"]
+  n_42_2019_QH14["42/2019/QH14<br/>còn hiệu lực"]
+  n_93_2025_QH15["93/2025/QH15<br/>còn hiệu lực"]
   n_167_2025_N__CP["167/2025/NĐ-CP<br/>còn hiệu lực"]
   n_08_2015_N__CP["08/2015/NĐ-CP<br/>còn hiệu lực"]
   n_59_2018_N__CP["59/2018/NĐ-CP<br/>hết hiệu lực"]
+  n_17_2023_N__CP["17/2023/NĐ-CP<br/>còn hiệu lực"]
+  n_22_2018_N__CP["22/2018/NĐ-CP<br/>hết hiệu lực"]
+  n_28_2017_N__CP["28/2017/NĐ-CP<br/>còn hiệu lực"]
+  n_158_2013_N__CP["158/2013/NĐ-CP<br/>chưa có trong sổ"]
+  n_285_2025_N__CP["285/2025/NĐ-CP<br/>còn hiệu lực"]
   n_31_2026_Q__TTg["31/2026/QĐ-TTg<br/>còn hiệu lực"]
   n_23_2019_Q__TTg["23/2019/QĐ-TTg<br/>hết hiệu lực"]
   n_336_2026_N__CP["336/2026/NĐ-CP<br/>còn hiệu lực"]
   n_85_2019_N__CP["85/2019/NĐ-CP<br/>hết hiệu lực"]
   n_60_2019_TT_BTC["60/2019/TT-BTC<br/>còn hiệu lực"]
   n_39_2015_TT_BTC["39/2015/TT-BTC<br/>còn hiệu lực"]
+  n_46_2017_N__CP["46/2017/NĐ-CP<br/>còn hiệu lực"]
+  n_46_2024_N__CP["46/2024/NĐ-CP<br/>còn hiệu lực"]
   n_54_VBHN_VPQH["54/VBHN-VPQH<br/>còn hiệu lực"]
+  n_65_2023_N__CP["65/2023/NĐ-CP<br/>còn hiệu lực"]
+  n_103_2006_N__CP["103/2006/NĐ-CP<br/>hết hiệu lực"]
   n_06_2026_TT_BTC -->|sửa đổi từ 2026-03-01| n_13_2015_TT_BTC
+  n_07_2022_QH15 -->|sửa đổi từ 2023-01-01| n_50_2005_QH11
   n_11_2026_QH16 -->|sửa đổi từ 2027-03-01| n_54_2014_QH13
+  n_119_2010_N__CP -->|sửa đổi từ 2011-02-20| n_105_2006_N__CP
   n_121_2025_TT_BTC -->|sửa đổi từ 2026-02-01| n_38_2015_TT_BTC
   n_121_2025_TT_BTC -->|sửa đổi từ 2026-02-01| n_39_2018_TT_BTC
+  n_126_2021_N__CP -->|sửa đổi từ 2022-03-01| n_99_2013_N__CP
+  n_131_2013_N__CP -->|thay thế từ 2013-12-15| n_47_2009_N__CP
+  n_131_2013_N__CP -->|thay thế từ 2013-12-15| n_109_2011_N__CP
+  n_155_VBHN_VPQH -->|hợp nhất| n_50_2005_QH11
+  n_155_VBHN_VPQH -->|hợp nhất| n_36_2009_QH12
+  n_155_VBHN_VPQH -->|hợp nhất| n_42_2019_QH14
+  n_155_VBHN_VPQH -->|hợp nhất| n_07_2022_QH15
+  n_155_VBHN_VPQH -->|hợp nhất| n_93_2025_QH15
   n_167_2025_N__CP -->|sửa đổi| n_08_2015_N__CP
   n_167_2025_N__CP -->|bãi bỏ từ 2025-08-15| n_59_2018_N__CP
+  n_17_2023_N__CP -->|thay thế từ 2023-04-26| n_22_2018_N__CP
+  n_17_2023_N__CP -->|thay thế từ 2023-04-26| n_119_2010_N__CP
+  n_17_2023_N__CP -->|bãi bỏ Phần Bảo vệ quyền trong lĩnh vực quyền tác giả, quyền liên quan từ 2023-04-26| n_105_2006_N__CP
+  n_28_2017_N__CP -->|sửa đổi từ 2017-05-05| n_131_2013_N__CP
+  n_28_2017_N__CP -->|sửa đổi từ 2017-05-05| n_158_2013_N__CP
+  n_285_2025_N__CP -->|bãi bỏ toàn bộ từ 2025-12-30| n_105_2006_N__CP
+  n_285_2025_N__CP -->|bãi bỏ toàn bộ từ 2025-12-30| n_119_2010_N__CP
   n_31_2026_Q__TTg -->|thay thế từ 2026-08-14| n_23_2019_Q__TTg
   n_336_2026_N__CP -->|thay thế từ 2026-10-15| n_85_2019_N__CP
+  n_36_2009_QH12 -->|sửa đổi từ 2010-01-01| n_50_2005_QH11
   n_38_2015_TT_BTC -->|sửa đổi Bổ sung nộp chứng từ điện tử, sửa mẫu tờ khai từ 2018-06-05| n_39_2018_TT_BTC
   n_38_2015_TT_BTC -->|sửa đổi Sửa trị giá HQ từ 2019-10-15| n_60_2019_TT_BTC
   n_38_2015_TT_BTC -->|sửa đổi Sửa nhiều điều về thủ tục HQ, thuế XK NK từ 2026-02-01| n_121_2025_TT_BTC
   n_39_2015_TT_BTC -->|sửa đổi Sửa đổi, bổ sung một số điều của TT 39/2015/TT-BTC từ 2019-06-06| n_60_2019_TT_BTC
   n_39_2018_TT_BTC -->|sửa đổi| n_38_2015_TT_BTC
+  n_42_2019_QH14 -->|sửa đổi từ 2019-11-01| n_50_2005_QH11
+  n_46_2017_N__CP -->|sửa đổi từ 2017-06-01| n_99_2013_N__CP
+  n_46_2017_N__CP -->|sửa đổi từ 2017-06-01| n_105_2006_N__CP
+  n_46_2017_N__CP -->|sửa đổi từ 2017-06-01| n_131_2013_N__CP
+  n_46_2024_N__CP -->|sửa đổi từ 2024-07-01| n_99_2013_N__CP
   n_54_VBHN_VPQH -->|hợp nhất| n_54_2014_QH13
   n_59_2018_N__CP -->|sửa đổi| n_08_2015_N__CP
   n_60_2019_TT_BTC -->|sửa đổi| n_39_2015_TT_BTC
+  n_65_2023_N__CP -->|thay thế từ 2023-08-23| n_103_2006_N__CP
+  n_93_2025_QH15 -->|sửa đổi từ 2025-10-01| n_50_2005_QH11
 ```
 
 ## Kiểm tra chuyên ngành (chất lượng, ATTP, kiểm dịch)
