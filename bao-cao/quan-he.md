@@ -20,6 +20,9 @@ flowchart LR
 
 ```mermaid
 flowchart LR
+  n_06_2019_N__CP["06/2019/NĐ-CP<br/>còn hiệu lực"]
+  n_32_2006_N__CP["32/2006/NĐ-CP<br/>chưa có trong sổ"]
+  n_27_2018_TT_BNNPTNT["27/2018/TT-BNNPTNT<br/>hết hiệu lực"]
   n_113_2017_N__CP["113/2017/NĐ-CP<br/>hết hiệu lực"]
   n_108_2008_N__CP["108/2008/NĐ-CP<br/>hết hiệu lực"]
   n_26_2011_N__CP["26/2011/NĐ-CP<br/>hết hiệu lực"]
@@ -31,6 +34,8 @@ flowchart LR
   n_49_2015_TT_BCT["49/2015/TT-BCT<br/>hết hiệu lực"]
   n_17_2023_TT_BNNPTNT["17/2023/TT-BNNPTNT<br/>còn hiệu lực"]
   n_924_Q__BNN_TCLN["924/QĐ-BNN-TCLN<br/>hết hiệu lực"]
+  n_06_2019_N__CP -->|thay thế từ 2019-03-26| n_32_2006_N__CP
+  n_06_2019_N__CP -->|bãi bỏ các quy định về quản lý gỗ, thực vật rừng từ 2019-03-26| n_27_2018_TT_BNNPTNT
   n_113_2017_N__CP -->|thay thế từ 2017-11-25| n_108_2008_N__CP
   n_113_2017_N__CP -->|thay thế từ 2017-11-25| n_26_2011_N__CP
   n_1175_Q__TTg -->|sửa đổi Thay thế hoàn toàn 1175/QĐ-TTg từ 2026-01-16| n_126_Q__TTg
@@ -186,6 +191,9 @@ flowchart LR
   n_24_2026_TT_BYT["24/2026/TT-BYT<br/>còn hiệu lực"]
   n_05_2022_TT_BYT["05/2022/TT-BYT<br/>còn hiệu lực"]
   n_59_2025_TT_BYT["59/2025/TT-BYT<br/>chưa xác minh"]
+  n_26_2025_TT_BNNMT["26/2025/TT-BNNMT<br/>còn hiệu lực"]
+  n_26_2022_TT_BNNPTNT["26/2022/TT-BNNPTNT<br/>hết hiệu lực"]
+  n_29_2019_TT_BNN["29/2019/TT-BNN<br/>chưa có trong sổ"]
   n_26_2026_N__CP["26/2026/NĐ-CP<br/>còn hiệu lực"]
   n_113_2017_N__CP["113/2017/NĐ-CP<br/>hết hiệu lực"]
   n_82_2022_N__CP["82/2022/NĐ-CP<br/>hết hiệu lực"]
@@ -196,6 +204,8 @@ flowchart LR
   n_29_2020_TT_BYT["29/2020/TT-BYT<br/>còn hiệu lực"]
   n_29_2025_TT_BKHCN["29/2025/TT-BKHCN<br/>hết hiệu lực"]
   n_02_2024_TT_BTTTT["02/2024/TT-BTTTT<br/>chưa xác minh"]
+  n_32_2026_TT_BYT["32/2026/TT-BYT<br/>còn hiệu lực"]
+  n_12_2025_TT_BYT["12/2025/TT-BYT<br/>chưa có trong sổ"]
   n_33_2026_TT_BCT["33/2026/TT-BCT<br/>còn hiệu lực"]
   n_41_2023_TT_BCT["41/2023/TT-BCT<br/>hết hiệu lực"]
   n_20_2017_TT_BNNPTNT["20/2017/TT-BNNPTNT<br/>còn hiệu lực"]
@@ -219,6 +229,8 @@ flowchart LR
   n_43_2024_QH15["43/2024/QH15<br/>còn hiệu lực"]
   n_41_2013_QH13["41/2013/QH13<br/>hết hiệu lực"]
   n_146_2025_QH15["146/2025/QH15<br/>chưa xác minh"]
+  n_44_2026_TT_BNNMT["44/2026/TT-BNNMT<br/>còn hiệu lực"]
+  n_27_2026_TT_BNNMT["27/2026/TT-BNNMT<br/>còn hiệu lực"]
   n_4814_Q__BCA["4814/QĐ-BCA<br/>chưa xác minh"]
   n_8378_Q__BCA["8378/QĐ-BCA<br/>chưa xác minh"]
   n_49_2026_TT_BXD["49/2026/TT-BXD<br/>còn hiệu lực"]
@@ -231,6 +243,7 @@ flowchart LR
   n_73_2021_QH14["73/2021/QH14<br/>còn hiệu lực"]
   n_23_2000_QH10["23/2000/QH10<br/>chưa có trong sổ"]
   n_6266_Q__BCA["6266/QĐ-BCA<br/>chưa xác minh"]
+  n_91_2026_VBHN_TT_BNNMT["91/2026/VBHN-TT-BNNMT<br/>chưa xác minh"]
   n_98_2021_N__CP["98/2021/NĐ-CP<br/>còn hiệu lực"]
   n_07_2023_N__CP["07/2023/NĐ-CP<br/>còn hiệu lực"]
   n_96_2023_N__CP["96/2023/NĐ-CP<br/>chưa có trong sổ"]
@@ -276,6 +289,8 @@ flowchart LR
   n_24_2026_TT_BYT -->|sửa đổi| n_05_2022_TT_BYT
   n_24_2026_TT_BYT -->|sửa đổi Điều 8 (lộ trình kiểm định) từ 2026-07-01| n_05_2022_TT_BYT
   n_24_2026_TT_BYT -->|bãi bỏ từ 2026-07-01| n_59_2025_TT_BYT
+  n_26_2025_TT_BNNMT -->|thay thế từ 2025-07-01| n_26_2022_TT_BNNPTNT
+  n_26_2025_TT_BNNMT -->|bãi bỏ từ 2025-07-01| n_29_2019_TT_BNN
   n_26_2026_N__CP -->|thay thế từ 2026-01-17| n_113_2017_N__CP
   n_26_2026_N__CP -->|thay thế từ 2026-01-17| n_82_2022_N__CP
   n_28_2026_N__CP -->|thay thế từ 2026-01-19| n_57_2022_N__CP
@@ -283,6 +298,7 @@ flowchart LR
   n_28_2026_TT_BCT -->|bãi bỏ Khoản 1 Điều 2 và Phụ lục 2 (danh mục ATTP) từ 2026-07-17| n_1182_Q__BCT
   n_29_2020_TT_BYT -->|sửa đổi| n_06_2011_TT_BYT
   n_29_2025_TT_BKHCN -->|thay thế từ 2025-12-31| n_02_2024_TT_BTTTT
+  n_32_2026_TT_BYT -->|thay thế các quy định về đăng ký lưu hành thuốc, nguyên liệu làm thuốc từ 2026-10-01| n_12_2025_TT_BYT
   n_33_2026_TT_BCT -->|thay thế| n_41_2023_TT_BCT
   n_34_2018_TT_BNNPTNT -->|sửa đổi từ 2019-01-01| n_33_2014_TT_BNNPTNT
   n_34_2018_TT_BNNPTNT -->|sửa đổi từ 2019-01-01| n_20_2017_TT_BNNPTNT
@@ -305,6 +321,7 @@ flowchart LR
   n_43_2024_QH15 -->|thay thế từ 2025-01-01| n_41_2013_QH13
   n_43_2024_QH15 -->|sửa đổi một số điều (Luật sửa đổi 15 luật lĩnh vực nông nghiệp, môi trường)| n_146_2025_QH15
   n_44_2024_QH15 -->|sửa đổi Điều 2 (giải thích từ ngữ), Điều 11 (chứng chỉ hành nghề), khoản 4, 5, 9, điểm a và c khoản 18, điểm d và đ khoản 32, khoản 33, 39, 43 Điều 1 từ 2025-07-01| n_105_2016_QH13
+  n_44_2026_TT_BNNMT -->|sửa đổi| n_27_2026_TT_BNNMT
   n_46_2026_N__CP -->|thay thế| n_15_2018_N__CP
   n_4814_Q__BCA -->|bãi bỏ từ 2026-07-28| n_8378_Q__BCA
   n_49_2026_TT_BXD -->|bãi bỏ từ 2026-07-01| n_12_2022_TT_BGTVT
@@ -319,6 +336,8 @@ flowchart LR
   n_82_2022_N__CP -->|sửa đổi| n_113_2017_N__CP
   n_8378_Q__BCA -->|thay thế từ 2025-10-14| n_6266_Q__BCA
   n_90_2024_N__CP -->|sửa đổi| n_57_2022_N__CP
+  n_91_2026_VBHN_TT_BNNMT -->|hợp nhất| n_27_2026_TT_BNNMT
+  n_91_2026_VBHN_TT_BNNMT -->|hợp nhất| n_44_2026_TT_BNNMT
   n_98_2021_N__CP -->|sửa đổi từ 2023-03-15| n_07_2023_N__CP
   n_98_2021_N__CP -->|sửa đổi từ 2023-12-30| n_96_2023_N__CP
 ```
@@ -417,6 +436,8 @@ flowchart LR
   n_31_2018_TT_BCT["31/2018/TT-BCT<br/>chưa xác minh"]
   n_43_2013_TT_BCT["43/2013/TT-BCT<br/>chưa xác minh"]
   n_48_2026_TT_BCT["48/2026/TT-BCT<br/>còn hiệu lực"]
+  n_51_VBHN_BCT["51/VBHN-BCT<br/>còn hiệu lực"]
+  n_38_2014_TT_BCT["38/2014/TT-BCT<br/>chưa xác minh"]
   n_60_2014_N__CP["60/2014/NĐ-CP<br/>còn hiệu lực"]
   n_80_2023_N__CP["80/2023/NĐ-CP<br/>còn hiệu lực"]
   n_83_2014_N__CP["83/2014/NĐ-CP<br/>còn hiệu lực"]
@@ -447,6 +468,7 @@ flowchart LR
   n_48_2026_TT_BCT -->|bãi bỏ khoản 1 Điều 1 và Phụ lục I (Phụ lục I còn thực hiện chuyển tiếp đến 31-12-2026 — Điều 21 khoản 3) từ 2026-09-05| n_08_2023_TT_BCT
   n_48_2026_TT_BCT -->|bãi bỏ Điều 3 và Phụ lục III từ 2026-09-05| n_41_2019_TT_BCT
   n_48_2026_TT_BCT -->|bãi bỏ Điều 25 từ 2026-09-05| n_42_2019_TT_BCT
+  n_51_VBHN_BCT -->|hợp nhất| n_38_2014_TT_BCT
   n_60_2014_N__CP -->|sửa đổi| n_195_2013_N__CP
   n_80_2023_N__CP -->|sửa đổi| n_83_2014_N__CP
   n_80_2023_N__CP -->|sửa đổi| n_95_2021_N__CP

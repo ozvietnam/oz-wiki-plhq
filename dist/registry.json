@@ -2,7 +2,7 @@
   "phien_ban": "2026-10-29",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2357,
+  "tong": 2372,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -1116,6 +1116,55 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "06/2019/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định về quản lý thực vật rừng, động vật rừng nguy cấp, quý, hiếm và thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2019-01-22",
+      "hieu_luc_tu": "2019-03-26",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai",
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "32/2006/NĐ-CP",
+            "tu_ngay": "2019-03-26"
+          }
+        ],
+        "bai_bo": [
+          {
+            "so_hieu": "27/2018/TT-BNNPTNT",
+            "pham_vi": "các quy định về quản lý gỗ, thực vật rừng",
+            "tu_ngay": "2019-03-26"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://kiemlamyenbai.gov.vn/thong-bao-2?userkey=NGHI-DINH-06-2019-ND-CP-VE-QUAN-LY-THUC-VAT-RUNG-DONG-VAT-RUNG-NGUY-CAP-QUY-HIEM-VA-THU",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://dantocmiennui.baotintuc.vn/ban-hanh-nghi-dinh-06-ve-quan-ly-thuc-vat-rung-dong-vat-rung-nguy-cap-quy-hiem-post1327801.html",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 22-01-2019, hiệu lực 26-03-2019; thay NĐ 32/2006/NĐ-CP + bãi các quy định gỗ/TVR của TT 27/2018 (QĐ 398/QĐ-BNN-PC hệ thống hóa + Kiểm lâm Yên Bái)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nạp tham chiếu CITES theo #247 — ca gỗ dùng để check tên khoa học loài (Fagus sylvatica = beech không thuộc CITES). Song song NĐ 102/2020.",
+      "slug": "06-2019-nd-cp",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "06/2026/TT-BTC",
@@ -2727,6 +2776,40 @@
       "toan_van": "chua_co",
       "slug": "1019-tb-tchq-2020",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "102/2020/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định về hệ thống bảo đảm gỗ hợp pháp Việt Nam",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2020-09-01",
+      "hieu_luc_tu": "2020-10-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai",
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "nguon": [
+        {
+          "url": "https://kv10.customs.gov.vn/index.jsp?pageId=3&id=43086&cid=1294",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://thuvienxuatnhapkhau.com/cong-van-7131-tchw-gsql-nam-2020-ve-viec-thuc-hien-nghi-dinh-102-2020-nd-cp-ve-ho-so-go-nhap-khau.html",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 01-09-2020, hiệu lực 30-10-2020 (Cục HQ KV10 + CV 7131/TCHQ-GSQL); VNTLAS — gỗ hợp pháp khai thác trong nước + gỗ nhập khẩu, danh mục gỗ rủi ro NK (điểm d khoản 1 Điều 6); bị sửa bởi một NĐ năm 2024 — số hiệu chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nền của mảng truy xuất nguồn gốc gỗ NK (issue #247 — gia đình lâm nghiệp thứ 8, ca dăm gỗ beech 4401.22.00). Song song với NĐ 06/2019 (CITES) — không thay thế nhau.",
+      "slug": "102-2020-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -10557,6 +10640,39 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "127/2026/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Quy định về chỉ tiêu thông tin, mẫu chứng từ khai báo khi làm thủ tục xuất cảnh, nhập cảnh, quá cảnh đối với phương tiện vận tải qua cửa khẩu, cảng hàng không quốc tế",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2026-08-27",
+      "hieu_luc_tu": "2026-10-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/?pageid=27160&docid=219370",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/hoi-dap-phap-luat/tong-hop-cong-van-cuc-thue-va-hai-quan-ban-hanh-thang-102026-day-du-138108312.html",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề đầy đủ, ngày ban hành 27-08-2026, hiệu lực 15-10-2026 (chinhphu docid=219370); Phụ lục I-X chỉ tiêu + mẫu chứng từ; CV 23007/CHQ-GSQL 10/2026 hướng dẫn chuyển tiếp phần mềm (chức năng cũ vẫn xử lý trong lúc rà soát nâng cấp)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Bắt bởi trinh thám bộ ngành (WebSearch tầng 2) 29/10 — mẫu chứng từ khai báo PHƯƠNG TIỆN VẬN TẢI (nhóm Đ70-74 NĐ 08/2015 bị 167/2025 sửa).",
+      "slug": "127-2026-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "127/QĐ-TTg",
       "loai": "QUYET_DINH",
       "ten": "Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP)",
@@ -12424,6 +12540,33 @@
       "toan_van": "chua_co",
       "slug": "1345-tb-tchq-2019",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "135/2026/VBHN-TT-BCT",
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Hợp nhất Thông tư Quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước",
+      "co_quan": "BCT",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề (mục lục công báo qua radar 29/10, đăng công báo 21-10-2026); thành phần hợp nhất + ngày ban hành chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Bắt bởi radar công báo (issue #251) — bổ sung gia đình xăng dầu #240. Nâng nguồn A khi có ca chạm cơ chế giá.",
+      "slug": "135-2026-vbhn-tt-bct",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -27453,6 +27596,38 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "217/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định về hoạt động kiểm tra chuyên ngành",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-08-05",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/khung-chat-luong"
+      ],
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/?pageid=27160&docid=214813&classid=1&typegroupid=4",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-217-2025-ND-CP-hoat-dong-kiem-tra-chuyen-nganh-668132.aspx",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 05-08-2025, hiệu lực kể từ ngày ký (chinhphu docid=214813 + TVPL); khung KTCN sau sắp xếp bộ máy: mục đích, thẩm quyền, nhiệm vụ, quyền hạn — ngày hiệu lực cụ thể chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám 29/10 — khung pháp lý KTCN đứng trên khung 3 mức rủi ro NĐ 37/2026; cần rà quan hệ với NĐ 37/2026 khi đối chiếu toàn văn.",
+      "slug": "217-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "217/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -32524,6 +32699,48 @@
       }
     },
     {
+      "so_hieu": "26/2022/TT-BNNPTNT",
+      "so_hieu_khac": [
+        "26/2022/TT-BNNMT"
+      ],
+      "loai": "THONG_TU",
+      "ten": "Quy định về quản lý, truy xuất nguồn gốc lâm sản",
+      "co_quan": "BNNPTNT",
+      "ngay_ban_hanh": "2022-12-30",
+      "hieu_luc_tu": "2023-02-15",
+      "het_hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "nguon": [
+        {
+          "url": "https://kiemlamtphcm.org.vn/laws/detail/Thong-tu-26-2025-TT-BNNMT-Quy-dinh-ve-quan-ly-lam-san-xu-ly-lam-san-thuy-san-la-tai-san-duoc-xac-lap-quyen-so-huu-toan-dan-49",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 30-12-2022, hiệu lực 15-02-2023; HẾT hiệu lực 01-07-2025 — bị TT 26/2025/TT-BNNMT thay (nguyên văn Điều 33.3 điểm a)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nơi ban hành Mẫu 01 bảng kê gỗ nguyên liệu nhập khẩu (tầng 2 #247) — nay chuyển sang TT 26/2025.",
+      "slug": "26-2022-tt-bnnptnt",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "26/2025/TT-BNNMT",
+            "quan_he": "thay_the",
+            "so_hieu": "26/2022/TT-BNNPTNT",
+            "tu_ngay": "2025-07-01"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "26/2023/NĐ-CP",
       "loai": "NGHI_DINH",
       "ten": "Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hoá và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan",
@@ -32567,6 +32784,56 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "26/2025/TT-BNNMT",
+      "so_hieu_khac": [
+        "26/2025/TT-BNNPTNT"
+      ],
+      "loai": "THONG_TU",
+      "ten": "Quy định về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân",
+      "co_quan": "BNNMT",
+      "ngay_ban_hanh": "2025-06-24",
+      "hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "26/2022/TT-BNNPTNT",
+            "tu_ngay": "2025-07-01"
+          }
+        ],
+        "bai_bo": [
+          {
+            "so_hieu": "29/2019/TT-BNN",
+            "tu_ngay": "2025-07-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=214350",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Linh-vuc-khac/Thong-tu-26-2025-TT-BNNMT-xu-ly-lam-san-thuy-san-la-tai-san-duoc-xac-lap-quyen-so-huu-toan-dan-662945.aspx",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "nguyên văn toàn văn TVPL 662945: ngày ban hành 24-06-2025, hiệu lực 01-07-2025 (Điều 33.1); Điều 33.3 bãi toàn bộ TT 26/2022 + TT 29/2019/TT-BNN, một phần TT 22/2023 (Đ2, Đ12), TT 12/2019 (khoản 2a Đ6), TT 22/2024 (khoản 2 Đ31); Điều 33.2: phân loại DN (Chương III) hiệu lực 16-05-2026, bãi TT 21/2021 từ đó",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Hiện hành cho truy xuất nguồn gốc lâm sản NK — Mẫu 01 Phụ lục II là Bảng kê lâm sản (tầng 2 #247, xem trang nguồn). Định nghĩa Điều 3.6: dăm gỗ thuộc GỖ NGUYÊN LIỆU. Điều 9.1: hồ sơ gỗ NK theo Điều 7 NĐ 102/2020 (sửa 2024). Có VBHN 04/VBHN-BNNMT 2026 — nạp khi có nhu cầu.",
+      "slug": "26-2025-tt-bnnmt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "26/2026/NĐ-CP",
@@ -33187,6 +33454,46 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "27/2018/TT-BNNPTNT",
+      "so_hieu_khac": [
+        "27/2018/TT-BNNMT"
+      ],
+      "loai": "THONG_TU",
+      "ten": "Hướng dẫn một số điều của Luật Lâm nghiệp về truy xuất nguồn gốc, khai thác, vận chuyển gỗ",
+      "co_quan": "BNNPTNT",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/ve-viec-cong-bo-ket-qua-he-thong-hoa-van-ban-quy-pham-phap-luat-thuoc-linh-vuc-quan-ly-nha-nuoc-cua-bo-nong-nghiep-va-phat-trien-nong-thon-ky-2019-2023--hhtquyetdinh_224",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề; HẾT hiệu lực từ 26-03-2019 — các quy định gỗ/thực vật rừng bị NĐ 06/2019/NĐ-CP bãi bỏ (QĐ 398/QĐ-BNN-PC hệ thống hóa VB 2019-2023); ngày ban hành chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nạp dạng lịch sử theo #247 (chuỗi truy xuất nguồn gốc: TT 27/2018 → TT 26/2022 → TT 26/2025). Lưu ý: không nhầm với \"TT 27/2023\" — số đó không tồn tại.",
+      "slug": "27-2018-tt-bnnptnt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "06/2019/NĐ-CP",
+            "quan_he": "bai_bo",
+            "so_hieu": "27/2018/TT-BNNPTNT",
+            "pham_vi": "các quy định về quản lý gỗ, thực vật rừng",
+            "tu_ngay": "2019-03-26"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "27/2026/TT-BNNMT",
       "loai": "THONG_TU",
       "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Môi trường",
@@ -33231,7 +33538,22 @@
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/27-2026-tt-bnnmt.pdf",
       "slug": "27-2026-tt-bnnmt",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "44/2026/TT-BNNMT",
+            "quan_he": "sua_doi",
+            "so_hieu": "27/2026/TT-BNNMT"
+          }
+        ],
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "91/2026/VBHN-TT-BNNMT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "27/2026/TT-BNNMT"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "27/2026/TT-BYT",
@@ -41797,6 +42119,48 @@
       }
     },
     {
+      "so_hieu": "32/2026/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Quy định việc đăng ký lưu hành thuốc, nguyên liệu làm thuốc",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2026-07-29",
+      "hieu_luc_tu": "2026-10-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "12/2025/TT-BYT",
+            "pham_vi": "các quy định về đăng ký lưu hành thuốc, nguyên liệu làm thuốc",
+            "tu_ngay": "2026-10-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-32-2026-tt-byt-quy-dinh-viec-dang-ky-luu-hanh-thuoc-nguyen-lieu-lam-thuoc--b3c8a3e0-9945-11f1-9dcb-2dbe29d2ab4a",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-32-2026-TT-BYT-dang-ky-luu-hanh-thuoc-nguyen-lieu-lam-thuoc-717455.aspx",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 29-07-2026, hiệu lực 01-10-2026 (vbpl + TVPL); thay quy định đăng ký lưu hành của TT 12/2025/TT-BYT — phạm vi bãi cụ thể chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám 29/10 — thuốc là nhóm KB thuế 30 (3004...) hay hỏi; TT 12/2025 chưa có trong sổ (nạp khi cần truy vết chuỗi).",
+      "slug": "32-2026-tt-byt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "3207/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -45786,6 +46150,34 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "35/2018/QH14",
+      "loai": "LUAT",
+      "ten": "Luật sửa đổi, bổ sung một số điều của các Luật có liên quan đến quy hoạch",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2018-11-20",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "hai-quan/luat-khung"
+      ],
+      "nguon": [
+        {
+          "url": "https://vi.wikisource.org",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề — luật sửa nhiều luật; phần sửa Luật Hải quan 54/2014 (thủ tục HQ chế biến, chế xuất...) chưa đối chiếu điều khoản cụ thể",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nạp tối thiểu theo rà soát PL hải quan 29/10: phần sửa Luật HQ đã nằm trong VBHN 54/VBHN-VPQH (có sẵn) — file riêng để cạnh sửa đổi truy xuất được. PHÂN BIỆT: luật sửa Luật HQ là 35/2018/QH14; 102/2020/QH14 trong sổ là Nghị quyết phê chuẩn EVFTA (khác hoàn toàn).",
+      "slug": "35-2018-qh14",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "35/2025/NĐ-CP",
       "loai": "NGHI_DINH",
       "ten": "Nghị định quy định chi tiết thi hành Luật Thú y",
@@ -49605,7 +49997,15 @@
       },
       "slug": "38-2014-tt-bct",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "51/VBHN-BCT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "38/2014/TT-BCT"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "38/2015/TT-BTC",
@@ -50325,6 +50725,33 @@
       "toan_van": "chua_co",
       "slug": "3837-tb-tchq-2022",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "384/2026/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định xác định xuất xứ Việt Nam đối với hàng hóa sản xuất và lưu thông trong nước",
+      "co_quan": "CP",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "xuat-xu-fta/quy-tac-xuat-xu"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề (từ mục lục công báo qua radar 29/10) — ngày ban hành/hiệu lực chưa đối chiếu; cần nâng nguồn A sớm vì xuất xứ là mảng lõi kho",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Bắt bởi radar công báo 29/10 (issue #251) — xuất xứ hàng hoá trong nước, tách bạch với xuất xứ FTA. Nâng NGUON_A ngay khi có ca khách chạm.",
+      "slug": "384-2026-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -55678,6 +56105,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "43/2026/NQ-CP",
+      "loai": "NGHI_QUYET",
+      "ten": "Về việc kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường, thuế giá trị gia tăng đối với xăng, dầu, nguyên liệu sản xuất xăng, dầu và nhiên liệu bay",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2026-09-30",
+      "hieu_luc_tu": "2026-10-01",
+      "het_hieu_luc_tu": "2026-12-31",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=219739",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://www.mof.gov.vn/tin-tuc-tai-chinh/tin-tuc-su-kien-8/tiep-tuc-keo-dai-thoi-han-uu-dai-thue-xang-dau-den-het-nam-2026",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề đầy đủ, ngày 30-09-2026, hiệu lực 01-10 đến hết 31-12-2026 (vanban docid=219739 + BTC): kéo dài MFN xăng dầu; BVMT xăng (trừ ethanol), diezel, dầu hỏa, mazut, nhiên liệu bay = 0 đồng/lít",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám bộ ngành 29/10 — QUAN TRỌNG cho tra thuế nhóm 2710: MFN ưu đãi + BVMT 0đ chỉ đến 31-12-2026, hết hạn cần NQ kéo dài tiếp (canh).",
+      "slug": "43-2026-nq-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "4319/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -56308,6 +56769,56 @@
             "tu": "163/2025/NĐ-CP",
             "quan_he": "huong_dan",
             "so_hieu": "44/2024/QH15"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "44/2026/TT-BNNMT",
+      "so_hieu_khac": [
+        "44/2026/TT-BNNPTNT"
+      ],
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 27/2026/TT-BNNMT ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Nông nghiệp và Môi trường ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Nông nghiệp và Môi trường",
+      "co_quan": "BNNMT",
+      "ngay_ban_hanh": "2026-10-09",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "27/2026/TT-BNNMT"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=219929&classid=1",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://thuvienxuatnhapkhau.com/thong-tu-44-2026-tt-bnnmt-sua-doi-thong-tu-27-2026-tt-bnnmt-ve-danh-muc-san-pham-hang-hoa-co-muc-do-rui-ro-trung-binh-muc-do-rui-ro-cao-thuoc-trach-nhiem-quan-ly-cua-bo-nong-nghiep-va-moi-truong.html",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề đầy đủ, ngày ban hành 09-10-2026 (vanban.chinhphu docid=219929); điều chỉnh phân loại mặt hàng lâm sản/TACN/thú y theo mã HS — hiệu lực cụ thể chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Bắt bởi radar công báo 29/10 (issue #251) — nạp cùng ngày phát hiện. TT 27/2026 đã có sẵn trong sổ.",
+      "slug": "44-2026-tt-bnnmt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "91/2026/VBHN-TT-BNNMT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "44/2026/TT-BNNMT"
           }
         ]
       }
@@ -60556,6 +61067,45 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "51/VBHN-BCT",
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Hợp nhất Thông tư hướng dẫn Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ quy định về sản xuất, kinh doanh xăng dầu",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2026-06-09",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "quan_he": {
+        "hop_nhat": [
+          {
+            "so_hieu": "38/2014/TT-BCT"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Thuong-mai/Van-ban-hop-nhat-51-VBHN-BCT-2026-Thong-tu-huong-dan-Nghi-dinh-83-2014-ND-CP-kinh-doanh-xang-dau-722493.aspx",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://tapchicongthuong.vn/bo-cong-thuong-hop-nhat-cac-thong-tu-quy-dinh-ve-kinh-doanh-xang-dau-528135.htm",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 09-06-2026 (TVPL + Tạp chí Công Thương); hợp nhất TT 38/2014/TT-BCT — thành phần đầy đủ chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám 29/10 — hoàn thiện gia đình xăng dầu #240. Canh: Chính phủ yêu cầu NĐ MỚI về kinh doanh xăng dầu (chậm nhất đầu 10/2026) — radar sẽ bắt.",
+      "slug": "51-vbhn-bct-2026",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "510/TB-TCHQ/2018",
@@ -80509,6 +81059,46 @@
       ],
       "toan_van": "chua_co",
       "slug": "906-tb-tchq-2019",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "91/2026/VBHN-TT-BNNMT",
+      "so_hieu_khac": [
+        "91/2026/VBHN-TT-BNNPTNT"
+      ],
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Hợp nhất Thông tư Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Nông nghiệp và Môi trường",
+      "co_quan": "BNNMT",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "quan_he": {
+        "hop_nhat": [
+          {
+            "so_hieu": "27/2026/TT-BNNMT"
+          },
+          {
+            "so_hieu": "44/2026/TT-BNNMT"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://thuvienxuatnhapkhau.com/thong-tu-44-2026-tt-bnnmt-sua-doi-thong-tu-27-2026-tt-bnnmt-ve-danh-muc-san-pham-hang-hoa-co-muc-do-rui-ro-trung-binh-muc-do-rui-ro-cao-thuoc-trach-nhiem-quan-ly-cua-bo-nong-nghiep-va-moi-truong.html",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu hợp nhất 91/2026/VBHN-TT-BNNMT (được dẫn trong bài TXNK về TT 44/2026) — ngày ban hành + thành phần chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Bắt bởi radar công báo 29/10 (issue #251).",
+      "slug": "91-2026-vbhn-tt-bnnmt",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
     },

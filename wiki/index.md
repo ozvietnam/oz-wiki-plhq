@@ -239,6 +239,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[summary/phan-mem-di-kem-hang-nhap]]
 - [[summary/tach-may-dung-cu-hoa-chat]]
 - [[sources/09-vbhn-byt-2025]]
+- [[sources/26-2025-tt-bnnmt]]
 - [[summary/mua-ban-giao-thang-nuoc-thu-ba]]
 - [[sources/40-2025-tt-bct]]
 - [[sources/49-2025-tt-bct]]
