@@ -180,6 +180,8 @@ flowchart LR
   n_43_2024_QH15["43/2024/QH15<br/>còn hiệu lực"]
   n_41_2013_QH13["41/2013/QH13<br/>hết hiệu lực"]
   n_146_2025_QH15["146/2025/QH15<br/>chưa xác minh"]
+  n_44_2026_TT_BNNMT["44/2026/TT-BNNMT<br/>còn hiệu lực"]
+  n_27_2026_TT_BNNMT["27/2026/TT-BNNMT<br/>còn hiệu lực"]
   n_4814_Q__BCA["4814/QĐ-BCA<br/>chưa xác minh"]
   n_8378_Q__BCA["8378/QĐ-BCA<br/>chưa xác minh"]
   n_49_2026_TT_BXD["49/2026/TT-BXD<br/>còn hiệu lực"]
@@ -192,6 +194,7 @@ flowchart LR
   n_73_2021_QH14["73/2021/QH14<br/>còn hiệu lực"]
   n_23_2000_QH10["23/2000/QH10<br/>chưa có trong sổ"]
   n_6266_Q__BCA["6266/QĐ-BCA<br/>chưa xác minh"]
+  n_91_2026_VBHN_TT_BNNMT["91/2026/VBHN-TT-BNNMT<br/>chưa xác minh"]
   n_98_2021_N__CP["98/2021/NĐ-CP<br/>còn hiệu lực"]
   n_07_2023_N__CP["07/2023/NĐ-CP<br/>còn hiệu lực"]
   n_96_2023_N__CP["96/2023/NĐ-CP<br/>chưa có trong sổ"]
@@ -268,6 +271,7 @@ flowchart LR
   n_43_2024_QH15 -->|thay thế từ 2025-01-01| n_41_2013_QH13
   n_43_2024_QH15 -->|sửa đổi một số điều (Luật sửa đổi 15 luật lĩnh vực nông nghiệp, môi trường)| n_146_2025_QH15
   n_44_2024_QH15 -->|sửa đổi Điều 2 (giải thích từ ngữ), Điều 11 (chứng chỉ hành nghề), khoản 4, 5, 9, điểm a và c khoản 18, điểm d và đ khoản 32, khoản 33, 39, 43 Điều 1 từ 2025-07-01| n_105_2016_QH13
+  n_44_2026_TT_BNNMT -->|sửa đổi| n_27_2026_TT_BNNMT
   n_46_2026_N__CP -->|thay thế| n_15_2018_N__CP
   n_4814_Q__BCA -->|bãi bỏ từ 2026-07-28| n_8378_Q__BCA
   n_49_2026_TT_BXD -->|bãi bỏ từ 2026-07-01| n_12_2022_TT_BGTVT
@@ -282,6 +286,8 @@ flowchart LR
   n_82_2022_N__CP -->|sửa đổi| n_113_2017_N__CP
   n_8378_Q__BCA -->|thay thế từ 2025-10-14| n_6266_Q__BCA
   n_90_2024_N__CP -->|sửa đổi| n_57_2022_N__CP
+  n_91_2026_VBHN_TT_BNNMT -->|hợp nhất| n_27_2026_TT_BNNMT
+  n_91_2026_VBHN_TT_BNNMT -->|hợp nhất| n_44_2026_TT_BNNMT
   n_98_2021_N__CP -->|sửa đổi từ 2023-03-15| n_07_2023_N__CP
   n_98_2021_N__CP -->|sửa đổi từ 2023-12-30| n_96_2023_N__CP
 ```
