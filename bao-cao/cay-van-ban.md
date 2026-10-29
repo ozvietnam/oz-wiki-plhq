@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-10-29
 
-2353 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2372 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -38,13 +38,32 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Kiểm tra, giám sát, kiểm soát hải quan `hai-quan/kiem-tra-giam-sat`
 
-5 văn bản, 5 chưa hết hiệu lực.
+24 văn bản, 20 chưa hết hiệu lực.
 
 - 🟢 [128/2026/TT-BTC](../registry/van-ban/128-2026-tt-btc.yaml) — Quy định về kiểm tra, giám sát và quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh và phương tiện vận tải hoạt động trong khu vực cửa khẩu thông minh
 - 🟢 [06/2026/TT-BTC](../registry/van-ban/06-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 13/2015/TT-BTC quy định về kiểm tra, giám sát, tạm dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo vệ quyền sở hữu trí tuệ
+- 🟢 [285/2025/NĐ-CP](../registry/van-ban/285-2025-nd-cp.yaml) — Bãi bỏ một số nghị định của Chính phủ
+- 🟢 [155/VBHN-VPQH](../registry/van-ban/155-vbhn-vpqh-2025.yaml) — Văn bản hợp nhất Luật Sở hữu trí tuệ
+- 🟢 [93/2025/QH15](../registry/van-ban/93-2025-qh15.yaml) — Luật Khoa học, công nghệ và đổi mới sáng tạo
+- 🟢 [46/2024/NĐ-CP](../registry/van-ban/46-2024-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 99/2013/NĐ-CP ngày 29 tháng 8 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp
+- 🟢 [65/2023/NĐ-CP](../registry/van-ban/65-2023-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ
+- 🟢 [17/2023/NĐ-CP](../registry/van-ban/17-2023-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về quyền tác giả, quyền liên quan
+- 🟢 [07/2022/QH15](../registry/van-ban/07-2022-qh15.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ
+- 🟢 [126/2021/NĐ-CP](../registry/van-ban/126-2021-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của các Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp; tiêu chuẩn, đo lường và chất lượng sản phẩm hàng hóa; khoa học và công nghệ; chuyển giao công nghệ; năng lượng, nguyên tử
+- 🟢 [42/2019/QH14](../registry/van-ban/42-2019-qh14.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Kinh doanh bảo hiểm, Luật Sở hữu trí tuệ
+- ⚫ [22/2018/NĐ-CP](../registry/van-ban/22-2018-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Sở hữu trí tuệ về quyền tác giả, quyền liên quan _(hết hiệu lực 2023-04-26)_
+- 🟢 [46/2017/NĐ-CP](../registry/van-ban/46-2017-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 99/2013/NĐ-CP, Nghị định số 105/2006/NĐ-CP và Nghị định số 131/2013/NĐ-CP về xử phạt vi phạm hành chính và bảo vệ quyền sở hữu trí tuệ
+- 🟢 [28/2017/NĐ-CP](../registry/van-ban/28-2017-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 131/2013/NĐ-CP quy định xử phạt vi phạm hành chính về quyền tác giả, quyền liên quan và Nghị định số 158/2013/NĐ-CP quy định xử phạt vi phạm hành chính trong lĩnh vực văn hóa, thể thao, du lịch và quảng cáo
 - 🟢 [38/2015/TT-BTC](../registry/van-ban/38-2015-tt-btc.yaml) — Quy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hoá xuất khẩu, nhập khẩu
 - ❔ [13/2015/TT-BTC](../registry/van-ban/13-2015-tt-btc.yaml) — Quy định về kiểm tra, giám sát, tạm dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo vệ quyền sở hữu trí tuệ; kiểm soát hàng giả và hàng hóa xâm phạm quyền sở hữu trí tuệ
 - 🟢 [08/2015/NĐ-CP](../registry/van-ban/08-2015-nd-cp.yaml) — Quy định chi tiết và biện pháp thi hành Luật Hải quan về thủ tục hải quan, kiểm tra, giám sát, kiểm soát hải quan
+- 🟢 [131/2013/NĐ-CP](../registry/van-ban/131-2013-nd-cp.yaml) — Quy định xử phạt vi phạm hành chính về quyền tác giả, quyền liên quan
+- 🟢 [99/2013/NĐ-CP](../registry/van-ban/99-2013-nd-cp.yaml) — Quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp
+- ⚫ [119/2010/NĐ-CP](../registry/van-ban/119-2010-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 105/2006/NĐ-CP _(hết hiệu lực 2023-04-26)_
+- 🟢 [36/2009/QH12](../registry/van-ban/36-2009-qh12.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ
+- ⚫ [103/2006/NĐ-CP](../registry/van-ban/103-2006-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Sở hữu trí tuệ về sở hữu công nghiệp _(hết hiệu lực 2023-08-23)_
+- ⚫ [105/2006/NĐ-CP](../registry/van-ban/105-2006-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Sở hữu trí tuệ về bảo vệ quyền sở hữu trí tuệ và quản lý nhà nước về sở hữu trí tuệ _(hết hiệu lực 2025-12-30)_
+- 🟢 [50/2005/QH11](../registry/van-ban/50-2005-qh11.yaml) — Luật Sở hữu trí tuệ
 
 ### Trị giá hải quan `hai-quan/tri-gia`
 
