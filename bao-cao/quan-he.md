@@ -157,6 +157,8 @@ flowchart LR
   n_29_2020_TT_BYT["29/2020/TT-BYT<br/>còn hiệu lực"]
   n_29_2025_TT_BKHCN["29/2025/TT-BKHCN<br/>hết hiệu lực"]
   n_02_2024_TT_BTTTT["02/2024/TT-BTTTT<br/>chưa xác minh"]
+  n_32_2026_TT_BYT["32/2026/TT-BYT<br/>còn hiệu lực"]
+  n_12_2025_TT_BYT["12/2025/TT-BYT<br/>chưa có trong sổ"]
   n_33_2026_TT_BCT["33/2026/TT-BCT<br/>còn hiệu lực"]
   n_41_2023_TT_BCT["41/2023/TT-BCT<br/>hết hiệu lực"]
   n_20_2017_TT_BNNPTNT["20/2017/TT-BNNPTNT<br/>còn hiệu lực"]
@@ -249,6 +251,7 @@ flowchart LR
   n_28_2026_TT_BCT -->|bãi bỏ Khoản 1 Điều 2 và Phụ lục 2 (danh mục ATTP) từ 2026-07-17| n_1182_Q__BCT
   n_29_2020_TT_BYT -->|sửa đổi| n_06_2011_TT_BYT
   n_29_2025_TT_BKHCN -->|thay thế từ 2025-12-31| n_02_2024_TT_BTTTT
+  n_32_2026_TT_BYT -->|thay thế các quy định về đăng ký lưu hành thuốc, nguyên liệu làm thuốc từ 2026-10-01| n_12_2025_TT_BYT
   n_33_2026_TT_BCT -->|thay thế| n_41_2023_TT_BCT
   n_34_2018_TT_BNNPTNT -->|sửa đổi từ 2019-01-01| n_33_2014_TT_BNNPTNT
   n_34_2018_TT_BNNPTNT -->|sửa đổi từ 2019-01-01| n_20_2017_TT_BNNPTNT
@@ -386,6 +389,8 @@ flowchart LR
   n_31_2018_TT_BCT["31/2018/TT-BCT<br/>chưa xác minh"]
   n_43_2013_TT_BCT["43/2013/TT-BCT<br/>chưa xác minh"]
   n_48_2026_TT_BCT["48/2026/TT-BCT<br/>còn hiệu lực"]
+  n_51_VBHN_BCT["51/VBHN-BCT<br/>còn hiệu lực"]
+  n_38_2014_TT_BCT["38/2014/TT-BCT<br/>chưa xác minh"]
   n_60_2014_N__CP["60/2014/NĐ-CP<br/>còn hiệu lực"]
   n_80_2023_N__CP["80/2023/NĐ-CP<br/>còn hiệu lực"]
   n_83_2014_N__CP["83/2014/NĐ-CP<br/>còn hiệu lực"]
@@ -416,6 +421,7 @@ flowchart LR
   n_48_2026_TT_BCT -->|bãi bỏ khoản 1 Điều 1 và Phụ lục I (Phụ lục I còn thực hiện chuyển tiếp đến 31-12-2026 — Điều 21 khoản 3) từ 2026-09-05| n_08_2023_TT_BCT
   n_48_2026_TT_BCT -->|bãi bỏ Điều 3 và Phụ lục III từ 2026-09-05| n_41_2019_TT_BCT
   n_48_2026_TT_BCT -->|bãi bỏ Điều 25 từ 2026-09-05| n_42_2019_TT_BCT
+  n_51_VBHN_BCT -->|hợp nhất| n_38_2014_TT_BCT
   n_60_2014_N__CP -->|sửa đổi| n_195_2013_N__CP
   n_80_2023_N__CP -->|sửa đổi| n_83_2014_N__CP
   n_80_2023_N__CP -->|sửa đổi| n_95_2021_N__CP

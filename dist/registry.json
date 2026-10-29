@@ -2,7 +2,7 @@
   "phien_ban": "2026-10-29",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2348,
+  "tong": 2353,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -10363,6 +10363,39 @@
       "toan_van": "chua_co",
       "slug": "1261-tb-tchq-2022",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "127/2026/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Quy định về chỉ tiêu thông tin, mẫu chứng từ khai báo khi làm thủ tục xuất cảnh, nhập cảnh, quá cảnh đối với phương tiện vận tải qua cửa khẩu, cảng hàng không quốc tế",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2026-08-27",
+      "hieu_luc_tu": "2026-10-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/?pageid=27160&docid=219370",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/hoi-dap-phap-luat/tong-hop-cong-van-cuc-thue-va-hai-quan-ban-hanh-thang-102026-day-du-138108312.html",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề đầy đủ, ngày ban hành 27-08-2026, hiệu lực 15-10-2026 (chinhphu docid=219370); Phụ lục I-X chỉ tiêu + mẫu chứng từ; CV 23007/CHQ-GSQL 10/2026 hướng dẫn chuyển tiếp phần mềm (chức năng cũ vẫn xử lý trong lúc rà soát nâng cấp)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Bắt bởi trinh thám bộ ngành (WebSearch tầng 2) 29/10 — mẫu chứng từ khai báo PHƯƠNG TIỆN VẬN TẢI (nhóm Đ70-74 NĐ 08/2015 bị 167/2025 sửa).",
+      "slug": "127-2026-tt-btc",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -27114,6 +27147,38 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "217/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định về hoạt động kiểm tra chuyên ngành",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-08-05",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/khung-chat-luong"
+      ],
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/?pageid=27160&docid=214813&classid=1&typegroupid=4",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-217-2025-ND-CP-hoat-dong-kiem-tra-chuyen-nganh-668132.aspx",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 05-08-2025, hiệu lực kể từ ngày ký (chinhphu docid=214813 + TVPL); khung KTCN sau sắp xếp bộ máy: mục đích, thẩm quyền, nhiệm vụ, quyền hạn — ngày hiệu lực cụ thể chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám 29/10 — khung pháp lý KTCN đứng trên khung 3 mức rủi ro NĐ 37/2026; cần rà quan hệ với NĐ 37/2026 khi đối chiếu toàn văn.",
+      "slug": "217-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "217/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -41466,6 +41531,48 @@
       }
     },
     {
+      "so_hieu": "32/2026/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Quy định việc đăng ký lưu hành thuốc, nguyên liệu làm thuốc",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2026-07-29",
+      "hieu_luc_tu": "2026-10-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "12/2025/TT-BYT",
+            "pham_vi": "các quy định về đăng ký lưu hành thuốc, nguyên liệu làm thuốc",
+            "tu_ngay": "2026-10-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-32-2026-tt-byt-quy-dinh-viec-dang-ky-luu-hanh-thuoc-nguyen-lieu-lam-thuoc--b3c8a3e0-9945-11f1-9dcb-2dbe29d2ab4a",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-32-2026-TT-BYT-dang-ky-luu-hanh-thuoc-nguyen-lieu-lam-thuoc-717455.aspx",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 29-07-2026, hiệu lực 01-10-2026 (vbpl + TVPL); thay quy định đăng ký lưu hành của TT 12/2025/TT-BYT — phạm vi bãi cụ thể chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám 29/10 — thuốc là nhóm KB thuế 30 (3004...) hay hỏi; TT 12/2025 chưa có trong sổ (nạp khi cần truy vết chuỗi).",
+      "slug": "32-2026-tt-byt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "3207/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -49253,7 +49360,15 @@
       },
       "slug": "38-2014-tt-bct",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "51/VBHN-BCT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "38/2014/TT-BCT"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "38/2015/TT-BTC",
@@ -55304,6 +55419,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "43/2026/NQ-CP",
+      "loai": "NGHI_QUYET",
+      "ten": "Về việc kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường, thuế giá trị gia tăng đối với xăng, dầu, nguyên liệu sản xuất xăng, dầu và nhiên liệu bay",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2026-09-30",
+      "hieu_luc_tu": "2026-10-01",
+      "het_hieu_luc_tu": "2026-12-31",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=219739",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://www.mof.gov.vn/tin-tuc-tai-chinh/tin-tuc-su-kien-8/tiep-tuc-keo-dai-thoi-han-uu-dai-thue-xang-dau-den-het-nam-2026",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề đầy đủ, ngày 30-09-2026, hiệu lực 01-10 đến hết 31-12-2026 (vanban docid=219739 + BTC): kéo dài MFN xăng dầu; BVMT xăng (trừ ethanol), diezel, dầu hỏa, mazut, nhiên liệu bay = 0 đồng/lít",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám bộ ngành 29/10 — QUAN TRỌNG cho tra thuế nhóm 2710: MFN ưu đãi + BVMT 0đ chỉ đến 31-12-2026, hết hạn cần NQ kéo dài tiếp (canh).",
+      "slug": "43-2026-nq-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "4319/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -60068,6 +60217,45 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "51/VBHN-BCT",
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Hợp nhất Thông tư hướng dẫn Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ quy định về sản xuất, kinh doanh xăng dầu",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2026-06-09",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "quan_he": {
+        "hop_nhat": [
+          {
+            "so_hieu": "38/2014/TT-BCT"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Thuong-mai/Van-ban-hop-nhat-51-VBHN-BCT-2026-Thong-tu-huong-dan-Nghi-dinh-83-2014-ND-CP-kinh-doanh-xang-dau-722493.aspx",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://tapchicongthuong.vn/bo-cong-thuong-hop-nhat-cac-thong-tu-quy-dinh-ve-kinh-doanh-xang-dau-528135.htm",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 09-06-2026 (TVPL + Tạp chí Công Thương); hợp nhất TT 38/2014/TT-BCT — thành phần đầy đủ chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám 29/10 — hoàn thiện gia đình xăng dầu #240. Canh: Chính phủ yêu cầu NĐ MỚI về kinh doanh xăng dầu (chậm nhất đầu 10/2026) — radar sẽ bắt.",
+      "slug": "51-2026-vbhn-bct",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "510/TB-TCHQ/2018",
