@@ -1,8 +1,8 @@
 {
-  "phien_ban": "2026-10-28",
+  "phien_ban": "2026-10-29",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2338,
+  "tong": 2343,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -1116,6 +1116,55 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "06/2019/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định về quản lý thực vật rừng, động vật rừng nguy cấp, quý, hiếm và thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2019-01-22",
+      "hieu_luc_tu": "2019-03-26",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai",
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "32/2006/NĐ-CP",
+            "tu_ngay": "2019-03-26"
+          }
+        ],
+        "bai_bo": [
+          {
+            "so_hieu": "27/2018/TT-BNNPTNT",
+            "pham_vi": "các quy định về quản lý gỗ, thực vật rừng",
+            "tu_ngay": "2019-03-26"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://kiemlamyenbai.gov.vn/thong-bao-2?userkey=NGHI-DINH-06-2019-ND-CP-VE-QUAN-LY-THUC-VAT-RUNG-DONG-VAT-RUNG-NGUY-CAP-QUY-HIEM-VA-THU",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://dantocmiennui.baotintuc.vn/ban-hanh-nghi-dinh-06-ve-quan-ly-thuc-vat-rung-dong-vat-rung-nguy-cap-quy-hiem-post1327801.html",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 22-01-2019, hiệu lực 26-03-2019; thay NĐ 32/2006/NĐ-CP + bãi các quy định gỗ/TVR của TT 27/2018 (QĐ 398/QĐ-BNN-PC hệ thống hóa + Kiểm lâm Yên Bái)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nạp tham chiếu CITES theo #247 — ca gỗ dùng để check tên khoa học loài (Fagus sylvatica = beech không thuộc CITES). Song song NĐ 102/2020.",
+      "slug": "06-2019-nd-cp",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "06/2026/TT-BTC",
@@ -2678,6 +2727,40 @@
       "toan_van": "chua_co",
       "slug": "1019-tb-tchq-2020",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "102/2020/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định về hệ thống bảo đảm gỗ hợp pháp Việt Nam",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2020-09-01",
+      "hieu_luc_tu": "2020-10-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai",
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "nguon": [
+        {
+          "url": "https://kv10.customs.gov.vn/index.jsp?pageId=3&id=43086&cid=1294",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://thuvienxuatnhapkhau.com/cong-van-7131-tchw-gsql-nam-2020-ve-viec-thuc-hien-nghi-dinh-102-2020-nd-cp-ve-ho-so-go-nhap-khau.html",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 01-09-2020, hiệu lực 30-10-2020 (Cục HQ KV10 + CV 7131/TCHQ-GSQL); VNTLAS — gỗ hợp pháp khai thác trong nước + gỗ nhập khẩu, danh mục gỗ rủi ro NK (điểm d khoản 1 Điều 6); bị sửa bởi một NĐ năm 2024 — số hiệu chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nền của mảng truy xuất nguồn gốc gỗ NK (issue #247 — gia đình lâm nghiệp thứ 8, ca dăm gỗ beech 4401.22.00). Song song với NĐ 06/2019 (CITES) — không thay thế nhau.",
+      "slug": "102-2020-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -32031,6 +32114,48 @@
       }
     },
     {
+      "so_hieu": "26/2022/TT-BNNPTNT",
+      "so_hieu_khac": [
+        "26/2022/TT-BNNMT"
+      ],
+      "loai": "THONG_TU",
+      "ten": "Quy định về quản lý, truy xuất nguồn gốc lâm sản",
+      "co_quan": "BNNPTNT",
+      "ngay_ban_hanh": "2022-12-30",
+      "hieu_luc_tu": "2023-02-15",
+      "het_hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "nguon": [
+        {
+          "url": "https://kiemlamtphcm.org.vn/laws/detail/Thong-tu-26-2025-TT-BNNMT-Quy-dinh-ve-quan-ly-lam-san-xu-ly-lam-san-thuy-san-la-tai-san-duoc-xac-lap-quyen-so-huu-toan-dan-49",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 30-12-2022, hiệu lực 15-02-2023; HẾT hiệu lực 01-07-2025 — bị TT 26/2025/TT-BNNMT thay (nguyên văn Điều 33.3 điểm a)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nơi ban hành Mẫu 01 bảng kê gỗ nguyên liệu nhập khẩu (tầng 2 #247) — nay chuyển sang TT 26/2025.",
+      "slug": "26-2022-tt-bnnptnt",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "26/2025/TT-BNNMT",
+            "quan_he": "thay_the",
+            "so_hieu": "26/2022/TT-BNNPTNT",
+            "tu_ngay": "2025-07-01"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "26/2023/NĐ-CP",
       "loai": "NGHI_DINH",
       "ten": "Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hoá và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan",
@@ -32074,6 +32199,56 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "26/2025/TT-BNNMT",
+      "so_hieu_khac": [
+        "26/2025/TT-BNNPTNT"
+      ],
+      "loai": "THONG_TU",
+      "ten": "Quy định về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân",
+      "co_quan": "BNNMT",
+      "ngay_ban_hanh": "2025-06-24",
+      "hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "26/2022/TT-BNNPTNT",
+            "tu_ngay": "2025-07-01"
+          }
+        ],
+        "bai_bo": [
+          {
+            "so_hieu": "29/2019/TT-BNN",
+            "tu_ngay": "2025-07-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=214350",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Linh-vuc-khac/Thong-tu-26-2025-TT-BNNMT-xu-ly-lam-san-thuy-san-la-tai-san-duoc-xac-lap-quyen-so-huu-toan-dan-662945.aspx",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "nguyên văn toàn văn TVPL 662945: ngày ban hành 24-06-2025, hiệu lực 01-07-2025 (Điều 33.1); Điều 33.3 bãi toàn bộ TT 26/2022 + TT 29/2019/TT-BNN, một phần TT 22/2023 (Đ2, Đ12), TT 12/2019 (khoản 2a Đ6), TT 22/2024 (khoản 2 Đ31); Điều 33.2: phân loại DN (Chương III) hiệu lực 16-05-2026, bãi TT 21/2021 từ đó",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Hiện hành cho truy xuất nguồn gốc lâm sản NK — Mẫu 01 Phụ lục II là Bảng kê lâm sản (tầng 2 #247, xem trang nguồn). Định nghĩa Điều 3.6: dăm gỗ thuộc GỖ NGUYÊN LIỆU. Điều 9.1: hồ sơ gỗ NK theo Điều 7 NĐ 102/2020 (sửa 2024). Có VBHN 04/VBHN-BNNMT 2026 — nạp khi có nhu cầu.",
+      "slug": "26-2025-tt-bnnmt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "26/2026/NĐ-CP",
@@ -32692,6 +32867,46 @@
       "slug": "2699-tb-tchq-2022",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "27/2018/TT-BNNPTNT",
+      "so_hieu_khac": [
+        "27/2018/TT-BNNMT"
+      ],
+      "loai": "THONG_TU",
+      "ten": "Hướng dẫn một số điều của Luật Lâm nghiệp về truy xuất nguồn gốc, khai thác, vận chuyển gỗ",
+      "co_quan": "BNNPTNT",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/ve-viec-cong-bo-ket-qua-he-thong-hoa-van-ban-quy-pham-phap-luat-thuoc-linh-vuc-quan-ly-nha-nuoc-cua-bo-nong-nghiep-va-phat-trien-nong-thon-ky-2019-2023--hhtquyetdinh_224",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề; HẾT hiệu lực từ 26-03-2019 — các quy định gỗ/thực vật rừng bị NĐ 06/2019/NĐ-CP bãi bỏ (QĐ 398/QĐ-BNN-PC hệ thống hóa VB 2019-2023); ngày ban hành chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nạp dạng lịch sử theo #247 (chuỗi truy xuất nguồn gốc: TT 27/2018 → TT 26/2022 → TT 26/2025). Lưu ý: không nhầm với \"TT 27/2023\" — số đó không tồn tại.",
+      "slug": "27-2018-tt-bnnptnt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "06/2019/NĐ-CP",
+            "quan_he": "bai_bo",
+            "so_hieu": "27/2018/TT-BNNPTNT",
+            "pham_vi": "các quy định về quản lý gỗ, thực vật rừng",
+            "tu_ngay": "2019-03-26"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "27/2026/TT-BNNMT",

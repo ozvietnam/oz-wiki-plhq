@@ -1,4 +1,4 @@
-# Quan hệ cũ – mới giữa các văn bản — 2026-10-28
+# Quan hệ cũ – mới giữa các văn bản — 2026-10-29
 
 Mũi tên đi từ văn bản MỚI tới văn bản bị tác động. Sinh tự động bằng `node tools/dung.mjs`.
 
@@ -20,6 +20,9 @@ flowchart LR
 
 ```mermaid
 flowchart LR
+  n_06_2019_N__CP["06/2019/NĐ-CP<br/>còn hiệu lực"]
+  n_32_2006_N__CP["32/2006/NĐ-CP<br/>chưa có trong sổ"]
+  n_27_2018_TT_BNNPTNT["27/2018/TT-BNNPTNT<br/>hết hiệu lực"]
   n_113_2017_N__CP["113/2017/NĐ-CP<br/>hết hiệu lực"]
   n_108_2008_N__CP["108/2008/NĐ-CP<br/>hết hiệu lực"]
   n_26_2011_N__CP["26/2011/NĐ-CP<br/>hết hiệu lực"]
@@ -31,6 +34,8 @@ flowchart LR
   n_49_2015_TT_BCT["49/2015/TT-BCT<br/>hết hiệu lực"]
   n_17_2023_TT_BNNPTNT["17/2023/TT-BNNPTNT<br/>còn hiệu lực"]
   n_924_Q__BNN_TCLN["924/QĐ-BNN-TCLN<br/>hết hiệu lực"]
+  n_06_2019_N__CP -->|thay thế từ 2019-03-26| n_32_2006_N__CP
+  n_06_2019_N__CP -->|bãi bỏ các quy định về quản lý gỗ, thực vật rừng từ 2019-03-26| n_27_2018_TT_BNNPTNT
   n_113_2017_N__CP -->|thay thế từ 2017-11-25| n_108_2008_N__CP
   n_113_2017_N__CP -->|thay thế từ 2017-11-25| n_26_2011_N__CP
   n_1175_Q__TTg -->|sửa đổi Thay thế hoàn toàn 1175/QĐ-TTg từ 2026-01-16| n_126_Q__TTg
@@ -139,6 +144,9 @@ flowchart LR
   n_24_2026_TT_BYT["24/2026/TT-BYT<br/>còn hiệu lực"]
   n_05_2022_TT_BYT["05/2022/TT-BYT<br/>còn hiệu lực"]
   n_59_2025_TT_BYT["59/2025/TT-BYT<br/>chưa xác minh"]
+  n_26_2025_TT_BNNMT["26/2025/TT-BNNMT<br/>còn hiệu lực"]
+  n_26_2022_TT_BNNPTNT["26/2022/TT-BNNPTNT<br/>hết hiệu lực"]
+  n_29_2019_TT_BNN["29/2019/TT-BNN<br/>chưa có trong sổ"]
   n_26_2026_N__CP["26/2026/NĐ-CP<br/>còn hiệu lực"]
   n_113_2017_N__CP["113/2017/NĐ-CP<br/>hết hiệu lực"]
   n_82_2022_N__CP["82/2022/NĐ-CP<br/>hết hiệu lực"]
@@ -229,6 +237,8 @@ flowchart LR
   n_24_2026_TT_BYT -->|sửa đổi| n_05_2022_TT_BYT
   n_24_2026_TT_BYT -->|sửa đổi Điều 8 (lộ trình kiểm định) từ 2026-07-01| n_05_2022_TT_BYT
   n_24_2026_TT_BYT -->|bãi bỏ từ 2026-07-01| n_59_2025_TT_BYT
+  n_26_2025_TT_BNNMT -->|thay thế từ 2025-07-01| n_26_2022_TT_BNNPTNT
+  n_26_2025_TT_BNNMT -->|bãi bỏ từ 2025-07-01| n_29_2019_TT_BNN
   n_26_2026_N__CP -->|thay thế từ 2026-01-17| n_113_2017_N__CP
   n_26_2026_N__CP -->|thay thế từ 2026-01-17| n_82_2022_N__CP
   n_28_2026_N__CP -->|thay thế từ 2026-01-19| n_57_2022_N__CP

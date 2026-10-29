@@ -1,6 +1,6 @@
-# Cây văn bản pháp luật XNK — 2026-10-28
+# Cây văn bản pháp luật XNK — 2026-10-29
 
-2338 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2343 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -2476,19 +2476,24 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Nông nghiệp và Môi trường `kiem-tra-chuyen-nganh/bnnmt`
 
-11 văn bản, 8 chưa hết hiệu lực.
+16 văn bản, 11 chưa hết hiệu lực.
 
 - 🟢 [27/2026/TT-BNNMT](../registry/van-ban/27-2026-tt-bnnmt.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Môi trường
 - 🟢 [22/2026/TT-BNNMT](../registry/van-ban/22-2026-tt-bnnmt.yaml) — Sửa đổi, bổ sung một số Thông tư liên quan phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính thuộc phạm vi quản lý nhà nước của Bộ Nông nghiệp và Môi trường
 - 🟢 [01/2026/TT-BNNMT](../registry/van-ban/01-2026-tt-bnnmt.yaml) — Quy định về kiểm dịch động vật, sản phẩm động vật trên cạn
+- 🟢 [26/2025/TT-BNNMT](../registry/van-ban/26-2025-tt-bnnmt.yaml) — Quy định về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân
 - ❔ [13/2024/TT-BLĐTBXH](../registry/van-ban/13-2024-tt-bldtbxh.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 26/2018/TT-BLĐTBXH ngày 25 tháng 12 năm 2018 của Bộ trưởng Bộ Lao động - Thương binh và Xã hội quy định về quản lý chất lượng sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội
 - 🟢 [17/2023/TT-BNNPTNT](../registry/van-ban/17-2023-tt-bnnptnt.yaml) — Ban hành Bảng mã HS đối với hàng hóa là thực vật rừng, động vật rừng nguy cấp, quý, hiếm và động vật, thực vật thuộc các Phụ lục Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp
+- ⚫ [26/2022/TT-BNNPTNT](../registry/van-ban/26-2022-tt-bnnptnt.yaml) — Quy định về quản lý, truy xuất nguồn gốc lâm sản _(hết hiệu lực 2025-07-01)_
 - ❔ [01/2022/TT-BNNPTNT](../registry/van-ban/01-2022-tt-bnnptnt.yaml) — Sửa đổi, bổ sung một số Thông tư trong lĩnh vực thủy sản
 - ❔ [16/2021/TT-BNNPTNT](../registry/van-ban/16-2021-tt-bnnptnt.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Phát triển nông thôn
 - ⚫ [11/2021/TT-BNNPTNT](../registry/van-ban/11-2021-tt-bnnptnt.yaml) — Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn _(hết hiệu lực 2024-03-20)_
+- 🟢 [102/2020/NĐ-CP](../registry/van-ban/102-2020-nd-cp.yaml) — Quy định về hệ thống bảo đảm gỗ hợp pháp Việt Nam
+- 🟢 [06/2019/NĐ-CP](../registry/van-ban/06-2019-nd-cp.yaml) — Quy định về quản lý thực vật rừng, động vật rừng nguy cấp, quý, hiếm và thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp
 - ❔ [26/2018/TT-BLĐTBXH](../registry/van-ban/26-2018-tt-bldtbxh.yaml) — Quy định về quản lý chất lượng sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội
 - ⚫ [924/QĐ-BNN-TCLN](../registry/van-ban/924-qd-bnn-tcln-2017.yaml) — (chưa có tiêu đề) 924/QĐ-BNN-TCLN _(hết hiệu lực 2024-01-30)_
 - ⚫ [30/2014/TT-BNNPTNT](../registry/van-ban/30-2014-tt-bnnptnt.yaml) — Ban hành Danh mục vật thể thuộc diện kiểm dịch thực vật; Danh mục vật thể thuộc diện kiểm dịch thực vật phải phân tích nguy cơ dịch hại trước khi nhập khẩu vào Việt Nam _(hết hiệu lực 2024-12-15)_
+- ⚫ [27/2018/TT-BNNPTNT](../registry/van-ban/27-2018-tt-bnnptnt.yaml) — Hướng dẫn một số điều của Luật Lâm nghiệp về truy xuất nguồn gốc, khai thác, vận chuyển gỗ
 
 ### Danh mục thuộc Bộ Khoa học và Công nghệ `kiem-tra-chuyen-nganh/bkhcn`
 
@@ -2626,12 +2631,14 @@ _Cần để biết cơ quan nào đang quản lý sau sáp nhập 2025–2026._
 
 ## Chưa phân loại — chờ luồng Hệ thống hoá xếp vào cây `chua-phan-loai`
 
-7 văn bản, 5 chưa hết hiệu lực.
+9 văn bản, 7 chưa hết hiệu lực.
 
 - 🟢 [211/2025/NĐ-CP](../registry/van-ban/211-2025-nd-cp.yaml) — Quy định về hoạt động mật mã dân sự và sửa đổi, bổ sung một số điều của Nghị định số 15/2020/NĐ-CP ngày 03/02/2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bưu chính, viễn thông, tần số vô tuyến điện, công nghệ thông tin và giao dịch điện tử
 - 🟢 [45/2023/TT-BCT](../registry/van-ban/45-2023-tt-bct.yaml) — Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý
 - 🟢 [17/2023/TT-BNNPTNT](../registry/van-ban/17-2023-tt-bnnptnt.yaml) — Ban hành Bảng mã HS đối với hàng hóa là thực vật rừng, động vật rừng nguy cấp, quý, hiếm và động vật, thực vật thuộc các Phụ lục Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp
+- 🟢 [102/2020/NĐ-CP](../registry/van-ban/102-2020-nd-cp.yaml) — Quy định về hệ thống bảo đảm gỗ hợp pháp Việt Nam
 - ⚫ [1175/QĐ-TTg](../registry/van-ban/1175-qd-ttg-2020.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu (EVFTA) _(hết hiệu lực 2026-01-16)_
+- 🟢 [06/2019/NĐ-CP](../registry/van-ban/06-2019-nd-cp.yaml) — Quy định về quản lý thực vật rừng, động vật rừng nguy cấp, quý, hiếm và thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp
 - 🟡 [12/2018/TT-BCT](../registry/van-ban/12-2018-tt-bct.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương _(hết hiệu lực 2026-12-31)_
 - ⚫ [113/2017/NĐ-CP](../registry/van-ban/113-2017-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất _(hết hiệu lực 2026-01-17)_
 - 🟢 [15/2012/QH13](../registry/van-ban/15-2012-qh13.yaml) — Luật Xử lý vi phạm hành chính
