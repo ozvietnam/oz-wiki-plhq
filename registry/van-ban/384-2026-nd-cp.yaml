@@ -1,0 +1,18 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 384/2026/NĐ-CP
+loai: NGHI_DINH
+ten: Quy định xác định xuất xứ Việt Nam đối với hàng hóa sản xuất và lưu thông trong nước
+co_quan: CP
+tinh_trang: CHUA_XAC_MINH
+nhanh:
+  - quan-ly-ngoai-thuong/quy-tac-xuat-xu
+nguon:
+  - url: https://congbao.chinhphu.vn
+    truy_cap: '2026-10-29'
+xac_minh:
+  muc: NGUON_B
+  pham_vi: 'số hiệu, tiêu đề (từ mục lục công báo qua radar 29/10) — ngày ban hành/hiệu lực chưa đối chiếu; cần nâng nguồn A sớm vì xuất xứ là mảng lõi kho'
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-10-29'
+  boi: zcode@ozvietnam
+ghi_chu: 'Bắt bởi radar công báo 29/10 (issue #251) — xuất xứ hàng hoá trong nước, tách bạch với xuất xứ FTA. Nâng NGUON_A ngay khi có ca khách chạm.'
