@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-10-29
 
-2347 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2348 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -2289,7 +2289,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Giấy phép, hạn ngạch, hàng cấm, tạm ngừng `quan-ly-ngoai-thuong/giay-phep`
 
-26 văn bản, 23 chưa hết hiệu lực.
+27 văn bản, 24 chưa hết hiệu lực.
 
 - 🟢 [11/2026/TT-BXD](../registry/van-ban/11-2026-tt-bxd.yaml) — Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu
 - 🟢 [07/2026/TT-BCT](../registry/van-ban/07-2026-tt-bct.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 37/2013/TT-BCT ngày 30 tháng 12 năm 2013 của Bộ trưởng Bộ Công Thương quy định nhập khẩu thuốc lá điếu, xì gà
@@ -2315,6 +2315,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - ❔ [38/2014/TT-BCT](../registry/van-ban/38-2014-tt-bct.yaml) — Quy định chi tiết một số điều của Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ quy định về sản xuất, kinh doanh xăng dầu
 - 🟢 [83/2014/NĐ-CP](../registry/van-ban/83-2014-nd-cp.yaml) — Quy định về sản xuất, kinh doanh xăng dầu
 - 🟡 [37/2013/TT-BCT](../registry/van-ban/37-2013-tt-bct.yaml) — Quy định nhập khẩu thuốc lá điếu, xì gà
+- ❔ [135/2026/VBHN-TT-BCT](../registry/van-ban/135-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư Quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước
 - ❔ [15/2009/TT-BKHCN](../registry/van-ban/15-2009-tt-bkhcn.yaml) — Hướng dẫn trình tự, thủ tục đăng ký việc sử dụng phụ gia không thông dụng để sản xuất, chế biến, pha chế xăng và nhiên liệu
 - ❔ [QCVN 1:2023/BKHCN](../registry/van-ban/qcvn-1-2023-bkhcn.yaml) — Quy chuẩn kỹ thuật quốc gia về chỉ tiêu kỹ thuật xăng sinh học E5, RON 92-95
 
