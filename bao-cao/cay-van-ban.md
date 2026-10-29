@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-10-29
 
-2343 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2344 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -14,10 +14,11 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Luật Hải quan và nghị định quy định chi tiết `hai-quan/luat-khung`
 
-6 văn bản, 5 chưa hết hiệu lực.
+7 văn bản, 6 chưa hết hiệu lực.
 
 - 🔵 [11/2026/QH16](../registry/van-ban/11-2026-qh16.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Hải quan
 - 🟢 [54/VBHN-VPQH](../registry/van-ban/54-vbhn-vpqh.yaml) — Văn bản hợp nhất Luật Hải quan
+- ❔ [35/2018/QH14](../registry/van-ban/35-2018-qh14.yaml) — Luật sửa đổi, bổ sung một số điều của các Luật có liên quan đến quy hoạch
 - ⚫ [59/2018/NĐ-CP](../registry/van-ban/59-2018-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định 08/2015/NĐ-CP _(hết hiệu lực 2025-08-15)_
 - 🟢 [08/2015/NĐ-CP](../registry/van-ban/08-2015-nd-cp.yaml) — Quy định chi tiết và biện pháp thi hành Luật Hải quan về thủ tục hải quan, kiểm tra, giám sát, kiểm soát hải quan
 - 🟢 [54/2014/QH13](../registry/van-ban/54-2014-qh13.yaml) — Luật Hải quan
