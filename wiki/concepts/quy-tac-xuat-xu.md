@@ -1,17 +1,21 @@
 ---
 id: quy-tac-xuat-xu
-title: "Quy tắc xuất xứ trong các FTA mà Việt Nam tham gia"
+title: Quy tắc xuất xứ trong các FTA mà Việt Nam tham gia
 type: concept
 created: 2026-10-09
-updated: 2026-10-09
+updated: 2026-10-30
 key_sources:
   - 126-qd-ttg-2026
   - 127-qd-ttg-2026
   - 328-qd-ttg-2022
+  - 755-tchq-gsql-2020
 related_concepts:
   - co-quan-dau-moi-fta
 confidence: medium
-tags: [xuat-xu, fta, quy-tac]
+tags:
+  - xuat-xu
+  - fta
+  - quy-tac
 ---
 
 ## Definition
@@ -54,6 +58,7 @@ Khi muốn hưởng thuế ưu đãi FTA, kiểm tra theo thứ tự:
 - [[sources/126-qd-ttg-2026]] — QĐ 126 EVFTA
 - [[sources/127-qd-ttg-2026]] — QĐ 127 CPTPP
 - [[sources/328-qd-ttg-2022]] — QĐ 328 RCEP
+- [[sources/755-tchq-gsql-2020]] — CV 755/TCHQ-GSQL (2020): thủ đoạn gian lận, giả mạo xuất xứ phát hiện qua kiểm tra (nội dung về xuất xứ được CV 17552/CHQ-GSQL năm 2026 thay thế, theo nguồn bậc B)
 
 ## Notes
 
