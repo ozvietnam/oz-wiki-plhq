@@ -67,6 +67,8 @@ flowchart LR
   n_131_2013_N__CP["131/2013/NĐ-CP<br/>còn hiệu lực"]
   n_47_2009_N__CP["47/2009/NĐ-CP<br/>chưa có trong sổ"]
   n_109_2011_N__CP["109/2011/NĐ-CP<br/>chưa có trong sổ"]
+  n_154_2026_TT_BTC["154/2026/TT-BTC<br/>chưa có hiệu lực"]
+  n_80_2019_TT_BTC["80/2019/TT-BTC<br/>còn hiệu lực"]
   n_155_VBHN_VPQH["155/VBHN-VPQH<br/>còn hiệu lực"]
   n_36_2009_QH12["36/2009/QH12<br/>còn hiệu lực"]
   n_42_2019_QH14["42/2019/QH14<br/>còn hiệu lực"]
@@ -104,6 +106,7 @@ flowchart LR
   n_126_2021_N__CP -->|sửa đổi từ 2022-03-01| n_99_2013_N__CP
   n_131_2013_N__CP -->|thay thế từ 2013-12-15| n_47_2009_N__CP
   n_131_2013_N__CP -->|thay thế từ 2013-12-15| n_109_2011_N__CP
+  n_154_2026_TT_BTC -->|sửa đổi từ 2027-01-01| n_80_2019_TT_BTC
   n_155_VBHN_VPQH -->|hợp nhất| n_50_2005_QH11
   n_155_VBHN_VPQH -->|hợp nhất| n_36_2009_QH12
   n_155_VBHN_VPQH -->|hợp nhất| n_42_2019_QH14
@@ -457,6 +460,8 @@ flowchart LR
   n_51_VBHN_BCT["51/VBHN-BCT<br/>còn hiệu lực"]
   n_38_2014_TT_BCT["38/2014/TT-BCT<br/>chưa xác minh"]
   n_60_2014_N__CP["60/2014/NĐ-CP<br/>còn hiệu lực"]
+  n_67_2026_TT_BCT["67/2026/TT-BCT<br/>còn hiệu lực"]
+  n_19_2026_TT_BCT["19/2026/TT-BCT<br/>còn hiệu lực"]
   n_80_2023_N__CP["80/2023/NĐ-CP<br/>còn hiệu lực"]
   n_83_2014_N__CP["83/2014/NĐ-CP<br/>còn hiệu lực"]
   n_95_2021_N__CP["95/2021/NĐ-CP<br/>còn hiệu lực"]
@@ -487,6 +492,7 @@ flowchart LR
   n_48_2026_TT_BCT -->|bãi bỏ Điều 25 từ 2026-09-05| n_42_2019_TT_BCT
   n_51_VBHN_BCT -->|hợp nhất| n_38_2014_TT_BCT
   n_60_2014_N__CP -->|sửa đổi| n_195_2013_N__CP
+  n_67_2026_TT_BCT -->|sửa đổi từ 2026-10-20| n_19_2026_TT_BCT
   n_80_2023_N__CP -->|sửa đổi| n_83_2014_N__CP
   n_80_2023_N__CP -->|sửa đổi| n_95_2021_N__CP
   n_95_2021_N__CP -->|sửa đổi| n_83_2014_N__CP

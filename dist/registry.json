@@ -2,7 +2,7 @@
   "phien_ban": "2026-10-30",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2385,
+  "tong": 2389,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -15074,6 +15074,47 @@
       }
     },
     {
+      "so_hieu": "154/2026/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 80/2019/TT-BTC ngày 15 tháng 11 năm 2019 của Bộ trưởng Bộ Tài chính quy định về thủ tục hải quan, quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu mua gom của người nước ngoài",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2026-10-15",
+      "hieu_luc_tu": "2027-01-01",
+      "tinh_trang": "CHUA_CO_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "80/2019/TT-BTC",
+            "tu_ngay": "2027-01-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220072&classid=1",
+          "truy_cap": "2026-10-30"
+        },
+        {
+          "url": "https://luatvietnam.vn/thue/thong-tu-154-2026-tt-btc-sua-doi-thong-tu-80-2019-tt-btc-ve-thu-tuc-hai-quan-452011-d1.html",
+          "truy_cap": "2026-10-30"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề đầy đủ, ngày ban hành ~15-10-2026, hiệu lực 01-01-2027 (vanban docid=220072); sửa TT 80/2019/TT-BTC — hàng mua gom thương mại biên giới: hồ sơ, thời hạn, địa điểm tập kết, kiểm tra giám sát",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-30",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Radar RSS 30/10 (issue #278). CHUA_CO_HIEU_LUC tới 01-01-2027 — MỐC CANH như TT 142/2026 (16-11-2026) và Luật 11/2026 (01-03-2027).",
+      "slug": "154-2026-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "1547/TB-TCHQ/2024",
       "loai": "THONG_BAO",
       "loai_phan_loai": "XAC_DINH_TRUOC",
@@ -21784,6 +21825,43 @@
       "slug": "19-2024-tt-byt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "19/2026/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2026-04-03",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220090",
+          "truy_cap": "2026-10-30"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 03-04-2026 (dẫn trong tiêu đề TT 67/2026); bị sửa bởi TT 67/2026/TT-BCT từ 20-10-2026 — hiệu lực gốc chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-30",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nền của TT 67/2026 (#278) — gia đình xăng dầu #240. Hợp nhất tại VBHN 135/2026/VBHN-TT-BCT (đã có).",
+      "slug": "19-2026-tt-bct",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "67/2026/TT-BCT",
+            "quan_he": "sua_doi",
+            "so_hieu": "19/2026/TT-BCT",
+            "tu_ngay": "2026-10-20"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "19/TB-TCHQ/2019",
@@ -72782,6 +72860,47 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "67/2026/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 19/2026/TT-BCT ngày 03 tháng 4 năm 2026 của Bộ Công Thương quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2026-10-20",
+      "hieu_luc_tu": "2026-10-20",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "19/2026/TT-BCT",
+            "tu_ngay": "2026-10-20"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-67-2026-tt-bct-470854.htm",
+          "truy_cap": "2026-10-30"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220090",
+          "truy_cap": "2026-10-30"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề đầy đủ, ngày ban hành 20-10-2026, hiệu lực 20-10-2026 (công báo 470854 + vanban docid=220090); sửa TT 19/2026/TT-BCT về tạm ứng Quỹ bình ổn giá xăng dầu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-30",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Radar RSS 30/10 bắt (issue #278) — gia đình xăng dầu #240 (cùng mảng VBHN 135/2026/VBHN-TT-BCT đã có).",
+      "slug": "67-2026-tt-bct",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "6705/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -79186,6 +79305,43 @@
       "slug": "799-tb-tchq-2019",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "80/2019/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Quy định về thủ tục hải quan, quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu mua gom của người nước ngoài",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2019-11-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/thue/thong-tu-154-2026-tt-btc-sua-doi-thong-tu-80-2019-tt-btc-ve-thu-tuc-hai-quan-452011-d1.html",
+          "truy_cap": "2026-10-30"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 15-11-2019 (dẫn trong tiêu đề TT 154/2026); bị sửa bởi TT 154/2026/TT-BTC từ 01-01-2027 — hiệu lực gốc chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-30",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nền của TT 154/2026 (#278) — hàng mua gom thương mại biên giới.",
+      "slug": "80-2019-tt-btc",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "154/2026/TT-BTC",
+            "quan_he": "sua_doi",
+            "so_hieu": "80/2019/TT-BTC",
+            "tu_ngay": "2027-01-01"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "80/2023/NĐ-CP",
