@@ -34064,10 +34064,10 @@
       "danh_muc_hs": {
         "tep": "danh-muc/27-2026-tt-byt.csv",
         "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/27-byt.signed.pdf",
-        "trich_boi": "cursor-agent@ozvietnam",
-        "ngay": "2026-10-12",
-        "da_doi_chieu": false,
-        "ghi_chu": "Bảng CSV sẵn có trên main (8 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+        "trich_boi": "zcode@ozvietnam",
+        "ngay": "2026-10-30",
+        "da_doi_chieu": true,
+        "ghi_chu": "Phụ lục TT không in mã HS — dẫn chiếu 15/2024/TT-BYT + 31/2022/TT-BTC. Đã soát Phụ lục nguyên văn (8 nhóm) và nội suy mã theo 15/2024: nhóm 5 nhựa 6 mã (3923.10/21/30/90, 3924.10.10/99), nhóm 6 cao su 1 mã (4014.90.10). Nhóm 1-4 (dinh dưỡng trẻ em), 7 (nước đóng chai), 8 (nước đá) giữ ma_hs trống chờ bảng 31/2022/TT-BTC — TODO nạp sau."
       },
       "xac_minh": {
         "muc": "NGUON_A",
@@ -34080,7 +34080,7 @@
           "datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/27-byt.signed.pdf (toàn văn 5 trang, text layer)"
         ]
       },
-      "ghi_chu": "Phụ lục KHÔNG in mã HS trực tiếp: 8 nhóm dẫn chiếu 15/2024/TT-BYT (và 31/2022/TT-BTC); ma_hs để trống, dan_chieu=15/2024/TT-BYT.",
+      "ghi_chu": "ĐỌC NGUYÊN VĂN Phụ lục 30/10: đúng 8 nhóm, QCVN gắn từng nhóm — nhựa QCVN 12-1:2011/BYT, cao su QCVN 12-2:2011/BYT, nước đóng chai QCVN 6-1:2010/BYT, dinh dưỡng trẻ em QCVN 11-1/112/113/114:2012. LƯU Ý: THỦY TINH/gốm sứ tráng men (QCVN 12-4:2015/BYT) KHÔNG thuộc danh mục rủi ro trung bình này — từ 01/7/2026 không bị kiểm tra chuyên ngành tại cửa khẩu theo khung NĐ 37/2026; chỉ còn giám sát lưu thông nội địa.",
       "toan_van": "raw/download/datafiles.chinhphu.vn/27-2026-tt-byt.pdf",
       "slug": "27-2026-tt-byt",
       "bac_nguon_cao_nhat": "A",
