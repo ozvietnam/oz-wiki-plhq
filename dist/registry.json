@@ -2,7 +2,7 @@
   "phien_ban": "2026-10-30",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2377,
+  "tong": 2381,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -2277,6 +2277,38 @@
       "toan_van": "chua_co",
       "slug": "10-tb-tchq-2020",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "100/2026/VBHN-TT-BNNMT",
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Hợp nhất Danh mục đối tượng kiểm dịch thực vật",
+      "co_quan": "BNNMT",
+      "ngay_ban_hanh": "2026-10-20",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.laocai.gov.vn/van-ban-sao-y/sao-y-van-ban-hop-nhat-so-100-2026-vbhn-tt-bnnmt-ngay-20-10-2026-cua-bo-truong-bo-nong-nghiep-va-1622976",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://mae.gov.vn/van-ban-phap-luat.htm",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tên, ngày ban hành 20-10-2026 (bản sao y tỉnh Lào Cai; chỉ mục mae.gov.vn). Danh mục đối tượng KDTV — trực tiếp vụ nhóm 4401 dăm gỗ và hàng gỗ NK",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh sát WebSearch trạm BNNMT đêm 29/10. Danh mục đối tượng KDTV là căn cứ bắt buộc nhóm 4401 (bảng kê Mẫu 01) — cần nạp toàn văn khi nguồn chính thống mở file.",
+      "slug": "100-2026-vbhn-tt-bnnmt",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -10812,7 +10844,8 @@
       "co_quan": "CP",
       "ngay_ban_hanh": "2020-10-19",
       "hieu_luc_tu": "2020-12-10",
-      "tinh_trang": "CON_HIEU_LUC",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "xu-phat"
       ],
@@ -10828,7 +10861,7 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, trích yếu, ngày ban hành 19-10-2020 và ngày có hiệu lực 10-12-2020 trên vanban.chinhphu.vn",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành 19-10-2020 và ngày có hiệu lực 10-12-2020 trên vanban.chinhphu.vn; cập nhật 29-10-2026: hết hiệu lực 01-07-2026 — bị 169/2026/NĐ-CP thay thế toàn bộ (bản tin KTTT, xem entry 169-2026-nd-cp.yaml)",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-10-04",
         "boi": "cursor-agent@ozvietnam"
@@ -10838,6 +10871,15 @@
       "slug": "128-2020-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "169/2026/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "128/2020/NĐ-CP",
+            "pham_vi": "toàn bộ",
+            "can_cu": "Bản tin Tap chí Kinh tế Tài chính (thuehaiquan.tapchikinhtetaichinh.vn, 16 thông tư/nghị định XNK có hiệu lực): \"Nghị định 169/2026/NĐ-CP – Xử phạt vi phạm hành chính trong lĩnh vực hải quan, hiệu lực từ 01/7/2026, thay thế Nghị định 128/2020/NĐ-CP\". Đối chiếu mốc trong bài — chưa đọc nguyên văn điều khoản."
+          }
+        ],
         "duoc_huong_dan_boi": [
           {
             "tu": "90/2020/TT-BTC",
@@ -16576,6 +16618,43 @@
       ],
       "toan_van": "chua_co",
       "slug": "1673-tb-tchq-2020",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "169/2026/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định xử phạt vi phạm hành chính trong lĩnh vực hải quan",
+      "co_quan": "CP",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "xu-phat"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "128/2020/NĐ-CP",
+            "pham_vi": "toàn bộ",
+            "can_cu": "Bản tin Tap chí Kinh tế Tài chính (thuehaiquan.tapchikinhtetaichinh.vn, 16 thông tư/nghị định XNK có hiệu lực): \"Nghị định 169/2026/NĐ-CP – Xử phạt vi phạm hành chính trong lĩnh vực hải quan, hiệu lực từ 01/7/2026, thay thế Nghị định 128/2020/NĐ-CP\". Đối chiếu mốc trong bài — chưa đọc nguyên văn điều khoản."
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://thuehaiquan.tapchikinhtetaichinh.vn/16-thong-tu-nghi-dinh-van-ban-lien-quan-den-linh-vuc-xuat-nhap-khau-logistics-chinh-thuc-co-hieu-luc-160552.html",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tên, hiệu lực 01-07-2026, quan hệ thay thế 128/2020/NĐ-CP theo bản tin KTTT (1 nguồn — cần đối chiếu công báo/vanban.chinhphu.vn để lên NGUON_A)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh sát WebSearch trạm CP đêm 29/10. Đã kéo 128/2020/NĐ-CP trong sổ sang HET_HIEU_LUC 01-07-2026 theo quan hệ này. Thiếu ngày ban hành + toàn văn — nạp bổ sung khi công bố chính thức trên vanban.chinhphu.vn.",
+      "slug": "169-2026-nd-cp",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
     },
@@ -80608,6 +80687,39 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "86/2026/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Quy định về quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2026-06-30",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=218821&classid=1&typegroupid=6",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Thong-tu-86-2026-TT-BTC-quan-ly-thue-doi-voi-hang-hoa-xuat-khau-nhap-khau-699140.aspx",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tên, ngày ban hành 30-06-2026, hiệu lực 01-07-2026 (vanban.chinhphu.vn); bản tin TVPL cho biết hướng dẫn Luật Quản lý thuế 108/2025, không đổi mức thuế suất",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh sát WebSearch trạm BTC đêm 29/10. CHƯA có điều khoản thay thế được đối chiếu — chưa thấy nguồn nào nói thay TT 39/2015 (trị giá hải quan là lĩnh vực khác). Cần nạp toàn văn (PDF 313 trang trên TVPL) để bóc quan hệ với TT 39/2015, TT 65/2024 và mốc hoàn thuế Điều 11/31.",
+      "slug": "86-2026-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "860/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -82673,6 +82785,38 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "99/2026/VBHN-TT-BNNMT",
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Hợp nhất Thông tư quy định hồ sơ nghiệp vụ kiểm dịch thực vật",
+      "co_quan": "BNNMT",
+      "ngay_ban_hanh": "2026-10-20",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich"
+      ],
+      "nguon": [
+        {
+          "url": "https://chicucttbvtvhcm.gov.vn/thong-tin-hoat-dong/van-ban-hop-nhat-99-2026-vbhn-tt-bnnmt-hop-nhat-thong-tu-quy-dinh-ho-so-nghiep-vu-kiem-dich-thuc-vat-1845.html",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://luatvietnam.vn/nong-nghiep/van-ban-hop-nhat-99-2026-vbhn-tt-bnnmt-2026-quy-dinh-ho-so-nghiep-vu-kiem-dich-thuc-vat-451843-d5.html",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tên, ngày ban hành 20-10-2026 (Chi cục KDTV TP.HCM; TVPL index). Nguồn không nêu số hiệu Thông tư gốc được hợp nhất — cần tải PDF để bóc chuỗi (nghi ngờ là bản hợp nhất mới hơn của chuỗi 06/VBHN-BNNPTNT → 19/VBHN-BNNPTNT về KDTV)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh sát WebSearch trạm BNNMT đêm 29/10. Liên quan gia đình KDTV wiki",
+      "slug": "99-2026-vbhn-tt-bnnmt",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "99/TB-TCHQ/2022",
