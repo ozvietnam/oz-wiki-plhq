@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-30",
-  "tong": 4924,
+  "tong": 4951,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -53,6 +53,15 @@
       "tieuDe": "Chưa có trong sổ: 109/2011/NĐ-CP",
       "muc_tieu": "109/2011/NĐ-CP",
       "viec": "Tạo registry/van-ban/ cho 109/2011/NĐ-CP (được nhắc bởi 131/2013/NĐ-CP (thay_the)). Dùng: node tools/them-van-ban.mjs \"109/2011/NĐ-CP\"",
+      "luong": "he-thong-hoa",
+      "trongSo": 0
+    },
+    {
+      "ma": "THIEU_VAN_BAN",
+      "muc": "Cao",
+      "tieuDe": "Chưa có trong sổ: 1671/QĐ-TCHQ",
+      "muc_tieu": "1671/QĐ-TCHQ",
+      "viec": "Tạo registry/van-ban/ cho 1671/QĐ-TCHQ (được nhắc bởi 1628/QĐ-TCHQ (thay_the)). Dùng: node tools/them-van-ban.mjs \"1671/QĐ-TCHQ\"",
       "luong": "he-thong-hoa",
       "trongSo": 0
     },
@@ -116,6 +125,24 @@
       "tieuDe": "Chưa có trong sổ: 23/2000/QH10",
       "muc_tieu": "23/2000/QH10",
       "viec": "Tạo registry/van-ban/ cho 23/2000/QH10 (được nhắc bởi 73/2021/QH14 (thay_the)). Dùng: node tools/them-van-ban.mjs \"23/2000/QH10\"",
+      "luong": "he-thong-hoa",
+      "trongSo": 0
+    },
+    {
+      "ma": "THIEU_VAN_BAN",
+      "muc": "Cao",
+      "tieuDe": "Chưa có trong sổ: 464/QĐ-BTC",
+      "muc_tieu": "464/QĐ-BTC",
+      "viec": "Tạo registry/van-ban/ cho 464/QĐ-BTC (được nhắc bởi 81/2019/TT-BTC (bai_bo)). Dùng: node tools/them-van-ban.mjs \"464/QĐ-BTC\"",
+      "luong": "he-thong-hoa",
+      "trongSo": 0
+    },
+    {
+      "ma": "THIEU_VAN_BAN",
+      "muc": "Cao",
+      "tieuDe": "Chưa có trong sổ: 465/QĐ-BTC",
+      "muc_tieu": "465/QĐ-BTC",
+      "viec": "Tạo registry/van-ban/ cho 465/QĐ-BTC (được nhắc bởi 81/2019/TT-BTC (bai_bo)). Dùng: node tools/them-van-ban.mjs \"465/QĐ-BTC\"",
       "luong": "he-thong-hoa",
       "trongSo": 0
     },
@@ -4806,15 +4833,6 @@
       "muc_tieu": "13/2008/QH12",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"13/2008/QH12\" --ghi",
       "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "13/2015/TT-BTC: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
-      "muc_tieu": "13/2015/TT-BTC",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
       "trongSo": 0
     },
     {
@@ -10359,15 +10377,6 @@
       "muc_tieu": "1921/QĐ-TCHQ",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "1921/QĐ-TCHQ: chưa có toàn văn trong raw/",
-      "muc_tieu": "1921/QĐ-TCHQ",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"1921/QĐ-TCHQ\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -41036,6 +41045,15 @@
     {
       "ma": "WIKI_NHAC_CHUA_DANG_KY",
       "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 4023/QĐ-TCHQ nhưng sổ chưa có",
+      "muc_tieu": "4023/QĐ-TCHQ",
+      "viec": "Thêm vào sổ (wiki/concepts/phan-loai-ma-hs.md, wiki/sources/1628-qd-tchq.md, wiki/summary/khung-thu-tuc-hai-quan.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
       "tieuDe": "Wiki nhắc 13/NQ-CP nhưng sổ chưa có",
       "muc_tieu": "13/NQ-CP",
       "viec": "Thêm vào sổ (wiki/concepts/rcep.md, wiki/sources/328-qd-ttg-2022.md).",
@@ -41084,6 +41102,15 @@
       "tieuDe": "Wiki nhắc 31/2020/TT-BCT nhưng sổ chưa có",
       "muc_tieu": "31/2020/TT-BCT",
       "viec": "Thêm vào sổ (wiki/concepts/xuat-xu-fta.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 101/2016/NĐ-CP nhưng sổ chưa có",
+      "muc_tieu": "101/2016/NĐ-CP",
+      "viec": "Thêm vào sổ (wiki/log.md, wiki/sources/81-2019-tt-btc.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },
@@ -41156,6 +41183,24 @@
       "tieuDe": "Wiki nhắc 58/2005/QH11 nhưng sổ chưa có",
       "muc_tieu": "58/2005/QH11",
       "viec": "Thêm vào sổ (wiki/sources/02-2011-qh13.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 138/2019/TT-BTC nhưng sổ chưa có",
+      "muc_tieu": "138/2019/TT-BTC",
+      "viec": "Thêm vào sổ (wiki/sources/06-2024-tt-btc.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 78/2019/QH14 nhưng sổ chưa có",
+      "muc_tieu": "78/2019/QH14",
+      "viec": "Thêm vào sổ (wiki/sources/06-2024-tt-btc.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },
@@ -41585,6 +41630,96 @@
     {
       "ma": "WIKI_NHAC_CHUA_DANG_KY",
       "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 1671/QĐ-TCHQ nhưng sổ chưa có",
+      "muc_tieu": "1671/QĐ-TCHQ",
+      "viec": "Thêm vào sổ (wiki/sources/1628-qd-tchq.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 79/2009/TT-BTC nhưng sổ chưa có",
+      "muc_tieu": "79/2009/TT-BTC",
+      "viec": "Thêm vào sổ (wiki/sources/1628-qd-tchq.md, wiki/sources/49-2010-tt-btc.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 29/2001/QH10 nhưng sổ chưa có",
+      "muc_tieu": "29/2001/QH10",
+      "viec": "Thêm vào sổ (wiki/sources/1628-qd-tchq.md, wiki/sources/49-2010-tt-btc.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 42/2005/QH11 nhưng sổ chưa có",
+      "muc_tieu": "42/2005/QH11",
+      "viec": "Thêm vào sổ (wiki/sources/1628-qd-tchq.md, wiki/sources/49-2010-tt-btc.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 154/2005/NĐ-CP nhưng sổ chưa có",
+      "muc_tieu": "154/2005/NĐ-CP",
+      "viec": "Thêm vào sổ (wiki/sources/1628-qd-tchq.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 06/2003/NĐ-CP nhưng sổ chưa có",
+      "muc_tieu": "06/2003/NĐ-CP",
+      "viec": "Thêm vào sổ (wiki/sources/1628-qd-tchq.md, wiki/sources/49-2010-tt-btc.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 02/2010/QĐ-TTg nhưng sổ chưa có",
+      "muc_tieu": "02/2010/QĐ-TTg",
+      "viec": "Thêm vào sổ (wiki/sources/1628-qd-tchq.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 2131/QĐ-TCHQ nhưng sổ chưa có",
+      "muc_tieu": "2131/QĐ-TCHQ",
+      "viec": "Thêm vào sổ (wiki/sources/1628-qd-tchq.md, wiki/summary/khung-thu-tuc-hai-quan.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 100/2014/QĐ-TTg nhưng sổ chưa có",
+      "muc_tieu": "100/2014/QĐ-TTg",
+      "viec": "Thêm vào sổ (wiki/sources/1628-qd-tchq.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 100/QĐ-TTG nhưng sổ chưa có",
+      "muc_tieu": "100/QĐ-TTG",
+      "viec": "Thêm vào sổ (wiki/sources/1628-qd-tchq.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
       "tieuDe": "Wiki nhắc 31/2021/NĐ-CP nhưng sổ chưa có",
       "muc_tieu": "31/2021/NĐ-CP",
       "viec": "Thêm vào sổ (wiki/sources/163-2025-nd-cp.md).",
@@ -41660,6 +41795,24 @@
       "tieuDe": "Wiki nhắc 101/2023/QH15 nhưng sổ chưa có",
       "muc_tieu": "101/2023/QH15",
       "viec": "Thêm vào sổ (wiki/sources/174-2025-nd-cp.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 2134/QĐ-TCHQ nhưng sổ chưa có",
+      "muc_tieu": "2134/QĐ-TCHQ",
+      "viec": "Thêm vào sổ (wiki/sources/1921-qd-tchq.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 2135/QĐ-TCHQ nhưng sổ chưa có",
+      "muc_tieu": "2135/QĐ-TCHQ",
+      "viec": "Thêm vào sổ (wiki/sources/1921-qd-tchq.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },
@@ -41882,6 +42035,78 @@
     {
       "ma": "WIKI_NHAC_CHUA_DANG_KY",
       "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 85/2003/TT-BTC nhưng sổ chưa có",
+      "muc_tieu": "85/2003/TT-BTC",
+      "viec": "Thêm vào sổ (wiki/sources/49-2010-tt-btc.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 27/2008/QH12 nhưng sổ chưa có",
+      "muc_tieu": "27/2008/QH12",
+      "viec": "Thêm vào sổ (wiki/sources/49-2010-tt-btc.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 78/2006/QH11 nhưng sổ chưa có",
+      "muc_tieu": "78/2006/QH11",
+      "viec": "Thêm vào sổ (wiki/sources/49-2010-tt-btc.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 49/QĐ-CTN nhưng sổ chưa có",
+      "muc_tieu": "49/QĐ-CTN",
+      "viec": "Thêm vào sổ (wiki/sources/49-2010-tt-btc.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 118/2008/NĐ-CP nhưng sổ chưa có",
+      "muc_tieu": "118/2008/NĐ-CP",
+      "viec": "Thêm vào sổ (wiki/sources/49-2010-tt-btc.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 128/2013/TT-BTC nhưng sổ chưa có",
+      "muc_tieu": "128/2013/TT-BTC",
+      "viec": "Thêm vào sổ (wiki/sources/49-2010-tt-btc.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 05/2015/TT-BTC nhưng sổ chưa có",
+      "muc_tieu": "05/2015/TT-BTC",
+      "viec": "Thêm vào sổ (wiki/sources/49-2010-tt-btc.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 44/2001/TT-BKHCNMT nhưng sổ chưa có",
+      "muc_tieu": "44/2001/TT-BKHCNMT",
+      "viec": "Thêm vào sổ (wiki/sources/49-2010-tt-btc.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
       "tieuDe": "Wiki nhắc 36/2024/QH15 nhưng sổ chưa có",
       "muc_tieu": "36/2024/QH15",
       "viec": "Thêm vào sổ (wiki/sources/49-2026-tt-bxd.md).",
@@ -42035,6 +42260,33 @@
     {
       "ma": "WIKI_NHAC_CHUA_DANG_KY",
       "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 464/QĐ-BTC nhưng sổ chưa có",
+      "muc_tieu": "464/QĐ-BTC",
+      "viec": "Thêm vào sổ (wiki/sources/81-2019-tt-btc.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 465/QĐ-BTC nhưng sổ chưa có",
+      "muc_tieu": "465/QĐ-BTC",
+      "viec": "Thêm vào sổ (wiki/sources/81-2019-tt-btc.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 17/2015/TT-BTC nhưng sổ chưa có",
+      "muc_tieu": "17/2015/TT-BTC",
+      "viec": "Thêm vào sổ (wiki/sources/81-2019-tt-btc.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
       "tieuDe": "Wiki nhắc 13/2025/NĐ-CP nhưng sổ chưa có",
       "muc_tieu": "13/2025/NĐ-CP",
       "viec": "Thêm vào sổ (wiki/sources/82-2022-nd-cp.md).",
@@ -42102,15 +42354,6 @@
       "muc_tieu": "595/QĐ-BYT",
       "viec": "Thêm vào sổ (wiki/summary/my-pham-gia-dinh.md).",
       "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "DANH_MUC_CHUA_TRICH",
-      "muc": "Vừa",
-      "tieuDe": "Chưa trích bảng mã HS: 02/2018/TT-BCT",
-      "muc_tieu": "02/2018/TT-BCT",
-      "viec": "Văn bản danh mục chưa có danh-muc/02-2018-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
-      "luong": "danh-muc-hs",
       "trongSo": 0
     },
     {
