@@ -1,0 +1,38 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 49/2010/TT-BTC
+loai: THONG_TU
+ten: Hướng dẫn việc phân loại, áp dụng mức thuế đối với hàng hóa xuất khẩu, nhập khẩu
+co_quan: BTC
+ngay_ban_hanh: '2010-04-12'
+hieu_luc_tu: '2010-05-27'
+het_hieu_luc_tu: '2015-03-16'
+tinh_trang: HET_HIEU_LUC
+nhanh:
+  - phan-loai-hs/quy-trinh-phan-loai
+nguon:
+  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-49-2010-tt-btc-huong-dan-viec-phan-loai-ap-dung-muc-thue-doi-voi-hang-hoa-xuat-khau-nhap-khau--25288
+    truy_cap: '2026-10-28'
+toan_van: raw/download/vbpl.vn/49-2010-tt-btc-noi-dung.txt
+xac_minh:
+  muc: NGUON_A
+  pham_vi: >-
+    CSDLQG về pháp luật (Bộ Tư pháp) — vbpl.vn, đọc ngày 28-10-2026: số hiệu 49/2010/TT-BTC,
+    ngày ban hành 12-04-2010, ngày hiệu lực 27-05-2010, ngày hết hiệu lực 16-03-2015, trạng thái
+    "Hết hiệu lực toàn bộ" (effStatus HHL); trường applicationNote ghi "Bị bãi bỏ bởi Thông tư
+    14/2015/TT-BTC". Người ký: Đỗ Hoàng Anh Tuấn, Thứ trưởng Bộ Tài chính. Đã đọc toàn văn
+    (31 điều + phụ lục) từ CSDLQG; Điều 31.1 nguyên văn: "Thông tư này có hiệu lực thi hành sau
+    45 ngày kể từ ngày ký, thay thế Thông tư số 85/2003/TT-BTC ngày 29 tháng 08 năm 2003 của Bộ
+    Tài chính và các văn bản hướng dẫn trước đây của Bộ Tài chính trái với Thông tư này."
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-28'
+  boi: zcode@ozvietnam
+ghi_chu: >-
+  Nạp theo issue #87 (PR #1, vai trò "phân loại HS, áp mức thuế"). Văn bản nền tảng đầu tiên của
+  Bộ Tài chính về phân loại hàng hoá + áp dụng mức thuế, định nghĩa 4 khái niệm nền: "Phân tích,
+  phân loại", "phân loại trước" (Điều 2.3-2.4), "Cơ sở dữ liệu phân loại hàng hoá, áp dụng mức
+  thuế" (Điều 2.5). Đã bị bãi bỏ bởi TT 14/2015/TT-BTC (Điều 16.1) — chiều đi ghi ở văn bản mới
+  (registry/van-ban/14-2015-tt-btc.yaml). Chi tiết lịch sử hiệu lực: wiki/sources/49-2010-tt-btc.md
+tu_khoa:
+  - phan-loai-hang-hoa
+  - ap-dung-muc-thue
+  - phan-loai-truoc

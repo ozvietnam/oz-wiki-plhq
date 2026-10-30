@@ -1,0 +1,50 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 1628/QĐ-TCHQ
+loai: QUYET_DINH
+ten: Ban hành Quy chế phân tích, phân loại hàng hóa xuất nhập khẩu trong ngành Hải quan
+co_quan: TCHQ
+ngay_ban_hanh: '2010-07-15'
+hieu_luc_tu: '2010-08-01'
+het_hieu_luc_tu: '2013-12-09'
+tinh_trang: HET_HIEU_LUC
+nhanh:
+  - phan-loai-hs/quy-trinh-phan-loai
+quan_he:
+  thay_the:
+    - so_hieu: 1671/QĐ-TCHQ
+      tu_ngay: '2010-08-01'
+      pham_vi: toàn bộ
+      can_cu: >-
+        Điều 2 nguyên văn: "Quyết định này có hiệu lực kể từ ngày 01/08/2010 và thay thế
+        Quyết định số 1671/QĐ-TCHQ ngày 20/10/2005 của Tổng cục trưởng Tổng cục Hải quan về
+        'Quy chế phân tích, phân loại hàng hóa xuất nhập khẩu trong ngành Hải quan' và các văn bản
+        hướng dẫn thực hiện quy chế theo Quyết định số 1671/QĐ-TCHQ ngày 20/10/2005 nêu trên."
+nguon:
+  - url: https://vbpl.vn/van-ban/chi-tiet/quyet-dinh-so-1628-qd-tchq-ban-hanh-quy-che-phan-tich-phan-loai-hang-hoa-xuat-nhap-khau-trong-nganh-hai-quan--86278
+    truy_cap: '2026-10-28'
+toan_van: raw/download/vbpl.vn/1628-qd-tchq-noi-dung.txt
+xac_minh:
+  muc: NGUON_A
+  pham_vi: >-
+    CSDLQG về pháp luật (Bộ Tư pháp) — vbpl.vn, đọc ngày 28-10-2026: số hiệu 1628/QĐ-TCHQ,
+    tiêu đề, ngày ban hành 15-07-2010, ngày hiệu lực 01-08-2010, ngày hết hiệu lực 09-12-2013,
+    trạng thái "Hết hiệu lực toàn bộ" (effStatus HHL); cơ quan ban hành Tổng cục Hải quan.
+    Đã đọc toàn văn (Quyết định 3 điều + Quy chế 4 chương 14 điều). Người ký: Hoàng Việt Cường,
+    Phó Tổng cục trưởng.
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-28'
+  boi: zcode@ozvietnam
+ghi_chu: >-
+  Nạp theo issue #87 (PR #1, vai trò "quy chế phân loại hàng"). Đây là quy chế của ngành Hải quan về
+  phân tích, phân loại hàng hoá — bên cạnh nhánh "phân loại hàng hoá" của Bộ Tài chính (TT
+  49/2010/TT-BTC rồi TT 14/2015/TT-BTC). Điều 1 quy chế định nghĩa PTPL; Điều 4 quy định đơn
+  vị PTPL là Trung tâm Phân tích, phân loại hàng hoá XNK và các chi nhánh.
+  ĐÃ HẾT HIỆU LỰC từ 09-12-2013. Văn bản thay thế là Quyết định 4023/QĐ-TCHQ ngày
+  09-12-2013 của Tổng cục Hải quan — CHƯA có trong sổ; cần nạp để chốt quan hệ chiều đi. Sau đó
+  còn 2131/QĐ-TCHQ (31-07-2015) → 2999/QĐ-TCHQ (06-09-2017) → 2166/QĐ-TCHQ (04-08-2021) →
+  2169/QĐ-CHQ (31-12-2025, hiện hành từ 01-02-2026). Điều 17.1 TT 14/2015/TT-BTC là căn cứ cho
+  quy chế phân tích để phân loại của ngành Hải quan.
+tu_khoa:
+  - phan-loai-hang-hoa
+  - quy-che
+  - phan-tich-phan-loai

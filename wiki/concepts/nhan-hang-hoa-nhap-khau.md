@@ -1,16 +1,20 @@
 ---
 id: nhan-hang-hoa-nhap-khau
-title: "Nhãn hàng hoá nhập khẩu (điểm mù sau 23/01/2026)"
+title: Nhãn hàng hoá nhập khẩu (điểm mù sau 23/01/2026)
 type: concept
 created: 2026-10-04
-updated: 2026-10-04
-key_sources: []
+updated: 2026-10-30
+key_sources:
+  - 755-tchq-gsql-2020
 related_concepts:
   - muc-do-rui-ro-hang-hoa
   - doc-tinh-trang-hieu-luc
   - kiem-tra-nha-nuoc-an-toan-thuc-pham
 confidence: low
-tags: [nhan-hang-hoa, diem-mu, 2026]
+tags:
+  - nhan-hang-hoa
+  - diem-mu
+  - "2026"
 ---
 
 ## Definition
@@ -28,6 +32,8 @@ Nhãn hàng hoá (kể cả nhãn phụ tiếng Việt cho hàng nhập khẩu) 
 **Cách đọc an toàn:** (1) không dẫn `43/2017/NĐ-CP` / `111/2021/NĐ-CP` như còn hiệu lực sau `2026-01-23`; (2) không khẳng định `37/2026/NĐ-CP` đã thay toàn bộ chế độ nhãn phụ nếu chưa mở nguồn A và trích điều; (3) mở issue điểm mù / luồng hiệu lực + truy vết nguồn khi có ứng viên văn bản mới.
 
 ## Key sources
+
+- [[sources/755-tchq-gsql-2020]] — CV 755/TCHQ-GSQL (2020) nêu các vụ ghi nhãn sai, giả "Made in Vietnam" (mục 3, theo bản dịch bậc C); không phải văn bản quy định nhãn.
 
 Chưa có trang nguồn. Căn cứ quan hệ/hiệu lực: `registry/van-ban/43-2017-nd-cp.yaml`, `111-2021-nd-cp.yaml`, `37-2026-nd-cp.yaml` (mức `NGUON_THU_CAP`).
 
