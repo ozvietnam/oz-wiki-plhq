@@ -78,6 +78,8 @@ flowchart LR
   n_59_2018_N__CP["59/2018/NĐ-CP<br/>hết hiệu lực"]
   n_17_2023_N__CP["17/2023/NĐ-CP<br/>còn hiệu lực"]
   n_22_2018_N__CP["22/2018/NĐ-CP<br/>hết hiệu lực"]
+  n_2079_Q__TCHQ["2079/QĐ-TCHQ<br/>còn hiệu lực"]
+  n_583_Q__TCHQ["583/QĐ-TCHQ<br/>chưa có trong sổ"]
   n_25_2026_TT_BTC["25/2026/TT-BTC<br/>còn hiệu lực"]
   n_12_2015_TT_BTC["12/2015/TT-BTC<br/>chưa có trong sổ"]
   n_2538_Q__TCHQ["2538/QĐ-TCHQ<br/>còn hiệu lực"]
@@ -119,6 +121,7 @@ flowchart LR
   n_17_2023_N__CP -->|thay thế từ 2023-04-26| n_22_2018_N__CP
   n_17_2023_N__CP -->|thay thế từ 2023-04-26| n_119_2010_N__CP
   n_17_2023_N__CP -->|bãi bỏ Phần Bảo vệ quyền trong lĩnh vực quyền tác giả, quyền liên quan từ 2023-04-26| n_105_2006_N__CP
+  n_2079_Q__TCHQ -->|thay thế từ 2021-07-19| n_583_Q__TCHQ
   n_25_2026_TT_BTC -->|sửa đổi từ 2026-05-10| n_12_2015_TT_BTC
   n_2538_Q__TCHQ -->|thay thế từ 2024-11-01| n_1966_Q__TCHQ
   n_28_2017_N__CP -->|sửa đổi từ 2017-05-05| n_131_2013_N__CP
