@@ -8,6 +8,24 @@ hieu_luc_tu: '2026-07-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue
+quan_he:
+  bai_bo:
+    - so_hieu: 06/2021/TT-BTC
+      pham_vi: toàn bộ
+      tu_ngay: '2026-07-01'
+      can_cu: 'Điều 43 khoản 2 TT 86/2026/TT-BTC'
+    - so_hieu: 38/2015/TT-BTC
+      pham_vi: 'Điều 104, 105, 131, 132, 134, 135, 140 (phần miễn thuế)'
+      tu_ngay: '2026-07-01'
+      can_cu: 'Điều 43 khoản 3 điểm a'
+    - so_hieu: 39/2018/TT-BTC
+      pham_vi: 'khoản 64, 65, 67, 68, 71 Điều 1'
+      tu_ngay: '2026-07-01'
+      can_cu: 'Điều 43 khoản 3 điểm b'
+    - so_hieu: 121/2025/TT-BTC
+      pham_vi: 'khoản 58, 60, 61 Điều 1'
+      tu_ngay: '2026-07-01'
+      can_cu: 'Điều 43 khoản 3 điểm c'
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=218821&classid=1&typegroupid=6
     truy_cap: '2026-10-29'

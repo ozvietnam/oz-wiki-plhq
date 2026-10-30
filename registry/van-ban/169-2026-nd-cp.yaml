@@ -16,12 +16,15 @@ quan_he:
         XNK có hiệu lực): "Nghị định 169/2026/NĐ-CP – Xử phạt vi phạm hành chính trong lĩnh vực hải quan,
         hiệu lực từ 01/7/2026, thay thế Nghị định 128/2020/NĐ-CP". Đối chiếu mốc trong bài — chưa đọc nguyên văn điều khoản.
 nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3244&aid=217408&cid=5277
+    truy_cap: '2026-10-30'
   - url: https://thuehaiquan.tapchikinhtetaichinh.vn/16-thong-tu-nghi-dinh-van-ban-lien-quan-den-linh-vuc-xuat-nhap-khau-logistics-chinh-thuc-co-hieu-luc-160552.html
     truy_cap: '2026-10-29'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tên, hiệu lực 01-07-2026, quan hệ thay thế 128/2020/NĐ-CP theo bản tin KTTT (1 nguồn — cần đối chiếu công báo/vanban.chinhphu.vn để lên NGUON_A)'
+  muc: NGUON_A
+  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 15-05-2026, hiệu lực 01-07-2026, thay toàn bộ NĐ 128/2020/NĐ-CP (Tổng cục Hải quan trang chính thức + vanban.chinhphu.vn); 4 chương 40 điều — mức phạt cụ thể chưa đối chiếu'
   hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-29'
+  ngay: '2026-10-30'
   boi: zcode@ozvietnam
+
 ghi_chu: Trinh sát WebSearch trạm CP đêm 29/10. Đã kéo 128/2020/NĐ-CP trong sổ sang HET_HIEU_LUC 01-07-2026 theo quan hệ này. Thiếu ngày ban hành + toàn văn — nạp bổ sung khi công bố chính thức trên vanban.chinhphu.vn.
