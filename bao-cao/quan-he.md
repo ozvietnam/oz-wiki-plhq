@@ -514,6 +514,15 @@ flowchart LR
   n_72_2026_N__CP -->|sửa đổi thuế suất NK ưu đãi một số mặt hàng xăng, dầu từ 2026-03-09| n_26_2023_N__CP
 ```
 
+## Xử phạt vi phạm hành chính, cưỡng chế, khiếu nại
+
+```mermaid
+flowchart LR
+  n_169_2026_N__CP["169/2026/NĐ-CP<br/>còn hiệu lực"]
+  n_128_2020_N__CP["128/2020/NĐ-CP<br/>hết hiệu lực"]
+  n_169_2026_N__CP -->|thay thế toàn bộ| n_128_2020_N__CP
+```
+
 ## Xuất xứ hàng hoá và các hiệp định thương mại tự do
 
 ```mermaid
