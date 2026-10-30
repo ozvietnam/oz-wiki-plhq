@@ -2,7 +2,7 @@
   "phien_ban": "2026-10-30",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2389,
+  "tong": 2392,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -22819,6 +22819,34 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "1920/QĐ-TCHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Ban hành Sổ tay nghiệp vụ thực hiện thủ tục thông quan hàng hóa xuất khẩu, nhập khẩu tại cấp Chi cục Hải quan",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2018-06-28",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "hai-quan/so-tay-nghiep-vu"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Quyet-dinh-1920-QD-TCHQ-2018-So-tay-nghiep-vu-thu-tuc-thong-quan-hang-hoa-xuat-khau-386898.aspx",
+          "truy_cap": "2026-10-30"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 28-06-2018 (TVPL); hiệu lực + quan hệ với QĐ 2538/2024 chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-30",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Gia đình sổ tay hải quan. Cùng ngày 28-06-2018 TCHQ ban hành loạt sổ tay nghiệp vụ (1920 thông quan, 1921 phân loại, 1925 quản lý thuế).",
+      "slug": "1920-qd-tchq-2018",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "1920/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -22992,6 +23020,34 @@
       "toan_van": "chua_co",
       "slug": "1923-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1925/QĐ-TCHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Ban hành Sổ tay nghiệp vụ Quản lý thuế xuất khẩu, thuế nhập khẩu tại cấp Chi cục Hải quan",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2018-06-28",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "hai-quan/so-tay-nghiep-vu"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn",
+          "truy_cap": "2026-10-30"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày 28-06-2018 (TVPL); hiệu lực chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-30",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Gia đình sổ tay hải quan — mảng quản lý thuế cấp Chi cục (thuế XK/NK, miễn giảm hoàn).",
+      "slug": "1925-qd-tchq-2018",
+      "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
     },
     {
@@ -23710,7 +23766,8 @@
       "co_quan": "TCHQ",
       "ngay_ban_hanh": "2015-07-10",
       "hieu_luc_tu": "2015-08-15",
-      "tinh_trang": "CON_HIEU_LUC",
+      "het_hieu_luc_tu": "2024-11-01",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "hai-quan/so-tay-nghiep-vu"
       ],
@@ -23735,7 +23792,16 @@
       "ghi_chu": "Quy trình nghiệp vụ nội bộ TCHQ (5 bước) áp dụng theo TT 38/2015/TT-BTC — điền nhánh so-tay-nghiep-vu. Cần truy vết nguồn A (customs.gov.vn) và rà sửa đổi/thay thế sau 2015.",
       "slug": "1966-qd-tchq",
       "bac_nguon_cao_nhat": "B",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "2538/QĐ-TCHQ",
+            "quan_he": "thay_the",
+            "so_hieu": "1966/QĐ-TCHQ",
+            "tu_ngay": "2024-11-01"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "1968/TB-TCHQ/2018",
@@ -32732,6 +32798,46 @@
       "toan_van": "raw/download/pvtm.gov.vn/2531-qd-bct.pdf",
       "slug": "2531-qd-bct-2024",
       "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "2538/QĐ-TCHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Ban hành Quy trình trình tự thực hiện thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu; hàng hóa vận chuyển chịu sự giám sát hải quan",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2024-11-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/so-tay-nghiep-vu"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "1966/QĐ-TCHQ",
+            "tu_ngay": "2024-11-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn",
+          "truy_cap": "2026-10-30"
+        },
+        {
+          "url": "https://thuvienxuatnhapkhau.com",
+          "truy_cap": "2026-10-30"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 01-11-2024, thay QĐ 1966/QĐ-TCHQ ngày 10-07-2015 (TVPL + TXNK + VASEP); áp dụng khi hệ thống VNACCS/VCIS sự cố theo thông báo TCHQ — quy trình dự phòng/thủ công",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-30",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "HIỆN HÀNH của sổ tay quy trình thủ tục hải quan TCHQ (gia đình sổ tay hải quan — rà 30/10).",
+      "slug": "2538-qd-tchq",
+      "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
     },
     {

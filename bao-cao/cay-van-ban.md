@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-10-30
 
-2389 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2392 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -99,10 +99,13 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung (không phải văn bản quy phạm nhưng thực tế áp dụng)._
 
-2 văn bản, 2 chưa hết hiệu lực.
+5 văn bản, 4 chưa hết hiệu lực.
 
+- 🟢 [2538/QĐ-TCHQ](../registry/van-ban/2538-qd-tchq.yaml) — Ban hành Quy trình trình tự thực hiện thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu; hàng hóa vận chuyển chịu sự giám sát hải quan
+- ❔ [1920/QĐ-TCHQ](../registry/van-ban/1920-qd-tchq-2018.yaml) — Ban hành Sổ tay nghiệp vụ thực hiện thủ tục thông quan hàng hóa xuất khẩu, nhập khẩu tại cấp Chi cục Hải quan
 - ❔ [1921/QĐ-TCHQ](../registry/van-ban/1921-qd-tchq-2018.yaml) — Về việc ban hành Quy trình phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu nhập khẩu
-- 🟢 [1966/QĐ-TCHQ](../registry/van-ban/1966-qd-tchq.yaml) — Ban hành Quy trình thủ tục hải quan đối với hàng hoá xuất khẩu, nhập khẩu
+- ❔ [1925/QĐ-TCHQ](../registry/van-ban/1925-qd-tchq-2018.yaml) — Ban hành Sổ tay nghiệp vụ Quản lý thuế xuất khẩu, thuế nhập khẩu tại cấp Chi cục Hải quan
+- ⚫ [1966/QĐ-TCHQ](../registry/van-ban/1966-qd-tchq.yaml) — Ban hành Quy trình thủ tục hải quan đối với hàng hoá xuất khẩu, nhập khẩu _(hết hiệu lực 2024-11-01)_
 
 ## Thuế xuất khẩu, nhập khẩu và các thuế khác khâu nhập khẩu `thue`
 
