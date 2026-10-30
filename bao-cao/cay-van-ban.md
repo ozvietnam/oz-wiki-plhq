@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-10-30
 
-2393 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2395 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -2409,11 +2409,12 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Kiểm dịch động vật, thực vật, thuỷ sản, y tế `kiem-tra-chuyen-nganh/kiem-dich`
 
-24 văn bản, 21 chưa hết hiệu lực.
+25 văn bản, 22 chưa hết hiệu lực.
 
 - 🟢 [100/2026/VBHN-TT-BNNMT](../registry/van-ban/100-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Danh mục đối tượng kiểm dịch thực vật
 - 🟢 [99/2026/VBHN-TT-BNNMT](../registry/van-ban/99-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư quy định hồ sơ nghiệp vụ kiểm dịch thực vật
 - 🟢 [3445/QĐ-BNNMT](../registry/van-ban/3445-qd-bnnmt-2026.yaml) — Công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực quản lý nhà nước về trồng trọt và bảo vệ thực vật (có thủ tục cấp Giấy chứng nhận kiểm dịch thực vật nhập khẩu)
+- 🟢 [07/2026/TT-BNNMT](../registry/van-ban/07-2026-tt-bnnmt.yaml) — Quy định chi tiết một số điều của Luật Bảo vệ và kiểm dịch thực vật, Luật Trồng trọt và sửa đổi, bổ sung một số thông tư trong lĩnh vực trồng trọt và bảo vệ thực vật
 - 🟢 [01/2026/TT-BNNMT](../registry/van-ban/01-2026-tt-bnnmt.yaml) — Quy định về kiểm dịch động vật, sản phẩm động vật trên cạn
 - 🟢 [35/2025/NĐ-CP](../registry/van-ban/35-2025-nd-cp.yaml) — Nghị định quy định chi tiết thi hành Luật Thú y
 - 🟢 [43/2024/QH15](../registry/van-ban/43-2024-qh15.yaml) — Luật Bảo vệ và kiểm dịch thực vật
@@ -2484,8 +2485,9 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Y tế `kiem-tra-chuyen-nganh/byt`
 
-37 văn bản, 29 chưa hết hiệu lực.
+38 văn bản, 30 chưa hết hiệu lực.
 
+- 🟢 [18/2026/VBHN-QĐ-BYT](../registry/van-ban/18-2026-vbhn-qd-byt.yaml) — Hợp nhất Quyết định hướng dẫn thực hiện Thực hành tốt sản xuất mỹ phẩm ASEAN (ASEAN GMP)
 - 🟢 [32/2026/TT-BYT](../registry/van-ban/32-2026-tt-byt.yaml) — Quy định việc đăng ký lưu hành thuốc, nguyên liệu làm thuốc
 - 🟢 [26/2026/TT-BYT](../registry/van-ban/26-2026-tt-byt.yaml) — Danh mục dược liệu, thuốc cổ truyền theo mức độ rủi ro (rủi ro trung bình)
 - 🟢 [27/2026/TT-BYT](../registry/van-ban/27-2026-tt-byt.yaml) — Ban hành Danh mục thực phẩm; dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm có mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Y tế
