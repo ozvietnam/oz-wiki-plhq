@@ -76,6 +76,8 @@ flowchart LR
   n_59_2018_N__CP["59/2018/NĐ-CP<br/>hết hiệu lực"]
   n_17_2023_N__CP["17/2023/NĐ-CP<br/>còn hiệu lực"]
   n_22_2018_N__CP["22/2018/NĐ-CP<br/>hết hiệu lực"]
+  n_25_2026_TT_BTC["25/2026/TT-BTC<br/>còn hiệu lực"]
+  n_12_2015_TT_BTC["12/2015/TT-BTC<br/>chưa có trong sổ"]
   n_28_2017_N__CP["28/2017/NĐ-CP<br/>còn hiệu lực"]
   n_158_2013_N__CP["158/2013/NĐ-CP<br/>chưa có trong sổ"]
   n_285_2025_N__CP["285/2025/NĐ-CP<br/>còn hiệu lực"]
@@ -112,6 +114,7 @@ flowchart LR
   n_17_2023_N__CP -->|thay thế từ 2023-04-26| n_22_2018_N__CP
   n_17_2023_N__CP -->|thay thế từ 2023-04-26| n_119_2010_N__CP
   n_17_2023_N__CP -->|bãi bỏ Phần Bảo vệ quyền trong lĩnh vực quyền tác giả, quyền liên quan từ 2023-04-26| n_105_2006_N__CP
+  n_25_2026_TT_BTC -->|sửa đổi từ 2026-05-10| n_12_2015_TT_BTC
   n_28_2017_N__CP -->|sửa đổi từ 2017-05-05| n_131_2013_N__CP
   n_28_2017_N__CP -->|sửa đổi từ 2017-05-05| n_158_2013_N__CP
   n_285_2025_N__CP -->|bãi bỏ toàn bộ từ 2025-12-30| n_105_2006_N__CP
@@ -254,6 +257,8 @@ flowchart LR
   n_98_2021_N__CP["98/2021/NĐ-CP<br/>còn hiệu lực"]
   n_07_2023_N__CP["07/2023/NĐ-CP<br/>còn hiệu lực"]
   n_96_2023_N__CP["96/2023/NĐ-CP<br/>chưa có trong sổ"]
+  n_99_2026_VBHN_TT_BNNMT["99/2026/VBHN-TT-BNNMT<br/>còn hiệu lực"]
+  n_20_2021_TT_BNNPTNT["20/2021/TT-BNNPTNT<br/>còn hiệu lực"]
   n_01_2021_TT_BL_TBXH -->|thay thế từ 2021-07-18| n_22_2018_TT_BL_TBXH
   n_03_2024_TT_BNNPTNT -->|bãi bỏ một số quy định từ 2024-05-16| n_34_2018_TT_BNNPTNT
   n_04_2014_TT_BCT -->|bãi bỏ từ 2018-06-15| n_12_2018_TT_BCT
@@ -347,6 +352,7 @@ flowchart LR
   n_91_2026_VBHN_TT_BNNMT -->|hợp nhất| n_44_2026_TT_BNNMT
   n_98_2021_N__CP -->|sửa đổi từ 2023-03-15| n_07_2023_N__CP
   n_98_2021_N__CP -->|sửa đổi từ 2023-12-30| n_96_2023_N__CP
+  n_99_2026_VBHN_TT_BNNMT -->|hợp nhất| n_20_2021_TT_BNNPTNT
 ```
 
 ## Phân loại hàng hoá (mã HS)
@@ -502,6 +508,11 @@ flowchart LR
   n_219_2013_TT_BTC["219/2013/TT-BTC<br/>còn hiệu lực"]
   n_72_2026_N__CP["72/2026/NĐ-CP<br/>còn hiệu lực"]
   n_26_2023_N__CP["26/2023/NĐ-CP<br/>còn hiệu lực"]
+  n_86_2026_TT_BTC["86/2026/TT-BTC<br/>còn hiệu lực"]
+  n_06_2021_TT_BTC["06/2021/TT-BTC<br/>hết hiệu lực"]
+  n_38_2015_TT_BTC["38/2015/TT-BTC<br/>còn hiệu lực"]
+  n_39_2018_TT_BTC["39/2018/TT-BTC<br/>còn hiệu lực"]
+  n_121_2025_TT_BTC["121/2025/TT-BTC<br/>còn hiệu lực"]
   n_107_2016_QH13 -->|thay thế từ 2016-09-01| n_45_2005_QH11
   n_107_2016_QH13 -->|sửa đổi Sửa đổi, bổ sung một số điều về giảm/hoàn thuế từ 2021-01-01| n_18_2021_N__CP
   n_107_2016_QH13 -->|sửa đổi Sửa đổi, bổ sung NĐ 134/2016 (lần 2) từ 2025-01-01| n_182_2025_N__CP
@@ -512,6 +523,10 @@ flowchart LR
   n_26_2015_TT_BTC -->|sửa đổi| n_219_2013_TT_BTC
   n_45_2005_QH11 -->|bãi bỏ từ 2016-09-01| n_107_2016_QH13
   n_72_2026_N__CP -->|sửa đổi thuế suất NK ưu đãi một số mặt hàng xăng, dầu từ 2026-03-09| n_26_2023_N__CP
+  n_86_2026_TT_BTC -->|bãi bỏ toàn bộ từ 2026-07-01| n_06_2021_TT_BTC
+  n_86_2026_TT_BTC -->|bãi bỏ Điều 104, 105, 131, 132, 134, 135, 140 (phần miễn thuế) từ 2026-07-01| n_38_2015_TT_BTC
+  n_86_2026_TT_BTC -->|bãi bỏ khoản 64, 65, 67, 68, 71 Điều 1 từ 2026-07-01| n_39_2018_TT_BTC
+  n_86_2026_TT_BTC -->|bãi bỏ khoản 58, 60, 61 Điều 1 từ 2026-07-01| n_121_2025_TT_BTC
 ```
 
 ## Xử phạt vi phạm hành chính, cưỡng chế, khiếu nại

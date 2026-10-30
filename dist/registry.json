@@ -2,7 +2,7 @@
   "phien_ban": "2026-10-30",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2381,
+  "tong": 2385,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -1165,6 +1165,46 @@
       "slug": "06-2019-nd-cp",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "06/2021/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Hướng dẫn thi hành một số điều của Luật Quản lý thuế ngày 13 tháng 6 năm 2019 về quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2021-01-22",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "nguon": [
+        {
+          "url": "https://cdn.thuvienphapluat.vn/uploads/mst/images/HaiYen/t7-2026/86_2026_TT_BTC_30_06_2026_1.pdf",
+          "truy_cap": "2026-10-30"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 22-01-2021; HẾT hiệu lực toàn bộ từ 01-07-2026 — nguyên văn Điều 43 khoản 2 TT 86/2026/TT-BTC (PDF gốc 313 trang, đã đối chiếu trực tiếp)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-30",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Bị TT 86/2026/TT-BTC thay toàn bộ (đầu việc #275-1).",
+      "slug": "06-2021-tt-btc",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "86/2026/TT-BTC",
+            "quan_he": "bai_bo",
+            "so_hieu": "06/2021/TT-BTC",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 43 khoản 2 TT 86/2026/TT-BTC"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "06/2024/TT-BTC",
@@ -9118,6 +9158,16 @@
             "tu_ngay": "2026-02-01",
             "can_cu": "Điều 1 TT 121/2025/TT-BTC"
           }
+        ],
+        "bi_bai_bo_boi": [
+          {
+            "tu": "86/2026/TT-BTC",
+            "quan_he": "bai_bo",
+            "so_hieu": "121/2025/TT-BTC",
+            "pham_vi": "khoản 58, 60, 61 Điều 1",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 43 khoản 3 điểm c"
+          }
         ]
       }
     },
@@ -16642,20 +16692,24 @@
       },
       "nguon": [
         {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3244&aid=217408&cid=5277",
+          "truy_cap": "2026-10-30"
+        },
+        {
           "url": "https://thuehaiquan.tapchikinhtetaichinh.vn/16-thong-tu-nghi-dinh-van-ban-lien-quan-den-linh-vuc-xuat-nhap-khau-logistics-chinh-thuc-co-hieu-luc-160552.html",
           "truy_cap": "2026-10-29"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tên, hiệu lực 01-07-2026, quan hệ thay thế 128/2020/NĐ-CP theo bản tin KTTT (1 nguồn — cần đối chiếu công báo/vanban.chinhphu.vn để lên NGUON_A)",
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 15-05-2026, hiệu lực 01-07-2026, thay toàn bộ NĐ 128/2020/NĐ-CP (Tổng cục Hải quan trang chính thức + vanban.chinhphu.vn); 4 chương 40 điều — mức phạt cụ thể chưa đối chiếu",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-29",
+        "ngay": "2026-10-30",
         "boi": "zcode@ozvietnam"
       },
       "ghi_chu": "Trinh sát WebSearch trạm CP đêm 29/10. Đã kéo 128/2020/NĐ-CP trong sổ sang HET_HIEU_LUC 01-07-2026 theo quan hệ này. Thiếu ngày ban hành + toàn văn — nạp bổ sung khi công bố chính thức trên vanban.chinhphu.vn.",
       "slug": "169-2026-nd-cp",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -21857,7 +21911,7 @@
         "ngay": "2026-10-28",
         "boi": "zcode@ozvietnam"
       },
-      "ghi_chu": "Mâu thuẫn nguồn đã giải xong 28-10: PDF Cục BVTV liệt kê nguyên văn 3 văn bản sửa đổi 33/2014 (34/2018 + 15/2021 + 03/2024) — nguonluat ghi \"20/2021 + 11/2022\" là tóm tắt SAI (2 thông tư đó không thuộc chuỗi hợp nhất này). \"TT 03\" trong tên file PDF là TT 03/2024, không phải 03/2018.",
+      "ghi_chu": "Trả lời đầu việc #275-2 (30/10): 99/2026/VBHN-TT-BNNMT KHÔNG thay VBHN này — khác dòng hợp nhất (99 = hồ sơ nghiệp vụ, chuỗi TT 20/2021; 19 = trình tự thủ tục, chuỗi TT 33/2014).",
       "slug": "19-vbhn-bnnptnt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -24710,7 +24764,15 @@
       },
       "slug": "20-2021-tt-bnnptnt",
       "bac_nguon_cao_nhat": "C",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "99/2026/VBHN-TT-BNNMT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "20/2021/TT-BNNPTNT"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "20/TB-CHQ/2026",
@@ -32091,6 +32153,47 @@
       ],
       "slug": "25-2018-nd-cp",
       "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "25/2026/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 12/2015/TT-BTC ngày 30 tháng 01 năm 2015 của Bộ trưởng Bộ Tài chính quy định chi tiết về thủ tục cấp Chứng chỉ nghiệp vụ khai hải quan, cấp và thu hồi mã số nhân viên khai hải quan",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2026-03-25",
+      "hieu_luc_tu": "2026-05-10",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "12/2015/TT-BTC",
+            "tu_ngay": "2026-05-10"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn",
+          "truy_cap": "2026-10-30"
+        },
+        {
+          "url": "https://thuvienphapluat.vn",
+          "truy_cap": "2026-10-30"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề đầy đủ, ngày ban hành 25-03-2026, hiệu lực 10-05-2026, sửa TT 12/2015/TT-BTC (chứng chỉ nghiệp vụ KH + mã số NVKH) — cần URL công báo chính xác khi nâng A",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-30",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Đầu việc #275-5: nghiệp vụ khai hải quan (đối tượng: nhân viên khai HQ của khách) — nạp theo giá trị.",
+      "slug": "25-2026-tt-btc",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -46307,6 +46410,39 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "3445/QĐ-BNNMT",
+      "loai": "QUYET_DINH",
+      "ten": "Công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực quản lý nhà nước về trồng trọt và bảo vệ thực vật (có thủ tục cấp Giấy chứng nhận kiểm dịch thực vật nhập khẩu)",
+      "co_quan": "BNNMT",
+      "ngay_ban_hanh": "2026-08-28",
+      "hieu_luc_tu": "2026-09-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn",
+          "truy_cap": "2026-10-30"
+        },
+        {
+          "url": "https://thuvienxuatnhapkhau.com",
+          "truy_cap": "2026-10-30"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 28-08-2026, hiệu lực 01-09-2026; sửa TTHC cấp GCN KDTV nhập khẩu theo hướng đơn giản hoá — nội dung từng bước chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-30",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Bổ sung gia đình KDTV #237 — thủ tục cấp GCN KDTV NK là câu hỏi trực tiếp của khách gỗ/dăm gỗ.",
+      "slug": "3445-qd-bnnmt-2026",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "3453/QĐ-BCT",
       "loai": "QUYET_DINH",
       "ten": "Áp dụng biện pháp chống bán phá giá chính thức đối với một số sản phẩm tháp điện gió có xuất xứ từ Cộng hòa nhân dân Trung Hoa",
@@ -50284,6 +50420,16 @@
             "quan_he": "huong_dan",
             "so_hieu": "38/2015/TT-BTC"
           }
+        ],
+        "bi_bai_bo_boi": [
+          {
+            "tu": "86/2026/TT-BTC",
+            "quan_he": "bai_bo",
+            "so_hieu": "38/2015/TT-BTC",
+            "pham_vi": "Điều 104, 105, 131, 132, 134, 135, 140 (phần miễn thuế)",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 43 khoản 3 điểm a"
+          }
         ]
       }
     },
@@ -51550,6 +51696,16 @@
             "pham_vi": "Bổ sung nộp chứng từ điện tử, sửa mẫu tờ khai",
             "tu_ngay": "2018-06-05",
             "can_cu": "Điều 1 TT 39/2018/TT-BTC"
+          }
+        ],
+        "bi_bai_bo_boi": [
+          {
+            "tu": "86/2026/TT-BTC",
+            "quan_he": "bai_bo",
+            "so_hieu": "39/2018/TT-BTC",
+            "pham_vi": "khoản 64, 65, 67, 68, 71 Điều 1",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 43 khoản 3 điểm b"
           }
         ]
       }
@@ -64520,6 +64676,33 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "54/2026/VBHN-TT-BTC",
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Hợp nhất Thông tư quy định thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định và dịch vụ chuyển phát nhanh quốc tế",
+      "co_quan": "BTC",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn",
+          "truy_cap": "2026-10-30"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề (mảng bưu chính/chuyển phát nhanh XNK — cùng mảng TT 142/2026 đã có); ngày ban hành + thành phần hợp nhất chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-30",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Đầu việc #275-5: nạp tối thiểu — hàng XNK qua bưu chính/chuyển phát là kênh thực tế của khách bán lẻ.",
+      "slug": "54-2026-vbhn-tt-btc",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "54/VBHN-VPQH",
@@ -80697,6 +80880,34 @@
       "nhanh": [
         "thue"
       ],
+      "quan_he": {
+        "bai_bo": [
+          {
+            "so_hieu": "06/2021/TT-BTC",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 43 khoản 2 TT 86/2026/TT-BTC"
+          },
+          {
+            "so_hieu": "38/2015/TT-BTC",
+            "pham_vi": "Điều 104, 105, 131, 132, 134, 135, 140 (phần miễn thuế)",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 43 khoản 3 điểm a"
+          },
+          {
+            "so_hieu": "39/2018/TT-BTC",
+            "pham_vi": "khoản 64, 65, 67, 68, 71 Điều 1",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 43 khoản 3 điểm b"
+          },
+          {
+            "so_hieu": "121/2025/TT-BTC",
+            "pham_vi": "khoản 58, 60, 61 Điều 1",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 43 khoản 3 điểm c"
+          }
+        ]
+      },
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=218821&classid=1&typegroupid=6",
@@ -82796,6 +83007,13 @@
       "nhanh": [
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
+      "quan_he": {
+        "hop_nhat": [
+          {
+            "so_hieu": "20/2021/TT-BNNPTNT"
+          }
+        ]
+      },
       "nguon": [
         {
           "url": "https://chicucttbvtvhcm.gov.vn/thong-tin-hoat-dong/van-ban-hop-nhat-99-2026-vbhn-tt-bnnmt-hop-nhat-thong-tu-quy-dinh-ho-so-nghiep-vu-kiem-dich-thuc-vat-1845.html",
