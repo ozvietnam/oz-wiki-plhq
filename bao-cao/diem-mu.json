@@ -1,6 +1,6 @@
 {
   "ngay": "2026-10-30",
-  "tong": 4992,
+  "tong": 4996,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -567,6 +567,24 @@
       "muc_tieu": "07/2023/NĐ-CP",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "07/2026/TT-BNNMT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "07/2026/TT-BNNMT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "07/2026/TT-BNNMT: chưa có toàn văn trong raw/",
+      "muc_tieu": "07/2026/TT-BNNMT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"07/2026/TT-BNNMT\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -8775,6 +8793,33 @@
       "muc_tieu": "18/2021/NĐ-CP",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "18/2026/VBHN-QĐ-BYT: chưa có nguồn chính thống",
+      "muc_tieu": "18/2026/VBHN-QĐ-BYT",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "18/2026/VBHN-QĐ-BYT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "18/2026/VBHN-QĐ-BYT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "18/2026/VBHN-QĐ-BYT: chưa có toàn văn trong raw/",
+      "muc_tieu": "18/2026/VBHN-QĐ-BYT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"18/2026/VBHN-QĐ-BYT\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -42200,15 +42245,6 @@
       "tieuDe": "Wiki nhắc 15/2020/NĐ-CP nhưng sổ chưa có",
       "muc_tieu": "15/2020/NĐ-CP",
       "viec": "Thêm vào sổ (wiki/sources/211-2025-nd-cp.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 07/2026/TT-BNNMT nhưng sổ chưa có",
-      "muc_tieu": "07/2026/TT-BNNMT",
-      "viec": "Thêm vào sổ (wiki/sources/22-2026-tt-bnnmt.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },
