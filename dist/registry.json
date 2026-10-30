@@ -1,8 +1,8 @@
 {
-  "phien_ban": "2026-10-29",
+  "phien_ban": "2026-10-30",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2372,
+  "tong": 2373,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -77788,6 +77788,52 @@
       "toan_van": "chua_co",
       "slug": "755-tb-tchq-2019",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "755/TCHQ-GSQL",
+      "loai": "CONG_VAN",
+      "ten": "Kiểm tra, xác định xuất xứ, chống gian lận, giả mạo xuất xứ, ghi nhãn hàng hóa, chuyển tải bất hợp pháp và thủ tục hải quan",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2020-02-11",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "hai-quan/thu-tuc",
+        "xuat-xu-fta/quy-tac-xuat-xu"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/xuat-nhap-khau/cong-van-755-tchq-gsql-2020-kiem-tra-xac-dinh-xuat-xu-hang-hoa-180593-d6.html",
+          "truy_cap": "2026-10-30"
+        },
+        {
+          "url": "https://hethongphapluat.com/official-dispatch-no-755-tchq-gsql-dated-february-11-2020-inspection-and-identification-of-origin-prevention-of-fraud-and-counterfeit-origin-labeling-illegal-transshipment-and-certain-contents-relating-to-customs-procedures.html",
+          "truy_cap": "2026-10-30"
+        }
+      ],
+      "toan_van": "raw/download/luatvietnam.vn/2020/2/755-tchq-gsql-2020-trich-doan.txt",
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, ngày 11-02-2020, trích yếu, người ký (Mai Xuân Thành, Phó Tổng cục trưởng), mục 1 (6 ví dụ mô tả sơ sài) — trích đoạn đọc từ thân văn bản trên LuatVietnam (bậc B) qua công cụ đọc web; đối chiếu chéo với bản dịch tiếng Anh hethongphapluat.com (bậc C). CHƯA có PDF gốc, CHƯA thấy trên customs.gov.vn",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-30",
+        "boi": "claude-code@ozvietnam",
+        "chan": {
+          "ma": "THIEU_PDF_A",
+          "ngay": "2026-10-30",
+          "viec_tiep": "Tìm bản có dấu đỏ (customs.gov.vn hoặc tài khoản LuatVietnam/TVPL) để đối chiếu trích đoạn; xác minh phạm vi thay thế của CV 17552/CHQ-GSQL (16-06-2026)"
+        }
+      },
+      "ghi_chu": "Theo LuatVietnam (bậc B), CV 17552/CHQ-GSQL ngày 16-06-2026 của Cục Hải quan, Phần III điểm 1, \"thay thế các nội dung hướng dẫn về việc kiểm tra, giám sát về xuất xứ hàng hóa, ghi nhãn hàng hóa ...\" tại CV 5189/TCHQ-GSQL, Chỉ thị 7988/CT-TCHQ, CV 755/TCHQ-GSQL và CV 571/CHQ-GSQL. Chưa rõ mục 1 (khai ô mô tả hàng hóa) của CV 755 có nằm trong phạm vi bị thay không, nên để CHUA_XAC_MINH; không ghi quan_he cho tới khi đọc được nguồn A. Toàn văn trong kho chỉ là trích đoạn (không phải PDF gốc).",
+      "tu_khoa": [
+        "mo-ta-hang-hoa",
+        "khai-bao-hai-quan",
+        "xuat-xu",
+        "ghi-nhan",
+        "gian-lan-xuat-xu"
+      ],
+      "slug": "755-tchq-gsql-2020",
+      "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
     },
     {

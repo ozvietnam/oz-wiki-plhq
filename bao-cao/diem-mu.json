@@ -1,6 +1,6 @@
 {
-  "ngay": "2026-10-29",
-  "tong": 4919,
+  "ngay": "2026-10-30",
+  "tong": 4924,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -38471,6 +38471,24 @@
     {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
+      "tieuDe": "755/TCHQ-GSQL: chưa có nguồn chính thống",
+      "muc_tieu": "755/TCHQ-GSQL",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "755/TCHQ-GSQL: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
+      "muc_tieu": "755/TCHQ-GSQL",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Thấp",
       "tieuDe": "756/TB-TCHQ/2019: chưa có nguồn chính thống",
       "muc_tieu": "756/TB-TCHQ/2019",
       "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
@@ -41939,6 +41957,33 @@
       "tieuDe": "Wiki nhắc 133/2025/QH15 nhưng sổ chưa có",
       "muc_tieu": "133/2025/QH15",
       "viec": "Thêm vào sổ (wiki/sources/54-2014-qh13.md, wiki/sources/54-vbhn-vpqh.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 3259/QĐ-TCHQ nhưng sổ chưa có",
+      "muc_tieu": "3259/QĐ-TCHQ",
+      "viec": "Thêm vào sổ (wiki/sources/755-tchq-gsql-2020.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 3260/QĐ-TCHQ nhưng sổ chưa có",
+      "muc_tieu": "3260/QĐ-TCHQ",
+      "viec": "Thêm vào sổ (wiki/sources/755-tchq-gsql-2020.md).",
+      "luong": "lien-ket-cheo",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 05/2018/TT-BCT nhưng sổ chưa có",
+      "muc_tieu": "05/2018/TT-BCT",
+      "viec": "Thêm vào sổ (wiki/sources/755-tchq-gsql-2020.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },
