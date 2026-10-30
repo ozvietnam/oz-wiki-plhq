@@ -2,7 +2,7 @@
   "phien_ban": "2026-10-30",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2393,
+  "tong": 2395,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -1532,6 +1532,38 @@
       ],
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/07-2026-tt-bct.pdf",
       "slug": "07-2026-tt-bct",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "07/2026/TT-BNNMT",
+      "loai": "THONG_TU",
+      "ten": "Quy định chi tiết một số điều của Luật Bảo vệ và kiểm dịch thực vật, Luật Trồng trọt và sửa đổi, bổ sung một số thông tư trong lĩnh vực trồng trọt và bảo vệ thực vật",
+      "co_quan": "BNNMT",
+      "ngay_ban_hanh": "2026-01-23",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich"
+      ],
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/?pageid=27160&docid=216804",
+          "truy_cap": "2026-10-30"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Linh-vuc-khac/Thong-tu-07-2026-TT-BNNMT-huong-dan-Luat-Bao-ve-va-kiem-dich-thuc-vat-Luat-Trong-trot-692593.aspx",
+          "truy_cap": "2026-10-30"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tên nguyên văn, ngày ban hành 23-01-2026 (chinhphu.vn docid 216804). Ngày hiệu lực CHƯA đối chiếu — cần tải toàn văn (spsvietnam.gov.vn) để bọc: quan hệ sửa đổi với TT KDTV 33/2014 + hiệu lực",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-30",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh sát WebSearch trạm BNNMT đêm 30/10 (bổ sung đợt 29/10). Lõi KDTV — luật KDTV mới (170/2024/QH15) thay Luật BVTT 41/2013, TT này là văn bản chi tiết kèm KDTV XNK. Ưu tiên nạp toàn văn + bóc quan hệ với chuỗi VBHN 06→19→99.",
+      "slug": "07-2026-tt-bnnmt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -19509,6 +19541,34 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "18/2026/VBHN-QĐ-BYT",
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Hợp nhất Quyết định hướng dẫn thực hiện Thực hành tốt sản xuất mỹ phẩm ASEAN (ASEAN GMP)",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2026-09-10",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/y-te/van-ban-hop-nhat-18-vbhn-qd-byt-2026-huong-dan-thuc-hien-thuc-hanh-tot-san-xuat-my-pham-asean-447154-d5.html",
+          "truy_cap": "2026-10-30"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tên, ngày ban hành 10-09-2026 (TVPL index). Bản gốc là Quyết định ASEAN GMP mỹ phẩm — cần đối chiếu nguồn BYT để biết QĐ gốc số mấy",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-30",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh sát WebSearch trạm BYT đêm 30/10. Gia đình mỹ phẩm (#224) — liên quan điều kiện nhập mỹ phẩm (xưởng đạt ASEAN GMP là căn cứ công bố sản phẩm nhập).",
+      "slug": "18-2026-vbhn-qd-byt",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "18/TB-TCHQ/2019",
