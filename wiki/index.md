@@ -16,6 +16,7 @@ _This catalog is updated by /lumi-ingest and /lumi-init._
 - [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]] — Kiểm tra ATTP hàng nhập khẩu (NĐ 15/2018 vẫn áp dụng)
 - [[concepts/doc-tinh-trang-hieu-luc]] — Thay thế, sửa đổi, bãi bỏ, tạm ngưng khác nhau thế nào
 - [[concepts/thu-tuc-hai-quan-xnk]] — Luật / NĐ / TT thủ tục hải quan và chỉ tiêu khai
+- [[concepts/mo-ta-hang-hoa-khai-bao]] — Ô mô tả hàng hóa trên tờ khai: chỉ tiêu 1.78 (TT 121/2025) + ví dụ mô tả sơ sài (CV 755/2020)
 - [[concepts/phan-loai-ma-hs]] — Quy trình phân loại và danh mục mã HS
 - [[concepts/thue-gtgt-hang-nhap-khau]] — Chính sách GTGT 8%/10% khâu nhập (NĐ 174/2025)
 - [[concepts/nhan-hang-hoa-nhap-khau]] — Nhãn hàng hoá sau 23/01/2026 (điểm mù)
@@ -76,6 +77,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[concepts/rui-ro-cao-vs-trung-binh]]
 - [[concepts/thiet-bi-giam-sat-atgt]]
 - [[concepts/thiet-bi-pccc]]
+- [[concepts/mo-ta-hang-hoa-khai-bao]] — Ô mô tả hàng hóa (chỉ tiêu 1.78) và ví dụ mô tả sơ sài
 - [[concepts/thu-tuc-hai-quan-xnk]]
 - [[concepts/thue-gtgt-hang-nhap-khau]]
 - [[concepts/thuoc-bvtv-nhap-khau]]
@@ -120,6 +122,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/111-2021-nd-cp]]
 - [[sources/113-2017-nd-cp]]
 - [[sources/114-2025-qh15]]
+- [[sources/755-tchq-gsql-2020]] — CV 755/TCHQ-GSQL (2020): 6 ví dụ khai mô tả hàng hóa sơ sài (trích đoạn bậc B, chưa có bản gốc)
 - [[sources/1175-qd-ttg-2020]]
 - [[sources/1182-qd-bct-2021]]
 - [[sources/12-2022-tt-bgtvt]]
@@ -243,6 +246,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[summary/phan-mem-di-kem-hang-nhap]]
 - [[summary/tach-may-dung-cu-hoa-chat]]
 - [[sources/09-vbhn-byt-2025]]
+- [[sources/26-2025-tt-bnnmt]]
 - [[summary/mua-ban-giao-thang-nuoc-thu-ba]]
 - [[sources/40-2025-tt-bct]]
 - [[sources/49-2025-tt-bct]]

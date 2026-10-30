@@ -1,8 +1,8 @@
 {
-  "phien_ban": "2026-10-28",
+  "phien_ban": "2026-10-30",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2342,
+  "tong": 2377,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -1118,6 +1118,55 @@
       }
     },
     {
+      "so_hieu": "06/2019/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định về quản lý thực vật rừng, động vật rừng nguy cấp, quý, hiếm và thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2019-01-22",
+      "hieu_luc_tu": "2019-03-26",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai",
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "32/2006/NĐ-CP",
+            "tu_ngay": "2019-03-26"
+          }
+        ],
+        "bai_bo": [
+          {
+            "so_hieu": "27/2018/TT-BNNPTNT",
+            "pham_vi": "các quy định về quản lý gỗ, thực vật rừng",
+            "tu_ngay": "2019-03-26"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://kiemlamyenbai.gov.vn/thong-bao-2?userkey=NGHI-DINH-06-2019-ND-CP-VE-QUAN-LY-THUC-VAT-RUNG-DONG-VAT-RUNG-NGUY-CAP-QUY-HIEM-VA-THU",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://dantocmiennui.baotintuc.vn/ban-hanh-nghi-dinh-06-ve-quan-ly-thuc-vat-rung-dong-vat-rung-nguy-cap-quy-hiem-post1327801.html",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 22-01-2019, hiệu lực 26-03-2019; thay NĐ 32/2006/NĐ-CP + bãi các quy định gỗ/TVR của TT 27/2018 (QĐ 398/QĐ-BNN-PC hệ thống hóa + Kiểm lâm Yên Bái)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nạp tham chiếu CITES theo #247 — ca gỗ dùng để check tên khoa học loài (Fagus sylvatica = beech không thuộc CITES). Song song NĐ 102/2020.",
+      "slug": "06-2019-nd-cp",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "06/2024/TT-BTC",
       "loai": "THONG_TU",
       "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 81/2019/TT-BTC ngày 15 tháng 11 năm 2019 của Bộ trưởng Bộ Tài chính quy định quản lý rủi ro trong hoạt động nghiệp vụ hải quan",
@@ -1249,6 +1298,55 @@
             "quan_he": "thay_the",
             "so_hieu": "06/VBHN-BNNPTNT",
             "tu_ngay": "2024-05-27"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "07/2022/QH15",
+      "loai": "LUAT",
+      "ten": "Luật sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2022-06-16",
+      "hieu_luc_tu": "2023-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "50/2005/QH11",
+            "tu_ngay": "2023-01-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/155-vbhn-vpqh.pdf",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, ngày ban hành 16-06-2022, hiệu lực 01-01-2023 và văn bản bị sửa đổi — nguyên văn phần đầu VBHN 155/VBHN-VPQH",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Lần sửa đổi lớn thứ ba của Luật Sở hữu trí tuệ (nền cho NĐ 65/2023, NĐ 17/2023).",
+      "tu_khoa": [
+        "so-huu-tri-tue",
+        "shtt"
+      ],
+      "slug": "07-2022-qh15",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "155/VBHN-VPQH",
+            "quan_he": "hop_nhat",
+            "so_hieu": "07/2022/QH15"
           }
         ]
       }
@@ -2738,6 +2836,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "102/2020/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định về hệ thống bảo đảm gỗ hợp pháp Việt Nam",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2020-09-01",
+      "hieu_luc_tu": "2020-10-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai",
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "nguon": [
+        {
+          "url": "https://kv10.customs.gov.vn/index.jsp?pageId=3&id=43086&cid=1294",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://thuvienxuatnhapkhau.com/cong-van-7131-tchw-gsql-nam-2020-ve-viec-thuc-hien-nghi-dinh-102-2020-nd-cp-ve-ho-so-go-nhap-khau.html",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 01-09-2020, hiệu lực 30-10-2020 (Cục HQ KV10 + CV 7131/TCHQ-GSQL); VNTLAS — gỗ hợp pháp khai thác trong nước + gỗ nhập khẩu, danh mục gỗ rủi ro NK (điểm d khoản 1 Điều 6); bị sửa bởi một NĐ năm 2024 — số hiệu chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nền của mảng truy xuất nguồn gốc gỗ NK (issue #247 — gia đình lâm nghiệp thứ 8, ca dăm gỗ beech 4401.22.00). Song song với NĐ 06/2019 (CITES) — không thay thế nhau.",
+      "slug": "102-2020-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "102/2020/QH14",
       "loai": "NGHI_QUYET",
       "ten": "Phê chuẩn Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu",
@@ -3328,6 +3460,56 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "103/2006/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Sở hữu trí tuệ về sở hữu công nghiệp",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2006-09-22",
+      "hieu_luc_tu": "2006-10-08",
+      "het_hieu_luc_tu": "2023-08-23",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {},
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=16056",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/So-huu-tri-tue/Nghi-dinh-103-2006-ND-CP-huong-dan-Luat-So-huu-tri-tue-ve-so-huu-cong-nghiep-14288.aspx",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 22-09-2006",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam",
+        "canh_bao": "Ngày hiệu lực 08-10-2006 theo TVPL, chưa đọc nguyên văn điều khoản; bị thay thế toàn bộ bởi NĐ 65/2023/NĐ-CP từ 23-08-2023 (nguồn thứ cấp nhất quán)."
+      },
+      "ghi_chu": "Được sửa đổi bởi NĐ 122/2010/NĐ-CP (31-12-2010) — không lập record riêng vì cả chuỗi đã hết hiệu lực.",
+      "tu_khoa": [
+        "so-huu-tri-tue",
+        "so-huu-cong-nghiep",
+        "nhan-hieu"
+      ],
+      "slug": "103-2006-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "65/2023/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "103/2006/NĐ-CP",
+            "tu_ngay": "2023-08-23"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "103/TB-TCHQ/2020",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -3623,6 +3805,81 @@
       "slug": "1049-tb-tchq-2024",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "105/2006/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Sở hữu trí tuệ về bảo vệ quyền sở hữu trí tuệ và quản lý nhà nước về sở hữu trí tuệ",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2006-09-22",
+      "hieu_luc_tu": "2006-10-21",
+      "het_hieu_luc_tu": "2025-12-30",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {},
+      "nguon": [
+        {
+          "url": "https://vi.wikisource.org/wiki/Ngh%E1%BB%8B_%C4%91%E1%BB%8Bnh_s%E1%BB%91_105/2006/N%C4%90-CP",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/So-huu-tri-tue/Nghi-dinh-105-2006-ND-CP-bao-ve-quyen-so-huu-tri-tue-quan-ly-nha-nuoc-huong-dan-Luat-So-huu-tri-tue-14289.aspx",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://baochinhphu.vn/chinh-phu-bai-bo-toan-bo-hoac-mot-phan-doi-voi-10-nghi-dinh-10225110322253515.htm",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 22-09-2006 (wikisource nguyên văn); hiệu lực 21-10-2006 theo VBHN 03/VBHN-BKHCN; bị bãi bỏ toàn bộ 30-12-2025 theo NĐ 285/2025 (danh sách đọc nguyên văn trên báo Chính phủ)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Chết hai giai đoạn: Phần Bảo vệ quyền QTC/QLQ hết hiệu lực 26-04-2023 (NĐ 17/2023 Điều 115 khoản 2); phần còn lại bị bãi bỏ toàn bộ 30-12-2025 (NĐ 285/2025). Sửa đổi bởi NĐ 119/2010 và NĐ 46/2017.",
+      "tu_khoa": [
+        "so-huu-tri-tue",
+        "bao-ve-quyen"
+      ],
+      "slug": "105-2006-nd-cp",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "119/2010/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "105/2006/NĐ-CP",
+            "tu_ngay": "2011-02-20"
+          },
+          {
+            "tu": "46/2017/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "105/2006/NĐ-CP",
+            "tu_ngay": "2017-06-01"
+          }
+        ],
+        "bi_bai_bo_boi": [
+          {
+            "tu": "17/2023/NĐ-CP",
+            "quan_he": "bai_bo",
+            "so_hieu": "105/2006/NĐ-CP",
+            "pham_vi": "Phần Bảo vệ quyền trong lĩnh vực quyền tác giả, quyền liên quan",
+            "tu_ngay": "2023-04-26",
+            "can_cu": "Điều 115 khoản 2"
+          },
+          {
+            "tu": "285/2025/NĐ-CP",
+            "quan_he": "bai_bo",
+            "so_hieu": "105/2006/NĐ-CP",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2025-12-30"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "105/2016/QH13",
@@ -7896,6 +8153,65 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "119/2010/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 105/2006/NĐ-CP",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2010-12-30",
+      "hieu_luc_tu": "2011-02-20",
+      "het_hieu_luc_tu": "2023-04-26",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "105/2006/NĐ-CP",
+            "tu_ngay": "2011-02-20"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/So-huu-tri-tue/Nghi-dinh-119-2010-ND-CP-sua-doi-Nghi-dinh-105-2006-ND-CP-huong-dan-Luat-So-huu-116778.aspx",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 30-12-2010; Điều 2: hiệu lực 20-02-2011 (trích nguyên văn qua TVPL)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Hết hiệu lực từ 26-04-2023 theo Điều 115 khoản 2 NĐ 17/2023/NĐ-CP.",
+      "tu_khoa": [
+        "so-huu-tri-tue"
+      ],
+      "slug": "119-2010-nd-cp",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "17/2023/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "119/2010/NĐ-CP",
+            "tu_ngay": "2023-04-26"
+          }
+        ],
+        "bi_bai_bo_boi": [
+          {
+            "tu": "285/2025/NĐ-CP",
+            "quan_he": "bai_bo",
+            "so_hieu": "119/2010/NĐ-CP",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2025-12-30"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "119/2022/NĐ-CP",
       "loai": "NGHI_DINH",
       "ten": "Biểu thuế NK ưu đãi AKFTA",
@@ -10172,6 +10488,47 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "126/2021/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung một số điều của các Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp; tiêu chuẩn, đo lường và chất lượng sản phẩm hàng hóa; khoa học và công nghệ; chuyển giao công nghệ; năng lượng, nguyên tử",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2021-12-30",
+      "hieu_luc_tu": "2022-03-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "99/2013/NĐ-CP",
+            "tu_ngay": "2022-03-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=204924",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 30-12-2021, hiệu lực 01-03-2022 (thẻ trang vanban.chinhphu.vn, đọc qua kết quả tìm kiếm)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Chỉ ghi quan hệ với NĐ 99/2013 thuộc gia đình SHTT; nghị định còn sửa nhiều NĐ ngoài phạm vi sổ tay.",
+      "tu_khoa": [
+        "so-huu-tri-tue",
+        "xu-phat"
+      ],
+      "slug": "126-2021-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "126/2022/NĐ-CP",
       "loai": "NGHI_DINH",
       "ten": "Biểu thuế NK ưu đãi ATIGA",
@@ -10337,6 +10694,39 @@
       "toan_van": "chua_co",
       "slug": "1261-tb-tchq-2022",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "127/2026/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Quy định về chỉ tiêu thông tin, mẫu chứng từ khai báo khi làm thủ tục xuất cảnh, nhập cảnh, quá cảnh đối với phương tiện vận tải qua cửa khẩu, cảng hàng không quốc tế",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2026-08-27",
+      "hieu_luc_tu": "2026-10-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/?pageid=27160&docid=219370",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/hoi-dap-phap-luat/tong-hop-cong-van-cuc-thue-va-hai-quan-ban-hanh-thang-102026-day-du-138108312.html",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề đầy đủ, ngày ban hành 27-08-2026, hiệu lực 15-10-2026 (chinhphu docid=219370); Phụ lục I-X chỉ tiêu + mẫu chứng từ; CV 23007/CHQ-GSQL 10/2026 hướng dẫn chuyển tiếp phần mềm (chức năng cũ vẫn xử lý trong lúc rà soát nâng cấp)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Bắt bởi trinh thám bộ ngành (WebSearch tầng 2) 29/10 — mẫu chứng từ khai báo PHƯƠNG TIỆN VẬN TẢI (nhóm Đ70-74 NĐ 08/2015 bị 167/2025 sửa).",
+      "slug": "127-2026-tt-btc",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -10885,6 +11275,10 @@
         {
           "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-13-2015-tt-btc-7958.htm",
           "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=179326",
+          "truy_cap": "2026-10-29"
         }
       ],
       "xac_minh": {
@@ -11244,6 +11638,72 @@
             "so_hieu": "1309/QĐ-BCT",
             "tu_ngay": "2026-06-16",
             "can_cu": "Điều 3 khoản 4 QĐ 1309/QĐ-BCT (kết quả rà soát cuối kỳ)"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "131/2013/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định xử phạt vi phạm hành chính về quyền tác giả, quyền liên quan",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2013-10-16",
+      "hieu_luc_tu": "2013-12-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "47/2009/NĐ-CP",
+            "tu_ngay": "2013-12-15"
+          },
+          {
+            "so_hieu": "109/2011/NĐ-CP",
+            "tu_ngay": "2013-12-15"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vi.wikisource.org/wiki/Ngh%E1%BB%8B_%C4%91%E1%BB%8Bnh_s%E1%BB%91_131/2013/N%C4%90-CP",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/So-huu-tri-tue/Decree-No-131-2013-ND-CP-on-sanctioning-administrative-violations-of-copyright-and-related-rights-212865.aspx",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 16-10-2013; Điều 41: hiệu lực 15-12-2013, bãi bỏ NĐ 47/2009 và NĐ 109/2011 (nguyên văn wikisource)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "VẪN CÒN HIỆU LỰC — NĐ 17/2023 Điều 115 khoản 2 KHÔNG bãi bỏ (dù nhiều tóm tắt ghi nhầm); sửa đổi bởi NĐ 46/2017 và NĐ 28/2017. Chế tài chính với phần mềm lậu/key gray.",
+      "tu_khoa": [
+        "quyen-tac-gia",
+        "xu-phat",
+        "phan-mem",
+        "ban-quyen"
+      ],
+      "slug": "131-2013-nd-cp",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "28/2017/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "131/2013/NĐ-CP",
+            "tu_ngay": "2017-05-05"
+          },
+          {
+            "tu": "46/2017/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "131/2013/NĐ-CP",
+            "tu_ngay": "2017-06-01"
           }
         ]
       }
@@ -12137,6 +12597,33 @@
       "toan_van": "chua_co",
       "slug": "1345-tb-tchq-2019",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "135/2026/VBHN-TT-BCT",
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Hợp nhất Thông tư Quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước",
+      "co_quan": "BCT",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề (mục lục công báo qua radar 29/10, đăng công báo 21-10-2026); thành phần hợp nhất + ngày ban hành chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Bắt bởi radar công báo (issue #251) — bổ sung gia đình xăng dầu #240. Nâng nguồn A khi có ca chạm cơ chế giá.",
+      "slug": "135-2026-vbhn-tt-bct",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -14666,6 +15153,53 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "155/VBHN-VPQH",
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Văn bản hợp nhất Luật Sở hữu trí tuệ",
+      "co_quan": "VPQH",
+      "ngay_ban_hanh": "2025-09-09",
+      "hieu_luc_tu": "2025-09-09",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "hop_nhat": [
+          "50/2005/QH11",
+          "36/2009/QH12",
+          "42/2019/QH14",
+          "07/2022/QH15",
+          "93/2025/QH15"
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=215309",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/155-vbhn-vpqh.pdf",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, cơ quan, ngày 09-09-2025 và danh sách văn bản hợp nhất — đọc trực tiếp phần đầu PDF",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Bản hợp nhất mới nhất của Luật Sở hữu trí tuệ (thay 07/VBHN-VPQH 2019). VBHN không thay thế văn bản gốc.",
+      "tu_khoa": [
+        "so-huu-tri-tue",
+        "shtt",
+        "vbhn"
+      ],
+      "slug": "155-vbhn-vpqh-2025",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "1553/TB-TCHQ/2023",
       "loai": "THONG_BAO",
       "loai_phan_loai": "XAC_DINH_TRUOC",
@@ -16093,6 +16627,64 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "17/2023/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về quyền tác giả, quyền liên quan",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2023-04-26",
+      "hieu_luc_tu": "2023-04-26",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "22/2018/NĐ-CP",
+            "tu_ngay": "2023-04-26"
+          },
+          {
+            "so_hieu": "119/2010/NĐ-CP",
+            "tu_ngay": "2023-04-26"
+          }
+        ],
+        "bai_bo": [
+          {
+            "so_hieu": "105/2006/NĐ-CP",
+            "pham_vi": "Phần Bảo vệ quyền trong lĩnh vực quyền tác giả, quyền liên quan",
+            "tu_ngay": "2023-04-26",
+            "can_cu": "Điều 115 khoản 2"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=207842",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://vi.wikisource.org/wiki/Ngh%E1%BB%8B_%C4%91%E1%BB%8Bnh_s%E1%BB%91_17/2023/N%C4%90-CP/Ch%C6%B0%C6%A1ng_VII",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành + hiệu lực 26-04-2023 (thẻ vanban.chinhphu.vn); Điều 115 (nguyên văn wikisource): bãi bỏ NĐ 22/2018, NĐ 119/2010 và phần bảo vệ quyền QTC/QLQ của NĐ 105/2006",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "KHÔNG thay thế NĐ 131/2013 (xử phạt QTC vẫn theo NĐ 131/2013 sđ 28/2017). TVPL ghi nhận bị sửa bởi NĐ 116/2026/NĐ-CP (02-04-2026, TTHC — đã có công báo) và NĐ 134/2026/NĐ-CP (06-04-2026, nguồn tỉnh, chưa thấy trên cổng A) — chưa ghi quan hệ, chờ săn bậc A.",
+      "tu_khoa": [
+        "quyen-tac-gia",
+        "shtt",
+        "thi-hanh"
+      ],
+      "slug": "17-2023-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "17/2023/TT-BNNPTNT",
@@ -27122,6 +27714,38 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "217/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định về hoạt động kiểm tra chuyên ngành",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-08-05",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/khung-chat-luong"
+      ],
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/?pageid=27160&docid=214813&classid=1&typegroupid=4",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-217-2025-ND-CP-hoat-dong-kiem-tra-chuyen-nganh-668132.aspx",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 05-08-2025, hiệu lực kể từ ngày ký (chinhphu docid=214813 + TVPL); khung KTCN sau sắp xếp bộ máy: mục đích, thẩm quyền, nhiệm vụ, quyền hạn — ngày hiệu lực cụ thể chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám 29/10 — khung pháp lý KTCN đứng trên khung 3 mức rủi ro NĐ 37/2026; cần rà quan hệ với NĐ 37/2026 khi đối chiếu toàn văn.",
+      "slug": "217-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "217/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -27550,6 +28174,50 @@
       "slug": "2196-tb-tchq-2023",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "22/2018/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Sở hữu trí tuệ về quyền tác giả, quyền liên quan",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2018-02-23",
+      "hieu_luc_tu": "2018-04-10",
+      "het_hieu_luc_tu": "2023-04-26",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {},
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/So-huu-tri-tue/Decree-22-2018-ND-CP-guidelines-of-the-intellectual-Property-Law-and-Law-on-amendments-2009-377744.aspx",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 23-02-2018, hiệu lực 10-04-2018 (TVPL)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Thay thế NĐ 100/2006/NĐ-CP từ 10-04-2018 (không lập record riêng cho NĐ 100/2006); bị thay thế bởi NĐ 17/2023/NĐ-CP từ 26-04-2023.",
+      "tu_khoa": [
+        "quyen-tac-gia",
+        "shtt"
+      ],
+      "slug": "22-2018-nd-cp",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "17/2023/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "22/2018/NĐ-CP",
+            "tu_ngay": "2023-04-26"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "22/2018/TT-BLĐTBXH",
@@ -32149,6 +32817,48 @@
       }
     },
     {
+      "so_hieu": "26/2022/TT-BNNPTNT",
+      "so_hieu_khac": [
+        "26/2022/TT-BNNMT"
+      ],
+      "loai": "THONG_TU",
+      "ten": "Quy định về quản lý, truy xuất nguồn gốc lâm sản",
+      "co_quan": "BNNPTNT",
+      "ngay_ban_hanh": "2022-12-30",
+      "hieu_luc_tu": "2023-02-15",
+      "het_hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "nguon": [
+        {
+          "url": "https://kiemlamtphcm.org.vn/laws/detail/Thong-tu-26-2025-TT-BNNMT-Quy-dinh-ve-quan-ly-lam-san-xu-ly-lam-san-thuy-san-la-tai-san-duoc-xac-lap-quyen-so-huu-toan-dan-49",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 30-12-2022, hiệu lực 15-02-2023; HẾT hiệu lực 01-07-2025 — bị TT 26/2025/TT-BNNMT thay (nguyên văn Điều 33.3 điểm a)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nơi ban hành Mẫu 01 bảng kê gỗ nguyên liệu nhập khẩu (tầng 2 #247) — nay chuyển sang TT 26/2025.",
+      "slug": "26-2022-tt-bnnptnt",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "26/2025/TT-BNNMT",
+            "quan_he": "thay_the",
+            "so_hieu": "26/2022/TT-BNNPTNT",
+            "tu_ngay": "2025-07-01"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "26/2023/NĐ-CP",
       "loai": "NGHI_DINH",
       "ten": "Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hoá và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan",
@@ -32192,6 +32902,56 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "26/2025/TT-BNNMT",
+      "so_hieu_khac": [
+        "26/2025/TT-BNNPTNT"
+      ],
+      "loai": "THONG_TU",
+      "ten": "Quy định về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân",
+      "co_quan": "BNNMT",
+      "ngay_ban_hanh": "2025-06-24",
+      "hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "26/2022/TT-BNNPTNT",
+            "tu_ngay": "2025-07-01"
+          }
+        ],
+        "bai_bo": [
+          {
+            "so_hieu": "29/2019/TT-BNN",
+            "tu_ngay": "2025-07-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=214350",
+          "truy_cap": "2026-10-28"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Linh-vuc-khac/Thong-tu-26-2025-TT-BNNMT-xu-ly-lam-san-thuy-san-la-tai-san-duoc-xac-lap-quyen-so-huu-toan-dan-662945.aspx",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "nguyên văn toàn văn TVPL 662945: ngày ban hành 24-06-2025, hiệu lực 01-07-2025 (Điều 33.1); Điều 33.3 bãi toàn bộ TT 26/2022 + TT 29/2019/TT-BNN, một phần TT 22/2023 (Đ2, Đ12), TT 12/2019 (khoản 2a Đ6), TT 22/2024 (khoản 2 Đ31); Điều 33.2: phân loại DN (Chương III) hiệu lực 16-05-2026, bãi TT 21/2021 từ đó",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Hiện hành cho truy xuất nguồn gốc lâm sản NK — Mẫu 01 Phụ lục II là Bảng kê lâm sản (tầng 2 #247, xem trang nguồn). Định nghĩa Điều 3.6: dăm gỗ thuộc GỖ NGUYÊN LIỆU. Điều 9.1: hồ sơ gỗ NK theo Điều 7 NĐ 102/2020 (sửa 2024). Có VBHN 04/VBHN-BNNMT 2026 — nạp khi có nhu cầu.",
+      "slug": "26-2025-tt-bnnmt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "26/2026/NĐ-CP",
@@ -32812,6 +33572,46 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "27/2018/TT-BNNPTNT",
+      "so_hieu_khac": [
+        "27/2018/TT-BNNMT"
+      ],
+      "loai": "THONG_TU",
+      "ten": "Hướng dẫn một số điều của Luật Lâm nghiệp về truy xuất nguồn gốc, khai thác, vận chuyển gỗ",
+      "co_quan": "BNNPTNT",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/ve-viec-cong-bo-ket-qua-he-thong-hoa-van-ban-quy-pham-phap-luat-thuoc-linh-vuc-quan-ly-nha-nuoc-cua-bo-nong-nghiep-va-phat-trien-nong-thon-ky-2019-2023--hhtquyetdinh_224",
+          "truy_cap": "2026-10-28"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề; HẾT hiệu lực từ 26-03-2019 — các quy định gỗ/thực vật rừng bị NĐ 06/2019/NĐ-CP bãi bỏ (QĐ 398/QĐ-BNN-PC hệ thống hóa VB 2019-2023); ngày ban hành chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-28",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nạp dạng lịch sử theo #247 (chuỗi truy xuất nguồn gốc: TT 27/2018 → TT 26/2022 → TT 26/2025). Lưu ý: không nhầm với \"TT 27/2023\" — số đó không tồn tại.",
+      "slug": "27-2018-tt-bnnptnt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "06/2019/NĐ-CP",
+            "quan_he": "bai_bo",
+            "so_hieu": "27/2018/TT-BNNPTNT",
+            "pham_vi": "các quy định về quản lý gỗ, thực vật rừng",
+            "tu_ngay": "2019-03-26"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "27/2026/TT-BNNMT",
       "loai": "THONG_TU",
       "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Môi trường",
@@ -32856,7 +33656,22 @@
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/27-2026-tt-bnnmt.pdf",
       "slug": "27-2026-tt-bnnmt",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "44/2026/TT-BNNMT",
+            "quan_he": "sua_doi",
+            "so_hieu": "27/2026/TT-BNNMT"
+          }
+        ],
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "91/2026/VBHN-TT-BNNMT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "27/2026/TT-BNNMT"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "27/2026/TT-BYT",
@@ -34286,6 +35101,50 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "28/2017/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 131/2013/NĐ-CP quy định xử phạt vi phạm hành chính về quyền tác giả, quyền liên quan và Nghị định số 158/2013/NĐ-CP quy định xử phạt vi phạm hành chính trong lĩnh vực văn hóa, thể thao, du lịch và quảng cáo",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2017-03-20",
+      "hieu_luc_tu": "2017-05-05",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "131/2013/NĐ-CP",
+            "tu_ngay": "2017-05-05"
+          },
+          {
+            "so_hieu": "158/2013/NĐ-CP",
+            "tu_ngay": "2017-05-05"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=188924",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề (nêu nguyên văn 2 nghị định bị sửa), ngày ban hành 20-03-2017, ngày hiệu lực 05-05-2017 trên thẻ vanban.chinhphu.vn",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "tu_khoa": [
+        "quyen-tac-gia",
+        "xu-phat"
+      ],
+      "slug": "28-2017-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "28/2018/QH14",
       "loai": "LUAT",
       "ten": "Luật sửa đổi, bổ sung một số điều của Luật Dược 2018 (đã hợp nhất)",
@@ -35444,6 +36303,57 @@
       "toan_van": "chua_co",
       "slug": "2849-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "285/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Bãi bỏ một số nghị định của Chính phủ",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-11-03",
+      "hieu_luc_tu": "2025-12-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "bai_bo": [
+          {
+            "so_hieu": "105/2006/NĐ-CP",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2025-12-30"
+          },
+          {
+            "so_hieu": "119/2010/NĐ-CP",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2025-12-30"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=215767",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://baochinhphu.vn/chinh-phu-bai-bo-toan-bo-hoac-mot-phan-doi-voi-10-nghi-dinh-10225110322253515.htm",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, ngày ban hành 03-11-2025, hiệu lực 30-12-2025; danh sách 10 nghị định bị bãi bỏ đọc nguyên văn trên báo Chính phủ",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Chỉ ghi quan hệ với gia đình SHTT (bãi toàn bộ NĐ 105/2006 và NĐ 119/2010); nghị định còn bãi bỏ toàn bộ 6 NĐ khác (35/2005, 35/2007, 27/2010, 137/2013, 04/2015, 63/2020) và một phần NĐ 65/2017, NĐ 08/2018 — ngoài phạm vi sổ tay.",
+      "tu_khoa": [
+        "so-huu-tri-tue",
+        "bai-bo"
+      ],
+      "slug": "285-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -41327,6 +42237,48 @@
       }
     },
     {
+      "so_hieu": "32/2026/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Quy định việc đăng ký lưu hành thuốc, nguyên liệu làm thuốc",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2026-07-29",
+      "hieu_luc_tu": "2026-10-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "12/2025/TT-BYT",
+            "pham_vi": "các quy định về đăng ký lưu hành thuốc, nguyên liệu làm thuốc",
+            "tu_ngay": "2026-10-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-32-2026-tt-byt-quy-dinh-viec-dang-ky-luu-hanh-thuoc-nguyen-lieu-lam-thuoc--b3c8a3e0-9945-11f1-9dcb-2dbe29d2ab4a",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-32-2026-TT-BYT-dang-ky-luu-hanh-thuoc-nguyen-lieu-lam-thuoc-717455.aspx",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 29-07-2026, hiệu lực 01-10-2026 (vbpl + TVPL); thay quy định đăng ký lưu hành của TT 12/2025/TT-BYT — phạm vi bãi cụ thể chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám 29/10 — thuốc là nhóm KB thuế 30 (3004...) hay hỏi; TT 12/2025 chưa có trong sổ (nạp khi cần truy vết chuỗi).",
+      "slug": "32-2026-tt-byt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "3207/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -45316,6 +46268,34 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "35/2018/QH14",
+      "loai": "LUAT",
+      "ten": "Luật sửa đổi, bổ sung một số điều của các Luật có liên quan đến quy hoạch",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2018-11-20",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "hai-quan/luat-khung"
+      ],
+      "nguon": [
+        {
+          "url": "https://vi.wikisource.org",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề — luật sửa nhiều luật; phần sửa Luật Hải quan 54/2014 (thủ tục HQ chế biến, chế xuất...) chưa đối chiếu điều khoản cụ thể",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Nạp tối thiểu theo rà soát PL hải quan 29/10: phần sửa Luật HQ đã nằm trong VBHN 54/VBHN-VPQH (có sẵn) — file riêng để cạnh sửa đổi truy xuất được. PHÂN BIỆT: luật sửa Luật HQ là 35/2018/QH14; 102/2020/QH14 trong sổ là Nghị quyết phê chuẩn EVFTA (khác hoàn toàn).",
+      "slug": "35-2018-qh14",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "35/2025/NĐ-CP",
       "loai": "NGHI_DINH",
       "ten": "Nghị định quy định chi tiết thi hành Luật Thú y",
@@ -46621,6 +47601,55 @@
       "slug": "36-2005-qh11",
       "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "36/2009/QH12",
+      "loai": "LUAT",
+      "ten": "Luật sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2009-06-19",
+      "hieu_luc_tu": "2010-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "50/2005/QH11",
+            "tu_ngay": "2010-01-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/155-vbhn-vpqh.pdf",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, ngày ban hành 19-06-2009, hiệu lực 01-01-2010 và văn bản bị sửa đổi — nguyên văn phần đầu VBHN 155/VBHN-VPQH",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Lần sửa đổi thứ nhất của Luật Sở hữu trí tuệ.",
+      "tu_khoa": [
+        "so-huu-tri-tue",
+        "shtt"
+      ],
+      "slug": "36-2009-qh12",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "155/VBHN-VPQH",
+            "quan_he": "hop_nhat",
+            "so_hieu": "36/2009/QH12"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "36/2026/TT-BKHCN",
@@ -49086,7 +50115,15 @@
       },
       "slug": "38-2014-tt-bct",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "51/VBHN-BCT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "38/2014/TT-BCT"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "38/2015/TT-BTC",
@@ -49806,6 +50843,33 @@
       "toan_van": "chua_co",
       "slug": "3837-tb-tchq-2022",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "384/2026/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định xác định xuất xứ Việt Nam đối với hàng hóa sản xuất và lưu thông trong nước",
+      "co_quan": "CP",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "xuat-xu-fta/quy-tac-xuat-xu"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề (từ mục lục công báo qua radar 29/10) — ngày ban hành/hiệu lực chưa đối chiếu; cần nâng nguồn A sớm vì xuất xứ là mảng lõi kho",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Bắt bởi radar công báo 29/10 (issue #251) — xuất xứ hàng hoá trong nước, tách bạch với xuất xứ FTA. Nâng NGUON_A ngay khi có ca khách chạm.",
+      "slug": "384-2026-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -54434,6 +55498,55 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "42/2019/QH14",
+      "loai": "LUAT",
+      "ten": "Luật sửa đổi, bổ sung một số điều của Luật Kinh doanh bảo hiểm, Luật Sở hữu trí tuệ",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2019-06-14",
+      "hieu_luc_tu": "2019-11-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "50/2005/QH11",
+            "tu_ngay": "2019-11-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/155-vbhn-vpqh.pdf",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, ngày ban hành 14-06-2019, hiệu lực 01-11-2019 và văn bản bị sửa đổi — nguyên văn phần đầu VBHN 155/VBHN-VPQH",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Lần sửa đổi thứ hai của Luật Sở hữu trí tuệ (kèm Luật Kinh doanh bảo hiểm).",
+      "tu_khoa": [
+        "so-huu-tri-tue",
+        "shtt"
+      ],
+      "slug": "42-2019-qh14",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "155/VBHN-VPQH",
+            "quan_he": "hop_nhat",
+            "so_hieu": "42/2019/QH14"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "42/2019/TT-BCT",
       "loai": "THONG_TU",
       "ten": "Sửa đổi, bổ sung một số quy định về chế độ báo cáo định kỳ tại các Thông tư do Bộ trưởng Bộ Công Thương ban hành hoặc liên tịch ban hành",
@@ -55110,6 +56223,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "43/2026/NQ-CP",
+      "loai": "NGHI_QUYET",
+      "ten": "Về việc kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường, thuế giá trị gia tăng đối với xăng, dầu, nguyên liệu sản xuất xăng, dầu và nhiên liệu bay",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2026-09-30",
+      "hieu_luc_tu": "2026-10-01",
+      "het_hieu_luc_tu": "2026-12-31",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=219739",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://www.mof.gov.vn/tin-tuc-tai-chinh/tin-tuc-su-kien-8/tiep-tuc-keo-dai-thoi-han-uu-dai-thue-xang-dau-den-het-nam-2026",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề đầy đủ, ngày 30-09-2026, hiệu lực 01-10 đến hết 31-12-2026 (vanban docid=219739 + BTC): kéo dài MFN xăng dầu; BVMT xăng (trừ ethanol), diezel, dầu hỏa, mazut, nhiên liệu bay = 0 đồng/lít",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám bộ ngành 29/10 — QUAN TRỌNG cho tra thuế nhóm 2710: MFN ưu đãi + BVMT 0đ chỉ đến 31-12-2026, hết hạn cần NQ kéo dài tiếp (canh).",
+      "slug": "43-2026-nq-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "4319/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -55740,6 +56887,56 @@
             "tu": "163/2025/NĐ-CP",
             "quan_he": "huong_dan",
             "so_hieu": "44/2024/QH15"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "44/2026/TT-BNNMT",
+      "so_hieu_khac": [
+        "44/2026/TT-BNNPTNT"
+      ],
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 27/2026/TT-BNNMT ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Nông nghiệp và Môi trường ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Nông nghiệp và Môi trường",
+      "co_quan": "BNNMT",
+      "ngay_ban_hanh": "2026-10-09",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "27/2026/TT-BNNMT"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=219929&classid=1",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://thuvienxuatnhapkhau.com/thong-tu-44-2026-tt-bnnmt-sua-doi-thong-tu-27-2026-tt-bnnmt-ve-danh-muc-san-pham-hang-hoa-co-muc-do-rui-ro-trung-binh-muc-do-rui-ro-cao-thuoc-trach-nhiem-quan-ly-cua-bo-nong-nghiep-va-moi-truong.html",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề đầy đủ, ngày ban hành 09-10-2026 (vanban.chinhphu docid=219929); điều chỉnh phân loại mặt hàng lâm sản/TACN/thú y theo mã HS — hiệu lực cụ thể chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Bắt bởi radar công báo 29/10 (issue #251) — nạp cùng ngày phát hiện. TT 27/2026 đã có sẵn trong sổ.",
+      "slug": "44-2026-tt-bnnmt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "91/2026/VBHN-TT-BNNMT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "44/2026/TT-BNNMT"
           }
         ]
       }
@@ -56686,6 +57883,96 @@
       "toan_van": "chua_co",
       "slug": "4588-tb-tchq-2023",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "46/2017/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 99/2013/NĐ-CP, Nghị định số 105/2006/NĐ-CP và Nghị định số 131/2013/NĐ-CP về xử phạt vi phạm hành chính và bảo vệ quyền sở hữu trí tuệ",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2017-04-21",
+      "hieu_luc_tu": "2017-06-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "99/2013/NĐ-CP",
+            "tu_ngay": "2017-06-01"
+          },
+          {
+            "so_hieu": "105/2006/NĐ-CP",
+            "tu_ngay": "2017-06-01"
+          },
+          {
+            "so_hieu": "131/2013/NĐ-CP",
+            "tu_ngay": "2017-06-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/So-huu-tri-tue/Nghi-dinh-46-2017-ND-CP-sua-doi-Nghi-dinh-99-2013-ND-CP-105-2006-ND-CP-131-2013-ND-CP-335262.aspx",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, ngày ban hành 21-04-2017, hiệu lực 01-06-2017, ba văn bản bị sửa đổi",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "tu_khoa": [
+        "so-huu-tri-tue",
+        "xu-phat"
+      ],
+      "slug": "46-2017-nd-cp",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "46/2024/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 99/2013/NĐ-CP ngày 29 tháng 8 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2024-05-04",
+      "hieu_luc_tu": "2024-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "99/2013/NĐ-CP",
+            "tu_ngay": "2024-07-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=210183",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề (trích nguyên văn ngày ban hành của NĐ 99/2013), ngày ban hành 04-05-2024, ngày hiệu lực 01-07-2024 trên thẻ vanban.chinhphu.vn",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Điểm mới: xử lý vi phạm hành chính trên môi trường điện tử; chuyển tiếp theo quy định có lợi cho tổ chức, cá nhân.",
+      "tu_khoa": [
+        "so-huu-tri-tue",
+        "xu-phat",
+        "nhan-hieu"
+      ],
+      "slug": "46-2024-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -59182,6 +60469,80 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "50/2005/QH11",
+      "loai": "LUAT",
+      "ten": "Luật Sở hữu trí tuệ",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2005-11-29",
+      "hieu_luc_tu": "2006-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {},
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=215309",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/155-vbhn-vpqh.pdf",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 29-11-2005, hiệu lực 01-07-2006 và chuỗi sửa đổi — nguyên văn phần đầu VBHN 155/VBHN-VPQH",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Sửa đổi bởi 36/2009/QH12, 42/2019/QH14, 07/2022/QH15 và Luật 93/2025/QH15 (nguyên văn phần đầu VBHN 155/VBHN-VPQH ngày 09-09-2025). Bản hợp nhất hiện hành: 155/VBHN-VPQH.",
+      "tu_khoa": [
+        "so-huu-tri-tue",
+        "shtt",
+        "nhan-hieu",
+        "quyen-tac-gia"
+      ],
+      "slug": "50-2005-qh11",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "07/2022/QH15",
+            "quan_he": "sua_doi",
+            "so_hieu": "50/2005/QH11",
+            "tu_ngay": "2023-01-01"
+          },
+          {
+            "tu": "36/2009/QH12",
+            "quan_he": "sua_doi",
+            "so_hieu": "50/2005/QH11",
+            "tu_ngay": "2010-01-01"
+          },
+          {
+            "tu": "42/2019/QH14",
+            "quan_he": "sua_doi",
+            "so_hieu": "50/2005/QH11",
+            "tu_ngay": "2019-11-01"
+          },
+          {
+            "tu": "93/2025/QH15",
+            "quan_he": "sua_doi",
+            "so_hieu": "50/2005/QH11",
+            "tu_ngay": "2025-10-01"
+          }
+        ],
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "155/VBHN-VPQH",
+            "quan_he": "hop_nhat",
+            "so_hieu": "50/2005/QH11"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "5010/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -59870,6 +61231,45 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "51/VBHN-BCT",
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Hợp nhất Thông tư hướng dẫn Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ quy định về sản xuất, kinh doanh xăng dầu",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2026-06-09",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "quan_he": {
+        "hop_nhat": [
+          {
+            "so_hieu": "38/2014/TT-BCT"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Thuong-mai/Van-ban-hop-nhat-51-VBHN-BCT-2026-Thong-tu-huong-dan-Nghi-dinh-83-2014-ND-CP-kinh-doanh-xang-dau-722493.aspx",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://tapchicongthuong.vn/bo-cong-thuong-hop-nhat-cac-thong-tu-quy-dinh-ve-kinh-doanh-xang-dau-528135.htm",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 09-06-2026 (TVPL + Tạp chí Công Thương); hợp nhất TT 38/2014/TT-BCT — thành phần đầy đủ chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám 29/10 — hoàn thiện gia đình xăng dầu #240. Canh: Chính phủ yêu cầu NĐ MỚI về kinh doanh xăng dầu (chậm nhất đầu 10/2026) — radar sẽ bắt.",
+      "slug": "51-vbhn-bct-2026",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "510/TB-TCHQ/2018",
@@ -70381,6 +71781,54 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "65/2023/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2023-08-23",
+      "hieu_luc_tu": "2023-08-23",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "103/2006/NĐ-CP",
+            "tu_ngay": "2023-08-23"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=208550",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/8/65-nd-cp.signed.pdf",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 23-08-2023 và ngày hiệu lực 23-08-2023 trên thẻ vanban.chinhphu.vn",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam",
+        "canh_bao": "Việc thay thế NĐ 103/2006 đọc từ nguồn thứ cấp nhất quán (TVPL + báo Chính phủ); PDF ký là bản scan, chưa OCR được điều khoản thi hành."
+      },
+      "ghi_chu": "Hiệu lực từ ngày ký. Chưa đối chiếu sửa đổi sau 2023 — cần săn định kỳ.",
+      "tu_khoa": [
+        "so-huu-tri-tue",
+        "so-huu-cong-nghiep",
+        "nhan-hieu",
+        "dang-ky-shtt"
+      ],
+      "slug": "65-2023-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "6500/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -76507,6 +77955,52 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "755/TCHQ-GSQL",
+      "loai": "CONG_VAN",
+      "ten": "Kiểm tra, xác định xuất xứ, chống gian lận, giả mạo xuất xứ, ghi nhãn hàng hóa, chuyển tải bất hợp pháp và thủ tục hải quan",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2020-02-11",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "hai-quan/thu-tuc",
+        "xuat-xu-fta/quy-tac-xuat-xu"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/xuat-nhap-khau/cong-van-755-tchq-gsql-2020-kiem-tra-xac-dinh-xuat-xu-hang-hoa-180593-d6.html",
+          "truy_cap": "2026-10-30"
+        },
+        {
+          "url": "https://hethongphapluat.com/official-dispatch-no-755-tchq-gsql-dated-february-11-2020-inspection-and-identification-of-origin-prevention-of-fraud-and-counterfeit-origin-labeling-illegal-transshipment-and-certain-contents-relating-to-customs-procedures.html",
+          "truy_cap": "2026-10-30"
+        }
+      ],
+      "toan_van": "raw/download/luatvietnam.vn/2020/2/755-tchq-gsql-2020-trich-doan.txt",
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, ngày 11-02-2020, trích yếu, người ký (Mai Xuân Thành, Phó Tổng cục trưởng), mục 1 (6 ví dụ mô tả sơ sài) — trích đoạn đọc từ thân văn bản trên LuatVietnam (bậc B) qua công cụ đọc web; đối chiếu chéo với bản dịch tiếng Anh hethongphapluat.com (bậc C). CHƯA có PDF gốc, CHƯA thấy trên customs.gov.vn",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-30",
+        "boi": "claude-code@ozvietnam",
+        "chan": {
+          "ma": "THIEU_PDF_A",
+          "ngay": "2026-10-30",
+          "viec_tiep": "Tìm bản có dấu đỏ (customs.gov.vn hoặc tài khoản LuatVietnam/TVPL) để đối chiếu trích đoạn; xác minh phạm vi thay thế của CV 17552/CHQ-GSQL (16-06-2026)"
+        }
+      },
+      "ghi_chu": "Theo LuatVietnam (bậc B), CV 17552/CHQ-GSQL ngày 16-06-2026 của Cục Hải quan, Phần III điểm 1, \"thay thế các nội dung hướng dẫn về việc kiểm tra, giám sát về xuất xứ hàng hóa, ghi nhãn hàng hóa ...\" tại CV 5189/TCHQ-GSQL, Chỉ thị 7988/CT-TCHQ, CV 755/TCHQ-GSQL và CV 571/CHQ-GSQL. Chưa rõ mục 1 (khai ô mô tả hàng hóa) của CV 755 có nằm trong phạm vi bị thay không, nên để CHUA_XAC_MINH; không ghi quan_he cho tới khi đọc được nguồn A. Toàn văn trong kho chỉ là trích đoạn (không phải PDF gốc).",
+      "tu_khoa": [
+        "mo-ta-hang-hoa",
+        "khai-bao-hai-quan",
+        "xuat-xu",
+        "ghi-nhan",
+        "gian-lan-xuat-xu"
+      ],
+      "slug": "755-tchq-gsql-2020",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "756/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -79853,6 +81347,46 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "91/2026/VBHN-TT-BNNMT",
+      "so_hieu_khac": [
+        "91/2026/VBHN-TT-BNNPTNT"
+      ],
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Hợp nhất Thông tư Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Nông nghiệp và Môi trường",
+      "co_quan": "BNNMT",
+      "tinh_trang": "CHUA_XAC_MINH",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "quan_he": {
+        "hop_nhat": [
+          {
+            "so_hieu": "27/2026/TT-BNNMT"
+          },
+          {
+            "so_hieu": "44/2026/TT-BNNMT"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://thuvienxuatnhapkhau.com/thong-tu-44-2026-tt-bnnmt-sua-doi-thong-tu-27-2026-tt-bnnmt-ve-danh-muc-san-pham-hang-hoa-co-muc-do-rui-ro-trung-binh-muc-do-rui-ro-cao-thuoc-trach-nhiem-quan-ly-cua-bo-nong-nghiep-va-moi-truong.html",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu hợp nhất 91/2026/VBHN-TT-BNNMT (được dẫn trong bài TXNK về TT 44/2026) — ngày ban hành + thành phần chưa đối chiếu",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Bắt bởi radar công báo 29/10 (issue #251).",
+      "slug": "91-2026-vbhn-tt-bnnmt",
+      "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "91/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -80306,6 +81840,56 @@
       "slug": "928-tb-tchq-2022",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "93/2025/QH15",
+      "loai": "LUAT",
+      "ten": "Luật Khoa học, công nghệ và đổi mới sáng tạo",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2025-06-27",
+      "hieu_luc_tu": "2025-10-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "50/2005/QH11",
+            "tu_ngay": "2025-10-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/155-vbhn-vpqh.pdf",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, ngày ban hành 27-06-2025, hiệu lực 01-10-2025 và việc sửa đổi Luật SHTT — nguyên văn phần đầu VBHN 155/VBHN-VPQH",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam",
+        "canh_bao": "Chưa có trang văn bản riêng đã đối chiếu; đây là lần sửa đổi thứ tư của Luật SHTT theo VBHN 155 — ngoài ra luật này còn tác động lên các luật khác không ghi ở đây."
+      },
+      "tu_khoa": [
+        "so-huu-tri-tue",
+        "shtt",
+        "khoa-hoc-cong-nghe"
+      ],
+      "slug": "93-2025-qh15",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "155/VBHN-VPQH",
+            "quan_he": "hop_nhat",
+            "so_hieu": "93/2025/QH15"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "94719/TB-TCHQ/2018",
@@ -81028,6 +82612,67 @@
       "slug": "989-tb-tchq-2022",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "99/2013/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2013-08-29",
+      "hieu_luc_tu": "2013-10-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {},
+      "nguon": [
+        {
+          "url": "https://danang.gov.vn/web/dng/-/nghi-dinh-so-99-2013-nd-cp-ngay-29-thang-8-nam-2013-cua-chinh-phu-quy-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-so-huu-cong-nghiep",
+          "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/So-huu-tri-tue/Nghi-dinh-99-2013-ND-CP-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-so-huu-cong-nghiep-231417.aspx",
+          "truy_cap": "2026-10-29"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 29-08-2013 (khớp nguyên văn tên NĐ 46/2024 trên vanban.chinhphu.vn); Điều 45: hiệu lực 15-10-2013 (toàn văn cổng Đà Nẵng)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-10-29",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Sửa đổi bởi NĐ 46/2017, NĐ 126/2021, NĐ 46/2024 (record riêng). Văn bản chế tài chính khi hàng XNK xâm phạm nhãn hiệu/kiểu dáng.",
+      "tu_khoa": [
+        "so-huu-tri-tue",
+        "xu-phat",
+        "nhan-hieu",
+        "hang-gia"
+      ],
+      "slug": "99-2013-nd-cp",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "126/2021/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "99/2013/NĐ-CP",
+            "tu_ngay": "2022-03-01"
+          },
+          {
+            "tu": "46/2017/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "99/2013/NĐ-CP",
+            "tu_ngay": "2017-06-01"
+          },
+          {
+            "tu": "46/2024/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "99/2013/NĐ-CP",
+            "tu_ngay": "2024-07-01"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "99/TB-TCHQ/2022",

@@ -1,9 +1,9 @@
 ---
 id: phan-loai-ma-hs
-title: "Phân loại mã số HS hàng xuất nhập khẩu"
+title: Phân loại mã số HS hàng xuất nhập khẩu
 type: concept
 created: 2026-10-04
-updated: 2026-10-09
+updated: 2026-10-30
 key_sources:
   - 85-2026-tt-btc
   - 14-2015-tt-btc
@@ -17,8 +17,11 @@ related_concepts:
   - thue-gtgt-hang-nhap-khau
   - muc-do-rui-ro-hang-hoa
   - gri-wco
+  - mo-ta-hang-hoa-khai-bao
 confidence: high
-tags: [phan-loai-hs, hai-quan]
+tags:
+  - phan-loai-hs
+  - hai-quan
 ---
 
 ## Definition
@@ -69,6 +72,7 @@ Phân loại mã HS là việc gắn hàng hoá xuất nhập khẩu vào mã s�
 - [[concepts/thu-tuc-hai-quan-xnk]] — mô tả hàng trên tờ khai gắn với mã khai.
 - [[concepts/thue-gtgt-hang-nhap-khau]] — thuế suất phụ thuộc phân loại và biểu thuế.
 - [[concepts/muc-do-rui-ro-hang-hoa]] — danh mục rủi ro KTCN cũng gắn mã HS theo từng bộ.
+- [[concepts/mo-ta-hang-hoa-khai-bao]] — mô tả trên tờ khai là căn cứ xác định mã số (chỉ tiêu 1.78).
 
 ## Mentioned in
 

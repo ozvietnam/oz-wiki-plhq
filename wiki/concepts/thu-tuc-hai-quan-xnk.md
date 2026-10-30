@@ -1,19 +1,23 @@
 ---
 id: thu-tuc-hai-quan-xnk
-title: "Thủ tục hải quan hàng xuất nhập khẩu"
+title: Thủ tục hải quan hàng xuất nhập khẩu
 type: concept
 created: 2026-10-04
-updated: 2026-10-04
+updated: 2026-10-30
 key_sources:
-  - 81-2019-tt-btc
   - 06-2024-tt-btc
   - 1921-qd-tchq
+  - 755-tchq-gsql-2020
+  - 81-2019-tt-btc
 related_concepts:
   - phan-loai-ma-hs
   - thue-gtgt-hang-nhap-khau
   - doc-tinh-trang-hieu-luc
+  - mo-ta-hang-hoa-khai-bao
 confidence: medium
-tags: [hai-quan, thu-tuc]
+tags:
+  - hai-quan
+  - thu-tuc
 ---
 
 ## Definition
@@ -32,19 +36,23 @@ Thủ tục hải quan là chuỗi nghĩa vụ khai, nộp hồ sơ, chịu ki�
 
 **Mô tả hàng hoá trên tờ khai:** ghi chú sổ tại `39/2018/TT-BTC` nêu phụ lục chỉ tiêu khai gồm yêu cầu mô tả hàng hoá (mục 1.78). Wiki **chưa** trích nguyên văn mục đó vì chưa nạp toàn văn — chỉ neo số hiệu đã đăng ký.
 
+Cập nhật 30/10/2026: chỉ tiêu 1.78 hiện hành (TT 121/2025) đã được trích nguyên văn ở [[concepts/mo-ta-hang-hoa-khai-bao]]; ví dụ mô tả sơ sài ở [[sources/755-tchq-gsql-2020]].
+
 ## Key sources
 
 - [[sources/81-2019-tt-btc]] — TT 81/2019/TT-BTC: quản lý rủi ro + **phân luồng tờ khai** (Điều 22: Luồng 1 Xanh / Luồng 2 Vàng / Luồng 3 Đỏ)
 - [[sources/06-2024-tt-btc]] — TT 06/2024/TT-BTC: sửa TT 81/2019 (hiệu lực 15/03/2024)
 - [[sources/1921-qd-tchq]] — QĐ 1921/QĐ-TCHQ: quy trình phân loại + áp dụng mức thuế của ngành Hải quan (chưa xác minh)
+- [[sources/755-tchq-gsql-2020]] — CV 755/TCHQ-GSQL (2020): yêu cầu chấn chỉnh khai ô mô tả hàng hóa, ghi kết quả kiểm tra thực tế.
 
-Phần lớn các văn bản trong bảng trên **chưa có trang nguồn wiki**. Căn cứ hiện tại: tệp sổ `registry/van-ban/` cho các số hiệu trên (`xac_minh.hieu_luc_da_doi_chieu: false` với nhóm khung hải quan lúc khởi tạo).
+Phần lớn các văn bản trong bảng trên **chưa có trang nguồn wiki**. Căn cứ hiện tại: tệp sổ `registry/van-ban/` cho các số hiệu trên.
 
 ## Related concepts
 
 - [[concepts/phan-loai-ma-hs]] — mã HS gắn với mô tả hàng và biểu thuế.
 - [[concepts/thue-gtgt-hang-nhap-khau]] — thuế nội địa khâu nhập khẩu.
 - [[concepts/doc-tinh-trang-hieu-luc]] — đọc `sua_doi` / `thay_the` / ngày hết hiệu lực một cửa.
+- [[concepts/mo-ta-hang-hoa-khai-bao]] — ô mô tả hàng hóa (chỉ tiêu 1.78).
 
 ## Mentioned in
 
