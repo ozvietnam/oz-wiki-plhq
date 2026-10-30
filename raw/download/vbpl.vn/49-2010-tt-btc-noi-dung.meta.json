@@ -1,0 +1,107 @@
+{
+  "id": "25288",
+  "docType": {
+    "id": "178c63a9-73ff-4fd4-9d91-18d690520090",
+    "name": "Thông tư",
+    "code": "TT",
+    "parentCode": "VBQPPL",
+    "parentName": null
+  },
+  "docGroup": "VBQPPL",
+  "docNum": "49/2010/TT-BTC",
+  "title": "Thông tư số 49/2010/TT-BTC Hướng dẫn việc phân loại, áp dụng mức thuế đối với hàng hóa xuất khẩu, nhập khẩu",
+  "applicationNote": "Bị bãi bỏ bởi Thông tư 14/2015/TT-BTC Hướng dẫn về phân loại hàng hóa, phân tích để phân loại hàng hóa; phân tích để kiểm tra chất lượng, kiểm tra an toàn thực phẩm đối với hàng hóa xuất khẩu, nhập khẩu",
+  "issueDate": "2010-04-12T00:00:00",
+  "effFrom": "2010-05-27T00:00:00",
+  "effTo": "2015-03-16T00:00:00",
+  "publicDate": "2013-11-02T00:00:00",
+  "effStatus": {
+    "id": "f55c1469-4341-4274-93ef-32b283db4dbd",
+    "name": "Hết hiệu lực toàn bộ",
+    "code": "HHL",
+    "parentCode": null,
+    "parentName": null
+  },
+  "status": "Publish",
+  "lang": "vi",
+  "defaultLanguage": "VN",
+  "updatedBy": "dungdvm_II.4",
+  "updatedDate": "2026-01-10T10:37:57",
+  "agencyName": "Bộ Tài chính",
+  "organization": {
+    "id": "d2907e2d-b1d4-4f22-8cfc-35f786fbf860",
+    "code": "BTC",
+    "name": "Bộ Tài chính",
+    "nameEn": "Bộ Tài chính",
+    "shortName": "BTC",
+    "orgType": "0"
+  },
+  "isLw": true,
+  "documentContent": {
+    "id": "25288",
+    "title": null,
+    "content": "$c"
+  },
+  "documentContentEn": null,
+  "documentContentFileName": "VanBanGoc_49-2010-TT-BTC_Phu luc.pdf",
+  "documentContentFileDocName": "49.2010.TT.BTC.doc",
+  "documentIssues": [
+    {
+      "id": "e711ebf8-1e18-40ff-be6c-cf8f26661902",
+      "agencyId": "40",
+      "agencyName": "Bộ Tài chính",
+      "agencyNameEn": "The Ministry of Finance",
+      "agencyCode": "BTC",
+      "personId": "286",
+      "personName": "Đỗ Hoàng Anh Tuấn",
+      "jobTitleId": "63ddff76-7a56-49d8-9458-6eda5e1a4df6",
+      "jobTitleCode": "TT3",
+      "jobTitleName": "Thứ trưởng",
+      "orderIndex": 1
+    }
+  ],
+  "documentMajors": [
+    {
+      "id": "nganh_63",
+      "name": "Tài chính",
+      "code": null,
+      "parentCode": null,
+      "parentName": null
+    }
+  ],
+  "documentFields": [
+    {
+      "id": "7243",
+      "name": "Quản lý thuế, phí và lệ phí",
+      "code": null,
+      "parentCode": null,
+      "parentName": null
+    }
+  ],
+  "documentRelatedList": [
+    {
+      "id": "5a8cd197-8000-446f-ace3-d9a39bb54f8c",
+      "fileName": "25288_body_content.html",
+      "relatedType": "MARKDOWN",
+      "fileTitle": "25288_body_content.html",
+      "fileOrder": null
+    }
+  ],
+  "provisionTree": null,
+  "references": null,
+  "isEffectAllDocument": false,
+  "isOld": true,
+  "reviewStatus": "INITIAL",
+  "reviewed": false,
+  "isTranslationDoc": false,
+  "isConsolidatedDocument": false,
+  "isConstitutionDocument": false,
+  "isAdministrativeDocument": false,
+  "viewCount": 33,
+  "showViewCount": true,
+  "hasContent": true,
+  "hasOriginalPdf": true,
+  "hasAIProcessed": false,
+  "hasClauseRelation": null,
+  "aiResults": []
+}

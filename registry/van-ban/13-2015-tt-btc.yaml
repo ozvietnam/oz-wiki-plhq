@@ -5,17 +5,23 @@ ten: Quy định về kiểm tra, giám sát, tạm dừng làm thủ tục hả
 co_quan: BTC
 ngay_ban_hanh: '2015-01-30'
 hieu_luc_tu: '2015-03-15'
-tinh_trang: CHUA_XAC_MINH
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - hai-quan/kiem-tra-giam-sat
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-13-2015-tt-btc-7958.htm
-    truy_cap: '2026-10-04'
+    truy_cap: '2026-10-28'
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=179326
     truy_cap: '2026-10-29'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 30-01-2015, hiệu lực 15-03-2015 — đối chiếu thẻ vanban.chinhphu.vn ngày 29-10-2026 khi nạp gia đình SHTT'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: >-
+    Đã đối chiếu lại trên Công báo (nguồn bậc A) ngày 28-10-2026: ban hành 30-01-2015, hiệu lực
+    15-03-2015, cơ quan Bộ Tài chính. Mục "Lược đồ" của Công báo cho biết văn bản CHƯA bị thay
+    thế/bãi bỏ và CHƯA bị sửa đổi/đính chính. Ngoài ra đã bị TT 06/2026/TT-BTC sửa đổi, bổ sung
+    từ 01-03-2026 (chiều đi ghi ở văn bản mới: registry/van-ban/06-2026-tt-btc.yaml) — nên vẫn còn
+    hiệu lực.
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-10-28'
+  boi: zcode@ozvietnam
+

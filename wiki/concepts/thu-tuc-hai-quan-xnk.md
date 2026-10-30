@@ -5,7 +5,10 @@ type: concept
 created: 2026-10-04
 updated: 2026-10-30
 key_sources:
+  - 06-2024-tt-btc
+  - 1921-qd-tchq
   - 755-tchq-gsql-2020
+  - 81-2019-tt-btc
 related_concepts:
   - phan-loai-ma-hs
   - thue-gtgt-hang-nhap-khau
@@ -37,9 +40,12 @@ Cập nhật 30/10/2026: chỉ tiêu 1.78 hiện hành (TT 121/2025) đã đư�
 
 ## Key sources
 
+- [[sources/81-2019-tt-btc]] — TT 81/2019/TT-BTC: quản lý rủi ro + **phân luồng tờ khai** (Điều 22: Luồng 1 Xanh / Luồng 2 Vàng / Luồng 3 Đỏ)
+- [[sources/06-2024-tt-btc]] — TT 06/2024/TT-BTC: sửa TT 81/2019 (hiệu lực 15/03/2024)
+- [[sources/1921-qd-tchq]] — QĐ 1921/QĐ-TCHQ: quy trình phân loại + áp dụng mức thuế của ngành Hải quan (chưa xác minh)
 - [[sources/755-tchq-gsql-2020]] — CV 755/TCHQ-GSQL (2020): yêu cầu chấn chỉnh khai ô mô tả hàng hóa, ghi kết quả kiểm tra thực tế.
 
-Chưa có trang nguồn wiki. Căn cứ hiện tại: tệp sổ `registry/van-ban/` cho các số hiệu trên (`xac_minh.hieu_luc_da_doi_chieu: false` với nhóm khung hải quan lúc khởi tạo).
+Phần lớn các văn bản trong bảng trên **chưa có trang nguồn wiki**. Căn cứ hiện tại: tệp sổ `registry/van-ban/` cho các số hiệu trên.
 
 ## Related concepts
 
