@@ -1,6 +1,6 @@
 {
-  "ngay": "2026-11-01",
-  "tong": 5015,
+  "ngay": "2026-11-02",
+  "tong": 5025,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -6741,6 +6741,15 @@
       "muc_tieu": "154/2018/NĐ-CP",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"154/2018/NĐ-CP\" --ghi",
       "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "SAP_CO_HIEU_LUC",
+      "muc": "Vừa",
+      "tieuDe": "154/2026/TT-BTC có hiệu lực ngày 2027-01-01",
+      "muc_tieu": "154/2026/TT-BTC",
+      "viec": "Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.",
+      "luong": "doc-hieu",
       "trongSo": 0
     },
     {
@@ -38028,6 +38037,15 @@
       "trongSo": 0
     },
     {
+      "ma": "SAP_HET_HIEU_LUC",
+      "muc": "Cao",
+      "tieuDe": "72/2026/NĐ-CP hết hiệu lực ngày 2027-01-01",
+      "muc_tieu": "72/2026/NĐ-CP",
+      "viec": "Tới ngày thì chuyển tinh_trang; rà mọi trang wiki và văn bản đang dẫn chiếu 72/2026/NĐ-CP.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "72/2026/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -44356,6 +44374,51 @@
     },
     {
       "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
+      "muc": "Vừa",
+      "tieuDe": "Hàng thật mã 83013000 chưa đối chiếu danh mục KTCN 2026",
+      "muc_tieu": "83013000",
+      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-26) mang mã 83013000 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Biểu thuế đang dẫn: 08/2023/TT-BCT. Chưa bảng KTCN 2026 nào có dòng nhóm 8301 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
+      "luong": "danh-muc-hs",
+      "trongSo": 2000
+    },
+    {
+      "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
+      "muc": "Vừa",
+      "tieuDe": "Hàng thật mã 84561190 chưa đối chiếu danh mục KTCN 2026",
+      "muc_tieu": "84561190",
+      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-26) mang mã 84561190 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Chưa bảng KTCN 2026 nào có dòng nhóm 8456 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
+      "luong": "danh-muc-hs",
+      "trongSo": 2000
+    },
+    {
+      "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
+      "muc": "Thấp",
+      "tieuDe": "Hàng thật mã 39249090 chưa đối chiếu danh mục KTCN 2026",
+      "muc_tieu": "39249090",
+      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-26) mang mã 39249090 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Biểu thuế đang dẫn: 08/2023/TT-BCT, 34/2025/TT-BCT, 42/2019/TT-BCT. Bảng KTCN 2026 có dòng cùng nhóm 3924: 27/2026/TT-BYT — mở bản gốc đối chiếu xem mã 39249090 có bị trích sót không. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
+      "luong": "danh-muc-hs",
+      "trongSo": 1500
+    },
+    {
+      "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
+      "muc": "Thấp",
+      "tieuDe": "Hàng thật mã 42029290 chưa đối chiếu danh mục KTCN 2026",
+      "muc_tieu": "42029290",
+      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-26) mang mã 42029290 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Biểu thuế đang dẫn: 08/2023/TT-BCT. Chưa bảng KTCN 2026 nào có dòng nhóm 4202 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
+      "luong": "danh-muc-hs",
+      "trongSo": 1000
+    },
+    {
+      "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
+      "muc": "Thấp",
+      "tieuDe": "Hàng thật mã 64041990 chưa đối chiếu danh mục KTCN 2026",
+      "muc_tieu": "64041990",
+      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-26) mang mã 64041990 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Biểu thuế đang dẫn: 765/QĐ-BCT, 08/2023/TT-BCT, 42/2019/TT-BCT, 34/2025/TT-BCT, 01/2021/TT-BLĐTBXH. Bảng KTCN 2026 có dòng cùng nhóm 6404: 33/2026/TT-BCT — mở bản gốc đối chiếu xem mã 64041990 có bị trích sót không. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
+      "luong": "danh-muc-hs",
+      "trongSo": 1500
+    },
+    {
+      "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
       "muc": "Thấp",
       "tieuDe": "Hàng thật mã 76109099 chưa đối chiếu danh mục KTCN 2026",
       "muc_tieu": "76109099",
@@ -44402,6 +44465,15 @@
     {
       "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
       "muc": "Thấp",
+      "tieuDe": "Hàng thật mã 84199029 chưa đối chiếu danh mục KTCN 2026",
+      "muc_tieu": "84199029",
+      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-26) mang mã 84199029 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Biểu thuế đang dẫn: 08/2023/TT-BCT. Chưa bảng KTCN 2026 nào có dòng nhóm 8419 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
+      "luong": "danh-muc-hs",
+      "trongSo": 1000
+    },
+    {
+      "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
+      "muc": "Thấp",
       "tieuDe": "Hàng thật mã 84224000 chưa đối chiếu danh mục KTCN 2026",
       "muc_tieu": "84224000",
       "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-19) mang mã 84224000 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Biểu thuế đang dẫn: 08/2023/TT-BCT. Chưa bảng KTCN 2026 nào có dòng nhóm 8422 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
@@ -44423,15 +44495,6 @@
       "tieuDe": "Hàng thật mã 84388091 chưa đối chiếu danh mục KTCN 2026",
       "muc_tieu": "84388091",
       "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-19) mang mã 84388091 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Chưa bảng KTCN 2026 nào có dòng nhóm 8438 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
-      "luong": "danh-muc-hs",
-      "trongSo": 1000
-    },
-    {
-      "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
-      "muc": "Thấp",
-      "tieuDe": "Hàng thật mã 84561190 chưa đối chiếu danh mục KTCN 2026",
-      "muc_tieu": "84561190",
-      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-12) mang mã 84561190 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Chưa bảng KTCN 2026 nào có dòng nhóm 8456 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
       "luong": "danh-muc-hs",
       "trongSo": 1000
     },
@@ -44474,6 +44537,24 @@
     {
       "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
       "muc": "Thấp",
+      "tieuDe": "Hàng thật mã 91021100 chưa đối chiếu danh mục KTCN 2026",
+      "muc_tieu": "91021100",
+      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-26) mang mã 91021100 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Biểu thuế đang dẫn: 08/2023/TT-BCT. Chưa bảng KTCN 2026 nào có dòng nhóm 9102 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
+      "luong": "danh-muc-hs",
+      "trongSo": 1000
+    },
+    {
+      "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
+      "muc": "Thấp",
+      "tieuDe": "Hàng thật mã 91021200 chưa đối chiếu danh mục KTCN 2026",
+      "muc_tieu": "91021200",
+      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-26) mang mã 91021200 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Biểu thuế đang dẫn: 08/2023/TT-BCT. Chưa bảng KTCN 2026 nào có dòng nhóm 9102 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
+      "luong": "danh-muc-hs",
+      "trongSo": 1000
+    },
+    {
+      "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
+      "muc": "Thấp",
       "tieuDe": "Hàng thật mã 94035000 chưa đối chiếu danh mục KTCN 2026",
       "muc_tieu": "94035000",
       "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-19) mang mã 94035000 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Biểu thuế đang dẫn: 01/2024/TT-BNNPTNT, 08/2023/TT-BCT, 34/2025/TT-BCT, 42/2019/TT-BCT, 17/2023/TT-BNNPTNT. Chưa bảng KTCN 2026 nào có dòng nhóm 9403 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
@@ -44497,6 +44578,15 @@
       "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-12) mang mã 94054140 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Biểu thuế đang dẫn: 08/2023/TT-BCT, 1182/QĐ-BCT-PL1, 2711/QĐ-BKHCN. Bảng KTCN 2026 có dòng cùng nhóm 9405: 125/2026/TT-BCA, 36/2026/TT-BKHCN — mở bản gốc đối chiếu xem mã 94054140 có bị trích sót không. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
       "luong": "danh-muc-hs",
       "trongSo": 1500
+    },
+    {
+      "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
+      "muc": "Thấp",
+      "tieuDe": "Hàng thật mã 96020090 chưa đối chiếu danh mục KTCN 2026",
+      "muc_tieu": "96020090",
+      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-10-26) mang mã 96020090 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Chưa bảng KTCN 2026 nào có dòng nhóm 9602 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
+      "luong": "danh-muc-hs",
+      "trongSo": 1000
     },
     {
       "ma": "HS_API_UU_TIEN_DOI_CHIEU",
