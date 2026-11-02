@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-02
 
-2401 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2402 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -2382,10 +2382,11 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có danh mục riêng kèm mã HS._
 
-2 văn bản, 2 chưa hết hiệu lực.
+3 văn bản, 3 chưa hết hiệu lực.
 
 - 🟢 [136/2026/VBHN-TT-BCT](../registry/van-ban/136-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư Ban hành Quy chuẩn kỹ thuật quốc gia đối với sản phẩm khăn giấy và giấy vệ sinh
 - 🟢 [138/2026/VBHN-TT-BXD](../registry/van-ban/138-2026-vbhn-tt-bxd.yaml) — Hợp nhất Thông tư Ban hành quy chuẩn kỹ thuật quốc gia về sản phẩm, hàng hóa vật liệu xây dựng
+- 🟢 [11/2026/TT-BCT](../registry/van-ban/11-2026-tt-bct.yaml) — Quy định về truy xuất nguồn gốc thực phẩm thuộc phạm vi quản lý của Bộ Công Thương
 
 ### Khung chung về chất lượng sản phẩm, hàng hoá `kiem-tra-chuyen-nganh/khung-chat-luong`
 
