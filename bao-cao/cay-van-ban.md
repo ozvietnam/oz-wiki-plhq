@@ -1,6 +1,6 @@
-# Cây văn bản pháp luật XNK — 2026-11-02
+# Cây văn bản pháp luật XNK — 2026-11-03
 
-2402 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2404 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -2305,8 +2305,9 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Quản lý ngoại thương `quan-ly-ngoai-thuong`
 
-8 văn bản, 8 chưa hết hiệu lực.
+10 văn bản, 10 chưa hết hiệu lực.
 
+- 🔵 [372/2026/NĐ-CP](../registry/van-ban/372-2026-nd-cp.yaml) — Quy định về định danh, xác thực và truy xuất nguồn gốc sản phẩm, hàng hóa
 - 🟢 [365/2026/NĐ-CP](../registry/van-ban/365-2026-nd-cp.yaml) — Quy định về kinh doanh xuất nhập khẩu gạo
 - 🟡 [42/2019/TT-BCT](../registry/van-ban/42-2019-tt-bct.yaml) — Sửa đổi, bổ sung một số quy định về chế độ báo cáo định kỳ tại các Thông tư do Bộ trưởng Bộ Công Thương ban hành hoặc liên tịch ban hành
 - 🟢 [43/2017/NĐ-CP](../registry/van-ban/43-2017-nd-cp.yaml) — Quy định về ghi nhãn hàng hóa
@@ -2315,6 +2316,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [36/2005/QH11](../registry/van-ban/36-2005-qh11.yaml) — Luật Thương mại
 - 🟢 [25/2018/NĐ-CP](../registry/van-ban/25-2018-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 195/2013/NĐ-CP quy định chi tiết một số điều của Luật Xuất bản về hoạt động xuất bản, in và phát hành
 - 🟢 [60/2014/NĐ-CP](../registry/van-ban/60-2014-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 195/2013/NĐ-CP
+- 🟢 [63/2026/TT-BKHCN](../registry/van-ban/63-2026-tt-bkhcn.yaml) — Ban hành Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa
 
 ### Luật Quản lý ngoại thương và nghị định `quan-ly-ngoai-thuong/luat-khung`
 
