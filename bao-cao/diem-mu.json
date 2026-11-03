@@ -1,6 +1,6 @@
 {
-  "ngay": "2026-11-02",
-  "tong": 5031,
+  "ngay": "2026-11-03",
+  "tong": 5039,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -24339,6 +24339,42 @@
       "trongSo": 0
     },
     {
+      "ma": "SAP_CO_HIEU_LUC",
+      "muc": "Vừa",
+      "tieuDe": "372/2026/NĐ-CP có hiệu lực ngày 2027-01-01",
+      "muc_tieu": "372/2026/NĐ-CP",
+      "viec": "Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.",
+      "luong": "doc-hieu",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Thấp",
+      "tieuDe": "372/2026/NĐ-CP: chưa có nguồn chính thống",
+      "muc_tieu": "372/2026/NĐ-CP",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "372/2026/NĐ-CP: tình trạng \"CHUA_CO_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "372/2026/NĐ-CP",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "372/2026/NĐ-CP: chưa có toàn văn trong raw/",
+      "muc_tieu": "372/2026/NĐ-CP",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"372/2026/NĐ-CP\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "3734/TB-TCHQ/2019: chưa có nguồn chính thống",
@@ -34618,6 +34654,33 @@
     },
     {
       "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "63/2026/TT-BKHCN: chưa có nguồn chính thống",
+      "muc_tieu": "63/2026/TT-BKHCN",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "63/2026/TT-BKHCN: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "63/2026/TT-BKHCN",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "63/2026/TT-BKHCN: chưa có toàn văn trong raw/",
+      "muc_tieu": "63/2026/TT-BKHCN",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"63/2026/TT-BKHCN\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "630/TB-TCHQ/2019: chưa có nguồn chính thống",
       "muc_tieu": "630/TB-TCHQ/2019",
@@ -43228,6 +43291,15 @@
       "viec": "Văn bản danh mục chưa có danh-muc/6266-qd-bca-2023.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 19 mã.",
       "luong": "danh-muc-hs",
       "trongSo": 19
+    },
+    {
+      "ma": "DANH_MUC_CHUA_TRICH",
+      "muc": "Vừa",
+      "tieuDe": "Chưa trích bảng mã HS: 63/2026/TT-BKHCN",
+      "muc_tieu": "63/2026/TT-BKHCN",
+      "viec": "Văn bản danh mục chưa có danh-muc/63-2026-tt-bkhcn.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
     },
     {
       "ma": "DANH_MUC_CHUA_TRICH",
