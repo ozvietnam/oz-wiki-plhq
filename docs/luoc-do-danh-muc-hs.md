@@ -79,6 +79,31 @@ danh_muc_hs:
 | `HS_KHONG_TON_TAI` | Mã trong bảng không có trong biểu thuế: lỗi trích, mã của biểu thuế cũ, hoặc bản chụp biểu thuế chưa cập nhật |
 | `DAN_CHIEU_CHUA_CO_BANG` | Bảng dẫn mã sang văn bản chưa có bảng, hoặc văn bản chưa có trong sổ |
 
+## Quy tắc nội suy mã khi Phụ lục dẫn chiếu (học từ TT 27/2026/TT-BYT, 10/2026)
+
+Từ 01/7/2026 các bộ ban hành danh mục rủi ro theo NĐ 37/2026/NĐ-CP. Nhiều Phụ lục
+**không in mã HS** mà ghi cột "Mã HS — theo quy định tại TT \<cũ của bộ\> và
+31/2022/TT-BTC". Nạp kiểu dán nguyên phụ lục với `ma_hs` trống làm **cả lớp văn bản
+chết** — không dòng chính sách nào hiện với bất kỳ mã nào (ca thật: TT 27/2026/TT-BYT
+từ khi nạp đến 30/10 chưa từng đỏ mã nào).
+
+Quy trình khi gặp danh mục dẫn chiếu:
+
+1. **Đọc nguyên văn toàn Phụ lục** (bản text/OCR), liệt kê đủ số nhóm + QCVN gắn
+   từng nhóm + yêu cầu quản lý (đăng ký lưu hành / công bố hợp quy / tự công bố).
+2. **Lần theo từng nhánh dẫn chiếu**: mã có trong bảng của TT cũ cùng bộ → chép
+   nguyên dòng; không có (vd nhóm dinhdưỡng trẻ em, nước đóng chai không nằm trong
+   15/2024) → lấy theo **danh mục hàng hóa XNK 31/2022/TT-BTC** bằng cách đối chiếu
+   tên lá biểu thuế, ghi `dan_chieu` đúng nguồn từng dòng.
+3. **Ghi phủ định đích danh**: nhóm KHÔNG thuộc danh mục ghi rõ vào `ghi_chu` bản
+   ghi kèm dẫn chứng đã đọc nguyên văn (vd: thủy tinh/gốm sứ tráng men QCVN 12-4
+   KHÔNG thuộc rủi ro trung bình BYT từ 01/7/2026) — để không ai "bổ sung cho đủ"
+   theo luật cũ về sau.
+4. **Đánh dấu phần chưa giải được xong** (`da_doi_chieu` phản ánh đúng phạm vi đã
+   làm) và theo dõi nốt bằng lần sau — không để TODO mờ trong CSV.
+
+Case lưu vẹn: PR #281 + #282 (19 mã, 8/8 nhóm TT 27/2026; đính chính thủy tinh).
+
 ## Dùng ở đâu
 
 `npm run dung` xuất `dist/hs-index.json`, gồm mỗi văn bản kèm tình trạng hiệu lực và các dòng bảng.
