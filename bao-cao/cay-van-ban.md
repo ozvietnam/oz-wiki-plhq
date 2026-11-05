@@ -1,6 +1,6 @@
-# Cây văn bản pháp luật XNK — 2026-11-04
+# Cây văn bản pháp luật XNK — 2026-11-05
 
-2405 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2410 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -48,7 +48,7 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Kiểm tra, giám sát, kiểm soát hải quan `hai-quan/kiem-tra-giam-sat`
 
-26 văn bản, 22 chưa hết hiệu lực.
+27 văn bản, 23 chưa hết hiệu lực.
 
 - 🟢 [128/2026/TT-BTC](../registry/van-ban/128-2026-tt-btc.yaml) — Quy định về kiểm tra, giám sát và quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh và phương tiện vận tải hoạt động trong khu vực cửa khẩu thông minh
 - 🟢 [06/2026/TT-BTC](../registry/van-ban/06-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 13/2015/TT-BTC quy định về kiểm tra, giám sát, tạm dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo vệ quyền sở hữu trí tuệ
@@ -76,6 +76,7 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 - ⚫ [103/2006/NĐ-CP](../registry/van-ban/103-2006-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Sở hữu trí tuệ về sở hữu công nghiệp _(hết hiệu lực 2023-08-23)_
 - ⚫ [105/2006/NĐ-CP](../registry/van-ban/105-2006-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Sở hữu trí tuệ về bảo vệ quyền sở hữu trí tuệ và quản lý nhà nước về sở hữu trí tuệ _(hết hiệu lực 2025-12-30)_
 - 🟢 [50/2005/QH11](../registry/van-ban/50-2005-qh11.yaml) — Luật Sở hữu trí tuệ
+- 🟢 [166/2026/TT-BTC](../registry/van-ban/166-2026-tt-btc.yaml) — Bãi bỏ một số văn bản quy phạm pháp luật liên tịch lĩnh vực tài chính (bao gồm TTLT 17/2003/TTLT-BTC-BNNPTNT-BTS về kiểm tra giám sát hàng hóa XNK thuộc diện kiểm dịch động vật, thực vật, thủy sản)
 
 ### Trị giá hải quan `hai-quan/tri-gia`
 
@@ -2306,10 +2307,11 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Quản lý ngoại thương `quan-ly-ngoai-thuong`
 
-10 văn bản, 10 chưa hết hiệu lực.
+11 văn bản, 11 chưa hết hiệu lực.
 
 - 🔵 [372/2026/NĐ-CP](../registry/van-ban/372-2026-nd-cp.yaml) — Quy định về định danh, xác thực và truy xuất nguồn gốc sản phẩm, hàng hóa
 - 🟢 [365/2026/NĐ-CP](../registry/van-ban/365-2026-nd-cp.yaml) — Quy định về kinh doanh xuất nhập khẩu gạo
+- 🟢 [42/2026/TT-BCT](../registry/van-ban/42-2026-tt-bct.yaml) — Quy định về việc xác định 31 mặt hàng hàng hóa lưỡng dụng
 - 🟡 [42/2019/TT-BCT](../registry/van-ban/42-2019-tt-bct.yaml) — Sửa đổi, bổ sung một số quy định về chế độ báo cáo định kỳ tại các Thông tư do Bộ trưởng Bộ Công Thương ban hành hoặc liên tịch ban hành
 - 🟢 [43/2017/NĐ-CP](../registry/van-ban/43-2017-nd-cp.yaml) — Quy định về ghi nhãn hàng hóa
 - 🟢 [195/2013/NĐ-CP](../registry/van-ban/195-2013-nd-cp.yaml) — Quy định chi tiết một số điều của Luật Xuất bản về hoạt động xuất bản, in và phát hành
@@ -2421,8 +2423,10 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Kiểm dịch động vật, thực vật, thuỷ sản, y tế `kiem-tra-chuyen-nganh/kiem-dich`
 
-26 văn bản, 23 chưa hết hiệu lực.
+28 văn bản, 25 chưa hết hiệu lực.
 
+- 🟢 [111/2026/VBHN-TT-BNNMT](../registry/van-ban/111-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư Ban hành Quy chuẩn kỹ thuật quốc gia đối với vật thể kiểm dịch thực vật nhập khẩu
+- 🟢 [108/2026/VBHN-TT-BNNMT](../registry/van-ban/108-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư quy định về kiểm dịch thực vật nội địa
 - 🟢 [100/2026/VBHN-TT-BNNMT](../registry/van-ban/100-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Danh mục đối tượng kiểm dịch thực vật
 - 🟢 [99/2026/VBHN-TT-BNNMT](../registry/van-ban/99-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư quy định hồ sơ nghiệp vụ kiểm dịch thực vật
 - 🟢 [3445/QĐ-BNNMT](../registry/van-ban/3445-qd-bnnmt-2026.yaml) — Công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực quản lý nhà nước về trồng trọt và bảo vệ thực vật (có thủ tục cấp Giấy chứng nhận kiểm dịch thực vật nhập khẩu)
@@ -2498,8 +2502,9 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Y tế `kiem-tra-chuyen-nganh/byt`
 
-38 văn bản, 30 chưa hết hiệu lực.
+39 văn bản, 31 chưa hết hiệu lực.
 
+- 🟢 [44/2026/TT-BYT](../registry/van-ban/44-2026-tt-byt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư 07/2022/TT-BYT quy định thuốc phải tương đương sinh học và hồ sơ đăng ký lưu hành thuốc
 - 🟢 [18/2026/VBHN-QĐ-BYT](../registry/van-ban/18-2026-vbhn-qd-byt.yaml) — Hợp nhất Quyết định hướng dẫn thực hiện Thực hành tốt sản xuất mỹ phẩm ASEAN (ASEAN GMP)
 - 🟢 [32/2026/TT-BYT](../registry/van-ban/32-2026-tt-byt.yaml) — Quy định việc đăng ký lưu hành thuốc, nguyên liệu làm thuốc
 - 🟢 [26/2026/TT-BYT](../registry/van-ban/26-2026-tt-byt.yaml) — Danh mục dược liệu, thuốc cổ truyền theo mức độ rủi ro (rủi ro trung bình)
