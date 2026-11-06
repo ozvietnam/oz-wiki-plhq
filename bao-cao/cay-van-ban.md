@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-06
 
-2422 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2426 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -2315,15 +2315,17 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Quản lý ngoại thương `quan-ly-ngoai-thuong`
 
-15 văn bản, 14 chưa hết hiệu lực.
+17 văn bản, 16 chưa hết hiệu lực.
 
 - 🔵 [372/2026/NĐ-CP](../registry/van-ban/372-2026-nd-cp.yaml) — Quy định về định danh, xác thực và truy xuất nguồn gốc sản phẩm, hàng hóa
 - 🟢 [365/2026/NĐ-CP](../registry/van-ban/365-2026-nd-cp.yaml) — Quy định về kinh doanh xuất nhập khẩu gạo
 - 🟢 [42/2026/TT-BCT](../registry/van-ban/42-2026-tt-bct.yaml) — Quy định về việc xác định 31 mặt hàng hàng hóa lưỡng dụng
 - 🟢 [211/2025/NĐ-CP](../registry/van-ban/211-2025-nd-cp.yaml) — Nghị định số 211/2025/NĐ-CP của Chính phủ: Quy định về hoạt động mật mã dân sự và sửa đổi, bổ sung một số điều của Nghị định số 15/2020/NĐ-CP ngày 03 tháng 02 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bưu chính, viễn thông, tần số vô tuyến điện, công nghệ thông tin và giao dịch điện tử được sửa đổi, bổ sung một số điều tại Nghị định số 14/2022/NĐ-CP ngày 27 tháng 01 năm 2022 của Chính phủ
 - ⚫ [144/2021/NĐ-CP](../registry/van-ban/144-2021-nd-cp.yaml) — Nghị định số 144/2021/NĐ-CP ngày 31/12/2021 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực an ninh, trật tự, an toàn xã hội; phòng, chống tệ nạn xã hội; phòng cháy, chữa cháy; cứu nạn, cứu hộ; phòng, chống bạo lực gia đình _(hết hiệu lực 2026-01-01)_
+- 🟢 [11/2021/QĐ-TTg](../registry/van-ban/11-2021-qd-ttg.yaml) — Về việc kéo dài thời gian thực hiện cơ chế tài chính đặc thù của một số cơ quan, đơn vị hành chính nhà nước
 - 🟢 [98/2020/NĐ-CP](../registry/van-ban/98-2020-nd-cp.yaml) — Nghị định số 98/2020/NĐ-CP ngày 26/8/2020 của Chính phủ quy định xử phạt vi phạm hành chính trong hoạt động thương mại, sản xuất, buôn bán hàng giả, hàng cấm và bảo vệ quyền lợi người tiêu dùng
 - 🟡 [42/2019/TT-BCT](../registry/van-ban/42-2019-tt-bct.yaml) — Sửa đổi, bổ sung một số quy định về chế độ báo cáo định kỳ tại các Thông tư do Bộ trưởng Bộ Công Thương ban hành hoặc liên tịch ban hành
+- 🟢 [19/2019/TT-BTC](../registry/van-ban/19-2019-tt-btc.yaml) — Thông tư bãi bỏ Thông tư số 304/2016/TT-BTC ngày 15/11/2016 của Bộ trưởng Bộ Tài chính ban hành Bảng giá tính lệ phí trước bạ đối với ô tô, xe mô tô
 - 🟢 [43/2017/NĐ-CP](../registry/van-ban/43-2017-nd-cp.yaml) — Quy định về ghi nhãn hàng hóa
 - 🟢 [195/2013/NĐ-CP](../registry/van-ban/195-2013-nd-cp.yaml) — Quy định chi tiết một số điều của Luật Xuất bản về hoạt động xuất bản, in và phát hành
 - 🟢 [29/2012/QH12](../registry/van-ban/29-2012-qh12.yaml) — Luật Xuất bản
@@ -2722,7 +2724,7 @@ _Cần để biết cơ quan nào đang quản lý sau sáp nhập 2025–2026._
 
 ## Chưa phân loại — chờ luồng Hệ thống hoá xếp vào cây `chua-phan-loai`
 
-10 văn bản, 8 chưa hết hiệu lực.
+12 văn bản, 8 chưa hết hiệu lực.
 
 - 🟢 [45/2023/TT-BCT](../registry/van-ban/45-2023-tt-bct.yaml) — Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý
 - 🟢 [17/2023/TT-BNNPTNT](../registry/van-ban/17-2023-tt-bnnptnt.yaml) — Ban hành Bảng mã HS đối với hàng hóa là thực vật rừng, động vật rừng nguy cấp, quý, hiếm và động vật, thực vật thuộc các Phụ lục Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp
@@ -2732,6 +2734,8 @@ _Cần để biết cơ quan nào đang quản lý sau sáp nhập 2025–2026._
 - 🟡 [12/2018/TT-BCT](../registry/van-ban/12-2018-tt-bct.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương _(hết hiệu lực 2026-12-31)_
 - ⚫ [113/2017/NĐ-CP](../registry/van-ban/113-2017-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất _(hết hiệu lực 2026-01-17)_
 - 🟢 [111/2017/NĐ-CP](../registry/van-ban/111-2017-nd-cp.yaml) — Nghị định số 111/2017/NĐ-CP ngày 05/10/2017 của Chính phủ quy định về tổ chức đào tạo thực hành trong đào tạo khối ngành sức khỏe
+- ⚫ [47/2017/NĐ-CP](../registry/van-ban/47-2017-nd-cp.yaml) — Quy định mức lương cơ sở đối với cán bộ, công chức, viên chức và lực lượng vũ trang _(hết hiệu lực 2018-07-01)_
 - 🟢 [80/2014/NĐ-CP](../registry/van-ban/80-2014-nd-cp.yaml) — Nghị định số 80/2014/NĐ-CP của Chính phủ: Về thoát nước và xử lý nước thải
+- ⚫ [78/2014/NĐ-CP](../registry/van-ban/78-2014-nd-cp.yaml) — Về Giải thưởng Hồ Chí Minh, Giải thưởng Nhà nước và các giải thưởng khác về khoa học và công nghệ _(hết hiệu lực 2024-04-10)_
 - 🟢 [15/2012/QH13](../registry/van-ban/15-2012-qh13.yaml) — Luật Xử lý vi phạm hành chính
 
