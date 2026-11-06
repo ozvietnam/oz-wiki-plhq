@@ -1,4 +1,4 @@
-# Quan hệ cũ – mới giữa các văn bản — 2026-11-05
+# Quan hệ cũ – mới giữa các văn bản — 2026-11-06
 
 Mũi tên đi từ văn bản MỚI tới văn bản bị tác động. Sinh tự động bằng `node tools/dung.mjs`.
 
@@ -445,6 +445,8 @@ flowchart LR
   n_04_2021_TT_BXD["04/2021/TT-BXD<br/>hết hiệu lực"]
   n_13_2023_Q__TTg["13/2023/QĐ-TTg<br/>còn hiệu lực"]
   n_28_2020_Q__TTg["28/2020/QĐ-TTg<br/>hết hiệu lực"]
+  n_144_2021_N__CP["144/2021/NĐ-CP<br/>hết hiệu lực"]
+  n_282_2025_N__CP["282/2025/NĐ-CP<br/>chưa có trong sổ"]
   n_173_2018_TT_BQP["173/2018/TT-BQP<br/>còn hiệu lực"]
   n_40_2017_TT_BQP["40/2017/TT-BQP<br/>chưa xác minh"]
   n_187_2013_N__CP["187/2013/NĐ-CP<br/>hết hiệu lực"]
@@ -482,6 +484,7 @@ flowchart LR
   n_11_2018_TT_BTTTT -->|sửa đổi Điều 3 và Phụ lục số 01 từ 2018-11-30| n_31_2015_TT_BTTTT
   n_11_2026_TT_BXD -->|thay thế từ 2026-06-01| n_04_2021_TT_BXD
   n_13_2023_Q__TTg -->|thay thế từ 2023-06-01| n_28_2020_Q__TTg
+  n_144_2021_N__CP -->|thay thế toàn bộ| n_282_2025_N__CP
   n_173_2018_TT_BQP -->|thay thế từ 2019-01-01| n_40_2017_TT_BQP
   n_187_2013_N__CP -->|bãi bỏ từ 2018-06-15| n_09_2018_N__CP
   n_25_2018_N__CP -->|sửa đổi| n_195_2013_N__CP
@@ -518,6 +521,8 @@ flowchart LR
   n_134_2016_N__CP["134/2016/NĐ-CP<br/>còn hiệu lực"]
   n_26_2015_TT_BTC["26/2015/TT-BTC<br/>còn hiệu lực"]
   n_219_2013_TT_BTC["219/2013/TT-BTC<br/>còn hiệu lực"]
+  n_53_2020_N__CP["53/2020/NĐ-CP<br/>hết hiệu lực"]
+  n_346_2025_N__CP["346/2025/NĐ-CP<br/>chưa có trong sổ"]
   n_72_2026_N__CP["72/2026/NĐ-CP<br/>còn hiệu lực"]
   n_26_2023_N__CP["26/2023/NĐ-CP<br/>còn hiệu lực"]
   n_86_2026_TT_BTC["86/2026/TT-BTC<br/>còn hiệu lực"]
@@ -534,6 +539,7 @@ flowchart LR
   n_182_2025_N__CP -->|sửa đổi| n_134_2016_N__CP
   n_26_2015_TT_BTC -->|sửa đổi| n_219_2013_TT_BTC
   n_45_2005_QH11 -->|bãi bỏ từ 2016-09-01| n_107_2016_QH13
+  n_53_2020_N__CP -->|thay thế toàn bộ| n_346_2025_N__CP
   n_72_2026_N__CP -->|sửa đổi thuế suất NK ưu đãi một số mặt hàng xăng, dầu từ 2026-03-09| n_26_2023_N__CP
   n_86_2026_TT_BTC -->|bãi bỏ toàn bộ từ 2026-07-01| n_06_2021_TT_BTC
   n_86_2026_TT_BTC -->|bãi bỏ Điều 104, 105, 131, 132, 134, 135, 140 (phần miễn thuế) từ 2026-07-01| n_38_2015_TT_BTC

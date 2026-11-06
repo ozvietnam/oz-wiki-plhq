@@ -1,23 +1,23 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
-so_hieu: 50/2005/QH11
+so_hieu: '50/2005/QH11'
 loai: LUAT
-ten: "Luật Sở hữu trí tuệ"
+ten: 'Luật Sở hữu trí tuệ'
 co_quan: QH
-ngay_ban_hanh: "2005-11-29"
-hieu_luc_tu: "2006-07-01"
+ngay_ban_hanh: '2005-11-29'
+hieu_luc_tu: '2006-07-01'
 tinh_trang: CON_HIEU_LUC
-nhanh: [hai-quan/kiem-tra-giam-sat]
-quan_he: {}
+nhanh:
+  - hai-quan/kiem-tra-giam-sat
+  - hai-quan/thu-tuc
 nguon:
-  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=215309
-    truy_cap: "2026-10-29"
-  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/155-vbhn-vpqh.pdf
-    truy_cap: "2026-10-29"
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=30015
+    truy_cap: '2026-11-06'
+  - url: https://thuvienphapluat.vn/van-ban/So-huu-tri-tue/Luat-So-huu-tri-tue-2005-50-2005-QH11-7022.aspx
+    truy_cap: '2026-11-06'
 xac_minh:
   muc: NGUON_A
-  pham_vi: "số hiệu, tiêu đề, ngày ban hành 29-11-2005, hiệu lực 01-07-2006 và chuỗi sửa đổi — nguyên văn phần đầu VBHN 155/VBHN-VPQH"
+  pham_vi: 'Tên nguyên văn "Luật số 50/2005/QH11 của Quốc hội: Luật Sở hữu trí tuệ", cơ quan Quốc hội (Chủ tịch Nguyễn Văn An ký) xác minh trực tiếp tại vanban.chinhphu.vn. Ngày 29/11/2005 là ngày Quốc hội thông qua (quy ước ghi ngày ban hành của luật trên vbpl/tvpl); lưu ý trang vanban.chinhphu.vn ghi ngày ban hành 12/12/2005 (ngày Lệnh công bố). Hiệu lực 01/7/2006 và tình trạng còn hiệu lực — đã được sửa đổi, bổ sung bởi Luật 36/2009/QH12, Luật 42/2019/QH14 và Luật 131/2025/QH15 (ban hành 10/12/2025, hiệu lực 01/04/2026; văn bản hợp nhất 155/VBHN-VPQH) — theo nguồn thứ cấp (Thư viện Pháp luật, Luật Việt Nam, Cổng TTĐT Chính phủ); chưa đối chiếu trực tiếp trên vbpl.vn.'
   hieu_luc_da_doi_chieu: false
-  ngay: "2026-10-29"
+  ngay: '2026-11-06'
   boi: zcode@ozvietnam
-ghi_chu: "Sửa đổi bởi 36/2009/QH12, 42/2019/QH14, 07/2022/QH15 và Luật 93/2025/QH15 (nguyên văn phần đầu VBHN 155/VBHN-VPQH ngày 09-09-2025). Bản hợp nhất hiện hành: 155/VBHN-VPQH."
-tu_khoa: [so-huu-tri-tue, shtt, nhan-hieu, quyen-tac-gia]
+ghi_chu: 'Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Liên quan XNK: kiểm soát xuất nhập khẩu hàng hoá liên quan đến quyền SHTT tại cửa khẩu (tạm dừng thủ tục hải quan khi có dấu hiệu xâm phạm quyền, kiểm tra nhãn hàng hoá nhập khẩu) — khách XNK tra khi lô hàng bị cơ quan hải quan/kiểm tra chuyên ngành giữ về nhãn hiệu, kiểu dáng, chỉ dẫn địa lý.'

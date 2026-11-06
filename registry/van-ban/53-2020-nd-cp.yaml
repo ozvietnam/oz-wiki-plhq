@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 53/2020/NĐ-CP
+loai: NGHI_DINH
+ten: 'Nghị định số 53/2020/NĐ-CP ngày 05/5/2020 của Chính phủ quy định phí bảo vệ môi trường đối với nước thải'
+co_quan: CP
+ngay_ban_hanh: '2020-05-05'
+hieu_luc_tu: '2020-07-01'
+tinh_trang: HET_HIEU_LUC
+het_hieu_luc_tu: '2026-01-01'
+nhanh:
+  - thue
+nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=199964
+    truy_cap: '2026-11-06'
+  - url: http://tulieuvankien.dangcongsan.vn/he-thong-van-ban/van-ban-quy-pham-phap-luat/nghi-dinh-so-532020nd-cp-ngay-0552020-cua-chinh-phu-quy-dinh-phi-bao-ve-moi-truong-doi-voi-nuoc-thai-6395
+    truy_cap: '2026-11-06'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu trực tiếp vanban.chinhphu.vn: số hiệu, tên (Quy định phí bảo vệ môi trường đối với nước thải), cơ quan Chính phủ, ngày ban hành 05/05/2020, ngày hiệu lực 01/07/2020. Tình trạng hết hiệu lực từ 01/01/2026 và việc bị thay thế bởi NĐ 346/2025/NĐ-CP (29/12/2025, HL 01/01/2026) lấy từ TVPL Q&A + luatvietnam + bài cáo 346/2025 trên vanban (docid 216402) — chưa đối chiếu CSDL hợp nhất quốc gia. Được sửa trước đó bởi NĐ 05/2025/NĐ-CP (nguồn TVPL Q&A, chưa kiểm chứng riêng).'
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-11-06'
+  boi: zcode@ozvietnam
+quan_he:
+  thay_the:
+    - so_hieu: 346/2025/NĐ-CP
+      pham_vi: toàn bộ
+      can_cu: 'vanban.chinhphu.vn đăng NĐ 346/2025/NĐ-CP ngày 29/12/2025 (docid 216402, HL 01/01/2026) cùng trích yếu trùng lĩnh vực; TVPL Q&A "NĐ 53/2020 còn hiệu lực không?" và luatvietnam xác nhận 346/2025 thay thế 53/2020 từ 01/01/2026.'
+ghi_chu: 'Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Liên quan XNK gián tiếp: phí môi trường nước thải mà cơ sở sản xuất/gia công hàng XNK tại VN phải nộp; không điều chỉnh trực tiếp thủ tục hay chế độ hàng hóa XNK.'
