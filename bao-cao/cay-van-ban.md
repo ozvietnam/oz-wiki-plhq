@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-06
 
-2426 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2427 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -2315,12 +2315,13 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Quản lý ngoại thương `quan-ly-ngoai-thuong`
 
-17 văn bản, 16 chưa hết hiệu lực.
+18 văn bản, 17 chưa hết hiệu lực.
 
 - 🔵 [372/2026/NĐ-CP](../registry/van-ban/372-2026-nd-cp.yaml) — Quy định về định danh, xác thực và truy xuất nguồn gốc sản phẩm, hàng hóa
 - 🟢 [365/2026/NĐ-CP](../registry/van-ban/365-2026-nd-cp.yaml) — Quy định về kinh doanh xuất nhập khẩu gạo
 - 🟢 [42/2026/TT-BCT](../registry/van-ban/42-2026-tt-bct.yaml) — Quy định về việc xác định 31 mặt hàng hàng hóa lưỡng dụng
 - 🟢 [211/2025/NĐ-CP](../registry/van-ban/211-2025-nd-cp.yaml) — Nghị định số 211/2025/NĐ-CP của Chính phủ: Quy định về hoạt động mật mã dân sự và sửa đổi, bổ sung một số điều của Nghị định số 15/2020/NĐ-CP ngày 03 tháng 02 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bưu chính, viễn thông, tần số vô tuyến điện, công nghệ thông tin và giao dịch điện tử được sửa đổi, bổ sung một số điều tại Nghị định số 14/2022/NĐ-CP ngày 27 tháng 01 năm 2022 của Chính phủ
+- 🟢 [42/2024/QH15](../registry/van-ban/42-2024-qh15.yaml) — Luật Quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ
 - ⚫ [144/2021/NĐ-CP](../registry/van-ban/144-2021-nd-cp.yaml) — Nghị định số 144/2021/NĐ-CP ngày 31/12/2021 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực an ninh, trật tự, an toàn xã hội; phòng, chống tệ nạn xã hội; phòng cháy, chữa cháy; cứu nạn, cứu hộ; phòng, chống bạo lực gia đình _(hết hiệu lực 2026-01-01)_
 - 🟢 [11/2021/QĐ-TTg](../registry/van-ban/11-2021-qd-ttg.yaml) — Về việc kéo dài thời gian thực hiện cơ chế tài chính đặc thù của một số cơ quan, đơn vị hành chính nhà nước
 - 🟢 [98/2020/NĐ-CP](../registry/van-ban/98-2020-nd-cp.yaml) — Nghị định số 98/2020/NĐ-CP ngày 26/8/2020 của Chính phủ quy định xử phạt vi phạm hành chính trong hoạt động thương mại, sản xuất, buôn bán hàng giả, hàng cấm và bảo vệ quyền lợi người tiêu dùng
