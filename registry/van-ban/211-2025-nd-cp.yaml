@@ -1,98 +1,23 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
-so_hieu: 211/2025/NĐ-CP
+so_hieu: '211/2025/NĐ-CP'
 loai: NGHI_DINH
-ten: Quy định về hoạt động mật mã dân sự và sửa đổi, bổ sung một số điều của Nghị định số 15/2020/NĐ-CP ngày 03/02/2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bưu chính, viễn thông, tần số vô tuyến điện, công nghệ thông tin và giao dịch điện tử
+ten: 'Nghị định số 211/2025/NĐ-CP của Chính phủ: Quy định về hoạt động mật mã dân sự và sửa đổi, bổ sung một số điều của Nghị định số 15/2020/NĐ-CP ngày 03 tháng 02 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bưu chính, viễn thông, tần số vô tuyến điện, công nghệ thông tin và giao dịch điện tử được sửa đổi, bổ sung một số điều tại Nghị định số 14/2022/NĐ-CP ngày 27 tháng 01 năm 2022 của Chính phủ'
 co_quan: CP
 ngay_ban_hanh: '2025-07-25'
 hieu_luc_tu: '2025-09-09'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - chua-phan-loai
-  - kiem-tra-chuyen-nganh/bqp
+  - hai-quan/thu-tuc
+  - quan-ly-ngoai-thuong
 nguon:
-  - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-211-2025-nd-cp-45739/58043.htm
-    truy_cap: '2026-07-02'
-  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/7/45739/58043-1-20251053-1054211-2025-nd-cp.pdf
-    truy_cap: '2026-10-04'
-trich_dan_trong_bieu_thue: 34
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=214736
+    truy_cap: '2026-11-06'
+  - url: https://thuvienphapluat.vn/van-ban/Cong-nghe-thong-tin/Nghi-dinh-211-2025-ND-CP-hoat-dong-mat-ma-dan-su-va-sua-doi-Nghi-dinh-15-2020-ND-CP-667001.aspx
+    truy_cap: '2026-11-06'
 xac_minh:
   muc: NGUON_A
-  pham_vi:
-    tong_quan: >-
-      Nghị định gồm 2 phần: (1) Quy định chi tiết hoạt động mật mã dân sự
-      theo Luật An toàn thông tin mạng (Chương I-III, Điều 1-10); (2) Sửa đổi,
-      bổ sung Nghị định số 15/2020/NĐ-CP về XPHC trong lĩnh vực bưu chính,
-      viễn thông, tần số vô tuyến điện, CNTT và giao dịch điện tử (Chương IV,
-      Điều 11). Chương V quy định hiệu lực, chuyển tiếp, trách nhiệm thi hành.
-    chuong:
-      - so: I
-        ten: NHỮNG QUY ĐỊNH CHUNG
-        dieu: ['1', '2']
-        noi_dung:
-          - 'Điều 1: Phạm vi điều chỉnh (chi tiết Luật ATTTM về kinh doanh/XK/NK SP MMDS, đánh giá sự phù hợp; sửa NĐ 15/2020)'
-          - 'Điều 2: Đối tượng áp dụng (DN kinh doanh SP DV MMDS, tổ chức đánh giá sự phù hợp, tổ chức/cá nhân VPHC)'
-      - so: II
-        ten: 'KINH DOANH SP, DV MẬT MÃ DÂN SỰ VÀ XK, NK SP MẬT MÃ DÂN SỰ'
-        dieu: ['3', '4', '5', '6', '7']
-        noi_dung:
-          - 'Điều 3: Ban hành DM SP DV MMDS (Phụ lục I) + DM SP MMDS XK/NK theo GP (Phụ lục II)'
-          - 'Điều 4: Áp dụng DM XK/NK theo GP (chỉ áp dụng khi mã HS + mô tả + đặc tính kỹ thuật trùng; khác biệt thì theo PL về hải quan)'
-          - 'Điều 5: Điều kiện cấp GPKD SP DV MMDS (cụ thể hóa khoản 2 Điều 31 Luật ATTTM: 02 CBKT + CBQL đại học ĐTVT/CNTT/Toán/ATTT; hệ thống PVKH & bảo đảm kỹ thuật)'
-          - 'Điều 6: Trình tự thủ tục cấp mới/sửa đổi/bổ sung/cấp lại/gia hạn GPKD (hồ sơ mẫu 01-06 PL III; thời hạn cấp mới 20 ngày, sửa bổ 10 ngày, cấp lại mất/hỏng 04 ngày)'
-          - 'Điều 7: Trình tự thủ tục cấp GP XK/NK SP MMDS (hồ sơ mẫu 07-08 PL III; thời hạn 07 ngày làm việc)'
-      - so: III
-        ten: ĐÁNH GIÁ SỰ PHÙ HỢP SP MẬT MÃ DÂN SỰ
-        dieu: ['8', '9', '10']
-        noi_dung:
-          - 'Điều 8: Trách nhiệm Ban Cơ yếu Chính phủ (cấp GCN đăng ký ĐGSSH, chỉ định tổ chức ĐGSSH, tiếp nhận công bố hợp quy)'
-          - 'Điều 9: Điều kiện/trình tự/thủ tục đăng ký ĐGSSH, chỉ định tổ chức ĐGSSH, công bố hợp quy (theo PL hiện hành)'
-          - 'Điều 10: Thừa nhận kết quả ĐGSSH giữa VN và quốc tế; Ban Cơ yếu giúp BQP quyết định thừa nhận đơn phương'
-      - so: IV
-        ten: 'SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA NĐ 15/2020/NĐ-CP (được sửa bởi NĐ 14/2022/NĐ-CP)'
-        dieu: ['11']
-        noi_dung:
-          - 'khoản 1: Sửa Điều 3 NĐ 15/2020 (bổ sung MMDS vào DS tước GPLH 1-24 tháng; tịch thu tang vật; buộc tái xuất SP MMDS NK; kiến nghị thu hồi GPLH; thêm 4 biện pháp buộc: báo cáo kinh doanh, lưu giữ KH, khai báo SD không phép, cung cấp khóa mã)'
-          - 'khoản 2: Bổ sung Điều 93a (XPHC kinh doanh MMDS, mức phạt cảnh cáo → 180 triệu) + Điều 93b (XPHC XK/NK MMDS, mức phạt cảnh cáo → 100 triệu)'
-          - 'khoản 3: Sửa Điều 114 (thẩm quyền XPHC của Thanh tra các Bộ/ngành, Trưởng đoàn thanh tra cấp Bộ)'
-          - 'khoản 4: Bổ sung Điều 114a (thẩm quyền XPHC của Thanh tra Cơ yếu, Trưởng ban Ban Cơ yếu Chính phủ - thẩm quyền cao nhất về MMDS)'
-          - 'khoản 5: Sửa các Điều 115, 116, 117, 118, 119, 119a, 120, 121 (thẩm quyền XPHC UBND các cấp, CAND, BĐBP, CSB, QLTT, Hải quan; phân định thẩm quyền; lập biên bản VPHC)'
-      - so: V
-        ten: ĐIỀU KHOẢN THI HÀNH
-        dieu: ['12', '13', '14']
-        noi_dung:
-          - 'Điều 12: Hiệu lực thi hành từ 09/9/2025; thay thế NĐ 58/2016, NĐ 53/2018, NĐ 32/2023'
-          - 'Điều 13: Quy định chuyển tiếp (GP cũ còn hạn được dùng đến hết hạn; 30 ngày trước khi hết hạn phải xin cấp lại; hồ sơ tiếp nhận trước HL thì theo NĐ cũ; từ ngày HL thì theo NĐ này)'
-          - 'Điều 14: Trách nhiệm thi hành (Bộ trưởng, TTr cơ quan ngang Bộ, UBND cấp tỉnh, tổ chức/cá nhân liên quan)'
-    phu_luc:
-      - so: I
-        ten: DANH MỤC SP, DV MẬT MÃ DÂN SỰ
-        noi_dung: '7 nhóm SP MMDS (sinh/quản lý/lưu trữ khóa mã; bảo mật dữ liệu lưu giữ; bảo mật dữ liệu trao đổi trên mạng; bảo mật luồng IP; bảo mật thoại tương tự và thoại số; bảo mật thông tin vô tuyến; bảo mật fax, điện báo) + 12 sản phẩm LOẠI TRỪ (HĐH/trình duyệt, máy tính bảng/DVD/camera, ĐTDĐ không mã hóa đầu cuối, smartcard, bảo vệ bản quyền, xác thực định danh, truy cập từ xa, ổ cứng SED, IDS/IPS, chip TPM, bảo vệ truy cập không dây, y tế) + 3 DV MMDS (bảo vệ thông tin, kiểm định/đánh giá, tư vấn bảo mật/ATTTM)'
-      - so: II
-        ten: DANH MỤC SP MẬT MÃ DÂN SỰ XK, NK THEO GIẤY PHÉP
-        noi_dung: 'Bảng 7 nhóm SP kèm mã HS đầy đủ: (1) HSM/PKI Token/Smartcard/SimPKI (8471.30.90, 8471.41.90, 8471.49.90, 8471.80.90, 8542.32.00); (2) Bảo mật dữ liệu lưu giữ (8523.51.11/.21/.99, 8523.52.00); (3) Bảo mật dữ liệu trao đổi trên mạng (8471.30.90/.41.90/.49.90 + 8517.62.42/.43/.49/.51/.53/.59/.61/.69/.91/.92/.99); (4) Bảo mật luồng IP/VPN (8471.30.90/.41.90/.49.90 + 8517.62.42/.43/.49/.51/.53/.59/.61/.69/.91/.92/.99); (5) Bảo mật thoại tương tự & số (8517.11/.13/.14/.18); (6) Bảo mật thông tin vô tuyến (8525.50.00, 8525.60.00, 8526.91.10/.90, 8526.92.00); (7) Bảo mật fax, điện báo (8443.31.31/.39/.91/.99, 8443.32.40)'
-      - so: III
-        ten: 'MẪU HỒ SƠ, THỦ TỤC CẤP GPKD & GP XK/NK SP, DV MMDS'
-        noi_dung: '8 biểu mẫu: 01 (Đơn đề nghị cấp GPKD MMDS); 02 (Đơn đề nghị sửa đổi, bổ sung/cấp lại/gia hạn GPKD); 03 (Phương án kỹ thuật); 04 (Phương án kinh doanh); 05 (Phương án bảo mật & ATTTM); 06 (GPKD SP DV MMDS của Ban Cơ yếu Chính phủ); 07 (Đơn đề nghị cấp GP XK/NK MMDS); 08 (GP XK/NK SP MMDS của Ban Cơ yếu Chính phủ)'
-    vb_thay_the:
-      - so: 58/2016/NĐ-CP
-        mo_ta: 'Quy định chi tiết về kinh doanh SP DV MMDS và XK/NK SP MMDS'
-        ngay: '2016-07-01'
-      - so: 53/2018/NĐ-CP
-        mo_ta: 'Sửa đổi, bổ sung NĐ 58/2016'
-        ngay: '2018-04-16'
-      - so: 32/2023/NĐ-CP
-        mo_ta: 'Sửa đổi, bổ sung NĐ 53/2018'
-        ngay: '2023-06-09'
-    vb_duoc_sua_doi:
-      - so: 15/2020/NĐ-CP
-        mo_ta: 'XPHC trong lĩnh vực bưu chính, viễn thông, tần số VTDĐ, CNTT và giao dịch điện tử'
-        ngay: '2020-02-03'
-        sua_boi: 14/2022/NĐ-CP ngày 27/01/2022
-    hieu_luc_tu: '2025-09-09'
-    kiem_tra_chuyen_nganh_ap_dung:
-      - bqp: 'Ban Cơ yếu Chính phủ là cơ quan thường trực quản lý MMDS, cấp GPKD, GP XK/NK, GCN ĐGSSH; BQP kiểm tra chuyên ngành MMDS đối với hàng hóa XK/NK qua biên giới'
-  hieu_luc_da_doi_chieu: true
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 34 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn + luatvietnam.vn).
-toan_van: raw/download/congbaocdn.chinhphu.vn/211-2025-nd-cp.pdf
+  pham_vi: 'Tên nguyên văn (dài, trích nguyên văn dòng tiêu đề), cơ quan (CP, Thủ tướng Phạm Minh Chính ký), ngày ban hành 25/07/2025, ngày hiệu lực 09/09/2025 xác minh trực tiếp tại vanban.chinhphu.vn. Nội dung giấy phép XNK sản phẩm mật mã dân sự (Phụ lục II — phải trùng cả mã HS, mô tả hàng hoá và đặc tính kỹ thuật mật mã; giấy phép của Ban Cơ yếu Chính phủ) theo Thư viện Pháp luật, báo Chính phủ, ExtendMax (nguồn thứ cấp). Chưa khẳng định chắc tình trạng hiện tại: từ 01/09/2026 có NĐ 341/2026/NĐ-CP quy định lại cùng lĩnh vực (thi hành Luật An ninh mạng về MMDS, hiệu lực ngay 01/09/2026) nhưng điều khoản thi hành của 341/2026 không dùng chữ "bãi bỏ" và không nêu đích danh 211/2025 (theo phân tích nguồn thứ cấp); vanban.chinhphu.vn đang bảo trì nên chưa đọc được điều khoản bãi bỏ của văn bản gốc 341/2026.'
+  hieu_luc_da_doi_chieu: false
+  ngay: '2026-11-06'
+  boi: zcode@ozvietnam
+ghi_chu: 'Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Nhu cầu ghi "211/2025/N" (khuyết chữ hiệu) — đã hiệu đính thành 211/2025/NĐ-CP theo nguồn chính thống. Liên quan XNK: sản phẩm mật mã dân sự (mã hoá) nhập khẩu thuộc Phụ lục II phải có giấy phép XNK của Ban Cơ yếu Chính phủ — thủ tục kiểm tra chuyên ngành/giấy phép khách XNK hay vướng khi khai báo máy mã hoá, modem, thiết bị an ninh mạng. Lưu ý theo dõi NĐ 341/2026/NĐ-CP (hiệu lực 01/09/2026, thời hạn giấy phép XNK 3 năm) — nhiều khả năng thay phần lớn nội dung substantive của NĐ này.'
