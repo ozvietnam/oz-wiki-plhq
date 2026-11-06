@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-06
 
-2419 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2422 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -2399,12 +2399,15 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có danh mục riêng kèm mã HS._
 
-4 văn bản, 4 chưa hết hiệu lực.
+7 văn bản, 7 chưa hết hiệu lực.
 
 - 🟢 [136/2026/VBHN-TT-BCT](../registry/van-ban/136-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư Ban hành Quy chuẩn kỹ thuật quốc gia đối với sản phẩm khăn giấy và giấy vệ sinh
 - 🟢 [138/2026/VBHN-TT-BXD](../registry/van-ban/138-2026-vbhn-tt-bxd.yaml) — Hợp nhất Thông tư Ban hành quy chuẩn kỹ thuật quốc gia về sản phẩm, hàng hóa vật liệu xây dựng
 - 🟢 [11/2026/TT-BCT](../registry/van-ban/11-2026-tt-bct.yaml) — Quy định về truy xuất nguồn gốc thực phẩm thuộc phạm vi quản lý của Bộ Công Thương
+- 🟢 [499/2019/QĐ-BCT](../registry/van-ban/499-2019-qd-bct.yaml) — Quyết định 499/2019/QĐ-BCT sửa đổi, bổ sung một số biểu phí kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu quy định tại Quyết định số 326/2018/QĐ-BCT ngày 28/12/2018 của Bộ trưởng Bộ Công Thương về thu, nộp, quản lý và sử dụng phí kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu thuộc phạm vi trách nhiệm quản lý nhà nước của Bộ Công Thương
 - 🟢 [18/2019/QĐ-TTg](../registry/van-ban/18-2019-qd-ttg.yaml) — Quyết định 18/2019/QĐ-TTg của Thủ tướng Chính phủ quy định việc nhập khẩu máy móc, thiết bị, dây chuyền công nghệ đã qua sử dụng
+- 🟢 [326/2018/QĐ-BCT](../registry/van-ban/326-2018-qd-bct.yaml) — Quyết định 326/2018/QĐ-BCT quy định thu, nộp, quản lý và sử dụng phí kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu thuộc phạm vi trách nhiệm quản lý nhà nước của Bộ Công Thương
+- 🟢 [34/2011/TT-BYT](../registry/van-ban/34-2011-tt-byt.yaml) — Quy chuẩn kỹ thuật quốc gia về an toàn vệ sinh đối với bao bì, dụng cụ tiếp xúc trực tiếp với thực phẩm
 
 ### Khung chung về chất lượng sản phẩm, hàng hoá `kiem-tra-chuyen-nganh/khung-chat-luong`
 
@@ -2469,7 +2472,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Công Thương `kiem-tra-chuyen-nganh/bct`
 
-41 văn bản, 31 chưa hết hiệu lực.
+43 văn bản, 33 chưa hết hiệu lực.
 
 - 🟢 [33/2026/TT-BCT](../registry/van-ban/33-2026-tt-bct.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương
 - 🟢 [28/2026/TT-BCT](../registry/van-ban/28-2026-tt-bct.yaml) — Ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã số HS) thực hiện kiểm tra nhà nước về an toàn thực phẩm thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương
@@ -2488,7 +2491,9 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟡 [1182/QĐ-BCT](../registry/van-ban/1182-qd-bct-2021.yaml) — Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương
 - 🟢 [73/2021/QH14](../registry/van-ban/73-2021-qh14.yaml) — Luật Phòng, chống ma túy
 - ❔ [10/2020/TT-BTTTT](../registry/van-ban/10-2020-tt-btttt.yaml) — Sửa đổi, bổ sung một số nội dung của Thông tư số 30/2011/TT-BTTTT ngày 31 tháng 10 năm 2011 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về chứng nhận hợp quy và công bố hợp quy đối với sản phẩm, hàng hóa chuyên ngành công nghệ thông tin và truyền thông
+- 🟢 [499/2019/QĐ-BCT](../registry/van-ban/499-2019-qd-bct.yaml) — Quyết định 499/2019/QĐ-BCT sửa đổi, bổ sung một số biểu phí kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu quy định tại Quyết định số 326/2018/QĐ-BCT ngày 28/12/2018 của Bộ trưởng Bộ Công Thương về thu, nộp, quản lý và sử dụng phí kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu thuộc phạm vi trách nhiệm quản lý nhà nước của Bộ Công Thương
 - 🟢 [765/QĐ-BCT](../registry/van-ban/765-qd-bct-2019.yaml) — Về việc công bố Danh mục các mặt hàng (kèm theo mã HS) đã được cắt giảm kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương
+- 🟢 [326/2018/QĐ-BCT](../registry/van-ban/326-2018-qd-bct.yaml) — Quyết định 326/2018/QĐ-BCT quy định thu, nộp, quản lý và sử dụng phí kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu thuộc phạm vi trách nhiệm quản lý nhà nước của Bộ Công Thương
 - ❔ [51/2018/TT-BCT](../registry/van-ban/51-2018-tt-bct.yaml) — Sửa đổi, bổ sung một số điều của Thông tư liên tịch số 47/2011/TTLT-BCT-BTNMT ngày 30 tháng 12 năm 2011 của Bộ trưởng Bộ Công Thương và Bộ trưởng Bộ Tài nguyên và Môi trường quy định việc quản lý nhập khẩu, xuất khẩu và tạm nhập - tái xuất các chất làm suy giảm tầng ô-dôn theo quy định của Nghị định thư Montreal về các chất làm suy giảm tầng ô-dôn
 - 🟢 [22/2018/TT-BTTTT](../registry/van-ban/22-2018-tt-btttt.yaml) — Quy định danh mục hàng hóa xuất khẩu, nhập khẩu lĩnh vực in, phát hành thuộc diện quản lý chuyên ngành của Bộ Thông tin và Truyền thông
 - ❔ [15/2018/TT-BTTTT](../registry/van-ban/15-2018-tt-btttt.yaml) — Sửa đổi, bổ sung một số nội dung của Thông tư số 30/2011/TT-BTTTT ngày 31 tháng 10 năm 2011 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về chứng nhận hợp quy và công bố hợp quy đối với sản phẩm, hàng hóa chuyên ngành công nghệ thông tin và truyền thông
@@ -2515,7 +2520,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Y tế `kiem-tra-chuyen-nganh/byt`
 
-39 văn bản, 31 chưa hết hiệu lực.
+40 văn bản, 32 chưa hết hiệu lực.
 
 - 🟢 [44/2026/TT-BYT](../registry/van-ban/44-2026-tt-byt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư 07/2022/TT-BYT quy định thuốc phải tương đương sinh học và hồ sơ đăng ký lưu hành thuốc
 - 🟢 [18/2026/VBHN-QĐ-BYT](../registry/van-ban/18-2026-vbhn-qd-byt.yaml) — Hợp nhất Quyết định hướng dẫn thực hiện Thực hành tốt sản xuất mỹ phẩm ASEAN (ASEAN GMP)
@@ -2549,6 +2554,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [105/2016/QH13](../registry/van-ban/105-2016-qh13.yaml) — Luật Dược
 - 🟢 [09/2015/TT-BYT](../registry/van-ban/09-2015-tt-byt.yaml) — Quy định về xác nhận nội dung quảng cáo đối với sản phẩm, hàng hóa, dịch vụ đặc biệt thuộc lĩnh vực quản lý của Bộ Y tế
 - 🟢 [176/2013/NĐ-CP](../registry/van-ban/176-2013-nd-cp.yaml) — Quy định xử phạt vi phạm hành chính trong lĩnh vực y tế
+- 🟢 [34/2011/TT-BYT](../registry/van-ban/34-2011-tt-byt.yaml) — Quy chuẩn kỹ thuật quốc gia về an toàn vệ sinh đối với bao bì, dụng cụ tiếp xúc trực tiếp với thực phẩm
 - 🟢 [06/2011/TT-BYT](../registry/van-ban/06-2011-tt-byt.yaml) — Quy định về quản lý mỹ phẩm
 - ⚫ [34/2005/QH11](../registry/van-ban/34-2005-qh11.yaml) — Luật Dược 2005 (bản gốc, đã hết hiệu lực) _(hết hiệu lực 2017-01-01)_
 - 🟢 [05/2022/TT-BYT](../registry/van-ban/05-2022-tt-byt.yaml) — Thông tư về thiết bị y tế (được TT 24/2026/TT-BYT sửa đổi)
