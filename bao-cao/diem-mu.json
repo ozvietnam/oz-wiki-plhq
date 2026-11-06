@@ -1,6 +1,6 @@
 {
-  "ngay": "2026-11-05",
-  "tong": 5056,
+  "ngay": "2026-11-06",
+  "tong": 5079,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -53,6 +53,15 @@
       "tieuDe": "Chưa có trong sổ: 109/2011/NĐ-CP",
       "muc_tieu": "109/2011/NĐ-CP",
       "viec": "Tạo registry/van-ban/ cho 109/2011/NĐ-CP (được nhắc bởi 131/2013/NĐ-CP (thay_the)). Dùng: node tools/them-van-ban.mjs \"109/2011/NĐ-CP\"",
+      "luong": "he-thong-hoa",
+      "trongSo": 0
+    },
+    {
+      "ma": "THIEU_VAN_BAN",
+      "muc": "Cao",
+      "tieuDe": "Chưa có trong sổ: 282/2025/NĐ-CP",
+      "muc_tieu": "282/2025/NĐ-CP",
+      "viec": "Tạo registry/van-ban/ cho 282/2025/NĐ-CP (được nhắc bởi 144/2021/NĐ-CP (thay_the)). Dùng: node tools/them-van-ban.mjs \"282/2025/NĐ-CP\"",
       "luong": "he-thong-hoa",
       "trongSo": 0
     },
@@ -125,6 +134,15 @@
       "tieuDe": "Chưa có trong sổ: 12/2025/TT-BYT",
       "muc_tieu": "12/2025/TT-BYT",
       "viec": "Tạo registry/van-ban/ cho 12/2025/TT-BYT (được nhắc bởi 32/2026/TT-BYT (thay_the)). Dùng: node tools/them-van-ban.mjs \"12/2025/TT-BYT\"",
+      "luong": "he-thong-hoa",
+      "trongSo": 0
+    },
+    {
+      "ma": "THIEU_VAN_BAN",
+      "muc": "Cao",
+      "tieuDe": "Chưa có trong sổ: 346/2025/NĐ-CP",
+      "muc_tieu": "346/2025/NĐ-CP",
+      "viec": "Tạo registry/van-ban/ cho 346/2025/NĐ-CP (được nhắc bởi 53/2020/NĐ-CP (thay_the)). Dùng: node tools/them-van-ban.mjs \"346/2025/NĐ-CP\"",
       "luong": "he-thong-hoa",
       "trongSo": 0
     },
@@ -1187,6 +1205,24 @@
       "tieuDe": "102/2020/QH14: chưa có toàn văn trong raw/",
       "muc_tieu": "102/2020/QH14",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"102/2020/QH14\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "102/2021/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "102/2021/NĐ-CP",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "102/2021/NĐ-CP: chưa có toàn văn trong raw/",
+      "muc_tieu": "102/2021/NĐ-CP",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"102/2021/NĐ-CP\" --ghi",
       "luong": "nap-lam-sach",
       "trongSo": 0
     },
@@ -2457,6 +2493,33 @@
       "muc_tieu": "1107/TB-TCHQ/2023",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "111/2017/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "111/2017/NĐ-CP",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "111/2017/NĐ-CP: chưa có toàn văn trong raw/",
+      "muc_tieu": "111/2017/NĐ-CP",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"111/2017/NĐ-CP\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "CHUA_PHAN_LOAI",
+      "muc": "Thấp",
+      "tieuDe": "111/2017/NĐ-CP: chưa xếp vào cây",
+      "muc_tieu": "111/2017/NĐ-CP",
+      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
+      "luong": "cay-du-lieu",
       "trongSo": 0
     },
     {
@@ -6278,6 +6341,15 @@
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
+      "tieuDe": "144/2021/NĐ-CP: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "144/2021/NĐ-CP",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
       "tieuDe": "144/2024/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "144/2024/NĐ-CP",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
@@ -8964,6 +9036,33 @@
       "muc_tieu": "1799/TB-TCHQ/2018",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "18/2019/QĐ-TTg: chưa có nguồn chính thống",
+      "muc_tieu": "18/2019/QĐ-TTg",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "18/2019/QĐ-TTg: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "18/2019/QĐ-TTg",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "18/2019/QĐ-TTg: chưa có toàn văn trong raw/",
+      "muc_tieu": "18/2019/QĐ-TTg",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"18/2019/QĐ-TTg\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -12792,12 +12891,21 @@
       "trongSo": 0
     },
     {
-      "ma": "CHUA_PHAN_LOAI",
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
-      "tieuDe": "211/2025/NĐ-CP: chưa xếp vào cây",
+      "tieuDe": "211/2025/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "211/2025/NĐ-CP",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "211/2025/NĐ-CP: chưa có toàn văn trong raw/",
+      "muc_tieu": "211/2025/NĐ-CP",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"211/2025/NĐ-CP\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -28850,6 +28958,24 @@
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
+      "tieuDe": "46/2020/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "46/2020/NĐ-CP",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "46/2020/NĐ-CP: chưa có toàn văn trong raw/",
+      "muc_tieu": "46/2020/NĐ-CP",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"46/2020/NĐ-CP\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
       "tieuDe": "46/2024/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "46/2024/NĐ-CP",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
@@ -31723,6 +31849,15 @@
       "muc": "Thấp",
       "tieuDe": "5295/TB-TCHQ/2023: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
       "muc_tieu": "5295/TB-TCHQ/2023",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "53/2020/NĐ-CP: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "53/2020/NĐ-CP",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
       "trongSo": 0
@@ -39783,6 +39918,33 @@
       "trongSo": 0
     },
     {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "80/2014/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "80/2014/NĐ-CP",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "80/2014/NĐ-CP: chưa có toàn văn trong raw/",
+      "muc_tieu": "80/2014/NĐ-CP",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"80/2014/NĐ-CP\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "CHUA_PHAN_LOAI",
+      "muc": "Thấp",
+      "tieuDe": "80/2014/NĐ-CP: chưa xếp vào cây",
+      "muc_tieu": "80/2014/NĐ-CP",
+      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
+      "luong": "cay-du-lieu",
+      "trongSo": 0
+    },
+    {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
       "tieuDe": "80/2019/TT-BTC: chưa có nguồn chính thống",
@@ -41459,6 +41621,24 @@
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
+      "tieuDe": "98/2020/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "98/2020/NĐ-CP",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "98/2020/NĐ-CP: chưa có toàn văn trong raw/",
+      "muc_tieu": "98/2020/NĐ-CP",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"98/2020/NĐ-CP\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
       "tieuDe": "98/2021/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
       "muc_tieu": "98/2021/NĐ-CP",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
@@ -41800,6 +41980,33 @@
     },
     {
       "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "Công ước Viên 1980 (CISG): chưa có nguồn chính thống",
+      "muc_tieu": "Công ước Viên 1980 (CISG)",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "Công ước Viên 1980 (CISG): tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "Công ước Viên 1980 (CISG)",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "Công ước Viên 1980 (CISG): chưa có toàn văn trong raw/",
+      "muc_tieu": "Công ước Viên 1980 (CISG)",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"Công ước Viên 1980 (CISG)\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "QCVN 1:2023/BKHCN: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
       "muc_tieu": "QCVN 1:2023/BKHCN",
@@ -41876,15 +42083,6 @@
       "tieuDe": "Wiki nhắc 105/2022/NĐ-CP nhưng sổ chưa có",
       "muc_tieu": "105/2022/NĐ-CP",
       "viec": "Thêm vào sổ (wiki/concepts/go-rung.md, wiki/sources/17-2023-tt-bnnptnt.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 18/2019/QĐ-TTg nhưng sổ chưa có",
-      "muc_tieu": "18/2019/QĐ-TTg",
-      "viec": "Thêm vào sổ (wiki/concepts/hang-cu-cam-nhap-khau.md, wiki/sources/48-2026-tt-bct.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },
@@ -44902,6 +45100,15 @@
       "viec": "Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 60 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn. Kẹt cứng thì ghi xac_minh.chan (xem docs/huong-dan-agent.md) thay vì săn lặp.",
       "luong": "hieu-luc",
       "trongSo": 60
+    },
+    {
+      "ma": "HS_API_UU_TIEN_DOI_CHIEU",
+      "muc": "Vừa",
+      "tieuDe": "Đối chiếu hiệu lực 211/2025/NĐ-CP — 34 mã HS đang dẫn",
+      "muc_tieu": "211/2025/NĐ-CP",
+      "viec": "Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 34 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn. Kẹt cứng thì ghi xac_minh.chan (xem docs/huong-dan-agent.md) thay vì săn lặp.",
+      "luong": "hieu-luc",
+      "trongSo": 34
     },
     {
       "ma": "HS_API_UU_TIEN_DOI_CHIEU",
