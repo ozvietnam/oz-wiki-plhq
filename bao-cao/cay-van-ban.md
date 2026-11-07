@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-07
 
-2429 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2430 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -54,13 +54,14 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Kiểm tra, giám sát, kiểm soát hải quan `hai-quan/kiem-tra-giam-sat`
 
-28 văn bản, 24 chưa hết hiệu lực.
+29 văn bản, 25 chưa hết hiệu lực.
 
 - 🟢 [128/2026/TT-BTC](../registry/van-ban/128-2026-tt-btc.yaml) — Quy định về kiểm tra, giám sát và quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh và phương tiện vận tải hoạt động trong khu vực cửa khẩu thông minh
 - 🟢 [06/2026/TT-BTC](../registry/van-ban/06-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 13/2015/TT-BTC quy định về kiểm tra, giám sát, tạm dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo vệ quyền sở hữu trí tuệ
 - 🟢 [285/2025/NĐ-CP](../registry/van-ban/285-2025-nd-cp.yaml) — Bãi bỏ một số nghị định của Chính phủ
 - 🟢 [155/VBHN-VPQH](../registry/van-ban/155-vbhn-vpqh-2025.yaml) — Văn bản hợp nhất Luật Sở hữu trí tuệ
 - 🟢 [93/2025/QH15](../registry/van-ban/93-2025-qh15.yaml) — Luật Khoa học, công nghệ và đổi mới sáng tạo
+- 🟢 [36/2024/QH15](../registry/van-ban/36-2024-qh15.yaml) — Luật Trật tự, an toàn giao thông đường bộ
 - 🟢 [46/2024/NĐ-CP](../registry/van-ban/46-2024-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 99/2013/NĐ-CP ngày 29 tháng 8 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp
 - 🟢 [06/2024/TT-BTC](../registry/van-ban/06-2024-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 81/2019/TT-BTC ngày 15 tháng 11 năm 2019 của Bộ trưởng Bộ Tài chính quy định quản lý rủi ro trong hoạt động nghiệp vụ hải quan
 - 🟢 [65/2023/NĐ-CP](../registry/van-ban/65-2023-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ
