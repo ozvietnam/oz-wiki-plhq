@@ -20,6 +20,13 @@ nguon:
     truy_cap: '2026-10-04'
   - url: https://vanban.chinhphu.vn/?docid=218958&pageid=27160
     truy_cap: '2026-10-04'
+danh_muc_hs:
+  tep: danh-muc/292-2026-nd-cp.csv
+  nguon: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/31/470149-1785470166_v1_1785493136_signed.pdf
+  trich_boi: zcode-glm@ozvietnam
+  ngay: '2026-11-07'
+  da_doi_chieu: false
+  ghi_chu: 'CHỈ trích Phụ lục V — Danh mục hàng hóa cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu (PDF trang 63-65, có mã HS); Phụ lục I-IV, VI theo mô tả (tầng 2 chưa làm), Phụ lục VII là mẫu biểu. Mục Chương 28-29 dẫn NĐ 33/2024/NĐ-CP — ghi dan_chieu. loai_tac_dong KHAC: cấm KINH DOANH TNTX/chuyển khẩu, không cấm nhập khẩu thông thường (vd 7204 phế liệu vẫn NK theo giấy phép QĐ 13/2023) — không dùng CAM_NHAP_KHAU để tránh cờ đỏ sai. #1143-muc1: lấp cs chết 69/2018/NĐ-CP (nhóm Cấm KD TNTX); nhóm "hàng ĐQSD kinh doanh TNTX có ĐK" (8415.81-83) KHÔNG được NĐ 292 kế thừa danh mục mã.'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'Công báo số 456: ban hành 22-07-2026; Điều 65 khoản 1 hiệu lực 05-09-2026 và thay thế NĐ 69/2018/NĐ-CP (người duy trì đã đọc lại nguyên văn).'

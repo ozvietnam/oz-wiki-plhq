@@ -28,7 +28,7 @@ danh_muc_hs:
   trich_boi: cursor-agent@ozvietnam
   ngay: '2026-10-12'
   da_doi_chieu: false
-  ghi_chu: 'Bảng CSV sẵn có trên main (64 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
+  ghi_chu: 'Phủ định đích danh #1143-muc1 (07-11-2026, đối chiếu PDF Công báo 20 trang + bao-cao/doc-chuyen-sau-12-2022-tt-bgtvt-2026-10-15.md): 171/1.315 mã 12/2022+62/2024 TT-BGTVT (cả nhóm ATKT+BVMT sau TQ trước khi đưa ra thị trường không nằm trong PL I/II 49/2026) KHÔNG thuộc bảng này — không bổ sung cho đủ theo luật cũ; các mã đó chờ cột cs BTC cập nhật (issue hs-code-api #1143 mục 2). 1.144 mã còn lại đã phủ qua mở rộng mã nhóm 4/6 số.'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF Công báo số 409 ngày 18-07-2026 (lớp chữ): Điều 6 khoản 1 hiệu lực 01-07-2026 (khoản 2–3 Điều 5 từ 01-07-2029); khoản 3 điểm a–b bãi bỏ toàn bộ TT 12/2022 và 62/2024/TT-BGTVT; điểm c bãi một phần TT 71/2025/TT-BXD; sổ không có văn bản sau ghi thay/bãi TT 49/2026'
