@@ -1,5 +1,5 @@
 {
-  "ngay": "2026-11-06",
+  "ngay": "2026-11-07",
   "tong": 5103,
   "diem": [
     {
@@ -43672,15 +43672,6 @@
     },
     {
       "ma": "DANH_MUC_CHUA_TRICH",
-      "muc": "Vừa",
-      "tieuDe": "Chưa trích bảng mã HS: 11/2026/TT-BXD",
-      "muc_tieu": "11/2026/TT-BXD",
-      "viec": "Văn bản danh mục chưa có danh-muc/11-2026-tt-bxd.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
-      "luong": "danh-muc-hs",
-      "trongSo": 0
-    },
-    {
-      "ma": "DANH_MUC_CHUA_TRICH",
       "muc": "Cao",
       "tieuDe": "Chưa trích bảng mã HS: 1182/QĐ-BCT",
       "muc_tieu": "1182/QĐ-BCT",
@@ -44405,6 +44396,15 @@
       "tieuDe": "16/2026/TT-BNV: mã 84188610 không có trong biểu thuế",
       "muc_tieu": "16/2026/TT-BNV",
       "viec": "danh-muc/16-2026-tt-bnv.csv dòng 42 (\"Hệ thống lạnh sử dụng môi chất lạnh nhóm B1; B2L; B2; B3; A2\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "DAN_CHIEU_CHUA_CO_BANG",
+      "muc": "Vừa",
+      "tieuDe": "292/2026/NĐ-CP dẫn mã HS sang 33/2024/NĐ-CP — chưa có trong sổ",
+      "muc_tieu": "33/2024/NĐ-CP",
+      "viec": "danh-muc/292-2026-nd-cp.csv có dòng không ghi mã mà dẫn chiếu 33/2024/NĐ-CP. Thêm 33/2024/NĐ-CP vào sổ rồi trích bảng để mã HS của các dòng này tra được.",
       "luong": "danh-muc-hs",
       "trongSo": 0
     },

@@ -22,7 +22,7 @@ danh_muc_hs:
   trich_boi: cursor-agent@ozvietnam
   ngay: '2026-10-12'
   da_doi_chieu: false
-  ghi_chu: 'Bảng CSV sẵn có trên main (85 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
+  ghi_chu: 'Sửa #1143-muc1 (07-11-2026): đối chiếu PDF Phụ lục III trang 22 phát hiện trích lệch cột nhóm 6-9 — đã sửa về nguyên văn: nhóm 6 Gạch gốm ốp lát = 12 mã 6907.21.91-6907.23.94 (trước ghi nhầm 6810.99.00); nhóm 7 = 6810.99.00; nhóm 8 Tấm tường = 6810.91.90 (trước nhầm 3 mã nhóm 10); nhóm 9 Tấm sóng amiăng xi măng = 6811.40.10 (trước nhầm 6811.82.20). 85 → 94 dòng. da_doi_chieu=false — nhóm khác chưa soát lại trong lượt này.'
 xac_minh:
   muc: NGUON_A
   pham_vi: |

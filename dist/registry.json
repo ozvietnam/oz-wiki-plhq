@@ -1,5 +1,5 @@
 {
-  "phien_ban": "2026-11-06",
+  "phien_ban": "2026-11-07",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
   "tong": 2429,
@@ -5709,6 +5709,14 @@
             "can_cu": "Điều 5 khoản 2 TT 11/2026/TT-BXD"
           }
         ]
+      },
+      "danh_muc_hs": {
+        "tep": "danh-muc/11-2026-tt-bxd.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/5/15/469475-1778807343_v1_1778838173_signed.pdf",
+        "trich_boi": "zcode-glm@ozvietnam",
+        "ngay": "2026-11-07",
+        "da_doi_chieu": false,
+        "ghi_chu": "Phụ lục I (PDF trang 4-6): 28 dòng, 4 nhóm I-IV; mã 10 số in trong phụ lục (vd 2505.10.00.10) ghi ma_hs 8 số cha + dieu_kien nêu mã 10 số và chỉ tiêu kỹ thuật — lược đồ chỉ cho 4/6/8 số. Dòng \"khoáng sản chuyển ra nước ngoài để phân tích, nghiên cứu\" không in mã HS — không nạp. #1143-muc1: lấp cs chết 04/2021/TT-BXD."
       },
       "xac_minh": {
         "muc": "NGUON_A",
@@ -38166,6 +38174,14 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "danh_muc_hs": {
+        "tep": "danh-muc/292-2026-nd-cp.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/31/470149-1785470166_v1_1785493136_signed.pdf",
+        "trich_boi": "zcode-glm@ozvietnam",
+        "ngay": "2026-11-07",
+        "da_doi_chieu": false,
+        "ghi_chu": "CHỈ trích Phụ lục V — Danh mục hàng hóa cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu (PDF trang 63-65, có mã HS); Phụ lục I-IV, VI theo mô tả (tầng 2 chưa làm), Phụ lục VII là mẫu biểu. Mục Chương 28-29 dẫn NĐ 33/2024/NĐ-CP — ghi dan_chieu. loai_tac_dong KHAC: cấm KINH DOANH TNTX/chuyển khẩu, không cấm nhập khẩu thông thường (vd 7204 phế liệu vẫn NK theo giấy phép QĐ 13/2023) — không dùng CAM_NHAP_KHAU để tránh cờ đỏ sai. #1143-muc1: lấp cs chết 69/2018/NĐ-CP (nhóm Cấm KD TNTX); nhóm \"hàng ĐQSD kinh doanh TNTX có ĐK\" (8415.81-83) KHÔNG được NĐ 292 kế thừa danh mục mã."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "Công báo số 456: ban hành 22-07-2026; Điều 65 khoản 1 hiệu lực 05-09-2026 và thay thế NĐ 69/2018/NĐ-CP (người duy trì đã đọc lại nguyên văn).",
@@ -40617,6 +40633,14 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "danh_muc_hs": {
+        "tep": "danh-muc/31-2026-qd-ttg.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/14/469911-1784022525_v1_1784023032_signed.pdf",
+        "trich_boi": "zcode-glm@ozvietnam",
+        "ngay": "2026-11-07",
+        "da_doi_chieu": false,
+        "ghi_chu": "Phụ lục (PDF trang 5-9): 12 nhóm, giữ nguyên mã in trong phụ lục (2401/2402/2403; 2204-2208; 2203; 8702/8703; 8802.20.10-8802.40.10; 8901.10; 89.03; 2710.12.21-29/.31/.39; 8415; 9504.40.00; 4823.90.92; nhóm 10 tiền chất + vật liệu nổ). Nhóm 11 (QP-AN) và 12 (dịch bệnh) không in mã HS — tầng 2 theo mô tả. loai_tac_dong KHAC: nghĩa vụ là làm thủ tục hải quan TẠI CỬA KHẨU NHẬP, không phải KTCN/GP. #1143-muc1: lấp cs chết 23/2019/QĐ-TTg."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "Công báo số 393: ban hành 29-06-2026; Điều 5 khoản 1 hiệu lực 14-08-2026 và thay thế QĐ 23/2019/QĐ-TTg (người duy trì đã đọc lại nguyên văn).",
@@ -55166,7 +55190,7 @@
         "trich_boi": "cursor-agent@ozvietnam",
         "ngay": "2026-10-12",
         "da_doi_chieu": false,
-        "ghi_chu": "Bảng CSV sẵn có trên main (85 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+        "ghi_chu": "Sửa #1143-muc1 (07-11-2026): đối chiếu PDF Phụ lục III trang 22 phát hiện trích lệch cột nhóm 6-9 — đã sửa về nguyên văn: nhóm 6 Gạch gốm ốp lát = 12 mã 6907.21.91-6907.23.94 (trước ghi nhầm 6810.99.00); nhóm 7 = 6810.99.00; nhóm 8 Tấm tường = 6810.91.90 (trước nhầm 3 mã nhóm 10); nhóm 9 Tấm sóng amiăng xi măng = 6811.40.10 (trước nhầm 6811.82.20). 85 → 94 dòng. da_doi_chieu=false — nhóm khác chưa soát lại trong lượt này."
       },
       "xac_minh": {
         "muc": "NGUON_A",
@@ -61043,7 +61067,7 @@
         "trich_boi": "cursor-agent@ozvietnam",
         "ngay": "2026-10-12",
         "da_doi_chieu": false,
-        "ghi_chu": "Bảng CSV sẵn có trên main (64 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+        "ghi_chu": "Phủ định đích danh #1143-muc1 (07-11-2026, đối chiếu PDF Công báo 20 trang + bao-cao/doc-chuyen-sau-12-2022-tt-bgtvt-2026-10-15.md): 171/1.315 mã 12/2022+62/2024 TT-BGTVT (cả nhóm ATKT+BVMT sau TQ trước khi đưa ra thị trường không nằm trong PL I/II 49/2026) KHÔNG thuộc bảng này — không bổ sung cho đủ theo luật cũ; các mã đó chờ cột cs BTC cập nhật (issue hs-code-api #1143 mục 2). 1.144 mã còn lại đã phủ qua mở rộng mã nhóm 4/6 số."
       },
       "xac_minh": {
         "muc": "NGUON_A",

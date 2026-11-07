@@ -1,5 +1,5 @@
 {
- "phien_ban": "2026-11-06",
+ "phien_ban": "2026-11-07",
  "luoc_do_phien_ban": "1.3.0",
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "luoc_do": "docs/luoc-do-danh-muc-hs.md",
@@ -61198,6 +61198,276 @@
    ]
   },
   {
+   "so_hieu": "11/2026/TT-BXD",
+   "slug": "11-2026-tt-bxd",
+   "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-06-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "bang": {
+    "tep": "danh-muc/11-2026-tt-bxd.csv",
+    "nguon": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/5/15/469475-1778807343_v1_1778838173_signed.pdf",
+    "trich_boi": "zcode-glm@ozvietnam",
+    "ngay": "2026-11-07",
+    "da_doi_chieu": false
+   },
+   "dong": [
+    {
+     "ma_hs": "25051000",
+     "mo_ta": "Bột oxit silic mịn và siêu mịn",
+     "nhom": "I",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: chỉ mã 10 số 2505100010 — đã qua chế biến (tuyển, rửa, sấy, nghiền, phân loại cỡ hạt); SiO2 ≥ 97,7%, Fe2O3 ≤ 0,03%, cỡ hạt ≤ 96 µm",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "25051000",
+     "mo_ta": "Bột oxit silic mịn",
+     "nhom": "I",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: chỉ mã 10 số 2505100020 — đã qua chế biến (tuyển, rửa, sấy, nghiền, phân loại cỡ hạt); SiO2 ≥ 99,3%, Fe2O3 ≤ 0,01%, cỡ hạt ≤ 500 µm",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "25051000",
+     "mo_ta": "Cát trắng oxit silic, cát vàng oxit silic",
+     "nhom": "I",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: chỉ mã 10 số 2505100090 — đã qua chế biến (tuyển, rửa, phân loại cỡ hạt); SiO2 ≥ 95%, cỡ hạt ≤ 2,5 mm",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "25059000",
+     "mo_ta": "Cát oxit silic loại khác dùng làm khuôn đúc và vật liệu xây dựng",
+     "nhom": "I",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: đã qua chế biến (tuyển, rửa, phân loại cỡ hạt); SiO2 ≥ 85%, cỡ hạt ≤ 2,5 mm",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "25061000",
+     "mo_ta": "Cát nghiền từ đá thạch anh",
+     "nhom": "I",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: đã qua chế biến (đập, nghiền, sàng phân loại cỡ hạt); SiO2 ≥ 95%, cỡ hạt ≤ 2,5 mm",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "25061000",
+     "mo_ta": "Đá thạch anh",
+     "nhom": "II",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: đã được đẽo, cưa, cắt hoặc cách khác thành tấm hình chữ nhật (kể cả hình vuông) dày ≤ 300 mm hoặc thành khối (đá khối) thể tích ≥ 0,1 m3",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "25062000",
+     "mo_ta": "Đá quarzit",
+     "nhom": "II",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: đã được đẽo, cưa, cắt hoặc cách khác thành tấm hình chữ nhật (kể cả hình vuông) dày ≤ 300 mm hoặc thành khối (đá khối) thể tích ≥ 0,1 m3",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "25140000",
+     "mo_ta": "Đá phiến",
+     "nhom": "II",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: đã được đẽo, cưa, cắt hoặc cách khác thành tấm hình chữ nhật (kể cả hình vuông) dày ≤ 50 mm",
+     "trang": "4"
+    },
+    {
+     "ma_hs": "25151210",
+     "mo_ta": "Đá hoa trắng dạng khối",
+     "nhom": "II",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: chỉ mã 10 số 2515121010 — đã được cưa, cắt hoặc cách khác thành khối (đá khối) thể tích ≥ 0,1 m3",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "25151210",
+     "mo_ta": "Đá hoa loại khác dạng khối",
+     "nhom": "II",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: chỉ mã 10 số 2515121090 — đã được cưa, cắt hoặc cách khác thành khối (đá khối) thể tích ≥ 0,1 m3",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "25151220",
+     "mo_ta": "Đá hoa (bao gồm cả đá hoa trắng)",
+     "nhom": "II",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: đã được cưa, cắt hoặc cách khác thành tấm hình chữ nhật (kể cả hình vuông) dày ≤ 300 mm",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "25152000",
+     "mo_ta": "Đá vôi trắng dạng khối",
+     "nhom": "II",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: chỉ mã 10 số 2515200010 — đã được cưa, cắt hoặc cách khác thành khối (đá khối) thể tích ≥ 0,1 m3",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "25152000",
+     "mo_ta": "Đá vôi dolomit, đá vôi khác",
+     "nhom": "II",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: chỉ mã 10 số 2515200090 — đã được cưa, cắt hoặc cách khác thành tấm hình chữ nhật (kể cả hình vuông) dày ≤ 300 mm",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "25161210",
+     "mo_ta": "Đá granit dạng khối",
+     "nhom": "II",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: đã được cưa, cắt hoặc cách khác thành khối (đá khối) thể tích ≥ 0,1 m3",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "25161220",
+     "mo_ta": "Đá granit",
+     "nhom": "II",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: đã được cưa, cắt hoặc cách khác thành tấm hình chữ nhật (kể cả hình vuông) dày ≤ 300 mm",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "25162020",
+     "mo_ta": "Đá cát kết",
+     "nhom": "II",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: đã được cưa, cắt hoặc cách khác thành khối thể tích ≥ 0,1 m3 hoặc thành tấm hình chữ nhật (kể cả hình vuông) dày ≤ 300 mm",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "25169000",
+     "mo_ta": "Đá gabro, bazan, pocfia và đá khác",
+     "nhom": "II",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: đã được đẽo, cưa, cắt hoặc cách khác làm tượng đài hoặc đá xây dựng",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "25171000",
+     "mo_ta": "Đá cuội, sỏi; đá đã vỡ hoặc nghiền; đá ballast khác",
+     "nhom": "III",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: chỉ mã 10 số 2517100010 — đã qua chế biến đập, nghiền hoặc cách khác; kích thước ≤ 400 mm",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "25171000",
+     "mo_ta": "Đá cuội, sỏi; đá đã vỡ hoặc nghiền; đá ballast khác",
+     "nhom": "III",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: chỉ mã 10 số 2517100090 — đã qua chế biến đập, nghiền hoặc cách khác; kích thước > 400 mm",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "25174900",
+     "mo_ta": "Bột cacbonat canxi chế biến từ đá vôi thuộc nhóm 2515",
+     "nhom": "III",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: chỉ mã 10 số 2517490010 — đã qua chế biến đập, nghiền, sàng phân loại; kích thước ≤ 0,125 mm",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "25174900",
+     "mo_ta": "Bột cacbonat canxi chế biến từ đá vôi thuộc nhóm 2515",
+     "nhom": "III",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: chỉ mã 10 số 2517490020 — đã qua chế biến đập, nghiền, sàng phân loại; kích thước > 0,125 mm đến 1,0 mm",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "25174900",
+     "mo_ta": "Bột cacbonat canxi chế biến từ đá vôi thuộc nhóm 2515",
+     "nhom": "III",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: chỉ mã 10 số 2517490030 — đã qua chế biến đập, nghiền, sàng phân loại; kích thước > 1,0 mm đến 400 mm",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "25181000",
+     "mo_ta": "Đá dolomit dùng để sản xuất dolomit nung hoặc vật liệu xây dựng khác",
+     "nhom": "IV",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: đã qua chế biến đập, nghiền, sàng phân loại; MgO ≥ 18%, cỡ hạt ≤ 100 mm",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "25210000",
+     "mo_ta": "Đá vôi dùng để sản xuất vôi hoặc vật liệu xây dựng khác",
+     "nhom": "IV",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: đã qua chế biến đập, nghiền, sàng phân loại; CaCO3 ≥ 85%, cỡ hạt ≤ 100 mm",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "25070000",
+     "mo_ta": "Cao lanh dùng để sản xuất gạch ốp lát, sứ vệ sinh hoặc vật liệu xây dựng khác",
+     "nhom": "IV",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: đã qua chế biến đập, nghiền, tuyển, sấy, sàng phân loại; Al2O3 ≥ 28%, Fe2O3 ≤ 1%, cỡ hạt ≤ 0,2 mm",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "25070000",
+     "mo_ta": "Cao lanh pyrophyllite dùng để sản xuất gạch ốp lát, sứ vệ sinh hoặc vật liệu xây dựng khác",
+     "nhom": "IV",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: đã qua chế biến đập, nghiền, sàng phân loại; cỡ hạt ≤ 100 mm",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "25083000",
+     "mo_ta": "Đất sét chịu lửa dùng để sản xuất vật liệu chịu lửa hoặc vật liệu xây dựng khác",
+     "nhom": "IV",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: đã qua chế biến đập, nghiền, sàng phân loại; Al2O3 ≥ 23%, cỡ hạt ≤ 0,2 mm",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "25291010",
+     "mo_ta": "Tràng thạch (feldspar) dùng để sản xuất gạch ốp lát, sứ vệ sinh, kính xây dựng hoặc vật liệu xây dựng khác",
+     "nhom": "IV",
+     "phu_luc": "Phụ lục I",
+     "loai_tac_dong": "GIAY_PHEP",
+     "dieu_kien": "xuất khẩu: đã qua chế biến đập, nghiền, sàng phân loại; (K2O+Na2O) ≥ 7%, cỡ hạt ≤ 100 mm",
+     "trang": "6"
+    }
+   ]
+  },
+  {
    "so_hieu": "125/2026/TT-BCA",
    "slug": "125-2026-tt-bca",
    "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Công an",
@@ -87429,6 +87699,672 @@
    ]
   },
   {
+   "so_hieu": "292/2026/NĐ-CP",
+   "slug": "292-2026-nd-cp",
+   "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-09-05",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": false,
+   "bang": {
+    "tep": "danh-muc/292-2026-nd-cp.csv",
+    "nguon": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/31/470149-1785470166_v1_1785493136_signed.pdf",
+    "trich_boi": "zcode-glm@ozvietnam",
+    "ngay": "2026-11-07",
+    "da_doi_chieu": false
+   },
+   "dong": [
+    {
+     "ma_hs": "2404",
+     "mo_ta": "Sản phẩm chứa lá thuốc lá, thuốc lá hoàn nguyên, nicotin, hoặc các nguyên liệu thay thế lá thuốc lá hoặc các nguyên liệu thay thế nicotin, dùng để hút mà không cần đốt cháy; các sản phẩm chứa nicotin khác dùng để nạp nicotin vào cơ thể con người",
+     "nhom": "Chương 24",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+     "trang": "63"
+    },
+    {
+     "ma_hs": "24041100",
+     "mo_ta": "Chứa lá thuốc lá hoặc thuốc lá hoàn nguyên",
+     "nhom": "Chương 24",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+     "trang": "63"
+    },
+    {
+     "ma_hs": "240412",
+     "mo_ta": "Loại khác, chứa nicotin",
+     "nhom": "Chương 24",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+     "trang": "63"
+    },
+    {
+     "ma_hs": "24041210",
+     "mo_ta": "Dạng lỏng hoặc gel dùng cho thuốc lá điện tử (SEN)",
+     "nhom": "Chương 24",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+     "trang": "63"
+    },
+    {
+     "ma_hs": "24041290",
+     "mo_ta": "Loại khác",
+     "nhom": "Chương 24",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+     "trang": "63"
+    },
+    {
+     "ma_hs": "240419",
+     "mo_ta": "Loại khác",
+     "nhom": "Chương 24",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+     "trang": "63"
+    },
+    {
+     "ma_hs": "24041910",
+     "mo_ta": "Chứa các nguyên liệu thay thế lá thuốc lá",
+     "nhom": "Chương 24",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+     "trang": "63"
+    },
+    {
+     "ma_hs": "24041920",
+     "mo_ta": "Chứa các nguyên liệu thay thế nicotin",
+     "nhom": "Chương 24",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+     "trang": "63"
+    },
+    {
+     "mo_ta": "Các mặt hàng hóa chất thuộc Danh mục hóa chất bảng 1 và bảng 2 ban hành kèm theo Nghị định số 33/2024/NĐ-CP ngày 27 tháng 3 năm 2024 quy định việc thực hiện công ước cấm phát triển, sản xuất, tàng trữ, sử dụng và phá hủy vũ khí hóa học",
+     "nhom": "Chương 28, 29",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+     "dan_chieu": "33/2024/NĐ-CP",
+     "trang": "63"
+    },
+    {
+     "ma_hs": "3915",
+     "mo_ta": "Phế liệu, phế thải và mẩu vụn, của plastic",
+     "nhom": "Chương 39",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+     "trang": "64"
+    },
+    {
+     "ma_hs": "4707",
+     "mo_ta": "Giấy loại hoặc bìa loại thu hồi (phế liệu và vụn thừa)",
+     "nhom": "Chương 47",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+     "trang": "64"
+    },
+    {
+     "ma_hs": "70010000",
+     "mo_ta": "Thủy tinh vụn và thủy tinh phế liệu và mảnh vụn khác, trừ thủy tinh từ ống đèn tia ca-tốt hoặc thủy tinh hoạt tính khác thuộc nhóm 85.49; thủy tinh ở dạng khối",
+     "nhom": "Chương 70",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam; trừ thủy tinh từ ống đèn tia ca-tốt, thủy tinh hoạt tính nhóm 85.49 và thủy tinh dạng khối",
+     "trang": "64"
+    },
+    {
+     "ma_hs": "7204",
+     "mo_ta": "Phế liệu và mảnh vụn sắt; thỏi đúc phế liệu nấu lại từ sắt hoặc thép",
+     "nhom": "Chương 72",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+     "trang": "64"
+    },
+    {
+     "ma_hs": "74040000",
+     "mo_ta": "Phế liệu và mảnh vụn của đồng",
+     "nhom": "Chương 74",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+     "trang": "64"
+    },
+    {
+     "ma_hs": "75030000",
+     "mo_ta": "Phế liệu và mảnh vụn niken",
+     "nhom": "Chương 75",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+     "trang": "64"
+    },
+    {
+     "ma_hs": "76020000",
+     "mo_ta": "Phế liệu và mảnh vụn nhôm",
+     "nhom": "Chương 76",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+     "trang": "64"
+    },
+    {
+     "ma_hs": "79020000",
+     "mo_ta": "Phế liệu và mảnh vụn kẽm",
+     "nhom": "Chương 79",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+     "trang": "64"
+    },
+    {
+     "ma_hs": "80020000",
+     "mo_ta": "Phế liệu và mảnh vụn thiếc",
+     "nhom": "Chương 80",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+     "trang": "64"
+    },
+    {
+     "ma_hs": "8111",
+     "mo_ta": "Mangan và các sản phẩm làm từ mangan, kể cả phế liệu và mảnh vụn",
+     "nhom": "Chương 81",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+     "trang": "64"
+    },
+    {
+     "ma_hs": "81110010",
+     "mo_ta": "Phế liệu và mảnh vụn (mangan và sản phẩm từ mangan)",
+     "nhom": "Chương 81",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+     "trang": "64"
+    },
+    {
+     "ma_hs": "8418",
+     "mo_ta": "Tủ lạnh, tủ kết đông và thiết bị làm lạnh hoặc kết đông khác, loại dùng điện hoặc loại khác; bơm nhiệt trừ máy điều hòa không khí thuộc nhóm 84.15",
+     "nhom": "Chương 84",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam; chỉ áp dụng loại có sử dụng dung môi chất lạnh C.F.C12 (R12) — Dichlorodifluoromethane, CF2Cl2",
+     "trang": "64"
+    },
+    {
+     "ma_hs": "8473",
+     "mo_ta": "Bộ phận và phụ kiện đã qua sử dụng (trừ vỏ, hộp đựng và các loại tương tự) chỉ dùng hoặc chủ yếu dùng với các máy thuộc các nhóm từ 84.70 đến 84.72",
+     "nhom": "Chương 84",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam; hàng đã qua sử dụng, trừ vỏ, hộp đựng và các loại tương tự",
+     "trang": "64"
+    },
+    {
+     "ma_hs": "8507",
+     "mo_ta": "Ắc quy điện, kể cả tấm vách ngăn của nó, có hoặc không ở dạng hình chữ nhật (kể cả hình vuông)",
+     "nhom": "Chương 85",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam; đã qua sử dụng",
+     "trang": "64"
+    },
+    {
+     "ma_hs": "850710",
+     "mo_ta": "Ắc quy bằng axit-chì, loại dùng để khởi động động cơ piston",
+     "nhom": "Chương 85",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam; đã qua sử dụng",
+     "trang": "65"
+    },
+    {
+     "ma_hs": "850720",
+     "mo_ta": "Ắc quy axit - chì khác",
+     "nhom": "Chương 85",
+     "phu_luc": "Phụ lục V",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam; đã qua sử dụng",
+     "trang": "65"
+    }
+   ]
+  },
+  {
+   "so_hieu": "31/2026/QĐ-TTg",
+   "slug": "31-2026-qd-ttg",
+   "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-08-14",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": false,
+   "bang": {
+    "tep": "danh-muc/31-2026-qd-ttg.csv",
+    "nguon": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/14/469911-1784022525_v1_1784023032_signed.pdf",
+    "trich_boi": "zcode-glm@ozvietnam",
+    "ngay": "2026-11-07",
+    "da_doi_chieu": false
+   },
+   "dong": [
+    {
+     "ma_hs": "2401",
+     "mo_ta": "Lá thuốc lá chưa chế biến; phế liệu lá thuốc lá",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "2402",
+     "mo_ta": "Xì gà, xì gà xén hai đầu, xì gà nhỏ và thuốc lá điếu, từ lá thuốc lá hoặc từ các nguyên liệu thay thế lá thuốc lá",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "2403",
+     "mo_ta": "Lá thuốc lá đã chế biến khác và các nguyên liệu thay thế lá thuốc lá đã chế biến khác; thuốc lá “thuần nhất” hoặc thuốc lá “hoàn nguyên”; chiết xuất và tinh chất lá thuốc lá",
+     "nhom": "1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "2204",
+     "mo_ta": "Rượu vang làm từ nho tươi, kể cả rượu vang cao độ; hèm nho trừ loại thuộc nhóm 20.09",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "2205",
+     "mo_ta": "Rượu Vermouth và rượu vang khác làm từ nho tươi đã pha thêm hương liệu từ thảo mộc hoặc chất thơm",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "2206",
+     "mo_ta": "Đồ uống đã lên men khác (ví dụ, vang táo, vang lê, vang mật ong, rượu sa kê); hỗn hợp của đồ uống đã lên men và hỗn hợp của đồ uống đã lên men với đồ uống không chứa cồn, chưa chi tiết hay ghi ở nơi khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "5"
+    },
+    {
+     "ma_hs": "2207",
+     "mo_ta": "Cồn etylic chưa biến tính có nồng độ cồn từ 80% trở lên tính theo thể tích; etylic và rượu mạnh khác, đã biến tính, ở mọi nồng độ",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "2208",
+     "mo_ta": "Cồn etylic chưa biến tính có nồng độ cồn dưới 80% tính theo thể tích; rượu mạnh, rượu mùi và đồ uống có rượu khác",
+     "nhom": "2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "2203",
+     "mo_ta": "Bia sản xuất từ malt",
+     "nhom": "3",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "8702",
+     "mo_ta": "Xe ô tô chở người dưới 16 chỗ ngồi",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "8703",
+     "mo_ta": "Xe ô tô chở người dưới 16 chỗ ngồi",
+     "nhom": "4",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "88022010",
+     "mo_ta": "Máy bay",
+     "nhom": "5.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "88023010",
+     "mo_ta": "Máy bay",
+     "nhom": "5.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "88024010",
+     "mo_ta": "Máy bay",
+     "nhom": "5.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "890110",
+     "mo_ta": "Tàu thủy chở khách, thuyền, xuồng du lịch và các tàu thuyền tương tự được thiết kế chủ yếu để vận chuyển người; phà các loại",
+     "nhom": "5.2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "8903",
+     "mo_ta": "Du thuyền hạng nhẹ và các loại tàu thuyền khác phục vụ nghỉ ngơi, giải trí hoặc thể thao; thuyền dùng mái chèo và canô",
+     "nhom": "5.2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "27101221",
+     "mo_ta": "Xăng động cơ, không pha chì",
+     "nhom": "6.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "27101222",
+     "mo_ta": "Xăng động cơ, không pha chì",
+     "nhom": "6.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "27101223",
+     "mo_ta": "Xăng động cơ, không pha chì",
+     "nhom": "6.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "27101224",
+     "mo_ta": "Xăng động cơ, không pha chì",
+     "nhom": "6.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "27101225",
+     "mo_ta": "Xăng động cơ, không pha chì",
+     "nhom": "6.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "27101226",
+     "mo_ta": "Xăng động cơ, không pha chì",
+     "nhom": "6.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "27101227",
+     "mo_ta": "Xăng động cơ, không pha chì",
+     "nhom": "6.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "27101228",
+     "mo_ta": "Xăng động cơ, không pha chì",
+     "nhom": "6.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "27101229",
+     "mo_ta": "Xăng động cơ, không pha chì",
+     "nhom": "6.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "27101231",
+     "mo_ta": "Xăng máy bay, trừ loại sử dụng làm nhiên liệu máy bay phản lực",
+     "nhom": "6.2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "27101239",
+     "mo_ta": "Xăng máy bay, trừ loại sử dụng làm nhiên liệu máy bay phản lực",
+     "nhom": "6.2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "8415",
+     "mo_ta": "Máy điều hòa không khí, có công suất từ 90.000 BTU trở xuống",
+     "nhom": "7",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "95044000",
+     "mo_ta": "Bộ bài",
+     "nhom": "8",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "48239092",
+     "mo_ta": "Giấy vàng mã",
+     "nhom": "9",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "6"
+    },
+    {
+     "ma_hs": "31023000",
+     "mo_ta": "Amoni nitrat (NH4 NO3) ≥ 98,5% trừ dạng viên (tablet) hoặc các dạng tương tự hoặc đóng gói với trọng lượng cả bì không quá 10 kg",
+     "nhom": "10.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "tiền chất thuốc nổ; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "31051090",
+     "mo_ta": "Amoni nitrat (NH4 NO3) ≥ 98,5% dạng viên (tablet) hoặc các dạng tương tự hoặc đóng gói với trọng lượng cả bì không quá 10 kg",
+     "nhom": "10.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "tiền chất thuốc nổ; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "29042090",
+     "mo_ta": "Nitro Metan (CH3NO2) ≥ 96%",
+     "nhom": "10.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "tiền chất thuốc nổ; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "31025000",
+     "mo_ta": "Natri Nitrat (NaNO3) ≥ 98,5% trừ dạng viên (tablet) hoặc các dạng tương tự hoặc đóng gói với trọng lượng cả bì không quá 10 kg",
+     "nhom": "10.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "tiền chất thuốc nổ; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "31051090",
+     "mo_ta": "Natri Nitrat (NaNO3) ≥ 98,5% ở dạng viên (tablet) hoặc các dạng tương tự hoặc đóng gói với trọng lượng cả bì không quá 10 kg",
+     "nhom": "10.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "tiền chất thuốc nổ; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "28342100",
+     "mo_ta": "Kali Nitrat (KNO3) ≥ 98,5%",
+     "nhom": "10.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "tiền chất thuốc nổ; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "28291100",
+     "mo_ta": "Natri Clorat (NaClO3) ≥ 84,0%",
+     "nhom": "10.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "tiền chất thuốc nổ; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "28291900",
+     "mo_ta": "Kali Clorat (KClO3) ≥ 98,5%",
+     "nhom": "10.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "tiền chất thuốc nổ; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "28299090",
+     "mo_ta": "Kali Perclorat (KClO4) ≥ 98,5%",
+     "nhom": "10.1",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "tiền chất thuốc nổ; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "36034000",
+     "mo_ta": "Kíp nổ đốt số 8; Kíp nổ vi sai an toàn Carrick-8",
+     "nhom": "10.2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "vật liệu nổ công nghiệp; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "36036000",
+     "mo_ta": "Kíp nổ điện số 8; Kíp nổ điện tử Uni tronic 600 (mô tả hàng hoá là kíp nổ điện tử)",
+     "nhom": "10.2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "vật liệu nổ công nghiệp; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "7"
+    },
+    {
+     "ma_hs": "36031000",
+     "mo_ta": "Dây cháy chậm công nghiệp",
+     "nhom": "10.2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "vật liệu nổ công nghiệp; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "36032000",
+     "mo_ta": "Dây dẫn tín hiệu nổ",
+     "nhom": "10.2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "vật liệu nổ công nghiệp; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "36020000",
+     "mo_ta": "Thuốc nổ amonit AD1; Thuốc nổ Senatel Powersplit",
+     "nhom": "10.2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "vật liệu nổ công nghiệp; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "8"
+    },
+    {
+     "ma_hs": "96039010",
+     "mo_ta": "Mìn phá đá quá cỡ",
+     "nhom": "10.2",
+     "phu_luc": "Phụ lục",
+     "loai_tac_dong": "KHAC",
+     "dieu_kien": "vật liệu nổ công nghiệp; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+     "trang": "8"
+    }
+   ]
+  },
+  {
    "so_hieu": "33/2026/TT-BCT",
    "slug": "33-2026-tt-bct",
    "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -100901,7 +101837,7 @@
      "trang": "22"
     },
     {
-     "ma_hs": "68109900",
+     "ma_hs": "69072191",
      "mo_ta": "Gạch gốm ốp lát",
      "nhom": "6",
      "phu_luc": "Phụ lục III",
@@ -100910,7 +101846,106 @@
      "trang": "22"
     },
     {
-     "ma_hs": "68109190",
+     "ma_hs": "69072192",
+     "mo_ta": "Gạch gốm ốp lát",
+     "nhom": "6",
+     "phu_luc": "Phụ lục III",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "69072193",
+     "mo_ta": "Gạch gốm ốp lát",
+     "nhom": "6",
+     "phu_luc": "Phụ lục III",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "69072194",
+     "mo_ta": "Gạch gốm ốp lát",
+     "nhom": "6",
+     "phu_luc": "Phụ lục III",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "69072291",
+     "mo_ta": "Gạch gốm ốp lát",
+     "nhom": "6",
+     "phu_luc": "Phụ lục III",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "69072292",
+     "mo_ta": "Gạch gốm ốp lát",
+     "nhom": "6",
+     "phu_luc": "Phụ lục III",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "69072293",
+     "mo_ta": "Gạch gốm ốp lát",
+     "nhom": "6",
+     "phu_luc": "Phụ lục III",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "69072294",
+     "mo_ta": "Gạch gốm ốp lát",
+     "nhom": "6",
+     "phu_luc": "Phụ lục III",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "69072391",
+     "mo_ta": "Gạch gốm ốp lát",
+     "nhom": "6",
+     "phu_luc": "Phụ lục III",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "69072392",
+     "mo_ta": "Gạch gốm ốp lát",
+     "nhom": "6",
+     "phu_luc": "Phụ lục III",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "69072393",
+     "mo_ta": "Gạch gốm ốp lát",
+     "nhom": "6",
+     "phu_luc": "Phụ lục III",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "69072394",
+     "mo_ta": "Gạch gốm ốp lát",
+     "nhom": "6",
+     "phu_luc": "Phụ lục III",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+     "muc_rui_ro": "TRUNG_BINH",
+     "trang": "22"
+    },
+    {
+     "ma_hs": "68109900",
      "mo_ta": "Sản phẩm bê tông khí chưng áp",
      "nhom": "7",
      "phu_luc": "Phụ lục III",
@@ -100919,7 +101954,7 @@
      "trang": "22"
     },
     {
-     "ma_hs": "69051000",
+     "ma_hs": "68109190",
      "mo_ta": "Tấm tường: Tấm tường rỗng bê tông đúc sẵn theo công nghệ đùn ép; Tấm tường nhẹ 3 lớp xen kẹp; Tấm tường bê tông khí chưng áp cốt thép",
      "nhom": "8",
      "phu_luc": "Phụ lục III",
@@ -100928,25 +101963,7 @@
      "trang": "22"
     },
     {
-     "ma_hs": "68118220",
-     "mo_ta": "Tấm tường: Tấm tường rỗng bê tông đúc sẵn theo công nghệ đùn ép; Tấm tường nhẹ 3 lớp xen kẹp; Tấm tường bê tông khí chưng áp cốt thép",
-     "nhom": "8",
-     "phu_luc": "Phụ lục III",
-     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
-     "muc_rui_ro": "TRUNG_BINH",
-     "trang": "22"
-    },
-    {
-     "ma_hs": "68109900",
-     "mo_ta": "Tấm tường: Tấm tường rỗng bê tông đúc sẵn theo công nghệ đùn ép; Tấm tường nhẹ 3 lớp xen kẹp; Tấm tường bê tông khí chưng áp cốt thép",
-     "nhom": "8",
-     "phu_luc": "Phụ lục III",
-     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
-     "muc_rui_ro": "TRUNG_BINH",
-     "trang": "22"
-    },
-    {
-     "ma_hs": "68118220",
+     "ma_hs": "68114010",
      "mo_ta": "Tấm sóng amiăng xi măng",
      "nhom": "9",
      "phu_luc": "Phụ lục III",

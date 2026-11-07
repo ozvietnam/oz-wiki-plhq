@@ -1,11 +1,11 @@
 {
- "phien_ban": "2026-11-06",
+ "phien_ban": "2026-11-07",
  "luoc_do_phien_ban": "1.3.0",
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "luoc_do": "docs/luoc-do-danh-muc-hs.md",
  "cach_tra": "Khoá là nhóm mã HS trong bảng (4, 6 hoặc 8 số). Tra mã 8 số: ghép mọi khoá là tiền tố của mã (độ dài 4, 6) và khoá trùng 8 số. Cạnh giữ nguyên dieu_kien — \"trừ loại…\" là trừ diện, không phải diện áp. canh_bao_ma = nhóm mã không có trong biểu thuế đối chiếu — tra ra các khoá này thì dừng và đối chiếu lại văn bản gốc, đừng kết luận diện áp. tien_le_tb_tchq = mật độ thông báo phân loại của Tổng cục (bậc C, tham khảo).",
- "tong_nhom_ma": 6396,
- "tong_canh": 13179,
+ "tong_nhom_ma": 6465,
+ "tong_canh": 13284,
  "bieu_thue_doi_chieu": {
   "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/tax.json",
   "phien_ban": "2026-11-01",
@@ -7682,6 +7682,102 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "2203": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "3",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "2204": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "2",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "2205": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "2",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "2206": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "2",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "2207": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "2",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "2208": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "2",
+    "phu_luc": "Phụ lục"
+   }
+  ],
   "2301": [
    {
     "so_hieu": "01/2024/TT-BNNPTNT",
@@ -8186,6 +8282,36 @@
     "dieu_kien": null,
     "nhom": "Mục 9",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "1",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "2402": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "1",
+    "phu_luc": "Phụ lục"
    }
   ],
   "2403": [
@@ -8202,6 +8328,36 @@
     "dieu_kien": null,
     "nhom": "Mục 9",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "1",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "2404": [
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+    "nhom": "Chương 24",
+    "phu_luc": "Phụ lục V"
    }
   ],
   "2501": [
@@ -8930,6 +9086,22 @@
     "dieu_kien": null,
     "nhom": "1",
     "phu_luc": "Phụ lục II"
+   }
+  ],
+  "3915": [
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+    "nhom": "Chương 39",
+    "phu_luc": "Phụ lục V"
    }
   ],
   "3918": [
@@ -9884,6 +10056,22 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục II"
+   }
+  ],
+  "4707": [
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+    "nhom": "Chương 47",
+    "phu_luc": "Phụ lục V"
    }
   ],
   "4823": [
@@ -12468,6 +12656,22 @@
     "phu_luc": "Phụ lục II"
    }
   ],
+  "7204": [
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+    "nhom": "Chương 72",
+    "phu_luc": "Phụ lục V"
+   }
+  ],
   "7206": [
    {
     "so_hieu": "765/QĐ-BCT",
@@ -13026,6 +13230,22 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "8111": [
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+    "nhom": "Chương 81",
+    "phu_luc": "Phụ lục V"
+   }
+  ],
   "8201": [
    {
     "so_hieu": "34/2025/TT-BCT",
@@ -13224,6 +13444,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục II"
+   },
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "7",
+    "phu_luc": "Phụ lục"
    }
   ],
   "8418": [
@@ -13240,6 +13474,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục II"
+   },
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam; chỉ áp dụng loại có sử dụng dung môi chất lạnh C.F.C12 (R12) — Dichlorodifluoromethane, CF2Cl2",
+    "nhom": "Chương 84",
+    "phu_luc": "Phụ lục V"
    }
   ],
   "8419": [
@@ -13460,7 +13708,37 @@
     "phu_luc": "Phụ lục"
    }
   ],
+  "8473": [
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam; hàng đã qua sử dụng, trừ vỏ, hộp đựng và các loại tương tự",
+    "nhom": "Chương 84",
+    "phu_luc": "Phụ lục V"
+   }
+  ],
   "8507": [
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam; đã qua sử dụng",
+    "nhom": "Chương 85",
+    "phu_luc": "Phụ lục V"
+   },
    {
     "so_hieu": "34/2025/TT-BCT",
     "slug": "34-2025-tt-bct",
@@ -13950,6 +14228,38 @@
     "phu_luc": "Phụ lục"
    }
   ],
+  "8702": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "4",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "8703": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "4",
+    "phu_luc": "Phụ lục"
+   }
+  ],
   "8711": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -14024,6 +14334,22 @@
     "dieu_kien": "trừ bộ phận và phụ kiện của nhóm 87.13",
     "nhom": null,
     "phu_luc": "Phụ lục II"
+   }
+  ],
+  "8903": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "5.2",
+    "phu_luc": "Phụ lục"
    }
   ],
   "8907": [
@@ -17848,6 +18174,38 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   }
+  ],
+  "240412": [
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+    "nhom": "Chương 24",
+    "phu_luc": "Phụ lục V"
+   }
+  ],
+  "240419": [
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+    "nhom": "Chương 24",
+    "phu_luc": "Phụ lục V"
    }
   ],
   "252329": [
@@ -24136,6 +24494,38 @@
     "phu_luc": "Phụ lục"
    }
   ],
+  "850710": [
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam; đã qua sử dụng",
+    "nhom": "Chương 85",
+    "phu_luc": "Phụ lục V"
+   }
+  ],
+  "850720": [
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam; đã qua sử dụng",
+    "nhom": "Chương 85",
+    "phu_luc": "Phụ lục V"
+   }
+  ],
   "851821": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -24310,6 +24700,22 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   }
+  ],
+  "890110": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "5.2",
+    "phu_luc": "Phụ lục"
    }
   ],
   "890790": [
@@ -41900,6 +42306,86 @@
     "phu_luc": "Phụ lục IV"
    }
   ],
+  "24041100": [
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+    "nhom": "Chương 24",
+    "phu_luc": "Phụ lục V"
+   }
+  ],
+  "24041210": [
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+    "nhom": "Chương 24",
+    "phu_luc": "Phụ lục V"
+   }
+  ],
+  "24041290": [
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+    "nhom": "Chương 24",
+    "phu_luc": "Phụ lục V"
+   }
+  ],
+  "24041910": [
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+    "nhom": "Chương 24",
+    "phu_luc": "Phụ lục V"
+   }
+  ],
+  "24041920": [
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+    "nhom": "Chương 24",
+    "phu_luc": "Phụ lục V"
+   }
+  ],
   "25010010": [
    {
     "so_hieu": "01/2024/TT-BNNPTNT",
@@ -41978,6 +42464,142 @@
     "phu_luc": "Phụ lục III"
    }
   ],
+  "25051000": [
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: chỉ mã 10 số 2505100010 — đã qua chế biến (tuyển, rửa, sấy, nghiền, phân loại cỡ hạt); SiO2 ≥ 97,7%, Fe2O3 ≤ 0,03%, cỡ hạt ≤ 96 µm",
+    "nhom": "I",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: chỉ mã 10 số 2505100020 — đã qua chế biến (tuyển, rửa, sấy, nghiền, phân loại cỡ hạt); SiO2 ≥ 99,3%, Fe2O3 ≤ 0,01%, cỡ hạt ≤ 500 µm",
+    "nhom": "I",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: chỉ mã 10 số 2505100090 — đã qua chế biến (tuyển, rửa, phân loại cỡ hạt); SiO2 ≥ 95%, cỡ hạt ≤ 2,5 mm",
+    "nhom": "I",
+    "phu_luc": "Phụ lục I"
+   }
+  ],
+  "25059000": [
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: đã qua chế biến (tuyển, rửa, phân loại cỡ hạt); SiO2 ≥ 85%, cỡ hạt ≤ 2,5 mm",
+    "nhom": "I",
+    "phu_luc": "Phụ lục I"
+   }
+  ],
+  "25061000": [
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: đã qua chế biến (đập, nghiền, sàng phân loại cỡ hạt); SiO2 ≥ 95%, cỡ hạt ≤ 2,5 mm",
+    "nhom": "I",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: đã được đẽo, cưa, cắt hoặc cách khác thành tấm hình chữ nhật (kể cả hình vuông) dày ≤ 300 mm hoặc thành khối (đá khối) thể tích ≥ 0,1 m3",
+    "nhom": "II",
+    "phu_luc": "Phụ lục I"
+   }
+  ],
+  "25062000": [
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: đã được đẽo, cưa, cắt hoặc cách khác thành tấm hình chữ nhật (kể cả hình vuông) dày ≤ 300 mm hoặc thành khối (đá khối) thể tích ≥ 0,1 m3",
+    "nhom": "II",
+    "phu_luc": "Phụ lục I"
+   }
+  ],
+  "25070000": [
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: đã qua chế biến đập, nghiền, tuyển, sấy, sàng phân loại; Al2O3 ≥ 28%, Fe2O3 ≤ 1%, cỡ hạt ≤ 0,2 mm",
+    "nhom": "IV",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: đã qua chế biến đập, nghiền, sàng phân loại; cỡ hạt ≤ 100 mm",
+    "nhom": "IV",
+    "phu_luc": "Phụ lục I"
+   }
+  ],
   "25081000": [
    {
     "so_hieu": "09/2024/TT-BYT",
@@ -42005,6 +42627,22 @@
     "muc_rui_ro": "TRUNG_BINH",
     "dieu_kien": null,
     "nhom": "3.4.9",
+    "phu_luc": "Phụ lục I"
+   }
+  ],
+  "25083000": [
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: đã qua chế biến đập, nghiền, sàng phân loại; Al2O3 ≥ 23%, cỡ hạt ≤ 0,2 mm",
+    "nhom": "IV",
     "phu_luc": "Phụ lục I"
    }
   ],
@@ -42040,7 +42678,235 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "25140000": [
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: đã được đẽo, cưa, cắt hoặc cách khác thành tấm hình chữ nhật (kể cả hình vuông) dày ≤ 50 mm",
+    "nhom": "II",
+    "phu_luc": "Phụ lục I"
+   }
+  ],
+  "25151210": [
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: chỉ mã 10 số 2515121010 — đã được cưa, cắt hoặc cách khác thành khối (đá khối) thể tích ≥ 0,1 m3",
+    "nhom": "II",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: chỉ mã 10 số 2515121090 — đã được cưa, cắt hoặc cách khác thành khối (đá khối) thể tích ≥ 0,1 m3",
+    "nhom": "II",
+    "phu_luc": "Phụ lục I"
+   }
+  ],
+  "25151220": [
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: đã được cưa, cắt hoặc cách khác thành tấm hình chữ nhật (kể cả hình vuông) dày ≤ 300 mm",
+    "nhom": "II",
+    "phu_luc": "Phụ lục I"
+   }
+  ],
+  "25152000": [
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: chỉ mã 10 số 2515200010 — đã được cưa, cắt hoặc cách khác thành khối (đá khối) thể tích ≥ 0,1 m3",
+    "nhom": "II",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: chỉ mã 10 số 2515200090 — đã được cưa, cắt hoặc cách khác thành tấm hình chữ nhật (kể cả hình vuông) dày ≤ 300 mm",
+    "nhom": "II",
+    "phu_luc": "Phụ lục I"
+   }
+  ],
+  "25161210": [
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: đã được cưa, cắt hoặc cách khác thành khối (đá khối) thể tích ≥ 0,1 m3",
+    "nhom": "II",
+    "phu_luc": "Phụ lục I"
+   }
+  ],
+  "25161220": [
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: đã được cưa, cắt hoặc cách khác thành tấm hình chữ nhật (kể cả hình vuông) dày ≤ 300 mm",
+    "nhom": "II",
+    "phu_luc": "Phụ lục I"
+   }
+  ],
+  "25162020": [
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: đã được cưa, cắt hoặc cách khác thành khối thể tích ≥ 0,1 m3 hoặc thành tấm hình chữ nhật (kể cả hình vuông) dày ≤ 300 mm",
+    "nhom": "II",
+    "phu_luc": "Phụ lục I"
+   }
+  ],
+  "25169000": [
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: đã được đẽo, cưa, cắt hoặc cách khác làm tượng đài hoặc đá xây dựng",
+    "nhom": "II",
+    "phu_luc": "Phụ lục I"
+   }
+  ],
+  "25171000": [
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: chỉ mã 10 số 2517100010 — đã qua chế biến đập, nghiền hoặc cách khác; kích thước ≤ 400 mm",
+    "nhom": "III",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: chỉ mã 10 số 2517100090 — đã qua chế biến đập, nghiền hoặc cách khác; kích thước > 400 mm",
+    "nhom": "III",
+    "phu_luc": "Phụ lục I"
+   }
+  ],
   "25174900": [
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: chỉ mã 10 số 2517490010 — đã qua chế biến đập, nghiền, sàng phân loại; kích thước ≤ 0,125 mm",
+    "nhom": "III",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: chỉ mã 10 số 2517490020 — đã qua chế biến đập, nghiền, sàng phân loại; kích thước > 0,125 mm đến 1,0 mm",
+    "nhom": "III",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: chỉ mã 10 số 2517490030 — đã qua chế biến đập, nghiền, sàng phân loại; kích thước > 1,0 mm đến 400 mm",
+    "nhom": "III",
+    "phu_luc": "Phụ lục I"
+   },
    {
     "so_hieu": "27/2026/TT-BNNMT",
     "slug": "27-2026-tt-bnnmt",
@@ -42057,6 +42923,20 @@
    }
   ],
   "25181000": [
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: đã qua chế biến đập, nghiền, sàng phân loại; MgO ≥ 18%, cỡ hạt ≤ 100 mm",
+    "nhom": "IV",
+    "phu_luc": "Phụ lục I"
+   },
    {
     "so_hieu": "27/2026/TT-BNNMT",
     "slug": "27-2026-tt-bnnmt",
@@ -42164,6 +43044,22 @@
     "dieu_kien": "Dược liệu — mã lấy từ Danh mục 11 của 09/2024/TT-BYT theo dẫn chiếu tại Phụ lục TT 26/2026/TT-BYT (suy ra, không in trực tiếp trong 26/2026)",
     "nhom": "1",
     "phu_luc": "Phụ lục"
+   }
+  ],
+  "25210000": [
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: đã qua chế biến đập, nghiền, sàng phân loại; CaCO3 ≥ 85%, cỡ hạt ≤ 100 mm",
+    "nhom": "IV",
+    "phu_luc": "Phụ lục I"
    }
   ],
   "25221000": [
@@ -42380,6 +43276,22 @@
     "dieu_kien": null,
     "nhom": "II.273",
     "phu_luc": "Phụ lục"
+   }
+  ],
+  "25291010": [
+   {
+    "so_hieu": "11/2026/TT-BXD",
+    "slug": "11-2026-tt-bxd",
+    "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-06-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "xuất khẩu: đã qua chế biến đập, nghiền, sàng phân loại; (K2O+Na2O) ≥ 7%, cỡ hạt ≤ 100 mm",
+    "nhom": "IV",
+    "phu_luc": "Phụ lục I"
    }
   ],
   "25301000": [
@@ -42604,6 +43516,20 @@
   ],
   "27101221": [
    {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "6.1",
+    "phu_luc": "Phụ lục"
+   },
+   {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
@@ -42619,6 +43545,20 @@
    }
   ],
   "27101222": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "6.1",
+    "phu_luc": "Phụ lục"
+   },
    {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
@@ -42636,6 +43576,20 @@
   ],
   "27101223": [
    {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "6.1",
+    "phu_luc": "Phụ lục"
+   },
+   {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
@@ -42651,6 +43605,20 @@
    }
   ],
   "27101224": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "6.1",
+    "phu_luc": "Phụ lục"
+   },
    {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
@@ -42668,6 +43636,20 @@
   ],
   "27101225": [
    {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "6.1",
+    "phu_luc": "Phụ lục"
+   },
+   {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
@@ -42684,6 +43666,20 @@
   ],
   "27101226": [
    {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "6.1",
+    "phu_luc": "Phụ lục"
+   },
+   {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
@@ -42696,6 +43692,86 @@
     "dieu_kien": null,
     "nhom": "1.1",
     "phu_luc": "Phụ lục I"
+   }
+  ],
+  "27101227": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "6.1",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "27101228": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "6.1",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "27101229": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "6.1",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "27101231": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "6.2",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "27101239": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "6.2",
+    "phu_luc": "Phụ lục"
    }
   ],
   "27101946": [
@@ -43602,6 +44678,20 @@
   ],
   "28291100": [
    {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "tiền chất thuốc nổ; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "10.1",
+    "phu_luc": "Phụ lục"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -43617,6 +44707,20 @@
    }
   ],
   "28291900": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "tiền chất thuốc nổ; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "10.1",
+    "phu_luc": "Phụ lục"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -43646,6 +44750,20 @@
     "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
     "nhom": "7",
     "phu_luc": "Danh mục 7"
+   },
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "tiền chất thuốc nổ; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "10.1",
+    "phu_luc": "Phụ lục"
    },
    {
     "so_hieu": "33/2026/TT-BCT",
@@ -43963,6 +45081,20 @@
     "muc_rui_ro": null,
     "dieu_kien": null,
     "nhom": "II.390",
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "tiền chất thuốc nổ; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "10.1",
     "phu_luc": "Phụ lục"
    },
    {
@@ -45344,6 +46476,20 @@
     "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
     "nhom": "1",
     "phu_luc": "Danh mục 1"
+   },
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "tiền chất thuốc nổ; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "10.1",
+    "phu_luc": "Phụ lục"
    }
   ],
   "29053200": [
@@ -54462,6 +55608,20 @@
   ],
   "31023000": [
    {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "tiền chất thuốc nổ; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "10.1",
+    "phu_luc": "Phụ lục"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -54487,6 +55647,22 @@
     "muc_rui_ro": "TRUNG_BINH",
     "dieu_kien": null,
     "nhom": "6.2",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "31025000": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "tiền chất thuốc nổ; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "10.1",
     "phu_luc": "Phụ lục"
    }
   ],
@@ -54910,6 +56086,20 @@
     "dieu_kien": null,
     "nhom": "2.5",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "tiền chất thuốc nổ; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "10.1",
+    "phu_luc": "Phụ lục"
    }
   ],
   "31052000": [
@@ -57464,6 +58654,20 @@
   ],
   "36020000": [
    {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "vật liệu nổ công nghiệp; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "10.2",
+    "phu_luc": "Phụ lục"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -57744,7 +58948,37 @@
     "phu_luc": "Phụ lục"
    }
   ],
+  "36031000": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "vật liệu nổ công nghiệp; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "10.2",
+    "phu_luc": "Phụ lục"
+   }
+  ],
   "36032000": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "vật liệu nổ công nghiệp; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "10.2",
+    "phu_luc": "Phụ lục"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -57803,6 +59037,20 @@
    }
   ],
   "36034000": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "vật liệu nổ công nghiệp; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "10.2",
+    "phu_luc": "Phụ lục"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -57903,6 +59151,20 @@
    }
   ],
   "36036000": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "vật liệu nổ công nghiệp; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "10.2",
+    "phu_luc": "Phụ lục"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -68826,6 +70088,22 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   }
+  ],
+  "48239092": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "9",
+    "phu_luc": "Phụ lục"
    }
   ],
   "49100000": [
@@ -94874,7 +96152,7 @@
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "TRUNG_BINH",
     "dieu_kien": null,
-    "nhom": "7",
+    "nhom": "8",
     "phu_luc": "Phụ lục III"
    }
   ],
@@ -94890,21 +96168,7 @@
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "TRUNG_BINH",
     "dieu_kien": null,
-    "nhom": "6",
-    "phu_luc": "Phụ lục III"
-   },
-   {
-    "so_hieu": "41/2026/TT-BXD",
-    "slug": "41-2026-tt-bxd",
-    "ten": "Quản lý chất lượng sản phẩm, hàng hoá vật liệu xây dựng",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2026-07-01",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
-    "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "8",
+    "nhom": "7",
     "phu_luc": "Phụ lục III"
    },
    {
@@ -94922,21 +96186,7 @@
     "phu_luc": "Phụ lục III"
    }
   ],
-  "68118220": [
-   {
-    "so_hieu": "41/2026/TT-BXD",
-    "slug": "41-2026-tt-bxd",
-    "ten": "Quản lý chất lượng sản phẩm, hàng hoá vật liệu xây dựng",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2026-07-01",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
-    "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "8",
-    "phu_luc": "Phụ lục III"
-   },
+  "68114010": [
    {
     "so_hieu": "41/2026/TT-BXD",
     "slug": "41-2026-tt-bxd",
@@ -94950,7 +96200,9 @@
     "dieu_kien": null,
     "nhom": "9",
     "phu_luc": "Phụ lục III"
-   },
+   }
+  ],
+  "68118220": [
    {
     "so_hieu": "41/2026/TT-BXD",
     "slug": "41-2026-tt-bxd",
@@ -94978,9 +96230,11 @@
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "TRUNG_BINH",
     "dieu_kien": null,
-    "nhom": "8",
+    "nhom": "10",
     "phu_luc": "Phụ lục III"
-   },
+   }
+  ],
+  "69072191": [
    {
     "so_hieu": "41/2026/TT-BXD",
     "slug": "41-2026-tt-bxd",
@@ -94992,7 +96246,183 @@
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "TRUNG_BINH",
     "dieu_kien": null,
-    "nhom": "10",
+    "nhom": "6",
+    "phu_luc": "Phụ lục III"
+   }
+  ],
+  "69072192": [
+   {
+    "so_hieu": "41/2026/TT-BXD",
+    "slug": "41-2026-tt-bxd",
+    "ten": "Quản lý chất lượng sản phẩm, hàng hoá vật liệu xây dựng",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": "TRUNG_BINH",
+    "dieu_kien": null,
+    "nhom": "6",
+    "phu_luc": "Phụ lục III"
+   }
+  ],
+  "69072193": [
+   {
+    "so_hieu": "41/2026/TT-BXD",
+    "slug": "41-2026-tt-bxd",
+    "ten": "Quản lý chất lượng sản phẩm, hàng hoá vật liệu xây dựng",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": "TRUNG_BINH",
+    "dieu_kien": null,
+    "nhom": "6",
+    "phu_luc": "Phụ lục III"
+   }
+  ],
+  "69072194": [
+   {
+    "so_hieu": "41/2026/TT-BXD",
+    "slug": "41-2026-tt-bxd",
+    "ten": "Quản lý chất lượng sản phẩm, hàng hoá vật liệu xây dựng",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": "TRUNG_BINH",
+    "dieu_kien": null,
+    "nhom": "6",
+    "phu_luc": "Phụ lục III"
+   }
+  ],
+  "69072291": [
+   {
+    "so_hieu": "41/2026/TT-BXD",
+    "slug": "41-2026-tt-bxd",
+    "ten": "Quản lý chất lượng sản phẩm, hàng hoá vật liệu xây dựng",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": "TRUNG_BINH",
+    "dieu_kien": null,
+    "nhom": "6",
+    "phu_luc": "Phụ lục III"
+   }
+  ],
+  "69072292": [
+   {
+    "so_hieu": "41/2026/TT-BXD",
+    "slug": "41-2026-tt-bxd",
+    "ten": "Quản lý chất lượng sản phẩm, hàng hoá vật liệu xây dựng",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": "TRUNG_BINH",
+    "dieu_kien": null,
+    "nhom": "6",
+    "phu_luc": "Phụ lục III"
+   }
+  ],
+  "69072293": [
+   {
+    "so_hieu": "41/2026/TT-BXD",
+    "slug": "41-2026-tt-bxd",
+    "ten": "Quản lý chất lượng sản phẩm, hàng hoá vật liệu xây dựng",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": "TRUNG_BINH",
+    "dieu_kien": null,
+    "nhom": "6",
+    "phu_luc": "Phụ lục III"
+   }
+  ],
+  "69072294": [
+   {
+    "so_hieu": "41/2026/TT-BXD",
+    "slug": "41-2026-tt-bxd",
+    "ten": "Quản lý chất lượng sản phẩm, hàng hoá vật liệu xây dựng",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": "TRUNG_BINH",
+    "dieu_kien": null,
+    "nhom": "6",
+    "phu_luc": "Phụ lục III"
+   }
+  ],
+  "69072391": [
+   {
+    "so_hieu": "41/2026/TT-BXD",
+    "slug": "41-2026-tt-bxd",
+    "ten": "Quản lý chất lượng sản phẩm, hàng hoá vật liệu xây dựng",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": "TRUNG_BINH",
+    "dieu_kien": null,
+    "nhom": "6",
+    "phu_luc": "Phụ lục III"
+   }
+  ],
+  "69072392": [
+   {
+    "so_hieu": "41/2026/TT-BXD",
+    "slug": "41-2026-tt-bxd",
+    "ten": "Quản lý chất lượng sản phẩm, hàng hoá vật liệu xây dựng",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": "TRUNG_BINH",
+    "dieu_kien": null,
+    "nhom": "6",
+    "phu_luc": "Phụ lục III"
+   }
+  ],
+  "69072393": [
+   {
+    "so_hieu": "41/2026/TT-BXD",
+    "slug": "41-2026-tt-bxd",
+    "ten": "Quản lý chất lượng sản phẩm, hàng hoá vật liệu xây dựng",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": "TRUNG_BINH",
+    "dieu_kien": null,
+    "nhom": "6",
+    "phu_luc": "Phụ lục III"
+   }
+  ],
+  "69072394": [
+   {
+    "so_hieu": "41/2026/TT-BXD",
+    "slug": "41-2026-tt-bxd",
+    "ten": "Quản lý chất lượng sản phẩm, hàng hoá vật liệu xây dựng",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": "TRUNG_BINH",
+    "dieu_kien": null,
+    "nhom": "6",
     "phu_luc": "Phụ lục III"
    }
   ],
@@ -95058,6 +96488,20 @@
     "dieu_kien": "làm nguyên liệu sản xuất; Giấy phép môi trường thành phần (Giấy xác nhận đủ điều kiện về bảo vệ môi trường trong nhập khẩu phế liệu làm nguyên liệu sản xuất) theo QĐ 13/2023",
     "nhom": "Mục 4",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam; trừ thủy tinh từ ống đèn tia ca-tốt, thủy tinh hoạt tính nhóm 85.49 và thủy tinh dạng khối",
+    "nhom": "Chương 70",
+    "phu_luc": "Phụ lục V"
    }
   ],
   "70051090": [
@@ -100072,6 +101516,20 @@
     "dieu_kien": "làm nguyên liệu sản xuất; Giấy phép môi trường thành phần (Giấy xác nhận đủ điều kiện về bảo vệ môi trường trong nhập khẩu phế liệu làm nguyên liệu sản xuất) theo QĐ 13/2023",
     "nhom": "Mục 5",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+    "nhom": "Chương 74",
+    "phu_luc": "Phụ lục V"
    }
   ],
   "75030000": [
@@ -100088,6 +101546,20 @@
     "dieu_kien": "làm nguyên liệu sản xuất; Giấy phép môi trường thành phần (Giấy xác nhận đủ điều kiện về bảo vệ môi trường trong nhập khẩu phế liệu làm nguyên liệu sản xuất) theo QĐ 13/2023",
     "nhom": "Mục 5",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+    "nhom": "Chương 75",
+    "phu_luc": "Phụ lục V"
    }
   ],
   "76020000": [
@@ -100104,6 +101576,20 @@
     "dieu_kien": "làm nguyên liệu sản xuất; Giấy phép môi trường thành phần (Giấy xác nhận đủ điều kiện về bảo vệ môi trường trong nhập khẩu phế liệu làm nguyên liệu sản xuất) theo QĐ 13/2023",
     "nhom": "Mục 5",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+    "nhom": "Chương 76",
+    "phu_luc": "Phụ lục V"
    }
   ],
   "76130000": [
@@ -100136,6 +101622,20 @@
     "dieu_kien": "làm nguyên liệu sản xuất; Giấy phép môi trường thành phần (Giấy xác nhận đủ điều kiện về bảo vệ môi trường trong nhập khẩu phế liệu làm nguyên liệu sản xuất) theo QĐ 13/2023",
     "nhom": "Mục 5",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+    "nhom": "Chương 79",
+    "phu_luc": "Phụ lục V"
    }
   ],
   "80020000": [
@@ -100152,6 +101652,20 @@
     "dieu_kien": "làm nguyên liệu sản xuất; Giấy phép môi trường thành phần (Giấy xác nhận đủ điều kiện về bảo vệ môi trường trong nhập khẩu phế liệu làm nguyên liệu sản xuất) theo QĐ 13/2023",
     "nhom": "Mục 5",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+    "nhom": "Chương 80",
+    "phu_luc": "Phụ lục V"
    }
   ],
   "81110010": [
@@ -100168,6 +101682,20 @@
     "dieu_kien": "làm nguyên liệu sản xuất; Giấy phép môi trường thành phần (Giấy xác nhận đủ điều kiện về bảo vệ môi trường trong nhập khẩu phế liệu làm nguyên liệu sản xuất) theo QĐ 13/2023",
     "nhom": "Mục 5",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "292/2026/NĐ-CP",
+    "slug": "292-2026-nd-cp",
+    "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-09-05",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam",
+    "nhom": "Chương 81",
+    "phu_luc": "Phụ lục V"
    }
   ],
   "82073000": [
@@ -158818,6 +160346,54 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "88022010": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "5.1",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "88023010": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "5.1",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "88024010": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "5.1",
+    "phu_luc": "Phụ lục"
+   }
+  ],
   "88062100": [
    {
     "so_hieu": "36/2026/TT-BKHCN",
@@ -161892,6 +163468,22 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "95044000": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "8",
+    "phu_luc": "Phụ lục"
+   }
+  ],
   "95071000": [
    {
     "so_hieu": "01/2024/TT-BNNPTNT",
@@ -161986,6 +163578,22 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   }
+  ],
+  "96039010": [
+   {
+    "so_hieu": "31/2026/QĐ-TTg",
+    "slug": "31-2026-qd-ttg",
+    "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-08-14",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": false,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "vật liệu nổ công nghiệp; hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+    "nhom": "10.2",
+    "phu_luc": "Phụ lục"
    }
   ],
   "96050000": [

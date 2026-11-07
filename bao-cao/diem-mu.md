@@ -1,4 +1,4 @@
-# Báo cáo điểm mù — 2026-11-06
+# Báo cáo điểm mù — 2026-11-07
 
 Tổng 5103 điểm: **47 cao**, 464 vừa, 4592 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
@@ -17,11 +17,11 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Wiki nhắc văn bản chưa đăng ký | Vừa | 155 | `lien-ket-cheo` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 123 | `danh-muc-hs` |
 | Biểu thuế XNK Tổng cục nêu nhưng sổ chưa có (hs-code-api skill bieu-thue-xnk) | Vừa | 29 | `he-thong-hoa` |
-| Văn bản danh mục chưa trích bảng mã HS | Vừa | 28 | `danh-muc-hs` |
+| Văn bản danh mục chưa trích bảng mã HS | Vừa | 27 | `danh-muc-hs` |
 | Mã HS có hàng thật chưa đối chiếu KTCN 2026 (hs-code-api /api/demand) | Vừa | 25 | `danh-muc-hs` |
 | Thư viện hs-code-api ghi khác sổ | Vừa | 14 | `hieu-luc` |
 | Văn bản khung thiếu thông tin | Vừa | 10 | `he-thong-hoa` |
-| Bảng dẫn chiếu mã HS sang văn bản chưa có bảng | Vừa | 6 | `danh-muc-hs` |
+| Bảng dẫn chiếu mã HS sang văn bản chưa có bảng | Vừa | 7 | `danh-muc-hs` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
 | THIEU_VBHN | Vừa | 1 | `nap-lam-sach` |
 | Hiệu lực chưa đối chiếu nguồn A | Thấp | 2306 | `hieu-luc` |
@@ -261,7 +261,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 65/2017/TT-BTC** — văn bản bị thay (theo biểu) — Danh mục hàng hóa XNK. Thêm vào sổ: node tools/them-van-ban.mjs "65/2017/TT-BTC"
 - [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 924/QĐ-BNN** — văn bản bị thay (theo biểu) — HH là mẫu vật động vật rừng nguy cấp, quý, hiếm và động vật thuộc các phụ lục CITES / HH là mẫu vật thực vật rừng nguy cấp, quý hiếm; thực vật thuộc các phụ lục CITES / Đồ trang sức làm bằng chất liệu thực vật rừng, động vật rừng nguy cấp, quý, hiếm và động v. Thêm vào sổ: node tools/them-van-ban.mjs "924/QĐ-BNN"
 
-## Văn bản danh mục chưa trích bảng mã HS (28)
+## Văn bản danh mục chưa trích bảng mã HS (27)
 
 - [ ] **Chưa trích bảng mã HS: 4814/QĐ-BCA** — Văn bản danh mục chưa có danh-muc/4814-qd-bca-2026.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
 - [ ] **Chưa trích bảng mã HS: 49-PL1/2026/TT-BXD** — Văn bản danh mục chưa có danh-muc/49-pl1-2026-tt-bxd.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
@@ -278,7 +278,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Chưa trích bảng mã HS: 125/2021/TT-BCA** — Văn bản danh mục chưa có danh-muc/125-2021-tt-bca.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 1 mã.
 - [ ] **Chưa trích bảng mã HS: 02/2024/TT-BTTTT** — Văn bản danh mục chưa có danh-muc/02-2024-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
 - [ ] **Chưa trích bảng mã HS: 09/2013/TT-BTTTT** — Văn bản danh mục chưa có danh-muc/09-2013-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
-- [ ] **Chưa trích bảng mã HS: 11/2026/TT-BXD** — Văn bản danh mục chưa có danh-muc/11-2026-tt-bxd.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
 - [ ] **Chưa trích bảng mã HS: 13/2018/TT-BTTTT** — Văn bản danh mục chưa có danh-muc/13-2018-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
 - [ ] **Chưa trích bảng mã HS: 14/2024/TT-BNNPTNT** — Văn bản danh mục chưa có danh-muc/14-2024-tt-bnnptnt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
 - [ ] **Chưa trích bảng mã HS: 1536/QĐ-BYT** — Văn bản danh mục chưa có danh-muc/1536-qd-byt-2026.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
@@ -350,7 +349,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **915/QĐ-BCT: chưa có tiêu đề, ngày, nguồn** — Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.
 - [ ] **924/QĐ-BNN-TCLN: chưa có tiêu đề, ngày, nguồn** — Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.
 
-## Bảng dẫn chiếu mã HS sang văn bản chưa có bảng (6)
+## Bảng dẫn chiếu mã HS sang văn bản chưa có bảng (7)
 
 - [ ] **16/2024/TT-BYT dẫn mã HS sang 3 — chưa có trong sổ** — danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 3. Thêm 3 vào sổ rồi trích bảng để mã HS của các dòng này tra được.
 - [ ] **16/2024/TT-BYT dẫn mã HS sang 4 — chưa có trong sổ** — danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 4. Thêm 4 vào sổ rồi trích bảng để mã HS của các dòng này tra được.
@@ -358,6 +357,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **16/2024/TT-BYT dẫn mã HS sang 6 — chưa có trong sổ** — danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 6. Thêm 6 vào sổ rồi trích bảng để mã HS của các dòng này tra được.
 - [ ] **16/2024/TT-BYT dẫn mã HS sang 7 — chưa có trong sổ** — danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 7. Thêm 7 vào sổ rồi trích bảng để mã HS của các dòng này tra được.
 - [ ] **16/2024/TT-BYT dẫn mã HS sang 8 — chưa có trong sổ** — danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 8. Thêm 8 vào sổ rồi trích bảng để mã HS của các dòng này tra được.
+- [ ] **292/2026/NĐ-CP dẫn mã HS sang 33/2024/NĐ-CP — chưa có trong sổ** — danh-muc/292-2026-nd-cp.csv có dòng không ghi mã mà dẫn chiếu 33/2024/NĐ-CP. Thêm 33/2024/NĐ-CP vào sổ rồi trích bảng để mã HS của các dòng này tra được.
 
 ## Sắp có hiệu lực (≤60 ngày) (3)
 
