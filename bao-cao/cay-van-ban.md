@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-09
 
-2435 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2436 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -2599,8 +2599,9 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Khoa học và Công nghệ `kiem-tra-chuyen-nganh/bkhcn`
 
-10 văn bản, 7 chưa hết hiệu lực.
+11 văn bản, 8 chưa hết hiệu lực.
 
+- 🟢 [45/2026/TT-BKHCN](../registry/van-ban/45-2026-tt-bkhcn.yaml) — Sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Khoa học và Công nghệ
 - 🟢 [36/2026/TT-BKHCN](../registry/van-ban/36-2026-tt-bkhcn.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ
 - ⚫ [29/2025/TT-BKHCN](../registry/van-ban/29-2025-tt-bkhcn.yaml) — Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn lĩnh vực công nghệ thông tin và viễn thông thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ _(hết hiệu lực 2026-07-01)_
 - ❔ [367/QĐ-BKHCN](../registry/van-ban/367-qd-bkhcn-2024.yaml) — Về việc sửa đổi, bổ sung nhóm sản phẩm chiếu sáng bằng công nghệ LED tại mục 10 Phụ lục ban hành kèm theo Quyết định số 2711/QĐ-BKHCN ngày 30/12/2022 của Bộ trưởng Bộ Khoa học và Công nghệ về việc công bố sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ

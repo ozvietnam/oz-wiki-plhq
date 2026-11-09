@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-11-09
 
-Tổng 5113 điểm: **47 cao**, 463 vừa, 4603 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 5115 điểm: **47 cao**, 463 vừa, 4605 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -24,8 +24,8 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Bảng dẫn chiếu mã HS sang văn bản chưa có bảng | Vừa | 7 | `danh-muc-hs` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
 | THIEU_VBHN | Vừa | 1 | `nap-lam-sach` |
-| Hiệu lực chưa đối chiếu nguồn A | Thấp | 2312 | `hieu-luc` |
-| Chưa có toàn văn | Thấp | 198 | `nap-lam-sach` |
+| Hiệu lực chưa đối chiếu nguồn A | Thấp | 2313 | `hieu-luc` |
+| Chưa có toàn văn | Thấp | 199 | `nap-lam-sach` |
 | Văn bản của cơ quan đã sáp nhập | Thấp | 21 | `do-tham` |
 | Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay | Thấp | 13 | `hieu-luc` |
 | Chưa xếp vào cây | Thấp | 12 | `cay-du-lieu` |
@@ -369,7 +369,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 
 - [ ] **99/2013/NĐ-CP đã bị sửa đổi 3 lần nhưng chưa có văn bản hợp nhất** — Tìm văn bản hợp nhất (VBHN) của 99/2013/NĐ-CP trên vanban.chinhphu.vn; nếu có, thêm vào sổ kèm quan_he.hop_nhat trỏ về 99/2013/NĐ-CP.
 
-## Hiệu lực chưa đối chiếu nguồn A (2312)
+## Hiệu lực chưa đối chiếu nguồn A (2313)
 
 - [ ] **2711/QĐ-BKHCN: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **01/2018/TT-BCT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
@@ -411,9 +411,9 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **100/2026/VBHN-TT-BNNMT: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **100/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **100/TB-TCHQ/2021: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- … và 2272 điểm khác (xem bao-cao/diem-mu.json)
+- … và 2273 điểm khác (xem bao-cao/diem-mu.json)
 
-## Chưa có toàn văn (198)
+## Chưa có toàn văn (199)
 
 - [ ] **07/2022/QH15: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "07/2022/QH15" --ghi
 - [ ] **114/2025/QH15: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "114/2025/QH15" --ghi
@@ -455,7 +455,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **100/2026/VBHN-TT-BNNMT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "100/2026/VBHN-TT-BNNMT" --ghi
 - [ ] **102/2020/NĐ-CP: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "102/2020/NĐ-CP" --ghi
 - [ ] **102/2020/QH14: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "102/2020/QH14" --ghi
-- … và 158 điểm khác (xem bao-cao/diem-mu.json)
+- … và 159 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Văn bản của cơ quan đã sáp nhập (21)
 

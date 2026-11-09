@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-09",
-  "tong": 5113,
+  "tong": 5115,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -28899,6 +28899,24 @@
       "muc_tieu": "45/2024/TT-BCT",
       "viec": "Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.",
       "luong": "he-thong-hoa",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "45/2026/TT-BKHCN: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "45/2026/TT-BKHCN",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "45/2026/TT-BKHCN: chưa có toàn văn trong raw/",
+      "muc_tieu": "45/2026/TT-BKHCN",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"45/2026/TT-BKHCN\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
