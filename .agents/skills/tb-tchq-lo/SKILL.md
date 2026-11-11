@@ -193,6 +193,68 @@ Kết quả gộp:
 | Đợt 2 | 10 (TB chưa có) | 200 | 32 | 16% |
 | **Tổng** | **20** | **420** | **49** | **12%** |
 
+### 🔴 Pitfall đếm "gói đã xong" qua PR GitHub = SAI (Sếp bắt lỗi)
+
+**Triệu chứng**: Báo cáo "X gói đã xử lý" cho Sếp → Sếp bắt lỗi ngay "X gói là sai đó em. Kiểm tra lại, đào sâu vào các kinh nghiệm sau mỗi vòng".
+
+**Vì sao SAI**:
+- PR title chỉ chứa 1 goi-id không có nghĩa PR đó xử lý 1 gói. PR `goi-080 đến goi-103` = batch 24 gói.
+- PR `feat(tb-tchq): 49 gói (980 TB) - fix-xu-tay` (PR #190) chứa 49 gói fix lỗi, không thể đếm là "1 gói".
+- Comment "xong goi-NNN" trên issue #185 chỉ có 5 lần nhưng thực tế có 22 file lô → nhiều gói làm xong nhưng quên comment (agent khác nhau: Hermes, doc-hieu, cursor, Sonnet 4.5).
+- Kho precedents 3.805 records = lũy kế nhiều tháng, KHÔNG chỉ từ issue #185.
+
+**Cách đếm ĐÚNG (file-count truth, không phải PR-count)**:
+```bash
+cd /Users/ozvietnamdesktop/Documents/Claude/Projects/oz-wiki-plhq
+
+# Đếm gói có đủ 3 file (detail + lô + báo cáo)
+ls data/customs/lo/tracuuhs-*.json | \
+  sed 's|.*/||;s|tracuuhs-[0-9-]*-goi-||;s|\.json||' | \
+  grep -v "^lot-" | sort -u | wc -l
+
+# Đếm tổng records thực trong các file lô
+python3 -c "
+import json, os, re
+total = 0; goi = {}
+for f in sorted(os.listdir('data/customs/lo')):
+    if not f.startswith('tracuuhs-') or not f.endswith('.json'):
+        continue
+    with open(f'data/customs/lo/{f}') as fh:
+        d = json.load(fh)
+    records = d.get('records', [])
+    if isinstance(records, list):
+        total += len(records)
+        m = re.search(r'goi-(\d{3})', f)
+        if m: goi[m.group(1)] = len(records)
+print(f'Số gói có file lô: {len(goi)}')
+print(f'Tổng records trong lô: {total}')
+"
+
+# Đếm gói có cả 3 file (đóng gói hoàn chỉnh)
+python3 -c "
+import os
+lo_dir = 'data/customs/lo'; proc_dir = 'data/customs/processed'
+goi_lo = {f.split('goi-')[-1].split('.')[0] for f in os.listdir(lo_dir) 
+          if f.startswith('tracuuhs-') and f.endswith('.json') and 'goi-' in f}
+goi_detail = {f.split('goi-')[-1].split('.')[0] for f in os.listdir(proc_dir) 
+              if f.startswith('tracuuhs-detail-') and 'goi-' in f}
+goi_bao_cao = {f.split('goi-')[-1].split('.')[0] for f in os.listdir(lo_dir) 
+               if f.startswith('BAO-CAO-goi-')}
+full = goi_lo & goi_detail & goi_bao_cao
+print(f'Gói có đủ 3 file: {len(full)}')
+print(f'Gói chỉ có lô: {sorted(goi_lo - full)}')
+"
+```
+
+**Quy tắc cứng khi báo cáo "X/Y gói đã xong"**:
+- ✅ Đếm FILE LÔ có thật trong repo (không tính `lot-*.json` legacy)
+- ✅ Tính tỉ lệ = `len(goi_co_file_lo) / 103` (tổng issue #185)
+- ❌ KHÔNG đếm qua `gh pr list --search "goi-"` (PR batch làm sai số)
+- ❌ KHÔNG đếm qua comment "xong goi-NNN" (nhiều agent quên comment)
+- ❌ KHÔNG lấy số từ `precedents.json` (lũy kế nhiều nguồn)
+
+**Bài học lớn (theo Sếp)**: "Đào sâu vào các kinh nghiệm sau mỗi vòng" — mỗi khi làm 1 vòng batch, GHI lại vào skill rule này + `LEARNED.md` để session sau không lặp lại sai lầm.
+
 ### 🐛 BUG NGHIÊM TRỌNG phát hiện 2026-10-14 (sau khi rà 21 gói đã làm)
 
 **1. hsCode từ tracuuhs.com KHÔNG khớp tax.json VN hiện tại**
