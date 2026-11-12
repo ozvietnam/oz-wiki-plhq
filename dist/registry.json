@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-12",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2444,
+  "tong": 2453,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -4921,6 +4921,68 @@
       "slug": "1089-tb-tchq-2020",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "109/2011/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 47/2009/NĐ-CP ngày 13 tháng 5 năm 2009 của Chính phủ quy định xử phạt vi phạm hành chính về quyền tác giả, quyền liên quan",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2011-12-02",
+      "hieu_luc_tu": "2012-01-20",
+      "het_hieu_luc_tu": "2013-12-15",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "xu-phat",
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "47/2009/NĐ-CP",
+            "tu_ngay": "2012-01-20",
+            "can_cu": "Điều 1 và Điều 2 Nghị định 109/2011/NĐ-CP"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=152922",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2012/03/109nd.doc",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-109-2011-nd-cp-8819.htm",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-109-2011-nd-cp-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-47-2009-nd-cp-ngay-13-thang-5-nam-2009-cua-chinh-phu-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-quyen-tac-gia-quyen-lien-quan--27054",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/109-2011-nd-cp.doc",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Thẻ vanban.chinhphu.vn (docid=152922), toàn văn OLE .doc (109nd.doc), Công báo (8819) và vbpl.vn (27054): ban hành 02-12-2011, người ký Nguyễn Tấn Dũng; Điều 1 sửa đổi NĐ 47/2009/NĐ-CP; Điều 2 hiệu lực từ 20-01-2012; hết hiệu lực toàn bộ từ 15-12-2013 do bị NĐ 131/2013/NĐ-CP thay thế (Điều 41 NĐ 131/2013/NĐ-CP).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Đã hết hiệu lực từ 15-12-2013 cùng Nghị định 47/2009/NĐ-CP khi bị Nghị định 131/2013/NĐ-CP thay thế.",
+      "slug": "109-2011-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "131/2013/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "109/2011/NĐ-CP",
+            "tu_ngay": "2013-12-15"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "109/2025/UBTVQH15",
@@ -12127,11 +12189,20 @@
         "ngay": "2026-10-04",
         "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Mã vụ việc ER01.AD13-AS01. PDF CamScanner trên cổng moit.gov.vn — điều khoản đọc bằng OCR. Cùng ngày có QĐ 1310/QĐ-BCT gia hạn biện pháp chống lẩn tránh theo thời hạn của 1309.",
+      "ghi_chu": "Mã vụ việc ER01.AD13-AS01. PDF CamScanner trên cổng moit.gov.vn — điều khoản đọc bằng OCR. Cùng ngày có QĐ 1310/QĐ-BCT (registry/van-ban/1310-qd-bct-2026.yaml, quan_he.huong_dan trỏ về 1309/QĐ-BCT) gia hạn biện pháp chống lẩn tránh theo thời hạn của 1309.",
       "toan_van": "raw/download/moit.gov.vn/1309-qd-bct.pdf",
       "slug": "1309-qd-bct-2026",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "1310/QĐ-BCT",
+            "quan_he": "huong_dan",
+            "so_hieu": "1309/QĐ-BCT",
+            "tu_ngay": "2026-06-16",
+            "can_cu": "Căn cứ QĐ 1309/QĐ-BCT ngày 02/06/2026; Mục 2 và Mục 4.b Thông báo kèm theo QĐ 1310/QĐ-BCT (thời hạn chống lẩn tránh áp dụng theo thời hạn của QĐ 1309/QĐ-BCT đến hết 15/06/2031; kiểm tra C/O Bước 1 theo Mục 5 Thông báo kèm theo QĐ 1309/QĐ-BCT)"
+          }
+        ],
         "bi_bai_bo_boi": [
           {
             "tu": "2105/QĐ-BCT",
@@ -12208,6 +12279,50 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "1310/QĐ-BCT",
+      "loai": "QUYET_DINH",
+      "ten": "Gia hạn biện pháp chống lẩn tránh biện pháp phòng vệ thương mại đối với một số sản phẩm đường mía",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2026-06-02",
+      "hieu_luc_tu": "2026-06-16",
+      "het_hieu_luc_tu": "2031-06-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          {
+            "so_hieu": "1309/QĐ-BCT",
+            "tu_ngay": "2026-06-16",
+            "can_cu": "Căn cứ QĐ 1309/QĐ-BCT ngày 02/06/2026; Mục 2 và Mục 4.b Thông báo kèm theo QĐ 1310/QĐ-BCT (thời hạn chống lẩn tránh áp dụng theo thời hạn của QĐ 1309/QĐ-BCT đến hết 15/06/2031; kiểm tra C/O Bước 1 theo Mục 5 Thông báo kèm theo QĐ 1309/QĐ-BCT)"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://moit.gov.vn/upload/2005517/fck/files/QD_gia_han_AC02-AD13_AS01_5d8d1.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-ban-hanh-quyet-dinh-ve-ket-qua-ra-soat-cuoi-ky-viec-ap-dung-bien-phap-chong-ban-pha-gia-va-chong-tro-cap-.html",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "toan_van": "raw/download/moit.gov.vn/1310-qd-bct.pdf",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "PDF gốc moit.gov.vn QD_gia_han_AC02-AD13_AS01_5d8d1.pdf (9 trang, ký Thứ trưởng Nguyễn Sinh Nhật Tân ngày 02-06-2026): Điều 1 gia hạn biện pháp chống lẩn tránh biện pháp PVTM đối với đường mía (HS 1701.13.00, 1701.14.00, 1701.91.00, 1701.99.10, 1701.99.90, 1702.90.91) xuất xứ Campuchia, Indonesia, Lào, Malaysia, Myanmar (thuế CBPG 42,99% + CTC 4,65%, trừ 8 công ty được miễn tại Mục 3.2 Thông báo kèm theo); Điều 2 hiệu lực từ 16-06-2026; Điều 3 cho hết hiệu lực 7 QĐ (1514/QĐ-BCT ngày 01-08-2022, 2960/QĐ-BCT ngày 30-12-2022, 783/QĐ-BCT ngày 28-03-2023, 1407/QĐ-BCT ngày 10-06-2024, 662/QĐ-BCT ngày 12-03-2025, 1908/QĐ-BCT ngày 01-07-2025, 2868/QĐ-BCT ngày 13-10-2025); Mục 2 Thông báo kèm theo quy định thời hạn áp dụng theo thời hạn của QĐ 1309/QĐ-BCT ngày 02-06-2026 (đến hết 15-06-2031). Chưa thấy văn bản sau thay/bãi 1310/QĐ-BCT (kiểm đến 12-11-2026).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Ban hành cùng ngày 02-06-2026 với QĐ 1309/QĐ-BCT (vụ việc ER01.AD13-AS01). 7 QĐ hết hiệu lực tại Điều 3 (1514/2022, 2960/2022, 783/2023, 1407/2024, 662/2025, 1908/2025, 2868/2025 QĐ-BCT) hiện chưa có mục riêng trong sổ — ghi tại đây để tra cứu, khi nạp stub sẽ bổ sung cạnh bai_bo.",
+      "slug": "1310-qd-bct-2026",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "1310/TB-TCHQ/2019",
@@ -14408,7 +14523,7 @@
       "ngay_ban_hanh": "2021-12-31",
       "hieu_luc_tu": "2022-01-01",
       "tinh_trang": "HET_HIEU_LUC",
-      "het_hieu_luc_tu": "2026-01-01",
+      "het_hieu_luc_tu": "2025-12-15",
       "nhanh": [
         "quan-ly-ngoai-thuong"
       ],
@@ -14424,24 +14539,26 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Đã đối chiếu trực tiếp vanban.chinhphu.vn (docid 204979) và trang mirrored tư liệu Đảng: số hiệu, tên nguyên văn (gồm cả cụm \"cứu nạn, cứu hộ; phòng, chống bạo lực gia đình\"), cơ quan Chính phủ (ký Phạm Bình Minh), ngày ban hành 31/12/2021, ngày hiệu lực 01/01/2022. Tình trạng hết hiệu lực từ 01/01/2026 do bị NĐ 282/2025/NĐ-CP (30/10/2025) thay thế — theo TVPL và Công an Gia Lai (congan.gialai.gov.vn); 1 kết quả search nêu thời điểm 15/12/2025, chưa đối chiếu trực tiếp toàn văn NĐ 282/2025. Lưu ý phân biệt: NĐ 144/2021/NĐ-CP thứ hai (cùng số, đăng ký doanh nghiệp) bị thay bởi NĐ 168/2025/NĐ-CP — không phải văn bản này.",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-06",
-        "boi": "zcode@ozvietnam"
+        "pham_vi": "Đã đối chiếu trực tiếp vanban.chinhphu.vn (docid 204979) và toàn văn NĐ 282/2025/NĐ-CP (docid 215770): số hiệu, tên nguyên văn, cơ quan Chính phủ (ký Phạm Bình Minh), ngày ban hành 31/12/2021, ngày hiệu lực 01/01/2022; hết hiệu lực từ 15/12/2025 do bị NĐ 282/2025/NĐ-CP (30/10/2025) thay thế toàn bộ theo Điều 69 NĐ 282/2025/NĐ-CP. Lưu ý phân biệt: NĐ 144/2021/NĐ-CP thứ hai (cùng số, đăng ký doanh nghiệp) bị thay bởi NĐ 168/2025/NĐ-CP — không phải văn bản này.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "quan_he": {
-        "thay_the": [
-          {
-            "so_hieu": "282/2025/NĐ-CP",
-            "pham_vi": "toàn bộ",
-            "can_cu": "TVPL (NĐ 282/2025/NĐ-CP ngày 30/10/2025 xử phạt VPHC lĩnh vực an ninh, trật tự, ATXH) và bài điểm mới của Công an Gia Lai: 282/2025 thay thế 144/2021, hiệu lực 01/01/2026."
-          }
-        ]
-      },
-      "ghi_chu": "Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Liên quan XNK: Điều 22 xử phạt vận chuyển, tàng trữ, mua bán, tiêu thụ hàng cấm, hàng hóa nhập lậu, hàng giả chưa đến mức truy cứu TNHS — chế tài hay dùng cho hàng XNK lậu lưu thông nội địa (thay cho NĐ 167/2013 khi ban hành).",
+      "ghi_chu": "Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Liên quan XNK: Điều 22 xử phạt vận chuyển, tàng trữ, mua bán, tiêu thụ hàng cấm, hàng hóa nhập lậu, hàng giả chưa đến mức truy cứu TNHS — chế tài hay dùng cho hàng XNK lậu lưu thông nội địa (thay cho NĐ 167/2013 khi ban hành). Bị thay thế bởi NĐ 282/2025/NĐ-CP từ 15/12/2025 (cạnh thay_the ghi ở 282-2025-nd-cp.yaml đúng chiều đi).",
       "slug": "144-2021-nd-cp",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "282/2025/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "144/2021/NĐ-CP",
+            "tu_ngay": "2025-12-15",
+            "pham_vi": "toàn bộ",
+            "can_cu": "Điều 69 Nghị định 282/2025/NĐ-CP"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "144/2024/NĐ-CP",
@@ -17141,6 +17258,46 @@
       "slug": "167-2025-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1671/QĐ-TCHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Ban hành Quy chế phân tích, phân loại hàng hóa xuất nhập khẩu trong ngành Hải quan",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2005-10-20",
+      "het_hieu_luc_tu": "2010-08-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs/quy-trinh-phan-loai"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/quyet-dinh-so-1628-qd-tchq-ban-hanh-quy-che-phan-tich-phan-loai-hang-hoa-xuat-nhap-khau-trong-nganh-hai-quan--86278",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu nguyên văn Điều 2 Quyết định 1628/QĐ-TCHQ ngày 15-07-2010 trên CSDLQG về pháp luật vbpl.vn (ID 86278, lưu tại raw/download/vbpl.vn/1628-qd-tchq-noi-dung.txt): xác nhận số hiệu 1671/QĐ-TCHQ, ngày ban hành 20-10-2005, cơ quan Tổng cục trưởng Tổng cục Hải quan, trích yếu \"Quy chế phân tích, phân loại hàng hóa xuất nhập khẩu trong ngành Hải quan\", và tình trạng hết hiệu lực toàn bộ từ ngày 01-08-2010 do bị Quyết định 1628/QĐ-TCHQ thay thế.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Hết hiệu lực toàn bộ từ 01-08-2010 khi bị Quyết định 1628/QĐ-TCHQ ngày 15-07-2010 của Tổng cục trưởng Tổng cục Hải quan thay thế.",
+      "slug": "1671-qd-tchq-2005",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "1628/QĐ-TCHQ",
+            "quan_he": "thay_the",
+            "so_hieu": "1671/QĐ-TCHQ",
+            "tu_ngay": "2010-08-01",
+            "pham_vi": "toàn bộ",
+            "can_cu": "Điều 2 nguyên văn: \"Quyết định này có hiệu lực kể từ ngày 01/08/2010 và thay thế Quyết định số 1671/QĐ-TCHQ ngày 20/10/2005 của Tổng cục trưởng Tổng cục Hải quan về 'Quy chế phân tích, phân loại hàng hóa xuất nhập khẩu trong ngành Hải quan' và các văn bản hướng dẫn thực hiện quy chế theo Quyết định số 1671/QĐ-TCHQ ngày 20/10/2005 nêu trên.\""
+          }
+        ]
+      }
     },
     {
       "so_hieu": "1671/TB-TCHQ/2020",
@@ -36699,6 +36856,51 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "282/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định xử phạt vi phạm hành chính trong lĩnh vực an ninh, trật tự, an toàn xã hội; phòng, chống tệ nạn xã hội; phòng, chống bạo lực gia đình",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-10-30",
+      "hieu_luc_tu": "2025-12-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "xu-phat",
+        "quan-ly-ngoai-thuong"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "144/2021/NĐ-CP",
+            "tu_ngay": "2025-12-15",
+            "pham_vi": "toàn bộ",
+            "can_cu": "Điều 69 Nghị định 282/2025/NĐ-CP"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=215770",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/11/282-cp.signed.pdf",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/282-2025-nd-cp.pdf",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Thẻ vanban.chinhphu.vn (docid=215770) và PDF ký số 282-cp.signed.pdf: ban hành 30-10-2025, người ký Phạm Minh Chính; Điều 69: hiệu lực thi hành từ 15-12-2025 (riêng Điều 14 từ 01-01-2026), thay thế Nghị định 144/2021/NĐ-CP ngày 31-12-2021. Đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Thay thế Nghị định 144/2021/NĐ-CP từ 15-12-2025. Quan hệ thay_the được chuyển từ 144/2021/NĐ-CP (trước đó ghi ngược chiều) về đúng chiều đi tại đây.",
+      "slug": "282-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "282/TB-TCHQ/2025",
       "loai": "THONG_BAO",
       "loai_phan_loai": "XAC_DINH_TRUOC",
@@ -43312,6 +43514,54 @@
       "slug": "3196-tb-tchq-2023",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "32/2006/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Về quản lý thực vật rừng, động vật rừng nguy cấp, quý, hiếm",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2006-03-30",
+      "hieu_luc_tu": "2006-04-20",
+      "het_hieu_luc_tu": "2019-03-26",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=15193",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2006/07/15706_nd32cp.rtf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-32-2006-nd-cp-ve-quan-ly-thuc-vat-rung-dong-vat-rung-nguy-cap-quy-hiem--16360",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/32-2006-nd-cp.doc",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Thẻ vanban.chinhphu.vn (docid=15193), toàn văn OLE .doc (15706_nd32cp.rtf) và vbpl.vn (16360): ban hành 30-03-2006, người ký Phan Văn Khải; Điều 14: hiệu lực sau 15 ngày kể từ ngày đăng Công báo (20-04-2006), thay thế NĐ 18/HĐBT và NĐ 48/2002/NĐ-CP; hết hiệu lực toàn bộ từ 26-03-2019 do bị NĐ 06/2019/NĐ-CP thay thế.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Bị thay thế toàn bộ bởi Nghị định 06/2019/NĐ-CP từ 26-03-2019. Tệp đính kèm 15706_nd32cp.rtf trên datafiles.chinhphu.vn có magic OLE D0 CF 11 E0 nên lưu thành .doc.",
+      "slug": "32-2006-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "06/2019/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "32/2006/NĐ-CP",
+            "tu_ngay": "2019-03-26"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "32/2020/TT-BYT",
@@ -51753,6 +52003,15 @@
             "quan_he": "thay_the",
             "so_hieu": "38/2019/QH14",
             "tu_ngay": "2026-07-01"
+          }
+        ],
+        "bi_sua_doi_boi": [
+          {
+            "tu": "56/2024/QH15",
+            "quan_he": "sua_doi",
+            "so_hieu": "38/2019/QH14",
+            "tu_ngay": "2025-01-01",
+            "can_cu": "Điều 6 và Điều 10 Luật 56/2024/QH15"
           }
         ]
       }
@@ -60211,6 +60470,60 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "47/2009/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định xử phạt vi phạm hành chính về quyền tác giả, quyền liên quan",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2009-05-13",
+      "hieu_luc_tu": "2009-06-30",
+      "het_hieu_luc_tu": "2013-12-15",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "xu-phat",
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=86486",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2009/05/89404_nd47cp.doc",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/47-2009-nd-cp.doc",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Thẻ vanban.chinhphu.vn (docid=86486) và toàn văn OLE .doc (89404_nd47cp.doc): ban hành 13-05-2009, người ký Nguyễn Tấn Dũng; Điều 50: hiệu lực từ 30-06-2009; được sửa đổi, bổ sung bởi NĐ 109/2011/NĐ-CP; hết hiệu lực toàn bộ từ 15-12-2013 do bị NĐ 131/2013/NĐ-CP thay thế (Điều 41 NĐ 131/2013/NĐ-CP).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Đã hết hiệu lực từ 15-12-2013 khi Nghị định 131/2013/NĐ-CP có hiệu lực thi hành.",
+      "slug": "47-2009-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "109/2011/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "47/2009/NĐ-CP",
+            "tu_ngay": "2012-01-20",
+            "can_cu": "Điều 1 và Điều 2 Nghị định 109/2011/NĐ-CP"
+          }
+        ],
+        "bi_thay_the_boi": [
+          {
+            "tu": "131/2013/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "47/2009/NĐ-CP",
+            "tu_ngay": "2013-12-15"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "47/2017/NĐ-CP",
       "loai": "NGHI_DINH",
       "ten": "Quy định mức lương cơ sở đối với cán bộ, công chức, viên chức và lực lượng vũ trang",
@@ -67328,6 +67641,63 @@
       "slug": "5586-tb-tchq-2021",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "56/2024/QH15",
+      "loai": "LUAT",
+      "ten": "Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách nhà nước, Luật Quản lý, sử dụng tài sản công, Luật Quản lý thuế, Luật Thuế thu nhập cá nhân, Luật Dự trữ quốc gia, Luật Xử lý vi phạm hành chính",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2024-11-29",
+      "hieu_luc_tu": "2025-01-01",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/luat-thue"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "38/2019/QH14",
+            "tu_ngay": "2025-01-01",
+            "can_cu": "Điều 6 và Điều 10 Luật 56/2024/QH15"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=212484",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/01/luat56.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-chung-khoan-luat-ke-toan-luat-kiem-toan-doc-lap-luat-ngan-sach-nha-nuoc-luat-quan-ly-su-dung-tai-san-cong-luat-quan-ly-thue-luat-thue-thu-nhap-ca-nhan-luat-du-tru-quoc-gia-luat-xu-ly-vi-pham-hanh-chinh-so-56-2024-qh15--173331",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/56-2024-qh15.pdf",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Thẻ vanban.chinhphu.vn (docid=212484), toàn văn PDF luat56.pdf và vbpl.vn (173331): Quốc hội thông qua 29-11-2024, Chủ tịch Quốc hội Trần Thanh Mẫn ký; Điều 10: hiệu lực từ 01-01-2025 (một số khoản có lộ trình riêng); phần sửa đổi, bổ sung Luật Quản lý thuế số 38/2019/QH14 (Điều 6) hết hiệu lực từ 01-07-2026 khi bị Luật Quản lý thuế số 108/2025/QH15 thay thế (Điều 52 khoản 3 Luật 108/2025/QH15).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Luật sửa 9 luật; trong phạm vi quản lý thuế XNK (Điều 6 sửa Luật QLT 38/2019/QH14), hết hiệu lực từ 01-07-2026 theo Luật Quản lý thuế 108/2025/QH15.",
+      "slug": "56-2024-qh15",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "108/2025/QH15",
+            "quan_he": "thay_the",
+            "so_hieu": "56/2024/QH15",
+            "tu_ngay": "2026-07-01"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "56/2026/NĐ-CP",
@@ -81209,6 +81579,54 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "81/2013/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết một số điều và biện pháp thi hành Luật xử lý vi phạm hành chính",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2013-07-19",
+      "hieu_luc_tu": "2013-07-19",
+      "het_hieu_luc_tu": "2022-01-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "xu-phat"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=168844",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2013/07/nd-81.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-81-2013-nd-cp-quy-dinh-chi-tiet-mot-so-dieu-va-bien-phap-thi-hanh-luat-xu-ly-vi-pham-hanh-chinh--31484",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/81-2013-nd-cp.pdf",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Thẻ vanban.chinhphu.vn (docid=168844), PDF toàn văn nd-81.pdf và vbpl.vn (31484): ban hành 19-07-2013, người ký Nguyễn Tấn Dũng; Điều 33: hiệu lực từ 19-07-2013; sửa đổi, bổ sung bởi NĐ 97/2017/NĐ-CP; hết hiệu lực toàn bộ từ 01-01-2022 do bị Nghị định 118/2021/NĐ-CP ngày 23-12-2021 thay thế.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Hết hiệu lực từ 01-01-2022 (bị thay thế bởi NĐ 118/2021/NĐ-CP quy định chi tiết Luật Xử lý VPHC). Lưu ý: mục 124/2020/NĐ-CP đang ghi thay_the 81/2013/NĐ-CP do nhầm với NĐ 75/2012/NĐ-CP (nguyên văn Điều 43 khoản 2 NĐ 124/2020/NĐ-CP thay thế NĐ 75/2012/NĐ-CP quy định chi tiết Luật Khiếu nại).",
+      "slug": "81-2013-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "124/2020/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "81/2013/NĐ-CP",
+            "tu_ngay": "2020-12-10"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "81/2019/TT-BTC",
       "loai": "THONG_TU",
       "ten": "Quy định quản lý rủi ro trong hoạt động nghiệp vụ hải quan",
@@ -83547,6 +83965,56 @@
       "slug": "906-tb-tchq-2019",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "91/2016/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Về quản lý hóa chất, chế phẩm diệt côn trùng, diệt khuẩn dùng trong lĩnh vực gia dụng và y tế",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2016-07-01",
+      "hieu_luc_tu": "2016-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=185596",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/07/91.signed.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-91-2016-nd-cp-20331.htm",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-91-2016-nd-cp-ve-quan-ly-hoa-chat-che-pham-diet-con-trung-diet-khuan-dung-trong-linh-vuc-gia-dung-va-y-te--112021",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/91-2016-nd-cp.pdf",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Thẻ vanban.chinhphu.vn (docid=185596), PDF ký số 91.signed.pdf, Công báo (20331) và vbpl.vn (112021): ban hành 01-07-2016, người ký Nguyễn Xuân Phúc, hiệu lực từ 01-07-2016; đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi NĐ 155/2018/NĐ-CP và NĐ 129/2024/NĐ-CP).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Văn bản gốc quản lý hóa chất, chế phẩm diệt côn trùng, diệt khuẩn gia dụng và y tế thuộc phạm vi quản lý của Bộ Y tế; được sửa đổi, bổ sung bởi NĐ 155/2018/NĐ-CP và NĐ 129/2024/NĐ-CP.",
+      "slug": "91-2016-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "129/2024/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "91/2016/NĐ-CP"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "91/2026/VBHN-TT-BNNMT",
