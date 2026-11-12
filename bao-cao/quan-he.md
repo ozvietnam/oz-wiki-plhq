@@ -178,7 +178,10 @@ flowchart LR
   n_76_VBHN_VPQH["76-VBHN/VPQH<br/>chưa xác minh"]
   n_11_2017_TT_BCT["11/2017/TT-BCT<br/>hết hiệu lực"]
   n_11_2024_TT_BTTTT["11/2024/TT-BTTTT<br/>còn hiệu lực"]
+  n_05_2016_TT_BTTTT["05/2016/TT-BTTTT<br/>chưa xác minh"]
   n_22_2018_TT_BTTTT["22/2018/TT-BTTTT<br/>còn hiệu lực"]
+  n_09_2013_TT_BTTTT["09/2013/TT-BTTTT<br/>chưa xác minh"]
+  n_03_2015_TT_BTTTT["03/2015/TT-BTTTT<br/>chưa xác minh"]
   n_111_2021_N__CP["111/2021/NĐ-CP<br/>hết hiệu lực"]
   n_43_2017_N__CP["43/2017/NĐ-CP<br/>hết hiệu lực"]
   n_129_2024_N__CP["129/2024/NĐ-CP<br/>còn hiệu lực"]
@@ -207,6 +210,7 @@ flowchart LR
   n_14_2018_TT_BYT["14/2018/TT-BYT<br/>hết hiệu lực"]
   n_19_VBHN_BNNPTNT["19/VBHN-BNNPTNT<br/>còn hiệu lực"]
   n_06_VBHN_BNNPTNT["06/VBHN-BNNPTNT<br/>hết hiệu lực"]
+  n_16_2015_TT_BTTTT["16/2015/TT-BTTTT<br/>còn hiệu lực"]
   n_24_2026_TT_BYT["24/2026/TT-BYT<br/>còn hiệu lực"]
   n_05_2022_TT_BYT["05/2022/TT-BYT<br/>còn hiệu lực"]
   n_59_2025_TT_BYT["59/2025/TT-BYT<br/>chưa xác minh"]
@@ -283,7 +287,13 @@ flowchart LR
   n_105_2016_QH13 -->|sửa đổi Sửa đổi, bổ sung một số điều Luật Dược (Điều 2, 11, 13, 29, 34, 38, 41, 54, 60, 69...) từ 2025-07-01| n_44_2024_QH15
   n_105_2016_QH13 -->|hợp nhất Văn bản hợp nhất toàn bộ Luật 105/2016, 28/2018, 44/2024 từ 2026-03-01| n_76_VBHN_VPQH
   n_11_2017_TT_BCT -->|bãi bỏ Bãi bỏ toàn bộ từ 2018-06-15| n_12_2018_TT_BCT
-  n_11_2024_TT_BTTTT -->|sửa đổi| n_22_2018_TT_BTTTT
+  n_11_2024_TT_BTTTT -->|sửa đổi Khoản 2 Điều 4; khoản 2 Điều 5; điểm a khoản 1, khoản 2 và khoản 3 Điều 6; khoản 3 Điều 8; thay thế Mẫu số 01 và Mẫu số 02 bằng Phụ lục 01 và Phụ lục 02 từ 2024-11-07| n_05_2016_TT_BTTTT
+  n_11_2024_TT_BTTTT -->|sửa đổi Khoản 2, điểm a và điểm b khoản 3 Mục I và Mục II Phụ lục I; khoản 2, khoản 3, điểm a khoản 4 Mục I Phụ lục II; thay thế Phụ lục II của Phụ lục I bằng Phụ lục 03 kèm theo TT 11/2024/TT-BTTTT từ 2024-11-07| n_22_2018_TT_BTTTT
+  n_11_2024_TT_BTTTT -->|sửa đổi Một số sản phẩm thuộc nhóm 2.1.1 (số thứ tự 01 đến 09) và nhóm 2.1.2 (số thứ tự 06 đến 11, 14, 15) tại Phụ lục số 02 (đã được sửa đổi, bổ sung bởi TT 20/2021/TT-BTTTT) từ 2024-11-07| n_09_2013_TT_BTTTT
+  n_11_2024_TT_BTTTT -->|bãi bỏ Số thứ tự 10 tại Mục II Phụ lục II từ 2024-11-07| n_22_2018_TT_BTTTT
+  n_11_2024_TT_BTTTT -->|bãi bỏ Điều 2 và Điều 6 từ 2024-11-07| n_03_2015_TT_BTTTT
+  n_11_2024_TT_BTTTT -->|bãi bỏ Điều 3; các điểm h, i, k và m khoản 1 Điều 6; cụm từ "góc dưới bên phải" tại điểm a khoản 1 Điều 7; điểm c khoản 1 Điều 7 từ 2024-11-07| n_05_2016_TT_BTTTT
+  n_11_2024_TT_BTTTT -->|bãi bỏ Một số sản phẩm thuộc nhóm 2.1.2 (số thứ tự 01, 02, 03, 04, 05, 12, 13) tại Phụ lục số 02 (đã được sửa đổi, bổ sung bởi TT 20/2021/TT-BTTTT) từ 2024-11-07| n_09_2013_TT_BTTTT
   n_111_2021_N__CP -->|sửa đổi| n_43_2017_N__CP
   n_129_2024_N__CP -->|sửa đổi| n_91_2016_N__CP
   n_129_2024_N__CP -->|sửa đổi| n_155_2018_N__CP
@@ -307,6 +317,7 @@ flowchart LR
   n_19_VBHN_BNNPTNT -->|hợp nhất| n_34_2018_TT_BNNPTNT
   n_19_VBHN_BNNPTNT -->|hợp nhất| n_15_2021_TT_BNNPTNT
   n_19_VBHN_BNNPTNT -->|hợp nhất| n_03_2024_TT_BNNPTNT
+  n_22_2018_TT_BTTTT -->|thay thế Toàn bộ Thông tư số 16/2015/TT-BTTTT ngày 17/6/2015 quy định chi tiết thi hành Nghị định số 187/2013/NĐ-CP về xuất khẩu, nhập khẩu hàng hóa trong lĩnh vực in, phát hành xuất bản phẩm (cùng Thông tư sửa đổi, bổ sung số 41/2016/TT-BTTTT ngày 26/12/2016) từ 2019-02-12| n_16_2015_TT_BTTTT
   n_24_2026_TT_BYT -->|sửa đổi| n_05_2022_TT_BYT
   n_24_2026_TT_BYT -->|sửa đổi Điều 8 (lộ trình kiểm định) từ 2026-07-01| n_05_2022_TT_BYT
   n_24_2026_TT_BYT -->|bãi bỏ từ 2026-07-01| n_59_2025_TT_BYT
