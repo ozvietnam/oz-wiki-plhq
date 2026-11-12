@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 23/2026/VBHN-TT-BKHCN
 loai: VAN_BAN_HOP_NHAT
-ten: 'Quy định về đo lường đối với phương tiện đo nhóm 2'
+ten: Quy định về đo lường đối với phương tiện đo nhóm 2
 co_quan: BKHCN
 ngay_ban_hanh: '2026-09-30'
 tinh_trang: CON_HIEU_LUC
@@ -16,8 +16,9 @@ nguon:
     truy_cap: '2026-11-09'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu + tên + ngày ban hành 30-09-2026, ký Vũ Hải Quân (vanban.chinhphu.vn docid 219749 + PDF chữ ký số datafiles.chinhphu.vn); hợp nhất TT 23/2013/TT-BKHCN và các thông tư sửa đổi, bổ sung'
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'PDF chữ ký số datafiles.chinhphu.vn (25 trang, ký Thứ trưởng Vũ Hải Quân ngày 30-09-2026) + vanban.chinhphu.vn docid=219749: 6 Chương, 28 Điều + Phụ lục xác thực văn bản hợp nhất. Hợp nhất Thông tư 23/2013/TT-BKHCN ngày 26-09-2013 quy định về đo lường đối với phương tiện đo nhóm 2 (hiệu lực 15-11-2013), được sửa đổi, bổ sung bởi 3 Thông tư: (1) Thông tư 07/2019/TT-BKHCN ngày 26-07-2019 (hiệu lực 01-01-2020), (2) Thông tư 03/2024/TT-BKHCN ngày 15-04-2024 (hiệu lực 15-10-2024), (3) Thông tư 12/2025/TT-BKHCN ngày 30-06-2025 (hiệu lực 01-07-2025). Đối chiếu đến 12-11-2026 là bản hợp nhất mới nhất đang áp dụng.'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-11-12'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh sát đêm 9/11, bổ sung nguồn bậc A ngày 12/11. Phương tiện đo nhóm 2 = nhóm phải kiểm định — đụng trực tiếp hàng đo lường nhập khẩu (cân, đồng hồ...).'
+  boi: tho-05-ai-live@ozvietnam
+ghi_chu: 'Trinh sát đêm 9/11, bổ sung nguồn bậc A và nạp toàn văn ngày 12/11. Phương tiện đo nhóm 2 = nhóm phải kiểm định — đụng trực tiếp hàng đo lường nhập khẩu (cân, đồng hồ...). Bốn thông tư thành phần (23/2013/TT-BKHCN, 07/2019/TT-BKHCN, 03/2024/TT-BKHCN, 12/2025/TT-BKHCN) chưa ghi vào quan_he.hop_nhat vì các văn bản đó chưa có trong sổ.'
+toan_van: raw/download/datafiles.chinhphu.vn/23-2026-vbhn-tt-bkhcn.pdf

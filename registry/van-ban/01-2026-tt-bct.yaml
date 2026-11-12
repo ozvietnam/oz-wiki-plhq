@@ -1,13 +1,17 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 01/2026/TT-BCT
 loai: THONG_TU
-ten: 'Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số 26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa'
+ten: Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số 26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa
 co_quan: BCT
 ngay_ban_hanh: '2026-01-17'
 hieu_luc_tu: '2026-01-17'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/bct
+quan_he:
+  huong_dan:
+    - 69/2025/QH15
+    - 26/2026/NĐ-CP
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=216719
     truy_cap: '2026-11-12'
@@ -17,8 +21,9 @@ nguon:
     truy_cap: '2026-11-12'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu + tên + ngày ban hành và hiệu lực 17-01-2026, ký Trương Thanh Hoài (vanban.chinhphu.vn docid 216719 + PDF chữ ký số datafiles.chinhphu.vn + moit.gov.vn); hướng dẫn Luật Hóa chất 69/2025/QH15 + NĐ 26/2026/NĐ-CP'
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'PDF chữ ký số datafiles.chinhphu.vn (9 trang, ký Thứ trưởng Trương Thanh Hoài ngày 17-01-2026) + vanban.chinhphu.vn docid=216719 + moit.gov.vn (trạng thái Đã có hiệu lực): 4 Chương, 12 Điều + Phụ lục biểu mẫu. Hướng dẫn Luật Hóa chất 69/2025/QH15 và Nghị định 26/2026/NĐ-CP. Điều 11 quy định điều khoản chuyển tiếp. Điều 12 (Hiệu lực thi hành): khoản 1 hiệu lực từ ngày ký (17-01-2026); khoản 2 thay thế Thông tư 32/2017/TT-BCT (ngày 28-12-2017) và Thông tư 17/2022/TT-BCT (ngày 27-10-2022); khoản 3 bãi bỏ Điều 7 Thông tư 38/2025/TT-BCT (ngày 19-06-2025). Đối chiếu đến 12-11-2026 chưa có văn bản sửa đổi, bổ sung hay thay thế.'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-11-12'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh sát đêm 11/11, bổ sung nguồn bậc A ngày 12/11. Hóa chất nguy hiểm trong sản phẩm hàng hóa — cổng khai báo hóa chất nhập. Đủ gói với NĐ 26/2026 và Luật 69/2025 đã có.'
+  boi: tho-05-ai-live@ozvietnam
+ghi_chu: 'Trinh sát đêm 11/11, bổ sung nguồn bậc A và nạp toàn văn ngày 12/11. Hóa chất nguy hiểm trong sản phẩm hàng hóa — cổng khai báo hóa chất nhập. Đủ gói với NĐ 26/2026/NĐ-CP và Luật 69/2025/QH15 đã có. Điều 12 khoản 2 (thay thế TT 32/2017/TT-BCT, TT 17/2022/TT-BCT) và khoản 3 (bãi bỏ Điều 7 TT 38/2025/TT-BCT) chưa ghi vào quan_he vì các văn bản đó chưa có trong sổ.'
+toan_van: raw/download/datafiles.chinhphu.vn/01-2026-tt-bct.pdf
