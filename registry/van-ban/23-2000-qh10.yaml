@@ -17,13 +17,21 @@ nguon:
     truy_cap: '2026-11-12'
   - url: https://vbpl.vn/van-ban/chi-tiet/luat-phong-chong-ma-tuy-so-23-2000-qh10--5740
     truy_cap: '2026-11-12'
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=70877
+    truy_cap: '2026-11-12'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2008/07/72916_l16qh.doc
+    truy_cap: '2026-11-12'
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204940
+    truy_cap: '2026-11-12'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/01/73luat.pdf
+    truy_cap: '2026-11-12'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'đã đối chiếu toàn văn trên vanban.chinhphu.vn (docid=80180, tệp đính kèm 82523_l23qh.doc) và CSDLQG vbpl.vn (ID 5740): số hiệu 23/2000/QH10, tên Luật Phòng, chống ma túy (8 Chương, 56 Điều), Quốc hội khóa X kỳ họp thứ 8 thông qua ngày 09/12/2000, Chủ tịch Quốc hội Nông Đức Mạnh ký, Điều 55 quy định có hiệu lực từ 01/06/2001; được sửa đổi, bổ sung một số điều bởi Luật số 16/2008/QH12; hết hiệu lực toàn bộ từ 01/01/2022 do bị thay thế bởi khoản 2 Điều 55 Luật Phòng, chống ma túy số 73/2021/QH14 (vbpl.vn effTo 2022-01-01, effStatus HHL)'
+  pham_vi: 'đã đối chiếu toàn văn trên vanban.chinhphu.vn (docid=80180, tệp đính kèm 82523_l23qh.doc) và CSDLQG vbpl.vn (ID 5740): số hiệu 23/2000/QH10, tên Luật Phòng, chống ma túy (8 Chương, 56 Điều), Quốc hội khóa X kỳ họp thứ 8 thông qua ngày 09/12/2000, Chủ tịch Quốc hội Nông Đức Mạnh ký, Điều 55 quy định có hiệu lực từ 01/06/2001; được sửa đổi, bổ sung một số điều bởi Luật số 16/2008/QH12 ngày 03/06/2008 (đối chiếu toàn văn Luật 16/2008/QH12 trên vanban.chinhphu.vn docid=70877, tệp 72916_l16qh.doc, hiệu lực từ 01/01/2009); hết hiệu lực toàn bộ từ 01/01/2022 do bị thay thế bởi khoản 2 Điều 54 Luật Phòng, chống ma túy số 73/2021/QH14 (đối chiếu toàn văn Luật 73/2021/QH14 trên vanban.chinhphu.vn docid=204940, tệp 73luat.pdf đăng Công báo số 567+568 ngày 30/04/2021 trang 33 ghi rõ: "Luật Phòng, chống ma túy số 23/2000/QH10 đã được sửa đổi, bổ sung một số điều theo Luật số 16/2008/QH12 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành" và quy định chuyển tiếp tại Điều 55; vbpl.vn ID 5740 effTo 2022-01-01, effStatus HHL)'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-12'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Nạp từ điểm mù CAO (OZV-560) — đạo luật gốc về phòng, chống ma túy và kiểm soát các hoạt động hợp pháp liên quan đến ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần (bao gồm xuất khẩu, nhập khẩu, tạm nhập tái xuất, quá cảnh tại Chương III); đã được sửa đổi, bổ sung một số điều bởi Luật 16/2008/QH12 và hết hiệu lực toàn bộ từ 01/01/2022 khi bị thay thế bởi Luật Phòng, chống ma túy số 73/2021/QH14.'
+ghi_chu: 'Nạp từ điểm mù CAO (OZV-560) — đạo luật gốc về phòng, chống ma túy và kiểm soát các hoạt động hợp pháp liên quan đến ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần (bao gồm xuất khẩu, nhập khẩu, tạm nhập tái xuất, quá cảnh tại Chương III); đã được sửa đổi, bổ sung một số điều bởi Luật 16/2008/QH12 (vanban.chinhphu.vn docid=70877) và hết hiệu lực toàn bộ từ 01/01/2022 khi bị thay thế bởi khoản 2 Điều 54 Luật Phòng, chống ma túy số 73/2021/QH14 (vanban.chinhphu.vn docid=204940).'
 toan_van: raw/download/datafiles.chinhphu.vn/23-2000-qh10.doc
 tu_khoa:
   - ma-tuy

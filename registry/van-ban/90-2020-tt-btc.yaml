@@ -5,20 +5,37 @@ ten: Quy định các biểu mẫu sử dụng để xử phạt vi phạm hành
 co_quan: BTC
 ngay_ban_hanh: '2020-11-11'
 hieu_luc_tu: '2020-12-26'
-tinh_trang: CON_HIEU_LUC
+het_hieu_luc_tu: '2022-12-26'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - xu-phat
 quan_he:
+  thay_the:
+    - so_hieu: 155/2016/TT-BTC
+      can_cu: Điều 4 khoản 1
+      tu_ngay: '2020-12-26'
   huong_dan:
     - 128/2020/NĐ-CP
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-90-2020-tt-btc-32537/33457.htm
-    truy_cap: '2026-10-04'
+    truy_cap: '2026-11-12'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2020/11/32537/33454-1-20201121-112290-2020-tt-btc.pdf
+    truy_cap: '2026-11-12'
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=201785
+    truy_cap: '2026-11-12'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/12/90-btc.pdf
+    truy_cap: '2026-11-12'
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-77-2022-tt-btc-38420.htm
+    truy_cap: '2026-11-12'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/12/38420/42759-1-202307-0877-2022-tt-btc.pdf
+    truy_cap: '2026-11-12'
+  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-77-2022-tt-btc-bai-bo-thong-tu-so-90-2020-tt-btc-ngay-11-thang-11-nam-2020-cua-bo-truong-bo-tai-chinh-quy-dinh-cac-bieu-mau-su-dung-de-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-hai-quan--158218
+    truy_cap: '2026-11-12'
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cay-du-lieu-agent
-ghi_chu: Làm dày nhánh xu-phat (cặp với 128/2020/NĐ-CP).
+  pham_vi: 'đã đối chiếu toàn văn trên Công báo Chính phủ (số 1121+1122 ngày 06/12/2020, tệp 33454-1-20201121-112290-2020-tt-btc.pdf) và vanban.chinhphu.vn (docid=201785, tệp 90-btc.pdf): số hiệu 90/2020/TT-BTC, ban hành ngày 11/11/2020 (Thứ trưởng Bộ Tài chính Vũ Thị Mai ký), gồm 5 điều và Phụ lục 63 biểu mẫu (MQĐ 01–MQĐ 36, MBB 01–MBB 26, MTB 01), khoản 1 Điều 4 quy định có hiệu lực từ ngày 26/12/2020 và thay thế Thông tư 155/2016/TT-BTC; hết hiệu lực toàn bộ kể từ ngày 26/12/2022 do bị bãi bỏ toàn bộ theo Điều 1 và khoản 1 Điều 2 Thông tư số 77/2022/TT-BTC ngày 26/12/2022 của Bộ trưởng Bộ Tài chính (Công báo số 07+08 ngày 04/01/2023, tệp 42759-1-202307-0877-2022-tt-btc.pdf; CSDLQG vbpl.vn ID 158218; theo khoản 2 Điều 2 Thông tư 77/2022/TT-BTC, các mẫu biên bản và mẫu quyết định xử phạt VPHC trong lĩnh vực hải quan thực hiện theo Phụ lục kèm theo Nghị định 118/2021/NĐ-CP)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-12'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Quy định hệ thống 63 biểu mẫu xử phạt vi phạm hành chính trong lĩnh vực hải quan hướng dẫn Nghị định 128/2020/NĐ-CP (thay thế Thông tư 155/2016/TT-BTC). Đã hết hiệu lực toàn bộ từ ngày 26/12/2022 do bị bãi bỏ toàn bộ theo Điều 1 và khoản 1 Điều 2 Thông tư 77/2022/TT-BTC; từ ngày 26/12/2022, các mẫu biên bản và mẫu quyết định xử phạt VPHC trong lĩnh vực hải quan áp dụng theo Phụ lục ban hành kèm theo Nghị định 118/2021/NĐ-CP (khoản 2 Điều 2 Thông tư 77/2022/TT-BTC).'
 tu_khoa: [xu-phat, bieu-mau]
