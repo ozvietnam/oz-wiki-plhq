@@ -1,0 +1,41 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 96/2023/NĐ-CP
+loai: NGHI_DINH
+ten: 'Quy định chi tiết một số điều của Luật Khám bệnh, chữa bệnh'
+co_quan: CP
+ngay_ban_hanh: '2023-12-30'
+hieu_luc_tu: '2024-01-01'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - kiem-tra-chuyen-nganh/byt
+quan_he:
+  sua_doi:
+    - so_hieu: 98/2021/NĐ-CP
+      tu_ngay: '2024-01-01'
+      pham_vi: 'sửa đổi tên Chương IV; sửa đổi, bổ sung các Điều 12, 13, 14, 15, 16, 17, 18, 19, 20, 30 và bổ sung Điều 32a (riêng khoản 19 Điều 147 sửa đổi, bổ sung Điều 30 áp dụng từ 01/01/2026)'
+      can_cu: 'Các khoản 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21 Điều 147 Nghị định 96/2023/NĐ-CP'
+  bai_bo:
+    - so_hieu: 155/2018/NĐ-CP
+      tu_ngay: '2024-01-01'
+      pham_vi: 'Điều 11'
+      can_cu: 'Khoản 3 Điều 147 Nghị định 96/2023/NĐ-CP'
+nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=209491
+    truy_cap: '2026-11-12'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/01/96-nd.signed.pdf
+    truy_cap: '2026-11-12'
+  - url: https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-96-2023-nd-cp-huong-dan-luat-kham-benh-chua-benh--168128
+    truy_cap: '2026-11-12'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đã đối chiếu toàn văn (9 Chương, 148 Điều + Phụ lục) trên vanban.chinhphu.vn (docid=209491, bản ký số 96-nd.signed.pdf do Phó Thủ tướng Trần Hồng Hà ký) và CSDLQG vbpl.vn (ID 168128): số hiệu 96/2023/NĐ-CP, ngày ban hành 30/12/2023, khoản 1 Điều 147 hiệu lực từ 01/01/2024; các khoản 8–17 và 19–21 Điều 147 sửa đổi, bổ sung một số điều của Nghị định 98/2021/NĐ-CP về thử nghiệm lâm sàng và ưu tiên xử lý hồ sơ đăng ký lưu hành thiết bị y tế (khoản 19 sửa đổi Điều 30 bắt đầu áp dụng từ 01/01/2026); khoản 3 và khoản 22 Điều 147 bãi bỏ Điều 11 Nghị định 155/2018/NĐ-CP và thay thế Nghị định 109/2016/NĐ-CP, Nghị định 102/2011/NĐ-CP'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-12'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Nạp từ điểm mù CAO (OZV-560) — sửa đổi, bổ sung Nghị định 98/2021/NĐ-CP về thử nghiệm lâm sàng thiết bị y tế (Điều 12–20), thành phần hồ sơ đề nghị cấp mới số lưu hành thiết bị y tế (Điều 30, áp dụng từ 01/01/2026) và cơ chế ưu tiên xử lý hồ sơ đăng ký lưu hành thiết bị y tế bao gồm thiết bị y tế nhập khẩu (Điều 32a); đồng thời chuyển quan hệ sua_doi từ 98-2021-nd-cp.yaml về đúng chiều đi tại phiếu 96-2023-nd-cp.yaml. Khoản 3 và khoản 22 Điều 147 còn thay thế Nghị định 109/2016/NĐ-CP và Nghị định 102/2011/NĐ-CP (hành nghề và bảo hiểm trách nhiệm khám chữa bệnh nội địa, chưa đưa vào quan_he.thay_the vì nằm ngoài phạm vi sổ XNK).'
+toan_van: raw/download/datafiles.chinhphu.vn/96-2023-nd-cp.pdf
+tu_khoa:
+  - thiet-bi-y-te
+  - trang-thiet-bi-y-te
+  - thu-nghiem-lam-sang
+  - so-luu-hanh
