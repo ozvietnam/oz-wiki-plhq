@@ -1,18 +1,37 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 121/QĐ-BCT
+so_hieu_khac:
+  - 121/QĐ-BCT-2025
+  - 121/QĐ-BCT-2026
 loai: QUYET_DINH
-ten: (chưa có tiêu đề) 121/QĐ-BCT
+ten: Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm ván sợi gỗ có xuất xứ từ Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa
 co_quan: BCT
-tinh_trang: CHUA_XAC_MINH
+ngay_ban_hanh: '2026-01-19'
+hieu_luc_tu: '2026-01-19'
+het_hieu_luc_tu: '2031-01-19'
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - phong-ve-thuong-mai
+  - phong-ve-thuong-mai/chong-ban-pha-gia
 quan_he:
   thay_the:
-    - 2491/QĐ-BCT
+    - so_hieu: 2491/QĐ-BCT
+      tu_ngay: '2026-01-19'
+      can_cu: Điều 1, Điều 2 và Mục 4, Mục 6 Thông báo kèm theo QĐ 121/QĐ-BCT (thay biện pháp thuế CBPG tạm thời tại QĐ 2491/QĐ-BCT bằng thuế CBPG chính thức từ ngày 19-01-2026)
+nguon:
+  - url: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20121-19_1_26%20ap%20dung%20thue%20CBPG%20chinh%20thuc%20AD21.pdf
+    truy_cap: '2026-11-12'
+  - url: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20121-19_1_26%20ap%20dung%20thue%20CBPG%20chinh%20thuc%20AD21%20(1).pdf
+    truy_cap: '2026-11-12'
+  - url: https://pvtm.gov.vn/default.aspx?page=news-detail&do=detail&id=7f1730cc-b95b-489f-903f-93d962ed342b
+    truy_cap: '2026-11-12'
+  - url: https://trav.gov.vn/default.aspx?page=news-detail&do=detail&category_id=91b07cf1-3658-4f39-b688-73b9e8ff8a05&id=5638550c-8720-4067-8a2e-a810499aef07
+    truy_cap: '2026-11-12'
+trich_dan_trong_bieu_thue: 6
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: hiểu biết nền lúc khởi tạo
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Văn bản khung (stub): chỉ biết qua quan hệ thay thế 2491/QĐ-BCT trong hs-code-api. Cần bổ sung tiêu đề, ngày, nguồn. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.'
+  muc: NGUON_A
+  pham_vi: 'PDF bản gốc ký số trên cổng Cục Phòng vệ thương mại — Bộ Công Thương (pvtm.gov.vn / trav.gov.vn, 10 trang gồm Quyết định và Thông báo kèm theo): số hiệu 121/QĐ-BCT, ban hành ngày 19-01-2026, trích yếu "Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm ván sợi gỗ có xuất xứ từ Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa", người ký Thứ trưởng Nguyễn Sinh Nhật Tân (căn cứ Luật Quản lý ngoại thương ngày 12-6-2017; Nghị định 40/2025/NĐ-CP ngày 26-02-2025; Nghị định 86/2025/NĐ-CP ngày 11-4-2025; Thông tư 26/2025/TT-BCT ngày 15-5-2025; Quyết định 536/QĐ-BCT ngày 28-02-2025; Quyết định 2549/QĐ-BCT ngày 25-9-2024; Quyết định 2491/QĐ-BCT ngày 05-9-2025; Quyết định 2667/QĐ-BCT ngày 25-9-2025). Trích nguyên văn các điều của Quyết định: "Điều 1. Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm ván sợi gỗ có xuất xứ từ Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa được phân loại theo các mã HS 4411.12.00, 4411.13.00, 4411.14.00, 4411.92.00, 4411.93.00 và 4411.94.00 (mã vụ việc: AD21) với nội dung chi tiết nêu tại Thông báo kèm theo Quyết định này. Điều 2. Quyết định này có hiệu lực kể từ ngày 19 tháng 01 năm 2026. Điều 3. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và Thủ trưởng các đơn vị, các bên liên quan chịu trách nhiệm thi hành Quyết định này./." Trích nguyên văn Mục 4 Thông báo kèm theo Quyết định số 121/QĐ-BCT ngày 19-01-2026: "4. Hiệu lực và thời hạn áp dụng thuế chống bán phá giá chính thức: a) Hiệu lực: Thuế chống bán phá giá chính thức có hiệu lực từ ngày 19 tháng 01 năm 2026. b) Thời hạn áp dụng: Thuế chống bán phá giá chính thức có thời hạn áp dụng là 05 (năm) năm kể từ ngày có hiệu lực (trừ trường hợp được gia hạn, thay đổi, hủy bỏ theo Quyết định khác của Bộ trưởng Bộ Công Thương)." Mục 6 quy định hoàn thuế CBPG tạm thời đã nộp theo Quyết định số 2491/QĐ-BCT ngày 05-9-2025 đối với hàng hóa được loại trừ hoặc có chênh lệch mức thuế. Đối chiếu tình trạng hiện tại ngày 2026-11-12 trên pvtm.gov.vn và trav.gov.vn: QĐ 121/QĐ-BCT đang CON_HIEU_LUC (thời hạn 05 năm từ 19-01-2026 đến 19-01-2031); ngày 17-07-2026 Bộ Công Thương ban hành QĐ 1784/QĐ-BCT rà soát nhà xuất khẩu mới (mã vụ việc NR01.AD21) và ngày 12-10-2026 ban hành QĐ 2641/QĐ-BCT gia hạn thời hạn rà soát thêm 03 tháng đến ngày 17-01-2027, chưa có văn bản nào sửa đổi, thay thế hay bãi bỏ QĐ 121/QĐ-BCT.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-12'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Mã vụ việc AD21 (6 mã HS: 4411.12.00, 4411.13.00, 4411.14.00, 4411.92.00, 4411.93.00, 4411.94.00). Mức thuế CBPG chính thức tại Mục 3 Thông báo kèm theo: Trung Quốc từ 2,59% đến 39,88%; Thái Lan từ 3,09% đến 20,20%. Các văn bản liên quan trong tiến trình vụ việc AD21/NR01.AD21 chưa mở mục riêng trong registry/van-ban/ gồm: QĐ 2549/QĐ-BCT ngày 25-09-2024 (khởi xướng điều tra), QĐ 2667/QĐ-BCT ngày 25-09-2025 (gia hạn điều tra), QĐ 1784/QĐ-BCT ngày 17-07-2026 (rà soát nhà xuất khẩu mới NR01.AD21, https://pvtm.gov.vn/default.aspx?page=news-detail&do=detail&id=9d8c469f-8fcd-4df5-a5fb-98a544eafe97) và QĐ 2641/QĐ-BCT ngày 12-10-2026 (gia hạn rà soát NR01.AD21 đến 17-01-2027, https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%202641_12_10_26_Gia%20han%20thoi%20han%20ra%20soat.pdf).'

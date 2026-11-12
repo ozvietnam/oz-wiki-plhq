@@ -1,23 +1,31 @@
 # Sổ đăng ký văn bản — từ sheet HT biểu thuế
 so_hieu: 228/QĐ-BCT
+so_hieu_khac:
+  - 228/QĐ-BCT-2026
 loai: QUYET_DINH
-ten: Áp dụng thuế CBPG tạm thời đối với kính nổi không màu (ID, MA) - vụ AD22
+ten: Áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm kính nổi không màu có xuất xứ từ Cộng hòa In-đô-nê-xi-a và Ma-lai-xi-a
 co_quan: BCT
 ngay_ban_hanh: '2026-01-30'
 hieu_luc_tu: '2026-02-14'
-tinh_trang: CON_HIEU_LUC
+het_hieu_luc_tu: '2026-06-14'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - phong-ve-thuong-mai/chong-ban-pha-gia
+nguon:
+  - url: https://moit.gov.vn/upload/2005517/fck/files/QD_228_QD_BCT_30_01_2026_ap_dung_thue_CBPG_tam_thoi_AD22_ae66b.pdf
+    truy_cap: '2026-11-12'
+  - url: https://moit.gov.vn/tin-tuc/bo-cong-thuong-ap-dung-thue-chong-ban-pha-gia-tam-thoi-doi-voi-mot-so-san-pham-kinh-noi-khong-mau-co-xuat-xu-tu-cong-hoa.html
+    truy_cap: '2026-11-12'
+  - url: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20228%20QD%20BCT%2030_01_2026%20ap%20dung%20thue%20CBPG%20tam%20thoi%20AD22.pdf
+    truy_cap: '2026-11-12'
+  - url: https://pvtm.gov.vn/default.aspx?page=news-detail&do=detail&category_id=91b07cf1-3658-4f39-b688-73b9e8ff8a05&id=059b2b69-438a-42d9-9c73-f3bb6a6d5eac
+    truy_cap: '2026-11-12'
+toan_van: raw/download/moit.gov.vn/228-qd-bct.pdf
+trich_dan_trong_bieu_thue: 2
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
-  ghi_chu: 'Crawl từ moit.gov.vn'
-nguon:
-  - url: https://moit.gov.vn/tin-tuc/bo-cong-thuong-ap-dung-thue-chong-ban-pha-gia-tam-thoi-doi-voi-mot-so-san-pham-kinh-noi-khong-mau-co-xuat-xu-tu-cong-hoa.html
-    truy_cap: '2026-10-10'
-  - url: https://moit.gov.vn/upload/2005517/fck/files/QD_228_QD_BCT_30_01_2026_ap_dung_thue_CBPG_tam_thoi_AD22_ae66b.pdf
-    truy_cap: '2026-10-10'
-toan_van: raw/download/moit.gov.vn/228-qd-bct.pdf
+  pham_vi: 'PDF bản gốc ký số trên cổng Bộ Công Thương (moit.gov.vn, lưu tại raw/download/moit.gov.vn/228-qd-bct.pdf) và cổng Cục Phòng vệ thương mại (pvtm.gov.vn, 7 trang gồm Quyết định và Thông báo kèm theo): số hiệu 228/QĐ-BCT, ban hành ngày 30-01-2026, trích yếu "Áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm kính nổi không màu có xuất xứ từ Cộng hòa In-đô-nê-xi-a và Ma-lai-xi-a", người ký Thứ trưởng Nguyễn Sinh Nhật Tân (căn cứ Luật Quản lý ngoại thương ngày 12-6-2017; Nghị định 40/2025/NĐ-CP ngày 26-02-2025; Nghị định 86/2025/NĐ-CP ngày 11-4-2025; Thông tư 26/2025/TT-BCT ngày 15-5-2025; Quyết định 536/QĐ-BCT ngày 28-02-2025; Quyết định 2093/QĐ-BCT ngày 18-7-2025). Trích nguyên văn các điều của Quyết định: "Điều 1. Áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm kính nổi không màu có xuất xứ từ Cộng hòa In-đô-nê-xi-a và Ma-lai-xi-a được phân loại theo các mã HS 7005.29.20, 7005.29.90 (mã vụ việc: AD22) với nội dung chi tiết nêu tại Thông báo kèm theo Quyết định này. Điều 2. Quyết định này có hiệu lực sau 15 ngày kể từ ngày ban hành. Điều 3. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và Thủ trưởng các đơn vị, các bên liên quan chịu trách nhiệm thi hành Quyết định này./." Trích nguyên văn Mục 3 Thông báo kèm theo Quyết định số 228/QĐ-BCT ngày 30-01-2026: "3. Hiệu lực và thời hạn áp dụng thuế chống bán phá giá tạm thời: a) Hiệu lực: Thuế chống bán phá giá tạm thời có hiệu lực sau 15 (mười lăm) ngày kể từ ngày Quyết định áp dụng thuế CBPG tạm thời được ban hành. b) Thời hạn áp dụng: Thuế chống bán phá giá tạm thời có thời hạn áp dụng là 120 (một trăm hai mươi) ngày kể từ ngày có hiệu lực (trừ trường hợp được gia hạn, thay đổi, hủy bỏ theo quy định pháp luật)." Đối chiếu tình trạng hiện tại ngày 2026-11-12 trên pvtm.gov.vn và moit.gov.vn: biện pháp thuế CBPG tạm thời 120 ngày theo QĐ 228/QĐ-BCT (có hiệu lực từ 14-02-2026 đến hết 13-06-2026) đã HET_HIEU_LUC từ ngày 14-06-2026 và chuyển sang áp dụng thuế CBPG chính thức (05 năm kể từ ngày 14-06-2026) theo Quyết định số 1400/QĐ-BCT ngày 12-06-2026 của Bộ trưởng Bộ Công Thương (Điều 2 QĐ 1400/QĐ-BCT: "Quyết định này có hiệu lực kể từ ngày 14 tháng 6 năm 2026"; Mục 4 Thông báo kèm theo QĐ 1400/QĐ-BCT: "a) Hiệu lực: Thuế chống bán phá giá chính thức có hiệu lực kể từ ngày 14 tháng 6 năm 2026. b) Thời hạn áp dụng: Thuế chống bán phá giá chính thức có thời hạn áp dụng là 05 (năm) năm kể từ ngày có hiệu lực (trừ trường hợp được gia hạn, thay đổi, hủy bỏ theo Quyết định khác của Bộ trưởng Bộ Công Thương)").'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-12'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Đã hiệu đính ten về đúng nguyên văn trích yếu trên bản gốc ký số và chuyển tinh_trang từ CON_HIEU_LUC sang HET_HIEU_LUC (het_hieu_luc_tu: 2026-06-14) sau khi hết thời hạn 120 ngày kể từ ngày có hiệu lực 14-02-2026. Mã vụ việc AD22 (2 mã HS: 7005.29.20, 7005.29.90; khởi xướng điều tra tại QĐ 2093/QĐ-BCT ngày 18-07-2025). Mức thuế CBPG tạm thời tại Mục 2 Thông báo kèm theo QĐ 228/QĐ-BCT: Indonesia từ 15,17% đến 43,78%; Malaysia từ 41,07% đến 63,39%. Từ ngày 14-06-2026 chuyển sang áp dụng thuế CBPG chính thức (Indonesia 32,78%–43,78%, Malaysia 41,07%–63,39%) theo Quyết định số 1400/QĐ-BCT ngày 12-06-2026 (https://pvtm.gov.vn/default.aspx?page=news-detail&do=detail&category_id=91b07cf1-3658-4f39-b688-73b9e8ff8a05&id=ab1a7f48-87fc-41f9-8992-f72fba3e4e6b, toàn văn PDF: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%201400%20QD%20BCT%2012_06_2026.pdf; mục 1400-qd-bct-2025.yaml trong sổ sẽ cập nhật ở thẻ riêng).'
