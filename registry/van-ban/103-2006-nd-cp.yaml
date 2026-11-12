@@ -1,25 +1,31 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 103/2006/NĐ-CP
 loai: NGHI_DINH
-ten: "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Sở hữu trí tuệ về sở hữu công nghiệp"
+ten: Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Sở hữu trí tuệ về sở hữu công nghiệp
 co_quan: CP
-ngay_ban_hanh: "2006-09-22"
-hieu_luc_tu: "2006-10-08"
-het_hieu_luc_tu: "2023-08-23"
+ngay_ban_hanh: '2006-09-22'
+hieu_luc_tu: '2006-10-21'
+het_hieu_luc_tu: '2023-08-23'
 tinh_trang: HET_HIEU_LUC
-nhanh: [hai-quan/kiem-tra-giam-sat]
+nhanh:
+  - hai-quan/kiem-tra-giam-sat
 quan_he: {}
 nguon:
-  - url: https://chinhphu.vn/default.aspx?pageid=27160&docid=16056
-    truy_cap: "2026-10-29"
-  - url: https://thuvienphapluat.vn/van-ban/So-huu-tri-tue/Nghi-dinh-103-2006-ND-CP-huong-dan-Luat-So-huu-tri-tue-ve-so-huu-cong-nghiep-14288.aspx
-    truy_cap: "2026-10-29"
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=16056
+    truy_cap: '2026-11-12'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2006/09/16475_nd103cp.doc
+    truy_cap: '2026-11-12'
+  - url: https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-103-2006-nd-cp-quy-dinh-chi-tiet-va-huong-dan-thi-hanh-mot-so-dieu-cua-luat-so-huu-tri-tue-ve-so-huu-cong-nghiep--15221
+    truy_cap: '2026-11-12'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: "số hiệu, tiêu đề, ngày ban hành 22-09-2006"
-  hieu_luc_da_doi_chieu: false
-  ngay: "2026-10-29"
-  boi: zcode@ozvietnam
-  canh_bao: "Ngày hiệu lực 08-10-2006 theo TVPL, chưa đọc nguyên văn điều khoản; bị thay thế toàn bộ bởi NĐ 65/2023/NĐ-CP từ 23-08-2023 (nguồn thứ cấp nhất quán)."
-ghi_chu: "Được sửa đổi bởi NĐ 122/2010/NĐ-CP (31-12-2010) — không lập record riêng vì cả chuỗi đã hết hiệu lực."
-tu_khoa: [so-huu-tri-tue, so-huu-cong-nghiep, nhan-hieu]
+  muc: NGUON_A
+  pham_vi: 'đã đối chiếu toàn văn tệp gốc (16475_nd103cp.doc, Thủ tướng Nguyễn Tấn Dũng ký) trên vanban.chinhphu.vn (docid=16056) và CSDLQG vbpl.vn (ID 15221): số hiệu 103/2006/NĐ-CP, tiêu đề, ngày ban hành 22/09/2006, gồm 7 Chương 38 Điều; Điều 37 quy định có hiệu lực sau 15 ngày kể từ ngày đăng Công báo (CSDLQG vbpl.vn ghi nhận ngày có hiệu lực 21/10/2006, effFrom 2006-10-21); được sửa đổi, bổ sung một số điều bởi Nghị định 122/2010/NĐ-CP và Điều 1 Nghị định 154/2018/NĐ-CP; hết hiệu lực toàn bộ từ 23/08/2023 do bị thay thế bởi khoản 2 Điều 124 Nghị định 65/2023/NĐ-CP (vbpl.vn effTo 2023-08-23, effStatus HHL)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-12'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác minh nguồn bậc A (OZV-561) — hướng dẫn Luật Sở hữu trí tuệ về xác lập, chủ thể, nội dung, giới hạn, chuyển giao quyền sở hữu công nghiệp và đại diện sở hữu công nghiệp. CSDLQG vbpl.vn (ID 15221) ghi nhận ngày có hiệu lực 21/10/2006 (15 ngày sau ngày đăng Công báo theo Điều 37; nguồn thứ cấp TVPL từng ghi 08/10/2006). Được sửa đổi bởi NĐ 122/2010/NĐ-CP (31/12/2010) và Điều 1 NĐ 154/2018/NĐ-CP (09/11/2018) trước khi bị thay thế toàn bộ bởi khoản 2 Điều 124 NĐ 65/2023/NĐ-CP từ 23/08/2023.'
+toan_van: raw/download/datafiles.chinhphu.vn/103-2006-nd-cp.doc
+tu_khoa:
+  - so-huu-tri-tue
+  - so-huu-cong-nghiep
+  - nhan-hieu

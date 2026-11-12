@@ -11,14 +11,22 @@ nhanh:
 quan_he:
   sua_doi:
     - so_hieu: 06/2011/TT-BYT
+      tu_ngay: '2021-02-15'
+      pham_vi: 'Sửa đổi, bổ sung khoản 4 Điều 4 (miễn CFS cho nước thành viên CPTPP và ASEAN, hợp pháp hóa lãnh sự/tra cứu điện tử CFS đối với mỹ phẩm nhập khẩu), Phụ lục số 01-MP và Điều 33 (hồ sơ, thủ tục cấp CFS đối với mỹ phẩm sản xuất trong nước để xuất khẩu theo Điều 11 Nghị định 69/2018/NĐ-CP)'
+      can_cu: 'Khoản 1 Điều 1 và Phụ lục 1 Thông tư 29/2020/TT-BYT'
 nguon:
-  - url: https://luatvietnam.vn/y-te/van-ban-hop-nhat-09-vbhn-byt-nam-2025-do-bo-y-te-ban-hanh-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-406752-d5.html
-    truy_cap: '2026-10-22'
+  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-29-2020-tt-byt-sua-doi-bo-sung-va-bai-bo-mot-so-van-ban-quy-pham-phap-luat-do-bo-truong-bo-y-te-ban-hanh-lien-tich-ban-hanh--147276
+    truy_cap: '2026-11-12'
+  - url: https://vbpl-bientap-gateway.moj.gov.vn/api/qtdc/public/doc/minio/buckets/vbpl/147276/VanBanGoc_461468.pdf/download
+    truy_cap: '2026-11-12'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 31/12/2020, hiệu lực 15/02/2021 (trích nguyên văn mục 3 đầu VBHN 09/VBHN-BYT)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-22'
-  boi: zcode@ozvietnam
-  canh_bao: 'Sửa/bãi bỏ nhiều văn bản BYT; phần đụng TT 06/2011 còn hiệu lực theo VBHN 25/7/2025 — chưa đối chiếu bậc A.'
-tu_khoa: [my-pham]
+  muc: NGUON_A
+  pham_vi: 'đã đối chiếu toàn văn PDF bản gốc (VanBanGoc_461468.pdf, Bộ trưởng Nguyễn Thanh Long ký) và bản HTML đầy đủ trên CSDLQG vbpl.vn (ID 147276): số hiệu 29/2020/TT-BYT, tiêu đề, ngày ban hành 31/12/2020, gồm 5 Điều và 6 Phụ lục; khoản 1 Điều 1 (kèm Phụ lục 1) sửa đổi, bổ sung khoản 4 Điều 4, Phụ lục số 01-MP và Điều 33 của Thông tư 06/2011/TT-BYT về quản lý mỹ phẩm (được hợp nhất tại VBHN 09/VBHN-BYT ngày 25/07/2025); Điều 2 (kèm Phụ lục 6) bãi bỏ toàn bộ 28 văn bản và bãi bỏ một phần 02 văn bản QPPL do Bộ trưởng Bộ Y tế ban hành, liên tịch ban hành; Điều 3 quy định có hiệu lực từ 15/02/2021 (riêng các khoản 5, 6, 7, 8 và 11 Điều 1 có hiệu lực từ 01/01/2021); trên vbpl.vn ghi nhận trạng thái hết hiệu lực một phần (effStatus HHL1P) do một số thông tư về dược được sửa tại các khoản khác của Điều 1 sau đó đã được thay thế, trong khi khoản 1 Điều 1 sửa đổi TT 06/2011/TT-BYT vẫn còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-12'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác minh nguồn bậc A (OZV-561) — khoản 1 Điều 1 và Phụ lục 1 sửa đổi, bổ sung Thông tư 06/2011/TT-BYT về quản lý mỹ phẩm (miễn Giấy chứng nhận lưu hành tự do CFS đối với mỹ phẩm nhập khẩu từ nước thành viên CPTPP và ASEAN; quy định kiểm tra điện tử hoặc hợp pháp hóa lãnh sự CFS; sửa quy trình cấp CFS mỹ phẩm xuất khẩu tại Điều 33 theo Nghị định 69/2018/NĐ-CP). Phần sửa đổi TT 06/2011/TT-BYT tiếp tục có hiệu lực theo VBHN 09/VBHN-BYT ngày 25/07/2025.'
+toan_van: raw/download/vbpl.vn/29-2020-tt-byt.pdf
+tu_khoa:
+  - my-pham
+  - cfs
