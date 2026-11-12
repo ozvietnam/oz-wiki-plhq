@@ -98,8 +98,8 @@ flowchart LR
   n_54_VBHN_VPQH["54/VBHN-VPQH<br/>còn hiệu lực"]
   n_65_2023_N__CP["65/2023/NĐ-CP<br/>còn hiệu lực"]
   n_103_2006_N__CP["103/2006/NĐ-CP<br/>hết hiệu lực"]
-  n_464_Q__BTC["464/QĐ-BTC<br/>chưa có trong sổ"]
-  n_465_Q__BTC["465/QĐ-BTC<br/>chưa có trong sổ"]
+  n_464_Q__BTC["464/QĐ-BTC<br/>hết hiệu lực"]
+  n_465_Q__BTC["465/QĐ-BTC<br/>hết hiệu lực"]
   n_06_2024_TT_BTC -->|sửa đổi sửa Điều 10, 13, 14, 15, 17, 19, 20, 22, 26; bổ sung Điều 31a; sửa Điều 33 và cụm từ, khoản, phụ lục từ 2024-03-15| n_81_2019_TT_BTC
   n_06_2026_TT_BTC -->|sửa đổi từ 2026-03-01| n_13_2015_TT_BTC
   n_07_2022_QH15 -->|sửa đổi từ 2023-01-01| n_50_2005_QH11
@@ -260,12 +260,12 @@ flowchart LR
   n_69_2025_QH15["69/2025/QH15<br/>còn hiệu lực"]
   n_06_2007_QH12["06/2007/QH12<br/>hết hiệu lực"]
   n_73_2021_QH14["73/2021/QH14<br/>còn hiệu lực"]
-  n_23_2000_QH10["23/2000/QH10<br/>chưa có trong sổ"]
+  n_23_2000_QH10["23/2000/QH10<br/>hết hiệu lực"]
   n_6266_Q__BCA["6266/QĐ-BCA<br/>chưa xác minh"]
   n_91_2026_VBHN_TT_BNNMT["91/2026/VBHN-TT-BNNMT<br/>chưa xác minh"]
+  n_96_2023_N__CP["96/2023/NĐ-CP<br/>còn hiệu lực"]
   n_98_2021_N__CP["98/2021/NĐ-CP<br/>còn hiệu lực"]
   n_07_2023_N__CP["07/2023/NĐ-CP<br/>còn hiệu lực"]
-  n_96_2023_N__CP["96/2023/NĐ-CP<br/>chưa có trong sổ"]
   n_99_2026_VBHN_TT_BNNMT["99/2026/VBHN-TT-BNNMT<br/>còn hiệu lực"]
   n_20_2021_TT_BNNPTNT["20/2021/TT-BNNPTNT<br/>còn hiệu lực"]
   n_01_2021_TT_BL_TBXH -->|thay thế từ 2021-07-18| n_22_2018_TT_BL_TBXH
@@ -359,8 +359,9 @@ flowchart LR
   n_90_2024_N__CP -->|sửa đổi| n_57_2022_N__CP
   n_91_2026_VBHN_TT_BNNMT -->|hợp nhất| n_27_2026_TT_BNNMT
   n_91_2026_VBHN_TT_BNNMT -->|hợp nhất| n_44_2026_TT_BNNMT
+  n_96_2023_N__CP -->|sửa đổi sửa đổi tên Chương IV; sửa đổi, bổ sung các Điều 12, 13, 14, 15, 16, 17, 18, 19, 20, 30 và bổ sung Điều 32a (riêng khoản 19 Điều 147 sửa đổi, bổ sung Điều 30 áp dụng từ 01/01/2026) từ 2024-01-01| n_98_2021_N__CP
+  n_96_2023_N__CP -->|bãi bỏ Điều 11 từ 2024-01-01| n_155_2018_N__CP
   n_98_2021_N__CP -->|sửa đổi từ 2023-03-15| n_07_2023_N__CP
-  n_98_2021_N__CP -->|sửa đổi từ 2023-12-30| n_96_2023_N__CP
   n_99_2026_VBHN_TT_BNNMT -->|hợp nhất| n_20_2021_TT_BNNPTNT
 ```
 
