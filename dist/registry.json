@@ -1128,7 +1128,10 @@
           {
             "tu": "09/2015/TT-BYT",
             "quan_he": "sua_doi",
-            "so_hieu": "06/2011/TT-BYT"
+            "so_hieu": "06/2011/TT-BYT",
+            "tu_ngay": "2015-07-16",
+            "pham_vi": "Bãi bỏ các quy định về quảng cáo mỹ phẩm trong Thông tư số 06/2011/TT-BYT ngày 25/01/2011",
+            "can_cu": "Điểm d khoản 2 Điều 24 Thông tư 09/2015/TT-BYT"
           },
           {
             "tu": "155/2018/NĐ-CP",
@@ -1138,7 +1141,10 @@
           {
             "tu": "29/2020/TT-BYT",
             "quan_he": "sua_doi",
-            "so_hieu": "06/2011/TT-BYT"
+            "so_hieu": "06/2011/TT-BYT",
+            "tu_ngay": "2021-02-15",
+            "pham_vi": "Sửa đổi, bổ sung khoản 4 Điều 4 (miễn CFS cho nước thành viên CPTPP và ASEAN, hợp pháp hóa lãnh sự/tra cứu điện tử CFS đối với mỹ phẩm nhập khẩu), Phụ lục số 01-MP và Điều 33 (hồ sơ, thủ tục cấp CFS đối với mỹ phẩm sản xuất trong nước để xuất khẩu theo Điều 11 Nghị định 69/2018/NĐ-CP)",
+            "can_cu": "Khoản 1 Điều 1 và Phụ lục 1 Thông tư 29/2020/TT-BYT"
           },
           {
             "tu": "34/2025/TT-BYT",
@@ -2032,30 +2038,46 @@
       "quan_he": {
         "sua_doi": [
           {
-            "so_hieu": "06/2011/TT-BYT"
+            "so_hieu": "06/2011/TT-BYT",
+            "tu_ngay": "2015-07-16",
+            "pham_vi": "Bãi bỏ các quy định về quảng cáo mỹ phẩm trong Thông tư số 06/2011/TT-BYT ngày 25/01/2011",
+            "can_cu": "Điểm d khoản 2 Điều 24 Thông tư 09/2015/TT-BYT"
           }
         ]
       },
       "nguon": [
         {
-          "url": "https://luatvietnam.vn/y-te/van-ban-hop-nhat-09-vbhn-byt-nam-2025-do-bo-y-te-ban-hanh-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-406752-d5.html",
-          "truy_cap": "2026-10-22"
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=180328",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2015/06/09-byt.signed.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-09-2015-tt-byt-12979.htm",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-09-2015-tt-byt-quy-dinh-ve-xac-nhan-noi-dung-quang-cao-doi-voi-san-pham-hang-hoa-dich-vu-dac-biet-thuoc-linh-vuc-quan-ly-cua-bo-y-te--67130",
+          "truy_cap": "2026-11-12"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 25/5/2015, hiệu lực 16/7/2015 (trích nguyên văn mục 2 đầu VBHN 09/VBHN-BYT)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-22",
-        "boi": "zcode@ozvietnam",
-        "canh_bao": "Chưa đối chiếu tình trạng trên nguồn bậc A (chế độ xác nhận quảng cáo thay nhiều lần sau 2015 — cần rà riêng)."
+        "muc": "NGUON_A",
+        "pham_vi": "đã đối chiếu toàn văn 19 trang PDF ký số (09-byt.signed.pdf, Thứ trưởng Phạm Lê Tuấn ký) trên vanban.chinhphu.vn (docid=180328), Công báo (số 609+610 năm 2015) và CSDLQG vbpl.vn (ID 67130): số hiệu 09/2015/TT-BYT, tiêu đề, ngày ban hành 25/05/2015, gồm 3 Chương 27 Điều; khoản 1 Điều 24 có hiệu lực từ 16/07/2015; điểm d khoản 2 Điều 24 bãi bỏ các quy định về quảng cáo mỹ phẩm trong Thông tư 06/2011/TT-BYT (được hợp nhất tại VBHN 09/VBHN-BYT ngày 25/07/2025); trên vbpl.vn (ID 67130) ghi nhận trạng thái hết hiệu lực một phần (effStatus HHL1P) do các quy định xác nhận quảng cáo theo từng nhóm hàng chuyên ngành được sửa đổi, bãi bỏ một phần bởi các văn bản sau năm 2015",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "ghi_chu": "Xác minh nguồn bậc A (OZV-561) — quy định điều kiện, thẩm quyền, hồ sơ, thủ tục xác nhận nội dung quảng cáo đối với thuốc, mỹ phẩm, thực phẩm/phụ gia thực phẩm thuộc quản lý Bộ Y tế, hóa chất/chế phẩm diệt côn trùng diệt khuẩn dùng trong gia dụng và y tế, trang thiết bị y tế, sữa và sản phẩm dinh dưỡng dùng cho trẻ, dịch vụ khám bệnh chữa bệnh. Điểm d khoản 2 Điều 24 bãi bỏ quy định về quảng cáo mỹ phẩm tại TT 06/2011/TT-BYT; một số thủ tục xác nhận quảng cáo chuyên ngành đã hết hiệu lực một phần theo các nghị định, thông tư mới của Chính phủ và Bộ Y tế.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/09-2015-tt-byt.pdf",
       "tu_khoa": [
         "my-pham",
         "quang-cao"
       ],
       "slug": "09-2015-tt-byt",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -3943,7 +3965,7 @@
       "ten": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Sở hữu trí tuệ về sở hữu công nghiệp",
       "co_quan": "CP",
       "ngay_ban_hanh": "2006-09-22",
-      "hieu_luc_tu": "2006-10-08",
+      "hieu_luc_tu": "2006-10-21",
       "het_hieu_luc_tu": "2023-08-23",
       "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
@@ -3952,23 +3974,27 @@
       "quan_he": {},
       "nguon": [
         {
-          "url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=16056",
-          "truy_cap": "2026-10-29"
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=16056",
+          "truy_cap": "2026-11-12"
         },
         {
-          "url": "https://thuvienphapluat.vn/van-ban/So-huu-tri-tue/Nghi-dinh-103-2006-ND-CP-huong-dan-Luat-So-huu-tri-tue-ve-so-huu-cong-nghiep-14288.aspx",
-          "truy_cap": "2026-10-29"
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2006/09/16475_nd103cp.doc",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-103-2006-nd-cp-quy-dinh-chi-tiet-va-huong-dan-thi-hanh-mot-so-dieu-cua-luat-so-huu-tri-tue-ve-so-huu-cong-nghiep--15221",
+          "truy_cap": "2026-11-12"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 22-09-2006",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-29",
-        "boi": "zcode@ozvietnam",
-        "canh_bao": "Ngày hiệu lực 08-10-2006 theo TVPL, chưa đọc nguyên văn điều khoản; bị thay thế toàn bộ bởi NĐ 65/2023/NĐ-CP từ 23-08-2023 (nguồn thứ cấp nhất quán)."
+        "muc": "NGUON_A",
+        "pham_vi": "đã đối chiếu toàn văn tệp gốc (16475_nd103cp.doc, Thủ tướng Nguyễn Tấn Dũng ký) trên vanban.chinhphu.vn (docid=16056) và CSDLQG vbpl.vn (ID 15221): số hiệu 103/2006/NĐ-CP, tiêu đề, ngày ban hành 22/09/2006, gồm 7 Chương 38 Điều; Điều 37 quy định có hiệu lực sau 15 ngày kể từ ngày đăng Công báo (CSDLQG vbpl.vn ghi nhận ngày có hiệu lực 21/10/2006, effFrom 2006-10-21); được sửa đổi, bổ sung một số điều bởi Nghị định 122/2010/NĐ-CP và Điều 1 Nghị định 154/2018/NĐ-CP; hết hiệu lực toàn bộ từ 23/08/2023 do bị thay thế bởi khoản 2 Điều 124 Nghị định 65/2023/NĐ-CP (vbpl.vn effTo 2023-08-23, effStatus HHL)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Được sửa đổi bởi NĐ 122/2010/NĐ-CP (31-12-2010) — không lập record riêng vì cả chuỗi đã hết hiệu lực.",
+      "ghi_chu": "Xác minh nguồn bậc A (OZV-561) — hướng dẫn Luật Sở hữu trí tuệ về xác lập, chủ thể, nội dung, giới hạn, chuyển giao quyền sở hữu công nghiệp và đại diện sở hữu công nghiệp. CSDLQG vbpl.vn (ID 15221) ghi nhận ngày có hiệu lực 21/10/2006 (15 ngày sau ngày đăng Công báo theo Điều 37; nguồn thứ cấp TVPL từng ghi 08/10/2006). Được sửa đổi bởi NĐ 122/2010/NĐ-CP (31/12/2010) và Điều 1 NĐ 154/2018/NĐ-CP (09/11/2018) trước khi bị thay thế toàn bộ bởi khoản 2 Điều 124 NĐ 65/2023/NĐ-CP từ 23/08/2023.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/103-2006-nd-cp.doc",
       "tu_khoa": [
         "so-huu-tri-tue",
         "so-huu-cong-nghiep",
@@ -3982,7 +4008,8 @@
             "tu": "65/2023/NĐ-CP",
             "quan_he": "thay_the",
             "so_hieu": "103/2006/NĐ-CP",
-            "tu_ngay": "2023-08-23"
+            "tu_ngay": "2023-08-23",
+            "can_cu": "Khoản 2 Điều 124 Nghị định 65/2023/NĐ-CP"
           }
         ]
       }
@@ -14132,29 +14159,40 @@
     {
       "so_hieu": "14/2018/TT-BYT",
       "loai": "THONG_TU",
-      "ten": "Danh mục thiết bị y tế xuất khẩu, nhập khẩu",
+      "ten": "Ban hành Danh mục trang thiết bị y tế được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
       "co_quan": "BYT",
-      "tinh_trang": "HET_HIEU_LUC",
+      "ngay_ban_hanh": "2018-05-15",
+      "hieu_luc_tu": "2018-07-01",
       "het_hieu_luc_tu": "2024-11-16",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
-        "kiem-tra-chuyen-nganh/byt"
+        "kiem-tra-chuyen-nganh/byt",
+        "phan-loai-hs/danh-muc"
       ],
       "quan_he": {},
       "nguon": [
         {
-          "url": "https://vanban.chinhphu.vn/?docid=200124",
-          "truy_cap": "2026-10-09"
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-14-2018-tt-byt-ban-hanh-danh-muc-trang-thiet-bi-y-te-duoc-xac-dinh-ma-so-hang-hoa-theo-danh-muc-hang-hoa-xuat-khau-nhap-khau-viet-nam--129502",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vbpl-bientap-gateway.moj.gov.vn/api/qtdc/public/doc/minio/buckets/vbpl/129502/VanBanGoc_tt-2018-14-1.pdf/download",
+          "truy_cap": "2026-11-12"
         }
       ],
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "pham_vi": "chưa đối chiếu nguồn nào",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-09",
-        "boi": "claude-code@ozvietnam",
-        "canh_bao": "CHUA_RO: ngày ban hành và ngày có hiệu lực chưa xác minh (để trống); tình trạng HET_HIEU_LUC suy ra từ quan hệ thay_the của 19/2024/TT-BYT (hiệu lực từ 2024-11-16), chưa đối chiếu trực tiếp nguồn bậc A về 14/2018/TT-BYT."
+        "muc": "NGUON_A",
+        "pham_vi": "đã đối chiếu toàn văn PDF bản gốc (VanBanGoc_tt-2018-14-1.pdf, Thứ trưởng Nguyễn Viết Tiến ký) trên CSDLQG vbpl.vn (ID 129502): số hiệu 14/2018/TT-BYT, tiêu đề chính thức, ngày ban hành 15/05/2018, gồm 5 Điều và Phụ lục Danh mục trang thiết bị y tế kèm mã số HS; khoản 1 Điều 4 quy định có hiệu lực từ 01/07/2018; khoản 2 Điều 4 làm hết hiệu lực Danh mục mã hàng tại Phụ lục I Thông tư 30/2015/TT-BYT; hết hiệu lực toàn bộ từ 16/11/2024 do bị thay thế bởi khoản 2 Điều 4 Thông tư 19/2024/TT-BYT ngày 01/10/2024 (vbpl.vn effTo 2024-11-16, effStatus HHL)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Đóng điểm mù do 19/2024/TT-BYT nhắc tới trong quan hệ thay_the. Chưa đối chiếu trực tiếp nguồn bậc A — cần săn PDF Công báo/datafiles để bổ sung ngày ban hành chính xác và nâng mức xác minh.",
+      "ghi_chu": "Xác minh nguồn bậc A (OZV-561) — Danh mục trang thiết bị y tế được xác định mã số HS theo Thông tư 65/2017/TT-BTC (giai đoạn 01/07/2018 – 15/11/2024), bị thay thế toàn bộ bởi Thông tư 19/2024/TT-BYT từ 16/11/2024. Đã loại bỏ URL sai vanban.chinhphu.vn/?docid=200124 (trỏ nhầm sang Quyết định 17/2020/QĐ-TTg) và thay bằng nguồn CSDLQG vbpl.vn (ID 129502).",
+      "toan_van": "raw/download/vbpl.vn/14-2018-tt-byt.pdf",
+      "tu_khoa": [
+        "thiet-bi-y-te",
+        "ma-hs"
+      ],
       "slug": "14-2018-tt-byt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -39043,29 +39081,38 @@
       "quan_he": {
         "sua_doi": [
           {
-            "so_hieu": "06/2011/TT-BYT"
+            "so_hieu": "06/2011/TT-BYT",
+            "tu_ngay": "2021-02-15",
+            "pham_vi": "Sửa đổi, bổ sung khoản 4 Điều 4 (miễn CFS cho nước thành viên CPTPP và ASEAN, hợp pháp hóa lãnh sự/tra cứu điện tử CFS đối với mỹ phẩm nhập khẩu), Phụ lục số 01-MP và Điều 33 (hồ sơ, thủ tục cấp CFS đối với mỹ phẩm sản xuất trong nước để xuất khẩu theo Điều 11 Nghị định 69/2018/NĐ-CP)",
+            "can_cu": "Khoản 1 Điều 1 và Phụ lục 1 Thông tư 29/2020/TT-BYT"
           }
         ]
       },
       "nguon": [
         {
-          "url": "https://luatvietnam.vn/y-te/van-ban-hop-nhat-09-vbhn-byt-nam-2025-do-bo-y-te-ban-hanh-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-406752-d5.html",
-          "truy_cap": "2026-10-22"
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-29-2020-tt-byt-sua-doi-bo-sung-va-bai-bo-mot-so-van-ban-quy-pham-phap-luat-do-bo-truong-bo-y-te-ban-hanh-lien-tich-ban-hanh--147276",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vbpl-bientap-gateway.moj.gov.vn/api/qtdc/public/doc/minio/buckets/vbpl/147276/VanBanGoc_461468.pdf/download",
+          "truy_cap": "2026-11-12"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 31/12/2020, hiệu lực 15/02/2021 (trích nguyên văn mục 3 đầu VBHN 09/VBHN-BYT)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-22",
-        "boi": "zcode@ozvietnam",
-        "canh_bao": "Sửa/bãi bỏ nhiều văn bản BYT; phần đụng TT 06/2011 còn hiệu lực theo VBHN 25/7/2025 — chưa đối chiếu bậc A."
+        "muc": "NGUON_A",
+        "pham_vi": "đã đối chiếu toàn văn PDF bản gốc (VanBanGoc_461468.pdf, Bộ trưởng Nguyễn Thanh Long ký) và bản HTML đầy đủ trên CSDLQG vbpl.vn (ID 147276): số hiệu 29/2020/TT-BYT, tiêu đề, ngày ban hành 31/12/2020, gồm 5 Điều và 6 Phụ lục; khoản 1 Điều 1 (kèm Phụ lục 1) sửa đổi, bổ sung khoản 4 Điều 4, Phụ lục số 01-MP và Điều 33 của Thông tư 06/2011/TT-BYT về quản lý mỹ phẩm (được hợp nhất tại VBHN 09/VBHN-BYT ngày 25/07/2025); Điều 2 (kèm Phụ lục 6) bãi bỏ toàn bộ 28 văn bản và bãi bỏ một phần 02 văn bản QPPL do Bộ trưởng Bộ Y tế ban hành, liên tịch ban hành; Điều 3 quy định có hiệu lực từ 15/02/2021 (riêng các khoản 5, 6, 7, 8 và 11 Điều 1 có hiệu lực từ 01/01/2021); trên vbpl.vn ghi nhận trạng thái hết hiệu lực một phần (effStatus HHL1P) do một số thông tư về dược được sửa tại các khoản khác của Điều 1 sau đó đã được thay thế, trong khi khoản 1 Điều 1 sửa đổi TT 06/2011/TT-BYT vẫn còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "ghi_chu": "Xác minh nguồn bậc A (OZV-561) — khoản 1 Điều 1 và Phụ lục 1 sửa đổi, bổ sung Thông tư 06/2011/TT-BYT về quản lý mỹ phẩm (miễn Giấy chứng nhận lưu hành tự do CFS đối với mỹ phẩm nhập khẩu từ nước thành viên CPTPP và ASEAN; quy định kiểm tra điện tử hoặc hợp pháp hóa lãnh sự CFS; sửa quy trình cấp CFS mỹ phẩm xuất khẩu tại Điều 33 theo Nghị định 69/2018/NĐ-CP). Phần sửa đổi TT 06/2011/TT-BYT tiếp tục có hiệu lực theo VBHN 09/VBHN-BYT ngày 25/07/2025.",
+      "toan_van": "raw/download/vbpl.vn/29-2020-tt-byt.pdf",
       "tu_khoa": [
-        "my-pham"
+        "my-pham",
+        "cfs"
       ],
       "slug": "29-2020-tt-byt",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -63441,7 +63488,9 @@
             "tu": "93/2025/QH15",
             "quan_he": "sua_doi",
             "so_hieu": "50/2005/QH11",
-            "tu_ngay": "2025-10-01"
+            "tu_ngay": "2025-10-01",
+            "pham_vi": "Sửa đổi, bổ sung điểm b khoản 1 Điều 86, khoản 1 và khoản 3 Điều 135, điểm b khoản 2 Điều 164, câu mở đầu và điểm a khoản 1 cùng khoản 3 Điều 191; bỏ cụm từ \", Điều 86a\" tại khoản 3 Điều 60, khoản 4 Điều 65 và khoản 2 Điều 71; bãi bỏ các Điều 86a, 133a, khoản 2 Điều 135, Điều 136a, khoản 6 Điều 139, khoản 3 và khoản 4 Điều 164, khoản 2 Điều 191, Điều 191a, Điều 191b, khoản 4 Điều 194 của Luật Sở hữu trí tuệ số 50/2005/QH11",
+            "can_cu": "Khoản 7 Điều 71 Luật 93/2025/QH15"
           }
         ],
         "duoc_hop_nhat_boi": [
@@ -74966,29 +75015,38 @@
         "thay_the": [
           {
             "so_hieu": "103/2006/NĐ-CP",
-            "tu_ngay": "2023-08-23"
+            "tu_ngay": "2023-08-23",
+            "can_cu": "Khoản 2 Điều 124 Nghị định 65/2023/NĐ-CP"
           }
         ]
       },
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=208550",
-          "truy_cap": "2026-10-29"
+          "truy_cap": "2026-11-12"
         },
         {
           "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/8/65-nd-cp.signed.pdf",
-          "truy_cap": "2026-10-29"
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-65-2023-nd-cp-40056.htm",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-65-2023-nd-cp-quy-dinh-chi-tiet-mot-so-dieu-va-bien-phap-thi-hanh-luat-so-huu-tri-tue-ve-so-huu-cong-nghiep-bao-ve-quyen-so-huu-cong-nghiep-quyen-doi-voi-giong-cay-trong-va-quan-ly-nha-nuoc-ve-so-huu-tri-tue--164372",
+          "truy_cap": "2026-11-12"
         }
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 23-08-2023 và ngày hiệu lực 23-08-2023 trên thẻ vanban.chinhphu.vn",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-29",
-        "boi": "zcode@ozvietnam",
-        "canh_bao": "Việc thay thế NĐ 103/2006 đọc từ nguồn thứ cấp nhất quán (TVPL + báo Chính phủ); PDF ký là bản scan, chưa OCR được điều khoản thi hành."
+        "pham_vi": "đã đối chiếu toàn văn PDF ký số (65-nd-cp.signed.pdf, Phó Thủ tướng Trần Lưu Quang ký) trên vanban.chinhphu.vn (docid=208550), Công báo (40056) và bản HTML toàn văn 125 Điều trên CSDLQG vbpl.vn (ID 164372): số hiệu 65/2023/NĐ-CP, tiêu đề, ngày ban hành 23/08/2023, gồm 9 Chương 125 Điều và 7 Phụ lục; khoản 1 Điều 124 quy định có hiệu lực thi hành từ ngày 23/08/2023; khoản 2 Điều 124 thay thế toàn bộ Nghị định 103/2006/NĐ-CP ngày 22/09/2006 (cùng các quy định về sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về SHTT tại NĐ 105/2006/NĐ-CP, NĐ 119/2010/NĐ-CP, NĐ 122/2010/NĐ-CP và Điều 1 NĐ 154/2018/NĐ-CP); đang còn hiệu lực (vbpl.vn effStatus CHL, đã được sửa đổi, bổ sung một số điều bởi NĐ 151/2025/NĐ-CP, NĐ 15/2026/NĐ-CP, NĐ 33/2026/NĐ-CP và NĐ 100/2026/NĐ-CP theo VBHN 04/VBHN-BKHCN ngày 26/04/2026)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Hiệu lực từ ngày ký. Chưa đối chiếu sửa đổi sau 2023 — cần săn định kỳ.",
+      "ghi_chu": "Xác minh nguồn bậc A (OZV-561) — hướng dẫn Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền SHTT (bao gồm biện pháp kiểm soát hàng hóa xuất khẩu, nhập khẩu liên quan đến sở hữu trí tuệ tại Mục 2 Chương VI, từ Điều 98 đến Điều 102) và quản lý nhà nước về SHTT. Khoản 2 Điều 124 thay thế toàn bộ NĐ 103/2006/NĐ-CP từ 23/08/2023; văn bản đã được hợp nhất tại VBHN 04/VBHN-BKHCN ngày 26/04/2026 của Bộ Khoa học và Công nghệ.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/65-2023-nd-cp.pdf",
       "tu_khoa": [
         "so-huu-tri-tue",
         "so-huu-cong-nghiep",
@@ -85584,24 +85642,35 @@
         "sua_doi": [
           {
             "so_hieu": "50/2005/QH11",
-            "tu_ngay": "2025-10-01"
+            "tu_ngay": "2025-10-01",
+            "pham_vi": "Sửa đổi, bổ sung điểm b khoản 1 Điều 86, khoản 1 và khoản 3 Điều 135, điểm b khoản 2 Điều 164, câu mở đầu và điểm a khoản 1 cùng khoản 3 Điều 191; bỏ cụm từ \", Điều 86a\" tại khoản 3 Điều 60, khoản 4 Điều 65 và khoản 2 Điều 71; bãi bỏ các Điều 86a, 133a, khoản 2 Điều 135, Điều 136a, khoản 6 Điều 139, khoản 3 và khoản 4 Điều 164, khoản 2 Điều 191, Điều 191a, Điều 191b, khoản 4 Điều 194 của Luật Sở hữu trí tuệ số 50/2005/QH11",
+            "can_cu": "Khoản 7 Điều 71 Luật 93/2025/QH15"
           }
         ]
       },
       "nguon": [
         {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=214603",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/93qh.signed.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
           "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/155-vbhn-vpqh.pdf",
-          "truy_cap": "2026-10-29"
+          "truy_cap": "2026-11-12"
         }
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, ngày ban hành 27-06-2025, hiệu lực 01-10-2025 và việc sửa đổi Luật SHTT — nguyên văn phần đầu VBHN 155/VBHN-VPQH",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-29",
-        "boi": "zcode@ozvietnam",
-        "canh_bao": "Chưa có trang văn bản riêng đã đối chiếu; đây là lần sửa đổi thứ tư của Luật SHTT theo VBHN 155 — ngoài ra luật này còn tác động lên các luật khác không ghi ở đây."
+        "pham_vi": "đã đối chiếu toàn văn 52 trang PDF ký số của Luật 93/2025/QH15 (93qh.signed.pdf, Chủ tịch Quốc hội Trần Thanh Mẫn ký) trên vanban.chinhphu.vn (docid=214603) và Văn bản hợp nhất Luật SHTT số 155/VBHN-VPQH ngày 09/09/2025 (155-vbhn-vpqh.pdf): số hiệu 93/2025/QH15, tiêu đề Luật Khoa học, công nghệ và đổi mới sáng tạo, gồm 7 Chương 73 Điều, Quốc hội khóa XV kỳ họp thứ 9 thông qua ngày 27/06/2025; khoản 7 Điều 71 sửa đổi, bổ sung, bãi bỏ một số điều của Luật Sở hữu trí tuệ số 50/2005/QH11 (đã sửa đổi theo Luật 36/2009/QH12, 42/2019/QH14, 07/2022/QH15); khoản 1 và khoản 2 Điều 72 quy định có hiệu lực từ 01/10/2025 (riêng các Điều 15, 61, 62, 63, 64, 65 và 66 có hiệu lực từ 01/07/2025); khoản 3 Điều 72 làm hết hiệu lực Luật Khoa học và công nghệ số 29/2013/QH13",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "ghi_chu": "Xác minh nguồn bậc A (OZV-561) — đã bổ sung trang văn bản riêng trên vanban.chinhphu.vn (docid=214603) và toàn văn bản ký số 93qh.signed.pdf. Khoản 7 Điều 71 là lần sửa đổi, bổ sung thứ tư đối với Luật Sở hữu trí tuệ số 50/2005/QH11 (về quyền đăng ký sáng chế, kiểu dáng công nghiệp, thiết kế bố trí và giống cây trồng từ nhiệm vụ KH&CN sử dụng ngân sách nhà nước, hợp nhất tại 155/VBHN-VPQH). Ngoài ra các khoản 1–6, 8, 9 Điều 71 còn sửa đổi một số điều của các luật ngoài phạm vi sổ hải quan (Luật Công nghệ cao, Luật Chuyển giao công nghệ, Luật Thuế TNCN, Luật Đất đai, Luật Báo chí, Luật Xây dựng, Luật Nhà ở) và bãi bỏ các Điều 3–9 Nghị quyết 193/2025/QH15.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/93-2025-qh15.pdf",
       "tu_khoa": [
         "so-huu-tri-tue",
         "shtt",

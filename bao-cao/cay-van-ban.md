@@ -2254,11 +2254,12 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Danh mục hàng hoá XNK Việt Nam `phan-loai-hs/danh-muc`
 
-4 văn bản, 2 chưa hết hiệu lực.
+5 văn bản, 2 chưa hết hiệu lực.
 
 - 🟢 [19/2024/TT-BYT](../registry/van-ban/19-2024-tt-byt.yaml) — Ban hành Danh mục thiết bị y tế xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam
 - 🟢 [31/2022/TT-BTC](../registry/van-ban/31-2022-tt-btc.yaml) — Ban hành Danh mục hàng hoá xuất khẩu, nhập khẩu Việt Nam
 - ⚫ [09/2019/TT-BTC](../registry/van-ban/09-2019-tt-btc.yaml) — Sửa đổi, bổ sung một số nội dung tại các Phụ lục của Thông tư số 65/2017/TT-BTC ngày 27 tháng 6 năm 2017 của Bộ trưởng Bộ Tài chính ban hành Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam _(hết hiệu lực 2022-12-01)_
+- ⚫ [14/2018/TT-BYT](../registry/van-ban/14-2018-tt-byt.yaml) — Ban hành Danh mục trang thiết bị y tế được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam _(hết hiệu lực 2024-11-16)_
 - ⚫ [65/2017/TT-BTC](../registry/van-ban/65-2017-tt-btc.yaml) — Ban hành Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam _(hết hiệu lực 2022-12-01)_
 
 ### Phân loại, phân tích để phân loại, xác định trước mã số `phan-loai-hs/quy-trinh-phan-loai`
@@ -2598,6 +2599,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [32/2020/TT-BYT](../registry/van-ban/32-2020-tt-byt.yaml) — Quy định tiêu chuẩn chế biến, bào chế thuốc cổ truyền trong cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền
 - ⚫ [48/2018/TT-BYT](../registry/van-ban/48-2018-tt-byt.yaml) — Ban hành Danh mục dược liệu; các chất chiết xuất từ dược liệu, tinh dầu làm thuốc; thuốc cổ truyền, thuốc dược liệu xuất khẩu, nhập khẩu được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam _(hết hiệu lực 2024-07-26)_
 - ⚫ [28/2018/QH14](../registry/van-ban/28-2018-qh14.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Dược 2018 (đã hợp nhất) _(hết hiệu lực 2026-03-01)_
+- ⚫ [14/2018/TT-BYT](../registry/van-ban/14-2018-tt-byt.yaml) — Ban hành Danh mục trang thiết bị y tế được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam _(hết hiệu lực 2024-11-16)_
 - ⚫ [73/2018/NĐ-CP](../registry/van-ban/73-2018-nd-cp.yaml) — Quy định các danh mục chất ma túy và tiền chất _(hết hiệu lực 2022-08-25)_
 - ⚫ [09/2018/TT-BYT](../registry/van-ban/09-2018-tt-byt.yaml) — Ban hành Danh mục hóa chất, chế phẩm diệt côn trùng, diệt khuẩn dùng trong gia dụng và y tế thuộc lĩnh vực quản lý nhà nước của Bộ Y tế được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam _(hết hiệu lực 2024-11-15)_
 - ⚫ [06/2018/TT-BYT](../registry/van-ban/06-2018-tt-byt.yaml) — Ban hành Danh mục thuốc, nguyên liệu làm thuốc dùng cho người và mỹ phẩm xuất khẩu, nhập khẩu được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam _(hết hiệu lực 2024-07-26)_
@@ -2611,7 +2613,6 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [06/2011/TT-BYT](../registry/van-ban/06-2011-tt-byt.yaml) — Quy định về quản lý mỹ phẩm
 - ⚫ [34/2005/QH11](../registry/van-ban/34-2005-qh11.yaml) — Luật Dược 2005 (bản gốc, đã hết hiệu lực) _(hết hiệu lực 2017-01-01)_
 - 🟢 [05/2022/TT-BYT](../registry/van-ban/05-2022-tt-byt.yaml) — Thông tư về thiết bị y tế (được TT 24/2026/TT-BYT sửa đổi)
-- ⚫ [14/2018/TT-BYT](../registry/van-ban/14-2018-tt-byt.yaml) — Danh mục thiết bị y tế xuất khẩu, nhập khẩu _(hết hiệu lực 2024-11-16)_
 - 🟢 [2393/QĐ-BYT](../registry/van-ban/2393-qd-byt-2025.yaml) — Công bố danh mục thủ tục hành chính sửa đổi, bổ sung trong lĩnh vực quản lý mỹ phẩm theo TT 34/2025/TT-BYT
 - ❔ [59/2025/TT-BYT](../registry/van-ban/59-2025-tt-byt.yaml) — TT 59/2025/TT-BYT (bị bãi bởi 24/2026)
 - 🟢 [7866/QĐ-BYT](../registry/van-ban/7866-qd-byt.yaml) — Công bố danh mục thủ tục hành chính trong lĩnh vực quản lý mỹ phẩm

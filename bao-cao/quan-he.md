@@ -147,7 +147,7 @@ flowchart LR
   n_65_2023_N__CP -->|thay thế từ 2023-08-23| n_103_2006_N__CP
   n_81_2019_TT_BTC -->|bãi bỏ Quyết định ban hành quy định quản lý rủi ro trong hoạt động nghiệp vụ hải quan từ 2021-01-01| n_464_Q__BTC
   n_81_2019_TT_BTC -->|bãi bỏ Bộ tiêu chí quản lý rủi ro trong hoạt động nghiệp vụ hải quan từ 2021-01-01| n_465_Q__BTC
-  n_93_2025_QH15 -->|sửa đổi từ 2025-10-01| n_50_2005_QH11
+  n_93_2025_QH15 -->|sửa đổi Sửa đổi, bổ sung điểm b khoản 1 Điều 86, khoản 1 và khoản 3 Điều 135, điểm b khoản 2 Điều 164, câu mở đầu và điểm a khoản 1 cùng khoản 3 Điều 191; bỏ cụm từ ", Điều 86a" tại khoản 3 Điều 60, khoản 4 Điều 65 và khoản 2 Điều 71; bãi bỏ các Điều 86a, 133a, khoản 2 Điều 135, Điều 136a, khoản 6 Điều 139, khoản 3 và khoản 4 Điều 164, khoản 2 Điều 191, Điều 191a, Điều 191b, khoản 4 Điều 194 của Luật Sở hữu trí tuệ số 50/2005/QH11 từ 2025-10-01| n_50_2005_QH11
 ```
 
 ## Kiểm tra chuyên ngành (chất lượng, ATTP, kiểm dịch)
@@ -272,7 +272,7 @@ flowchart LR
   n_03_2024_TT_BNNPTNT -->|bãi bỏ một số quy định từ 2024-05-16| n_34_2018_TT_BNNPTNT
   n_04_2014_TT_BCT -->|bãi bỏ từ 2018-06-15| n_12_2018_TT_BCT
   n_05_2007_QH12 -->|sửa đổi| n_78_2025_QH15
-  n_09_2015_TT_BYT -->|sửa đổi| n_06_2011_TT_BYT
+  n_09_2015_TT_BYT -->|sửa đổi Bãi bỏ các quy định về quảng cáo mỹ phẩm trong Thông tư số 06/2011/TT-BYT ngày 25/01/2011 từ 2015-07-16| n_06_2011_TT_BYT
   n_09_2024_TT_BYT -->|bãi bỏ từ 2024-07-26| n_06_2018_TT_BYT
   n_09_2024_TT_BYT -->|bãi bỏ từ 2024-07-26| n_48_2018_TT_BYT
   n_09_2024_TT_BYT -->|bãi bỏ từ 2024-07-26| n_03_2021_TT_BYT
@@ -317,7 +317,7 @@ flowchart LR
   n_28_2026_N__CP -->|thay thế từ 2026-01-19| n_57_2022_N__CP
   n_28_2026_N__CP -->|thay thế từ 2026-01-19| n_90_2024_N__CP
   n_28_2026_TT_BCT -->|bãi bỏ Khoản 1 Điều 2 và Phụ lục 2 (danh mục ATTP) từ 2026-07-17| n_1182_Q__BCT
-  n_29_2020_TT_BYT -->|sửa đổi| n_06_2011_TT_BYT
+  n_29_2020_TT_BYT -->|sửa đổi Sửa đổi, bổ sung khoản 4 Điều 4 (miễn CFS cho nước thành viên CPTPP và ASEAN, hợp pháp hóa lãnh sự/tra cứu điện tử CFS đối với mỹ phẩm nhập khẩu), Phụ lục số 01-MP và Điều 33 (hồ sơ, thủ tục cấp CFS đối với mỹ phẩm sản xuất trong nước để xuất khẩu theo Điều 11 Nghị định 69/2018/NĐ-CP) từ 2021-02-15| n_06_2011_TT_BYT
   n_29_2025_TT_BKHCN -->|thay thế từ 2025-12-31| n_02_2024_TT_BTTTT
   n_32_2026_TT_BYT -->|thay thế các quy định về đăng ký lưu hành thuốc, nguyên liệu làm thuốc từ 2026-10-01| n_12_2025_TT_BYT
   n_33_2026_TT_BCT -->|thay thế| n_41_2023_TT_BCT
