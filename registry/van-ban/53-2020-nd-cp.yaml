@@ -16,13 +16,8 @@ nguon:
     truy_cap: '2026-11-06'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Đã đối chiếu trực tiếp vanban.chinhphu.vn: số hiệu, tên (Quy định phí bảo vệ môi trường đối với nước thải), cơ quan Chính phủ, ngày ban hành 05/05/2020, ngày hiệu lực 01/07/2020. Tình trạng hết hiệu lực từ 01/01/2026 và việc bị thay thế bởi NĐ 346/2025/NĐ-CP (29/12/2025, HL 01/01/2026) lấy từ TVPL Q&A + luatvietnam + bài cáo 346/2025 trên vanban (docid 216402) — chưa đối chiếu CSDL hợp nhất quốc gia. Được sửa trước đó bởi NĐ 05/2025/NĐ-CP (nguồn TVPL Q&A, chưa kiểm chứng riêng).'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-06'
-  boi: zcode@ozvietnam
-quan_he:
-  thay_the:
-    - so_hieu: 346/2025/NĐ-CP
-      pham_vi: toàn bộ
-      can_cu: 'vanban.chinhphu.vn đăng NĐ 346/2025/NĐ-CP ngày 29/12/2025 (docid 216402, HL 01/01/2026) cùng trích yếu trùng lĩnh vực; TVPL Q&A "NĐ 53/2020 còn hiệu lực không?" và luatvietnam xác nhận 346/2025 thay thế 53/2020 từ 01/01/2026.'
-ghi_chu: 'Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Liên quan XNK gián tiếp: phí môi trường nước thải mà cơ sở sản xuất/gia công hàng XNK tại VN phải nộp; không điều chỉnh trực tiếp thủ tục hay chế độ hàng hóa XNK.'
+  pham_vi: 'Đã đối chiếu trực tiếp vanban.chinhphu.vn: số hiệu, tên (Quy định phí bảo vệ môi trường đối với nước thải), cơ quan Chính phủ, ngày ban hành 05/05/2020, ngày hiệu lực 01/07/2020. Tình trạng hết hiệu lực toàn bộ từ 01/01/2026 đối chiếu trực tiếp Điều 10 khoản 1 Nghị định 346/2025/NĐ-CP ngày 29/12/2025 (vanban.chinhphu.vn docid 216402, bản ký số 346-ndcp.signed.pdf).'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-12'
+  boi: bo-ba-01@ozvietnam
+ghi_chu: 'Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11; bị thay thế toàn bộ bởi Nghị định 346/2025/NĐ-CP từ 01/01/2026 (quan hệ thay_the khai ở phiếu 346/2025/NĐ-CP theo đúng chiều văn bản mới thay văn bản cũ). Liên quan XNK gián tiếp: phí môi trường nước thải mà cơ sở sản xuất/gia công hàng XNK tại VN phải nộp; không điều chỉnh trực tiếp thủ tục hay chế độ hàng hóa XNK.'

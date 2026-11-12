@@ -1,0 +1,29 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 346/2025/NĐ-CP
+loai: NGHI_DINH
+ten: Quy định phí bảo vệ môi trường đối với nước thải
+co_quan: CP
+ngay_ban_hanh: '2025-12-29'
+hieu_luc_tu: '2026-01-01'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - thue
+quan_he:
+  thay_the:
+    - so_hieu: 53/2020/NĐ-CP
+      tu_ngay: '2026-01-01'
+      pham_vi: toàn bộ
+      can_cu: Điều 10 khoản 1 Nghị định 346/2025/NĐ-CP
+nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=216402
+    truy_cap: '2026-11-12'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/346-ndcp.signed.pdf
+    truy_cap: '2026-11-12'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đã đối chiếu toàn văn bản ký số 10 trang trên vanban.chinhphu.vn (docid=216402, Phó Thủ tướng Hồ Đức Phớc ký): số hiệu, tên, ngày ban hành 29/12/2025, Điều 10 khoản 1 hiệu lực từ 01/01/2026 và thay thế toàn bộ Nghị định 53/2020/NĐ-CP ngày 05/05/2020'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-12'
+  boi: bo-ba-01@ozvietnam
+ghi_chu: Nạp từ điểm mù CAO (OZV-556) — thay thế Nghị định 53/2020/NĐ-CP từ 01/01/2026; đồng thời chỉnh lại chiều quan hệ thay_the từ 53-2020-nd-cp.yaml sang 346-2025-nd-cp.yaml.
+toan_van: raw/download/datafiles.chinhphu.vn/346-2025-nd-cp.pdf
