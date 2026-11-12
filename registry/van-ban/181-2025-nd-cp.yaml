@@ -1,23 +1,39 @@
-# Sổ đăng ký văn bản — crawl từ vanban.chinhphu.vn (sheet HT biểu thuế)
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 181/2025/NĐ-CP
 loai: NGHI_DINH
-ten: Biểu thuế VAT
+ten: Quy định chi tiết thi hành một số điều của Luật Thuế giá trị gia tăng
 co_quan: CP
-ngay_ban_hanh: '2025-01-01'
+ngay_ban_hanh: '2025-07-01'
 hieu_luc_tu: '2025-07-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/bieu-thue
+nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-181-2025-nd-cp-45379.htm
+    truy_cap: '2026-11-12'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/7/45379/57344-1-2025899-900181-2025-nd-cp.pdf
+    truy_cap: '2026-11-12'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/7/45379/57347-1-2025901-902181-2025-nd-cp.pdf
+    truy_cap: '2026-11-12'
+  - url: https://vanban.chinhphu.vn/default.aspx?docid=214336&pageid=27160
+    truy_cap: '2026-11-12'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/181nd.signed.pdf
+    truy_cap: '2026-11-12'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=216388
+    truy_cap: '2026-11-12'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/359-nd.signed.pdf
+    truy_cap: '2026-11-12'
+  - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-359-2025-nd-cp-468511.htm
+    truy_cap: '2026-11-12'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=218020
+    truy_cap: '2026-11-12'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/144-ndcp.signed.pdf
+    truy_cap: '2026-11-12'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
-  ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
-nguon:
-  - url: https://vanban.chinhphu.vn/default.aspx?docid=214336&pageid=27160
-    truy_cap: '2026-10-10'
-  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/181nd.signed.pdf
-    truy_cap: '2026-10-10'
+  pham_vi: 'PDF ký số 181nd.signed.pdf trên vanban.chinhphu.vn (docid=214336) và PDF Công báo số 899+900, 901+902 ngày 16-07-2025 (có lớp chữ): số hiệu 181/2025/NĐ-CP, trích yếu "Quy định chi tiết thi hành một số điều của Luật Thuế giá trị gia tăng" (hướng dẫn Luật Thuế GTGT số 48/2024/QH15), ngày ký 01-07-2025, người ký Phó Thủ tướng Hồ Đức Phớc. Cấu trúc 4 Chương / 40 Điều / 5 Phụ lục (Phụ lục I: Danh mục tài nguyên, khoáng sản khai thác chưa chế biến thành sản phẩm khác; Phụ lục II: Danh mục tài nguyên, khoáng sản khai thác đã chế biến thành sản phẩm khác; Phụ lục III: Bảng kê hàng hóa bán cho khách xuất cảnh; Phụ lục IV: Hoàn thuế đối với hàng hóa mua tại VN mang theo khi xuất cảnh; Phụ lục V: Xác định tỷ trọng trị giá tài nguyên, khoáng sản và chi phí năng lượng trên giá thành sản phẩm). Chương I (Đ1–5) Quy định chung & Đối tượng không chịu thuế; Chương II (Đ6–22) Căn cứ và phương pháp tính thuế; Chương III (Đ23–37) Khấu trừ, hoàn thuế; Chương IV (Đ38–40) Điều khoản thi hành. Điều 38 (Hiệu lực thi hành): khoản 1 có hiệu lực từ 01-07-2025; khoản 2 thay thế NĐ 209/2013/NĐ-CP (điểm a), NĐ 49/2022/NĐ-CP (điểm b), và thay thế quy định xác định sản phẩm có tổng giá trị tài nguyên, khoáng sản cộng chi phí năng lượng chiếm từ 51% giá thành sản phẩm trở lên tại điểm a khoản 1 Điều 11, khoản 2 Điều 15 NĐ 134/2016/NĐ-CP (đã sửa đổi tại NĐ 18/2021/NĐ-CP) và điểm b khoản 2 Điều 4, Mẫu số 14 Phụ lục II NĐ 26/2023/NĐ-CP bằng Phụ lục V kèm theo NĐ 181/2025/NĐ-CP (điểm c); khoản 3 bãi bỏ Điều 2 NĐ 91/2014/NĐ-CP, Điều 3 NĐ 12/2015/NĐ-CP, Điều 1 NĐ 100/2016/NĐ-CP, Điều 1 NĐ 146/2017/NĐ-CP. Điều 39 quy định chuyển tiếp (khoản 1–3). Đối chiếu tình trạng hiện tại ngày 2026-11-12 trên congbao.chinhphu.vn và vanban.chinhphu.vn: NĐ 181/2025/NĐ-CP đang CON_HIEU_LUC, đã được sửa đổi, bổ sung một phần bởi 2 Nghị định: (1) NĐ 359/2025/NĐ-CP ngày 31-12-2025 (hiệu lực 01-01-2026, docid=216388): bổ sung khoản 1b sau khoản 1 Điều 4, bãi bỏ khoản 3 Điều 37 và khoản 3 Điều 39; (2) NĐ 144/2026/NĐ-CP ngày 05-05-2026 (hiệu lực 20-06-2026, docid=218020): sửa đổi, bổ sung một số khoản tại Điều 4, Điều 9, Điều 23, Điều 26 và tại Điều 5 thay thế Danh mục (Phụ lục I, Phụ lục II) kèm theo NĐ 181/2025/NĐ-CP bằng Danh mục (Phụ lục I, Phụ lục II) kèm theo NĐ 144/2026/NĐ-CP.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-12'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Đã sửa tên văn bản và ngày ban hành từ bản ghi crawl sơ bộ ("Biểu thuế VAT", 2025-01-01) về đúng nguyên bản ký số (01-07-2025). Các văn bản bị thay thế/bãi bỏ tại khoản 2, khoản 3 Điều 38 (209/2013/NĐ-CP, 49/2022/NĐ-CP, 91/2014/NĐ-CP, 12/2015/NĐ-CP, 100/2016/NĐ-CP, 146/2017/NĐ-CP) và hai Nghị định sửa đổi, bổ sung sau (359/2025/NĐ-CP ngày 31-12-2025; 144/2026/NĐ-CP ngày 05-05-2026 — trong đó Điều 5 thay thế Phụ lục I và Phụ lục II của NĐ 181/2025/NĐ-CP từ 20-06-2026) được ghi nhận đầy đủ tại pham_vi kèm URL nguồn A, chưa đưa vào quan_he vì các văn bản đó chưa mở mục riêng trong sổ.'
 toan_van: raw/download/datafiles.chinhphu.vn/181-2025-nd-cp.pdf
