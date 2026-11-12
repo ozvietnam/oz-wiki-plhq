@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-12",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2479,
+  "tong": 2492,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -1599,6 +1599,50 @@
       },
       "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #397). Liên quan biểu thuế XNK lịch sử (năm 2015): bãi bỏ Thông tư 06/2015/TT-BTC ngày 20-01-2015 về thuế suất nhập khẩu ưu đãi mặt hàng xăng, dầu nhóm 27.10 và khôi phục mức thuế tại Thông tư 03/2015/TT-BTC. Đã hết hiệu lực từ 01-01-2016.",
       "slug": "07-2015-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "07/2020/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Tự do ASEAN - Hồng Kông, Trung Quốc giai đoạn 2019 - 2022",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2020-01-05",
+      "hieu_luc_tu": "2020-02-20",
+      "het_hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue",
+        "thue/bieu-thue-xnk"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=198806",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/01/07-1.signed.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207162&pageid=27160",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/123-nd.signed.pdf",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu tên, ngày ban hành (05/01/2020), ngày hiệu lực (20/02/2020) và tình trạng hết hiệu lực từ ngày 30/12/2022 (bị thay thế bởi Nghị định 123/2022/NĐ-CP ngày 30/12/2022) trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn, datafiles.chinhphu.vn).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Hết hiệu lực từ ngày 30/12/2022; bị thay thế bởi Nghị định 123/2022/NĐ-CP ngày 30/12/2022 của Chính phủ ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do ASEAN - Hồng Kông, Trung Quốc giai đoạn 2022 - 2027 (nguồn A: https://vanban.chinhphu.vn/default.aspx?docid=207162&pageid=27160, https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/123-nd.signed.pdf).\n",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/07-2020-nd-cp.pdf",
+      "slug": "07-2020-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -6651,6 +6695,51 @@
       },
       "ghi_chu": "Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Liên quan XNK: KHÔNG — NĐ về tổ chức đào tạo thực hành khối ngành sức khỏe, ngoài phạm vi hàng hóa XNK; nạp để xác nhận miss/khách tra nhầm số hiệu (cảnh báo cho kho). Không gắn nhánh.",
       "slug": "111-2017-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "111/2020/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu giai đoạn 2020 - 2022",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2020-09-18",
+      "hieu_luc_tu": "2020-09-18",
+      "het_hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue",
+        "xuat-xu-fta/hiep-dinh/vcfeta",
+        "thue/bieu-thue-xnk"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-111-2020-nd-cp-32112.htm",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2020/9/32112/32634-1-2020905-906111-2020-nd-cp.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207169&pageid=27160",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/116-nd.signed.pdf",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu tên, ngày ban hành và hiệu lực (18/09/2020), tình trạng hết hiệu lực từ ngày 30/12/2022 (bị thay thế bởi Nghị định 116/2022/NĐ-CP ngày 30/12/2022) trên Công báo Chính phủ (congbao.chinhphu.vn, số 905+906) và Cổng TTĐT Chính phủ (vanban.chinhphu.vn).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Hết hiệu lực từ ngày 30/12/2022; bị thay thế bởi Nghị định 116/2022/NĐ-CP ngày 30/12/2022 của Chính phủ ban hành Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu giai đoạn 2022 - 2027 (nguồn A: https://vanban.chinhphu.vn/default.aspx?docid=207169&pageid=27160, https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/116-nd.signed.pdf).\n",
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/111-2020-nd-cp.pdf",
+      "slug": "111-2020-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -11857,6 +11946,50 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "127/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa dân chủ nhân dân Lào từ ngày 30 tháng 12 năm 2022 đến ngày 04 tháng 10 năm 2023",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-12-30",
+      "hieu_luc_tu": "2022-12-30",
+      "het_hieu_luc_tu": "2023-10-04",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue",
+        "thue/bieu-thue-xnk"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-127-2022-nd-cp-38461.htm",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/12/38461/42833-1-202319-20127-2022-nd-cp.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=214630&pageid=27160",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/206-cp.signed.pdf",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu tên, ngày ban hành (30/12/2022), thời hạn áp dụng (30/12/2022 đến 04/10/2023) và điều khoản bãi bỏ toàn bộ (khoản 3 Điều 9 Nghị định 206/2025/NĐ-CP ngày 15/07/2025) trên Công báo Chính phủ (congbao.chinhphu.vn, số 19+20) và Cổng TTĐT Chính phủ (vanban.chinhphu.vn).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Có hiệu lực từ ngày 30/12/2022 đến ngày 04/10/2023 theo Điều 9 Nghị định 127/2022/NĐ-CP (thay thế Nghị định 115/2022/NĐ-CP ngày 30/12/2022 chưa nạp vào sổ); bị bãi bỏ toàn bộ theo khoản 3 Điều 9 Nghị định 206/2025/NĐ-CP ngày 15/07/2025 của Chính phủ quy định Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa Dân chủ Nhân dân Lào từ ngày 15/07/2025 đến ngày 24/02/2030 (nguồn A: https://vanban.chinhphu.vn/default.aspx?docid=214630&pageid=27160, https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/206-cp.signed.pdf).\n",
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/127-2022-nd-cp.pdf",
+      "slug": "127-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "127/2026/TT-BTC",
       "loai": "THONG_TU",
       "ten": "Quy định về chỉ tiêu thông tin, mẫu chứng từ khai báo khi làm thủ tục xuất cảnh, nhập cảnh, quá cảnh đối với phương tiện vận tải qua cửa khẩu, cảng hàng không quốc tế",
@@ -15543,6 +15676,51 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "149/2017/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do Việt Nam - Hàn Quốc giai đoạn 2018 - 2022",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2017-12-26",
+      "hieu_luc_tu": "2018-01-01",
+      "het_hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue",
+        "xuat-xu-fta/hiep-dinh/vcfeta",
+        "thue/bieu-thue-xnk"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=192392",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/01/149.signed.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207160&pageid=27160",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/125-nd.signed.pdf",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu tên, ngày ban hành (26/12/2017), ngày hiệu lực (01/01/2018, thay thế Nghị định 131/2016/NĐ-CP ngày 01/09/2016) và tình trạng hết hiệu lực từ ngày 30/12/2022 (bị thay thế bởi Nghị định 125/2022/NĐ-CP ngày 30/12/2022) trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn, datafiles.chinhphu.vn).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Hết hiệu lực từ ngày 30/12/2022; bị thay thế bởi Nghị định 125/2022/NĐ-CP ngày 30/12/2022 của Chính phủ ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do Việt Nam - Hàn Quốc giai đoạn 2022 - 2027 (nguồn A: https://vanban.chinhphu.vn/default.aspx?docid=207160&pageid=27160, https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/125-nd.signed.pdf). Khi có hiệu lực từ ngày 01/01/2018, Nghị định 149/2017/NĐ-CP thay thế Nghị định 131/2016/NĐ-CP ngày 01/09/2016 (chưa nạp vào sổ).\n",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/149-2017-nd-cp.pdf",
+      "slug": "149-2017-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "149/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -16019,6 +16197,50 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "150/2017/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa một bên là Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam và bên kia là Liên minh Kinh tế Á - Âu và các nước thành viên giai đoạn 2018 - 2022",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2017-12-26",
+      "hieu_luc_tu": "2018-01-01",
+      "het_hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue",
+        "thue/bieu-thue-xnk"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=192500",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/01/150-1.signed.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207172&pageid=27160",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/113-nd.signed.pdf",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu tên, ngày ban hành (26/12/2017), ngày hiệu lực (01/01/2018, thay thế Nghị định 137/2016/NĐ-CP ngày 29/09/2016) và tình trạng hết hiệu lực từ ngày 30/12/2022 (bị thay thế bởi Nghị định 113/2022/NĐ-CP ngày 30/12/2022) trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn, datafiles.chinhphu.vn).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Hết hiệu lực từ ngày 30/12/2022; bị thay thế bởi Nghị định 113/2022/NĐ-CP ngày 30/12/2022 của Chính phủ ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa một bên là Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam và bên kia là Liên minh Kinh tế Á - Âu và các nước thành viên giai đoạn 2022 - 2027 (nguồn A: https://vanban.chinhphu.vn/default.aspx?docid=207172&pageid=27160, https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/113-nd.signed.pdf). Khi có hiệu lực từ ngày 01/01/2018, Nghị định 150/2017/NĐ-CP thay thế Nghị định 137/2016/NĐ-CP ngày 29/09/2016 (chưa nạp vào sổ).\n",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/150-2017-nd-cp.pdf",
+      "slug": "150-2017-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "1500/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -16250,6 +16472,50 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "153/2017/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại hàng hóa ASEAN - Trung Quốc giai đoạn 2018 - 2022",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2017-12-27",
+      "hieu_luc_tu": "2018-01-01",
+      "het_hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue",
+        "thue/bieu-thue-xnk"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=192484",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/01/153-1.signed.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207167&pageid=27160",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/118-nd.signed.pdf",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu tên, ngày ban hành (27/12/2017), ngày hiệu lực (01/01/2018, thay thế Nghị định 128/2016/NĐ-CP ngày 01/09/2016) và tình trạng hết hiệu lực từ ngày 30/12/2022 (bị thay thế bởi Nghị định 118/2022/NĐ-CP ngày 30/12/2022) trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn, datafiles.chinhphu.vn).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Hết hiệu lực từ ngày 30/12/2022; bị thay thế bởi Nghị định 118/2022/NĐ-CP ngày 30/12/2022 của Chính phủ ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Hàng hóa ASEAN - Trung Quốc giai đoạn 2022 - 2027 (nguồn A: https://vanban.chinhphu.vn/default.aspx?docid=207167&pageid=27160, https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/118-nd.signed.pdf). Khi có hiệu lực từ ngày 01/01/2018, Nghị định 153/2017/NĐ-CP thay thế Nghị định 128/2016/NĐ-CP ngày 01/09/2016 (chưa nạp vào sổ).\n",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/153-2017-nd-cp.pdf",
+      "slug": "153-2017-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "1536/QĐ-BYT",
       "loai": "QUYET_DINH",
       "ten": "Công bố danh mục thủ tục hành chính sửa đổi trong lĩnh vực quản lý mỹ phẩm",
@@ -16275,6 +16541,47 @@
       "ghi_chu": "Bản sửa TTHC mỹ phẩm mới nhất (28-05-2026).",
       "slug": "1536-qd-byt-2026",
       "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "154/2017/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Việt Nam và Chi Lê giai đoạn 2018 - 2022",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2017-12-27",
+      "hieu_luc_tu": "2018-01-01",
+      "het_hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue",
+        "xuat-xu-fta/hiep-dinh/chile",
+        "thue/bieu-thue-xnk"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=192495",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/01/154-1.signed.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/112nd.signed.pdf",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu tên, ngày ban hành (27/12/2017), ngày hiệu lực (01/01/2018, thay thế Nghị định 132/2016/NĐ-CP ngày 01/09/2016) và tình trạng hết hiệu lực từ ngày 30/12/2022 (bị thay thế bởi Nghị định 112/2022/NĐ-CP ngày 30/12/2022) trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn, datafiles.chinhphu.vn).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Hết hiệu lực từ ngày 30/12/2022; bị thay thế bởi Nghị định 112/2022/NĐ-CP ngày 30/12/2022 của Chính phủ ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do Việt Nam - Chi Lê giai đoạn 2022 - 2027 (nguồn A: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/112nd.signed.pdf). Khi có hiệu lực từ ngày 01/01/2018, Nghị định 154/2017/NĐ-CP thay thế Nghị định 132/2016/NĐ-CP ngày 01/09/2016 (chưa nạp vào sổ).\n",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/154-2017-nd-cp.pdf",
+      "slug": "154-2017-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -16476,6 +16783,50 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "155/2017/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Nhật Bản về Đối tác kinh tế giai đoạn 2018 - 2023",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2017-12-27",
+      "hieu_luc_tu": "2018-01-01",
+      "het_hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue",
+        "thue/bieu-thue-xnk"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-155-2017-nd-cp-25656.htm",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2017/12/25656/20950-1-2018233-234155-2017-nd-cp.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207161&pageid=27160",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/124-nd.signed.pdf",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu tên, ngày ban hành (27/12/2017), ngày hiệu lực (01/01/2018, thay thế Nghị định 125/2016/NĐ-CP ngày 01/09/2016) và tình trạng hết hiệu lực từ ngày 30/12/2022 (bị thay thế bởi Nghị định 124/2022/NĐ-CP ngày 30/12/2022) trên Công báo Chính phủ (congbao.chinhphu.vn, số 233+234) và Cổng TTĐT Chính phủ (vanban.chinhphu.vn).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Hết hiệu lực từ ngày 30/12/2022; bị thay thế bởi Nghị định 124/2022/NĐ-CP ngày 30/12/2022 của Chính phủ ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Nhật Bản về Đối tác kinh tế giai đoạn 2022 - 2028 (nguồn A: https://vanban.chinhphu.vn/default.aspx?docid=207161&pageid=27160, https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/124-nd.signed.pdf). Khi có hiệu lực từ ngày 01/01/2018, Nghị định 155/2017/NĐ-CP thay thế Nghị định 125/2016/NĐ-CP ngày 01/09/2016 (chưa nạp vào sổ).\n",
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/155-2017-nd-cp.pdf",
+      "slug": "155-2017-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "155/2018/NĐ-CP",
@@ -16838,6 +17189,50 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "156/2017/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Hàng hóa ASEAN giai đoạn 2018 - 2022",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2017-12-27",
+      "hieu_luc_tu": "2018-01-01",
+      "het_hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue",
+        "thue/bieu-thue-xnk"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-156-2017-nd-cp-25689/21023.htm",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2017/12/25689/21017-1-2018267-268156-2017-nd-cp.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207159&pageid=27160",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/126-nd.signed.pdf",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu tên, ngày ban hành (27/12/2017), ngày hiệu lực (01/01/2018, thay thế Nghị định 129/2016/NĐ-CP ngày 01/09/2016) và tình trạng hết hiệu lực từ ngày 30/12/2022 (bị thay thế bởi Nghị định 126/2022/NĐ-CP ngày 30/12/2022) trên Công báo Chính phủ (congbao.chinhphu.vn, số 267+268) và Cổng TTĐT Chính phủ (vanban.chinhphu.vn).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Hết hiệu lực từ ngày 30/12/2022; bị thay thế bởi Nghị định 126/2022/NĐ-CP ngày 30/12/2022 của Chính phủ ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Hàng hóa ASEAN giai đoạn 2022 - 2027 (nguồn A: https://vanban.chinhphu.vn/default.aspx?docid=207159&pageid=27160, https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/126-nd.signed.pdf). Khi có hiệu lực từ ngày 01/01/2018, Nghị định 156/2017/NĐ-CP thay thế Nghị định 129/2016/NĐ-CP ngày 01/09/2016 (chưa nạp vào sổ).\n",
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/156-2017-nd-cp.pdf",
+      "slug": "156-2017-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "1560/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -16958,6 +17353,50 @@
       "toan_van": "chua_co",
       "slug": "15674-tb-chq-2025",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "157/2017/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc giai đoạn 2018 - 2022",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2017-12-27",
+      "hieu_luc_tu": "2018-01-01",
+      "het_hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue",
+        "thue/bieu-thue-xnk"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-157-2017-nd-cp-25474/20558.htm",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2017/12/25474/20553-1-201869-70157-2017-nd-cp.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207166&pageid=27160",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/119-nd.signed.pdf",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu tên, ngày ban hành (27/12/2017), ngày hiệu lực (01/01/2018, thay thế Nghị định 130/2016/NĐ-CP ngày 01/09/2016) và tình trạng hết hiệu lực từ ngày 30/12/2022 (bị thay thế bởi Nghị định 119/2022/NĐ-CP ngày 30/12/2022) trên Công báo Chính phủ (congbao.chinhphu.vn, số 69+70) và Cổng TTĐT Chính phủ (vanban.chinhphu.vn).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Hết hiệu lực từ ngày 30/12/2022; bị thay thế bởi Nghị định 119/2022/NĐ-CP ngày 30/12/2022 của Chính phủ ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc giai đoạn 2022 - 2027 (nguồn A: https://vanban.chinhphu.vn/default.aspx?docid=207166&pageid=27160, https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/119-nd.signed.pdf). Khi có hiệu lực từ ngày 01/01/2018, Nghị định 157/2017/NĐ-CP thay thế Nghị định 130/2016/NĐ-CP ngày 01/09/2016 (chưa nạp vào sổ).\n",
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/157-2017-nd-cp.pdf",
+      "slug": "157-2017-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -17143,6 +17582,94 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "158/2017/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thành lập Khu vực Thương mại tự do ASEAN - Ôt-xtrây-lia - Niu Di-lân giai đoạn 2018 - 2022",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2017-12-27",
+      "hieu_luc_tu": "2018-01-01",
+      "het_hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue",
+        "thue/bieu-thue-xnk"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-158-2017-nd-cp-25574.htm",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2017/12/25574/20791-1-2018183-184158-2017-nd-cp.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207164&pageid=27160",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/121nd.signed.pdf",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu tên, ngày ban hành (27/12/2017), ngày hiệu lực (01/01/2018, thay thế Nghị định 127/2016/NĐ-CP ngày 01/09/2016) và tình trạng hết hiệu lực từ ngày 30/12/2022 (bị thay thế bởi Nghị định 121/2022/NĐ-CP ngày 30/12/2022) trên Công báo Chính phủ (congbao.chinhphu.vn, số 183+184) và Cổng TTĐT Chính phủ (vanban.chinhphu.vn).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Hết hiệu lực từ ngày 30/12/2022; bị thay thế bởi Nghị định 121/2022/NĐ-CP ngày 30/12/2022 của Chính phủ ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thành lập Khu vực Thương mại tự do ASEAN - Ôt-xtrây-lia - Niu Di-lân giai đoạn 2022 - 2027 (nguồn A: https://vanban.chinhphu.vn/default.aspx?docid=207164&pageid=27160, https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/121nd.signed.pdf). Khi có hiệu lực từ ngày 01/01/2018, Nghị định 158/2017/NĐ-CP thay thế Nghị định 127/2016/NĐ-CP ngày 01/09/2016 (chưa nạp vào sổ).\n",
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/158-2017-nd-cp.pdf",
+      "slug": "158-2017-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "159/2017/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại hàng hóa ASEAN - Ấn Độ giai đoạn 2018 - 2022",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2017-12-27",
+      "hieu_luc_tu": "2018-01-01",
+      "het_hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue",
+        "thue/bieu-thue-xnk"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-159-2017-nd-cp-25760/21138.htm",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2017/12/25760/21124-1-2018299-300159-2017-nd-cp.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207163&pageid=27160",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/122-nd.signed.pdf",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu tên, ngày ban hành (27/12/2017), ngày hiệu lực (01/01/2018, thay thế Nghị định 126/2016/NĐ-CP ngày 01/09/2016) và tình trạng hết hiệu lực từ ngày 30/12/2022 (bị thay thế bởi Nghị định 122/2022/NĐ-CP ngày 30/12/2022) trên Công báo Chính phủ (congbao.chinhphu.vn, số 299+300) và Cổng TTĐT Chính phủ (vanban.chinhphu.vn).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Hết hiệu lực từ ngày 30/12/2022; bị thay thế bởi Nghị định 122/2022/NĐ-CP ngày 30/12/2022 của Chính phủ ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại hàng hóa ASEAN - Ấn Độ giai đoạn 2022 - 2027 (nguồn A: https://vanban.chinhphu.vn/default.aspx?docid=207163&pageid=27160, https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/122-nd.signed.pdf). Khi có hiệu lực từ ngày 01/01/2018, Nghị định 159/2017/NĐ-CP thay thế Nghị định 126/2016/NĐ-CP ngày 01/09/2016 (chưa nạp vào sổ).\n",
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/159-2017-nd-cp.pdf",
+      "slug": "159-2017-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "159/TB-TCHQ/2021",
@@ -17413,6 +17940,50 @@
       "ngay_ban_hanh": "2026-07-28",
       "toan_van": "raw/download/datafiles.chinhphu.vn/16-2026-tt-bnv.pdf",
       "slug": "16-2026-tt-bnv",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "160/2017/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện ASEAN - Nhật Bản giai đoạn 2018 - 2023",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2017-12-27",
+      "hieu_luc_tu": "2018-01-01",
+      "het_hieu_luc_tu": "2022-12-30",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue",
+        "thue/bieu-thue-xnk"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-160-2017-nd-cp-25775/21168.htm",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2017/12/25775/21162-1-2018321-322160-2017-nd-cp.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?docid=207165&pageid=27160",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/120-nd.signed.pdf",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu tên, ngày ban hành (27/12/2017), ngày hiệu lực (01/01/2018, thay thế Nghị định 133/2016/NĐ-CP ngày 01/09/2016) và tình trạng hết hiệu lực từ ngày 30/12/2022 (bị thay thế bởi Nghị định 120/2022/NĐ-CP ngày 30/12/2022) trên Công báo Chính phủ (congbao.chinhphu.vn, số 321+322) và Cổng TTĐT Chính phủ (vanban.chinhphu.vn).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Hết hiệu lực từ ngày 30/12/2022; bị thay thế bởi Nghị định 120/2022/NĐ-CP ngày 30/12/2022 của Chính phủ ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện ASEAN - Nhật Bản giai đoạn 2022 - 2028 (nguồn A: https://vanban.chinhphu.vn/default.aspx?docid=207165&pageid=27160, https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/120-nd.signed.pdf). Khi có hiệu lực từ ngày 01/01/2018, Nghị định 160/2017/NĐ-CP thay thế Nghị định 133/2016/NĐ-CP ngày 01/09/2016 (chưa nạp vào sổ).\n",
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/160-2017-nd-cp.pdf",
+      "slug": "160-2017-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
