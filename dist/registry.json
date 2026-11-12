@@ -259,6 +259,12 @@
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
+      "quan_he": {
+        "huong_dan": [
+          "69/2025/QH15",
+          "26/2026/NĐ-CP"
+        ]
+      },
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=216719",
@@ -275,12 +281,13 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu + tên + ngày ban hành và hiệu lực 17-01-2026, ký Trương Thanh Hoài (vanban.chinhphu.vn docid 216719 + PDF chữ ký số datafiles.chinhphu.vn + moit.gov.vn); hướng dẫn Luật Hóa chất 69/2025/QH15 + NĐ 26/2026/NĐ-CP",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "PDF chữ ký số datafiles.chinhphu.vn (9 trang, ký Thứ trưởng Trương Thanh Hoài ngày 17-01-2026) + vanban.chinhphu.vn docid=216719 + moit.gov.vn (trạng thái Đã có hiệu lực): 4 Chương, 12 Điều + Phụ lục biểu mẫu. Hướng dẫn Luật Hóa chất 69/2025/QH15 và Nghị định 26/2026/NĐ-CP. Điều 11 quy định điều khoản chuyển tiếp. Điều 12 (Hiệu lực thi hành): khoản 1 hiệu lực từ ngày ký (17-01-2026); khoản 2 thay thế Thông tư 32/2017/TT-BCT (ngày 28-12-2017) và Thông tư 17/2022/TT-BCT (ngày 27-10-2022); khoản 3 bãi bỏ Điều 7 Thông tư 38/2025/TT-BCT (ngày 19-06-2025). Đối chiếu đến 12-11-2026 chưa có văn bản sửa đổi, bổ sung hay thay thế.",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-12",
-        "boi": "zcode@ozvietnam"
+        "boi": "tho-05-ai-live@ozvietnam"
       },
-      "ghi_chu": "Trinh sát đêm 11/11, bổ sung nguồn bậc A ngày 12/11. Hóa chất nguy hiểm trong sản phẩm hàng hóa — cổng khai báo hóa chất nhập. Đủ gói với NĐ 26/2026 và Luật 69/2025 đã có.",
+      "ghi_chu": "Trinh sát đêm 11/11, bổ sung nguồn bậc A và nạp toàn văn ngày 12/11. Hóa chất nguy hiểm trong sản phẩm hàng hóa — cổng khai báo hóa chất nhập. Đủ gói với NĐ 26/2026/NĐ-CP và Luật 69/2025/QH15 đã có. Điều 12 khoản 2 (thay thế TT 32/2017/TT-BCT, TT 17/2022/TT-BCT) và khoản 3 (bãi bỏ Điều 7 TT 38/2025/TT-BCT) chưa ghi vào quan_he vì các văn bản đó chưa có trong sổ.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/01-2026-tt-bct.pdf",
       "slug": "01-2026-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -985,6 +992,11 @@
           },
           {
             "tu": "31/2018/NĐ-CP",
+            "quan_he": "huong_dan",
+            "so_hieu": "05/2017/QH14"
+          },
+          {
+            "tu": "342/2026/NĐ-CP",
             "quan_he": "huong_dan",
             "so_hieu": "05/2017/QH14"
           },
@@ -1771,6 +1783,13 @@
             "tu_ngay": "2026-09-05",
             "can_cu": "Điều 20 khoản 3 điểm c TT 48/2026/TT-BCT"
           }
+        ],
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "73/2026/VBHN-TT-BCT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "08/2023/TT-BCT"
+          }
         ]
       }
     },
@@ -1943,6 +1962,15 @@
             "so_hieu": "09/2018/NĐ-CP",
             "tu_ngay": "2018-06-15",
             "can_cu": "NĐ 09/2018/NĐ-CP thay thế NĐ 187/2013/NĐ-CP"
+          }
+        ],
+        "bi_thay_the_boi": [
+          {
+            "tu": "342/2026/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "09/2018/NĐ-CP",
+            "tu_ngay": "2026-10-18",
+            "can_cu": "Điều 45 khoản 2 NĐ 342/2026/NĐ-CP"
           }
         ]
       }
@@ -25686,6 +25714,16 @@
       "nhanh": [
         "thue/bieu-thue"
       ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "26/2023/NĐ-CP",
+            "pham_vi": "Phụ lục I — thuế suất thuế xuất khẩu một số mặt hàng thuộc nhóm 25.29 và 81.06",
+            "tu_ngay": "2026-07-23",
+            "can_cu": "Điều 1, khoản 1 Điều 2 NĐ 201/2026/NĐ-CP"
+          }
+        ]
+      },
       "nguon": [
         {
           "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-201-2026-nd-cp-469729.htm",
@@ -25694,16 +25732,21 @@
         {
           "url": "https://luatvietnam.vn/thue/nghi-dinh-201-2026-nd-cp-sua-doi-thue-suat-xuat-khau-theo-nghi-dinh-26-2023-nd-cp-436911-d1.html",
           "truy_cap": "2026-11-09"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/6/23/469729-1782095976_v1_1782175943_signed.pdf",
+          "truy_cap": "2026-11-12"
         }
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu + tên + ngày ban hành 08-06-2026, hiệu lực 23-07-2026 (công báo điện tử congbao.chinhphu.vn + luatvietnam); sửa thuế XK nhóm khoáng sản/kim loại",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "PDF Công báo số 343+344 ngày 23-06-2026 (5 trang, có lớp chữ, ký Phó Thủ tướng Hồ Đức Phớc ngày 08-06-2026) + congbao.chinhphu.vn: Điều 1 sửa đổi, bổ sung mức thuế suất thuế xuất khẩu của một số mặt hàng thuộc nhóm 25.29 (Tràng thạch; leucite; nepheline và nepheline syenite; khoáng fluorspar) và nhóm 81.06 (Bismut và các sản phẩm của chúng, kể cả phế liệu và mảnh vụn) tại Phụ lục I - Biểu thuế xuất khẩu theo Danh mục mặt hàng chịu thuế ban hành kèm theo Nghị định 26/2023/NĐ-CP ngày 31-05-2023; Điều 2 khoản 1 quy định hiệu lực thi hành từ ngày 23-07-2026. Đối chiếu đến 12-11-2026 còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-12",
-        "boi": "zcode@ozvietnam"
+        "boi": "tho-05-ai-live@ozvietnam"
       },
-      "ghi_chu": "Trinh sát đêm 9/11 phát hiện thiếu: biểu thuế XK sửa từ 23-07 mà sổ chưa nạp — cần nạp bù để truy thuế XK khoáng sản/kim loại đúng.",
+      "ghi_chu": "Trinh sát đêm 9/11, nạp toàn văn và đối chiếu hiệu lực ngày 12/11. Biểu thuế xuất khẩu sửa đổi từ 23-07-2026 đối với nhóm 25.29 và 81.06 tại Phụ lục I Nghị định 26/2023/NĐ-CP.",
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/201-2026-nd-cp.pdf",
       "slug": "201-2026-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -29793,12 +29836,13 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu + tên + ngày ban hành 30-09-2026, ký Vũ Hải Quân (vanban.chinhphu.vn docid 219749 + PDF chữ ký số datafiles.chinhphu.vn); hợp nhất TT 23/2013/TT-BKHCN và các thông tư sửa đổi, bổ sung",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "PDF chữ ký số datafiles.chinhphu.vn (25 trang, ký Thứ trưởng Vũ Hải Quân ngày 30-09-2026) + vanban.chinhphu.vn docid=219749: 6 Chương, 28 Điều + Phụ lục xác thực văn bản hợp nhất. Hợp nhất Thông tư 23/2013/TT-BKHCN ngày 26-09-2013 quy định về đo lường đối với phương tiện đo nhóm 2 (hiệu lực 15-11-2013), được sửa đổi, bổ sung bởi 3 Thông tư: (1) Thông tư 07/2019/TT-BKHCN ngày 26-07-2019 (hiệu lực 01-01-2020), (2) Thông tư 03/2024/TT-BKHCN ngày 15-04-2024 (hiệu lực 15-10-2024), (3) Thông tư 12/2025/TT-BKHCN ngày 30-06-2025 (hiệu lực 01-07-2025). Đối chiếu đến 12-11-2026 là bản hợp nhất mới nhất đang áp dụng.",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-12",
-        "boi": "zcode@ozvietnam"
+        "boi": "tho-05-ai-live@ozvietnam"
       },
-      "ghi_chu": "Trinh sát đêm 9/11, bổ sung nguồn bậc A ngày 12/11. Phương tiện đo nhóm 2 = nhóm phải kiểm định — đụng trực tiếp hàng đo lường nhập khẩu (cân, đồng hồ...).",
+      "ghi_chu": "Trinh sát đêm 9/11, bổ sung nguồn bậc A và nạp toàn văn ngày 12/11. Phương tiện đo nhóm 2 = nhóm phải kiểm định — đụng trực tiếp hàng đo lường nhập khẩu (cân, đồng hồ...). Bốn thông tư thành phần (23/2013/TT-BKHCN, 07/2019/TT-BKHCN, 03/2024/TT-BKHCN, 12/2025/TT-BKHCN) chưa ghi vào quan_he.hop_nhat vì các văn bản đó chưa có trong sổ.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/23-2026-vbhn-tt-bkhcn.pdf",
       "slug": "23-2026-vbhn-tt-bkhcn",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -33898,6 +33942,14 @@
       "quan_he_nguoc": {
         "bi_sua_doi_boi": [
           {
+            "tu": "201/2026/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "26/2023/NĐ-CP",
+            "pham_vi": "Phụ lục I — thuế suất thuế xuất khẩu một số mặt hàng thuộc nhóm 25.29 và 81.06",
+            "tu_ngay": "2026-07-23",
+            "can_cu": "Điều 1, khoản 1 Điều 2 NĐ 201/2026/NĐ-CP"
+          },
+          {
             "tu": "72/2026/NĐ-CP",
             "quan_he": "sua_doi",
             "so_hieu": "26/2023/NĐ-CP",
@@ -34008,7 +34060,15 @@
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/26-2026-nd-cp.pdf",
       "slug": "26-2026-nd-cp",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "01/2026/TT-BCT",
+            "quan_he": "huong_dan",
+            "so_hieu": "26/2026/NĐ-CP"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "26/2026/TT-BYT",
@@ -47277,7 +47337,7 @@
     {
       "so_hieu": "342/2026/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Quy định chi tiết Luật Thương mại và Luật Quản lý ngoại thương về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam",
+      "ten": "Quy định chi tiết Luật Thương mại và Luật Quản lý ngoại thương về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam",
       "co_quan": "CP",
       "ngay_ban_hanh": "2026-09-03",
       "hieu_luc_tu": "2026-10-18",
@@ -47286,24 +47346,50 @@
         "quan-ly-ngoai-thuong",
         "quan-ly-ngoai-thuong/luat-khung"
       ],
+      "quan_he": {
+        "huong_dan": [
+          "36/2005/QH11",
+          "05/2017/QH14"
+        ],
+        "thay_the": [
+          {
+            "so_hieu": "09/2018/NĐ-CP",
+            "tu_ngay": "2026-10-18",
+            "can_cu": "Điều 45 khoản 2 NĐ 342/2026/NĐ-CP"
+          }
+        ]
+      },
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=219372",
           "truy_cap": "2026-11-12"
         },
         {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-342-2026-nd-cp-470390.htm",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/9/17/470390-1789442778_v1_1789606993_signed.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
           "url": "https://luatvietnam.vn/tin-van-ban-moi/da-co-toan-van-nghi-dinh-342-2026-nd-cp-quy-dinh-chi-tiet-luat-thuong-mai-va-luat-quan-ly-ngoai-thuong-186-112164-article.html",
           "truy_cap": "2026-11-09"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/342_2026_nd-cp_03092026-signed.signed.pdf",
+          "truy_cap": "2026-11-12"
         }
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu + tên + ngày ban hành 03-09-2026 (vanban.chinhphu.vn docid 219372 + luatvietnam); hiệu lực 18-10-2026; bãi bỏ Điều 36 NĐ 146/2025",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "PDF chữ ký số datafiles.chinhphu.vn + PDF Công báo số 512 ngày 17-09-2026 (có lớp chữ, ký Phó Thủ tướng Phạm Gia Túc ngày 03-09-2026) + vanban.chinhphu.vn docid=219372: 6 Chương, 45 Điều + Phụ lục (19 mẫu đơn/giấy phép/báo cáo + Bảng 1 hướng dẫn cách ghi giấy phép). Điều 1 quy định chi tiết Điều 22 Luật Thương mại (36/2005/QH11) và Điều 5 Luật Quản lý ngoại thương (05/2017/QH14). Điều 44 quy định điều khoản chuyển tiếp. Điều 45 (Điều khoản thi hành): khoản 1 hiệu lực thi hành từ ngày 18-10-2026; khoản 2 thay thế Nghị định 09/2018/NĐ-CP ngày 15-01-2018 và bãi bỏ Điều 36 Nghị định 146/2025/NĐ-CP ngày 12-06-2025. Đối chiếu đến 12-11-2026 còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-12",
-        "boi": "zcode@ozvietnam"
+        "boi": "tho-05-ai-live@ozvietnam"
       },
-      "ghi_chu": "Trinh sát đêm 9/11. Thay phép mua bán hàng của FDI (Đ22 LTM + Đ5 LLQLNT) — đụng luồng NK của nhà ĐTNN. Ưu tiên đối chiếu lên A.",
+      "ghi_chu": "Trinh sát đêm 9/11, nạp toàn văn và đối chiếu hiệu lực ngày 12/11. Quy định quyền xuất khẩu, quyền nhập khẩu, quyền phân phối của nhà đầu tư nước ngoài và tổ chức kinh tế có vốn đầu tư nước ngoài (hướng dẫn Điều 22 Luật Thương mại 36/2005/QH11 và Điều 5 Luật Quản lý ngoại thương 05/2017/QH14). Điều 45 khoản 2 còn bãi bỏ Điều 36 Nghị định 146/2025/NĐ-CP — chưa ghi vào quan_he vì NĐ 146/2025/NĐ-CP chưa có trong sổ.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/342-2026-nd-cp.pdf",
       "slug": "342-2026-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -47437,12 +47523,13 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu + tên + ngày ban hành và hiệu lực 24-02-2026 (chinhphu.vn + TVPL 695437); bãi bỏ một phần nội dung TTHC tại QĐ 2770/QĐ-BTC, 350/QĐ-BTC, 2061/QĐ-BTC, 671/QĐ-BTC, 2065/QĐ-BTC, 2902/QĐ-BTC",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "Toàn văn HTML xaydungchinhsach.chinhphu.vn + TVPL 695437: Quyết định 344/QĐ-BTC ngày 24-02-2026 của Bộ trưởng Bộ Tài chính (ký thừa ủy quyền Cục trưởng Cục Hải quan Nguyễn Văn Thọ). Điều 1 công bố kèm theo Quyết định danh mục thủ tục hành chính mới ban hành, được sửa đổi, bổ sung và bãi bỏ trong lĩnh vực hải quan thuộc phạm vi chức năng quản lý nhà nước của Bộ Tài chính. Điều 2 quy định hiệu lực thi hành kể từ ngày ký (24-02-2026) và bãi bỏ một số nội dung công bố TTHC tại Phần I các Quyết định: 2770/QĐ-BTC (25-12-2015), 350/QĐ-BTC (08-03-2019), 2061/QĐ-BTC (28-10-2019), 671/QĐ-BTC (24-04-2020), 2065/QĐ-BTC (06-10-2022), 2902/QĐ-BTC (25-08-2025). Đối chiếu đến 12-11-2026 còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-12",
-        "boi": "zcode@ozvietnam"
+        "boi": "tho-05-ai-live@ozvietnam"
       },
-      "ghi_chu": "Trinh thám đêm 11/11, bổ sung nguồn chinhphu.vn ngày 12/11. Công bố sửa đổi, bổ sung và bãi bỏ 27 TTHC hải quan — ảnh hưởng trực tiếp danh mục thủ tục khai báo.",
+      "ghi_chu": "Trinh sát đêm 11/11, bổ sung nguồn chinhphu.vn và nạp toàn văn ngày 12/11. Công bố sửa đổi, bổ sung và bãi bỏ 27 TTHC hải quan — ảnh hưởng trực tiếp danh mục thủ tục khai báo. Điều 2 bãi bỏ một phần nội dung tại các QĐ 2770/QĐ-BTC, 350/QĐ-BTC, 2061/QĐ-BTC, 671/QĐ-BTC, 2065/QĐ-BTC, 2902/QĐ-BTC — chưa ghi vào quan_he vì các quyết định đó chưa có trong sổ.",
+      "toan_van": "raw/download/xaydungchinhsach.chinhphu.vn/344-2026-qd-btc.html",
       "slug": "344-2026-qd-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -48856,7 +48943,15 @@
       ],
       "slug": "36-2005-qh11",
       "bac_nguon_cao_nhat": "B",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "342/2026/NĐ-CP",
+            "quan_he": "huong_dan",
+            "so_hieu": "36/2005/QH11"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "36/2009/QH12",
@@ -60866,7 +60961,15 @@
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/48-2026-tt-bct.pdf",
       "slug": "48-2026-tt-bct",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "73/2026/VBHN-TT-BCT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "48/2026/TT-BCT"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "480/TB-TCHQ/2019",
@@ -75483,7 +75586,15 @@
       ],
       "slug": "69-2025-qh15",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "01/2026/TT-BCT",
+            "quan_he": "huong_dan",
+            "so_hieu": "69/2025/QH15"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "691/QĐ-BCT",
@@ -78583,6 +78694,12 @@
       "nhanh": [
         "phan-loai-hs"
       ],
+      "quan_he": {
+        "hop_nhat": [
+          "08/2023/TT-BCT",
+          "48/2026/TT-BCT"
+        ]
+      },
       "nguon": [
         {
           "url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-73-2026-vbhn-tt-bct-470480.htm",
@@ -78595,16 +78712,21 @@
         {
           "url": "https://moit.gov.vn/upload/2005517/20260917/1_VBHN-BCT_2026_73_b1598.pdf",
           "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/73-vbhn-bct.signed.pdf",
+          "truy_cap": "2026-11-12"
         }
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu + tên + ngày ban hành 14-09-2026 (công báo điện tử + vanban.chinhphu.vn docid 219509 + PDF moit.gov.vn); anh em với 74/2026/VBHN-TT-BCT đã có — đủ họ",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "PDF chữ ký số datafiles.chinhphu.vn (11 trang, ký Thứ trưởng Nguyễn Sinh Nhật Tân ngày 14-09-2026) + congbao.chinhphu.vn (Công báo số 512-VBHN) + vanban.chinhphu.vn docid=219509 + PDF moit.gov.vn: 3 Điều + Phụ lục xác thực văn bản hợp nhất. Hợp nhất Thông tư 08/2023/TT-BCT ngày 31-03-2023 sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu (hiệu lực 16-05-2023), được sửa đổi, bổ sung bởi: (1) Thông tư 43/2023/TT-BCT ngày 28-12-2023 (hiệu lực 16-02-2024), (2) Thông tư 41/2026/TT-BCT ngày 20-08-2026 (hiệu lực 07-10-2026), (3) Thông tư 48/2026/TT-BCT ngày 05-09-2026 (hiệu lực 05-09-2026). Đối chiếu đến 12-11-2026 là bản hợp nhất đang áp dụng.",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-12",
-        "boi": "zcode@ozvietnam"
+        "boi": "tho-05-ai-live@ozvietnam"
       },
-      "ghi_chu": "Trinh sát đêm 11/11. LÕI tra cứu mã HS khai báo — nạp đủ cặp 73 (TT sửa đổi) + 74 (TT bổ sung, đã có từ 7/11).",
+      "ghi_chu": "Trinh sát đêm 11/11, nạp toàn văn và đối chiếu hiệu lực ngày 12/11. LÕI tra cứu mã HS khai báo — cặp với 74/2026/VBHN-TT-BCT (TT bổ sung). Đã nối quan_he.hop_nhat với 08/2023/TT-BCT và 48/2026/TT-BCT đã có trong sổ; hai thông tư thành phần còn lại (43/2023/TT-BCT, 41/2026/TT-BCT) chưa ghi vào quan_he vì chưa có trong sổ.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/73-2026-vbhn-tt-bct.pdf",
       "slug": "73-2026-vbhn-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}

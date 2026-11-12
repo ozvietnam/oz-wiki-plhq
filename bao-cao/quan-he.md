@@ -379,6 +379,9 @@ flowchart LR
   n_31_2022_TT_BTC["31/2022/TT-BTC<br/>còn hiệu lực"]
   n_65_2017_TT_BTC["65/2017/TT-BTC<br/>chưa có trong sổ"]
   n_09_2019_TT_BTC["09/2019/TT-BTC<br/>chưa có trong sổ"]
+  n_73_2026_VBHN_TT_BCT["73/2026/VBHN-TT-BCT<br/>còn hiệu lực"]
+  n_08_2023_TT_BCT["08/2023/TT-BCT<br/>hết hiệu lực một phần"]
+  n_48_2026_TT_BCT["48/2026/TT-BCT<br/>còn hiệu lực"]
   n_85_2026_TT_BTC["85/2026/TT-BTC<br/>còn hiệu lực"]
   n_14_2015_TT_BTC -->|bãi bỏ từ 2015-03-16| n_49_2010_TT_BTC
   n_1628_Q__TCHQ -->|thay thế toàn bộ từ 2010-08-01| n_1671_Q__TCHQ
@@ -387,6 +390,8 @@ flowchart LR
   n_2169_Q__CHQ -->|thay thế từ 2026-02-01| n_2166_Q__TCHQ
   n_31_2022_TT_BTC -->|thay thế toàn bộ Danh mục từ 2022-12-01| n_65_2017_TT_BTC
   n_31_2022_TT_BTC -->|thay thế toàn bộ từ 2022-12-01| n_09_2019_TT_BTC
+  n_73_2026_VBHN_TT_BCT -->|hợp nhất| n_08_2023_TT_BCT
+  n_73_2026_VBHN_TT_BCT -->|hợp nhất| n_48_2026_TT_BCT
   n_85_2026_TT_BTC -->|thay thế từ 2026-09-15| n_14_2015_TT_BTC
   n_85_2026_TT_BTC -->|thay thế từ 2026-09-15| n_17_2021_TT_BTC
 ```
@@ -459,6 +464,7 @@ flowchart LR
   n_01_2018_TT_BCT["01/2018/TT-BCT<br/>chưa xác minh"]
   n_34_2025_TT_BCT["34/2025/TT-BCT<br/>còn hiệu lực"]
   n_02_2018_TT_BCT["02/2018/TT-BCT<br/>còn hiệu lực"]
+  n_342_2026_N__CP["342/2026/NĐ-CP<br/>còn hiệu lực"]
   n_42_2019_TT_BCT["42/2019/TT-BCT<br/>hết hiệu lực một phần"]
   n_33_2016_TT_BCT["33/2016/TT-BCT<br/>chưa xác minh"]
   n_51_2018_TT_BCT["51/2018/TT-BCT<br/>chưa xác minh"]
@@ -491,6 +497,7 @@ flowchart LR
   n_292_2026_N__CP -->|thay thế từ 2026-09-05| n_69_2018_N__CP
   n_33_2025_TT_BCT -->|sửa đổi bãi bỏ điểm c khoản 2 Điều 3; thay thế Phụ lục I từ 2025-07-21| n_01_2018_TT_BCT
   n_34_2025_TT_BCT -->|sửa đổi từ 2025-07-21| n_02_2018_TT_BCT
+  n_342_2026_N__CP -->|thay thế từ 2026-10-18| n_09_2018_N__CP
   n_42_2019_TT_BCT -->|bãi bỏ khoản 6 Điều 1 từ 2020-02-05| n_33_2016_TT_BCT
   n_42_2019_TT_BCT -->|bãi bỏ Điều 4 từ 2020-02-05| n_51_2018_TT_BCT
   n_42_2019_TT_BCT -->|bãi bỏ khoản 20 Điều 1 từ 2020-02-05| n_31_2018_TT_BCT
@@ -519,12 +526,13 @@ flowchart LR
   n_38_2019_QH14["38/2019/QH14<br/>hết hiệu lực"]
   n_56_2024_QH15["56/2024/QH15<br/>chưa có trong sổ"]
   n_134_2016_N__CP["134/2016/NĐ-CP<br/>còn hiệu lực"]
+  n_201_2026_N__CP["201/2026/NĐ-CP<br/>còn hiệu lực"]
+  n_26_2023_N__CP["26/2023/NĐ-CP<br/>còn hiệu lực"]
   n_26_2015_TT_BTC["26/2015/TT-BTC<br/>còn hiệu lực"]
   n_219_2013_TT_BTC["219/2013/TT-BTC<br/>còn hiệu lực"]
   n_53_2020_N__CP["53/2020/NĐ-CP<br/>hết hiệu lực"]
   n_346_2025_N__CP["346/2025/NĐ-CP<br/>chưa có trong sổ"]
   n_72_2026_N__CP["72/2026/NĐ-CP<br/>còn hiệu lực"]
-  n_26_2023_N__CP["26/2023/NĐ-CP<br/>còn hiệu lực"]
   n_86_2026_TT_BTC["86/2026/TT-BTC<br/>còn hiệu lực"]
   n_06_2021_TT_BTC["06/2021/TT-BTC<br/>hết hiệu lực"]
   n_38_2015_TT_BTC["38/2015/TT-BTC<br/>còn hiệu lực"]
@@ -537,6 +545,7 @@ flowchart LR
   n_108_2025_QH15 -->|thay thế từ 2026-07-01| n_56_2024_QH15
   n_18_2021_N__CP -->|sửa đổi| n_134_2016_N__CP
   n_182_2025_N__CP -->|sửa đổi| n_134_2016_N__CP
+  n_201_2026_N__CP -->|sửa đổi Phụ lục I — thuế suất thuế xuất khẩu một số mặt hàng thuộc nhóm 25.29 và 81.06 từ 2026-07-23| n_26_2023_N__CP
   n_26_2015_TT_BTC -->|sửa đổi| n_219_2013_TT_BTC
   n_45_2005_QH11 -->|bãi bỏ từ 2016-09-01| n_107_2016_QH13
   n_53_2020_N__CP -->|thay thế toàn bộ| n_346_2025_N__CP
