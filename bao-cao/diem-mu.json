@@ -1,6 +1,6 @@
 {
-  "ngay": "2026-11-09",
-  "tong": 5120,
+  "ngay": "2026-11-12",
+  "tong": 5125,
   "diem": [
     {
       "ma": "THIEU_VAN_BAN",
@@ -351,6 +351,33 @@
       "muc_tieu": "04/2023/TT-BCT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "04/2026/TT-BKHCN: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
+      "muc_tieu": "04/2026/TT-BKHCN",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "04/2026/TT-BKHCN: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "04/2026/TT-BKHCN",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "04/2026/TT-BKHCN: chưa có toàn văn trong raw/",
+      "muc_tieu": "04/2026/TT-BKHCN",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"04/2026/TT-BKHCN\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -40868,6 +40895,24 @@
       "tieuDe": "83/2014/NĐ-CP: chưa có toàn văn trong raw/",
       "muc_tieu": "83/2014/NĐ-CP",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"83/2014/NĐ-CP\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "83/2026/TT-BTC: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "83/2026/TT-BTC",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "83/2026/TT-BTC: chưa có toàn văn trong raw/",
+      "muc_tieu": "83/2026/TT-BTC",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"83/2026/TT-BTC\" --ghi",
       "luong": "nap-lam-sach",
       "trongSo": 0
     },
