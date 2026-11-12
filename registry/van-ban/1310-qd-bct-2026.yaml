@@ -1,0 +1,29 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 1310/QĐ-BCT
+loai: QUYET_DINH
+ten: Gia hạn biện pháp chống lẩn tránh biện pháp phòng vệ thương mại đối với một số sản phẩm đường mía
+co_quan: BCT
+ngay_ban_hanh: '2026-06-02'
+hieu_luc_tu: '2026-06-16'
+het_hieu_luc_tu: '2031-06-15'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phong-ve-thuong-mai/chong-ban-pha-gia
+quan_he:
+  huong_dan:
+    - so_hieu: 1309/QĐ-BCT
+      tu_ngay: '2026-06-16'
+      can_cu: 'Căn cứ QĐ 1309/QĐ-BCT ngày 02/06/2026; Mục 2 và Mục 4.b Thông báo kèm theo QĐ 1310/QĐ-BCT (thời hạn chống lẩn tránh áp dụng theo thời hạn của QĐ 1309/QĐ-BCT đến hết 15/06/2031; kiểm tra C/O Bước 1 theo Mục 5 Thông báo kèm theo QĐ 1309/QĐ-BCT)'
+nguon:
+  - url: https://moit.gov.vn/upload/2005517/fck/files/QD_gia_han_AC02-AD13_AS01_5d8d1.pdf
+    truy_cap: '2026-11-12'
+  - url: https://moit.gov.vn/tin-tuc/bo-cong-thuong-ban-hanh-quyet-dinh-ve-ket-qua-ra-soat-cuoi-ky-viec-ap-dung-bien-phap-chong-ban-pha-gia-va-chong-tro-cap-.html
+    truy_cap: '2026-11-12'
+toan_van: raw/download/moit.gov.vn/1310-qd-bct.pdf
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'PDF gốc moit.gov.vn QD_gia_han_AC02-AD13_AS01_5d8d1.pdf (9 trang, ký Thứ trưởng Nguyễn Sinh Nhật Tân ngày 02-06-2026): Điều 1 gia hạn biện pháp chống lẩn tránh biện pháp PVTM đối với đường mía (HS 1701.13.00, 1701.14.00, 1701.91.00, 1701.99.10, 1701.99.90, 1702.90.91) xuất xứ Campuchia, Indonesia, Lào, Malaysia, Myanmar (thuế CBPG 42,99% + CTC 4,65%, trừ 8 công ty được miễn tại Mục 3.2 Thông báo kèm theo); Điều 2 hiệu lực từ 16-06-2026; Điều 3 cho hết hiệu lực 7 QĐ (1514/QĐ-BCT ngày 01-08-2022, 2960/QĐ-BCT ngày 30-12-2022, 783/QĐ-BCT ngày 28-03-2023, 1407/QĐ-BCT ngày 10-06-2024, 662/QĐ-BCT ngày 12-03-2025, 1908/QĐ-BCT ngày 01-07-2025, 2868/QĐ-BCT ngày 13-10-2025); Mục 2 Thông báo kèm theo quy định thời hạn áp dụng theo thời hạn của QĐ 1309/QĐ-BCT ngày 02-06-2026 (đến hết 15-06-2031). Chưa thấy văn bản sau thay/bãi 1310/QĐ-BCT (kiểm đến 12-11-2026).'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-12'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Ban hành cùng ngày 02-06-2026 với QĐ 1309/QĐ-BCT (vụ việc ER01.AD13-AS01). 7 QĐ hết hiệu lực tại Điều 3 (1514/2022, 2960/2022, 783/2023, 1407/2024, 662/2025, 1908/2025, 2868/2025 QĐ-BCT) hiện chưa có mục riêng trong sổ — ghi tại đây để tra cứu, khi nạp stub sẽ bổ sung cạnh bai_bo.'
