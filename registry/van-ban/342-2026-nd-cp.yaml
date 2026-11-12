@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 342/2026/NĐ-CP
 loai: NGHI_DINH
-ten: 'Quy định chi tiết Luật Thương mại và Luật Quản lý ngoại thương về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam'
+ten: Quy định chi tiết Luật Thương mại và Luật Quản lý ngoại thương về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam
 co_quan: CP
 ngay_ban_hanh: '2026-09-03'
 hieu_luc_tu: '2026-10-18'
@@ -9,15 +9,30 @@ tinh_trang: CON_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong
   - quan-ly-ngoai-thuong/luat-khung
+quan_he:
+  huong_dan:
+    - 36/2005/QH11
+    - 05/2017/QH14
+  thay_the:
+    - so_hieu: 09/2018/NĐ-CP
+      tu_ngay: '2026-10-18'
+      can_cu: Điều 45 khoản 2 NĐ 342/2026/NĐ-CP
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=219372
     truy_cap: '2026-11-12'
+  - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-342-2026-nd-cp-470390.htm
+    truy_cap: '2026-11-12'
+  - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/9/17/470390-1789442778_v1_1789606993_signed.pdf
+    truy_cap: '2026-11-12'
   - url: https://luatvietnam.vn/tin-van-ban-moi/da-co-toan-van-nghi-dinh-342-2026-nd-cp-quy-dinh-chi-tiet-luat-thuong-mai-va-luat-quan-ly-ngoai-thuong-186-112164-article.html
     truy_cap: '2026-11-09'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/342_2026_nd-cp_03092026-signed.signed.pdf
+    truy_cap: '2026-11-12'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu + tên + ngày ban hành 03-09-2026 (vanban.chinhphu.vn docid 219372 + luatvietnam); hiệu lực 18-10-2026; bãi bỏ Điều 36 NĐ 146/2025'
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'PDF chữ ký số datafiles.chinhphu.vn + PDF Công báo số 512 ngày 17-09-2026 (có lớp chữ, ký Phó Thủ tướng Phạm Gia Túc ngày 03-09-2026) + vanban.chinhphu.vn docid=219372: 6 Chương, 45 Điều + Phụ lục (19 mẫu đơn/giấy phép/báo cáo + Bảng 1 hướng dẫn cách ghi giấy phép). Điều 1 quy định chi tiết Điều 22 Luật Thương mại (36/2005/QH11) và Điều 5 Luật Quản lý ngoại thương (05/2017/QH14). Điều 44 quy định điều khoản chuyển tiếp. Điều 45 (Điều khoản thi hành): khoản 1 hiệu lực thi hành từ ngày 18-10-2026; khoản 2 thay thế Nghị định 09/2018/NĐ-CP ngày 15-01-2018 và bãi bỏ Điều 36 Nghị định 146/2025/NĐ-CP ngày 12-06-2025. Đối chiếu đến 12-11-2026 còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-11-12'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh sát đêm 9/11. Thay phép mua bán hàng của FDI (Đ22 LTM + Đ5 LLQLNT) — đụng luồng NK của nhà ĐTNN. Ưu tiên đối chiếu lên A.'
+  boi: tho-05-ai-live@ozvietnam
+ghi_chu: 'Trinh sát đêm 9/11, nạp toàn văn và đối chiếu hiệu lực ngày 12/11. Quy định quyền xuất khẩu, quyền nhập khẩu, quyền phân phối của nhà đầu tư nước ngoài và tổ chức kinh tế có vốn đầu tư nước ngoài (hướng dẫn Điều 22 Luật Thương mại 36/2005/QH11 và Điều 5 Luật Quản lý ngoại thương 05/2017/QH14). Điều 45 khoản 2 còn bãi bỏ Điều 36 Nghị định 146/2025/NĐ-CP — chưa ghi vào quan_he vì NĐ 146/2025/NĐ-CP chưa có trong sổ.'
+toan_van: raw/download/datafiles.chinhphu.vn/342-2026-nd-cp.pdf
