@@ -1,0 +1,26 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 29/2019/TT-BNN
+so_hieu_khac:
+  - 29/2019/TT-BNNPTNT
+loai: THONG_TU
+ten: Quy định xử lý động vật rừng là tang vật, vật chứng; động vật rừng do tổ chức, cá nhân tự nguyện giao nộp Nhà nước
+co_quan: BNNPTNT
+ngay_ban_hanh: '2019-12-31'
+hieu_luc_tu: '2020-02-20'
+het_hieu_luc_tu: '2025-07-01'
+tinh_trang: HET_HIEU_LUC
+nhanh:
+  - kiem-tra-chuyen-nganh/bnnmt
+nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=198849
+    truy_cap: '2026-11-12'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/01/29-bnnptnt.signed.pdf
+    truy_cap: '2026-11-12'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đã đối chiếu toàn văn bản ký số 21 trang trên vanban.chinhphu.vn (docid=198849, Thứ trưởng Hà Công Tuấn ký): ký hiệu đầy đủ 29/2019/TT-BNNPTNT (viết tắt trong một số văn bản/sổ là 29/2019/TT-BNN), ngày ban hành 31/12/2019, Điều 18 khoản 1 hiệu lực từ 20/02/2020 và khoản 2 thay thế Thông tư 90/2008/TT-BNN; hết hiệu lực từ 01/07/2025 do bị khoản 3 Điều 33 Thông tư 26/2025/TT-BNNMT bãi bỏ toàn bộ'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-12'
+  boi: bo-ba-01@ozvietnam
+ghi_chu: Nạp từ điểm mù CAO (OZV-556) — văn bản gốc bị khoản 3 Điều 33 Thông tư 26/2025/TT-BNNMT bãi bỏ toàn bộ từ 01/07/2025. Giữ so_hieu 29/2019/TT-BNN và khai so_hieu_khac 29/2019/TT-BNNPTNT để khớp cả quan_he trong 26-2025-tt-bnnmt.yaml và bài wiki.
+toan_van: raw/download/datafiles.chinhphu.vn/29-2019-tt-bnn.pdf
