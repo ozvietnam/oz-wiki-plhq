@@ -2367,7 +2367,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [195/2013/NĐ-CP](../registry/van-ban/195-2013-nd-cp.yaml) — Quy định chi tiết một số điều của Luật Xuất bản về hoạt động xuất bản, in và phát hành
 - 🟢 [29/2012/QH12](../registry/van-ban/29-2012-qh12.yaml) — Luật Xuất bản
 - 🟢 [36/2005/QH11](../registry/van-ban/36-2005-qh11.yaml) — Luật Thương mại
-- 🟢 [Công ước Viên 1980 (CISG)](../registry/van-ban/cong-uoc-vien-1980.yaml) — Công ước của Liên hợp quốc về hợp đồng mua bán hàng hoá quốc tế
+- 🟢 [Công ước Viên 1980 (CISG)](../registry/van-ban/cong-uoc-vien-1980-cisg.yaml) — Công ước của Liên hợp quốc về hợp đồng mua bán hàng hoá quốc tế
 - 🟢 [25/2018/NĐ-CP](../registry/van-ban/25-2018-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 195/2013/NĐ-CP quy định chi tiết một số điều của Luật Xuất bản về hoạt động xuất bản, in và phát hành
 - 🟢 [60/2014/NĐ-CP](../registry/van-ban/60-2014-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 195/2013/NĐ-CP
 - 🟢 [63/2026/TT-BKHCN](../registry/van-ban/63-2026-tt-bkhcn.yaml) — Ban hành Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa
