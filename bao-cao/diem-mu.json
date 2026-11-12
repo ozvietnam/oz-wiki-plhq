@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-12",
-  "tong": 5075,
+  "tong": 5068,
   "diem": [
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -27921,42 +27921,6 @@
       "trongSo": 0
     },
     {
-      "ma": "MAU_THUAN_HIEU_LUC",
-      "muc": "Cao",
-      "tieuDe": "43/2017/NĐ-CP còn ghi \"còn hiệu lực\" nhưng đã bị bãi bỏ bởi 37/2026/NĐ-CP",
-      "muc_tieu": "43/2017/NĐ-CP",
-      "viec": "Đối chiếu nguồn A rồi sửa tinh_trang/het_hieu_luc_tu trong registry/van-ban/43-2017-nd-cp.yaml, hoặc sửa quan hệ ở văn bản 37/2026/NĐ-CP nếu sai.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "43/2017/NĐ-CP: chưa có nguồn chính thống",
-      "muc_tieu": "43/2017/NĐ-CP",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "43/2017/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "43/2017/NĐ-CP",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "43/2017/NĐ-CP: chưa có toàn văn trong raw/",
-      "muc_tieu": "43/2017/NĐ-CP",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"43/2017/NĐ-CP\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
       "tieuDe": "43/2024/QH15: chưa có nguồn chính thống",
@@ -40968,33 +40932,6 @@
       "muc_tieu": "8993/TB-CHQ/2025",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "HUONG_DAN_MO_COI",
-      "muc": "Cao",
-      "tieuDe": "90/2020/TT-BTC hướng dẫn văn bản đã hết hiệu lực (128/2020/NĐ-CP)",
-      "muc_tieu": "90/2020/TT-BTC",
-      "viec": "Kiểm tra văn bản này còn được áp dụng không (thường hết hiệu lực theo văn bản gốc), hoặc đã có văn bản hướng dẫn mới.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "90/2020/TT-BTC: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "90/2020/TT-BTC",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "90/2020/TT-BTC: chưa có toàn văn trong raw/",
-      "muc_tieu": "90/2020/TT-BTC",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"90/2020/TT-BTC\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {

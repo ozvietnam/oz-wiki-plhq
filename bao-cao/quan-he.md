@@ -180,7 +180,7 @@ flowchart LR
   n_11_2024_TT_BTTTT["11/2024/TT-BTTTT<br/>còn hiệu lực"]
   n_22_2018_TT_BTTTT["22/2018/TT-BTTTT<br/>còn hiệu lực"]
   n_111_2021_N__CP["111/2021/NĐ-CP<br/>hết hiệu lực"]
-  n_43_2017_N__CP["43/2017/NĐ-CP<br/>còn hiệu lực"]
+  n_43_2017_N__CP["43/2017/NĐ-CP<br/>hết hiệu lực"]
   n_129_2024_N__CP["129/2024/NĐ-CP<br/>còn hiệu lực"]
   n_91_2016_N__CP["91/2016/NĐ-CP<br/>còn hiệu lực"]
   n_155_2018_N__CP["155/2018/NĐ-CP<br/>còn hiệu lực"]
@@ -565,9 +565,12 @@ flowchart LR
   n_128_2020_N__CP["128/2020/NĐ-CP<br/>hết hiệu lực"]
   n_282_2025_N__CP["282/2025/NĐ-CP<br/>còn hiệu lực"]
   n_144_2021_N__CP["144/2021/NĐ-CP<br/>hết hiệu lực"]
+  n_90_2020_TT_BTC["90/2020/TT-BTC<br/>hết hiệu lực"]
+  n_155_2016_TT_BTC["155/2016/TT-BTC<br/>hết hiệu lực"]
   n_109_2011_N__CP -->|sửa đổi từ 2012-01-20| n_47_2009_N__CP
   n_169_2026_N__CP -->|thay thế toàn bộ| n_128_2020_N__CP
   n_282_2025_N__CP -->|thay thế toàn bộ từ 2025-12-15| n_144_2021_N__CP
+  n_90_2020_TT_BTC -->|thay thế từ 2020-12-26| n_155_2016_TT_BTC
 ```
 
 ## Xuất xứ hàng hoá và các hiệp định thương mại tự do

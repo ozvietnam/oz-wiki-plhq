@@ -16271,7 +16271,17 @@
       "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #402). Hướng dẫn Nghị định 127/2013/NĐ-CP và Nghị định 45/2016/NĐ-CP về xử phạt VPHC và cưỡng chế thi hành quyết định hành chính trong lĩnh vực hải quan (bãi bỏ Thông tư 190/2013/TT-BTC); đã hết hiệu lực khi chuyển sang Nghị định 128/2020/NĐ-CP và Thông tư 90/2020/TT-BTC (sau đó được bãi bỏ bởi Thông tư 77/2022/TT-BTC).",
       "slug": "155-2016-tt-btc",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "90/2020/TT-BTC",
+            "quan_he": "thay_the",
+            "so_hieu": "155/2016/TT-BTC",
+            "can_cu": "Điều 4 khoản 1",
+            "tu_ngay": "2020-12-26"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "155/2018/NĐ-CP",
@@ -30599,16 +30609,32 @@
         {
           "url": "https://vbpl.vn/van-ban/chi-tiet/luat-phong-chong-ma-tuy-so-23-2000-qh10--5740",
           "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=70877",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2008/07/72916_l16qh.doc",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204940",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/01/73luat.pdf",
+          "truy_cap": "2026-11-12"
         }
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "đã đối chiếu toàn văn trên vanban.chinhphu.vn (docid=80180, tệp đính kèm 82523_l23qh.doc) và CSDLQG vbpl.vn (ID 5740): số hiệu 23/2000/QH10, tên Luật Phòng, chống ma túy (8 Chương, 56 Điều), Quốc hội khóa X kỳ họp thứ 8 thông qua ngày 09/12/2000, Chủ tịch Quốc hội Nông Đức Mạnh ký, Điều 55 quy định có hiệu lực từ 01/06/2001; được sửa đổi, bổ sung một số điều bởi Luật số 16/2008/QH12; hết hiệu lực toàn bộ từ 01/01/2022 do bị thay thế bởi khoản 2 Điều 55 Luật Phòng, chống ma túy số 73/2021/QH14 (vbpl.vn effTo 2022-01-01, effStatus HHL)",
+        "pham_vi": "đã đối chiếu toàn văn trên vanban.chinhphu.vn (docid=80180, tệp đính kèm 82523_l23qh.doc) và CSDLQG vbpl.vn (ID 5740): số hiệu 23/2000/QH10, tên Luật Phòng, chống ma túy (8 Chương, 56 Điều), Quốc hội khóa X kỳ họp thứ 8 thông qua ngày 09/12/2000, Chủ tịch Quốc hội Nông Đức Mạnh ký, Điều 55 quy định có hiệu lực từ 01/06/2001; được sửa đổi, bổ sung một số điều bởi Luật số 16/2008/QH12 ngày 03/06/2008 (đối chiếu toàn văn Luật 16/2008/QH12 trên vanban.chinhphu.vn docid=70877, tệp 72916_l16qh.doc, hiệu lực từ 01/01/2009); hết hiệu lực toàn bộ từ 01/01/2022 do bị thay thế bởi khoản 2 Điều 54 Luật Phòng, chống ma túy số 73/2021/QH14 (đối chiếu toàn văn Luật 73/2021/QH14 trên vanban.chinhphu.vn docid=204940, tệp 73luat.pdf đăng Công báo số 567+568 ngày 30/04/2021 trang 33 ghi rõ: \"Luật Phòng, chống ma túy số 23/2000/QH10 đã được sửa đổi, bổ sung một số điều theo Luật số 16/2008/QH12 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành\" và quy định chuyển tiếp tại Điều 55; vbpl.vn ID 5740 effTo 2022-01-01, effStatus HHL)",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-12",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Nạp từ điểm mù CAO (OZV-560) — đạo luật gốc về phòng, chống ma túy và kiểm soát các hoạt động hợp pháp liên quan đến ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần (bao gồm xuất khẩu, nhập khẩu, tạm nhập tái xuất, quá cảnh tại Chương III); đã được sửa đổi, bổ sung một số điều bởi Luật 16/2008/QH12 và hết hiệu lực toàn bộ từ 01/01/2022 khi bị thay thế bởi Luật Phòng, chống ma túy số 73/2021/QH14.",
+      "ghi_chu": "Nạp từ điểm mù CAO (OZV-560) — đạo luật gốc về phòng, chống ma túy và kiểm soát các hoạt động hợp pháp liên quan đến ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần (bao gồm xuất khẩu, nhập khẩu, tạm nhập tái xuất, quá cảnh tại Chương III); đã được sửa đổi, bổ sung một số điều bởi Luật 16/2008/QH12 (vanban.chinhphu.vn docid=70877) và hết hiệu lực toàn bộ từ 01/01/2022 khi bị thay thế bởi khoản 2 Điều 54 Luật Phòng, chống ma túy số 73/2021/QH14 (vanban.chinhphu.vn docid=204940).",
       "toan_van": "raw/download/datafiles.chinhphu.vn/23-2000-qh10.doc",
       "tu_khoa": [
         "ma-tuy",
@@ -58774,29 +58800,45 @@
     {
       "so_hieu": "43/2017/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Quy định về ghi nhãn hàng hóa",
+      "ten": "Về nhãn hàng hóa",
       "co_quan": "CP",
       "ngay_ban_hanh": "2017-04-14",
-      "tinh_trang": "CON_HIEU_LUC",
+      "hieu_luc_tu": "2017-06-01",
+      "het_hieu_luc_tu": "2026-01-23",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
+        "kiem-tra-chuyen-nganh/nhan-hang-hoa",
         "quan-ly-ngoai-thuong"
       ],
       "nguon": [
         {
-          "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx",
-          "truy_cap": "2026-10-22"
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=189385",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2017/04/43.signed.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=216764&pageid=27160",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/37-1.signed.pdf",
+          "truy_cap": "2026-11-12"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "theo issue #224: mẫu nhãn trong hồ sơ công bố mỹ phẩm; CẦN KIỂM nghị định thay thế/sửa (vd 111/2025?) — điểm mù nâng nguồn A",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-22",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "đã đối chiếu toàn văn bản ký số trên vanban.chinhphu.vn (docid=189385, tệp 43.signed.pdf): số hiệu 43/2017/NĐ-CP, trích yếu Về nhãn hàng hóa (4 chương, 25 điều và 5 phụ lục I–V), ban hành ngày 14/04/2017, Thủ tướng Chính phủ Nguyễn Xuân Phúc ký, khoản 1 Điều 24 (Chương IV, Hiệu lực thi hành — bản in PDF đánh trùng số hai điều liên tiếp đều là Điều 24, khuyết số Điều 23) quy định có hiệu lực thi hành từ ngày 01/06/2017 và thay thế Nghị định số 89/2006/NĐ-CP ngày 30/08/2006; đã được sửa đổi, bổ sung một số điều bởi Nghị định số 111/2021/NĐ-CP ngày 09/12/2021 (hiệu lực từ 15/02/2022); hết hiệu lực toàn bộ kể từ ngày 23/01/2026 do bị bãi bỏ theo khoản 1 và điểm b khoản 4 Điều 97 Nghị định số 37/2026/NĐ-CP ngày 23/01/2026 của Chính phủ (vanban.chinhphu.vn docid=216764, tệp 37-1.signed.pdf; quy định chuyển tiếp đối với hàng hóa, nhãn và bao bì thương phẩm sản xuất, nhập khẩu, in ấn trước ngày 23/01/2026 tại khoản 3 và khoản 4 Điều 98 Nghị định 37/2026/NĐ-CP)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Ghi nhãn hàng hóa (nhãn mỹ phẩm trong hồ sơ công bố).",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/43-2017-nd-cp.pdf",
+      "ghi_chu": "Quy định về nội dung, cách ghi và quản lý nhà nước về nhãn đối với hàng hóa lưu thông tại Việt Nam và hàng hóa xuất khẩu, nhập khẩu (đã được sửa đổi, bổ sung một số điều bởi Nghị định 111/2021/NĐ-CP). Hết hiệu lực toàn bộ từ ngày 23/01/2026 theo điểm b khoản 4 Điều 97 Nghị định 37/2026/NĐ-CP; quy định chuyển tiếp tại khoản 3 và khoản 4 Điều 98 Nghị định 37/2026/NĐ-CP (hàng hóa có nhãn đúng quy định NĐ 43/2017/NĐ-CP và NĐ 111/2021/NĐ-CP đã sản xuất, nhập khẩu, lưu thông trước ngày 23/01/2026 tiếp tục được lưu thông đến hết hạn sử dụng; nhãn và bao bì thương phẩm đã sản xuất, in ấn trước ngày 23/01/2026 tiếp tục được sử dụng không quá 02 năm kể từ ngày 23/01/2026).",
       "slug": "43-2017-nd-cp",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_sua_doi_boi": [
           {
@@ -84765,11 +84807,19 @@
       "co_quan": "BTC",
       "ngay_ban_hanh": "2020-11-11",
       "hieu_luc_tu": "2020-12-26",
-      "tinh_trang": "CON_HIEU_LUC",
+      "het_hieu_luc_tu": "2022-12-26",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "xu-phat"
       ],
       "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "155/2016/TT-BTC",
+            "can_cu": "Điều 4 khoản 1",
+            "tu_ngay": "2020-12-26"
+          }
+        ],
         "huong_dan": [
           "128/2020/NĐ-CP"
         ]
@@ -84777,17 +84827,41 @@
       "nguon": [
         {
           "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-90-2020-tt-btc-32537/33457.htm",
-          "truy_cap": "2026-10-04"
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2020/11/32537/33454-1-20201121-112290-2020-tt-btc.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=201785",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/12/90-btc.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-77-2022-tt-btc-38420.htm",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/12/38420/42759-1-202307-0877-2022-tt-btc.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-77-2022-tt-btc-bai-bo-thong-tu-so-90-2020-tt-btc-ngay-11-thang-11-nam-2020-cua-bo-truong-bo-tai-chinh-quy-dinh-cac-bieu-mau-su-dung-de-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-hai-quan--158218",
+          "truy_cap": "2026-11-12"
         }
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cay-du-lieu-agent"
+        "pham_vi": "đã đối chiếu toàn văn trên Công báo Chính phủ (số 1121+1122 ngày 06/12/2020, tệp 33454-1-20201121-112290-2020-tt-btc.pdf) và vanban.chinhphu.vn (docid=201785, tệp 90-btc.pdf): số hiệu 90/2020/TT-BTC, ban hành ngày 11/11/2020 (Thứ trưởng Bộ Tài chính Vũ Thị Mai ký), gồm 5 điều và Phụ lục 63 biểu mẫu (MQĐ 01–MQĐ 36, MBB 01–MBB 26, MTB 01), khoản 1 Điều 4 quy định có hiệu lực từ ngày 26/12/2020 và thay thế Thông tư 155/2016/TT-BTC; hết hiệu lực toàn bộ kể từ ngày 26/12/2022 do bị bãi bỏ toàn bộ theo Điều 1 và khoản 1 Điều 2 Thông tư số 77/2022/TT-BTC ngày 26/12/2022 của Bộ trưởng Bộ Tài chính (Công báo số 07+08 ngày 04/01/2023, tệp 42759-1-202307-0877-2022-tt-btc.pdf; CSDLQG vbpl.vn ID 158218; theo khoản 2 Điều 2 Thông tư 77/2022/TT-BTC, các mẫu biên bản và mẫu quyết định xử phạt VPHC trong lĩnh vực hải quan thực hiện theo Phụ lục kèm theo Nghị định 118/2021/NĐ-CP)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Làm dày nhánh xu-phat (cặp với 128/2020/NĐ-CP).",
+      "ghi_chu": "Quy định hệ thống 63 biểu mẫu xử phạt vi phạm hành chính trong lĩnh vực hải quan hướng dẫn Nghị định 128/2020/NĐ-CP (thay thế Thông tư 155/2016/TT-BTC). Đã hết hiệu lực toàn bộ từ ngày 26/12/2022 do bị bãi bỏ toàn bộ theo Điều 1 và khoản 1 Điều 2 Thông tư 77/2022/TT-BTC; từ ngày 26/12/2022, các mẫu biên bản và mẫu quyết định xử phạt VPHC trong lĩnh vực hải quan áp dụng theo Phụ lục ban hành kèm theo Nghị định 118/2021/NĐ-CP (khoản 2 Điều 2 Thông tư 77/2022/TT-BTC).",
       "tu_khoa": [
         "xu-phat",
         "bieu-mau"
