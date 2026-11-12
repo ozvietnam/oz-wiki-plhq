@@ -419,7 +419,7 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  n_121_Q__BCT["121/QĐ-BCT<br/>chưa xác minh"]
+  n_121_Q__BCT["121/QĐ-BCT<br/>còn hiệu lực"]
   n_2491_Q__BCT["2491/QĐ-BCT<br/>hết hiệu lực"]
   n_1309_Q__BCT["1309/QĐ-BCT<br/>còn hiệu lực"]
   n_1578_Q__BCT["1578/QĐ-BCT<br/>chưa xác minh"]
@@ -434,7 +434,7 @@ flowchart LR
   n_10_2018_N__CP["10/2018/NĐ-CP<br/>hết hiệu lực"]
   n_915_Q__BCT["915/QĐ-BCT<br/>chưa xác minh"]
   n_1978_Q__BCT["1978/QĐ-BCT<br/>còn hiệu lực"]
-  n_121_Q__BCT -->|thay thế| n_2491_Q__BCT
+  n_121_Q__BCT -->|thay thế từ 2026-01-19| n_2491_Q__BCT
   n_1309_Q__BCT -->|bãi bỏ từ 2026-06-16| n_1578_Q__BCT
   n_1309_Q__BCT -->|bãi bỏ từ 2026-06-16| n_2961_Q__BCT
   n_1309_Q__BCT -->|bãi bỏ từ 2026-06-16| n_1989_Q__BCT
