@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-12",
   "luoc_do_phien_ban": "1.3.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2465,
+  "tong": 2473,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -1801,19 +1801,12 @@
       "slug": "08-2015-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
-        "bi_sua_doi_boi": [
+        "duoc_huong_dan_boi": [
           {
-            "tu": "167/2025/NĐ-CP",
-            "quan_he": "sua_doi",
+            "tu": "12/2015/TT-BTC",
+            "quan_he": "huong_dan",
             "so_hieu": "08/2015/NĐ-CP"
           },
-          {
-            "tu": "59/2018/NĐ-CP",
-            "quan_he": "sua_doi",
-            "so_hieu": "08/2015/NĐ-CP"
-          }
-        ],
-        "duoc_huong_dan_boi": [
           {
             "tu": "191/2015/TT-BTC",
             "quan_he": "huong_dan",
@@ -1831,6 +1824,18 @@
             "pham_vi": "quy định chi tiết Điều 14, 15 về phân loại mức độ rủi ro và phân luồng kiểm tra hải quan",
             "tu_ngay": "2020-01-01",
             "can_cu": "Điều 13 khoản 1 và Điều 15 khoản 1 Thông tư 81/2019/TT-BTC"
+          }
+        ],
+        "bi_sua_doi_boi": [
+          {
+            "tu": "167/2025/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "08/2015/NĐ-CP"
+          },
+          {
+            "tu": "59/2018/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "08/2015/NĐ-CP"
           }
         ]
       }
@@ -9334,6 +9339,55 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "12/2015/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Quy định chi tiết thủ tục cấp Chứng chỉ nghiệp vụ khai hải quan; cấp và thu hồi mã số nhân viên đại lý làm thủ tục hải quan; trình tự, thủ tục công nhận và hoạt động của đại lý làm thủ tục hải quan",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2015-01-30",
+      "hieu_luc_tu": "2015-03-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "54/2014/QH13",
+          "08/2015/NĐ-CP"
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=179327",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2015/03/12-tt.signed.pdf",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đã đối chiếu toàn văn bản ký số 28 trang trên vanban.chinhphu.vn (docid=179327, Thứ trưởng Đỗ Hoàng Anh Tuấn ký): số hiệu, tên, ngày ban hành 30/01/2015, Điều 16 khoản 1 hiệu lực từ 15/03/2015 và thay thế Thông tư 80/2011/TT-BTC; đang còn hiệu lực (được sửa đổi, bổ sung một phần bởi Thông tư 22/2019/TT-BTC và Thông tư 25/2026/TT-BTC)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Nạp từ điểm mù CAO (OZV-556) — văn bản gốc được sửa đổi, bổ sung một phần bởi Thông tư 25/2026/TT-BTC.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/12-2015-tt-btc.pdf",
+      "slug": "12-2015-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "25/2026/TT-BTC",
+            "quan_he": "sua_doi",
+            "so_hieu": "12/2015/TT-BTC",
+            "tu_ngay": "2026-05-10"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "12/2017/TT-BTC",
       "loai": "THONG_TU",
       "ten": "Hướng dẫn trình tự, thủ tục hỗ trợ vốn đầu tư thiết bị của dự án triển khai ứng dụng sáng chế bảo vệ môi trường",
@@ -9560,6 +9614,51 @@
             "pham_vi": "khoản 2–3 Điều 3; Điều 6–7; thay Phụ lục I–II",
             "tu_ngay": "2025-02-15",
             "can_cu": "Điều 1 TT 62/2024/TT-BGTVT"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "12/2025/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Quy định việc đăng ký lưu hành thuốc, nguyên liệu làm thuốc",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2025-05-16",
+      "hieu_luc_tu": "2025-07-01",
+      "het_hieu_luc_tu": "2026-10-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=213708",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/5/12-byt.pdf",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đã đối chiếu toàn văn 56 điều trên vanban.chinhphu.vn (docid=213708, bản PDF 12-byt.pdf do Thứ trưởng Đỗ Xuân Tuyên ký): số hiệu, tên, ngày ban hành 16/05/2025, Điều 52 khoản 1 hiệu lực từ 01/07/2025 (thay thế TT 08/2022/TT-BYT, TT 16/2023/TT-BYT, TT 55/2024/TT-BYT); hết hiệu lực từ 01/10/2026 khi bị thay thế bởi Thông tư 32/2026/TT-BYT ngày 29/07/2026",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Nạp từ điểm mù CAO (OZV-556) — văn bản gốc bị thay thế bởi Thông tư 32/2026/TT-BYT từ 01/10/2026.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/12-2025-tt-byt.pdf",
+      "slug": "12-2025-tt-byt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "32/2026/TT-BYT",
+            "quan_he": "thay_the",
+            "so_hieu": "12/2025/TT-BYT",
+            "pham_vi": "các quy định về đăng ký lưu hành thuốc, nguyên liệu làm thuốc",
+            "tu_ngay": "2026-10-01"
           }
         ]
       }
@@ -16740,6 +16839,55 @@
             "so_hieu": "1578/QĐ-BCT",
             "tu_ngay": "2026-06-16",
             "can_cu": "Điều 3 khoản 1 QĐ 1309/QĐ-BCT"
+          }
+        ]
+      }
+    },
+    {
+      "so_hieu": "158/2013/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định xử phạt vi phạm hành chính trong lĩnh vực văn hóa, thể thao, du lịch và quảng cáo",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2013-11-12",
+      "hieu_luc_tu": "2014-01-01",
+      "het_hieu_luc_tu": "2021-06-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "xu-phat",
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-158-2013-nd-cp-9565.htm",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2013/11/9565/5607-1-2013819-820-1582013nd-cppdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-158-2013-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-van-hoa-the-thao-du-lich-va-quang-cao--32580",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đã đối chiếu toàn văn trên Công báo (số 819+820 ngày 26/11/2013) và CSDLQG vbpl.vn (ID 32580): số hiệu, tên, ngày ban hành 12/11/2013, Điều 84 khoản 1 hiệu lực từ 01/01/2014; được sửa đổi, bổ sung bởi Nghị định 28/2017/NĐ-CP; hết hiệu lực toàn bộ từ 01/06/2021 (vbpl.vn effTo 2021-06-01, effStatus HHL khi Nghị định 38/2021/NĐ-CP ngày 29/03/2021 có hiệu lực thay thế phần văn hóa và quảng cáo sau khi phần thể thao và du lịch đã bị thay bởi Nghị định 46/2019/NĐ-CP và Nghị định 45/2019/NĐ-CP)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Nạp từ điểm mù CAO (OZV-556) — văn bản gốc được sửa đổi, bổ sung bởi Nghị định 28/2017/NĐ-CP (thẩm quyền xử phạt của Hải quan với văn hóa phẩm XNK).",
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/158-2013-nd-cp.pdf",
+      "slug": "158-2013-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "28/2017/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "158/2013/NĐ-CP",
+            "tu_ngay": "2017-05-05"
           }
         ]
       }
@@ -38770,6 +38918,53 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "29/2019/TT-BNN",
+      "so_hieu_khac": [
+        "29/2019/TT-BNNPTNT"
+      ],
+      "loai": "THONG_TU",
+      "ten": "Quy định xử lý động vật rừng là tang vật, vật chứng; động vật rừng do tổ chức, cá nhân tự nguyện giao nộp Nhà nước",
+      "co_quan": "BNNPTNT",
+      "ngay_ban_hanh": "2019-12-31",
+      "hieu_luc_tu": "2020-02-20",
+      "het_hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=198849",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/01/29-bnnptnt.signed.pdf",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đã đối chiếu toàn văn bản ký số 21 trang trên vanban.chinhphu.vn (docid=198849, Thứ trưởng Hà Công Tuấn ký): ký hiệu đầy đủ 29/2019/TT-BNNPTNT (viết tắt trong một số văn bản/sổ là 29/2019/TT-BNN), ngày ban hành 31/12/2019, Điều 18 khoản 1 hiệu lực từ 20/02/2020 và khoản 2 thay thế Thông tư 90/2008/TT-BNN; hết hiệu lực từ 01/07/2025 do bị khoản 3 Điều 33 Thông tư 26/2025/TT-BNNMT bãi bỏ toàn bộ",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Nạp từ điểm mù CAO (OZV-556) — văn bản gốc bị khoản 3 Điều 33 Thông tư 26/2025/TT-BNNMT bãi bỏ toàn bộ từ 01/07/2025. Giữ so_hieu 29/2019/TT-BNN và khai so_hieu_khac 29/2019/TT-BNNPTNT để khớp cả quan_he trong 26-2025-tt-bnnmt.yaml và bài wiki.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/29-2019-tt-bnn.pdf",
+      "slug": "29-2019-tt-bnn",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "26/2025/TT-BNNMT",
+            "quan_he": "bai_bo",
+            "so_hieu": "29/2019/TT-BNN",
+            "tu_ngay": "2025-07-01"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "29/2020/TT-BYT",
       "loai": "THONG_TU",
       "ten": "Sửa đổi, bổ sung và bãi bỏ một số văn bản quy phạm pháp luật do Bộ trưởng Bộ Y tế ban hành, liên tịch ban hành",
@@ -48354,6 +48549,50 @@
       "het_hieu_luc_tu": "2030-01-08",
       "toan_van": "raw/download/pvtm.gov.vn/3453-qd-bct.pdf",
       "slug": "3453-qd-bct-2024",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "346/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định phí bảo vệ môi trường đối với nước thải",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-12-29",
+      "hieu_luc_tu": "2026-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "53/2020/NĐ-CP",
+            "tu_ngay": "2026-01-01",
+            "pham_vi": "toàn bộ",
+            "can_cu": "Điều 10 khoản 1 Nghị định 346/2025/NĐ-CP"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=216402",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/346-ndcp.signed.pdf",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đã đối chiếu toàn văn bản ký số 10 trang trên vanban.chinhphu.vn (docid=216402, Phó Thủ tướng Hồ Đức Phớc ký): số hiệu, tên, ngày ban hành 29/12/2025, Điều 10 khoản 1 hiệu lực từ 01/01/2026 và thay thế toàn bộ Nghị định 53/2020/NĐ-CP ngày 05/05/2020",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Nạp từ điểm mù CAO (OZV-556) — thay thế Nghị định 53/2020/NĐ-CP từ 01/01/2026; đồng thời chỉnh lại chiều quan hệ thay_the từ 53-2020-nd-cp.yaml sang 346-2025-nd-cp.yaml.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/346-2025-nd-cp.pdf",
+      "slug": "346-2025-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -66180,24 +66419,26 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Đã đối chiếu trực tiếp vanban.chinhphu.vn: số hiệu, tên (Quy định phí bảo vệ môi trường đối với nước thải), cơ quan Chính phủ, ngày ban hành 05/05/2020, ngày hiệu lực 01/07/2020. Tình trạng hết hiệu lực từ 01/01/2026 và việc bị thay thế bởi NĐ 346/2025/NĐ-CP (29/12/2025, HL 01/01/2026) lấy từ TVPL Q&A + luatvietnam + bài cáo 346/2025 trên vanban (docid 216402) — chưa đối chiếu CSDL hợp nhất quốc gia. Được sửa trước đó bởi NĐ 05/2025/NĐ-CP (nguồn TVPL Q&A, chưa kiểm chứng riêng).",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-06",
-        "boi": "zcode@ozvietnam"
+        "pham_vi": "Đã đối chiếu trực tiếp vanban.chinhphu.vn: số hiệu, tên (Quy định phí bảo vệ môi trường đối với nước thải), cơ quan Chính phủ, ngày ban hành 05/05/2020, ngày hiệu lực 01/07/2020. Tình trạng hết hiệu lực toàn bộ từ 01/01/2026 đối chiếu trực tiếp Điều 10 khoản 1 Nghị định 346/2025/NĐ-CP ngày 29/12/2025 (vanban.chinhphu.vn docid 216402, bản ký số 346-ndcp.signed.pdf).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "bo-ba-01@ozvietnam"
       },
-      "quan_he": {
-        "thay_the": [
-          {
-            "so_hieu": "346/2025/NĐ-CP",
-            "pham_vi": "toàn bộ",
-            "can_cu": "vanban.chinhphu.vn đăng NĐ 346/2025/NĐ-CP ngày 29/12/2025 (docid 216402, HL 01/01/2026) cùng trích yếu trùng lĩnh vực; TVPL Q&A \"NĐ 53/2020 còn hiệu lực không?\" và luatvietnam xác nhận 346/2025 thay thế 53/2020 từ 01/01/2026."
-          }
-        ]
-      },
-      "ghi_chu": "Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Liên quan XNK gián tiếp: phí môi trường nước thải mà cơ sở sản xuất/gia công hàng XNK tại VN phải nộp; không điều chỉnh trực tiếp thủ tục hay chế độ hàng hóa XNK.",
+      "ghi_chu": "Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11; bị thay thế toàn bộ bởi Nghị định 346/2025/NĐ-CP từ 01/01/2026 (quan hệ thay_the khai ở phiếu 346/2025/NĐ-CP theo đúng chiều văn bản mới thay văn bản cũ). Liên quan XNK gián tiếp: phí môi trường nước thải mà cơ sở sản xuất/gia công hàng XNK tại VN phải nộp; không điều chỉnh trực tiếp thủ tục hay chế độ hàng hóa XNK.",
       "slug": "53-2020-nd-cp",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "346/2025/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "53/2020/NĐ-CP",
+            "tu_ngay": "2026-01-01",
+            "pham_vi": "toàn bộ",
+            "can_cu": "Điều 10 khoản 1 Nghị định 346/2025/NĐ-CP"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "530/TB-TCHQ/2018",
@@ -66895,6 +67136,11 @@
         "duoc_huong_dan_boi": [
           {
             "tu": "08/2015/NĐ-CP",
+            "quan_he": "huong_dan",
+            "so_hieu": "54/2014/QH13"
+          },
+          {
+            "tu": "12/2015/TT-BTC",
             "quan_he": "huong_dan",
             "so_hieu": "54/2014/QH13"
           },
@@ -69751,6 +69997,45 @@
       "slug": "5828-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "583/QĐ-TCHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Ban hành Danh mục hàng hóa xuất khẩu, nhập khẩu rủi ro về phân loại hàng hóa và áp dụng mức thuế",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2019-03-22",
+      "hieu_luc_tu": "2019-04-01",
+      "het_hieu_luc_tu": "2021-07-19",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/so-tay-nghiep-vu"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.ts24.com.vn/support/solutions/articles/16000123454-quy%E1%BA%BFt-%C4%91%E1%BB%8Bnh-583-q%C4%91-tchq-danh-m%E1%BB%A5c-h%C3%A0ng-h%C3%B3a-xu%E1%BA%A5t-kh%E1%BA%A9u-nh%E1%BA%ADp-kh%E1%BA%A9u-r%E1%BB%A7i-ro-v%E1%BB%81-ph%C3%A2n-lo%E1%BA%A1i-h%C3%A0ng-h%C3%B3a-v%C3%A0-%C3%A1p-d%E1%BB%A5ng",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "đã đọc toàn văn 7 điều Quyết định 583/QĐ-TCHQ ngày 22/03/2019 do Phó Tổng cục trưởng Nguyễn Dương Thái ký trên TS24; Điều 2 quy định văn bản lưu hành nội bộ ngành hải quan (không đăng Công báo/vbpl.vn/vanban.chinhphu.vn); Điều 6 quy định có hiệu lực từ 01/04/2019; hết hiệu lực từ 19/07/2021 khi bị thay thế bởi Quyết định 2079/QĐ-TCHQ ngày 19/07/2021",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-12",
+        "boi": "bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Nạp từ điểm mù CAO (OZV-556) — văn bản gốc bị thay thế bởi Quyết định 2079/QĐ-TCHQ. Điều 6 Quyết định 583/QĐ-TCHQ thay thế Quyết định 2844/QĐ-TCHQ ngày 28/09/2018 và Quyết định 3945/QĐ-TCHQ ngày 20/11/2018 (không đưa vào quan_he.thay_the vì 2 QĐ nội bộ cũ chưa nằm trong phạm vi sổ).",
+      "slug": "583-qd-tchq-2019",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "2079/QĐ-TCHQ",
+            "quan_he": "thay_the",
+            "so_hieu": "583/QĐ-TCHQ",
+            "tu_ngay": "2021-07-19"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "5852/TB-TCHQ/2018",
@@ -74447,6 +74732,61 @@
       "slug": "6499-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "65/2017/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Ban hành Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2017-06-27",
+      "hieu_luc_tu": "2018-01-01",
+      "het_hieu_luc_tu": "2022-12-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs/danh-muc",
+        "phan-loai-hs/chu-giai"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=190622",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-65-2017-tt-btc-24305.htm",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-65-2017-tt-btc-ban-hanh-danh-muc-hang-hoa-xuat-khau-nhap-khau-viet-nam--123192",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vbpl-bientap-gateway.moj.gov.vn/api/qtdc/public/doc/minio/buckets/vbpl/123192/VanBanGoc_TT65.2017.BTC.PDF/download",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đã đối chiếu toàn văn 2 trang PDF gốc ký số (VanBanGoc_TT65.2017.BTC.PDF, Bộ Tài chính ký số 10/07/2017 15:28, Thứ trưởng Vũ Thị Mai ký) trên CSDLQG vbpl.vn (ID 123192), vanban.chinhphu.vn (docid=190622) và Công báo (số 529+530 ngày 31/07/2017): số hiệu, tên, ngày ban hành 27/06/2017, Điều 1 ban hành kèm theo 2 phụ lục (Danh mục hàng hóa XNK Việt Nam và 6 quy tắc tổng quát), Điều 4 khoản 1 hiệu lực từ 01/01/2018 và khoản 2 thay thế Thông tư 103/2015/TT-BTC; được sửa đổi, bổ sung một phần bởi Thông tư 09/2019/TT-BTC; hết hiệu lực từ 01/12/2022 do bị khoản 2 Điều 4 Thông tư 31/2022/TT-BTC thay thế toàn bộ (vbpl.vn effTo 2022-12-01, effStatus HHL)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Nạp từ điểm mù CAO (OZV-556) — Danh mục hàng hóa XNK Việt Nam giai đoạn AHTN 2017 (01/01/2018 – 30/11/2022), bị thay thế bởi Thông tư 31/2022/TT-BTC từ 01/12/2022.",
+      "toan_van": "raw/download/vbpl.vn/65-2017-tt-btc.pdf",
+      "slug": "65-2017-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "31/2022/TT-BTC",
+            "quan_he": "thay_the",
+            "so_hieu": "65/2017/TT-BTC",
+            "pham_vi": "toàn bộ Danh mục",
+            "tu_ngay": "2022-12-01",
+            "can_cu": "Điều 4 khoản 2 TT 31/2022/TT-BTC"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "65/2023/NĐ-CP",
@@ -79483,6 +79823,56 @@
       "slug": "7299-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "73/2018/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định các danh mục chất ma túy và tiền chất",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2018-05-15",
+      "hieu_luc_tu": "2018-05-15",
+      "het_hieu_luc_tu": "2022-08-25",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct",
+        "kiem-tra-chuyen-nganh/byt",
+        "kiem-tra-chuyen-nganh/bca"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-73-2018-nd-cp-26561.htm",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/5/26561/22591-1-2018677-67873-2018-nd-cp.pdf",
+          "truy_cap": "2026-11-12"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-73-2018-nd-cp-quy-dinh-cac-danh-muc-chat-ma-tuy-va-tien-chat--135762",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đã đối chiếu toàn văn 40 trang trên Công báo (số 677+678 ngày 05/06/2018, Thủ tướng Nguyễn Xuân Phúc ký) và CSDLQG vbpl.vn (ID 135762): số hiệu, tên, ngày ban hành 15/05/2018, Điều 2 khoản 1 hiệu lực từ ngày ký ban hành 15/05/2018 (khoản 2 thay thế NĐ 82/2013/NĐ-CP và NĐ 126/2015/NĐ-CP); được sửa đổi, bổ sung một phần bởi Nghị định 60/2020/NĐ-CP; hết hiệu lực toàn bộ từ 25/08/2022 khi bị Điều 2 khoản 2 Nghị định 57/2022/NĐ-CP thay thế (vbpl.vn effTo 2022-08-25, effStatus HHL)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-12",
+        "boi": "bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Nạp từ điểm mù CAO (OZV-556) — văn bản gốc bị thay thế bởi Nghị định 57/2022/NĐ-CP từ 25/08/2022.",
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/73-2018-nd-cp.pdf",
+      "slug": "73-2018-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "57/2022/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "73/2018/NĐ-CP",
+            "tu_ngay": "2022-08-25"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "73/2021/QH14",

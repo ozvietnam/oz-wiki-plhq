@@ -1,23 +1,23 @@
 # Báo cáo điểm mù — 2026-11-12
 
-Tổng 5110 điểm: **38 cao**, 459 vừa, 4613 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 5099 điểm: **30 cao**, 455 vừa, 4614 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
 | Nhóm | Mức | Số điểm | Luồng việc |
 |---|---|---|---|
-| Được nhắc nhưng chưa có trong sổ | Cao | 12 | `he-thong-hoa` |
 | Sắp hết hiệu lực (≤60 ngày) | Cao | 8 | `hieu-luc` |
 | Ưu tiên đối chiếu — theo số mã HS đang dẫn (hs-code-api) | Cao | 7 | `hieu-luc` |
 | Cảnh báo nguồn | Cao | 6 | `truy-vet-nguon` |
+| Được nhắc nhưng chưa có trong sổ | Cao | 4 | `he-thong-hoa` |
 | Mâu thuẫn hiệu lực | Cao | 1 | `hieu-luc` |
 | Văn bản hướng dẫn mất gốc | Cao | 1 | `hieu-luc` |
 | Biểu thuế (hs-code-api) dẫn nhưng sổ chưa có | Cao | 1 | `he-thong-hoa` |
-| Chưa có nguồn chính thống | Vừa | 2112 | `truy-vet-nguon` |
-| Wiki nhắc văn bản chưa đăng ký | Vừa | 149 | `lien-ket-cheo` |
+| Chưa có nguồn chính thống | Vừa | 2113 | `truy-vet-nguon` |
+| Wiki nhắc văn bản chưa đăng ký | Vừa | 146 | `lien-ket-cheo` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 123 | `danh-muc-hs` |
 | Mã HS có hàng thật chưa đối chiếu KTCN 2026 (hs-code-api /api/demand) | Vừa | 30 | `danh-muc-hs` |
-| Biểu thuế XNK Tổng cục nêu nhưng sổ chưa có (hs-code-api skill bieu-thue-xnk) | Vừa | 29 | `he-thong-hoa` |
+| Biểu thuế XNK Tổng cục nêu nhưng sổ chưa có (hs-code-api skill bieu-thue-xnk) | Vừa | 28 | `he-thong-hoa` |
 | Văn bản danh mục chưa trích bảng mã HS | Vừa | 27 | `danh-muc-hs` |
 | Thư viện hs-code-api ghi khác sổ | Vừa | 14 | `hieu-luc` |
 | Văn bản khung thiếu thông tin | Vừa | 10 | `he-thong-hoa` |
@@ -30,21 +30,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay | Thấp | 13 | `hieu-luc` |
 | Chưa xếp vào cây | Thấp | 12 | `cay-du-lieu` |
 | HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp) | Thấp | 8 | `hieu-luc` |
-
-## Được nhắc nhưng chưa có trong sổ (12)
-
-- [ ] **Chưa có trong sổ: 583/QĐ-TCHQ** — Tạo registry/van-ban/ cho 583/QĐ-TCHQ (được nhắc bởi 2079/QĐ-TCHQ (thay_the)). Dùng: node tools/them-van-ban.mjs "583/QĐ-TCHQ"
-- [ ] **Chưa có trong sổ: 12/2015/TT-BTC** — Tạo registry/van-ban/ cho 12/2015/TT-BTC (được nhắc bởi 25/2026/TT-BTC (sua_doi)). Dùng: node tools/them-van-ban.mjs "12/2015/TT-BTC"
-- [ ] **Chưa có trong sổ: 29/2019/TT-BNN** — Tạo registry/van-ban/ cho 29/2019/TT-BNN (được nhắc bởi 26/2025/TT-BNNMT (bai_bo)). Dùng: node tools/them-van-ban.mjs "29/2019/TT-BNN"
-- [ ] **Chưa có trong sổ: 158/2013/NĐ-CP** — Tạo registry/van-ban/ cho 158/2013/NĐ-CP (được nhắc bởi 28/2017/NĐ-CP (sua_doi)). Dùng: node tools/them-van-ban.mjs "158/2013/NĐ-CP"
-- [ ] **Chưa có trong sổ: 65/2017/TT-BTC** — Tạo registry/van-ban/ cho 65/2017/TT-BTC (được nhắc bởi 31/2022/TT-BTC (thay_the)). Dùng: node tools/them-van-ban.mjs "65/2017/TT-BTC"
-- [ ] **Chưa có trong sổ: 12/2025/TT-BYT** — Tạo registry/van-ban/ cho 12/2025/TT-BYT (được nhắc bởi 32/2026/TT-BYT (thay_the)). Dùng: node tools/them-van-ban.mjs "12/2025/TT-BYT"
-- [ ] **Chưa có trong sổ: 346/2025/NĐ-CP** — Tạo registry/van-ban/ cho 346/2025/NĐ-CP (được nhắc bởi 53/2020/NĐ-CP (thay_the)). Dùng: node tools/them-van-ban.mjs "346/2025/NĐ-CP"
-- [ ] **Chưa có trong sổ: 73/2018/NĐ-CP** — Tạo registry/van-ban/ cho 73/2018/NĐ-CP (được nhắc bởi 57/2022/NĐ-CP (thay_the)). Dùng: node tools/them-van-ban.mjs "73/2018/NĐ-CP"
-- [ ] **Chưa có trong sổ: 23/2000/QH10** — Tạo registry/van-ban/ cho 23/2000/QH10 (được nhắc bởi 73/2021/QH14 (thay_the)). Dùng: node tools/them-van-ban.mjs "23/2000/QH10"
-- [ ] **Chưa có trong sổ: 464/QĐ-BTC** — Tạo registry/van-ban/ cho 464/QĐ-BTC (được nhắc bởi 81/2019/TT-BTC (bai_bo)). Dùng: node tools/them-van-ban.mjs "464/QĐ-BTC"
-- [ ] **Chưa có trong sổ: 465/QĐ-BTC** — Tạo registry/van-ban/ cho 465/QĐ-BTC (được nhắc bởi 81/2019/TT-BTC (bai_bo)). Dùng: node tools/them-van-ban.mjs "465/QĐ-BTC"
-- [ ] **Chưa có trong sổ: 96/2023/NĐ-CP** — Tạo registry/van-ban/ cho 96/2023/NĐ-CP (được nhắc bởi 98/2021/NĐ-CP (sua_doi)). Dùng: node tools/them-van-ban.mjs "96/2023/NĐ-CP"
 
 ## Sắp hết hiệu lực (≤60 ngày) (8)
 
@@ -76,6 +61,13 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **65/2023/NĐ-CP: Việc thay thế NĐ 103/2006 đọc từ nguồn thứ cấp nhất quán (TVPL + báo Chính phủ); PDF ký là bản scan, chưa OCR được điều khoản thi hành.** — Xác minh với cơ quan ban hành hoặc Công báo.
 - [ ] **93/2025/QH15: Chưa có trang văn bản riêng đã đối chiếu; đây là lần sửa đổi thứ tư của Luật SHTT theo VBHN 155 — ngoài ra luật này còn tác động lên các luật khác không ghi ở đây.** — Xác minh với cơ quan ban hành hoặc Công báo.
 
+## Được nhắc nhưng chưa có trong sổ (4)
+
+- [ ] **Chưa có trong sổ: 23/2000/QH10** — Tạo registry/van-ban/ cho 23/2000/QH10 (được nhắc bởi 73/2021/QH14 (thay_the)). Dùng: node tools/them-van-ban.mjs "23/2000/QH10"
+- [ ] **Chưa có trong sổ: 464/QĐ-BTC** — Tạo registry/van-ban/ cho 464/QĐ-BTC (được nhắc bởi 81/2019/TT-BTC (bai_bo)). Dùng: node tools/them-van-ban.mjs "464/QĐ-BTC"
+- [ ] **Chưa có trong sổ: 465/QĐ-BTC** — Tạo registry/van-ban/ cho 465/QĐ-BTC (được nhắc bởi 81/2019/TT-BTC (bai_bo)). Dùng: node tools/them-van-ban.mjs "465/QĐ-BTC"
+- [ ] **Chưa có trong sổ: 96/2023/NĐ-CP** — Tạo registry/van-ban/ cho 96/2023/NĐ-CP (được nhắc bởi 98/2021/NĐ-CP (sua_doi)). Dùng: node tools/them-van-ban.mjs "96/2023/NĐ-CP"
+
 ## Mâu thuẫn hiệu lực (1)
 
 - [ ] **43/2017/NĐ-CP còn ghi "còn hiệu lực" nhưng đã bị bãi bỏ bởi 37/2026/NĐ-CP** — Đối chiếu nguồn A rồi sửa tinh_trang/het_hieu_luc_tu trong registry/van-ban/43-2017-nd-cp.yaml, hoặc sửa quan hệ ở văn bản 37/2026/NĐ-CP nếu sai.
@@ -88,7 +80,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 
 - [ ] **Biểu thuế dẫn nhưng sổ chưa có: 33/2024/NĐ-CP (60 mã HS)** — 60 mã HS trong hs-code-api dẫn văn bản này ở cột chính sách. Thêm vào sổ: node tools/them-van-ban.mjs "33/2024/NĐ-CP"
 
-## Chưa có nguồn chính thống (2112)
+## Chưa có nguồn chính thống (2113)
 
 - [ ] **03/2019/TT-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **03/2024/TT-BNNPTNT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
@@ -130,9 +122,9 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **26/2015/TT-BTC: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **273/2026/NĐ-CP: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **29/2012/QH12: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- … và 2072 điểm khác (xem bao-cao/diem-mu.json)
+- … và 2073 điểm khác (xem bao-cao/diem-mu.json)
 
-## Wiki nhắc văn bản chưa đăng ký (149)
+## Wiki nhắc văn bản chưa đăng ký (146)
 
 - [ ] **Wiki nhắc 121/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/cptpp.md, wiki/sources/127-qd-ttg-2026.md).
 - [ ] **Wiki nhắc 35/2019/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/dong-vat-hoang-da-nguy-cap.md).
@@ -154,7 +146,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Wiki nhắc 31/2020/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/xuat-xu-fta.md).
 - [ ] **Wiki nhắc 101/2016/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/log.md, wiki/sources/81-2019-tt-btc.md).
 - [ ] **Wiki nhắc 14/2024/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/readings/105-2016-qh13/03-chuong-iii-quan-ly-thuoc.md).
-- [ ] **Wiki nhắc 12/2025/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/readings/105-2016-qh13/03-chuong-iii-quan-ly-thuoc.md).
 - [ ] **Wiki nhắc 15/2017/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/01-2022-tt-bnnptnt.md).
 - [ ] **Wiki nhắc 25/2016/TT-BNNPTNT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/01-2026-tt-bnnmt.md).
 - [ ] **Wiki nhắc 42/2013/QH13 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/02-2011-qh13.md, wiki/sources/81-2025-qh15.md).
@@ -174,7 +165,8 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Wiki nhắc 06/2021/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2017-tt-bct.md).
 - [ ] **Wiki nhắc 28/2021/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2017-tt-bct.md, wiki/sources/48-2026-tt-bct.md).
 - [ ] **Wiki nhắc 98/2017/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2022-tt-bct.md, wiki/sources/765-qd-bct.md).
-- … và 109 điểm khác (xem bao-cao/diem-mu.json)
+- [ ] **Wiki nhắc 99/2015/QH13 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2026-qh16.md).
+- … và 106 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Mã HS trong bảng không có trong biểu thuế (123)
 
@@ -253,7 +245,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Hàng thật mã 96020090 chưa đối chiếu danh mục KTCN 2026** — Món hàng thật (OZ, gặp gần nhất 2026-10-26) mang mã 96020090 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Chưa bảng KTCN 2026 nào có dòng nhóm 9602 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.
 - [ ] **Hàng thật mã 96170010 chưa đối chiếu danh mục KTCN 2026** — Món hàng thật (OZ, gặp gần nhất 2026-11-02) mang mã 96170010 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Biểu thuế đang dẫn: 08/2023/TT-BCT. Chưa bảng KTCN 2026 nào có dòng nhóm 9617 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.
 
-## Biểu thuế XNK Tổng cục nêu nhưng sổ chưa có (hs-code-api skill bieu-thue-xnk) (29)
+## Biểu thuế XNK Tổng cục nêu nhưng sổ chưa có (hs-code-api skill bieu-thue-xnk) (28)
 
 - [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 34/2024/NĐ-CP** — văn bản hiện hành của biểu/danh mục — Danh mục hóa chất Bảng 1,2,3 / Danh mục hóa chất nhập khẩu phải khai báo trước khi thông quan qua cổng thông tin một cửa  / Danh mục hóa chất Hóa chất cấm đầu tư kinh doanh theo quy định của Luật Đầu tư. Thêm vào sổ: node tools/them-van-ban.mjs "34/2024/NĐ-CP"
 - [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 01/2022/TT-BNNPTNN** — văn bản hiện hành của biểu/danh mục — Động vật, sản phẩm động vật trên cạn thuộc diện phải kiểm dịch / Giống vật nuôi cấm xuất khẩu / Giống vật nuôi cần bảo tồn. Thêm vào sổ: node tools/them-van-ban.mjs "01/2022/TT-BNNPTNN"
@@ -282,7 +274,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 53/2021/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Liên hiệp Vương quốc Anh và Bắc Ai-len / Biểu thuế NK ưu đãi đặc biệt UKVFTA. Thêm vào sổ: node tools/them-van-ban.mjs "53/2021/NĐ-CP"
 - [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 57/2019/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác Toàn diện  / Biểu thuế xuất khẩu ưu đãi để thực hiện hiệp định CPTPP. Thêm vào sổ: node tools/them-van-ban.mjs "57/2019/NĐ-CP"
 - [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 57/2020/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi / Biểu thuế xuất khẩu. Thêm vào sổ: node tools/them-van-ban.mjs "57/2020/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 65/2017/TT-BTC** — văn bản bị thay (theo biểu) — Danh mục hàng hóa XNK. Thêm vào sổ: node tools/them-van-ban.mjs "65/2017/TT-BTC"
 - [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 924/QĐ-BNN** — văn bản bị thay (theo biểu) — HH là mẫu vật động vật rừng nguy cấp, quý, hiếm và động vật thuộc các phụ lục CITES / HH là mẫu vật thực vật rừng nguy cấp, quý hiếm; thực vật thuộc các phụ lục CITES / Đồ trang sức làm bằng chất liệu thực vật rừng, động vật rừng nguy cấp, quý, hiếm và động v. Thêm vào sổ: node tools/them-van-ban.mjs "924/QĐ-BNN"
 
 ## Văn bản danh mục chưa trích bảng mã HS (27)

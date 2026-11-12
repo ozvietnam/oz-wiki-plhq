@@ -1,79 +1,7 @@
 {
   "ngay": "2026-11-12",
-  "tong": 5110,
+  "tong": 5099,
   "diem": [
-    {
-      "ma": "THIEU_VAN_BAN",
-      "muc": "Cao",
-      "tieuDe": "Chưa có trong sổ: 583/QĐ-TCHQ",
-      "muc_tieu": "583/QĐ-TCHQ",
-      "viec": "Tạo registry/van-ban/ cho 583/QĐ-TCHQ (được nhắc bởi 2079/QĐ-TCHQ (thay_the)). Dùng: node tools/them-van-ban.mjs \"583/QĐ-TCHQ\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
-    },
-    {
-      "ma": "THIEU_VAN_BAN",
-      "muc": "Cao",
-      "tieuDe": "Chưa có trong sổ: 12/2015/TT-BTC",
-      "muc_tieu": "12/2015/TT-BTC",
-      "viec": "Tạo registry/van-ban/ cho 12/2015/TT-BTC (được nhắc bởi 25/2026/TT-BTC (sua_doi)). Dùng: node tools/them-van-ban.mjs \"12/2015/TT-BTC\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
-    },
-    {
-      "ma": "THIEU_VAN_BAN",
-      "muc": "Cao",
-      "tieuDe": "Chưa có trong sổ: 29/2019/TT-BNN",
-      "muc_tieu": "29/2019/TT-BNN",
-      "viec": "Tạo registry/van-ban/ cho 29/2019/TT-BNN (được nhắc bởi 26/2025/TT-BNNMT (bai_bo)). Dùng: node tools/them-van-ban.mjs \"29/2019/TT-BNN\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
-    },
-    {
-      "ma": "THIEU_VAN_BAN",
-      "muc": "Cao",
-      "tieuDe": "Chưa có trong sổ: 158/2013/NĐ-CP",
-      "muc_tieu": "158/2013/NĐ-CP",
-      "viec": "Tạo registry/van-ban/ cho 158/2013/NĐ-CP (được nhắc bởi 28/2017/NĐ-CP (sua_doi)). Dùng: node tools/them-van-ban.mjs \"158/2013/NĐ-CP\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
-    },
-    {
-      "ma": "THIEU_VAN_BAN",
-      "muc": "Cao",
-      "tieuDe": "Chưa có trong sổ: 65/2017/TT-BTC",
-      "muc_tieu": "65/2017/TT-BTC",
-      "viec": "Tạo registry/van-ban/ cho 65/2017/TT-BTC (được nhắc bởi 31/2022/TT-BTC (thay_the)). Dùng: node tools/them-van-ban.mjs \"65/2017/TT-BTC\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
-    },
-    {
-      "ma": "THIEU_VAN_BAN",
-      "muc": "Cao",
-      "tieuDe": "Chưa có trong sổ: 12/2025/TT-BYT",
-      "muc_tieu": "12/2025/TT-BYT",
-      "viec": "Tạo registry/van-ban/ cho 12/2025/TT-BYT (được nhắc bởi 32/2026/TT-BYT (thay_the)). Dùng: node tools/them-van-ban.mjs \"12/2025/TT-BYT\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
-    },
-    {
-      "ma": "THIEU_VAN_BAN",
-      "muc": "Cao",
-      "tieuDe": "Chưa có trong sổ: 346/2025/NĐ-CP",
-      "muc_tieu": "346/2025/NĐ-CP",
-      "viec": "Tạo registry/van-ban/ cho 346/2025/NĐ-CP (được nhắc bởi 53/2020/NĐ-CP (thay_the)). Dùng: node tools/them-van-ban.mjs \"346/2025/NĐ-CP\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
-    },
-    {
-      "ma": "THIEU_VAN_BAN",
-      "muc": "Cao",
-      "tieuDe": "Chưa có trong sổ: 73/2018/NĐ-CP",
-      "muc_tieu": "73/2018/NĐ-CP",
-      "viec": "Tạo registry/van-ban/ cho 73/2018/NĐ-CP (được nhắc bởi 57/2022/NĐ-CP (thay_the)). Dùng: node tools/them-van-ban.mjs \"73/2018/NĐ-CP\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
-    },
     {
       "ma": "THIEU_VAN_BAN",
       "muc": "Cao",
@@ -32052,15 +31980,6 @@
       "trongSo": 0
     },
     {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "53/2020/NĐ-CP: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "53/2020/NĐ-CP",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "530/TB-TCHQ/2018: chưa có nguồn chính thống",
@@ -33838,6 +33757,24 @@
       "muc": "Thấp",
       "tieuDe": "5828/TB-TCHQ/2018: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
       "muc_tieu": "5828/TB-TCHQ/2018",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Thấp",
+      "tieuDe": "583/QĐ-TCHQ: chưa có nguồn chính thống",
+      "muc_tieu": "583/QĐ-TCHQ",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "583/QĐ-TCHQ: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "583/QĐ-TCHQ",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
       "trongSo": 0
@@ -42503,15 +42440,6 @@
     {
       "ma": "WIKI_NHAC_CHUA_DANG_KY",
       "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 12/2025/TT-BYT nhưng sổ chưa có",
-      "muc_tieu": "12/2025/TT-BYT",
-      "viec": "Thêm vào sổ (wiki/readings/105-2016-qh13/03-chuong-iii-quan-ly-thuoc.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
       "tieuDe": "Wiki nhắc 15/2017/NĐ-CP nhưng sổ chưa có",
       "muc_tieu": "15/2017/NĐ-CP",
       "viec": "Thêm vào sổ (wiki/sources/01-2022-tt-bnnptnt.md).",
@@ -43196,15 +43124,6 @@
     {
       "ma": "WIKI_NHAC_CHUA_DANG_KY",
       "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 29/2019/TT-BNN nhưng sổ chưa có",
-      "muc_tieu": "29/2019/TT-BNN",
-      "viec": "Thêm vào sổ (wiki/sources/26-2025-tt-bnnmt.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
       "tieuDe": "Wiki nhắc 32/2025/TT-BYT nhưng sổ chưa có",
       "muc_tieu": "32/2025/TT-BYT",
       "viec": "Thêm vào sổ (wiki/sources/26-2026-tt-byt.md, wiki/sources/28-2026-tt-byt.md).",
@@ -43550,15 +43469,6 @@
       "tieuDe": "Wiki nhắc 18/2017/TT-BCT nhưng sổ chưa có",
       "muc_tieu": "18/2017/TT-BCT",
       "viec": "Thêm vào sổ (wiki/sources/765-qd-bct.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 65/2017/TT-BTC nhưng sổ chưa có",
-      "muc_tieu": "65/2017/TT-BTC",
-      "viec": "Thêm vào sổ (wiki/sources/765-qd-bct.md, wiki/summary/dong-bo-quan-diem-phan-loai.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },
@@ -45845,15 +45755,6 @@
       "tieuDe": "Biểu thuế Tổng cục nêu nhưng sổ chưa có: 57/2020/NĐ-CP",
       "muc_tieu": "57/2020/NĐ-CP",
       "viec": "văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi / Biểu thuế xuất khẩu. Thêm vào sổ: node tools/them-van-ban.mjs \"57/2020/NĐ-CP\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
-    },
-    {
-      "ma": "BIEU_THUE_CHUA_CO",
-      "muc": "Vừa",
-      "tieuDe": "Biểu thuế Tổng cục nêu nhưng sổ chưa có: 65/2017/TT-BTC",
-      "muc_tieu": "65/2017/TT-BTC",
-      "viec": "văn bản bị thay (theo biểu) — Danh mục hàng hóa XNK. Thêm vào sổ: node tools/them-van-ban.mjs \"65/2017/TT-BTC\"",
       "luong": "he-thong-hoa",
       "trongSo": 0
     },

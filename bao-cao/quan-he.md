@@ -79,13 +79,13 @@ flowchart LR
   n_17_2023_N__CP["17/2023/NĐ-CP<br/>còn hiệu lực"]
   n_22_2018_N__CP["22/2018/NĐ-CP<br/>hết hiệu lực"]
   n_2079_Q__TCHQ["2079/QĐ-TCHQ<br/>còn hiệu lực"]
-  n_583_Q__TCHQ["583/QĐ-TCHQ<br/>chưa có trong sổ"]
+  n_583_Q__TCHQ["583/QĐ-TCHQ<br/>hết hiệu lực"]
   n_25_2026_TT_BTC["25/2026/TT-BTC<br/>còn hiệu lực"]
-  n_12_2015_TT_BTC["12/2015/TT-BTC<br/>chưa có trong sổ"]
+  n_12_2015_TT_BTC["12/2015/TT-BTC<br/>còn hiệu lực"]
   n_2538_Q__TCHQ["2538/QĐ-TCHQ<br/>còn hiệu lực"]
   n_1966_Q__TCHQ["1966/QĐ-TCHQ<br/>hết hiệu lực"]
   n_28_2017_N__CP["28/2017/NĐ-CP<br/>còn hiệu lực"]
-  n_158_2013_N__CP["158/2013/NĐ-CP<br/>chưa có trong sổ"]
+  n_158_2013_N__CP["158/2013/NĐ-CP<br/>hết hiệu lực"]
   n_285_2025_N__CP["285/2025/NĐ-CP<br/>còn hiệu lực"]
   n_31_2026_Q__TTg["31/2026/QĐ-TTg<br/>còn hiệu lực"]
   n_23_2019_Q__TTg["23/2019/QĐ-TTg<br/>hết hiệu lực"]
@@ -212,7 +212,7 @@ flowchart LR
   n_59_2025_TT_BYT["59/2025/TT-BYT<br/>chưa xác minh"]
   n_26_2025_TT_BNNMT["26/2025/TT-BNNMT<br/>còn hiệu lực"]
   n_26_2022_TT_BNNPTNT["26/2022/TT-BNNPTNT<br/>hết hiệu lực"]
-  n_29_2019_TT_BNN["29/2019/TT-BNN<br/>chưa có trong sổ"]
+  n_29_2019_TT_BNN["29/2019/TT-BNN<br/>hết hiệu lực"]
   n_26_2026_N__CP["26/2026/NĐ-CP<br/>còn hiệu lực"]
   n_113_2017_N__CP["113/2017/NĐ-CP<br/>hết hiệu lực"]
   n_82_2022_N__CP["82/2022/NĐ-CP<br/>hết hiệu lực"]
@@ -224,7 +224,7 @@ flowchart LR
   n_29_2025_TT_BKHCN["29/2025/TT-BKHCN<br/>hết hiệu lực"]
   n_02_2024_TT_BTTTT["02/2024/TT-BTTTT<br/>chưa xác minh"]
   n_32_2026_TT_BYT["32/2026/TT-BYT<br/>còn hiệu lực"]
-  n_12_2025_TT_BYT["12/2025/TT-BYT<br/>chưa có trong sổ"]
+  n_12_2025_TT_BYT["12/2025/TT-BYT<br/>hết hiệu lực"]
   n_33_2026_TT_BCT["33/2026/TT-BCT<br/>còn hiệu lực"]
   n_41_2023_TT_BCT["41/2023/TT-BCT<br/>hết hiệu lực"]
   n_20_2017_TT_BNNPTNT["20/2017/TT-BNNPTNT<br/>còn hiệu lực"]
@@ -256,7 +256,7 @@ flowchart LR
   n_12_2022_TT_BGTVT["12/2022/TT-BGTVT<br/>hết hiệu lực"]
   n_62_2024_TT_BGTVT["62/2024/TT-BGTVT<br/>hết hiệu lực"]
   n_71_2025_TT_BXD["71/2025/TT-BXD<br/>chưa xác minh"]
-  n_73_2018_N__CP["73/2018/NĐ-CP<br/>chưa có trong sổ"]
+  n_73_2018_N__CP["73/2018/NĐ-CP<br/>hết hiệu lực"]
   n_69_2025_QH15["69/2025/QH15<br/>còn hiệu lực"]
   n_06_2007_QH12["06/2007/QH12<br/>hết hiệu lực"]
   n_73_2021_QH14["73/2021/QH14<br/>còn hiệu lực"]
@@ -377,7 +377,7 @@ flowchart LR
   n_2999_Q__TCHQ["2999/QĐ-TCHQ<br/>hết hiệu lực"]
   n_2166_Q__TCHQ["2166/QĐ-TCHQ<br/>hết hiệu lực"]
   n_31_2022_TT_BTC["31/2022/TT-BTC<br/>còn hiệu lực"]
-  n_65_2017_TT_BTC["65/2017/TT-BTC<br/>chưa có trong sổ"]
+  n_65_2017_TT_BTC["65/2017/TT-BTC<br/>hết hiệu lực"]
   n_09_2019_TT_BTC["09/2019/TT-BTC<br/>hết hiệu lực"]
   n_73_2026_VBHN_TT_BCT["73/2026/VBHN-TT-BCT<br/>còn hiệu lực"]
   n_08_2023_TT_BCT["08/2023/TT-BCT<br/>hết hiệu lực một phần"]
@@ -527,8 +527,8 @@ flowchart LR
   n_26_2023_N__CP["26/2023/NĐ-CP<br/>còn hiệu lực"]
   n_26_2015_TT_BTC["26/2015/TT-BTC<br/>còn hiệu lực"]
   n_219_2013_TT_BTC["219/2013/TT-BTC<br/>còn hiệu lực"]
+  n_346_2025_N__CP["346/2025/NĐ-CP<br/>còn hiệu lực"]
   n_53_2020_N__CP["53/2020/NĐ-CP<br/>hết hiệu lực"]
-  n_346_2025_N__CP["346/2025/NĐ-CP<br/>chưa có trong sổ"]
   n_72_2026_N__CP["72/2026/NĐ-CP<br/>còn hiệu lực"]
   n_86_2026_TT_BTC["86/2026/TT-BTC<br/>còn hiệu lực"]
   n_06_2021_TT_BTC["06/2021/TT-BTC<br/>hết hiệu lực"]
@@ -544,8 +544,8 @@ flowchart LR
   n_182_2025_N__CP -->|sửa đổi| n_134_2016_N__CP
   n_201_2026_N__CP -->|sửa đổi Phụ lục I — thuế suất thuế xuất khẩu một số mặt hàng thuộc nhóm 25.29 và 81.06 từ 2026-07-23| n_26_2023_N__CP
   n_26_2015_TT_BTC -->|sửa đổi| n_219_2013_TT_BTC
+  n_346_2025_N__CP -->|thay thế toàn bộ từ 2026-01-01| n_53_2020_N__CP
   n_45_2005_QH11 -->|bãi bỏ từ 2016-09-01| n_107_2016_QH13
-  n_53_2020_N__CP -->|thay thế toàn bộ| n_346_2025_N__CP
   n_56_2024_QH15 -->|sửa đổi từ 2025-01-01| n_38_2019_QH14
   n_72_2026_N__CP -->|sửa đổi thuế suất NK ưu đãi một số mặt hàng xăng, dầu từ 2026-03-09| n_26_2023_N__CP
   n_86_2026_TT_BTC -->|bãi bỏ toàn bộ từ 2026-07-01| n_06_2021_TT_BTC
