@@ -1,0 +1,25 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 09/2019/TT-BTC
+loai: THONG_TU
+ten: 'Sửa đổi, bổ sung một số nội dung tại các Phụ lục của Thông tư số 65/2017/TT-BTC ngày 27 tháng 6 năm 2017 của Bộ trưởng Bộ Tài chính ban hành Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam'
+co_quan: BTC
+ngay_ban_hanh: '2019-02-15'
+hieu_luc_tu: '2019-04-01'
+het_hieu_luc_tu: '2022-12-01'
+tinh_trang: HET_HIEU_LUC
+nhanh:
+  - phan-loai-hs/danh-muc
+  - phan-loai-hs/chu-giai
+nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=196480
+    truy_cap: '2026-11-12'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/03/09-btc.signed.pdf
+    truy_cap: '2026-11-12'
+toan_van: raw/download/datafiles.chinhphu.vn/09-2019-tt-btc.pdf
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Đã đọc toàn văn PDF ký số trên datafiles.chinhphu.vn (09-btc.signed.pdf, 7 trang, người ký Thứ trưởng Vũ Thị Mai) và thẻ vanban.chinhphu.vn (docid=196480): Điều 1 và Điều 2 sửa đổi, bổ sung một số nội dung tại Phụ lục I và Phụ lục II của Thông tư 65/2017/TT-BTC ngày 27-06-2017 ban hành Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam; Điều 3 quy định có hiệu lực thi hành kể từ ngày 01-04-2019. Đã đối chiếu Điều 4 khoản 2 Thông tư 31/2022/TT-BTC ngày 08-06-2022 (đã có trong sổ 31-2022-tt-btc.yaml): Thông tư 09/2019/TT-BTC hết hiệu lực toàn bộ kể từ ngày 01-12-2022 do bị Thông tư 31/2022/TT-BTC thay thế.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-12'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Nạp từ nhu cầu khách tra (issue [miss] #398) đồng thời xoá điểm mù THIEU_VAN_BAN mức Cao và WIKI_NHAC_CHUA_DANG_KY mức Vừa (cạnh thay_the đi từ 31-2022-tt-btc.yaml). Sửa đổi Phụ lục I và Phụ lục II Danh mục hàng hóa XNK Việt Nam (AHTN 2017) kèm Thông tư 65/2017/TT-BTC; hết hiệu lực từ 01-12-2022 khi bị Thông tư 31/2022/TT-BTC thay thế.'

@@ -1,0 +1,26 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 24/2016/TT-BTC
+loai: THONG_TU
+ten: 'Số hiệu 24/2016/TT-BTC không có văn bản quy phạm pháp luật công bố trên Công báo và CSDLQG về pháp luật (khách tra nhầm giữa 23/2016/TT-BTC, 25/2016/TT-BTC, 240/2016/TT-BTC, 24/2016/TT-BCT hoặc 24/2016/NĐ-CP)'
+co_quan: BTC
+ngay_ban_hanh: '2016-02-16'
+het_hieu_luc_tu: '2016-02-16'
+tinh_trang: HET_HIEU_LUC
+nhanh:
+  - hai-quan/thu-tuc
+nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=184350
+    truy_cap: '2026-11-12'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=184149
+    truy_cap: '2026-11-12'
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-23-2016-tt-btc-19211.htm
+    truy_cap: '2026-11-12'
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-25-2016-tt-btc-19157.htm
+    truy_cap: '2026-11-12'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu trực tiếp dải số hiệu liền kề ngày 16-02-2016 trên vanban.chinhphu.vn (23/2016/TT-BTC tại docid=184350, 25/2016/TT-BTC tại docid=184149), congbao.chinhphu.vn (ID 19211 và 19157), toàn bộ kho tệp đính kèm năm 2016 trên datafiles.chinhphu.vn (/cpp/files/vbpq/2016/01..12/) và CSDLQG vbpl.vn: xác nhận Bộ Tài chính không có Thông tư số 24/2016/TT-BTC công bố trên Công báo hay CSDLQG về văn bản QPPL.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-12'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Nạp từ nhu cầu khách tra (issue [miss] #405) để chặn truy vấn lặp và cảnh báo nhầm số hiệu: ngày 16-02-2016 Bộ Tài chính ban hành Thông tư 23/2016/TT-BTC và Thông tư 25/2016/TT-BTC, khuyết số 24/2016/TT-BTC trên Công báo/CSDLQG. Khách tra thường nhầm từ Thông tư 240/2016/TT-BTC (giá tối đa dịch vụ kiểm dịch y tế, kiểm dịch thực vật/động vật hàng XNK), Thông tư 24/2016/TT-BCT, hoặc Nghị định 24/2016/NĐ-CP.'
