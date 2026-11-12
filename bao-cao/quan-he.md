@@ -378,7 +378,7 @@ flowchart LR
   n_2166_Q__TCHQ["2166/QĐ-TCHQ<br/>hết hiệu lực"]
   n_31_2022_TT_BTC["31/2022/TT-BTC<br/>còn hiệu lực"]
   n_65_2017_TT_BTC["65/2017/TT-BTC<br/>chưa có trong sổ"]
-  n_09_2019_TT_BTC["09/2019/TT-BTC<br/>chưa có trong sổ"]
+  n_09_2019_TT_BTC["09/2019/TT-BTC<br/>hết hiệu lực"]
   n_73_2026_VBHN_TT_BCT["73/2026/VBHN-TT-BCT<br/>còn hiệu lực"]
   n_08_2023_TT_BCT["08/2023/TT-BCT<br/>hết hiệu lực một phần"]
   n_48_2026_TT_BCT["48/2026/TT-BCT<br/>còn hiệu lực"]
