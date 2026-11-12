@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-12",
-  "tong": 5051,
+  "tong": 5045,
   "diem": [
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -17,24 +17,6 @@
       "tieuDe": "01/2018/TT-BCT: chưa có toàn văn trong raw/",
       "muc_tieu": "01/2018/TT-BCT",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"01/2018/TT-BCT\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "01/2022/TT-BNNPTNT: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
-      "muc_tieu": "01/2022/TT-BNNPTNT",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "01/2022/TT-BNNPTNT: chưa có toàn văn trong raw/",
-      "muc_tieu": "01/2022/TT-BNNPTNT",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"01/2022/TT-BNNPTNT\" --ghi",
       "luong": "nap-lam-sach",
       "trongSo": 0
     },
@@ -42035,15 +42017,6 @@
     {
       "ma": "WIKI_NHAC_CHUA_DANG_KY",
       "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 33/2024/NĐ-CP nhưng sổ chưa có",
-      "muc_tieu": "33/2024/NĐ-CP",
-      "viec": "Thêm vào sổ (wiki/concepts/xuat-xu-fta.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
       "tieuDe": "Wiki nhắc 31/2020/TT-BCT nhưng sổ chưa có",
       "muc_tieu": "31/2020/TT-BCT",
       "viec": "Thêm vào sổ (wiki/concepts/xuat-xu-fta.md).",
@@ -43943,9 +43916,9 @@
     {
       "ma": "DAN_CHIEU_CHUA_CO_BANG",
       "muc": "Vừa",
-      "tieuDe": "292/2026/NĐ-CP dẫn mã HS sang 33/2024/NĐ-CP — chưa có trong sổ",
+      "tieuDe": "292/2026/NĐ-CP dẫn mã HS sang 33/2024/NĐ-CP — văn bản đó chưa có bảng",
       "muc_tieu": "33/2024/NĐ-CP",
-      "viec": "danh-muc/292-2026-nd-cp.csv có dòng không ghi mã mà dẫn chiếu 33/2024/NĐ-CP. Thêm 33/2024/NĐ-CP vào sổ rồi trích bảng để mã HS của các dòng này tra được.",
+      "viec": "danh-muc/292-2026-nd-cp.csv có dòng không ghi mã mà dẫn chiếu 33/2024/NĐ-CP. Trích danh-muc/33-2024-nd-cp.csv để mã HS của các dòng này tra được.",
       "luong": "danh-muc-hs",
       "trongSo": 0
     },
@@ -44877,15 +44850,6 @@
       "trongSo": 263
     },
     {
-      "ma": "HS_API_CHUA_CO",
-      "muc": "Cao",
-      "tieuDe": "Biểu thuế dẫn nhưng sổ chưa có: 33/2024/NĐ-CP (60 mã HS)",
-      "muc_tieu": "33/2024/NĐ-CP",
-      "viec": "60 mã HS trong hs-code-api dẫn văn bản này ở cột chính sách. Thêm vào sổ: node tools/them-van-ban.mjs \"33/2024/NĐ-CP\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 60
-    },
-    {
       "ma": "HS_API_CHO_MO_CHAN",
       "muc": "Thấp",
       "tieuDe": "Chờ mở chặn 6266/QĐ-BCA (THIEU_PDF_A) — 19 mã HS",
@@ -45265,15 +45229,6 @@
     },
     {
       "ma": "BIEU_THUE_CHUA_CO",
-      "muc": "Cao",
-      "tieuDe": "Biểu thuế Tổng cục nêu nhưng sổ chưa có: 34/2024/NĐ-CP",
-      "muc_tieu": "34/2024/NĐ-CP",
-      "viec": "văn bản hiện hành của biểu/danh mục — Danh mục hóa chất Bảng 1,2,3 / Danh mục hóa chất nhập khẩu phải khai báo trước khi thông quan qua cổng thông tin một cửa  / Danh mục hóa chất Hóa chất cấm đầu tư kinh doanh theo quy định của Luật Đầu tư. Thêm vào sổ: node tools/them-van-ban.mjs \"34/2024/NĐ-CP\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
-    },
-    {
-      "ma": "BIEU_THUE_CHUA_CO",
       "muc": "Vừa",
       "tieuDe": "Biểu thuế Tổng cục nêu nhưng sổ chưa có: 39/2020/NĐ-CP",
       "muc_tieu": "39/2020/NĐ-CP",
@@ -45442,15 +45397,6 @@
       "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (4 mã HS) — Áp dụng biện pháp chống lẩn tránh PVTM đối với Thép cuộn, thép dây (Nhiều nước). Sổ ghi HET_HIEU_LUC từ 2026-03-22 (đã đối chiếu nguồn A), không có văn bản thay/bãi trong sổ — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
       "luong": "hieu-luc",
       "trongSo": 4
-    },
-    {
-      "ma": "BIEU_THUE_CHUA_CO",
-      "muc": "Cao",
-      "tieuDe": "Biểu thuế Tổng cục nêu nhưng sổ chưa có: 01/2022/TT-BNNPTNN",
-      "muc_tieu": "01/2022/TT-BNNPTNN",
-      "viec": "văn bản hiện hành của biểu/danh mục — Động vật, sản phẩm động vật trên cạn thuộc diện phải kiểm dịch / Giống vật nuôi cấm xuất khẩu / Giống vật nuôi cần bảo tồn. Thêm vào sổ: node tools/them-van-ban.mjs \"01/2022/TT-BNNPTNN\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
     },
     {
       "ma": "BIEU_THUE_HIEN_HANH_DA_HET",

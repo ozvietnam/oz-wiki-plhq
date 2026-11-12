@@ -156,6 +156,8 @@ flowchart LR
 flowchart LR
   n_01_2021_TT_BL_TBXH["01/2021/TT-BLĐTBXH<br/>hết hiệu lực"]
   n_22_2018_TT_BL_TBXH["22/2018/TT-BLĐTBXH<br/>hết hiệu lực"]
+  n_01_2022_TT_BNNPTNT["01/2022/TT-BNNPTNT<br/>hết hiệu lực một phần"]
+  n_11_2021_TT_BNNPTNT["11/2021/TT-BNNPTNT<br/>hết hiệu lực"]
   n_03_2024_TT_BNNPTNT["03/2024/TT-BNNPTNT<br/>còn hiệu lực"]
   n_34_2018_TT_BNNPTNT["34/2018/TT-BNNPTNT<br/>hết hiệu lực một phần"]
   n_04_2014_TT_BCT["04/2014/TT-BCT<br/>hết hiệu lực"]
@@ -229,6 +231,7 @@ flowchart LR
   n_02_2024_TT_BTTTT["02/2024/TT-BTTTT<br/>chưa xác minh"]
   n_32_2026_TT_BYT["32/2026/TT-BYT<br/>còn hiệu lực"]
   n_12_2025_TT_BYT["12/2025/TT-BYT<br/>hết hiệu lực"]
+  n_33_2024_N__CP["33/2024/NĐ-CP<br/>còn hiệu lực"]
   n_33_2026_TT_BCT["33/2026/TT-BCT<br/>còn hiệu lực"]
   n_41_2023_TT_BCT["41/2023/TT-BCT<br/>hết hiệu lực"]
   n_20_2017_TT_BNNPTNT["20/2017/TT-BNNPTNT<br/>còn hiệu lực"]
@@ -273,6 +276,7 @@ flowchart LR
   n_99_2026_VBHN_TT_BNNMT["99/2026/VBHN-TT-BNNMT<br/>còn hiệu lực"]
   n_20_2021_TT_BNNPTNT["20/2021/TT-BNNPTNT<br/>còn hiệu lực"]
   n_01_2021_TT_BL_TBXH -->|thay thế từ 2021-07-18| n_22_2018_TT_BL_TBXH
+  n_01_2022_TT_BNNPTNT -->|sửa đổi thay thế Phần A Mục 16 Phụ lục I bằng Phụ lục XXIII ban hành kèm theo TT 01/2022/TT-BNNPTNT từ 2022-03-04| n_11_2021_TT_BNNPTNT
   n_03_2024_TT_BNNPTNT -->|bãi bỏ một số quy định từ 2024-05-16| n_34_2018_TT_BNNPTNT
   n_04_2014_TT_BCT -->|bãi bỏ từ 2018-06-15| n_12_2018_TT_BCT
   n_05_2007_QH12 -->|sửa đổi| n_78_2025_QH15
@@ -331,6 +335,9 @@ flowchart LR
   n_29_2020_TT_BYT -->|sửa đổi Sửa đổi, bổ sung khoản 4 Điều 4 (miễn CFS cho nước thành viên CPTPP và ASEAN, hợp pháp hóa lãnh sự/tra cứu điện tử CFS đối với mỹ phẩm nhập khẩu), Phụ lục số 01-MP và Điều 33 (hồ sơ, thủ tục cấp CFS đối với mỹ phẩm sản xuất trong nước để xuất khẩu theo Điều 11 Nghị định 69/2018/NĐ-CP) từ 2021-02-15| n_06_2011_TT_BYT
   n_29_2025_TT_BKHCN -->|thay thế từ 2025-12-31| n_02_2024_TT_BTTTT
   n_32_2026_TT_BYT -->|thay thế các quy định về đăng ký lưu hành thuốc, nguyên liệu làm thuốc từ 2026-10-01| n_12_2025_TT_BYT
+  n_33_2024_N__CP -->|sửa đổi bổ sung trường hợp ngoại trừ đối với một số hóa chất thuộc Danh mục hóa chất hạn chế sản xuất, kinh doanh trong lĩnh vực công nghiệp tại Phụ lục II (STT 55 Asen và hợp chất của asen: ngoại trừ Arsenic trichloride mã HS 2812.10, CAS 7784-34-1; STT 79 Xyanua và hợp chất xyanua: ngoại trừ Cyanogen chloride mã HS 2853.10, CAS 506-77-4 và Hydrogen cyanide mã HS 2811.12, CAS 74-90-8) từ 2024-05-19| n_82_2022_N__CP
+  n_33_2024_N__CP -->|bãi bỏ bãi bỏ một số hóa chất thuộc Danh mục hóa chất sản xuất, kinh doanh có điều kiện tại Phụ lục I (STT 263, 333, 489, 618, 720) và Danh mục hóa chất phải khai báo tại Phụ lục V (STT 137, 198, 242, 291, 374, 527, 677, 795, 922, 974, 987, 989, 990) được sửa đổi, bổ sung bởi NĐ 82/2022/NĐ-CP từ 2024-05-19| n_113_2017_N__CP
+  n_33_2024_N__CP -->|bãi bỏ bãi bỏ một số hóa chất thuộc Phụ lục I và Phụ lục V NĐ 113/2017/NĐ-CP được sửa đổi, bổ sung bởi NĐ 82/2022/NĐ-CP từ 2024-05-19| n_82_2022_N__CP
   n_33_2026_TT_BCT -->|thay thế| n_41_2023_TT_BCT
   n_34_2018_TT_BNNPTNT -->|sửa đổi từ 2019-01-01| n_33_2014_TT_BNNPTNT
   n_34_2018_TT_BNNPTNT -->|sửa đổi từ 2019-01-01| n_20_2017_TT_BNNPTNT
@@ -446,7 +453,7 @@ flowchart LR
   n_01_2024_TT_BNNPTNT["01/2024/TT-BNNPTNT<br/>còn hiệu lực"]
   n_11_2021_TT_BNNPTNT["11/2021/TT-BNNPTNT<br/>hết hiệu lực"]
   n_16_2021_TT_BNNPTNT["16/2021/TT-BNNPTNT<br/>chưa xác minh"]
-  n_01_2022_TT_BNNPTNT["01/2022/TT-BNNPTNT<br/>chưa xác minh"]
+  n_01_2022_TT_BNNPTNT["01/2022/TT-BNNPTNT<br/>hết hiệu lực một phần"]
   n_07_2023_TT_NHNN["07/2023/TT-NHNN<br/>còn hiệu lực"]
   n_38_2018_TT_NHNN["38/2018/TT-NHNN<br/>chưa xác minh"]
   n_07_2026_TT_BCT["07/2026/TT-BCT<br/>còn hiệu lực"]

@@ -1,27 +1,26 @@
 # Báo cáo điểm mù — 2026-11-12
 
-Tổng 5051 điểm: **16 cao**, 443 vừa, 4592 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 5045 điểm: **13 cao**, 442 vừa, 4590 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
 | Nhóm | Mức | Số điểm | Luồng việc |
 |---|---|---|---|
 | Sắp hết hiệu lực (≤60 ngày) | Cao | 8 | `hieu-luc` |
-| Biểu thuế (hs-code-api) dẫn nhưng sổ chưa có | Cao | 1 | `he-thong-hoa` |
 | Chưa có nguồn chính thống | Vừa | 2108 | `truy-vet-nguon` |
-| Wiki nhắc văn bản chưa đăng ký | Vừa | 144 | `lien-ket-cheo` |
+| Wiki nhắc văn bản chưa đăng ký | Vừa | 143 | `lien-ket-cheo` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 123 | `danh-muc-hs` |
 | Mã HS có hàng thật chưa đối chiếu KTCN 2026 (hs-code-api /api/demand) | Vừa | 30 | `danh-muc-hs` |
-| Biểu thuế XNK Tổng cục nêu nhưng sổ chưa có (hs-code-api skill bieu-thue-xnk) | Vừa | 28 | `he-thong-hoa` |
 | Văn bản danh mục chưa trích bảng mã HS | Vừa | 27 | `danh-muc-hs` |
+| Biểu thuế XNK Tổng cục nêu nhưng sổ chưa có (hs-code-api skill bieu-thue-xnk) | Vừa | 26 | `he-thong-hoa` |
 | Thư viện hs-code-api ghi khác sổ | Vừa | 14 | `hieu-luc` |
 | Văn bản khung thiếu thông tin | Vừa | 10 | `he-thong-hoa` |
 | Bảng dẫn chiếu mã HS sang văn bản chưa có bảng | Vừa | 7 | `danh-muc-hs` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
 | Ưu tiên đối chiếu — theo số mã HS đang dẫn (hs-code-api) | Vừa | 2 | `hieu-luc` |
 | THIEU_VBHN | Vừa | 1 | `nap-lam-sach` |
-| Hiệu lực chưa đối chiếu nguồn A | Thấp | 2300 | `hieu-luc` |
-| Chưa có toàn văn | Thấp | 191 | `nap-lam-sach` |
+| Hiệu lực chưa đối chiếu nguồn A | Thấp | 2299 | `hieu-luc` |
+| Chưa có toàn văn | Thấp | 190 | `nap-lam-sach` |
 | Văn bản của cơ quan đã sáp nhập | Thấp | 21 | `do-tham` |
 | Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay | Thấp | 13 | `hieu-luc` |
 | Chưa xếp vào cây | Thấp | 12 | `cay-du-lieu` |
@@ -37,10 +36,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **204/2025/QH15 hết hiệu lực ngày 2026-12-31** — Tới ngày thì chuyển tinh_trang; rà mọi trang wiki và văn bản đang dẫn chiếu 204/2025/QH15.
 - [ ] **43/2026/NQ-CP hết hiệu lực ngày 2026-12-31** — Tới ngày thì chuyển tinh_trang; rà mọi trang wiki và văn bản đang dẫn chiếu 43/2026/NQ-CP.
 - [ ] **72/2026/NĐ-CP hết hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển tinh_trang; rà mọi trang wiki và văn bản đang dẫn chiếu 72/2026/NĐ-CP.
-
-## Biểu thuế (hs-code-api) dẫn nhưng sổ chưa có (1)
-
-- [ ] **Biểu thuế dẫn nhưng sổ chưa có: 33/2024/NĐ-CP (60 mã HS)** — 60 mã HS trong hs-code-api dẫn văn bản này ở cột chính sách. Thêm vào sổ: node tools/them-van-ban.mjs "33/2024/NĐ-CP"
 
 ## Chưa có nguồn chính thống (2108)
 
@@ -86,7 +81,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **326/2018/QĐ-BCT: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - … và 2068 điểm khác (xem bao-cao/diem-mu.json)
 
-## Wiki nhắc văn bản chưa đăng ký (144)
+## Wiki nhắc văn bản chưa đăng ký (143)
 
 - [ ] **Wiki nhắc 121/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/cptpp.md, wiki/sources/127-qd-ttg-2026.md).
 - [ ] **Wiki nhắc 35/2019/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/dong-vat-hoang-da-nguy-cap.md).
@@ -104,7 +99,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Wiki nhắc 01/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/rcep.md, wiki/sources/328-qd-ttg-2022.md).
 - [ ] **Wiki nhắc 21/2017/TT-BNNPTNT nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/thuoc-bvtv-nhap-khau.md).
 - [ ] **Wiki nhắc 122/2024/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/xuat-xu-fta.md, wiki/sources/33-2025-tt-bct.md).
-- [ ] **Wiki nhắc 33/2024/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/xuat-xu-fta.md).
 - [ ] **Wiki nhắc 31/2020/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/concepts/xuat-xu-fta.md).
 - [ ] **Wiki nhắc 101/2016/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/log.md, wiki/sources/81-2019-tt-btc.md).
 - [ ] **Wiki nhắc 14/2024/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/readings/105-2016-qh13/03-chuong-iii-quan-ly-thuoc.md).
@@ -128,7 +122,8 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Wiki nhắc 28/2021/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2017-tt-bct.md, wiki/sources/48-2026-tt-bct.md).
 - [ ] **Wiki nhắc 98/2017/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2022-tt-bct.md, wiki/sources/765-qd-bct.md).
 - [ ] **Wiki nhắc 99/2015/QH13 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2026-qh16.md).
-- … và 104 điểm khác (xem bao-cao/diem-mu.json)
+- [ ] **Wiki nhắc 101/2015/QH13 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/11-2026-qh16.md).
+- … và 103 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Mã HS trong bảng không có trong biểu thuế (123)
 
@@ -207,37 +202,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Hàng thật mã 96020090 chưa đối chiếu danh mục KTCN 2026** — Món hàng thật (OZ, gặp gần nhất 2026-10-26) mang mã 96020090 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Chưa bảng KTCN 2026 nào có dòng nhóm 9602 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.
 - [ ] **Hàng thật mã 96170010 chưa đối chiếu danh mục KTCN 2026** — Món hàng thật (OZ, gặp gần nhất 2026-11-02) mang mã 96170010 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Biểu thuế đang dẫn: 08/2023/TT-BCT. Chưa bảng KTCN 2026 nào có dòng nhóm 9617 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.
 
-## Biểu thuế XNK Tổng cục nêu nhưng sổ chưa có (hs-code-api skill bieu-thue-xnk) (28)
-
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 34/2024/NĐ-CP** — văn bản hiện hành của biểu/danh mục — Danh mục hóa chất Bảng 1,2,3 / Danh mục hóa chất nhập khẩu phải khai báo trước khi thông quan qua cổng thông tin một cửa  / Danh mục hóa chất Hóa chất cấm đầu tư kinh doanh theo quy định của Luật Đầu tư. Thêm vào sổ: node tools/them-van-ban.mjs "34/2024/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 01/2022/TT-BNNPTNN** — văn bản hiện hành của biểu/danh mục — Động vật, sản phẩm động vật trên cạn thuộc diện phải kiểm dịch / Giống vật nuôi cấm xuất khẩu / Giống vật nuôi cần bảo tồn. Thêm vào sổ: node tools/them-van-ban.mjs "01/2022/TT-BNNPTNN"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 03/2022/QH15** — văn bản bị thay (theo biểu) — Thuế tiêu thụ đặc biệt. Thêm vào sổ: node tools/them-van-ban.mjs "03/2022/QH15"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 05/2018/TT-BYT** — văn bản bị thay (theo biểu) — DM thực phẩm, phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm và dụng cụ, vật liệu bao g. Thêm vào sổ: node tools/them-van-ban.mjs "05/2018/TT-BYT"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 05/2019/TT-BXD** — văn bản bị thay (theo biểu) — DM, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng XK. Thêm vào sổ: node tools/them-van-ban.mjs "05/2019/TT-BXD"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 07/2020/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Hồng Kông, Trung Quốc giai đoạn 2022 - 2027. Thêm vào sổ: node tools/them-van-ban.mjs "07/2020/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 08/2019/TT-BCA** — văn bản bị thay (theo biểu) — SPHH có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Công An. Thêm vào sổ: node tools/them-van-ban.mjs "08/2019/TT-BCA"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 111/2020/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam -Liên minh Châu Âu / Biểu thuế xuất khẩu ưu đãi EVFTA. Thêm vào sổ: node tools/them-van-ban.mjs "111/2020/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 127/2022/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Lào. Thêm vào sổ: node tools/them-van-ban.mjs "127/2022/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 149/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Hàn Quốc giai đoạn 2022 - 2027. Thêm vào sổ: node tools/them-van-ban.mjs "149/2017/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 150/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Liên minh Kinh tế Á-Âu và các quốc gia thàn. Thêm vào sổ: node tools/them-van-ban.mjs "150/2017/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 153/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Trung Quốc giai đoạn 2022 - 2027. Thêm vào sổ: node tools/them-van-ban.mjs "153/2017/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 154/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam và Chi Lê giai đoạn 2022 - 2027. Thêm vào sổ: node tools/them-van-ban.mjs "154/2017/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 155/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Nhật Bản giai đoạn 2022 – 2028. Thêm vào sổ: node tools/them-van-ban.mjs "155/2017/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 156/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN giai đoạn 2022 – 2027. Thêm vào sổ: node tools/them-van-ban.mjs "156/2017/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 157/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Hàn Quốc giai đoạn 2022 - 2017. Thêm vào sổ: node tools/them-van-ban.mjs "157/2017/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 158/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt Khu vực Thương mại tự do ASEAN – Ốt-xtrây-lin – Niu Di. Thêm vào sổ: node tools/them-van-ban.mjs "158/2017/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 159/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Ấn Độ giai đoạn 2022 - 2027. Thêm vào sổ: node tools/them-van-ban.mjs "159/2017/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 160/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Nhật Bản giai đoạn 2022 - 2023 - 2024 - 2025 -. Thêm vào sổ: node tools/them-van-ban.mjs "160/2017/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 23/2021/TT-BCT** — văn bản bị thay (theo biểu) — Chủng loại và tiêu chuẩn khoáng sản XK. Thêm vào sổ: node tools/them-van-ban.mjs "23/2021/TT-BCT"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 32/2023/NĐ-CP** — văn bản bị thay (theo biểu) — DM sản phẩm mật mã dân sự XNK theo giấy phép. Thêm vào sổ: node tools/them-van-ban.mjs "32/2023/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 39/2020/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Cuba. Thêm vào sổ: node tools/them-van-ban.mjs "39/2020/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 41/2018/TT-BGTVT** — văn bản bị thay (theo biểu) — HHNK phải chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường trước khi thông quan / Sản phẩm, hàng hóa phải chứng nhận công bố hợp quy. Thêm vào sổ: node tools/them-van-ban.mjs "41/2018/TT-BGTVT"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 45/2017/QĐ-TTg** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu thông thường. Thêm vào sổ: node tools/them-van-ban.mjs "45/2017/QĐ-TTg"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 53/2021/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Liên hiệp Vương quốc Anh và Bắc Ai-len / Biểu thuế NK ưu đãi đặc biệt UKVFTA. Thêm vào sổ: node tools/them-van-ban.mjs "53/2021/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 57/2019/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác Toàn diện  / Biểu thuế xuất khẩu ưu đãi để thực hiện hiệp định CPTPP. Thêm vào sổ: node tools/them-van-ban.mjs "57/2019/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 57/2020/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi / Biểu thuế xuất khẩu. Thêm vào sổ: node tools/them-van-ban.mjs "57/2020/NĐ-CP"
-- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 924/QĐ-BNN** — văn bản bị thay (theo biểu) — HH là mẫu vật động vật rừng nguy cấp, quý, hiếm và động vật thuộc các phụ lục CITES / HH là mẫu vật thực vật rừng nguy cấp, quý hiếm; thực vật thuộc các phụ lục CITES / Đồ trang sức làm bằng chất liệu thực vật rừng, động vật rừng nguy cấp, quý, hiếm và động v. Thêm vào sổ: node tools/them-van-ban.mjs "924/QĐ-BNN"
-
 ## Văn bản danh mục chưa trích bảng mã HS (27)
 
 - [ ] **Chưa trích bảng mã HS: 4814/QĐ-BCA** — Văn bản danh mục chưa có danh-muc/4814-qd-bca-2026.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
@@ -267,6 +231,35 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Chưa trích bảng mã HS: 63/2026/TT-BKHCN** — Văn bản danh mục chưa có danh-muc/63-2026-tt-bkhcn.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
 - [ ] **Chưa trích bảng mã HS: 7866/QĐ-BYT** — Văn bản danh mục chưa có danh-muc/7866-qd-byt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
 - [ ] **Chưa trích bảng mã HS: 8378/QĐ-BCA** — Văn bản danh mục chưa có danh-muc/8378-qd-bca-2025.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.
+
+## Biểu thuế XNK Tổng cục nêu nhưng sổ chưa có (hs-code-api skill bieu-thue-xnk) (26)
+
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 03/2022/QH15** — văn bản bị thay (theo biểu) — Thuế tiêu thụ đặc biệt. Thêm vào sổ: node tools/them-van-ban.mjs "03/2022/QH15"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 05/2018/TT-BYT** — văn bản bị thay (theo biểu) — DM thực phẩm, phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm và dụng cụ, vật liệu bao g. Thêm vào sổ: node tools/them-van-ban.mjs "05/2018/TT-BYT"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 05/2019/TT-BXD** — văn bản bị thay (theo biểu) — DM, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng XK. Thêm vào sổ: node tools/them-van-ban.mjs "05/2019/TT-BXD"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 07/2020/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Hồng Kông, Trung Quốc giai đoạn 2022 - 2027. Thêm vào sổ: node tools/them-van-ban.mjs "07/2020/NĐ-CP"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 08/2019/TT-BCA** — văn bản bị thay (theo biểu) — SPHH có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Công An. Thêm vào sổ: node tools/them-van-ban.mjs "08/2019/TT-BCA"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 111/2020/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam -Liên minh Châu Âu / Biểu thuế xuất khẩu ưu đãi EVFTA. Thêm vào sổ: node tools/them-van-ban.mjs "111/2020/NĐ-CP"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 127/2022/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Lào. Thêm vào sổ: node tools/them-van-ban.mjs "127/2022/NĐ-CP"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 149/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Hàn Quốc giai đoạn 2022 - 2027. Thêm vào sổ: node tools/them-van-ban.mjs "149/2017/NĐ-CP"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 150/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Liên minh Kinh tế Á-Âu và các quốc gia thàn. Thêm vào sổ: node tools/them-van-ban.mjs "150/2017/NĐ-CP"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 153/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Trung Quốc giai đoạn 2022 - 2027. Thêm vào sổ: node tools/them-van-ban.mjs "153/2017/NĐ-CP"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 154/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam và Chi Lê giai đoạn 2022 - 2027. Thêm vào sổ: node tools/them-van-ban.mjs "154/2017/NĐ-CP"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 155/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Nhật Bản giai đoạn 2022 – 2028. Thêm vào sổ: node tools/them-van-ban.mjs "155/2017/NĐ-CP"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 156/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN giai đoạn 2022 – 2027. Thêm vào sổ: node tools/them-van-ban.mjs "156/2017/NĐ-CP"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 157/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Hàn Quốc giai đoạn 2022 - 2017. Thêm vào sổ: node tools/them-van-ban.mjs "157/2017/NĐ-CP"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 158/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt Khu vực Thương mại tự do ASEAN – Ốt-xtrây-lin – Niu Di. Thêm vào sổ: node tools/them-van-ban.mjs "158/2017/NĐ-CP"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 159/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Ấn Độ giai đoạn 2022 - 2027. Thêm vào sổ: node tools/them-van-ban.mjs "159/2017/NĐ-CP"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 160/2017/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt ASEAN - Nhật Bản giai đoạn 2022 - 2023 - 2024 - 2025 -. Thêm vào sổ: node tools/them-van-ban.mjs "160/2017/NĐ-CP"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 23/2021/TT-BCT** — văn bản bị thay (theo biểu) — Chủng loại và tiêu chuẩn khoáng sản XK. Thêm vào sổ: node tools/them-van-ban.mjs "23/2021/TT-BCT"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 32/2023/NĐ-CP** — văn bản bị thay (theo biểu) — DM sản phẩm mật mã dân sự XNK theo giấy phép. Thêm vào sổ: node tools/them-van-ban.mjs "32/2023/NĐ-CP"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 39/2020/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Cuba. Thêm vào sổ: node tools/them-van-ban.mjs "39/2020/NĐ-CP"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 41/2018/TT-BGTVT** — văn bản bị thay (theo biểu) — HHNK phải chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường trước khi thông quan / Sản phẩm, hàng hóa phải chứng nhận công bố hợp quy. Thêm vào sổ: node tools/them-van-ban.mjs "41/2018/TT-BGTVT"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 45/2017/QĐ-TTg** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu thông thường. Thêm vào sổ: node tools/them-van-ban.mjs "45/2017/QĐ-TTg"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 53/2021/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Liên hiệp Vương quốc Anh và Bắc Ai-len / Biểu thuế NK ưu đãi đặc biệt UKVFTA. Thêm vào sổ: node tools/them-van-ban.mjs "53/2021/NĐ-CP"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 57/2019/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác Toàn diện  / Biểu thuế xuất khẩu ưu đãi để thực hiện hiệp định CPTPP. Thêm vào sổ: node tools/them-van-ban.mjs "57/2019/NĐ-CP"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 57/2020/NĐ-CP** — văn bản bị thay (theo biểu) — Biểu thuế nhập khẩu ưu đãi / Biểu thuế xuất khẩu. Thêm vào sổ: node tools/them-van-ban.mjs "57/2020/NĐ-CP"
+- [ ] **Biểu thuế Tổng cục nêu nhưng sổ chưa có: 924/QĐ-BNN** — văn bản bị thay (theo biểu) — HH là mẫu vật động vật rừng nguy cấp, quý, hiếm và động vật thuộc các phụ lục CITES / HH là mẫu vật thực vật rừng nguy cấp, quý hiếm; thực vật thuộc các phụ lục CITES / Đồ trang sức làm bằng chất liệu thực vật rừng, động vật rừng nguy cấp, quý, hiếm và động v. Thêm vào sổ: node tools/them-van-ban.mjs "924/QĐ-BNN"
 
 ## Thư viện hs-code-api ghi khác sổ (14)
 
@@ -306,7 +299,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **16/2024/TT-BYT dẫn mã HS sang 6 — chưa có trong sổ** — danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 6. Thêm 6 vào sổ rồi trích bảng để mã HS của các dòng này tra được.
 - [ ] **16/2024/TT-BYT dẫn mã HS sang 7 — chưa có trong sổ** — danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 7. Thêm 7 vào sổ rồi trích bảng để mã HS của các dòng này tra được.
 - [ ] **16/2024/TT-BYT dẫn mã HS sang 8 — chưa có trong sổ** — danh-muc/16-2024-tt-byt.csv có dòng không ghi mã mà dẫn chiếu 8. Thêm 8 vào sổ rồi trích bảng để mã HS của các dòng này tra được.
-- [ ] **292/2026/NĐ-CP dẫn mã HS sang 33/2024/NĐ-CP — chưa có trong sổ** — danh-muc/292-2026-nd-cp.csv có dòng không ghi mã mà dẫn chiếu 33/2024/NĐ-CP. Thêm 33/2024/NĐ-CP vào sổ rồi trích bảng để mã HS của các dòng này tra được.
+- [ ] **292/2026/NĐ-CP dẫn mã HS sang 33/2024/NĐ-CP — văn bản đó chưa có bảng** — danh-muc/292-2026-nd-cp.csv có dòng không ghi mã mà dẫn chiếu 33/2024/NĐ-CP. Trích danh-muc/33-2024-nd-cp.csv để mã HS của các dòng này tra được.
 
 ## Sắp có hiệu lực (≤60 ngày) (3)
 
@@ -323,11 +316,10 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 
 - [ ] **99/2013/NĐ-CP đã bị sửa đổi 3 lần nhưng chưa có văn bản hợp nhất** — Tìm văn bản hợp nhất (VBHN) của 99/2013/NĐ-CP trên vanban.chinhphu.vn; nếu có, thêm vào sổ kèm quan_he.hop_nhat trỏ về 99/2013/NĐ-CP.
 
-## Hiệu lực chưa đối chiếu nguồn A (2300)
+## Hiệu lực chưa đối chiếu nguồn A (2299)
 
 - [ ] **2711/QĐ-BKHCN: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **01/2018/TT-BCT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **01/2022/TT-BNNPTNT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **02/2011/QH13: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **02/2024/TT-BTTTT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **03/2015/TT-BTTTT: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
@@ -365,9 +357,10 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **100/2026/VBHN-TT-BNNMT: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **100/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **100/TB-TCHQ/2021: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- … và 2260 điểm khác (xem bao-cao/diem-mu.json)
+- [ ] **1005/TB-TCHQ/2025: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- … và 2259 điểm khác (xem bao-cao/diem-mu.json)
 
-## Chưa có toàn văn (191)
+## Chưa có toàn văn (190)
 
 - [ ] **07/2022/QH15: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "07/2022/QH15" --ghi
 - [ ] **114/2025/QH15: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "114/2025/QH15" --ghi
@@ -386,7 +379,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **78/2025/QH15: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "78/2025/QH15" --ghi
 - [ ] **79/2015/QH13: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "79/2015/QH13" --ghi
 - [ ] **01/2018/TT-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "01/2018/TT-BCT" --ghi
-- [ ] **01/2022/TT-BNNPTNT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "01/2022/TT-BNNPTNT" --ghi
 - [ ] **02/2018/TT-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "02/2018/TT-BCT" --ghi
 - [ ] **02/2024/TT-BTTTT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "02/2024/TT-BTTTT" --ghi
 - [ ] **03/2015/TT-BTTTT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "03/2015/TT-BTTTT" --ghi
@@ -409,7 +401,8 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **102/2020/QH14: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "102/2020/QH14" --ghi
 - [ ] **102/2021/NĐ-CP: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "102/2021/NĐ-CP" --ghi
 - [ ] **108/2026/VBHN-TT-BNNMT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "108/2026/VBHN-TT-BNNMT" --ghi
-- … và 151 điểm khác (xem bao-cao/diem-mu.json)
+- [ ] **109/2026/VBHN-TT-BNNMT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "109/2026/VBHN-TT-BNNMT" --ghi
+- … và 150 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Văn bản của cơ quan đã sáp nhập (21)
 
