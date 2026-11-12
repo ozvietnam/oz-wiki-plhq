@@ -193,6 +193,148 @@ Kết quả gộp:
 | Đợt 2 | 10 (TB chưa có) | 200 | 32 | 16% |
 | **Tổng** | **20** | **420** | **49** | **12%** |
 
+### 🔴 Pitfall đếm "gói đã xong" qua PR GitHub = SAI (Sếp bắt lỗi)
+
+**Triệu chứng**: Báo cáo "X gói đã xử lý" cho Sếp → Sếp bắt lỗi ngay "X gói là sai đó em. Kiểm tra lại, đào sâu vào các kinh nghiệm sau mỗi vòng".
+
+**Vì sao SAI**:
+- PR title chỉ chứa 1 goi-id không có nghĩa PR đó xử lý 1 gói. PR `goi-080 đến goi-103` = batch 24 gói.
+- PR `feat(tb-tchq): 49 gói (980 TB) - fix-xu-tay` (PR #190) chứa 49 gói fix lỗi, không thể đếm là "1 gói".
+- Comment "xong goi-NNN" trên issue #185 chỉ có 5 lần nhưng thực tế có 22 file lô → nhiều gói làm xong nhưng quên comment (agent khác nhau: Hermes, doc-hieu, cursor, Sonnet 4.5).
+- Kho precedents 3.805 records = lũy kế nhiều tháng, KHÔNG chỉ từ issue #185.
+
+**Cách đếm ĐÚNG (file-count truth, không phải PR-count)**:
+```bash
+cd <repo-root>
+
+# Đếm gói có đủ 3 file (detail + lô + báo cáo)
+ls data/customs/lo/tracuuhs-*.json | \
+  sed 's|.*/||;s|tracuuhs-[0-9-]*-goi-||;s|\.json||' | \
+  grep -v "^lot-" | sort -u | wc -l
+
+# Đếm tổng records thực trong các file lô
+python3 -c "
+import json, os, re
+total = 0; goi = {}
+for f in sorted(os.listdir('data/customs/lo')):
+    if not f.startswith('tracuuhs-') or not f.endswith('.json'):
+        continue
+    with open(f'data/customs/lo/{f}') as fh:
+        d = json.load(fh)
+    records = d.get('records', [])
+    if isinstance(records, list):
+        total += len(records)
+        m = re.search(r'goi-(\d{3})', f)
+        if m: goi[m.group(1)] = len(records)
+print(f'Số gói có file lô: {len(goi)}')
+print(f'Tổng records trong lô: {total}')
+"
+
+# Đếm gói có cả 3 file (đóng gói hoàn chỉnh)
+python3 -c "
+import os
+lo_dir = 'data/customs/lo'; proc_dir = 'data/customs/processed'
+goi_lo = {f.split('goi-')[-1].split('.')[0] for f in os.listdir(lo_dir)
+          if f.startswith('tracuuhs-') and f.endswith('.json') and 'goi-' in f}
+goi_detail = {f.split('goi-')[-1].split('.')[0] for f in os.listdir(proc_dir)
+              if f.startswith('tracuuhs-detail-') and 'goi-' in f}
+goi_bao_cao = {f.split('goi-')[-1].split('.')[0] for f in os.listdir(lo_dir)
+               if f.startswith('BAO-CAO-goi-')}
+full = goi_lo & goi_detail & goi_bao_cao
+print(f'Gói có đủ 3 file: {len(full)}')
+print(f'Gói chỉ có lô: {sorted(goi_lo - full)}')
+"
+```
+
+**Quy tắc cứng khi báo cáo "X/Y gói đã xong"**:
+- ✅ Đếm FILE LÔ có thật trong repo (không tính `lot-*.json` legacy)
+- ✅ Tính tỉ lệ = `len(goi_co_file_lo) / 103` (tổng issue #185)
+- ❌ KHÔNG đếm qua `gh pr list --search "goi-"` (PR batch làm sai số)
+- ❌ KHÔNG đếm qua comment "xong goi-NNN" (nhiều agent quên comment)
+- ❌ KHÔNG lấy số từ `precedents.json` (lũy kế nhiều nguồn)
+
+**Bài học lớn (theo Sếp)**: "Đào sâu vào các kinh nghiệm sau mỗi vòng" — mỗi khi làm 1 vòng batch, GHI lại vào skill rule này + `LEARNED.md` để session sau không lặp lại sai lầm.
+
+### Checklist trước khi commit (MỚI, bắt buộc từ 2026-10-15)
+
+Trước khi `git commit` file lô, CHẠY 4 bước verify này — bắt buộc vì bug bị lọt nhiều lần:
+
+1. **Che path trong `note`**: nếu `note` chứa đường dẫn tuyệt đối của máy cá nhân → REPLACE bằng `<repo-root>` hoặc đường dẫn tương đối. Path local không được lộ vì repo công khai, git history không xóa được.
+2. **Format contributor nhất quán với main**: `{'name': 'thợ-Cào', 'model': 'Hermes-Sonnet-4.5'}` KHÔNG dùng `name: 'thợ-Cào-NNN'`.
+3. **DINH_CHINH phải có `confusedWith`**: nếu `attributes.loaiTB === 'DINH_CHINH'`, PHẢI có `confusedWith: [<ma_cu>]` và `so_hieu` đã đổi sang TB mới.
+4. **Không còn text gốc lỗi**: kiểm tra regex `mã[,\s]*số` chấp nhận cả "mã,số", nhưng rephrase nếu thấy xuất hiện trong description.
+
+## Bug nghiêm trọng phát hiện sau 25 gói (2026-10-15) - BẮT BUỘC ĐỌC
+
+### Bug 1: Merge tool MẤT toàn bộ field đặc biệt (CRITICAL)
+- `<hs-code-api>/scripts/merge-community.mjs` chỉ giữ `loaiTB` + `legacyHs` (boolean). Tất cả field khác (`nguyen_tac_phan_loai`, `nhom_hs`, `hs_code_goc`, `loai_hang_ma`, `hs_in_tax_2022`, `legacy_hs`) BỊ MẤT khi merge.
+- **Hệ quả**: Mọi nỗ lực thu thập "nguyên tắc phân loại" (lập luận pháp lý) đều vô ích vì merge tool strip hết.
+- **Cách phát hiện**: Sau khi merge, check `precedents.json` có bao nhiêu record có `nguyen_tac_phan_loai`. Nếu = 0 mà file lô có → merge tool strip.
+- **Cần fix** (chưa làm được trong session này): update `merge-community.mjs` để giữ các field trong `attributes`.
+
+### Bug 2: Path leak trong file lô (CRITICAL - lộ đường dẫn máy cá nhân)
+- 25/25 file lô push có `note` chứa đường dẫn tuyệt đối `<repo-root>/...` của máy cá nhân.
+- Lộ: tên người dùng máy + đường dẫn nội bộ + vị trí file cá nhân.
+- **Fix ngay khi viết script đóng gói**: thay path local bằng `<repo-root>` hoặc đường dẫn tương đối trước khi ghi `note`.
+
+### Bug 3: DINH_CHINH không merge đúng
+- File detail có 15 records với `loai: DINH_CHINH` → file lô chỉ có 0 DINH_CHINH.
+- Nguyên nhân: tool đóng gói đọc `loaiTB` từ `attributes`, nhưng `attributes.loaiTB` được set dựa trên pattern "ĐÍNH CHÍNH" trong 600 ký tự đầu. Nếu text không khớp → gán `XAC_DINH_TRUOC` (SAI).
+- VD: TB 4967/TB-TCHQ/2026 có `loai=DINH_CHINH` trong detail nhưng `loaiTB=XAC_DINH_TRUOC` trong lô.
+- **Fix**: check `loaiTB` trong lô, nếu KHÔNG phải `DINH_CHINH` nhưng detail là `DINH_CHINH` → reparse hoặc fix tool.
+
+### Bug 4: Trùng lặp 24% (805/3357 TB)
+- Cùng 1 TB có 2+ versions từ các contributor khác nhau (vd 2614/TB-TCHQ có 4 versions).
+- Tool `dedupKey` trong merge-community.mjs dùng `hs::ref::desc(40 chars)`. Nếu mô tả khác nhau → không dedup.
+- **Hệ quả**: tốn storage, có thể gây nhầm lẫn khi search.
+- **Hiện tại KHÔNG có giải pháp tự động** - cần Sếp review thủ công từng TB có nhiều version.
+
+### Bug 5: 34 TB có 2-3 mã HS khác nhau (conflict phân loại)
+- VD: 1811/TB-TCHQ/2020 gán `32082090` (legal-customs) vs `32089090` (lvn-2020).
+- **Cần review** để chọn mã đúng.
+
+## Workflow fix conflict khi base từ commit cũ (2026-10-15)
+
+Khi branch em base từ commit cũ mà main đã merge thêm 4-10 PR khác:
+
+1. **KHÔNG rebase** - sẽ tạo hàng trăm conflict markers trong `precedents.json` (gặp 148K+ markers trong session này).
+2. **Tạo branch MỚI từ main**:
+   ```bash
+   git checkout -b tracuuhs/v2-NAME-2026-10-15 origin/main
+   ```
+3. **Copy 22 file** từ branch cũ (không cherry-pick):
+   ```bash
+   git show OLD_BRANCH:data/community/tb-tchq/...json > file.json
+   git add . && git commit -m "..."
+   ```
+4. **Close 3 PR cũ** (`gh pr close N --delete-branch`) + tạo PR mới.
+
+### Script merge thông minh (Python, khi precedents.json conflict quá lớn)
+
+```python
+import json, urllib.request, subprocess
+main = json.loads(urllib.request.urlopen("https://raw.githubusercontent.com/.../main/data/precedents.json").read())
+em = json.loads(open("data/precedents.json").read())
+# Format: mỗi mã = LIST of records. Dedup theo (tbTchqNumber, year, productName[:50]).
+merged = {}
+for k in set(main) | set(em):
+    recs = (main.get(k) or []) + (em.get(k) or [])
+    seen, result = set(), []
+    for r in recs:
+        if not isinstance(r, dict): continue
+        sh = r.get('so_hieu') or r.get('reference') or r.get('tbTchqNumber') or ''
+        yr = r.get('year') or r.get('issuedDate') or ''
+        tn = (r.get('ten_hang') or r.get('productName') or '')[:50]
+        k_uniq = f"{sh}|{yr}|{tn}"
+        if k_uniq not in seen:
+            seen.add(k_uniq); result.append(r)
+    merged[k] = result
+```
+
+Lưu ý: `r.get('key')` trả `None` nếu value là None. Dùng `r.get('key') or fallback` thay vì `r.get('key', fallback)`.
+
+Số liệu cụ thể (805 TB trùng, 34 TB conflict, 266 records thin, 15 DINH_CHINH mất) - xem `references/pr-merge-pitfalls.md`.
+
 ### 🐛 BUG NGHIÊM TRỌNG phát hiện 2026-10-14 (sau khi rà 21 gói đã làm)
 
 **1. hsCode từ tracuuhs.com KHÔNG khớp tax.json VN hiện tại**
