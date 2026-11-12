@@ -12,19 +12,17 @@ nhanh:
   - thue/mien-giam-hoan
   - kiem-tra-chuyen-nganh/bxd
 nguon:
-  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=172638
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=172616
     truy_cap: '2026-11-12'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2014/03/tt-20.signed.pdf
     truy_cap: '2026-11-12'
-  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-20-2014-tt-btc-2348.htm
-    truy_cap: '2026-11-12'
-  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-20-2014-tt-btc-quy-dinh-viec-nhap-khau-xe-o-to-xe-mo-to-theo-che-do-tai-san-di-chuyen-cua-cong-dan-viet-nam-dinh-cu-o-nuoc-ngoai-da-duoc-giai-quyet-dang-ky-thuong-tru-tai-viet-nam--34048
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-20-2014-tt-btc-6642.htm
     truy_cap: '2026-11-12'
 toan_van: raw/download/datafiles.chinhphu.vn/20-2014-tt-btc.pdf
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Đã đọc toàn văn PDF ký số trên datafiles.chinhphu.vn (20.signed.pdf, 13 trang, người ký Thứ trưởng Vũ Thị Mai) và thẻ vanban.chinhphu.vn (docid=172638), congbao.chinhphu.vn (2348), CSDLQG vbpl.vn (ID 34048): gồm 3 chương, 11 điều và mẫu giấy phép GP/2014/NK OTO/MOTO-VKHH; Điều 11 khoản 1 quy định có hiệu lực thi hành kể từ ngày 01-04-2014, khoản 2 bãi bỏ Thông tư 118/2009/TT-BTC ngày 09-06-2009, điểm 2.2.c mục I Thông tư 16/2008/TT-BTC, Thông tư 215/2010/TT-BTC và điểm 1.1 mục I Thông tư 02/2001/TT-TCHQ. Đã đối chiếu tình trạng hiện hành: hết hiệu lực toàn bộ từ ngày 01-01-2023 do bị bãi bỏ bởi Thông tư 79/2022/TT-BTC ngày 30-12-2022 của Bộ trưởng Bộ Tài chính.'
+  pham_vi: 'Đã đọc toàn văn PDF ký số trên datafiles.chinhphu.vn (tt-20.signed.pdf, 13 trang, người ký Thứ trưởng Vũ Thị Mai) và đối chiếu thẻ vanban.chinhphu.vn (docid=172616), congbao.chinhphu.vn (ID 6642): gồm 3 chương, 11 điều và mẫu giấy phép GP/2014/NK OTO/MOTO-VKHH; Điều 11 khoản 1 quy định có hiệu lực thi hành kể từ ngày 01-04-2014, khoản 2 bãi bỏ Thông tư 118/2009/TT-BTC ngày 09-06-2009, điểm 2.2.c mục I Thông tư 16/2008/TT-BTC, Thông tư 215/2010/TT-BTC và điểm 1.1 mục I Thông tư 02/2001/TT-TCHQ. Đã đối chiếu tình trạng hiện hành từ nguồn bậc A trên vanban.chinhphu.vn (docid=207192) và toàn văn PDF ký số Thông tư 79/2022/TT-BTC (datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/79-btc.pdf, trang 4–5, người ký Thứ trưởng Nguyễn Đức Chi): hết hiệu lực toàn bộ từ ngày 01-01-2023 do bị bãi bỏ theo khoản 1 Điều 2 và khoản 1 Điều 4 Thông tư 79/2022/TT-BTC ngày 30-12-2022 của Bộ trưởng Bộ Tài chính (việc nhập khẩu xe ô tô, xe mô tô theo chế độ tài sản di chuyển chuyển sang thực hiện theo Thông tư 143/2015/TT-BTC và Thông tư 45/2022/TT-BTC).'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-12'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Nạp từ nhu cầu khách tra (issue [miss] #404). Quy định điều kiện, thủ tục cấp giấy phép, thủ tục hải quan và chính sách thuế đối với xe ô tô, xe mô tô nhập khẩu theo chế độ tài sản di chuyển của Việt kiều hồi hương; đã bị bãi bỏ toàn bộ từ 01-01-2023 theo Thông tư 79/2022/TT-BTC.'
+ghi_chu: 'Nạp từ nhu cầu khách tra (issue [miss] #404). Quy định điều kiện, thủ tục cấp giấy phép, thủ tục hải quan và chính sách thuế đối với xe ô tô, xe mô tô nhập khẩu theo chế độ tài sản di chuyển của Việt kiều hồi hương; đã bị bãi bỏ toàn bộ từ 01-01-2023 theo khoản 1 Điều 2 Thông tư 79/2022/TT-BTC ngày 30-12-2022.'
