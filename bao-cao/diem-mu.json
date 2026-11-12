@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-12",
-  "tong": 5066,
+  "tong": 5062,
   "diem": [
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -9228,15 +9228,6 @@
       "trongSo": 0
     },
     {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "181/2025/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "181/2025/NĐ-CP",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "181/TB-TCHQ/2021: chưa có nguồn chính thống",
@@ -16110,15 +16101,6 @@
       "muc_tieu": "26/2025/TT-BNNMT",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"26/2025/TT-BNNMT\" --ghi",
       "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "26/2026/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "26/2026/NĐ-CP",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
       "trongSo": 0
     },
     {
@@ -44958,15 +44940,6 @@
       "trongSo": 1000
     },
     {
-      "ma": "HS_API_UU_TIEN_DOI_CHIEU",
-      "muc": "Cao",
-      "tieuDe": "Đối chiếu hiệu lực 181/2025/NĐ-CP — 332 mã HS đang dẫn",
-      "muc_tieu": "181/2025/NĐ-CP",
-      "viec": "Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 332 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn. Kẹt cứng thì ghi xac_minh.chan (xem docs/huong-dan-agent.md) thay vì săn lặp.",
-      "luong": "hieu-luc",
-      "trongSo": 332
-    },
-    {
       "ma": "HS_API_CHO_MO_CHAN",
       "muc": "Thấp",
       "tieuDe": "Chờ mở chặn 2711/QĐ-BKHCN (THIEU_BAI_TUONG_MINH) — 263 mã HS",
@@ -44982,15 +44955,6 @@
       "muc_tieu": "33/2024/NĐ-CP",
       "viec": "60 mã HS trong hs-code-api dẫn văn bản này ở cột chính sách. Thêm vào sổ: node tools/them-van-ban.mjs \"33/2024/NĐ-CP\"",
       "luong": "he-thong-hoa",
-      "trongSo": 60
-    },
-    {
-      "ma": "HS_API_UU_TIEN_DOI_CHIEU",
-      "muc": "Cao",
-      "tieuDe": "Đối chiếu hiệu lực 26/2026/NĐ-CP — 60 mã HS đang dẫn",
-      "muc_tieu": "26/2026/NĐ-CP",
-      "viec": "Sổ ghi CON_HIEU_LUC nhưng chưa đối chiếu nguồn A; 60 mã HS của hs-code-api dựa vào dòng này để báo căn cứ còn/hết hiệu lực. Mở điều khoản hiệu lực, ghi hieu_luc_da_doi_chieu: true kèm nguồn. Kẹt cứng thì ghi xac_minh.chan (xem docs/huong-dan-agent.md) thay vì săn lặp.",
-      "luong": "hieu-luc",
       "trongSo": 60
     },
     {
