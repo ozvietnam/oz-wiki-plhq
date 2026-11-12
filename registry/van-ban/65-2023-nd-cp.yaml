@@ -1,27 +1,37 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 65/2023/NĐ-CP
 loai: NGHI_DINH
-ten: "Quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ"
+ten: Quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ
 co_quan: CP
-ngay_ban_hanh: "2023-08-23"
-hieu_luc_tu: "2023-08-23"
+ngay_ban_hanh: '2023-08-23'
+hieu_luc_tu: '2023-08-23'
 tinh_trang: CON_HIEU_LUC
-nhanh: [hai-quan/kiem-tra-giam-sat]
+nhanh:
+  - hai-quan/kiem-tra-giam-sat
 quan_he:
   thay_the:
     - so_hieu: 103/2006/NĐ-CP
-      tu_ngay: "2023-08-23"
+      tu_ngay: '2023-08-23'
+      can_cu: 'Khoản 2 Điều 124 Nghị định 65/2023/NĐ-CP'
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=208550
-    truy_cap: "2026-10-29"
+    truy_cap: '2026-11-12'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/8/65-nd-cp.signed.pdf
-    truy_cap: "2026-10-29"
+    truy_cap: '2026-11-12'
+  - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-65-2023-nd-cp-40056.htm
+    truy_cap: '2026-11-12'
+  - url: https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-65-2023-nd-cp-quy-dinh-chi-tiet-mot-so-dieu-va-bien-phap-thi-hanh-luat-so-huu-tri-tue-ve-so-huu-cong-nghiep-bao-ve-quyen-so-huu-cong-nghiep-quyen-doi-voi-giong-cay-trong-va-quan-ly-nha-nuoc-ve-so-huu-tri-tue--164372
+    truy_cap: '2026-11-12'
 xac_minh:
   muc: NGUON_A
-  pham_vi: "số hiệu, tiêu đề, ngày ban hành 23-08-2023 và ngày hiệu lực 23-08-2023 trên thẻ vanban.chinhphu.vn"
-  hieu_luc_da_doi_chieu: false
-  ngay: "2026-10-29"
-  boi: zcode@ozvietnam
-  canh_bao: "Việc thay thế NĐ 103/2006 đọc từ nguồn thứ cấp nhất quán (TVPL + báo Chính phủ); PDF ký là bản scan, chưa OCR được điều khoản thi hành."
-ghi_chu: "Hiệu lực từ ngày ký. Chưa đối chiếu sửa đổi sau 2023 — cần săn định kỳ."
-tu_khoa: [so-huu-tri-tue, so-huu-cong-nghiep, nhan-hieu, dang-ky-shtt]
+  pham_vi: 'đã đối chiếu toàn văn PDF ký số (65-nd-cp.signed.pdf, Phó Thủ tướng Trần Lưu Quang ký) trên vanban.chinhphu.vn (docid=208550), Công báo (40056) và bản HTML toàn văn 125 Điều trên CSDLQG vbpl.vn (ID 164372): số hiệu 65/2023/NĐ-CP, tiêu đề, ngày ban hành 23/08/2023, gồm 9 Chương 125 Điều và 7 Phụ lục; khoản 1 Điều 124 quy định có hiệu lực thi hành từ ngày 23/08/2023; khoản 2 Điều 124 thay thế toàn bộ Nghị định 103/2006/NĐ-CP ngày 22/09/2006 (cùng các quy định về sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về SHTT tại NĐ 105/2006/NĐ-CP, NĐ 119/2010/NĐ-CP, NĐ 122/2010/NĐ-CP và Điều 1 NĐ 154/2018/NĐ-CP); đang còn hiệu lực (vbpl.vn effStatus CHL, đã được sửa đổi, bổ sung một số điều bởi NĐ 151/2025/NĐ-CP, NĐ 15/2026/NĐ-CP, NĐ 33/2026/NĐ-CP và NĐ 100/2026/NĐ-CP theo VBHN 04/VBHN-BKHCN ngày 26/04/2026)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-12'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác minh nguồn bậc A (OZV-561) — hướng dẫn Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền SHTT (bao gồm biện pháp kiểm soát hàng hóa xuất khẩu, nhập khẩu liên quan đến sở hữu trí tuệ tại Mục 2 Chương VI, từ Điều 98 đến Điều 102) và quản lý nhà nước về SHTT. Khoản 2 Điều 124 thay thế toàn bộ NĐ 103/2006/NĐ-CP từ 23/08/2023; văn bản đã được hợp nhất tại VBHN 04/VBHN-BKHCN ngày 26/04/2026 của Bộ Khoa học và Công nghệ.'
+toan_van: raw/download/datafiles.chinhphu.vn/65-2023-nd-cp.pdf
+tu_khoa:
+  - so-huu-tri-tue
+  - so-huu-cong-nghiep
+  - nhan-hieu
+  - dang-ky-shtt

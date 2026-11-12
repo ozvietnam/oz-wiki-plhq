@@ -1,21 +1,29 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 14/2018/TT-BYT
 loai: THONG_TU
-ten: Danh mục thiết bị y tế xuất khẩu, nhập khẩu
+ten: Ban hành Danh mục trang thiết bị y tế được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam
 co_quan: BYT
-tinh_trang: HET_HIEU_LUC
+ngay_ban_hanh: '2018-05-15'
+hieu_luc_tu: '2018-07-01'
 het_hieu_luc_tu: '2024-11-16'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
+  - phan-loai-hs/danh-muc
 quan_he: {}
 nguon:
-  - url: https://vanban.chinhphu.vn/?docid=200124
-    truy_cap: '2026-10-09'
+  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-14-2018-tt-byt-ban-hanh-danh-muc-trang-thiet-bi-y-te-duoc-xac-dinh-ma-so-hang-hoa-theo-danh-muc-hang-hoa-xuat-khau-nhap-khau-viet-nam--129502
+    truy_cap: '2026-11-12'
+  - url: https://vbpl-bientap-gateway.moj.gov.vn/api/qtdc/public/doc/minio/buckets/vbpl/129502/VanBanGoc_tt-2018-14-1.pdf/download
+    truy_cap: '2026-11-12'
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: chưa đối chiếu nguồn nào
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-09'
-  boi: claude-code@ozvietnam
-  canh_bao: 'CHUA_RO: ngày ban hành và ngày có hiệu lực chưa xác minh (để trống); tình trạng HET_HIEU_LUC suy ra từ quan hệ thay_the của 19/2024/TT-BYT (hiệu lực từ 2024-11-16), chưa đối chiếu trực tiếp nguồn bậc A về 14/2018/TT-BYT.'
-ghi_chu: Đóng điểm mù do 19/2024/TT-BYT nhắc tới trong quan hệ thay_the. Chưa đối chiếu trực tiếp nguồn bậc A — cần săn PDF Công báo/datafiles để bổ sung ngày ban hành chính xác và nâng mức xác minh.
+  muc: NGUON_A
+  pham_vi: 'đã đối chiếu toàn văn PDF bản gốc (VanBanGoc_tt-2018-14-1.pdf, Thứ trưởng Nguyễn Viết Tiến ký) trên CSDLQG vbpl.vn (ID 129502): số hiệu 14/2018/TT-BYT, tiêu đề chính thức, ngày ban hành 15/05/2018, gồm 5 Điều và Phụ lục Danh mục trang thiết bị y tế kèm mã số HS; khoản 1 Điều 4 quy định có hiệu lực từ 01/07/2018; khoản 2 Điều 4 làm hết hiệu lực Danh mục mã hàng tại Phụ lục I Thông tư 30/2015/TT-BYT; hết hiệu lực toàn bộ từ 16/11/2024 do bị thay thế bởi khoản 2 Điều 4 Thông tư 19/2024/TT-BYT ngày 01/10/2024 (vbpl.vn effTo 2024-11-16, effStatus HHL)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-12'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác minh nguồn bậc A (OZV-561) — Danh mục trang thiết bị y tế được xác định mã số HS theo Thông tư 65/2017/TT-BTC (giai đoạn 01/07/2018 – 15/11/2024), bị thay thế toàn bộ bởi Thông tư 19/2024/TT-BYT từ 16/11/2024. Đã loại bỏ URL sai vanban.chinhphu.vn/?docid=200124 (trỏ nhầm sang Quyết định 17/2020/QĐ-TTg) và thay bằng nguồn CSDLQG vbpl.vn (ID 129502).'
+toan_van: raw/download/vbpl.vn/14-2018-tt-byt.pdf
+tu_khoa:
+  - thiet-bi-y-te
+  - ma-hs

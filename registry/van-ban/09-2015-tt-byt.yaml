@@ -11,14 +11,26 @@ nhanh:
 quan_he:
   sua_doi:
     - so_hieu: 06/2011/TT-BYT
+      tu_ngay: '2015-07-16'
+      pham_vi: 'Bãi bỏ các quy định về quảng cáo mỹ phẩm trong Thông tư số 06/2011/TT-BYT ngày 25/01/2011'
+      can_cu: 'Điểm d khoản 2 Điều 24 Thông tư 09/2015/TT-BYT'
 nguon:
-  - url: https://luatvietnam.vn/y-te/van-ban-hop-nhat-09-vbhn-byt-nam-2025-do-bo-y-te-ban-hanh-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-406752-d5.html
-    truy_cap: '2026-10-22'
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=180328
+    truy_cap: '2026-11-12'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2015/06/09-byt.signed.pdf
+    truy_cap: '2026-11-12'
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-09-2015-tt-byt-12979.htm
+    truy_cap: '2026-11-12'
+  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-09-2015-tt-byt-quy-dinh-ve-xac-nhan-noi-dung-quang-cao-doi-voi-san-pham-hang-hoa-dich-vu-dac-biet-thuoc-linh-vuc-quan-ly-cua-bo-y-te--67130
+    truy_cap: '2026-11-12'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 25/5/2015, hiệu lực 16/7/2015 (trích nguyên văn mục 2 đầu VBHN 09/VBHN-BYT)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-22'
-  boi: zcode@ozvietnam
-  canh_bao: 'Chưa đối chiếu tình trạng trên nguồn bậc A (chế độ xác nhận quảng cáo thay nhiều lần sau 2015 — cần rà riêng).'
-tu_khoa: [my-pham, quang-cao]
+  muc: NGUON_A
+  pham_vi: 'đã đối chiếu toàn văn 19 trang PDF ký số (09-byt.signed.pdf, Thứ trưởng Phạm Lê Tuấn ký) trên vanban.chinhphu.vn (docid=180328), Công báo (số 609+610 năm 2015) và CSDLQG vbpl.vn (ID 67130): số hiệu 09/2015/TT-BYT, tiêu đề, ngày ban hành 25/05/2015, gồm 3 Chương 27 Điều; khoản 1 Điều 24 có hiệu lực từ 16/07/2015; điểm d khoản 2 Điều 24 bãi bỏ các quy định về quảng cáo mỹ phẩm trong Thông tư 06/2011/TT-BYT (được hợp nhất tại VBHN 09/VBHN-BYT ngày 25/07/2025); trên vbpl.vn (ID 67130) ghi nhận trạng thái hết hiệu lực một phần (effStatus HHL1P) do các quy định xác nhận quảng cáo theo từng nhóm hàng chuyên ngành được sửa đổi, bãi bỏ một phần bởi các văn bản sau năm 2015'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-12'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác minh nguồn bậc A (OZV-561) — quy định điều kiện, thẩm quyền, hồ sơ, thủ tục xác nhận nội dung quảng cáo đối với thuốc, mỹ phẩm, thực phẩm/phụ gia thực phẩm thuộc quản lý Bộ Y tế, hóa chất/chế phẩm diệt côn trùng diệt khuẩn dùng trong gia dụng và y tế, trang thiết bị y tế, sữa và sản phẩm dinh dưỡng dùng cho trẻ, dịch vụ khám bệnh chữa bệnh. Điểm d khoản 2 Điều 24 bãi bỏ quy định về quảng cáo mỹ phẩm tại TT 06/2011/TT-BYT; một số thủ tục xác nhận quảng cáo chuyên ngành đã hết hiệu lực một phần theo các nghị định, thông tư mới của Chính phủ và Bộ Y tế.'
+toan_van: raw/download/datafiles.chinhphu.vn/09-2015-tt-byt.pdf
+tu_khoa:
+  - my-pham
+  - quang-cao
