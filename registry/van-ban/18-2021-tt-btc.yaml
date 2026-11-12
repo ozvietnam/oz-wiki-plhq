@@ -1,0 +1,29 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 18/2021/TT-BTC
+loai: THONG_TU
+ten: 'Quy định mức thu, nộp phí thẩm định cấp giấy phép kinh doanh sản phẩm, dịch vụ mật mã dân sự, giấy chứng nhận hợp chuẩn sản phẩm mật mã dân sự, giấy chứng nhận hợp quy sản phẩm mật mã dân sự'
+co_quan: BTC
+ngay_ban_hanh: '2021-03-11'
+hieu_luc_tu: '2021-03-11'
+het_hieu_luc_tu: '2022-01-01'
+tinh_trang: HET_HIEU_LUC
+nhanh:
+  - kiem-tra-chuyen-nganh/bqp
+  - hai-quan/thu-tuc
+nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=202874
+    truy_cap: '2026-11-12'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2021/03/18-btc.signed.pdf
+    truy_cap: '2026-11-12'
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-18-2021-tt-btc-33417.htm
+    truy_cap: '2026-11-12'
+  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-18-2021-tt-btc-quy-dinh-muc-thu-nop-phi-tham-dinh-cap-giay-phep-kinh-doanh-san-pham-dich-vu-mat-ma-dan-su-giay-chung-nhan-hop-chuan-san-pham-mat-ma-dan-su-giay-chung-nhan-hop-quy-san-pham-mat-ma-dan-su--150987
+    truy_cap: '2026-11-12'
+toan_van: raw/download/datafiles.chinhphu.vn/18-2021-tt-btc.pdf
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Đã đọc toàn văn PDF ký số trên datafiles.chinhphu.vn (18-btc.signed.pdf, 2 trang, người ký Thứ trưởng Vũ Thị Mai) và thẻ vanban.chinhphu.vn (docid=202874), congbao.chinhphu.vn (33417), vbpl.vn (150987): Điều 1 quy định mức thu phí bằng 90% mức thu tại Điều 4 Thông tư 249/2016/TT-BTC kể từ ngày 11-03-2021 đến hết ngày 31-12-2021; Điều 2 khoản 1 quy định Thông tư có hiệu lực thi hành từ ngày 11-03-2021 đến hết ngày 31-12-2021 (hết hiệu lực từ ngày 01-01-2022).'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-12'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Nạp từ nhu cầu khách tra (issue [miss] #395). Giảm 10% phí thẩm định mật mã dân sự (áp dụng bằng 90% mức thu tại Thông tư 249/2016/TT-BTC) từ 11-03-2021 đến hết 31-12-2021; tự động hết hiệu lực từ 01-01-2022 theo Điều 2 khoản 1.'
