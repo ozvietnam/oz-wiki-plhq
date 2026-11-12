@@ -17,11 +17,13 @@ nguon:
     truy_cap: '2026-11-12'
   - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-65-2017-tt-btc-ban-hanh-danh-muc-hang-hoa-xuat-khau-nhap-khau-viet-nam--123192
     truy_cap: '2026-11-12'
+  - url: https://vbpl-bientap-gateway.moj.gov.vn/api/qtdc/public/doc/minio/buckets/vbpl/123192/VanBanGoc_TT65.2017.BTC.PDF/download
+    truy_cap: '2026-11-12'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'đã đối chiếu trực tiếp văn bản gốc ký số (Thứ trưởng Vũ Thị Mai ký) trên CSDLQG vbpl.vn (ID 123192), vanban.chinhphu.vn (docid=190622) và Công báo (số 529+530 ngày 24/07/2017): số hiệu, tên, ngày ban hành 27/06/2017, Điều 4 khoản 1 hiệu lực từ 01/01/2018 và khoản 2 thay thế Thông tư 103/2015/TT-BTC; được sửa đổi, bổ sung một phần bởi Thông tư 09/2019/TT-BTC; hết hiệu lực từ 01/12/2022 do bị khoản 2 Điều 4 Thông tư 31/2022/TT-BTC thay thế toàn bộ (vbpl.vn effTo 2022-12-01, effStatus HHL)'
+  pham_vi: 'đã đối chiếu toàn văn 2 trang PDF gốc ký số (VanBanGoc_TT65.2017.BTC.PDF, Bộ Tài chính ký số 10/07/2017 15:28, Thứ trưởng Vũ Thị Mai ký) trên CSDLQG vbpl.vn (ID 123192), vanban.chinhphu.vn (docid=190622) và Công báo (số 529+530 ngày 31/07/2017): số hiệu, tên, ngày ban hành 27/06/2017, Điều 1 ban hành kèm theo 2 phụ lục (Danh mục hàng hóa XNK Việt Nam và 6 quy tắc tổng quát), Điều 4 khoản 1 hiệu lực từ 01/01/2018 và khoản 2 thay thế Thông tư 103/2015/TT-BTC; được sửa đổi, bổ sung một phần bởi Thông tư 09/2019/TT-BTC; hết hiệu lực từ 01/12/2022 do bị khoản 2 Điều 4 Thông tư 31/2022/TT-BTC thay thế toàn bộ (vbpl.vn effTo 2022-12-01, effStatus HHL)'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-12'
   boi: bo-ba-01@ozvietnam
 ghi_chu: Nạp từ điểm mù CAO (OZV-556) — Danh mục hàng hóa XNK Việt Nam giai đoạn AHTN 2017 (01/01/2018 – 30/11/2022), bị thay thế bởi Thông tư 31/2022/TT-BTC từ 01/12/2022.
-toan_van: raw/download/vbpl.vn/65-2017-tt-btc.html
+toan_van: raw/download/vbpl.vn/65-2017-tt-btc.pdf
