@@ -16,6 +16,13 @@ nguon:
   - url: https://moit.gov.vn/upload/2005517/20240703/1_QD-BCT_2024_1725_f624e.pdf
     truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 61
+danh_muc_hs:
+  tep: danh-muc/1725-qd-bct-2024.csv
+  nguon: https://moit.gov.vn/upload/2005517/20240703/1_QD-BCT_2024_1725_f624e.pdf
+  trich_boi: tho-hs-03@ozvietnam
+  ngay: '2026-11-13'
+  da_doi_chieu: false
+  ghi_chu: 'Phụ lục trang 3-10. PDF moit là ảnh quét, lớp OCR rụng/bịa ký tự đầu mã HS nên trích mã bằng quy tắc tất định (OZV-636 hướng C): token chữ số của ô mã khớp ĐÚNG hoặc là chuỗi con liên tiếp của đúng MỘT mã trong tập 61 mã 8 số mà biểu thuế Tổng cục dẫn 1725/QĐ-BCT (+ tiền tố 6 số); 0 hoặc ≥2 ứng viên thì bỏ dòng. Kết quả 40 dòng (35 mã 8 số + 5 dòng 6 số), bỏ 12 token mơ hồ; 20/61 mã 8 số chưa tái dựng được (trong đó 6 đã phủ bởi dòng 6 số): 84181031 84181032 84181099 84184010 84185019 84501110 84501190 84501999 84714110 84714190 85041000 85042211 85042292 85042293 85166010 85393110 85393120 85393130 85395210 85395290. mo_ta lấy nguyên văn tên nút danh mục HS chính thức (tax.json / bieu-thue ten-nut.json, mức in 6/8 như phụ lục), không phải chữ OCR. Chưa kèm được các điều kiện công suất đọc được trong cột "Mô tả sản phẩm" (đèn huỳnh quang 5-60W / ống thẳng 4-65W / chấn lưu 4-65W) vì không gắn chắc từng dòng từ lớp chữ hỏng.'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF moit.gov.vn (OCR): Điều 3 khoản 1 hiệu lực kể từ ngày ký (01-07-2024); khoản 2 thay thế Phụ lục II QĐ 1182/QĐ-BCT; trang moit trạng thái «Đã có hiệu lực»; sổ không có văn bản sau ghi thay/bãi 1725/QĐ-BCT (kiểm đến 04-10-2026)'
