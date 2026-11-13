@@ -4,8 +4,8 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "luoc_do": "docs/luoc-do-danh-muc-hs.md",
  "cach_tra": "Khoá là nhóm mã HS trong bảng (4, 6 hoặc 8 số). Tra mã 8 số: ghép mọi khoá là tiền tố của mã (độ dài 4, 6) và khoá trùng 8 số. Cạnh giữ nguyên dieu_kien — \"trừ loại…\" là trừ diện, không phải diện áp. canh_bao_ma = nhóm mã không có trong biểu thuế đối chiếu — tra ra các khoá này thì dừng và đối chiếu lại văn bản gốc, đừng kết luận diện áp. tien_le_tb_tchq = mật độ thông báo phân loại của Tổng cục (bậc C, tham khảo).",
- "tong_nhom_ma": 6465,
- "tong_canh": 13284,
+ "tong_nhom_ma": 6477,
+ "tong_canh": 13324,
  "bieu_thue_doi_chieu": {
   "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/tax.json",
   "phien_ban": "2026-11-08",
@@ -24128,6 +24128,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "841459": [
@@ -24414,6 +24428,22 @@
     "phu_luc": "Phụ lục"
    }
   ],
+  "844331": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   }
+  ],
   "845011": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -24476,6 +24506,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "848180": [
@@ -24491,6 +24535,22 @@
     "muc_rui_ro": "TRUNG_BINH",
     "dieu_kien": null,
     "nhom": "I.6",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "850421": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
     "phu_luc": "Phụ lục"
    }
   ],
@@ -24524,6 +24584,22 @@
     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam; đã qua sử dụng",
     "nhom": "Chương 85",
     "phu_luc": "Phụ lục V"
+   }
+  ],
+  "851610": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "851821": [
@@ -102484,6 +102560,20 @@
   ],
   "84145191": [
    {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
@@ -102513,6 +102603,20 @@
    }
   ],
   "84145199": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
    {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
@@ -102575,6 +102679,20 @@
    }
   ],
   "84151020": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
    {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
@@ -102904,9 +103022,53 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "84181091": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "84182110": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
    {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
@@ -102923,6 +103085,20 @@
    }
   ],
   "84182190": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
    {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
@@ -102952,6 +103128,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    },
    {
     "so_hieu": "36/2026/TT-BKHCN",
@@ -102984,6 +103174,20 @@
     "phu_luc": "Phụ lục I"
    },
    {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
@@ -102999,6 +103203,20 @@
    }
   ],
   "84183090": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
    {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
@@ -103046,6 +103264,20 @@
   ],
   "84184090": [
    {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
@@ -103077,6 +103309,20 @@
    }
   ],
   "84185099": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
    {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
@@ -105204,6 +105450,22 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "84433111": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   }
+  ],
   "84433119": [
    {
     "so_hieu": "11/2018/TT-BTTTT",
@@ -105216,6 +105478,36 @@
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "84433121": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
@@ -105234,6 +105526,20 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "84433131": [
@@ -105249,6 +105555,20 @@
     "muc_rui_ro": "CAO",
     "dieu_kien": "CHỈ sản phẩm có chức năng mật mã (mã hoá/giải mã, ký số) bảo vệ thông tin không thuộc bí mật nhà nước; QCVN 4:2026/BQP, QCVN 5:2016/BQP, QCVN 6:2016/BQP; Công bố hợp quy trên cơ sở kết quả chứng nhận hợp quy của tổ chức chứng nhận được chỉ định; phương thức 5 hoặc 7 theo TT 14/2026/TT-BKHCN; hàng nhập khẩu kiểm tra nhà nước về chất lượng",
     "nhom": "3",
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
     "phu_luc": "Phụ lục"
    }
   ],
@@ -105280,6 +105600,20 @@
     "dieu_kien": "CHỈ sản phẩm có chức năng mật mã (mã hoá/giải mã, ký số) bảo vệ thông tin không thuộc bí mật nhà nước; QCVN 4:2026/BQP, QCVN 5:2016/BQP, QCVN 6:2016/BQP; Công bố hợp quy trên cơ sở kết quả chứng nhận hợp quy của tổ chức chứng nhận được chỉ định; phương thức 5 hoặc 7 theo TT 14/2026/TT-BKHCN; hàng nhập khẩu kiểm tra nhà nước về chất lượng",
     "nhom": "3",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "84433191": [
@@ -105296,6 +105630,20 @@
     "dieu_kien": "CHỈ sản phẩm có chức năng mật mã (mã hoá/giải mã, ký số) bảo vệ thông tin không thuộc bí mật nhà nước; QCVN 4:2026/BQP, QCVN 5:2016/BQP, QCVN 6:2016/BQP; Công bố hợp quy trên cơ sở kết quả chứng nhận hợp quy của tổ chức chứng nhận được chỉ định; phương thức 5 hoặc 7 theo TT 14/2026/TT-BKHCN; hàng nhập khẩu kiểm tra nhà nước về chất lượng",
     "nhom": "3",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "84433199": [
@@ -105311,6 +105659,20 @@
     "muc_rui_ro": "CAO",
     "dieu_kien": "CHỈ sản phẩm có chức năng mật mã (mã hoá/giải mã, ký số) bảo vệ thông tin không thuộc bí mật nhà nước; QCVN 4:2026/BQP, QCVN 5:2016/BQP, QCVN 6:2016/BQP; Công bố hợp quy trên cơ sở kết quả chứng nhận hợp quy của tổ chức chứng nhận được chỉ định; phương thức 5 hoặc 7 theo TT 14/2026/TT-BKHCN; hàng nhập khẩu kiểm tra nhà nước về chất lượng",
     "nhom": "3",
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
     "phu_luc": "Phụ lục"
    }
   ],
@@ -105410,6 +105772,38 @@
     "phu_luc": "Phụ lục"
    }
   ],
+  "84433910": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "84433930": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   }
+  ],
   "84439920": [
    {
     "so_hieu": "11/2018/TT-BTTTT",
@@ -105476,6 +105870,20 @@
   ],
   "84501210": [
    {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
@@ -105491,6 +105899,20 @@
    }
   ],
   "84501290": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
    {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
@@ -105508,6 +105930,20 @@
   ],
   "84501911": [
    {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
@@ -105524,6 +105960,20 @@
   ],
   "84501919": [
    {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
@@ -105536,6 +105986,38 @@
     "dieu_kien": null,
     "nhom": "7",
     "phu_luc": "Phụ lục II"
+   }
+  ],
+  "84501991": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "84502000": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "84509020": [
@@ -106422,6 +106904,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "84714990": [
@@ -106787,6 +107283,20 @@
     "muc_rui_ro": "CAO",
     "dieu_kien": "CHỈ sản phẩm có chức năng mật mã (mã hoá/giải mã, ký số) bảo vệ thông tin không thuộc bí mật nhà nước; QCVN 4:2026/BQP, QCVN 5:2016/BQP, QCVN 6:2016/BQP; Công bố hợp quy trên cơ sở kết quả chứng nhận hợp quy của tổ chức chứng nhận được chỉ định; phương thức 5 hoặc 7 theo TT 14/2026/TT-BKHCN; hàng nhập khẩu kiểm tra nhà nước về chất lượng",
     "nhom": "3",
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
     "phu_luc": "Phụ lục"
    }
   ],
@@ -108758,6 +109268,38 @@
     "phu_luc": "Phụ lục"
    }
   ],
+  "85042219": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "85042299": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   }
+  ],
   "85043311": [
    {
     "so_hieu": "33/2026/TT-BCT",
@@ -109839,6 +110381,20 @@
    }
   ],
   "85161019": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
    {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
@@ -114104,6 +114660,20 @@
   ],
   "85287292": [
    {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
@@ -114119,6 +114689,20 @@
    }
   ],
   "85287299": [
+   {
+    "so_hieu": "1725/QĐ-BCT",
+    "slug": "1725-qd-bct-2024",
+    "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
    {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
