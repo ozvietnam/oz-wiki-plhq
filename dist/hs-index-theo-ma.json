@@ -4,8 +4,8 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "luoc_do": "docs/luoc-do-danh-muc-hs.md",
  "cach_tra": "Khoá là nhóm mã HS trong bảng (4, 6 hoặc 8 số). Tra mã 8 số: ghép mọi khoá là tiền tố của mã (độ dài 4, 6) và khoá trùng 8 số. Cạnh giữ nguyên dieu_kien — \"trừ loại…\" là trừ diện, không phải diện áp. canh_bao_ma = nhóm mã không có trong biểu thuế đối chiếu — tra ra các khoá này thì dừng và đối chiếu lại văn bản gốc, đừng kết luận diện áp. tien_le_tb_tchq = mật độ thông báo phân loại của Tổng cục (bậc C, tham khảo).",
- "tong_nhom_ma": 6502,
- "tong_canh": 13357,
+ "tong_nhom_ma": 6513,
+ "tong_canh": 13369,
  "bieu_thue_doi_chieu": {
   "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/tax.json",
   "phien_ban": "2026-11-08",
@@ -9063,6 +9063,22 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "3603": [
+   {
+    "so_hieu": "173/2018/TT-BQP",
+    "slug": "173-2018-tt-bqp",
+    "ten": "Công bố danh mục cụ thể hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành của Bộ Quốc phòng theo quy định tại Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2019-01-01",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm xuất khẩu, cấm nhập khẩu; chỉ áp dụng loại chuyên dùng quân sự",
+    "nhom": "Chương 36",
+    "phu_luc": "Phụ lục"
+   }
+  ],
   "3808": [
    {
     "so_hieu": "01/2024/TT-BNNPTNT",
@@ -14341,6 +14357,22 @@
     "phu_luc": "Phụ lục II"
    }
   ],
+  "8802": [
+   {
+    "so_hieu": "173/2018/TT-BQP",
+    "slug": "173-2018-tt-bqp",
+    "ten": "Công bố danh mục cụ thể hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành của Bộ Quốc phòng theo quy định tại Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2019-01-01",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm xuất khẩu, cấm nhập khẩu; chỉ áp dụng loại chiến đấu, vũ trang hoặc được thiết kế đặc biệt hay biến đổi để sử dụng trong quân sự",
+    "nhom": "Chương 88",
+    "phu_luc": "Phụ lục"
+   }
+  ],
   "8903": [
    {
     "so_hieu": "31/2026/QĐ-TTg",
@@ -14557,6 +14589,54 @@
     "dieu_kien": "trừ đồng hồ đo thời gian hàng hải mã HS 9105.91.10, 9105.99.10 và máy tương tự",
     "nhom": null,
     "phu_luc": "Phụ lục II"
+   }
+  ],
+  "9301": [
+   {
+    "so_hieu": "173/2018/TT-BQP",
+    "slug": "173-2018-tt-bqp",
+    "ten": "Công bố danh mục cụ thể hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành của Bộ Quốc phòng theo quy định tại Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2019-01-01",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm xuất khẩu, cấm nhập khẩu; không kể các loại vũ khí đã xác định tại nhóm 8710.00.00 và nhóm 9302.00.00",
+    "nhom": "Chương 93",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "9305": [
+   {
+    "so_hieu": "173/2018/TT-BQP",
+    "slug": "173-2018-tt-bqp",
+    "ten": "Công bố danh mục cụ thể hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành của Bộ Quốc phòng theo quy định tại Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2019-01-01",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm xuất khẩu, cấm nhập khẩu; chỉ áp dụng bộ phận và phụ kiện của các loại vũ khí chuyên dùng quân sự",
+    "nhom": "Chương 93",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "9306": [
+   {
+    "so_hieu": "173/2018/TT-BQP",
+    "slug": "173-2018-tt-bqp",
+    "ten": "Công bố danh mục cụ thể hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành của Bộ Quốc phòng theo quy định tại Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2019-01-01",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm xuất khẩu, cấm nhập khẩu; chỉ áp dụng loại chuyên dùng quân sự",
+    "nhom": "Chương 93",
+    "phu_luc": "Phụ lục"
    }
   ],
   "9401": [
@@ -58733,7 +58813,37 @@
     "phu_luc": "Danh mục 7"
    }
   ],
+  "36010000": [
+   {
+    "so_hieu": "173/2018/TT-BQP",
+    "slug": "173-2018-tt-bqp",
+    "ten": "Công bố danh mục cụ thể hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành của Bộ Quốc phòng theo quy định tại Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2019-01-01",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm xuất khẩu, cấm nhập khẩu; trừ vật liệu nổ công nghiệp",
+    "nhom": "Chương 36",
+    "phu_luc": "Phụ lục"
+   }
+  ],
   "36020000": [
+   {
+    "so_hieu": "173/2018/TT-BQP",
+    "slug": "173-2018-tt-bqp",
+    "ten": "Công bố danh mục cụ thể hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành của Bộ Quốc phòng theo quy định tại Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2019-01-01",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm xuất khẩu, cấm nhập khẩu; trừ bột nổ đẩy",
+    "nhom": "Chương 36",
+    "phu_luc": "Phụ lục"
+   },
    {
     "so_hieu": "31/2026/QĐ-TTg",
     "slug": "31-2026-qd-ttg",
@@ -159797,6 +159907,22 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "87100000": [
+   {
+    "so_hieu": "173/2018/TT-BQP",
+    "slug": "173-2018-tt-bqp",
+    "ten": "Công bố danh mục cụ thể hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành của Bộ Quốc phòng theo quy định tại Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2019-01-01",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm xuất khẩu, cấm nhập khẩu",
+    "nhom": "Chương 87",
+    "phu_luc": "Phụ lục"
+   }
+  ],
   "87111012": [
    {
     "so_hieu": "49/2026/TT-BXD",
@@ -161869,6 +161995,22 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "89061000": [
+   {
+    "so_hieu": "173/2018/TT-BQP",
+    "slug": "173-2018-tt-bqp",
+    "ten": "Công bố danh mục cụ thể hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành của Bộ Quốc phòng theo quy định tại Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2019-01-01",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm xuất khẩu, cấm nhập khẩu",
+    "nhom": "Chương 89",
+    "phu_luc": "Phụ lục"
+   }
+  ],
   "89069010": [
    {
     "so_hieu": "01/2024/TT-BNNPTNT",
@@ -163050,6 +163192,54 @@
     "muc_rui_ro": null,
     "dieu_kien": "Thiết bị y tế (danh mục mã HS theo 19/2024/TT-BYT; 24/2026/TT-BYT dẫn chiếu) — phải phân loại mức rủi ro (A/B: công bố tiêu chuẩn áp dụng; C/D: đăng ký lưu hành) theo NĐ 98/2021/NĐ-CP trước khi nhập khẩu",
     "nhom": "86",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "93011000": [
+   {
+    "so_hieu": "173/2018/TT-BQP",
+    "slug": "173-2018-tt-bqp",
+    "ten": "Công bố danh mục cụ thể hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành của Bộ Quốc phòng theo quy định tại Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2019-01-01",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm xuất khẩu, cấm nhập khẩu",
+    "nhom": "Chương 93",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "93012000": [
+   {
+    "so_hieu": "173/2018/TT-BQP",
+    "slug": "173-2018-tt-bqp",
+    "ten": "Công bố danh mục cụ thể hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành của Bộ Quốc phòng theo quy định tại Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2019-01-01",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm xuất khẩu, cấm nhập khẩu",
+    "nhom": "Chương 93",
+    "phu_luc": "Phụ lục"
+   }
+  ],
+  "93020000": [
+   {
+    "so_hieu": "173/2018/TT-BQP",
+    "slug": "173-2018-tt-bqp",
+    "ten": "Công bố danh mục cụ thể hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành của Bộ Quốc phòng theo quy định tại Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2019-01-01",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "cấm xuất khẩu, cấm nhập khẩu; trừ các loại thuộc nhóm 93.03 hoặc 93.04",
+    "nhom": "Chương 93",
     "phu_luc": "Phụ lục"
    }
   ],

@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-13",
-  "tong": 5017,
+  "tong": 5016,
   "diem": [
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -43183,15 +43183,6 @@
       "viec": "Văn bản danh mục chưa có danh-muc/16-2021-tt-bnnptnt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
       "luong": "danh-muc-hs",
       "trongSo": 0
-    },
-    {
-      "ma": "DANH_MUC_CHUA_TRICH",
-      "muc": "Vừa",
-      "tieuDe": "Chưa trích bảng mã HS: 173/2018/TT-BQP",
-      "muc_tieu": "173/2018/TT-BQP",
-      "viec": "Văn bản danh mục chưa có danh-muc/173-2018-tt-bqp.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 41 mã.",
-      "luong": "danh-muc-hs",
-      "trongSo": 41
     },
     {
       "ma": "DANH_MUC_CHUA_TRICH",
