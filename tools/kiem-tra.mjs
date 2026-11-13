@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 // Kiểm sổ đăng ký văn bản. LỖI → chặn PR (exit 1). CẢNH BÁO → in ra, không chặn.
 //   node tools/kiem-tra.mjs [--json]
+import { readdirSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
 import { napSo, khoa, slugTuSoHieu, bacNguon, chuanCanh, dungDoThi, homNay, ROOT,
   LOAI, TINH_TRANG, MUC_XAC_MINH, CHAN_HIEU_LUC, QUAN_HE } from './lib/registry.mjs';
-import { napDanhMuc, kiemDinhDang } from './lib/danh-muc.mjs';
+import { napDanhMuc, kiemDinhDang, docCsv } from './lib/danh-muc.mjs';
 
 const NGAY = /^\d{4}-\d{2}-\d{2}$/;
 const TRUONG = new Set(['so_hieu', 'loai', 'ten', 'co_quan', 'ngay_ban_hanh', 'hieu_luc_tu', 'het_hieu_luc_tu',
@@ -131,6 +133,24 @@ export function kiemTra(so, { today = homNay(), root = ROOT } = {}) {
     if (dm.da_doi_chieu === true && !dm.nguon) L(d._file, 'danh_muc_hs.da_doi_chieu = true cần nguon (bản có phụ lục đã mở)');
   }
   for (const it of napDanhMuc(so, root)) for (const msg of kiemDinhDang(it)) L(it.vanBan._file, msg);
+
+  // Mỗi tệp CSV trong danh-muc/: số cột mỗi dòng phải bằng header (chống lệch cột → điểm mù giả)
+  const dmDir = join(root, 'danh-muc');
+  try {
+    for (const name of readdirSync(dmDir).filter((f) => f.endsWith('.csv')).sort()) {
+      const tep = `danh-muc/${name}`;
+      let rows;
+      try { rows = docCsv(readFileSync(join(dmDir, name), 'utf8')); }
+      catch (e) { L(tep, `không đọc được: ${e.message}`); continue; }
+      if (!rows.length) continue;
+      const nCot = rows[0].length;
+      rows.forEach((r, i) => {
+        if (r.length !== nCot) L(tep, `dòng ${i + 1}: số cột ${r.length} khác header (${nCot})`);
+      });
+    }
+  } catch (e) {
+    if (e && e.code !== 'ENOENT') L('danh-muc/', `không đọc được thư mục: ${e.message}`);
+  }
 
   // Chu trình thay thế (A thay B, B thay A)
   const { nguoc } = dungDoThi(so);
