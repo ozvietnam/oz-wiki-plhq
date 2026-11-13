@@ -1,4 +1,4 @@
-# Cây văn bản pháp luật XNK — 2026-11-12
+# Cây văn bản pháp luật XNK — 2026-11-13
 
 2492 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
@@ -2748,20 +2748,21 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 9 văn bản, 4 chưa hết hiệu lực.
 
+- 🟢 [1400/QĐ-BCT](../registry/van-ban/1400-qd-bct-2025.yaml) — Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm kính nổi không màu có xuất xứ từ Cộng hòa In-đô-nê-xi-a và Ma-lai-xi-a _(hết hiệu lực 2031-06-14)_
 - 🟢 [121/QĐ-BCT](../registry/van-ban/121-qd-bct-2025.yaml) — Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm ván sợi gỗ có xuất xứ từ Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa _(hết hiệu lực 2031-01-19)_
 - ⚫ [2491/QĐ-BCT](../registry/van-ban/2491-qd-bct-2025.yaml) — Áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm ván sợi gỗ có xuất xứ từ Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa _(hết hiệu lực 2026-01-18)_
 - ⚫ [2105/QĐ-BCT](../registry/van-ban/2105-qd-bct-2025.yaml) — Sửa đổi Quyết định số 1989/QĐ-BCT về kết quả rà soát lần thứ nhất việc áp dụng biện pháp chống bán phá giá và chống trợ cấp đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan _(hết hiệu lực 2026-06-16)_
 - ⚫ [691/QĐ-BCT](../registry/van-ban/691-qd-bct-2023.yaml) — Gia hạn áp dụng biện pháp tự vệ đối với sản phẩm thép dài nhập khẩu _(hết hiệu lực 2026-03-22)_
 - ⚫ [693/QĐ-BCT](../registry/van-ban/693-qd-bct-2023.yaml) — Gia hạn áp dụng biện pháp chống lẩn tránh biện pháp phòng vệ thương mại _(hết hiệu lực 2026-03-22)_
 - ⚫ [715/QĐ-BCT](../registry/van-ban/715-qd-bct-2020.yaml) — Gia hạn áp dụng biện pháp tự vệ đối với sản phẩm phân bón DAP, MAP nhập khẩu _(hết hiệu lực 2022-09-07)_
-- ❔ [1400/QĐ-BCT](../registry/van-ban/1400-qd-bct-2025.yaml) — (chưa có tiêu đề) 1400/QĐ-BCT
 - ❔ [2174/QĐ-BCT](../registry/van-ban/2174-qd-bct-2025.yaml) — (chưa có tiêu đề) 2174/QĐ-BCT
 - ❔ [915/QĐ-BCT](../registry/van-ban/915-qd-bct-2025.yaml) — (chưa có tiêu đề) 915/QĐ-BCT
 
 ### Chống bán phá giá, chống trợ cấp, tự vệ `phong-ve-thuong-mai/chong-ban-pha-gia`
 
-25 văn bản, 23 chưa hết hiệu lực.
+26 văn bản, 24 chưa hết hiệu lực.
 
+- 🟢 [1400/QĐ-BCT](../registry/van-ban/1400-qd-bct-2025.yaml) — Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm kính nổi không màu có xuất xứ từ Cộng hòa In-đô-nê-xi-a và Ma-lai-xi-a _(hết hiệu lực 2031-06-14)_
 - 🟢 [1309/QĐ-BCT](../registry/van-ban/1309-qd-bct-2026.yaml) — Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá và chống trợ cấp đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan
 - 🟢 [1310/QĐ-BCT](../registry/van-ban/1310-qd-bct-2026.yaml) — Gia hạn biện pháp chống lẩn tránh biện pháp phòng vệ thương mại đối với một số sản phẩm đường mía _(hết hiệu lực 2031-06-15)_
 - ⚫ [228/QĐ-BCT](../registry/van-ban/228-qd-bct.yaml) — Áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm kính nổi không màu có xuất xứ từ Cộng hòa In-đô-nê-xi-a và Ma-lai-xi-a _(hết hiệu lực 2026-06-14)_

@@ -1,4 +1,4 @@
-# Quan hệ cũ – mới giữa các văn bản — 2026-11-12
+# Quan hệ cũ – mới giữa các văn bản — 2026-11-13
 
 Mũi tên đi từ văn bản MỚI tới văn bản bị tác động. Sinh tự động bằng `node tools/dung.mjs`.
 
@@ -426,8 +426,8 @@ flowchart LR
   n_2961_Q__BCT["2961/QĐ-BCT<br/>chưa xác minh"]
   n_1989_Q__BCT["1989/QĐ-BCT<br/>chưa xác minh"]
   n_2105_Q__BCT["2105/QĐ-BCT<br/>hết hiệu lực"]
-  n_1400_Q__BCT["1400/QĐ-BCT<br/>chưa xác minh"]
-  n_2093_Q__BCT["2093/QĐ-BCT<br/>còn hiệu lực"]
+  n_1400_Q__BCT["1400/QĐ-BCT<br/>còn hiệu lực"]
+  n_228_Q__BCT["228/QĐ-BCT<br/>hết hiệu lực"]
   n_2174_Q__BCT["2174/QĐ-BCT<br/>chưa xác minh"]
   n_2333_Q__BCT["2333/QĐ-BCT<br/>còn hiệu lực"]
   n_86_2025_N__CP["86/2025/NĐ-CP<br/>còn hiệu lực"]
@@ -439,7 +439,7 @@ flowchart LR
   n_1309_Q__BCT -->|bãi bỏ từ 2026-06-16| n_2961_Q__BCT
   n_1309_Q__BCT -->|bãi bỏ từ 2026-06-16| n_1989_Q__BCT
   n_1309_Q__BCT -->|bãi bỏ từ 2026-06-16| n_2105_Q__BCT
-  n_1400_Q__BCT -->|thay thế| n_2093_Q__BCT
+  n_1400_Q__BCT -->|thay thế từ 2026-06-14| n_228_Q__BCT
   n_2105_Q__BCT -->|bãi bỏ từ 2026-06-16| n_1309_Q__BCT
   n_2174_Q__BCT -->|thay thế| n_2333_Q__BCT
   n_86_2025_N__CP -->|thay thế từ 2025-07-01| n_10_2018_N__CP

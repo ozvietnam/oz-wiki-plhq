@@ -1,6 +1,6 @@
 {
-  "ngay": "2026-11-12",
-  "tong": 5027,
+  "ngay": "2026-11-13",
+  "tong": 5024,
   "diem": [
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -5745,39 +5745,12 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Thấp",
-      "tieuDe": "1400/QĐ-BCT: chưa có nguồn chính thống",
-      "muc_tieu": "1400/QĐ-BCT",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "1400/QĐ-BCT: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
-      "muc_tieu": "1400/QĐ-BCT",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_TOAN_VAN",
       "muc": "Thấp",
       "tieuDe": "1400/QĐ-BCT: chưa có toàn văn trong raw/",
       "muc_tieu": "1400/QĐ-BCT",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"1400/QĐ-BCT\" --ghi",
       "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
-      "ma": "VAN_BAN_KHUNG",
-      "muc": "Vừa",
-      "tieuDe": "1400/QĐ-BCT: chưa có tiêu đề, ngày, nguồn",
-      "muc_tieu": "1400/QĐ-BCT",
-      "viec": "Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.",
-      "luong": "he-thong-hoa",
       "trongSo": 0
     },
     {
@@ -45232,7 +45205,7 @@
       "muc": "Thấp",
       "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 228/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC",
       "muc_tieu": "228/QĐ-BCT",
-      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (2 mã HS) — Áp thuế chống bán phá giá đối với Một số sản phẩm kính nổi không màu (ID, MA). Sổ ghi HET_HIEU_LUC từ 2026-06-14 (đã đối chiếu nguồn A), không có văn bản thay/bãi trong sổ — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
+      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (2 mã HS) — Áp thuế chống bán phá giá đối với Một số sản phẩm kính nổi không màu (ID, MA). Sổ ghi bị thay bởi 1400/QĐ-BCT (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
       "luong": "hieu-luc",
       "trongSo": 2
     },
