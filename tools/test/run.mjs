@@ -179,6 +179,14 @@ const dm6 = napDanhMuc(so6, r6);
 const hong = dm6.find((x) => x.tep === 'danh-muc/hong.csv');
 t('danh mục: lỗi định dạng mã có dấu chấm + loại tác động sai', kiemDinhDang(hong).some((m) => /2203\.00\.91/.test(m)) && kiemDinhDang(hong).some((m) => /KIEM_ATTP/.test(m)));
 t('danh mục: kiem-tra chặn bảng hỏng', kiemTra(so6, { root: r6 }).loi.some((e) => /hong\.csv/.test(e.msg)));
+// Lệch số cột trong danh-muc/*.csv phải chặn PR (kèm tên tệp + số dòng)
+const rLech = soGia({
+  'lech-vb.yaml': `so_hieu: 99/2026/TT-BCT\nloai: THONG_TU\nten: Fixture lệch cột\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [chua-phan-loai]\n${XM}\n`,
+});
+mkdirSync(join(rLech, 'danh-muc'), { recursive: true });
+writeFileSync(join(rLech, 'danh-muc', 'lech.csv'), HEAD + '22030091,Bia,1,Phụ lục,KIEM_TRA_ATTP,,,5\n'); // 8 ô, thiếu 1 so với header 9
+const kLech = kiemTra(napSo(rLech), { root: rLech });
+t('danh mục: lệch số cột CSV → lỗi kèm tên tệp + số dòng', kLech.loi.some((e) => e.file === 'danh-muc/lech.csv' && /dòng 2/.test(e.msg) && /cột/.test(e.msg)));
 const bt6 = docBieuThue(r6);
 t('danh mục: đếm lá theo tiền tố 4 số', demLa(bt6, '1901') === 1200 && demLa(bt6, '190100') === 100 && demLa(bt6, '22030091') === 1 && demLa(bt6, '22029999') === 0);
 const dmu6 = timDiemMu(so6, { today: '2026-10-04', root: r6, nhuCau: null });
