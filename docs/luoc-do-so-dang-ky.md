@@ -30,6 +30,7 @@ nguon:
   - { url: "https://congbao.chinhphu.vn/...", truy_cap: 2026-10-04 }
 toan_van: raw/download/congbao.chinhphu.vn/28-2026-tt-bct.pdf
 trich_dan_trong_bieu_thue: 249   # số mã HS trong biểu thuế dẫn văn bản này (nếu biết)
+phu_luc_cua: 49/2026/TT-BXD      # tuỳ chọn — phụ lục tách riêng: số hiệu văn bản mẹ đã có danh_muc_hs (KHÔNG tạo CSV riêng)
 xac_minh:
   muc: NGUON_A                   # NGUON_A | NGUON_B | NGUON_THU_CAP | CHUA_XAC_MINH
   pham_vi: "số hiệu, tiêu đề, ngày"   # đã đối chiếu những gì
@@ -80,3 +81,4 @@ chối bản chụp và báo lỗi, thay vì trả sai tình trạng hiệu lự
 | 1.1.0 | 2026-10-13 | Thêm tệp mới `dist/hs-index-theo-ma.json` (nhóm mã HS → văn bản, đảo chiều của `hs-index.json`); cấu trúc hai tệp cũ không đổi — minor theo quy ước W1 |
 | 1.2.0 | 2026-10-13 | `hs-index-theo-ma.json`: thêm `bieu_thue_doi_chieu` + `canh_bao_ma` (nhóm mã ngoài biểu thuế), `tien_le_tb_tchq` (mật độ TB-TCHQ theo mã 8 số / nhóm 4 số), `tong_canh`; gộp cạnh trùng toàn trường (13.543 → 9.900) |
 | 1.3.0 | 2026-10-14 | Thêm trường tuỳ chọn TB-TCHQ: `loai_phan_loai` / `loai_phan_loai_can_cu` / `loai_phan_loai_ngay` (3 nhóm nghiệp vụ + `CHUA_XAC_DINH`). Không đổi trường bắt buộc — minor |
+| 1.4.0 | 2026-11-14 | Thêm trường tuỳ chọn `phu_luc_cua` (số hiệu văn bản mẹ): phụ lục tách riêng không tạo điểm mù `DANH_MUC_CHUA_TRICH` khi mẹ đã có bảng CSV. Không đổi trường bắt buộc — minor |

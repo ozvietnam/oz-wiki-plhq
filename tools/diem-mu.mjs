@@ -260,7 +260,7 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
   const daCoBang = new Set(bangDm.map((it) => khoa(it.vanBan.so_hieu)));
   const soMaDan = new Map((nhuCau?.vanBanDuocDan || []).map((v) => [khoa(v.soHieu), v.soMaHs]));
   for (const d of so.vanBan) {
-    if (daCoBang.has(khoa(d.so_hieu)) || !laVanBanDanhMuc(d)) continue;
+    if (daCoBang.has(khoa(d.so_hieu)) || !laVanBanDanhMuc(d, so)) continue;
     const dan = soMaDan.get(khoa(d.so_hieu)) || d.trich_dan_trong_bieu_thue || 0;
     const ktcn2026 = (d.nhanh || []).some((n) => n.startsWith('kiem-tra-chuyen-nganh')) && String(d.hieu_luc_tu || '') >= '2026-07-01';
     add('DANH_MUC_CHUA_TRICH', ktcn2026 || dan >= 50 ? MUC.CAO : MUC.VUA, `Chưa trích bảng mã HS: ${d.so_hieu}`, d.so_hieu,

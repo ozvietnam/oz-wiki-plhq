@@ -193,6 +193,24 @@ const dmu6 = timDiemMu(so6, { today: '2026-10-04', root: r6, nhuCau: null });
 t('điểm mù: văn bản danh mục chưa trích (KTCN 2026 → Cao)', dmu6.some((d) => d.ma === 'DANH_MUC_CHUA_TRICH' && d.muc_tieu === '51/2026/TT-BYT' && d.muc === 'Cao'));
 t('điểm mù: mã HS không có trong biểu thuế', dmu6.some((d) => d.ma === 'HS_KHONG_TON_TAI' && /22029999/.test(d.tieuDe)) && !dmu6.some((d) => d.ma === 'HS_KHONG_TON_TAI' && /mã 1901 /.test(d.tieuDe)));
 t('điểm mù: dẫn chiếu sang văn bản chưa có trong sổ', dmu6.some((d) => d.ma === 'DAN_CHIEU_CHUA_CO_BANG' && d.muc_tieu === '15/2024/TT-BYT'));
+// 6b. phu_luc_cua — phụ lục tách riêng không tạo điểm mù giả khi mẹ đã có CSV (OZV-789)
+const rPl = soGia({
+  'me.yaml': `so_hieu: 60/2026/TT-BXD\nloai: THONG_TU\nten: Ban hành Danh mục sản phẩm rủi ro cao\nco_quan: BXD\nhieu_luc_tu: "2026-07-01"\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bxd]\ndanh_muc_hs: {tep: danh-muc/me.csv, nguon: "https://congbao.chinhphu.vn/x", ngay: "2026-10-04"}\n${XM}\n`,
+  'pl.yaml': `so_hieu: 60-PL1/2026/TT-BXD\nloai: THONG_TU\nten: Phụ lục I — Danh mục sản phẩm rủi ro cao\nco_quan: BXD\nhieu_luc_tu: "2026-07-01"\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bxd]\nphu_luc_cua: 60/2026/TT-BXD\n${XM}\n`,
+});
+mkdirSync(join(rPl, 'danh-muc'), { recursive: true });
+writeFileSync(join(rPl, 'danh-muc', 'me.csv'), HEAD + '87032119,Ô tô,1,Phụ lục I,KIEM_TRA_CHAT_LUONG,CAO,,,1\n');
+const dmuPl = timDiemMu(napSo(rPl), { today: '2026-10-04', root: rPl, nhuCau: null });
+t('phu_luc_cua: phụ lục trỏ mẹ đã có CSV → không sinh DANH_MUC_CHUA_TRICH',
+  !dmuPl.some((d) => d.ma === 'DANH_MUC_CHUA_TRICH' && d.muc_tieu === '60-PL1/2026/TT-BXD'),
+  JSON.stringify(dmuPl.filter((d) => d.ma === 'DANH_MUC_CHUA_TRICH')));
+const rPlBad = soGia({
+  'pl-bad.yaml': `so_hieu: 61-PL1/2026/TT-BXD\nloai: THONG_TU\nten: Phụ lục I — Danh mục\nco_quan: BXD\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bxd]\nphu_luc_cua: 61/2026/TT-BXD\n${XM}\n`,
+});
+const kPlBad = kiemTra(napSo(rPlBad), { root: rPlBad, today: '2026-10-04' });
+t('phu_luc_cua: số hiệu mẹ không tồn tại → LỖI kiểm',
+  kPlBad.loi.some((e) => /phu_luc_cua/.test(e.msg) && /61\/2026\/TT-BXD/.test(e.msg)),
+  JSON.stringify(kPlBad.loi));
 const cm6 = dungChiMuc(so6, r6, '2026-10-04');
 const v6 = cm6.van_ban.find((v) => v.so_hieu === '50/2026/TT-BCT');
 t('hs-index: chỉ xuất bảng hợp lệ, giữ dieu_kien + dan_chieu, bỏ ô trống', cm6.van_ban.length === 1 && v6.dong.length === 4

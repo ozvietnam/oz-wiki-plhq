@@ -10,6 +10,7 @@ import { napDanhMuc, kiemDinhDang, docCsv } from './lib/danh-muc.mjs';
 const NGAY = /^\d{4}-\d{2}-\d{2}$/;
 const TRUONG = new Set(['so_hieu', 'loai', 'ten', 'co_quan', 'ngay_ban_hanh', 'hieu_luc_tu', 'het_hieu_luc_tu',
   'tinh_trang', 'nhanh', 'quan_he', 'nguon', 'toan_van', 'trich_dan_trong_bieu_thue', 'xac_minh', 'ghi_chu', 'tu_khoa', 'so_hieu_khac', 'danh_muc_hs',
+  'phu_luc_cua',
   // TB-TCHQ subtype (research): tools/lib/loai-phan-loai-tb-tchq.mjs
   'loai_phan_loai', 'loai_phan_loai_can_cu', 'loai_phan_loai_ngay']);
 const LOAI_PHAN_LOAI = ['XAC_DINH_TRUOC', 'KIEM_TRA_XAC_DINH_LAI', 'DINH_CHINH', 'CHUA_XAC_DINH'];
@@ -119,6 +120,23 @@ export function kiemTra(so, { today = homNay(), root = ROOT } = {}) {
       else for (const [k, v] of Object.entries(xm.nguon_rieng_tu)) {
         if (typeof v !== 'string' || !v.trim()) L(f, `xac_minh.nguon_rieng_tu.${k} phải là chuỗi mô tả`);
       }
+    }
+  }
+
+  // Phụ lục tách riêng: trỏ về văn bản mẹ (mã HS đã nằm ở mẹ — không tạo CSV riêng)
+  for (const d of so.vanBan) {
+    if (d.phu_luc_cua == null) continue;
+    if (typeof d.phu_luc_cua !== 'string' || !d.phu_luc_cua.trim()) {
+      L(d._file, 'phu_luc_cua phải là chuỗi số hiệu văn bản mẹ');
+      continue;
+    }
+    const me = so.theoKhoa.get(khoa(d.phu_luc_cua))?.[0];
+    if (!me) {
+      L(d._file, `phu_luc_cua "${d.phu_luc_cua}" không có trong sổ`);
+      continue;
+    }
+    if (!me.danh_muc_hs) {
+      W(d._file, `phu_luc_cua trỏ ${d.phu_luc_cua} nhưng văn bản mẹ chưa có danh_muc_hs`);
     }
   }
 
