@@ -15,10 +15,10 @@ quan_he:
     - 154/2017/NĐ-CP
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
+  pham_vi: 'đối chiếu toàn văn PDF ký số trên datafiles.chinhphu.vn (2023/01/112nd.signed.pdf, raw/download/datafiles.chinhphu.vn/112-2022-nd-cp.pdf): ban hành 30-12-2022, có hiệu lực từ 30-12-2022 đến hết 31-12-2027, thay thế Nghị định 154/2017/NĐ-CP'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
   ghi_chu: 'Crawl từ datafiles.chinhphu.vn (PDF path: 2023/01/112nd.signed.pdf)'
 nguon:
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/112nd.signed.pdf
