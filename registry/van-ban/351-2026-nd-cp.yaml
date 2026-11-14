@@ -4,15 +4,16 @@ loai: NGHI_DINH
 ten: Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương
 co_quan: CP
 ngay_ban_hanh: '2026-09-11'
+hieu_luc_tu: '2026-09-15'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - bo-may
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'đối chiếu thẻ vanban.chinhphu.vn (docid=219447, người ký Phó Thủ tướng Phạm Gia Túc, tệp đính kèm 351_2026_nd-cp_11092026_1-signed.signed.pdf): Nghị định 351/2026/NĐ-CP của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương, ban hành ngày 11-09-2026, có hiệu lực thi hành từ ngày 15-09-2026; đối chiếu đang còn hiệu lực (không có văn bản thay thế hoặc bãi bỏ trong sổ)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=219447&pageid=27160
