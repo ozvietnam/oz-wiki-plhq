@@ -178,10 +178,10 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [72/2026/NĐ-CP](../registry/van-ban/72-2026-nd-cp.yaml) — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu tại Biểu thuế nhập khẩu ưu đãi ban hành kèm theo Nghị định số 26/2023/NĐ-CP _(hết hiệu lực 2027-01-01)_
 - 🟢 [56/2026/NĐ-CP](../registry/van-ban/56-2026-nd-cp.yaml) — Biểu thuế NK ưu đãi VN-Cam
 - 🟢 [109/2025/UBTVQH15](../registry/van-ban/109-2025-ubtvqh15.yaml) — Thuế bảo vệ môi trường
+- 🟢 [206/2025/NĐ-CP](../registry/van-ban/206-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi VN-Lào
+- 🟢 [199/2025/NĐ-CP](../registry/van-ban/199-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
 - 🟢 [181/2025/NĐ-CP](../registry/van-ban/181-2025-nd-cp.yaml) — Quy định chi tiết thi hành một số điều của Luật Thuế giá trị gia tăng
 - 🟢 [108/2025/NĐ-CP](../registry/van-ban/108-2025-nd-cp.yaml) — Biểu thuế xuất khẩu (sửa)
-- 🟢 [199/2025/NĐ-CP](../registry/van-ban/199-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
-- 🟢 [206/2025/NĐ-CP](../registry/van-ban/206-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi VN-Lào
 - 🟢 [21/2025/NĐ-CP](../registry/van-ban/21-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
 - 🟢 [260/2025/NĐ-CP](../registry/van-ban/260-2025-nd-cp.yaml) — Biểu thuế xuất khẩu (sửa)
 - 🟢 [3830/QĐ-BKHCN](../registry/van-ban/3830-qd-bkhcn.yaml) — Hàng hóa nhóm 2 thuộc trách nhiệm của BKHCN (đợt 4)
@@ -189,9 +189,9 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [73/2025/NĐ-CP](../registry/van-ban/73-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
 - 🟢 [144/2024/NĐ-CP](../registry/van-ban/144-2024-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
 - 🟢 [77/2023/NĐ-CP](../registry/van-ban/77-2023-nd-cp.yaml) — Quản lý nhập khẩu hàng hóa tân trang theo Hiệp định CPTPP
+- 🟢 [15/2023/QĐ-TTg](../registry/van-ban/15-2023-qd-ttg.yaml) — Biểu thuế NK thông thường
 - 🟢 [26/2023/NĐ-CP](../registry/van-ban/26-2023-nd-cp.yaml) — Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hoá và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan
 - 🟢 [04/2023/TT-BCT](../registry/van-ban/04-2023-tt-bct.yaml) — Hạn ngạch thuế quan NK thuốc lá, trứng gia cầm
-- 🟢 [15/2023/QĐ-TTg](../registry/van-ban/15-2023-qd-ttg.yaml) — Biểu thuế NK thông thường
 - 🟢 [112/2022/NĐ-CP](../registry/van-ban/112-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Chi Lê giai đoạn 2022 - 2027
 - 🟢 [113/2022/NĐ-CP](../registry/van-ban/113-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi VN-EAEU
 - 🟢 [114/2022/NĐ-CP](../registry/van-ban/114-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi VN-Cuba

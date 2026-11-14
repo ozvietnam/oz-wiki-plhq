@@ -16376,7 +16376,7 @@
       "loai": "QUYET_DINH",
       "ten": "Biểu thuế NK thông thường",
       "co_quan": "TTG",
-      "ngay_ban_hanh": "2023-01-01",
+      "ngay_ban_hanh": "2023-05-31",
       "hieu_luc_tu": "2023-07-15",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
@@ -16394,12 +16394,12 @@
       },
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=207990) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/15-2023-qd-ttg.pdf, 4 Điều + Phụ lục): Quyết định 15/2023/QĐ-TTg ban hành 31-05-2023, có hiệu lực thi hành từ ngày 15-07-2023 theo khoản 1 Điều 4; khoản 2 Điều 4 bãi bỏ QĐ 36/2016/QĐ-TTg, QĐ 45/2017/QĐ-TTg và QĐ 28/2019/QĐ-TTg; đối chiếu đang còn hiệu lực quy định việc áp dụng thuế suất thông thường đối với hàng hóa nhập khẩu",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/default.aspx?docid=207990&pageid=27160",
@@ -16995,10 +16995,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=195316), toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/154-2018-nd-cp.pdf, wiki/sources/154-2018-nd-cp.md, 7 Điều + Phụ lục I, II) và cạnh ngược trong sổ: Nghị định 154/2018/NĐ-CP ban hành 09-11-2018, có hiệu lực từ ngày ký ban hành 09-11-2018 theo khoản 1 Điều 7; hết hiệu lực một phần (Điều 1 hết hiệu lực từ 23-08-2023 theo khoản 2 Điều 124 Nghị định 65/2023/NĐ-CP; Điều 4 bị bãi bỏ từ 01-07-2026 theo điểm c khoản 2 Điều 97 Nghị định 37/2026/NĐ-CP)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Điều 4 hết hiệu lực từ 01/7/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
       "nguon": [
@@ -17053,10 +17053,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề đầy đủ, ngày ban hành ~15-10-2026, hiệu lực 01-01-2027 (vanban docid=220072); sửa TT 80/2019/TT-BTC — hàng mua gom thương mại biên giới: hồ sơ, thời hạn, địa điểm tập kết, kiểm tra giám sát",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-30",
-        "boi": "zcode@ozvietnam"
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=220072) và cạnh sửa đổi trong sổ: Thông tư 154/2026/TT-BTC ban hành 15-10-2026, có hiệu lực thi hành từ ngày 01-01-2027 (tại thời điểm đối chiếu 14-11-2026 đang ở trạng thái CHUA_CO_HIEU_LUC); sửa đổi, bổ sung một số điều của Thông tư 80/2019/TT-BTC ngày 15-11-2019 về thủ tục hải quan, quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu mua gom của người nước ngoài",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Radar RSS 30/10 (issue #278). CHUA_CO_HIEU_LUC tới 01-01-2027 — MỐC CANH như TT 142/2026 (16-11-2026) và Luật 11/2026 (01-03-2027).",
       "slug": "154-2026-tt-btc",
@@ -18239,10 +18239,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=204775), toàn văn PDF/OCR (raw/download/datafiles.chinhphu.vn/16-2021-tt-bnnptnt.pdf, wiki/sources/16-2021-tt-bnnptnt.md, 2 Điều + Phụ lục) và cạnh ngược trong sổ: Thông tư 16/2021/TT-BNNPTNT ban hành 20-12-2021, có hiệu lực từ 03-02-2022 theo khoản 1 Điều 2 (thay thế TT 14/2018/TT-BNNPTNT theo khoản 2 Điều 2); được sửa đổi mục 3.1, 4, 8, 9 Phụ lục từ 20-03-2024 bởi điểm b khoản 2 Điều 3 TT 01/2024/TT-BNNPTNT và bị bãi bỏ từ 01-07-2026 theo Điều 6 Thông tư 27/2026/TT-BNNMT",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "16-2021-tt-bnnptnt",
       "bac_nguon_cao_nhat": "A",
@@ -19223,10 +19223,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 15-05-2026, hiệu lực 01-07-2026, thay toàn bộ NĐ 128/2020/NĐ-CP (Tổng cục Hải quan trang chính thức + vanban.chinhphu.vn); 4 chương 40 điều — mức phạt cụ thể chưa đối chiếu",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-30",
-        "boi": "zcode@ozvietnam"
+        "pham_vi": "đối chiếu cổng Hải quan (customs.gov.vn aid=217408) và quan hệ thay thế trong sổ: Nghị định 169/2026/NĐ-CP của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hải quan (ban hành 15-05-2026, gồm 4 Chương 40 Điều), có hiệu lực thi hành từ ngày 01-07-2026 và thay thế toàn bộ Nghị định 128/2020/NĐ-CP; đối chiếu đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trinh sát WebSearch trạm CP đêm 29/10. Đã kéo 128/2020/NĐ-CP trong sổ sang HET_HIEU_LUC 01-07-2026 theo quan hệ này. Thiếu ngày ban hành + toàn văn — nạp bổ sung khi công bố chính thức trên vanban.chinhphu.vn.",
       "slug": "169-2026-nd-cp",
@@ -27289,20 +27289,20 @@
       "loai": "NGHI_DINH",
       "ten": "Biểu thuế NK ưu đãi (sửa)",
       "co_quan": "CP",
-      "ngay_ban_hanh": "2025-01-01",
-      "hieu_luc_tu": "2025-09-15",
+      "ngay_ban_hanh": "2025-07-08",
+      "hieu_luc_tu": "2025-07-08",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "thue/bieu-thue"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=214494) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/199-2025-nd-cp.pdf, 3 Điều + Phụ lục I, II): Nghị định 199/2025/NĐ-CP ban hành 08-07-2025, có hiệu lực thi hành kể từ ngày ký ban hành 08-07-2025 theo khoản 1 Điều 3; đối chiếu đang còn hiệu lực, sửa đổi, bổ sung khoản 3 Điều 8 (điểm c.3.6, c.3.7; bãi bỏ điểm a.7), bãi bỏ điểm 1 phần Chú giải mặt hàng Chương 72 Mục I Phụ lục II và sửa đổi mức thuế suất thuế xuất khẩu (Phụ lục I: nhóm 28.04), thuế nhập khẩu ưu đãi (Phụ lục II: nhóm 39.01, 39.02, 72.09) của Nghị định 26/2023/NĐ-CP",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/default.aspx?docid=214494&pageid=27160",
@@ -27615,10 +27615,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 10-11-2017 (Công báo 25118 + TVPL); bị TT 34/2018 sửa một số điều (trích dẫn trong PDF hợp nhất Cục BVTV) — hiệu lực gốc chưa đối chiếu",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-28",
-        "boi": "zcode@ozvietnam"
+        "pham_vi": "đối chiếu Công báo (id=25118) và cạnh ngược trong sổ: Thông tư 20/2017/TT-BNNPTNT ban hành 10-11-2017 hướng dẫn thực hiện một số nội dung của Nghị định 39/2017/NĐ-CP về quản lý thức ăn chăn nuôi, thủy sản; đã được sửa đổi, bổ sung một số điều từ ngày 01-01-2019 bởi Thông tư 34/2018/TT-BNNPTNT; đối chiếu không có cạnh thay thế hoặc bãi bỏ toàn bộ trong sổ",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nạp tối thiểu làm đích sửa đổi cho TT 34/2018 (#237 — giải nợ mâu thuẫn nguồn).",
       "slug": "20-2017-tt-bnnptnt",
@@ -28361,15 +28361,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Nghị quyết 204/2025/QH15 (Quốc hội khóa 15, kỳ họp thứ 9) — Về giảm thuế giá trị gia tăng 8% (từ 10% xuống 8%) áp dụng từ 01/07/2025 đến 31/12/2026. Nền tảng cho NĐ 174/2025/NĐ-CP hướng dẫn. Nạp stub để hoàn thiện quan hệ; cần đọc toàn văn.",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-12",
-        "boi": "legal-customs@ozvietnam",
-        "chan": {
-          "ngay": "2026-10-12",
-          "ma": "THIEU_PDF_A",
-          "viec_tiep": "Tải toàn văn PDF để ghi chi tiết phạm vi áp dụng"
-        }
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=217343), wiki/sources/204-2025-qh15.md và văn bản hướng dẫn trong sổ (Nghị định 174/2025/NĐ-CP): Nghị quyết 204/2025/QH15 của Quốc hội khóa XV thông qua ngày 17-06-2025 về giảm 2% thuế suất thuế giá trị gia tăng (áp dụng mức thuế suất 8% đối với các nhóm hàng hóa, dịch vụ đang áp dụng mức 10%, trừ một số nhóm hàng hóa, dịch vụ), có hiệu lực thi hành từ ngày 01-07-2025 đến hết ngày 31-12-2026; đối chiếu đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nghị quyết QH về chính sách giảm thuế GTGT 8% từ 01/07/2025 - 31/12/2026. Là căn cứ pháp lý cho NĐ 174/2025/NĐ-CP.",
       "toan_van": "chua_co",
@@ -28820,7 +28815,7 @@
       "loai": "NGHI_DINH",
       "ten": "Biểu thuế NK ưu đãi VN-Lào",
       "co_quan": "CP",
-      "ngay_ban_hanh": "2025-01-01",
+      "ngay_ban_hanh": "2025-07-15",
       "hieu_luc_tu": "2025-07-15",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
@@ -28838,12 +28833,12 @@
       },
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=214630) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/206-2025-nd-cp.pdf, 10 Điều + Phụ lục I, II, III): Nghị định 206/2025/NĐ-CP ban hành 15-07-2025, có hiệu lực từ ngày ký ban hành 15-07-2025 đến hết ngày 24-02-2030 theo khoản 1 Điều 9 (khoản 3 Điều 9 bãi bỏ NĐ 127/2022/NĐ-CP); đối chiếu đang còn hiệu lực về Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Việt Nam - Lào giai đoạn 2025 - 2030",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/default.aspx?docid=214630&pageid=27160",
@@ -29292,20 +29287,20 @@
       "loai": "NGHI_DINH",
       "ten": "Biểu thuế NK ưu đãi (sửa)",
       "co_quan": "CP",
-      "ngay_ban_hanh": "2025-01-01",
-      "hieu_luc_tu": "2025-07-15",
+      "ngay_ban_hanh": "2025-02-10",
+      "hieu_luc_tu": "2025-02-10",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "thue/bieu-thue"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=212714) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/21-2025-nd-cp.pdf, 2 Điều): Nghị định 21/2025/NĐ-CP ban hành 10-02-2025, có hiệu lực thi hành kể từ ngày ký ban hành 10-02-2025 theo khoản 1 Điều 2; đối chiếu đang còn hiệu lực, sửa đổi tên Điều 9 và khoản 1 Điều 9 Nghị định 26/2023/NĐ-CP (áp dụng thuế suất thuế nhập khẩu ưu đãi 0% đối với nguyên liệu, vật tư, linh kiện thuộc Chương trình ưu đãi thuế công nghiệp hỗ trợ ô tô đến hết ngày 31-12-2027 theo khoản 2 Điều 2)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/default.aspx?docid=212714&pageid=27160",
