@@ -60,13 +60,17 @@ export function demLa(bt, maHs) {
 
 /** Văn bản trông như danh mục kèm mã HS (để báo "chưa trích").
  * `so` (tuỳ chọn): sổ đăng ký — dùng để nhận phụ lục tách riêng (`phu_luc_cua`)
- * khi văn bản mẹ đã có bảng danh mục thì không coi là điểm mù. */
+ * khi văn bản mẹ đã có bảng danh mục thì không coi là điểm mù.
+ * Văn bản chỉ *bãi bỏ* văn bản khác (tên bắt đầu "Bãi bỏ…") không có bảng riêng — dù tên nhắc "danh mục". */
 export function laVanBanDanhMuc(d, so = null) {
   if (d.phu_luc_cua && so?.theoKhoa) {
     const me = so.theoKhoa.get(khoa(d.phu_luc_cua))?.[0];
     if (me?.danh_muc_hs) return false;
   }
   if (d.danh_muc_hs) return true;
+  // Chỉ bãi bỏ (vd 4814/QĐ-BCA) — không trích bảng mã HS của chính nó.
+  // Không dùng \b: "ỏ" không phải word-char ASCII nên \b sau "bỏ" luôn thất bại.
+  if (/^\s*Bãi bỏ(?:\s|$)/i.test(d.ten || '')) return false;
   if (!['CON_HIEU_LUC', 'CHUA_CO_HIEU_LUC', 'HET_HIEU_LUC_MOT_PHAN', 'CHUA_XAC_MINH'].includes(d.tinh_trang)) return false;
   if (!['THONG_TU', 'THONG_TU_LIEN_TICH', 'QUYET_DINH', 'NGHI_DINH'].includes(d.loai)) return false;
   return RE_DANH_MUC.test(d.ten || '') && (d.nhanh || []).some((n) => NHANH_CO_MA_HS.test(n));

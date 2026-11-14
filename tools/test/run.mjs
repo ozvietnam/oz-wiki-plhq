@@ -211,6 +211,20 @@ const kPlBad = kiemTra(napSo(rPlBad), { root: rPlBad, today: '2026-10-04' });
 t('phu_luc_cua: số hiệu mẹ không tồn tại → LỖI kiểm',
   kPlBad.loi.some((e) => /phu_luc_cua/.test(e.msg) && /61\/2026\/TT-BXD/.test(e.msg)),
   JSON.stringify(kPlBad.loi));
+
+// 6c. Văn bản chỉ bãi bỏ — tên có "danh mục" nhưng không có bảng riêng để trích (OZV-790)
+const rBaiBo = soGia({
+  'bb.yaml': `so_hieu: 4814/QĐ-BCA\nloai: QUYET_DINH\nten: Bãi bỏ Quyết định 8378/QĐ-BCA ngày 14/10/2025 về danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn\nco_quan: BCA\nhieu_luc_tu: "2026-07-28"\ntinh_trang: CHUA_XAC_MINH\nnhanh: [kiem-tra-chuyen-nganh/bca]\nquan_he:\n  bai_bo:\n    - so_hieu: 8378/QĐ-BCA\n      tu_ngay: '2026-07-28'\n      can_cu: Điều 1\n${XM}\n`,
+  'ban.yaml': `so_hieu: 1182/QĐ-BCT\nloai: QUYET_DINH\nten: Ban hành Danh mục hàng hóa xuất khẩu, nhập khẩu theo giấy phép\nco_quan: BCT\nhieu_luc_tu: "2021-06-01"\ntinh_trang: CON_HIEU_LUC\nnhanh: [quan-ly-ngoai-thuong/bct]\n${XM}\n`,
+});
+const dmuBaiBo = timDiemMu(napSo(rBaiBo), { today: '2026-10-04', root: rBaiBo, nhuCau: null });
+t('điểm mù: văn bản chỉ bãi bỏ (tên có danh mục) → không sinh DANH_MUC_CHUA_TRICH',
+  !dmuBaiBo.some((d) => d.ma === 'DANH_MUC_CHUA_TRICH' && d.muc_tieu === '4814/QĐ-BCA'),
+  JSON.stringify(dmuBaiBo.filter((d) => d.ma === 'DANH_MUC_CHUA_TRICH')));
+t('điểm mù: văn bản ban hành danh mục thật → vẫn sinh DANH_MUC_CHUA_TRICH',
+  dmuBaiBo.some((d) => d.ma === 'DANH_MUC_CHUA_TRICH' && d.muc_tieu === '1182/QĐ-BCT'),
+  JSON.stringify(dmuBaiBo.filter((d) => d.ma === 'DANH_MUC_CHUA_TRICH')));
+
 const cm6 = dungChiMuc(so6, r6, '2026-10-04');
 const v6 = cm6.van_ban.find((v) => v.so_hieu === '50/2026/TT-BCT');
 t('hs-index: chỉ xuất bảng hợp lệ, giữ dieu_kien + dan_chieu, bỏ ô trống', cm6.van_ban.length === 1 && v6.dong.length === 4
