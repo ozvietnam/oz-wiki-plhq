@@ -5,15 +5,26 @@ ten: Sửa đổi, bổ sung một số nội dung của Thông tư số 30/2011
 co_quan: BTTTT
 ngay_ban_hanh: '2018-11-15'
 hieu_luc_tu: '2019-01-01'
-tinh_trang: CHUA_XAC_MINH
+het_hieu_luc_tu: '2026-07-01'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/bct
+quan_he:
+  sua_doi:
+    - so_hieu: 30/2011/TT-BTTTT
+      tu_ngay: '2019-01-01'
 nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=195527
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/12/15-btttt.signed.pdf
+    truy_cap: '2026-11-14'
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-15-2018-tt-btttt-27656.htm
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/Thuong-mai/Thong-tu-15-2018-TT-BTTTT-chung-nhan-hop-quy-cong-bo-hop-quy-san-pham-nganh-cong-nghe-400214.aspx
     truy_cap: '2026-10-04'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=195527, Bộ trưởng Nguyễn Mạnh Hùng ký), tệp ký số 15-btttt.signed.pdf và Công báo (id=27656): số hiệu, tiêu đề, ngày ban hành 15-11-2018, có hiệu lực từ 01-01-2019; hết hiệu lực toàn bộ kể từ ngày 01-07-2026 theo điểm c khoản 2 Điều 6 Thông tư 36/2026/TT-BKHCN (docid=218716)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam

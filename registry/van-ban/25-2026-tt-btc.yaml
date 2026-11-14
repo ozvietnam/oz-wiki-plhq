@@ -5,7 +5,8 @@ ten: Sửa đổi, bổ sung một số điều của Thông tư số 12/2015/TT
 co_quan: BTC
 ngay_ban_hanh: '2026-03-25'
 hieu_luc_tu: '2026-05-10'
-tinh_trang: CON_HIEU_LUC
+het_hieu_luc_tu: '2026-07-01'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - hai-quan/thu-tuc
 quan_he:
@@ -13,14 +14,16 @@ quan_he:
     - so_hieu: 12/2015/TT-BTC
       tu_ngay: '2026-05-10'
 nguon:
-  - url: https://chinhphu.vn
-    truy_cap: '2026-10-30'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=217361
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/25-btc.pdf
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn
     truy_cap: '2026-10-30'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề đầy đủ, ngày ban hành 25-03-2026, hiệu lực 10-05-2026, sửa TT 12/2015/TT-BTC (chứng chỉ nghiệp vụ KH + mã số NVKH) — cần URL công báo chính xác khi nâng A'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-30'
-  boi: zcode@ozvietnam
-ghi_chu: 'Đầu việc #275-5: nghiệp vụ khai hải quan (đối tượng: nhân viên khai HQ của khách) — nạp theo giá trị.'
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=217361, Thứ trưởng Nguyễn Đức Chi ký) và tệp đính kèm 25-btc.pdf: số hiệu, tiêu đề đầy đủ, ngày ban hành 25-03-2026, có hiệu lực từ 10-05-2026, sửa đổi, bổ sung một số điều của Thông tư 12/2015/TT-BTC; đã hết hiệu lực toàn bộ kể từ ngày 01-07-2026 theo khoản 2 Điều 15 Thông tư 83/2026/TT-BTC (docid=218769)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Đầu việc #275-5: nghiệp vụ khai hải quan (đối tượng: nhân viên khai HQ của khách) — nạp theo giá trị. Hết hiệu lực toàn bộ từ 01-07-2026 theo khoản 2 Điều 15 TT 83/2026/TT-BTC.'

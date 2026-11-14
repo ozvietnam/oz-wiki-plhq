@@ -5,16 +5,23 @@ so_hieu_khac:
 loai: THONG_TU
 ten: Quy định về hồ sơ nghiệp vụ kiểm dịch thực vật
 co_quan: BNNPTNT
-ngay_ban_hanh: '2021-11-30'
+ngay_ban_hanh: '2021-12-28'
+hieu_luc_tu: '2022-02-11'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
 nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204999
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/01/20-bnn.signed.pdf
+    truy_cap: '2026-11-14'
+  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-20-2021-tt-bnnptnt-quy-dinh-ho-so-nghiep-vu-kiem-dich-thuc-vat--152303
+    truy_cap: '2026-11-14'
   - url: https://trolyluat.vn/van-ban/thong-tu-202021tt-bnnptnt-quy-dinh-ho-so-nghiep-vu-kiem-dich-thuc-vat-33032
     truy_cap: '2026-10-28'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 30-11-2021; hiệu lực chưa đối chiếu PDF gốc (nguồn phụ ghi ~01-02-2022 theo thời hạn 60 ngày). KHÔNG ghi quan hệ sửa 33/2014: PDF hợp nhất Cục BVTV không liệt kê TT 20/2021 trong chuỗi sửa đổi trình tự thủ tục'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-28'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=204999, Thứ trưởng Lê Quốc Doanh ký), tệp ký số 20-bnn.signed.pdf và CSDL quốc gia vbpl.vn (id=152303, Công báo số 65+66 ngày 16-01-2022): số hiệu, tiêu đề, ngày ban hành 28-12-2021 (hiệu đính từ 30-11-2021 ở bản ghi cũ), Điều 9 có hiệu lực từ 11-02-2022 và thay thế Thông tư 14/2012/TT-BNNPTNT; đang còn hiệu lực (được hợp nhất tại 99/2026/VBHN-TT-BNNMT)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam

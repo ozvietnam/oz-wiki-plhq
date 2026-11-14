@@ -13,13 +13,17 @@ quan_he:
     - so_hieu: 105/2006/NĐ-CP
       tu_ngay: "2011-02-20"
 nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=98504
+    truy_cap: "2026-11-14"
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2010/12/104259_nd119cp.doc
+    truy_cap: "2026-11-14"
   - url: https://thuvienphapluat.vn/van-ban/So-huu-tri-tue/Nghi-dinh-119-2010-ND-CP-sua-doi-Nghi-dinh-105-2006-ND-CP-huong-dan-Luat-So-huu-116778.aspx
     truy_cap: "2026-10-29"
 xac_minh:
-  muc: NGUON_B
-  pham_vi: "số hiệu, tiêu đề, ngày ban hành 30-12-2010; Điều 2: hiệu lực 20-02-2011 (trích nguyên văn qua TVPL)"
-  hieu_luc_da_doi_chieu: false
-  ngay: "2026-10-29"
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: "Đối chiếu thẻ vanban.chinhphu.vn (docid=98504, Thủ tướng Nguyễn Tấn Dũng ký) và tệp đính kèm 104259_nd119cp.doc: số hiệu, tiêu đề, ngày ban hành 30-12-2010, Điều 2 có hiệu lực từ 20-02-2011; hết hiệu lực từ 26-04-2023 theo khoản 2 Điều 115 Nghị định 17/2023/NĐ-CP (docid=207842) và bị bãi bỏ toàn bộ từ 30-12-2025 theo Nghị định 285/2025/NĐ-CP (docid=215767)"
+  hieu_luc_da_doi_chieu: true
+  ngay: "2026-11-14"
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: "Hết hiệu lực từ 26-04-2023 theo Điều 115 khoản 2 NĐ 17/2023/NĐ-CP."
 tu_khoa: [so-huu-tri-tue]
