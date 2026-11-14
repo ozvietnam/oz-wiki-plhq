@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 354/2026/NĐ-CP
 loai: NGHI_DINH
-ten: Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Xây dựng
+ten: Sửa đổi, bổ sung một số điều của Nghị định số 33/2025/NĐ-CP ngày 25 tháng 02 năm 2025 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Xây dựng
 co_quan: CP
 ngay_ban_hanh: '2026-09-11'
 hieu_luc_tu: '2026-09-15'
@@ -10,10 +10,10 @@ nhanh:
   - bo-may
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'đối chiếu thẻ vanban.chinhphu.vn (docid=219446, người ký Phó Thủ tướng Phạm Gia Túc, tệp đính kèm 354_2026_nd-cp_11092026-signed.signed.pdf): Nghị định 354/2026/NĐ-CP của Chính phủ sửa đổi, bổ sung một số điều của Nghị định 33/2025/NĐ-CP ngày 25-02-2025 quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Xây dựng, ban hành ngày 11-09-2026, có hiệu lực thi hành từ ngày 15-09-2026; đối chiếu đang còn hiệu lực (không có văn bản thay thế hoặc bãi bỏ trong sổ)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: Bộ Xây dựng gồm phần việc Bộ GTVT cũ (Cục Đăng kiểm VN, Cục Hàng hải và Đường thuỷ VN, Cục Đường bộ VN, Cục Hàng không VN). Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=219446&pageid=27160

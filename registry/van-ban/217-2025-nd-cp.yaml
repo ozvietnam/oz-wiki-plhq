@@ -4,6 +4,7 @@ loai: NGHI_DINH
 ten: Quy định về hoạt động kiểm tra chuyên ngành
 co_quan: CP
 ngay_ban_hanh: '2025-08-05'
+hieu_luc_tu: '2025-08-05'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/khung-chat-luong
@@ -14,8 +15,8 @@ nguon:
     truy_cap: '2026-10-29'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 05-08-2025, hiệu lực kể từ ngày ký (chinhphu docid=214813 + TVPL); khung KTCN sau sắp xếp bộ máy: mục đích, thẩm quyền, nhiệm vụ, quyền hạn — ngày hiệu lực cụ thể chưa đối chiếu'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-29'
-  boi: zcode@ozvietnam
+  pham_vi: 'đối chiếu thẻ vanban.chinhphu.vn (docid=214813, người ký Phó Thủ tướng Thường trực Nguyễn Hòa Bình, tệp đính kèm 217-cp.signed.pdf): Nghị định 217/2025/NĐ-CP của Chính phủ quy định về hoạt động kiểm tra chuyên ngành, ban hành ngày 05-08-2025, có hiệu lực thi hành kể từ ngày ký ban hành 05-08-2025; đối chiếu đang còn hiệu lực (không có văn bản thay thế hoặc bãi bỏ trong sổ)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Trinh thám 29/10 — khung pháp lý KTCN đứng trên khung 3 mức rủi ro NĐ 37/2026; cần rà quan hệ với NĐ 37/2026 khi đối chiếu toàn văn.'

@@ -4,6 +4,7 @@ loai: NGHI_DINH
 ten: Quy định chi tiết Luật Quản lý ngoại thương về xuất xứ hàng hoá
 co_quan: CP
 ngay_ban_hanh: '2018-03-08'
+hieu_luc_tu: '2018-03-08'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - xuat-xu-fta/quy-tac-xuat-xu
@@ -12,10 +13,10 @@ quan_he:
     - 05/2017/QH14
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'đối chiếu thẻ vanban.chinhphu.vn (docid=193105, người ký Thủ tướng Nguyễn Xuân Phúc, tệp đính kèm 31.signed.pdf) và quan hệ trong sổ: Nghị định 31/2018/NĐ-CP của Chính phủ quy định chi tiết Luật Quản lý ngoại thương (05/2017/QH14) về xuất xứ hàng hóa, ban hành ngày 08-03-2018, có hiệu lực thi hành kể từ ngày ký ban hành 08-03-2018; đối chiếu đang còn hiệu lực (không có văn bản thay thế hoặc bãi bỏ trong sổ)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=193105&pageid=27160

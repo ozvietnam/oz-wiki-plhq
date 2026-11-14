@@ -4,15 +4,16 @@ loai: NGHI_DINH
 ten: Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Y tế
 co_quan: CP
 ngay_ban_hanh: '2026-08-08'
+hieu_luc_tu: '2026-08-18'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - bo-may
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'đối chiếu thẻ vanban.chinhphu.vn (docid=219136, người ký Phó Thủ tướng Phạm Thị Thanh Trà, tệp đính kèm 313_2026_nd-cp_08082026_1-signed-1-.signed.pdf): Nghị định 313/2026/NĐ-CP của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Y tế, ban hành ngày 08-08-2026, có hiệu lực thi hành từ ngày 18-08-2026; đối chiếu đang còn hiệu lực (không có văn bản thay thế hoặc bãi bỏ trong sổ)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=219136&pageid=27160
