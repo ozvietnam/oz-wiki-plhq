@@ -1,7 +1,9 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 51/VBHN-BCT
+so_hieu_khac:
+  - 51/2026/VBHN-BCT
 loai: VAN_BAN_HOP_NHAT
-ten: Hợp nhất Thông tư hướng dẫn Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ quy định về sản xuất, kinh doanh xăng dầu
+ten: Hợp nhất Thông tư quy định chi tiết một số điều của Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ về kinh doanh xăng dầu
 co_quan: BCT
 ngay_ban_hanh: '2026-06-09'
 tinh_trang: CON_HIEU_LUC
@@ -10,15 +12,20 @@ nhanh:
 quan_he:
   hop_nhat:
     - so_hieu: 38/2014/TT-BCT
+    - so_hieu: 42/2019/TT-BCT
 nguon:
+  - url: https://moit.gov.vn/van-ban-phap-luat/van-ban-hop-nhat/van-ban-hop-nhat-so-51-vbhn-bct-thong-tu-quy-dinh-chi-tiet-mot-so-dieu-cua-nghi-dinh-so-83-2014-nd-cp-ngay-3-9-2014-cua-.html
+    truy_cap: '2026-11-14'
+  - url: https://moit.gov.vn/upload/2005517/20260609/VBHN_26_2026_TT_38_2014_1ce77.pdf
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/Thuong-mai/Van-ban-hop-nhat-51-VBHN-BCT-2026-Thong-tu-huong-dan-Nghi-dinh-83-2014-ND-CP-kinh-doanh-xang-dau-722493.aspx
     truy_cap: '2026-10-29'
   - url: https://tapchicongthuong.vn/bo-cong-thuong-hop-nhat-cac-thong-tu-quy-dinh-ve-kinh-doanh-xang-dau-528135.htm
     truy_cap: '2026-10-29'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 09-06-2026 (TVPL + Tạp chí Công Thương); hợp nhất TT 38/2014/TT-BCT — thành phần đầy đủ chưa đối chiếu'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-29'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh thám 29/10 — hoàn thiện gia đình xăng dầu #240. Canh: Chính phủ yêu cầu NĐ MỚI về kinh doanh xăng dầu (chậm nhất đầu 10/2026) — radar sẽ bắt.'
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF 47 trang có dấu đỏ và chữ ký xác thực của Thứ trưởng Nguyễn Sinh Nhật Tân ngày 09-06-2026 trên Cổng TTĐT Bộ Công Thương (moit.gov.vn): hợp nhất Thông tư 38/2014/TT-BCT ngày 24-10-2014 (HL 01-11-2014) với 7 Thông tư sửa đổi, bổ sung gồm 28/2017/TT-BCT ngày 08-12-2017 (HL 01-01-2018), 42/2019/TT-BCT ngày 18-12-2019 (HL 01-02-2020), 17/2021/TT-BCT ngày 15-11-2021 (HL 02-01-2022), 18/2025/TT-BCT ngày 13-03-2025 (HL 02-05-2025), 50/2025/TT-BCT ngày 07-11-2025 (HL 01-01-2026), 21/2026/TT-BCT ngày 28-04-2026 (HL 15-06-2026) và 26/2026/TT-BCT ngày 20-05-2026 (HL 20-05-2026); gồm 15 Điều và Phụ lục biểu mẫu (Mẫu số 1 đến Mẫu số 7, 7A, 11, 12)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Trinh thám 29/10 — hoàn thiện gia đình xăng dầu #240 (hợp nhất TT 38/2014/TT-BCT qua 7 lần sửa đổi đến TT 26/2026/TT-BCT). Canh: Chính phủ yêu cầu NĐ MỚI về kinh doanh xăng dầu — radar sẽ bắt.'

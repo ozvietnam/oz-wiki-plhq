@@ -2,23 +2,23 @@
 so_hieu: 91/2026/VBHN-TT-BNNMT
 so_hieu_khac:
   - 91/2026/VBHN-TT-BNNPTNT
+  - 91/VBHN-BNNMT
 loai: VAN_BAN_HOP_NHAT
-ten: Hợp nhất Thông tư Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Nông nghiệp và Môi trường
+ten: Hợp nhất Thông tư ban hành Danh mục loài cây trồng biến đổi gen được phép khảo nghiệm đánh giá rủi ro đối với đa dạng sinh học và môi trường cho mục đích làm giống cây trồng ở Việt Nam
 co_quan: BNNMT
-tinh_trang: CHUA_XAC_MINH
+ngay_ban_hanh: '2026-10-07'
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/bnnmt
-quan_he:
-  hop_nhat:
-    - so_hieu: 27/2026/TT-BNNMT
-    - so_hieu: 44/2026/TT-BNNMT
 nguon:
-  - url: https://thuvienxuatnhapkhau.com/thong-tu-44-2026-tt-bnnmt-sua-doi-thong-tu-27-2026-tt-bnnmt-ve-danh-muc-san-pham-hang-hoa-co-muc-do-rui-ro-trung-binh-muc-do-rui-ro-cao-thuoc-trach-nhiem-quan-ly-cua-bo-nong-nghiep-va-moi-truong.html
-    truy_cap: '2026-10-29'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=219835
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/10/91-vbhn-bnnmt.signed.pdf
+    truy_cap: '2026-11-14'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu hợp nhất 91/2026/VBHN-TT-BNNMT (được dẫn trong bài TXNK về TT 44/2026) — ngày ban hành + thành phần chưa đối chiếu'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-29'
-  boi: zcode@ozvietnam
-ghi_chu: 'Bắt bởi radar công báo 29/10 (issue #251).'
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số ngày 07-10-2026 bởi Thứ trưởng Bộ Nông nghiệp và Môi trường Nguyễn Hoàng Hiệp trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=219835 / datafiles.chinhphu.vn): văn bản số hiệu 91/VBHN-BNNMT (mã hồ sơ 91/2026/VBHN-TT-BNNPTNT trên Cổng Chính phủ) hợp nhất Thông tư 72/2009/TT-BNNPTNT ngày 17-11-2009 (HL 01-01-2010) và Thông tư 12/2025/TT-BNNMT ngày 19-06-2025 (HL 01-07-2025), gồm 3 Điều ban hành Danh mục 3 loài cây trồng biến đổi gen (ngô Zea mays L., bông vải Gossypium spp., đậu tương Glycine max (L.) Merrill); đính chính thông tin trinh sát sơ bộ tại #251 từng gắn nhầm số hiệu này với TT 27/2026/TT-BNNMT và TT 44/2026/TT-BNNMT'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác thực trên Cổng Chính phủ (docid=219835): 91/VBHN-BNNMT ngày 07-10-2026 hợp nhất TT 72/2009/TT-BNNPTNT và TT 12/2025/TT-BNNMT về Danh mục loài cây trồng biến đổi gen được phép khảo nghiệm đánh giá rủi ro (bản trinh sát sơ bộ #251 trước đây từng ghi nhầm sang TT 27/2026 + TT 44/2026).'

@@ -1,5 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 09/VBHN-BYT
+so_hieu_khac:
+  - 09/2025/VBHN-BYT
 loai: VAN_BAN_HOP_NHAT
 ten: Hợp nhất Thông tư quy định về quản lý mỹ phẩm
 co_quan: BYT
@@ -10,13 +12,27 @@ nhanh:
 quan_he:
   hop_nhat:
     - so_hieu: 06/2011/TT-BYT
+    - so_hieu: 09/2015/TT-BYT
+    - so_hieu: 155/2018/NĐ-CP
+    - so_hieu: 29/2020/TT-BYT
+    - so_hieu: 34/2025/TT-BYT
 nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=99376
+    truy_cap: '2026-11-14'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=214428
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/34-byt.pdf
+    truy_cap: '2026-11-14'
+  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-06-2011-tt-byt-quy-dinh-ve-quan-ly-my-pham--26157
+    truy_cap: '2026-11-14'
+  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-34-2025-tt-byt-sua-doi-thong-tu-06-2011-tt-byt-cua-bo-truong-bo-y-te-quy-dinh-ve-quan-ly-my-pham--181191
+    truy_cap: '2026-11-14'
   - url: https://luatvietnam.vn/y-te/van-ban-hop-nhat-09-vbhn-byt-nam-2025-do-bo-y-te-ban-hanh-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-406752-d5.html
     truy_cap: '2026-10-22'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'hợp nhất ban hành 25-07-2025 (LuatVietnam 406752 + issue #224) của TT 06/2011 + các sửa đổi (64/2015, 03/2022, 34/2025)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-22'
-  boi: zcode@ozvietnam
-ghi_chu: BẢN DOANH NGHIỆP CẦN ĐỌC — ưu tiên trích VBHN thay từng thông tư thành phần.
+  muc: NGUON_A
+  pham_vi: 'đối chiếu lời nói đầu, thông tin ký xác thực của Thứ trưởng Bộ Y tế Đỗ Xuân Tuyên ngày 25-07-2025 và toàn văn 5 văn bản thành phần trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn / datafiles.chinhphu.vn) và CSDL Quốc gia về VBPL (vbpl.vn): hợp nhất Thông tư 06/2011/TT-BYT ngày 25-01-2011 (HL 01-04-2011) với 4 văn bản sửa đổi, bổ sung gồm Thông tư 09/2015/TT-BYT ngày 25-05-2015 (HL 10-08-2015), Nghị định 155/2018/NĐ-CP ngày 12-11-2018 (HL 12-11-2018), Thông tư 29/2020/TT-BYT ngày 31-12-2020 (HL 15-02-2021) và Thông tư 34/2025/TT-BYT ngày 03-07-2025 (HL 18-08-2025); đang còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'BẢN DOANH NGHIỆP CẦN ĐỌC — ưu tiên trích VBHN thay từng thông tư thành phần (06/2011/TT-BYT + 09/2015/TT-BYT + 155/2018/NĐ-CP + 29/2020/TT-BYT + 34/2025/TT-BYT).'
