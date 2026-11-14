@@ -18217,6 +18217,13 @@
             "tu_ngay": "2019-02-12",
             "can_cu": "Điều 2 khoản 1 điểm a, b TT 22/2018/TT-BTTTT"
           }
+        ],
+        "bi_sua_doi_boi": [
+          {
+            "tu": "41/2016/TT-BTTTT",
+            "quan_he": "sua_doi",
+            "so_hieu": "16/2015/TT-BTTTT"
+          }
         ]
       }
     },
@@ -54479,14 +54486,14 @@
       "co_quan": "NHNN",
       "ngay_ban_hanh": "2018-12-25",
       "hieu_luc_tu": "2019-02-08",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, trích yếu, ngày ban hành 25-12-2018, ngày hiệu lực 08-02-2019 trên congbao.chinhphu.vn (Công báo số 15 + 16)",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "Công báo Số 15 + 16 ngày 04-01-2019 (id=27960), toàn văn PDF/txt (raw/download/congbaocdn.chinhphu.vn/38-2018-tt-nhnn.pdf, wiki/sources/38-2018-tt-nhnn.md, 9 Điều + Phụ lục, người ký Phó Thống đốc Đào Minh Tú) và cạnh ngược trong sổ: Thông tư 38/2018/TT-NHNN ban hành ngày 25-12-2018, có hiệu lực thi hành kể từ ngày 08-02-2019 theo khoản 1 Điều 9 (khoản 2 Điều 9 thay thế TT 18/2014/TT-NHNN và TT 15/2017/TT-NHNN); đối chiếu đang còn hiệu lực, đã được sửa đổi, bổ sung một số điều kể từ ngày 14-08-2023 bởi Điều 1 Thông tư 07/2023/TT-NHNN",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
@@ -58316,10 +58323,18 @@
       "co_quan": "BTTTT",
       "ngay_ban_hanh": "2016-12-26",
       "hieu_luc_tu": "2017-03-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "het_hieu_luc_tu": "2019-02-12",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "16/2015/TT-BTTTT"
+          }
+        ]
+      },
       "nguon": [
         {
           "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-41-2016-tt-btttt-22060.htm",
@@ -58328,10 +58343,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "Công báo Số 93 + 94 (id=22060, tệp đính kèm 41_2016_TT-BTTTT(16577).pdf) và đối chiếu toàn văn Thông tư 22/2018/TT-BTTTT trong sổ (raw/download/congbaocdn.chinhphu.vn/22-2018-tt-btttt.pdf): Thông tư 41/2016/TT-BTTTT ban hành ngày 26-12-2016, có hiệu lực thi hành từ ngày 01-03-2017 (sửa đổi, bổ sung một số điều của TT 16/2015/TT-BTTTT); đã hết hiệu lực toàn bộ kể từ ngày 12-02-2019 khi bị thay thế bởi điểm b khoản 1 Điều 2 Thông tư 22/2018/TT-BTTTT ngày 28-12-2018",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "41-2016-tt-btttt",
       "bac_nguon_cao_nhat": "A",
@@ -58447,10 +58462,10 @@
     {
       "so_hieu": "41/2022/TT-BCT",
       "loai": "THONG_TU",
-      "ten": "Quy tắc mặt hàng cụ thể EVFTA",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 11/2020/TT-BCT ngày 15 tháng 6 năm 2020 của Bộ trưởng Bộ Công Thương quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Thương mại tự do giữa Việt Nam và Liên minh châu Âu",
       "co_quan": "BCT",
-      "ngay_ban_hanh": "2022-01-01",
-      "hieu_luc_tu": "2022-12-30",
+      "ngay_ban_hanh": "2022-12-30",
+      "hieu_luc_tu": "2023-02-20",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "thue/bieu-thue",
@@ -58459,12 +58474,12 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Crawl từ vanban.chinhphu.vn docid=207201"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=207201) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/41-2022-tt-bct.pdf, 2 Điều, người ký Thứ trưởng Trần Quốc Khánh): Thông tư 41/2022/TT-BCT sửa đổi, bổ sung một số điều của Thông tư 11/2020/TT-BCT quy định Quy tắc xuất xứ hàng hóa trong Hiệp định EVFTA, ban hành ngày 30-12-2022, có hiệu lực thi hành kể từ ngày 20-02-2023 theo khoản 1 Điều 2 (khoản 2 Điều 2 bãi bỏ Quyết định 1949/QĐ-BCT ngày 24-07-2020); đối chiếu đang còn hiệu lực (không có văn bản thay thế hoặc bãi bỏ trong sổ)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "ghi_chu": "Crawl từ vanban.chinhphu.vn docid=207201",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/default.aspx?docid=207201&pageid=27160",
@@ -58483,8 +58498,10 @@
     {
       "so_hieu": "41/2023/TT-BCT",
       "loai": "THONG_TU",
-      "ten": "Danh mục sản phẩm, hàng hoá có khả năng gây mất an toàn thuộc Bộ Công Thương (cũ)",
+      "ten": "Ban hành Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Công Thương",
       "co_quan": "BCT",
+      "ngay_ban_hanh": "2023-12-28",
+      "hieu_luc_tu": "2024-02-15",
       "het_hieu_luc_tu": "2026-07-01",
       "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
@@ -58492,10 +58509,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=209395), toàn văn PDF/OCR (raw/download/datafiles.chinhphu.vn/41-2023-tt-bct.pdf, wiki/sources/41-2023-tt-bct.md, 6 Điều + Phụ lục, người ký Thứ trưởng Nguyễn Sinh Nhật Tân) và cạnh ngược trong sổ: Thông tư 41/2023/TT-BCT ban hành ngày 28-12-2023, có hiệu lực thi hành từ ngày 15-02-2024 theo khoản 1 Điều 4 (khoản 2 Điều 4 thay thế TT 41/2015/TT-BCT, TT 29/2016/TT-BCT, TT 33/2017/TT-BCT); đã hết hiệu lực toàn bộ kể từ ngày 01-07-2026 khi bị thay thế bởi khoản 2 Điều 6 Thông tư 33/2026/TT-BCT",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Tên đầy đủ chưa xác minh; quan hệ bị TT 33/2026 thay: mức tin cậy trung bình–cao. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
       "nguon": [
@@ -60037,10 +60054,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu + tên + ngày 29-06-2024 + hiệu lực 01-01-2025 (vanban.chinhphu.vn trực tiếp)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-06",
-        "boi": "zcode@ozvietnam"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=211200, người ký Chủ tịch Quốc hội Trần Thanh Mẫn, tệp đính kèm 42-2024-qh15.pdf): Luật Quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ số 42/2024/QH15 của Quốc hội, thông qua ngày 29-06-2024, có hiệu lực thi hành từ ngày 01-01-2025; đối chiếu đang còn hiệu lực (không có văn bản thay thế hoặc bãi bỏ trong sổ)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nạp từ nhu cầu khách tra (miss bot #357). Liên quan XNK: giấy phép NK vật liệu nổ công nghiệp (chương 36).",
       "slug": "42-2024-qh15",
@@ -60545,7 +60562,7 @@
       "co_quan": "BCT",
       "ngay_ban_hanh": "2013-12-31",
       "hieu_luc_tu": "2014-02-15",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
@@ -60561,10 +60578,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "Công báo Số 219 + 220 (id=5486, tệp đính kèm 2014_219+220-43_2013_TT-BCT.pdf), cổng Bộ Công Thương (moit.gov.vn) và cạnh ngược trong sổ: Thông tư 43/2013/TT-BCT quy định nội dung, trình tự, thủ tục lập, thẩm định, phê duyệt và điều chỉnh Quy hoạch phát triển điện lực, ban hành ngày 31-12-2013, có hiệu lực thi hành từ ngày 15-02-2014; hết hiệu lực một phần từ ngày 05-02-2020 khi Điều 29 bị bãi bỏ bởi điểm d khoản 2 Điều 37 Thông tư 42/2019/TT-BCT",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "43-2013-tt-bct",
       "bac_nguon_cao_nhat": "A",
@@ -61365,7 +61382,7 @@
         "44/2026/TT-BNNPTNT"
       ],
       "loai": "THONG_TU",
-      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 27/2026/TT-BNNMT ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Nông nghiệp và Môi trường ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Nông nghiệp và Môi trường",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 27/2026/TT-BNNMT ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Nông nghiệp và Môi trường ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Môi trường",
       "co_quan": "BNNMT",
       "ngay_ban_hanh": "2026-10-09",
       "tinh_trang": "CON_HIEU_LUC",
@@ -61391,12 +61408,12 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề đầy đủ, ngày ban hành 09-10-2026 (vanban.chinhphu docid=219929); điều chỉnh phân loại mặt hàng lâm sản/TACN/thú y theo mã HS — hiệu lực cụ thể chưa đối chiếu",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-29",
-        "boi": "zcode@ozvietnam"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=219929), toàn văn PDF ký số đính kèm (44-bnnmt.signed.pdf, 4 Điều, người ký Thứ trưởng Võ Văn Hưng) và quan hệ trong sổ: Thông tư 44/2026/TT-BNNMT sửa đổi, bổ sung một số điều của Thông tư 27/2026/TT-BNNMT ngày 30-06-2026 (sửa đổi thứ tự 4.1–4.4, 5.2, 6 Phụ lục I; bổ sung thứ tự 2 vào Phụ lục II cho mã HS 3004.90.49 và 3002.42.00; sửa khoản 3 Điều 6), ban hành ngày 09-10-2026, có hiệu lực thi hành từ ngày 09-10-2026 theo khoản 1 Điều 4; đối chiếu đang còn hiệu lực (được hợp nhất tại 91/2026/VBHN-TT-BNNMT, không có văn bản thay thế hoặc bãi bỏ trong sổ)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Bắt bởi radar công báo 29/10 (issue #251) — nạp cùng ngày phát hiện. TT 27/2026 đã có sẵn trong sổ.",
+      "ghi_chu": "Bắt bởi radar công báo 29/10 (issue #251) — nạp cùng ngày phát hiện. TT 27/2026 đã có sẵn trong sổ; hiệu lực từ 2026-10-09 (chờ trích bảng danh-muc/44-2026-tt-bnnmt.csv khi gắn hieu_luc_tu).",
       "slug": "44-2026-tt-bnnmt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -66047,7 +66064,7 @@
       "co_quan": "BCT",
       "ngay_ban_hanh": "2018-12-19",
       "hieu_luc_tu": "2019-02-04",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
@@ -66059,10 +66076,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "cổng Bộ Công Thương (moit.gov.vn, người ký Bộ trưởng Trần Tuấn Anh, tệp đính kèm _VB_1545635055105_VB_tt 51.pdf) và cạnh ngược trong sổ: Thông tư 51/2018/TT-BCT sửa đổi, bổ sung một số điều của Thông tư liên tịch 47/2011/TTLT-BCT-BTNMT ngày 30-12-2011, ban hành ngày 19-12-2018, có hiệu lực thi hành từ ngày 04-02-2019; hết hiệu lực một phần từ ngày 05-02-2020 khi Điều 4 bị bãi bỏ bởi điểm b khoản 2 Điều 37 Thông tư 42/2019/TT-BCT",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "51-2018-tt-bct",
       "bac_nguon_cao_nhat": "A",

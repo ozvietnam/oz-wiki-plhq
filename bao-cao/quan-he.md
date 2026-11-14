@@ -234,6 +234,7 @@ flowchart LR
   n_74_2018_N__CP["74/2018/NĐ-CP<br/>hết hiệu lực"]
   n_154_2018_N__CP["154/2018/NĐ-CP<br/>hết hiệu lực một phần"]
   n_13_2022_N__CP["13/2022/NĐ-CP<br/>hết hiệu lực"]
+  n_41_2016_TT_BTTTT["41/2016/TT-BTTTT<br/>hết hiệu lực"]
   n_41_2026_TT_BXD["41/2026/TT-BXD<br/>còn hiệu lực"]
   n_10_2024_TT_BXD["10/2024/TT-BXD<br/>hết hiệu lực"]
   n_43_2024_QH15["43/2024/QH15<br/>còn hiệu lực"]
@@ -346,6 +347,7 @@ flowchart LR
   n_37_2026_N__CP -->|bãi bỏ từ 2026-07-01| n_13_2022_N__CP
   n_37_2026_N__CP -->|bãi bỏ từ 2026-01-23| n_43_2017_N__CP
   n_37_2026_N__CP -->|bãi bỏ từ 2026-01-23| n_111_2021_N__CP
+  n_41_2016_TT_BTTTT -->|sửa đổi| n_16_2015_TT_BTTTT
   n_41_2026_TT_BXD -->|bãi bỏ toàn bộ từ 2026-07-01| n_10_2024_TT_BXD
   n_43_2024_QH15 -->|thay thế từ 2025-01-01| n_41_2013_QH13
   n_43_2024_QH15 -->|sửa đổi một số điều (Luật sửa đổi 15 luật lĩnh vực nông nghiệp, môi trường)| n_146_2025_QH15
@@ -447,7 +449,7 @@ flowchart LR
   n_04_2021_TT_BXD["04/2021/TT-BXD<br/>hết hiệu lực"]
   n_05_2019_TT_BXD["05/2019/TT-BXD<br/>hết hiệu lực"]
   n_07_2023_TT_NHNN["07/2023/TT-NHNN<br/>còn hiệu lực"]
-  n_38_2018_TT_NHNN["38/2018/TT-NHNN<br/>chưa xác minh"]
+  n_38_2018_TT_NHNN["38/2018/TT-NHNN<br/>còn hiệu lực"]
   n_07_2026_TT_BCT["07/2026/TT-BCT<br/>còn hiệu lực"]
   n_37_2013_TT_BCT["37/2013/TT-BCT<br/>hết hiệu lực một phần"]
   n_08_2023_TT_BCT["08/2023/TT-BCT<br/>hết hiệu lực một phần"]
@@ -478,9 +480,9 @@ flowchart LR
   n_342_2026_N__CP["342/2026/NĐ-CP<br/>còn hiệu lực"]
   n_42_2019_TT_BCT["42/2019/TT-BCT<br/>hết hiệu lực một phần"]
   n_33_2016_TT_BCT["33/2016/TT-BCT<br/>hết hiệu lực một phần"]
-  n_51_2018_TT_BCT["51/2018/TT-BCT<br/>chưa xác minh"]
+  n_51_2018_TT_BCT["51/2018/TT-BCT<br/>hết hiệu lực một phần"]
   n_31_2018_TT_BCT["31/2018/TT-BCT<br/>hết hiệu lực một phần"]
-  n_43_2013_TT_BCT["43/2013/TT-BCT<br/>chưa xác minh"]
+  n_43_2013_TT_BCT["43/2013/TT-BCT<br/>hết hiệu lực một phần"]
   n_45_2023_TT_BCT["45/2023/TT-BCT<br/>còn hiệu lực"]
   n_23_2021_TT_BCT["23/2021/TT-BCT<br/>còn hiệu lực"]
   n_48_2026_TT_BCT["48/2026/TT-BCT<br/>còn hiệu lực"]
