@@ -15,13 +15,9 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Thẻ vanban.chinhphu.vn (docid 219685): ban hành 29-09-2026, hiệu lực 16-11-2026. Chưa đọc điều khoản (PDF ký số là ảnh, chưa đăng Công báo).'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: claude-code@ozvietnam
-  chan:
-    ma: THIEU_DIEU_THI_HANH_A
-    ngay: 2026-10-09
-    viec_tiep: "Chưa đọc điều khoản thi hành"
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=219685) và toàn văn PDF ký số + OCR (raw/download/datafiles.chinhphu.vn/142-2026-tt-btc.pdf, 142-2026-tt-btc-body-ocr.txt, wiki/sources/142-2026-tt-btc.md, 4 Điều + Phụ lục I, II): Thông tư 142/2026/TT-BTC ban hành 29-09-2026, có hiệu lực thi hành từ ngày 16-11-2026 theo khoản 1 Điều 4 (tại thời điểm đối chiếu 14-11-2026 đang ở trạng thái CHUA_CO_HIEU_LUC); sửa đổi, bổ sung một số điều của Thông tư 49/2015/TT-BTC (Điều 1, Điều 3) và Thông tư 191/2015/TT-BTC (Điều 2, Điều 3) đã được sửa đổi, bổ sung bởi TT 56/2019/TT-BTC và TT 29/2025/TT-BTC'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Trang tổng hợp Meta AI ghi sai ngày ban hành (03-10). Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.'
 toan_van: raw/download/datafiles.chinhphu.vn/142-2026-tt-btc.pdf

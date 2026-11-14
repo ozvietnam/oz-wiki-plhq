@@ -3,18 +3,18 @@ so_hieu: 144/2024/NĐ-CP
 loai: NGHI_DINH
 ten: Biểu thuế NK ưu đãi (sửa)
 co_quan: CP
-ngay_ban_hanh: '2024-01-01'
-hieu_luc_tu: '2024-07-15'
+ngay_ban_hanh: '2024-11-01'
+hieu_luc_tu: '2024-12-16'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/bieu-thue
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
-  ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=211569) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/144-2024-nd-cp.pdf, 2 Điều + Phụ lục I, II): Nghị định 144/2024/NĐ-CP ban hành 01-11-2024, có hiệu lực từ ngày 16-12-2024 theo khoản 1 Điều 2; đối chiếu đang còn hiệu lực, sửa đổi mức thuế suất thuế xuất khẩu (Phụ lục I: nhóm 31.02, 79.01, 80.01) và thuế nhập khẩu ưu đãi (Phụ lục II: nhóm 23.04, 24.04, 85.43, 87.01 và Chương 98 nhóm 98.45) quy định tại Điều 3 Nghị định 26/2023/NĐ-CP'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=211569&pageid=27160
     truy_cap: '2026-10-10'

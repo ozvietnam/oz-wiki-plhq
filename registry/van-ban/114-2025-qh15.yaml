@@ -9,10 +9,10 @@ nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (congbao.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'đối chiếu Công báo (id=468676), wiki/sources/114-2025-qh15.md và quan hệ trong sổ: Luật Phòng bệnh số 114/2025/QH15 có hiệu lực thi hành từ 01-07-2026; đối chiếu đang còn hiệu lực (luật gốc của kiểm dịch y tế biên giới từ 01-07-2026, được quy định chi tiết về kiểm dịch y tế đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh bởi Nghị định 165/2026/NĐ-CP)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: Luật gốc của kiểm dịch y tế biên giới từ 01/7/2026. Chưa xác minh có nghị định mới thay NĐ 89/2018 hay chưa. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/luat-so-114-2025-qh15-468676.htm
