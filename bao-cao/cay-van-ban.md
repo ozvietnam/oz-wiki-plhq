@@ -215,9 +215,9 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - ⚫ [57/2020/NĐ-CP](../registry/van-ban/57-2020-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 122/2016/NĐ-CP ngày 01 tháng 9 năm 2016 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan và Nghị định số 125/2017/NĐ-CP ngày 16 tháng 11 năm 2017 sửa đổi, bổ sung một số điều của Nghị định số 122/2016/NĐ-CP _(hết hiệu lực 2023-07-15)_
 - ⚫ [39/2020/NĐ-CP](../registry/van-ban/39-2020-nd-cp.yaml) — Ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa Cuba giai đoạn 2020 - 2023 _(hết hiệu lực 2022-12-30)_
 - ⚫ [07/2020/NĐ-CP](../registry/van-ban/07-2020-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Tự do ASEAN - Hồng Kông, Trung Quốc giai đoạn 2019 - 2022 _(hết hiệu lực 2022-12-30)_
+- 🟢 [13/2019/TT-BCT](../registry/van-ban/13-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể AKFTA
 - ⚫ [57/2019/NĐ-CP](../registry/van-ban/57-2019-nd-cp.yaml) — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt để thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương giai đoạn 2019 - 2022 _(hết hiệu lực 2022-12-30)_
 - 🟢 [03/2019/TT-BCT](../registry/van-ban/03-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể CPTPP
-- 🟢 [13/2019/TT-BCT](../registry/van-ban/13-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể AKFTA
 - 🟢 [11/2018/TT-BCT](../registry/van-ban/11-2018-tt-bct.yaml) — Quy tắc mặt hàng cụ thể VNEAEUFTA
 - ⚫ [153/2017/NĐ-CP](../registry/van-ban/153-2017-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại hàng hóa ASEAN - Trung Quốc giai đoạn 2018 - 2022 _(hết hiệu lực 2022-12-30)_
 - ⚫ [154/2017/NĐ-CP](../registry/van-ban/154-2017-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Việt Nam và Chi Lê giai đoạn 2018 - 2022 _(hết hiệu lực 2022-12-30)_
@@ -247,9 +247,9 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - ⚫ [57/2020/NĐ-CP](../registry/van-ban/57-2020-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 122/2016/NĐ-CP ngày 01 tháng 9 năm 2016 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan và Nghị định số 125/2017/NĐ-CP ngày 16 tháng 11 năm 2017 sửa đổi, bổ sung một số điều của Nghị định số 122/2016/NĐ-CP _(hết hiệu lực 2023-07-15)_
 - ⚫ [39/2020/NĐ-CP](../registry/van-ban/39-2020-nd-cp.yaml) — Ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa Cuba giai đoạn 2020 - 2023 _(hết hiệu lực 2022-12-30)_
 - ⚫ [07/2020/NĐ-CP](../registry/van-ban/07-2020-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Tự do ASEAN - Hồng Kông, Trung Quốc giai đoạn 2019 - 2022 _(hết hiệu lực 2022-12-30)_
+- 🟢 [13/2019/TT-BCT](../registry/van-ban/13-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể AKFTA
 - ⚫ [57/2019/NĐ-CP](../registry/van-ban/57-2019-nd-cp.yaml) — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt để thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương giai đoạn 2019 - 2022 _(hết hiệu lực 2022-12-30)_
 - 🟢 [03/2019/TT-BCT](../registry/van-ban/03-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể CPTPP
-- 🟢 [13/2019/TT-BCT](../registry/van-ban/13-2019-tt-bct.yaml) — Quy tắc mặt hàng cụ thể AKFTA
 - 🟢 [11/2018/TT-BCT](../registry/van-ban/11-2018-tt-bct.yaml) — Quy tắc mặt hàng cụ thể VNEAEUFTA
 - ⚫ [153/2017/NĐ-CP](../registry/van-ban/153-2017-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại hàng hóa ASEAN - Trung Quốc giai đoạn 2018 - 2022 _(hết hiệu lực 2022-12-30)_
 - ⚫ [154/2017/NĐ-CP](../registry/van-ban/154-2017-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Việt Nam và Chi Lê giai đoạn 2018 - 2022 _(hết hiệu lực 2022-12-30)_

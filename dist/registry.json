@@ -6896,10 +6896,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Đã đối chiếu trực tiếp congbao.chinhphu.vn: số hiệu, tên (quy định về tổ chức đào tạo thực hành trong đào tạo khối ngành sức khỏe), cơ quan CHÍNH PHỦ (ký Nguyễn Xuân Phúc), ngày ban hành 05/10/2017, ngày hiệu lực 20/11/2017, đăng Công báo 769+770. Tình trạng còn hiệu lực là suy luận từ dấu hiệu thực tiễn (hội thảo đánh giá 4/2025 của BYT, đề xuất sửa đổi 4/2025, NQ thí điểm 02/2026 trên baochinhphu.vn) — chưa đối chiếu CSDL hợp nhất quốc gia; không tìm thấy VB thay thế.",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-06",
-        "boi": "zcode@ozvietnam"
+        "pham_vi": "đối chiếu Công báo Số 769 + 770 (id=24846): Nghị định 111/2017/NĐ-CP của Chính phủ quy định về tổ chức đào tạo thực hành trong đào tạo khối ngành sức khỏe, ban hành 05-10-2017, có hiệu lực từ 20-11-2017; đối chiếu đang còn hiệu lực (không có văn bản thay thế hoặc bãi bỏ trong sổ; ngoài phạm vi hàng hóa XNK)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Liên quan XNK: KHÔNG — NĐ về tổ chức đào tạo thực hành khối ngành sức khỏe, ngoài phạm vi hàng hóa XNK; nạp để xác nhận miss/khách tra nhầm số hiệu (cảnh báo cho kho). Không gắn nhánh.",
       "slug": "111-2017-nd-cp",
@@ -7769,10 +7769,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (congbao.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "đối chiếu Công báo (id=468676), wiki/sources/114-2025-qh15.md và quan hệ trong sổ: Luật Phòng bệnh số 114/2025/QH15 có hiệu lực thi hành từ 01-07-2026; đối chiếu đang còn hiệu lực (luật gốc của kiểm dịch y tế biên giới từ 01-07-2026, được quy định chi tiết về kiểm dịch y tế đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh bởi Nghị định 165/2026/NĐ-CP)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Luật gốc của kiểm dịch y tế biên giới từ 01/7/2026. Chưa xác minh có nghị định mới thay NĐ 89/2018 hay chưa. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
       "nguon": [
@@ -12960,10 +12960,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=195329), Công báo (id=27516), toàn văn PDF/txt (raw/download/datafiles.chinhphu.vn/13-2018-tt-btttt.pdf, wiki/sources/13-2018-tt-btttt.md) và cạnh ngược trong sổ: Thông tư 13/2018/TT-BTTTT ban hành 15-10-2018, có hiệu lực từ 01-12-2018 theo khoản 1 Điều 12 (3 Chương, 12 Điều + Phụ lục I, II); đã được sửa đổi, bổ sung từ ngày 15-09-2022 bởi Điều 1 Thông tư 10/2022/TT-BTTTT (sửa Điều 6, 8, 9; bãi bỏ khoản 2 Điều 7; thay thế Phụ lục I và Phụ lục II)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "13-2018-tt-btttt",
       "bac_nguon_cao_nhat": "A",
@@ -12984,8 +12984,8 @@
       "loai": "THONG_TU",
       "ten": "Quy tắc mặt hàng cụ thể AKFTA",
       "co_quan": "BCT",
-      "ngay_ban_hanh": "2019-01-01",
-      "hieu_luc_tu": "2019-07-31",
+      "ngay_ban_hanh": "2019-07-31",
+      "hieu_luc_tu": "2019-09-13",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "thue/bieu-thue",
@@ -12993,12 +12993,12 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Crawl từ vanban.chinhphu.vn docid=197728"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=197728) và toàn văn PDF gốc (raw/download/datafiles.chinhphu.vn/13-2019-tt-bct.pdf, 2 Điều + Phụ lục 83 trang): Thông tư 13/2019/TT-BCT ban hành 31-07-2019, có hiệu lực từ 13-09-2019 theo khoản 1 Điều 2 (thay thế TT 04/2015/TT-BCT theo khoản 3 Điều 2); đối chiếu đang còn hiệu lực, sửa đổi Điều 2 và thay thế Phụ lục II (Quy tắc cụ thể mặt hàng theo HS 2017) của Thông tư 20/2014/TT-BCT thực hiện Quy tắc xuất xứ trong Hiệp định Khu vực thương mại tự do ASEAN - Hàn Quốc (AKFTA)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "ghi_chu": "Crawl từ vanban.chinhphu.vn docid=197728",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/default.aspx?docid=197728&pageid=27160",
@@ -14421,10 +14421,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tên, ngày ban hành 26-10-2026 trên Công báo điện tử Chính phủ (link radar",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-02",
-        "boi": "zcode@ozvietnam"
+        "pham_vi": "đối chiếu Công báo điện tử Chính phủ (id=470888) và chuỗi văn bản trong sổ: Văn bản hợp nhất 136/2026/VBHN-TT-BCT xác thực ngày 26-10-2026, hợp nhất Thông tư ban hành Quy chuẩn kỹ thuật quốc gia đối với sản phẩm khăn giấy và giấy vệ sinh (TT 36/2015/TT-BCT đã được sửa đổi, bổ sung bởi TT 33/2016/TT-BCT và các thông tư sửa đổi sau đó); đối chiếu đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Radar công báo đêm 2/11 (#335). QCVN sản phẩm khăn giấy/giấy vệ sinh — căn cứ KTCL hàng NK nhóm 48.03/48.18 (chương 44 dăm gỗ liên quan bảng kê Mẫu 01).",
       "slug": "136-2026-vbhn-tt-bct",
@@ -14647,10 +14647,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tên, ngày ban hành 08-10-2026 trên Công báo điện tử Chính phủ (link radar",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-02",
-        "boi": "zcode@ozvietnam"
+        "pham_vi": "đối chiếu Công báo điện tử Chính phủ (id=470880): Văn bản hợp nhất 138/2026/VBHN-TT-BXD xác thực ngày 08-10-2026, hợp nhất Thông tư ban hành quy chuẩn kỹ thuật quốc gia về sản phẩm, hàng hóa vật liệu xây dựng; đối chiếu đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Radar công báo đêm 2/11 (#335). QCVN VLXD — căn cứ KTCL hàng NK vật liệu xây dựng (chương 68/69/70…).",
       "slug": "138-2026-vbhn-tt-bxd",
@@ -15251,15 +15251,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Thẻ vanban.chinhphu.vn (docid 219685): ban hành 29-09-2026, hiệu lực 16-11-2026. Chưa đọc điều khoản (PDF ký số là ảnh, chưa đăng Công báo).",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "claude-code@ozvietnam",
-        "chan": {
-          "ma": "THIEU_DIEU_THI_HANH_A",
-          "ngay": "2026-10-09",
-          "viec_tiep": "Chưa đọc điều khoản thi hành"
-        }
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=219685) và toàn văn PDF ký số + OCR (raw/download/datafiles.chinhphu.vn/142-2026-tt-btc.pdf, 142-2026-tt-btc-body-ocr.txt, wiki/sources/142-2026-tt-btc.md, 4 Điều + Phụ lục I, II): Thông tư 142/2026/TT-BTC ban hành 29-09-2026, có hiệu lực thi hành từ ngày 16-11-2026 theo khoản 1 Điều 4 (tại thời điểm đối chiếu 14-11-2026 đang ở trạng thái CHUA_CO_HIEU_LUC); sửa đổi, bổ sung một số điều của Thông tư 49/2015/TT-BTC (Điều 1, Điều 3) và Thông tư 191/2015/TT-BTC (Điều 2, Điều 3) đã được sửa đổi, bổ sung bởi TT 56/2019/TT-BTC và TT 29/2025/TT-BTC",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trang tổng hợp Meta AI ghi sai ngày ban hành (03-10). Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.",
       "toan_van": "raw/download/datafiles.chinhphu.vn/142-2026-tt-btc.pdf",
@@ -15679,20 +15674,20 @@
       "loai": "NGHI_DINH",
       "ten": "Biểu thuế NK ưu đãi (sửa)",
       "co_quan": "CP",
-      "ngay_ban_hanh": "2024-01-01",
-      "hieu_luc_tu": "2024-07-15",
+      "ngay_ban_hanh": "2024-11-01",
+      "hieu_luc_tu": "2024-12-16",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "thue/bieu-thue"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=211569) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/144-2024-nd-cp.pdf, 2 Điều + Phụ lục I, II): Nghị định 144/2024/NĐ-CP ban hành 01-11-2024, có hiệu lực từ ngày 16-12-2024 theo khoản 1 Điều 2; đối chiếu đang còn hiệu lực, sửa đổi mức thuế suất thuế xuất khẩu (Phụ lục I: nhóm 31.02, 79.01, 80.01) và thuế nhập khẩu ưu đãi (Phụ lục II: nhóm 23.04, 24.04, 85.43, 87.01 và Chương 98 nhóm 98.45) quy định tại Điều 3 Nghị định 26/2023/NĐ-CP",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/default.aspx?docid=211569&pageid=27160",
@@ -16145,10 +16140,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề (chinhphu.vn docid=88003 + moit.gov.vn); ngày ban hành/hiệu lực chưa đối chiếu",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-28",
-        "boi": "zcode@ozvietnam"
+        "pham_vi": "đối chiếu thẻ chinhphu.vn (docid=88003) và moit.gov.vn: xác nhận số hiệu 15/2009/TT-BKHCN, cơ quan Bộ Khoa học và Công nghệ, tiêu đề hướng dẫn trình tự, thủ tục đăng ký việc sử dụng phụ gia không thông dụng để sản xuất, chế biến, pha chế xăng và nhiên liệu; đối chiếu không có cạnh thay thế hoặc bãi bỏ trong sổ",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nạp theo #240 (tra kèm TT phụ gia nhiên liệu). Chuỗi đăng ký phụ gia hiện hành cần rà thêm sau NĐ 80/2023.",
       "slug": "15-2009-tt-bkhcn",
@@ -16173,10 +16168,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cay-du-lieu-agent"
+        "pham_vi": "đối chiếu Công báo (id=915) và quan hệ trong sổ: Luật Xử lý vi phạm hành chính số 15/2012/QH13 thông qua ngày 20-06-2012; đối chiếu đang còn hiệu lực (đã được sửa đổi, bổ sung một số điều bởi Luật 67/2020/QH14, Luật 56/2024/QH15 và Luật 88/2025/QH15)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Khung chung xử lý VPHC; đã được sửa đổi/bổ sung nhiều lần (gồm Luật 88/2025/QH15). Ngày hiệu lực đầy đủ cần đối chiếu nguồn A (không đoán).",
       "tu_khoa": [
