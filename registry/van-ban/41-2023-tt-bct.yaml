@@ -1,18 +1,20 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 41/2023/TT-BCT
 loai: THONG_TU
-ten: Danh mục sản phẩm, hàng hoá có khả năng gây mất an toàn thuộc Bộ Công Thương (cũ)
+ten: Ban hành Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Công Thương
 co_quan: BCT
+ngay_ban_hanh: '2023-12-28'
+hieu_luc_tu: '2024-02-15'
 het_hieu_luc_tu: '2026-07-01'
 tinh_trang: HET_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/bct
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=209395), toàn văn PDF/OCR (raw/download/datafiles.chinhphu.vn/41-2023-tt-bct.pdf, wiki/sources/41-2023-tt-bct.md, 6 Điều + Phụ lục, người ký Thứ trưởng Nguyễn Sinh Nhật Tân) và cạnh ngược trong sổ: Thông tư 41/2023/TT-BCT ban hành ngày 28-12-2023, có hiệu lực thi hành từ ngày 15-02-2024 theo khoản 1 Điều 4 (khoản 2 Điều 4 thay thế TT 41/2015/TT-BCT, TT 29/2016/TT-BCT, TT 33/2017/TT-BCT); đã hết hiệu lực toàn bộ kể từ ngày 01-07-2026 khi bị thay thế bởi khoản 2 Điều 6 Thông tư 33/2026/TT-BCT'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Tên đầy đủ chưa xác minh; quan hệ bị TT 33/2026 thay: mức tin cậy trung bình–cao. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=209395&pageid=27160
