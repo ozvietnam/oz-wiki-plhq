@@ -3,7 +3,7 @@ so_hieu: 36/2005/QH11
 so_hieu_khac:
   - Luật Thương mại
 loai: LUAT
-ten: "Luật Thương mại"
+ten: Luật Thương mại
 co_quan: QH
 ngay_ban_hanh: '2005-06-14'
 hieu_luc_tu: '2006-01-01'
@@ -19,9 +19,12 @@ nguon:
     truy_cap: '2026-10-22'
 xac_minh:
   muc: NGUON_A
-  pham_vi: "Đối chiếu thẻ vanban.chinhphu.vn (docid=14765, Chủ tịch Quốc hội Nguyễn Văn An ký) và toàn văn tệp đính kèm (15224_l36qh.rtf): số hiệu 36/2005/QH11, tiêu đề 'Luật Thương mại', được Quốc hội khóa XI thông qua ngày 14-06-2005 (thẻ Cổng Chính phủ ghi 27-06-2005 theo ngày Lệnh công bố), có hiệu lực thi hành từ ngày 01-01-2006 (Điều 323, thay thế Luật Thương mại ngày 10-05-1997); đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Luật Quản lý ngoại thương 05/2017/QH14 và Luật Phòng, chống tác hại của rượu, bia 44/2019/QH14)"
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=14765, Chủ tịch Quốc hội Nguyễn Văn An ký) và toàn văn tệp đính kèm (15224_l36qh.rtf): số hiệu 36/2005/QH11, tiêu đề ''Luật Thương mại'', được Quốc hội khóa XI thông qua ngày 14-06-2005 (thẻ Cổng Chính phủ ghi 27-06-2005 theo ngày Lệnh công bố), có hiệu lực thi hành từ ngày 01-01-2006 (Điều 323, thay thế Luật Thương mại ngày 10-05-1997); đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Luật Quản lý ngoại thương 05/2017/QH14 và Luật Phòng, chống tác hại của rượu, bia 44/2019/QH14)'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: "Điều 27-28 là căn cứ quyền mua bán hàng quốc tế của thương nhân VN — ca giao thẳng nước thứ ba (#227)."
-tu_khoa: [giao-thang-nuoc-thu-ba, thue]
+ghi_chu: Điều 27-28 là căn cứ quyền mua bán hàng quốc tế của thương nhân VN — ca giao thẳng nước thứ ba (#227).
+tu_khoa:
+  - giao-thang-nuoc-thu-ba
+  - thue
+toan_van: raw/download/vanban.chinhphu.vn/36-2005-qh11.html

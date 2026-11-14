@@ -4,7 +4,7 @@ so_hieu_khac:
   - 19/2012/QH13
   - 29/2012/QH13
 loai: LUAT
-ten: "Luật Xuất bản"
+ten: Luật Xuất bản
 co_quan: QH
 ngay_ban_hanh: '2012-11-20'
 hieu_luc_tu: '2013-07-01'
@@ -26,9 +26,13 @@ nguon:
     truy_cap: '2026-10-22'
 xac_minh:
   muc: NGUON_A
-  pham_vi: "Đối chiếu thẻ vanban.chinhphu.vn (docid=164963), toàn văn 19_xuatban.doc (Chủ tịch Quốc hội Nguyễn Sinh Hùng ký) và CSDL quốc gia vbpl.vn (ItemID=113345): Luật Xuất bản thông qua ngày 20-11-2012 có số hiệu chính thức trên nguồn A là 19/2012/QH13 (bản ghi gốc từ issue #212 gõ nhầm thành 29/2012/QH12; còn số hiệu 29/2012/QH13 ngày 21-06-2012 trên docid=162989 và Công báo id=11007 là Nghị quyết về một số chính sách thuế tháo gỡ khó khăn cho tổ chức và cá nhân). Luật Xuất bản 19/2012/QH13 có hiệu lực từ 01-07-2013 theo Điều 53 (thay thế Luật Xuất bản 30/2004/QH11 và Luật 12/2008/QH12), đang còn hiệu lực (được sửa đổi một số điều liên quan đến quy hoạch bởi Luật 35/2018/QH14 từ 01-01-2019)."
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=164963), toàn văn 19_xuatban.doc (Chủ tịch Quốc hội Nguyễn Sinh Hùng ký) và CSDL quốc gia vbpl.vn (ItemID=113345): Luật Xuất bản thông qua ngày 20-11-2012 có số hiệu chính thức trên nguồn A là 19/2012/QH13 (bản ghi gốc từ issue #212 gõ nhầm thành 29/2012/QH12; còn số hiệu 29/2012/QH13 ngày 21-06-2012 trên docid=162989 và Công báo id=11007 là Nghị quyết về một số chính sách thuế tháo gỡ khó khăn cho tổ chức và cá nhân). Luật Xuất bản 19/2012/QH13 có hiệu lực từ 01-07-2013 theo Điều 53 (thay thế Luật Xuất bản 30/2004/QH11 và Luật 12/2008/QH12), đang còn hiệu lực (được sửa đổi một số điều liên quan đến quy hoạch bởi Luật 35/2018/QH14 từ 01-01-2019).'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: "Số hiệu chính thức của Luật Xuất bản ngày 20-11-2012 trên nguồn A là 19/2012/QH13 (đã gắn vào so_hieu_khac; giữ khoá file 29-2012-qh12 tương thích bản ghi gốc). Khung pháp lý xuất bản-in; hoạt động in ấn, nhập khẩu thiết bị in thực hiện theo Luật này, NĐ 195/2013/NĐ-CP và NĐ 60/2014/NĐ-CP (sửa đổi bởi NĐ 25/2018/NĐ-CP)."
-tu_khoa: [xuat-ban, in, xuat-nhap-khau]
+ghi_chu: Số hiệu chính thức của Luật Xuất bản ngày 20-11-2012 trên nguồn A là 19/2012/QH13 (đã gắn vào so_hieu_khac; giữ khoá file 29-2012-qh12 tương thích bản ghi gốc). Khung pháp lý xuất bản-in; hoạt động in ấn, nhập khẩu thiết bị in thực hiện theo Luật này, NĐ 195/2013/NĐ-CP và NĐ 60/2014/NĐ-CP (sửa đổi bởi NĐ 25/2018/NĐ-CP).
+tu_khoa:
+  - xuat-ban
+  - in
+  - xuat-nhap-khau
+toan_van: raw/download/vanban.chinhphu.vn/29-2012-qh12.html
