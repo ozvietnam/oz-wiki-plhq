@@ -8,6 +8,16 @@ hieu_luc_tu: '2026-07-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - hai-quan/thu-tuc
+quan_he:
+  bai_bo:
+    - so_hieu: 12/2015/TT-BTC
+      pham_vi: toàn bộ
+      tu_ngay: '2026-07-01'
+      can_cu: 'Điều 15 khoản 2 TT 83/2026/TT-BTC'
+    - so_hieu: 25/2026/TT-BTC
+      pham_vi: toàn bộ
+      tu_ngay: '2026-07-01'
+      can_cu: 'Điều 15 khoản 2 TT 83/2026/TT-BTC'
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=218769
     truy_cap: '2026-11-14'
@@ -21,4 +31,4 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Trinh sát đêm 10/11, đối chiếu nguồn A ngày 14/11. Đại lý HQ chuyển quản lý công nhận → tiêu chuẩn thông báo (Luật HQ sửa đổi bởi Luật 90/2025/QH15). Lưu ý: khoản 2 Điều 15 bãi bỏ toàn bộ 12/2015/TT-BTC, 22/2019/TT-BTC và 25/2026/TT-BTC từ 01-07-2026 (cần cập nhật tinh_trang của 12/2015/TT-BTC và 25/2026/TT-BTC sang HET_HIEU_LUC ở thẻ riêng trước khi nối quan_he.bai_bo).'
+ghi_chu: 'Trinh sát đêm 10/11, đối chiếu nguồn A ngày 14/11. Đại lý HQ chuyển quản lý công nhận → tiêu chuẩn thông báo (Luật HQ sửa đổi bởi Luật 90/2025/QH15). Khoản 2 Điều 15 bãi bỏ toàn bộ 12/2015/TT-BTC, 22/2019/TT-BTC và 25/2026/TT-BTC từ 01-07-2026 (22/2019/TT-BTC chưa có mục riêng trong sổ nên ghi nhận tại pham_vi).'

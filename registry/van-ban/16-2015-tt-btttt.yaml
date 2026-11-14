@@ -1,19 +1,29 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 16/2015/TT-BTTTT
 loai: THONG_TU
-ten: "Quy định chi tiết thi hành Nghị định số 187/2013/NĐ-CP về hoạt động xuất bản, in và phát hành"
+ten: "Quy định chi tiết thi hành Nghị định số 187/2013/NĐ-CP ngày 20 tháng 11 năm 2013 của Chính phủ về xuất khẩu, nhập khẩu hàng hóa trong lĩnh vực in, phát hành xuất bản phẩm"
 co_quan: BTTTT
-tinh_trang: CON_HIEU_LUC
+ngay_ban_hanh: '2015-06-17'
+hieu_luc_tu: '2015-08-15'
+het_hieu_luc_tu: '2019-02-12'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/bct
+quan_he:
+  huong_dan:
+    - 187/2013/NĐ-CP
 nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-16-2015-tt-btttt-13663.htm
+    truy_cap: '2026-11-14'
+  - url: https://mst.gov.vn/van-ban-phap-luat/10162.htm
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/Thong-tu-11-2024-TT-BTTTT-danh-muc-hang-hoa-xuat-nhap-khau-linh-vuc-in-639655.aspx
     truy_cap: '2026-10-22'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: "TT 16/2015 — quy định chi tiết NĐ 187/2013 XNK lĩnh vực in, phát hành (issue #212)"
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-22'
-  boi: zcode@ozvietnam
-ghi_chu: "Chi tiết thủ tục XNK lĩnh vực in phát hành theo NĐ 187/2013."
+  muc: NGUON_A
+  pham_vi: "Đối chiếu Công báo Chính phủ (id=13663, Công báo số 643+644 năm 2015) và cổng Bộ KH&CN (mst.gov.vn/van-ban-phap-luat/10162.htm, Bộ trưởng Nguyễn Bắc Son ký): số hiệu, tiêu đề, ngày ban hành 17-06-2015, có hiệu lực từ 15-08-2015; đã hết hiệu lực toàn bộ kể từ ngày 12-02-2019 do bị thay thế bởi điểm a khoản 1 Điều 2 Thông tư 22/2018/TT-BTTTT (docid=195976)"
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: "Chi tiết thủ tục XNK lĩnh vực in, phát hành theo NĐ 187/2013; hết hiệu lực từ 12-02-2019 (thay bởi TT 22/2018/TT-BTTTT)."
 tu_khoa: [xuat-ban, in, xuat-nhap-khau]

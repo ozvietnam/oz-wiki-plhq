@@ -1,21 +1,30 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 219/2013/TT-BTC
 loai: THONG_TU
-ten: "Hướng dẫn thi hành Luật Thuế GTGT và Luật Quản lý thuế"
+ten: "Hướng dẫn thi hành Luật Thuế giá trị gia tăng và Nghị định số 209/2013/NĐ-CP ngày 18/12/2013 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều Luật Thuế giá trị gia tăng"
 co_quan: BTC
 ngay_ban_hanh: '2013-12-31'
 hieu_luc_tu: '2014-01-01'
-tinh_trang: CON_HIEU_LUC
+het_hieu_luc_tu: '2025-07-01'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - thue
 nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=172570
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2014/02/tt-219.pdf
+    truy_cap: '2026-11-14'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=214417
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/69-btc.signed.pdf
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/Tai-chinh-Nha-nuoc/Thong-tu-219-2013-TT-BTC-215512.aspx
     truy_cap: '2026-10-22'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: "TT 219/2013 hướng dẫn GTGT — Điều 5 mẫu 05: hàng hóa dịch vụ không chịu GTGT; sửa bởi TT 26/2015/TT-BTC"
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-22'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: "Đối chiếu thẻ vanban.chinhphu.vn (docid=172570, Thứ trưởng Đỗ Hoàng Anh Tuấn ký) và tệp đính kèm tt-219.pdf: số hiệu, tiêu đề, ngày ban hành 31-12-2013, có hiệu lực từ 01-01-2014; đã hết hiệu lực toàn bộ kể từ ngày 01-07-2025 khi Luật Thuế GTGT 48/2024/QH15, Nghị định 181/2025/NĐ-CP (docid=214336) và Thông tư 69/2025/TT-BTC ngày 01-07-2025 (docid=214417, 69-btc.signed.pdf) có hiệu lực thay thế"
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: "Điều 5 TT 219/2013: hóa đơn hàng không chịu thuế GTGT mẫu 05 — dùng cho hàng giao thẳng nước thứ ba (#227)."
 tu_khoa: [giao-thang-nuoc-thu-ba, thue]
