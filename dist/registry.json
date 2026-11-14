@@ -467,7 +467,8 @@
       "co_quan": "BTTTT",
       "ngay_ban_hanh": "2024-03-29",
       "hieu_luc_tu": "2024-05-15",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "het_hieu_luc_tu": "2025-12-31",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
@@ -483,10 +484,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực; hết hiệu lực từ 2025-12-31 do bị thay thế bởi 29/2025/TT-BKHCN (Điều 5 khoản 2 TT 29/2025/TT-BKHCN)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "02-2024-tt-btttt",
       "bac_nguon_cao_nhat": "A",
@@ -2481,10 +2482,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực; hết hiệu lực từ 2024-11-15 do bị bãi bỏ bởi 16/2024/TT-BYT (Điều 5 khoản 2 TT 16/2024/TT-BYT)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "09-2018-tt-byt",
       "bac_nguon_cao_nhat": "A",
@@ -2794,10 +2795,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày từ Công báo; hết HL theo NĐ 86/2025",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-12",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu, tiêu đề, ngày từ Công báo; hết hiệu lực từ 2025-07-01 do bị thay thế bởi 86/2025/NĐ-CP (Công báo / vanban.chinhphu.vn)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Đã được NĐ 86/2025/NĐ-CP thay từ 01/07/2025. Stub để đóng quan_he.thay_the.",
       "slug": "10-2018-nd-cp",
@@ -2855,7 +2856,8 @@
       "co_quan": "BTTTT",
       "ngay_ban_hanh": "2020-05-07",
       "hieu_luc_tu": "2020-07-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
@@ -2871,10 +2873,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực; hết hiệu lực từ 2026-07-01 do bị thay thế bởi 36/2026/TT-BKHCN (Điều 6 khoản 2 điểm d TT 36/2026/TT-BKHCN)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "10-2020-tt-btttt",
       "bac_nguon_cao_nhat": "A",
@@ -5284,10 +5286,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, trích yếu trên nguồn A; đã nạp toàn văn",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu, trích yếu trên nguồn A; đã nạp toàn văn; hết hiệu lực từ 2017-11-25 do bị thay thế bởi 113/2017/NĐ-CP (Điều 38 khoản 1 NĐ 113/2017/NĐ-CP)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "het_hieu_luc_tu": "2017-11-25",
       "ghi_chu": "Bị thay bởi Điều 38 khoản 1 NĐ 113/2017/NĐ-CP; stub chưa mở toàn văn nguồn A của chính văn bản này.",
@@ -6980,10 +6982,10 @@
       },
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn); hết hiệu lực từ 2026-01-23 do bị bãi bỏ bởi 37/2026/NĐ-CP (Điều 97 khoản 4 điểm c NĐ 37/2026/NĐ-CP)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
       "nguon": [
@@ -13030,10 +13032,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn); hết hiệu lực từ 2026-07-01 do bị bãi bỏ bởi 37/2026/NĐ-CP (Điều 97 khoản 2 điểm d và khoản 4 điểm a NĐ 37/2026/NĐ-CP)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
       "nguon": [
@@ -13115,7 +13117,8 @@
       "co_quan": "BLDTBXH",
       "ngay_ban_hanh": "2024-12-05",
       "hieu_luc_tu": "2025-02-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "het_hieu_luc_tu": "2026-07-28",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bnnmt"
       ],
@@ -13127,10 +13130,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực; hết hiệu lực từ 2026-07-28 do bị thay thế bởi 16/2026/TT-BNV (Điều 7 khoản 2 điểm c TT 16/2026/TT-BNV)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "13-2024-tt-bldtbxh",
       "bac_nguon_cao_nhat": "A",
@@ -13709,10 +13712,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn); hết hiệu lực từ 2026-07-01 do bị bãi bỏ bởi 37/2026/NĐ-CP (Điều 97 khoản 2 điểm a NĐ 37/2026/NĐ-CP)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
       "nguon": [
@@ -17932,7 +17935,8 @@
       "co_quan": "BCT",
       "ngay_ban_hanh": "2021-06-15",
       "hieu_luc_tu": "2021-06-16",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "het_hieu_luc_tu": "2026-06-16",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "quan-ly-ngoai-thuong/giay-phep",
         "phong-ve-thuong-mai/chong-ban-pha-gia"
@@ -17945,10 +17949,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực; hết hiệu lực từ 2026-06-16 do bị bãi bỏ bởi 1309/QĐ-BCT (Điều 3 khoản 1 QĐ 1309/QĐ-BCT)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "1578-qd-bct-2021",
       "bac_nguon_cao_nhat": "A",
@@ -27229,7 +27233,8 @@
       "co_quan": "BCT",
       "ngay_ban_hanh": "2023-08-03",
       "hieu_luc_tu": "2023-08-18",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "het_hieu_luc_tu": "2026-06-16",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "quan-ly-ngoai-thuong/giay-phep",
         "phong-ve-thuong-mai/chong-ban-pha-gia"
@@ -27242,10 +27247,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực; hết hiệu lực từ 2026-06-16 do bị bãi bỏ bởi 1309/QĐ-BCT (Điều 3 khoản 3 QĐ 1309/QĐ-BCT)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "1989-qd-bct-2023",
       "bac_nguon_cao_nhat": "A",
@@ -31274,10 +31279,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (congbao.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu/trích yếu trên nguồn A (congbao.chinhphu.vn); hết hiệu lực từ 2021-07-18 do bị thay thế bởi 01/2021/TT-BLĐTBXH (Điều 5 khoản 2 TT 01/2021/TT-BLĐTBXH)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "het_hieu_luc_tu": "2021-07-18",
       "ghi_chu": "PDF bậc A từ congbao.chinhphu.vn",
@@ -36247,7 +36252,8 @@
       "co_quan": "BLDTBXH",
       "ngay_ban_hanh": "2018-12-25",
       "hieu_luc_tu": "2019-02-20",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "het_hieu_luc_tu": "2026-07-28",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bnnmt"
       ],
@@ -36259,10 +36265,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực; hết hiệu lực từ 2026-07-28 do bị thay thế bởi 16/2026/TT-BNV (Điều 7 khoản 2 điểm b TT 16/2026/TT-BNV)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "26-2018-tt-bldtbxh",
       "bac_nguon_cao_nhat": "A",
@@ -38760,7 +38766,8 @@
       "co_quan": "BYT",
       "ngay_ban_hanh": "2021-12-20",
       "hieu_luc_tu": "2022-02-02",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "het_hieu_luc_tu": "2024-11-02",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/byt"
       ],
@@ -38786,10 +38793,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực; hết hiệu lực từ 2024-11-02 do bị thay thế bởi 15/2024/TT-BYT (Điều 5 khoản 2 TT 15/2024/TT-BYT, Công báo số 629+630 ngày 12-04-2025)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "28-2021-tt-byt",
       "bac_nguon_cao_nhat": "A",
@@ -41832,7 +41839,8 @@
       "co_quan": "BTTTT",
       "ngay_ban_hanh": "2011-10-31",
       "hieu_luc_tu": "2012-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
@@ -41848,10 +41856,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực; hết hiệu lực từ 2026-07-01 do bị thay thế bởi 36/2026/TT-BKHCN (Điều 6 khoản 2 điểm b TT 36/2026/TT-BKHCN)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "toan_van": "raw/download/congbao.chinhphu.vn/30-2011-tt-btttt.pdf",
       "slug": "30-2011-tt-btttt",
@@ -56957,7 +56965,8 @@
       "co_quan": "BQP",
       "ngay_ban_hanh": "2017-02-23",
       "hieu_luc_tu": "2017-04-10",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "het_hieu_luc_tu": "2019-01-01",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bqp"
       ],
@@ -56969,10 +56978,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực; hết hiệu lực từ 2019-01-01 do bị thay thế bởi 173/2018/TT-BQP (Điều 2 TT 173/2018/TT-BQP)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "40-2017-tt-bqp",
       "bac_nguon_cao_nhat": "A",
@@ -71313,10 +71322,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "thẻ Công báo 37734: ban hành 25-08-2022, hiệu lực 25-08-2022; hết hiệu lực 19-01-2026 theo nguyên văn Điều 3 khoản 2 NĐ 28/2026/NĐ-CP (OCR PDF ký số, kèm raw/download/datafiles.chinhphu.vn/28-2026-nd-cp-dieu3-ocr.txt)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-20",
-        "boi": "zcode@ozvietnam"
+        "pham_vi": "thẻ Công báo 37734: ban hành 25-08-2022, hiệu lực 25-08-2022; hết hiệu lực từ 2026-01-19 do bị thay thế bởi 28/2026/NĐ-CP (nguyên văn Điều 3 khoản 2 NĐ 28/2026/NĐ-CP, OCR PDF ký số, kèm raw/download/datafiles.chinhphu.vn/28-2026-nd-cp-dieu3-ocr.txt)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Bị NĐ 28/2026/NĐ-CP bãi bỏ từ 19-01-2026 — nguyên văn Điều 3 khoản 2: NĐ 57/2022 và NĐ 90/2024 \"hết hiệu lực kể từ ngày Nghị định này có hiệu lực thi hành\". Trả lời khách theo danh mục 57/2022 sau ngày này là SAI.",
       "tu_khoa": [
@@ -72041,7 +72050,8 @@
       "co_quan": "BKHCN",
       "ngay_ban_hanh": "2015-12-31",
       "hieu_luc_tu": "2016-03-21",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
@@ -72057,10 +72067,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực; hết hiệu lực từ 2026-07-01 do bị thay thế bởi 36/2026/TT-BKHCN (Điều 6 khoản 2 điểm đ TT 36/2026/TT-BKHCN)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "58-2015-ttlt-bct-bkhcn",
       "bac_nguon_cao_nhat": "A",
@@ -86028,10 +86038,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, trích yếu, ngày ban hành 14-11-2019 và ngày có hiệu lực 01-01-2020 trên vanban.chinhphu.vn",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành 14-11-2019 và ngày có hiệu lực 01-01-2020 trên vanban.chinhphu.vn; hết hiệu lực từ 2026-10-15 do bị thay thế bởi 336/2026/NĐ-CP (Điều 48 khoản 2 NĐ 336/2026/NĐ-CP)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Hết hiệu lực từ 15-10-2026 do bị NĐ 336/2026 thay thế (quan hệ thay thế ghi ở sổ 336/2026/NĐ-CP); điều khoản thay thế chưa mở trong PDF ký số nên hieu_luc_da_doi_chieu giữ false. Điều 83 khoản 4 NĐ 37/2026 dẫn Điều 17 vẫn theo bài tổng hợp.",
       "toan_van": "raw/download/datafiles.chinhphu.vn/85-2019-nd-cp.pdf",
@@ -86980,10 +86990,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "thẻ vanban.chinhphu.vn (docid=210694): ban hành 17-07-2024; hết hiệu lực 19-01-2026 theo nguyên văn Điều 3 khoản 2 NĐ 28/2026/NĐ-CP (OCR PDF ký số)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-20",
-        "boi": "zcode@ozvietnam"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=210694): ban hành 17-07-2024; hết hiệu lực từ 2026-01-19 do bị thay thế bởi 28/2026/NĐ-CP (nguyên văn Điều 3 khoản 2 NĐ 28/2026/NĐ-CP, OCR PDF ký số)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Sửa danh mục ban hành kèm NĐ 57/2022/NĐ-CP (bổ sung 15 chất). Bị bãi bỏ cùng NĐ 57/2022 từ 19-01-2026 theo Điều 3 khoản 2 NĐ 28/2026/NĐ-CP.",
       "tu_khoa": [
