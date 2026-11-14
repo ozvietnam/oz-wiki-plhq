@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 123/2020/NĐ-CP
 loai: NGHI_DINH
-ten: "Quy định về hóa đơn, chứng từ"
+ten: Quy định về hóa đơn, chứng từ
 co_quan: CP
 ngay_ban_hanh: '2020-10-19'
 hieu_luc_tu: '2022-07-01'
@@ -21,9 +21,12 @@ nguon:
     truy_cap: '2026-10-22'
 xac_minh:
   muc: NGUON_A
-  pham_vi: "Đối chiếu thẻ vanban.chinhphu.vn (docid=201365), toàn văn PDF ký số (123.signed_01.pdf, Thủ tướng Nguyễn Xuân Phúc ký), Công báo (32290) và vbpl.vn (ItemID=146457): ban hành 19-10-2020 (đính chính từ 19-09-2020), có hiệu lực thi hành từ 01-07-2022 (khoản 1 Điều 59); đang còn hiệu lực, được hướng dẫn bởi Thông tư 78/2021/TT-BTC và sửa đổi, bổ sung một số điều bởi Nghị định 41/2022/NĐ-CP và Nghị định 70/2025/NĐ-CP (hai nghị định sửa đổi chưa nạp vào sổ)."
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=201365), toàn văn PDF ký số (123.signed_01.pdf, Thủ tướng Nguyễn Xuân Phúc ký), Công báo (32290) và vbpl.vn (ItemID=146457): ban hành 19-10-2020 (đính chính từ 19-09-2020), có hiệu lực thi hành từ 01-07-2022 (khoản 1 Điều 59); đang còn hiệu lực, được hướng dẫn bởi Thông tư 78/2021/TT-BTC và sửa đổi, bổ sung một số điều bởi Nghị định 41/2022/NĐ-CP và Nghị định 70/2025/NĐ-CP (hai nghị định sửa đổi chưa nạp vào sổ).'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: "Hóa đơn hàng giao thẳng nước thứ ba — ghi hàng hóa không chịu thuế GTGT theo NĐ này + TT 78/2021 (#227)."
-tu_khoa: [giao-thang-nuoc-thu-ba, thue]
+ghi_chu: Hóa đơn hàng giao thẳng nước thứ ba — ghi hàng hóa không chịu thuế GTGT theo NĐ này + TT 78/2021 (#227).
+tu_khoa:
+  - giao-thang-nuoc-thu-ba
+  - thue
+toan_van: raw/download/congbao.chinhphu.vn/123-2020-nd-cp.html
