@@ -1993,6 +1993,10 @@
         {
           "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/155-vbhn-vpqh.pdf",
           "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/luat-so-07-2022-qh15-37504.htm",
+          "truy_cap": "2026-11-14"
         }
       ],
       "xac_minh": {
@@ -2007,6 +2011,7 @@
         "so-huu-tri-tue",
         "shtt"
       ],
+      "toan_van": "raw/download/congbao.chinhphu.vn/07-2022-qh15.html",
       "slug": "07-2022-qh15",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -3000,6 +3005,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "BẢN DOANH NGHIỆP CẦN ĐỌC — ưu tiên trích VBHN thay từng thông tư thành phần (06/2011/TT-BYT + 09/2015/TT-BYT + 155/2018/NĐ-CP + 29/2020/TT-BYT + 34/2025/TT-BYT).",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/09-vbhn-byt.pdf",
       "slug": "09-vbhn-byt-2025",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -3965,6 +3971,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nền của mảng truy xuất nguồn gốc gỗ NK (issue #247 — gia đình lâm nghiệp thứ 8, ca dăm gỗ beech 4401.22.00). Song song với NĐ 06/2019 (CITES) — không thay thế nhau.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/102-2020-nd-cp.pdf",
       "slug": "102-2020-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -11072,6 +11079,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Mã vụ việc AD21 (6 mã HS: 4411.12.00, 4411.13.00, 4411.14.00, 4411.92.00, 4411.93.00, 4411.94.00). Mức thuế CBPG chính thức tại Mục 3 Thông báo kèm theo: Trung Quốc từ 2,59% đến 39,88%; Thái Lan từ 3,09% đến 20,20%. Các văn bản liên quan trong tiến trình vụ việc AD21/NR01.AD21 chưa mở mục riêng trong registry/van-ban/ gồm: QĐ 2549/QĐ-BCT ngày 25-09-2024 (khởi xướng điều tra), QĐ 2667/QĐ-BCT ngày 25-09-2025 (gia hạn điều tra), QĐ 1784/QĐ-BCT ngày 17-07-2026 (rà soát nhà xuất khẩu mới NR01.AD21, https://pvtm.gov.vn/default.aspx?page=news-detail&do=detail&id=9d8c469f-8fcd-4df5-a5fb-98a544eafe97) và QĐ 2641/QĐ-BCT ngày 12-10-2026 (gia hạn rà soát NR01.AD21 đến 17-01-2027, https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%202641_12_10_26_Gia%20han%20thoi%20han%20ra%20soat.pdf).",
+      "toan_van": "raw/download/pvtm.gov.vn/121-qd-bct.pdf",
       "slug": "121-qd-bct-2025",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -15480,6 +15488,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Mã vụ việc AD22 (2 mã HS tại Điều 1 và Mục 1.b Thông báo kèm theo: 7005.29.20, 7005.29.90; đều có trong nhu-cau/bieu-thue.json; bản chụp nhu-cau/hs-code-api.json và nhu-cau/bieu-thue-van-ban.json hiện vẫn đang dẫn QĐ 228/QĐ-BCT ở 2 mã HS này, chưa cập nhật sang số hiệu 1400/QĐ-BCT nên chưa gắn trường trich_dan_trong_bieu_thue). Mức thuế CBPG chính thức tại Mục 3 Thông báo kèm theo: Indonesia từ 32,78% đến 43,78% (PT Muliaglass 32,78%; PT Asahimas Flat Glass TBK 43,78%; PT Xinyi Glass Indonesia 43,78%; tổ chức, cá nhân khác 43,78%); Malaysia từ 41,07% đến 63,39% (Jinjing Technology Malaysia SDN. BHD. 41,07%; Kibing Group (M) SDN. BHD. / SBH Kibing Solar New Materials (M) SDN. BHD. 54,83%; Xinyi Energy Smart (Malaysia) SDN. BHD. 53,32%; tổ chức, cá nhân khác 63,39%). Đã gỡ 2093/QĐ-BCT khỏi quan_he.thay_the (khởi tạo cũ ghi nhầm) và chuyển sang thay_the 228/QĐ-BCT từ ngày 14-06-2026 vì QĐ 2093/QĐ-BCT ngày 18-07-2025 (https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%202093%20QD%20BCT%2018_7_2025%20khoi%20xuong%20dieu%20tra%20kinh%20noi.pdf, mục registry/van-ban/2093-qd-bct.yaml) là quyết định khởi xướng điều tra vụ việc AD22 được dẫn làm căn cứ ban hành QĐ 1400/QĐ-BCT, không phải quyết định áp thuế bị thay thế.",
+      "toan_van": "raw/download/pvtm.gov.vn/1400-qd-bct.pdf",
       "slug": "1400-qd-bct-2025",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -19914,6 +19923,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trinh sát WebSearch trạm CP đêm 29/10. Đã kéo 128/2020/NĐ-CP trong sổ sang HET_HIEU_LUC 01-07-2026 theo quan hệ này. Thiếu ngày ban hành + toàn văn — nạp bổ sung khi công bố chính thức trên vanban.chinhphu.vn.",
+      "toan_van": "raw/download/customs.gov.vn/169-2026-nd-cp.html",
       "slug": "169-2026-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -25173,6 +25183,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nạp đợt \"làm tất\" 6/11 (#87 P1/P2 + #209). CẢNH BÁO NHẪM: issue #87 gán 19/2019/TT-BTC là \"Quy định NSW Cổng thông tin một cửa\" — SAI; toàn văn TTPL xác nhận đây là TT bãi bỏ TT 304/2016/TT-BTC (Bảng giá tính lệ phí trước bạ ô tô, xe mô tô), có hiệu lực khi NĐ 20/2019/NĐ-CP có hiệu lực. Đã đối chiếu thêm 06-11-2026 trên hệ thống văn bản quốc gia: các ứng viên \"TT NSW\" đều là TT khác (18/2019/TT-BTC và 06/2019/TT-BTC, 02/2018/TT-BTC, 03/2020/TT-BTC, 27/2023/TT-BTC — tra từng số, không TT nào về NSW); khung NSW cho hàng XNK thực tế là QĐ 1254/QĐ-TTg (26/9/2018) → NĐ 85/2019/NĐ-CP (HL 01/01/2020) → NĐ 336/2026/NĐ-CP (HL 15/10/2026, Điều 48 thay thế 85/2019). Liên quan XNK: gián tiếp — ô tô nhập khẩu nộp lệ phí trước bạ tính trên giá tính thuế XNK, việc bãi bỏ bảng giá 304/2016 chuyển sang cách tính theo NĐ 20/2019/NĐ-CP sửa NĐ 140/2016/NĐ-CP.",
+      "toan_van": "raw/download/mof.gov.vn/19-2019-tt-btc.docx",
       "slug": "19-2019-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -25388,8 +25399,8 @@
       },
       "nguon": [
         {
-          "url": "https://chinhphu.vn/?pageid=27160&docid=207302",
-          "truy_cap": "2026-10-28"
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=207302",
+          "truy_cap": "2026-11-14"
         },
         {
           "url": "https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Van-ban-hop-nhat-19-VBHN-BNNPTNT-2024-Thong-tu-trinh-tu-kiem-dich-thuc-vat-nhap-xuat-khau-612987.aspx",
@@ -25412,6 +25423,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trả lời đầu việc #275-2 (30/10): 99/2026/VBHN-TT-BNNMT KHÔNG thay VBHN này — khác dòng hợp nhất (99 = hồ sơ nghiệp vụ, chuỗi TT 20/2021; 19 = trình tự thủ tục, chuỗi TT 33/2014).",
+      "toan_van": "raw/download/vanban.chinhphu.vn/19-vbhn-bnnptnt.html",
       "slug": "19-vbhn-bnnptnt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -31750,6 +31762,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Vụ việc AD23 — gạch gốm, sứ ốp lát xuất xứ Ấn Độ (8 mã HS nhóm 6907.21). Áp thuế CBPG chính thức từ 22-09-2026 đến 22-09-2031 với mức thuế từ 5,55% đến 45,30% tùy nhà sản xuất/xuất khẩu.",
+      "toan_van": "raw/download/pvtm.gov.vn/2174-qd-bct.pdf",
       "slug": "2174-qd-bct-2025",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -47108,6 +47121,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trinh thám 29/10 — thuốc là nhóm KB thuế 30 (3004...) hay hỏi; TT 12/2025 chưa có trong sổ (nạp khi cần truy vết chuỗi).",
+      "toan_van": "raw/download/vbpl.vn/32-2026-tt-byt.html",
       "slug": "32-2026-tt-byt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -50754,6 +50768,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. LƯU Ý TRÙNG SỐ: đây KHÔNG phải định mức thiết bị y tế hay mỹ phẩm — là QCVN an toàn vệ sinh bao bì, dụng cụ tiếp xúc trực tiếp thực phẩm (nhựa/cao su/kim loại); hàng bao bì thực phẩm nhập khẩu phải công bố hợp quy theo QCVN này khi thông quan và lưu thông.",
+      "toan_van": "raw/download/vbpl.vn/34-2011-tt-byt.html",
       "slug": "34-2011-tt-byt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -51479,6 +51494,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Bổ sung gia đình KDTV #237 — công bố TTHC cấp Giấy chứng nhận kiểm dịch thực vật nhập khẩu (mã 1.004038) theo Thông tư 22/2026/TT-BNNMT, có hiệu lực từ 01-09-2026.",
+      "toan_van": "raw/download/mae.gov.vn/3445-qd-bnnmt.pdf",
       "slug": "3445-qd-bnnmt-2026",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -52976,6 +52992,10 @@
         {
           "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/155-vbhn-vpqh.pdf",
           "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=91038",
+          "truy_cap": "2026-11-14"
         }
       ],
       "xac_minh": {
@@ -52990,6 +53010,7 @@
         "so-huu-tri-tue",
         "shtt"
       ],
+      "toan_van": "raw/download/vanban.chinhphu.vn/36-2009-qh12.html",
       "slug": "36-2009-qh12",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -55593,6 +55614,7 @@
         "ngay": "2026-11-14",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "toan_van": "raw/download/moit.gov.vn/38-2014-tt-bct.html",
       "slug": "38-2014-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -61217,6 +61239,10 @@
         {
           "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/155-vbhn-vpqh.pdf",
           "truy_cap": "2026-10-29"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=197272",
+          "truy_cap": "2026-11-14"
         }
       ],
       "xac_minh": {
@@ -61231,6 +61257,7 @@
         "so-huu-tri-tue",
         "shtt"
       ],
+      "toan_van": "raw/download/vanban.chinhphu.vn/42-2019-qh14.html",
       "slug": "42-2019-qh14",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -79968,6 +79995,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Quy định tỷ lệ hao hụt xăng dầu trong hoạt động kinh doanh xăng dầu (ban hành 30-10-2026, có hiệu lực từ 01-01-2027, thay thế Thông tư 43/2015/TT-BCT).",
+      "toan_van": "raw/download/moit.gov.vn/68-2026-tt-bct.pdf",
       "slug": "68-2026-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -82900,6 +82928,7 @@
         "boi": "grok@ozvietnam"
       },
       "ghi_chu": "Điều 1 phê chuẩn CPTPP (Comprehensive and Progressive Agreement for Trans-Pacific Partnership) ký ngày 08/3/2018 tại San-ti-a-gô. Ngày hiệp định có hiệu lực với Việt Nam không nằm ở Điều 1 — chưa ghi. Chưa mở Điều khoản về Vương quốc Anh gia nhập sau này.",
+      "toan_van": "raw/download/vbpl.vn/72-2018-qh14.html",
       "slug": "72-2018-qh14",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -88982,6 +89011,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Vụ việc ER01.AD12 — kết thúc rà soát cuối kỳ và không gia hạn biện pháp CBPG đối với thép hình chữ H xuất xứ Malaysia (áp dụng theo QĐ 1975/QĐ-BCT ngày 18-08-2021 và QĐ 2962/QĐ-BCT ngày 30-12-2022) do nhà sản xuất trong nước không nộp hồ sơ yêu cầu gia hạn.",
+      "toan_van": "raw/download/pvtm.gov.vn/915-qd-bct.pdf",
       "slug": "915-qd-bct-2025",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -90661,6 +90691,7 @@
         "boi": "bc-469c3f42-high-blind-spots"
       },
       "ghi_chu": "Việt Nam là thành viên; Danh mục HS VN (vd 31/2022/TT-BTC) triển khai Công ước + 6 quy tắc tổng quát (GIR). Ngày Việt Nam phê chuẩn/có hiệu lực nội địa cần bổ sung từ Quyết định Chủ tịch nước (chưa đăng ký trong sổ).",
+      "toan_van": "raw/download/wcoomd.org/cong-uoc-hs.html",
       "slug": "cong-uoc-hs",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -90745,6 +90776,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Quy chuẩn kỹ thuật quốc gia về xăng, nhiên liệu điêzen và nhiên liệu sinh học — ký hiệu chính thức QCVN 01:2022/BKHCN (kèm TT 16/2022/TT-BKHCN, hiệu lực 01-02-2023) và Sửa đổi 01:2026 QCVN 01:2022/BKHCN (kèm TT 19/2026/TT-BKHCN, hiệu lực 30-04-2026).",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/qcvn-1-2023-bkhcn.pdf",
       "slug": "qcvn-1-2023-bkhcn",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
