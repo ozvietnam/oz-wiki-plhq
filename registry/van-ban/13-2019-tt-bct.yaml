@@ -3,19 +3,19 @@ so_hieu: 13/2019/TT-BCT
 loai: THONG_TU
 ten: Quy tắc mặt hàng cụ thể AKFTA
 co_quan: BCT
-ngay_ban_hanh: '2019-01-01'
-hieu_luc_tu: '2019-07-31'
+ngay_ban_hanh: '2019-07-31'
+hieu_luc_tu: '2019-09-13'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/bieu-thue
   - thue/bieu-thue-xnk
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
-  ghi_chu: 'Crawl từ vanban.chinhphu.vn docid=197728'
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=197728) và toàn văn PDF gốc (raw/download/datafiles.chinhphu.vn/13-2019-tt-bct.pdf, 2 Điều + Phụ lục 83 trang): Thông tư 13/2019/TT-BCT ban hành 31-07-2019, có hiệu lực từ 13-09-2019 theo khoản 1 Điều 2 (thay thế TT 04/2015/TT-BCT theo khoản 3 Điều 2); đối chiếu đang còn hiệu lực, sửa đổi Điều 2 và thay thế Phụ lục II (Quy tắc cụ thể mặt hàng theo HS 2017) của Thông tư 20/2014/TT-BCT thực hiện Quy tắc xuất xứ trong Hiệp định Khu vực thương mại tự do ASEAN - Hàn Quốc (AKFTA)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Crawl từ vanban.chinhphu.vn docid=197728'
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=197728&pageid=27160
     truy_cap: '2026-10-10'
