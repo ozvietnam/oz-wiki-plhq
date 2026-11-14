@@ -1,18 +1,37 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 2174/QĐ-BCT
+so_hieu_khac:
+  - 2174/QĐ-BCT-2025
+  - 2174/QĐ-BCT-2026
 loai: QUYET_DINH
-ten: (chưa có tiêu đề) 2174/QĐ-BCT
+ten: Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm gạch gốm, sứ ốp lát có xuất xứ từ Cộng hòa Ấn Độ
 co_quan: BCT
-tinh_trang: CHUA_XAC_MINH
+ngay_ban_hanh: '2026-09-07'
+hieu_luc_tu: '2026-09-22'
+het_hieu_luc_tu: '2031-09-22'
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - phong-ve-thuong-mai
+  - phong-ve-thuong-mai/chong-ban-pha-gia
 quan_he:
   thay_the:
-    - 2333/QĐ-BCT
+    - so_hieu: 2333/QĐ-BCT
+      tu_ngay: '2026-09-22'
+      pham_vi: Kết thúc giai đoạn điều tra khởi xướng tại Quyết định 2333/QĐ-BCT và chuyển sang áp dụng thuế chống bán phá giá chính thức đối với vụ việc AD23
+      can_cu: Điều 1, Điều 2 và Mục 4 Thông báo kèm theo Quyết định 2174/QĐ-BCT
+nguon:
+  - url: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/2026_7_09_QD%20so%202174_QD-BCT%20kem%20Thong%20bao%20ap%20thue%20CBPG%20chinh%20thuc%20(1).pdf
+    truy_cap: '2026-11-14'
+  - url: https://pvtm.gov.vn/default.aspx?page=news-detail&do=detail&category_id=91b07cf1-3658-4f39-b688-73b9e8ff8a05&id=0bb0a9dc-1b9d-4353-b87d-20a3a48ad4cf
+    truy_cap: '2026-11-14'
+  - url: https://trav.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/2026_7_09_QD%20so%202174_QD-BCT%20kem%20Thong%20bao%20ap%20thue%20CBPG%20chinh%20thuc%20(1).pdf
+    truy_cap: '2026-11-14'
+  - url: https://trav.gov.vn/default.aspx?page=news-detail&do=detail&category_id=91b07cf1-3658-4f39-b688-73b9e8ff8a05&id=0bb0a9dc-1b9d-4353-b87d-20a3a48ad4cf
+    truy_cap: '2026-11-14'
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: hiểu biết nền lúc khởi tạo
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Văn bản khung (stub): chỉ biết qua quan hệ thay thế 2333/QĐ-BCT trong hs-code-api. Cần bổ sung tiêu đề, ngày, nguồn. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.'
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF có dấu đỏ và chữ ký của Thứ trưởng Nguyễn Sinh Nhật Tân trên Cổng Cục Phòng vệ thương mại (pvtm.gov.vn / trav.gov.vn): QĐ 2174/QĐ-BCT ngày 07-09-2026 kèm Thông báo áp dụng thuế CBPG chính thức (5,55%–45,30%) đối với gạch gốm, sứ ốp lát xuất xứ Ấn Độ thuộc 8 mã HS 6907.21.21, 6907.21.22, 6907.21.23, 6907.21.24, 6907.21.91, 6907.21.92, 6907.21.93, 6907.21.94 (mã vụ việc AD23 khởi xướng theo QĐ 2333/QĐ-BCT ngày 18-08-2025, gia hạn điều tra theo QĐ 1906/QĐ-BCT ngày 14-08-2026); Điều 2 và Mục 4 Thông báo quy định có hiệu lực sau 15 ngày kể từ ngày ban hành (22-09-2026), thời hạn áp dụng 05 năm (đến 22-09-2031)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Vụ việc AD23 — gạch gốm, sứ ốp lát xuất xứ Ấn Độ (8 mã HS nhóm 6907.21). Áp thuế CBPG chính thức từ 22-09-2026 đến 22-09-2031 với mức thuế từ 5,55% đến 45,30% tùy nhà sản xuất/xuất khẩu.'

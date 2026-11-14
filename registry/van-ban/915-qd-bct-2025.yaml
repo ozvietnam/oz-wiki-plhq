@@ -1,18 +1,32 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 915/QĐ-BCT
+so_hieu_khac:
+  - 915/QĐ-BCT-2025
+  - 915/QĐ-BCT-2026
 loai: QUYET_DINH
-ten: (chưa có tiêu đề) 915/QĐ-BCT
+ten: Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép hình chữ H có xuất xứ từ Ma-lai-xi-a
 co_quan: BCT
-tinh_trang: CHUA_XAC_MINH
+ngay_ban_hanh: '2026-04-16'
+hieu_luc_tu: '2026-04-16'
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - phong-ve-thuong-mai
+  - phong-ve-thuong-mai/chong-ban-pha-gia
 quan_he:
   thay_the:
-    - 1978/QĐ-BCT
+    - so_hieu: 1978/QĐ-BCT
+      tu_ngay: '2026-04-16'
+      pham_vi: Kết thúc rà soát cuối kỳ vụ việc ER01.AD12 khởi xướng tại Quyết định 1978/QĐ-BCT và quyết định không gia hạn biện pháp chống bán phá giá tại Quyết định 1975/QĐ-BCT
+      can_cu: Điều 1 và Điều 2 Quyết định 915/QĐ-BCT
+nguon:
+  - url: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20khong%20gia%20han%20ER01_AD12%20-%20signed.pdf
+    truy_cap: '2026-11-14'
+  - url: https://trav.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20khong%20gia%20han%20ER01_AD12%20-%20signed.pdf
+    truy_cap: '2026-11-14'
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: hiểu biết nền lúc khởi tạo
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: 'Văn bản khung (stub): chỉ biết qua quan hệ thay thế 1978/QĐ-BCT trong hs-code-api. Cần bổ sung tiêu đề, ngày, nguồn. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.'
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF có dấu đỏ và chữ ký của Thứ trưởng Nguyễn Sinh Nhật Tân trên Cổng Cục Phòng vệ thương mại (pvtm.gov.vn / trav.gov.vn): QĐ 915/QĐ-BCT ngày 16-04-2026 kèm Thông báo kết quả rà soát cuối kỳ vụ việc ER01.AD12 (khởi xướng theo QĐ 1978/QĐ-BCT ngày 09-07-2025); Điều 1 quyết định không gia hạn việc áp dụng biện pháp CBPG đối với thép hình chữ H xuất xứ Ma-lai-xi-a thuộc các mã HS 7216.33.11, 7216.33.19, 7216.33.90, 7228.70.10, 7228.70.90 (quy định tại QĐ 1975/QĐ-BCT ngày 18-08-2021 và QĐ 2962/QĐ-BCT ngày 30-12-2022) căn cứ điểm a khoản 7 Điều 62 NĐ 86/2025/NĐ-CP; Điều 2 có hiệu lực kể từ ngày ban hành (16-04-2026)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Vụ việc ER01.AD12 — kết thúc rà soát cuối kỳ và không gia hạn biện pháp CBPG đối với thép hình chữ H xuất xứ Malaysia (áp dụng theo QĐ 1975/QĐ-BCT ngày 18-08-2021 và QĐ 2962/QĐ-BCT ngày 30-12-2022) do nhà sản xuất trong nước không nộp hồ sơ yêu cầu gia hạn.'

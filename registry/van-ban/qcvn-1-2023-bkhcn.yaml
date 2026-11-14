@@ -1,18 +1,33 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: QCVN 1:2023/BKHCN
+so_hieu_khac:
+  - QCVN 01:2022/BKHCN
+  - Sửa đổi 01:2026 QCVN 01:2022/BKHCN
+  - 16/2022/TT-BKHCN
+  - 19/2026/TT-BKHCN
 loai: TIEU_CHUAN
-ten: Quy chuẩn kỹ thuật quốc gia về chỉ tiêu kỹ thuật xăng sinh học E5, RON 92-95
+ten: Quy chuẩn kỹ thuật quốc gia về xăng, nhiên liệu điêzen và nhiên liệu sinh học (QCVN 01:2022/BKHCN và Sửa đổi 01:2026 QCVN 01:2022/BKHCN)
 co_quan: BKHCN
-tinh_trang: CHUA_XAC_MINH
+ngay_ban_hanh: '2022-12-15'
+hieu_luc_tu: '2023-02-01'
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong/giay-phep
 nguon:
-  - url: https://thuvienphapluat.vn
-    truy_cap: '2026-10-28'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=207068
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/12/16-bkhcn.pdf
+    truy_cap: '2026-11-14'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=218013
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/19-bkhcn.pdf
+    truy_cap: '2026-11-14'
+  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-16-2022-tt-bkhcn-ban-hanh-quy-chuan-ky-thuat-quoc-gia-ve-xang-nhien-lieu-diezen-va-nhien-lieu-sinh-hoc--173478
+    truy_cap: '2026-11-14'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu, tên gọi tóm lược — tham chiếu; số hiệu chính thức/ký hiệu đầy đủ + hiệu lực chưa đối chiếu (nạp dạng tham chiếu theo #240)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-28'
-  boi: zcode@ozvietnam
-ghi_chu: 'Nạp THAM CHIẾU cho ca phụ gia/xăng dầu (#240) — cần nâng nguồn khi có khách hỏi trực tiếp tiêu chuẩn.'
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=207068 & docid=218013 / datafiles.chinhphu.vn) và CSDL Quốc gia về VBPL (vbpl.vn): ký hiệu chính thức là QCVN 01:2022/BKHCN ban hành kèm theo Thông tư 16/2022/TT-BKHCN ngày 15-12-2022 của Bộ trưởng Bộ KH&CN (Thứ trưởng Lê Xuân Định ký, có hiệu lực từ 01-02-2023 nên thực tế thường gọi tắt là QCVN 1:2023/BKHCN theo năm bắt đầu áp dụng; thay thế QCVN 1:2015/BKHCN và Sửa đổi 1:2017), được sửa đổi, bổ sung bởi Sửa đổi 01:2026 QCVN 01:2022/BKHCN ban hành kèm theo Thông tư 19/2026/TT-BKHCN ngày 30-04-2026 (Bộ trưởng Vũ Hải Quân ký, hiệu lực từ 30-04-2026; riêng quy định hàm lượng oxy ≤ 4,0% khối lượng đối với xăng E10 tại Bảng 3 có hiệu lực từ 01-01-2027)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Quy chuẩn kỹ thuật quốc gia về xăng, nhiên liệu điêzen và nhiên liệu sinh học — ký hiệu chính thức QCVN 01:2022/BKHCN (kèm TT 16/2022/TT-BKHCN, hiệu lực 01-02-2023) và Sửa đổi 01:2026 QCVN 01:2022/BKHCN (kèm TT 19/2026/TT-BKHCN, hiệu lực 30-04-2026).'

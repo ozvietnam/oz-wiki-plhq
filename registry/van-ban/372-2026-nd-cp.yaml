@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 372/2026/NĐ-CP
 loai: NGHI_DINH
-ten: Quy định về định danh, xác thực và truy xuất nguồn gốc sản phẩm, hàng hóa
+ten: Quy định về hoạt động định danh, xác thực, truy xuất nguồn gốc sản phẩm, hàng hoá
 co_quan: CP
 ngay_ban_hanh: '2026-09-29'
 hieu_luc_tu: '2027-01-01'
@@ -9,12 +9,16 @@ tinh_trang: CHUA_CO_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong
 nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=219673
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/372_2026_nd-cp_25092026-signed-trang-2.signed.pdf
+    truy_cap: '2026-11-14'
   - url: https://thuongmai360.vn/doanh-nghiep/tu-thang-11-2026-doanh-nghiep-xuat-nhap-khau-can-nam-chac-9-quy-dinh-moi.html
     truy_cap: '2026-11-03'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu + tên + ngày ban hành 29-09-2026 + hiệu lực 01-01-2027 (bản tin tổng hợp 1 nguồn — cần công báo lên A)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-03'
-  boi: zcode@ozvietnam
-ghi_chu: Trinh sát WebSearch trạm CP đêm 3/11. Truy xuất nguồn gốc hàng hoá XNK — mốc 1/1/2027 doanh nghiệp NK phải sẵn sàng.
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF 46 trang ký số ngày 29-09-2026 bởi Phó Thủ tướng Hồ Quốc Dũng trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=219673 / datafiles.chinhphu.vn): gồm 8 Chương, 38 Điều và 01 Phụ lục quy định về mã định danh sản phẩm, hàng hoá (mã UID theo tiêu chuẩn GS1 Digital Link, TCVN 13274:2020, W3C); Điều 36 quy định có hiệu lực thi hành từ ngày 01-01-2027; Điều 37 quy định điều khoản chuyển tiếp đối với hệ thống truy xuất nguồn gốc đang vận hành (chậm nhất 06 tháng kể từ khi Trung tâm dữ liệu quốc gia công bố Nền tảng định danh, xác thực, truy xuất nguồn gốc sản phẩm, hàng hoá đủ điều kiện vận hành)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Truy xuất nguồn gốc sản phẩm, hàng hoá (bao gồm hàng hoá nhập khẩu lưu thông trên thị trường Việt Nam) — có hiệu lực từ ngày 01-01-2027.'
