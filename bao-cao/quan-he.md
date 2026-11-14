@@ -261,6 +261,8 @@ flowchart LR
   n_49_2026_TT_BXD["49/2026/TT-BXD<br/>còn hiệu lực"]
   n_62_2024_TT_BGTVT["62/2024/TT-BGTVT<br/>hết hiệu lực"]
   n_71_2025_TT_BXD["71/2025/TT-BXD<br/>hết hiệu lực một phần"]
+  n_499_2019_Q__BCT["499/2019/QĐ-BCT<br/>còn hiệu lực"]
+  n_326_2018_Q__BCT["326/2018/QĐ-BCT<br/>còn hiệu lực"]
   n_73_2018_N__CP["73/2018/NĐ-CP<br/>hết hiệu lực"]
   n_69_2025_QH15["69/2025/QH15<br/>còn hiệu lực"]
   n_06_2007_QH12["06/2007/QH12<br/>hết hiệu lực"]
@@ -378,6 +380,7 @@ flowchart LR
   n_49_2026_TT_BXD -->|bãi bỏ từ 2026-07-01| n_12_2022_TT_BGTVT
   n_49_2026_TT_BXD -->|bãi bỏ từ 2026-07-01| n_62_2024_TT_BGTVT
   n_49_2026_TT_BXD -->|bãi bỏ Chương X, Phụ lục II và Phụ lục III từ 2026-07-01| n_71_2025_TT_BXD
+  n_499_2019_Q__BCT -->|sửa đổi Cập nhật phạm vi danh mục mặt hàng và cơ quan kiểm tra chuyên ngành thuộc Bộ Công Thương từ 2019-08-01| n_326_2018_Q__BCT
   n_57_2022_N__CP -->|thay thế từ 2022-08-25| n_73_2018_N__CP
   n_62_2024_TT_BGTVT -->|sửa đổi khoản 2–3 Điều 3; Điều 6–7; thay Phụ lục I–II từ 2025-02-15| n_12_2022_TT_BGTVT
   n_69_2025_QH15 -->|thay thế từ 2026-01-01| n_06_2007_QH12
@@ -442,7 +445,7 @@ flowchart LR
   n_2491_Q__BCT["2491/QĐ-BCT<br/>hết hiệu lực"]
   n_1309_Q__BCT["1309/QĐ-BCT<br/>còn hiệu lực"]
   n_1578_Q__BCT["1578/QĐ-BCT<br/>hết hiệu lực"]
-  n_2961_Q__BCT["2961/QĐ-BCT<br/>chưa xác minh"]
+  n_2961_Q__BCT["2961/QĐ-BCT<br/>hết hiệu lực"]
   n_1989_Q__BCT["1989/QĐ-BCT<br/>hết hiệu lực"]
   n_2105_Q__BCT["2105/QĐ-BCT<br/>hết hiệu lực"]
   n_1400_Q__BCT["1400/QĐ-BCT<br/>còn hiệu lực"]
@@ -500,6 +503,8 @@ flowchart LR
   n_60_2014_N__CP["60/2014/NĐ-CP<br/>còn hiệu lực"]
   n_292_2026_N__CP["292/2026/NĐ-CP<br/>còn hiệu lực"]
   n_69_2018_N__CP["69/2018/NĐ-CP<br/>hết hiệu lực"]
+  n_2961_Q__BCT["2961/QĐ-BCT<br/>hết hiệu lực"]
+  n_1578_Q__BCT["1578/QĐ-BCT<br/>hết hiệu lực"]
   n_33_2025_TT_BCT["33/2025/TT-BCT<br/>còn hiệu lực"]
   n_01_2018_TT_BCT["01/2018/TT-BCT<br/>chưa xác minh"]
   n_34_2025_TT_BCT["34/2025/TT-BCT<br/>còn hiệu lực"]
@@ -539,6 +544,7 @@ flowchart LR
   n_187_2013_N__CP -->|bãi bỏ từ 2018-06-15| n_09_2018_N__CP
   n_25_2018_N__CP -->|sửa đổi từ 2018-05-01| n_60_2014_N__CP
   n_292_2026_N__CP -->|thay thế từ 2026-09-05| n_69_2018_N__CP
+  n_2961_Q__BCT -->|sửa đổi Sửa đổi, bổ sung một số nội dung của Quyết định 1578/QĐ-BCT ngày 15-06-2021 về áp dụng thuế CBPG và thuế CTC chính thức đối với sản phẩm đường mía từ Thái Lan từ 2022-12-30| n_1578_Q__BCT
   n_33_2025_TT_BCT -->|sửa đổi bãi bỏ điểm c khoản 2 Điều 3; thay thế Phụ lục I từ 2025-07-21| n_01_2018_TT_BCT
   n_34_2025_TT_BCT -->|sửa đổi từ 2025-07-21| n_02_2018_TT_BCT
   n_342_2026_N__CP -->|thay thế từ 2026-10-18| n_09_2018_N__CP
@@ -611,6 +617,9 @@ flowchart LR
   n_57_2020_N__CP["57/2020/NĐ-CP<br/>hết hiệu lực"]
   n_346_2025_N__CP["346/2025/NĐ-CP<br/>còn hiệu lực"]
   n_53_2020_N__CP["53/2020/NĐ-CP<br/>hết hiệu lực"]
+  n_3830_Q__BKHCN["3830/QĐ-BKHCN<br/>còn hiệu lực"]
+  n_367_Q__BKHCN["367/QĐ-BKHCN<br/>chưa xác minh"]
+  n_2711_Q__BKHCN["2711/QĐ-BKHCN<br/>chưa xác minh"]
   n_66_2025_QH15["66/2025/QH15<br/>còn hiệu lực"]
   n_03_2022_QH15["03/2022/QH15<br/>hết hiệu lực một phần"]
   n_72_2026_N__CP["72/2026/NĐ-CP<br/>còn hiệu lực"]
@@ -647,6 +656,8 @@ flowchart LR
   n_26_2015_TT_BTC -->|sửa đổi| n_219_2013_TT_BTC
   n_26_2023_N__CP -->|bãi bỏ toàn bộ từ 2023-07-15| n_57_2020_N__CP
   n_346_2025_N__CP -->|thay thế toàn bộ từ 2026-01-01| n_53_2020_N__CP
+  n_3830_Q__BKHCN -->|sửa đổi Hủy bỏ sản phẩm có mã HS 9405.11.99 tại Quyết định số 367/QĐ-BKHCN ngày 12-03-2024 từ 2025-11-21| n_367_Q__BKHCN
+  n_3830_Q__BKHCN -->|sửa đổi Bãi bỏ mã HS 9405.11.99 tại mục 10.4 (bóng đèn có đi-ốt phát sáng LED thông dụng cố định) trong Phụ lục Danh mục sản phẩm, hàng hóa nhóm 2 từ 2025-11-21| n_2711_Q__BKHCN
   n_45_2005_QH11 -->|bãi bỏ từ 2016-09-01| n_107_2016_QH13
   n_56_2024_QH15 -->|sửa đổi từ 2025-01-01| n_38_2019_QH14
   n_66_2025_QH15 -->|thay thế Điều 8 (sửa đổi, bổ sung một số điều của Luật Thuế tiêu thụ đặc biệt) từ 2026-01-01| n_03_2022_QH15
