@@ -12,12 +12,18 @@ tinh_trang: HET_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/bnnmt
 nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=207247
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/26-bnnptnt.signed.pdf
+    truy_cap: '2026-11-14'
+  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-26-2022-tt-bnnptnt-quy-dinh-ve-quan-ly-truy-xuat-nguon-goc-lam-san--158959
+    truy_cap: '2026-11-14'
   - url: https://kiemlamtphcm.org.vn/laws/detail/Thong-tu-26-2025-TT-BNNMT-Quy-dinh-ve-quan-ly-lam-san-xu-ly-lam-san-thuy-san-la-tai-san-duoc-xac-lap-quyen-so-huu-toan-dan-49
     truy_cap: '2026-10-28'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 30-12-2022, hiệu lực 15-02-2023; HẾT hiệu lực 01-07-2025 — bị TT 26/2025/TT-BNNMT thay (nguyên văn Điều 33.3 điểm a)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-28'
-  boi: zcode@ozvietnam
-ghi_chu: 'Nơi ban hành Mẫu 01 bảng kê gỗ nguyên liệu nhập khẩu (tầng 2 #247) — nay chuyển sang TT 26/2025.'
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=207247), toàn văn PDF ký số (26-bnnptnt.signed.pdf, Thứ trưởng Nguyễn Quốc Trị ký) và CSDL quốc gia vbpl.vn (ItemID=158959): ban hành 30-12-2022, có hiệu lực từ 15-02-2023 theo khoản 1 Điều 33 (thay thế TT 27/2018/TT-BNNPTNT theo khoản 2 Điều 33); hết hiệu lực toàn bộ từ 01-07-2025 khi bị Thông tư 26/2025/TT-BNNMT ngày 24-06-2025 (docid=214350, điểm a khoản 3 Điều 33) thay thế.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Nơi ban hành Mẫu 01 bảng kê gỗ nguyên liệu nhập khẩu (tầng 2 #247) — nay chuyển sang TT 26/2025/TT-BNNMT.'

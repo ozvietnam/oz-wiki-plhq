@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 34/2025/TT-BYT
 loai: THONG_TU
-ten: Sửa đổi, bổ sung một số điều của Thông tư số 06/2011/TT-BYT về quản lý mỹ phẩm
+ten: Sửa đổi, bổ sung một số điều của Thông tư số 06/2011/TT-BYT ngày 25 tháng 01 năm 2011 của Bộ trưởng Bộ Y tế quy định về quản lý mỹ phẩm
 co_quan: BYT
 ngay_ban_hanh: '2025-07-03'
 hieu_luc_tu: '2025-08-18'
@@ -11,13 +11,20 @@ nhanh:
 quan_he:
   sua_doi:
     - so_hieu: 06/2011/TT-BYT
+      tu_ngay: '2025-08-18'
 nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=214428
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/34-byt.pdf
+    truy_cap: '2026-11-14'
+  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-34-2025-tt-byt-sua-doi-thong-tu-06-2011-tt-byt-cua-bo-truong-bo-y-te-quy-dinh-ve-quan-ly-my-pham--181191
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx
     truy_cap: '2026-10-22'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'ban hành 03-07-2025 (thẻ TVPL 663703 + issue #224): CFS, hồ sơ công bố trực tuyến, số tiếp nhận phiếu công bố SP mỹ phẩm NK; hiệu lực chưa đối chiếu ngày cụ thể — điểm mù'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-22'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=214428), toàn văn PDF đính kèm (34-byt.pdf, Thứ trưởng Đỗ Xuân Tuyên ký) và CSDL quốc gia vbpl.vn (ItemID=181191): ban hành 03-07-2025, có hiệu lực từ 18-08-2025 theo Điều 3; sửa đổi, bổ sung một số điều và biểu mẫu của Thông tư 06/2011/TT-BYT về quản lý mỹ phẩm (đã được hợp nhất tại 09/VBHN-BYT ngày 25-07-2025); đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Sửa mới nhất TT 06/2011 (hiệu lực 18/8/2025 — đối chiếu nguyên văn VBHN 09/VBHN-BYT + medgate.vn): hồ sơ công bố trực tuyến + chữ ký điện tử, không bắt buộc dấu hộ kinh doanh, chuẩn hoá ghi thành phần/công thức, rút ngắn quy trình phản hồi. Kèm QĐ 2393/QĐ-BYT công bố TTHC sửa đổi.'

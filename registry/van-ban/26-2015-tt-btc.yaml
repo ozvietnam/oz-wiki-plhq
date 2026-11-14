@@ -1,22 +1,32 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 26/2015/TT-BTC
 loai: THONG_TU
-ten: "Sửa đổi, bổ sung một số điều của Thông tư số 219/2013/TT-BTC"
+ten: "Hướng dẫn về thuế giá trị gia tăng và quản lý thuế tại Nghị định số 12/2015/NĐ-CP ngày 12 tháng 2 năm 2015 của Chính phủ quy định chi tiết thi hành Luật sửa đổi, bổ sung một số điều của các Luật về thuế và sửa đổi, bổ sung một số điều của các Nghị định về thuế và sửa đổi, bổ sung một số điều của Thông tư số 39/2014/TT-BTC ngày 31/3/2014 của Bộ Tài chính về hóa đơn bán hàng hóa, cung ứng dịch vụ"
 co_quan: BTC
-tinh_trang: CON_HIEU_LUC
+ngay_ban_hanh: '2015-02-27'
+het_hieu_luc_tu: '2025-07-01'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - thue
 quan_he:
   sua_doi:
     - so_hieu: 219/2013/TT-BTC
 nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=179270
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2015/03/26tt.signed.pdf
+    truy_cap: '2026-11-14'
+  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-26-2015-tt-btc-huong-dan-ve-thue-gia-tri-gia-tang-va-quan-ly-thue-tai-nghi-dinh-so-12-2015-nd-cp-ngay-12-thang-2-nam-2015-cua-chinh-phu-quy-dinh-chi-tiet-thi-hanh-luat-sua-doi-bo-sung-mot-so-dieu-cua-cac-luat-ve-thue-va-sua-doi-bo-sung-mot-so-dieu-cua-cac-nghi-dinh-ve-thue-va-sua-doi-bo-sung-mot-so-dieu-cua-thong-tu-so-39-2014-tt-btc-ngay-31-3-2014-cua-bo-tai-chinh-ve-hoa-don-ban-hang-hoa-cung-ung-dich-vu--67438
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/69-btc.signed.pdf
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/Tai-chinh-Nha-nuoc/Thong-tu-219-2013-TT-BTC-215512.aspx
     truy_cap: '2026-10-22'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: "Sửa TT 219/2013 (theo issue #227 kiểm chứng nguồn công khai); ngày ban hành chưa đối chiếu — điểm mù"
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-22'
-  boi: zcode@ozvietnam
-ghi_chu: "Sửa TT 219/2013 — hiệu lực theo bản đã sửa."
+  muc: NGUON_A
+  pham_vi: "Đối chiếu thẻ vanban.chinhphu.vn (docid=179270), toàn văn PDF ký số (26tt.signed.pdf, Thứ trưởng Đỗ Hoàng Anh Tuấn ký) và CSDL quốc gia vbpl.vn (ItemID=67438): ban hành 27-02-2015, khoản 1 Điều 4 quy định có hiệu lực áp dụng kể từ ngày Luật 71/2014/QH13 và Nghị định 12/2015/NĐ-CP có hiệu lực thi hành (01-01-2015). Điều 2 (sửa TT 156/2013/TT-BTC) hết hiệu lực từ 01-01-2022 theo TT 80/2021/TT-BTC; Điều 3 (sửa TT 39/2014/TT-BTC về hóa đơn) hết hiệu lực từ 01-07-2022 theo NĐ 123/2020/NĐ-CP và TT 78/2021/TT-BTC; Điều 1 (sửa TT 219/2013/TT-BTC về thuế GTGT) bị bãi bỏ từ 01-07-2025 theo điểm e khoản 3 Điều 10 Thông tư 69/2025/TT-BTC ngày 01-07-2025 (69-btc.signed.pdf, docid=214417) khi Luật Thuế GTGT 48/2024/QH15 và NĐ 181/2025/NĐ-CP có hiệu lực."
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: "Sửa đổi TT 219/2013/TT-BTC (Điều 1), TT 156/2013/TT-BTC (Điều 2) và TT 39/2014/TT-BTC (Điều 3); hết hiệu lực từ 01-07-2025 khi Điều 1 bị bãi bỏ bởi điểm e khoản 3 Điều 10 TT 69/2025/TT-BTC và TT 219/2013/TT-BTC bị thay thế."
 tu_khoa: [giao-thang-nuoc-thu-ba, thue]
