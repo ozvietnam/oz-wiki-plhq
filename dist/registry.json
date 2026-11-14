@@ -1484,6 +1484,13 @@
             "quan_he": "hop_nhat",
             "so_hieu": "06/2011/TT-BYT"
           }
+        ],
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "7866/QĐ-BYT",
+            "quan_he": "huong_dan",
+            "so_hieu": "06/2011/TT-BYT"
+          }
         ]
       }
     },
@@ -2480,7 +2487,7 @@
       "co_quan": "BTTTT",
       "ngay_ban_hanh": "2013-04-08",
       "hieu_luc_tu": "2013-05-23",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
@@ -2494,6 +2501,7 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/09-2013-tt-btttt.pdf",
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "thẻ vanban.chinhphu.vn (docid=167379), Công báo (id=4337), toàn văn PDF/OCR (raw/download/datafiles.chinhphu.vn/09-2013-tt-btttt.pdf, wiki/sources/09-2013-tt-btttt.md) và cạnh ngược trong sổ: Thông tư 09/2013/TT-BTTTT ban hành 08-04-2013, có hiệu lực từ 23-05-2013 theo Điều 4 (5 Điều + Phụ lục số 01, 02); đã được sửa đổi, bổ sung và bãi bỏ một phần Phụ lục số 02 từ ngày 07-11-2024 bởi Điều 4 Thông tư 11/2024/TT-BTTTT",
@@ -2820,7 +2828,7 @@
       "co_quan": "BNV",
       "ngay_ban_hanh": "2025-06-18",
       "hieu_luc_tu": "2025-07-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bnv"
       ],
@@ -2834,6 +2842,7 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/09-2025-tt-bnv.pdf",
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "đối chiếu Công báo Số 887 + 888 ngày 15-07-2025 (id=45357, toàn văn PDF/txt tại raw/download/congbaocdn.chinhphu.vn/09-2025-tt-bnv.pdf), wiki/sources/09-2025-tt-bnv.md và cạnh ngược trong sổ: Thông tư 09/2025/TT-BNV ban hành 18-06-2025, có hiệu lực từ 01-07-2025 theo khoản 1 Điều 18 (19 Điều + Phụ lục I, II); đã bị bãi bỏ Điều 16 từ ngày 28-07-2026 bởi điểm d khoản 2 Điều 7 Thông tư 16/2026/TT-BNV",
@@ -13326,7 +13335,7 @@
       "co_quan": "BTTTT",
       "ngay_ban_hanh": "2018-10-15",
       "hieu_luc_tu": "2018-12-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
@@ -13340,6 +13349,7 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/13-2018-tt-btttt.pdf",
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "thẻ vanban.chinhphu.vn (docid=195329), Công báo (id=27516), toàn văn PDF/txt (raw/download/datafiles.chinhphu.vn/13-2018-tt-btttt.pdf, wiki/sources/13-2018-tt-btttt.md) và cạnh ngược trong sổ: Thông tư 13/2018/TT-BTTTT ban hành 15-10-2018, có hiệu lực từ 01-12-2018 theo khoản 1 Điều 12 (3 Chương, 12 Điều + Phụ lục I, II); đã được sửa đổi, bổ sung từ ngày 15-09-2022 bởi Điều 1 Thông tư 10/2022/TT-BTTTT (sửa Điều 6, 8, 9; bãi bỏ khoản 2 Điều 7; thay thế Phụ lục I và Phụ lục II)",
@@ -17539,6 +17549,7 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/154-2018-nd-cp.pdf",
       "slug": "154-2018-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -17830,6 +17841,13 @@
           {
             "tu": "129/2024/NĐ-CP",
             "quan_he": "sua_doi",
+            "so_hieu": "155/2018/NĐ-CP"
+          }
+        ],
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "7866/QĐ-BYT",
+            "quan_he": "huong_dan",
             "so_hieu": "155/2018/NĐ-CP"
           }
         ],
@@ -18798,7 +18816,8 @@
       "co_quan": "BNNPTNT",
       "ngay_ban_hanh": "2021-12-20",
       "hieu_luc_tu": "2022-02-03",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bnnmt"
       ],
@@ -18808,6 +18827,7 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/16-2021-tt-bnnptnt.pdf",
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "thẻ vanban.chinhphu.vn (docid=204775), toàn văn PDF/OCR (raw/download/datafiles.chinhphu.vn/16-2021-tt-bnnptnt.pdf, wiki/sources/16-2021-tt-bnnptnt.md, 2 Điều + Phụ lục) và cạnh ngược trong sổ: Thông tư 16/2021/TT-BNNPTNT ban hành 20-12-2021, có hiệu lực từ 03-02-2022 theo khoản 1 Điều 2 (thay thế TT 14/2018/TT-BNNPTNT theo khoản 2 Điều 2); được sửa đổi mục 3.1, 4, 8, 9 Phụ lục từ 20-03-2024 bởi điểm b khoản 2 Điều 3 TT 01/2024/TT-BNNPTNT và bị bãi bỏ từ 01-07-2026 theo Điều 6 Thông tư 27/2026/TT-BNNMT",
@@ -41894,6 +41914,7 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/292-2026-nd-cp.pdf",
       "danh_muc_hs": {
         "tep": "danh-muc/292-2026-nd-cp.csv",
         "nguon": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/31/470149-1785470166_v1_1785493136_signed.pdf",
@@ -44210,6 +44231,7 @@
           "truy_cap": "2026-11-14"
         }
       ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/31-2015-tt-btttt.pdf",
       "slug": "31-2015-tt-btttt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -44276,6 +44298,7 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/31-2018-tt-bct.pdf",
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "Công báo Số 1015 + 1016 ngày 01-11-2018 (id=27507/24174), toàn văn PDF/txt (raw/download/congbaocdn.chinhphu.vn/31-2018-tt-bct.pdf, wiki/sources/31-2018-tt-bct.md, 3 Điều + Phụ lục 3, người ký Bộ trưởng Trần Tuấn Anh) và cạnh ngược trong sổ: Thông tư 31/2018/TT-BCT ban hành 05-10-2018, có hiệu lực từ 20-11-2018 theo khoản 1 Điều 3 (sửa đổi, bổ sung một số điều của TT 27/2013/TT-BCT; Điều 2 bãi bỏ điểm d khoản 1 Điều 12, Phụ lục 3 TT 27/2013/TT-BCT, Điều 6 TT 06/2015/TT-BCT và Điều 10 TT 04/2016/TT-BCT); hết hiệu lực một phần từ ngày 05-02-2020 khi khoản 20 Điều 1 bị bãi bỏ bởi điểm c khoản 2 Điều 37 Thông tư 42/2019/TT-BCT",
@@ -48993,6 +49016,7 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/33-2014-tt-bnnptnt.pdf",
       "slug": "33-2014-tt-bnnptnt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -49045,6 +49069,7 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/33-2016-tt-bct.pdf",
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "thẻ vanban.chinhphu.vn (docid=188443), Công báo (id=21937/16323), toàn văn PDF/OCR (raw/download/datafiles.chinhphu.vn/33-2016-tt-bct.pdf, wiki/sources/33-2016-tt-bct.md, 2 Điều, người ký Bộ trưởng Trần Tuấn Anh) và cạnh ngược trong sổ: Thông tư 33/2016/TT-BCT ban hành 23-12-2016, có hiệu lực từ 01-01-2017 theo Điều 2 (sửa đổi Điều 2 TT 36/2015/TT-BCT và một số mục của QCVN 09:2015/BCT đối với sản phẩm khăn giấy và giấy vệ sinh); hết hiệu lực một phần từ ngày 05-02-2020 khi khoản 6 Điều 1 bị bãi bỏ bởi điểm a khoản 2 Điều 37 Thông tư 42/2019/TT-BCT (phần còn hiệu lực được hợp nhất tại 136/2026/VBHN-TT-BCT)",
@@ -53833,6 +53858,7 @@
           "truy_cap": "2026-07-02"
         }
       ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/367-qd-bkhcn.pdf",
       "trich_dan_trong_bieu_thue": 4,
       "xac_minh": {
         "muc": "NGUON_A",
@@ -55595,6 +55621,7 @@
           "truy_cap": "2026-11-14"
         }
       ],
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/38-2018-tt-nhnn.pdf",
       "slug": "38-2018-tt-nhnn",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -56263,24 +56290,34 @@
       "loai": "NGHI_DINH",
       "ten": "Quy định xác định xuất xứ Việt Nam đối với hàng hóa sản xuất và lưu thông trong nước",
       "co_quan": "CP",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2026-10-09",
+      "hieu_luc_tu": "2027-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "xuat-xu-fta/quy-tac-xuat-xu"
       ],
       "nguon": [
         {
-          "url": "https://congbao.chinhphu.vn",
-          "truy_cap": "2026-10-29"
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=219934",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/10/384_2026_nd-cp_09102026-signed.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-384-2026-nd-cp-470799/69797.htm",
+          "truy_cap": "2026-11-14"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề (từ mục lục công báo qua radar 29/10) — ngày ban hành/hiệu lực chưa đối chiếu; cần nâng nguồn A sớm vì xuất xứ là mảng lõi kho",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-29",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=219934), Công báo (id=470799/69797) và toàn văn PDF ký số ngày 09-10-2026 bởi Phó Thủ tướng Thường trực Phạm Gia Túc (384_2026_nd-cp_09102026-signed.signed.pdf): Nghị định 384/2026/NĐ-CP quy định xác định xuất xứ Việt Nam đối với hàng hóa sản xuất và lưu thông trong nước (tiêu chí xuất xứ thuần túy tại Điều 5, xuất xứ không thuần túy theo chuyển đổi mã số HS hoặc hàm lượng giá trị Việt Nam VVC tại Điều 6); có hiệu lực thi hành từ ngày 01-01-2027",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Bắt bởi radar công báo 29/10 (issue #251) — xuất xứ hàng hoá trong nước, tách bạch với xuất xứ FTA. Nâng NGUON_A ngay khi có ca khách chạm.",
+      "ghi_chu": "Quy định xác định xuất xứ Việt Nam đối với hàng hóa sản xuất và lưu thông trong nước (ban hành 09-10-2026, có hiệu lực từ 01-01-2027) — tách bạch với xuất xứ hàng hóa xuất khẩu, nhập khẩu theo FTA.",
       "slug": "384-2026-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -56866,6 +56903,7 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/39-2018-tt-btc.pdf",
       "slug": "39-2018-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -67264,6 +67302,7 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/51-2018-tt-bct.pdf",
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "cổng Bộ Công Thương (moit.gov.vn, người ký Bộ trưởng Trần Tuấn Anh, tệp đính kèm _VB_1545635055105_VB_tt 51.pdf) và cạnh ngược trong sổ: Thông tư 51/2018/TT-BCT sửa đổi, bổ sung một số điều của Thông tư liên tịch 47/2011/TTLT-BCT-BTNMT ngày 30-12-2011, ban hành ngày 19-12-2018, có hiệu lực thi hành từ ngày 04-02-2019; hết hiệu lực một phần từ ngày 05-02-2020 khi Điều 4 bị bãi bỏ bởi điểm b khoản 2 Điều 37 Thông tư 42/2019/TT-BCT",
@@ -79790,24 +79829,29 @@
       "ten": "Quy định tỷ lệ hao hụt xăng dầu trong hoạt động kinh doanh xăng dầu",
       "co_quan": "BCT",
       "ngay_ban_hanh": "2026-10-30",
+      "hieu_luc_tu": "2027-01-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "quan-ly-ngoai-thuong/giay-phep"
       ],
       "nguon": [
         {
+          "url": "https://moit.gov.vn/upload/2005517/fck/files/1_TT_2026_68_089c6.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-ban-hanh-thong-tu-quy-dinh-ty-le-hao-hut-xang-dau-trong-hoat-dong-kinh-doanh-xang-dau.html",
-          "truy_cap": "2026-11-07"
+          "truy_cap": "2026-11-14"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + ngày ban hành 30-10-2026 (tin moit.gov.vn); hiệu lực 01-01-2027 ghi trên tin",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-07",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF chính thức đăng tải trên cổng Bộ Công Thương (moit.gov.vn: 1_TT_2026_68_089c6.pdf): Thông tư 68/2026/TT-BCT ban hành ngày 30-10-2026 quy định tỷ lệ hao hụt xăng dầu tối đa trong hoạt động kinh doanh xăng dầu (xuất khẩu, nhập khẩu, tạm nhập tái xuất, chuyển khẩu, gia công xuất khẩu, pha chế, phân phối, tiếp nhận, bảo quản, vận chuyển); có hiệu lực thi hành từ ngày 01-01-2027 và thay thế Thông tư 43/2015/TT-BCT ngày 08-12-2015",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Trinh sát đêm 7/11. Họ kinh doanh xăng dầu (cùng 38/2014/TT-BCT, 19/2026/TT-BCT) — định mức hao hụt tính giá nhập cơ sở đầu mối. Ưu tiên đối chiếu lên A.",
+      "ghi_chu": "Quy định tỷ lệ hao hụt xăng dầu trong hoạt động kinh doanh xăng dầu (ban hành 30-10-2026, có hiệu lực từ 01-01-2027, thay thế Thông tư 43/2015/TT-BCT).",
       "slug": "68-2026-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -85649,28 +85693,60 @@
     {
       "so_hieu": "7866/QĐ-BYT",
       "loai": "QUYET_DINH",
-      "ten": "Công bố danh mục thủ tục hành chính trong lĩnh vực quản lý mỹ phẩm",
+      "ten": "Về việc công bố thủ tục hành chính mới ban hành/được sửa đổi, bổ sung trong lĩnh vực Mỹ phẩm thuộc phạm vi chức năng quản lý của Bộ Y tế",
       "co_quan": "BYT",
-      "tinh_trang": "CON_HIEU_LUC",
+      "ngay_ban_hanh": "2018-12-28",
+      "hieu_luc_tu": "2018-12-28",
+      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
       "nhanh": [
         "kiem-tra-chuyen-nganh/byt"
       ],
+      "quan_he": {
+        "huong_dan": [
+          "06/2011/TT-BYT",
+          "155/2018/NĐ-CP"
+        ]
+      },
       "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=99376",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=195324",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/11/155.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=214428",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=216427",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=219432",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx",
           "truy_cap": "2026-10-22"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu + vai trò theo issue #224; năm ban hành chưa đối chiếu — điểm mù",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-22",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu thông tin ký ban hành ngày 28-12-2018 (có hiệu lực từ ngày ký 28-12-2018) cùng toàn văn các văn bản QPPL gốc về quản lý mỹ phẩm trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=99376 cho Thông tư 06/2011/TT-BYT, docid=195324 và 155.signed.pdf cho Nghị định 155/2018/NĐ-CP ngày 12-11-2018, docid=214428 cho Thông tư 34/2025/TT-BYT, docid=216427 cho Thông tư 47/2025/TT-BYT, docid=219432 cho VBHN 18/VBHN-QĐ-BYT): công bố thủ tục hành chính mới ban hành/được sửa đổi, bổ sung trong lĩnh vực Mỹ phẩm thuộc phạm vi chức năng quản lý của Bộ Y tế (đính chính trích yếu nguyên văn chính thức, không phải văn bản danh mục hàng hóa kèm mã HS); đã được sửa đổi, bổ sung và bãi bỏ một phần nội dung TTHC bởi Quyết định 2393/QĐ-BYT ngày 22-07-2025 (HL 18-08-2025) và Quyết định 1536/QĐ-BYT ngày 28-05-2026 (HL 28-05-2026)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "TTHC mỹ phẩm; bị sửa bởi QĐ 1536/QĐ-BYT (28-05-2026).",
+      "ghi_chu": "Công bố thủ tục hành chính mới ban hành/được sửa đổi, bổ sung trong lĩnh vực Mỹ phẩm (ban hành 28-12-2018); đã được sửa đổi, bổ sung một phần bởi QĐ 2393/QĐ-BYT (22-07-2025) và QĐ 1536/QĐ-BYT (28-05-2026).",
       "slug": "7866-qd-byt",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_sua_doi_boi": [
           {
@@ -85713,6 +85789,7 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/79-2015-qh13.pdf",
       "slug": "79-2015-qh13",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -88094,6 +88171,7 @@
           "truy_cap": "2026-10-04"
         }
       ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/89-2018-nd-cp.pdf",
       "slug": "89-2018-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -90204,6 +90282,9 @@
     },
     {
       "so_hieu": "99/2026/VBHN-TT-BNNMT",
+      "so_hieu_khac": [
+        "99/VBHN-BNNMT"
+      ],
       "loai": "VAN_BAN_HOP_NHAT",
       "ten": "Hợp nhất Thông tư quy định hồ sơ nghiệp vụ kiểm dịch thực vật",
       "co_quan": "BNNMT",
@@ -90221,6 +90302,22 @@
       },
       "nguon": [
         {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220052",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/10/99-vbhn-bnnmt.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204999",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=214087",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://chicucttbvtvhcm.gov.vn/thong-tin-hoat-dong/van-ban-hop-nhat-99-2026-vbhn-tt-bnnmt-hop-nhat-thong-tu-quy-dinh-ho-so-nghiep-vu-kiem-dich-thuc-vat-1845.html",
           "truy_cap": "2026-10-29"
         },
@@ -90230,15 +90327,15 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tên, ngày ban hành 20-10-2026 (Chi cục KDTV TP.HCM; TVPL index). Nguồn không nêu số hiệu Thông tư gốc được hợp nhất — cần tải PDF để bóc chuỗi (nghi ngờ là bản hợp nhất mới hơn của chuỗi 06/VBHN-BNNPTNT → 19/VBHN-BNNPTNT về KDTV)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-29",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=220052) và toàn văn PDF ký số ngày 20-10-2026 bởi Thứ trưởng Bộ Nông nghiệp và Môi trường Nguyễn Hoàng Hiệp (99-vbhn-bnnmt.signed.pdf): hợp nhất Thông tư 20/2021/TT-BNNPTNT ngày 28-12-2021 (HL 11-02-2022, thay thế Thông tư 14/2012/TT-BNNPTNT; docid=204999) quy định về hồ sơ nghiệp vụ kiểm dịch thực vật với Thông tư 12/2025/TT-BNNMT ngày 19-06-2025 (HL 01-07-2025; docid=214087) quy định phân cấp, phân định thẩm quyền quản lý nhà nước trong lĩnh vực trồng trọt và bảo vệ thực vật; đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Trinh sát WebSearch trạm BNNMT đêm 29/10. Liên quan gia đình KDTV wiki",
+      "ghi_chu": "Hợp nhất Thông tư 20/2021/TT-BNNPTNT (quy định về hồ sơ nghiệp vụ kiểm dịch thực vật) và Thông tư 12/2025/TT-BNNMT.",
       "slug": "99-2026-vbhn-tt-bnnmt",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
