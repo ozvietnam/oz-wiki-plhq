@@ -1,22 +1,32 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 78/2021/TT-BTC
 loai: THONG_TU
-ten: "Hướng dẫn một số điều về hóa đơn, chứng từ theo NĐ 123/2020/NĐ-CP"
+ten: "Hướng dẫn thực hiện một số điều của Luật Quản lý thuế ngày 13 tháng 6 năm 2019, Nghị định số 123/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định về hóa đơn, chứng từ"
 co_quan: BTC
-tinh_trang: CON_HIEU_LUC
+ngay_ban_hanh: '2021-09-17'
+hieu_luc_tu: '2022-07-01'
+het_hieu_luc_tu: '2025-06-01'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - thue
 quan_he:
   huong_dan:
+    - so_hieu: 38/2019/QH14
     - so_hieu: 123/2020/NĐ-CP
 nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204200
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2021/09/78-btc.pdf
+    truy_cap: '2026-11-14'
+  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-32-2025-tt-btc-huong-dan-thuc-hien-mot-so-dieu-cua-luat-quan-ly-thue-ngay-13-thang-6-nam-2019-nghi-dinh-so-123-2020-nd-cp-ngay-19-thang-10-nam-2020-cua-chinh-phu-quy-dinh-ve-hoa-don-chung-tu-nghi-dinh-so-70-2025-nd-cp-ngay-20-thang-3-nam-2025-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-123-2020-nd-cp--178309
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/Tai-chinh-Nha-nuoc/Nghi-dinh-123-2020-ND-CP-379445.aspx
     truy_cap: '2026-10-22'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: "TT 78/2021 hướng dẫn NĐ 123/2020 (mẫu hóa đơn, ghi chú hàng không chịu thuế); ngày HL chưa đối chiếu — điểm mù"
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-22'
-  boi: zcode@ozvietnam
-ghi_chu: "Hướng dẫn NĐ 123/2020."
+  muc: NGUON_A
+  pham_vi: "Đối chiếu thẻ vanban.chinhphu.vn (docid=204200, Thứ trưởng Bộ Tài chính Trần Xuân Hà ký), toàn văn PDF đính kèm (78-btc.pdf) và CSDL quốc gia vbpl.vn (ItemID=178309 — Thông tư 32/2025/TT-BTC): Thông tư 78/2021/TT-BTC ban hành ngày 17-09-2021, có hiệu lực thi hành từ ngày 01-07-2022 (khoản 1 Điều 11), hướng dẫn Luật Quản lý thuế 38/2019/QH14 và Nghị định 123/2020/NĐ-CP về hóa đơn, chứng từ; đã hết hiệu lực toàn bộ kể từ ngày 01-06-2025 do bị thay thế bởi Thông tư số 32/2025/TT-BTC ngày 31-05-2025 của Bộ trưởng Bộ Tài chính (Thông tư 32/2025/TT-BTC chưa nạp vào sổ)"
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: "Hướng dẫn NĐ 123/2020/NĐ-CP; đã hết hiệu lực từ 01-06-2025 khi Thông tư 32/2025/TT-BTC có hiệu lực thay thế."
 tu_khoa: [giao-thang-nuoc-thu-ba, thue]
