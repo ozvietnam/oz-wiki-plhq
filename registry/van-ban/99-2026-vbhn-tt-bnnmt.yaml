@@ -1,5 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 99/2026/VBHN-TT-BNNMT
+so_hieu_khac:
+  - 99/VBHN-BNNMT
 loai: VAN_BAN_HOP_NHAT
 ten: Hợp nhất Thông tư quy định hồ sơ nghiệp vụ kiểm dịch thực vật
 co_quan: BNNMT
@@ -11,14 +13,22 @@ quan_he:
   hop_nhat:
     - so_hieu: 20/2021/TT-BNNPTNT
 nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=220052
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/10/99-vbhn-bnnmt.signed.pdf
+    truy_cap: '2026-11-14'
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204999
+    truy_cap: '2026-11-14'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=214087
+    truy_cap: '2026-11-14'
   - url: https://chicucttbvtvhcm.gov.vn/thong-tin-hoat-dong/van-ban-hop-nhat-99-2026-vbhn-tt-bnnmt-hop-nhat-thong-tu-quy-dinh-ho-so-nghiep-vu-kiem-dich-thuc-vat-1845.html
     truy_cap: '2026-10-29'
   - url: https://luatvietnam.vn/nong-nghiep/van-ban-hop-nhat-99-2026-vbhn-tt-bnnmt-2026-quy-dinh-ho-so-nghiep-vu-kiem-dich-thuc-vat-451843-d5.html
     truy_cap: '2026-10-29'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tên, ngày ban hành 20-10-2026 (Chi cục KDTV TP.HCM; TVPL index). Nguồn không nêu số hiệu Thông tư gốc được hợp nhất — cần tải PDF để bóc chuỗi (nghi ngờ là bản hợp nhất mới hơn của chuỗi 06/VBHN-BNNPTNT → 19/VBHN-BNNPTNT về KDTV)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-29'
-  boi: zcode@ozvietnam
-ghi_chu: Trinh sát WebSearch trạm BNNMT đêm 29/10. Liên quan gia đình KDTV wiki #247. Nếu xác nhận thay 19/VBHN-BNNPTNT → phải cập nhật trạng thái bản hợp nhất cũ.
+  muc: NGUON_A
+  pham_vi: 'đối chiếu thẻ vanban.chinhphu.vn (docid=220052) và toàn văn PDF ký số ngày 20-10-2026 bởi Thứ trưởng Bộ Nông nghiệp và Môi trường Nguyễn Hoàng Hiệp (99-vbhn-bnnmt.signed.pdf): hợp nhất Thông tư 20/2021/TT-BNNPTNT ngày 28-12-2021 (HL 11-02-2022, thay thế Thông tư 14/2012/TT-BNNPTNT; docid=204999) quy định về hồ sơ nghiệp vụ kiểm dịch thực vật với Thông tư 12/2025/TT-BNNMT ngày 19-06-2025 (HL 01-07-2025; docid=214087) quy định phân cấp, phân định thẩm quyền quản lý nhà nước trong lĩnh vực trồng trọt và bảo vệ thực vật; đang còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Hợp nhất Thông tư 20/2021/TT-BNNPTNT (quy định về hồ sơ nghiệp vụ kiểm dịch thực vật) và Thông tư 12/2025/TT-BNNMT.'

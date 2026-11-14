@@ -4,16 +4,19 @@ loai: THONG_TU
 ten: 'Quy định tỷ lệ hao hụt xăng dầu trong hoạt động kinh doanh xăng dầu'
 co_quan: BCT
 ngay_ban_hanh: '2026-10-30'
+hieu_luc_tu: '2027-01-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong/giay-phep
 nguon:
+  - url: https://moit.gov.vn/upload/2005517/fck/files/1_TT_2026_68_089c6.pdf
+    truy_cap: '2026-11-14'
   - url: https://moit.gov.vn/tin-tuc/bo-cong-thuong-ban-hanh-thong-tu-quy-dinh-ty-le-hao-hut-xang-dau-trong-hoat-dong-kinh-doanh-xang-dau.html
-    truy_cap: '2026-11-07'
+    truy_cap: '2026-11-14'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + ngày ban hành 30-10-2026 (tin moit.gov.vn); hiệu lực 01-01-2027 ghi trên tin'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-07'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh sát đêm 7/11. Họ kinh doanh xăng dầu (cùng 38/2014/TT-BCT, 19/2026/TT-BCT) — định mức hao hụt tính giá nhập cơ sở đầu mối. Ưu tiên đối chiếu lên A.'
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF chính thức đăng tải trên cổng Bộ Công Thương (moit.gov.vn: 1_TT_2026_68_089c6.pdf): Thông tư 68/2026/TT-BCT ban hành ngày 30-10-2026 quy định tỷ lệ hao hụt xăng dầu tối đa trong hoạt động kinh doanh xăng dầu (xuất khẩu, nhập khẩu, tạm nhập tái xuất, chuyển khẩu, gia công xuất khẩu, pha chế, phân phối, tiếp nhận, bảo quản, vận chuyển); có hiệu lực thi hành từ ngày 01-01-2027 và thay thế Thông tư 43/2015/TT-BCT ngày 08-12-2015'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Quy định tỷ lệ hao hụt xăng dầu trong hoạt động kinh doanh xăng dầu (ban hành 30-10-2026, có hiệu lực từ 01-01-2027, thay thế Thông tư 43/2015/TT-BCT).'
