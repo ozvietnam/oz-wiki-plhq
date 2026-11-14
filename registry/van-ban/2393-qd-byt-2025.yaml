@@ -1,18 +1,34 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 2393/QĐ-BYT
 loai: QUYET_DINH
-ten: Công bố danh mục thủ tục hành chính sửa đổi, bổ sung trong lĩnh vực quản lý mỹ phẩm theo TT 34/2025/TT-BYT
+ten: 'Về việc công bố thủ tục hành chính được sửa đổi, bổ sung quy định tại Thông tư số 34/2025/TT-BYT ngày 03 tháng 7 năm 2025 của Bộ trưởng Bộ Y tế sửa đổi, bổ sung một số điều của Thông tư số 06/2011/TT-BYT ngày 25 tháng 01 năm 2011 của Bộ trưởng Bộ Y tế quy định về quản lý mỹ phẩm thuộc phạm vi chức năng quản lý của Bộ Y tế'
 co_quan: BYT
+ngay_ban_hanh: '2025-07-22'
+hieu_luc_tu: '2025-08-18'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
+quan_he:
+  huong_dan:
+    - 34/2025/TT-BYT
+  sua_doi:
+    - so_hieu: 7866/QĐ-BYT
+      tu_ngay: '2025-08-18'
 nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=214428
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/34-byt.pdf
+    truy_cap: '2026-11-14'
+  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-34-2025-tt-byt-sua-doi-thong-tu-06-2011-tt-byt-cua-bo-truong-bo-y-te-quy-dinh-ve-quan-ly-my-pham--181191
+    truy_cap: '2026-11-14'
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=99376
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx
     truy_cap: '2026-10-22'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu + vai trò theo issue #224 (kiểm chứng nguồn công khai 21-10); ngày chưa đối chiếu — điểm mù'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-22'
-  boi: zcode@ozvietnam
-ghi_chu: Công bố TTHC sửa theo TT 34/2025.
+  muc: NGUON_A
+  pham_vi: 'đối chiếu thông tin ký ban hành của Thứ trưởng Bộ Y tế Đỗ Xuân Tuyên ngày 22-07-2025 (có hiệu lực từ 18-08-2025 cùng thời điểm hiệu lực của Thông tư 34/2025/TT-BYT) và toàn văn Thông tư 34/2025/TT-BYT ngày 03-07-2025 trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=214428, 34-byt.pdf) cùng CSDL Quốc gia về VBPL (vbpl.vn ItemID=181191): công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực quản lý mỹ phẩm quy định tại Thông tư 34/2025/TT-BYT (sửa đổi Thông tư 06/2011/TT-BYT docid=99376) và sửa đổi, bãi bỏ phần nội dung TTHC tương ứng tại Quyết định 7866/QĐ-BYT ngày 28-12-2018; đính chính trích yếu nguyên văn (không phải văn bản danh mục hàng hóa kèm mã HS); đang còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực quản lý mỹ phẩm theo Thông tư 34/2025/TT-BYT (ban hành 22-07-2025, có hiệu lực từ 18-08-2025).'

@@ -1,18 +1,24 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 165/2026/NĐ-CP
 loai: NGHI_DINH
-ten: 'Quy định chi tiết thi hành một số điều của Luật Phòng bệnh về kiểm dịch y tế đối với hàng hóa nhập khẩu, xuất khẩu, quá cảnh'
+ten: 'Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Phòng bệnh'
 co_quan: CP
+ngay_ban_hanh: '2026-05-15'
+hieu_luc_tu: '2026-07-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
 nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=218169
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/165-ndcp.signed.pdf
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn
     truy_cap: '2026-11-06'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên nguyên văn (bản tin tổng hợp). Ngày ban hành + hiệu lực chưa có — cần công báo'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-06'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh sát WebSearch đêm 6/11. Kiểm dịch Y TẾ hàng XNK — cặp với KDTV động thực vật (TT 01/2026, 03/2026 TT-BNNMT đã có).'
+  muc: NGUON_A
+  pham_vi: 'đối chiếu thẻ vanban.chinhphu.vn (docid=218169) và toàn văn PDF ký số 140 trang ngày 15-05-2026 bởi Phó Thủ tướng Phạm Thị Thanh Trà (165-ndcp.signed.pdf): quy định chi tiết và hướng dẫn thi hành một số điều của Luật Phòng bệnh (bao gồm quy định về kiểm dịch y tế biên giới đối với người, phương tiện vận tải, hàng hóa xuất khẩu, nhập khẩu, quá cảnh); Điều 94 quy định có hiệu lực thi hành từ ngày 01-07-2026 (riêng Điều 49 và khoản 3 Điều 60 có hiệu lực từ 01-07-2027; các điều 66, 67, 68 có hiệu lực từ 01-01-2028); đang còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Quy định chi tiết và hướng dẫn thi hành Luật Phòng bệnh (bao gồm kiểm dịch y tế đối với hàng hóa XNK, quá cảnh) — ban hành 15-05-2026, có hiệu lực từ 01-07-2026.'

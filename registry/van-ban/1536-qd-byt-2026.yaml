@@ -1,19 +1,32 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 1536/QĐ-BYT
 loai: QUYET_DINH
-ten: Công bố danh mục thủ tục hành chính sửa đổi trong lĩnh vực quản lý mỹ phẩm
+ten: 'Về việc sửa đổi, bổ sung một số nội dung tại Quyết định số 7866/QĐ-BYT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Y tế về việc công bố thủ tục hành chính mới ban hành/được sửa đổi, bổ sung trong lĩnh vực Mỹ phẩm thuộc phạm vi chức năng quản lý của Bộ Y tế'
 co_quan: BYT
 ngay_ban_hanh: '2026-05-28'
+hieu_luc_tu: '2026-05-28'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
+quan_he:
+  sua_doi:
+    - so_hieu: 7866/QĐ-BYT
+      tu_ngay: '2026-05-28'
 nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=216427
+    truy_cap: '2026-11-14'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=219432
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/18-vbhn-byt.signed.pdf
+    truy_cap: '2026-11-14'
+  - url: https://vbpl.vn/van-ban/chi-tiet/quyet-dinh-so-24-2006-qd-byt-ve-viec-trien-khai-ap-dung-va-huong-dan-thuc-hien-cac-nguyen-tac-tieu-chuan-thuc-hanh-tot-san-xuat-my-pham-cua-hiep-hoi-cac-nuoc-dong-nam-a--15266
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx
     truy_cap: '2026-10-22'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'ban hành 28-05-2026 theo issue #224 (kiểm chứng nguồn công khai 21-10)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-22'
-  boi: zcode@ozvietnam
-ghi_chu: Bản sửa TTHC mỹ phẩm mới nhất (28-05-2026).
+  muc: NGUON_A
+  pham_vi: 'đối chiếu thông tin ký ban hành của Thứ trưởng Bộ Y tế Nguyễn Tri Thức ngày 28-05-2026 (có hiệu lực từ ngày ký 28-05-2026) cùng toàn văn các văn bản QPPL gốc về quản lý mỹ phẩm và CGMP-ASEAN trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=216427 cho Thông tư 47/2025/TT-BYT ngày 30-12-2025, docid=219432 và 18-vbhn-byt.signed.pdf cho VBHN 18/VBHN-QĐ-BYT ngày 10-09-2026) và CSDL Quốc gia về VBPL (vbpl.vn ItemID=15266 cho Quyết định 24/2006/QĐ-BYT): sửa đổi, bổ sung một số nội dung công bố thủ tục hành chính trong lĩnh vực Mỹ phẩm tại Quyết định 7866/QĐ-BYT ngày 28-12-2018 (đồng bộ việc bãi bỏ thời hạn 02 năm của GCN CGMP-ASEAN và Mẫu số 01/CGMP-MP theo khoản 2 Điều 2 Thông tư 47/2025/TT-BYT từ 15-02-2026); đính chính trích yếu nguyên văn (không phải văn bản danh mục hàng hóa kèm mã HS); đang còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Sửa đổi, bổ sung một số nội dung tại Quyết định 7866/QĐ-BYT ngày 28-12-2018 về công bố thủ tục hành chính trong lĩnh vực Mỹ phẩm (có hiệu lực từ 28-05-2026).'
