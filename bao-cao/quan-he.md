@@ -354,7 +354,7 @@ flowchart LR
   n_33_2026_TT_BCT -->|thay thế| n_41_2023_TT_BCT
   n_34_2018_TT_BNNPTNT -->|sửa đổi từ 2019-01-01| n_33_2014_TT_BNNPTNT
   n_34_2018_TT_BNNPTNT -->|sửa đổi từ 2019-01-01| n_20_2017_TT_BNNPTNT
-  n_34_2025_TT_BYT -->|sửa đổi| n_06_2011_TT_BYT
+  n_34_2025_TT_BYT -->|sửa đổi từ 2025-08-18| n_06_2011_TT_BYT
   n_36_2026_TT_BKHCN -->|thay thế từ 2026-07-01| n_29_2025_TT_BKHCN
   n_36_2026_TT_BKHCN -->|thay thế từ 2026-07-01| n_30_2011_TT_BTTTT
   n_36_2026_TT_BKHCN -->|thay thế từ 2026-07-01| n_15_2018_TT_BTTTT
@@ -499,7 +499,7 @@ flowchart LR
   n_187_2013_N__CP["187/2013/NĐ-CP<br/>hết hiệu lực"]
   n_09_2018_N__CP["09/2018/NĐ-CP<br/>hết hiệu lực"]
   n_25_2018_N__CP["25/2018/NĐ-CP<br/>còn hiệu lực"]
-  n_195_2013_N__CP["195/2013/NĐ-CP<br/>còn hiệu lực"]
+  n_60_2014_N__CP["60/2014/NĐ-CP<br/>còn hiệu lực"]
   n_292_2026_N__CP["292/2026/NĐ-CP<br/>còn hiệu lực"]
   n_69_2018_N__CP["69/2018/NĐ-CP<br/>hết hiệu lực"]
   n_33_2025_TT_BCT["33/2025/TT-BCT<br/>còn hiệu lực"]
@@ -517,7 +517,7 @@ flowchart LR
   n_48_2026_TT_BCT["48/2026/TT-BCT<br/>còn hiệu lực"]
   n_51_VBHN_BCT["51/VBHN-BCT<br/>còn hiệu lực"]
   n_38_2014_TT_BCT["38/2014/TT-BCT<br/>còn hiệu lực"]
-  n_60_2014_N__CP["60/2014/NĐ-CP<br/>còn hiệu lực"]
+  n_195_2013_N__CP["195/2013/NĐ-CP<br/>còn hiệu lực"]
   n_67_2026_TT_BCT["67/2026/TT-BCT<br/>còn hiệu lực"]
   n_19_2026_TT_BCT["19/2026/TT-BCT<br/>còn hiệu lực"]
   n_80_2023_N__CP["80/2023/NĐ-CP<br/>còn hiệu lực"]
@@ -540,7 +540,7 @@ flowchart LR
   n_13_2023_Q__TTg -->|thay thế từ 2023-06-01| n_28_2020_Q__TTg
   n_173_2018_TT_BQP -->|thay thế từ 2019-01-01| n_40_2017_TT_BQP
   n_187_2013_N__CP -->|bãi bỏ từ 2018-06-15| n_09_2018_N__CP
-  n_25_2018_N__CP -->|sửa đổi| n_195_2013_N__CP
+  n_25_2018_N__CP -->|sửa đổi từ 2018-05-01| n_60_2014_N__CP
   n_292_2026_N__CP -->|thay thế từ 2026-09-05| n_69_2018_N__CP
   n_33_2025_TT_BCT -->|sửa đổi bãi bỏ điểm c khoản 2 Điều 3; thay thế Phụ lục I từ 2025-07-21| n_01_2018_TT_BCT
   n_34_2025_TT_BCT -->|sửa đổi từ 2025-07-21| n_02_2018_TT_BCT
@@ -610,7 +610,7 @@ flowchart LR
   n_26_2023_N__CP["26/2023/NĐ-CP<br/>còn hiệu lực"]
   n_206_2025_N__CP["206/2025/NĐ-CP<br/>còn hiệu lực"]
   n_127_2022_N__CP["127/2022/NĐ-CP<br/>hết hiệu lực"]
-  n_26_2015_TT_BTC["26/2015/TT-BTC<br/>còn hiệu lực"]
+  n_26_2015_TT_BTC["26/2015/TT-BTC<br/>hết hiệu lực"]
   n_219_2013_TT_BTC["219/2013/TT-BTC<br/>hết hiệu lực"]
   n_57_2020_N__CP["57/2020/NĐ-CP<br/>hết hiệu lực"]
   n_346_2025_N__CP["346/2025/NĐ-CP<br/>còn hiệu lực"]
