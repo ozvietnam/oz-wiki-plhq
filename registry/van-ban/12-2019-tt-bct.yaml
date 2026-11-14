@@ -20,4 +20,8 @@ xac_minh:
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'BỘ QUY TẮC XUẤT XỨ ACFTA (C/O form E) ĐANG ÁP DỤNG HÔM NAY: 4 chương 34 điều + 4 phụ lục (Phụ lục I = quy tắc cụ thể theo mặt hàng). Sửa đổi bởi TT 10/2022/TT-BCT (chưa nạp — điểm mù). LƯU Ý PHÂN BIỆT: TT 49/2025/TT-BCT là AKFTA (Hàn Quốc), KHÔNG phải ACFTA.'
-tu_khoa: [acfta, form-e, xuat-xu]
+tu_khoa:
+  - acfta
+  - form-e
+  - xuat-xu
+toan_van: raw/download/moit.gov.vn/12-2019-tt-bct.html

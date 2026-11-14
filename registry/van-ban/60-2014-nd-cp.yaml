@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 60/2014/NĐ-CP
 loai: NGHI_DINH
-ten: "Quy định về hoạt động in"
+ten: Quy định về hoạt động in
 co_quan: CP
 ngay_ban_hanh: '2014-06-19'
 hieu_luc_tu: '2014-11-01'
@@ -19,9 +19,13 @@ nguon:
     truy_cap: '2026-10-22'
 xac_minh:
   muc: NGUON_A
-  pham_vi: "Đối chiếu thẻ vanban.chinhphu.vn (docid=174499, Thủ tướng Nguyễn Tấn Dũng ký), toàn văn PDF ký số (60-nd.signed.pdf) và cổng Bộ KH&CN (mst.gov.vn/van-ban-phap-luat/10123.htm): hiệu đính tên chính thức thành 'Quy định về hoạt động in' (bản ghi cũ ghi nhầm là sửa đổi NĐ 195/2013/NĐ-CP), ban hành ngày 19-06-2014, có hiệu lực thi hành từ ngày 01-11-2014 (thay thế Nghị định 105/2007/NĐ-CP và Nghị định 72/2011/NĐ-CP); đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Nghị định 25/2018/NĐ-CP từ 01-05-2018 và Nghị định 72/2022/NĐ-CP từ 01-01-2023)"
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=174499, Thủ tướng Nguyễn Tấn Dũng ký), toàn văn PDF ký số (60-nd.signed.pdf) và cổng Bộ KH&CN (mst.gov.vn/van-ban-phap-luat/10123.htm): hiệu đính tên chính thức thành ''Quy định về hoạt động in'' (bản ghi cũ ghi nhầm là sửa đổi NĐ 195/2013/NĐ-CP), ban hành ngày 19-06-2014, có hiệu lực thi hành từ ngày 01-11-2014 (thay thế Nghị định 105/2007/NĐ-CP và Nghị định 72/2011/NĐ-CP); đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Nghị định 25/2018/NĐ-CP từ 01-05-2018 và Nghị định 72/2022/NĐ-CP từ 01-01-2023)'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: "Nghị định gốc quy định về hoạt động in (bao gồm nhập khẩu thiết bị in); được sửa đổi, bổ sung bởi NĐ 25/2018/NĐ-CP và NĐ 72/2022/NĐ-CP."
-tu_khoa: [xuat-ban, in, xuat-nhap-khau]
+ghi_chu: Nghị định gốc quy định về hoạt động in (bao gồm nhập khẩu thiết bị in); được sửa đổi, bổ sung bởi NĐ 25/2018/NĐ-CP và NĐ 72/2022/NĐ-CP.
+tu_khoa:
+  - xuat-ban
+  - in
+  - xuat-nhap-khau
+toan_van: raw/download/vanban.chinhphu.vn/60-2014-nd-cp.html
