@@ -8,10 +8,10 @@ nhanh:
   - bo-may
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, trích yếu, ngày ban hành/hiệu lực 08-07-2026 trên vanban.chinhphu.vn; người ký Phạm Thị Thanh Trà
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'số hiệu, trích yếu, ngày ban hành và có hiệu lực 08-07-2026 trên vanban.chinhphu.vn (docid=218832), người ký Phạm Thị Thanh Trà; đối chiếu toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/276-2026-nd-cp.pdf) còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: Bộ Nội vụ nay quản lý an toàn, vệ sinh lao động sau khi Bộ LĐ-TB&XH giải thể. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
 nguon:
   - url: https://vanban.chinhphu.vn/?classid=1&docid=218832&pageid=27160
