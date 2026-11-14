@@ -16,8 +16,8 @@ nguon:
     truy_cap: '2026-11-06'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Đã đối chiếu trực tiếp vanban.chinhphu.vn (docid 204477): số hiệu, tên nguyên văn đầy đủ (trích yếu và title trang chính phủ), cơ quan Chính phủ (ký Lê Minh Khái), ngày ban hành 16/11/2021, ngày hiệu lực 01/01/2022. Tình trạng còn hiệu lực theo TVPL (kết quả search). Danh sách NĐ được sửa đổi (125/2020 thuế-hóa đơn, 128/2020 hải quan v.v.) từ TVPL/luatvietnam, chưa đọc toàn văn từng điều sửa đổi. Có thông tin 1 nguồn (luatvietnam 5/2026) về NĐ 169/2026/NĐ-CP thay thế NĐ 128/2020 — chưa kiểm chứng, ảnh hưởng tới phần sửa hải quan của NĐ này.'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-06'
-  boi: zcode@ozvietnam
+  pham_vi: 'đối chiếu thẻ vanban.chinhphu.vn (docid=204477): số hiệu, tên nguyên văn đầy đủ, cơ quan Chính phủ (ký Lê Minh Khái), ngày ban hành 16-11-2021, ngày có hiệu lực 01-01-2022; tình trạng còn hiệu lực (sửa đổi các nghị định xử phạt VPHC lĩnh vực thuế, hóa đơn, hải quan; phần sửa NĐ 128/2020/NĐ-CP hết hiệu lực theo NĐ gốc từ 01-07-2026 khi NĐ 169/2026/NĐ-CP có hiệu lực)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Liên quan XNK trực tiếp: sửa đổi mức xử phạt VPHC lĩnh vực hải quan (NĐ 128/2020 — khai tờ khai, thủ tục hải quan hàng XNK) và thuế, hóa đơn; hợp nhất hải quan tại 23/VBHN-BTC 2022.'
