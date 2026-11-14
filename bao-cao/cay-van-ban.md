@@ -193,7 +193,6 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [04/2023/TT-BCT](../registry/van-ban/04-2023-tt-bct.yaml) — Hạn ngạch thuế quan NK thuốc lá, trứng gia cầm
 - 🟢 [15/2023/QĐ-TTg](../registry/van-ban/15-2023-qd-ttg.yaml) — Biểu thuế NK thông thường
 - 🟢 [112/2022/NĐ-CP](../registry/van-ban/112-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Chi Lê giai đoạn 2022 - 2027
-- ⚫ [127/2022/NĐ-CP](../registry/van-ban/127-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa dân chủ nhân dân Lào từ ngày 30 tháng 12 năm 2022 đến ngày 04 tháng 10 năm 2023 _(hết hiệu lực 2023-10-04)_
 - 🟢 [113/2022/NĐ-CP](../registry/van-ban/113-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi VN-EAEU
 - 🟢 [114/2022/NĐ-CP](../registry/van-ban/114-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi VN-Cuba
 - 🟢 [115/2022/NĐ-CP](../registry/van-ban/115-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi CPTPP
@@ -208,6 +207,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [124/2022/NĐ-CP](../registry/van-ban/124-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi VJEPA
 - 🟢 [125/2022/NĐ-CP](../registry/van-ban/125-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi VKFTA
 - 🟢 [126/2022/NĐ-CP](../registry/van-ban/126-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi ATIGA
+- ⚫ [127/2022/NĐ-CP](../registry/van-ban/127-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa dân chủ nhân dân Lào từ ngày 30 tháng 12 năm 2022 đến ngày 04 tháng 10 năm 2023 _(hết hiệu lực 2023-10-04)_
 - 🟢 [129/2022/NĐ-CP](../registry/van-ban/129-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi RCEP
 - 🟢 [41/2022/TT-BCT](../registry/van-ban/41-2022-tt-bct.yaml) — Quy tắc mặt hàng cụ thể EVFTA
 - ⚫ [53/2021/NĐ-CP](../registry/van-ban/53-2021-nd-cp.yaml) — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên hiệp Vương quốc Anh và Bắc Ai-len giai đoạn 2021 - 2022 _(hết hiệu lực 2022-12-30)_
@@ -237,10 +237,10 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 26 văn bản, 8 chưa hết hiệu lực.
 
 - 🟢 [112/2022/NĐ-CP](../registry/van-ban/112-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Chi Lê giai đoạn 2022 - 2027
-- ⚫ [127/2022/NĐ-CP](../registry/van-ban/127-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa dân chủ nhân dân Lào từ ngày 30 tháng 12 năm 2022 đến ngày 04 tháng 10 năm 2023 _(hết hiệu lực 2023-10-04)_
 - 🟢 [115/2022/NĐ-CP](../registry/van-ban/115-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi CPTPP
 - 🟢 [116/2022/NĐ-CP](../registry/van-ban/116-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi EVFTA
 - 🟢 [125/2022/NĐ-CP](../registry/van-ban/125-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi VKFTA
+- ⚫ [127/2022/NĐ-CP](../registry/van-ban/127-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa dân chủ nhân dân Lào từ ngày 30 tháng 12 năm 2022 đến ngày 04 tháng 10 năm 2023 _(hết hiệu lực 2023-10-04)_
 - 🟢 [41/2022/TT-BCT](../registry/van-ban/41-2022-tt-bct.yaml) — Quy tắc mặt hàng cụ thể EVFTA
 - ⚫ [53/2021/NĐ-CP](../registry/van-ban/53-2021-nd-cp.yaml) — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên hiệp Vương quốc Anh và Bắc Ai-len giai đoạn 2021 - 2022 _(hết hiệu lực 2022-12-30)_
 - ⚫ [111/2020/NĐ-CP](../registry/van-ban/111-2020-nd-cp.yaml) — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu giai đoạn 2020 - 2022 _(hết hiệu lực 2022-12-30)_
