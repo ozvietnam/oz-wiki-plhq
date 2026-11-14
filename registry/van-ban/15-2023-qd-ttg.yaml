@@ -3,7 +3,7 @@ so_hieu: 15/2023/QĐ-TTg
 loai: QUYET_DINH
 ten: Biểu thuế NK thông thường
 co_quan: TTG
-ngay_ban_hanh: '2023-01-01'
+ngay_ban_hanh: '2023-05-31'
 hieu_luc_tu: '2023-07-15'
 tinh_trang: CON_HIEU_LUC
 nhanh:
@@ -16,11 +16,11 @@ quan_he:
       can_cu: Điều 4 khoản 2 Quyết định 15/2023/QĐ-TTg
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
-  ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=207990) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/15-2023-qd-ttg.pdf, 4 Điều + Phụ lục): Quyết định 15/2023/QĐ-TTg ban hành 31-05-2023, có hiệu lực thi hành từ ngày 15-07-2023 theo khoản 1 Điều 4; khoản 2 Điều 4 bãi bỏ QĐ 36/2016/QĐ-TTg, QĐ 45/2017/QĐ-TTg và QĐ 28/2019/QĐ-TTg; đối chiếu đang còn hiệu lực quy định việc áp dụng thuế suất thông thường đối với hàng hóa nhập khẩu'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=207990&pageid=27160
     truy_cap: '2026-10-10'

@@ -3,7 +3,7 @@ so_hieu: 206/2025/NĐ-CP
 loai: NGHI_DINH
 ten: Biểu thuế NK ưu đãi VN-Lào
 co_quan: CP
-ngay_ban_hanh: '2025-01-01'
+ngay_ban_hanh: '2025-07-15'
 hieu_luc_tu: '2025-07-15'
 tinh_trang: CON_HIEU_LUC
 nhanh:
@@ -16,11 +16,11 @@ quan_he:
       can_cu: Điều 9 khoản 3 Nghị định 206/2025/NĐ-CP
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
-  ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=214630) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/206-2025-nd-cp.pdf, 10 Điều + Phụ lục I, II, III): Nghị định 206/2025/NĐ-CP ban hành 15-07-2025, có hiệu lực từ ngày ký ban hành 15-07-2025 đến hết ngày 24-02-2030 theo khoản 1 Điều 9 (khoản 3 Điều 9 bãi bỏ NĐ 127/2022/NĐ-CP); đối chiếu đang còn hiệu lực về Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Việt Nam - Lào giai đoạn 2025 - 2030'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=214630&pageid=27160
     truy_cap: '2026-10-10'
