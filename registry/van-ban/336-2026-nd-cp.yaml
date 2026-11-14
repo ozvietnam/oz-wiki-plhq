@@ -20,9 +20,9 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, trích yếu, ngày ban hành 22-08-2026 và ngày có hiệu lực 15-10-2026 trên vanban.chinhphu.vn; 16-10-2026 đã qua ngày hiệu lực, không thấy văn bản hoãn/sửa trên nguồn → chuyển CON_HIEU_LUC
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-16'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'số hiệu, trích yếu, ngày ban hành 22-08-2026 và ngày có hiệu lực 15-10-2026 trên vanban.chinhphu.vn (docid=219265); đối chiếu toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/336-2026-nd-cp.pdf): Điều 48 khoản 2 có hiệu lực từ 15-10-2026 và thay thế 85/2019/NĐ-CP'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: Thẻ cổng Chính phủ khớp ngày và người ký Nguyễn Văn Thắng. PDF đính kèm là bản ký số. Quan hệ thay thế 85/2019/NĐ-CP giữ từ sổ cũ; điều khoản chưa đọc trên nguồn A nên chưa đặt hieu_luc_da_doi_chieu. Đã có hiệu lực từ 15-10-2026 (kiểm lại 16-10-2026); điều khoản chưa đọc trên nguồn A nên hieu_luc_da_doi_chieu vẫn false.
 toan_van: raw/download/datafiles.chinhphu.vn/336-2026-nd-cp.pdf
