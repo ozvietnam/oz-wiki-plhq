@@ -3,7 +3,7 @@ so_hieu: 126/2022/NĐ-CP
 loai: NGHI_DINH
 ten: Biểu thuế NK ưu đãi ATIGA
 co_quan: CP
-ngay_ban_hanh: '2022-01-01'
+ngay_ban_hanh: '2022-12-30'
 hieu_luc_tu: '2022-12-30'
 tinh_trang: CON_HIEU_LUC
 nhanh:
@@ -13,10 +13,10 @@ quan_he:
     - 156/2017/NĐ-CP
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=207159) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/126-2022-nd-cp.pdf): ban hành 30-12-2022, có hiệu lực từ 30-12-2022 đến hết 31-12-2027, thay thế Nghị định 156/2017/NĐ-CP'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
   ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=207159&pageid=27160

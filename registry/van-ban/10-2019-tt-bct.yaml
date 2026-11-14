@@ -10,10 +10,10 @@ nhanh:
   - xuat-xu-fta/quy-tac-xuat-xu
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=197774) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/10-2019-tt-bct.pdf): ban hành 22-07-2019, có hiệu lực từ 05-09-2019 theo Điều 2, sửa đổi Điều 2 Thông tư 22/2016/TT-BCT'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
   ghi_chu: 'Crawl từ vanban.chinhphu.vn docid=197774'
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=197774&pageid=27160

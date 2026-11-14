@@ -11,10 +11,10 @@ nhanh:
   - xuat-xu-fta/hiep-dinh/cptpp
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=208887) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/77-2023-nd-cp.pdf): ban hành 02-11-2023, có hiệu lực từ 01-01-2024 theo khoản 1 Điều 22, quy định quản lý nhập khẩu hàng hóa tân trang theo Hiệp định CPTPP'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
   ghi_chu: 'Crawl từ vanban.chinhphu.vn docid=208887'
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=208887&pageid=27160
