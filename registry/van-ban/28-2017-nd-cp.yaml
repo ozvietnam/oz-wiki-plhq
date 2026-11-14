@@ -1,25 +1,29 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 28/2017/NĐ-CP
 loai: NGHI_DINH
-ten: "Sửa đổi, bổ sung một số điều của Nghị định số 131/2013/NĐ-CP quy định xử phạt vi phạm hành chính về quyền tác giả, quyền liên quan và Nghị định số 158/2013/NĐ-CP quy định xử phạt vi phạm hành chính trong lĩnh vực văn hóa, thể thao, du lịch và quảng cáo"
+ten: Sửa đổi, bổ sung một số điều của Nghị định số 131/2013/NĐ-CP quy định xử phạt vi phạm hành chính về quyền tác giả, quyền liên quan và Nghị định số 158/2013/NĐ-CP quy định xử phạt vi phạm hành chính trong lĩnh vực văn hóa, thể thao, du lịch và quảng cáo
 co_quan: CP
-ngay_ban_hanh: "2017-03-20"
-hieu_luc_tu: "2017-05-05"
+ngay_ban_hanh: '2017-03-20'
+hieu_luc_tu: '2017-05-05'
 tinh_trang: CON_HIEU_LUC
-nhanh: [hai-quan/kiem-tra-giam-sat]
+nhanh:
+  - hai-quan/kiem-tra-giam-sat
 quan_he:
   sua_doi:
     - so_hieu: 131/2013/NĐ-CP
-      tu_ngay: "2017-05-05"
+      tu_ngay: '2017-05-05'
     - so_hieu: 158/2013/NĐ-CP
-      tu_ngay: "2017-05-05"
+      tu_ngay: '2017-05-05'
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=188924
-    truy_cap: "2026-10-29"
+    truy_cap: '2026-10-29'
 xac_minh:
   muc: NGUON_A
-  pham_vi: "thẻ vanban.chinhphu.vn (docid=188924): số hiệu, tiêu đề, ngày ban hành 20-03-2017, có hiệu lực từ 05-05-2017; đối chiếu còn hiệu lực, sửa đổi, bổ sung một số điều của Nghị định 131/2013/NĐ-CP và Nghị định 158/2013/NĐ-CP"
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=188924): số hiệu, tiêu đề, ngày ban hành 20-03-2017, có hiệu lực từ 05-05-2017; đối chiếu còn hiệu lực, sửa đổi, bổ sung một số điều của Nghị định 131/2013/NĐ-CP và Nghị định 158/2013/NĐ-CP'
   hieu_luc_da_doi_chieu: true
-  ngay: "2026-11-14"
+  ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-tu_khoa: [quyen-tac-gia, xu-phat]
+tu_khoa:
+  - quyen-tac-gia
+  - xu-phat
+toan_van: raw/download/vanban.chinhphu.vn/28-2017-nd-cp.html
