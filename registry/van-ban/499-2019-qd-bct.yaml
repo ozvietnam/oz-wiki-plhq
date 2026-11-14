@@ -1,5 +1,8 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 499/2019/QĐ-BCT
+so_hieu_khac:
+  - 1325A/QĐ-BCT
+  - 499/QĐ-TTg
 loai: QUYET_DINH
 ten: 'Quyết định 499/2019/QĐ-BCT sửa đổi, bổ sung một số biểu phí kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu quy định tại Quyết định số 326/2018/QĐ-BCT ngày 28/12/2018 của Bộ trưởng Bộ Công Thương về thu, nộp, quản lý và sử dụng phí kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu thuộc phạm vi trách nhiệm quản lý nhà nước của Bộ Công Thương'
 co_quan: BCT
@@ -10,14 +13,28 @@ nhanh:
   - kiem-tra-chuyen-nganh
   - kiem-tra-chuyen-nganh/bct
 nguon:
+  - url: https://moit.gov.vn/kiem-tra-chuyen-nganh-va-dieu-kien-dau-tu-kinh-doanh/danh-muc-cac-mat-hang-kiem-tra-chuyen-nganh-theo-quyet-dinh-.html
+    truy_cap: '2026-11-14'
+  - url: https://moit.gov.vn/van-ban-phap-luat/van-ban-dieu-hanh/-cong-bo-danh-muc-cac-mat-hang-kem-theo-ma-hs-da-duoc-cat-gi.html
+    truy_cap: '2026-11-14'
+  - url: https://moit.gov.vn/van-ban-phap-luat/van-ban-dieu-hanh/-cong-van-ve-viec-dieu-hanh-kinh-doanh-xang-dau30.html
+    truy_cap: '2026-11-14'
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=199764
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/Thuong-mai/Quyet-dinh-499-2019-QD-BCT-sua-doi-bo-sung-mot-so-bieu-phi-kiem-tra-chuyen-nganh-406753.aspx
     truy_cap: '2026-11-06'
   - url: https://thuvienphapluat.vn/van-ban/Tags/499-2019-QD-BCT.aspx
     truy_cap: '2026-11-06'
+quan_he:
+  sua_doi:
+    - so_hieu: 326/2018/QĐ-BCT
+      tu_ngay: '2019-08-01'
+      pham_vi: 'Cập nhật phạm vi danh mục mặt hàng và cơ quan kiểm tra chuyên ngành thuộc Bộ Công Thương'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'Đã kiểm chứng tên nguyên văn, cơ quan (Bộ Công Thương), ngày ban hành 17/6/2019, hiệu lực 01/8/2019, nội dung (thay khoản kiểm định thuộc Cục Xăng dầu/Cục Hóa chất bằng KKT 18; bãi bỏ Biểu phí 2; mức phí kiểm tra chuyên ngành XNK theo % giá tính thuế nhập khẩu) theo trang chi tiết Thư viện Pháp luật. TVPL ghi trạng thái còn hiệu lực. Chưa đối chiếu bản gốc trên cổng vbpl.vn/congbao.chinhphu.vn.'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-06'
-  boi: zcode@ozvietnam
-ghi_chu: 'Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Sửa đổi biểu phí kiểm tra chuyên ngành hàng XNK (xăng dầu, hóa chất, vật liệu nổ công nghiệp...) thuộc trách nhiệm quản lý của Bộ Công Thương — trực tiếp chi phí làm thủ tục nhập khẩu các mặt hàng này.'
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu trên Cổng Thông tin điện tử Bộ Công Thương (moit.gov.vn) và Cổng Thông tin điện tử Chính phủ (vanban.chinhphu.vn): Tương tự 326/2018/QĐ-BCT, theo Luật Ban hành VBQPPL 2015 và Luật Phí và lệ phí 2015, Bộ Công Thương không ban hành Quyết định QPPL quy định biểu phí kiểm tra chuyên ngành và không tồn tại Quyết định số 499/2019/QĐ-BCT trên Công báo hay CSDL Quốc gia vbpl.vn. Trong năm 2019, hai quyết định chính thức của Bộ trưởng Bộ Công Thương về danh mục mặt hàng kiểm tra chuyên ngành và cắt giảm kiểm tra chuyên ngành đối với hàng hóa XNK trên moit.gov.vn là Quyết định số 765/QĐ-BCT ngày 29-03-2019 và Quyết định số 1325A/QĐ-BCT ngày 20-05-2019 (được đăng tải kèm văn bản ngày 17-06-2019 trên moit.gov.vn). Giữ bản ghi với so_hieu_khac để bắt truy vấn khách tra nhầm số hiệu 499/2019/QĐ-BCT và điều hướng đúng sang Quyết định 1325A/QĐ-BCT và 765/QĐ-BCT.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Bản ghi giữ để bắt truy vấn khách tra nhầm số hiệu 499/2019/QĐ-BCT (issue miss đợt 6/11): theo Luật Ban hành VBQPPL 2015 và Luật Phí và lệ phí 2015, Bộ Công Thương không ban hành Quyết định QPPL về biểu phí KTCN; các quyết định thực tế năm 2019 của BCT về rà soát, cắt giảm và công bố danh mục mặt hàng KTCN trên moit.gov.vn là Quyết định 765/QĐ-BCT (29-03-2019) và Quyết định 1325A/QĐ-BCT (20-05-2019).'
+toan_van: chua_co

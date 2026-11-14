@@ -1,15 +1,31 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 05/2022/TT-BYT
 loai: THONG_TU
-ten: Thông tư về thiết bị y tế (được TT 24/2026/TT-BYT sửa đổi)
+ten: 'Quy định chi tiết thi hành một số điều của Nghị định số 98/2021/NĐ-CP ngày 08 tháng 11 năm 2021 của Chính phủ về quản lý trang thiết bị y tế'
 co_quan: BYT
+ngay_ban_hanh: '2022-08-01'
+hieu_luc_tu: '2022-08-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
+nguon:
+  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-05-2022-tt-byt-quy-dinh-chi-tiet-thi-hanh-mot-so-dieu-cua-nghi-dinh-so-98-2021-nd-cp-ngay-08-thang-11-nam-2021-cua-chinh-phu-ve-quan-ly-trang-thiet-bi-y-te--155154
+    truy_cap: '2026-11-14'
+  - url: https://imda.moh.gov.vn/documents/10182/47526191/upload_00026063_1696920344963.pdf?version=1.0&fileId=47567770
+    truy_cap: '2026-11-14'
+  - url: https://vanban.chinhphu.vn/?docid=218703&pageid=27160
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/24-byt.signed.pdf
+    truy_cap: '2026-11-14'
+quan_he:
+  huong_dan:
+    - so_hieu: 98/2021/NĐ-CP
+      can_cu: 'Phần Căn cứ và Điều 1 Thông tư 05/2022/TT-BYT'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: theo bài tổng hợp, chưa mở văn bản gốc
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: Tên đầy đủ chưa xác minh. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu trên CSDL Quốc gia về VBPL (vbpl.vn ID 155154), Cục Cơ sở hạ tầng và Thiết bị y tế - Bộ Y tế (imda.moh.gov.vn) và toàn văn PDF ký số Thông tư 24/2026/TT-BYT trên Cổng Chính phủ (vanban.chinhphu.vn docid=218703, 24-byt.signed.pdf): Thông tư số 05/2022/TT-BYT ban hành và có hiệu lực từ ngày 01-08-2022, quy định chi tiết thi hành một số điều của Nghị định 98/2021/NĐ-CP về quản lý trang thiết bị y tế (phân loại TTB y tế, danh mục TTB y tế phải kiểm định an toàn và tính năng kỹ thuật, danh mục TTB y tế cấp giấy phép nhập khẩu). Văn bản hiện đang còn hiệu lực thi hành; Điều 8 về lộ trình kiểm định từng được sửa đổi bởi Thông tư 59/2025/TT-BYT ngày 31-12-2025 và nay được sửa đổi, bổ sung bởi Điều 3 Thông tư 24/2026/TT-BYT ngày 30-06-2026 (hiệu lực từ 01-07-2026, đồng thời bãi bỏ Thông tư 59/2025/TT-BYT).'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Quy định quy tắc phân loại, danh mục trang thiết bị y tế thuộc diện kiểm định an toàn và tính năng kỹ thuật, danh mục TTB y tế mua bán như hàng hóa thông thường và hồ sơ, thủ tục công bố/lưu hành theo Nghị định 98/2021/NĐ-CP; Điều 8 được sửa đổi bởi Điều 3 Thông tư 24/2026/TT-BYT.'
+toan_van: chua_co

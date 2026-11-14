@@ -1,20 +1,27 @@
 # Sổ đăng ký văn bản — từ sheet HT biểu thuế
 so_hieu: 03/2019/TT-BCT
 loai: THONG_TU
-ten: Quy tắc mặt hàng cụ thể CPTPP
+ten: 'Quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương'
 co_quan: BCT
-ngay_ban_hanh: '2019-01-01'
-hieu_luc_tu: '2019-01-22'
+ngay_ban_hanh: '2019-01-22'
+hieu_luc_tu: '2019-03-08'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/bieu-thue
   - xuat-xu-fta/hiep-dinh/cptpp
   - thue/bieu-thue-xnk
+nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=196497
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/03/03-bct.signed.pdf
+    truy_cap: '2026-11-14'
+  - url: https://moit.gov.vn/van-ban-phap-luat/van-ban-phap-quy/-thong-tu-quy-dinh-quy-tac-xuat-xu-hang-hoa-trong-hiep-dinh-3.html
+    truy_cap: '2026-11-14'
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
-  ghi_chu: 'Không crawl được PDF. Cần tìm từ nguồn bậc A khác.'
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu toàn văn PDF ký số (03-bct.signed.pdf) trên Cổng Thông tin điện tử Chính phủ (vanban.chinhphu.vn docid=196497) và Cổng Bộ Công Thương (moit.gov.vn): Thông tư số 03/2019/TT-BCT do Bộ trưởng Trần Tuấn Anh ký ban hành ngày 22-01-2019 (bản ghi cũ để ngày giả định 2019-01-01 và gắn nhầm ngày ban hành 2019-01-22 vào hieu_luc_tu), có hiệu lực thi hành từ ngày 08-03-2019 theo khoản 1 Điều 33. Văn bản gồm 4 chương, 33 điều và 8 phụ lục (kèm Phụ lục I Quy tắc cụ thể mặt hàng PSR theo HS 2012), hiện đang còn hiệu lực thi hành và được sửa đổi, bổ sung một số điều bởi Thông tư số 06/2020/TT-BCT ngày 24-03-2020 (hiệu lực từ 08-05-2020).'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Thông tư nội luật hóa quy tắc xuất xứ hàng hóa và thủ tục chứng nhận xuất xứ (C/O mẫu CPTPP) trong Hiệp định CPTPP; được sửa đổi, bổ sung bởi Thông tư 06/2020/TT-BCT ngày 24-03-2020 (chưa có trong sổ).'
 toan_van: chua_co

@@ -1,20 +1,27 @@
 # Sổ đăng ký văn bản — từ sheet HT biểu thuế
 so_hieu: 11/2018/TT-BCT
 loai: THONG_TU
-ten: Quy tắc mặt hàng cụ thể VNEAEUFTA
+ten: 'Sửa đổi, bổ sung Thông tư số 21/2016/TT-BCT ngày 20 tháng 9 năm 2016 của Bộ trưởng Bộ Công Thương quy định thực hiện Quy tắc xuất xứ hàng hóa trong Hiệp định Thương mại tự do giữa Việt Nam và Liên minh Kinh tế Á Âu'
 co_quan: BCT
-ngay_ban_hanh: '2018-01-01'
-hieu_luc_tu: '2018-05-29'
+ngay_ban_hanh: '2018-05-29'
+hieu_luc_tu: '2018-07-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/bieu-thue
   - xuat-xu-fta/hiep-dinh/vcfeta
   - thue/bieu-thue-xnk
+nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=193969
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/06/11-bct.zip
+    truy_cap: '2026-11-14'
+  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-11-2018-tt-bct-sua-doi-bo-sung-thong-tu-so-21-2016-tt-bct-ngay-20-thang-9-nam-2016-cua-bo-truong-bo-cong-thuong-quy-dinh-thuc-hien-quy-tac-xuat-xu-hang-hoa-trong-hiep-dinh-thuong-mai-tu-do-giua-viet-nam-va-lien-minh-kinh-te-a-au--129235
+    truy_cap: '2026-11-14'
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
-  ghi_chu: 'Không crawl được PDF. Cần tìm từ nguồn bậc A khác.'
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu tệp gốc ký số (11-bct.zip: TT 11 2018 TT BCT signed.pdf + PL TT 11 PSR.pdf) trên Cổng Thông tin điện tử Chính phủ (vanban.chinhphu.vn docid=193969) và CSDL Quốc gia về VBPL (vbpl.vn ID 129235): Thông tư số 11/2018/TT-BCT do Bộ trưởng Trần Tuấn Anh ký ban hành ngày 29-05-2018 (bản ghi cũ để ngày giả định 2018-01-01 và gắn nhầm ngày ban hành 2018-05-29 vào hieu_luc_tu), có hiệu lực thi hành từ ngày 01-07-2018 theo khoản 1 Điều 2. Điều 1 thay thế Phụ lục II (Quy tắc cụ thể mặt hàng - PSR chuyển đổi sang HS 2017) ban hành kèm theo Thông tư số 21/2016/TT-BCT ngày 20-09-2016. Văn bản hiện đang còn hiệu lực thi hành.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Thay thế Phụ lục II (Quy tắc cụ thể mặt hàng - PSR theo Danh mục HS 2017) của Thông tư 21/2016/TT-BCT (chưa có trong sổ) thực hiện Hiệp định VN-EAEU FTA.'
 toan_van: chua_co

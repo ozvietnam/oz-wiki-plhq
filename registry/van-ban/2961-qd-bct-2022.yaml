@@ -1,20 +1,32 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 2961/QĐ-BCT
 loai: QUYET_DINH
-ten: Sửa đổi, bổ sung Quyết định số 1578/QĐ-BCT ngày 15 tháng 6 năm 2021 của Bộ trưởng Bộ Công Thương áp dụng thuế chống bán phá giá và thuế chống trợ cấp chính thức đối với một số sản phẩm đường mía
+ten: 'Về việc sửa đổi, bổ sung Quyết định số 1578/QĐ-BCT ngày 15 tháng 6 năm 2021 của Bộ trưởng Bộ Công Thương về việc áp dụng thuế chống bán phá giá và thuế chống trợ cấp chính thức đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan'
 co_quan: BCT
 ngay_ban_hanh: '2022-12-30'
 hieu_luc_tu: '2022-12-30'
-tinh_trang: CHUA_XAC_MINH
+het_hieu_luc_tu: '2026-06-16'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong/giay-phep
   - phong-ve-thuong-mai/chong-ban-pha-gia
 nguon:
+  - url: https://moit.gov.vn/upload/2005517/fck/files/QD_ket_qua_ra_soat_ER01_AD13-AS01_d2370.pdf
+    truy_cap: '2026-11-14'
+  - url: https://moit.gov.vn/tin-tuc/bo-cong-thuong-ban-hanh-quyet-dinh-ve-ket-qua-ra-soat-cuoi-ky-viec-ap-dung-bien-phap-chong-ban-pha-gia-va-chong-tro-cap-.html
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/Thuong-mai/Quyet-dinh-2961-QD-BCT-2022-sua-doi-Quyet-dinh-1578-QD-BCT-thue-chong-ban-pha-duong-mia-553571.aspx
     truy_cap: '2026-10-04'
+quan_he:
+  sua_doi:
+    - so_hieu: 1578/QĐ-BCT
+      tu_ngay: '2022-12-30'
+      pham_vi: 'Sửa đổi, bổ sung một số nội dung của Quyết định 1578/QĐ-BCT ngày 15-06-2021 về áp dụng thuế CBPG và thuế CTC chính thức đối với sản phẩm đường mía từ Thái Lan'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu toàn văn PDF Quyết định số 1309/QĐ-BCT ngày 02-06-2026 trên Cổng Bộ Công Thương (moit.gov.vn: QD_ket_qua_ra_soat_ER01_AD13-AS01_d2370.pdf): tại phần Căn cứ và khoản 2 Điều 3 Quyết định 1309/QĐ-BCT dẫn nguyên văn Quyết định số 2961/QĐ-BCT ngày 30-12-2022 của Bộ trưởng Bộ Công Thương về việc sửa đổi, bổ sung Quyết định số 1578/QĐ-BCT ngày 15-06-2021 về việc áp dụng thuế chống bán phá giá và thuế chống trợ cấp chính thức đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan. Theo Điều 2 và khoản 2 Điều 3 Quyết định 1309/QĐ-BCT, Quyết định 2961/QĐ-BCT hết hiệu lực thi hành kể từ ngày 16-06-2026.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Sửa đổi, bổ sung Quyết định 1578/QĐ-BCT trong chuỗi vụ việc AD13-AS01 (đường mía Thái Lan); đã hết hiệu lực từ ngày 16-06-2026 theo khoản 2 Điều 3 Quyết định 1309/QĐ-BCT ngày 02-06-2026 về kết quả rà soát cuối kỳ (ER01.AD13-AS01).'
+toan_van: chua_co
