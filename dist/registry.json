@@ -30748,6 +30748,7 @@
       "ten": "Quy định về hoạt động kiểm tra chuyên ngành",
       "co_quan": "CP",
       "ngay_ban_hanh": "2025-08-05",
+      "hieu_luc_tu": "2025-08-05",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/khung-chat-luong"
@@ -30764,10 +30765,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 05-08-2025, hiệu lực kể từ ngày ký (chinhphu docid=214813 + TVPL); khung KTCN sau sắp xếp bộ máy: mục đích, thẩm quyền, nhiệm vụ, quyền hạn — ngày hiệu lực cụ thể chưa đối chiếu",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-29",
-        "boi": "zcode@ozvietnam"
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=214813, người ký Phó Thủ tướng Thường trực Nguyễn Hòa Bình, tệp đính kèm 217-cp.signed.pdf): Nghị định 217/2025/NĐ-CP của Chính phủ quy định về hoạt động kiểm tra chuyên ngành, ban hành ngày 05-08-2025, có hiệu lực thi hành kể từ ngày ký ban hành 05-08-2025; đối chiếu đang còn hiệu lực (không có văn bản thay thế hoặc bãi bỏ trong sổ)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trinh thám 29/10 — khung pháp lý KTCN đứng trên khung 3 mức rủi ro NĐ 37/2026; cần rà quan hệ với NĐ 37/2026 khi đối chiếu toàn văn.",
       "slug": "217-2025-nd-cp",
@@ -36568,20 +36569,20 @@
       "loai": "NGHI_DINH",
       "ten": "Biểu thuế xuất khẩu (sửa)",
       "co_quan": "CP",
-      "ngay_ban_hanh": "2025-01-01",
-      "hieu_luc_tu": "2025-07-15",
+      "ngay_ban_hanh": "2025-10-10",
+      "hieu_luc_tu": "2025-10-10",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "thue/bieu-thue"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=215575) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/260-2025-nd-cp.pdf, 2 Điều + Phụ lục, người ký Phó Thủ tướng Hồ Đức Phớc): Nghị định 260/2025/NĐ-CP ban hành 10-10-2025, có hiệu lực thi hành kể từ ngày ký ban hành 10-10-2025 theo khoản 1 Điều 2; đối chiếu đang còn hiệu lực, sửa đổi mức thuế suất thuế xuất khẩu (về 0%) đối với một số mặt hàng thuộc nhóm 71.13, 71.14 và 71.15 tại Phụ lục I Nghị định 26/2023/NĐ-CP",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/default.aspx?docid=215575&pageid=27160",
@@ -43252,14 +43253,14 @@
       "co_quan": "BTTTT",
       "ngay_ban_hanh": "2015-10-29",
       "hieu_luc_tu": "2015-12-15",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, trích yếu, ngày ban hành 29-10-2015, ngày có hiệu lực 15-12-2015 trên vanban.chinhphu.vn (docid=182728)",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=182728), toàn văn PDF/OCR (raw/download/datafiles.chinhphu.vn/31-2015-tt-btttt.pdf, wiki/sources/31-2015-tt-btttt.md, 4 Chương 9 Điều + Phụ lục 01, 02, 03, người ký Bộ trưởng Nguyễn Bắc Sơn) và cạnh ngược trong sổ: Thông tư 31/2015/TT-BTTTT ban hành 29-10-2015, có hiệu lực từ 15-12-2015 theo khoản 1 Điều 8 (khoản 2 Điều 8 thay thế TT 11/2012/TT-BTTTT); hết hiệu lực một phần từ ngày 30-11-2018 khi Điều 3 và Phụ lục số 01 bị thay thế bởi khoản 2 Điều 3 Thông tư 11/2018/TT-BTTTT",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
@@ -43291,6 +43292,7 @@
       "ten": "Quy định chi tiết Luật Quản lý ngoại thương về xuất xứ hàng hoá",
       "co_quan": "CP",
       "ngay_ban_hanh": "2018-03-08",
+      "hieu_luc_tu": "2018-03-08",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "xuat-xu-fta/quy-tac-xuat-xu"
@@ -43302,10 +43304,10 @@
       },
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=193105, người ký Thủ tướng Nguyễn Xuân Phúc, tệp đính kèm 31.signed.pdf) và quan hệ trong sổ: Nghị định 31/2018/NĐ-CP của Chính phủ quy định chi tiết Luật Quản lý ngoại thương (05/2017/QH14) về xuất xứ hàng hóa, ban hành ngày 08-03-2018, có hiệu lực thi hành kể từ ngày ký ban hành 08-03-2018; đối chiếu đang còn hiệu lực (không có văn bản thay thế hoặc bãi bỏ trong sổ)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
       "nguon": [
@@ -43325,7 +43327,7 @@
       "co_quan": "BCT",
       "ngay_ban_hanh": "2018-10-05",
       "hieu_luc_tu": "2018-11-20",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
@@ -43337,10 +43339,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "Công báo Số 1015 + 1016 ngày 01-11-2018 (id=27507/24174), toàn văn PDF/txt (raw/download/congbaocdn.chinhphu.vn/31-2018-tt-bct.pdf, wiki/sources/31-2018-tt-bct.md, 3 Điều + Phụ lục 3, người ký Bộ trưởng Trần Tuấn Anh) và cạnh ngược trong sổ: Thông tư 31/2018/TT-BCT ban hành 05-10-2018, có hiệu lực từ 20-11-2018 theo khoản 1 Điều 3 (sửa đổi, bổ sung một số điều của TT 27/2013/TT-BCT; Điều 2 bãi bỏ điểm d khoản 1 Điều 12, Phụ lục 3 TT 27/2013/TT-BCT, Điều 6 TT 06/2015/TT-BCT và Điều 10 TT 04/2016/TT-BCT); hết hiệu lực một phần từ ngày 05-02-2020 khi khoản 20 Điều 1 bị bãi bỏ bởi điểm c khoản 2 Điều 37 Thông tư 42/2019/TT-BCT",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "31-2018-tt-bct",
       "bac_nguon_cao_nhat": "A",
@@ -44032,16 +44034,17 @@
       "ten": "Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Y tế",
       "co_quan": "CP",
       "ngay_ban_hanh": "2026-08-08",
+      "hieu_luc_tu": "2026-08-18",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "bo-may"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=219136, người ký Phó Thủ tướng Phạm Thị Thanh Trà, tệp đính kèm 313_2026_nd-cp_08082026_1-signed-1-.signed.pdf): Nghị định 313/2026/NĐ-CP của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Y tế, ban hành ngày 08-08-2026, có hiệu lực thi hành từ ngày 18-08-2026; đối chiếu đang còn hiệu lực (không có văn bản thay thế hoặc bãi bỏ trong sổ)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
       "nguon": [
@@ -48052,7 +48055,7 @@
       "co_quan": "BCT",
       "ngay_ban_hanh": "2016-12-23",
       "hieu_luc_tu": "2017-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
@@ -48068,10 +48071,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=188443), Công báo (id=21937/16323), toàn văn PDF/OCR (raw/download/datafiles.chinhphu.vn/33-2016-tt-bct.pdf, wiki/sources/33-2016-tt-bct.md, 2 Điều, người ký Bộ trưởng Trần Tuấn Anh) và cạnh ngược trong sổ: Thông tư 33/2016/TT-BCT ban hành 23-12-2016, có hiệu lực từ 01-01-2017 theo Điều 2 (sửa đổi Điều 2 TT 36/2015/TT-BCT và một số mục của QCVN 09:2015/BCT đối với sản phẩm khăn giấy và giấy vệ sinh); hết hiệu lực một phần từ ngày 05-02-2020 khi khoản 6 Điều 1 bị bãi bỏ bởi điểm a khoản 2 Điều 37 Thông tư 42/2019/TT-BCT (phần còn hiệu lực được hợp nhất tại 136/2026/VBHN-TT-BCT)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "33-2016-tt-bct",
       "bac_nguon_cao_nhat": "A",
@@ -48101,10 +48104,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=208028, người ký Thứ trưởng Nguyễn Đức Chi, tệp đính kèm 33-btc.signed.pdf) và cạnh ngược trong sổ: Thông tư 33/2023/TT-BTC của Bộ trưởng Bộ Tài chính quy định về xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu, ban hành ngày 31-05-2023, có hiệu lực thi hành từ ngày 15-07-2023; đối chiếu đang còn hiệu lực, đã được bổ sung khoản 10 Điều 15 kể từ ngày 22-08-2026 bởi Điều 1 Thông tư 124/2026/TT-BTC",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
       "nguon": [
@@ -50623,16 +50626,17 @@
       "ten": "Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương",
       "co_quan": "CP",
       "ngay_ban_hanh": "2026-09-11",
+      "hieu_luc_tu": "2026-09-15",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "bo-may"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=219447, người ký Phó Thủ tướng Phạm Gia Túc, tệp đính kèm 351_2026_nd-cp_11092026_1-signed.signed.pdf): Nghị định 351/2026/NĐ-CP của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương, ban hành ngày 11-09-2026, có hiệu lực thi hành từ ngày 15-09-2026; đối chiếu đang còn hiệu lực (không có văn bản thay thế hoặc bãi bỏ trong sổ)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
       "nguon": [
@@ -51029,7 +51033,7 @@
     {
       "so_hieu": "354/2026/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Xây dựng",
+      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 33/2025/NĐ-CP ngày 25 tháng 02 năm 2025 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Xây dựng",
       "co_quan": "CP",
       "ngay_ban_hanh": "2026-09-11",
       "hieu_luc_tu": "2026-09-15",
@@ -51039,10 +51043,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=219446, người ký Phó Thủ tướng Phạm Gia Túc, tệp đính kèm 354_2026_nd-cp_11092026-signed.signed.pdf): Nghị định 354/2026/NĐ-CP của Chính phủ sửa đổi, bổ sung một số điều của Nghị định 33/2025/NĐ-CP ngày 25-02-2025 quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Xây dựng, ban hành ngày 11-09-2026, có hiệu lực thi hành từ ngày 15-09-2026; đối chiếu đang còn hiệu lực (không có văn bản thay thế hoặc bãi bỏ trong sổ)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Bộ Xây dựng gồm phần việc Bộ GTVT cũ (Cục Đăng kiểm VN, Cục Hàng hải và Đường thuỷ VN, Cục Đường bộ VN, Cục Hàng không VN). Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
       "nguon": [
