@@ -1,21 +1,24 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 83/2026/TT-BTC
 loai: THONG_TU
-ten: 'Quy định tiêu chuẩn hoạt động đại lý làm thủ tục hải quan, tiêu chuẩn nhân viên đại lý làm thủ tục hải quan; tổ chức thi, cấp và thu hồi chứng chỉ'
+ten: 'Quy định tiêu chuẩn hoạt động đại lý làm thủ tục hải quan, tiêu chuẩn nhân viên đại lý làm thủ tục hải quan; tổ chức thi, cấp chứng chỉ nghiệp vụ khai hải quan; quản lý hoạt động đại lý làm thủ tục hải quan, nhân viên đại lý làm thủ tục hải quan'
 co_quan: BTC
 ngay_ban_hanh: '2026-06-30'
+hieu_luc_tu: '2026-07-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - hai-quan/thu-tuc
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=218769
-    truy_cap: '2026-11-10'
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/83-btc.signed.pdf
+    truy_cap: '2026-11-14'
   - url: https://kv03.customs.gov.vn/index.jsp?pageId=228&aid=218124&cid=1631
     truy_cap: '2026-11-10'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + ngày ban hành 30-06-2026, hiệu lực 01-07-2026 (vanban.chinhphu.vn docid 218769 + TCHQ KV03)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-10'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh sát đêm 10/11. Đại lý HQ chuyển quản lý giấy phép → tiêu chuẩn (Luật HQ 2025) — đụng trực tiếp luồng khai báo hộ của khách ủy thác. Ưu tiên đối chiếu lên A.'
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=218769), toàn văn PDF ký số (83-btc.signed.pdf, 29 trang, 4 chương 16 điều và Phụ lục 8 biểu mẫu, Thứ trưởng Nguyễn Đức Chi ký) và cổng Cục Hải quan KV03: ban hành 30-06-2026, có hiệu lực từ 01-07-2026 (khoản 1 Điều 15); khoản 2 Điều 15 bãi bỏ toàn bộ Thông tư 12/2015/TT-BTC, Thông tư 22/2019/TT-BTC và Thông tư 25/2026/TT-BTC kể từ ngày 01-07-2026'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Trinh sát đêm 10/11, đối chiếu nguồn A ngày 14/11. Đại lý HQ chuyển quản lý công nhận → tiêu chuẩn thông báo (Luật HQ sửa đổi bởi Luật 90/2025/QH15). Lưu ý: khoản 2 Điều 15 bãi bỏ toàn bộ 12/2015/TT-BTC, 22/2019/TT-BTC và 25/2026/TT-BTC từ 01-07-2026 (cần cập nhật tinh_trang của 12/2015/TT-BTC và 25/2026/TT-BTC sang HET_HIEU_LUC ở thẻ riêng trước khi nối quan_he.bai_bo).'

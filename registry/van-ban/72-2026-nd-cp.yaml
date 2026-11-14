@@ -22,13 +22,9 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Công báo số 157 ngày 24-03-2026: Điều 2 khoản 1 hiệu lực từ ngày ký đến 30-04-2026 (văn bản có thời hạn), khoản 2 cho kéo dài bằng nghị quyết. Kéo dài bởi NQ 25/2026/NQ-CP (tới 30-06), NQ 34/2026/NQ-CP, NQ 43/2026/NQ-CP (30-09-2026) tới hết 31-12-2026 — các nghị quyết chưa có trong sổ.'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: claude-code@ozvietnam
-  chan:
-    ma: CHO_CONG_BO_A
-    ngay: 2026-10-09
-    viec_tiep: "VB có thời hạn đến 31/12/2026 - chờ nghị quyết kéo dài"
+  pham_vi: 'Đối chiếu Công báo số 157 ngày 24-03-2026 (congbao.chinhphu.vn id=469066), toàn văn PDF ký số (raw/download/congbaocdn.chinhphu.vn/72-2026-nd-cp.pdf, 6 trang, Phó Thủ tướng Hồ Đức Phớc ký) và Nghị quyết 43/2026/NQ-CP ngày 30-09-2026 (vanban.chinhphu.vn docid=219739) đã có trong sổ: ban hành và có hiệu lực từ 09-03-2026 (khoản 1 Điều 2 hiệu lực ban đầu đến 30-04-2026, khoản 2 Điều 2 cho phép Chính phủ ban hành Nghị quyết kéo dài); đã được kéo dài thời hạn áp dụng đến hết 31-12-2026 theo Nghị quyết 43/2026/NQ-CP'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.'
 toan_van: raw/download/congbaocdn.chinhphu.vn/72-2026-nd-cp.pdf
