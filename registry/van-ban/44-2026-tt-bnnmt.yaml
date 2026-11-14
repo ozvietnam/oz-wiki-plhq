@@ -3,7 +3,7 @@ so_hieu: 44/2026/TT-BNNMT
 so_hieu_khac:
   - 44/2026/TT-BNNPTNT
 loai: THONG_TU
-ten: Sửa đổi, bổ sung một số điều của Thông tư số 27/2026/TT-BNNMT ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Nông nghiệp và Môi trường ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Nông nghiệp và Môi trường
+ten: Sửa đổi, bổ sung một số điều của Thông tư số 27/2026/TT-BNNMT ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Nông nghiệp và Môi trường ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Môi trường
 co_quan: BNNMT
 ngay_ban_hanh: '2026-10-09'
 tinh_trang: CON_HIEU_LUC
@@ -19,8 +19,8 @@ nguon:
     truy_cap: '2026-10-29'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, tiêu đề đầy đủ, ngày ban hành 09-10-2026 (vanban.chinhphu docid=219929); điều chỉnh phân loại mặt hàng lâm sản/TACN/thú y theo mã HS — hiệu lực cụ thể chưa đối chiếu'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-29'
-  boi: zcode@ozvietnam
-ghi_chu: 'Bắt bởi radar công báo 29/10 (issue #251) — nạp cùng ngày phát hiện. TT 27/2026 đã có sẵn trong sổ.'
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=219929), toàn văn PDF ký số đính kèm (44-bnnmt.signed.pdf, 4 Điều, người ký Thứ trưởng Võ Văn Hưng) và quan hệ trong sổ: Thông tư 44/2026/TT-BNNMT sửa đổi, bổ sung một số điều của Thông tư 27/2026/TT-BNNMT ngày 30-06-2026 (sửa đổi thứ tự 4.1–4.4, 5.2, 6 Phụ lục I; bổ sung thứ tự 2 vào Phụ lục II cho mã HS 3004.90.49 và 3002.42.00; sửa khoản 3 Điều 6), ban hành ngày 09-10-2026, có hiệu lực thi hành từ ngày 09-10-2026 theo khoản 1 Điều 4; đối chiếu đang còn hiệu lực (được hợp nhất tại 91/2026/VBHN-TT-BNNMT, không có văn bản thay thế hoặc bãi bỏ trong sổ)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Bắt bởi radar công báo 29/10 (issue #251) — nạp cùng ngày phát hiện. TT 27/2026 đã có sẵn trong sổ; hiệu lực từ 2026-10-09 (chờ trích bảng danh-muc/44-2026-tt-bnnmt.csv khi gắn hieu_luc_tu).'

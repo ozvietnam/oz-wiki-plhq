@@ -5,15 +5,19 @@ ten: Sửa đổi, bổ sung một số điều của Thông tư số 16/2015/TT
 co_quan: BTTTT
 ngay_ban_hanh: '2016-12-26'
 hieu_luc_tu: '2017-03-01'
-tinh_trang: CHUA_XAC_MINH
+het_hieu_luc_tu: '2019-02-12'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/bct
+quan_he:
+  sua_doi:
+    - so_hieu: 16/2015/TT-BTTTT
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-41-2016-tt-btttt-22060.htm
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'Công báo Số 93 + 94 (id=22060, tệp đính kèm 41_2016_TT-BTTTT(16577).pdf) và đối chiếu toàn văn Thông tư 22/2018/TT-BTTTT trong sổ (raw/download/congbaocdn.chinhphu.vn/22-2018-tt-btttt.pdf): Thông tư 41/2016/TT-BTTTT ban hành ngày 26-12-2016, có hiệu lực thi hành từ ngày 01-03-2017 (sửa đổi, bổ sung một số điều của TT 16/2015/TT-BTTTT); đã hết hiệu lực toàn bộ kể từ ngày 12-02-2019 khi bị thay thế bởi điểm b khoản 1 Điều 2 Thông tư 22/2018/TT-BTTTT ngày 28-12-2018'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
