@@ -1,19 +1,21 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 110/2026/VBHN-TT-BNNMT
 loai: VAN_BAN_HOP_NHAT
-ten: 'Hợp nhất quy định về quy trình phân tích nguy cơ dịch hại đối với vật thể thuộc diện kiểm dịch thực vật'
+ten: 'Ban hành quy định về quy trình phân tích nguy cơ dịch hại đối với vật thể thuộc diện kiểm dịch thực vật phải phân tích nguy cơ trước khi nhập khẩu vào Việt Nam'
 co_quan: BNNMT
-ngay_ban_hanh: '2026-11-02'
+ngay_ban_hanh: '2026-11-03'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
 nguon:
-  - url: https://chinhphu.vn/?pageid=27160&docid=220189
-    truy_cap: '2026-11-07'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=220189
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/110-vbhn-bnnmt.signed.pdf
+    truy_cap: '2026-11-14'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + ngày ban hành 02-11-2026 (chinhphu.vn docid 220189)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-07'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=220189) và toàn văn PDF ký số (110-vbhn-bnnmt.signed.pdf, 27 trang, 3 chương 12 điều và Phụ lục I–VII, Thứ trưởng Nguyễn Hoàng Hiệp ký): xác thực ngày 03-11-2026 (hiệu đính ngày ban hành từ 02-11-2026 theo đúng thẻ và PDF ký số), đang còn hiệu lực; hợp nhất Thông tư 36/2014/TT-BNNPTNT ngày 31-10-2014 (hiệu lực 01-01-2015) và Thông tư 12/2025/TT-BNNMT ngày 19-06-2025 (hiệu lực 01-07-2025)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Trinh sát đêm 7/11. Quy trình PRA — cổng quyết định có cho nhập nhóm thực vật chưa có trong danh mục. Đủ họ với 109.'

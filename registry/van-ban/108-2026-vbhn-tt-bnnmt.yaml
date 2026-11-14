@@ -9,11 +9,13 @@ nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=220179
-    truy_cap: '2026-11-05'
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/108-vbhn-bnnmt.signed.pdf
+    truy_cap: '2026-11-14'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu + tên + ngày ban hành 02-11-2026 (vanban.chinhphu.vn)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-05'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=220179) và toàn văn PDF ký số (108-vbhn-bnnmt.signed.pdf, 16 trang, 3 chương 19 điều và Phụ lục I–V, Thứ trưởng Nguyễn Hoàng Hiệp ký): xác thực ngày 02-11-2026, đang còn hiệu lực; hợp nhất Thông tư 35/2015/TT-BNNPTNT ngày 14-10-2015 quy định về kiểm dịch thực vật nội địa (hiệu lực 30-11-2015) và Thông tư 12/2025/TT-BNNMT ngày 19-06-2025 (hiệu lực 01-07-2025)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Trinh sát WebSearch trạm BNNMT đêm 5/11. Gia đình KDTV — bản nội địa, cặp với 99/2026 (hồ sơ nghiệp vụ) + 100/2026 (danh mục).'

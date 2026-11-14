@@ -11,17 +11,18 @@ nhanh:
 quan_he:
   thay_the:
     - so_hieu: 12/2025/TT-BYT
-      pham_vi: các quy định về đăng ký lưu hành thuốc, nguyên liệu làm thuốc
+      pham_vi: toàn bộ Thông tư 12/2025/TT-BYT quy định việc đăng ký lưu hành thuốc, nguyên liệu làm thuốc
       tu_ngay: '2026-10-01'
+      can_cu: Điểm a khoản 2 Điều 52 Thông tư 32/2026/TT-BYT
 nguon:
   - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-32-2026-tt-byt-quy-dinh-viec-dang-ky-luu-hanh-thuoc-nguyen-lieu-lam-thuoc--b3c8a3e0-9945-11f1-9dcb-2dbe29d2ab4a
-    truy_cap: '2026-10-29'
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-32-2026-TT-BYT-dang-ky-luu-hanh-thuoc-nguyen-lieu-lam-thuoc-717455.aspx
     truy_cap: '2026-10-29'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 29-07-2026, hiệu lực 01-10-2026 (vbpl + TVPL); thay quy định đăng ký lưu hành của TT 12/2025/TT-BYT — phạm vi bãi cụ thể chưa đối chiếu'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-29'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu toàn văn trên CSDL quốc gia vbpl.vn (56 điều và Phụ lục I–V, Thứ trưởng Nguyễn Tri Thức ký): ban hành 29-07-2026, có hiệu lực từ 01-10-2026 (khoản 1 Điều 52); khoản 2 Điều 52 bãi bỏ toàn bộ Thông tư 12/2025/TT-BYT (điểm a), tiết 1 điểm a khoản 1 Điều 16 và tiết 2 điểm c khoản 3 Điều 29 Thông tư 01/2018/TT-BYT (điểm b), khoản 8 và khoản 10 Điều 1 Thông tư 23/2023/TT-BYT (điểm c)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Trinh thám 29/10 — thuốc là nhóm KB thuế 30 (3004...) hay hỏi; TT 12/2025 chưa có trong sổ (nạp khi cần truy vết chuỗi).'

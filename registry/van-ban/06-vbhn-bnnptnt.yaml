@@ -10,14 +10,21 @@ het_hieu_luc_tu: '2024-05-27'
 tinh_trang: HET_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
+quan_he:
+  hop_nhat:
+    - 33/2014/TT-BNNPTNT
+    - 34/2018/TT-BNNPTNT
+    - 15/2021/TT-BNNPTNT
 nguon:
-  - url: https://vbpl.vn/en/van-ban/chi-tiet/van-ban-hop-nhat-so-06-vbhn-bnnptnt-quy-dinh-trinh-tu-thu-tuc-kiem-dich-thuc-vat-nhap-khau-xuat-khau-qua-canh-va-sau-nhap-khau-vat-the-thuoc-dien-kiem-dich-thuc-vat--159604
-    truy_cap: '2026-10-28'
+  - url: https://vbpl.vn/van-ban/chi-tiet/van-ban-hop-nhat-so-06-vbhn-bnnptnt-quy-dinh-trinh-tu-thu-tuc-kiem-dich-thuc-vat-nhap-khau-xuat-khau-qua-canh-va-sau-nhap-khau-vat-the-thuoc-dien-kiem-dich-thuc-vat--159604
+    truy_cap: '2026-11-14'
+  - url: https://chinhphu.vn/?pageid=27160&docid=207302
+    truy_cap: '2026-11-14'
   - url: https://thutucxuatnhapkhau.vn/van-ban-hop-nhat-06-vbhn-bnnptnt-nam-2023
     truy_cap: '2026-10-28'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 10-03-2023; bị VBHN 19/VBHN-BNNPTNT ngày 27-05-2024 thay (bản hợp nhất mới hơn của cùng chuỗi)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-28'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ CSDL quốc gia vbpl.vn (ItemID=159604) và chuỗi hợp nhất kế nhiệm 19/VBHN-BNNPTNT (chinhphu.vn docid=207302, ppd.gov.vn): ban hành 10-03-2023, hợp nhất Thông tư 33/2014/TT-BNNPTNT, 34/2018/TT-BNNPTNT và 15/2021/TT-BNNPTNT; hết hiệu lực từ 27-05-2024 khi Thông tư 03/2024/TT-BNNPTNT có hiệu lực và Bộ NN&PTNT ban hành bản hợp nhất mới 19/VBHN-BNNPTNT'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam

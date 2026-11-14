@@ -1,21 +1,30 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 07/2026/TT-BNNMT
 loai: THONG_TU
-ten: Quy định chi tiết một số điều của Luật Bảo vệ và kiểm dịch thực vật, Luật Trồng trọt và sửa đổi, bổ sung một số thông tư trong lĩnh vực trồng trọt và bảo vệ thực vật
+ten: Quy định chi tiết một số điều của Luật Bảo vệ và kiểm dịch thực vật, Luật Trồng trọt và sửa đổi, bổ sung một số điều của các thông tư trong lĩnh vực trồng trọt và bảo vệ thực vật
 co_quan: BNNMT
 ngay_ban_hanh: '2026-01-23'
+hieu_luc_tu: '2026-01-23'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
+quan_he:
+  sua_doi:
+    - so_hieu: 05/2015/TT-BNNPTNT
+      pham_vi: Điều 22 sửa đổi, bổ sung một số điều của Thông tư 05/2015/TT-BNNPTNT (đã được sửa đổi, bổ sung bởi Thông tư 15/2021/TT-BNNPTNT và Thông tư 33/2014/TT-BNNPTNT)
+      tu_ngay: '2026-01-23'
+      can_cu: Điều 22 và khoản 1 Điều 23 Thông tư 07/2026/TT-BNNMT
 nguon:
-  - url: https://chinhphu.vn/?pageid=27160&docid=216804
-    truy_cap: '2026-10-30'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=216804
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/07-bnnmt.pdf
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/Linh-vuc-khac/Thong-tu-07-2026-TT-BNNMT-huong-dan-Luat-Bao-ve-va-kiem-dich-thuc-vat-Luat-Trong-trot-692593.aspx
     truy_cap: '2026-10-30'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tên nguyên văn, ngày ban hành 23-01-2026 (chinhphu.vn docid 216804). Ngày hiệu lực CHƯA đối chiếu — cần tải toàn văn (spsvietnam.gov.vn) để bọc: quan hệ sửa đổi với TT KDTV 33/2014 + hiệu lực'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-30'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=216804) và toàn văn PDF ký số (07-bnnmt.pdf, 24 điều, Thứ trưởng Hoàng Trung ký): ban hành 23-01-2026, có hiệu lực từ 23-01-2026 (khoản 1 Điều 23); bãi bỏ Thông tư 11/2022/TT-BNNPTNT (khoản 2 Điều 23); sửa đổi, bổ sung Thông tư 43/2018/TT-BNNPTNT (Điều 19), 21/2015/TT-BNNPTNT (Điều 20), 12/2025/TT-BNNMT (Điều 21) và 05/2015/TT-BNNPTNT (Điều 22)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: Trinh sát WebSearch trạm BNNMT đêm 30/10 (bổ sung đợt 29/10). Lõi KDTV — luật KDTV mới (170/2024/QH15) thay Luật BVTT 41/2013, TT này là văn bản chi tiết kèm KDTV XNK. Ưu tiên nạp toàn văn + bóc quan hệ với chuỗi VBHN 06→19→99.
