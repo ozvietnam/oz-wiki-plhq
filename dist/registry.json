@@ -2275,6 +2275,11 @@
             "tu": "73/2026/VBHN-TT-BCT",
             "quan_he": "hop_nhat",
             "so_hieu": "08/2023/TT-BCT"
+          },
+          {
+            "tu": "74/2026/VBHN-TT-BCT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "08/2023/TT-BCT"
           }
         ]
       }
@@ -3689,7 +3694,7 @@
     {
       "so_hieu": "102/2020/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Quy định về hệ thống bảo đảm gỗ hợp pháp Việt Nam",
+      "ten": "Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam",
       "co_quan": "CP",
       "ngay_ban_hanh": "2020-09-01",
       "hieu_luc_tu": "2020-10-30",
@@ -3699,8 +3704,12 @@
       ],
       "nguon": [
         {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/09/102.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://kv10.customs.gov.vn/index.jsp?pageId=3&id=43086&cid=1294",
-          "truy_cap": "2026-10-28"
+          "truy_cap": "2026-11-14"
         },
         {
           "url": "https://thuvienxuatnhapkhau.com/cong-van-7131-tchw-gsql-nam-2020-ve-viec-thuc-hien-nghi-dinh-102-2020-nd-cp-ve-ho-so-go-nhap-khau.html",
@@ -3708,11 +3717,11 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 01-09-2020, hiệu lực 30-10-2020 (Cục HQ KV10 + CV 7131/TCHQ-GSQL); VNTLAS — gỗ hợp pháp khai thác trong nước + gỗ nhập khẩu, danh mục gỗ rủi ro NK (điểm d khoản 1 Điều 6); bị sửa bởi một NĐ năm 2024 — số hiệu chưa đối chiếu",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-28",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu toàn văn PDF ký số Chính phủ (102.signed.pdf, 52 trang, 6 chương 30 điều và Phụ lục I–III, Thủ tướng Nguyễn Xuân Phúc ký) và cổng Cục Hải quan KV10 (kv10.customs.gov.vn): ban hành 01-09-2020, có hiệu lực từ 30-10-2020 (khoản 1 Điều 28; Chương III phân loại doanh nghiệp có hiệu lực sau 18 tháng theo khoản 3 Điều 28; Mục 2 Chương II và Mục 1 Chương IV về xuất khẩu/cấp giấy phép FLEGT theo quyết định của Thủ tướng tại khoản 2 Điều 28); khoản 4 Điều 28 bãi bỏ Điều 17 Thông tư 27/2018/TT-BNNPTNT về hồ sơ gỗ nhập khẩu từ 30-10-2020; đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Nghị định 120/2024/NĐ-CP)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nền của mảng truy xuất nguồn gốc gỗ NK (issue #247 — gia đình lâm nghiệp thứ 8, ca dăm gỗ beech 4401.22.00). Song song với NĐ 06/2019 (CITES) — không thay thế nhau.",
       "slug": "102-2020-nd-cp",
@@ -4873,6 +4882,13 @@
             "pham_vi": "Điều 2 (giải thích từ ngữ), Điều 11 (chứng chỉ hành nghề), khoản 4, 5, 9, điểm a và c khoản 18, điểm d và đ khoản 32, khoản 33, 39, 43 Điều 1",
             "tu_ngay": "2025-07-01",
             "can_cu": "Điều 1 Luật 44/2024/QH15"
+          }
+        ],
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "76-VBHN/VPQH",
+            "quan_he": "hop_nhat",
+            "so_hieu": "105/2016/QH13"
           }
         ]
       }
@@ -32254,6 +32270,13 @@
             "tu_ngay": "2024-02-15",
             "can_cu": "Điều 1, Điều 2 và Điều 3 Thông tư 45/2023/TT-BCT"
           }
+        ],
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "74/2026/VBHN-TT-BCT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "23/2021/TT-BCT"
+          }
         ]
       }
     },
@@ -37160,8 +37183,11 @@
         "27/2018/TT-BNNMT"
       ],
       "loai": "THONG_TU",
-      "ten": "Hướng dẫn một số điều của Luật Lâm nghiệp về truy xuất nguồn gốc, khai thác, vận chuyển gỗ",
+      "ten": "Quy định về quản lý, truy xuất nguồn gốc lâm sản",
       "co_quan": "BNNPTNT",
+      "ngay_ban_hanh": "2018-11-16",
+      "hieu_luc_tu": "2019-01-01",
+      "het_hieu_luc_tu": "2023-02-15",
       "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bnnmt"
@@ -37169,15 +37195,19 @@
       "nguon": [
         {
           "url": "https://vbpl.vn/van-ban/chi-tiet/ve-viec-cong-bo-ket-qua-he-thong-hoa-van-ban-quy-pham-phap-luat-thuoc-linh-vuc-quan-ly-nha-nuoc-cua-bo-nong-nghiep-va-phat-trien-nong-thon-ky-2019-2023--hhtquyetdinh_224",
-          "truy_cap": "2026-10-28"
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/09/102.signed.pdf",
+          "truy_cap": "2026-11-14"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề; HẾT hiệu lực từ 26-03-2019 — các quy định gỗ/thực vật rừng bị NĐ 06/2019/NĐ-CP bãi bỏ (QĐ 398/QĐ-BNN-PC hệ thống hóa VB 2019-2023); ngày ban hành chưa đối chiếu",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-28",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu Quyết định 398/QĐ-BNN-PC hệ thống hóa VBQPPL kỳ 2019–2023 trên vbpl.vn, khoản 4 và khoản 5 Điều 28 Nghị định 102/2020/NĐ-CP (102.signed.pdf) và cạnh ngược trong sổ (06/2019/NĐ-CP, 26/2022/TT-BNNPTNT): Thông tư 27/2018/TT-BNNPTNT ban hành ngày 16-11-2018, có hiệu lực từ 01-01-2019; các quy định về quản lý gỗ, thực vật rừng nguy cấp bị Nghị định 06/2019/NĐ-CP bãi bỏ từ 26-03-2019, quy định hồ sơ gỗ nhập khẩu tại Điều 17 hết hiệu lực từ 30-10-2020 theo khoản 4 Điều 28 Nghị định 102/2020/NĐ-CP, và hết hiệu lực toàn bộ từ 15-02-2023 khi bị thay thế bởi Thông tư 26/2022/TT-BNNPTNT",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nạp dạng lịch sử theo #247 (chuỗi truy xuất nguồn gốc: TT 27/2018 → TT 26/2022 → TT 26/2025). Lưu ý: không nhầm với \"TT 27/2023\" — số đó không tồn tại.",
       "slug": "27-2018-tt-bnnptnt",
@@ -38800,6 +38830,13 @@
             "pham_vi": "Một số điều liên quan đến quy hoạch",
             "tu_ngay": "2019-01-01",
             "can_cu": "Điều 1 Luật 28/2018/QH14"
+          }
+        ],
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "76-VBHN/VPQH",
+            "quan_he": "hop_nhat",
+            "so_hieu": "28/2018/QH14"
           }
         ]
       }
@@ -54450,10 +54487,11 @@
     {
       "so_hieu": "38/2014/TT-BCT",
       "loai": "THONG_TU",
-      "ten": "Quy định chi tiết một số điều của Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ quy định về sản xuất, kinh doanh xăng dầu",
+      "ten": "Quy định chi tiết một số điều của Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ về kinh doanh xăng dầu",
       "co_quan": "BCT",
       "ngay_ban_hanh": "2014-10-24",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "hieu_luc_tu": "2014-11-01",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "quan-ly-ngoai-thuong/giay-phep"
       ],
@@ -54466,20 +54504,24 @@
       },
       "nguon": [
         {
-          "url": "https://www.hiephoixangdau.org/nd/tin-trong-nuoc/ban-hanh-thong-tu-huong-dan-nghi-dinh-83-2014-nd-cp.html",
-          "truy_cap": "2026-10-28"
+          "url": "https://moit.gov.vn/van-ban-phap-luat/van-ban-hop-nhat/-van-ban-hop-nhat-thong-tu-quy-dinh-chi-tiet-mot-so-dieu-cua.html",
+          "truy_cap": "2026-11-14"
         },
         {
-          "url": "https://moit.gov.vn/van-ban-phap-luat/van-ban-hop-nhat/-van-ban-hop-nhat-thong-tu-quy-dinh-chi-tiet-mot-so-dieu-cua.html",
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/74-vbhn-bct.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://www.hiephoixangdau.org/nd/tin-trong-nuoc/ban-hanh-thong-tu-huong-dan-nghi-dinh-83-2014-nd-cp.html",
           "truy_cap": "2026-10-28"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 24-10-2014; đã có văn bản hợp nhất hướng dẫn trên moit.gov.vn — hiệu lực chưa đối chiếu",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-28",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu cổng văn bản hợp nhất Bộ Công Thương (moit.gov.vn, VBHN 21/VBHN-BCT ngày 18-03-2020 đính kèm toàn văn docx), Điều 4 và Phụ lục IV VBHN 74/2026/VBHN-TT-BCT (74-vbhn-bct.signed.pdf) và hồ sơ hợp nhất 51/VBHN-BCT ngày 09-06-2026 trong sổ: Thông tư 38/2014/TT-BCT ban hành ngày 24-10-2014, có hiệu lực từ 01-11-2014, hướng dẫn Nghị định 83/2014/NĐ-CP; đối chiếu đang còn hiệu lực (được sửa đổi, bổ sung bởi Thông tư 28/2017/TT-BCT, 41/2019/TT-BCT, 42/2019/TT-BCT và các thông tư sửa đổi tiếp theo hợp nhất tại 51/VBHN-BCT)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "38-2014-tt-bct",
       "bac_nguon_cao_nhat": "A",
@@ -58563,6 +58605,13 @@
             "tu_ngay": "2026-09-05",
             "can_cu": "Điều 20 khoản 3 điểm a TT 48/2026/TT-BCT"
           }
+        ],
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "74/2026/VBHN-TT-BCT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "41/2019/TT-BCT"
+          }
         ]
       }
     },
@@ -61480,6 +61529,13 @@
             "quan_he": "huong_dan",
             "so_hieu": "44/2024/QH15"
           }
+        ],
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "76-VBHN/VPQH",
+            "quan_he": "hop_nhat",
+            "so_hieu": "44/2024/QH15"
+          }
         ]
       }
     },
@@ -62139,17 +62195,22 @@
     {
       "so_hieu": "45/2026/TT-BKHCN",
       "loai": "THONG_TU",
-      "ten": "Sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Khoa học và Công nghệ",
+      "ten": "Sửa đổi, bổ sung một số điều của các thông tư của Bộ trưởng Bộ Khoa học và Công nghệ để thực hiện cắt giảm, đơn giản hóa thủ tục hành chính trong lĩnh vực đo lường",
       "co_quan": "BKHCN",
       "ngay_ban_hanh": "2026-07-31",
+      "hieu_luc_tu": "2026-09-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bkhcn"
       ],
       "nguon": [
         {
-          "url": "https://chinhphu.vn/?pageid=27160&docid=219139&classid=1&orggroupid=4",
-          "truy_cap": "2026-11-08"
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=219139&classid=1&orggroupid=4",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/8/45-bkhcn.signed.pdf",
+          "truy_cap": "2026-11-14"
         },
         {
           "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Thong-tu-45-2026-TT-BKHCN-sua-doi-cac-Thong-tu-de-cat-giam-thu-tuc-hanh-chinh-linh-vuc-do-luong-718542.aspx",
@@ -62157,13 +62218,13 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + ngày ban hành 31-07-2026 (chinhphu.vn docid 219139 + TVPL 718542); nội dung cắt giảm TTHC đo lường",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-08",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=219139) và toàn văn PDF ký số (45-bkhcn.signed.pdf, 29 trang, 4 chương 22 điều và Phụ lục biểu mẫu, Bộ trưởng Vũ Hải Quân ký): ban hành 31-07-2026, có hiệu lực từ 01-09-2026 (khoản 1 Điều 22); sửa đổi, bổ sung một số điều của Thông tư 14/2013/TT-BKHCN (Chương I), Thông tư 23/2013/TT-BKHCN (Chương II), Thông tư 54/2025/TT-BKHCN (Chương III) và bãi bỏ khoản 3 Điều 5 Thông tư 22/2026/TT-BKHCN (khoản 2 Điều 22)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Trinh sát đêm 8/11. Sửa TT họ đo lường (14/2026/TT-BKHCN hợp quy đã có trong sổ) — hồ sơ phê duyệt chuẩn quốc gia chuyển nộp trực tuyến. Đối chiếu lên A cùng đợt 14/2026.",
+      "ghi_chu": "Trinh sát đêm 8/11. Sửa TT họ đo lường (14/2013, 23/2013, 54/2025) — hồ sơ phê duyệt chuẩn quốc gia và phê duyệt mẫu phương tiện đo nhóm 2 chuyển nộp trực tuyến tại Cổng Dịch vụ công quốc gia.",
       "slug": "45-2026-tt-bkhcn",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -64234,6 +64295,11 @@
         "duoc_hop_nhat_boi": [
           {
             "tu": "73/2026/VBHN-TT-BCT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "48/2026/TT-BCT"
+          },
+          {
+            "tu": "74/2026/VBHN-TT-BCT",
             "quan_he": "hop_nhat",
             "so_hieu": "48/2026/TT-BCT"
           }
@@ -72704,23 +72770,33 @@
     {
       "so_hieu": "59/2025/TT-BYT",
       "loai": "THONG_TU",
-      "ten": "TT 59/2025/TT-BYT (bị bãi bởi 24/2026)",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 05/2022/TT-BYT quy định chi tiết thi hành một số điều của Nghị định số 98/2021/NĐ-CP về quản lý thiết bị y tế",
       "co_quan": "BYT",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/byt"
       ],
       "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=218703&pageid=27160",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/24-byt.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://vanban.chinhphu.vn/?docid=200125",
           "truy_cap": "2026-10-09"
         }
       ],
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-09",
-        "boi": "do-tham"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=218703) và toàn văn PDF ký số Thông tư 24/2026/TT-BYT ngày 30-06-2026 (24-byt.signed.pdf, raw/download/datafiles.chinhphu.vn/24-2026-tt-byt.pdf, Thứ trưởng Đỗ Xuân Tuyên ký): khoản 2 Điều 4 bãi bỏ toàn bộ Thông tư 59/2025/TT-BYT sửa đổi, bổ sung một số điều của Thông tư 05/2022/TT-BYT kể từ ngày 01-07-2026",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "59-2025-tt-byt",
       "bac_nguon_cao_nhat": "A",
@@ -81625,15 +81701,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Công báo số 157 ngày 24-03-2026: Điều 2 khoản 1 hiệu lực từ ngày ký đến 30-04-2026 (văn bản có thời hạn), khoản 2 cho kéo dài bằng nghị quyết. Kéo dài bởi NQ 25/2026/NQ-CP (tới 30-06), NQ 34/2026/NQ-CP, NQ 43/2026/NQ-CP (30-09-2026) tới hết 31-12-2026 — các nghị quyết chưa có trong sổ.",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "claude-code@ozvietnam",
-        "chan": {
-          "ma": "CHO_CONG_BO_A",
-          "ngay": "2026-10-09",
-          "viec_tiep": "VB có thời hạn đến 31/12/2026 - chờ nghị quyết kéo dài"
-        }
+        "pham_vi": "Đối chiếu Công báo số 157 ngày 24-03-2026 (congbao.chinhphu.vn id=469066), toàn văn PDF ký số (raw/download/congbaocdn.chinhphu.vn/72-2026-nd-cp.pdf, 6 trang, Phó Thủ tướng Hồ Đức Phớc ký) và Nghị quyết 43/2026/NQ-CP ngày 30-09-2026 (vanban.chinhphu.vn docid=219739) đã có trong sổ: ban hành và có hiệu lực từ 09-03-2026 (khoản 1 Điều 2 hiệu lực ban đầu đến 30-04-2026, khoản 2 Điều 2 cho phép Chính phủ ban hành Nghị quyết kéo dài); đã được kéo dài thời hạn áp dụng đến hết 31-12-2026 theo Nghị quyết 43/2026/NQ-CP",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.",
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/72-2026-nd-cp.pdf",
@@ -82966,31 +83037,43 @@
     {
       "so_hieu": "74/2026/VBHN-TT-BCT",
       "loai": "VAN_BAN_HOP_NHAT",
-      "ten": "Hợp nhất Thông tư Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư",
+      "ten": "Hợp nhất Thông tư bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
       "co_quan": "BCT",
       "ngay_ban_hanh": "2026-09-14",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
+      "quan_he": {
+        "hop_nhat": [
+          "41/2019/TT-BCT",
+          "23/2021/TT-BCT",
+          "08/2023/TT-BCT",
+          "48/2026/TT-BCT"
+        ]
+      },
       "nguon": [
         {
-          "url": "https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Van-ban-hop-nhat-74-2026-VBHN-TT-BCT-Thong-tu-bo-sung-Danh-muc-ma-so-HS-cua-hang-hoa-xuat-khau-725334.aspx",
-          "truy_cap": "2026-11-07"
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=219510",
+          "truy_cap": "2026-11-14"
         },
         {
-          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=219510",
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/74-vbhn-bct.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Van-ban-hop-nhat-74-2026-VBHN-TT-BCT-Thong-tu-bo-sung-Danh-muc-ma-so-HS-cua-hang-hoa-xuat-khau-725334.aspx",
           "truy_cap": "2026-11-07"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + ngày ban hành 14-09-2026 (TVPL + vanban.chinhphu.vn docid 219510)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-07",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=219510) và toàn văn PDF ký số (74-vbhn-bct.signed.pdf, 17 trang, 9 điều và các Phụ lục II, III, IV, V, VII, VIII, Thứ trưởng Nguyễn Sinh Nhật Tân ký xác thực ngày 14-09-2026): hợp nhất Thông tư 41/2019/TT-BCT ngày 16-12-2019 (hiệu lực 29-01-2020), được sửa đổi, bổ sung bởi Thông tư 23/2021/TT-BCT ngày 15-12-2021 (hiệu lực 01-02-2022), Thông tư 08/2023/TT-BCT ngày 31-03-2023 (hiệu lực 16-05-2023) và Thông tư 48/2026/TT-BCT ngày 05-09-2026 (hiệu lực 05-09-2026); đối chiếu đang là bản hợp nhất hiện hành",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Trinh sát đêm 7/11. Bản hợp nhất danh mục mã HS XNK của BCT — LÕI tra cứu mã khi khai báo. Đối chiếu đủ họ TT bổ sung danh mục (33/2025 v.v.) lên A.",
+      "ghi_chu": "Trinh sát đêm 7/11, đối chiếu nguồn A ngày 14/11. Bản hợp nhất danh mục mã HS XNK của BCT (cặp với 73/2026/VBHN-TT-BCT) — đã nối đủ quan_he.hop_nhat với 41/2019/TT-BCT, 23/2021/TT-BCT, 08/2023/TT-BCT và 48/2026/TT-BCT.",
       "slug": "74-2026-vbhn-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -83902,22 +83985,37 @@
     {
       "so_hieu": "76-VBHN/VPQH",
       "loai": "VAN_BAN_HOP_NHAT",
-      "ten": "VB hợp nhất 76/VBHN-VPQH (hợp nhất 105/2016/QH13)",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ten": "Hợp nhất Luật Dược",
+      "co_quan": "VPQH",
+      "ngay_ban_hanh": "2026-03-25",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "hai-quan/luat-khung"
       ],
+      "quan_he": {
+        "hop_nhat": [
+          "105/2016/QH13",
+          "28/2018/QH14",
+          "44/2024/QH15"
+        ]
+      },
       "nguon": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://vanban.chinhphu.vn/?docid=200123",
           "truy_cap": "2026-10-09"
         }
       ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/2026/3/76-vbhn-vpqh-2026.md",
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-09",
-        "boi": "do-tham"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu toàn văn PDF Chính phủ (76-vbhn-vpqh.pdf) và bản trích xuất trong kho (raw/download/datafiles.chinhphu.vn/2026/3/76-vbhn-vpqh-2026.md, 14 chương 116 điều, Chủ nhiệm Văn phòng Quốc hội Lê Quang Mạnh ký xác thực ngày 25-03-2026): hợp nhất Luật Dược số 105/2016/QH13 ngày 06-04-2016 (hiệu lực 01-01-2017), được sửa đổi, bổ sung bởi Luật số 28/2018/QH14, Luật số 44/2024/QH15 (hiệu lực 01-07-2025), Luật Quy hoạch số 112/2025/QH15 (hiệu lực 01-03-2026), Luật Phòng bệnh số 114/2025/QH15 (hiệu lực 01-07-2026) và Luật Đầu tư số 143/2025/QH15 (hiệu lực 01-03-2026); đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "76-vbhn-vpqh",
       "bac_nguon_cao_nhat": "A",
@@ -85991,9 +86089,10 @@
     {
       "so_hieu": "83/2026/TT-BTC",
       "loai": "THONG_TU",
-      "ten": "Quy định tiêu chuẩn hoạt động đại lý làm thủ tục hải quan, tiêu chuẩn nhân viên đại lý làm thủ tục hải quan; tổ chức thi, cấp và thu hồi chứng chỉ",
+      "ten": "Quy định tiêu chuẩn hoạt động đại lý làm thủ tục hải quan, tiêu chuẩn nhân viên đại lý làm thủ tục hải quan; tổ chức thi, cấp chứng chỉ nghiệp vụ khai hải quan; quản lý hoạt động đại lý làm thủ tục hải quan, nhân viên đại lý làm thủ tục hải quan",
       "co_quan": "BTC",
       "ngay_ban_hanh": "2026-06-30",
+      "hieu_luc_tu": "2026-07-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "hai-quan/thu-tuc"
@@ -86001,7 +86100,11 @@
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=218769",
-          "truy_cap": "2026-11-10"
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/83-btc.signed.pdf",
+          "truy_cap": "2026-11-14"
         },
         {
           "url": "https://kv03.customs.gov.vn/index.jsp?pageId=228&aid=218124&cid=1631",
@@ -86009,13 +86112,13 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + ngày ban hành 30-06-2026, hiệu lực 01-07-2026 (vanban.chinhphu.vn docid 218769 + TCHQ KV03)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-10",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=218769), toàn văn PDF ký số (83-btc.signed.pdf, 29 trang, 4 chương 16 điều và Phụ lục 8 biểu mẫu, Thứ trưởng Nguyễn Đức Chi ký) và cổng Cục Hải quan KV03: ban hành 30-06-2026, có hiệu lực từ 01-07-2026 (khoản 1 Điều 15); khoản 2 Điều 15 bãi bỏ toàn bộ Thông tư 12/2015/TT-BTC, Thông tư 22/2019/TT-BTC và Thông tư 25/2026/TT-BTC kể từ ngày 01-07-2026",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Trinh sát đêm 10/11. Đại lý HQ chuyển quản lý giấy phép → tiêu chuẩn (Luật HQ 2025) — đụng trực tiếp luồng khai báo hộ của khách ủy thác. Ưu tiên đối chiếu lên A.",
+      "ghi_chu": "Trinh sát đêm 10/11, đối chiếu nguồn A ngày 14/11. Đại lý HQ chuyển quản lý công nhận → tiêu chuẩn thông báo (Luật HQ sửa đổi bởi Luật 90/2025/QH15). Lưu ý: khoản 2 Điều 15 bãi bỏ toàn bộ 12/2015/TT-BTC, 22/2019/TT-BTC và 25/2026/TT-BTC từ 01-07-2026 (cần cập nhật tinh_trang của 12/2015/TT-BTC và 25/2026/TT-BTC sang HET_HIEU_LUC ở thẻ riêng trước khi nối quan_he.bai_bo).",
       "slug": "83-2026-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -86551,7 +86654,11 @@
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=218821&classid=1&typegroupid=6",
-          "truy_cap": "2026-10-29"
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/86-btc.signed.pdf",
+          "truy_cap": "2026-11-14"
         },
         {
           "url": "https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Thong-tu-86-2026-TT-BTC-quan-ly-thue-doi-voi-hang-hoa-xuat-khau-nhap-khau-699140.aspx",
@@ -86559,11 +86666,11 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tên, ngày ban hành 30-06-2026, hiệu lực 01-07-2026 (vanban.chinhphu.vn); bản tin TVPL cho biết hướng dẫn Luật Quản lý thuế 108/2025, không đổi mức thuế suất",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-29",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=218821, Thứ trưởng Nguyễn Đức Chi ký), tệp đính kèm 86-btc.signed.pdf và kết quả đối chiếu Điều 43 tại hồ sơ 06/2021/TT-BTC, 39/2018/TT-BTC trong sổ: ban hành 30-06-2026, có hiệu lực từ 01-07-2026 (khoản 1 Điều 43); khoản 2 Điều 43 bãi bỏ toàn bộ Thông tư 06/2021/TT-BTC; khoản 3 Điều 43 bãi bỏ các quy định về miễn thuế tại Điều 104, 105, 131, 132, 134, 135, 140 Thông tư 38/2015/TT-BTC (đã được sửa đổi, bổ sung tại Thông tư 39/2018/TT-BTC và Thông tư 121/2025/TT-BTC)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trinh sát WebSearch trạm BTC đêm 29/10. CHƯA có điều khoản thay thế được đối chiếu — chưa thấy nguồn nào nói thay TT 39/2015 (trị giá hải quan là lĩnh vực khác). Cần nạp toàn văn (PDF 313 trang trên TVPL) để bóc quan hệ với TT 39/2015, TT 65/2024 và mốc hoàn thuế Điều 11/31.",
       "slug": "86-2026-tt-btc",
