@@ -58,8 +58,14 @@ export function demLa(bt, maHs) {
   return n;
 }
 
-/** Văn bản trông như danh mục kèm mã HS (để báo "chưa trích"). */
-export function laVanBanDanhMuc(d) {
+/** Văn bản trông như danh mục kèm mã HS (để báo "chưa trích").
+ * `so` (tuỳ chọn): sổ đăng ký — dùng để nhận phụ lục tách riêng (`phu_luc_cua`)
+ * khi văn bản mẹ đã có bảng danh mục thì không coi là điểm mù. */
+export function laVanBanDanhMuc(d, so = null) {
+  if (d.phu_luc_cua && so?.theoKhoa) {
+    const me = so.theoKhoa.get(khoa(d.phu_luc_cua))?.[0];
+    if (me?.danh_muc_hs) return false;
+  }
   if (d.danh_muc_hs) return true;
   if (!['CON_HIEU_LUC', 'CHUA_CO_HIEU_LUC', 'HET_HIEU_LUC_MOT_PHAN', 'CHUA_XAC_MINH'].includes(d.tinh_trang)) return false;
   if (!['THONG_TU', 'THONG_TU_LIEN_TICH', 'QUYET_DINH', 'NGHI_DINH'].includes(d.loai)) return false;
