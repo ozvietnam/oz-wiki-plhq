@@ -4,16 +4,17 @@ loai: NGHI_DINH
 ten: Sửa đổi, bổ sung Nghị định 132/2008/NĐ-CP
 co_quan: CP
 ngay_ban_hanh: '2018-05-15'
+hieu_luc_tu: '2018-07-01'
 het_hieu_luc_tu: '2026-07-01'
 tinh_trang: HET_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/khung-chat-luong
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'đối chiếu thẻ vanban.chinhphu.vn (docid=193720, người ký Thủ tướng Nguyễn Xuân Phúc, tệp đính kèm 74.signed.pdf) và cạnh ngược trong sổ: Nghị định 74/2018/NĐ-CP của Chính phủ sửa đổi, bổ sung một số điều của Nghị định 132/2008/NĐ-CP quy định chi tiết thi hành một số điều Luật Chất lượng sản phẩm, hàng hóa, ban hành ngày 15-05-2018, có hiệu lực thi hành từ ngày 01-07-2018; đã hết hiệu lực toàn bộ từ ngày 01-07-2026 do bị bãi bỏ bởi điểm b khoản 2 Điều 97 Nghị định 37/2026/NĐ-CP ngày 23-01-2026'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=193720&pageid=27160

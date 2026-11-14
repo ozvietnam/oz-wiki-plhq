@@ -20,8 +20,8 @@ nguon:
     truy_cap: '2026-10-12'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực từ vanban + Công báo; chưa đọc toàn văn'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-12'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'đối chiếu thẻ vanban.chinhphu.vn (docid=213376, tệp đính kèm 86-cp.signed.pdf), Công báo (id=44745, số Công báo 671 + 672 năm 2025, người ký Phó Thủ tướng Bùi Thanh Sơn) và các quyết định phòng vệ thương mại trong sổ: Nghị định 86/2025/NĐ-CP của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương về các biện pháp phòng vệ thương mại, ban hành ngày 11-04-2025, có hiệu lực thi hành từ ngày 01-07-2025 và thay thế Nghị định 10/2018/NĐ-CP; đối chiếu đang còn hiệu lực (không có văn bản thay thế hoặc bãi bỏ trong sổ)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Khung NĐ phòng vệ thương mại hiện hành (thay 10/2018 từ 01/07/2025). Gắn nhánh chong-ban-pha-gia để đóng NUT_THIEU_LOAI NGHI_DINH.'

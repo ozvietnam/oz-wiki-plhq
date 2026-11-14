@@ -3,18 +3,18 @@ so_hieu: 56/2026/NĐ-CP
 loai: NGHI_DINH
 ten: Biểu thuế NK ưu đãi VN-Cam
 co_quan: CP
-ngay_ban_hanh: '2026-01-01'
+ngay_ban_hanh: '2026-02-12'
 hieu_luc_tu: '2026-02-12'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/bieu-thue
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
-  ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=216953) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/56-2026-nd-cp.pdf, 7 Điều + Phụ lục I, II, III, người ký Phó Thủ tướng Hồ Đức Phớc): Nghị định 56/2026/NĐ-CP của Chính phủ về Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Bản Thỏa thuận thúc đẩy thương mại song phương giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ Vương quốc Campuchia giai đoạn 2025 - 2026, ban hành ngày 12-02-2026, có hiệu lực thi hành từ ngày ký ban hành 12-02-2026 cho đến hết ngày 31-12-2026 theo khoản 1 Điều 6 (khoản 2 Điều 6 quy định xử lý tiền thuế nộp thừa đối với các tờ khai hải quan đăng ký từ ngày 28-04-2025 đến trước ngày Nghị định có hiệu lực thi hành); đối chiếu đang còn hiệu lực (không có văn bản sửa đổi, thay thế hoặc bãi bỏ trong sổ)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=216953&pageid=27160
     truy_cap: '2026-10-10'
