@@ -9,10 +9,10 @@ nhanh:
   - kiem-tra-chuyen-nganh/bkhcn
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=195316), toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/154-2018-nd-cp.pdf, wiki/sources/154-2018-nd-cp.md, 7 Điều + Phụ lục I, II) và cạnh ngược trong sổ: Nghị định 154/2018/NĐ-CP ban hành 09-11-2018, có hiệu lực từ ngày ký ban hành 09-11-2018 theo khoản 1 Điều 7; hết hiệu lực một phần (Điều 1 hết hiệu lực từ 23-08-2023 theo khoản 2 Điều 124 Nghị định 65/2023/NĐ-CP; Điều 4 bị bãi bỏ từ 01-07-2026 theo điểm c khoản 2 Điều 97 Nghị định 37/2026/NĐ-CP)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: Điều 4 hết hiệu lực từ 01/7/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=195316&pageid=27160

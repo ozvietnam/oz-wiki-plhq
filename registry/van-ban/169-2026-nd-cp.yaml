@@ -22,9 +22,9 @@ nguon:
     truy_cap: '2026-10-29'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 15-05-2026, hiệu lực 01-07-2026, thay toàn bộ NĐ 128/2020/NĐ-CP (Tổng cục Hải quan trang chính thức + vanban.chinhphu.vn); 4 chương 40 điều — mức phạt cụ thể chưa đối chiếu'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-30'
-  boi: zcode@ozvietnam
+  pham_vi: 'đối chiếu cổng Hải quan (customs.gov.vn aid=217408) và quan hệ thay thế trong sổ: Nghị định 169/2026/NĐ-CP của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hải quan (ban hành 15-05-2026, gồm 4 Chương 40 Điều), có hiệu lực thi hành từ ngày 01-07-2026 và thay thế toàn bộ Nghị định 128/2020/NĐ-CP; đối chiếu đang còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 
 ghi_chu: Trinh sát WebSearch trạm CP đêm 29/10. Đã kéo 128/2020/NĐ-CP trong sổ sang HET_HIEU_LUC 01-07-2026 theo quan hệ này. Thiếu ngày ban hành + toàn văn — nạp bổ sung khi công bố chính thức trên vanban.chinhphu.vn.
