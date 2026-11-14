@@ -53,8 +53,8 @@ flowchart LR
   n_583_Q__TCHQ["583/QĐ-TCHQ<br/>hết hiệu lực"]
   n_211_2025_N__CP["211/2025/NĐ-CP<br/>còn hiệu lực"]
   n_32_2023_N__CP["32/2023/NĐ-CP<br/>hết hiệu lực"]
-  n_25_2026_TT_BTC["25/2026/TT-BTC<br/>còn hiệu lực"]
-  n_12_2015_TT_BTC["12/2015/TT-BTC<br/>còn hiệu lực"]
+  n_25_2026_TT_BTC["25/2026/TT-BTC<br/>hết hiệu lực"]
+  n_12_2015_TT_BTC["12/2015/TT-BTC<br/>hết hiệu lực"]
   n_2538_Q__TCHQ["2538/QĐ-TCHQ<br/>còn hiệu lực"]
   n_1966_Q__TCHQ["1966/QĐ-TCHQ<br/>hết hiệu lực"]
   n_28_2017_N__CP["28/2017/NĐ-CP<br/>còn hiệu lực"]
@@ -77,6 +77,7 @@ flowchart LR
   n_44_2024_QH15["44/2024/QH15<br/>còn hiệu lực"]
   n_464_Q__BTC["464/QĐ-BTC<br/>hết hiệu lực"]
   n_465_Q__BTC["465/QĐ-BTC<br/>hết hiệu lực"]
+  n_83_2026_TT_BTC["83/2026/TT-BTC<br/>còn hiệu lực"]
   n_06_2024_TT_BTC -->|sửa đổi sửa Điều 10, 13, 14, 15, 17, 19, 20, 22, 26; bổ sung Điều 31a; sửa Điều 33 và cụm từ, khoản, phụ lục từ 2024-03-15| n_81_2019_TT_BTC
   n_06_2026_TT_BTC -->|sửa đổi từ 2026-03-01| n_13_2015_TT_BTC
   n_07_2022_QH15 -->|sửa đổi từ 2023-01-01| n_50_2005_QH11
@@ -128,6 +129,8 @@ flowchart LR
   n_76_VBHN_VPQH -->|hợp nhất| n_44_2024_QH15
   n_81_2019_TT_BTC -->|bãi bỏ Quyết định ban hành quy định quản lý rủi ro trong hoạt động nghiệp vụ hải quan từ 2021-01-01| n_464_Q__BTC
   n_81_2019_TT_BTC -->|bãi bỏ Bộ tiêu chí quản lý rủi ro trong hoạt động nghiệp vụ hải quan từ 2021-01-01| n_465_Q__BTC
+  n_83_2026_TT_BTC -->|bãi bỏ toàn bộ từ 2026-07-01| n_12_2015_TT_BTC
+  n_83_2026_TT_BTC -->|bãi bỏ toàn bộ từ 2026-07-01| n_25_2026_TT_BTC
   n_93_2025_QH15 -->|sửa đổi Sửa đổi, bổ sung điểm b khoản 1 Điều 86, khoản 1 và khoản 3 Điều 135, điểm b khoản 2 Điều 164, câu mở đầu và điểm a khoản 1 cùng khoản 3 Điều 191; bỏ cụm từ ", Điều 86a" tại khoản 3 Điều 60, khoản 4 Điều 65 và khoản 2 Điều 71; bãi bỏ các Điều 86a, 133a, khoản 2 Điều 135, Điều 136a, khoản 6 Điều 139, khoản 3 và khoản 4 Điều 164, khoản 2 Điều 191, Điều 191a, Điều 191b, khoản 4 Điều 194 của Luật Sở hữu trí tuệ số 50/2005/QH11 từ 2025-10-01| n_50_2005_QH11
 ```
 
@@ -190,6 +193,8 @@ flowchart LR
   n_91_2016_N__CP["91/2016/NĐ-CP<br/>còn hiệu lực"]
   n_155_2018_N__CP["155/2018/NĐ-CP<br/>còn hiệu lực"]
   n_30_2014_TT_BNNPTNT["30/2014/TT-BNNPTNT<br/>hết hiệu lực"]
+  n_15_2018_TT_BTTTT["15/2018/TT-BTTTT<br/>hết hiệu lực"]
+  n_30_2011_TT_BTTTT["30/2011/TT-BTTTT<br/>hết hiệu lực"]
   n_15_2024_TT_BYT["15/2024/TT-BYT<br/>còn hiệu lực"]
   n_28_2021_TT_BYT["28/2021/TT-BYT<br/>hết hiệu lực"]
   n_15_2026_NQ_CP["15/2026/NQ-CP<br/>còn hiệu lực"]
@@ -209,7 +214,7 @@ flowchart LR
   n_19_2024_TT_BYT["19/2024/TT-BYT<br/>còn hiệu lực"]
   n_14_2018_TT_BYT["14/2018/TT-BYT<br/>hết hiệu lực"]
   n_19_VBHN_BNNPTNT["19/VBHN-BNNPTNT<br/>còn hiệu lực"]
-  n_16_2015_TT_BTTTT["16/2015/TT-BTTTT<br/>còn hiệu lực"]
+  n_16_2015_TT_BTTTT["16/2015/TT-BTTTT<br/>hết hiệu lực"]
   n_24_2026_TT_BYT["24/2026/TT-BYT<br/>còn hiệu lực"]
   n_05_2022_TT_BYT["05/2022/TT-BYT<br/>còn hiệu lực"]
   n_59_2025_TT_BYT["59/2025/TT-BYT<br/>hết hiệu lực"]
@@ -234,8 +239,6 @@ flowchart LR
   n_20_2017_TT_BNNPTNT["20/2017/TT-BNNPTNT<br/>còn hiệu lực"]
   n_34_2025_TT_BYT["34/2025/TT-BYT<br/>còn hiệu lực"]
   n_36_2026_TT_BKHCN["36/2026/TT-BKHCN<br/>còn hiệu lực"]
-  n_30_2011_TT_BTTTT["30/2011/TT-BTTTT<br/>hết hiệu lực"]
-  n_15_2018_TT_BTTTT["15/2018/TT-BTTTT<br/>chưa xác minh"]
   n_10_2020_TT_BTTTT["10/2020/TT-BTTTT<br/>hết hiệu lực"]
   n_58_2015_TTLT_BCT_BKHCN["58/2015/TTLT-BCT-BKHCN<br/>hết hiệu lực"]
   n_01_2009_TT_BKHCN["01/2009/TT-BKHCN<br/>hết hiệu lực"]
@@ -309,6 +312,7 @@ flowchart LR
   n_129_2024_N__CP -->|sửa đổi| n_91_2016_N__CP
   n_129_2024_N__CP -->|sửa đổi| n_155_2018_N__CP
   n_14_2024_TT_BNNPTNT -->|thay thế từ 2024-12-15| n_30_2014_TT_BNNPTNT
+  n_15_2018_TT_BTTTT -->|sửa đổi từ 2019-01-01| n_30_2011_TT_BTTTT
   n_15_2021_TT_BNNPTNT -->|sửa đổi từ 2022-01-21| n_05_2015_TT_BNNPTNT
   n_15_2021_TT_BNNPTNT -->|sửa đổi từ 2022-01-21| n_33_2014_TT_BNNPTNT
   n_15_2024_TT_BYT -->|thay thế từ 2024-11-02| n_28_2021_TT_BYT
@@ -607,7 +611,7 @@ flowchart LR
   n_206_2025_N__CP["206/2025/NĐ-CP<br/>còn hiệu lực"]
   n_127_2022_N__CP["127/2022/NĐ-CP<br/>hết hiệu lực"]
   n_26_2015_TT_BTC["26/2015/TT-BTC<br/>còn hiệu lực"]
-  n_219_2013_TT_BTC["219/2013/TT-BTC<br/>còn hiệu lực"]
+  n_219_2013_TT_BTC["219/2013/TT-BTC<br/>hết hiệu lực"]
   n_57_2020_N__CP["57/2020/NĐ-CP<br/>hết hiệu lực"]
   n_346_2025_N__CP["346/2025/NĐ-CP<br/>còn hiệu lực"]
   n_53_2020_N__CP["53/2020/NĐ-CP<br/>hết hiệu lực"]

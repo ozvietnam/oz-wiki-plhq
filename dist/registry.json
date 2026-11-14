@@ -1573,27 +1573,41 @@
       "ten": "Hướng dẫn thi hành một số điều của Luật Quản lý thuế ngày 13 tháng 6 năm 2019 về quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu",
       "co_quan": "BTC",
       "ngay_ban_hanh": "2021-01-22",
+      "hieu_luc_tu": "2021-03-08",
       "het_hieu_luc_tu": "2026-07-01",
       "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "hai-quan/thu-tuc"
       ],
+      "quan_he": {
+        "huong_dan": [
+          "38/2019/QH14"
+        ]
+      },
       "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=202670",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2021/02/06-btc.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://cdn.thuvienphapluat.vn/uploads/mst/images/HaiYen/t7-2026/86_2026_TT_BTC_30_06_2026_1.pdf",
           "truy_cap": "2026-10-30"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 22-01-2021; HẾT hiệu lực toàn bộ từ 01-07-2026 — nguyên văn Điều 43 khoản 2 TT 86/2026/TT-BTC (PDF gốc 313 trang, đã đối chiếu trực tiếp)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-30",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=202670, Thứ trưởng Vũ Thị Mai ký) và tệp ký số 06-btc.signed.pdf: số hiệu, tiêu đề, ngày ban hành 22-01-2021, có hiệu lực từ 08-03-2021; hết hiệu lực toàn bộ từ 01-07-2026 theo khoản 2 Điều 43 Thông tư 86/2026/TT-BTC (docid=218821)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Bị TT 86/2026/TT-BTC thay toàn bộ (đầu việc #275-1).",
+      "ghi_chu": "Bị TT 86/2026/TT-BTC bãi bỏ toàn bộ từ 01-07-2026 (đầu việc #275-1).",
       "slug": "06-2021-tt-btc",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_bai_bo_boi": [
           {
@@ -4759,6 +4773,14 @@
       "quan_he": {},
       "nguon": [
         {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=16035",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2006/09/16498_nd105cp.doc",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://vi.wikisource.org/wiki/Ngh%E1%BB%8B_%C4%91%E1%BB%8Bnh_s%E1%BB%91_105/2006/N%C4%90-CP",
           "truy_cap": "2026-10-29"
         },
@@ -4772,11 +4794,11 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 22-09-2006 (wikisource nguyên văn); hiệu lực 21-10-2006 theo VBHN 03/VBHN-BKHCN; bị bãi bỏ toàn bộ 30-12-2025 theo NĐ 285/2025 (danh sách đọc nguyên văn trên báo Chính phủ)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-29",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=16035, Thủ tướng Nguyễn Tấn Dũng ký) và tệp đính kèm 16498_nd105cp.doc: số hiệu, tiêu đề, ngày ban hành 22-09-2006, hiệu lực 21-10-2006 (15 ngày sau khi đăng Công báo); hết hiệu lực phần bảo vệ quyền tác giả, quyền liên quan từ 26-04-2023 theo khoản 2 Điều 115 Nghị định 17/2023/NĐ-CP (docid=207842) và bị bãi bỏ toàn bộ từ 30-12-2025 theo Nghị định 285/2025/NĐ-CP (docid=215767)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Chết hai giai đoạn: Phần Bảo vệ quyền QTC/QLQ hết hiệu lực 26-04-2023 (NĐ 17/2023 Điều 115 khoản 2); phần còn lại bị bãi bỏ toàn bộ 30-12-2025 (NĐ 285/2025). Sửa đổi bởi NĐ 119/2010 và NĐ 46/2017.",
       "tu_khoa": [
@@ -4784,7 +4806,7 @@
         "bao-ve-quyen"
       ],
       "slug": "105-2006-nd-cp",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_sua_doi_boi": [
           {
@@ -9655,23 +9677,31 @@
       },
       "nguon": [
         {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=98504",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2010/12/104259_nd119cp.doc",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://thuvienphapluat.vn/van-ban/So-huu-tri-tue/Nghi-dinh-119-2010-ND-CP-sua-doi-Nghi-dinh-105-2006-ND-CP-huong-dan-Luat-So-huu-116778.aspx",
           "truy_cap": "2026-10-29"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 30-12-2010; Điều 2: hiệu lực 20-02-2011 (trích nguyên văn qua TVPL)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-29",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=98504, Thủ tướng Nguyễn Tấn Dũng ký) và tệp đính kèm 104259_nd119cp.doc: số hiệu, tiêu đề, ngày ban hành 30-12-2010, Điều 2 có hiệu lực từ 20-02-2011; hết hiệu lực từ 26-04-2023 theo khoản 2 Điều 115 Nghị định 17/2023/NĐ-CP (docid=207842) và bị bãi bỏ toàn bộ từ 30-12-2025 theo Nghị định 285/2025/NĐ-CP (docid=215767)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Hết hiệu lực từ 26-04-2023 theo Điều 115 khoản 2 NĐ 17/2023/NĐ-CP.",
       "tu_khoa": [
         "so-huu-tri-tue"
       ],
       "slug": "119-2010-nd-cp",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_thay_the_boi": [
           {
@@ -10035,7 +10065,8 @@
       "co_quan": "BTC",
       "ngay_ban_hanh": "2015-01-30",
       "hieu_luc_tu": "2015-03-15",
-      "tinh_trang": "CON_HIEU_LUC",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "hai-quan/thu-tuc"
       ],
@@ -10057,12 +10088,12 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "đã đối chiếu toàn văn bản ký số 28 trang trên vanban.chinhphu.vn (docid=179327, Thứ trưởng Đỗ Hoàng Anh Tuấn ký): số hiệu, tên, ngày ban hành 30/01/2015, Điều 16 khoản 1 hiệu lực từ 15/03/2015 và thay thế Thông tư 80/2011/TT-BTC; đang còn hiệu lực (được sửa đổi, bổ sung một phần bởi Thông tư 22/2019/TT-BTC và Thông tư 25/2026/TT-BTC)",
+        "pham_vi": "đã đối chiếu toàn văn bản ký số 28 trang trên vanban.chinhphu.vn (docid=179327, Thứ trưởng Đỗ Hoàng Anh Tuấn ký): số hiệu, tên, ngày ban hành 30/01/2015, Điều 16 khoản 1 hiệu lực từ 15/03/2015 và thay thế Thông tư 80/2011/TT-BTC; được sửa đổi, bổ sung một phần bởi Thông tư 22/2019/TT-BTC, Thông tư 79/2022/TT-BTC và Thông tư 25/2026/TT-BTC; đã hết hiệu lực toàn bộ kể từ ngày 01-07-2026 theo khoản 2 Điều 15 Thông tư 83/2026/TT-BTC (docid=218769)",
         "hieu_luc_da_doi_chieu": true,
-        "ngay": "2026-11-12",
-        "boi": "bo-ba-01@ozvietnam"
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Nạp từ điểm mù CAO (OZV-556) — văn bản gốc được sửa đổi, bổ sung một phần bởi Thông tư 25/2026/TT-BTC.",
+      "ghi_chu": "Nạp từ điểm mù CAO (OZV-556) — văn bản gốc được sửa đổi, bổ sung một phần bởi Thông tư 25/2026/TT-BTC; hết hiệu lực toàn bộ từ 01-07-2026 theo khoản 2 Điều 15 TT 83/2026/TT-BTC.",
       "toan_van": "raw/download/datafiles.chinhphu.vn/12-2015-tt-btc.pdf",
       "slug": "12-2015-tt-btc",
       "bac_nguon_cao_nhat": "A",
@@ -10073,6 +10104,16 @@
             "quan_he": "sua_doi",
             "so_hieu": "12/2015/TT-BTC",
             "tu_ngay": "2026-05-10"
+          }
+        ],
+        "bi_bai_bo_boi": [
+          {
+            "tu": "83/2026/TT-BTC",
+            "quan_he": "bai_bo",
+            "so_hieu": "12/2015/TT-BTC",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 15 khoản 2 TT 83/2026/TT-BTC"
           }
         ]
       }
@@ -16432,25 +16473,46 @@
       "co_quan": "BTTTT",
       "ngay_ban_hanh": "2018-11-15",
       "hieu_luc_tu": "2019-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "30/2011/TT-BTTTT",
+            "tu_ngay": "2019-01-01"
+          }
+        ]
+      },
       "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=195527",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/12/15-btttt.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-15-2018-tt-btttt-27656.htm",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://thuvienphapluat.vn/van-ban/Thuong-mai/Thong-tu-15-2018-TT-BTTTT-chung-nhan-hop-quy-cong-bo-hop-quy-san-pham-nganh-cong-nghe-400214.aspx",
           "truy_cap": "2026-10-04"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=195527, Bộ trưởng Nguyễn Mạnh Hùng ký), tệp ký số 15-btttt.signed.pdf và Công báo (id=27656): số hiệu, tiêu đề, ngày ban hành 15-11-2018, có hiệu lực từ 01-01-2019; hết hiệu lực toàn bộ kể từ ngày 01-07-2026 theo điểm c khoản 2 Điều 6 Thông tư 36/2026/TT-BKHCN (docid=218716)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "15-2018-tt-btttt",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_thay_the_boi": [
           {
@@ -18370,33 +18432,49 @@
     {
       "so_hieu": "16/2015/TT-BTTTT",
       "loai": "THONG_TU",
-      "ten": "Quy định chi tiết thi hành Nghị định số 187/2013/NĐ-CP về hoạt động xuất bản, in và phát hành",
+      "ten": "Quy định chi tiết thi hành Nghị định số 187/2013/NĐ-CP ngày 20 tháng 11 năm 2013 của Chính phủ về xuất khẩu, nhập khẩu hàng hóa trong lĩnh vực in, phát hành xuất bản phẩm",
       "co_quan": "BTTTT",
-      "tinh_trang": "CON_HIEU_LUC",
+      "ngay_ban_hanh": "2015-06-17",
+      "hieu_luc_tu": "2015-08-15",
+      "het_hieu_luc_tu": "2019-02-12",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
+      "quan_he": {
+        "huong_dan": [
+          "187/2013/NĐ-CP"
+        ]
+      },
       "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-16-2015-tt-btttt-13663.htm",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://mst.gov.vn/van-ban-phap-luat/10162.htm",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://thuvienphapluat.vn/van-ban/Thong-tu-11-2024-TT-BTTTT-danh-muc-hang-hoa-xuat-nhap-khau-linh-vuc-in-639655.aspx",
           "truy_cap": "2026-10-22"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "TT 16/2015 — quy định chi tiết NĐ 187/2013 XNK lĩnh vực in, phát hành (issue #212)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-22",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu Công báo Chính phủ (id=13663, Công báo số 643+644 năm 2015) và cổng Bộ KH&CN (mst.gov.vn/van-ban-phap-luat/10162.htm, Bộ trưởng Nguyễn Bắc Son ký): số hiệu, tiêu đề, ngày ban hành 17-06-2015, có hiệu lực từ 15-08-2015; đã hết hiệu lực toàn bộ kể từ ngày 12-02-2019 do bị thay thế bởi điểm a khoản 1 Điều 2 Thông tư 22/2018/TT-BTTTT (docid=195976)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Chi tiết thủ tục XNK lĩnh vực in phát hành theo NĐ 187/2013.",
+      "ghi_chu": "Chi tiết thủ tục XNK lĩnh vực in, phát hành theo NĐ 187/2013; hết hiệu lực từ 12-02-2019 (thay bởi TT 22/2018/TT-BTTTT).",
       "tu_khoa": [
         "xuat-ban",
         "in",
         "xuat-nhap-khau"
       ],
       "slug": "16-2015-tt-btttt",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_thay_the_boi": [
           {
@@ -24279,6 +24357,11 @@
             "tu": "11/2017/TT-BCT",
             "quan_he": "huong_dan",
             "so_hieu": "187/2013/NĐ-CP"
+          },
+          {
+            "tu": "16/2015/TT-BTTTT",
+            "quan_he": "huong_dan",
+            "so_hieu": "187/2013/NĐ-CP"
           }
         ]
       }
@@ -24619,11 +24702,28 @@
       "ten": "Thông tư bãi bỏ Thông tư số 304/2016/TT-BTC ngày 15/11/2016 của Bộ trưởng Bộ Tài chính ban hành Bảng giá tính lệ phí trước bạ đối với ô tô, xe mô tô",
       "co_quan": "BTC",
       "ngay_ban_hanh": "2019-04-09",
+      "hieu_luc_tu": "2019-04-10",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "quan-ly-ngoai-thuong"
       ],
       "nguon": [
+        {
+          "url": "https://www.mof.gov.vn/api/mediafile/media-article/61206b44-d862-4b77-8db8-d46256648d93/750b9933-9eed-4d07-ad96-c367fb9b4452.docx",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://www.mof.gov.vn/api/mediafile/media-article/61206b44-d862-4b77-8db8-d46256648d93/e2a926fc-239f-45ae-bf20-61a16424e1a0.docx",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-20-2019-nd-cp-28530/25997.htm",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-304-2016-tt-btc-21945.htm",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://thuvienphapluat.vn/van-ban/Thue-Phi-Le-Phi/Thong-tu-19-2019-TT-BTC-bai-bo-Thong-tu-304-2016-TT-BTC-Bang-gia-tinh-le-phi-truoc-ba-o-to-412267.aspx",
           "truy_cap": "2026-11-06"
@@ -24634,15 +24734,15 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "Đã đọc toàn văn trên thuvienphapluat.vn: tên, số hiệu, ngày ban hành 09/04/2019, người ký Trần Xuân Hà (Thứ trưởng BTC), nội dung duy nhất là bãi bỏ TT 304/2016/TT-BTC; luatvietnam.vn corroborate. Còn thiếu: đối chiếu Công báo gốc; ngày hiệu lực phụ thuộc ngày NĐ 20/2019/NĐ-CP có hiệu lực nên chưa chốt.",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-06",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu Danh mục I (văn bản QPPL còn hiệu lực) và Danh mục II (văn bản QPPL hết hiệu lực toàn bộ) kèm theo Quyết định 1092/QĐ-BTC ngày 13-05-2024 của Bộ Tài chính trên mof.gov.vn cùng Công báo Nghị định 20/2019/NĐ-CP (id=28530) và Thông tư 304/2016/TT-BTC (id=21945): số hiệu 19/2019/TT-BTC, ngày ban hành 09-04-2019 (Thứ trưởng Trần Xuân Hà ký), có hiệu lực từ 10-04-2019 (cùng thời điểm Nghị định 20/2019/NĐ-CP có hiệu lực), Điều 1 bãi bỏ toàn bộ Thông tư 304/2016/TT-BTC ngày 15-11-2016; đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nạp đợt \"làm tất\" 6/11 (#87 P1/P2 + #209). CẢNH BÁO NHẪM: issue #87 gán 19/2019/TT-BTC là \"Quy định NSW Cổng thông tin một cửa\" — SAI; toàn văn TTPL xác nhận đây là TT bãi bỏ TT 304/2016/TT-BTC (Bảng giá tính lệ phí trước bạ ô tô, xe mô tô), có hiệu lực khi NĐ 20/2019/NĐ-CP có hiệu lực. Đã đối chiếu thêm 06-11-2026 trên hệ thống văn bản quốc gia: các ứng viên \"TT NSW\" đều là TT khác (18/2019/TT-BTC và 06/2019/TT-BTC, 02/2018/TT-BTC, 03/2020/TT-BTC, 27/2023/TT-BTC — tra từng số, không TT nào về NSW); khung NSW cho hàng XNK thực tế là QĐ 1254/QĐ-TTg (26/9/2018) → NĐ 85/2019/NĐ-CP (HL 01/01/2020) → NĐ 336/2026/NĐ-CP (HL 15/10/2026, Điều 48 thay thế 85/2019). Liên quan XNK: gián tiếp — ô tô nhập khẩu nộp lệ phí trước bạ tính trên giá tính thuế XNK, việc bãi bỏ bảng giá 304/2016 chuyển sang cách tính theo NĐ 20/2019/NĐ-CP sửa NĐ 140/2016/NĐ-CP.",
       "slug": "19-2019-tt-btc",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -26212,25 +26312,34 @@
     {
       "so_hieu": "195/2013/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Quy định chi tiết một số điều của Luật Xuất bản về hoạt động xuất bản, in và phát hành",
+      "ten": "Quy định chi tiết một số điều và biện pháp thi hành Luật Xuất bản",
       "co_quan": "CP",
-      "ngay_ban_hanh": "2013-11-14",
+      "ngay_ban_hanh": "2013-11-21",
+      "hieu_luc_tu": "2014-03-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "quan-ly-ngoai-thuong"
       ],
       "nguon": [
         {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-195-2013-nd-cp-4253.htm",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://mst.gov.vn/van-ban-phap-luat/10106.htm",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://thuvienphapluat.vn/van-ban/Thong-tu-11-2024-TT-BTTTT-danh-muc-hang-hoa-xuat-nhap-khau-linh-vuc-in-639655.aspx",
           "truy_cap": "2026-10-22"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "NĐ 195/2013 — điều kiện hoạt động in; sửa bởi NĐ 60/2014 + NĐ 25/2018 (issue #212)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-22",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu Công báo Chính phủ (id=4253, Công báo số 225+226 năm 2014) và cổng Bộ KH&CN (mst.gov.vn/van-ban-phap-luat/10106.htm, Thủ tướng Nguyễn Tấn Dũng ký): số hiệu, tiêu đề, ngày ban hành 21-11-2013 (hiệu đính từ 14-11-2013 ở bản ghi cũ), có hiệu lực từ 01-03-2014; đang còn hiệu lực (được sửa đổi, bổ sung một phần bởi Nghị định 60/2014/NĐ-CP, Nghị định 25/2018/NĐ-CP và Nghị định 150/2018/NĐ-CP)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Điều kiện hoạt động in — nhập thiết bị in phải đáp ứng điều kiện này.",
       "tu_khoa": [
@@ -26239,7 +26348,7 @@
         "xuat-nhap-khau"
       ],
       "slug": "195-2013-nd-cp",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "duoc_huong_dan_boi": [
           {
@@ -27865,26 +27974,39 @@
       "loai": "THONG_TU",
       "ten": "Quy định về hồ sơ nghiệp vụ kiểm dịch thực vật",
       "co_quan": "BNNPTNT",
-      "ngay_ban_hanh": "2021-11-30",
+      "ngay_ban_hanh": "2021-12-28",
+      "hieu_luc_tu": "2022-02-11",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
       "nguon": [
         {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204999",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/01/20-bnn.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-20-2021-tt-bnnptnt-quy-dinh-ho-so-nghiep-vu-kiem-dich-thuc-vat--152303",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://trolyluat.vn/van-ban/thong-tu-202021tt-bnnptnt-quy-dinh-ho-so-nghiep-vu-kiem-dich-thuc-vat-33032",
           "truy_cap": "2026-10-28"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 30-11-2021; hiệu lực chưa đối chiếu PDF gốc (nguồn phụ ghi ~01-02-2022 theo thời hạn 60 ngày). KHÔNG ghi quan hệ sửa 33/2014: PDF hợp nhất Cục BVTV không liệt kê TT 20/2021 trong chuỗi sửa đổi trình tự thủ tục",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-28",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=204999, Thứ trưởng Lê Quốc Doanh ký), tệp ký số 20-bnn.signed.pdf và CSDL quốc gia vbpl.vn (id=152303, Công báo số 65+66 ngày 16-01-2022): số hiệu, tiêu đề, ngày ban hành 28-12-2021 (hiệu đính từ 30-11-2021 ở bản ghi cũ), Điều 9 có hiệu lực từ 11-02-2022 và thay thế Thông tư 14/2012/TT-BNNPTNT; đang còn hiệu lực (được hợp nhất tại 99/2026/VBHN-TT-BNNMT)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "20-2021-tt-bnnptnt",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "duoc_hop_nhat_boi": [
           {
@@ -31291,26 +31413,43 @@
     {
       "so_hieu": "219/2013/TT-BTC",
       "loai": "THONG_TU",
-      "ten": "Hướng dẫn thi hành Luật Thuế GTGT và Luật Quản lý thuế",
+      "ten": "Hướng dẫn thi hành Luật Thuế giá trị gia tăng và Nghị định số 209/2013/NĐ-CP ngày 18/12/2013 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều Luật Thuế giá trị gia tăng",
       "co_quan": "BTC",
       "ngay_ban_hanh": "2013-12-31",
       "hieu_luc_tu": "2014-01-01",
-      "tinh_trang": "CON_HIEU_LUC",
+      "het_hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "thue"
       ],
       "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=172570",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2014/02/tt-219.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=214417",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/69-btc.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://thuvienphapluat.vn/van-ban/Tai-chinh-Nha-nuoc/Thong-tu-219-2013-TT-BTC-215512.aspx",
           "truy_cap": "2026-10-22"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "TT 219/2013 hướng dẫn GTGT — Điều 5 mẫu 05: hàng hóa dịch vụ không chịu GTGT; sửa bởi TT 26/2015/TT-BTC",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-22",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=172570, Thứ trưởng Đỗ Hoàng Anh Tuấn ký) và tệp đính kèm tt-219.pdf: số hiệu, tiêu đề, ngày ban hành 31-12-2013, có hiệu lực từ 01-01-2014; đã hết hiệu lực toàn bộ kể từ ngày 01-07-2025 khi Luật Thuế GTGT 48/2024/QH15, Nghị định 181/2025/NĐ-CP (docid=214336) và Thông tư 69/2025/TT-BTC ngày 01-07-2025 (docid=214417, 69-btc.signed.pdf) có hiệu lực thay thế",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Điều 5 TT 219/2013: hóa đơn hàng không chịu thuế GTGT mẫu 05 — dùng cho hàng giao thẳng nước thứ ba (#227).",
       "tu_khoa": [
@@ -31318,7 +31457,7 @@
         "thue"
       ],
       "slug": "219-2013-tt-btc",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_sua_doi_boi": [
           {
@@ -35584,7 +35723,8 @@
       "co_quan": "BTC",
       "ngay_ban_hanh": "2026-03-25",
       "hieu_luc_tu": "2026-05-10",
-      "tinh_trang": "CON_HIEU_LUC",
+      "het_hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "hai-quan/thu-tuc"
       ],
@@ -35598,8 +35738,12 @@
       },
       "nguon": [
         {
-          "url": "https://chinhphu.vn",
-          "truy_cap": "2026-10-30"
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=217361",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/25-btc.pdf",
+          "truy_cap": "2026-11-14"
         },
         {
           "url": "https://thuvienphapluat.vn",
@@ -35607,16 +35751,27 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề đầy đủ, ngày ban hành 25-03-2026, hiệu lực 10-05-2026, sửa TT 12/2015/TT-BTC (chứng chỉ nghiệp vụ KH + mã số NVKH) — cần URL công báo chính xác khi nâng A",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-30",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=217361, Thứ trưởng Nguyễn Đức Chi ký) và tệp đính kèm 25-btc.pdf: số hiệu, tiêu đề đầy đủ, ngày ban hành 25-03-2026, có hiệu lực từ 10-05-2026, sửa đổi, bổ sung một số điều của Thông tư 12/2015/TT-BTC; đã hết hiệu lực toàn bộ kể từ ngày 01-07-2026 theo khoản 2 Điều 15 Thông tư 83/2026/TT-BTC (docid=218769)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Đầu việc #275-5: nghiệp vụ khai hải quan (đối tượng: nhân viên khai HQ của khách) — nạp theo giá trị.",
+      "ghi_chu": "Đầu việc #275-5: nghiệp vụ khai hải quan (đối tượng: nhân viên khai HQ của khách) — nạp theo giá trị. Hết hiệu lực toàn bộ từ 01-07-2026 theo khoản 2 Điều 15 TT 83/2026/TT-BTC.",
       "slug": "25-2026-tt-btc",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "83/2026/TT-BTC",
+            "quan_he": "bai_bo",
+            "so_hieu": "25/2026/TT-BTC",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 15 khoản 2 TT 83/2026/TT-BTC"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "25/TB-TCHQ/2020",
@@ -42090,6 +42245,14 @@
       "slug": "30-2011-tt-btttt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "15/2018/TT-BTTTT",
+            "quan_he": "sua_doi",
+            "so_hieu": "30/2011/TT-BTTTT",
+            "tu_ngay": "2019-01-01"
+          }
+        ],
         "bi_thay_the_boi": [
           {
             "tu": "36/2026/TT-BKHCN",
@@ -54810,6 +54973,13 @@
       "slug": "38-2019-qh14",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "06/2021/TT-BTC",
+            "quan_he": "huong_dan",
+            "so_hieu": "38/2019/QH14"
+          }
+        ],
         "bi_thay_the_boi": [
           {
             "tu": "108/2025/QH15",
@@ -86202,6 +86372,22 @@
       "nhanh": [
         "hai-quan/thu-tuc"
       ],
+      "quan_he": {
+        "bai_bo": [
+          {
+            "so_hieu": "12/2015/TT-BTC",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 15 khoản 2 TT 83/2026/TT-BTC"
+          },
+          {
+            "so_hieu": "25/2026/TT-BTC",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2026-07-01",
+            "can_cu": "Điều 15 khoản 2 TT 83/2026/TT-BTC"
+          }
+        ]
+      },
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=218769",
@@ -86223,7 +86409,7 @@
         "ngay": "2026-11-14",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Trinh sát đêm 10/11, đối chiếu nguồn A ngày 14/11. Đại lý HQ chuyển quản lý công nhận → tiêu chuẩn thông báo (Luật HQ sửa đổi bởi Luật 90/2025/QH15). Lưu ý: khoản 2 Điều 15 bãi bỏ toàn bộ 12/2015/TT-BTC, 22/2019/TT-BTC và 25/2026/TT-BTC từ 01-07-2026 (cần cập nhật tinh_trang của 12/2015/TT-BTC và 25/2026/TT-BTC sang HET_HIEU_LUC ở thẻ riêng trước khi nối quan_he.bai_bo).",
+      "ghi_chu": "Trinh sát đêm 10/11, đối chiếu nguồn A ngày 14/11. Đại lý HQ chuyển quản lý công nhận → tiêu chuẩn thông báo (Luật HQ sửa đổi bởi Luật 90/2025/QH15). Khoản 2 Điều 15 bãi bỏ toàn bộ 12/2015/TT-BTC, 22/2019/TT-BTC và 25/2026/TT-BTC từ 01-07-2026 (22/2019/TT-BTC chưa có mục riêng trong sổ nên ghi nhận tại pham_vi).",
       "slug": "83-2026-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
