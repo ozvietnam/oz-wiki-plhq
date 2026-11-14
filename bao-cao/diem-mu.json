@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-14",
-  "tong": 5007,
+  "tong": 5006,
   "diem": [
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -43255,15 +43255,6 @@
       "viec": "Văn bản danh mục chưa có danh-muc/45-2023-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 15 mã.",
       "luong": "danh-muc-hs",
       "trongSo": 15
-    },
-    {
-      "ma": "DANH_MUC_CHUA_TRICH",
-      "muc": "Cao",
-      "tieuDe": "Chưa trích bảng mã HS: 4814/QĐ-BCA",
-      "muc_tieu": "4814/QĐ-BCA",
-      "viec": "Văn bản danh mục chưa có danh-muc/4814-qd-bca-2026.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
-      "luong": "danh-muc-hs",
-      "trongSo": 10000
     },
     {
       "ma": "DANH_MUC_CHUA_TRICH",
