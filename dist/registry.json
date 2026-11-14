@@ -4815,12 +4815,6 @@
             "quan_he": "sua_doi",
             "so_hieu": "105/2006/NĐ-CP",
             "tu_ngay": "2011-02-20"
-          },
-          {
-            "tu": "46/2017/NĐ-CP",
-            "quan_he": "sua_doi",
-            "so_hieu": "105/2006/NĐ-CP",
-            "tu_ngay": "2017-06-01"
           }
         ],
         "bi_bai_bo_boi": [
@@ -13554,12 +13548,6 @@
             "quan_he": "sua_doi",
             "so_hieu": "131/2013/NĐ-CP",
             "tu_ngay": "2017-05-05"
-          },
-          {
-            "tu": "46/2017/NĐ-CP",
-            "quan_he": "sua_doi",
-            "so_hieu": "131/2013/NĐ-CP",
-            "tu_ngay": "2017-06-01"
           }
         ]
       }
@@ -26355,13 +26343,6 @@
           {
             "tu": "22/2018/TT-BTTTT",
             "quan_he": "huong_dan",
-            "so_hieu": "195/2013/NĐ-CP"
-          }
-        ],
-        "bi_sua_doi_boi": [
-          {
-            "tu": "60/2014/NĐ-CP",
-            "quan_he": "sua_doi",
             "so_hieu": "195/2013/NĐ-CP"
           }
         ]
@@ -50965,29 +50946,46 @@
     {
       "so_hieu": "35/2018/QH14",
       "loai": "LUAT",
-      "ten": "Luật sửa đổi, bổ sung một số điều của các Luật có liên quan đến quy hoạch",
+      "ten": "Luật sửa đổi, bổ sung một số điều của 37 Luật có liên quan đến quy hoạch",
       "co_quan": "QH",
       "ngay_ban_hanh": "2018-11-20",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "hieu_luc_tu": "2019-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "hai-quan/luat-khung"
       ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "54/2014/QH13",
+            "tu_ngay": "2019-01-01"
+          }
+        ]
+      },
       "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=206103",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/07/35.2018.qh14.pdf",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://vi.wikisource.org",
           "truy_cap": "2026-10-29"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề — luật sửa nhiều luật; phần sửa Luật Hải quan 54/2014 (thủ tục HQ chế biến, chế xuất...) chưa đối chiếu điều khoản cụ thể",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-29",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=206103, Chủ tịch Quốc hội Nguyễn Thị Kim Ngân ký) và toàn văn PDF đính kèm (35.2018.qh14.pdf): số hiệu 35/2018/QH14, tiêu đề chính thức 'Luật sửa đổi, bổ sung một số điều của 37 Luật có liên quan đến quy hoạch', thông qua ngày 20-11-2018, có hiệu lực thi hành từ ngày 01-01-2019; đang còn hiệu lực (trong đó sửa đổi, bổ sung một số điều của Luật Hải quan 54/2014/QH13 đã được hợp nhất tại VBHN 54/VBHN-VPQH)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nạp tối thiểu theo rà soát PL hải quan 29/10: phần sửa Luật HQ đã nằm trong VBHN 54/VBHN-VPQH (có sẵn) — file riêng để cạnh sửa đổi truy xuất được. PHÂN BIỆT: luật sửa Luật HQ là 35/2018/QH14; 102/2020/QH14 trong sổ là Nghị quyết phê chuẩn EVFTA (khác hoàn toàn).",
       "slug": "35-2018-qh14",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -52276,16 +52274,24 @@
       ],
       "nguon": [
         {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=14765",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2006/07/15224_l36qh.rtf",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://thuvienphapluat.vn/van-ban/Thuong-mai/Luat-Thuong-mai-36-2005-QH11-5707.aspx",
           "truy_cap": "2026-10-22"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "Luật Thương mại 2005 — nền quyền mua bán hàng hóa quốc tế của thương nhân VN (Điều 27, 28: mua bán hàng hóa quốc tế)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-22",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=14765, Chủ tịch Quốc hội Nguyễn Văn An ký) và toàn văn tệp đính kèm (15224_l36qh.rtf): số hiệu 36/2005/QH11, tiêu đề 'Luật Thương mại', được Quốc hội khóa XI thông qua ngày 14-06-2005 (thẻ Cổng Chính phủ ghi 27-06-2005 theo ngày Lệnh công bố), có hiệu lực thi hành từ ngày 01-01-2006 (Điều 323, thay thế Luật Thương mại ngày 10-05-1997); đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Luật Quản lý ngoại thương 05/2017/QH14 và Luật Phòng, chống tác hại của rượu, bia 44/2019/QH14)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Điều 27-28 là căn cứ quyền mua bán hàng quốc tế của thương nhân VN — ca giao thẳng nước thứ ba (#227).",
       "tu_khoa": [
@@ -52293,7 +52299,7 @@
         "thue"
       ],
       "slug": "36-2005-qh11",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "duoc_huong_dan_boi": [
           {
@@ -55108,6 +55114,11 @@
         "duoc_huong_dan_boi": [
           {
             "tu": "06/2021/TT-BTC",
+            "quan_he": "huong_dan",
+            "so_hieu": "38/2019/QH14"
+          },
+          {
+            "tu": "78/2021/TT-BTC",
             "quan_he": "huong_dan",
             "so_hieu": "38/2019/QH14"
           }
@@ -63065,49 +63076,48 @@
     {
       "so_hieu": "46/2017/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 99/2013/NĐ-CP, Nghị định số 105/2006/NĐ-CP và Nghị định số 131/2013/NĐ-CP về xử phạt vi phạm hành chính và bảo vệ quyền sở hữu trí tuệ",
+      "ten": "Quy định về điều kiện đầu tư và hoạt động trong lĩnh vực giáo dục",
       "co_quan": "CP",
       "ngay_ban_hanh": "2017-04-21",
-      "hieu_luc_tu": "2017-06-01",
-      "tinh_trang": "CON_HIEU_LUC",
+      "hieu_luc_tu": "2017-04-21",
+      "het_hieu_luc_tu": "2024-11-20",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "hai-quan/kiem-tra-giam-sat"
       ],
-      "quan_he": {
-        "sua_doi": [
-          {
-            "so_hieu": "99/2013/NĐ-CP",
-            "tu_ngay": "2017-06-01"
-          },
-          {
-            "so_hieu": "105/2006/NĐ-CP",
-            "tu_ngay": "2017-06-01"
-          },
-          {
-            "so_hieu": "131/2013/NĐ-CP",
-            "tu_ngay": "2017-06-01"
-          }
-        ]
-      },
+      "quan_he": {},
       "nguon": [
         {
-          "url": "https://thuvienphapluat.vn/van-ban/So-huu-tri-tue/Nghi-dinh-46-2017-ND-CP-sua-doi-Nghi-dinh-99-2013-ND-CP-105-2006-ND-CP-131-2013-ND-CP-335262.aspx",
-          "truy_cap": "2026-10-29"
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=189520",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2017/04/46.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-135-2018-nd-cp-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-46-2017-nd-cp-ngay-21-4-2017-cua-chinh-phu-quy-dinh-ve-dieu-kien-dau-tu-va-hoat-dong-trong-linh-vuc-giao-duc--133934",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=211562",
+          "truy_cap": "2026-11-14"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, ngày ban hành 21-04-2017, hiệu lực 01-06-2017, ba văn bản bị sửa đổi",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-29",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=189520), toàn văn PDF ký số (46.signed.pdf, Thủ tướng Nguyễn Xuân Phúc ký) và CSDL quốc gia vbpl.vn (ItemID=133934): số hiệu 46/2017/NĐ-CP, ban hành ngày 21-04-2017, có hiệu lực thi hành từ ngày 21-04-2017 theo khoản 1 Điều 114, quy định về điều kiện đầu tư và hoạt động trong lĩnh vực giáo dục (đính chính trích yếu và quan hệ sửa đổi bị ghi nhầm từ nguồn thứ cấp — văn bản sửa đổi 131/2013/NĐ-CP là 28/2017/NĐ-CP và văn bản sửa đổi 99/2013/NĐ-CP là 46/2024/NĐ-CP). Đã hết hiệu lực toàn bộ từ ngày 20-11-2024 khi bị Nghị định 125/2024/NĐ-CP ngày 05-10-2024 (vanban.chinhphu.vn docid=211562, chưa nạp vào sổ) thay thế.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "ghi_chu": "Trên nguồn A (vanban.chinhphu.vn docid=189520, 46.signed.pdf), Nghị định 46/2017/NĐ-CP ngày 21-04-2017 là văn bản quy định về điều kiện đầu tư và hoạt động trong lĩnh vực giáo dục (có hiệu lực từ 21-04-2017, được sửa đổi, bổ sung bởi NĐ 135/2018/NĐ-CP, hết hiệu lực từ 20-11-2024 bởi NĐ 125/2024/NĐ-CP). Bản ghi sơ bộ ngày 29/10 bị nhầm trích yếu từ NĐ 28/2017/NĐ-CP và NĐ 46/2024/NĐ-CP.",
       "tu_khoa": [
         "so-huu-tri-tue",
         "xu-phat"
       ],
       "slug": "46-2017-nd-cp",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -69918,6 +69928,12 @@
             "so_hieu": "54/2014/QH13",
             "tu_ngay": "2027-03-01",
             "can_cu": "Điều 1 Luật 11/2026/QH16 (Công báo số 518 ngày 21-09-2026)"
+          },
+          {
+            "tu": "35/2018/QH14",
+            "quan_he": "sua_doi",
+            "so_hieu": "54/2014/QH13",
+            "tu_ngay": "2019-01-01"
           }
         ],
         "duoc_hop_nhat_boi": [
@@ -73453,40 +73469,47 @@
     {
       "so_hieu": "60/2014/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 195/2013/NĐ-CP",
+      "ten": "Quy định về hoạt động in",
       "co_quan": "CP",
+      "ngay_ban_hanh": "2014-06-19",
+      "hieu_luc_tu": "2014-11-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "quan-ly-ngoai-thuong"
       ],
-      "quan_he": {
-        "sua_doi": [
-          {
-            "so_hieu": "195/2013/NĐ-CP"
-          }
-        ]
-      },
       "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=174499",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2014/06/60-nd.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://mst.gov.vn/van-ban-phap-luat/10123.htm",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://thuvienphapluat.vn/van-ban/Thong-tu-11-2024-TT-BTTTT-danh-muc-hang-hoa-xuat-nhap-khau-linh-vuc-in-639655.aspx",
           "truy_cap": "2026-10-22"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "sửa NĐ 195/2013 (điều kiện hoạt động in)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-22",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=174499, Thủ tướng Nguyễn Tấn Dũng ký), toàn văn PDF ký số (60-nd.signed.pdf) và cổng Bộ KH&CN (mst.gov.vn/van-ban-phap-luat/10123.htm): hiệu đính tên chính thức thành 'Quy định về hoạt động in' (bản ghi cũ ghi nhầm là sửa đổi NĐ 195/2013/NĐ-CP), ban hành ngày 19-06-2014, có hiệu lực thi hành từ ngày 01-11-2014 (thay thế Nghị định 105/2007/NĐ-CP và Nghị định 72/2011/NĐ-CP); đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Nghị định 25/2018/NĐ-CP từ 01-05-2018 và Nghị định 72/2022/NĐ-CP từ 01-01-2023)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Sửa NĐ 195/2013 (lần 1).",
+      "ghi_chu": "Nghị định gốc quy định về hoạt động in (bao gồm nhập khẩu thiết bị in); được sửa đổi, bổ sung bởi NĐ 25/2018/NĐ-CP và NĐ 72/2022/NĐ-CP.",
       "tu_khoa": [
         "xuat-ban",
         "in",
         "xuat-nhap-khau"
       ],
       "slug": "60-2014-nd-cp",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "duoc_huong_dan_boi": [
           {
@@ -84863,14 +84886,20 @@
     {
       "so_hieu": "78/2021/TT-BTC",
       "loai": "THONG_TU",
-      "ten": "Hướng dẫn một số điều về hóa đơn, chứng từ theo NĐ 123/2020/NĐ-CP",
+      "ten": "Hướng dẫn thực hiện một số điều của Luật Quản lý thuế ngày 13 tháng 6 năm 2019, Nghị định số 123/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định về hóa đơn, chứng từ",
       "co_quan": "BTC",
-      "tinh_trang": "CON_HIEU_LUC",
+      "ngay_ban_hanh": "2021-09-17",
+      "hieu_luc_tu": "2022-07-01",
+      "het_hieu_luc_tu": "2025-06-01",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "thue"
       ],
       "quan_he": {
         "huong_dan": [
+          {
+            "so_hieu": "38/2019/QH14"
+          },
           {
             "so_hieu": "123/2020/NĐ-CP"
           }
@@ -84878,24 +84907,36 @@
       },
       "nguon": [
         {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204200",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2021/09/78-btc.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-32-2025-tt-btc-huong-dan-thuc-hien-mot-so-dieu-cua-luat-quan-ly-thue-ngay-13-thang-6-nam-2019-nghi-dinh-so-123-2020-nd-cp-ngay-19-thang-10-nam-2020-cua-chinh-phu-quy-dinh-ve-hoa-don-chung-tu-nghi-dinh-so-70-2025-nd-cp-ngay-20-thang-3-nam-2025-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-123-2020-nd-cp--178309",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://thuvienphapluat.vn/van-ban/Tai-chinh-Nha-nuoc/Nghi-dinh-123-2020-ND-CP-379445.aspx",
           "truy_cap": "2026-10-22"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "TT 78/2021 hướng dẫn NĐ 123/2020 (mẫu hóa đơn, ghi chú hàng không chịu thuế); ngày HL chưa đối chiếu — điểm mù",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-22",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=204200, Thứ trưởng Bộ Tài chính Trần Xuân Hà ký), toàn văn PDF đính kèm (78-btc.pdf) và CSDL quốc gia vbpl.vn (ItemID=178309 — Thông tư 32/2025/TT-BTC): Thông tư 78/2021/TT-BTC ban hành ngày 17-09-2021, có hiệu lực thi hành từ ngày 01-07-2022 (khoản 1 Điều 11), hướng dẫn Luật Quản lý thuế 38/2019/QH14 và Nghị định 123/2020/NĐ-CP về hóa đơn, chứng từ; đã hết hiệu lực toàn bộ kể từ ngày 01-06-2025 do bị thay thế bởi Thông tư số 32/2025/TT-BTC ngày 31-05-2025 của Bộ trưởng Bộ Tài chính (Thông tư 32/2025/TT-BTC chưa nạp vào sổ)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Hướng dẫn NĐ 123/2020.",
+      "ghi_chu": "Hướng dẫn NĐ 123/2020/NĐ-CP; đã hết hiệu lực từ 01-06-2025 khi Thông tư 32/2025/TT-BTC có hiệu lực thay thế.",
       "tu_khoa": [
         "giao-thang-nuoc-thu-ba",
         "thue"
       ],
       "slug": "78-2021-tt-btc",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -85205,29 +85246,38 @@
     {
       "so_hieu": "80/2019/TT-BTC",
       "loai": "THONG_TU",
-      "ten": "Quy định về thủ tục hải quan, quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu mua gom của người nước ngoài",
+      "ten": "Hướng dẫn thủ tục hải quan, quản lý thuế, phí và lệ phí đối với hàng hóa xuất khẩu, nhập khẩu theo Nghị định số 14/2018/NĐ-CP ngày 23 tháng 01 năm 2018 của Chính phủ quy định chi tiết về hoạt động thương mại biên giới",
       "co_quan": "BTC",
       "ngay_ban_hanh": "2019-11-15",
+      "hieu_luc_tu": "2020-01-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "hai-quan/thu-tuc"
       ],
       "nguon": [
         {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-80-2019-tt-btc-30090.htm",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/139953",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://luatvietnam.vn/thue/thong-tu-154-2026-tt-btc-sua-doi-thong-tu-80-2019-tt-btc-ve-thu-tuc-hai-quan-452011-d1.html",
           "truy_cap": "2026-10-30"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 15-11-2019 (dẫn trong tiêu đề TT 154/2026); bị sửa bởi TT 154/2026/TT-BTC từ 01-01-2027 — hiệu lực gốc chưa đối chiếu",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-30",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu Công báo Chính phủ (id=30090, Công báo số 943+944 năm 2019, Thứ trưởng Bộ Tài chính Vũ Thị Mai ký) và CSDL quốc gia vbpl.vn (ItemID=139953, Điều 12): số hiệu 80/2019/TT-BTC, tiêu đề chính thức 'Hướng dẫn thủ tục hải quan, quản lý thuế, phí và lệ phí đối với hàng hóa xuất khẩu, nhập khẩu theo Nghị định số 14/2018/NĐ-CP ngày 23 tháng 01 năm 2018 của Chính phủ quy định chi tiết về hoạt động thương mại biên giới', ban hành ngày 15-11-2019, có hiệu lực thi hành từ ngày 01-01-2020 (khoản 1 Điều 12, bãi bỏ Thông tư 217/2015/TT-BTC); đang còn hiệu lực (sắp được sửa đổi, bổ sung một số điều bởi Thông tư 154/2026/TT-BTC ngày 15-10-2026 có hiệu lực từ 01-01-2027)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Nền của TT 154/2026 (#278) — hàng mua gom thương mại biên giới.",
+      "ghi_chu": "Nền của TT 154/2026 (#278) — hàng mua gom thương mại biên giới. Hướng dẫn NĐ 14/2018/NĐ-CP và bãi bỏ TT 217/2015/TT-BTC (hai văn bản này chưa có trong sổ).",
       "slug": "80-2019-tt-btc",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_sua_doi_boi": [
           {
@@ -85242,7 +85292,7 @@
     {
       "so_hieu": "80/2023/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 95/2021/NĐ-CP ngày 01 tháng 11 năm 2021 và Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ quy định về sản xuất, kinh doanh xăng dầu",
+      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 95/2021/NĐ-CP ngày 01 tháng 11 năm 2021 và Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ về kinh doanh xăng dầu",
       "co_quan": "CP",
       "ngay_ban_hanh": "2023-11-17",
       "hieu_luc_tu": "2023-11-17",
@@ -85254,14 +85304,28 @@
         "sua_doi": [
           {
             "so_hieu": "83/2014/NĐ-CP",
+            "tu_ngay": "2023-11-17",
             "can_cu": "nhập khẩu phụ gia nhiên liệu phải đạt QCVN + đăng ký Bộ Công Thương"
           },
           {
-            "so_hieu": "95/2021/NĐ-CP"
+            "so_hieu": "95/2021/NĐ-CP",
+            "tu_ngay": "2023-11-17"
           }
         ]
       },
       "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=208982",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/11/80-nd.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-80-2023-nd-cp-40452.htm",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://gialai.gov.vn/van-ban-trung-uong-sao-luc/nghi-dinh-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-95-2021-nd-cp-ngay-01-thang-11-nam-2021-va-nghi-dinh-so-83-2014-n",
           "truy_cap": "2026-10-28"
@@ -85272,14 +85336,14 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề đầy đủ, ngày ban hành 17-11-2023, hiệu lực kể từ ngày ký 17-11-2023 (sao y Gia Lai + Vietnam Trade Portal + SCT Đồng Nai); điều kiện nhập khẩu phụ gia nhiên liệu (QCVN + đăng ký BCT)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-28",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=208982, Phó Thủ tướng Lê Minh Khái ký thay Thủ tướng), toàn văn PDF ký số (80-nd.signed.pdf) và Công báo Chính phủ (id=40452): số hiệu 80/2023/NĐ-CP, tiêu đề 'Sửa đổi, bổ sung một số điều của Nghị định số 95/2021/NĐ-CP ngày 01 tháng 11 năm 2021 và Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ về kinh doanh xăng dầu', ban hành và có hiệu lực thi hành từ ngày 17-11-2023; đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "80-2023-nd-cp",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -86450,7 +86514,7 @@
     {
       "so_hieu": "83/2014/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Quy định về sản xuất, kinh doanh xăng dầu",
+      "ten": "Về kinh doanh xăng dầu",
       "co_quan": "CP",
       "ngay_ban_hanh": "2014-09-03",
       "hieu_luc_tu": "2014-11-01",
@@ -86459,6 +86523,14 @@
         "quan-ly-ngoai-thuong/giay-phep"
       ],
       "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=175893",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2014/09/83-nd.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://hethongphapluat.com/nghi-dinh-83-2014-nd-cp-ve-kinh-doanh-xang-dau/dieu-13/khoan-1",
           "truy_cap": "2026-10-28"
@@ -86469,15 +86541,15 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 03-09-2014, hiệu lực 01-11-2014 (60 ngày); bị sửa bởi NĐ 95/2021 và NĐ 80/2023 — còn hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-28",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=175893, Thủ tướng Nguyễn Tấn Dũng ký) và toàn văn PDF ký số (83-nd.signed.pdf): số hiệu 83/2014/NĐ-CP, tiêu đề chính thức 'Về kinh doanh xăng dầu', ban hành ngày 03-09-2014, có hiệu lực thi hành từ ngày 01-11-2014 (Điều 41, thay thế Nghị định 84/2009/NĐ-CP); đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Nghị định 08/2018/NĐ-CP, Nghị định 95/2021/NĐ-CP và Nghị định 80/2023/NĐ-CP)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Bộ luật nền của mảng kinh doanh + nhập khẩu xăng dầu/phụ gia nhiên liệu (issue #240 — gia đình thiếu thứ 7, ca khách 26/10 hỏi GP phụ gia chống oxy hóa 2921.5900 \"Sở hay Bộ\"). ĐÍNH CHÍNH lore: NĐ 80/2014/NĐ-CP là nghị định THOÁT NƯỚC — không phải xăng dầu; xăng dầu là NĐ 83/2014 này.",
       "slug": "83-2014-nd-cp",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "duoc_huong_dan_boi": [
           {
@@ -86491,12 +86563,14 @@
             "tu": "80/2023/NĐ-CP",
             "quan_he": "sua_doi",
             "so_hieu": "83/2014/NĐ-CP",
+            "tu_ngay": "2023-11-17",
             "can_cu": "nhập khẩu phụ gia nhiên liệu phải đạt QCVN + đăng ký Bộ Công Thương"
           },
           {
             "tu": "95/2021/NĐ-CP",
             "quan_he": "sua_doi",
-            "so_hieu": "83/2014/NĐ-CP"
+            "so_hieu": "83/2014/NĐ-CP",
+            "tu_ngay": "2022-01-02"
           }
         ]
       }
@@ -88556,9 +88630,10 @@
     {
       "so_hieu": "95/2021/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ quy định về sản xuất, kinh doanh xăng dầu",
+      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 về kinh doanh xăng dầu",
       "co_quan": "CP",
       "ngay_ban_hanh": "2021-11-01",
+      "hieu_luc_tu": "2022-01-02",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "quan-ly-ngoai-thuong/giay-phep"
@@ -88566,11 +88641,20 @@
       "quan_he": {
         "sua_doi": [
           {
-            "so_hieu": "83/2014/NĐ-CP"
+            "so_hieu": "83/2014/NĐ-CP",
+            "tu_ngay": "2022-01-02"
           }
         ]
       },
       "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=204393",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2021/11/95.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://lsu.vn/van-ban/nghi-dinh-95-2021-nd-cp-sua-doi-bo-sung-nghi-dinh-83-2014-nd-cp-ve-kinh-doanh-xang-dau",
           "truy_cap": "2026-10-28"
@@ -88581,20 +88665,21 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 01-11-2021, sửa NĐ 83/2014 (cơ chế điều hành giá, quỹ bình ổn giá); bị sửa tiếp bởi NĐ 80/2023",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-28",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=204393, Phó Thủ tướng Lê Văn Thành ký thay Thủ tướng) và toàn văn PDF ký số (95.signed.pdf): số hiệu 95/2021/NĐ-CP, tiêu đề 'Sửa đổi, bổ sung một số điều của Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 về kinh doanh xăng dầu', ban hành ngày 01-11-2021, có hiệu lực thi hành từ ngày 02-01-2022; đang còn hiệu lực (sửa đổi, bổ sung Nghị định 83/2014/NĐ-CP và tiếp tục được sửa đổi, bổ sung một số điều bởi Nghị định 80/2023/NĐ-CP từ 17-11-2023)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "95-2021-nd-cp",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_sua_doi_boi": [
           {
             "tu": "80/2023/NĐ-CP",
             "quan_he": "sua_doi",
-            "so_hieu": "95/2021/NĐ-CP"
+            "so_hieu": "95/2021/NĐ-CP",
+            "tu_ngay": "2023-11-17"
           }
         ]
       }
@@ -89371,6 +89456,18 @@
       "quan_he": {},
       "nguon": [
         {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=169530",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2013/08/99-nd.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-46-2024-nd-cp-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-99-2013-nd-cp-ngay-29-thang-8-nam-2013-cua-chinh-phu-quy-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-so-huu-cong-nghiep-da-duoc-sua-doi-bo-sung-mot-so-dieu-theo-nghi-dinh-so-126-2021-nd-cp-ngay-30-thang-12-nam-2021-cua-chinh-phu--170812",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://danang.gov.vn/web/dng/-/nghi-dinh-so-99-2013-nd-cp-ngay-29-thang-8-nam-2013-cua-chinh-phu-quy-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-so-huu-cong-nghiep",
           "truy_cap": "2026-10-29"
         },
@@ -89380,13 +89477,13 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 29-08-2013 (khớp nguyên văn tên NĐ 46/2024 trên vanban.chinhphu.vn); Điều 45: hiệu lực 15-10-2013 (toàn văn cổng Đà Nẵng)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-29",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=169530, Thủ tướng Nguyễn Tấn Dũng ký), toàn văn PDF đính kèm (99-nd.pdf) và CSDL quốc gia vbpl.vn (ItemID=170812): số hiệu 99/2013/NĐ-CP, tiêu đề 'Quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp', ban hành ngày 29-08-2013, có hiệu lực thi hành từ ngày 15-10-2013 (Điều 45, thay thế Nghị định 97/2010/NĐ-CP); đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Nghị định 126/2021/NĐ-CP từ 01-03-2022 và Nghị định 46/2024/NĐ-CP từ 01-07-2024)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Sửa đổi bởi NĐ 46/2017, NĐ 126/2021, NĐ 46/2024 (record riêng). Văn bản chế tài chính khi hàng XNK xâm phạm nhãn hiệu/kiểu dáng.",
+      "ghi_chu": "Sửa đổi bởi NĐ 126/2021/NĐ-CP và NĐ 46/2024/NĐ-CP (record riêng). Văn bản chế tài chính khi hàng XNK xâm phạm nhãn hiệu/kiểu dáng.",
       "tu_khoa": [
         "so-huu-tri-tue",
         "xu-phat",
@@ -89394,7 +89491,7 @@
         "hang-gia"
       ],
       "slug": "99-2013-nd-cp",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_sua_doi_boi": [
           {
@@ -89402,12 +89499,6 @@
             "quan_he": "sua_doi",
             "so_hieu": "99/2013/NĐ-CP",
             "tu_ngay": "2022-03-01"
-          },
-          {
-            "tu": "46/2017/NĐ-CP",
-            "quan_he": "sua_doi",
-            "so_hieu": "99/2013/NĐ-CP",
-            "tu_ngay": "2017-06-01"
           },
           {
             "tu": "46/2024/NĐ-CP",

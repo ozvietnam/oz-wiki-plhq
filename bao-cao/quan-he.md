@@ -64,9 +64,9 @@ flowchart LR
   n_23_2019_Q__TTg["23/2019/QĐ-TTg<br/>hết hiệu lực"]
   n_336_2026_N__CP["336/2026/NĐ-CP<br/>còn hiệu lực"]
   n_85_2019_N__CP["85/2019/NĐ-CP<br/>hết hiệu lực"]
+  n_35_2018_QH14["35/2018/QH14<br/>còn hiệu lực"]
   n_60_2019_TT_BTC["60/2019/TT-BTC<br/>còn hiệu lực"]
   n_39_2015_TT_BTC["39/2015/TT-BTC<br/>còn hiệu lực"]
-  n_46_2017_N__CP["46/2017/NĐ-CP<br/>còn hiệu lực"]
   n_46_2024_N__CP["46/2024/NĐ-CP<br/>còn hiệu lực"]
   n_54_VBHN_VPQH["54/VBHN-VPQH<br/>còn hiệu lực"]
   n_65_2023_N__CP["65/2023/NĐ-CP<br/>còn hiệu lực"]
@@ -109,6 +109,7 @@ flowchart LR
   n_285_2025_N__CP -->|bãi bỏ toàn bộ từ 2025-12-30| n_119_2010_N__CP
   n_31_2026_Q__TTg -->|thay thế từ 2026-08-14| n_23_2019_Q__TTg
   n_336_2026_N__CP -->|thay thế từ 2026-10-15| n_85_2019_N__CP
+  n_35_2018_QH14 -->|sửa đổi từ 2019-01-01| n_54_2014_QH13
   n_36_2009_QH12 -->|sửa đổi từ 2010-01-01| n_50_2005_QH11
   n_38_2015_TT_BTC -->|sửa đổi Bổ sung nộp chứng từ điện tử, sửa mẫu tờ khai từ 2018-06-05| n_39_2018_TT_BTC
   n_38_2015_TT_BTC -->|sửa đổi Sửa trị giá HQ từ 2019-10-15| n_60_2019_TT_BTC
@@ -116,9 +117,6 @@ flowchart LR
   n_39_2015_TT_BTC -->|sửa đổi Sửa đổi, bổ sung một số điều của TT 39/2015/TT-BTC từ 2019-06-06| n_60_2019_TT_BTC
   n_39_2018_TT_BTC -->|sửa đổi| n_38_2015_TT_BTC
   n_42_2019_QH14 -->|sửa đổi từ 2019-11-01| n_50_2005_QH11
-  n_46_2017_N__CP -->|sửa đổi từ 2017-06-01| n_99_2013_N__CP
-  n_46_2017_N__CP -->|sửa đổi từ 2017-06-01| n_105_2006_N__CP
-  n_46_2017_N__CP -->|sửa đổi từ 2017-06-01| n_131_2013_N__CP
   n_46_2024_N__CP -->|sửa đổi từ 2024-07-01| n_99_2013_N__CP
   n_54_VBHN_VPQH -->|hợp nhất| n_54_2014_QH13
   n_59_2018_N__CP -->|sửa đổi| n_08_2015_N__CP
@@ -517,7 +515,6 @@ flowchart LR
   n_48_2026_TT_BCT["48/2026/TT-BCT<br/>còn hiệu lực"]
   n_51_VBHN_BCT["51/VBHN-BCT<br/>còn hiệu lực"]
   n_38_2014_TT_BCT["38/2014/TT-BCT<br/>còn hiệu lực"]
-  n_195_2013_N__CP["195/2013/NĐ-CP<br/>còn hiệu lực"]
   n_67_2026_TT_BCT["67/2026/TT-BCT<br/>còn hiệu lực"]
   n_19_2026_TT_BCT["19/2026/TT-BCT<br/>còn hiệu lực"]
   n_80_2023_N__CP["80/2023/NĐ-CP<br/>còn hiệu lực"]
@@ -555,11 +552,10 @@ flowchart LR
   n_48_2026_TT_BCT -->|bãi bỏ Điều 3 và Phụ lục III từ 2026-09-05| n_41_2019_TT_BCT
   n_48_2026_TT_BCT -->|bãi bỏ Điều 25 từ 2026-09-05| n_42_2019_TT_BCT
   n_51_VBHN_BCT -->|hợp nhất| n_38_2014_TT_BCT
-  n_60_2014_N__CP -->|sửa đổi| n_195_2013_N__CP
   n_67_2026_TT_BCT -->|sửa đổi từ 2026-10-20| n_19_2026_TT_BCT
-  n_80_2023_N__CP -->|sửa đổi| n_83_2014_N__CP
-  n_80_2023_N__CP -->|sửa đổi| n_95_2021_N__CP
-  n_95_2021_N__CP -->|sửa đổi| n_83_2014_N__CP
+  n_80_2023_N__CP -->|sửa đổi từ 2023-11-17| n_83_2014_N__CP
+  n_80_2023_N__CP -->|sửa đổi từ 2023-11-17| n_95_2021_N__CP
+  n_95_2021_N__CP -->|sửa đổi từ 2022-01-02| n_83_2014_N__CP
 ```
 
 ## Thuế xuất khẩu, nhập khẩu và các thuế khác khâu nhập khẩu
