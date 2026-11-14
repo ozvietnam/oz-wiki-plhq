@@ -1,18 +1,31 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 135/2026/VBHN-TT-BCT
+so_hieu_khac:
+  - 135/VBHN-TT-BCT
 loai: VAN_BAN_HOP_NHAT
-ten: Hợp nhất Thông tư Quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước
+ten: Hợp nhất Thông tư quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước, trích lập Quỹ bình ổn giá xăng dầu và hoàn trả tạm ứng ngân sách nhà nước
 co_quan: BCT
-tinh_trang: CHUA_XAC_MINH
+ngay_ban_hanh: '2026-10-21'
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong/giay-phep
+quan_he:
+  hop_nhat:
+    - so_hieu: 19/2026/TT-BCT
+    - so_hieu: 67/2026/TT-BCT
 nguon:
-  - url: https://congbao.chinhphu.vn
-    truy_cap: '2026-10-29'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=220071
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/10/135-vbhn-bct.signed.pdf
+    truy_cap: '2026-11-14'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=220090
+    truy_cap: '2026-11-14'
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-67-2026-tt-bct-470854.htm
+    truy_cap: '2026-11-14'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề (mục lục công báo qua radar 29/10, đăng công báo 21-10-2026); thành phần hợp nhất + ngày ban hành chưa đối chiếu'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-29'
-  boi: zcode@ozvietnam
-ghi_chu: 'Bắt bởi radar công báo (issue #251) — bổ sung gia đình xăng dầu #240. Nâng nguồn A khi có ca chạm cơ chế giá.'
+  muc: NGUON_A
+  pham_vi: 'đối chiếu thẻ vanban.chinhphu.vn (docid=220071) và toàn văn PDF ký số ngày 21-10-2026 bởi Thứ trưởng Bộ Công Thương Nguyễn Việt Sơn (135-vbhn-bct.signed.pdf, số ký hiệu 135/VBHN-TT-BCT): hợp nhất Thông tư 19/2026/TT-BCT ngày 03-04-2026 quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước, trích lập Quỹ bình ổn giá xăng dầu và hoàn trả tạm ứng ngân sách nhà nước với Thông tư 67/2026/TT-BCT ngày 20-10-2026 (HL 20-10-2026, docid=220090, Công báo mã 470854); đang còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Hợp nhất Thông tư 19/2026/TT-BCT ngày 03-04-2026 và Thông tư 67/2026/TT-BCT ngày 20-10-2026 về Quỹ bình ổn giá xăng dầu (gia đình xăng dầu #240).'

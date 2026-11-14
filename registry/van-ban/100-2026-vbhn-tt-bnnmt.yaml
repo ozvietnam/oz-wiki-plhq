@@ -1,21 +1,31 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 100/2026/VBHN-TT-BNNMT
+so_hieu_khac:
+  - 100/VBHN-BNNMT
 loai: VAN_BAN_HOP_NHAT
-ten: Hợp nhất Danh mục đối tượng kiểm dịch thực vật
+ten: Hợp nhất Thông tư ban hành Danh mục đối tượng kiểm dịch thực vật của nước Cộng hòa xã hội chủ nghĩa Việt Nam
 co_quan: BNNMT
 ngay_ban_hanh: '2026-10-20'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
 nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=220053
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/10/100-vbhn-bnnmt.signed.pdf
+    truy_cap: '2026-11-14'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=208538
+    truy_cap: '2026-11-14'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=214087
+    truy_cap: '2026-11-14'
   - url: https://www.laocai.gov.vn/van-ban-sao-y/sao-y-van-ban-hop-nhat-so-100-2026-vbhn-tt-bnnmt-ngay-20-10-2026-cua-bo-truong-bo-nong-nghiep-va-1622976
     truy_cap: '2026-10-29'
   - url: https://mae.gov.vn/van-ban-phap-luat.htm
     truy_cap: '2026-10-29'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tên, ngày ban hành 20-10-2026 (bản sao y tỉnh Lào Cai; chỉ mục mae.gov.vn). Danh mục đối tượng KDTV — trực tiếp vụ nhóm 4401 dăm gỗ và hàng gỗ NK'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-29'
-  boi: zcode@ozvietnam
-ghi_chu: Trinh sát WebSearch trạm BNNMT đêm 29/10. Danh mục đối tượng KDTV là căn cứ bắt buộc nhóm 4401 (bảng kê Mẫu 01) — cần nạp toàn văn khi nguồn chính thống mở file.
+  muc: NGUON_A
+  pham_vi: 'đối chiếu thẻ vanban.chinhphu.vn (docid=220053) và toàn văn PDF ký số ngày 20-10-2026 bởi Thứ trưởng Bộ Nông nghiệp và Môi trường Nguyễn Hoàng Hiệp (100-vbhn-bnnmt.signed.pdf): hợp nhất Thông tư 04/2023/TT-BNNPTNT ngày 15-08-2023 (HL 29-09-2023, thay thế Thông tư 35/2014/TT-BNNPTNT; docid=208538) và Thông tư 12/2025/TT-BNNMT ngày 19-06-2025 (HL 01-07-2025, Điều 29 thay thế tên cơ quan Cục Trồng trọt và Bảo vệ thực vật, Bộ Nông nghiệp và Môi trường; docid=214087); gồm 3 Điều và Danh mục 117 đối tượng kiểm dịch thực vật (Nhóm I: 112 sinh vật gây hại chưa có trên lãnh thổ Việt Nam; Nhóm II: 05 sinh vật gây hại phân bố hẹp trên lãnh thổ Việt Nam); đang còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Hợp nhất Thông tư 04/2023/TT-BNNPTNT và Thông tư 12/2025/TT-BNNMT về Danh mục 117 đối tượng kiểm dịch thực vật của Việt Nam (Nhóm I: 112 đối tượng; Nhóm II: 05 đối tượng).'

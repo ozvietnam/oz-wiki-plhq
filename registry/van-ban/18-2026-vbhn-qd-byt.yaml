@@ -1,19 +1,29 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 18/2026/VBHN-QĐ-BYT
+so_hieu_khac:
+  - 18/VBHN-QĐ-BYT
 loai: VAN_BAN_HOP_NHAT
-ten: Hợp nhất Quyết định hướng dẫn thực hiện Thực hành tốt sản xuất mỹ phẩm ASEAN (ASEAN GMP)
+ten: 'Hợp nhất Quyết định về việc triển khai áp dụng và hướng dẫn thực hiện các nguyên tắc, tiêu chuẩn "Thực hành tốt sản xuất mỹ phẩm" của Hiệp hội các nước Đông Nam Á'
 co_quan: BYT
 ngay_ban_hanh: '2026-09-10'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
 nguon:
-  - url: https://luatvietnam.vn/y-te/van-ban-hop-nhat-18-vbhn-qd-byt-2026-huong-dan-thuc-hien-thuc-hanh-tot-san-xuat-my-pham-asean-447154-d5.html
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=219432
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/18-vbhn-byt.signed.pdf
+    truy_cap: '2026-11-14'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=216427
+    truy_cap: '2026-11-14'
+  - url: https://vbpl.vn/van-ban/chi-tiet/quyet-dinh-so-24-2006-qd-byt-ve-viec-trien-khai-ap-dung-va-huong-dan-thuc-hien-cac-nguyen-tac-tieu-chuan-thuc-hanh-tot-san-xuat-my-pham-cua-hiep-hoi-cac-nuoc-dong-nam-a--15266
+    truy_cap: '2026-11-14'
+  - url: https://luatvietnam.vn/y-te/van-ban-hop-nhat-18-vbhn-qd-byt-2026-huong-dan-thuc-hanh-tot-san-xuat-my-pham-asean-447154-d5.html
     truy_cap: '2026-10-30'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tên, ngày ban hành 10-09-2026 (TVPL index). Bản gốc là Quyết định ASEAN GMP mỹ phẩm — cần đối chiếu nguồn BYT để biết QĐ gốc số mấy'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-30'
-  boi: zcode@ozvietnam
-ghi_chu: Trinh sát WebSearch trạm BYT đêm 30/10. Gia đình mỹ phẩm (#224) — liên quan điều kiện nhập mỹ phẩm (xưởng đạt ASEAN GMP là căn cứ công bố sản phẩm nhập).
+  muc: NGUON_A
+  pham_vi: 'đối chiếu thẻ vanban.chinhphu.vn (docid=219432) và toàn văn PDF ký số 09 trang ngày 10-09-2026 bởi Thứ trưởng Bộ Y tế Nguyễn Tri Thức (18-vbhn-byt.signed.pdf, số ký hiệu 18/VBHN-QĐ-BYT): hợp nhất Quyết định 24/2006/QĐ-BYT ngày 14-08-2006 (HL 26-09-2006; vbpl.vn ItemID=15266) về triển khai áp dụng các nguyên tắc, tiêu chuẩn Thực hành tốt sản xuất mỹ phẩm của Hiệp hội các nước Đông Nam Á (CGMP-ASEAN) và Thông tư 47/2025/TT-BYT ngày 30-12-2025 (HL 15-02-2026; docid=216427, khoản 2 Điều 2 bãi bỏ đoạn quy định Giấy chứng nhận có giá trị 02 năm kể từ ngày ký tại mục 3.2 phần II và bãi bỏ Mẫu số 01/CGMP-MP); đang còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Hợp nhất Quyết định 24/2006/QĐ-BYT ngày 14-08-2006 và Thông tư 47/2025/TT-BYT ngày 30-12-2025 về triển khai thực hiện nguyên tắc, tiêu chuẩn Thực hành tốt sản xuất mỹ phẩm của ASEAN (CGMP-ASEAN).'
