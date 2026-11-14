@@ -5,17 +5,22 @@ ten: "Luật Thuế giá trị gia tăng"
 co_quan: QH
 ngay_ban_hanh: '2008-06-03'
 hieu_luc_tu: '2009-01-01'
-tinh_trang: CON_HIEU_LUC
+het_hieu_luc_tu: '2025-07-01'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - thue
 nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=70797
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2008/07/72836_l13qh.doc
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/Tai-chinh-Nha-nuoc/Luat-thue-gia-tri-gia-tang-13-2008-QH12-96190.aspx
     truy_cap: '2026-10-22'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: "Luật GTGT 2008 — Điều 5 (hàng hóa dịch vụ không chịu GTGT, gồm mua bán hàng nước ngoài không qua VN); sửa bởi Luật 31/2013/QH13 (khoản sửa Điều 5)"
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-22'
-  boi: zcode@ozvietnam
-ghi_chu: "Điều 5: mua bán hàng nước ngoài không qua lãnh thổ VN KHÔNG chịu GTGT — trái tim ca giao thẳng (#227). Sửa bởi Luật 31/2013/QH13 (chưa nạp — điểm mù)."
+  muc: NGUON_A
+  pham_vi: "Đối chiếu thẻ vanban.chinhphu.vn (docid=70797, ghi ngày công bố 12-06-2008) và toàn văn đính kèm (72836_l13qh.doc, Chủ tịch Quốc hội Nguyễn Phú Trọng ký): Quốc hội khóa XII thông qua ngày 03-06-2008, có hiệu lực từ 01-01-2009 (khoản 1 Điều 16); được sửa đổi, bổ sung bởi Luật 31/2013/QH13, Luật 71/2014/QH13 và Luật 106/2016/QH13; hết hiệu lực toàn bộ từ ngày 01-07-2025 khi Luật Thuế giá trị gia tăng số 48/2024/QH15 ngày 26-11-2024 (vbpl.vn ItemID=174917, chưa nạp vào sổ) có hiệu lực thi hành (khoản 1 và khoản 2 Điều 18 Luật 48/2024/QH15)."
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: "Điều 5: mua bán hàng nước ngoài không qua lãnh thổ VN KHÔNG chịu GTGT — trái tim ca giao thẳng (#227). Đã hết hiệu lực từ 01-07-2025 khi Luật Thuế GTGT 48/2024/QH15 có hiệu lực."
 tu_khoa: [giao-thang-nuoc-thu-ba, thue]
