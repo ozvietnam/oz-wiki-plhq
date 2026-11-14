@@ -1,12 +1,13 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 155/VBHN-VPQH
 loai: VAN_BAN_HOP_NHAT
-ten: "Văn bản hợp nhất Luật Sở hữu trí tuệ"
+ten: Văn bản hợp nhất Luật Sở hữu trí tuệ
 co_quan: VPQH
-ngay_ban_hanh: "2025-09-09"
-hieu_luc_tu: "2025-09-09"
+ngay_ban_hanh: '2025-09-09'
+hieu_luc_tu: '2025-09-09'
 tinh_trang: CON_HIEU_LUC
-nhanh: [hai-quan/kiem-tra-giam-sat]
+nhanh:
+  - hai-quan/kiem-tra-giam-sat
 quan_he:
   hop_nhat:
     - 50/2005/QH11
@@ -16,14 +17,18 @@ quan_he:
     - 93/2025/QH15
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=215309
-    truy_cap: "2026-10-29"
+    truy_cap: '2026-10-29'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/155-vbhn-vpqh.pdf
-    truy_cap: "2026-10-29"
+    truy_cap: '2026-10-29'
 xac_minh:
   muc: NGUON_A
-  pham_vi: "số hiệu, cơ quan, ngày xác thực 09-09-2025 và danh sách 5 văn bản hợp nhất — đối chiếu trực tiếp thẻ vanban.chinhphu.vn (docid=215309) và phần đầu PDF (datafiles.chinhphu.vn 155-vbhn-vpqh.pdf)"
+  pham_vi: số hiệu, cơ quan, ngày xác thực 09-09-2025 và danh sách 5 văn bản hợp nhất — đối chiếu trực tiếp thẻ vanban.chinhphu.vn (docid=215309) và phần đầu PDF (datafiles.chinhphu.vn 155-vbhn-vpqh.pdf)
   hieu_luc_da_doi_chieu: true
-  ngay: "2026-11-14"
+  ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: "Bản hợp nhất mới nhất của Luật Sở hữu trí tuệ (thay 07/VBHN-VPQH 2019). VBHN không thay thế văn bản gốc."
-tu_khoa: [so-huu-tri-tue, shtt, vbhn]
+ghi_chu: Bản hợp nhất mới nhất của Luật Sở hữu trí tuệ (thay 07/VBHN-VPQH 2019). VBHN không thay thế văn bản gốc.
+tu_khoa:
+  - so-huu-tri-tue
+  - shtt
+  - vbhn
+toan_van: raw/download/vanban.chinhphu.vn/155-vbhn-vpqh.html
