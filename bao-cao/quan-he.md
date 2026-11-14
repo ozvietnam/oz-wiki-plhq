@@ -6,11 +6,14 @@ Mũi tên đi từ văn bản MỚI tới văn bản bị tác động. Sinh t�
 
 ```mermaid
 flowchart LR
+  n_105_2022_N__CP["105/2022/NĐ-CP<br/>hết hiệu lực"]
+  n_15_2017_N__CP["15/2017/NĐ-CP<br/>hết hiệu lực"]
   n_124_2020_N__CP["124/2020/NĐ-CP<br/>còn hiệu lực"]
   n_81_2013_N__CP["81/2013/NĐ-CP<br/>hết hiệu lực"]
   n_155_2026_N__CP["155/2026/NĐ-CP<br/>còn hiệu lực"]
   n_81_2025_QH15["81/2025/QH15<br/>còn hiệu lực"]
   n_02_2011_QH13["02/2011/QH13<br/>còn hiệu lực"]
+  n_105_2022_N__CP -->|thay thế từ 2023-01-15| n_15_2017_N__CP
   n_124_2020_N__CP -->|thay thế từ 2020-12-10| n_81_2013_N__CP
   n_155_2026_N__CP -->|sửa đổi| n_124_2020_N__CP
   n_81_2025_QH15 -->|sửa đổi| n_02_2011_QH13
@@ -512,6 +515,8 @@ flowchart LR
   n_04_2014_TT_BCT["04/2014/TT-BCT<br/>hết hiệu lực"]
   n_11_2017_TT_BCT["11/2017/TT-BCT<br/>hết hiệu lực"]
   n_49_2015_TT_BCT["49/2015/TT-BCT<br/>hết hiệu lực"]
+  n_122_2024_N__CP["122/2024/NĐ-CP<br/>còn hiệu lực"]
+  n_14_2018_N__CP["14/2018/NĐ-CP<br/>còn hiệu lực"]
   n_13_2023_Q__TTg["13/2023/QĐ-TTg<br/>còn hiệu lực"]
   n_28_2020_Q__TTg["28/2020/QĐ-TTg<br/>hết hiệu lực"]
   n_135_2026_VBHN_TT_BCT["135/2026/VBHN-TT-BCT<br/>còn hiệu lực"]
@@ -559,6 +564,7 @@ flowchart LR
   n_12_2018_TT_BCT -->|bãi bỏ từ 2018-06-15| n_04_2014_TT_BCT
   n_12_2018_TT_BCT -->|bãi bỏ từ 2018-06-15| n_11_2017_TT_BCT
   n_12_2018_TT_BCT -->|bãi bỏ từ 2018-06-15| n_49_2015_TT_BCT
+  n_122_2024_N__CP -->|sửa đổi từ 2024-12-01| n_14_2018_N__CP
   n_13_2023_Q__TTg -->|thay thế từ 2023-06-01| n_28_2020_Q__TTg
   n_135_2026_VBHN_TT_BCT -->|hợp nhất| n_19_2026_TT_BCT
   n_135_2026_VBHN_TT_BCT -->|hợp nhất| n_67_2026_TT_BCT
@@ -699,13 +705,18 @@ flowchart LR
   n_47_2009_N__CP["47/2009/NĐ-CP<br/>hết hiệu lực"]
   n_169_2026_N__CP["169/2026/NĐ-CP<br/>còn hiệu lực"]
   n_128_2020_N__CP["128/2020/NĐ-CP<br/>hết hiệu lực"]
+  n_26_2004_QH11["26/2004/QH11<br/>hết hiệu lực"]
+  n_09_1998_QH10["09/1998/QH10<br/>hết hiệu lực"]
   n_282_2025_N__CP["282/2025/NĐ-CP<br/>còn hiệu lực"]
   n_144_2021_N__CP["144/2021/NĐ-CP<br/>hết hiệu lực"]
+  n_58_2005_QH11["58/2005/QH11<br/>hết hiệu lực"]
   n_90_2020_TT_BTC["90/2020/TT-BTC<br/>hết hiệu lực"]
   n_155_2016_TT_BTC["155/2016/TT-BTC<br/>hết hiệu lực"]
   n_109_2011_N__CP -->|sửa đổi từ 2012-01-20| n_47_2009_N__CP
   n_169_2026_N__CP -->|thay thế toàn bộ| n_128_2020_N__CP
+  n_26_2004_QH11 -->|sửa đổi từ 2004-10-01| n_09_1998_QH10
   n_282_2025_N__CP -->|thay thế toàn bộ từ 2025-12-15| n_144_2021_N__CP
+  n_58_2005_QH11 -->|sửa đổi từ 2006-06-01| n_09_1998_QH10
   n_90_2020_TT_BTC -->|thay thế từ 2020-12-26| n_155_2016_TT_BTC
 ```
 

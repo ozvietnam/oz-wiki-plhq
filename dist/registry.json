@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-14",
   "luoc_do_phien_ban": "1.4.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2505,
+  "tong": 2525,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -366,6 +366,40 @@
         }
       ],
       "slug": "01-2026-tt-bnnmt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "01/QĐ-TTg",
+      "loai": "QUYET_DINH",
+      "ten": "Phê duyệt Kế hoạch thực hiện Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)",
+      "co_quan": "TTG",
+      "ngay_ban_hanh": "2022-01-04",
+      "hieu_luc_tu": "2022-01-04",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "xuat-xu-fta/hiep-dinh"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=204965",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/01/01-qd.signed.pdf",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=204965) và toàn văn PDF ký số (01-qd.signed.pdf), kết hợp căn cứ pháp lý của QĐ 328/QĐ-TTg ngày 11-03-2022: QĐ 01/QĐ-TTg ban hành và có hiệu lực từ ngày ký 04-01-2022, đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Kế hoạch thực hiện Hiệp định RCEP; được viện dẫn làm căn cứ ban hành QĐ 328/QĐ-TTg (2022).",
+      "toan_van": "raw/download/vanban.chinhphu.vn/01-qd-ttg.html",
+      "slug": "01-qd-ttg-2022",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -2238,6 +2272,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "08/2014/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Khoa học và công nghệ",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2014-01-27",
+      "hieu_luc_tu": "2014-03-15",
+      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bkhcn"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=172126",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2014/01/08-nd.pdf",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=172126) và toàn văn PDF đính kèm (08-nd.pdf): ban hành 27-01-2014, có hiệu lực từ 15-03-2014; đã hết hiệu lực một phần theo các nghị định hướng dẫn Luật Khoa học, công nghệ và đổi mới sáng tạo 2025 (NĐ 262/2025/NĐ-CP, NĐ 267/2025/NĐ-CP).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Hướng dẫn Luật Khoa học và công nghệ 2013; được viện dẫn trong căn cứ của TT 10/2024/TT-BKHCN.",
+      "toan_van": "raw/download/vanban.chinhphu.vn/08-2014-nd-cp.html",
+      "slug": "08-2014-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "08/2015/NĐ-CP",
       "loai": "NGHI_DINH",
       "ten": "Quy định chi tiết và biện pháp thi hành Luật Hải quan về thủ tục hải quan, kiểm tra, giám sát, kiểm soát hải quan",
@@ -2515,6 +2583,56 @@
       "slug": "08-tb-tchq-2020",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "09/1998/QH10",
+      "loai": "LUAT",
+      "ten": "Luật Khiếu nại, tố cáo",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "1998-12-02",
+      "hieu_luc_tu": "1999-01-01",
+      "het_hieu_luc_tu": "2012-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "xu-phat"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=80277",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2008/11/82616_l9qh.doc",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=80277), tệp toàn văn (82616_l9qh.doc) và Luật Khiếu nại 02/2011/QH13: thông qua ngày 02-12-1998, hiệu lực 01-01-1999; hết hiệu lực từ 01-07-2012 khi Luật Khiếu nại 02/2011/QH13 và Luật Tố cáo 03/2011/QH13 có hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Luật Khiếu nại, tố cáo năm 1998 (được sửa đổi năm 2004, 2005); đã hết hiệu lực từ 01-07-2012.",
+      "toan_van": "raw/download/vanban.chinhphu.vn/09-1998-qh10.html",
+      "slug": "09-1998-qh10",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "26/2004/QH11",
+            "quan_he": "sua_doi",
+            "so_hieu": "09/1998/QH10",
+            "tu_ngay": "2004-10-01"
+          },
+          {
+            "tu": "58/2005/QH11",
+            "quan_he": "sua_doi",
+            "so_hieu": "09/1998/QH10",
+            "tu_ngay": "2006-06-01"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "09/2013/TT-BTTTT",
@@ -5146,6 +5264,49 @@
       }
     },
     {
+      "so_hieu": "105/2022/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nông nghiệp và Phát triển nông thôn",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2022-12-22",
+      "hieu_luc_tu": "2023-01-15",
+      "het_hieu_luc_tu": "2025-03-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "bo-may"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "15/2017/NĐ-CP",
+            "tu_ngay": "2023-01-15"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=207041",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/12/105-cp.signed.pdf",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=207041) và toàn văn PDF ký số (105-cp.signed.pdf): ban hành 22-12-2022, có hiệu lực từ 15-01-2023 (thay thế NĐ 15/2017/NĐ-CP); hết hiệu lực từ 01-03-2025 khi Bộ NN&PTNT hợp nhất với Bộ TN&MT thành Bộ Nông nghiệp và Môi trường.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Nghị định chức năng, nhiệm vụ của Bộ NN&PTNT trước khi hợp nhất thành Bộ Nông nghiệp và Môi trường (BNNMT) năm 2025.",
+      "toan_van": "raw/download/vanban.chinhphu.vn/105-2022-nd-cp.html",
+      "slug": "105-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "105/TB-TCHQ/2020",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -5632,6 +5793,40 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "108/2016/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết điều kiện kinh doanh sản phẩm, dịch vụ an toàn thông tin mạng",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2016-07-01",
+      "hieu_luc_tu": "2016-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=185920",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/08/108.signed.pdf",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=185920) và toàn văn PDF ký số (108.signed.pdf): ban hành và có hiệu lực từ 01-07-2016, quy định điều kiện kinh doanh và nhập khẩu sản phẩm, dịch vụ an toàn thông tin mạng; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Căn cứ pháp lý về điều kiện kinh doanh, giấy phép nhập khẩu sản phẩm an toàn thông tin mạng (viện dẫn tại TT 10/2022/TT-BTTTT).",
+      "toan_van": "raw/download/vanban.chinhphu.vn/108-2016-nd-cp.html",
+      "slug": "108-2016-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "108/2025/NĐ-CP",
@@ -10754,6 +10949,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "1201/QĐ-TTg",
+      "loai": "QUYET_DINH",
+      "ten": "Phê duyệt Kế hoạch thực hiện Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên Minh châu Âu (EVFTA)",
+      "co_quan": "TTG",
+      "ngay_ban_hanh": "2020-08-06",
+      "hieu_luc_tu": "2020-08-06",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "xuat-xu-fta/hiep-dinh/vcfeta"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=200720",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/08/1201.signed.pdf",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=200720) và toàn văn PDF ký số (1201.signed.pdf), kết hợp căn cứ pháp lý của QĐ 126/QĐ-TTg ngày 16-01-2026: QĐ 1201/QĐ-TTg ban hành và có hiệu lực từ ngày ký 06-08-2020, đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Kế hoạch thực hiện Hiệp định EVFTA của Chính phủ; được viện dẫn làm căn cứ ban hành QĐ 126/QĐ-TTg (2026).",
+      "toan_van": "raw/download/vanban.chinhphu.vn/1201-qd-ttg.html",
+      "slug": "1201-qd-ttg-2020",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "12014/TB-TCHQ/2023",
       "loai": "THONG_BAO",
       "loai_phan_loai": "CHUA_XAC_DINH",
@@ -11081,6 +11310,40 @@
       "ghi_chu": "Mã vụ việc AD21 (6 mã HS: 4411.12.00, 4411.13.00, 4411.14.00, 4411.92.00, 4411.93.00, 4411.94.00). Mức thuế CBPG chính thức tại Mục 3 Thông báo kèm theo: Trung Quốc từ 2,59% đến 39,88%; Thái Lan từ 3,09% đến 20,20%. Các văn bản liên quan trong tiến trình vụ việc AD21/NR01.AD21 chưa mở mục riêng trong registry/van-ban/ gồm: QĐ 2549/QĐ-BCT ngày 25-09-2024 (khởi xướng điều tra), QĐ 2667/QĐ-BCT ngày 25-09-2025 (gia hạn điều tra), QĐ 1784/QĐ-BCT ngày 17-07-2026 (rà soát nhà xuất khẩu mới NR01.AD21, https://pvtm.gov.vn/default.aspx?page=news-detail&do=detail&id=9d8c469f-8fcd-4df5-a5fb-98a544eafe97) và QĐ 2641/QĐ-BCT ngày 12-10-2026 (gia hạn rà soát NR01.AD21 đến 17-01-2027, https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%202641_12_10_26_Gia%20han%20thoi%20han%20ra%20soat.pdf).",
       "toan_van": "raw/download/pvtm.gov.vn/121-qd-bct.pdf",
       "slug": "121-qd-bct-2025",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "121/QĐ-TTg",
+      "loai": "QUYET_DINH",
+      "ten": "Phê duyệt Kế hoạch thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP)",
+      "co_quan": "TTG",
+      "ngay_ban_hanh": "2019-01-24",
+      "hieu_luc_tu": "2019-01-24",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "xuat-xu-fta/hiep-dinh/cptpp"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=196106",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/01/121.signed.pdf",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=196106) và toàn văn PDF ký số (121.signed.pdf), kết hợp căn cứ pháp lý của QĐ 127/QĐ-TTg ngày 16-01-2026: QĐ 121/QĐ-TTg ban hành và có hiệu lực từ ngày ký 24-01-2019, đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Kế hoạch thực hiện Hiệp định CPTPP của Chính phủ; được viện dẫn làm căn cứ ban hành QĐ 127/QĐ-TTg (2026).",
+      "toan_van": "raw/download/vanban.chinhphu.vn/121-qd-ttg.html",
+      "slug": "121-qd-ttg-2019",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -11546,6 +11809,48 @@
       ],
       "toan_van": "raw/download/datafiles.chinhphu.vn/122-2022-nd-cp.pdf",
       "slug": "122-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "122/2024/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 14/2018/NĐ-CP ngày 23 tháng 01 năm 2018 của Chính phủ quy định chi tiết về hoạt động thương mại biên giới",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2024-10-04",
+      "hieu_luc_tu": "2024-12-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/bien-gioi"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "14/2018/NĐ-CP",
+            "tu_ngay": "2024-12-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=211361",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/122-nd.signed.pdf",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=211361) và toàn văn PDF ký số (122-nd.signed.pdf): ban hành 04-10-2024, có hiệu lực từ 01-12-2024, sửa đổi, bổ sung một số điều của Nghị định 14/2018/NĐ-CP; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Căn cứ pháp lý trực tiếp để Bộ Công Thương ban hành TT 33/2025/TT-BCT sửa đổi danh mục hàng hóa mua bán qua cửa khẩu phụ, lối mở biên giới.",
+      "toan_van": "raw/download/vanban.chinhphu.vn/122-2024-nd-cp.html",
+      "slug": "122-2024-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -15300,6 +15605,53 @@
       }
     },
     {
+      "so_hieu": "14/2018/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết về hoạt động thương mại biên giới",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2018-01-23",
+      "hieu_luc_tu": "2018-01-23",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/bien-gioi"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=192765",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/01/14.signed_01.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-14-2018-nd-cp-25834/21275.htm",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=192765), toàn văn PDF ký số (14.signed_01.pdf) và Nghị định 122/2024/NĐ-CP: ban hành và có hiệu lực từ 23-01-2018, đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Nghị định 122/2024/NĐ-CP từ 01-12-2024).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Nghị định khung về hoạt động thương mại biên giới; căn cứ ban hành TT 01/2018/TT-BCT và TT 33/2025/TT-BCT.",
+      "toan_van": "raw/download/vanban.chinhphu.vn/14-2018-nd-cp.html",
+      "slug": "14-2018-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "122/2024/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "14/2018/NĐ-CP",
+            "tu_ngay": "2024-12-01"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "14/2018/TT-BYT",
       "loai": "THONG_TU",
       "ten": "Ban hành Danh mục trang thiết bị y tế được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
@@ -16713,6 +17065,50 @@
       "slug": "15-2012-qh13",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "15/2017/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nông nghiệp và Phát triển nông thôn",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2017-02-17",
+      "hieu_luc_tu": "2017-02-17",
+      "het_hieu_luc_tu": "2023-01-15",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "bo-may"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=188321",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2017/02/15.signed.pdf",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=188321), PDF ký số (15.signed.pdf) và Nghị định 105/2022/NĐ-CP (docid=207041): ban hành 17-02-2017, hết hiệu lực toàn bộ từ 15-01-2023 khi bị thay thế bởi Nghị định 105/2022/NĐ-CP.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Nghị định chức năng, nhiệm vụ của Bộ NN&PTNT nhiệm kỳ 2016–2021; đã bị thay thế bởi NĐ 105/2022/NĐ-CP.",
+      "toan_van": "raw/download/vanban.chinhphu.vn/15-2017-nd-cp.html",
+      "slug": "15-2017-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "105/2022/NĐ-CP",
+            "quan_he": "thay_the",
+            "so_hieu": "15/2017/NĐ-CP",
+            "tu_ngay": "2023-01-15"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "15/2018/NĐ-CP",
@@ -19925,6 +20321,41 @@
       "ghi_chu": "Trinh sát WebSearch trạm CP đêm 29/10. Đã kéo 128/2020/NĐ-CP trong sổ sang HET_HIEU_LUC 01-07-2026 theo quan hệ này. Thiếu ngày ban hành + toàn văn — nạp bổ sung khi công bố chính thức trên vanban.chinhphu.vn.",
       "toan_van": "raw/download/customs.gov.vn/169-2026-nd-cp.html",
       "slug": "169-2026-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "17/2017/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Thông tin và Truyền thông",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2017-02-17",
+      "hieu_luc_tu": "2017-02-17",
+      "het_hieu_luc_tu": "2022-07-26",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "bo-may"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=188383",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2017/02/17.signed.pdf",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=188383) và toàn văn PDF ký số (17.signed.pdf): ban hành và có hiệu lực từ 17-02-2017; hết hiệu lực từ 26-07-2022 khi bị thay thế bởi Nghị định 48/2022/NĐ-CP quy định chức năng, nhiệm vụ của Bộ TT&TT.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Nghị định chức năng, nhiệm vụ của Bộ TT&TT giai đoạn 2017–2022; đã hết hiệu lực.",
+      "toan_van": "raw/download/vanban.chinhphu.vn/17-2017-nd-cp.html",
+      "slug": "17-2017-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -25276,6 +25707,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nền của TT 67/2026 (#278) — gia đình xăng dầu #240. Hợp nhất tại VBHN 135/2026/VBHN-TT-BCT (đã có).",
+      "toan_van": "raw/download/vanban.chinhphu.vn/19-2026-tt-bct.html",
       "slug": "19-2026-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -37098,6 +37530,49 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "26/2004/QH11",
+      "loai": "LUAT",
+      "ten": "Luật sửa đổi, bổ sung một số điều của Luật Khiếu nại, tố cáo",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2004-06-15",
+      "hieu_luc_tu": "2004-10-01",
+      "het_hieu_luc_tu": "2012-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "xu-phat"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "09/1998/QH10",
+            "tu_ngay": "2004-10-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=80078",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2008/11/82437_l26qh.doc",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=80078), tệp toàn văn (82437_l26qh.doc) và Luật Khiếu nại 02/2011/QH13: thông qua 15-06-2004, hiệu lực 01-10-2004; hết hiệu lực từ 01-07-2012 khi Luật Khiếu nại 02/2011/QH13 và Luật Tố cáo 03/2011/QH13 có hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Sửa đổi, bổ sung Luật Khiếu nại, tố cáo 09/1998/QH10 lần thứ nhất; đã hết hiệu lực từ 01-07-2012.",
+      "toan_van": "raw/download/vanban.chinhphu.vn/26-2004-qh11.html",
+      "slug": "26-2004-qh11",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "26/2011/NĐ-CP",
       "loai": "NGHI_DINH",
       "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 108/2008/NĐ-CP ngày 07 tháng 10 năm 2008 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất",
@@ -39792,6 +40267,41 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "28/2023/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Khoa học và Công nghệ",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2023-06-02",
+      "hieu_luc_tu": "2023-06-06",
+      "het_hieu_luc_tu": "2025-03-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "bo-may"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=207997",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/6/28-cp.signed.pdf",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=207997) và toàn văn PDF ký số (28-cp.signed.pdf): ban hành 02-06-2023, có hiệu lực từ 06-06-2023; hết hiệu lực từ 01-03-2025 khi bị thay thế bởi Nghị định 55/2025/NĐ-CP sau khi hợp nhất Bộ KH&CN và Bộ TT&TT.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Nghị định chức năng, nhiệm vụ của Bộ KH&CN giai đoạn 2023–2025; đã hết hiệu lực.",
+      "toan_van": "raw/download/vanban.chinhphu.vn/28-2023-nd-cp.html",
+      "slug": "28-2023-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "28/2026/NĐ-CP",
@@ -58278,6 +58788,40 @@
       }
     },
     {
+      "so_hieu": "40/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-02-26",
+      "hieu_luc_tu": "2025-03-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "bo-may"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=212924",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/3/40-1cp.signed.pdf",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=212924) và toàn văn PDF ký số (40-1cp.signed.pdf): ban hành 26-02-2025, có hiệu lực từ 01-03-2025 (thay thế Nghị định 96/2022/NĐ-CP); đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Nghị định hiện hành quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương từ 01-03-2025.",
+      "toan_van": "raw/download/vanban.chinhphu.vn/40-2025-nd-cp.html",
+      "slug": "40-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "40/2025/TT-BCT",
       "loai": "THONG_TU",
       "ten": "Quy định về cấp Giấy chứng nhận xuất xứ hàng hóa và chấp thuận bằng văn bản cho thương nhân tự chứng nhận xuất xứ hàng hóa xuất khẩu",
@@ -71523,6 +72067,44 @@
       }
     },
     {
+      "so_hieu": "55/2024/QH15",
+      "loai": "LUAT",
+      "ten": "Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2024-11-29",
+      "hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bca"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=212483",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/01/luat55.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/luat-so-55-2024-qh15-43594.htm",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=212483), toàn văn PDF (luat55.pdf) và Công báo (43594): Quốc hội thông qua ngày 29-11-2024, có hiệu lực từ 01-07-2025; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Luật khung về PCCC và cứu nạn, cứu hộ; căn cứ trực tiếp của TT 125/2026/TT-BCA về kiểm tra chất lượng phương tiện PCCC nhập khẩu.",
+      "toan_van": "raw/download/vanban.chinhphu.vn/55-2024-qh15.html",
+      "slug": "55-2024-qh15",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "55/2025/TT-BYT",
       "loai": "THONG_TU",
       "ten": "Quy định về kê đơn thuốc cổ truyền, thuốc dược liệu và kê đơn kết hợp trong cơ sở khám chữa bệnh",
@@ -73437,6 +74019,49 @@
       "toan_van": "chua_co",
       "slug": "579-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "58/2005/QH11",
+      "loai": "LUAT",
+      "ten": "Luật sửa đổi, bổ sung một số điều của Luật Khiếu nại, tố cáo",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2005-11-29",
+      "hieu_luc_tu": "2006-06-01",
+      "het_hieu_luc_tu": "2012-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "xu-phat"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "09/1998/QH10",
+            "tu_ngay": "2006-06-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=55857",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2008/01/57756_l58qh.doc",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=55857), tệp toàn văn (57756_l58qh.doc) và Luật Khiếu nại 02/2011/QH13: thông qua 29-11-2005, hiệu lực 01-06-2006; hết hiệu lực từ 01-07-2012 khi Luật Khiếu nại 02/2011/QH13 và Luật Tố cáo 03/2011/QH13 có hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Sửa đổi, bổ sung Luật Khiếu nại, tố cáo 09/1998/QH10 lần thứ hai; đã hết hiệu lực từ 01-07-2012.",
+      "toan_van": "raw/download/vanban.chinhphu.vn/58-2005-qh11.html",
+      "slug": "58-2005-qh11",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -79967,6 +80592,44 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "68/2006/QH11",
+      "loai": "LUAT",
+      "ten": "Luật Tiêu chuẩn và Quy chuẩn kỹ thuật",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2006-06-29",
+      "hieu_luc_tu": "2007-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/khung-chat-luong"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=30035",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2007/07/31074_l68qh.doc",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://mst.gov.vn/van-ban-phap-luat/9205.htm",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=30035), tệp toàn văn (31074_l68qh.doc) và cổng Bộ KH&CN (mst.gov.vn/van-ban-phap-luat/9205.htm): thông qua ngày 29-06-2006, có hiệu lực từ 01-01-2007; đang còn hiệu lực (đã được sửa đổi, bổ sung một số điều bởi Luật 35/2018/QH14 và Luật 70/2025/QH15).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Luật khung về hệ thống tiêu chuẩn quốc gia (TCVN), quy chuẩn kỹ thuật quốc gia (QCVN) và công bố hợp chuẩn, hợp quy đối với hàng hóa xuất nhập khẩu.",
+      "toan_van": "raw/download/vanban.chinhphu.vn/68-2006-qh11.html",
+      "slug": "68-2006-qh11",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "68/2026/TT-BCT",
       "loai": "THONG_TU",
       "ten": "Quy định tỷ lệ hao hụt xăng dầu trong hoạt động kinh doanh xăng dầu",
@@ -81821,6 +82484,45 @@
       "toan_van": "chua_co",
       "slug": "709-tb-tchq-2019",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "71/2007/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết và hướng dẫn thực hiện một số điều của Luật Công nghệ thông tin về công nghiệp công nghệ thông tin",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2007-05-03",
+      "hieu_luc_tu": "2007-06-09",
+      "het_hieu_luc_tu": "2026-01-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bkhcn"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=23938",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2007/05/24638_nd71cp.doc",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://mst.gov.vn/van-ban-phap-luat/9250.htm",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=23938), tệp toàn văn (24638_nd71cp.doc) và cổng Bộ KH&CN (mst.gov.vn/van-ban-phap-luat/9250.htm): ban hành 03-05-2007, hiệu lực 09-06-2007; hết hiệu lực toàn bộ từ 01-01-2026 khi bị thay thế bởi Nghị định 353/2025/NĐ-CP hướng dẫn Luật Công nghiệp công nghệ số.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Hướng dẫn Luật CNTT về công nghiệp CNTT (phần cứng, phần mềm, nội dung số); căn cứ của TT 09/2013/TT-BTTTT; hết hiệu lực từ 01-01-2026.",
+      "toan_van": "raw/download/vanban.chinhphu.vn/71-2007-nd-cp.html",
+      "slug": "71-2007-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -88303,6 +89005,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "88/2015/QH13",
+      "loai": "LUAT",
+      "ten": "Luật Kế toán",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2015-11-20",
+      "hieu_luc_tu": "2017-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/luat-thue"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=183198",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/01/88.signed.pdf",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=183198) và toàn văn PDF ký số (88.signed.pdf): thông qua ngày 20-11-2015, có hiệu lực từ 01-01-2017; đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Luật 56/2024/QH15).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Quy định về chứng từ kế toán, sổ kế toán, báo cáo tài chính phục vụ kiểm tra sau thông quan và quản lý thuế.",
+      "toan_van": "raw/download/vanban.chinhphu.vn/88-2015-qh13.html",
+      "slug": "88-2015-qh13",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "89/2018/NĐ-CP",
       "loai": "NGHI_DINH",
       "ten": "Quy định chi tiết thi hành một số điều của Luật Phòng, chống bệnh truyền nhiễm về kiểm dịch y tế biên giới",
@@ -89964,6 +90700,41 @@
       "toan_van": "chua_co",
       "slug": "977-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "98/2017/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2017-08-18",
+      "hieu_luc_tu": "2017-08-18",
+      "het_hieu_luc_tu": "2022-12-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "bo-may"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=190821",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2017/08/98.signed.pdf",
+          "truy_cap": "2026-11-14"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=190821) và toàn văn PDF ký số (98.signed.pdf): ban hành và có hiệu lực từ 18-08-2017; hết hiệu lực từ 01-12-2022 khi bị thay thế bởi Nghị định 96/2022/NĐ-CP quy định chức năng, nhiệm vụ của Bộ Công Thương.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Nghị định chức năng, nhiệm vụ của Bộ Công Thương giai đoạn 2017–2022; đã hết hiệu lực.",
+      "toan_van": "raw/download/vanban.chinhphu.vn/98-2017-nd-cp.html",
+      "slug": "98-2017-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
