@@ -49,7 +49,7 @@
       "co_quan": "BCT",
       "ngay_ban_hanh": "2018-02-27",
       "hieu_luc_tu": "2018-02-27",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
       "nhanh": [
         "quan-ly-ngoai-thuong/bien-gioi"
       ],
@@ -66,6 +66,7 @@
         "ngay": "2026-11-14",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "toan_van": "raw/download/congbao.chinhphu.vn/01-2018-tt-bct.html",
       "slug": "01-2018-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -510,7 +511,7 @@
       "co_quan": "BTTTT",
       "ngay_ban_hanh": "2015-03-06",
       "hieu_luc_tu": "2015-05-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
@@ -527,6 +528,7 @@
         "ngay": "2026-11-14",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "toan_van": "raw/download/congbao.chinhphu.vn/03-2015-tt-btttt.html",
       "slug": "03-2015-tt-btttt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -1091,7 +1093,7 @@
       "co_quan": "BTTTT",
       "ngay_ban_hanh": "2016-03-01",
       "hieu_luc_tu": "2016-08-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
@@ -1108,6 +1110,7 @@
         "ngay": "2026-11-14",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "toan_van": "raw/download/congbao.chinhphu.vn/05-2016-tt-btttt.html",
       "slug": "05-2016-tt-btttt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -2169,6 +2172,13 @@
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
       "quan_he": {
+        "bai_bo": [
+          {
+            "so_hieu": "11/2022/TT-BNNPTNT",
+            "tu_ngay": "2026-01-23",
+            "can_cu": "Khoản 2 Điều 23 Thông tư 07/2026/TT-BNNMT"
+          }
+        ],
         "sua_doi": [
           {
             "so_hieu": "05/2015/TT-BNNPTNT",
@@ -3965,6 +3975,7 @@
         "boi": "bc-469c3f42-high-blind-spots"
       },
       "ghi_chu": "Phê chuẩn EVFTA (ký 30/06/2019). Bổ sung cặp với 72/2018/QH14 (CPTPP) và các QĐ-TTg đầu mối trên cùng nhánh hiep-dinh.",
+      "toan_van": "raw/download/congbao.chinhphu.vn/102-2020-qh14.html",
       "slug": "102-2020-qh14",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -6703,8 +6714,10 @@
       "loai": "THONG_TU",
       "ten": "Sửa đổi, bổ sung một số quy định về thủ tục hành chính trong lĩnh vực bảo vệ và kiểm dịch thực vật",
       "co_quan": "BNNPTNT",
+      "ngay_ban_hanh": "2022-08-05",
       "hieu_luc_tu": "2022-09-20",
-      "tinh_trang": "CON_HIEU_LUC",
+      "het_hieu_luc_tu": "2026-01-23",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
@@ -6716,14 +6729,24 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "đối chiếu Công báo (id=37919): Thông tư 11/2022/TT-BNNPTNT sửa đổi, bổ sung một số quy định về thủ tục hành chính trong lĩnh vực bảo vệ và kiểm dịch thực vật, có hiệu lực từ 20-09-2022 theo Điều 4; đối chiếu đang còn hiệu lực",
+        "pham_vi": "đối chiếu Công báo (id=37919) và Thông tư 07/2026/TT-BNNMT: Thông tư 11/2022/TT-BNNPTNT ban hành ngày 05-08-2022, có hiệu lực từ 20-09-2022 theo Điều 4; đã hết hiệu lực toàn bộ từ ngày 23-01-2026 do bị bãi bỏ bởi khoản 2 Điều 23 Thông tư 07/2026/TT-BNNMT",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "11-2022-tt-bnnptnt",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "07/2026/TT-BNNMT",
+            "quan_he": "bai_bo",
+            "so_hieu": "11/2022/TT-BNNPTNT",
+            "tu_ngay": "2026-01-23",
+            "can_cu": "Khoản 2 Điều 23 Thông tư 07/2026/TT-BNNMT"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "11/2024/TT-BTTTT",
@@ -7227,6 +7250,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Liên quan XNK: KHÔNG — NĐ về tổ chức đào tạo thực hành khối ngành sức khỏe, ngoài phạm vi hàng hóa XNK; nạp để xác nhận miss/khách tra nhầm số hiệu (cảnh báo cho kho). Không gắn nhánh.",
+      "toan_van": "raw/download/congbao.chinhphu.vn/111-2017-nd-cp.html",
       "slug": "111-2017-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -11935,6 +11959,7 @@
         "giao-thang-nuoc-thu-ba",
         "thue"
       ],
+      "toan_van": "raw/download/congbao.chinhphu.vn/123-2020-nd-cp.html",
       "slug": "123-2020-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -13321,6 +13346,7 @@
         "ngay": "2026-10-28",
         "boi": "zcode@ozvietnam"
       },
+      "toan_van": "raw/download/congbao.chinhphu.vn/13-2015-tt-btc.html",
       "slug": "13-2015-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -14854,6 +14880,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Radar công báo đêm 2/11 (#335). QCVN sản phẩm khăn giấy/giấy vệ sinh — căn cứ KTCL hàng NK nhóm 48.03/48.18 (chương 44 dăm gỗ liên quan bảng kê Mẫu 01).",
+      "toan_van": "raw/download/congbao.chinhphu.vn/136-2026-vbhn-tt-bct.html",
       "slug": "136-2026-vbhn-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -15080,6 +15107,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Radar công báo đêm 2/11 (#335). QCVN VLXD — căn cứ KTCL hàng NK vật liệu xây dựng (chương 68/69/70…).",
+      "toan_van": "raw/download/congbao.chinhphu.vn/138-2026-vbhn-tt-bxd.html",
       "slug": "138-2026-vbhn-tt-bxd",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -15304,7 +15332,7 @@
       "co_quan": "BNNPTNT",
       "ngay_ban_hanh": "2024-10-31",
       "hieu_luc_tu": "2024-12-15",
-      "tinh_trang": "CON_HIEU_LUC",
+      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
       "nhanh": [
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
@@ -15329,11 +15357,12 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 31-10-2024, hiệu lực 15-12-2024 (vanban.chinhphu.vn docid=211706 + toàn văn TVPL 631671: Điều 5 khoản 2 bãi bỏ 30/2014, Điều 3 miễn PRA nghiên cứu)",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 31-10-2024, hiệu lực 15-12-2024 (vanban.chinhphu.vn docid=211706 + toàn văn: Điều 5 khoản 2 bãi bỏ 30/2014, Điều 3 miễn PRA nghiên cứu; đã được sửa đổi, bổ sung một phần bởi 12/2025/TT-BNNMT, hợp nhất tại 109/2026/VBHN-TT-BNNMT)",
         "hieu_luc_da_doi_chieu": true,
-        "ngay": "2026-10-28",
-        "boi": "zcode@ozvietnam"
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "toan_van": "raw/download/vanban.chinhphu.vn/14-2024-tt-bnnptnt.html",
       "slug": "14-2024-tt-bnnptnt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -16790,7 +16819,7 @@
       "co_quan": "BNNPTNT",
       "ngay_ban_hanh": "2020-12-25",
       "hieu_luc_tu": "2021-06-25",
-      "tinh_trang": "CON_HIEU_LUC",
+      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
       "nhanh": [
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
@@ -16814,13 +16843,13 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Đã đối chiếu trên Công báo nước CHXHCN Việt Nam (congbao.chinhphu.vn, Công báo số 293+294 năm 2021, mã văn bản 32849) và CSDL Quốc gia về VBPL (vbpl.vn ID 153308): Thông tư số 15/2020/TT-BNNPTNT do Thứ trưởng Lê Quốc Doanh ký ban hành ngày 25-12-2020, có hiệu lực thi hành sau 06 tháng kể từ ngày ký (từ ngày 25-06-2021 theo Điều 2), ban hành kèm theo Quy chuẩn kỹ thuật quốc gia QCVN 01-192:2020/BNNPTNT về yêu cầu đối với vật thể thuộc diện kiểm dịch thực vật nhập khẩu (đính chính bản ghi cũ ghi nhầm mã quy chuẩn là QCVN 01-01:2020/BNNPTNT). Văn bản hiện đang còn hiệu lực thi hành.",
+        "pham_vi": "Đã đối chiếu trên Công báo nước CHXHCN Việt Nam (congbao.chinhphu.vn, Công báo số 293+294 năm 2021, mã văn bản 32849) và CSDL Quốc gia về VBPL (vbpl.vn ID 153308): Thông tư số 15/2020/TT-BNNPTNT do Thứ trưởng Lê Quốc Doanh ký ban hành ngày 25-12-2020, có hiệu lực thi hành sau 06 tháng kể từ ngày ký (từ ngày 25-06-2021 theo Điều 2), ban hành kèm theo Quy chuẩn kỹ thuật quốc gia QCVN 01-192:2020/BNNPTNT về yêu cầu đối với vật thể thuộc diện kiểm dịch thực vật nhập khẩu (đính chính bản ghi cũ ghi nhầm mã quy chuẩn là QCVN 01-01:2020/BNNPTNT); đã được sửa đổi, bổ sung một phần bởi 12/2025/TT-BNNMT (hợp nhất tại 111/2026/VBHN-TT-BNNMT).",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Ban hành kèm theo QCVN 01-192:2020/BNNPTNT về yêu cầu đối với vật thể thuộc diện kiểm dịch thực vật nhập khẩu (hiệu lực từ 25-06-2021). Issue #237 mô tả TT 15/2020 là \"trình tự thủ tục + danh mục\" — KHÔNG ĐÚNG: TT 15/2020 là thông tư QCVN kỹ thuật nhập khẩu. Trình tự thủ tục nằm ở chuỗi TT 33/2014 (sửa 34/2018, 15/2021; 03/2024 bãi một phần 34/2018) — VBHN 19/2024; danh mục vật thể + PRA ở TT 30/2014 → TT 14/2024. Nạp để khách tra tên này không trượt, kèm điều chỉnh hiểu nhầm.",
-      "toan_van": "chua_co",
+      "toan_van": "raw/download/congbao.chinhphu.vn/15-2020-tt-bnnptnt.html",
       "slug": "15-2020-tt-bnnptnt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -22627,6 +22656,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Liên quan XNK trực tiếp: máy móc, thiết bị, dây chuyền công nghệ đã qua sử dụng nhập khẩu theo mã HS Chương 84, 85 phải đáp ứng tiêu chuẩn, hồ sơ, trình tự kiểm tra và lấy mẫu theo QĐ này trước khi thông quan — khách XNK tra nhiều khi nhập dây chuyền sản xuất second-hand.",
+      "toan_van": "raw/download/congbao.chinhphu.vn/18-2019-qd-ttg.html",
       "slug": "18-2019-qd-ttg",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -26718,6 +26748,7 @@
         "in",
         "xuat-nhap-khau"
       ],
+      "toan_van": "raw/download/congbao.chinhphu.vn/195-2013-nd-cp.html",
       "slug": "195-2013-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -28339,7 +28370,7 @@
       "co_quan": "BNNPTNT",
       "ngay_ban_hanh": "2021-12-28",
       "hieu_luc_tu": "2022-02-11",
-      "tinh_trang": "CON_HIEU_LUC",
+      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
       "nhanh": [
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
@@ -28363,11 +28394,12 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=204999, Thứ trưởng Lê Quốc Doanh ký), tệp ký số 20-bnn.signed.pdf và CSDL quốc gia vbpl.vn (id=152303, Công báo số 65+66 ngày 16-01-2022): số hiệu, tiêu đề, ngày ban hành 28-12-2021 (hiệu đính từ 30-11-2021 ở bản ghi cũ), Điều 9 có hiệu lực từ 11-02-2022 và thay thế Thông tư 14/2012/TT-BNNPTNT; đang còn hiệu lực (được hợp nhất tại 99/2026/VBHN-TT-BNNMT)",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=204999, Thứ trưởng Lê Quốc Doanh ký), tệp ký số 20-bnn.signed.pdf và CSDL quốc gia vbpl.vn (id=152303, Công báo số 65+66 ngày 16-01-2022): số hiệu, tiêu đề, ngày ban hành 28-12-2021 (hiệu đính từ 30-11-2021 ở bản ghi cũ), Điều 9 có hiệu lực từ 11-02-2022 và thay thế Thông tư 14/2012/TT-BNNPTNT; đã được sửa đổi, bổ sung một phần bởi 12/2025/TT-BNNMT (hợp nhất tại 99/2026/VBHN-TT-BNNMT)",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "toan_van": "raw/download/vanban.chinhphu.vn/20-2021-tt-bnnptnt.html",
       "slug": "20-2021-tt-bnnptnt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -36183,6 +36215,7 @@
         "in",
         "xuat-nhap-khau"
       ],
+      "toan_van": "raw/download/congbao.chinhphu.vn/25-2018-nd-cp.html",
       "slug": "25-2018-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -54498,6 +54531,7 @@
         "boi": "cursor-agent@ozvietnam"
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (6 mã HS). Được TT 07/2026/TT-BCT sửa đổi, bổ sung từ 10-04-2026.",
+      "toan_van": "raw/download/congbao.chinhphu.vn/37-2013-tt-bct.html",
       "slug": "37-2013-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -56331,6 +56365,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Quy định xác định xuất xứ Việt Nam đối với hàng hóa sản xuất và lưu thông trong nước (ban hành 09-10-2026, có hiệu lực từ 01-01-2027) — tách bạch với xuất xứ hàng hóa xuất khẩu, nhập khẩu theo FTA.",
+      "toan_van": "raw/download/congbao.chinhphu.vn/384-2026-nd-cp.html",
       "slug": "384-2026-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -61787,6 +61822,7 @@
         "ngay": "2026-11-14",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "toan_van": "raw/download/congbao.chinhphu.vn/43-2013-tt-bct.html",
       "slug": "43-2013-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -65875,6 +65911,7 @@
         "form-ak",
         "xuat-xu"
       ],
+      "toan_van": "raw/download/congbao.chinhphu.vn/49-2025-tt-bct.html",
       "slug": "49-2025-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}

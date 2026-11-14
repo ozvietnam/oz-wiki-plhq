@@ -157,6 +157,7 @@ flowchart LR
   n_15_2021_TT_BNNPTNT["15/2021/TT-BNNPTNT<br/>còn hiệu lực"]
   n_07_2026_TT_BNNMT["07/2026/TT-BNNMT<br/>còn hiệu lực"]
   n_05_2015_TT_BNNPTNT["05/2015/TT-BNNPTNT<br/>hết hiệu lực một phần"]
+  n_11_2022_TT_BNNPTNT["11/2022/TT-BNNPTNT<br/>hết hiệu lực"]
   n_08_2026_VBHN_BYT["08/2026/VBHN-BYT<br/>còn hiệu lực"]
   n_98_2021_N__CP["98/2021/NĐ-CP<br/>hết hiệu lực một phần"]
   n_07_2023_N__CP["07/2023/NĐ-CP<br/>còn hiệu lực"]
@@ -179,17 +180,17 @@ flowchart LR
   n_44_2024_QH15["44/2024/QH15<br/>còn hiệu lực"]
   n_76_VBHN_VPQH["76-VBHN/VPQH<br/>còn hiệu lực"]
   n_109_2026_VBHN_TT_BNNMT["109/2026/VBHN-TT-BNNMT<br/>còn hiệu lực"]
-  n_14_2024_TT_BNNPTNT["14/2024/TT-BNNPTNT<br/>còn hiệu lực"]
+  n_14_2024_TT_BNNPTNT["14/2024/TT-BNNPTNT<br/>hết hiệu lực một phần"]
   n_11_2017_TT_BCT["11/2017/TT-BCT<br/>hết hiệu lực"]
   n_11_2024_TT_BTTTT["11/2024/TT-BTTTT<br/>còn hiệu lực"]
-  n_05_2016_TT_BTTTT["05/2016/TT-BTTTT<br/>chưa xác minh"]
+  n_05_2016_TT_BTTTT["05/2016/TT-BTTTT<br/>hết hiệu lực một phần"]
   n_22_2018_TT_BTTTT["22/2018/TT-BTTTT<br/>hết hiệu lực một phần"]
   n_09_2013_TT_BTTTT["09/2013/TT-BTTTT<br/>hết hiệu lực một phần"]
-  n_03_2015_TT_BTTTT["03/2015/TT-BTTTT<br/>chưa xác minh"]
+  n_03_2015_TT_BTTTT["03/2015/TT-BTTTT<br/>hết hiệu lực một phần"]
   n_111_2021_N__CP["111/2021/NĐ-CP<br/>hết hiệu lực"]
   n_43_2017_N__CP["43/2017/NĐ-CP<br/>hết hiệu lực"]
   n_111_2026_VBHN_TT_BNNMT["111/2026/VBHN-TT-BNNMT<br/>còn hiệu lực"]
-  n_15_2020_TT_BNNPTNT["15/2020/TT-BNNPTNT<br/>còn hiệu lực"]
+  n_15_2020_TT_BNNPTNT["15/2020/TT-BNNPTNT<br/>hết hiệu lực một phần"]
   n_113_2017_N__CP["113/2017/NĐ-CP<br/>hết hiệu lực"]
   n_108_2008_N__CP["108/2008/NĐ-CP<br/>hết hiệu lực"]
   n_26_2011_N__CP["26/2011/NĐ-CP<br/>hết hiệu lực"]
@@ -279,7 +280,7 @@ flowchart LR
   n_23_2000_QH10["23/2000/QH10<br/>hết hiệu lực"]
   n_6266_Q__BCA["6266/QĐ-BCA<br/>chưa xác minh"]
   n_99_2026_VBHN_TT_BNNMT["99/2026/VBHN-TT-BNNMT<br/>còn hiệu lực"]
-  n_20_2021_TT_BNNPTNT["20/2021/TT-BNNPTNT<br/>còn hiệu lực"]
+  n_20_2021_TT_BNNPTNT["20/2021/TT-BNNPTNT<br/>hết hiệu lực một phần"]
   n_01_2021_TT_BL_TBXH -->|thay thế từ 2021-07-18| n_22_2018_TT_BL_TBXH
   n_01_2022_TT_BNNPTNT -->|sửa đổi thay thế Phần A Mục 16 Phụ lục I bằng Phụ lục XXIII ban hành kèm theo TT 01/2022/TT-BNNPTNT từ 2022-03-04| n_11_2021_TT_BNNPTNT
   n_03_2024_TT_BNNPTNT -->|bãi bỏ một số quy định từ 2024-05-16| n_34_2018_TT_BNNPTNT
@@ -291,6 +292,7 @@ flowchart LR
   n_06_VBHN_BNNPTNT -->|hợp nhất| n_34_2018_TT_BNNPTNT
   n_06_VBHN_BNNPTNT -->|hợp nhất| n_15_2021_TT_BNNPTNT
   n_07_2026_TT_BNNMT -->|sửa đổi Điều 22 sửa đổi, bổ sung một số điều của Thông tư 05/2015/TT-BNNPTNT (đã được sửa đổi, bổ sung bởi Thông tư 15/2021/TT-BNNPTNT và Thông tư 33/2014/TT-BNNPTNT) từ 2026-01-23| n_05_2015_TT_BNNPTNT
+  n_07_2026_TT_BNNMT -->|bãi bỏ từ 2026-01-23| n_11_2022_TT_BNNPTNT
   n_08_2026_VBHN_BYT -->|hợp nhất| n_98_2021_N__CP
   n_08_2026_VBHN_BYT -->|hợp nhất| n_07_2023_N__CP
   n_08_2026_VBHN_BYT -->|hợp nhất| n_96_2023_N__CP
@@ -524,7 +526,7 @@ flowchart LR
   n_2961_Q__BCT["2961/QĐ-BCT<br/>hết hiệu lực"]
   n_1578_Q__BCT["1578/QĐ-BCT<br/>hết hiệu lực"]
   n_33_2025_TT_BCT["33/2025/TT-BCT<br/>còn hiệu lực"]
-  n_01_2018_TT_BCT["01/2018/TT-BCT<br/>chưa xác minh"]
+  n_01_2018_TT_BCT["01/2018/TT-BCT<br/>hết hiệu lực một phần"]
   n_34_2025_TT_BCT["34/2025/TT-BCT<br/>còn hiệu lực"]
   n_02_2018_TT_BCT["02/2018/TT-BCT<br/>còn hiệu lực"]
   n_342_2026_N__CP["342/2026/NĐ-CP<br/>còn hiệu lực"]
