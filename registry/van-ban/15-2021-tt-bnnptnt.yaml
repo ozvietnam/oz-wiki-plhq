@@ -3,7 +3,7 @@ so_hieu: 15/2021/TT-BNNPTNT
 so_hieu_khac:
   - 15/2021/TT-BNNMT
 loai: THONG_TU
-ten: Sửa đổi, bổ sung một số điều của Thông tư số 05/2015/TT-BNNPTNT ngày 12 tháng 02 năm 2015 và Thông tư số 33/2014/TT-BNNPTNT ngày 30 tháng 10 năm 2014
+ten: Sửa đổi, bổ sung một số điều của Thông tư số 05/2015/TT-BNNPTNT ngày 12 tháng 02 năm 2015 quy định về trình tự, thủ tục cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật và Thông tư số 33/2014/TT-BNNPTNT ngày 30 tháng 10 năm 2014 quy định trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật
 co_quan: BNNPTNT
 ngay_ban_hanh: '2021-12-06'
 hieu_luc_tu: '2022-01-21'
@@ -17,11 +17,15 @@ quan_he:
     - so_hieu: 33/2014/TT-BNNPTNT
       tu_ngay: '2022-01-21'
 nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=204667
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2021/12/15.signed_01.pdf
+    truy_cap: '2026-11-14'
   - url: https://www.ppd.gov.vn/FileUpload/Documents/vbhn_19_thong_tu_33_va_thong_tu_03_cua_bo_nnptnt.pdf
     truy_cap: '2026-10-28'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 06-12-2021, hiệu lực 21-01-2022, sửa 05/2015 + 33/2014 (trang đầu PDF hợp nhất Cục BVTV trích nguyên văn)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-28'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=204667) và toàn văn PDF ký số (15.signed_01.pdf, Thứ trưởng Lê Quốc Doanh ký): ban hành 06-12-2021, có hiệu lực từ 21-01-2022; sửa đổi, bổ sung một số điều của Thông tư 05/2015/TT-BNNPTNT và Thông tư 33/2014/TT-BNNPTNT; đang còn hiệu lực và đã được hợp nhất tại 06/VBHN-BNNPTNT và 19/VBHN-BNNPTNT.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam

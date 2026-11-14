@@ -3,17 +3,23 @@ so_hieu: 176/2013/NĐ-CP
 loai: NGHI_DINH
 ten: Quy định xử phạt vi phạm hành chính trong lĩnh vực y tế
 co_quan: CP
-ngay_ban_hanh: '2013-11-13'
-tinh_trang: CON_HIEU_LUC
+ngay_ban_hanh: '2013-11-14'
+hieu_luc_tu: '2013-12-31'
+het_hieu_luc_tu: '2020-11-15'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
 nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-176-2013-nd-cp-6310.htm
+    truy_cap: '2026-11-14'
+  - url: https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-176-2013-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-y-te--32779
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx
     truy_cap: '2026-10-22'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: "theo issue #224: còn hiệu lực, sửa bởi NĐ 114/2015/NĐ-CP (chưa nạp); CẦN KIỂM nghĩa định xử phạt y tế mới (nếu có ban hành 2024-2026) — điểm mù"
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-22'
-  boi: zcode@ozvietnam
-ghi_chu: "Xử phạt VPHC y tế (gồm mỹ phẩm). Trước khi trích mức phạt: kiểm VBHN/nghị định sửa mới nhất."
+  muc: NGUON_A
+  pham_vi: "Đối chiếu Công báo Chính phủ (số 871 + 872, mã 6310, Thủ tướng Nguyễn Tấn Dũng ký) và CSDL quốc gia vbpl.vn (ItemID=32779): ban hành 14-11-2013 (đính chính từ 13-11-2013), có hiệu lực từ 31-12-2013; hết hiệu lực toàn bộ từ ngày 15-11-2020 do bị Nghị định 117/2020/NĐ-CP ngày 28-09-2020 quy định xử phạt vi phạm hành chính trong lĩnh vực y tế (chưa nạp vào sổ) thay thế."
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: "Xử phạt VPHC y tế (gồm mỹ phẩm). Đã hết hiệu lực toàn bộ từ 15-11-2020 khi Nghị định 117/2020/NĐ-CP có hiệu lực thi hành."

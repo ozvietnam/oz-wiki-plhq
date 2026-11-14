@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: '18/2019/QĐ-TTg'
 loai: QUYET_DINH
-ten: 'Quyết định 18/2019/QĐ-TTg của Thủ tướng Chính phủ quy định việc nhập khẩu máy móc, thiết bị, dây chuyền công nghệ đã qua sử dụng'
+ten: 'Quy định việc nhập khẩu máy móc, thiết bị, dây chuyền công nghệ đã qua sử dụng'
 co_quan: TTG
 ngay_ban_hanh: '2019-04-19'
 hieu_luc_tu: '2019-06-15'
@@ -10,14 +10,20 @@ nhanh:
   - hai-quan/thu-tuc
   - kiem-tra-chuyen-nganh
 nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=196855
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/04/18.signed_01.pdf
+    truy_cap: '2026-11-14'
+  - url: https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-18-2019-qd-ttg-28889/26622.htm
+    truy_cap: '2026-11-14'
   - url: https://www.vietnamtradeportal.gov.vn/index.php?r=site/display&id=2117
     truy_cap: '2026-11-06'
   - url: https://thuvienphapluat.vn/van-ban/xuat-nhap-khau/decision-18-2019-qd-ttg-import-of-used-machinery-equipment-and-technological-lines-412549.aspx
     truy_cap: '2026-11-06'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'Số hiệu, tên, cơ quan (Thủ tướng Chính phủ), ngày ban hành 19/04/2019, ngày hiệu lực 15/06/2019 (Điều 17) xác minh trên Vietnam Trade Portal (cổng chính thức Bộ Công Thương) và toàn văn bản tiếng Anh tại Luật Việt Nam (ký bởi Phó Thủ tướng Trịnh Đình Dũng thay Thủ tướng). Thay thế Thông tư 23/2015/TT-BKHCN (có quy định chuyển tiếp tại Điều 16). Tình trạng còn hiệu lực đến 2026 cùng các văn bản sửa đổi (QĐ 28/2022/QĐ-TTg ngày 21/12/2022; QĐ 02/2026/QĐ-TTg sửa Điều 9; Tổng cục Hải quan vẫn viện dẫn qua Công văn 37951/CHQ-GSQL 2025) theo nguồn thứ cấp — chưa đối chiếu trực tiếp trên vbpl.vn.'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-06'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=196855), toàn văn PDF ký số (18.signed_01.pdf, Phó Thủ tướng Trịnh Đình Dũng ký thay Thủ tướng) và Công báo Chính phủ (mã 26622): ban hành 19-04-2019, có hiệu lực từ 15-06-2019 (Điều 17), thay thế Thông tư 23/2015/TT-BKHCN (chưa nạp vào sổ); đang còn hiệu lực, được sửa đổi, bổ sung một số điều bởi Quyết định 28/2022/QĐ-TTg ngày 20-12-2022 và Quyết định 02/2026/QĐ-TTg (chưa nạp vào sổ).'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Liên quan XNK trực tiếp: máy móc, thiết bị, dây chuyền công nghệ đã qua sử dụng nhập khẩu theo mã HS Chương 84, 85 phải đáp ứng tiêu chuẩn, hồ sơ, trình tự kiểm tra và lấy mẫu theo QĐ này trước khi thông quan — khách XNK tra nhiều khi nhập dây chuyền sản xuất second-hand.'
