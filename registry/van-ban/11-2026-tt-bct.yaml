@@ -4,18 +4,23 @@ loai: THONG_TU
 ten: Quy định về truy xuất nguồn gốc thực phẩm thuộc phạm vi quản lý của Bộ Công Thương
 co_quan: BCT
 ngay_ban_hanh: '2026-02-27'
-tinh_trang: CON_HIEU_LUC
+hieu_luc_tu: '2026-04-16'
+tinh_trang: TAM_NGUNG_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh
 nguon:
-  - url: https://chinhphu.vn/?pageid=27160&docid=217126
-    truy_cap: '2026-11-02'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=217126
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/11-bct.pdf
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/10/qd_2468-tam-ngung-hieu-luc-tt11.signed.pdf
+    truy_cap: '2026-11-14'
   - url: https://vasep.com.vn/van-ban/cac-bo-khac/bo-cong-thuong/thong-tu-11-2026-tt-bct-quy-dinh-ve-truy-xuat-nguon-goc-thuc-pham-thuoc-pham-vi-quan-ly-cua-bo-cong-thuong-3519.html
     truy_cap: '2026-11-02'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tên nguyên văn, ngày ban hành 27-02-2026 (chinhphu.vn docid 217126 + VASEP). Hiệu lực chưa đối chiếu — cần toàn văn'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-02'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=217126), toàn văn PDF Thông tư 11/2026/TT-BCT (11-bct.pdf, 22 điều và Phụ lục 1, 2, Thứ trưởng Trương Thanh Hoài ký) và PDF Quyết định 2468/QĐ-BCT đính kèm (qd_2468-tam-ngung-hieu-luc-tt11.signed.pdf): ban hành 27-02-2026, hiệu lực gốc từ 16-04-2026 (khoản 1 Điều 22, lộ trình bắt buộc tại Điều 15); hiện đang tạm ngưng hiệu lực thi hành từ 01-10-2026 theo Quyết định 2468/QĐ-BCT ngày 30-09-2026 (thay thế Quyết định 1611/QĐ-BCT ngày 01-07-2026) cho đến khi Thông tư thay thế có hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: Trinh sát WebSearch trạm BCT đêm 2/11. Bổ sung cho TT 28/2026/TT-BCT (danh mục ATTP đã có) — truy xuất nguồn gốc là nghĩa vụ kèm theo khi NK thực phẩm BCT.

@@ -1,19 +1,24 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 109/2026/VBHN-TT-BNNMT
 loai: VAN_BAN_HOP_NHAT
-ten: 'Hợp nhất Danh mục vật thể kiểm dịch thực vật và phân tích nguy cơ dịch hại'
+ten: 'Ban hành Danh mục vật thể thuộc diện kiểm dịch thực vật; Danh mục vật thể thuộc diện kiểm dịch thực vật phải phân tích nguy cơ dịch hại trước khi nhập khẩu vào Việt Nam'
 co_quan: BNNMT
 ngay_ban_hanh: '2026-11-02'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
+quan_he:
+  hop_nhat:
+    - 14/2024/TT-BNNPTNT
 nguon:
-  - url: https://chinhphu.vn/?pageid=27160&docid=220188
-    truy_cap: '2026-11-07'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=220180
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/109-vbhn-bnnmt.signed.pdf
+    truy_cap: '2026-11-14'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + ngày ban hành 02-11-2026 (chinhphu.vn, bản tin hợp nhất KDTV 02-11)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-07'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=220180; sửa URL cũ docid=220188 vốn trỏ nhầm sang 55/2026/TT-BKHCN) và toàn văn PDF ký số (109-vbhn-bnnmt.signed.pdf, 8 trang, 6 điều, Thứ trưởng Nguyễn Hoàng Hiệp ký): xác thực ngày 02-11-2026, đang còn hiệu lực; hợp nhất Thông tư 14/2024/TT-BNNPTNT ngày 31-10-2024 (hiệu lực 15-12-2024, thay thế Thông tư 30/2014/TT-BNNPTNT) và Thông tư 12/2025/TT-BNNMT ngày 19-06-2025 (hiệu lực 01-07-2025)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Trinh sát đêm 7/11. Bộ 4 VBHN KDTV 108–111 ngày 02-11-2026; sổ đã có 108 + 111, đêm nay bổ sung 109 + 110 cho đủ họ.'

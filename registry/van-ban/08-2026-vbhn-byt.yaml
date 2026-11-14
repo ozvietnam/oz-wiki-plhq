@@ -7,15 +7,22 @@ ngay_ban_hanh: '2026-03-06'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
+quan_he:
+  hop_nhat:
+    - 98/2021/NĐ-CP
+    - 07/2023/NĐ-CP
+    - 96/2023/NĐ-CP
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=217131
-    truy_cap: '2026-11-07'
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/08-vbhn-byt.pdf
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Van-ban-hop-nhat-08-VBHN-BYT-2026-Nghi-dinh-quan-ly-thiet-bi-y-te-696880.aspx
     truy_cap: '2026-11-07'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + ngày ban hành 06-03-2026, ký Thứ trưởng Đỗ Xuân Tuyên (vanban.chinhphu.vn docid 217131 + TVPL)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-07'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=217131) và toàn văn PDF (08-vbhn-byt.pdf, 119 trang, 77 điều, Thứ trưởng Đỗ Xuân Tuyên ký): xác thực ngày 06-03-2026, đang còn hiệu lực; hợp nhất Nghị định 98/2021/NĐ-CP ngày 08-11-2021 với 5 Nghị định sửa đổi, bổ sung: 07/2023/NĐ-CP (hiệu lực 03-03-2023), 96/2023/NĐ-CP (hiệu lực 01-01-2024), 85/2024/NĐ-CP (hiệu lực 10-07-2024), 04/2025/NĐ-CP (hiệu lực 01-01-2025) và 342/2025/NĐ-CP (hiệu lực 15-02-2026)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Trinh sát đêm 7/11 phát hiện thiếu hụt: VBHN hợp nhất NĐ quản lý TB-YT (98/2021 sửa 36/2016) tồn từ 06-03 mà sổ chưa nạp — nền cho phân loại thiết bị y tế nhóm 9018-9022.'

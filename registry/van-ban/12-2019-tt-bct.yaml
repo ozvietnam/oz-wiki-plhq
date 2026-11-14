@@ -10,14 +10,14 @@ nhanh:
   - xuat-xu-fta
 nguon:
   - url: https://moit.gov.vn/van-ban-phap-luat/van-ban-phap-quy/-thong-tu-quy-dinh-quy-tac-xuat-xu-hang-hoa-trong-hiep-dinh-3.html
-    truy_cap: '2026-10-21'
+    truy_cap: '2026-11-14'
   - url: https://luatvietnam.vn/thuong-mai/thong-tu-12-2019-tt-bct-quy-tac-xuat-xu-hang-hoa-trong-hiep-dinh-hop-tac-giua-asean-va-trung-quoc-175969-d1.html
     truy_cap: '2026-10-21'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'trang văn bản pháp quy của Bộ Công Thương (bộ ban hành) + thẻ LuatVietnam: ban hành 30-07-2019, hiệu lực 12-09-2019; thẻ vanban.chinhphu.vn CHƯA tìm ra docid — nâng NGUON_A khi có'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-21'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu trực tiếp cổng văn bản pháp quy Bộ Công Thương (moit.gov.vn): số hiệu 12/2019/TT-BCT, Bộ trưởng Trần Tuấn Anh ký ban hành ngày 30-07-2019, có hiệu lực từ 12-09-2019 (Điều 34), trạng thái Đã có hiệu lực (4 chương, 34 điều, 4 phụ lục; được sửa đổi, bổ sung một phần bởi Thông tư 10/2022/TT-BCT từ 16-07-2022)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'BỘ QUY TẮC XUẤT XỨ ACFTA (C/O form E) ĐANG ÁP DỤNG HÔM NAY: 4 chương 34 điều + 4 phụ lục (Phụ lục I = quy tắc cụ thể theo mặt hàng). Sửa đổi bởi TT 10/2022/TT-BCT (chưa nạp — điểm mù). LƯU Ý PHÂN BIỆT: TT 49/2025/TT-BCT là AKFTA (Hàn Quốc), KHÔNG phải ACFTA.'
 tu_khoa: [acfta, form-e, xuat-xu]
