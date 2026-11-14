@@ -154,7 +154,7 @@ flowchart LR
   n_27_2018_TT_BNNPTNT["27/2018/TT-BNNPTNT<br/>hết hiệu lực"]
   n_06_VBHN_BNNPTNT["06/VBHN-BNNPTNT<br/>hết hiệu lực"]
   n_33_2014_TT_BNNPTNT["33/2014/TT-BNNPTNT<br/>hết hiệu lực một phần"]
-  n_15_2021_TT_BNNPTNT["15/2021/TT-BNNPTNT<br/>còn hiệu lực"]
+  n_15_2021_TT_BNNPTNT["15/2021/TT-BNNPTNT<br/>hết hiệu lực một phần"]
   n_07_2026_TT_BNNMT["07/2026/TT-BNNMT<br/>còn hiệu lực"]
   n_05_2015_TT_BNNPTNT["05/2015/TT-BNNPTNT<br/>hết hiệu lực một phần"]
   n_11_2022_TT_BNNPTNT["11/2022/TT-BNNPTNT<br/>hết hiệu lực"]
@@ -292,6 +292,7 @@ flowchart LR
   n_06_VBHN_BNNPTNT -->|hợp nhất| n_34_2018_TT_BNNPTNT
   n_06_VBHN_BNNPTNT -->|hợp nhất| n_15_2021_TT_BNNPTNT
   n_07_2026_TT_BNNMT -->|sửa đổi Điều 22 sửa đổi, bổ sung một số điều của Thông tư 05/2015/TT-BNNPTNT (đã được sửa đổi, bổ sung bởi Thông tư 15/2021/TT-BNNPTNT và Thông tư 33/2014/TT-BNNPTNT) từ 2026-01-23| n_05_2015_TT_BNNPTNT
+  n_07_2026_TT_BNNMT -->|sửa đổi Điều 22 sửa đổi, bổ sung một số điều của Thông tư 05/2015/TT-BNNPTNT đã được sửa đổi, bổ sung bởi Thông tư 15/2021/TT-BNNPTNT từ 2026-01-23| n_15_2021_TT_BNNPTNT
   n_07_2026_TT_BNNMT -->|bãi bỏ từ 2026-01-23| n_11_2022_TT_BNNPTNT
   n_08_2026_VBHN_BYT -->|hợp nhất| n_98_2021_N__CP
   n_08_2026_VBHN_BYT -->|hợp nhất| n_07_2023_N__CP
