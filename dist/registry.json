@@ -1479,7 +1479,6 @@
       "hieu_luc_tu": "2019-03-26",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "chua-phan-loai",
         "kiem-tra-chuyen-nganh/bnnmt"
       ],
       "quan_he": {
@@ -3647,7 +3646,6 @@
       "hieu_luc_tu": "2020-10-30",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "chua-phan-loai",
         "kiem-tra-chuyen-nganh/bnnmt"
       ],
       "nguon": [
@@ -7479,7 +7477,6 @@
       "het_hieu_luc_tu": "2026-01-17",
       "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
-        "chua-phan-loai",
         "kiem-tra-chuyen-nganh/bct"
       ],
       "nguon": [
@@ -9020,7 +9017,6 @@
       "hieu_luc_tu": "2020-08-04",
       "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
-        "chua-phan-loai",
         "xuat-xu-fta/hiep-dinh"
       ],
       "nguon": [
@@ -10002,7 +9998,6 @@
       "het_hieu_luc_tu": "2026-12-31",
       "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
       "nhanh": [
-        "chua-phan-loai",
         "quan-ly-ngoai-thuong/luat-khung"
       ],
       "nguon": [
@@ -16170,7 +16165,6 @@
       "ngay_ban_hanh": "2012-06-20",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "chua-phan-loai",
         "xu-phat"
       ],
       "nguon": [
@@ -19361,7 +19355,6 @@
       "hieu_luc_tu": "2024-01-30",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "chua-phan-loai",
         "kiem-tra-chuyen-nganh/bnnmt"
       ],
       "nguon": [
@@ -36168,25 +36161,31 @@
     {
       "so_hieu": "26/2011/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "(chưa có tiêu đề) 26/2011/NĐ-CP",
+      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 108/2008/NĐ-CP ngày 07 tháng 10 năm 2008 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất",
       "co_quan": "CP",
+      "ngay_ban_hanh": "2011-04-08",
+      "hieu_luc_tu": "2011-06-01",
       "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "quan-ly-ngoai-thuong/luat-khung"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành 08-04-2011 trên vanban.chinhphu.vn (docid=99827); hiệu lực từ 01-06-2011 theo Điều 2 PDF đính kèm (datafiles.chinhphu.vn 105449_nd26cp.pdf)",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "het_hieu_luc_tu": "2017-11-25",
-      "ghi_chu": "Bị thay bởi Điều 38 khoản 1 NĐ 113/2017/NĐ-CP; stub chưa mở toàn văn nguồn A của chính văn bản này.",
+      "ghi_chu": "Bị thay bởi Điều 38 khoản 1 NĐ 113/2017/NĐ-CP; đã đối chiếu tiêu đề, ngày ban hành và Điều 2 hiệu lực thi hành từ PDF nguồn A.",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/default.aspx?docid=99827&pageid=27160",
-          "truy_cap": "2026-10-04"
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2011/04/105449_nd26cp.pdf",
+          "truy_cap": "2026-11-14"
         }
       ],
       "slug": "26-2011-nd-cp",
@@ -43261,24 +43260,26 @@
     {
       "so_hieu": "31/2015/TT-BTTTT",
       "loai": "THONG_TU",
-      "ten": "(chưa có tiêu đề) 31/2015/TT-BTTTT",
+      "ten": "Hướng dẫn một số điều của Nghị định số 187/2013/NĐ-CP ngày 20 tháng 11 năm 2013 của Chính phủ đối với hoạt động xuất, nhập khẩu sản phẩm công nghệ thông tin đã qua sử dụng",
       "co_quan": "BTTTT",
+      "ngay_ban_hanh": "2015-10-29",
+      "hieu_luc_tu": "2015-12-15",
       "tinh_trang": "CHUA_XAC_MINH",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành 29-10-2015, ngày có hiệu lực 15-12-2015 trên vanban.chinhphu.vn (docid=182728)",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "TT 11/2018/TT-BTTTT thay thế Điều 3 và Phụ lục số 01; stub chưa mở toàn văn.",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?docid=182728&pageid=27160",
-          "truy_cap": "2026-10-04"
+          "truy_cap": "2026-11-14"
         }
       ],
       "slug": "31-2015-tt-btttt",
@@ -54487,24 +54488,26 @@
     {
       "so_hieu": "38/2018/TT-NHNN",
       "loai": "THONG_TU",
-      "ten": "(chưa có tiêu đề) 38/2018/TT-NHNN",
+      "ten": "Quy định việc nhập khẩu hàng hóa phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước Việt Nam",
       "co_quan": "NHNN",
+      "ngay_ban_hanh": "2018-12-25",
+      "hieu_luc_tu": "2019-02-08",
       "tinh_trang": "CHUA_XAC_MINH",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (congbao.chinhphu.vn)",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành 25-12-2018, ngày hiệu lực 08-02-2019 trên congbao.chinhphu.vn (Công báo số 15 + 16)",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Được TT 07/2023/TT-NHNN sửa đổi, bổ sung; stub chưa mở toàn văn.",
       "nguon": [
         {
           "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-38-2018-tt-nhnn-27960.htm",
-          "truy_cap": "2026-10-04"
+          "truy_cap": "2026-11-14"
         }
       ],
       "slug": "38-2018-tt-nhnn",
@@ -61958,7 +61961,6 @@
       "hieu_luc_tu": "2024-02-15",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "chua-phan-loai",
         "quan-ly-ngoai-thuong/giay-phep"
       ],
       "quan_he": {
@@ -64590,25 +64592,27 @@
     {
       "so_hieu": "49/2015/TT-BCT",
       "loai": "THONG_TU",
-      "ten": "(chưa có tiêu đề) 49/2015/TT-BCT",
+      "ten": "Quy định về hoạt động sản xuất, gia công xuất khẩu quân phục cho các lực lượng vũ trang nước ngoài",
       "co_quan": "BCT",
+      "ngay_ban_hanh": "2015-12-21",
+      "hieu_luc_tu": "2016-02-05",
       "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (congbao.chinhphu.vn)",
+        "pham_vi": "số hiệu, trích yếu, ngày ban hành 21-12-2015, ngày hiệu lực 05-02-2016 trên congbao.chinhphu.vn (Công báo số 83 + 84)",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "het_hieu_luc_tu": "2018-06-15",
       "ghi_chu": "Bị bãi bỏ bởi Điều 17 khoản 2 điểm c TT 12/2018/TT-BCT; stub chưa mở toàn văn nguồn A của chính văn bản này.",
       "nguon": [
         {
           "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-49-2015-tt-bct-18659.htm",
-          "truy_cap": "2026-10-04"
+          "truy_cap": "2026-11-14"
         }
       ],
       "slug": "49-2015-tt-bct",

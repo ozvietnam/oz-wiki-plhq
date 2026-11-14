@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-14",
-  "tong": 5006,
+  "tong": 4994,
   "diem": [
     {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
@@ -342,15 +342,6 @@
       "muc_tieu": "06/2019/NĐ-CP",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"06/2019/NĐ-CP\" --ghi",
       "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "06/2019/NĐ-CP: chưa xếp vào cây",
-      "muc_tieu": "06/2019/NĐ-CP",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
       "trongSo": 0
     },
     {
@@ -999,15 +990,6 @@
       "muc_tieu": "102/2020/NĐ-CP",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"102/2020/NĐ-CP\" --ghi",
       "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "102/2020/NĐ-CP: chưa xếp vào cây",
-      "muc_tieu": "102/2020/NĐ-CP",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
       "trongSo": 0
     },
     {
@@ -2604,15 +2586,6 @@
       "trongSo": 0
     },
     {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "113/2017/NĐ-CP: chưa xếp vào cây",
-      "muc_tieu": "113/2017/NĐ-CP",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
-      "trongSo": 0
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "113/2022/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -3342,15 +3315,6 @@
       "trongSo": 0
     },
     {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "1175/QĐ-TTg: chưa xếp vào cây",
-      "muc_tieu": "1175/QĐ-TTg",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "1175/TB-CHQ/2025: chưa có nguồn chính thống",
@@ -3735,15 +3699,6 @@
       "muc_tieu": "12/2018/TT-BCT",
       "viec": "Tới ngày thì chuyển tinh_trang; rà mọi trang wiki và văn bản đang dẫn chiếu 12/2018/TT-BCT.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "12/2018/TT-BCT: chưa xếp vào cây",
-      "muc_tieu": "12/2018/TT-BCT",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
       "trongSo": 0
     },
     {
@@ -6339,15 +6294,6 @@
       "trongSo": 0
     },
     {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "15/2012/QH13: chưa xếp vào cây",
-      "muc_tieu": "15/2012/QH13",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
-      "trongSo": 0
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "15/2018/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -7443,15 +7389,6 @@
       "muc_tieu": "17/2023/NĐ-CP",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"17/2023/NĐ-CP\" --ghi",
       "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "17/2023/TT-BNNPTNT: chưa xếp vào cây",
-      "muc_tieu": "17/2023/TT-BNNPTNT",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
       "trongSo": 0
     },
     {
@@ -15861,15 +15798,6 @@
       "trongSo": 0
     },
     {
-      "ma": "VAN_BAN_KHUNG",
-      "muc": "Vừa",
-      "tieuDe": "26/2011/NĐ-CP: chưa có tiêu đề, ngày, nguồn",
-      "muc_tieu": "26/2011/NĐ-CP",
-      "viec": "Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
       "tieuDe": "26/2015/TT-BTC: chưa có nguồn chính thống",
@@ -19224,15 +19152,6 @@
       "muc_tieu": "31/2015/TT-BTTTT",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"31/2015/TT-BTTTT\" --ghi",
       "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
-      "ma": "VAN_BAN_KHUNG",
-      "muc": "Vừa",
-      "tieuDe": "31/2015/TT-BTTTT: chưa có tiêu đề, ngày, nguồn",
-      "muc_tieu": "31/2015/TT-BTTTT",
-      "viec": "Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.",
-      "luong": "he-thong-hoa",
       "trongSo": 0
     },
     {
@@ -24717,15 +24636,6 @@
       "trongSo": 0
     },
     {
-      "ma": "VAN_BAN_KHUNG",
-      "muc": "Vừa",
-      "tieuDe": "38/2018/TT-NHNN: chưa có tiêu đề, ngày, nguồn",
-      "muc_tieu": "38/2018/TT-NHNN",
-      "viec": "Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "38/2019/QH14: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -28398,15 +28308,6 @@
       "trongSo": 0
     },
     {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "45/2023/TT-BCT: chưa xếp vào cây",
-      "muc_tieu": "45/2023/TT-BCT",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
-      "trongSo": 0
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "45/2024/TT-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -29610,15 +29511,6 @@
       "muc_tieu": "49/2015/TT-BCT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "VAN_BAN_KHUNG",
-      "muc": "Vừa",
-      "tieuDe": "49/2015/TT-BCT: chưa có tiêu đề, ngày, nguồn",
-      "muc_tieu": "49/2015/TT-BCT",
-      "viec": "Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.",
-      "luong": "he-thong-hoa",
       "trongSo": 0
     },
     {
