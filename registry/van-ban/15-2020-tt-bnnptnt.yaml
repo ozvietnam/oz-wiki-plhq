@@ -3,23 +3,31 @@ so_hieu: 15/2020/TT-BNNPTNT
 so_hieu_khac:
   - 15/2020/TT-BNNMT
 loai: THONG_TU
-ten: Ban hành Quy chuẩn kỹ thuật quốc gia QCVN 01-01:2020/BNNPTNT đối với vật thể thuộc diện kiểm dịch thực vật nhập khẩu vào Việt Nam
+ten: 'Ban hành Quy chuẩn kỹ thuật quốc gia về yêu cầu đối với vật thể thuộc diện kiểm dịch thực vật nhập khẩu'
 co_quan: BNNPTNT
-tinh_trang: CHUA_XAC_MINH
+ngay_ban_hanh: '2020-12-25'
+hieu_luc_tu: '2021-06-25'
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
 nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-15-2020-tt-bnnptnt-32849.htm
+    truy_cap: '2026-11-14'
+  - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-15-2020-tt-bnnptnt-ban-hanh-quy-chuan-ky-thuat-quoc-gia-ve-yeu-cau-doi-voi-vat-the-thuoc-dien-kiem-dich-thuc-vat-nhap-khau--153308
+    truy_cap: '2026-11-14'
   - url: https://congtt.bacninh.gov.vn/news/-/details/20182/thong-tu-so-15-2020-tt-bnnptnt-cua-bo-nong-nghiep-va-phat-trien-nong-thon-ban-hanh-quy-chuan-ky-thuat-quoc-gia-oi-voi-vat-the-thuoc-dien-kiem-dich-thuc-vat-nhap-khau
     truy_cap: '2026-10-28'
   - url: https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Thong-tu-15-2020-TT-BNNPTNT-trinh-tu-thu-tuc-kiem-dich-thuc-vat-394368.aspx
     truy_cap: '2026-10-28'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề (QCVN 01-01:2020/BNNPTNT); ngày ban hành/hiệu lực chưa đối chiếu'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-28'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu trên Công báo nước CHXHCN Việt Nam (congbao.chinhphu.vn, Công báo số 293+294 năm 2021, mã văn bản 32849) và CSDL Quốc gia về VBPL (vbpl.vn ID 153308): Thông tư số 15/2020/TT-BNNPTNT do Thứ trưởng Lê Quốc Doanh ký ban hành ngày 25-12-2020, có hiệu lực thi hành sau 06 tháng kể từ ngày ký (từ ngày 25-06-2021 theo Điều 2), ban hành kèm theo Quy chuẩn kỹ thuật quốc gia QCVN 01-192:2020/BNNPTNT về yêu cầu đối với vật thể thuộc diện kiểm dịch thực vật nhập khẩu (đính chính bản ghi cũ ghi nhầm mã quy chuẩn là QCVN 01-01:2020/BNNPTNT). Văn bản hiện đang còn hiệu lực thi hành.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: >-
+  Ban hành kèm theo QCVN 01-192:2020/BNNPTNT về yêu cầu đối với vật thể thuộc diện kiểm dịch thực vật nhập khẩu (hiệu lực từ 25-06-2021).
   Issue #237 mô tả TT 15/2020 là "trình tự thủ tục + danh mục" — KHÔNG ĐÚNG: TT 15/2020 là thông tư
   QCVN kỹ thuật nhập khẩu. Trình tự thủ tục nằm ở chuỗi TT 33/2014 (sửa 34/2018, 15/2021; 03/2024 bãi một phần 34/2018) — VBHN 19/2024;
   danh mục vật thể + PRA ở TT 30/2014 → TT 14/2024. Nạp để khách tra tên này không trượt, kèm điều chỉnh hiểu nhầm.
+toan_van: chua_co

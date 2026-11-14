@@ -1,5 +1,9 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 326/2018/QĐ-BCT
+so_hieu_khac:
+  - 5113/QĐ-BCT
+  - 3263/QĐ-BCT
+  - 326/QĐ-TTg
 loai: QUYET_DINH
 ten: 'Quyết định 326/2018/QĐ-BCT quy định thu, nộp, quản lý và sử dụng phí kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu thuộc phạm vi trách nhiệm quản lý nhà nước của Bộ Công Thương'
 co_quan: BCT
@@ -10,14 +14,21 @@ nhanh:
   - kiem-tra-chuyen-nganh
   - kiem-tra-chuyen-nganh/bct
 nguon:
+  - url: https://moit.gov.vn/van-ban-phap-luat/van-ban-dieu-hanh/-quyet-dinh-phe-duyet-danh-muc-thu-tuc-hanh-chinh-thuoc-chuc.html
+    truy_cap: '2026-11-14'
+  - url: https://moit.gov.vn/upload/2005517/20210623/_VB_1549009217542_VB_5113.QD-BCT.PDF
+    truy_cap: '2026-11-14'
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=193197
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/Thuong-mai/Quyet-dinh-326-2018-QD-BCT-quy-dinh-thu-nop-quan-ly-va-su-dung-phi-kiem-tra-chuyen-nganh-393779.aspx
     truy_cap: '2026-11-06'
   - url: https://thuvienphapluat.vn/van-ban/Tags/326-2018-QD-BCT.aspx
     truy_cap: '2026-11-06'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'Đã kiểm chứng tên nguyên văn, cơ quan (Bộ Công Thương), ngày ban hành 28/12/2018, hiệu lực 15/02/2019, nội dung (mô hình 1/2 kiểm tra; mức phí 0,1-0,2% giá tính thuế XNK; trích 70% chi ngành; thu cùng cơ quan hải quan; KKT 18) theo Thư viện Pháp luật. Được sửa đổi bởi QĐ 499/2019/QĐ-BCT (17/6/2019, đã xác minh trang riêng) và QĐ 12/2025/QĐ-BCT ngày 01/02/2025 (theo bài TVPL trên trang tag). Chưa đối chiếu nhãn tình trạng chính thức trên trang chi tiết TVPL/vbpl.vn; chưa thấy văn bản thay thế toàn bộ.'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-06'
-  boi: zcode@ozvietnam
-ghi_chu: 'Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Khung thu phí kiểm tra chuyên ngành hàng XNK thuộc BCT (xăng dầu, hóa chất, vật liệu nổ công nghiệp...): áp với lô hàng XK/NK, thu 0,1-0,2% giá tính thuế, hải quan thu cùng tờ khai — chi phí trực tiếp khi thông quan.'
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu trên Cổng Thông tin điện tử Bộ Công Thương (moit.gov.vn) và Cổng Thông tin điện tử Chính phủ (vanban.chinhphu.vn): Theo Điều 4 Luật Ban hành VBQPPL 2015 (có hiệu lực từ 01-07-2016), Bộ trưởng Bộ Công Thương không ban hành văn bản QPPL dưới hình thức Quyết định có năm trong số hiệu (/2018/QĐ-BCT), và theo Điều 4, Điều 20 Luật Phí và lệ phí 2015, thẩm quyền quy định mức thu, nộp, quản lý và sử dụng phí kiểm tra chuyên ngành thuộc Bộ trưởng Bộ Tài chính (bằng Thông tư). Không tồn tại Quyết định số 326/2018/QĐ-BCT trên Công báo hay CSDL Quốc gia vbpl.vn; quyết định của Bộ Công Thương ban hành đúng ngày 28-12-2018 trên moit.gov.vn là Quyết định số 5113/QĐ-BCT phê duyệt danh mục thủ tục hành chính thuộc chức năng quản lý của Bộ Công Thương năm 2018 (và Quyết định số 3263/QĐ-BCT ngày 07-09-2018 phê duyệt lộ trình tiêu chuẩn, quy chuẩn kỹ thuật ngành Công Thương). Giữ bản ghi với so_hieu_khac để bắt truy vấn khách tra nhầm số hiệu 326/2018/QĐ-BCT và điều hướng đúng sang danh mục TTHC/kiểm tra chuyên ngành của Bộ Công Thương.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Bản ghi giữ để bắt truy vấn khách tra nhầm số hiệu 326/2018/QĐ-BCT (issue miss đợt 6/11): theo Luật Ban hành VBQPPL 2015 và Luật Phí và lệ phí 2015, Bộ Công Thương không ban hành Quyết định QPPL quy định biểu phí kiểm tra chuyên ngành; văn bản thực tế của BCT ký ngày 28-12-2018 trên moit.gov.vn là Quyết định 5113/QĐ-BCT phê duyệt danh mục TTHC thuộc chức năng quản lý của BCT.'
+toan_van: chua_co

@@ -1,20 +1,32 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 09/2018/NĐ-CP
 loai: NGHI_DINH
-ten: 'Quy định chi tiết Luật Thương mại về hoạt động mua bán hàng hóa quốc tế và các hoạt động đại lý mua, bán, gia công và quá cảnh hàng hóa với nước ngoài'
+ten: 'Quy định chi tiết Luật Thương mại và Luật Quản lý ngoại thương về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam'
 co_quan: CP
 ngay_ban_hanh: '2018-01-15'
-hieu_luc_tu: '2018-06-15'
-het_hieu_luc_tu: '2022-01-15'
+hieu_luc_tu: '2018-01-15'
+het_hieu_luc_tu: '2026-10-18'
 tinh_trang: HET_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong/luat-khung
-nguon: []
+nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=192643
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/01/09.signed_01.pdf
+    truy_cap: '2026-11-14'
+  - url: https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-09-2018-nd-cp-quy-dinh-chi-tiet-luat-thuong-mai-va-luat-quan-ly-ngoai-thuong-ve-hoat-dong-mua-ban-hang-hoa-va-cac-hoat-dong-lien-quan-truc-tiep-den-mua-ban-hang-hoa-cua-nha-dau-tu-nuoc-ngoai-to-chuc-kinh-te-co-von-dau-tu-nuoc-ngoai-tai-viet-nam--127637
+    truy_cap: '2026-11-14'
+quan_he:
+  huong_dan:
+    - so_hieu: 36/2005/QH11
+      can_cu: 'Phần Căn cứ và Điều 1 Nghị định 09/2018/NĐ-CP'
+    - so_hieu: 05/2017/QH14
+      can_cu: 'Phần Căn cứ và Điều 1 Nghị định 09/2018/NĐ-CP'
 xac_minh:
-  muc: CHUA_XAC_MINH
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-12'
-  boi: legal-customs@ozvietnam
-ghi_chu: 'NĐ thay thế NĐ 187/2013/NĐ-CP từ 15/06/2018 về hoạt động mua bán hàng hóa quốc tế. Hết hiệu lực 15/01/2022, bị thay bởi NĐ 98/2021/NĐ-CP. Ngày ban hành và trích yếu nguyên văn CHUA_RO: LLM không có internet để đối chiếu cổng văn bản Chính phủ.'
-quan_he: {}
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu toàn văn PDF ký số (09.signed_01.pdf) trên Cổng Thông tin điện tử Chính phủ (vanban.chinhphu.vn docid=192643) và CSDL Quốc gia về VBPL (vbpl.vn ID 127637): Nghị định số 09/2018/NĐ-CP do Thủ tướng Nguyễn Xuân Phúc ký ngày 15-01-2018, có hiệu lực thi hành ngay từ ngày ký 15-01-2018 theo khoản 1 Điều 46 và thay thế Nghị định số 23/2007/NĐ-CP ngày 12-02-2007 theo khoản 2 Điều 46 (đính chính bản ghi cũ từng ghi nhầm hiệu lực từ 15-06-2018 thay thế NĐ 187/2013/NĐ-CP và hết hiệu lực 15-01-2022 bởi NĐ 98/2021/NĐ-CP). Theo khoản 2 Điều 45 Nghị định số 342/2026/NĐ-CP ngày 03-09-2026, Nghị định 09/2018/NĐ-CP hết hiệu lực toàn bộ kể từ ngày 18-10-2026 (ngày Nghị định 342/2026/NĐ-CP có hiệu lực thi hành).'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Quy định quyền xuất khẩu, quyền nhập khẩu, quyền phân phối và cấp Giấy phép kinh doanh, Giấy phép lập cơ sở bán lẻ của tổ chức kinh tế có vốn đầu tư nước ngoài (FDI) tại Việt Nam; thay thế Nghị định 23/2007/NĐ-CP từ 15-01-2018 và hết hiệu lực từ 18-10-2026 khi bị thay thế bởi Nghị định 342/2026/NĐ-CP.'
 toan_van: chua_co
