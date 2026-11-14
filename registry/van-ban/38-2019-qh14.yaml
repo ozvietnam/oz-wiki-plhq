@@ -16,10 +16,10 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'thẻ vanban.chinhphu.vn (docid=197312): ban hành 13-06-2019, hiệu lực 01-07-2020; hết hiệu lực 01-07-2026 do bị Luật 108/2025/QH15 thay thế (thẻ docid=216541 ghi hiệu lực 01-07-2026)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-20'
-  boi: zcode@ozvietnam
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=197312) và PDF toàn văn (raw/download/datafiles.chinhphu.vn/38-2019-qh14.pdf): ban hành 13-06-2019, hiệu lực 01-07-2020; hết hiệu lực từ 01-07-2026 do bị Luật 108/2025/QH15 thay thế (thẻ docid=216541 ghi hiệu lực 01-07-2026)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Sửa đổi bởi Luật 56/2024/QH15 (chưa nạp — điểm mù). Trích dẫn ấn định thuế cho phát sinh từ 01-07-2026 phải dùng Luật 108/2025/QH15 (Điều 24). Bản cũ ghi CON_HIEU_LUC — đã sửa theo thực trạng thay thế.'
 tu_khoa: [thue, an-dinh-thue, quan-ly-thue]
 toan_van: raw/download/datafiles.chinhphu.vn/38-2019-qh14.pdf

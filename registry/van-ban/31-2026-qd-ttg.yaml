@@ -27,9 +27,9 @@ danh_muc_hs:
   ghi_chu: 'Phụ lục (PDF trang 5-9): 12 nhóm, giữ nguyên mã in trong phụ lục (2401/2402/2403; 2204-2208; 2203; 8702/8703; 8802.20.10-8802.40.10; 8901.10; 89.03; 2710.12.21-29/.31/.39; 8415; 9504.40.00; 4823.90.92; nhóm 10 tiền chất + vật liệu nổ). Nhóm 11 (QP-AN) và 12 (dịch bệnh) không in mã HS — tầng 2 theo mô tả. loai_tac_dong KHAC: nghĩa vụ là làm thủ tục hải quan TẠI CỬA KHẨU NHẬP, không phải KTCN/GP. #1143-muc1: lấp cs chết 23/2019/QĐ-TTg.'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Công báo số 393: ban hành 29-06-2026; Điều 5 khoản 1 hiệu lực 14-08-2026 và thay thế QĐ 23/2019/QĐ-TTg (người duy trì đã đọc lại nguyên văn).'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: claude-code@ozvietnam
+  pham_vi: 'Công báo số 393 ngày 14-07-2026 và PDF toàn văn (raw/download/congbaocdn.chinhphu.vn/31-2026-qd-ttg.pdf): ban hành 29-06-2026; Điều 5 khoản 1 hiệu lực từ 14-08-2026 và thay thế QĐ 23/2019/QĐ-TTg (đã đối chiếu nguyên văn).'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Điều 5 khoản 1: hàng thuộc danh mục cũ nhưng không thuộc danh mục mới đã đăng ký tờ khai trước 14-08-2026 tiếp tục làm thủ tục tại hải quan cửa khẩu. Danh mục 12 nhóm; Điều 4 khoản 4 vẫn cho ICD Phước Long (TP.HCM). Có phụ lục mã HS → cần trích bảng (luồng danh-muc-hs). Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.'
 toan_van: raw/download/congbaocdn.chinhphu.vn/31-2026-qd-ttg.pdf
