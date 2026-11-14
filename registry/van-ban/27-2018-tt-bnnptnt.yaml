@@ -3,18 +3,23 @@ so_hieu: 27/2018/TT-BNNPTNT
 so_hieu_khac:
   - 27/2018/TT-BNNMT
 loai: THONG_TU
-ten: Hướng dẫn một số điều của Luật Lâm nghiệp về truy xuất nguồn gốc, khai thác, vận chuyển gỗ
+ten: Quy định về quản lý, truy xuất nguồn gốc lâm sản
 co_quan: BNNPTNT
+ngay_ban_hanh: '2018-11-16'
+hieu_luc_tu: '2019-01-01'
+het_hieu_luc_tu: '2023-02-15'
 tinh_trang: HET_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/bnnmt
 nguon:
   - url: https://vbpl.vn/van-ban/chi-tiet/ve-viec-cong-bo-ket-qua-he-thong-hoa-van-ban-quy-pham-phap-luat-thuoc-linh-vuc-quan-ly-nha-nuoc-cua-bo-nong-nghiep-va-phat-trien-nong-thon-ky-2019-2023--hhtquyetdinh_224
-    truy_cap: '2026-10-28'
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/09/102.signed.pdf
+    truy_cap: '2026-11-14'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề; HẾT hiệu lực từ 26-03-2019 — các quy định gỗ/thực vật rừng bị NĐ 06/2019/NĐ-CP bãi bỏ (QĐ 398/QĐ-BNN-PC hệ thống hóa VB 2019-2023); ngày ban hành chưa đối chiếu'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-28'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu Quyết định 398/QĐ-BNN-PC hệ thống hóa VBQPPL kỳ 2019–2023 trên vbpl.vn, khoản 4 và khoản 5 Điều 28 Nghị định 102/2020/NĐ-CP (102.signed.pdf) và cạnh ngược trong sổ (06/2019/NĐ-CP, 26/2022/TT-BNNPTNT): Thông tư 27/2018/TT-BNNPTNT ban hành ngày 16-11-2018, có hiệu lực từ 01-01-2019; các quy định về quản lý gỗ, thực vật rừng nguy cấp bị Nghị định 06/2019/NĐ-CP bãi bỏ từ 26-03-2019, quy định hồ sơ gỗ nhập khẩu tại Điều 17 hết hiệu lực từ 30-10-2020 theo khoản 4 Điều 28 Nghị định 102/2020/NĐ-CP, và hết hiệu lực toàn bộ từ 15-02-2023 khi bị thay thế bởi Thông tư 26/2022/TT-BNNPTNT'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Nạp dạng lịch sử theo #247 (chuỗi truy xuất nguồn gốc: TT 27/2018 → TT 26/2022 → TT 26/2025). Lưu ý: không nhầm với "TT 27/2023" — số đó không tồn tại.'

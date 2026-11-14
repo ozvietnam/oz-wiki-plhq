@@ -1,21 +1,29 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 74/2026/VBHN-TT-BCT
 loai: VAN_BAN_HOP_NHAT
-ten: 'Hợp nhất Thông tư Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư'
+ten: 'Hợp nhất Thông tư bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương'
 co_quan: BCT
 ngay_ban_hanh: '2026-09-14'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - phan-loai-hs
+quan_he:
+  hop_nhat:
+    - 41/2019/TT-BCT
+    - 23/2021/TT-BCT
+    - 08/2023/TT-BCT
+    - 48/2026/TT-BCT
 nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=219510
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/74-vbhn-bct.signed.pdf
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Van-ban-hop-nhat-74-2026-VBHN-TT-BCT-Thong-tu-bo-sung-Danh-muc-ma-so-HS-cua-hang-hoa-xuat-khau-725334.aspx
     truy_cap: '2026-11-07'
-  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=219510
-    truy_cap: '2026-11-07'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + ngày ban hành 14-09-2026 (TVPL + vanban.chinhphu.vn docid 219510)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-07'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh sát đêm 7/11. Bản hợp nhất danh mục mã HS XNK của BCT — LÕI tra cứu mã khi khai báo. Đối chiếu đủ họ TT bổ sung danh mục (33/2025 v.v.) lên A.'
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=219510) và toàn văn PDF ký số (74-vbhn-bct.signed.pdf, 17 trang, 9 điều và các Phụ lục II, III, IV, V, VII, VIII, Thứ trưởng Nguyễn Sinh Nhật Tân ký xác thực ngày 14-09-2026): hợp nhất Thông tư 41/2019/TT-BCT ngày 16-12-2019 (hiệu lực 29-01-2020), được sửa đổi, bổ sung bởi Thông tư 23/2021/TT-BCT ngày 15-12-2021 (hiệu lực 01-02-2022), Thông tư 08/2023/TT-BCT ngày 31-03-2023 (hiệu lực 16-05-2023) và Thông tư 48/2026/TT-BCT ngày 05-09-2026 (hiệu lực 05-09-2026); đối chiếu đang là bản hợp nhất hiện hành'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Trinh sát đêm 7/11, đối chiếu nguồn A ngày 14/11. Bản hợp nhất danh mục mã HS XNK của BCT (cặp với 73/2026/VBHN-TT-BCT) — đã nối đủ quan_he.hop_nhat với 41/2019/TT-BCT, 23/2021/TT-BCT, 08/2023/TT-BCT và 48/2026/TT-BCT.'

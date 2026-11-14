@@ -1,15 +1,26 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 76-VBHN/VPQH
 loai: VAN_BAN_HOP_NHAT
-ten: VB hợp nhất 76/VBHN-VPQH (hợp nhất 105/2016/QH13)
-tinh_trang: CHUA_XAC_MINH
+ten: Hợp nhất Luật Dược
+co_quan: VPQH
+ngay_ban_hanh: '2026-03-25'
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - hai-quan/luat-khung
+quan_he:
+  hop_nhat:
+    - 105/2016/QH13
+    - 28/2018/QH14
+    - 44/2024/QH15
 nguon:
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf
+    truy_cap: '2026-11-14'
   - url: https://vanban.chinhphu.vn/?docid=200123
     truy_cap: '2026-10-09'
+toan_van: raw/download/datafiles.chinhphu.vn/2026/3/76-vbhn-vpqh-2026.md
 xac_minh:
-  muc: CHUA_XAC_MINH
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-09'
-  boi: do-tham
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu toàn văn PDF Chính phủ (76-vbhn-vpqh.pdf) và bản trích xuất trong kho (raw/download/datafiles.chinhphu.vn/2026/3/76-vbhn-vpqh-2026.md, 14 chương 116 điều, Chủ nhiệm Văn phòng Quốc hội Lê Quang Mạnh ký xác thực ngày 25-03-2026): hợp nhất Luật Dược số 105/2016/QH13 ngày 06-04-2016 (hiệu lực 01-01-2017), được sửa đổi, bổ sung bởi Luật số 28/2018/QH14, Luật số 44/2024/QH15 (hiệu lực 01-07-2025), Luật Quy hoạch số 112/2025/QH15 (hiệu lực 01-03-2026), Luật Phòng bệnh số 114/2025/QH15 (hiệu lực 01-07-2026) và Luật Đầu tư số 143/2025/QH15 (hiệu lực 01-03-2026); đang còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam

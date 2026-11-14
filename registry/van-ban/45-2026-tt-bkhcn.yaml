@@ -1,21 +1,24 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 45/2026/TT-BKHCN
 loai: THONG_TU
-ten: 'Sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Khoa học và Công nghệ'
+ten: 'Sửa đổi, bổ sung một số điều của các thông tư của Bộ trưởng Bộ Khoa học và Công nghệ để thực hiện cắt giảm, đơn giản hóa thủ tục hành chính trong lĩnh vực đo lường'
 co_quan: BKHCN
 ngay_ban_hanh: '2026-07-31'
+hieu_luc_tu: '2026-09-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/bkhcn
 nguon:
-  - url: https://chinhphu.vn/?pageid=27160&docid=219139&classid=1&orggroupid=4
-    truy_cap: '2026-11-08'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=219139&classid=1&orggroupid=4
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/8/45-bkhcn.signed.pdf
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Thong-tu-45-2026-TT-BKHCN-sua-doi-cac-Thong-tu-de-cat-giam-thu-tuc-hanh-chinh-linh-vuc-do-luong-718542.aspx
     truy_cap: '2026-11-08'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + ngày ban hành 31-07-2026 (chinhphu.vn docid 219139 + TVPL 718542); nội dung cắt giảm TTHC đo lường'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-08'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh sát đêm 8/11. Sửa TT họ đo lường (14/2026/TT-BKHCN hợp quy đã có trong sổ) — hồ sơ phê duyệt chuẩn quốc gia chuyển nộp trực tuyến. Đối chiếu lên A cùng đợt 14/2026.'
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=219139) và toàn văn PDF ký số (45-bkhcn.signed.pdf, 29 trang, 4 chương 22 điều và Phụ lục biểu mẫu, Bộ trưởng Vũ Hải Quân ký): ban hành 31-07-2026, có hiệu lực từ 01-09-2026 (khoản 1 Điều 22); sửa đổi, bổ sung một số điều của Thông tư 14/2013/TT-BKHCN (Chương I), Thông tư 23/2013/TT-BKHCN (Chương II), Thông tư 54/2025/TT-BKHCN (Chương III) và bãi bỏ khoản 3 Điều 5 Thông tư 22/2026/TT-BKHCN (khoản 2 Điều 22)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Trinh sát đêm 8/11. Sửa TT họ đo lường (14/2013, 23/2013, 54/2025) — hồ sơ phê duyệt chuẩn quốc gia và phê duyệt mẫu phương tiện đo nhóm 2 chuyển nộp trực tuyến tại Cổng Dịch vụ công quốc gia.'
