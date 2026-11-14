@@ -19,10 +19,10 @@ nguon:
     truy_cap: '2026-10-21'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'thẻ vanban.chinhphu.vn (docid=211414): ban hành 10-10-2024, hiệu lực 30-11-2024; sửa NĐ 91/2016 (chế phẩm diệt côn trùng/khuẩn) + NĐ 155/2018 (điều kiện kinh doanh dược BYT)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-21'
-  boi: zcode@ozvietnam
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=211414) và PDF toàn văn (raw/download/datafiles.chinhphu.vn/129-2024-nd-cp.pdf): ban hành 10-10-2024, hiệu lực 30-11-2024; sửa đổi NĐ 91/2016/NĐ-CP và NĐ 155/2018/NĐ-CP'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: Đóng điểm mù "NĐ 155/2018 bị sửa bởi 129/2024" từ #209/#213.
 tu_khoa: [attp, duoc]
 toan_van: raw/download/datafiles.chinhphu.vn/129-2024-nd-cp.pdf

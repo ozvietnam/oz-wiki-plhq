@@ -29,8 +29,8 @@ danh_muc_hs:
   ghi_chu: 'CHỈ trích Phụ lục V — Danh mục hàng hóa cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu (PDF trang 63-65, có mã HS); Phụ lục I-IV, VI theo mô tả (tầng 2 chưa làm), Phụ lục VII là mẫu biểu. Mục Chương 28-29 dẫn NĐ 33/2024/NĐ-CP — ghi dan_chieu. loai_tac_dong KHAC: cấm KINH DOANH TNTX/chuyển khẩu, không cấm nhập khẩu thông thường (vd 7204 phế liệu vẫn NK theo giấy phép QĐ 13/2023) — không dùng CAM_NHAP_KHAU để tránh cờ đỏ sai. #1143-muc1: lấp cs chết 69/2018/NĐ-CP (nhóm Cấm KD TNTX); nhóm "hàng ĐQSD kinh doanh TNTX có ĐK" (8415.81-83) KHÔNG được NĐ 292 kế thừa danh mục mã.'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Công báo số 456: ban hành 22-07-2026; Điều 65 khoản 1 hiệu lực 05-09-2026 và thay thế NĐ 69/2018/NĐ-CP (người duy trì đã đọc lại nguyên văn).'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: claude-code@ozvietnam
+  pham_vi: 'Công báo số 456 ngày 03-08-2026 và thẻ vanban.chinhphu.vn (docid=218958): ban hành 22-07-2026; Điều 65 khoản 1 hiệu lực từ 05-09-2026 và thay thế NĐ 69/2018/NĐ-CP (đã đối chiếu nguyên văn).'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Điều 65 khoản 2 còn bãi bỏ Điều 31 và Phụ lục X NĐ 146/2025/NĐ-CP, Mục B.I NQ 19/2026/NQ-CP, một số điểm/mẫu Phụ lục I.2 NQ 66.18/2026/NQ-CP, QĐ 11/2013/QĐ-TTg — chưa ghi thành quan hệ (chưa có trong sổ). Được TT 48/2026/TT-BCT hướng dẫn. Trang tổng hợp Meta AI ghi sai hiệu lực (22-07). Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.'
