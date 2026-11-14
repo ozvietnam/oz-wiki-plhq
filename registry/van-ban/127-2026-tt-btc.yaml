@@ -9,14 +9,15 @@ tinh_trang: CON_HIEU_LUC
 nhanh:
   - hai-quan/thu-tuc
 nguon:
-  - url: https://chinhphu.vn/?pageid=27160&docid=219370
-    truy_cap: '2026-10-29'
   - url: https://thuvienphapluat.vn/hoi-dap-phap-luat/tong-hop-cong-van-cuc-thue-va-hai-quan-ban-hanh-thang-102026-day-du-138108312.html
     truy_cap: '2026-10-29'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=219370
+    truy_cap: '2026-11-14'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'thẻ chinhphu.vn (docid=219370): số hiệu, tiêu đề đầy đủ, ngày ban hành 27-08-2026, có hiệu lực từ 15-10-2026, kèm Phụ lục I-X chỉ tiêu thông tin và mẫu chứng từ khai báo phương tiện vận tải xuất nhập cảnh, quá cảnh; đối chiếu đang còn hiệu lực'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Bắt bởi trinh thám bộ ngành (WebSearch tầng 2) 29/10 — mẫu chứng từ khai báo PHƯƠNG TIỆN VẬN TẢI (nhóm Đ70-74 NĐ 08/2015 bị 167/2025 sửa).'
+ghi_chu: Bắt bởi trinh thám bộ ngành (WebSearch tầng 2) 29/10 — mẫu chứng từ khai báo PHƯƠNG TIỆN VẬN TẢI (nhóm Đ70-74 NĐ 08/2015 bị 167/2025 sửa).
+toan_van: raw/download/vanban.chinhphu.vn/127-2026-tt-btc.html
