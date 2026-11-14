@@ -16,8 +16,8 @@ nguon:
     truy_cap: '2026-10-12'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, tiêu đề, ngày từ Công báo; hết HL theo NĐ 86/2025'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-12'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'số hiệu, tiêu đề, ngày từ Công báo; hết hiệu lực từ 2025-07-01 do bị thay thế bởi 86/2025/NĐ-CP (Công báo / vanban.chinhphu.vn)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Đã được NĐ 86/2025/NĐ-CP thay từ 01/07/2025. Stub để đóng quan_he.thay_the.'

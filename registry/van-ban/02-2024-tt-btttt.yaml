@@ -5,7 +5,8 @@ ten: Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất 
 co_quan: BTTTT
 ngay_ban_hanh: '2024-03-29'
 hieu_luc_tu: '2024-05-15'
-tinh_trang: CHUA_XAC_MINH
+het_hieu_luc_tu: '2025-12-31'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/bct
 nguon:
@@ -15,7 +16,7 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực; hết hiệu lực từ 2025-12-31 do bị thay thế bởi 29/2025/TT-BKHCN (Điều 5 khoản 2 TT 29/2025/TT-BKHCN)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
