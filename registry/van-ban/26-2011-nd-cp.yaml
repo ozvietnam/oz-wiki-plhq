@@ -1,19 +1,23 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 26/2011/NĐ-CP
 loai: NGHI_DINH
-ten: (chưa có tiêu đề) 26/2011/NĐ-CP
+ten: Sửa đổi, bổ sung một số điều của Nghị định số 108/2008/NĐ-CP ngày 07 tháng 10 năm 2008 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất
 co_quan: CP
+ngay_ban_hanh: '2011-04-08'
+hieu_luc_tu: '2011-06-01'
 tinh_trang: HET_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong/luat-khung
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
+  pham_vi: 'số hiệu, trích yếu, ngày ban hành 08-04-2011 trên vanban.chinhphu.vn (docid=99827); hiệu lực từ 01-06-2011 theo Điều 2 PDF đính kèm (datafiles.chinhphu.vn 105449_nd26cp.pdf)'
   hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 het_hieu_luc_tu: '2017-11-25'
-ghi_chu: Bị thay bởi Điều 38 khoản 1 NĐ 113/2017/NĐ-CP; stub chưa mở toàn văn nguồn A của chính văn bản này.
+ghi_chu: Bị thay bởi Điều 38 khoản 1 NĐ 113/2017/NĐ-CP; đã đối chiếu tiêu đề, ngày ban hành và Điều 2 hiệu lực thi hành từ PDF nguồn A.
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=99827&pageid=27160
-    truy_cap: '2026-10-04'
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2011/04/105449_nd26cp.pdf
+    truy_cap: '2026-11-14'
