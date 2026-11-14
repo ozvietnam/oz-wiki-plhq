@@ -3,7 +3,7 @@ so_hieu: 66/2025/QH15
 loai: LUAT
 ten: Luật Thuế tiêu thụ đặc biệt
 co_quan: QH
-ngay_ban_hanh: '2025-01-01'
+ngay_ban_hanh: '2025-06-14'
 hieu_luc_tu: '2026-01-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
@@ -16,11 +16,11 @@ quan_he:
       can_cu: Điều 11 khoản 2 Luật 66/2025/QH15
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
-  ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=214598) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/66-2025-qh15.pdf, 4 Chương, 11 Điều, người ký Chủ tịch Quốc hội Trần Thanh Mẫn): Luật Thuế tiêu thụ đặc biệt số 66/2025/QH15 được Quốc hội khóa XV thông qua tại kỳ họp thứ 9 ngày 14-06-2025, có hiệu lực thi hành từ ngày 01-01-2026 theo khoản 1 Điều 11; khoản 2 Điều 11 quy định Luật Thuế tiêu thụ đặc biệt số 27/2008/QH12 đã được sửa đổi, bổ sung một số điều theo Luật số 70/2014/QH13, Luật số 71/2014/QH13, Luật số 106/2016/QH13 và Luật số 03/2022/QH15 (Điều 8) hết hiệu lực kể từ ngày 01-01-2026; đối chiếu đang còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=214598&pageid=27160
     truy_cap: '2026-10-10'

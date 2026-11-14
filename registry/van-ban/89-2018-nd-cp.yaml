@@ -4,15 +4,16 @@ loai: NGHI_DINH
 ten: Quy định chi tiết thi hành một số điều của Luật Phòng, chống bệnh truyền nhiễm về kiểm dịch y tế biên giới
 co_quan: CP
 ngay_ban_hanh: '2018-06-25'
+hieu_luc_tu: '2018-08-10'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'đối chiếu thẻ vanban.chinhphu.vn (docid=194022, người ký Thủ tướng Nguyễn Xuân Phúc, tệp đính kèm 89.signed.pdf): Nghị định 89/2018/NĐ-CP của Chính phủ quy định chi tiết thi hành một số điều của Luật Phòng, chống bệnh truyền nhiễm về kiểm dịch y tế biên giới, ban hành ngày 25-06-2018, có hiệu lực thi hành từ ngày 10-08-2018; đối chiếu đang còn hiệu lực (chưa có văn bản thay thế hoặc bãi bỏ toàn bộ trong sổ; riêng kiểm dịch y tế đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh theo Luật Phòng bệnh 114/2025/QH15 được quy định chi tiết tại Nghị định 165/2026/NĐ-CP từ 01-07-2026)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: Luật gốc đã đổi thành Luật Phòng bệnh 114/2025/QH15 (hl 01/7/2026); chưa xác minh có nghị định mới thay thế. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=194022&pageid=27160

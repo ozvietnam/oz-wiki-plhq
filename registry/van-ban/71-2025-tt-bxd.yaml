@@ -5,7 +5,7 @@ ten: Sửa đổi, bổ sung một số điều của các Thông tư để cắ
 co_quan: BXD
 ngay_ban_hanh: '2025-12-31'
 hieu_luc_tu: '2025-12-31'
-tinh_trang: CHUA_XAC_MINH
+tinh_trang: HET_HIEU_LUC_MOT_PHAN
 nhanh:
   - kiem-tra-chuyen-nganh/bxd
 nguon:
@@ -19,11 +19,7 @@ quan_he:
       can_cu: Điều 6 khoản 3 điểm c TT 49/2026/TT-BXD
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực. CHƯA đọc toàn văn — chỉ xác minh được quan hệ bãi một phần qua TT 49/2026 (Điều 6 khoản 3 điểm c). Phần còn lại (ngoài Ch.X, PL II, PL III) vẫn còn hiệu lực.'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-09'
-  boi: hermes
-  chan:
-    ma: SO_HIEU_LECH
-    ngay: '2026-10-09'
-    viec_tiep: Cần đọc toàn văn TT 71/2025/TT-BXD để xác minh nội dung Ch.X, PL II, PL III (bãi) và phần còn lại (còn hiệu lực)
+  pham_vi: 'đối chiếu Công báo (id=468849, tệp đính kèm 2026_90_71/2025/TT-BXD.docx và PDF ký số 71signed-1770365143684853249888.pdf, 13 Chương, 66 Điều, Phụ lục I–IV, người ký Thứ trưởng Lê Anh Tuấn): Thông tư 71/2025/TT-BXD ban hành ngày 31-12-2025, có hiệu lực thi hành từ ngày 31-12-2025 theo Điều 65; đối chiếu hết hiệu lực một phần từ ngày 01-07-2026 do điểm c khoản 3 Điều 6 Thông tư 49/2026/TT-BXD bãi bỏ Chương X (Điều 62), Phụ lục II và Phụ lục III (phần danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc lĩnh vực GTVT thay thế Phụ lục I và II Thông tư 12/2022/TT-BGTVT, 62/2024/TT-BGTVT); các chương và phụ lục còn lại (Chương I–IX, XI–XIII, Phụ lục I và Phụ lục IV) vẫn còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
