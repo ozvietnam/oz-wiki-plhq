@@ -1,22 +1,33 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 25/2018/NĐ-CP
 loai: NGHI_DINH
-ten: "Sửa đổi, bổ sung một số điều của Nghị định số 195/2013/NĐ-CP quy định chi tiết một số điều của Luật Xuất bản về hoạt động xuất bản, in và phát hành"
+ten: "Sửa đổi, bổ sung một số điều của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in"
 co_quan: CP
+ngay_ban_hanh: '2018-02-28'
+hieu_luc_tu: '2018-05-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong
 quan_he:
   sua_doi:
-    - so_hieu: 195/2013/NĐ-CP
+    - so_hieu: 60/2014/NĐ-CP
+      tu_ngay: '2018-05-01'
 nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-25-2018-nd-cp-26051.htm
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/03/25.signed.pdf
+    truy_cap: '2026-11-14'
+  - url: https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-25-2018-nd-cp-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-60-2014-nd-cp-ngay-19-thang-6-nam-2014-quy-dinh-ve-hoat-dong-in--128674
+    truy_cap: '2026-11-14'
+  - url: https://mst.gov.vn/van-ban-phap-luat/14106.htm
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/Thong-tu-11-2024-TT-BTTTT-danh-muc-hang-hoa-xuat-nhap-khau-linh-vuc-in-639655.aspx
     truy_cap: '2026-10-22'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: "sửa NĐ 195/2013 (lần 2, gần nhất — issue #212)"
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-22'
-  boi: zcode@ozvietnam
-ghi_chu: "Sửa NĐ 195/2013 (lần 2)."
+  muc: NGUON_A
+  pham_vi: "Đối chiếu Công báo Chính phủ (id=26051, Công báo số 439+440 năm 2018), toàn văn PDF ký số (25.signed.pdf, Thủ tướng Nguyễn Xuân Phúc ký), CSDL quốc gia vbpl.vn (ItemID=128674) và cổng Bộ KH&CN (mst.gov.vn/van-ban-phap-luat/14106.htm): ban hành 28-02-2018, có hiệu lực từ 01-05-2018 theo Điều 4; sửa đổi, bổ sung một số điều của Nghị định 60/2014/NĐ-CP về hoạt động in (đính chính trích yếu và quan hệ sửa đổi từ bản ghi cũ). Đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Nghị định 72/2022/NĐ-CP từ 01-01-2023 và Nghị định 116/2026/NĐ-CP từ 08-04-2026)."
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: "Sửa đổi, bổ sung Nghị định 60/2014/NĐ-CP quy định về hoạt động in (bao gồm quy định về nhập khẩu thiết bị in, máy photocopy màu)."
 tu_khoa: [xuat-ban, in, xuat-nhap-khau]

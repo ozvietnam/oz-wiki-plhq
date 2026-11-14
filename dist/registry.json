@@ -1416,7 +1416,8 @@
           {
             "tu": "34/2025/TT-BYT",
             "quan_he": "sua_doi",
-            "so_hieu": "06/2011/TT-BYT"
+            "so_hieu": "06/2011/TT-BYT",
+            "tu_ngay": "2025-08-18"
           }
         ],
         "duoc_hop_nhat_boi": [
@@ -26359,11 +26360,6 @@
         ],
         "bi_sua_doi_boi": [
           {
-            "tu": "25/2018/NĐ-CP",
-            "quan_he": "sua_doi",
-            "so_hieu": "195/2013/NĐ-CP"
-          },
-          {
             "tu": "60/2014/NĐ-CP",
             "quan_he": "sua_doi",
             "so_hieu": "195/2013/NĐ-CP"
@@ -31570,7 +31566,7 @@
     {
       "so_hieu": "22/2018/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Sở hữu trí tuệ về quyền tác giả, quyền liên quan",
+      "ten": "Quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ năm 2005 và Luật sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ năm 2009 về quyền tác giả, quyền liên quan",
       "co_quan": "CP",
       "ngay_ban_hanh": "2018-02-23",
       "hieu_luc_tu": "2018-04-10",
@@ -31582,24 +31578,36 @@
       "quan_he": {},
       "nguon": [
         {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=193017",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/02/22.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-22-2018-nd-cp-quy-dinh-chi-tiet-mot-so-dieu-va-bien-phap-thi-hanh-luat-so-huu-tri-tue-nam-2005-va-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2009-ve-quyen-tac-gia-quyen-lien-quan--147627",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://thuvienphapluat.vn/van-ban/So-huu-tri-tue/Decree-22-2018-ND-CP-guidelines-of-the-intellectual-Property-Law-and-Law-on-amendments-2009-377744.aspx",
           "truy_cap": "2026-10-29"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 23-02-2018, hiệu lực 10-04-2018 (TVPL)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-29",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=193017), toàn văn PDF ký số (22.signed.pdf, Thủ tướng Nguyễn Xuân Phúc ký) và CSDL quốc gia vbpl.vn (ItemID=147627): ban hành 23-02-2018, có hiệu lực từ 10-04-2018 theo khoản 1 Điều 50 (thay thế NĐ 100/2006/NĐ-CP và NĐ 85/2011/NĐ-CP theo khoản 2 Điều 50); hết hiệu lực toàn bộ từ 26-04-2023 khi bị Nghị định 17/2023/NĐ-CP ngày 26-04-2023 (docid=207842, khoản 2 Điều 115) thay thế.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Thay thế NĐ 100/2006/NĐ-CP từ 10-04-2018 (không lập record riêng cho NĐ 100/2006); bị thay thế bởi NĐ 17/2023/NĐ-CP từ 26-04-2023.",
+      "ghi_chu": "Thay thế NĐ 100/2006/NĐ-CP và NĐ 85/2011/NĐ-CP từ 10-04-2018; bị thay thế bởi NĐ 17/2023/NĐ-CP từ 26-04-2023.",
       "tu_khoa": [
         "quyen-tac-gia",
         "shtt"
       ],
       "slug": "22-2018-nd-cp",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_thay_the_boi": [
           {
@@ -31927,33 +31935,47 @@
     {
       "so_hieu": "221/2013/TT-BTC",
       "loai": "THONG_TU",
-      "ten": "Hướng dẫn Luật Thuế thu nhập doanh nghiệp",
+      "ten": "Hướng dẫn việc trích lập, quản lý quỹ tiền lương, thù lao, tiền thưởng đối với Kiểm soát viên và người đại diện vốn Nhà nước theo quy định tại Nghị định số 51/2013/NĐ-CP ngày 14/05/2013 của Chính phủ",
       "co_quan": "BTC",
       "ngay_ban_hanh": "2013-12-31",
-      "tinh_trang": "CON_HIEU_LUC",
+      "hieu_luc_tu": "2014-02-14",
+      "het_hieu_luc_tu": "2017-10-20",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "thue"
       ],
       "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=172101",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2014/01/tt-221.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-221-2013-tt-btc-huong-dan-viec-trich-lap-quan-ly-quy-tien-luong-thu-lao-tien-thuong-doi-voi-kiem-soat-vien-va-nguoi-dai-dien-von-nha-nuoc-theo-quy-dinh-tai-nghi-dinh-so-51-2013-nd-cp-ngay-14-05-2013-cua-chinh-phu--37724",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://thuvienphapluat.vn/van-ban/Tai-chinh-Nha-nuoc/Thong-tu-221-2013-TT-BTC-166188.aspx",
           "truy_cap": "2026-10-22"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "TT 221/2013 — kế toán xác định doanh thu chi phí hoạt động mua bán quốc tế (tái hiện trong giá vốn hàng giao thẳng)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-22",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=172101), toàn văn PDF đính kèm (tt-221.pdf, Thứ trưởng Trần Văn Hiếu ký) và CSDL quốc gia vbpl.vn (ItemID=37724): ban hành 31-12-2013, có hiệu lực từ 14-02-2014 theo khoản 1 Điều 8; hướng dẫn việc trích lập, quản lý quỹ tiền lương, thù lao, tiền thưởng đối với Kiểm soát viên và người đại diện vốn Nhà nước theo Nghị định 51/2013/NĐ-CP (đính chính trích yếu bị ghi nhầm từ nguồn thứ cấp). Hết hiệu lực toàn bộ từ 20-10-2017 khi bị Thông tư 97/2017/TT-BTC ngày 05-09-2017 (ItemID=125399, chưa nạp vào sổ) thay thế.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Kế toán TNDN cho hoạt động mua bán quốc tế (#227).",
+      "ghi_chu": "Trên nguồn A (vanban.chinhphu.vn docid=172101, vbpl.vn ItemID=37724), số hiệu 221/2013/TT-BTC ngày 31-12-2013 là Thông tư hướng dẫn quỹ tiền lương, thù lao, tiền thưởng đối với Kiểm soát viên và người đại diện vốn Nhà nước theo NĐ 51/2013/NĐ-CP (hết hiệu lực từ 20-10-2017 bởi TT 97/2017/TT-BTC). Ca #227 dẫn chiếu nhầm số hiệu này cho hướng dẫn thuế TNDN.",
       "tu_khoa": [
         "giao-thang-nuoc-thu-ba",
         "thue"
       ],
       "slug": "221-2013-tt-btc",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -35672,8 +35694,10 @@
     {
       "so_hieu": "25/2018/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 195/2013/NĐ-CP quy định chi tiết một số điều của Luật Xuất bản về hoạt động xuất bản, in và phát hành",
+      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in",
       "co_quan": "CP",
+      "ngay_ban_hanh": "2018-02-28",
+      "hieu_luc_tu": "2018-05-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "quan-ly-ngoai-thuong"
@@ -35681,31 +35705,48 @@
       "quan_he": {
         "sua_doi": [
           {
-            "so_hieu": "195/2013/NĐ-CP"
+            "so_hieu": "60/2014/NĐ-CP",
+            "tu_ngay": "2018-05-01"
           }
         ]
       },
       "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-25-2018-nd-cp-26051.htm",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/03/25.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-25-2018-nd-cp-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-60-2014-nd-cp-ngay-19-thang-6-nam-2014-quy-dinh-ve-hoat-dong-in--128674",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://mst.gov.vn/van-ban-phap-luat/14106.htm",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://thuvienphapluat.vn/van-ban/Thong-tu-11-2024-TT-BTTTT-danh-muc-hang-hoa-xuat-nhap-khau-linh-vuc-in-639655.aspx",
           "truy_cap": "2026-10-22"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "sửa NĐ 195/2013 (lần 2, gần nhất — issue #212)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-22",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu Công báo Chính phủ (id=26051, Công báo số 439+440 năm 2018), toàn văn PDF ký số (25.signed.pdf, Thủ tướng Nguyễn Xuân Phúc ký), CSDL quốc gia vbpl.vn (ItemID=128674) và cổng Bộ KH&CN (mst.gov.vn/van-ban-phap-luat/14106.htm): ban hành 28-02-2018, có hiệu lực từ 01-05-2018 theo Điều 4; sửa đổi, bổ sung một số điều của Nghị định 60/2014/NĐ-CP về hoạt động in (đính chính trích yếu và quan hệ sửa đổi từ bản ghi cũ). Đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Nghị định 72/2022/NĐ-CP từ 01-01-2023 và Nghị định 116/2026/NĐ-CP từ 08-04-2026).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Sửa NĐ 195/2013 (lần 2).",
+      "ghi_chu": "Sửa đổi, bổ sung Nghị định 60/2014/NĐ-CP quy định về hoạt động in (bao gồm quy định về nhập khẩu thiết bị in, máy photocopy màu).",
       "tu_khoa": [
         "xuat-ban",
         "in",
         "xuat-nhap-khau"
       ],
       "slug": "25-2018-nd-cp",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "duoc_huong_dan_boi": [
           {
@@ -36576,9 +36617,11 @@
     {
       "so_hieu": "26/2015/TT-BTC",
       "loai": "THONG_TU",
-      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 219/2013/TT-BTC",
+      "ten": "Hướng dẫn về thuế giá trị gia tăng và quản lý thuế tại Nghị định số 12/2015/NĐ-CP ngày 12 tháng 2 năm 2015 của Chính phủ quy định chi tiết thi hành Luật sửa đổi, bổ sung một số điều của các Luật về thuế và sửa đổi, bổ sung một số điều của các Nghị định về thuế và sửa đổi, bổ sung một số điều của Thông tư số 39/2014/TT-BTC ngày 31/3/2014 của Bộ Tài chính về hóa đơn bán hàng hóa, cung ứng dịch vụ",
       "co_quan": "BTC",
-      "tinh_trang": "CON_HIEU_LUC",
+      "ngay_ban_hanh": "2015-02-27",
+      "het_hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "thue"
       ],
@@ -36591,24 +36634,40 @@
       },
       "nguon": [
         {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=179270",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2015/03/26tt.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-26-2015-tt-btc-huong-dan-ve-thue-gia-tri-gia-tang-va-quan-ly-thue-tai-nghi-dinh-so-12-2015-nd-cp-ngay-12-thang-2-nam-2015-cua-chinh-phu-quy-dinh-chi-tiet-thi-hanh-luat-sua-doi-bo-sung-mot-so-dieu-cua-cac-luat-ve-thue-va-sua-doi-bo-sung-mot-so-dieu-cua-cac-nghi-dinh-ve-thue-va-sua-doi-bo-sung-mot-so-dieu-cua-thong-tu-so-39-2014-tt-btc-ngay-31-3-2014-cua-bo-tai-chinh-ve-hoa-don-ban-hang-hoa-cung-ung-dich-vu--67438",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/69-btc.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://thuvienphapluat.vn/van-ban/Tai-chinh-Nha-nuoc/Thong-tu-219-2013-TT-BTC-215512.aspx",
           "truy_cap": "2026-10-22"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "Sửa TT 219/2013 (theo issue #227 kiểm chứng nguồn công khai); ngày ban hành chưa đối chiếu — điểm mù",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-22",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=179270), toàn văn PDF ký số (26tt.signed.pdf, Thứ trưởng Đỗ Hoàng Anh Tuấn ký) và CSDL quốc gia vbpl.vn (ItemID=67438): ban hành 27-02-2015, khoản 1 Điều 4 quy định có hiệu lực áp dụng kể từ ngày Luật 71/2014/QH13 và Nghị định 12/2015/NĐ-CP có hiệu lực thi hành (01-01-2015). Điều 2 (sửa TT 156/2013/TT-BTC) hết hiệu lực từ 01-01-2022 theo TT 80/2021/TT-BTC; Điều 3 (sửa TT 39/2014/TT-BTC về hóa đơn) hết hiệu lực từ 01-07-2022 theo NĐ 123/2020/NĐ-CP và TT 78/2021/TT-BTC; Điều 1 (sửa TT 219/2013/TT-BTC về thuế GTGT) bị bãi bỏ từ 01-07-2025 theo điểm e khoản 3 Điều 10 Thông tư 69/2025/TT-BTC ngày 01-07-2025 (69-btc.signed.pdf, docid=214417) khi Luật Thuế GTGT 48/2024/QH15 và NĐ 181/2025/NĐ-CP có hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Sửa TT 219/2013 — hiệu lực theo bản đã sửa.",
+      "ghi_chu": "Sửa đổi TT 219/2013/TT-BTC (Điều 1), TT 156/2013/TT-BTC (Điều 2) và TT 39/2014/TT-BTC (Điều 3); hết hiệu lực từ 01-07-2025 khi Điều 1 bị bãi bỏ bởi điểm e khoản 3 Điều 10 TT 69/2025/TT-BTC và TT 219/2013/TT-BTC bị thay thế.",
       "tu_khoa": [
         "giao-thang-nuoc-thu-ba",
         "thue"
       ],
       "slug": "26-2015-tt-btc",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -36667,20 +36726,32 @@
       ],
       "nguon": [
         {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=207247",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/26-bnnptnt.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-26-2022-tt-bnnptnt-quy-dinh-ve-quan-ly-truy-xuat-nguon-goc-lam-san--158959",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://kiemlamtphcm.org.vn/laws/detail/Thong-tu-26-2025-TT-BNNMT-Quy-dinh-ve-quan-ly-lam-san-xu-ly-lam-san-thuy-san-la-tai-san-duoc-xac-lap-quyen-so-huu-toan-dan-49",
           "truy_cap": "2026-10-28"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 30-12-2022, hiệu lực 15-02-2023; HẾT hiệu lực 01-07-2025 — bị TT 26/2025/TT-BNNMT thay (nguyên văn Điều 33.3 điểm a)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-28",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=207247), toàn văn PDF ký số (26-bnnptnt.signed.pdf, Thứ trưởng Nguyễn Quốc Trị ký) và CSDL quốc gia vbpl.vn (ItemID=158959): ban hành 30-12-2022, có hiệu lực từ 15-02-2023 theo khoản 1 Điều 33 (thay thế TT 27/2018/TT-BNNPTNT theo khoản 2 Điều 33); hết hiệu lực toàn bộ từ 01-07-2025 khi bị Thông tư 26/2025/TT-BNNMT ngày 24-06-2025 (docid=214350, điểm a khoản 3 Điều 33) thay thế.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Nơi ban hành Mẫu 01 bảng kê gỗ nguyên liệu nhập khẩu (tầng 2 #247) — nay chuyển sang TT 26/2025.",
+      "ghi_chu": "Nơi ban hành Mẫu 01 bảng kê gỗ nguyên liệu nhập khẩu (tầng 2 #247) — nay chuyển sang TT 26/2025/TT-BNNMT.",
       "slug": "26-2022-tt-bnnptnt",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_thay_the_boi": [
           {
@@ -40906,35 +40977,60 @@
     },
     {
       "so_hieu": "29/2012/QH12",
+      "so_hieu_khac": [
+        "19/2012/QH13",
+        "29/2012/QH13"
+      ],
       "loai": "LUAT",
       "ten": "Luật Xuất bản",
       "co_quan": "QH",
       "ngay_ban_hanh": "2012-11-20",
+      "hieu_luc_tu": "2013-07-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "quan-ly-ngoai-thuong"
       ],
       "nguon": [
         {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=164963",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2013/01/19_xuatban.doc",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/luat-xuat-ban-so-19-2012-qh13--113345",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=162989",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-29-2012-qh13-11007.htm",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://thuvienphapluat.vn/van-ban/Thong-tu-11-2024-TT-BTTTT-danh-muc-hang-hoa-xuat-nhap-khau-linh-vuc-in-639655.aspx",
           "truy_cap": "2026-10-22"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "Luật Xuất bản 2012 — nền pháp lý lĩnh vực xuất bản, in, phát hành (issue #212 kiểm chứng nguồn công khai 16/10)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-22",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=164963), toàn văn 19_xuatban.doc (Chủ tịch Quốc hội Nguyễn Sinh Hùng ký) và CSDL quốc gia vbpl.vn (ItemID=113345): Luật Xuất bản thông qua ngày 20-11-2012 có số hiệu chính thức trên nguồn A là 19/2012/QH13 (bản ghi gốc từ issue #212 gõ nhầm thành 29/2012/QH12; còn số hiệu 29/2012/QH13 ngày 21-06-2012 trên docid=162989 và Công báo id=11007 là Nghị quyết về một số chính sách thuế tháo gỡ khó khăn cho tổ chức và cá nhân). Luật Xuất bản 19/2012/QH13 có hiệu lực từ 01-07-2013 theo Điều 53 (thay thế Luật Xuất bản 30/2004/QH11 và Luật 12/2008/QH12), đang còn hiệu lực (được sửa đổi một số điều liên quan đến quy hoạch bởi Luật 35/2018/QH14 từ 01-01-2019).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Khung pháp lý xuất bản-in; hoạt động in ấn nhập khẩu thiết bị phải đúng điều kiện theo Luật này + NĐ 195/2013.",
+      "ghi_chu": "Số hiệu chính thức của Luật Xuất bản ngày 20-11-2012 trên nguồn A là 19/2012/QH13 (đã gắn vào so_hieu_khac; giữ khoá file 29-2012-qh12 tương thích bản ghi gốc). Khung pháp lý xuất bản-in; hoạt động in ấn, nhập khẩu thiết bị in thực hiện theo Luật này, NĐ 195/2013/NĐ-CP và NĐ 60/2014/NĐ-CP (sửa đổi bởi NĐ 25/2018/NĐ-CP).",
       "tu_khoa": [
         "xuat-ban",
         "in",
         "xuat-nhap-khau"
       ],
       "slug": "29-2012-qh12",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -46303,7 +46399,7 @@
     {
       "so_hieu": "32/2020/TT-BYT",
       "loai": "THONG_TU",
-      "ten": "Quy định tiêu chuẩn chế biến, bào chế thuốc cổ truyền trong cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền",
+      "ten": "Quy định tiêu chuẩn chế biến, bào chế thuốc cổ truyền trong các cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền",
       "co_quan": "BYT",
       "ngay_ban_hanh": "2020-12-31",
       "hieu_luc_tu": "2021-02-17",
@@ -46323,22 +46419,25 @@
       },
       "nguon": [
         {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-32-2020-tt-byt-quy-dinh-tieu-chuan-che-bien-bao-che-thuoc-co-truyen-trong-cac-co-so-kham-benh-chua-benh-bang-y-hoc-co-truyen--147387",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vbpl-bientap-gateway.moj.gov.vn/api/qtdc/public/doc/minio/buckets/vbpl/147387/VanBanGoc_461317.pdf/download",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-32-2020-TT-BYT-tieu-chuan-che-bien-bao-che-thuoc-co-truyen-trong-co-so-kham-chua-benh-461317.aspx",
           "truy_cap": "2026-10-09"
         }
       ],
       "toan_van": "raw/download/thuvienphapluat.vn/2021/1/32-2020-tt-byt-body.txt",
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "Số hiệu 32/2020/TT-BYT, ban hành 31/12/2020 bởi Bộ trưởng Nguyễn Trường Sơn, hiệu lực 17/02/2021. Còn hiệu lực. Quy định tiêu chuẩn chế biến, bào chế thuốc cổ truyền trong cơ sở KCB bằng YHCT. Định nghĩa: (a) Dạng bào chế truyền thống: cao, hoàn cứng, hoàn mềm, bột thuốc, trà thuốc, rượu thuốc, cồn thuốc. (b) Dạng bào chế hiện đại: viên nén, bột hòa tan, cốm hòa tan, hoàn nhỏ giọt, siro, viên nang cứng/mềm, thuốc phun mù và CÁC DẠNG KHÁC (kể cả cao dán). Phụ lục I-II kèm theo.",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-09",
-        "boi": "hermes",
-        "chan": {
-          "ma": "CHO_CONG_BO_A",
-          "ngay": "2026-10-09",
-          "viec_tiep": "Chưa tìm được nguồn bậc A - chờ"
-        }
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu CSDL quốc gia vbpl.vn (ItemID=147387) và toàn văn PDF bản gốc (VanBanGoc_461317.pdf, Thứ trưởng Nguyễn Trường Sơn ký thay Bộ trưởng): số hiệu 32/2020/TT-BYT, ban hành 31-12-2020, có hiệu lực từ 17-02-2021 theo Điều 11; đang còn hiệu lực. Quy định tiêu chuẩn chế biến, bào chế thuốc cổ truyền trong các cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền (khoản 1 và khoản 2 Điều 2 phân định dạng bào chế truyền thống và dạng bào chế hiện đại kèm Phụ lục I, II).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Giải quyết vùng xám pháp lý Điều 73.3 Luật 105/2016: \"Các dạng khác\" trong dạng bào chế hiện đại cover cao dán thuốc cổ truyền.",
       "tu_khoa": [
@@ -46349,7 +46448,7 @@
         "ktc"
       ],
       "slug": "32-2020-tt-byt",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "duoc_huong_dan_boi": [
           {
@@ -50037,7 +50136,7 @@
     {
       "so_hieu": "34/2011/TT-BYT",
       "loai": "THONG_TU",
-      "ten": "Quy chuẩn kỹ thuật quốc gia về an toàn vệ sinh đối với bao bì, dụng cụ tiếp xúc trực tiếp với thực phẩm",
+      "ten": "Ban hành các Quy chuẩn kỹ thuật quốc gia về an toàn vệ sinh đối với bao bì, dụng cụ tiếp xúc trực tiếp với thực phẩm",
       "co_quan": "BYT",
       "ngay_ban_hanh": "2011-08-30",
       "hieu_luc_tu": "2012-03-01",
@@ -50048,6 +50147,14 @@
       ],
       "nguon": [
         {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-34-2011-tt-byt-ban-hanh-cac-quy-chuan-ky-thuat-quoc-gia-ve-an-toan-ve-sinh-doi-voi-bao-bi-dung-cu-tiep-xuc-truc-tiep-voi-thuc-pham--50295",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vbpl-bientap-gateway.moj.gov.vn/api/qtdc/public/doc/minio/buckets/vbpl/50295/34.2011.TT-BYT.doc/download",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2011-TT-BYT-Quy-chuan-ky-thuat-quoc-gia-an-toan-ve-sinh-135002.aspx",
           "truy_cap": "2026-11-06"
         },
@@ -50057,15 +50164,15 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "Đã kiểm chứng trực tiếp toàn văn trên Thư viện Pháp luật: tên, cơ quan (Bộ Y tế, Bộ trưởng Nguyễn Thị Kim Tiến ký), ngày ban hành 30/8/2011, hiệu lực 01/03/2012; ban hành 3 QCVN: 12-1:2011/BYT (bao bì, dụng cụ bằng nhựa tổng hợp), 12-2:2011/BYT (cao su), 12-3:2011/BYT (kim loại). QCVN 12-1:2011/BYT đã bị thay thế bởi QCVN 12-1:2018/BYT ban hành kèm TT 34/2018/TT-BYT (theo kết quả tìm kiếm có dẫn nguồn); keyword trang TVPL cho thấy tồn tại QCVN 12-3:2024/BYT (kim loại). NHƯNG: chưa đọc trực tiếp được nhãn tình trạng chính thức của TT 34/2011 trên vbpl.vn/TVPL — ghi CON_HIEU_LUC theo tổng hợp kết quả tìm kiếm (rất có thể thực tế là hết hiệu lực một phần do các QCVN bị thay thế), người sửa PR cần đối chiếu lại nhãn \"Hết hiệu lực một phần?\" trước khi nhập.",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-06",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu CSDL quốc gia vbpl.vn (ItemID=50295) và toàn văn 34.2011.TT-BYT.doc (Thứ trưởng Trịnh Quân Huấn ký thay Bộ trưởng): ban hành 30-08-2011, có hiệu lực từ 01-03-2012 theo Điều 2; ban hành kèm theo 03 quy chuẩn kỹ thuật quốc gia về an toàn vệ sinh đối với bao bì, dụng cụ tiếp xúc trực tiếp với thực phẩm gồm QCVN 12-1:2011/BYT (bằng nhựa tổng hợp), QCVN 12-2:2011/BYT (bằng cao su) và QCVN 12-3:2011/BYT (bằng kim loại) theo Điều 1. Trên vbpl.vn ghi nhận trạng thái Còn hiệu lực (không có văn bản bãi bỏ hay thay thế; lưu ý TT 34/2018/TT-BYT là thông tư về hoạt động tiêm chủng, không phải thay thế QCVN 12-1:2011/BYT).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. LƯU Ý TRÙNG SỐ: đây KHÔNG phải định mức thiết bị y tế hay mỹ phẩm — là QCVN an toàn vệ sinh bao bì, dụng cụ tiếp xúc trực tiếp thực phẩm (nhựa/cao su/kim loại); hàng bao bì thực phẩm nhập khẩu phải công bố hợp quy theo QCVN này khi thông quan và lưu thông.",
       "slug": "34-2011-tt-byt",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -50074,7 +50181,7 @@
         "34/2018/TT-BNNMT"
       ],
       "loai": "THONG_TU",
-      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 33/2014/TT-BNNPTNT ngày 30 tháng 10 năm 2014 và Thông tư số 20/2017/TT-BNNPTNT ngày 10 tháng 11 năm 2017",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 33/2014/TT-BNNPTNT ngày 30 tháng 10 năm 2014 và Thông tư số 20/2017/TT-BNNPTNT ngày 10 tháng 11 năm 2017 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn",
       "co_quan": "BNNPTNT",
       "ngay_ban_hanh": "2018-11-16",
       "hieu_luc_tu": "2019-01-01",
@@ -50096,6 +50203,18 @@
       },
       "nguon": [
         {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=196257",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/02/34-bnnptnt.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-34-2018-tt-bnnptnt-sua-doi-bo-sung-mot-so-dieu-cua-thong-tu-so-33-2014-tt-bnnptnt-ngay-30-thang-10-nam-2014-va-thong-tu-so-20-2017-tt-bnnptnt-ngay-10-thang-11-nam-2017-cua-bo-truong-bo-nong-nghiep-va-phat-trien-nong-thon--134291",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://www.ppd.gov.vn/FileUpload/Documents/vbhn_19_thong_tu_33_va_thong_tu_03_cua_bo_nnptnt.pdf",
           "truy_cap": "2026-10-28"
         },
@@ -50105,14 +50224,14 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 16-11-2018, hiệu lực 01-01-2019, sửa 33/2014 + 20/2017 (trang đầu PDF hợp nhất Cục BVTV trích nguyên văn); HẾT một phần: TT 03/2024 ngày 01-04-2024 bãi bỏ một số quy định tại TT này, hiệu lực 16-05-2024",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-28",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=196257), toàn văn PDF đính kèm (34-bnnptnt.pdf, Thứ trưởng Lê Quốc Doanh ký) và CSDL quốc gia vbpl.vn (ItemID=134291): ban hành 16-11-2018, có hiệu lực từ 01-01-2019 theo khoản 1 Điều 4; sửa đổi, bổ sung một số điều của Thông tư 33/2014/TT-BNNPTNT (Điều 1) và Thông tư 20/2017/TT-BNNPTNT (Điều 2). Hết hiệu lực một phần từ 16-05-2024 khi bị Thông tư 03/2024/TT-BNNPTNT ngày 01-04-2024 (docid=210131, Điều 1 và Điều 3) bãi bỏ một số quy định; đã được hợp nhất tại 19/VBHN-BNNPTNT ngày 27-05-2024.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "34-2018-tt-bnnptnt",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_bai_bo_boi": [
           {
@@ -50249,7 +50368,7 @@
     {
       "so_hieu": "34/2025/TT-BYT",
       "loai": "THONG_TU",
-      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 06/2011/TT-BYT về quản lý mỹ phẩm",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 06/2011/TT-BYT ngày 25 tháng 01 năm 2011 của Bộ trưởng Bộ Y tế quy định về quản lý mỹ phẩm",
       "co_quan": "BYT",
       "ngay_ban_hanh": "2025-07-03",
       "hieu_luc_tu": "2025-08-18",
@@ -50260,26 +50379,39 @@
       "quan_he": {
         "sua_doi": [
           {
-            "so_hieu": "06/2011/TT-BYT"
+            "so_hieu": "06/2011/TT-BYT",
+            "tu_ngay": "2025-08-18"
           }
         ]
       },
       "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=214428",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/34-byt.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-34-2025-tt-byt-sua-doi-thong-tu-06-2011-tt-byt-cua-bo-truong-bo-y-te-quy-dinh-ve-quan-ly-my-pham--181191",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx",
           "truy_cap": "2026-10-22"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "ban hành 03-07-2025 (thẻ TVPL 663703 + issue #224): CFS, hồ sơ công bố trực tuyến, số tiếp nhận phiếu công bố SP mỹ phẩm NK; hiệu lực chưa đối chiếu ngày cụ thể — điểm mù",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-22",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=214428), toàn văn PDF đính kèm (34-byt.pdf, Thứ trưởng Đỗ Xuân Tuyên ký) và CSDL quốc gia vbpl.vn (ItemID=181191): ban hành 03-07-2025, có hiệu lực từ 18-08-2025 theo Điều 3; sửa đổi, bổ sung một số điều và biểu mẫu của Thông tư 06/2011/TT-BYT về quản lý mỹ phẩm (đã được hợp nhất tại 09/VBHN-BYT ngày 25-07-2025); đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Sửa mới nhất TT 06/2011 (hiệu lực 18/8/2025 — đối chiếu nguyên văn VBHN 09/VBHN-BYT + medgate.vn): hồ sơ công bố trực tuyến + chữ ký điện tử, không bắt buộc dấu hộ kinh doanh, chuẩn hoá ghi thành phần/công thức, rút ngắn quy trình phản hồi. Kèm QĐ 2393/QĐ-BYT công bố TTHC sửa đổi.",
       "slug": "34-2025-tt-byt",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -73361,6 +73493,14 @@
             "tu": "22/2018/TT-BTTTT",
             "quan_he": "huong_dan",
             "so_hieu": "60/2014/NĐ-CP"
+          }
+        ],
+        "bi_sua_doi_boi": [
+          {
+            "tu": "25/2018/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "60/2014/NĐ-CP",
+            "tu_ngay": "2018-05-01"
           }
         ]
       }
