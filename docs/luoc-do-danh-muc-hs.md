@@ -75,7 +75,7 @@ danh_muc_hs:
 
 | Mã | Ý nghĩa |
 |---|---|
-| `DANH_MUC_CHUA_TRICH` | Văn bản danh mục (tên có "danh mục", thuộc nhánh KTCN, ngoại thương hoặc phòng vệ thương mại) chưa có bảng. Mức Cao nếu là danh mục KTCN có hiệu lực từ 01/7/2026 trở đi, hoặc được biểu thuế dẫn từ 50 mã |
+| `DANH_MUC_CHUA_TRICH` | Văn bản danh mục (tên có "danh mục", thuộc nhánh KTCN, ngoại thương hoặc phòng vệ thương mại) chưa có bảng. Mức Cao nếu là danh mục KTCN có hiệu lực từ 01/7/2026 trở đi, hoặc được biểu thuế dẫn từ 50 mã. **Không** áp dụng cho văn bản chỉ bãi bỏ (tên bắt đầu "Bãi bỏ…", vd 4814/QĐ-BCA) hay phụ lục tách riêng đã khai `phu_luc_cua` trỏ mẹ đã có CSV |
 | `HS_KHONG_TON_TAI` | Mã trong bảng không có trong biểu thuế: lỗi trích, mã của biểu thuế cũ, hoặc bản chụp biểu thuế chưa cập nhật |
 | `DAN_CHIEU_CHUA_CO_BANG` | Bảng dẫn mã sang văn bản chưa có bảng, hoặc văn bản chưa có trong sổ |
 
