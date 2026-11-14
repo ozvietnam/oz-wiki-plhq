@@ -10,10 +10,10 @@ nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=180584), toàn văn PDF/OCR (raw/download/datafiles.chinhphu.vn/79-2015-qh13.pdf, wiki/sources/79-2015-qh13.md) và cạnh ngược trong sổ: Luật Thú y ban hành 19-06-2015, có hiệu lực từ 01-07-2016 (113 điều); đối chiếu còn hiệu lực, được hướng dẫn bởi NĐ 35/2025/NĐ-CP và TT 01/2026/TT-BNNMT'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=180584&pageid=27160

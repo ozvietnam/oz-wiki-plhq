@@ -11,14 +11,10 @@ nhanh:
   - thue/luat-thue
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Luật 45/2005/QH11 (Quốc hội khóa 11, kỳ họp thứ 7) — Luật Thuế xuất khẩu, thuế nhập khẩu. Có hiệu lực từ 01/01/2006, hết hiệu lực 01/09/2016 (bị thay thế bởi Luật 107/2016/QH13). Nạp stub để hoàn thiện quan hệ thay_the; cần OCR/đọc toàn văn.'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-12'
-  boi: legal-customs@ozvietnam
-  chan:
-    ngay: '2026-10-12'
-    ma: 'THIEU_PDF_A'
-    viec_tiep: 'Tải toàn văn PDF từ datafiles.chinhphu.vn hoặc vanban.chinhphu.vn để đọc toàn văn + ghi xac_minh.pham_vi chi tiết'
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=10454) và cạnh ngược trong sổ: Luật Thuế xuất khẩu, thuế nhập khẩu 45/2005/QH11 ban hành 14-06-2005, có hiệu lực từ 01-01-2006; đối chiếu hết hiệu lực từ 01-09-2016 do bị thay thế bởi Luật 107/2016/QH13 (Điều 4 Luật 107/2016/QH13)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Luật nền tảng cho thuế XK NK giai đoạn 2006-2016. Bị thay thế bởi Luật 107/2016/QH13 (có hiệu lực 01/09/2016).'
 toan_van: chua_co
 nguon:
