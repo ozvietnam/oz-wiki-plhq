@@ -182,11 +182,11 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [206/2025/NĐ-CP](../registry/van-ban/206-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi VN-Lào
 - 🟢 [199/2025/NĐ-CP](../registry/van-ban/199-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
 - 🟢 [181/2025/NĐ-CP](../registry/van-ban/181-2025-nd-cp.yaml) — Quy định chi tiết thi hành một số điều của Luật Thuế giá trị gia tăng
+- 🟢 [66/2025/QH15](../registry/van-ban/66-2025-qh15.yaml) — Luật Thuế tiêu thụ đặc biệt
 - 🟢 [108/2025/NĐ-CP](../registry/van-ban/108-2025-nd-cp.yaml) — Biểu thuế xuất khẩu (sửa)
+- 🟢 [73/2025/NĐ-CP](../registry/van-ban/73-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
 - 🟢 [21/2025/NĐ-CP](../registry/van-ban/21-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
 - 🟢 [3830/QĐ-BKHCN](../registry/van-ban/3830-qd-bkhcn.yaml) — Hàng hóa nhóm 2 thuộc trách nhiệm của BKHCN (đợt 4)
-- 🟢 [66/2025/QH15](../registry/van-ban/66-2025-qh15.yaml) — Luật Thuế tiêu thụ đặc biệt
-- 🟢 [73/2025/NĐ-CP](../registry/van-ban/73-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
 - 🟢 [144/2024/NĐ-CP](../registry/van-ban/144-2024-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
 - 🟢 [77/2023/NĐ-CP](../registry/van-ban/77-2023-nd-cp.yaml) — Quản lý nhập khẩu hàng hóa tân trang theo Hiệp định CPTPP
 - 🟢 [15/2023/QĐ-TTg](../registry/van-ban/15-2023-qd-ttg.yaml) — Biểu thuế NK thông thường
@@ -2506,11 +2506,11 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 - 🟢 [37/2026/NĐ-CP](../registry/van-ban/37-2026-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Chất lượng sản phẩm, hàng hóa
 - 🟢 [217/2025/NĐ-CP](../registry/van-ban/217-2025-nd-cp.yaml) — Quy định về hoạt động kiểm tra chuyên ngành
+- 🟢 [78/2025/QH15](../registry/van-ban/78-2025-qh15.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Chất lượng sản phẩm, hàng hóa
 - ⚫ [13/2022/NĐ-CP](../registry/van-ban/13-2022-nd-cp.yaml) — Sửa đổi, bổ sung Nghị định 132/2008/NĐ-CP _(hết hiệu lực 2026-07-01)_
 - ⚫ [74/2018/NĐ-CP](../registry/van-ban/74-2018-nd-cp.yaml) — Sửa đổi, bổ sung Nghị định 132/2008/NĐ-CP _(hết hiệu lực 2026-07-01)_
 - ⚫ [132/2008/NĐ-CP](../registry/van-ban/132-2008-nd-cp.yaml) — Quy định chi tiết thi hành một số điều của Luật Chất lượng sản phẩm, hàng hoá _(hết hiệu lực 2026-07-01)_
 - 🟢 [05/2007/QH12](../registry/van-ban/05-2007-qh12.yaml) — Luật Chất lượng sản phẩm, hàng hoá
-- 🟢 [78/2025/QH15](../registry/van-ban/78-2025-qh15.yaml) — Luật sửa đổi, bổ sung Luật Chất lượng sản phẩm, hàng hoá
 
 ### Kiểm tra nhà nước về an toàn thực phẩm `kiem-tra-chuyen-nganh/an-toan-thuc-pham`
 
@@ -2723,7 +2723,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [49-PL1/2026/TT-BXD](../registry/van-ban/49-pl1-2026-tt-bxd.yaml) — Phụ lục I — Danh mục sản phẩm, hàng hóa có mức độ rủi ro cao thuộc phạm vi quản lý của Bộ Xây dựng (ban hành kèm theo TT 49/2026/TT-BXD)
 - 🟢 [49-PL2/2026/TT-BXD](../registry/van-ban/49-pl2-2026-tt-bxd.yaml) — Phụ lục II — Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình thuộc phạm vi quản lý của Bộ Xây dựng (ban hành kèm theo TT 49/2026/TT-BXD)
 - 🟢 [41/2026/TT-BXD](../registry/van-ban/41-2026-tt-bxd.yaml) — Quản lý chất lượng sản phẩm, hàng hoá vật liệu xây dựng
-- ❔ [71/2025/TT-BXD](../registry/van-ban/71-2025-tt-bxd.yaml) — Sửa đổi, bổ sung một số điều của các Thông tư để cắt giảm, đơn giản hóa thủ tục hành chính trong lĩnh vực đăng kiểm, hàng không dân dụng và thanh tra thuộc phạm vi quản lý của Bộ Xây dựng
+- 🟡 [71/2025/TT-BXD](../registry/van-ban/71-2025-tt-bxd.yaml) — Sửa đổi, bổ sung một số điều của các Thông tư để cắt giảm, đơn giản hóa thủ tục hành chính trong lĩnh vực đăng kiểm, hàng không dân dụng và thanh tra thuộc phạm vi quản lý của Bộ Xây dựng
 - ⚫ [62/2024/TT-BGTVT](../registry/van-ban/62-2024-tt-bgtvt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 12/2022/TT-BGTVT ngày 30/6/2022 của Bộ trưởng Bộ Giao thông vận tải quy định danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Giao thông vận tải _(hết hiệu lực 2026-07-01)_
 - ⚫ [10/2024/TT-BXD](../registry/van-ban/10-2024-tt-bxd.yaml) — Quản lý chất lượng sản phẩm, hàng hóa vật liệu xây dựng _(hết hiệu lực 2026-07-01)_
 - ⚫ [12/2022/TT-BGTVT](../registry/van-ban/12-2022-tt-bgtvt.yaml) — Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Giao thông vận tải _(hết hiệu lực 2026-07-01)_

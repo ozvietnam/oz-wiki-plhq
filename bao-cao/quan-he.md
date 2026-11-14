@@ -246,7 +246,7 @@ flowchart LR
   n_8378_Q__BCA["8378/QĐ-BCA<br/>chưa xác minh"]
   n_49_2026_TT_BXD["49/2026/TT-BXD<br/>còn hiệu lực"]
   n_62_2024_TT_BGTVT["62/2024/TT-BGTVT<br/>hết hiệu lực"]
-  n_71_2025_TT_BXD["71/2025/TT-BXD<br/>chưa xác minh"]
+  n_71_2025_TT_BXD["71/2025/TT-BXD<br/>hết hiệu lực một phần"]
   n_73_2018_N__CP["73/2018/NĐ-CP<br/>hết hiệu lực"]
   n_69_2025_QH15["69/2025/QH15<br/>còn hiệu lực"]
   n_06_2007_QH12["06/2007/QH12<br/>hết hiệu lực"]

@@ -70626,7 +70626,7 @@
       "loai": "NGHI_DINH",
       "ten": "Biểu thuế NK ưu đãi VN-Cam",
       "co_quan": "CP",
-      "ngay_ban_hanh": "2026-01-01",
+      "ngay_ban_hanh": "2026-02-12",
       "hieu_luc_tu": "2026-02-12",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
@@ -70634,12 +70634,12 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=216953) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/56-2026-nd-cp.pdf, 7 Điều + Phụ lục I, II, III, người ký Phó Thủ tướng Hồ Đức Phớc): Nghị định 56/2026/NĐ-CP của Chính phủ về Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Bản Thỏa thuận thúc đẩy thương mại song phương giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ Vương quốc Campuchia giai đoạn 2025 - 2026, ban hành ngày 12-02-2026, có hiệu lực thi hành từ ngày ký ban hành 12-02-2026 cho đến hết ngày 31-12-2026 theo khoản 1 Điều 6 (khoản 2 Điều 6 quy định xử lý tiền thuế nộp thừa đối với các tờ khai hải quan đăng ký từ ngày 28-04-2025 đến trước ngày Nghị định có hiệu lực thi hành); đối chiếu đang còn hiệu lực (không có văn bản sửa đổi, thay thế hoặc bãi bỏ trong sổ)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/default.aspx?docid=216953&pageid=27160",
@@ -77366,7 +77366,7 @@
       "loai": "LUAT",
       "ten": "Luật Thuế tiêu thụ đặc biệt",
       "co_quan": "QH",
-      "ngay_ban_hanh": "2025-01-01",
+      "ngay_ban_hanh": "2025-06-14",
       "hieu_luc_tu": "2026-01-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
@@ -77384,12 +77384,12 @@
       },
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=214598) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/66-2025-qh15.pdf, 4 Chương, 11 Điều, người ký Chủ tịch Quốc hội Trần Thanh Mẫn): Luật Thuế tiêu thụ đặc biệt số 66/2025/QH15 được Quốc hội khóa XV thông qua tại kỳ họp thứ 9 ngày 14-06-2025, có hiệu lực thi hành từ ngày 01-01-2026 theo khoản 1 Điều 11; khoản 2 Điều 11 quy định Luật Thuế tiêu thụ đặc biệt số 27/2008/QH12 đã được sửa đổi, bổ sung một số điều theo Luật số 70/2014/QH13, Luật số 71/2014/QH13, Luật số 106/2016/QH13 và Luật số 03/2022/QH15 (Điều 8) hết hiệu lực kể từ ngày 01-01-2026; đối chiếu đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/default.aspx?docid=214598&pageid=27160",
@@ -80383,7 +80383,7 @@
       "co_quan": "BXD",
       "ngay_ban_hanh": "2025-12-31",
       "hieu_luc_tu": "2025-12-31",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bxd"
       ],
@@ -80405,15 +80405,10 @@
       },
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực. CHƯA đọc toàn văn — chỉ xác minh được quan hệ bãi một phần qua TT 49/2026 (Điều 6 khoản 3 điểm c). Phần còn lại (ngoài Ch.X, PL II, PL III) vẫn còn hiệu lực.",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-09",
-        "boi": "hermes",
-        "chan": {
-          "ma": "SO_HIEU_LECH",
-          "ngay": "2026-10-09",
-          "viec_tiep": "Cần đọc toàn văn TT 71/2025/TT-BXD để xác minh nội dung Ch.X, PL II, PL III (bãi) và phần còn lại (còn hiệu lực)"
-        }
+        "pham_vi": "đối chiếu Công báo (id=468849, tệp đính kèm 2026_90_71/2025/TT-BXD.docx và PDF ký số 71signed-1770365143684853249888.pdf, 13 Chương, 66 Điều, Phụ lục I–IV, người ký Thứ trưởng Lê Anh Tuấn): Thông tư 71/2025/TT-BXD ban hành ngày 31-12-2025, có hiệu lực thi hành từ ngày 31-12-2025 theo Điều 65; đối chiếu hết hiệu lực một phần từ ngày 01-07-2026 do điểm c khoản 3 Điều 6 Thông tư 49/2026/TT-BXD bãi bỏ Chương X (Điều 62), Phụ lục II và Phụ lục III (phần danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc lĩnh vực GTVT thay thế Phụ lục I và II Thông tư 12/2022/TT-BGTVT, 62/2024/TT-BGTVT); các chương và phụ lục còn lại (Chương I–IX, XI–XIII, Phụ lục I và Phụ lục IV) vẫn còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "71-2025-tt-bxd",
       "bac_nguon_cao_nhat": "A",
@@ -82243,20 +82238,20 @@
       "loai": "NGHI_DINH",
       "ten": "Biểu thuế NK ưu đãi (sửa)",
       "co_quan": "CP",
-      "ngay_ban_hanh": "2025-01-01",
-      "hieu_luc_tu": "2025-01-01",
+      "ngay_ban_hanh": "2025-03-31",
+      "hieu_luc_tu": "2025-03-31",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "thue/bieu-thue"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=213245) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/73-2025-nd-cp.pdf, 2 Điều + Phụ lục gồm Mục I và Mục II, người ký Phó Thủ tướng Hồ Đức Phớc): Nghị định 73/2025/NĐ-CP của Chính phủ sửa đổi, bổ sung mức thuế suất thuế nhập khẩu ưu đãi của một số mặt hàng tại Biểu thuế nhập khẩu ưu đãi theo Danh mục mặt hàng chịu thuế ban hành kèm theo Nghị định 26/2023/NĐ-CP ngày 31-05-2023, ban hành ngày 31-03-2025, có hiệu lực thi hành kể từ ngày ký ban hành 31-03-2025 theo khoản 1 Điều 2; đối chiếu đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/default.aspx?docid=213245&pageid=27160",
@@ -82530,10 +82525,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (congbao.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "đối chiếu Công báo (id=29130/27059, số Công báo 513 + 514 năm 2019, người ký Thủ tướng Nguyễn Xuân Phúc) và cạnh ngược trong sổ: Quyết định 734/QĐ-TTg chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định CPTPP, ban hành ngày 14-06-2019, có hiệu lực thi hành từ ngày 14-06-2019; đã hết hiệu lực toàn bộ kể từ ngày 16-01-2026 do bị thay thế bởi Điều 5 Quyết định 127/QĐ-TTg ngày 16-01-2026 của Thủ tướng Chính phủ",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "het_hieu_luc_tu": "2026-01-16",
       "ghi_chu": "Khung stub: 127/QĐ-TTg Điều 5 thay thế 734/QĐ-TTg. Ngày ban hành 14-06-2019 theo trích dẫn trong 127; chưa mở toàn văn 734.",
@@ -82827,6 +82822,7 @@
       "ten": "Sửa đổi, bổ sung Nghị định 132/2008/NĐ-CP",
       "co_quan": "CP",
       "ngay_ban_hanh": "2018-05-15",
+      "hieu_luc_tu": "2018-07-01",
       "het_hieu_luc_tu": "2026-07-01",
       "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
@@ -82834,10 +82830,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=193720, người ký Thủ tướng Nguyễn Xuân Phúc, tệp đính kèm 74.signed.pdf) và cạnh ngược trong sổ: Nghị định 74/2018/NĐ-CP của Chính phủ sửa đổi, bổ sung một số điều của Nghị định 132/2008/NĐ-CP quy định chi tiết thi hành một số điều Luật Chất lượng sản phẩm, hàng hóa, ban hành ngày 15-05-2018, có hiệu lực thi hành từ ngày 01-07-2018; đã hết hiệu lực toàn bộ từ ngày 01-07-2026 do bị bãi bỏ bởi điểm b khoản 2 Điều 97 Nghị định 37/2026/NĐ-CP ngày 23-01-2026",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
       "nguon": [
@@ -84285,8 +84281,10 @@
     {
       "so_hieu": "78/2025/QH15",
       "loai": "LUAT",
-      "ten": "Luật sửa đổi, bổ sung Luật Chất lượng sản phẩm, hàng hoá",
+      "ten": "Luật sửa đổi, bổ sung một số điều của Luật Chất lượng sản phẩm, hàng hóa",
       "co_quan": "QH",
+      "ngay_ban_hanh": "2025-06-18",
+      "hieu_luc_tu": "2026-01-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/khung-chat-luong"
@@ -84298,12 +84296,12 @@
       },
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=214606, người ký Chủ tịch Quốc hội Trần Thanh Mẫn, tệp đính kèm 78qh.signed.pdf) và các văn bản căn cứ trong sổ: Luật số 78/2025/QH15 của Quốc hội sửa đổi, bổ sung một số điều của Luật Chất lượng sản phẩm, hàng hóa số 05/2007/QH12, thông qua ngày 18-06-2025, có hiệu lực thi hành từ ngày 01-01-2026; đối chiếu đang còn hiệu lực (không có văn bản thay thế hoặc bãi bỏ trong sổ)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Tên đầy đủ và ngày hiệu lực: chưa xác minh. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
+      "ghi_chu": "Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?docid=214606&pageid=27160",
@@ -84574,10 +84572,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Tên nguyên văn, cơ quan (CP, Thủ tướng Nguyễn Tấn Dũng ký), ngày ban hành 06/08/2014, ngày hiệu lực 01/01/2015 xác minh trực tiếp tại vanban.chinhphu.vn. Tình trạng còn hiệu lực và các văn bản sửa đổi bổ sung (NĐ 98/2019/NĐ-CP, NĐ 08/2022/NĐ-CP, NĐ 85/2024/NĐ-CP; văn bản hợp nhất 50/VBHN-BXD ngày 17/6/2026) theo nguồn thứ cấp (Thư viện Pháp luật, Luật Việt Nam) — chưa đối chiếu được trên vbpl.vn (trang tải bằng JS) và vanban.chinhphu.vn không hiển thị tình trạng.",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-06",
-        "boi": "zcode@ozvietnam"
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=175375, người ký Thủ tướng Nguyễn Tấn Dũng, tệp đính kèm 80nd.signed.pdf): Nghị định 80/2014/NĐ-CP của Chính phủ về thoát nước và xử lý nước thải, ban hành ngày 06-08-2014, có hiệu lực thi hành từ ngày 01-01-2015; đối chiếu đang còn hiệu lực (đã được sửa đổi, bổ sung một số điều bởi Nghị định 98/2019/NĐ-CP, Nghị định 08/2022/NĐ-CP, Nghị định 85/2024/NĐ-CP và hợp nhất tại Văn bản hợp nhất 50/VBHN-BXD ngày 17-06-2026; không có văn bản thay thế hoặc bãi bỏ toàn bộ trong sổ)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. CẢNH BÁO DỮ LIỆU: số hiệu nghị định CP là duy nhất theo năm — bản 80/2014/NĐ-CP duy nhất là về thoát nước và xử lý nước thải, KHÔNG phải văn bản hướng dẫn Luật Thương mại về hàng hoá XNK như ghi chú kèm nhu cầu (ghi chú đó không kiểm chứng được). Nghị định hướng dẫn Luật Thương mại về hàng hoá XNK, đại lý mua, bán, gia công và chuyển giao hàng hoá quốc tế thường được nhắc là NĐ 187/2013/NĐ-CP — chưa kiểm chứng đợt này. Nội dung không điều chỉnh hoạt động XNK nên không gắn nhánh.",
       "slug": "80-2014-nd-cp",
@@ -86394,10 +86392,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực từ vanban + Công báo; chưa đọc toàn văn",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-12",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=213376, tệp đính kèm 86-cp.signed.pdf), Công báo (id=44745, số Công báo 671 + 672 năm 2025, người ký Phó Thủ tướng Bùi Thanh Sơn) và các quyết định phòng vệ thương mại trong sổ: Nghị định 86/2025/NĐ-CP của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương về các biện pháp phòng vệ thương mại, ban hành ngày 11-04-2025, có hiệu lực thi hành từ ngày 01-07-2025 và thay thế Nghị định 10/2018/NĐ-CP; đối chiếu đang còn hiệu lực (không có văn bản thay thế hoặc bãi bỏ trong sổ)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Khung NĐ phòng vệ thương mại hiện hành (thay 10/2018 từ 01/07/2025). Gắn nhánh chong-ban-pha-gia để đóng NUT_THIEU_LOAI NGHI_DINH.",
       "slug": "86-2025-nd-cp",
@@ -86699,16 +86697,17 @@
       "ten": "Quy định chi tiết thi hành một số điều của Luật Phòng, chống bệnh truyền nhiễm về kiểm dịch y tế biên giới",
       "co_quan": "CP",
       "ngay_ban_hanh": "2018-06-25",
+      "hieu_luc_tu": "2018-08-10",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=194022, người ký Thủ tướng Nguyễn Xuân Phúc, tệp đính kèm 89.signed.pdf): Nghị định 89/2018/NĐ-CP của Chính phủ quy định chi tiết thi hành một số điều của Luật Phòng, chống bệnh truyền nhiễm về kiểm dịch y tế biên giới, ban hành ngày 25-06-2018, có hiệu lực thi hành từ ngày 10-08-2018; đối chiếu đang còn hiệu lực (chưa có văn bản thay thế hoặc bãi bỏ toàn bộ trong sổ; riêng kiểm dịch y tế đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh theo Luật Phòng bệnh 114/2025/QH15 được quy định chi tiết tại Nghị định 165/2026/NĐ-CP từ 01-07-2026)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Luật gốc đã đổi thành Luật Phòng bệnh 114/2025/QH15 (hl 01/7/2026); chưa xác minh có nghị định mới thay thế. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.",
       "nguon": [
