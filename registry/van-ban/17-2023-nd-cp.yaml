@@ -1,33 +1,38 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 17/2023/NĐ-CP
 loai: NGHI_DINH
-ten: "Quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về quyền tác giả, quyền liên quan"
+ten: Quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về quyền tác giả, quyền liên quan
 co_quan: CP
-ngay_ban_hanh: "2023-04-26"
-hieu_luc_tu: "2023-04-26"
+ngay_ban_hanh: '2023-04-26'
+hieu_luc_tu: '2023-04-26'
 tinh_trang: CON_HIEU_LUC
-nhanh: [hai-quan/kiem-tra-giam-sat]
+nhanh:
+  - hai-quan/kiem-tra-giam-sat
 quan_he:
   thay_the:
     - so_hieu: 22/2018/NĐ-CP
-      tu_ngay: "2023-04-26"
+      tu_ngay: '2023-04-26'
     - so_hieu: 119/2010/NĐ-CP
-      tu_ngay: "2023-04-26"
+      tu_ngay: '2023-04-26'
   bai_bo:
     - so_hieu: 105/2006/NĐ-CP
-      pham_vi: "Phần Bảo vệ quyền trong lĩnh vực quyền tác giả, quyền liên quan"
-      tu_ngay: "2023-04-26"
-      can_cu: "Điều 115 khoản 2"
+      pham_vi: Phần Bảo vệ quyền trong lĩnh vực quyền tác giả, quyền liên quan
+      tu_ngay: '2023-04-26'
+      can_cu: Điều 115 khoản 2
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=207842
-    truy_cap: "2026-10-29"
+    truy_cap: '2026-10-29'
   - url: https://vi.wikisource.org/wiki/Ngh%E1%BB%8B_%C4%91%E1%BB%8Bnh_s%E1%BB%91_17/2023/N%C4%90-CP/Ch%C6%B0%C6%A1ng_VII
-    truy_cap: "2026-10-29"
+    truy_cap: '2026-10-29'
 xac_minh:
   muc: NGUON_A
-  pham_vi: "thẻ vanban.chinhphu.vn (docid=207842) và Điều 115: số hiệu, tiêu đề, ngày ban hành và có hiệu lực từ 26-04-2023; đối chiếu còn hiệu lực, thay thế NĐ 22/2018/NĐ-CP, NĐ 119/2010/NĐ-CP và bãi bỏ phần bảo vệ quyền tác giả, quyền liên quan của NĐ 105/2006/NĐ-CP"
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=207842) và Điều 115: số hiệu, tiêu đề, ngày ban hành và có hiệu lực từ 26-04-2023; đối chiếu còn hiệu lực, thay thế NĐ 22/2018/NĐ-CP, NĐ 119/2010/NĐ-CP và bãi bỏ phần bảo vệ quyền tác giả, quyền liên quan của NĐ 105/2006/NĐ-CP'
   hieu_luc_da_doi_chieu: true
-  ngay: "2026-11-14"
+  ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: "KHÔNG thay thế NĐ 131/2013 (xử phạt QTC vẫn theo NĐ 131/2013 sđ 28/2017). TVPL ghi nhận bị sửa bởi NĐ 116/2026/NĐ-CP (02-04-2026, TTHC — đã có công báo) và NĐ 134/2026/NĐ-CP (06-04-2026, nguồn tỉnh, chưa thấy trên cổng A) — chưa ghi quan hệ, chờ săn bậc A."
-tu_khoa: [quyen-tac-gia, shtt, thi-hanh]
+ghi_chu: KHÔNG thay thế NĐ 131/2013 (xử phạt QTC vẫn theo NĐ 131/2013 sđ 28/2017). TVPL ghi nhận bị sửa bởi NĐ 116/2026/NĐ-CP (02-04-2026, TTHC — đã có công báo) và NĐ 134/2026/NĐ-CP (06-04-2026, nguồn tỉnh, chưa thấy trên cổng A) — chưa ghi quan hệ, chờ săn bậc A.
+tu_khoa:
+  - quyen-tac-gia
+  - shtt
+  - thi-hanh
+toan_van: raw/download/vanban.chinhphu.vn/17-2023-nd-cp.html
