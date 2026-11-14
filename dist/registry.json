@@ -61,10 +61,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "đối chiếu Công báo (id=26084/21710) và cạnh ngược trong sổ: Thông tư 01/2018/TT-BCT ban hành 27-02-2018, có hiệu lực từ 27-02-2018; đã được sửa đổi, bổ sung một phần bởi Thông tư 33/2025/TT-BCT từ ngày 21-07-2025 (Điều 1 TT 33/2025/TT-BCT bãi bỏ điểm c khoản 2 Điều 3 và thay thế toàn bộ Phụ lục I)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "01-2018-tt-bct",
       "bac_nguon_cao_nhat": "A",
@@ -522,10 +522,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "đối chiếu Công báo (id=8741), wiki/sources/03-2015-tt-btttt.md và cạnh ngược trong sổ: Thông tư 03/2015/TT-BTTTT ban hành 06-03-2015, có hiệu lực từ 01-05-2015; đã bị bãi bỏ Điều 2 và Điều 6 từ ngày 07-11-2024 bởi khoản 2 Điều 3 Thông tư 11/2024/TT-BTTTT (hợp nhất tại 07/VBHN-BTTTT ngày 21-10-2024)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "03-2015-tt-btttt",
       "bac_nguon_cao_nhat": "A",
@@ -833,20 +833,20 @@
       "loai": "THONG_TU",
       "ten": "Hạn ngạch thuế quan NK thuốc lá, trứng gia cầm",
       "co_quan": "BCT",
-      "ngay_ban_hanh": "2023-01-01",
-      "hieu_luc_tu": "2023-02-20",
+      "ngay_ban_hanh": "2023-02-20",
+      "hieu_luc_tu": "2023-04-10",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "thue/bieu-thue"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Crawl từ vanban.chinhphu.vn docid=207527"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=207527) và toàn văn PDF gốc (raw/download/datafiles.chinhphu.vn/04-2023-tt-bct.pdf, 6 Điều + Phụ lục): Thông tư 04/2023/TT-BCT ban hành 20-02-2023, có hiệu lực từ 10-04-2023 đến hết 31-12-2027 theo Điều 6; đối chiếu đang còn hiệu lực về hạn ngạch thuế quan nhập khẩu thuốc lá nguyên liệu (nhóm 24.01, 500 tấn/năm) và trứng gia cầm (nhóm 04.07) xuất xứ Liên minh Kinh tế Á - Âu giai đoạn 2023 - 2027",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "ghi_chu": "Crawl từ vanban.chinhphu.vn docid=207527",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/default.aspx?docid=207527&pageid=27160",
@@ -1038,10 +1038,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "đối chiếu Công báo (id=19218), wiki/sources/05-2016-tt-btttt.md và cạnh ngược trong sổ: Thông tư 05/2016/TT-BTTTT ban hành 01-03-2016, có hiệu lực từ 01-08-2016; đã được sửa đổi, bổ sung (Điều 1) và bãi bỏ một phần (khoản 3 Điều 3: bãi bỏ Điều 3; điểm h, i, k, m khoản 1 Điều 6; điểm c khoản 1 Điều 7) từ ngày 07-11-2024 bởi Thông tư 11/2024/TT-BTTTT (hợp nhất tại 08/VBHN-BTTTT ngày 21-10-2024)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "05-2016-tt-btttt",
       "bac_nguon_cao_nhat": "A",
@@ -2326,10 +2326,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=167379), Công báo (id=4337), toàn văn PDF/OCR (raw/download/datafiles.chinhphu.vn/09-2013-tt-btttt.pdf, wiki/sources/09-2013-tt-btttt.md) và cạnh ngược trong sổ: Thông tư 09/2013/TT-BTTTT ban hành 08-04-2013, có hiệu lực từ 23-05-2013 theo Điều 4 (5 Điều + Phụ lục số 01, 02); đã được sửa đổi, bổ sung và bãi bỏ một phần Phụ lục số 02 từ ngày 07-11-2024 bởi Điều 4 Thông tư 11/2024/TT-BTTTT",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "09-2013-tt-btttt",
       "bac_nguon_cao_nhat": "A",
@@ -2633,10 +2633,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "đối chiếu Công báo Số 887 + 888 ngày 15-07-2025 (id=45357, toàn văn PDF/txt tại raw/download/congbaocdn.chinhphu.vn/09-2025-tt-bnv.pdf), wiki/sources/09-2025-tt-bnv.md và cạnh ngược trong sổ: Thông tư 09/2025/TT-BNV ban hành 18-06-2025, có hiệu lực từ 01-07-2025 theo khoản 1 Điều 18 (19 Điều + Phụ lục I, II); đã bị bãi bỏ Điều 16 từ ngày 28-07-2026 bởi điểm d khoản 2 Điều 7 Thông tư 16/2026/TT-BNV",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "09-2025-tt-bnv",
       "bac_nguon_cao_nhat": "A",
@@ -2956,10 +2956,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=212538), toàn văn PDF/OCR (raw/download/datafiles.chinhphu.vn/10-2024-tt-bkhcn.pdf, wiki/sources/10-2024-tt-bkhcn.md) và đối chiếu khung KTCN 2026: Thông tư 10/2024/TT-BKHCN gốc ban hành 30-12-2024 (hiệu lực 15-02-2025 theo khoản 1 Điều 5) quy định quản lý nhiệm vụ KH&CN do Quỹ NAFOSTED tài trợ; mục danh mục hàng hóa nhóm 2 BKHCN (cũ) ghi theo nguồn thứ cấp đã hết hiệu lực từ 01-07-2026 khi khung KTCN 2026 (TT 36/2026/TT-BKHCN) có hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Tên đầy đủ chưa xác minh. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json. KHUNG KTCN 2026 (tin cậy MEDIUM): Khung 'nhóm 2' (NĐ 132/2008, NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026. Hết hiệu lực từ 2026-07-01: bị thay bởi 36/2026/TT-BKHCN (theo nguồn thứ cấp).",
       "nguon": [
@@ -5318,20 +5318,20 @@
       "loai": "NGHI_DINH",
       "ten": "Biểu thuế xuất khẩu (sửa)",
       "co_quan": "CP",
-      "ngay_ban_hanh": "2025-01-01",
-      "hieu_luc_tu": "2025-07-15",
+      "ngay_ban_hanh": "2025-05-19",
+      "hieu_luc_tu": "2025-05-19",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "thue/bieu-thue"
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=213700) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/108-2025-nd-cp.pdf): Nghị định 108/2025/NĐ-CP ban hành 19-05-2025, có hiệu lực từ ngày ký ban hành 19-05-2025 theo khoản 1 Điều 2; đối chiếu đang còn hiệu lực, sửa đổi mức thuế suất thuế xuất khẩu đối với mặt hàng clanhke xi măng (nhóm 25.23: mã 2523.10.10 và 2523.10.90 áp dụng 5%, từ 01-01-2027 áp dụng 10%) tại Phụ lục I Nghị định 26/2023/NĐ-CP",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/default.aspx?docid=213700&pageid=27160",
@@ -5563,7 +5563,7 @@
       "loai": "NGHI_QUYET",
       "ten": "Thuế bảo vệ môi trường",
       "co_quan": "UBTVQH",
-      "ngay_ban_hanh": "2025-01-01",
+      "ngay_ban_hanh": "2025-10-17",
       "hieu_luc_tu": "2026-01-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
@@ -5571,12 +5571,12 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "VB từ sheet HT biểu thuế 2026.04.05",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=215926) và toàn văn PDF gốc (raw/download/datafiles.chinhphu.vn/109-2025-ubtvqh15.pdf): Nghị quyết 109/2025/UBTVQH15 thông qua ngày 17-10-2025, có hiệu lực thi hành từ 01-01-2026 đến hết 31-12-2026 theo Điều 1 và khoản 1 Điều 2 (thay thế NQ 60/2024/UBTVQH15 theo khoản 2 Điều 2); đối chiếu đang còn hiệu lực về mức thuế bảo vệ môi trường đối với xăng, dầu, mỡ nhờn năm 2026",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
+      "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn",
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/default.aspx?docid=215926&pageid=27160",
@@ -6405,10 +6405,10 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề (Công báo 37919); hiệu lực 20-09-2022 theo Điều 4 (nguồn phụ lawplayer dẫn nguyên văn) — ngày ban hành chưa đối chiếu công báo. Không ghi đích sửa đổi: sửa TTHC nhiều thông tư trong lĩnh vực BV&KDTV, chưa đối chiếu danh sách",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-28",
-        "boi": "zcode@ozvietnam"
+        "pham_vi": "đối chiếu Công báo (id=37919): Thông tư 11/2022/TT-BNNPTNT sửa đổi, bổ sung một số quy định về thủ tục hành chính trong lĩnh vực bảo vệ và kiểm dịch thực vật, có hiệu lực từ 20-09-2022 theo Điều 4; đối chiếu đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "11-2022-tt-bnnptnt",
       "bac_nguon_cao_nhat": "A",
