@@ -141,6 +141,15 @@ flowchart LR
   n_06_2019_N__CP["06/2019/NĐ-CP<br/>còn hiệu lực"]
   n_32_2006_N__CP["32/2006/NĐ-CP<br/>hết hiệu lực"]
   n_27_2018_TT_BNNPTNT["27/2018/TT-BNNPTNT<br/>hết hiệu lực"]
+  n_06_VBHN_BNNPTNT["06/VBHN-BNNPTNT<br/>hết hiệu lực"]
+  n_33_2014_TT_BNNPTNT["33/2014/TT-BNNPTNT<br/>còn hiệu lực"]
+  n_15_2021_TT_BNNPTNT["15/2021/TT-BNNPTNT<br/>còn hiệu lực"]
+  n_07_2026_TT_BNNMT["07/2026/TT-BNNMT<br/>còn hiệu lực"]
+  n_05_2015_TT_BNNPTNT["05/2015/TT-BNNPTNT<br/>còn hiệu lực"]
+  n_08_2026_VBHN_BYT["08/2026/VBHN-BYT<br/>còn hiệu lực"]
+  n_98_2021_N__CP["98/2021/NĐ-CP<br/>còn hiệu lực"]
+  n_07_2023_N__CP["07/2023/NĐ-CP<br/>còn hiệu lực"]
+  n_96_2023_N__CP["96/2023/NĐ-CP<br/>còn hiệu lực"]
   n_09_2015_TT_BYT["09/2015/TT-BYT<br/>còn hiệu lực"]
   n_06_2011_TT_BYT["06/2011/TT-BYT<br/>còn hiệu lực"]
   n_09_2024_TT_BYT["09/2024/TT-BYT<br/>còn hiệu lực"]
@@ -155,6 +164,8 @@ flowchart LR
   n_28_2018_QH14["28/2018/QH14<br/>hết hiệu lực"]
   n_44_2024_QH15["44/2024/QH15<br/>còn hiệu lực"]
   n_76_VBHN_VPQH["76-VBHN/VPQH<br/>chưa xác minh"]
+  n_109_2026_VBHN_TT_BNNMT["109/2026/VBHN-TT-BNNMT<br/>còn hiệu lực"]
+  n_14_2024_TT_BNNPTNT["14/2024/TT-BNNPTNT<br/>còn hiệu lực"]
   n_11_2017_TT_BCT["11/2017/TT-BCT<br/>hết hiệu lực"]
   n_11_2024_TT_BTTTT["11/2024/TT-BTTTT<br/>còn hiệu lực"]
   n_05_2016_TT_BTTTT["05/2016/TT-BTTTT<br/>chưa xác minh"]
@@ -171,11 +182,7 @@ flowchart LR
   n_129_2024_N__CP["129/2024/NĐ-CP<br/>còn hiệu lực"]
   n_91_2016_N__CP["91/2016/NĐ-CP<br/>còn hiệu lực"]
   n_155_2018_N__CP["155/2018/NĐ-CP<br/>còn hiệu lực"]
-  n_14_2024_TT_BNNPTNT["14/2024/TT-BNNPTNT<br/>còn hiệu lực"]
   n_30_2014_TT_BNNPTNT["30/2014/TT-BNNPTNT<br/>hết hiệu lực"]
-  n_15_2021_TT_BNNPTNT["15/2021/TT-BNNPTNT<br/>còn hiệu lực"]
-  n_05_2015_TT_BNNPTNT["05/2015/TT-BNNPTNT<br/>còn hiệu lực"]
-  n_33_2014_TT_BNNPTNT["33/2014/TT-BNNPTNT<br/>còn hiệu lực"]
   n_15_2024_TT_BYT["15/2024/TT-BYT<br/>còn hiệu lực"]
   n_28_2021_TT_BYT["28/2021/TT-BYT<br/>hết hiệu lực"]
   n_15_2026_NQ_CP["15/2026/NQ-CP<br/>còn hiệu lực"]
@@ -195,7 +202,6 @@ flowchart LR
   n_19_2024_TT_BYT["19/2024/TT-BYT<br/>còn hiệu lực"]
   n_14_2018_TT_BYT["14/2018/TT-BYT<br/>hết hiệu lực"]
   n_19_VBHN_BNNPTNT["19/VBHN-BNNPTNT<br/>còn hiệu lực"]
-  n_06_VBHN_BNNPTNT["06/VBHN-BNNPTNT<br/>hết hiệu lực"]
   n_16_2015_TT_BTTTT["16/2015/TT-BTTTT<br/>còn hiệu lực"]
   n_24_2026_TT_BYT["24/2026/TT-BYT<br/>còn hiệu lực"]
   n_05_2022_TT_BYT["05/2022/TT-BYT<br/>còn hiệu lực"]
@@ -254,9 +260,6 @@ flowchart LR
   n_23_2000_QH10["23/2000/QH10<br/>hết hiệu lực"]
   n_6266_Q__BCA["6266/QĐ-BCA<br/>chưa xác minh"]
   n_91_2026_VBHN_TT_BNNMT["91/2026/VBHN-TT-BNNMT<br/>chưa xác minh"]
-  n_96_2023_N__CP["96/2023/NĐ-CP<br/>còn hiệu lực"]
-  n_98_2021_N__CP["98/2021/NĐ-CP<br/>còn hiệu lực"]
-  n_07_2023_N__CP["07/2023/NĐ-CP<br/>còn hiệu lực"]
   n_99_2026_VBHN_TT_BNNMT["99/2026/VBHN-TT-BNNMT<br/>còn hiệu lực"]
   n_20_2021_TT_BNNPTNT["20/2021/TT-BNNPTNT<br/>còn hiệu lực"]
   n_01_2021_TT_BL_TBXH -->|thay thế từ 2021-07-18| n_22_2018_TT_BL_TBXH
@@ -266,6 +269,13 @@ flowchart LR
   n_05_2007_QH12 -->|sửa đổi| n_78_2025_QH15
   n_06_2019_N__CP -->|thay thế từ 2019-03-26| n_32_2006_N__CP
   n_06_2019_N__CP -->|bãi bỏ các quy định về quản lý gỗ, thực vật rừng từ 2019-03-26| n_27_2018_TT_BNNPTNT
+  n_06_VBHN_BNNPTNT -->|hợp nhất| n_33_2014_TT_BNNPTNT
+  n_06_VBHN_BNNPTNT -->|hợp nhất| n_34_2018_TT_BNNPTNT
+  n_06_VBHN_BNNPTNT -->|hợp nhất| n_15_2021_TT_BNNPTNT
+  n_07_2026_TT_BNNMT -->|sửa đổi Điều 22 sửa đổi, bổ sung một số điều của Thông tư 05/2015/TT-BNNPTNT (đã được sửa đổi, bổ sung bởi Thông tư 15/2021/TT-BNNPTNT và Thông tư 33/2014/TT-BNNPTNT) từ 2026-01-23| n_05_2015_TT_BNNPTNT
+  n_08_2026_VBHN_BYT -->|hợp nhất| n_98_2021_N__CP
+  n_08_2026_VBHN_BYT -->|hợp nhất| n_07_2023_N__CP
+  n_08_2026_VBHN_BYT -->|hợp nhất| n_96_2023_N__CP
   n_09_2015_TT_BYT -->|sửa đổi Bãi bỏ các quy định về quảng cáo mỹ phẩm trong Thông tư số 06/2011/TT-BYT ngày 25/01/2011 từ 2015-07-16| n_06_2011_TT_BYT
   n_09_2024_TT_BYT -->|bãi bỏ từ 2024-07-26| n_06_2018_TT_BYT
   n_09_2024_TT_BYT -->|bãi bỏ từ 2024-07-26| n_48_2018_TT_BYT
@@ -276,6 +286,7 @@ flowchart LR
   n_105_2016_QH13 -->|sửa đổi Một số điều liên quan đến quy hoạch từ 2019-01-01| n_28_2018_QH14
   n_105_2016_QH13 -->|sửa đổi Sửa đổi, bổ sung một số điều Luật Dược (Điều 2, 11, 13, 29, 34, 38, 41, 54, 60, 69...) từ 2025-07-01| n_44_2024_QH15
   n_105_2016_QH13 -->|hợp nhất Văn bản hợp nhất toàn bộ Luật 105/2016, 28/2018, 44/2024 từ 2026-03-01| n_76_VBHN_VPQH
+  n_109_2026_VBHN_TT_BNNMT -->|hợp nhất| n_14_2024_TT_BNNPTNT
   n_11_2017_TT_BCT -->|bãi bỏ Bãi bỏ toàn bộ từ 2018-06-15| n_12_2018_TT_BCT
   n_11_2024_TT_BTTTT -->|sửa đổi Khoản 2 Điều 4; khoản 2 Điều 5; điểm a khoản 1, khoản 2 và khoản 3 Điều 6; khoản 3 Điều 8; thay thế Mẫu số 01 và Mẫu số 02 bằng Phụ lục 01 và Phụ lục 02 từ 2024-11-07| n_05_2016_TT_BTTTT
   n_11_2024_TT_BTTTT -->|sửa đổi Khoản 2, điểm a và điểm b khoản 3 Mục I và Mục II Phụ lục I; khoản 2, khoản 3, điểm a khoản 4 Mục I Phụ lục II; thay thế Phụ lục II của Phụ lục I bằng Phụ lục 03 kèm theo TT 11/2024/TT-BTTTT từ 2024-11-07| n_22_2018_TT_BTTTT
@@ -325,7 +336,7 @@ flowchart LR
   n_28_2026_TT_BCT -->|bãi bỏ Khoản 1 Điều 2 và Phụ lục 2 (danh mục ATTP) từ 2026-07-17| n_1182_Q__BCT
   n_29_2020_TT_BYT -->|sửa đổi Sửa đổi, bổ sung khoản 4 Điều 4 (miễn CFS cho nước thành viên CPTPP và ASEAN, hợp pháp hóa lãnh sự/tra cứu điện tử CFS đối với mỹ phẩm nhập khẩu), Phụ lục số 01-MP và Điều 33 (hồ sơ, thủ tục cấp CFS đối với mỹ phẩm sản xuất trong nước để xuất khẩu theo Điều 11 Nghị định 69/2018/NĐ-CP) từ 2021-02-15| n_06_2011_TT_BYT
   n_29_2025_TT_BKHCN -->|thay thế từ 2025-12-31| n_02_2024_TT_BTTTT
-  n_32_2026_TT_BYT -->|thay thế các quy định về đăng ký lưu hành thuốc, nguyên liệu làm thuốc từ 2026-10-01| n_12_2025_TT_BYT
+  n_32_2026_TT_BYT -->|thay thế toàn bộ Thông tư 12/2025/TT-BYT quy định việc đăng ký lưu hành thuốc, nguyên liệu làm thuốc từ 2026-10-01| n_12_2025_TT_BYT
   n_33_2024_N__CP -->|sửa đổi bổ sung trường hợp ngoại trừ đối với một số hóa chất thuộc Danh mục hóa chất hạn chế sản xuất, kinh doanh trong lĩnh vực công nghiệp tại Phụ lục II (STT 55 Asen và hợp chất của asen: ngoại trừ Arsenic trichloride mã HS 2812.10, CAS 7784-34-1; STT 79 Xyanua và hợp chất xyanua: ngoại trừ Cyanogen chloride mã HS 2853.10, CAS 506-77-4 và Hydrogen cyanide mã HS 2811.12, CAS 74-90-8) từ 2024-05-19| n_82_2022_N__CP
   n_33_2024_N__CP -->|bãi bỏ bãi bỏ một số hóa chất thuộc Danh mục hóa chất sản xuất, kinh doanh có điều kiện tại Phụ lục I (STT 263, 333, 489, 618, 720) và Danh mục hóa chất phải khai báo tại Phụ lục V (STT 137, 198, 242, 291, 374, 527, 677, 795, 922, 974, 987, 989, 990) được sửa đổi, bổ sung bởi NĐ 82/2022/NĐ-CP từ 2024-05-19| n_113_2017_N__CP
   n_33_2024_N__CP -->|bãi bỏ bãi bỏ một số hóa chất thuộc Phụ lục I và Phụ lục V NĐ 113/2017/NĐ-CP được sửa đổi, bổ sung bởi NĐ 82/2022/NĐ-CP từ 2024-05-19| n_82_2022_N__CP

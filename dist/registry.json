@@ -1011,6 +1011,14 @@
       "quan_he_nguoc": {
         "bi_sua_doi_boi": [
           {
+            "tu": "07/2026/TT-BNNMT",
+            "quan_he": "sua_doi",
+            "so_hieu": "05/2015/TT-BNNPTNT",
+            "pham_vi": "Điều 22 sửa đổi, bổ sung một số điều của Thông tư 05/2015/TT-BNNPTNT (đã được sửa đổi, bổ sung bởi Thông tư 15/2021/TT-BNNPTNT và Thông tư 33/2014/TT-BNNPTNT)",
+            "tu_ngay": "2026-01-23",
+            "can_cu": "Điều 22 và khoản 1 Điều 23 Thông tư 07/2026/TT-BNNMT"
+          },
+          {
             "tu": "15/2021/TT-BNNPTNT",
             "quan_he": "sua_doi",
             "so_hieu": "05/2015/TT-BNNPTNT",
@@ -1700,10 +1708,21 @@
       "nhanh": [
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
+      "quan_he": {
+        "hop_nhat": [
+          "33/2014/TT-BNNPTNT",
+          "34/2018/TT-BNNPTNT",
+          "15/2021/TT-BNNPTNT"
+        ]
+      },
       "nguon": [
         {
-          "url": "https://vbpl.vn/en/van-ban/chi-tiet/van-ban-hop-nhat-so-06-vbhn-bnnptnt-quy-dinh-trinh-tu-thu-tuc-kiem-dich-thuc-vat-nhap-khau-xuat-khau-qua-canh-va-sau-nhap-khau-vat-the-thuoc-dien-kiem-dich-thuc-vat--159604",
-          "truy_cap": "2026-10-28"
+          "url": "https://vbpl.vn/van-ban/chi-tiet/van-ban-hop-nhat-so-06-vbhn-bnnptnt-quy-dinh-trinh-tu-thu-tuc-kiem-dich-thuc-vat-nhap-khau-xuat-khau-qua-canh-va-sau-nhap-khau-vat-the-thuoc-dien-kiem-dich-thuc-vat--159604",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://chinhphu.vn/?pageid=27160&docid=207302",
+          "truy_cap": "2026-11-14"
         },
         {
           "url": "https://thutucxuatnhapkhau.vn/van-ban-hop-nhat-06-vbhn-bnnptnt-nam-2023",
@@ -1711,11 +1730,11 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 10-03-2023; bị VBHN 19/VBHN-BNNPTNT ngày 27-05-2024 thay (bản hợp nhất mới hơn của cùng chuỗi)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-28",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ CSDL quốc gia vbpl.vn (ItemID=159604) và chuỗi hợp nhất kế nhiệm 19/VBHN-BNNPTNT (chinhphu.vn docid=207302, ppd.gov.vn): ban hành 10-03-2023, hợp nhất Thông tư 33/2014/TT-BNNPTNT, 34/2018/TT-BNNPTNT và 15/2021/TT-BNNPTNT; hết hiệu lực từ 27-05-2024 khi Thông tư 03/2024/TT-BNNPTNT có hiệu lực và Bộ NN&PTNT ban hành bản hợp nhất mới 19/VBHN-BNNPTNT",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "slug": "06-vbhn-bnnptnt",
       "bac_nguon_cao_nhat": "A",
@@ -1900,6 +1919,13 @@
       "slug": "07-2023-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "08/2026/VBHN-BYT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "07/2023/NĐ-CP"
+          }
+        ],
         "duoc_huong_dan_boi": [
           {
             "tu": "19/2024/TT-BYT",
@@ -2012,17 +2038,32 @@
     {
       "so_hieu": "07/2026/TT-BNNMT",
       "loai": "THONG_TU",
-      "ten": "Quy định chi tiết một số điều của Luật Bảo vệ và kiểm dịch thực vật, Luật Trồng trọt và sửa đổi, bổ sung một số thông tư trong lĩnh vực trồng trọt và bảo vệ thực vật",
+      "ten": "Quy định chi tiết một số điều của Luật Bảo vệ và kiểm dịch thực vật, Luật Trồng trọt và sửa đổi, bổ sung một số điều của các thông tư trong lĩnh vực trồng trọt và bảo vệ thực vật",
       "co_quan": "BNNMT",
       "ngay_ban_hanh": "2026-01-23",
+      "hieu_luc_tu": "2026-01-23",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "05/2015/TT-BNNPTNT",
+            "pham_vi": "Điều 22 sửa đổi, bổ sung một số điều của Thông tư 05/2015/TT-BNNPTNT (đã được sửa đổi, bổ sung bởi Thông tư 15/2021/TT-BNNPTNT và Thông tư 33/2014/TT-BNNPTNT)",
+            "tu_ngay": "2026-01-23",
+            "can_cu": "Điều 22 và khoản 1 Điều 23 Thông tư 07/2026/TT-BNNMT"
+          }
+        ]
+      },
       "nguon": [
         {
-          "url": "https://chinhphu.vn/?pageid=27160&docid=216804",
-          "truy_cap": "2026-10-30"
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=216804",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/07-bnnmt.pdf",
+          "truy_cap": "2026-11-14"
         },
         {
           "url": "https://thuvienphapluat.vn/van-ban/Linh-vuc-khac/Thong-tu-07-2026-TT-BNNMT-huong-dan-Luat-Bao-ve-va-kiem-dich-thuc-vat-Luat-Trong-trot-692593.aspx",
@@ -2030,11 +2071,11 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tên nguyên văn, ngày ban hành 23-01-2026 (chinhphu.vn docid 216804). Ngày hiệu lực CHƯA đối chiếu — cần tải toàn văn (spsvietnam.gov.vn) để bọc: quan hệ sửa đổi với TT KDTV 33/2014 + hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-30",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=216804) và toàn văn PDF ký số (07-bnnmt.pdf, 24 điều, Thứ trưởng Hoàng Trung ký): ban hành 23-01-2026, có hiệu lực từ 23-01-2026 (khoản 1 Điều 23); bãi bỏ Thông tư 11/2022/TT-BNNPTNT (khoản 2 Điều 23); sửa đổi, bổ sung Thông tư 43/2018/TT-BNNPTNT (Điều 19), 21/2015/TT-BNNPTNT (Điều 20), 12/2025/TT-BNNMT (Điều 21) và 05/2015/TT-BNNPTNT (Điều 22)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trinh sát WebSearch trạm BNNMT đêm 30/10 (bổ sung đợt 29/10). Lõi KDTV — luật KDTV mới (170/2024/QH15) thay Luật BVTT 41/2013, TT này là văn bản chi tiết kèm KDTV XNK. Ưu tiên nạp toàn văn + bóc quan hệ với chuỗi VBHN 06→19→99.",
       "slug": "07-2026-tt-bnnmt",
@@ -2248,10 +2289,21 @@
       "nhanh": [
         "kiem-tra-chuyen-nganh/byt"
       ],
+      "quan_he": {
+        "hop_nhat": [
+          "98/2021/NĐ-CP",
+          "07/2023/NĐ-CP",
+          "96/2023/NĐ-CP"
+        ]
+      },
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=217131",
-          "truy_cap": "2026-11-07"
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/08-vbhn-byt.pdf",
+          "truy_cap": "2026-11-14"
         },
         {
           "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Van-ban-hop-nhat-08-VBHN-BYT-2026-Nghi-dinh-quan-ly-thiet-bi-y-te-696880.aspx",
@@ -2259,11 +2311,11 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + ngày ban hành 06-03-2026, ký Thứ trưởng Đỗ Xuân Tuyên (vanban.chinhphu.vn docid 217131 + TVPL)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-07",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=217131) và toàn văn PDF (08-vbhn-byt.pdf, 119 trang, 77 điều, Thứ trưởng Đỗ Xuân Tuyên ký): xác thực ngày 06-03-2026, đang còn hiệu lực; hợp nhất Nghị định 98/2021/NĐ-CP ngày 08-11-2021 với 5 Nghị định sửa đổi, bổ sung: 07/2023/NĐ-CP (hiệu lực 03-03-2023), 96/2023/NĐ-CP (hiệu lực 01-01-2024), 85/2024/NĐ-CP (hiệu lực 10-07-2024), 04/2025/NĐ-CP (hiệu lực 01-01-2025) và 342/2025/NĐ-CP (hiệu lực 15-02-2026)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trinh sát đêm 7/11 phát hiện thiếu hụt: VBHN hợp nhất NĐ quản lý TB-YT (98/2021 sửa 36/2016) tồn từ 06-03 mà sổ chưa nạp — nền cho phân loại thiết bị y tế nhóm 9018-9022.",
       "slug": "08-2026-vbhn-byt",
@@ -5415,15 +5467,19 @@
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220179",
-          "truy_cap": "2026-11-05"
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/108-vbhn-bnnmt.signed.pdf",
+          "truy_cap": "2026-11-14"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu + tên + ngày ban hành 02-11-2026 (vanban.chinhphu.vn)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-05",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=220179) và toàn văn PDF ký số (108-vbhn-bnnmt.signed.pdf, 16 trang, 3 chương 19 điều và Phụ lục I–V, Thứ trưởng Nguyễn Hoàng Hiệp ký): xác thực ngày 02-11-2026, đang còn hiệu lực; hợp nhất Thông tư 35/2015/TT-BNNPTNT ngày 14-10-2015 quy định về kiểm dịch thực vật nội địa (hiệu lực 30-11-2015) và Thông tư 12/2025/TT-BNNMT ngày 19-06-2025 (hiệu lực 01-07-2025)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trinh sát WebSearch trạm BNNMT đêm 5/11. Gia đình KDTV — bản nội địa, cặp với 99/2026 (hồ sơ nghiệp vụ) + 100/2026 (danh mục).",
       "slug": "108-2026-vbhn-tt-bnnmt",
@@ -5595,25 +5651,34 @@
     {
       "so_hieu": "109/2026/VBHN-TT-BNNMT",
       "loai": "VAN_BAN_HOP_NHAT",
-      "ten": "Hợp nhất Danh mục vật thể kiểm dịch thực vật và phân tích nguy cơ dịch hại",
+      "ten": "Ban hành Danh mục vật thể thuộc diện kiểm dịch thực vật; Danh mục vật thể thuộc diện kiểm dịch thực vật phải phân tích nguy cơ dịch hại trước khi nhập khẩu vào Việt Nam",
       "co_quan": "BNNMT",
       "ngay_ban_hanh": "2026-11-02",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
+      "quan_he": {
+        "hop_nhat": [
+          "14/2024/TT-BNNPTNT"
+        ]
+      },
       "nguon": [
         {
-          "url": "https://chinhphu.vn/?pageid=27160&docid=220188",
-          "truy_cap": "2026-11-07"
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220180",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/109-vbhn-bnnmt.signed.pdf",
+          "truy_cap": "2026-11-14"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + ngày ban hành 02-11-2026 (chinhphu.vn, bản tin hợp nhất KDTV 02-11)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-07",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=220180; sửa URL cũ docid=220188 vốn trỏ nhầm sang 55/2026/TT-BKHCN) và toàn văn PDF ký số (109-vbhn-bnnmt.signed.pdf, 8 trang, 6 điều, Thứ trưởng Nguyễn Hoàng Hiệp ký): xác thực ngày 02-11-2026, đang còn hiệu lực; hợp nhất Thông tư 14/2024/TT-BNNPTNT ngày 31-10-2024 (hiệu lực 15-12-2024, thay thế Thông tư 30/2014/TT-BNNPTNT) và Thông tư 12/2025/TT-BNNMT ngày 19-06-2025 (hiệu lực 01-07-2025)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trinh sát đêm 7/11. Bộ 4 VBHN KDTV 108–111 ngày 02-11-2026; sổ đã có 108 + 111, đêm nay bổ sung 109 + 110 cho đủ họ.",
       "slug": "109-2026-vbhn-tt-bnnmt",
@@ -6566,14 +6631,23 @@
       "ten": "Quy định về truy xuất nguồn gốc thực phẩm thuộc phạm vi quản lý của Bộ Công Thương",
       "co_quan": "BCT",
       "ngay_ban_hanh": "2026-02-27",
-      "tinh_trang": "CON_HIEU_LUC",
+      "hieu_luc_tu": "2026-04-16",
+      "tinh_trang": "TAM_NGUNG_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh"
       ],
       "nguon": [
         {
-          "url": "https://chinhphu.vn/?pageid=27160&docid=217126",
-          "truy_cap": "2026-11-02"
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=217126",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/11-bct.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/10/qd_2468-tam-ngung-hieu-luc-tt11.signed.pdf",
+          "truy_cap": "2026-11-14"
         },
         {
           "url": "https://vasep.com.vn/van-ban/cac-bo-khac/bo-cong-thuong/thong-tu-11-2026-tt-bct-quy-dinh-ve-truy-xuat-nguon-goc-thuc-pham-thuoc-pham-vi-quan-ly-cua-bo-cong-thuong-3519.html",
@@ -6581,11 +6655,11 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tên nguyên văn, ngày ban hành 27-02-2026 (chinhphu.vn docid 217126 + VASEP). Hiệu lực chưa đối chiếu — cần toàn văn",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-02",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=217126), toàn văn PDF Thông tư 11/2026/TT-BCT (11-bct.pdf, 22 điều và Phụ lục 1, 2, Thứ trưởng Trương Thanh Hoài ký) và PDF Quyết định 2468/QĐ-BCT đính kèm (qd_2468-tam-ngung-hieu-luc-tt11.signed.pdf): ban hành 27-02-2026, hiệu lực gốc từ 16-04-2026 (khoản 1 Điều 22, lộ trình bắt buộc tại Điều 15); hiện đang tạm ngưng hiệu lực thi hành từ 01-10-2026 theo Quyết định 2468/QĐ-BCT ngày 30-09-2026 (thay thế Quyết định 1611/QĐ-BCT ngày 01-07-2026) cho đến khi Thông tư thay thế có hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trinh sát WebSearch trạm BCT đêm 2/11. Bổ sung cho TT 28/2026/TT-BCT (danh mục ATTP đã có) — truy xuất nguồn gốc là nghĩa vụ kèm theo khi NK thực phẩm BCT.",
       "slug": "11-2026-tt-bct",
@@ -6683,25 +6757,29 @@
     {
       "so_hieu": "110/2026/VBHN-TT-BNNMT",
       "loai": "VAN_BAN_HOP_NHAT",
-      "ten": "Hợp nhất quy định về quy trình phân tích nguy cơ dịch hại đối với vật thể thuộc diện kiểm dịch thực vật",
+      "ten": "Ban hành quy định về quy trình phân tích nguy cơ dịch hại đối với vật thể thuộc diện kiểm dịch thực vật phải phân tích nguy cơ trước khi nhập khẩu vào Việt Nam",
       "co_quan": "BNNMT",
-      "ngay_ban_hanh": "2026-11-02",
+      "ngay_ban_hanh": "2026-11-03",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
       "nguon": [
         {
-          "url": "https://chinhphu.vn/?pageid=27160&docid=220189",
-          "truy_cap": "2026-11-07"
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220189",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/110-vbhn-bnnmt.signed.pdf",
+          "truy_cap": "2026-11-14"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + ngày ban hành 02-11-2026 (chinhphu.vn docid 220189)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-07",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=220189) và toàn văn PDF ký số (110-vbhn-bnnmt.signed.pdf, 27 trang, 3 chương 12 điều và Phụ lục I–VII, Thứ trưởng Nguyễn Hoàng Hiệp ký): xác thực ngày 03-11-2026 (hiệu đính ngày ban hành từ 02-11-2026 theo đúng thẻ và PDF ký số), đang còn hiệu lực; hợp nhất Thông tư 36/2014/TT-BNNPTNT ngày 31-10-2014 (hiệu lực 01-01-2015) và Thông tư 12/2025/TT-BNNMT ngày 19-06-2025 (hiệu lực 01-07-2025)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trinh sát đêm 7/11. Quy trình PRA — cổng quyết định có cho nhập nhóm thực vật chưa có trong danh mục. Đủ họ với 109.",
       "slug": "110-2026-vbhn-tt-bnnmt",
@@ -10089,7 +10167,7 @@
       "nguon": [
         {
           "url": "https://moit.gov.vn/van-ban-phap-luat/van-ban-phap-quy/-thong-tu-quy-dinh-quy-tac-xuat-xu-hang-hoa-trong-hiep-dinh-3.html",
-          "truy_cap": "2026-10-21"
+          "truy_cap": "2026-11-14"
         },
         {
           "url": "https://luatvietnam.vn/thuong-mai/thong-tu-12-2019-tt-bct-quy-tac-xuat-xu-hang-hoa-trong-hiep-dinh-hop-tac-giua-asean-va-trung-quoc-175969-d1.html",
@@ -10097,11 +10175,11 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "trang văn bản pháp quy của Bộ Công Thương (bộ ban hành) + thẻ LuatVietnam: ban hành 30-07-2019, hiệu lực 12-09-2019; thẻ vanban.chinhphu.vn CHƯA tìm ra docid — nâng NGUON_A khi có",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-21",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu trực tiếp cổng văn bản pháp quy Bộ Công Thương (moit.gov.vn): số hiệu 12/2019/TT-BCT, Bộ trưởng Trần Tuấn Anh ký ban hành ngày 30-07-2019, có hiệu lực từ 12-09-2019 (Điều 34), trạng thái Đã có hiệu lực (4 chương, 34 điều, 4 phụ lục; được sửa đổi, bổ sung một phần bởi Thông tư 10/2022/TT-BCT từ 16-07-2022)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "BỘ QUY TẮC XUẤT XỨ ACFTA (C/O form E) ĐANG ÁP DỤNG HÔM NAY: 4 chương 34 điều + 4 phụ lục (Phụ lục I = quy tắc cụ thể theo mặt hàng). Sửa đổi bởi TT 10/2022/TT-BCT (chưa nạp — điểm mù). LƯU Ý PHÂN BIỆT: TT 49/2025/TT-BCT là AKFTA (Hàn Quốc), KHÔNG phải ACFTA.",
       "tu_khoa": [
@@ -10222,8 +10300,9 @@
             "tu": "32/2026/TT-BYT",
             "quan_he": "thay_the",
             "so_hieu": "12/2025/TT-BYT",
-            "pham_vi": "các quy định về đăng ký lưu hành thuốc, nguyên liệu làm thuốc",
-            "tu_ngay": "2026-10-01"
+            "pham_vi": "toàn bộ Thông tư 12/2025/TT-BYT quy định việc đăng ký lưu hành thuốc, nguyên liệu làm thuốc",
+            "tu_ngay": "2026-10-01",
+            "can_cu": "Điểm a khoản 2 Điều 52 Thông tư 32/2026/TT-BYT"
           }
         ]
       }
@@ -14909,7 +14988,15 @@
       },
       "slug": "14-2024-tt-bnnptnt",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "109/2026/VBHN-TT-BNNMT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "14/2024/TT-BNNPTNT"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "14/TB-TCHQ/2021",
@@ -16363,6 +16450,11 @@
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {
         "duoc_hop_nhat_boi": [
+          {
+            "tu": "06/VBHN-BNNPTNT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "15/2021/TT-BNNPTNT"
+          },
           {
             "tu": "19/VBHN-BNNPTNT",
             "quan_he": "hop_nhat",
@@ -24496,7 +24588,7 @@
     {
       "so_hieu": "19/2026/TT-BCT",
       "loai": "THONG_TU",
-      "ten": "Quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước",
+      "ten": "Quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước, trích lập Quỹ bình ổn giá xăng dầu và hoàn trả tạm ứng ngân sách nhà nước",
       "co_quan": "BCT",
       "ngay_ban_hanh": "2026-04-03",
       "tinh_trang": "CON_HIEU_LUC",
@@ -24506,15 +24598,19 @@
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220090",
-          "truy_cap": "2026-10-30"
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/10/67-bct.signed.pdf",
+          "truy_cap": "2026-11-14"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 03-04-2026 (dẫn trong tiêu đề TT 67/2026); bị sửa bởi TT 67/2026/TT-BCT từ 20-10-2026 — hiệu lực gốc chưa đối chiếu",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-30",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=220090), toàn văn PDF ký số Thông tư 67/2026/TT-BCT (67-bct.signed.pdf) và hồ sơ hợp nhất 135/2026/VBHN-TT-BCT trong sổ: Thông tư 19/2026/TT-BCT ban hành ngày 03-04-2026 đang còn hiệu lực, được sửa đổi, bổ sung một số điều (Điều 5, 7, 8, khoản 3 Điều 9, Điều 11, khoản 6 Điều 12, khoản 2 Điều 14, Phụ lục I, II) bởi Thông tư 67/2026/TT-BCT từ 20-10-2026 và hợp nhất tại 135/2026/VBHN-TT-BCT ngày 30-10-2026",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nền của TT 67/2026 (#278) — gia đình xăng dầu #240. Hợp nhất tại VBHN 135/2026/VBHN-TT-BCT (đã có).",
       "slug": "19-2026-tt-bct",
@@ -46033,15 +46129,16 @@
         "thay_the": [
           {
             "so_hieu": "12/2025/TT-BYT",
-            "pham_vi": "các quy định về đăng ký lưu hành thuốc, nguyên liệu làm thuốc",
-            "tu_ngay": "2026-10-01"
+            "pham_vi": "toàn bộ Thông tư 12/2025/TT-BYT quy định việc đăng ký lưu hành thuốc, nguyên liệu làm thuốc",
+            "tu_ngay": "2026-10-01",
+            "can_cu": "Điểm a khoản 2 Điều 52 Thông tư 32/2026/TT-BYT"
           }
         ]
       },
       "nguon": [
         {
           "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-32-2026-tt-byt-quy-dinh-viec-dang-ky-luu-hanh-thuoc-nguyen-lieu-lam-thuoc--b3c8a3e0-9945-11f1-9dcb-2dbe29d2ab4a",
-          "truy_cap": "2026-10-29"
+          "truy_cap": "2026-11-14"
         },
         {
           "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-32-2026-TT-BYT-dang-ky-luu-hanh-thuoc-nguyen-lieu-lam-thuoc-717455.aspx",
@@ -46049,11 +46146,11 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 29-07-2026, hiệu lực 01-10-2026 (vbpl + TVPL); thay quy định đăng ký lưu hành của TT 12/2025/TT-BYT — phạm vi bãi cụ thể chưa đối chiếu",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-29",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu toàn văn trên CSDL quốc gia vbpl.vn (56 điều và Phụ lục I–V, Thứ trưởng Nguyễn Tri Thức ký): ban hành 29-07-2026, có hiệu lực từ 01-10-2026 (khoản 1 Điều 52); khoản 2 Điều 52 bãi bỏ toàn bộ Thông tư 12/2025/TT-BYT (điểm a), tiết 1 điểm a khoản 1 Điều 16 và tiết 2 điểm c khoản 3 Điều 29 Thông tư 01/2018/TT-BYT (điểm b), khoản 8 và khoản 10 Điều 1 Thông tư 23/2023/TT-BYT (điểm c)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trinh thám 29/10 — thuốc là nhóm KB thuế 30 (3004...) hay hỏi; TT 12/2025 chưa có trong sổ (nạp khi cần truy vết chuỗi).",
       "slug": "32-2026-tt-byt",
@@ -48032,6 +48129,18 @@
       "slug": "33-2014-tt-bnnptnt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "06/VBHN-BNNPTNT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "33/2014/TT-BNNPTNT"
+          },
+          {
+            "tu": "19/VBHN-BNNPTNT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "33/2014/TT-BNNPTNT"
+          }
+        ],
         "bi_sua_doi_boi": [
           {
             "tu": "15/2021/TT-BNNPTNT",
@@ -48044,13 +48153,6 @@
             "quan_he": "sua_doi",
             "so_hieu": "33/2014/TT-BNNPTNT",
             "tu_ngay": "2019-01-01"
-          }
-        ],
-        "duoc_hop_nhat_boi": [
-          {
-            "tu": "19/VBHN-BNNPTNT",
-            "quan_he": "hop_nhat",
-            "so_hieu": "33/2014/TT-BNNPTNT"
           }
         ]
       }
@@ -49718,6 +49820,11 @@
           }
         ],
         "duoc_hop_nhat_boi": [
+          {
+            "tu": "06/VBHN-BNNPTNT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "34/2018/TT-BNNPTNT"
+          },
           {
             "tu": "19/VBHN-BNNPTNT",
             "quan_he": "hop_nhat",
@@ -88047,7 +88154,15 @@
       ],
       "slug": "96-2023-nd-cp",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "08/2026/VBHN-BYT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "96/2023/NĐ-CP"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "96/TB-TCHQ/2018",
@@ -88381,6 +88496,13 @@
       "slug": "98-2021-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "08/2026/VBHN-BYT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "98/2021/NĐ-CP"
+          }
+        ],
         "duoc_huong_dan_boi": [
           {
             "tu": "19/2024/TT-BYT",

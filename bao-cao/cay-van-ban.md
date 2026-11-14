@@ -2439,7 +2439,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [68/2026/TT-BCT](../registry/van-ban/68-2026-tt-bct.yaml) — Quy định tỷ lệ hao hụt xăng dầu trong hoạt động kinh doanh xăng dầu
 - 🟢 [67/2026/TT-BCT](../registry/van-ban/67-2026-tt-bct.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 19/2026/TT-BCT ngày 03 tháng 4 năm 2026 của Bộ Công Thương quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước
 - 🟢 [51/VBHN-BCT](../registry/van-ban/51-vbhn-bct-2026.yaml) — Hợp nhất Thông tư hướng dẫn Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ quy định về sản xuất, kinh doanh xăng dầu
-- 🟢 [19/2026/TT-BCT](../registry/van-ban/19-2026-tt-bct.yaml) — Quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước
+- 🟢 [19/2026/TT-BCT](../registry/van-ban/19-2026-tt-bct.yaml) — Quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước, trích lập Quỹ bình ổn giá xăng dầu và hoàn trả tạm ứng ngân sách nhà nước
 - 🟢 [11/2026/TT-BXD](../registry/van-ban/11-2026-tt-bxd.yaml) — Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu
 - 🟢 [07/2026/TT-BCT](../registry/van-ban/07-2026-tt-bct.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 37/2013/TT-BCT ngày 30 tháng 12 năm 2013 của Bộ trưởng Bộ Công Thương quy định nhập khẩu thuốc lá điếu, xì gà
 - 🟢 [33/2024/NĐ-CP](../registry/van-ban/33-2024-nd-cp.yaml) — Quy định việc thực hiện Công ước Cấm phát triển, sản xuất, tàng trữ, sử dụng và phá hủy vũ khí hóa học
@@ -2494,7 +2494,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 - 🟢 [136/2026/VBHN-TT-BCT](../registry/van-ban/136-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư Ban hành Quy chuẩn kỹ thuật quốc gia đối với sản phẩm khăn giấy và giấy vệ sinh
 - 🟢 [138/2026/VBHN-TT-BXD](../registry/van-ban/138-2026-vbhn-tt-bxd.yaml) — Hợp nhất Thông tư Ban hành quy chuẩn kỹ thuật quốc gia về sản phẩm, hàng hóa vật liệu xây dựng
-- 🟢 [11/2026/TT-BCT](../registry/van-ban/11-2026-tt-bct.yaml) — Quy định về truy xuất nguồn gốc thực phẩm thuộc phạm vi quản lý của Bộ Công Thương
+- ⏸️ [11/2026/TT-BCT](../registry/van-ban/11-2026-tt-bct.yaml) — Quy định về truy xuất nguồn gốc thực phẩm thuộc phạm vi quản lý của Bộ Công Thương
 - 🟢 [499/2019/QĐ-BCT](../registry/van-ban/499-2019-qd-bct.yaml) — Quyết định 499/2019/QĐ-BCT sửa đổi, bổ sung một số biểu phí kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu quy định tại Quyết định số 326/2018/QĐ-BCT ngày 28/12/2018 của Bộ trưởng Bộ Công Thương về thu, nộp, quản lý và sử dụng phí kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu thuộc phạm vi trách nhiệm quản lý nhà nước của Bộ Công Thương
 - 🟢 [18/2019/QĐ-TTg](../registry/van-ban/18-2019-qd-ttg.yaml) — Quyết định 18/2019/QĐ-TTg của Thủ tướng Chính phủ quy định việc nhập khẩu máy móc, thiết bị, dây chuyền công nghệ đã qua sử dụng
 - 🟢 [326/2018/QĐ-BCT](../registry/van-ban/326-2018-qd-bct.yaml) — Quyết định 326/2018/QĐ-BCT quy định thu, nộp, quản lý và sử dụng phí kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu thuộc phạm vi trách nhiệm quản lý nhà nước của Bộ Công Thương
@@ -2533,15 +2533,15 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 31 văn bản, 28 chưa hết hiệu lực.
 
+- 🟢 [110/2026/VBHN-TT-BNNMT](../registry/van-ban/110-2026-vbhn-tt-bnnmt.yaml) — Ban hành quy định về quy trình phân tích nguy cơ dịch hại đối với vật thể thuộc diện kiểm dịch thực vật phải phân tích nguy cơ trước khi nhập khẩu vào Việt Nam
 - 🟢 [111/2026/VBHN-TT-BNNMT](../registry/van-ban/111-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư Ban hành Quy chuẩn kỹ thuật quốc gia đối với vật thể kiểm dịch thực vật nhập khẩu
 - 🟢 [108/2026/VBHN-TT-BNNMT](../registry/van-ban/108-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư quy định về kiểm dịch thực vật nội địa
-- 🟢 [109/2026/VBHN-TT-BNNMT](../registry/van-ban/109-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Danh mục vật thể kiểm dịch thực vật và phân tích nguy cơ dịch hại
-- 🟢 [110/2026/VBHN-TT-BNNMT](../registry/van-ban/110-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất quy định về quy trình phân tích nguy cơ dịch hại đối với vật thể thuộc diện kiểm dịch thực vật
+- 🟢 [109/2026/VBHN-TT-BNNMT](../registry/van-ban/109-2026-vbhn-tt-bnnmt.yaml) — Ban hành Danh mục vật thể thuộc diện kiểm dịch thực vật; Danh mục vật thể thuộc diện kiểm dịch thực vật phải phân tích nguy cơ dịch hại trước khi nhập khẩu vào Việt Nam
 - 🟢 [100/2026/VBHN-TT-BNNMT](../registry/van-ban/100-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Danh mục đối tượng kiểm dịch thực vật
 - 🟢 [99/2026/VBHN-TT-BNNMT](../registry/van-ban/99-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư quy định hồ sơ nghiệp vụ kiểm dịch thực vật
 - 🟢 [3445/QĐ-BNNMT](../registry/van-ban/3445-qd-bnnmt-2026.yaml) — Công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực quản lý nhà nước về trồng trọt và bảo vệ thực vật (có thủ tục cấp Giấy chứng nhận kiểm dịch thực vật nhập khẩu)
 - 🟢 [67/2026/VBHN-BNNMT](../registry/van-ban/67-2026-vbhn-bnnmt.yaml) — Hợp nhất Thông tư quy định về kiểm dịch động vật, sản phẩm động vật trên cạn
-- 🟢 [07/2026/TT-BNNMT](../registry/van-ban/07-2026-tt-bnnmt.yaml) — Quy định chi tiết một số điều của Luật Bảo vệ và kiểm dịch thực vật, Luật Trồng trọt và sửa đổi, bổ sung một số thông tư trong lĩnh vực trồng trọt và bảo vệ thực vật
+- 🟢 [07/2026/TT-BNNMT](../registry/van-ban/07-2026-tt-bnnmt.yaml) — Quy định chi tiết một số điều của Luật Bảo vệ và kiểm dịch thực vật, Luật Trồng trọt và sửa đổi, bổ sung một số điều của các thông tư trong lĩnh vực trồng trọt và bảo vệ thực vật
 - 🟢 [01/2026/TT-BNNMT](../registry/van-ban/01-2026-tt-bnnmt.yaml) — Quy định về kiểm dịch động vật, sản phẩm động vật trên cạn
 - 🟢 [35/2025/NĐ-CP](../registry/van-ban/35-2025-nd-cp.yaml) — Nghị định quy định chi tiết thi hành Luật Thú y
 - 🟢 [43/2024/QH15](../registry/van-ban/43-2024-qh15.yaml) — Luật Bảo vệ và kiểm dịch thực vật
