@@ -3,16 +3,22 @@ so_hieu: 384/2026/NĐ-CP
 loai: NGHI_DINH
 ten: Quy định xác định xuất xứ Việt Nam đối với hàng hóa sản xuất và lưu thông trong nước
 co_quan: CP
-tinh_trang: CHUA_XAC_MINH
+ngay_ban_hanh: '2026-10-09'
+hieu_luc_tu: '2027-01-01'
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - xuat-xu-fta/quy-tac-xuat-xu
 nguon:
-  - url: https://congbao.chinhphu.vn
-    truy_cap: '2026-10-29'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=219934
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/10/384_2026_nd-cp_09102026-signed.signed.pdf
+    truy_cap: '2026-11-14'
+  - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-384-2026-nd-cp-470799/69797.htm
+    truy_cap: '2026-11-14'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề (từ mục lục công báo qua radar 29/10) — ngày ban hành/hiệu lực chưa đối chiếu; cần nâng nguồn A sớm vì xuất xứ là mảng lõi kho'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-29'
-  boi: zcode@ozvietnam
-ghi_chu: 'Bắt bởi radar công báo 29/10 (issue #251) — xuất xứ hàng hoá trong nước, tách bạch với xuất xứ FTA. Nâng NGUON_A ngay khi có ca khách chạm.'
+  muc: NGUON_A
+  pham_vi: 'đối chiếu thẻ vanban.chinhphu.vn (docid=219934), Công báo (id=470799/69797) và toàn văn PDF ký số ngày 09-10-2026 bởi Phó Thủ tướng Thường trực Phạm Gia Túc (384_2026_nd-cp_09102026-signed.signed.pdf): Nghị định 384/2026/NĐ-CP quy định xác định xuất xứ Việt Nam đối với hàng hóa sản xuất và lưu thông trong nước (tiêu chí xuất xứ thuần túy tại Điều 5, xuất xứ không thuần túy theo chuyển đổi mã số HS hoặc hàm lượng giá trị Việt Nam VVC tại Điều 6); có hiệu lực thi hành từ ngày 01-01-2027'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Quy định xác định xuất xứ Việt Nam đối với hàng hóa sản xuất và lưu thông trong nước (ban hành 09-10-2026, có hiệu lực từ 01-01-2027) — tách bạch với xuất xứ hàng hóa xuất khẩu, nhập khẩu theo FTA.'

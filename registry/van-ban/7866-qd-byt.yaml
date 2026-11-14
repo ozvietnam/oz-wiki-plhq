@@ -1,18 +1,36 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 7866/QĐ-BYT
 loai: QUYET_DINH
-ten: Công bố danh mục thủ tục hành chính trong lĩnh vực quản lý mỹ phẩm
+ten: 'Về việc công bố thủ tục hành chính mới ban hành/được sửa đổi, bổ sung trong lĩnh vực Mỹ phẩm thuộc phạm vi chức năng quản lý của Bộ Y tế'
 co_quan: BYT
-tinh_trang: CON_HIEU_LUC
+ngay_ban_hanh: '2018-12-28'
+hieu_luc_tu: '2018-12-28'
+tinh_trang: HET_HIEU_LUC_MOT_PHAN
 nhanh:
   - kiem-tra-chuyen-nganh/byt
+quan_he:
+  huong_dan:
+    - 06/2011/TT-BYT
+    - 155/2018/NĐ-CP
 nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=99376
+    truy_cap: '2026-11-14'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=195324
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/11/155.signed.pdf
+    truy_cap: '2026-11-14'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=214428
+    truy_cap: '2026-11-14'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=216427
+    truy_cap: '2026-11-14'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=219432
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx
     truy_cap: '2026-10-22'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu + vai trò theo issue #224; năm ban hành chưa đối chiếu — điểm mù'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-22'
-  boi: zcode@ozvietnam
-ghi_chu: TTHC mỹ phẩm; bị sửa bởi QĐ 1536/QĐ-BYT (28-05-2026).
+  muc: NGUON_A
+  pham_vi: 'đối chiếu thông tin ký ban hành ngày 28-12-2018 (có hiệu lực từ ngày ký 28-12-2018) cùng toàn văn các văn bản QPPL gốc về quản lý mỹ phẩm trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=99376 cho Thông tư 06/2011/TT-BYT, docid=195324 và 155.signed.pdf cho Nghị định 155/2018/NĐ-CP ngày 12-11-2018, docid=214428 cho Thông tư 34/2025/TT-BYT, docid=216427 cho Thông tư 47/2025/TT-BYT, docid=219432 cho VBHN 18/VBHN-QĐ-BYT): công bố thủ tục hành chính mới ban hành/được sửa đổi, bổ sung trong lĩnh vực Mỹ phẩm thuộc phạm vi chức năng quản lý của Bộ Y tế (đính chính trích yếu nguyên văn chính thức, không phải văn bản danh mục hàng hóa kèm mã HS); đã được sửa đổi, bổ sung và bãi bỏ một phần nội dung TTHC bởi Quyết định 2393/QĐ-BYT ngày 22-07-2025 (HL 18-08-2025) và Quyết định 1536/QĐ-BYT ngày 28-05-2026 (HL 28-05-2026)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Công bố thủ tục hành chính mới ban hành/được sửa đổi, bổ sung trong lĩnh vực Mỹ phẩm (ban hành 28-12-2018); đã được sửa đổi, bổ sung một phần bởi QĐ 2393/QĐ-BYT (22-07-2025) và QĐ 1536/QĐ-BYT (28-05-2026).'
