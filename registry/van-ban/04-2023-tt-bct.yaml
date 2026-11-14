@@ -3,18 +3,18 @@ so_hieu: 04/2023/TT-BCT
 loai: THONG_TU
 ten: Hạn ngạch thuế quan NK thuốc lá, trứng gia cầm
 co_quan: BCT
-ngay_ban_hanh: '2023-01-01'
-hieu_luc_tu: '2023-02-20'
+ngay_ban_hanh: '2023-02-20'
+hieu_luc_tu: '2023-04-10'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/bieu-thue
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05 - không tìm thấy PDF'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
-  ghi_chu: 'Crawl từ vanban.chinhphu.vn docid=207527'
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=207527) và toàn văn PDF gốc (raw/download/datafiles.chinhphu.vn/04-2023-tt-bct.pdf, 6 Điều + Phụ lục): Thông tư 04/2023/TT-BCT ban hành 20-02-2023, có hiệu lực từ 10-04-2023 đến hết 31-12-2027 theo Điều 6; đối chiếu đang còn hiệu lực về hạn ngạch thuế quan nhập khẩu thuốc lá nguyên liệu (nhóm 24.01, 500 tấn/năm) và trứng gia cầm (nhóm 04.07) xuất xứ Liên minh Kinh tế Á - Âu giai đoạn 2023 - 2027'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Crawl từ vanban.chinhphu.vn docid=207527'
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=207527&pageid=27160
     truy_cap: '2026-10-10'

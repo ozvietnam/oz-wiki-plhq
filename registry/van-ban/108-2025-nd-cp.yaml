@@ -3,18 +3,18 @@ so_hieu: 108/2025/NĐ-CP
 loai: NGHI_DINH
 ten: Biểu thuế xuất khẩu (sửa)
 co_quan: CP
-ngay_ban_hanh: '2025-01-01'
-hieu_luc_tu: '2025-07-15'
+ngay_ban_hanh: '2025-05-19'
+hieu_luc_tu: '2025-05-19'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/bieu-thue
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
-  ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=213700) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/108-2025-nd-cp.pdf): Nghị định 108/2025/NĐ-CP ban hành 19-05-2025, có hiệu lực từ ngày ký ban hành 19-05-2025 theo khoản 1 Điều 2; đối chiếu đang còn hiệu lực, sửa đổi mức thuế suất thuế xuất khẩu đối với mặt hàng clanhke xi măng (nhóm 25.23: mã 2523.10.10 và 2523.10.90 áp dụng 5%, từ 01-01-2027 áp dụng 10%) tại Phụ lục I Nghị định 26/2023/NĐ-CP'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=213700&pageid=27160
     truy_cap: '2026-10-10'

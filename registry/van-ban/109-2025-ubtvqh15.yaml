@@ -3,18 +3,18 @@ so_hieu: 109/2025/UBTVQH15
 loai: NGHI_QUYET
 ten: Thuế bảo vệ môi trường
 co_quan: UBTVQH
-ngay_ban_hanh: '2025-01-01'
+ngay_ban_hanh: '2025-10-17'
 hieu_luc_tu: '2026-01-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/bieu-thue
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'VB từ sheet HT biểu thuế 2026.04.05'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
-  ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=215926) và toàn văn PDF gốc (raw/download/datafiles.chinhphu.vn/109-2025-ubtvqh15.pdf): Nghị quyết 109/2025/UBTVQH15 thông qua ngày 17-10-2025, có hiệu lực thi hành từ 01-01-2026 đến hết 31-12-2026 theo Điều 1 và khoản 1 Điều 2 (thay thế NQ 60/2024/UBTVQH15 theo khoản 2 Điều 2); đối chiếu đang còn hiệu lực về mức thuế bảo vệ môi trường đối với xăng, dầu, mỡ nhờn năm 2026'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=215926&pageid=27160
     truy_cap: '2026-10-10'
