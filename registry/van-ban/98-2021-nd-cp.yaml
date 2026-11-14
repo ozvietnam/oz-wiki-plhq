@@ -3,23 +3,24 @@ so_hieu: 98/2021/NĐ-CP
 loai: NGHI_DINH
 ten: Quy định về quản lý trang thiết bị y tế
 co_quan: CP
-ngay_ban_hanh: '2021-12-28'
-hieu_luc_tu: '2022-01-15'
+ngay_ban_hanh: '2021-11-08'
+hieu_luc_tu: '2022-01-01'
 tinh_trang: HET_HIEU_LUC_MOT_PHAN
 nhanh:
   - kiem-tra-chuyen-nganh/byt
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Đối chiếu nguồn bậc A và quan hệ trong sổ: Nghị định 98/2021/NĐ-CP quy định về quản lý trang thiết bị y tế, đã được sửa đổi, bổ sung một số điều từ ngày 15-03-2023 bởi Nghị định 07/2023/NĐ-CP và tiếp tục được dẫn chiếu làm căn cứ tại Thông tư 19/2024/TT-BYT, Thông tư 24/2026/TT-BYT (còn hiệu lực, hết hiệu lực một phần tại các điều khoản đã sửa đổi).'
+  pham_vi: 'Đối chiếu nguồn bậc A trên vanban.chinhphu.vn (docid=204442) và congbao.chinhphu.vn (id=34803): Nghị định 98/2021/NĐ-CP quy định về quản lý trang thiết bị y tế (ban hành 08-11-2021, hiệu lực từ 01-01-2022), đã được sửa đổi, bổ sung một số điều từ ngày 15-03-2023 bởi Nghị định 07/2023/NĐ-CP và tiếp tục được dẫn chiếu làm căn cứ tại Thông tư 19/2024/TT-BYT, Thông tư 24/2026/TT-BYT (còn hiệu lực, hết hiệu lực một phần tại các điều khoản đã sửa đổi).'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
 ghi_chu: Nghị định nền tảng quản lý trang thiết bị y tế (TT-BYT, BYT). Áp dụng cho mọi TTBYT XNK từ 2022.
 toan_van: raw/download/vanban.chinhphu.vn/98-2021-nd-cp.html
 nguon:
-  - url: https://vanban.chinhphu.vn/?docid=204068&pageid=27160
-    truy_cap: '2026-10-12'
-    ghi_chu: Thẻ metadata trên vanban.chinhphu.vn — cần verify URL chính xác
+  - url: https://vanban.chinhphu.vn/?docid=204442&pageid=27160
+    truy_cap: '2026-11-14'
+  - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-98-2021-nd-cp-34803.htm
+    truy_cap: '2026-11-14'
 quan_he:
   sua_doi:
     - so_hieu: 07/2023/NĐ-CP
