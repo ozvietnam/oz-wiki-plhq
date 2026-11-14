@@ -274,8 +274,8 @@ flowchart LR
   n_03_2024_TT_BNNPTNT -->|bãi bỏ một số quy định từ 2024-05-16| n_34_2018_TT_BNNPTNT
   n_04_2014_TT_BCT -->|bãi bỏ từ 2018-06-15| n_12_2018_TT_BCT
   n_05_2007_QH12 -->|sửa đổi| n_78_2025_QH15
-  n_06_2019_N__CP -->|thay thế từ 2019-03-26| n_32_2006_N__CP
-  n_06_2019_N__CP -->|bãi bỏ các quy định về quản lý gỗ, thực vật rừng từ 2019-03-26| n_27_2018_TT_BNNPTNT
+  n_06_2019_N__CP -->|thay thế từ 2019-03-10| n_32_2006_N__CP
+  n_06_2019_N__CP -->|bãi bỏ các quy định về quản lý gỗ, thực vật rừng từ 2019-03-10| n_27_2018_TT_BNNPTNT
   n_06_VBHN_BNNPTNT -->|hợp nhất| n_33_2014_TT_BNNPTNT
   n_06_VBHN_BNNPTNT -->|hợp nhất| n_34_2018_TT_BNNPTNT
   n_06_VBHN_BNNPTNT -->|hợp nhất| n_15_2021_TT_BNNPTNT
