@@ -1,22 +1,27 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 60/2014/NĐ-CP
 loai: NGHI_DINH
-ten: "Sửa đổi, bổ sung một số điều của Nghị định số 195/2013/NĐ-CP"
+ten: "Quy định về hoạt động in"
 co_quan: CP
+ngay_ban_hanh: '2014-06-19'
+hieu_luc_tu: '2014-11-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong
-quan_he:
-  sua_doi:
-    - so_hieu: 195/2013/NĐ-CP
 nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=174499
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2014/06/60-nd.signed.pdf
+    truy_cap: '2026-11-14'
+  - url: https://mst.gov.vn/van-ban-phap-luat/10123.htm
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/Thong-tu-11-2024-TT-BTTTT-danh-muc-hang-hoa-xuat-nhap-khau-linh-vuc-in-639655.aspx
     truy_cap: '2026-10-22'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: "sửa NĐ 195/2013 (điều kiện hoạt động in)"
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-22'
-  boi: zcode@ozvietnam
-ghi_chu: "Sửa NĐ 195/2013 (lần 1)."
+  muc: NGUON_A
+  pham_vi: "Đối chiếu thẻ vanban.chinhphu.vn (docid=174499, Thủ tướng Nguyễn Tấn Dũng ký), toàn văn PDF ký số (60-nd.signed.pdf) và cổng Bộ KH&CN (mst.gov.vn/van-ban-phap-luat/10123.htm): hiệu đính tên chính thức thành 'Quy định về hoạt động in' (bản ghi cũ ghi nhầm là sửa đổi NĐ 195/2013/NĐ-CP), ban hành ngày 19-06-2014, có hiệu lực thi hành từ ngày 01-11-2014 (thay thế Nghị định 105/2007/NĐ-CP và Nghị định 72/2011/NĐ-CP); đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Nghị định 25/2018/NĐ-CP từ 01-05-2018 và Nghị định 72/2022/NĐ-CP từ 01-01-2023)"
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: "Nghị định gốc quy định về hoạt động in (bao gồm nhập khẩu thiết bị in); được sửa đổi, bổ sung bởi NĐ 25/2018/NĐ-CP và NĐ 72/2022/NĐ-CP."
 tu_khoa: [xuat-ban, in, xuat-nhap-khau]

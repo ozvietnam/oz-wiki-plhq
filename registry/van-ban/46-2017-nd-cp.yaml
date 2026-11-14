@@ -5,23 +5,32 @@ ten: "Sửa đổi, bổ sung một số điều của Nghị định số 99/20
 co_quan: CP
 ngay_ban_hanh: "2017-04-21"
 hieu_luc_tu: "2017-06-01"
-tinh_trang: CON_HIEU_LUC
+tinh_trang: HET_HIEU_LUC_MOT_PHAN
 nhanh: [hai-quan/kiem-tra-giam-sat]
 quan_he:
   sua_doi:
-    - so_hieu: 99/2013/NĐ-CP
-      tu_ngay: "2017-06-01"
     - so_hieu: 105/2006/NĐ-CP
       tu_ngay: "2017-06-01"
     - so_hieu: 131/2013/NĐ-CP
       tu_ngay: "2017-06-01"
 nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=189520
+    truy_cap: "2026-11-14"
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2017/04/46.signed.pdf
+    truy_cap: "2026-11-14"
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=204924
+    truy_cap: "2026-11-14"
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=207842
+    truy_cap: "2026-11-14"
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=215767
+    truy_cap: "2026-11-14"
   - url: https://thuvienphapluat.vn/van-ban/So-huu-tri-tue/Nghi-dinh-46-2017-ND-CP-sua-doi-Nghi-dinh-99-2013-ND-CP-105-2006-ND-CP-131-2013-ND-CP-335262.aspx
     truy_cap: "2026-10-29"
 xac_minh:
-  muc: NGUON_B
-  pham_vi: "số hiệu, ngày ban hành 21-04-2017, hiệu lực 01-06-2017, ba văn bản bị sửa đổi"
-  hieu_luc_da_doi_chieu: false
-  ngay: "2026-10-29"
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: "Đối chiếu trên vanban.chinhphu.vn đối với ba nghị định bị sửa đổi và tình trạng hiệu lực từng phần: (1) phần sửa đổi Nghị định 105/2006/NĐ-CP đã hết hiệu lực phần bảo vệ quyền tác giả, quyền liên quan từ 26-04-2023 theo khoản 2 Điều 115 Nghị định 17/2023/NĐ-CP (docid=207842) và hết hiệu lực toàn bộ từ 30-12-2025 khi Nghị định 285/2025/NĐ-CP (docid=215767) bãi bỏ toàn bộ Nghị định 105/2006/NĐ-CP; (2) phần sửa đổi Nghị định 99/2013/NĐ-CP tiếp tục được sửa đổi, bổ sung bởi Nghị định 126/2021/NĐ-CP (docid=204924, hiệu lực 01-03-2022) và Nghị định 46/2024/NĐ-CP (docid=210183, hiệu lực 01-07-2024); (3) phần sửa đổi Nghị định 131/2013/NĐ-CP cùng mạch với Nghị định 28/2017/NĐ-CP (docid=188924, hiệu lực 05-05-2017) vẫn còn hiệu lực (lưu ý: trên cổng Chính phủ docid=189520, số ký hiệu 46/2017/NĐ-CP ngày 21-04-2017 là Nghị định quy định về điều kiện đầu tư và hoạt động trong lĩnh vực giáo dục)"
+  hieu_luc_da_doi_chieu: true
+  ngay: "2026-11-14"
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: "Hết hiệu lực một phần: phần sửa NĐ 105/2006/NĐ-CP hết hiệu lực theo NĐ 17/2023/NĐ-CP (26-04-2023) và NĐ 285/2025/NĐ-CP (30-12-2025); phần sửa NĐ 99/2013/NĐ-CP đã được sửa đổi tiếp bởi NĐ 126/2021/NĐ-CP và NĐ 46/2024/NĐ-CP."
 tu_khoa: [so-huu-tri-tue, xu-phat]

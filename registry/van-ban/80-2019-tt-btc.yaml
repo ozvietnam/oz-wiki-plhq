@@ -1,19 +1,24 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 80/2019/TT-BTC
 loai: THONG_TU
-ten: Quy định về thủ tục hải quan, quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu mua gom của người nước ngoài
+ten: "Hướng dẫn thủ tục hải quan, quản lý thuế, phí và lệ phí đối với hàng hóa xuất khẩu, nhập khẩu theo Nghị định số 14/2018/NĐ-CP ngày 23 tháng 01 năm 2018 của Chính phủ quy định chi tiết về hoạt động thương mại biên giới"
 co_quan: BTC
 ngay_ban_hanh: '2019-11-15'
+hieu_luc_tu: '2020-01-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - hai-quan/thu-tuc
 nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-80-2019-tt-btc-30090.htm
+    truy_cap: '2026-11-14'
+  - url: https://vbpl.vn/van-ban/chi-tiet/139953
+    truy_cap: '2026-11-14'
   - url: https://luatvietnam.vn/thue/thong-tu-154-2026-tt-btc-sua-doi-thong-tu-80-2019-tt-btc-ve-thu-tuc-hai-quan-452011-d1.html
     truy_cap: '2026-10-30'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 15-11-2019 (dẫn trong tiêu đề TT 154/2026); bị sửa bởi TT 154/2026/TT-BTC từ 01-01-2027 — hiệu lực gốc chưa đối chiếu'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-30'
-  boi: zcode@ozvietnam
-ghi_chu: 'Nền của TT 154/2026 (#278) — hàng mua gom thương mại biên giới.'
+  muc: NGUON_A
+  pham_vi: "Đối chiếu Công báo Chính phủ (id=30090, Công báo số 943+944 năm 2019, Thứ trưởng Bộ Tài chính Vũ Thị Mai ký) và CSDL quốc gia vbpl.vn (ItemID=139953, Điều 12): số hiệu 80/2019/TT-BTC, tiêu đề chính thức 'Hướng dẫn thủ tục hải quan, quản lý thuế, phí và lệ phí đối với hàng hóa xuất khẩu, nhập khẩu theo Nghị định số 14/2018/NĐ-CP ngày 23 tháng 01 năm 2018 của Chính phủ quy định chi tiết về hoạt động thương mại biên giới', ban hành ngày 15-11-2019, có hiệu lực thi hành từ ngày 01-01-2020 (khoản 1 Điều 12, bãi bỏ Thông tư 217/2015/TT-BTC); đang còn hiệu lực (sắp được sửa đổi, bổ sung một số điều bởi Thông tư 154/2026/TT-BTC ngày 15-10-2026 có hiệu lực từ 01-01-2027)"
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Nền của TT 154/2026 (#278) — hàng mua gom thương mại biên giới. Hướng dẫn NĐ 14/2018/NĐ-CP và bãi bỏ TT 217/2015/TT-BTC (hai văn bản này chưa có trong sổ).'

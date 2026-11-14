@@ -1,23 +1,29 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 95/2021/NĐ-CP
 loai: NGHI_DINH
-ten: Sửa đổi, bổ sung một số điều của Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ quy định về sản xuất, kinh doanh xăng dầu
+ten: "Sửa đổi, bổ sung một số điều của Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 về kinh doanh xăng dầu"
 co_quan: CP
 ngay_ban_hanh: '2021-11-01'
+hieu_luc_tu: '2022-01-02'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong/giay-phep
 quan_he:
   sua_doi:
     - so_hieu: 83/2014/NĐ-CP
+      tu_ngay: '2022-01-02'
 nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=204393
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2021/11/95.signed.pdf
+    truy_cap: '2026-11-14'
   - url: https://lsu.vn/van-ban/nghi-dinh-95-2021-nd-cp-sua-doi-bo-sung-nghi-dinh-83-2014-nd-cp-ve-kinh-doanh-xang-dau
     truy_cap: '2026-10-28'
   - url: https://sct.dongnai.gov.vn/vi/news/Quan-ly-thuong-mai/ngay-17-11-2023-chinh-phu-da-ban-hanh-nghi-dinh-so-80-2023-nd-cp-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-95-2021-nd-cp-ngay-01-11-2021-va-nghi-dinh-so-83
     truy_cap: '2026-10-28'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 01-11-2021, sửa NĐ 83/2014 (cơ chế điều hành giá, quỹ bình ổn giá); bị sửa tiếp bởi NĐ 80/2023'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-28'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: "Đối chiếu thẻ vanban.chinhphu.vn (docid=204393, Phó Thủ tướng Lê Văn Thành ký thay Thủ tướng) và toàn văn PDF ký số (95.signed.pdf): số hiệu 95/2021/NĐ-CP, tiêu đề 'Sửa đổi, bổ sung một số điều của Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 về kinh doanh xăng dầu', ban hành ngày 01-11-2021, có hiệu lực thi hành từ ngày 02-01-2022; đang còn hiệu lực (sửa đổi, bổ sung Nghị định 83/2014/NĐ-CP và tiếp tục được sửa đổi, bổ sung một số điều bởi Nghị định 80/2023/NĐ-CP từ 17-11-2023)"
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam

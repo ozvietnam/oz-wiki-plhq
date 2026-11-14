@@ -11,13 +11,17 @@ tinh_trang: CON_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong
 nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=14765
+    truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2006/07/15224_l36qh.rtf
+    truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/Thuong-mai/Luat-Thuong-mai-36-2005-QH11-5707.aspx
     truy_cap: '2026-10-22'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: "Luật Thương mại 2005 — nền quyền mua bán hàng hóa quốc tế của thương nhân VN (Điều 27, 28: mua bán hàng hóa quốc tế)"
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-22'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: "Đối chiếu thẻ vanban.chinhphu.vn (docid=14765, Chủ tịch Quốc hội Nguyễn Văn An ký) và toàn văn tệp đính kèm (15224_l36qh.rtf): số hiệu 36/2005/QH11, tiêu đề 'Luật Thương mại', được Quốc hội khóa XI thông qua ngày 14-06-2005 (thẻ Cổng Chính phủ ghi 27-06-2005 theo ngày Lệnh công bố), có hiệu lực thi hành từ ngày 01-01-2006 (Điều 323, thay thế Luật Thương mại ngày 10-05-1997); đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Luật Quản lý ngoại thương 05/2017/QH14 và Luật Phòng, chống tác hại của rượu, bia 44/2019/QH14)"
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: "Điều 27-28 là căn cứ quyền mua bán hàng quốc tế của thương nhân VN — ca giao thẳng nước thứ ba (#227)."
 tu_khoa: [giao-thang-nuoc-thu-ba, thue]
