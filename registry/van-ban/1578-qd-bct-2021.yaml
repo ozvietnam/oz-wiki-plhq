@@ -5,7 +5,8 @@ ten: Áp dụng thuế chống bán phá giá và thuế chống trợ cấp ch�
 co_quan: BCT
 ngay_ban_hanh: '2021-06-15'
 hieu_luc_tu: '2021-06-16'
-tinh_trang: CHUA_XAC_MINH
+het_hieu_luc_tu: '2026-06-16'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong/giay-phep
   - phong-ve-thuong-mai/chong-ban-pha-gia
@@ -14,7 +15,7 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực; hết hiệu lực từ 2026-06-16 do bị bãi bỏ bởi 1309/QĐ-BCT (Điều 3 khoản 1 QĐ 1309/QĐ-BCT)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam

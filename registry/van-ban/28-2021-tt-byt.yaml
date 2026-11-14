@@ -5,7 +5,8 @@ ten: Ban hành danh mục thực phẩm, phụ gia thực phẩm và dụng cụ
 co_quan: BYT
 ngay_ban_hanh: '2021-12-20'
 hieu_luc_tu: '2022-02-02'
-tinh_trang: CHUA_XAC_MINH
+het_hieu_luc_tu: '2024-11-02'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
 quan_he:
@@ -21,7 +22,7 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'số hiệu, tiêu đề, ngày ban hành/hiệu lực; hết hiệu lực từ 2024-11-02 do bị thay thế bởi 15/2024/TT-BYT (Điều 5 khoản 2 TT 15/2024/TT-BYT, Công báo số 629+630 ngày 12-04-2025)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam

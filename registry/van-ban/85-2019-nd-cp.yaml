@@ -17,9 +17,9 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, trích yếu, ngày ban hành 14-11-2019 và ngày có hiệu lực 01-01-2020 trên vanban.chinhphu.vn
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'số hiệu, trích yếu, ngày ban hành 14-11-2019 và ngày có hiệu lực 01-01-2020 trên vanban.chinhphu.vn; hết hiệu lực từ 2026-10-15 do bị thay thế bởi 336/2026/NĐ-CP (Điều 48 khoản 2 NĐ 336/2026/NĐ-CP)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: Hết hiệu lực từ 15-10-2026 do bị NĐ 336/2026 thay thế (quan hệ thay thế ghi ở sổ 336/2026/NĐ-CP); điều khoản thay thế chưa mở trong PDF ký số nên hieu_luc_da_doi_chieu giữ false. Điều 83 khoản 4 NĐ 37/2026 dẫn Điều 17 vẫn theo bài tổng hợp.
 toan_van: raw/download/datafiles.chinhphu.vn/85-2019-nd-cp.pdf

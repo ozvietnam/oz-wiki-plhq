@@ -8,10 +8,10 @@ nhanh:
   - quan-ly-ngoai-thuong/luat-khung
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, trích yếu trên nguồn A; đã nạp toàn văn
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  pham_vi: 'số hiệu, trích yếu trên nguồn A; đã nạp toàn văn; hết hiệu lực từ 2017-11-25 do bị thay thế bởi 113/2017/NĐ-CP (Điều 38 khoản 1 NĐ 113/2017/NĐ-CP)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-14'
+  boi: tho-bo-ba-01@ozvietnam
 het_hieu_luc_tu: '2017-11-25'
 ghi_chu: Bị thay bởi Điều 38 khoản 1 NĐ 113/2017/NĐ-CP; stub chưa mở toàn văn nguồn A của chính văn bản này.
 toan_van: raw/download/datafiles.chinhphu.vn/108-2008-nd-cp.doc
