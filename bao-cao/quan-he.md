@@ -188,6 +188,8 @@ flowchart LR
   n_03_2015_TT_BTTTT["03/2015/TT-BTTTT<br/>chưa xác minh"]
   n_111_2021_N__CP["111/2021/NĐ-CP<br/>hết hiệu lực"]
   n_43_2017_N__CP["43/2017/NĐ-CP<br/>hết hiệu lực"]
+  n_111_2026_VBHN_TT_BNNMT["111/2026/VBHN-TT-BNNMT<br/>còn hiệu lực"]
+  n_15_2020_TT_BNNPTNT["15/2020/TT-BNNPTNT<br/>còn hiệu lực"]
   n_113_2017_N__CP["113/2017/NĐ-CP<br/>hết hiệu lực"]
   n_108_2008_N__CP["108/2008/NĐ-CP<br/>hết hiệu lực"]
   n_26_2011_N__CP["26/2011/NĐ-CP<br/>hết hiệu lực"]
@@ -196,11 +198,16 @@ flowchart LR
   n_129_2024_N__CP["129/2024/NĐ-CP<br/>còn hiệu lực"]
   n_91_2016_N__CP["91/2016/NĐ-CP<br/>còn hiệu lực"]
   n_30_2014_TT_BNNPTNT["30/2014/TT-BNNPTNT<br/>hết hiệu lực"]
+  n_146_2025_QH15["146/2025/QH15<br/>còn hiệu lực"]
+  n_41_2013_QH13["41/2013/QH13<br/>hết hiệu lực"]
+  n_79_2015_QH13["79/2015/QH13<br/>còn hiệu lực"]
   n_15_2018_TT_BTTTT["15/2018/TT-BTTTT<br/>hết hiệu lực"]
   n_30_2011_TT_BTTTT["30/2011/TT-BTTTT<br/>hết hiệu lực"]
   n_15_2024_TT_BYT["15/2024/TT-BYT<br/>còn hiệu lực"]
   n_28_2021_TT_BYT["28/2021/TT-BYT<br/>hết hiệu lực"]
   n_15_2026_NQ_CP["15/2026/NQ-CP<br/>còn hiệu lực"]
+  n_1536_Q__BYT["1536/QĐ-BYT<br/>còn hiệu lực"]
+  n_7866_Q__BYT["7866/QĐ-BYT<br/>còn hiệu lực"]
   n_15_2018_N__CP["15/2018/NĐ-CP<br/>còn hiệu lực"]
   n_16_2024_TT_BYT["16/2024/TT-BYT<br/>còn hiệu lực"]
   n_09_2018_TT_BYT["09/2018/TT-BYT<br/>hết hiệu lực"]
@@ -218,6 +225,7 @@ flowchart LR
   n_14_2018_TT_BYT["14/2018/TT-BYT<br/>hết hiệu lực"]
   n_19_VBHN_BNNPTNT["19/VBHN-BNNPTNT<br/>còn hiệu lực"]
   n_16_2015_TT_BTTTT["16/2015/TT-BTTTT<br/>hết hiệu lực"]
+  n_2393_Q__BYT["2393/QĐ-BYT<br/>còn hiệu lực"]
   n_24_2026_TT_BYT["24/2026/TT-BYT<br/>còn hiệu lực"]
   n_05_2022_TT_BYT["05/2022/TT-BYT<br/>còn hiệu lực"]
   n_59_2025_TT_BYT["59/2025/TT-BYT<br/>hết hiệu lực"]
@@ -255,8 +263,6 @@ flowchart LR
   n_41_2026_TT_BXD["41/2026/TT-BXD<br/>còn hiệu lực"]
   n_10_2024_TT_BXD["10/2024/TT-BXD<br/>hết hiệu lực"]
   n_43_2024_QH15["43/2024/QH15<br/>còn hiệu lực"]
-  n_41_2013_QH13["41/2013/QH13<br/>hết hiệu lực"]
-  n_146_2025_QH15["146/2025/QH15<br/>chưa xác minh"]
   n_44_2026_TT_BNNMT["44/2026/TT-BNNMT<br/>còn hiệu lực"]
   n_27_2026_TT_BNNMT["27/2026/TT-BNNMT<br/>còn hiệu lực"]
   n_4814_Q__BCA["4814/QĐ-BCA<br/>chưa xác minh"]
@@ -312,17 +318,21 @@ flowchart LR
   n_11_2024_TT_BTTTT -->|bãi bỏ Điều 3; các điểm h, i, k và m khoản 1 Điều 6; cụm từ "góc dưới bên phải" tại điểm a khoản 1 Điều 7; điểm c khoản 1 Điều 7 từ 2024-11-07| n_05_2016_TT_BTTTT
   n_11_2024_TT_BTTTT -->|bãi bỏ Một số sản phẩm thuộc nhóm 2.1.2 (số thứ tự 01, 02, 03, 04, 05, 12, 13) tại Phụ lục số 02 (đã được sửa đổi, bổ sung bởi TT 20/2021/TT-BTTTT) từ 2024-11-07| n_09_2013_TT_BTTTT
   n_111_2021_N__CP -->|sửa đổi| n_43_2017_N__CP
+  n_111_2026_VBHN_TT_BNNMT -->|hợp nhất| n_15_2020_TT_BNNPTNT
   n_113_2017_N__CP -->|thay thế từ 2017-11-25| n_108_2008_N__CP
   n_113_2017_N__CP -->|thay thế từ 2017-11-25| n_26_2011_N__CP
   n_12_2022_TT_BGTVT -->|thay thế toàn bộ từ 2022-08-15| n_41_2018_TT_BGTVT
   n_129_2024_N__CP -->|sửa đổi| n_91_2016_N__CP
   n_129_2024_N__CP -->|sửa đổi| n_155_2018_N__CP
   n_14_2024_TT_BNNPTNT -->|thay thế từ 2024-12-15| n_30_2014_TT_BNNPTNT
+  n_146_2025_QH15 -->|sửa đổi| n_41_2013_QH13
+  n_146_2025_QH15 -->|sửa đổi| n_79_2015_QH13
   n_15_2018_TT_BTTTT -->|sửa đổi từ 2019-01-01| n_30_2011_TT_BTTTT
   n_15_2021_TT_BNNPTNT -->|sửa đổi từ 2022-01-21| n_05_2015_TT_BNNPTNT
   n_15_2021_TT_BNNPTNT -->|sửa đổi từ 2022-01-21| n_33_2014_TT_BNNPTNT
   n_15_2024_TT_BYT -->|thay thế từ 2024-11-02| n_28_2021_TT_BYT
   n_15_2026_NQ_CP -->|tạm ngưng| n_46_2026_N__CP
+  n_1536_Q__BYT -->|sửa đổi từ 2026-05-28| n_7866_Q__BYT
   n_155_2018_N__CP -->|sửa đổi| n_15_2018_N__CP
   n_155_2018_N__CP -->|sửa đổi| n_06_2011_TT_BYT
   n_16_2024_TT_BYT -->|bãi bỏ từ 2024-11-15| n_09_2018_TT_BYT
@@ -340,6 +350,7 @@ flowchart LR
   n_19_VBHN_BNNPTNT -->|hợp nhất| n_15_2021_TT_BNNPTNT
   n_19_VBHN_BNNPTNT -->|hợp nhất| n_03_2024_TT_BNNPTNT
   n_22_2018_TT_BTTTT -->|thay thế Toàn bộ Thông tư số 16/2015/TT-BTTTT ngày 17/6/2015 quy định chi tiết thi hành Nghị định số 187/2013/NĐ-CP về xuất khẩu, nhập khẩu hàng hóa trong lĩnh vực in, phát hành xuất bản phẩm (cùng Thông tư sửa đổi, bổ sung số 41/2016/TT-BTTTT ngày 26/12/2016) từ 2019-02-12| n_16_2015_TT_BTTTT
+  n_2393_Q__BYT -->|sửa đổi từ 2025-08-18| n_7866_Q__BYT
   n_24_2026_TT_BYT -->|sửa đổi| n_05_2022_TT_BYT
   n_24_2026_TT_BYT -->|sửa đổi Điều 8 (lộ trình kiểm định) từ 2026-07-01| n_05_2022_TT_BYT
   n_24_2026_TT_BYT -->|bãi bỏ từ 2026-07-01| n_59_2025_TT_BYT
@@ -499,6 +510,9 @@ flowchart LR
   n_49_2015_TT_BCT["49/2015/TT-BCT<br/>hết hiệu lực"]
   n_13_2023_Q__TTg["13/2023/QĐ-TTg<br/>còn hiệu lực"]
   n_28_2020_Q__TTg["28/2020/QĐ-TTg<br/>hết hiệu lực"]
+  n_135_2026_VBHN_TT_BCT["135/2026/VBHN-TT-BCT<br/>còn hiệu lực"]
+  n_19_2026_TT_BCT["19/2026/TT-BCT<br/>còn hiệu lực"]
+  n_67_2026_TT_BCT["67/2026/TT-BCT<br/>còn hiệu lực"]
   n_173_2018_TT_BQP["173/2018/TT-BQP<br/>còn hiệu lực"]
   n_40_2017_TT_BQP["40/2017/TT-BQP<br/>hết hiệu lực"]
   n_187_2013_N__CP["187/2013/NĐ-CP<br/>hết hiệu lực"]
@@ -524,8 +538,6 @@ flowchart LR
   n_48_2026_TT_BCT["48/2026/TT-BCT<br/>còn hiệu lực"]
   n_51_VBHN_BCT["51/VBHN-BCT<br/>còn hiệu lực"]
   n_38_2014_TT_BCT["38/2014/TT-BCT<br/>còn hiệu lực"]
-  n_67_2026_TT_BCT["67/2026/TT-BCT<br/>còn hiệu lực"]
-  n_19_2026_TT_BCT["19/2026/TT-BCT<br/>còn hiệu lực"]
   n_80_2023_N__CP["80/2023/NĐ-CP<br/>còn hiệu lực"]
   n_83_2014_N__CP["83/2014/NĐ-CP<br/>còn hiệu lực"]
   n_95_2021_N__CP["95/2021/NĐ-CP<br/>còn hiệu lực"]
@@ -544,6 +556,8 @@ flowchart LR
   n_12_2018_TT_BCT -->|bãi bỏ từ 2018-06-15| n_11_2017_TT_BCT
   n_12_2018_TT_BCT -->|bãi bỏ từ 2018-06-15| n_49_2015_TT_BCT
   n_13_2023_Q__TTg -->|thay thế từ 2023-06-01| n_28_2020_Q__TTg
+  n_135_2026_VBHN_TT_BCT -->|hợp nhất| n_19_2026_TT_BCT
+  n_135_2026_VBHN_TT_BCT -->|hợp nhất| n_67_2026_TT_BCT
   n_173_2018_TT_BQP -->|thay thế từ 2019-01-01| n_40_2017_TT_BQP
   n_187_2013_N__CP -->|bãi bỏ từ 2018-06-15| n_09_2018_N__CP
   n_25_2018_N__CP -->|sửa đổi từ 2018-05-01| n_60_2014_N__CP

@@ -888,29 +888,38 @@
     {
       "so_hieu": "04/2026/TT-BKHCN",
       "loai": "THONG_TU",
-      "ten": "Sửa đổi, bổ sung, bãi bỏ một số điều của các văn bản quy phạm pháp luật của Bộ trưởng Bộ Khoa học và Công nghệ trong lĩnh vực tiêu chuẩn, đo lường, chất lượng",
+      "ten": "Sửa đổi, bổ sung, bãi bỏ một số điều của các văn bản quy phạm pháp luật của Bộ trưởng Bộ Khoa học và Công nghệ ban hành trong lĩnh vực tiêu chuẩn đo lường chất lượng",
       "co_quan": "BKHCN",
       "ngay_ban_hanh": "2026-02-27",
+      "hieu_luc_tu": "2026-04-15",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bkhcn"
       ],
       "nguon": [
         {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=217125",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/04-bkhcn.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://tcvn.gov.vn/sua-doi-bo-sung-bai-bo-mot-so-dieu-cua-cac-van-ban-quy-pham-phap-luat-cua-bo-truong-bo-khoa-hoc-va-cong-nghe-ban-hanh-trong-linh-vuc-tieu-chuan-do-luong-chat-luong/09/03/2026",
           "truy_cap": "2026-11-10"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + ngày ban hành 27-02-2026 (TCVN công bố); sửa/bãi bỏ VB họ tiêu chuẩn-đo lường-chất lượng",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-10",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=217125) và toàn văn PDF sao y 11 trang (04-bkhcn.pdf, Bộ trưởng Nguyễn Mạnh Hùng ký ngày 27-02-2026): Điều 1 sửa đổi khoản 1, khoản 3 Điều 4 Thông tư 22/2013/TT-BKHCN (đo lường trong kinh doanh vàng); Điều 2 sửa đổi điểm b mục 3.4.2 QCVN 19:2019/BKHCN kèm Thông tư 08/2019/TT-BKHCN (sản phẩm chiếu sáng LED); Điều 3 sửa đổi mục 4.4.3 QCVN 03:2019/BKHCN kèm Thông tư 09/2019/TT-BKHCN (an toàn đồ chơi trẻ em); Điều 4 sửa đổi khoản 1 Điều 4 Thông tư 23/2013/TT-BKHCN (đã sửa bởi 07/2019/TT-BKHCN và 03/2024/TT-BKHCN) ban hành bảng 69 nhóm phương tiện đo nhóm 2 và chu kỳ kiểm định; Điều 5 bãi bỏ điểm 5.3 Điều 5 QCVN 25:2025/BKHCN kèm Thông tư 01/2025/TT-BKHCN; Điều 6 quy định có hiệu lực từ 15-04-2026 (riêng Điều 2 hết hiệu lực từ 01-06-2026)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Trinh sát đêm 10/11. Nền cho 14/2026/TT-BKHCN (hợp quy đã có trong sổ) — cần đối chiếu các điều bị bãi bỏ.",
+      "ghi_chu": "Sửa đổi, bổ sung, bãi bỏ một số quy định về đo lường vàng (TT 22/2013), phương tiện đo nhóm 2 (TT 23/2013), thử nghiệm hợp quy đèn LED (QCVN 19:2019) và đồ chơi trẻ em (QCVN 03:2019), thiết bị điện (QCVN 25:2025) — có hiệu lực từ 15-04-2026.",
       "slug": "04-2026-tt-bkhcn",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -3277,8 +3286,11 @@
     },
     {
       "so_hieu": "100/2026/VBHN-TT-BNNMT",
+      "so_hieu_khac": [
+        "100/VBHN-BNNMT"
+      ],
       "loai": "VAN_BAN_HOP_NHAT",
-      "ten": "Hợp nhất Danh mục đối tượng kiểm dịch thực vật",
+      "ten": "Hợp nhất Thông tư ban hành Danh mục đối tượng kiểm dịch thực vật của nước Cộng hòa xã hội chủ nghĩa Việt Nam",
       "co_quan": "BNNMT",
       "ngay_ban_hanh": "2026-10-20",
       "tinh_trang": "CON_HIEU_LUC",
@@ -3286,6 +3298,22 @@
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
       "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220053",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/10/100-vbhn-bnnmt.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=208538",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=214087",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://www.laocai.gov.vn/van-ban-sao-y/sao-y-van-ban-hop-nhat-so-100-2026-vbhn-tt-bnnmt-ngay-20-10-2026-cua-bo-truong-bo-nong-nghiep-va-1622976",
           "truy_cap": "2026-10-29"
@@ -3296,13 +3324,13 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tên, ngày ban hành 20-10-2026 (bản sao y tỉnh Lào Cai; chỉ mục mae.gov.vn). Danh mục đối tượng KDTV — trực tiếp vụ nhóm 4401 dăm gỗ và hàng gỗ NK",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-29",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=220053) và toàn văn PDF ký số ngày 20-10-2026 bởi Thứ trưởng Bộ Nông nghiệp và Môi trường Nguyễn Hoàng Hiệp (100-vbhn-bnnmt.signed.pdf): hợp nhất Thông tư 04/2023/TT-BNNPTNT ngày 15-08-2023 (HL 29-09-2023, thay thế Thông tư 35/2014/TT-BNNPTNT; docid=208538) và Thông tư 12/2025/TT-BNNMT ngày 19-06-2025 (HL 01-07-2025, Điều 29 thay thế tên cơ quan Cục Trồng trọt và Bảo vệ thực vật, Bộ Nông nghiệp và Môi trường; docid=214087); gồm 3 Điều và Danh mục 117 đối tượng kiểm dịch thực vật (Nhóm I: 112 sinh vật gây hại chưa có trên lãnh thổ Việt Nam; Nhóm II: 05 sinh vật gây hại phân bố hẹp trên lãnh thổ Việt Nam); đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Trinh sát WebSearch trạm BNNMT đêm 29/10. Danh mục đối tượng KDTV là căn cứ bắt buộc nhóm 4401 (bảng kê Mẫu 01) — cần nạp toàn văn khi nguồn chính thống mở file.",
+      "ghi_chu": "Hợp nhất Thông tư 04/2023/TT-BNNPTNT và Thông tư 12/2025/TT-BNNMT về Danh mục 117 đối tượng kiểm dịch thực vật của Việt Nam (Nhóm I: 112 đối tượng; Nhóm II: 05 đối tượng).",
       "slug": "100-2026-vbhn-tt-bnnmt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -7287,30 +7315,56 @@
     },
     {
       "so_hieu": "111/2026/VBHN-TT-BNNMT",
+      "so_hieu_khac": [
+        "111/VBHN-BNNMT"
+      ],
       "loai": "VAN_BAN_HOP_NHAT",
-      "ten": "Hợp nhất Thông tư Ban hành Quy chuẩn kỹ thuật quốc gia đối với vật thể kiểm dịch thực vật nhập khẩu",
+      "ten": "Hợp nhất Thông tư ban hành Quy chuẩn kỹ thuật quốc gia về yêu cầu đối với vật thể thuộc diện kiểm dịch thực vật nhập khẩu",
       "co_quan": "BNNMT",
       "ngay_ban_hanh": "2026-11-03",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
+      "quan_he": {
+        "hop_nhat": [
+          {
+            "so_hieu": "15/2020/TT-BNNPTNT"
+          }
+        ]
+      },
       "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220190",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/111-vbhn-bnnmt.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-15-2020-tt-bnnptnt-32849.htm",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=214087",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://luatvietnam.vn/nong-nghiep",
           "truy_cap": "2026-11-05"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + ngày ban hành 03-11-2026 (bản tin tổng hợp — cần nguồn chính thống)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-05",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=220190) và toàn văn PDF ký số ngày 03-11-2026 bởi Thứ trưởng Bộ Nông nghiệp và Môi trường Nguyễn Hoàng Hiệp (111-vbhn-bnnmt.signed.pdf): hợp nhất Thông tư 15/2020/TT-BNNPTNT ngày 25-12-2020 (HL 25-06-2021, Công báo mã 32849) ban hành QCVN 01-192:2020/BNNPTNT về yêu cầu đối với vật thể thuộc diện kiểm dịch thực vật nhập khẩu với Thông tư 12/2025/TT-BNNMT ngày 19-06-2025 (HL 01-07-2025, docid=214087) quy định phân cấp, phân định thẩm quyền quản lý nhà nước trong lĩnh vực trồng trọt và bảo vệ thực vật; đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Trinh sát đêm 5/11. QCVN vật thể KDTV NHẬP KHẨU — lõi trực tiếp hàng NK nhóm 44/06 chapters. Ưu tiên đối chiếu lên A.",
+      "ghi_chu": "Hợp nhất Thông tư 15/2020/TT-BNNPTNT (ban hành QCVN 01-192:2020/BNNPTNT đối với vật thể thuộc diện KDTV nhập khẩu) và Thông tư 12/2025/TT-BNNMT.",
       "slug": "111-2026-vbhn-tt-bnnmt",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -14620,27 +14674,53 @@
     },
     {
       "so_hieu": "135/2026/VBHN-TT-BCT",
+      "so_hieu_khac": [
+        "135/VBHN-TT-BCT"
+      ],
       "loai": "VAN_BAN_HOP_NHAT",
-      "ten": "Hợp nhất Thông tư Quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước",
+      "ten": "Hợp nhất Thông tư quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước, trích lập Quỹ bình ổn giá xăng dầu và hoàn trả tạm ứng ngân sách nhà nước",
       "co_quan": "BCT",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2026-10-21",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "quan-ly-ngoai-thuong/giay-phep"
       ],
+      "quan_he": {
+        "hop_nhat": [
+          {
+            "so_hieu": "19/2026/TT-BCT"
+          },
+          {
+            "so_hieu": "67/2026/TT-BCT"
+          }
+        ]
+      },
       "nguon": [
         {
-          "url": "https://congbao.chinhphu.vn",
-          "truy_cap": "2026-10-29"
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220071",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/10/135-vbhn-bct.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220090",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-67-2026-tt-bct-470854.htm",
+          "truy_cap": "2026-11-14"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề (mục lục công báo qua radar 29/10, đăng công báo 21-10-2026); thành phần hợp nhất + ngày ban hành chưa đối chiếu",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-29",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=220071) và toàn văn PDF ký số ngày 21-10-2026 bởi Thứ trưởng Bộ Công Thương Nguyễn Việt Sơn (135-vbhn-bct.signed.pdf, số ký hiệu 135/VBHN-TT-BCT): hợp nhất Thông tư 19/2026/TT-BCT ngày 03-04-2026 quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước, trích lập Quỹ bình ổn giá xăng dầu và hoàn trả tạm ứng ngân sách nhà nước với Thông tư 67/2026/TT-BCT ngày 20-10-2026 (HL 20-10-2026, docid=220090, Công báo mã 470854); đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Bắt bởi radar công báo (issue #251) — bổ sung gia đình xăng dầu #240. Nâng nguồn A khi có ca chạm cơ chế giá.",
+      "ghi_chu": "Hợp nhất Thông tư 19/2026/TT-BCT ngày 03-04-2026 và Thông tư 67/2026/TT-BCT ngày 20-10-2026 về Quỹ bình ổn giá xăng dầu (gia đình xăng dầu #240).",
       "slug": "135-2026-vbhn-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -16217,28 +16297,56 @@
     {
       "so_hieu": "146/2025/QH15",
       "loai": "LUAT",
-      "ten": "Luật sửa đổi 15 Luật trong lĩnh vực nông nghiệp, môi trường",
+      "ten": "Luật sửa đổi, bổ sung một số điều của 15 luật trong lĩnh vực nông nghiệp và môi trường",
       "co_quan": "QH",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2025-12-11",
+      "hieu_luc_tu": "2026-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "41/2013/QH13"
+          },
+          {
+            "so_hieu": "79/2015/QH13"
+          }
+        ]
+      },
       "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=216543",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/146-qh15-2025.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/luat-sua-doi-bo-sung-mot-so-dieu-cua-15-luat-trong-linh-vuc-nong-nghiep-va-moi-truong-so-146-2025-qh15--186269",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://dosmvn.mae.gov.vn/Pages/van-ban.aspx?ItemID=190",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://thuvienphapluat.vn/van-ban/Tai-nguyen-Moi-truong/Luat-sua-doi-15-Luat-trong-linh-vuc-Nong-nghiep-Moi-truong-2025-146-2025-QH15-675259.aspx",
           "truy_cap": "2026-10-28"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, thông qua tháng 12-2025; sửa một phần Luật 43/2024/QH15 — ngày ban hành/hiệu lực chưa đối chiếu",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-28",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=216543), toàn văn PDF ký số 80 trang (146-qh15-2025.signed.pdf, Chủ tịch Quốc hội Trần Thanh Mẫn ký thông qua ngày 11-12-2025) và CSDL Quốc gia về VBPL (vbpl.vn ItemID=186269): sửa đổi, bổ sung một số điều của 15 luật trong lĩnh vực nông nghiệp và môi trường (gồm Luật Bảo vệ môi trường, Luật Bảo vệ và kiểm dịch thực vật, Luật Chăn nuôi, Luật Đa dạng sinh học, Luật Đê điều, Luật Đo đạc và bản đồ, Luật Khí tượng thủy văn, Luật Lâm nghiệp, Luật Phòng, chống thiên tai, Luật Tài nguyên nước, Luật Tài nguyên, môi trường biển và hải đảo, Luật Thú y, Luật Thủy lợi, Luật Thủy sản, Luật Trồng trọt); Điều 16 quy định có hiệu lực từ 01-01-2026 (riêng điểm a khoản 3 Điều 10 thực hiện từ 01-01-2027); đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Nạp tối thiểu theo #237 để cạnh sửa đổi của Luật 43/2024 có đích; nâng cao hơn khi có nhu cầu.",
+      "ghi_chu": "Thông qua ngày 11-12-2025, có hiệu lực từ 01-01-2026 — sửa đổi, bổ sung 15 luật trong lĩnh vực nông nghiệp và môi trường (bao gồm Luật Bảo vệ và kiểm dịch thực vật, Luật Thú y, Luật Bảo vệ môi trường, Luật Thủy sản).",
       "slug": "146-2025-qh15",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_sua_doi_boi": [
           {
@@ -16696,7 +16804,15 @@
       "toan_van": "chua_co",
       "slug": "15-2020-tt-bnnptnt",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "111/2026/VBHN-TT-BNNMT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "15/2020/TT-BNNPTNT"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "15/2021/TT-BNNPTNT",
@@ -17300,29 +17416,54 @@
     {
       "so_hieu": "1536/QĐ-BYT",
       "loai": "QUYET_DINH",
-      "ten": "Công bố danh mục thủ tục hành chính sửa đổi trong lĩnh vực quản lý mỹ phẩm",
+      "ten": "Về việc sửa đổi, bổ sung một số nội dung tại Quyết định số 7866/QĐ-BYT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Y tế về việc công bố thủ tục hành chính mới ban hành/được sửa đổi, bổ sung trong lĩnh vực Mỹ phẩm thuộc phạm vi chức năng quản lý của Bộ Y tế",
       "co_quan": "BYT",
       "ngay_ban_hanh": "2026-05-28",
+      "hieu_luc_tu": "2026-05-28",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/byt"
       ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "7866/QĐ-BYT",
+            "tu_ngay": "2026-05-28"
+          }
+        ]
+      },
       "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=216427",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=219432",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/18-vbhn-byt.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/quyet-dinh-so-24-2006-qd-byt-ve-viec-trien-khai-ap-dung-va-huong-dan-thuc-hien-cac-nguyen-tac-tieu-chuan-thuc-hanh-tot-san-xuat-my-pham-cua-hiep-hoi-cac-nuoc-dong-nam-a--15266",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx",
           "truy_cap": "2026-10-22"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "ban hành 28-05-2026 theo issue #224 (kiểm chứng nguồn công khai 21-10)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-22",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu thông tin ký ban hành của Thứ trưởng Bộ Y tế Nguyễn Tri Thức ngày 28-05-2026 (có hiệu lực từ ngày ký 28-05-2026) cùng toàn văn các văn bản QPPL gốc về quản lý mỹ phẩm và CGMP-ASEAN trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=216427 cho Thông tư 47/2025/TT-BYT ngày 30-12-2025, docid=219432 và 18-vbhn-byt.signed.pdf cho VBHN 18/VBHN-QĐ-BYT ngày 10-09-2026) và CSDL Quốc gia về VBPL (vbpl.vn ItemID=15266 cho Quyết định 24/2006/QĐ-BYT): sửa đổi, bổ sung một số nội dung công bố thủ tục hành chính trong lĩnh vực Mỹ phẩm tại Quyết định 7866/QĐ-BYT ngày 28-12-2018 (đồng bộ việc bãi bỏ thời hạn 02 năm của GCN CGMP-ASEAN và Mẫu số 01/CGMP-MP theo khoản 2 Điều 2 Thông tư 47/2025/TT-BYT từ 15-02-2026); đính chính trích yếu nguyên văn (không phải văn bản danh mục hàng hóa kèm mã HS); đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Bản sửa TTHC mỹ phẩm mới nhất (28-05-2026).",
+      "ghi_chu": "Sửa đổi, bổ sung một số nội dung tại Quyết định 7866/QĐ-BYT ngày 28-12-2018 về công bố thủ tục hành chính trong lĩnh vực Mỹ phẩm (có hiệu lực từ 28-05-2026).",
       "slug": "1536-qd-byt-2026",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -19249,55 +19390,75 @@
     {
       "so_hieu": "165/2026/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Quy định chi tiết thi hành một số điều của Luật Phòng bệnh về kiểm dịch y tế đối với hàng hóa nhập khẩu, xuất khẩu, quá cảnh",
+      "ten": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Phòng bệnh",
       "co_quan": "CP",
+      "ngay_ban_hanh": "2026-05-15",
+      "hieu_luc_tu": "2026-07-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
       "nguon": [
         {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=218169",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/165-ndcp.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://thuvienphapluat.vn",
           "truy_cap": "2026-11-06"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên nguyên văn (bản tin tổng hợp). Ngày ban hành + hiệu lực chưa có — cần công báo",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-06",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=218169) và toàn văn PDF ký số 140 trang ngày 15-05-2026 bởi Phó Thủ tướng Phạm Thị Thanh Trà (165-ndcp.signed.pdf): quy định chi tiết và hướng dẫn thi hành một số điều của Luật Phòng bệnh (bao gồm quy định về kiểm dịch y tế biên giới đối với người, phương tiện vận tải, hàng hóa xuất khẩu, nhập khẩu, quá cảnh); Điều 94 quy định có hiệu lực thi hành từ ngày 01-07-2026 (riêng Điều 49 và khoản 3 Điều 60 có hiệu lực từ 01-07-2027; các điều 66, 67, 68 có hiệu lực từ 01-01-2028); đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Trinh sát WebSearch đêm 6/11. Kiểm dịch Y TẾ hàng XNK — cặp với KDTV động thực vật (TT 01/2026, 03/2026 TT-BNNMT đã có).",
+      "ghi_chu": "Quy định chi tiết và hướng dẫn thi hành Luật Phòng bệnh (bao gồm kiểm dịch y tế đối với hàng hóa XNK, quá cảnh) — ban hành 15-05-2026, có hiệu lực từ 01-07-2026.",
       "slug": "165-2026-nd-cp",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
       "so_hieu": "166/2026/TT-BTC",
       "loai": "THONG_TU",
-      "ten": "Bãi bỏ một số văn bản quy phạm pháp luật liên tịch lĩnh vực tài chính (bao gồm TTLT 17/2003/TTLT-BTC-BNNPTNT-BTS về kiểm tra giám sát hàng hóa XNK thuộc diện kiểm dịch động vật, thực vật, thủy sản)",
+      "ten": "Bãi bỏ một số thông tư liên tịch do Bộ trưởng Bộ Tài chính liên tịch ban hành liên quan đến lĩnh vực tài chính",
       "co_quan": "BTC",
+      "ngay_ban_hanh": "2026-11-02",
+      "hieu_luc_tu": "2026-12-20",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "hai-quan/kiem-tra-giam-sat"
       ],
       "nguon": [
         {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220191",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/166-btc.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
           "url": "https://thuvienphapluat.vn",
           "truy_cap": "2026-11-05"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + nội dung bãi 32 TTLT (kể cả TTLT 17/2003) theo bản tin tổng hợp. Ngày ban hành + hiệu lực CHƯA có — cần toàn văn gấp vì ảnh hưởng trực tiếp thủ tục kiểm dịch NK",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-05",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=220191) và toàn văn PDF ký số 05 trang ngày 02-11-2026 bởi Thứ trưởng Bộ Tài chính Tạ Anh Tuấn (166-btc.signed.pdf): Điều 1 bãi bỏ toàn bộ 32 Thông tư liên tịch giai đoạn 2003–2016 (trong đó khoản 1 bãi bỏ TTLT 17/2003/TTLT-BTC-BNNPTNT-BTS ngày 14-03-2003 hướng dẫn kiểm tra, giám sát hàng hóa XNK thuộc diện kiểm dịch động vật, thực vật, thủy sản; các khoản 23, 25, 26, 27, 28, 30, 32 bãi bỏ các TTLT 178/2015, 63/2016, 64/2016, 77/2016, 80/2016, 89/2016, 110/2016 về Cơ chế một cửa quốc gia và phối hợp kiểm tra chất lượng hàng NK); khoản 1 Điều 2 quy định có hiệu lực thi hành từ ngày 20-12-2026",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Trinh sát trạm BTC đêm 5/11 — CẢNH BÁO QUAN TRỌNG: bãi TTLT 17/2003 (kiểm dịch động vật/thực vật/thủy sản XNK) mà chưa rõ văn bản thay thế là gì → cần đối chiếu toàn văn + tìm VB thay thế ngay.",
+      "ghi_chu": "Bãi bỏ toàn bộ 32 Thông tư liên tịch giai đoạn 2003–2016 (bao gồm TTLT 17/2003/TTLT-BTC-BNNPTNT-BTS và các TTLT về Cơ chế một cửa quốc gia giai đoạn 2015–2016) — ban hành ngày 02-11-2026, có hiệu lực từ ngày 20-12-2026.",
       "slug": "166-2026-tt-btc",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -22537,8 +22698,11 @@
     },
     {
       "so_hieu": "18/2026/VBHN-QĐ-BYT",
+      "so_hieu_khac": [
+        "18/VBHN-QĐ-BYT"
+      ],
       "loai": "VAN_BAN_HOP_NHAT",
-      "ten": "Hợp nhất Quyết định hướng dẫn thực hiện Thực hành tốt sản xuất mỹ phẩm ASEAN (ASEAN GMP)",
+      "ten": "Hợp nhất Quyết định về việc triển khai áp dụng và hướng dẫn thực hiện các nguyên tắc, tiêu chuẩn \"Thực hành tốt sản xuất mỹ phẩm\" của Hiệp hội các nước Đông Nam Á",
       "co_quan": "BYT",
       "ngay_ban_hanh": "2026-09-10",
       "tinh_trang": "CON_HIEU_LUC",
@@ -22547,20 +22711,36 @@
       ],
       "nguon": [
         {
-          "url": "https://luatvietnam.vn/y-te/van-ban-hop-nhat-18-vbhn-qd-byt-2026-huong-dan-thuc-hien-thuc-hanh-tot-san-xuat-my-pham-asean-447154-d5.html",
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=219432",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/18-vbhn-byt.signed.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=216427",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/quyet-dinh-so-24-2006-qd-byt-ve-viec-trien-khai-ap-dung-va-huong-dan-thuc-hien-cac-nguyen-tac-tieu-chuan-thuc-hanh-tot-san-xuat-my-pham-cua-hiep-hoi-cac-nuoc-dong-nam-a--15266",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://luatvietnam.vn/y-te/van-ban-hop-nhat-18-vbhn-qd-byt-2026-huong-dan-thuc-hanh-tot-san-xuat-my-pham-asean-447154-d5.html",
           "truy_cap": "2026-10-30"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tên, ngày ban hành 10-09-2026 (TVPL index). Bản gốc là Quyết định ASEAN GMP mỹ phẩm — cần đối chiếu nguồn BYT để biết QĐ gốc số mấy",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-30",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=219432) và toàn văn PDF ký số 09 trang ngày 10-09-2026 bởi Thứ trưởng Bộ Y tế Nguyễn Tri Thức (18-vbhn-byt.signed.pdf, số ký hiệu 18/VBHN-QĐ-BYT): hợp nhất Quyết định 24/2006/QĐ-BYT ngày 14-08-2006 (HL 26-09-2006; vbpl.vn ItemID=15266) về triển khai áp dụng các nguyên tắc, tiêu chuẩn Thực hành tốt sản xuất mỹ phẩm của Hiệp hội các nước Đông Nam Á (CGMP-ASEAN) và Thông tư 47/2025/TT-BYT ngày 30-12-2025 (HL 15-02-2026; docid=216427, khoản 2 Điều 2 bãi bỏ đoạn quy định Giấy chứng nhận có giá trị 02 năm kể từ ngày ký tại mục 3.2 phần II và bãi bỏ Mẫu số 01/CGMP-MP); đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Trinh sát WebSearch trạm BYT đêm 30/10. Gia đình mỹ phẩm (#224) — liên quan điều kiện nhập mỹ phẩm (xưởng đạt ASEAN GMP là căn cứ công bố sản phẩm nhập).",
+      "ghi_chu": "Hợp nhất Quyết định 24/2006/QĐ-BYT ngày 14-08-2006 và Thông tư 47/2025/TT-BYT ngày 30-12-2025 về triển khai thực hiện nguyên tắc, tiêu chuẩn Thực hành tốt sản xuất mỹ phẩm của ASEAN (CGMP-ASEAN).",
       "slug": "18-2026-vbhn-qd-byt",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -24991,6 +25171,13 @@
       "slug": "19-2026-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "135/2026/VBHN-TT-BCT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "19/2026/TT-BCT"
+          }
+        ],
         "bi_sua_doi_boi": [
           {
             "tu": "67/2026/TT-BCT",
@@ -34532,28 +34719,57 @@
     {
       "so_hieu": "2393/QĐ-BYT",
       "loai": "QUYET_DINH",
-      "ten": "Công bố danh mục thủ tục hành chính sửa đổi, bổ sung trong lĩnh vực quản lý mỹ phẩm theo TT 34/2025/TT-BYT",
+      "ten": "Về việc công bố thủ tục hành chính được sửa đổi, bổ sung quy định tại Thông tư số 34/2025/TT-BYT ngày 03 tháng 7 năm 2025 của Bộ trưởng Bộ Y tế sửa đổi, bổ sung một số điều của Thông tư số 06/2011/TT-BYT ngày 25 tháng 01 năm 2011 của Bộ trưởng Bộ Y tế quy định về quản lý mỹ phẩm thuộc phạm vi chức năng quản lý của Bộ Y tế",
       "co_quan": "BYT",
+      "ngay_ban_hanh": "2025-07-22",
+      "hieu_luc_tu": "2025-08-18",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/byt"
       ],
+      "quan_he": {
+        "huong_dan": [
+          "34/2025/TT-BYT"
+        ],
+        "sua_doi": [
+          {
+            "so_hieu": "7866/QĐ-BYT",
+            "tu_ngay": "2025-08-18"
+          }
+        ]
+      },
       "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=214428",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/34-byt.pdf",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-34-2025-tt-byt-sua-doi-thong-tu-06-2011-tt-byt-cua-bo-truong-bo-y-te-quy-dinh-ve-quan-ly-my-pham--181191",
+          "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=99376",
+          "truy_cap": "2026-11-14"
+        },
         {
           "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx",
           "truy_cap": "2026-10-22"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu + vai trò theo issue #224 (kiểm chứng nguồn công khai 21-10); ngày chưa đối chiếu — điểm mù",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-22",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu thông tin ký ban hành của Thứ trưởng Bộ Y tế Đỗ Xuân Tuyên ngày 22-07-2025 (có hiệu lực từ 18-08-2025 cùng thời điểm hiệu lực của Thông tư 34/2025/TT-BYT) và toàn văn Thông tư 34/2025/TT-BYT ngày 03-07-2025 trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=214428, 34-byt.pdf) cùng CSDL Quốc gia về VBPL (vbpl.vn ItemID=181191): công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực quản lý mỹ phẩm quy định tại Thông tư 34/2025/TT-BYT (sửa đổi Thông tư 06/2011/TT-BYT docid=99376) và sửa đổi, bãi bỏ phần nội dung TTHC tương ứng tại Quyết định 7866/QĐ-BYT ngày 28-12-2018; đính chính trích yếu nguyên văn (không phải văn bản danh mục hàng hóa kèm mã HS); đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-14",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Công bố TTHC sửa theo TT 34/2025.",
+      "ghi_chu": "Công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực quản lý mỹ phẩm theo Thông tư 34/2025/TT-BYT (ban hành 22-07-2025, có hiệu lực từ 18-08-2025).",
       "slug": "2393-qd-byt-2025",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -50667,6 +50883,13 @@
             "quan_he": "hop_nhat",
             "so_hieu": "34/2025/TT-BYT"
           }
+        ],
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "2393/QĐ-BYT",
+            "quan_he": "huong_dan",
+            "so_hieu": "34/2025/TT-BYT"
+          }
         ]
       }
     },
@@ -59213,6 +59436,13 @@
       "slug": "41-2013-qh13",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "146/2025/QH15",
+            "quan_he": "sua_doi",
+            "so_hieu": "41/2013/QH13"
+          }
+        ],
         "bi_thay_the_boi": [
           {
             "tu": "43/2024/QH15",
@@ -78890,7 +79120,15 @@
       "ghi_chu": "Radar RSS 30/10 bắt (issue #278) — gia đình xăng dầu #240 (cùng mảng VBHN 135/2026/VBHN-TT-BCT đã có).",
       "slug": "67-2026-tt-bct",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "135/2026/VBHN-TT-BCT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "67/2026/TT-BCT"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "67/2026/VBHN-BNNMT",
@@ -85433,7 +85671,22 @@
       "ghi_chu": "TTHC mỹ phẩm; bị sửa bởi QĐ 1536/QĐ-BYT (28-05-2026).",
       "slug": "7866-qd-byt",
       "bac_nguon_cao_nhat": "B",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "1536/QĐ-BYT",
+            "quan_he": "sua_doi",
+            "so_hieu": "7866/QĐ-BYT",
+            "tu_ngay": "2026-05-28"
+          },
+          {
+            "tu": "2393/QĐ-BYT",
+            "quan_he": "sua_doi",
+            "so_hieu": "7866/QĐ-BYT",
+            "tu_ngay": "2025-08-18"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "79/2015/QH13",
@@ -85476,6 +85729,13 @@
             "quan_he": "huong_dan",
             "so_hieu": "79/2015/QH13",
             "can_cu": "Luật Thú y 79/2015/QH13"
+          }
+        ],
+        "bi_sua_doi_boi": [
+          {
+            "tu": "146/2025/QH15",
+            "quan_he": "sua_doi",
+            "so_hieu": "79/2015/QH13"
           }
         ]
       }
