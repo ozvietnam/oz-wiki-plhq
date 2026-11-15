@@ -1,18 +1,25 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 78/2026/TT-BTC
 loai: THONG_TU
-ten: 'Sửa đổi, bổ sung một số điều của Thông tư 203/2014/TT-BTC quy định về xử lý hàng hóa tồn đọng tại cảng, kho, bãi'
+ten: Sửa đổi, bổ sung một số điều của Thông tư số 203/2014/TT-BTC ngày 22 tháng 12 năm 2014 của Bộ trưởng Bộ Tài chính hướng dẫn xử lý hàng hóa tồn đọng thuộc địa bàn hoạt động hải quan
 co_quan: BTC
+ngay_ban_hanh: '2026-06-30'
+hieu_luc_tu: '2026-07-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - hai-quan/thu-tuc
 nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=105114&cid=1294
+    truy_cap: '2026-11-15'
+  - url: https://files.customs.gov.vn/CustomsCMS/DONG_NAI/2026/7/15/78_2026_TT_BTC_30_06_2026.pdf
+    truy_cap: '2026-11-15'
   - url: https://thuvienphapluat.vn
     truy_cap: '2026-11-06'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + nội dung (bản tin tổng hợp 16 VB XNK đầu tháng 7/2026). Ngày ban hành + hiệu lực chưa có — cần công báo'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-06'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh sát WebSearch trạm BTC đêm 6/11. Hàng tồn đọng cảng kho bãi — quy trình xử lý liên quan nghiệp vụ khai báo hải quan.'
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu toàn văn PDF ký số của Bộ Tài chính trên Cổng thông tin điện tử Hải quan (files.customs.gov.vn, 78_2026_TT_BTC_30_06_2026.pdf, 10 trang, Thứ trưởng Nguyễn Đức Chi ký ngày 30-06-2026): sửa đổi, bổ sung Điều 3, 5, 8, 9, 10, 11 và thay thế một số cụm từ của Thông tư 203/2014/TT-BTC hướng dẫn xử lý hàng hóa tồn đọng thuộc địa bàn hoạt động hải quan (đồng thời sửa cụm từ tại điểm e, g khoản 4 Điều 7 Thông tư 66/2025/TT-BTC theo khoản 2 Điều 9); khoản 1 Điều 9 quy định có hiệu lực kể từ ngày 01-07-2026, đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-15'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Sửa đổi, bổ sung một số điều của Thông tư 203/2014/TT-BTC ngày 22-12-2014 hướng dẫn xử lý hàng hóa tồn đọng thuộc địa bàn hoạt động hải quan (có hiệu lực từ 01-07-2026 theo khoản 1 Điều 9).'
+toan_van: raw/download/files.customs.gov.vn/78-2026-tt-btc.pdf

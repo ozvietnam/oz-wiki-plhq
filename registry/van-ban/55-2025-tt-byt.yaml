@@ -1,9 +1,10 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 55/2025/TT-BYT
 loai: THONG_TU
-ten: 'Quy định về kê đơn thuốc cổ truyền, thuốc dược liệu và kê đơn kết hợp trong cơ sở khám chữa bệnh'
+ten: Quy định về kê đơn thuốc cổ truyền, thuốc dược liệu và kê đơn kết hợp trong cơ sở khám chữa bệnh
 co_quan: BYT
-ngay_ban_hanh: 2025-12-31
+ngay_ban_hanh: '2025-12-31'
+hieu_luc_tu: '2025-12-31'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
@@ -12,21 +13,27 @@ quan_he:
   sua_doi: []
   bai_bo: []
   tam_ngung: []
-  huong_dan: [32/2020/TT-BYT]
+  huong_dan:
+    - 32/2020/TT-BYT
   hop_nhat: []
 nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=216450
+    truy_cap: '2026-11-15'
   - url: https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-55-2025-TT-BYT-ke-don-thuoc-co-truyen-thuoc-duoc-lieu-trong-co-so-kham-chua-benh-687441.aspx
-    truy_cap: 2026-10-09
-toan_van: raw/download/thuvienphapluat.vn/2025/12/55-2025-tt-byt-body.txt
+    truy_cap: '2026-10-09'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/55-byt.pdf
+    truy_cap: '2026-11-15'
+toan_van: raw/download/datafiles.chinhphu.vn/55-2025-tt-byt.pdf
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'Số hiệu 55/2025/TT-BYT, ban hành 31/12/2025 bởi Bộ Y tế. Quy định kê đơn thuốc cổ truyền, thuốc dược liệu và kê đơn kết hợp. Tham chiếu trực tiếp 32/2020/TT-BYT về dạng bào chế. 6 nguyên tắc kê đơn. Cho phép kết hợp thuốc cổ truyền (cả dạng bào chế truyền thống và hiện đại) với thuốc hóa dược.'
-  hieu_luc_da_doi_chieu: false
-  ngay: 2026-10-09
-  boi: hermes
-  chan:
-    ma: CHO_CONG_BO_A
-    ngay: 2026-10-09
-    viec_tiep: "Chưa tìm được nguồn bậc A - chờ"
-ghi_chu: 'VB hướng dẫn Điều 73.3 Luật 105/2016 + 163/2025/NĐ-CP về thuốc cổ truyền dạng bào chế hiện đại.'
-tu_khoa: [thong-tu, duoc, co-truyen, ke-don, ktc]
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ văn bản trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=216450): Thông tư số 55/2025/TT-BYT ban hành ngày 31-12-2025 bởi Bộ Y tế quy định về kê đơn thuốc cổ truyền, thuốc dược liệu và kê đơn kết hợp thuốc cổ truyền, thuốc dược liệu với thuốc hóa dược trong cơ sở khám bệnh, chữa bệnh; có hiệu lực từ 31-12-2025, đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-15'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: VB hướng dẫn Điều 73.3 Luật 105/2016 + 163/2025/NĐ-CP về thuốc cổ truyền dạng bào chế hiện đại.
+tu_khoa:
+  - thong-tu
+  - duoc
+  - co-truyen
+  - ke-don
+  - ktc

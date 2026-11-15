@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-15
 
-2623 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2632 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -39,7 +39,8 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 - 🟢 [54/2026/VBHN-TT-BTC](../registry/van-ban/54-2026-vbhn-tt-btc.yaml) — Hợp nhất Thông tư quy định thủ tục hải quan đối với thư, gói, kiện hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định
 - 🔵 [142/2026/TT-BTC](../registry/van-ban/142-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của các Thông tư quy định thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định và dịch vụ chuyển phát nhanh quốc tế
 - 🟢 [127/2026/TT-BTC](../registry/van-ban/127-2026-tt-btc.yaml) — Quy định về chỉ tiêu thông tin, mẫu chứng từ khai báo khi làm thủ tục xuất cảnh, nhập cảnh, quá cảnh đối với phương tiện vận tải qua cửa khẩu, cảng hàng không quốc tế
-- 🟢 [273/2026/NĐ-CP](../registry/van-ban/273-2026-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định 08/2015/NĐ-CP quy định chi tiết và biện pháp thi hành Luật Hải quan về thủ tục hải quan, kiểm tra, giám sát hải quan
+- 🟢 [273/2026/NĐ-CP](../registry/van-ban/273-2026-nd-cp.yaml) — Về kinh doanh hàng miễn thuế
+- 🟢 [78/2026/TT-BTC](../registry/van-ban/78-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 203/2014/TT-BTC ngày 22 tháng 12 năm 2014 của Bộ trưởng Bộ Tài chính hướng dẫn xử lý hàng hóa tồn đọng thuộc địa bàn hoạt động hải quan
 - 🟢 [83/2026/TT-BTC](../registry/van-ban/83-2026-tt-btc.yaml) — Quy định tiêu chuẩn hoạt động đại lý làm thủ tục hải quan, tiêu chuẩn nhân viên đại lý làm thủ tục hải quan; tổ chức thi, cấp chứng chỉ nghiệp vụ khai hải quan; quản lý hoạt động đại lý làm thủ tục hải quan, nhân viên đại lý làm thủ tục hải quan
 - 🟢 [31/2026/QĐ-TTg](../registry/van-ban/31-2026-qd-ttg.yaml) — Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập
 - ⚫ [25/2026/TT-BTC](../registry/van-ban/25-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 12/2015/TT-BTC ngày 30 tháng 01 năm 2015 của Bộ trưởng Bộ Tài chính quy định chi tiết về thủ tục cấp Chứng chỉ nghiệp vụ khai hải quan, cấp và thu hồi mã số nhân viên khai hải quan _(hết hiệu lực 2026-07-01)_
@@ -84,7 +85,6 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 - ⚫ [1200/2001/QĐ-TCHQ](../registry/van-ban/1200-2001-qd-tchq.yaml) — Ban hành quy định chế độ quản lý, sử dụng các dấu nghiệp vụ hải quan _(hết hiệu lực 2026-02-01)_
 - ⚫ [24/2016/TT-BTC](../registry/van-ban/24-2016-tt-btc.yaml) — Số hiệu 24/2016/TT-BTC không có văn bản quy phạm pháp luật công bố trên Công báo và CSDLQG về pháp luật (khách tra nhầm giữa 23/2016/TT-BTC, 25/2016/TT-BTC, 240/2016/TT-BTC, 24/2016/TT-BCT hoặc 24/2016/NĐ-CP)
 - 🟢 [293/2026/NĐ-CP](../registry/van-ban/293-2026-nd-cp.yaml) — Quy định chi tiết thi hành Công ước Apostille tại Việt Nam
-- 🟢 [78/2026/TT-BTC](../registry/van-ban/78-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư 203/2014/TT-BTC quy định về xử lý hàng hóa tồn đọng tại cảng, kho, bãi
 
 ### Kiểm tra, giám sát, kiểm soát hải quan `hai-quan/kiem-tra-giam-sat`
 
@@ -147,7 +147,7 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 1 văn bản, 1 chưa hết hiệu lực.
 
-- 🟢 [1357/QĐ-TCHQ](../registry/van-ban/1357-qd-tchq-2021.yaml) — Bảng mã loại hình xuất khẩu, nhập khẩu
+- 🟢 [1357/QĐ-TCHQ](../registry/van-ban/1357-qd-tchq-2021.yaml) — Về việc ban hành Bảng mã loại hình xuất khẩu, nhập khẩu và hướng dẫn sử dụng
 
 ### Cơ chế một cửa quốc gia, một cửa ASEAN `hai-quan/mot-cua`
 
@@ -2351,7 +2351,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Phân loại, phân tích để phân loại, xác định trước mã số `phan-loai-hs/quy-trinh-phan-loai`
 
-12 văn bản, 3 chưa hết hiệu lực.
+16 văn bản, 3 chưa hết hiệu lực.
 
 - 🟢 [85/2026/TT-BTC](../registry/van-ban/85-2026-tt-btc.yaml) — Quy định về phân loại hàng hoá, phân tích để phân loại hàng hoá xuất khẩu, nhập khẩu
 - 🟢 [2169/QĐ-CHQ](../registry/van-ban/2169-qd-chq-2025.yaml) — Ban hành Quy trình phân tích phân loại hàng hoá xuất khẩu, nhập khẩu và kiểm tra, đánh giá tiêu chí kỹ thuật của hàng hoá bằng máy móc, trang thiết bị tại cơ quan Kiểm định hải quan
@@ -2359,7 +2359,11 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - ⚫ [17/2021/TT-BTC](../registry/van-ban/17-2021-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư 14/2015/TT-BTC _(hết hiệu lực 2026-09-15)_
 - ❔ [1921/QĐ-TCHQ](../registry/van-ban/1921-qd-tchq-2018.yaml) — Về việc ban hành Quy trình phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu nhập khẩu
 - ⚫ [2999/QĐ-TCHQ](../registry/van-ban/2999-qd-tchq-2017.yaml) — Ban hành Quy chế Kiểm định, phân tích hàng hoá xuất khẩu, nhập khẩu _(hết hiệu lực 2026-02-01)_
+- ⚫ [2131/QĐ-TCHQ](../registry/van-ban/2131-qd-tchq-2015.yaml) — Ban hành Quy chế phân tích để phân loại hàng hóa, phân tích để kiểm tra chất lượng, kiểm tra an toàn thực phẩm đối với hàng hóa xuất khẩu, nhập khẩu _(hết hiệu lực 2017-09-06)_
+- ⚫ [2134/QĐ-TCHQ](../registry/van-ban/2134-qd-tchq-2015.yaml) — Về việc ban hành Quy trình phân loại hàng hóa xuất khẩu, nhập khẩu phải phân tích, giám định _(hết hiệu lực 2018-06-28)_
+- ⚫ [2135/QĐ-TCHQ](../registry/van-ban/2135-qd-tchq-2015.yaml) — Về việc ban hành Quy trình xác định trước mã số đối với hàng hóa xuất khẩu, nhập khẩu _(hết hiệu lực 2018-06-28)_
 - ⚫ [14/2015/TT-BTC](../registry/van-ban/14-2015-tt-btc.yaml) — Hướng dẫn về phân loại hàng hoá, phân tích để phân loại hàng hoá; phân tích để kiểm tra chất lượng, kiểm tra an toàn thực phẩm đối với hàng hoá xuất khẩu, nhập khẩu _(hết hiệu lực 2026-09-15)_
+- ⚫ [4023/QĐ-TCHQ](../registry/van-ban/4023-qd-tchq-2013.yaml) — Ban hành Quy chế phân tích, phân loại hàng hóa xuất nhập khẩu trong ngành Hải quan _(hết hiệu lực 2015-07-31)_
 - ⚫ [1628/QĐ-TCHQ](../registry/van-ban/1628-qd-tchq.yaml) — Ban hành Quy chế phân tích, phân loại hàng hóa xuất nhập khẩu trong ngành Hải quan _(hết hiệu lực 2013-12-09)_
 - ⚫ [49/2010/TT-BTC](../registry/van-ban/49-2010-tt-btc.yaml) — Hướng dẫn việc phân loại, áp dụng mức thuế đối với hàng hóa xuất khẩu, nhập khẩu _(hết hiệu lực 2015-03-16)_
 - ⚫ [1671/QĐ-TCHQ](../registry/van-ban/1671-qd-tchq-2005.yaml) — Ban hành Quy chế phân tích, phân loại hàng hóa xuất nhập khẩu trong ngành Hải quan _(hết hiệu lực 2010-08-01)_
@@ -2408,10 +2412,11 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Hiệp định FTA (ACFTA, ATIGA, RCEP, CPTPP, EVFTA...) `xuat-xu-fta/hiep-dinh`
 
-6 văn bản, 2 chưa hết hiệu lực.
+7 văn bản, 3 chưa hết hiệu lực.
 
 - 🟢 [328/QĐ-TTg](../registry/van-ban/328-qd-ttg-2022.yaml) — Về việc chỉ định các cơ quan đầu mối để triển khai Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)
 - 🟢 [01/QĐ-TTg](../registry/van-ban/01-qd-ttg-2022.yaml) — Phê duyệt Kế hoạch thực hiện Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)
+- 🟢 [18/NQ-CP](../registry/van-ban/18-nq-cp-2021.yaml) — Phê duyệt Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)
 - ⚫ [53/2021/NĐ-CP](../registry/van-ban/53-2021-nd-cp.yaml) — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên hiệp Vương quốc Anh và Bắc Ai-len giai đoạn 2021 - 2022 _(hết hiệu lực 2022-12-30)_
 - ⚫ [1175/QĐ-TTg](../registry/van-ban/1175-qd-ttg-2020.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu (EVFTA) _(hết hiệu lực 2026-01-16)_
 - ⚫ [39/2020/NĐ-CP](../registry/van-ban/39-2020-nd-cp.yaml) — Ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa Cuba giai đoạn 2020 - 2023 _(hết hiệu lực 2022-12-30)_
@@ -2570,7 +2575,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Khung chung về chất lượng sản phẩm, hàng hoá `kiem-tra-chuyen-nganh/khung-chat-luong`
 
-13 văn bản, 9 chưa hết hiệu lực.
+15 văn bản, 10 chưa hết hiệu lực.
 
 - 🟢 [37/2026/NĐ-CP](../registry/van-ban/37-2026-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Chất lượng sản phẩm, hàng hóa
 - 🟢 [22/2026/NĐ-CP](../registry/van-ban/22-2026-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Tiêu chuẩn và quy chuẩn kỹ thuật
@@ -2578,6 +2583,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [78/2025/QH15](../registry/van-ban/78-2025-qh15.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Chất lượng sản phẩm, hàng hóa
 - 🟢 [70/2025/QH15](../registry/van-ban/70-2025-qh15.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Tiêu chuẩn và quy chuẩn kỹ thuật
 - ⚫ [13/2022/NĐ-CP](../registry/van-ban/13-2022-nd-cp.yaml) — Sửa đổi, bổ sung Nghị định 132/2008/NĐ-CP _(hết hiệu lực 2026-07-01)_
+- 🟢 [100/QĐ-TTg](../registry/van-ban/100-qd-ttg-2019.yaml) — Phê duyệt Đề án triển khai, áp dụng và quản lý hệ thống truy xuất nguồn gốc
 - ⚫ [02/2019/NQ-CP](../registry/van-ban/02-2019-nq-cp.yaml) — Về tiếp tục thực hiện những nhiệm vụ, giải pháp chủ yếu cải thiện môi trường kinh doanh, nâng cao năng lực cạnh tranh quốc gia năm 2019 và định hướng đến năm 2021 _(hết hiệu lực 2020-01-01)_
 - ⚫ [74/2018/NĐ-CP](../registry/van-ban/74-2018-nd-cp.yaml) — Sửa đổi, bổ sung Nghị định 132/2008/NĐ-CP _(hết hiệu lực 2026-07-01)_
 - 🟢 [21/2011/NĐ-CP](../registry/van-ban/21-2011-nd-cp.yaml) — Quy định chi tiết và biện pháp thi hành Luật Sử dụng năng lượng tiết kiệm và hiệu quả
@@ -2585,6 +2591,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [05/2007/QH12](../registry/van-ban/05-2007-qh12.yaml) — Luật Chất lượng sản phẩm, hàng hoá
 - 🟢 [127/2007/NĐ-CP](../registry/van-ban/127-2007-nd-cp.yaml) — Quy định chi tiết thi hành một số điều của Luật Tiêu chuẩn và Quy chuẩn kỹ thuật
 - 🟢 [68/2006/QH11](../registry/van-ban/68-2006-qh11.yaml) — Luật Tiêu chuẩn và Quy chuẩn kỹ thuật
+- ⚫ [44/2001/TT-BKHCNMT](../registry/van-ban/44-2001-tt-bkhcnmt.yaml) — Hướng dẫn hoạt động kiểm tra hàng hoá của các đơn vị sự nghiệp kỹ thuật phục vụ quản lý nhà nước _(hết hiệu lực 2015-09-29)_
 
 ### Kiểm tra nhà nước về an toàn thực phẩm `kiem-tra-chuyen-nganh/an-toan-thuc-pham`
 
@@ -2941,15 +2948,16 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ## Điều ước quốc tế, chuẩn quốc tế (WCO, Công ước HS, Kyoto sửa đổi) `dieu-uoc-quoc-te`
 
-1 văn bản, 1 chưa hết hiệu lực.
+2 văn bản, 2 chưa hết hiệu lực.
 
+- 🟢 [49/QĐ-CTN](../registry/van-ban/49-qd-ctn-1998.yaml) — Về việc Việt Nam tham gia Công ước quốc tế về Hệ thống hài hòa mô tả và mã hóa hàng hóa
 - 🟢 [Công ước HS](../registry/van-ban/cong-uoc-hs.yaml) — Công ước quốc tế về Hệ thống hài hòa mô tả và mã hóa hàng hoá (International Convention on the Harmonized Commodity Description and Coding System)
 
 ## Tổ chức bộ máy — chức năng, nhiệm vụ các bộ, cơ quan quản lý `bo-may`
 
 _Cần để biết cơ quan nào đang quản lý sau sáp nhập 2025–2026._
 
-26 văn bản, 14 chưa hết hiệu lực.
+31 văn bản, 17 chưa hết hiệu lực.
 
 - 🟢 [351/2026/NĐ-CP](../registry/van-ban/351-2026-nd-cp.yaml) — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương
 - 🟢 [354/2026/NĐ-CP](../registry/van-ban/354-2026-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 33/2025/NĐ-CP ngày 25 tháng 02 năm 2025 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Xây dựng
@@ -2967,11 +2975,16 @@ _Cần để biết cơ quan nào đang quản lý sau sáp nhập 2025–2026._
 - 🟢 [03/2022/TT-BYT](../registry/van-ban/03-2022-tt-byt.yaml) — Sửa đổi, bổ sung một số quy định về tiêu chuẩn chức danh nghề nghiệp viên chức chuyên ngành y tế
 - 🟢 [124/2020/NĐ-CP](../registry/van-ban/124-2020-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp thi hành Luật Khiếu nại
 - 🟢 [01/2018/NĐ-CP](../registry/van-ban/01-2018-nd-cp.yaml) — Điều lệ tổ chức và hoạt động của Tổng công ty Lương thực miền Bắc
+- 🟢 [111/2017/NĐ-CP](../registry/van-ban/111-2017-nd-cp.yaml) — Nghị định số 111/2017/NĐ-CP ngày 05/10/2017 của Chính phủ quy định về tổ chức đào tạo thực hành trong đào tạo khối ngành sức khỏe
 - ⚫ [98/2017/NĐ-CP](../registry/van-ban/98-2017-nd-cp.yaml) — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương _(hết hiệu lực 2022-12-01)_
 - ⚫ [95/2017/NĐ-CP](../registry/van-ban/95-2017-nd-cp.yaml) — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Khoa học và Công nghệ _(hết hiệu lực 2023-06-06)_
+- ⚫ [47/2017/NĐ-CP](../registry/van-ban/47-2017-nd-cp.yaml) — Quy định mức lương cơ sở đối với cán bộ, công chức, viên chức và lực lượng vũ trang _(hết hiệu lực 2018-07-01)_
 - ⚫ [15/2017/NĐ-CP](../registry/van-ban/15-2017-nd-cp.yaml) — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nông nghiệp và Phát triển nông thôn _(hết hiệu lực 2023-01-15)_
 - ⚫ [17/2017/NĐ-CP](../registry/van-ban/17-2017-nd-cp.yaml) — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Thông tin và Truyền thông _(hết hiệu lực 2022-07-26)_
 - 🟢 [11/2015/TT-BTC](../registry/van-ban/11-2015-tt-btc.yaml) — Hướng dẫn cơ chế tài chính cho hoạt động tư vấn, phản biện và giám định xã hội của Liên hiệp các Hội Khoa học và Kỹ thuật Việt Nam
+- 🟢 [80/2014/NĐ-CP](../registry/van-ban/80-2014-nd-cp.yaml) — Nghị định số 80/2014/NĐ-CP của Chính phủ: Về thoát nước và xử lý nước thải
+- ⚫ [78/2014/NĐ-CP](../registry/van-ban/78-2014-nd-cp.yaml) — Về Giải thưởng Hồ Chí Minh, Giải thưởng Nhà nước và các giải thưởng khác về khoa học và công nghệ _(hết hiệu lực 2024-04-10)_
+- 🟢 [09/2014/NĐ-CP](../registry/van-ban/09-2014-nd-cp.yaml) — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Ban Cơ yếu Chính phủ
 - ⚫ [199/2013/NĐ-CP](../registry/van-ban/199-2013-nd-cp.yaml) — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nông nghiệp và Phát triển nông thôn _(hết hiệu lực 2017-02-17)_
 - ⚫ [95/2012/NĐ-CP](../registry/van-ban/95-2012-nd-cp.yaml) — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương _(hết hiệu lực 2017-08-18)_
 - 🟢 [02/2011/QH13](../registry/van-ban/02-2011-qh13.yaml) — Luật Khiếu nại
@@ -2980,10 +2993,5 @@ _Cần để biết cơ quan nào đang quản lý sau sáp nhập 2025–2026._
 
 ## Chưa phân loại — chờ luồng Hệ thống hoá xếp vào cây `chua-phan-loai`
 
-4 văn bản, 2 chưa hết hiệu lực.
-
-- 🟢 [111/2017/NĐ-CP](../registry/van-ban/111-2017-nd-cp.yaml) — Nghị định số 111/2017/NĐ-CP ngày 05/10/2017 của Chính phủ quy định về tổ chức đào tạo thực hành trong đào tạo khối ngành sức khỏe
-- ⚫ [47/2017/NĐ-CP](../registry/van-ban/47-2017-nd-cp.yaml) — Quy định mức lương cơ sở đối với cán bộ, công chức, viên chức và lực lượng vũ trang _(hết hiệu lực 2018-07-01)_
-- 🟢 [80/2014/NĐ-CP](../registry/van-ban/80-2014-nd-cp.yaml) — Nghị định số 80/2014/NĐ-CP của Chính phủ: Về thoát nước và xử lý nước thải
-- ⚫ [78/2014/NĐ-CP](../registry/van-ban/78-2014-nd-cp.yaml) — Về Giải thưởng Hồ Chí Minh, Giải thưởng Nhà nước và các giải thưởng khác về khoa học và công nghệ _(hết hiệu lực 2024-04-10)_
+_Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
 

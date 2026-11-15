@@ -435,6 +435,8 @@ flowchart LR
   n_1628_Q__TCHQ["1628/QĐ-TCHQ<br/>hết hiệu lực"]
   n_1671_Q__TCHQ["1671/QĐ-TCHQ<br/>hết hiệu lực"]
   n_17_2021_TT_BTC["17/2021/TT-BTC<br/>hết hiệu lực"]
+  n_2131_Q__TCHQ["2131/QĐ-TCHQ<br/>hết hiệu lực"]
+  n_4023_Q__TCHQ["4023/QĐ-TCHQ<br/>hết hiệu lực"]
   n_2169_Q__CHQ["2169/QĐ-CHQ<br/>còn hiệu lực"]
   n_2999_Q__TCHQ["2999/QĐ-TCHQ<br/>hết hiệu lực"]
   n_2166_Q__TCHQ["2166/QĐ-TCHQ<br/>hết hiệu lực"]
@@ -451,10 +453,12 @@ flowchart LR
   n_14_2015_TT_BTC -->|bãi bỏ từ 2015-03-16| n_49_2010_TT_BTC
   n_1628_Q__TCHQ -->|thay thế toàn bộ từ 2010-08-01| n_1671_Q__TCHQ
   n_17_2021_TT_BTC -->|sửa đổi| n_14_2015_TT_BTC
+  n_2131_Q__TCHQ -->|thay thế toàn bộ từ 2015-07-31| n_4023_Q__TCHQ
   n_2169_Q__CHQ -->|thay thế từ 2026-02-01| n_2999_Q__TCHQ
   n_2169_Q__CHQ -->|thay thế từ 2026-02-01| n_2166_Q__TCHQ
   n_31_2022_TT_BTC -->|thay thế toàn bộ Danh mục từ 2022-12-01| n_65_2017_TT_BTC
   n_31_2022_TT_BTC -->|thay thế toàn bộ từ 2022-12-01| n_09_2019_TT_BTC
+  n_4023_Q__TCHQ -->|thay thế toàn bộ từ 2013-12-09| n_1628_Q__TCHQ
   n_73_2026_VBHN_TT_BCT -->|hợp nhất| n_08_2023_TT_BCT
   n_73_2026_VBHN_TT_BCT -->|hợp nhất| n_48_2026_TT_BCT
   n_74_2026_VBHN_TT_BCT -->|hợp nhất| n_41_2019_TT_BCT

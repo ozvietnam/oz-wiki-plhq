@@ -16,7 +16,7 @@ tags: [fta, rcep, xuat-xu, asean]
 
 **RCEP** (Regional Comprehensive Economic Partnership) là hiệp định FTA giữa 10 nước ASEAN + 5 đối tác (Trung Quốc, Nhật, Hàn Quốc, Australia, New Zealand), có hiệu lực từ 01-01-2022. Là FTA lớn nhất thế giới tính theo GDP.
 
-- **Phê chuẩt**: Nghị quyết 13/NQ-CP 2021
+- **Phê chuẩn**: Nghị quyết 18/NQ-CP 2021 (bản OCR QĐ 328 nhận nhầm số 8 thành 3)
 - **Kế hoạch thực hiện**: QĐ 01/QĐ-TTg 2022
 - **Chỉ định cơ quan đầu mối**: QĐ 328/QĐ-TTg 2022
 

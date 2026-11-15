@@ -84,7 +84,7 @@ Căn cứ để ngành Hải quan ban hành quy chế này là **Điều 17.1 TT
 
 ## Notes
 
-- Nạp theo issue #87 (PR #1, vai trò "quy chế phân loại hàng"). Issue ghi số hiệu `100/2014/QĐ-TTg`; số hiệu đó **không tồn tại** ở dạng đó (QĐ 100/QĐ-TTG duy nhất là năm 1998 — thí điểm chính sách cửa khẩu Lào Cai; QĐ 100/QĐ-TTg 2019 là truy xuất nguồn gốc). Văn bản của **ngành Hải quan** mang đúng nội dung "quy chế phân loại hàng" là QĐ 1628/QĐ-TCHQ này.
+- Nạp theo issue #87 (PR #1, vai trò "quy chế phân loại hàng"). Issue ghi số hiệu `100/2014 (QĐ-TTg)`; số hiệu đó **không tồn tại** ở dạng đó (QĐ 100/QĐ-TTg năm 1998 là thí điểm chính sách cửa khẩu Lào Cai; QĐ 100/QĐ-TTg 2019 là truy xuất nguồn gốc). Văn bản của **ngành Hải quan** mang đúng nội dung "quy chế phân loại hàng" là QĐ 1628/QĐ-TCHQ này.
 - Văn bản đã hết hiệu lực từ 09/12/2013 — dùng để tra cứu lịch sử, không phải để áp dụng.
 
 ## Toàn văn tách theo Điều

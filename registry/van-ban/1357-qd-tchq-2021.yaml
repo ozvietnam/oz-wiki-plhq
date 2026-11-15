@@ -1,16 +1,23 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 1357/QĐ-TCHQ
 loai: QUYET_DINH
-ten: Bảng mã loại hình xuất khẩu, nhập khẩu
+ten: Về việc ban hành Bảng mã loại hình xuất khẩu, nhập khẩu và hướng dẫn sử dụng
 co_quan: TCHQ
 ngay_ban_hanh: '2021-05-18'
+hieu_luc_tu: '2021-06-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - hai-quan/loai-hinh
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=43917&cid=1294
+    truy_cap: '2026-11-15'
+  - url: https://files.customs.gov.vn/CustomsCMS/QUANG_NINH/2021/5/20/1357%20(18.5.21,%20HLUC%2001.6.21)%20B%E1%BA%A2NG%20M%C3%83%20LO%E1%BA%A0I%20H%C3%8CNH%20THAY%20TH%E1%BA%BE%202765.PDF
+    truy_cap: '2026-11-15'
 xac_minh:
-  muc: CHUA_XAC_MINH
-  pham_vi: hiểu biết nền lúc khởi tạo
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: khoi-tao
-ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu toàn văn PDF gốc trên Cổng thông tin điện tử Hải quan (files.customs.gov.vn, 12 trang, Phó Tổng cục trưởng Mai Xuân Thành ký ngày 18-05-2021): ban hành Bảng mã loại hình xuất khẩu, nhập khẩu và hướng dẫn sử dụng; Điều 2 quy định có hiệu lực thi hành từ ngày 01-06-2021 và thay thế Công văn số 2765/TCHQ-GSQL ngày 01-04-2015 của Tổng cục Hải quan; đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-15'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Bảng mã loại hình xuất khẩu, nhập khẩu và hướng dẫn sử dụng hiện hành (ban hành 18-05-2021, có hiệu lực từ 01-06-2021 theo Điều 2, thay thế Công văn 2765/TCHQ-GSQL ngày 01-04-2015).'
+toan_van: raw/download/files.customs.gov.vn/1357-qd-tchq.pdf

@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 42/2026/TT-BCT
 loai: THONG_TU
-ten: 'Quy định về việc xác định 31 mặt hàng hàng hóa lưỡng dụng'
+ten: Quy định về việc xác định 31 mặt hàng hàng hóa lưỡng dụng
 co_quan: BCT
 ngay_ban_hanh: '2026-07-29'
 hieu_luc_tu: '2026-09-12'
@@ -9,12 +9,17 @@ tinh_trang: CON_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong
 nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=105279&cid=1294
+    truy_cap: '2026-11-15'
+  - url: https://files.customs.gov.vn/CustomsCMS/DONG_NAI/2026/7/31/42_2026_TT_BCT_29_07_2026.pdf
+    truy_cap: '2026-11-15'
   - url: https://thuvienphapluat.vn
     truy_cap: '2026-11-05'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + nội dung 31 mặt hàng lưỡng dụng + ngày 29-07-2026 hiệu lực 12-09-2026 (bản tin tổng hợp — cần công báo)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-05'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh sát trạm BCT đêm 5/11. Hàng lưỡng dụng = diện xin phép XNK — cần nạp danh mục 31 mặt hàng khi có toàn văn.'
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu toàn văn PDF ký số của Bộ Công Thương trên Cổng thông tin điện tử Hải quan (files.customs.gov.vn, 42_2026_TT_BCT_29_07_2026.pdf, 19 trang, Thứ trưởng Nguyễn Sinh Nhật Tân ký ngày 29-07-2026): Thông tư số 42/2026/TT-BCT quy định Danh mục chi tiết hàng hóa lưỡng dụng thuộc thẩm quyền quản lý của Bộ Công Thương (thực hiện khoản 2 Điều 7 Nghị định 259/2025/NĐ-CP); khoản 1 Điều 2 quy định có hiệu lực thi hành từ ngày 12-09-2026, đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-15'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Thông tư quy định Danh mục chi tiết hàng hóa lưỡng dụng thuộc thẩm quyền quản lý của Bộ Công Thương theo khoản 2 Điều 7 Nghị định 259/2025/NĐ-CP (ban hành 29-07-2026, hiệu lực 12-09-2026 theo khoản 1 Điều 2; Phụ lục mô tả đặc tính kỹ thuật hàng lưỡng dụng không gắn mã HS 8 số).'
+toan_van: raw/download/files.customs.gov.vn/42-2026-tt-bct.pdf

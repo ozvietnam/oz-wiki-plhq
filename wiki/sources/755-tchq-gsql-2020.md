@@ -109,7 +109,7 @@ Câu dẫn phần xuất khẩu:
 
 - [[sources/38-2015-tt-btc|TT 38/2015/TT-BTC]] — Phụ lục II (chỉ tiêu tờ khai), đã sửa bởi [[sources/39-2018-tt-btc|TT 39/2018/TT-BTC]].
 - CV 5189/TCHQ-GSQL ngày 13/8/2019 — văn bản gốc mà CV 755 kiểm tra việc thực hiện (chưa có trong sổ, chưa có trang wiki).
-- Theo bản dịch bậc C: Quyết định 3259/QĐ-TCHQ và 3260/QĐ-TCHQ ngày 06/11/2019 (quyết định kiểm tra); Nghị định 31/2018/NĐ-CP và TT 05/2018/TT-BCT về xuất xứ hàng hóa.
+- Theo bản dịch bậc C: Quyết định số 3259 và số 3260 (QĐ-TCHQ ngày 06/11/2019 — quyết định thành lập đoàn kiểm tra nội bộ, hành chính cá biệt); Nghị định 31/2018/NĐ-CP và TT 05/2018/TT-BCT về xuất xứ hàng hóa.
 
 ## Concepts
 
