@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-15",
   "luoc_do_phien_ban": "1.4.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2597,
+  "tong": 2623,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -2200,7 +2200,7 @@
         "boi": "claude-code@ozvietnam"
       },
       "toan_van": "raw/download/datafiles.chinhphu.vn/06-2024-tt-btc.pdf",
-      "ghi_chu": "Điều 1 khoản 1: hiệu lực 15/03/2024; riêng khoản 4, 5, 6 Điều 1 hiệu lực từ 15/07/2025. Điều 1 khoản 6 sửa lại Điều 14 (phân loại mức độ rủi ro) — Hạng 7/8/9 đổi thành \"không có hoạt động xuất khẩu, nhập khẩu hàng hóa trong 365 ngày trở về trước\" thay cho \"có hoạt động\". Điều 1 khoản 12 sửa điểm c.3 khoản 1 Điều 22 (kiểm tra bằng phân tích, kiểm định tại đơn vị kiểm định hải quan, trạm kiểm định di động hải quan hoặc giám định theo quy định). Điều 1 khoản 13 sửa Điều 26 về hồ sơ hoàn thuế theo 3 mức rủi ro. Điều 3 khoản 2 bãi bỏ Điều 24 TT 39/2015/TT-BTC và khoản 13 Điều 1 TT 138/2019/TT-BTC.",
+      "ghi_chu": "Điều 1 khoản 1: hiệu lực 15/03/2024; riêng khoản 4, 5, 6 Điều 1 hiệu lực từ 15/07/2025. Điều 1 khoản 6 sửa lại Điều 14 (phân loại mức độ rủi ro) — Hạng 7/8/9 đổi thành \"không có hoạt động xuất khẩu, nhập khẩu hàng hóa trong 365 ngày trở về trước\" thay cho \"có hoạt động\". Điều 1 khoản 12 sửa điểm c.3 khoản 1 Điều 22 (kiểm tra bằng phân tích, kiểm định tại đơn vị kiểm định hải quan, trạm kiểm định di động hải quan hoặc giám định theo quy định). Điều 1 khoản 13 sửa Điều 26 về hồ sơ hoàn thuế theo 3 mức rủi ro. Điều 3 khoản 2 bãi bỏ Điều 24 TT 39/2015/TT-BTC và khoản 13 Điều 1 TT 60/2019/TT-BTC.",
       "slug": "06-2024-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -7730,6 +7730,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "11/2026/TT-BNNMT",
+      "loai": "THONG_TU",
+      "ten": "Quy định quản lý, vận hành Hệ thống đăng ký quốc gia về hạn ngạch phát thải khí nhà kính và tín chỉ các-bon",
+      "co_quan": "BNNMT",
+      "ngay_ban_hanh": "2026-02-13",
+      "hieu_luc_tu": "2026-03-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=217020",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/02/11-bnnmt.pdf",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=217020) và toàn văn PDF đính kèm trên datafiles.chinhphu.vn (11-bnnmt.pdf): ban hành ngày 13-02-2026, có hiệu lực thi hành từ ngày 30-03-2026; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/datafiles.chinhphu.vn/11-2026-tt-bnnmt.pdf",
+      "ghi_chu": "Quy định quản lý, vận hành Hệ thống đăng ký quốc gia về hạn ngạch phát thải khí nhà kính và tín chỉ các-bon.",
+      "slug": "11-2026-tt-bnnmt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "11/2026/TT-BXD",
       "loai": "THONG_TU",
       "ten": "Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu",
@@ -7914,6 +7948,36 @@
       "toan_van": "chua_co",
       "slug": "1101-tb-tchq-2019",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1102/QĐ-BTC",
+      "loai": "QUYET_DINH",
+      "ten": "Về việc xây dựng, quản lý, sử dụng cơ sở dữ liệu giá",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2008-05-21",
+      "hieu_luc_tu": "2008-06-18",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/tri-gia"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/quyet-dinh-so-1102-qd-btc-ve-viec-xay-dung-quan-ly-su-dung-co-so-du-lieu-gia--86186",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu CSDLQG về pháp luật (vbpl.vn ID 86186): Quyết định số 1102/QĐ-BTC ngày 21-05-2008 của Bộ trưởng Bộ Tài chính về việc xây dựng, quản lý, sử dụng cơ sở dữ liệu giá, hiệu lực từ 18-06-2008, trạng thái trên CSDLQG ghi Còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/vbpl.vn/1102-qd-btc-2008.html",
+      "ghi_chu": "Về việc xây dựng, quản lý, sử dụng cơ sở dữ liệu giá của Bộ Tài chính (viện dẫn tại Thông tư 182/2012/TT-BTC).",
+      "slug": "1102-qd-btc-2008",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -9667,6 +9731,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "116/2025/QH15",
+      "loai": "LUAT",
+      "ten": "Luật An ninh mạng",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2025-12-10",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bqp"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=216499",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat116-2025.pdf",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=216499) và toàn văn PDF đính kèm trên datafiles.chinhphu.vn (luat116-2025.pdf): Quốc hội thông qua ngày 10-12-2025, có hiệu lực thi hành từ ngày 01-07-2026; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/datafiles.chinhphu.vn/116-2025-qh15.pdf",
+      "ghi_chu": "Luật An ninh mạng số 116/2025/QH15 ngày 10-12-2025 (hiệu lực từ 01-07-2026).",
+      "slug": "116-2025-qh15",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "1165/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -10041,6 +10139,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "117/2025/QH15",
+      "loai": "LUAT",
+      "ten": "Luật Bảo vệ bí mật nhà nước",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2025-12-10",
+      "hieu_luc_tu": "2026-03-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/luat-khung"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=216500",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat117-2025.pdf",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=216500) và toàn văn PDF đính kèm trên datafiles.chinhphu.vn (luat117-2025.pdf): Quốc hội thông qua ngày 10-12-2025, có hiệu lực thi hành từ ngày 01-03-2026; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/datafiles.chinhphu.vn/117-2025-qh15.pdf",
+      "ghi_chu": "Luật Bảo vệ bí mật nhà nước số 117/2025/QH15 ngày 10-12-2025 (hiệu lực từ 01-03-2026).",
+      "slug": "117-2025-qh15",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "1170/TB-TCHQ/2020",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -10324,6 +10456,40 @@
       ],
       "toan_van": "raw/download/datafiles.chinhphu.vn/118-2022-nd-cp.pdf",
       "slug": "118-2022-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "118/2025/QH15",
+      "loai": "LUAT",
+      "ten": "Luật sửa đổi, bổ sung một số điều của 10 luật có liên quan đến an ninh, trật tự",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2025-12-10",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bxd"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=216534",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luatso118.2025.pdf",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=216534) và toàn văn PDF đính kèm trên datafiles.chinhphu.vn (luatso118.2025.pdf): Quốc hội thông qua ngày 10-12-2025, có hiệu lực thi hành từ ngày 01-07-2026; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/datafiles.chinhphu.vn/118-2025-qh15.pdf",
+      "ghi_chu": "Luật sửa đổi, bổ sung một số điều của 10 luật có liên quan đến an ninh, trật tự (gồm Luật Trật tự, an toàn giao thông đường bộ 36/2024/QH15).",
+      "slug": "118-2025-qh15",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -11101,6 +11267,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "12/2007/QĐ-BTM",
+      "loai": "QUYET_DINH",
+      "ten": "Ban hành Quy chế cấp Giấy chứng nhận xuất xứ hàng hóa Mẫu E để hưởng các ưu đãi theo Hiệp định Thương mại hàng hóa thuộc Hiệp định Khung về Hợp tác kinh tế toàn diện giữa Hiệp hội các quốc gia Đông Nam Á và nước Cộng hòa Nhân dân Trung Hoa",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2007-05-31",
+      "het_hieu_luc_tu": "2019-09-12",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "xuat-xu-fta"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-36-2010-tt-bct-5431/2621.htm",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-36-2010-tt-bct-thuc-hien-quy-tac-thu-tuc-cap-va-kiem-tra-xuat-xu-sua-doi-va-quy-tac-cu-the-mat-hang-theo-he-thong-hai-hoa-phien-ban-2007-trong-hiep-dinh-thuong-mai-hang-hoa-thuoc-hiep-dinh-khung-ve-hop-tac-kinh-te-toan-dien-giua-hiep-hoi-cac-quoc-gia-dong-nam-a-va-nuoc-cong-hoa-nhan-dan-trung-hoa--25944",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu toàn văn Điều 4 Thông tư 36/2010/TT-BCT ngày 15-11-2010 trên CSDLQG về pháp luật (vbpl.vn ID 25944, 25944_body_content.html) và Công báo (ID 5431/2621): quy định bãi bỏ Phụ lục II và Phụ lục III của Quyết định số 12/2007/QĐ-BTM ngày 31-05-2007 của Bộ trưởng Bộ Thương mại từ 01-01-2011; toàn bộ Quyết định 12/2007/QĐ-BTM hết hiệu lực từ 12-09-2019 theo Thông tư 12/2019/TT-BCT.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/vbpl.vn/36-2010-tt-bct.html",
+      "ghi_chu": "Quy chế cấp C/O Mẫu E ACFTA năm 2007; bị bãi bỏ một phần bởi TT 36/2010/TT-BCT (01-01-2011) và thay thế toàn bộ bởi TT 12/2019/TT-BCT (12-09-2019).",
+      "slug": "12-2007-qd-btm",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "12/2015/TT-BTC",
       "loai": "THONG_TU",
       "ten": "Quy định chi tiết thủ tục cấp Chứng chỉ nghiệp vụ khai hải quan; cấp và thu hồi mã số nhân viên đại lý làm thủ tục hải quan; trình tự, thủ tục công nhận và hoạt động của đại lý làm thủ tục hải quan",
@@ -11547,6 +11747,41 @@
       "toan_van": "chua_co",
       "slug": "120-tb-chq-2025",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1200/2001/QĐ-TCHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Ban hành quy định chế độ quản lý, sử dụng các dấu nghiệp vụ hải quan",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2001-11-23",
+      "hieu_luc_tu": "2002-01-01",
+      "het_hieu_luc_tu": "2026-02-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/quyet-dinh-so-1200-2001-qd-tchq-ban-hanh-quy-dinh-che-do-quan-ly-su-dung-cac-dau-nghiep-vu-hai-quan--21768",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-121-2025-tt-btc-468755.htm",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu CSDLQG về pháp luật (vbpl.vn ID 21768, toàn văn 21768_body_content.html) và khoản 3 Điều 2 Thông tư 121/2025/TT-BTC trên Công báo (ID 468755): ban hành ngày 23-11-2001, có hiệu lực từ 01-01-2002, hết hiệu lực toàn bộ từ ngày 01-02-2026 do bị bãi bỏ theo khoản 3 Điều 2 Thông tư 121/2025/TT-BTC.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/vbpl.vn/1200-2001-qd-tchq.html",
+      "ghi_chu": "Hết hiệu lực từ ngày 01-02-2026 theo khoản 3 Điều 2 Thông tư 121/2025/TT-BTC.",
+      "slug": "1200-2001-qd-tchq",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -13268,6 +13503,41 @@
       ],
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/125-2026-tt-bca.pdf",
       "slug": "125-2026-tt-bca",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1257/2001/QĐ-TCHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Về việc ban hành tờ khai hàng hóa xuất khẩu, nhập khẩu",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2001-12-14",
+      "hieu_luc_tu": "2002-01-01",
+      "het_hieu_luc_tu": "2012-05-14",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/quyet-dinh-so-1257-2001-qd-tchq-ve-viec-ban-hanh-to-khai-hang-hoa-xuat-khau-nhap-khau--21759",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-121-2025-tt-btc-468755.htm",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu CSDLQG về pháp luật (vbpl.vn ID 21759, toàn văn 21759_body_content.html) và khoản 3 Điều 2 Thông tư 121/2025/TT-BTC trên Công báo (ID 468755): ban hành ngày 14-12-2001, hiệu lực từ 01-01-2002, trạng thái Hết hiệu lực toàn bộ (từ 14-05-2012; phần sửa đổi tại Điều 1 QĐ 19/2002/QĐ-TCHQ bị bãi bỏ bởi khoản 3 Điều 2 TT 121/2025/TT-BTC).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/vbpl.vn/1257-2001-qd-tchq.html",
+      "ghi_chu": "Ban hành mẫu tờ khai HQ/2002-XK, HQ/2002-NK; đã hết hiệu lực toàn bộ.",
+      "slug": "1257-2001-qd-tchq",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -15488,6 +15758,40 @@
       "toan_van": "chua_co",
       "slug": "1329-tb-tchq-2019",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "133/2025/QH15",
+      "loai": "LUAT",
+      "ten": "Luật Công nghệ cao",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2025-12-10",
+      "hieu_luc_tu": "2026-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/luat-khung"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=216530",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luatso133.2025.qh15.pdf",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=216530) và toàn văn PDF đính kèm trên datafiles.chinhphu.vn (luatso133.2025.qh15.pdf): Quốc hội thông qua ngày 10-12-2025, có hiệu lực thi hành từ ngày 01-07-2026; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/datafiles.chinhphu.vn/133-2025-qh15.pdf",
+      "ghi_chu": "Luật Công nghệ cao số 133/2025/QH15 ngày 10-12-2025 (hiệu lực từ 01-07-2026, thay thế Luật Công nghệ cao 21/2008/QH12).",
+      "slug": "133-2025-qh15",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -17827,6 +18131,76 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "1494/2001/QĐ-TCHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Ban hành quy định tạm thời thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2001-12-26",
+      "hieu_luc_tu": "2002-01-01",
+      "het_hieu_luc_tu": "2003-06-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/quyet-dinh-so-1494-2001-qd-tchq-ban-hanh-quy-dinh-tam-thoi-thu-tuc-hai-quan-doi-voi-hang-hoa-xuat-khau-nhap-khau--21764",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-121-2025-tt-btc-468755.htm",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu CSDLQG về pháp luật (vbpl.vn ID 21764, toàn văn 21764_body_content.html) và khoản 3 Điều 2 Thông tư 121/2025/TT-BTC trên Công báo (ID 468755): ban hành ngày 26-12-2001, có hiệu lực từ 01-01-2002, hết hiệu lực toàn bộ từ 01-06-2003.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/vbpl.vn/1494-2001-qd-tchq.html",
+      "ghi_chu": "Quy định tạm thời thủ tục hải quan đối với hàng hóa XNK năm 2001; đã hết hiệu lực toàn bộ.",
+      "slug": "1494-2001-qd-tchq",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1495/2001/QĐ-TCHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Ban hành quy định tạm thời về địa điểm làm thủ tục hải quan và thủ tục hải quan đối với hàng hóa chuyển cửa khẩu",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2001-12-26",
+      "hieu_luc_tu": "2002-01-01",
+      "het_hieu_luc_tu": "2026-02-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-121-2025-tt-btc-468755.htm",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/1/29/121signed-1769648656491392901604.pdf",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu khoản 3 Điều 2 Thông tư 121/2025/TT-BTC ngày 18-12-2025 trên Công báo (ID 468755, raw/download/congbaocdn.chinhphu.vn/121-2025-tt-btc.pdf): quy định tạm thời năm 2001 và phần sửa đổi tại Điều 1 Quyết định 19/2002/QĐ-TCHQ đã hết hiệu lực toàn bộ (bãi bỏ chính thức tại khoản 3 Điều 2 TT 121/2025/TT-BTC từ 01-02-2026).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/121-2025-tt-btc.pdf",
+      "ghi_chu": "Quy định tạm thời về địa điểm làm thủ tục hải quan và hàng hóa chuyển cửa khẩu năm 2001; hết hiệu lực toàn bộ.",
+      "slug": "1495-2001-qd-tchq",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "15/2009/TT-BKHCN",
       "loai": "THONG_TU",
       "ten": "Hướng dẫn trình tự, thủ tục đăng ký việc sử dụng phụ gia không thông dụng để sản xuất, chế biến, pha chế xăng và nhiên liệu",
@@ -19021,6 +19395,41 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "1548/2001/QĐ-TCHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Ban hành quy định tạm thời về thủ tục hải quan đối với tàu biển xuất cảnh, nhập cảnh, quá cảnh, chuyển cảng và kiểm soát, giám sát hải quan tại các cảng biển",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2001-12-26",
+      "hieu_luc_tu": "2002-01-01",
+      "het_hieu_luc_tu": "2003-06-03",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/quyet-dinh-so-57-2003-qd-btc-quy-dinh-ve-thu-tuc-hai-quan-doi-voi-tau-bien-xuat-canh-nhap-canh-qua-canh-chuyen-cang-va-kiem-soat-giam-sat-hai-quan-tai-cac-cang-bien-va-cang-chuyen-dung--19862",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-121-2025-tt-btc-468755.htm",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu toàn văn Điều 2 Quyết định 57/2003/QĐ-BTC ngày 16-04-2003 trên CSDLQG về pháp luật (vbpl.vn ID 19862, 19862_body_content.html) và khoản 3 Điều 2 Thông tư 121/2025/TT-BTC trên Công báo (ID 468755): bị bãi bỏ bởi Điều 2 Quyết định 57/2003/QĐ-BTC từ ngày 03-06-2003 (phần sửa đổi tại Điều 1 QĐ 19/2002/QĐ-TCHQ bãi bỏ bởi TT 121/2025/TT-BTC).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/vbpl.vn/57-2003-qd-btc.html",
+      "ghi_chu": "Hết hiệu lực từ 03-06-2003 theo Điều 2 Quyết định 57/2003/QĐ-BTC.",
+      "slug": "1548-2001-qd-tchq",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "1548/TB-TCHQ/2024",
       "loai": "THONG_BAO",
       "loai_phan_loai": "XAC_DINH_TRUOC",
@@ -19051,6 +19460,41 @@
       "toan_van": "chua_co",
       "slug": "1548-tb-tchq-2024",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1549/2001/QĐ-TCHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Ban hành Bản quy định tạm thời quản lý hải quan đối với hàng hóa bán tại cửa hàng kinh doanh hàng miễn thuế",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2001-12-26",
+      "hieu_luc_tu": "2002-01-01",
+      "het_hieu_luc_tu": "2003-06-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/quyet-dinh-so-54-2003-qd-btc-quy-dinh-quan-ly-hai-quan-doi-voi-hang-hoa-ban-tai-cua-hang-kinh-doanh-hang-mien-thue--19784",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-121-2025-tt-btc-468755.htm",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu toàn văn Điều 2 Quyết định 54/2003/QĐ-BTC ngày 16-04-2003 trên CSDLQG về pháp luật (vbpl.vn ID 19784, 19784_body_content.html) và khoản 3 Điều 2 Thông tư 121/2025/TT-BTC trên Công báo (ID 468755): hết hiệu lực từ 01-06-2003 khi Quyết định 54/2003/QĐ-BTC có hiệu lực (phần sửa đổi tại Điều 1 QĐ 19/2002/QĐ-TCHQ bãi bỏ bởi TT 121/2025/TT-BTC).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/vbpl.vn/54-2003-qd-btc.html",
+      "ghi_chu": "Hết hiệu lực từ 01-06-2003 theo Quyết định 54/2003/QĐ-BTC.",
+      "slug": "1549-2001-qd-tchq",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -19337,6 +19781,41 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "1550/2001/QĐ-TCHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Ban hành quy định tạm thời về thủ tục hải quan đối với bưu phẩm, hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính và vật phẩm, hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ chuyển phát nhanh",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2001-12-26",
+      "hieu_luc_tu": "2002-01-01",
+      "het_hieu_luc_tu": "2003-05-30",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-33-2003-tt-btc-huong-dan-thu-tuc-hai-quan-doi-voi-buu-pham-buu-kien-hang-hoa-xuat-khau-nhap-khau-gui-qua-dich-vu-buu-chinh-va-vat-pham-hang-hoa-xuat-khau-nhap-khau-gui-qua-dich-vu-chuyen-phat-nhanh--19787",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-121-2025-tt-btc-468755.htm",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu CSDLQG về pháp luật (vbpl.vn ID 19787 — Thông tư 33/2003/TT-BTC ngày 16-04-2003) và khoản 3 Điều 2 Thông tư 121/2025/TT-BTC trên Công báo (ID 468755): hết hiệu lực từ 30-05-2003 khi bị thay thế bởi Thông tư 33/2003/TT-BTC (phần sửa đổi tại Điều 1 QĐ 19/2002/QĐ-TCHQ bãi bỏ bởi TT 121/2025/TT-BTC).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/vbpl.vn/33-2003-tt-btc.html",
+      "ghi_chu": "Hết hiệu lực từ 30-05-2003 khi Thông tư 33/2003/TT-BTC có hiệu lực.",
+      "slug": "1550-2001-qd-tchq",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "1553/TB-TCHQ/2023",
       "loai": "THONG_BAO",
       "loai_phan_loai": "XAC_DINH_TRUOC",
@@ -19433,6 +19912,41 @@
       "toan_van": "chua_co",
       "slug": "1556-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1557/2001/QĐ-TCHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Ban hành bản hướng dẫn tạm thời thực hiện Điều 29, Điều 30 Luật Hải quan",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2001-12-28",
+      "hieu_luc_tu": "2002-01-01",
+      "het_hieu_luc_tu": "2026-02-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-121-2025-tt-btc-468755.htm",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/1/29/121signed-1769648656491392901604.pdf",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu khoản 3 Điều 2 Thông tư 121/2025/TT-BTC ngày 18-12-2025 trên Công báo (ID 468755, raw/download/congbaocdn.chinhphu.vn/121-2025-tt-btc.pdf): hướng dẫn tạm thời thực hiện Điều 29, 30 Luật Hải quan 2001 và phần sửa đổi tại Điều 1 Quyết định 19/2002/QĐ-TCHQ đã hết hiệu lực toàn bộ (bãi bỏ chính thức tại khoản 3 Điều 2 TT 121/2025/TT-BTC từ 01-02-2026).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/121-2025-tt-btc.pdf",
+      "ghi_chu": "Hướng dẫn tạm thời Điều 29, 30 Luật Hải quan 2001; đã hết hiệu lực toàn bộ.",
+      "slug": "1557-2001-qd-tchq",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -21490,6 +22004,40 @@
       },
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/17-2023-tt-bnnptnt.pdf",
       "slug": "17-2023-tt-bnnptnt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "17/2025/TT-BNNMT",
+      "loai": "THONG_TU",
+      "ten": "Quy định về phân cấp quản lý nhà nước trong lĩnh vực quản lý chất lượng nông lâm sản và thủy sản",
+      "co_quan": "BNNMT",
+      "ngay_ban_hanh": "2025-06-19",
+      "hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bnnmt"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=214091",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/17-bnnmt.pdf",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=214091) và toàn văn PDF đính kèm trên datafiles.chinhphu.vn (17-bnnmt.pdf): ban hành ngày 19-06-2025, có hiệu lực thi hành từ ngày 01-07-2025; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/datafiles.chinhphu.vn/17-2025-tt-bnnmt.pdf",
+      "ghi_chu": "Quy định về phân cấp quản lý nhà nước trong lĩnh vực quản lý chất lượng nông lâm sản và thủy sản.",
+      "slug": "17-2025-tt-bnnmt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -26606,6 +27154,40 @@
       "toan_van": "chua_co",
       "slug": "1898-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "19/2002/QĐ-TCHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Về việc sửa đổi, bổ sung một số nội dung tại các Quyết định số 1200/2001/QĐ-TCHQ ngày 23/11/2001, số 1257/2001/QĐ-TCHQ ngày 04/12/2001, số 1494/2001/QĐ-TCHQ, số 1495/2001/QĐ-TCHQ, số 1548/2001/QĐ-TCHQ, số 1549/2001/QĐ-TCHQ, số 1550/2001/QĐ-TCHQ, số 1557/2001/QĐ-TCHQ ngày 28/12/2001 của Tổng cục trưởng Tổng cục Hải quan",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2002-01-10",
+      "het_hieu_luc_tu": "2026-02-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-121-2025-tt-btc-468755.htm",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/1/29/121signed-1769648656491392901604.pdf",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu khoản 3 Điều 2 Thông tư 121/2025/TT-BTC ngày 18-12-2025 trên Công báo (ID 468755, raw/download/congbaocdn.chinhphu.vn/121-2025-tt-btc.pdf): bãi bỏ Điều 1 Quyết định số 19/2002/QĐ-TCHQ ngày 10-01-2002 của Tổng cục trưởng Tổng cục Hải quan kể từ ngày 01-02-2026 (các quyết định tạm thời năm 2001 được sửa đổi đều đã hết hiệu lực).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/121-2025-tt-btc.pdf",
+      "ghi_chu": "Hết hiệu lực toàn bộ từ ngày 01-02-2026 theo khoản 3 Điều 2 Thông tư 121/2025/TT-BTC.",
+      "slug": "19-2002-qd-tchq",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -33963,6 +34545,40 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "22/2026/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Tiêu chuẩn và quy chuẩn kỹ thuật",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2026-01-16",
+      "hieu_luc_tu": "2026-01-16",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/khung-chat-luong"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=216688",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/22ndcp.signed.pdf",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=216688) và toàn văn PDF ký số trên datafiles.chinhphu.vn (22ndcp.signed.pdf): ban hành ngày 16-01-2026, có hiệu lực thi hành từ ngày 16-01-2026; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/datafiles.chinhphu.vn/22-2026-nd-cp.pdf",
+      "ghi_chu": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Tiêu chuẩn và quy chuẩn kỹ thuật.",
+      "slug": "22-2026-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "22/2026/TT-BNNMT",
@@ -43755,6 +44371,40 @@
       }
     },
     {
+      "so_hieu": "29/2025/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Quy định về việc đăng ký lưu hành thuốc cổ truyền, vị thuốc cổ truyền, dược liệu",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2025-07-01",
+      "hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=214390",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/29-byt.pdf",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=214390) và toàn văn PDF đính kèm trên datafiles.chinhphu.vn (29-byt.pdf): ban hành ngày 01-07-2025, có hiệu lực thi hành từ ngày 01-07-2025; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/datafiles.chinhphu.vn/29-2025-tt-byt.pdf",
+      "ghi_chu": "Quy định về việc đăng ký lưu hành thuốc cổ truyền, vị thuốc cổ truyền, dược liệu (kèm Phụ lục tại 29-byt-kem.pdf).",
+      "slug": "29-2025-tt-byt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "29001/TB-CHQ/2025",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (3302.10.30)",
@@ -46610,6 +47260,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "31/2025/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Quy định chi tiết một số điều của Luật Dược và Nghị định số 163/2025/NĐ-CP ngày 29 tháng 6 năm 2025 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Dược",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2025-07-01",
+      "hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=214393",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/31-byt.pdf",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=214393) và toàn văn PDF đính kèm trên datafiles.chinhphu.vn (31-byt.pdf): ban hành ngày 01-07-2025, có hiệu lực thi hành từ ngày 01-07-2025; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/datafiles.chinhphu.vn/31-2025-tt-byt.pdf",
+      "ghi_chu": "Quy định chi tiết một số điều của Luật Dược và Nghị định số 163/2025/NĐ-CP ngày 29-06-2025.",
+      "slug": "31-2025-tt-byt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "31/2026/QĐ-TTg",
       "loai": "QUYET_DINH",
       "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
@@ -49207,6 +49891,40 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "32/2025/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Quy định quản lý về chất lượng thuốc cổ truyền, vị thuốc cổ truyền, dược liệu",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2025-07-01",
+      "hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=214395",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/32-byt.pdf",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=214395) và toàn văn PDF đính kèm trên datafiles.chinhphu.vn (32-byt.pdf): ban hành ngày 01-07-2025, có hiệu lực thi hành từ ngày 01-07-2025; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/datafiles.chinhphu.vn/32-2025-tt-byt.pdf",
+      "ghi_chu": "Quy định quản lý về chất lượng thuốc cổ truyền, vị thuốc cổ truyền, dược liệu (kèm Phụ lục tại 32-byt-kem.pdf).",
+      "slug": "32-2025-tt-byt",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "32/2026/TT-BYT",
@@ -55212,6 +55930,41 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "36/2010/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Thực hiện Quy tắc Thủ tục cấp và kiểm tra xuất xứ sửa đổi và Quy tắc cụ thể mặt hàng theo hệ thống hài hòa phiên bản 2007 trong Hiệp định Thương mại hàng hóa thuộc Hiệp định Khung về Hợp tác kinh tế toàn diện giữa Hiệp hội các quốc gia Đông Nam Á và nước Cộng hòa nhân dân Trung Hoa",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2010-11-15",
+      "hieu_luc_tu": "2011-01-01",
+      "het_hieu_luc_tu": "2019-09-12",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "xuat-xu-fta"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-36-2010-tt-bct-5431/2621.htm",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-36-2010-tt-bct-thuc-hien-quy-tac-thu-tuc-cap-va-kiem-tra-xuat-xu-sua-doi-va-quy-tac-cu-the-mat-hang-theo-he-thong-hai-hoa-phien-ban-2007-trong-hiep-dinh-thuong-mai-hang-hoa-thuoc-hiep-dinh-khung-ve-hop-tac-kinh-te-toan-dien-giua-hiep-hoi-cac-quoc-gia-dong-nam-a-va-nuoc-cong-hoa-nhan-dan-trung-hoa--25944",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu Công báo nước CHXHCN Việt Nam (ID 5431/2621) và CSDLQG về pháp luật (vbpl.vn ID 25944, toàn văn 25944_body_content.html): ban hành ngày 15-11-2010, có hiệu lực từ 01-01-2011 (bãi bỏ Phụ lục II và Phụ lục III của Quyết định 12/2007/QĐ-BTM); hết hiệu lực khi bị thay thế bởi Thông tư 12/2019/TT-BCT từ ngày 12-09-2019.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/vbpl.vn/36-2010-tt-bct.html",
+      "ghi_chu": "Hết hiệu lực từ ngày 12-09-2019 khi bị Thông tư 12/2019/TT-BCT thay thế.",
+      "slug": "36-2010-tt-bct",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "36/2015/TT-BCT",
@@ -67261,6 +68014,40 @@
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (2 mã HS). GHI CHÚ NGHIỆP VỤ: Vàng nguyên liệu (HS 7108.12.10; 7108.12.90) thuộc quản lý NHNN. PDF datafiles cũ là ảnh — dùng bản Công báo CDN có lớp chữ.",
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/47-2018-tt-nhnn.pdf",
       "slug": "47-2018-tt-nhnn",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "47/2025/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Bãi bỏ các Thông tư quy định về thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu do Bộ trưởng Bộ Tài chính ban hành trong bối cảnh dịch Covid-19",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2025-06-20",
+      "hieu_luc_tu": "2025-06-20",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-47-2025-tt-btc-45281.htm",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45281/57149-1-2025855-85647-2025-tt-btc.pdf",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu Công báo nước CHXHCN Việt Nam (ID 45281) và toàn văn PDF Công báo (57149-1-2025855-85647-2025-tt-btc.pdf): ban hành ngày 20-06-2025, có hiệu lực từ ngày 20-06-2025 (riêng Điều 2 bị bãi bỏ từ 01-02-2026 theo điểm c khoản 2 Điều 2 Thông tư 121/2025/TT-BTC).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/47-2025-tt-btc.pdf",
+      "ghi_chu": "Bãi bỏ Thông tư 121/2021/TT-BTC và Thông tư 82/2021/TT-BTC; riêng Điều 2 bị bãi bỏ từ 01-02-2026 bởi điểm c khoản 2 Điều 2 Thông tư 121/2025/TT-BTC.",
+      "slug": "47-2025-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -91683,6 +92470,40 @@
       }
     },
     {
+      "so_hieu": "90/2025/QH15",
+      "loai": "LUAT",
+      "ten": "Luật sửa đổi, bổ sung một số điều của Luật Đấu thầu, Luật Đầu tư theo phương thức đối tác công tư, Luật Hải quan, Luật Thuế giá trị gia tăng, Luật Thuế xuất khẩu, thuế nhập khẩu, Luật Đầu tư, Luật Đầu tư công, Luật Quản lý, sử dụng tài sản công",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2025-06-25",
+      "hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/luat-khung"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=214558",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/90qh.signed.pdf",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=214558) và toàn văn PDF ký số trên datafiles.chinhphu.vn (90qh.signed.pdf): Quốc hội thông qua ngày 25-06-2025, có hiệu lực thi hành từ ngày 01-07-2025; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/datafiles.chinhphu.vn/90-2025-qh15.pdf",
+      "ghi_chu": "Sửa đổi, bổ sung một số điều của 8 luật (trong đó có Luật Hải quan 54/2014/QH13, Luật Thuế XNK 107/2016/QH13, Luật Thuế GTGT 48/2024/QH15).",
+      "slug": "90-2025-qh15",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "90/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -92584,6 +93405,40 @@
       }
     },
     {
+      "so_hieu": "94/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định về Cơ chế thử nghiệm có kiểm soát trong lĩnh vực ngân hàng",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-04-29",
+      "hieu_luc_tu": "2025-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "bo-may"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-94-2025-nd-cp-44816.htm",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/4/44816/56196-1-2025691-69294-2025-nd-cp.pdf",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu Công báo nước CHXHCN Việt Nam (ID 44816) và toàn văn PDF Công báo (56196-1-2025691-69294-2025-nd-cp.pdf): ban hành ngày 29-04-2025, có hiệu lực thi hành từ ngày 01-07-2025; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/94-2025-nd-cp.pdf",
+      "ghi_chu": "Quy định về Cơ chế thử nghiệm có kiểm soát trong lĩnh vực ngân hàng.",
+      "slug": "94-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "94719/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "CHUA_XAC_DINH",
@@ -92739,6 +93594,40 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "95/2025/QH15",
+      "loai": "LUAT",
+      "ten": "Luật Đường sắt",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2025-06-27",
+      "hieu_luc_tu": "2026-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bxd"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=214604",
+          "truy_cap": "2026-11-15"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/95qh.signed.pdf",
+          "truy_cap": "2026-11-15"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=214604) và toàn văn PDF ký số trên datafiles.chinhphu.vn (95qh.signed.pdf): Quốc hội thông qua ngày 27-06-2025, có hiệu lực thi hành từ ngày 01-01-2026; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-15",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "toan_van": "raw/download/datafiles.chinhphu.vn/95-2025-qh15.pdf",
+      "ghi_chu": "Luật Đường sắt số 95/2025/QH15 ngày 27-06-2025 (hiệu lực từ 01-01-2026).",
+      "slug": "95-2025-qh15",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "950/TB-TCHQ/2018",
