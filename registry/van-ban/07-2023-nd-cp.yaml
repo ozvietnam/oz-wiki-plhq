@@ -1,22 +1,24 @@
 # Sổ đăng ký văn bản — stub. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 07/2023/NĐ-CP
 loai: NGHI_DINH
-ten: Sửa đổi, bổ sung một số điều của Nghị định số 98/2021/NĐ-CP ngày 28 tháng 12 năm 2021 của Chính phủ quy định về quản lý trang thiết bị y tế
+ten: Sửa đổi, bổ sung một số điều của Nghị định số 98/2021/NĐ-CP ngày 08 tháng 11 năm 2021 của Chính phủ về quản lý trang thiết bị y tế
 co_quan: CP
-ngay_ban_hanh: '2023-03-10'
-hieu_luc_tu: '2023-03-15'
+ngay_ban_hanh: '2023-03-03'
+hieu_luc_tu: '2023-03-03'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'thẻ vanban.chinhphu.vn (docid=210028) và quan hệ trong sổ: Nghị định 07/2023/NĐ-CP ban hành 10-03-2023, có hiệu lực từ 15-03-2023 theo Điều 6, sửa đổi, bổ sung một số điều của Nghị định 98/2021/NĐ-CP về quản lý trang thiết bị y tế; đối chiếu còn hiệu lực, được dẫn chiếu bởi TT 19/2024/TT-BYT'
+  pham_vi: 'Đã đối chiếu toàn văn PDF ký số (07-nd.signed.pdf trên datafiles.chinhphu.vn): Nghị định số 07/2023/NĐ-CP do Phó Thủ tướng Trần Hồng Hà ký ban hành ngày 03-03-2023 và có hiệu lực thi hành kể từ ngày ký ban hành (03-03-2023) theo Điều 2, sửa đổi, bổ sung một số điều của Nghị định số 98/2021/NĐ-CP ngày 08-11-2021 về quản lý trang thiết bị y tế; hiện đang còn hiệu lực.'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
-  boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'NĐ sửa đổi quan trọng nhất của 98/2021/NĐ-CP — bổ sung quy định phân loại TTBYT theo mức rủi ro. Được dẫn chiếu trong TT 19/2024, TT 24/2026, TT 27/2026, TT 28/2026.'
-toan_van: chua_co
+  ngay: '2026-11-15'
+  boi: paperclip-agent@ozvietnam
+ghi_chu: NĐ sửa đổi quan trọng nhất của 98/2021/NĐ-CP — bổ sung quy định phân loại TTBYT theo mức rủi ro. Được dẫn chiếu trong TT 19/2024, TT 24/2026, TT 27/2026, TT 28/2026.
+toan_van: raw/download/datafiles.chinhphu.vn/07-2023-nd-cp.pdf
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=210028&pageid=27160
     truy_cap: '2026-10-12'
-    ghi_chu: 'Thẻ metadata trên vanban.chinhphu.vn — cần verify URL chính xác'
+    ghi_chu: Thẻ metadata trên vanban.chinhphu.vn — cần verify URL chính xác
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/3/07-nd.signed.pdf
+    truy_cap: '2026-11-15'

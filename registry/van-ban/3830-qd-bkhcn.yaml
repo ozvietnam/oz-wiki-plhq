@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — từ sheet HT biểu thuế
 so_hieu: 3830/QĐ-BKHCN
 loai: QUYET_DINH
-ten: 'Quyết định về việc hủy bỏ sản phẩm có mã HS 9405.11.99 tại Quyết định số 367/QĐ-BKHCN ngày 12 tháng 3 năm 2024 của Bộ trưởng Bộ Khoa học và Công nghệ'
+ten: Quyết định về việc hủy bỏ sản phẩm có mã HS 9405.11.99 tại Quyết định số 367/QĐ-BKHCN ngày 12 tháng 3 năm 2024 của Bộ trưởng Bộ Khoa học và Công nghệ
 co_quan: BKHCN
 ngay_ban_hanh: '2025-11-21'
 hieu_luc_tu: '2025-11-21'
@@ -15,14 +15,16 @@ nguon:
     truy_cap: '2026-11-14'
   - url: https://vanban.chinhphu.vn/?classid=2&docid=207275&pageid=27160
     truy_cap: '2026-11-14'
+  - url: https://mic.mediacdn.vn/document/2025/11/23/3830qd0001-176390519420676625079.pdf
+    truy_cap: '2026-11-15'
 quan_he:
   sua_doi:
     - so_hieu: 367/QĐ-BKHCN
       tu_ngay: '2025-11-21'
-      pham_vi: 'Hủy bỏ sản phẩm có mã HS 9405.11.99 tại Quyết định số 367/QĐ-BKHCN ngày 12-03-2024'
+      pham_vi: Hủy bỏ sản phẩm có mã HS 9405.11.99 tại Quyết định số 367/QĐ-BKHCN ngày 12-03-2024
     - so_hieu: 2711/QĐ-BKHCN
       tu_ngay: '2025-11-21'
-      pham_vi: 'Bãi bỏ mã HS 9405.11.99 tại mục 10.4 (bóng đèn có đi-ốt phát sáng LED thông dụng cố định) trong Phụ lục Danh mục sản phẩm, hàng hóa nhóm 2'
+      pham_vi: Bãi bỏ mã HS 9405.11.99 tại mục 10.4 (bóng đèn có đi-ốt phát sáng LED thông dụng cố định) trong Phụ lục Danh mục sản phẩm, hàng hóa nhóm 2
 xac_minh:
   muc: NGUON_A
   pham_vi: 'Đã đối chiếu trên Cổng Thông tin điện tử Bộ Khoa học và Công nghệ (mst.gov.vn/van-ban-phap-luat/25249.htm) và Cổng Chính phủ (vanban.chinhphu.vn docid=209891, docid=207275): Quyết định số 3830/QĐ-BKHCN do Thứ trưởng Lê Xuân Định ký ban hành và có hiệu lực từ ngày 21-11-2025 (bản ghi cũ để ngày ban hành giả định 2025-01-01 và ghi tên tạm từ Quyết định 3830/QĐ-BKHCN năm 2019 đã bị thay thế bởi Quyết định 2711/QĐ-BKHCN ngày 30-12-2022), quy định hủy bỏ sản phẩm có mã HS 9405.11.99 tại Quyết định số 367/QĐ-BKHCN ngày 12-03-2024 sửa đổi, bổ sung nhóm sản phẩm chiếu sáng bằng công nghệ LED tại Quyết định số 2711/QĐ-BKHCN. Văn bản hiện đang còn hiệu lực thi hành.'
@@ -30,4 +32,4 @@ xac_minh:
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Quyết định 3830/QĐ-BKHCN ngày 21-11-2025 hủy bỏ sản phẩm có mã HS 9405.11.99 khỏi Danh mục hàng hóa nhóm 2 tại Quyết định 367/QĐ-BKHCN và Quyết định 2711/QĐ-BKHCN (lưu ý: cần phân biệt với Quyết định 3830/QĐ-BKHCN ngày 18-12-2019 công bố hàng hóa nhóm 2 đợt 4 đã hết hiệu lực và bị thay thế bởi Quyết định 2711/QĐ-BKHCN từ 15-02-2023).'
-toan_van: chua_co
+toan_van: raw/download/mic.mediacdn.vn/3830-qd-bkhcn.pdf

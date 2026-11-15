@@ -1,26 +1,24 @@
 # Sổ đăng ký văn bản — stub. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 35/2025/NĐ-CP
 loai: NGHI_DINH
-ten: Nghị định quy định chi tiết thi hành Luật Thú y
+ten: Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nông nghiệp và Môi trường
 co_quan: CP
-ngay_ban_hanh: '2025-12-15'
-hieu_luc_tu: '2026-02-01'
+ngay_ban_hanh: '2025-02-25'
+hieu_luc_tu: '2025-03-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'thẻ vanban.chinhphu.vn (docid=223102) và quan hệ trong sổ: Nghị định 35/2025/NĐ-CP ban hành 15-12-2025, có hiệu lực từ 01-02-2026, hướng dẫn Luật Thú y 79/2015/QH13 và là căn cứ ban hành TT 01/2026/TT-BNNMT; đối chiếu còn hiệu lực'
+  pham_vi: 'Đã đối chiếu toàn văn PDF ký số (35-nd.signed.pdf trên datafiles.chinhphu.vn): Nghị định số 35/2025/NĐ-CP do Phó Thủ tướng Trần Hồng Hà ký ban hành ngày 25-02-2025, có hiệu lực thi hành từ ngày 01-03-2025 theo khoản 1 Điều 4, quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nông nghiệp và Môi trường (là căn cứ thẩm quyền ban hành Thông tư 01/2026/TT-BNNMT; bản ghi stub cũ ghi nhầm tên sang Nghị định hướng dẫn Luật Thú y 35/2016/NĐ-CP).'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
-  boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'NĐ hướng dẫn Luật Thú y 2015 — căn cứ pháp lý cho TT 01/2026/TT-BNNMT và các VB kiểm dịch động vật mới.'
-toan_van: chua_co
+  ngay: '2026-11-15'
+  boi: paperclip-agent@ozvietnam
+ghi_chu: Nghị định quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nông nghiệp và Môi trường — căn cứ pháp lý về thẩm quyền ban hành cho TT 01/2026/TT-BNNMT và các văn bản của BNNMT.
+toan_van: raw/download/datafiles.chinhphu.vn/35-2025-nd-cp.pdf
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=223102&pageid=27160
     truy_cap: '2026-10-12'
-    ghi_chu: 'Thẻ metadata — cần verify URL chính xác'
-quan_he:
-  huong_dan:
-    - so_hieu: 79/2015/QH13
-      can_cu: 'Luật Thú y 79/2015/QH13'
+    ghi_chu: Thẻ metadata — cần verify URL chính xác
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/3/35-nd.signed.pdf
+    truy_cap: '2026-11-15'
