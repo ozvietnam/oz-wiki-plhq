@@ -6,19 +6,22 @@ loai_phan_loai_can_cu: proxy_ket_qua_phan_loai_title
 loai_phan_loai_ngay: '2026-10-14'
 ten: Phân loại mã HS theo tracuuhs.com (3824.99.99)
 co_quan: TCHQ
-ngay_ban_hanh: '2020-01-01'
-hieu_luc_tu: '2020-01-01'
-tinh_trang: CHUA_XAC_MINH
+ngay_ban_hanh: '2020-02-27'
+hieu_luc_tu: '2020-02-27'
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - phan-loai-hs
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'HS code lấy từ tracuuhs.com — TB-TCHQ 1166/2020'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
-  ghi_chu: 'Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A'
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=6831 trong data/customs/processed/all-1990-2026.csv): số hiệu 1166/TB-TCHQ, ban hành ngày 27/02/2020 (2020-02-27), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-15'
+  boi: paperclip-agent@ozvietnam
 nguon:
   - url: https://www.tracuuhs.com/tin-tuc/tchq-1166-2020
     truy_cap: '2026-02-26'
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=56931&cid=1294
+    truy_cap: '2026-11-15'
+  - url: https://files.customs.gov.vn/CustomsCMS/TP_HO_CHI_MINH/2020/Web/Data/DocumentAttachments/Vanban_1166.PDF
+    truy_cap: '2026-11-15'
 toan_van: chua_co
