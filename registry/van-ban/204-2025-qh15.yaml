@@ -15,9 +15,11 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Nghị quyết QH về chính sách giảm thuế GTGT 8% từ 01/07/2025 - 31/12/2026. Là căn cứ pháp lý cho NĐ 174/2025/NĐ-CP.'
-toan_van: chua_co
+ghi_chu: Nghị quyết QH về chính sách giảm thuế GTGT 8% từ 01/07/2025 - 31/12/2026. Là căn cứ pháp lý cho NĐ 174/2025/NĐ-CP.
+toan_van: raw/download/datafiles.chinhphu.vn/204-2025-qh15.pdf
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=217343&pageid=27160
     truy_cap: '2026-10-12'
-    ghi_chu: 'Thẻ metadata — cần verify URL chính xác'
+    ghi_chu: Thẻ metadata — cần verify URL chính xác
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/204-qh15.signed.pdf
+    truy_cap: '2026-11-15'
