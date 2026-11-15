@@ -20,7 +20,7 @@ tags: [stub, kiem-tra-chuyen-nganh, het-hieu-luc]
 
 > **Lưu ý**: Theo rule của Sếp Thắng, VB bị bãi bỏ / hết hiệu lực chỉ tạo stub ngắn (metadata + quan hệ), KHÔNG nạp toàn văn PDF. Wiki này ghi nhận lịch sử.
 
-**Bãi bỏ / thay thế bởi**: Bị thay thế bởi 13/2026/TT-BNNPTNT
+**Bãi bỏ / thay thế bởi**: Bị thay thế bởi 17/2023/TT-BNNPTNT
 
 **Cơ quan ban hành**: Bộ Nông nghiệp và Phát triển nông thôn
 
