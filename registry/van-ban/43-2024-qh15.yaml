@@ -1,30 +1,25 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 43/2024/QH15
 loai: LUAT
-ten: Luật Bảo vệ và kiểm dịch thực vật
+ten: Luật sửa đổi, bổ sung một số điều của Luật Đất đai số 31/2024/QH15, Luật Nhà ở số 27/2023/QH15, Luật Kinh doanh bất động sản số 29/2023/QH15 và Luật Các tổ chức tín dụng số 32/2024/QH15
 co_quan: QH
-ngay_ban_hanh: '2024-11-18'
-hieu_luc_tu: '2025-01-01'
+ngay_ban_hanh: '2024-06-29'
+hieu_luc_tu: '2024-08-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
-quan_he:
-  thay_the:
-    - so_hieu: 41/2013/QH13
-      tu_ngay: '2025-01-01'
-      can_cu: Điều lệ thi hành Luật 43/2024/QH15
-  sua_doi:
-    - so_hieu: 146/2025/QH15
-      pham_vi: một số điều (Luật sửa đổi 15 luật lĩnh vực nông nghiệp, môi trường)
 nguon:
-  - url: https://kiemdichthucvatthanhhoa.gov.vn/luat-bao-ve-va-kiem-dich-thuc-vat
-    truy_cap: '2026-10-28'
-  - url: https://thuvienphapluat.vn/banan/tin-tuc/chu-de/bao-ve-va-kiem-dich-thuc-vat
-    truy_cap: '2026-10-28'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=211201&classid=1&orggroupid=1
+    truy_cap: '2026-11-15'
+  - url: https://congbao.chinhphu.vn/van-ban/luat-so-43-2024-qh15-42578.htm
+    truy_cap: '2026-11-15'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/43-2024-qh15.pdf
+    truy_cap: '2026-11-15'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề, thông qua kỳ họp 8 Quốc hội khóa XV tháng 11-2024, hiệu lực 01-01-2025 thay Luật 41/2013/QH13 (nhiều nguồn độc lập); ngày 18-11-2024 và điều khoản thi hành chưa đối chiếu công báo gốc'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-28'
-  boi: zcode@ozvietnam
-ghi_chu: 'Luật khung KDTV hiện hành — nạp theo #237. Cần nâng NGUON_A (công báo) khi có nhu cầu trích điều.'
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu nguồn bậc A trên Cổng Thông tin điện tử Chính phủ (vanban.chinhphu.vn docid=211201, datafiles.chinhphu.vn 43-2024-qh15.pdf) và Công báo Chính phủ (congbao.chinhphu.vn 42578): Quốc hội thông qua ngày 29/06/2024, có hiệu lực từ 01/08/2024, sửa đổi thời điểm có hiệu lực của Luật Đất đai 31/2024/QH15, Luật Nhà ở 27/2023/QH15, Luật Kinh doanh bất động sản 29/2023/QH15 và Luật Các tổ chức tín dụng 32/2024/QH15.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-15'
+  boi: paperclip-agent@ozvietnam
+ghi_chu: 'Đính chính thông tin văn bản: số hiệu 43/2024/QH15 là Luật sửa đổi Luật Đất đai, Luật Nhà ở, Luật Kinh doanh BĐS và Luật Các tổ chức tín dụng (thông qua ngày 29/06/2024, hiệu lực 01/08/2024), không phải Luật Bảo vệ và kiểm dịch thực vật (Luật BV&KDTV hiện hành vẫn là Luật 41/2013/QH13 được sửa đổi bởi Luật 146/2025/QH15).'
+toan_van: raw/download/datafiles.chinhphu.vn/43-2024-qh15.pdf

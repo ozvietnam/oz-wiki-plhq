@@ -13,14 +13,12 @@ nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
   - kiem-tra-chuyen-nganh/bnnmt
 xac_minh:
-  muc: NGUON_B
+  muc: NGUON_A
   pham_vi: 'số hiệu, tiêu đề đầy đủ, ngày ban hành 05-09-2014, hiệu lực 01-01-2015; HẾT hiệu lực 15-12-2024 — nguyên văn Điều 5 khoản 2 TT 14/2024/TT-BNNPTNT (đã đọc toàn văn TVPL 631671): "Thông tư số 30/2014/TT-BNNPTNT ... hết hiệu lực kể từ ngày Thông tư này có hiệu lực"'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-28'
   boi: zcode@ozvietnam
-ghi_chu: >-
-  Sửa 28-10-2026 theo #237: tình trạng CON cũ là SAI (ghi chú "chưa thấy thông tư thay thế" lỗi thời) —
-  TT 14/2024/TT-BNNPTNT đã thay từ 15-12-2024. Bài tổng hợp KTCN 2026 — xem hs-code-api data/ktcn-regime-2026.json.
+ghi_chu: 'Sửa 28-10-2026 theo #237: tình trạng CON cũ là SAI (ghi chú "chưa thấy thông tư thay thế" lỗi thời) — TT 14/2024/TT-BNNPTNT đã thay từ 15-12-2024. Bài tổng hợp KTCN 2026 — xem hs-code-api data/ktcn-regime-2026.json.'
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=176058&pageid=27160
     truy_cap: '2026-10-04'

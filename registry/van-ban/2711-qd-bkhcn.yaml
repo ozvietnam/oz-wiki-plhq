@@ -5,7 +5,7 @@ ten: Về việc công bố sản phẩm, hàng hóa nhóm 2 thuộc trách nhi�
 co_quan: BKHCN
 ngay_ban_hanh: '2022-12-30'
 hieu_luc_tu: '2022-12-30'
-tinh_trang: CHUA_XAC_MINH
+tinh_trang: HET_HIEU_LUC_MOT_PHAN
 nhanh:
   - kiem-tra-chuyen-nganh/bkhcn
 nguon:
@@ -18,13 +18,9 @@ nguon:
 trich_dan_trong_bieu_thue: 263
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'thẻ vanban.chinhphu.vn: ban hành 30-12-2022; người ký Lê Xuân Định'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-  chan:
-    ma: THIEU_BAI_TUONG_MINH
-    viec_tiep: Chờ QĐ/TT-BKHCN hoặc vbpl ghi rõ hết/còn 2711; không suy ra HET từ NĐ 37 hết khung 132/74 hay TT 36 danh mục rủi ro mới.
-    ngay: '2026-10-04'
+  pham_vi: 'Đã đối chiếu toàn văn PDF ký số trên Cổng Thông tin điện tử Chính phủ (vanban.chinhphu.vn docid=207275, datafiles.chinhphu.vn 2711-bkhcn.signed.pdf, 43 trang, Thứ trưởng Lê Xuân Định ký ngày 30/12/2022): Điều 3 quy định có hiệu lực kể từ ngày ký (30/12/2022), thay thế QĐ 3810/QĐ-BKHCN (18/12/2019) và QĐ 3115/QĐ-BKHCN (13/11/2020); đã được sửa đổi, bổ sung một phần bởi QĐ 366/QĐ-BKHCN (14/03/2023), QĐ 367/QĐ-BKHCN (14/03/2024) và QĐ 3830/QĐ-BKHCN (21/11/2025).'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-15'
+  boi: paperclip-agent@ozvietnam
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 263 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn + luatvietnam.vn). KHUNG KTCN 2026 (tin cậy MEDIUM): Khung ''nhóm 2'' (NĐ 132/2008, NĐ 74/2018) hết hiệu lực từ 01/7/2026; danh mục rủi ro mới của Bộ KH&CN là TT 36/2026/TT-BKHCN. Hàng rủi ro trung bình chỉ công bố hợp quy, rủi ro cao mới đăng ký kiểm tra. Cần đối chiếu mã với phụ lục TT 36/2026. GHI CHÚ NGHIỆP VỤ (hs-code-api): Đã sửa đổi/bổ sung bởi QĐ 366/QĐ-BKHCN (2023), QĐ 367/QĐ-BKHCN (2024); phần CNTT-viễn thông thay bằng TT 29/2025/TT-BKHCN'
 toan_van: raw/download/datafiles.chinhphu.vn/2711-qd-bkhcn.pdf
