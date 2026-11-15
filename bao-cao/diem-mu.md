@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-11-15
 
-Tổng 4204 điểm: **9 cao**, 174 vừa, 4021 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 4105 điểm: **9 cao**, 174 vừa, 3922 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -14,10 +14,10 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | THIEU_VBHN | Vừa | 1 | `nap-lam-sach` |
 | Văn bản khung thiếu thông tin | Vừa | 1 | `he-thong-hoa` |
 | Bảng dẫn chiếu mã HS sang văn bản chưa có bảng | Vừa | 1 | `danh-muc-hs` |
-| Hiệu lực chưa đối chiếu nguồn A | Thấp | 1974 | `hieu-luc` |
-| Chưa có nguồn chính thống | Thấp | 1973 | `truy-vet-nguon` |
+| Hiệu lực chưa đối chiếu nguồn A | Thấp | 1925 | `hieu-luc` |
+| Chưa có nguồn chính thống | Thấp | 1924 | `truy-vet-nguon` |
 | Văn bản của cơ quan đã sáp nhập | Thấp | 41 | `do-tham` |
-| Chưa có toàn văn | Thấp | 25 | `nap-lam-sach` |
+| Chưa có toàn văn | Thấp | 24 | `nap-lam-sach` |
 | Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay | Thấp | 15 | `hieu-luc` |
 | HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp) | Thấp | 5 | `hieu-luc` |
 
@@ -129,7 +129,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 
 - [ ] **292/2026/NĐ-CP dẫn mã HS sang 33/2024/NĐ-CP — văn bản đó chưa có bảng** — danh-muc/292-2026-nd-cp.csv có dòng không ghi mã mà dẫn chiếu 33/2024/NĐ-CP. Trích danh-muc/33-2024-nd-cp.csv để mã HS của các dòng này tra được.
 
-## Hiệu lực chưa đối chiếu nguồn A (1974)
+## Hiệu lực chưa đối chiếu nguồn A (1925)
 
 - [ ] **08/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **10/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
@@ -171,9 +171,9 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **1032/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **1039/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **104/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- … và 1934 điểm khác (xem bao-cao/diem-mu.json)
+- … và 1885 điểm khác (xem bao-cao/diem-mu.json)
 
-## Chưa có nguồn chính thống (1973)
+## Chưa có nguồn chính thống (1924)
 
 - [ ] **2169/QĐ-CHQ: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **2284/QĐ-BKHCN: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
@@ -215,7 +215,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **1026/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **1027/TB-TCHQ/2019: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **1027/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- … và 1933 điểm khác (xem bao-cao/diem-mu.json)
+- … và 1884 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Văn bản của cơ quan đã sáp nhập (41)
 
@@ -261,7 +261,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **638/TB-TCHQ/2025 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
 - … và 1 điểm khác (xem bao-cao/diem-mu.json)
 
-## Chưa có toàn văn (25)
+## Chưa có toàn văn (24)
 
 - [ ] **09/2014/NĐ-CP: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "09/2014/NĐ-CP" --ghi
 - [ ] **1536/QĐ-BYT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "1536/QĐ-BYT" --ghi
@@ -283,7 +283,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **6266/QĐ-BCA: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "6266/QĐ-BCA" --ghi
 - [ ] **63/2026/TT-BKHCN: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "63/2026/TT-BKHCN" --ghi
 - [ ] **67/2026/VBHN-BNNMT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "67/2026/VBHN-BNNMT" --ghi
-- [ ] **6735/TB-TCHQ: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "6735/TB-TCHQ" --ghi
 - [ ] **7866/QĐ-BYT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "7866/QĐ-BYT" --ghi
 - [ ] **8378/QĐ-BCA: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "8378/QĐ-BCA" --ghi
 - [ ] **9981/QĐ-BCA: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "9981/QĐ-BCA" --ghi
