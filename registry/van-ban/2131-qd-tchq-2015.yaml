@@ -1,0 +1,37 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 2131/QĐ-TCHQ
+loai: QUYET_DINH
+ten: Ban hành Quy chế phân tích để phân loại hàng hóa, phân tích để kiểm tra chất lượng, kiểm tra an toàn thực phẩm đối với hàng hóa xuất khẩu, nhập khẩu
+co_quan: TCHQ
+ngay_ban_hanh: '2015-07-31'
+hieu_luc_tu: '2015-07-31'
+het_hieu_luc_tu: '2017-09-06'
+tinh_trang: HET_HIEU_LUC
+nhanh:
+  - phan-loai-hs/quy-trinh-phan-loai
+quan_he:
+  thay_the:
+    - so_hieu: 4023/QĐ-TCHQ
+      tu_ngay: '2015-07-31'
+      pham_vi: toàn bộ
+      can_cu: Chuỗi kế thừa Quy chế phân tích, phân loại hàng hóa XNK của Tổng cục Hải quan (1628/QĐ-TCHQ → 4023/QĐ-TCHQ → 2131/QĐ-TCHQ → 2999/QĐ-TCHQ)
+nguon:
+  - url: https://vbpl.vn/van-ban/chi-tiet/quyet-dinh-so-1628-qd-tchq-ban-hanh-quy-che-phan-tich-phan-loai-hang-hoa-xuat-nhap-khau-trong-nganh-hai-quan--86278
+    truy_cap: '2026-11-15'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/11/21/2022-08%20C%E1%BB%A5c%20ki%E1%BB%83m%20%C4%91%E1%BB%8Bnh%20HQ.pdf
+    truy_cap: '2026-11-15'
+toan_van: raw/download/vbpl.vn/1628-qd-tchq-noi-dung.txt
+xac_minh:
+  muc: NGUON_A
+  pham_vi: >-
+    Đối chiếu chuỗi hiệu lực Quy chế phân tích, phân loại hàng hóa XNK của Tổng cục Hải quan theo
+    hồ sơ CSDLQG (vbpl.vn ItemID=86278) và tài liệu Cục Kiểm định hải quan trên cổng Tổng cục Hải
+    quan (files.customs.gov.vn): Quyết định 2131/QĐ-TCHQ ngày 31-07-2015 thay thế Quyết định
+    4023/QĐ-TCHQ và đã hết hiệu lực từ ngày 06-09-2017 khi bị thay thế bởi Quyết định 2999/QĐ-TCHQ.
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-15'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: >-
+  Quy chế phân tích để phân loại hàng hóa, phân tích để kiểm tra chất lượng, kiểm tra ATTP đối với
+  hàng hóa XNK giai đoạn 2015–2017 (thay thế QĐ 4023/QĐ-TCHQ, bị thay thế bởi QĐ 2999/QĐ-TCHQ ngày
+  06-09-2017).
