@@ -1,4 +1,4 @@
-# Quan hệ cũ – mới giữa các văn bản — 2026-11-14
+# Quan hệ cũ – mới giữa các văn bản — 2026-11-15
 
 Mũi tên đi từ văn bản MỚI tới văn bản bị tác động. Sinh tự động bằng `node tools/dung.mjs`.
 
@@ -13,10 +13,13 @@ flowchart LR
   n_155_2026_N__CP["155/2026/NĐ-CP<br/>còn hiệu lực"]
   n_81_2025_QH15["81/2025/QH15<br/>còn hiệu lực"]
   n_02_2011_QH13["02/2011/QH13<br/>còn hiệu lực"]
+  n_96_2022_N__CP["96/2022/NĐ-CP<br/>hết hiệu lực"]
+  n_98_2017_N__CP["98/2017/NĐ-CP<br/>hết hiệu lực"]
   n_105_2022_N__CP -->|thay thế từ 2023-01-15| n_15_2017_N__CP
   n_124_2020_N__CP -->|thay thế từ 2020-12-10| n_81_2013_N__CP
   n_155_2026_N__CP -->|sửa đổi| n_124_2020_N__CP
   n_81_2025_QH15 -->|sửa đổi| n_02_2011_QH13
+  n_96_2022_N__CP -->|thay thế từ 2022-12-01| n_98_2017_N__CP
 ```
 
 ## Hải quan — luật, thủ tục, kiểm tra giám sát
@@ -70,6 +73,8 @@ flowchart LR
   n_35_2018_QH14["35/2018/QH14<br/>còn hiệu lực"]
   n_60_2019_TT_BTC["60/2019/TT-BTC<br/>còn hiệu lực"]
   n_39_2015_TT_BTC["39/2015/TT-BTC<br/>còn hiệu lực"]
+  n_42_2005_QH11["42/2005/QH11<br/>hết hiệu lực"]
+  n_29_2001_QH10["29/2001/QH10<br/>hết hiệu lực"]
   n_46_2024_N__CP["46/2024/NĐ-CP<br/>còn hiệu lực"]
   n_54_2026_VBHN_TT_BTC["54/2026/VBHN-TT-BTC<br/>còn hiệu lực"]
   n_142_2026_TT_BTC["142/2026/TT-BTC<br/>chưa có hiệu lực"]
@@ -121,6 +126,7 @@ flowchart LR
   n_38_2015_TT_BTC -->|sửa đổi Sửa nhiều điều về thủ tục HQ, thuế XK NK từ 2026-02-01| n_121_2025_TT_BTC
   n_39_2015_TT_BTC -->|sửa đổi Sửa đổi, bổ sung một số điều của TT 39/2015/TT-BTC từ 2019-06-06| n_60_2019_TT_BTC
   n_39_2018_TT_BTC -->|sửa đổi| n_38_2015_TT_BTC
+  n_42_2005_QH11 -->|sửa đổi từ 2006-01-01| n_29_2001_QH10
   n_42_2019_QH14 -->|sửa đổi từ 2019-11-01| n_50_2005_QH11
   n_46_2024_N__CP -->|sửa đổi từ 2024-07-01| n_99_2013_N__CP
   n_54_2026_VBHN_TT_BTC -->|hợp nhất| n_142_2026_TT_BTC
