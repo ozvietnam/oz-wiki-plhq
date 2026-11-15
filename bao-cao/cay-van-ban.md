@@ -166,7 +166,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [2079/QĐ-TCHQ](../registry/van-ban/2079-qd-tchq.yaml) — Ban hành Danh mục hàng hóa rủi ro về phân loại hàng hóa
 - ⚫ [583/QĐ-TCHQ](../registry/van-ban/583-qd-tchq-2019.yaml) — Ban hành Danh mục hàng hóa xuất khẩu, nhập khẩu rủi ro về phân loại hàng hóa và áp dụng mức thuế _(hết hiệu lực 2021-07-19)_
 - ❔ [1920/QĐ-TCHQ](../registry/van-ban/1920-qd-tchq-2018.yaml) — Ban hành Sổ tay nghiệp vụ thực hiện thủ tục thông quan hàng hóa xuất khẩu, nhập khẩu tại cấp Chi cục Hải quan
-- ❔ [1921/QĐ-TCHQ](../registry/van-ban/1921-qd-tchq-2018.yaml) — Về việc ban hành Quy trình phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu nhập khẩu
+- 🟢 [1921/QĐ-TCHQ](../registry/van-ban/1921-qd-tchq-2018.yaml) — Về việc ban hành Quy trình phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu nhập khẩu
 - ❔ [1925/QĐ-TCHQ](../registry/van-ban/1925-qd-tchq-2018.yaml) — Ban hành Sổ tay nghiệp vụ Quản lý thuế xuất khẩu, thuế nhập khẩu tại cấp Chi cục Hải quan
 - ⚫ [1966/QĐ-TCHQ](../registry/van-ban/1966-qd-tchq.yaml) — Ban hành Quy trình thủ tục hải quan đối với hàng hoá xuất khẩu, nhập khẩu _(hết hiệu lực 2024-11-01)_
 
@@ -191,7 +191,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 18 văn bản, 8 chưa hết hiệu lực.
 
-- 🟢 [252/2026/NĐ-CP](../registry/van-ban/252-2026-nd-cp.yaml) — Quy định chi tiết một số điều của Luật Quản lý thuế
+- 🟢 [252/2026/NĐ-CP](../registry/van-ban/252-2026-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế
 - 🟢 [182/2025/NĐ-CP](../registry/van-ban/182-2025-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 134/2016/NĐ-CP ngày 01 tháng 9 năm 2016 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Thuế xuất khẩu, thuế nhập khẩu đã được sửa đổi, bổ sung theo Nghị định số 18/2021/NĐ-CP ngày 11 tháng 3 năm 2021 của Chính phủ
 - ⚫ [56/2024/QH15](../registry/van-ban/56-2024-qh15.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách nhà nước, Luật Quản lý, sử dụng tài sản công, Luật Quản lý thuế, Luật Thuế thu nhập cá nhân, Luật Dự trữ quốc gia, Luật Xử lý vi phạm hành chính _(hết hiệu lực 2026-07-01)_
 - 🟡 [03/2022/QH15](../registry/van-ban/03-2022-qh15.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Đầu tư công, Luật Đầu tư theo phương thức đối tác công tư, Luật Đầu tư, Luật Nhà ở, Luật Đấu thầu, Luật Điện lực, Luật Doanh nghiệp, Luật Thuế tiêu thụ đặc biệt và Luật Thi hành án dân sự
@@ -345,37 +345,61 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - ❔ [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - ❔ [577/TB-CHQ/2026](../registry/van-ban/577-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (3506.10.00)
 - ❔ [6063/TB-CHQ/2026](../registry/van-ban/6063-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.89)
-- ❔ [1005/TB-TCHQ/2025](../registry/van-ban/1005-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2710.19.89)
-- ❔ [10115/TB-CHQ/2025](../registry/van-ban/10115-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
-- ❔ [10116/TB-CHQ/2025](../registry/van-ban/10116-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
-- ❔ [1175/TB-CHQ/2025](../registry/van-ban/1175-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
-- ❔ [1184/TB-CHQ/2025](../registry/van-ban/1184-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2936.90.00)
-- ❔ [119/TB-TCHQ/2025](../registry/van-ban/119-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (1515.11.00)
-- ❔ [120/TB-CHQ/2025](../registry/van-ban/120-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
-- ❔ [121/TB-CHQ/2025](../registry/van-ban/121-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
-- ❔ [122/TB-CHQ/2025](../registry/van-ban/122-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.59)
-- ❔ [1413/TB-CHQ/2025](../registry/van-ban/1413-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3505.10.10)
-- ❔ [15622/TB-CHQ/2025](../registry/van-ban/15622-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (1517.90.30)
-- ❔ [15668/TB-CHQ/2025](../registry/van-ban/15668-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2103.90.29)
-- ❔ [15674/TB-CHQ/2025](../registry/van-ban/15674-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
-- ❔ [15745/TB-CHQ/2025](../registry/van-ban/15745-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.99)
-- ❔ [16238/TB-CHQ/2025](../registry/van-ban/16238-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3919.90.92)
-- ❔ [185/TB-TCHQ/2025](../registry/van-ban/185-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (7326.90.99)
-- ❔ [19/TB-TCHQ/2025](../registry/van-ban/19-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.90.99)
+- 🟢 [21070/TB-CHQ/2025](../registry/van-ban/21070-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (1902.11.00)
+- 🟢 [21071/TB-CHQ/2025](../registry/van-ban/21071-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (1902.11.00)
+- 🟢 [20966/TB-CHQ/2025](../registry/van-ban/20966-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (1902.11.00)
+- 🟢 [20552/TB-CHQ/2025](../registry/van-ban/20552-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
+- 🟢 [20553/TB-CHQ/2025](../registry/van-ban/20553-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
+- 🟢 [20556/TB-CHQ/2025](../registry/van-ban/20556-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2202.99.50)
+- 🟢 [20104/TB-CHQ/2025](../registry/van-ban/20104-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3824.99.99)
+- 🟢 [16238/TB-CHQ/2025](../registry/van-ban/16238-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3919.90.92)
+- 🟢 [15745/TB-CHQ/2025](../registry/van-ban/15745-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.99)
+- 🟢 [15622/TB-CHQ/2025](../registry/van-ban/15622-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (1517.90.30)
+- 🟢 [15668/TB-CHQ/2025](../registry/van-ban/15668-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2103.90.29)
+- 🟢 [15674/TB-CHQ/2025](../registry/van-ban/15674-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
+- 🟢 [10115/TB-CHQ/2025](../registry/van-ban/10115-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
+- 🟢 [10116/TB-CHQ/2025](../registry/van-ban/10116-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
+- 🟢 [1413/TB-CHQ/2025](../registry/van-ban/1413-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3505.10.10)
+- 🟢 [1175/TB-CHQ/2025](../registry/van-ban/1175-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
+- 🟢 [1184/TB-CHQ/2025](../registry/van-ban/1184-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2936.90.00)
+- 🟢 [120/TB-CHQ/2025](../registry/van-ban/120-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
+- 🟢 [121/TB-CHQ/2025](../registry/van-ban/121-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
+- 🟢 [122/TB-CHQ/2025](../registry/van-ban/122-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.59)
+- 🟢 [1005/TB-TCHQ/2025](../registry/van-ban/1005-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2710.19.89)
+- 🟢 [638/TB-TCHQ/2025](../registry/van-ban/638-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.99)
+- 🟢 [619/TB-TCHQ/2025](../registry/van-ban/619-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3006.40.10)
+- 🟢 [509/TB-TCHQ/2025](../registry/van-ban/509-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
+- 🟢 [510/TB-TCHQ/2025](../registry/van-ban/510-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (1302.19.90)
+- 🟢 [511/TB-TCHQ/2025](../registry/van-ban/511-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2202.99.50)
+- 🟢 [512/TB-TCHQ/2025](../registry/van-ban/512-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
+- 🟢 [513/TB-TCHQ/2025](../registry/van-ban/513-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
+- 🟢 [514/TB-TCHQ/2025](../registry/van-ban/514-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
+- 🟢 [515/TB-TCHQ/2025](../registry/van-ban/515-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
+- 🟢 [516/TB-TCHQ/2025](../registry/van-ban/516-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
+- 🟢 [517/TB-TCHQ/2025](../registry/van-ban/517-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2843.90.00)
+- 🟢 [362/TB-TCHQ/2025](../registry/van-ban/362-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (1602.32.90)
+- 🟢 [280/TB-TCHQ/2025](../registry/van-ban/280-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
+- 🟢 [281/TB-TCHQ/2025](../registry/van-ban/281-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2202.99.50)
+- 🟢 [282/TB-TCHQ/2025](../registry/van-ban/282-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
+- 🟢 [283/TB-TCHQ/2025](../registry/van-ban/283-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
+- 🟢 [284/TB-TCHQ/2025](../registry/van-ban/284-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
+- 🟢 [285/TB-TCHQ/2025](../registry/van-ban/285-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
+- 🟢 [286/TB-TCHQ/2025](../registry/van-ban/286-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
+- 🟢 [287/TB-TCHQ/2025](../registry/van-ban/287-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
+- 🟢 [288/TB-TCHQ/2025](../registry/van-ban/288-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (1504.10.90)
+- 🟢 [289/TB-TCHQ/2025](../registry/van-ban/289-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
+- 🟢 [301/TB-TCHQ/2025](../registry/van-ban/301-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
+- 🟢 [302/TB-TCHQ/2025](../registry/van-ban/302-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
+- 🟢 [223/TB-TCHQ/2025](../registry/van-ban/223-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3402.49.90)
+- 🟢 [185/TB-TCHQ/2025](../registry/van-ban/185-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (7326.90.99)
+- 🟢 [119/TB-TCHQ/2025](../registry/van-ban/119-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (1515.11.00)
+- 🟢 [19/TB-TCHQ/2025](../registry/van-ban/19-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.90.99)
+- 🟢 [20/TB-TCHQ/2025](../registry/van-ban/20-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.90.99)
 - ❔ [19691/TB-CHQ/2025](../registry/van-ban/19691-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3824.99.99)
-- ❔ [20/TB-TCHQ/2025](../registry/van-ban/20-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.90.99)
-- ❔ [20104/TB-CHQ/2025](../registry/van-ban/20104-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3824.99.99)
-- ❔ [20552/TB-CHQ/2025](../registry/van-ban/20552-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
-- ❔ [20553/TB-CHQ/2025](../registry/van-ban/20553-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
-- ❔ [20556/TB-CHQ/2025](../registry/van-ban/20556-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2202.99.50)
 - ❔ [20947/TB-CHQ/2025](../registry/van-ban/20947-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3824.99.99)
-- ❔ [20966/TB-CHQ/2025](../registry/van-ban/20966-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (1902.11.00)
-- ❔ [21070/TB-CHQ/2025](../registry/van-ban/21070-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (1902.11.00)
-- ❔ [21071/TB-CHQ/2025](../registry/van-ban/21071-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (1902.11.00)
 - ❔ [21162/TB-CHQ/2025](../registry/van-ban/21162-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3824.99.99)
 - ❔ [21396/TB-CHQ/2025](../registry/van-ban/21396-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2103.90.13)
 - ❔ [223/TB-CHQ/2025](../registry/van-ban/223-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.59)
-- ❔ [223/TB-TCHQ/2025](../registry/van-ban/223-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3402.49.90)
 - ❔ [2381/TB-CHQ/2025](../registry/van-ban/2381-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (5607.49.00)
 - ❔ [2382/TB-CHQ/2025](../registry/van-ban/2382-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2103.90.19)
 - ❔ [24068/TB-CHQ/2025](../registry/van-ban/24068-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.99)
@@ -387,23 +411,11 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - ❔ [26287/TB-CHQ/2025](../registry/van-ban/26287-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2202.99.50)
 - ❔ [2666/TB-CHQ/2025](../registry/van-ban/2666-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3902.10.40)
 - ❔ [2684/TB-CHQ/2025](../registry/van-ban/2684-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3902.30.90)
-- ❔ [280/TB-TCHQ/2025](../registry/van-ban/280-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
-- ❔ [281/TB-TCHQ/2025](../registry/van-ban/281-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2202.99.50)
-- ❔ [282/TB-TCHQ/2025](../registry/van-ban/282-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
-- ❔ [283/TB-TCHQ/2025](../registry/van-ban/283-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
-- ❔ [284/TB-TCHQ/2025](../registry/van-ban/284-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
-- ❔ [285/TB-TCHQ/2025](../registry/van-ban/285-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
-- ❔ [286/TB-TCHQ/2025](../registry/van-ban/286-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
-- ❔ [287/TB-TCHQ/2025](../registry/van-ban/287-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
 - ❔ [28738/TB-CHQ/2025](../registry/van-ban/28738-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.90)
 - ❔ [28739/TB-CHQ/2025](../registry/van-ban/28739-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
 - ❔ [28740/TB-CHQ/2025](../registry/van-ban/28740-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
-- ❔ [288/TB-TCHQ/2025](../registry/van-ban/288-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (1504.10.90)
-- ❔ [289/TB-TCHQ/2025](../registry/van-ban/289-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
 - ❔ [29001/TB-CHQ/2025](../registry/van-ban/29001-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
 - ❔ [29002/TB-CHQ/2025](../registry/van-ban/29002-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
-- ❔ [301/TB-TCHQ/2025](../registry/van-ban/301-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
-- ❔ [302/TB-TCHQ/2025](../registry/van-ban/302-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.30.00)
 - ❔ [30659/TB-CHQ/2025](../registry/van-ban/30659-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (7312.10.99)
 - ❔ [30820/TB-CHQ/2025](../registry/van-ban/30820-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3808.94.90)
 - ❔ [30872/TB-CHQ/2025](../registry/van-ban/30872-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3005.10.10)
@@ -419,7 +431,6 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - ❔ [356/TB-CHQ/2025](../registry/van-ban/356-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2707.99.90)
 - ❔ [35621/TB-CHQ/2025](../registry/van-ban/35621-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.99)
 - ❔ [357/TB-CHQ/2025](../registry/van-ban/357-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2707.99.90)
-- ❔ [362/TB-TCHQ/2025](../registry/van-ban/362-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (1602.32.90)
 - ❔ [37416/TB-CHQ/2025](../registry/van-ban/37416-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
 - ❔ [37689/TB-CHQ/2025](../registry/van-ban/37689-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (7106.92.00)
 - ❔ [38544/TB-CHQ/2025](../registry/van-ban/38544-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.91)
@@ -429,17 +440,6 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - ❔ [5016/TB-CHQ/2025](../registry/van-ban/5016-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.90)
 - ❔ [5017/TB-CHQ/2025](../registry/van-ban/5017-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.90)
 - ❔ [5018/TB-CHQ/2025](../registry/van-ban/5018-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
-- ❔ [509/TB-TCHQ/2025](../registry/van-ban/509-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
-- ❔ [510/TB-TCHQ/2025](../registry/van-ban/510-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (1302.19.90)
-- ❔ [511/TB-TCHQ/2025](../registry/van-ban/511-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2202.99.50)
-- ❔ [512/TB-TCHQ/2025](../registry/van-ban/512-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
-- ❔ [513/TB-TCHQ/2025](../registry/van-ban/513-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
-- ❔ [514/TB-TCHQ/2025](../registry/van-ban/514-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
-- ❔ [515/TB-TCHQ/2025](../registry/van-ban/515-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
-- ❔ [516/TB-TCHQ/2025](../registry/van-ban/516-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
-- ❔ [517/TB-TCHQ/2025](../registry/van-ban/517-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2843.90.00)
-- ❔ [619/TB-TCHQ/2025](../registry/van-ban/619-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3006.40.10)
-- ❔ [638/TB-TCHQ/2025](../registry/van-ban/638-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.99)
 - ❔ [6471/TB-CHQ/2025](../registry/van-ban/6471-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2901.10.00)
 - ❔ [6631/TB-CHQ/2025](../registry/van-ban/6631-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
 - ❔ [7975/TB-CHQ/2025](../registry/van-ban/7975-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.90.99)
@@ -2357,7 +2357,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [2169/QĐ-CHQ](../registry/van-ban/2169-qd-chq-2025.yaml) — Ban hành Quy trình phân tích phân loại hàng hoá xuất khẩu, nhập khẩu và kiểm tra, đánh giá tiêu chí kỹ thuật của hàng hoá bằng máy móc, trang thiết bị tại cơ quan Kiểm định hải quan
 - ⚫ [2166/QĐ-TCHQ](../registry/van-ban/2166-qd-tchq-2021.yaml) — Ban hành Quy trình Phân tích để phân loại hàng hoá xuất khẩu, nhập khẩu _(hết hiệu lực 2026-02-01)_
 - ⚫ [17/2021/TT-BTC](../registry/van-ban/17-2021-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư 14/2015/TT-BTC _(hết hiệu lực 2026-09-15)_
-- ❔ [1921/QĐ-TCHQ](../registry/van-ban/1921-qd-tchq-2018.yaml) — Về việc ban hành Quy trình phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu nhập khẩu
+- 🟢 [1921/QĐ-TCHQ](../registry/van-ban/1921-qd-tchq-2018.yaml) — Về việc ban hành Quy trình phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu nhập khẩu
 - ⚫ [2999/QĐ-TCHQ](../registry/van-ban/2999-qd-tchq-2017.yaml) — Ban hành Quy chế Kiểm định, phân tích hàng hoá xuất khẩu, nhập khẩu _(hết hiệu lực 2026-02-01)_
 - ⚫ [2131/QĐ-TCHQ](../registry/van-ban/2131-qd-tchq-2015.yaml) — Ban hành Quy chế phân tích để phân loại hàng hóa, phân tích để kiểm tra chất lượng, kiểm tra an toàn thực phẩm đối với hàng hóa xuất khẩu, nhập khẩu _(hết hiệu lực 2017-09-06)_
 - ⚫ [2134/QĐ-TCHQ](../registry/van-ban/2134-qd-tchq-2015.yaml) — Về việc ban hành Quy trình phân loại hàng hóa xuất khẩu, nhập khẩu phải phân tích, giám định _(hết hiệu lực 2018-06-28)_
@@ -2612,7 +2612,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Kiểm dịch động vật, thực vật, thuỷ sản, y tế `kiem-tra-chuyen-nganh/kiem-dich`
 
-32 văn bản, 28 chưa hết hiệu lực.
+32 văn bản, 29 chưa hết hiệu lực.
 
 - 🟢 [110/2026/VBHN-TT-BNNMT](../registry/van-ban/110-2026-vbhn-tt-bnnmt.yaml) — Ban hành quy định về quy trình phân tích nguy cơ dịch hại đối với vật thể thuộc diện kiểm dịch thực vật phải phân tích nguy cơ trước khi nhập khẩu vào Việt Nam
 - 🟢 [111/2026/VBHN-TT-BNNMT](../registry/van-ban/111-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư ban hành Quy chuẩn kỹ thuật quốc gia về yêu cầu đối với vật thể thuộc diện kiểm dịch thực vật nhập khẩu
@@ -2627,8 +2627,8 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [01/2026/TT-BNNMT](../registry/van-ban/01-2026-tt-bnnmt.yaml) — Quy định về kiểm dịch động vật, sản phẩm động vật trên cạn
 - 🟢 [35/2025/NĐ-CP](../registry/van-ban/35-2025-nd-cp.yaml) — Nghị định quy định chi tiết thi hành Luật Thú y
 - 🟢 [146/2025/QH15](../registry/van-ban/146-2025-qh15.yaml) — Luật sửa đổi, bổ sung một số điều của 15 luật trong lĩnh vực nông nghiệp và môi trường
-- 🟢 [43/2024/QH15](../registry/van-ban/43-2024-qh15.yaml) — Luật Bảo vệ và kiểm dịch thực vật
 - 🟡 [14/2024/TT-BNNPTNT](../registry/van-ban/14-2024-tt-bnnptnt.yaml) — Ban hành Danh mục vật thể thuộc diện kiểm dịch thực vật; Danh mục vật thể thuộc diện kiểm dịch thực vật phải phân tích nguy cơ dịch hại trước khi nhập khẩu vào Việt Nam
+- 🟢 [43/2024/QH15](../registry/van-ban/43-2024-qh15.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Đất đai số 31/2024/QH15, Luật Nhà ở số 27/2023/QH15, Luật Kinh doanh bất động sản số 29/2023/QH15 và Luật Các tổ chức tín dụng số 32/2024/QH15
 - 🟡 [19/VBHN-BNNPTNT](../registry/van-ban/19-vbhn-bnnptnt.yaml) — Hợp nhất Thông tư quy định về trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật
 - 🟢 [03/2024/TT-BNNPTNT](../registry/van-ban/03-2024-tt-bnnptnt.yaml) — Bãi bỏ một số quy định tại Thông tư số 34/2018/TT-BNNPTNT ngày 16 tháng 11 năm 2018 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn sửa đổi, bổ sung một số điều của Thông tư số 33/2014/TT-BNNPTNT ngày 30 tháng 10 năm 2014 và Thông tư số 20/2017/TT-BNNPTNT ngày 10 tháng 11 năm 2017 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn
 - ⚫ [06/VBHN-BNNPTNT](../registry/van-ban/06-vbhn-bnnptnt.yaml) — Hợp nhất Thông tư quy định về trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật _(hết hiệu lực 2024-05-27)_
@@ -2644,7 +2644,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟡 [05/2015/TT-BNNPTNT](../registry/van-ban/05-2015-tt-bnnptnt.yaml) — Quy định về trình tự, thủ tục cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật
 - 🟡 [33/2014/TT-BNNPTNT](../registry/van-ban/33-2014-tt-bnnptnt.yaml) — Quy định trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật
 - ⚫ [30/2014/TT-BNNPTNT](../registry/van-ban/30-2014-tt-bnnptnt.yaml) — Ban hành Danh mục vật thể thuộc diện kiểm dịch thực vật; Danh mục vật thể thuộc diện kiểm dịch thực vật phải phân tích nguy cơ dịch hại trước khi nhập khẩu vào Việt Nam _(hết hiệu lực 2024-12-15)_
-- ⚫ [41/2013/QH13](../registry/van-ban/41-2013-qh13.yaml) — Luật Bảo vệ và kiểm dịch thực vật _(hết hiệu lực 2025-01-01)_
+- 🟡 [41/2013/QH13](../registry/van-ban/41-2013-qh13.yaml) — Luật Bảo vệ và kiểm dịch thực vật
 - 🟢 [114/2025/QH15](../registry/van-ban/114-2025-qh15.yaml) — Luật Phòng bệnh
 
 ### Danh mục thuộc Bộ Công Thương `kiem-tra-chuyen-nganh/bct`
@@ -2804,8 +2804,8 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [04/2026/TT-BKHCN](../registry/van-ban/04-2026-tt-bkhcn.yaml) — Sửa đổi, bổ sung, bãi bỏ một số điều của các văn bản quy phạm pháp luật của Bộ trưởng Bộ Khoa học và Công nghệ ban hành trong lĩnh vực tiêu chuẩn đo lường chất lượng
 - ⚫ [29/2025/TT-BKHCN](../registry/van-ban/29-2025-tt-bkhcn.yaml) — Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn lĩnh vực công nghệ thông tin và viễn thông thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ _(hết hiệu lực 2026-07-01)_
 - ❔ [367/QĐ-BKHCN](../registry/van-ban/367-qd-bkhcn-2024.yaml) — Về việc sửa đổi, bổ sung nhóm sản phẩm chiếu sáng bằng công nghệ LED tại mục 10 Phụ lục ban hành kèm theo Quyết định số 2711/QĐ-BKHCN ngày 30/12/2022 của Bộ trưởng Bộ Khoa học và Công nghệ về việc công bố sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ
-- ❔ [366/QĐ-BKHCN](../registry/van-ban/366-qd-bkhcn-2023.yaml) — Về việc công bố bổ sung sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ
-- ❔ [2711/QĐ-BKHCN](../registry/van-ban/2711-qd-bkhcn.yaml) — Về việc công bố sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ
+- 🟢 [366/QĐ-BKHCN](../registry/van-ban/366-qd-bkhcn-2023.yaml) — Về việc công bố bổ sung sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ
+- 🟡 [2711/QĐ-BKHCN](../registry/van-ban/2711-qd-bkhcn.yaml) — Về việc công bố sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ
 - 🟢 [10/2022/TT-BTTTT](../registry/van-ban/10-2022-tt-btttt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 13/2018/TT-BTTTT ngày 15/10/2018 của Bộ trưởng Bộ Thông tin và Truyền thông quy định Danh mục sản phẩm an toàn thông tin mạng nhập khẩu theo giấy phép và trình tự, thủ tục, hồ sơ cấp Giấy phép nhập khẩu sản phẩm an toàn thông tin mạng
 - 🟡 [154/2018/NĐ-CP](../registry/van-ban/154-2018-nd-cp.yaml) — Sửa đổi, bổ sung, bãi bỏ một số quy định về điều kiện đầu tư kinh doanh và kiểm tra chuyên ngành thuộc phạm vi quản lý của Bộ Khoa học và Công nghệ
 - 🟢 [2284/QĐ-BKHCN](../registry/van-ban/2284-qd-bkhcn.yaml) — Công bố Bảng mã HS đối với phương tiện đo nhóm 2 phải phê duyệt mẫu thuộc đối tượng kiểm tra nhà nước về đo lường khi nhập khẩu

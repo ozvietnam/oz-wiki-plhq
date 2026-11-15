@@ -210,7 +210,7 @@ flowchart LR
   n_91_2016_N__CP["91/2016/NĐ-CP<br/>còn hiệu lực"]
   n_30_2014_TT_BNNPTNT["30/2014/TT-BNNPTNT<br/>hết hiệu lực"]
   n_146_2025_QH15["146/2025/QH15<br/>còn hiệu lực"]
-  n_41_2013_QH13["41/2013/QH13<br/>hết hiệu lực"]
+  n_41_2013_QH13["41/2013/QH13<br/>hết hiệu lực một phần"]
   n_79_2015_QH13["79/2015/QH13<br/>còn hiệu lực"]
   n_15_2018_TT_BTTTT["15/2018/TT-BTTTT<br/>hết hiệu lực"]
   n_30_2011_TT_BTTTT["30/2011/TT-BTTTT<br/>hết hiệu lực"]
@@ -261,8 +261,8 @@ flowchart LR
   n_10_2020_TT_BTTTT["10/2020/TT-BTTTT<br/>hết hiệu lực"]
   n_58_2015_TTLT_BCT_BKHCN["58/2015/TTLT-BCT-BKHCN<br/>hết hiệu lực"]
   n_01_2009_TT_BKHCN["01/2009/TT-BKHCN<br/>hết hiệu lực"]
-  n_366_Q__BKHCN["366/QĐ-BKHCN<br/>chưa xác minh"]
-  n_2711_Q__BKHCN["2711/QĐ-BKHCN<br/>chưa xác minh"]
+  n_366_Q__BKHCN["366/QĐ-BKHCN<br/>còn hiệu lực"]
+  n_2711_Q__BKHCN["2711/QĐ-BKHCN<br/>hết hiệu lực một phần"]
   n_367_Q__BKHCN["367/QĐ-BKHCN<br/>chưa xác minh"]
   n_37_2026_N__CP["37/2026/NĐ-CP<br/>còn hiệu lực"]
   n_132_2008_N__CP["132/2008/NĐ-CP<br/>hết hiệu lực"]
@@ -272,7 +272,6 @@ flowchart LR
   n_41_2016_TT_BTTTT["41/2016/TT-BTTTT<br/>hết hiệu lực"]
   n_41_2026_TT_BXD["41/2026/TT-BXD<br/>còn hiệu lực"]
   n_10_2024_TT_BXD["10/2024/TT-BXD<br/>hết hiệu lực"]
-  n_43_2024_QH15["43/2024/QH15<br/>còn hiệu lực"]
   n_44_2026_TT_BNNMT["44/2026/TT-BNNMT<br/>còn hiệu lực"]
   n_27_2026_TT_BNNMT["27/2026/TT-BNNMT<br/>còn hiệu lực"]
   n_4814_Q__BCA["4814/QĐ-BCA<br/>chưa xác minh"]
@@ -391,7 +390,7 @@ flowchart LR
   n_36_2026_TT_BKHCN -->|thay thế từ 2026-07-01| n_10_2020_TT_BTTTT
   n_36_2026_TT_BKHCN -->|thay thế từ 2026-07-01| n_58_2015_TTLT_BCT_BKHCN
   n_36_2026_TT_BKHCN -->|thay thế từ 2026-07-01| n_01_2009_TT_BKHCN
-  n_366_Q__BKHCN -->|sửa đổi| n_2711_Q__BKHCN
+  n_366_Q__BKHCN -->|sửa đổi Bổ sung sản phẩm ống bằng thép không gỉ (mã HS 7306.40.20, 7306.40.90, 7306.61.10, 7306.61.90, 7306.69.10, 7306.69.90) vào Phụ lục sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ từ 2023-03-14| n_2711_Q__BKHCN
   n_367_Q__BKHCN -->|sửa đổi| n_2711_Q__BKHCN
   n_37_2026_N__CP -->|bãi bỏ từ 2026-07-01| n_132_2008_N__CP
   n_37_2026_N__CP -->|bãi bỏ từ 2026-07-01| n_74_2018_N__CP
@@ -401,8 +400,6 @@ flowchart LR
   n_37_2026_N__CP -->|bãi bỏ từ 2026-01-23| n_111_2021_N__CP
   n_41_2016_TT_BTTTT -->|sửa đổi| n_16_2015_TT_BTTTT
   n_41_2026_TT_BXD -->|bãi bỏ toàn bộ từ 2026-07-01| n_10_2024_TT_BXD
-  n_43_2024_QH15 -->|thay thế từ 2025-01-01| n_41_2013_QH13
-  n_43_2024_QH15 -->|sửa đổi một số điều (Luật sửa đổi 15 luật lĩnh vực nông nghiệp, môi trường)| n_146_2025_QH15
   n_44_2024_QH15 -->|sửa đổi Điều 2 (giải thích từ ngữ), Điều 11 (chứng chỉ hành nghề), khoản 4, 5, 9, điểm a và c khoản 18, điểm d và đ khoản 32, khoản 33, 39, 43 Điều 1 từ 2025-07-01| n_105_2016_QH13
   n_44_2026_TT_BNNMT -->|sửa đổi| n_27_2026_TT_BNNMT
   n_46_2026_N__CP -->|thay thế| n_15_2018_N__CP
@@ -435,6 +432,8 @@ flowchart LR
   n_1628_Q__TCHQ["1628/QĐ-TCHQ<br/>hết hiệu lực"]
   n_1671_Q__TCHQ["1671/QĐ-TCHQ<br/>hết hiệu lực"]
   n_17_2021_TT_BTC["17/2021/TT-BTC<br/>hết hiệu lực"]
+  n_1921_Q__TCHQ["1921/QĐ-TCHQ<br/>còn hiệu lực"]
+  n_1966_Q__TCHQ["1966/QĐ-TCHQ<br/>hết hiệu lực"]
   n_2131_Q__TCHQ["2131/QĐ-TCHQ<br/>hết hiệu lực"]
   n_4023_Q__TCHQ["4023/QĐ-TCHQ<br/>hết hiệu lực"]
   n_2169_Q__CHQ["2169/QĐ-CHQ<br/>còn hiệu lực"]
@@ -453,6 +452,7 @@ flowchart LR
   n_14_2015_TT_BTC -->|bãi bỏ từ 2015-03-16| n_49_2010_TT_BTC
   n_1628_Q__TCHQ -->|thay thế toàn bộ từ 2010-08-01| n_1671_Q__TCHQ
   n_17_2021_TT_BTC -->|sửa đổi| n_14_2015_TT_BTC
+  n_1921_Q__TCHQ -->|bãi bỏ Điều 52, Điều 53, Điều 54 Quy trình thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo Quyết định 1966/QĐ-TCHQ từ 2018-06-28| n_1966_Q__TCHQ
   n_2131_Q__TCHQ -->|thay thế toàn bộ từ 2015-07-31| n_4023_Q__TCHQ
   n_2169_Q__CHQ -->|thay thế từ 2026-02-01| n_2999_Q__TCHQ
   n_2169_Q__CHQ -->|thay thế từ 2026-02-01| n_2166_Q__TCHQ
@@ -658,7 +658,7 @@ flowchart LR
   n_53_2020_N__CP["53/2020/NĐ-CP<br/>hết hiệu lực"]
   n_3830_Q__BKHCN["3830/QĐ-BKHCN<br/>còn hiệu lực"]
   n_367_Q__BKHCN["367/QĐ-BKHCN<br/>chưa xác minh"]
-  n_2711_Q__BKHCN["2711/QĐ-BKHCN<br/>chưa xác minh"]
+  n_2711_Q__BKHCN["2711/QĐ-BKHCN<br/>hết hiệu lực một phần"]
   n_66_2025_QH15["66/2025/QH15<br/>còn hiệu lực"]
   n_03_2022_QH15["03/2022/QH15<br/>hết hiệu lực một phần"]
   n_72_2026_N__CP["72/2026/NĐ-CP<br/>còn hiệu lực"]
