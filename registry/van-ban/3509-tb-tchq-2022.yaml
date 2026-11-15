@@ -6,19 +6,22 @@ loai_phan_loai_can_cu: title_xac_dinh_truoc
 loai_phan_loai_ngay: '2026-10-14'
 ten: Phân loại mã HS theo tracuuhs.com (2707.50.00)
 co_quan: TCHQ
-ngay_ban_hanh: '2022-01-01'
-hieu_luc_tu: '2022-01-01'
-tinh_trang: CHUA_XAC_MINH
+ngay_ban_hanh: '2022-08-24'
+hieu_luc_tu: '2022-08-24'
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - phan-loai-hs
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'HS code lấy từ tracuuhs.com — TB-TCHQ 3509/2022'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
-  ghi_chu: 'Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A'
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=4264 trong data/customs/processed/all-1990-2026.csv): số hiệu 3509/TB-TCHQ, ban hành ngày 24/08/2022 (2022-08-24), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-15'
+  boi: paperclip-agent@ozvietnam
 nguon:
   - url: https://www.tracuuhs.com/tin-tuc/tchq-3509-2022
     truy_cap: '2026-03-04'
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=80341&cid=1294
+    truy_cap: '2026-11-15'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2022/8/25/Vanban_3509.PDF
+    truy_cap: '2026-11-15'
 toan_van: chua_co
