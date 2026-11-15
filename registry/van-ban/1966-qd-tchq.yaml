@@ -15,10 +15,15 @@ quan_he:
 nguon:
   - url: https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Quyet-dinh-1966-QD-TCHQ-2015-thu-tuc-hai-quan-doi-voi-hang-hoa-xuat-nhap-khau-281906.aspx
     truy_cap: '2026-10-04'
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=53681&cid=1294
+    truy_cap: '2026-11-15'
+  - url: https://files.customs.gov.vn/CustomsCMS/TP_HO_CHI_MINH/2020/Web/Data/DocumentAttachments/1966_QD-TCHQ_281906.doc
+    truy_cap: '2026-11-15'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực theo nguồn bậc B; chưa mở PDF gốc trên customs.gov.vn / Công báo
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: bc-469c3f42-high-blind-spots
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu nguồn bậc A trên Cổng Thông tin điện tử Hải quan (customs.gov.vn id=53681, toàn văn 1966_QD-TCHQ_281906.doc trên files.customs.gov.vn, dòng 11346 all-1990-2026.csv): ban hành 10/07/2015, có hiệu lực từ 15/08/2015; Điều 52-54 bị bãi bỏ bởi QĐ 1921/QĐ-TCHQ từ 28/06/2018; hết hiệu lực toàn bộ từ 01/11/2024 khi bị thay thế bởi QĐ 2538/QĐ-TCHQ.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-15'
+  boi: paperclip-agent@ozvietnam
 ghi_chu: Quy trình nghiệp vụ nội bộ TCHQ (5 bước) áp dụng theo TT 38/2015/TT-BTC — điền nhánh so-tay-nghiep-vu. Cần truy vết nguồn A (customs.gov.vn) và rà sửa đổi/thay thế sau 2015.
+toan_van: raw/download/files.customs.gov.vn/1966-qd-tchq.doc

@@ -15,14 +15,14 @@ nguon:
     truy_cap: '2026-10-10'
   - url: https://www.facebook.com/ISECHaiquan/posts/ng%C3%A0y-31122025-c%E1%BB%A5c-h%E1%BA%A3i-quan-%C4%91%C3%A3-ban-h%C3%A0nh-quy%E1%BA%BFt-%C4%91%E1%BB%8Bnh-s%E1%BB%91-2169q%C4%91-chq-ban-h%C3%A0nh-quy-tr%C3%AC/1238444045149172
     truy_cap: '2026-10-10'
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=58314&cid=1294
+    truy_cap: '2026-11-15'
+  - url: https://files.customs.gov.vn/CustomsCMS/TP_HO_CHI_MINH/2020/Web/Data/DocumentAttachments/2999_QD-TCHQ_361355.doc
+    truy_cap: '2026-11-15'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'Số hiệu 2999/QĐ-TCHQ, ngày 06-9-2017, Tổng cục trưởng Tổng cục Hải quan, thay thế bởi QĐ 2169/QĐ-CHQ từ 01-02-2026. Trích từ Điều 2 khoản 2 QĐ 2169 (PDF trang 2-3, đã OCR) + bài ISEC Hải quan.'
-  hieu_luc_da_doi_chieu: false
-  chan:
-    ma: THIEU_PDF_A
-    ngay: '2026-10-10'
-    viec_tiep: 'Cần tải PDF gốc từ customs.gov.vn (Cloudflare block); thông tin từ Điều 2.2 QĐ 2169/QĐ-CHQ đã verify.'
-  ngay: '2026-10-10'
-  boi: hermes@ozvietnam
-ghi_chu: 'Toàn văn chưa nạp (chỉ cần từ nguồn B). Cần xác minh nội dung từ customs.gov.vn khi có thể.'
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu nguồn bậc A trên Cổng Thông tin điện tử Hải quan (customs.gov.vn id=58314, files.customs.gov.vn 2999_QD-TCHQ_361355.doc, dòng 8671 all-1990-2026.csv) và Điều 2 khoản 2 Quyết định 2169/QĐ-CHQ: số hiệu 2999/QĐ-TCHQ, ban hành và có hiệu lực từ 06/09/2017, hết hiệu lực từ 01/02/2026 khi bị thay thế bởi Quyết định 2169/QĐ-CHQ.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-15'
+  boi: paperclip-agent@ozvietnam
+ghi_chu: Toàn văn chưa nạp (chỉ cần từ nguồn B). Cần xác minh nội dung từ customs.gov.vn khi có thể.

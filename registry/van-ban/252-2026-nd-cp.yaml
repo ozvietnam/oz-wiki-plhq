@@ -1,19 +1,28 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 252/2026/NĐ-CP
 loai: NGHI_DINH
-ten: Quy định chi tiết một số điều của Luật Quản lý thuế
+ten: Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế
 co_quan: CP
-ngay_ban_hanh: '2026-06-20'
+ngay_ban_hanh: '2026-06-30'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/luat-thue
 nguon:
   - url: https://luatvietnam.com.vn
     truy_cap: '2026-11-01'
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=105036&cid=1294
+    truy_cap: '2026-11-15'
+  - url: https://files.customs.gov.vn/CustomsCMS/THANH_HOA/2026/7/8/Ngh%E1%BB%8B-%C4%91%E1%BB%8Bnh-252-2026-N%C4%90-CP.docx
+    truy_cap: '2026-11-15'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + ngày ban hành 20-06-2026 thấy qua bản tin video (chưa đối chiếu nguồn chính thống — cần vanban.chinhphu.vn; kiểm tra có phải bản hướng dẫn Luật QLT số 108/2025 hay không và hiệu lực)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-01'
-  boi: zcode@ozvietnam
-ghi_chu: Trinh sát WebSearch trạm CP đêm 1/11. Lõi thuế — liên quan chặt TT 86/2026/TT-BTC (đã có trong sổ, hướng dẫn Luật QLT 108/2025). Cần đối chiếu quan hệ.
+  muc: NGUON_A
+  pham_vi: 'Đã tải và đối chiếu toàn văn Nghị định 252/2026/NĐ-CP ngày 30/06/2026 (76 điều, Phó Thủ tướng Nguyễn Văn Thắng ký) từ Cổng Thông tin điện tử Hải quan (customs.gov.vn id=105036, files.customs.gov.vn, dòng 427 all-1990-2026.csv): hướng dẫn Luật Quản lý thuế số 108/2025/QH15; Điều 74 khoản 1 quy định có hiệu lực từ 01/07/2026; khoản 3 thay thế NĐ 126/2020/NĐ-CP, NĐ 91/2022/NĐ-CP, NĐ 49/2025/NĐ-CP, NĐ 117/2025/NĐ-CP và NĐ 373/2025/NĐ-CP; đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-15'
+  boi: paperclip-agent@ozvietnam
+ghi_chu: Nghị định quy định chi tiết Luật Quản lý thuế số 108/2025/QH15, có hiệu lực từ 01/07/2026 (thay thế các NĐ 126/2020/NĐ-CP, 91/2022/NĐ-CP, 49/2025/NĐ-CP, 117/2025/NĐ-CP, 373/2025/NĐ-CP theo khoản 3 Điều 74).
+hieu_luc_tu: '2026-07-01'
+quan_he:
+  huong_dan:
+    - 108/2025/QH15
+toan_van: raw/download/files.customs.gov.vn/252-2026-nd-cp.docx

@@ -16,15 +16,13 @@ nguon:
     truy_cap: '2026-10-30'
   - url: https://thuvienxuatnhapkhau.com/quyet-dinh-2079-qd-tchq-nam-2021-ban-hanh-danh-muc-hang-hoa-rui-ro-ve-phan-loai-hang-hoa.html
     truy_cap: '2026-10-30'
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=58967&cid=1294
+    truy_cap: '2026-11-15'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 19-07-2021, thay QĐ 583/QĐ-TCHQ ngày 31-12-2020; còn hiệu lực theo tra cứu đến 2024 — hiệu lực gốc chưa đối chiếu văn bản gốc TCHQ'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-30'
-  boi: zcode@ozvietnam
-ghi_chu: >-
-  BẢN DỮ LIỆU NỘI BỘ của kho (CEO xác nhận 30/10): bản do BÊN THỨ BA chép lại — mức rủi ro BẬC C, mã theo
-  AHTN 2017, 896 cặp mã hay khai nhầm (khai mã này nhưng đúng ra là mã kia). Chỉ dùng làm TÍN HIỆU SOÁT
-  nội bộ (lib/rui-ro-phan-loai.js hs-code-api, nhãn QD_2079_BAC_C_NOI_BO, Postgres kín, tệp ngoài git)
-  — KHÔNG phải căn cứ pháp lý, không vào canCuPhapLy, không trả khách ngoài. LƯU Ý PHIÊN BẢN: AHTN 2017
-  ≠ biểu thuế 2026 đang tra — đối chiếu lại khi dùng tín hiệu với mã hiện hành.
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu trên Cổng Thông tin điện tử Hải quan (customs.gov.vn id=58967, dòng 5270 all-1990-2026.csv): số hiệu 2079/QĐ-TCHQ, ban hành và có hiệu lực từ 19/07/2021, thay thế QĐ 583/QĐ-TCHQ ngày 22/03/2019; đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-15'
+  boi: paperclip-agent@ozvietnam
+ghi_chu: 'BẢN DỮ LIỆU NỘI BỘ của kho (CEO xác nhận 30/10): bản do BÊN THỨ BA chép lại — mức rủi ro BẬC C, mã theo AHTN 2017, 896 cặp mã hay khai nhầm (khai mã này nhưng đúng ra là mã kia). Chỉ dùng làm TÍN HIỆU SOÁT nội bộ (lib/rui-ro-phan-loai.js hs-code-api, nhãn QD_2079_BAC_C_NOI_BO, Postgres kín, tệp ngoài git) — KHÔNG phải căn cứ pháp lý, không vào canCuPhapLy, không trả khách ngoài. LƯU Ý PHIÊN BẢN: AHTN 2017 ≠ biểu thuế 2026 đang tra — đối chiếu lại khi dùng tín hiệu với mã hiện hành.'
+hieu_luc_tu: '2021-07-19'

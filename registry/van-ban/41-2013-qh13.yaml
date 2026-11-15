@@ -5,19 +5,19 @@ ten: Luật Bảo vệ và kiểm dịch thực vật
 co_quan: QH
 ngay_ban_hanh: '2013-11-25'
 hieu_luc_tu: '2014-01-01'
-het_hieu_luc_tu: '2025-01-01'
-tinh_trang: HET_HIEU_LUC
+tinh_trang: HET_HIEU_LUC_MOT_PHAN
 nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 25-11-2013; hiệu lực 01-01-2014 (Điều 77); HẾT hiệu lực 01-01-2025 — bị Luật 43/2024/QH15 thay (kỳ họp 8 Quốc hội KH XV, nhiều nguồn độc lập); trước đó bị Luật 35/2018/QH14 sửa một phần'
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu toàn văn Luật Bảo vệ và kiểm dịch thực vật số 41/2013/QH13 trên Cổng Thông tin điện tử Chính phủ (vanban.chinhphu.vn docid=171413, datafiles.chinhphu.vn 41_kiemdich_thucvat.pdf) và Luật số 146/2025/QH15 (ban hành 11/12/2025, hiệu lực 01/01/2026): ban hành ngày 25/11/2013, có hiệu lực từ 01/01/2015 (Điều 77); đã được sửa đổi, bổ sung một số điều bởi Luật 35/2018/QH14 và Luật 146/2025/QH15 (không bị thay thế năm 2024; số hiệu 43/2024/QH15 là Luật sửa đổi Luật Đất đai, Nhà ở, Kinh doanh BĐS, Các tổ chức tín dụng).'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-10-28'
-  boi: zcode@ozvietnam
-ghi_chu: >-
-  Sửa 28-10-2026 theo #237: hieu_luc_tu cũ 2015-01-01 là SAI (Điều 77: 01-01-2014);
-  tình trạng CON cũ là SAI — đã bị Luật 43/2024/QH15 thay từ 01-01-2025.
+  ngay: '2026-11-15'
+  boi: paperclip-agent@ozvietnam
+ghi_chu: Luật khung về bảo vệ và kiểm dịch thực vật, đang có hiệu lực (được sửa đổi, bổ sung một phần bởi Luật 35/2018/QH14 và Luật 146/2025/QH15). Khôi phục từ trạng thái HET_HIEU_LUC do nhầm lẫn số hiệu với Luật 43/2024/QH15 ở đợt trước.
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=171413&pageid=27160
     truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2013/12/41_kiemdich_thucvat.pdf
+    truy_cap: '2026-11-15'
+toan_van: raw/download/datafiles.chinhphu.vn/41-2013-qh13.pdf
