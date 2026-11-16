@@ -1,0 +1,25 @@
+# Sổ đăng ký văn bản — nạp từ data/customs/processed/all-1990-2026.csv (OZV-1247)
+so_hieu: 4710/TB-TCHQ/2023
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-16'
+ten: 'Kết quả xác định trước mã số'
+co_quan: TCHQ
+ngay_ban_hanh: '2023-09-11'
+hieu_luc_tu: '2023-09-11'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3065 trong data/customs/processed/all-1990-2026.csv): số hiệu 4710/TB-TCHQ, ban hành ngày 11/09/2023 (2023-09-11), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-16'
+  boi: paperclip-agent@ozvietnam
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=88777&cid=1294
+    truy_cap: '2026-11-16'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/9/13/4710.PDF
+    truy_cap: '2026-11-16'
+toan_van: chua_co
