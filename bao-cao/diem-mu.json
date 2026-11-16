@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-16",
-  "tong": 3615,
+  "tong": 3652,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -144,6 +144,15 @@
       "muc_tieu": "101/TB-TCHQ/2020",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "101/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "101/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -351,6 +360,15 @@
       "muc_tieu": "102/TB-TCHQ/2020",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "102/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "102/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -3110,6 +3128,15 @@
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
       "muc": "Thấp",
+      "tieuDe": "1259/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "1259/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
       "tieuDe": "1261/TB-TCHQ/2022 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
       "muc_tieu": "1261/TB-TCHQ/2022",
       "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
@@ -4188,6 +4215,15 @@
       "trongSo": 0
     },
     {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "149/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "149/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "15/TB-TCHQ/2021: chưa có nguồn chính thống",
@@ -4271,6 +4307,24 @@
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
       "muc": "Thấp",
+      "tieuDe": "1506/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "1506/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "1507/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "1507/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
       "tieuDe": "151/TB-TCHQ/2024 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
       "muc_tieu": "151/TB-TCHQ/2024",
       "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
@@ -4284,6 +4338,15 @@
       "muc_tieu": "1536/QĐ-BYT",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"1536/QĐ-BYT\" --ghi",
       "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "1538/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "1538/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -4428,6 +4491,15 @@
       "muc_tieu": "1571/TB-TCHQ/2018",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "1572/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "1572/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -4813,6 +4885,15 @@
       "muc": "Thấp",
       "tieuDe": "1714/TB-TCHQ/2022 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
       "muc_tieu": "1714/TB-TCHQ/2022",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "1714/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "1714/TB-TCHQ/2023",
       "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
       "luong": "do-tham",
       "trongSo": 0
@@ -6674,6 +6755,15 @@
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
       "muc": "Thấp",
+      "tieuDe": "1884/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "1884/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
       "tieuDe": "1885/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
       "muc_tieu": "1885/TB-TCHQ/2023",
       "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
@@ -6696,6 +6786,15 @@
       "muc_tieu": "1886/TB-TCHQ/2023",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "1887/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "1887/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -8168,6 +8267,33 @@
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
       "muc": "Thấp",
+      "tieuDe": "2014/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "2014/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "2015/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "2015/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "2016/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "2016/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
       "tieuDe": "2017/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
       "muc_tieu": "2017/TB-TCHQ/2023",
       "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
@@ -8607,6 +8733,15 @@
       "trongSo": 0
     },
     {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "2075/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "2075/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
       "ma": "KHONG_TOAN_VAN",
       "muc": "Thấp",
       "tieuDe": "2079/QĐ-TCHQ: chưa có toàn văn trong raw/",
@@ -8838,6 +8973,15 @@
       "muc_tieu": "2105/QĐ-BCT",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "2106/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "2106/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -9129,6 +9273,15 @@
       "trongSo": 0
     },
     {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "214/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "214/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "21409/TB-TCHQ/2018: chưa có nguồn chính thống",
@@ -9144,6 +9297,15 @@
       "muc_tieu": "21409/TB-TCHQ/2018",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "2145/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "2145/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -9180,6 +9342,15 @@
       "muc_tieu": "215/TB-TCHQ/2019",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "215/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "215/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -10992,6 +11163,15 @@
       "trongSo": 0
     },
     {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "2524/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "2524/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "253/TB-TCHQ/2019: chưa có nguồn chính thống",
@@ -11127,6 +11307,15 @@
       "trongSo": 0
     },
     {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "2580/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "2580/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "26/TB-TCHQ/2020: chưa có nguồn chính thống",
@@ -11241,6 +11430,15 @@
       "muc_tieu": "2636/TB-TCHQ/2018",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "2653/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "2653/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -11446,6 +11644,15 @@
       "muc": "Thấp",
       "tieuDe": "2714/TB-TCHQ/2022 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
       "muc_tieu": "2714/TB-TCHQ/2022",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "2714/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "2714/TB-TCHQ/2023",
       "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
       "luong": "do-tham",
       "trongSo": 0
@@ -14079,6 +14286,15 @@
       "trongSo": 0
     },
     {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "315/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "315/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "3150/TB-TCHQ/2019: chưa có nguồn chính thống",
@@ -14335,6 +14551,15 @@
       "muc": "Thấp",
       "tieuDe": "3167/TB-TCHQ/2022 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
       "muc_tieu": "3167/TB-TCHQ/2022",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "3173/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "3173/TB-TCHQ/2023",
       "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
       "luong": "do-tham",
       "trongSo": 0
@@ -15854,6 +16079,15 @@
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
       "muc": "Thấp",
+      "tieuDe": "3346/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "3346/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
       "tieuDe": "3347/TB-TCHQ/2024 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
       "muc_tieu": "3347/TB-TCHQ/2024",
       "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
@@ -16293,6 +16527,15 @@
       "trongSo": 0
     },
     {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "3431/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "3431/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "3507/TB-TCHQ/2019: chưa có nguồn chính thống",
@@ -16371,6 +16614,24 @@
       "muc_tieu": "3510/TB-TCHQ/2019",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "3516/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "3516/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "3517/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "3517/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -16963,6 +17224,15 @@
       "muc": "Thấp",
       "tieuDe": "3664/TB-TCHQ/2024 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
       "muc_tieu": "3664/TB-TCHQ/2024",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "3668/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "3668/TB-TCHQ/2023",
       "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
       "luong": "do-tham",
       "trongSo": 0
@@ -17708,6 +17978,15 @@
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
       "muc": "Thấp",
+      "tieuDe": "3812/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "3812/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
       "tieuDe": "3818/TB-TCHQ/2022 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
       "muc_tieu": "3818/TB-TCHQ/2022",
       "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
@@ -17800,6 +18079,15 @@
       "muc": "Thấp",
       "tieuDe": "3830/TB-TCHQ/2019 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
       "muc_tieu": "3830/TB-TCHQ/2019",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "3831/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "3831/TB-TCHQ/2023",
       "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
       "luong": "do-tham",
       "trongSo": 0
@@ -17980,6 +18268,15 @@
       "muc": "Thấp",
       "tieuDe": "3893/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
       "muc_tieu": "3893/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "3903/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "3903/TB-TCHQ/2023",
       "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
       "luong": "do-tham",
       "trongSo": 0
@@ -18862,6 +19159,24 @@
       "muc": "Thấp",
       "tieuDe": "4034/TB-TCHQ/2019 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
       "muc_tieu": "4034/TB-TCHQ/2019",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "4034/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "4034/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "4035/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "4035/TB-TCHQ/2023",
       "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
       "luong": "do-tham",
       "trongSo": 0
@@ -24327,6 +24642,15 @@
       "muc_tieu": "5909/TB-TCHQ/2018",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "596/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "596/TB-TCHQ/2023",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -30922,6 +31246,15 @@
       "muc": "Thấp",
       "tieuDe": "99/TB-TCHQ/2022 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
       "muc_tieu": "99/TB-TCHQ/2022",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "99/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "99/TB-TCHQ/2023",
       "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
       "luong": "do-tham",
       "trongSo": 0

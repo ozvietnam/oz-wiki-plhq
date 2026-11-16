@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-16",
   "luoc_do_phien_ban": "1.4.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2672,
+  "tong": 2709,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -4282,6 +4282,42 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "101/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-01-06",
+      "hieu_luc_tu": "2023-01-06",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3970 trong data/customs/processed/all-1990-2026.csv): số hiệu 101/TB-TCHQ, ban hành ngày 06/01/2023 (2023-01-06), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=82950&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/1/9/Vanban_101.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "101-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "1010/TB-TCHQ/2020",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -4859,6 +4895,42 @@
       "toan_van": "chua_co",
       "slug": "102-tb-tchq-2020",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "102/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-01-06",
+      "hieu_luc_tu": "2023-01-06",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3971 trong data/customs/processed/all-1990-2026.csv): số hiệu 102/TB-TCHQ, ban hành ngày 06/01/2023 (2023-01-06), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=82949&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/1/9/Vanban_102.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "102-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -13924,6 +13996,42 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "1259/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Về kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-03-22",
+      "hieu_luc_tu": "2023-03-22",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3752 trong data/customs/processed/all-1990-2026.csv): số hiệu 1259/TB-TCHQ, ban hành ngày 22/03/2023 (2023-03-22), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=84084&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/3/29/1259.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "1259-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "126/2021/NĐ-CP",
       "loai": "NGHI_DINH",
       "ten": "Sửa đổi, bổ sung một số điều của các Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp; tiêu chuẩn, đo lường và chất lượng sản phẩm hàng hóa; khoa học và công nghệ; chuyển giao công nghệ; năng lượng, nguyên tử",
@@ -18590,6 +18698,42 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "149/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "DINH_CHINH",
+      "loai_phan_loai_can_cu": "title_dinh_chinh",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Đính chính Thông báo kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-01-11",
+      "hieu_luc_tu": "2023-01-11",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3962 trong data/customs/processed/all-1990-2026.csv): số hiệu 149/TB-TCHQ, ban hành ngày 11/01/2023 (2023-01-11), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=82982&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/1/11/Vanban_149.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "149-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "1494/2001/QĐ-TCHQ",
       "loai": "QUYET_DINH",
       "ten": "Ban hành quy định tạm thời thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu",
@@ -19540,6 +19684,78 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "1506/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Về kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-04-04",
+      "hieu_luc_tu": "2023-04-04",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3727 trong data/customs/processed/all-1990-2026.csv): số hiệu 1506/TB-TCHQ, ban hành ngày 04/04/2023 (2023-04-04), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=84286&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/4/5/TB.1506.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "1506-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1507/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Về kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-04-04",
+      "hieu_luc_tu": "2023-04-04",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3728 trong data/customs/processed/all-1990-2026.csv): số hiệu 1507/TB-TCHQ, ban hành ngày 04/04/2023 (2023-04-04), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=84287&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/4/5/TB.1507.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "1507-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "151/TB-TCHQ/2024",
       "loai": "THONG_BAO",
       "loai_phan_loai": "XAC_DINH_TRUOC",
@@ -19681,6 +19897,42 @@
       },
       "ghi_chu": "Sửa đổi, bổ sung một số nội dung tại Quyết định 7866/QĐ-BYT ngày 28-12-2018 về công bố thủ tục hành chính trong lĩnh vực Mỹ phẩm (có hiệu lực từ 28-05-2026).",
       "slug": "1536-qd-byt-2026",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1538/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Về kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-04-05",
+      "hieu_luc_tu": "2023-04-05",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3723 trong data/customs/processed/all-1990-2026.csv): số hiệu 1538/TB-TCHQ, ban hành ngày 05/04/2023 (2023-04-05), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=84322&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/4/7/TB.1538TCHQ2023.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "1538-tb-tchq-2023",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -20901,6 +21153,42 @@
       "toan_van": "chua_co",
       "slug": "1571-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1572/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Về kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-04-06",
+      "hieu_luc_tu": "2023-04-06",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3720 trong data/customs/processed/all-1990-2026.csv): số hiệu 1572/TB-TCHQ, ban hành ngày 06/04/2023 (2023-04-06), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=84323&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/4/7/TB.1572TCHQ2023.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "1572-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -23206,6 +23494,42 @@
       ],
       "toan_van": "chua_co",
       "slug": "1714-tb-tchq-2022",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1714/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-04-12",
+      "hieu_luc_tu": "2023-04-12",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3708 trong data/customs/processed/all-1990-2026.csv): số hiệu 1714/TB-TCHQ, ban hành ngày 12/04/2023 (2023-04-12), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=84491&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/4/14/1714.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "1714-tb-tchq-2023",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -27854,6 +28178,42 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "1884/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-04-21",
+      "hieu_luc_tu": "2023-04-21",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3664 trong data/customs/processed/all-1990-2026.csv): số hiệu 1884/TB-TCHQ, ban hành ngày 21/04/2023 (2023-04-21), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=84774&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/4/25/1884.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "1884-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "1885/TB-TCHQ/2023",
       "loai": "THONG_BAO",
       "loai_phan_loai": "XAC_DINH_TRUOC",
@@ -27924,6 +28284,42 @@
       "toan_van": "chua_co",
       "slug": "1886-tb-tchq-2023",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1887/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-04-21",
+      "hieu_luc_tu": "2023-04-21",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3666 trong data/customs/processed/all-1990-2026.csv): số hiệu 1887/TB-TCHQ, ban hành ngày 21/04/2023 (2023-04-21), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=84777&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/4/25/1887.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "1887-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -31949,6 +32345,114 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "2014/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-04-26",
+      "hieu_luc_tu": "2023-04-26",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3644 trong data/customs/processed/all-1990-2026.csv): số hiệu 2014/TB-TCHQ, ban hành ngày 26/04/2023 (2023-04-26), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=84854&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/4/28/2014.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "2014-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "2015/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-04-26",
+      "hieu_luc_tu": "2023-04-26",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3645 trong data/customs/processed/all-1990-2026.csv): số hiệu 2015/TB-TCHQ, ban hành ngày 26/04/2023 (2023-04-26), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=84855&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/4/28/2015.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "2015-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "2016/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-04-26",
+      "hieu_luc_tu": "2023-04-26",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3646 trong data/customs/processed/all-1990-2026.csv): số hiệu 2016/TB-TCHQ, ban hành ngày 26/04/2023 (2023-04-26), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=84856&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/4/28/2016.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "2016-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "2017/TB-TCHQ/2023",
       "loai": "THONG_BAO",
       "loai_phan_loai": "XAC_DINH_TRUOC",
@@ -33060,6 +33564,42 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "2075/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-04-28",
+      "hieu_luc_tu": "2023-04-28",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3636 trong data/customs/processed/all-1990-2026.csv): số hiệu 2075/TB-TCHQ, ban hành ngày 28/04/2023 (2023-04-28), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=84961&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/5/5/2075.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "2075-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "2079/QĐ-TCHQ",
       "loai": "QUYET_DINH",
       "ten": "Ban hành Danh mục hàng hóa rủi ro về phân loại hàng hóa",
@@ -33810,6 +34350,42 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "2106/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-05-04",
+      "hieu_luc_tu": "2023-05-04",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3632 trong data/customs/processed/all-1990-2026.csv): số hiệu 2106/TB-TCHQ, ban hành ngày 04/05/2023 (2023-05-04), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=84960&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/5/5/2106.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "2106-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "21070/TB-CHQ/2025",
@@ -34712,6 +35288,42 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "214/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-01-13",
+      "hieu_luc_tu": "2023-01-13",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3951 trong data/customs/processed/all-1990-2026.csv): số hiệu 214/TB-TCHQ, ban hành ngày 13/01/2023 (2023-01-13), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=83031&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/1/16/Vanban_214.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "214-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "21409/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "CHUA_XAC_DINH",
@@ -34742,6 +35354,42 @@
       "toan_van": "chua_co",
       "slug": "21409-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "2145/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-05-08",
+      "hieu_luc_tu": "2023-05-08",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3628 trong data/customs/processed/all-1990-2026.csv): số hiệu 2145/TB-TCHQ, ban hành ngày 08/05/2023 (2023-05-08), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=84992&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/5/9/2145.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "2145-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -34808,6 +35456,42 @@
       "toan_van": "chua_co",
       "slug": "215-tb-tchq-2019",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "215/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-01-13",
+      "hieu_luc_tu": "2023-01-13",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3952 trong data/customs/processed/all-1990-2026.csv): số hiệu 215/TB-TCHQ, ban hành ngày 13/01/2023 (2023-01-13), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=83030&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/1/16/Vanban_215.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "215-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -40856,6 +41540,42 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "2524/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-05-25",
+      "hieu_luc_tu": "2023-05-25",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3554 trong data/customs/processed/all-1990-2026.csv): số hiệu 2524/TB-TCHQ, ban hành ngày 25/05/2023 (2023-05-25), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=85339&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/5/26/2524.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "2524-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "253/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -41222,6 +41942,42 @@
       "toan_van": "chua_co",
       "slug": "258-tb-tchq-2019",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "2580/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-05-26",
+      "hieu_luc_tu": "2023-05-26",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3551 trong data/customs/processed/all-1990-2026.csv): số hiệu 2580/TB-TCHQ, ban hành ngày 26/05/2023 (2023-05-26), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=85350&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/5/30/2580.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "2580-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -41993,6 +42749,45 @@
       "toan_van": "chua_co",
       "slug": "2636-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "2653/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-05-31",
+      "hieu_luc_tu": "2023-05-31",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "so_hieu_khac": [
+        "2653/TCHQ-TXNK"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3524 trong data/customs/processed/all-1990-2026.csv): số hiệu 2653/TB-TCHQ, ban hành ngày 31/05/2023 (2023-05-31), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=85625&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/6/15/2653.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "2653-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -42985,6 +43780,45 @@
       ],
       "toan_van": "chua_co",
       "slug": "2714-tb-tchq-2022",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "2714/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "CHUA_XAC_DINH",
+      "loai_phan_loai_can_cu": "khong_khop_tin_hieu",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "V/v Hướng dẫn mã HS (Công ty TNHH Thương mại Candy Cake)",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-06-01",
+      "hieu_luc_tu": "2023-06-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "so_hieu_khac": [
+        "2714/TCHQ-TXNK"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3520 trong data/customs/processed/all-1990-2026.csv): số hiệu 2714/TCHQ-TXNK, ban hành ngày 01/06/2023 (2023-06-01), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=85474&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/DONG_NAI/2023/6/6/2714_TCHQ_TXNK_01_06_2023.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "2714-tb-tchq-2023",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -50955,6 +51789,45 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "315/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "CHUA_XAC_DINH",
+      "loai_phan_loai_can_cu": "khong_khop_tin_hieu",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "V/v Thực hiện Thông tư số 31/2022/TT-BTC ngày 08/06/2022 và các nghị định Biểu thuế",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-01-18",
+      "hieu_luc_tu": "2023-01-18",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "so_hieu_khac": [
+        "315/TCHQ-TXNK1"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3920 trong data/customs/processed/all-1990-2026.csv): số hiệu 315/TCHQ-TXNK1, ban hành ngày 18/01/2023 (2023-01-18), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=83093&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/DONG_NAI/2023/1/27/315_TCHQ_TXNK_18_01_2023.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "315-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "3150/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -51453,6 +52326,45 @@
       ],
       "toan_van": "chua_co",
       "slug": "3167-tb-tchq-2022",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "3173/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "CHUA_XAC_DINH",
+      "loai_phan_loai_can_cu": "khong_khop_tin_hieu",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Thực hiện Nghị định số 26/2023/NĐ-CP và Quyết định số 15/2023/QĐ-TTg ngày 31/5/2023 về biểu thuế",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-06-21",
+      "hieu_luc_tu": "2023-07-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "so_hieu_khac": [
+        "3173/TCHQ-TXNK"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3432 trong data/customs/processed/all-1990-2026.csv): số hiệu 3173/TCHQ-TXNK, ban hành ngày 21/06/2023 (2023-06-21), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=85773&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/6/23/3173.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "3173-tb-tchq-2023",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -55312,6 +56224,42 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "3346/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Về kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-06-29",
+      "hieu_luc_tu": "2023-06-29",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3390 trong data/customs/processed/all-1990-2026.csv): số hiệu 3346/TB-TCHQ, ban hành ngày 29/06/2023 (2023-06-29), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=85911&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/6/30/3346.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "3346-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "3347/TB-TCHQ/2024",
       "loai": "THONG_BAO",
       "loai_phan_loai": "XAC_DINH_TRUOC",
@@ -56694,6 +57642,45 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "3431/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "CHUA_XAC_DINH",
+      "loai_phan_loai_can_cu": "khong_khop_tin_hieu",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Thực hiện Nghị định số 44/2023/NĐ-CP",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-06-30",
+      "hieu_luc_tu": "2023-06-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "so_hieu_khac": [
+        "3431/TCHQ-TXNK"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3384 trong data/customs/processed/all-1990-2026.csv): số hiệu 3431/TCHQ-TXNK, ban hành ngày 30/06/2023 (2023-06-30), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=85961&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/7/3/3431.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "3431-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "344/2026/QĐ-BTC",
       "so_hieu_khac": [
         "344/QĐ-BTC"
@@ -57182,6 +58169,84 @@
       "toan_van": "chua_co",
       "slug": "3510-tb-tchq-2019",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "3516/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-07-06",
+      "hieu_luc_tu": "2023-07-06",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "so_hieu_khac": [
+        "3516/TCHQ-TXNK"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3359 trong data/customs/processed/all-1990-2026.csv): số hiệu 3516/TCHQ-TXNK, ban hành ngày 06/07/2023 (2023-07-06), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=86214&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/7/7/3516.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "3516-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "3517/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-07-06",
+      "hieu_luc_tu": "2023-07-06",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "so_hieu_khac": [
+        "3517/TCHQ-TXNK"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3360 trong data/customs/processed/all-1990-2026.csv): số hiệu 3517/TCHQ-TXNK, ban hành ngày 06/07/2023 (2023-07-06), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=86213&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/7/7/3517.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "3517-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -59588,6 +60653,42 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "3668/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-07-14",
+      "hieu_luc_tu": "2023-07-14",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3331 trong data/customs/processed/all-1990-2026.csv): số hiệu 3668/TB-TCHQ, ban hành ngày 14/07/2023 (2023-07-14), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=86392&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/7/17/3668.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "3668-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "367/QĐ-BKHCN",
       "loai": "QUYET_DINH",
       "ten": "Về việc sửa đổi, bổ sung nhóm sản phẩm chiếu sáng bằng công nghệ LED tại mục 10 Phụ lục ban hành kèm theo Quyết định số 2711/QĐ-BKHCN ngày 30/12/2022 của Bộ trưởng Bộ Khoa học và Công nghệ về việc công bố sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
@@ -61688,6 +62789,42 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "3812/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-07-20",
+      "hieu_luc_tu": "2023-07-20",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3304 trong data/customs/processed/all-1990-2026.csv): số hiệu 3812/TB-TCHQ, ban hành ngày 20/07/2023 (2023-07-20), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=86533&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/7/22/3812.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "3812-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "3818/TB-TCHQ/2022",
       "loai": "THONG_BAO",
       "loai_phan_loai": "XAC_DINH_TRUOC",
@@ -62086,6 +63223,42 @@
       ],
       "toan_van": "chua_co",
       "slug": "3830-tb-tchq-2019",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "3831/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-07-21",
+      "hieu_luc_tu": "2023-07-21",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3297 trong data/customs/processed/all-1990-2026.csv): số hiệu 3831/TB-TCHQ, ban hành ngày 21/07/2023 (2023-07-21), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=86611&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/7/25/3831.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "3831-tb-tchq-2023",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -62952,6 +64125,42 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "3903/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-07-26",
+      "hieu_luc_tu": "2023-07-26",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3270 trong data/customs/processed/all-1990-2026.csv): số hiệu 3903/TB-TCHQ, ban hành ngày 26/07/2023 (2023-07-26), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=86693&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/7/28/3903.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "3903-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "3903/TB-TCHQ/2024",
@@ -65313,6 +66522,78 @@
       ],
       "toan_van": "chua_co",
       "slug": "4034-tb-tchq-2019",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "4034/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-08-02",
+      "hieu_luc_tu": "2023-08-02",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3236 trong data/customs/processed/all-1990-2026.csv): số hiệu 4034/TB-TCHQ, ban hành ngày 02/08/2023 (2023-08-02), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=86835&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/8/4/4034.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "4034-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "4035/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-08-02",
+      "hieu_luc_tu": "2023-08-02",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3237 trong data/customs/processed/all-1990-2026.csv): số hiệu 4035/TB-TCHQ, ban hành ngày 02/08/2023 (2023-08-02), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=86834&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/8/4/4035.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "4035-tb-tchq-2023",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -83075,6 +84356,45 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "596/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "CHUA_XAC_DINH",
+      "loai_phan_loai_can_cu": "khong_khop_tin_hieu",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "V/v Chính sách thuế đối với hàng tái nhập của doanh nghiệp chế xuất (Công ty TNHH Hanaro TNS Việt Nam)",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-02-13",
+      "hieu_luc_tu": "2023-02-13",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "so_hieu_khac": [
+        "596/TCHQ-TXNK"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3867 trong data/customs/processed/all-1990-2026.csv): số hiệu 596/TCHQ-TXNK, ban hành ngày 13/02/2023 (2023-02-13), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=83307&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/DONG_NAI/2023/2/15/596_TCHQ_TXNK_13_02_2023.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "596-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "5969/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -100813,6 +102133,42 @@
       ],
       "toan_van": "chua_co",
       "slug": "99-tb-tchq-2022",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "99/TB-TCHQ/2023",
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-16",
+      "ten": "Kết quả xác định trước mã số",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2023-01-06",
+      "hieu_luc_tu": "2023-01-06",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=3972 trong data/customs/processed/all-1990-2026.csv): số hiệu 99/TB-TCHQ, ban hành ngày 06/01/2023 (2023-01-06), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-16",
+        "boi": "paperclip-agent@ozvietnam"
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=82951&cid=1294",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/1/9/Vanban_99.PDF",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "toan_van": "chua_co",
+      "slug": "99-tb-tchq-2023",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
