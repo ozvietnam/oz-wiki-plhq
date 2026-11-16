@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-16
 
-2749 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2789 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -173,11 +173,12 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Thuế xuất khẩu, nhập khẩu và các thuế khác khâu nhập khẩu `thue`
 
-12 văn bản, 5 chưa hết hiệu lực.
+13 văn bản, 6 chưa hết hiệu lực.
 
 - 🟢 [86/2026/TT-BTC](../registry/van-ban/86-2026-tt-btc.yaml) — Quy định về quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu
 - 🟢 [346/2025/NĐ-CP](../registry/van-ban/346-2025-nd-cp.yaml) — Quy định phí bảo vệ môi trường đối với nước thải
 - 🟢 [108/2025/QH15](../registry/van-ban/108-2025-qh15.yaml) — Luật Quản lý thuế
+- 🟢 [3702/TB-TCHQ/2024](../registry/van-ban/3702-tb-tchq-2024.yaml) — V/v Chính sách thuế hàng hóa xuất khẩu (Công ty TNHH Vĩnh Thắng)
 - 🟢 [102/2021/NĐ-CP](../registry/van-ban/102-2021-nd-cp.yaml) — Nghị định số 102/2021/NĐ-CP ngày 16/11/2021 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định về xử phạt vi phạm hành chính trong lĩnh vực thuế, hóa đơn; hải quan; kinh doanh bảo hiểm, kinh doanh xổ số; quản lý, sử dụng tài sản công; thực hành tiết kiệm, chống lãng phí; dự trữ quốc gia; kho bạc nhà nước; kế toán, kiểm toán độc lập
 - ⚫ [78/2021/TT-BTC](../registry/van-ban/78-2021-tt-btc.yaml) — Hướng dẫn thực hiện một số điều của Luật Quản lý thuế ngày 13 tháng 6 năm 2019, Nghị định số 123/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định về hóa đơn, chứng từ _(hết hiệu lực 2025-06-01)_
 - 🟢 [123/2020/NĐ-CP](../registry/van-ban/123-2020-nd-cp.yaml) — Quy định về hóa đơn, chứng từ
@@ -308,9 +309,10 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Miễn, giảm, hoàn thuế `thue/mien-giam-hoan`
 
-7 văn bản, 5 chưa hết hiệu lực.
+8 văn bản, 6 chưa hết hiệu lực.
 
 - 🟢 [5262/TB-TCHQ/2024](../registry/van-ban/5262-tb-tchq-2024.yaml) — V/v Hoàn thuế nhập khẩu (Công ty TNHH Unique Sound Việt Nam)
+- 🟢 [2269/TB-TCHQ/2024](../registry/van-ban/2269-tb-tchq-2024.yaml) — V/v Thủ tục hải quan, hoàn thuế NK (Công ty TNHH Global Gases Việt Nam)
 - 🟢 [5980/TB-TCHQ/2023](../registry/van-ban/5980-tb-tchq-2023.yaml) — V/v Hàng nhập khẩu để SXXK (Công ty TNHH Kwang Yang Việt Nam)
 - 🟢 [169/2016/TT-BTC](../registry/van-ban/169-2016-tt-btc.yaml) — Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí thẩm định hợp đồng chuyển giao công nghệ
 - 🟢 [134/2016/NĐ-CP](../registry/van-ban/134-2016-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp thi hành Luật Thuế xuất khẩu, thuế nhập khẩu
@@ -320,10 +322,12 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Thuế GTGT, TTĐB, BVMT ở khâu nhập khẩu (gồm giảm GTGT) `thue/thue-noi-dia-khau-nk`
 
-12 văn bản, 10 chưa hết hiệu lực.
+14 văn bản, 12 chưa hết hiệu lực.
 
 - 🟢 [174/2025/NĐ-CP](../registry/van-ban/174-2025-nd-cp.yaml) — Quy định chính sách giảm thuế giá trị gia tăng theo Nghị quyết số 204/2025/QH15 ngày 17 tháng 6 năm 2025 của Quốc hội _(hết hiệu lực 2026-12-31)_
 - 🟢 [204/2025/QH15](../registry/van-ban/204-2025-qh15.yaml) — Nghị quyết về giảm thuế giá trị gia tăng theo Nghị quyết số 204/2025/QH15 _(hết hiệu lực 2026-12-31)_
+- 🟢 [3037/TB-TCHQ/2024](../registry/van-ban/3037-tb-tchq-2024.yaml) — V/v Thuế GTGT hóa chất cơ bản và sản phẩm hóa chất (Công ty Cổ phần Stromann)
+- 🟢 [2255/TB-TCHQ/2024](../registry/van-ban/2255-tb-tchq-2024.yaml) — V/v Thuế GTGT theo Nghị định số 94/2023/NĐ-CP (Công ty TNHH Artron Việt Nam)
 - 🟢 [6027/TB-TCHQ/2023](../registry/van-ban/6027-tb-tchq-2023.yaml) — V/v Thuế GTGT bộ đầu nối điện (Công ty TNHH Vật tư Hồng Đà Giang)
 - 🟢 [5159/TB-TCHQ/2023](../registry/van-ban/5159-tb-tchq-2023.yaml) — V/v Thuế GTGT phụ tùng và linh kiện phần cứng, điện tử (Công ty Cổ phần xuất nhập khẩu và vật tư công nghiệp)
 - 🟢 [5160/TB-TCHQ/2023](../registry/van-ban/5160-tb-tchq-2023.yaml) — V/v Thuế GTGT thiết bị điện (Công ty Cổ phần đầu tư và Công nghệ Vạn Xuân)
@@ -337,7 +341,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2116 văn bản, 2116 chưa hết hiệu lực.
+2152 văn bản, 2152 chưa hết hiệu lực.
 
 - 🟢 [73/2026/VBHN-TT-BCT](../registry/van-ban/73-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư sửa đổi quy định Danh mục chi tiết theo mã HS của hàng hóa xuất khẩu, nhập khẩu
 - 🟢 [74/2026/VBHN-TT-BCT](../registry/van-ban/74-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương
@@ -541,15 +545,30 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [3965/TB-TCHQ/2024](../registry/van-ban/3965-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
 - 🟢 [3966/TB-TCHQ/2024](../registry/van-ban/3966-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
 - 🟢 [3969/TB-TCHQ/2024](../registry/van-ban/3969-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
+- 🟢 [3925/TB-TCHQ/2024](../registry/van-ban/3925-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
 - 🟢 [3926/TB-TCHQ/2024](../registry/van-ban/3926-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (7013.37.00)
+- 🟢 [3927/TB-TCHQ/2024](../registry/van-ban/3927-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [3928/TB-TCHQ/2024](../registry/van-ban/3928-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [3929/TB-TCHQ/2024](../registry/van-ban/3929-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [3930/TB-TCHQ/2024](../registry/van-ban/3930-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
 - 🟢 [3903/TB-TCHQ/2024](../registry/van-ban/3903-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
 - 🟢 [3904/TB-TCHQ/2024](../registry/van-ban/3904-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3004.32.90)
+- 🟢 [3825/TB-TCHQ/2024](../registry/van-ban/3825-tb-tchq-2024.yaml) — V/v Phân loại hàng hóa và áp dụng chính sách thuế VAT (Công ty cổ phần Anh Khuê Watch)
+- 🟢 [3828/TB-TCHQ/2024](../registry/van-ban/3828-tb-tchq-2024.yaml) — Bổ sung Tuyển tập ý kiến phân loại của WCO tại phiên họp lần thứ 73
 - 🟢 [3811/TB-TCHQ/2024](../registry/van-ban/3811-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.98)
 - 🟢 [3664/TB-TCHQ/2024](../registry/van-ban/3664-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.99)
 - 🟢 [3594/TB-TCHQ/2024](../registry/van-ban/3594-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3911.90.00)
+- 🟢 [3609/TB-TCHQ/2024](../registry/van-ban/3609-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [3610/TB-TCHQ/2024](../registry/van-ban/3610-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [3611/TB-TCHQ/2024](../registry/van-ban/3611-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [3612/TB-TCHQ/2024](../registry/van-ban/3612-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [3613/TB-TCHQ/2024](../registry/van-ban/3613-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
 - 🟢 [3614/TB-TCHQ/2024](../registry/van-ban/3614-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3915.90.10)
+- 🟢 [3615/TB-TCHQ/2024](../registry/van-ban/3615-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
 - 🟢 [3408/TB-TCHQ/2024](../registry/van-ban/3408-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3817.00.00)
 - 🟢 [3409/TB-TCHQ/2024](../registry/van-ban/3409-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (4202.32.00)
+- 🟢 [3387/TB-TCHQ/2024](../registry/van-ban/3387-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [3398/TB-TCHQ/2024](../registry/van-ban/3398-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
 - 🟢 [3399/TB-TCHQ/2024](../registry/van-ban/3399-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (4016.93.90)
 - 🟢 [3347/TB-TCHQ/2024](../registry/van-ban/3347-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3907.61.00)
 - 🟢 [3348/TB-TCHQ/2024](../registry/van-ban/3348-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3907.69.10)
@@ -559,14 +578,31 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [3301/TB-TCHQ/2024](../registry/van-ban/3301-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (2936.28.00)
 - 🟢 [3312/TB-TCHQ/2024](../registry/van-ban/3312-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3506.10.00)
 - 🟢 [3313/TB-TCHQ/2024](../registry/van-ban/3313-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3926.90.99)
+- 🟢 [3245/TB-TCHQ/2024](../registry/van-ban/3245-tb-tchq-2024.yaml) — Sửa đổi, thay thế Thông báo kết quả xác định trước mã số
+- 🟢 [3246/TB-TCHQ/2024](../registry/van-ban/3246-tb-tchq-2024.yaml) — Sửa đổi, thay thế Thông báo kết quả xác định trước mã số
 - 🟢 [2817/TB-TCHQ/2024](../registry/van-ban/2817-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (2008.19.99)
+- 🟢 [2818/TB-TCHQ/2024](../registry/van-ban/2818-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [2819/TB-TCHQ/2024](../registry/van-ban/2819-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [2820/TB-TCHQ/2024](../registry/van-ban/2820-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [2821/TB-TCHQ/2024](../registry/van-ban/2821-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [2822/TB-TCHQ/2024](../registry/van-ban/2822-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [2765/TB-TCHQ/2024](../registry/van-ban/2765-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
 - 🟢 [2695/TB-TCHQ/2024](../registry/van-ban/2695-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (7010.90.99)
 - 🟢 [2710/TB-TCHQ/2024](../registry/van-ban/2710-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
+- 🟢 [2681/TB-TCHQ/2024](../registry/van-ban/2681-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
 - 🟢 [2516/TB-TCHQ/2024](../registry/van-ban/2516-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3504.00.00)
 - 🟢 [2517/TB-TCHQ/2024](../registry/van-ban/2517-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3504.00.00)
 - 🟢 [2518/TB-TCHQ/2024](../registry/van-ban/2518-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3504.00.00)
+- 🟢 [2519/TB-TCHQ/2024](../registry/van-ban/2519-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [2387/TB-TCHQ/2024](../registry/van-ban/2387-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [2388/TB-TCHQ/2024](../registry/van-ban/2388-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [2389/TB-TCHQ/2024](../registry/van-ban/2389-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [2390/TB-TCHQ/2024](../registry/van-ban/2390-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [2391/TB-TCHQ/2024](../registry/van-ban/2391-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [2392/TB-TCHQ/2024](../registry/van-ban/2392-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
 - 🟢 [2373/TB-TCHQ/2024](../registry/van-ban/2373-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3402.90.99)
 - 🟢 [2306/TB-TCHQ/2024](../registry/van-ban/2306-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.98)
+- 🟢 [2307/TB-TCHQ/2024](../registry/van-ban/2307-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
 - 🟢 [2276/TB-TCHQ/2024](../registry/van-ban/2276-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3307.49.10)
 - 🟢 [2258/TB-TCHQ/2024](../registry/van-ban/2258-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3004.39.00)
 - 🟢 [2222/TB-TCHQ/2024](../registry/van-ban/2222-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3504.00.00)
@@ -575,6 +611,10 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [2225/TB-TCHQ/2024](../registry/van-ban/2225-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (1901.90.31)
 - 🟢 [2131/TB-TCHQ/2024](../registry/van-ban/2131-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3824.99.70)
 - 🟢 [2101/TB-TCHQ/2024](../registry/van-ban/2101-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (0404.90.00)
+- 🟢 [1969/TB-TCHQ/2024](../registry/van-ban/1969-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [1970/TB-TCHQ/2024](../registry/van-ban/1970-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [1952/TB-TCHQ/2024](../registry/van-ban/1952-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- 🟢 [1893/TB-TCHQ/2024](../registry/van-ban/1893-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
 - 🟢 [1616/TB-TCHQ/2024](../registry/van-ban/1616-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3207.20.90)
 - 🟢 [1547/TB-TCHQ/2024](../registry/van-ban/1547-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
 - 🟢 [1548/TB-TCHQ/2024](../registry/van-ban/1548-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3307.90.50)
