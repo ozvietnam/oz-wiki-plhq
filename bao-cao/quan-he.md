@@ -77,7 +77,7 @@ flowchart LR
   n_29_2001_QH10["29/2001/QH10<br/>hết hiệu lực"]
   n_46_2024_N__CP["46/2024/NĐ-CP<br/>còn hiệu lực"]
   n_54_2026_VBHN_TT_BTC["54/2026/VBHN-TT-BTC<br/>còn hiệu lực"]
-  n_142_2026_TT_BTC["142/2026/TT-BTC<br/>chưa có hiệu lực"]
+  n_142_2026_TT_BTC["142/2026/TT-BTC<br/>còn hiệu lực"]
   n_54_VBHN_VPQH["54/VBHN-VPQH<br/>còn hiệu lực"]
   n_65_2023_N__CP["65/2023/NĐ-CP<br/>còn hiệu lực"]
   n_103_2006_N__CP["103/2006/NĐ-CP<br/>hết hiệu lực"]

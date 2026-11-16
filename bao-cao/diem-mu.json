@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-16",
-  "tong": 3692,
+  "tong": 3690,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -4022,24 +4022,6 @@
       "tieuDe": "1410/TB-TCHQ/2018: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
       "muc_tieu": "1410/TB-TCHQ/2018",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "SAP_CO_HIEU_LUC",
-      "muc": "Vừa",
-      "tieuDe": "142/2026/TT-BTC có hiệu lực ngày 2026-11-16",
-      "muc_tieu": "142/2026/TT-BTC",
-      "viec": "Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "MAU_THUAN_HIEU_LUC",
-      "muc": "Cao",
-      "tieuDe": "142/2026/TT-BTC ghi \"chưa có hiệu lực\" nhưng ngày hiệu lực 2026-11-16 đã qua",
-      "muc_tieu": "142/2026/TT-BTC",
-      "viec": "Chuyển tinh_trang sang CON_HIEU_LUC sau khi đối chiếu.",
       "luong": "hieu-luc",
       "trongSo": 0
     },
