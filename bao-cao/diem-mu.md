@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-11-16
 
-Tổng 3575 điểm: **9 cao**, 163 vừa, 3403 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 3615 điểm: **9 cao**, 163 vừa, 3443 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -17,7 +17,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Bảng dẫn chiếu mã HS sang văn bản chưa có bảng | Vừa | 1 | `danh-muc-hs` |
 | Hiệu lực chưa đối chiếu nguồn A | Thấp | 1412 | `hieu-luc` |
 | Chưa có nguồn chính thống | Thấp | 1411 | `truy-vet-nguon` |
-| Văn bản của cơ quan đã sáp nhập | Thấp | 547 | `do-tham` |
+| Văn bản của cơ quan đã sáp nhập | Thấp | 587 | `do-tham` |
 | Chưa có toàn văn | Thấp | 24 | `nap-lam-sach` |
 | Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay | Thấp | 15 | `hieu-luc` |
 | HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp) | Thấp | 4 | `hieu-luc` |
@@ -212,7 +212,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **1028/TB-TCHQ/2019: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - … và 1371 điểm khác (xem bao-cao/diem-mu.json)
 
-## Văn bản của cơ quan đã sáp nhập (547)
+## Văn bản của cơ quan đã sáp nhập (587)
 
 - [ ] **01/2024/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
 - [ ] **03/2024/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
@@ -254,7 +254,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **1406/TB-TCHQ/2018 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
 - [ ] **1407/TB-TCHQ/2018 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
 - [ ] **1408/TB-TCHQ/2018 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- … và 507 điểm khác (xem bao-cao/diem-mu.json)
+- … và 547 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Chưa có toàn văn (24)
 
