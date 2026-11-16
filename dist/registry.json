@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-16",
   "luoc_do_phien_ban": "1.4.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2829,
+  "tong": 2832,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -1732,6 +1732,38 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "05/2026/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Quy định về phân cấp trong hoạt động kiểm tra chuyên ngành trong một số lĩnh vực của Bộ Tài chính",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2026-01-22",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/?pageid=27160&docid=216772",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Thong-tu-05-2026-TT-BTC-phan-cap-kiem-tra-chuyen-nganh-trong-linh-vuc-cua-Bo-Tai-chinh-691248.aspx",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "số hiệu + tên + ngày ban hành 22-01-2026 (chinhphu.vn docid 216772 + TVPL); Điều 4 phân cấp KTCN hải quan xuống Cục trưởng Cục HQ",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-16",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh sát đêm 16/11 phát hiện thiếu: nền phân cấp cho NĐ 217/2025 (đã có) — hải quan đầu mối duy nhất KTCN cửa khẩu.",
+      "slug": "05-2026-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "06/2003/NĐ-CP",
@@ -27214,6 +27246,38 @@
       "toan_van": "chua_co",
       "slug": "1812-tb-tchq-2020",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1813/2026/QĐ-CHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Quy định về định dạng thông điệp dữ liệu tờ khai hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định cung cấp dịch vụ chuyển phát nhanh quốc tế",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2026-11-12",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/so-tay-nghiep-vu"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/xuat-nhap-khau/quyet-dinh-1813-qd-chq-2026-quy-dinh-dinh-dang-thong-diep-du-lieu-to-khai-hang-hoa-xuat-nhap-khau-456013-d1.html",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://thuehaiquan.tapchikinhtetaichhi.vn/infographic-bon-diem-moi-quan-trong-ve-dinh-dang-thong-diep-du-lieu-to-khai-172428.html",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "số hiệu + tên + ngày ban hành 12-11-2026 (luatvietnam + Tạp chí KTTC); ÁP DỤNG TỪ 16-11-2026",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-16",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh sát đêm 16/11 — GẤP: áp dụng từ HÔM NAY 16/11 với hàng bưu chính/chuyển phát quốc tế (khớp TT 142/2026/TT-BTC HL 16/11). Cần truyền đạt khách gửi hàng qua đường này.",
+      "slug": "1813-2026-qd-chq",
+      "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
     },
     {
@@ -101665,6 +101729,38 @@
       ],
       "toan_van": "raw/download/datafiles.chinhphu.vn/81-2025-qh15.pdf",
       "slug": "81-2025-qh15",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "81/2026/TT-BXD",
+      "loai": "THONG_TU",
+      "ten": "Quy định việc dán nhãn năng lượng đối với vật liệu xây dựng thuộc phạm vi quản lý của Bộ Xây dựng",
+      "co_quan": "BXD",
+      "ngay_ban_hanh": "2026-11-04",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "nguon": [
+        {
+          "url": "https://moc.gov.vn/pl/pages/ChiTietVanBan.aspx?vID=897",
+          "truy_cap": "2026-11-16"
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Xay-dung-Do-thi/Thong-tu-81-2026-TT-BXD-viec-dan-nhan-nang-luong-doi-voi-vat-lieu-xay-dung-731823.aspx",
+          "truy_cap": "2026-11-16"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "số hiệu + tên + ngày ban hành 04-11-2026, hiệu lực 01-01-2027 (moc.gov.vn bản gốc + TVPL); danh mục bắt buộc theo đợt 2029/2031",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-16",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh sát đêm 16/11. Nhãn năng lượng VLXD — đụng hàng VLXD nhập (kiểu kính cách nhiệt, VL cách nhiệt). Nhanh chua-phan-loai — đề nghị mở nút kiem-tra-chuyen-nganh/bxd khi đủ VB.",
+      "slug": "81-2026-tt-bxd",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
