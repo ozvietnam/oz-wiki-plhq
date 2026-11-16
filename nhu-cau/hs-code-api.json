@@ -1,8 +1,8 @@
 {
  "_comment": "Chụp từ hs-code-api (scripts/bench-plhq.mjs) bằng node tools/nhu-cau.mjs — KHÔNG sửa tay. tools/diem-mu.mjs đọc tệp này.",
  "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/plhq-bench-latest.json",
- "ngayDo": "2026-11-08",
- "registryVersionKhiDo": "2026-11-08",
+ "ngayDo": "2026-11-13",
+ "registryVersionKhiDo": "2026-11-13",
  "maHsCoChinhSach": 7673,
  "vanBanDuocDan": [
   {
@@ -107,7 +107,7 @@
   },
   {
    "soHieu": "33/2024/NĐ-CP",
-   "found": false,
+   "found": true,
    "soMaHs": 60
   },
   {
@@ -231,7 +231,7 @@
    "soMaHs": 8
   },
   {
-   "soHieu": "2105/QĐ-BCT",
+   "soHieu": "1309/QĐ-BCT",
    "found": true,
    "soMaHs": 6
   },
@@ -318,88 +318,10 @@
  ],
  "thuVienLech": [
   {
-   "code": "12/2022/TT-BGTVT",
-   "thuVien": "AMENDED",
-   "so": "HET_HIEU_LUC",
-   "soHieu": "12/2022/TT-BGTVT"
-  },
-  {
-   "code": "62/2024/TT-BGTVT",
-   "thuVien": "ACTIVE",
-   "so": "HET_HIEU_LUC",
-   "soHieu": "62/2024/TT-BGTVT"
-  },
-  {
-   "code": "23/2019/QD-TTG",
-   "thuVien": "ACTIVE",
-   "so": "HET_HIEU_LUC",
-   "soHieu": "23/2019/QĐ-TTg"
-  },
-  {
-   "code": "113/2017/ND-CP",
-   "thuVien": "AMENDED",
-   "so": "HET_HIEU_LUC",
-   "soHieu": "113/2017/NĐ-CP"
-  },
-  {
-   "code": "82/2022/ND-CP",
-   "thuVien": "ACTIVE",
-   "so": "HET_HIEU_LUC",
-   "soHieu": "82/2022/NĐ-CP"
-  },
-  {
-   "code": "1182/QD-BCT-PL2-2021",
-   "thuVien": "EXPIRED",
-   "so": "HET_HIEU_LUC_MOT_PHAN",
-   "soHieu": "1182/QĐ-BCT"
-  },
-  {
-   "code": "01/2021/TT-BLDTBXH",
-   "thuVien": "ACTIVE",
-   "so": "HET_HIEU_LUC",
-   "soHieu": "01/2021/TT-BLĐTBXH"
-  },
-  {
-   "code": "29/2025/TT-BKHCN",
-   "thuVien": "ACTIVE",
-   "so": "HET_HIEU_LUC",
-   "soHieu": "29/2025/TT-BKHCN"
-  },
-  {
-   "code": "04/2021/TT-BXD",
-   "thuVien": "AMENDED",
-   "so": "HET_HIEU_LUC",
-   "soHieu": "04/2021/TT-BXD"
-  },
-  {
-   "code": "29/2025/TT-BKHCN-PL2",
-   "thuVien": "ACTIVE",
-   "so": "HET_HIEU_LUC",
-   "soHieu": "29/2025/TT-BKHCN"
-  },
-  {
-   "code": "29/2025/TT-BKHCN-PL1",
-   "thuVien": "ACTIVE",
-   "so": "HET_HIEU_LUC",
-   "soHieu": "29/2025/TT-BKHCN"
-  },
-  {
-   "code": "69/2018/ND-CP",
-   "thuVien": "ACTIVE",
-   "so": "HET_HIEU_LUC",
-   "soHieu": "69/2018/NĐ-CP"
-  },
-  {
    "code": "2333/QD-BCT-2025",
    "thuVien": "REPLACED",
    "so": "CON_HIEU_LUC",
    "soHieu": "2333/QĐ-BCT"
-  },
-  {
-   "code": "2105/QD-BCT-2025",
-   "thuVien": "ACTIVE",
-   "so": "HET_HIEU_LUC",
-   "soHieu": "2105/QĐ-BCT"
   },
   {
    "code": "1978/QD-BCT",
@@ -412,12 +334,6 @@
    "thuVien": "EXPIRED",
    "so": "CON_HIEU_LUC",
    "soHieu": "1978/QĐ-BCT"
-  },
-  {
-   "code": "2105/QD-BCT",
-   "thuVien": "ACTIVE",
-   "so": "HET_HIEU_LUC",
-   "soHieu": "2105/QĐ-BCT"
   },
   {
    "code": "2093/QD-BCT-2025",
