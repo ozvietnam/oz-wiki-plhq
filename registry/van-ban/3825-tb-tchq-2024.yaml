@@ -1,0 +1,27 @@
+# Sổ đăng ký văn bản — nạp từ data/customs/processed/all-1990-2026.csv (OZV-1250)
+so_hieu: 3825/TB-TCHQ/2024
+loai: THONG_BAO
+loai_phan_loai: CHUA_XAC_DINH
+loai_phan_loai_can_cu: khong_khop_tin_hieu
+loai_phan_loai_ngay: '2026-11-16'
+ten: V/v Phân loại hàng hóa và áp dụng chính sách thuế VAT (Công ty cổ phần Anh Khuê Watch)
+co_quan: TCHQ
+ngay_ban_hanh: '2024-08-12'
+hieu_luc_tu: '2024-08-12'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+so_hieu_khac:
+  - 3825/TCHQ-TXNK
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=2230 trong data/customs/processed/all-1990-2026.csv): số hiệu 3825/TCHQ-TXNK, ban hành ngày 12/08/2024 (2024-08-12), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-16'
+  boi: paperclip-agent@ozvietnam
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=96278&cid=1294
+    truy_cap: '2026-11-16'
+  - url: https://files.customs.gov.vn/CustomsCMS/DONG_NAI/2024/8/13/3825_TCHQ_TXNK_12_08_2024.PDF
+    truy_cap: '2026-11-16'
+toan_van: chua_co
