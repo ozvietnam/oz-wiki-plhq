@@ -1,0 +1,27 @@
+# Sổ đăng ký văn bản — nạp từ data/customs/processed/all-1990-2026.csv (OZV-1253)
+so_hieu: 1664/TB-TCHQ/2024
+loai: THONG_BAO
+loai_phan_loai: CHUA_XAC_DINH
+loai_phan_loai_can_cu: khong_khop_tin_hieu
+loai_phan_loai_ngay: '2026-11-16'
+ten: V/v Thuế GTGT mặt hàng thiết bị điện tử gia dụng (Công ty TNHH TM DV Kỹ thuật Kangen Hoàn Nguyên)
+co_quan: TCHQ
+ngay_ban_hanh: '2024-04-19'
+hieu_luc_tu: '2024-04-19'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - thue/thue-noi-dia-khau-nk
+so_hieu_khac:
+  - 1664/TCHQ-TXNK
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=2515 trong data/customs/processed/all-1990-2026.csv): số hiệu 1664/TCHQ-TXNK, ban hành ngày 19/04/2024 (2024-04-19), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-16'
+  boi: paperclip-agent@ozvietnam
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=92785&cid=1294
+    truy_cap: '2026-11-16'
+  - url: https://files.customs.gov.vn/CustomsCMS/DONG_NAI/2024/4/23/1664_TCHQ_TXNK_19_04_2024.PDF
+    truy_cap: '2026-11-16'
+toan_van: chua_co
