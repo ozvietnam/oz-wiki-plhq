@@ -30,7 +30,7 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (186 mã HS). het_hieu_luc_tu 31-12-2026 theo chuyển tiếp Điều 64 khoản 4 NĐ 292 (hướng dẫn NĐ 69). Bộ KH&CN từng công bố dự thảo thông tư danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu (mst.gov.vn, 05/2026) — chưa ban hành trên nguồn A.'
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (186 mã HS). het_hieu_luc_tu 31-12-2026 theo chuyển tiếp Điều 64 khoản 4 NĐ 292 (hướng dẫn NĐ 69). Đã có văn bản thay: TT 63/2026/TT-BKHCN (Công báo số 572, Điều 3 khoản 2) hết hiệu lực TT này từ 01-01-2027 — quan hệ thay_the ghi chiều đi trên tệp 63-2026-tt-bkhcn.yaml. Không đổi tinh_trang trước ngày hết chuyển tiếp.'
 quan_he:
   sua_doi:
     - so_hieu: 31/2015/TT-BTTTT
