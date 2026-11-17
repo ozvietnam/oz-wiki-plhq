@@ -1,4 +1,4 @@
-# Quan hệ cũ – mới giữa các văn bản — 2026-11-16
+# Quan hệ cũ – mới giữa các văn bản — 2026-11-17
 
 Mũi tên đi từ văn bản MỚI tới văn bản bị tác động. Sinh tự động bằng `node tools/dung.mjs`.
 
@@ -557,6 +557,7 @@ flowchart LR
   n_48_2026_TT_BCT["48/2026/TT-BCT<br/>còn hiệu lực"]
   n_51_VBHN_BCT["51/VBHN-BCT<br/>còn hiệu lực"]
   n_38_2014_TT_BCT["38/2014/TT-BCT<br/>còn hiệu lực"]
+  n_63_2026_TT_BKHCN["63/2026/TT-BKHCN<br/>chưa có hiệu lực"]
   n_80_2023_N__CP["80/2023/NĐ-CP<br/>còn hiệu lực"]
   n_83_2014_N__CP["83/2014/NĐ-CP<br/>còn hiệu lực"]
   n_95_2021_N__CP["95/2021/NĐ-CP<br/>còn hiệu lực"]
@@ -597,6 +598,7 @@ flowchart LR
   n_48_2026_TT_BCT -->|bãi bỏ Điều 25 từ 2026-09-05| n_42_2019_TT_BCT
   n_51_VBHN_BCT -->|hợp nhất| n_38_2014_TT_BCT
   n_51_VBHN_BCT -->|hợp nhất| n_42_2019_TT_BCT
+  n_63_2026_TT_BKHCN -->|thay thế từ 2027-01-01| n_11_2018_TT_BTTTT
   n_67_2026_TT_BCT -->|sửa đổi từ 2026-10-20| n_19_2026_TT_BCT
   n_80_2023_N__CP -->|sửa đổi từ 2023-11-17| n_83_2014_N__CP
   n_80_2023_N__CP -->|sửa đổi từ 2023-11-17| n_95_2021_N__CP

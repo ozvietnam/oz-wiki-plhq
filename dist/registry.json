@@ -1,5 +1,5 @@
 {
-  "phien_ban": "2026-11-16",
+  "phien_ban": "2026-11-17",
   "luoc_do_phien_ban": "1.4.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
   "tong": 2832,
@@ -2932,7 +2932,7 @@
         "ngay": "2026-10-04",
         "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1964 mã HS). Tiêu đề đã đối chiếu (vbpl.vn). Tệp trên datafiles.chinhphu.vn mang tên 03-bct.signed.pdf nhưng gắn tại trang vanban.chinhphu.vn docid=207706 (trích yếu Thông tư 08/2023/TT-BCT). PDF ký số dạng ảnh, chưa OCR. Nhập từ hs-code-api data/legal-docs.json (1964 mã HS). File datafiles cũ tên 03-bct.signed.pdf là cùng văn bản 08/2023. HET_HIEU_LUC_MOT_PHAN + het_hieu_luc_tu 31-12-2026: khoản 1 Điều 1 và Phụ lục I bị bãi từ 05-09-2026 nhưng nội dung danh mục TB YT đã qua sử dụng còn chuyển tiếp đến hết 31-12-2026 (Điều 21 khoản 3 TT 48/2026); các khoản/phụ lục khác của TT 08/2023 (sửa PL II, sửa 41/2019…) chưa bị 48/2026 bãi hết.",
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1964 mã HS). Tiêu đề đã đối chiếu (vbpl.vn). Tệp trên datafiles.chinhphu.vn mang tên 03-bct.signed.pdf nhưng gắn tại trang vanban.chinhphu.vn docid=207706 (trích yếu Thông tư 08/2023/TT-BCT). PDF ký số dạng ảnh, chưa OCR. Nhập từ hs-code-api data/legal-docs.json (1964 mã HS). File datafiles cũ tên 03-bct.signed.pdf là cùng văn bản 08/2023. HET_HIEU_LUC_MOT_PHAN + het_hieu_luc_tu 31-12-2026: khoản 1 Điều 1 và Phụ lục I bị bãi từ 05-09-2026 nhưng nội dung danh mục TB YT đã qua sử dụng còn chuyển tiếp đến hết 31-12-2026 (Điều 21 khoản 3 TT 48/2026); các khoản/phụ lục khác của TT 08/2023 (sửa PL II, sửa 41/2019…) chưa bị 48/2026 bãi hết. Tra 17-11-2026: không có TT-BCT mới thay riêng phần chuyển tiếp TB YT — sau 31-12-2026 quản lý theo pháp luật chuyên ngành y tế (theo Điều 21 khoản 3 TT 48/2026); thay thế khung chính đã ghi chiều đi trên 48-2026-tt-bct.yaml.",
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/08-2023-tt-bct.pdf",
       "het_hieu_luc_tu": "2026-12-31",
       "quan_he": {
@@ -7672,7 +7672,7 @@
         "ngay": "2026-10-04",
         "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (186 mã HS). het_hieu_luc_tu 31-12-2026 theo chuyển tiếp Điều 64 khoản 4 NĐ 292 (hướng dẫn NĐ 69). Bộ KH&CN từng công bố dự thảo thông tư danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu (mst.gov.vn, 05/2026) — chưa ban hành trên nguồn A.",
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (186 mã HS). het_hieu_luc_tu 31-12-2026 theo chuyển tiếp Điều 64 khoản 4 NĐ 292 (hướng dẫn NĐ 69). Đã có văn bản thay: TT 63/2026/TT-BKHCN (Công báo số 572, Điều 3 khoản 2) hết hiệu lực TT này từ 01-01-2027 — quan hệ thay_the ghi chiều đi trên tệp 63-2026-tt-bkhcn.yaml. Không đổi tinh_trang trước ngày hết chuyển tiếp.",
       "quan_he": {
         "sua_doi": [
           {
@@ -7686,7 +7686,17 @@
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/11-2018-tt-btttt.pdf",
       "slug": "11-2018-tt-btttt",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "63/2026/TT-BKHCN",
+            "quan_he": "thay_the",
+            "so_hieu": "11/2018/TT-BTTTT",
+            "tu_ngay": "2027-01-01",
+            "can_cu": "Điều 3 khoản 2 TT 63/2026/TT-BKHCN (Công báo số 572 ngày 06-11-2026)"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "11/2021/QĐ-TTg",
@@ -12053,7 +12063,7 @@
         "ngay": "2026-10-04",
         "boi": "claude-code@ozvietnam"
       },
-      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 37 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn). Sửa số hiệu: biểu thuế (enrichment) ghi nhầm \"12/2018/TT-BTC\"; văn bản đúng là 12/2018/TT-BCT của Bộ Công Thương (quy định chi tiết Luật Quản lý ngoại thương và NĐ 69/2018/NĐ-CP) — theo ghi chú đã đối chiếu của hs-code-api. GHI CHÚ NGHIỆP VỤ (hs-code-api): TYPO trong enrichment: Gemini ghi '12/2018/TT-BTC' nhưng văn bản đúng là 12/2018/TT-BCT (Bộ Công Thương). Cite ở HS 1701/2401 (hạn ngạch thuế quan đường/thuốc lá) — đúng phạm vi 12/2018/TT-BCT. TT-BTC thật là về giám sát tài chính TCTD, không liên quan HS. Đã đối chiếu PDF Công báo: hiệu lực từ ngày ký 15-06-2018 (sửa từ 30-07-2018 trên sổ cũ). Bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (Điều 20 khoản 2 điểm đ); ghi HET_HIEU_LUC_MOT_PHAN và het_hieu_luc_tu 31-12-2026 vì Phụ lục I còn áp dụng chuyển tiếp đến hết ngày đó (Điều 21 khoản 3); giấy phép đã cấp theo TT 12/2018 trước 05-09-2026 tiếp tục thực hiện theo thời hạn (Điều 21 khoản 1). Mọi nội dung khác (thủ tục cấp phép…) từ 05-09-2026 theo TT 48/2026.",
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 37 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn). Sửa số hiệu: biểu thuế (enrichment) ghi nhầm \"12/2018/TT-BTC\"; văn bản đúng là 12/2018/TT-BCT của Bộ Công Thương (quy định chi tiết Luật Quản lý ngoại thương và NĐ 69/2018/NĐ-CP) — theo ghi chú đã đối chiếu của hs-code-api. GHI CHÚ NGHIỆP VỤ (hs-code-api): TYPO trong enrichment: Gemini ghi '12/2018/TT-BTC' nhưng văn bản đúng là 12/2018/TT-BCT (Bộ Công Thương). Cite ở HS 1701/2401 (hạn ngạch thuế quan đường/thuốc lá) — đúng phạm vi 12/2018/TT-BCT. TT-BTC thật là về giám sát tài chính TCTD, không liên quan HS. Đã đối chiếu PDF Công báo: hiệu lực từ ngày ký 15-06-2018 (sửa từ 30-07-2018 trên sổ cũ). Bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (Điều 20 khoản 2 điểm đ); ghi HET_HIEU_LUC_MOT_PHAN và het_hieu_luc_tu 31-12-2026 vì Phụ lục I còn áp dụng chuyển tiếp đến hết ngày đó (Điều 21 khoản 3); giấy phép đã cấp theo TT 12/2018 trước 05-09-2026 tiếp tục thực hiện theo thời hạn (Điều 21 khoản 1). Mọi nội dung khác (thủ tục cấp phép…) từ 05-09-2026 theo TT 48/2026. Tra 17-11-2026: không có TT mới thay riêng phần chuyển tiếp TB YT sau 31-12-2026.",
       "quan_he": {
         "bai_bo": [
           {
@@ -24325,7 +24335,7 @@
         "ngay": "2026-10-04",
         "boi": "cursor-agent@ozvietnam"
       },
-      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (41 mã HS). PDF datafiles là ảnh — điều khoản đọc bằng OCR. het_hieu_luc_tu 31-12-2026 theo chuyển tiếp Điều 64 khoản 4 NĐ 292.",
+      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (41 mã HS). PDF datafiles là ảnh — điều khoản đọc bằng OCR. het_hieu_luc_tu 31-12-2026 theo chuyển tiếp Điều 64 khoản 4 NĐ 292. Tra 17-11-2026: chưa thấy TT-BQP mới thay danh mục HS chi tiết trên Công báo/vanban.chinhphu; NĐ 292 Phụ lục I chỉ nêu nhóm hàng thuộc thẩm quyền BQP (không thay số hiệu TT 173).",
       "toan_van": "raw/download/datafiles.chinhphu.vn/173-2018-tt-bqp.pdf",
       "het_hieu_luc_tu": "2026-12-31",
       "quan_he": {
@@ -24542,7 +24552,7 @@
         "ngay": "2026-10-10",
         "boi": "legal-customs@ozvietnam"
       },
-      "ghi_chu": "NĐ giảm thuế GTGT từ 10% xuống 8% theo NQ 204/2025/QH15. Áp dụng cho MỌI hàng/dịch vụ chịu thuế suất 10% TRỪ Phụ lục I (5 nhóm khai khoáng, viễn thông, tài chính, BĐS, kim loại) và Phụ lục II (TTĐB trừ xăng).",
+      "ghi_chu": "NĐ giảm thuế GTGT từ 10% xuống 8% theo NQ 204/2025/QH15. Áp dụng cho MỌI hàng/dịch vụ chịu thuế suất 10% TRỪ Phụ lục I (5 nhóm khai khoáng, viễn thông, tài chính, BĐS, kim loại) và Phụ lục II (TTĐB trừ xăng). Tra 17-11-2026: chưa có NQ QH/NĐ kéo dài sang 2027 trên vanban.chinhphu; NQ 353/NQ-CP (06-11-2026, docid=220222) giao BTC nghiên cứu phương án chính sách thuế hết hiệu lực từ 01-01-2027 — chưa phải văn bản thay/kéo dài.",
       "toan_van": "raw/download/datafiles.chinhphu.vn/174-2025-nd-cp.pdf",
       "nguon": [
         {
@@ -33754,7 +33764,7 @@
         "ngay": "2026-11-14",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Nghị quyết QH về chính sách giảm thuế GTGT 8% từ 01/07/2025 - 31/12/2026. Là căn cứ pháp lý cho NĐ 174/2025/NĐ-CP.",
+      "ghi_chu": "Nghị quyết QH về chính sách giảm thuế GTGT 8% từ 01/07/2025 - 31/12/2026. Là căn cứ pháp lý cho NĐ 174/2025/NĐ-CP. Tra 17-11-2026: chưa có NQ QH mới kéo dài sang 2027 trên vanban.chinhphu; NQ 353/NQ-CP (06-11-2026) mới giao BTC nghiên cứu — chưa ban hành văn bản thay/kéo dài.",
       "toan_van": "raw/download/datafiles.chinhphu.vn/204-2025-qh15.pdf",
       "nguon": [
         {
@@ -73066,7 +73076,7 @@
         "ngay": "2026-11-14",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Trinh thám bộ ngành 29/10 — QUAN TRỌNG cho tra thuế nhóm 2710: MFN ưu đãi + BVMT 0đ chỉ đến 31-12-2026, hết hạn cần NQ kéo dài tiếp (canh).",
+      "ghi_chu": "Trinh thám bộ ngành 29/10 — QUAN TRỌNG cho tra thuế nhóm 2710: MFN ưu đãi + BVMT 0đ chỉ đến 31-12-2026, hết hạn cần NQ kéo dài tiếp (canh). Tra 17-11-2026: chưa có NQ-CP kéo dài thêm sau 31-12-2026 trên vanban.chinhphu; NQ 45/2026/NQ-CP (31-10-2026) chỉ về thuế TTĐB xăng 0% đến 31-03-2027 — KHÔNG thay/kéo dài NQ 43 (NK ưu đãi/BVMT/GTGT xăng dầu).",
       "toan_van": "raw/download/vanban.chinhphu.vn/43-2026-nq-cp.html",
       "slug": "43-2026-nq-cp",
       "bac_nguon_cao_nhat": "A",
@@ -90718,28 +90728,48 @@
     {
       "so_hieu": "63/2026/TT-BKHCN",
       "loai": "THONG_TU",
-      "ten": "Ban hành Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa",
+      "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
       "co_quan": "BKHCN",
-      "tinh_trang": "CON_HIEU_LUC",
+      "ngay_ban_hanh": "2026-10-27",
+      "hieu_luc_tu": "2027-01-01",
+      "tinh_trang": "CHUA_CO_HIEU_LUC",
       "nhanh": [
-        "quan-ly-ngoai-thuong"
+        "quan-ly-ngoai-thuong/hang-da-qua-su-dung"
       ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "11/2018/TT-BTTTT",
+            "tu_ngay": "2027-01-01",
+            "can_cu": "Điều 3 khoản 2 TT 63/2026/TT-BKHCN (Công báo số 572 ngày 06-11-2026)"
+          }
+        ]
+      },
       "nguon": [
         {
-          "url": "https://thuvienphapluat.vn/hoi-dap-phap-luat/thong-tu-632026ttbkhcn-danh-muc-san-pham-cong-nghe-so-da-qua-su-dung-cam-nhap-khau-kem-theo-ma-so-h-138108560.html",
-          "truy_cap": "2026-11-03"
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-63-2026-tt-bkhcn-470884.htm",
+          "truy_cap": "2026-11-17"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/11/6/470884-1793848262_v1_1793932439_signed.pdf",
+          "truy_cap": "2026-11-17"
+        },
+        {
+          "url": "https://media.chinhphu.vn/nhung-thiet-bi-cong-nghe-da-qua-su-dung-bi-cam-nhap-khau-tu-1-1-2027-102261103101456697.htm",
+          "truy_cap": "2026-11-17"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu + tên nguyên văn (TVPL). Ngày ban hành + hiệu lực CHƯA đối chiếu — cần công báo; thuộc nhóm quy định mới áp dụng từ 11/2026",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-03",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Công báo số 572 ngày 06-11-2026 (congbao.chinhphu.vn id=470884) + DOCX Công báo 2026_572_63/2026/TT-BKHCN.docx (lớp chữ): số hiệu 63/2026/TT-BKHCN, ban hành 27-10-2026, hiệu lực 01-01-2027 (Điều 3 khoản 1); Điều 3 khoản 2 hết hiệu lực TT 11/2018/TT-BTTTT kể từ ngày TT này có hiệu lực (trừ khoản 3 chuyển tiếp giấy phép đã cấp); PDF ký số CDN đã nạp toan_van",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-17",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Trinh sát WebSearch trạm KH&CN đêm 3/11. Danh mục cấm NK kèm MÃ HS — nhập thẳng vào hệ dữ liệu cấm XNK khi có toàn văn.",
+      "ghi_chu": "Nâng từ stub NGUON_B (TVPL 03-11) lên NGUON_A. Danh mục CN số đã qua sử dụng cấm NK kèm mã HS theo khoản 2 Điều 5 NĐ 292/2026 — thay TT 11/2018/TT-BTTTT từ 01-01-2027. KHÔNG đổi tinh_trang của 11/2018 trước 31-12-2026 (còn chuyển tiếp NĐ 292 Điều 64 khoản 4).",
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/63-2026-tt-bkhcn.pdf",
       "slug": "63-2026-tt-bkhcn",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -98003,7 +98033,7 @@
         "ngay": "2026-11-14",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.",
+      "ghi_chu": "Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó. Tra 17-11-2026: chưa có NĐ/NQ kéo dài thuế suất NK ưu đãi xăng dầu sau hạn NQ 43 (hết 31-12-2026); NQ 353/NQ-CP giao BTC nghiên cứu chính sách thuế hết HL từ 01-01-2027.",
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/72-2026-nd-cp.pdf",
       "slug": "72-2026-nd-cp",
       "bac_nguon_cao_nhat": "A",
