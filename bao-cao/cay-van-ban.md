@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-17
 
-2832 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2833 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -2811,12 +2811,13 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Kiểm dịch động vật, thực vật, thuỷ sản, y tế `kiem-tra-chuyen-nganh/kiem-dich`
 
-32 văn bản, 29 chưa hết hiệu lực.
+33 văn bản, 30 chưa hết hiệu lực.
 
 - 🟢 [110/2026/VBHN-TT-BNNMT](../registry/van-ban/110-2026-vbhn-tt-bnnmt.yaml) — Ban hành quy định về quy trình phân tích nguy cơ dịch hại đối với vật thể thuộc diện kiểm dịch thực vật phải phân tích nguy cơ trước khi nhập khẩu vào Việt Nam
 - 🟢 [111/2026/VBHN-TT-BNNMT](../registry/van-ban/111-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư ban hành Quy chuẩn kỹ thuật quốc gia về yêu cầu đối với vật thể thuộc diện kiểm dịch thực vật nhập khẩu
 - 🟢 [108/2026/VBHN-TT-BNNMT](../registry/van-ban/108-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư quy định về kiểm dịch thực vật nội địa
 - 🟢 [109/2026/VBHN-TT-BNNMT](../registry/van-ban/109-2026-vbhn-tt-bnnmt.yaml) — Ban hành Danh mục vật thể thuộc diện kiểm dịch thực vật; Danh mục vật thể thuộc diện kiểm dịch thực vật phải phân tích nguy cơ dịch hại trước khi nhập khẩu vào Việt Nam
+- 🟢 [910/2026/SPS-BNNMT](../registry/van-ban/910-2026-sps-bnnmt.yaml) — Văn phòng SPS Việt Nam thông tin quy định mới của Trung Quốc đối với doanh nghiệp xuất khẩu, nhập khẩu thực phẩm
 - 🟢 [100/2026/VBHN-TT-BNNMT](../registry/van-ban/100-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư ban hành Danh mục đối tượng kiểm dịch thực vật của nước Cộng hòa xã hội chủ nghĩa Việt Nam
 - 🟢 [99/2026/VBHN-TT-BNNMT](../registry/van-ban/99-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư quy định hồ sơ nghiệp vụ kiểm dịch thực vật
 - 🟢 [3445/QĐ-BNNMT](../registry/van-ban/3445-qd-bnnmt-2026.yaml) — Về việc công bố thủ tục hành chính được sửa đổi, bổ sung lĩnh vực trồng trọt và bảo vệ thực vật thuộc phạm vi chức năng quản lý của Bộ Nông nghiệp và Môi trường

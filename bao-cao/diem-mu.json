@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-17",
-  "tong": 3779,
+  "tong": 3781,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -31905,6 +31905,24 @@
       "muc_tieu": "91/TB-TCHQ/2019",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "910/2026/SPS-BNNMT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "910/2026/SPS-BNNMT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "910/2026/SPS-BNNMT: chưa có toàn văn trong raw/",
+      "muc_tieu": "910/2026/SPS-BNNMT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"910/2026/SPS-BNNMT\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
