@@ -1,18 +1,30 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 63/2026/TT-BKHCN
 loai: THONG_TU
-ten: Ban hành Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa
+ten: Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)
 co_quan: BKHCN
-tinh_trang: CON_HIEU_LUC
+ngay_ban_hanh: '2026-10-27'
+hieu_luc_tu: '2027-01-01'
+tinh_trang: CHUA_CO_HIEU_LUC
 nhanh:
-  - quan-ly-ngoai-thuong
+  - quan-ly-ngoai-thuong/hang-da-qua-su-dung
+quan_he:
+  thay_the:
+    - so_hieu: 11/2018/TT-BTTTT
+      tu_ngay: '2027-01-01'
+      can_cu: Điều 3 khoản 2 TT 63/2026/TT-BKHCN (Công báo số 572 ngày 06-11-2026)
 nguon:
-  - url: https://thuvienphapluat.vn/hoi-dap-phap-luat/thong-tu-632026ttbkhcn-danh-muc-san-pham-cong-nghe-so-da-qua-su-dung-cam-nhap-khau-kem-theo-ma-so-h-138108560.html
-    truy_cap: '2026-11-03'
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-63-2026-tt-bkhcn-470884.htm
+    truy_cap: '2026-11-17'
+  - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/11/6/470884-1793848262_v1_1793932439_signed.pdf
+    truy_cap: '2026-11-17'
+  - url: https://media.chinhphu.vn/nhung-thiet-bi-cong-nghe-da-qua-su-dung-bi-cam-nhap-khau-tu-1-1-2027-102261103101456697.htm
+    truy_cap: '2026-11-17'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'số hiệu + tên nguyên văn (TVPL). Ngày ban hành + hiệu lực CHƯA đối chiếu — cần công báo; thuộc nhóm quy định mới áp dụng từ 11/2026'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-03'
-  boi: zcode@ozvietnam
-ghi_chu: Trinh sát WebSearch trạm KH&CN đêm 3/11. Danh mục cấm NK kèm MÃ HS — nhập thẳng vào hệ dữ liệu cấm XNK khi có toàn văn.
+  muc: NGUON_A
+  pham_vi: 'Công báo số 572 ngày 06-11-2026 (congbao.chinhphu.vn id=470884) + DOCX Công báo 2026_572_63/2026/TT-BKHCN.docx (lớp chữ): số hiệu 63/2026/TT-BKHCN, ban hành 27-10-2026, hiệu lực 01-01-2027 (Điều 3 khoản 1); Điều 3 khoản 2 hết hiệu lực TT 11/2018/TT-BTTTT kể từ ngày TT này có hiệu lực (trừ khoản 3 chuyển tiếp giấy phép đã cấp); PDF ký số CDN đã nạp toan_van'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-17'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Nâng từ stub NGUON_B (TVPL 03-11) lên NGUON_A. Danh mục CN số đã qua sử dụng cấm NK kèm mã HS theo khoản 2 Điều 5 NĐ 292/2026 — thay TT 11/2018/TT-BTTTT từ 01-01-2027. KHÔNG đổi tinh_trang của 11/2018 trước 31-12-2026 (còn chuyển tiếp NĐ 292 Điều 64 khoản 4).'
+toan_van: raw/download/congbaocdn.chinhphu.vn/63-2026-tt-bkhcn.pdf
