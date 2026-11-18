@@ -38423,6 +38423,7 @@
           "truy_cap": "2026-11-12"
         }
       ],
+      "danh_muc_thay_boi": "45/2023/TT-BCT",
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "Đã đối chiếu tên, ngày ban hành (15/12/2021), ngày hiệu lực (01/02/2022) và tình trạng còn hiệu lực (được sửa đổi, bổ sung bởi Thông tư 45/2023/TT-BCT ngày 29/12/2023 có hiệu lực từ ngày 15/02/2024) trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn, datafiles.chinhphu.vn) và Công báo Chính phủ (congbao.chinhphu.vn).",
@@ -73919,6 +73920,7 @@
       "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 27/2026/TT-BNNMT ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Nông nghiệp và Môi trường ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Môi trường",
       "co_quan": "BNNMT",
       "ngay_ban_hanh": "2026-10-09",
+      "hieu_luc_tu": "2026-10-09",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bnnmt"
@@ -73936,10 +73938,22 @@
           "truy_cap": "2026-10-29"
         },
         {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/10/44-bnnmt.signed.pdf",
+          "truy_cap": "2026-11-18"
+        },
+        {
           "url": "https://thuvienxuatnhapkhau.com/thong-tu-44-2026-tt-bnnmt-sua-doi-thong-tu-27-2026-tt-bnnmt-ve-danh-muc-san-pham-hang-hoa-co-muc-do-rui-ro-trung-binh-muc-do-rui-ro-cao-thuoc-trach-nhiem-quan-ly-cua-bo-nong-nghiep-va-moi-truong.html",
           "truy_cap": "2026-10-29"
         }
       ],
+      "danh_muc_hs": {
+        "tep": "danh-muc/44-2026-tt-bnnmt.csv",
+        "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/10/44-bnnmt.signed.pdf",
+        "trich_boi": "tho-bo-ba-01@ozvietnam",
+        "ngay": "2026-11-18",
+        "da_doi_chieu": true,
+        "ghi_chu": "Trích từ toàn văn PDF ký số bậc A (44-bnnmt.signed.pdf, 5 trang, có lớp chữ): Điều 2 bổ sung thứ tự số 2 vào sau thứ tự số 1 tại Phụ lục II (mức độ rủi ro cao, áp dụng QCVN 01-187:2018/BNNPTNT) gồm 3 dòng lá ở trang 3–4 (nhóm 2.1 mã 30049049 thuốc thú y có chứa chất ma túy; nhóm 2.2.1 và 2.2.2 mã 30024200 vắc xin thú y nhược độc; không giữ dòng tiêu đề nhóm cha 2 và 2.2). Điều 1 sửa đổi, bổ sung tên gọi và yêu cầu quản lý chất lượng tại thứ tự 4.1–4.4 Phụ lục I TT 27/2026/TT-BNNMT (loại trừ thuốc thú y chứa chất ma túy ở 4.1 và vắc xin thú y nhược độc mục 2.2 Phụ lục II ở 4.3; miễn công bố hợp quy và không phải kiểm tra chất lượng khi nhập khẩu nếu có GCN lưu hành thuốc thú y tại Việt Nam còn hiệu lực, không đổi mã HS). Điều 3 sửa cụm từ tại khoản 3 Điều 6 và cột yêu cầu quản lý ở thứ tự 5.2, 6 Phụ lục I TT 27/2026/TT-BNNMT."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "thẻ vanban.chinhphu.vn (docid=219929), toàn văn PDF ký số đính kèm (44-bnnmt.signed.pdf, 4 Điều, người ký Thứ trưởng Võ Văn Hưng) và quan hệ trong sổ: Thông tư 44/2026/TT-BNNMT sửa đổi, bổ sung một số điều của Thông tư 27/2026/TT-BNNMT ngày 30-06-2026 (sửa đổi thứ tự 4.1–4.4, 5.2, 6 Phụ lục I; bổ sung thứ tự 2 vào Phụ lục II cho mã HS 3004.90.49 và 3002.42.00; sửa khoản 3 Điều 6), ban hành ngày 09-10-2026, có hiệu lực thi hành từ ngày 09-10-2026 theo khoản 1 Điều 4; đối chiếu đang còn hiệu lực (được hợp nhất tại 91/2026/VBHN-TT-BNNMT, không có văn bản thay thế hoặc bãi bỏ trong sổ)",
@@ -73947,7 +73961,7 @@
         "ngay": "2026-11-14",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Bắt bởi radar công báo 29/10 (issue #251) — nạp cùng ngày phát hiện. TT 27/2026 đã có sẵn trong sổ; hiệu lực từ 2026-10-09 (chờ trích bảng danh-muc/44-2026-tt-bnnmt.csv khi gắn hieu_luc_tu).",
+      "ghi_chu": "Bắt bởi radar công báo 29/10 (issue #251) — nạp cùng ngày phát hiện. TT 27/2026 đã có sẵn trong sổ; hiệu lực từ 2026-10-09, đã trích bảng danh-muc/44-2026-tt-bnnmt.csv.",
       "toan_van": "raw/download/vanban.chinhphu.vn/44-2026-tt-bnnmt.html",
       "slug": "44-2026-tt-bnnmt",
       "bac_nguon_cao_nhat": "A",
@@ -74686,8 +74700,8 @@
         "nguon": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/12/40975/48170-1-202495-9645-2023-tt-bct.pdf",
         "trich_boi": "tho-bo-ba-01@ozvietnam",
         "ngay": "2026-11-18",
-        "da_doi_chieu": false,
-        "ghi_chu": "Trích bằng máy từ lớp chữ PDF Công báo (bản lưu raw/download/congbaocdn.chinhphu.vn/45-2023-tt-bct.pdf, Công báo số 95+96 ngày 19-01-2024): Phụ lục 1 trang PDF 6–8 (21 dòng), Phụ lục 2 trang PDF 9 (8 dòng); Phụ lục 3, 4 là mẫu báo cáo, không có mã. Mã in 10 số cắt về 8 số, mã đầy đủ ghi ở dieu_kien; nhiều dòng chung một mã 8 số nhưng khác tiêu chuẩn chất lượng. Phụ lục 1 in sai một mã thành 2823..00.00.30 (hai dấu chấm), đọc là 2823.00.00.30, đã ghi ở dieu_kien. Mã 2517.41.00.30 in hai dòng (độ trắng 92–95% và dưới 92%), giữ cả hai. Cột Ghi chú là ô kéo dài theo dòng: gán cho dòng in cùng hàng (Ilmenit hoàn nguyên, Quặng tinh niken, Đá hoa trắng dạng cục 92–95%, cả nhóm 8 Quặng graphit vì ghi chú in ở dòng tên nhóm, Quặng tinh diatomit). loai_tac_dong=KHAC: điều kiện xuất khẩu theo chủng loại và tiêu chuẩn chất lượng (Điều 1 sửa Điều 4 TT 23/2021/TT-BCT), không phải giấy phép; tiêu chuẩn ghi ở dieu_kien."
+        "da_doi_chieu": true,
+        "ghi_chu": "Trích bằng máy từ lớp chữ PDF Công báo (bản lưu raw/download/congbaocdn.chinhphu.vn/45-2023-tt-bct.pdf, Công báo số 95+96 ngày 19-01-2024) và đã đối chiếu dòng-by-dòng toàn bộ 29 dòng với trang PDF 6–9: Phụ lục 1 trang PDF 6–8 (21 dòng), Phụ lục 2 trang PDF 9 (8 dòng); Phụ lục 3, 4 là mẫu báo cáo, không có mã. Mã in 10 số cắt về 8 số, mã đầy đủ ghi ở dieu_kien; nhiều dòng chung một mã 8 số nhưng khác tiêu chuẩn chất lượng. Phụ lục 1 in sai một mã thành 2823..00.00.30 (hai dấu chấm), đọc là 2823.00.00.30, đã ghi ở dieu_kien. Mã 2517.41.00.30 in hai dòng (độ trắng 92–95% và dưới 92%), giữ cả hai. Cột Ghi chú là ô kéo dài theo dòng: gán cho dòng in cùng hàng (Ilmenit hoàn nguyên, Quặng tinh niken, Đá hoa trắng dạng cục 92–95%, cả nhóm 8 Quặng graphit vì ghi chú in ở dòng tên nhóm, Quặng tinh diatomit). loai_tac_dong=KHAC: điều kiện xuất khẩu theo chủng loại và tiêu chuẩn chất lượng (Điều 1 sửa Điều 4 TT 23/2021/TT-BCT), không phải giấy phép; tiêu chuẩn ghi ở dieu_kien."
       },
       "xac_minh": {
         "muc": "NGUON_A",

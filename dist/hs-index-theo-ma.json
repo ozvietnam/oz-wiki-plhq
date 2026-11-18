@@ -5,7 +5,7 @@
  "luoc_do": "docs/luoc-do-danh-muc-hs.md",
  "cach_tra": "Khoá là nhóm mã HS trong bảng (4, 6 hoặc 8 số). Tra mã 8 số: ghép mọi khoá là tiền tố của mã (độ dài 4, 6) và khoá trùng 8 số. Cạnh giữ nguyên dieu_kien — \"trừ loại…\" là trừ diện, không phải diện áp. canh_bao_ma = nhóm mã không có trong biểu thuế đối chiếu — tra ra các khoá này thì dừng và đối chiếu lại văn bản gốc, đừng kết luận diện áp. tien_le_tb_tchq = mật độ thông báo phân loại của Tổng cục (bậc C, tham khảo).",
  "tong_nhom_ma": 6552,
- "tong_canh": 13569,
+ "tong_canh": 13572,
  "bieu_thue_doi_chieu": {
   "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/tax.json",
   "phien_ban": "2026-11-13",
@@ -54607,6 +54607,34 @@
     "dieu_kien": null,
     "nhom": "4.3",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "44/2026/TT-BNNMT",
+    "slug": "44-2026-tt-bnnmt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 27/2026/TT-BNNMT ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Nông nghiệp và Môi trường ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Môi trường",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-10-09",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": "CAO",
+    "dieu_kien": "Áp dụng QCVN 01-187:2018/BNNPTNT (bảo đảm chất lượng theo QCVN về thuốc thú y dựa trên kết quả kiểm nghiệm của tổ chức thử nghiệm được chỉ định; sản xuất trong nước áp dụng phương thức 5 theo TT 14/2026/TT-BKHCN, miễn đánh giá quá trình sản xuất nếu cơ sở có GCN GMP còn hiệu lực); nếu có Giấy chứng nhận lưu hành thuốc thú y tại Việt Nam còn hiệu lực thì được miễn thực hiện công bố hợp quy và khi nhập khẩu không phải thực hiện kiểm tra chất lượng theo quy định",
+    "nhom": "2.2.1",
+    "phu_luc": "Phụ lục II"
+   },
+   {
+    "so_hieu": "44/2026/TT-BNNMT",
+    "slug": "44-2026-tt-bnnmt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 27/2026/TT-BNNMT ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Nông nghiệp và Môi trường ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Môi trường",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-10-09",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": "CAO",
+    "dieu_kien": "Áp dụng QCVN 01-187:2018/BNNPTNT (bảo đảm chất lượng theo QCVN về thuốc thú y dựa trên kết quả kiểm nghiệm của tổ chức thử nghiệm được chỉ định; sản xuất trong nước áp dụng phương thức 5 theo TT 14/2026/TT-BKHCN, miễn đánh giá quá trình sản xuất nếu cơ sở có GCN GMP còn hiệu lực); nếu có Giấy chứng nhận lưu hành thuốc thú y tại Việt Nam còn hiệu lực thì được miễn thực hiện công bố hợp quy và khi nhập khẩu không phải thực hiện kiểm tra chất lượng theo quy định",
+    "nhom": "2.2.2",
+    "phu_luc": "Phụ lục II"
    }
   ],
   "30024900": [
@@ -56195,6 +56223,20 @@
     "dieu_kien": null,
     "nhom": "4.1.11",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "44/2026/TT-BNNMT",
+    "slug": "44-2026-tt-bnnmt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 27/2026/TT-BNNMT ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Nông nghiệp và Môi trường ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Môi trường",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-10-09",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": "CAO",
+    "dieu_kien": "Áp dụng QCVN 01-187:2018/BNNPTNT (bảo đảm chất lượng theo QCVN về thuốc thú y dựa trên kết quả kiểm nghiệm của tổ chức thử nghiệm được chỉ định; sản xuất trong nước áp dụng phương thức 5 theo TT 14/2026/TT-BKHCN, miễn đánh giá quá trình sản xuất nếu cơ sở có GCN GMP hoặc GCN đủ điều kiện sản xuất thuốc thú y còn hiệu lực); nếu có Giấy chứng nhận lưu hành thuốc thú y tại Việt Nam còn hiệu lực thì được miễn thực hiện công bố hợp quy và khi nhập khẩu không phải thực hiện kiểm tra chất lượng theo quy định",
+    "nhom": "2.1",
+    "phu_luc": "Phụ lục II"
    }
   ],
   "30049051": [
