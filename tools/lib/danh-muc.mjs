@@ -74,6 +74,8 @@ export function laVanBanDanhMuc(d, so = null) {
     if (moi?.danh_muc_hs) return false;
   }
   if (d.danh_muc_hs) return true;
+  // Văn bản danh mục chỉ quy định theo mô tả / mã CAS, bản gốc bậc A không gắn mã HS (vd 14/2024/TT-BNNPTNT, 28/2026/NĐ-CP, 09/2013/TT-BTTTT).
+  if (typeof d.danh_muc_khong_ma_hs === 'string' && d.danh_muc_khong_ma_hs.trim() && !d.danh_muc_hs) return false;
   // Chỉ bãi bỏ (vd 4814/QĐ-BCA) — không trích bảng mã HS của chính nó.
   // Không dùng \b: "ỏ" không phải word-char ASCII nên \b sau "bỏ" luôn thất bại.
   if (/^\s*Bãi bỏ(?:\s|$)/i.test(d.ten || '')) return false;

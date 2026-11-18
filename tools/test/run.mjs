@@ -240,6 +240,38 @@ const kThayBad = kiemTra(napSo(rThayBad), { root: rThayBad, today: '2026-10-04' 
 t('danh_muc_thay_boi: số hiệu văn bản thay không có trong sổ → LỖI kiểm',
   kThayBad.loi.some((e) => /danh_muc_thay_boi/.test(e.msg) && /64\/2022\/TT-BXD/.test(e.msg)),
   JSON.stringify(kThayBad.loi));
+// 6b''. danh_muc_khong_ma_hs — văn bản danh mục không gắn mã HS trong bản gốc bậc A (OZV-1405)
+const rKhongHs = soGia({
+  'ok.yaml': `so_hieu: 28/2026/NĐ-CP\nloai: NGHI_DINH\nten: Quy định các danh mục chất ma túy và tiền chất\nco_quan: CP\nhieu_luc_tu: "2026-01-19"\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\ndanh_muc_khong_ma_hs: "Phụ lục Danh mục I–IV chỉ có cột STT, Tên chất, Tên khoa học, Mã CAS — không gắn mã HS."\nnguon: [{url: "https://vanban.chinhphu.vn/?docid=216717", truy_cap: "2026-10-20"}]\nxac_minh: {muc: NGUON_A, hieu_luc_da_doi_chieu: true, ngay: "2026-10-20"}\n`,
+});
+const soKhongHs = napSo(rKhongHs);
+const dmuKhongHs = timDiemMu(soKhongHs, { today: '2026-10-20', root: rKhongHs, nhuCau: null });
+const kKhongHs = kiemTra(soKhongHs, { root: rKhongHs, today: '2026-10-20' });
+t('danh_muc_khong_ma_hs: hợp lệ NGUON_A → không sinh DANH_MUC_CHUA_TRICH và không lỗi kiểm',
+  !dmuKhongHs.some((d) => d.ma === 'DANH_MUC_CHUA_TRICH' && d.muc_tieu === '28/2026/NĐ-CP')
+    && kKhongHs.loi.length === 0,
+  JSON.stringify({ dm: dmuKhongHs.filter((d) => d.ma === 'DANH_MUC_CHUA_TRICH'), loi: kKhongHs.loi }));
+const kKhongHsChuaA = kiemTra(napSo(soGia({
+  'chua-a.yaml': `so_hieu: 6266/QĐ-BCA\nloai: QUYET_DINH\nten: Ban hành Danh mục sản phẩm\nco_quan: BCA\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bca]\ndanh_muc_khong_ma_hs: "Chưa có nguồn A nhưng gắn thử"\n${XM}\n`,
+})), { today: '2026-10-20' });
+t('danh_muc_khong_ma_hs: khai khi chưa NGUON_A → LỖI kiểm',
+  kKhongHsChuaA.loi.some((e) => /danh_muc_khong_ma_hs/.test(e.msg) && /NGUON_A/.test(e.msg)),
+  JSON.stringify(kKhongHsChuaA.loi));
+const rKhongHsKep = soGia({
+  'kep.yaml': `so_hieu: 65/2026/TT-BXD\nloai: THONG_TU\nten: Ban hành Danh mục sản phẩm\nco_quan: BXD\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bxd]\ndanh_muc_hs: {tep: danh-muc/kep.csv, nguon: "https://congbao.chinhphu.vn/x", ngay: "2026-10-04"}\ndanh_muc_khong_ma_hs: "Khai đồng thời cả hai"\nnguon: [{url: "https://vanban.chinhphu.vn/?docid=1", truy_cap: "2026-10-20"}]\nxac_minh: {muc: NGUON_A, hieu_luc_da_doi_chieu: true, ngay: "2026-10-20"}\n`,
+});
+mkdirSync(join(rKhongHsKep, 'danh-muc'), { recursive: true });
+writeFileSync(join(rKhongHsKep, 'danh-muc', 'kep.csv'), HEAD + '87032119,Ô tô,1,Phụ lục I,KIEM_TRA_CHAT_LUONG,CAO,,,1\n');
+const kKhongHsKep = kiemTra(napSo(rKhongHsKep), { root: rKhongHsKep, today: '2026-10-20' });
+t('danh_muc_khong_ma_hs: khai đồng thời với danh_muc_hs → LỖI kiểm',
+  kKhongHsKep.loi.some((e) => /danh_muc_khong_ma_hs/.test(e.msg) && /danh_muc_hs/.test(e.msg)),
+  JSON.stringify(kKhongHsKep.loi));
+const kKhongHsRong = kiemTra(napSo(soGia({
+  'rong.yaml': `so_hieu: 66/2026/TT-BXD\nloai: THONG_TU\nten: Ban hành Danh mục sản phẩm\nco_quan: BXD\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bxd]\ndanh_muc_khong_ma_hs: "   "\nnguon: [{url: "https://vanban.chinhphu.vn/?docid=1", truy_cap: "2026-10-20"}]\nxac_minh: {muc: NGUON_A, hieu_luc_da_doi_chieu: true, ngay: "2026-10-20"}\n`,
+})), { today: '2026-10-20' });
+t('danh_muc_khong_ma_hs: chuỗi rỗng → LỖI kiểm',
+  kKhongHsRong.loi.some((e) => /danh_muc_khong_ma_hs/.test(e.msg) && /chuỗi không rỗng/.test(e.msg)),
+  JSON.stringify(kKhongHsRong.loi));
 
 // 6c. Văn bản chỉ bãi bỏ — tên có "danh mục" nhưng không có bảng riêng để trích (OZV-790)
 const rBaiBo = soGia({

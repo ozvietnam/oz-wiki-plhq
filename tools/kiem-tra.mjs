@@ -10,7 +10,7 @@ import { napDanhMuc, kiemDinhDang, docCsv } from './lib/danh-muc.mjs';
 const NGAY = /^\d{4}-\d{2}-\d{2}$/;
 const TRUONG = new Set(['so_hieu', 'loai', 'ten', 'co_quan', 'ngay_ban_hanh', 'hieu_luc_tu', 'het_hieu_luc_tu',
   'tinh_trang', 'nhanh', 'quan_he', 'nguon', 'toan_van', 'trich_dan_trong_bieu_thue', 'xac_minh', 'ghi_chu', 'tu_khoa', 'so_hieu_khac', 'danh_muc_hs',
-  'phu_luc_cua', 'danh_muc_thay_boi',
+  'phu_luc_cua', 'danh_muc_thay_boi', 'danh_muc_khong_ma_hs',
   // TB-TCHQ subtype (research): tools/lib/loai-phan-loai-tb-tchq.mjs
   'loai_phan_loai', 'loai_phan_loai_can_cu', 'loai_phan_loai_ngay']);
 const LOAI_PHAN_LOAI = ['XAC_DINH_TRUOC', 'KIEM_TRA_XAC_DINH_LAI', 'DINH_CHINH', 'CHUA_XAC_DINH'];
@@ -154,6 +154,21 @@ export function kiemTra(so, { today = homNay(), root = ROOT } = {}) {
     }
     if (!moi.danh_muc_hs) {
       W(d._file, `danh_muc_thay_boi trỏ ${d.danh_muc_thay_boi} nhưng văn bản thay chưa có danh_muc_hs`);
+    }
+  }
+
+  // Văn bản danh mục không gắn mã HS trong bản gốc bậc A
+  for (const d of so.vanBan) {
+    if (d.danh_muc_khong_ma_hs == null) continue;
+    if (typeof d.danh_muc_khong_ma_hs !== 'string' || !d.danh_muc_khong_ma_hs.trim()) {
+      L(d._file, 'danh_muc_khong_ma_hs phải là chuỗi không rỗng mô tả căn cứ bản gốc không gắn mã HS');
+      continue;
+    }
+    if (d.danh_muc_hs != null) {
+      L(d._file, 'không khai đồng thời danh_muc_hs và danh_muc_khong_ma_hs');
+    }
+    if (d.xac_minh?.muc !== 'NGUON_A') {
+      L(d._file, 'danh_muc_khong_ma_hs chỉ được khai khi xac_minh.muc = NGUON_A (đã đối chiếu bản gốc bậc A)');
     }
   }
 
