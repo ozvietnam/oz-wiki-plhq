@@ -15,7 +15,7 @@
     "nap": "node tools/nap.mjs",
     "them": "node tools/them-van-ban.mjs",
     "san-hieu-luc": "node tools/san-hieu-luc.mjs",
-    "test": "node tools/test/run.mjs && node tools/test/tb-noi-dung-tb.mjs && node tools/kiem-tra.mjs && node _lumina/scripts/lint.mjs --json > /dev/null",
+    "test": "node tools/test/run.mjs && node tools/test/tb-noi-dung-tb.mjs && node tools/kiem-tra.mjs && node _lumina/scripts/lint.mjs --json > /dev/null && node scripts/test-kiem-tra-toan-ven-registry.mjs && node scripts/kiem-tra-toan-ven-registry.mjs",
     "test:parser": "python3 tools/test-trich-14dm.py",
     "trich": "python3 tools/trich-14dm.mjs.py",
     "check-hs": "python3 tools/kiem-tra-ma-hs-2026.py",

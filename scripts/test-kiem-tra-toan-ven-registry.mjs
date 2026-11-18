@@ -1,6 +1,8 @@
 #!/usr/bin/env node
-/** Test fixture cho scripts/kiem-tra-toan-ven-registry.mjs — không đụng dist thật. */
+/** Test fixture + sổ thật dungJson(napSo()) cho scripts/kiem-tra-toan-ven-registry.mjs — không ghi dist thật. */
 import { kiemTraToanVen } from './kiem-tra-toan-ven-registry.mjs';
+import { napSo } from '../tools/lib/registry.mjs';
+import { dungJson } from '../tools/dung.mjs';
 
 let pass = 0;
 let fail = 0;
@@ -60,6 +62,13 @@ const ngaySai = kiemTraToanVen({
   van_ban: [mau({ ngay_ban_hanh: '15/01/2026' })],
 });
 t('ngay_ban_hanh sai dạng', !ngaySai.ok && ngaySai.loi.some((e) => e.loai === 'ngay_ban_hanh_sai_dang'));
+
+const soThat = kiemTraToanVen(dungJson(napSo()));
+t(
+  'sổ thật dungJson(napSo()) toàn vẹn',
+  soThat.ok === true && soThat.loi.length === 0 && soThat.tong > 0,
+  soThat.loi.map((e) => e.msg).join('; '),
+);
 
 console.log(`\n${pass} pass · ${fail} fail`);
 process.exit(fail ? 1 : 0);
