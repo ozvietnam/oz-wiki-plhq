@@ -17,8 +17,8 @@ nguon:
     truy_cap: '2026-11-18'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Đã đối chiếu nguồn bậc A trên Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=219623): số ký hiệu 365/2026/NĐ-CP, ngày ban hành 23-09-2026, ngày có hiệu lực 01-10-2026, loại Nghị định, cơ quan ban hành Chính phủ, trích yếu "Về kinh doanh xuất, nhập khẩu gạo" (đã thay vào trường ten). Tệp PDF đã ký trên datafiles.chinhphu.vn (HTTP 200, application/pdf). Lưu ý: trên trang cổng, hai chữ "CP" trong ký hiệu là chữ Kirin (U+0421, U+0420) trông giống chữ Latin — lỗi gõ của cổng, cùng số hiệu, không phải văn bản khác. Tình trạng hiệu lực hiện hành chưa đối chiếu.'
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'Đã đối chiếu nguồn bậc A trên Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=219623) và toàn văn PDF có chữ ký số trên datafiles.chinhphu.vn (365_2026_nd-cp_23092026-signed.signed.pdf, 15.001.713 byte, gồm 22 trang nội dung 6 chương 28 điều và Phụ lục 11 mẫu biểu): số ký hiệu 365/2026/NĐ-CP, ngày ban hành 23-09-2026, người ký Phó Thủ tướng Phạm Gia Túc, trích yếu "Về kinh doanh xuất, nhập khẩu gạo" (trên trang cổng hai chữ "CP" trong ký hiệu bị gõ bằng chữ Kirin U+0421, U+0420 nhưng bản gốc PDF in đúng chữ Latin 365/2026/NĐ-CP). Theo Điều 27 (Hiệu lực thi hành, trang 21): (1) Nghị định có hiệu lực thi hành từ ngày 01-10-2026 (riêng đánh giá mức độ tín nhiệm thương nhân xuất khẩu gạo tại Điều 14 thực hiện từ ngày 01-01-2028 theo khoản 3 Điều 26); (2) bãi bỏ Nghị định 107/2018/NĐ-CP ngày 15-08-2018 của Chính phủ về kinh doanh xuất khẩu gạo và Nghị định 01/2025/NĐ-CP ngày 01-01-2025 sửa đổi, bổ sung một số điều của Nghị định 107/2018/NĐ-CP; (3) bãi bỏ khoản 2 Điều 27 Nghị định 85/2024/NĐ-CP ngày 10-07-2024 quy định chi tiết một số điều của Luật Giá (cả 3 văn bản bị bãi bỏ hiện chưa nạp trong sổ nên không khai cạnh quan_he để tránh sinh điểm mù THIEU_VAN_BAN). Đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-11-18'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: Trinh sát WebSearch trạm CP đêm 1/11. Điều kiện kinh doanh XNK gạo — nằm trong "7 chính sách XNK hiệu lực tháng 10/2026".
+ghi_chu: 'Trinh sát WebSearch trạm CP đêm 1/11. Điều kiện kinh doanh xuất, nhập khẩu gạo — có hiệu lực từ 01-10-2026, bãi bỏ toàn bộ NĐ 107/2018/NĐ-CP, NĐ 01/2025/NĐ-CP và khoản 2 Điều 27 NĐ 85/2024/NĐ-CP (khoản 2, 3 Điều 27).'

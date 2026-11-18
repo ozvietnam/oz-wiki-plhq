@@ -4,18 +4,28 @@ loai: THONG_TU
 ten: 'Quy định về phân cấp trong hoạt động kiểm tra chuyên ngành trong một số lĩnh vực của Bộ Tài chính'
 co_quan: BTC
 ngay_ban_hanh: '2026-01-22'
+hieu_luc_tu: '2026-01-22'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - hai-quan/kiem-tra-giam-sat
+quan_he:
+  huong_dan:
+    - so_hieu: 217/2025/NĐ-CP
+      pham_vi: 'Phân cấp thẩm quyền phê duyệt kế hoạch kiểm tra chuyên đề và thực hiện kiểm tra chuyên ngành trong các lĩnh vực thuộc Bộ Tài chính theo khoản 1 Điều 6 và khoản 2 Điều 7 Nghị định 217/2025/NĐ-CP (Điều 4 phân cấp trong lĩnh vực hải quan cho Cục trưởng Cục Hải quan và Chi cục trưởng Chi cục Hải quan khu vực)'
+      tu_ngay: '2026-01-22'
 nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=216772
+    truy_cap: '2026-11-18'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/05-btc.pdf
+    truy_cap: '2026-11-18'
   - url: https://chinhphu.vn/?pageid=27160&docid=216772
     truy_cap: '2026-11-16'
   - url: https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Thong-tu-05-2026-TT-BTC-phan-cap-kiem-tra-chuyen-nganh-trong-linh-vuc-cua-Bo-Tai-chinh-691248.aspx
     truy_cap: '2026-11-16'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + ngày ban hành 22-01-2026 (chinhphu.vn docid 216772 + TVPL); Điều 4 phân cấp KTCN hải quan xuống Cục trưởng Cục HQ'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-16'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu nguồn bậc A trên Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=216772) và toàn văn PDF có chữ ký số của Bộ Tài chính (05-btc.pdf trên datafiles.chinhphu.vn, 2.371.158 byte, 7 trang, 3 chương, 17 điều): số ký hiệu 05/2026/TT-BTC, ngày ban hành 22-01-2026, người ký Thứ trưởng Đỗ Thành Trung, trích yếu nguyên văn "Quy định về phân cấp trong hoạt động kiểm tra chuyên ngành trong một số lĩnh vực của Bộ Tài chính". Theo khoản 1 Điều 17, Thông tư có hiệu lực thi hành kể từ ngày 22-01-2026; quy định phân cấp thẩm quyền kiểm tra chuyên ngành theo Nghị định 217/2025/NĐ-CP (Điều 4 phân cấp thẩm quyền trong lĩnh vực hải quan cho Cục trưởng Cục Hải quan và Chi cục trưởng Chi cục Hải quan khu vực); Điều 16 quy định chuyển tiếp đối với kế hoạch/quyết định kiểm tra đã phê duyệt trước đó; không sửa đổi, thay thế hay bãi bỏ văn bản nào trong sổ; đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-18'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Trinh sát đêm 16/11 phát hiện thiếu: nền phân cấp cho NĐ 217/2025 (đã có) — hải quan đầu mối duy nhất KTCN cửa khẩu.'
