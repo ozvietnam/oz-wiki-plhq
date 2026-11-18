@@ -17,8 +17,8 @@ nguon:
     truy_cap: '2026-11-18'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Đã đối chiếu nguồn bậc A trên Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=220147): số ký hiệu 44/2026/TT-BYT, ngày ban hành 01-11-2026, ngày có hiệu lực 01-11-2026 (đã thêm hieu_luc_tu), loại Thông tư, cơ quan ban hành Bộ Y tế; trích yếu nguyên văn đã thay vào trường ten. Tệp PDF đã ký trên datafiles.chinhphu.vn (HTTP 200, application/pdf). Tình trạng hiệu lực hiện hành chưa đối chiếu.'
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'Đã đối chiếu nguồn bậc A trên Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=220147) và toàn văn PDF có chữ ký số của Văn phòng Chính phủ trên datafiles.chinhphu.vn (44-byt.signed.pdf, 864.170 byte, 3 trang, 3 điều): số ký hiệu 44/2026/TT-BYT, ngày ban hành 01-11-2026, người ký Thứ trưởng Đỗ Xuân Tuyên, trích yếu nguyên văn "Sửa đổi, bổ sung một số điều của Thông tư số 07/2022/TT-BYT của Bộ trưởng Bộ Y tế quy định thuốc phải thử tương đương sinh học và các yêu cầu đối với hồ sơ báo cáo số liệu nghiên cứu tương đương sinh học trong đăng ký lưu hành thuốc tại Việt Nam". Theo Điều 1 và Điều 2, Thông tư sửa đổi khoản 3 Điều 14 (lộ trình từ ngày 01-11-2028 đối với thuốc generic phải thử tương đương sinh học trong sản xuất, nhập khẩu, lưu hành và gia hạn giấy đăng ký lưu hành theo Điều 47, Điều 55 Thông tư 32/2026/TT-BYT) và sửa đổi, bổ sung Điều 17 (công bố Danh mục từ ngày 01-07-2027) của Thông tư 07/2022/TT-BYT (Thông tư 07/2022/TT-BYT hiện chưa nạp trong sổ nên ghi nhận tại phạm vi đối chiếu để tránh sinh điểm mù THIEU_VAN_BAN). Theo Điều 3 (Hiệu lực thi hành), Thông tư có hiệu lực thi hành kể từ ngày 01-11-2026; đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-11-18'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Trinh sát trạm BYT đêm 5/11. Ảnh hưởng đăng ký lưu hành thuốc NK (tương đương sinh học).'
+ghi_chu: 'Trinh sát trạm BYT đêm 5/11. Sửa đổi, bổ sung khoản 3 Điều 14 và Điều 17 Thông tư 07/2022/TT-BYT về lộ trình thử tương đương sinh học đối với thuốc generic sản xuất, nhập khẩu và đăng ký lưu hành tại Việt Nam (liên kết thủ tục tại Điều 47, 55 Thông tư 32/2026/TT-BYT).'
