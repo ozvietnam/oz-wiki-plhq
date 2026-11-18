@@ -164,7 +164,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 8 văn bản, 6 chưa hết hiệu lực.
 
-- 🟢 [1813/2026/QĐ-CHQ](../registry/van-ban/1813-2026-qd-chq.yaml) — Quy định về định dạng thông điệp dữ liệu tờ khai hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định cung cấp dịch vụ chuyển phát nhanh quốc tế
+- 🟢 [1813/2026/QĐ-CHQ](../registry/van-ban/1813-2026-qd-chq.yaml) — Về việc ban hành Quy định về định dạng thông điệp dữ liệu tờ khai hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định, dịch vụ chuyển phát nhanh quốc tế
 - 🟢 [2538/QĐ-TCHQ](../registry/van-ban/2538-qd-tchq.yaml) — Ban hành Quy trình trình tự thực hiện thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu; hàng hóa vận chuyển chịu sự giám sát hải quan
 - 🟢 [2079/QĐ-TCHQ](../registry/van-ban/2079-qd-tchq.yaml) — Ban hành Danh mục hàng hóa rủi ro về phân loại hàng hóa
 - ⚫ [583/QĐ-TCHQ](../registry/van-ban/583-qd-tchq-2019.yaml) — Ban hành Danh mục hàng hóa xuất khẩu, nhập khẩu rủi ro về phân loại hàng hóa và áp dụng mức thuế _(hết hiệu lực 2021-07-19)_

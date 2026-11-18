@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-18",
-  "tong": 3796,
+  "tong": 3787,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -18,15 +18,6 @@
       "muc_tieu": "03/2024/TT-BNNPTNT",
       "viec": "Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.",
       "luong": "do-tham",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "05/2026/TT-BTC: chưa có toàn văn trong raw/",
-      "muc_tieu": "05/2026/TT-BTC",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"05/2026/TT-BTC\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -6246,24 +6237,6 @@
       "muc_tieu": "1812/TB-TCHQ/2020",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "1813/2026/QĐ-CHQ: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "1813/2026/QĐ-CHQ",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "1813/2026/QĐ-CHQ: chưa có toàn văn trong raw/",
-      "muc_tieu": "1813/2026/QĐ-CHQ",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"1813/2026/QĐ-CHQ\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -13116,15 +13089,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "293/2026/NĐ-CP: chưa có toàn văn trong raw/",
-      "muc_tieu": "293/2026/NĐ-CP",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"293/2026/NĐ-CP\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "293/TB-TCHQ/2018: chưa có nguồn chính thống",
@@ -17571,15 +17535,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "365/2026/NĐ-CP: chưa có toàn văn trong raw/",
-      "muc_tieu": "365/2026/NĐ-CP",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"365/2026/NĐ-CP\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "3658/TB-TCHQ/2019: chưa có nguồn chính thống",
@@ -21051,15 +21006,6 @@
       "muc_tieu": "4389/TB-TCHQ/2022",
       "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
       "luong": "do-tham",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "44/2026/TT-BYT: chưa có toàn văn trong raw/",
-      "muc_tieu": "44/2026/TT-BYT",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"44/2026/TT-BYT\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -27885,15 +27831,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "67/2026/VBHN-BNNMT: chưa có toàn văn trong raw/",
-      "muc_tieu": "67/2026/VBHN-BNNMT",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"67/2026/VBHN-BNNMT\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "6705/TB-TCHQ/2018: chưa có nguồn chính thống",
@@ -30936,15 +30873,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "81/2026/TT-BXD: chưa có toàn văn trong raw/",
-      "muc_tieu": "81/2026/TT-BXD",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"81/2026/TT-BXD\" --ghi",
-      "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
       "ma": "CO_QUAN_DA_SAP_NHAP",
       "muc": "Thấp",
       "tieuDe": "810/TB-TCHQ/2022 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
@@ -32346,15 +32274,6 @@
       "muc_tieu": "99899/TB-TCHQ/2023",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "Công ước Viên 1980 (CISG): chưa có toàn văn trong raw/",
-      "muc_tieu": "Công ước Viên 1980 (CISG)",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"Công ước Viên 1980 (CISG)\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
