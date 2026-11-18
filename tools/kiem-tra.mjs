@@ -10,7 +10,7 @@ import { napDanhMuc, kiemDinhDang, docCsv } from './lib/danh-muc.mjs';
 const NGAY = /^\d{4}-\d{2}-\d{2}$/;
 const TRUONG = new Set(['so_hieu', 'loai', 'ten', 'co_quan', 'ngay_ban_hanh', 'hieu_luc_tu', 'het_hieu_luc_tu',
   'tinh_trang', 'nhanh', 'quan_he', 'nguon', 'toan_van', 'trich_dan_trong_bieu_thue', 'xac_minh', 'ghi_chu', 'tu_khoa', 'so_hieu_khac', 'danh_muc_hs',
-  'phu_luc_cua',
+  'phu_luc_cua', 'danh_muc_thay_boi',
   // TB-TCHQ subtype (research): tools/lib/loai-phan-loai-tb-tchq.mjs
   'loai_phan_loai', 'loai_phan_loai_can_cu', 'loai_phan_loai_ngay']);
 const LOAI_PHAN_LOAI = ['XAC_DINH_TRUOC', 'KIEM_TRA_XAC_DINH_LAI', 'DINH_CHINH', 'CHUA_XAC_DINH'];
@@ -137,6 +137,23 @@ export function kiemTra(so, { today = homNay(), root = ROOT } = {}) {
     }
     if (!me.danh_muc_hs) {
       W(d._file, `phu_luc_cua trỏ ${d.phu_luc_cua} nhưng văn bản mẹ chưa có danh_muc_hs`);
+    }
+  }
+
+  // Danh mục đã bị văn bản khác thay toàn bộ: trỏ về văn bản thay (bảng mã HS nằm ở đó)
+  for (const d of so.vanBan) {
+    if (d.danh_muc_thay_boi == null) continue;
+    if (typeof d.danh_muc_thay_boi !== 'string' || !d.danh_muc_thay_boi.trim()) {
+      L(d._file, 'danh_muc_thay_boi phải là chuỗi số hiệu văn bản thay danh mục');
+      continue;
+    }
+    const moi = so.theoKhoa.get(khoa(d.danh_muc_thay_boi))?.[0];
+    if (!moi) {
+      L(d._file, `danh_muc_thay_boi "${d.danh_muc_thay_boi}" không có trong sổ`);
+      continue;
+    }
+    if (!moi.danh_muc_hs) {
+      W(d._file, `danh_muc_thay_boi trỏ ${d.danh_muc_thay_boi} nhưng văn bản thay chưa có danh_muc_hs`);
     }
   }
 
