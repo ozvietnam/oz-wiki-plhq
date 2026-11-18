@@ -4,13 +4,13 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "luoc_do": "docs/luoc-do-danh-muc-hs.md",
  "cach_tra": "Khoá là nhóm mã HS trong bảng (4, 6 hoặc 8 số). Tra mã 8 số: ghép mọi khoá là tiền tố của mã (độ dài 4, 6) và khoá trùng 8 số. Cạnh giữ nguyên dieu_kien — \"trừ loại…\" là trừ diện, không phải diện áp. canh_bao_ma = nhóm mã không có trong biểu thuế đối chiếu — tra ra các khoá này thì dừng và đối chiếu lại văn bản gốc, đừng kết luận diện áp. tien_le_tb_tchq = mật độ thông báo phân loại của Tổng cục (bậc C, tham khảo).",
- "tong_nhom_ma": 6513,
- "tong_canh": 13369,
+ "tong_nhom_ma": 6546,
+ "tong_canh": 13494,
  "bieu_thue_doi_chieu": {
   "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/tax.json",
   "phien_ban": "2026-11-13",
   "tong_ma": 11871,
-  "nhom_ngoai_bieu_thue": 114,
+  "nhom_ngoai_bieu_thue": 118,
   "ghi_chu": "Nhóm mã không có trong bản chụp biểu thuế — thường là mã AHTN cũ (văn bản danh mục ban hành theo AHTN 2017/2022, biểu thuế đã bỏ) hoặc trích lệch. KHÔNG dùng các khoá này làm căn cứ diện áp cho người khai; đối chiếu lại văn bản gốc (ví dụ phân tích danh-muc/kiem-tra-ma-hs-2026.md)."
  },
  "canh_bao_ma": [
@@ -50,6 +50,9 @@
   "42032100",
   "44129990",
   "44140000",
+  "48132000",
+  "48139010",
+  "48139090",
   "49051000",
   "49059100",
   "49059900",
@@ -116,6 +119,7 @@
   "84188610",
   "84433249",
   "84501200",
+  "84789010",
   "85013140",
   "85013212",
   "85013292",
@@ -8393,6 +8397,22 @@
     "dieu_kien": null,
     "nhom": "3.5.2.6",
     "phu_luc": "Phụ lục I"
+   }
+  ],
+  "2504": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ loại đạt chỉ tiêu ghi ở mô tả; Mã HS chi tiết cho hàng thuộc Phụ lục 1 TT 12/2016/TT-BCT (khoáng sản xuất khẩu) theo Điều 5 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục V"
    }
   ],
   "2505": [
@@ -25769,6 +25789,20 @@
     "dieu_kien": null,
     "nhom": "1.1",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 30/2018/TT-BCT (thóc, gạo xuất khẩu) theo Điều 1 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục I"
    }
   ],
   "10061090": [
@@ -25813,6 +25847,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục III"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 30/2018/TT-BCT (thóc, gạo xuất khẩu) theo Điều 1 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục I"
    }
   ],
   "10062010": [
@@ -25857,6 +25905,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục III"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 30/2018/TT-BCT (thóc, gạo xuất khẩu) theo Điều 1 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục I"
    }
   ],
   "10062090": [
@@ -25901,6 +25963,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục III"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 30/2018/TT-BCT (thóc, gạo xuất khẩu) theo Điều 1 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục I"
    }
   ],
   "10063030": [
@@ -25945,6 +26021,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục III"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 30/2018/TT-BCT (thóc, gạo xuất khẩu) theo Điều 1 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục I"
    }
   ],
   "10063040": [
@@ -25989,6 +26079,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục III"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 30/2018/TT-BCT (thóc, gạo xuất khẩu) theo Điều 1 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục I"
    }
   ],
   "10063050": [
@@ -26165,6 +26269,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục III"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 30/2018/TT-BCT (thóc, gạo xuất khẩu) theo Điều 1 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục I"
    }
   ],
   "10063099": [
@@ -26209,6 +26327,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục III"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 30/2018/TT-BCT (thóc, gạo xuất khẩu) theo Điều 1 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục I"
    }
   ],
   "10064010": [
@@ -26239,6 +26371,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục III"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 30/2018/TT-BCT (thóc, gạo xuất khẩu) theo Điều 1 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục I"
    }
   ],
   "10064090": [
@@ -26283,6 +26429,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục III"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 30/2018/TT-BCT (thóc, gạo xuất khẩu) theo Điều 1 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục I"
    }
   ],
   "10071000": [
@@ -41931,6 +42091,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24011020": [
@@ -41961,6 +42135,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24011040": [
@@ -41991,6 +42179,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24011050": [
@@ -42021,6 +42223,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24011090": [
@@ -42051,6 +42267,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24012010": [
@@ -42081,6 +42311,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24012020": [
@@ -42111,6 +42355,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24012030": [
@@ -42141,6 +42399,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24012040": [
@@ -42171,6 +42443,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24012050": [
@@ -42201,6 +42487,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24012090": [
@@ -42231,6 +42531,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24013010": [
@@ -42261,6 +42575,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24013090": [
@@ -42291,6 +42619,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24031911": [
@@ -42307,6 +42649,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24031919": [
@@ -42323,6 +42679,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24031920": [
@@ -42353,6 +42723,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24031991": [
@@ -42369,6 +42753,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24031999": [
@@ -42385,6 +42783,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24039110": [
@@ -42401,6 +42813,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24039190": [
@@ -42417,6 +42843,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24039910": [
@@ -42433,6 +42873,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24039930": [
@@ -42449,6 +42903,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24039990": [
@@ -42465,6 +42933,20 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "24041100": [
@@ -42623,6 +43105,38 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục III"
+   }
+  ],
+  "25041000": [
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: C ≥ 90%; Ghi chú: Xuất khẩu đến hết năm 2026 và được Bộ Công Thương xem xét việc xuất khẩu phù hợp với chính sách xuất khẩu khoáng sản trong từng thời kỳ theo quy định của Luật Khoáng sản",
+    "nhom": "8",
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "25049000": [
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: C ≥ 90%; Ghi chú: Xuất khẩu đến hết năm 2026 và được Bộ Công Thương xem xét việc xuất khẩu phù hợp với chính sách xuất khẩu khoáng sản trong từng thời kỳ theo quy định của Luật Khoáng sản",
+    "nhom": "8",
+    "phu_luc": "Phụ lục 1"
    }
   ],
   "25051000": [
@@ -42839,6 +43353,52 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "25111000": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ loại đạt chỉ tiêu ghi ở mô tả; Mã HS chi tiết cho hàng thuộc Phụ lục 1 TT 12/2016/TT-BCT (khoáng sản xuất khẩu) theo Điều 5 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục V"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: BaSO4 ≥ 90%, cỡ hạt ≤ 1mm",
+    "nhom": "6",
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "25120000": [
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: SiO2 ≥ 63%, Al2O3 ≤ 17%, cỡ hạt < 0,3 mm; Ghi chú: Các mỏ có Giấy phép khai thác được cơ quan có thẩm quyền cấp trước ngày 31/12/2021 còn hiệu lực xuất khẩu đến hết năm 2026 và được Bộ Công Thương xem xét việc xuất khẩu phù hợp với chính sách xuất khẩu khoáng sản trong từng thời kỳ theo quy định của Luật Khoáng sản",
+    "nhom": "10",
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
   "25140000": [
    {
     "so_hieu": "11/2026/TT-BXD",
@@ -43023,6 +43583,106 @@
     "dieu_kien": "xuất khẩu: chỉ mã 10 số 2517100090 — đã qua chế biến đập, nghiền hoặc cách khác; kích thước > 400 mm",
     "nhom": "III",
     "phu_luc": "Phụ lục I"
+   }
+  ],
+  "25174100": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ mã chi tiết 2517.41.00.10 (10 số, theo ghi chú phụ lục: NĐ 125/2017/NĐ-CP) đạt chỉ tiêu ghi ở mô tả; Mã HS chi tiết cho hàng thuộc Phụ lục 1 TT 12/2016/TT-BCT (khoáng sản xuất khẩu) theo Điều 5 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": "Đá hoa trắng",
+    "phu_luc": "Phụ lục V"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ mã chi tiết 2517.41.00.20 (10 số, theo ghi chú phụ lục: NĐ 125/2017/NĐ-CP) đạt chỉ tiêu ghi ở mô tả; Mã HS chi tiết cho hàng thuộc Phụ lục 1 TT 12/2016/TT-BCT (khoáng sản xuất khẩu) theo Điều 5 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": "Đá hoa trắng",
+    "phu_luc": "Phụ lục V"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ mã chi tiết 2517.41.00.30 (10 số, theo ghi chú phụ lục: NĐ 125/2017/NĐ-CP) đạt chỉ tiêu ghi ở mô tả; Mã HS chi tiết cho hàng thuộc Phụ lục 1 TT 12/2016/TT-BCT (khoáng sản xuất khẩu) theo Điều 5 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": "- Dạng cục",
+    "phu_luc": "Phụ lục V"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: Cỡ hạt ≤ 0,125mm, độ trắng ≥ 85%; mã in 10 số 2517.41.00.10",
+    "nhom": "7",
+    "phu_luc": "Phụ lục 1"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: 0,125 mm < cỡ hạt < 1mm, độ trắng ≥ 85%; mã in 10 số 2517.41.00.20",
+    "nhom": "7",
+    "phu_luc": "Phụ lục 1"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: Cỡ cục từ 1 - 400 mm, 95% > độ trắng ≥ 92%; mã in 10 số 2517.41.00.30; Ghi chú: Xuất khẩu đến hết năm 2026 và được Bộ Công Thương xem xét việc xuất khẩu phù hợp với chính sách xuất khẩu khoáng sản trong từng thời kỳ theo quy định của Luật Khoáng sản",
+    "nhom": "7",
+    "phu_luc": "Phụ lục 1"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: Cỡ cục từ 1 - 400 mm, độ trắng < 92%; mã in 10 số 2517.41.00.30",
+    "nhom": "7",
+    "phu_luc": "Phụ lục 1"
    }
   ],
   "25174900": [
@@ -43393,6 +44053,22 @@
     "phu_luc": "Phụ lục II"
    }
   ],
+  "25252000": [
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: SiO2 ≥ 44%, Al2O3 ≥ 30%, tạp chất ≤ 2%, cỡ hạt < 900 μm",
+    "nhom": "9",
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
   "25261000": [
    {
     "so_hieu": "09/2024/TT-BYT",
@@ -43455,6 +44131,66 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "25292100": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ loại đạt chỉ tiêu ghi ở mô tả; Mã HS chi tiết cho hàng thuộc Phụ lục 1 TT 12/2016/TT-BCT (khoáng sản xuất khẩu) theo Điều 5 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục V"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: 90% ≤ CaF2 ≤ 97%",
+    "nhom": "5",
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "25292200": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ loại đạt chỉ tiêu ghi ở mô tả; Mã HS chi tiết cho hàng thuộc Phụ lục 1 TT 12/2016/TT-BCT (khoáng sản xuất khẩu) theo Điều 5 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục V"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: CaF2 > 97%",
+    "nhom": "5",
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
   "25301000": [
    {
     "so_hieu": "27/2026/TT-BNNMT",
@@ -43485,6 +44221,34 @@
     "dieu_kien": null,
     "nhom": "3.4.9",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ mã chi tiết 2530.90.90.10 (10 số, theo ghi chú phụ lục: NĐ 125/2017/NĐ-CP) đạt chỉ tiêu ghi ở mô tả; Mã HS chi tiết cho hàng thuộc Phụ lục 1 TT 12/2016/TT-BCT (khoáng sản xuất khẩu) theo Điều 5 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục V"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: TREO ≥ 95%; mã in 10 số 2530.90.90.90",
+    "nhom": "4",
+    "phu_luc": "Phụ lục 1"
    }
   ],
   "26011190": [
@@ -43517,6 +44281,36 @@
     "phu_luc": "Phụ lục"
    }
   ],
+  "26040000": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ mã chi tiết 2604.00.00.90 (10 số, theo ghi chú phụ lục: NĐ 125/2017/NĐ-CP) đạt chỉ tiêu ghi ở mô tả; Mã HS chi tiết cho hàng thuộc Phụ lục 1 TT 12/2016/TT-BCT (khoáng sản xuất khẩu) theo Điều 5 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục V"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: Ni ≥ 7,5%, Cu ≤ 4,5%, Co ≤ 0,6%; mã in 10 số 2604.00.00.90; Ghi chú: Xuất khẩu đến hết năm 2026 và được Bộ Công Thương xem xét việc xuất khẩu phù hợp với chính sách xuất khẩu khoáng sản trong từng thời kỳ theo quy định của Luật Khoáng sản",
+    "nhom": "3",
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
   "26121000": [
    {
     "so_hieu": "36/2026/TT-BKHCN",
@@ -43547,6 +44341,224 @@
     "dieu_kien": null,
     "nhom": "1.1.2",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ mã chi tiết 2612.20.00.90 (10 số, theo ghi chú phụ lục: NĐ 125/2017/NĐ-CP) đạt chỉ tiêu ghi ở mô tả; Mã HS chi tiết cho hàng thuộc Phụ lục 1 TT 12/2016/TT-BCT (khoáng sản xuất khẩu) theo Điều 5 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": "Sản phẩm chế biến từ quặng titan",
+    "phu_luc": "Phụ lục V"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: REO ≥ 57%; mã in 10 số 2612.20.00.90",
+    "nhom": "1",
+    "phu_luc": "Phụ lục 1"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản đã qua chế biến có nguồn gốc nhập khẩu, trừ gia công cho thương nhân nước ngoài (điểm b.2 khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: REO ≥ 55%; mã in 10 số 2612.20.00.90",
+    "nhom": "1",
+    "phu_luc": "Phụ lục 2"
+   }
+  ],
+  "26140010": [
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản đã qua chế biến có nguồn gốc nhập khẩu, trừ gia công cho thương nhân nước ngoài (điểm b.2 khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: TiO2 ≥ 48%; mã in 10 số 2614.00.10.10",
+    "nhom": "1",
+    "phu_luc": "Phụ lục 2"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản đã qua chế biến có nguồn gốc nhập khẩu, trừ gia công cho thương nhân nước ngoài (điểm b.2 khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: TiO2 ≤ 15%, REO ≤ 10%, ZrO2 ≤ 10%; mã in 10 số 2614.00.10.90",
+    "nhom": "1",
+    "phu_luc": "Phụ lục 2"
+   }
+  ],
+  "26140090": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ mã chi tiết 2614.00.90.10 (10 số, theo ghi chú phụ lục: NĐ 125/2017/NĐ-CP) đạt chỉ tiêu ghi ở mô tả; Mã HS chi tiết cho hàng thuộc Phụ lục 1 TT 12/2016/TT-BCT (khoáng sản xuất khẩu) theo Điều 5 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc; ghi chú phụ lục: - Tinh quặng rutil 83%≤TiO2≤ 87%: mã 2614.00.90.10 - Rutile có hàm lượng TiO2>87%: mã 2823.00.00.30",
+    "nhom": "Sản phẩm chế biến từ quặng titan",
+    "phu_luc": "Phụ lục V"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: 83% ≤ TiO2 ≤ 87%; mã in 10 số 2614.00.90.10",
+    "nhom": "1",
+    "phu_luc": "Phụ lục 1"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản đã qua chế biến có nguồn gốc nhập khẩu, trừ gia công cho thương nhân nước ngoài (điểm b.2 khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: TiO2 ≥ 83%; mã in 10 số 2614.00.90.10",
+    "nhom": "1",
+    "phu_luc": "Phụ lục 2"
+   }
+  ],
+  "26151000": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ mã chi tiết 2615.10.00.20 (10 số, theo ghi chú phụ lục: NĐ 125/2017/NĐ-CP) đạt chỉ tiêu ghi ở mô tả; Mã HS chi tiết cho hàng thuộc Phụ lục 1 TT 12/2016/TT-BCT (khoáng sản xuất khẩu) theo Điều 5 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": "Sản phẩm chế biến từ quặng titan",
+    "phu_luc": "Phụ lục V"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: ZrO2 ≥ 65%, cỡ hạt ≤ 75 μm",
+    "nhom": "1",
+    "phu_luc": "Phụ lục 1"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản đã qua chế biến có nguồn gốc nhập khẩu, trừ gia công cho thương nhân nước ngoài (điểm b.2 khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: ZrO2 ≥ 60%, cỡ hạt ≤ 75 μm; mã in 10 số 2615.10.00.20",
+    "nhom": "1",
+    "phu_luc": "Phụ lục 2"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản đã qua chế biến có nguồn gốc nhập khẩu, trừ gia công cho thương nhân nước ngoài (điểm b.2 khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: ZrO2 ≥ 60%; mã in 10 số 2615.10.00.90",
+    "nhom": "1",
+    "phu_luc": "Phụ lục 2"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản đã qua chế biến có nguồn gốc nhập khẩu, trừ gia công cho thương nhân nước ngoài (điểm b.2 khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: 50% ≤ ZrO2 < 60%; mã in 10 số 2615.10.00.10",
+    "nhom": "1",
+    "phu_luc": "Phụ lục 2"
+   }
+  ],
+  "26179000": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ mã chi tiết 2617.90.00.90 (10 số, theo ghi chú phụ lục: NĐ 125/2017/NĐ-CP) đạt chỉ tiêu ghi ở mô tả; Mã HS chi tiết cho hàng thuộc Phụ lục 1 TT 12/2016/TT-BCT (khoáng sản xuất khẩu) theo Điều 5 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục V"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: Bi ≥ 70%; mã in 10 số 2617.90.00.90",
+    "nhom": "2",
+    "phu_luc": "Phụ lục 1"
    }
   ],
   "26180000": [
@@ -43659,6 +44671,22 @@
     "phu_luc": "Phụ lục II"
    }
   ],
+  "27011100": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc Phụ lục I TT 15/2013/TT-BCT (than xuất khẩu) theo Điều 7 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VIII"
+   }
+  ],
   "27050000": [
    {
     "so_hieu": "34/2025/TT-BCT",
@@ -43673,6 +44701,102 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục"
+   }
+  ],
+  "27090010": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
+   }
+  ],
+  "27090020": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
+   }
+  ],
+  "27090090": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
+   }
+  ],
+  "27101211": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
+   }
+  ],
+  "27101212": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
+   }
+  ],
+  "27101213": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
    }
   ],
   "27101221": [
@@ -43703,6 +44827,20 @@
     "dieu_kien": null,
     "nhom": "1.1",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
    }
   ],
   "27101222": [
@@ -43733,6 +44871,20 @@
     "dieu_kien": null,
     "nhom": "1.2",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
    }
   ],
   "27101223": [
@@ -43763,6 +44915,20 @@
     "dieu_kien": null,
     "nhom": "1.1",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
    }
   ],
   "27101224": [
@@ -43793,6 +44959,20 @@
     "dieu_kien": null,
     "nhom": "1.1",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
    }
   ],
   "27101225": [
@@ -43823,6 +45003,20 @@
     "dieu_kien": null,
     "nhom": "1.2",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
    }
   ],
   "27101226": [
@@ -43853,6 +45047,20 @@
     "dieu_kien": null,
     "nhom": "1.1",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
    }
   ],
   "27101227": [
@@ -43869,6 +45077,20 @@
     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
     "nhom": "6.1",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
    }
   ],
   "27101228": [
@@ -43885,6 +45107,20 @@
     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
     "nhom": "6.1",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
    }
   ],
   "27101229": [
@@ -43901,6 +45137,20 @@
     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
     "nhom": "6.1",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
    }
   ],
   "27101231": [
@@ -43917,6 +45167,20 @@
     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
     "nhom": "6.2",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
    }
   ],
   "27101239": [
@@ -43933,6 +45197,68 @@
     "dieu_kien": "hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
     "nhom": "6.2",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
+   }
+  ],
+  "27101280": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
+   }
+  ],
+  "27101292": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
+   }
+  ],
+  "27101920": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
    }
   ],
   "27101946": [
@@ -43965,6 +45291,20 @@
     "dieu_kien": null,
     "nhom": "1.3",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
    }
   ],
   "27101972": [
@@ -43981,6 +45321,84 @@
     "dieu_kien": null,
     "nhom": "1.3",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
+   }
+  ],
+  "27101979": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
+   }
+  ],
+  "27101981": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
+   }
+  ],
+  "27101982": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
+   }
+  ],
+  "27101983": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
    }
   ],
   "27101990": [
@@ -44027,6 +45445,20 @@
     "dieu_kien": null,
     "nhom": "1.4",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 38/2014/TT-BCT (xăng, dầu) theo Điều 4 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
    }
   ],
   "27111100": [
@@ -44603,6 +46035,36 @@
     "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
     "nhom": "7",
     "phu_luc": "Danh mục 7"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ loại đạt chỉ tiêu ghi ở mô tả; Mã HS chi tiết cho hàng thuộc Phụ lục 1 TT 12/2016/TT-BCT (khoáng sản xuất khẩu) theo Điều 5 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": "Sản phẩm chế biến từ quặng bôxít",
+    "phu_luc": "Phụ lục V"
+   }
+  ],
+  "28183000": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ loại đạt chỉ tiêu ghi ở mô tả; Mã HS chi tiết cho hàng thuộc Phụ lục 1 TT 12/2016/TT-BCT (khoáng sản xuất khẩu) theo Điều 5 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": "Sản phẩm chế biến từ quặng bôxít",
+    "phu_luc": "Phụ lục V"
    }
   ],
   "28209000": [
@@ -44651,6 +46113,132 @@
     "dieu_kien": null,
     "nhom": "II.43",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ mã chi tiết 2823.00.00.40 (10 số, theo ghi chú phụ lục: NĐ 125/2017/NĐ-CP) đạt chỉ tiêu ghi ở mô tả; Mã HS chi tiết cho hàng thuộc Phụ lục 1 TT 12/2016/TT-BCT (khoáng sản xuất khẩu) theo Điều 5 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": "Sản phẩm chế biến từ quặng titan",
+    "phu_luc": "Phụ lục V"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ mã chi tiết 2823.00.00.10 (10 số, theo ghi chú phụ lục: NĐ 125/2017/NĐ-CP) đạt chỉ tiêu ghi ở mô tả; Mã HS chi tiết cho hàng thuộc Phụ lục 1 TT 12/2016/TT-BCT (khoáng sản xuất khẩu) theo Điều 5 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": "Sản phẩm chế biến từ quặng titan",
+    "phu_luc": "Phụ lục V"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ mã chi tiết 2823.00.00.20 (10 số, theo ghi chú phụ lục: NĐ 125/2017/NĐ-CP) đạt chỉ tiêu ghi ở mô tả; Mã HS chi tiết cho hàng thuộc Phụ lục 1 TT 12/2016/TT-BCT (khoáng sản xuất khẩu) theo Điều 5 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": "Sản phẩm chế biến từ quặng titan",
+    "phu_luc": "Phụ lục V"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ mã chi tiết 2823.00.00.30 (10 số, theo ghi chú phụ lục: NĐ 125/2017/NĐ-CP) đạt chỉ tiêu ghi ở mô tả; Mã HS chi tiết cho hàng thuộc Phụ lục 1 TT 12/2016/TT-BCT (khoáng sản xuất khẩu) theo Điều 5 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc; ghi chú phụ lục: - Tinh quặng rutil 83%≤TiO2≤ 87%: mã 2614.00.90.10 - Rutile có hàm lượng TiO2>87%: mã 2823.00.00.30",
+    "nhom": "Sản phẩm chế biến từ quặng titan",
+    "phu_luc": "Phụ lục V"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: TiO2 ≥ 56%, FeO ≤ 9%, Fe ≤ 27%; mã in 10 số 2823.00.00.40; Ghi chú: Xuất khẩu đến hết năm 2026 và được Bộ Công Thương xem xét việc xuất khẩu phù hợp với chính sách xuất khẩu khoáng sản trong từng thời kỳ theo quy định của Luật Khoáng sản",
+    "nhom": "1",
+    "phu_luc": "Phụ lục 1"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: TiO2 ≥ 85%, FeO ≤ 10%; mã in 10 số 2823.00.00.10",
+    "nhom": "1",
+    "phu_luc": "Phụ lục 1"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: 85% > TiO2 ≥ 70%, FeO ≤ 10%; mã in 10 số 2823.00.00.20",
+    "nhom": "1",
+    "phu_luc": "Phụ lục 1"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản có nguồn gốc trong nước (điểm a khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: TiO2 > 87%; mã in 10 số 2823.00.00.30 (văn bản in sai '2823..00.00.30')",
+    "nhom": "1",
+    "phu_luc": "Phụ lục 1"
+   },
+   {
+    "so_hieu": "45/2023/TT-BCT",
+    "slug": "45-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-02-15",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU khoáng sản đã qua chế biến có nguồn gốc nhập khẩu, trừ gia công cho thương nhân nước ngoài (điểm b.2 khoản 1 Điều 4 TT 23/2021/TT-BCT, sửa bởi khoản 1 Điều 1); phải đúng chủng loại và đạt tiêu chuẩn chất lượng: TiO2 ≥ 70%; mã in 10 số 2823.00.00.10",
+    "nhom": "1",
+    "phu_luc": "Phụ lục 2"
    }
   ],
   "28232600": [
@@ -57525,6 +59113,20 @@
     "dieu_kien": null,
     "nhom": "3.4.21",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 10/2011/TT-BCT (tinh dầu xá xị tạm nhập, tái xuất) theo Điều 2 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "33019090": [
@@ -69991,6 +71593,36 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
+   }
+  ],
+  "48132000": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc; mã in theo biểu thuế cũ (2019), biểu thuế đối chiếu hiện hành không còn mã này — chưa chuyển đổi, cần tra bảng tương quan",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "48132010": [
@@ -70105,6 +71737,22 @@
     "phu_luc": "Phụ lục IV"
    }
   ],
+  "48139010": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc; mã in theo biểu thuế cũ (2019), biểu thuế đối chiếu hiện hành không còn mã này — chưa chuyển đổi, cần tra bảng tương quan",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
+   }
+  ],
   "48139011": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -70151,6 +71799,22 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục IV"
+   }
+  ],
+  "48139090": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc TT 57/2018/TT-BCT (nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc; mã in theo biểu thuế cũ (2019), biểu thuế đối chiếu hiện hành không còn mã này — chưa chuyển đổi, cần tra bảng tương quan",
+    "nhom": null,
+    "phu_luc": "Phụ lục VI"
    }
   ],
   "48139091": [
@@ -108015,6 +109679,62 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục V"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc Phụ lục 72 TT 57/2018/TT-BCT (máy móc, thiết bị chuyên ngành thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": "I",
+    "phu_luc": "Phụ lục VII"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc Phụ lục 72 TT 57/2018/TT-BCT (máy móc, thiết bị chuyên ngành thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": "II",
+    "phu_luc": "Phụ lục VII"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc Phụ lục 72 TT 57/2018/TT-BCT (máy móc, thiết bị chuyên ngành thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": "III",
+    "phu_luc": "Phụ lục VII"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc Phụ lục 72 TT 57/2018/TT-BCT (máy móc, thiết bị chuyên ngành thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc",
+    "nhom": "IV",
+    "phu_luc": "Phụ lục VII"
    }
   ],
   "84789000": [
@@ -108031,6 +109751,106 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục V"
+   }
+  ],
+  "84789010": [
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc Phụ lục 72 TT 57/2018/TT-BCT (máy móc, thiết bị chuyên ngành thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc; mã in theo biểu thuế cũ (2019), biểu thuế đối chiếu hiện hành không còn mã này — chưa chuyển đổi, cần tra bảng tương quan",
+    "nhom": "I.A",
+    "phu_luc": "Phụ lục VII"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc Phụ lục 72 TT 57/2018/TT-BCT (máy móc, thiết bị chuyên ngành thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc; mã in theo biểu thuế cũ (2019), biểu thuế đối chiếu hiện hành không còn mã này — chưa chuyển đổi, cần tra bảng tương quan",
+    "nhom": "I.B",
+    "phu_luc": "Phụ lục VII"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc Phụ lục 72 TT 57/2018/TT-BCT (máy móc, thiết bị chuyên ngành thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc; mã in theo biểu thuế cũ (2019), biểu thuế đối chiếu hiện hành không còn mã này — chưa chuyển đổi, cần tra bảng tương quan",
+    "nhom": "II.A",
+    "phu_luc": "Phụ lục VII"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc Phụ lục 72 TT 57/2018/TT-BCT (máy móc, thiết bị chuyên ngành thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc; mã in theo biểu thuế cũ (2019), biểu thuế đối chiếu hiện hành không còn mã này — chưa chuyển đổi, cần tra bảng tương quan",
+    "nhom": "II.B",
+    "phu_luc": "Phụ lục VII"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc Phụ lục 72 TT 57/2018/TT-BCT (máy móc, thiết bị chuyên ngành thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc; mã in theo biểu thuế cũ (2019), biểu thuế đối chiếu hiện hành không còn mã này — chưa chuyển đổi, cần tra bảng tương quan",
+    "nhom": "II.C",
+    "phu_luc": "Phụ lục VII"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc Phụ lục 72 TT 57/2018/TT-BCT (máy móc, thiết bị chuyên ngành thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc; mã in theo biểu thuế cũ (2019), biểu thuế đối chiếu hiện hành không còn mã này — chưa chuyển đổi, cần tra bảng tương quan",
+    "nhom": "IV.A",
+    "phu_luc": "Phụ lục VII"
+   },
+   {
+    "so_hieu": "41/2019/TT-BCT",
+    "slug": "41-2019-tt-bct",
+    "ten": "Bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2020-01-29",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Mã HS chi tiết cho hàng thuộc Phụ lục 72 TT 57/2018/TT-BCT (máy móc, thiết bị chuyên ngành thuốc lá) theo Điều 6 TT 41/2019/TT-BCT; nghĩa vụ theo văn bản gốc; mã in theo biểu thuế cũ (2019), biểu thuế đối chiếu hiện hành không còn mã này — chưa chuyển đổi, cần tra bảng tương quan",
+    "nhom": "IV.B",
+    "phu_luc": "Phụ lục VII"
    }
   ],
   "84791010": [

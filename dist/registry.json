@@ -69993,6 +69993,14 @@
         }
       ],
       "trich_dan_trong_bieu_thue": 32,
+      "danh_muc_hs": {
+        "tep": "danh-muc/41-2019-tt-bct.csv",
+        "nguon": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-41-2019-tt-bct-bo-sung-danh-muc-chi-tiet-theo-ma-so-hs-cua-hang-hoa-xuat-khau-nhap-khau-quy-dinh-tai-mot-so-thong-tu-cua-bo-cong-thuong--139689",
+        "trich_boi": "tho-bo-ba-01@ozvietnam",
+        "ngay": "2026-11-18",
+        "da_doi_chieu": false,
+        "ghi_chu": "Trích bằng máy từ bảng HTML toàn văn vbpl.vn (bản lưu raw/download/vbpl.vn/41-2019-tt-bct.html), Phụ lục I, II, IV–VIII. Theo Điều 8 chỉ giữ dòng lá của cây biểu thuế (dòng cha 4/6 số có dòng con chi tiết hơn bị bỏ để không khớp tràn); mo_ta dòng lá ghép nguyên văn các dòng cha cho đủ nghĩa. Mã 10 số ở Phụ lục V cắt về 8 số, mã đầy đủ ghi ở dieu_kien. Phụ lục VII: các mục máy liền sau ô mã gộp được gán mã của ô đó. Không trích Phụ lục III (kim cương thô, 3 mã) vì đã bị Điều 20 khoản 3 điểm a TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026. loai_tac_dong=KHAC: văn bản chỉ chi tiết mã HS cho hàng thuộc các TT gốc (30/2018, 10/2011, 38/2014, 12/2016, 57/2018, 15/2013), nghĩa vụ và hiệu lực theo TT gốc — chưa đối chiếu hiệu lực từng TT gốc. Bốn mã in theo biểu thuế cũ không còn trong biểu thuế đối chiếu (48132000, 48139010, 48139090, 84789010) giữ nguyên văn, đã ghi ở dieu_kien, chưa chuyển đổi."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "Đối chiếu toàn văn nguồn A trên vbpl.vn (itemID=139689, Điều 1–9): ban hành 16-12-2019, có hiệu lực từ 29-01-2020 (Điều 9 khoản 1); Điều 20 khoản 3 điểm a TT 48/2026/TT-BCT (PDF Công báo số 521 ngày 23-09-2026) bãi bỏ Điều 3 và Phụ lục III từ 05-09-2026, nên tình trạng là HET_HIEU_LUC_MOT_PHAN.",
@@ -74646,6 +74654,14 @@
         }
       ],
       "trich_dan_trong_bieu_thue": 15,
+      "danh_muc_hs": {
+        "tep": "danh-muc/45-2023-tt-bct.csv",
+        "nguon": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/12/40975/48170-1-202495-9645-2023-tt-bct.pdf",
+        "trich_boi": "tho-bo-ba-01@ozvietnam",
+        "ngay": "2026-11-18",
+        "da_doi_chieu": false,
+        "ghi_chu": "Trích bằng máy từ lớp chữ PDF Công báo (bản lưu raw/download/congbaocdn.chinhphu.vn/45-2023-tt-bct.pdf, Công báo số 95+96 ngày 19-01-2024): Phụ lục 1 trang PDF 6–8 (21 dòng), Phụ lục 2 trang PDF 9 (8 dòng); Phụ lục 3, 4 là mẫu báo cáo, không có mã. Mã in 10 số cắt về 8 số, mã đầy đủ ghi ở dieu_kien; nhiều dòng chung một mã 8 số nhưng khác tiêu chuẩn chất lượng. Phụ lục 1 in sai một mã thành 2823..00.00.30 (hai dấu chấm), đọc là 2823.00.00.30, đã ghi ở dieu_kien. Mã 2517.41.00.30 in hai dòng (độ trắng 92–95% và dưới 92%), giữ cả hai. Cột Ghi chú là ô kéo dài theo dòng: gán cho dòng in cùng hàng (Ilmenit hoàn nguyên, Quặng tinh niken, Đá hoa trắng dạng cục 92–95%, cả nhóm 8 Quặng graphit vì ghi chú in ở dòng tên nhóm, Quặng tinh diatomit). loai_tac_dong=KHAC: điều kiện xuất khẩu theo chủng loại và tiêu chuẩn chất lượng (Điều 1 sửa Điều 4 TT 23/2021/TT-BCT), không phải giấy phép; tiêu chuẩn ghi ở dieu_kien."
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "PDF Công báo CDN; Điều 3 hiệu lực 15-02-2024 khớp sổ",

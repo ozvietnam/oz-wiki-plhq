@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-18",
-  "tong": 3781,
+  "tong": 3826,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -32585,29 +32585,11 @@
     {
       "ma": "DANH_MUC_CHUA_TRICH",
       "muc": "Vừa",
-      "tieuDe": "Chưa trích bảng mã HS: 41/2019/TT-BCT",
-      "muc_tieu": "41/2019/TT-BCT",
-      "viec": "Văn bản danh mục chưa có danh-muc/41-2019-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 32 mã.",
-      "luong": "danh-muc-hs",
-      "trongSo": 32
-    },
-    {
-      "ma": "DANH_MUC_CHUA_TRICH",
-      "muc": "Vừa",
       "tieuDe": "Chưa trích bảng mã HS: 44/2026/TT-BNNMT",
       "muc_tieu": "44/2026/TT-BNNMT",
       "viec": "Văn bản danh mục chưa có danh-muc/44-2026-tt-bnnmt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
       "luong": "danh-muc-hs",
       "trongSo": 0
-    },
-    {
-      "ma": "DANH_MUC_CHUA_TRICH",
-      "muc": "Vừa",
-      "tieuDe": "Chưa trích bảng mã HS: 45/2023/TT-BCT",
-      "muc_tieu": "45/2023/TT-BCT",
-      "viec": "Văn bản danh mục chưa có danh-muc/45-2023-tt-bct.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 15 mã.",
-      "luong": "danh-muc-hs",
-      "trongSo": 15
     },
     {
       "ma": "DANH_MUC_CHUA_TRICH",
@@ -33245,6 +33227,429 @@
       "tieuDe": "36/2026/TT-BKHCN: mã 85076010 không có trong biểu thuế",
       "muc_tieu": "36/2026/TT-BKHCN",
       "viec": "danh-muc/36-2026-tt-bkhcn.csv dòng 393 (\"Pin Lithium rời dùng cho\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 48132000 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 86 (\"Giấy cuốn thuốc lá, đã hoặc chưa cắt theo cỡ hoặc ở dạng tập\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 48139010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 87 (\"Giấy cuốn thuốc lá, đã hoặc chưa cắt theo cỡ hoặc ở dạng tập\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 48139090 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 88 (\"Giấy cuốn thuốc lá, đã hoặc chưa cắt theo cỡ hoặc ở dạng tập\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 90 (\"1. Máy cắt đầu lá\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 91 (\"2. Xy lanh làm ẩm\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 92 (\"3. Hầm ủ lá (xy lô trữ và ủ lá)\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 93 (\"4. Máy sấy lá (sấy, làm nguội, làm dịu)\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 94 (\"5. Hệ thống cân và đóng (ép) kiện lá\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 95 (\"1. Xy lanh làm ẩm cọng lần 1\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 96 (\"2. Xy lanh làm ẩm cọng lần 2\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 97 (\"3. Hệ thống tước cọng, tách lá\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 98 (\"4. Máy sấy cọng (sấy, làm nguội, làm dịu)\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 99 (\"5. Máy phân loại, làm sạch cọng\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 100 (\"6. Hệ thống cân và đóng (ép) kiện cọng\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 102 (\"1. Thiết bị hấp chân không\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 103 (\"2. Máy cắt kiện lá\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 104 (\"3. Xy lanh làm ẩm lá\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 105 (\"4. Xy lanh gia liệu\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 106 (\"5. Hầm ủ lá (xy lô trữ và ủ lá)\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 107 (\"6. Thiết bị dò kim loại\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 108 (\"7. Máy thái lá\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 109 (\"8. Thiết bị trương nở sợi\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 110 (\"9. Thiết bị sấy\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 111 (\"10. Thiết bị phân ly sợi\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 112 (\"11. Hệ thống các cân định lượng\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 113 (\"1. Máy tước cọng\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 114 (\"2. Thiết bị gia ẩm cọng lần 1\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 115 (\"3. Hầm ủ cọng (xy lô trữ và ủ cọng)\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 116 (\"4. Thiết bị gia ẩm cọng lần 2\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 117 (\"5. Thiết bị cán cọng\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 118 (\"6. Máy thái cọng\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 119 (\"7. Thiết bị trương nở cọng\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 120 (\"8. Thiết bị sấy cọng\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 121 (\"9. Thiết bị phân ly cọng\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 122 (\"10. Hầm ủ cọng (xy lô ủ sợi cọng)\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 123 (\"11. Hệ thống các cân định lượng\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 124 (\"1. Thiết bị phun hương\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 125 (\"2. Hầm ủ sợi (xy lô ủ sợi)\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 126 (\"3. Hệ thống vận chuyển sợi thuốc lá đến máy cuốn điếu (bằng \"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 129 (\"1. Máy cuốn điếu\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 130 (\"2. Máy ghép đầu lọc\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 131 (\"3. Máy nạp khay\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 132 (\"1. Máy đóng bao\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 133 (\"2. Máy đóng bóng kính bao\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 134 (\"3. Máy đóng tút\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 135 (\"4. Máy đóng bóng kính tút\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "41/2019/TT-BCT: mã 84789010 không có trong biểu thuế",
+      "muc_tieu": "41/2019/TT-BCT",
+      "viec": "danh-muc/41-2019-tt-bct.csv dòng 136 (\"5. Máy đóng thùng carton.\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
       "luong": "danh-muc-hs",
       "trongSo": 0
     },
