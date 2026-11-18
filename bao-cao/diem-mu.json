@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-18",
-  "tong": 3808,
+  "tong": 3806,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -27939,15 +27939,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "67/2026/VBHN-BNNMT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
-      "muc_tieu": "67/2026/VBHN-BNNMT",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
       "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
       "muc": "Thấp",
       "tieuDe": "67/2026/VBHN-BNNMT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
@@ -32436,15 +32427,6 @@
       "muc_tieu": "99899/TB-TCHQ/2023",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Vừa",
-      "tieuDe": "Công ước Viên 1980 (CISG): chưa có nguồn chính thống",
-      "muc_tieu": "Công ước Viên 1980 (CISG)",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
       "trongSo": 0
     },
     {

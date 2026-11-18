@@ -2821,7 +2821,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [100/2026/VBHN-TT-BNNMT](../registry/van-ban/100-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư ban hành Danh mục đối tượng kiểm dịch thực vật của nước Cộng hòa xã hội chủ nghĩa Việt Nam
 - 🟢 [99/2026/VBHN-TT-BNNMT](../registry/van-ban/99-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư quy định hồ sơ nghiệp vụ kiểm dịch thực vật
 - 🟢 [3445/QĐ-BNNMT](../registry/van-ban/3445-qd-bnnmt-2026.yaml) — Về việc công bố thủ tục hành chính được sửa đổi, bổ sung lĩnh vực trồng trọt và bảo vệ thực vật thuộc phạm vi chức năng quản lý của Bộ Nông nghiệp và Môi trường
-- 🟢 [67/2026/VBHN-BNNMT](../registry/van-ban/67-2026-vbhn-bnnmt.yaml) — Hợp nhất Thông tư quy định về kiểm dịch động vật, sản phẩm động vật trên cạn
+- 🟢 [67/2026/VBHN-BNNMT](../registry/van-ban/67-2026-vbhn-bnnmt.yaml) — Quy định về kiểm dịch động vật, sản phẩm động vật trên cạn
 - 🟢 [165/2026/NĐ-CP](../registry/van-ban/165-2026-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Phòng bệnh
 - 🟢 [07/2026/TT-BNNMT](../registry/van-ban/07-2026-tt-bnnmt.yaml) — Quy định chi tiết một số điều của Luật Bảo vệ và kiểm dịch thực vật, Luật Trồng trọt và sửa đổi, bổ sung một số điều của các thông tư trong lĩnh vực trồng trọt và bảo vệ thực vật
 - 🟢 [01/2026/TT-BNNMT](../registry/van-ban/01-2026-tt-bnnmt.yaml) — Quy định về kiểm dịch động vật, sản phẩm động vật trên cạn

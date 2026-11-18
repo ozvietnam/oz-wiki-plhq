@@ -81081,10 +81081,15 @@
       ],
       "xac_minh": {
         "muc": "NGUON_B",
-        "pham_vi": "số hiệu, ngày 10-07-2025, trích yếu qua thẻ LuatVietnam; bản quét PDF gốc re-host tại unicustomsconsulting.com — CHƯA tìm được bản gốc trên moit.gov.vn",
+        "pham_vi": "Số hiệu 5133/BCT-HC, ngày ban hành 10-07-2025, cơ quan ban hành Bộ Công Thương (Cục Hóa chất), trích yếu đối chiếu qua nguồn bậc B (luatvietnam.vn). Đã rà soát ngày 18-11-2026 trên Cổng TTĐT Bộ Công Thương (moit.gov.vn — mục Văn bản điều hành và tìm kiếm toàn cổng), Hệ thống văn bản Chính phủ (vanban.chinhphu.vn — cả QPPL classid=1 và chỉ đạo điều hành classid=2), Công báo (congbao.chinhphu.vn), Cổng Hải quan (customs.gov.vn): đều không đăng tải bản gốc công văn trao đổi nghiệp vụ liên bộ này; Cục Hóa chất (vinachemia.gov.vn) không phản hồi kết nối; vbpl.vn trả HTTP 403 Forbidden từ máy chạy. Giữ NGUON_B.",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-20",
-        "boi": "zcode@ozvietnam"
+        "ngay": "2026-11-18",
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "chan": {
+          "ma": "THIEU_PDF_A",
+          "ngay": "2026-11-18",
+          "viec_tiep": "Công văn hành chính trao đổi nghiệp vụ gửi Bộ Tài chính (không đăng Công báo); đã tìm trên moit.gov.vn (Văn bản điều hành), vanban.chinhphu.vn (classid=1,2), congbao.chinhphu.vn, customs.gov.vn đều không có bản gốc bậc A, vinachemia.gov.vn timeout, vbpl.vn trả 403. Chờ Bộ Công Thương hoặc Cục Hải quan công bố bản gốc trên cổng bậc A."
+        }
       },
       "ghi_chu": "Công văn hướng dẫn (không phải quy phạm pháp luật) — giá trị tham khảo khi trả lời khách về XNK sản phẩm chứa tiền chất công nghiệp. Chưa có bản gốc Bộ Công Thương; nâng NGUON_A khi tìm được.",
       "tu_khoa": [
@@ -94236,7 +94241,7 @@
     {
       "so_hieu": "67/2026/VBHN-BNNMT",
       "loai": "VAN_BAN_HOP_NHAT",
-      "ten": "Hợp nhất Thông tư quy định về kiểm dịch động vật, sản phẩm động vật trên cạn",
+      "ten": "Quy định về kiểm dịch động vật, sản phẩm động vật trên cạn",
       "co_quan": "BNNMT",
       "ngay_ban_hanh": "2026-06-12",
       "tinh_trang": "CON_HIEU_LUC",
@@ -94247,18 +94252,34 @@
         {
           "url": "https://luatvietnam.vn/nong-nghiep",
           "truy_cap": "2026-11-01"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=218443",
+          "truy_cap": "2026-11-18"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/6/67-vbhn-bnnmt.pdf",
+          "truy_cap": "2026-11-18"
+        },
+        {
+          "url": "https://mae.gov.vn/Pages/chitietvanban.aspx?ItemID=847",
+          "truy_cap": "2026-11-18"
+        },
+        {
+          "url": "https://mae.gov.vn/noidung/Lists/VBQPPL/Attachments/847/67-VBHN-BNNMT.pdf",
+          "truy_cap": "2026-11-18"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + ngày ban hành 12-06-2026 thấy qua bản tin tổng hợp (chưa vào nguồn chính thống trực tiếp — cần đối chiếu spsvietnam.gov.vn/vbpl để lên NGUON_B/A và bóc Thông tư gốc được hợp nhất)",
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A trên Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=218443) và Cổng TTĐT Bộ Nông nghiệp và Môi trường (mae.gov.vn, ItemID=847): số ký hiệu 67/VBHN-BNNMT (sổ ghi 67/2026/VBHN-BNNMT), ngày ban hành 12-06-2026, loại Văn bản hợp nhất, cơ quan ban hành Bộ Nông nghiệp và Môi trường, người ký Thứ trưởng Nguyễn Quốc Trị, trích yếu nguyên văn \"Quy định về kiểm dịch động vật, sản phẩm động vật trên cạn\" (đã cập nhật vào trường ten). Tệp PDF toàn văn đính kèm trên datafiles.chinhphu.vn và mae.gov.vn đều trả HTTP 200 (application/pdf, 2.972.338 byte). Tình trạng hiệu lực hiện hành chưa đối chiếu.",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-01",
-        "boi": "zcode@ozvietnam"
+        "ngay": "2026-11-18",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trinh sát WebSearch trạm BNNMT đêm 1/11. Gia đình KDTV (động vật trên cạn — cặp của KDTV thực vật 99/100/2026/VBHN). Nguồn chi tiết cần lấy lại.",
       "slug": "67-2026-vbhn-bnnmt",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -107057,18 +107078,26 @@
         {
           "url": "https://unis.unvienna.org/unis/en/pressrels/2015/unisl226.html",
           "truy_cap": "2026-11-06"
+        },
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-bao-so-06-2016-tb-lpqt-19076.htm",
+          "truy_cap": "2026-11-18"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2016/2/19076/13581-1-062016tb-lpqt13640pdf",
+          "truy_cap": "2026-11-18"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "Xác minh trực tiếp trên trang trạng thái chính thức của UNCITRAL: Việt Nam gia nhập (accession) ngày 18/12/2015, Công ước có hiệu lực với Việt Nam từ 01/01/2017, VN là quốc gia thành viên thứ 84; VN có tuyên bố theo Điều 12 và Điều 96 (yêu cầu hình thức văn bản cho hợp đồng); tổng 97 quốc gia thành viên tính đến ngày truy cập. Thông cáo báo chí Liên hợp quốc (UNIS/L/226, 29/12/2015) xác nhận cùng thông tin. Công ước được thông qua tại Viên ngày 11/04/1980 (hiển thị trên nguồn UNCITRAL); ngày Công ước có hiệu lực chung 01/01/1988 là kiến thức chung — chưa trích trực tiếp từ trang đã tải, cần đối chiếu lại nếu dùng làm căn cứ.",
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A trên Công báo nước CHXHCN Việt Nam (congbao.chinhphu.vn, Công báo số 195 + 196 ngày 23-02-2016, trang 71 — Thông báo số 06/2016/TB-LPQT ngày 05-02-2016 của Bộ Ngoại giao về việc điều ước quốc tế có hiệu lực, kèm tệp PDF có chữ ký số của Văn phòng Chính phủ trên congbaocdn.chinhphu.vn): xác nhận \"Công ước của Liên hợp quốc về mua bán hàng hóa quốc tế (United Nations Convention on Contracts for the International Sale of Goods)\" ký tại Viên ngày 11-04-1980 có hiệu lực đối với Việt Nam kể từ ngày 01-01-2017, kèm nguyên văn Tuyên bố bảo lưu của Việt Nam theo Điều 12 và Điều 96 (yêu cầu hình thức văn bản đối với hợp đồng mua bán hàng hóa quốc tế khi có bên có trụ sở thương mại tại Việt Nam). Đối chiếu bổ sung trên trang trạng thái UNCITRAL và thông cáo UNIS/L/226: Việt Nam nộp văn kiện gia nhập ngày 18-12-2015 (thành viên thứ 84). Tình trạng hiệu lực hiện hành chưa đối chiếu đầy đủ.",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-06",
-        "boi": "zcode@ozvietnam"
+        "ngay": "2026-11-18",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Liên quan XNK: khung pháp lý chung cho hợp đồng mua bán hàng hoá quốc tế giữa doanh nghiệp VN và đối tác tại quốc gia thành viên khác (Trung Quốc, Singapore, EU...) — áp dụng tự động trừ khi các bên thỏa thuận loại trừ; lưu ý VN tuyên bố giữ yêu cầu hợp đồng bằng văn bản theo Điều 12, 96. Ghi chú nhu cầu có nhắc \"nghị định 83/2019/NĐ-CP\" như nghị định thi hành — đã kiểm tra và KHÔNG xác nhận được mối liên quan: NĐ 83/2019/NĐ-CP (12/11/2019) là văn bản sửa đổi NĐ 94/2014/NĐ-CP về Quỹ phòng, chống thiên tai (nguồn thứ cấp), nên không ghi quan hệ vào entry này.",
       "slug": "cong-uoc-vien-1980-cisg",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
