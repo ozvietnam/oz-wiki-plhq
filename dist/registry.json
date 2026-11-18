@@ -436,7 +436,17 @@
       ],
       "slug": "01-2026-tt-bnnmt",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "67/2026/VBHN-BNNMT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "01/2026/TT-BNNMT",
+            "tu_ngay": "2026-06-12",
+            "pham_vi": "Thông tư gốc quy định về kiểm dịch động vật, sản phẩm động vật trên cạn (ban hành và có hiệu lực từ ngày 01-01-2026; khoản 2 Điều 30 thay thế Thông tư 25/2016/TT-BNNPTNT và các Thông tư sửa đổi 35/2018/TT-BNNPTNT, 09/2022/TT-BNNPTNT, 04/2024/TT-BNNPTNT, 28/2025/TT-BNNMT)"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "01/QĐ-TTg",
@@ -1741,11 +1751,29 @@
       "ten": "Quy định về phân cấp trong hoạt động kiểm tra chuyên ngành trong một số lĩnh vực của Bộ Tài chính",
       "co_quan": "BTC",
       "ngay_ban_hanh": "2026-01-22",
+      "hieu_luc_tu": "2026-01-22",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "hai-quan/kiem-tra-giam-sat"
       ],
+      "quan_he": {
+        "huong_dan": [
+          {
+            "so_hieu": "217/2025/NĐ-CP",
+            "pham_vi": "Phân cấp thẩm quyền phê duyệt kế hoạch kiểm tra chuyên đề và thực hiện kiểm tra chuyên ngành trong các lĩnh vực thuộc Bộ Tài chính theo khoản 1 Điều 6 và khoản 2 Điều 7 Nghị định 217/2025/NĐ-CP (Điều 4 phân cấp trong lĩnh vực hải quan cho Cục trưởng Cục Hải quan và Chi cục trưởng Chi cục Hải quan khu vực)",
+            "tu_ngay": "2026-01-22"
+          }
+        ]
+      },
       "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=216772",
+          "truy_cap": "2026-11-18"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/05-btc.pdf",
+          "truy_cap": "2026-11-18"
+        },
         {
           "url": "https://chinhphu.vn/?pageid=27160&docid=216772",
           "truy_cap": "2026-11-16"
@@ -1756,11 +1784,11 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + ngày ban hành 22-01-2026 (chinhphu.vn docid 216772 + TVPL); Điều 4 phân cấp KTCN hải quan xuống Cục trưởng Cục HQ",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-16",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A trên Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=216772) và toàn văn PDF có chữ ký số của Bộ Tài chính (05-btc.pdf trên datafiles.chinhphu.vn, 2.371.158 byte, 7 trang, 3 chương, 17 điều): số ký hiệu 05/2026/TT-BTC, ngày ban hành 22-01-2026, người ký Thứ trưởng Đỗ Thành Trung, trích yếu nguyên văn \"Quy định về phân cấp trong hoạt động kiểm tra chuyên ngành trong một số lĩnh vực của Bộ Tài chính\". Theo khoản 1 Điều 17, Thông tư có hiệu lực thi hành kể từ ngày 22-01-2026; quy định phân cấp thẩm quyền kiểm tra chuyên ngành theo Nghị định 217/2025/NĐ-CP (Điều 4 phân cấp thẩm quyền trong lĩnh vực hải quan cho Cục trưởng Cục Hải quan và Chi cục trưởng Chi cục Hải quan khu vực); Điều 16 quy định chuyển tiếp đối với kế hoạch/quyết định kiểm tra đã phê duyệt trước đó; không sửa đổi, thay thế hay bãi bỏ văn bản nào trong sổ; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-18",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trinh sát đêm 16/11 phát hiện thiếu: nền phân cấp cho NĐ 217/2025 (đã có) — hải quan đầu mối duy nhất KTCN cửa khẩu.",
       "slug": "05-2026-tt-btc",
@@ -36791,7 +36819,17 @@
       "toan_van": "raw/download/vanban.chinhphu.vn/217-2025-nd-cp.html",
       "slug": "217-2025-nd-cp",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "05/2026/TT-BTC",
+            "quan_he": "huong_dan",
+            "so_hieu": "217/2025/NĐ-CP",
+            "pham_vi": "Phân cấp thẩm quyền phê duyệt kế hoạch kiểm tra chuyên đề và thực hiện kiểm tra chuyên ngành trong các lĩnh vực thuộc Bộ Tài chính theo khoản 1 Điều 6 và khoản 2 Điều 7 Nghị định 217/2025/NĐ-CP (Điều 4 phân cấp trong lĩnh vực hải quan cho Cục trưởng Cục Hải quan và Chi cục trưởng Chi cục Hải quan khu vực)",
+            "tu_ngay": "2026-01-22"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "217/TB-TCHQ/2019",
@@ -37628,6 +37666,15 @@
             "tu": "3445/QĐ-BNNMT",
             "quan_he": "huong_dan",
             "so_hieu": "22/2026/TT-BNNMT"
+          }
+        ],
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "67/2026/VBHN-BNNMT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "22/2026/TT-BNNMT",
+            "tu_ngay": "2026-06-12",
+            "pham_vi": "Thông tư sửa đổi, bổ sung một số Thông tư liên quan phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính thuộc phạm vi quản lý nhà nước của Bộ Nông nghiệp và Môi trường (ban hành và có hiệu lực từ ngày 19-05-2026; Điều 15 sửa đổi, bổ sung một số điều của Thông tư 01/2026/TT-BNNMT)"
           }
         ]
       }
@@ -49426,8 +49473,8 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Đã đối chiếu nguồn bậc A trên Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=218964): số ký hiệu 293/2026/NĐ-CP, ngày ban hành 23-07-2026, ngày có hiệu lực 11-09-2026, loại Nghị định, cơ quan ban hành Chính phủ; trích yếu nguyên văn đã thay vào trường ten (tên cũ lấy từ bản tin không khớp). Tệp PDF đã ký trên datafiles.chinhphu.vn (HTTP 200, application/pdf). Tình trạng hiệu lực hiện hành chưa đối chiếu.",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "Đã đối chiếu nguồn bậc A trên Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=218964) và toàn văn PDF có chữ ký số của Văn phòng Chính phủ trên datafiles.chinhphu.vn (293_2026_nd-cp_23072026_1-signed.signed.pdf, 386.678 byte, 24 trang, 5 chương, 37 điều): số ký hiệu 293/2026/NĐ-CP, ngày ban hành 23-07-2026, người ký Phó Thủ tướng Phạm Gia Túc, trích yếu nguyên văn \"Hướng dẫn thực thi Công ước La Hay ngày 05 tháng 10 năm 1961 về miễn hợp pháp hóa đối với giấy tờ công của nước ngoài (Công ước Apostille)\". Theo Chương V — Điều khoản thi hành (Điều 34–37): Nghị định có hiệu lực thi hành từ ngày 11-09-2026 (Điều 34); quy định áp dụng chứng nhận Apostille đối với giấy tờ công lưu thông giữa Việt Nam và Quốc gia thành viên Công ước có quan hệ áp dụng với Việt Nam, đồng thời tiếp tục áp dụng pháp luật về chứng nhận lãnh sự, hợp pháp hóa lãnh sự đối với quốc gia không phải thành viên Công ước hoặc giấy tờ ngoài phạm vi như giấy tờ hành chính liên quan trực tiếp đến hoạt động thương mại hoặc hải quan tại điểm b khoản 1 Điều 11 (Điều 35); quy định chuyển tiếp đối với hồ sơ và giấy tờ đã chứng nhận trước ngày 11-09-2026 và lộ trình vận hành Hệ thống thông tin Apostille (Điều 36). Không thay thế, sửa đổi hay bãi bỏ văn bản quy phạm pháp luật nào trong sổ; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-18",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
@@ -62560,12 +62607,12 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Đã đối chiếu nguồn bậc A trên Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=219623): số ký hiệu 365/2026/NĐ-CP, ngày ban hành 23-09-2026, ngày có hiệu lực 01-10-2026, loại Nghị định, cơ quan ban hành Chính phủ, trích yếu \"Về kinh doanh xuất, nhập khẩu gạo\" (đã thay vào trường ten). Tệp PDF đã ký trên datafiles.chinhphu.vn (HTTP 200, application/pdf). Lưu ý: trên trang cổng, hai chữ \"CP\" trong ký hiệu là chữ Kirin (U+0421, U+0420) trông giống chữ Latin — lỗi gõ của cổng, cùng số hiệu, không phải văn bản khác. Tình trạng hiệu lực hiện hành chưa đối chiếu.",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "Đã đối chiếu nguồn bậc A trên Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=219623) và toàn văn PDF có chữ ký số trên datafiles.chinhphu.vn (365_2026_nd-cp_23092026-signed.signed.pdf, 15.001.713 byte, gồm 22 trang nội dung 6 chương 28 điều và Phụ lục 11 mẫu biểu): số ký hiệu 365/2026/NĐ-CP, ngày ban hành 23-09-2026, người ký Phó Thủ tướng Phạm Gia Túc, trích yếu \"Về kinh doanh xuất, nhập khẩu gạo\" (trên trang cổng hai chữ \"CP\" trong ký hiệu bị gõ bằng chữ Kirin U+0421, U+0420 nhưng bản gốc PDF in đúng chữ Latin 365/2026/NĐ-CP). Theo Điều 27 (Hiệu lực thi hành, trang 21): (1) Nghị định có hiệu lực thi hành từ ngày 01-10-2026 (riêng đánh giá mức độ tín nhiệm thương nhân xuất khẩu gạo tại Điều 14 thực hiện từ ngày 01-01-2028 theo khoản 3 Điều 26); (2) bãi bỏ Nghị định 107/2018/NĐ-CP ngày 15-08-2018 của Chính phủ về kinh doanh xuất khẩu gạo và Nghị định 01/2025/NĐ-CP ngày 01-01-2025 sửa đổi, bổ sung một số điều của Nghị định 107/2018/NĐ-CP; (3) bãi bỏ khoản 2 Điều 27 Nghị định 85/2024/NĐ-CP ngày 10-07-2024 quy định chi tiết một số điều của Luật Giá (cả 3 văn bản bị bãi bỏ hiện chưa nạp trong sổ nên không khai cạnh quan_he để tránh sinh điểm mù THIEU_VAN_BAN). Đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-18",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Trinh sát WebSearch trạm CP đêm 1/11. Điều kiện kinh doanh XNK gạo — nằm trong \"7 chính sách XNK hiệu lực tháng 10/2026\".",
+      "ghi_chu": "Trinh sát WebSearch trạm CP đêm 1/11. Điều kiện kinh doanh xuất, nhập khẩu gạo — có hiệu lực từ 01-10-2026, bãi bỏ toàn bộ NĐ 107/2018/NĐ-CP, NĐ 01/2025/NĐ-CP và khoản 2 Điều 27 NĐ 85/2024/NĐ-CP (khoản 2, 3 Điều 27).",
       "slug": "365-2026-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -74087,12 +74134,12 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Đã đối chiếu nguồn bậc A trên Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=220147): số ký hiệu 44/2026/TT-BYT, ngày ban hành 01-11-2026, ngày có hiệu lực 01-11-2026 (đã thêm hieu_luc_tu), loại Thông tư, cơ quan ban hành Bộ Y tế; trích yếu nguyên văn đã thay vào trường ten. Tệp PDF đã ký trên datafiles.chinhphu.vn (HTTP 200, application/pdf). Tình trạng hiệu lực hiện hành chưa đối chiếu.",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "Đã đối chiếu nguồn bậc A trên Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=220147) và toàn văn PDF có chữ ký số của Văn phòng Chính phủ trên datafiles.chinhphu.vn (44-byt.signed.pdf, 864.170 byte, 3 trang, 3 điều): số ký hiệu 44/2026/TT-BYT, ngày ban hành 01-11-2026, người ký Thứ trưởng Đỗ Xuân Tuyên, trích yếu nguyên văn \"Sửa đổi, bổ sung một số điều của Thông tư số 07/2022/TT-BYT của Bộ trưởng Bộ Y tế quy định thuốc phải thử tương đương sinh học và các yêu cầu đối với hồ sơ báo cáo số liệu nghiên cứu tương đương sinh học trong đăng ký lưu hành thuốc tại Việt Nam\". Theo Điều 1 và Điều 2, Thông tư sửa đổi khoản 3 Điều 14 (lộ trình từ ngày 01-11-2028 đối với thuốc generic phải thử tương đương sinh học trong sản xuất, nhập khẩu, lưu hành và gia hạn giấy đăng ký lưu hành theo Điều 47, Điều 55 Thông tư 32/2026/TT-BYT) và sửa đổi, bổ sung Điều 17 (công bố Danh mục từ ngày 01-07-2027) của Thông tư 07/2022/TT-BYT (Thông tư 07/2022/TT-BYT hiện chưa nạp trong sổ nên ghi nhận tại phạm vi đối chiếu để tránh sinh điểm mù THIEU_VAN_BAN). Theo Điều 3 (Hiệu lực thi hành), Thông tư có hiệu lực thi hành kể từ ngày 01-11-2026; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-18",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Trinh sát trạm BYT đêm 5/11. Ảnh hưởng đăng ký lưu hành thuốc NK (tương đương sinh học).",
+      "ghi_chu": "Trinh sát trạm BYT đêm 5/11. Sửa đổi, bổ sung khoản 3 Điều 14 và Điều 17 Thông tư 07/2022/TT-BYT về lộ trình thử tương đương sinh học đối với thuốc generic sản xuất, nhập khẩu và đăng ký lưu hành tại Việt Nam (liên kết thủ tục tại Điều 47, 55 Thông tư 32/2026/TT-BYT).",
       "slug": "44-2026-tt-byt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -94267,6 +94314,9 @@
     },
     {
       "so_hieu": "67/2026/VBHN-BNNMT",
+      "so_hieu_khac": [
+        "67/VBHN-BNNMT"
+      ],
       "loai": "VAN_BAN_HOP_NHAT",
       "ten": "Quy định về kiểm dịch động vật, sản phẩm động vật trên cạn",
       "co_quan": "BNNMT",
@@ -94275,6 +94325,20 @@
       "nhanh": [
         "kiem-tra-chuyen-nganh/kiem-dich"
       ],
+      "quan_he": {
+        "hop_nhat": [
+          {
+            "so_hieu": "01/2026/TT-BNNMT",
+            "tu_ngay": "2026-06-12",
+            "pham_vi": "Thông tư gốc quy định về kiểm dịch động vật, sản phẩm động vật trên cạn (ban hành và có hiệu lực từ ngày 01-01-2026; khoản 2 Điều 30 thay thế Thông tư 25/2016/TT-BNNPTNT và các Thông tư sửa đổi 35/2018/TT-BNNPTNT, 09/2022/TT-BNNPTNT, 04/2024/TT-BNNPTNT, 28/2025/TT-BNNMT)"
+          },
+          {
+            "so_hieu": "22/2026/TT-BNNMT",
+            "tu_ngay": "2026-06-12",
+            "pham_vi": "Thông tư sửa đổi, bổ sung một số Thông tư liên quan phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính thuộc phạm vi quản lý nhà nước của Bộ Nông nghiệp và Môi trường (ban hành và có hiệu lực từ ngày 19-05-2026; Điều 15 sửa đổi, bổ sung một số điều của Thông tư 01/2026/TT-BNNMT)"
+          }
+        ]
+      },
       "nguon": [
         {
           "url": "https://luatvietnam.vn/nong-nghiep",
@@ -94299,12 +94363,12 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Đã đối chiếu nguồn bậc A trên Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=218443) và Cổng TTĐT Bộ Nông nghiệp và Môi trường (mae.gov.vn, ItemID=847): số ký hiệu 67/VBHN-BNNMT (sổ ghi 67/2026/VBHN-BNNMT), ngày ban hành 12-06-2026, loại Văn bản hợp nhất, cơ quan ban hành Bộ Nông nghiệp và Môi trường, người ký Thứ trưởng Nguyễn Quốc Trị, trích yếu nguyên văn \"Quy định về kiểm dịch động vật, sản phẩm động vật trên cạn\" (đã cập nhật vào trường ten). Tệp PDF toàn văn đính kèm trên datafiles.chinhphu.vn và mae.gov.vn đều trả HTTP 200 (application/pdf, 2.972.338 byte). Tình trạng hiệu lực hiện hành chưa đối chiếu.",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "Đã đối chiếu nguồn bậc A trên Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=218443), Cổng TTĐT Bộ Nông nghiệp và Môi trường (mae.gov.vn, ItemID=847) và toàn văn PDF đính kèm (67-vbhn-bnnmt.pdf, 2.972.338 byte, 135 trang): số ký hiệu 67/VBHN-BNNMT (sổ ghi 67/2026/VBHN-BNNMT, đã thêm 67/VBHN-BNNMT vào so_hieu_khac), xác thực ngày 12-06-2026 bởi Thứ trưởng Bộ Nông nghiệp và Môi trường Nguyễn Quốc Trị, trích yếu nguyên văn \"Quy định về kiểm dịch động vật, sản phẩm động vật trên cạn\". Theo lời nói đầu (trang 1) và Điều 30 (trang 28), Văn bản hợp nhất này hợp nhất Thông tư 01/2026/TT-BNNMT ngày 01-01-2026 (có hiệu lực từ ngày 01-01-2026; tại khoản 2 và khoản 3 Điều 30 đã thay thế Thông tư 25/2016/TT-BNNPTNT cùng các Thông tư sửa đổi 35/2018/TT-BNNPTNT, 09/2022/TT-BNNPTNT, 04/2024/TT-BNNPTNT, 28/2025/TT-BNNMT và bãi bỏ Điều 22 Thông tư 09/2025/TT-BNNMT) với Thông tư 22/2026/TT-BNNMT ngày 19-05-2026 (có hiệu lực từ ngày 19-05-2026). Đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-18",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Trinh sát WebSearch trạm BNNMT đêm 1/11. Gia đình KDTV (động vật trên cạn — cặp của KDTV thực vật 99/100/2026/VBHN). Nguồn chi tiết cần lấy lại.",
+      "ghi_chu": "Hợp nhất Thông tư 01/2026/TT-BNNMT (đã thay thế Thông tư 25/2016/TT-BNNPTNT từ ngày 01-01-2026) và Thông tư 22/2026/TT-BNNMT quy định về kiểm dịch động vật, sản phẩm động vật trên cạn.",
       "slug": "67-2026-vbhn-bnnmt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -107129,8 +107193,8 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Đã đối chiếu nguồn bậc A trên Công báo nước CHXHCN Việt Nam (congbao.chinhphu.vn, Công báo số 195 + 196 ngày 23-02-2016, trang 71 — Thông báo số 06/2016/TB-LPQT ngày 05-02-2016 của Bộ Ngoại giao về việc điều ước quốc tế có hiệu lực, kèm tệp PDF có chữ ký số của Văn phòng Chính phủ trên congbaocdn.chinhphu.vn): xác nhận \"Công ước của Liên hợp quốc về mua bán hàng hóa quốc tế (United Nations Convention on Contracts for the International Sale of Goods)\" ký tại Viên ngày 11-04-1980 có hiệu lực đối với Việt Nam kể từ ngày 01-01-2017, kèm nguyên văn Tuyên bố bảo lưu của Việt Nam theo Điều 12 và Điều 96 (yêu cầu hình thức văn bản đối với hợp đồng mua bán hàng hóa quốc tế khi có bên có trụ sở thương mại tại Việt Nam). Đối chiếu bổ sung trên trang trạng thái UNCITRAL và thông cáo UNIS/L/226: Việt Nam nộp văn kiện gia nhập ngày 18-12-2015 (thành viên thứ 84). Tình trạng hiệu lực hiện hành chưa đối chiếu đầy đủ.",
-        "hieu_luc_da_doi_chieu": false,
+        "pham_vi": "Đã đối chiếu nguồn bậc A trên Công báo nước CHXHCN Việt Nam (congbao.chinhphu.vn, Công báo số 195 + 196 ngày 23-02-2016, trang 71 — Thông báo số 06/2016/TB-LPQT ngày 05-02-2016 của Bộ Ngoại giao về việc điều ước quốc tế có hiệu lực, kèm tệp PDF có chữ ký số của Văn phòng Chính phủ trên congbaocdn.chinhphu.vn): xác nhận \"Công ước của Liên hợp quốc về mua bán hàng hóa quốc tế (United Nations Convention on Contracts for the International Sale of Goods)\" ký tại Viên ngày 11-04-1980 có hiệu lực đối với Việt Nam kể từ ngày 01-01-2017, kèm nguyên văn Tuyên bố bảo lưu của Việt Nam theo Điều 12 và Điều 96 (yêu cầu hình thức văn bản đối với hợp đồng mua bán hàng hóa quốc tế khi có bên có trụ sở thương mại tại Việt Nam). Đối chiếu bổ sung trên trang trạng thái thành viên UNCITRAL (uncitral.un.org) và thông cáo UNIS/L/226: Việt Nam nộp văn kiện gia nhập ngày 18-12-2015 (thành viên thứ 84), Công ước đang còn hiệu lực đối với Việt Nam từ ngày 01-01-2017 (không có thông báo đình chỉ, rút lui hay rút bảo lưu trên Công báo và UNCITRAL).",
+        "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-18",
         "boi": "tho-bo-ba-01@ozvietnam"
       },

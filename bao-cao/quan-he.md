@@ -282,6 +282,9 @@ flowchart LR
   n_499_2019_Q__BCT["499/2019/QĐ-BCT<br/>còn hiệu lực"]
   n_326_2018_Q__BCT["326/2018/QĐ-BCT<br/>còn hiệu lực"]
   n_73_2018_N__CP["73/2018/NĐ-CP<br/>hết hiệu lực"]
+  n_67_2026_VBHN_BNNMT["67/2026/VBHN-BNNMT<br/>còn hiệu lực"]
+  n_01_2026_TT_BNNMT["01/2026/TT-BNNMT<br/>còn hiệu lực"]
+  n_22_2026_TT_BNNMT["22/2026/TT-BNNMT<br/>còn hiệu lực"]
   n_69_2025_QH15["69/2025/QH15<br/>còn hiệu lực"]
   n_06_2007_QH12["06/2007/QH12<br/>hết hiệu lực"]
   n_73_2021_QH14["73/2021/QH14<br/>còn hiệu lực"]
@@ -410,6 +413,8 @@ flowchart LR
   n_499_2019_Q__BCT -->|sửa đổi Cập nhật phạm vi danh mục mặt hàng và cơ quan kiểm tra chuyên ngành thuộc Bộ Công Thương từ 2019-08-01| n_326_2018_Q__BCT
   n_57_2022_N__CP -->|thay thế từ 2022-08-25| n_73_2018_N__CP
   n_62_2024_TT_BGTVT -->|sửa đổi khoản 2–3 Điều 3; Điều 6–7; thay Phụ lục I–II từ 2025-02-15| n_12_2022_TT_BGTVT
+  n_67_2026_VBHN_BNNMT -->|hợp nhất Thông tư gốc quy định về kiểm dịch động vật, sản phẩm động vật trên cạn (ban hành và có hiệu lực từ ngày 01-01-2026; khoản 2 Điều 30 thay thế Thông tư 25/2016/TT-BNNPTNT và các Thông tư sửa đổi 35/2018/TT-BNNPTNT, 09/2022/TT-BNNPTNT, 04/2024/TT-BNNPTNT, 28/2025/TT-BNNMT) từ 2026-06-12| n_01_2026_TT_BNNMT
+  n_67_2026_VBHN_BNNMT -->|hợp nhất Thông tư sửa đổi, bổ sung một số Thông tư liên quan phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính thuộc phạm vi quản lý nhà nước của Bộ Nông nghiệp và Môi trường (ban hành và có hiệu lực từ ngày 19-05-2026; Điều 15 sửa đổi, bổ sung một số điều của Thông tư 01/2026/TT-BNNMT) từ 2026-06-12| n_22_2026_TT_BNNMT
   n_69_2025_QH15 -->|thay thế từ 2026-01-01| n_06_2007_QH12
   n_71_2025_TT_BXD -->|bãi bỏ Chương X, Phụ lục II và Phụ lục III (một phần) từ 2026-07-01| n_49_2026_TT_BXD
   n_73_2021_QH14 -->|thay thế từ 2022-01-01| n_23_2000_QH10
