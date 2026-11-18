@@ -483,11 +483,11 @@ flowchart LR
   n_1400_Q__BCT["1400/QĐ-BCT<br/>còn hiệu lực"]
   n_228_Q__BCT["228/QĐ-BCT<br/>hết hiệu lực"]
   n_2174_Q__BCT["2174/QĐ-BCT<br/>còn hiệu lực"]
-  n_2333_Q__BCT["2333/QĐ-BCT<br/>còn hiệu lực"]
+  n_2333_Q__BCT["2333/QĐ-BCT<br/>hết hiệu lực"]
   n_86_2025_N__CP["86/2025/NĐ-CP<br/>còn hiệu lực"]
   n_10_2018_N__CP["10/2018/NĐ-CP<br/>hết hiệu lực"]
   n_915_Q__BCT["915/QĐ-BCT<br/>còn hiệu lực"]
-  n_1978_Q__BCT["1978/QĐ-BCT<br/>còn hiệu lực"]
+  n_1978_Q__BCT["1978/QĐ-BCT<br/>hết hiệu lực"]
   n_121_Q__BCT -->|thay thế từ 2026-01-19| n_2491_Q__BCT
   n_1309_Q__BCT -->|bãi bỏ từ 2026-06-16| n_1578_Q__BCT
   n_1309_Q__BCT -->|bãi bỏ từ 2026-06-16| n_2961_Q__BCT

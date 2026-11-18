@@ -3091,7 +3091,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Chống bán phá giá, chống trợ cấp, tự vệ `phong-ve-thuong-mai/chong-ban-pha-gia`
 
-28 văn bản, 22 chưa hết hiệu lực.
+28 văn bản, 19 chưa hết hiệu lực.
 
 - 🟢 [2174/QĐ-BCT](../registry/van-ban/2174-qd-bct-2025.yaml) — Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm gạch gốm, sứ ốp lát có xuất xứ từ Cộng hòa Ấn Độ _(hết hiệu lực 2031-09-22)_
 - 🟢 [1400/QĐ-BCT](../registry/van-ban/1400-qd-bct-2025.yaml) — Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm kính nổi không màu có xuất xứ từ Cộng hòa In-đô-nê-xi-a và Ma-lai-xi-a _(hết hiệu lực 2031-06-14)_
@@ -3103,11 +3103,11 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [3765/QĐ-BCT](../registry/van-ban/3765-qd-bct-2025.yaml) — Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép cán nguội (ép nguội) dạng cuộn hoặc tấm có xuất xứ từ nước Cộng hòa nhân dân Trung Hoa _(hết hiệu lực 2030-12-28)_
 - ⚫ [3546/QĐ-BCT](../registry/van-ban/3546-qd-bct-2025.yaml) — Về kết quả rà soát lần thứ hai việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm sợi dài làm từ polyester có xuất xứ từ Cộng hòa Nhân dân Trung Hoa, Cộng hòa Ấn Độ, Cộng hòa In-đô-nê-xi-a và Ma-lai-xi-a _(hết hiệu lực 2026-10-16)_
 - 🟢 [3176/QĐ-BCT](../registry/van-ban/3176-qd-bct-2025.yaml) — Khởi xướng điều tra chống lẩn tránh biện pháp phòng vệ thương mại đối với một số sản phẩm thép cán nóng có xuất xứ từ Cộng hòa nhân dân Trung Hoa
-- 🟢 [2333/QĐ-BCT](../registry/van-ban/2333-qd-bct-2025.yaml) — Điều tra áp dụng biện pháp chống bán phá giá đối với một số sản phẩm gạch gốm, sứ ốp lát có xuất xứ từ Cộng hòa Ấn Độ
+- ⚫ [2333/QĐ-BCT](../registry/van-ban/2333-qd-bct-2025.yaml) — Điều tra áp dụng biện pháp chống bán phá giá đối với một số sản phẩm gạch gốm, sứ ốp lát có xuất xứ từ Cộng hòa Ấn Độ _(hết hiệu lực 2026-09-22)_
 - 🟢 [2310/QĐ-BCT](../registry/van-ban/2310-qd-bct-2025.yaml) — Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm thép mạ có xuất xứ từ Cộng hòa nhân dân Trung Hoa và Đại Hàn Dân Quốc _(hết hiệu lực 2030-08-14)_
-- 🟢 [2093/QĐ-BCT](../registry/van-ban/2093-qd-bct.yaml) — Điều tra áp dụng biện pháp chống bán phá giá đối với một số sản phẩm kính nổi không màu có xuất xứ từ Cộng hòa In-đô-nê-xi-a và Ma-lai-xi-a
+- ⚫ [2093/QĐ-BCT](../registry/van-ban/2093-qd-bct.yaml) — Điều tra áp dụng biện pháp chống bán phá giá đối với một số sản phẩm kính nổi không màu có xuất xứ từ Cộng hòa In-đô-nê-xi-a và Ma-lai-xi-a _(hết hiệu lực 2026-06-14)_
 - 🟢 [2027/QĐ-BCT](../registry/van-ban/2027-qd-bct.yaml) — Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm bằng plastic được làm từ các polyme từ propylen có xuất xứ từ Ma-lai-xi-a, Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa
-- 🟢 [1978/QĐ-BCT](../registry/van-ban/1978-qd-bct.yaml) — Rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép hình chữ H có xuất xứ từ Ma-lai-xi-a
+- ⚫ [1978/QĐ-BCT](../registry/van-ban/1978-qd-bct.yaml) — Rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép hình chữ H có xuất xứ từ Ma-lai-xi-a _(hết hiệu lực 2026-04-16)_
 - 🟢 [1959/QĐ-BCT](../registry/van-ban/1959-qd-bct.yaml) — Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm thép cán nóng có xuất xứ từ Cộng hòa nhân dân Trung Hoa và chấm dứt điều tra áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép cán nóng có xuất xứ từ Cộng hòa Ấn Độ _(hết hiệu lực 2030-07-06)_
 - 🟢 [1914/QĐ-BCT](../registry/van-ban/1914-qd-bct.yaml) — Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm bột ngọt có xuất xứ từ Cộng hòa In-đô-nê-xi-a và Cộng hòa nhân dân Trung Hoa _(hết hiệu lực 2030-07-23)_
 - 🟢 [86/2025/NĐ-CP](../registry/van-ban/86-2025-nd-cp.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương về các biện pháp phòng vệ thương mại

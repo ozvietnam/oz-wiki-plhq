@@ -34158,33 +34158,6 @@
       "trongSo": 1
     },
     {
-      "ma": "HS_API_LECH_THU_VIEN",
-      "muc": "Vừa",
-      "tieuDe": "2333/QĐ-BCT: hs-code-api ghi REPLACED, sổ ghi CON_HIEU_LUC",
-      "muc_tieu": "2333/QĐ-BCT",
-      "viec": "Thư viện /api/legal-docs của hs-code-api (2333/QD-BCT-2025) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "HS_API_LECH_THU_VIEN",
-      "muc": "Vừa",
-      "tieuDe": "1978/QĐ-BCT: hs-code-api ghi EXPIRED, sổ ghi CON_HIEU_LUC",
-      "muc_tieu": "1978/QĐ-BCT",
-      "viec": "Thư viện /api/legal-docs của hs-code-api (1978/QD-BCT, 1978/QD-BCT-2025) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "HS_API_LECH_THU_VIEN",
-      "muc": "Vừa",
-      "tieuDe": "2093/QĐ-BCT: hs-code-api ghi REPLACED, sổ ghi CON_HIEU_LUC",
-      "muc_tieu": "2093/QĐ-BCT",
-      "viec": "Thư viện /api/legal-docs của hs-code-api (2093/QD-BCT-2025) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
       "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
       "muc": "Thấp",
       "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 12/2022/TT-BGTVT nhưng sổ ghi HET_HIEU_LUC",
@@ -34268,6 +34241,15 @@
     {
       "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
       "muc": "Thấp",
+      "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 2333/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC",
+      "muc_tieu": "2333/QĐ-BCT",
+      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (8 mã HS) — Áp thuế chống bán phá giá đối với Gạch ốp lát (IN). Sổ ghi bị thay bởi 2174/QĐ-BCT (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
+      "luong": "hieu-luc",
+      "trongSo": 8
+    },
+    {
+      "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
+      "muc": "Thấp",
       "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 715/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC",
       "muc_tieu": "715/QĐ-BCT",
       "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (8 mã HS) — Áp thuế tự vệ đối với Phân bón (Nhiều nước). Sổ ghi HET_HIEU_LUC từ 2022-09-07 (đã đối chiếu nguồn A), không có văn bản thay/bãi trong sổ — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
@@ -34295,6 +34277,15 @@
     {
       "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
       "muc": "Thấp",
+      "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 1978/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC",
+      "muc_tieu": "1978/QĐ-BCT",
+      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (5 mã HS) — Áp thuế chống bán phá giá đối với Thép hình chữ H (MA). Sổ ghi bị thay bởi 915/QĐ-BCT (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
+      "luong": "hieu-luc",
+      "trongSo": 5
+    },
+    {
+      "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
+      "muc": "Thấp",
       "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 693/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC",
       "muc_tieu": "693/QĐ-BCT",
       "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (4 mã HS) — Áp dụng biện pháp chống lẩn tránh PVTM đối với Thép cuộn, thép dây (Nhiều nước). Sổ ghi HET_HIEU_LUC từ 2026-03-22 (đã đối chiếu nguồn A), không có văn bản thay/bãi trong sổ — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
@@ -34309,6 +34300,15 @@
       "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (2 mã HS) — Áp thuế chống bán phá giá đối với Một số sản phẩm kính nổi không màu (ID, MA). Sổ ghi bị thay bởi 1400/QĐ-BCT (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
       "luong": "hieu-luc",
       "trongSo": 2
+    },
+    {
+      "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
+      "muc": "Thấp",
+      "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 2093/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC",
+      "muc_tieu": "2093/QĐ-BCT",
+      "viec": "văn bản hiện hành của biểu/danh mục — Áp thuế chống bán phá giá đối với Một số sản phẩm kính nổi không màu (ID, MA). Sổ ghi HET_HIEU_LUC từ 2026-06-14 (đã đối chiếu nguồn A), không có văn bản thay/bãi trong sổ — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
     },
     {
       "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
