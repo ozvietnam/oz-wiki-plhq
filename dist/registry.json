@@ -15826,15 +15826,6 @@
             "tu_ngay": "2026-06-16",
             "can_cu": "Căn cứ QĐ 1309/QĐ-BCT ngày 02/06/2026; Mục 2 và Mục 4.b Thông báo kèm theo QĐ 1310/QĐ-BCT (thời hạn chống lẩn tránh áp dụng theo thời hạn của QĐ 1309/QĐ-BCT đến hết 15/06/2031; kiểm tra C/O Bước 1 theo Mục 5 Thông báo kèm theo QĐ 1309/QĐ-BCT)"
           }
-        ],
-        "bi_bai_bo_boi": [
-          {
-            "tu": "2105/QĐ-BCT",
-            "quan_he": "bai_bo",
-            "so_hieu": "1309/QĐ-BCT",
-            "tu_ngay": "2026-06-16",
-            "can_cu": "Điều 3 khoản 4 QĐ 1309/QĐ-BCT (kết quả rà soát cuối kỳ)"
-          }
         ]
       }
     },
@@ -32470,6 +32461,15 @@
             "tu_ngay": "2026-06-16",
             "can_cu": "Điều 3 khoản 3 QĐ 1309/QĐ-BCT"
           }
+        ],
+        "bi_sua_doi_boi": [
+          {
+            "tu": "2105/QĐ-BCT",
+            "quan_he": "sua_doi",
+            "so_hieu": "1989/QĐ-BCT",
+            "tu_ngay": "2025-07-21",
+            "pham_vi": "Sửa đổi, bổ sung một số nội dung của Quyết định 1989/QĐ-BCT ngày 03-08-2023 về kết quả rà soát lần thứ nhất việc áp dụng biện pháp CBPG và CTC đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan"
+          }
         ]
       }
     },
@@ -35196,24 +35196,33 @@
     {
       "so_hieu": "2105/QĐ-BCT",
       "loai": "QUYET_DINH",
-      "ten": "Sửa đổi Quyết định số 1989/QĐ-BCT về kết quả rà soát lần thứ nhất việc áp dụng biện pháp chống bán phá giá và chống trợ cấp đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan",
+      "ten": "Về việc sửa đổi, bổ sung Quyết định số 1989/QĐ-BCT ngày 03 tháng 8 năm 2023 của Bộ trưởng Bộ Công Thương về kết quả rà soát lần thứ nhất việc áp dụng biện pháp chống bán phá giá và chống trợ cấp đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan",
       "co_quan": "BCT",
       "ngay_ban_hanh": "2025-07-21",
-      "tinh_trang": "HET_HIEU_LUC",
+      "hieu_luc_tu": "2025-07-21",
       "het_hieu_luc_tu": "2026-06-16",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
-        "phong-ve-thuong-mai"
+        "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
       "quan_he": {
-        "bai_bo": [
+        "sua_doi": [
           {
-            "so_hieu": "1309/QĐ-BCT",
-            "tu_ngay": "2026-06-16",
-            "can_cu": "Điều 3 khoản 4 QĐ 1309/QĐ-BCT (kết quả rà soát cuối kỳ)"
+            "so_hieu": "1989/QĐ-BCT",
+            "tu_ngay": "2025-07-21",
+            "pham_vi": "Sửa đổi, bổ sung một số nội dung của Quyết định 1989/QĐ-BCT ngày 03-08-2023 về kết quả rà soát lần thứ nhất việc áp dụng biện pháp CBPG và CTC đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan"
           }
         ]
       },
       "nguon": [
+        {
+          "url": "https://moit.gov.vn/upload/2005517/fck/files/QD_ket_qua_ra_soat_ER01_AD13-AS01_d2370.pdf",
+          "truy_cap": "2026-11-18"
+        },
+        {
+          "url": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-ban-hanh-quyet-dinh-ve-ket-qua-ra-soat-cuoi-ky-viec-ap-dung-bien-phap-chong-ban-pha-gia-va-chong-tro-cap-.html",
+          "truy_cap": "2026-11-18"
+        },
         {
           "url": "https://web.ts24.com.vn/support/solutions/articles/16000220115",
           "truy_cap": "2026-07-02"
@@ -35221,20 +35230,16 @@
       ],
       "trich_dan_trong_bieu_thue": 6,
       "xac_minh": {
-        "muc": "CHUA_XAC_MINH",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "khoi-tao",
-        "chan": {
-          "ma": "THIEU_DIEU_THI_HANH_A",
-          "viec_tiep": "Chờ PDF A của chính 2105 trên moit/pvtm (Điều 3 thi hành). Hết HL theo 1309 chỉ chốt được khi đã có cả hai vế trên A.",
-          "ngay": "2026-10-04"
-        }
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu toàn văn PDF Quyết định số 1309/QĐ-BCT ngày 02-06-2026 trên Cổng Bộ Công Thương (moit.gov.vn: QD_ket_qua_ra_soat_ER01_AD13-AS01_d2370.pdf): tại phần Căn cứ và khoản 4 Điều 3 Quyết định 1309/QĐ-BCT dẫn nguyên văn Quyết định số 2105/QĐ-BCT ngày 21-07-2025 của Bộ trưởng Bộ Công Thương về việc sửa đổi, bổ sung Quyết định số 1989/QĐ-BCT ngày 03-08-2023 về kết quả rà soát lần thứ nhất việc áp dụng biện pháp chống bán phá giá và chống trợ cấp đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan. Theo Điều 2 và khoản 4 Điều 3 Quyết định 1309/QĐ-BCT, Quyết định 2105/QĐ-BCT hết hiệu lực thi hành kể từ ngày 16-06-2026.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-18",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 6 mã HS). Tiêu đề đã đối chiếu (vbpl.ts24.com.vn + thuvienxuatnhapkhau.com). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc AD13-AS01 (đường mía, chương 17). Sửa đổi QĐ 1989/QĐ-BCT ngày 03/08/2023. Biện pháp CBPG+CTC đường mía Thái Lan đã được gia hạn 5 năm bởi QĐ 1309/QĐ-BCT ngày 02/06/2026 (đến 15/06/2031). Chưa xác nhận ngày hiệu lực riêng — cần CEO xem bản gốc. Số hiệu hay viết 2105/QĐ-BCT-2025. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.",
+      "ghi_chu": "Sửa đổi, bổ sung Quyết định 1989/QĐ-BCT trong chuỗi vụ việc AD13-AS01 (đường mía Thái Lan, dẫn trong cột chính sách biểu thuế ở 6 mã HS chương 17); đã hết hiệu lực từ ngày 16-06-2026 theo khoản 4 Điều 3 Quyết định 1309/QĐ-BCT ngày 02-06-2026 về kết quả rà soát cuối kỳ (ER01.AD13-AS01).",
+      "toan_van": "chua_co",
       "slug": "2105-qd-bct-2025",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "bi_bai_bo_boi": [
           {
@@ -43020,14 +43025,27 @@
         {
           "url": "https://thuvienxuatnhapkhau.com",
           "truy_cap": "2026-10-30"
+        },
+        {
+          "url": "https://vasep.com.vn/van-ban/bo-tai-chinh/quyet-dinh-2538-qd-tchq-quy-trinh-thu-tuc-hai-quan-doi-voi-hang-hoa-xnk-hang-van-chuyen-chiu-giam-sat-hai-quan-va-hang-gui-qua-dich-vu-chuyen-phat-nhanh-khi-he-thong-dien-tu-cua-hai-quan-gap-su-co-3242.html",
+          "truy_cap": "2026-11-18"
+        },
+        {
+          "url": "https://vasep.com.vn/DATA/DOCUMENT/2024/11/vanha/QD%202538%20TCHQ.pdf",
+          "truy_cap": "2026-11-18"
         }
       ],
       "xac_minh": {
         "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành 01-11-2024, thay QĐ 1966/QĐ-TCHQ ngày 10-07-2015 (TVPL + TXNK + VASEP); áp dụng khi hệ thống VNACCS/VCIS sự cố theo thông báo TCHQ — quy trình dự phòng/thủ công",
+        "pham_vi": "Số hiệu 2538/QĐ-TCHQ, ngày ban hành 01-11-2024, cơ quan ban hành Tổng cục Hải quan, đối chiếu qua nguồn bậc B (thuvienphapluat.vn) và bản PDF đăng lại trên cổng VASEP (QD 2538 TCHQ.pdf, 3.420.594 byte): quy định quy trình thủ tục hải quan đối với hàng hóa XNK, hàng vận chuyển chịu sự giám sát hải quan và hàng gửi qua dịch vụ chuyển phát nhanh khi hệ thống điện tử của hải quan gặp sự cố (liên kết quy trình tại Quyết định 1966/QĐ-TCHQ ngày 10-07-2015). Đã rà soát ngày 18-11-2026 trên Cổng Hải quan (customs.gov.vn — OZV-1421), Hệ thống văn bản Chính phủ (vanban.chinhphu.vn — classid=1,2), Công báo (congbao.chinhphu.vn) và Cổng Bộ Tài chính (mof.gov.vn): đều không đăng tải bản gốc bậc A của quyết định quy trình nội bộ này. Giữ NGUON_B.",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-30",
-        "boi": "zcode@ozvietnam"
+        "ngay": "2026-11-18",
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "chan": {
+          "ma": "THIEU_PDF_A",
+          "ngay": "2026-11-18",
+          "viec_tiep": "Quyết định quy trình nghiệp vụ nội bộ ngành hải quan (áp dụng khi hệ thống điện tử gặp sự cố, không đăng Công báo); đã quét customs.gov.vn (OZV-1421), vanban.chinhphu.vn (classid=1,2), congbao.chinhphu.vn và mof.gov.vn đều không có bản gốc bậc A. Chờ Cục Hải quan công bố bản gốc trên customs.gov.vn."
+        }
       },
       "ghi_chu": "HIỆN HÀNH của sổ tay quy trình thủ tục hải quan TCHQ (gia đình sổ tay hải quan — rà 30/10).",
       "slug": "2538-qd-tchq",
@@ -58372,16 +58390,25 @@
       ],
       "nguon": [
         {
+          "url": "https://thuvienphapluat.vn/cong-van/Thuong-mai/Cong-van-3366-CHQ-GSQL-2025-chinh-sach-quan-ly-hang-hoa-xuat-nhap-khau-chua-tien-chat-cong-nghiep-655019.aspx",
+          "truy_cap": "2026-11-18"
+        },
+        {
           "url": "https://hethongphapluat.com/cong-van-3366-chq-gsql-nam-2025-ve-chinh-sach-quan-ly-doi-voi-hang-hoa-xuat-khau-nhap-khau-chua-tien-chat-cong-nghiep-do-cuc-hai-quan-ban-hanh.html",
           "truy_cap": "2026-10-20"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu, ngày 25-04-2025, trích yếu qua re-publish Hệ thống Pháp luật / vbpl.ts24 — CHƯA tìm được bản gốc trên customs.gov.vn",
+        "muc": "NGUON_B",
+        "pham_vi": "Số hiệu 3366/CHQ-GSQL, ngày ban hành 25-04-2025, cơ quan ban hành Cục Hải quan (Ban Giám sát quản lý về hải quan), trích yếu về chính sách quản lý đối với hàng hóa xuất khẩu, nhập khẩu chứa tiền chất công nghiệp — đã đối chiếu qua nguồn bậc B (thuvienphapluat.vn, mã văn bản 655019) và bản đăng lại trên hethongphapluat.com. Đã rà soát ngày 18-11-2026 trên Cổng Hải quan (customs.gov.vn — OZV-1421), Hệ thống văn bản Chính phủ (vanban.chinhphu.vn — classid=1,2), Công báo (congbao.chinhphu.vn) và Cổng Bộ Tài chính (mof.gov.vn): đều không đăng tải bản gốc bậc A của công văn hướng dẫn nghiệp vụ này. Nâng từ NGUON_THU_CAP lên NGUON_B.",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-20",
-        "boi": "zcode@ozvietnam"
+        "ngay": "2026-11-18",
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "chan": {
+          "ma": "THIEU_PDF_A",
+          "ngay": "2026-11-18",
+          "viec_tiep": "Công văn hướng dẫn nghiệp vụ của Cục Hải quan (không đăng Công báo); đã quét customs.gov.vn (OZV-1421), vanban.chinhphu.vn (classid=1,2), congbao.chinhphu.vn và mof.gov.vn đều không có bản gốc bậc A. Chờ Cục Hải quan công bố bản gốc trên customs.gov.vn."
+        }
       },
       "ghi_chu": "Công văn Cục Hải quan (GSQL) — tham khảo. Cùng chuỗi có CV 1546/CHQ-GSQL (10-04-2025) và CV 22574/CHQ-GSQL (05-09-2025, bổ sung hướng dẫn) — chưa nạp. Nâng nguồn khi tìm bản gốc customs.gov.vn.",
       "tu_khoa": [
@@ -58390,7 +58417,7 @@
         "hai-quan"
       ],
       "slug": "3366-chq-gsql-2025",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
     },
     {
@@ -101933,12 +101960,24 @@
       "ngay_ban_hanh": "2026-11-04",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "chua-phan-loai"
+        "kiem-tra-chuyen-nganh/bxd"
       ],
       "nguon": [
         {
           "url": "https://moc.gov.vn/pl/pages/ChiTietVanBan.aspx?vID=897",
-          "truy_cap": "2026-11-16"
+          "truy_cap": "2026-11-18"
+        },
+        {
+          "url": "https://moc.gov.vn/Images/FileVanBan/BXD_81-2026-TT-BXD_04112026.pdf",
+          "truy_cap": "2026-11-18"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220199",
+          "truy_cap": "2026-11-18"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/81-bxd.signed.pdf",
+          "truy_cap": "2026-11-18"
         },
         {
           "url": "https://thuvienphapluat.vn/van-ban/Xay-dung-Do-thi/Thong-tu-81-2026-TT-BXD-viec-dan-nhan-nang-luong-doi-voi-vat-lieu-xay-dung-731823.aspx",
@@ -101946,13 +101985,13 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + ngày ban hành 04-11-2026, hiệu lực 01-01-2027 (moc.gov.vn bản gốc + TVPL); danh mục bắt buộc theo đợt 2029/2031",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-16",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A trên Cổng TTĐT Bộ Xây dựng (moc.gov.vn, vID=897, kèm PDF BXD_81-2026-TT-BXD_04112026.pdf, 1.008.688 byte) và Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=220199, kèm PDF có chữ ký số 81-bxd.signed.pdf trên datafiles.chinhphu.vn, 1.110.695 byte): số ký hiệu 81/2026/TT-BXD, ngày ban hành 04-11-2026, người ký Thứ trưởng Nguyễn Văn Sinh, trích yếu nguyên văn \"Quy định việc dán nhãn năng lượng đối với vật liệu xây dựng thuộc phạm vi quản lý của Bộ Xây dựng\". Theo khoản 1 Điều 17, Thông tư có hiệu lực thi hành kể từ ngày 01-01-2027; theo khoản 2 Điều 4 và Phụ lục I, lộ trình bắt buộc dán nhãn năng lượng đối với Nhóm 1 (kính xây dựng, sơn tường dạng nhũ tương, tôn lợp và tấm ốp kim loại) từ ngày 01-01-2029 và Nhóm 2 (tấm xốp cách nhiệt, vật liệu xây không nung, tấm trần vách ngăn) từ ngày 01-01-2031 (trước thời điểm bắt buộc khuyến khích tự nguyện công bố, dán nhãn; Phụ lục I mô tả nhóm vật liệu và tiêu chuẩn thử nghiệm, không gắn mã HS).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-18",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Trinh sát đêm 16/11. Nhãn năng lượng VLXD — đụng hàng VLXD nhập (kiểu kính cách nhiệt, VL cách nhiệt). Nhanh chua-phan-loai — đề nghị mở nút kiem-tra-chuyen-nganh/bxd khi đủ VB.",
+      "ghi_chu": "Nhãn năng lượng đối với vật liệu xây dựng nhập khẩu và sản xuất trong nước thuộc phạm vi quản lý của Bộ Xây dựng (không áp dụng đối với hàng tạm nhập tái xuất, quá cảnh, chuyển khẩu, gia công xuất khẩu, phi thương mại theo khoản 4 Điều 2).",
       "slug": "81-2026-tt-bxd",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}

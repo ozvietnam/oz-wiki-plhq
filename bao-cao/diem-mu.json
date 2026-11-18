@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-18",
-  "tong": 3806,
+  "tong": 3802,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -9192,24 +9192,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Thấp",
-      "tieuDe": "2105/QĐ-BCT: chưa có nguồn chính thống",
-      "muc_tieu": "2105/QĐ-BCT",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "2105/QĐ-BCT: tình trạng \"HET_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "2105/QĐ-BCT",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
       "ma": "CO_QUAN_DA_SAP_NHAP",
       "muc": "Thấp",
       "tieuDe": "2106/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
@@ -16610,7 +16592,7 @@
     {
       "ma": "KHONG_NGUON_A",
       "muc": "Vừa",
-      "tieuDe": "3366/CHQ-GSQL: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
+      "tieuDe": "3366/CHQ-GSQL: chưa có nguồn chính thống",
       "muc_tieu": "3366/CHQ-GSQL",
       "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
       "luong": "truy-vet-nguon",
@@ -30999,30 +30981,12 @@
       "trongSo": 0
     },
     {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "81/2026/TT-BXD: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "81/2026/TT-BXD",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
       "ma": "KHONG_TOAN_VAN",
       "muc": "Thấp",
       "tieuDe": "81/2026/TT-BXD: chưa có toàn văn trong raw/",
       "muc_tieu": "81/2026/TT-BXD",
       "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"81/2026/TT-BXD\" --ghi",
       "luong": "nap-lam-sach",
-      "trongSo": 0
-    },
-    {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "81/2026/TT-BXD: chưa xếp vào cây",
-      "muc_tieu": "81/2026/TT-BXD",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
       "trongSo": 0
     },
     {
@@ -34195,10 +34159,10 @@
     },
     {
       "ma": "BIEU_THUE_HIEN_HANH_DA_HET",
-      "muc": "Vừa",
+      "muc": "Thấp",
       "tieuDe": "Biểu thuế bieu-thue@2026.04.05 còn dẫn 2105/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC",
       "muc_tieu": "2105/QĐ-BCT",
-      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (6 mã HS) — Áp thuế chống bán phá giá và chống trợ cấp đối với Đường (TH). Sổ ghi bị bãi bỏ bởi 1309/QĐ-BCT — hs-code-api sẽ báo người khai dùng văn bản mới; kiểm lại đối chiếu nguồn A.",
+      "viec": "văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (6 mã HS) — Áp thuế chống bán phá giá và chống trợ cấp đối với Đường (TH). Sổ ghi bị bãi bỏ bởi 1309/QĐ-BCT (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.",
       "luong": "hieu-luc",
       "trongSo": 6
     },
