@@ -6,16 +6,22 @@ co_quan: BXD
 ngay_ban_hanh: '2026-11-04'
 tinh_trang: CON_HIEU_LUC
 nhanh:
-  - chua-phan-loai
+  - kiem-tra-chuyen-nganh/bxd
 nguon:
   - url: https://moc.gov.vn/pl/pages/ChiTietVanBan.aspx?vID=897
-    truy_cap: '2026-11-16'
+    truy_cap: '2026-11-18'
+  - url: https://moc.gov.vn/Images/FileVanBan/BXD_81-2026-TT-BXD_04112026.pdf
+    truy_cap: '2026-11-18'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=220199
+    truy_cap: '2026-11-18'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/81-bxd.signed.pdf
+    truy_cap: '2026-11-18'
   - url: https://thuvienphapluat.vn/van-ban/Xay-dung-Do-thi/Thong-tu-81-2026-TT-BXD-viec-dan-nhan-nang-luong-doi-voi-vat-lieu-xay-dung-731823.aspx
     truy_cap: '2026-11-16'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + ngày ban hành 04-11-2026, hiệu lực 01-01-2027 (moc.gov.vn bản gốc + TVPL); danh mục bắt buộc theo đợt 2029/2031'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-16'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh sát đêm 16/11. Nhãn năng lượng VLXD — đụng hàng VLXD nhập (kiểu kính cách nhiệt, VL cách nhiệt). Nhanh chua-phan-loai — đề nghị mở nút kiem-tra-chuyen-nganh/bxd khi đủ VB.'
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu nguồn bậc A trên Cổng TTĐT Bộ Xây dựng (moc.gov.vn, vID=897, kèm PDF BXD_81-2026-TT-BXD_04112026.pdf, 1.008.688 byte) và Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=220199, kèm PDF có chữ ký số 81-bxd.signed.pdf trên datafiles.chinhphu.vn, 1.110.695 byte): số ký hiệu 81/2026/TT-BXD, ngày ban hành 04-11-2026, người ký Thứ trưởng Nguyễn Văn Sinh, trích yếu nguyên văn "Quy định việc dán nhãn năng lượng đối với vật liệu xây dựng thuộc phạm vi quản lý của Bộ Xây dựng". Theo khoản 1 Điều 17, Thông tư có hiệu lực thi hành kể từ ngày 01-01-2027; theo khoản 2 Điều 4 và Phụ lục I, lộ trình bắt buộc dán nhãn năng lượng đối với Nhóm 1 (kính xây dựng, sơn tường dạng nhũ tương, tôn lợp và tấm ốp kim loại) từ ngày 01-01-2029 và Nhóm 2 (tấm xốp cách nhiệt, vật liệu xây không nung, tấm trần vách ngăn) từ ngày 01-01-2031 (trước thời điểm bắt buộc khuyến khích tự nguyện công bố, dán nhãn; Phụ lục I mô tả nhóm vật liệu và tiêu chuẩn thử nghiệm, không gắn mã HS).'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-18'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Nhãn năng lượng đối với vật liệu xây dựng nhập khẩu và sản xuất trong nước thuộc phạm vi quản lý của Bộ Xây dựng (không áp dụng đối với hàng tạm nhập tái xuất, quá cảnh, chuyển khẩu, gia công xuất khẩu, phi thương mại theo khoản 4 Điều 2).'
