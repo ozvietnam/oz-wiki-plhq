@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-18",
-  "tong": 3825,
+  "tong": 3824,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -32536,15 +32536,6 @@
       "viec": "Văn bản danh mục chưa có danh-muc/125-2021-tt-bca.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 1 mã.",
       "luong": "danh-muc-hs",
       "trongSo": 1
-    },
-    {
-      "ma": "DANH_MUC_CHUA_TRICH",
-      "muc": "Vừa",
-      "tieuDe": "Chưa trích bảng mã HS: 13/2018/TT-BTTTT",
-      "muc_tieu": "13/2018/TT-BTTTT",
-      "viec": "Văn bản danh mục chưa có danh-muc/13-2018-tt-btttt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
-      "luong": "danh-muc-hs",
-      "trongSo": 0
     },
     {
       "ma": "DANH_MUC_CHUA_TRICH",
