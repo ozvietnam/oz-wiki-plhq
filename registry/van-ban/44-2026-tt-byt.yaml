@@ -1,19 +1,24 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 44/2026/TT-BYT
 loai: THONG_TU
-ten: 'Sửa đổi, bổ sung một số điều của Thông tư 07/2022/TT-BYT quy định thuốc phải tương đương sinh học và hồ sơ đăng ký lưu hành thuốc'
+ten: 'Sửa đổi, bổ sung một số điều của Thông tư số 07/2022/TT-BYT của Bộ trưởng Bộ Y tế quy định thuốc phải thử tương đương sinh học và các yêu cầu đối với hồ sơ báo cáo số liệu nghiên cứu tương đương sinh học trong đăng ký lưu hành thuốc tại Việt Nam'
 co_quan: BYT
 ngay_ban_hanh: '2026-11-01'
+hieu_luc_tu: '2026-11-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
 nguon:
   - url: https://thuvienphapluat.vn
     truy_cap: '2026-11-05'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=220147
+    truy_cap: '2026-11-18'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/44-byt.signed.pdf
+    truy_cap: '2026-11-18'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + ngày ký 01-11-2026 (bản tin TVPL — cần đối chiếu nguồn BYT)'
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu nguồn bậc A trên Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=220147): số ký hiệu 44/2026/TT-BYT, ngày ban hành 01-11-2026, ngày có hiệu lực 01-11-2026 (đã thêm hieu_luc_tu), loại Thông tư, cơ quan ban hành Bộ Y tế; trích yếu nguyên văn đã thay vào trường ten. Tệp PDF đã ký trên datafiles.chinhphu.vn (HTTP 200, application/pdf). Tình trạng hiệu lực hiện hành chưa đối chiếu.'
   hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-05'
-  boi: zcode@ozvietnam
+  ngay: '2026-11-18'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Trinh sát trạm BYT đêm 5/11. Ảnh hưởng đăng ký lưu hành thuốc NK (tương đương sinh học).'
