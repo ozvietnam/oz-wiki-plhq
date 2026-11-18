@@ -1,4 +1,4 @@
-# Báo cáo điểm mù — 2026-11-17
+# Báo cáo điểm mù — 2026-11-18
 
 Tổng 3781 điểm: **9 cao**, 164 vừa, 3608 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
