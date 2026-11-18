@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-11-18
 
-Tổng 3817 điểm: **9 cao**, 200 vừa, 3608 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 3813 điểm: **9 cao**, 198 vừa, 3606 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -10,11 +10,9 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Văn bản danh mục chưa trích bảng mã HS | Cao | 4 | `danh-muc-hs` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 175 | `danh-muc-hs` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
-| Mã HS có hàng thật chưa đối chiếu KTCN 2026 (hs-code-api /api/demand) | Vừa | 3 | `danh-muc-hs` |
 | Thư viện hs-code-api ghi khác sổ | Vừa | 3 | `hieu-luc` |
 | THIEU_VBHN | Vừa | 1 | `nap-lam-sach` |
 | Văn bản khung thiếu thông tin | Vừa | 1 | `he-thong-hoa` |
-| Bảng dẫn chiếu mã HS sang văn bản chưa có bảng | Vừa | 1 | `danh-muc-hs` |
 | Hiệu lực chưa đối chiếu nguồn A | Thấp | 1415 | `hieu-luc` |
 | Chưa có nguồn chính thống | Thấp | 1411 | `truy-vet-nguon` |
 | Văn bản của cơ quan đã sáp nhập | Thấp | 745 | `do-tham` |
@@ -91,12 +89,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **372/2026/NĐ-CP có hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 - [ ] **63/2026/TT-BKHCN có hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 
-## Mã HS có hàng thật chưa đối chiếu KTCN 2026 (hs-code-api /api/demand) (3)
-
-- [ ] **Hàng thật mã 39261000 chưa đối chiếu danh mục KTCN 2026** — Món hàng thật (OZ, gặp gần nhất 2026-11-09) mang mã 39261000 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Biểu thuế đang dẫn: 08/2023/TT-BCT. Chưa bảng KTCN 2026 nào có dòng nhóm 3926 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.
-- [ ] **Hàng thật mã 36069010 chưa đối chiếu danh mục KTCN 2026** — Món hàng thật (OZ, gặp gần nhất 2026-11-09) mang mã 36069010 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Chưa bảng KTCN 2026 nào có dòng nhóm 3606 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.
-- [ ] **Hàng thật mã 56081990 chưa đối chiếu danh mục KTCN 2026** — Món hàng thật (OZ, gặp gần nhất 2026-11-09) mang mã 56081990 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Biểu thuế đang dẫn: 01/2024/TT-BNNPTNT, 42/2019/TT-BCT, 33/2025/TT-BCT. Chưa bảng KTCN 2026 nào có dòng nhóm 5608 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.
-
 ## Thư viện hs-code-api ghi khác sổ (3)
 
 - [ ] **2333/QĐ-BCT: hs-code-api ghi REPLACED, sổ ghi CON_HIEU_LUC** — Thư viện /api/legal-docs của hs-code-api (2333/QD-BCT-2025) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.
@@ -110,10 +102,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 ## Văn bản khung thiếu thông tin (1)
 
 - [ ] **45/2024/TT-BCT: chưa có tiêu đề, ngày, nguồn** — Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.
-
-## Bảng dẫn chiếu mã HS sang văn bản chưa có bảng (1)
-
-- [ ] **292/2026/NĐ-CP dẫn mã HS sang 33/2024/NĐ-CP — văn bản đó chưa có bảng** — danh-muc/292-2026-nd-cp.csv có dòng không ghi mã mà dẫn chiếu 33/2024/NĐ-CP. Trích danh-muc/33-2024-nd-cp.csv để mã HS của các dòng này tra được.
 
 ## Hiệu lực chưa đối chiếu nguồn A (1415)
 
