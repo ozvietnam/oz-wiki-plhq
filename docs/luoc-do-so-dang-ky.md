@@ -31,6 +31,7 @@ nguon:
 toan_van: raw/download/congbao.chinhphu.vn/28-2026-tt-bct.pdf
 trich_dan_trong_bieu_thue: 249   # số mã HS trong biểu thuế dẫn văn bản này (nếu biết)
 phu_luc_cua: 49/2026/TT-BXD      # tuỳ chọn — phụ lục tách riêng: số hiệu văn bản mẹ đã có danh_muc_hs (KHÔNG tạo CSV riêng)
+danh_muc_thay_boi: 10/2022/TT-BTTTT   # tuỳ chọn — phụ lục danh mục đã bị văn bản khác thay toàn bộ (văn bản thay đã có danh_muc_hs thì không báo DANH_MUC_CHUA_TRICH)
 xac_minh:
   muc: NGUON_A                   # NGUON_A | NGUON_B | NGUON_THU_CAP | CHUA_XAC_MINH
   pham_vi: "số hiệu, tiêu đề, ngày"   # đã đối chiếu những gì

@@ -211,6 +211,35 @@ const kPlBad = kiemTra(napSo(rPlBad), { root: rPlBad, today: '2026-10-04' });
 t('phu_luc_cua: số hiệu mẹ không tồn tại → LỖI kiểm',
   kPlBad.loi.some((e) => /phu_luc_cua/.test(e.msg) && /61\/2026\/TT-BXD/.test(e.msg)),
   JSON.stringify(kPlBad.loi));
+// 6b'. danh_muc_thay_boi — danh mục đã bị văn bản khác thay toàn bộ (OZV-1391, ca 13/2018/TT-BTTTT)
+const rThay = soGia({
+  'cu.yaml': `so_hieu: 62/2018/TT-BXD\nloai: THONG_TU\nten: Quy định Danh mục sản phẩm nhập khẩu theo giấy phép\nco_quan: BXD\nhieu_luc_tu: "2018-12-01"\ntinh_trang: HET_HIEU_LUC_MOT_PHAN\nnhanh: [kiem-tra-chuyen-nganh/bxd]\ndanh_muc_thay_boi: 62/2022/TT-BXD\n${XM}\n`,
+  'moi.yaml': `so_hieu: 62/2022/TT-BXD\nloai: THONG_TU\nten: Sửa đổi Thông tư 62/2018/TT-BXD\nco_quan: BXD\nhieu_luc_tu: "2022-09-15"\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bxd]\ndanh_muc_hs: {tep: danh-muc/moi.csv, nguon: "https://congbao.chinhphu.vn/x", ngay: "2026-10-04"}\n${XM}\n`,
+  'cu2.yaml': `so_hieu: 63/2018/TT-BXD\nloai: THONG_TU\nten: Quy định Danh mục sản phẩm nhập khẩu theo giấy phép\nco_quan: BXD\nhieu_luc_tu: "2018-12-01"\ntinh_trang: HET_HIEU_LUC_MOT_PHAN\nnhanh: [kiem-tra-chuyen-nganh/bxd]\ndanh_muc_thay_boi: 63/2022/TT-BXD\n${XM}\n`,
+  'moi2.yaml': `so_hieu: 63/2022/TT-BXD\nloai: THONG_TU\nten: Sửa đổi Thông tư 63/2018/TT-BXD\nco_quan: BXD\nhieu_luc_tu: "2022-09-15"\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bxd]\n${XM}\n`,
+});
+mkdirSync(join(rThay, 'danh-muc'), { recursive: true });
+writeFileSync(join(rThay, 'danh-muc', 'moi.csv'), HEAD + '87032119,Ô tô,1,Phụ lục I,KIEM_TRA_CHAT_LUONG,CAO,,,1\n');
+const soThay = napSo(rThay);
+const dmuThay = timDiemMu(soThay, { today: '2026-10-04', root: rThay, nhuCau: null });
+t('danh_muc_thay_boi: văn bản thay ĐÃ có bảng → không sinh DANH_MUC_CHUA_TRICH',
+  !dmuThay.some((d) => d.ma === 'DANH_MUC_CHUA_TRICH' && d.muc_tieu === '62/2018/TT-BXD'),
+  JSON.stringify(dmuThay.filter((d) => d.ma === 'DANH_MUC_CHUA_TRICH')));
+t('danh_muc_thay_boi: văn bản thay CHƯA có bảng → vẫn sinh DANH_MUC_CHUA_TRICH',
+  dmuThay.some((d) => d.ma === 'DANH_MUC_CHUA_TRICH' && d.muc_tieu === '63/2018/TT-BXD'),
+  JSON.stringify(dmuThay.filter((d) => d.ma === 'DANH_MUC_CHUA_TRICH')));
+const kThay = kiemTra(soThay, { root: rThay, today: '2026-10-04' });
+t('danh_muc_thay_boi: trường hợp lệ → không LỖI kiểm, cảnh báo khi văn bản thay chưa có bảng',
+  !kThay.loi.some((e) => /danh_muc_thay_boi/.test(e.msg))
+    && kThay.canhBao.some((e) => /danh_muc_thay_boi/.test(e.msg) && /63\/2022\/TT-BXD/.test(e.msg)),
+  JSON.stringify({ loi: kThay.loi, canhBao: kThay.canhBao.filter((e) => /danh_muc_thay_boi/.test(e.msg)) }));
+const rThayBad = soGia({
+  'cu-bad.yaml': `so_hieu: 64/2018/TT-BXD\nloai: THONG_TU\nten: Quy định Danh mục sản phẩm\nco_quan: BXD\ntinh_trang: HET_HIEU_LUC_MOT_PHAN\nnhanh: [kiem-tra-chuyen-nganh/bxd]\ndanh_muc_thay_boi: 64/2022/TT-BXD\n${XM}\n`,
+});
+const kThayBad = kiemTra(napSo(rThayBad), { root: rThayBad, today: '2026-10-04' });
+t('danh_muc_thay_boi: số hiệu văn bản thay không có trong sổ → LỖI kiểm',
+  kThayBad.loi.some((e) => /danh_muc_thay_boi/.test(e.msg) && /64\/2022\/TT-BXD/.test(e.msg)),
+  JSON.stringify(kThayBad.loi));
 
 // 6c. Văn bản chỉ bãi bỏ — tên có "danh mục" nhưng không có bảng riêng để trích (OZV-790)
 const rBaiBo = soGia({

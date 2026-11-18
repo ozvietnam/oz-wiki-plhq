@@ -67,6 +67,12 @@ export function laVanBanDanhMuc(d, so = null) {
     const me = so.theoKhoa.get(khoa(d.phu_luc_cua))?.[0];
     if (me?.danh_muc_hs) return false;
   }
+  // Danh mục đã bị văn bản khác thay toàn bộ (vd Phụ lục I 13/2018/TT-BTTTT ← Điều 1 TT 10/2022/TT-BTTTT):
+  // văn bản thay đã có bảng thì không còn gì để trích ở văn bản cũ. Chưa có bảng → vẫn là điểm mù.
+  if (d.danh_muc_thay_boi && so?.theoKhoa) {
+    const moi = so.theoKhoa.get(khoa(d.danh_muc_thay_boi))?.[0];
+    if (moi?.danh_muc_hs) return false;
+  }
   if (d.danh_muc_hs) return true;
   // Chỉ bãi bỏ (vd 4814/QĐ-BCA) — không trích bảng mã HS của chính nó.
   // Không dùng \b: "ỏ" không phải word-char ASCII nên \b sau "bỏ" luôn thất bại.
