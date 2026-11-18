@@ -38253,24 +38253,28 @@
         {
           "url": "https://luatvietnam.vn/khoa-hoc/quyet-dinh-2284-qd-bkhcn-2018-bang-ma-hs-voi-phuong-tien-do-nhom-2-167392-d1.html",
           "truy_cap": "2026-07-02"
+        },
+        {
+          "url": "https://vntr.moit.gov.vn/storage/doc/file/1632882390%20_%202284_QD-BKHCN.pdf",
+          "truy_cap": "2026-11-18"
         }
       ],
       "trich_dan_trong_bieu_thue": 19,
       "xac_minh": {
         "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành/hiệu lực",
+        "pham_vi": "Số hiệu, ngày, tên đối chiếu được trên bản đánh máy lại do Bộ Công Thương đăng (vntr.moit.gov.vn); chưa có bản gốc của BKHCN, nên giữ NGUON_B.",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-04",
-        "boi": "khoi-tao",
+        "ngay": "2026-11-18",
+        "boi": "tho-bo-ba-01@ozvietnam",
         "chan": {
           "ma": "THIEU_PDF_A",
-          "viec_tiep": "Chờ PDF A trên datafiles/most/mst; chicuctdc chỉ tóm tắt (không bậc A).",
+          "viec_tiep": "Đã có toàn văn trên vntr.moit.gov.vn (bản đánh máy lại của Bộ Công Thương, không phải bản gốc BKHCN); vẫn chờ bản gốc có chữ ký trên datafiles/most/mst và nguồn A xác nhận tình trạng hiệu lực (danh mục nhóm 2 đã được TT 03/2024/TT-BKHCN cập nhật).",
           "ngay": "2026-10-04"
         }
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 19 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + thuvienxuatnhapkhau.com). GHI CHÚ NGHIỆP VỤ (hs-code-api): Index năm 2018 = bảng mã HS phương tiện đo nhóm 2 (XNK). Có QĐ 2284/QĐ-BKHCN năm 2013 về công bố TCVN trang sức — KHÔNG nhầm số hiệu. Danh mục đo lường nhóm 2 đã được TT 03/2024/TT-BKHCN cập nhật từ 15/10/2024. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.",
       "slug": "2284-qd-bkhcn",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -49380,7 +49384,7 @@
     {
       "so_hieu": "293/2026/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Quy định chi tiết thi hành Công ước Apostille tại Việt Nam",
+      "ten": "Hướng dẫn thực thi Công ước La Hay ngày 05 tháng 10 năm 1961 về miễn hợp pháp hóa đối với giấy tờ công của nước ngoài (Công ước Apostille)",
       "co_quan": "CP",
       "ngay_ban_hanh": "2026-07-23",
       "hieu_luc_tu": "2026-09-11",
@@ -49392,18 +49396,26 @@
         {
           "url": "https://www.facebook.com/groups/601759813268176/posts/28446002335083883",
           "truy_cap": "2026-11-01"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=218964",
+          "truy_cap": "2026-11-18"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/293_2026_nd-cp_23072026_1-signed.signed.pdf",
+          "truy_cap": "2026-11-18"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + hiệu lực 11-09-2026 thấy qua bản tin nhóm doanh nghiệp NK TBYT (chưa đối chiếu nguồn chính thống — cần vanban.chinhphu.vn; tên nguyên văn có thể khác \"thi hành Công ước\" — kiểm lại khi nạp toàn văn)",
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A trên Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=218964): số ký hiệu 293/2026/NĐ-CP, ngày ban hành 23-07-2026, ngày có hiệu lực 11-09-2026, loại Nghị định, cơ quan ban hành Chính phủ; trích yếu nguyên văn đã thay vào trường ten (tên cũ lấy từ bản tin không khớp). Tệp PDF đã ký trên datafiles.chinhphu.vn (HTTP 200, application/pdf). Tình trạng hiệu lực hiện hành chưa đối chiếu.",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-01",
-        "boi": "zcode@ozvietnam"
+        "ngay": "2026-11-18",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trinh sát WebSearch trạm BYT đêm 1/11. Tác động XNK: hồ sơ nước ngoài cho TBYT/mỹ phẩm không cần hợp thức hóa lãnh sự nữa — giảm bước thủ tục. Ưu tiên đối chiếu lên NGUON_A.",
       "slug": "293-2026-nd-cp",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -62497,7 +62509,7 @@
     {
       "so_hieu": "365/2026/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Quy định về kinh doanh xuất nhập khẩu gạo",
+      "ten": "Về kinh doanh xuất, nhập khẩu gạo",
       "co_quan": "CP",
       "ngay_ban_hanh": "2026-09-23",
       "hieu_luc_tu": "2026-10-01",
@@ -62509,18 +62521,26 @@
         {
           "url": "https://thuehaiquan.tapchikinhtetaichinh.vn/bay-chinh-sach-moi-doanh-nghiep-xuat-nhap-khau-can-luu-y-tu-thang-10-168191.html",
           "truy_cap": "2026-11-01"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=219623",
+          "truy_cap": "2026-11-18"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/365_2026_nd-cp_23092026-signed.signed.pdf",
+          "truy_cap": "2026-11-18"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "số hiệu, tên, ngày ban hành 23-09-2026, hiệu lực 01-10-2026 theo bản tin KTTT (1 nguồn — cần công báo để lên NGUON_A)",
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A trên Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=219623): số ký hiệu 365/2026/NĐ-CP, ngày ban hành 23-09-2026, ngày có hiệu lực 01-10-2026, loại Nghị định, cơ quan ban hành Chính phủ, trích yếu \"Về kinh doanh xuất, nhập khẩu gạo\" (đã thay vào trường ten). Tệp PDF đã ký trên datafiles.chinhphu.vn (HTTP 200, application/pdf). Lưu ý: trên trang cổng, hai chữ \"CP\" trong ký hiệu là chữ Kirin (U+0421, U+0420) trông giống chữ Latin — lỗi gõ của cổng, cùng số hiệu, không phải văn bản khác. Tình trạng hiệu lực hiện hành chưa đối chiếu.",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-01",
-        "boi": "zcode@ozvietnam"
+        "ngay": "2026-11-18",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trinh sát WebSearch trạm CP đêm 1/11. Điều kiện kinh doanh XNK gạo — nằm trong \"7 chính sách XNK hiệu lực tháng 10/2026\".",
       "slug": "365-2026-nd-cp",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -74016,9 +74036,10 @@
     {
       "so_hieu": "44/2026/TT-BYT",
       "loai": "THONG_TU",
-      "ten": "Sửa đổi, bổ sung một số điều của Thông tư 07/2022/TT-BYT quy định thuốc phải tương đương sinh học và hồ sơ đăng ký lưu hành thuốc",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 07/2022/TT-BYT của Bộ trưởng Bộ Y tế quy định thuốc phải thử tương đương sinh học và các yêu cầu đối với hồ sơ báo cáo số liệu nghiên cứu tương đương sinh học trong đăng ký lưu hành thuốc tại Việt Nam",
       "co_quan": "BYT",
       "ngay_ban_hanh": "2026-11-01",
+      "hieu_luc_tu": "2026-11-01",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/byt"
@@ -74027,18 +74048,26 @@
         {
           "url": "https://thuvienphapluat.vn",
           "truy_cap": "2026-11-05"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220147",
+          "truy_cap": "2026-11-18"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/44-byt.signed.pdf",
+          "truy_cap": "2026-11-18"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + ngày ký 01-11-2026 (bản tin TVPL — cần đối chiếu nguồn BYT)",
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A trên Hệ thống văn bản Chính phủ (vanban.chinhphu.vn, docid=220147): số ký hiệu 44/2026/TT-BYT, ngày ban hành 01-11-2026, ngày có hiệu lực 01-11-2026 (đã thêm hieu_luc_tu), loại Thông tư, cơ quan ban hành Bộ Y tế; trích yếu nguyên văn đã thay vào trường ten. Tệp PDF đã ký trên datafiles.chinhphu.vn (HTTP 200, application/pdf). Tình trạng hiệu lực hiện hành chưa đối chiếu.",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-05",
-        "boi": "zcode@ozvietnam"
+        "ngay": "2026-11-18",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trinh sát trạm BYT đêm 5/11. Ảnh hưởng đăng ký lưu hành thuốc NK (tương đương sinh học).",
       "slug": "44-2026-tt-byt",
-      "bac_nguon_cao_nhat": "B",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
