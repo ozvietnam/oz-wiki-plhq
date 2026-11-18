@@ -4,8 +4,8 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "luoc_do": "docs/luoc-do-danh-muc-hs.md",
  "cach_tra": "Khoá là nhóm mã HS trong bảng (4, 6 hoặc 8 số). Tra mã 8 số: ghép mọi khoá là tiền tố của mã (độ dài 4, 6) và khoá trùng 8 số. Cạnh giữ nguyên dieu_kien — \"trừ loại…\" là trừ diện, không phải diện áp. canh_bao_ma = nhóm mã không có trong biểu thuế đối chiếu — tra ra các khoá này thì dừng và đối chiếu lại văn bản gốc, đừng kết luận diện áp. tien_le_tb_tchq = mật độ thông báo phân loại của Tổng cục (bậc C, tham khảo).",
- "tong_nhom_ma": 6546,
- "tong_canh": 13494,
+ "tong_nhom_ma": 6552,
+ "tong_canh": 13517,
  "bieu_thue_doi_chieu": {
   "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/tax.json",
   "phien_ban": "2026-11-13",
@@ -107467,7 +107467,101 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "84401010": [
+   {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2)",
+    "nhom": "84.40",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   }
+  ],
+  "84411010": [
+   {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2)",
+    "nhom": "84.41",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   }
+  ],
+  "84412000": [
+   {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2); ô 'Mô tả hàng hóa trong lĩnh vực in' của dòng này để trống trong bản Công báo",
+    "nhom": "84.41",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   }
+  ],
+  "84413000": [
+   {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2); ô 'Mô tả hàng hóa trong lĩnh vực in' của dòng này để trống trong bản Công báo",
+    "nhom": "84.41",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   }
+  ],
+  "84425000": [
+   {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2)",
+    "nhom": "84.42",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   }
+  ],
   "84431100": [
+   {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2); ô 'Mô tả hàng hóa trong lĩnh vực in' của dòng này để trống trong bản Công báo",
+    "nhom": "84.43",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   },
    {
     "so_hieu": "22/2018/TT-BTTTT",
     "slug": "22-2018-tt-btttt",
@@ -107485,6 +107579,20 @@
   ],
   "84431200": [
    {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2)",
+    "nhom": "84.43",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   },
+   {
     "so_hieu": "22/2018/TT-BTTTT",
     "slug": "22-2018-tt-btttt",
     "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
@@ -107500,6 +107608,20 @@
    }
   ],
   "84431300": [
+   {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2); ô 'Mô tả hàng hóa trong lĩnh vực in' của dòng này để trống trong bản Công báo",
+    "nhom": "84.43",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   },
    {
     "so_hieu": "22/2018/TT-BTTTT",
     "slug": "22-2018-tt-btttt",
@@ -107517,6 +107639,20 @@
   ],
   "84431400": [
    {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2)",
+    "nhom": "84.43",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   },
+   {
     "so_hieu": "22/2018/TT-BTTTT",
     "slug": "22-2018-tt-btttt",
     "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
@@ -107532,6 +107668,20 @@
    }
   ],
   "84431500": [
+   {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2)",
+    "nhom": "84.43",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   },
    {
     "so_hieu": "22/2018/TT-BTTTT",
     "slug": "22-2018-tt-btttt",
@@ -107549,6 +107699,20 @@
   ],
   "84431600": [
    {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2); ô 'Mô tả hàng hóa trong lĩnh vực in' của dòng này để trống trong bản Công báo",
+    "nhom": "84.43",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   },
+   {
     "so_hieu": "22/2018/TT-BTTTT",
     "slug": "22-2018-tt-btttt",
     "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
@@ -107565,6 +107729,20 @@
   ],
   "84431700": [
    {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2); ô 'Mô tả hàng hóa trong lĩnh vực in' của dòng này để trống trong bản Công báo",
+    "nhom": "84.43",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   },
+   {
     "so_hieu": "22/2018/TT-BTTTT",
     "slug": "22-2018-tt-btttt",
     "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
@@ -107579,7 +107757,37 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "84431900": [
+   {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2)",
+    "nhom": "84.43",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   }
+  ],
   "84433111": [
+   {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2)",
+    "nhom": "84.43",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   },
    {
     "so_hieu": "1725/QĐ-BCT",
     "slug": "1725-qd-bct-2024",
@@ -107641,6 +107849,20 @@
   ],
   "84433121": [
    {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2)",
+    "nhom": "84.43",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   },
+   {
     "so_hieu": "1725/QĐ-BCT",
     "slug": "1725-qd-bct-2024",
     "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
@@ -107700,6 +107922,20 @@
    }
   ],
   "84433131": [
+   {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2)",
+    "nhom": "84.43",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   },
    {
     "so_hieu": "126/2026/TT-BQP",
     "slug": "126-2026-tt-bqp",
@@ -107788,6 +108024,20 @@
    }
   ],
   "84433191": [
+   {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2)",
+    "nhom": "84.43",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   },
    {
     "so_hieu": "126/2026/TT-BQP",
     "slug": "126-2026-tt-bqp",
@@ -107893,6 +108143,20 @@
   ],
   "84433221": [
    {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2)",
+    "nhom": "84.43",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   },
+   {
     "so_hieu": "22/2018/TT-BTTTT",
     "slug": "22-2018-tt-btttt",
     "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
@@ -107924,6 +108188,20 @@
    }
   ],
   "84433231": [
+   {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2)",
+    "nhom": "84.43",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   },
    {
     "so_hieu": "22/2018/TT-BTTTT",
     "slug": "22-2018-tt-btttt",
@@ -108005,6 +108283,20 @@
   ],
   "84433910": [
    {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2)",
+    "nhom": "84.43",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   },
+   {
     "so_hieu": "1725/QĐ-BCT",
     "slug": "1725-qd-bct-2024",
     "ten": "Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương",
@@ -108035,6 +108327,20 @@
   ],
   "84433920": [
    {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2)",
+    "nhom": "84.43",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   },
+   {
     "so_hieu": "22/2018/TT-BTTTT",
     "slug": "22-2018-tt-btttt",
     "ten": "Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
@@ -108050,6 +108356,20 @@
    }
   ],
   "84433930": [
+   {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2)",
+    "nhom": "84.43",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   },
    {
     "so_hieu": "1725/QĐ-BCT",
     "slug": "1725-qd-bct-2024",
@@ -108080,6 +108400,20 @@
    }
   ],
   "84433940": [
+   {
+    "so_hieu": "11/2024/TT-BTTTT",
+    "slug": "11-2024-tt-btttt",
+    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-11-07",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Thủ tục khai báo nhập khẩu theo khoản 6 Điều 1 NĐ 72/2022/NĐ-CP; chỉ hàng hóa mã 8 số được liệt kê, mô tả là thiết bị in (không bao gồm linh kiện, phụ kiện) tại cột 'Mô tả hàng hóa trong lĩnh vực in' (điểm a, b khoản 1a Điều 1 TT 22/2018/TT-BTTTT, bổ sung bởi khoản 2 Điều 2)",
+    "nhom": "84.43",
+    "phu_luc": "Danh mục tại khoản 2 Điều 2"
+   },
    {
     "so_hieu": "22/2018/TT-BTTTT",
     "slug": "22-2018-tt-btttt",
