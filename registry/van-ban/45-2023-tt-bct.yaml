@@ -19,6 +19,13 @@ nguon:
   - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/12/40975/48170-1-202495-9645-2023-tt-bct.pdf
     truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 15
+danh_muc_hs:
+  tep: danh-muc/45-2023-tt-bct.csv
+  nguon: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/12/40975/48170-1-202495-9645-2023-tt-bct.pdf
+  trich_boi: tho-bo-ba-01@ozvietnam
+  ngay: '2026-11-18'
+  da_doi_chieu: false
+  ghi_chu: 'Trích bằng máy từ lớp chữ PDF Công báo (bản lưu raw/download/congbaocdn.chinhphu.vn/45-2023-tt-bct.pdf, Công báo số 95+96 ngày 19-01-2024): Phụ lục 1 trang PDF 6–8 (21 dòng), Phụ lục 2 trang PDF 9 (8 dòng); Phụ lục 3, 4 là mẫu báo cáo, không có mã. Mã in 10 số cắt về 8 số, mã đầy đủ ghi ở dieu_kien; nhiều dòng chung một mã 8 số nhưng khác tiêu chuẩn chất lượng. Phụ lục 1 in sai một mã thành 2823..00.00.30 (hai dấu chấm), đọc là 2823.00.00.30, đã ghi ở dieu_kien. Mã 2517.41.00.30 in hai dòng (độ trắng 92–95% và dưới 92%), giữ cả hai. Cột Ghi chú là ô kéo dài theo dòng: gán cho dòng in cùng hàng (Ilmenit hoàn nguyên, Quặng tinh niken, Đá hoa trắng dạng cục 92–95%, cả nhóm 8 Quặng graphit vì ghi chú in ở dòng tên nhóm, Quặng tinh diatomit). loai_tac_dong=KHAC: điều kiện xuất khẩu theo chủng loại và tiêu chuẩn chất lượng (Điều 1 sửa Điều 4 TT 23/2021/TT-BCT), không phải giấy phép; tiêu chuẩn ghi ở dieu_kien.'
 xac_minh:
   muc: NGUON_A
   pham_vi: PDF Công báo CDN; Điều 3 hiệu lực 15-02-2024 khớp sổ
