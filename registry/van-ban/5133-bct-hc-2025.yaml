@@ -12,9 +12,13 @@ nguon:
     truy_cap: '2026-10-20'
 xac_minh:
   muc: NGUON_B
-  pham_vi: 'số hiệu, ngày 10-07-2025, trích yếu qua thẻ LuatVietnam; bản quét PDF gốc re-host tại unicustomsconsulting.com — CHƯA tìm được bản gốc trên moit.gov.vn'
+  pham_vi: 'Số hiệu 5133/BCT-HC, ngày ban hành 10-07-2025, cơ quan ban hành Bộ Công Thương (Cục Hóa chất), trích yếu đối chiếu qua nguồn bậc B (luatvietnam.vn). Đã rà soát ngày 18-11-2026 trên Cổng TTĐT Bộ Công Thương (moit.gov.vn — mục Văn bản điều hành và tìm kiếm toàn cổng), Hệ thống văn bản Chính phủ (vanban.chinhphu.vn — cả QPPL classid=1 và chỉ đạo điều hành classid=2), Công báo (congbao.chinhphu.vn), Cổng Hải quan (customs.gov.vn): đều không đăng tải bản gốc công văn trao đổi nghiệp vụ liên bộ này; Cục Hóa chất (vinachemia.gov.vn) không phản hồi kết nối; vbpl.vn trả HTTP 403 Forbidden từ máy chạy. Giữ NGUON_B.'
   hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-20'
-  boi: zcode@ozvietnam
+  ngay: '2026-11-18'
+  boi: tho-bo-ba-01@ozvietnam
+  chan:
+    ma: THIEU_PDF_A
+    ngay: '2026-11-18'
+    viec_tiep: 'Công văn hành chính trao đổi nghiệp vụ gửi Bộ Tài chính (không đăng Công báo); đã tìm trên moit.gov.vn (Văn bản điều hành), vanban.chinhphu.vn (classid=1,2), congbao.chinhphu.vn, customs.gov.vn đều không có bản gốc bậc A, vinachemia.gov.vn timeout, vbpl.vn trả 403. Chờ Bộ Công Thương hoặc Cục Hải quan công bố bản gốc trên cổng bậc A.'
 ghi_chu: Công văn hướng dẫn (không phải quy phạm pháp luật) — giá trị tham khảo khi trả lời khách về XNK sản phẩm chứa tiền chất công nghiệp. Chưa có bản gốc Bộ Công Thương; nâng NGUON_A khi tìm được.
 tu_khoa: [tien-chat, hoa-chat, xnk]
