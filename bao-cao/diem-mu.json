@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-18",
-  "tong": 3824,
+  "tong": 3822,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -32531,15 +32531,6 @@
     {
       "ma": "DANH_MUC_CHUA_TRICH",
       "muc": "Vừa",
-      "tieuDe": "Chưa trích bảng mã HS: 125/2021/TT-BCA",
-      "muc_tieu": "125/2021/TT-BCA",
-      "viec": "Văn bản danh mục chưa có danh-muc/125-2021-tt-bca.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 1 mã.",
-      "luong": "danh-muc-hs",
-      "trongSo": 1
-    },
-    {
-      "ma": "DANH_MUC_CHUA_TRICH",
-      "muc": "Vừa",
       "tieuDe": "Chưa trích bảng mã HS: 14/2024/TT-BNNPTNT",
       "muc_tieu": "14/2024/TT-BNNPTNT",
       "viec": "Văn bản danh mục chưa có danh-muc/14-2024-tt-bnnptnt.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
@@ -32581,15 +32572,6 @@
       "viec": "Văn bản danh mục chưa có danh-muc/6266-qd-bca-2023.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 19 mã.",
       "luong": "danh-muc-hs",
       "trongSo": 19
-    },
-    {
-      "ma": "DANH_MUC_CHUA_TRICH",
-      "muc": "Vừa",
-      "tieuDe": "Chưa trích bảng mã HS: 63/2026/TT-BKHCN",
-      "muc_tieu": "63/2026/TT-BKHCN",
-      "viec": "Văn bản danh mục chưa có danh-muc/63-2026-tt-bkhcn.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.",
-      "luong": "danh-muc-hs",
-      "trongSo": 0
     },
     {
       "ma": "DANH_MUC_CHUA_TRICH",

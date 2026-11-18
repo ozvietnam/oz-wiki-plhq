@@ -5,7 +5,7 @@
  "luoc_do": "docs/luoc-do-danh-muc-hs.md",
  "cach_tra": "Khoá là nhóm mã HS trong bảng (4, 6 hoặc 8 số). Tra mã 8 số: ghép mọi khoá là tiền tố của mã (độ dài 4, 6) và khoá trùng 8 số. Cạnh giữ nguyên dieu_kien — \"trừ loại…\" là trừ diện, không phải diện áp. canh_bao_ma = nhóm mã không có trong biểu thuế đối chiếu — tra ra các khoá này thì dừng và đối chiếu lại văn bản gốc, đừng kết luận diện áp. tien_le_tb_tchq = mật độ thông báo phân loại của Tổng cục (bậc C, tham khảo).",
  "tong_nhom_ma": 6552,
- "tong_canh": 13517,
+ "tong_canh": 13569,
  "bieu_thue_doi_chieu": {
   "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/tax.json",
   "phien_ban": "2026-11-13",
@@ -13717,6 +13717,20 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; áp dụng toàn bộ mã 8 số thuộc nhóm 4 số theo Điều 2 khoản 2 điểm a, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "8471": [
@@ -13745,6 +13759,20 @@
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; áp dụng toàn bộ mã 8 số thuộc nhóm 4 số theo Điều 2 khoản 2 điểm a, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
@@ -13915,6 +13943,20 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; áp dụng toàn bộ mã 8 số thuộc nhóm 4 số theo Điều 2 khoản 2 điểm a, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "8518": [
@@ -13943,6 +13985,20 @@
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; áp dụng toàn bộ mã 8 số thuộc nhóm 4 số theo Điều 2 khoản 2 điểm a, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
@@ -14037,6 +14093,20 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; áp dụng toàn bộ mã 8 số thuộc nhóm 4 số theo Điều 2 khoản 2 điểm a, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "8526": [
@@ -14051,6 +14121,20 @@
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; áp dụng toàn bộ mã 8 số thuộc nhóm 4 số theo Điều 2 khoản 2 điểm a, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
@@ -14097,6 +14181,20 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; áp dụng toàn bộ mã 8 số thuộc nhóm 4 số theo Điều 2 khoản 2 điểm a, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "8528": [
@@ -14111,6 +14209,20 @@
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; áp dụng toàn bộ mã 8 số thuộc nhóm 4 số theo Điều 2 khoản 2 điểm a, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
@@ -14157,6 +14269,20 @@
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; áp dụng toàn bộ mã 8 số thuộc nhóm 4 số theo Điều 2 khoản 2 điểm a, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
@@ -14221,6 +14347,20 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; áp dụng toàn bộ mã 8 số thuộc nhóm 4 số theo Điều 2 khoản 2 điểm a, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "8542": [
@@ -14235,6 +14375,20 @@
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; áp dụng toàn bộ mã 8 số thuộc nhóm 4 số theo Điều 2 khoản 2 điểm a, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
@@ -61016,6 +61170,216 @@
    }
   ],
   "36041000": [
+   {
+    "so_hieu": "125/2021/TT-BCA",
+    "slug": "125-2021-tt-bca",
+    "ten": "Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2022-03-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CONG_BO_HOP_QUY",
+    "muc_rui_ro": null,
+    "dieu_kien": "Áp dụng QCVN 04:2021/BCA (công bố hợp quy theo mục 3.1; sản phẩm nhập khẩu đánh giá theo Phương thức 7, nhập khẩu lần đầu kiểm tra và thử nghiệm theo mục 3.2–3.3); nhãn hiệu, ký mã hiệu tại mục I.1 Phụ lục D (trang Công báo 74): OOC-, D-, E-, F-, G-, TDLC-.",
+    "nhom": "1",
+    "phu_luc": "Phụ lục Đ"
+   },
+   {
+    "so_hieu": "125/2021/TT-BCA",
+    "slug": "125-2021-tt-bca",
+    "ten": "Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2022-03-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CONG_BO_HOP_QUY",
+    "muc_rui_ro": null,
+    "dieu_kien": "Áp dụng QCVN 04:2021/BCA (công bố hợp quy theo mục 3.1; sản phẩm nhập khẩu đánh giá theo Phương thức 7, nhập khẩu lần đầu kiểm tra và thử nghiệm theo mục 3.2–3.3); nhãn hiệu, ký mã hiệu tại mục I.2 Phụ lục D (trang Công báo 74): ES4-, ES5-, ES6-, ES7-, ES8-, ES10-",
+    "nhom": "2",
+    "phu_luc": "Phụ lục Đ"
+   },
+   {
+    "so_hieu": "125/2021/TT-BCA",
+    "slug": "125-2021-tt-bca",
+    "ten": "Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2022-03-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CONG_BO_HOP_QUY",
+    "muc_rui_ro": null,
+    "dieu_kien": "Áp dụng QCVN 04:2021/BCA (công bố hợp quy theo mục 3.1; sản phẩm nhập khẩu đánh giá theo Phương thức 7, nhập khẩu lần đầu kiểm tra và thử nghiệm theo mục 3.2–3.3); nhãn hiệu, ký mã hiệu tại mục I.3 Phụ lục D (trang Công báo 74): N5NĐ-, N6NĐ-, N7NĐ-, N8NĐ-, Z6-, GRH-",
+    "nhom": "3",
+    "phu_luc": "Phụ lục Đ"
+   },
+   {
+    "so_hieu": "125/2021/TT-BCA",
+    "slug": "125-2021-tt-bca",
+    "ten": "Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2022-03-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CONG_BO_HOP_QUY",
+    "muc_rui_ro": null,
+    "dieu_kien": "Áp dụng QCVN 04:2021/BCA (công bố hợp quy theo mục 3.1; sản phẩm nhập khẩu đánh giá theo Phương thức 7, nhập khẩu lần đầu kiểm tra và thử nghiệm theo mục 3.2–3.3); nhãn hiệu, ký mã hiệu tại mục II.1 Phụ lục D (trang Công báo 74): N3NĐ-, N4NĐ-, 5CM, ES2.5-; OOYS-, OOA-, OOB-, TDLB-, Z6-, GRL-",
+    "nhom": "4",
+    "phu_luc": "Phụ lục Đ"
+   },
+   {
+    "so_hieu": "125/2021/TT-BCA",
+    "slug": "125-2021-tt-bca",
+    "ten": "Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2022-03-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CONG_BO_HOP_QUY",
+    "muc_rui_ro": null,
+    "dieu_kien": "Áp dụng QCVN 04:2021/BCA (công bố hợp quy theo mục 3.1; sản phẩm nhập khẩu đánh giá theo Phương thức 7, nhập khẩu lần đầu kiểm tra và thử nghiệm theo mục 3.2–3.3); nhãn hiệu, ký mã hiệu tại mục II.2 Phụ lục D (trang Công báo 74): G25-, VN09-, VN16-, VN25-, VN36-, VN64-, VN81-, VN100-, Z6-, DBG-.",
+    "nhom": "5",
+    "phu_luc": "Phụ lục Đ"
+   },
+   {
+    "so_hieu": "125/2021/TT-BCA",
+    "slug": "125-2021-tt-bca",
+    "ten": "Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2022-03-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CONG_BO_HOP_QUY",
+    "muc_rui_ro": null,
+    "dieu_kien": "Áp dụng QCVN 04:2021/BCA (công bố hợp quy theo mục 3.1; sản phẩm nhập khẩu đánh giá theo Phương thức 7, nhập khẩu lần đầu kiểm tra và thử nghiệm theo mục 3.2–3.3); nhãn hiệu, ký mã hiệu tại mục II.3 Phụ lục D (trang Công báo 74): FN-, RL-, FS-, HB-, RQ-, ZΦ-, FH-, HH-, Z1-, Z2-, Z4-",
+    "nhom": "6",
+    "phu_luc": "Phụ lục Đ"
+   },
+   {
+    "so_hieu": "125/2021/TT-BCA",
+    "slug": "125-2021-tt-bca",
+    "ten": "Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2022-03-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CONG_BO_HOP_QUY",
+    "muc_rui_ro": null,
+    "dieu_kien": "Áp dụng QCVN 04:2021/BCA (công bố hợp quy theo mục 3.1; sản phẩm nhập khẩu đánh giá theo Phương thức 7, nhập khẩu lần đầu kiểm tra và thử nghiệm theo mục 3.2–3.3); nhãn hiệu, ký mã hiệu tại STT 1 Phụ lục C (trang Công báo 73): Z21HP",
+    "nhom": "7",
+    "phu_luc": "Phụ lục Đ"
+   },
+   {
+    "so_hieu": "125/2021/TT-BCA",
+    "slug": "125-2021-tt-bca",
+    "ten": "Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2022-03-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CONG_BO_HOP_QUY",
+    "muc_rui_ro": null,
+    "dieu_kien": "Áp dụng QCVN 04:2021/BCA (công bố hợp quy theo mục 3.1; sản phẩm nhập khẩu đánh giá theo Phương thức 7, nhập khẩu lần đầu kiểm tra và thử nghiệm theo mục 3.2–3.3); nhãn hiệu, ký mã hiệu tại STT 2 Phụ lục C (trang Công báo 73): Z21HX",
+    "nhom": "8",
+    "phu_luc": "Phụ lục Đ"
+   },
+   {
+    "so_hieu": "125/2021/TT-BCA",
+    "slug": "125-2021-tt-bca",
+    "ten": "Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2022-03-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CONG_BO_HOP_QUY",
+    "muc_rui_ro": null,
+    "dieu_kien": "Áp dụng QCVN 04:2021/BCA (công bố hợp quy theo mục 3.1; sản phẩm nhập khẩu đánh giá theo Phương thức 7, nhập khẩu lần đầu kiểm tra và thử nghiệm theo mục 3.2–3.3); nhãn hiệu, ký mã hiệu tại STT 3 Phụ lục C (trang Công báo 73): Z21HL",
+    "nhom": "9",
+    "phu_luc": "Phụ lục Đ"
+   },
+   {
+    "so_hieu": "125/2021/TT-BCA",
+    "slug": "125-2021-tt-bca",
+    "ten": "Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2022-03-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CONG_BO_HOP_QUY",
+    "muc_rui_ro": null,
+    "dieu_kien": "Áp dụng QCVN 04:2021/BCA (công bố hợp quy theo mục 3.1; sản phẩm nhập khẩu đánh giá theo Phương thức 7, nhập khẩu lần đầu kiểm tra và thử nghiệm theo mục 3.2–3.3); nhãn hiệu, ký mã hiệu tại STT 4 Phụ lục C (trang Công báo 73): Z21NL",
+    "nhom": "10",
+    "phu_luc": "Phụ lục Đ"
+   },
+   {
+    "so_hieu": "125/2021/TT-BCA",
+    "slug": "125-2021-tt-bca",
+    "ten": "Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2022-03-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CONG_BO_HOP_QUY",
+    "muc_rui_ro": null,
+    "dieu_kien": "Áp dụng QCVN 04:2021/BCA (công bố hợp quy theo mục 3.1; sản phẩm nhập khẩu đánh giá theo Phương thức 7, nhập khẩu lần đầu kiểm tra và thử nghiệm theo mục 3.2–3.3); nhãn hiệu, ký mã hiệu tại STT 5 Phụ lục C (trang Công báo 73): Z21HK",
+    "nhom": "11",
+    "phu_luc": "Phụ lục Đ"
+   },
+   {
+    "so_hieu": "125/2021/TT-BCA",
+    "slug": "125-2021-tt-bca",
+    "ten": "Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2022-03-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CONG_BO_HOP_QUY",
+    "muc_rui_ro": null,
+    "dieu_kien": "Áp dụng QCVN 04:2021/BCA (công bố hợp quy theo mục 3.1; sản phẩm nhập khẩu đánh giá theo Phương thức 7, nhập khẩu lần đầu kiểm tra và thử nghiệm theo mục 3.2–3.3); nhãn hiệu, ký mã hiệu tại STT 6 Phụ lục C (trang Công báo 73): Z21PV",
+    "nhom": "12",
+    "phu_luc": "Phụ lục Đ"
+   },
+   {
+    "so_hieu": "125/2021/TT-BCA",
+    "slug": "125-2021-tt-bca",
+    "ten": "Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2022-03-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CONG_BO_HOP_QUY",
+    "muc_rui_ro": null,
+    "dieu_kien": "Áp dụng QCVN 04:2021/BCA (công bố hợp quy theo mục 3.1; sản phẩm nhập khẩu đánh giá theo Phương thức 7, nhập khẩu lần đầu kiểm tra và thử nghiệm theo mục 3.2–3.3); nhãn hiệu, ký mã hiệu tại STT 7 Phụ lục C (trang Công báo 73): Z21TT",
+    "nhom": "13",
+    "phu_luc": "Phụ lục Đ"
+   },
+   {
+    "so_hieu": "125/2021/TT-BCA",
+    "slug": "125-2021-tt-bca",
+    "ten": "Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2022-03-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CONG_BO_HOP_QUY",
+    "muc_rui_ro": null,
+    "dieu_kien": "Áp dụng QCVN 04:2021/BCA (công bố hợp quy theo mục 3.1; sản phẩm nhập khẩu đánh giá theo Phương thức 7, nhập khẩu lần đầu kiểm tra và thử nghiệm theo mục 3.2–3.3); nhãn hiệu, ký mã hiệu tại STT 8 Phụ lục C (trang Công báo 73): Z21DC",
+    "nhom": "14",
+    "phu_luc": "Phụ lục Đ"
+   },
+   {
+    "so_hieu": "125/2021/TT-BCA",
+    "slug": "125-2021-tt-bca",
+    "ten": "Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2022-03-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CONG_BO_HOP_QUY",
+    "muc_rui_ro": null,
+    "dieu_kien": "Áp dụng QCVN 04:2021/BCA (công bố hợp quy theo mục 3.1; sản phẩm nhập khẩu đánh giá theo Phương thức 7, nhập khẩu lần đầu kiểm tra và thử nghiệm theo mục 3.2–3.3); nhãn hiệu, ký mã hiệu tại STT 9 Phụ lục C (trang Công báo 73): Z21CB",
+    "nhom": "15",
+    "phu_luc": "Phụ lục Đ"
+   },
    {
     "so_hieu": "125/2026/TT-BCA",
     "slug": "125-2026-tt-bca",
@@ -107845,6 +108209,20 @@
     "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
     "nhom": null,
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e); loại trừ máy in, máy photocopy kỹ thuật số đa màu; loại trừ máy in kỹ thuật số, máy photocopy kỹ thuật số loại đơn sắc (đen trắng) có hoặc không có kết hợp tính năng khác, đã qua sử dụng với tính năng in/copy khổ giấy A0 hoặc có tốc độ in/copy từ 35 bản/phút khổ giấy A4 trở lên",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "84433121": [
@@ -107917,6 +108295,20 @@
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
     "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e); loại trừ máy in, máy photocopy kỹ thuật số đa màu; loại trừ máy in kỹ thuật số, máy photocopy kỹ thuật số loại đơn sắc (đen trắng) có hoặc không có kết hợp tính năng khác, đã qua sử dụng với tính năng in/copy khổ giấy A0 hoặc có tốc độ in/copy từ 35 bản/phút khổ giấy A4 trở lên",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
@@ -108019,6 +108411,20 @@
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
     "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e); loại trừ máy in, máy photocopy kỹ thuật số đa màu; loại trừ máy in kỹ thuật số, máy photocopy kỹ thuật số loại đơn sắc (đen trắng) có hoặc không có kết hợp tính năng khác, đã qua sử dụng với tính năng in/copy khổ giấy A0 hoặc có tốc độ in/copy từ 35 bản/phút khổ giấy A4 trở lên",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
@@ -108139,6 +108545,20 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e); loại trừ máy in, máy photocopy kỹ thuật số đa màu; loại trừ máy in kỹ thuật số, máy photocopy kỹ thuật số loại đơn sắc (đen trắng) có hoặc không có kết hợp tính năng khác, đã qua sử dụng với tính năng in/copy khổ giấy A0 hoặc có tốc độ in/copy từ 35 bản/phút khổ giấy A4 trở lên",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "84433221": [
@@ -108183,6 +108603,20 @@
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e); loại trừ máy in, máy photocopy kỹ thuật số đa màu; loại trừ máy in kỹ thuật số, máy photocopy kỹ thuật số loại đơn sắc (đen trắng) có hoặc không có kết hợp tính năng khác, đã qua sử dụng với tính năng in/copy khổ giấy A0 hoặc có tốc độ in/copy từ 35 bản/phút khổ giấy A4 trở lên",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
@@ -108231,6 +108665,20 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e); loại trừ máy in, máy photocopy kỹ thuật số đa màu; loại trừ máy in kỹ thuật số, máy photocopy kỹ thuật số loại đơn sắc (đen trắng) có hoặc không có kết hợp tính năng khác, đã qua sử dụng với tính năng in/copy khổ giấy A0 hoặc có tốc độ in/copy từ 35 bản/phút khổ giấy A4 trở lên",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "84433240": [
@@ -108277,6 +108725,20 @@
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e); loại trừ máy in, máy photocopy kỹ thuật số đa màu; loại trừ máy in kỹ thuật số, máy photocopy kỹ thuật số loại đơn sắc (đen trắng) có hoặc không có kết hợp tính năng khác, đã qua sử dụng với tính năng in/copy khổ giấy A0 hoặc có tốc độ in/copy từ 35 bản/phút khổ giấy A4 trở lên",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
@@ -108441,6 +108903,20 @@
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này); không cấm: máy in/photocopy kỹ thuật số đơn sắc (đen trắng) khổ A0 hoặc tốc độ từ 35 bản/phút khổ A4 trở lên; hộp mực laser đã qua sử dụng (theo Điều 2 khoản 2 điểm c)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e); loại trừ hộp mực in laser; loại trừ máy in, máy photocopy kỹ thuật số đa màu; loại trừ máy in kỹ thuật số, máy photocopy kỹ thuật số loại đơn sắc (đen trắng) có hoặc không có kết hợp tính năng khác, đã qua sử dụng với tính năng in/copy khổ giấy A0 hoặc có tốc độ in/copy từ 35 bản/phút khổ giấy A4 trở lên",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
@@ -118351,6 +118827,20 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "85444213": [
@@ -118365,6 +118855,20 @@
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
@@ -118383,6 +118887,20 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "85444221": [
@@ -118399,6 +118917,20 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "85444223": [
@@ -118413,6 +118945,20 @@
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
@@ -118553,6 +119099,20 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "85444913": [
@@ -118567,6 +119127,20 @@
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
@@ -118585,6 +119159,20 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "85444921": [
@@ -118599,6 +119187,20 @@
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
@@ -118631,6 +119233,20 @@
     "dieu_kien": null,
     "nhom": "5.11",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "85444923": [
@@ -118661,6 +119277,20 @@
     "dieu_kien": null,
     "nhom": "5.11",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "85444924": [
@@ -118675,6 +119305,20 @@
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
@@ -118707,6 +119351,20 @@
     "dieu_kien": null,
     "nhom": "5.11",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "85444931": [
@@ -118721,6 +119379,20 @@
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
@@ -118739,6 +119411,20 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "85444939": [
@@ -118753,6 +119439,20 @@
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
@@ -118953,6 +119653,20 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
    }
   ],
   "85447090": [
@@ -118967,6 +119681,20 @@
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
+    "nhom": null,
+    "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "63/2026/TT-BKHCN",
+    "slug": "63-2026-tt-bkhcn",
+    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)",
+    "tinh_trang": "CHUA_CO_HIEU_LUC",
+    "hieu_luc_tu": "2027-01-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_NHAP_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ cấm sản phẩm công nghệ số ĐÃ QUA SỬ DỤNG, kể cả sản phẩm tân trang và bộ phận, phụ kiện, cụm linh kiện, linh kiện điện tử đã qua sử dụng (hàng mới không thuộc danh mục này; chỉ áp dụng mã 8 số theo Điều 2 khoản 2 điểm c, d, đ; không thuộc danh mục đối với dây chuyền, máy móc, thiết bị, công cụ phục vụ dự án vi mạch bán dẫn hoặc đào tạo, R&D công nghệ số theo điểm e)",
     "nhom": null,
     "phu_luc": "Phụ lục"
    }
