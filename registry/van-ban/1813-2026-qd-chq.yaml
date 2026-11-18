@@ -1,9 +1,12 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 1813/2026/QĐ-CHQ
+so_hieu_khac:
+  - 1813/QĐ-CHQ
 loai: QUYET_DINH
-ten: 'Quy định về định dạng thông điệp dữ liệu tờ khai hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định cung cấp dịch vụ chuyển phát nhanh quốc tế'
+ten: 'Về việc ban hành Quy định về định dạng thông điệp dữ liệu tờ khai hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định, dịch vụ chuyển phát nhanh quốc tế'
 co_quan: TCHQ
 ngay_ban_hanh: '2026-11-12'
+hieu_luc_tu: '2026-11-16'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - hai-quan/so-tay-nghiep-vu
@@ -16,10 +19,11 @@ nguon:
     truy_cap: '2026-11-18'
   - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/11/12/823VB_1813.pdf.PDF
     truy_cap: '2026-11-18'
+toan_van: raw/download/customs.gov.vn/1813-2026-qd-chq.html
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Đã đối chiếu nguồn bậc A trên Cổng TTĐT Hải quan (customs.gov.vn, văn bản MA=106803, chuyên trang TONG_CUC): số hiệu ghi trên cổng 1813/QĐ-CHQ, ngày ban hành 12/11/2026, trích yếu "Quy định về định dạng thông điệp dữ liệu tờ khai hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định, dịch vụ chuyển phát nhanh quốc tế"; tệp gốc PDF trên files.customs.gov.vn (HTTP 200, application/pdf). Ngày áp dụng 16-11-2026 lấy từ nguồn thứ cấp (luatvietnam + Tạp chí KTTC), chưa đọc trên bản PDF.'
-  hieu_luc_da_doi_chieu: false
+  pham_vi: 'Đã đối chiếu nguồn bậc A trên Cổng TTĐT Hải quan (customs.gov.vn, văn bản MA=106803, chuyên trang TONG_CUC) và toàn văn PDF đính kèm trên files.customs.gov.vn (823VB_1813.pdf.PDF, 23.758.299 byte, 197 trang, gồm Quyết định 3 điều, Quy định 4 điều và Phụ lục I, II): số ký hiệu 1813/QĐ-CHQ (sổ ghi 1813/2026/QĐ-CHQ, đã thêm 1813/QĐ-CHQ vào so_hieu_khac), ngày ban hành 12-11-2026, người ký KT. Cục trưởng Phó Cục trưởng Lưu Mạnh Tưởng, trích yếu nguyên văn "Về việc ban hành Quy định về định dạng thông điệp dữ liệu tờ khai hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định, dịch vụ chuyển phát nhanh quốc tế". Theo Điều 2 Quyết định (trang 2): Quyết định có hiệu lực thi hành kể từ ngày 16-11-2026 và thay thế Quyết định số 813/QĐ-CHQ ngày 30-06-2025 của Cục trưởng Cục Hải quan về việc ban hành Quy định tạm thời về định dạng thông điệp dữ liệu tờ khai hàng hóa xuất khẩu, nhập khẩu trị giá thấp gửi qua dịch vụ chuyển phát nhanh quốc tế (Quyết định 813/QĐ-CHQ hiện chưa nạp trong sổ nên ghi nhận tại phạm vi đối chiếu để tránh sinh điểm mù THIEU_VAN_BAN). Đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
   ngay: '2026-11-18'
-  boi: paperclip-agent@ozvietnam
-ghi_chu: 'Trinh sát đêm 16/11 — GẤP: áp dụng từ HÔM NAY 16/11 với hàng bưu chính/chuyển phát quốc tế (khớp TT 142/2026/TT-BTC HL 16/11). Cần truyền đạt khách gửi hàng qua đường này.'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Quy định định dạng thông điệp dữ liệu EDI (Phụ lục I, II) đối với tờ khai hàng hóa xuất khẩu, nhập khẩu trị giá thấp gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định, dịch vụ chuyển phát nhanh quốc tế; tờ khai tài liệu, chứng từ không có giá trị thương mại; tờ khai bổ sung sau thông quan và thông tin hàng hóa vào, ra kho, địa điểm (căn cứ Thông tư 142/2026/TT-BTC). Có hiệu lực từ ngày 16-11-2026, thay thế Quyết định 813/QĐ-CHQ ngày 30-06-2025.'
