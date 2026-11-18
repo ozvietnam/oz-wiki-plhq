@@ -5,18 +5,21 @@ ten: Rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá
 co_quan: BCT
 ngay_ban_hanh: '2025-07-08'
 hieu_luc_tu: '2025-07-08'
-tinh_trang: CON_HIEU_LUC
+het_hieu_luc_tu: '2026-04-16'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - phong-ve-thuong-mai/chong-ban-pha-gia
 nguon:
   - url: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/Quy%E1%BA%BFt%20%C4%91%E1%BB%8Bnh%20th%C3%A9p%20ch%E1%BB%AF%20H_0001.pdf
     truy_cap: '2026-10-04'
+  - url: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20khong%20gia%20han%20ER01_AD12%20-%20signed.pdf
+    truy_cap: '2026-11-14'
 trich_dan_trong_bieu_thue: 5
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'PDF pvtm.gov.vn (OCR): Điều 1 rà soát cuối kỳ CBPG thép hình chữ H Malaysia (ER01.AD12); Điều 3 hiệu lực kể từ ngày ban hành (08-07-2025); tin pvtm QĐ 915/QĐ-BCT 16-04-2026 không gia hạn biện pháp — QĐ khởi rà soát vẫn là căn cứ tố tụng, chưa thấy điều khoản A bãi 1978 (kiểm đến 04-10-2026)'
+  pham_vi: 'PDF pvtm.gov.vn (OCR): Điều 1 rà soát cuối kỳ CBPG thép hình chữ H Malaysia (ER01.AD12); Điều 3 hiệu lực kể từ ngày ban hành (08-07-2025). Tình trạng hiện tại: QĐ 915/QĐ-BCT ngày 16-04-2026 (PDF ký số trên pvtm.gov.vn / trav.gov.vn, đã có dòng sổ 915-qd-bct-2025.yaml) Điều 1–2 kết thúc rà soát cuối kỳ khởi xướng tại QĐ 1978 và không gia hạn biện pháp → thủ tục rà soát do QĐ 1978 mở đã kết thúc từ 16-04-2026; sổ ghi quan_he.thay_the 1978 tại QĐ 915 (kiểm đến 18-11-2026)'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (5 mã HS). Mã vụ việc ER01.AD12. PDF Cục PVTM là ảnh — OCR. Kết quả: QĐ 915/QĐ-BCT không gia hạn (PDF pvtm) — chưa mở dòng sổ riêng.'
+  ngay: '2026-11-18'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (5 mã HS). Mã vụ việc ER01.AD12. PDF Cục PVTM là ảnh — OCR. Kết quả: QĐ 915/QĐ-BCT không gia hạn (PDF pvtm) — chưa mở dòng sổ riêng. Đối chiếu 18-11-2026 (OZV-1418): rà soát đã kết thúc bằng QĐ 915/QĐ-BCT ngày 16-04-2026 (không gia hạn biện pháp CBPG) → HET_HIEU_LUC từ 16-04-2026, khớp hs-code-api (EXPIRED). Văn bản thay: 915/QĐ-BCT.'
 toan_van: raw/download/pvtm.gov.vn/1978-qd-bct.pdf

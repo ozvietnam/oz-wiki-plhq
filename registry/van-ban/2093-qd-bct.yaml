@@ -5,18 +5,21 @@ ten: Điều tra áp dụng biện pháp chống bán phá giá đối với m�
 co_quan: BCT
 ngay_ban_hanh: '2025-07-18'
 hieu_luc_tu: '2025-07-18'
-tinh_trang: CON_HIEU_LUC
+het_hieu_luc_tu: '2026-06-14'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - phong-ve-thuong-mai/chong-ban-pha-gia
 nguon:
   - url: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%202093%20QD%20BCT%2018_7_2025%20khoi%20xuong%20dieu%20tra%20kinh%20noi.pdf
     truy_cap: '2026-10-04'
+  - url: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%201400%20QD%20BCT%2012_06_2026.pdf
+    truy_cap: '2026-11-12'
 trich_dan_trong_bieu_thue: 2
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'PDF pvtm.gov.vn (OCR): Điều 1 điều tra CBPG kính nổi (AD22); Điều 3 hiệu lực kể từ ngày ban hành (18-07-2025); tin pvtm có QĐ thuế tạm thời/chính thức sau — QĐ khởi xướng vẫn là căn cứ khởi tố vụ việc, chưa thấy điều khoản A bãi 2093 (kiểm đến 04-10-2026)'
+  pham_vi: 'PDF pvtm.gov.vn (OCR): Điều 1 điều tra CBPG kính nổi (AD22); Điều 3 hiệu lực kể từ ngày ban hành (18-07-2025). Tình trạng hiện tại: QĐ 1400/QĐ-BCT ngày 12-06-2026 (PDF ký số trên pvtm.gov.vn / trav.gov.vn, đã có dòng sổ 1400-qd-bct-2025.yaml) là kết luận cuối cùng vụ việc AD22, áp thuế CBPG chính thức từ 14-06-2026 và thay thuế tạm thời QĐ 228/QĐ-BCT → giai đoạn điều tra do QĐ 2093 khởi xướng đã kết thúc từ 14-06-2026 (kiểm đến 18-11-2026)'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 2 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + moit.gov.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc AD22 (HS 7005.29.20; 7005.29.90). QĐ khởi xướng điều tra; thuế tạm thời QĐ 228/QĐ-BCT (hiệu lực 14/02/2026); thuế CBPG chính thức QĐ 1400/QĐ-BCT ngày 12/06/2026, hiệu lực 14/06/2026, 5 năm (Indonesia 32,78%–43,78%, Malaysia 41,07%–63,39%). Số hiệu hay viết 2093/QĐ-BCT-2025. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL. Nhập từ hs-code-api data/legal-docs.json (2 mã HS). Mã vụ việc AD22. PDF Cục PVTM là ảnh — OCR.'
+  ngay: '2026-11-18'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 2 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + moit.gov.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc AD22 (HS 7005.29.20; 7005.29.90). QĐ khởi xướng điều tra; thuế tạm thời QĐ 228/QĐ-BCT (hiệu lực 14/02/2026); thuế CBPG chính thức QĐ 1400/QĐ-BCT ngày 12/06/2026, hiệu lực 14/06/2026, 5 năm (Indonesia 32,78%–43,78%, Malaysia 41,07%–63,39%). Số hiệu hay viết 2093/QĐ-BCT-2025. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL. Nhập từ hs-code-api data/legal-docs.json (2 mã HS). Mã vụ việc AD22. PDF Cục PVTM là ảnh — OCR. Đối chiếu 18-11-2026 (OZV-1418): vụ việc AD22 đã kết luận bằng QĐ 1400/QĐ-BCT (thuế CBPG chính thức từ 14-06-2026) → HET_HIEU_LUC từ 14-06-2026, khớp hs-code-api (REPLACED). Văn bản đang áp dụng cho 2 mã HS: 1400/QĐ-BCT. Dòng 1400 chưa ghi quan_he.thay_the 2093 — cần bổ sung ở PR riêng.'
 toan_van: raw/download/pvtm.gov.vn/2093-qd-bct.pdf
