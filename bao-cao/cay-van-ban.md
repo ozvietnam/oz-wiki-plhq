@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-19
 
-2833 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2834 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -2811,8 +2811,9 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Kiểm dịch động vật, thực vật, thuỷ sản, y tế `kiem-tra-chuyen-nganh/kiem-dich`
 
-33 văn bản, 30 chưa hết hiệu lực.
+34 văn bản, 31 chưa hết hiệu lực.
 
+- 🟢 [115/2026/VBHN-TT-BNNMT](../registry/van-ban/115-2026-vbhn-tt-bnnmt.yaml) — Văn bản hợp nhất Quy chuẩn kỹ thuật Quốc gia về Kiểm dịch và Bảo vệ thực vật
 - 🟢 [110/2026/VBHN-TT-BNNMT](../registry/van-ban/110-2026-vbhn-tt-bnnmt.yaml) — Ban hành quy định về quy trình phân tích nguy cơ dịch hại đối với vật thể thuộc diện kiểm dịch thực vật phải phân tích nguy cơ trước khi nhập khẩu vào Việt Nam
 - 🟢 [111/2026/VBHN-TT-BNNMT](../registry/van-ban/111-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư ban hành Quy chuẩn kỹ thuật quốc gia về yêu cầu đối với vật thể thuộc diện kiểm dịch thực vật nhập khẩu
 - 🟢 [108/2026/VBHN-TT-BNNMT](../registry/van-ban/108-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư quy định về kiểm dịch thực vật nội địa

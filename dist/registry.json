@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-19",
   "luoc_do_phien_ban": "1.4.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2833,
+  "tong": 2834,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -10225,6 +10225,34 @@
       "toan_van": "raw/download/datafiles.chinhphu.vn/115-2022-nd-cp.pdf",
       "slug": "115-2022-nd-cp",
       "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "115/2026/VBHN-TT-BNNMT",
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Văn bản hợp nhất Quy chuẩn kỹ thuật Quốc gia về Kiểm dịch và Bảo vệ thực vật",
+      "co_quan": "BNNMT",
+      "ngay_ban_hanh": "2026-11-17",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn",
+          "truy_cap": "2026-11-18"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "số hiệu + tên + ngày ban hành 17-11-2026 (nhắc trên TVPL/luatvietnam; bản tin tổng hợp — cần nguồn chính thống docid chinhphu khi có)",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-18",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám đêm 18/11. VBHN QCVN kiểm dịch + bảo vệ thực vật ban hành HÔM QUA — nối tiếp họ VBHN KDTV 108-111 đã nạp; ưu tiên tìm bản gốc để lên A.",
+      "slug": "115-2026-vbhn-tt-bnnmt",
+      "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
     },
     {
