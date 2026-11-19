@@ -3,7 +3,7 @@ id: mua-ban-giao-thang-nuoc-thu-ba
 title: "Mua bán giao thẳng nước thứ ba (VN mua – VN bán – giao thẳng công trình nước ngoài) — cấu trúc hợp đồng, vận đơn, thuế GTGT, thanh toán"
 type: summary
 created: 2026-10-22
-updated: 2026-10-22
+updated: 2026-11-19
 key_sources: []
 covers:
   - 36-2005-qh11
@@ -21,7 +21,7 @@ tags: [tong-hop, giao-thang-nuoc-thu-ba, xuat-nhap-khau, thue-gtgt, thanh-toan-q
 
 ## Câu hỏi nghiệp vụ
 
-*"Công ty VN mua hàng của nước A, bán cho khách ở nước B, hàng giao thẳng từ A sang B không về Việt Nam — hợp đồng/đơn/Thuế GTGT/thanh toán làm thế nào cho đúng?"* — ca thật: Zetacons mua UAE giao thẳng công trình Qatar 22/10/2026; sẵn áp dụng cho các dự án PTSC/PVN (Qatar/GCC).
+*"Công ty VN mua hàng của nước A, bán cho khách ở nước B, hàng giao thẳng từ A sang B không về Việt Nam — hợp đồng/đơn/Thuế GTGT/thanh toán làm thế nào cho đúng?"* — ca thật (ẩn danh theo CONTRIBUTING mục 4): công ty VN mua hàng từ nước A (UAE), giao thẳng cho công trình ở nước B (Qatar) tháng 10/2026; cấu trúc này áp dụng được cho các dự án tương tự ở Qatar/GCC.
 
 ## 1. Quyền làm dịch vụ này (ai được mua bán hàng quốc tế)
 
