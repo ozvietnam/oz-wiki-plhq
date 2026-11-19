@@ -2813,7 +2813,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 34 văn bản, 31 chưa hết hiệu lực.
 
-- 🟢 [115/2026/VBHN-TT-BNNMT](../registry/van-ban/115-2026-vbhn-tt-bnnmt.yaml) — Văn bản hợp nhất Quy chuẩn kỹ thuật Quốc gia về Kiểm dịch và Bảo vệ thực vật
+- 🟢 [115/2026/VBHN-TT-BNNMT](../registry/van-ban/115-2026-vbhn-tt-bnnmt.yaml) — Ban hành Quy chuẩn kỹ thuật Quốc gia về Kiểm dịch và Bảo vệ thực vật
 - 🟢 [110/2026/VBHN-TT-BNNMT](../registry/van-ban/110-2026-vbhn-tt-bnnmt.yaml) — Ban hành quy định về quy trình phân tích nguy cơ dịch hại đối với vật thể thuộc diện kiểm dịch thực vật phải phân tích nguy cơ trước khi nhập khẩu vào Việt Nam
 - 🟢 [111/2026/VBHN-TT-BNNMT](../registry/van-ban/111-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư ban hành Quy chuẩn kỹ thuật quốc gia về yêu cầu đối với vật thể thuộc diện kiểm dịch thực vật nhập khẩu
 - 🟢 [108/2026/VBHN-TT-BNNMT](../registry/van-ban/108-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư quy định về kiểm dịch thực vật nội địa
