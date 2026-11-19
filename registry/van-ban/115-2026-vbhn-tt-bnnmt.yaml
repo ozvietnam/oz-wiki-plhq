@@ -1,19 +1,22 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 115/2026/VBHN-TT-BNNMT
 loai: VAN_BAN_HOP_NHAT
-ten: 'Văn bản hợp nhất Quy chuẩn kỹ thuật Quốc gia về Kiểm dịch và Bảo vệ thực vật'
+ten: Ban hành Quy chuẩn kỹ thuật Quốc gia về Kiểm dịch và Bảo vệ thực vật
 co_quan: BNNMT
 ngay_ban_hanh: '2026-11-17'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
 nguon:
-  - url: https://thuvienphapluat.vn
-    truy_cap: '2026-11-18'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=220305
+    truy_cap: '2026-11-19'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/115-vbhn-bnnmt.signed.pdf
+    truy_cap: '2026-11-19'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + ngày ban hành 17-11-2026 (nhắc trên TVPL/luatvietnam; bản tin tổng hợp — cần nguồn chính thống docid chinhphu khi có)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-18'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh thám đêm 18/11. VBHN QCVN kiểm dịch + bảo vệ thực vật ban hành HÔM QUA — nối tiếp họ VBHN KDTV 108-111 đã nạp; ưu tiên tìm bản gốc để lên A.'
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=220305) và toàn văn PDF ký số (115-vbhn-bnnmt.signed.pdf, 66 trang, 3 điều và 6 quy chuẩn còn hiệu lực QCVN 01-112:2012/BNNPTNT đến QCVN 01-117:2012/BNNPTNT trong 15 quy chuẩn gốc, Thứ trưởng Đặng Ngọc Điệp ký): xác thực ngày 17-11-2026, đang còn hiệu lực; hợp nhất Thông tư 63/2012/TT-BNNPTNT ngày 14-12-2012 ban hành Quy chuẩn kỹ thuật Quốc gia về Kiểm dịch và Bảo vệ thực vật (hiệu lực 16-06-2013), Thông tư 15/2023/TT-BNNPTNT ngày 15-12-2023 (hiệu lực 05-02-2024, bãi bỏ các khoản 1–7, 14, 15 Điều 1 tương ứng QCVN 01-105 đến 01-111 và 01-118, 01-119:2012/BNNPTNT theo khoản 5 Điều 2) và Thông tư 12/2025/TT-BNNMT ngày 19-06-2025 quy định phân cấp, phân định thẩm quyền quản lý nhà nước trong lĩnh vực trồng trọt và bảo vệ thực vật (hiệu lực 01-07-2025)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-19'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Hợp nhất Thông tư 63/2012/TT-BNNPTNT (ban hành QCVN về Kiểm dịch và Bảo vệ thực vật: còn hiệu lực 6 quy chuẩn QCVN 01-112 đến 01-117:2012/BNNPTNT), Thông tư 15/2023/TT-BNNPTNT và Thông tư 12/2025/TT-BNNMT.'
+toan_van: raw/download/vanban.chinhphu.vn/115-2026-vbhn-tt-bnnmt.html
