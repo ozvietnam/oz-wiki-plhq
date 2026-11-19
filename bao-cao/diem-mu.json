@@ -1,6 +1,6 @@
 {
-  "ngay": "2026-11-18",
-  "tong": 3787,
+  "ngay": "2026-11-19",
+  "tong": 3812,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -32278,15 +32278,6 @@
     },
     {
       "ma": "DANH_MUC_CHUA_TRICH",
-      "muc": "Cao",
-      "tieuDe": "Chưa trích bảng mã HS: 1182/QĐ-BCT",
-      "muc_tieu": "1182/QĐ-BCT",
-      "viec": "Văn bản danh mục chưa có danh-muc/1182-qd-bct-2021.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test. Biểu thuế đang dẫn 496 mã.",
-      "luong": "danh-muc-hs",
-      "trongSo": 496
-    },
-    {
-      "ma": "DANH_MUC_CHUA_TRICH",
       "muc": "Vừa",
       "tieuDe": "Chưa trích bảng mã HS: 6266/QĐ-BCA",
       "muc_tieu": "6266/QĐ-BCA",
@@ -32741,6 +32732,240 @@
       "tieuDe": "11/2018/TT-BTTTT: mã 84433249 không có trong biểu thuế",
       "muc_tieu": "11/2018/TT-BTTTT",
       "viec": "danh-muc/11-2018-tt-btttt.csv dòng 8 (\"- - - - Loại khác\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 36030010 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 7 (\"Các loại kíp nổ điện dùng trong công nghiệp\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 36030010 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 8 (\"Kíp nổ đốt số 8 dùng trong công nghiệp\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 36030020 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 9 (\"Dây cháy chậm công nghiệp\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 36030090 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 10 (\"Dây nổ chịu nước dùng trong công nghiệp\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 36030090 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 11 (\"Mồi nổ dùng cho thuốc nổ công nghiệp\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 84798939 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 37 (\"Trạm nạp LPG cho chai, xe bồn, xe ô tô\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 84798940 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 38 (\"Trạm nạp LPG cho chai, xe bồn, xe ô tô\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 84798939 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 39 (\"Trạm cấp LPG\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 84798940 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 40 (\"Trạm cấp LPG\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 85013140 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 47 (\"Động cơ điện phòng nổ\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 85013222 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 48 (\"Động cơ điện phòng nổ\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 85013300 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 50 (\"Động cơ điện phòng nổ\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 85015300 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 58 (\"Động cơ điện phòng nổ\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 85043416 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 82 (\"Máy biến áp phòng nổ\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 85171200 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 88 (\"Thiết bị thông tin phòng nổ (Điện thoại, Máy đàm thoại, Còi \"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 85318010 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 95 (\"Thiết bị thông tin phòng nổ (Điện thoại, Máy đàm thoại, Còi \"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 85364190 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 110 (\"Thiết bị phân phối, đóng cắt phòng nổ (Khởi động từ, Khởi độ\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 85444298 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 131 (\"Cáp điện phòng nổ\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 94051091 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 142 (\"Đèn chiếu sáng phòng nổ\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 94051092 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 143 (\"Đèn chiếu sáng phòng nổ\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 94051099 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 144 (\"Đèn chiếu sáng phòng nổ\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 94054020 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 145 (\"Đèn chiếu sáng phòng nổ\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 94054040 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 146 (\"Đèn chiếu sáng phòng nổ\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 94054060 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 147 (\"Đèn chiếu sáng phòng nổ\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 94054099 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 148 (\"Đèn chiếu sáng phòng nổ\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
+      "luong": "danh-muc-hs",
+      "trongSo": 0
+    },
+    {
+      "ma": "HS_KHONG_TON_TAI",
+      "muc": "Vừa",
+      "tieuDe": "1182/QĐ-BCT: mã 94056090 không có trong biểu thuế",
+      "muc_tieu": "1182/QĐ-BCT",
+      "viec": "danh-muc/1182-qd-bct-2021.csv dòng 149 (\"Đèn chiếu sáng phòng nổ\"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.",
       "luong": "danh-muc-hs",
       "trongSo": 0
     },
