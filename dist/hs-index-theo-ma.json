@@ -1,16 +1,16 @@
 {
- "phien_ban": "2026-11-18",
+ "phien_ban": "2026-11-19",
  "luoc_do_phien_ban": "1.4.0",
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "luoc_do": "docs/luoc-do-danh-muc-hs.md",
  "cach_tra": "Khoá là nhóm mã HS trong bảng (4, 6 hoặc 8 số). Tra mã 8 số: ghép mọi khoá là tiền tố của mã (độ dài 4, 6) và khoá trùng 8 số. Cạnh giữ nguyên dieu_kien — \"trừ loại…\" là trừ diện, không phải diện áp. canh_bao_ma = nhóm mã không có trong biểu thuế đối chiếu — tra ra các khoá này thì dừng và đối chiếu lại văn bản gốc, đừng kết luận diện áp. tien_le_tb_tchq = mật độ thông báo phân loại của Tổng cục (bậc C, tham khảo).",
- "tong_nhom_ma": 6589,
- "tong_canh": 13646,
+ "tong_nhom_ma": 6644,
+ "tong_canh": 13787,
  "bieu_thue_doi_chieu": {
   "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/tax.json",
   "phien_ban": "2026-11-13",
   "tong_ma": 11871,
-  "nhom_ngoai_bieu_thue": 118,
+  "nhom_ngoai_bieu_thue": 136,
   "ghi_chu": "Nhóm mã không có trong bản chụp biểu thuế — thường là mã AHTN cũ (văn bản danh mục ban hành theo AHTN 2017/2022, biểu thuế đã bỏ) hoặc trích lệch. KHÔNG dùng các khoá này làm căn cứ diện áp cho người khai; đối chiếu lại văn bản gốc (ví dụ phân tích danh-muc/kiem-tra-ma-hs-2026.md)."
  },
  "canh_bao_ma": [
@@ -44,6 +44,9 @@
   "33045099",
   "33049099",
   "35101090",
+  "36030010",
+  "36030020",
+  "36030090",
   "39042099",
   "39072090",
   "40199999",
@@ -120,17 +123,32 @@
   "84433249",
   "84501200",
   "84789010",
+  "84798939",
+  "84798940",
   "85013140",
   "85013212",
+  "85013222",
   "85013292",
   "85013300",
   "85015300",
   "85043416",
   "85076010",
+  "85171200",
+  "85318010",
   "85352900",
+  "85364190",
   "85392292",
+  "85444298",
   "94049010",
   "94049090",
+  "94051091",
+  "94051092",
+  "94051099",
+  "94054020",
+  "94054040",
+  "94054060",
+  "94054099",
+  "94056090",
   "96190091"
  ],
  "tien_le_tb_tchq": {
@@ -58663,6 +58681,20 @@
   ],
   "31023000": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "31/2026/QĐ-TTg",
     "slug": "31-2026-qd-ttg",
     "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
@@ -61739,6 +61771,20 @@
   ],
   "36020000": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "173/2018/TT-BQP",
     "slug": "173-2018-tt-bqp",
     "ten": "Công bố danh mục cụ thể hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành của Bộ Quốc phòng theo quy định tại Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ",
@@ -62045,6 +62091,54 @@
     "dieu_kien": null,
     "nhom": "4.18",
     "phu_luc": "Phụ lục"
+   }
+  ],
+  "36030010": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "36030020": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "36030090": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
    }
   ],
   "36031000": [
@@ -104597,6 +104691,22 @@
     "phu_luc": "Phụ lục III"
    }
   ],
+  "73043920": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
   "73064020": [
    {
     "so_hieu": "36/2026/TT-BKHCN",
@@ -104769,7 +104879,37 @@
     "phu_luc": "Phụ lục III"
    }
   ],
+  "73084010": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
   "73084090": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -104783,6 +104923,70 @@
     "dieu_kien": null,
     "nhom": "5.2",
     "phu_luc": "Phụ lục"
+   }
+  ],
+  "73090011": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "73090019": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "73090091": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "73090099": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
    }
   ],
   "73110021": [
@@ -104957,6 +105161,20 @@
   ],
   "73110091": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -104987,6 +105205,20 @@
   ],
   "73110092": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "49/2026/TT-BXD",
     "slug": "49-2026-tt-bxd",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao lĩnh vực giao thông vận tải thuộc phạm vi quản lý của Bộ Xây dựng",
@@ -105003,6 +105235,20 @@
   ],
   "73110094": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "49/2026/TT-BXD",
     "slug": "49-2026-tt-bxd",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao lĩnh vực giao thông vận tải thuộc phạm vi quản lý của Bộ Xây dựng",
@@ -105018,6 +105264,20 @@
    }
   ],
   "73110099": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -105483,7 +105743,213 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "84021110": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "84021120": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "84021211": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "84021219": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "84021221": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "84021229": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "84021911": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "84021919": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "84021921": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "84021929": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "84022010": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "84022020": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
   "84031000": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "16/2026/TT-BNV",
     "slug": "16-2026-tt-bnv",
@@ -107252,6 +107718,20 @@
    }
   ],
   "84253100": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "16/2026/TT-BNV",
     "slug": "16-2026-tt-bnv",
@@ -112087,6 +112567,38 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "84798939": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "84798940": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
   "84798950": [
    {
     "so_hieu": "49/2026/TT-BXD",
@@ -112249,6 +112761,20 @@
   ],
   "85011029": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -112311,6 +112837,20 @@
   ],
   "85011049": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -112356,6 +112896,20 @@
    }
   ],
   "85011059": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -112419,6 +112973,20 @@
   ],
   "85011099": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -112464,6 +113032,20 @@
    }
   ],
   "85012019": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -112511,6 +113093,20 @@
   ],
   "85012029": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -112556,6 +113152,20 @@
    }
   ],
   "85013140": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -112651,6 +113261,22 @@
     "phu_luc": "Phụ lục II"
    }
   ],
+  "85013222": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
   "85013224": [
    {
     "so_hieu": "49/2026/TT-BXD",
@@ -112717,6 +113343,20 @@
   ],
   "85013232": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "49/2026/TT-BXD",
     "slug": "49-2026-tt-bxd",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao lĩnh vực giao thông vận tải thuộc phạm vi quản lý của Bộ Xây dựng",
@@ -112764,6 +113404,20 @@
    }
   ],
   "85013300": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -112813,6 +113467,20 @@
   ],
   "85013400": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -112858,6 +113526,20 @@
    }
   ],
   "85014019": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -112905,6 +113587,20 @@
   ],
   "85014029": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -112950,6 +113646,20 @@
    }
   ],
   "85015119": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -113013,6 +113723,20 @@
   ],
   "85015219": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -113074,6 +113798,20 @@
    }
   ],
   "85015229": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -113137,6 +113875,20 @@
   ],
   "85015239": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -113166,6 +113918,20 @@
    }
   ],
   "85015300": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -113455,6 +114221,20 @@
   ],
   "85021100": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -113470,6 +114250,20 @@
    }
   ],
   "85021210": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -113487,6 +114281,20 @@
   ],
   "85021220": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -113502,6 +114310,20 @@
    }
   ],
   "85021320": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -113519,6 +114341,20 @@
   ],
   "85021390": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -113534,6 +114370,20 @@
    }
   ],
   "85022010": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -113551,6 +114401,20 @@
   ],
   "85022020": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -113566,6 +114430,20 @@
    }
   ],
   "85022030": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -113583,6 +114461,20 @@
   ],
   "85022042": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -113598,6 +114490,20 @@
    }
   ],
   "85022049": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -113615,6 +114521,20 @@
   ],
   "85023910": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -113630,6 +114550,20 @@
    }
   ],
   "85023920": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -113647,6 +114581,20 @@
   ],
   "85023932": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -113662,6 +114610,20 @@
    }
   ],
   "85023939": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -113711,6 +114673,20 @@
   ],
   "85043311": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -113726,6 +114702,20 @@
    }
   ],
   "85043319": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -113743,6 +114733,20 @@
   ],
   "85043411": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -113758,6 +114762,20 @@
    }
   ],
   "85043412": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -113775,6 +114793,20 @@
   ],
   "85043413": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -113790,6 +114822,20 @@
    }
   ],
   "85043414": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -113807,6 +114853,20 @@
   ],
   "85043415": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -113822,6 +114882,20 @@
    }
   ],
   "85043416": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -113839,6 +114913,20 @@
   ],
   "85043422": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -113854,6 +114942,20 @@
    }
   ],
   "85043423": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -113871,6 +114973,20 @@
   ],
   "85043424": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -113886,6 +115002,20 @@
    }
   ],
   "85043425": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -113903,6 +115033,20 @@
   ],
   "85043426": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -113918,6 +115062,20 @@
    }
   ],
   "85043429": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -115153,6 +116311,20 @@
     "phu_luc": "Phụ lục I"
    },
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "126/2026/TT-BQP",
     "slug": "126-2026-tt-bqp",
     "ten": "Ban hành Danh mục sản phẩm mật mã dân sự có mức độ rủi ro cao thuộc phạm vi quản lý của Bộ trưởng Bộ Quốc phòng",
@@ -115179,6 +116351,22 @@
     "dieu_kien": null,
     "nhom": "2.1",
     "phu_luc": "Phụ lục I"
+   }
+  ],
+  "85171200": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
    }
   ],
   "85171300": [
@@ -115397,6 +116585,20 @@
     "phu_luc": "Phụ lục I"
    },
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "126/2026/TT-BQP",
     "slug": "126-2026-tt-bqp",
     "ten": "Ban hành Danh mục sản phẩm mật mã dân sự có mức độ rủi ro cao thuộc phạm vi quản lý của Bộ trưởng Bộ Quốc phòng",
@@ -115482,6 +116684,20 @@
    }
   ],
   "85176100": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
@@ -116162,6 +117378,20 @@
    }
   ],
   "85176251": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "126/2026/TT-BQP",
     "slug": "126-2026-tt-bqp",
@@ -119145,6 +120375,20 @@
   ],
   "85311020": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "125/2026/TT-BCA",
     "slug": "125-2026-tt-bca",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Công an",
@@ -119160,6 +120404,20 @@
    }
   ],
   "85311030": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "125/2026/TT-BCA",
     "slug": "125-2026-tt-bca",
@@ -119187,6 +120445,38 @@
     "dieu_kien": null,
     "nhom": "1.1.10",
     "phu_luc": "Phụ lục I"
+   }
+  ],
+  "85311090": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "85318010": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
    }
   ],
   "85319090": [
@@ -119221,6 +120511,20 @@
   ],
   "85352110": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -119249,7 +120553,37 @@
     "phu_luc": "Phụ lục"
    }
   ],
+  "85352120": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
   "85352190": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -119323,7 +120657,37 @@
     "phu_luc": "Phụ lục"
    }
   ],
+  "85352910": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
   "85352990": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -119337,6 +120701,22 @@
     "dieu_kien": null,
     "nhom": "5.8",
     "phu_luc": "Phụ lục"
+   }
+  ],
+  "85353020": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
    }
   ],
   "85353090": [
@@ -119373,6 +120753,20 @@
   ],
   "85362011": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
@@ -119388,6 +120782,20 @@
    }
   ],
   "85362012": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
@@ -119417,6 +120825,22 @@
     "dieu_kien": null,
     "nhom": "6.1",
     "phu_luc": "Phụ lục I"
+   }
+  ],
+  "85362019": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
    }
   ],
   "85362091": [
@@ -119449,6 +120873,134 @@
     "dieu_kien": null,
     "nhom": "6.1",
     "phu_luc": "Phụ lục I"
+   }
+  ],
+  "85363090": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "85364110": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "85364120": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "85364130": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "85364140": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "85364190": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "85364910": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "85364990": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
    }
   ],
   "85365020": [
@@ -119515,6 +121067,20 @@
   ],
   "85365099": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -119561,7 +121127,69 @@
     "phu_luc": "Phụ lục II"
    }
   ],
+  "85371011": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "85371019": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "85371092": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
   "85371099": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "125/2026/TT-BCA",
     "slug": "125-2026-tt-bca",
@@ -119575,6 +121203,38 @@
     "dieu_kien": null,
     "nhom": "I.1",
     "phu_luc": "Phụ lục"
+   }
+  ],
+  "85372021": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "85372029": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
    }
   ],
   "85372090": [
@@ -119873,6 +121533,20 @@
   ],
   "85437090": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -119903,6 +121577,20 @@
   ],
   "85442011": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -119918,6 +121606,20 @@
    }
   ],
   "85442019": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -119935,6 +121637,20 @@
   ],
   "85442021": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -119951,6 +121667,20 @@
   ],
   "85442029": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -119963,6 +121693,38 @@
     "dieu_kien": null,
     "nhom": "5.11",
     "phu_luc": "Phụ lục"
+   }
+  ],
+  "85442031": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "85442039": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
    }
   ],
   "85444211": [
@@ -120117,6 +121879,20 @@
   ],
   "85444294": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -120146,6 +121922,20 @@
    }
   ],
   "85444295": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -120177,6 +121967,20 @@
   ],
   "85444296": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -120192,6 +121996,20 @@
    }
   ],
   "85444297": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -120221,7 +122039,37 @@
     "phu_luc": "Phụ lục II"
    }
   ],
+  "85444298": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
   "85444299": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -120373,6 +122221,20 @@
     "phu_luc": "Phụ lục"
    },
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -120415,6 +122277,20 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
    },
    {
     "so_hieu": "33/2026/TT-BCT",
@@ -120489,6 +122365,20 @@
     "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
     "nhom": null,
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
    },
    {
     "so_hieu": "33/2026/TT-BCT",
@@ -120611,6 +122501,20 @@
   ],
   "85444941": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -120713,6 +122617,20 @@
   ],
   "85444949": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -120728,6 +122646,20 @@
    }
   ],
   "85446011": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -120745,6 +122677,20 @@
   ],
   "85446019": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -120761,6 +122707,20 @@
   ],
   "85446021": [
    {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -120776,6 +122736,20 @@
    }
   ],
   "85446029": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   },
    {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
@@ -168107,6 +170081,54 @@
     "phu_luc": "Phụ lục"
    }
   ],
+  "94051091": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "94051092": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "94051099": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
   "94051110": [
    {
     "so_hieu": "19/2024/TT-BYT",
@@ -168425,6 +170447,70 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "94054020": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "94054040": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "94054060": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
+  "94054099": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
+   }
+  ],
   "94054190": [
    {
     "so_hieu": "19/2024/TT-BYT",
@@ -168535,6 +170621,22 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   }
+  ],
+  "94056090": [
+   {
+    "so_hieu": "1182/QĐ-BCT",
+    "slug": "1182-qd-bct-2021",
+    "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2021-04-06",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục 1"
    }
   ],
   "94056190": [

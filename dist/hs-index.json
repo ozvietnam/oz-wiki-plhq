@@ -1,5 +1,5 @@
 {
- "phien_ban": "2026-11-18",
+ "phien_ban": "2026-11-19",
  "luoc_do_phien_ban": "1.4.0",
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "luoc_do": "docs/luoc-do-danh-muc-hs.md",
@@ -61689,6 +61689,912 @@
      "loai_tac_dong": "GIAY_PHEP",
      "dieu_kien": "xuất khẩu: đã qua chế biến đập, nghiền, sàng phân loại; (K2O+Na2O) ≥ 7%, cỡ hạt ≤ 100 mm",
      "trang": "6"
+    }
+   ]
+  },
+  {
+   "so_hieu": "1182/QĐ-BCT",
+   "slug": "1182-qd-bct-2021",
+   "ten": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+   "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+   "hieu_luc_tu": "2021-04-06",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "bang": {
+    "tep": "danh-muc/1182-qd-bct-2021.csv",
+    "nguon": "https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Quyet-dinh-1182-QD-BCT-2021-Danh-muc-hang-nhap-khau-thuc-hien-kiem-tra-chuyen-nganh-470522.aspx",
+    "trich_boi": "tho-bo-ba-01@ozvietnam",
+    "ngay": "2026-11-19",
+    "da_doi_chieu": false
+   },
+   "dong": [
+    {
+     "ma_hs": "31023000",
+     "mo_ta": "Amoni nitrat (NH4NO3) dạng tinh thể dùng để sản xuất thuốc nổ nhũ tương",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "31023000",
+     "mo_ta": "Amoni nitrat (NH4NO3) dạng hạt xốp dùng để sản xuất thuốc nổ ANFO",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "36020000",
+     "mo_ta": "Thuốc nổ nhũ tương dùng cho mỏ hầm lò, công trình ngầm không có khí và bụi nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "36020000",
+     "mo_ta": "Thuốc nổ amonit AD1",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "36020000",
+     "mo_ta": "Thuốc nổ loại khác (Theo danh mục tại Phụ lục 1 ban hành kèm theo Thông tư số 13/2018/TT-BCT ngày 15 tháng 6 năm 2018)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "36030010",
+     "mo_ta": "Các loại kíp nổ điện dùng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "36030010",
+     "mo_ta": "Kíp nổ đốt số 8 dùng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "36030020",
+     "mo_ta": "Dây cháy chậm công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "36030090",
+     "mo_ta": "Dây nổ chịu nước dùng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "36030090",
+     "mo_ta": "Mồi nổ dùng cho thuốc nổ công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "73043920",
+     "mo_ta": "Đường ống dẫn hơi và nước nóng cấp I, II có đường kính ngoài từ 51 mm trở lên; các đường ống dẫn cấp III, IV có đường kính ngoài từ 76 mm trở lên sử dụng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "73084010",
+     "mo_ta": "Cột chống thủy lực đơn, Giá khung di động và dàn chống tự hành cấu tạo từ các cột chống thủy lực đơn sử dụng trong việc chống giữ lò trong khai thác hầm lò",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "73084090",
+     "mo_ta": "Cột chống thủy lực đơn, Giá khung di động và dàn chống tự hành cấu tạo từ các cột chống thủy lực đơn sử dụng trong việc chống giữ lò trong khai thác hầm lò",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "73090011",
+     "mo_ta": "Bình chịu áp lực có kết cấu không lắp trên các phương tiện giao thông vận tải, áp suất làm việc định mức cao hơn 0,7 bar (không kể áp suất thủy tĩnh) dùng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "73090019",
+     "mo_ta": "Bình chịu áp lực có kết cấu không lắp trên các phương tiện giao thông vận tải, áp suất làm việc định mức cao hơn 0,7 bar (không kể áp suất thủy tĩnh) dùng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "73090091",
+     "mo_ta": "Bình chịu áp lực có kết cấu không lắp trên các phương tiện giao thông vận tải, áp suất làm việc định mức cao hơn 0,7 bar (không kể áp suất thủy tĩnh) dùng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "73090099",
+     "mo_ta": "Bình chịu áp lực có kết cấu không lắp trên các phương tiện giao thông vận tải, áp suất làm việc định mức cao hơn 0,7 bar (không kể áp suất thủy tĩnh) dùng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "73110091",
+     "mo_ta": "Chai chứa LPG",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "73110092",
+     "mo_ta": "Chai chứa LPG",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "73110094",
+     "mo_ta": "Chai chứa LPG",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "73110099",
+     "mo_ta": "Bồn chứa LPG có kết cấu không lắp trên các phương tiện giao thông vận tải",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "84021110",
+     "mo_ta": "Nồi hơi có kết cấu không lắp trên các phương tiện giao thông vận tải, áp suất làm việc định mức của hơi trên 0,7 bar dùng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "84021120",
+     "mo_ta": "Nồi hơi có kết cấu không lắp trên các phương tiện giao thông vận tải, áp suất làm việc định mức của hơi trên 0,7 bar dùng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "84021211",
+     "mo_ta": "Nồi hơi có kết cấu không lắp trên các phương tiện giao thông vận tải, áp suất làm việc định mức của hơi trên 0,7 bar dùng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "84021219",
+     "mo_ta": "Nồi hơi có kết cấu không lắp trên các phương tiện giao thông vận tải, áp suất làm việc định mức của hơi trên 0,7 bar dùng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "84021221",
+     "mo_ta": "Nồi hơi có kết cấu không lắp trên các phương tiện giao thông vận tải, áp suất làm việc định mức của hơi trên 0,7 bar dùng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "84021229",
+     "mo_ta": "Nồi hơi có kết cấu không lắp trên các phương tiện giao thông vận tải, áp suất làm việc định mức của hơi trên 0,7 bar dùng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "84021911",
+     "mo_ta": "Nồi hơi có kết cấu không lắp trên các phương tiện giao thông vận tải, áp suất làm việc định mức của hơi trên 0,7 bar dùng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "84021919",
+     "mo_ta": "Nồi hơi có kết cấu không lắp trên các phương tiện giao thông vận tải, áp suất làm việc định mức của hơi trên 0,7 bar dùng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "84021921",
+     "mo_ta": "Nồi hơi có kết cấu không lắp trên các phương tiện giao thông vận tải, áp suất làm việc định mức của hơi trên 0,7 bar dùng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "84021929",
+     "mo_ta": "Nồi hơi có kết cấu không lắp trên các phương tiện giao thông vận tải, áp suất làm việc định mức của hơi trên 0,7 bar dùng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "84022010",
+     "mo_ta": "Nồi hơi nhà máy điện",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "84022020",
+     "mo_ta": "Nồi hơi nhà máy điện",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "84031000",
+     "mo_ta": "Nồi đun nước nóng có nhiệt độ môi chất trên 115oC dùng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "84253100",
+     "mo_ta": "Tời, trục tải có tải trọng từ 10.000 N trở lên và góc nâng từ 25o đến 90o dùng trong công nghiệp",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "84798939",
+     "mo_ta": "Trạm nạp LPG cho chai, xe bồn, xe ô tô",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "84798940",
+     "mo_ta": "Trạm nạp LPG cho chai, xe bồn, xe ô tô",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "84798939",
+     "mo_ta": "Trạm cấp LPG",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "84798940",
+     "mo_ta": "Trạm cấp LPG",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85011029",
+     "mo_ta": "Động cơ điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85011049",
+     "mo_ta": "Động cơ điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85011059",
+     "mo_ta": "Động cơ điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85011099",
+     "mo_ta": "Động cơ điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85012019",
+     "mo_ta": "Động cơ điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85012029",
+     "mo_ta": "Động cơ điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85013140",
+     "mo_ta": "Động cơ điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85013222",
+     "mo_ta": "Động cơ điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85013232",
+     "mo_ta": "Động cơ điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85013300",
+     "mo_ta": "Động cơ điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85013400",
+     "mo_ta": "Động cơ điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85014019",
+     "mo_ta": "Động cơ điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85014029",
+     "mo_ta": "Động cơ điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85015119",
+     "mo_ta": "Động cơ điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85015219",
+     "mo_ta": "Động cơ điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85015229",
+     "mo_ta": "Động cơ điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85015239",
+     "mo_ta": "Động cơ điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85015300",
+     "mo_ta": "Động cơ điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85021100",
+     "mo_ta": "Máy phát điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85021210",
+     "mo_ta": "Máy phát điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85021220",
+     "mo_ta": "Máy phát điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85021320",
+     "mo_ta": "Máy phát điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85021390",
+     "mo_ta": "Máy phát điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85022010",
+     "mo_ta": "Máy phát điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85022020",
+     "mo_ta": "Máy phát điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85022030",
+     "mo_ta": "Máy phát điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85022042",
+     "mo_ta": "Máy phát điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85022049",
+     "mo_ta": "Máy phát điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85023910",
+     "mo_ta": "Máy phát điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85023920",
+     "mo_ta": "Máy phát điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85023932",
+     "mo_ta": "Máy phát điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85023939",
+     "mo_ta": "Máy phát điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85043311",
+     "mo_ta": "Máy biến áp phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85043411",
+     "mo_ta": "Máy biến áp phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85043414",
+     "mo_ta": "Máy biến áp phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85043422",
+     "mo_ta": "Máy biến áp phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85043425",
+     "mo_ta": "Máy biến áp phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85043319",
+     "mo_ta": "Máy biến áp phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85043412",
+     "mo_ta": "Máy biến áp phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85043413",
+     "mo_ta": "Máy biến áp phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85043415",
+     "mo_ta": "Máy biến áp phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85043416",
+     "mo_ta": "Máy biến áp phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85043423",
+     "mo_ta": "Máy biến áp phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85043424",
+     "mo_ta": "Máy biến áp phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85043426",
+     "mo_ta": "Máy biến áp phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85043429",
+     "mo_ta": "Máy biến áp phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85171100",
+     "mo_ta": "Thiết bị thông tin phòng nổ (Điện thoại, Máy đàm thoại, Còi điện, chuông điện)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85171200",
+     "mo_ta": "Thiết bị thông tin phòng nổ (Điện thoại, Máy đàm thoại, Còi điện, chuông điện)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85171800",
+     "mo_ta": "Thiết bị thông tin phòng nổ (Điện thoại, Máy đàm thoại, Còi điện, chuông điện)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85176100",
+     "mo_ta": "Thiết bị thông tin phòng nổ (Điện thoại, Máy đàm thoại, Còi điện, chuông điện)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85176251",
+     "mo_ta": "Thiết bị thông tin phòng nổ (Điện thoại, Máy đàm thoại, Còi điện, chuông điện)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85311020",
+     "mo_ta": "Thiết bị thông tin phòng nổ (Điện thoại, Máy đàm thoại, Còi điện, chuông điện)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85311030",
+     "mo_ta": "Thiết bị thông tin phòng nổ (Điện thoại, Máy đàm thoại, Còi điện, chuông điện)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85311090",
+     "mo_ta": "Thiết bị thông tin phòng nổ (Điện thoại, Máy đàm thoại, Còi điện, chuông điện)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85318010",
+     "mo_ta": "Thiết bị thông tin phòng nổ (Điện thoại, Máy đàm thoại, Còi điện, chuông điện)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85352110",
+     "mo_ta": "Thiết bị phân phối, đóng cắt phòng nổ (Khởi động từ, Khởi động mềm, Atomat, Máy cắt điện tự động, Rơ le dòng điện dò)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85352120",
+     "mo_ta": "Thiết bị phân phối, đóng cắt phòng nổ (Khởi động từ, Khởi động mềm, Atomat, Máy cắt điện tự động, Rơ le dòng điện dò)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85352190",
+     "mo_ta": "Thiết bị phân phối, đóng cắt phòng nổ (Khởi động từ, Khởi động mềm, Atomat, Máy cắt điện tự động, Rơ le dòng điện dò)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85352910",
+     "mo_ta": "Thiết bị phân phối, đóng cắt phòng nổ (Khởi động từ, Khởi động mềm, Atomat, Máy cắt điện tự động, Rơ le dòng điện dò)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85352990",
+     "mo_ta": "Thiết bị phân phối, đóng cắt phòng nổ (Khởi động từ, Khởi động mềm, Atomat, Máy cắt điện tự động, Rơ le dòng điện dò)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85353020",
+     "mo_ta": "Thiết bị phân phối, đóng cắt phòng nổ (Khởi động từ, Khởi động mềm, Atomat, Máy cắt điện tự động, Rơ le dòng điện dò)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85362011",
+     "mo_ta": "Thiết bị phân phối, đóng cắt phòng nổ (Khởi động từ, Khởi động mềm, Atomat, Máy cắt điện tự động, Rơ le dòng điện dò)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85362012",
+     "mo_ta": "Thiết bị phân phối, đóng cắt phòng nổ (Khởi động từ, Khởi động mềm, Atomat, Máy cắt điện tự động, Rơ le dòng điện dò)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85362019",
+     "mo_ta": "Thiết bị phân phối, đóng cắt phòng nổ (Khởi động từ, Khởi động mềm, Atomat, Máy cắt điện tự động, Rơ le dòng điện dò)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85363090",
+     "mo_ta": "Thiết bị phân phối, đóng cắt phòng nổ (Khởi động từ, Khởi động mềm, Atomat, Máy cắt điện tự động, Rơ le dòng điện dò)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85364110",
+     "mo_ta": "Thiết bị phân phối, đóng cắt phòng nổ (Khởi động từ, Khởi động mềm, Atomat, Máy cắt điện tự động, Rơ le dòng điện dò)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85364120",
+     "mo_ta": "Thiết bị phân phối, đóng cắt phòng nổ (Khởi động từ, Khởi động mềm, Atomat, Máy cắt điện tự động, Rơ le dòng điện dò)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85364130",
+     "mo_ta": "Thiết bị phân phối, đóng cắt phòng nổ (Khởi động từ, Khởi động mềm, Atomat, Máy cắt điện tự động, Rơ le dòng điện dò)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85364140",
+     "mo_ta": "Thiết bị phân phối, đóng cắt phòng nổ (Khởi động từ, Khởi động mềm, Atomat, Máy cắt điện tự động, Rơ le dòng điện dò)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85364190",
+     "mo_ta": "Thiết bị phân phối, đóng cắt phòng nổ (Khởi động từ, Khởi động mềm, Atomat, Máy cắt điện tự động, Rơ le dòng điện dò)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85364910",
+     "mo_ta": "Thiết bị phân phối, đóng cắt phòng nổ (Khởi động từ, Khởi động mềm, Atomat, Máy cắt điện tự động, Rơ le dòng điện dò)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85364990",
+     "mo_ta": "Thiết bị phân phối, đóng cắt phòng nổ (Khởi động từ, Khởi động mềm, Atomat, Máy cắt điện tự động, Rơ le dòng điện dò)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85365099",
+     "mo_ta": "Thiết bị điều khiển phòng nổ (Bảng điều khiển, Hộp nút nhấn)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85371011",
+     "mo_ta": "Thiết bị điều khiển phòng nổ (Bảng điều khiển, Hộp nút nhấn)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85371019",
+     "mo_ta": "Thiết bị điều khiển phòng nổ (Bảng điều khiển, Hộp nút nhấn)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85371092",
+     "mo_ta": "Thiết bị điều khiển phòng nổ (Bảng điều khiển, Hộp nút nhấn)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85371099",
+     "mo_ta": "Thiết bị điều khiển phòng nổ (Bảng điều khiển, Hộp nút nhấn)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85372021",
+     "mo_ta": "Thiết bị điều khiển phòng nổ (Bảng điều khiển, Hộp nút nhấn)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85372029",
+     "mo_ta": "Thiết bị điều khiển phòng nổ (Bảng điều khiển, Hộp nút nhấn)",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85437090",
+     "mo_ta": "Máy nổ mìn điện",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85442011",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85442019",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85442021",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85442029",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85442031",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85442039",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85444294",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85444295",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85444296",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85444297",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85444298",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85444299",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85444922",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85444923",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85444929",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85444941",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85444949",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85446011",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85446019",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85446021",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "85446029",
+     "mo_ta": "Cáp điện phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "94051091",
+     "mo_ta": "Đèn chiếu sáng phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "94051092",
+     "mo_ta": "Đèn chiếu sáng phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "94051099",
+     "mo_ta": "Đèn chiếu sáng phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "94054020",
+     "mo_ta": "Đèn chiếu sáng phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "94054040",
+     "mo_ta": "Đèn chiếu sáng phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "94054060",
+     "mo_ta": "Đèn chiếu sáng phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "94054099",
+     "mo_ta": "Đèn chiếu sáng phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
+    },
+    {
+     "ma_hs": "94056090",
+     "mo_ta": "Đèn chiếu sáng phòng nổ",
+     "phu_luc": "Phụ lục 1",
+     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG"
     }
    ]
   },
