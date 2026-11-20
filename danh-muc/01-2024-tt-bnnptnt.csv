@@ -28,7 +28,7 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 010420,- Dê:,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,9
 01042010,- - Loại thuần chủng để nhân giống,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,9
 01042090,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,9
-0105,"loài Gallus domesticus, vịt, ngan, ngỗng gà tây và gà lôi - Loại khối lượng không quá 185 g:",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,9
+0105,"Gia cầm sống, gồm các loại gà thuộc loài Gallus domesticus, vịt, ngan, ngỗng, gà tây và gà lôi",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,9
 010511,- - Gà thuộc loài Gallus domesticus:,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,9
 01051110,- - - Để nhân giống (SEN),Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,9
 01051190,- - - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,9
@@ -60,8 +60,8 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 01061400,- - Thỏ (Rabbits và hares),Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,11
 01061900,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Áp dụng đối với động,,11
 01062000,- Loài bò sát (kể cả rắn và rùa) vật sống trên cạn - Các loại chim:,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,11
-01063100,- - Chim săn mồi - - Vẹt (kể cả vẹt lớn châu Mỹ (parrots),Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,11
-01063200,"vẹt nhỏ đuôi dài (parakeets), vẹt đuôi dài và vẹt có mào) - - Đà điểu; đà điểu châu Úc (Dromaius",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,11
+01063100,- - Chim săn mồi,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,11
+01063200,"- - Vẹt (kể cả vẹt lớn châu Mỹ (parrots), vẹt nhỏ đuôi dài (parakeets), vẹt đuôi dài và vẹt có mào)",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,11
 01063900,- - Loại khác - Côn trùng:,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,11
 01064100,- - Các loại ong,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,11
 01064900,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,11
@@ -93,7 +93,7 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 02064900,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,13
 02068000,"- Loại khác, tươi hoặc ướp lạnh",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,13
 02069000,"- Loại khác, đông lạnh",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,13
-0207,"mổ, của gia cầm thuộc nhóm 01.05 tươi, ướp lạnh hoặc đông lạnh - Của gà thuộc loài Gallus domesticus:",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,13
+0207,"Thịt và phụ phẩm ăn được sau giết mổ, của gia cầm thuộc nhóm 01.05, tươi, ướp lạnh hoặc đông lạnh",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,13
 02071100,"- - Chưa chặt mảnh, tươi hoặc ướp lạnh",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,13
 02071200,"- - Chưa chặt mảnh, đông lạnh",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,13
 02071410,- - - Cánh,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,14
@@ -121,17 +121,17 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 020760,- Của gà lôi:,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,15
 02076010,"- - Chưa chặt mảnh, tươi hoặc ướp lạnh",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,15
 02076020,"- - Chưa chặt mảnh, đông lạnh - - Đã chặt mảnh và phụ phẩm sau giết",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,15
-0208,"sau giết mổ của động vật khác, tươi ướp lạnh hoặc đông lạnh",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,15
+0208,"Thịt và phụ phẩm dạng thịt ăn được sau giết mổ của động vật khác, tươi, ướp lạnh hoặc đông lạnh",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,15
 02081000,- Của thỏ hoặc thỏ rừng,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,15
 02083000,- Của bộ động vật linh trưởng,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,15
 02085000,- Của loài bò sát (kể cả rắn và rùa) động vật lưỡng cư hoặc dưới nước,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,16
 02086000,- Của lạc đà và họ lạc đà (Camelidae),Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,16
 020890,- Loại khác:,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,16
 02089090,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,16
-0209,"cách khác, tươi, ướp lạnh, đông lạnh muối, ngâm nước muối, làm khô hoặc hun khói",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,16
+0209,"Mỡ lợn không dính nạc và mỡ gia cầm, chưa nấu chảy hoặc chiết xuất cách khác, tươi, ướp lạnh, đông lạnh, muối, ngâm nước muối, làm khô hoặc hun khói",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,16
 02091000,- Của lợn,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,16
 02099000,- Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,16
-0210,"làm khô hoặc hun khói; bột mịn và bột thô ăn được làm từ thịt hoặc phụ phẩm dạng thịt sau giết mổ - Thịt lợn: - - Thịt mông đùi (hams), thịt vai và các",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,16
+0210,"Thịt và phụ phẩm dạng thịt ăn được sau giết mổ, muối, ngâm nước muối, làm khô hoặc hun khói; bột mịn và bột thô ăn được làm từ thịt hoặc phụ phẩm dạng thịt sau giết mổ",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,16
 021019,- - Loại khác: - - - Thịt lợn muối xông khói (bacon),Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,16
 02101990,- - - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,16
 02102000,"- Thịt động vật họ trâu bò - Loại khác, kể cả bột mịn và bột thô ăn được làm từ thịt hoặc phụ phẩm dạng thịt sau giết mổ:",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,17
@@ -149,28 +149,28 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 04014090,- - Loại khác - Có hàm lượng chất béo trên 10% tính,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,18
 04015010,- - Dạng lỏng,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,18
 04015090,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,18
-040210,"có hàm lượng chất béo không quá 1,5% tính theo khối lượng: - - Chưa pha thêm đường hoặc chất tạo ngọt khác: - - - Đóng gói với khối lượng tịnh từ 20 kg",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,18
+040210,"- Dạng bột, hạt hoặc các thể rắn khác, có hàm lượng chất béo không quá 1,5% tính theo khối lượng:",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,18
 04021049,- - - Loại khác - - Loại khác: - - - Đóng gói với khối lượng tịnh từ 20 kg,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,18
 04021099,"- - - Loại khác - Dạng bột, hạt hoặc các thể rắn khác có hàm lượng chất béo trên 1,5% tính theo khối lượng:",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,18
 04022190,- - - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,19
 040229,- - Loại khác: - - - Đóng gói với khối lượng tịnh từ 20 kg,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,19
 04022990,- - - Loại khác - Loại khác: - - Chưa pha thêm đường hoặc chất tạo,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,19
 04029900,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,19
-0403,"đặc hoặc pha thêm đường hoặc chất tạo ngọt khác hoặc hương liệu hoặc bổ sung thêm hoa quả, quả hạch (nuts) hoặc ca cao",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,19
+0403,"Sữa chua; buttermilk, sữa đông và kem đông, kephir và sữa, kem khác đã lên men hoặc axit hóa, đã hoặc chưa cô đặc hoặc pha thêm đường hoặc chất tạo ngọt khác hoặc hương liệu hoặc bổ sung thêm hoa quả, quả hạch (nuts) hoặc ca cao",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,19
 040320,"- Sữa chua: - - Dạng lỏng, đã hoặc chưa cô đặc:",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,19
-04032011,"quả (kể cả thịt quả và mứt), quả hạch (nuts) hoặc ca cao",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,20
+04032011,"- - - Đã thêm hương liệu hoặc thêm hoa quả (kể cả thịt quả và mứt), quả hạch (nuts) hoặc ca cao",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,20
 04032019,- - - Loại khác - - Loại khác: - - - Đã thêm hương liệu hoặc thêm hoa,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,20
-04032091,"quả (kể cả thịt quả và mứt), quả hạch (nuts) hoặc ca cao",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,20
+04032091,"- - - Đã thêm hương liệu hoặc thêm hoa quả (kể cả thịt quả và mứt), quả hạch (nuts) hoặc ca cao",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,20
 04032099,- - - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,20
 040390,- Loại khác:,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,20
 04039010,- - Buttermilk,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,20
 04039090,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,20
-0404,"phần tự nhiên của sữa, đã hoặc chưa pha thêm đường hoặc chất tạo ngọt khác, chưa được chi tiết hoặc ghi ở nơi khác - Whey và whey đã cải biến, đã hoặc",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,20
-040410,"chưa cô đặc hoặc pha thêm đường hoặc chất tạo ngọt khác: - - Dạng bột: - - - Whey, thích hợp sử dụng cho",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,20
+0404,"Whey, đã hoặc chưa cô đặc hoặc pha thêm đường hoặc chất tạo ngọt khác; các sản phẩm có chứa thành phần tự nhiên của sữa, đã hoặc chưa pha thêm đường hoặc chất tạo ngọt khác, chưa được chi tiết hoặc ghi ở nơi khác",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,20
+040410,"- Whey và whey đã cải biến, đã hoặc chưa cô đặc hoặc pha thêm đường hoặc chất tạo ngọt khác:",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,20
 04041019,- - - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,20
 04041099,- - - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,21
 04049000,- Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,21
-0405,khác tách từ sữa; chất phết từ bơ sữa (dairy spreads),Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,21
+0405,Bơ và các chất béo và các loại dầu khác tách từ sữa; chất phết từ bơ sữa (dairy spreads),Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,21
 04051000,- Bơ,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,21
 04052000,- Chất phết từ bơ sữa,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,21
 040590,- Loại khác:,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,21
@@ -178,10 +178,10 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 04059020,- - Dầu bơ (butteroil),Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,21
 04059030,- - Ghee,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,21
 04059090,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,21
-0406,Pho mát và curd - Pho mát tươi (chưa ủ chín hoặc chưa,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,21
+0406,Pho mát và curd,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,21
 04061020,- - Curd - Pho mát đã xát nhỏ hoặc đã làm thành,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,21
 04062090,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,21
-04064000,vân được sản xuất từ men Penicillium roqueforti,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,22
+04064000,- Pho mát vân xanh và pho mát khác có vân được sản xuất từ men Penicillium roqueforti,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,22
 04069000,- Pho mát loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,22
 040711,- - Của gà thuộc loài Gallus domesticus:,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,22
 04071110,- - - Để nhân giống,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,22
@@ -204,16 +204,16 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 04089100,- - Đã làm khô,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,23
 04089900,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,23
 04090000,Mật ong tự nhiên Côn trùng và sản phẩm ăn được gốc,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,23
-0410,"động vật, chưa được chi tiết hoặc ghi ở nơi khác",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,23
+0410,"Côn trùng và sản phẩm ăn được gốc động vật, chưa được chi tiết hoặc ghi ở nơi khác",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,23
 04101000,- Côn trùng,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,23
 041090,- Loại khác:,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,23
 04109010,- - Tổ yến,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Trừ sản phẩm của,,23
 04109020,- - Trứng rùa động vật dưới nước hoặc lưỡng cư,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,23
 04109090,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,23
-0502,lòi; lông dùng làm chổi và bàn chải khác; phế liệu từ các loại lông trên - Lông và lông cứng của lợn hoặc lợn,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,24
+0502,Lông và lông cứng của lợn hoặc lợn lòi; lông dùng làm chổi và bàn chải khác; phế liệu từ các loại lông trên,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,24
 05029000,- Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,24
-05040000,"của chúng, tươi, ướp lạnh, đông lạnh muối, ngâm nước muối, làm khô hoặc hun khói Da và các bộ phận khác của loài chim và gia cầm, có lông vũ hoặc lông tơ lông vũ và các phần của lông vũ (đã lý sử dụng trực tiếp",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Trừ sản phẩm đã xử,,24
-0505,"hoặc chưa cắt tỉa) và lông tơ, mới chỉ làm nguyên, phụ liệu được làm sạch, khử trùng hoặc xử lý may mặc để bảo quản; bột và phế liệu từ lông vũ hoặc các phần của lông vũ",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,24
+05040000,"Ruột, bong bóng và dạ dày động vật (trừ cá), nguyên dạng và các mảnh của chúng, tươi, ướp lạnh, đông lạnh, muối, ngâm nước muối, làm khô hoặc hun khói",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Trừ sản phẩm đã xử,,24
+0505,"Da và các bộ phận khác của loài chim và gia cầm, có lông vũ hoặc lông tơ, lông vũ và các phần của lông vũ (đã hoặc chưa cắt tỉa) và lông tơ, mới chỉ được làm sạch, khử trùng hoặc xử lý để bảo quản; bột và phế liệu từ lông vũ hoặc các phần của lông vũ",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,24
 050510,- Lông vũ dùng để nhồi; lông tơ:,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,24
 05051010,"- - Lông vũ của vịt, ngan",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,24
 05051090,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,24
@@ -222,12 +222,12 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 05059090,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,24
 05061000,- Ossein và xương đã xử lý bằng axit,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,25
 05069000,"- Loại khác Ngà, mai động vật họ rùa, lược cá voi (phiến sừng hàm trên) và hàm răng lược cá voi, sừng, gạc, móng guốc",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Trừ sản phẩm của,,25
-0507,"động vật lưỡng cư móng, vuốt và mỏ, chưa xử lý hoặc đã hoặc dưới nước sơ chế nhưng chưa cắt thành hình bột và phế liệu từ các sản phẩm trên",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,25
+0507,"Ngà, mai động vật họ rùa, lược cá voi (phiến sừng hàm trên) và hàm răng lược cá voi, sừng, gạc, móng guốc, móng, vuốt và mỏ, chưa xử lý hoặc đã sơ chế nhưng chưa cắt thành hình; bột và phế liệu từ các sản phẩm trên",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,25
 05071000,- Ngà; bột và phế liệu từ ngà,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,25
 050790,- Loại khác:,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,25
 05079020,- - Mai động vật họ rùa,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,25
 05079090,"- - Loại khác San hô và các chất liệu tương tự chưa xử lý hoặc đã sơ chế nhưng chưa gia công thêm; mai, vỏ động vật thân mềm, động vật giáp xác hoặc",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Áp dụng đối với sản,,25
-0508,"phẩm làm thức ăn động vật da gai và mai mực, chưa xử chăn nuôi, thủy sản lý hoặc đã sơ chế nhưng chưa cắt thành hình, bột và phế liệu từ các sản phẩm trên - Mai, vỏ động vật thân mềm, động vật",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,25
+0508,"San hô và các chất liệu tương tự, chưa xử lý hoặc đã sơ chế nhưng chưa gia công thêm; mai, vỏ động vật thân mềm, động vật giáp xác hoặc động vật da gai và mai mực, chưa xử lý hoặc đã sơ chế nhưng chưa cắt thành hình, bột và phế liệu từ các sản phẩm trên",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,25
 05080090,- Loại khác Các sản phẩm động vật khác chưa,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,25
 05111000,"- Tinh dịch động vật họ trâu, bò - Loại khác: - - Sản phẩm từ cá hoặc động vật giáp xác, động vật thân mềm hoặc động vật",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,26
 05119120,"- - - Trứng Artemia (trứng Brine shrimp) phẩm làm thức ăn chăn nuôi, thủy sản",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Áp dụng đối với sản,,26
@@ -235,24 +235,24 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 051199,- - Loại khác:,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Áp dụng đối với sản,,26
 05119910,- - - Tinh dịch động vật nuôi phẩm của động vật trên cạn nuôi,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Áp dụng đối với sản,,26
 05119990,- - - Loại khác phẩm của động vật trên cạn nuôi Mỡ lợn (kể cả mỡ từ mỡ lá và mỡ khổ),Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,26
-1501,"và mỡ gia cầm, nhóm 02.09 hoặc 15.03",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,trừ các loại thuộc,,26
+1501,"Mỡ lợn (kể cả mỡ từ mỡ lá và mỡ khổ) và mỡ gia cầm, trừ các loại thuộc nhóm 02.09 hoặc 15.03",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,trừ các loại thuộc,,26
 15011000,- Mỡ lợn từ mỡ lá và mỡ khổ,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,26
 15012000,- Mỡ lợn khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,26
 15019000,- Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,26
 150290,- Loại khác:,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,27
 15029010,- - Loại ăn được,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,27
 15029090,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,27
-1504,"phẩm làm thức ăn vú sống ở biển, đã hoặc chưa tinh chế chăn nuôi, thủy sản nhưng không thay đổi về mặt hóa học - Dầu gan cá và các phần phân đoạn của",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,27
+1504,"Mỡ và dầu và các phần phân đoạn của chúng, từ cá hoặc các loài động vật có vú sống ở biển, đã hoặc chưa tinh chế, nhưng không thay đổi về mặt hóa học",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,27
 15041020,- - Các phần phân đoạn thể rắn,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,27
 15041090,- - Loại khác - Mỡ và dầu và các phần phân đoạn của,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,27
 15042010,- - Các phần phân đoạn thể rắn,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,27
 15042090,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,27
 152190,- Loại khác:,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Áp dụng đối với,,28
 15219010,- - Sáp ong và sáp côn trùng khác sáp ong,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,28
-1601,"sau giết mổ, tiết hoặc côn trùng; các chế phẩm thực phẩm từ các sản phẩm đó",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,28
+1601,"Xúc xích và các sản phẩm tương tự làm từ thịt, từ phụ phẩm dạng thịt sau giết mổ, tiết hoặc côn trùng; các chế phẩm thực phẩm từ các sản phẩm đó",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,28
 16010010,- Đóng bao bì kín khí để bán lẻ,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,28
 16010090,- Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,28
-1602,"mổ, tiết hoặc côn trùng, đã chế biến hoặc bảo quản khác",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,28
+1602,"Thịt, các phụ phẩm dạng thịt sau giết mổ, tiết hoặc côn trùng, đã chế biến hoặc bảo quản khác",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,28
 160210,"- Chế phẩm đồng nhất: - - Chứa thịt lợn, đóng bao bì kín khí để",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,28
 16021090,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,28
 16022000,- Từ gan động vật - Từ gia cầm thuộc nhóm 01.05:,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,28
@@ -276,13 +276,13 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 16025090,"- - Loại khác - Loại khác, kể cả sản phẩm chế biến từ",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,29
 16029020,- - Các chế phẩm từ tiết,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,30
 16029090,- - Loại khác (SEN),Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,30
-1603,phẩm động vật trên động vật thân mềm hoặc động vật cạn thủy sinh không xương sống khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,30
+1603,"Sản phẩm chiết xuất và nước ép từ thịt, cá hoặc từ động vật giáp xác, động vật thân mềm hoặc động vật thủy sinh không xương sống khác",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,30
 16030010,- Từ thịt,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,30
 16030090,- Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,30
-1702,"đường chưa pha thêm hương liệu hoặc chất màu; mật ong nhân tạo, đã hoặc chưa pha trộn với mật ong tự nhiên; đường caramen - Lactoza và xirô lactoza: Lactose sữa - - Có hàm lượng lactoza khan từ 99%",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Áp dụng với đường,,30
+1702,"Đường khác, kể cả đường lactoza, mantoza, glucoza và fructoza, tinh khiết về mặt hóa học, ở thể rắn; xirô đường chưa pha thêm hương liệu hoặc chất màu; mật ong nhân tạo, đã hoặc chưa pha trộn với mật ong tự nhiên; đường caramen",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Áp dụng với đường,,30
 17021900,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,30
-2301,"phụ phẩm dạng thịt sau giết mổ, từ cá hoặc từ động vật giáp xác, động",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,30
-230120,"phẩm làm thức ăn hoặc động vật thủy sinh không xương chăn nuôi, thủy sản sống khác: - - Từ cá, có hàm lượng protein dưới 60%",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,31
+2301,"Bột mịn, bột thô và viên, từ thịt hoặc phụ phẩm dạng thịt sau giết mổ, từ cá hoặc từ động vật giáp xác, động vật thân mềm hoặc động vật thủy sinh không xương sống khác, không thích hợp dùng làm thức ăn cho người; tóp mỡ",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,30
+230120,"- Bột mịn, bột thô và viên, từ cá hoặc từ động vật giáp xác, động vật thân mềm hoặc động vật thủy sinh không xương sống khác:",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,31
 23012090,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,31
 23091010,- - Chứa thịt,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Áp dụng đối với chế,,31
 23091090,- - Loại khác phẩm có chứa sản phẩm động vật,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,31
@@ -292,25 +292,25 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 23099013,- - - Loại dùng cho tôm phẩm có chứa sản phẩm động vật,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Áp dụng đối với chế,,32
 23099014,- - - Loại dùng cho động vật linh trưởng phẩm có chứa sản phẩm động vật,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Áp dụng đối với chế,,32
 23099019,"- - - Loại khác phẩm có chứa sản phẩm động vật - - Chất tổng hợp, chất bổ sung thức ăn",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Áp dụng đối với chế,,32
-23099020,phẩm có chứa sản hoặc phụ gia thức ăn phẩm động vật,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Áp dụng đối với chế,,32
-23099090,"- - Loại khác phẩm có chứa sản phẩm động vật Albumin (kể cả các chất cô đặc của hai hoặc nhiều whey protein, chứa trên 80% whey protein tính theo",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,32
+23099020,"- - Chất tổng hợp, chất bổ sung thức ăn hoặc phụ gia thức ăn",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Áp dụng đối với chế,,32
+23099090,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,32
 35021100,- - Đã làm khô,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,32
 35021900,"- - Loại khác - Albumin sữa, kể cả các chất cô đặc",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,32
-35040000,"chúng, chưa được chi tiết hoặc ghi ở nơi khác; bột da sống, đã hoặc chưa crom hóa",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Trừ collagen,,33
-4101,"hoặc được bảo quản cách khác nhưng chưa thuộc, chưa làm thành da giấy hoặc gia công thêm), đã hoặc chưa khử lông hoặc lạng xẻ - Da sống nguyên con, chưa xẻ, khối lượng da một con không quá 8 kg khi",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,33
-41012000,"làm khô đơn giản, 10 kg khi muối khô hoặc 16 kg ở dạng tươi, dạng muối ướt hoặc được bảo quản cách khác - Da sống nguyên con, khối lượng trên",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,33
+35040000,"Pepton và các dẫn xuất của chúng; protein khác và các dẫn xuất của chúng, chưa được chi tiết hoặc ghi ở nơi khác; bột da sống, đã hoặc chưa crom hóa",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Trừ collagen,,33
+4101,"Da sống của động vật họ trâu bò (kể cả trâu) hoặc động vật họ ngựa (tươi, hoặc muối, khô, ngâm vôi, axit hóa hoặc được bảo quản cách khác, nhưng chưa thuộc, chưa làm thành da giấy hoặc gia công thêm), đã hoặc chưa khử lông hoặc lạng xẻ",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,33
+41012000,"- Da sống nguyên con, chưa xẻ, khối lượng da một con không quá 8 kg khi làm khô đơn giản, 10 kg khi muối khô, hoặc 16 kg ở dạng tươi, dạng muối ướt hoặc được bảo quản cách khác",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,33
 41019010,- - Đã được chuẩn bị để thuộc,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,33
 41019090,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,33
 41021000,- Loại còn lông - Loại không còn lông:,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,34
 41022100,- - Đã được axit hóa,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,34
-41022900,"- - Loại khác Da sống của loài động vật khác (tươi hoặc muối, khô, ngâm vôi, axit hóa hoặc được bảo quản cách khác nhưng chưa thuộc, chưa làm thành",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,34
+41022900,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,34
 41032000,- Của loài bò sát động vật dưới nước hoặc lưỡng cư,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,34
 41033000,- Của lợn,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,34
 41039000,- Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,34
-4301,"khác, thích hợp cho việc thuộc da lông), trừ da sống trong nhóm 41.01",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,34
-4102,"hoặc 41.03 - Của loài chồn vizôn, da nguyên con",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,34
-43018000,"con, có hoặc không có đầu, đuôi hoặc bàn chân - Đầu, đuôi, bàn chân và các mẩu hoặc",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,35
-43019000,"các mảnh cắt khác, thích hợp cho việc thuộc da lông",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,35
+4301,"Da lông sống (kể cả đầu, đuôi, bàn chân và các mẩu hoặc các mảnh cắt khác, thích hợp cho việc thuộc da lông), trừ da sống trong nhóm 41.01, 41.02 hoặc 41.03",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,34
+4102,"Da sống của cừu hoặc cừu non (tươi, hoặc muối, khô, ngâm vôi, axit hóa hoặc được bảo quản cách khác, nhưng chưa thuộc, chưa làm thành da giấy hoặc gia công thêm), có hoặc không còn lông hoặc lạng xẻ, trừ các loại đã ghi ở Chú giải 1(c) của Chương này",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,34
+43018000,"- Của loài động vật khác, da nguyên con, có hoặc không có đầu, đuôi hoặc bàn chân",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,35
+43019000,"- Đầu, đuôi, bàn chân và các mẩu hoặc các mảnh cắt khác, thích hợp cho việc thuộc da lông",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,35
 5101,"Lông cừu, chưa chải thô hoặc chải kỹ làm nguyên, phụ liệu may mặc - Nhờn, kể cả lông cừu đã rửa sạch:",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,35
 51011100,- - Lông cừu đã xén,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,35
 51011900,"- - Loại khác - Đã tẩy nhờn, chưa được carbon hóa:",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,35
@@ -318,19 +318,19 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 51012900,"- - Loại khác Lông động vật loại thô hoặc mịn, chưa lý sử dụng trực tiếp",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,Trừ sản phẩm đã xử,,35
 51021900,- - Loại khác,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,36
 51022000,- Lông động vật loại thô,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,36
-5103,"loại mịn hoặc loại thô, kể cả phế liệu làm nguyên, phụ liệu sợi nhưng trừ lông tái chế may mặc - Xơ vụn từ lông cừu hoặc từ lông động",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,36
+5103,"Phế liệu lông cừu hoặc lông động vật loại mịn hoặc loại thô, kể cả phế liệu sợi nhưng trừ lông tái chế",Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,36
 51033000,- Phế liệu từ lông động vật loại thô,Mục 1,Phụ lục I,KIEM_DICH_DONG_VAT,,,,36
 0106,Động vật sống khác - Động vật có vú:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,45
-010612,"- - Cá voi, cá heo chuột và cá heo (động vật có vú thuộc bộ cá voi Cetacea); lợn biển và cá nược (động vật có vú thuộc bộ Sirenia); hải cẩu, sư tử biển và hải mã (con moóc) (động vật có vú thuộc phân bộ Pinnipedia): - - - Cá voi, cá heo chuột và cá heo (động vật có vú",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,45
-01061210,thuộc bộ cá voi Cetacea); lợn biển và cá nược (động vật có vú thuộc bộ Sirenia),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,45
-01061220,"- - - Hải cẩu, sư tử biển và hải mã (con moóc) (động vật có vú thuộc phân bộ Pinnipedia) (Áp dụng đối",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,45
-01061900,- - Loại khác với động vật dưới nước.) (Áp dụng đối với động vật,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,45
-01062000,- Loài bò sát (kể cả rắn và rùa) dưới nước hoặc lưỡng cư.),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,45
+010612,"- - Cá voi, cá heo chuột và cá heo (động vật có vú thuộc bộ cá voi Cetacea); lợn biển và cá nược (động vật có vú thuộc bộ Sirenia); hải cẩu, sư tử biển và hải mã (con moóc) (động vật có vú thuộc phân bộ Pinnipedia):",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,45
+01061210,"- - - Cá voi, cá heo chuột và cá heo (động vật có vú thuộc bộ cá voi Cetacea); lợn biển và cá nược (động vật có vú thuộc bộ Sirenia)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,45
+01061220,"- - - Hải cẩu, sư tử biển và hải mã (con moóc) (động vật có vú thuộc phân bộ Pinnipedia)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,45
+01061900,- - Loại khác (Áp dụng đối với động vật dưới nước.),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,45
+01062000,- Loài bò sát (kể cả rắn và rùa) (Áp dụng đối với động vật dưới nước hoặc lưỡng cư.),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,45
 01069000,- - Loại khác Thịt và phụ phẩm dạng thịt ăn được sau giết mổ,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,45
-020840,"vật có vú thuộc bộ Sirenia); của hải cẩu, sư tử biển và con moóc (hải mã) (động vật có vú thuộc phân bộ Pinnipedia):",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,45
-02084010,vú thuộc bộ Cetacea); của lợn biển và cá nược (động vật có vú thuộc bộ Sirenia),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,46
-02084090,- - Loại khác (Áp dụng đối với sản phẩm,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,46
-02085000,- Của loài bò sát (kể cả rắn và rùa) của động vật dưới nước hoặc lưỡng cư),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,46
+020840,"- Của cá voi, cá heo chuột và cá heo (động vật có vú thuộc bộ Cetacea); của lợn biển và cá nược (động vật có vú thuộc bộ Sirenia); của hải cẩu, sư tử biển và con moóc (hải mã) (động vật có vú thuộc phân bộ Pinnipedia):",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,45
+02084010,"- - Của cá voi, cá heo chuột và cá heo (động vật có vú thuộc bộ Cetacea); của lợn biển và cá nược (động vật có vú thuộc bộ Sirenia)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,46
+02084090,- - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,46
+02085000,- Của loài bò sát (kể cả rắn và rùa) (Áp dụng đối với sản phẩm của động vật dưới nước hoặc lưỡng cư),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,46
 020890,- Loại khác:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,46
 02089010,- - Đùi ếch,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,46
 0301,Cá sống - Cá cảnh:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,46
@@ -343,9 +343,9 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 03011199,- - - - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,46
 030119,- - Loại khác:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,46
 03011910,- - - Cá bột,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,46
-03011990,"- - - Loại khác - Cá sống khác: - - Cá hồi chấm (trout) (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,46
-03019200,"- - Cá chình (Anguilla spp.) - - Cá chép (Cyprinus spp., Carassius spp Ctenopharyngodon idellus, Hypophthalmichthys",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,47
-030193,"spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.): - - - Cá chép (Cyprinus spp., Carassius spp Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus):",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,47
+03011990,- - - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,46
+03019200,- - Cá chình (Anguilla spp.),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,47
+030193,"- - Cá chép (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.):",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,47
 03019321,"- - - - Để nhân giống,",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,trừ cá bột (SEN),,47
 03019322,- - - - Cá bột,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,47
 03019329,"- - - - Loại khác - - - Cá chép (Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.):",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,47
@@ -372,32 +372,32 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 03019949,- - - - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,48
 03019950,- - - Cá biển khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,48
 03019990,"- - - Loại khác Cá, tươi hoặc ướp lạnh, trừ phi-lê cá (fillets) và",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,48
-03021900,"- - Loại khác - Cá bơn (Pleuronectidae, Bothidae, Cynoglossidae Soleidae, Scophthalmidae và Citharidae), trừ phụ phẩm ăn được sau giết mổ của cá thuộc các phân nhóm từ 0302.91 đến 0302.99: - - Cá bơn lưỡi ngựa (Halibut) (Reinhardtius",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,49
-03022100,"hippoglossoides, Hippoglossus hippoglo ssus Hippoglossus stenolepis)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,49
+03021900,- - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,49
+03022100,"- - Cá bơn lưỡi ngựa(Halibut) (Reinhardtius hippoglossoides, Hippoglossus hippoglossus, Hippoglossus stenolepis)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,49
 03022200,- - Cá bơn sao (Pleuronectes platessa),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,49
 03022300,- - Cá bơn sole (Solea spp.),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,49
 03022400,- - Cá bơn turbots (Psetta maxima),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,49
 03022900,"- - Loại khác - Cá ngừ đại dương (thuộc giống Thunnus), cá ngừ vằn (cá ngừ sọc dưa) (Euthynnus (Katsuwonus) pelamis), trừ các phụ phẩm ăn được sau giết mổ của cá thuộc các phân nhóm từ 0302.91 đến 0302.99:",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,49
 03023100,- - Cá ngừ vây dài (Thunnus alalunga),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,49
-03023200,- - Cá ngừ vây vàng (Thunnus albacares) - - Cá ngừ vằn (cá ngừ sọc dưa) (Katsuwonus,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,49
+03023200,- - Cá ngừ vây vàng (Thunnus albacares),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,49
 03023400,- - Cá ngừ mắt to (Thunnus obesus) - - Cá ngừ vây xanh Đại Tây Dương và Thái Bình,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,49
 03023900,- - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,49
 03024100,"- - Cá trích nước lạnh (Clupea harengus, Clupea pallasii)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,50
 03024200,"- - Cá cơm (cá trỏng) (Engraulis spp.) - - Cá trích dầu (Sardina pilchardus, Sardinops spp.)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,50
-03024300,"cá trích xương (Sardinella spp.), cá trích kê hoặc cá trích cơm (Sprattus sprattus) - - Cá nục hoa (Scomber scombrus, Scomber",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,50
+03024300,"- - Cá trích dầu (Sardina pilchardus, Sardinops spp.), cá trích xương (Sardinella spp.), cá trích kê hoặc cá trích cơm (Sprattus sprattus)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,50
 03024500,- - Cá nục gai và cá sòng (Trachurus spp.),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,50
 03024600,- - Cá giò (Rachycentron canadum),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,50
 03024700,- - Cá kiếm (Xiphias gladius),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,50
 03024900,"- - Loại khác - Cá thuộc các họ Bregmacerotidae, Euclichthyidae Gadidae, Macrouridae, Melanonidae, Merlucciidae Moridae và Muraenolepididae, trừ phụ phẩm ăn được sau giết mổ của cá thuộc các phân nhóm từ",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,50
-030291,đến 0302.99:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,50
+030291,"- - Gan, sẹ và bọc trứng cá",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,50
 03025200,- - Cá tuyết chấm đen (Melanogrammus aeglefinus),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,51
 03025300,- - Cá tuyết đen (Pollachius virens),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,51
-03025400,"- - Cá tuyết hake (Merluccius spp., Urophycis spp.) - - Cá Minh Thái (Alaska Pollack) (Theragra",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,51
-03025900,"- - Loại khác - Cá rô phi (Oreochromis spp.), cá da trơn (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.), cá chép (Cyprinus spp., Carassius spp Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Le...",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,51
-03027100,"- - Cá rô phi (Oreochromis spp.) - - Cá da trơn (Pangasius spp., Silurus spp., Clarias",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,51
+03025400,"- - Cá tuyết hake (Merluccius spp., Urophycis spp.)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,51
+03025900,- - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,51
+03027100,- - Cá rô phi (Oreochromis spp.),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,51
 03027210,- - - Cá tra đuôi vàng (Pangasius pangasius),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,51
-03027290,"- - - Loại khác - - Cá chép (Cyprinus spp., Carassius spp Ctenopharyngodon idellus, Hypophthalmichthys",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,51
-03027300,"spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,51
+03027290,- - - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,51
+03027300,"- - Cá chép (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,51
 03027400,- - Cá chình (Anguilla spp.),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,52
 03027900,"- - Loại khác - Cá khác, trừ các phụ phẩm ăn được sau giết mổ của cá thuộc các phân nhóm từ 0302.91 đến 0302.99:",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,52
 03028100,- - Cá nhám góc và cá mập khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,52
@@ -409,9 +409,9 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 03028911,- - - - Cá mú (SEN),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,52
 03028912,- - - - Cá bạc (Pentaprion longimanus),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,52
 03028913,"- - - - Cá mối hoa (Trachinocephalus myops) - - - - Cá hố savalai (Lepturacanthus savala), cá đù",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,52
-03028914,"Belanger (Johnius belangerii), cá đù Reeve (Chrysochir aureus) và cá đù mắt to (Pennahia anea)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,52
+03028914,"- - - - Cá hố savalai (Lepturacanthus savala), cá đù Belanger (Johnius belangerii), cá đù Reeve (Chrysochir aureus) và cá đù mắt to (Pennahia anea)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,52
 03028915,"- - - - Cá nhụ Ấn Độ (Polynemus indicus) - - - - Cá sòng gió (Megalaspis cordyla), cá hiên chấm",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,52
-03028916,(Drepane punctata) và cá nhồng lớn (Sphyraena barracuda),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,52
+03028916,"- - - - Cá sòng gió (Megalaspis cordyla), cá hiên chấm (Drepane punctata) và cá nhồng lớn (Sphyraena barracuda)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,52
 03028917,- - - - Cá chim đen (Parastromatus niger),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,52
 03028918,- - - - Cá hồng bạc (Lutjanus argentimaculatus),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,52
 03028919,- - - - Loại khác - - - Loại khác:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,52
@@ -422,13 +422,13 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 03029100,"- - Gan, sẹ và bọc trứng cá",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,53
 03029200,- - Vây cá mập,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,53
 03029900,"- - Loại khác Cá, đông lạnh, trừ phi-lê cá (fillets) và các loại",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,53
-03031100,"- - Cá hồi đỏ (Oncorhynchus nerka) - - Cá hồi Thái Bình Dương khác (Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,53
-03031900,"- - Loại khác - Cá rô phi (Oreochromis spp.), cá da trơn (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.), cá chép (Cyprinus spp., Carassius spp Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Le...",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,53
-03032300,"- - Cá rô phi (Oreochromis spp.) - - Cá da trơn (Pangasius spp., Silurus spp., Clarias",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,54
-03032500,"spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,54
+03031100,- - Cá hồi đỏ (Oncorhynchus nerka),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,53
+03031900,- - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,53
+03032300,- - Cá rô phi (Oreochromis spp.) (SEN),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,54
+03032500,"- - Cá chép (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,54
 03032600,- - Cá chình (Anguilla spp.),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,54
-03032900,"- - Loại khác - Cá bơn (Pleuronectidae, Bothidae, Cynoglossidae Soleidae, Scophthalmidae và Citharidae), trừ các phụ phẩm ăn được sau giết mổ của cá thuộc các phân nhóm từ 0303.91 đến 0303.99: - - Cá bơn lưỡi ngựa (Halibut) (Reinhardtius",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,54
-03033100,"hippoglossoides, Hippoglossus hippoglossus Hippoglossus stenolepis)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,54
+03032900,- - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,54
+03033100,"- - Cá bơn lưỡi ngựa (Halibut) (Reinhardtius hippoglossoides, Hippoglossus hippoglossus, Hippoglossus stenolepis)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,54
 03033200,- - Cá bơn sao (Pleuronectes platessa),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,54
 03033300,- - Cá bơn sole (Solea spp.),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,54
 03033400,- - Cá bơn turbot (Psetta maxima),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,54
@@ -438,18 +438,18 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 03034300,- - Cá ngừ vằn (cá ngừ sọc dưa) (Katsuwonus pelamis),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,55
 03034400,- - Cá ngừ mắt to (Thunnus obesus) - - Cá ngừ vây xanh Đại Tây Dương và Thái Bình,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,55
 03034600,- - Cá ngừ vây xanh phương Nam (Thunnus maccoyii),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,55
-03034900,"- - Loại khác - Cá trích nước lạnh (Clupea harengus, Clupea pallasii), cá cơm (cá trỏng) (Engraulis spp.), Cá trích dầu (Sardina pilchardus, Sardinops spp.), cá trích xương (Sardinella spp.), cá trích kê hoặc cá trích cơm (Sprattus sprattus), cá nục hoa (Scomber scombrus, Scomber australasicus, S...",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,55
-03035300,"cá trích xương (Sardinella spp.), cá trích kê hoặc cá trích cơm (Sprattus sprattus)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,55
+03034900,- - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,55
+03035300,"- - Cá trích dầu (Sardina pilchardus, Sardinops spp.), cá trích xương (Sardinella spp.), cá trích kê hoặc cá trích cơm (Sprattus sprattus)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,55
 03035500,- - Cá nục gai và cá sòng (Trachurus spp.),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,56
 03035600,- - Cá giò (Rachycentron canadum),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,56
 03035700,- - Cá kiếm (Xiphias gladius),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,56
 030359,- - Loại khác: - - - Cá bạc má (Rastrelliger kanagurta); cá bạc má,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,56
 03035920,- - - Cá chim trắng (Pampus spp.),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,56
 03035990,"- - - Loại khác - Cá thuộc các họ Bregmacerotidae, Euclichthyidae Gadidae, Macrouridae, Melanonidae, Merlucciidae Moridae và Muraenolepididae, trừ các phụ phẩm ăn được sau giết mổ của cá thuộc các phân nhóm từ",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,56
-030391,"đến 0303.99: - - Cá tuyết (Gadus morhua, Gadus ogac, Gadus",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,56
+030391,"- - Gan, sẹ và bọc trứng cá",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,56
 03036400,- - Cá tuyết chấm đen (Melanogrammus aeglefinus),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,56
 03036500,- - Cá tuyết đen (Pollachius virens),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,56
-03036600,"- - Cá tuyết hake (Merluccius spp., Urophycis spp.) - - Cá Minh Thái (Alaska Pollack) (Theragra",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,56
+03036600,"- - Cá tuyết hake (Merluccius spp., Urophycis spp.)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,56
 03036900,- - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,56
 03038100,- - Cá nhám góc và cá mập khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,57
 03038200,- - Cá đuối (Rajidae),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,57
@@ -458,59 +458,59 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 030389,- - Loại khác: - - - Cá biển:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,57
 03038911,- - - - Cá mú (SEN),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,57
 03038913,"- - - - Cá mối hoa (Trachinocephalus myops) - - - - Cá hố savalai (Lepturacanthus savala), cá đù",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,57
-03038914,"Belanger (Johnius belangerii), cá đù Reeve (Chrysochir aureus) và cá đù mắt to (Pennahia anea)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,57
+03038914,"- - - - Cá hố savalai (Lepturacanthus savala), cá đù Belanger (Johnius belangerii), cá đù Reeve (Chrysochir aureus) và cá đù mắt to (Pennahia anea)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,57
 03038915,"- - - - Cá nhụ Ấn Độ (Polynemus indicus) - - - - Cá sòng gió (Megalaspis cordyla), cá hiên",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,57
-03038916,chấm (Drepane punctata) và cá nhồng lớn (Sphyraena barracuda),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,57
+03038916,"- - - - Cá sòng gió (Megalaspis cordyla), cá hiên chấm (Drepane punctata) và cá nhồng lớn (Sphyraena barracuda)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,57
 03038917,- - - - Cá chim đen (Parastromatus niger),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,57
 03038918,- - - - Cá hồng bạc (Lutjanus argentimaculatus),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,57
 03038919,- - - - Loại khác - - - Loại khác:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,57
 03038922,- - - - Cá đòng đong đầm lầy (Puntius chola),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,57
 03038923,- - - - Cá măng biển (Chanos chanos) (SEN),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,57
 03038924,- - - - Cá sạo bạc (Pomadasys argenteus),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,57
-03038927,- - - - Cá mòi Hilsa (Tenualosa ilisha) - - - - Cá leo (Wallago attu) và cá tra dầu (Sperata,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,57
+03038927,- - - - Cá mòi Hilsa (Tenualosa ilisha),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,57
 03038929,- - - - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,57
 03039100,"- - Gan, sẹ và bọc trứng cá",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,58
 03039200,- - Vây cá mập,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,58
-03039900,- - Loại khác Phi-lê cá và các loại thịt cá khác (đã hoặc chưa,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,58
-03043100,"- - Cá rô phi (Oreochromis spp.) - - Cá da trơn (Pangasius spp., Silurus spp., Clarias",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,58
+03039900,- - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,58
+03043100,- - Cá rô phi (Oreochromis spp.) (SEN),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,58
 03043300,- - Cá rô sông Nile (Lates niloticus),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,58
-03043900,"- - Loại khác - Phi-lê cá tươi hoặc ướp lạnh của các loại cá khác: - - Cá hồi Thái Bình Dương (Oncorhynchus nerka Oncorhynchus gorbuscha, Oncorhynchus keta Oncorhynchus tschawytscha, Oncorhynchus kisutch",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,58
-03044400,"Gadidae, Macrouridae, Melanonidae, Merlucciidae Moridae và Muraenolepididae",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,59
+03043900,- - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,58
+03044400,"- - Cá thuộc các họ Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae và Muraenolepididae",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,59
 03044500,- - Cá kiếm (Xiphias gladius),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,59
 03044600,- - Cá răng cưa (Dissostichus spp.),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,59
 03044700,- - Cá nhám góc và cá mập khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,59
 03044800,- - Cá đuối (Rajidae),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,59
-03044900,"- - Loại khác - Loại khác, tươi hoặc ướp lạnh: - - Cá rô phi (Oreochromis spp.), cá da trơn (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.), cá chép (Cyprinus spp., Carassius spp Ctenopharyngodon idellus, Hypophthalmichthys",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,59
-03045100,"spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.), cá chình (Anguilla spp.), cá rô sông Nile (Lates niloticus) và cá quả (cá chuối hoặc cá lóc) (Channa spp.)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,59
+03044900,- - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,59
+03045100,"- - Cá rô phi (Oreochromis spp.), cá da trơn (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.), cá chép (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.), cá chình (Anguilla spp.), cá rô sông Nile (Lates niloticus) và cá quả (cá chuối hoặc cá lóc) (Channa spp.)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,59
 03045200,"- - Cá hồi - - Cá thuộc các họ Bregmacerotidae, Euclichthyidae",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,59
-03045300,"Gadidae, Macrouridae, Melanonidae, Merlucciidae Moridae và Muraenolepididae",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,59
+03045300,"- - Cá thuộc các họ Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae và Muraenolepididae",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,59
 03045400,- - Cá kiếm (Xiphias gladius),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,59
 03045500,- - Cá răng cưa (Dissostichus spp.),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,59
 03045600,- - Cá nhám góc và cá mập khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,59
 03045700,- - Cá đuối (Rajidae),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,60
-03045900,"- - Loại khác - Phi-lê đông lạnh của cá rô phi (Oreochromis spp.) cá da trơn (Pangasius spp., Silurus spp., Clarias spp Ictalurus spp.), cá chép (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Oste...",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,60
-03046100,"- - Cá rô phi (Oreochromis spp.) - - Cá da trơn (Pangasius spp., Silurus spp., Clarias",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,60
+03045900,- - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,60
+03046100,- - Cá rô phi (Oreochromis spp.) (SEN),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,60
 03046300,- - Cá rô sông Nile (Lates niloticus),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,60
-03046900,"- - Loại khác - Phi-lê đông lạnh của cá thuộc các họ Bregmacerotidae Euclichthyidae, Gadidae, Macrouridae, Melanonidae Merlucciidae, Moridae và Muraenolepididae: - - Cá tuyết (Gadus morhua, Gadus ogac, Gadus",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,60
+03046900,- - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,60
 03047200,- - Cá tuyết chấm đen (Melanogrammus aeglefinus),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,60
 03047300,- - Cá tuyết đen (Pollachius virens),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,60
-03047400,"- - Cá tuyết hake (Merluccius spp., Urophycis spp.) - - Cá Minh Thái (Alaska Pollack) (Theragra",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,60
-03047900,- - Loại khác - Phi-lê đông lạnh của các loại cá khác: - - Cá hồi Thái Bình Dương (Oncorhynchus nerka,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,60
+03047400,"- - Cá tuyết hake (Merluccius spp., Urophycis spp.)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,60
+03047900,- - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,60
 03048400,- - Cá kiếm (Xiphias gladius),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,61
-03048500,"- - Cá răng cưa (Dissostichus spp.) - - Cá trích nước lạnh (Clupea harengus, Clupea",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,61
+03048500,- - Cá răng cưa (Dissostichus spp.),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,61
 03048800,"- - Cá nhám góc, cá mập khác, cá đuối (Rajidae)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,61
 030489,- - Loại khác:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,61
 03048910,- - - Cá nục heo cờ (Coryphaena hippurus) (SEN),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,61
 03048990,"- - - Loại khác - Loại khác, đông lạnh:",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,61
 03049100,- - Cá kiếm (Xiphias gladius),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,61
-03049200,"- - Cá răng cưa (Dissostichus spp.) - - Cá rô phi (Oreochromis spp.), cá da trơn (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.), cá chép (Cyprinus spp., Carassius spp Ctenopharyngodon idellus, Hypophthalmichthys",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,61
-03049300,"spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.), cá chình (Anguilla spp.), cá rô sông Nile (Lates niloticus) và cá quả (cá chuối hoặc cá lóc) (Channa spp.)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,61
+03049200,- - Cá răng cưa (Dissostichus spp.),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,61
+03049300,"- - Cá rô phi (Oreochromis spp.), cá da trơn (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.), cá chép (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.), cá chình (Anguilla spp.), cá rô sông Nile (Lates niloticus) và cá quả (cá chuối hoặc cá lóc) (Channa spp.)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,61
 03049600,- - Cá nhám góc và cá mập khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,62
 03049700,- - Cá đuối (Rajidae),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,62
 030499,- - Loại khác:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,62
 03049910,- - - Surimi (thịt cá xay) (SEN),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,62
 03049990,- - - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,62
-0306,"khói, hóa chất trước hoặc trong quá trình hun khói; động vật ướp muối giáp xác chưa bóc mai, vỏ, đã hấp chín hoặc luộc ngâm nước chín trong nước, đã hoặc chưa ướp lạnh, đông muối, lên lạnh, khô, muối, hoặc ngâm nước muối men,...) - Đông lạnh: - - Tôm hùm đá và các loại tôm biển khác (Palinurus",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,62
+0306,"Động vật giáp xác, đã hoặc chưa bóc mai, vỏ, sống, tươi, ướp lạnh, đông lạnh, khô, muối hoặc ngâm nước muối; động vật giáp xác hun khói, đã hoặc chưa bóc mai, vỏ, đã hoặc chưa làm chín trước hoặc trong quá trình hun khói; động vật giáp xác chưa bóc mai, vỏ, đã hấp chín hoặc luộc chín trong nước, đã hoặc chưa ướp lạnh, đông lạnh, khô, muối, hoặc ngâm nước muối",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,62
 03061190,- - - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,62
 030612,- - Tôm hùm (Homarus spp.):,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,62
 03061290,- - - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,62
@@ -519,7 +519,7 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 03061492,- - - - Cua hoàng đế/cua vua Alaska (thuộc họ Lithodidae),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,63
 03061493,- - - - Cua tuyết (thuộc họ Origoniidae),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,63
 03061499,- - - - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,63
-03061500,- - Tôm hùm Na Uy (Nephrops norvegicus) - - Tôm shrimps và tôm prawn nước lạnh (Pandalus,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,63
+03061500,- - Tôm hùm Na Uy (Nephrops norvegicus),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,63
 030617,- - Tôm shrimps và tôm prawn khác: - - - Tôm sú (Penaeus monodon):,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,63
 03061711,- - - - Đã bỏ đầu,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,63
 03061719,- - - - Loại khác - - - Tôm thẻ chân trắng (Litopenaeus vannamei):,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,63
@@ -527,7 +527,7 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 03061722,"- - - - Đã bỏ đầu, bỏ đuôi",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,63
 03061729,- - - - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,63
 03061730,- - - Tôm càng xanh (Macrobrachium rosenbergii),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,63
-03061790,"- - - Loại khác - Sống, tươi hoặc ướp lạnh: - - Tôm hùm đá và các loại tôm biển khác (Palinurus spp",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,63
+03061790,- - - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,63
 03063110,- - - Để nhân giống,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,63
 03063120,"- - - Loại khác, sống",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,63
 03063130,- - - Tươi hoặc ướp lạnh,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,63
@@ -540,7 +540,7 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 03063312,- - - - Tươi hoặc ướp lạnh - - - Loại khác:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,64
 03063391,- - - - Sống,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,64
 03063392,- - - - Tươi hoặc ướp lạnh,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,64
-03063400,- - Tôm hùm Na Uy (Nephrops norvegicus) - - Tôm shrimps và tôm prawn nước lạnh (Pandalus,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,64
+03063400,- - Tôm hùm Na Uy (Nephrops norvegicus),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,64
 03063510,- - - Để nhân giống (SEN),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,64
 03063520,"- - - Loại khác, sống",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,64
 03063530,- - - Tươi hoặc ướp lạnh,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,64
@@ -559,7 +559,7 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 03063639,- - - - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,65
 030639,- - Loại khác:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,65
 03063910,- - - Sống,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,65
-03063920,- - - Tươi hoặc ướp lạnh - Loại khác: - - Tôm hùm đá và các loại tôm biển khác (Palinurus,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,65
+03063920,- - - Tươi hoặc ướp lạnh,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,65
 03069129,- - - - Loại khác - - - Loại khác:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,65
 03069139,- - - - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,65
 030692,- - Tôm hùm (Homarus spp.): - - - Đóng bao bì kín khí để bán lẻ:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,65
@@ -576,8 +576,8 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 03069530,- - - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,66
 030699,- - Loại khác - - - Đóng bao bì kín khí để bán lẻ:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,66
 03069929,- - - - Loại khác - - - Loại khác:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,66
-03069939,"- - - - Loại khác phẩm đã chế Động vật thân mềm, đã hoặc chưa bóc mai, vỏ, biến (nhiệt, sấy sống, tươi, ướp lạnh, đông lạnh, khô, muối hoặc khô, xông",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,Trừ các sản,,66
-0307,"ngâm nước muối; động vật thân mềm hun khói, khói, hóa chất đã hoặc chưa bóc mai, vỏ, đã hoặc chưa làm chín ướp muối trước hoặc trong quá trình hun khói. ngâm nước muối, lên men…) - Hàu:",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,66
+03069939,- - - - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,Trừ các sản,,66
+0307,"Động vật thân mềm, đã hoặc chưa bóc mai, vỏ, sống, tươi, ướp lạnh, đông lạnh, khô, muối hoặc ngâm nước muối; động vật thân mềm hun khói, đã hoặc chưa bóc mai, vỏ, đã hoặc chưa làm chín trước hoặc trong quá trình hun khói",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,66
 030711,"- - Sống, tươi hoặc ướp lạnh:",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,66
 03071110,- - - Sống,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,66
 03071120,- - - Tươi hoặc ướp lạnh,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,66
@@ -590,13 +590,13 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 03073110,- - - Sống,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,67
 03073120,- - - Tươi hoặc ướp lạnh,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,67
 03073200,- - Đông lạnh - Mực nang và mực ống:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,67
-030742,"- - Sống, tươi hoặc ướp lạnh: - - - Sống: - - - - Mực nang (Sepia officinalis, Rossia macrosoma",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,67
-03074211,"Sepiola spp.) và mực ống (Ommastrephes spp Loligo spp., Nototodarus spp., Sepioteuthis spp.)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,67
-03074219,"- - - - Loại khác - - - Tươi hoặc ướp lạnh: - - - - Mực nang (Sepia officinalis, Rossia macrosoma",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,67
-03074221,"Sepiola spp.) và mực ống (Ommastrephes spp Loligo spp., Nototodarus spp., Sepioteuthis spp.)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,67
+030742,"- - Sống, tươi hoặc ướp lạnh:",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,67
+03074211,"- - - - Mực nang (Sepia officinalis, Rossia macrosoma, Sepiola spp.) và mực ống (Ommastrephes spp., Loligo spp., Nototodarus spp., Sepioteuthis spp.)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,67
+03074219,- - - - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,67
+03074221,"- - - - Mực nang (Sepia officinalis, Rossia macrosoma, Sepiola spp.) và mực ống (Ommastrephes spp., Loligo spp., Nototodarus spp., Sepioteuthis spp.)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,67
 03074229,- - - - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,67
-030743,"- - Đông lạnh: - - - Mực nang (Sepia officinalis, Rossia macrosoma",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,67
-03074310,"Sepiola spp.) và mực ống (Ommastrephes spp Loligo spp., Nototodarus spp., Sepioteuthis spp.)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,67
+030743,- - Đông lạnh:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,67
+03074310,"- - - Mực nang (Sepia officinalis, Rossia macrosoma, Sepiola spp.) và mực ống (Ommastrephes spp., Loligo spp., Nototodarus spp., Sepioteuthis spp.)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,67
 03074390,- - - Loại khác - Bạch tuộc (Octopus spp.):,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,67
 030751,"- - Sống, tươi hoặc ướp lạnh:",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,67
 03075110,- - - Sống,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,67
@@ -621,7 +621,7 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 03079110,- - - Sống,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,68
 03079120,- - - Tươi hoặc ướp lạnh,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,68
 03079200,- - Đông lạnh,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,68
-0308,"muối; động vật thủy sinh không xương sống hun khói, hóa chất khói trừ động vật giáp xác và động vật thân mềm, ướp muối đã hoặc chưa làm chín trước hoặc trong quá trình ngâm nước hun khói muối, lên men,…) - Hải sâm (Stichopus japonicus, Holothurioidea):",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,69
+0308,"Động vật thủy sinh không xương sống trừ động vật giáp xác và động vật thân mềm, sống, tươi, ướp lạnh, đông lạnh, khô, muối hoặc ngâm nước muối; động vật thủy sinh không xương sống hun khói trừ động vật giáp xác và động vật thân mềm, đã hoặc chưa làm chín trước hoặc trong quá trình hun khói",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,69
 030811,"- - Sống, tươi hoặc ướp lạnh:",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,69
 03081110,- - - Sống,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,69
 03081120,- - - Tươi hoặc ướp lạnh,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,69
@@ -638,12 +638,12 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 03089010,- - Sống,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,69
 03089020,- - Tươi hoặc ướp lạnh,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,69
 03089030,- - Đông lạnh,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,69
-0511,"hoặc ghi ở nơi khác; động vật chết thuộc Chương 1 hoặc Chương 3, không thích hợp sử dụng cho người - - Sản phẩm từ cá hoặc động vật giáp xác, động vật",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,70
-051191,thân mềm hoặc động vật thủy sinh không xương sống khác; động vật đã chết thuộc Chương 3:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,70
+0511,"Các sản phẩm động vật khác chưa được chi tiết hoặc ghi ở nơi khác; động vật chết thuộc Chương 1 hoặc Chương 3, không thích hợp sử dụng cho người",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,70
+051191,"- - Sản phẩm từ cá hoặc động vật giáp xác, động vật thân mềm hoặc động vật thủy sinh không xương sống khác; động vật đã chết thuộc Chương 3:",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,70
 05119110,- - - Sẹ và bọc trứng,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,70
-051199,- - Loại khác: (Áp dụng đối với sản phẩm,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,70
-05119910,"- - - Tinh dịch động vật nuôi của động vật thủy sản nuôi) phẩm đã chế biến (nhiệt, sấy Cá đã được chế biến hay bảo quản; trứng cá tầm khô, xông",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,Trừ các sản,,70
-1604,"muối và sản phẩm thay thế trứng cá tầm muối khói, hóa chất chế biến từ trứng cá ướp muối ngâm nước muối, lên men…) - Cá, nguyên con hoặc dạng miếng, nhưng chưa cắt nhỏ:",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,70
+051199,- - Loại khác:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,70
+05119910,- - - Tinh dịch động vật nuôi (Áp dụng đối với sản phẩm của động vật thủy sản nuôi),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,Trừ các sản,,70
+1604,Cá đã được chế biến hoặc bảo quản; trứng cá tầm muối và sản phẩm thay thế trứng cá tầm muối chế biến từ trứng cá,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,70
 160411,- - Từ cá hồi:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,70
 16041110,- - - Đóng bao bì kín khí để bán lẻ,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,70
 16041190,- - - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,70
@@ -672,8 +672,8 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 16042030,- - Cá viên,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,72
 16042040,- - Cá dạng bột nhão - - Loại khác:,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,72
 16042091,- - - Đóng bao bì kín khí để bán lẻ,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,72
-16042099,"- - - Loại khác đã chế biến Động vật giáp xác, động vật thân mềm và động (nhiệt, sấy khô",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,Trừ các sản phẩm,,72
-1605,"vật thủy sinh không xương sống khác, đã được xông khói, hóa chế biến hoặc bảo quản chất, ướp muối ngâm nước muối, lên men...)",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,72
+16042099,- - - Loại khác,Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,Trừ các sản phẩm,,72
+1605,"Động vật giáp xác, động vật thân mềm và động vật thủy sinh không xương sống khác, đã được chế biến hoặc bảo quản",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,72
 160510,"- Cua, ghẹ: - - Đóng bao bì kín khí để bán lẻ:",Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,72
 16051011,- - - Ghẹ (thuộc họ Portunidae),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,72
 16051012,- - - Cua hoàng đế/cua vua Alaska (cua thuộc họ Lithodidae),Mục 5,Phụ lục I,KIEM_DICH_DONG_VAT,,,,72
@@ -709,24 +709,24 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 01069000,- Loại khác: Ba ba gai (Palea steindachneri); Ba ba hoa kg/con (Pelodiscus sinensis); Ba ba Nam Bộ (Amyda cartilaginea) Ba ba trơn (Trionyx sinensis); Ếch đồng (Hoplobatrachus tigerinus); Ếch Thái Lan (Hoplobatrachus rugulosus),Mục 6,Phụ lục I,KHAC,,,,74
 0301,Cá sống - Cá cảnh:,Mục 6,Phụ lục I,KHAC,,,,74
 030111,- - Cá nước ngọt:,Mục 6,Phụ lục I,KHAC,,,,74
-03011110,- - - Cá bột: Cá ali (Sciaenochromis ahli); Cá anh vũ kg/con (Semilabeo notabilis); Cá ba lưỡi (Barbichthys laevis); Cá ba sa (Pangasius bocourti); Cá bã trầu (Trichopsis vittata) Cá bạc đầu (Aplocheilus panchax); Cá bánh lái/Cá cánh buồm (Gymnocorymbus ternetzi); Cá bảy màu/Cá khổng tước (Poecil...,Mục 6,Phụ lục I,KHAC,,,,74
+03011110,- - - Cá bột: Cá ali (Sciaenochromis ahli); Cá anh vũ (Semilabeo notabilis); Cá ba lưỡi (Barbichthys laevis); Cá ba sa (Pangasius bocourti); Cá bã trầu (Trichopsis vittata); Cá bạc đầu (Aplocheilus panchax); Cá bánh lái/Cá cánh buồm (Gymnocorymbus ternetzi); Cá bảy màu/Cá khổng tước (Poecilia reticulata),Mục 6,Phụ lục I,KHAC,,,,74
 03011191,- - - - Cá chép Koi (Cyprinus carpio) kg/con,Mục 6,Phụ lục I,KHAC,,,,78
 03011192,- - - - Cá vàng (Carassius auratus) kg/con,Mục 6,Phụ lục I,KHAC,,,,78
 03011195,- - - - Cá rồng (Scleropages formosus) kg/con,Mục 6,Phụ lục I,KHAC,,,,78
-03011199,- - - - Loại khác: ( (Sciaenochromis ahli); Cá anh vũ (Semilabeo notabilis) Cá ba lưỡi (Barbichthys laevis); Cá ba sa (Pangasius bocourti); Cá bã trầu (Trichopsis vittata); Cá bạc đầu (Aplocheilus panchax); Cá bánh lái/Cá cánh buồm (Gymnocorymbus ternetzi); Cá bảy màu/Cá khổng tước (Poecilia reti...,Mục 6,Phụ lục I,KHAC,,"trừ cá Koi, cá vàng và cá rồng): Cá ali kg/con",,78
+03011199,"- - - - Loại khác (trừ cá Koi, cá vàng và cá rồng): Cá ali (Sciaenochromis ahli); Cá anh vũ (Semilabeo notabilis); Cá ba lưỡi (Barbichthys laevis); Cá ba sa (Pangasius bocourti); Cá bã trầu (Trichopsis vittata); Cá bạc đầu (Aplocheilus panchax); Cá bánh lái/Cá cánh buồm (Gymnocorymbus ternetzi); Cá bảy màu/Cá khổng tước (Poecilia reticulata)",Mục 6,Phụ lục I,KHAC,,"trừ cá Koi, cá vàng và cá rồng): Cá ali kg/con",,78
 030119,- - Loại khác (cá mặn lợ):,Mục 6,Phụ lục I,KHAC,,,,82
-03011910,"- - - Cá bột (làm giống, nhân giống): Cá bè quỵt/Cá bè kg/con vẩu/Cá khế vây vàng (Caranx ignobilis); Cá bò (Tachysurus fulvidraco); Cá bơn cát (Cynoglossus robustus); Cá bơn mào (Samaris cristatus); Cá bơn ngộ (Psettodes erumei); Cá bơn vằn răng to (Pseudorhombus arsius); Cá bơn vỉ (Paralichthys...",Mục 6,Phụ lục I,KHAC,,,,82
-03011990,"- - - Loại khác (ấu trùng, cá hương, cá giống, cá trưởng, cá kg/con bố mẹ thành sử dụng nhân giống, làm giống; trừ cá bột): Cá bè quỵt/Cá bè vẩu/Cá khế vây vàng (Caranx ignobilis); Cá bò (Tachysurus fulvidraco); Cá bơn cát (Cynoglossus robustus); Cá bơn mào (Samaris cristatus); Cá bơn ngộ (Psetto...",Mục 6,Phụ lục I,KHAC,,,,85
+03011910,"- - - Cá bột (làm giống, nhân giống): Cá bè quỵt/Cá bè vẩu/Cá khế vây vàng (Caranx ignobilis); Cá bò (Tachysurus fulvidraco); Cá bơn cát (Cynoglossus robustus); Cá bơn mào (Samaris cristatus); Cá bơn ngộ (Psettodes erumei); Cá bơn vằn răng to (Pseudorhombus arsius); Cá bơn vỉ (Paralichthys olivaceus)",Mục 6,Phụ lục I,KHAC,,,,82
+03011990,"- - - Loại khác (ấu trùng, cá hương, cá giống, cá trưởng, cá bố mẹ thành sử dụng nhân giống, làm giống; trừ cá bột): Cá bè quỵt/Cá bè vẩu/Cá khế vây vàng (Caranx ignobilis); Cá bò (Tachysurus fulvidraco); Cá bơn cát (Cynoglossus robustus); Cá bơn mào (Samaris cristatus); Cá bơn ngộ (Psettodes erumei)",Mục 6,Phụ lục I,KHAC,,,,85
 03019100,- - Cá hồi vân (Oncorhynchus mykiss) kg/con,Mục 6,Phụ lục I,KHAC,,,,88
 03019200,- - Cá chình (Anguilla spp.): Cá chình châu Âu (Anguilla kg/con anguilla); Cá chình hoa (Anguilla marmorata); Cá chình mun (Anguilla bicolor); Cá chình Nhật Bản (Anguilla japonica); Cá chình nhọn (Anguilla borneensis),Mục 6,Phụ lục I,KHAC,,,,88
-030193,"- - Cá chép (Cyprinus spp., Carassius spp., kg/con Ctenopharyngodon idellus, Hypophthalmichthys spp Cirrhinus spp., Mylopharyngodon piceus, Catla catla Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni Megalobrama spp.): - - - Cá chép: Cá Koi (Cyprinus carpio rubrofuscus); Cá kg/con chép (Cyp...",Mục 6,Phụ lục I,KHAC,,,,88
+030193,"- - Cá chép (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.): - - - Cá chép: Cá Koi (Cyprinus carpio rubrofuscus); Cá chép (Cyprinus carpio)",Mục 6,Phụ lục I,KHAC,,,,88
 03019321,"- - - - Để nhân giống (cá hương, cá giống, cá trưởng thành, kg/con cá bố mẹ, trừ cá bột (SEN))",Mục 6,Phụ lục I,KHAC,,,,88
 03019322,- - - - Cá bột kg/con,Mục 6,Phụ lục I,KHAC,,,,89
 03019329,- - - - Loại khác kg/con - - - Cá chép: Cá trôi Ấn Độ (Labeo rohita); Cá ét mọi (Labeo chrysophekadion); Cá chài (Leptobarbus hoevenii) Cá vền (Megalobrama terminalis),Mục 6,Phụ lục I,KHAC,,,,89
 03019331,"- - - - Để nhân giống (cá hương, cá giống, cá trưởng thành, kg/con cá bố mẹ, trừ cá bột (SEN))",Mục 6,Phụ lục I,KHAC,,,,89
 03019332,- - - - Cá bột kg/con,Mục 6,Phụ lục I,KHAC,,,,89
 03019339,- - - - Loại khác kg/con,Mục 6,Phụ lục I,KHAC,,,,89
-030199,- - Loại khác ( - - - Cá bột của cá măng biển và của cá mú: Cá mú (Cá song) chấm tổ ong (Epinephelus merra); Cá mú (Cá song) chuột (Cromileptes altivelis),Mục 6,Phụ lục I,KHAC,,"trừ cá hồi, cá chình, cá chép):",,89
+030199,"- - Loại khác (trừ cá hồi, cá chình, cá chép): - - - Cá bột của cá măng biển và của cá mú: Cá mú (Cá song) chấm tổ ong (Epinephelus merra); Cá mú (Cá song) chuột (Cromileptes altivelis)",Mục 6,Phụ lục I,KHAC,,"trừ cá hồi, cá chình, cá chép):",,89
 03019911,- - - - Để nhân giống (SEN) kg/con,Mục 6,Phụ lục I,KHAC,,,,89
 03019919,- - - - Loại khác kg/con - - - Cá bột loại khác (trừ cá bột của cá măng biển và của cá mú):,Mục 6,Phụ lục I,KHAC,,trừ cá bột của cá măng biển và của cá mú,,89
 03019924,- - - - Loại khác (cá bột loại khác; chép; trừ cá bột của cá măng biển và của cá mú; trừ cá chép khác để nhân giống (SEN); trừ cá chép loại khác (SEN) để nhân giống): Cá ali (Sciaenochromis ahli); Cá anh vũ (Semilabeo notabilis); Cá ba lưỡi (Barbichthys laevis); Cá ba sa (Pangasius bocourti); Cá ...,Mục 6,Phụ lục I,KHAC,,"trừ cá hồi, cá chình, cá kg/con",,89
@@ -734,11 +734,11 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 03019933,- - - - Cá mú chấm nhỏ (Plectropomus leopardus) (SEN) kg/con,Mục 6,Phụ lục I,KHAC,,,,102
 03019934,- - - - Cá mú hoa nâu/cá mú cọp (Epinephelus kg/con fuscoguttatus) (SEN),Mục 6,Phụ lục I,KHAC,,,,102
 03019935,- - - - Cá mú dẹt (Cromileptes altivelis) (SEN) kg/con,Mục 6,Phụ lục I,KHAC,,,,102
-03019936,"- - - - Cá mú loại khác ( nâu, cá mú dẹt): Cá mú (Cá song) chấm đen (Epinephelus malabaricus); Cá mú (Cá song) chấm đỏ (Epinephelus akaara); Cá mú (Cá song) chấm gai (Epinephelus",Mục 6,Phụ lục I,KHAC,,"trừ cá mú chấm nhỏ, cá mú hoa",,102
+03019936,"- - - - Cá mú loại khác (trừ cá mú chấm nhỏ, cá mú hoa nâu, cá mú dẹt): Cá mú (Cá song) chấm đen (Epinephelus malabaricus); Cá mú (Cá song) chấm đỏ (Epinephelus akaara); Cá mú (Cá song) chấm gai (Epinephelus diacanthus)",Mục 6,Phụ lục I,KHAC,,"trừ cá mú chấm nhỏ, cá mú hoa",,102
 03019941,- - - - Cá rô phi (Oreochromis spp.) (SEN): Cá diêu hồng kg/con (Oreochromis sp); Cá rô phi vằn (Oreochromis niloticus) Cá rô phi xanh (Oreochromis aureus),Mục 6,Phụ lục I,KHAC,,,,103
-03019949,"- - - - Loại khác (cá sử dụng làm giống, nhân giống; chình, cá hồi, cá chép, cá chép khác, cá chép loại khác, cá rô phi): Cá ali (Sciaenochromis ahli); Cá anh vũ (Semilabeo notabilis); Cá ba lưỡi (Barbichthys laevis); Cá ba sa (Pangasius bocourti); Cá bã trầu (Trichopsis vittata) Cá bạc đầu (Aplo...",Mục 6,Phụ lục I,KHAC,,trừ cá kg/con,,103
+03019949,"- - - - Loại khác (cá sử dụng làm giống, nhân giống; trừ cá chình, cá hồi, cá chép, cá chép khác, cá chép loại khác, cá rô phi): Cá ali (Sciaenochromis ahli); Cá anh vũ (Semilabeo notabilis); Cá ba lưỡi (Barbichthys laevis); Cá ba sa (Pangasius bocourti); Cá bã trầu (Trichopsis vittata); Cá bạc đầu (Aplocheilus panchax)",Mục 6,Phụ lục I,KHAC,,trừ cá kg/con,,103
 03019950,"- - - Cá biển khác (ấu trùng, cá hương, cá giống, cá trưởng kg/con thành, cá bố mẹ sử dụng làm giống, nhân giống; trừ cá măng biển, cá mú): Cá bè quỵt/Cá bè vẩu/Cá khế vây vàng (Caranx ignobilis); Cá bò (Tachysurus fulvidraco); Cá bơn cát (Cynoglossus robustus); Cá bơn mào (Samaris cristatus) Cá ...",Mục 6,Phụ lục I,KHAC,,,,107
-03019990,"- - - Loại khác (có thể ấu trùng, cá bột, cá hương, cá giống, kg/con cá trưởng thành, cá bố mẹ sống được cả hai môi trường nước ngọt, mặn hoặc là cá di cư theo vòng đời làm giống nhân giống): Cá bè quỵt/Cá bè vẩu/Cá khế vây vàng (Caranx ignobilis); Cá bò (Tachysurus fulvidraco); Cá bơn cát (Cynog...",Mục 6,Phụ lục I,KHAC,,,,110
+03019990,"- - - Loại khác (có thể ấu trùng, cá bột, cá hương, cá giống, cá trưởng thành, cá bố mẹ sống được cả hai môi trường nước ngọt, mặn hoặc là cá di cư theo vòng đời làm giống nhân giống): Cá bè quỵt/Cá bè vẩu/Cá khế vây vàng (Caranx ignobilis); Cá bò (Tachysurus fulvidraco); Cá bơn cát (Cynoglossus robustus)",Mục 6,Phụ lục I,KHAC,,,,110
 0306,"Động vật giáp xác, đã hoặc chưa bóc mai, vỏ, sống, tươi ướp lạnh, đông lạnh, khô, muối hoặc ngâm nước muối động vật giáp xác hun khói, đã hoặc chưa bóc mai, vỏ",Mục 6,Phụ lục I,KHAC,,,,116
 030631,- - Tôm hùm đá và các loại tôm biển khác: Tôm hùm bông (Panulirus ornatus); Tôm hùm đá (Panulirus homarus) Tôm hùm đỏ (Panulirus longipes); Tôm hùm lông/Tôm hùm sỏi/Tôm hùm mốc (Panulirus stimpsoni) ;Tôm hùm ma (Panulirus penicillatus); Tôm hùm xám/Tôm hùm tre/Tôm hùm bùn (Panulirus polyphagus); ...,Mục 6,Phụ lục I,KHAC,,,,117
 03063110,- - - Để nhân giống kg,Mục 6,Phụ lục I,KHAC,,,,117
@@ -753,11 +753,11 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 03063621,- - - - Tôm sú (Penaeus monodon) kg,Mục 6,Phụ lục I,KHAC,,,,118
 03063622,- - - - Tôm thẻ chân trắng (Litopenaeus vannamei/Penaeus kg vannamei),Mục 6,Phụ lục I,KHAC,,,,118
 03063623,- - - - Tôm càng xanh (Macrobrachium rosenbergii) kg,Mục 6,Phụ lục I,KHAC,,,,118
-03063629,- - - - Loại khác: Tôm càng sông (Macrobrachium kg nipponense); Tôm he Ấn Độ (Penaeus indicus;) Tôm he Nhật Bản (Penaeus japonicus); Tôm mũ ni (Ibacus ciliatus); Tôm mũ ni đỏ (Scyllarides squammosus); Tôm mũ ni trắng (Thenus orientalis); Tôm mùa/Tôm lớt (Penaeus merguiensis); Tôm nương (Penaeus c...,Mục 6,Phụ lục I,KHAC,,,,118
-030639,- - Loại khác ( prawn khác): Tôm mũ ni (Ibacus ciliatus); Tôm mũ ni đỏ (Scyllarides squammosus); Tôm mũ ni trắng (Thenus orientalis); Tôm mùa/Tôm lớt (Penaeus merguiensis) Tôm nương (Penaeus chinensis); Tôm rảo (Metapenaeus ensis); Tôm thẻ rằn (Penaeus semisulcatus); Tôm tít (Bề bề) harpax (Harpi...,Mục 6,Phụ lục I,KHAC,,"trừ tôm hùm; cua, ghẹ; tôm shrimps và tôm",,118
+03063629,- - - - Loại khác: Tôm càng sông (Macrobrachium nipponense); Tôm he Ấn Độ (Penaeus indicus); Tôm he Nhật Bản (Penaeus japonicus); Tôm mũ ni (Ibacus ciliatus); Tôm mũ ni đỏ (Scyllarides squammosus); Tôm mũ ni trắng (Thenus orientalis); Tôm mùa/Tôm lớt (Penaeus merguiensis); Tôm nương (Penaeus chinensis),Mục 6,Phụ lục I,KHAC,,,,118
+030639,"- - Loại khác (trừ tôm hùm; cua, ghẹ; tôm shrimps và tôm prawn khác): Tôm mũ ni (Ibacus ciliatus); Tôm mũ ni đỏ (Scyllarides squammosus); Tôm mũ ni trắng (Thenus orientalis); Tôm mùa/Tôm lớt (Penaeus merguiensis); Tôm nương (Penaeus chinensis); Tôm rảo (Metapenaeus ensis); Tôm thẻ rằn (Penaeus semisulcatus); Tôm tít (Bề bề) harpax (Harpiosquilla harpax)",Mục 6,Phụ lục I,KHAC,,"trừ tôm hùm; cua, ghẹ; tôm shrimps và tôm",,118
 03063910,"- - - Sống (Làm giống, nhân giống) kg",Mục 6,Phụ lục I,KHAC,,,,119
-0307,"Động vật thân mềm, đã hoặc chưa bóc mai, vỏ, sống, tươi ướp lạnh, đông lạnh, khô, muối hoặc ngâm nước muối động vật thân mềm hun khói, đã hoặc chưa bóc mai, vỏ, đã hoặc chưa làm chín trước hoặc trong quá trình hun khói - Hàu: Hầu Belchery (Crassostrea belcheri); Hầu cửa sông (Crassostrea rivulari...",Mục 6,Phụ lục I,KHAC,,,,119
-03071110,"- - - Sống (làm giống, nhân giống) kg - Điệp và các loài động vật thân mềm khác thuộc họ Pectinidae:): Điệp (Chlamys nobilis); Điệp quạt (Mimachlamys crassicostata)",Mục 6,Phụ lục I,KHAC,,,,119
+0307,"Động vật thân mềm, đã hoặc chưa bóc mai, vỏ, sống, tươi, ướp lạnh, đông lạnh, khô, muối hoặc ngâm nước muối; động vật thân mềm hun khói, đã hoặc chưa bóc mai, vỏ, đã hoặc chưa làm chín trước hoặc trong quá trình hun khói - Hàu: Hầu Belchery (Crassostrea belcheri); Hầu cửa sông (Crassostrea rivularis)",Mục 6,Phụ lục I,KHAC,,,,119
+03071110,"- - - Sống (làm giống, nhân giống) - Điệp và các loài động vật thân mềm khác thuộc họ Pectinidae: Điệp (Chlamys nobilis); Điệp quạt (Mimachlamys crassicostata)",Mục 6,Phụ lục I,KHAC,,,,119
 03072110,"- - - Sống (làm giống, nhân giống) kg - Vẹm xanh (Perna viridis)",Mục 6,Phụ lục I,KHAC,,,,119
 03073110,"- - - Sống (làm giống, nhân giống) kg - Mực nang và mực ống: Mực lá (Sepioteuthis lessoniana) Mực nang vân hổ (Sepia pharaonis); Mực ống Trung Hoa (Uroteuthis (Photololigo) chinensis)",Mục 6,Phụ lục I,KHAC,,,,119
 030742,"- - Sống, tươi hoặc ướp lạnh: - - - Sống:",Mục 6,Phụ lục I,KHAC,,,,119
@@ -781,19 +781,19 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 05119190,- - - Loại khác,Mục 6,Phụ lục I,KHAC,,,,130
 05119120,- - - Trứng Artemia (trứng Brine shrimp),Mục 6,Phụ lục I,KHAC,,,,130
 1212,"Quả minh quyết (1), rong biển và các loại tảo khác, củ cải đường (sugar beet) và mía đường, tươi, ướp lạnh, đông lạnh hoặc khô, đã hoặc chưa nghiền; hạt và nhân của hạt và các sản phẩm thực vật khác (kể cả rễ rau diếp xoăn chưa rang thuộc loài Cichorium intybus satibium) chủ yếu dùng làm thức ăn ...",Mục 6,Phụ lục I,KHAC,,,,130
-121229,"- - Loại khác (làm giống, nhân giống): Rong bắp sú (Kappaphycus striatum); Rong câu chân vịt (Hydropuntia eucheumatoides); Rong câu chỉ (Gracilaria tenuistipitata) Rong câu cước (Gracilariopsis bailiniae); Rong câu thắt (Gracilaria firma); Rong hồng vân (Betaphycus gelatinus) Rong lá mơ lá dày (S...",Mục 6,Phụ lục I,KHAC,,,,130
+121229,"- - Loại khác (làm giống, nhân giống): Rong bắp sú (Kappaphycus striatum); Rong câu chân vịt (Hydropuntia eucheumatoides); Rong câu chỉ (Gracilaria tenuistipitata); Rong câu cước (Gracilariopsis bailiniae); Rong câu thắt (Gracilaria firma); Rong hồng vân (Betaphycus gelatinus); Rong lá mơ lá dày (Sargassum crassifolium)",Mục 6,Phụ lục I,KHAC,,,,130
 12122920,"- - - Loại khác, tươi, ướp lạnh hoặc khô kg",Mục 6,Phụ lục I,KHAC,,,,131
 12122930,"- - - Loại khác, đông lạnh kg",Mục 6,Phụ lục I,KHAC,,,,131
 0301,Cá sống - Cá cảnh:,Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,133
 030111,- - Cá nước ngọt:,Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,133
-03011110,- - - Cá bột: Cá anh vũ (Semilabeo notabilis); Cá chạch kg/con bông/Cá chạch lấu (Mastacembelus favus); Cá chạch sông (Mastacembelus armatus); Cá chày/Cá chài (Leptobarbus hoevenii); Cá chiên (Bagarius rutilus); Cá hô (Catlocarpio siamensis); Cá lăng chấm (Hemibagrus guttatus); Cá lợ con (Cyprinu...,Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,133
+03011110,- - - Cá bột: Cá anh vũ (Semilabeo notabilis); Cá chạch bông/Cá chạch lấu (Mastacembelus favus); Cá chạch sông (Mastacembelus armatus); Cá chày/Cá chài (Leptobarbus hoevenii); Cá chiên (Bagarius rutilus); Cá hô (Catlocarpio siamensis); Cá lăng chấm (Hemibagrus guttatus); Cá lợ con (Cyprinus exophthalmos),Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,133
 03011199,"- - - - Loại khác ( Thái Lan, cá rồng):",Mục 7,Phụ lục I,KHAC,,"Trừ các loại: cá chép Koi, cá vàng, cá chọi kg/con; Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu",,134
-030119,- - Loại khác (,Mục 7,Phụ lục I,KHAC,,Trừ cá nước ngọt):; Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,134
+030119,- - Loại khác (Trừ cá nước ngọt):,Mục 7,Phụ lục I,KHAC,,Trừ cá nước ngọt):; Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,134
 03011910,- - - Cá bột: Cá trà sóc (Probarbus jullieni); Cá chình hoa kg/con (Anguilla marmorata); Cá chình mun (Anguilla bicolor); Cá chình Nhật Bản (Anguilla japonica); Cá chình nhọn (Anguilla borneensis); Cá trê trắng (Clarias batrachus); Cá chìa vôi (Proteracanthus sarissophorus); Cá cam vân/Cá cu/Cá b...,Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,134
 03011990,- - - Loại khác: Cá trà sóc (Probarbus jullieni); Cá chình hoa kg/con (Anguilla marmorata); Cá chình mun (Anguilla bicolor); Cá chình Nhật Bản (Anguilla japonica); Cá chình nhọn (Anguilla borneensis); Cá trê trắng (Clarias batrachus); Cá chìa vôi (Proteracanthus sarissophorus); Cá cam vân/Cá cu/C...,Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,134
 0302,"Cá, tươi hoặc ướp lạnh, thịt cá khác thuộc nhóm 03.04 - Cá khác, trừ các phụ phẩm ăn được sau giết mổ của cá thuộc các phân nhóm từ 0302.91 đến 0302.99:",Mục 7,Phụ lục I,KHAC,,trừ phi-lê cá (fillets) và các loại; Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,134
 030289,- - Loại khác: - - - Loại khác:,Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,134
-03028929,- - - - Loại khác:); Cá tra (Pangasianodon hypophthalmus); kg Cá vồ cờ (Pangasius sanitwongsei); Cá ba sa (Pangasius bocourti),Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,134
+03028929,- - - - Loại khác: Cá tra (Pangasianodon hypophthalmus); Cá vồ cờ (Pangasius sanitwongsei); Cá ba sa (Pangasius bocourti),Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,134
 0306,"Động vật giáp xác, đã hoặc chưa bóc mai, vỏ, sống, tươi ướp lạnh, đông lạnh, khô, muối hoặc ngâm nước muối động vật giáp xác hun khói, đã hoặc chưa bóc mai, vỏ, đã hoặc chưa làm chín trước hoặc trong quá trình hun khói động vật giáp xác chưa bóc mai, vỏ, đã hấp chín hoặc luộc chín trong nước, đã ...",Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,135
 030631,"- - Tôm hùm đá và các loại tôm biển khác (Palinurus spp Panulirus spp., Jasus spp.): Tôm hùm bông (Panulirus ornatus); Tôm hùm đá (Panulirus homarus); Tôm hùm đỏ (Panulirus longipes); Tôm hùm lông/Tôm hùm sỏi/Tôm hùm mốc (Panulirus stimpsoni); Tôm hùm ma (Panulirus penicillatus); Tôm hùm xám/Tôm ...",Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,135
 03063110,- - - Để nhân giống kg,Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,135
@@ -808,7 +808,7 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 03063629,- - - - Loại khác: Tôm mũ ni đỏ (Scyllarides squammosus); kg Tôm mũ ni trắng (Thenus orientalis),Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,135
 030639,- - Loại khác: Tôm mũ ni đỏ (Scyllarides squammosus) Tôm mũ ni trắng (Thenus orientalis),Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,135
 03063910,- - - Sống kg,Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,135
-0307,"Động vật thân mềm, đã hoặc chưa bóc mai, vỏ, sống, tươi ướp lạnh, đông lạnh, khô, muối hoặc ngâm nước muối động vật thân mềm hun khói, đã hoặc chưa bóc mai, vỏ đã hoặc chưa làm chín trước hoặc trong quá trình hun khói - Nghêu (ngao), sò (thuộc các họ Arcidae, Arcticidae, Cardiidae Donacidae, Hiat...",Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,136
+0307,"Động vật thân mềm, đã hoặc chưa bóc mai, vỏ, sống, tươi, ướp lạnh, đông lạnh, khô, muối hoặc ngâm nước muối; động vật thân mềm hun khói, đã hoặc chưa bóc mai, vỏ, đã hoặc chưa làm chín trước hoặc trong quá trình hun khói - Nghêu (ngao), sò (thuộc các họ Arcidae, Arcticidae, Cardiidae, Donacidae, Hiatellidae, Mactridae, Mesodesmatidae, Myidae, Semelidae, Solecurtidae, Solenidae, Tridacnidae và Veneridae): Trai tai tượng lớn (Tridacna maxima); Trai tai tượng vàng nghệ (Tridacna crocea)",Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,136
 030771,"- - Sống, tươi hoặc ướp lạnh:",Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,136
 03077110,- - - Sống kg - Loại khác: Trai ngọc môi vàng/Trai tai tượng (Pinctada maxima),Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,136
 030791,"- - Sống, tươi hoặc ướp lạnh:",Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,136
@@ -816,34 +816,34 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 0508,"San hô và các chất liệu tương tự, chưa xử lý hoặc đã sơ chế nhưng chưa gia công thêm; mai, vỏ động vật thân mềm, động vật giáp xác hoặc động vật da gai và mai mực chưa xử lý hoặc đã sơ chế nhưng chưa cắt thành hình, bột và phế liệu từ các sản phẩm trên",Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,136
 05080090,- Loại khác: Các loài san hô mềm (Alcyonium sp.); Các loài kg san hô mềm (Nephthea sp.); Các loài san hô mềm (Pachyclavularia sp.); Các loài san hô mềm (Sarcophyton sp.) Các loài san hô nấm mềm (Discosoma sp.); Các loài san hô nấm mềm (Rhodatis sp.); Các loài san hô nút áo (Zoanthus sp.),Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,136
 0511,Các sản phẩm động vật khác chưa được chi tiết hoặc ghi ở nơi khác; động vật chết thuộc Chương 1 hoặc Chương 3 không thích hợp sử dụng cho người - Loại khác:,Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,136
-051191,"- - Sản phẩm từ cá hoặc động vật giáp xác, động vật thân mềm hoặc động vật thủy sinh không xương sống khác; động vật đã chết thuộc Chương 3: Cá anh vũ (Semilabeo notabilis) Cá chạch bông/Cá chạch lấu (Mastacembelus favus); Cá chạch sông (Mastacembelus armatus); Cá chày/Cá chài (Leptobarbus hoeven...",Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,136
+051191,"- - Sản phẩm từ cá hoặc động vật giáp xác, động vật thân mềm hoặc động vật thủy sinh không xương sống khác; động vật đã chết thuộc Chương 3: Cá anh vũ (Semilabeo notabilis); Cá chạch bông/Cá chạch lấu (Mastacembelus favus); Cá chạch sông (Mastacembelus armatus); Cá chày/Cá chài (Leptobarbus hoevenii)",Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,136
 05119110,- - - Sẹ và bọc trứng kg,Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,137
 05119190,- - - Loại khác kg,Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,137
 1212,"Quả minh quyết (1), rong biển và các loại tảo khác, củ cải đường (sugar beet) và mía đường, tươi, ướp lạnh, đông lạnh hoặc khô, đã hoặc chưa nghiền; hạt và nhân của hạt và các sản phẩm thực vật khác (kể cả rễ rau diếp xoăn chưa rang thuộc loài Cichorium intybus satibium) chủ yếu dùng làm thức ăn ...",Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,137
 121229,- - Loại khác:,Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,137
-12122920,"- - - Loại khác, tươi, ướp lạnh hoặc khô: Rong bắp sú kg (Kappaphycus striatus); Rong lá mơ Mucclurei (Sargassum mcclurei); Rong lá mơ lá dày (Sargassum crassifolium); Rong lá mơ nhiều phao (Sargassum polycystum); Rong mơ (Sargassum",Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,137
-12122930,"- - - Loại khác, đông lạnh: Rong bắp sú (Kappaphycus kg striatus); Rong lá mơ Mucclurei (Sargassum mcclurei) Rong lá mơ lá dày (Sargassum crassifolium); Rong lá mơ nhiều phao (Sargassum polycystum); Rong mơ (Sargassum oligocystum); Rong mơ bìa đôi (Sargassum duplicatum) Rong mơ lá phao (Sargassum...",Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,138
+12122920,"- - - Loại khác, tươi, ướp lạnh hoặc khô: Rong bắp sú (Kappaphycus striatus); Rong lá mơ Mucclurei (Sargassum mcclurei); Rong lá mơ lá dày (Sargassum crassifolium); Rong lá mơ nhiều phao (Sargassum polycystum); Rong mơ (Sargassum oligocystum)",Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,137
+12122930,"- - - Loại khác, đông lạnh: Rong bắp sú (Kappaphycus striatus); Rong lá mơ Mucclurei (Sargassum mcclurei); Rong lá mơ lá dày (Sargassum crassifolium); Rong lá mơ nhiều phao (Sargassum polycystum); Rong mơ (Sargassum oligocystum); Rong mơ bìa đôi (Sargassum duplicatum); Rong mơ lá phao (Sargassum mcclurei f. duplicatum)",Mục 7,Phụ lục I,KHAC,,Chỉ áp khi XUẤT KHẨU: loài thủy sản xuất khẩu có điều kiện — không phải giấy phép nhập khẩu,,138
 0106,Động vật sống khác - Động vật có vú:,Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,138
 010612,"- - Cá voi, cá heo chuột và cá heo (động vật có vú thuộc bộ cá voi Cetacea); lợn biển và cá nược (động vật có vú thuộc bộ Sirenia); hải cẩu, sư tử biển và hải mã (con moóc) (động vật có vú thuộc phân bộ Pinnipedia):",Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,138
-01061210,"- - - Cá voi, cá heo chuột và cá heo (động vật có vú thuộc bộ kg/con cá voi Cetacea); lợn biển và cá nược (động vật có vú thuộc bộ Sirenia): Bò biển/cá cúi (Dugong dugon); cá heo vây trắng (Lipotes vexillifer); Cá ông sư (Cá heo không vây) (Neophocaena phocaenoides); các loài thuộc họ cá heo (Del...",Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,138
-01062000,- Loài bò sát (kể cả rắn và rùa): Rùa Trung Bộ (Mauremys kg/con annamensis); Quản đồng (Caretta caretta); Rùa biển (Vích) (Chelonia mydas); Rùa da (Dermochelys coriacea); Rùa đầu to (Platysternon megacephalum); Rùa hộp ba vạch (Rùa vàng) (Cuora trifasciata); Rùa hộp trán vàng miền Bắc (Cuora galb...,Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,138
+01061210,"- - - Cá voi, cá heo chuột và cá heo (động vật có vú thuộc bộ cá voi Cetacea); lợn biển và cá nược (động vật có vú thuộc bộ Sirenia): Bò biển/cá cúi (Dugong dugon); cá heo vây trắng (Lipotes vexillifer); Cá ông sư (Cá heo không vây) (Neophocaena phocaenoides); các loài thuộc họ cá heo (Delphinidae); Các loài thuộc Chi cá voi (Balaenoptera)",Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,138
+01062000,- Loài bò sát (kể cả rắn và rùa): Rùa Trung Bộ (Mauremys annamensis); Quản đồng (Caretta caretta); Rùa biển (Vích) (Chelonia mydas); Rùa da (Dermochelys coriacea); Rùa đầu to (Platysternon megacephalum); Rùa hộp ba vạch (Rùa vàng) (Cuora trifasciata); Rùa hộp trán vàng miền Bắc (Cuora galbinifrons),Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,138
 01069000,- Loại khác: Cá cóc Tam Đảo (Paramesotriton deloustali) kg/con,Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,139
 0301,Cá sống - Cá cảnh:,Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,139
 030111,- - Cá nước ngọt:,Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,139
-03011110,- - - Cá bột: Cá cháy (Tenualosa reevesii); Cá chày tràng kg/con (Ochelobius elongatus); Cá chen bầu/Cá trèn bầu (Ompok bimaculatus); Cá chép gốc (Procypris merus); Cá hỏa (Bangana tonkinensis); Cá kẽm mép vảy đen (Plectorhinchus gibbosus); Cá lợ thân thấp (Cyprinus multitaeniatus); Cá măng giả (...,Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,139
-03011199,"- - - - Loại khác ( Thái Lan, cá rồng): Cá cháy (Tenualosa reevesii); Cá chày tràng (Ochelobius elongatus); Cá chen bầu/Cá trèn bầu (Ompok bimaculatus); Cá chép gốc (Procypris merus); Cá hỏa (Bangana tonkinensis); Cá kẽm mép vảy đen (Plectorhinchus gibbosus); Cá lợ thân thấp (Cyprinus multitaenia...",Mục 8,Phụ lục I,CAM_XUAT_KHAU,,"trừ các loài: cá chép Koi, cá vàng, cá chọi kg/con",,139
+03011110,- - - Cá bột: Cá cháy (Tenualosa reevesii); Cá chày tràng (Ochelobius elongatus); Cá chen bầu/Cá trèn bầu (Ompok bimaculatus); Cá chép gốc (Procypris merus); Cá hỏa (Bangana tonkinensis); Cá kẽm mép vảy đen (Plectorhinchus gibbosus); Cá lợ thân thấp (Cyprinus multitaeniatus); Cá măng giả (Luciocyprinus langsoni),Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,139
+03011199,"- - - - Loại khác (trừ các loài: cá chép Koi, cá vàng, cá chọi Thái Lan, cá rồng): Cá cháy (Tenualosa reevesii); Cá chày tràng (Ochelobius elongatus); Cá chen bầu/Cá trèn bầu (Ompok bimaculatus); Cá chép gốc (Procypris merus); Cá hỏa (Bangana tonkinensis); Cá kẽm mép vảy đen (Plectorhinchus gibbosus); Cá lợ thân thấp (Cyprinus multitaeniatus)",Mục 8,Phụ lục I,CAM_XUAT_KHAU,,"trừ các loài: cá chép Koi, cá vàng, cá chọi kg/con",,139
 030119,- - Loại khác ( reevesii); Cá chày tràng (Ochelobius elongatus); Cá chen bầu/Cá trèn bầu (Ompok bimaculatus); Cá kẽm mép vảy đen (Plectorhinchus gibbosus); Cá ngựa bắc (Tor brevifilis); Cá song vân giun (Epinephelus undulatostriatus),Mục 8,Phụ lục I,CAM_XUAT_KHAU,,trừ cá nước ngọt): Cá cháy (Tenualosa kg/con,,139
 03011910,- - - Cá bột kg/con,Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,139
 03011990,- - - Loại khác kg/con,Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,139
-030193,"- - Cá chép (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.): - - - Cá chép (Cyprinus spp., Carassius spp Ctenopharyngodon idellus, Hypopht...",Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,140
+030193,"- - Cá chép (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.): - - - Cá chép (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus): Cá lợ thân thấp (Cyprinus multitaeniatus); Cá trữ (Cyprinus dai)",Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,140
 03019321,"- - - - Để nhân giống,",Mục 8,Phụ lục I,CAM_XUAT_KHAU,,trừ cá bột (SEN) kg/con,,140
 03019322,- - - - Cá bột kg/con,Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,140
 03019329,- - - - Loại khác kg/con,Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,140
-030199,- - Loại khác ( - - - Cá bột của cá măng biển và của cá mú: Cá song vân giun (Epinephelus undulatostriatus),Mục 8,Phụ lục I,CAM_XUAT_KHAU,,"trừ cá chép, cá ngừ, cá chình, cá hồi):",,140
+030199,"- - Loại khác (trừ cá chép, cá ngừ, cá chình, cá hồi): - - - Cá bột của cá măng biển và của cá mú: Cá song vân giun (Epinephelus undulatostriatus)",Mục 8,Phụ lục I,CAM_XUAT_KHAU,,"trừ cá chép, cá ngừ, cá chình, cá hồi):",,140
 03019911,- - - - Để nhân giống (SEN) kg/con,Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,140
-03019919,- - - - Loại khác kg/con - - - Cá bột loại khác (trừ cá bột của cá măng biển và của cá mú): Cá cháy (Tenualosa reevesii); Cá chày tràng (Ochelobius elongatus); Cá chen bầu/Cá trèn bầu (Ompok bimaculatus) Cá chép gốc (Procypris merus); Cá hỏa (Bangana tonkinensis); Cá kẽm mép vảy đen (Plectorhinch...,Mục 8,Phụ lục I,CAM_XUAT_KHAU,,trừ cá bột của cá măng biển và của cá mú,,140
+03019919,- - - - Loại khác - - - Cá bột loại khác (trừ cá bột của cá măng biển và của cá mú): Cá cháy (Tenualosa reevesii); Cá chày tràng (Ochelobius elongatus); Cá chen bầu/Cá trèn bầu (Ompok bimaculatus); Cá chép gốc (Procypris merus); Cá hỏa (Bangana tonkinensis); Cá kẽm mép vảy đen (Plectorhinchus gibbosus),Mục 8,Phụ lục I,CAM_XUAT_KHAU,,trừ cá bột của cá măng biển và của cá mú,,140
 03019936,- - - - Cá mú loại khác: Cá song vân giun (Epinephelus kg/con undulatostriatus) - - - Cá nước ngọt khác:,Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,140
-03019942,"- - - - Cá chép khác, để nhân giống (SEN):); Cá chép gốc (Procypris merus)",Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,140
+03019942,"- - - - Cá chép khác, để nhân giống (SEN): Cá chép gốc (Procypris merus)",Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,140
 03019949,- - - - Loại khác ( reevesii); Cá chày tràng (Ochelobius elongatus); Cá chen bầu/Cá trèn bầu (Ompok bimaculatus); Cá chép gốc,Mục 8,Phụ lục I,CAM_XUAT_KHAU,,trừ cá chép khác): Cá cháy (Tenualosa,,140
 03019950,- - - Cá biển khác: Cá cháy (Tenualosa reevesii); Cá chày kg/con tràng (Ochelobius elongatus); Cá chen bầu/Cá trèn bầu (Ompok bimaculatus); Cá kẽm mép vảy đen (Plectorhinchus gibbosus); Cá ngựa bắc (Tor brevifilis); Các loài thuộc Họ cá dao (Pristisdae),Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,141
 03019990,- - - Loại khác (cá sống nước lợ): Cá cháy (Tenualosa kg/con reevesii); Cá chày tràng (Ochelobius elongatus); Cá chen bầu/Cá trèn bầu (Ompok bimaculatus); Cá kẽm mép vảy đen (Plectorhinchus gibbosus); Cá ngựa bắc (Tor brevifilis); Các loài thuộc Họ cá dao (Pristisdae),Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,141
@@ -853,7 +853,7 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 0508,"San hô và các chất liệu tương tự, chưa xử lý hoặc đã sơ chế nhưng chưa gia công thêm; mai, vỏ động vật thân mềm, động vật giáp xác hoặc động vật da gai và mai mực, chưa xử lý hoặc đã sơ chế nhưng chưa cắt thành hình, bột và phế liệu từ các sản phẩm trên",Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,141
 05080090,- Loại khác: Các loài thuộc Bộ san hô cứng (Stolonifera) Các loài thuộc Bộ san hô đá (Scleractinia); Các loài thuộc Bộ san hô đen (Antipatharia); Các loài thuộc Bộ san hô xanh (Helioporacea),Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,141
 0511,Các sản phẩm động vật khác chưa được chi tiết hoặc ghi ở nơi khác; động vật chết thuộc Chương 1 hoặc Chương 3 không thích hợp sử dụng cho người - Loại khác:,Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,142
-051191,"- - Sản phẩm từ cá hoặc động vật giáp xác, động vật thân mềm hoặc động vật thủy sinh không xương sống khác; động vật đã chết thuộc Chương 3: Cá cháy (Tenualosa reevesii) Cá chày tràng (Ochelobius elongatus); Cá chen bầu/Cá trèn bầu (Ompok bimaculatus); Cá chép gốc (Procypris merus) Cá hỏa (Bangan...",Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,142
+051191,"- - Sản phẩm từ cá hoặc động vật giáp xác, động vật thân mềm hoặc động vật thủy sinh không xương sống khác; động vật đã chết thuộc Chương 3: Cá cháy (Tenualosa reevesii); Cá chày tràng (Ochelobius elongatus); Cá chen bầu/Cá trèn bầu (Ompok bimaculatus); Cá chép gốc (Procypris merus); Cá hỏa (Bangana tonkinensis)",Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,142
 05119110,- - - Sẹ và bọc trứng Kg,Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,142
 05119190,- - - Loại khác Kg,Mục 8,Phụ lục I,CAM_XUAT_KHAU,,,,142
 0106,Động vật sống khác - Côn trùng:,Mục 9,Phụ lục I,KIEM_DICH_THUC_VAT,,,,142
@@ -1404,7 +1404,7 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 12119097,- - - Vỏ cây persea (Persea Kurzii Kosterm) (SEN),Mục 9,Phụ lục I,KIEM_DICH_THUC_VAT,,,,166
 12119098,"- - - Loại khác, đã cắt, nghiền hoặc dạng bột",Mục 9,Phụ lục I,KIEM_DICH_THUC_VAT,,,,166
 12119099,- - - Loại khác,Mục 9,Phụ lục I,KIEM_DICH_THUC_VAT,,,,166
-1212,"Quả minh quyết (1), rong biển và các loại tảo khác, củ cải đường (sugar beet) và mía đường, biển, tảo biển và tươi, ướp lạnh, đông lạnh hoặc khô, đã hoặc tảo Spirulina chưa nghiền; hạt và nhân của hạt và các sản phẩm thực vật khác (kể cả rễ rau diếp xoăn chưa rang thuộc loài Cichorium intybus sat...",Mục 9,Phụ lục I,KIEM_DICH_THUC_VAT,,Trừ các loại rong,,166
+1212,"Quả minh quyết (1), rong biển và các loại tảo khác, củ cải đường (sugar beet) và mía đường, tươi, ướp lạnh, đông lạnh hoặc khô, đã hoặc chưa nghiền; hạt và nhân của hạt và các sản phẩm thực vật khác (kể cả rễ rau diếp xoăn chưa rang thuộc loài Cichorium intybus satibium) chủ yếu dùng làm thức ăn cho người, chưa được chi tiết hoặc ghi ở nơi khác",Mục 9,Phụ lục I,KIEM_DICH_THUC_VAT,,Trừ các loại rong,,166
 12129100,- - Củ cải đường,Mục 9,Phụ lục I,KIEM_DICH_THUC_VAT,,,,166
 12129200,- - Quả minh quyết (carob) (1),Mục 9,Phụ lục I,KIEM_DICH_THUC_VAT,,,,166
 121293,- - Mía đường:,Mục 9,Phụ lục I,KIEM_DICH_THUC_VAT,,,,166
@@ -1693,7 +1693,7 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 5303,"Đay và các loại xơ libe dệt khác ( dầu và gai ramie), dạng nguyên liệu thô hoặc đã chế biến nhưng chưa kéo thành sợi; tô (tow) và phế liệu của các loại xơ này (kể cả phế liệu sợi và sợi tái chế)",Mục 9,Phụ lục I,KIEM_DICH_THUC_VAT,,"trừ lanh, gai",,180
 53031000,"- Đay và các loại xơ libe dệt khác, dạng nguyên liệu thô hoặc đã ngâm",Mục 9,Phụ lục I,KIEM_DICH_THUC_VAT,,,,180
 53039000,- Loại khác,Mục 9,Phụ lục I,KIEM_DICH_THUC_VAT,,,,180
-5305,"Xơ dừa, xơ chuối abaca (Manila hemp hoặc Musa textilis Nee), xơ gai ramie và xơ dệt gốc chế biến, tẩm hóa thực vật khác, chưa được ghi hoặc chi tiết ở chất nơi khác hoặc kể cả, thô hoặc đã chế biến nhưng chưa kéo thành sợi; tô (tow), xơ vụn và phế liệu của các loại xơ này (kể cả phế liệu sợi và s...",Mục 9,Phụ lục I,KIEM_DICH_THUC_VAT,,Trừ các loại xơ đã,,180
+5305,"Xơ dừa, xơ chuối abaca (Manila hemp hoặc Musa textilis Nee), xơ gai ramie và xơ dệt gốc thực vật khác, chưa được ghi hoặc chi tiết ở nơi khác hoặc kể cả, thô hoặc đã chế biến nhưng chưa kéo thành sợi; tô (tow), xơ vụn và phế liệu của các loại xơ này (kể cả phế liệu sợi và sợi tái chế)",Mục 9,Phụ lục I,KIEM_DICH_THUC_VAT,,Trừ các loại xơ đã,,180
 53050010,- Xơ xidan (sisal) và xơ dệt khác của các cây thuộc chi cây thùa (Agave); tô (tow) và phế liệu của các loại xơ này (kể cả phế liệu sợi và sợi tái chế) - Xơ dừa và xơ chuối abaca:,Mục 9,Phụ lục I,KIEM_DICH_THUC_VAT,,,,180
 53050021,"- - Xơ dừa, loại thô",Mục 9,Phụ lục I,KIEM_DICH_THUC_VAT,,,,180
 53050023,- - Xơ chuối abaca,Mục 9,Phụ lục I,KIEM_DICH_THUC_VAT,,,,180
@@ -2455,12 +2455,12 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 06021090,Hom Sắn có rễ để làm giống Hom giống của cây sắn có rễ để,Mục 11,Phụ lục I,KHAC,,,,219
 06029090,Hom Sắn làm giống Hạt giống của củ cải đường để,Mục 11,Phụ lục I,KHAC,,,,219
 12091000,"Hạt Củ cải đường làm giống Hạt Rau cải các loại: cải Hạt giống của các loại rau cải: ngọt, cải bi, su hào, cải cải ngọt, cải bi, su hào, cải làn làn, cải xoăn, cải xanh",Mục 11,Phụ lục I,KHAC,,,,219
-12099190,"cải xoăn, cải xanh, cải thìa, cải 12079990 cải thìa, cải bẹ cuốn, cải bẹ cuốn, cải xoong, cải ngồng xoong, cải ngồng, cải cải trắng, cải thảo,... để làm giống trắng, cải thảo - - Hạt Súp lơ(1)",Mục 11,Phụ lục I,KHAC,,,,219
+12099190,"Hạt Rau cải các loại: cải ngọt, cải bi, su hào, cải làn, cải xoăn, cải xanh, cải thìa, cải bẹ cuốn, cải xoong, cải ngồng, cải trắng, cải thảo,... để làm giống",Mục 11,Phụ lục I,KHAC,,,,219
 07041010,Hạt giống rau Súp lơ làm giống 12079990 (Caulifower) - - Đầu súp lơ xanh,Mục 11,Phụ lục I,KHAC,,,,219
 07041020,Đầu súp lơ xanh làm giống (headed broccoli),Mục 11,Phụ lục I,KHAC,,,,219
 07041090,- - Hạt Súp lơ xanh khác Hạt Súp lơ xanh làm giống 12079990,Mục 11,Phụ lục I,KHAC,,,,219
 07042000,- Hạt Cải Bruc-xen Hạt cải Bruc-xen để làm giống 12079990 - Hạt Bắp cải cuộn Hạt cải bắp cuộn tròn để làm,Mục 11,Phụ lục I,KHAC,,,,219
-07049010,12079990 (cuộn tròn) (SEN) giống - Hạt Cải bẹ xanh,Mục 11,Phụ lục I,KHAC,,,,219
+07049010,- Hạt Bắp cải cuộn (cuộn tròn) (SEN) để làm giống,Mục 11,Phụ lục I,KHAC,,,,219
 07049020,Hạt cải bẹ xanh để làm giống 12079990 (Chinese mustard) (SEN),Mục 11,Phụ lục I,KHAC,,,,219
 07049030,- - Hạt Bắp cải khác Hạt cải bắp khác để làm giống 12079990,Mục 11,Phụ lục I,KHAC,,,,219
 07061010,- - Hạt Cà rốt Hạt cà rốt để làm giống 12079990,Mục 11,Phụ lục I,KHAC,,,,219
@@ -2480,12 +2480,12 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 12011000,Hạt Đậu tương rau Hạt đậu tương rau để làm giống 12099190,Mục 11,Phụ lục I,KHAC,,,,220
 07133110,Hạt Đậu xanh Hạt đậu xanh để làm giống 12099190,Mục 11,Phụ lục I,KHAC,,,,220
 07131010,Hạt Đậu Hà Lan Hạt đậu Hà Lan để làm giống 12099190 Hạt Đậu gà (Chickpeas) Hạt đậu gà (Chickpeas) để làm,Mục 11,Phụ lục I,KHAC,,,,220
-07132010,12099190 (đậu Hà Lan loại nhỏ) giống Hạt Đậu thuộc loài Vigna Hạt đậu thuộc loài Vigna mungo (L.),Mục 11,Phụ lục I,KHAC,,,,220
-07133110,"mungo (L.) Hepper hoặc Hepper hoặc Vignaradiata (L.) 12099190 Vignaradiata (L.) Wilczek Wilczek, để làm giống Đậu hạt đỏ nhỏ (Adzuki) Đậu hạt đỏ nhỏ (Adzuki)",Mục 11,Phụ lục I,KHAC,,,,220
-07133210,(Phaseolus hoặc Vigna (Phaseolus hoặc Vigna 12099190 angularis) angularis) để làm giống Hạt Đậu bambara (Vigna Hạt đậu bambara (Vigna,Mục 11,Phụ lục I,KHAC,,,,220
-07133410,subterranean hoặc subterranean hoặc Voandzeia 12099190 Voandzeia subterranean) subterranean) để làm giống Hạt Đậu tằm (Vicia faba Hạt đậu tằm (Vicia faba var var. major) và đậu ngựa major) và hạt đậu ngựa,Mục 11,Phụ lục I,KHAC,,,,220
-07135010,"12099190 (Vicia faba var. equina, (Vicia faba var. equina, Vicia Vicia faba var. minor) faba var. minor) để làm giống Hạt Đậu tằm (trừ hạt cây Hạt đậu tằm (trừ hạt cây thuộc",Mục 11,Phụ lục I,KHAC,,,,220
-12099190,12099190 thuộc loài Vicia faba) loài Vicia faba) để làm giống,Mục 11,Phụ lục I,KHAC,,,,220
+07132010,Hạt Đậu gà (Chickpeas) (đậu Hà Lan loại nhỏ) để làm giống,Mục 11,Phụ lục I,KHAC,,,,220
+07133110,"Hạt Đậu thuộc loài Vigna mungo (L.) Hepper hoặc Vignaradiata (L.) Wilczek, để làm giống",Mục 11,Phụ lục I,KHAC,,,,220
+07133210,Đậu hạt đỏ nhỏ (Adzuki) (Phaseolus hoặc Vigna angularis) để làm giống,Mục 11,Phụ lục I,KHAC,,,,220
+07133410,Hạt Đậu bambara (Vigna subterranean hoặc Voandzeia subterranean) để làm giống,Mục 11,Phụ lục I,KHAC,,,,220
+07135010,"Hạt Đậu tằm (Vicia faba var. major) và đậu ngựa (Vicia faba var. equina, Vicia faba var. minor) để làm giống",Mục 11,Phụ lục I,KHAC,,,,220
+12099190,Hạt Đậu tằm (trừ hạt cây thuộc loài Vicia faba) để làm giống,Mục 11,Phụ lục I,KHAC,,,,220
 07136010,"Hạt Đậu triều, đậu săng Hạt đậu triều, đậu săng để làm giống 12099190",Mục 11,Phụ lục I,KHAC,,,,220
 07133510,- Hạt đậu đũa Hạt đậu đũa để làm giống 12099190,Mục 11,Phụ lục I,KHAC,,,,220
 07133990,Hạt Đậu khác Hạt đậu khác để làm giống 12099190,Mục 11,Phụ lục I,KHAC,,,,220
@@ -2536,15 +2536,15 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 06011000,Củ các loài hoa khác Củ các loài hoa khác để làm giống Cành các loài hoa khác để nhân,Mục 11,Phụ lục I,KHAC,,,,222
 06021090,Cành các loài hoa khác giống,Mục 11,Phụ lục I,KHAC,,,,222
 06029090,Cây các loài hoa khác Cây các loài hoa khác để làm giống Cây nuôi cấy mô trong các ống Cây nuôi cấy mô các,Mục 11,Phụ lục I,KHAC,,,,222
-06029090,nghiệm của các loài hoa khác để loài hoa khác làm giống,Mục 11,Phụ lục I,KHAC,,,,222
+06029090,Cây nuôi cấy mô trong các ống nghiệm của các loài hoa khác để làm giống,Mục 11,Phụ lục I,KHAC,,,,222
 12093000,Hạt các loài hoa khác (herbaceous plants) khác để làm giống Hạt của các loài cây khác để,Mục 11,Phụ lục I,KHAC,,,,223
 12099990,Hạt các loài hoa khác làm giống Hạt cỏ linh lăng (Alfalfa) để,Mục 11,Phụ lục I,KHAC,,,,223
-12092100,Hạt Cỏ linh lăng (Alfalfa) làm giống Hạt Cỏ ba lá (Trifolium Hạt cỏ ba lá (Trifolium spp) để,Mục 11,Phụ lục I,KHAC,,,,223
+12092100,Hạt Cỏ linh lăng (Alfalfa) để làm giống,Mục 11,Phụ lục I,KHAC,,,,223
 12092300,Hạt Cỏ đuôi trâu Hạt cỏ đuôi trâu để làm giống Hạt Cỏ Kentucky màu Hạt cỏ kentucky màu xanh da trời,Mục 11,Phụ lục I,KHAC,,,,223
-12092400,xanh da trời (Poa (Poa pratensis L.) để làm giống pratensis L.) Hạt Cỏ mạch đen Hạt cỏ mạch đen (Lolium,Mục 11,Phụ lục I,KHAC,,,,223
-12092500,"(Lolium multiflorum multiflorum Lam., Lolium Lam., Lolium perenne L.) perenne L.) để làm giống",Mục 11,Phụ lục I,KHAC,,,,223
+12092400,Hạt Cỏ Kentucky màu xanh da trời (Poa pratensis L.) để làm giống,Mục 11,Phụ lục I,KHAC,,,,223
+12092500,"Hạt Cỏ mạch đen (Lolium multiflorum Lam., Lolium perenne L.) để làm giống",Mục 11,Phụ lục I,KHAC,,,,223
 12092910,Hạt Cỏ đuôi mèo Hạt cỏ đuôi mèo để làm giống Hạt Cỏ hạt của các loại Hạt của các loại cây dùng làm,Mục 11,Phụ lục I,KHAC,,,,223
-12092990,cây dùng làm thức ăn thức ăn gia súc khác để làm giống gia súc khác,Mục 11,Phụ lục I,KHAC,,,,223
+12092990,Hạt Cỏ hạt của các loại cây dùng làm thức ăn gia súc khác để làm giống,Mục 11,Phụ lục I,KHAC,,,,223
 12072100,"Hạt Bông vải Hạt bông để làm giống Cành dâu để làm giống, không",Mục 11,Phụ lục I,KHAC,,,,223
 06021090,Cành Dâu có rễ,Mục 11,Phụ lục I,KHAC,,,,223
 06029090,Cây Dâu Cây dâu để làm giống,Mục 11,Phụ lục I,KHAC,,,,223
@@ -2616,7 +2616,7 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 06022000,Cây Xoài Cây xoài để làm giống Cành giâm và cành ghép không,Mục 11,Phụ lục I,KHAC,,,,226
 06021090,"Cành cây ăn quả khác có rễ Cây, cây bụi, đã hoặc không",Mục 11,Phụ lục I,KHAC,,,,226
 06022000,"Cây ăn quả khác ghép cành, thuộc loại có quả hoặc quả hạch ăn được",Mục 11,Phụ lục I,KHAC,,,,226
-2501,hoặc không ở trong dung dịch nước hoặc có chứa chất chống đóng bánh hoặc chất làm tăng độ chảy; nước biển,Mục 13,Phụ lục I,KHAC,,,,230
+2501,"Muối (kể cả muối ăn và muối đã bị làm biến tính) và Natri Clorua tinh khiết, có hoặc không ở trong dung dịch nước hoặc có chứa chất chống đóng bánh hoặc chất làm tăng độ chảy; nước biển",Mục 13,Phụ lục I,KHAC,,,,230
 3101,"Phân bón gốc thực vật hoặc động vật, đã hoặc chưa pha trộn với nhau hoặc qua xử lý hóa học; phân bón sản xuất bằng cách pha trộn hoặc xử lý hóa học các sản phẩm động vật hoặc thực vật",Mục 19,Phụ lục I,KHAC,,,,284
 31010010,- Nguồn gốc chỉ từ thực vật Phân bón hữu cơ; phân bón hữu cơ - vi sinh; phân bón hữu cơ - sinh học; phân bón hữu cơ cải tạo đất; phân bón sinh học; phân bón sinh học cải tạo đất; phân bón có khả năng tăng miễn dịch cây trồng; phân bón có chất điều hòa sinh trưởng - Loại khác:,Mục 19,Phụ lục I,KHAC,,,,284
 31010092,"- - Nguồn gốc từ động vật ( chim, dơi), đã qua xử lý hóa học phân bón hữu cơ - vi sinh phân bón hữu cơ cải tạo đất phân bón sinh học; phân bón sinh học cải tạo đất; phân bón vi sinh vật; phân bón có khả năng tăng miễn dịch cây trồng; phân bón có chất điều hòa sinh trưởng; phân bón có chất tăng hi...",Mục 19,Phụ lục I,KHAC,,trừ phân Phân bón hữu cơ - sinh học,,284
@@ -3166,7 +3166,7 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 060490,- Loại khác:,Mục 22,Phụ lục I,KHAC,,,,313
 06049010,- - Rêu và địa y kg/cành,Mục 22,Phụ lục I,KHAC,,,,313
 06049090,- - Loại khác kg/cành,Mục 22,Phụ lục I,KHAC,,,,313
-3808,"Thuốc trừ côn trùng, thuốc diệt loài gặm nhấm, thuốc trừ nấm thuốc diệt cỏ, thuốc chống nẩy mầm và thuốc điều hòa sinh trưởng cây trồng, thuốc khử trùng và các sản phẩm tương tự được làm thành dạng nhất định hoặc đóng gói để bán lẻ hoặc như các chế phẩm hoặc sản phẩm (ví dụ, băng, bấc và nến đã x...",Mục 23,Phụ lục I,KHAC,,,,313
+3808,"Thuốc trừ côn trùng, thuốc diệt loài gặm nhấm, thuốc trừ nấm, thuốc diệt cỏ, thuốc chống nẩy mầm và thuốc điều hòa sinh trưởng cây trồng, thuốc khử trùng và các sản phẩm tương tự, được làm thành dạng nhất định hoặc đóng gói để bán lẻ hoặc như các chế phẩm hoặc sản phẩm (ví dụ, băng, bấc và nến đã xử lý lưu huỳnh và giấy bẫy ruồi)",Mục 23,Phụ lục I,KHAC,,,,313
 380891,- - Thuốc,Mục 23,Phụ lục I,KHAC,,trừ côn trùng:,,313
 38089110,- - - Các chế phẩm trung gian chứa 2- (methylpropyl-phenol methylcarbamate),Mục 23,Phụ lục I,KHAC,,,,313
 38089130,- - - Dạng bình xịt,Mục 23,Phụ lục I,KHAC,,,,313
@@ -3232,8 +3232,8 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 89020046,Chiều dài lớn nhất trên 75 mét nhưng không quá 90 mét,Mục 25,Phụ lục I,KHAC,,,,316
 89020047,"Chiều dài trên 90 mét Tàu thuyền khác, kể cả tàu chiến và xuồng cứu sinh trừ",Mục 25,Phụ lục I,KHAC,,,,316
 89069010,Có lượng dãn nước không quá 30 tấn,Mục 25,Phụ lục I,KHAC,,,,316
-89069090,"Loại khác Kết cấu nổi khác (ví dụ, bè mảng, thùng chứa chất lỏng",Mục 25,Phụ lục I,KHAC,,,,316
-8907,"ketxon giếng kín (coffer-dams), cầu lên bờ, các loại phao",Mục 25,Phụ lục I,KHAC,,,,316
+89069090,Loại khác,Mục 25,Phụ lục I,KHAC,,,,316
+8907,"Kết cấu nổi khác (ví dụ, bè mảng, thùng chứa chất lỏng, ketxon giếng kín (coffer-dams), cầu lên bờ, các loại phao nổi và mốc hiệu)",Mục 25,Phụ lục I,KHAC,,,,316
 89071000,- Bè mảng có thể bơm hơi,Mục 25,Phụ lục I,KHAC,,,,316
 890790,- Loại khác:,Mục 25,Phụ lục I,KHAC,,,,317
 89079010,- - Các loại phao nổi (buoys),Mục 25,Phụ lục I,KHAC,,,,317
@@ -3269,7 +3269,7 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 0104,"Cừu, dê sống",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,325
 010410,- Cừu:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,325
 010420,- Dê:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,325
-0105,"thuộc loài Gallus domesticus, vịt ngan, ngỗng, gà tây và gà lôi - Loại khối lượng không quá 185 g:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,325
+0105,"Gia cầm sống, gồm các loại gà thuộc loài Gallus domesticus, vịt, ngan, ngỗng, gà tây và gà lôi",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,325
 010511,- - Gà thuộc loài Gallus domesticus:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,325
 010512,- - Gà tây:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,325
 010513,"- - Vịt, ngan:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,326
@@ -3278,104 +3278,104 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 010594,- - Gà thuộc loài Gallus domesticus:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,326
 010599,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,327
 0106,Động vật sống khác - Động vật có vú:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,327
-02050000,"x đối với sản hoặc đông lạnh phẩm làm thực phẩm) Phụ phẩm ăn được sau giết mổ của lợn, động vật họ trâu bò",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,333
-020745,"- - Loại khác, đông lạnh: x (Áp dụng",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,341
-020755,"- - Loại khác, đông lạnh: x (Áp dụng",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,342
-020760,"- Của gà lôi: x (Áp dụng - - Chưa chặt mảnh, tươi hoặc ướp",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,343
-020890,- Loại khác: x (Áp dụng,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,345
-0209,"xuất cách khác, tươi, ướp lạnh đông lạnh, muối, ngâm nước",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,345
-021019,- - Loại khác: x - - - Thịt lợn muối xông khói (Áp dụng,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,347
-021099,- - Loại khác: x (Áp dụng - - - Thịt gà thái miếng đã được,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,348
-0401,pha thêm đường hoặc chất tạo ngọt khác - Có hàm lượng chất béo không,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,349
-040120,nhưng không quá 6% tính theo khối lượng:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,349
-040140,nhưng không quá 10% tính theo khối lượng:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,349
-0402,"pha thêm đường hoặc chất tạo ngọt khác - Dạng bột, hạt hoặc các thể rắn",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,350
-040210,"khác, có hàm lượng chất béo không quá 1,5% tính theo khối lượng: - - Chưa pha thêm đường hoặc chất tạo ngọt khác: - - - Đóng gói với khối lượng tịnh",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,350
+02050000,"Thịt ngựa, lừa, la, tươi, ướp lạnh hoặc đông lạnh",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,333
+020745,"- - Loại khác, đông lạnh:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,341
+020755,"- - Loại khác, đông lạnh:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,342
+020760,- Của gà lôi:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,343
+020890,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,345
+0209,"Mỡ lợn không dính nạc và mỡ gia cầm, chưa nấu chảy hoặc chiết xuất cách khác, tươi, ướp lạnh, đông lạnh, muối, ngâm nước muối, làm khô hoặc hun khói",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,345
+021019,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,347
+021099,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,348
+0401,"Sữa và kem, chưa cô đặc và chưa pha thêm đường hoặc chất tạo ngọt khác",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,349
+040120,- Có hàm lượng chất béo trên 1% nhưng không quá 6% tính theo khối lượng:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,349
+040140,- Có hàm lượng chất béo trên 6% nhưng không quá 10% tính theo khối lượng:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,349
+0402,"Sữa và kem, đã cô đặc hoặc đã pha thêm đường hoặc chất tạo ngọt khác",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,350
+040210,"- Dạng bột, hạt hoặc các thể rắn khác, có hàm lượng chất béo không quá 1,5% tính theo khối lượng:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,350
 040229,- - Loại khác: - - - Đóng gói với khối lượng tịnh,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,351
 040320,"- Sữa chua: - - Dạng lỏng, đã hoặc chưa cô đặc: - - - Đã thêm hương liệu hoặc",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,352
 040390,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,352
-040410,"hoặc chưa cô đặc hoặc pha thêm đường hoặc chất tạo ngọt khác: - - Dạng bột: - - - Whey, thích hợp sử dụng cho",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,353
-0405,dầu khác tách từ sữa; chất phết từ bơ sữa (dairy spreads),,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,354
+040410,"- Whey và whey đã cải biến, đã hoặc chưa cô đặc hoặc pha thêm đường hoặc chất tạo ngọt khác:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,353
+0405,Bơ và các chất béo và các loại dầu khác tách từ sữa; chất phết từ bơ sữa (dairy spreads),,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,354
 040590,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,354
-0406,Pho mát và curd - Pho mát tươi (chưa ủ chín hoặc,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,354
-040610,"chưa xử lý), kể cả pho mát whey và curd: - - Pho mát tươi (chưa ủ chín hoặc",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,354
-0407,"nguyên vỏ, sống, đã bảo quản hoặc đã làm chín - Trứng đã thụ tinh để ấp: - - Của gà thuộc loài Gallus",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,355
+0406,Pho mát và curd,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,354
+040610,"- Pho mát tươi (chưa ủ chín hoặc chưa xử lý), kể cả pho mát whey, và curd:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,354
+0407,"Trứng chim và trứng gia cầm, nguyên vỏ, sống, đã bảo quản hoặc đã làm chín",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,355
 040719,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,355
 040729,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,356
-040790,- Loại khác: x (Áp dụng - - Của gà thuộc loài Gallus,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,357
-0408,"chín trong nước, đóng bánh đông lạnh hoặc bảo quản cách khác, đã hoặc chưa thêm đường hoặc chất tạo ngọt khác - Lòng đỏ trứng: x (Áp dụng",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,358
-0410,"gốc động vật, chưa được chi tiết hoặc ghi ở nơi khác x (Áp dụng",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,359
-04101000,- Côn trùng x đối với sản phẩm làm thực phẩm),,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,359
-041090,- Loại khác: x (Áp dụng,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,360
+040790,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,357
+0408,"Trứng chim và trứng gia cầm, đã bóc vỏ, và lòng đỏ trứng, sống, làm khô, hấp chín hoặc luộc chín trong nước, đóng bánh, đông lạnh hoặc bảo quản cách khác, đã hoặc chưa thêm đường hoặc chất tạo ngọt khác",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,358
+0410,"Côn trùng và sản phẩm ăn được gốc động vật, chưa được chi tiết hoặc ghi ở nơi khác",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,359
+04101000,- Côn trùng,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,359
+041090,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,360
 050510,- Lông vũ dùng để nhồi; lông tơ:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,361
 050590,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,361
-0506,"cắt thành hình), đã xử lý bằng axit hoặc khử gelatin; bột và phế liệu từ các sản phẩm trên - Ossein và xương đã xử lý bằng",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,362
-0507,"gạc, móng guốc, móng, vuốt và lưỡng cư mỏ, chưa xử lý hoặc đã sơ chế nhưng chưa cắt thành hình; bột hoặc dưới và phế liệu từ các sản phẩm trên nước",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,362
+0506,"Xương và lõi sừng, chưa xử lý, đã khử mỡ, sơ chế (nhưng chưa cắt thành hình), đã xử lý bằng axit hoặc khử gelatin; bột và phế liệu từ các sản phẩm trên",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,362
+0507,"Ngà, mai động vật họ rùa, lược cá voi (phiến sừng hàm trên) và hàm răng lược cá voi, sừng, gạc, móng guốc, móng, vuốt và mỏ, chưa xử lý hoặc đã sơ chế nhưng chưa cắt thành hình; bột và phế liệu từ các sản phẩm trên",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,362
 050790,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,362
-0508,"tự, chưa xử lý hoặc đã sơ chế đối với nhưng chưa gia công thêm; sản phẩm",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,362
-0511,"nơi khác; động vật chết thuộc Chương 1 hoặc Chương 3, không thích hợp sử dụng cho người",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,363
-051191,hoặc động vật thủy sinh không xương sống khác; động vật đã chết thuộc Chương 3:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,363
+0508,"San hô và các chất liệu tương tự, chưa xử lý hoặc đã sơ chế nhưng chưa gia công thêm; mai, vỏ động vật thân mềm, động vật giáp xác hoặc động vật da gai và mai mực, chưa xử lý hoặc đã sơ chế nhưng chưa cắt thành hình, bột và phế liệu từ các sản phẩm trên",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,362
+0511,"Các sản phẩm động vật khác chưa được chi tiết hoặc ghi ở nơi khác; động vật chết thuộc Chương 1 hoặc Chương 3, không thích hợp sử dụng cho người",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,363
+051191,"- - Sản phẩm từ cá hoặc động vật giáp xác, động vật thân mềm hoặc động vật thủy sinh không xương sống khác; động vật đã chết thuộc Chương 3:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,363
 051199,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,364
-1501,"khổ) và mỡ gia cầm, thuộc nhóm 02.09 hoặc 15.03 x (Áp dụng",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,trừ các loại,,365
-1502,"hoặc dê, nhóm 15.03",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,trừ các loại mỡ thuộc,,366
-150290,- Loại khác: x (Áp dụng,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,366
-1504,"loài động vật có vú sống ở biển thức ăn đã hoặc chưa tinh chế, nhưng chăn nuôi không thay đổi về mặt hóa học thủy sản - Dầu gan cá và các phần phân",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,366
-152190,- Loại khác: x x (Áp dụng (Áp dụng,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,367
-1601,"dạng thịt sau giết mổ, tiết hoặc côn trùng; các chế phẩm thực phẩm từ các sản phẩm đó x (Áp dụng",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,368
-1602,"giết mổ, tiết hoặc côn trùng, đã chế biến hoặc bảo quản khác",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,368
-160210,"- Chế phẩm đồng nhất: x (Áp dụng - - Chứa thịt lợn, đóng bao bì kín",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,368
-160231,- - Từ gà tây: x (Áp dụng,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,369
-160249,"- - Loại khác, kể cả các hỗn hợp: - - - Thịt nguội: x x (Áp dụng - - - - Đóng bao bì kín khí để bán",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,372
-160250,- Từ động vật họ trâu bò: x (Áp dụng,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,373
-1603,"giáp xác, động vật thân mềm sản phẩm đối với sản hoặc động vật thủy sinh không động vật phẩm làm xương sống khác trên cạn.) thực phẩm) x (Áp dụng",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,374
-1702,"mantoza, glucoza và fructoza tinh khiết về mặt hóa học, ở thể",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,374
+1501,"Mỡ lợn (kể cả mỡ từ mỡ lá và mỡ khổ) và mỡ gia cầm, trừ các loại thuộc nhóm 02.09 hoặc 15.03",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,trừ các loại,,365
+1502,"Mỡ của động vật họ trâu bò, cừu hoặc dê, trừ các loại mỡ thuộc nhóm 15.03",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,trừ các loại mỡ thuộc,,366
+150290,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,366
+1504,"Mỡ và dầu và các phần phân đoạn của chúng, từ cá hoặc các loài động vật có vú sống ở biển, đã hoặc chưa tinh chế, nhưng không thay đổi về mặt hóa học",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,366
+152190,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,367
+1601,"Xúc xích và các sản phẩm tương tự làm từ thịt, từ phụ phẩm dạng thịt sau giết mổ, tiết hoặc côn trùng; các chế phẩm thực phẩm từ các sản phẩm đó",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,368
+1602,"Thịt, các phụ phẩm dạng thịt sau giết mổ, tiết hoặc côn trùng, đã chế biến hoặc bảo quản khác",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,368
+160210,- Chế phẩm đồng nhất:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,368
+160231,- - Từ gà tây:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,369
+160249,"- - Loại khác, kể cả các hỗn hợp:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,372
+160250,- Từ động vật họ trâu bò:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,373
+1603,"Sản phẩm chiết xuất và nước ép từ thịt, cá hoặc từ động vật giáp xác, động vật thân mềm hoặc động vật thủy sinh không xương sống khác",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,374
+1702,"Đường khác, kể cả đường lactoza, mantoza, glucoza và fructoza, tinh khiết về mặt hóa học, ở thể rắn; xirô đường chưa pha thêm hương liệu hoặc chất màu; mật ong nhân tạo, đã hoặc chưa pha trộn với mật ong tự nhiên; đường caramen",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,374
 230990,- Loại khác: - - Thức ăn hoàn chỉnh: x,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,378
-3503,"tấm hình chữ nhật (kể cả hình với sản vuông), đã hoặc chưa gia công phẩm chế",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,381
-4103,"chưa làm thành da giấy hoặc gia công thêm), đã hoặc chưa khử lông hoặc lạng xẻ, trừ các loại đã loại trừ trong Chú giải",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,384
-4301,"mảnh cắt khác, thích hợp cho việc thuộc da lông), trừ da sống trong nhóm 41.01, 41.02 hoặc 41.03 - Của loài chồn vizôn, da nguyên",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,385
-5102,phẩm đã chưa chải thô hoặc chải kỹ xử lý sử,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,386
-010612,"(động vật có vú thuộc bộ Sirenia); hải cẩu, sư tử biển và hải mã (con moóc) (động vật có vú thuộc phân bộ Pinnipedia): - - - Cá voi, cá heo chuột và cá heo (động vật có vú thuộc bộ cá voi",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,389
-020840,"nược (động vật có vú thuộc bộ Sirenia); của hải cẩu, sư tử biển và con moóc (hải mã) (động vật có vú thuộc phân bộ Pinnipedia):",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,390
+3503,"Gelatin (kể cả gelatin ở dạng tấm hình chữ nhật (kể cả hình vuông), đã hoặc chưa gia công bề mặt hoặc tạo màu) và các dẫn xuất gelatin; keo điều chế từ bong bóng cá; các loại keo khác có nguồn gốc động vật, trừ keo casein thuộc nhóm 35.01",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,381
+4103,"Da sống của loài động vật khác (tươi, hoặc muối, khô, ngâm vôi, axit hóa hoặc được bảo quản cách khác, nhưng chưa thuộc, chưa làm thành da giấy hoặc gia công thêm), đã hoặc chưa khử lông hoặc lạng xẻ, trừ các loại đã loại trừ trong Chú giải 1(b) hoặc 1(c) của Chương này",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,384
+4301,"Da lông sống (kể cả đầu, đuôi, bàn chân và các mẩu hoặc các mảnh cắt khác, thích hợp cho việc thuộc da lông), trừ da sống trong nhóm 41.01, 41.02 hoặc 41.03",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,385
+5102,"Lông động vật loại thô hoặc mịn, chưa chải thô hoặc chải kỹ",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,386
+010612,"- - Cá voi, cá heo chuột và cá heo (động vật có vú thuộc bộ cá voi Cetacea); lợn biển và cá nược (động vật có vú thuộc bộ Sirenia); hải cẩu, sư tử biển và hải mã (con moóc) (động vật có vú thuộc phân bộ Pinnipedia):",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,389
+020840,"- Của cá voi, cá heo chuột và cá heo (động vật có vú thuộc bộ Cetacea); của lợn biển và cá nược (động vật có vú thuộc bộ Sirenia); của hải cẩu, sư tử biển và con moóc (hải mã) (động vật có vú thuộc phân bộ Pinnipedia):",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,390
 020890,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,391
-021092,heo (động vật có vú thuộc bộ Cetacea); của lợn biển và cá nược,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,391
+021092,"- - Của cá voi, cá heo chuột và cá heo (động vật có vú thuộc bộ Cetacea); của lợn biển và cá nược (động vật có vú thuộc bộ Sirenia); của hải cẩu, sư tử biển và con moóc (hải mã) (động vật có vú thuộc phân bộ Pinnipedia):",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,391
 0301,Cá sống - Cá cảnh:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,392
 030111,- - Cá nước ngọt:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,392
 030119,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,393
-030193,"Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,393
+030193,"- - Cá chép (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.):",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,393
 030199,- - Loại khác: - - - Cá bột của cá măng biển và của cá mú:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,394
-0302,"phi-lê cá (fillets) và các loại thịt cá khác thuộc nhóm 03.04 - Cá hồi, trừ phụ phẩm ăn được sau giết mổ của cá thuộc các phân nhóm từ 0302.91 đến 0302.99:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,396
-030272,"Silurus spp., Clarias spp Ictalurus spp.): - - - Cá tra đuôi vàng (Pangasius",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,403
+0302,"Cá, tươi hoặc ướp lạnh, trừ phi-lê cá (fillets) và các loại thịt cá khác thuộc nhóm 03.04",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,396
+030272,"- - Cá da trơn (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.):",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,403
 030289,- - Loại khác: - - - Cá biển:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,404
-0303,"(fillets) và các loại thịt cá khác thuộc nhóm 03.04 - Cá hồi, trừ các phụ phẩm ăn được sau giết mổ của cá thuộc các phân nhóm từ 0303.91 đến",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,406
-030354,"Scomber australasicus, Scomber japonicus): - - - Cá nục hoa (Scomber scombrus",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,412
-030359,- - Loại khác: - - - Cá bạc má (Rastrelliger,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,412
+0303,"Cá, đông lạnh, trừ phi-lê cá (fillets) và các loại thịt cá khác thuộc nhóm 03.04",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,406
+030354,"- - Cá nục hoa (Scomber scombrus, Scomber australasicus, Scomber japonicus):",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,412
+030359,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,412
 030389,- - Loại khác: - - - Cá biển:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,414
-0304,"(đã hoặc chưa xay, nghiền, băm) tươi, ướp lạnh hoặc đông lạnh",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,417
+0304,"Phi-lê cá và các loại thịt cá khác (đã hoặc chưa xay, nghiền, băm), tươi, ướp lạnh hoặc đông lạnh",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,417
 030489,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,424
 030499,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,426
-030520,"khô, hun khói, muối hoặc ngâm nước muối: - - Của cá nước ngọt, làm khô",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,426
-030539,"- - Loại khác: - - - Cá nhói nước ngọt (Xenentodon cancila), cá phèn dải vàng (Upeneus",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,428
+030520,"- Gan, sẹ và bọc trứng cá, làm khô, hun khói, muối hoặc ngâm nước muối:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,426
+030539,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,428
 030549,- - Loại khác: - - - Cá ngừ vằn (cá ngừ sọc dưa),,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,430
 030559,- - Loại khác: - - - Cá biển:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,432
 030569,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,434
 030571,- - Vây cá mập:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,434
 030572,"- - Đầu cá, đuôi và bong bóng: - - - Bong bóng cá:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,434
 030579,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,434
-030611,"biển khác (Palinurus spp., Panulirus",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,435
+030611,"- - Tôm hùm đá và các loại tôm biển khác (Palinurus spp., Panulirus spp., Jasus spp.):",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,435
 030612,- - Tôm hùm (Homarus spp.):,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,435
 030614,"- - Cua, ghẹ: - - - Hun khói:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,436
 030617,- - Tôm shrimps và tôm prawn khác: - - - Tôm sú (Penaeus monodon):,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,436
-030631,biển khác (Palinurus spp,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,437
+030631,"- - Tôm hùm đá và các loại tôm biển khác (Palinurus spp., Panulirus spp., Jasus spp.):",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,437
 030632,- - Tôm hùm (Homarus spp.):,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,437
 030633,"- - Cua, ghẹ: - - - Ghẹ xanh/ghẹ xanh Đại Tây Dương (Callinectes spp.) và cua tuyết (thuộc họ Oregoniidae):",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,438
-030635,"nước lạnh (Pandalus spp., Crangon crangon):",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,438
+030635,"- - Tôm shrimps và tôm prawn nước lạnh (Pandalus spp., Crangon crangon):",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,438
 030639,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,440
-030691,"khác (Palinurus spp., Panulirus spp., Jasus spp.): - - - Đóng bao bì kín khí để bán lẻ:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,440
+030691,"- - Tôm hùm đá và các loại tôm biển khác (Palinurus spp., Panulirus spp., Jasus spp.):",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,440
 030692,- - Tôm hùm (Homarus spp.): - - - Đóng bao bì kín khí để bán lẻ:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,441
 030693,"- - Cua, ghẹ: - - - Đóng bao bì kín khí để bán lẻ:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,441
 030695,"- - Tôm shrimps và tôm prawn: - - - Đóng bao bì kín khí để bán lẻ: - - - - Còn vỏ, đã hấp chín hoặc",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,442
 030699,- - Loại khác - - - Đóng bao bì kín khí để bán lẻ:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,442
-0307,"khói, hóa vật thân mềm hun khói, đã chất, ướp hoặc chưa bóc mai, vỏ, đã hoặc muối chưa làm chín trước hoặc trong ngâm quá trình hun khói nước muối, lên men...) - Hàu:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,443
+0307,"Động vật thân mềm, đã hoặc chưa bóc mai, vỏ, sống, tươi, ướp lạnh, đông lạnh, khô, muối hoặc ngâm nước muối; động vật thân mềm hun khói, đã hoặc chưa bóc mai, vỏ, đã hoặc chưa làm chín trước hoặc trong quá trình hun khói",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,443
 030711,"- - Sống, tươi hoặc ướp lạnh:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,443
 030719,"- - Loại khác: - - - Khô, muối hoặc ngâm nước",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,443
 030721,"- - Sống, tươi hoặc ướp lạnh:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,444
@@ -3383,7 +3383,7 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 030731,"- - Sống, tươi hoặc ướp lạnh:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,444
 030739,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,444
 030742,"- - Sống, tươi hoặc ướp lạnh: - - - Sống: - - - - Mực nang (Sepia officinalis Rossia macrosoma, Sepiola spp.)",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,445
-030743,- - Đông lạnh: - - - Mực nang (Sepia officinalis,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,445
+030743,- - Đông lạnh:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,445
 030749,"- - Loại khác: - - - Khô, muối hoặc ngâm nước muối: - - - - Mực nang (Sepia officinalis Rossia macrosoma, Sepiola spp.)",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,446
 030751,"- - Sống, tươi hoặc ướp lạnh:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,446
 030759,"- - Loại khác: - - - Khô, muối hoặc ngâm nước",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,447
@@ -3392,109 +3392,109 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 030779,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,448
 030791,"- - Sống, tươi hoặc ướp lạnh:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,449
 030799,"- - Loại khác: - - - Khô, muối hoặc ngâm nước",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,449
-0308,"khói, hóa vật thủy sinh không xương chất, ướp sống hun khói trừ động vật muối giáp xác và động vật thân mềm, ngâm đã hoặc chưa làm chín trước nước hoặc trong quá trình hun khói muối, lên men...) - Hải sâm (Stichopus japonicus Holothurioidea):",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,450
+0308,"Động vật thủy sinh không xương sống trừ động vật giáp xác và động vật thân mềm, sống, tươi, ướp lạnh, đông lạnh, khô, muối hoặc ngâm nước muối; động vật thủy sinh không xương sống hun khói trừ động vật giáp xác và động vật thân mềm, đã hoặc chưa làm chín trước hoặc trong quá trình hun khói",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,450
 030811,"- - Sống, tươi hoặc ướp lạnh:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,450
 030819,"- - Loại khác: - - - Khô, muối hoặc ngâm nước",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,450
 030821,"- - Sống, tươi hoặc ướp lạnh:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,451
 030829,"- - Loại khác: - - - Khô, muối hoặc ngâm nước",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,451
 030830,- Sứa (Rhopilema spp.):,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,451
 030890,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,451
-0309,"mềm và động vật thủy sinh không xương sống khác, thích hợp dùng làm thức ăn cho người",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,452
+0309,"Bột mịn, bột thô và viên của cá, động vật giáp xác, động vật thân mềm và động vật thủy sinh không xương sống khác, thích hợp dùng làm thức ăn cho người",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,452
 030990,- Loại khác: - - Của động vật giáp xác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,452
-0511,"nơi khác; động vật chết thuộc Chương 1 hoặc Chương 3, không thích hợp sử dụng cho người - - Sản phẩm từ cá hoặc động vật giáp xác, động vật thân mềm",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,453
-1504,"loài động vật có vú sống ở biển đã hoặc chưa tinh chế, nhưng không thay đổi về mặt hóa học - Dầu gan cá và các phần phân",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,454
-1604,"xông khói sản phẩm thay thế trứng cá hóa chất tầm muối chế biến từ trứng cá ướp muối ngâm nước muối, lên men...)",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,454
+0511,"Các sản phẩm động vật khác chưa được chi tiết hoặc ghi ở nơi khác; động vật chết thuộc Chương 1 hoặc Chương 3, không thích hợp sử dụng cho người",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,453
+1504,"Mỡ và dầu và các phần phân đoạn của chúng, từ cá hoặc các loài động vật có vú sống ở biển, đã hoặc chưa tinh chế, nhưng không thay đổi về mặt hóa học",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,454
+1604,Cá đã được chế biến hoặc bảo quản; trứng cá tầm muối và sản phẩm thay thế trứng cá tầm muối chế biến từ trứng cá,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,454
 160411,- - Từ cá hồi:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,455
 160412,- - Từ cá trích nước lạnh:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,455
 160415,- - Từ cá nục hoa:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,456
 160416,- - Từ cá cơm (cá trỏng):,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,456
 160417,- - Cá chình:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,456
-160418,- - Vây cá mập: làm thực phẩm chức năng),,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,456
+160418,- - Vây cá mập:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,456
 160419,- - Loại khác: - - - Cá sòng (horse mackerel),,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,457
-1605,"xông khói xương sống khác, đã được chế hóa chất biến hoặc bảo quản ướp muối ngâm nước muối, lên men...)",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,458
+1605,"Động vật giáp xác, động vật thân mềm và động vật thủy sinh không xương sống khác, đã được chế biến hoặc bảo quản",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,458
 160510,"- Cua, ghẹ: - - Đóng bao bì kín khí để bán lẻ:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,458
 160529,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,459
 160554,- - Mực nang và mực ống:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,459
 160557,- - Bào ngư:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,460
-2103,bột canh hỗn hợp; bột mịn và bột thô từ hạt mù tạt và mù tạt đã chế biến,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,460
+2103,Nước xốt và các chế phẩm làm nước xốt; đồ gia vị hỗn hợp và bột canh hỗn hợp; bột mịn và bột thô từ hạt mù tạt và mù tạt đã chế biến,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,460
 210390,- Loại khác: - - Nước sốt và các chế phẩm làm nước sốt:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,461
 0106,Động vật sống khác,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,462
-0601,"trưởng hoặc ở dạng hoa; cây và rễ rau diếp xoăn, trừ các loại rễ thuộc nhóm 12.12 - Củ, thân củ, rễ củ, thân ống và",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,463
-060120,"rễ, dạng sinh trưởng hoặc dạng hoa; cây và rễ rau diếp xoăn:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,464
+0601,"Củ, thân củ, rễ củ, thân ống và thân rễ, ở dạng ngủ, dạng sinh trưởng hoặc ở dạng hoa; cây và rễ rau diếp xoăn, trừ các loại rễ thuộc nhóm 12.12",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,463
+060120,"- Củ, thân củ, rễ củ, thân ống, thân rễ, dạng sinh trưởng hoặc dạng hoa; cây và rễ rau diếp xoăn:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,464
 060290,- Loại khác: - - Cành giâm và cành ghép,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,465
 060420,- Tươi:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,466
 060490,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,466
 0701,"Khoai tây, tươi hoặc ướp lạnh",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,466
 070190,- Loại khác - - Loại thường dùng để làm khoai,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,466
-0703,"và các loại rau họ hành, tỏi khác tươi hoặc ướp lạnh",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,467
+0703,"Hành tây, hành, hẹ, tỏi, tỏi tây và các loại rau họ hành, tỏi khác, tươi hoặc ướp lạnh",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,467
 070310,"- Hành tây và hành, hẹ: - - Hành tây:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,467
 070320,- Tỏi:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,467
-0704,"và cây họ bắp cải ăn được tương tự, tươi hoặc ướp lạnh",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,468
+0704,"Bắp cải, súp lơ (1), su hào, cải xoăn và cây họ bắp cải ăn được tương tự, tươi hoặc ướp lạnh",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,468
 070410,- Súp lơ (1) và súp lơ xanh:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,468
 070490,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,468
-0705,"và rau diếp xoăn (Cichorium spp.), tươi hoặc ướp lạnh - Rau diếp, xà lách:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,468
-0706,"củ cải ri (radish) và các loại củ rễ ăn được tương tự, tươi hoặc ướp lạnh",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,469
+0705,"Rau diếp, xà lách (Lactuca sativa) và rau diếp xoăn (Cichorium spp.), tươi hoặc ướp lạnh",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,468
+0706,"Cà rốt, củ cải, củ dền làm sa- lát, diếp củ (salsify), cần củ (celeriac), củ cải ri (radish) và các loại củ rễ ăn được tương tự, tươi hoặc ướp lạnh",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,469
 070610,- Cà rốt và củ cải:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,469
 0709,"Rau khác, tươi hoặc ướp lạnh",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,470
 070959,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,471
 070999,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,471
-0710,"chín hoặc luộc chín trong nước), trong nước đông lạnh hoặc đông lạnh ở nhiệt độ -",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,472
-0711,"thời, nhưng không phù hợp cách ngâm dùng ngay được nước muối ngâm nước lưu huỳnh",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,473
+0710,"Rau các loại (đã hoặc chưa hấp chín hoặc luộc chín trong nước), đông lạnh",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,472
+0711,"Rau các loại đã bảo quản tạm thời, nhưng không phù hợp dùng ngay được",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,473
 071120,- Ôliu:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,474
 071140,- Dưa chuột và dưa chuột ri:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,474
 071151,- - Nấm thuộc chi Agaricus:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,474
 071159,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,474
 071190,- Rau khác; hỗn hợp các loại rau:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,474
-0712,"thái lát, vụn hoặc ở dạng bột nghiền bột nhưng chưa chế biến thêm và được đóng trong bao bì có ghi nhãn",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,475
+0712,"Rau khô, ở dạng nguyên, cắt, thái lát, vụn hoặc ở dạng bột, nhưng chưa chế biến thêm",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,475
 071239,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,476
 071290,- Rau khác; hỗn hợp các loại rau:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,476
-0713,"quả, đã hoặc chưa bóc vỏ hạt hoặc làm vỡ hạt",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,476
+0713,"Các loại rau đậu khô, đã bóc vỏ quả, đã hoặc chưa bóc vỏ hạt hoặc làm vỡ hạt",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,476
 071310,- Đậu Hà Lan (Pisum sativum):,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,477
 071320,- Đậu gà (chickpeas) (garbanzos):,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,477
-071331,(L.) Hepper hoặc Vigna radiata (L.) Wilczek:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,477
+071331,- - Đậu thuộc loài Vigna mungo (L.) Hepper hoặc Vigna radiata (L.) Wilczek:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,477
 071335,- - Đậu đũa (Vigna unguiculata):,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,478
 071339,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,478
 071340,- Đậu lăng:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,478
-071350,"và đậu ngựa (Vicia faba var equina, Vicia faba var. minor):",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,478
+071350,"- Đậu tằm (Vicia faba var. major) và đậu ngựa (Vicia faba var. equina, Vicia faba var. minor):",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,478
 071390,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,479
-0714,"tinh bột hoặc inulin cao, tươi ở nhiệt độ ướp lạnh, đông lạnh hoặc khô -180C đã hoặc chưa thái lát hoặc làm thành dạng viên; lõi cây cọ sago",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,479
+0714,"Sắn, củ dong, củ lan, a-ti-sô Jerusalem, khoai lang và các loại củ và rễ tương tự có hàm lượng tinh bột hoặc inulin cao, tươi, ướp lạnh, đông lạnh hoặc khô, đã hoặc chưa thái lát hoặc làm thành dạng viên; lõi cây cọ sago",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,479
 071410,- Sắn: - - Thái lát hoặc đã làm thành dạng viên:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,479
 071420,- Khoai lang:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,480
 071490,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,480
-0802,"hoặc khô, đã hoặc chưa bóc vỏ vị hoặc",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,482
+0802,"Quả hạch (nuts) khác, tươi hoặc khô, đã hoặc chưa bóc vỏ hoặc lột vỏ",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,482
 080212,- - Đã bóc vỏ:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,483
-0803,và đóng khô gói trong bao bì có,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,484
+0803,"Chuối, kể cả chuối lá, tươi hoặc khô",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,484
 080310,- Chuối lá:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,484
 080390,- Loại khác,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,484
-0804,"và được xoài và măng cụt, tươi hoặc khô đóng gói",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,485
+0804,"Quả chà là, sung, vả, dứa, bơ, ổi, xoài và măng cụt, tươi hoặc khô",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,485
 080450,"- Quả ổi, xoài và măng cụt:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,486
-0805,và đóng hoặc khô gói trong,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,486
+0805,"Quả thuộc chi cam quýt, tươi hoặc khô",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,486
 080510,- Quả cam:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,486
 0806,"Quả nho, tươi hoặc khô",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,487
 080940,- Quả mận và quả mận gai:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,489
 0810,"Quả khác, tươi",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,489
 081090,- Loại khác: - - Quả nhãn; quả nhãn Mata,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,490
-0811,"trong nước, đông lạnh, đã hoặc trong nước chưa thêm đường hoặc chất tạo hoặc đông ngọt khác lạnh ở nhiệt độ -",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,491
-0812,"quản tạm thời, nhưng không phù ngâm hợp dùng ngay được nước muối",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,492
+0811,"Quả và quả hạch (nuts), đã hoặc chưa hấp chín hoặc luộc chín trong nước, đông lạnh, đã hoặc chưa thêm đường hoặc chất tạo ngọt khác",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,491
+0812,"Quả và quả hạch (nuts) được bảo quản tạm thời, nhưng không phù hợp dùng ngay được",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,492
 081290,- Quả khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,493
-0813,"biến và các loại quả hạch (nuts) hoặc đóng gói quả khô thuộc Chương này trong bao bì kín, có ghi nhãn",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,493
+0813,"Quả, khô, trừ các loại quả thuộc nhóm 08.01 đến 08.06; hỗn hợp các loại quả hạch (nuts) hoặc quả khô thuộc Chương này",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,493
 081340,- Quả khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,493
-0901,"vỏ quả và vỏ lụa cà phê; các chất thay thế cà phê có chứa cà phê theo tỷ lệ nào đó - Cà phê, chưa rang:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,495
+0901,"Cà phê, rang hoặc chưa rang, đã hoặc chưa khử chất caffeine; vỏ quả và vỏ lụa cà phê; các chất thay thế cà phê có chứa cà phê theo tỷ lệ nào đó",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,495
 090111,- - Chưa khử chất caffeine:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,495
 090112,- - Đã khử chất caffeine:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,495
 090121,- - Chưa khử chất caffeine: - - - Chưa nghiền:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,496
 090122,- - Đã khử chất caffeine:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,496
-0902,và đóng liệu gói trong bao bì có ghi nhãn - Chè xanh (chưa ủ men) đóng gói,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,497
+0902,"Chè, đã hoặc chưa pha hương liệu",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,497
 090220,- Chè xanh khác (chưa ủ men):,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,497
-090230,"men một phần, đóng gói sẵn trọng lượng không quá 3kg:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,497
-0904,"và được Pimenta, khô hoặc xay hoặc đóng gói",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,498
+090230,"- Chè đen (đã ủ men) và chè đã ủ men một phần, đóng gói sẵn trọng lượng không quá 3kg:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,497
+0904,"Hạt tiêu thuộc chi Piper; quả ớt thuộc chi Capsicum hoặc chi Pimenta, khô hoặc xay hoặc nghiền",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,498
 090411,- - Chưa xay hoặc chưa nghiền:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,498
 090412,- - Đã xay hoặc nghiền:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,499
-090422,- - Đã xay hoặc nghiền: - - - Quả ớt (chillies) (quả thuộc,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,499
+090422,- - Đã xay hoặc nghiền:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,499
 0905,Vani và được đóng gói trong bao bì kín có ghi nhãn,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,500
 0906,Quế và hoa quế và được đóng gói trong bao bì kín có ghi nhãn,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,500
 0907,"Đinh hương (cả quả, thân và cành)",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,501
-0909,"rau mùi, thì là Ai Cập hoặc ca-rum (caraway); hạt bách xù (juniper berries) - Hạt của cây rau mùi:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,502
+0909,"Hạt của hoa hồi anise (tiểu hồi), hoa hồi badian (đại hồi), thì là, rau mùi, thì là Ai Cập hoặc ca-rum (caraway); hạt bách xù (juniper berries)",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,502
 090961,- - Chưa xay hoặc chưa nghiền:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,503
 091099,"- - Loại khác: - - - Húng tây, cỏ xạ hương; lá",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,504
 1001,Lúa mì và meslin - Lúa mì Durum:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,504
@@ -3507,7 +3507,7 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 1006,Lúa gạo,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,506
 100610,- Thóc:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,506
 100620,- Gạo lứt:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,507
-100630,đã hoặc chưa được đánh bóng hoặc hồ (glazed):,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,507
+100630,"- Gạo đã xát toàn bộ hoặc sơ bộ, đã hoặc chưa được đánh bóng hoặc hồ (glazed):",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,507
 100640,- Tấm: - - Loại dùng làm thức ăn chăn,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,507
 1007,Lúa miến,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,508
 1101,Bột mì hoặc bột meslin - Bột mì:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,509
@@ -3519,71 +3519,71 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 1108,Tinh bột; inulin - Tinh bột:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,515
 110819,- - Tinh bột khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,515
 1201,"Đậu tương, đã hoặc chưa vỡ mảnh",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,515
-1202,"chín cách khác, đã hoặc chưa bóc vỏ hoặc vỡ mảnh",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,515
+1202,"Lạc chưa rang, hoặc chưa làm chín cách khác, đã hoặc chưa bóc vỏ hoặc vỡ mảnh",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,515
 1205,Hạt cải dầu đã hoặc chưa vỡ mảnh - Hạt cải dầu có hàm lượng axit,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,516
 120710,- Hạt cọ và nhân hạt cọ:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,516
 120740,- Hạt vừng:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,516
 120799,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,517
-1208,"hạt hoặc quả có dầu, mịn và bột thô từ hạt mù tạt",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,trừ bột,,517
-120929,- - Loại khác: - - - Hạt cỏ đuôi mèo (Phleum,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,518
+1208,"Bột mịn và bột thô từ các loại hạt hoặc quả có dầu, trừ bột mịn và bột thô từ hạt mù tạt",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,trừ bột,,517
+120929,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,518
 120991,- - Hạt rau:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,518
 120999,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,519
-1211,"dùng làm nước hoa, làm dược phẩm là phẩm hoặc thuốc trừ sâu, thuốc thực phẩm diệt nấm hoặc các mục đích hoặc dùng",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,519
+1211,"Các loại cây và các bộ phận của cây (kể cả hạt và quả), chủ yếu dùng làm nước hoa, làm dược phẩm hoặc thuốc trừ sâu, thuốc diệt nấm hoặc các mục đích tương tự, tươi, ướp lạnh, đông lạnh hoặc khô, đã hoặc chưa cắt, nghiền hoặc xay thành bột",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,519
 121120,"- Rễ cây nhân sâm: biến được đóng gói trong bao bì kín, có ghi nhãn",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,520
 121190,- Loại khác: - - Loại chủ yếu dùng làm dược liệu:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,521
 121221,- - Thích hợp sử dụng cho người: - - - Đã sấy khô nhưng chưa nghiền:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,522
 121229,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,522
 121293,- - Mía đường:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,523
 121299,- - Loại khác - - - Hạt và nhân hạt của quả mơ,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,523
-1214,"đậu, cải xoăn, đậu lu-pin, đậu tằm và các sản phẩm tương tự dùng làm thức ăn cho gia súc đã hoặc chưa làm thành viên",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,524
-1301,"làm thực nhựa dầu tự nhiên (ví dụ, nhựa phẩm, trừ thơm từ cây balsam) các mặt hàng do Bộ Y tế quản lý",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,524
+1214,"Cải củ Thụy Điển, cải cầu vồng (mangold), rễ cỏ khô, cỏ khô, cỏ linh lăng, cỏ ba lá, cây hồng đậu, cải xoăn, đậu lu-pin, đậu tằm và các sản phẩm tương tự dùng làm thức ăn cho gia súc, đã hoặc chưa làm thành viên",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,524
+1301,"Nhựa cánh kiến đỏ; gôm tự nhiên, nhựa cây, nhựa gôm và nhựa dầu tự nhiên (ví dụ, nhựa thơm từ cây balsam)",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,524
 130190,- Loại khác,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,525
-1302,"làm thực các chất nhầy và các chất làm phẩm, trừ đặc, làm dày khác, đã hoặc các mặt chưa cải biến, thu được từ các hàng do sản phẩm thực vật Bộ Y tế quản lý",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,525
+1302,"Nhựa và các chiết xuất từ thực vật; chất pectic, muối của axit pectinic và muối của axit pectic; thạch rau câu (agar-agar) và các chất nhầy và các chất làm đặc, làm dày khác, đã hoặc chưa cải biến, thu được từ các sản phẩm thực vật",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,525
 130219,- - Loại khác: - - - Chiết xuất và cồn thuốc của,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,526
 130239,"- - Loại khác: - - - Làm từ tảo carrageen (carrageenan): - - - - Dạng bột, tinh chế một",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,526
 140120,"- Song, mây:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,527
 140490,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,528
-1701,"và đường sucroza tinh khiết về mặt hóa học, ở thể rắn - Đường thô chưa pha thêm hương liệu hoặc chất màu:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,528
+1701,"Đường mía hoặc đường củ cải và đường sucroza tinh khiết về mặt hóa học, ở thể rắn",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,528
 170199,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,529
-1702,"xirô đường chưa pha thêm hương liệu hoặc chất màu; mật ong nhân tạo, đã hoặc chưa pha trộn với mật ong tự nhiên; đường caramen - Lactoza và xirô lactoza: - - Có hàm lượng lactoza khan từ",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,529
-170290,hợp xirô đường có chứa hàm lượng fructoza là 50% tính theo khối lượng ở thể khô: - - Mantoza và xirô mantoza:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,530
+1702,"Đường khác, kể cả đường lactoza, mantoza, glucoza và fructoza, tinh khiết về mặt hóa học, ở thể rắn; xirô đường chưa pha thêm hương liệu hoặc chất màu; mật ong nhân tạo, đã hoặc chưa pha trộn với mật ong tự nhiên; đường caramen",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,529
+170290,"- Loại khác, kể cả đường nghịch chuyển và đường khác và hỗn hợp xirô đường có chứa hàm lượng fructoza là 50% tính theo khối lượng ở thể khô:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,530
 170310,- Mật mía:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,531
 170390,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,532
 180690,"- Loại khác: - - Các chế phẩm thực phẩm từ bột bột thô, tinh bột hoặc chiết xuất",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,533
-0401,"đến 04.04, có chứa từ 5% trở lên nhưng không quá 10%",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,534
-1904,"cốc (trừ ngô), ở dạng hạt hoặc dạng mảnh hoặc đã làm thành dạng hạt khác (trừ bột, tấm và",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,trừ ngô,,534
-190410,từ quá trình rang hoặc nổ ngũ cốc hoặc các sản phẩm ngũ cốc:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,534
-190420,hợp của mảnh ngũ cốc chưa rang và mảnh ngũ cốc đã rang hoặc ngũ cốc đã nổ: - - Thực phẩm chế biến từ mảnh,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,535
+0401,"Sữa và kem, chưa cô đặc và chưa pha thêm đường hoặc chất tạo ngọt khác",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,534
+1904,"Thực phẩm chế biến thu được từ quá trình rang hoặc nổ ngũ cốc hoặc các sản phẩm ngũ cốc (ví dụ mảnh ngô được chế biến từ bột ngô (corn flakes)); ngũ cốc (trừ ngô), ở dạng hạt hoặc dạng mảnh hoặc đã làm thành dạng hạt khác (trừ bột, tấm và bột thô), đã làm chín sơ hoặc chế biến cách khác, chưa được chi tiết hoặc ghi ở nơi khác",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,trừ ngô,,534
+190410,- Thực phẩm chế biến thu được từ quá trình rang hoặc nổ ngũ cốc hoặc các sản phẩm ngũ cốc:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,534
+190420,- Thực phẩm chế biến từ mảnh ngũ cốc chưa rang hoặc từ hỗn hợp của mảnh ngũ cốc chưa rang và mảnh ngũ cốc đã rang hoặc ngũ cốc đã nổ:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,535
 190490,"- Loại khác: - - Các chế phẩm từ gạo, kể cả",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,535
 200190,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,536
 200290,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,536
 200390,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,536
-2004,"quản bằng giấm hoặc axit axetic đã đông lạnh, trừ các sản phẩm thuộc nhóm 20.06",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,537
+2004,"Rau khác, đã chế biến hoặc bảo quản bằng cách khác trừ bảo quản bằng giấm hoặc axit axetic, đã đông lạnh, trừ các sản phẩm thuộc nhóm 20.06",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,537
 200490,- Rau khác và hỗn hợp các loại rau: - - Phù hợp dùng cho trẻ sơ sinh,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,537
-2005,"quản bằng giấm hoặc axit axetic, chín, đã không đông lạnh, trừ các sản chế biến phẩm thuộc nhóm 20.06 hoặc bảo quản bằng giấm hoặc axít axetic",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,537
+2005,"Rau khác đã chế biến hoặc bảo quản bằng cách khác trừ bảo quản bằng giấm hoặc axit axetic, không đông lạnh, trừ các sản phẩm thuộc nhóm 20.06",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,537
 200510,- Rau đồng nhất: - - Phù hợp dùng cho trẻ sơ sinh,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,538
 200520,- Khoai tây: - - Dạng thanh và que: - - - Đóng bao bì kín khí để bán,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,538
 200559,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,538
 200599,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,539
-2008,"khác, đã hoặc chưa pha thêm đã pha Bộ Công đường hoặc chất tạo ngọt khác thêm Thương hoặc rượu, chưa được chi tiết đường quản lý hoặc ghi ở nơi khác hay chất",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,539
+2008,"Quả, quả hạch (nuts) và các phần ăn được khác của cây, đã chế biến hoặc bảo quản bằng cách khác, đã hoặc chưa pha thêm đường hoặc chất tạo ngọt khác hoặc rượu, chưa được chi tiết hoặc ghi ở nơi khác",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,539
 200811,- - Lạc:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,540
 200860,- Anh đào (Cherries):,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,540
 200870,"- Đào, kể cả quả xuân đào:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,541
 200897,"- - Dạng hỗn hợp: - - - Từ thân cây, rễ cây và các phần ăn được khác của cây, không bao",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,541
 200899,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,541
-2009,"rau ép, chưa lên men và chưa do Bộ Công pha thêm rượu, đã hoặc chưa thương pha thêm đường hoặc chất tạo quản lý ngọt khác - Nước cam ép:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,542
+2009,"Các loại nước ép trái cây hoặc nước ép từ quả hạch (nut) (kể cả hèm nho và nước dừa) và nước rau ép, chưa lên men và chưa pha thêm rượu, đã hoặc chưa pha thêm đường hoặc chất tạo ngọt khác",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,542
 200989,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,544
 200990,- Nước ép hỗn hợp: - - Phù hợp dùng cho trẻ sơ sinh,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,544
-210120,"thành phần cơ bản là các chất chiết xuất, tinh chất hoặc các chất cô đặc này hoặc có thành phần cơ bản là chè hoặc chè Paragoay: - - Chiết xuất từ chè để sản xuất",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,547
-2102,không bao gồm các loại vắc xin thuộc nhóm 30.02); bột nở đã pha chế x đối với men hoặc vi sinh vật,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,Áp dụng,,548
+210120,"- Chất chiết xuất, tinh chất và các chất cô đặc, từ chè hoặc chè Paragoay, và các chế phẩm có thành phần cơ bản là các chất chiết xuất, tinh chất hoặc các chất cô đặc này hoặc có thành phần cơ bản là chè hoặc chè Paragoay:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,547
+2102,"Men (sống hoặc ỳ); các vi sinh đơn bào khác, chết (nhưng không bao gồm các loại vắc xin thuộc nhóm 30.02); bột nở đã pha chế",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,Áp dụng,,548
 210390,- Loại khác: - - Nước sốt và các chế phẩm làm nước xốt:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,549
 210690,- Loại khác: - - Đậu phụ: - - - Váng đậu khô và váng đậu,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,550
 230230,- Từ lúa mì:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,552
 230240,- Từ ngũ cốc khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,552
-2303,"liệu khác từ quá trình sản xuất đường, bã và phế liệu từ quá trình ủ hoặc chưng cất, ở dạng",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,552
-2304,"thực phẩm viên, thu được từ quá trình hoặc dùng chiết xuất dầu đậu tương làm thực phẩm - Bột đậu tương đã được khử chất",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,553
-2306,"thực phẩm xuất chất béo hoặc dầu thực hoặc dùng vật hoặc vi sinh vật, trừ các loại làm thực thuộc nhóm 23.04 hoặc 23.05 phẩm",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,554
-230641,colza seeds) có hàm lượng axit eruxic thấp:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,554
+2303,"Phế liệu từ quá trình sản xuất tinh bột và phế liệu tương tự, bã ép củ cải đường, bã mía và phế liệu khác từ quá trình sản xuất đường, bã và phế liệu từ quá trình ủ hoặc chưng cất, ở dạng viên hoặc không ở dạng viên",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,552
+2304,"Khô dầu và phế liệu rắn khác, đã hoặc chưa xay hoặc ở dạng viên, thu được từ quá trình chiết xuất dầu đậu tương",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,553
+2306,"Khô dầu và phế liệu rắn khác, đã hoặc chưa xay hoặc ở dạng viên, thu được từ quá trình chiết xuất chất béo hoặc dầu thực vật hoặc vi sinh vật, trừ các loại thuộc nhóm 23.04 hoặc 23.05",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,554
+230641,- - Từ hạt cải dầu (rape seeds hoặc colza seeds) có hàm lượng axit eruxic thấp:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,554
 230649,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,555
 230660,- Từ hạt hoặc nhân hạt cọ:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,555
 230690,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,555
@@ -3591,22 +3591,22 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 240110,"- Lá thuốc lá chưa tước cọng: - - Loại Virginia, đã sấy bằng không",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,556
 240130,- Phế liệu lá thuốc lá:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,557
 240319,- - Loại khác: - - - Lá thuốc lá đã chế biến khác,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,558
-4401,"mùn cưa, phế liệu và mảnh vụn gỗ, đã hoặc chưa đóng thành khối, bánh (briquettes), viên hoặc các dạng tương tự",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,559
-4403,bóc vỏ hoặc dác gỗ hoặc đẽo creozot vuông thô hoặc chất,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,560
-440321,kích thước mặt cắt ngang nhỏ nhất từ 15 cm trở lên:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,560
+4401,"Gỗ nhiên liệu, dạng khúc, thanh nhỏ, cành, bó hoặc các dạng tương tự; vỏ bào hoặc dăm gỗ; mùn cưa, phế liệu và mảnh vụn gỗ, đã hoặc chưa đóng thành khối, bánh (briquettes), viên hoặc các dạng tương tự",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,559
+4403,"Gỗ cây dạng thô, đã hoặc chưa bóc vỏ hoặc dác gỗ hoặc đẽo vuông thô",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,560
+440321,"- - Từ cây thông (Pinus spp.), có kích thước mặt cắt ngang nhỏ nhất từ 15 cm trở lên:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,560
 440326,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,562
 440342,- - Gỗ Tếch (Teak):,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,562
 440349,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,562
-440395,"spp.), có kích thước mặt cắt ngang nhỏ nhất từ 15 cm trở lên:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,563
+440395,"- - Từ cây Bạch dương (Betula spp.), có kích thước mặt cắt ngang nhỏ nhất từ 15 cm trở lên:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,563
 440398,- - Từ bạch đàn (Eucalyptus spp.):,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,563
-4404,"gia công cách khác, phù hợp cho gỗ sản xuất ba toong, cán ô, chuôi, (chipwood) tay cầm dụng cụ hoặc tương tự nan gỗ (chipwood) và các dạng tương tự",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,564
+4404,"Gỗ đai thùng; cọc chẻ; sào, cột và cọc bằng gỗ, vót nhọn nhưng không xẻ dọc; gậy gỗ, đã cắt thô nhưng chưa tiện, uốn cong hoặc gia công cách khác, phù hợp cho sản xuất ba toong, cán ô, chuôi, tay cầm dụng cụ hoặc tương tự; nan gỗ (chipwood) và các dạng tương tự",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,564
 440420,- Từ cây không thuộc loài lá kim:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,564
 440711,- - Từ cây thông (Pinus spp.):,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,565
 440719,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,565
 440721,- - Gỗ Mahogany (Swietenia spp.):,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,565
 440722,"- - Gỗ Virola, Imbuia và Balsa: - - - Đã bào, đã chà nhám hoặc",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,566
 440723,- - Gỗ Tếch (Teak):,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,566
-440726,"trắng, gỗ Seraya trắng, gỗ Meranti vàng và gỗ Alan:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,567
+440726,"- - Gỗ Lauan trắng, gỗ Meranti trắng, gỗ Seraya trắng, gỗ Meranti vàng và gỗ Alan:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,567
 440727,- - Gỗ Sapelli:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,567
 440728,- - Gỗ Iroko:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,567
 440729,- - Loại khác: - - - Gỗ Jelutong (Dyera spp.):,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,568
@@ -3617,42 +3617,42 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 440795,"- - Gỗ tần bì (Fraxinus spp.): - - - Đã bào, đã chà nhám hoặc",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,572
 440796,"- - Gỗ bạch dương (Betula spp.): - - - Đã bào, đã chà nhám hoặc",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,572
 440799,"- - Loại khác: - - - Đã bào, đã chà nhám hoặc",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,572
-5301,kéo thành sợi; tô (tow) lanh và phế liệu lanh (kể cả phế liệu sợi và sợi tái chế),,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,573
-5302,"chế biến nhưng chưa kéo thành sợi; tô (tow) và phế liệu gai dầu (kể cả phế liệu sợi và sợi tái chế) - Gai dầu, dạng nguyên liệu thô",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,574
-5303,chế biến nhưng chưa kéo thành sợi; tô (tow) và phế liệu của các loại xơ này (kể cả phế liệu sợi và sợi tái chế),,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,574
-5305,"chi tiết ở nơi khác hoặc kể cả, chế biến thô hoặc đã chế biến nhưng chưa tẩm hóa kéo thành sợi; tô (tow), xơ vụn và chất phế liệu của các loại xơ này (kể cả phế liệu sợi và sợi tái chế) - Xơ xidan (sisal) và xơ dệt khác của các cây thuộc chi cây thùa",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,575
-25010010,và Phát triển QCVN 01-193:2021/,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,611
-25010091,các tỉnh thành phố trực thuộc Trung ương,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,611
-2937,hoặc dựa trên các chất diệt tinh trùng,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,615
-310311,(P2O5) từ 35% trở lên tính theo trọng lượng: - - - Loại khác Chứa diphosphorus pentaoxide (P2O5) từ 35% trở lên tính theo trọng lượng,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,621
+5301,"Lanh, dạng nguyên liệu thô hoặc đã chế biến nhưng chưa kéo thành sợi; tô (tow) lanh và phế liệu lanh (kể cả phế liệu sợi và sợi tái chế)",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,573
+5302,"Gai dầu (Cannabis sativa L.), dạng nguyên liệu thô hoặc đã chế biến nhưng chưa kéo thành sợi; tô (tow) và phế liệu gai dầu (kể cả phế liệu sợi và sợi tái chế)",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,574
+5303,"Đay và các loại xơ libe dệt khác (trừ lanh, gai dầu và gai ramie), dạng nguyên liệu thô hoặc đã chế biến nhưng chưa kéo thành sợi; tô (tow) và phế liệu của các loại xơ này (kể cả phế liệu sợi và sợi tái chế)",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,574
+5305,"Xơ dừa, xơ chuối abaca (Manila hemp hoặc Musa textilis Nee), xơ gai ramie và xơ dệt gốc thực vật khác, chưa được ghi hoặc chi tiết ở nơi khác hoặc kể cả, thô hoặc đã chế biến nhưng chưa kéo thành sợi; tô (tow), xơ vụn và phế liệu của các loại xơ này (kể cả phế liệu sợi và sợi tái chế)",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,575
+25010010,- Muối thực phẩm,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,611
+25010091,"- - Có hàm lượng natri clorua trên 60% nhưng dưới 97%, tính theo hàm lượng khô, đã bổ sung thêm i ốt (SEN)",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,611
+2937,"Các hormon, prostaglandins, thromboxanes và leukotrienes, tự nhiên hoặc tái tạo bằng phương pháp tổng hợp; các dẫn xuất và các chất có cấu trúc tương tự của chúng, kể cả chuỗi polypeptit cải biến, được sử dụng chủ yếu như hormon",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,615
+310311,- - Chứa diphosphorus pentaoxide (P2O5) từ 35% trở lên tính theo trọng lượng:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,621
 310319,- - Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,621
 310390,- Loại khác:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,621
 380891,- - Thuốc - - - Các chế phẩm trung gian chứa,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,trừ côn trùng:,,625
 380892,- - Thuốc - - - Dạng bình xịt: - - - - Với hàm lượng validamycin không,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,trừ nấm:,,625
-380893,mầm và thuốc điều hòa sinh trưởng cây trồng:,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,625
+380893,"- - Thuốc diệt cỏ, thuốc chống nẩy mầm và thuốc điều hòa sinh trưởng cây trồng:",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,625
 380894,- - Thuốc khử trùng: - - - Có chứa hỗn hợp các axit hắc ín,,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,626
 380899,"- - Loại khác: - - - Thuốc bảo quản gỗ, chứa chất",,Phụ lục II,KIEM_TRA_CHAT_LUONG,,,,626
-25010020,hoặc TCVN 9640:,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,628
-25010099,2013 biến hoặc loại khác) và PTNT,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,628
-35061000,hoặc Keo dán gỗ có chứa QCVN 03-,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,628
-35069900,formaldehyde tự do BNNPTNT,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,628
+25010020,- Muối mỏ chưa chế biến,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,628
+25010099,- - Loại khác,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,628
+35061000,"- Các sản phẩm phù hợp dùng như keo hoặc như các chất kết dính, đã đóng gói để bán lẻ như keo hoặc như các chất kết dính, khối lượng tịnh không quá 1kg",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,628
+35069900,- - Loại khác,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,628
 12122920,"- - Loại khác: Rong biển và các loại 2019/BNNPTNT x - - - Loại khác, tươi, ướp lạnh tảo khác: Loại khác, QCVN 02-31-3: hoặc khô tươi, ướp lạnh hoặc 2019/BNNPTNT",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,630
-12122930,"- - Loại khác: trồng thủy sản) x QCVN 02-31-3: - - - Loại khác, đông lạnh",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,630
-28429090,"hóa học), - Loại khác: - - Loại khác Phân bón gốc thực vật hoặc động vật, đã hoặc chưa pha Kích thích sự phát triển trộn với nhau hoặc qua xử lý của tảo, gây màu nước",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,trừ các chất axit:,,632
-3101,hóa học; phân bón sản xuất ổn định môi trường bằng cách pha trộn hoặc xử nuôi (hỗn hợp khoáng QCVN 02-32-2:,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,632
-3102,"khoáng - vitamin học, có chứa nitơ sodium humate,…) Phân khoáng hoặc phân hóa",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,632
-3105,học chứa hai hoặc ba nguyên tố cấu thành phân bón là nitơ,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,632
-23069090,"thực vật hoặc vi sinh vật, các loại thuộc nhóm 23.04 cây Yucca schidigera QCVN 02-32-1:",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,trừ Saponin (Chất chiết từ,,633
+12122930,"- - - Loại khác, đông lạnh",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,630
+28429090,- - Loại khác,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,trừ các chất axit:,,632
+3101,"Phân bón gốc thực vật hoặc động vật, đã hoặc chưa pha trộn với nhau hoặc qua xử lý hóa học; phân bón sản xuất bằng cách pha trộn hoặc xử lý hóa học các sản phẩm động vật hoặc thực vật",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,632
+3102,"Phân khoáng hoặc phân hóa học, có chứa nitơ",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,632
+3105,"Phân khoáng hoặc phân hóa học chứa hai hoặc ba nguyên tố cấu thành phân bón là nitơ, phospho và ka li; phân bón khác; các mặt hàng của Chương này ở dạng viên (tablet) hoặc các dạng tương tự hoặc đóng gói với trọng lượng cả bì không quá 10 kg",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,632
+23069090,- - Loại khác,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,trừ Saponin (Chất chiết từ,,633
 38089990,- - Loại khác: - - - Loại khác,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,633
 2301,"Bột cá, dịch cá, cá thủy 2020/BNNPTNT thân mềm hoặc động vật thủy phân, các sản phẩm khác và Sửa đổi",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,634
-0508,"tự, chưa xử lý hoặc đã sơ chế nhưng chưa gia công thêm",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,634
-0401,"chưa pha thêm đường hoặc chất tạo ngọt khác Nguyên liệu có nguồn Sữa và kem, đã cô đặc hoặc gốc động vật trên cạn:",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,635
-0402,"đã pha thêm đường hoặc chất Bột xương, bột thịt, bột QCVN 01-190: tạo ngọt khác thịt xương, bột huyết",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,635
-0405,dầu khác tách từ sữa; chất phết từ bơ sữa (dairy spreads),,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,636
+0508,"San hô và các chất liệu tương tự, chưa xử lý hoặc đã sơ chế nhưng chưa gia công thêm; mai, vỏ động vật thân mềm, động vật giáp xác hoặc động vật da gai và mai mực, chưa xử lý hoặc đã sơ chế nhưng chưa cắt thành hình, bột và phế liệu từ các sản phẩm trên",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,634
+0401,"Sữa và kem, chưa cô đặc và chưa pha thêm đường hoặc chất tạo ngọt khác",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,635
+0402,"Sữa và kem, đã cô đặc hoặc đã pha thêm đường hoặc chất tạo ngọt khác",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,635
+0405,Bơ và các chất béo và các loại dầu khác tách từ sữa; chất phết từ bơ sữa (dairy spreads),,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,636
 0406,Pho mát và curd Trứng chim và trứng gia cầm,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,636
-0407,"nguyên vỏ, sống, đã bảo quản hoặc đã làm chín Trứng chim và trứng gia cầm, đã bóc vỏ, và lòng đỏ",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,636
-0505,"hoặc chưa cắt tỉa) và lông tơ mới chỉ được làm sạch, khử trùng hoặc xử lý để bảo quản; bột và phế liệu từ lông vũ hoặc các phần của lông vũ",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,637
-0410,"gốc động vật, chưa được chi tiết hoặc ghi ở nơi khác QCVN 01-190:",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,638
+0407,"Trứng chim và trứng gia cầm, nguyên vỏ, sống, đã bảo quản hoặc đã làm chín",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,636
+0505,"Da và các bộ phận khác của loài chim và gia cầm, có lông vũ hoặc lông tơ, lông vũ và các phần của lông vũ (đã hoặc chưa cắt tỉa) và lông tơ, mới chỉ được làm sạch, khử trùng hoặc xử lý để bảo quản; bột và phế liệu từ lông vũ hoặc các phần của lông vũ",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,637
+0410,"Côn trùng và sản phẩm ăn được gốc động vật, chưa được chi tiết hoặc ghi ở nơi khác",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,638
 1001,Lúa mì và meslin,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,639
 1002,Lúa mạch đen,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,639
 1003,Lúa đại mạch,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,639
@@ -3661,62 +3661,62 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 1006,"Lúa gạo lúa mì, lúa mạch, kê, hạt và Sửa đổi",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,639
 1007,"Lúa miến ngũ cốc khác; sản phẩm, 1:2021 QCVN Kiều mạch, kê, hạt cây thóc phụ phẩm từ hạt ngũ cốc 01-190:2020/",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,639
 1008,"BNNPTNT chim; các loại ngũ cốc khác Bột ngũ cốc, trừ bột mì hoặc",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,639
-1104,"cắt lát hoặc nghiền thô), trừ gạo thuộc nhóm 10.06; mầm ngũ cốc, nguyên dạng, xay, vỡ mảnh hoặc nghiền Cám, tấm và phế liệu khác, ở dạng viên hoặc không ở dạng viên, thu được từ quá trình giần",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,640
-2306,"chiết xuất chất béo hoặc dầu thực vật hoặc vi sinh vật, trừ các loại thuộc nhóm 23.04 hoặc 23.05",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,640
-1208,"hạt hoặc quả có dầu, mịn và bột thô từ hạt mù tạt QCVN 01-190: Cám, tấm và phế liệu khác, ở Hạt đậu: Đậu tương, đậu 2020/BNNPTNT dạng viên hoặc không ở dạng xanh, đậu lupin, đậu triều, và Sửa đổi",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,trừ bột,,641
-2302,"1:2021 QCVN sàng, rây, xay xát hoặc chế phụ phẩm từ hạt đậu 01-190:2020/ biến cách khác từ các loại ngũ BNNPTNT cốc hoặc các loại cây họ đậu Khô dầu và phế liệu rắn khác đã hoặc chưa xay hoặc ở dạng",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,641
-1202,"chín cách khác, đã hoặc chưa bông, hạt lanh, hạt 2020/BNNPTNT bóc vỏ hoặc vỡ mảnh và Sửa đổi",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,641
+1104,"Hạt ngũ cốc được chế biến theo cách khác (ví dụ, xát vỏ, xay, vỡ mảnh, nghiền vụn, cắt lát hoặc nghiền thô), trừ gạo thuộc nhóm 10.06; mầm ngũ cốc, nguyên dạng, xay, vỡ mảnh hoặc nghiền",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,640
+2306,"Khô dầu và phế liệu rắn khác, đã hoặc chưa xay hoặc ở dạng viên, thu được từ quá trình chiết xuất chất béo hoặc dầu thực vật hoặc vi sinh vật, trừ các loại thuộc nhóm 23.04 hoặc 23.05",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,640
+1208,"Bột mịn và bột thô từ các loại hạt hoặc quả có dầu, trừ bột mịn và bột thô từ hạt mù tạt",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,trừ bột,,641
+2302,"Cám, tấm và phế liệu khác, ở dạng viên hoặc không ở dạng viên, thu được từ quá trình giần, sàng, rây, xay xát hoặc chế biến cách khác từ các loại ngũ cốc hoặc các loại cây họ đậu",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,641
+1202,"Lạc chưa rang, hoặc chưa làm chín cách khác, đã hoặc chưa bóc vỏ hoặc vỡ mảnh",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,641
 12030000,"Cùi (cơm) dừa khô dầu khác; sản phẩm, 01-190:2020/",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,641
 12040000,"Hạt lanh, đã hoặc chưa vỡ mảnh phụ phẩm từ hạt có dầu BNNPTNT",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,641
-1208,"hạt hoặc quả có dầu, mịn và bột thô từ hạt mù tạt Quả, quả hạch (nuts) và các phần ăn được khác của cây, đã chế biến hoặc bảo quản bằng",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,trừ bột,,642
-2008,"cách khác, đã hoặc chưa pha thêm đường hoặc chất tạo ngọt khác hoặc rượu, chưa được chi tiết hoặc ghi ở nơi khác",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,642
-2302,"giần, sàng, rây, xay xát hoặc chế biến cách khác từ các loại ngũ cốc hoặc các loại cây họ đậu",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,642
-2306,"chiết xuất chất béo hoặc dầu thực vật hoặc vi sinh vật, trừ các loại thuộc nhóm 23.04 hoặc 23.05 Quả, quả hạch (nuts) và các phần ăn được khác của cây đã chế biến hoặc bảo quản QCVN 01-190: bằng cách khác, đã hoặc chưa 2020/BNNPTNT",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,643
+1208,"Bột mịn và bột thô từ các loại hạt hoặc quả có dầu, trừ bột mịn và bột thô từ hạt mù tạt",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,trừ bột,,642
+2008,"Quả, quả hạch (nuts) và các phần ăn được khác của cây, đã chế biến hoặc bảo quản bằng cách khác, đã hoặc chưa pha thêm đường hoặc chất tạo ngọt khác hoặc rượu, chưa được chi tiết hoặc ghi ở nơi khác",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,642
+2302,"Cám, tấm và phế liệu khác, ở dạng viên hoặc không ở dạng viên, thu được từ quá trình giần, sàng, rây, xay xát hoặc chế biến cách khác từ các loại ngũ cốc hoặc các loại cây họ đậu",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,642
+2306,"Khô dầu và phế liệu rắn khác, đã hoặc chưa xay hoặc ở dạng viên, thu được từ quá trình chiết xuất chất béo hoặc dầu thực vật hoặc vi sinh vật, trừ các loại thuộc nhóm 23.04 hoặc 23.05",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,643
 2304,"QCVN 01-190: viên, thu được từ quá trình dầu cọ, khô dầu hạt cải chiết xuất dầu đậu tương 2020/BNNPTNT khô dầu vừng, khô dầu và Sửa đổi",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,644
-2306,trình chiết xuất chất béo hoặc dầu thực vật hoặc vi sinh vật,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,trừ các loại thuộc nhóm,,644
-2304,hoặc 23.05,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,644
+2306,"Khô dầu và phế liệu rắn khác, đã hoặc chưa xay hoặc ở dạng viên, thu được từ quá trình chiết xuất chất béo hoặc dầu thực vật hoặc vi sinh vật, trừ các loại thuộc nhóm 23.04 hoặc 23.05",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,trừ các loại thuộc nhóm,,644
+2304,"Khô dầu và phế liệu rắn khác, đã hoặc chưa xay hoặc ở dạng viên, thu được từ quá trình chiết xuất dầu đậu tương",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,644
 0701,"Khoai tây, tươi hoặc ướp lạnh",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,645
 07020000,"Cà chua, tươi hoặc ướp lạnh Hành tây, hành, hẹ, tỏi, tỏi",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,645
-0703,"tây và các loại rau họ hành tỏi khác, tươi hoặc ướp lạnh Bắp cải, súp lơ (1), su hào, cải",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,645
-0704,"xoăn và cây họ bắp cải ăn được tương tự, tươi hoặc ướp lạnh Rễ, thân, củ, quả: Rễ, QCVN 01-190: Rau diếp, xà lách (Lactuca thân, củ, quả (ví dụ khoai, 2020/BNNPTNT sativa) và rau diếp xoăn",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,645
-0705,"sắn, cà rốt, củ cải, dong, và Sửa đổi",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,645
-0706,"(celeriac), củ cải ri (radish) và các loại củ rễ ăn được",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,645
-0709,"Rau khác, tươi hoặc ướp lạnh Rau các loại (đã hoặc chưa",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,646
-0710,"hấp chín hoặc luộc chín trong nước), đông lạnh Rau khô, ở dạng nguyên, cắt",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,646
-0712,"thái lát, vụn hoặc ở dạng bột nhưng chưa chế biến thêm Các loại rau đậu khô, đã bóc",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,646
-0713,"vỏ quả, đã hoặc chưa bóc vỏ hạt hoặc làm vỡ hạt Sắn, củ dong, củ lan, a-ti-sô Jerusalem, khoai lang và các loại củ và rễ tương tự có hàm lượng tinh bột hoặc inulin",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,646
-0802,"hoặc khô, đã hoặc chưa bóc vỏ hoặc lột vỏ Chuối, kể cả chuối lá, tươi",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,647
-0804,"ổi, xoài và măng cụt, tươi hoặc khô Quả thuộc chi cam quýt, tươi",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,647
-0806,"Quả nho, tươi hoặc khô Các loại quả họ dưa (kể cả",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,647
+0703,"Hành tây, hành, hẹ, tỏi, tỏi tây và các loại rau họ hành, tỏi khác, tươi hoặc ướp lạnh",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,645
+0704,"Bắp cải, súp lơ (1), su hào, cải xoăn và cây họ bắp cải ăn được tương tự, tươi hoặc ướp lạnh",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,645
+0705,"Rau diếp, xà lách (Lactuca sativa) và rau diếp xoăn (Cichorium spp.), tươi hoặc ướp lạnh",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,645
+0706,"Cà rốt, củ cải, củ dền làm sa- lát, diếp củ (salsify), cần củ (celeriac), củ cải ri (radish) và các loại củ rễ ăn được tương tự, tươi hoặc ướp lạnh",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,645
+0709,"Rau khác, tươi hoặc ướp lạnh",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,646
+0710,"Rau các loại (đã hoặc chưa hấp chín hoặc luộc chín trong nước), đông lạnh",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,646
+0712,"Rau khô, ở dạng nguyên, cắt, thái lát, vụn hoặc ở dạng bột, nhưng chưa chế biến thêm",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,646
+0713,"Các loại rau đậu khô, đã bóc vỏ quả, đã hoặc chưa bóc vỏ hạt hoặc làm vỡ hạt",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,646
+0802,"Quả hạch (nuts) khác, tươi hoặc khô, đã hoặc chưa bóc vỏ hoặc lột vỏ",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,647
+0804,"Quả chà là, sung, vả, dứa, bơ, ổi, xoài và măng cụt, tươi hoặc khô",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,647
+0806,"Quả nho, tươi hoặc khô",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,647
 0810,"Quả khác, tươi Quả và quả hạch (nuts), đã hoặc chưa hấp chín hoặc luộc",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,647
-0811,"chín trong nước, đông lạnh đã hoặc chưa thêm đường hoặc chất tạo ngọt khác",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,647
-08140000,"lạnh, khô hoặc bảo quản tạm thời trong nước muối, nước lưu huỳnh hoặc trong các dung dịch bảo quản khác Bột, bột thô, bột mịn, mảnh",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,648
+0811,"Quả và quả hạch (nuts), đã hoặc chưa hấp chín hoặc luộc chín trong nước, đông lạnh, đã hoặc chưa thêm đường hoặc chất tạo ngọt khác",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,647
+08140000,"Vỏ các loại quả thuộc chi cam quýt hoặc các loại dưa (kể cả dưa hấu), tươi, đông lạnh, khô hoặc bảo quản tạm thời trong nước muối, nước lưu huỳnh hoặc trong các dung dịch bảo quản khác",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,648
 1107,"Malt, rang hoặc chưa rang",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,648
 1108,Tinh bột; inulin,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,648
-1211,"trừ sâu, thuốc diệt nấm hoặc các mục đích tương tự, tươi ướp lạnh, đông lạnh hoặc khô, đã hoặc chưa cắt, nghiền hoặc xay thành bột Quả minh quyết (1), rong biển và các loại tảo khác, củ cải đường (sugar beet) và mía đường, tươi, ướp lạnh, đông",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,649
-2303,"tinh bột và phế liệu tương tự bã ép củ cải đường, bã mía và",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,650
-11029010,"Bột gạo Gluten lúa mì, đã hoặc chưa",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,651
-23031090,"trình ủ hoặc chưng cất, ở dạng BNNPTNT viên hoặc không ở dạng viên - Phế liệu từ quá trình sản xuất tinh bột và phế liệu tương tự: - - Loại khác",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,651
-1502,"cừu hoặc dê, thuộc nhóm 15.03 Stearin mỡ lợn, dầu mỡ lợn oleostearin, dầu oleo và dầu",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,trừ các loại mỡ,,653
-1503,"tallow, chưa nhũ hóa hoặc chưa pha trộn hoặc chưa chế biến cách khác Mỡ và dầu và các phần phân đoạn của chúng, từ cá hoặc các loài động vật có vú sống",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,653
-15060000,"chúng, đã hoặc chưa tinh chế nhưng không thay đổi về mặt hóa học",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,653
-1513,"phần phân đoạn của chúng đã hoặc chưa tinh chế, nhưng không thay đổi về mặt hóa học",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,655
-1517,thực vật hoặc vi sinh vật hoặc các phần phân đoạn của các loại chất béo hoặc dầu khác nhau thuộc Chương,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,656
-1518,"khác, trừ loại thuộc nhóm",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,657
+1211,"Các loại cây và các bộ phận của cây (kể cả hạt và quả), chủ yếu dùng làm nước hoa, làm dược phẩm hoặc thuốc trừ sâu, thuốc diệt nấm hoặc các mục đích tương tự, tươi, ướp lạnh, đông lạnh hoặc khô, đã hoặc chưa cắt, nghiền hoặc xay thành bột",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,649
+2303,"Phế liệu từ quá trình sản xuất tinh bột và phế liệu tương tự, bã ép củ cải đường, bã mía và phế liệu khác từ quá trình sản xuất đường, bã và phế liệu từ quá trình ủ hoặc chưng cất, ở dạng viên hoặc không ở dạng viên",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,650
+11029010,- - Bột gạo,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,651
+23031090,- - Loại khác,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,651
+1502,"Mỡ của động vật họ trâu bò, cừu hoặc dê, trừ các loại mỡ thuộc nhóm 15.03",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,trừ các loại mỡ,,653
+1503,"Stearin mỡ lợn, dầu mỡ lợn, oleostearin, dầu oleo và dầu tallow, chưa nhũ hóa hoặc chưa pha trộn hoặc chưa chế biến cách khác",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,653
+15060000,"Mỡ và dầu động vật khác và các phần phân đoạn của chúng, đã hoặc chưa tinh chế, nhưng không thay đổi về mặt hóa học",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,653
+1513,"Dầu dừa (copra), dầu hạt cọ hoặc dầu cọ ba-ba-su và các phần phân đoạn của chúng, đã hoặc chưa tinh chế, nhưng không thay đổi về mặt hóa học",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,655
+1517,"Margarin; các hỗn hợp hoặc các chế phẩm ăn được của chất béo hoặc dầu động vật, thực vật hoặc vi sinh vật hoặc các phần phân đoạn của các loại chất béo hoặc dầu khác nhau thuộc Chương này, trừ chất béo và dầu hoặc các phần phân đoạn của chúng ăn được thuộc nhóm 15.16",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,656
+1518,"Chất béo và dầu động vật, thực vật hoặc vi sinh vật và các phần phân đoạn của chúng, đã đun sôi, oxy hóa, khử nước, sulphua hóa, thổi khô, polyme hóa bằng cách đun nóng trong chân không hoặc trong khí trơ hoặc bằng biện pháp thay đổi về mặt hóa học khác, trừ loại thuộc nhóm 15.16; các hỗn hợp hoặc các chế phẩm không ăn được từ chất béo hoặc dầu động vật, thực vật hoặc vi sinh vật hoặc từ các phần phân đoạn của các loại chất béo hoặc dầu khác nhau thuộc Chương này, chưa được chi tiết hoặc ghi ở nơi khác",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,657
 21069041,"- Loại khác: - - Chất chiết nấm men tự phân: Nguyên liệu từ nấm - - - Dạng bột vi sinh vật, rong, tảo: Các chế phẩm thực phẩm chưa - Sản phẩm từ nấm mem được chi tiết hoặc ghi ở nơi (saccharomyces cerevisiae): QCVN 01-190:",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,658
-21069049,khác: Yeast extract; Brewers,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,658
-30029000,"phần phân đoạn khác của rong, tảo sử dụng trong máu và các sản phẩm miễn thức ăn thủy sản dịch, có hoặc không được cải biến hoặc thu được từ quy trình công nghệ sinh học; vắc xin, độc tố, vi sinh nuôi cấy",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,658
-121229,(kể cả rễ rau diếp xoăn chưa rang thuộc loài Cichorium intybus satibium) chủ yếu dùng làm thức ăn cho người chưa được chi tiết hoặc ghi ở,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,659
-21021000,Men sống,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,659
-1704,"1:2021 QCVN la trắng), không chứa ca cao mật, vụn bánh, sản phẩm",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,660
-23024090,Loại khác QCVN 01 - 190: Phụ phẩm từ sản xuất,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,661
-23033000,và Sửa đổi hoặc chưng cất,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,661
+21069049,- - - Loại khác,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,658
+30029000,- Loại khác,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,658
+121229,- - Loại khác:,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,659
+21021000,- Men sống,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,659
+1704,"Các loại kẹo đường (kể cả sô cô la trắng), không chứa ca cao",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,660
+23024090,- - Loại khác,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,661
+23033000,- Bã và phế liệu từ quá trình ủ hoặc chưng cất,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,661
 23070000,"Bã rượu vang; cặn rượu xuất cồn từ hạt cốc (DDGS) và phụ phẩm khác từ sản xuất cồn rượu, bia Bột mịn, bột thô và viên, từ thịt hoặc phụ phẩm dạng thịt sau giết mổ, từ cá hoặc từ động vật giáp xác, động vật",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,662
-23080000,"viên hoặc không ở dạng viên loại dùng trong chăn nuôi động vật, chưa được chi tiết hoặc ghi ở nơi khác",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,663
-11081100,Tinh bột mì,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,663
-11081200,Tinh bột ngô,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,663
-11081300,Tinh bột khoai tây QCVN 01-190:,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,663
-11081400,"Tinh bột sắn Tinh bột: Tinh bột gạo, 2020/BNNPTNT tinh bột ngô, tinh bột và Sửa đổi",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,663
-19030000,"từ tinh bột, ở dạng mảnh, hạt bột xay, bột rây hoặc các dạng tương tự Đường mía hoặc đường củ QCVN 01-190: Đường: Glucose, lactose",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,663
-1702,"x pha thêm hương liệu hoặc chất màu; mật ong nhân tạo, đã hoặc chưa pha trộn với mật ong tự nhiên; đường caramen Cục Thú y (đối với thức ăn thủy sản có nguồn gốc động vật phải kiểm dịch)/ Cục Bảo vệ thực vật (đối với thức ăn thủy sản có nguồn C4. Nguyên liệu thức ăn thủy sản khác gốc thực vật phả...",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,664
-0209,hoặc 15.03 Mỡ của động vật họ trâu bò,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,687
+23080000,"Nguyên liệu thực vật và phế liệu thực vật, phế liệu và sản phẩm phụ từ thực vật, ở dạng viên hoặc không ở dạng viên, loại dùng trong chăn nuôi động vật, chưa được chi tiết hoặc ghi ở nơi khác",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,663
+11081100,- - Tinh bột mì,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,663
+11081200,- - Tinh bột ngô,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,663
+11081300,- - Tinh bột khoai tây,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,663
+11081400,- - Tinh bột sắn,,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,663
+19030000,"Sản phẩm từ tinh bột sắn và sản phẩm thay thế chế biến từ tinh bột, ở dạng mảnh, hạt, bột xay, bột rây hoặc các dạng tương tự",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,663
+1702,"Đường khác, kể cả đường lactoza, mantoza, glucoza và fructoza, tinh khiết về mặt hóa học, ở thể rắn; xirô đường chưa pha thêm hương liệu hoặc chất màu; mật ong nhân tạo, đã hoặc chưa pha trộn với mật ong tự nhiên; đường caramen",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,664
+0209,"Mỡ lợn không dính nạc và mỡ gia cầm, chưa nấu chảy hoặc chiết xuất cách khác, tươi, ướp lạnh, đông lạnh, muối, ngâm nước muối, làm khô hoặc hun khói",,Phụ lục III,KIEM_TRA_CHAT_LUONG,,,,687
