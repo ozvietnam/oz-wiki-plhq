@@ -9,6 +9,7 @@ Kèm theo [`24-2026-nd-cp-cas.csv`](24-2026-nd-cp-cas.csv) — mỗi dòng: `cas
 ## Cột dữ liệu
 
 - `nhom` (thêm lượt OZV-1584, cuối header): nhóm 1/2 của PL III; **để trống** cho các dòng PL I/II/IV và 35 dòng nạp trước.
+- `ma_hoa_chat`: với dòng PL III/IV giữ **tên IUPAC/tiếng Anh in trong văn bản** (nguồn không có cột mã CHC như PL I); `ten_chat` là tên Việt đi kèm.
 - `nguong_kg` (thêm lượt OZV-1584): ngưỡng khối lượng (kg) tại Bảng A PL IV; **để trống** khi văn bản in "---" ở cột ngưỡng hoặc chất thuộc phụ lục khác. Riêng Amoni nitrat (STT 8) văn bản cho **4 ngưỡng theo thành phần hỗn hợp** — ghi đủ cả 4 vào một ô, phân tách bằng dấu chấm phẩy.
 
 ## Cách trích xuất
@@ -52,6 +53,9 @@ KHÔNG có quy tắc hỗn hợp — PL I liệt kê hoá chất cơ bản theo 
 |---|---|---|---|
 | `50-00-00` | PL IV STT 112 (Formaldehit > 90%) | Thừa 1 chữ số do lỗi in/OCR | **Đã vá thành `50-00-0`** theo tiền lệ OZV-1579 (CAS tra từ cơ sở CAS công khai khi văn bản garble; 50-00-0 cũng có mặt trong PL III cùng văn bản) |
 | `10118-77-6` | PL IV STT 207 (1-Propen-2-clo-1,3-diol diacetat) | Không đạt checksum mod 10 | **Giữ nguyên số in**, cần đối chiếu bản scan PDF bản ký trước khi sửa |
+| `460-19-5` | PL IV STT 261 (Xyanogen/Etandinitril) | Lớp chữ Công báo 77 (docx lẫn txt) ghi công thức `C2H2`; công thức hoá học chuẩn của etandinitril là **C2N2** (N≡C–C≡N) — nghi lỗi OCR chữ N thành H | **Giữ nguyên văn nguồn `C2H2`**, chờ đối chiếu bản scan bản ký |
+| `80-12-6` | PL IV STT 227 (Tetrametylen disunphotetramin) | Lớp chữ Công báo 77 ghi công thức `C4H8N4O4S12`; công thức chuẩn của TETS là **C4H8N4O4S2** — nghi lỗi OCR chỉ số phụ | **Giữ nguyên văn nguồn**, chờ đối chiếu bản scan bản ký |
+| `22397-33-7` | PL IV STT 116 (tetroxacyclononat >75%) | Lớp chữ ghi số đầu tên EN thành `33.6.6.9.9-`; tên Việt cùng dòng in đúng `3,3,6,6,9,9-` | **Đã vá theo tên Việt cùng dòng** thành `3,3,6,6,9,9-Hexamethyl-1,2,4,5-tetroxacyclononate (>75%)` |
 
 ## Trạng thái nạp dữ liệu (tổng 579 dòng)
 
