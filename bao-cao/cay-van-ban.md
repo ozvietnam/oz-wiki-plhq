@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-20
 
-2837 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2838 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -33,7 +33,7 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Thủ tục hải quan, khai báo, hồ sơ `hai-quan/thu-tuc`
 
-51 văn bản, 29 chưa hết hiệu lực.
+52 văn bản, 30 chưa hết hiệu lực.
 
 - 🔵 [154/2026/TT-BTC](../registry/van-ban/154-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 80/2019/TT-BTC ngày 15 tháng 11 năm 2019 của Bộ trưởng Bộ Tài chính quy định về thủ tục hải quan, quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu mua gom của người nước ngoài
 - 🟢 [54/2026/VBHN-TT-BTC](../registry/van-ban/54-2026-vbhn-tt-btc.yaml) — Hợp nhất Thông tư quy định thủ tục hải quan đối với thư, gói, kiện hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định
@@ -49,6 +49,7 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 - 🟢 [121/2025/TT-BTC](../registry/van-ban/121-2025-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của các Thông tư quy định về thủ tục hải quan, kiểm tra, giám sát hải quan, thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu
 - 🟢 [211/2025/NĐ-CP](../registry/van-ban/211-2025-nd-cp.yaml) — Quy định về hoạt động mật mã dân sự và sửa đổi, bổ sung một số điều của Nghị định số 15/2020/NĐ-CP ngày 03 tháng 02 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bưu chính, viễn thông, tần số vô tuyến điện, công nghệ thông tin và giao dịch điện tử được sửa đổi, bổ sung một số điều tại Nghị định số 14/2022/NĐ-CP ngày 27 tháng 01 năm 2022 của Chính phủ
 - 🟢 [47/2025/TT-BTC](../registry/van-ban/47-2025-tt-btc.yaml) — Bãi bỏ các Thông tư quy định về thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu do Bộ trưởng Bộ Tài chính ban hành trong bối cảnh dịch Covid-19
+- 🟢 [29/2025/TT-BTC](../registry/van-ban/29-2025-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư 191/2015/TT-BTC quy định thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh gửi qua dịch vụ chuyển phát nhanh quốc tế
 - 🟢 [4151/TB-TCHQ/2024](../registry/van-ban/4151-tb-tchq-2024.yaml) — V/v Thủ tục hải quan, chính sách thuế (Công ty TNHH Gotech)
 - 🟢 [06/2024/TT-BTC](../registry/van-ban/06-2024-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 81/2019/TT-BTC ngày 15 tháng 11 năm 2019 của Bộ trưởng Bộ Tài chính quy định quản lý rủi ro trong hoạt động nghiệp vụ hải quan
 - 🟢 [14/2023/QĐ-TTg](../registry/van-ban/14-2023-qd-ttg.yaml) — Ban hành Danh mục và lộ trình phương tiện, thiết bị sử dụng năng lượng phải loại bỏ và các tổ máy phát điện hiệu suất thấp không được xây dựng mới
