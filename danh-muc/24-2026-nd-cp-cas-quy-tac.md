@@ -15,7 +15,7 @@ Kèm theo [`24-2026-nd-cp-cas.csv`](24-2026-nd-cp-cas.csv) — mỗi dòng: `cas
 ## Cách trích xuất
 
 - **PL I + khối p15–17 (35 dòng):** PDF scan không lớp chữ — render trang ở scale 8 (pdfjs-dist) → **đọc mắt từng dòng từ ảnh gốc** → kiểm checksum CAS bằng máy (`node /tmp/nd24/cascheck.js`; chữ số kiểm = (Σ chữ số × vị trí từ phải, bắt đầu 1) mod 10). 35/35 dòng đạt checksum. **CẢNH BÁO:** mô hình thị giác GLM (analyze_image) **bịa hàng loạt** trên bảng scan dày — không dùng làm nguồn.
-- **PL III + PL IV (544 dòng, lượt OZV-1584):** trích từ **bản có lớp chữ** Công báo số 77 (URL trên) bằng script `/tmp/nd24/extract_pl34_v3.py` (Python thuần, không mạng): quét từng dòng theo cấu trục STT → tên IUPAC → tên Việt → CAS → mảnh công thức → ngưỡng; mọi CAS chạy checksum mod 10; đa-CAS một dòng tách thành nhiều hàng kế thừa STT; hàng in "---" ở cột CAS (không có CAS) vẫn nạp với `cas` để trống; STT thiếu dấu chấm do OCR được nhận theo dòng kế là tên.
+- **PL III + PL IV (545 dòng, lượt OZV-1584):** trích từ **bản có lớp chữ** Công báo số 77 (URL trên) bằng script `/tmp/nd24/extract_pl34_v3.py` (Python thuần, không mạng): quét từng dòng theo cấu trục STT → tên IUPAC → tên Việt → CAS → mảnh công thức → ngưỡng; mọi CAS chạy checksum mod 10; đa-CAS một dòng tách thành nhiều hàng kế thừa STT; hàng in "---" ở cột CAS (không có CAS) vẫn nạp với `cas` để trống; STT thiếu dấu chấm do OCR được nhận theo dòng kế là tên.
 
 ## Quy tắc hỗn hợp (trích NGUYÊN VĂN)
 
@@ -42,8 +42,8 @@ KHÔNG có quy tắc hỗn hợp — PL I liệt kê hoá chất cơ bản theo 
 
 ## Cấu trúc PL III + PL IV đã nạp
 
-- **PL III nhóm 1** — mục A "Các tiền chất công nghiệp" (22 chất); mục B "Các hóa chất thuộc phạm vi điều chỉnh của công ước về vũ khí hóa học": mã **2A** (2 chất), **2A\*** (BZ, 1 chất), **2B** tiền chất (123 dòng CAS).
-- **PL III nhóm 2** — mục A tiền chất công nghiệp (20 chất); mục B công ước vũ khí hóa học: **3A** (4 chất), **3B** tiền chất (13); mục C Rotterdam/Stockholm (83 dòng CAS, gồm nhóm POP nhiều CAS cùng tên).
+- **PL III nhóm 1** — mục A "Các tiền chất công nghiệp" (22 chất); mục B "Các hóa chất thuộc phạm vi điều chỉnh của công ước về vũ khí hóa học": mã **2A** (2 chất), **2A\*** (BZ, 1 chất), **2B** tiền chất (10 dòng CAS); mục C "Hóa chất khác" (113 dòng CAS).
+- **PL III nhóm 2** — mục A tiền chất công nghiệp (20 chất); mục B công ước vũ khí hóa học: **3A** (4 chất), **3B** tiền chất (13); mục C Rotterdam/Stockholm (84 dòng CAS, gồm nhóm POP nhiều CAS cùng tên).
 - **PL III không in cột số thứ tự** → `so_thu_tu` để trống (không tự đánh số).
 - **PL IV Bảng A**: 271 STT (không-CAS vẫn nạp đủ hàng); **Bảng B** là bảng phân loại GHS (không có CAS) — không nạp vào CSV này.
 
@@ -57,9 +57,9 @@ KHÔNG có quy tắc hỗn hợp — PL I liệt kê hoá chất cơ bản theo 
 | `80-12-6` | PL IV STT 227 (Tetrametylen disunphotetramin) | Lớp chữ Công báo 77 ghi công thức `C4H8N4O4S12`; công thức chuẩn của TETS là **C4H8N4O4S2** — nghi lỗi OCR chỉ số phụ | **Giữ nguyên văn nguồn**, chờ đối chiếu bản scan bản ký |
 | `22397-33-7` | PL IV STT 116 (tetroxacyclononat >75%) | Lớp chữ ghi số đầu tên EN thành `33.6.6.9.9-`; tên Việt cùng dòng in đúng `3,3,6,6,9,9-` | **Đã vá theo tên Việt cùng dòng** thành `3,3,6,6,9,9-Hexamethyl-1,2,4,5-tetroxacyclononate (>75%)` |
 
-## Trạng thái nạp dữ liệu (tổng 579 dòng)
+## Trạng thái nạp dữ liệu (tổng 580 dòng)
 
-- **PL III nhóm 1–2: 268 dòng — HOÀN TẤT** (nguồn: bản lớp chữ Công báo 77).
+- **PL III nhóm 1–2: 269 dòng — HOÀN TẤT** (nguồn: bản lớp chữ Công báo 77).
 - **PL IV Bảng A: 276 hàng (STT 1–271, gồm hàng không-CAS) — HOÀN TẤT.**
 - PL I: **10/10 dòng — HOÀN TẤT** (bảng in PL I không có cột CAS, số CAS tra từ cơ sở dữ liệu CAS công khai, đã checksum).
 - Khối p15–17 (tạm ghi `phu_luc=II, muc=1`): **25 dòng** (21 + 4 STT 34–37). Cờ tạm: ranh giới mục chưa xác minh, xem lịch sử git lượt 3.
