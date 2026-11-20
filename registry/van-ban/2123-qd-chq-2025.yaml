@@ -1,0 +1,33 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 2123/QĐ-CHQ
+loai: QUYET_DINH
+ten: Ban hành Quy trình Kiểm tra sau thông quan và quản lý chế độ ưu tiên
+co_quan: CHQ
+ngay_ban_hanh: '2025-12-30'
+hieu_luc_tu: '2026-02-01'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - hai-quan/kiem-tra-giam-sat
+  - hai-quan/so-tay-nghiep-vu
+nguon:
+  - url: https://www.quangtri.gov.vn/documents/d/quangtriportal/qd-2123.pdf
+    truy_cap: '2026-11-20'
+  - url: https://thuehaiquan.tapchikinhtetaichinh.vn/chinh-thuc-ap-dung-quy-trinh-moi-ve-kiem-tra-sau-thong-quan-144580.html
+    truy_cap: '2026-11-20'
+toan_van: raw/download/quangtri.gov.vn/2123-qd-chq-2025.pdf
+xac_minh:
+  muc: NGUON_B
+  pham_vi: 'Đã tải và đối chiếu toàn văn bản PDF ký gốc có dấu đỏ (46 trang, 7.660.049 byte, sha256 6335beedd6aeb9d586d21304780d3a53953916e908a19dd716c729c1acbad1b5, gồm Quyết định 3 điều, Quy trình và hệ thống biểu mẫu kèm theo) từ Cổng Thông tin điện tử tỉnh Quảng Trị (quangtri.gov.vn) và Thời báo Tài chính Việt Nam — chuyên trang Thuế & Hải quan: số hiệu 2123/QĐ-CHQ, ngày ban hành 30-12-2025, người ký Cục trưởng Cục Hải quan Nguyễn Văn Thọ, trích yếu nguyên văn "Ban hành Quy trình Kiểm tra sau thông quan và quản lý chế độ ưu tiên". Theo Điều 2 Quyết định (trang 2): Quyết định này có hiệu lực kể từ ngày 01/02/2026, thay thế Quyết định số 575/QĐ-TCHQ ngày 21/03/2019 của Tổng cục trưởng Tổng cục Hải quan về việc ban hành Quy trình Kiểm tra sau thông quan và Quyết định số 2659/QĐ-TCHQ ngày 14/09/2015 của Tổng cục trưởng Tổng cục Hải quan về việc ban hành Quy trình thẩm định điều kiện công nhận doanh nghiệp ưu tiên, áp dụng chế độ ưu tiên, quản lý doanh nghiệp ưu tiên theo quy định tại Thông tư 72/2015/TT-BTC (hai Quyết định 575/QĐ-TCHQ và 2659/QĐ-TCHQ hiện chưa nạp trong sổ nên ghi nhận tại phạm vi đối chiếu và ghi chú để tránh sinh điểm mù THIEU_VAN_BAN). Đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: false
+  chan:
+    ma: THIEU_PDF_A
+    ngay: '2026-11-20'
+    viec_tiep: Đã có PDF bản ký gốc dấu đỏ từ quangtri.gov.vn; chờ customs.gov.vn mở chặn để gắn URL customs.gov.vn và nâng NGUON_A
+  ngay: '2026-11-20'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Ban hành Quy trình Kiểm tra sau thông quan và quản lý chế độ ưu tiên (KTSTQ theo dấu hiệu vi phạm và theo quản lý rủi ro tại khoản 2, khoản 3 Điều 78 Luật Hải quan; thẩm định, công nhận, gia hạn và quản lý doanh nghiệp ưu tiên - DNUT). Có hiệu lực từ ngày 01/02/2026; theo Điều 2 thay thế Quyết định số 575/QĐ-TCHQ ngày 21/03/2019 và Quyết định số 2659/QĐ-TCHQ ngày 14/09/2015.'
+tu_khoa:
+  - kiem-tra-sau-thong-quan
+  - doanh-nghiep-uu-tien
+  - che-do-uu-tien
+  - ktstq
