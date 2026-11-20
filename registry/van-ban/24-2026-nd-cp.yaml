@@ -1,0 +1,26 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 24/2026/NĐ-CP
+loai: NGHI_DINH
+ten: "Quy định các danh mục hoá chất thuộc phạm vi điều chỉnh của Luật Hoá chất"
+co_quan: CP
+ngay_ban_hanh: "2026-01-17"
+hieu_luc_tu: "2026-01-17"
+tinh_trang: CON_HIEU_LUC
+nhanh: [giay-phep]
+quan_he:
+  huong_dan:
+    - 69/2025/QH15
+nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=216671
+    truy_cap: "2026-11-20"
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/24-ndcp.signed.pdf
+    truy_cap: "2026-11-20"
+toan_van: raw/download/datafiles.chinhphu.vn/24-2026-nd-cp.pdf
+xac_minh:
+  muc: NGUON_A
+  pham_vi: "số hiệu, tiêu đề, ngày ban hành + hiệu lực 17-01-2026 (thẻ vanban.chinhphu.vn); OCR 4 trang đầu bản ký: Điều 3 liệt kê 4 Phụ lục"
+  hieu_luc_da_doi_chieu: false
+  ngay: "2026-11-20"
+  boi: zcode@ozvietnam
+ghi_chu: "4 Phụ lục: I — hóa chất cơ bản công nghiệp hóa chất trọng điểm; II — hóa chất SX, kinh doanh CÓ ĐIỀU KIỆN (786); III — cần kiểm soát đặc biệt; IV — phải xây dựng kế hoạch phòng ngừa, ứng phó sự cố. LƯU Ý QUAN TRỌNG: khai báo hóa chất NHẬP KHẨU theo Điều 6 NĐ 26/2026/NĐ-CP gắn theo CHƯƠNG 28+29 của danh mục XNK (BTC), KHÔNG theo các danh mục này — mở #1475 trước khi gắn nghĩa vụ. PDF 88 trang bản scan (text layer trống) — TODO ca đêm: OCR + trích 4 phụ lục thành CSV theo CAS."
+tu_khoa: [hoa-chat, danh-muc-hoa-chat, cas, khai-bao-hoa-chat]

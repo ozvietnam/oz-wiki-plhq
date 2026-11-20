@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-20",
   "luoc_do_phien_ban": "1.4.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2835,
+  "tong": 2836,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -41024,6 +41024,51 @@
       },
       "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #405) để chặn truy vấn lặp và cảnh báo nhầm số hiệu: ngày 16-02-2016 Bộ Tài chính ban hành Thông tư 23/2016/TT-BTC và Thông tư 25/2016/TT-BTC, khuyết số 24/2016/TT-BTC trên Công báo/CSDLQG. Khách tra thường nhầm từ Thông tư 240/2016/TT-BTC (giá tối đa dịch vụ kiểm dịch y tế, kiểm dịch thực vật/động vật hàng XNK), Thông tư 24/2016/TT-BCT, hoặc Nghị định 24/2016/NĐ-CP.",
       "slug": "24-2016-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "24/2026/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định các danh mục hoá chất thuộc phạm vi điều chỉnh của Luật Hoá chất",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2026-01-17",
+      "hieu_luc_tu": "2026-01-17",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "giay-phep"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "69/2025/QH15"
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=216671",
+          "truy_cap": "2026-11-20"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/24-ndcp.signed.pdf",
+          "truy_cap": "2026-11-20"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/24-2026-nd-cp.pdf",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "số hiệu, tiêu đề, ngày ban hành + hiệu lực 17-01-2026 (thẻ vanban.chinhphu.vn); OCR 4 trang đầu bản ký: Điều 3 liệt kê 4 Phụ lục",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-20",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "4 Phụ lục: I — hóa chất cơ bản công nghiệp hóa chất trọng điểm; II — hóa chất SX, kinh doanh CÓ ĐIỀU KIỆN (786); III — cần kiểm soát đặc biệt; IV — phải xây dựng kế hoạch phòng ngừa, ứng phó sự cố. LƯU Ý QUAN TRỌNG: khai báo hóa chất NHẬP KHẨU theo Điều 6 NĐ 26/2026/NĐ-CP gắn theo CHƯƠNG 28+29 của danh mục XNK (BTC), KHÔNG theo các danh mục này — mở #1475 trước khi gắn nghĩa vụ. PDF 88 trang bản scan (text layer trống) — TODO ca đêm: OCR + trích 4 phụ lục thành CSV theo CAS.",
+      "tu_khoa": [
+        "hoa-chat",
+        "danh-muc-hoa-chat",
+        "cas",
+        "khai-bao-hoa-chat"
+      ],
+      "slug": "24-2026-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -95797,6 +95842,11 @@
         "duoc_huong_dan_boi": [
           {
             "tu": "01/2026/TT-BCT",
+            "quan_he": "huong_dan",
+            "so_hieu": "69/2025/QH15"
+          },
+          {
+            "tu": "24/2026/NĐ-CP",
             "quan_he": "huong_dan",
             "so_hieu": "69/2025/QH15"
           },
