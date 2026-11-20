@@ -4,8 +4,8 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "luoc_do": "docs/luoc-do-danh-muc-hs.md",
  "cach_tra": "Khoá là nhóm mã HS trong bảng (4, 6 hoặc 8 số). Tra mã 8 số: ghép mọi khoá là tiền tố của mã (độ dài 4, 6) và khoá trùng 8 số. Cạnh giữ nguyên dieu_kien — \"trừ loại…\" là trừ diện, không phải diện áp. canh_bao_ma = nhóm mã không có trong biểu thuế đối chiếu — tra ra các khoá này thì dừng và đối chiếu lại văn bản gốc, đừng kết luận diện áp. tien_le_tb_tchq = mật độ thông báo phân loại của Tổng cục (bậc C, tham khảo).",
- "tong_nhom_ma": 5538,
- "tong_canh": 10648,
+ "tong_nhom_ma": 5547,
+ "tong_canh": 10658,
  "bieu_thue_doi_chieu": {
   "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/tax.json",
   "phien_ban": "2026-11-13",
@@ -8629,6 +8629,22 @@
     "dieu_kien": "QCVN 01-190:2020/BNNPTNT; Sửa đổi 1:2021 QCVN 01-190:2020/BNNPTNT",
     "nhom": "3.4.15",
     "phu_luc": "Phụ lục I"
+   }
+  ],
+  "2844": [
+   {
+    "so_hieu": "09/2024/TT-BYT",
+    "slug": "09-2024-tt-byt",
+    "ten": "Ban hành các Danh mục thuốc, nguyên liệu làm thuốc dùng cho người và mỹ phẩm xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-26",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
+    "nhom": "6",
+    "phu_luc": "Danh mục 6"
    }
   ],
   "2906": [
@@ -61897,6 +61913,22 @@
     "phu_luc": "Danh mục 14"
    }
   ],
+  "33049920": [
+   {
+    "so_hieu": "09/2024/TT-BYT",
+    "slug": "09-2024-tt-byt",
+    "ten": "Ban hành các Danh mục thuốc, nguyên liệu làm thuốc dùng cho người và mỹ phẩm xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-26",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
+    "nhom": "14",
+    "phu_luc": "Danh mục 14"
+   }
+  ],
   "33049930": [
    {
     "so_hieu": "09/2024/TT-BYT",
@@ -61941,6 +61973,70 @@
     "dieu_kien": "Thiết bị y tế (danh mục mã HS theo 19/2024/TT-BYT; 24/2026/TT-BYT dẫn chiếu) — phải phân loại mức rủi ro (A/B: công bố tiêu chuẩn áp dụng; C/D: đăng ký lưu hành) theo NĐ 98/2021/NĐ-CP trước khi nhập khẩu",
     "nhom": "16",
     "phu_luc": "Phụ lục"
+   }
+  ],
+  "33051010": [
+   {
+    "so_hieu": "09/2024/TT-BYT",
+    "slug": "09-2024-tt-byt",
+    "ten": "Ban hành các Danh mục thuốc, nguyên liệu làm thuốc dùng cho người và mỹ phẩm xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-26",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
+    "nhom": "14",
+    "phu_luc": "Danh mục 14"
+   }
+  ],
+  "33051090": [
+   {
+    "so_hieu": "09/2024/TT-BYT",
+    "slug": "09-2024-tt-byt",
+    "ten": "Ban hành các Danh mục thuốc, nguyên liệu làm thuốc dùng cho người và mỹ phẩm xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-26",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
+    "nhom": "14",
+    "phu_luc": "Danh mục 14"
+   }
+  ],
+  "33052000": [
+   {
+    "so_hieu": "09/2024/TT-BYT",
+    "slug": "09-2024-tt-byt",
+    "ten": "Ban hành các Danh mục thuốc, nguyên liệu làm thuốc dùng cho người và mỹ phẩm xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-26",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
+    "nhom": "14",
+    "phu_luc": "Danh mục 14"
+   }
+  ],
+  "33053000": [
+   {
+    "so_hieu": "09/2024/TT-BYT",
+    "slug": "09-2024-tt-byt",
+    "ten": "Ban hành các Danh mục thuốc, nguyên liệu làm thuốc dùng cho người và mỹ phẩm xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-26",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
+    "nhom": "14",
+    "phu_luc": "Danh mục 14"
    }
   ],
   "33059000": [
@@ -61989,6 +62085,22 @@
     "phu_luc": "Phụ lục"
    }
   ],
+  "33061090": [
+   {
+    "so_hieu": "09/2024/TT-BYT",
+    "slug": "09-2024-tt-byt",
+    "ten": "Ban hành các Danh mục thuốc, nguyên liệu làm thuốc dùng cho người và mỹ phẩm xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-26",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
+    "nhom": "14",
+    "phu_luc": "Danh mục 14"
+   }
+  ],
   "33071000": [
    {
     "so_hieu": "09/2024/TT-BYT",
@@ -62022,6 +62134,22 @@
    }
   ],
   "33073000": [
+   {
+    "so_hieu": "09/2024/TT-BYT",
+    "slug": "09-2024-tt-byt",
+    "ten": "Ban hành các Danh mục thuốc, nguyên liệu làm thuốc dùng cho người và mỹ phẩm xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-26",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
+    "nhom": "14",
+    "phu_luc": "Danh mục 14"
+   }
+  ],
+  "33079030": [
    {
     "so_hieu": "09/2024/TT-BYT",
     "slug": "09-2024-tt-byt",
@@ -62099,6 +62227,36 @@
     "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
     "nhom": "9",
     "phu_luc": "Danh mục 9"
+   },
+   {
+    "so_hieu": "09/2024/TT-BYT",
+    "slug": "09-2024-tt-byt",
+    "ten": "Ban hành các Danh mục thuốc, nguyên liệu làm thuốc dùng cho người và mỹ phẩm xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-26",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
+    "nhom": "14",
+    "phu_luc": "Danh mục 14"
+   }
+  ],
+  "34011150": [
+   {
+    "so_hieu": "09/2024/TT-BYT",
+    "slug": "09-2024-tt-byt",
+    "ten": "Ban hành các Danh mục thuốc, nguyên liệu làm thuốc dùng cho người và mỹ phẩm xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-07-26",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
+    "nhom": "14",
+    "phu_luc": "Danh mục 14"
    }
   ],
   "34012099": [
