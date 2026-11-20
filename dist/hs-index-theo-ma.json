@@ -4,8 +4,8 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "luoc_do": "docs/luoc-do-danh-muc-hs.md",
  "cach_tra": "Khoá là nhóm mã HS trong bảng (4, 6 hoặc 8 số). Tra mã 8 số: ghép mọi khoá là tiền tố của mã (độ dài 4, 6) và khoá trùng 8 số. Cạnh giữ nguyên dieu_kien — \"trừ loại…\" là trừ diện, không phải diện áp. canh_bao_ma = nhóm mã không có trong biểu thuế đối chiếu — tra ra các khoá này thì dừng và đối chiếu lại văn bản gốc, đừng kết luận diện áp. tien_le_tb_tchq = mật độ thông báo phân loại của Tổng cục (bậc C, tham khảo).",
- "tong_nhom_ma": 5549,
- "tong_canh": 10652,
+ "tong_nhom_ma": 5547,
+ "tong_canh": 10650,
  "bieu_thue_doi_chieu": {
   "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/tax.json",
   "phien_ban": "2026-11-13",
@@ -18995,54 +18995,6 @@
     "phu_luc": "Phụ lục I"
    }
   ],
-  "284410": [
-   {
-    "so_hieu": "36/2026/TT-BKHCN",
-    "slug": "36-2026-tt-bkhcn",
-    "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2026-07-01",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
-    "muc_rui_ro": "CAO",
-    "dieu_kien": null,
-    "nhom": "1.2.4",
-    "phu_luc": "Phụ lục I"
-   }
-  ],
-  "284420": [
-   {
-    "so_hieu": "36/2026/TT-BKHCN",
-    "slug": "36-2026-tt-bkhcn",
-    "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2026-07-01",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
-    "muc_rui_ro": "CAO",
-    "dieu_kien": null,
-    "nhom": "1.2.4",
-    "phu_luc": "Phụ lục I"
-   }
-  ],
-  "284430": [
-   {
-    "so_hieu": "36/2026/TT-BKHCN",
-    "slug": "36-2026-tt-bkhcn",
-    "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2026-07-01",
-    "het_hieu_luc_tu": null,
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
-    "muc_rui_ro": "CAO",
-    "dieu_kien": null,
-    "nhom": "1.2.4",
-    "phu_luc": "Phụ lục I"
-   }
-  ],
   "285310": [
    {
     "so_hieu": "33/2024/NĐ-CP",
@@ -26036,7 +25988,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "Thực hiện các biện pháp quản lý theo quy định của pháp luật về năng lượng nguyên tử",
     "nhom": "2.4",
     "phu_luc": "Phụ lục I"
    }
@@ -26544,7 +26496,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "Thực hiện các biện pháp quản lý theo quy định của pháp luật về năng lượng nguyên tử",
     "nhom": "2.4",
     "phu_luc": "Phụ lục I"
    }
@@ -27474,7 +27426,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "Thực hiện các biện pháp quản lý theo quy định của pháp luật về năng lượng nguyên tử",
     "nhom": "2.3",
     "phu_luc": "Phụ lục I"
    }
@@ -42956,7 +42908,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 1:2022/BKHCN; QCVN 01:2022/BKHCN",
     "nhom": "1.1",
     "phu_luc": "Phụ lục II"
    }
@@ -42972,7 +42924,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 1:2022/BKHCN; QCVN 01:2022/BKHCN",
     "nhom": "1.2",
     "phu_luc": "Phụ lục II"
    }
@@ -42988,7 +42940,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 1:2022/BKHCN; QCVN 01:2022/BKHCN",
     "nhom": "1.2",
     "phu_luc": "Phụ lục II"
    }
@@ -46936,7 +46888,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN",
     "nhom": "1.1.1",
     "phu_luc": "Phụ lục I"
    }
@@ -46952,7 +46904,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN",
     "nhom": "1.1.2",
     "phu_luc": "Phụ lục I"
    },
@@ -47438,7 +47390,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 1:2022/BKHCN; QCVN 01:2022/BKHCN",
     "nhom": "1.1",
     "phu_luc": "Phụ lục I"
    },
@@ -47482,7 +47434,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 1:2022/BKHCN; QCVN 01:2022/BKHCN",
     "nhom": "1.2",
     "phu_luc": "Phụ lục I"
    },
@@ -47526,7 +47478,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 1:2022/BKHCN; QCVN 01:2022/BKHCN",
     "nhom": "1.1",
     "phu_luc": "Phụ lục I"
    },
@@ -47570,7 +47522,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 1:2022/BKHCN; QCVN 01:2022/BKHCN",
     "nhom": "1.1",
     "phu_luc": "Phụ lục I"
    },
@@ -47614,7 +47566,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 1:2022/BKHCN; QCVN 01:2022/BKHCN",
     "nhom": "1.2",
     "phu_luc": "Phụ lục I"
    },
@@ -47658,7 +47610,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 1:2022/BKHCN; QCVN 01:2022/BKHCN",
     "nhom": "1.1",
     "phu_luc": "Phụ lục I"
    },
@@ -47886,7 +47838,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 14:2018/BKHCN",
     "nhom": "6",
     "phu_luc": "Phụ lục II"
    }
@@ -47902,7 +47854,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 1:2022/BKHCN; QCVN 01:2022/BKHCN",
     "nhom": "1.3",
     "phu_luc": "Phụ lục I"
    },
@@ -47932,7 +47884,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 1:2022/BKHCN; QCVN 01:2022/BKHCN",
     "nhom": "1.3",
     "phu_luc": "Phụ lục I"
    },
@@ -48056,7 +48008,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 1:2022/BKHCN; QCVN 01:2022/BKHCN",
     "nhom": "1.4",
     "phu_luc": "Phụ lục I"
    },
@@ -48086,7 +48038,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 140:2025/BKHCN",
     "nhom": "3",
     "phu_luc": "Phụ lục II"
    }
@@ -48102,7 +48054,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 8:2019/BKHCN",
     "nhom": "2.1",
     "phu_luc": "Phụ lục I"
    }
@@ -48118,7 +48070,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 8:2019/BKHCN",
     "nhom": "2.2",
     "phu_luc": "Phụ lục I"
    }
@@ -48134,7 +48086,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 8:2019/BKHCN",
     "nhom": "2.3",
     "phu_luc": "Phụ lục I"
    }
@@ -48150,7 +48102,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 140:2025/BKHCN",
     "nhom": "3",
     "phu_luc": "Phụ lục II"
    }
@@ -48166,7 +48118,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 140:2025/BKHCN",
     "nhom": "3",
     "phu_luc": "Phụ lục II"
    }
@@ -50456,7 +50408,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN",
     "nhom": "1.2.1",
     "phu_luc": "Phụ lục I"
    }
@@ -50472,7 +50424,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN",
     "nhom": "1.2.1",
     "phu_luc": "Phụ lục I"
    }
@@ -50488,7 +50440,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN",
     "nhom": "1.2.2",
     "phu_luc": "Phụ lục I"
    }
@@ -50504,7 +50456,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN",
     "nhom": "1.2.2",
     "phu_luc": "Phụ lục I"
    }
@@ -50520,7 +50472,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN",
     "nhom": "1.2.3",
     "phu_luc": "Phụ lục I"
    }
@@ -50536,7 +50488,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN",
     "nhom": "1.2.3",
     "phu_luc": "Phụ lục I"
    }
@@ -50552,7 +50504,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN; QCVN 6:2010/BKHCN; trừ loại thuộc phân nhóm 2844.10, 2844.20 hoặc 2844.30",
     "nhom": "1.2.4",
     "phu_luc": "Phụ lục I"
    }
@@ -50568,7 +50520,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN; QCVN 6:2010/BKHCN; trừ loại thuộc phân nhóm 2844.10, 2844.20 hoặc 2844.30",
     "nhom": "1.2.4",
     "phu_luc": "Phụ lục I"
    }
@@ -50598,7 +50550,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN; QCVN 6:2010/BKHCN; trừ loại thuộc phân nhóm 2844.10, 2844.20 hoặc 2844.30",
     "nhom": "1.2.4",
     "phu_luc": "Phụ lục I"
    }
@@ -50614,7 +50566,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN; trừ loại thuộc phân nhóm 2844.10, 2844.20 hoặc 2844.30",
     "nhom": "1.2.4",
     "phu_luc": "Phụ lục I"
    }
@@ -50630,7 +50582,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN; trừ loại thuộc phân nhóm 2844.10, 2844.20 hoặc 2844.30",
     "nhom": "1.2.4",
     "phu_luc": "Phụ lục I"
    }
@@ -65696,7 +65648,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 1:2022/BKHCN; QCVN 01:2022/BKHCN",
     "nhom": "1.5",
     "phu_luc": "Phụ lục I"
    }
@@ -65712,7 +65664,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 1:2022/BKHCN; QCVN 01:2022/BKHCN",
     "nhom": "1.5",
     "phu_luc": "Phụ lục I"
    }
@@ -65728,7 +65680,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 1:2022/BKHCN; QCVN 01:2022/BKHCN",
     "nhom": "1.5",
     "phu_luc": "Phụ lục I"
    }
@@ -65744,7 +65696,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 1:2022/BKHCN; QCVN 01:2022/BKHCN",
     "nhom": "1.5",
     "phu_luc": "Phụ lục I"
    }
@@ -100912,7 +100864,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 2:2021/BKHCN",
     "nhom": "2",
     "phu_luc": "Phụ lục II"
    }
@@ -103992,7 +103944,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 7:2019/BKHCN",
     "nhom": "4.1",
     "phu_luc": "Phụ lục II"
    }
@@ -104040,7 +103992,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 7:2019/BKHCN",
     "nhom": "4.1",
     "phu_luc": "Phụ lục II"
    }
@@ -104136,7 +104088,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 7:2019/BKHCN",
     "nhom": "4.2",
     "phu_luc": "Phụ lục II"
    }
@@ -104168,7 +104120,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 7:2019/BKHCN",
     "nhom": "4.2",
     "phu_luc": "Phụ lục II"
    }
@@ -104200,7 +104152,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 7:2019/BKHCN",
     "nhom": "4.2",
     "phu_luc": "Phụ lục II"
    }
@@ -104232,7 +104184,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 7:2019/BKHCN",
     "nhom": "4.2",
     "phu_luc": "Phụ lục II"
    }
@@ -104520,7 +104472,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 7:2019/BKHCN",
     "nhom": "4.3",
     "phu_luc": "Phụ lục II"
    }
@@ -104552,7 +104504,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 7:2019/BKHCN",
     "nhom": "4.3",
     "phu_luc": "Phụ lục II"
    }
@@ -104744,7 +104696,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 7:2019/BKHCN",
     "nhom": "4.4",
     "phu_luc": "Phụ lục II"
    }
@@ -104776,7 +104728,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 7:2019/BKHCN",
     "nhom": "4.4",
     "phu_luc": "Phụ lục II"
    }
@@ -104888,7 +104840,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.1",
     "phu_luc": "Phụ lục II"
    }
@@ -104904,7 +104856,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.1",
     "phu_luc": "Phụ lục II"
    }
@@ -104920,7 +104872,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.1",
     "phu_luc": "Phụ lục II"
    }
@@ -104936,7 +104888,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.1",
     "phu_luc": "Phụ lục II"
    }
@@ -104952,7 +104904,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.1",
     "phu_luc": "Phụ lục II"
    }
@@ -104968,7 +104920,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.1",
     "phu_luc": "Phụ lục II"
    }
@@ -104984,7 +104936,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.1",
     "phu_luc": "Phụ lục II"
    }
@@ -105000,7 +104952,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.1",
     "phu_luc": "Phụ lục II"
    }
@@ -105016,7 +104968,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.1",
     "phu_luc": "Phụ lục II"
    }
@@ -105032,7 +104984,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.1",
     "phu_luc": "Phụ lục II"
    },
@@ -105062,7 +105014,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.1",
     "phu_luc": "Phụ lục II"
    },
@@ -105092,7 +105044,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.1",
     "phu_luc": "Phụ lục II"
    },
@@ -105122,7 +105074,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.1",
     "phu_luc": "Phụ lục II"
    },
@@ -105152,7 +105104,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.1",
     "phu_luc": "Phụ lục II"
    },
@@ -105182,7 +105134,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.2",
     "phu_luc": "Phụ lục II"
    }
@@ -105198,7 +105150,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.2",
     "phu_luc": "Phụ lục II"
    }
@@ -105214,7 +105166,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.2",
     "phu_luc": "Phụ lục II"
    }
@@ -105230,7 +105182,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.2",
     "phu_luc": "Phụ lục II"
    }
@@ -105246,7 +105198,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.2",
     "phu_luc": "Phụ lục II"
    },
@@ -105276,7 +105228,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.2",
     "phu_luc": "Phụ lục II"
    },
@@ -105306,7 +105258,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.2",
     "phu_luc": "Phụ lục II"
    },
@@ -105336,7 +105288,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.2",
     "phu_luc": "Phụ lục II"
    },
@@ -105366,7 +105318,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.3",
     "phu_luc": "Phụ lục II"
    }
@@ -105382,7 +105334,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.4",
     "phu_luc": "Phụ lục II"
    }
@@ -105398,7 +105350,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.4",
     "phu_luc": "Phụ lục II"
    }
@@ -105414,7 +105366,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.4",
     "phu_luc": "Phụ lục II"
    }
@@ -105430,7 +105382,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.4",
     "phu_luc": "Phụ lục II"
    }
@@ -105446,7 +105398,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.4",
     "phu_luc": "Phụ lục II"
    }
@@ -105462,7 +105414,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.4",
     "phu_luc": "Phụ lục II"
    }
@@ -105478,7 +105430,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.4",
     "phu_luc": "Phụ lục II"
    }
@@ -105494,7 +105446,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.4",
     "phu_luc": "Phụ lục II"
    }
@@ -105510,7 +105462,23 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
+    "nhom": "5.5",
+    "phu_luc": "Phụ lục II"
+   }
+  ],
+  "72230090": [
+   {
+    "so_hieu": "36/2026/TT-BKHCN",
+    "slug": "36-2026-tt-bkhcn",
+    "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-07-01",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CONG_BO_HOP_QUY",
+    "muc_rui_ro": "TRUNG_BINH",
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.5",
     "phu_luc": "Phụ lục II"
    }
@@ -105930,7 +105898,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 7:2019/BKHCN",
     "nhom": "4.6",
     "phu_luc": "Phụ lục II"
    }
@@ -106026,7 +105994,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.6",
     "phu_luc": "Phụ lục II"
    }
@@ -106042,7 +106010,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.6",
     "phu_luc": "Phụ lục II"
    }
@@ -106118,7 +106086,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.6",
     "phu_luc": "Phụ lục II"
    }
@@ -106134,7 +106102,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.6",
     "phu_luc": "Phụ lục II"
    }
@@ -106150,7 +106118,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.6",
     "phu_luc": "Phụ lục II"
    }
@@ -106166,7 +106134,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 20:2019/BKHCN",
     "nhom": "5.6",
     "phu_luc": "Phụ lục II"
    }
@@ -106462,7 +106430,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 7:2019/BKHCN",
     "nhom": "4.5",
     "phu_luc": "Phụ lục II"
    }
@@ -106722,7 +106690,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "Thực hiện các biện pháp quản lý theo quy định của pháp luật về năng lượng nguyên tử",
     "nhom": "2.3",
     "phu_luc": "Phụ lục I"
    }
@@ -106890,7 +106858,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "Thực hiện các biện pháp quản lý theo quy định của pháp luật về năng lượng nguyên tử",
     "nhom": "2.1",
     "phu_luc": "Phụ lục I"
    }
@@ -106906,7 +106874,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "Thực hiện các biện pháp quản lý theo quy định của pháp luật về năng lượng nguyên tử",
     "nhom": "2.2",
     "phu_luc": "Phụ lục I"
    }
@@ -106922,7 +106890,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "Thực hiện các biện pháp quản lý theo quy định của pháp luật về năng lượng nguyên tử",
     "nhom": "2.1",
     "phu_luc": "Phụ lục I"
    }
@@ -106938,7 +106906,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "Thực hiện các biện pháp quản lý theo quy định của pháp luật về năng lượng nguyên tử",
     "nhom": "2.1",
     "phu_luc": "Phụ lục I"
    }
@@ -107288,7 +107256,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "4.5",
     "phu_luc": "Phụ lục I"
    }
@@ -107318,7 +107286,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "4.5",
     "phu_luc": "Phụ lục I"
    },
@@ -107332,7 +107300,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "8.3",
     "phu_luc": "Phụ lục II"
    }
@@ -107362,7 +107330,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "4.5",
     "phu_luc": "Phụ lục I"
    },
@@ -107376,7 +107344,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "8.3",
     "phu_luc": "Phụ lục II"
    }
@@ -107392,7 +107360,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "8.3",
     "phu_luc": "Phụ lục II"
    }
@@ -107408,7 +107376,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "8.3",
     "phu_luc": "Phụ lục II"
    }
@@ -107438,7 +107406,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 9:2012/BKHCN",
     "nhom": "9.6",
     "phu_luc": "Phụ lục II"
    }
@@ -107454,7 +107422,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 9:2012/BKHCN",
     "nhom": "9.6",
     "phu_luc": "Phụ lục II"
    }
@@ -107486,7 +107454,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 9:2012/BKHCN",
     "nhom": "9.6",
     "phu_luc": "Phụ lục II"
    }
@@ -107502,7 +107470,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 9:2012/BKHCN",
     "nhom": "9.6",
     "phu_luc": "Phụ lục II"
    }
@@ -107562,7 +107530,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 9:2012/BKHCN",
     "nhom": "9.4",
     "phu_luc": "Phụ lục II"
    }
@@ -107578,8 +107546,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 9:2012/BKHCN",
+    "nhom": "9.4",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -107654,8 +107622,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 9:2012/BKHCN",
+    "nhom": "9.4",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -107684,8 +107652,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 9:2012/BKHCN",
+    "nhom": "9.4",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -107728,8 +107696,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 9:2012/BKHCN",
+    "nhom": "9.4",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -107772,8 +107740,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 9:2012/BKHCN",
+    "nhom": "9.4",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -107802,8 +107770,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 9:2012/BKHCN",
+    "nhom": "9.4",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -107832,8 +107800,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 9:2012/BKHCN",
+    "nhom": "9.4",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -107862,8 +107830,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 9:2012/BKHCN",
+    "nhom": "9.4",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -107878,8 +107846,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 9:2012/BKHCN",
+    "nhom": "9.4",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -107908,8 +107876,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 9:2012/BKHCN",
+    "nhom": "9.4",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -107924,8 +107892,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 9:2012/BKHCN",
+    "nhom": "9.4",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -107940,8 +107908,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 9:2012/BKHCN",
+    "nhom": "9.4",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -107956,7 +107924,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "8.4",
     "phu_luc": "Phụ lục II"
    }
@@ -108140,7 +108108,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "8.4",
     "phu_luc": "Phụ lục II"
    }
@@ -109930,7 +109898,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 9:2012/BKHCN",
     "nhom": "9.5",
     "phu_luc": "Phụ lục II"
    }
@@ -109946,7 +109914,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 9:2012/BKHCN",
     "nhom": "9.5",
     "phu_luc": "Phụ lục II"
    }
@@ -109976,7 +109944,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 9:2012/BKHCN",
     "nhom": "9.5",
     "phu_luc": "Phụ lục II"
    }
@@ -110006,8 +109974,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 9:2012/BKHCN",
+    "nhom": "9.5",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -110036,8 +110004,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 9:2012/BKHCN",
+    "nhom": "9.5",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -110066,8 +110034,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 9:2012/BKHCN",
+    "nhom": "9.5",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -110204,7 +110172,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 9:2012/BKHCN; không bao gồm máy gắn liền với động cơ điện hoạt động bằng pin/pin xạc",
     "nhom": "9.2",
     "phu_luc": "Phụ lục II"
    }
@@ -110220,7 +110188,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 118:2018/BTTTT; QCVN 101:2020/BTTTT; QCVN 132:2022/BTTTT; QCVN 134:2024/BTTTT",
     "nhom": "1.2",
     "phu_luc": "Phụ lục II"
    }
@@ -110600,7 +110568,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 118:2018/BTTTT; QCVN 101:2020/BTTTT; QCVN 132:2022/BTTTT; QCVN 134:2024/BTTTT; trừ máy tính xách tay, notebook, subnotebook",
     "nhom": "1.3",
     "phu_luc": "Phụ lục II"
    }
@@ -110630,7 +110598,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 118:2018/BTTTT; QCVN 132:2022/BTTTT",
     "nhom": "1.1",
     "phu_luc": "Phụ lục II"
    }
@@ -111010,7 +110978,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 118:2018/BTTTT; QCVN 132:2022/BTTTT",
     "nhom": "1.1",
     "phu_luc": "Phụ lục II"
    }
@@ -111436,7 +111404,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 96:2015/BTTTT; QCVN 47:2015/BTTTT; QCVN 74:2020/BTTTT",
     "nhom": "2.8",
     "phu_luc": "Phụ lục I"
    },
@@ -111450,7 +111418,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 96:2015/BTTTT",
     "nhom": "2.9",
     "phu_luc": "Phụ lục I"
    },
@@ -111464,7 +111432,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 96:2015/BTTTT; QCVN 55:2023/BTTTT",
     "nhom": "4.3",
     "phu_luc": "Phụ lục II"
    }
@@ -113162,7 +113130,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 96:2015/BTTTT",
     "nhom": "4.5",
     "phu_luc": "Phụ lục II"
    }
@@ -113178,7 +113146,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 96:2015/BTTTT",
     "nhom": "4.5",
     "phu_luc": "Phụ lục II"
    }
@@ -113194,7 +113162,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 101:2020/BTTTT; Không áp dụng đối với Pin Lithium rời là pin sạc dự phòng dùng để nạp điện cho các thiết bị này",
     "nhom": "6",
     "phu_luc": "Phụ lục II"
    }
@@ -113210,7 +113178,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 101:2020/BTTTT; Không áp dụng đối với Pin Lithium rời là pin sạc dự phòng dùng để nạp điện cho các thiết bị này",
     "nhom": "6",
     "phu_luc": "Phụ lục II"
    }
@@ -113226,7 +113194,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 101:2020/BTTTT; Không áp dụng đối với Pin Lithium rời là pin sạc dự phòng dùng để nạp điện cho các thiết bị này",
     "nhom": "6",
     "phu_luc": "Phụ lục II"
    }
@@ -113256,7 +113224,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 9:2012/BKHCN",
     "nhom": "9.3",
     "phu_luc": "Phụ lục II"
    }
@@ -113286,7 +113254,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 9:2012/BKHCN",
     "nhom": "9.3",
     "phu_luc": "Phụ lục II"
    }
@@ -113302,7 +113270,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 9:2012/BKHCN",
     "nhom": "9.3",
     "phu_luc": "Phụ lục II"
    }
@@ -113348,7 +113316,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 9:2012/BKHCN",
     "nhom": "9.7",
     "phu_luc": "Phụ lục II"
    }
@@ -113364,7 +113332,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "Thực hiện các biện pháp quản lý theo quy định của pháp luật về năng lượng nguyên tử",
     "nhom": "2.3",
     "phu_luc": "Phụ lục I"
    }
@@ -113380,7 +113348,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "Thực hiện các biện pháp quản lý theo quy định của pháp luật về năng lượng nguyên tử",
     "nhom": "2.3",
     "phu_luc": "Phụ lục I"
    }
@@ -113396,7 +113364,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "4.4",
     "phu_luc": "Phụ lục I"
    }
@@ -113426,7 +113394,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "4.1",
     "phu_luc": "Phụ lục I"
    },
@@ -113440,7 +113408,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "4.2",
     "phu_luc": "Phụ lục I"
    },
@@ -113454,7 +113422,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "8.1",
     "phu_luc": "Phụ lục II"
    },
@@ -113468,7 +113436,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "8.4",
     "phu_luc": "Phụ lục II"
    },
@@ -113482,7 +113450,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 9:2012/BKHCN",
     "nhom": "9.1",
     "phu_luc": "Phụ lục II"
    }
@@ -113498,7 +113466,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "8.9",
     "phu_luc": "Phụ lục II"
    }
@@ -113514,7 +113482,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "4.3",
     "phu_luc": "Phụ lục I"
    },
@@ -113528,7 +113496,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 9:2012/BKHCN",
     "nhom": "9.7",
     "phu_luc": "Phụ lục II"
    }
@@ -113544,7 +113512,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "8.2",
     "phu_luc": "Phụ lục II"
    }
@@ -113560,7 +113528,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "8.2",
     "phu_luc": "Phụ lục II"
    }
@@ -113576,7 +113544,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN; không bao gồm loại dùng trong công nghiệp",
     "nhom": "8.6",
     "phu_luc": "Phụ lục II"
    }
@@ -113592,7 +113560,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "8.7",
     "phu_luc": "Phụ lục II"
    },
@@ -113606,8 +113574,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 9:2012/BKHCN",
+    "nhom": "9.7",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -113622,7 +113590,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "4.4",
     "phu_luc": "Phụ lục I"
    }
@@ -113638,7 +113606,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "4.6",
     "phu_luc": "Phụ lục I"
    },
@@ -113652,7 +113620,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "8.5",
     "phu_luc": "Phụ lục II"
    },
@@ -113666,8 +113634,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 4:2009/BKHCN",
+    "nhom": "8.7",
     "phu_luc": "Phụ lục II"
    },
    {
@@ -113680,7 +113648,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "8.8",
     "phu_luc": "Phụ lục II"
    }
@@ -113696,7 +113664,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "8.5",
     "phu_luc": "Phụ lục II"
    }
@@ -113712,8 +113680,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 4:2009/BKHCN",
+    "nhom": "8.8",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -113728,7 +113696,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "4.4",
     "phu_luc": "Phụ lục I"
    }
@@ -113744,7 +113712,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "8.5",
     "phu_luc": "Phụ lục II"
    }
@@ -113802,7 +113770,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 113:2017/BTTTT; QCVN 132:2022/BTTTT; QCVN 134:2024/BTTTT",
     "nhom": "2.1",
     "phu_luc": "Phụ lục I"
    }
@@ -113862,7 +113830,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 86:2019/BTTTT; QCVN 86:2025/BTTTT; QCVN 101:2020/BTTTT; QCVN 117:2023/BTTTT; QCVN 134:2024/BTTTT",
     "nhom": "5.1",
     "phu_luc": "Phụ lục II"
    },
@@ -113876,7 +113844,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 18:2022/BTTTT; QCVN 86:2025/BTTTT; QCVN 101:2020/BTTTT; QCVN 127:2021/BTTTT; QCVN 129:2021/BTTTT; QCVN 134:2024/BTTTT",
     "nhom": "5.2",
     "phu_luc": "Phụ lục II"
    }
@@ -113920,7 +113888,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 131:2022/BTTTT; QCVN 18:2022/BTTTT; QCVN 86:2025/BTTTT",
     "nhom": "1.1.10",
     "phu_luc": "Phụ lục I"
    },
@@ -113934,7 +113902,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 37:2018/BTTTT; QCVN 100:2024/BTTTT",
     "nhom": "1.1.11",
     "phu_luc": "Phụ lục I"
    },
@@ -113948,7 +113916,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 43:2011/BTTTT; QCVN 100:2024/BTTTT",
     "nhom": "1.1.12",
     "phu_luc": "Phụ lục I"
    },
@@ -113962,7 +113930,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 100:2024/BTTTT",
     "nhom": "3.1.2",
     "phu_luc": "Phụ lục II"
    },
@@ -113976,7 +113944,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 105:2016/BTTTT; QCVN 106:2016/BTTTT",
     "nhom": "3.4.1",
     "phu_luc": "Phụ lục II"
    },
@@ -113990,7 +113958,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 106:2016/BTTTT",
     "nhom": "3.4.2",
     "phu_luc": "Phụ lục II"
    },
@@ -114004,7 +113972,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 86:2025/BTTTT; QCVN 101:2020/BTTTT; QCVN 117:2023/BTTTT; QCVN 134:2024/BTTTT",
     "nhom": "5.1",
     "phu_luc": "Phụ lục II"
    },
@@ -114018,7 +113986,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 18:2022/BTTTT; QCVN 86:2025/BTTTT; QCVN 101:2020/BTTTT; QCVN 127:2021/BTTTT; QCVN 129:2021/BTTTT; QCVN 134:2024/BTTTT",
     "nhom": "5.2",
     "phu_luc": "Phụ lục II"
    }
@@ -114076,7 +114044,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 26:2011/BTTTT; QCVN 47:2015/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.3.2",
     "phu_luc": "Phụ lục II"
    },
@@ -114090,7 +114058,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 50:2020/BTTTT; QCVN 47:2015/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.3.4",
     "phu_luc": "Phụ lục II"
    },
@@ -114104,7 +114072,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 52:2020/BTTTT; QCVN 47:2015/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.3.13",
     "phu_luc": "Phụ lục II"
    },
@@ -114118,7 +114086,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 59:2011/BTTTT; QCVN 47:2015/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.3.14",
     "phu_luc": "Phụ lục II"
    },
@@ -114132,7 +114100,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 61:2011/BTTTT; QCVN 47:2015/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.3.15",
     "phu_luc": "Phụ lục II"
    }
@@ -114162,7 +114130,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 41:2016/BTTTT; QCVN 103:2016/BTTTT",
     "nhom": "1.1.1",
     "phu_luc": "Phụ lục I"
    },
@@ -114176,7 +114144,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 16:2018/BTTTT; QCVN 103:2016/BTTTT",
     "nhom": "1.1.2",
     "phu_luc": "Phụ lục I"
    },
@@ -114190,7 +114158,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 103:2016/BTTTT; QCVN 110:2023/BTTTT",
     "nhom": "1.1.3",
     "phu_luc": "Phụ lục I"
    },
@@ -114204,7 +114172,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 128:2021/BTTTT; QCVN 18:2022/BTTTT; QCVN 47:2015/BTTTT",
     "nhom": "1.1.4",
     "phu_luc": "Phụ lục I"
    },
@@ -114218,7 +114186,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 133:2024/BTTTT; QCVN 18:2022/BTTTT; QCVN 47:2015/BTTTT",
     "nhom": "1.1.5",
     "phu_luc": "Phụ lục I"
    },
@@ -114232,7 +114200,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 122:2020/BTTTT; QCVN 18:2022/BTTTT; QCVN 47:2015/BTTTT; QCVN 131:2022/BTTTT; QCVN 86:2025/BTTTT",
     "nhom": "1.1.10",
     "phu_luc": "Phụ lục I"
    },
@@ -114246,7 +114214,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 43:2011/BTTTT; QCVN 100:2024/BTTTT",
     "nhom": "1.1.12",
     "phu_luc": "Phụ lục I"
    },
@@ -114260,7 +114228,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 42:2011/BTTTT; QCVN 100:2024/BTTTT",
     "nhom": "1.1.14",
     "phu_luc": "Phụ lục I"
    },
@@ -114274,7 +114242,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 100:2024/BTTTT",
     "nhom": "3.1.2",
     "phu_luc": "Phụ lục II"
    },
@@ -114288,7 +114256,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 105:2016/BTTTT; QCVN 106:2016/BTTTT",
     "nhom": "3.4.1",
     "phu_luc": "Phụ lục II"
    },
@@ -114302,7 +114270,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 106:2016/BTTTT",
     "nhom": "3.4.2",
     "phu_luc": "Phụ lục II"
    }
@@ -114628,7 +114596,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 122:2020/BTTTT; QCVN 18:2022/BTTTT; QCVN 47:2015/BTTTT; QCVN 131:2022/BTTTT; QCVN 86:2025/BTTTT",
     "nhom": "1.1.10",
     "phu_luc": "Phụ lục I"
    }
@@ -114884,7 +114852,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 54:2020/BTTTT; QCVN 112:2017/BTTTT",
     "nhom": "2.2",
     "phu_luc": "Phụ lục I"
    },
@@ -114898,7 +114866,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 65:2021/BTTTT; QCVN 112:2017/BTTTT",
     "nhom": "2.3",
     "phu_luc": "Phụ lục I"
    },
@@ -114912,7 +114880,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 96:2015/BTTTT; QCVN 136:2025/BKHCN",
     "nhom": "2.4",
     "phu_luc": "Phụ lục I"
    },
@@ -114926,7 +114894,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 88:2015/BTTTT; QCVN 112:2017/BTTTT; không áp dụng đối với các loại thiết bị vô tuyến dùng cho ứng dụng mở rộng mạng LAN cố định ngoài trời hay ứng dụng truyền dẫn vô tuyến cố định điểm - điểm hoạt động trong băng tần 60 GHz",
     "nhom": "4.8",
     "phu_luc": "Phụ lục II"
    }
@@ -114970,7 +114938,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 24:2011/BTTTT; QCVN 47:2015/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.3.1",
     "phu_luc": "Phụ lục II"
    },
@@ -114984,7 +114952,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 107:2016/BTTTT; QCVN 47:2015/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.3.12",
     "phu_luc": "Phụ lục II"
    }
@@ -115028,7 +114996,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 103:2016/BTTTT",
     "nhom": "1.1.6",
     "phu_luc": "Phụ lục I"
    },
@@ -115042,7 +115010,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 66:2018/BTTTT; QCVN 103:2016/BTTTT",
     "nhom": "1.1.7",
     "phu_luc": "Phụ lục I"
    },
@@ -115056,7 +115024,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 103:2016/BTTTT; QCVN 111:2023/BTTTT",
     "nhom": "1.1.8",
     "phu_luc": "Phụ lục I"
    },
@@ -115070,7 +115038,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "1.1.9",
     "phu_luc": "Phụ lục I"
    },
@@ -115084,7 +115052,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 122:2020/BTTTT; QCVN 18:2022/BTTTT; QCVN 47:2015/BTTTT; QCVN 131:2022/BTTTT; QCVN 86:2025/BTTTT",
     "nhom": "1.1.10",
     "phu_luc": "Phụ lục I"
    },
@@ -115098,7 +115066,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 44:2018/BTTTT; QCVN 100:2024/BTTTT",
     "nhom": "1.1.13",
     "phu_luc": "Phụ lục I"
    },
@@ -115112,7 +115080,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 42:2011/BTTTT; QCVN 100:2024/BTTTT",
     "nhom": "1.1.14",
     "phu_luc": "Phụ lục I"
    },
@@ -115126,7 +115094,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 53:2017/BTTTT; QCVN 18:2022/BTTTT; QCVN 47:2015/BTTTT",
     "nhom": "3.1.1",
     "phu_luc": "Phụ lục II"
    },
@@ -115140,7 +115108,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 100:2024/BTTTT",
     "nhom": "3.1.2",
     "phu_luc": "Phụ lục II"
    },
@@ -115154,7 +115122,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 38:2011/BTTTT; QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "3.2.1",
     "phu_luc": "Phụ lục II"
    },
@@ -115168,7 +115136,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 39:2011/BTTTT; QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "3.2.2",
     "phu_luc": "Phụ lục II"
    },
@@ -115182,7 +115150,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 40:2011/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "3.2.3",
     "phu_luc": "Phụ lục II"
    },
@@ -115196,7 +115164,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 116:2017/BTTTT; trừ các đài trái đất lưu động hàng không, hoạt động trong băng tần Ku",
     "nhom": "3.2.4",
     "phu_luc": "Phụ lục II"
    },
@@ -115210,7 +115178,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 24:2011/BTTTT; QCVN 47:2015/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.3.1",
     "phu_luc": "Phụ lục II"
    },
@@ -115224,7 +115192,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 28:2011/BTTTT; QCVN 47:2015/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.3.3",
     "phu_luc": "Phụ lục II"
    },
@@ -115238,7 +115206,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 58:2011/BTTTT; QCVN 47:2015/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.3.8",
     "phu_luc": "Phụ lục II"
    },
@@ -115252,7 +115220,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 60:2011/BTTTT; QCVN 47:2015/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.3.9",
     "phu_luc": "Phụ lục II"
    },
@@ -115266,7 +115234,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 62:2011/BTTTT; QCVN 47:2015/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.3.10",
     "phu_luc": "Phụ lục II"
    },
@@ -115280,7 +115248,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 105:2016/BTTTT; QCVN 106:2016/BTTTT",
     "nhom": "3.4.1",
     "phu_luc": "Phụ lục II"
    },
@@ -115294,7 +115262,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 106:2016/BTTTT",
     "nhom": "3.4.2",
     "phu_luc": "Phụ lục II"
    },
@@ -115308,7 +115276,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT; trừ thiết bị dùng ngoài khơi cho ngành dầu khí",
     "nhom": "3.5",
     "phu_luc": "Phụ lục II"
    },
@@ -115322,7 +115290,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 56:2011/BTTTT",
     "nhom": "3.7",
     "phu_luc": "Phụ lục II"
    },
@@ -115336,7 +115304,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "3.8",
     "phu_luc": "Phụ lục II"
    },
@@ -115350,7 +115318,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT",
     "nhom": "4.1",
     "phu_luc": "Phụ lục II"
    },
@@ -115364,7 +115332,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 96:2015/BTTTT; QCVN 55:2023/BTTTT; QCVN 73:2013/BTTTT; QCVN 74:2020/BTTTT; QCVN 123:2021/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "4.2",
     "phu_luc": "Phụ lục II"
    },
@@ -115378,7 +115346,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 96:2015/BTTTT",
     "nhom": "4.7",
     "phu_luc": "Phụ lục II"
    },
@@ -115392,7 +115360,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 86:2019/BTTTT; QCVN 86:2025/BTTTT; QCVN 117:2023/BTTTT",
     "nhom": "4.10",
     "phu_luc": "Phụ lục II"
    },
@@ -115406,7 +115374,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 96:2015/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "4.11",
     "phu_luc": "Phụ lục II"
    },
@@ -115420,7 +115388,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 86:2019/BTTTT; QCVN 86:2025/BTTTT; QCVN 117:2023/BTTTT",
     "nhom": "5.1",
     "phu_luc": "Phụ lục II"
    },
@@ -115434,7 +115402,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 18:2022/BTTTT; QCVN 86:2025/BTTTT; QCVN 127:2021/BTTTT; QCVN 129:2021/BTTTT",
     "nhom": "5.2",
     "phu_luc": "Phụ lục II"
    }
@@ -115508,7 +115476,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 122:2020/BTTTT; QCVN 18:2022/BTTTT; QCVN 47:2015/BTTTT; QCVN 131:2022/BTTTT; QCVN 86:2025/BTTTT",
     "nhom": "1.1.10",
     "phu_luc": "Phụ lục I"
    },
@@ -115522,7 +115490,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 96:2015/BTTTT; QCVN 55:2023/BTTTT; QCVN 47:2015/BTTTT",
     "nhom": "2.6",
     "phu_luc": "Phụ lục I"
    },
@@ -115536,7 +115504,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 100:2024/BTTTT",
     "nhom": "3.1.2",
     "phu_luc": "Phụ lục II"
    },
@@ -115550,7 +115518,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 105:2016/BTTTT; QCVN 106:2016/BTTTT",
     "nhom": "3.4.1",
     "phu_luc": "Phụ lục II"
    },
@@ -115564,7 +115532,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 106:2016/BTTTT",
     "nhom": "3.4.2",
     "phu_luc": "Phụ lục II"
    },
@@ -115578,7 +115546,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT; trừ thiết bị dùng ngoài khơi cho ngành dầu khí",
     "nhom": "3.5",
     "phu_luc": "Phụ lục II"
    },
@@ -115592,7 +115560,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "3.8",
     "phu_luc": "Phụ lục II"
    },
@@ -115606,7 +115574,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 96:2015/BTTTT; QCVN 55:2023/BTTTT; QCVN 73:2013/BTTTT; QCVN 74:2020/BTTTT",
     "nhom": "4.2",
     "phu_luc": "Phụ lục II"
    }
@@ -115710,7 +115678,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 122:2020/BTTTT; QCVN 18:2022/BTTTT; QCVN 47:2015/BTTTT; QCVN 131:2022/BTTTT; QCVN 86:2025/BTTTT",
     "nhom": "1.1.10",
     "phu_luc": "Phụ lục I"
    },
@@ -115724,7 +115692,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "3.8",
     "phu_luc": "Phụ lục II"
    }
@@ -115740,7 +115708,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 122:2020/BTTTT; QCVN 18:2022/BTTTT; QCVN 47:2015/BTTTT; QCVN 131:2022/BTTTT; QCVN 86:2025/BTTTT",
     "nhom": "1.1.10",
     "phu_luc": "Phụ lục I"
    },
@@ -115754,7 +115722,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "3.8",
     "phu_luc": "Phụ lục II"
    }
@@ -115770,7 +115738,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 91:2015/BTTTT; QCVN 130:2022/BTTTT",
     "nhom": "2.10",
     "phu_luc": "Phụ lục I"
    }
@@ -115786,7 +115754,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 91:2015/BTTTT; QCVN 130:2022/BTTTT",
     "nhom": "2.10",
     "phu_luc": "Phụ lục I"
    }
@@ -115802,7 +115770,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 91:2015/BTTTT; QCVN 130:2022/BTTTT",
     "nhom": "2.10",
     "phu_luc": "Phụ lục I"
    }
@@ -115818,7 +115786,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 91:2015/BTTTT; QCVN 130:2022/BTTTT",
     "nhom": "2.10",
     "phu_luc": "Phụ lục I"
    }
@@ -115834,7 +115802,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 91:2015/BTTTT; QCVN 130:2022/BTTTT",
     "nhom": "2.10",
     "phu_luc": "Phụ lục I"
    }
@@ -115850,7 +115818,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 91:2015/BTTTT; QCVN 130:2022/BTTTT",
     "nhom": "2.10",
     "phu_luc": "Phụ lục I"
    }
@@ -115866,7 +115834,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 91:2015/BTTTT; QCVN 130:2022/BTTTT",
     "nhom": "2.10",
     "phu_luc": "Phụ lục I"
    }
@@ -115882,7 +115850,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 91:2015/BTTTT; QCVN 130:2022/BTTTT",
     "nhom": "2.10",
     "phu_luc": "Phụ lục I"
    }
@@ -115898,7 +115866,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 91:2015/BTTTT; QCVN 130:2022/BTTTT",
     "nhom": "2.10",
     "phu_luc": "Phụ lục I"
    }
@@ -115942,7 +115910,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 91:2015/BTTTT; QCVN 130:2022/BTTTT",
     "nhom": "2.10",
     "phu_luc": "Phụ lục I"
    }
@@ -115986,7 +115954,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 91:2015/BTTTT; QCVN 130:2022/BTTTT",
     "nhom": "2.10",
     "phu_luc": "Phụ lục I"
    }
@@ -116030,7 +115998,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 91:2015/BTTTT; QCVN 130:2022/BTTTT",
     "nhom": "2.10",
     "phu_luc": "Phụ lục I"
    }
@@ -116074,7 +116042,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 91:2015/BTTTT; QCVN 130:2022/BTTTT",
     "nhom": "2.10",
     "phu_luc": "Phụ lục I"
    }
@@ -116090,7 +116058,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 91:2015/BTTTT; QCVN 130:2022/BTTTT",
     "nhom": "2.10",
     "phu_luc": "Phụ lục I"
    }
@@ -116464,7 +116432,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 96:2015/BTTTT; QCVN 55:2023/BTTTT",
     "nhom": "2.8",
     "phu_luc": "Phụ lục I"
    },
@@ -116478,7 +116446,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 96:2015/BTTTT",
     "nhom": "2.9",
     "phu_luc": "Phụ lục I"
    },
@@ -116492,7 +116460,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 96:2015/BTTTT; QCVN 55:2023/BTTTT",
     "nhom": "4.3",
     "phu_luc": "Phụ lục II"
    }
@@ -116508,7 +116476,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 96:2015/BTTTT; QCVN 55:2023/BTTTT",
     "nhom": "2.8",
     "phu_luc": "Phụ lục I"
    },
@@ -116522,7 +116490,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 96:2015/BTTTT",
     "nhom": "2.9",
     "phu_luc": "Phụ lục I"
    },
@@ -116536,7 +116504,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 96:2015/BTTTT; QCVN 55:2023/BTTTT",
     "nhom": "4.3",
     "phu_luc": "Phụ lục II"
    }
@@ -116566,7 +116534,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 77:2013/BTTTT",
     "nhom": "1.2.1",
     "phu_luc": "Phụ lục I"
    },
@@ -116580,7 +116548,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 29:2011/BTTTT",
     "nhom": "1.2.2",
     "phu_luc": "Phụ lục I"
    },
@@ -116594,7 +116562,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 30:2011/BTTTT",
     "nhom": "1.2.3",
     "phu_luc": "Phụ lục I"
    },
@@ -116608,7 +116576,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 70:2013/BTTTT",
     "nhom": "1.2.4",
     "phu_luc": "Phụ lục I"
    },
@@ -116622,7 +116590,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 92:2015/BTTTT; QCVN 93:2015/BTTTT",
     "nhom": "4.9",
     "phu_luc": "Phụ lục II"
    }
@@ -116652,7 +116620,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 92:2015/BTTTT; QCVN 93:2015/BTTTT",
     "nhom": "4.9",
     "phu_luc": "Phụ lục II"
    }
@@ -117240,7 +117208,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT; trừ thiết bị Ra đa dùng cho tàu thuyền đi biển và Ra đa thuộc loại thiết bị phát, thu-phát vô tuyến cự ly ngắn",
     "nhom": "1.3.1",
     "phu_luc": "Phụ lục I"
    },
@@ -117254,7 +117222,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 96:2015/BTTTT",
     "nhom": "2.5",
     "phu_luc": "Phụ lục I"
    },
@@ -117268,7 +117236,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.3.16",
     "phu_luc": "Phụ lục II"
    },
@@ -117282,7 +117250,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "3.8",
     "phu_luc": "Phụ lục II"
    },
@@ -117296,7 +117264,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 96:2015/BTTTT; QCVN 55:2023/BTTTT; QCVN 73:2013/BTTTT; QCVN 74:2020/BTTTT; QCVN 123:2021/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "4.2",
     "phu_luc": "Phụ lục II"
    },
@@ -117310,7 +117278,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 18:2022/BTTTT",
     "nhom": "4.4",
     "phu_luc": "Phụ lục II"
    },
@@ -117324,7 +117292,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 96:2015/BTTTT",
     "nhom": "4.6",
     "phu_luc": "Phụ lục II"
    },
@@ -117338,7 +117306,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 96:2015/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "4.11",
     "phu_luc": "Phụ lục II"
    }
@@ -117354,7 +117322,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT; trừ thiết bị Ra đa dùng cho tàu thuyền đi biển và Ra đa thuộc loại thiết bị phát, thu-phát vô tuyến cự ly ngắn",
     "nhom": "1.3.1",
     "phu_luc": "Phụ lục I"
    },
@@ -117368,7 +117336,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 96:2015/BTTTT",
     "nhom": "2.5",
     "phu_luc": "Phụ lục I"
    },
@@ -117382,7 +117350,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.3.16",
     "phu_luc": "Phụ lục II"
    },
@@ -117396,7 +117364,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "3.8",
     "phu_luc": "Phụ lục II"
    },
@@ -117410,7 +117378,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 96:2015/BTTTT; QCVN 55:2023/BTTTT; QCVN 73:2013/BTTTT; QCVN 74:2020/BTTTT; QCVN 123:2021/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "4.2",
     "phu_luc": "Phụ lục II"
    },
@@ -117424,7 +117392,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 18:2022/BTTTT",
     "nhom": "4.4",
     "phu_luc": "Phụ lục II"
    },
@@ -117438,7 +117406,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 96:2015/BTTTT",
     "nhom": "4.6",
     "phu_luc": "Phụ lục II"
    },
@@ -117452,7 +117420,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 96:2015/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "4.11",
     "phu_luc": "Phụ lục II"
    }
@@ -117482,7 +117450,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 57:2018/BTTTT; QCVN 47:2015/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.3.5",
     "phu_luc": "Phụ lục II"
    },
@@ -117496,7 +117464,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 108:2016/BTTTT; QCVN 47:2015/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.3.6",
     "phu_luc": "Phụ lục II"
    },
@@ -117510,7 +117478,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "3.3.7",
     "phu_luc": "Phụ lục II"
    },
@@ -117524,7 +117492,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 68:2013/BTTTT; QCVN 47:2015/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.3.11",
     "phu_luc": "Phụ lục II"
    },
@@ -117538,7 +117506,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 104:2016/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "3.4.3",
     "phu_luc": "Phụ lục II"
    },
@@ -117552,7 +117520,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.6",
     "phu_luc": "Phụ lục II"
    },
@@ -117566,7 +117534,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "3.8",
     "phu_luc": "Phụ lục II"
    }
@@ -117596,7 +117564,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 108:2016/BTTTT; QCVN 47:2015/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.3.6",
     "phu_luc": "Phụ lục II"
    },
@@ -117610,7 +117578,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT; QCVN 119:2019/BTTTT",
     "nhom": "3.6",
     "phu_luc": "Phụ lục II"
    },
@@ -117624,7 +117592,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "3.8",
     "phu_luc": "Phụ lục II"
    }
@@ -117654,7 +117622,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 96:2015/BTTTT; QCVN 55:2023/BTTTT; QCVN 73:2013/BTTTT; QCVN 74:2020/BTTTT; QCVN 47:2015/BTTTT",
     "nhom": "2.7",
     "phu_luc": "Phụ lục I"
    },
@@ -117668,7 +117636,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "3.8",
     "phu_luc": "Phụ lục II"
    },
@@ -117682,7 +117650,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 123:2021/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "4.2",
     "phu_luc": "Phụ lục II"
    },
@@ -117696,7 +117664,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 73:2013/BTTTT; QCVN 96:2015/BTTTT",
     "nhom": "4.6",
     "phu_luc": "Phụ lục II"
    },
@@ -117710,7 +117678,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 96:2015/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "4.11",
     "phu_luc": "Phụ lục II"
    }
@@ -117726,7 +117694,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 118:2018/BTTTT; QCVN 132:2022/BTTTT",
     "nhom": "2.3",
     "phu_luc": "Phụ lục II"
    },
@@ -117740,7 +117708,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 118:2018/BTTTT; QCVN 132:2022/BTTTT",
     "nhom": "2.4",
     "phu_luc": "Phụ lục II"
    }
@@ -117756,7 +117724,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 118:2018/BTTTT; QCVN 132:2022/BTTTT",
     "nhom": "2.3",
     "phu_luc": "Phụ lục II"
    },
@@ -117770,7 +117738,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 118:2018/BTTTT; QCVN 132:2022/BTTTT",
     "nhom": "2.4",
     "phu_luc": "Phụ lục II"
    }
@@ -117786,7 +117754,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 118:2018/BTTTT; trừ thiết bị giải mã tín hiệu truyền hình số vệ tinh DVB-S/S2",
     "nhom": "2.1",
     "phu_luc": "Phụ lục II"
    },
@@ -117800,7 +117768,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 118:2018/BTTTT",
     "nhom": "2.2",
     "phu_luc": "Phụ lục II"
    },
@@ -117814,7 +117782,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 118:2018/BTTTT; QCVN 132:2022/BTTTT",
     "nhom": "2.3",
     "phu_luc": "Phụ lục II"
    },
@@ -117828,7 +117796,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 118:2018/BTTTT; QCVN 132:2022/BTTTT",
     "nhom": "2.4",
     "phu_luc": "Phụ lục II"
    },
@@ -117842,7 +117810,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 63:2020/BTTTT; QCVN 118:2018/BTTTT",
     "nhom": "2.5",
     "phu_luc": "Phụ lục II"
    }
@@ -117858,7 +117826,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 118:2018/BTTTT; trừ thiết bị giải mã tín hiệu truyền hình số vệ tinh DVB-S/S2",
     "nhom": "2.1",
     "phu_luc": "Phụ lục II"
    },
@@ -117872,7 +117840,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 118:2018/BTTTT",
     "nhom": "2.2",
     "phu_luc": "Phụ lục II"
    },
@@ -117886,7 +117854,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 118:2018/BTTTT; QCVN 132:2022/BTTTT",
     "nhom": "2.3",
     "phu_luc": "Phụ lục II"
    },
@@ -117900,7 +117868,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 118:2018/BTTTT; QCVN 132:2022/BTTTT",
     "nhom": "2.4",
     "phu_luc": "Phụ lục II"
    },
@@ -117914,7 +117882,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 63:2020/BTTTT; QCVN 118:2018/BTTTT",
     "nhom": "2.5",
     "phu_luc": "Phụ lục II"
    }
@@ -117944,7 +117912,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 63:2020/BTTTT; QCVN 118:2018/BTTTT; QCVN 132:2022/BTTTT",
     "nhom": "2.6",
     "phu_luc": "Phụ lục II"
    }
@@ -117974,7 +117942,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 63:2020/BTTTT; QCVN 118:2018/BTTTT; QCVN 132:2022/BTTTT",
     "nhom": "2.6",
     "phu_luc": "Phụ lục II"
    }
@@ -118064,7 +118032,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "1.1.10",
     "phu_luc": "Phụ lục I"
    }
@@ -118126,7 +118094,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT; QCVN 18:2022/BTTTT",
     "nhom": "1.1.10",
     "phu_luc": "Phụ lục I"
    }
@@ -118398,7 +118366,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 25:2025/BKHCN",
     "nhom": "6.1",
     "phu_luc": "Phụ lục I"
    }
@@ -118428,7 +118396,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 25:2025/BKHCN",
     "nhom": "6.1",
     "phu_luc": "Phụ lục I"
    }
@@ -118444,7 +118412,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 25:2025/BKHCN",
     "nhom": "6.1",
     "phu_luc": "Phụ lục I"
    }
@@ -118476,7 +118444,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 25:2025/BKHCN",
     "nhom": "6.1",
     "phu_luc": "Phụ lục I"
    }
@@ -118492,7 +118460,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 25:2025/BKHCN",
     "nhom": "6.1",
     "phu_luc": "Phụ lục I"
    }
@@ -118636,7 +118604,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 25:2025/BKHCN",
     "nhom": "6.2",
     "phu_luc": "Phụ lục I"
    },
@@ -118650,7 +118618,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 25:2025/BKHCN",
     "nhom": "10",
     "phu_luc": "Phụ lục II"
    }
@@ -118666,8 +118634,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 25:2025/BKHCN",
+    "nhom": "10",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -118682,8 +118650,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 25:2025/BKHCN",
+    "nhom": "10",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -118728,8 +118696,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 25:2025/BKHCN",
+    "nhom": "10",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -118744,8 +118712,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 25:2025/BKHCN",
+    "nhom": "10",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -119114,7 +119082,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 19:2025/BKHCN",
     "nhom": "7.1",
     "phu_luc": "Phụ lục II"
    }
@@ -119144,7 +119112,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 19:2025/BKHCN",
     "nhom": "7.1",
     "phu_luc": "Phụ lục II"
    },
@@ -119158,7 +119126,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 19:2025/BKHCN",
     "nhom": "7.2",
     "phu_luc": "Phụ lục II"
    }
@@ -119204,7 +119172,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN",
     "nhom": "3.2",
     "phu_luc": "Phụ lục I"
    }
@@ -119248,7 +119216,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 72:2013/BTTTT",
     "nhom": "2.7",
     "phu_luc": "Phụ lục II"
    }
@@ -119594,8 +119562,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 25:2025/BKHCN",
+    "nhom": "10",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -119638,8 +119606,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 25:2025/BKHCN",
+    "nhom": "10",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -119712,8 +119680,8 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
-    "nhom": "7",
+    "dieu_kien": "QCVN 25:2025/BKHCN",
+    "nhom": "10",
     "phu_luc": "Phụ lục II"
    }
   ],
@@ -120216,7 +120184,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "5.1",
     "phu_luc": "Phụ lục I"
    },
@@ -120230,7 +120198,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "5.2",
     "phu_luc": "Phụ lục I"
    },
@@ -120244,7 +120212,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "8.10",
     "phu_luc": "Phụ lục II"
    }
@@ -120260,7 +120228,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "5.1",
     "phu_luc": "Phụ lục I"
    },
@@ -120274,7 +120242,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "5.2",
     "phu_luc": "Phụ lục I"
    },
@@ -120288,7 +120256,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 4:2009/BKHCN",
     "nhom": "8.10",
     "phu_luc": "Phụ lục II"
    }
@@ -121136,7 +121104,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 54:2020/BTTTT; QCVN 112:2017/BTTTT",
     "nhom": "2.2",
     "phu_luc": "Phụ lục I"
    },
@@ -121150,7 +121118,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 65:2021/BTTTT; QCVN 112:2017/BTTTT",
     "nhom": "2.3",
     "phu_luc": "Phụ lục I"
    }
@@ -121166,7 +121134,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 54:2020/BTTTT; QCVN 112:2017/BTTTT",
     "nhom": "2.2",
     "phu_luc": "Phụ lục I"
    },
@@ -121180,7 +121148,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 65:2021/BTTTT; QCVN 112:2017/BTTTT",
     "nhom": "2.3",
     "phu_luc": "Phụ lục I"
    }
@@ -121196,7 +121164,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 54:2020/BTTTT; QCVN 112:2017/BTTTT",
     "nhom": "2.2",
     "phu_luc": "Phụ lục I"
    },
@@ -121210,7 +121178,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 65:2021/BTTTT; QCVN 112:2017/BTTTT",
     "nhom": "2.3",
     "phu_luc": "Phụ lục I"
    }
@@ -121226,7 +121194,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 54:2020/BTTTT; QCVN 112:2017/BTTTT",
     "nhom": "2.2",
     "phu_luc": "Phụ lục I"
    },
@@ -121240,7 +121208,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 65:2021/BTTTT; QCVN 112:2017/BTTTT",
     "nhom": "2.3",
     "phu_luc": "Phụ lục I"
    }
@@ -121256,7 +121224,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 54:2020/BTTTT; QCVN 112:2017/BTTTT",
     "nhom": "2.2",
     "phu_luc": "Phụ lục I"
    },
@@ -121270,7 +121238,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 65:2021/BTTTT; QCVN 112:2017/BTTTT",
     "nhom": "2.3",
     "phu_luc": "Phụ lục I"
    }
@@ -121814,7 +121782,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 122:2020/BTTTT",
     "nhom": "1.1.10",
     "phu_luc": "Phụ lục I"
    }
@@ -122368,7 +122336,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN; QCVN 12:2016/BKHCN",
     "nhom": "3.3",
     "phu_luc": "Phụ lục I"
    }
@@ -122414,7 +122382,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN; QCVN 13:2017/BKHCN",
     "nhom": "3.1",
     "phu_luc": "Phụ lục I"
    },
@@ -122428,7 +122396,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN; QCVN 11:2015/BKHCN; QCVN 15:2018/BKHCN; QCVN 16:2018/BKHCN; QCVN 17:2018/BKHCN; QCVN 21:2019/BKHCN; QCVN 24:2023/BKHCN; trừ thiết bị chụp cắt lớp vi tính",
     "nhom": "1",
     "phu_luc": "Phụ lục II"
    }
@@ -122444,7 +122412,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN",
     "nhom": "2",
     "phu_luc": "Phụ lục II"
    }
@@ -122460,7 +122428,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN",
     "nhom": "3.4",
     "phu_luc": "Phụ lục I"
    },
@@ -122474,7 +122442,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN",
     "nhom": "2",
     "phu_luc": "Phụ lục II"
    }
@@ -122504,7 +122472,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN; QCVN 13:2017/BKHCN",
     "nhom": "3.1",
     "phu_luc": "Phụ lục I"
    }
@@ -122520,7 +122488,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 5:2010/BKHCN",
     "nhom": "2",
     "phu_luc": "Phụ lục II"
    }
@@ -122566,7 +122534,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 122:2020/BTTTT; QCVN 18:2022/BTTTT; QCVN 47:2015/BTTTT; QCVN 131:2022/BTTTT; QCVN 86:2025/BTTTT",
     "nhom": "1.1.10",
     "phu_luc": "Phụ lục I"
    }
@@ -122582,7 +122550,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 47:2015/BTTTT",
     "nhom": "1.1.10",
     "phu_luc": "Phụ lục I"
    }
@@ -122662,7 +122630,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 18:2022/BTTTT",
     "nhom": "1.1.10",
     "phu_luc": "Phụ lục I"
    }
@@ -123894,7 +123862,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 19:2025/BKHCN",
     "nhom": "7.3",
     "phu_luc": "Phụ lục II"
    }
@@ -123938,7 +123906,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 19:2025/BKHCN",
     "nhom": "7.3",
     "phu_luc": "Phụ lục II"
    }
@@ -124144,7 +124112,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CONG_BO_HOP_QUY",
     "muc_rui_ro": "TRUNG_BINH",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 19:2025/BKHCN",
     "nhom": "7.3",
     "phu_luc": "Phụ lục II"
    }
@@ -124560,7 +124528,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 3:2019/BKHCN",
     "nhom": "3.1",
     "phu_luc": "Phụ lục I"
    }
@@ -124576,7 +124544,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 3:2019/BKHCN",
     "nhom": "3.2",
     "phu_luc": "Phụ lục I"
    }
@@ -124592,7 +124560,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 3:2019/BKHCN",
     "nhom": "3.3",
     "phu_luc": "Phụ lục I"
    }
@@ -124608,7 +124576,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 3:2019/BKHCN",
     "nhom": "3.4",
     "phu_luc": "Phụ lục I"
    }
@@ -124624,7 +124592,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 3:2019/BKHCN",
     "nhom": "3.5",
     "phu_luc": "Phụ lục I"
    }
@@ -124640,7 +124608,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 3:2019/BKHCN",
     "nhom": "3.6",
     "phu_luc": "Phụ lục I"
    }
@@ -124656,7 +124624,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 3:2019/BKHCN; trừ nhựa (plastic)",
     "nhom": "3.7",
     "phu_luc": "Phụ lục I"
    }
@@ -124672,7 +124640,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 3:2019/BKHCN",
     "nhom": "3.8",
     "phu_luc": "Phụ lục I"
    }
@@ -124688,7 +124656,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 3:2019/BKHCN",
     "nhom": "3.9",
     "phu_luc": "Phụ lục I"
    }
@@ -124704,7 +124672,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 3:2019/BKHCN",
     "nhom": "3.10",
     "phu_luc": "Phụ lục I"
    }
@@ -124720,7 +124688,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 3:2019/BKHCN",
     "nhom": "3.11",
     "phu_luc": "Phụ lục I"
    }
@@ -124736,7 +124704,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 3:2019/BKHCN",
     "nhom": "3.12",
     "phu_luc": "Phụ lục I"
    }
@@ -124752,7 +124720,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 3:2019/BKHCN",
     "nhom": "3.13",
     "phu_luc": "Phụ lục I"
    }
@@ -124768,7 +124736,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": "CAO",
-    "dieu_kien": null,
+    "dieu_kien": "QCVN 3:2019/BKHCN",
     "nhom": "3.14",
     "phu_luc": "Phụ lục I"
    }
