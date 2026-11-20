@@ -5,7 +5,7 @@
  "luoc_do": "docs/luoc-do-danh-muc-hs.md",
  "cach_tra": "Khoá là nhóm mã HS trong bảng (4, 6 hoặc 8 số). Tra mã 8 số: ghép mọi khoá là tiền tố của mã (độ dài 4, 6) và khoá trùng 8 số. Cạnh giữ nguyên dieu_kien — \"trừ loại…\" là trừ diện, không phải diện áp. canh_bao_ma = nhóm mã không có trong biểu thuế đối chiếu — tra ra các khoá này thì dừng và đối chiếu lại văn bản gốc, đừng kết luận diện áp. tien_le_tb_tchq = mật độ thông báo phân loại của Tổng cục (bậc C, tham khảo).",
  "tong_nhom_ma": 6644,
- "tong_canh": 13787,
+ "tong_canh": 13871,
  "bieu_thue_doi_chieu": {
   "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/tax.json",
   "phien_ban": "2026-11-13",
@@ -49,6 +49,7 @@
   "36030090",
   "39042099",
   "39072090",
+  "40151900",
   "40199999",
   "42032100",
   "44129990",
@@ -121,7 +122,6 @@
   "72279000",
   "84188610",
   "84433249",
-  "84501200",
   "84789010",
   "84798939",
   "84798940",
@@ -9373,20 +9373,6 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
-   },
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
    }
   ],
   "4016": [
@@ -10315,22 +10301,6 @@
     "dieu_kien": "Mặt hàng ĐÃ ĐƯỢC CẮT GIẢM kiểm tra chuyên ngành theo QĐ 765/QĐ-BCT (2019) — không phải nghĩa vụ kiểm tra; mã theo biểu thuế 2018",
     "nhom": "Phụ lục",
     "phu_luc": "Phụ lục"
-   }
-  ],
-  "5113": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
    }
   ],
   "5202": [
@@ -12269,54 +12239,6 @@
     "phu_luc": "Phụ lục"
    }
   ],
-  "6307": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "6308": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "6309": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
   "6404": [
    {
     "so_hieu": "765/QĐ-BCT",
@@ -12409,22 +12331,6 @@
     "phu_luc": "Phụ lục I"
    }
   ],
-  "6602": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
   "6702": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -12439,22 +12345,6 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
-   }
-  ],
-  "6703": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
    }
   ],
   "6704": [
@@ -12593,22 +12483,6 @@
     "phu_luc": "Phụ lục"
    }
   ],
-  "6912": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
   "6913": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -12699,20 +12573,6 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
-   },
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
    }
   ],
   "7204": [
@@ -13321,22 +13181,6 @@
     "phu_luc": "Phụ lục"
    }
   ],
-  "8211": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
   "8212": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -13352,22 +13196,6 @@
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "8214": [
    {
     "so_hieu": "08/2023/TT-BCT",
     "slug": "08-2023-tt-bct",
@@ -13427,22 +13255,6 @@
     "phu_luc": "Phụ lục"
    }
   ],
-  "8301": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
   "8302": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -13490,20 +13302,6 @@
    }
   ],
   "8415": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   },
    {
     "so_hieu": "31/2026/QĐ-TTg",
     "slug": "31-2026-qd-ttg",
@@ -13563,20 +13361,6 @@
     "dieu_kien": "trừ lò luyện, nung, sấy và các thiết bị khác thuộc nhóm 85.14",
     "nhom": null,
     "phu_luc": "Phụ lục II"
-   },
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
    }
   ],
   "8421": [
@@ -13596,22 +13380,6 @@
    }
   ],
   "8422": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "8423": [
    {
     "so_hieu": "08/2023/TT-BCT",
     "slug": "08-2023-tt-bct",
@@ -13689,38 +13457,6 @@
     "phu_luc": "Phụ lục II"
    }
   ],
-  "8451": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "8452": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
   "8470": [
    {
     "so_hieu": "11/2018/TT-BTTTT",
@@ -13752,20 +13488,6 @@
    }
   ],
   "8471": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   },
    {
     "so_hieu": "11/2018/TT-BTTTT",
     "slug": "11-2018-tt-btttt",
@@ -13839,22 +13561,6 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục"
-   }
-  ],
-  "8508": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
    }
   ],
   "8509": [
@@ -14831,22 +14537,6 @@
     "phu_luc": "Phụ lục"
    }
   ],
-  "9401": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
   "9403": [
    {
     "so_hieu": "01/2024/TT-BNNPTNT",
@@ -14861,20 +14551,6 @@
     "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
     "nhom": "Mục 21",
     "phu_luc": "Phụ lục I"
-   },
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
    }
   ],
   "9404": [
@@ -14921,22 +14597,6 @@
     "phu_luc": "Phụ lục"
    }
   ],
-  "9405": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
   "9504": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -14968,38 +14628,6 @@
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "9603": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "9605": [
    {
     "so_hieu": "08/2023/TT-BCT",
     "slug": "08-2023-tt-bct",
@@ -15122,22 +14750,6 @@
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "9617": [
    {
     "so_hieu": "08/2023/TT-BCT",
     "slug": "08-2023-tt-bct",
@@ -20195,6 +19807,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "430390": [
@@ -22113,6 +21739,22 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   }
+  ],
+  "482390": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "500710": [
@@ -24931,6 +24573,20 @@
     "phu_luc": "Phụ lục I"
    },
    {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   },
+   {
     "so_hieu": "765/QĐ-BCT",
     "slug": "765-qd-bct-2019",
     "ten": "Về việc công bố Danh mục các mặt hàng (kèm theo mã HS) đã được cắt giảm kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
@@ -24975,6 +24631,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "680100": [
@@ -25007,6 +24677,22 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục"
+   }
+  ],
+  "711719": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "720827": [
@@ -25389,6 +25075,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "840211": [
@@ -25595,6 +25295,20 @@
     "phu_luc": "Phụ lục I"
    },
    {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   },
+   {
     "so_hieu": "16/2026/TT-BNV",
     "slug": "16-2026-tt-bnv",
     "ten": "Quy định Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Nội vụ",
@@ -25625,6 +25339,20 @@
     "phu_luc": "Phụ lục I"
    },
    {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   },
+   {
     "so_hieu": "16/2026/TT-BNV",
     "slug": "16-2026-tt-bnv",
     "ten": "Quy định Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Nội vụ",
@@ -25653,6 +25381,36 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   }
+  ],
+  "841590": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "841821": [
@@ -25701,6 +25459,52 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   }
+  ],
+  "841911": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   }
+  ],
+  "841919": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "841981": [
@@ -25717,6 +25521,36 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   }
+  ],
+  "842121": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "842129": [
@@ -25749,6 +25583,36 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   }
+  ],
+  "842290": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "842310": [
@@ -25765,6 +25629,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "842381": [
@@ -25781,6 +25659,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "842549": [
@@ -25879,6 +25771,38 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "845090": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   }
+  ],
+  "845130": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   }
+  ],
   "847130": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -25907,6 +25831,38 @@
     "dieu_kien": "Mặt hàng thuộc danh mục kiểm tra hiệu suất năng lượng và dán nhãn năng lượng theo Điều 1 QĐ 1725/QĐ-BCT (thay Phụ lục II QĐ 1182/QĐ-BCT)",
     "nhom": null,
     "phu_luc": "Phụ lục"
+   }
+  ],
+  "847160": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   }
+  ],
+  "847170": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "848180": [
@@ -25973,6 +25929,22 @@
     "phu_luc": "Phụ lục V"
    }
   ],
+  "850870": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   }
+  ],
   "851610": [
    {
     "so_hieu": "1725/QĐ-BCT",
@@ -26021,6 +25993,22 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "851830": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   }
+  ],
   "851840": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -26035,6 +26023,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "851850": [
@@ -26067,6 +26069,36 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   }
+  ],
+  "851981": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "852581": [
@@ -26149,6 +26181,54 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "853922": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   }
+  ],
+  "853929": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   }
+  ],
+  "853931": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   }
+  ],
   "853939": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -26163,6 +26243,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "890110": [
@@ -26273,6 +26367,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "940179": [
@@ -26289,6 +26397,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "940320": [
@@ -26305,6 +26427,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "940360": [
@@ -26335,6 +26471,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "940370": [
@@ -26351,6 +26501,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "940389": [
@@ -26367,6 +26531,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "940421": [
@@ -26431,6 +26609,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "10011100": [
@@ -65781,6 +65973,22 @@
     "phu_luc": "Phụ lục"
    }
   ],
+  "40151900": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   }
+  ],
   "40169991": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -65795,6 +66003,36 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   }
+  ],
+  "40169999": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "40199999": [
@@ -73521,6 +73759,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "48236900": [
@@ -73537,6 +73789,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "48239070": [
@@ -73553,6 +73819,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "48239092": [
@@ -74665,6 +74945,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    },
    {
     "so_hieu": "33/2026/TT-BCT",
@@ -99005,6 +99299,20 @@
     "phu_luc": "Phụ lục I"
    },
    {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   },
+   {
     "so_hieu": "33/2026/TT-BCT",
     "slug": "33-2026-tt-bct",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -99047,6 +99355,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "64011000": [
@@ -99555,6 +99877,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "65069990": [
@@ -99587,6 +99923,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "67030000": [
@@ -99603,6 +99953,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    },
    {
     "so_hieu": "765/QĐ-BCT",
@@ -100175,6 +100539,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "70010000": [
@@ -105613,6 +105991,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "82142000": [
@@ -105629,6 +106021,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "83013000": [
@@ -105661,6 +106067,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "83025000": [
@@ -105677,6 +106097,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "84011000": [
@@ -106959,6 +107393,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "84181031": [
@@ -107431,6 +107879,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "84191910": [
@@ -107447,6 +107909,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "84192000": [
@@ -107511,6 +107987,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    },
    {
     "so_hieu": "36/2026/TT-BKHCN",
@@ -107589,6 +108079,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "84232010": [
@@ -110585,22 +111089,6 @@
     "phu_luc": "Phụ lục II"
    }
   ],
-  "84501200": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
   "84501210": [
    {
     "so_hieu": "1725/QĐ-BCT",
@@ -110767,6 +111255,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "84513010": [
@@ -110783,6 +111285,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "84521000": [
@@ -110799,6 +111315,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "84672100": [
@@ -115833,6 +116363,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "85094000": [
@@ -118465,6 +119009,20 @@
     "phu_luc": "Phụ lục I"
    },
    {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   },
+   {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
@@ -118493,6 +119051,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    },
    {
     "so_hieu": "36/2026/TT-BKHCN",
@@ -118525,6 +119097,20 @@
     "phu_luc": "Phụ lục I"
    },
    {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   },
+   {
     "so_hieu": "36/2026/TT-BKHCN",
     "slug": "36-2026-tt-bkhcn",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
@@ -118553,6 +119139,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    },
    {
     "so_hieu": "36/2026/TT-BKHCN",
@@ -118599,6 +119199,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "85198110": [
@@ -118615,6 +119229,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "85198120": [
@@ -118631,6 +119259,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "85198130": [
@@ -118647,6 +119289,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "85198149": [
@@ -118663,6 +119319,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "85198169": [
@@ -118679,6 +119349,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "85198179": [
@@ -118695,6 +119379,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "85198199": [
@@ -118711,6 +119409,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "85235111": [
@@ -121267,6 +121979,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "85392292": [
@@ -121299,6 +122025,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "85392299": [
@@ -121315,6 +122055,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "85392950": [
@@ -121331,6 +122085,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "85393110": [
@@ -169265,6 +170033,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "94013900": [
@@ -169281,6 +170063,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "94014100": [
@@ -169297,6 +170093,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "94014900": [
@@ -169313,6 +170123,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "94015200": [
@@ -169329,6 +170153,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "94015300": [
@@ -169345,6 +170183,36 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   }
+  ],
+  "94015900": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "94016100": [
@@ -169375,6 +170243,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "94016910": [
@@ -169423,6 +170305,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    },
    {
     "so_hieu": "49/2026/TT-BXD",
@@ -169485,6 +170381,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    },
    {
     "so_hieu": "49/2026/TT-BXD",
@@ -169627,6 +170537,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "94033000": [
@@ -169657,6 +170581,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    },
    {
     "so_hieu": "34/2025/TT-BCT",
@@ -169703,6 +170641,20 @@
     "phu_luc": "Phụ lục I"
    },
    {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   },
+   {
     "so_hieu": "34/2025/TT-BCT",
     "slug": "34-2025-tt-bct",
     "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 02/2018/TT-BCT ngày 27/02/2018 của Bộ trưởng Bộ Công Thương quy định chi tiết Danh mục hàng hóa mua bán, trao đổi của cư dân biên giới",
@@ -169747,6 +170699,20 @@
     "phu_luc": "Phụ lục I"
    },
    {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   },
+   {
     "so_hieu": "34/2025/TT-BCT",
     "slug": "34-2025-tt-bct",
     "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 02/2018/TT-BCT ngày 27/02/2018 của Bộ trưởng Bộ Công Thương quy định chi tiết Danh mục hàng hóa mua bán, trao đổi của cư dân biên giới",
@@ -169777,6 +170743,20 @@
     "phu_luc": "Phụ lục I"
    },
    {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   },
+   {
     "so_hieu": "34/2025/TT-BCT",
     "slug": "34-2025-tt-bct",
     "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 02/2018/TT-BCT ngày 27/02/2018 của Bộ trưởng Bộ Công Thương quy định chi tiết Danh mục hàng hóa mua bán, trao đổi của cư dân biên giới",
@@ -169805,6 +170785,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    },
    {
     "so_hieu": "34/2025/TT-BCT",
@@ -170237,6 +171231,20 @@
     "phu_luc": "Phụ lục I"
    },
    {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   },
+   {
     "so_hieu": "125/2026/TT-BCA",
     "slug": "125-2026-tt-bca",
     "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Công an",
@@ -170279,6 +171287,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    },
    {
     "so_hieu": "125/2026/TT-BCA",
@@ -170341,6 +171363,20 @@
     "phu_luc": "Phụ lục I"
    },
    {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   },
+   {
     "so_hieu": "19/2024/TT-BYT",
     "slug": "19-2024-tt-byt",
     "ten": "Ban hành Danh mục thiết bị y tế xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
@@ -170401,6 +171437,20 @@
     "phu_luc": "Phụ lục I"
    },
    {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
+   },
+   {
     "so_hieu": "19/2024/TT-BYT",
     "slug": "19-2024-tt-byt",
     "ten": "Ban hành Danh mục thiết bị y tế xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
@@ -170429,6 +171479,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "94053900": [
@@ -170445,6 +171509,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "94054020": [
@@ -170573,6 +171651,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "94055019": [
@@ -170589,6 +171681,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "94055040": [
@@ -170605,6 +171711,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "94055090": [
@@ -170621,6 +171741,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "94056090": [
@@ -171005,6 +172139,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "96039010": [
@@ -171037,6 +172185,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "96170010": [
@@ -171053,6 +172215,20 @@
     "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục II"
    }
   ],
   "96190011": [
