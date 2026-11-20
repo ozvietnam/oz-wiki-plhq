@@ -20,6 +20,10 @@ KHÔNG có quy tắc hỗn hợp trong văn bản — PL I liệt kê hoá chấ
 
 **CHƯA TÌM ĐƯỢC nguyên văn** quy tắc hỗn hợp — cần đọc kỹ phần đầu PL II / thân NĐ (trang 1–12). Giả thuyết đang kiểm: hỗn hợp chứa thành phần thuộc danh mục với hàm lượng trên 5% khối lượng thì quản lý như hoá chất có điều kiện. Sẽ chép **nguyên văn điều khoản + trang** vào đây ngay khi tìm được.
 
+### Phụ lục III — băng rôn tại trang 85 (nhóm 1–2), Phụ lục IV — băng rôn tại trang 87 (chưa chắc)
+
+**CHƯA TÌM ĐƯỢC nguyên văn** quy tắc hỗn hợp. Chỗ khả dĩ: dòng ghi chú ngay dưới băng rôn p85 (đã dựng ảnh `/tmp/nd24/pl85-n1.png`, `pl85-notes.png` — chưa phiên dịch xong) và thân NĐ trang 1–12. Sẽ chép **nguyên văn + trang** ngay khi đọc được.
+
 ## Bản đồ tài liệu (đã dò bằng ảnh, độ phân giải cao)
 
 | Phần | Trang PDF | Trạng thái |
@@ -29,7 +33,12 @@ KHÔNG có quy tắc hỗn hợp trong văn bản — PL I liệt kê hoá chấ
 | Bảng TT 1–33 (thuốc BVTV?) | 15–16 | đã nạp 21 dòng |
 | Bảng TT 34 trở đi (lặp alphabet từ B) | 17 | đã nạp 4 dòng (TT 34–37) |
 | Khối băng rôn lớn (chưa đọc được chữ) | 18 | ranh giới phụ lục — XEM CẢNH BÁO dưới |
-| Băng rôn con 8 mục (chưa xác minh) | ~26, 30, 56, 64, 71, 79, 85 | cần đọc để tách mục |
+| Băng rôn con của PL II (chưa xác minh) | ~26, 30, 56, 64, 71, 79 | cần đọc để tách mục |
+| **PHỤ LỤC III — băng rôn đọc được chữ "PHỤ LỤC III"** | **85** trở đi | ✅ xác nhận lượt OZV-1584: PL II kết thúc ≤ trang 84; nhóm 1/2 chưa tách, chưa nạp dòng |
+| Băng rôn chữ "PHỤ LỤC" + số La Mã (khả năng IV, **chưa chắc**) | 87 | cần soát lại ở zoom cao trước khi ghi nhận |
+| Đoạn cuối | 88 | chưa đọc |
+
+**Ghi chú kỹ thuật lượt OZV-1584 (đọc scan):** dò dòng bằng row-darkness bị dính khối vì **viền dọc của bảng** làm mọi hàng đều "tối" — phải **loại cột viền dọc** (cột tối ở >50% chiều cao vùng xét) trước khi dò hàng; sau đó cắt từng dòng theo bbox mực, **chia đoạn 700 px** (≈ đọc ở ~4,85× zoom gốc PDF), **xếp dọc + đệm trắng** (cao ≥ 2,95× rộng) thì công cụ đọc ảnh mới hiển thị (ảnh tỉ lệ ngang/vuông không hiển thị). Script tái dùng: `/tmp/nd24/strip.js` (đã vá vcol) + render sẵn `/tmp/nd24/hi85/p85–p88.png` (scale 5). Lưu ý `/tmp` có thể bị xoá giữa các lượt — render lại bằng `/tmp/nd24/render.js`.
 
 ## CẢNH BÁO cấu trúc (lượt 3/3, cần quyết trước khi nạp tiếp)
 
@@ -39,6 +48,7 @@ KHÔNG có quy tắc hỗn hợp trong văn bản — PL I liệt kê hoá chấ
 
 ## Trạng thái nạp dữ liệu
 
+- **PL III (trang 85 trở đi) + PL IV (trang 87 trở đi, chưa chắc):** lượt OZV-1584 mới **xác nhận được băng rôn "PHỤ LỤC III" ở trang 85** (đọc trực tiếp chữ in, không suy đoán); **chưa nạp dòng nào** — bảng bắt đầu ~y1350 trang 85 trở xuống, cần đọc tiếp theo kỹ thuật strip 700 px ở trên. Khi nạp: thêm cột `nhom` (PL III nhóm 1/2) vào cuối header, để trống cho các dòng cũ.
 - PL I: **10/10 dòng — HOÀN TẤT** (trang 14; bảng in PL I không có cột CAS, số CAS tra từ cơ sở dữ liệu CAS công khai, đã checksum — xem ghi chú lượt 1 trong lịch sử git).
 - Khối p15–17 (tạm ghi `phu_luc=II, muc=1`): **25 dòng** (21 dòng lượt 2 + 4 dòng TT 34–37 lượt 3). Cột `muc` tạm ghi 1 cho mọi dòng — **chưa xác minh ranh giới mục**; xem CẢNH BÁO cấu trúc trên.
 - **Dòng biết còn thiếu ngay trong phần đã quét** (tên/CAS chưa đọc rõ, KHÔNG bịa): STT 6, 7, 8, 14, 15, 16, 17, 18, 21, 22 (trang 15); STT 29, 32 (trang 16); STT 38 trở đi (trang 17).
