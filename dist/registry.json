@@ -1,5 +1,5 @@
 {
-  "phien_ban": "2026-11-19",
+  "phien_ban": "2026-11-20",
   "luoc_do_phien_ban": "1.4.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
   "tong": 2835,
@@ -3227,7 +3227,6 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nghị định quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Ban Cơ yếu Chính phủ; được dẫn chiếu làm căn cứ ban hành Thông tư 126/2026/TT-BQP về danh mục sản phẩm mật mã dân sự có mức độ rủi ro cao.",
-      "toan_van": "raw/download/vbpl.vn/09-2014-nd-cp.html",
       "slug": "09-2014-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -10256,7 +10255,7 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Hợp nhất Thông tư 63/2012/TT-BNNPTNT (ban hành QCVN về Kiểm dịch và Bảo vệ thực vật: còn hiệu lực 6 quy chuẩn QCVN 01-112 đến 01-117:2012/BNNPTNT), Thông tư 15/2023/TT-BNNPTNT và Thông tư 12/2025/TT-BNNMT.",
-      "toan_van": "raw/download/vanban.chinhphu.vn/115-2026-vbhn-tt-bnnmt.html",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/115-2026-vbhn-tt-bnnmt.pdf",
       "slug": "115-2026-vbhn-tt-bnnmt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -14353,32 +14352,43 @@
     },
     {
       "so_hieu": "12578/TB-CHQ/2026",
+      "so_hieu_khac": [
+        "578/TB-CHQ",
+        "578/TB-CHQ/2026"
+      ],
       "loai": "THONG_BAO",
-      "ten": "Phân loại mã HS theo tracuuhs.com (4202.92.90)",
-      "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2026-01-01",
-      "hieu_luc_tu": "2026-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ten": "Thông báo xác định trước mã số Công ty TNHH Công nghệ Lens Việt Nam (ốp lưng iPad 12, nhóm 4202.92.90)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2026-01-07",
+      "hieu_luc_tu": "2026-01-07",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-CHQ 12578/2026",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu bản ghi crawl Cổng Hải quan (data/customs/processed/all-1990-2026.csv, dòng stt=1045, crawled_at 08-10-2026) với PDF gốc trên files.customs.gov.vn (6.VB_578.pdf, tải 20-11-2026, bản scan ký số không trích text được): bản ghi tracuuhs.com \"chq-578-2026\" ghép tiêu đề \"Ốp lưng iPad 12\" với số hiệu thành 12578/TB-CHQ/2026; số hiệu đúng theo Cổng Hải quan là 578/TB-CHQ ngày 07-01-2026 do Cục Hải quan ban hành, người ký Đào Thu Hương, nội dung Thông báo xác định trước mã số hàng hóa cho Công ty TNHH Công nghệ Lens Việt Nam, nhóm HS 4202.92.90; còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-20",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=102345&cid=1294",
+          "truy_cap": "2026-11-20"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/1/14/6.VB_578.pdf",
+          "truy_cap": "2026-11-20"
+        },
         {
           "url": "https://www.tracuuhs.com/tin-tuc/chq-578-2026",
           "truy_cap": "2025-12-17"
         }
       ],
-      "toan_van": "chua_co",
+      "toan_van": "raw/download/files.customs.gov.vn/12578-tb-chq-2026.pdf",
       "slug": "12578-tb-chq-2026",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -18565,6 +18575,10 @@
         {
           "url": "https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Nghi-dinh-143-2026-ND-CP-bieu-thue-nhap-khau-uu-dai-dac-biet-Hiep-dinh-Tieu-vuong-quoc-A-rap-Thong-nhat-704557.aspx",
           "truy_cap": "2026-11-19"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/143-ndcp.signed.pdf",
+          "truy_cap": "2026-11-20"
         }
       ],
       "xac_minh": {
@@ -18575,6 +18589,7 @@
         "boi": "zcode@ozvietnam"
       },
       "ghi_chu": "Trinh thám đêm 19/11 — THIẾU HỤT LỚN: FTA Việt Nam–UAE (CEPA) hiệu lực từ 05-05-2026 mà sổ chưa có biểu thuế ưu đãi. Dùng ngay cho khách giao UAE/Qatar. Cần nạp biểu thuế chi tiết + quy tắc xuất xứ CEPA.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/143-2026-nd-cp.pdf",
       "slug": "143-2026-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -26661,7 +26676,6 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Nghị quyết của Chính phủ phê duyệt Hiệp định RCEP (ký ngày 15-11-2020, có hiệu lực từ 01-01-2022); là căn cứ trực tiếp của Quyết định 01/QĐ-TTg và Quyết định 328/QĐ-TTg năm 2022.",
-      "toan_van": "raw/download/vanban.chinhphu.vn/18-nq-cp.html",
       "slug": "18-nq-cp-2021",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -38408,6 +38422,7 @@
         }
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 19 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + thuvienxuatnhapkhau.com). GHI CHÚ NGHIỆP VỤ (hs-code-api): Index năm 2018 = bảng mã HS phương tiện đo nhóm 2 (XNK). Có QĐ 2284/QĐ-BKHCN năm 2013 về công bố TCVN trang sức — KHÔNG nhầm số hiệu. Danh mục đo lường nhóm 2 đã được TT 03/2024/TT-BKHCN cập nhật từ 15/10/2024. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.",
+      "toan_van": "raw/download/vntr.moit.gov.vn/2284-qd-bkhcn.pdf",
       "slug": "2284-qd-bkhcn",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -78729,7 +78744,6 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Quyết định của Chủ tịch nước về việc Việt Nam tham gia Công ước quốc tế về Hệ thống hài hòa mô tả và mã hóa hàng hóa (Công ước HS) ngày 06-03-1998.",
-      "toan_van": "raw/download/vbpl.vn/49-qd-ctn.html",
       "slug": "49-qd-ctn-1998",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -104863,14 +104877,13 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_A",
-        "pham_vi": "Đối chiếu toàn văn thông báo chính thức của Cục Xuất nhập khẩu — Bộ Công Thương trên Cổng TTĐT Bộ Công Thương (moit.gov.vn, tiếp nhận ngày 02-11-2026): công văn số 910/SPS-BNNMT ngày 30-10-2026 của Văn phòng SPS Việt Nam (Bộ Nông nghiệp và Môi trường) thông tin quy định mới của Trung Quốc (Thông báo số 150 của Tổng cục Hải quan Trung Quốc GACC) đối với đăng ký doanh nghiệp xuất khẩu, nhập khẩu thực phẩm (đơn giản hóa mẫu đăng ký tại Phụ lục 1 từ 20 xuống 10 mục; thời hạn giải quyết 03 ngày làm việc theo Điều 6; nộp qua Cổng một cửa thương mại quốc tế hoặc Cổng dịch vụ công Hải quan Trung Quốc, công bố tại credit.customs.gov.cn; thời hạn thông báo thay đổi thông tin 60 ngày; các trường hợp hủy đăng ký theo Điều 8); đang còn hiệu lực",
-        "hieu_luc_da_doi_chieu": true,
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "Bài trên moit.gov.vn (tiếp nhận ngày 02-11-2026) là thông báo của Cục Xuất nhập khẩu — Bộ Công Thương dẫn lại 3 mục chính của công văn 910/SPS-BNNMT ngày 30-10-2026 của Văn phòng SPS Việt Nam (Bộ Nông nghiệp và Môi trường), không phải toàn văn bản gốc: chưa có bản gốc PDF của Văn phòng SPS Việt Nam trên cổng chính thống nên chưa đối chiếu được; hiệu lực ghi nhận theo bài dẫn lại, chưa được xác minh trực tiếp từ nguồn bậc A",
+        "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-11-19",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Công văn số 910/SPS-BNNMT ngày 30-10-2026 của Văn phòng SPS Việt Nam (Bộ Nông nghiệp và Môi trường) thông tin quy định mới của Tổng cục Hải quan Trung Quốc (GACC, Thông báo số 150) đối với đăng ký doanh nghiệp xuất khẩu, nhập khẩu thực phẩm.",
-      "toan_van": "raw/download/moit.gov.vn/910-2026-sps-bnnmt.html",
       "slug": "910-2026-sps-bnnmt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}

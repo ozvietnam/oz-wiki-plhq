@@ -1,6 +1,6 @@
 {
-  "ngay": "2026-11-19",
-  "tong": 3806,
+  "ngay": "2026-11-20",
+  "tong": 3807,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -45,6 +45,15 @@
       "muc_tieu": "08/TB-TCHQ/2020",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "09/2014/NĐ-CP: chưa có toàn văn trong raw/",
+      "muc_tieu": "09/2014/NĐ-CP",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"09/2014/NĐ-CP\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -3162,24 +3171,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Thấp",
-      "tieuDe": "12578/TB-CHQ/2026: chưa có nguồn chính thống",
-      "muc_tieu": "12578/TB-CHQ/2026",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "12578/TB-CHQ/2026: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
-      "muc_tieu": "12578/TB-CHQ/2026",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
       "ma": "CO_QUAN_DA_SAP_NHAP",
       "muc": "Thấp",
       "tieuDe": "1258/TB-TCHQ/2018 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
@@ -4158,15 +4149,6 @@
       "muc_tieu": "143/2026/NĐ-CP",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "143/2026/NĐ-CP: chưa có toàn văn trong raw/",
-      "muc_tieu": "143/2026/NĐ-CP",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"143/2026/NĐ-CP\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -5985,6 +5967,15 @@
       "muc_tieu": "1799/TB-TCHQ/2018",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "18/NQ-CP: chưa có toàn văn trong raw/",
+      "muc_tieu": "18/NQ-CP",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"18/NQ-CP\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -9981,15 +9972,6 @@
       "muc_tieu": "2284/QĐ-BKHCN",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_TOAN_VAN",
-      "muc": "Thấp",
-      "tieuDe": "2284/QĐ-BKHCN: chưa có toàn văn trong raw/",
-      "muc_tieu": "2284/QĐ-BKHCN",
-      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"2284/QĐ-BKHCN\" --ghi",
-      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -22107,6 +22089,15 @@
       "trongSo": 0
     },
     {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "49/QĐ-CTN: chưa có toàn văn trong raw/",
+      "muc_tieu": "49/QĐ-CTN",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"49/QĐ-CTN\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
       "ma": "CO_QUAN_DA_SAP_NHAP",
       "muc": "Thấp",
       "tieuDe": "49/TB-TCHQ/2024 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
@@ -31662,6 +31653,24 @@
       "muc_tieu": "91/TB-TCHQ/2019",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "910/2026/SPS-BNNMT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "910/2026/SPS-BNNMT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "910/2026/SPS-BNNMT: chưa có toàn văn trong raw/",
+      "muc_tieu": "910/2026/SPS-BNNMT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"910/2026/SPS-BNNMT\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {

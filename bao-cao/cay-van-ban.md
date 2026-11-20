@@ -1,4 +1,4 @@
-# Cây văn bản pháp luật XNK — 2026-11-19
+# Cây văn bản pháp luật XNK — 2026-11-20
 
 2835 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
@@ -366,9 +366,9 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - 🟢 [1489/TB-CHQ/2026](../registry/van-ban/1489-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1633/TB-CHQ/2026](../registry/van-ban/1633-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2710.12.99)
+- 🟢 [12578/TB-CHQ/2026](../registry/van-ban/12578-tb-chq-2026.yaml) — Thông báo xác định trước mã số Công ty TNHH Công nghệ Lens Việt Nam (ốp lưng iPad 12, nhóm 4202.92.90)
 - 🟢 [577/TB-CHQ/2026](../registry/van-ban/577-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (3506.10.00)
 - 🟢 [20/TB-CHQ/2026](../registry/van-ban/20-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2506.10.00)
-- ❔ [12578/TB-CHQ/2026](../registry/van-ban/12578-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (4202.92.90)
 - ❔ [1288/TB-TCHQ/2026](../registry/van-ban/1288-tb-tchq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (3824.99.99)
 - ❔ [2840/TB-TCHQ/2026](../registry/van-ban/2840-tb-tchq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (1503.00.90)
 - ❔ [2841/TB-TCHQ/2026](../registry/van-ban/2841-tb-tchq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2916.19.00)
