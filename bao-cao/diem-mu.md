@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-11-20
 
-Tổng 3807 điểm: **8 cao**, 213 vừa, 3586 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 3808 điểm: **8 cao**, 213 vừa, 3587 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -12,7 +12,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Văn bản danh mục chưa trích bảng mã HS | Vừa | 3 | `danh-muc-hs` |
 | THIEU_VBHN | Vừa | 1 | `nap-lam-sach` |
 | Văn bản khung thiếu thông tin | Vừa | 1 | `he-thong-hoa` |
-| Hiệu lực chưa đối chiếu nguồn A | Thấp | 1406 | `hieu-luc` |
+| Hiệu lực chưa đối chiếu nguồn A | Thấp | 1407 | `hieu-luc` |
 | Chưa có nguồn chính thống | Thấp | 1402 | `truy-vet-nguon` |
 | Văn bản của cơ quan đã sáp nhập | Thấp | 745 | `do-tham` |
 | Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay | Thấp | 18 | `hieu-luc` |
@@ -94,7 +94,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 
 - [ ] **45/2024/TT-BCT: chưa có tiêu đề, ngày, nguồn** — Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.
 
-## Hiệu lực chưa đối chiếu nguồn A (1406)
+## Hiệu lực chưa đối chiếu nguồn A (1407)
 
 - [ ] **08/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **10/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
@@ -136,7 +136,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **1039/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **104/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **1049/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- … và 1366 điểm khác (xem bao-cao/diem-mu.json)
+- … và 1367 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Chưa có nguồn chính thống (1402)
 

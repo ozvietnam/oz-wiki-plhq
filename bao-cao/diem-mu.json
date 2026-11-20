@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-20",
-  "tong": 3807,
+  "tong": 3808,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -10879,6 +10879,15 @@
       "muc": "Thấp",
       "tieuDe": "2396/TB-TCHQ/2018: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
       "muc_tieu": "2396/TB-TCHQ/2018",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "24/2026/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "24/2026/NĐ-CP",
       "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "hieu-luc",
       "trongSo": 0
