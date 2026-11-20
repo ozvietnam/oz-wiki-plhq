@@ -29,7 +29,7 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (41 mã HS). PDF datafiles là ảnh — điều khoản đọc bằng OCR. het_hieu_luc_tu 31-12-2026 theo chuyển tiếp Điều 64 khoản 4 NĐ 292. Tra 17-11-2026: chưa thấy TT-BQP mới thay danh mục HS chi tiết trên Công báo/vanban.chinhphu; NĐ 292 Phụ lục I chỉ nêu nhóm hàng thuộc thẩm quyền BQP (không thay số hiệu TT 173). Tra lại 19-11-2026: vẫn chưa có TT-BQP thay thế trên nguồn A — kết luận "chưa có văn bản thay thế, hết hạn đúng kỳ 31-12-2026" (điều khoản chuyển tiếp Điều 64 khoản 4 NĐ 292/2026/NĐ-CP).'
+ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (41 mã HS). PDF datafiles là ảnh — điều khoản đọc bằng OCR. het_hieu_luc_tu 31-12-2026 theo chuyển tiếp Điều 64 khoản 4 NĐ 292. Tra 17-11-2026: chưa thấy TT-BQP mới thay danh mục HS chi tiết trên Công báo/vanban.chinhphu; NĐ 292 Phụ lục I chỉ nêu nhóm hàng thuộc thẩm quyền BQP (không thay số hiệu TT 173). Tra lại 19-11-2026: vẫn chưa có TT-BQP thay thế trên nguồn A — kết luận "chưa có văn bản thay thế, hết hạn đúng kỳ 31-12-2026" (điều khoản chuyển tiếp Điều 64 khoản 4 NĐ 292/2026/NĐ-CP). Tra lại 20-11-2026: xác nhận — chưa có TT-BQP thay thế (tra Công báo số 584 ngày 20/11/2026 mục BQP, vanban.chinhphu.vn 50 VB mới nhất 11–17/11/2026; TT-BQP mới nhất là 178/2026/TT-BQP ngày 03/11/2026 về Hội thẩm quân nhân và 173/2026/TT-BQP ngày 28/10/2026 về độ tuổi quân nhân/nhập ngũ — đều không liên quan danh mục hàng chuyên ngành QP; mod.gov.vn không mở được nội dung, ghi trung thực).'
 toan_van: raw/download/datafiles.chinhphu.vn/173-2018-tt-bqp.pdf
 het_hieu_luc_tu: '2026-12-31'
 quan_he:
