@@ -70,4 +70,4 @@ KHÔNG có quy tắc hỗn hợp — PL I liệt kê hoá chất cơ bản theo 
 - **7429-90-5 (Bột nhôm):** có — STT 20, tạm PL II (xem quy tắc nạp p15–17).
 - **103-79-7 (Phenylacetone/P2P):** có — PL III nhóm 1, mục A (tiền chất công nghiệp).
 - **7732-18-5 (Nước):** KHÔNG có trong cả 4 phụ lục (đúng kỳ vọng — chất không thuộc danh mục).
-- **64742-94-5 (Solvent naphtha) và 1330-20-7 (Xylene):** **KHÔNG có trong PL III nhóm 1–2 và PL IV Bảng A** (đã quét toàn bộ 544 dòng lượt này); 1330-20-7 cũng chưa thấy trong phần PL I/II đã nạp (STT 1–37) — đóng điểm 4 ca OZV-1575.
+- **64742-94-5 (Solvent naphtha) và 1330-20-7 (Xylene):** **KHÔNG có trong PL III nhóm 1–2 và PL IV Bảng A** (đã quét toàn bộ 545 dòng lượt này); 1330-20-7 cũng chưa thấy trong phần PL I/II đã nạp (STT 1–37) — đóng điểm 4 ca OZV-1575.
