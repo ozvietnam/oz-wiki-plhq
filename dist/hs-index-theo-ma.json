@@ -4,8 +4,8 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "luoc_do": "docs/luoc-do-danh-muc-hs.md",
  "cach_tra": "Khoá là nhóm mã HS trong bảng (4, 6 hoặc 8 số). Tra mã 8 số: ghép mọi khoá là tiền tố của mã (độ dài 4, 6) và khoá trùng 8 số. Cạnh giữ nguyên dieu_kien — \"trừ loại…\" là trừ diện, không phải diện áp. canh_bao_ma = nhóm mã không có trong biểu thuế đối chiếu — tra ra các khoá này thì dừng và đối chiếu lại văn bản gốc, đừng kết luận diện áp. tien_le_tb_tchq = mật độ thông báo phân loại của Tổng cục (bậc C, tham khảo).",
- "tong_nhom_ma": 6644,
- "tong_canh": 13871,
+ "tong_nhom_ma": 6650,
+ "tong_canh": 13901,
  "bieu_thue_doi_chieu": {
   "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/tax.json",
   "phien_ban": "2026-11-13",
@@ -9640,6 +9640,20 @@
     "hieu_luc_tu": "2024-03-20",
     "het_hieu_luc_tu": null,
     "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
+    "nhom": "Mục 21",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": null,
     "dieu_kien": null,
@@ -9686,6 +9700,34 @@
     "hieu_luc_tu": "2024-03-20",
     "het_hieu_luc_tu": null,
     "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_XUAT_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": "Mục 20",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
+    "nhom": "Mục 21",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": null,
     "dieu_kien": null,
@@ -9706,6 +9748,20 @@
     "muc_rui_ro": null,
     "dieu_kien": "Trừ nan gỗ",
     "nhom": "Mục 9",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
+    "nhom": "Mục 21",
     "phu_luc": "Phụ lục I"
    },
    {
@@ -9766,6 +9822,34 @@
     "muc_rui_ro": null,
     "dieu_kien": null,
     "nhom": "Mục 9",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_XUAT_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": "Mục 20",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
+    "nhom": "Mục 21",
     "phu_luc": "Phụ lục I"
    }
   ],
@@ -9876,6 +9960,22 @@
    }
   ],
   "4411": [
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
+    "nhom": "Mục 21",
+    "phu_luc": "Phụ lục I"
+   }
+  ],
+  "4412": [
    {
     "so_hieu": "01/2024/TT-BNNPTNT",
     "slug": "01-2024-tt-bnnptnt",
@@ -14535,6 +14635,22 @@
     "dieu_kien": "cấm xuất khẩu, cấm nhập khẩu; chỉ áp dụng loại chuyên dùng quân sự",
     "nhom": "Chương 93",
     "phu_luc": "Phụ lục"
+   }
+  ],
+  "9401": [
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
+    "nhom": "Mục 21",
+    "phu_luc": "Phụ lục I"
    }
   ],
   "9403": [
@@ -19922,6 +20038,34 @@
     "hieu_luc_tu": "2024-03-20",
     "het_hieu_luc_tu": null,
     "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_XUAT_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": "Mục 20",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
+    "nhom": "Mục 21",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
     "muc_rui_ro": null,
     "dieu_kien": null,
@@ -20031,6 +20175,34 @@
     "dieu_kien": null,
     "nhom": "Mục 9",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_XUAT_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": "Mục 20",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
+    "nhom": "Mục 21",
+    "phu_luc": "Phụ lục I"
    }
   ],
   "440325": [
@@ -20046,6 +20218,34 @@
     "muc_rui_ro": null,
     "dieu_kien": null,
     "nhom": "Mục 9",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_XUAT_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": "Mục 20",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
+    "nhom": "Mục 21",
     "phu_luc": "Phụ lục I"
    }
   ],
@@ -20120,6 +20320,34 @@
     "muc_rui_ro": null,
     "dieu_kien": null,
     "nhom": "Mục 9",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_XUAT_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": "Mục 20",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
+    "nhom": "Mục 21",
     "phu_luc": "Phụ lục I"
    }
   ],
@@ -20269,6 +20497,36 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "440393": [
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_XUAT_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": "Mục 20",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
+    "nhom": "Mục 21",
+    "phu_luc": "Phụ lục I"
+   }
+  ],
   "440394": [
    {
     "so_hieu": "01/2024/TT-BNNPTNT",
@@ -20312,6 +20570,34 @@
     "muc_rui_ro": null,
     "dieu_kien": null,
     "nhom": "Mục 9",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_XUAT_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": "Mục 20",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
+    "nhom": "Mục 21",
     "phu_luc": "Phụ lục I"
    },
    {
@@ -20867,6 +21153,34 @@
     "dieu_kien": null,
     "nhom": "Mục 9",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_XUAT_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": "Mục 20",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
+    "nhom": "Mục 21",
+    "phu_luc": "Phụ lục I"
    }
   ],
   "440726": [
@@ -20882,6 +21196,34 @@
     "muc_rui_ro": null,
     "dieu_kien": null,
     "nhom": "Mục 9",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_XUAT_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": "Mục 20",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
+    "nhom": "Mục 21",
     "phu_luc": "Phụ lục I"
    },
    {
@@ -69206,6 +69548,20 @@
     "hieu_luc_tu": "2024-03-20",
     "het_hieu_luc_tu": null,
     "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_XUAT_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": "Mục 20",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
@@ -71630,6 +71986,20 @@
     "hieu_luc_tu": "2024-03-20",
     "het_hieu_luc_tu": null,
     "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_XUAT_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": "Mục 20",
+    "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
     "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
@@ -71638,6 +72008,20 @@
    }
   ],
   "44083910": [
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "CAM_XUAT_KHAU",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": "Mục 20",
+    "phu_luc": "Phụ lục I"
+   },
    {
     "so_hieu": "01/2024/TT-BNNPTNT",
     "slug": "01-2024-tt-bnnptnt",
@@ -71790,6 +72174,22 @@
    }
   ],
   "44092200": [
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
+    "nhom": "Mục 21",
+    "phu_luc": "Phụ lục I"
+   }
+  ],
+  "44092900": [
    {
     "so_hieu": "01/2024/TT-BNNPTNT",
     "slug": "01-2024-tt-bnnptnt",
@@ -170725,6 +171125,38 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục"
+   }
+  ],
+  "94036010": [
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
+    "nhom": "Mục 21",
+    "phu_luc": "Phụ lục I"
+   }
+  ],
+  "94036090": [
+   {
+    "so_hieu": "01/2024/TT-BNNPTNT",
+    "slug": "01-2024-tt-bnnptnt",
+    "ten": "Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2024-03-20",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "KHAC",
+    "muc_rui_ro": null,
+    "dieu_kien": "Chỉ áp khi XUẤT KHẨU: gỗ và sản phẩm gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp — không phải giấy phép nhập khẩu",
+    "nhom": "Mục 21",
+    "phu_luc": "Phụ lục I"
    }
   ],
   "94038200": [
