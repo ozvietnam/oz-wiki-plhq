@@ -4,7 +4,9 @@ loai: QUYET_DINH
 ten: Về việc ban hành Quy trình phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu nhập khẩu
 co_quan: TCHQ
 ngay_ban_hanh: '2018-06-28'
-tinh_trang: CON_HIEU_LUC
+hieu_luc_tu: '2018-06-28'
+het_hieu_luc_tu: '2026-02-01'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - phan-loai-hs/quy-trinh-phan-loai
   - hai-quan/so-tay-nghiep-vu
@@ -19,17 +21,16 @@ nguon:
     truy_cap: '2026-11-15'
 xac_minh:
   muc: NGUON_A
-  pham_vi: Đã tải và đối chiếu toàn văn bản PDF ký gốc có dấu đỏ (52 trang, Quyết định 3 điều + Quy trình 30 điều + 03 Phụ lục, Phó Tổng cục trưởng Nguyễn Dương Thái ký ngày 28/06/2018) từ Cổng Thông tin điện tử Hải quan (customs.gov.vn id=56493, files.customs.gov.vn 1921-QD-TCHQ.pdf, dòng 8092 & 8097 all-1990-2026.csv). Điều 2 khoản 1 quy định có hiệu lực kể từ ngày ký (28/06/2018); Điều 2 khoản 2 bãi bỏ QĐ 2134/QĐ-TCHQ, QĐ 2135/QĐ-TCHQ, Điều 52-54 Quy trình kèm QĐ 1966/QĐ-TCHQ, CV 143/TCHQ-TXNK, CV 11310/TCHQ-TXNK và điểm 1, 3, 4 CV 3511/TCHQ-TXNK; đang còn hiệu lực.
+  pham_vi: Đã tải và đối chiếu toàn văn bản PDF ký gốc có dấu đỏ (52 trang, Quyết định 3 điều + Quy trình 30 điều + 03 Phụ lục, Phó Tổng cục trưởng Nguyễn Dương Thái ký ngày 28/06/2018) từ Cổng Thông tin điện tử Hải quan (customs.gov.vn id=56493, files.customs.gov.vn 1921-QD-TCHQ.pdf, dòng 8092 & 8097 all-1990-2026.csv). Điều 2 khoản 1 quy định có hiệu lực kể từ ngày ký (28/06/2018); Điều 2 khoản 2 bãi bỏ QĐ 2134/QĐ-TCHQ, QĐ 2135/QĐ-TCHQ, Điều 52-54 Quy trình kèm QĐ 1966/QĐ-TCHQ, CV 143/TCHQ-TXNK, CV 11310/TCHQ-TXNK và điểm 1, 3, 4 CV 3511/TCHQ-TXNK. Đã hết hiệu lực từ ngày 01/02/2026 do bị bãi bỏ bởi Điều 2 khoản 2 Quyết định 117/QĐ-CHQ ngày 20/01/2026 của Cục trưởng Cục Hải quan.
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-15'
-  boi: paperclip-agent@ozvietnam
+  ngay: '2026-11-20'
+  boi: tho-bo-ba-01@ozvietnam
 toan_van: raw/download/files.customs.gov.vn/1921-qd-tchq-2018.pdf
-ghi_chu: Đã đối chiếu toàn văn PDF bản gốc có dấu đỏ từ files.customs.gov.vn (52 trang). Điều 2 khoản 2 bãi bỏ QĐ 2134/QĐ-TCHQ (31/7/2015), QĐ 2135/QĐ-TCHQ (31/7/2015), Điều 52-54 Quy trình kèm QĐ 1966/QĐ-TCHQ (10/7/2015), CV 143/TCHQ-TXNK (07/01/2016), CV 11310/TCHQ-TXNK (01/12/2016) và điểm 1, 3, 4 CV 3511/TCHQ-TXNK (26/05/2017).
+ghi_chu: Đã đối chiếu toàn văn PDF bản gốc có dấu đỏ từ files.customs.gov.vn (52 trang). Đã hết hiệu lực từ ngày 01/02/2026 do bị bãi bỏ bởi Điều 2 khoản 2 Quyết định 117/QĐ-CHQ ngày 20/01/2026 của Cục trưởng Cục Hải quan. Điều 2 khoản 2 của Quyết định 1921/QĐ-TCHQ trước đó bãi bỏ QĐ 2134/QĐ-TCHQ (31/7/2015), QĐ 2135/QĐ-TCHQ (31/7/2015), Điều 52-54 Quy trình kèm QĐ 1966/QĐ-TCHQ (10/7/2015), CV 143/TCHQ-TXNK (07/01/2016), CV 11310/TCHQ-TXNK (01/12/2016) và điểm 1, 3, 4 CV 3511/TCHQ-TXNK (26/05/2017).
 tu_khoa:
   - phan-loai-hang-hoa
   - ap-dung-muc-thue
   - xac-dinh-truoc-ma-so
-hieu_luc_tu: '2018-06-28'
 quan_he:
   bai_bo:
     - so_hieu: 1966/QĐ-TCHQ

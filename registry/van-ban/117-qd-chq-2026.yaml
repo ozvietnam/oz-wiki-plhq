@@ -1,0 +1,40 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 117/QĐ-CHQ
+loai: QUYET_DINH
+ten: Ban hành Quy trình Xác định trước mã số; Kiểm tra tên hàng, mô tả hàng hóa, mã số, mức thuế, đơn vị tính của hàng hóa xuất khẩu, nhập khẩu trong thông quan; Thống nhất công tác phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu, nhập khẩu
+co_quan: CHQ
+ngay_ban_hanh: '2026-01-20'
+hieu_luc_tu: '2026-02-01'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs/quy-trinh-phan-loai
+  - hai-quan/so-tay-nghiep-vu
+quan_he:
+  bai_bo:
+    - so_hieu: 1921/QĐ-TCHQ
+      tu_ngay: '2026-02-01'
+      can_cu: Điều 2 khoản 2 Quyết định 117/QĐ-CHQ
+nguon:
+  - url: https://luatvietnam.vn/xuat-nhap-khau/quyet-dinh-117-qd-chq-2026-quy-trinh-xac-dinh-ma-so-va-kiem-tra-hang-hoa-xuat-nhap-khau-425296-d1.html
+    truy_cap: '2026-11-20'
+  - url: https://thuehaiquan.tapchikinhtetaichinh.vn/chuan-hoa-quy-trinh-xac-dinh-truoc-ma-so-va-thong-nhat-phan-loai-hang-hoa-144565.html
+    truy_cap: '2026-11-20'
+  - url: https://camnangxnk-logistics.net/wp-content/uploads/2026/02/20.01.2026_117_QD_CHQ-XA%CC%81C-DI%CC%A3NH-HS.pdf
+    truy_cap: '2026-11-20'
+toan_van: raw/download/camnangxnk-logistics.net/117-qd-chq-2026.pdf
+xac_minh:
+  muc: NGUON_B
+  pham_vi: 'Đã tải và đối chiếu toàn văn bản PDF ký số kèm dấu đỏ của Cục Hải quan (28 trang, 12.957.512 byte, sha256 cea33785fda4a8d8c439d44acdc48fabff65a5a70870681c85ffef5637f876fe, ký số Cục Hải quan ngày 21/01/2026 09:37:51 +07:00, gồm Quyết định 3 điều và Quy trình 3 phần 20 điều) và đối chiếu trên LuatVietnam (bậc B), Thời báo Tài chính Việt Nam — chuyên trang Thuế & Hải quan: số hiệu 117/QĐ-CHQ, ngày ban hành 20-01-2026, người ký KT. Cục trưởng Phó Cục trưởng Nguyễn Thành Hưng, trích yếu nguyên văn "Ban hành Quy trình Xác định trước mã số; Kiểm tra tên hàng, mô tả hàng hóa, mã số, mức thuế, đơn vị tính của hàng hóa xuất khẩu, nhập khẩu trong thông quan; Thống nhất công tác phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu, nhập khẩu". Theo Điều 2 khoản 1 Quyết định (trang 2): Quyết định có hiệu lực thi hành kể từ ngày 01 tháng 02 năm 2026; theo Điều 2 khoản 2: Bãi bỏ Quyết định số 1921/QĐ-TCHQ ngày 28 tháng 6 năm 2018 của Tổng cục Hải quan về việc ban hành quy trình phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu nhập khẩu. Đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: false
+  chan:
+    ma: THIEU_PDF_A
+    ngay: '2026-11-20'
+    viec_tiep: Đã có PDF bản ký số gốc 28 trang; chờ customs.gov.vn mở chặn để gắn URL customs.gov.vn và nâng NGUON_A
+  ngay: '2026-11-20'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Ban hành Quy trình 3 phần 20 điều quy định trình tự, thủ tục ban hành, sửa đổi, thay thế, hủy bỏ Thông báo kết quả xác định trước mã số; kiểm tra tên hàng, mô tả hàng hóa, mã số, mức thuế, đơn vị tính trong thông quan; thống nhất công tác phân loại hàng hóa, áp dụng mức thuế trong toàn ngành và xử lý vướng mắc vượt thẩm quyền (phối hợp giữa Chi cục Hải quan khu vực, Chi cục Kiểm định hải quan và Ban Nghiệp vụ thuế hải quan; cập nhật hệ thống MHS và Cces). Có hiệu lực từ ngày 01/02/2026, bãi bỏ Quyết định 1921/QĐ-TCHQ ngày 28/06/2018 theo Điều 2 khoản 2.'
+tu_khoa:
+  - phan-loai-hang-hoa
+  - xac-dinh-truoc-ma-so
+  - ap-dung-muc-thue
+  - kiem-tra-trong-thong-quan
