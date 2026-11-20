@@ -1,21 +1,27 @@
 # Sổ đăng ký văn bản — tự động từ tracuuhs.com
 so_hieu: 12578/TB-CHQ/2026
+so_hieu_khac:
+  - 578/TB-CHQ
+  - 578/TB-CHQ/2026
 loai: THONG_BAO
-ten: Phân loại mã HS theo tracuuhs.com (4202.92.90)
-co_quan: TCHQ
-ngay_ban_hanh: '2026-01-01'
-hieu_luc_tu: '2026-01-01'
-tinh_trang: CHUA_XAC_MINH
+ten: Thông báo xác định trước mã số Công ty TNHH Công nghệ Lens Việt Nam (ốp lưng iPad 12, nhóm 4202.92.90)
+co_quan: CHQ
+ngay_ban_hanh: '2026-01-07'
+hieu_luc_tu: '2026-01-07'
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - phan-loai-hs
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'HS code lấy từ tracuuhs.com — TB-CHQ 12578/2026'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
-  ghi_chu: 'Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A'
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu bản ghi crawl Cổng Hải quan (data/customs/processed/all-1990-2026.csv, dòng stt=1045, crawled_at 08-10-2026) với PDF gốc trên files.customs.gov.vn (6.VB_578.pdf, tải 20-11-2026, bản scan ký số không trích text được): bản ghi tracuuhs.com "chq-578-2026" ghép tiêu đề "Ốp lưng iPad 12" với số hiệu thành 12578/TB-CHQ/2026; số hiệu đúng theo Cổng Hải quan là 578/TB-CHQ ngày 07-01-2026 do Cục Hải quan ban hành, người ký Đào Thu Hương, nội dung Thông báo xác định trước mã số hàng hóa cho Công ty TNHH Công nghệ Lens Việt Nam, nhóm HS 4202.92.90; còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-20'
+  boi: tho-bo-ba-01@ozvietnam
 nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=102345&cid=1294
+    truy_cap: '2026-11-20'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/1/14/6.VB_578.pdf
+    truy_cap: '2026-11-20'
   - url: https://www.tracuuhs.com/tin-tuc/chq-578-2026
     truy_cap: '2025-12-17'
-toan_van: chua_co
+toan_van: raw/download/files.customs.gov.vn/12578-tb-chq-2026.pdf

@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 143/2026/NĐ-CP
 loai: NGHI_DINH
-ten: 'Ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện Việt Nam – Tiểu vương quốc Ả Rập Thống nhất (CEPA), giai đoạn 2026–2027'
+ten: Ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện Việt Nam – Tiểu vương quốc Ả Rập Thống nhất (CEPA), giai đoạn 2026–2027
 co_quan: CP
 ngay_ban_hanh: '2026-04-24'
 tinh_trang: CON_HIEU_LUC
@@ -13,10 +13,13 @@ nguon:
     truy_cap: '2026-11-19'
   - url: https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Nghi-dinh-143-2026-ND-CP-bieu-thue-nhap-khau-uu-dai-dac-biet-Hiep-dinh-Tieu-vuong-quoc-A-rap-Thong-nhat-704557.aspx
     truy_cap: '2026-11-19'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/143-ndcp.signed.pdf
+    truy_cap: '2026-11-20'
 xac_minh:
   muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + hiệu lực 05-05-2026 (chinhphu.vn docid 218021 + TVPL); biểu thuế CEPA VN-UAE giai đoạn 2026-2027'
+  pham_vi: số hiệu + tên + hiệu lực 05-05-2026 (chinhphu.vn docid 218021 + TVPL); biểu thuế CEPA VN-UAE giai đoạn 2026-2027
   hieu_luc_da_doi_chieu: false
   ngay: '2026-11-19'
   boi: zcode@ozvietnam
 ghi_chu: 'Trinh thám đêm 19/11 — THIẾU HỤT LỚN: FTA Việt Nam–UAE (CEPA) hiệu lực từ 05-05-2026 mà sổ chưa có biểu thuế ưu đãi. Dùng ngay cho khách giao UAE/Qatar. Cần nạp biểu thuế chi tiết + quy tắc xuất xứ CEPA.'
+toan_van: raw/download/datafiles.chinhphu.vn/143-2026-nd-cp.pdf
