@@ -14,7 +14,7 @@ Kèm theo [`24-2026-nd-cp-cas.csv`](24-2026-nd-cp-cas.csv) — mỗi dòng: `cas
 
 ## Cách trích xuất
 
-- **PL I + khối p15–17 (35 dòng):** PDF scan không lớp chữ — render trang ở scale 8 (pdfjs-dist) → **đọc mắt từng dòng từ ảnh gốc** → kiểm checksum CAS bằng máy (`node /tmp/nd24/cascheck.js`; chữ số kiểm = (Σ chữ số × vị trí từ phải, bắt đầu 1) mod 10). 31/31 dòng cũ đạt checksum. **CẢNH BÁO:** mô hình thị giác GLM (analyze_image) **bịa hàng loạt** trên bảng scan dày — không dùng làm nguồn.
+- **PL I + khối p15–17 (35 dòng):** PDF scan không lớp chữ — render trang ở scale 8 (pdfjs-dist) → **đọc mắt từng dòng từ ảnh gốc** → kiểm checksum CAS bằng máy (`node /tmp/nd24/cascheck.js`; chữ số kiểm = (Σ chữ số × vị trí từ phải, bắt đầu 1) mod 10). 35/35 dòng đạt checksum. **CẢNH BÁO:** mô hình thị giác GLM (analyze_image) **bịa hàng loạt** trên bảng scan dày — không dùng làm nguồn.
 - **PL III + PL IV (544 dòng, lượt OZV-1584):** trích từ **bản có lớp chữ** Công báo số 77 (URL trên) bằng script `/tmp/nd24/extract_pl34_v3.py` (Python thuần, không mạng): quét từng dòng theo cấu trục STT → tên IUPAC → tên Việt → CAS → mảnh công thức → ngưỡng; mọi CAS chạy checksum mod 10; đa-CAS một dòng tách thành nhiều hàng kế thừa STT; hàng in "---" ở cột CAS (không có CAS) vẫn nạp với `cas` để trống; STT thiếu dấu chấm do OCR được nhận theo dòng kế là tên.
 
 ## Quy tắc hỗn hợp (trích NGUYÊN VĂN)
