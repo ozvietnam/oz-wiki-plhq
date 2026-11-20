@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-20
 
-2838 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2840 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -90,12 +90,13 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Kiểm tra, giám sát, kiểm soát hải quan `hai-quan/kiem-tra-giam-sat`
 
-40 văn bản, 28 chưa hết hiệu lực.
+41 văn bản, 29 chưa hết hiệu lực.
 
 - 🟢 [166/2026/TT-BTC](../registry/van-ban/166-2026-tt-btc.yaml) — Bãi bỏ một số thông tư liên tịch do Bộ trưởng Bộ Tài chính liên tịch ban hành liên quan đến lĩnh vực tài chính
 - 🟢 [128/2026/TT-BTC](../registry/van-ban/128-2026-tt-btc.yaml) — Quy định về kiểm tra, giám sát và quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh và phương tiện vận tải hoạt động trong khu vực cửa khẩu thông minh
 - 🟢 [06/2026/TT-BTC](../registry/van-ban/06-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 13/2015/TT-BTC quy định về kiểm tra, giám sát, tạm dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo vệ quyền sở hữu trí tuệ
 - 🟢 [05/2026/TT-BTC](../registry/van-ban/05-2026-tt-btc.yaml) — Quy định về phân cấp trong hoạt động kiểm tra chuyên ngành trong một số lĩnh vực của Bộ Tài chính
+- 🟢 [2123/QĐ-CHQ](../registry/van-ban/2123-qd-chq-2025.yaml) — Ban hành Quy trình Kiểm tra sau thông quan và quản lý chế độ ưu tiên
 - 🟢 [285/2025/NĐ-CP](../registry/van-ban/285-2025-nd-cp.yaml) — Bãi bỏ một số nghị định của Chính phủ
 - 🟢 [155/VBHN-VPQH](../registry/van-ban/155-vbhn-vpqh-2025.yaml) — Văn bản hợp nhất Luật Sở hữu trí tuệ
 - 🟢 [93/2025/QH15](../registry/van-ban/93-2025-qh15.yaml) — Luật Khoa học, công nghệ và đổi mới sáng tạo
@@ -163,14 +164,16 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung (không phải văn bản quy phạm nhưng thực tế áp dụng)._
 
-8 văn bản, 6 chưa hết hiệu lực.
+10 văn bản, 7 chưa hết hiệu lực.
 
 - 🟢 [1813/2026/QĐ-CHQ](../registry/van-ban/1813-2026-qd-chq.yaml) — Về việc ban hành Quy định về định dạng thông điệp dữ liệu tờ khai hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định, dịch vụ chuyển phát nhanh quốc tế
+- 🟢 [117/QĐ-CHQ](../registry/van-ban/117-qd-chq-2026.yaml) — Ban hành Quy trình Xác định trước mã số; Kiểm tra tên hàng, mô tả hàng hóa, mã số, mức thuế, đơn vị tính của hàng hóa xuất khẩu, nhập khẩu trong thông quan; Thống nhất công tác phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu, nhập khẩu
+- 🟢 [2123/QĐ-CHQ](../registry/van-ban/2123-qd-chq-2025.yaml) — Ban hành Quy trình Kiểm tra sau thông quan và quản lý chế độ ưu tiên
 - 🟢 [2538/QĐ-TCHQ](../registry/van-ban/2538-qd-tchq.yaml) — Ban hành Quy trình trình tự thực hiện thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu; hàng hóa vận chuyển chịu sự giám sát hải quan
 - 🟢 [2079/QĐ-TCHQ](../registry/van-ban/2079-qd-tchq.yaml) — Ban hành Danh mục hàng hóa rủi ro về phân loại hàng hóa
 - ⚫ [583/QĐ-TCHQ](../registry/van-ban/583-qd-tchq-2019.yaml) — Ban hành Danh mục hàng hóa xuất khẩu, nhập khẩu rủi ro về phân loại hàng hóa và áp dụng mức thuế _(hết hiệu lực 2021-07-19)_
 - ❔ [1920/QĐ-TCHQ](../registry/van-ban/1920-qd-tchq-2018.yaml) — Ban hành Sổ tay nghiệp vụ thực hiện thủ tục thông quan hàng hóa xuất khẩu, nhập khẩu tại cấp Chi cục Hải quan
-- 🟢 [1921/QĐ-TCHQ](../registry/van-ban/1921-qd-tchq-2018.yaml) — Về việc ban hành Quy trình phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu nhập khẩu
+- ⚫ [1921/QĐ-TCHQ](../registry/van-ban/1921-qd-tchq-2018.yaml) — Về việc ban hành Quy trình phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu nhập khẩu _(hết hiệu lực 2026-02-01)_
 - ❔ [1925/QĐ-TCHQ](../registry/van-ban/1925-qd-tchq-2018.yaml) — Ban hành Sổ tay nghiệp vụ Quản lý thuế xuất khẩu, thuế nhập khẩu tại cấp Chi cục Hải quan
 - ⚫ [1966/QĐ-TCHQ](../registry/van-ban/1966-qd-tchq.yaml) — Ban hành Quy trình thủ tục hải quan đối với hàng hoá xuất khẩu, nhập khẩu _(hết hiệu lực 2024-11-01)_
 
@@ -2552,13 +2555,14 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Phân loại, phân tích để phân loại, xác định trước mã số `phan-loai-hs/quy-trinh-phan-loai`
 
-16 văn bản, 3 chưa hết hiệu lực.
+17 văn bản, 3 chưa hết hiệu lực.
 
 - 🟢 [85/2026/TT-BTC](../registry/van-ban/85-2026-tt-btc.yaml) — Quy định về phân loại hàng hoá, phân tích để phân loại hàng hoá xuất khẩu, nhập khẩu
+- 🟢 [117/QĐ-CHQ](../registry/van-ban/117-qd-chq-2026.yaml) — Ban hành Quy trình Xác định trước mã số; Kiểm tra tên hàng, mô tả hàng hóa, mã số, mức thuế, đơn vị tính của hàng hóa xuất khẩu, nhập khẩu trong thông quan; Thống nhất công tác phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu, nhập khẩu
 - 🟢 [2169/QĐ-CHQ](../registry/van-ban/2169-qd-chq-2025.yaml) — Ban hành Quy trình phân tích phân loại hàng hoá xuất khẩu, nhập khẩu và kiểm tra, đánh giá tiêu chí kỹ thuật của hàng hoá bằng máy móc, trang thiết bị tại cơ quan Kiểm định hải quan
 - ⚫ [2166/QĐ-TCHQ](../registry/van-ban/2166-qd-tchq-2021.yaml) — Ban hành Quy trình Phân tích để phân loại hàng hoá xuất khẩu, nhập khẩu _(hết hiệu lực 2026-02-01)_
 - ⚫ [17/2021/TT-BTC](../registry/van-ban/17-2021-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư 14/2015/TT-BTC _(hết hiệu lực 2026-09-15)_
-- 🟢 [1921/QĐ-TCHQ](../registry/van-ban/1921-qd-tchq-2018.yaml) — Về việc ban hành Quy trình phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu nhập khẩu
+- ⚫ [1921/QĐ-TCHQ](../registry/van-ban/1921-qd-tchq-2018.yaml) — Về việc ban hành Quy trình phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu nhập khẩu _(hết hiệu lực 2026-02-01)_
 - ⚫ [2999/QĐ-TCHQ](../registry/van-ban/2999-qd-tchq-2017.yaml) — Ban hành Quy chế Kiểm định, phân tích hàng hoá xuất khẩu, nhập khẩu _(hết hiệu lực 2026-02-01)_
 - ⚫ [2131/QĐ-TCHQ](../registry/van-ban/2131-qd-tchq-2015.yaml) — Ban hành Quy chế phân tích để phân loại hàng hóa, phân tích để kiểm tra chất lượng, kiểm tra an toàn thực phẩm đối với hàng hóa xuất khẩu, nhập khẩu _(hết hiệu lực 2017-09-06)_
 - ⚫ [2134/QĐ-TCHQ](../registry/van-ban/2134-qd-tchq-2015.yaml) — Về việc ban hành Quy trình phân loại hàng hóa xuất khẩu, nhập khẩu phải phân tích, giám định _(hết hiệu lực 2018-06-28)_

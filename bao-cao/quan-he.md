@@ -432,12 +432,13 @@ flowchart LR
 
 ```mermaid
 flowchart LR
+  n_117_Q__CHQ["117/QĐ-CHQ<br/>còn hiệu lực"]
+  n_1921_Q__TCHQ["1921/QĐ-TCHQ<br/>hết hiệu lực"]
   n_14_2015_TT_BTC["14/2015/TT-BTC<br/>hết hiệu lực"]
   n_49_2010_TT_BTC["49/2010/TT-BTC<br/>hết hiệu lực"]
   n_1628_Q__TCHQ["1628/QĐ-TCHQ<br/>hết hiệu lực"]
   n_1671_Q__TCHQ["1671/QĐ-TCHQ<br/>hết hiệu lực"]
   n_17_2021_TT_BTC["17/2021/TT-BTC<br/>hết hiệu lực"]
-  n_1921_Q__TCHQ["1921/QĐ-TCHQ<br/>còn hiệu lực"]
   n_1966_Q__TCHQ["1966/QĐ-TCHQ<br/>hết hiệu lực"]
   n_2131_Q__TCHQ["2131/QĐ-TCHQ<br/>hết hiệu lực"]
   n_4023_Q__TCHQ["4023/QĐ-TCHQ<br/>hết hiệu lực"]
@@ -454,6 +455,7 @@ flowchart LR
   n_41_2019_TT_BCT["41/2019/TT-BCT<br/>hết hiệu lực một phần"]
   n_23_2021_TT_BCT["23/2021/TT-BCT<br/>còn hiệu lực"]
   n_85_2026_TT_BTC["85/2026/TT-BTC<br/>còn hiệu lực"]
+  n_117_Q__CHQ -->|bãi bỏ từ 2026-02-01| n_1921_Q__TCHQ
   n_14_2015_TT_BTC -->|bãi bỏ từ 2015-03-16| n_49_2010_TT_BTC
   n_1628_Q__TCHQ -->|thay thế toàn bộ từ 2010-08-01| n_1671_Q__TCHQ
   n_17_2021_TT_BTC -->|sửa đổi| n_14_2015_TT_BTC
