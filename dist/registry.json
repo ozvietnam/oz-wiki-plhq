@@ -18620,7 +18620,8 @@
       "loai": "NGHI_DINH",
       "ten": "Ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện Việt Nam – Tiểu vương quốc Ả Rập Thống nhất (CEPA), giai đoạn 2026–2027",
       "co_quan": "CP",
-      "ngay_ban_hanh": "2026-04-24",
+      "ngay_ban_hanh": "2026-05-05",
+      "hieu_luc_tu": "2026-05-05",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "thue/bieu-thue",
@@ -18641,11 +18642,11 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + hiệu lực 05-05-2026 (chinhphu.vn docid 218021 + TVPL); biểu thuế CEPA VN-UAE giai đoạn 2026-2027",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-19",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đọc toàn văn PDF ký số bậc A trên datafiles.chinhphu.vn (143-ndcp.signed.pdf, 144 trang, ký Phó Thủ tướng Nguyễn Văn Thắng ngày 05-05-2026) và đối chiếu chinhphu.vn (docid=218021): gồm 7 Điều và Phụ lục Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định CEPA Việt Nam – UAE giai đoạn 2026–2027 (chi tiết cấp mã 8 số; Điều 3 khoản 3 quy định cột thuế suất 2026 áp dụng từ 03-02-2026 đến hết 31-12-2026, cột 2027 áp dụng từ 01-01-2027 đến hết 31-12-2027). Điều 6 (Hiệu lực thi hành): khoản 1 quy định Nghị định có hiệu lực thi hành kể từ ngày ký ban hành (05-05-2026) đến hết ngày 31-12-2027; khoản 2 quy định điều khoản chuyển tiếp xử lý tiền thuế nộp thừa đối với tờ khai hải quan hàng hóa nhập khẩu từ UAE đăng ký từ ngày 03-02-2026 (ngày Hiệp định CEPA có hiệu lực) đến trước ngày 05-05-2026 nếu đáp ứng đủ điều kiện hưởng thuế suất CEPA. Điều 7 quy định trách nhiệm thi hành. Đối chiếu tình trạng hiện tại đến 2026-11-21 trên chinhphu.vn: chưa có văn bản sửa đổi, bổ sung, thay thế hay bãi bỏ, đang CON_HIEU_LUC.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trinh thám đêm 19/11 — THIẾU HỤT LỚN: FTA Việt Nam–UAE (CEPA) hiệu lực từ 05-05-2026 mà sổ chưa có biểu thuế ưu đãi. Dùng ngay cho khách giao UAE/Qatar. Cần nạp biểu thuế chi tiết + quy tắc xuất xứ CEPA.",
       "toan_van": "raw/download/datafiles.chinhphu.vn/143-2026-nd-cp.pdf",
@@ -30353,7 +30354,15 @@
       "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #403). Văn bản lõi về thủ tục hải quan đối với hàng hóa XNK, quá cảnh gửi qua dịch vụ chuyển phát nhanh quốc tế (chia nhóm 1, 2, 3; tờ khai trị giá thấp MIC/MEC; địa điểm kiểm tra, giám sát tập trung). Đã được sửa đổi, bổ sung bởi Thông tư 56/2019/TT-BTC và Thông tư 29/2025/TT-BTC.",
       "slug": "191-2015-tt-btc",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "29/2025/TT-BTC",
+            "quan_he": "sua_doi",
+            "so_hieu": "191/2015/TT-BTC"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "191/TB-TCHQ/2024",
@@ -41172,10 +41181,10 @@
       "toan_van": "raw/download/datafiles.chinhphu.vn/24-2026-nd-cp.pdf",
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "số hiệu, tiêu đề, ngày ban hành + hiệu lực 17-01-2026 (thẻ vanban.chinhphu.vn); OCR 4 trang đầu bản ký: Điều 3 liệt kê 4 Phụ lục",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-20",
-        "boi": "zcode@ozvietnam"
+        "pham_vi": "Đã đọc toàn văn PDF ký số bậc A trên datafiles.chinhphu.vn (24-ndcp.signed.pdf, 88 trang, ký Phó Thủ tướng Bùi Thanh Sơn ngày 17-01-2026) và đối chiếu thẻ vanban.chinhphu.vn (docid=216671): gồm 5 Điều và 4 Phụ lục hướng dẫn khoản 2 Điều 6, điểm a khoản 1 Điều 9, điểm a khoản 2 Điều 9 và khoản 2 Điều 37 Luật Hóa chất số 69/2025/QH15 (Điều 3 quy định Phụ lục I — Danh mục hóa chất cơ bản thuộc lĩnh vực công nghiệp hóa chất trọng điểm; Phụ lục II — Danh mục hoá chất sản xuất, kinh doanh có điều kiện; Phụ lục III — Danh mục hoá chất cần kiểm soát đặc biệt; Phụ lục IV — Danh mục hóa chất phải xây dựng Kế hoạch phòng ngừa, ứng phó sự cố hóa chất). Điều 4 (Hiệu lực thi hành) quy định Nghị định có hiệu lực thi hành kể từ ngày ký ban hành (17-01-2026). Điều 5 (Tổ chức thực hiện) quy định trách nhiệm thi hành và việc định kỳ trước ngày 30-06 hằng năm các bộ, cơ quan ngang bộ rà soát, đề xuất điều chỉnh, cập nhật danh mục gửi Bộ Công Thương. Đối chiếu tình trạng hiện tại đến 2026-11-21 trên vanban.chinhphu.vn: chưa có văn bản sửa đổi, bổ sung, thay thế hay bãi bỏ, đang CON_HIEU_LUC.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "4 Phụ lục: I — hóa chất cơ bản công nghiệp hóa chất trọng điểm; II — hóa chất SX, kinh doanh CÓ ĐIỀU KIỆN (786); III — cần kiểm soát đặc biệt; IV — phải xây dựng kế hoạch phòng ngừa, ứng phó sự cố. LƯU Ý QUAN TRỌNG: khai báo hóa chất NHẬP KHẨU theo Điều 6 NĐ 26/2026/NĐ-CP gắn theo CHƯƠNG 28+29 của danh mục XNK (BTC), KHÔNG theo các danh mục này — mở #1475 trước khi gắn nghĩa vụ. PDF 88 trang bản scan (text layer trống) — TODO ca đêm: OCR + trích 4 phụ lục thành CSV theo CAS.",
       "tu_khoa": [
@@ -42647,12 +42656,12 @@
       "toan_van": "raw/download/datafiles.chinhphu.vn/25-2026-nd-cp.pdf",
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Thẻ văn bản vanban.chinhphu.vn (docid=216672): số hiệu 25/2026/NĐ-CP, ngày ban hành 17-01-2026, ngày hiệu lực 17-01-2026, cơ quan Chính phủ, người ký Phó Thủ tướng Bùi Thanh Sơn; phần đầu trích yếu \"Quy định chi tiết và biện pháp để tổ chức, hướng dẫn thi hành…\" trích nguyên văn từ thẻ. Tệp ký số datafiles.chinhphu.vn (1.875.048 byte, sha256 934cfe79e157…) đã tải vào raw/ làm toan_van; máy ca này không có công cụ đọc lớp chữ PDF nên CHƯA trích được điều khoản / cấu trúc chương. Tiêu đề phần sau (…Luật Hóa chất liên quan đến phát triển ngành công nghiệp hóa chất và an toàn, an ninh hóa chất) theo trích yếu thẻ — chưa đối chiếu từng chữ với bản PDF.",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-20",
+        "pham_vi": "Đã đọc toàn văn PDF ký số bậc A trên datafiles.chinhphu.vn (25ndcp.signed.pdf, 44 trang, ký Phó Thủ tướng Bùi Thanh Sơn ngày 17-01-2026) và đối chiếu thẻ vanban.chinhphu.vn (docid=216672): gồm 8 Chương, 41 Điều (trang 1–38) và Phụ lục biểu mẫu (trang 39–44), quy định chi tiết khoản 15 Điều 2, khoản 5 Điều 4, khoản 5 Điều 5, khoản 3 Điều 6, khoản 5 Điều 8, khoản 5 Điều 33, khoản 3 Điều 35, khoản 3 Điều 36, khoản 2 Điều 37, khoản 2 Điều 38, khoản 5 Điều 39, khoản 3 Điều 42, khoản 4 Điều 46 của Luật Hóa chất số 69/2025/QH15. Chương VIII (Điều khoản thi hành): Điều 40 quy định điều khoản chuyển tiếp đối với hợp đồng tư vấn chuyên ngành hóa chất đã ký trước ngày Nghị định có hiệu lực (khoản 1), hạn 31-12-2026 phải xây dựng Kế hoạch phòng ngừa, ứng phó sự cố hóa chất trình thẩm định, phê duyệt đối với cơ sở đã ban hành Biện pháp phòng ngừa nhưng thuộc điểm b khoản 2 Điều 33 (khoản 2), và việc tiếp tục thực hiện Kế hoạch cấp tỉnh đã ban hành (khoản 3); Điều 41 (Hiệu lực thi hành) khoản 1 quy định Nghị định có hiệu lực thi hành kể từ ngày ký ban hành (17-01-2026), khoản 2 quy định trách nhiệm thi hành. Đối chiếu tình trạng hiện tại đến 2026-11-21 trên vanban.chinhphu.vn: chưa có văn bản sửa đổi, bổ sung, thay thế hay bãi bỏ, đang CON_HIEU_LUC.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Nghị định trong bộ văn bản hoá chất ban hành cùng ngày 17-01-2026 (NĐ 24/2026/NĐ-CP danh mục, NĐ 26/2026/NĐ-CP quản lý hoạt động, TT 01/2026/TT-BCT hướng dẫn), đều hướng dẫn Luật Hoá chất 69/2025/QH15. Nạp sau khi tra nguồn bậc A ngày 2026-11-20 (vanban.chinhphu.vn + datafiles.chinhphu.vn). Việc còn lại: đọc toàn văn PDF khi có công cụ OCR/pdf-text, đối chiếu chương-điều rồi mới đặt hieu_luc_da_doi_chieu: true.",
+      "ghi_chu": "Nghị định trong bộ văn bản hoá chất ban hành cùng ngày 17-01-2026 (NĐ 24/2026/NĐ-CP danh mục, NĐ 26/2026/NĐ-CP quản lý hoạt động, TT 01/2026/TT-BCT hướng dẫn), đều hướng dẫn Luật Hoá chất 69/2025/QH15. Đã đọc toàn văn PDF ký số bậc A (44 trang) và hoàn tất đối chiếu chương-điều, điều khoản chuyển tiếp (Điều 40) và điều khoản hiệu lực (Điều 41 khoản 1) ngày 2026-11-21.",
       "tu_khoa": [
         "hoa-chat",
         "cong-nghiep-hoa-chat",
@@ -49210,10 +49219,16 @@
       "ten": "Sửa đổi, bổ sung một số điều của Thông tư 191/2015/TT-BTC quy định thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh gửi qua dịch vụ chuyển phát nhanh quốc tế",
       "co_quan": "BTC",
       "ngay_ban_hanh": "2025-05-26",
+      "hieu_luc_tu": "2025-07-09",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "hai-quan/thu-tuc"
       ],
+      "quan_he": {
+        "sua_doi": [
+          "191/2015/TT-BTC"
+        ]
+      },
       "nguon": [
         {
           "url": "https://chinhphu.vn/?pageid=27160&docid=213831&classid=1",
@@ -49222,16 +49237,21 @@
         {
           "url": "https://thuvienxuatnhapkhau.com/thong-tu-29-2025-tt-btc-sua-doi-thong-tu-191-2015-tt-btc-quy-dinh-thu-tuc-hai-quan-doi-voi-hang-hoa-xuat-khau-nhap-khau-qua-canh-gui-qua-dich-vu-chuyen-phat-nhanh-quoc-te.html",
           "truy_cap": "2026-11-20"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/29-btc.signed.pdf",
+          "truy_cap": "2026-11-21"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + ngày ban hành 26-05-2025 (chinhphu.vn docid 213831 + TVXNK); sửa TT 191/2015 (đã có trong sổ) về hồ sơ HQ hàng chuyển phát nhanh",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-20",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đọc toàn văn PDF ký số bậc A trên datafiles.chinhphu.vn (29-btc.signed.pdf, 20 trang, ký Thứ trưởng Nguyễn Đức Chi ngày 26-05-2025) và đối chiếu thẻ chinhphu.vn (docid=213831): gồm 5 Điều và 2 Phụ lục (Phụ lục I gồm các Mẫu số HQ 02-BKTKTGT, HQ 06a-BKCTHH, HQ 06b-BKCTHH; Phụ lục II quy định chỉ tiêu thông tin và hướng dẫn khai). Điều 1 sửa đổi, bổ sung điểm a khoản 2 Điều 8 và điểm a.3 khoản 1 Điều 10 Thông tư 191/2015/TT-BTC (đã được sửa đổi, bổ sung tại Thông tư 56/2019/TT-BTC); Điều 2 sửa đổi, bổ sung, thay thế các Phụ lục của Thông tư 191/2015/TT-BTC; Điều 3 thay thế một số cụm từ về tên cơ quan hải quan sau sắp xếp tổ chức bộ máy; Điều 4 sửa đổi, bổ sung Điều 4 Thông tư 56/2019/TT-BTC. Điều 5 (Điều khoản thi hành) khoản 1 quy định Thông tư có hiệu lực kể từ ngày 09-07-2025. Đối chiếu tình trạng hiện tại đến 2026-11-21 trên chinhphu.vn: chưa có văn bản sửa đổi, bổ sung, thay thế hay bãi bỏ, đang CON_HIEU_LUC.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Trinh thám đêm 20/11. Thuộc họ hàng bưu chính/chuyển phát (TT 142/2026, 54/VBHN, QĐ 1813 đã có) — đủ chuỗi giấy tờ hàng express. Đối chiếu lên A cùng họ.",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/29-2025-tt-btc.pdf",
       "slug": "29-2025-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}

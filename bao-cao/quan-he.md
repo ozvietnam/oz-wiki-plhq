@@ -66,6 +66,8 @@ flowchart LR
   n_28_2017_N__CP["28/2017/NĐ-CP<br/>còn hiệu lực"]
   n_158_2013_N__CP["158/2013/NĐ-CP<br/>hết hiệu lực"]
   n_285_2025_N__CP["285/2025/NĐ-CP<br/>còn hiệu lực"]
+  n_29_2025_TT_BTC["29/2025/TT-BTC<br/>còn hiệu lực"]
+  n_191_2015_TT_BTC["191/2015/TT-BTC<br/>còn hiệu lực"]
   n_31_2026_Q__TTg["31/2026/QĐ-TTg<br/>còn hiệu lực"]
   n_23_2019_Q__TTg["23/2019/QĐ-TTg<br/>hết hiệu lực"]
   n_336_2026_N__CP["336/2026/NĐ-CP<br/>còn hiệu lực"]
@@ -117,6 +119,7 @@ flowchart LR
   n_28_2017_N__CP -->|sửa đổi từ 2017-05-05| n_158_2013_N__CP
   n_285_2025_N__CP -->|bãi bỏ toàn bộ từ 2025-12-30| n_105_2006_N__CP
   n_285_2025_N__CP -->|bãi bỏ toàn bộ từ 2025-12-30| n_119_2010_N__CP
+  n_29_2025_TT_BTC -->|sửa đổi| n_191_2015_TT_BTC
   n_31_2026_Q__TTg -->|thay thế từ 2026-08-14| n_23_2019_Q__TTg
   n_336_2026_N__CP -->|thay thế từ 2026-10-15| n_85_2019_N__CP
   n_35_2018_QH14 -->|sửa đổi từ 2019-01-01| n_54_2014_QH13

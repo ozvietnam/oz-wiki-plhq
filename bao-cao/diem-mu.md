@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-11-21
 
-Tổng 3814 điểm: **8 cao**, 215 vừa, 3591 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 3809 điểm: **8 cao**, 215 vừa, 3586 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -12,11 +12,11 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Văn bản danh mục chưa trích bảng mã HS | Vừa | 3 | `danh-muc-hs` |
 | THIEU_VBHN | Vừa | 1 | `nap-lam-sach` |
 | Văn bản khung thiếu thông tin | Vừa | 1 | `he-thong-hoa` |
-| Hiệu lực chưa đối chiếu nguồn A | Thấp | 1411 | `hieu-luc` |
+| Hiệu lực chưa đối chiếu nguồn A | Thấp | 1407 | `hieu-luc` |
 | Chưa có nguồn chính thống | Thấp | 1404 | `truy-vet-nguon` |
 | Văn bản của cơ quan đã sáp nhập | Thấp | 744 | `do-tham` |
 | Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay | Thấp | 18 | `hieu-luc` |
-| Chưa có toàn văn | Thấp | 16 | `nap-lam-sach` |
+| Chưa có toàn văn | Thấp | 15 | `nap-lam-sach` |
 | HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp) | Thấp | 4 | `hieu-luc` |
 
 ## Sắp hết hiệu lực (≤60 ngày) (8)
@@ -94,7 +94,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 
 - [ ] **45/2024/TT-BCT: chưa có tiêu đề, ngày, nguồn** — Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.
 
-## Hiệu lực chưa đối chiếu nguồn A (1411)
+## Hiệu lực chưa đối chiếu nguồn A (1407)
 
 - [ ] **08/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **10/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
@@ -136,7 +136,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **1039/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **104/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - [ ] **1049/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- … và 1371 điểm khác (xem bao-cao/diem-mu.json)
+- … và 1367 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Chưa có nguồn chính thống (1404)
 
@@ -247,7 +247,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Biểu thuế bieu-thue@2026.04.05 còn dẫn 2093/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC** — văn bản hiện hành của biểu/danh mục — Áp thuế chống bán phá giá đối với Một số sản phẩm kính nổi không màu (ID, MA). Sổ ghi HET_HIEU_LUC từ 2026-06-14 (đã đối chiếu nguồn A), không có văn bản thay/bãi trong sổ — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.
 - [ ] **Biểu thuế bieu-thue@2026.04.05 còn dẫn 2491/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC** — văn bản hiện hành của biểu/danh mục — Áp thuế chống bán phá giá đối với Một số sản phẩm ván sợi gỗ (TH, CN). Sổ ghi bị thay bởi 121/QĐ-BCT (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.
 
-## Chưa có toàn văn (16)
+## Chưa có toàn văn (15)
 
 - [ ] **09/2014/NĐ-CP: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "09/2014/NĐ-CP" --ghi
 - [ ] **18/NQ-CP: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "18/NQ-CP" --ghi
@@ -255,7 +255,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **1925/QĐ-TCHQ: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "1925/QĐ-TCHQ" --ghi
 - [ ] **2079/QĐ-TCHQ: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "2079/QĐ-TCHQ" --ghi
 - [ ] **2538/QĐ-TCHQ: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "2538/QĐ-TCHQ" --ghi
-- [ ] **29/2025/TT-BTC: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "29/2025/TT-BTC" --ghi
 - [ ] **3366/CHQ-GSQL: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "3366/CHQ-GSQL" --ghi
 - [ ] **45/2024/TT-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "45/2024/TT-BCT" --ghi
 - [ ] **4814/QĐ-BCA: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "4814/QĐ-BCA" --ghi
