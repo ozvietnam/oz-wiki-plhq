@@ -30,8 +30,32 @@ xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF Công báo số 751+752 ngày 15-06-2025 (lớp chữ): Điều 3 hiệu lực 21-07-2025; tình trạng hiện tại: sổ không có văn bản sau ghi thay/bãi TT 34/2025; Điều 20 TT 48/2026/TT-BCT (PDF Công báo số 521) không liệt kê TT 34/2025'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      khoan: 1
+      noi_dung: 'Sửa đổi, bổ sung khoản 1 Điều 2 như sau: “1. Cư dân biên giới mua bán, trao đổi hàng hóa qua biên giới quy định tại khoản 1 Điều 1 Nghị định số 122/2024/NĐ-CP”.'
+      trang_pdf: 1
+      sha256_pdf: 519db348308624b6ca28c2053291cdf94f3c41162f62378449bb01485281a7f6
+    - dieu: 1
+      khoan: 2
+      noi_dung: 'Sửa đổi, bổ sung Điều 3 như sau: “Điều 3. Hàng hóa mua bán, trao đổi qua biên giới của cư dân biên giới 1. Hàng hóa xuất khẩu dưới hình thức mua bán, trao đổi của cư dân biên giới thực hiện theo quy định của pháp luật hiện hành.'
+      trang_pdf: 1
+      sha256_pdf: 519db348308624b6ca28c2053291cdf94f3c41162f62378449bb01485281a7f6
+    - dieu: 1
+      khoan: 2
+      noi_dung: '2. Hàng hóa được nhập khẩu dưới hình thức mua bán, trao đổi của cư dân biên giới quy định tại Phụ lục I kèm theo Thông tư này. 3. Các mặt hàng ngoài danh mục quy định tại khoản 2 Điều này không được nhập khẩu dưới hình thức mua bán, trao đổi hàng hóa của cư dân biên giới. 4. Trường hợp cần đảm bảo an toàn thực phẩm, phòng ngừa dịch bệnh qua biên giới, Bộ Công Thương sau khi trao đổi với các Bộ, ngành liên quan quyết định tạm ngừng nhập khẩu một số mặt hàng trong danh mục hàng hóa mua bán, trao đổi của cư dân biên giới ban hành theo quy định tại khoản 2 Điều này trên từng địa bàn với thời gian cụ thể”.'
+      trang_pdf: 2
+      sha256_pdf: 519db348308624b6ca28c2053291cdf94f3c41162f62378449bb01485281a7f6
+    - dieu: 2
+      noi_dung: 'Thay thế Phụ lục I Danh mục hàng hóa nhập khẩu dưới hình thức mua bán, trao đổi của cư dân biên giới tại Thông tư số 02/2018/TT-BCT bằng Phụ lục ban hành theo Thông tư này.'
+      trang_pdf: 2
+      sha256_pdf: 519db348308624b6ca28c2053291cdf94f3c41162f62378449bb01485281a7f6
+    - dieu: 3
+      noi_dung: 'Thông tư này có hiệu lực thi hành kể từ ngày 21 tháng 7 năm 2025.'
+      trang_pdf: 2
+      sha256_pdf: 519db348308624b6ca28c2053291cdf94f3c41162f62378449bb01485281a7f6
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1764 mã HS).
 
 toan_van: raw/download/congbaocdn.chinhphu.vn/34-2025-tt-bct.pdf
