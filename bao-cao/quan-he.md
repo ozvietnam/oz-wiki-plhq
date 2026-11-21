@@ -168,6 +168,8 @@ flowchart LR
   n_11_2021_TT_BNNPTNT["11/2021/TT-BNNPTNT<br/>hết hiệu lực"]
   n_03_2024_TT_BNNPTNT["03/2024/TT-BNNPTNT<br/>còn hiệu lực"]
   n_34_2018_TT_BNNPTNT["34/2018/TT-BNNPTNT<br/>hết hiệu lực một phần"]
+  n_04_VBHN_BNNMT["04/VBHN-BNNMT<br/>còn hiệu lực"]
+  n_26_2025_TT_BNNMT["26/2025/TT-BNNMT<br/>còn hiệu lực"]
   n_06_2019_N__CP["06/2019/NĐ-CP<br/>còn hiệu lực"]
   n_32_2006_N__CP["32/2006/NĐ-CP<br/>hết hiệu lực"]
   n_27_2018_TT_BNNPTNT["27/2018/TT-BNNPTNT<br/>hết hiệu lực"]
@@ -249,7 +251,6 @@ flowchart LR
   n_24_2026_TT_BYT["24/2026/TT-BYT<br/>còn hiệu lực"]
   n_05_2022_TT_BYT["05/2022/TT-BYT<br/>còn hiệu lực"]
   n_59_2025_TT_BYT["59/2025/TT-BYT<br/>hết hiệu lực"]
-  n_26_2025_TT_BNNMT["26/2025/TT-BNNMT<br/>còn hiệu lực"]
   n_26_2022_TT_BNNPTNT["26/2022/TT-BNNPTNT<br/>hết hiệu lực"]
   n_29_2019_TT_BNN["29/2019/TT-BNN<br/>hết hiệu lực"]
   n_26_2026_N__CP["26/2026/NĐ-CP<br/>còn hiệu lực"]
@@ -309,6 +310,7 @@ flowchart LR
   n_01_2021_TT_BL_TBXH -->|thay thế từ 2021-07-18| n_22_2018_TT_BL_TBXH
   n_01_2022_TT_BNNPTNT -->|sửa đổi thay thế Phần A Mục 16 Phụ lục I bằng Phụ lục XXIII ban hành kèm theo TT 01/2022/TT-BNNPTNT từ 2022-03-04| n_11_2021_TT_BNNPTNT
   n_03_2024_TT_BNNPTNT -->|bãi bỏ một số quy định từ 2024-05-16| n_34_2018_TT_BNNPTNT
+  n_04_VBHN_BNNMT -->|hợp nhất| n_26_2025_TT_BNNMT
   n_06_2019_N__CP -->|thay thế từ 2019-03-10| n_32_2006_N__CP
   n_06_2019_N__CP -->|bãi bỏ các quy định về quản lý gỗ, thực vật rừng từ 2019-03-10| n_27_2018_TT_BNNPTNT
   n_06_VBHN_BNNPTNT -->|hợp nhất| n_33_2014_TT_BNNPTNT
@@ -539,6 +541,9 @@ flowchart LR
   n_11_2021_TT_BNNPTNT["11/2021/TT-BNNPTNT<br/>hết hiệu lực"]
   n_16_2021_TT_BNNPTNT["16/2021/TT-BNNPTNT<br/>hết hiệu lực"]
   n_01_2022_TT_BNNPTNT["01/2022/TT-BNNPTNT<br/>hết hiệu lực một phần"]
+  n_03_VBHN_BCT["03/VBHN-BCT<br/>còn hiệu lực"]
+  n_98_2020_N__CP["98/2020/NĐ-CP<br/>còn hiệu lực"]
+  n_96_2023_N__CP["96/2023/NĐ-CP<br/>còn hiệu lực"]
   n_04_2021_TT_BXD["04/2021/TT-BXD<br/>hết hiệu lực"]
   n_05_2019_TT_BXD["05/2019/TT-BXD<br/>hết hiệu lực"]
   n_07_2023_TT_NHNN["07/2023/TT-NHNN<br/>còn hiệu lực"]
@@ -594,6 +599,8 @@ flowchart LR
   n_01_2024_TT_BNNPTNT -->|thay thế từ 2024-03-20| n_11_2021_TT_BNNPTNT
   n_01_2024_TT_BNNPTNT -->|sửa đổi mục 3.1, mục 4, mục 8, mục 9 Phụ lục từ 2024-03-20| n_16_2021_TT_BNNPTNT
   n_01_2024_TT_BNNPTNT -->|sửa đổi bãi bỏ Điều 9 và Phụ lục XXIII từ 2024-03-20| n_01_2022_TT_BNNPTNT
+  n_03_VBHN_BCT -->|hợp nhất| n_98_2020_N__CP
+  n_03_VBHN_BCT -->|hợp nhất| n_96_2023_N__CP
   n_04_2021_TT_BXD -->|thay thế toàn bộ từ 2021-08-15| n_05_2019_TT_BXD
   n_07_2023_TT_NHNN -->|sửa đổi| n_38_2018_TT_NHNN
   n_07_2026_TT_BCT -->|sửa đổi Điều 6–10, bãi Điều 11, thay Phụ lục I–II từ 2026-04-10| n_37_2013_TT_BCT
@@ -638,6 +645,8 @@ flowchart LR
 
 ```mermaid
 flowchart LR
+  n_102_2021_N__CP["102/2021/NĐ-CP<br/>còn hiệu lực"]
+  n_128_2020_N__CP["128/2020/NĐ-CP<br/>hết hiệu lực"]
   n_107_2016_QH13["107/2016/QH13<br/>còn hiệu lực"]
   n_45_2005_QH11["45/2005/QH11<br/>hết hiệu lực"]
   n_108_2025_QH15["108/2025/QH15<br/>còn hiệu lực"]
@@ -700,6 +709,7 @@ flowchart LR
   n_38_2015_TT_BTC["38/2015/TT-BTC<br/>còn hiệu lực"]
   n_39_2018_TT_BTC["39/2018/TT-BTC<br/>còn hiệu lực"]
   n_121_2025_TT_BTC["121/2025/TT-BTC<br/>còn hiệu lực"]
+  n_102_2021_N__CP -->|sửa đổi sửa đổi, bổ sung một số điều của Nghị định 128/2020/NĐ-CP quy định xử phạt vi phạm hành chính trong lĩnh vực hải quan (bổ sung Điều 2a; sửa đổi, bổ sung một số khoản của các Điều 5, 7, 8, 11, 14, 20, 23, 28, 29, 30, 31, 32, 34, 36 và bãi bỏ khoản 3 Điều 5) từ 2022-01-01| n_128_2020_N__CP
   n_107_2016_QH13 -->|thay thế từ 2016-09-01| n_45_2005_QH11
   n_108_2025_QH15 -->|thay thế từ 2026-07-01| n_38_2019_QH14
   n_108_2025_QH15 -->|thay thế từ 2026-07-01| n_56_2024_QH15
@@ -746,6 +756,8 @@ flowchart LR
   n_47_2009_N__CP["47/2009/NĐ-CP<br/>hết hiệu lực"]
   n_169_2026_N__CP["169/2026/NĐ-CP<br/>còn hiệu lực"]
   n_128_2020_N__CP["128/2020/NĐ-CP<br/>hết hiệu lực"]
+  n_23_VBHN_BTC["23/VBHN-BTC<br/>hết hiệu lực"]
+  n_102_2021_N__CP["102/2021/NĐ-CP<br/>còn hiệu lực"]
   n_26_2004_QH11["26/2004/QH11<br/>hết hiệu lực"]
   n_09_1998_QH10["09/1998/QH10<br/>hết hiệu lực"]
   n_282_2025_N__CP["282/2025/NĐ-CP<br/>còn hiệu lực"]
@@ -755,6 +767,8 @@ flowchart LR
   n_155_2016_TT_BTC["155/2016/TT-BTC<br/>hết hiệu lực"]
   n_109_2011_N__CP -->|sửa đổi từ 2012-01-20| n_47_2009_N__CP
   n_169_2026_N__CP -->|thay thế toàn bộ| n_128_2020_N__CP
+  n_23_VBHN_BTC -->|hợp nhất| n_128_2020_N__CP
+  n_23_VBHN_BTC -->|hợp nhất| n_102_2021_N__CP
   n_26_2004_QH11 -->|sửa đổi từ 2004-10-01| n_09_1998_QH10
   n_282_2025_N__CP -->|thay thế toàn bộ từ 2025-12-15| n_144_2021_N__CP
   n_58_2005_QH11 -->|sửa đổi từ 2006-06-01| n_09_1998_QH10
