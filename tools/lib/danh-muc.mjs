@@ -124,6 +124,12 @@ export function kiemDinhDang(item) {
     if (o.ma_hs && !MA_HS.test(o.ma_hs)) loi.push(`${at} ma_hs "${o.ma_hs}" phải là 4, 6 hoặc 8 chữ số, không dấu chấm`);
     if (!o.ma_hs && !o.dan_chieu) loi.push(`${at} thiếu ma_hs (hoặc ghi dan_chieu nếu phụ lục dẫn sang văn bản khác)`);
     if (!o.mo_ta) loi.push(`${at} thiếu mo_ta`);
+    else {
+      if (o.mo_ta.startsWith('-')) loi.push(`${at} mo_ta không được bắt đầu bằng "-" (phải ghép ngữ cảnh nhóm cha)`);
+      if (/^(?:-\s*)*Loại khác\.?$/i.test(o.mo_ta)) loi.push(`${at} mo_ta "${o.mo_ta}" thiếu ngữ cảnh nhóm cha (không để "Loại khác" cộc lốc)`);
+      if ((o.mo_ta.match(/\(/g) || []).length !== (o.mo_ta.match(/\)/g) || []).length) loi.push(`${at} mo_ta lệch dấu ngoặc đơn "(" và ")"`);
+    }
+    if (o.dan_chieu && /^QCVN\b/i.test(o.dan_chieu)) loi.push(`${at} dan_chieu "${o.dan_chieu}" không được ghi QCVN (đặt QCVN vào dieu_kien; dan_chieu chỉ ghi số hiệu văn bản)`);
     if (!LOAI_TAC_DONG.includes(o.loai_tac_dong)) loi.push(`${at} loai_tac_dong "${o.loai_tac_dong}" không hợp lệ (${LOAI_TAC_DONG.join(', ')})`);
     if (o.muc_rui_ro && !MUC_RUI_RO.includes(o.muc_rui_ro)) loi.push(`${at} muc_rui_ro "${o.muc_rui_ro}" không hợp lệ (${MUC_RUI_RO.join(', ')})`);
     if (o.trang && !/^\d+$/.test(o.trang)) loi.push(`${at} trang phải là số`);

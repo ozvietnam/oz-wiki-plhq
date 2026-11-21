@@ -188,6 +188,30 @@ writeFileSync(join(rLech, 'danh-muc', 'lech.csv'), HEAD + '22030091,Bia,1,Phụ 
 const kLech = kiemTra(napSo(rLech), { root: rLech });
 t('danh mục: lệch số cột CSV → lỗi kèm tên tệp + số dòng', kLech.loi.some((e) => e.file === 'danh-muc/lech.csv' && /dòng 2/.test(e.msg) && /cột/.test(e.msg)));
 
+// 6a. Khóa 4 bất biến chất lượng mo_ta & dan_chieu trong kiemDinhDang (OZV-1709)
+const dmOk6 = dm6.find((x) => x.tep === 'danh-muc/dm.csv');
+t('danh mục (OZV-1709): bảng hợp lệ không vi phạm mo_ta/dan_chieu → 0 lỗi', kiemDinhDang(dmOk6).length === 0, JSON.stringify(kiemDinhDang(dmOk6)));
+const rMoTaBad = soGia({
+  'mota-bad.yaml': `so_hieu: 98/2026/TT-BCT\nloai: THONG_TU\nten: Fixture 4 lỗi mo_ta và dan_chieu\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\ndanh_muc_hs: {tep: danh-muc/mota-bad.csv}\n${XM}\n`,
+});
+mkdirSync(join(rMoTaBad, 'danh-muc'), { recursive: true });
+writeFileSync(join(rMoTaBad, 'danh-muc', 'mota-bad.csv'), HEAD
+  + '22030091,- Bia đóng chai,1,Phụ lục,KIEM_TRA_ATTP,,,,1\n'
+  + '22030099,Loại khác,2,Phụ lục,KIEM_TRA_ATTP,,,,1\n'
+  + '19019099,"Chế phẩm thực phẩm (chưa đóng gói",3,Phụ lục,KIEM_TRA_ATTP,,,,1\n'
+  + '85444299,Dây cáp điện hạ thế,4,Phụ lục,KIEM_TRA_CHAT_LUONG,,QCVN 4:2009/BKHCN,QCVN 4:2009/BKHCN,2\n');
+const soMoTaBad = napSo(rMoTaBad);
+const itemMoTaBad = napDanhMuc(soMoTaBad, rMoTaBad)[0];
+const loiMoTaBad = kiemDinhDang(itemMoTaBad);
+const kMoTaBad = kiemTra(soMoTaBad, { root: rMoTaBad });
+t('danh mục (OZV-1709): kiemDinhDang và kiemTra chặn đủ 4 lỗi (mo_ta bắt đầu bằng "-", cộc lốc "Loại khác", lệch ngoặc đơn, dan_chieu ghi QCVN)',
+  loiMoTaBad.some((m) => /mota-bad\.csv:2 mo_ta không được bắt đầu bằng "-"/.test(m))
+  && loiMoTaBad.some((m) => /mota-bad\.csv:3 mo_ta "Loại khác" thiếu ngữ cảnh nhóm cha/.test(m))
+  && loiMoTaBad.some((m) => /mota-bad\.csv:4 mo_ta lệch dấu ngoặc đơn/.test(m))
+  && loiMoTaBad.some((m) => /mota-bad\.csv:5 dan_chieu "QCVN 4:2009\/BKHCN" không được ghi QCVN/.test(m))
+  && kMoTaBad.loi.filter((e) => /mota-bad\.csv/.test(e.msg)).length === 4,
+  JSON.stringify(loiMoTaBad));
+
 // 6a'. Lược đồ 11 cột danh-muc/*-cas.csv (OZV-1700)
 const HEAD_CAS = `${COT_CAS.join(',')}\n`;
 const rCasOk = soGia({
