@@ -16,13 +16,38 @@ nguon:
 trich_dan_trong_bieu_thue: 20
 xac_minh:
   muc: NGUON_A
-  pham_vi: PDF Công báo CDN; Điều 4 khoản 1 hiệu lực 14-08-2023 (sửa ngày sổ từ 15-08-2023)
+  pham_vi: 'PDF Công báo số 837 + 838 ngày 20-07-2023 (raw/download/congbaocdn.chinhphu.vn/07-2023-tt-nhnn.pdf, 5 trang, ký Phó Thống đốc Đào Minh Tú ngày 30-06-2023, SHA-256 ea7e59aa8cd6d814241a07bb3fdceb9a3e4bf9d6730ed0bb6377dbe403aad6c4) và wiki/sources/07-2023-tt-nhnn.md: Điều 1 sửa đổi Điều 4 và Điều 2 thay thế Phụ lục của TT 38/2018/TT-NHNN; Điều 4 khoản 1 hiệu lực từ ngày 14-08-2023; đối chiếu đang còn hiệu lực.'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: '“Điều 4. Nhập khẩu hàng hóa 1. Trên cơ sở văn bản chỉ định và cho phép cơ sở in, đúc tiền được nhập khẩu hàng hóa phục vụ hoạt động in, đúc tiền quy định tại khoản 2 Điều 3 Thông tư này, cơ sở in, đúc tiền thực hiện việc nhập khẩu hàng hóa phục vụ hoạt động in, đúc tiền quy định tại Phụ lục Danh mục hàng hóa chỉ định cơ sở in, đúc tiền nhập khẩu phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước Việt Nam ban hành kèm theo Thông tư này như sau: a) Đối với hàng hóa thuộc mục có số thứ tự 1, 2, 3, 5: Cơ sở in, đúc tiền căn cứ hợp đồng in, đúc tiền giữa cơ sở in, đúc tiền với Ngân hàng Nhà nước để thực hiện việc nhập khẩu hàng hóa; b) Đối với hàng hóa thuộc mục có số thứ tự 4, 6, 7: Cơ sở in, đúc tiền căn cứ văn bản phê duyệt chủ trương đầu tư, quyết định đầu tư của cấp có thẩm quyền theo quy định tại Điều 4 Thông tư số 07/2020/TT-NHNN ngày 30/6/2020 của Thống đốc Ngân hàng Nhà nước Việt Nam quy định việc đầu tư, mua sắm hàng hóa phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước Việt Nam để thực hiện việc nhập khẩu hàng hóa. 2. Thống đốc Ngân hàng Nhà nước ủy quyền Cục trưởng Cục Phát hành và Kho quỹ có văn bản xác nhận việc cơ sở in, đúc tiền nhập khẩu hàng hóa phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước theo hợp đồng mua bán hàng hóa hoặc các hình thức văn bản khác giữa cơ sở in, đúc tiền và đơn vị cung cấp hàng hóa. 3. Khi làm thủ tục nhập khẩu, cơ sở in, đúc tiền gửi Cơ quan hải quan 01 bản chính văn bản xác nhận của Ngân hàng Nhà nước kèm hồ sơ hải quan theo quy định pháp luật.”'
+      trang_pdf: 2
+      sha256_pdf: ea7e59aa8cd6d814241a07bb3fdceb9a3e4bf9d6730ed0bb6377dbe403aad6c4
+    - dieu: 2
+      noi_dung: 'Thay thế Phụ lục ban hành kèm theo Thông tư số 38/2018/TT-NHNN bằng Phụ lục Danh mục hàng hóa chỉ định cơ sở in, đúc tiền nhập khẩu phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước Việt Nam ban hành kèm theo Thông tư này.'
+      trang_pdf: 2
+      sha256_pdf: ea7e59aa8cd6d814241a07bb3fdceb9a3e4bf9d6730ed0bb6377dbe403aad6c4
+    - dieu: 3
+      noi_dung: 'Chánh Văn phòng; Cục trưởng Cục Phát hành và Kho quỹ; Thủ trưởng các đơn vị thuộc Ngân hàng Nhà nước, cơ sở in, đúc tiền chịu trách nhiệm tổ chức thực hiện Thông tư này.'
+      trang_pdf: 2
+      sha256_pdf: ea7e59aa8cd6d814241a07bb3fdceb9a3e4bf9d6730ed0bb6377dbe403aad6c4
+    - dieu: 4
+      khoan: 1
+      noi_dung: '1. Thông tư này có hiệu lực thi hành từ ngày 14 tháng 8 năm 2023.'
+      trang_pdf: 3
+      sha256_pdf: ea7e59aa8cd6d814241a07bb3fdceb9a3e4bf9d6730ed0bb6377dbe403aad6c4
+    - dieu: 4
+      khoan: 2
+      noi_dung: '2. Thay thế cụm từ “Mã số theo biểu thuế nhập khẩu” thành “Mã số theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam (sau đây gọi là Mã số HS)” quy định tại Danh mục máy móc, thiết bị, nguyên liệu, vật tư, linh kiện, bộ phận, phụ tùng nhập khẩu phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước Việt Nam ban hành kèm theo Thông tư số 01/2017/TT-NHNN ngày 07/02/2017 của Thống đốc Ngân hàng Nhà nước Việt Nam ban hành Danh mục máy móc, thiết bị, nguyên liệu, vật tư, linh kiện, bộ phận, phụ tùng nhập khẩu phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước Việt Nam.'
+      trang_pdf: 3
+      sha256_pdf: ea7e59aa8cd6d814241a07bb3fdceb9a3e4bf9d6730ed0bb6377dbe403aad6c4
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 20 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn). Đã đối chiếu PDF Công báo: hiệu lực 14-08-2023 (không phải 15-08)'
 quan_he:
   sua_doi:
   - so_hieu: 38/2018/TT-NHNN
-    can_cu: Điều 1 TT 07/2023/TT-NHNN
-toan_van: raw/download/congbaocdn.chinhphu.vn/07-2023-tt-nhnn.pdf
+    can_cu: Điều 1, Điều 2 và khoản 1 Điều 4 TT 07/2023/TT-NHNN
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/07-2023-tt-nhnn.pdf
+  - wiki/sources/07-2023-tt-nhnn.md

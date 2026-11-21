@@ -13,7 +13,7 @@ quan_he:
     - so_hieu: 26/2023/NĐ-CP
       pham_vi: Phụ lục I — thuế suất thuế xuất khẩu một số mặt hàng thuộc nhóm 25.29 và 81.06
       tu_ngay: '2026-07-23'
-      can_cu: Điều 1, khoản 1 Điều 2 NĐ 201/2026/NĐ-CP
+      can_cu: Điều 1, Điều 2, khoản 1 Điều 3 NĐ 201/2026/NĐ-CP
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-201-2026-nd-cp-469729.htm
     truy_cap: '2026-11-12'
@@ -23,9 +23,41 @@ nguon:
     truy_cap: '2026-11-12'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'PDF Công báo số 343+344 ngày 23-06-2026 (5 trang, có lớp chữ, ký Phó Thủ tướng Hồ Đức Phớc ngày 08-06-2026) + congbao.chinhphu.vn: Điều 1 sửa đổi, bổ sung mức thuế suất thuế xuất khẩu của một số mặt hàng thuộc nhóm 25.29 (Tràng thạch; leucite; nepheline và nepheline syenite; khoáng fluorspar) và nhóm 81.06 (Bismut và các sản phẩm của chúng, kể cả phế liệu và mảnh vụn) tại Phụ lục I - Biểu thuế xuất khẩu theo Danh mục mặt hàng chịu thuế ban hành kèm theo Nghị định 26/2023/NĐ-CP ngày 31-05-2023; Điều 2 khoản 1 quy định hiệu lực thi hành từ ngày 23-07-2026. Đối chiếu đến 12-11-2026 còn hiệu lực.'
+  pham_vi: 'PDF Công báo số 343 ngày 23-06-2026 (5 trang, có lớp chữ, ký Phó Thủ tướng Nguyễn Văn Thắng ngày 08-06-2026, SHA-256 d1c7aafb2dc17495848b00291110f672310b86e31b592b1dea6aa954afcc09da) + congbao.chinhphu.vn + wiki/sources/201-2026-nd-cp.md: Điều 1 sửa đổi, bổ sung mức thuế suất thuế xuất khẩu của một số mặt hàng thuộc nhóm 25.29 (Tràng thạch; lơxit, nephelin và nephelin xienit; khoáng fluorite) và nhóm 81.06 (Bismut và các sản phẩm làm từ bismut, kể cả phế liệu và mảnh vụn) tại Phụ lục I - Biểu thuế xuất khẩu theo Danh mục mặt hàng chịu thuế ban hành kèm theo Nghị định 26/2023/NĐ-CP ngày 31-05-2023; Điều 2 thay thế cụm từ tên Bộ quản lý tại Nghị định 26/2023/NĐ-CP; Điều 3 khoản 1 quy định hiệu lực thi hành từ ngày 23-07-2026. Đối chiếu đến 21-11-2026 còn hiệu lực.'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-12'
-  boi: tho-05-ai-live@ozvietnam
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Sửa đổi, bổ sung thuế suất thuế xuất khẩu của một số mặt hàng quy định tại Phụ lục I - Biểu thuế xuất khẩu theo Danh mục mặt hàng chịu thuế ban hành kèm theo Nghị định số 26/2023/NĐ-CP thành thuế suất thuế xuất khẩu mới quy định tại Phụ lục ban hành kèm theo Nghị định này.'
+      trang_pdf: 2
+      sha256_pdf: d1c7aafb2dc17495848b00291110f672310b86e31b592b1dea6aa954afcc09da
+    - dieu: 2
+      khoan: 1
+      noi_dung: '1. Thay thế cụm từ “Bộ Kế hoạch và Đầu tư” tại khoản 1 Điều 6, điểm a.1 khoản 3 Điều 8, điểm c.2 khoản 3 Điều 9, khoản 2 Điều 11, điểm b.1.1 và điểm b.9.1 khoản 2.2 Mục II Phụ lục II bằng cụm từ “Bộ Tài chính”.'
+      trang_pdf: 2
+      sha256_pdf: d1c7aafb2dc17495848b00291110f672310b86e31b592b1dea6aa954afcc09da
+    - dieu: 2
+      khoan: 2
+      noi_dung: '2. Thay thế cụm từ “Bộ Giao thông vận tải” tại điểm b.4 khoản 2.2 Mục II Phụ lục II bằng cụm từ “Bộ Xây dựng”.'
+      trang_pdf: 2
+      sha256_pdf: d1c7aafb2dc17495848b00291110f672310b86e31b592b1dea6aa954afcc09da
+    - dieu: 2
+      khoan: 3
+      noi_dung: '3. Thay thế cụm từ “Bộ Thông tin và Truyền thông” tại điểm b.8 khoản 2.2 Mục II Phụ lục II, Mẫu số 03 và Mẫu số 04 bằng cụm từ “Bộ Khoa học và Công nghệ”.'
+      trang_pdf: 2
+      sha256_pdf: d1c7aafb2dc17495848b00291110f672310b86e31b592b1dea6aa954afcc09da
+    - dieu: 3
+      khoan: 1
+      noi_dung: '1. Nghị định này có hiệu lực thi hành từ ngày 23 tháng 7 năm 2026.'
+      trang_pdf: 2
+      sha256_pdf: d1c7aafb2dc17495848b00291110f672310b86e31b592b1dea6aa954afcc09da
+    - dieu: 3
+      khoan: 2
+      noi_dung: '2. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này.'
+      trang_pdf: 3
+      sha256_pdf: d1c7aafb2dc17495848b00291110f672310b86e31b592b1dea6aa954afcc09da
 ghi_chu: 'Trinh sát đêm 9/11, nạp toàn văn và đối chiếu hiệu lực ngày 12/11. Biểu thuế xuất khẩu sửa đổi từ 23-07-2026 đối với nhóm 25.29 và 81.06 tại Phụ lục I Nghị định 26/2023/NĐ-CP.'
-toan_van: raw/download/congbaocdn.chinhphu.vn/201-2026-nd-cp.pdf
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/201-2026-nd-cp.pdf
+  - wiki/sources/201-2026-nd-cp.md
