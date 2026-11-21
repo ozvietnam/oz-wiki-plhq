@@ -167,6 +167,23 @@ const kChanBad = kiemTra(napSo(soGia({
   'bad.yaml': `so_hieu: 1/2026/TT-BCT\nloai: THONG_TU\nten: Chan sai\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\nxac_minh: {muc: CHUA_XAC_MINH, hieu_luc_da_doi_chieu: false, ngay: "2026-10-04", chan: {ma: SAI_MA, ngay: "2026-10-04", viec_tiep: "x"}}\n`,
 })), { today: '2026-10-04' });
 t('chan: ma không hợp lệ → lỗi kiểm', kChanBad.loi.some((e) => /chan\.ma/.test(e.msg)));
+const rChanDaDoiChieu = soGia({
+  'ok-thieu-pdf.yaml': `so_hieu: 09/2014/NĐ-CP\nloai: NGHI_DINH\nten: Quy định cơ cấu tổ chức Ban Cơ yếu Chính phủ\nco_quan: CP\ntinh_trang: CON_HIEU_LUC\nnhanh: [bo-may]\nnguon: [{url: "https://vanban.chinhphu.vn/?docid=219388", truy_cap: "2026-11-15"}]\nxac_minh: {muc: NGUON_A, hieu_luc_da_doi_chieu: true, ngay: "2026-11-15", chan: {ma: THIEU_PDF_A, ngay: "2026-11-21", viec_tiep: "Cổng chính thống không phát hành tệp toàn văn công khai"}}\n`,
+});
+const soChanDaDoiChieu = napSo(rChanDaDoiChieu);
+const kChanDaDoiChieu = kiemTra(soChanDaDoiChieu, { today: '2026-11-21' });
+const dmChanDaDoiChieu = timDiemMu(soChanDaDoiChieu, { today: '2026-11-21', root: rChanDaDoiChieu, nhuCau: null });
+t('chan: hieu_luc_da_doi_chieu=true kèm THIEU_PDF_A khi chưa có toan_van → hợp lệ và đóng KHONG_TOAN_VAN',
+  kChanDaDoiChieu.loi.length === 0
+  && !dmChanDaDoiChieu.some((d) => ['KHONG_TOAN_VAN', 'HIEU_LUC_CHUA_DOI_CHIEU'].includes(d.ma)),
+  JSON.stringify({ loi: kChanDaDoiChieu.loi, dm: dmChanDaDoiChieu.filter((d) => d.muc_tieu === '09/2014/NĐ-CP') }));
+const kChanDaDoiChieuConflict = kiemTra(napSo(soGia({
+  'conflict-ma.yaml': `so_hieu: 2/2026/TT-BCT\nloai: THONG_TU\nten: Chan xung đột\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\nnguon: [{url: "https://vanban.chinhphu.vn/?docid=1", truy_cap: "2026-10-04"}]\nxac_minh: {muc: NGUON_A, hieu_luc_da_doi_chieu: true, ngay: "2026-10-04", chan: {ma: THIEU_BAI_TUONG_MINH, ngay: "2026-10-04", viec_tiep: "x"}}\n`,
+  'conflict-tv.yaml': `so_hieu: 3/2026/TT-BCT\nloai: THONG_TU\nten: Đã có toàn văn vẫn giữ THIEU_PDF_A\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\ntoan_van: raw/download/x.pdf\nnguon: [{url: "https://vanban.chinhphu.vn/?docid=1", truy_cap: "2026-10-04"}]\nxac_minh: {muc: NGUON_A, hieu_luc_da_doi_chieu: true, ngay: "2026-10-04", chan: {ma: THIEU_PDF_A, ngay: "2026-10-04", viec_tiep: "x"}}\n`,
+})), { today: '2026-10-04' });
+t('chan: hieu_luc_da_doi_chieu=true kèm mã chan khác THIEU_PDF_A hoặc đã có toan_van → lỗi kiểm',
+  kChanDaDoiChieuConflict.loi.filter((e) => /không vừa hieu_luc_da_doi_chieu: true vừa có xac_minh\.chan/.test(e.msg)).length === 2,
+  JSON.stringify(kChanDaDoiChieuConflict.loi));
 // 6. Bảng danh mục mã HS
 t('CSV: ngoặc kép, dấu phẩy và xuống dòng trong ô', JSON.stringify(docCsv('a,b\n"x, ""y""","dòng 1\ndòng 2"\n')) === JSON.stringify([['a', 'b'], ['x, "y"', 'dòng 1\ndòng 2']]));
 const HEAD = 'ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang\n';

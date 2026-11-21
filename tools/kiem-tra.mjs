@@ -99,7 +99,7 @@ export function kiemTra(so, { today = homNay(), root = ROOT } = {}) {
         if (!CHAN_HIEU_LUC.includes(xm.chan.ma)) L(f, `xac_minh.chan.ma "${xm.chan.ma}" không hợp lệ (${CHAN_HIEU_LUC.join(', ')})`);
         if (!xm.chan.ngay || !NGAY.test(String(xm.chan.ngay))) L(f, 'xac_minh.chan.ngay phải dạng YYYY-MM-DD');
         if (!xm.chan.viec_tiep || !String(xm.chan.viec_tiep).trim()) L(f, 'xac_minh.chan.viec_tiep không được trống');
-        if (xm.hieu_luc_da_doi_chieu === true) L(f, 'không vừa hieu_luc_da_doi_chieu: true vừa có xac_minh.chan — xóa chan khi đã đối chiếu xong');
+        if (xm.hieu_luc_da_doi_chieu === true && !(xm.chan.ma === 'THIEU_PDF_A' && !d.toan_van)) L(f, 'không vừa hieu_luc_da_doi_chieu: true vừa có xac_minh.chan — xóa chan khi đã đối chiếu xong');
       }
     }
     // xac_minh.dieu_khoan: danh sách điều khoản có cấu trúc (cho hs-code-api). Mỗi entry bắt buộc có "dieu" (số nguyên) và "noi_dung" (chuỗi).
