@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 23039/TB-CHQ/2026
+so_hieu_khac:
+  - 23039/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-21'
+ten: 'Thông báo về kết quả xác định trước mã số (Cáp tín hiệu có chống nhiễu 1PR x 1.5mm2, cách điện bằng nhựa PE, điện áp 30V, chưa gắn với đầu nối, không dùng trong viễn thông, dùng truyền tín hiệu chuẩn RS-232, RS-485, Modbus/Bacnet, hệ thống âm thanh, báo cháy, camera, BMS, mã số 8544.49.24)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-10-15'
+hieu_luc_tu: '2026-10-15'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=106370&cid=1294
+    truy_cap: '2026-11-21'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/10/16/VB_23039.pdf
+    truy_cap: '2026-11-21'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/10/16/VB_23039.pdf, id=106370, SHA-256 e0bfc0281d3625be80d7c9841f6e3baefd2c7ea0a83a1b6cf67f65706fcf162e): Thông báo số 23039/TB-CHQ ngày 15-10-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Cáp tín hiệu có chống nhiễu, cách điện bằng PE, 1PR x 1.5mm2 (lớp vỏ ngoài bằng nhựa; lớp thứ hai là vỏ bằng lá nhôm chứa 02 cáp truyền tín hiệu có vỏ ngoài cách điện bằng nhựa PE, mỗi lõi gồm 28 sợi đồng dẫn tín hiệu bện xoắn đường kính 0,25mm/sợi; cáp dạng cuộn chưa gắn đầu nối, cấu trúc lõi 1.5mm2, đường kính lõi dẫn tín hiệu nhỏ hơn 19,5mm, điện áp 30V, không dùng trong viễn thông, dùng truyền tín hiệu chuẩn RS-232, RS-485, Modbus/Bacnet, hệ thống âm thanh, báo cháy, camera, BMS), phân loại vào nhóm 85.44, phân nhóm 8544.49, mã số 8544.49.24; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Cáp tín hiệu có chống nhiễu 1PR x 1.5mm2, cách điện bằng nhựa PE (lớp vỏ ngoài bằng nhựa; lớp thứ hai là vỏ lá nhôm chứa 02 cáp truyền tín hiệu có vỏ ngoài cách điện bằng nhựa PE, bên trong mỗi cáp là một lõi gồm 28 sợi đồng dẫn tín hiệu bện xoắn đường kính 0,25mm/sợi; cáp dạng cuộn, chưa gắn đầu nối, cấu trúc lõi 1.5mm2, đường kính lõi dẫn tín hiệu nhỏ hơn 19,5mm, điện áp 30V, không dùng trong viễn thông, dùng truyền tín hiệu cho chuẩn kết nối RS-232, RS-485, Modbus/Bacnet, hệ thống âm thanh, báo cháy, camera, BMS) thuộc nhóm 85.44, phân nhóm 8544.49, mã số 8544.49.24.'
+toan_van: raw/download/files.customs.gov.vn/23039-tb-chq-2026.pdf
