@@ -1,0 +1,42 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 19/VBHN-BNNPTNT/2024
+so_hieu_khac:
+  - 19/2024/VBHN-BNNPTNT
+  - 19/2024/VBHN-BNNMT
+  - 19/2024/VBHN-TT-BNNPTNT
+loai: VAN_BAN_HOP_NHAT
+ten: 'Thông tư quy định trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật'
+co_quan: BNNPTNT
+ngay_ban_hanh: '2024-05-27'
+tinh_trang: HET_HIEU_LUC_MOT_PHAN
+nhanh:
+  - kiem-tra-chuyen-nganh/kiem-dich
+quan_he:
+  hop_nhat:
+    - so_hieu: 33/2014/TT-BNNPTNT
+    - so_hieu: 34/2018/TT-BNNPTNT
+    - so_hieu: 15/2021/TT-BNNPTNT
+    - so_hieu: 03/2024/TT-BNNPTNT
+  thay_the:
+    - so_hieu: 06/VBHN-BNNPTNT
+      tu_ngay: '2024-05-27'
+nguon:
+  - url: https://www.ppd.gov.vn/FileUpload/Documents/vbhn_19_thong_tu_33_va_thong_tu_03_cua_bo_nnptnt.pdf
+    truy_cap: '2026-11-21'
+  - url: http://www.spsvietnam.gov.vn/19vbhn-bnnptnt
+    truy_cap: '2026-11-21'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=210131
+    truy_cap: '2026-11-21'
+  - url: https://vanban.chinhphu.vn/?docid=177307&pageid=27160
+    truy_cap: '2026-11-21'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu toàn văn PDF hợp nhất 27 trang trên Cổng Cục Bảo vệ thực vật (ppd.gov.vn, có lớp chữ đầy đủ, lưu tại raw/download/ppd.gov.vn/19-vbhn-bnnptnt.pdf), thẻ Văn phòng SPS Việt Nam (spsvietnam.gov.vn/19vbhn-bnnptnt) và các Thông tư thành phần bậc A trên vanban.chinhphu.vn (33/2014/TT-BNNPTNT docid=177307; 03/2024/TT-BNNPTNT docid=210131): số hiệu 19/VBHN-BNNPTNT năm 2024, trích yếu "Thông tư quy định trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật", Thứ trưởng Hoàng Trung ký xác thực ngày 27-05-2024; hợp nhất Thông tư 33/2014/TT-BNNPTNT ngày 30-10-2014 (có hiệu lực từ 01-01-2015), Thông tư 34/2018/TT-BNNPTNT ngày 16-11-2018 (có hiệu lực từ 01-01-2019), Thông tư 15/2021/TT-BNNPTNT ngày 06-12-2021 (có hiệu lực từ 21-01-2022) và Thông tư 03/2024/TT-BNNPTNT ngày 01-04-2024 (có hiệu lực từ 16-05-2024, bãi bỏ khoản 3 Điều 1, Điều 7b, Điều 18a, Điều 18b và Phụ lục Ib). Cấu trúc gồm 6 Chương, 21 Điều và các Phụ lục I, Ia, II, IIa, III, IV, V, VI (Phụ lục Ib đã được bãi bỏ). Hết hiệu lực một phần do các quy định thuộc Thông tư 33/2014/TT-BNNPTNT và 15/2021/TT-BNNPTNT tiếp tục được sửa đổi, bổ sung bởi Thông tư 12/2025/TT-BNNMT ngày 19-06-2025 và Điều 22 Thông tư 07/2026/TT-BNNMT ngày 23-01-2026.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Ghi rõ năm ban hành 2024 tại so_hieu (19/VBHN-BNNPTNT/2024) và so_hieu_khac để phân biệt với tệp 19-vbhn-bnnptnt.yaml đã có sẵn trong sổ (vốn đang gắn với docid=207302 trên vanban.chinhphu.vn là Văn bản hợp nhất 19/VBHN-BNNPTNT ngày 30-12-2022 về quản lý giống thủy sản, thức ăn thủy sản). Toàn văn bản hợp nhất ngày 27-05-2024 được nạp tại raw/download/ppd.gov.vn/19-vbhn-bnnptnt.pdf.'
+toan_van: raw/download/ppd.gov.vn/19-vbhn-bnnptnt.pdf
+tu_khoa:
+  - kiem-dich-thuc-vat
+  - xuat-nhap-khau
