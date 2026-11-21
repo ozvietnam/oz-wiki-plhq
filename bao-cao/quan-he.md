@@ -55,6 +55,7 @@ flowchart LR
   n_59_2018_N__CP["59/2018/NĐ-CP<br/>hết hiệu lực"]
   n_17_2023_N__CP["17/2023/NĐ-CP<br/>còn hiệu lực"]
   n_22_2018_N__CP["22/2018/NĐ-CP<br/>hết hiệu lực"]
+  n_186_2026_N__CP["186/2026/NĐ-CP<br/>còn hiệu lực"]
   n_2079_Q__TCHQ["2079/QĐ-TCHQ<br/>còn hiệu lực"]
   n_583_Q__TCHQ["583/QĐ-TCHQ<br/>hết hiệu lực"]
   n_211_2025_N__CP["211/2025/NĐ-CP<br/>còn hiệu lực"]
@@ -83,6 +84,8 @@ flowchart LR
   n_54_VBHN_VPQH["54/VBHN-VPQH<br/>còn hiệu lực"]
   n_65_2023_N__CP["65/2023/NĐ-CP<br/>còn hiệu lực"]
   n_103_2006_N__CP["103/2006/NĐ-CP<br/>hết hiệu lực"]
+  n_66_2026_TT_BKHCN["66/2026/TT-BKHCN<br/>còn hiệu lực"]
+  n_11_2015_TT_BKHCN["11/2015/TT-BKHCN<br/>còn hiệu lực"]
   n_76_VBHN_VPQH["76-VBHN/VPQH<br/>còn hiệu lực"]
   n_105_2016_QH13["105/2016/QH13<br/>còn hiệu lực"]
   n_28_2018_QH14["28/2018/QH14<br/>hết hiệu lực"]
@@ -111,6 +114,7 @@ flowchart LR
   n_17_2023_N__CP -->|thay thế từ 2023-04-26| n_22_2018_N__CP
   n_17_2023_N__CP -->|thay thế từ 2023-04-26| n_119_2010_N__CP
   n_17_2023_N__CP -->|bãi bỏ Phần Bảo vệ quyền trong lĩnh vực quyền tác giả, quyền liên quan từ 2023-04-26| n_105_2006_N__CP
+  n_186_2026_N__CP -->|sửa đổi từ 2026-07-15| n_99_2013_N__CP
   n_2079_Q__TCHQ -->|thay thế từ 2021-07-19| n_583_Q__TCHQ
   n_211_2025_N__CP -->|bãi bỏ toàn bộ từ 2025-09-09| n_32_2023_N__CP
   n_25_2026_TT_BTC -->|sửa đổi từ 2026-05-10| n_12_2015_TT_BTC
@@ -137,6 +141,7 @@ flowchart LR
   n_59_2018_N__CP -->|sửa đổi| n_08_2015_N__CP
   n_60_2019_TT_BTC -->|sửa đổi| n_39_2015_TT_BTC
   n_65_2023_N__CP -->|thay thế từ 2023-08-23| n_103_2006_N__CP
+  n_66_2026_TT_BKHCN -->|sửa đổi từ 2027-01-01| n_11_2015_TT_BKHCN
   n_76_VBHN_VPQH -->|hợp nhất| n_105_2016_QH13
   n_76_VBHN_VPQH -->|hợp nhất| n_28_2018_QH14
   n_76_VBHN_VPQH -->|hợp nhất| n_44_2024_QH15

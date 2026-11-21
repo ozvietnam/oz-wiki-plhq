@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-21",
   "luoc_do_phien_ban": "1.4.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2845,
+  "tong": 2848,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -7568,6 +7568,61 @@
       "slug": "1099-tb-tchq-2020",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "11/2015/TT-BKHCN",
+      "loai": "THONG_TU",
+      "ten": "Quy định chi tiết và hướng dẫn thi hành một số điều của Nghị định số 99/2013/NĐ-CP ngày 29/8/2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp",
+      "co_quan": "BKHCN",
+      "ngay_ban_hanh": "2015-06-26",
+      "hieu_luc_tu": "2015-08-11",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          "99/2013/NĐ-CP"
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=180609",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2015/07/11-tt-bkhcn.signed.pdf",
+          "truy_cap": "2026-11-21"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=180609, Bộ trưởng Nguyễn Quân ký) và toàn văn PDF ký số đính kèm (11-tt-bkhcn.signed.pdf, 24 trang): số hiệu 11/2015/TT-BKHCN, ban hành ngày 26-06-2015, có hiệu lực thi hành từ ngày 11-08-2015 (Điều 31, thay thế Thông tư 37/2011/TT-BKHCN); đang còn hiệu lực, quy định chi tiết và hướng dẫn thi hành một số điều của Nghị định 99/2013/NĐ-CP về xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp (được sửa đổi, bổ sung một số điều bởi Thông tư 06/2024/TT-BKHCN ngày 30-09-2024 và Thông tư 66/2026/TT-BKHCN ngày 31-10-2026).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Văn bản hướng dẫn Nghị định 99/2013/NĐ-CP xác định hành vi xâm phạm quyền SHCN, hàng hóa giả mạo nhãn hiệu/chỉ dẫn địa lý, cạnh tranh không lành mạnh và thủ tục xử lý vi phạm.",
+      "tu_khoa": [
+        "so-huu-tri-tue",
+        "xu-phat",
+        "nhan-hieu",
+        "hang-gia"
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/11-2015-tt-bkhcn.pdf",
+      "slug": "11-2015-tt-bkhcn",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "66/2026/TT-BKHCN",
+            "quan_he": "sua_doi",
+            "so_hieu": "11/2015/TT-BKHCN",
+            "tu_ngay": "2027-01-01",
+            "can_cu": "Điều 1 đến Điều 8, khoản 1 Điều 9 Thông tư 66/2026/TT-BKHCN"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "11/2015/TT-BTC",
@@ -28852,6 +28907,55 @@
       "toan_van": "chua_co",
       "slug": "1856-tb-tchq-2020",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "186/2026/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 99/2013/NĐ-CP ngày 29 tháng 8 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp đã được sửa đổi, bổ sung một số điều theo Nghị định số 126/2021/NĐ-CP ngày 30 tháng 12 năm 2021 và Nghị định số 46/2024/NĐ-CP ngày 04 tháng 5 năm 2024 của Chính phủ",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2026-05-26",
+      "hieu_luc_tu": "2026-07-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "99/2013/NĐ-CP",
+            "tu_ngay": "2026-07-15",
+            "can_cu": "Điều 1 đến Điều 16, Điều 18 Nghị định 186/2026/NĐ-CP"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=218288",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/186-ndcp.signed.pdf",
+          "truy_cap": "2026-11-21"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=218288, Phó Thủ tướng Hồ Quốc Dũng ký) và toàn văn PDF ký số đính kèm (186-ndcp.signed.pdf, 15 trang): số hiệu 186/2026/NĐ-CP, ban hành ngày 26-05-2026, có hiệu lực thi hành từ ngày 15-07-2026 (Điều 18); đang còn hiệu lực, sửa đổi, bổ sung một số điều của Nghị định 99/2013/NĐ-CP ngày 29-08-2013 quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp (đã được sửa đổi, bổ sung theo Nghị định 126/2021/NĐ-CP và Nghị định 46/2024/NĐ-CP), bao gồm biện pháp ngăn chặn truy cập tên miền xâm phạm quyền sở hữu công nghiệp và phân định thẩm quyền xử phạt (trong đó có thẩm quyền của Hải quan tại Điều 7 sửa đổi Điều 18).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Sửa đổi, bổ sung Nghị định 99/2013/NĐ-CP lần thứ ba (sau NĐ 126/2021/NĐ-CP và NĐ 46/2024/NĐ-CP); cập nhật thẩm quyền xử phạt của Hải quan, Quản lý thị trường, Thanh tra, Công an, UBND và cơ chế thu hồi/ngăn chặn truy cập tên miền xâm phạm SHCN.",
+      "tu_khoa": [
+        "so-huu-tri-tue",
+        "xu-phat",
+        "nhan-hieu",
+        "ten-mien"
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/186-2026-nd-cp.pdf",
+      "slug": "186-2026-nd-cp",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -94560,6 +94664,55 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "66/2026/TT-BKHCN",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 11/2015/TT-BKHCN ngày 26 tháng 6 năm 2015 của Bộ trưởng Bộ Khoa học và Công nghệ",
+      "co_quan": "BKHCN",
+      "ngay_ban_hanh": "2026-10-31",
+      "hieu_luc_tu": "2027-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "11/2015/TT-BKHCN",
+            "tu_ngay": "2027-01-01",
+            "can_cu": "Điều 1 đến Điều 8, khoản 1 Điều 9 Thông tư 66/2026/TT-BKHCN"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220228",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/66-bkhcn.signed.pdf",
+          "truy_cap": "2026-11-21"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=220228, Bộ trưởng Vũ Hải Quân ký) và toàn văn PDF ký số đính kèm (66-bkhcn.signed.pdf, 10 trang): số hiệu 66/2026/TT-BKHCN, ban hành ngày 31-10-2026, có hiệu lực thi hành từ ngày 01-01-2027 (khoản 1 Điều 9); sửa đổi, bổ sung một số điều (Điều 1, 4, 7, 13, 18, 19, 20, bổ sung Điều 20a, bãi bỏ Điều 22) của Thông tư 11/2015/TT-BKHCN ngày 26-06-2015 quy định chi tiết và hướng dẫn thi hành một số điều của Nghị định 99/2013/NĐ-CP về xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp (đã được sửa đổi, bổ sung bởi Nghị định 126/2021/NĐ-CP, 46/2024/NĐ-CP, 186/2026/NĐ-CP và Thông tư 06/2024/TT-BKHCN), đồng thời bãi bỏ toàn bộ Thông tư liên tịch 14/2016/TTLT-BTTTT-BKHCN (khoản 2 Điều 9).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Sửa đổi, bổ sung Thông tư 11/2015/TT-BKHCN hướng dẫn Nghị định 99/2013/NĐ-CP về xử phạt VPHC sở hữu công nghiệp (tạm giữ, buộc hoàn trả, thu hồi, ngăn chặn truy cập tên miền xâm phạm quyền SHCN); có hiệu lực thi hành từ 01-01-2027.",
+      "tu_khoa": [
+        "so-huu-tri-tue",
+        "xu-phat",
+        "nhan-hieu",
+        "ten-mien"
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/66-2026-tt-bkhcn.pdf",
+      "slug": "66-2026-tt-bkhcn",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "6625/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -107631,12 +107784,12 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=169530, Thủ tướng Nguyễn Tấn Dũng ký), toàn văn PDF đính kèm (99-nd.pdf) và CSDL quốc gia vbpl.vn (ItemID=170812): số hiệu 99/2013/NĐ-CP, tiêu đề 'Quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp', ban hành ngày 29-08-2013, có hiệu lực thi hành từ ngày 15-10-2013 (Điều 45, thay thế Nghị định 97/2010/NĐ-CP); đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Nghị định 126/2021/NĐ-CP từ 01-03-2022 và Nghị định 46/2024/NĐ-CP từ 01-07-2024)",
+        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=169530, Thủ tướng Nguyễn Tấn Dũng ký), toàn văn PDF đính kèm (99-nd.pdf) và CSDL quốc gia vbpl.vn (ItemID=170812): số hiệu 99/2013/NĐ-CP, tiêu đề 'Quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp', ban hành ngày 29-08-2013, có hiệu lực thi hành từ ngày 15-10-2013 (Điều 45, thay thế Nghị định 97/2010/NĐ-CP); đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Nghị định 126/2021/NĐ-CP từ 01-03-2022, Nghị định 46/2024/NĐ-CP từ 01-07-2024 và Nghị định 186/2026/NĐ-CP từ 15-07-2026; được hướng dẫn thi hành bởi Thông tư 11/2015/TT-BKHCN và Thông tư 66/2026/TT-BKHCN)",
         "hieu_luc_da_doi_chieu": true,
-        "ngay": "2026-11-14",
+        "ngay": "2026-11-21",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Sửa đổi bởi NĐ 126/2021/NĐ-CP và NĐ 46/2024/NĐ-CP (record riêng). Văn bản chế tài chính khi hàng XNK xâm phạm nhãn hiệu/kiểu dáng.",
+      "ghi_chu": "Sửa đổi bởi NĐ 126/2021/NĐ-CP, NĐ 46/2024/NĐ-CP và NĐ 186/2026/NĐ-CP; hướng dẫn bởi TT 11/2015/TT-BKHCN (sửa đổi bởi TT 66/2026/TT-BKHCN). Văn bản chế tài chính khi hàng XNK xâm phạm nhãn hiệu/kiểu dáng.",
       "tu_khoa": [
         "so-huu-tri-tue",
         "xu-phat",
@@ -107647,12 +107800,26 @@
       "slug": "99-2013-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "11/2015/TT-BKHCN",
+            "quan_he": "huong_dan",
+            "so_hieu": "99/2013/NĐ-CP"
+          }
+        ],
         "bi_sua_doi_boi": [
           {
             "tu": "126/2021/NĐ-CP",
             "quan_he": "sua_doi",
             "so_hieu": "99/2013/NĐ-CP",
             "tu_ngay": "2022-03-01"
+          },
+          {
+            "tu": "186/2026/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "99/2013/NĐ-CP",
+            "tu_ngay": "2026-07-15",
+            "can_cu": "Điều 1 đến Điều 16, Điều 18 Nghị định 186/2026/NĐ-CP"
           },
           {
             "tu": "46/2024/NĐ-CP",
