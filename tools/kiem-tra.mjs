@@ -14,6 +14,7 @@ const TRUONG = new Set(['so_hieu', 'loai', 'ten', 'co_quan', 'ngay_ban_hanh', 'h
   // TB-TCHQ subtype (research): tools/lib/loai-phan-loai-tb-tchq.mjs
   'loai_phan_loai', 'loai_phan_loai_can_cu', 'loai_phan_loai_ngay']);
 const LOAI_PHAN_LOAI = ['XAC_DINH_TRUOC', 'KIEM_TRA_XAC_DINH_LAI', 'DINH_CHINH', 'CHUA_XAC_DINH'];
+const LOAI_CAP_LUAT = new Set(['HIEN_PHAP', 'LUAT', 'NGHI_QUYET']);
 
 export function kiemTra(so, { today = homNay(), root = ROOT } = {}) {
   const loi = [];
@@ -80,6 +81,17 @@ export function kiemTra(so, { today = homNay(), root = ROOT } = {}) {
         if (!c) { L(f, `quan_he.${qh}: phần tử phải là số hiệu hoặc {so_hieu, pham_vi, tu_ngay, can_cu}`); continue; }
         if (khoa(c.so_hieu) === khoa(d.so_hieu)) L(f, `quan_he.${qh} trỏ vào chính nó`);
         if (c.tu_ngay && !NGAY.test(String(c.tu_ngay))) L(f, `quan_he.${qh}.tu_ngay phải dạng YYYY-MM-DD`);
+        // Chiều đi & vai trò quan hệ: văn bản mới tác động văn bản cũ; văn bản dưới hướng dẫn văn bản trên; chỉ VBHN mới hợp nhất.
+        if (qh === 'huong_dan' && LOAI_CAP_LUAT.has(d.loai)) {
+          L(f, `quan_he.huong_dan không được xuất phát từ văn bản cấp ${d.loai} (${d.so_hieu} → ${c.so_hieu}) — văn bản dưới hướng dẫn văn bản trên`);
+        }
+        if (qh === 'hop_nhat' && d.loai !== 'VAN_BAN_HOP_NHAT') {
+          L(f, `quan_he.hop_nhat chỉ hợp lệ cho VAN_BAN_HOP_NHAT (${d.loai} ${d.so_hieu} → ${c.so_hieu})`);
+        }
+        const t = so.theoKhoa.get(khoa(c.so_hieu))?.[0];
+        if (d.ngay_ban_hanh && t?.ngay_ban_hanh && String(d.ngay_ban_hanh) < String(t.ngay_ban_hanh)) {
+          L(f, `quan_he.${qh} đi ngược chiều thời gian: ${d.so_hieu} (${d.ngay_ban_hanh}) → ${t.so_hieu} (${t.ngay_ban_hanh})`);
+        }
       }
     }
 

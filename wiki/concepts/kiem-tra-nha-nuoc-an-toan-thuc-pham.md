@@ -3,7 +3,7 @@ id: kiem-tra-nha-nuoc-an-toan-thuc-pham
 title: "Kiểm tra nhà nước về an toàn thực phẩm hàng nhập khẩu"
 type: concept
 created: 2026-10-04
-updated: 2026-10-04
+updated: 2026-11-21
 key_sources: []
 related_concepts:
   - muc-do-rui-ro-hang-hoa
@@ -21,7 +21,7 @@ Thực phẩm, phụ gia, dụng cụ và vật liệu bao gói tiếp xúc tr�
 
 - **Ba phương thức kiểm tra:** giảm và thông thường — kết quả trong 03 ngày làm việc; chặt — 07 ngày làm việc (Điều 16, 17, 19 Nghị định 15/2018/NĐ-CP).
 - **Miễn kiểm tra:** 09 trường hợp tại Điều 13 Nghị định 15/2018/NĐ-CP.
-- **Bộ quản lý theo nhóm sản phẩm:** Phụ lục II (Bộ Y tế — "quét" các sản phẩm không thuộc danh mục bộ khác), Phụ lục III (Bộ Nông nghiệp và Môi trường), Phụ lục IV (Bộ Công Thương) Nghị định 15/2018/NĐ-CP. Phụ lục không dùng mã HS; danh mục kèm mã HS của Bộ Công Thương là 28/2026/TT-BCT (hiệu lực 17/7/2026, thay 11/2022/TT-BCT).
+- **Bộ quản lý theo nhóm sản phẩm:** Phụ lục II (Bộ Y tế — "quét" các sản phẩm không thuộc danh mục bộ khác), Phụ lục III (Bộ Nông nghiệp và Môi trường), Phụ lục IV (Bộ Công Thương) Nghị định 15/2018/NĐ-CP. Phụ lục không dùng mã HS; danh mục kèm mã HS hiện hành của Bộ Công Thương là 28/2026/TT-BCT (hiệu lực từ 17/7/2026, chấm dứt hiệu lực Khoản 1 Điều 2 và Phụ lục 2 của 1182/QĐ-BCT; không còn áp dụng 11/2022/TT-BCT đã hết hiệu lực từ 17/7/2026).
 - **Cơ quan kiểm tra hàng thuộc Bộ NN&MT:** từ 01/9/2026 là cơ quan do Chủ tịch UBND cấp tỉnh giao hoặc chỉ định, thay Cục Thú y và Cục Bảo vệ thực vật (khoản 1, 2 Điều 3, 22/2026/TT-BNNMT).
 
 ## Key sources

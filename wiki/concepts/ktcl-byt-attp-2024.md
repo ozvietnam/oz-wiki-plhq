@@ -3,7 +3,7 @@ id: ktcl-byt-attp-2024
 title: "Kiểm tra chất lượng BYT - ATTP (TT 15/2024)"
 type: concept
 created: 2026-10-09
-updated: 2026-10-09
+updated: 2026-11-21
 key_sources:
   - 15-2024-tt-byt
 related_concepts:
@@ -62,9 +62,10 @@ Quy trình kiểm tra nhà nước về **an toàn thực phẩm (ATTP)** nhập
 
 ## Key sources
 
-- [[sources/15-2024-tt-byt]] — VB chính
-- **TT 05/2018/TT-BYT** — hướng dẫn ATTP
-- **Luật ATTP 2010**
+- [[sources/15-2024-tt-byt]] — Danh mục mã HS kiểm tra ATTP nhập khẩu hiện hành (hiệu lực từ 02/11/2024; thay thế `28/2021/TT-BYT` là văn bản trước đó đã bãi bỏ `05/2018/TT-BYT` hết hiệu lực từ 02/02/2022)
+- **NĐ 15/2018/NĐ-CP** — Quy định chi tiết thi hành Luật An toàn thực phẩm (khung kiểm tra ATTP hiện hành)
+- **TT 27/2026/TT-BYT** — Danh mục thực phẩm, dụng cụ chứa đựng, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm có mức độ rủi ro trung bình (hiệu lực từ 01/7/2026)
+- **Luật ATTP 55/2010/QH12**
 
 ## Related concepts
 
