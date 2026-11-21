@@ -4,8 +4,8 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "luoc_do": "docs/luoc-do-danh-muc-hs.md",
  "cach_tra": "Khoá là nhóm mã HS trong bảng (4, 6 hoặc 8 số). Tra mã 8 số: ghép mọi khoá là tiền tố của mã (độ dài 4, 6) và khoá trùng 8 số. Cạnh giữ nguyên dieu_kien — \"trừ loại…\" là trừ diện, không phải diện áp. canh_bao_ma = nhóm mã không có trong biểu thuế đối chiếu — tra ra các khoá này thì dừng và đối chiếu lại văn bản gốc, đừng kết luận diện áp. tien_le_tb_tchq = mật độ thông báo phân loại của Tổng cục (bậc C, tham khảo).",
- "tong_nhom_ma": 5574,
- "tong_canh": 10979,
+ "tong_nhom_ma": 5602,
+ "tong_canh": 11059,
  "bieu_thue_doi_chieu": {
   "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/tax.json",
   "phien_ban": "2026-11-13",
@@ -51023,6 +51023,52 @@
     "dieu_kien": null,
     "nhom": "II.243",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVC — Cơ quan quản lý: Bộ Công Thương, Bộ Nông nghiệp và Môi trường",
+    "nhom": "IVC.10",
+    "phu_luc": "Danh mục IVC"
+   }
+  ],
+  "28070010": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVC — Cơ quan quản lý: Bộ Công Thương, Bộ Nông nghiệp và Môi trường",
+    "nhom": "IVC.15",
+    "phu_luc": "Danh mục IVC"
+   }
+  ],
+  "28070090": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVC — Cơ quan quản lý: Bộ Công Thương, Bộ Nông nghiệp và Môi trường",
+    "nhom": "IVC.15",
+    "phu_luc": "Danh mục IVC"
    }
   ],
   "28092039": [
@@ -51193,6 +51239,22 @@
     "dieu_kien": null,
     "nhom": "II.318",
     "phu_luc": "Phụ lục"
+   }
+  ],
+  "28121700": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVC — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVC.17",
+    "phu_luc": "Danh mục IVC"
    }
   ],
   "28139000": [
@@ -53055,6 +53117,22 @@
     "phu_luc": "Phụ lục"
    }
   ],
+  "28416100": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVC — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVC.14",
+    "phu_luc": "Danh mục IVC"
+   }
+  ],
   "28421000": [
    {
     "so_hieu": "15/2024/TT-BYT",
@@ -53455,6 +53533,22 @@
     "phu_luc": "Danh mục 7"
    }
   ],
+  "29023000": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVC — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVC.18",
+    "phu_luc": "Danh mục IVC"
+   }
+  ],
   "29029090": [
    {
     "so_hieu": "09/2024/TT-BYT",
@@ -53549,6 +53643,48 @@
     "dieu_kien": null,
     "nhom": "Mục 24",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVB.8",
+    "phu_luc": "Danh mục IVB"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVB.9",
+    "phu_luc": "Danh mục IVB"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVB.10",
+    "phu_luc": "Danh mục IVB"
    }
   ],
   "29039200": [
@@ -53583,6 +53719,20 @@
     "phu_luc": "Danh mục 1"
    },
    {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVC — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVC.13",
+    "phu_luc": "Danh mục IVC"
+   },
+   {
     "so_hieu": "31/2026/QĐ-TTg",
     "slug": "31-2026-qd-ttg",
     "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
@@ -53611,6 +53761,22 @@
     "dieu_kien": null,
     "nhom": "II.377",
     "phu_luc": "Phụ lục"
+   }
+  ],
+  "29053900": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương (lộ trình thực hiện trước ngày 31/12/2026 theo khoản 4 Điều 3)",
+    "nhom": "IVB.1",
+    "phu_luc": "Danh mục IVB"
    }
   ],
   "29054300": [
@@ -54045,6 +54211,20 @@
     "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
     "nhom": "7",
     "phu_luc": "Danh mục 7"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVC — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVC.6",
+    "phu_luc": "Danh mục IVC"
    }
   ],
   "29091900": [
@@ -54155,6 +54335,54 @@
     "phu_luc": "Phụ lục I"
    }
   ],
+  "29122100": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương, Bộ Nông nghiệp và Môi trường",
+    "nhom": "IVB.6",
+    "phu_luc": "Danh mục IVB"
+   }
+  ],
+  "29141100": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVC — Cơ quan quản lý: Bộ Công Thương, Bộ Nông nghiệp và Môi trường",
+    "nhom": "IVC.2",
+    "phu_luc": "Danh mục IVC"
+   }
+  ],
+  "29141200": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVC — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVC.11",
+    "phu_luc": "Danh mục IVC"
+   }
+  ],
   "29141900": [
    {
     "so_hieu": "09/2024/TT-BYT",
@@ -54185,6 +54413,54 @@
     "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
     "nhom": "7",
     "phu_luc": "Danh mục 7"
+   }
+  ],
+  "29142990": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.31",
+    "phu_luc": "Danh mục IVA"
+   }
+  ],
+  "29143100": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVB.2",
+    "phu_luc": "Danh mục IVB"
+   }
+  ],
+  "29143900": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVB.28",
+    "phu_luc": "Danh mục IVB"
    }
   ],
   "29145000": [
@@ -54233,6 +54509,52 @@
     "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
     "nhom": "7",
     "phu_luc": "Danh mục 7"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.25",
+    "phu_luc": "Danh mục IVA"
+   }
+  ],
+  "29151100": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVC — Cơ quan quản lý: Bộ Công Thương, Bộ Nông nghiệp và Môi trường",
+    "nhom": "IVC.9",
+    "phu_luc": "Danh mục IVC"
+   }
+  ],
+  "29151200": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVC — Cơ quan quản lý: Bộ Công Thương, Bộ Nông nghiệp và Môi trường",
+    "nhom": "IVC.4",
+    "phu_luc": "Danh mục IVC"
    }
   ],
   "29152100": [
@@ -54249,6 +54571,36 @@
     "dieu_kien": null,
     "nhom": "II.70",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVC — Cơ quan quản lý: Bộ Công Thương, Bộ Nông nghiệp và Môi trường",
+    "nhom": "IVC.1",
+    "phu_luc": "Danh mục IVC"
+   }
+  ],
+  "29152400": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVB.3",
+    "phu_luc": "Danh mục IVB"
    }
   ],
   "29152910": [
@@ -54339,6 +54691,20 @@
     "dieu_kien": null,
     "nhom": "II.376",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVC — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVC.7",
+    "phu_luc": "Danh mục IVC"
    }
   ],
   "29155000": [
@@ -54575,6 +54941,20 @@
     "dieu_kien": null,
     "nhom": "II.219",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVC — Cơ quan quản lý: Bộ Công Thương, Bộ Nông nghiệp và Môi trường",
+    "nhom": "IVC.3",
+    "phu_luc": "Danh mục IVC"
    }
   ],
   "29161500": [
@@ -54737,6 +55117,22 @@
     "dieu_kien": null,
     "nhom": "II.315",
     "phu_luc": "Phụ lục"
+   }
+  ],
+  "29163400": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương, Bộ Nông nghiệp và Môi trường",
+    "nhom": "IVB.24",
+    "phu_luc": "Danh mục IVB"
    }
   ],
   "29163990": [
@@ -55147,6 +55543,20 @@
     "dieu_kien": null,
     "nhom": "II.111",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVC — Cơ quan quản lý: Bộ Công Thương, Bộ Nông nghiệp và Môi trường",
+    "nhom": "IVC.16",
+    "phu_luc": "Danh mục IVC"
    }
   ],
   "29181300": [
@@ -55629,6 +56039,22 @@
     "phu_luc": "Phụ lục"
    }
   ],
+  "29183000": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.27",
+    "phu_luc": "Danh mục IVA"
+   }
+  ],
   "29189100": [
    {
     "so_hieu": "01/2024/TT-BNNPTNT",
@@ -55673,6 +56099,132 @@
     "dieu_kien": null,
     "nhom": "II.131",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.3",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.4",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.5",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.6",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.7",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.8",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.9",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.10",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.11",
+    "phu_luc": "Danh mục IVA"
    }
   ],
   "29201100": [
@@ -55723,6 +56275,22 @@
     "phu_luc": "Phụ lục"
    }
   ],
+  "29211100": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVC — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVC.12",
+    "phu_luc": "Danh mục IVC"
+   }
+  ],
   "29211900": [
    {
     "so_hieu": "09/2024/TT-BYT",
@@ -55751,6 +56319,20 @@
     "dieu_kien": "QCVN 01-190:2020/BNNPTNT; Sửa đổi 1:2021 QCVN 01-190:2020/BNNPTNT",
     "nhom": "3.4.2",
     "phu_luc": "Phụ lục I"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVC — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVC.5",
+    "phu_luc": "Danh mục IVC"
    }
   ],
   "29212100": [
@@ -56175,6 +56757,22 @@
     "dieu_kien": null,
     "nhom": "II.286",
     "phu_luc": "Phụ lục"
+   }
+  ],
+  "29224300": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVB.5",
+    "phu_luc": "Danh mục IVB"
    }
   ],
   "29224900": [
@@ -56669,6 +57267,36 @@
     "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
     "nhom": "7",
     "phu_luc": "Danh mục 7"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVC — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVC.8",
+    "phu_luc": "Danh mục IVC"
+   }
+  ],
+  "29242300": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVB.17",
+    "phu_luc": "Danh mục IVB"
    }
   ],
   "29242400": [
@@ -56773,6 +57401,20 @@
     "dieu_kien": null,
     "nhom": "II.382",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.24",
+    "phu_luc": "Danh mục IVA"
    }
   ],
   "29251100": [
@@ -56853,6 +57495,20 @@
     "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
     "nhom": "7",
     "phu_luc": "Danh mục 7"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.26",
+    "phu_luc": "Danh mục IVA"
    }
   ],
   "29263000": [
@@ -56871,6 +57527,22 @@
     "phu_luc": "Danh mục 3"
    }
   ],
+  "29264000": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVB.4",
+    "phu_luc": "Danh mục IVB"
+   }
+  ],
   "29269000": [
    {
     "so_hieu": "09/2024/TT-BYT",
@@ -56885,6 +57557,48 @@
     "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
     "nhom": "7",
     "phu_luc": "Danh mục 7"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVB.7",
+    "phu_luc": "Danh mục IVB"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVB.22",
+    "phu_luc": "Danh mục IVB"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVB.23",
+    "phu_luc": "Danh mục IVB"
    }
   ],
   "29270010": [
@@ -57191,6 +57905,84 @@
     "dieu_kien": null,
     "nhom": "II.75",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVB.14",
+    "phu_luc": "Danh mục IVB"
+   }
+  ],
+  "29329100": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVB.15",
+    "phu_luc": "Danh mục IVB"
+   }
+  ],
+  "29329200": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVB.27",
+    "phu_luc": "Danh mục IVB"
+   }
+  ],
+  "29329300": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương, Bộ Nông nghiệp và Môi trường",
+    "nhom": "IVB.26",
+    "phu_luc": "Danh mục IVB"
+   }
+  ],
+  "29329400": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVB.30",
+    "phu_luc": "Danh mục IVB"
    }
   ],
   "29329600": [
@@ -57279,6 +58071,132 @@
     "dieu_kien": null,
     "nhom": "II.300",
     "phu_luc": "Phụ lục"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an (bản gốc Công báo in mã 2932.99.90, tương ứng mã 2932.99.00 theo Biểu thuế hiện hành)",
+    "nhom": "IVA.12",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an (bản gốc Công báo in mã 2932.99.90, tương ứng mã 2932.99.00 theo Biểu thuế hiện hành)",
+    "nhom": "IVA.13",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an (bản gốc Công báo in mã 2932.99.90, tương ứng mã 2932.99.00 theo Biểu thuế hiện hành)",
+    "nhom": "IVA.14",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an (bản gốc Công báo in mã 2932.99.90, tương ứng mã 2932.99.00 theo Biểu thuế hiện hành)",
+    "nhom": "IVA.15",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an (bản gốc Công báo in mã 2932.99.90, tương ứng mã 2932.99.00 theo Biểu thuế hiện hành)",
+    "nhom": "IVA.16",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an (bản gốc Công báo in mã 2932.99.90, tương ứng mã 2932.99.00 theo Biểu thuế hiện hành)",
+    "nhom": "IVA.17",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an (bản gốc Công báo in mã 2932.99.90, tương ứng mã 2932.99.00 theo Biểu thuế hiện hành)",
+    "nhom": "IVA.18",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an (bản gốc Công báo in mã 2932.99.90, tương ứng mã 2932.99.00 theo Biểu thuế hiện hành)",
+    "nhom": "IVA.19",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an (bản gốc Công báo in mã 2932.99.90, tương ứng mã 2932.99.00 theo Biểu thuế hiện hành)",
+    "nhom": "IVA.20",
+    "phu_luc": "Danh mục IVA"
    }
   ],
   "29329990": [
@@ -57341,6 +58259,22 @@
     "phu_luc": "Danh mục 7"
    }
   ],
+  "29333200": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVB.25",
+    "phu_luc": "Danh mục IVB"
+   }
+  ],
   "29333300": [
    {
     "so_hieu": "09/2024/TT-BYT",
@@ -57369,6 +58303,22 @@
     "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
     "nhom": "3",
     "phu_luc": "Danh mục 3"
+   }
+  ],
+  "29333600": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.21",
+    "phu_luc": "Danh mục IVA"
    }
   ],
   "29333910": [
@@ -57429,6 +58379,90 @@
     "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
     "nhom": "7",
     "phu_luc": "Danh mục 7"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.1",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.2",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.22",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.23",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.29",
+    "phu_luc": "Danh mục IVA"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.30",
+    "phu_luc": "Danh mục IVA"
    }
   ],
   "29334100": [
@@ -59023,6 +60057,20 @@
     "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
     "nhom": "4",
     "phu_luc": "Danh mục 4"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Y tế, Bộ Nông nghiệp và Môi trường",
+    "nhom": "IVB.11",
+    "phu_luc": "Danh mục IVB"
    }
   ],
   "29394200": [
@@ -59039,6 +60087,34 @@
     "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
     "nhom": "4",
     "phu_luc": "Danh mục 4"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Y tế",
+    "nhom": "IVB.18",
+    "phu_luc": "Danh mục IVB"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Y tế",
+    "nhom": "IVB.29",
+    "phu_luc": "Danh mục IVB"
    }
   ],
   "29394300": [
@@ -59071,6 +60147,20 @@
     "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
     "nhom": "7",
     "phu_luc": "Danh mục 7"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVA — Cơ quan quản lý: Bộ Công an",
+    "nhom": "IVA.28",
+    "phu_luc": "Danh mục IVA"
    }
   ],
   "29394900": [
@@ -59087,6 +60177,48 @@
     "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
     "nhom": "4",
     "phu_luc": "Danh mục 4"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Y tế",
+    "nhom": "IVB.19",
+    "phu_luc": "Danh mục IVB"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Y tế",
+    "nhom": "IVB.20",
+    "phu_luc": "Danh mục IVB"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Y tế",
+    "nhom": "IVB.21",
+    "phu_luc": "Danh mục IVB"
    }
   ],
   "29395900": [
@@ -59119,6 +60251,20 @@
     "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
     "nhom": "4",
     "phu_luc": "Danh mục 4"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Y tế",
+    "nhom": "IVB.12",
+    "phu_luc": "Danh mục IVB"
    }
   ],
   "29396200": [
@@ -59135,6 +60281,36 @@
     "dieu_kien": "Danh mục đối chiếu mã HS của thuốc, nguyên liệu làm thuốc, mỹ phẩm thuộc quản lý Bộ Y tế — tự nó không phải giấy phép; nghĩa vụ cụ thể theo Luật Dược/quy định mỹ phẩm",
     "nhom": "4",
     "phu_luc": "Danh mục 4"
+   },
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Y tế",
+    "nhom": "IVB.13",
+    "phu_luc": "Danh mục IVB"
+   }
+  ],
+  "29396300": [
+   {
+    "so_hieu": "28/2026/NĐ-CP",
+    "slug": "28-2026-nd-cp",
+    "ten": "Quy định các danh mục chất ma túy và tiền chất",
+    "tinh_trang": "CON_HIEU_LUC",
+    "hieu_luc_tu": "2026-01-19",
+    "het_hieu_luc_tu": null,
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": "Tiền chất Danh mục IVB — Cơ quan quản lý: Bộ Công Thương",
+    "nhom": "IVB.16",
+    "phu_luc": "Danh mục IVB"
    }
   ],
   "29396900": [

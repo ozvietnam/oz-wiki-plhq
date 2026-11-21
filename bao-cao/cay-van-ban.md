@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-21
 
-2878 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2881 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -373,7 +373,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2196 văn bản, 2196 chưa hết hiệu lực.
+2199 văn bản, 2199 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -389,9 +389,12 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [23282/TB-CHQ/2026](../registry/van-ban/23282-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương vải LYCHEE FLAVOR S2313394, dạng chất lỏng, thành phần Propylene glycol 80-100%, hương liệu 5-10%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
 - 🟢 [23161/TB-CHQ/2026](../registry/van-ban/23161-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hóa chất JS-12000 dạng lỏng gồm Acrylic Copolymer 36-38%, Ethyl acetate 43-46%, Toluene 12-15% và Acetone 2-4%, nguyên liệu polymer trung gian dùng chế tạo chất keo nhạy áp PSA sản xuất băng keo điện tử và màng bảo vệ, mã số 3208.20.90)
 - 🟢 [23022/TB-CHQ/2026](../registry/van-ban/23022-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thức ăn chăn nuôi bổ sung dạng hỗn hợp axit hữu cơ FORMI STABLE dạng bột, thành phần Axit Formic 30,6-37,4%, Natri Formate 45-55%, khoáng Diatomaceous Earth 12,6-15,4%, bổ sung vào thức ăn hỗn hợp cho gia súc và gia cầm, mã số 2309.90.20)
+- 🟢 [23039/TB-CHQ/2026](../registry/van-ban/23039-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cáp tín hiệu có chống nhiễu 1PR x 1.5mm2, cách điện bằng nhựa PE, điện áp 30V, chưa gắn với đầu nối, không dùng trong viễn thông, dùng truyền tín hiệu chuẩn RS-232, RS-485, Modbus/Bacnet, hệ thống âm thanh, báo cháy, camera, BMS, mã số 8544.49.24)
 - 🟢 [23040/TB-CHQ/2026](../registry/van-ban/23040-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cáp mạng Lan UTP Cat6 4X2X24 AWG, cách điện bằng nhựa PE, điện áp tối đa 12V, chưa gắn với đầu nối, không dùng cho viễn thông, dùng trong mạng máy tính, mã số 8544.49.24)
 - 🟢 [23041/TB-CHQ/2026](../registry/van-ban/23041-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cáp tín hiệu 1PR x 18AWG, cách điện bằng nhựa PE, điện áp 30V, chưa gắn với đầu nối, không dùng cho viễn thông, dùng truyền tín hiệu cho chuẩn kết nối RS-232, RS-485, Modbus/Bacnet, hệ thống âm thanh, báo cháy, camera, BMS, mã số 8544.49.24)
+- 🟢 [23042/TB-CHQ/2026](../registry/van-ban/23042-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cáp tín hiệu có chống nhiễu 1PR x 1.5mm2, cách điện bằng cao su silicon chống cháy dạng gốm, điện áp 30V, chưa gắn với đầu nối, không dùng trong viễn thông, dùng truyền tín hiệu chuẩn RS-232, RS-485, Modbus/Bacnet, hệ thống âm thanh, báo cháy, camera, BMS, mã số 8544.49.24)
 - 🟢 [23043/TB-CHQ/2026](../registry/van-ban/23043-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cáp tín hiệu có chống nhiễu 1PR x 1.0mm2, cách điện bằng cao su silicon chống cháy dạng gốm, điện áp 30V, chưa gắn với đầu nối, không dùng cho viễn thông, dùng truyền tín hiệu chuẩn RS-232, RS-485, Modbus/Bacnet, hệ thống âm thanh, báo cháy, camera, BMS, mã số 8544.49.24)
+- 🟢 [22981/TB-CHQ/2026](../registry/van-ban/22981-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thức ăn bổ sung dạng hỗn hợp chứa axit hữu cơ gồm Axit Formic 51%–63% và Natri Formate 28%–36%, dạng lỏng dùng bổ sung vào nước uống và thức ăn lỏng cho vật nuôi, mã số 2309.90.20)
 - 🟢 [22419/TB-CHQ/2026](../registry/van-ban/22419-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cao su hỗn hợp chưa lưu hóa Compounding Masterbatch, dạng tấm, thành phần cao su butadiene, cao su tự nhiên, muội carbon, kẽm ô xit, axit stearic, chất chống oxy hóa, dầu aromatic, không chứa lưu huỳnh hoặc chất xúc tiến, dùng trong sản xuất lốp xe, mã số 4005.10.90)
 - 🟢 [73/2026/VBHN-TT-BCT](../registry/van-ban/73-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư sửa đổi quy định Danh mục chi tiết theo mã HS của hàng hóa xuất khẩu, nhập khẩu
 - 🟢 [74/2026/VBHN-TT-BCT](../registry/van-ban/74-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương
