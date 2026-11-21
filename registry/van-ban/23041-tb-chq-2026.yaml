@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 23041/TB-CHQ/2026
+so_hieu_khac:
+  - 23041/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-21'
+ten: 'Thông báo về kết quả xác định trước mã số (Cáp tín hiệu 1PR x 18AWG, cách điện bằng nhựa PE, điện áp 30V, chưa gắn với đầu nối, không dùng cho viễn thông, dùng truyền tín hiệu cho chuẩn kết nối RS-232, RS-485, Modbus/Bacnet, hệ thống âm thanh, báo cháy, camera, BMS, mã số 8544.49.24)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-10-15'
+hieu_luc_tu: '2026-10-15'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=106374&cid=1294
+    truy_cap: '2026-11-21'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/10/16/VB_23041.pdf
+    truy_cap: '2026-11-21'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/10/16/VB_23041.pdf, id=106374, SHA-256 03ab037e09e021ce6a31f3b73505b110b8c8b3671fd94efcc4d2acccf7638e77): Thông báo số 23041/TB-CHQ ngày 15-10-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Cáp tín hiệu, cách điện bằng PE, 1PR x 18AWG (bên ngoài lớp vỏ nhựa; bên trong chia 02 vùng gồm vùng 1 là 01 bó dây thoát nhiễu 07 sợi đồng mạ thiếc đường kính 0,32mm/sợi không vỏ bọc cách điện và vùng 2 là vỏ lá nhôm chứa 02 cáp truyền tín hiệu có vỏ cách điện nhựa PE, mỗi lõi gồm 16 sợi đồng mạ thiếc bện xoắn đường kính 0,25mm/sợi; cáp dạng cuộn chưa gắn đầu nối, đường kính lõi dẫn tín hiệu nhỏ hơn 19,5mm, điện áp 30V, không dùng cho viễn thông, dùng truyền tín hiệu chuẩn RS-232, RS-485, Modbus/Bacnet, hệ thống âm thanh, báo cháy, camera, BMS), phân loại vào nhóm 85.44, phân nhóm 8544.49, mã số 8544.49.24; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Cáp tín hiệu 1PR x 18AWG, cách điện bằng nhựa PE (bên ngoài là lớp vỏ nhựa; bên trong gồm 01 bó dây thoát nhiễu Drain wire 07 sợi đồng mạ thiếc đường kính 0,32mm/sợi và một vỏ lá nhôm chứa 02 cáp truyền tín hiệu cách điện bằng nhựa PE, mỗi lõi gồm 16 sợi đồng mạ thiếc bện xoắn đường kính 0,25mm/sợi; cáp dạng cuộn, chưa gắn đầu nối, đường kính lõi dẫn tín hiệu nhỏ hơn 19,5mm, điện áp 30V, không dùng cho viễn thông, dùng truyền tín hiệu cho chuẩn kết nối RS-232, RS-485, Modbus/Bacnet, hệ thống âm thanh, báo cháy, camera, BMS) thuộc nhóm 85.44, phân nhóm 8544.49, mã số 8544.49.24.'
+toan_van: raw/download/files.customs.gov.vn/23041-tb-chq-2026.pdf

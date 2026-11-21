@@ -41,8 +41,80 @@ xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF Công báo số 329+330 ngày 21-02-2024 (lớp chữ): Điều 3 khoản 1 hiệu lực 20-03-2024; khoản 2 thay/bãi 11/2021, một phần 16/2021 và 01/2022 TT-BNNPTNT; tình trạng hiện tại: sổ không có văn bản sau ghi thay/bãi TT 01/2024'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      khoan: 1
+      noi_dung: 'Điều 1. Ban hành kèm theo Thông tư này bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn 1. Phụ lục I. Bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn, cụ thể:'
+      trang_pdf: 1
+      sha256_pdf: 0dfeddafc6c36afdd0d13b4f322bb9a8d97ac4f794fdc6374799203e0cc955c2
+    - dieu: 1
+      khoan: 2
+      noi_dung: '2. Phụ lục II. Bảng mã số HS đối với danh mục hàng hóa nhập khẩu phải kiểm tra chuyên ngành trước thông quan thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn.'
+      trang_pdf: 3
+      sha256_pdf: 0dfeddafc6c36afdd0d13b4f322bb9a8d97ac4f794fdc6374799203e0cc955c2
+    - dieu: 1
+      khoan: 3
+      noi_dung: '3. Phụ lục III. Bảng mã số HS đối với danh mục hàng hóa nhập khẩu phải kiểm tra chuyên ngành sau thông quan thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn.'
+      trang_pdf: 3
+      sha256_pdf: 0dfeddafc6c36afdd0d13b4f322bb9a8d97ac4f794fdc6374799203e0cc955c2
+    - dieu: 2
+      khoan: 1
+      noi_dung: '1. Danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn đã xác định mã hàng ban hành kèm theo Thông tư này là cơ sở để tổ chức, cá nhân thực hiện khai báo hải quan khi xuất khẩu, nhập khẩu vào Việt Nam.'
+      trang_pdf: 3
+      sha256_pdf: 0dfeddafc6c36afdd0d13b4f322bb9a8d97ac4f794fdc6374799203e0cc955c2
+    - dieu: 2
+      khoan: 2
+      noi_dung: '2. Khi xuất khẩu, nhập khẩu hàng hóa trong lĩnh vực nông nghiệp nhưng chưa có mã hàng trong Danh mục ban hành kèm theo Thông tư này, việc khai báo hải quan thực hiện theo mô tả thực tế hàng hóa và Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam ban hành kèm theo Thông tư số 31/2022/TT-BTC ngày 08/6/2022 của Bộ trưởng Bộ Tài chính. Sau khi thông quan các tổ chức, cá nhân có văn bản gửi về Bộ Nông nghiệp và Phát triển nông thôn để phối hợp với Bộ Tài chính xem xét thống nhất, cập nhật và ban hành Danh mục bổ sung.'
+      trang_pdf: 4
+      sha256_pdf: 0dfeddafc6c36afdd0d13b4f322bb9a8d97ac4f794fdc6374799203e0cc955c2
+    - dieu: 2
+      khoan: 3
+      noi_dung: '3. Việc kiểm tra chuyên ngành đối với hàng hóa xuất khẩu thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn thực hiện theo đề nghị của doanh nghiệp, phục vụ việc thông quan hàng hóa tại nước nhập khẩu.'
+      trang_pdf: 4
+      sha256_pdf: 0dfeddafc6c36afdd0d13b4f322bb9a8d97ac4f794fdc6374799203e0cc955c2
+    - dieu: 3
+      khoan: 1
+      noi_dung: '1. Thông tư này có hiệu lực thi hành kể từ ngày 20 tháng 3 năm 2024'
+      trang_pdf: 4
+      sha256_pdf: 0dfeddafc6c36afdd0d13b4f322bb9a8d97ac4f794fdc6374799203e0cc955c2
+    - dieu: 3
+      khoan: 2
+      diem: a
+      noi_dung: 'a) Thay thế Thông tư số 11/2021/TT-BNNPTNT ngày 20 tháng 9 năm 2021 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn;'
+      trang_pdf: 4
+      sha256_pdf: 0dfeddafc6c36afdd0d13b4f322bb9a8d97ac4f794fdc6374799203e0cc955c2
+    - dieu: 3
+      khoan: 2
+      diem: b
+      noi_dung: 'b) Thay thế mục 3.1, mục 4, mục 8, mục 9 Phụ lục ban hành kèm theo Thông tư 16/2021/TT-BNNPTNT ngày 20 tháng 12 năm 2021 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn ban hành danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Phát triển nông thôn bằng các mục tương ứng tại Phụ lục IV ban hành kèm theo Thông tư này;'
+      trang_pdf: 4
+      sha256_pdf: 0dfeddafc6c36afdd0d13b4f322bb9a8d97ac4f794fdc6374799203e0cc955c2
+    - dieu: 3
+      khoan: 2
+      diem: c
+      noi_dung: 'c) Bãi bỏ Điều 9 Thông tư số 01/2022/TT-BNNPTNT ngày 18 tháng 01 năm 2022 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn sửa đổi, bổ sung một số Thông tư trong lĩnh vực thủy sản;'
+      trang_pdf: 4
+      sha256_pdf: 0dfeddafc6c36afdd0d13b4f322bb9a8d97ac4f794fdc6374799203e0cc955c2
+    - dieu: 3
+      khoan: 2
+      diem: d
+      noi_dung: 'd) Bãi bỏ Phụ lục XXIII ban hành kèm theo Thông tư số 01/2022/TT-BNNPTNT ngày 18 tháng 01 năm 2022 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn sửa đổi, bổ sung một số Thông tư trong lĩnh vực thủy sản.'
+      trang_pdf: 4
+      sha256_pdf: 0dfeddafc6c36afdd0d13b4f322bb9a8d97ac4f794fdc6374799203e0cc955c2
+    - dieu: 4
+      khoan: 1
+      noi_dung: '1. Chánh Văn phòng Bộ, Vụ trưởng Vụ Pháp chế, Thủ trưởng các đơn vị thuộc Bộ Nông nghiệp và Phát triển nông thôn và các cơ quan, tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Thông tư này.'
+      trang_pdf: 5
+      sha256_pdf: 0dfeddafc6c36afdd0d13b4f322bb9a8d97ac4f794fdc6374799203e0cc955c2
+    - dieu: 4
+      khoan: 2
+      noi_dung: '2. Trong quá trình thực hiện Thông tư, nếu có vướng mắc, đề nghị phản ánh kịp thời về Bộ Nông nghiệp và Phát triển nông thôn để nghiên cứu, sửa đổi, bổ sung cho phù hợp./.'
+      trang_pdf: 5
+      sha256_pdf: 0dfeddafc6c36afdd0d13b4f322bb9a8d97ac4f794fdc6374799203e0cc955c2
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1468 mã HS). Lưu ý: sau sáp nhập bộ, một phần danh mục có thể chuyển sang BNNMT — chưa thấy văn bản thay toàn bộ trên sổ.'
 
-toan_van: raw/download/congbaocdn.chinhphu.vn/01-2024-tt-bnnptnt.pdf
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/01-2024-tt-bnnptnt.pdf
+  - wiki/sources/01-2024-tt-bnnptnt.md

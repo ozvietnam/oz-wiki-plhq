@@ -35,9 +35,68 @@ xac_minh:
   muc: NGUON_A
   pham_vi: 'Toàn văn 6 Điều + 1 Phụ lục (PDF Công báo số 629+630 ngày 12-04-2025, tr.34-89; file body.txt 6159 dòng). Điều 1 Phạm vi điều chỉnh: ban hành DM + nguyên tắc áp dụng. Điều 2 Ban hành Danh mục. Điều 3 Nguyên tắc áp dụng Danh mục: (1) trường hợp khác biệt phân loại HS → theo pháp luật hải quan; (2) hàng chưa liệt kê → tra HS theo luật hải quan, sau thông quan gửi Cục ATTP để cập nhật; (3) kiểm tra ATTP nhập khẩu theo Điều 37 NĐ 15/2018/NĐ-CP — hàng có tên trong DM thực hiện Điều 40 Luật ATTP + Điều 16 NĐ 15/2018; (4) miễn/không thuộc đối tượng KTCL — Điều 13 NĐ 15/2018 (trừ cảnh báo), hàng không nhằm mục đích làm thực phẩm, dụng cụ/bao gói không chứa đựng và không tiếp xúc trực tiếp; (5) phụ gia hỗn hợp ≥2 chất có tên trong DM → mã HS theo 6 GIR kèm TT 31/2022/TT-BTC. Điều 4 Điều khoản tham chiếu. Điều 5 Hiệu lực: (1) 02-11-2024; (2) thay TT 28/2021/TT-BYT. Điều 6 Trách nhiệm thi hành — Cục trưởng Cục ATTP, các đơn vị BYT, Sở Y tế/Sở ATTP địa phương. Phụ lục DM 3 nhóm: I. Thực phẩm bổ sung (mã HS theo 6 GIR TT 31/2022/TT-BTC); II. Phụ gia thực phẩm đơn chất (~391 dòng, mã INS 100–957); III. Dụng cụ chứa đựng/vật liệu bao gói tiếp xúc trực tiếp (6 dòng, nhựa + cao su). Phạm vi KTCL: nhập khẩu thuộc quản lý BYT; căn cứ NĐ 15/2018/NĐ-CP; nguyên tắc phân loại HS theo TT 31/2022/TT-BTC. Tình trạng: TT 27/2026/TT-BYT dẫn TT 15/2024 làm căn cứ mã HS (không thay); sổ không có văn bản sau ghi thay/bãi TT 15/2024 (kiểm đến 04-10-2026).'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
   dieu_count: 6
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Thông tư này ban hành Danh mục và nguyên tắc áp dụng Danh mục thực phẩm, phụ gia thực phẩm và dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam ban hành kèm theo Thông tư số 31/2022/TT-BTC ngày 08 tháng 6 năm 2022 của Bộ trưởng Bộ Tài chính về việc ban hành Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam phải kiểm tra nhà nước về an toàn thực phẩm nhập khẩu thuộc phạm vi quản lý của Bộ Y tế (sau đây gọi tắt là Danh mục).'
+      trang_pdf: 2
+      sha256_pdf: e740e31eb4fd075cf8adbbc89d12b3d9f0e165a207ca73a0d2f8b0b459172e6e
+    - dieu: 2
+      noi_dung: 'Điều 2. Ban hành Danh mục Ban hành kèm theo Thông tư này Danh mục thực phẩm, phụ gia thực phẩm và dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam phải kiểm tra nhà nước về an toàn thực phẩm nhập khẩu thuộc phạm vi quản lý của Bộ Y tế.'
+      trang_pdf: 2
+      sha256_pdf: e740e31eb4fd075cf8adbbc89d12b3d9f0e165a207ca73a0d2f8b0b459172e6e
+    - dieu: 3
+      khoan: 1
+      noi_dung: '1. Trường hợp có sự khác biệt, không thống nhất trong việc phân loại và xác định mã số hàng hóa đối với các hàng hóa thuộc Danh mục ban hành kèm theo Thông tư này, việc xác định mã số hàng hóa thực hiện theo quy định của pháp luật về hải quan.'
+      trang_pdf: 2
+      sha256_pdf: e740e31eb4fd075cf8adbbc89d12b3d9f0e165a207ca73a0d2f8b0b459172e6e
+    - dieu: 3
+      khoan: 2
+      noi_dung: '2. Đối với thực phẩm, phụ gia thực phẩm và dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm chưa được liệt kê và xác định mã số hàng hóa trong Danh mục ban hành kèm theo Thông tư này, việc xác định mã số hàng hóa thực hiện theo quy định của pháp luật về hải quan. Sau khi thông quan, các tổ chức, cá nhân xuất khẩu, nhập khẩu có văn bản gửi về Bộ Y tế (Cục An toàn thực phẩm) để làm cơ sở phối hợp với Bộ Tài chính xem xét thống nhất, cập nhật và ban hành Danh mục bổ sung.'
+      trang_pdf: 2
+      sha256_pdf: e740e31eb4fd075cf8adbbc89d12b3d9f0e165a207ca73a0d2f8b0b459172e6e
+    - dieu: 3
+      khoan: 3
+      diem: a
+      noi_dung: 'a) Đối với hàng hóa có tên trong Danh mục: thực hiện theo quy định tại Điều 40 Luật an toàn thực phẩm và Điều 16 Nghị định số 15/2018/NĐ-CP ngày 02 tháng 02 năm 2018 của Chính phủ quy định chi tiết thi hành một số điều của Luật an toàn thực phẩm.'
+      trang_pdf: 3
+      sha256_pdf: e740e31eb4fd075cf8adbbc89d12b3d9f0e165a207ca73a0d2f8b0b459172e6e
+    - dieu: 3
+      khoan: 3
+      diem: b
+      noi_dung: 'b) Đối với hàng hóa không thuộc Danh mục nhưng không đạt yêu cầu trong các lần thanh tra, kiểm tra (nếu có) hoặc có cảnh báo của Bộ Y tế, Bộ Nông nghiệp và Phát triển nông thôn, Bộ Công Thương, Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương hoặc của cơ quan có thẩm quyền tại nước ngoài hoặc của nhà sản xuất: áp dụng phương thức kiểm tra chặt theo quy định tại điểm b, điểm c khoản 3 Điều 17 Nghị định số 15/2018/NĐ-CP ngày 02 tháng 02 năm 2018 của Chính phủ quy định chi tiết thi hành một số điều của Luật an toàn thực phẩm. Cơ quan có thẩm quyền thuộc Bộ Y tế có trách nhiệm thông báo cho cơ quan hải quan thời điểm áp dụng, dừng áp dụng phương thức kiểm tra chặt đối với các trường hợp này.'
+      trang_pdf: 3
+      sha256_pdf: e740e31eb4fd075cf8adbbc89d12b3d9f0e165a207ca73a0d2f8b0b459172e6e
+    - dieu: 3
+      khoan: 4
+      noi_dung: '4. Các trường hợp thực phẩm nhập khẩu sau thuộc đối tượng miễn hoặc không thuộc đối tượng kiểm tra nhà nước về an toàn thực phẩm: a) Hàng hóa có tên trong Danh mục nhưng thuộc một trong các trường hợp được quy định tại Điều 13 Nghị định số 15/2018/NĐ-CP ngày 02 tháng 02 năm 2018 của Chính phủ quy định chi tiết thi hành một số điều của Luật an toàn thực phẩm (trừ các trường hợp có cảnh báo về an toàn thực phẩm); b) Hàng hóa có tên trong Danh mục nhưng không nhằm mục đích sử dụng làm thực phẩm, phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm; c) Hàng hóa là dụng cụ, vật liệu bao gói có tên trong Danh mục nhưng không chứa đựng và không tiếp xúc trực tiếp với thực phẩm; d) Hàng hóa không thuộc Danh mục, trừ trường hợp quy định tại điểm b khoản 3 Điều 2 Thông tư này.'
+      trang_pdf: 3
+      sha256_pdf: e740e31eb4fd075cf8adbbc89d12b3d9f0e165a207ca73a0d2f8b0b459172e6e
+    - dieu: 3
+      khoan: 5
+      noi_dung: '5. Đối với Phụ gia thực phẩm hỗn hợp mà thành phần có từ hai (02) chất phụ gia thực phẩm trở lên có tên trong Danh mục, mã HS của hàng hóa được xác định theo sáu (06) quy tắc phân loại tổng quát ban hành kèm theo Thông tư số 31/2022/TT-BTC ngày 08 tháng 6 năm 2022 của Bộ trưởng Bộ Tài chính về việc ban hành Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.'
+      trang_pdf: 3
+      sha256_pdf: e740e31eb4fd075cf8adbbc89d12b3d9f0e165a207ca73a0d2f8b0b459172e6e
+    - dieu: 4
+      noi_dung: 'Điều 4. Điều khoản tham chiếu Trong trường hợp các văn bản quy phạm pháp luật và các quy định được viện dẫn trong Thông tư này có sự thay đổi, bổ sung hoặc được thay thế thì áp dụng theo văn bản quy phạm pháp luật mới.'
+      trang_pdf: 4
+      sha256_pdf: e740e31eb4fd075cf8adbbc89d12b3d9f0e165a207ca73a0d2f8b0b459172e6e
+    - dieu: 5
+      khoan: 1
+      noi_dung: '1. Thông tư này có hiệu lực thi hành từ ngày 02 tháng 11 năm 2024.'
+      trang_pdf: 4
+      sha256_pdf: e740e31eb4fd075cf8adbbc89d12b3d9f0e165a207ca73a0d2f8b0b459172e6e
+    - dieu: 5
+      khoan: 2
+      noi_dung: '2. Thông tư số 28/2021/TT-BYT ngày 20 tháng 12 năm 2021 của Bộ trưởng Bộ Y tế ban hành Danh mục thực phẩm, phụ gia thực phẩm và dụng cụ, vật liệu bao gói, chứa đựng thực phẩm được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam phục vụ cho kiểm tra nhà nước về an toàn thực phẩm đối với thực phẩm nhập khẩu hết hiệu lực thi hành kể từ ngày Thông tư này có hiệu lực.'
+      trang_pdf: 4
+      sha256_pdf: e740e31eb4fd075cf8adbbc89d12b3d9f0e165a207ca73a0d2f8b0b459172e6e
+    - dieu: 6
+      noi_dung: 'Điều 6. Trách nhiệm thi hành Cục trưởng Cục An toàn thực phẩm; Thủ trưởng các đơn vị thuộc và trực thuộc Bộ Y tế; Giám đốc Sở Y tế, Sở An toàn thực phẩm các tỉnh, thành phố trực thuộc Trung ương; Thủ trưởng Cơ quan quản lý an toàn thực phẩm thuộc Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương; Thủ trưởng cơ quan Y tế các Bộ, ngành và các cơ quan, tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Thông tư này. Trong quá trình thực hiện, nếu có khó khăn, vướng mắc, cơ quan, tổ chức, cá nhân phản ánh về Bộ Y tế (Cục An toàn thực phẩm) để xem xét, giải quyết./.'
+      trang_pdf: 4
+      sha256_pdf: e740e31eb4fd075cf8adbbc89d12b3d9f0e165a207ca73a0d2f8b0b459172e6e
   chuong_hs:
     - 'Ch.09 (gia vị — nghệ turmeric INS 100(ii))'
     - 'Ch.13 (nhựa cây, chiết xuất thực vật)'
@@ -60,4 +119,6 @@ xac_minh:
     - 'II. Phụ gia thực phẩm đơn chất (Single-substance food additives) — ~391 dòng, mã INS 100–957, đầy đủ 16 chương HS'
     - 'III. Dụng cụ chứa đựng thực phẩm / Vật liệu bao gói tiếp xúc trực tiếp (Food contact materials) — 6 dòng: nhựa tổng hợp (hộp, bao/túi/màng, bình/chai/lọ, thùng/bể chứa, đồ dùng nhà bếp) + cao su (núm vú bình trẻ em)'
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (186 mã HS). QĐ 988/QĐ-BYT ngày 24-03-2025 đính chính TT 15/2024 (Công báo cùng số, tr. 94–95) — không đổi mã HS. Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 186 mã HS). Tiêu đề đã đối chiếu (thuvienphapluat.vn). KHUNG KTCN 2026 (tin cậy LOW): Kiểm tra ATTP vẫn theo NĐ 15/2018/NĐ-CP. Bộ Y tế ra thêm TT 27/2026/TT-BYT (thực phẩm, bao gói tiếp xúc thực phẩm — rủi ro trung bình). Chưa thấy nguồn nói TT 27/2026 thay TT 15/2024 — cần đối chiếu. CẬP NHẬT 04/10/2026: QĐ 988/QĐ-BYT ngày 24-03-2025 (cùng số Công báo, trang 94–95) đính chính TT 15/2024 — sửa viện dẫn điểm d khoản 4 Điều 3 và bỏ dòng thừa "II. Phụ gia thực phẩm đơn chất:" đầu bảng; không đổi mã HS.'
-toan_van: raw/download/congbaocdn.chinhphu.vn/15-2024-tt-byt.pdf
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/15-2024-tt-byt.pdf
+  - wiki/sources/15-2024-tt-byt.md
