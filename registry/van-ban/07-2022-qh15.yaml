@@ -12,19 +12,109 @@ quan_he:
   sua_doi:
     - so_hieu: 50/2005/QH11
       tu_ngay: '2023-01-01'
+      can_cu: Điều 1
+    - so_hieu: 54/2014/QH13
+      tu_ngay: '2023-01-01'
+      can_cu: Điều 2 khoản 1
 nguon:
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/155-vbhn-vpqh.pdf
     truy_cap: '2026-10-29'
   - url: https://congbao.chinhphu.vn/van-ban/luat-so-07-2022-qh15-37504.htm
     truy_cap: '2026-11-14'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/6/37504/41170-1-2022573-57407-2022-qh15.pdf
+    truy_cap: '2026-11-21'
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, ngày ban hành 16-06-2022, hiệu lực 01-01-2023, sửa đổi Luật 50/2005/QH11 — đối chiếu nguyên văn phần đầu VBHN 155/VBHN-VPQH (09-09-2025)
+  pham_vi: 'Đã đối chiếu toàn văn nguồn bậc A từ PDF Công báo số 573 + 574 ngày 16-07-2022 (raw/download/congbaocdn.chinhphu.vn/07-2022-qh15.pdf, 72 trang, trang 3–74 của số Công báo, có lớp chữ ký số bởi Văn phòng Chính phủ ngày 19-07-2022, SHA-256 26ee7ef2a9680660d886a96b5ea5c4d30809a5bbffdde73050fcc34f8dfea72e), raw/download/congbao.chinhphu.vn/07-2022-qh15.html, VBHN 155/VBHN-VPQH (09-09-2025) và trang wiki/sources/07-2022-qh15.md: Quốc hội khóa XV kỳ họp thứ 3 thông qua ngày 16-06-2022, Chủ tịch Quốc hội Vương Đình Huệ ký, gồm 4 Điều (Điều 1 gồm 83 khoản sửa đổi, bổ sung Luật Sở hữu trí tuệ 50/2005/QH11; Điều 2 sửa đổi Luật Hải quan 54/2014/QH13, Luật KH&CN 29/2013/QH13, Luật Quản lý, sử dụng tài sản công 15/2017/QH14 và Luật Giá 11/2012/QH13; Điều 3 hiệu lực thi hành từ 01-01-2023; Điều 4 quy định chuyển tiếp).'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: Lần sửa đổi lớn thứ ba của Luật Sở hữu trí tuệ (nền cho NĐ 65/2023, NĐ 17/2023).
+  dieu_khoan:
+    - dieu: 1
+      khoan: 1
+      noi_dung: '“12a. Sáng chế mật là sáng chế được cơ quan, tổ chức có thẩm quyền xác định là bí mật nhà nước theo quy định của pháp luật về bảo vệ bí mật nhà nước. 13. Kiểu dáng công nghiệp là hình dáng bên ngoài của sản phẩm hoặc bộ phận để lắp ráp thành sản phẩm phức hợp, được thể hiện bằng hình khối, đường nét, màu sắc hoặc sự kết hợp những yếu tố này và nhìn thấy được trong quá trình khai thác công dụng của sản phẩm hoặc sản phẩm phức hợp.”; c) Sửa đổi, bổ sung khoản 20 như sau: “20. Nhãn hiệu nổi tiếng là nhãn hiệu được bộ phận công chúng có liên quan biết đến rộng rãi trên lãnh thổ Việt Nam.”;'
+      trang_pdf: 2
+      sha256_pdf: 26ee7ef2a9680660d886a96b5ea5c4d30809a5bbffdde73050fcc34f8dfea72e
+    - dieu: 1
+      khoan: 1
+      noi_dung: 'd) Sửa đổi, bổ sung khoản 22 và bổ sung khoản 22a vào sau khoản 22 như sau: “22. Chỉ dẫn địa lý là dấu hiệu dùng để chỉ nguồn gốc địa lý của sản phẩm từ khu vực, địa phương, vùng lãnh thổ hoặc quốc gia cụ thể. 22a. Chỉ dẫn địa lý đồng âm là các chỉ dẫn địa lý có cách phát âm hoặc cách viết trùng nhau.”.'
+      trang_pdf: 3
+      sha256_pdf: 26ee7ef2a9680660d886a96b5ea5c4d30809a5bbffdde73050fcc34f8dfea72e
+    - dieu: 1
+      khoan: 2
+      noi_dung: '2. Sửa đổi, bổ sung khoản 2 Điều 7 như sau: “2. Việc thực hiện quyền sở hữu trí tuệ không được xâm phạm lợi ích của Nhà nước, lợi ích công cộng, quyền và lợi ích hợp pháp của tổ chức, cá nhân và không được vi phạm quy định khác của pháp luật có liên quan. Tổ chức, cá nhân thực hiện quyền sở hữu trí tuệ liên quan đến Quốc kỳ, Quốc huy, Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam không được ngăn chặn, cản trở việc phổ biến, sử dụng Quốc kỳ, Quốc huy, Quốc ca.”.'
+      trang_pdf: 3
+      sha256_pdf: 26ee7ef2a9680660d886a96b5ea5c4d30809a5bbffdde73050fcc34f8dfea72e
+    - dieu: 1
+      khoan: 5
+      noi_dung: 'd) Phân phối, nhập khẩu để phân phối đến công chúng thông qua bán hoặc hình thức chuyển giao quyền sở hữu khác đối với bản gốc, bản sao tác phẩm dưới dạng hữu hình, trừ trường hợp quy định tại điểm b khoản 3 Điều này;'
+      trang_pdf: 4
+      sha256_pdf: 26ee7ef2a9680660d886a96b5ea5c4d30809a5bbffdde73050fcc34f8dfea72e
+    - dieu: 1
+      khoan: 20
+      noi_dung: '20. Sửa đổi, bổ sung khoản 1 Điều 72 như sau: “1. Là dấu hiệu nhìn thấy được dưới dạng chữ cái, từ ngữ, hình vẽ, hình ảnh, hình ba chiều hoặc sự kết hợp các yếu tố đó, được thể hiện bằng một hoặc nhiều màu sắc hoặc dấu hiệu âm thanh thể hiện được dưới dạng đồ họa;”.'
+      trang_pdf: 28
+      sha256_pdf: 26ee7ef2a9680660d886a96b5ea5c4d30809a5bbffdde73050fcc34f8dfea72e
+    - dieu: 1
+      khoan: 27
+      noi_dung: '27. Bổ sung Điều 89a vào sau Điều 89 như sau: “Điều 89a. Kiểm soát an ninh đối với sáng chế trước khi nộp đơn đăng ký ở nước ngoài 1. Sáng chế thuộc các lĩnh vực kỹ thuật có tác động đến quốc phòng, an ninh, được tạo ra tại Việt Nam và thuộc quyền đăng ký của cá nhân là công dân Việt Nam và thường trú tại Việt Nam hoặc của tổ chức được thành lập theo pháp luật Việt Nam chỉ được nộp đơn đăng ký sáng chế ở nước ngoài nếu đã được nộp đơn đăng ký sáng chế tại Việt Nam để thực hiện thủ tục kiểm soát an ninh. 2. Chính phủ quy định chi tiết khoản 1 Điều này.”.'
+      trang_pdf: 32
+      sha256_pdf: 26ee7ef2a9680660d886a96b5ea5c4d30809a5bbffdde73050fcc34f8dfea72e
+    - dieu: 1
+      khoan: 29
+      noi_dung: '29. Bổ sung khoản 8 và khoản 9 vào sau khoản 7 Điều 93 như sau: “8. Đăng ký quốc tế nhãn hiệu theo Nghị định thư và Thỏa ước Madrid về đăng ký quốc tế nhãn hiệu có chỉ định Việt Nam có hiệu lực kể từ ngày cơ quan quản lý nhà nước về quyền sở hữu công nghiệp ra quyết định chấp nhận bảo hộ đối với nhãn hiệu trong đăng ký quốc tế đó hoặc kể từ ngày tiếp theo ngày kết thúc thời hạn mười hai tháng tính từ ngày Văn phòng quốc tế ra thông báo đăng ký quốc tế nhãn hiệu đó chỉ định Việt Nam, tính theo thời điểm nào sớm hơn. Thời hạn hiệu lực của đăng ký quốc tế nhãn hiệu được tính theo quy định của Nghị định thư và Thỏa ước Madrid.'
+      trang_pdf: 32
+      sha256_pdf: 26ee7ef2a9680660d886a96b5ea5c4d30809a5bbffdde73050fcc34f8dfea72e
+    - dieu: 1
+      khoan: 45
+      noi_dung: '45. Sửa đổi, bổ sung một số khoản của Điều 121 như sau: a) Sửa đổi, bổ sung khoản 1 như sau: “1. Chủ sở hữu sáng chế, thiết kế bố trí là tổ chức, cá nhân được cơ quan có thẩm quyền cấp văn bằng bảo hộ các đối tượng sở hữu công nghiệp tương ứng. Chủ sở hữu kiểu dáng công nghiệp là tổ chức, cá nhân được cơ quan có thẩm quyền cấp văn bằng bảo hộ kiểu dáng công nghiệp hoặc có kiểu dáng công nghiệp đã đăng ký quốc tế được cơ quan có thẩm quyền công nhận. Chủ sở hữu nhãn hiệu là tổ chức, cá nhân được cơ quan có thẩm quyền cấp văn bằng bảo hộ nhãn hiệu hoặc có nhãn hiệu đã đăng ký quốc tế được cơ quan có thẩm quyền công nhận hoặc có nhãn hiệu nổi tiếng.”;'
+      trang_pdf: 42
+      sha256_pdf: 26ee7ef2a9680660d886a96b5ea5c4d30809a5bbffdde73050fcc34f8dfea72e
+    - dieu: 1
+      khoan: 48
+      noi_dung: '48. Sửa đổi, bổ sung điểm b khoản 2 Điều 125 như sau: “b) Lưu thông, nhập khẩu, khai thác công dụng của sản phẩm do chủ sở hữu, người được chuyển giao quyền sử dụng, kể cả chuyển giao quyền sử dụng theo quyết định bắt buộc, người có quyền sử dụng trước đối tượng sở hữu công nghiệp theo quy định của Luật này đưa ra thị trường, kể cả thị trường nước ngoài;”.'
+      trang_pdf: 43
+      sha256_pdf: 26ee7ef2a9680660d886a96b5ea5c4d30809a5bbffdde73050fcc34f8dfea72e
+    - dieu: 1
+      khoan: 49
+      noi_dung: '49. Sửa đổi, bổ sung Điều 128 như sau: “Điều 128. Nghĩa vụ bảo hộ dữ liệu thử nghiệm 1. Trong trường hợp pháp luật có quy định người nộp đơn xin cấp phép lưu hành dược phẩm, nông hóa phẩm phải cung cấp kết quả thử nghiệm hoặc bất kỳ dữ liệu nào khác là bí mật kinh doanh thu được do đầu tư công sức đáng kể và người nộp đơn có yêu cầu giữ bí mật các thông tin đó thì cơ quan có thẩm quyền cấp phép có nghĩa vụ thực hiện các biện pháp cần thiết để các dữ liệu đó không bị sử dụng nhằm mục đích thương mại không lành mạnh và không bị bộc lộ, trừ trường hợp việc bộc lộ là cần thiết nhằm bảo vệ công chúng. 2. Đối với dược phẩm, kể từ khi dữ liệu bí mật trong đơn xin cấp phép được nộp cho cơ quan có thẩm quyền quy định tại khoản 1 Điều này đến hết thời hạn năm năm tính từ ngày người nộp đơn được cấp phép, cơ quan đó không được cấp phép cho bất kỳ người nào nộp đơn muộn hơn nếu trong đơn sử dụng dữ liệu bí mật nêu trên mà không được sự đồng ý của người nộp dữ liệu đó, trừ trường hợp quy định tại điểm d khoản 3 Điều 125 của Luật này.'
+      trang_pdf: 43
+      sha256_pdf: 26ee7ef2a9680660d886a96b5ea5c4d30809a5bbffdde73050fcc34f8dfea72e
+    - dieu: 1
+      khoan: 79
+      noi_dung: '79. Sửa đổi, bổ sung các điều 212, 213 và 214 như sau: “Điều 212. Hành vi xâm phạm quyền sở hữu trí tuệ bị xử lý hình sự Cá nhân, pháp nhân thương mại thực hiện hành vi xâm phạm quyền sở hữu trí tuệ có đủ yếu tố cấu thành tội phạm thì bị truy cứu trách nhiệm hình sự. Điều 213. Hàng hóa giả mạo về sở hữu trí tuệ 1. Hàng hóa giả mạo về sở hữu trí tuệ theo quy định của Luật này bao gồm hàng hóa giả mạo nhãn hiệu, hàng hóa giả mạo chỉ dẫn địa lý, hàng hóa sao chép lậu quy định tại các khoản 2, 3 và 4 Điều này. 2. Hàng hóa giả mạo nhãn hiệu là hàng hóa, bao bì của hàng hóa có gắn nhãn hiệu hoặc dấu hiệu hoặc tem, nhãn có chứa các dấu hiệu trùng hoặc tương tự đến mức khó phân biệt với nhãn hiệu đang được bảo hộ dùng cho chính mặt hàng đó mà không được phép của chủ sở hữu nhãn hiệu. 3. Hàng hóa giả mạo chỉ dẫn địa lý là hàng hóa, bao bì của hàng hóa có gắn dấu hiệu hoặc tem, nhãn có chứa các dấu hiệu trùng hoặc tương tự đến mức khó phân biệt với chỉ dẫn địa lý đang được bảo hộ dùng cho chính mặt hàng đó và việc gắn dấu hiệu này được thực hiện bởi tổ chức, cá nhân không có quyền sử dụng chỉ dẫn địa lý theo quy định tại khoản 4 Điều 121 của Luật này hoặc theo pháp luật của nước xuất xứ của chỉ dẫn địa lý đó. 4. Hàng hóa sao chép lậu là bản sao được sản xuất mà không được phép của chủ sở hữu quyền tác giả hoặc chủ sở hữu quyền liên quan.'
+      trang_pdf: 64
+      sha256_pdf: 26ee7ef2a9680660d886a96b5ea5c4d30809a5bbffdde73050fcc34f8dfea72e
+    - dieu: 1
+      khoan: 80
+      noi_dung: '80. Sửa đổi, bổ sung một số khoản của Điều 216 như sau: a) Sửa đổi, bổ sung khoản 2 như sau: “2. Tạm dừng làm thủ tục hải quan đối với hàng hóa bị nghi ngờ xâm phạm quyền sở hữu trí tuệ là biện pháp được tiến hành trong các trường hợp sau đây: a) Theo yêu cầu của chủ thể quyền sở hữu trí tuệ nhằm thu thập thông tin, chứng cứ về lô hàng để chủ thể quyền sở hữu trí tuệ thực hiện quyền yêu cầu xử lý hành vi xâm phạm quyền và yêu cầu áp dụng các biện pháp khẩn cấp tạm thời hoặc các biện pháp ngăn chặn, bảo đảm xử phạt vi phạm hành chính; b) Cơ quan hải quan chủ động thực hiện nếu trong quá trình thực hiện kiểm tra, giám sát và kiểm soát phát hiện căn cứ rõ ràng để nghi ngờ hàng hóa xuất khẩu, nhập khẩu là hàng hóa giả mạo về sở hữu trí tuệ.”; b) Bổ sung khoản 5 vào sau khoản 4 như sau: “5. Chính phủ quy định chi tiết điểm b khoản 2 Điều này.”.'
+      trang_pdf: 65
+      sha256_pdf: 26ee7ef2a9680660d886a96b5ea5c4d30809a5bbffdde73050fcc34f8dfea72e
+    - dieu: 1
+      khoan: 81
+      noi_dung: '“4. Trong trường hợp cơ quan hải quan chủ động tạm dừng làm thủ tục hải quan, cơ quan hải quan phải thông báo ngay cho chủ thể quyền sở hữu trí tuệ nếu có thông tin liên hệ và cho người nhập khẩu hoặc người xuất khẩu về việc tạm dừng. Trong thời hạn mười ngày làm việc, kể từ ngày thông báo, nếu chủ thể quyền sở hữu trí tuệ không khởi kiện dân sự và cơ quan hải quan không quyết định thụ lý vụ việc theo thủ tục xử lý vi phạm hành chính thì cơ quan hải quan có trách nhiệm tiếp tục làm thủ tục hải quan cho lô hàng.”.'
+      trang_pdf: 66
+      sha256_pdf: 26ee7ef2a9680660d886a96b5ea5c4d30809a5bbffdde73050fcc34f8dfea72e
+    - dieu: 2
+      khoan: 1
+      noi_dung: '1. Sửa đổi, bổ sung một số điều của Luật Hải quan số 54/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 71/2014/QH13 và Luật số 35/2018/QH14 như sau: a) Sửa đổi, bổ sung tên Mục 8 Chương III như sau: “Mục 8 KIỂM TRA, GIÁM SÁT, TẠM DỪNG LÀM THỦ TỤC HẢI QUAN ĐỐI VỚI HÀNG HÓA XUẤT KHẨU, NHẬP KHẨU LIÊN QUAN ĐẾN QUYỀN SỞ HỮU TRÍ TUỆ”; b) Sửa đổi, bổ sung khoản 2 Điều 73 như sau: “2. Cơ quan hải quan quyết định tạm dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu khi chủ thể quyền sở hữu trí tuệ hoặc người được ủy quyền hợp pháp có đơn đề nghị, bằng chứng về sở hữu hợp pháp quyền sở hữu trí tuệ, bằng chứng về việc vi phạm quyền sở hữu trí tuệ và đã nộp một khoản tiền hoặc chứng từ bảo lãnh của tổ chức tín dụng để bảo đảm bồi thường thiệt hại và các chi phí phát sinh theo quy định của pháp luật do việc đề nghị tạm dừng làm thủ tục hải quan không đúng. Cơ quan hải quan chủ động tạm dừng làm thủ tục hải quan nếu trong quá trình thực hiện kiểm tra, giám sát và kiểm soát phát hiện căn cứ rõ ràng để nghi ngờ hàng hóa xuất khẩu, nhập khẩu là hàng hóa giả mạo về sở hữu trí tuệ.”.'
+      trang_pdf: 67
+      sha256_pdf: 26ee7ef2a9680660d886a96b5ea5c4d30809a5bbffdde73050fcc34f8dfea72e
+    - dieu: 3
+      noi_dung: '1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2023, trừ trường hợp quy định tại khoản 2 và khoản 3 Điều này. 2. Quy định về bảo hộ nhãn hiệu là dấu hiệu âm thanh có hiệu lực thi hành từ ngày 14 tháng 01 năm 2022. 3. Quy định về bảo hộ dữ liệu thử nghiệm dùng cho nông hóa phẩm có hiệu lực thi hành từ ngày 14 tháng 01 năm 2024.'
+      trang_pdf: 70
+      sha256_pdf: 26ee7ef2a9680660d886a96b5ea5c4d30809a5bbffdde73050fcc34f8dfea72e
+    - dieu: 4
+      noi_dung: '1. Quyền tác giả, quyền liên quan được bảo hộ trước ngày Luật này có hiệu lực thi hành, nếu còn thời hạn bảo hộ thì tiếp tục được bảo hộ theo quy định của Luật này. 2. Đơn đăng ký quyền tác giả, quyền liên quan đã nộp cho cơ quan có thẩm quyền trước ngày Luật này có hiệu lực thi hành được tiếp tục xử lý theo quy định của pháp luật có hiệu lực tại thời điểm nộp đơn.'
+      trang_pdf: 70
+      sha256_pdf: 26ee7ef2a9680660d886a96b5ea5c4d30809a5bbffdde73050fcc34f8dfea72e
+ghi_chu: Lần sửa đổi lớn thứ ba của Luật Sở hữu trí tuệ (nền cho NĐ 65/2023, NĐ 17/2023), đồng thời sửa đổi trực tiếp Mục 8 Chương III và khoản 2 Điều 73 Luật Hải quan 54/2014/QH13 để trao thẩm quyền cho cơ quan hải quan chủ động tạm dừng làm thủ tục hải quan khi có căn cứ rõ ràng nghi ngờ hàng hóa XNK là hàng hóa giả mạo về sở hữu trí tuệ.
 tu_khoa:
   - so-huu-tri-tue
   - shtt
-toan_van: raw/download/congbao.chinhphu.vn/07-2022-qh15.html
+  - tam-dung-lam-thu-tuc-hai-quan
+  - hang-hoa-gia-mao-shtt
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/07-2022-qh15.pdf
+  - raw/download/congbao.chinhphu.vn/07-2022-qh15.html
+  - wiki/sources/07-2022-qh15.md
