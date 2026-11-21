@@ -5,8 +5,8 @@
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
  "canh_bao_tang_nhap": "Tầng TOM_TAT_NHAP được trích tự động bởi LLM (da_soat: false) — CHỈ dùng để định vị điều khoản, KHÔNG trích dẫn nguyên văn hay làm căn cứ pháp lý; chỉ dùng NGUYEN_VAN_NGUON_A để trích dẫn căn cứ.",
  "thong_ke": {
-  "so_van_ban_nguon_a": 18,
-  "so_dieu_khoan_nguon_a": 169,
+  "so_van_ban_nguon_a": 21,
+  "so_dieu_khoan_nguon_a": 198,
   "so_van_ban_tom_tat_nhap": 88,
   "so_dieu_khoan_tom_tat_nhap": 4699,
   "so_tep_doc_hieu": 91,
@@ -186,6 +186,68 @@
      "noi_dung": "2. Thay thế cụm từ “Mã số theo biểu thuế nhập khẩu” thành “Mã số theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam (sau đây gọi là Mã số HS)” quy định tại Danh mục máy móc, thiết bị, nguyên liệu, vật tư, linh kiện, bộ phận, phụ tùng nhập khẩu phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước Việt Nam ban hành kèm theo Thông tư số 01/2017/TT-NHNN ngày 07/02/2017 của Thống đốc Ngân hàng Nhà nước Việt Nam ban hành Danh mục máy móc, thiết bị, nguyên liệu, vật tư, linh kiện, bộ phận, phụ tùng nhập khẩu phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước Việt Nam.",
      "trang_pdf": 3,
      "sha256_pdf": "ea7e59aa8cd6d814241a07bb3fdceb9a3e4bf9d6730ed0bb6377dbe403aad6c4"
+    }
+   ]
+  },
+  {
+   "so_hieu": "08/2023/TT-BCT",
+   "slug": "08-2023-tt-bct",
+   "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+   "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+   "hieu_luc_tu": "2023-05-16",
+   "het_hieu_luc_tu": "2026-12-31",
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?classid=1&docid=207706&orggroupid=4&pageid=27160",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "khoan": 1,
+     "noi_dung": "Thay thế Phụ lục I - Danh mục hàng tiêu dùng, thiết bị y tế, phương tiện đã qua sử dụng cấm nhập khẩu quy định tại Điều 3 Thông tư số 12/2018/TT-BCT bằng Phụ lục I ban hành kèm theo Thông tư này.",
+     "trang_pdf": 1,
+     "sha256_pdf": "9e2a89116293aaa62d3ca204de6214ffe79379539146c01743328f8e47187884"
+    },
+    {
+     "dieu": 1,
+     "khoan": 2,
+     "noi_dung": "Thay thế Phụ lục II - Danh mục hàng hóa tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu quy định tại khoản 1 Điều 4 Thông tư số 12/2018/TT-BCT bằng Phụ lục II ban hành kèm theo Thông tư này.",
+     "trang_pdf": 1,
+     "sha256_pdf": "9e2a89116293aaa62d3ca204de6214ffe79379539146c01743328f8e47187884"
+    },
+    {
+     "dieu": 2,
+     "khoan": 1,
+     "noi_dung": "Thay thế Phụ lục I - Danh mục chi tiết theo mã HS đối với thóc, gạo xuất khẩu quy định tại Điều 1 Thông tư số 41/2019/TT-BCT bằng Phụ lục III ban hành kèm theo Thông tư này.",
+     "trang_pdf": 2,
+     "sha256_pdf": "9e2a89116293aaa62d3ca204de6214ffe79379539146c01743328f8e47187884"
+    },
+    {
+     "dieu": 2,
+     "khoan": 2,
+     "noi_dung": "Thay thế Phụ lục VI - Danh mục chi tiết theo mã HS đối với nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá quy định tại khoản 1 Điều 6 Thông tư số 41/2019/TT-BCT bằng Phụ lục IV ban hành kèm theo Thông tư này.",
+     "trang_pdf": 2,
+     "sha256_pdf": "9e2a89116293aaa62d3ca204de6214ffe79379539146c01743328f8e47187884"
+    },
+    {
+     "dieu": 2,
+     "khoan": 3,
+     "noi_dung": "Thay thế Phụ lục VII - Danh mục chi tiết theo mã HS đối với máy móc, thiết bị chuyên ngành thuốc lá quy định tại khoản 2 Điều 6 Thông tư số 41/2019/TTBCT bằng Phụ lục V ban hành kèm theo Thông tư này.",
+     "trang_pdf": 2,
+     "sha256_pdf": "9e2a89116293aaa62d3ca204de6214ffe79379539146c01743328f8e47187884"
+    },
+    {
+     "dieu": 3,
+     "khoan": 1,
+     "noi_dung": "Thông tư này có hiệu lực thi hành kể từ ngày 16 tháng 5 năm 2023.",
+     "trang_pdf": 2,
+     "sha256_pdf": "9e2a89116293aaa62d3ca204de6214ffe79379539146c01743328f8e47187884"
+    },
+    {
+     "dieu": 3,
+     "khoan": 2,
+     "noi_dung": "Trong quá trình thực hiện Thông tư này, nếu có phát sinh vướng mắc, thương nhân, các cơ quan, tổ chức, cá nhân có liên quan phản ánh bằng văn bản về Bộ Công Thương để được xử lý./.",
+     "trang_pdf": 2,
+     "sha256_pdf": "9e2a89116293aaa62d3ca204de6214ffe79379539146c01743328f8e47187884"
     }
    ]
   },
@@ -839,6 +901,100 @@
    ]
   },
   {
+   "so_hieu": "33/2024/NĐ-CP",
+   "slug": "33-2024-nd-cp",
+   "ten": "Quy định việc thực hiện Công ước Cấm phát triển, sản xuất, tàng trữ, sử dụng và phá hủy vũ khí hóa học",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2024-05-19",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-33-2024-nd-cp-41584.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Nghị định này quy định việc thực hiện Công ước Cấm phát triển, sản xuất, tàng trữ, sử dụng và phá hủy vũ khí hóa học (sau đây gọi tắt là Công ước Cấm vũ khí hóa học) trên lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam bao gồm: 1. Các quy định chung về việc thực hiện Công ước Cấm vũ khí hóa học. 2. Sản xuất, kinh doanh, xuất khẩu, nhập khẩu, chế biến, sử dụng, tàng trữ hóa chất Bảng; sản xuất hóa chất DOC, DOC-PSF. 3. Báo cáo hóa chất Bảng, hóa chất DOC, DOC-PSF. 4. Các quy định về thanh sát và thanh tra, kiểm tra. 5. Quản lý nhà nước về hóa chất Bảng, hóa chất DOC, DOC-PSF.",
+     "trang_pdf": 2,
+     "sha256_pdf": "bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Nghị định này áp dụng đối với tổ chức, cá nhân tham gia hoặc liên quan đến các hoạt động thực hiện Công ước Cấm vũ khí hóa học trên lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam.",
+     "trang_pdf": 2,
+     "sha256_pdf": "bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41"
+    },
+    {
+     "dieu": 5,
+     "khoan": 1,
+     "noi_dung": "Ban hành Danh mục các hóa chất Bảng 1, hóa chất Bảng 2 và hóa chất Bảng 3 tại Phụ lục I kèm theo Nghị định này.",
+     "trang_pdf": 7,
+     "sha256_pdf": "bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41"
+    },
+    {
+     "dieu": 5,
+     "khoan": 2,
+     "noi_dung": "Bổ sung trường hợp ngoại trừ đối với một số hóa chất thuộc Danh mục hóa chất hạn chế sản xuất, kinh doanh trong lĩnh vực công nghiệp tại Phụ lục II kèm theo Nghị định số 82/2022/NĐ-CP ngày 18 tháng 10 năm 2022 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 113/2017/NĐ-CP ngày 09 tháng 10 năm 2017 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất như sau:",
+     "trang_pdf": 7,
+     "sha256_pdf": "bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41"
+    },
+    {
+     "dieu": 5,
+     "khoan": 3,
+     "noi_dung": "Bãi bỏ một số hóa chất thuộc Danh mục hóa chất sản xuất, kinh doanh có điều kiện trong lĩnh vực công nghiệp tại Phụ lục I kèm theo Nghị định số 113/2017/NĐ-CP ngày 09 tháng 10 năm 2017 của Chính phủ được sửa đổi, bổ sung bởi Nghị định số 82/2022/NĐ-CP ngày 18 tháng 10 năm 2022 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 113/2017/NĐ-CP ngày 09 tháng 10 năm 2017 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất như sau:",
+     "trang_pdf": 8,
+     "sha256_pdf": "bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41"
+    },
+    {
+     "dieu": 5,
+     "khoan": 4,
+     "noi_dung": "Bãi bỏ một số hóa chất thuộc Danh mục hóa chất phải khai báo tại Phụ lục V kèm theo Nghị định số 113/2017/NĐ-CP ngày 09 tháng 10 năm 2017 của Chính phủ được sửa đổi, bổ sung bởi Nghị định số 82/2022/NĐ-CP ngày 18 tháng 10 năm 2022 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 113/2017/NĐ-CP ngày 09 tháng 10 năm 2017 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất như sau:",
+     "trang_pdf": 9,
+     "sha256_pdf": "bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41"
+    },
+    {
+     "dieu": 17,
+     "khoan": 1,
+     "noi_dung": "Tổ chức, cá nhân chỉ được nhập khẩu, xuất khẩu hóa chất Bảng 1, hóa chất Bảng 2 từ các Quốc gia thành viên của Công ước Cấm vũ khí hóa học. Trường hợp việc xuất khẩu hóa chất Bảng 3 được thực hiện với tổ chức, cá nhân của quốc gia không phải là thành viên của Công ước thì phải có Giấy chứng nhận sử dụng cuối cùng của cơ quan có thẩm quyền của quốc gia này.",
+     "trang_pdf": 23,
+     "sha256_pdf": "bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41"
+    },
+    {
+     "dieu": 17,
+     "khoan": 2,
+     "noi_dung": "Tổ chức, cá nhân nhập khẩu, xuất khẩu hóa chất Bảng phải có giấy phép do cơ quan có thẩm quyền cấp. Giấy phép nhập khẩu, xuất khẩu hóa chất Bảng là điều kiện để thông quan khi nhập khẩu, xuất khẩu hóa chất Bảng.",
+     "trang_pdf": 23,
+     "sha256_pdf": "bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41"
+    },
+    {
+     "dieu": 40,
+     "khoan": 1,
+     "noi_dung": "Nghị định này có hiệu lực thi hành từ ngày 19 tháng 5 năm 2024.",
+     "trang_pdf": 41,
+     "sha256_pdf": "bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41"
+    },
+    {
+     "dieu": 40,
+     "khoan": 2,
+     "noi_dung": "Nghị định này thay thế các văn bản quy phạm pháp luật; điểm, khoản, điều của các văn bản quy phạm pháp luật sau đây: a) Nghị định số 38/2014/NĐ-CP ngày 06 tháng 5 năm 2014 của Chính phủ về quản lý hóa chất thuộc diện kiểm soát của Công ước cấm phát triển, sản xuất, tàng trữ, sử dụng và phá hủy vũ khí hóa học; b) Điều 9, điểm a khoản 2 Điều 47 Nghị định số 77/2016/NĐ-CP ngày 01 tháng 7 năm 2016 của Chính phủ sửa đổi, bổ sung một số quy định về điều kiện đầu tư kinh doanh trong lĩnh vực mua bán hàng hóa quốc tế, hóa chất, vật liệu nổ công nghiệp, phân bón, kinh doanh khí, kinh doanh thực phẩm thuộc phạm vi quản lý nhà nước của Bộ Công Thương; c) Điều 12 và 13 Nghị định số 08/2018/NĐ-CP ngày 15 tháng 01 năm 2018 của Chính phủ sửa đổi một số Nghị định liên quan đến điều kiện đầu tư kinh doanh thuộc phạm vi quản lý nhà nước của Bộ Công Thương; d) Điều 6 và 7 Nghị định số 17/2020/NĐ-CP ngày 05 tháng 02 năm 2020 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định liên quan đến điều kiện đầu tư kinh doanh thuộc lĩnh vực quản lý nhà nước của Bộ Công Thương.",
+     "trang_pdf": 41,
+     "sha256_pdf": "bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41"
+    },
+    {
+     "dieu": 40,
+     "khoan": 3,
+     "noi_dung": "Bãi bỏ Quyết định số 76/2002/QĐ-TTg ngày 14 tháng 6 năm 2002 của Thủ tướng Chính phủ về việc thành lập Tổ công tác thực hiện Công ước cấm phát triển, sản xuất, tàng trữ, sử dụng vũ khí hóa học và phá huỷ các loại vũ khí này (Công ước Cấm vũ khí hóa học).",
+     "trang_pdf": 42,
+     "sha256_pdf": "bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41"
+    },
+    {
+     "dieu": 41,
+     "noi_dung": "Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương, các cơ quan, tổ chức và cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này./.",
+     "trang_pdf": 42,
+     "sha256_pdf": "bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41"
+    }
+   ]
+  },
+  {
    "so_hieu": "33/2025/TT-BCT",
    "slug": "33-2025-tt-bct",
    "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 01/2018/TT-BCT ngày 27/02/2018 của Bộ trưởng Bộ Công Thương quy định chi tiết hàng hóa mua bán, trao đổi qua cửa khẩu phụ, lối mở biên giới của thương nhân",
@@ -868,6 +1024,86 @@
      "noi_dung": "Thông tư này có hiệu lực thi hành kể từ ngày 21 tháng 7 năm 2025.",
      "trang_pdf": 2,
      "sha256_pdf": "89a825d7012b59b87df57b5a47226f8b6435e16b99fb6352c7f22a9a25ab938f"
+    }
+   ]
+  },
+  {
+   "so_hieu": "33/2026/TT-BCT",
+   "slug": "33-2026-tt-bct",
+   "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-07-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?docid=218710&pageid=27160",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Thông tư này ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương. Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao kèm theo mã số HS, quy chuẩn kỹ thuật quốc gia và yêu cầu quản lý chất lượng tương ứng tại Phụ lục kèm theo Thông tư này.",
+     "trang_pdf": 1,
+     "sha256_pdf": "ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Thông tư này áp dụng đối với: 1. Tổ chức, cá nhân sản xuất, kinh doanh sản phẩm, hàng hóa quy định tại Điều 1 Thông tư này tại Việt Nam. 2. Tổ chức, cá nhân có hoạt động liên quan đến quản lý chất lượng sản phẩm, hàng hóa quy định tại Điều 1 Thông tư này tại Việt Nam. 3. Các cơ quan, tổ chức, cá nhân khác có liên quan.",
+     "trang_pdf": 1,
+     "sha256_pdf": "ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17"
+    },
+    {
+     "dieu": 3,
+     "khoan": 1,
+     "noi_dung": "Quản lý chất lượng sản phẩm, hàng hóa thuộc Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao được thực hiện theo quy định về quản lý chất lượng sản phẩm, hàng hóa thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương và các quy chuẩn kỹ thuật quốc gia tương ứng.",
+     "trang_pdf": 2,
+     "sha256_pdf": "ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17"
+    },
+    {
+     "dieu": 3,
+     "khoan": 2,
+     "noi_dung": "Quản lý chất lượng sản phẩm, hàng hóa không thuộc Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao quy định tại Điều 1 Thông tư này được thực hiện theo quy định của pháp luật chuyên ngành và các văn bản pháp luật có liên quan.",
+     "trang_pdf": 2,
+     "sha256_pdf": "ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17"
+    },
+    {
+     "dieu": 3,
+     "khoan": 3,
+     "noi_dung": "Trường hợp quy chuẩn kỹ thuật quốc gia đã ban hành trước ngày Thông tư này có hiệu lực thi hành có quy định khác về biện pháp quản lý chất lượng sản phẩm, hàng hóa thuộc Danh mục ban hành kèm theo Thông tư này thì thực hiện theo quy định tại Thông tư này.",
+     "trang_pdf": 2,
+     "sha256_pdf": "ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17"
+    },
+    {
+     "dieu": 3,
+     "khoan": 4,
+     "noi_dung": "Trường hợp quy chuẩn kỹ thuật quốc gia được dẫn chiếu tại Thông tư này được sửa đổi, bổ sung hoặc thay thế thì áp dụng theo quy định tại quy chuẩn kỹ thuật quốc gia sửa đổi, bổ sung, thay thế.",
+     "trang_pdf": 2,
+     "sha256_pdf": "ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17"
+    },
+    {
+     "dieu": 5,
+     "noi_dung": "Tổ chức, cá nhân đã thực hiện đánh giá phù hợp với quy chuẩn kỹ thuật, công bố hợp quy trước ngày Thông tư này có hiệu lực, tiếp tục được sử dụng giấy chứng nhận hợp quy, dấu hợp quy đến hết thời hạn hiệu lực và không phải thực hiện đăng ký lại bản công bố hợp quy.",
+     "trang_pdf": 3,
+     "sha256_pdf": "ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17"
+    },
+    {
+     "dieu": 6,
+     "khoan": 1,
+     "noi_dung": "Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 7 năm 2026.",
+     "trang_pdf": 3,
+     "sha256_pdf": "ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17"
+    },
+    {
+     "dieu": 6,
+     "khoan": 2,
+     "noi_dung": "Thông tư số 41/2023/TT-BCT ngày 28 tháng 12 năm 2023 của Bộ trưởng Bộ Công Thương Ban hành Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Công Thương hết hiệu lực kể từ ngày Thông tư này có hiệu lực thi hành.",
+     "trang_pdf": 3,
+     "sha256_pdf": "ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17"
+    },
+    {
+     "dieu": 6,
+     "khoan": 3,
+     "noi_dung": "Trong quá trình thực hiện, nếu có khó khăn, vướng mắc, đề nghị các cơ quan, tổ chức, cá nhân kịp thời phản ánh về Bộ Công Thương để xem xét, giải quyết./.",
+     "trang_pdf": 3,
+     "sha256_pdf": "ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17"
     }
    ]
   },
