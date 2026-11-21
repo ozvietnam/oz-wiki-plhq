@@ -79,13 +79,13 @@ flowchart LR
   n_336_2026_N__CP["336/2026/NĐ-CP<br/>còn hiệu lực"]
   n_85_2019_N__CP["85/2019/NĐ-CP<br/>hết hiệu lực"]
   n_35_2018_QH14["35/2018/QH14<br/>còn hiệu lực"]
-  n_60_2019_TT_BTC["60/2019/TT-BTC<br/>còn hiệu lực"]
-  n_39_2015_TT_BTC["39/2015/TT-BTC<br/>còn hiệu lực"]
   n_42_2005_QH11["42/2005/QH11<br/>hết hiệu lực"]
   n_29_2001_QH10["29/2001/QH10<br/>hết hiệu lực"]
   n_54_2026_VBHN_TT_BTC["54/2026/VBHN-TT-BTC<br/>còn hiệu lực"]
   n_142_2026_TT_BTC["142/2026/TT-BTC<br/>còn hiệu lực"]
   n_54_VBHN_VPQH["54/VBHN-VPQH<br/>còn hiệu lực"]
+  n_60_2019_TT_BTC["60/2019/TT-BTC<br/>còn hiệu lực"]
+  n_39_2015_TT_BTC["39/2015/TT-BTC<br/>còn hiệu lực"]
   n_65_2023_N__CP["65/2023/NĐ-CP<br/>còn hiệu lực"]
   n_103_2006_N__CP["103/2006/NĐ-CP<br/>hết hiệu lực"]
   n_66_2026_TT_BKHCN["66/2026/TT-BKHCN<br/>còn hiệu lực"]
@@ -138,10 +138,6 @@ flowchart LR
   n_336_2026_N__CP -->|thay thế từ 2026-10-15| n_85_2019_N__CP
   n_35_2018_QH14 -->|sửa đổi từ 2019-01-01| n_54_2014_QH13
   n_36_2009_QH12 -->|sửa đổi từ 2010-01-01| n_50_2005_QH11
-  n_38_2015_TT_BTC -->|sửa đổi Bổ sung nộp chứng từ điện tử, sửa mẫu tờ khai từ 2018-06-05| n_39_2018_TT_BTC
-  n_38_2015_TT_BTC -->|sửa đổi Sửa trị giá HQ từ 2019-10-15| n_60_2019_TT_BTC
-  n_38_2015_TT_BTC -->|sửa đổi Sửa nhiều điều về thủ tục HQ, thuế XK NK từ 2026-02-01| n_121_2025_TT_BTC
-  n_39_2015_TT_BTC -->|sửa đổi Sửa đổi, bổ sung một số điều của TT 39/2015/TT-BTC từ 2019-06-06| n_60_2019_TT_BTC
   n_39_2018_TT_BTC -->|sửa đổi| n_38_2015_TT_BTC
   n_42_2005_QH11 -->|sửa đổi từ 2006-01-01| n_29_2001_QH10
   n_42_2019_QH14 -->|sửa đổi từ 2019-11-01| n_50_2005_QH11
@@ -172,23 +168,19 @@ flowchart LR
   n_11_2021_TT_BNNPTNT["11/2021/TT-BNNPTNT<br/>hết hiệu lực"]
   n_03_2024_TT_BNNPTNT["03/2024/TT-BNNPTNT<br/>còn hiệu lực"]
   n_34_2018_TT_BNNPTNT["34/2018/TT-BNNPTNT<br/>hết hiệu lực một phần"]
-  n_04_2014_TT_BCT["04/2014/TT-BCT<br/>hết hiệu lực"]
-  n_12_2018_TT_BCT["12/2018/TT-BCT<br/>hết hiệu lực một phần"]
-  n_05_2007_QH12["05/2007/QH12<br/>còn hiệu lực"]
-  n_78_2025_QH15["78/2025/QH15<br/>còn hiệu lực"]
   n_06_2019_N__CP["06/2019/NĐ-CP<br/>còn hiệu lực"]
   n_32_2006_N__CP["32/2006/NĐ-CP<br/>hết hiệu lực"]
   n_27_2018_TT_BNNPTNT["27/2018/TT-BNNPTNT<br/>hết hiệu lực"]
   n_06_VBHN_BNNPTNT["06/VBHN-BNNPTNT<br/>hết hiệu lực"]
   n_33_2014_TT_BNNPTNT["33/2014/TT-BNNPTNT<br/>hết hiệu lực một phần"]
   n_15_2021_TT_BNNPTNT["15/2021/TT-BNNPTNT<br/>hết hiệu lực một phần"]
+  n_07_2023_N__CP["07/2023/NĐ-CP<br/>còn hiệu lực"]
+  n_98_2021_N__CP["98/2021/NĐ-CP<br/>hết hiệu lực một phần"]
   n_07_2026_TT_BNNMT["07/2026/TT-BNNMT<br/>còn hiệu lực"]
   n_05_2015_TT_BNNPTNT["05/2015/TT-BNNPTNT<br/>hết hiệu lực một phần"]
   n_19_VBHN_BNNPTNT["19/VBHN-BNNPTNT<br/>hết hiệu lực một phần"]
   n_11_2022_TT_BNNPTNT["11/2022/TT-BNNPTNT<br/>hết hiệu lực"]
   n_08_2026_VBHN_BYT["08/2026/VBHN-BYT<br/>còn hiệu lực"]
-  n_98_2021_N__CP["98/2021/NĐ-CP<br/>hết hiệu lực một phần"]
-  n_07_2023_N__CP["07/2023/NĐ-CP<br/>còn hiệu lực"]
   n_96_2023_N__CP["96/2023/NĐ-CP<br/>còn hiệu lực"]
   n_09_2015_TT_BYT["09/2015/TT-BYT<br/>còn hiệu lực"]
   n_06_2011_TT_BYT["06/2011/TT-BYT<br/>còn hiệu lực"]
@@ -207,12 +199,8 @@ flowchart LR
   n_34_2025_TT_BYT["34/2025/TT-BYT<br/>còn hiệu lực"]
   n_105_2016_QH13["105/2016/QH13<br/>còn hiệu lực"]
   n_34_2005_QH11["34/2005/QH11<br/>hết hiệu lực"]
-  n_28_2018_QH14["28/2018/QH14<br/>hết hiệu lực"]
-  n_44_2024_QH15["44/2024/QH15<br/>còn hiệu lực"]
-  n_76_VBHN_VPQH["76-VBHN/VPQH<br/>còn hiệu lực"]
   n_109_2026_VBHN_TT_BNNMT["109/2026/VBHN-TT-BNNMT<br/>còn hiệu lực"]
   n_14_2024_TT_BNNPTNT["14/2024/TT-BNNPTNT<br/>hết hiệu lực một phần"]
-  n_11_2017_TT_BCT["11/2017/TT-BCT<br/>hết hiệu lực"]
   n_05_2016_TT_BTTTT["05/2016/TT-BTTTT<br/>hết hiệu lực một phần"]
   n_09_2013_TT_BTTTT["09/2013/TT-BTTTT<br/>hết hiệu lực một phần"]
   n_03_2015_TT_BTTTT["03/2015/TT-BTTTT<br/>hết hiệu lực một phần"]
@@ -263,6 +251,7 @@ flowchart LR
   n_29_2019_TT_BNN["29/2019/TT-BNN<br/>hết hiệu lực"]
   n_26_2026_N__CP["26/2026/NĐ-CP<br/>còn hiệu lực"]
   n_82_2022_N__CP["82/2022/NĐ-CP<br/>hết hiệu lực"]
+  n_28_2018_QH14["28/2018/QH14<br/>hết hiệu lực"]
   n_05_2018_TT_BYT["05/2018/TT-BYT<br/>hết hiệu lực"]
   n_28_2026_N__CP["28/2026/NĐ-CP<br/>còn hiệu lực"]
   n_57_2022_N__CP["57/2022/NĐ-CP<br/>hết hiệu lực"]
@@ -291,6 +280,7 @@ flowchart LR
   n_41_2016_TT_BTTTT["41/2016/TT-BTTTT<br/>hết hiệu lực"]
   n_41_2026_TT_BXD["41/2026/TT-BXD<br/>còn hiệu lực"]
   n_10_2024_TT_BXD["10/2024/TT-BXD<br/>hết hiệu lực"]
+  n_44_2024_QH15["44/2024/QH15<br/>còn hiệu lực"]
   n_44_2026_TT_BNNMT["44/2026/TT-BNNMT<br/>còn hiệu lực"]
   n_27_2026_TT_BNNMT["27/2026/TT-BNNMT<br/>còn hiệu lực"]
   n_4814_Q__BCA["4814/QĐ-BCA<br/>chưa xác minh"]
@@ -308,19 +298,20 @@ flowchart LR
   n_06_2007_QH12["06/2007/QH12<br/>hết hiệu lực"]
   n_73_2021_QH14["73/2021/QH14<br/>còn hiệu lực"]
   n_23_2000_QH10["23/2000/QH10<br/>hết hiệu lực"]
+  n_78_2025_QH15["78/2025/QH15<br/>còn hiệu lực"]
+  n_05_2007_QH12["05/2007/QH12<br/>còn hiệu lực"]
   n_6266_Q__BCA["6266/QĐ-BCA<br/>chưa xác minh"]
   n_99_2026_VBHN_TT_BNNMT["99/2026/VBHN-TT-BNNMT<br/>còn hiệu lực"]
   n_20_2021_TT_BNNPTNT["20/2021/TT-BNNPTNT<br/>hết hiệu lực một phần"]
   n_01_2021_TT_BL_TBXH -->|thay thế từ 2021-07-18| n_22_2018_TT_BL_TBXH
   n_01_2022_TT_BNNPTNT -->|sửa đổi thay thế Phần A Mục 16 Phụ lục I bằng Phụ lục XXIII ban hành kèm theo TT 01/2022/TT-BNNPTNT từ 2022-03-04| n_11_2021_TT_BNNPTNT
   n_03_2024_TT_BNNPTNT -->|bãi bỏ một số quy định từ 2024-05-16| n_34_2018_TT_BNNPTNT
-  n_04_2014_TT_BCT -->|bãi bỏ từ 2018-06-15| n_12_2018_TT_BCT
-  n_05_2007_QH12 -->|sửa đổi| n_78_2025_QH15
   n_06_2019_N__CP -->|thay thế từ 2019-03-10| n_32_2006_N__CP
   n_06_2019_N__CP -->|bãi bỏ các quy định về quản lý gỗ, thực vật rừng từ 2019-03-10| n_27_2018_TT_BNNPTNT
   n_06_VBHN_BNNPTNT -->|hợp nhất| n_33_2014_TT_BNNPTNT
   n_06_VBHN_BNNPTNT -->|hợp nhất| n_34_2018_TT_BNNPTNT
   n_06_VBHN_BNNPTNT -->|hợp nhất| n_15_2021_TT_BNNPTNT
+  n_07_2023_N__CP -->|sửa đổi từ 2023-03-03| n_98_2021_N__CP
   n_07_2026_TT_BNNMT -->|sửa đổi Điều 22 sửa đổi, bổ sung một số điều của Thông tư 05/2015/TT-BNNPTNT (đã được sửa đổi, bổ sung bởi Thông tư 15/2021/TT-BNNPTNT và Thông tư 33/2014/TT-BNNPTNT) từ 2026-01-23| n_05_2015_TT_BNNPTNT
   n_07_2026_TT_BNNMT -->|sửa đổi Điều 22 sửa đổi, bổ sung một số điều của Thông tư 05/2015/TT-BNNPTNT đã được sửa đổi, bổ sung bởi Thông tư 15/2021/TT-BNNPTNT từ 2026-01-23| n_15_2021_TT_BNNPTNT
   n_07_2026_TT_BNNMT -->|sửa đổi Điều 22 sửa đổi, bổ sung quy định đã hợp nhất từ Thông tư 33/2014/TT-BNNPTNT và Thông tư 15/2021/TT-BNNPTNT từ 2026-01-23| n_19_VBHN_BNNPTNT
@@ -341,11 +332,7 @@ flowchart LR
   n_09_VBHN_BYT -->|hợp nhất| n_29_2020_TT_BYT
   n_09_VBHN_BYT -->|hợp nhất| n_34_2025_TT_BYT
   n_105_2016_QH13 -->|thay thế từ 2017-01-01| n_34_2005_QH11
-  n_105_2016_QH13 -->|sửa đổi Một số điều liên quan đến quy hoạch từ 2019-01-01| n_28_2018_QH14
-  n_105_2016_QH13 -->|sửa đổi Sửa đổi, bổ sung một số điều Luật Dược (Điều 2, 11, 13, 29, 34, 38, 41, 54, 60, 69...) từ 2025-07-01| n_44_2024_QH15
-  n_105_2016_QH13 -->|hợp nhất Văn bản hợp nhất toàn bộ Luật 105/2016, 28/2018, 44/2024 từ 2026-03-01| n_76_VBHN_VPQH
   n_109_2026_VBHN_TT_BNNMT -->|hợp nhất| n_14_2024_TT_BNNPTNT
-  n_11_2017_TT_BCT -->|bãi bỏ Bãi bỏ toàn bộ từ 2018-06-15| n_12_2018_TT_BCT
   n_11_2024_TT_BTTTT -->|sửa đổi Khoản 2 Điều 4; khoản 2 Điều 5; điểm a khoản 1, khoản 2 và khoản 3 Điều 6; khoản 3 Điều 8; thay thế Mẫu số 01 và Mẫu số 02 bằng Phụ lục 01 và Phụ lục 02 từ 2024-11-07| n_05_2016_TT_BTTTT
   n_11_2024_TT_BTTTT -->|sửa đổi Khoản 2, điểm a và điểm b khoản 3 Mục I và Mục II Phụ lục I; khoản 2, khoản 3, điểm a khoản 4 Mục I Phụ lục II; thay thế Phụ lục II của Phụ lục I bằng Phụ lục 03 kèm theo TT 11/2024/TT-BTTTT từ 2024-11-07| n_22_2018_TT_BTTTT
   n_11_2024_TT_BTTTT -->|sửa đổi Một số sản phẩm thuộc nhóm 2.1.1 (số thứ tự 01 đến 09) và nhóm 2.1.2 (số thứ tự 06 đến 11, 14, 15) tại Phụ lục số 02 (đã được sửa đổi, bổ sung bởi TT 20/2021/TT-BTTTT) từ 2024-11-07| n_09_2013_TT_BTTTT
@@ -394,6 +381,7 @@ flowchart LR
   n_26_2025_TT_BNNMT -->|bãi bỏ từ 2025-07-01| n_29_2019_TT_BNN
   n_26_2026_N__CP -->|thay thế từ 2026-01-17| n_113_2017_N__CP
   n_26_2026_N__CP -->|thay thế từ 2026-01-17| n_82_2022_N__CP
+  n_28_2018_QH14 -->|sửa đổi Sửa đổi Điều 10, khoản 2 Điều 106 và bãi bỏ Điều 9 Luật Dược (liên quan đến quy hoạch) từ 2019-01-01| n_105_2016_QH13
   n_28_2021_TT_BYT -->|bãi bỏ toàn bộ từ 2022-02-02| n_05_2018_TT_BYT
   n_28_2026_N__CP -->|thay thế từ 2026-01-19| n_57_2022_N__CP
   n_28_2026_N__CP -->|thay thế từ 2026-01-19| n_90_2024_N__CP
@@ -437,7 +425,6 @@ flowchart LR
   n_67_2026_VBHN_BNNMT -->|hợp nhất Thông tư gốc quy định về kiểm dịch động vật, sản phẩm động vật trên cạn (ban hành và có hiệu lực từ ngày 01-01-2026; khoản 2 Điều 30 thay thế Thông tư 25/2016/TT-BNNPTNT và các Thông tư sửa đổi 35/2018/TT-BNNPTNT, 09/2022/TT-BNNPTNT, 04/2024/TT-BNNPTNT, 28/2025/TT-BNNMT) từ 2026-06-12| n_01_2026_TT_BNNMT
   n_67_2026_VBHN_BNNMT -->|hợp nhất Thông tư sửa đổi, bổ sung một số Thông tư liên quan phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính thuộc phạm vi quản lý nhà nước của Bộ Nông nghiệp và Môi trường (ban hành và có hiệu lực từ ngày 19-05-2026; Điều 15 sửa đổi, bổ sung một số điều của Thông tư 01/2026/TT-BNNMT) từ 2026-06-12| n_22_2026_TT_BNNMT
   n_69_2025_QH15 -->|thay thế từ 2026-01-01| n_06_2007_QH12
-  n_71_2025_TT_BXD -->|bãi bỏ Chương X, Phụ lục II và Phụ lục III (một phần) từ 2026-07-01| n_49_2026_TT_BXD
   n_73_2021_QH14 -->|thay thế từ 2022-01-01| n_23_2000_QH10
   n_78_2025_QH15 -->|sửa đổi| n_05_2007_QH12
   n_82_2022_N__CP -->|sửa đổi| n_113_2017_N__CP
@@ -445,7 +432,6 @@ flowchart LR
   n_90_2024_N__CP -->|sửa đổi| n_57_2022_N__CP
   n_96_2023_N__CP -->|sửa đổi sửa đổi tên Chương IV; sửa đổi, bổ sung các Điều 12, 13, 14, 15, 16, 17, 18, 19, 20, 30 và bổ sung Điều 32a (riêng khoản 19 Điều 147 sửa đổi, bổ sung Điều 30 áp dụng từ 01/01/2026) từ 2024-01-01| n_98_2021_N__CP
   n_96_2023_N__CP -->|bãi bỏ Điều 11 từ 2024-01-01| n_155_2018_N__CP
-  n_98_2021_N__CP -->|sửa đổi từ 2023-03-15| n_07_2023_N__CP
   n_99_2026_VBHN_TT_BNNMT -->|hợp nhất| n_20_2021_TT_BNNPTNT
 ```
 
@@ -510,27 +496,27 @@ flowchart LR
   n_2105_Q__BCT["2105/QĐ-BCT<br/>hết hiệu lực"]
   n_1400_Q__BCT["1400/QĐ-BCT<br/>còn hiệu lực"]
   n_228_Q__BCT["228/QĐ-BCT<br/>hết hiệu lực"]
-  n_1975_Q__BCT["1975/QĐ-BCT<br/>hết hiệu lực"]
-  n_915_Q__BCT["915/QĐ-BCT<br/>còn hiệu lực"]
   n_2174_Q__BCT["2174/QĐ-BCT<br/>còn hiệu lực"]
   n_2333_Q__BCT["2333/QĐ-BCT<br/>hết hiệu lực"]
   n_2652_Q__BCT["2652/QĐ-BCT<br/>còn hiệu lực"]
   n_3546_Q__BCT["3546/QĐ-BCT<br/>hết hiệu lực"]
   n_86_2025_N__CP["86/2025/NĐ-CP<br/>còn hiệu lực"]
   n_10_2018_N__CP["10/2018/NĐ-CP<br/>hết hiệu lực"]
+  n_915_Q__BCT["915/QĐ-BCT<br/>còn hiệu lực"]
   n_1978_Q__BCT["1978/QĐ-BCT<br/>hết hiệu lực"]
+  n_1975_Q__BCT["1975/QĐ-BCT<br/>hết hiệu lực"]
   n_121_Q__BCT -->|thay thế từ 2026-01-19| n_2491_Q__BCT
   n_1309_Q__BCT -->|bãi bỏ từ 2026-06-16| n_1578_Q__BCT
   n_1309_Q__BCT -->|bãi bỏ từ 2026-06-16| n_2961_Q__BCT
   n_1309_Q__BCT -->|bãi bỏ từ 2026-06-16| n_1989_Q__BCT
   n_1309_Q__BCT -->|bãi bỏ từ 2026-06-16| n_2105_Q__BCT
   n_1400_Q__BCT -->|thay thế từ 2026-06-14| n_228_Q__BCT
-  n_1975_Q__BCT -->|thay thế Không gia hạn áp dụng biện pháp chống bán phá giá đối với thép hình chữ H xuất xứ từ Ma-lai-xi-a (vụ việc ER01.AD12) từ 2026-04-16| n_915_Q__BCT
   n_2105_Q__BCT -->|sửa đổi Sửa đổi, bổ sung một số nội dung của Quyết định 1989/QĐ-BCT ngày 03-08-2023 về kết quả rà soát lần thứ nhất việc áp dụng biện pháp CBPG và CTC đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan từ 2025-07-21| n_1989_Q__BCT
   n_2174_Q__BCT -->|thay thế Kết thúc giai đoạn điều tra khởi xướng tại Quyết định 2333/QĐ-BCT và chuyển sang áp dụng thuế chống bán phá giá chính thức đối với vụ việc AD23 từ 2026-09-22| n_2333_Q__BCT
   n_2652_Q__BCT -->|thay thế Kết thúc rà soát cuối kỳ vụ việc ER01.AD10 và ban hành kết quả rà soát lần thứ hai / cuối kỳ áp dụng biện pháp chống bán phá giá sợi polyester từ 2026-10-16| n_3546_Q__BCT
   n_86_2025_N__CP -->|thay thế từ 2025-07-01| n_10_2018_N__CP
   n_915_Q__BCT -->|thay thế Kết thúc rà soát cuối kỳ vụ việc ER01.AD12 khởi xướng tại Quyết định 1978/QĐ-BCT và quyết định không gia hạn biện pháp chống bán phá giá tại Quyết định 1975/QĐ-BCT từ 2026-04-16| n_1978_Q__BCT
+  n_915_Q__BCT -->|thay thế Không gia hạn áp dụng biện pháp chống bán phá giá đối với thép hình chữ H xuất xứ từ Ma-lai-xi-a (vụ việc ER01.AD12) từ 2026-04-16| n_1975_Q__BCT
 ```
 
 ## Quản lý ngoại thương
@@ -567,8 +553,6 @@ flowchart LR
   n_67_2026_TT_BCT["67/2026/TT-BCT<br/>còn hiệu lực"]
   n_173_2018_TT_BQP["173/2018/TT-BQP<br/>còn hiệu lực"]
   n_40_2017_TT_BQP["40/2017/TT-BQP<br/>hết hiệu lực"]
-  n_187_2013_N__CP["187/2013/NĐ-CP<br/>hết hiệu lực"]
-  n_09_2018_N__CP["09/2018/NĐ-CP<br/>hết hiệu lực"]
   n_25_2018_N__CP["25/2018/NĐ-CP<br/>còn hiệu lực"]
   n_60_2014_N__CP["60/2014/NĐ-CP<br/>còn hiệu lực"]
   n_292_2026_N__CP["292/2026/NĐ-CP<br/>còn hiệu lực"]
@@ -580,6 +564,7 @@ flowchart LR
   n_34_2025_TT_BCT["34/2025/TT-BCT<br/>còn hiệu lực"]
   n_02_2018_TT_BCT["02/2018/TT-BCT<br/>còn hiệu lực"]
   n_342_2026_N__CP["342/2026/NĐ-CP<br/>còn hiệu lực"]
+  n_09_2018_N__CP["09/2018/NĐ-CP<br/>hết hiệu lực"]
   n_42_2019_TT_BCT["42/2019/TT-BCT<br/>hết hiệu lực một phần"]
   n_33_2016_TT_BCT["33/2016/TT-BCT<br/>hết hiệu lực một phần"]
   n_51_2018_TT_BCT["51/2018/TT-BCT<br/>hết hiệu lực một phần"]
@@ -613,7 +598,6 @@ flowchart LR
   n_135_2026_VBHN_TT_BCT -->|hợp nhất| n_19_2026_TT_BCT
   n_135_2026_VBHN_TT_BCT -->|hợp nhất| n_67_2026_TT_BCT
   n_173_2018_TT_BQP -->|thay thế từ 2019-01-01| n_40_2017_TT_BQP
-  n_187_2013_N__CP -->|bãi bỏ từ 2018-06-15| n_09_2018_N__CP
   n_25_2018_N__CP -->|sửa đổi từ 2018-05-01| n_60_2014_N__CP
   n_292_2026_N__CP -->|thay thế từ 2026-09-05| n_69_2018_N__CP
   n_2961_Q__BCT -->|sửa đổi Sửa đổi, bổ sung một số nội dung của Quyết định 1578/QĐ-BCT ngày 15-06-2021 về áp dụng thuế CBPG và thuế CTC chính thức đối với sản phẩm đường mía từ Thái Lan từ 2022-12-30| n_1578_Q__BCT
@@ -644,8 +628,6 @@ flowchart LR
 flowchart LR
   n_107_2016_QH13["107/2016/QH13<br/>còn hiệu lực"]
   n_45_2005_QH11["45/2005/QH11<br/>hết hiệu lực"]
-  n_18_2021_N__CP["18/2021/NĐ-CP<br/>còn hiệu lực"]
-  n_182_2025_N__CP["182/2025/NĐ-CP<br/>còn hiệu lực"]
   n_108_2025_QH15["108/2025/QH15<br/>còn hiệu lực"]
   n_38_2019_QH14["38/2019/QH14<br/>hết hiệu lực"]
   n_56_2024_QH15["56/2024/QH15<br/>hết hiệu lực"]
@@ -681,7 +663,9 @@ flowchart LR
   n_156_2017_N__CP["156/2017/NĐ-CP<br/>hết hiệu lực"]
   n_15_2023_Q__TTg["15/2023/QĐ-TTg<br/>còn hiệu lực"]
   n_45_2017_Q__TTg["45/2017/QĐ-TTg<br/>hết hiệu lực"]
+  n_18_2021_N__CP["18/2021/NĐ-CP<br/>còn hiệu lực"]
   n_134_2016_N__CP["134/2016/NĐ-CP<br/>còn hiệu lực"]
+  n_182_2025_N__CP["182/2025/NĐ-CP<br/>còn hiệu lực"]
   n_201_2026_N__CP["201/2026/NĐ-CP<br/>còn hiệu lực"]
   n_26_2023_N__CP["26/2023/NĐ-CP<br/>còn hiệu lực"]
   n_206_2025_N__CP["206/2025/NĐ-CP<br/>còn hiệu lực"]
@@ -705,8 +689,6 @@ flowchart LR
   n_39_2018_TT_BTC["39/2018/TT-BTC<br/>còn hiệu lực"]
   n_121_2025_TT_BTC["121/2025/TT-BTC<br/>còn hiệu lực"]
   n_107_2016_QH13 -->|thay thế từ 2016-09-01| n_45_2005_QH11
-  n_107_2016_QH13 -->|sửa đổi Sửa đổi, bổ sung một số điều về giảm/hoàn thuế từ 2021-01-01| n_18_2021_N__CP
-  n_107_2016_QH13 -->|sửa đổi Sửa đổi, bổ sung NĐ 134/2016 (lần 2) từ 2025-01-01| n_182_2025_N__CP
   n_108_2025_QH15 -->|thay thế từ 2026-07-01| n_38_2019_QH14
   n_108_2025_QH15 -->|thay thế từ 2026-07-01| n_56_2024_QH15
   n_112_2022_N__CP -->|thay thế| n_154_2017_N__CP
@@ -735,7 +717,6 @@ flowchart LR
   n_3830_Q__BKHCN -->|sửa đổi Hủy bỏ sản phẩm có mã HS 9405.11.99 tại Quyết định số 367/QĐ-BKHCN ngày 12-03-2024 từ 2025-11-21| n_367_Q__BKHCN
   n_3830_Q__BKHCN -->|sửa đổi Bãi bỏ mã HS 9405.11.99 tại mục 10.4 (bóng đèn có đi-ốt phát sáng LED thông dụng cố định) trong Phụ lục Danh mục sản phẩm, hàng hóa nhóm 2 từ 2025-11-21| n_2711_Q__BKHCN
   n_43_2026_NQ_CP -->|sửa đổi Kéo dài thời hạn áp dụng Điều 1 (thuế bảo vệ môi trường) và Điều 2 (thuế giá trị gia tăng) đối với xăng, dầu và nhiên liệu bay đến hết ngày 31/12/2026 từ 2026-10-01| n_19_2026_QH16
-  n_45_2005_QH11 -->|bãi bỏ từ 2016-09-01| n_107_2016_QH13
   n_56_2024_QH15 -->|sửa đổi từ 2025-01-01| n_38_2019_QH14
   n_66_2025_QH15 -->|thay thế Điều 8 (sửa đổi, bổ sung một số điều của Luật Thuế tiêu thụ đặc biệt) từ 2026-01-01| n_03_2022_QH15
   n_72_2026_N__CP -->|sửa đổi thuế suất NK ưu đãi một số mặt hàng xăng, dầu từ 2026-03-09| n_26_2023_N__CP
@@ -772,16 +753,12 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  n_02_2018_TT_BCT["02/2018/TT-BCT<br/>còn hiệu lực"]
-  n_34_2025_TT_BCT["34/2025/TT-BCT<br/>còn hiệu lực"]
-  n_1175_Q__TTg["1175/QĐ-TTg<br/>hết hiệu lực"]
-  n_126_Q__TTg["126/QĐ-TTg<br/>còn hiệu lực"]
   n_124_2026_TT_BTC["124/2026/TT-BTC<br/>còn hiệu lực"]
   n_33_2023_TT_BTC["33/2023/TT-BTC<br/>còn hiệu lực"]
+  n_126_Q__TTg["126/QĐ-TTg<br/>còn hiệu lực"]
+  n_1175_Q__TTg["1175/QĐ-TTg<br/>hết hiệu lực"]
   n_127_Q__TTg["127/QĐ-TTg<br/>còn hiệu lực"]
   n_734_Q__TTg["734/QĐ-TTg<br/>hết hiệu lực"]
-  n_02_2018_TT_BCT -->|sửa đổi từ 2025-07-21| n_34_2025_TT_BCT
-  n_1175_Q__TTg -->|sửa đổi Thay thế hoàn toàn 1175/QĐ-TTg từ 2026-01-16| n_126_Q__TTg
   n_124_2026_TT_BTC -->|sửa đổi bổ sung khoản 10 Điều 15 từ 2026-08-22| n_33_2023_TT_BTC
   n_126_Q__TTg -->|thay thế từ 2026-01-16| n_1175_Q__TTg
   n_127_Q__TTg -->|thay thế từ 2026-01-16| n_734_Q__TTg

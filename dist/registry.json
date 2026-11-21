@@ -580,15 +580,6 @@
         "ngay": "2026-10-12",
         "boi": "legal-customs@ozvietnam"
       },
-      "quan_he": {
-        "sua_doi": [
-          {
-            "so_hieu": "34/2025/TT-BCT",
-            "tu_ngay": "2025-07-21",
-            "can_cu": "Sửa đổi, bổ sung một số điều của TT 02/2018/TT-BCT"
-          }
-        ]
-      },
       "toan_van": "raw/download/moit.gov.vn/02-2018-tt-bct.html",
       "slug": "02-2018-tt-bct",
       "bac_nguon_cao_nhat": "A",
@@ -970,15 +961,6 @@
       },
       "het_hieu_luc_tu": "2018-06-15",
       "ghi_chu": "Bị bãi bỏ bởi Điều 17 khoản 2 điểm a TT 12/2018/TT-BCT; stub chưa mở toàn văn nguồn A của chính văn bản này.",
-      "quan_he": {
-        "bai_bo": [
-          {
-            "so_hieu": "12/2018/TT-BCT",
-            "tu_ngay": "2018-06-15",
-            "can_cu": "Điều 17 khoản 2 điểm a TT 12/2018/TT-BCT"
-          }
-        ]
-      },
       "toan_van": "raw/download/datafiles.chinhphu.vn/04-2014-tt-bct.pdf",
       "nguon": [
         {
@@ -1275,14 +1257,6 @@
         "boi": "legal-customs@ozvietnam"
       },
       "ghi_chu": "Đã được sửa đổi bởi Luật 78/2025/QH15 (theo nguồn thứ cấp).",
-      "quan_he": {
-        "sua_doi": [
-          {
-            "so_hieu": "78/2025/QH15",
-            "can_cu": "Luật sửa đổi, bổ sung Luật Chất lượng SP, hàng hoá"
-          }
-        ]
-      },
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?docid=51259&pageid=27160",
@@ -1567,12 +1541,6 @@
             "quan_he": "huong_dan",
             "so_hieu": "05/2017/QH14",
             "can_cu": "Phần Căn cứ và Điều 1 Nghị định 09/2018/NĐ-CP"
-          },
-          {
-            "tu": "187/2013/NĐ-CP",
-            "quan_he": "huong_dan",
-            "so_hieu": "05/2017/QH14",
-            "can_cu": "Luật Quản lý ngoại thương 05/2017/QH14"
           },
           {
             "tu": "292/2026/NĐ-CP",
@@ -2665,6 +2633,15 @@
       "nhanh": [
         "kiem-tra-chuyen-nganh/byt"
       ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "98/2021/NĐ-CP",
+            "tu_ngay": "2023-03-03",
+            "can_cu": "Điều 1 và Điều 2 NĐ 07/2023/NĐ-CP"
+          }
+        ]
+      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "Đã đối chiếu toàn văn PDF ký số (07-nd.signed.pdf trên datafiles.chinhphu.vn): Nghị định số 07/2023/NĐ-CP do Phó Thủ tướng Trần Hồng Hà ký ban hành ngày 03-03-2023 và có hiệu lực thi hành kể từ ngày ký ban hành (03-03-2023) theo Điều 2, sửa đổi, bổ sung một số điều của Nghị định số 98/2021/NĐ-CP ngày 08-11-2021 về quản lý trang thiết bị y tế; hiện đang còn hiệu lực.",
@@ -2700,15 +2677,6 @@
             "tu": "19/2024/TT-BYT",
             "quan_he": "huong_dan",
             "so_hieu": "07/2023/NĐ-CP"
-          }
-        ],
-        "bi_sua_doi_boi": [
-          {
-            "tu": "98/2021/NĐ-CP",
-            "quan_he": "sua_doi",
-            "so_hieu": "07/2023/NĐ-CP",
-            "tu_ngay": "2023-03-15",
-            "can_cu": "Điều 6 NĐ 07/2023/NĐ-CP (sửa đổi bổ sung một số điều của NĐ 98/2021/NĐ-CP)"
           }
         ]
       }
@@ -3501,15 +3469,6 @@
       "slug": "09-2018-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
-        "bi_bai_bo_boi": [
-          {
-            "tu": "187/2013/NĐ-CP",
-            "quan_he": "bai_bo",
-            "so_hieu": "09/2018/NĐ-CP",
-            "tu_ngay": "2018-06-15",
-            "can_cu": "NĐ 09/2018/NĐ-CP thay thế NĐ 187/2013/NĐ-CP"
-          }
-        ],
         "bi_thay_the_boi": [
           {
             "tu": "342/2026/NĐ-CP",
@@ -6275,38 +6234,11 @@
             "can_cu": "Điều 116 khoản 4 Luật 105/2016/QH13"
           }
         ],
-        "sua_doi": [
-          {
-            "so_hieu": "28/2018/QH14",
-            "pham_vi": "Một số điều liên quan đến quy hoạch",
-            "tu_ngay": "2019-01-01",
-            "can_cu": "Điều 1 Luật 28/2018/QH14"
-          },
-          {
-            "so_hieu": "44/2024/QH15",
-            "pham_vi": "Sửa đổi, bổ sung một số điều Luật Dược (Điều 2, 11, 13, 29, 34, 38, 41, 54, 60, 69...)",
-            "tu_ngay": "2025-07-01",
-            "can_cu": "Điều 1 Luật 44/2024/QH15"
-          }
-        ],
+        "sua_doi": [],
         "bai_bo": [],
         "tam_ngung": [],
-        "huong_dan": [
-          {
-            "so_hieu": "54/2017/NĐ-CP"
-          },
-          {
-            "so_hieu": "163/2025/NĐ-CP"
-          }
-        ],
-        "hop_nhat": [
-          {
-            "so_hieu": "76-VBHN/VPQH",
-            "pham_vi": "Văn bản hợp nhất toàn bộ Luật 105/2016, 28/2018, 44/2024",
-            "tu_ngay": "2026-03-01",
-            "can_cu": "Văn phòng Quốc hội công bố"
-          }
-        ]
+        "huong_dan": [],
+        "hop_nhat": []
       },
       "nguon": [
         {
@@ -6352,6 +6284,14 @@
           }
         ],
         "bi_sua_doi_boi": [
+          {
+            "tu": "28/2018/QH14",
+            "quan_he": "sua_doi",
+            "so_hieu": "105/2016/QH13",
+            "pham_vi": "Sửa đổi Điều 10, khoản 2 Điều 106 và bãi bỏ Điều 9 Luật Dược (liên quan đến quy hoạch)",
+            "tu_ngay": "2019-01-01",
+            "can_cu": "Điều 3 và Điều 12 Luật 28/2018/QH14"
+          },
           {
             "tu": "44/2024/QH15",
             "quan_he": "sua_doi",
@@ -6736,23 +6676,6 @@
         "thue/luat-thue"
       ],
       "quan_he": {
-        "huong_dan": [
-          "134/2016/NĐ-CP"
-        ],
-        "sua_doi": [
-          {
-            "so_hieu": "18/2021/NĐ-CP",
-            "pham_vi": "Sửa đổi, bổ sung một số điều về giảm/hoàn thuế",
-            "tu_ngay": "2021-01-01",
-            "can_cu": "NĐ 18/2021/NĐ-CP"
-          },
-          {
-            "so_hieu": "182/2025/NĐ-CP",
-            "pham_vi": "Sửa đổi, bổ sung NĐ 134/2016 (lần 2)",
-            "tu_ngay": "2025-01-01",
-            "can_cu": "NĐ 182/2025/NĐ-CP"
-          }
-        ],
         "thay_the": [
           {
             "so_hieu": "45/2005/QH11",
@@ -6793,15 +6716,6 @@
             "tu": "26/2023/NĐ-CP",
             "quan_he": "huong_dan",
             "so_hieu": "107/2016/QH13"
-          }
-        ],
-        "bi_bai_bo_boi": [
-          {
-            "tu": "45/2005/QH11",
-            "quan_he": "bai_bo",
-            "so_hieu": "107/2016/QH13",
-            "tu_ngay": "2016-09-01",
-            "can_cu": "Điều 4 Luật 107/2016/QH13 (quy định chuyển tiếp)"
           }
         ]
       }
@@ -7865,14 +7779,6 @@
       "quan_he": {
         "huong_dan": [
           "187/2013/NĐ-CP"
-        ],
-        "bai_bo": [
-          {
-            "so_hieu": "12/2018/TT-BCT",
-            "pham_vi": "Bãi bỏ toàn bộ",
-            "tu_ngay": "2018-06-15",
-            "can_cu": "Điều 17 khoản 2 điểm b TT 12/2018/TT-BCT"
-          }
         ]
       },
       "xac_minh": {
@@ -11362,16 +11268,6 @@
       },
       "ghi_chu": "Hết hiệu lực từ 16-01-2026 theo Điều 5 QĐ 126/QĐ-TTg. Đã đọc toàn văn 4 Điều + Phụ lục (Danh sách cơ quan đầu mối theo Chương Hiệp định EVFTA).",
       "het_hieu_luc_tu": "2026-01-16",
-      "quan_he": {
-        "sua_doi": [
-          {
-            "so_hieu": "126/QĐ-TTg",
-            "pham_vi": "Thay thế hoàn toàn 1175/QĐ-TTg",
-            "tu_ngay": "2026-01-16",
-            "can_cu": "Điều 5 QĐ 126/QĐ-TTg ngày 16-01-2026"
-          }
-        ]
-      },
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/1175-qd-ttg.pdf",
       "slug": "1175-qd-ttg-2020",
       "bac_nguon_cao_nhat": "A",
@@ -12526,30 +12422,6 @@
       "slug": "12-2018-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
-        "bi_bai_bo_boi": [
-          {
-            "tu": "04/2014/TT-BCT",
-            "quan_he": "bai_bo",
-            "so_hieu": "12/2018/TT-BCT",
-            "tu_ngay": "2018-06-15",
-            "can_cu": "Điều 17 khoản 2 điểm a TT 12/2018/TT-BCT"
-          },
-          {
-            "tu": "11/2017/TT-BCT",
-            "quan_he": "bai_bo",
-            "so_hieu": "12/2018/TT-BCT",
-            "pham_vi": "Bãi bỏ toàn bộ",
-            "tu_ngay": "2018-06-15",
-            "can_cu": "Điều 17 khoản 2 điểm b TT 12/2018/TT-BCT"
-          },
-          {
-            "tu": "48/2026/TT-BCT",
-            "quan_he": "bai_bo",
-            "so_hieu": "12/2018/TT-BCT",
-            "tu_ngay": "2026-09-05",
-            "can_cu": "Điều 20 khoản 2 điểm đ TT 48/2026/TT-BCT (Phụ lục I còn thực hiện chuyển tiếp đến 31-12-2026 — Điều 21 khoản 3)"
-          }
-        ],
         "bi_sua_doi_boi": [
           {
             "tu": "08/2023/TT-BCT",
@@ -12558,6 +12430,15 @@
             "pham_vi": "Phụ lục I, Phụ lục II (và các phụ lục khác theo Điều 1)",
             "tu_ngay": "2023-05-16",
             "can_cu": "Điều 1 TT 08/2023/TT-BCT"
+          }
+        ],
+        "bi_bai_bo_boi": [
+          {
+            "tu": "48/2026/TT-BCT",
+            "quan_he": "bai_bo",
+            "so_hieu": "12/2018/TT-BCT",
+            "tu_ngay": "2026-09-05",
+            "can_cu": "Điều 20 khoản 2 điểm đ TT 48/2026/TT-BCT (Phụ lục I còn thực hiện chuyển tiếp đến 31-12-2026 — Điều 21 khoản 3)"
           }
         ]
       }
@@ -13146,16 +13027,6 @@
       "slug": "121-2025-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
-        "bi_sua_doi_boi": [
-          {
-            "tu": "38/2015/TT-BTC",
-            "quan_he": "sua_doi",
-            "so_hieu": "121/2025/TT-BTC",
-            "pham_vi": "Sửa nhiều điều về thủ tục HQ, thuế XK NK",
-            "tu_ngay": "2026-02-01",
-            "can_cu": "Điều 1 TT 121/2025/TT-BTC"
-          }
-        ],
         "bi_bai_bo_boi": [
           {
             "tu": "86/2026/TT-BTC",
@@ -15035,18 +14906,7 @@
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/126-qd-ttg.pdf",
       "slug": "126-qd-ttg-2026",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {
-        "bi_sua_doi_boi": [
-          {
-            "tu": "1175/QĐ-TTg",
-            "quan_he": "sua_doi",
-            "so_hieu": "126/QĐ-TTg",
-            "pham_vi": "Thay thế hoàn toàn 1175/QĐ-TTg",
-            "tu_ngay": "2026-01-16",
-            "can_cu": "Điều 5 QĐ 126/QĐ-TTg ngày 16-01-2026"
-          }
-        ]
-      }
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "1261/TB-TCHQ/2022",
@@ -17251,13 +17111,6 @@
       "slug": "134-2016-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
-        "duoc_huong_dan_boi": [
-          {
-            "tu": "107/2016/QH13",
-            "quan_he": "huong_dan",
-            "so_hieu": "134/2016/NĐ-CP"
-          }
-        ],
         "bi_sua_doi_boi": [
           {
             "tu": "18/2021/NĐ-CP",
@@ -23224,20 +23077,7 @@
       ],
       "slug": "163-2025-nd-cp",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {
-        "duoc_huong_dan_boi": [
-          {
-            "tu": "105/2016/QH13",
-            "quan_he": "huong_dan",
-            "so_hieu": "163/2025/NĐ-CP"
-          },
-          {
-            "tu": "44/2024/QH15",
-            "quan_he": "huong_dan",
-            "so_hieu": "163/2025/NĐ-CP"
-          }
-        ]
-      }
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "1633/TB-CHQ/2026",
@@ -26942,18 +26782,7 @@
       "toan_van": "raw/download/datafiles.chinhphu.vn/18-2021-nd-cp.pdf",
       "slug": "18-2021-nd-cp",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {
-        "bi_sua_doi_boi": [
-          {
-            "tu": "107/2016/QH13",
-            "quan_he": "sua_doi",
-            "so_hieu": "18/2021/NĐ-CP",
-            "pham_vi": "Sửa đổi, bổ sung một số điều về giảm/hoàn thuế",
-            "tu_ngay": "2021-01-01",
-            "can_cu": "NĐ 18/2021/NĐ-CP"
-          }
-        ]
-      }
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "18/2021/TT-BTC",
@@ -27921,18 +27750,7 @@
       "toan_van": "raw/download/datafiles.chinhphu.vn/182-2025-nd-cp.pdf",
       "slug": "182-2025-nd-cp",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {
-        "bi_sua_doi_boi": [
-          {
-            "tu": "107/2016/QH13",
-            "quan_he": "sua_doi",
-            "so_hieu": "182/2025/NĐ-CP",
-            "pham_vi": "Sửa đổi, bổ sung NĐ 134/2016 (lần 2)",
-            "tu_ngay": "2025-01-01",
-            "can_cu": "NĐ 182/2025/NĐ-CP"
-          }
-        ]
-      }
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "182/TB-TCHQ/2019",
@@ -29235,21 +29053,6 @@
           "ghi_chu": "Thẻ metadata — cần verify URL chính xác"
         }
       ],
-      "quan_he": {
-        "huong_dan": [
-          {
-            "so_hieu": "05/2017/QH14",
-            "can_cu": "Luật Quản lý ngoại thương 05/2017/QH14"
-          }
-        ],
-        "bai_bo": [
-          {
-            "so_hieu": "09/2018/NĐ-CP",
-            "tu_ngay": "2018-06-15",
-            "can_cu": "NĐ 09/2018/NĐ-CP thay thế NĐ 187/2013/NĐ-CP"
-          }
-        ]
-      },
       "slug": "187-2013-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -32580,16 +32383,6 @@
       "nhanh": [
         "phong-ve-thuong-mai/chong-ban-pha-gia"
       ],
-      "quan_he": {
-        "thay_the": [
-          {
-            "so_hieu": "915/QĐ-BCT",
-            "tu_ngay": "2026-04-16",
-            "pham_vi": "Không gia hạn áp dụng biện pháp chống bán phá giá đối với thép hình chữ H xuất xứ từ Ma-lai-xi-a (vụ việc ER01.AD12)",
-            "can_cu": "Điều 1 Quyết định 915/QĐ-BCT"
-          }
-        ]
-      },
       "nguon": [
         {
           "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/1975.pdf",
@@ -32608,7 +32401,18 @@
       "toan_van": "raw/download/files.customs.gov.vn/1975-qd-bct.pdf",
       "slug": "1975-qd-bct",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "915/QĐ-BCT",
+            "quan_he": "thay_the",
+            "so_hieu": "1975/QĐ-BCT",
+            "tu_ngay": "2026-04-16",
+            "pham_vi": "Không gia hạn áp dụng biện pháp chống bán phá giá đối với thép hình chữ H xuất xứ từ Ma-lai-xi-a (vụ việc ER01.AD12)",
+            "can_cu": "Điều 1 và Điều 2 Quyết định 915/QĐ-BCT"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "1978/QĐ-BCT",
@@ -47409,6 +47213,16 @@
       "nhanh": [
         "kiem-tra-chuyen-nganh/byt"
       ],
+      "quan_he": {
+        "sua_doi": [
+          {
+            "so_hieu": "105/2016/QH13",
+            "pham_vi": "Sửa đổi Điều 10, khoản 2 Điều 106 và bãi bỏ Điều 9 Luật Dược (liên quan đến quy hoạch)",
+            "tu_ngay": "2019-01-01",
+            "can_cu": "Điều 3 và Điều 12 Luật 28/2018/QH14"
+          }
+        ]
+      },
       "nguon": [
         {
           "url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=49815",
@@ -47435,16 +47249,6 @@
       "slug": "28-2018-qh14",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
-        "bi_sua_doi_boi": [
-          {
-            "tu": "105/2016/QH13",
-            "quan_he": "sua_doi",
-            "so_hieu": "28/2018/QH14",
-            "pham_vi": "Một số điều liên quan đến quy hoạch",
-            "tu_ngay": "2019-01-01",
-            "can_cu": "Điều 1 Luật 28/2018/QH14"
-          }
-        ],
         "duoc_hop_nhat_boi": [
           {
             "tu": "76-VBHN/VPQH",
@@ -60190,17 +59994,7 @@
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/34-2025-tt-bct.pdf",
       "slug": "34-2025-tt-bct",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {
-        "bi_sua_doi_boi": [
-          {
-            "tu": "02/2018/TT-BCT",
-            "quan_he": "sua_doi",
-            "so_hieu": "34/2025/TT-BCT",
-            "tu_ngay": "2025-07-21",
-            "can_cu": "Sửa đổi, bổ sung một số điều của TT 02/2018/TT-BCT"
-          }
-        ]
-      }
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "34/2025/TT-BYT",
@@ -65819,26 +65613,6 @@
         "huong_dan": [
           "54/2014/QH13",
           "08/2015/NĐ-CP"
-        ],
-        "sua_doi": [
-          {
-            "so_hieu": "39/2018/TT-BTC",
-            "pham_vi": "Bổ sung nộp chứng từ điện tử, sửa mẫu tờ khai",
-            "tu_ngay": "2018-06-05",
-            "can_cu": "Điều 1 TT 39/2018/TT-BTC"
-          },
-          {
-            "so_hieu": "60/2019/TT-BTC",
-            "pham_vi": "Sửa trị giá HQ",
-            "tu_ngay": "2019-10-15",
-            "can_cu": "Điều 1 TT 60/2019/TT-BTC"
-          },
-          {
-            "so_hieu": "121/2025/TT-BTC",
-            "pham_vi": "Sửa nhiều điều về thủ tục HQ, thuế XK NK",
-            "tu_ngay": "2026-02-01",
-            "can_cu": "Điều 1 TT 121/2025/TT-BTC"
-          }
         ]
       },
       "xac_minh": {
@@ -67488,14 +67262,6 @@
       "quan_he": {
         "huong_dan": [
           "54/2014/QH13"
-        ],
-        "sua_doi": [
-          {
-            "so_hieu": "60/2019/TT-BTC",
-            "pham_vi": "Sửa đổi, bổ sung một số điều của TT 39/2015/TT-BTC",
-            "tu_ngay": "2019-06-06",
-            "can_cu": "Điều 1 TT 60/2019/TT-BTC"
-          }
         ]
       },
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/2015/3/39-2015-tt-btc.pdf",
@@ -67552,14 +67318,6 @@
             "so_hieu": "39/2018/TT-BTC",
             "tu_ngay": "2026-02-01",
             "can_cu": "Điều 1 TT 121/2025/TT-BTC"
-          },
-          {
-            "tu": "38/2015/TT-BTC",
-            "quan_he": "sua_doi",
-            "so_hieu": "39/2018/TT-BTC",
-            "pham_vi": "Bổ sung nộp chứng từ điện tử, sửa mẫu tờ khai",
-            "tu_ngay": "2018-06-05",
-            "can_cu": "Điều 1 TT 39/2018/TT-BTC"
           }
         ],
         "bi_bai_bo_boi": [
@@ -75077,11 +74835,7 @@
         ],
         "bai_bo": [],
         "tam_ngung": [],
-        "huong_dan": [
-          {
-            "so_hieu": "163/2025/NĐ-CP"
-          }
-        ],
+        "huong_dan": [],
         "hop_nhat": []
       },
       "nguon": [
@@ -75109,16 +74863,6 @@
       "slug": "44-2024-qh15",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
-        "bi_sua_doi_boi": [
-          {
-            "tu": "105/2016/QH13",
-            "quan_he": "sua_doi",
-            "so_hieu": "44/2024/QH15",
-            "pham_vi": "Sửa đổi, bổ sung một số điều Luật Dược (Điều 2, 11, 13, 29, 34, 38, 41, 54, 60, 69...)",
-            "tu_ngay": "2025-07-01",
-            "can_cu": "Điều 1 Luật 44/2024/QH15"
-          }
-        ],
         "duoc_huong_dan_boi": [
           {
             "tu": "163/2025/NĐ-CP",
@@ -75821,15 +75565,6 @@
           "ghi_chu": "Thẻ metadata trên vanban.chinhphu.vn — cần verify URL chính xác khi đọc toàn văn"
         }
       ],
-      "quan_he": {
-        "bai_bo": [
-          {
-            "so_hieu": "107/2016/QH13",
-            "tu_ngay": "2016-09-01",
-            "can_cu": "Điều 4 Luật 107/2016/QH13 (quy định chuyển tiếp)"
-          }
-        ]
-      },
       "slug": "45-2005-qh11",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -79622,18 +79357,7 @@
       ],
       "slug": "49-2026-tt-bxd",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {
-        "bi_bai_bo_boi": [
-          {
-            "tu": "71/2025/TT-BXD",
-            "quan_he": "bai_bo",
-            "so_hieu": "49/2026/TT-BXD",
-            "pham_vi": "Chương X, Phụ lục II và Phụ lục III (một phần)",
-            "tu_ngay": "2026-07-01",
-            "can_cu": "Điều 6 khoản 3 điểm c TT 49/2026/TT-BXD"
-          }
-        ]
-      }
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "49-PL1/2026/TT-BXD",
@@ -85442,13 +85166,6 @@
       "slug": "54-2017-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
-        "duoc_huong_dan_boi": [
-          {
-            "tu": "105/2016/QH13",
-            "quan_he": "huong_dan",
-            "so_hieu": "54/2017/NĐ-CP"
-          }
-        ],
         "bi_thay_the_boi": [
           {
             "tu": "163/2025/NĐ-CP",
@@ -90132,26 +89849,7 @@
       "toan_van": "raw/download/datafiles.chinhphu.vn/60-2019-tt-btc.pdf",
       "slug": "60-2019-tt-btc",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {
-        "bi_sua_doi_boi": [
-          {
-            "tu": "38/2015/TT-BTC",
-            "quan_he": "sua_doi",
-            "so_hieu": "60/2019/TT-BTC",
-            "pham_vi": "Sửa trị giá HQ",
-            "tu_ngay": "2019-10-15",
-            "can_cu": "Điều 1 TT 60/2019/TT-BTC"
-          },
-          {
-            "tu": "39/2015/TT-BTC",
-            "quan_he": "sua_doi",
-            "so_hieu": "60/2019/TT-BTC",
-            "pham_vi": "Sửa đổi, bổ sung một số điều của TT 39/2015/TT-BTC",
-            "tu_ngay": "2019-06-06",
-            "can_cu": "Điều 1 TT 60/2019/TT-BTC"
-          }
-        ]
-      }
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "600/TB-TCHQ/2018",
@@ -98329,16 +98027,6 @@
           "truy_cap": "2026-10-04"
         }
       ],
-      "quan_he": {
-        "bai_bo": [
-          {
-            "so_hieu": "49/2026/TT-BXD",
-            "pham_vi": "Chương X, Phụ lục II và Phụ lục III (một phần)",
-            "tu_ngay": "2026-07-01",
-            "can_cu": "Điều 6 khoản 3 điểm c TT 49/2026/TT-BXD"
-          }
-        ]
-      },
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "đối chiếu Công báo (id=468849, tệp đính kèm 2026_90_71/2025/TT-BXD.docx và PDF ký số 71signed-1770365143684853249888.pdf, 13 Chương, 66 Điều, Phụ lục I–IV, người ký Thứ trưởng Lê Anh Tuấn): Thông tư 71/2025/TT-BXD ban hành ngày 31-12-2025, có hiệu lực thi hành từ ngày 31-12-2025 theo Điều 65; đối chiếu hết hiệu lực một phần từ ngày 01-07-2026 do điểm c khoản 3 Điều 6 Thông tư 49/2026/TT-BXD bãi bỏ Chương X (Điều 62), Phụ lục II và Phụ lục III (phần danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc lĩnh vực GTVT thay thế Phụ lục I và II Thông tư 12/2022/TT-BGTVT, 62/2024/TT-BGTVT); các chương và phụ lục còn lại (Chương I–IX, XI–XIII, Phụ lục I và Phụ lục IV) vẫn còn hiệu lực",
@@ -101911,18 +101599,7 @@
       },
       "slug": "76-vbhn-vpqh",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {
-        "duoc_hop_nhat_boi": [
-          {
-            "tu": "105/2016/QH13",
-            "quan_he": "hop_nhat",
-            "so_hieu": "76-VBHN/VPQH",
-            "pham_vi": "Văn bản hợp nhất toàn bộ Luật 105/2016, 28/2018, 44/2024",
-            "tu_ngay": "2026-03-01",
-            "can_cu": "Văn phòng Quốc hội công bố"
-          }
-        ]
-      }
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "7628/TB-TCHQ/2018",
@@ -102520,16 +102197,7 @@
       "toan_van": "raw/download/vanban.chinhphu.vn/78-2025-qh15.html",
       "slug": "78-2025-qh15",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {
-        "bi_sua_doi_boi": [
-          {
-            "tu": "05/2007/QH12",
-            "quan_he": "sua_doi",
-            "so_hieu": "78/2025/QH15",
-            "can_cu": "Luật sửa đổi, bổ sung Luật Chất lượng SP, hàng hoá"
-          }
-        ]
-      }
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "78/2026/TT-BTC",
@@ -106098,6 +105766,12 @@
             "tu_ngay": "2026-04-16",
             "pham_vi": "Kết thúc rà soát cuối kỳ vụ việc ER01.AD12 khởi xướng tại Quyết định 1978/QĐ-BCT và quyết định không gia hạn biện pháp chống bán phá giá tại Quyết định 1975/QĐ-BCT",
             "can_cu": "Điều 1 và Điều 2 Quyết định 915/QĐ-BCT"
+          },
+          {
+            "so_hieu": "1975/QĐ-BCT",
+            "tu_ngay": "2026-04-16",
+            "pham_vi": "Không gia hạn áp dụng biện pháp chống bán phá giá đối với thép hình chữ H xuất xứ từ Ma-lai-xi-a (vụ việc ER01.AD12)",
+            "can_cu": "Điều 1 và Điều 2 Quyết định 915/QĐ-BCT"
           }
         ]
       },
@@ -106122,18 +105796,7 @@
       "toan_van": "raw/download/pvtm.gov.vn/915-qd-bct.pdf",
       "slug": "915-qd-bct-2025",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {
-        "bi_thay_the_boi": [
-          {
-            "tu": "1975/QĐ-BCT",
-            "quan_he": "thay_the",
-            "so_hieu": "915/QĐ-BCT",
-            "tu_ngay": "2026-04-16",
-            "pham_vi": "Không gia hạn áp dụng biện pháp chống bán phá giá đối với thép hình chữ H xuất xứ từ Ma-lai-xi-a (vụ việc ER01.AD12)",
-            "can_cu": "Điều 1 Quyết định 915/QĐ-BCT"
-          }
-        ]
-      }
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "918/TB-TCHQ/2024",
@@ -107700,15 +107363,6 @@
           "truy_cap": "2026-11-14"
         }
       ],
-      "quan_he": {
-        "sua_doi": [
-          {
-            "so_hieu": "07/2023/NĐ-CP",
-            "tu_ngay": "2023-03-15",
-            "can_cu": "Điều 6 NĐ 07/2023/NĐ-CP (sửa đổi bổ sung một số điều của NĐ 98/2021/NĐ-CP)"
-          }
-        ]
-      },
       "slug": "98-2021-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -107725,14 +107379,14 @@
             "so_hieu": "98/2021/NĐ-CP"
           }
         ],
-        "duoc_hop_nhat_boi": [
-          {
-            "tu": "08/2026/VBHN-BYT",
-            "quan_he": "hop_nhat",
-            "so_hieu": "98/2021/NĐ-CP"
-          }
-        ],
         "bi_sua_doi_boi": [
+          {
+            "tu": "07/2023/NĐ-CP",
+            "quan_he": "sua_doi",
+            "so_hieu": "98/2021/NĐ-CP",
+            "tu_ngay": "2023-03-03",
+            "can_cu": "Điều 1 và Điều 2 NĐ 07/2023/NĐ-CP"
+          },
           {
             "tu": "96/2023/NĐ-CP",
             "quan_he": "sua_doi",
@@ -107740,6 +107394,13 @@
             "tu_ngay": "2024-01-01",
             "pham_vi": "sửa đổi tên Chương IV; sửa đổi, bổ sung các Điều 12, 13, 14, 15, 16, 17, 18, 19, 20, 30 và bổ sung Điều 32a (riêng khoản 19 Điều 147 sửa đổi, bổ sung Điều 30 áp dụng từ 01/01/2026)",
             "can_cu": "Các khoản 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21 Điều 147 Nghị định 96/2023/NĐ-CP"
+          }
+        ],
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "08/2026/VBHN-BYT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "98/2021/NĐ-CP"
           }
         ]
       }

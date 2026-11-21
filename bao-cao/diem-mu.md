@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-11-21
 
-Tổng 3140 điểm: **8 cao**, 339 vừa, 2793 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 3123 điểm: **8 cao**, 322 vừa, 2793 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -9,7 +9,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Sắp hết hiệu lực (≤60 ngày) | Cao | 8 | `hieu-luc` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 201 | `danh-muc-hs` |
 | Văn bản nền tảng (có toàn văn) chưa có trang wiki/sources/ | Vừa | 118 | `doc-hieu` |
-| Trang wiki dẫn văn bản đã hết hiệu lực | Vừa | 17 | `doc-hieu` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
 | TB-TCHQ cá biệt chưa có nguồn chính thống | Thấp | 1367 | `tb-tchq` |
 | TB-TCHQ cá biệt chưa đối chiếu nguồn A | Thấp | 1367 | `tb-tchq` |
@@ -117,26 +116,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **13/2025/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/13-2025-nd-cp.md** — Đã có toàn văn (raw/download/congbao.chinhphu.vn/13-2025-nd-cp.html) nhưng chưa có wiki/sources/13-2025-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
 - [ ] **131/2013/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/131-2013-nd-cp.md** — Đã có toàn văn (raw/download/vanban.chinhphu.vn/131-2013-nd-cp.html) nhưng chưa có wiki/sources/131-2013-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
 - … và 78 điểm khác (xem bao-cao/diem-mu.json)
-
-## Trang wiki dẫn văn bản đã hết hiệu lực (17)
-
-- [ ] **wiki/summary/khung-kiem-tra-chuyen-nganh-2026.md: dẫn 11/2022/TT-BCT đã hết hiệu lực** — Dòng 11 của wiki/summary/khung-kiem-tra-chuyen-nganh-2026.md dẫn 11/2022/TT-BCT (HET_HIEU_LUC từ 2026-07-17). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
-- [ ] **wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md: dẫn 13/2008/QH12 đã hết hiệu lực** — Dòng 25 của wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md dẫn 13/2008/QH12 (HET_HIEU_LUC từ 2025-07-01). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
-- [ ] **wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md: dẫn 219/2013/TT-BTC đã hết hiệu lực** — Dòng 25 của wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md dẫn 219/2013/TT-BTC (HET_HIEU_LUC từ 2025-07-01). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
-- [ ] **wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md: dẫn 78/2021/TT-BTC đã hết hiệu lực** — Dòng 25 của wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md dẫn 78/2021/TT-BTC (HET_HIEU_LUC từ 2025-06-01). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
-- [ ] **wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md: dẫn 221/2013/TT-BTC đã hết hiệu lực** — Dòng 29 của wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md dẫn 221/2013/TT-BTC (HET_HIEU_LUC từ 2017-10-20). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
-- [ ] **wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md: dẫn 05/2014/TT-NHNN đã hết hiệu lực** — Dòng 33 của wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md dẫn 05/2014/TT-NHNN (HET_HIEU_LUC từ 2025-06-16). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
-- [ ] **wiki/summary/my-pham-gia-dinh.md: dẫn 176/2013/NĐ-CP đã hết hiệu lực** — Dòng 12 của wiki/summary/my-pham-gia-dinh.md dẫn 176/2013/NĐ-CP (HET_HIEU_LUC từ 2020-11-15). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
-- [ ] **wiki/summary/my-pham-gia-dinh.md: dẫn 43/2017/NĐ-CP đã hết hiệu lực (bãi bỏ bởi 37/2026/NĐ-CP)** — Dòng 12 của wiki/summary/my-pham-gia-dinh.md dẫn 43/2017/NĐ-CP (HET_HIEU_LUC từ 2026-01-23) — bãi bỏ bởi 37/2026/NĐ-CP. Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
-- [ ] **wiki/concepts/go-rung.md: dẫn 105/2022/NĐ-CP đã hết hiệu lực** — Dòng 3 của wiki/concepts/go-rung.md dẫn 105/2022/NĐ-CP (HET_HIEU_LUC từ 2025-03-01). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
-- [ ] **wiki/concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham.md: dẫn 11/2022/TT-BCT đã hết hiệu lực** — Dòng 9 của wiki/concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham.md dẫn 11/2022/TT-BCT (HET_HIEU_LUC từ 2026-07-17). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
-- [ ] **wiki/concepts/ktcl-byt-attp-2024.md: dẫn 05/2018/TT-BYT đã hết hiệu lực (bãi bỏ bởi 28/2021/TT-BYT)** — Dòng 47 của wiki/concepts/ktcl-byt-attp-2024.md dẫn 05/2018/TT-BYT (HET_HIEU_LUC từ 2022-02-02) — bãi bỏ bởi 28/2021/TT-BYT. Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
-- [ ] **wiki/concepts/muc-do-rui-ro-hang-hoa.md: dẫn 1921/QĐ-TCHQ đã hết hiệu lực (bãi bỏ bởi 117/QĐ-CHQ)** — Dòng 17 của wiki/concepts/muc-do-rui-ro-hang-hoa.md dẫn 1921/QĐ-TCHQ (HET_HIEU_LUC từ 2026-02-01) — bãi bỏ bởi 117/QĐ-CHQ. Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
-- [ ] **wiki/concepts/phan-bon-nhap-khau.md: dẫn 43/2017/NĐ-CP đã hết hiệu lực (bãi bỏ bởi 37/2026/NĐ-CP)** — Dòng 25 của wiki/concepts/phan-bon-nhap-khau.md dẫn 43/2017/NĐ-CP (HET_HIEU_LUC từ 2026-01-23) — bãi bỏ bởi 37/2026/NĐ-CP. Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
-- [ ] **wiki/concepts/phan-loai-ma-hs.md: dẫn 1921/QĐ-TCHQ đã hết hiệu lực (bãi bỏ bởi 117/QĐ-CHQ)** — Dòng 34 của wiki/concepts/phan-loai-ma-hs.md dẫn 1921/QĐ-TCHQ (HET_HIEU_LUC từ 2026-02-01) — bãi bỏ bởi 117/QĐ-CHQ. Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
-- [ ] **wiki/concepts/phu-gia-thuc-pham-ins.md: dẫn 05/2018/TT-BYT đã hết hiệu lực (bãi bỏ bởi 28/2021/TT-BYT)** — Dòng 58 của wiki/concepts/phu-gia-thuc-pham-ins.md dẫn 05/2018/TT-BYT (HET_HIEU_LUC từ 2022-02-02) — bãi bỏ bởi 28/2021/TT-BYT. Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
-- [ ] **wiki/concepts/thu-tuc-hai-quan-xnk.md: dẫn 1921/QĐ-TCHQ đã hết hiệu lực (bãi bỏ bởi 117/QĐ-CHQ)** — Dòng 23 của wiki/concepts/thu-tuc-hai-quan-xnk.md dẫn 1921/QĐ-TCHQ (HET_HIEU_LUC từ 2026-02-01) — bãi bỏ bởi 117/QĐ-CHQ. Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
-- [ ] **wiki/concepts/thuoc-bvtv-nhap-khau.md: dẫn 21/2017/TT-BNNPTNT đã hết hiệu lực** — Dòng 29 của wiki/concepts/thuoc-bvtv-nhap-khau.md dẫn 21/2017/TT-BNNPTNT (HET_HIEU_LUC từ 2021-01-01). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
 
 ## Sắp có hiệu lực (≤60 ngày) (3)
 
