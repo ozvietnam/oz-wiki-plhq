@@ -4,19 +4,78 @@ loai: THONG_TU
 ten: Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội
 co_quan: BLDTBXH
 ngay_ban_hanh: '2018-12-06'
+hieu_luc_tu: '2019-02-01'
 tinh_trang: HET_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/bnv
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu/trích yếu trên nguồn A (congbao.chinhphu.vn); hết hiệu lực từ 2021-07-18 do bị thay thế bởi 01/2021/TT-BLĐTBXH (Điều 5 khoản 2 TT 01/2021/TT-BLĐTBXH)'
+  pham_vi: 'PDF Công báo CDN (Số 115+116 ngày 31-01-2019, 5 Điều + Phụ lục): ban hành Danh mục sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý nhà nước của Bộ LĐTBXH, có hiệu lực từ 2019-02-01 (Điều 4 khoản 1); hết hiệu lực từ 2021-07-18 do bị thay thế bởi 01/2021/TT-BLĐTBXH (Điều 5 khoản 2 TT 01/2021/TT-BLĐTBXH)'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Thông tư này quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội (sau đây gọi chung là sản phẩm, hàng hóa nhóm 2) kèm theo mã hàng hóa (HS).'
+      trang_pdf: 1
+      sha256_pdf: faa9b9b2ce3db6df1eb0306b1321669bdf3b1583aa1c596fc0705d63f5810c98
+    - dieu: 2
+      khoan: 1
+      noi_dung: '1. Các tổ chức, cá nhân trong nước và nước ngoài hoạt động sản xuất, nhập khẩu, xuất khẩu, kinh doanh, sử dụng các sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội;'
+      trang_pdf: 2
+      sha256_pdf: faa9b9b2ce3db6df1eb0306b1321669bdf3b1583aa1c596fc0705d63f5810c98
+    - dieu: 2
+      khoan: 2
+      noi_dung: '2. Tổ chức, cá nhân liên quan đến hoạt động quản lý, đánh giá, chứng nhận chất lượng sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội.'
+      trang_pdf: 2
+      sha256_pdf: faa9b9b2ce3db6df1eb0306b1321669bdf3b1583aa1c596fc0705d63f5810c98
+    - dieu: 3
+      khoan: 1
+      noi_dung: '1. Ban hành kèm theo Thông tư này Danh mục sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội và mã HS của sản phẩm, hàng hóa (chi tiết tại Phụ lục kèm theo Thông tư này).'
+      trang_pdf: 2
+      sha256_pdf: faa9b9b2ce3db6df1eb0306b1321669bdf3b1583aa1c596fc0705d63f5810c98
+    - dieu: 3
+      khoan: 2
+      noi_dung: '2. Nguyên tắc áp dụng mã HS đối với các sản phẩm, hàng hóa nhóm 2 thuộc Danh mục: a) Trường hợp liệt kê mã HS 4 số thì toàn bộ các sản phẩm, hàng hóa có mã HS 8 số thuộc nhóm sản phẩm, hàng hóa có mã HS 4 số này đều được áp dụng; b) Trường hợp liệt kê mã HS 6 số thì toàn bộ các sản phẩm, hàng hóa có mã HS 8 số thuộc nhóm sản phẩm, hàng hóa có mã HS 6 số này đều được áp dụng; c) Trường hợp liệt kê chi tiết đến mã HS 8 số thì chỉ sản phẩm, hàng hóa có mã HS 8 số đó mới được áp dụng.'
+      trang_pdf: 2
+      sha256_pdf: faa9b9b2ce3db6df1eb0306b1321669bdf3b1583aa1c596fc0705d63f5810c98
+    - dieu: 4
+      khoan: 1
+      noi_dung: '1. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 02 năm 2019.'
+      trang_pdf: 2
+      sha256_pdf: faa9b9b2ce3db6df1eb0306b1321669bdf3b1583aa1c596fc0705d63f5810c98
+    - dieu: 4
+      khoan: 2
+      noi_dung: '2. Danh mục sản phẩm, hàng hóa nhóm 2 quy định tại Thông tư này thay thế Danh mục sản phẩm, hàng hóa nhóm 2 quy định tại Phụ lục I Thông tư số 03/2010/TT-BLĐTBXH ngày 19 tháng 01 năm 2010 của Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành Danh mục sản phẩm, hàng hóa nhóm 2 và hướng dẫn trình tự, thủ tục và nội dung kiểm tra nhà nước về chất lượng các sản phẩm, hàng hóa thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội.'
+      trang_pdf: 2
+      sha256_pdf: faa9b9b2ce3db6df1eb0306b1321669bdf3b1583aa1c596fc0705d63f5810c98
+    - dieu: 5
+      khoan: 1
+      noi_dung: '1. Cục An toàn lao động và Sở Lao động - Thương binh và Xã hội địa phương có trách nhiệm triển khai, hướng dẫn thực hiện Thông tư này.'
+      trang_pdf: 2
+      sha256_pdf: faa9b9b2ce3db6df1eb0306b1321669bdf3b1583aa1c596fc0705d63f5810c98
+    - dieu: 5
+      khoan: 2
+      noi_dung: '2. Cục An toàn lao động chủ trì, phối hợp với các cơ quan liên quan rà soát trình Bộ trưởng Bộ Lao động - Thương binh và Xã hội xem xét sửa đổi, bổ sung Danh mục sản phẩm hàng hóa nhóm 2 theo yêu cầu quản lý.'
+      trang_pdf: 3
+      sha256_pdf: faa9b9b2ce3db6df1eb0306b1321669bdf3b1583aa1c596fc0705d63f5810c98
+    - dieu: 5
+      khoan: 3
+      noi_dung: '3. Trường hợp các văn bản quy phạm pháp luật, các tiêu chuẩn, quy chuẩn kỹ thuật được viện dẫn trong Thông tư này được sửa đổi, bổ sung hoặc ban hành mới, thay thế thì thực hiện theo văn bản mới.'
+      trang_pdf: 3
+      sha256_pdf: faa9b9b2ce3db6df1eb0306b1321669bdf3b1583aa1c596fc0705d63f5810c98
+    - dieu: 5
+      khoan: 4
+      noi_dung: '4. Trong quá trình thực hiện, nếu có khó khăn vướng mắc, các cơ quan, tổ chức, cá nhân phản ánh về Bộ Lao động - Thương binh và Xã hội để nghiên cứu, giải quyết./.'
+      trang_pdf: 3
+      sha256_pdf: faa9b9b2ce3db6df1eb0306b1321669bdf3b1583aa1c596fc0705d63f5810c98
 het_hieu_luc_tu: '2021-07-18'
 ghi_chu: 'PDF bậc A từ congbao.chinhphu.vn'
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-22-2018-tt-bldtbxh-28214/25424.htm
     truy_cap: '2026-10-04'
-
-toan_van: raw/download/congbao.chinhphu.vn/22-2018-tt-bldtbxh.pdf
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/12/28214/25424-1-2019115-11622-2018-tt-bldtbxh.pdf
+    truy_cap: '2026-10-12'
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/22-2018-tt-bldtbxh.pdf
+  - wiki/sources/22-2018-tt-bldtbxh.md

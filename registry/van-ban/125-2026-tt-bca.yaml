@@ -56,12 +56,78 @@ xac_minh:
     (2) Tình trạng hiện tại: rà registry 13-10-2026 — không có văn bản nào sau ghi thay/bãi/tạm ngưng TT 125
     (chỉ được nhắc trong ghi_chu nghiệp vụ của QĐ 9981/QĐ-BCA và QĐ 6266/QĐ-BCA về chuỗi danh mục cũ).
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-10-13'
-  boi: zcode-glm@ozvietnam
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Thông tư này quy định về Danh mục, nguyên tắc quản lý sản phẩm, hàng hoá có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Công an.'
+      trang_pdf: 2
+      sha256_pdf: c86f4bc0427b8b4b75dfbf2a9738db22e9b09eebad6b6e5f447b648fe9bb9a21
+    - dieu: 2
+      khoan: 1
+      noi_dung: '1. Các đơn vị thuộc cơ quan Bộ Công an, Công an các tỉnh, thành phố.'
+      trang_pdf: 2
+      sha256_pdf: c86f4bc0427b8b4b75dfbf2a9738db22e9b09eebad6b6e5f447b648fe9bb9a21
+    - dieu: 2
+      khoan: 2
+      noi_dung: '2. Tổ chức, cá nhân nhập khẩu, sản xuất, kinh doanh sản phẩm, hàng hoá thuộc Danh mục sản phẩm, hàng hoá có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Công an (sau đây gọi chung là Danh mục sản phẩm, hàng hoá) ban hành kèm theo Thông tư này.'
+      trang_pdf: 2
+      sha256_pdf: c86f4bc0427b8b4b75dfbf2a9738db22e9b09eebad6b6e5f447b648fe9bb9a21
+    - dieu: 2
+      khoan: 3
+      noi_dung: '3. Tổ chức đánh giá sự phù hợp thực hiện các hoạt động phục vụ yêu cầu quản lý nhà nước về chất lượng sản phẩm, hàng hoá thuộc Danh mục sản phẩm, hàng hoá ban hành kèm theo Thông tư này.'
+      trang_pdf: 2
+      sha256_pdf: c86f4bc0427b8b4b75dfbf2a9738db22e9b09eebad6b6e5f447b648fe9bb9a21
+    - dieu: 3
+      khoan: 1
+      noi_dung: '1. Danh mục sản phẩm, hàng hoá có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Công an được quy định tại Phụ lục ban hành kèm theo Thông tư này.'
+      trang_pdf: 2
+      sha256_pdf: c86f4bc0427b8b4b75dfbf2a9738db22e9b09eebad6b6e5f447b648fe9bb9a21
+    - dieu: 3
+      khoan: 2
+      noi_dung: '2. Cục Khoa học, Chiến lược và Lịch sử Công an chủ trì, phối hợp với các đơn vị liên quan đề xuất sửa đổi, bổ sung Danh mục sản phẩm, hàng hoá phù hợp yêu cầu quản lý nhà nước của Bộ Công an theo từng thời kỳ.'
+      trang_pdf: 2
+      sha256_pdf: c86f4bc0427b8b4b75dfbf2a9738db22e9b09eebad6b6e5f447b648fe9bb9a21
+    - dieu: 4
+      noi_dung: 'Điều 4. Nguyên tắc quản lý chất lượng Việc quản lý chất lượng sản phẩm, hàng hoá có mức độ rủi ro trung bình, mức độ rủi ro cao quy định trong Thông tư này được thực hiện theo quy định của pháp luật về chất lượng sản phẩm, hàng hoá, tiêu chuẩn, quy chuẩn kỹ thuật, yêu cầu quản lý quy định tại Phụ lục ban hành kèm theo Thông tư này và quy định của pháp luật có liên quan.'
+      trang_pdf: 2
+      sha256_pdf: c86f4bc0427b8b4b75dfbf2a9738db22e9b09eebad6b6e5f447b648fe9bb9a21
+    - dieu: 5
+      khoan: 1
+      noi_dung: '1. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 7 năm 2026.'
+      trang_pdf: 2
+      sha256_pdf: c86f4bc0427b8b4b75dfbf2a9738db22e9b09eebad6b6e5f447b648fe9bb9a21
+    - dieu: 5
+      khoan: 2
+      noi_dung: '2. Trường hợp các văn bản quy phạm pháp luật, quy chuẩn kỹ thuật quốc gia dẫn chiếu áp dụng trong Danh mục sản phẩm, hàng hoá ban hành kèm theo Thông tư này được sửa đổi, bổ sung, thay thế thì thực hiện theo văn bản sửa đổi, bổ sung, thay thế.'
+      trang_pdf: 2
+      sha256_pdf: c86f4bc0427b8b4b75dfbf2a9738db22e9b09eebad6b6e5f447b648fe9bb9a21
+    - dieu: 6
+      khoan: 1
+      noi_dung: '1. Giấy chứng nhận hợp quy, Thông báo tiếp nhận bản công bố hợp quy đã được cấp cho sản phẩm, hàng hoá thuộc phạm vi điều chỉnh của Thông tư này đến trước ngày Thông tư có hiệu lực thi hành vẫn còn giá trị sử dụng được tiếp tục sử dụng cho đến hết thời hạn ghi trong Giấy chứng nhận hợp quy, Thông báo tiếp nhận bản công bố hợp quy. Việc giám sát duy trì hiệu lực đối với Giấy chứng nhận hợp quy đã cấp trước ngày Thông tư này có hiệu lực thi hành tiếp tục thực hiện theo quy định tại thời điểm cấp Giấy chứng nhận hợp quy.'
+      trang_pdf: 2
+      sha256_pdf: c86f4bc0427b8b4b75dfbf2a9738db22e9b09eebad6b6e5f447b648fe9bb9a21
+    - dieu: 6
+      khoan: 2
+      noi_dung: '2. Đối với sản phẩm, hàng hoá có mức độ rủi ro cao, tổ chức, cá nhân sản xuất, kinh doanh, dịch vụ phải thực hiện quy định về truy xuất nguồn gốc sản phẩm, hàng hoá sau 06 tháng kể từ ngày Thông tư này có hiệu lực.'
+      trang_pdf: 3
+      sha256_pdf: c86f4bc0427b8b4b75dfbf2a9738db22e9b09eebad6b6e5f447b648fe9bb9a21
+    - dieu: 7
+      khoan: 1
+      noi_dung: '1. Cục Khoa học, Chiến lược và Lịch sử Công an có trách nhiệm hướng dẫn, kiểm tra, đôn đốc thực hiện Thông tư này.'
+      trang_pdf: 3
+      sha256_pdf: c86f4bc0427b8b4b75dfbf2a9738db22e9b09eebad6b6e5f447b648fe9bb9a21
+    - dieu: 7
+      khoan: 2
+      noi_dung: '2. Thủ trưởng các đơn vị thuộc cơ quan Bộ Công an, Giám đốc Công an tỉnh, thành phố và tổ chức, cá nhân liên quan chịu trách nhiệm thi hành Thông tư này. Trong quá trình thực hiện, nếu có khó khăn, vướng mắc, Công an các đơn vị, địa phương, tổ chức, cá nhân có liên quan báo cáo về Bộ Công an (qua Cục Khoa học, Chiến lược và Lịch sử Công an) để có hướng dẫn kịp thời./.'
+      trang_pdf: 3
+      sha256_pdf: c86f4bc0427b8b4b75dfbf2a9738db22e9b09eebad6b6e5f447b648fe9bb9a21
 ghi_chu: 'PCCC và cứu nạn cứu hộ (8 sản phẩm), thiết bị an toàn giao thông, giám sát an ninh công cộng. Nền: Luật 55/2024/QH15. Tem kiểm định cũ hết 30/6/2026. TT 125 KHÔNG bãi tường minh QĐ 8378/6266/9981/QĐ-BCA — Điều 5 khoản 2 chỉ quy định dẫn chiếu chuyển tiếp (VB/danh mục được dẫn bị thay thì áp dụng văn bản mới); việc săn PDF bậc A cho các QĐ đó theo chan trên tệp riêng của từng QĐ.'
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-125-2026-tt-bca-470259/67719.htm
     truy_cap: '2026-10-04'
   - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/8/20/470259-1787037095_v1_1787187913_signed.pdf
     truy_cap: '2026-10-04'
-toan_van: raw/download/congbaocdn.chinhphu.vn/125-2026-tt-bca.pdf
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/125-2026-tt-bca.pdf
+  - wiki/sources/125-2026-tt-bca.md
