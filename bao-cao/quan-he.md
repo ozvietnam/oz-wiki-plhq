@@ -492,11 +492,14 @@ flowchart LR
   n_2105_Q__BCT["2105/QĐ-BCT<br/>hết hiệu lực"]
   n_1400_Q__BCT["1400/QĐ-BCT<br/>còn hiệu lực"]
   n_228_Q__BCT["228/QĐ-BCT<br/>hết hiệu lực"]
+  n_1975_Q__BCT["1975/QĐ-BCT<br/>hết hiệu lực"]
+  n_915_Q__BCT["915/QĐ-BCT<br/>còn hiệu lực"]
   n_2174_Q__BCT["2174/QĐ-BCT<br/>còn hiệu lực"]
   n_2333_Q__BCT["2333/QĐ-BCT<br/>hết hiệu lực"]
+  n_2652_Q__BCT["2652/QĐ-BCT<br/>còn hiệu lực"]
+  n_3546_Q__BCT["3546/QĐ-BCT<br/>hết hiệu lực"]
   n_86_2025_N__CP["86/2025/NĐ-CP<br/>còn hiệu lực"]
   n_10_2018_N__CP["10/2018/NĐ-CP<br/>hết hiệu lực"]
-  n_915_Q__BCT["915/QĐ-BCT<br/>còn hiệu lực"]
   n_1978_Q__BCT["1978/QĐ-BCT<br/>hết hiệu lực"]
   n_121_Q__BCT -->|thay thế từ 2026-01-19| n_2491_Q__BCT
   n_1309_Q__BCT -->|bãi bỏ từ 2026-06-16| n_1578_Q__BCT
@@ -504,8 +507,10 @@ flowchart LR
   n_1309_Q__BCT -->|bãi bỏ từ 2026-06-16| n_1989_Q__BCT
   n_1309_Q__BCT -->|bãi bỏ từ 2026-06-16| n_2105_Q__BCT
   n_1400_Q__BCT -->|thay thế từ 2026-06-14| n_228_Q__BCT
+  n_1975_Q__BCT -->|thay thế Không gia hạn áp dụng biện pháp chống bán phá giá đối với thép hình chữ H xuất xứ từ Ma-lai-xi-a (vụ việc ER01.AD12) từ 2026-04-16| n_915_Q__BCT
   n_2105_Q__BCT -->|sửa đổi Sửa đổi, bổ sung một số nội dung của Quyết định 1989/QĐ-BCT ngày 03-08-2023 về kết quả rà soát lần thứ nhất việc áp dụng biện pháp CBPG và CTC đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan từ 2025-07-21| n_1989_Q__BCT
   n_2174_Q__BCT -->|thay thế Kết thúc giai đoạn điều tra khởi xướng tại Quyết định 2333/QĐ-BCT và chuyển sang áp dụng thuế chống bán phá giá chính thức đối với vụ việc AD23 từ 2026-09-22| n_2333_Q__BCT
+  n_2652_Q__BCT -->|thay thế Kết thúc rà soát cuối kỳ vụ việc ER01.AD10 và ban hành kết quả rà soát lần thứ hai / cuối kỳ áp dụng biện pháp chống bán phá giá sợi polyester từ 2026-10-16| n_3546_Q__BCT
   n_86_2025_N__CP -->|thay thế từ 2025-07-01| n_10_2018_N__CP
   n_915_Q__BCT -->|thay thế Kết thúc rà soát cuối kỳ vụ việc ER01.AD12 khởi xướng tại Quyết định 1978/QĐ-BCT và quyết định không gia hạn biện pháp chống bán phá giá tại Quyết định 1975/QĐ-BCT từ 2026-04-16| n_1978_Q__BCT
 ```
