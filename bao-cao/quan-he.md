@@ -11,6 +11,8 @@ flowchart LR
   n_124_2020_N__CP["124/2020/NĐ-CP<br/>còn hiệu lực"]
   n_81_2013_N__CP["81/2013/NĐ-CP<br/>hết hiệu lực"]
   n_155_2026_N__CP["155/2026/NĐ-CP<br/>còn hiệu lực"]
+  n_50_VBHN_BXD["50/VBHN-BXD<br/>còn hiệu lực"]
+  n_80_2014_N__CP["80/2014/NĐ-CP<br/>còn hiệu lực"]
   n_81_2025_QH15["81/2025/QH15<br/>còn hiệu lực"]
   n_02_2011_QH13["02/2011/QH13<br/>còn hiệu lực"]
   n_96_2022_N__CP["96/2022/NĐ-CP<br/>hết hiệu lực"]
@@ -18,6 +20,7 @@ flowchart LR
   n_105_2022_N__CP -->|thay thế từ 2023-01-15| n_15_2017_N__CP
   n_124_2020_N__CP -->|thay thế từ 2020-12-10| n_81_2013_N__CP
   n_155_2026_N__CP -->|sửa đổi| n_124_2020_N__CP
+  n_50_VBHN_BXD -->|hợp nhất| n_80_2014_N__CP
   n_81_2025_QH15 -->|sửa đổi| n_02_2011_QH13
   n_96_2022_N__CP -->|thay thế từ 2022-12-01| n_98_2017_N__CP
 ```
@@ -165,6 +168,7 @@ flowchart LR
   n_01_2021_TT_BL_TBXH["01/2021/TT-BLĐTBXH<br/>hết hiệu lực"]
   n_22_2018_TT_BL_TBXH["22/2018/TT-BLĐTBXH<br/>hết hiệu lực"]
   n_01_2022_TT_BNNPTNT["01/2022/TT-BNNPTNT<br/>hết hiệu lực một phần"]
+  n_26_2018_TT_BNNPTNT["26/2018/TT-BNNPTNT<br/>hết hiệu lực"]
   n_11_2021_TT_BNNPTNT["11/2021/TT-BNNPTNT<br/>hết hiệu lực"]
   n_03_2024_TT_BNNPTNT["03/2024/TT-BNNPTNT<br/>còn hiệu lực"]
   n_34_2018_TT_BNNPTNT["34/2018/TT-BNNPTNT<br/>hết hiệu lực một phần"]
@@ -180,7 +184,7 @@ flowchart LR
   n_98_2021_N__CP["98/2021/NĐ-CP<br/>hết hiệu lực một phần"]
   n_07_2026_TT_BNNMT["07/2026/TT-BNNMT<br/>còn hiệu lực"]
   n_05_2015_TT_BNNPTNT["05/2015/TT-BNNPTNT<br/>hết hiệu lực một phần"]
-  n_19_VBHN_BNNPTNT["19/VBHN-BNNPTNT<br/>hết hiệu lực một phần"]
+  n_19_VBHN_BNNPTNT["19/VBHN-BNNPTNT<br/>hết hiệu lực"]
   n_11_2022_TT_BNNPTNT["11/2022/TT-BNNPTNT<br/>hết hiệu lực"]
   n_07_VBHN_BTTTT["07/VBHN-BTTTT<br/>còn hiệu lực"]
   n_03_2015_TT_BTTTT["03/2015/TT-BTTTT<br/>hết hiệu lực một phần"]
@@ -251,6 +255,7 @@ flowchart LR
   n_24_2026_TT_BYT["24/2026/TT-BYT<br/>còn hiệu lực"]
   n_05_2022_TT_BYT["05/2022/TT-BYT<br/>còn hiệu lực"]
   n_59_2025_TT_BYT["59/2025/TT-BYT<br/>hết hiệu lực"]
+  n_20_2017_TT_BNNPTNT["20/2017/TT-BNNPTNT<br/>hết hiệu lực một phần"]
   n_26_2022_TT_BNNPTNT["26/2022/TT-BNNPTNT<br/>hết hiệu lực"]
   n_29_2019_TT_BNN["29/2019/TT-BNN<br/>hết hiệu lực"]
   n_26_2026_N__CP["26/2026/NĐ-CP<br/>còn hiệu lực"]
@@ -268,7 +273,6 @@ flowchart LR
   n_33_2024_N__CP["33/2024/NĐ-CP<br/>còn hiệu lực"]
   n_33_2026_TT_BCT["33/2026/TT-BCT<br/>còn hiệu lực"]
   n_41_2023_TT_BCT["41/2023/TT-BCT<br/>hết hiệu lực"]
-  n_20_2017_TT_BNNPTNT["20/2017/TT-BNNPTNT<br/>hết hiệu lực một phần"]
   n_36_2026_TT_BKHCN["36/2026/TT-BKHCN<br/>còn hiệu lực"]
   n_10_2020_TT_BTTTT["10/2020/TT-BTTTT<br/>hết hiệu lực"]
   n_58_2015_TTLT_BCT_BKHCN["58/2015/TTLT-BCT-BKHCN<br/>hết hiệu lực"]
@@ -308,6 +312,7 @@ flowchart LR
   n_99_2026_VBHN_TT_BNNMT["99/2026/VBHN-TT-BNNMT<br/>còn hiệu lực"]
   n_20_2021_TT_BNNPTNT["20/2021/TT-BNNPTNT<br/>hết hiệu lực một phần"]
   n_01_2021_TT_BL_TBXH -->|thay thế từ 2021-07-18| n_22_2018_TT_BL_TBXH
+  n_01_2022_TT_BNNPTNT -->|sửa đổi sửa đổi, bổ sung Điều 7; điểm a khoản 1 và điểm a khoản 2 Điều 10; khoản 2 và khoản 3 Điều 13; điểm đ khoản 1 Điều 15; thay thế Phụ lục II, Phụ lục IV, Phụ lục V bằng Phụ lục XX, Phụ lục XXI, Phụ lục XXII ban hành kèm theo TT 01/2022/TT-BNNPTNT từ 2022-03-04| n_26_2018_TT_BNNPTNT
   n_01_2022_TT_BNNPTNT -->|sửa đổi thay thế Phần A Mục 16 Phụ lục I bằng Phụ lục XXIII ban hành kèm theo TT 01/2022/TT-BNNPTNT từ 2022-03-04| n_11_2021_TT_BNNPTNT
   n_03_2024_TT_BNNPTNT -->|bãi bỏ một số quy định từ 2024-05-16| n_34_2018_TT_BNNPTNT
   n_04_VBHN_BNNMT -->|hợp nhất| n_26_2025_TT_BNNMT
@@ -381,16 +386,14 @@ flowchart LR
   n_19_VBHN_BNNPTNT_2024 -->|hợp nhất| n_34_2018_TT_BNNPTNT
   n_19_VBHN_BNNPTNT_2024 -->|hợp nhất| n_15_2021_TT_BNNPTNT
   n_19_VBHN_BNNPTNT_2024 -->|hợp nhất| n_03_2024_TT_BNNPTNT
-  n_19_VBHN_BNNPTNT -->|thay thế từ 2024-05-27| n_06_VBHN_BNNPTNT
-  n_19_VBHN_BNNPTNT -->|hợp nhất| n_33_2014_TT_BNNPTNT
-  n_19_VBHN_BNNPTNT -->|hợp nhất| n_34_2018_TT_BNNPTNT
-  n_19_VBHN_BNNPTNT -->|hợp nhất| n_15_2021_TT_BNNPTNT
-  n_19_VBHN_BNNPTNT -->|hợp nhất| n_03_2024_TT_BNNPTNT
+  n_19_VBHN_BNNPTNT -->|hợp nhất| n_26_2018_TT_BNNPTNT
+  n_19_VBHN_BNNPTNT -->|hợp nhất| n_01_2022_TT_BNNPTNT
   n_22_2018_TT_BTTTT -->|thay thế Toàn bộ Thông tư số 16/2015/TT-BTTTT ngày 17/6/2015 quy định chi tiết thi hành Nghị định số 187/2013/NĐ-CP về xuất khẩu, nhập khẩu hàng hóa trong lĩnh vực in, phát hành xuất bản phẩm (cùng Thông tư sửa đổi, bổ sung số 41/2016/TT-BTTTT ngày 26/12/2016) từ 2019-02-12| n_16_2015_TT_BTTTT
   n_2393_Q__BYT -->|sửa đổi từ 2025-08-18| n_7866_Q__BYT
   n_24_2026_TT_BYT -->|sửa đổi| n_05_2022_TT_BYT
   n_24_2026_TT_BYT -->|sửa đổi Điều 8 (lộ trình kiểm định) từ 2026-07-01| n_05_2022_TT_BYT
   n_24_2026_TT_BYT -->|bãi bỏ từ 2026-07-01| n_59_2025_TT_BYT
+  n_26_2018_TT_BNNPTNT -->|bãi bỏ Nội dung quản lý về thức ăn thủy sản tại Thông tư số 20/2017/TT-BNNPTNT ngày 10 tháng 11 năm 2017 hướng dẫn thực hiện Nghị định số 39/2017/NĐ-CP ngày 04 tháng 4 năm 2017 của Chính phủ về quản lý thức ăn chăn nuôi, thủy sản từ 2019-01-01| n_20_2017_TT_BNNPTNT
   n_26_2025_TT_BNNMT -->|thay thế từ 2025-07-01| n_26_2022_TT_BNNPTNT
   n_26_2025_TT_BNNMT -->|bãi bỏ từ 2025-07-01| n_29_2019_TT_BNN
   n_26_2026_N__CP -->|thay thế từ 2026-01-17| n_113_2017_N__CP
