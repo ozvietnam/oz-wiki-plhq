@@ -391,7 +391,7 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 01061900,Tamandua mexicana; Tamandua; Thú ăn kiến ta-man,51,Phụ lục,KIEM_DICH_DONG_VAT,,(Guatemala),,31
 01061900,Elephas maximus; Asian elephant; Voi châu Á,243,Phụ lục,KIEM_DICH_DONG_VAT,,,,31
 01061900,Loxodonta africana; Africa elephant; Voi châu phi,244,Phụ lục,KIEM_DICH_DONG_VAT,,"(Trừ các quần thể của Botswana, Namibia, Nam Phi và Zimbabwe quy định trong Phụ lục II, thực hiện theo chú giảỉ A10)",,31
-01061900,Loxodonta africana Α10; Africa elephant; Voi châu phi (Chỉ áp dụng đối với các quần thể ở,98,Phụ lục,KIEM_DICH_DONG_VAT,,,,31
+01061900,"Loxodonta africana Α10; Africa elephant; Voi châu phi (Chỉ áp dụng đối với các quần thể ở Botswana, Nam Phi, Namibia và Zimbabwe; các quần thể khác được quy định tại Phụ lục I)",98,Phụ lục,KIEM_DICH_DONG_VAT,,,,31
 01061900,Chinchilla spp.Α1; Chinchillas; Các loài thuộc giống Chuột đuôi sóc Chinchilla,245,Phụ lục,KIEM_DICH_DONG_VAT,,,,32
 01061900,Cuniculus paca; Lowland paca; Chuột đuôi sóc trung mỹ,52,Phụ lục,KIEM_DICH_DONG_VAT,,(Honduras),,32
 01061900,Dasyprocta punctata; Common agouti; Chuột lang,53,Phụ lục,KIEM_DICH_DONG_VAT,,(Honduras),,33
@@ -412,14 +412,14 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 01062000,Caiman crocodilus apaporiensis; Rio Apaporis caiman; Cá sấu rio apaporis,247,Phụ lục,KIEM_DICH_DONG_VAT,,,,34
 01062000,Caiman latirostris; Broad-nosed (snouted) caiman; Cá sấu mũi rộng,248,Phụ lục,KIEM_DICH_DONG_VAT,,(Trừ quần thể của Argentina và BrazilΑ11 quy định tại Phụ lục II),,34
 01062000,Melanosuchus niger; Black caiman; Cá sấu đen,249,Phụ lục,KIEM_DICH_DONG_VAT,,(Trừ quần thể của Brazil và Ecuador Α12 quy định tại Phụ lục II),,34
-01062000,Crocodylus acutus; American crocodile; Cá sấu châu Mỹ (,250,Phụ lục,KIEM_DICH_DONG_VAT,,"Trừ quần thể của khu quản lý tổng hợp rừng ngập mặn Vịnh Cispata, Tinajones, La Balsa",,34
+01062000,"Crocodylus acutus; American crocodile; Cá sấu châu Mỹ (Trừ quần thể của khu quản lý tổng hợp rừng ngập mặn Vịnh Cispata, Tinajones, La Balsa và các khu vực xung quanh, khu vực Córdoba, Colombia, quần thể của Cuba và quần thể của MexicoΑ13 được quy định tại Phụ lục II)",250,Phụ lục,KIEM_DICH_DONG_VAT,,"(Trừ quần thể của khu quản lý tổng hợp rừng ngập mặn Vịnh Cispata, Tinajones, La Balsa và các khu vực xung quanh, khu vực Córdoba, Colombia, quần thể của Cuba và quần thể của MexicoΑ13 được quy định tại Phụ lục II)",,34
 01062000,Crocodylus cataphractus; African slender-snouted crocodile; Cá sấu mõm nhọn châu phi,251,Phụ lục,KIEM_DICH_DONG_VAT,,,,35
 01062000,Crocodylus intermedius; Orinoco crocodile; Cá sấu Orinoco,252,Phụ lục,KIEM_DICH_DONG_VAT,,,,35
 01062000,Crocodylus mindorensis; philippine crocodile; Cá sấu philipin,253,Phụ lục,KIEM_DICH_DONG_VAT,,,,35
 01062000,Crocodylus moreletii; Morelet’s crocodile; Cá sấu morelet,254,Phụ lục,KIEM_DICH_DONG_VAT,,(Trừ quần thể của BelizeΑ14 và quần thể của Mexico thuộc Phụ lục II),,35
 01062000,Crocodylus niloticus; African (Nile) crocodile; Cá sấu sông nile,255,Phụ lục,KIEM_DICH_DONG_VAT,,"(Trừ các quần thể của Botswana, Ai CậpΑ15, Ethiopia, Kenya, Madagascar, Malawi, Mozambique, Namibia, Nam Phi, Uganda, Cộng hòa TanzaniaΑ16, Zambia và Zimbabwe thuộc Phụ lục II)",,35
 01062000,Crocodylus palustris; Mugger (Marsh) crocodile; Cá sấu đầm lầy ấn độ,256,Phụ lục,KIEM_DICH_DONG_VAT,,,,35
-01062000,Crocodylus porosus; Saltwater crocodile; Cá sấu nước lợ (,257,Phụ lục,KIEM_DICH_DONG_VAT,,"(Cá sấu hoa cà); Trừ các quần thể của Australia, Indonesia, MalaysiaΑ17, Papua New",,35
+01062000,"Crocodylus porosus; Saltwater crocodile; Cá sấu nước lợ (Cá sấu hoa cà) (Trừ các quần thể của Australia, Indonesia, MalaysiaΑ17, Papua New Guinea và quần thể của quần đảo PalawanΑ18, Philippin quy định tại Phụ lục II)",257,Phụ lục,KIEM_DICH_DONG_VAT,,"(Cá sấu hoa cà); (Trừ các quần thể của Australia, Indonesia, MalaysiaΑ17, Papua New Guinea và quần thể của quần đảo PalawanΑ18, Philippin quy định tại Phụ lục II)",,35
 01062000,Crocodylus rhombifer; Cuban crocodile; Cá sấu cuba,258,Phụ lục,KIEM_DICH_DONG_VAT,,,,36
 01062000,Crocodylus siamensis; Siamese crocodile; Cá sấu nước ngọt,259,Phụ lục,KIEM_DICH_DONG_VAT,,(Cá sấu xiêm),,36
 01062000,Osteolaemus tetraspis; Dwarf crocodile; Cá sấu lùn,260,Phụ lục,KIEM_DICH_DONG_VAT,,,,36
@@ -446,7 +446,7 @@ ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang
 01062000,Goniurosaurus kuroiwae#18 (Nhật Bản),65,Phụ lục,KIEM_DICH_DONG_VAT,,,,39
 01062000,Goniurosaurus orientalis#18 (Nhật Bản),66,Phụ lục,KIEM_DICH_DONG_VAT,,,,39
 01062000,Goniurosaurus sengokui#18 (Nhật Bản),67,Phụ lục,KIEM_DICH_DONG_VAT,,,,39
-01062000,Goniurosaurus splendens#18 ((Nhật Bản),68,Phụ lục,KIEM_DICH_DONG_VAT,,,,39
+01062000,Goniurosaurus splendens#18 (Nhật Bản),68,Phụ lục,KIEM_DICH_DONG_VAT,,,,39
 01062000,Goniurosaurus toyamai#18 (Nhật Bản),69,Phụ lục,KIEM_DICH_DONG_VAT,,,,39
 01062000,Goniurosaurus yamashinae#18 (Nhật Bản),70,Phụ lục,KIEM_DICH_DONG_VAT,,,,39
 01062000,Carphodactylus spp.; Các loài tắc kè thuộc giống Carphodactylus,71,Phụ lục,KIEM_DICH_DONG_VAT,,(Australia),,39
