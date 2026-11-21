@@ -22,13 +22,13 @@ Tệp mã hoá UTF-8, có dòng tiêu đề, dùng dấu phẩy và ngoặc kép
 | Cột | Bắt buộc | Nội dung |
 |---|---|---|
 | `ma_hs` | có, trừ dòng dẫn chiếu | 4, 6 hoặc 8 chữ số, **không dấu chấm**. Ô in nhiều mã thì tách mỗi mã một dòng, giữ nguyên `mo_ta` |
-| `mo_ta` | có | Mô tả hàng **nguyên văn** trong phụ lục (gom khoảng trắng, tối đa ~300 ký tự) |
+| `mo_ta` | có | Mô tả hàng **nguyên văn** trong phụ lục (gom khoảng trắng, tối đa ~300 ký tự). Bắt buộc không rỗng; **không được bắt đầu bằng dấu `-`** (dòng con phải ghép ngữ cảnh nhóm cha bằng dấu `: `); **không để `"Loại khác"` cộc lốc** thiếu ngữ cảnh nhóm cha; **số dấu ngoặc đơn mở `(` và đóng `)` phải cân bằng** (`kiemDinhDang` chặn PR nếu vi phạm) |
 | `nhom` | | Số thứ tự hoặc nhóm như in trong phụ lục (`I.2`, `3`, `Chương 22`) |
 | `phu_luc` | | `Phụ lục I`, `Phụ lục II`…; phụ lục không đánh số thì ghi `Phụ lục` |
 | `loai_tac_dong` | có | `KIEM_TRA_ATTP`, `KIEM_TRA_CHAT_LUONG`, `KIEM_DICH_DONG_VAT`, `KIEM_DICH_THUC_VAT`, `GIAY_PHEP`, `CAM_NHAP_KHAU`, `CAM_XUAT_KHAU`, `CONG_BO_HOP_QUY`, `DANG_KY_LUU_HANH`, `PHONG_VE_THUONG_MAI`, `CAT_GIAM_KIEM_TRA` (danh mục hàng **được bỏ** kiểm tra — không phải nghĩa vụ), `KHAC` |
 | `muc_rui_ro` | | `CAO`, `TRUNG_BINH`, `THAP`, nếu phụ lục ghi (khung NĐ 37/2026) |
 | `dieu_kien` | | Giới hạn phạm vi in kèm dòng, ví dụ "trừ loại…", "chỉ áp dụng với…", ký hiệu "ex". Để trống nghĩa là **toàn bộ** mã |
-| `dan_chieu` | | Số hiệu văn bản khác chứa mã HS khi dòng **không ghi mã** mà dẫn sang. Ví dụ: 27/2026/TT-BYT ghi "Mã HS: theo 15/2024/TT-BYT" |
+| `dan_chieu` | | Số hiệu văn bản khác chứa mã HS khi dòng **không ghi mã** mà dẫn sang. Ví dụ: 27/2026/TT-BYT ghi "Mã HS: theo 15/2024/TT-BYT". **Không được ghi mã quy chuẩn `QCVN...` vào `dan_chieu`** (QCVN phải đặt ở `dieu_kien`; `dan_chieu` chỉ ghi số hiệu văn bản pháp luật để tránh sinh điểm mù giả `DAN_CHIEU_CHUA_CO_BANG`) |
 | `trang` | | Số trang (bắt đầu từ 1) trong bản PDF ghi ở `danh_muc_hs.nguon` |
 
 **Đọc kỹ tên văn bản trước khi chọn `loai_tac_dong`:** danh mục "đã qua sử dụng cấm nhập khẩu" thì mọi dòng phải có
