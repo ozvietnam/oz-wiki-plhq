@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-21
 
-2848 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2851 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -90,10 +90,11 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Kiểm tra, giám sát, kiểm soát hải quan `hai-quan/kiem-tra-giam-sat`
 
-44 văn bản, 32 chưa hết hiệu lực.
+47 văn bản, 35 chưa hết hiệu lực.
 
 - 🟢 [166/2026/TT-BTC](../registry/van-ban/166-2026-tt-btc.yaml) — Bãi bỏ một số thông tư liên tịch do Bộ trưởng Bộ Tài chính liên tịch ban hành liên quan đến lĩnh vực tài chính
 - 🟢 [66/2026/TT-BKHCN](../registry/van-ban/66-2026-tt-bkhcn.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 11/2015/TT-BKHCN ngày 26 tháng 6 năm 2015 của Bộ trưởng Bộ Khoa học và Công nghệ
+- 🟢 [25/VBHN-BKHCN](../registry/van-ban/25-vbhn-bkhcn-2026.yaml) — Văn bản hợp nhất Nghị định số 99/2013/NĐ-CP ngày 29 tháng 8 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp
 - 🟢 [128/2026/TT-BTC](../registry/van-ban/128-2026-tt-btc.yaml) — Quy định về kiểm tra, giám sát và quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh và phương tiện vận tải hoạt động trong khu vực cửa khẩu thông minh
 - 🟢 [186/2026/NĐ-CP](../registry/van-ban/186-2026-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 99/2013/NĐ-CP ngày 29 tháng 8 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp đã được sửa đổi, bổ sung một số điều theo Nghị định số 126/2021/NĐ-CP ngày 30 tháng 12 năm 2021 và Nghị định số 46/2024/NĐ-CP ngày 04 tháng 5 năm 2024 của Chính phủ
 - 🟢 [06/2026/TT-BTC](../registry/van-ban/06-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 13/2015/TT-BTC quy định về kiểm tra, giám sát, tạm dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo vệ quyền sở hữu trí tuệ
@@ -102,6 +103,8 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 - 🟢 [285/2025/NĐ-CP](../registry/van-ban/285-2025-nd-cp.yaml) — Bãi bỏ một số nghị định của Chính phủ
 - 🟢 [155/VBHN-VPQH](../registry/van-ban/155-vbhn-vpqh-2025.yaml) — Văn bản hợp nhất Luật Sở hữu trí tuệ
 - 🟢 [93/2025/QH15](../registry/van-ban/93-2025-qh15.yaml) — Luật Khoa học, công nghệ và đổi mới sáng tạo
+- 🟢 [04/VBHN-BKHCN](../registry/van-ban/04-vbhn-bkhcn-2024.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Nghị định số 99/2013/NĐ-CP ngày 29 tháng 8 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp
+- 🟢 [06/2024/TT-BKHCN](../registry/van-ban/06-2024-tt-bkhcn.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 11/2015/TT-BKHCN ngày 26 tháng 6 năm 2015 của Bộ trưởng Bộ Khoa học và Công nghệ quy định chi tiết và hướng dẫn thi hành một số điều của Nghị định số 99/2013/NĐ-CP ngày 29 tháng 8 năm 2013 của Chính phủ quy định về xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp
 - 🟢 [36/2024/QH15](../registry/van-ban/36-2024-qh15.yaml) — Luật Trật tự, an toàn giao thông đường bộ
 - 🟢 [46/2024/NĐ-CP](../registry/van-ban/46-2024-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 99/2013/NĐ-CP ngày 29 tháng 8 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp
 - 🟢 [34/2024/NĐ-CP](../registry/van-ban/34-2024-nd-cp.yaml) — Quy định Danh mục hàng hóa nguy hiểm, vận chuyển hàng hóa nguy hiểm bằng phương tiện giao thông cơ giới đường bộ và phương tiện thủy nội địa

@@ -26,6 +26,9 @@ flowchart LR
 
 ```mermaid
 flowchart LR
+  n_04_VBHN_BKHCN["04/VBHN-BKHCN<br/>còn hiệu lực"]
+  n_11_2015_TT_BKHCN["11/2015/TT-BKHCN<br/>còn hiệu lực"]
+  n_06_2024_TT_BKHCN["06/2024/TT-BKHCN<br/>còn hiệu lực"]
   n_06_2024_TT_BTC["06/2024/TT-BTC<br/>còn hiệu lực"]
   n_81_2019_TT_BTC["81/2019/TT-BTC<br/>còn hiệu lực"]
   n_06_2026_TT_BTC["06/2026/TT-BTC<br/>còn hiệu lực"]
@@ -62,6 +65,8 @@ flowchart LR
   n_32_2023_N__CP["32/2023/NĐ-CP<br/>hết hiệu lực"]
   n_25_2026_TT_BTC["25/2026/TT-BTC<br/>hết hiệu lực"]
   n_12_2015_TT_BTC["12/2015/TT-BTC<br/>hết hiệu lực"]
+  n_25_VBHN_BKHCN["25/VBHN-BKHCN<br/>còn hiệu lực"]
+  n_46_2024_N__CP["46/2024/NĐ-CP<br/>còn hiệu lực"]
   n_2538_Q__TCHQ["2538/QĐ-TCHQ<br/>còn hiệu lực"]
   n_1966_Q__TCHQ["1966/QĐ-TCHQ<br/>hết hiệu lực"]
   n_28_2017_N__CP["28/2017/NĐ-CP<br/>còn hiệu lực"]
@@ -78,14 +83,12 @@ flowchart LR
   n_39_2015_TT_BTC["39/2015/TT-BTC<br/>còn hiệu lực"]
   n_42_2005_QH11["42/2005/QH11<br/>hết hiệu lực"]
   n_29_2001_QH10["29/2001/QH10<br/>hết hiệu lực"]
-  n_46_2024_N__CP["46/2024/NĐ-CP<br/>còn hiệu lực"]
   n_54_2026_VBHN_TT_BTC["54/2026/VBHN-TT-BTC<br/>còn hiệu lực"]
   n_142_2026_TT_BTC["142/2026/TT-BTC<br/>còn hiệu lực"]
   n_54_VBHN_VPQH["54/VBHN-VPQH<br/>còn hiệu lực"]
   n_65_2023_N__CP["65/2023/NĐ-CP<br/>còn hiệu lực"]
   n_103_2006_N__CP["103/2006/NĐ-CP<br/>hết hiệu lực"]
   n_66_2026_TT_BKHCN["66/2026/TT-BKHCN<br/>còn hiệu lực"]
-  n_11_2015_TT_BKHCN["11/2015/TT-BKHCN<br/>còn hiệu lực"]
   n_76_VBHN_VPQH["76-VBHN/VPQH<br/>còn hiệu lực"]
   n_105_2016_QH13["105/2016/QH13<br/>còn hiệu lực"]
   n_28_2018_QH14["28/2018/QH14<br/>hết hiệu lực"]
@@ -93,6 +96,9 @@ flowchart LR
   n_464_Q__BTC["464/QĐ-BTC<br/>hết hiệu lực"]
   n_465_Q__BTC["465/QĐ-BTC<br/>hết hiệu lực"]
   n_83_2026_TT_BTC["83/2026/TT-BTC<br/>còn hiệu lực"]
+  n_04_VBHN_BKHCN -->|hợp nhất| n_11_2015_TT_BKHCN
+  n_04_VBHN_BKHCN -->|hợp nhất| n_06_2024_TT_BKHCN
+  n_06_2024_TT_BKHCN -->|sửa đổi từ 2024-11-15| n_11_2015_TT_BKHCN
   n_06_2024_TT_BTC -->|sửa đổi sửa Điều 10, 13, 14, 15, 17, 19, 20, 22, 26; bổ sung Điều 31a; sửa Điều 33 và cụm từ, khoản, phụ lục từ 2024-03-15| n_81_2019_TT_BTC
   n_06_2026_TT_BTC -->|sửa đổi từ 2026-03-01| n_13_2015_TT_BTC
   n_07_2022_QH15 -->|sửa đổi từ 2023-01-01| n_50_2005_QH11
@@ -118,6 +124,10 @@ flowchart LR
   n_2079_Q__TCHQ -->|thay thế từ 2021-07-19| n_583_Q__TCHQ
   n_211_2025_N__CP -->|bãi bỏ toàn bộ từ 2025-09-09| n_32_2023_N__CP
   n_25_2026_TT_BTC -->|sửa đổi từ 2026-05-10| n_12_2015_TT_BTC
+  n_25_VBHN_BKHCN -->|hợp nhất| n_99_2013_N__CP
+  n_25_VBHN_BKHCN -->|hợp nhất| n_126_2021_N__CP
+  n_25_VBHN_BKHCN -->|hợp nhất| n_46_2024_N__CP
+  n_25_VBHN_BKHCN -->|hợp nhất| n_186_2026_N__CP
   n_2538_Q__TCHQ -->|thay thế từ 2024-11-01| n_1966_Q__TCHQ
   n_28_2017_N__CP -->|sửa đổi từ 2017-05-05| n_131_2013_N__CP
   n_28_2017_N__CP -->|sửa đổi từ 2017-05-05| n_158_2013_N__CP
