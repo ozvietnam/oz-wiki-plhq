@@ -38,6 +38,64 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-09'
   boi: hermes
+  dieu_khoan:
+    - dieu: 1
+      khoan: 1
+      noi_dung: 'Phạm vi điều chỉnh: Thông tư này quy định về trị giá hải quan đối với hàng hóa xuất khẩu, nhập khẩu.'
+      trang_pdf: 1
+      sha256_pdf: 7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c
+    - dieu: 4
+      khoan: 1
+      noi_dung: 'Nguyên tắc: Trị giá hải quan là giá bán của hàng hóa tính đến cửa khẩu xuất không bao gồm phí bảo hiểm quốc tế (I), phí vận tải quốc tế (F), được xác định theo các phương pháp quy định tại khoản 2 Điều này.'
+      trang_pdf: 5
+      sha256_pdf: 7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c
+    - dieu: 5
+      khoan: 1
+      noi_dung: 'Nguyên tắc: Trị giá hải quan là giá thực tế phải trả tính đến cửa khẩu nhập đầu tiên, được xác định theo các phương pháp quy định tại khoản 2 Điều này.'
+      trang_pdf: 6
+      sha256_pdf: 7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c
+    - dieu: 5
+      khoan: 2
+      noi_dung: 'Phương pháp xác định: Giá thực tế phải trả tính đến cửa khẩu nhập đầu tiên được xác định bằng cách áp dụng tuần tự sáu phương pháp xác định trị giá hải quan quy định tại Điều 6, Điều 8, Điều 9, Điều 10, Điều 11, Điều 12 Thông tư này và dừng ngay ở phương pháp xác định được trị giá hải quan. Các phương pháp xác định trị giá hải quan bao gồm: a) Phương pháp trị giá giao dịch; b) Phương pháp trị giá giao dịch của hàng hóa nhập khẩu giống hệt; c) Phương pháp trị giá giao dịch của hàng hóa nhập khẩu tương tự; d) Phương pháp trị giá khấu trừ; đ) Phương pháp trị giá tính toán; e) Phương pháp suy luận. Trường hợp người khai hải quan đề nghị bằng văn bản thì trình tự áp dụng phương pháp trị giá khấu trừ và phương pháp trị giá tính toán có thể hoán đổi cho nhau.'
+      trang_pdf: 6
+      sha256_pdf: 7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c
+    - dieu: 6
+      khoan: 1
+      noi_dung: Trị giá giao dịch là giá thực tế đã thanh toán hay sẽ phải thanh toán cho hàng hóa nhập khẩu sau khi đã được điều chỉnh theo quy định tại Điều 13 và Điều 15 Thông tư này.
+      trang_pdf: 6
+      sha256_pdf: 7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c
+    - dieu: 13
+      khoan: 1
+      noi_dung: 'Chỉ điều chỉnh cộng nếu đáp ứng đủ các điều kiện sau: a) Do người mua thanh toán và chưa được tính trong trị giá thực tế đã thanh toán hay sẽ phải thanh toán; b) Phải liên quan đến hàng hóa nhập khẩu; c) Có số liệu khách quan, định lượng được, phù hợp với các chứng từ có liên quan. Trường hợp lô hàng nhập khẩu có các khoản điều chỉnh cộng nhưng không có các số liệu khách quan, định lượng được để xác định trị giá hải quan thì không xác định theo phương pháp trị giá giao dịch và phải chuyển sang phương pháp tiếp theo.'
+      trang_pdf: 18
+      sha256_pdf: 7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c
+    - dieu: 13
+      khoan: 2
+      diem: a
+      noi_dung: Chí phí hoa hồng bán hàng, phí môi giới. Trường hợp các chi phí này bao gồm các khoản thuế phải nộp ở Việt Nam thì không phải cộng các khoản thuế đó vào trị giá hải quan của hàng hóa nhập khẩu;
+      trang_pdf: 18
+      sha256_pdf: 7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c
+    - dieu: 14
+      khoan: 3
+      noi_dung: 'Chỉ điều chỉnh cộng phí bản quyền, phí giấy phép vào hàng hóa nhập khẩu nếu đáp ứng đủ các điều kiện sau: a) Người mua phải trả phí bản quyền, phí giấy phép cho việc sử dụng, chuyển giao các quyền sở hữu trí tuệ liên quan đến hàng hóa nhập khẩu theo quy định tại khoản 4 Điều này đang được xác định trị giá hải quan; b) Phí bản quyền, phí giấy phép do người mua phải trả trực tiếp hoặc gián tiếp như một điều kiện cho giao dịch mua bán hàng hóa theo quy định tại khoản 6 Điều này đang được xác định trị giá hải quan thể hiện trên hợp đồng mua bán hàng hóa, hợp đồng cấp phép hoặc các thỏa thuận khác về chuyển giao quyền sở hữu trí tuệ; c) Chưa được tính trong giá thực tế đã thanh toán hay sẽ phải thanh toán của hàng hóa nhập khẩu đang được xác định trị giá hải quan.'
+      trang_pdf: 23
+      sha256_pdf: 7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c
+    - dieu: 15
+      khoan: 1
+      noi_dung: 'Chỉ được điều chỉnh trừ nếu đáp ứng đủ các điều kiện sau: a) Có số liệu khách quan, định lượng được phù hợp với các chứng từ hợp pháp liên quan và có sẵn tại thời điểm xác định trị giá; b) Đã được tính trong giá thực tế đã thanh toán hay sẽ phải thanh toán; c) Phù hợp với quy định của pháp luật về kế toán Việt Nam.'
+      trang_pdf: 26
+      sha256_pdf: 7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c
+    - dieu: 15
+      khoan: 2
+      diem: a
+      noi_dung: Chi phí cho những hoạt động phát sinh sau khi nhập khẩu hàng hóa bao gồm các chi phí về xây dựng, kiến trúc, lắp đặt, bảo dưỡng hoặc trợ giúp kỹ thuật, tư vấn kỹ thuật, chi phí giám sát và các chi phí tương tự;
+      trang_pdf: 26
+      sha256_pdf: 7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c
+    - dieu: 26
+      khoan: 1
+      noi_dung: Thông tư này có hiệu lực thi hành kể từ ngày 01/4/2015.
+      trang_pdf: 37
+      sha256_pdf: 7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c
 ghi_chu: "Khởi tạo 2026-10-04 từ hiểu biết nền (cursor-agent). 2026-10-09: đọc xong 21 Điều + Phụ lục I, II. Bị sửa bởi 60/2019/TT-BTC."
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=179552&pageid=27160

@@ -26,5 +26,20 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      khoan: 1
+      noi_dung: 'Bãi bỏ điểm c khoản 2 Điều 3 Thông tư số 01/2018/TT-BCT.'
+      trang_pdf: 1
+      sha256_pdf: 89a825d7012b59b87df57b5a47226f8b6435e16b99fb6352c7f22a9a25ab938f
+    - dieu: 1
+      khoan: 2
+      noi_dung: 'Thay thế Phụ lục I ban hành kèm theo Thông tư số 01/2018/TT-BCT bằng Phụ lục ban hành kèm theo Thông tư này.'
+      trang_pdf: 1
+      sha256_pdf: 89a825d7012b59b87df57b5a47226f8b6435e16b99fb6352c7f22a9a25ab938f
+    - dieu: 2
+      noi_dung: 'Thông tư này có hiệu lực thi hành kể từ ngày 21 tháng 7 năm 2025.'
+      trang_pdf: 2
+      sha256_pdf: 89a825d7012b59b87df57b5a47226f8b6435e16b99fb6352c7f22a9a25ab938f
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 2015 mã HS).
 toan_van: raw/download/congbaocdn.chinhphu.vn/33-2025-tt-bct.pdf

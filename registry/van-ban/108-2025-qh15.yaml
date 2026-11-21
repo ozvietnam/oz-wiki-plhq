@@ -27,6 +27,59 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-20'
   boi: zcode@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Luật này quy định việc quản lý các loại thuế, các khoản thu khác thuộc ngân sách nhà nước.
+      trang_pdf: 1
+      sha256_pdf: 40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d
+    - dieu: 12
+      khoan: 6
+      noi_dung: Đối với hàng hóa xuất khẩu, nhập khẩu thì hồ sơ hải quan theo quy định của Luật Hải quan được sử dụng làm hồ sơ khai thuế. Việc khai thuế, khai bổ sung, thời hạn nộp hồ sơ khai thuế, cơ quan hải quan tiếp nhận hồ sơ khai thuế, tỷ giá tính thuế đối với hàng hóa xuất khẩu, hàng hóa nhập khẩu thực hiện theo quy định của pháp luật về hải quan.
+      trang_pdf: 11
+      sha256_pdf: 40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d
+    - dieu: 24
+      khoan: 1
+      noi_dung: 'Nguyên tắc ấn định thuế: a) Ấn định thuế phải dựa trên các nguyên tắc quản lý thuế, căn cứ tính, phương pháp tính thuế theo quy định của pháp luật về thuế, pháp luật về hải quan; b) Cơ quan quản lý thuế ấn định số tiền thuế phải nộp hoặc ấn định từng yếu tố, căn cứ tính thuế để xác định số tiền thuế phải nộp.'
+      trang_pdf: 30
+      sha256_pdf: 40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d
+    - dieu: 25
+      khoan: 1
+      diem: đ
+      noi_dung: Cơ quan hải quan có đủ bằng chứng, căn cứ xác định về việc khai báo trị giá, mã số, xuất xứ hàng hóa không đúng với thực tế, ảnh hưởng đến số thuế phải nộp, ưu đãi;
+      trang_pdf: 31
+      sha256_pdf: 40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d
+    - dieu: 44
+      khoan: 2
+      diem: b
+      noi_dung: Trường hợp người nộp thuế có hành vi khai sai quy định tại khoản 3 Điều 45 của Luật này nhưng đã khai bổ sung trước thời điểm cơ quan hải quan thông báo việc kiểm tra trực tiếp hồ sơ hải quan đối với hàng hóa đang làm thủ tục hải quan; người nộp thuế khai bổ sung trong thời hạn 60 ngày kể từ ngày thông quan và trước thời điểm quyết định thanh tra, kiểm tra đối với hàng hóa đã thông quan, kiểm tra sau thông quan và các trường hợp khác theo quy định của Chính phủ.
+      trang_pdf: 57
+      sha256_pdf: 40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d
+    - dieu: 44
+      khoan: 3
+      noi_dung: 'Việc áp dụng mức phạt tiền trong xử phạt vi phạm hành chính về quản lý thuế được thực hiện như sau: a) Phạt 10% tính trên số tiền thuế khai thiếu số tiền thuế phải nộp hoặc số tiền thuế khai tăng trong trường hợp được miễn, giảm, hoàn, không thu thuế đối với hành vi quy định tại điểm a khoản 3 Điều 45 của Luật này; b) Phạt 20% tính trên số tiền thuế khai thiếu số tiền thuế phải nộp hoặc số tiền thuế khai tăng trong trường hợp được miễn, giảm, hoàn, không thu thuế đối với hành vi quy định tại khoản 2 và điểm b, điểm c khoản 3 Điều 45 của Luật này; c) Phạt từ 01 lần đến 03 lần số tiền thuế trốn đối với hành vi quy định tại khoản 4 Điều 45 của Luật này.'
+      trang_pdf: 57
+      sha256_pdf: 40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d
+    - dieu: 44
+      khoan: 7
+      noi_dung: Đối với hành vi vi phạm thủ tục thuế thì thời hiệu xử phạt là 02 năm. Đối với hành vi trốn thuế chưa đến mức truy cứu trách nhiệm hình sự, hành vi khai sai dẫn đến thiếu số tiền thuế phải nộp hoặc tăng số tiền thuế được miễn, giảm, hoàn, không thu thì thời hiệu xử phạt là 05 năm. Thời điểm để tính thời hiệu xử phạt vi phạm hành chính thực hiện theo quy định của pháp luật về xử lý vi phạm hành chính.
+      trang_pdf: 58
+      sha256_pdf: 40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d
+    - dieu: 45
+      khoan: 4
+      diem: e
+      noi_dung: Khai sai với thực tế hàng hóa xuất khẩu, nhập khẩu mà cá nhân, tổ chức vi phạm không tự nguyện khắc phục hậu quả bằng cách nộp đủ số tiền thuế phải nộp theo quy định;
+      trang_pdf: 59
+      sha256_pdf: 40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d
+    - dieu: 52
+      khoan: 1
+      noi_dung: Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026, trừ quy định tại khoản 2 Điều này.
+      trang_pdf: 64
+      sha256_pdf: 40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d
+    - dieu: 52
+      khoan: 3
+      noi_dung: Luật Quản lý thuế số 38/2019/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 56/2024/QH15 (sau đây gọi là Luật Quản lý thuế số 38/2019/QH14) hết hiệu lực thi hành kể từ ngày Luật này có hiệu lực thi hành, trừ quy định tại khoản 1 và khoản 3 Điều 53 của Luật này; riêng quy định tại Điều 51 của Luật Quản lý thuế số 38/2019/QH14 hết hiệu lực thi hành kể từ ngày 01 tháng 01 năm 2026.
+      trang_pdf: 64
+      sha256_pdf: 40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d
 ghi_chu: Thay thế Luật QLT 38/2019/QH14 và Luật 56/2024/QH15. Riêng Điều 13 và Điều 26 có lộ trình hiệu lực riêng (chưa đọc chi tiết — kiểm tra khi trích). NĐ 254/2026/NĐ-CP (30-06-2026) hướng dẫn phần hóa đơn điện tử.
 tu_khoa: [thue, an-dinh-thue, quan-ly-thue]
 toan_van: raw/download/congbaocdn.chinhphu.vn/2026/1/24/108-2025-qh15.pdf

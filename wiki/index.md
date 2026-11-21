@@ -17,9 +17,11 @@ _This catalog is updated by /lumi-ingest and /lumi-init._
 - [[concepts/doc-tinh-trang-hieu-luc]] — Thay thế, sửa đổi, bãi bỏ, tạm ngưng khác nhau thế nào
 - [[concepts/co-quan-tiep-nhan-sau-sap-nhap]] — Bảng ánh xạ 5 nhóm cơ quan kế thừa sau sáp nhập 2025–2026 (`BNNMT`, `BKHCN`, `BXD`, `BNV`, `CHQ`)
 - [[concepts/thu-tuc-hai-quan-xnk]] — Luật / NĐ / TT thủ tục hải quan và chỉ tiêu khai
+- [[concepts/thu-tuc-tai-cua-khau-nhap]] — Danh mục 12 nhóm hàng nhập khẩu phải làm thủ tục tại cửa khẩu nhập từ 14/8/2026 (QĐ 31/2026/QĐ-TTg)
 - [[concepts/mo-ta-hang-hoa-khai-bao]] — Ô mô tả hàng hóa trên tờ khai: chỉ tiêu 1.78 (TT 121/2025) + ví dụ mô tả sơ sài (CV 755/2020)
 - [[concepts/phan-loai-ma-hs]] — Quy trình phân loại và danh mục mã HS
 - [[concepts/thue-gtgt-hang-nhap-khau]] — Chính sách GTGT 8%/10% khâu nhập (NĐ 174/2025)
+- [[concepts/thue-chong-ban-pha-gia-thep]] — Khung PVTM NĐ 86/2025/NĐ-CP và 7 quyết định thép còn hiệu lực (kèm điểm mù PDF scan)
 - [[concepts/nhan-hang-hoa-nhap-khau]] — Nhãn hàng hoá sau 23/01/2026 (điểm mù)
 - [[concepts/thuoc-theo-luat-duoc-2016]] — Thuốc theo Luật Dược 2016: định nghĩa, phân loại, hệ quả HS
 - [[concepts/duoc-lieu-theo-luat-duoc-2016]] — Dược liệu: định nghĩa, nguồn gốc, cách phân loại theo mức chế biến
@@ -81,6 +83,8 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[concepts/thiet-bi-pccc]]
 - [[concepts/mo-ta-hang-hoa-khai-bao]] — Ô mô tả hàng hóa (chỉ tiêu 1.78) và ví dụ mô tả sơ sài
 - [[concepts/thu-tuc-hai-quan-xnk]]
+- [[concepts/thu-tuc-tai-cua-khau-nhap]]
+- [[concepts/thue-chong-ban-pha-gia-thep]]
 - [[concepts/thue-gtgt-hang-nhap-khau]]
 - [[concepts/thuoc-bvtv-nhap-khau]]
 - [[concepts/thuoc-theo-luat-duoc-2016]]
