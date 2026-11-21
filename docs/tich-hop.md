@@ -1,25 +1,33 @@
-# Dùng sổ đăng ký trong ứng dụng khác
+# Dùng sổ đăng ký và gói tri thức trong ứng dụng khác
 
-Kho này xuất `dist/registry.json` (dựng bằng `npm run dung`, tự cập nhật mỗi thứ Hai). Ứng dụng khác chỉ
-**đọc** tệp này; muốn sửa dữ liệu thì mở PR vào `registry/` — không sửa bản chụp ở phía ứng dụng.
+Kho này xuất bộ dữ liệu máy `dist/` (phiên bản lược đồ `1.5.0`, dựng bằng `npm run dung`, tự cập nhật sau mỗi lần gộp PR và mỗi thứ Hai). Ứng dụng khác chỉ **đọc** các tệp này; muốn sửa dữ liệu thì mở PR vào `registry/`, `danh-muc/`, `wiki/` hoặc `data/doc-hieu/` — không sửa bản chụp ở phía ứng dụng.
 
-URL ổn định: `https://raw.githubusercontent.com/ozvietnam/oz-wiki-plhq/main/dist/registry.json`
-(hợp đồng: URL này luôn khớp `registry/` — bot dựng lại ngay sau mỗi lần gộp).
+> Ranh giới dữ liệu giữa `oz-wiki-plhq`, `hs-code-api` và Cổng MCP (`ozplugin`): xem **[SO-DO-HE-THONG.md](SO-DO-HE-THONG.md)**. Kho này **không** xuất `chu-giai-chuong.json` hay `chu-giai-hs.json` ra `dist/` (GIR và chú giải HS thuộc `hs-code-api`).
+
+URL ổn định trên nhánh `main`: `https://raw.githubusercontent.com/ozvietnam/oz-wiki-plhq/main/dist/registry.json` (tương tự cho các tệp `dist/*.json` khác — bot dựng lại ngay sau mỗi lần gộp).
 
 ## Phát hành ổn định (bản chụp gắn thẻ)
 
-Ngoài URL `main`, mỗi lần nội dung hai tệp máy **đổi**, workflow `dung-lai-va-bao-hs-code-api` tạo một
-GitHub Release gắn thẻ `dist-YYYY-MM-DD` (hậu tố `.N` nếu trùng ngày), đính kèm `registry.json`,
-`hs-index.json` và `SHA256SUMS`. Ba loại URL, hợp đồng như sau:
+Ngoài URL `main`, mỗi lần **bất kỳ** tệp nào trong gói `dist/` **đổi** so với `HEAD`, workflow `dung-lai-va-bao-hs-code-api` (`.github/workflows/bao-hs-code-api.yml`) tạo một GitHub Release gắn thẻ `dist-YYYY-MM-DD` (hậu tố `.N` nếu trùng ngày), đính kèm đủ bộ 7 tệp dữ liệu máy cùng bản băm:
+
+- `registry.json`
+- `hs-index.json`
+- `hs-index-theo-ma.json`
+- `wiki-index.json`
+- `wiki-chunks.json`
+- `dieu-khoan.json`
+- `cas-index.json`
+- `SHA256SUMS`
+
+Ba loại URL, hợp đồng như sau:
 
 | URL | Đổi hay không |
 |---|---|
-| `…/releases/download/dist-YYYY-MM-DD[.N]/registry.json` | **Bất biến** — bản cũ không bị xoá, quay lại được khi bản mới lỗi |
-| `…/releases/latest/download/registry.json` (và `…/hs-index.json`) | Đổi trỏ theo **mỗi** lần phát hành — cho bên muốn luôn bản mới nhưng không phụ thuộc `main` |
-| `raw.githubusercontent.com/…/main/dist/…` | Luôn khớp `registry/` — giữ cho bên đang dùng, không xoá |
+| `…/releases/download/dist-YYYY-MM-DD[.N]/<tep>.json` | **Bất biến** — bản cũ không bị xoá, quay lại được khi bản mới lỗi |
+| `…/releases/latest/download/<tep>.json` | Đổi trỏ theo **mỗi** lần phát hành — cho bên muốn luôn bản mới nhưng không phụ thuộc `main` |
+| `raw.githubusercontent.com/…/main/dist/<tep>.json` | Luôn khớp nguồn trên `main` — giữ cho bên đang dùng, không xoá |
 
-Không tạo release nếu hai tệp không đổi. Kiểm tải về bằng `SHA256SUMS` đính kèm; kiểm cấu trúc bằng
-`luoc_do_phien_ban` (so major — xem [Cấu trúc](#cấu-trúc) bên dưới).
+Không tạo release nếu toàn bộ 7 tệp `dist/*.json` không đổi. Kiểm tải về bằng `SHA256SUMS` đính kèm; kiểm cấu trúc bằng `luoc_do_phien_ban` (so major — xem [Cấu trúc](#cấu-trúc) bên dưới).
 
 Giấy phép **CC BY 4.0** — chuỗi ghi nguồn chuẩn (thống nhất 13/10/2026, dùng đúng chuỗi này ở mọi sản phẩm
 dẫn dữ liệu kho, kèm ngày `phien_ban` của bản đang dùng):
@@ -28,8 +36,8 @@ dẫn dữ liệu kho, kèm ngày `phien_ban` của bản đang dùng):
 
 ## Cấu trúc
 
-Hai tệp máy `dist/registry.json` và `dist/hs-index.json` đều mang `luoc_do_phien_ban` — số semver của
-**cấu trúc** (riêng với `phien_ban` là ngày dựng; ngày này đổi mỗi lần dựng, không đổi cấu trúc). Bên đọc
+Tất cả 7 tệp máy trong `dist/` đều mang `luoc_do_phien_ban` — số semver chung của
+**cấu trúc** (hiện tại `1.5.0` trong `tools/lib/registry.mjs`; riêng `phien_ban` là ngày dựng). Bên đọc
 so **major**: lệch major thì từ chối bản chụp và báo lỗi, thay vì trả sai tình trạng hiệu lực. Lịch sử
 lược đồ: [docs/luoc-do-so-dang-ky.md](luoc-do-so-dang-ky.md#lịch-sử-lược-đồ-tệp-máy).
 
@@ -99,6 +107,44 @@ Từ **1.2.0** tệp này thêm ba khối đồng bộ quan điểm phân loại
 | `canh_bao_ma` | Nhóm mã **không có trong biểu thuế** (mã AHTN cũ hoặc trích lệch — vd `28389000` của 09/2024/TT-BYT) | Tra ra khoá này thì **dừng**, không kết luận diện áp; đối chiếu văn bản gốc |
 | `tien_le_tb_tchq` | Mật độ thông báo phân loại Tổng cục: `theo_ma_8` (721 mã 8 số, customs.gov.vn) + `theo_nhom_4` (397 nhóm, tracuuhs) | Chỉ tham khảo — văn bản cá biệt bậc C; tra chi tiết `npm run tien-le` |
 
+### Gói dữ liệu mới từ `1.5.0` phục vụ Cổng MCP hỏi đáp PLHQ (`ozplugin`)
+
+Từ phiên bản lược đồ `1.5.0`, `npm run dung` xuất thêm 4 tệp JSON chuyên dụng cho hỏi đáp pháp luật hải quan trên Cổng MCP (mọi tệp đều kèm `phien_ban`, `luoc_do_phien_ban`, `giay_phep`, `mien_tru`):
+
+#### 1. `dist/wiki-index.json` & `dist/wiki-chunks.json` (chỉ mục & đoạn wiki có neo hiệu lực)
+
+Sinh từ `wiki/summary/*.md`, `wiki/concepts/*.md`, `wiki/sources/*.md` (bỏ qua `wiki/graph`, `index.md`, `log.md`, `chuan-mau-wiki-source.md`). Mục `## ` dài > 2.000 ký tự trong `wiki-chunks.json` được tách tiếp theo `### ` và giữ tên mục cha dạng `"<Mục ##> > <Mục ###>"`.
+
+- **Đầu tệp chung:** `phien_ban`, `luoc_do_phien_ban`, `giay_phep`, `ghi_nguon_chuan`, `mien_tru`, `tong`.
+- **`wiki-index.json` → `trang[]`:** `{ slug, duong_dan, loai_trang, tieu_de, created, updated, tags, confidence, so_chunks, van_ban_lien_quan, canh_bao_hieu_luc }`.
+- **`wiki-chunks.json` → `chunks[]`:** `{ chunk_id, slug, duong_dan, loai_trang, tieu_de, muc, noi_dung, tags, confidence, van_ban_lien_quan, canh_bao_hieu_luc }`, với `chunk_id` dạng `<slug>#<idx>` và `loai_trang` thuộc `summary | concepts | sources`.
+- **Mỗi phần tử trong `van_ban_lien_quan[]`:** `{ so_hieu, tinh_trang, hieu_luc_tu, het_hieu_luc_tu, hieu_luc_da_doi_chieu, bi_thay_the_boi, bi_bai_bo_boi, nguon_a }`.
+- **Quy tắc dùng bắt buộc cho bên đọc:**
+  1. Nếu `canh_bao_hieu_luc === true` (chunk thuộc `summary`/`concepts` nhắc văn bản `HET_HIEU_LUC` khác `THONG_BAO` mà trang chưa nhắc văn bản thay/bãi bỏ và thiếu ngữ cảnh lịch sử): **không dùng đoạn đó làm kết luận quy định hiện hành** — kiểm `van_ban_lien_quan[]` để dẫn sang `bi_thay_the_boi` / `bi_bai_bo_boi` hoặc cảnh báo người dùng đối chiếu `nguon_a`.
+  2. Luôn đọc `van_ban_lien_quan[]` kèm theo chunk để hiển thị tình trạng hiệu lực và cờ `hieu_luc_da_doi_chieu` của các văn bản được viện dẫn.
+
+#### 2. `dist/dieu-khoan.json` (điều khoản pháp luật tách 2 tầng tin cậy)
+
+Phân tách tuyệt đối hai tầng dữ liệu điều khoản để Cổng MCP **không trộn nháp LLM với nguyên văn đã xác minh**:
+
+- **Đầu tệp:** `phien_ban`, `luoc_do_phien_ban`, `giay_phep`, `mien_tru`, `canh_bao_tang_nhap`, `thong_ke` (`so_van_ban_nguon_a`, `so_dieu_khoan_nguon_a`, `so_van_ban_tom_tat_nhap`, `so_dieu_khoan_tom_tat_nhap`, `so_tep_doc_hieu`, `so_dong_loi`).
+- **Tầng 1 — `nguyen_van_nguon_a[]`** (từ `xac_minh.dieu_khoan` trong `registry/van-ban/*.yaml`):
+  - Trường: `so_hieu`, `slug`, `ten`, `tinh_trang`, `hieu_luc_tu`, `het_hieu_luc_tu`, `hieu_luc_da_doi_chieu`, `nguon_a`, `tang_tin_cay: "NGUYEN_VAN_NGUON_A"`, `dieu_khoan[]` (`dieu`, `noi_dung` nguyên văn; tuỳ chọn `khoan`, `diem`, `trang_pdf`, `sha256_pdf`).
+  - **Quy tắc dùng:** **được trích dẫn trực tiếp làm căn cứ pháp lý** trong câu trả lời, kèm `nguon_a`.
+- **Tầng 2 — `tom_tat_nhap[]`** (từ `data/doc-hieu/*.dieu.jsonl` do LLM trích tự động, đã chuẩn hoá hậu tố `-body`, `-ocr`, `-tiep`, `-toanvan` về slug văn bản):
+  - Trường: `so_hieu`, `slug`, `tinh_trang`, `hieu_luc_tu`, `het_hieu_luc_tu`, `nguon_a`, `tang_tin_cay: "TOM_TAT_NHAP"`, `da_soat: false`, `dieu_khoan[]` (`dieu`, `ten`, `tom_tat`, `nghia_vu_xnk[]`, `nguon_trich`, `da_soat: false`).
+  - **Quy tắc dùng:** **CHỈ dùng để định vị điều luật / nghĩa vụ liên quan; TUYỆT ĐỐI KHÔNG trích làm nguyên văn hay khẳng định căn cứ pháp lý.** Khi dùng phải hiện cảnh báo theo `canh_bao_tang_nhap` và dẫn link `nguon_a` để người dùng mở bản gốc.
+
+#### 3. `dist/cas-index.json` (tra cứu hóa chất theo mã CAS)
+
+Dựng từ mọi bảng `danh-muc/*-cas.csv` đã qua kiểm chuẩn 11 cột `kiemDanhMucCas` (hiện gồm `danh-muc/24-2026-nd-cp-cas.csv` của NĐ `24/2026/NĐ-CP`):
+
+- **Đầu tệp:** `phien_ban`, `luoc_do_phien_ban`, `giay_phep`, `mien_tru`, `thong_ke` (`so_tep`, `so_tep_loi`, `tong_dong`, `so_dong_co_cas`, `so_ma_cas_duy_nhat`, `so_dong_khong_co_cas`).
+- **Dữ liệu tra cứu:**
+  - `theo_cas`: map `<mã CAS>` → mảng các mục `{ cas, ten_chat, ma_hoa_chat, cong_thuc, phan_loai, phu_luc, muc, so_thu_tu, nhom, nguong_kg, nguon, so_hieu, slug, tinh_trang, hieu_luc_tu, het_hieu_luc_tu, hieu_luc_da_doi_chieu, nguon_a, tep }`.
+  - `khong_co_cas[]`: danh sách các dòng phụ lục không có mã CAS cố định (cấu trúc trường tương tự, `cas: null`).
+- **Quy tắc dùng:** Một mã CAS có thể thuộc nhiều phụ lục cùng lúc (I, II, III, IV), nên cần đọc trọn mảng `theo_cas[cas]` và kèm quy tắc ngưỡng/hỗn hợp của văn bản nguồn (vd `danh-muc/24-2026-nd-cp-cas-quy-tac.md`); tìm thêm trong `khong_co_cas[]` theo tên chất khi tra nhóm chất không có mã CAS.
+
 
 ## Quy tắc khi dùng
 
@@ -108,7 +154,8 @@ Từ **1.2.0** tệp này thêm ba khối đồng bộ quan điểm phân loại
    được đối chiếu nguồn A — hiển thị như cảnh báo cần kiểm lại, không như kết luận.
 3. **Không tự suy hiệu lực từ ngày**: dùng `tinh_trang` + `het_hieu_luc_tu`; quan hệ có `pham_vi` là tác
    động một phần.
-4. Thấy sai → mở issue mẫu "Sai hiệu lực" ở kho này.
+4. **Tôn trọng cờ hiệu lực wiki & phân tầng điều khoản (`1.5.0`):** không kết luận từ chunk có `canh_bao_hieu_luc: true`; không trích `TOM_TAT_NHAP` như nguyên văn căn cứ pháp lý.
+5. Thấy sai → mở issue mẫu "Sai hiệu lực" ở kho này.
 
 ## Ứng dụng đang dùng
 
@@ -116,6 +163,7 @@ Từ **1.2.0** tệp này thêm ba khối đồng bộ quan điểm phân loại
   `data/plhq-registry.json`; `/api/tax` trả `legalBasisRegistry` (hiệu lực từng văn bản mà cột chính sách
   của mã HS dẫn) và đưa văn bản hết hiệu lực/tạm ngưng vào `policyBasisReview`. `scripts/bench-plhq.mjs` đo
   độ phủ trên toàn biểu thuế và in danh sách văn bản cần kho này đối chiếu trước (theo số mã HS chịu ảnh hưởng).
+- **Cổng MCP `ozplugin` ("Cổng OZ")** — tiêu thụ trọn gói `dist/` `1.5.0` cho hỏi đáp PLHQ (hiệu lực VBQPPL, danh mục HS/CAS, wiki chunks, điều khoản), phối hợp với `hs-code-api` cho phân loại HS, biểu thuế và tiền lệ (xem [docs/yeu-cau/ozplugin.md](yeu-cau/ozplugin.md) và [docs/SO-DO-HE-THONG.md](SO-DO-HE-THONG.md)).
 
 ### Cầu nối tự động hai chiều
 

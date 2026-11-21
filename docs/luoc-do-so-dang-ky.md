@@ -44,6 +44,12 @@ xac_minh:
     ma: THIEU_PDF_A              # THIEU_PDF_A | THIEU_DIEU_THI_HANH_A | THIEU_BAI_TUONG_MINH | SO_HIEU_LECH | CHO_CONG_BO_A
     ngay: 2026-10-04             # ngày kết luận chặn
     viec_tiep: "Chờ PVTM đăng PDF; săn lại khi có tin mới"
+  dieu_khoan:                    # tuỳ chọn — điều khoản nguyên văn bậc A ({ dieu >= 1, noi_dung, khoan?, diem?, trang_pdf?, sha256_pdf? })
+    - dieu: 4
+      khoan: 1
+      noi_dung: "Một mặt hàng có một mã số duy nhất..."
+  nguon_rieng_tu:                # tuỳ chọn — nguồn bản quyền do bên thứ ba (hs-code-api) giữ riêng, không nạp vào kho công khai
+    wco_compendium: "hs-code-api (xử lý nội bộ, không nạp công khai)"
 ghi_chu: "..."
 tu_khoa: [banh-keo, attp]        # tuỳ chọn
 ```
@@ -51,6 +57,17 @@ tu_khoa: [banh-keo, attp]        # tuỳ chọn
 **`xac_minh.chan`:** khi đã săn hết đường nguồn A khả thi mà vẫn chưa đặt `hieu_luc_da_doi_chieu: true`,
 ghi chặn để điểm mù chuyển sang `HS_API_CHO_MO_CHAN` (Thấp) thay vì giữ `HS_API_UU_TIEN_DOI_CHIEU` (Cao).
 Chạy `node tools/san-hieu-luc.mjs` để xem hàng đợi còn làm được. Xóa `chan` khi đã đối chiếu xong.
+
+**`xac_minh.dieu_khoan`:** danh sách điều khoản có cấu trúc trích nguyên văn từ nguồn bậc A (ví dụ trong
+`registry/van-ban/85-2026-tt-btc.yaml`, `19-2026-qh16.yaml`). Mỗi phần tử là object bắt buộc có `dieu`
+(số nguyên `>= 1`) và `noi_dung` (chuỗi không rỗng), có thể kèm `khoan`, `diem`, `trang_pdf`, `sha256_pdf`;
+`tools/kiem-tra.mjs` kiểm định dạng. Từ `1.5.0`, các điều khoản này được xuất vào tầng `NGUYEN_VAN_NGUON_A`
+của `dist/dieu-khoan.json`.
+
+**`xac_minh.nguon_rieng_tu`:** map `{ key: mô_tả }` (mỗi giá trị là chuỗi mô tả không rỗng; ví dụ
+`wco_compendium`, `ahtn_sen` ở `85-2026-tt-btc.yaml`) đánh dấu tài liệu tham chiếu có bản quyền do
+`hs-code-api` giữ riêng tư, không nạp vào kho công khai. Khi có khoá tương ứng, `tools/diem-mu.mjs` bỏ qua
+điểm mù `THIEU_NGUON_WCO_COMPENDIUM` / `THIEU_NGUON_AHTN` (xem [SO-DO-HE-THONG.md](SO-DO-HE-THONG.md)).
 
 **`loai`:** `HIEN_PHAP`, `LUAT`, `NGHI_QUYET`, `PHAP_LENH`, `NGHI_DINH`, `QUYET_DINH`, `THONG_TU`,
 `THONG_TU_LIEN_TICH`, `CHI_THI`, `CONG_VAN`, `THONG_BAO`, `VAN_BAN_HOP_NHAT`, `DIEU_UOC`, `TIEU_CHUAN`, `KHAC`.
@@ -68,8 +85,8 @@ số hiệu, không chu trình thay thế, `NGUON_A` / `hieu_luc_da_doi_chieu: t
 
 ## Lịch sử lược đồ (tệp máy)
 
-`dist/registry.json` và `dist/hs-index.json` mang `luoc_do_phien_ban` (semver, hai tệp dùng chung một hằng
-số trong `tools/lib/registry.mjs`); `phien_ban` vẫn là ngày dựng. Bên đọc so **major**: lệch major thì từ
+`dist/*.json` mang `luoc_do_phien_ban` (semver, mọi tệp máy dùng chung một hằng
+số `LUOC_DO_PHIEN_BAN` trong `tools/lib/registry.mjs`); `phien_ban` vẫn là ngày dựng. Bên đọc so **major**: lệch major thì từ
 chối bản chụp và báo lỗi, thay vì trả sai tình trạng hiệu lực. Quy ước:
 
 - Đổi **phá vỡ** — đổi tên/xoá trường, đổi nghĩa hoặc kiểu giá trị, đổi tên giá trị liệt kê
@@ -84,3 +101,4 @@ chối bản chụp và báo lỗi, thay vì trả sai tình trạng hiệu lự
 | 1.2.0 | 2026-10-13 | `hs-index-theo-ma.json`: thêm `bieu_thue_doi_chieu` + `canh_bao_ma` (nhóm mã ngoài biểu thuế), `tien_le_tb_tchq` (mật độ TB-TCHQ theo mã 8 số / nhóm 4 số), `tong_canh`; gộp cạnh trùng toàn trường (13.543 → 9.900) |
 | 1.3.0 | 2026-10-14 | Thêm trường tuỳ chọn TB-TCHQ: `loai_phan_loai` / `loai_phan_loai_can_cu` / `loai_phan_loai_ngay` (3 nhóm nghiệp vụ + `CHUA_XAC_DINH`). Không đổi trường bắt buộc — minor |
 | 1.4.0 | 2026-11-14 | Thêm trường tuỳ chọn `phu_luc_cua` (số hiệu văn bản mẹ): phụ lục tách riêng không tạo điểm mù `DANH_MUC_CHUA_TRICH` khi mẹ đã có bảng CSV. Không đổi trường bắt buộc — minor |
+| 1.5.0 | 2026-11-21 | Mở rộng gói máy cho Cổng MCP hỏi đáp PLHQ: thêm 4 tệp mới `dist/wiki-index.json`, `dist/wiki-chunks.json`, `dist/dieu-khoan.json` (tách tầng `NGUYEN_VAN_NGUON_A` vs `TOM_TAT_NHAP`), `dist/cas-index.json` (từ `danh-muc/*-cas.csv`); giữ nguyên cấu trúc 3 tệp cũ — minor |

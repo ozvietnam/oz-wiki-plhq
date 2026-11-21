@@ -14,6 +14,67 @@ import { napDanhMuc, kiemDinhDang, doiChieu, docBieuThue, laVanBanDanhMuc } from
 const MUC = { CAO: 'Cao', VUA: 'Vừa', THAP: 'Thấp' };
 // Số hiệu văn bản trong chữ: 28/2026/TT-BCT, 08/2015/NĐ-CP, 1182/QĐ-BCT, 54/2014/QH13
 const RE_SO_HIEU = /\b\d{1,4}\/(?:\d{4}\/)?(?:TT|NĐ|ND|QĐ|QD|NQ|TTLT|CT)-[A-ZĐa-z]+(?:-[A-ZĐ]+)?\b|\b\d{1,3}\/\d{4}\/QH\d{2}\b/g;
+const NHANH_COT_LOI_WIKI = new Set(['hai-quan', 'thue', 'xuat-xu-fta', 'quan-ly-ngoai-thuong', 'kiem-tra-chuyen-nganh', 'xu-phat']);
+const RE_LICH_SU_WIKI = /hết hiệu lực|bị thay|bị bãi bỏ|bãi bỏ bởi|thay thế bởi|tiền thân|trước đây|lịch sử|tạm ngưng|không còn áp dụng/i;
+
+/** Thông báo kết quả phân loại / xác định trước cá biệt (TB-TCHQ, TB-CHQ). */
+export const laTbTchq = (d) => d.loai === 'THONG_BAO' && /TB-(?:TCHQ|CHQ)/i.test(String(d.so_hieu || ''));
+
+function quetWikiMuc(root, dirs = ['summary', 'concepts']) {
+  const out = [];
+  for (const sub of dirs) {
+    const dir = join(root, 'wiki', sub);
+    if (!existsSync(dir)) continue;
+    for (const f of readdirSync(dir).sort()) {
+      const fp = join(dir, f);
+      if (statSync(fp).isFile() && f.endsWith('.md')) out.push(fp);
+    }
+  }
+  return out;
+}
+
+function kiemTraWikiHetHieuLuc({ root, theoKhoa, nguoc, add }) {
+  const daPhat = new Set();
+  for (const f of quetWikiMuc(root, ['summary', 'concepts'])) {
+    const raw = readFileSync(f, 'utf8');
+    const body = raw.replace(/^---[\s\S]*?\r?\n---\s*(?:\r?\n|$)/, '');
+    const tapTrang = new Set((body.match(RE_SO_HIEU) || []).map(khoa));
+    const rel = relative(root, f).replace(/\\/g, '/');
+    const lines = body.split(/\r?\n/);
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      for (const m of line.match(RE_SO_HIEU) || []) {
+        const d = theoKhoa(m);
+        if (!d || d.tinh_trang !== 'HET_HIEU_LUC' || laTbTchq(d)) continue;
+        const k = khoa(d.so_hieu);
+        const dedupeKey = `${rel}\0${k}`;
+        if (daPhat.has(dedupeKey)) continue;
+        const ng = nguoc.get(k) || {};
+        const thayBoi = [...(ng.bi_thay_the_boi || []), ...(ng.bi_bai_bo_boi || [])];
+        const daCoThay = thayBoi.some((e) => {
+          const src = theoKhoa(e.tu);
+          return [e.tu, ...(src?.so_hieu_khac || [])].some((s) => tapTrang.has(khoa(s)));
+        });
+        if (daCoThay || RE_LICH_SU_WIKI.test(line)) continue;
+        daPhat.add(dedupeKey);
+        const thayList = [...new Set((ng.bi_thay_the_boi || []).map((e) => e.tu))];
+        const baiList = [...new Set((ng.bi_bai_bo_boi || []).map((e) => e.tu))];
+        const thayText = [
+          thayList.length ? `thay thế bởi ${thayList.join(', ')}` : '',
+          baiList.length ? `bãi bỏ bởi ${baiList.join(', ')}` : '',
+        ].filter(Boolean).join('; ');
+        add(
+          'WIKI_DAN_VB_HET_HIEU_LUC',
+          MUC.VUA,
+          `${rel}: dẫn ${d.so_hieu} đã hết hiệu lực${thayText ? ` (${thayText})` : ''}`,
+          d.so_hieu,
+          `Dòng ${i + 1} của ${rel} dẫn ${d.so_hieu} (HET_HIEU_LUC${d.het_hieu_luc_tu ? ` từ ${d.het_hieu_luc_tu}` : ''})${thayText ? ` — ${thayText}` : ''}. Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.`,
+          'doc-hieu',
+        );
+      }
+    }
+  }
+}
 
 function cong(ngay, soNgay) {
   const d = new Date(`${ngay}T00:00:00Z`);
@@ -186,20 +247,33 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
       }
     }
 
-    // D2 — không có nguồn bậc A (ưu tiên văn bản được biểu thuế dẫn nhiều)
+    // D2 — không có nguồn bậc A (tách tầng TB-TCHQ cá biệt vs VBQPPL)
     if (!coA) {
-      const nang = !d.xac_minh?.chan?.ma && ((d.trich_dan_trong_bieu_thue || 0) >= 50 || d.tinh_trang === 'CON_HIEU_LUC');
-      add('KHONG_NGUON_A', nang ? MUC.VUA : MUC.THAP, `${d.so_hieu}: chưa có nguồn chính thống${d.xac_minh?.muc === 'NGUON_THU_CAP' ? ' (đang dựa vào nguồn thứ cấp)' : ''}`, d.so_hieu,
-        'Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.', 'truy-vet-nguon');
+      if (laTbTchq(d)) {
+        add('TB_TCHQ_KHONG_NGUON_A', MUC.THAP,
+          `${d.so_hieu}: TB-TCHQ chưa có nguồn chính thống${d.xac_minh?.muc === 'NGUON_THU_CAP' ? ' (đang dựa vào nguồn thứ cấp)' : ''}`,
+          d.so_hieu,
+          'Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.', 'tb-tchq');
+      } else {
+        const nang = !d.xac_minh?.chan?.ma && ((d.trich_dan_trong_bieu_thue || 0) >= 50 || d.tinh_trang === 'CON_HIEU_LUC');
+        add('KHONG_NGUON_A', nang ? MUC.VUA : MUC.THAP, `${d.so_hieu}: chưa có nguồn chính thống${d.xac_minh?.muc === 'NGUON_THU_CAP' ? ' (đang dựa vào nguồn thứ cấp)' : ''}`, d.so_hieu,
+          'Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.', 'truy-vet-nguon');
+      }
     }
     // D13 — cảnh báo nguồn
     if (d.xac_minh?.canh_bao) add('CANH_BAO_NGUON', MUC.CAO, `${d.so_hieu}: ${d.xac_minh.canh_bao}`, d.so_hieu, 'Xác minh với cơ quan ban hành hoặc Công báo.', 'truy-vet-nguon');
 
-    // D3 — hiệu lực chưa đối chiếu nguồn A
+    // D3 — hiệu lực chưa đối chiếu nguồn A (tách tầng TB-TCHQ cá biệt vs VBQPPL)
     if (!d.xac_minh?.hieu_luc_da_doi_chieu) {
-      add('HIEU_LUC_CHUA_DOI_CHIEU', !d.xac_minh?.chan?.ma && (d.trich_dan_trong_bieu_thue || 0) >= 100 ? MUC.VUA : MUC.THAP,
-        `${d.so_hieu}: tình trạng "${d.tinh_trang}" chưa đối chiếu nguồn A`, d.so_hieu,
-        'Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.', 'hieu-luc');
+      if (laTbTchq(d)) {
+        add('TB_TCHQ_CHUA_DOI_CHIEU', MUC.THAP,
+          `${d.so_hieu}: TB-TCHQ tình trạng "${d.tinh_trang}" chưa đối chiếu nguồn A`, d.so_hieu,
+          'Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.', 'tb-tchq');
+      } else {
+        add('HIEU_LUC_CHUA_DOI_CHIEU', !d.xac_minh?.chan?.ma && (d.trich_dan_trong_bieu_thue || 0) >= 100 ? MUC.VUA : MUC.THAP,
+          `${d.so_hieu}: tình trạng "${d.tinh_trang}" chưa đối chiếu nguồn A`, d.so_hieu,
+          'Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.', 'hieu-luc');
+      }
     }
     // D12 — xác minh cũ
     if (d.xac_minh?.ngay && d.xac_minh.ngay < cong(today, -180) && d.tinh_trang === 'CON_HIEU_LUC') {
@@ -214,11 +288,22 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
     if (/^\(chưa có tiêu đề\)/.test(d.ten || '') && !d.xac_minh?.chan?.ma) add('VAN_BAN_KHUNG', MUC.VUA, `${d.so_hieu}: chưa có tiêu đề, ngày, nguồn`, d.so_hieu, 'Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.', 'he-thong-hoa');
     // D8 — chưa xếp vào cây
     if ((d.nhanh || []).includes('chua-phan-loai')) add('CHUA_PHAN_LOAI', MUC.THAP, `${d.so_hieu}: chưa xếp vào cây`, d.so_hieu, 'Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.', 'cay-du-lieu');
-    // D14 — cơ quan đã sáp nhập nhưng văn bản còn hiệu lực
+    // D14 — cơ quan đã sáp nhập nhưng văn bản còn hiệu lực (bỏ qua TB-TCHQ cá biệt)
     const cq = so.coQuan.find((c) => c.ky_hieu === d.co_quan);
-    if (cq?.sap_nhap_vao && d.tinh_trang === 'CON_HIEU_LUC') {
+    if (!laTbTchq(d) && cq?.sap_nhap_vao && d.tinh_trang === 'CON_HIEU_LUC') {
       add('CO_QUAN_DA_SAP_NHAP', MUC.THAP, `${d.so_hieu} (${cq.ten}) còn ghi hiệu lực — cơ quan đã sáp nhập vào ${cq.sap_nhap_vao}`, d.so_hieu,
         `Kiểm tra ${cq.sap_nhap_vao} đã ban hành văn bản thay thế chưa.`, 'do-tham');
+    }
+
+    // D17 — văn bản nền tảng đã có toàn văn nhưng chưa có trang wiki/sources/<slug>.md
+    const thuocNhanhCotLoi = (d.nhanh || []).some((n) => NHANH_COT_LOI_WIKI.has(String(n).split('/')[0]));
+    const laNenTang = ((d.loai === 'LUAT' || d.loai === 'NGHI_DINH') && thuocNhanhCotLoi)
+      || (d.trich_dan_trong_bieu_thue || 0) >= 100;
+    if (d.tinh_trang === 'CON_HIEU_LUC' && d.toan_van && laNenTang && !existsSync(join(root, 'wiki', 'sources', `${d._slug}.md`))) {
+      add('WIKI_CHUA_CO_VB_NEN_TANG', MUC.VUA,
+        `${d.so_hieu}: văn bản nền tảng chưa có trang wiki/sources/${d._slug}.md`, d.so_hieu,
+        `Đã có toàn văn (${d.toan_van}) nhưng chưa có wiki/sources/${d._slug}.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.`,
+        'doc-hieu', d.trich_dan_trong_bieu_thue || 0);
     }
   }
 
@@ -256,6 +341,9 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
     add('WIKI_NHAC_CHUA_DANG_KY', MUC.VUA, `Wiki nhắc ${v.so_hieu} nhưng sổ chưa có`, v.so_hieu,
       `Thêm vào sổ (${[...v.files].join(', ')}).`, 'lien-ket-cheo');
   }
+
+  // D16 — trang wiki nghiệp vụ (summary/concepts) dẫn văn bản đã hết hiệu lực
+  kiemTraWikiHetHieuLuc({ root, theoKhoa, nguoc, add });
 
   // D-DM — lớp mã HS ↔ văn bản (docs/luoc-do-danh-muc-hs.md)
   const bangDm = napDanhMuc(so, root);
@@ -412,6 +500,10 @@ const TEN_MA = {
   HANG_THAT_CU: 'Nhu cầu hàng thật đã cũ',
   BIEU_THUE_CHUA_CO: 'Biểu thuế XNK Tổng cục nêu nhưng sổ chưa có (hs-code-api skill bieu-thue-xnk)',
   BIEU_THUE_HIEN_HANH_DA_HET: 'Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay',
+  TB_TCHQ_KHONG_NGUON_A: 'TB-TCHQ cá biệt chưa có nguồn chính thống',
+  TB_TCHQ_CHUA_DOI_CHIEU: 'TB-TCHQ cá biệt chưa đối chiếu nguồn A',
+  WIKI_DAN_VB_HET_HIEU_LUC: 'Trang wiki dẫn văn bản đã hết hiệu lực',
+  WIKI_CHUA_CO_VB_NEN_TANG: 'Văn bản nền tảng (có toàn văn) chưa có trang wiki/sources/',
 };
 
 export function veMarkdown(ds, { today = homNay(), gioiHan = 40 } = {}) {
