@@ -24,5 +24,9 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: paperclip-agent@ozvietnam
+  chan:
+    ma: THIEU_PDF_A
+    ngay: '2026-11-21'
+    viec_tiep: 'Đã kiểm tra trực tiếp Cổng Hải quan (customs.gov.vn API GetChiTietVanBan MA=58967) trả DUONG_DAN_FILE_DINH_KEM: null và NOI_DUNG rỗng; vanban.chinhphu.vn, congbao.chinhphu.vn và mof.gov.vn không đăng tệp PDF toàn văn công khai (bản trong kho nội bộ là bậc C).'
 ghi_chu: 'BẢN DỮ LIỆU NỘI BỘ của kho (CEO xác nhận 30/10): bản do BÊN THỨ BA chép lại — mức rủi ro BẬC C, mã theo AHTN 2017, 896 cặp mã hay khai nhầm (khai mã này nhưng đúng ra là mã kia). Chỉ dùng làm TÍN HIỆU SOÁT nội bộ (lib/rui-ro-phan-loai.js hs-code-api, nhãn QD_2079_BAC_C_NOI_BO, Postgres kín, tệp ngoài git) — KHÔNG phải căn cứ pháp lý, không vào canCuPhapLy, không trả khách ngoài. LƯU Ý PHIÊN BẢN: AHTN 2017 ≠ biểu thuế 2026 đang tra — đối chiếu lại khi dùng tín hiệu với mã hiện hành.'
 hieu_luc_tu: '2021-07-19'
