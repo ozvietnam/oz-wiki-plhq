@@ -15,6 +15,7 @@ _This catalog is updated by /lumi-ingest and /lumi-init._
 - [[concepts/muc-do-rui-ro-hang-hoa]] — Ba mức rủi ro thay cho nhóm 1/nhóm 2 (NĐ 37/2026)
 - [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]] — Kiểm tra ATTP hàng nhập khẩu (NĐ 15/2018 vẫn áp dụng)
 - [[concepts/doc-tinh-trang-hieu-luc]] — Thay thế, sửa đổi, bãi bỏ, tạm ngưng khác nhau thế nào
+- [[concepts/co-quan-tiep-nhan-sau-sap-nhap]] — Bảng ánh xạ 5 nhóm cơ quan kế thừa sau sáp nhập 2025–2026 (`BNNMT`, `BKHCN`, `BXD`, `BNV`, `CHQ`)
 - [[concepts/thu-tuc-hai-quan-xnk]] — Luật / NĐ / TT thủ tục hải quan và chỉ tiêu khai
 - [[concepts/mo-ta-hang-hoa-khai-bao]] — Ô mô tả hàng hóa trên tờ khai: chỉ tiêu 1.78 (TT 121/2025) + ví dụ mô tả sơ sài (CV 755/2020)
 - [[concepts/phan-loai-ma-hs]] — Quy trình phân loại và danh mục mã HS
@@ -33,6 +34,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[concepts/cat-giam-thu-tuc-hanh-chinh-bnnmt]]
 - [[concepts/cites-vn]]
 - [[concepts/co-quan-dau-moi-fta]]
+- [[concepts/co-quan-tiep-nhan-sau-sap-nhap]]
 - [[concepts/cptpp]]
 - [[concepts/cua-khau-phu-loi-mo]]
 - [[concepts/doc-tinh-trang-hieu-luc]]

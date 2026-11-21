@@ -1,0 +1,526 @@
+# Bộ câu hỏi đánh giá chất lượng hỏi đáp pháp luật hải quan & XNK (32 câu)
+# Gồm 16 câu kế thừa từ docs/cau-hoi-mau.md (CH-01..CH-16) và 16 câu mở rộng (CH-17..CH-32).
+# KHÔNG chứa câu hỏi "hàng X áp mã HS gì" (phạm vi của hs-code-api).
+phien_ban: '2026-11-21'
+tong_so_cau: 32
+cau_hoi:
+  - id: CH-01
+    nhanh: kiem-tra-chuyen-nganh/an-toan-thuc-pham
+    cau_hoi: Bánh quy nhập từ Trung Quốc kiểm tra an toàn thực phẩm theo văn bản nào? Thời gian bao lâu?
+    van_ban_bat_buoc:
+      - 15/2018/NĐ-CP
+      - 28/2026/TT-BCT
+    van_ban_het_hieu_luc_can_tranh:
+      - 1182/QĐ-BCT
+      - 11/2022/TT-BCT
+      - 46/2026/NĐ-CP
+    trang_wiki:
+      - concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham
+      - concepts/ktcl-bct-2026
+      - summary/khung-kiem-tra-chuyen-nganh-2026
+    nguon_can_cu_ky_vong: Điều 13, 16, 17, 19 NĐ 15/2018/NĐ-CP (03 ngày làm việc kiểm tra giảm/thông thường, 07 ngày kiểm tra chặt); Phụ lục TT 28/2026/TT-BCT (nhóm bánh, mứt, kẹo).
+
+  - id: CH-02
+    nhanh: kiem-tra-chuyen-nganh/khung-chat-luong
+    cau_hoi: Hàng rủi ro trung bình có phải đăng ký kiểm tra chất lượng khi nhập khẩu không?
+    van_ban_bat_buoc:
+      - 37/2026/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh:
+      - 132/2008/NĐ-CP
+      - 74/2018/NĐ-CP
+      - 13/2022/NĐ-CP
+    trang_wiki:
+      - concepts/muc-do-rui-ro-hang-hoa
+      - concepts/rui-ro-cao-vs-trung-binh
+      - summary/khung-kiem-tra-chuyen-nganh-2026
+    nguon_can_cu_ky_vong: Điều 82 khoản 1 NĐ 37/2026/NĐ-CP (không phải kiểm tra chất lượng khi nhập khẩu nhưng phải công bố hợp quy theo QCVN tương ứng).
+
+  - id: CH-03
+    nhanh: kiem-tra-chuyen-nganh/an-toan-thuc-pham
+    cau_hoi: Nghị định 15/2018/NĐ-CP còn hiệu lực không?
+    van_ban_bat_buoc:
+      - 15/2018/NĐ-CP
+      - 09/2026/NQ-CP
+      - 15/2026/NQ-CP
+    van_ban_het_hieu_luc_can_tranh:
+      - 46/2026/NĐ-CP
+    trang_wiki:
+      - concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham
+      - concepts/doc-tinh-trang-hieu-luc
+      - summary/khung-kiem-tra-chuyen-nganh-2026
+    nguon_can_cu_ky_vong: NĐ 15/2018/NĐ-CP vẫn còn hiệu lực áp dụng do NĐ 46/2026/NĐ-CP bị tạm ngưng hiệu lực theo NQ 09/2026/NQ-CP và NQ 15/2026/NQ-CP.
+
+  - id: CH-04
+    nhanh: kiem-tra-chuyen-nganh/bxd
+    cau_hoi: Ô tô nhập khẩu phải kiểm tra chất lượng theo danh mục nào từ 01/7/2026?
+    van_ban_bat_buoc:
+      - 49/2026/TT-BXD
+      - 37/2026/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh:
+      - 12/2022/TT-BGTVT
+      - 62/2024/TT-BGTVT
+    trang_wiki:
+      - concepts/phuong-tien-giao-thong-van-tai
+      - concepts/kiem-tra-chat-luong-bxd
+      - summary/khung-kiem-tra-chuyen-nganh-2026
+    nguon_can_cu_ky_vong: Phụ lục I (rủi ro cao — ô tô, mô tô, xe gắn máy) và Phụ lục II (rủi ro trung bình) TT 49/2026/TT-BXD; Điều 82, 83 NĐ 37/2026/NĐ-CP (bãi bỏ TT 12/2022/TT-BGTVT và TT 62/2024/TT-BGTVT từ 01/7/2026).
+
+  - id: CH-05
+    nhanh: kiem-tra-chuyen-nganh/khung-chat-luong
+    cau_hoi: Giấy chứng nhận hợp quy cấp trước 01/7/2026 còn dùng được không?
+    van_ban_bat_buoc:
+      - 37/2026/NĐ-CP
+      - 36/2026/TT-BKHCN
+      - 49/2026/TT-BXD
+      - 27/2026/TT-BNNMT
+      - 16/2026/TT-BNV
+    van_ban_het_hieu_luc_can_tranh:
+      - 132/2008/NĐ-CP
+      - 74/2018/NĐ-CP
+    trang_wiki:
+      - summary/khung-kiem-tra-chuyen-nganh-2026
+      - concepts/ktcl-bkhcn-2026
+      - concepts/ktcl-bnnmt-2026
+    nguon_can_cu_ky_vong: Điều khoản chuyển tiếp tại Điều 7 TT 27/2026/TT-BNNMT, Điều 7 khoản 1 TT 36/2026/TT-BKHCN, Điều 6 TT 16/2026/TT-BNV (GCN hợp quy cấp trước 01/7/2026 tiếp tục có giá trị đến hết thời hạn ghi trên giấy).
+
+  - id: CH-06
+    nhanh: hai-quan/thu-tuc
+    cau_hoi: Mô tả hàng hoá trên tờ khai phải có những gì?
+    van_ban_bat_buoc:
+      - 38/2015/TT-BTC
+      - 39/2018/TT-BTC
+      - 121/2025/TT-BTC
+    van_ban_het_hieu_luc_can_tranh: []
+    trang_wiki:
+      - concepts/mo-ta-hang-hoa-khai-bao
+      - summary/khung-thu-tuc-hai-quan
+      - concepts/thu-tuc-hai-quan-xnk
+    nguon_can_cu_ky_vong: Chỉ tiêu 1.78 Mẫu số 01 Phụ lục II TT 38/2015/TT-BTC được sửa đổi, bổ sung tại TT 39/2018/TT-BTC và TT 121/2025/TT-BTC (tên hàng, nhãn hiệu, quy cách phẩm chất, thông số kỹ thuật, thành phần, công dụng, đóng gói, nhà sản xuất).
+
+  - id: CH-07
+    nhanh: hai-quan/thu-tuc
+    cau_hoi: Hồ sơ hải quan hàng nhập khẩu thương mại gồm những chứng từ nào?
+    van_ban_bat_buoc:
+      - 54/2014/QH13
+      - 08/2015/NĐ-CP
+      - 167/2025/NĐ-CP
+      - 38/2015/TT-BTC
+      - 39/2018/TT-BTC
+      - 121/2025/TT-BTC
+    van_ban_het_hieu_luc_can_tranh:
+      - 59/2018/NĐ-CP
+    trang_wiki:
+      - summary/khung-thu-tuc-hai-quan
+      - sources/38-2015-tt-btc
+      - concepts/thu-tuc-hai-quan-xnk
+    nguon_can_cu_ky_vong: Điều 24 Luật Hải quan 54/2014/QH13; Điều 16 TT 38/2015/TT-BTC được sửa đổi, bổ sung bởi TT 39/2018/TT-BTC và TT 121/2025/TT-BTC.
+
+  - id: CH-08
+    nhanh: phan-loai-hs/quy-trinh-phan-loai
+    cau_hoi: Khi nào được xác định trước mã số? Hồ sơ, thời hạn?
+    van_ban_bat_buoc:
+      - 54/2014/QH13
+      - 08/2015/NĐ-CP
+      - 167/2025/NĐ-CP
+      - 38/2015/TT-BTC
+      - 121/2025/TT-BTC
+      - 117/QĐ-CHQ
+    van_ban_het_hieu_luc_can_tranh:
+      - 14/2015/TT-BTC
+      - 17/2021/TT-BTC
+      - 1921/QĐ-TCHQ
+    trang_wiki:
+      - summary/khung-thu-tuc-hai-quan
+      - sources/117-qd-chq
+      - concepts/phan-loai-ma-hs
+    nguon_can_cu_ky_vong: Điều 28 Luật Hải quan 54/2014/QH13; Điều 24 NĐ 08/2015/NĐ-CP (sửa bởi NĐ 167/2025/NĐ-CP); Điều 7 TT 38/2015/TT-BTC (sửa bởi TT 39/2018/TT-BTC, TT 121/2025/TT-BTC); Phần I Quy trình kèm QĐ 117/QĐ-CHQ.
+
+  - id: CH-09
+    nhanh: quan-ly-ngoai-thuong/hang-da-qua-su-dung
+    cau_hoi: Hàng đã qua sử dụng nào bị cấm nhập khẩu?
+    van_ban_bat_buoc:
+      - 292/2026/NĐ-CP
+      - 48/2026/TT-BCT
+      - 18/2019/QĐ-TTg
+    van_ban_het_hieu_luc_can_tranh:
+      - 69/2018/NĐ-CP
+      - 12/2018/TT-BCT
+    trang_wiki:
+      - concepts/hang-cu-cam-nhap-khau
+      - sources/48-2026-tt-bct
+    nguon_can_cu_ky_vong: Điều 4 và Phụ lục I TT 48/2026/TT-BCT (hướng dẫn NĐ 292/2026/NĐ-CP); máy móc, thiết bị, dây chuyền công nghệ đã qua sử dụng thực hiện theo QĐ 18/2019/QĐ-TTg.
+
+  - id: CH-10
+    nhanh: xuat-xu-fta/quy-tac-xuat-xu
+    cau_hoi: C/O form E nộp bản giấy hay điện tử, sai sót nào được chấp nhận?
+    van_ban_bat_buoc:
+      - 33/2023/TT-BTC
+      - 124/2026/TT-BTC
+      - 12/2019/TT-BCT
+      - 31/2018/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh:
+      - 12/2007/QĐ-BTM
+      - 36/2010/TT-BCT
+    trang_wiki:
+      - concepts/xuat-xu-fta
+      - concepts/acfta
+      - sources/12-2019-tt-bct
+    nguon_can_cu_ky_vong: TT 33/2023/TT-BTC (bổ sung khoản 10 Điều 15 bởi TT 124/2026/TT-BTC về kiểm tra chứng từ chứng nhận xuất xứ theo quản lý rủi ro); TT 12/2019/TT-BCT (Quy tắc xuất xứ ACFTA — C/O mẫu E); NĐ 31/2018/NĐ-CP.
+
+  - id: CH-11
+    nhanh: thue/thue-noi-dia-khau-nk
+    cau_hoi: Thuế GTGT hàng nhập khẩu đang 8% hay 10%, đến khi nào?
+    van_ban_bat_buoc:
+      - 204/2025/QH15
+      - 174/2025/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh: []
+    trang_wiki:
+      - concepts/thue-gtgt-hang-nhap-khau
+      - sources/174-2025-nd-cp
+      - summary/khung-thu-tuc-hai-quan
+    nguon_can_cu_ky_vong: NQ 204/2025/QH15 và Điều 1, Điều 2 khoản 1 NĐ 174/2025/NĐ-CP (giảm từ 10% xuống 8% đối với nhóm hàng chịu thuế 10% trừ Phụ lục I và Phụ lục II đến hết ngày 31/12/2026).
+
+  - id: CH-12
+    nhanh: xu-phat
+    cau_hoi: Khai sai mã HS làm thiếu thuế bị phạt thế nào?
+    van_ban_bat_buoc:
+      - 169/2026/NĐ-CP
+      - 108/2025/QH15
+    van_ban_het_hieu_luc_can_tranh:
+      - 128/2020/NĐ-CP
+      - 38/2019/QH14
+    trang_wiki:
+      - sources/108-2025-qh15
+    nguon_can_cu_ky_vong: NĐ 169/2026/NĐ-CP (hiệu lực 01/7/2026, thay thế NĐ 128/2020/NĐ-CP) về xử phạt vi phạm hành chính trong lĩnh vực hải quan; Luật Quản lý thuế 108/2025/QH15.
+
+  - id: CH-13
+    nhanh: hai-quan/tri-gia
+    cau_hoi: Trị giá hải quan khi có phí bản quyền, phí hoa hồng?
+    van_ban_bat_buoc:
+      - 39/2015/TT-BTC
+      - 60/2019/TT-BTC
+      - 08/2015/NĐ-CP
+      - 167/2025/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh:
+      - 40/2007/NĐ-CP
+    trang_wiki:
+      - sources/39-2015-tt-btc
+      - sources/60-2019-tt-btc
+    nguon_can_cu_ky_vong: Điều 13, Điều 14 TT 39/2015/TT-BTC được sửa đổi, bổ sung bởi TT 60/2019/TT-BTC (các khoản điều chỉnh cộng gồm hoa hồng, phí bản quyền, phí giấy phép).
+
+  - id: CH-14
+    nhanh: kiem-tra-chuyen-nganh/kiem-dich
+    cau_hoi: Sau sáp nhập, kiểm dịch thực vật nộp hồ sơ ở đâu?
+    van_ban_bat_buoc:
+      - 33/2014/TT-BNNPTNT
+      - 99/2026/VBHN-TT-BNNMT
+      - 35/2025/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh:
+      - 105/2022/NĐ-CP
+    trang_wiki:
+      - concepts/co-quan-tiep-nhan-sau-sap-nhap
+      - concepts/kiem-dich-dong-thuc-vat
+      - concepts/cat-giam-thu-tuc-hanh-chinh-bnnmt
+    nguon_can_cu_ky_vong: NĐ 35/2025/NĐ-CP (BNNPTNT hợp nhất thành BNNMT từ 01/3/2025); TT 33/2014/TT-BNNPTNT; VBHN 99/2026/VBHN-TT-BNNMT (hợp nhất TT 20/2021/TT-BNNPTNT và TT 12/2025/TT-BNNMT về phân cấp, phân định thẩm quyền trồng trọt và BVTV).
+
+  - id: CH-15
+    nhanh: kiem-tra-chuyen-nganh/nhan-hang-hoa
+    cau_hoi: Văn bản nào đang quy định nhãn phụ tiếng Việt cho hàng nhập khẩu?
+    van_ban_bat_buoc: []
+    van_ban_het_hieu_luc_can_tranh:
+      - 43/2017/NĐ-CP
+      - 111/2021/NĐ-CP
+    trang_wiki:
+      - concepts/nhan-hang-hoa-nhap-khau
+      - summary/khung-thu-tuc-hai-quan
+    nguon_can_cu_ky_vong: Điểm mù đã ghi nhận — NĐ 43/2017/NĐ-CP và NĐ 111/2021/NĐ-CP đã hết hiệu lực từ 23/01/2026 theo Điều 97 khoản 4 điểm b, c NĐ 37/2026/NĐ-CP; văn bản mới điều chỉnh nhãn phụ tiếng Việt chưa xác minh.
+
+  - id: CH-16
+    nhanh: phong-ve-thuong-mai/chong-ban-pha-gia
+    cau_hoi: Mặt hàng thép nào đang bị áp thuế chống bán phá giá?
+    van_ban_bat_buoc:
+      - 86/2025/NĐ-CP
+      - 143/QĐ-BCT
+      - 1959/QĐ-BCT
+      - 2310/QĐ-BCT
+      - 2822/QĐ-BCT
+      - 3011/QĐ-BCT
+      - 3765/QĐ-BCT
+      - 3176/QĐ-BCT
+    van_ban_het_hieu_luc_can_tranh:
+      - 691/QĐ-BCT
+      - 693/QĐ-BCT
+      - 1975/QĐ-BCT
+    trang_wiki: []
+    nguon_can_cu_ky_vong: "NĐ 86/2025/NĐ-CP và các quyết định còn hiệu lực về CBPG thép: 143/QĐ-BCT (cáp thép dự ứng lực), 1959/QĐ-BCT & 3176/QĐ-BCT (thép cán nóng), 2310/QĐ-BCT (thép mạ), 2822/QĐ-BCT (thép cán phẳng được sơn), 3011/QĐ-BCT (thép không gỉ cán nguội), 3765/QĐ-BCT (thép cán nguội)."
+
+  - id: CH-17
+    nhanh: thue/mien-giam-hoan
+    cau_hoi: Hàng nhập khẩu để sản xuất hàng xuất khẩu hoặc hàng nhập khẩu phải tái xuất được hoàn thuế nhập khẩu trong trường hợp nào, thủ tục ra sao?
+    van_ban_bat_buoc:
+      - 107/2016/QH13
+      - 134/2016/NĐ-CP
+      - 18/2021/NĐ-CP
+      - 182/2025/NĐ-CP
+      - 86/2026/TT-BTC
+    van_ban_het_hieu_luc_can_tranh:
+      - 45/2005/QH11
+      - 06/2021/TT-BTC
+    trang_wiki:
+      - sources/107-2016-qh13
+      - sources/134-2016-nd-cp
+      - sources/18-2021-nd-cp
+      - sources/182-2025-nd-cp
+    nguon_can_cu_ky_vong: Điều 19 Luật Thuế XK, thuế NK 107/2016/QH13; NĐ 134/2016/NĐ-CP (sửa đổi, bổ sung bởi NĐ 18/2021/NĐ-CP và NĐ 182/2025/NĐ-CP); TT 86/2026/TT-BTC quy định về quản lý thuế đối với hàng hóa XNK từ 01/7/2026.
+
+  - id: CH-18
+    nhanh: thue/mien-giam-hoan
+    cau_hoi: Nguyên liệu, vật tư nhập khẩu để gia công hoặc sản xuất hàng hóa xuất khẩu được miễn thuế theo điều kiện và báo cáo quyết toán nào?
+    van_ban_bat_buoc:
+      - 107/2016/QH13
+      - 134/2016/NĐ-CP
+      - 18/2021/NĐ-CP
+      - 182/2025/NĐ-CP
+      - 38/2015/TT-BTC
+      - 39/2018/TT-BTC
+      - 121/2025/TT-BTC
+      - 86/2026/TT-BTC
+    van_ban_het_hieu_luc_can_tranh:
+      - 45/2005/QH11
+      - 06/2021/TT-BTC
+    trang_wiki:
+      - sources/107-2016-qh13
+      - sources/38-2015-tt-btc
+      - sources/39-2018-tt-btc
+      - sources/121-2025-tt-btc
+    nguon_can_cu_ky_vong: Điều 16, 17 Luật 107/2016/QH13; NĐ 134/2016/NĐ-CP (sửa bởi NĐ 18/2021/NĐ-CP, NĐ 182/2025/NĐ-CP); Điều 55–60 TT 38/2015/TT-BTC (sửa bởi TT 39/2018/TT-BTC, TT 121/2025/TT-BTC) và TT 86/2026/TT-BTC.
+
+  - id: CH-19
+    nhanh: hai-quan/kiem-tra-giam-sat
+    cau_hoi: Doanh nghiệp chế xuất (DNCX) thực hiện điều kiện kiểm tra, giám sát hải quan, khai báo và báo cáo quyết toán theo quy định nào?
+    van_ban_bat_buoc:
+      - 54/2014/QH13
+      - 107/2016/QH13
+      - 08/2015/NĐ-CP
+      - 167/2025/NĐ-CP
+      - 134/2016/NĐ-CP
+      - 18/2021/NĐ-CP
+      - 38/2015/TT-BTC
+      - 39/2018/TT-BTC
+      - 121/2025/TT-BTC
+    van_ban_het_hieu_luc_can_tranh:
+      - 59/2018/NĐ-CP
+    trang_wiki:
+      - sources/38-2015-tt-btc
+      - sources/39-2018-tt-btc
+      - sources/121-2025-tt-btc
+      - sources/107-2016-qh13
+    nguon_can_cu_ky_vong: Điều 28a NĐ 134/2016/NĐ-CP (bổ sung bởi NĐ 18/2021/NĐ-CP); Chương IV và Điều 58–60, 74–76 TT 38/2015/TT-BTC (được sửa đổi, bổ sung bởi TT 39/2018/TT-BTC và TT 121/2025/TT-BTC).
+
+  - id: CH-20
+    nhanh: hai-quan/kiem-tra-giam-sat
+    cau_hoi: Cơ chế phân luồng tờ khai hải quan (Luồng 1 Xanh, Luồng 2 Vàng, Luồng 3 Đỏ) dựa trên tiêu chí quản lý rủi ro nào?
+    van_ban_bat_buoc:
+      - 81/2019/TT-BTC
+      - 06/2024/TT-BTC
+      - 08/2015/NĐ-CP
+      - 167/2025/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh:
+      - 464/QĐ-BTC
+      - 465/QĐ-BTC
+    trang_wiki:
+      - sources/81-2019-tt-btc
+      - sources/06-2024-tt-btc
+      - summary/khung-thu-tuc-hai-quan
+    nguon_can_cu_ky_vong: Điều 10, 14, 16, 20, 22 TT 81/2019/TT-BTC được sửa đổi, bổ sung bởi TT 06/2024/TT-BTC (Luồng 1 Xanh miễn kiểm tra hồ sơ/thực tế, Luồng 2 Vàng kiểm tra hồ sơ, Luồng 3 Đỏ kiểm tra thực tế hàng hóa).
+
+  - id: CH-21
+    nhanh: hai-quan/kiem-tra-giam-sat
+    cau_hoi: Các trường hợp kiểm tra sau thông quan và quy trình kiểm tra tại trụ sở cơ quan hải quan, trụ sở doanh nghiệp hiện hành?
+    van_ban_bat_buoc:
+      - 54/2014/QH13
+      - 08/2015/NĐ-CP
+      - 167/2025/NĐ-CP
+      - 38/2015/TT-BTC
+      - 121/2025/TT-BTC
+      - 2123/QĐ-CHQ
+    van_ban_het_hieu_luc_can_tranh:
+      - 59/2018/NĐ-CP
+    trang_wiki:
+      - sources/2123-qd-chq
+      - sources/167-2025-nd-cp
+      - summary/khung-thu-tuc-hai-quan
+    nguon_can_cu_ky_vong: Điều 77–82 Luật Hải quan 54/2014/QH13; Điều 97–99 NĐ 08/2015/NĐ-CP (sửa bởi NĐ 167/2025/NĐ-CP); Điều 141–145 TT 38/2015/TT-BTC (sửa bởi TT 121/2025/TT-BTC); Quy trình kèm QĐ 2123/QĐ-CHQ.
+
+  - id: CH-22
+    nhanh: hai-quan/thu-tuc
+    cau_hoi: Người khai hải quan được khai bổ sung tờ khai trong thông quan và sau thông quan trong trường hợp và thời hạn nào?
+    van_ban_bat_buoc:
+      - 54/2014/QH13
+      - 08/2015/NĐ-CP
+      - 167/2025/NĐ-CP
+      - 38/2015/TT-BTC
+      - 39/2018/TT-BTC
+      - 121/2025/TT-BTC
+    van_ban_het_hieu_luc_can_tranh:
+      - 59/2018/NĐ-CP
+    trang_wiki:
+      - sources/38-2015-tt-btc
+      - sources/39-2018-tt-btc
+      - sources/121-2025-tt-btc
+      - summary/khung-thu-tuc-hai-quan
+    nguon_can_cu_ky_vong: Điều 29 khoản 4 Luật Hải quan 54/2014/QH13 (trong 60 ngày kể từ ngày thông quan nhưng trước thời điểm quyết định kiểm tra sau thông quan/thanh tra); Điều 20 TT 38/2015/TT-BTC sửa bởi TT 39/2018/TT-BTC và TT 121/2025/TT-BTC.
+
+  - id: CH-23
+    nhanh: hai-quan/thu-tuc
+    cau_hoi: Thủ tục hải quan và thông điệp dữ liệu đối với hàng hóa gửi qua dịch vụ bưu chính và chuyển phát nhanh quốc tế theo TT 142/2026/TT-BTC có gì mới?
+    van_ban_bat_buoc:
+      - 142/2026/TT-BTC
+      - 49/2015/TT-BTC
+      - 191/2015/TT-BTC
+      - 29/2025/TT-BTC
+      - 1813/2026/QĐ-CHQ
+    van_ban_het_hieu_luc_can_tranh: []
+    trang_wiki:
+      - sources/142-2026-tt-btc
+    nguon_can_cu_ky_vong: TT 142/2026/TT-BTC (hiệu lực 16/11/2026) sửa TT 49/2015/TT-BTC và TT 191/2015/TT-BTC (đã sửa bởi TT 29/2025/TT-BTC); định dạng thông điệp dữ liệu EDI kèm QĐ 1813/2026/QĐ-CHQ (hiệu lực 16/11/2026).
+
+  - id: CH-24
+    nhanh: hai-quan/thu-tuc
+    cau_hoi: Những mặt hàng nhập khẩu nào bắt buộc phải làm thủ tục hải quan tại cửa khẩu nhập từ 14/8/2026?
+    van_ban_bat_buoc:
+      - 31/2026/QĐ-TTg
+      - 08/2015/NĐ-CP
+      - 167/2025/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh:
+      - 23/2019/QĐ-TTg
+    trang_wiki: []
+    nguon_can_cu_ky_vong: "QĐ 31/2026/QĐ-TTg (hiệu lực 14/8/2026, thay thế QĐ 23/2019/QĐ-TTg): Phụ lục 12 nhóm hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập và quy định chuyển tiếp Điều 4, Điều 5."
+
+  - id: CH-25
+    nhanh: quan-ly-ngoai-thuong/giay-phep
+    cau_hoi: Danh mục hóa chất phải kiểm soát (NĐ 24/2026/NĐ-CP) và thủ tục khai báo hóa chất nhập khẩu (NĐ 26/2026/NĐ-CP) quy định thế nào?
+    van_ban_bat_buoc:
+      - 69/2025/QH15
+      - 24/2026/NĐ-CP
+      - 26/2026/NĐ-CP
+      - 01/2026/TT-BCT
+    van_ban_het_hieu_luc_can_tranh:
+      - 113/2017/NĐ-CP
+      - 82/2022/NĐ-CP
+    trang_wiki:
+      - concepts/khai-bao-hoa-chat-nhap-khau
+      - concepts/giay-phep-hoa-chat-co-dieu-kien
+      - sources/26-2026-nd-cp
+    nguon_can_cu_ky_vong: Luật Hóa chất 69/2025/QH15; Phụ lục I–IV NĐ 24/2026/NĐ-CP; Điều 6, 10 NĐ 26/2026/NĐ-CP (thay thế NĐ 113/2017/NĐ-CP và NĐ 82/2022/NĐ-CP từ 17/01/2026) và TT 01/2026/TT-BCT.
+
+  - id: CH-26
+    nhanh: kiem-tra-chuyen-nganh/bqp
+    cau_hoi: Hoạt động xuất nhập khẩu sản phẩm mật mã dân sự và danh mục sản phẩm mật mã dân sự rủi ro cao áp dụng theo văn bản nào?
+    van_ban_bat_buoc:
+      - 211/2025/NĐ-CP
+      - 126/2026/TT-BQP
+      - 37/2026/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh:
+      - 32/2023/NĐ-CP
+    trang_wiki:
+      - concepts/mat-ma-dan-su-san-pham
+      - concepts/giay-phep-xuat-nhap-khau-mat-ma
+      - sources/211-2025-nd-cp
+      - sources/126-2026-tt-bqp
+    nguon_can_cu_ky_vong: NĐ 211/2025/NĐ-CP (Điều 4, Phụ lục II danh mục XNK theo giấy phép tại BCY); TT 126/2026/TT-BQP (Danh mục sản phẩm mật mã dân sự rủi ro cao, chuyển tiếp 24 tháng tại Điều 5 khoản 2).
+
+  - id: CH-27
+    nhanh: kiem-tra-chuyen-nganh/bca
+    cau_hoi: Phương tiện PCCC và thiết bị giám sát TT-ATGT nhập khẩu phải kiểm tra chất lượng hay công bố hợp quy theo TT 125/2026/TT-BCA?
+    van_ban_bat_buoc:
+      - 125/2026/TT-BCA
+      - 37/2026/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh: []
+    trang_wiki:
+      - concepts/ktcl-bca-2026
+      - concepts/thiet-bi-pccc
+      - concepts/thiet-bi-giam-sat-atgt
+      - sources/125-2026-tt-bca
+    nguon_can_cu_ky_vong: Phụ lục Phần A (4 mã rủi ro cao phải chứng nhận hợp quy + kiểm tra nhà nước khi nhập) và Phần B (55 mã rủi ro trung bình công bố phù hợp QCKT) TT 125/2026/TT-BCA; Điều 82, 83 NĐ 37/2026/NĐ-CP.
+
+  - id: CH-28
+    nhanh: quan-ly-ngoai-thuong/bien-gioi
+    cau_hoi: Hoạt động mua bán, trao đổi hàng hóa của thương nhân và cư dân qua biên giới, cửa khẩu phụ, lối mở áp dụng quy định nào?
+    van_ban_bat_buoc:
+      - 14/2018/NĐ-CP
+      - 122/2024/NĐ-CP
+      - 01/2018/TT-BCT
+      - 33/2025/TT-BCT
+      - 02/2018/TT-BCT
+      - 80/2019/TT-BTC
+    van_ban_het_hieu_luc_can_tranh: []
+    trang_wiki:
+      - concepts/hang-hoa-bien-gioi
+      - concepts/cua-khau-phu-loi-mo
+      - sources/33-2025-tt-bct
+    nguon_can_cu_ky_vong: NĐ 14/2018/NĐ-CP sửa đổi bởi NĐ 122/2024/NĐ-CP; TT 01/2018/TT-BCT sửa bởi TT 33/2025/TT-BCT (danh mục qua cửa khẩu phụ, lối mở); TT 02/2018/TT-BCT (cư dân biên giới); TT 80/2019/TT-BTC (thủ tục hải quan biên giới).
+
+  - id: CH-29
+    nhanh: phan-loai-hs/quy-trinh-phan-loai
+    cau_hoi: Khi không đồng ý với Thông báo kết quả phân tích, phân loại của cơ quan kiểm định hải quan, người khai hải quan khiếu nại hoặc trưng cầu giám định thế nào?
+    van_ban_bat_buoc:
+      - 85/2026/TT-BTC
+      - 02/2011/QH13
+      - 08/2015/NĐ-CP
+      - 124/2020/NĐ-CP
+      - 155/2026/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh:
+      - 14/2015/TT-BTC
+      - 17/2021/TT-BTC
+    trang_wiki:
+      - sources/85-2026-tt-btc
+      - sources/02-2011-qh13
+      - sources/124-2020-nd-cp
+      - sources/155-2026-nd-cp
+    nguon_can_cu_ky_vong: Điều 12 khoản 7 và Điều 11 khoản 3 điểm b TT 85/2026/TT-BTC (lưu mẫu 120 ngày; khiếu nại theo Luật Khiếu nại 02/2011/QH13 và NĐ 124/2020/NĐ-CP sửa bởi NĐ 155/2026/NĐ-CP, hoặc trưng cầu giám định theo Điều 30 NĐ 08/2015/NĐ-CP).
+
+  - id: CH-30
+    nhanh: phan-loai-hs/quy-trinh-phan-loai
+    cau_hoi: Máy liên hợp, tổ hợp máy (Chương 84, 85, 90) và máy móc ở dạng chưa lắp ráp hoặc tháo rời nhập khẩu nhiều chuyến phân loại và đăng ký danh mục trừ lùi thế nào theo TT 85/2026/TT-BTC?
+    van_ban_bat_buoc:
+      - 85/2026/TT-BTC
+      - 121/2025/TT-BTC
+      - 31/2022/TT-BTC
+    van_ban_het_hieu_luc_can_tranh:
+      - 14/2015/TT-BTC
+      - 17/2021/TT-BTC
+    trang_wiki:
+      - sources/85-2026-tt-btc
+      - sources/121-2025-tt-btc
+      - concepts/phan-loai-ma-hs
+    nguon_can_cu_ky_vong: Điều 7 (máy liên hợp/tổ hợp máy theo Chú giải 3, 4, 5 Phần XVI), Điều 8 (máy chưa lắp ráp/tháo rời theo Quy tắc 2a), Điều 9 (hồ sơ Mẫu 01/ĐKDMTB/2025 và 02/PTDTL-DMTB/2025 tại Phụ lục V TT 121/2025/TT-BTC, thời hạn xác nhận 03 ngày làm việc) và Điều 16 khoản 2 TT 85/2026/TT-BTC.
+
+  - id: CH-31
+    nhanh: kiem-tra-chuyen-nganh/an-toan-thuc-pham
+    cau_hoi: Việc tạm ngưng hiệu lực Nghị định 46/2026/NĐ-CP ảnh hưởng thế nào đến thủ tục kiểm tra an toàn thực phẩm hàng nhập khẩu?
+    van_ban_bat_buoc:
+      - 09/2026/NQ-CP
+      - 15/2026/NQ-CP
+      - 15/2018/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh:
+      - 46/2026/NĐ-CP
+    trang_wiki:
+      - concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham
+      - concepts/doc-tinh-trang-hieu-luc
+      - sources/09-2026-nq-cp
+      - sources/15-2026-nq-cp
+    nguon_can_cu_ky_vong: NQ 09/2026/NQ-CP và NQ 15/2026/NQ-CP tạm ngưng hiệu lực NĐ 46/2026/NĐ-CP, nên NĐ 15/2018/NĐ-CP tiếp tục là văn bản điều chỉnh kiểm tra nhà nước về ATTP hàng nhập khẩu.
+
+  - id: CH-32
+    nhanh: hai-quan/mot-cua
+    cau_hoi: Thủ tục hành chính đối với hàng hóa XNK, quá cảnh theo Cơ chế một cửa quốc gia và một cửa ASEAN từ 15/10/2026 áp dụng theo văn bản nào?
+    van_ban_bat_buoc:
+      - 336/2026/NĐ-CP
+      - 54/2014/QH13
+    van_ban_het_hieu_luc_can_tranh:
+      - 85/2019/NĐ-CP
+    trang_wiki:
+      - summary/khung-thu-tuc-hai-quan
+      - concepts/doc-tinh-trang-hieu-luc
+    nguon_can_cu_ky_vong: Điều 48 khoản 2 NĐ 336/2026/NĐ-CP (hiệu lực từ 15/10/2026, thay thế toàn bộ NĐ 85/2019/NĐ-CP) quy định thực hiện thủ tục hành chính đối với hàng hóa XNK, quá cảnh theo Cơ chế một cửa quốc gia, một cửa ASEAN.

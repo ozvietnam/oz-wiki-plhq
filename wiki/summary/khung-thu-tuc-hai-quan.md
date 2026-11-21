@@ -3,7 +3,7 @@ id: khung-thu-tuc-hai-quan
 title: "Khung thủ tục hải quan hàng xuất nhập khẩu"
 type: summary
 created: 2026-10-04
-updated: 2026-10-04
+updated: 2026-11-21
 covers:
   - thu-tuc-hai-quan-xnk
   - phan-loai-ma-hs
@@ -11,30 +11,32 @@ covers:
   - nhan-hang-hoa-nhap-khau
   - muc-do-rui-ro-hang-hoa
   - doc-tinh-trang-hieu-luc
+  - co-quan-tiep-nhan-sau-sap-nhap
 tags: [hai-quan, thu-tuc, phan-loai-hs, thue]
 ---
 
 ## Overview
 
-Thủ tục hải quan hàng xuất nhập khẩu nằm trên ba tầng văn bản đã có trong sổ đăng ký: **Luật Hải quan** `54/2014/QH13` (nhánh `hai-quan/luat-khung`, `CON_HIEU_LUC`); **Nghị định** `08/2015/NĐ-CP` hướng dẫn Luật về thủ tục, kiểm tra, giám sát, kiểm soát; **Thông tư** `38/2015/TT-BTC` (được `39/2018/TT-BTC` sửa đổi) quy định chi tiết thủ tục và chỉ tiêu khai. Song song, phân loại mã HS theo `14/2015/TT-BTC` (sửa bởi `17/2021/TT-BTC`) và danh mục `31/2022/TT-BTC`; thuế GTGT hàng nhập khẩu đang có chính sách giảm suất theo `174/2025/NĐ-CP` (sổ ghi hết hiệu lực dự kiến `2026-12-31`).
+Thủ tục hải quan hàng xuất nhập khẩu nằm trên ba tầng văn bản hiện hành đã đối chiếu nguồn bậc A trong sổ đăng ký: **Luật Hải quan** `54/2014/QH13` (`CON_HIEU_LUC`, hợp nhất tại `54/VBHN-VPQH`; sẽ được sửa đổi bởi `11/2026/QH16` từ `2027-03-01`); **Nghị định** `08/2015/NĐ-CP` (`CON_HIEU_LUC`, đã được sửa đổi, bổ sung bởi `167/2025/NĐ-CP` hiệu lực từ `2025-08-15`, bãi bỏ `59/2018/NĐ-CP`); **Thông tư** `38/2015/TT-BTC` (`CON_HIEU_LUC`, được sửa đổi, bổ sung bởi `39/2018/TT-BTC`, `60/2019/TT-BTC`, `121/2025/TT-BTC` hiệu lực từ `2026-02-01` và bãi bỏ một phần quy định miễn thuế bởi `86/2026/TT-BTC` từ `2026-07-01`). Song song, phân loại mã HS áp dụng `85/2026/TT-BTC` (hiệu lực từ `2026-09-15`, thay thế `14/2015/TT-BTC` và `17/2021/TT-BTC`), quy trình ngành Hải quan theo `117/QĐ-CHQ` (năm 2026, bãi bỏ `1921/QĐ-TCHQ`), cùng Danh mục hàng hóa XNK Việt Nam `31/2022/TT-BTC`; Cơ chế một cửa quốc gia áp dụng `336/2026/NĐ-CP` (hiệu lực từ `2026-10-15`, thay thế `85/2019/NĐ-CP`); thuế GTGT hàng nhập khẩu đang có chính sách giảm suất 10% → 8% theo `204/2025/QH15` và `174/2025/NĐ-CP` (hết hiệu lực từ `2026-12-31`).
 
-> Trang tổng hợp từ **metadata sổ đăng ký** (`registry/van-ban/`). Hầu hết văn bản khung hải quan/thuế trong sổ còn `hieu_luc_da_doi_chieu: false` và chưa có toàn văn trong `raw/`. Đây **không phải tư vấn pháp lý** — đối chiếu nguồn bậc A trước khi khai báo.
+> Trang tổng hợp dựa trên **sổ đăng ký (`registry/van-ban/`) và toàn văn đã đối chiếu**. Các văn bản khung chính của Hải quan, Một cửa, Phân loại HS và Thuế GTGT nêu trên đều đã đạt `NGUON_A` (`hieu_luc_da_doi_chieu: true`) và có bản gốc trong `raw/`; riêng một số quy trình nội ngành Hải quan (`117/QĐ-CHQ`, `2169/QĐ-CHQ`, `2123/QĐ-CHQ`) đã nạp PDF ký số nhưng còn ở mức `NGUON_B` (`hieu_luc_da_doi_chieu: false`, `chan: THIEU_PDF_A` chờ URL `customs.gov.vn`). Đây **không phải tư vấn pháp lý** — luôn đối chiếu điều khoản gốc trước khi khai báo.
 
 ## Key themes
 
-- **Tầng thủ tục** — xem [[concepts/thu-tuc-hai-quan-xnk]]. Luật → nghị định hướng dẫn → thông tư chỉ tiêu khai. Sổ ghi `39/2018/TT-BTC` sửa `38/2015/TT-BTC`; ghi chú sổ nhắc chỉ tiêu mô tả hàng hoá (mục 1.78) là căn cứ nghiệp vụ thường dùng khi mô tả trên tờ khai.
-- **Phân loại mã HS** — xem [[concepts/phan-loai-ma-hs]]. Quy trình phân loại/phân tích: `14/2015/TT-BTC` + `17/2021/TT-BTC`. Danh mục hàng hoá XNK Việt Nam: `31/2022/TT-BTC` (nhánh `phan-loai-hs/danh-muc`). **Tiền thân** `49/2010/TT-BTC` ("Hướng dẫn việc phân loại, áp dụng mức thuế") đã nạp — xem [[sources/49-2010-tt-btc]].
-- **Quy chế phân loại của ngành Hải quan** — nhánh song song với Bộ Tài chính: `1628/QĐ-TCHQ` ("Quy chế phân tích, phân loại hàng hóa XNK trong ngành Hải quan", 2010) đã nạp — xem [[sources/1628-qd-tchq]]; chuỗi tiếp theo là `4023/QĐ-TCHQ` → `2131/QĐ-TCHQ` → `2999/QĐ-TCHQ` → `2166/QĐ-TCHQ` → `2169/QĐ-CHQ` (hiện hành).
-- **Thuế GTGT khi nhập** — xem [[concepts/thue-gtgt-hang-nhap-khau]]. Sổ ghi `174/2025/NĐ-CP` là chính sách giảm GTGT 10% → 8%, `tinh_trang: CON_HIEU_LUC`, `het_hieu_luc_tu: 2026-12-31` — cần theo dõi văn bản gia hạn/thay thế.
-- **Một cửa quốc gia sắp đổi khung** — `85/2019/NĐ-CP` (`hai-quan/mot-cua`) còn hiệu lực đến `2026-10-15`; bị `336/2026/NĐ-CP` thay thế từ cùng ngày (`tinh_trang: CHUA_CO_HIEU_LUC` tại thời điểm sổ ghi). Đọc quan hệ này theo [[concepts/doc-tinh-trang-hieu-luc]].
-- **Phân luồng tờ khai theo mức rủi ro** — xem [[concepts/thu-tuc-hai-quan-xnk]]. Quy định gốc là **Điều 22 TT 81/2019/TT-BTC** (Luồng 1 Xanh / Luồng 2 Vàng / Luồng 3 Đỏ theo rủi ro thấp – trung bình – cao), sửa bởi TT 06/2024/TT-BTC từ 15/03/2024 — xem [[sources/81-2019-tt-btc]] và [[sources/06-2024-tt-btc]].
+- **Tầng thủ tục** — xem [[concepts/thu-tuc-hai-quan-xnk]]. Chuỗi hiện hành gồm `54/2014/QH13` → `08/2015/NĐ-CP` (sửa bởi `167/2025/NĐ-CP`, bãi bỏ `59/2018/NĐ-CP`) → `38/2015/TT-BTC` (sửa bởi `39/2018/TT-BTC`, `121/2025/TT-BTC`). Chỉ tiêu mô tả hàng hoá trên tờ khai nhập khẩu (mục 1.78 Mẫu 01 Phụ lục II) được cập nhật tại `121/2025/TT-BTC`. Luật `11/2026/QH16` đã thông qua `2026-08-23`, hiện `CHUA_CO_HIEU_LUC` (sẽ có hiệu lực từ `2027-03-01`).
+- **Phân loại mã HS** — xem [[concepts/phan-loai-ma-hs]]. Quy trình phân loại, phân tích để phân loại hiện hành là `85/2026/TT-BTC` (`CON_HIEU_LUC` từ `2026-09-15`, thay thế toàn bộ `14/2015/TT-BTC` và `17/2021/TT-BTC` theo Điều 15 khoản 1; lưu ý chuyển tiếp cho máy liên hợp/tổ hợp máy đã đăng ký trước `2026-09-15` theo Điều 16 khoản 2). Danh mục hàng hoá XNK Việt Nam hiện hành: `31/2022/TT-BTC` (`CON_HIEU_LUC` từ `2022-12-01`). **Tiền thân** `49/2010/TT-BTC` ("Hướng dẫn việc phân loại, áp dụng mức thuế", đã `HET_HIEU_LUC` từ `2015-03-16`) đã nạp — xem [[sources/49-2010-tt-btc]].
+- **Quy trình phân loại của ngành Hải quan** — nhánh quy trình nội ngành hiện hành từ `2026-02-01` là `117/QĐ-CHQ` (ban hành `2026-01-20`, hiệu lực `2026-02-01`, `CON_HIEU_LUC`, nguồn B `THIEU_PDF_A`: Quy trình Xác định trước mã số; Kiểm tra tên hàng, mô tả hàng hóa, mã số, mức thuế, đơn vị tính trong thông quan; Thống nhất công tác phân loại), **bãi bỏ** `1921/QĐ-TCHQ` (`HET_HIEU_LUC` từ `2026-02-01`). Nhánh quy chế/quy trình phân tích, kiểm định đi qua chuỗi lịch sử `1628/QĐ-TCHQ` (đã hết hiệu lực từ `2013-12-09` — xem [[sources/1628-qd-tchq]]) → `4023/QĐ-TCHQ` (đã hết hiệu lực) → `2131/QĐ-TCHQ` (đã hết hiệu lực) → `2999/QĐ-TCHQ` & `2166/QĐ-TCHQ` (đã hết hiệu lực từ `2026-02-01`) → `2169/QĐ-CHQ` (`CON_HIEU_LUC` từ `2026-02-01`, nguồn B `THIEU_PDF_A`). Quy trình kiểm tra sau thông quan hiện hành là `2123/QĐ-CHQ` (`CON_HIEU_LUC` từ `2026-02-01`, nguồn B).
+- **Thuế GTGT khi nhập** — xem [[concepts/thue-gtgt-hang-nhap-khau]]. `204/2025/QH15` và `174/2025/NĐ-CP` quy định chính sách giảm thuế GTGT từ 10% → 8% đối với nhóm hàng hóa, dịch vụ chịu thuế 10% (trừ Phụ lục I và Phụ lục II), `CON_HIEU_LUC` từ `2025-07-01` và `het_hieu_luc_tu: 2026-12-31` — cần theo dõi văn bản gia hạn/thay thế cho thời gian sau `2026-12-31`.
+- **Một cửa quốc gia đã đổi khung** — từ `2026-10-15`, `336/2026/NĐ-CP` (`CON_HIEU_LUC`, `NGUON_A`) thay thế toàn bộ `85/2019/NĐ-CP` (`HET_HIEU_LUC` từ `2026-10-15` theo Điều 48 khoản 2 `336/2026/NĐ-CP`). Đọc quan hệ thay thế này theo [[concepts/doc-tinh-trang-hieu-luc]].
+- **Phân luồng tờ khai theo mức rủi ro** — xem [[concepts/thu-tuc-hai-quan-xnk]]. Quy định gốc là **Điều 22 TT `81/2019/TT-BTC`** (Luồng 1 Xanh / Luồng 2 Vàng / Luồng 3 Đỏ theo rủi ro thấp – trung bình – cao), sửa bởi `06/2024/TT-BTC` từ `2024-03-15` — xem [[sources/81-2019-tt-btc]] và [[sources/06-2024-tt-btc]].
+- **Cơ quan tiếp nhận sau sáp nhập** — xem [[concepts/co-quan-tiep-nhan-sau-sap-nhap]]. Ánh xạ 5 nhóm cơ quan kế thừa (`BNNPTNT`/`BTNMT`→`BNNMT`, `BTTTT`→`BKHCN`, `BGTVT`→`BXD`, `BLĐTBXH`→`BNV`, `TCHQ`→`CHQ`) để tra đúng ký hiệu cơ quan ban hành văn bản mới và nơi nộp hồ sơ.
 - **Nhãn hàng hoá là điểm mù riêng** — khung nhãn cũ (`43/2017/NĐ-CP`, `111/2021/NĐ-CP`) đã `HET_HIEU_LUC` từ `2026-01-23` theo quan hệ bãi bỏ của `37/2026/NĐ-CP` (cùng nghị định đặt [[concepts/muc-do-rui-ro-hang-hoa]]); văn bản đang điều chỉnh nhãn phụ tiếng Việt **chưa xác minh** trong sổ — xem [[concepts/nhan-hang-hoa-nhap-khau]].
 
 ## Sources covered
 
-Đã có trang `wiki/sources/` cho: `54/2014/QH13` → [[sources/54-vbhn-vpqh]], `08/2015/NĐ-CP` → [[sources/08-2015-nd-cp]], `38/2015/TT-BTC` → [[sources/38-2015-tt-btc]], `39/2018/TT-BTC` → [[sources/39-2018-tt-btc]], `85/2026/TT-BTC` → [[sources/85-2026-tt-btc]], `121/2025/TT-BTC` → [[sources/121-2025-tt-btc]], `11/2026/QH16` → [[sources/11-2026-qh16]], cùng 4 văn bản nạp trong PR #1: [[sources/49-2010-tt-btc]], [[sources/1628-qd-tchq]], [[sources/81-2019-tt-btc]] và [[sources/06-2024-tt-btc]].
+Đã có trang `wiki/sources/` cho: `54/2014/QH13` → [[sources/54-vbhn-vpqh]], `08/2015/NĐ-CP` → [[sources/08-2015-nd-cp]], `38/2015/TT-BTC` → [[sources/38-2015-tt-btc]], `39/2018/TT-BTC` → [[sources/39-2018-tt-btc]], `85/2026/TT-BTC` → [[sources/85-2026-tt-btc]], `121/2025/TT-BTC` → [[sources/121-2025-tt-btc]], `11/2026/QH16` → [[sources/11-2026-qh16]], cùng 4 văn bản lịch sử/quản lý rủi ro: [[sources/49-2010-tt-btc]], [[sources/1628-qd-tchq]], [[sources/81-2019-tt-btc]] và [[sources/06-2024-tt-btc]]. Ngoài ra trong `wiki/sources/` còn có trang riêng cho `167/2025/NĐ-CP`, `60/2019/TT-BTC`, `117/QĐ-CHQ`, `1921/QĐ-TCHQ`, `2123/QĐ-CHQ`, `174/2025/NĐ-CP`, `204/2025/QH15`, `37/2026/NĐ-CP`.
 
-Các số hiệu khác dẫn trong trang này đều có tệp trong `registry/van-ban/` nhưng **chưa có trang wiki** (toàn văn chưa nạp): `14/2015/TT-BTC`, `17/2021/TT-BTC`, `31/2022/TT-BTC`, `1921/QĐ-TCHQ`, `2999/QĐ-TCHQ`, `2166/QĐ-TCHQ`, `2169/QĐ-CHQ`.
+Các số hiệu khác dẫn trong trang này đều có tệp trong `registry/van-ban/` nhưng **chưa có trang wiki**: `31/2022/TT-BTC`, `336/2026/NĐ-CP`, `2169/QĐ-CHQ`, `86/2026/TT-BTC`, cùng các văn bản đã hết hiệu lực `14/2015/TT-BTC`, `17/2021/TT-BTC`, `85/2019/NĐ-CP`, `4023/QĐ-TCHQ`, `2131/QĐ-TCHQ`, `2999/QĐ-TCHQ`, `2166/QĐ-TCHQ`.
 
 ## Key concepts
 
@@ -44,15 +46,17 @@ Các số hiệu khác dẫn trong trang này đều có tệp trong `registry/v
 - [[concepts/nhan-hang-hoa-nhap-khau]]
 - [[concepts/muc-do-rui-ro-hang-hoa]]
 - [[concepts/doc-tinh-trang-hieu-luc]]
+- [[concepts/co-quan-tiep-nhan-sau-sap-nhap]]
 
 ## Open questions
 
-- Hồ sơ hải quan hàng nhập khẩu thương mại gồm những chứng từ nào theo điều/khoản cụ thể của `08/2015/NĐ-CP` / `38/2015/TT-BTC`? (cần toàn văn)
-- Xác định trước mã số: hồ sơ, thời hạn theo `14/2015/TT-BTC` (sửa `17/2021/TT-BTC`) — chưa trích điều. Bản nền `49/2010/TT-BTC` đã trích Điều 8-10 (phân loại trước) và Điều 23-24 (thông báo kết quả, sử dụng kết quả) — xem [[sources/49-2010-tt-btc]].
-- `4023/QĐ-TCHQ` (09/12/2013) — văn bản thay thế `1628/QĐ-TCHQ` — chưa có trong sổ, cần nạp để chốt chuỗi quy chế phân loại của ngành Hải quan.
-- Sau `2026-10-15`, dẫn chiếu từ `37/2026/NĐ-CP` sang Điều 17 `85/2019/NĐ-CP` sẽ lạc hậu thế nào so với `336/2026/NĐ-CP`?
-- Văn bản nào đang điều chỉnh nhãn phụ tiếng Việt sau khi `43/2017/NĐ-CP` hết hiệu lực?
+- Sau mốc `2026-10-15`, cần trích điều khoản `336/2026/NĐ-CP` và đối chiếu tác động đối với dẫn chiếu Điều 17 `85/2019/NĐ-CP` (đã hết hiệu lực) trong `37/2026/NĐ-CP`.
+- Cần trích `xac_minh.dieu_khoan` (nguyên văn bậc A) cho các văn bản khung đã có `NGUON_A` như `54/2014/QH13`, `08/2015/NĐ-CP`, `167/2025/NĐ-CP`, `38/2015/TT-BTC`, `39/2018/TT-BTC`, `121/2025/TT-BTC`, `336/2026/NĐ-CP`, `174/2025/NĐ-CP`.
+- Chờ `customs.gov.vn` mở truy cập tự động để gắn URL bậc A và nâng `117/QĐ-CHQ`, `2169/QĐ-CHQ`, `2123/QĐ-CHQ` từ `NGUON_B` lên `NGUON_A`.
+- Theo dõi văn bản mới sau `2026-12-31` khi `174/2025/NĐ-CP` và `204/2025/QH15` hết thời hạn giảm thuế GTGT 8%.
+- Văn bản nào đang điều chỉnh nhãn phụ tiếng Việt sau khi `43/2017/NĐ-CP` và `111/2021/NĐ-CP` hết hiệu lực từ `2026-01-23`?
+- Xác minh văn bản gốc quy định mốc chuyển đổi và thẩm quyền `TCHQ` → `CHQ`.
 
 ## Notes
 
-Trang này định hướng tra cứu theo sổ, không thay thế việc mở nguồn bậc A. Khi nạp toàn văn, ưu tiên `/lumi-ingest` cho `54/2014/QH13`, `08/2015/NĐ-CP`, `38/2015/TT-BTC`, `39/2018/TT-BTC`.
+Trang này định hướng tra cứu theo sổ đăng ký và wiki, không thay thế việc mở văn bản nguồn bậc A. Lưu ý: `336/2026/NĐ-CP`, `31/2022/TT-BTC`, `86/2026/TT-BTC`, `2169/QĐ-CHQ` hiện mới có hồ sơ trong `registry/van-ban/` và toàn văn `raw/`, chưa có trang riêng trong `wiki/sources/`.

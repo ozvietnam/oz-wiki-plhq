@@ -3,11 +3,19 @@
 //   dist/registry.json      — toàn bộ văn bản + cạnh ngược tính sẵn, cho máy khác dùng (vd hs-code-api)
 //   bao-cao/cay-van-ban.md  — cây dữ liệu XNK kèm văn bản và tình trạng
 //   bao-cao/quan-he.md      — đồ thị cũ–mới (thay thế, sửa đổi, bãi bỏ, tạm ngưng) theo nhánh, dạng Mermaid
-//   dist/hs-index.json      — bảng mã HS ↔ văn bản từ danh-muc/*.csv (docs/luoc-do-danh-muc-hs.md)
-import { writeFileSync, mkdirSync, readFileSync, readdirSync, existsSync } from 'node:fs';
-import { join } from 'node:path';
+//   dist/hs-index.json        — bảng mã HS ↔ văn bản từ danh-muc/*.csv (docs/luoc-do-danh-muc-hs.md)
+//   dist/hs-index-theo-ma.json — bản đảo chiều mã HS → văn bản áp
+//   dist/wiki-index.json      — chỉ mục trang wiki/ (summary, concepts, sources)
+//   dist/wiki-chunks.json     — các đoạn nội dung wiki/ gắn hiệu lực văn bản liên quan
+//   dist/dieu-khoan.json      — điều khoản nguyên văn nguồn A + tóm tắt nháp doc-hieu
+//   dist/cas-index.json       — chỉ mục hóa chất theo mã CAS từ danh-muc/*-cas.csv
+import { writeFileSync, mkdirSync, readFileSync, readdirSync } from 'node:fs';
+import { join, resolve } from 'node:path';
+import { pathToFileURL } from 'node:url';
 import { napSo, khoa, chuanCanh, dungDoThi, homNay, bacNguon, ROOT, QUAN_HE, LUOC_DO_PHIEN_BAN } from './lib/registry.mjs';
 import { dungChiMuc, dungChiMucTheoMa, docBieuThue } from './lib/danh-muc.mjs';
+import { dungWikiDist } from './lib/wiki-dist.mjs';
+import { dungDieuKhoan, dungCasIndex } from './lib/dieu-khoan-dist.mjs';
 
 const BIEU_TUONG = {
   CON_HIEU_LUC: '🟢', HET_HIEU_LUC: '⚫', HET_HIEU_LUC_MOT_PHAN: '🟡', TAM_NGUNG_HIEU_LUC: '⏸️',
@@ -108,21 +116,27 @@ export function veQuanHe(so, today = homNay()) {
   return lines.join('\n');
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
+  const argVal = (flag) => {
+    const i = process.argv.indexOf(flag);
+    return i !== -1 && process.argv[i + 1] ? resolve(process.argv[i + 1]) : null;
+  };
+  const inRoot = argVal('--root') || ROOT;
+  const outRoot = argVal('--out') || inRoot;
   const today = homNay();
-  const so = napSo();
-  mkdirSync(join(ROOT, 'dist'), { recursive: true });
-  mkdirSync(join(ROOT, 'bao-cao'), { recursive: true });
-  writeFileSync(join(ROOT, 'dist', 'registry.json'), JSON.stringify(dungJson(so, today), null, 2) + '\n');
-  writeFileSync(join(ROOT, 'bao-cao', 'cay-van-ban.md'), veCay(so, today) + '\n');
-  writeFileSync(join(ROOT, 'bao-cao', 'quan-he.md'), veQuanHe(so, today) + '\n');
-  const cm = dungChiMuc(so, ROOT, today);
-  writeFileSync(join(ROOT, 'dist', 'hs-index.json'), JSON.stringify(cm, null, 1) + '\n');
+  const so = napSo(inRoot);
+  mkdirSync(join(outRoot, 'dist'), { recursive: true });
+  mkdirSync(join(outRoot, 'bao-cao'), { recursive: true });
+  writeFileSync(join(outRoot, 'dist', 'registry.json'), JSON.stringify(dungJson(so, today), null, 2) + '\n');
+  writeFileSync(join(outRoot, 'bao-cao', 'cay-van-ban.md'), veCay(so, today) + '\n');
+  writeFileSync(join(outRoot, 'bao-cao', 'quan-he.md'), veQuanHe(so, today) + '\n');
+  const cm = dungChiMuc(so, inRoot, today);
+  writeFileSync(join(outRoot, 'dist', 'hs-index.json'), JSON.stringify(cm, null, 1) + '\n');
   console.log(`dist/hs-index.json (${cm.van_ban.length} bảng, ${cm.van_ban.reduce((n, v) => n + v.dong.length, 0)} dòng)`);
   // v2: đối chiếu nhóm mã với biểu thuế + mật độ tiền lệ TB-TCHQ (hai nguồn tiền lệ vắng thì bỏ qua phần đó).
   const tienLe8 = (() => {
     try {
-      const dong = readFileSync(join(ROOT, 'danh-muc', 'tb-tchq-hs-lookup.csv'), 'utf8').trim().split('\n');
+      const dong = readFileSync(join(inRoot, 'danh-muc', 'tb-tchq-hs-lookup.csv'), 'utf8').trim().split('\n');
       const m = {};
       for (let i = 1; i < dong.length; i++) {
         const [hs, dem, mau, ngay] = dong[i].split(',');
@@ -134,15 +148,25 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   })();
   const tienLe4 = (() => {
     try {
-      const f = readdirSync(join(ROOT, 'data', 'customs', 'processed')).filter((x) => /^tracuuhs-ket-qua-phan-loai-.*\.json$/.test(x)).sort().pop();
-      const ds = JSON.parse(readFileSync(join(ROOT, 'data', 'customs', 'processed', f), 'utf8'));
+      const f = readdirSync(join(inRoot, 'data', 'customs', 'processed')).filter((x) => /^tracuuhs-ket-qua-phan-loai-.*\.json$/.test(x)).sort().pop();
+      const ds = JSON.parse(readFileSync(join(inRoot, 'data', 'customs', 'processed', f), 'utf8'));
       const m = {};
       for (const x of ds) { const k = String(x.nhom_hs || '').replace(/\./g, ''); if (k.length === 4) m[k] = (m[k] || 0) + 1; }
       return Object.keys(m).length ? m : null;
     } catch { return null; }
   })();
-  const cmMa = dungChiMucTheoMa(cm, { bt: docBieuThue(ROOT), tienLe8, tienLe4 });
-  writeFileSync(join(ROOT, 'dist', 'hs-index-theo-ma.json'), JSON.stringify(cmMa, null, 1) + '\n');
+  const cmMa = dungChiMucTheoMa(cm, { bt: docBieuThue(inRoot), tienLe8, tienLe4 });
+  writeFileSync(join(outRoot, 'dist', 'hs-index-theo-ma.json'), JSON.stringify(cmMa, null, 1) + '\n');
   console.log(`dist/hs-index-theo-ma.json (${cmMa.tong_nhom_ma} nhóm mã, ${cmMa.tong_canh} cạnh mã↔văn bản${cmMa.bieu_thue_doi_chieu ? `, ${cmMa.bieu_thue_doi_chieu.nhom_ngoai_bieu_thue} nhóm ngoài biểu thuế` : ''})`);
+  const { index: wikiIndex, chunks: wikiChunks } = dungWikiDist(so, inRoot, today);
+  writeFileSync(join(outRoot, 'dist', 'wiki-index.json'), JSON.stringify(wikiIndex, null, 1) + '\n');
+  writeFileSync(join(outRoot, 'dist', 'wiki-chunks.json'), JSON.stringify(wikiChunks, null, 1) + '\n');
+  console.log(`dist/wiki-index.json (${wikiIndex.tong} trang) · dist/wiki-chunks.json (${wikiChunks.tong} đoạn)`);
+  const dieuKhoan = dungDieuKhoan(so, inRoot, today);
+  writeFileSync(join(outRoot, 'dist', 'dieu-khoan.json'), JSON.stringify(dieuKhoan, null, 1) + '\n');
+  console.log(`dist/dieu-khoan.json (${dieuKhoan.thong_ke.so_van_ban_nguon_a} VB nguồn A / ${dieuKhoan.thong_ke.so_dieu_khoan_nguon_a} điều khoản, ${dieuKhoan.thong_ke.so_van_ban_tom_tat_nhap} VB tóm tắt nháp / ${dieuKhoan.thong_ke.so_dieu_khoan_tom_tat_nhap} mục)`);
+  const casIndex = dungCasIndex(so, inRoot, today);
+  writeFileSync(join(outRoot, 'dist', 'cas-index.json'), JSON.stringify(casIndex, null, 1) + '\n');
+  console.log(`dist/cas-index.json (${casIndex.thong_ke.so_ma_cas_duy_nhat} mã CAS, ${casIndex.thong_ke.so_dong_khong_co_cas} dòng không CAS)`);
   console.log(`dist/registry.json · bao-cao/cay-van-ban.md · bao-cao/quan-he.md (${so.vanBan.length} văn bản)`);
 }
