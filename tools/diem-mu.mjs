@@ -186,7 +186,7 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
 
     // D2 — không có nguồn bậc A (ưu tiên văn bản được biểu thuế dẫn nhiều)
     if (!coA) {
-      const nang = (d.trich_dan_trong_bieu_thue || 0) >= 50 || d.tinh_trang === 'CON_HIEU_LUC';
+      const nang = !d.xac_minh?.chan?.ma && ((d.trich_dan_trong_bieu_thue || 0) >= 50 || d.tinh_trang === 'CON_HIEU_LUC');
       add('KHONG_NGUON_A', nang ? MUC.VUA : MUC.THAP, `${d.so_hieu}: chưa có nguồn chính thống${d.xac_minh?.muc === 'NGUON_THU_CAP' ? ' (đang dựa vào nguồn thứ cấp)' : ''}`, d.so_hieu,
         'Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.', 'truy-vet-nguon');
     }
@@ -195,7 +195,7 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
 
     // D3 — hiệu lực chưa đối chiếu nguồn A
     if (!d.xac_minh?.hieu_luc_da_doi_chieu) {
-      add('HIEU_LUC_CHUA_DOI_CHIEU', (d.trich_dan_trong_bieu_thue || 0) >= 100 ? MUC.VUA : MUC.THAP,
+      add('HIEU_LUC_CHUA_DOI_CHIEU', !d.xac_minh?.chan?.ma && (d.trich_dan_trong_bieu_thue || 0) >= 100 ? MUC.VUA : MUC.THAP,
         `${d.so_hieu}: tình trạng "${d.tinh_trang}" chưa đối chiếu nguồn A`, d.so_hieu,
         'Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.', 'hieu-luc');
     }
@@ -204,12 +204,12 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
       add('XAC_MINH_CU', MUC.THAP, `${d.so_hieu}: lần đối chiếu cuối ${d.xac_minh.ngay}`, d.so_hieu, 'Đối chiếu lại hiệu lực.', 'hieu-luc');
     }
     // D9 — chưa có toàn văn
-    if (!d.toan_van && d.tinh_trang !== 'HET_HIEU_LUC') {
+    if (!d.toan_van && d.tinh_trang !== 'HET_HIEU_LUC' && !d.xac_minh?.chan?.ma) {
       add('KHONG_TOAN_VAN', (d.trich_dan_trong_bieu_thue || 0) >= 100 || d.loai === 'LUAT' ? MUC.VUA : MUC.THAP,
         `${d.so_hieu}: chưa có toàn văn trong raw/`, d.so_hieu, `node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "${d.so_hieu}" --ghi`, 'nap-lam-sach');
     }
     // D10 — văn bản khung
-    if (/^\(chưa có tiêu đề\)/.test(d.ten || '')) add('VAN_BAN_KHUNG', MUC.VUA, `${d.so_hieu}: chưa có tiêu đề, ngày, nguồn`, d.so_hieu, 'Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.', 'he-thong-hoa');
+    if (/^\(chưa có tiêu đề\)/.test(d.ten || '') && !d.xac_minh?.chan?.ma) add('VAN_BAN_KHUNG', MUC.VUA, `${d.so_hieu}: chưa có tiêu đề, ngày, nguồn`, d.so_hieu, 'Bổ sung ten, ngay_ban_hanh, hieu_luc_tu, nguon.', 'he-thong-hoa');
     // D8 — chưa xếp vào cây
     if ((d.nhanh || []).includes('chua-phan-loai')) add('CHUA_PHAN_LOAI', MUC.THAP, `${d.so_hieu}: chưa xếp vào cây`, d.so_hieu, 'Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.', 'cay-du-lieu');
     // D14 — cơ quan đã sáp nhập nhưng văn bản còn hiệu lực
@@ -260,7 +260,7 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
   const daCoBang = new Set(bangDm.map((it) => khoa(it.vanBan.so_hieu)));
   const soMaDan = new Map((nhuCau?.vanBanDuocDan || []).map((v) => [khoa(v.soHieu), v.soMaHs]));
   for (const d of so.vanBan) {
-    if (daCoBang.has(khoa(d.so_hieu)) || !laVanBanDanhMuc(d, so)) continue;
+    if (daCoBang.has(khoa(d.so_hieu)) || !laVanBanDanhMuc(d, so) || d.xac_minh?.chan?.ma) continue;
     const dan = soMaDan.get(khoa(d.so_hieu)) || d.trich_dan_trong_bieu_thue || 0;
     const ktcn2026 = (d.nhanh || []).some((n) => n.startsWith('kiem-tra-chuyen-nganh')) && String(d.hieu_luc_tu || '') >= '2026-07-01';
     add('DANH_MUC_CHUA_TRICH', ktcn2026 || dan >= 50 ? MUC.CAO : MUC.VUA, `Chưa trích bảng mã HS: ${d.so_hieu}`, d.so_hieu,
