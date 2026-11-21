@@ -26,7 +26,63 @@ xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF Công báo CDN: Điều 5 khoản 1 hiệu lực 18-07-2021; tình trạng hiện tại: Điều 7 khoản 2 điểm a TT 16/2026/TT-BNV (PDF datafiles ký số, lớp chữ) cho hết hiệu lực kể từ ngày TT 16 có hiệu lực (28-07-2026 trên sổ)'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Thông tư này quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội (sau đây gọi chung là sản phẩm, hàng hóa nhóm 2) kèm theo mã hàng hóa (HS) và biện pháp kiểm tra nhà nước về chất lượng sản phẩm, hàng hóa nhóm 2 nhập khẩu.'
+      trang_pdf: 2
+      sha256_pdf: dd2a584dd16b017de19b9a398930e1e1853ae2603d8d4f64c7f894f1313195f4
+    - dieu: 2
+      khoan: 1
+      noi_dung: '1. Các tổ chức, cá nhân trong nước và nước ngoài hoạt động trên lãnh thổ Việt Nam sản xuất, nhập khẩu, kinh doanh, sử dụng các sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội.'
+      trang_pdf: 2
+      sha256_pdf: dd2a584dd16b017de19b9a398930e1e1853ae2603d8d4f64c7f894f1313195f4
+    - dieu: 2
+      khoan: 2
+      noi_dung: '2. Tổ chức, cá nhân liên quan đến hoạt động quản lý, đánh giá, chứng nhận chất lượng sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội.'
+      trang_pdf: 2
+      sha256_pdf: dd2a584dd16b017de19b9a398930e1e1853ae2603d8d4f64c7f894f1313195f4
+    - dieu: 3
+      noi_dung: 'Điều 3. Danh mục sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội Ban hành kèm theo Thông tư này Danh mục sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội và mã HS của sản phẩm, hàng hóa.'
+      trang_pdf: 2
+      sha256_pdf: dd2a584dd16b017de19b9a398930e1e1853ae2603d8d4f64c7f894f1313195f4
+    - dieu: 4
+      khoan: 1
+      noi_dung: '1. Các sản phẩm, hàng hóa phải thực hiện việc kiểm tra nhà nước về chất lượng khi nhập khẩu được quy định tại Mục I, Danh mục sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội ban hành kèm theo Thông tư này. Việc kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu được thực hiện theo quy định tại khoản 2b Điều 7 Nghị định số 132/2008/NĐ-CP ngày 31 tháng 12 năm 2008 của Chính phủ quy định chi tiết một số điều của Luật Chất lượng sản phẩm, hàng hóa được bổ sung theo quy định tại khoản 3 Điều 1 của Nghị định số 74/2018/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định số 132/2008/NĐ-CP ngày 31 tháng 12 năm 2008 của Chính phủ quy định chi tiết thi hành một số điều Luật Chất lượng sản phẩm, hàng hóa.'
+      trang_pdf: 2
+      sha256_pdf: dd2a584dd16b017de19b9a398930e1e1853ae2603d8d4f64c7f894f1313195f4
+    - dieu: 4
+      khoan: 2
+      noi_dung: '2. Các sản phẩm, hàng hóa không phải thực hiện việc kiểm tra nhà nước về chất lượng khi nhập khẩu được quy định tại Mục II, Danh mục sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội ban hành kèm theo Thông tư này.'
+      trang_pdf: 3
+      sha256_pdf: dd2a584dd16b017de19b9a398930e1e1853ae2603d8d4f64c7f894f1313195f4
+    - dieu: 5
+      khoan: 1
+      noi_dung: '1. Thông tư này có hiệu lực thi hành kể từ ngày 18 tháng 7 năm 2021.'
+      trang_pdf: 3
+      sha256_pdf: dd2a584dd16b017de19b9a398930e1e1853ae2603d8d4f64c7f894f1313195f4
+    - dieu: 5
+      khoan: 2
+      noi_dung: '2. Thông tư số 22/2018/TT-BLĐTBXH ngày 06 tháng 12 năm 2018 của Bộ trưởng Bộ Lao động - Thương binh và Xã hội quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội hết hiệu lực kể từ ngày Thông tư này có hiệu lực.'
+      trang_pdf: 3
+      sha256_pdf: dd2a584dd16b017de19b9a398930e1e1853ae2603d8d4f64c7f894f1313195f4
+    - dieu: 5
+      khoan: 3
+      noi_dung: '3. Các quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với các sản phẩm, hàng hóa thuộc Mục II, Danh mục sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội ban hành kèm theo Thông tư này có quy định phải kiểm tra chất lượng khi nhập khẩu thì thực hiện theo quy định tại khoản 2 Điều 4 Thông tư này.'
+      trang_pdf: 3
+      sha256_pdf: dd2a584dd16b017de19b9a398930e1e1853ae2603d8d4f64c7f894f1313195f4
+    - dieu: 6
+      khoan: 1
+      noi_dung: '1. Trường hợp các văn bản quy phạm pháp luật, các tiêu chuẩn được viện dẫn trong Thông tư này được sửa đổi, bổ sung hoặc thay thế thì thực hiện theo văn bản mới.'
+      trang_pdf: 3
+      sha256_pdf: dd2a584dd16b017de19b9a398930e1e1853ae2603d8d4f64c7f894f1313195f4
+    - dieu: 6
+      khoan: 2
+      noi_dung: '2. Trong quá trình thực hiện, nếu có khó khăn vướng mắc, các cơ quan, tổ chức, cá nhân phản ánh về Bộ Lao động - Thương binh và Xã hội để nghiên cứu, giải quyết./.'
+      trang_pdf: 3
+      sha256_pdf: dd2a584dd16b017de19b9a398930e1e1853ae2603d8d4f64c7f894f1313195f4
 ghi_chu: 'Nhập từ hs-code-api (123 mã HS). Hết hiệu lực do TT 16/2026/TT-BNV thay danh mục rủi ro Bộ Nội vụ.'
-toan_van: raw/download/congbaocdn.chinhphu.vn/01-2021-tt-bldtbxh.pdf
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/01-2021-tt-bldtbxh.pdf
+  - wiki/sources/01-2021-tt-bldtbxh.md
