@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-21).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 2153,
+ "tong": 2194,
  "chunks": [
   {
    "chunk_id": "dong-bo-quan-diem-phan-loai#1",
@@ -21773,6 +21773,507 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "08-2023-tt-bct#1",
+   "slug": "08-2023-tt-bct",
+   "duong_dan": "wiki/sources/08-2023-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 08/2023/TT-BCT — Sửa đổi Danh mục chi tiết theo mã số HS hàng hóa xuất nhập khẩu của Bộ Công Thương",
+   "muc": "Summary",
+   "noi_dung": "**Thông tư 08/2023/TT-BCT** do Thứ trưởng Bộ Công Thương Nguyễn Sinh Nhật Tân ký ban hành ngày **31/03/2023**, có hiệu lực thi hành từ ngày **16/05/2023**, sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS (theo Danh mục AHTN 2022) của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo **Thông tư 12/2018/TT-BCT** ngày 15/06/2018 và **Thông tư 41/2019/TT-BCT** ngày 16/12/2019 của Bộ trưởng Bộ Công Thương.\n\nVăn bản gồm **3 điều và 5 Phụ lục** (đã trích xuất 464 dòng dữ liệu mã HS tại `danh-muc/08-2023-tt-bct.csv`, được biểu thuế XNK dẫn chiếu tại 1.964 mã HS). Từ ngày **05/09/2026**, khoản 1 Điều 1 và Phụ lục I của Thông tư bị bãi bỏ theo điểm c khoản 3 Điều 20 **Thông tư 48/2026/TT-BCT**; tuy nhiên theo khoản 3 Điều 21 Thông tư 48/2026/TT-BCT, Danh mục thiết bị y tế đã qua sử dụng cấm nhập khẩu tại Phụ lục I vẫn tiếp tục được áp dụng chuyển tiếp đến hết ngày **31/12/2026**, và các quy định còn lại (khoản 2 Điều 1, Điều 2 và các Phụ lục II, III, IV, V) **vẫn đang còn hiệu lực** (`HET_HIEU_LUC_MOT_PHAN`).",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "hang-cu-cam-nhap-khau",
+    "tam-nhap-tai-xuat",
+    "ma-hs",
+    "sua-doi"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "08/2023/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2023-05-16",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?classid=1&docid=207706&orggroupid=4&pageid=27160"
+    },
+    {
+     "so_hieu": "12/2018/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2018-06-15",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-12-2018-tt-bct-26878/23046.htm"
+    },
+    {
+     "so_hieu": "41/2019/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2020-01-29",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://vbpl.vn/search?q=41%2F2019%2FTT-BCT"
+    },
+    {
+     "so_hieu": "48/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-48-2026-tt-bct-470460.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "08-2023-tt-bct#2",
+   "slug": "08-2023-tt-bct",
+   "duong_dan": "wiki/sources/08-2023-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 08/2023/TT-BCT — Sửa đổi Danh mục chi tiết theo mã số HS hàng hóa xuất nhập khẩu của Bộ Công Thương",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 31/03/2023 | Bộ trưởng Bộ Công Thương ban hành Thông tư 08/2023/TT-BCT |\n| 16/05/2023 | **Có hiệu lực thi hành** (theo khoản 1 Điều 3); thay thế Phụ lục I và Phụ lục II của Thông tư 12/2018/TT-BCT; thay thế Phụ lục I, Phụ lục VI và Phụ lục VII của Thông tư 41/2019/TT-BCT |\n| 05/09/2026 | Điểm c khoản 3 Điều 20 **Thông tư 48/2026/TT-BCT** bãi bỏ **khoản 1 Điều 1 và Phụ lục I** của Thông tư 08/2023/TT-BCT (phần Danh mục hàng tiêu dùng, phương tiện đã qua sử dụng cấm nhập khẩu chuyển sang Phụ lục I, II của Thông tư 48/2026/TT-BCT) |\n| 05/09/2026 – 31/12/2026 | Theo khoản 3 Điều 21 **Thông tư 48/2026/TT-BCT**, Danh mục **thiết bị y tế đã qua sử dụng cấm nhập khẩu** (Mục III Phụ lục I Thông tư 08/2023/TT-BCT, gồm các nhóm `9018`–`9022`) tiếp tục được thực hiện đến hết ngày **31/12/2026** |\n| Hiện tại | **Hết hiệu lực một phần (`HET_HIEU_LUC_MOT_PHAN`)**: Khoản 2 Điều 1 (Phụ lục II), Điều 2 (Phụ lục III, IV, V) và điều khoản chuyển tiếp Mục III Phụ lục I (đến 31/12/2026) đang còn hiệu lực |",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "hang-cu-cam-nhap-khau",
+    "tam-nhap-tai-xuat",
+    "ma-hs",
+    "sua-doi"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "08/2023/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2023-05-16",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?classid=1&docid=207706&orggroupid=4&pageid=27160"
+    },
+    {
+     "so_hieu": "12/2018/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2018-06-15",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-12-2018-tt-bct-26878/23046.htm"
+    },
+    {
+     "so_hieu": "41/2019/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2020-01-29",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://vbpl.vn/search?q=41%2F2019%2FTT-BCT"
+    },
+    {
+     "so_hieu": "48/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-48-2026-tt-bct-470460.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "08-2023-tt-bct#3",
+   "slug": "08-2023-tt-bct",
+   "duong_dan": "wiki/sources/08-2023-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 08/2023/TT-BCT — Sửa đổi Danh mục chi tiết theo mã số HS hàng hóa xuất nhập khẩu của Bộ Công Thương",
+   "muc": "Cấu trúc (3 điều và 5 Phụ lục)",
+   "noi_dung": "| Phần | Nội dung | Văn bản được sửa đổi & Tình trạng hiện tại |\n|---|---|---|\n| Điều 1 khoản 1 & **Phụ lục I** | Thay thế Phụ lục I (Điều 3 Thông tư 12/2018/TT-BCT): **Danh mục hàng tiêu dùng, thiết bị y tế, phương tiện đã qua sử dụng cấm nhập khẩu** (trang 19–32 Công báo) | Đã bị bãi bỏ từ 05/09/2026 bởi [[sources/48-2026-tt-bct]] (riêng Mục III — thiết bị y tế đã qua sử dụng nhóm `9018`–`9022` chuyển tiếp đến hết 31/12/2026) |\n| Điều 1 khoản 2 & **Phụ lục II** | Thay thế Phụ lục II (khoản 1 Điều 4 Thông tư 12/2018/TT-BCT): **Danh mục hàng hóa tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu** (trang 33–49 Công báo) | **Đang còn hiệu lực** (chỉ áp dụng đối với hàng hóa đã qua sử dụng) |\n| Điều 2 khoản 1 & **Phụ lục III** | Thay thế Phụ lục I (Điều 1 Thông tư 41/2019/TT-BCT): **Danh mục chi tiết theo mã HS đối với thóc, gạo xuất khẩu** (trang 50 Công báo) | **Đang còn hiệu lực** (nhóm `10.06` — 14 mã HS 8 số) |\n| Điều 2 khoản 2 & **Phụ lục IV** | Thay thế Phụ lục VI (khoản 1 Điều 6 Thông tư 41/2019/TT-BCT): **Danh mục chi tiết theo mã HS đối với nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá** (trang 51–53 Công báo) | **Đang còn hiệu lực** (nhóm `24.01`, `24.03`, `48.13` — 36 mã HS 8 số) |\n| Điều 2 khoản 3 & **Phụ lục V** | Thay thế Phụ lục VII (khoản 2 Điều 6 Thông tư 41/2019/TT-BCT): **Danh mục chi tiết theo mã HS đối với máy móc, thiết bị chuyên ngành thuốc lá** (trang 54–55 Công báo) | **Đang còn hiệu lực** (4 dây chuyền công nghệ thuộc các mã `8478.10.10`, `8478.90.00`, `8423.20.10`, `8422.40.00`) |\n| Điều 3 | Hiệu lực thi hành (từ ngày 16/05/2023) và tổ chức thực hiện | **Đang còn hiệu lực** |",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "hang-cu-cam-nhap-khau",
+    "tam-nhap-tai-xuat",
+    "ma-hs",
+    "sua-doi"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "12/2018/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2018-06-15",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-12-2018-tt-bct-26878/23046.htm"
+    },
+    {
+     "so_hieu": "41/2019/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2020-01-29",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://vbpl.vn/search?q=41%2F2019%2FTT-BCT"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "08-2023-tt-bct#4",
+   "slug": "08-2023-tt-bct",
+   "duong_dan": "wiki/sources/08-2023-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 08/2023/TT-BCT — Sửa đổi Danh mục chi tiết theo mã số HS hàng hóa xuất nhập khẩu của Bộ Công Thương",
+   "muc": "Nội dung chi tiết các điều và 5 Phụ lục > Điều 1. Sửa đổi, bổ sung một số điều của Thông tư 12/2018/TT-BCT",
+   "noi_dung": "#### 1. Phụ lục I — Danh mục hàng tiêu dùng, thiết bị y tế, phương tiện đã qua sử dụng cấm nhập khẩu *(đã bãi bỏ từ 05/09/2026, trừ Mục III chuyển tiếp đến hết 31/12/2026)*\n- **Nguyên tắc áp dụng (5 nguyên tắc):**\n  1. Liệt kê mã 2 số → toàn bộ mã 8 số thuộc Chương đó bị cấm nhập khẩu.\n  2. Liệt kê mã 4 số → toàn bộ mã 8 số thuộc nhóm 4 số đó bị cấm nhập khẩu.\n  3. Liệt kê mã 6 số → toàn bộ mã 8 số thuộc phân nhóm 6 số đó bị cấm nhập khẩu.\n  4. Liệt kê chi tiết đến mã 8 số → chỉ những mã 8 số đó bị cấm nhập khẩu.\n  5. Đối với mặt hàng tiêu dùng đã qua sử dụng cấm nhập khẩu thì **phụ tùng, linh kiện qua sử dụng (nếu có)** của những mặt hàng đó cũng cấm nhập khẩu.\n- **Ba mục hàng hóa trong Phụ lục I:**\n  - **Mục I — Danh mục hàng tiêu dùng đã qua sử dụng cấm nhập khẩu:** Trải rộng trên các Chương 39, 40, 42, 43, 44, toàn bộ Chương 46, 48, 49, 50, 51, 52, 53, 54, 55, toàn bộ Chương 57, 58, 60, 61, 62, 63, toàn bộ Chương 64 (trừ nhóm `6406`), 65, 66, 67, 69, 70, 71, 73, 74, 76, 82, 83, 84, 85, 90 (`9004.10.00`), 91, 94, 95, 96. *(Từ 05/09/2026 đã chuyển sang áp dụng theo Phụ lục I của [[sources/48-2026-tt-bct]]).*\n  - **Mục II — Danh mục phương tiện đã qua sử dụng cấm nhập khẩu:** Nhóm `8711` (mô tô, xe gắn máy có bàn đạp), nhóm `8712` (xe đạp hai bánh và xe đạp khác không lắp động cơ, **trừ xe đạp đua mã HS `8712.00.10`**), nhóm `8714` (bộ phận và phụ kiện của xe thuộc nhóm `8711` đến `8713`, **trừ bộ phận và phụ tùng của nhóm `8713`**). *(Từ 05/09/2026 đã chuyển sang áp dụng theo Phụ lục II của [[sources/48-2026-tt-bct]]).*\n  - **Mục III — Danh mục thiết bị y tế đã qua sử dụng cấm nhập khẩu *(đang áp dụng chuyển tiếp đến hết ngày 31/12/2026 theo khoản 3 Điều 21 Thông tư 48/2026/TT-BCT)*:**\n    - Nhóm **`9018`**: Thiết bị và dụng cụ dùng cho ngành y, phẫu thuật, nha khoa hoặc thú y, kể cả thiết bị ghi biểu đồ nhấp nháy, thiết bị điện y học khác và thiết bị kiểm tra thị lực.\n    - Nhóm **`9019`**: Thiết bị trị liệu cơ học; máy xoa bóp; máy thử nghiệm trạng thái tâm lý; máy trị liệu bằng ôzôn, bằng ô xy, bằng xông, máy hô hấp nhân tạo hoặc máy hô hấp trị liệu khác.\n    - Nhóm **`9020`**: Thiết bị thở và mặt nạ phòng khí khác, trừ các mặt nạ bảo hộ mà không có bộ phận cơ khí hoặc không có phin lọc có thể thay thế được.\n    - Nhóm **`9021`**: Dụng cụ chỉnh hình, kể cả nạng, băng dùng trong phẫu thuật và băng cố định; nẹp và các dụng cụ cố định vết gẫy khác; các bộ phận nhân tạo của cơ thể người; thiết bị trợ thính và dụng cụ khác được lắp hoặc mang theo, hoặc cấy vào cơ thể.\n    - Nhóm **`9022`**: Thiết bị sử dụng tia X hoặc tia phóng xạ alpha, beta, gamma hoặc các bức xạ ion hóa khác, có hoặc không dùng cho mục đích y học, phẫu thuật, nha khoa hoặc thú y.\n\n#### 2. Phụ lục II — Danh mục hàng hóa tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu *(đang còn hiệu lực)*\n- **Nguyên tắc cốt lõi:** **Danh mục chỉ áp dụng đối với hàng hóa đã qua sử dụng** (nguyên tắc 1); áp dụng quy tắc mở rộng theo cấp mã 2 số, 4 số, 6 số và 8 số (nguyên tắc 2–5).\n- **Phạm vi chương/nhóm mã HS (trang 33–49 Công báo):** Bao gồm các mặt hàng tiêu dùng, điện tử, điện lạnh, gia dụng, phương tiện đã qua sử dụng thuộc các Chương 39, 40, 42, 43, 44, toàn bộ Chương 46, 48, 49, 50, 51, 52, 53, 54, 55, toàn bộ Chương 57, 58, 60, 61, 62, 63, toàn bộ Chương 64 (trừ nhóm `6406`), 65, 66, 67, 69, 70, 71, 73, 74, 76, 82, 83, 84, 85, 87 (`8711`, `8712` trừ `8712.00.10`, `8714` trừ bộ phận của `8713`), 90 (`9004.10.00`), 91, 94, 95, 96.",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "hang-cu-cam-nhap-khau",
+    "tam-nhap-tai-xuat",
+    "ma-hs",
+    "sua-doi"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "12/2018/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2018-06-15",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-12-2018-tt-bct-26878/23046.htm"
+    },
+    {
+     "so_hieu": "48/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-48-2026-tt-bct-470460.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "08-2023-tt-bct#5",
+   "slug": "08-2023-tt-bct",
+   "duong_dan": "wiki/sources/08-2023-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 08/2023/TT-BCT — Sửa đổi Danh mục chi tiết theo mã số HS hàng hóa xuất nhập khẩu của Bộ Công Thương",
+   "muc": "Nội dung chi tiết các điều và 5 Phụ lục > Điều 2. Sửa đổi, bổ sung một số điều của Thông tư 41/2019/TT-BCT *(đang còn hiệu lực)*",
+   "noi_dung": "#### 1. Phụ lục III — Danh mục chi tiết theo mã HS đối với thóc, gạo xuất khẩu (thay thế Phụ lục I Thông tư 41/2019/TT-BCT)\nChi tiết toàn bộ nhóm **`10.06` (Lúa gạo)** gồm **14 mã HS 8 số**:\n- **Thóc (`1006.10`):** `1006.10.10` (phù hợp để gieo trồng), `1006.10.90` (loại khác).\n- **Gạo lứt (`1006.20`):** `1006.20.10` (Gạo Hom Mali), `1006.20.90` (loại khác).\n- **Gạo đã xát toàn bộ hoặc sơ bộ (`1006.30`):** `1006.30.30` (Gạo nếp), `1006.30.40` (Gạo Hom Mali), `1006.30.50` (Gạo Basmati), `1006.30.60` (Gạo Malys), `1006.30.70` (Gạo thơm khác), `1006.30.91` (Gạo đồ), `1006.30.99` (loại khác).\n- **Tấm (`1006.40`):** `1006.40.10` (loại dùng làm thức ăn chăn nuôi), `1006.40.90` (loại khác).\n\n#### 2. Phụ lục IV — Danh mục chi tiết theo mã HS đối với nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá (thay thế Phụ lục VI Thông tư 41/2019/TT-BCT)\nGồm 3 nhóm hàng chính (**36 mã HS 8 số**):\n- **Nhóm `24.01` (Lá thuốc lá chưa chế biến; phế liệu lá thuốc lá — 13 mã 8 số):**\n  - Chưa tước cọng (`2401.10`): `2401.10.10`, `2401.10.20`, `2401.10.40`, `2401.10.50`, `2401.10.90`.\n  - Đã tước cọng một phần hoặc toàn bộ (`2401.20`): `2401.20.10`, `2401.20.20`, `2401.20.30`, `2401.20.40`, `2401.20.50`, `2401.20.90`.\n  - Phế liệu lá thuốc lá (`2401.30`): `2401.30.10` (cọng thuốc lá), `2401.30.90` (loại khác).\n- **Nhóm `24.03` (Lá thuốc lá đã chế biến khác; thuốc lá “thuần nhất” hoặc “hoàn nguyên”; chiết xuất và tinh chất — 10 mã 8 số):**\n  - Phân nhóm `2403.19`: `2403.19.11`, `2403.19.19`, `2403.19.20`, `2403.19.91`, `2403.19.99`.\n  - Phân nhóm `2403.91` (thuốc lá thuần nhất/hoàn nguyên): `2403.91.10`, `2403.91.90`.\n  - Phân nhóm `2403.99`: `2403.99.10`, `2403.99.30`, `2403.99.90`.\n- **Nhóm `48.13` (Giấy cuốn thuốc lá điếu — 13 mã 8 số):**\n  - `4813.10.00` (dạng tập hoặc cuốn sẵn thành ống).\n  - `4813.20` (dạng cuộn chiều rộng $\\le 5$ cm): `4813.20.10`, `4813.20.21`, `4813.20.22`, `4813.20.23`, `4813.20.29`, `4813.20.31`, `4813.20.32`, `4813.20.39`.\n  - `4813.90` (loại khác, chiều rộng $> 5$ cm): `4813.90.11`, `4813.90.12`, `4813.90.19`, `4813.90.91`, `4813.90.99`.\n- *Ghi chú cuối Phụ lục IV:* Việc nhập khẩu thuốc lá theo hạn ngạch thuế quan được thực hiện theo các Thông tư quy định về hạn ngạch thuế quan nhập khẩu.\n\n#### 3. Phụ lục V — Danh mục chi tiết theo mã HS đối với máy móc, thiết bị chuyên ngành thuốc lá (thay thế Phụ lục VII Thông tư 41/2019/TT-BCT)\nPhân theo **4 dây chuyền công nghệ** với **4 mã HS 8 số** (`8478.10.10`, `8478.90.00`, `8423.20.10`, `8422.40.00`):\n- **I. Dây chuyền chế biến nguyên liệu lá thuốc lá:**\n  - *A. Công đoạn chế biến lá:* Máy cắt đầu lá, xy lanh làm ẩm (`8478.10.10`, `8478.90.00`); hầm ủ lá (`8478.90.00`); máy sấy lá (`8478.10.10`, `8478.90.00`); hệ thống cân và đóng (ép) kiện lá (`8423.20.10`).\n  - *B. Công đoạn chế biến cọng:* Xy lanh làm ẩm cọng lần 1, lần 2, hệ thống tước cọng tách lá, máy sấy cọng, máy phân loại làm sạch cọng (`8478.10.10`, `8478.90.00`); hệ thống cân và đóng (ép) kiện cọng (`8423.20.10`).\n- **II. Dây chuyền chế biến sợi thuốc lá:**\n  - *A. Công đoạn lá:* Thiết bị hấp chân không, máy cắt kiện lá, xy lanh làm ẩm lá, xy lanh gia liệu (`8478.10.10`, `8478.90.00`); hầm ủ lá (`8478.90.00`); thiết bị dò kim loại, máy thái lá, thiết bị trương nở sợi, thiết bị sấy, thiết bị phân ly sợi (`8478.10.10`, `8478.90.00`); hệ thống các cân định lượng (`8423.20.10`).\n  - *B. Công đoạn cọng:* Máy tước cọng, thiết bị gia ẩm cọng lần 1 (`8478.10.10`, `8478.90.00`); hầm ủ cọng (`8478.90.00`); thiết bị gia ẩm cọng lần 2, thiết bị cán cọng, máy thái cọng, thiết bị trương nở cọng, thiết bị sấy cọng, thiết bị phân ly cọng (`8478.10.10`, `8478.90.00`); hầm ủ sợi cọng (`8478.90.00`); hệ thống các cân định lượng (`8423.20.10`).\n  - *C. Công đoạn phối trộn sợi:* Thiết bị phun hương (`8478.10.10`, `8478.90.00`); hầm ủ sợi, hệ thống vận chuyển sợi thuốc lá đến máy cuốn điếu (`8478.90.00`).\n- **III. Dây chuyền chế biến thuốc lá tấm và các chế phẩm thay thế khác dùng để sản xuất các sản phẩm thuốc lá:** `8478.10.10`, `8478.90.00`.\n- **IV. Máy móc thiết bị sản xuất thuốc lá điếu:**\n  - *A. Công đoạn cuốn điếu – ghép đầu lọc:* Máy cuốn điếu (`8478.10.10`); máy ghép đầu lọc, máy nạp khay (`8478.90.00`).\n  - *B. Công đoạn đóng bao:* Máy đóng bao, máy đóng bóng kính bao, máy đóng tút, máy đóng bóng kính tút, máy đóng thùng carton (`8422.40.00`).",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "hang-cu-cam-nhap-khau",
+    "tam-nhap-tai-xuat",
+    "ma-hs",
+    "sua-doi"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "41/2019/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2020-01-29",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://vbpl.vn/search?q=41%2F2019%2FTT-BCT"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "08-2023-tt-bct#6",
+   "slug": "08-2023-tt-bct",
+   "duong_dan": "wiki/sources/08-2023-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 08/2023/TT-BCT — Sửa đổi Danh mục chi tiết theo mã số HS hàng hóa xuất nhập khẩu của Bộ Công Thương",
+   "muc": "Bảng quyết định nhanh: Tra cứu hiệu lực từng Phụ lục của Thông tư 08/2023/TT-BCT từ 05/09/2026",
+   "noi_dung": "| Phụ lục của TT 08/2023/TT-BCT | Nhóm hàng hóa điều chỉnh | Tình trạng hiệu lực hiện hành (từ 05/09/2026) | Văn bản áp dụng hiện hành khi làm thủ tục Hải quan |\n|---|---|---|---|\n| **Phụ lục I — Mục I & Mục II** | Hàng tiêu dùng, phương tiện đã qua sử dụng cấm nhập khẩu | **Đã hết hiệu lực** từ 05/09/2026 (bị bãi bỏ bởi điểm c khoản 3 Điều 20 [[sources/48-2026-tt-bct]]) | Áp dụng **Phụ lục I và Phụ lục II của [[sources/48-2026-tt-bct]]** |\n| **Phụ lục I — Mục III** | Thiết bị y tế đã qua sử dụng cấm nhập khẩu (5 nhóm `9018`, `9019`, `9020`, `9021`, `9022`) | **Còn áp dụng chuyển tiếp đến hết 31/12/2026** (theo khoản 3 Điều 21 [[sources/48-2026-tt-bct]]) | Đến hết **31/12/2026**: áp dụng Mục III Phụ lục I TT 08/2023/TT-BCT; từ **01/01/2027**: quản lý theo pháp luật chuyên ngành y tế |\n| **Phụ lục II** | Hàng hóa đã qua sử dụng tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu | **Đang còn hiệu lực** (chưa bị TT 48/2026/TT-BCT bãi bỏ) | Áp dụng **Phụ lục II của TT 08/2023/TT-BCT** (sửa đổi Phụ lục II của TT 12/2018/TT-BCT) |\n| **Phụ lục III** | Thóc, gạo xuất khẩu (nhóm `10.06`) | **Đang còn hiệu lực** | Áp dụng **Phụ lục III của TT 08/2023/TT-BCT** (sửa đổi Phụ lục I của TT 41/2019/TT-BCT) |\n| **Phụ lục IV** | Nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá (`24.01`, `24.03`, `48.13`) | **Đang còn hiệu lực** | Áp dụng **Phụ lục IV của TT 08/2023/TT-BCT** (sửa đổi Phụ lục VI của TT 41/2019/TT-BCT) |\n| **Phụ lục V** | Máy móc, thiết bị chuyên ngành thuốc lá (`8478.10.10`, `8478.90.00`, `8423.20.10`, `8422.40.00`) | **Đang còn hiệu lực** | Áp dụng **Phụ lục V của TT 08/2023/TT-BCT** (sửa đổi Phụ lục VII của TT 41/2019/TT-BCT) |",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "hang-cu-cam-nhap-khau",
+    "tam-nhap-tai-xuat",
+    "ma-hs",
+    "sua-doi"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "08/2023/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2023-05-16",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?classid=1&docid=207706&orggroupid=4&pageid=27160"
+    },
+    {
+     "so_hieu": "48/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-48-2026-tt-bct-470460.htm"
+    },
+    {
+     "so_hieu": "12/2018/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2018-06-15",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-12-2018-tt-bct-26878/23046.htm"
+    },
+    {
+     "so_hieu": "41/2019/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2020-01-29",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://vbpl.vn/search?q=41%2F2019%2FTT-BCT"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "08-2023-tt-bct#7",
+   "slug": "08-2023-tt-bct",
+   "duong_dan": "wiki/sources/08-2023-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 08/2023/TT-BCT — Sửa đổi Danh mục chi tiết theo mã số HS hàng hóa xuất nhập khẩu của Bộ Công Thương",
+   "muc": "Căn cứ pháp lý",
+   "noi_dung": "- **Luật Quản lý ngoại thương** số 05/2017/QH14 ngày 12/06/2017.\n- **Nghị định 69/2018/NĐ-CP** ngày 15/05/2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương (văn bản lịch sử nay đã hết hiệu lực, bị thay thế bởi **Nghị định 46/2026/NĐ-CP** — [[sources/46-2026-nd-cp]]).\n- **Nghị định 96/2022/NĐ-CP** ngày 29/11/2022 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương (văn bản lịch sử đã hết hiệu lực).",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "hang-cu-cam-nhap-khau",
+    "tam-nhap-tai-xuat",
+    "ma-hs",
+    "sua-doi"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "05/2017/QH14",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=190308&pageid=27160"
+    },
+    {
+     "so_hieu": "69/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-05-15",
+     "het_hieu_luc_tu": "2026-09-05",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "292/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193756&pageid=27160"
+    },
+    {
+     "so_hieu": "46/2026/NĐ-CP",
+     "tinh_trang": "TAM_NGUNG_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=216827&pageid=27160"
+    },
+    {
+     "so_hieu": "96/2022/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-01",
+     "het_hieu_luc_tu": "2025-03-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=206919"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "08-2023-tt-bct#8",
+   "slug": "08-2023-tt-bct",
+   "duong_dan": "wiki/sources/08-2023-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 08/2023/TT-BCT — Sửa đổi Danh mục chi tiết theo mã số HS hàng hóa xuất nhập khẩu của Bộ Công Thương",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/hang-cu-cam-nhap-khau]]\n- [[concepts/nhap-khau-thuoc-la]]\n- [[concepts/han-ngach-thue-quan]]\n- [[concepts/phan-loai-ma-hs]]",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "hang-cu-cam-nhap-khau",
+    "tam-nhap-tai-xuat",
+    "ma-hs",
+    "sua-doi"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "08-2023-tt-bct#9",
+   "slug": "08-2023-tt-bct",
+   "duong_dan": "wiki/sources/08-2023-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 08/2023/TT-BCT — Sửa đổi Danh mục chi tiết theo mã số HS hàng hóa xuất nhập khẩu của Bộ Công Thương",
+   "muc": "Related sources",
+   "noi_dung": "- 12-2018-tt-bct (Thông tư quy định chi tiết một số điều của Luật Quản lý ngoại thương — được Điều 1 Thông tư 08/2023/TT-BCT thay thế Phụ lục I và Phụ lục II từ 16/05/2023)\n- 41-2019-tt-bct (Thông tư bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất nhập khẩu — được Điều 2 Thông tư 08/2023/TT-BCT thay thế Phụ lục I, VI, VII từ 16/05/2023)\n- [[sources/48-2026-tt-bct]] (Thông tư ngày 20/07/2026 bãi bỏ khoản 1 Điều 1 và Phụ lục I của Thông tư 08/2023/TT-BCT từ 05/09/2026, đồng thời quy định chuyển tiếp đối với thiết bị y tế đã qua sử dụng đến hết 31/12/2026)\n- [[sources/46-2026-nd-cp]] (Nghị định quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương, thay thế Nghị định 69/2018/NĐ-CP)",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "hang-cu-cam-nhap-khau",
+    "tam-nhap-tai-xuat",
+    "ma-hs",
+    "sua-doi"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "08/2023/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2023-05-16",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?classid=1&docid=207706&orggroupid=4&pageid=27160"
+    },
+    {
+     "so_hieu": "69/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-05-15",
+     "het_hieu_luc_tu": "2026-09-05",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "292/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193756&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "08-2023-tt-bct#10",
+   "slug": "08-2023-tt-bct",
+   "duong_dan": "wiki/sources/08-2023-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 08/2023/TT-BCT — Sửa đổi Danh mục chi tiết theo mã số HS hàng hóa xuất nhập khẩu của Bộ Công Thương",
+   "muc": "Open questions",
+   "noi_dung": "- Bảng `danh-muc/08-2023-tt-bct.csv` hiện có 464 dòng dữ liệu mã HS (chủ yếu trích từ Phụ lục I và Phụ lục II) với trạng thái `da_doi_chieu: false`; cần rà soát dòng-theo-dòng và bổ sung đầy đủ các dòng của Phụ lục III, IV, V để nâng trạng thái đối chiếu lên `da_doi_chieu: true`.\n- Sau ngày 31/12/2026 khi hết thời hạn chuyển tiếp của Mục III Phụ lục I (thiết bị y tế đã qua sử dụng nhóm `9018`–`9022`), cần cập nhật lại ghi chú phạm vi của `08-2023-tt-bct.yaml` (các Phụ lục II, III, IV, V vẫn còn hiệu lực cho đến khi có Thông tư mới thay thế).",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "hang-cu-cam-nhap-khau",
+    "tam-nhap-tai-xuat",
+    "ma-hs",
+    "sua-doi"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "08-2023-tt-bct#11",
+   "slug": "08-2023-tt-bct",
+   "duong_dan": "wiki/sources/08-2023-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 08/2023/TT-BCT — Sửa đổi Danh mục chi tiết theo mã số HS hàng hóa xuất nhập khẩu của Bộ Công Thương",
+   "muc": "Notes",
+   "noi_dung": "- Đã đọc toàn văn từ tệp PDF Công báo số 663 + 664 ngày 14/04/2023 (`raw/download/congbaocdn.chinhphu.vn/08-2023-tt-bct.pdf`, 39 trang, từ trang 17 đến trang 55 Công báo, có lớp chữ điện tử ký số bởi Văn phòng Chính phủ ngày 13/04/2023).\n- Danh mục mã HS gắn tại `danh-muc/08-2023-tt-bct.csv`.",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "hang-cu-cam-nhap-khau",
+    "tam-nhap-tai-xuat",
+    "ma-hs",
+    "sua-doi"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "09-2013-tt-btttt#1",
    "slug": "09-2013-tt-btttt",
    "duong_dan": "wiki/sources/09-2013-tt-btttt.md",
@@ -29159,6 +29660,467 @@
    ],
    "confidence": "low",
    "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "115-2022-nd-cp#1",
+   "slug": "115-2022-nd-cp",
+   "duong_dan": "wiki/sources/115-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 115/2022/NĐ-CP — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định CPTPP giai đoạn 2022–2027",
+   "muc": "Summary",
+   "noi_dung": "**Nghị định 115/2022/NĐ-CP** do Phó Thủ tướng Chính phủ Lê Minh Khái ký ban hành ngày **30/12/2022**, có hiệu lực thi hành kể từ ngày ký (**30/12/2022**) đến hết ngày **31/12/2027**, ban hành Biểu thuế xuất khẩu ưu đãi và Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (**Hiệp định CPTPP**) giai đoạn 2022 – 2027, cùng các điều kiện, thủ tục được hưởng thuế suất ưu đãi.\n\nVăn bản gồm **8 điều và 2 Phụ lục** (Phụ lục I: Biểu thuế xuất khẩu ưu đãi; Phụ lục II: Biểu thuế nhập khẩu ưu đãi đặc biệt và Danh mục hàng hóa, thuế nhập khẩu ưu đãi đặc biệt đối với xe ô tô đã qua sử dụng áp dụng hạn ngạch thuế quan). Nghị định thay thế toàn bộ **Nghị định 57/2019/NĐ-CP** ngày 26/06/2019 (văn bản lịch sử đã hết hiệu lực từ 30/12/2022) và Nghị định sửa đổi ngày 10/03/2022. Văn bản đã được sửa đổi, bổ sung vào ngày 07/09/2023 (bổ sung lộ trình thuế suất cho Malaysia, Chile, Brunei Darussalam) và bởi **Nghị định 13/2025/NĐ-CP** ngày 21/01/2025 (bổ sung lộ trình thuế suất cho Liên hiệp Vương quốc Anh và Bắc Ai-len từ 15/12/2024). **Hiện đang còn hiệu lực** đến hết ngày 31/12/2027.",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "thue-xk-nk",
+    "bieu-thue",
+    "cptpp",
+    "xuat-xu-fta",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "115/2022/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207173&pageid=27160"
+    },
+    {
+     "so_hieu": "57/2019/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-06-26",
+     "het_hieu_luc_tu": "2022-12-30",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "115/2022/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-57-2019-nd-cp-29182.htm"
+    },
+    {
+     "so_hieu": "13/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-21",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-13-2025-nd-cp-43985.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "115-2022-nd-cp#2",
+   "slug": "115-2022-nd-cp",
+   "duong_dan": "wiki/sources/115-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 115/2022/NĐ-CP — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định CPTPP giai đoạn 2022–2027",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 30/12/2022 | Chính phủ ban hành Nghị định 115/2022/NĐ-CP; **có hiệu lực thi hành ngay từ ngày ký** (khoản 1 Điều 7) |\n| 30/12/2022 | Thay thế toàn bộ **Nghị định 57/2019/NĐ-CP** ngày 26/06/2019 (văn bản lịch sử đã hết hiệu lực) và Nghị định sửa đổi, bổ sung ngày 10/03/2022 (theo khoản 2 Điều 7) |\n| 07/09/2023 | Được sửa đổi, bổ sung một số điều để áp dụng lộ trình thuế suất CPTPP đối với **Malaysia, Cộng hòa Chile và Brunei Darussalam** sau khi Hiệp định có hiệu lực với các nước này |\n| 21/01/2025 | Được sửa đổi, bổ sung bởi **Nghị định 13/2025/NĐ-CP** (bổ sung khoản 4d Điều 4, sửa đổi điểm a khoản 5 Điều 4, bổ sung khoản 6d Điều 5, sửa đổi điểm b khoản 7 Điều 5 để áp dụng ưu đãi thuế quan CPTPP đối với **Liên hiệp Vương quốc Anh và Bắc Ai-len** hồi tố cho tờ khai từ ngày 15/12/2024) |\n| 31/12/2027 | Thời điểm kết thúc giai đoạn hiệu lực 2022 – 2027 (theo khoản 2 Điều 2 Nghị định 13/2025/NĐ-CP) |",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "thue-xk-nk",
+    "bieu-thue",
+    "cptpp",
+    "xuat-xu-fta",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "115/2022/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207173&pageid=27160"
+    },
+    {
+     "so_hieu": "57/2019/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-06-26",
+     "het_hieu_luc_tu": "2022-12-30",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "115/2022/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-57-2019-nd-cp-29182.htm"
+    },
+    {
+     "so_hieu": "13/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-21",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-13-2025-nd-cp-43985.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "115-2022-nd-cp#3",
+   "slug": "115-2022-nd-cp",
+   "duong_dan": "wiki/sources/115-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 115/2022/NĐ-CP — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định CPTPP giai đoạn 2022–2027",
+   "muc": "Cấu trúc (8 điều và 2 Phụ lục)",
+   "noi_dung": "| Phần | Nội dung | Phạm vi |\n|---|---|---|\n| Điều 1 | Phạm vi điều chỉnh | Biểu thuế XK ưu đãi, Biểu thuế NK ưu đãi đặc biệt CPTPP giai đoạn 2022–2027 và điều kiện hưởng ưu đãi |\n| Điều 2 | Đối tượng áp dụng | Người nộp thuế; cơ quan hải quan, công chức hải quan; tổ chức, cá nhân có quyền và nghĩa vụ liên quan |\n| Điều 3 | Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt giai đoạn 2022 – 2027 | Quy định cấu trúc Phụ lục I, Phụ lục II, nguyên tắc mã HS 8 số/10 số và các ký hiệu `TRQ1`, `TRQ2`, `*` |\n| Điều 4 | Biểu thuế xuất khẩu ưu đãi của Việt Nam để thực hiện Hiệp định CPTPP | Lộ trình cột thuế suất `(I)`–`(VII)`, điều kiện chứng từ đích đến và thủ tục hoàn/xử lý tiền thuế nộp thừa trong 01 năm |\n| Điều 5 | Biểu thuế nhập khẩu ưu đãi đặc biệt; Danh mục và thuế NK ưu đãi đặc biệt đối với xe ô tô đã qua sử dụng áp dụng hạn ngạch thuế quan | Công thức thuế hỗn hợp xe ô tô cũ ($X + Y$), hàng hạn ngạch nhóm `04.07`, `17.01`, `24.01`, `25.01`, lộ trình cột thuế suất và điều kiện hưởng C/O CPTPP |\n| Điều 6 | Hàng hóa từ khu phi thuế quan của Việt Nam | Điều kiện và cột thuế suất `(II)`–`(VII)` khi nhập khẩu từ khu phi thuế quan vào thị trường trong nước |\n| Điều 7 | Hiệu lực thi hành | Hiệu lực từ 30/12/2022; chấm dứt hiệu lực Nghị định 57/2019/NĐ-CP (văn bản lịch sử đã hết hiệu lực) |\n| Điều 8 | Trách nhiệm thi hành | Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Chủ tịch UBND cấp tỉnh và tổ chức, cá nhân liên quan |\n| Phụ lục I | Biểu thuế xuất khẩu ưu đãi của Việt Nam để thực hiện Hiệp định CPTPP | Danh mục mặt hàng chịu thuế xuất khẩu theo cấp mã 8 số/10 số và lộ trình 7 cột `(I)`–`(VII)` |\n| Phụ lục II | Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định CPTPP & Danh mục xe ô tô đã qua sử dụng áp dụng hạn ngạch thuế quan | Toàn bộ biểu thuế NK ưu đãi đặc biệt theo AHTN 2022 (7 cột `(I)`–`(VII)`, cột Ghi chú `TRQ1`, `TRQ2`, `*`) và bảng thuế hỗn hợp ô tô cũ nhóm `87.02`, `87.03`, `87.04` |",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "thue-xk-nk",
+    "bieu-thue",
+    "cptpp",
+    "xuat-xu-fta",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "57/2019/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-06-26",
+     "het_hieu_luc_tu": "2022-12-30",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "115/2022/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-57-2019-nd-cp-29182.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "115-2022-nd-cp#4",
+   "slug": "115-2022-nd-cp",
+   "duong_dan": "wiki/sources/115-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 115/2022/NĐ-CP — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định CPTPP giai đoạn 2022–2027",
+   "muc": "Nội dung chi tiết các điều > Điều 1 – Điều 3. Phạm vi, đối tượng và quy tắc đọc Biểu thuế",
+   "noi_dung": "- **Xây dựng theo Danh mục hàng hóa XNK Việt Nam (khoản 2 Điều 3):** Cột “Mã hàng” và cột “Mô tả hàng hóa” tại Phụ lục I và Phụ lục II được chi tiết theo cấp **mã 8 số hoặc 10 số**. Trường hợp Danh mục hàng hóa XNK Việt Nam được sửa đổi, bổ sung thì người khai hải quan kê khai mô tả, mã hàng hóa theo danh mục sửa đổi, bổ sung và áp dụng thuế suất của mã hàng hóa tương ứng.\n- **Giải thích ký hiệu tại cột “Ghi chú” của Phụ lục II (khoản 4 Điều 3):**\n  - **`TRQ1`:** Mặt hàng áp dụng hạn ngạch thuế quan theo lượng hạn ngạch thuế quan **hằng năm** theo quy định của Bộ Công Thương.\n  - **`TRQ2`:** Mặt hàng áp dụng hạn ngạch thuế quan theo lượng hạn ngạch thuế quan **thực hiện Hiệp định CPTPP** theo quy định của Bộ Công Thương.\n  - **`*`:** Hàng hóa nhập khẩu **không được hưởng** thuế nhập khẩu ưu đãi đặc biệt của Hiệp định CPTPP.",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "thue-xk-nk",
+    "bieu-thue",
+    "cptpp",
+    "xuat-xu-fta",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "115-2022-nd-cp#5",
+   "slug": "115-2022-nd-cp",
+   "duong_dan": "wiki/sources/115-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 115/2022/NĐ-CP — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định CPTPP giai đoạn 2022–2027",
+   "muc": "Nội dung chi tiết các điều > Điều 4. Biểu thuế xuất khẩu ưu đãi và cơ chế khai bổ sung hoàn thuế trong 01 năm",
+   "noi_dung": "1. **Nguyên tắc thuế suất 0% cho hàng ngoài Phụ lục I (khoản 1, khoản 2):** Phụ lục I quy định danh mục các mặt hàng có lộ trình cắt giảm thuế xuất khẩu. **Các mặt hàng không thuộc Phụ lục I được áp dụng thuế suất 0%** khi xuất khẩu sang lãnh thổ các nước thành viên CPTPP đủ điều kiện tại điểm a khoản 5 Điều 4.\n2. **Điều kiện áp dụng thuế suất thuế xuất khẩu ưu đãi (khoản 5 Điều 4):**\n   - **Điểm a:** Hàng hóa được nhập khẩu vào lãnh thổ các nước thành viên CPTPP đã thực thi Hiệp định, gồm: **Australia, Canada, Nhật Bản, Liên bang Mexico, New Zealand, Cộng hòa Singapore, Cộng hòa Peru**; được bổ sung **Malaysia, Cộng hòa Chile, Brunei Darussalam** (từ năm 2023) và **Liên hiệp Vương quốc Anh và Bắc Ai-len** (bao gồm cả 3 vùng lãnh thổ: Địa hạt Guernsey, Địa hạt Jersey và Đảo Man — từ ngày 15/12/2024 theo Nghị định 13/2025/NĐ-CP).\n   - **Điểm b:** Có **chứng từ vận tải** (bản chụp) thể hiện đích đến thuộc lãnh thổ các nước thành viên nêu tại điểm a.\n   - **Điểm c:** Có **tờ khai hải quan nhập khẩu** hoặc chứng từ thay thế tờ khai hải quan của lô hàng xuất khẩu từ Việt Nam nhập khẩu vào lãnh thổ nước thành viên nêu tại điểm a (bản chụp).\n   - **Điểm d:** Chứng từ tại điểm b và điểm c nếu không phải bản tiếng Việt hoặc tiếng Anh thì người khai hải quan phải dịch ra tiếng Việt hoặc tiếng Anh và chịu trách nhiệm về nội dung bản dịch.\n3. **Thủ tục thu trước theo thuế xuất khẩu MFN và hoàn thuế khi nộp đủ chứng từ (khoản 6 Điều 4):**\n   - **Tại thời điểm làm thủ tục hải quan (điểm a):** Người khai hải quan khai tờ khai xuất khẩu, **tính thuế và nộp thuế theo Biểu thuế xuất khẩu MFN** hiện hành.\n   - **Trong thời hạn 01 năm kể từ ngày đăng ký tờ khai xuất khẩu (điểm b):** Người khai hải quan nộp đầy đủ chứng từ vận tải và tờ khai nhập khẩu nước đích, thực hiện **khai bổ sung** để áp dụng thuế suất xuất khẩu ưu đãi CPTPP. **Quá thời hạn 01 năm, hàng hóa không được áp dụng thuế suất xuất khẩu ưu đãi CPTPP.**\n   - **Xử lý tiền thuế nộp thừa (điểm c):** Cơ quan hải quan kiểm tra hồ sơ và thực hiện hoàn/xử lý tiền thuế nộp thừa theo quy định của pháp luật về quản lý thuế.",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "thue-xk-nk",
+    "bieu-thue",
+    "cptpp",
+    "xuat-xu-fta",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "13/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-21",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-13-2025-nd-cp-43985.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "115-2022-nd-cp#6",
+   "slug": "115-2022-nd-cp",
+   "duong_dan": "wiki/sources/115-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 115/2022/NĐ-CP — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định CPTPP giai đoạn 2022–2027",
+   "muc": "Nội dung chi tiết các điều > Điều 5. Biểu thuế nhập khẩu ưu đãi đặc biệt và hạn ngạch thuế quan",
+   "noi_dung": "1. **Cách tính thuế hỗn hợp đối với xe ô tô đã qua sử dụng thuộc nhóm `87.02`, `87.03`, `87.04` (khoản 3 Điều 5):**\n   - **Trong hạn ngạch thuế quan CPTPP (điểm a):** Áp dụng phương pháp tính thuế hỗn hợp:\n     $$\\text{Số tiền thuế} = X + Y$$\n     Trong đó:\n     - $X$ = Giá tính thuế xe ô tô đã qua sử dụng $\\times$ thuế suất (%) của dòng thuế xe ô tô đã qua sử dụng cùng loại tại Phụ lục II tại thời điểm đăng ký tờ khai.\n     - $Y$ = Mức thuế tuyệt đối (USD/chiếc) của xe ô tô đã qua sử dụng tương ứng tại Phụ lục II tại thời điểm đăng ký tờ khai.\n   - **Ngoài hạn ngạch thuế quan CPTPP (điểm b):** Áp dụng mức thuế tại Nghị định Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi (MFN) và thuế nhập khẩu ngoài hạn ngạch hiện hành.\n2. **Hàng hóa áp dụng hạn ngạch thuế quan thuộc nhóm `04.07` (trứng gia cầm), `17.01` (đường), `24.01` (lá thuốc lá chưa chế biến), `25.01` (muối) (khoản 4 Điều 5):**\n   - Nhập khẩu trong lượng hạn ngạch `TRQ1` hoặc `TRQ2`: áp dụng mức thuế suất ưu đãi đặc biệt tại Phụ lục II.\n   - Nhập khẩu ngoài lượng hạn ngạch `TRQ1` hoặc `TRQ2`: áp dụng mức thuế nhập khẩu ngoài hạn ngạch của Chính phủ tại thời điểm nhập khẩu.\n3. **Điều kiện áp dụng thuế nhập khẩu ưu đãi đặc biệt (khoản 7 Điều 5):**\n   - Thuộc Phụ lục II ban hành kèm theo Nghị định;\n   - Được nhập khẩu vào Việt Nam từ các nước thành viên CPTPP nêu tại điểm b khoản 7 Điều 5 (đã được mở rộng đủ 11 đối tác gồm Australia, Canada, Nhật Bản, Mexico, New Zealand, Singapore, Peru, Malaysia, Chile, Brunei Darussalam và Liên hiệp Vương quốc Anh & Bắc Ai-len);\n   - Đáp ứng các quy định về xuất xứ hàng hóa và có **chứng từ chứng nhận xuất xứ hàng hóa** theo quy định của Hiệp định CPTPP.",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "thue-xk-nk",
+    "bieu-thue",
+    "cptpp",
+    "xuat-xu-fta",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "115-2022-nd-cp#7",
+   "slug": "115-2022-nd-cp",
+   "duong_dan": "wiki/sources/115-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 115/2022/NĐ-CP — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định CPTPP giai đoạn 2022–2027",
+   "muc": "Nội dung chi tiết các điều > Điều 6. Hàng hóa từ khu phi thuế quan của Việt Nam",
+   "noi_dung": "Hàng hóa từ khu phi thuế quan của Việt Nam nhập khẩu vào thị trường trong nước nếu đáp ứng đủ điều kiện thuộc Phụ lục II (điểm a khoản 7 Điều 5) và đáp ứng quy tắc xuất xứ kèm chứng từ chứng nhận xuất xứ CPTPP (điểm c khoản 7 Điều 5) thì được áp dụng mức thuế suất nhập khẩu ưu đãi đặc biệt tại Phụ lục II theo lộ trình cột `(II)` đến `(VII)`.",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "thue-xk-nk",
+    "bieu-thue",
+    "cptpp",
+    "xuat-xu-fta",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "115-2022-nd-cp#8",
+   "slug": "115-2022-nd-cp",
+   "duong_dan": "wiki/sources/115-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 115/2022/NĐ-CP — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định CPTPP giai đoạn 2022–2027",
+   "muc": "Bảng ánh xạ cột thuế suất `(I)` – `(VII)` theo quốc gia và giai đoạn (Điều 4, Điều 5, Điều 6 & NĐ 13/2025/NĐ-CP)",
+   "noi_dung": "| Nhóm đối tác / Nguồn hàng | 30/12/2022 – 31/12/2022 | Năm 2023 (01/01 – 31/12) | Năm 2024 (01/01 – 31/12) | Năm 2025 (01/01 – 31/12) | Năm 2026 (01/01 – 31/12) | Năm 2027 (01/01 – 31/12) |\n|---|---|---|---|---|---|---|\n| **1. Australia, Canada, Nhật Bản, New Zealand, Singapore, Peru** (khoản 4 Điều 4; khoản 6 Điều 5) | Cột `(II)` | Cột `(III)` | Cột `(IV)` | Cột `(V)` | Cột `(VI)` | Cột `(VII)` |\n| **2. Hàng hóa từ khu phi thuế quan của Việt Nam** nhập vào nội địa (Điều 6) | Cột `(II)` | Cột `(III)` | Cột `(IV)` | Cột `(V)` | Cột `(VI)` | Cột `(VII)` |\n| **3. Liên bang Mexico** (khoản 3 Điều 4; khoản 5 Điều 5 — hiệu lực CPTPP năm thứ 4 từ 2022) | Cột `(I)` | Cột `(II)` | Cột `(III)` | Cột `(IV)` | Cột `(V)` | Cột `(VI)` |\n| **4. Liên hiệp Vương quốc Anh và Bắc Ai-len** (gồm Guernsey, Jersey, Đảo Man — bổ sung bởi NĐ 13/2025/NĐ-CP từ 15/12/2024) | Chưa áp dụng | Chưa áp dụng | Cột `(IV)` *(từ 15/12/2024)* | Cột `(V)` | Cột `(VI)` | Cột `(VII)` |\n\n> **Lưu ý về Malaysia, Cộng hòa Chile và Brunei Darussalam:** Lộ trình cột thuế suất áp dụng cho 3 quốc gia này được quy định chi tiết tại các khoản bổ sung vào Điều 4 và Điều 5 theo Nghị định sửa đổi ngày 07/09/2023, và cả 3 quốc gia đã được hợp nhất vào danh sách thành viên hưởng ưu đãi tại điểm a khoản 5 Điều 4 và điểm b khoản 7 Điều 5 của Nghị định 13/2025/NĐ-CP.",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "thue-xk-nk",
+    "bieu-thue",
+    "cptpp",
+    "xuat-xu-fta",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "13/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-21",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-13-2025-nd-cp-43985.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "115-2022-nd-cp#9",
+   "slug": "115-2022-nd-cp",
+   "duong_dan": "wiki/sources/115-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 115/2022/NĐ-CP — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định CPTPP giai đoạn 2022–2027",
+   "muc": "Căn cứ pháp lý",
+   "noi_dung": "- **Luật Tổ chức Chính phủ** ngày 19/06/2015 và Luật sửa đổi, bổ sung ngày 22/11/2019.\n- **Luật Thuế xuất khẩu, thuế nhập khẩu** số 107/2016/QH13 ngày 06/04/2016 ([[sources/107-2016-qh13]]).\n- **Luật Hải quan** số 54/2014/QH13 ngày 23/06/2014 ([[sources/54-2014-qh13]]).\n- **Luật Điều ước quốc tế** ngày 09/04/2016.\n- **Nghị quyết 72/2018/QH14** ngày 12/11/2018 của Quốc hội phê chuẩn Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP) cùng các văn kiện liên quan.",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "thue-xk-nk",
+    "bieu-thue",
+    "cptpp",
+    "xuat-xu-fta",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "107/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=184599&pageid=27160"
+    },
+    {
+     "so_hieu": "54/2014/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=175358&pageid=27160"
+    },
+    {
+     "so_hieu": "72/2018/QH14",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-12-27",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=145200"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "115-2022-nd-cp#10",
+   "slug": "115-2022-nd-cp",
+   "duong_dan": "wiki/sources/115-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 115/2022/NĐ-CP — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định CPTPP giai đoạn 2022–2027",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/cptpp]]\n- [[concepts/xuat-xu-fta]]\n- [[concepts/quy-tac-xuat-xu]]\n- [[concepts/han-ngach-thue-quan]]\n- [[concepts/co-quan-dau-moi-fta]]",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "thue-xk-nk",
+    "bieu-thue",
+    "cptpp",
+    "xuat-xu-fta",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "115-2022-nd-cp#11",
+   "slug": "115-2022-nd-cp",
+   "duong_dan": "wiki/sources/115-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 115/2022/NĐ-CP — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định CPTPP giai đoạn 2022–2027",
+   "muc": "Related sources",
+   "noi_dung": "- 57-2019-nd-cp (Nghị định lịch sử đã hết hiệu lực từ 30/12/2022 về Biểu thuế XK ưu đãi, Biểu thuế NK ưu đãi đặc biệt thực hiện Hiệp định CPTPP giai đoạn 2019–2022 — bị thay thế toàn bộ bởi Nghị định 115/2022/NĐ-CP)\n- 13-2025-nd-cp (Nghị định ngày 21/01/2025 sửa đổi, bổ sung Nghị định 115/2022/NĐ-CP để thực thi cam kết thuế quan CPTPP đối với Liên hiệp Vương quốc Anh và Bắc Ai-len từ ngày 15/12/2024)\n- [[sources/26-2023-nd-cp]] (Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi MFN, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan)\n- [[sources/107-2016-qh13]] (Luật Thuế xuất khẩu, thuế nhập khẩu 2016)\n- [[sources/127-qd-ttg-2026]] (Quyết định chỉ định cơ quan đầu mối triển khai Hiệp định CPTPP)",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "thue-xk-nk",
+    "bieu-thue",
+    "cptpp",
+    "xuat-xu-fta",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "115/2022/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207173&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "115-2022-nd-cp#12",
+   "slug": "115-2022-nd-cp",
+   "duong_dan": "wiki/sources/115-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 115/2022/NĐ-CP — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định CPTPP giai đoạn 2022–2027",
+   "muc": "Open questions",
+   "noi_dung": "- Cần nạp bổ sung Nghị định ngày 07/09/2023 (sửa đổi, bổ sung một số điều của Nghị định 115/2022/NĐ-CP đối với Malaysia, Chile, Brunei Darussalam) vào `registry/van-ban/` để khép kín chuỗi quan hệ sửa đổi giữa 115/2022/NĐ-CP và 13/2025/NĐ-CP.\n- Cần tải thay thế tệp `raw/download/datafiles.chinhphu.vn/115-2022-nd-cp.pdf` từ URL đúng `https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/115nd.signed.pdf` (`docid=207349`) hoặc Công báo số 269+270 (`43399-1-2023269-270115-2022-nd-cp.pdf`), vì tệp hiện lưu trong `raw/download/` từng bị script nạp nhầm từ `docid=207173` (`36-bct.signed.pdf`).",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "thue-xk-nk",
+    "bieu-thue",
+    "cptpp",
+    "xuat-xu-fta",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "115/2022/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207173&pageid=27160"
+    },
+    {
+     "so_hieu": "13/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-21",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-13-2025-nd-cp-43985.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "115-2022-nd-cp#13",
+   "slug": "115-2022-nd-cp",
+   "duong_dan": "wiki/sources/115-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 115/2022/NĐ-CP — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định CPTPP giai đoạn 2022–2027",
+   "muc": "Notes",
+   "noi_dung": "- Đã đọc và đối chiếu nguyên văn từ PDF Công báo số 269 + 270 ngày 01/02/2023 (`https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/12/38713/43399-1-2023269-270115-2022-nd-cp.pdf`, có lớp chữ điện tử ký số bởi Văn phòng Chính phủ ngày 21/02/2023) và thẻ văn bản gốc `docid=207349` trên Cổng TTĐT Chính phủ, kết hợp đối chiếu với toàn văn Công báo số 241 + 242 ngày 02/02/2025 của Nghị định 13/2025/NĐ-CP.\n- Đã chuẩn hoá trường `ten` đầy đủ nguyên văn và căn cứ khoản 2 Điều 7 trong `registry/van-ban/115-2022-nd-cp.yaml`.",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "thue-xk-nk",
+    "bieu-thue",
+    "cptpp",
+    "xuat-xu-fta",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "13/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-21",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-13-2025-nd-cp-43985.htm"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -46368,6 +47330,541 @@
     "khai-bao-hai-quan"
    ],
    "confidence": "medium",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "33-2024-nd-cp#1",
+   "slug": "33-2024-nd-cp",
+   "duong_dan": "wiki/sources/33-2024-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 33/2024/NĐ-CP — Thực hiện Công ước Cấm vũ khí hóa học và quản lý xuất nhập khẩu hóa chất Bảng",
+   "muc": "Summary",
+   "noi_dung": "**Nghị định 33/2024/NĐ-CP** do Phó Thủ tướng Chính phủ Trần Lưu Quang ký ban hành ngày **27/03/2024**, có hiệu lực thi hành từ ngày **19/05/2024**, quy định việc thực hiện Công ước Cấm phát triển, sản xuất, tàng trữ, sử dụng và phá hủy vũ khí hóa học (Công ước Cấm vũ khí hóa học — CWC) trên lãnh thổ Việt Nam, bao gồm: quy định chung; sản xuất, kinh doanh, xuất khẩu, nhập khẩu, chế biến, sử dụng, tàng trữ hóa chất Bảng (Bảng 1, Bảng 2, Bảng 3) và sản xuất hóa chất hữu cơ riêng biệt (DOC, DOC-PSF); chế độ báo cáo; thanh sát quốc tế và thanh tra, kiểm tra; quản lý nhà nước.\n\nVăn bản gồm **6 chương, 41 điều và 2 Phụ lục chính** (Phụ lục I: Danh mục hóa chất Bảng 1, Bảng 2, Bảng 3 kèm mã số HS và mã CAS — đã trích xuất 78 dòng / 38 mã HS 6 số tại `danh-muc/33-2024-nd-cp.csv`; Phụ lục II: Hệ thống biểu mẫu hành chính từ Mẫu số 01 đến Mẫu số 11 kèm Phụ lục danh mục hóa chất đính kèm Giấy phép XNK tại Mẫu số 04). Từ ngày **17/01/2026**, khoản 2 Điều 34 (về căn cứ thanh tra đột xuất) bị bãi bỏ theo khoản 4 Điều 31 **Nghị định 26/2026/NĐ-CP**; toàn bộ các điều khoản quản lý xuất nhập khẩu, cấp phép, báo cáo và Phụ lục Danh mục hóa chất Bảng của Nghị định **hiện đang còn hiệu lực** (được biểu thuế XNK dẫn chiếu tại 60 mã HS).",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "giay-phep",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "33/2024/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-05-19",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-33-2024-nd-cp-41584.htm"
+    },
+    {
+     "so_hieu": "26/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-17",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-26-2026-nd-cp-468804.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "33-2024-nd-cp#2",
+   "slug": "33-2024-nd-cp",
+   "duong_dan": "wiki/sources/33-2024-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 33/2024/NĐ-CP — Thực hiện Công ước Cấm vũ khí hóa học và quản lý xuất nhập khẩu hóa chất Bảng",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 27/03/2024 | Chính phủ ban hành Nghị định 33/2024/NĐ-CP |\n| 19/05/2024 | **Có hiệu lực thi hành** (theo khoản 1 Điều 40); thay thế Nghị định ngày 06/05/2014 của Chính phủ về quản lý hóa chất thuộc diện kiểm soát của Công ước Cấm vũ khí hóa học và các điều khoản sửa đổi liên quan năm 2016, 2018, 2020; đồng thời sửa đổi, bãi bỏ một số mục hóa chất trùng lặp tại Phụ lục I, II, V của Nghị định 113/2017/NĐ-CP và Nghị định 82/2022/NĐ-CP (các văn bản lịch sử nay đã hết hiệu lực) |\n| 15/02/2025 | Bắt đầu áp dụng quy định báo cáo hằng năm đối với hóa chất Bảng, hóa chất DOC, DOC-PSF thông qua Cơ sở dữ liệu hóa chất quốc gia (theo khoản 6 Điều 38) |\n| 17/01/2026 | Khoản 4 Điều 31 **Nghị định 26/2026/NĐ-CP** bãi bỏ khoản 2 Điều 34 của Nghị định 33/2024/NĐ-CP |\n| Hiện tại | **Còn hiệu lực** (áp dụng song hành với Luật Hóa chất 69/2025/QH15 và Nghị định 26/2026/NĐ-CP) |",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "giay-phep",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "33/2024/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-05-19",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-33-2024-nd-cp-41584.htm"
+    },
+    {
+     "so_hieu": "113/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-11-25",
+     "het_hieu_luc_tu": "2026-01-17",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "26/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [
+      "33/2024/NĐ-CP"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-113-2017-nd-cp-24884/19507.htm"
+    },
+    {
+     "so_hieu": "82/2022/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-22",
+     "het_hieu_luc_tu": "2026-01-17",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "26/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [
+      "33/2024/NĐ-CP"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-82-2022-nd-cp-38082.htm"
+    },
+    {
+     "so_hieu": "26/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-17",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-26-2026-nd-cp-468804.htm"
+    },
+    {
+     "so_hieu": "69/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214610"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "33-2024-nd-cp#3",
+   "slug": "33-2024-nd-cp",
+   "duong_dan": "wiki/sources/33-2024-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 33/2024/NĐ-CP — Thực hiện Công ước Cấm vũ khí hóa học và quản lý xuất nhập khẩu hóa chất Bảng",
+   "muc": "Cấu trúc (6 chương, 41 điều và các Phụ lục)",
+   "noi_dung": "| Chương / Phần | Nội dung | Điều / Phạm vi |\n|---|---|---|\n| Chương I | Các quy định chung về việc thực hiện Công ước Cấm vũ khí hóa học | Điều 1 – Điều 7 |\n| Chương II — Mục 1 | Yêu cầu về an toàn trong sản xuất, kinh doanh hóa chất Bảng; sản xuất hóa chất DOC, DOC-PSF; thực hiện các quy định về quản lý hóa chất | Điều 8 – Điều 9 |\n| Chương II — Mục 2 | Sản xuất, kinh doanh hóa chất Bảng; sản xuất hóa chất DOC, DOC-PSF | Điều 10 – Điều 16 |\n| Chương II — Mục 3 | Nhập khẩu, xuất khẩu hóa chất Bảng | Điều 17 – Điều 20 |\n| Chương II — Mục 4 | Chế biến, sử dụng, tàng trữ hóa chất Bảng | Điều 21 – Điều 22 |\n| Chương III | Báo cáo hóa chất Bảng, hóa chất DOC, DOC-PSF | Điều 23 – Điều 26 |\n| Chương IV — Mục 1 | Thanh sát quốc tế | Điều 27 – Điều 33 |\n| Chương IV — Mục 2 | Thanh tra, kiểm tra | Điều 34 – Điều 35 |\n| Chương V | Quản lý nhà nước về thực hiện Công ước Cấm vũ khí hóa học | Điều 36 – Điều 37 |\n| Chương VI | Điều khoản thi hành (chuyển tiếp, tham chiếu, hiệu lực, tổ chức thực hiện) | Điều 38 – Điều 41 |\n| Phụ lục I | Danh mục hóa chất Bảng (Bảng 1: 1A Hóa chất độc, 1B Tiền chất; Bảng 2: 2A/2A* Hóa chất độc, 2B Tiền chất; Bảng 3: 3A Hóa chất độc, 3B Tiền chất) | Trang 43 – 57 Công báo 499+500 |\n| Phụ lục II | Các biểu mẫu đề nghị, giấy phép, thuyết minh, biên bản đánh giá và báo cáo (Mẫu số 01 – Mẫu số 11, kèm Phụ lục danh mục hóa chất của Giấy phép XNK) | Trang 58 – 95 Công báo 499+500 và Công báo 501+502 |",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "giay-phep",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "33-2024-nd-cp#4",
+   "slug": "33-2024-nd-cp",
+   "duong_dan": "wiki/sources/33-2024-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 33/2024/NĐ-CP — Thực hiện Công ước Cấm vũ khí hóa học và quản lý xuất nhập khẩu hóa chất Bảng",
+   "muc": "Chương I — Các quy định chung (Điều 1–7) > Điều 1 – Điều 4. Phạm vi, đối tượng áp dụng, áp dụng pháp luật và giải thích từ ngữ",
+   "noi_dung": "- **Phạm vi (Điều 1):** Điều chỉnh toàn bộ hoạt động sản xuất, kinh doanh, xuất khẩu, nhập khẩu, chế biến, sử dụng, tàng trữ hóa chất Bảng; sản xuất hóa chất DOC, DOC-PSF; báo cáo; thanh sát quốc tế và thanh tra, kiểm tra trên lãnh thổ Việt Nam.\n- **Giải thích 20 thuật ngữ chuyên ngành (Điều 4):**\n  - **Vũ khí hóa học (khoản 1), Hóa chất độc (khoản 2), Tiền chất (khoản 3).**\n  - **Hóa chất Bảng (khoản 4):** Hóa chất độc và tiền chất bị kiểm soát theo Công ước Cấm vũ khí hóa học, phân theo thứ tự Bảng 1, Bảng 2, Bảng 3; bao gồm **cả chất thuộc Danh mục và hỗn hợp chất chứa chất thuộc Danh mục**.\n  - **Hóa chất DOC và DOC-PSF (khoản 6):** Hóa chất hữu cơ riêng biệt chứa cacbon (trừ ôxit, sunfua của chúng và cacbonat kim loại); DOC-PSF là hóa chất DOC chứa thêm một trong các nguyên tố phốt pho (P), lưu huỳnh (S) hoặc flo (F).\n  - **Cơ sở hóa chất Bảng 1 (điểm a khoản 14):** Chia thành *cơ sở quy mô đơn lẻ* (thiết bị phản ứng không liên tục, mỗi thiết bị $\\le 100$ lít, tổng dung tích các thiết bị trên 5 lít $\\le 500$ lít) và *cơ sở khác* (quốc phòng/an ninh tổng sản lượng $\\le 10$ kg/năm; nghiên cứu/y tế/dược phẩm $> 100$ gam/năm cho một chất nhưng tổng $\\le 10$ kg/năm; phòng thí nghiệm tổng sản lượng từ $100$ gam/năm trở lên).",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "giay-phep",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "33-2024-nd-cp#5",
+   "slug": "33-2024-nd-cp",
+   "duong_dan": "wiki/sources/33-2024-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 33/2024/NĐ-CP — Thực hiện Công ước Cấm vũ khí hóa học và quản lý xuất nhập khẩu hóa chất Bảng",
+   "muc": "Chương I — Các quy định chung (Điều 1–7) > Điều 5. Danh mục hóa chất Bảng và phân định với các danh mục hóa chất công nghiệp",
+   "noi_dung": "1. Ban hành Danh mục hóa chất Bảng 1, Bảng 2, Bảng 3 tại **Phụ lục I**.\n2. **Loại trừ khỏi Danh mục hóa chất hạn chế sản xuất, kinh doanh** (Phụ lục II của Nghị định 82/2022/NĐ-CP — văn bản lịch sử đã hết hiệu lực) đối với 03 chất chuyển sang quản lý theo hóa chất Bảng:\n   - Tại STT 55 (Asen và hợp chất của asen): ngoại trừ *Arsenic trichloride* (mã HS `2812.10` / AHTN 2022 là `2812.19`, CAS `7784-34-1`, công thức $\\text{AsCl}_3$ — thuộc Bảng 2B).\n   - Tại STT 79 (Xyanua và hợp chất xyanua): ngoại trừ *Cyanogen chloride* (mã HS `2853.10`, CAS `506-77-4`, $\\text{CClN}$ — thuộc Bảng 3A) và *Hydrogen cyanide* (mã HS `2811.12`, CAS `74-90-8`, $\\text{HCN}$ — thuộc Bảng 3A).\n3. **Bãi bỏ 05 hóa chất khỏi Danh mục hóa chất sản xuất, kinh doanh có điều kiện** (Phụ lục I Nghị định 113/2017/NĐ-CP sửa đổi bởi Nghị định 82/2022/NĐ-CP — các văn bản lịch sử đã hết hiệu lực): STT 263 (*Dimethyl phosphite*), STT 333 (*Fonofos*), STT 489 (*Methyldiethanolamine*), STT 618 (*Pinacolyl alcohol*), STT 720 (*Triethyl phosphite*).\n4. **Bãi bỏ 16 hóa chất khỏi Danh mục hóa chất phải khai báo** (Phụ lục V Nghị định 113/2017/NĐ-CP sửa đổi bởi Nghị định 82/2022/NĐ-CP — các văn bản lịch sử đã hết hiệu lực): STT 137, 198, 242, 291, 374, 527, 656, 658, 762, 767, 815, 918, 935, 937, 1090, 1103.\n5. **Hóa chất Bảng 1** thuộc Danh mục hóa chất cấm đầu tư kinh doanh theo quy định của Luật Đầu tư.",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "giay-phep",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "82/2022/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-22",
+     "het_hieu_luc_tu": "2026-01-17",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "26/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [
+      "33/2024/NĐ-CP"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-82-2022-nd-cp-38082.htm"
+    },
+    {
+     "so_hieu": "113/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-11-25",
+     "het_hieu_luc_tu": "2026-01-17",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "26/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [
+      "33/2024/NĐ-CP"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-113-2017-nd-cp-24884/19507.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "33-2024-nd-cp#6",
+   "slug": "33-2024-nd-cp",
+   "duong_dan": "wiki/sources/33-2024-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 33/2024/NĐ-CP — Thực hiện Công ước Cấm vũ khí hóa học và quản lý xuất nhập khẩu hóa chất Bảng",
+   "muc": "Chương I — Các quy định chung (Điều 1–7) > Điều 6 – Điều 7. Cơ quan quốc gia và phòng, chống phổ biến vũ khí hóa học",
+   "noi_dung": "- **Cục Hóa chất (Bộ Công Thương)** được chỉ định là Cơ quan quốc gia Việt Nam thực hiện Công ước Cấm vũ khí hóa học (Điều 6).",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "giay-phep",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "33-2024-nd-cp#7",
+   "slug": "33-2024-nd-cp",
+   "duong_dan": "wiki/sources/33-2024-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 33/2024/NĐ-CP — Thực hiện Công ước Cấm vũ khí hóa học và quản lý xuất nhập khẩu hóa chất Bảng",
+   "muc": "Chương II — Sản xuất, kinh doanh, xuất khẩu, nhập khẩu, chế biến, sử dụng, tàng trữ hóa chất Bảng (Điều 8–22) > Mục 1 & Mục 2. Yêu cầu an toàn và cấp Giấy phép sản xuất, kinh doanh (Điều 8–16)",
+   "noi_dung": "- **Điều 10 – Điều 11 (Hóa chất Bảng 1):** Chỉ được sản xuất cho mục đích đặc biệt theo khoản 2 Điều 6 Luật Đầu tư (phân tích, kiểm nghiệm, nghiên cứu khoa học, y tế, sản xuất dược phẩm, điều tra tội phạm, bảo vệ quốc phòng, an ninh) trong giới hạn quy mô/sản lượng nghiêm ngặt. **Bộ Công Thương** tiếp nhận hồ sơ, thẩm định trong 16 ngày và trình **Thủ tướng Chính phủ** cấp Giấy phép sản xuất hóa chất Bảng 1 (Mẫu số 03 Phụ lục II).\n- **Điều 12 (Hóa chất Bảng 2, Bảng 3):** **Bộ Công Thương** thẩm định (16 ngày làm việc) và cấp Giấy phép sản xuất, kinh doanh hóa chất Bảng 2, Bảng 3.\n  - **Miễn trừ quan trọng (khoản 6 Điều 12):** **Miễn trừ cấp Giấy phép kinh doanh** đối với hóa chất Bảng 2 và hóa chất Bảng 3 có **nồng độ dưới 1%**.\n- **Điều 16 (Cơ sở sản xuất DOC, DOC-PSF):** Tuân thủ yêu cầu an toàn và quản lý hóa chất tại Điều 8, 9; báo cáo theo Điều 26; cơ sở có sản lượng DOC $> 200$ tấn/năm hoặc DOC-PSF $> 30$ tấn/năm chịu sự thanh sát, thanh tra, kiểm tra tại Chương IV.",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "giay-phep",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "33-2024-nd-cp#8",
+   "slug": "33-2024-nd-cp",
+   "duong_dan": "wiki/sources/33-2024-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 33/2024/NĐ-CP — Thực hiện Công ước Cấm vũ khí hóa học và quản lý xuất nhập khẩu hóa chất Bảng",
+   "muc": "Chương II — Sản xuất, kinh doanh, xuất khẩu, nhập khẩu, chế biến, sử dụng, tàng trữ hóa chất Bảng (Điều 8–22) > Mục 3. Nhập khẩu, xuất khẩu hóa chất Bảng — Trọng tâm thủ tục Hải quan (Điều 17–20)",
+   "noi_dung": "#### Điều 17. Yêu cầu chung về nhập khẩu, xuất khẩu hóa chất Bảng\n1. **Ràng buộc quốc gia đối tác:**\n   - **Hóa chất Bảng 1 và Bảng 2:** Chỉ được nhập khẩu, xuất khẩu từ/đến **các Quốc gia thành viên của Công ước Cấm vũ khí hóa học**.\n   - **Hóa chất Bảng 3:** Trường hợp xuất khẩu cho tổ chức, cá nhân của quốc gia **không phải là thành viên Công ước** thì phải có **Giấy chứng nhận sử dụng cuối cùng** (End-User Certificate, theo mẫu kèm Mẫu số 02 Phụ lục II) của cơ quan có thẩm quyền quốc gia đó.\n2. **Điều kiện thông quan:** Tổ chức, cá nhân nhập khẩu, xuất khẩu hóa chất Bảng phải có **Giấy phép nhập khẩu, xuất khẩu hóa chất Bảng** do cơ quan có thẩm quyền cấp. Giấy phép này là **điều kiện để thông quan** khi nhập khẩu, xuất khẩu.\n3. **Điều kiện nhập khẩu để kinh doanh:** Chỉ được phép nhập khẩu hóa chất Bảng để kinh doanh sau khi đã được cấp Giấy phép kinh doanh hóa chất Bảng.\n4. **Miễn khai báo hóa chất nhập khẩu (khoản 6 Điều 17):** Tổ chức, cá nhân đã được cấp Giấy phép nhập khẩu hóa chất Bảng **không phải thực hiện thủ tục khai báo hóa chất nhập khẩu** thuộc Danh mục hóa chất phải khai báo theo quy định của Luật Hóa chất.\n\n#### Điều 18. Cấp Giấy phép xuất khẩu, nhập khẩu hóa chất Bảng 1\n- **Thẩm quyền:** Bộ Công Thương tiếp nhận hồ sơ (Mẫu số 02 Phụ lục II + GCN đăng ký doanh nghiệp/HTX/hộ kinh doanh + hợp đồng/thỏa thuận mua bán/hóa đơn/vận đơn + Phiếu an toàn hóa chất tiếng Việt), kiểm tra trong **07 ngày làm việc** và trình **Thủ tướng Chính phủ** cấp Giấy phép (Mẫu số 04 Phụ lục II).\n- **Thời hạn Giấy phép:** **06 tháng** kể từ ngày cấp; chỉ được gia hạn **01 lần** không quá **06 tháng** (nộp hồ sơ gia hạn trước khi hết hạn tối thiểu **10 ngày làm việc**).\n\n#### Điều 19. Cấp và miễn trừ Giấy phép xuất khẩu, nhập khẩu hóa chất Bảng 2, hóa chất Bảng 3\n- **Thẩm quyền & cổng thực hiện:** **Bộ Công Thương** tiếp nhận hồ sơ và cấp Giấy phép thông qua **Cổng thông tin một cửa quốc gia** (khoản 1, khoản 8 Điều 19) trong thời hạn **07 ngày làm việc** kể từ ngày nhận đủ hồ sơ hợp lệ.\n- **Thời hạn Giấy phép:** **06 tháng** kể từ ngày cấp; được gia hạn **01 lần** không quá **06 tháng** (nộp hồ sơ gia hạn trước khi hết hạn tối thiểu **05 ngày làm việc**).\n- **Miễn trừ Giấy phép XNK theo ngưỡng nồng độ (khoản 4 Điều 19):**\n  > **Miễn trừ cấp Giấy phép xuất khẩu, nhập khẩu đối với hóa chất Bảng 2 và hóa chất Bảng 3 có nồng độ dưới 1%.**\n- **Quy định chứng từ tại khâu thông quan (khoản 9 Điều 19):**\n  > Tại thời điểm thực hiện thủ tục nhập khẩu, xuất khẩu hóa chất Bảng 2, hóa chất Bảng 3, tổ chức, cá nhân **không phải xuất trình Giấy phép kinh doanh hóa chất Bảng 2, hóa chất Bảng 3 cho cơ quan hải quan**.",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "giay-phep",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "33-2024-nd-cp#9",
+   "slug": "33-2024-nd-cp",
+   "duong_dan": "wiki/sources/33-2024-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 33/2024/NĐ-CP — Thực hiện Công ước Cấm vũ khí hóa học và quản lý xuất nhập khẩu hóa chất Bảng",
+   "muc": "Chương II — Sản xuất, kinh doanh, xuất khẩu, nhập khẩu, chế biến, sử dụng, tàng trữ hóa chất Bảng (Điều 8–22) > Mục 4. Chế biến, sử dụng, tàng trữ hóa chất Bảng (Điều 21–22)",
+   "noi_dung": "- Cơ sở chế biến, sử dụng phải lập Sổ theo dõi chế biến, sử dụng hóa chất Bảng và Phiếu an toàn hóa chất; lưu giữ hồ sơ tại cơ sở trong thời gian **03 năm** kể từ ngày kết thúc chế biến, sử dụng.",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "giay-phep",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "33-2024-nd-cp#10",
+   "slug": "33-2024-nd-cp",
+   "duong_dan": "wiki/sources/33-2024-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 33/2024/NĐ-CP — Thực hiện Công ước Cấm vũ khí hóa học và quản lý xuất nhập khẩu hóa chất Bảng",
+   "muc": "Chương III — Báo cáo hóa chất Bảng, hóa chất DOC, DOC-PSF (Điều 23–26)",
+   "noi_dung": "| Đối tượng báo cáo | Điều khoản & Biểu mẫu | Ngưỡng phải báo cáo | Thời hạn báo cáo gửi Cục Hóa chất (Bộ Công Thương) |\n|---|---|---|---|\n| **Hóa chất Bảng 1** (SX, XNK, chế biến, sử dụng, tàng trữ) | Điều 23 — Mẫu số 08 (`8a`, `8b`, `8c`, `8d`) Phụ lục II | Mọi khối lượng và nồng độ | - Trước **210 ngày** khi cơ sở đi vào hoạt động (`8a`) hoặc bổ sung/thay đổi hoạt động (`8b`)<br>- Trước **45 ngày** khi thực hiện xuất khẩu hoặc nhập khẩu (`8c`)<br>- Trước **15/02 hằng năm** qua CSDL hóa chất quốc gia (`8d`) |\n| **Hóa chất Bảng 2** (SX, KD, XNK, chế biến, sử dụng) | Điều 24 — Mẫu số 09 (`9a`, `9b`, `9c`) Phụ lục II | Sản lượng $\\ge 1$ kg/năm (Bảng 2A*), $\\ge 100$ kg/năm (Bảng 2A), $\\ge 1$ tấn/năm (Bảng 2B) **hoặc** nồng độ $\\ge 1\\%$ (Bảng 2A*, 2A), $\\ge 30\\%$ (Bảng 2B) | - Trước **60 ngày** khi cơ sở đi vào hoạt động (`9a`)<br>- Trước **30 ngày** khi bổ sung/điều chỉnh hoạt động (`9b`)<br>- Trước **15/02 hằng năm** qua CSDL hóa chất quốc gia (`9c`) |\n| **Hóa chất Bảng 3** (SX, KD, XNK) | Điều 25 — Mẫu số 10 (`10a`, `10b`, `10c`) Phụ lục II | Nồng độ từ **30% trở lên** | - Trước **60 ngày** khi cơ sở đi vào hoạt động (`10a`)<br>- Trước **30 ngày** khi bổ sung/điều chỉnh hoạt động (`10b`)<br>- Trước **15/02 hằng năm** qua CSDL hóa chất quốc gia (`10c`) |\n| **Hóa chất DOC, DOC-PSF** (Sản xuất) | Điều 26 — Mẫu số 11 (`11a`, `11b`, `11c`) Phụ lục II | Sản lượng DOC $\\ge 200$ tấn/năm; DOC-PSF $\\ge 30$ tấn/năm | - Trước **60 ngày** khi đi vào hoạt động (`11a`), **30 ngày** khi thay đổi (`11b`), và trước **15/02 hằng năm** qua CSDL hóa chất quốc gia (`11c`) |",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "giay-phep",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "33-2024-nd-cp#11",
+   "slug": "33-2024-nd-cp",
+   "duong_dan": "wiki/sources/33-2024-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 33/2024/NĐ-CP — Thực hiện Công ước Cấm vũ khí hóa học và quản lý xuất nhập khẩu hóa chất Bảng",
+   "muc": "Chương IV, V & VI — Thanh sát quốc tế, Quản lý nhà nước và Điều khoản thi hành (Điều 27–41)",
+   "noi_dung": "- **Thanh sát quốc tế của Tổ chức Công ước — OPCW (Điều 27–33):**\n  - Ngưỡng cơ sở chịu thanh sát (Điều 27): Mọi cơ sở hóa chất Bảng 1; cơ sở hóa chất Bảng 2 có sản lượng $\\ge 10$ kg/năm (2A*), $\\ge 1$ tấn/năm (2A), $\\ge 10$ tấn/năm (2B); cơ sở hóa chất Bảng 3 có sản lượng $\\ge 200$ tấn/năm; cơ sở sản xuất DOC $> 200$ tấn/năm hoặc DOC-PSF $> 30$ tấn/năm; và thanh sát đột xuất khi có cáo buộc vi phạm.\n  - **Ưu đãi hải quan đối với Đoàn thanh sát quốc tế (khoản 2 Điều 33):** Mẫu vật, thiết bị thuộc danh mục thiết bị được Hội nghị các Quốc gia thành viên Công ước phê chuẩn do Đoàn thanh sát quốc tế mang vào Việt Nam để thực hiện nhiệm vụ thanh sát được **miễn báo cáo và kiểm tra hải quan; được miễn thuế nhập khẩu, xuất khẩu**.\n- **Thanh tra, kiểm tra (Điều 34–35):** Khoản 2 Điều 34 về căn cứ thanh tra đột xuất đã bị bãi bỏ từ ngày 17/01/2026 theo khoản 4 Điều 31 **Nghị định 26/2026/NĐ-CP** (chuyển sang áp dụng thống nhất theo pháp luật về thanh tra).\n- **Phân công quản lý nhà nước (Điều 36–37):** Bộ Công Thương chủ trì quản lý hóa chất Bảng, DOC, DOC-PSF; Bộ Quốc phòng quản lý đạn dược, thiết bị chuyên dụng (điểm b, c khoản 1 Điều 4); Bộ Công an quản lý chất chống bạo loạn (khoản 5 Điều 4).\n- **Quy định chuyển tiếp (Điều 38):** Giấy phép XNK hóa chất Bảng cấp trước ngày 19/05/2024 tiếp tục sử dụng đến khi hết hạn ghi trong Giấy phép; báo cáo hằng năm qua Cơ sở dữ liệu hóa chất quốc gia áp dụng từ **15/02/2025**.",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "giay-phep",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "26/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-17",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-26-2026-nd-cp-468804.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "33-2024-nd-cp#12",
+   "slug": "33-2024-nd-cp",
+   "duong_dan": "wiki/sources/33-2024-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 33/2024/NĐ-CP — Thực hiện Công ước Cấm vũ khí hóa học và quản lý xuất nhập khẩu hóa chất Bảng",
+   "muc": "Bảng quyết định nhanh: Thủ tục xuất nhập khẩu hóa chất Bảng (Điều 17, 18, 19 & Phụ lục I)",
+   "noi_dung": "| Phân nhóm | Số dòng / Mã HS 6 số trong Phụ lục I | Thẩm quyền & Cổng cấp Giấy phép XNK | Ngưỡng nồng độ miễn Giấy phép XNK | Ràng buộc quốc gia đối tác XNK | Lưu ý khi làm thủ tục Hải quan |\n|---|---|---|---|---|---|\n| **Hóa chất Bảng 1** (1A: 12 nhóm chất độc; 1B: 4 nhóm tiền chất) | 40 dòng / 7 mã HS 6 số (`292119`, `292990`, `293090`, `293149`, `293159`, `293190`, `293339`, `293980`, `300249` — tổng 9 mã HS 6 số) | **Thủ tướng Chính phủ** cấp (Bộ Công Thương tiếp nhận, thẩm định 07 ngày làm việc) | **Không miễn trừ** (cấm đầu tư kinh doanh; chỉ XNK cho mục đích đặc biệt) | Chỉ được XNK với **Quốc gia thành viên Công ước CWC**; phải báo cáo trước **45 ngày** khi XNK | Phải có Giấy phép XNK (hiệu lực 06 tháng) làm điều kiện thông quan; miễn khai báo hóa chất NK |\n| **Hóa chất Bảng 2** (2A/2A*: 3 chất độc; 2B: 11 nhóm tiền chất) | 21 dòng / 16 mã HS 6 số (`281219`, `290359`, `290519`, `291817`, `292219`, `292990`, `293070`, `293090`, `293141`–`293143`, `293149`, `293151`–`293153`, `293159`, `293335`, `293339`) | **Bộ Công Thương** cấp qua **Cổng thông tin một cửa quốc gia** (07 ngày làm việc) | **Miễn Giấy phép XNK** nếu nồng độ **dưới 1%** (khoản 4 Điều 19) | Chỉ được XNK với **Quốc gia thành viên Công ước CWC** (khoản 1 Điều 17) | Có Giấy phép XNK (khi nồng độ $\\ge 1\\%$); **không phải xuất trình Giấy phép kinh doanh** cho Hải quan; miễn khai báo hóa chất NK |\n| **Hóa chất Bảng 3** (3A: 4 chất độc; 3B: 13 tiền chất) | 17 dòng / 16 mã HS 6 số (`281112`, `281211`–`281217`, `285310`, `290491`, `292021`–`292024`, `292215`, `292217`) | **Bộ Công Thương** cấp qua **Cổng thông tin một cửa quốc gia** (07 ngày làm việc) | **Miễn Giấy phép XNK** nếu nồng độ **dưới 1%** (khoản 4 Điều 19) | Được NK/XK với thành viên CWC; nếu **XK sang quốc gia không phải thành viên CWC** phải có **Giấy chứng nhận sử dụng cuối cùng** | Có Giấy phép XNK (khi nồng độ $\\ge 1\\%$); **không phải xuất trình Giấy phép kinh doanh** cho Hải quan; miễn khai báo hóa chất NK |\n\n> **Lưu ý về các chất loại trừ tại Phụ lục I (Bảng 2B):**\n> - Tại **Mục 2B STT 4** (các dẫn xuất phospho-hữu cơ chứa 1 nguyên tử P liên kết với 1 nhóm methyl, ethyl hoặc propyl, mã HS `2931.41`–`2931.43`, `2931.49`, `2931.51`–`2931.53`, `2931.59`): **ngoại trừ** *Fonofos: O-Ethyl S-phenyl ethylphosphonothiolothionate* (CAS `944-22-9`).\n> - Tại **Mục 2B STT 11** (các hợp chất *N,N-Dialkyl (Me, Et, n-Pr hoặc i-Pr) aminoethane-2-ol* và muối proton hóa, mã HS `2922.19`): **ngoại trừ** *N,N-Dimethylaminoethanol* (CAS `108-01-0`) và *N,N-Diethylaminoethanol* (CAS `100-37-8`) cùng các muối proton hóa tương ứng.",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "giay-phep",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "33-2024-nd-cp#13",
+   "slug": "33-2024-nd-cp",
+   "duong_dan": "wiki/sources/33-2024-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 33/2024/NĐ-CP — Thực hiện Công ước Cấm vũ khí hóa học và quản lý xuất nhập khẩu hóa chất Bảng",
+   "muc": "Căn cứ pháp lý",
+   "noi_dung": "- **Luật Tổ chức Chính phủ** ngày 19/06/2015 và Luật sửa đổi, bổ sung ngày 22/11/2019.\n- **Công ước Cấm phát triển, sản xuất, tàng trữ, sử dụng và phá hủy vũ khí hóa học** (được Chủ tịch nước phê chuẩn ngày 24/08/1998).\n- **Luật Hóa chất** số 06/2007/QH12 ngày 21/11/2007 (văn bản lịch sử đã hết hiệu lực, nay được thay thế bởi **Luật Hóa chất** số 69/2025/QH15).\n- **Luật Điều ước quốc tế** ngày 09/04/2016; **Luật Quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ** ngày 20/06/2017; **Luật Đầu tư** ngày 17/06/2020.",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "giay-phep",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "06/2007/QH12",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2008-07-01",
+     "het_hieu_luc_tu": "2026-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "69/2025/QH15"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=51260"
+    },
+    {
+     "so_hieu": "69/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214610"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "33-2024-nd-cp#14",
+   "slug": "33-2024-nd-cp",
+   "duong_dan": "wiki/sources/33-2024-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 33/2024/NĐ-CP — Thực hiện Công ước Cấm vũ khí hóa học và quản lý xuất nhập khẩu hóa chất Bảng",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/giay-phep-hoa-chat-co-dieu-kien]]\n- [[concepts/khai-bao-hoa-chat-nhap-khau]]\n- [[concepts/hoa-chat-nguy-hiem-trong-hang-hoa]]\n- [[concepts/kiem-tra-chuyen-nganh]]\n- [[concepts/phan-loai-ma-hs]]",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "giay-phep",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "33-2024-nd-cp#15",
+   "slug": "33-2024-nd-cp",
+   "duong_dan": "wiki/sources/33-2024-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 33/2024/NĐ-CP — Thực hiện Công ước Cấm vũ khí hóa học và quản lý xuất nhập khẩu hóa chất Bảng",
+   "muc": "Related sources",
+   "noi_dung": "- [[sources/26-2026-nd-cp]] (Nghị định quy định chi tiết Luật Hóa chất 69/2025/QH15 — khoản 4 Điều 31 bãi bỏ khoản 2 Điều 34 của Nghị định 33/2024/NĐ-CP từ 17/01/2026)\n- [[sources/113-2017-nd-cp]] (Nghị định lịch sử đã hết hiệu lực hướng dẫn Luật Hóa chất 2007 — được Điều 5 Nghị định 33/2024/NĐ-CP bãi bỏ một số hóa chất trùng lặp tại Phụ lục I và Phụ lục V từ 19/05/2024)\n- [[sources/82-2022-nd-cp]] (Nghị định lịch sử đã hết hiệu lực sửa đổi Nghị định 113/2017/NĐ-CP — được Điều 5 Nghị định 33/2024/NĐ-CP bổ sung ngoại trừ tại Phụ lục II và bãi bỏ một số chất tại Phụ lục I, V từ 19/05/2024)",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "giay-phep",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "69/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214610"
+    },
+    {
+     "so_hieu": "33/2024/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-05-19",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-33-2024-nd-cp-41584.htm"
+    },
+    {
+     "so_hieu": "113/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-11-25",
+     "het_hieu_luc_tu": "2026-01-17",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "26/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [
+      "33/2024/NĐ-CP"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-113-2017-nd-cp-24884/19507.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "33-2024-nd-cp#16",
+   "slug": "33-2024-nd-cp",
+   "duong_dan": "wiki/sources/33-2024-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 33/2024/NĐ-CP — Thực hiện Công ước Cấm vũ khí hóa học và quản lý xuất nhập khẩu hóa chất Bảng",
+   "muc": "Open questions",
+   "noi_dung": "- Trong Phụ lục I Mục 2B STT 4 của bản in Công báo, dòng ví dụ (*Methylphosphonyl dichloride*, *Dimethyl methylphosphonate*) và chất ngoại trừ (*Fonofos*) vẫn in mã HS cũ `2931.00` (không còn trong Danh mục AHTN 2022) bên cạnh 8 phân nhóm mới `2931.41`–`2931.59`; khi Bộ Công Thương cập nhật biểu mẫu trên Cổng thông tin một cửa quốc gia đã ánh xạ hoàn toàn sang các phân nhóm 6 số/8 số của AHTN 2022 chưa?\n- Đã có văn bản hướng dẫn kỹ thuật liên thông Cơ sở dữ liệu hóa chất quốc gia cho kỳ báo cáo hằng năm trước 15/02 theo khoản 6 Điều 38 chưa?",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "giay-phep",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "33-2024-nd-cp#17",
+   "slug": "33-2024-nd-cp",
+   "duong_dan": "wiki/sources/33-2024-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 33/2024/NĐ-CP — Thực hiện Công ước Cấm vũ khí hóa học và quản lý xuất nhập khẩu hóa chất Bảng",
+   "muc": "Notes",
+   "noi_dung": "- Đã đọc toàn văn từ tệp PDF Công báo số 499 + 500 ngày 12/04/2024 (`raw/download/congbaocdn.chinhphu.vn/33-2024-nd-cp.pdf`, 94 trang, có lớp chữ điện tử ký số bởi Văn phòng Chính phủ ngày 15/04/2024) kết hợp đối chiếu thông tin Phụ lục II trên Công báo số 501 + 502 và tệp ký số `33-nd-cp.signed.pdf`.\n- Danh mục mã HS tại Phụ lục I đã được trích xuất đầy đủ và đối chiếu (`da_doi_chieu: true`) tại `danh-muc/33-2024-nd-cp.csv` (78 dòng dữ liệu, 38 mã HS 6 số).",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "giay-phep",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
