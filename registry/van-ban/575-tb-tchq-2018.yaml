@@ -6,19 +6,22 @@ loai_phan_loai_can_cu: proxy_ket_qua_phan_loai_title
 loai_phan_loai_ngay: '2026-10-14'
 ten: Phân loại mã HS theo tracuuhs.com (7202.41.00)
 co_quan: TCHQ
-ngay_ban_hanh: '2018-01-01'
-hieu_luc_tu: '2018-01-01'
-tinh_trang: CHUA_XAC_MINH
+ngay_ban_hanh: '2018-01-29'
+hieu_luc_tu: '2018-01-29'
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - phan-loai-hs
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'HS code lấy từ tracuuhs.com — TB-TCHQ 575/2018'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-10'
-  boi: hermes-agent@ozvietnam
-  ghi_chu: 'Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A'
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8425 bản ghi 556-599/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 575/TB-TCHQ/2018, ban hành ngày 29/01/2018 (2018-01-29), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
 nguon:
   - url: https://www.tracuuhs.com/tin-tuc/tchq-575-2018
     truy_cap: '2015-01-30'
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=76477&cid=1294
+    truy_cap: '2026-11-21'
+  - url: https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/556-599%20TB-TCHQ%20TB%20v%E1%BB%81%20k%E1%BA%BFt%20qu%E1%BA%A3%20x%C3%A1c%20%C4%91%E1%BB%8Bnh%20tr%C6%B0%E1%BB%9Bc%20m%C3%A3%20s%E1%BB%91.tif
+    truy_cap: '2026-11-21'
 toan_van: chua_co
