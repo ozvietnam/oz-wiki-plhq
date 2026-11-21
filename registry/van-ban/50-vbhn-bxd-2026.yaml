@@ -1,0 +1,34 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 50/VBHN-BXD
+so_hieu_khac:
+  - 50/2026/VBHN-BXD
+loai: VAN_BAN_HOP_NHAT
+ten: 'Nghị định về thoát nước và xử lý nước thải'
+co_quan: BXD
+ngay_ban_hanh: '2026-06-17'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - bo-may
+quan_he:
+  hop_nhat:
+    - so_hieu: 80/2014/NĐ-CP
+nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=218494
+    truy_cap: '2026-11-21'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/6/50-vbhn-bxd.pdf
+    truy_cap: '2026-11-21'
+  - url: https://moc.gov.vn/en/news/94830/hop-nhat-nghi-dinh-ve-thoat-nuoc-va-xu-ly-nuoc-thai.aspx
+    truy_cap: '2026-11-21'
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=175375
+    truy_cap: '2026-11-21'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=218494), cổng Bộ Xây dựng (moc.gov.vn) và toàn văn PDF bậc A (50-vbhn-bxd.pdf, 24 trang, có lớp chữ đầy đủ, lưu tại raw/download/datafiles.chinhphu.vn/50-vbhn-bxd.pdf): Văn bản hợp nhất số 50/VBHN-BXD do Thứ trưởng Bộ Xây dựng Nguyễn Tường Văn ký xác thực ngày 17-06-2026, trích yếu "Nghị định về thoát nước và xử lý nước thải"; hợp nhất Nghị định 80/2014/NĐ-CP ngày 06-08-2014 của Chính phủ về thoát nước và xử lý nước thải (có hiệu lực từ ngày 01-01-2015, docid=175375) với 03 Nghị định sửa đổi, bổ sung gồm Nghị định 98/2019/NĐ-CP ngày 27-12-2019 (có hiệu lực từ ngày 15-02-2020), Nghị định 08/2022/NĐ-CP ngày 10-01-2022 (có hiệu lực từ ngày 10-01-2022) và Nghị định 85/2024/NĐ-CP ngày 10-07-2024 (có hiệu lực từ ngày 10-07-2024), đồng thời ghi nhận khoản 3 Điều 24 đã được bãi bỏ theo khoản 2 Điều 66 Nghị định 38/2015/NĐ-CP ngày 24-04-2015 (có hiệu lực từ ngày 15-06-2015). Cấu trúc gồm 7 Chương, 49 Điều; đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Văn bản hợp nhất Nghị định 80/2014/NĐ-CP về thoát nước và xử lý nước thải qua các lần sửa đổi, bổ sung (98/2019/NĐ-CP, 08/2022/NĐ-CP, 85/2024/NĐ-CP). Chỉ khai quan_he.hop_nhat đối với 80/2014/NĐ-CP đã có trong sổ; các Nghị định 98/2019/NĐ-CP, 08/2022/NĐ-CP và 85/2024/NĐ-CP chưa có trong sổ nên ghi nhận đầy đủ tại xac_minh.pham_vi.'
+toan_van: raw/download/datafiles.chinhphu.vn/50-vbhn-bxd.pdf
+tu_khoa:
+  - thoat-nuoc
+  - xu-ly-nuoc-thai
