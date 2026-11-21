@@ -78,10 +78,27 @@ export function tachSoHieu(soHieu) {
   const thanh = clean.replace(/\/(19|20)\d{2}\s*$/, '');
   const phan = thanh.split('/')[0] || '';
   const nums = [...phan.matchAll(/\d+/g)].map((m) => Number(m[0]));
-  // "503-508" là dải số: mở rộng thành từng số (một dòng CSV có thể gộp nhiều TB)
-  const dai = (nums.length === 2 && nums[1] > nums[0] && nums[1] - nums[0] <= 300)
-    ? Array.from({ length: nums[1] - nums[0] + 1 }, (_, i) => nums[0] + i)
-    : nums;
+  // "503-508" là dải số: chỉ mở rộng các cặp có gạch ngang a-b (b > a && b - a <= 300);
+  // các số phân cách bằng dấu phẩy/chấm ("801,836", "3308.3337.") giữ nguyên số đơn.
+  const dai = [];
+  const daCo = new Set();
+  const themSo = (n) => {
+    if (!daCo.has(n)) { daCo.add(n); dai.push(n); }
+  };
+  for (const m of phan.matchAll(/(\d+)\s*[-–]\s*(\d+)|(\d+)/g)) {
+    if (m[1] !== undefined && m[2] !== undefined) {
+      const a = Number(m[1]);
+      const b = Number(m[2]);
+      if (b > a && b - a <= 300) {
+        for (let n = a; n <= b; n += 1) themSo(n);
+      } else {
+        themSo(a);
+        themSo(b);
+      }
+    } else if (m[3] !== undefined) {
+      themSo(Number(m[3]));
+    }
+  }
   return {
     so_hieu: goc,
     so_base: thanh,
