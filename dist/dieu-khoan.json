@@ -5,8 +5,8 @@
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
  "canh_bao_tang_nhap": "Tầng TOM_TAT_NHAP được trích tự động bởi LLM (da_soat: false) — CHỈ dùng để định vị điều khoản, KHÔNG trích dẫn nguyên văn hay làm căn cứ pháp lý; chỉ dùng NGUYEN_VAN_NGUON_A để trích dẫn căn cứ.",
  "thong_ke": {
-  "so_van_ban_nguon_a": 48,
-  "so_dieu_khoan_nguon_a": 532,
+  "so_van_ban_nguon_a": 51,
+  "so_dieu_khoan_nguon_a": 583,
   "so_van_ban_tom_tat_nhap": 88,
   "so_dieu_khoan_tom_tat_nhap": 4699,
   "so_tep_doc_hieu": 91,
@@ -1269,6 +1269,140 @@
    ]
   },
   {
+   "so_hieu": "123/2020/NĐ-CP",
+   "slug": "123-2020-nd-cp",
+   "ten": "Quy định về hóa đơn, chứng từ",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2022-07-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=201365",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Nghị định này quy định việc quản lý, sử dụng hóa đơn khi bán hàng hóa, cung cấp dịch vụ; việc quản lý, sử dụng chứng từ khi thực hiện các thủ tục về thuế, thu phí, lệ phí và quy định nhiệm vụ, quyền hạn và trách nhiệm của cơ quan, tổ chức, cá nhân trong việc quản lý, sử dụng hóa đơn, chứng từ.",
+     "trang_pdf": 1,
+     "sha256_pdf": "62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "1. Tổ chức, cá nhân bán hàng hóa, cung cấp dịch vụ bao gồm: a) Doanh nghiệp được thành lập và hoạt động theo pháp luật Việt Nam; chi nhánh, văn phòng đại diện của doanh nghiệp nước ngoài hoạt động tại Việt Nam; b) Hợp tác xã, liên hiệp hợp tác xã; c) Hộ, cá nhân kinh doanh, tổ hợp tác; d) Đơn vị sự nghiệp công lập có bán hàng hóa, cung cấp dịch vụ; đ) Tổ chức không phải là doanh nghiệp nhưng có hoạt động kinh doanh. 2. Tổ chức, cá nhân mua hàng hóa, dịch vụ. 3. Tổ chức thu thuế, phí và lệ phí. 4. Người nộp thuế, phí và lệ phí. 5. Tổ chức có trách nhiệm khấu trừ thuế thu nhập cá nhân. 6. Tổ chức nhận in hóa đơn, chứng từ; tổ chức cung cấp phần mềm tự in chứng từ; tổ chức cung cấp dịch vụ hóa đơn, chứng từ điện tử. 7. Cơ quan thuế bao gồm Tổng cục Thuế, Cục Thuế, Chi cục Thuế (bao gồm cả Chi cục Thuế khu vực). 8. Cơ quan hải quan bao gồm Tổng cục Hải quan, Cục Hải quan, Cục Kiểm tra sau thông quan, Chi cục Hải quan. 9. Các tổ chức, cá nhân có liên quan đến việc quản lý, sử dụng hóa đơn và chứng từ.",
+     "trang_pdf": 2,
+     "sha256_pdf": "62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36"
+    },
+    {
+     "dieu": 3,
+     "khoan": 1,
+     "noi_dung": "Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: 1. Hóa đơn là chứng từ kế toán do tổ chức, cá nhân bán hàng hóa, cung cấp dịch vụ lập, ghi nhận thông tin bán hàng hóa, cung cấp dịch vụ. Hóa đơn được thể hiện theo hình thức hóa đơn điện tử hoặc hóa đơn do cơ quan thuế đặt in.",
+     "trang_pdf": 2,
+     "sha256_pdf": "62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36"
+    },
+    {
+     "dieu": 3,
+     "khoan": 2,
+     "noi_dung": "2. Hóa đơn điện tử là hóa đơn có mã hoặc không có mã của cơ quan thuế được thể hiện ở dạng dữ liệu điện tử do tổ chức, cá nhân bán hàng hóa, cung cấp dịch vụ lập bằng phương tiện điện tử để ghi nhận thông tin bán hàng hóa, cung cấp dịch vụ theo quy định của pháp luật về kế toán, pháp luật về thuế, bao gồm cả trường hợp hóa đơn được khởi tạo từ máy tính tiền có kết nối chuyển dữ liệu điện tử với cơ quan thuế, trong đó: a) Hóa đơn điện tử có mã của cơ quan thuế là hóa đơn điện tử được cơ quan thuế cấp mã trước khi tổ chức, cá nhân bán hàng hóa, cung cấp dịch vụ gửi cho người mua. Mã của cơ quan thuế trên hóa đơn điện tử bao gồm số giao dịch là một dãy số duy nhất do hệ thống của cơ quan thuế tạo ra và một chuỗi ký tự được cơ quan thuế mã hóa dựa trên thông tin của người bán lập trên hóa đơn. b) Hóa đơn điện tử không có mã của cơ quan thuế là hóa đơn điện tử do tổ chức bán hàng hóa, cung cấp dịch vụ gửi cho người mua không có mã của cơ quan thuế.",
+     "trang_pdf": 3,
+     "sha256_pdf": "62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36"
+    },
+    {
+     "dieu": 4,
+     "khoan": 1,
+     "noi_dung": "1. Khi bán hàng hóa, cung cấp dịch vụ, người bán phải lập hóa đơn để giao cho người mua (bao gồm cả các trường hợp hàng hóa, dịch vụ dùng để khuyến mại, quảng cáo, hàng mẫu; hàng hóa, dịch vụ dùng để cho, biếu, tặng, trao đổi, trả thay lương cho người lao động và tiêu dùng nội bộ (trừ hàng hóa luân chuyển nội bộ để tiếp tục quá trình sản xuất); xuất hàng hóa dưới các hình thức cho vay, cho mượn hoặc hoàn trả hàng hóa) và phải ghi đầy đủ nội dung theo quy định tại Điều 10 Nghị định này, trường hợp sử dụng hóa đơn điện tử thì phải theo định dạng chuẩn dữ liệu của cơ quan thuế theo quy định tại Điều 12 Nghị định này.",
+     "trang_pdf": 6,
+     "sha256_pdf": "62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36"
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "1. Hóa đơn, chứng từ được bảo quản, lưu trữ đảm bảo: a) Tính an toàn, bảo mật, toàn vẹn, đầy đủ, không bị thay đổi, sai lệch trong suốt thời gian lưu trữ; b) Lưu trữ đúng và đủ thời hạn theo quy định của pháp luật kế toán. 2. Hóa đơn điện tử, chứng từ điện tử được bảo quản, lưu trữ bằng phương tiện điện tử. Cơ quan, tổ chức, cá nhân được quyền lựa chọn và áp dụng hình thức bảo quản, lưu trữ hóa đơn điện tử, chứng từ điện tử phù hợp với đặc thù hoạt động và khả năng ứng dụng công nghệ. Hóa đơn điện tử, chứng từ điện tử phải sẵn sàng in được ra giấy hoặc tra cứu được khi có yêu cầu. 3. Hóa đơn do cơ quan thuế đặt in, chứng từ đặt in, tự in phải bảo quản, lưu trữ đúng với yêu cầu sau: a) Hóa đơn, chứng từ chưa lập được lưu trữ, bảo quản trong kho theo chế độ lưu trữ bảo quản chứng từ có giá. b) Hóa đơn, chứng từ đã lập trong các đơn vị kế toán được lưu trữ theo quy định lưu trữ, bảo quản chứng từ kế toán. c) Hóa đơn, chứng từ đã lập trong các tổ chức, hộ, cá nhân không phải là đơn vị kế toán được lưu trữ và bảo quản như tài sản riêng của tổ chức, hộ, cá nhân đó.",
+     "trang_pdf": 9,
+     "sha256_pdf": "62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36"
+    },
+    {
+     "dieu": 7,
+     "noi_dung": "1. Hóa đơn điện tử, chứng từ điện tử hợp pháp được chuyển đổi thành hóa đơn, chứng từ giấy khi có yêu cầu nghiệp vụ kinh tế, tài chính phát sinh hoặc theo yêu cầu của cơ quan quản lý thuế, cơ quan kiểm toán, thanh tra, kiểm tra, điều tra và theo quy định của pháp luật về thanh tra, kiểm tra và điều tra. 2. Việc chuyển đổi hóa đơn điện tử, chứng từ điện tử thành hóa đơn, chứng từ giấy phải bảo đảm sự khớp đúng giữa nội dung của hóa đơn điện tử, chứng từ điện tử và hóa đơn, chứng từ giấy sau khi chuyển đổi. 3. Hóa đơn điện tử, chứng từ điện tử được chuyển đổi thành hóa đơn, chứng từ giấy thì hóa đơn, chứng từ giấy chỉ có giá trị lưu giữ để ghi sổ, theo dõi theo quy định của pháp luật về kế toán, pháp luật về giao dịch điện tử, không có hiệu lực để giao dịch, thanh toán, trừ trường hợp hóa đơn được khởi tạo từ máy tính tiền có kết nối chuyển dữ liệu điện tử với cơ quan thuế theo quy định tại Nghị định này.",
+     "trang_pdf": 9,
+     "sha256_pdf": "62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36"
+    },
+    {
+     "dieu": 8,
+     "khoan": 1,
+     "noi_dung": "Hóa đơn quy định tại Nghị định này gồm các loại sau: 1. Hóa đơn giá trị gia tăng là hóa đơn dành cho các tổ chức khai thuế giá trị gia tăng theo phương pháp khấu trừ sử dụng cho các hoạt động: a) Bán hàng hóa, cung cấp dịch vụ trong nội địa; b) Hoạt động vận tải quốc tế; c) Xuất vào khu phi thuế quan và các trường hợp được coi như xuất khẩu; d) Xuất khẩu hàng hóa, cung cấp dịch vụ ra nước ngoài.",
+     "trang_pdf": 10,
+     "sha256_pdf": "62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36"
+    },
+    {
+     "dieu": 9,
+     "khoan": 1,
+     "noi_dung": "1. Thời điểm lập hóa đơn đối với bán hàng hóa (bao gồm cả bán tài sản nhà nước, tài sản tịch thu, sung quỹ nhà nước và bán hàng dự trữ quốc gia) là thời điểm chuyển giao quyền sở hữu hoặc quyền sử dụng hàng hóa cho người mua, không phân biệt đã thu được tiền hay chưa thu được tiền.",
+     "trang_pdf": 12,
+     "sha256_pdf": "62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36"
+    },
+    {
+     "dieu": 9,
+     "khoan": 2,
+     "noi_dung": "2. Thời điểm lập hóa đơn đối với cung cấp dịch vụ là thời điểm hoàn thành việc cung cấp dịch vụ không phân biệt đã thu được tiền hay chưa thu được tiền. Trường hợp người cung cấp dịch vụ có thu tiền trước hoặc trong khi cung cấp dịch vụ thì thời điểm lập hóa đơn là thời điểm thu tiền (không bao gồm trường hợp thu tiền đặt cọc hoặc tạm ứng để đảm bảo thực hiện hợp đồng cung cấp các dịch vụ: kế toán, kiểm toán, tư vấn tài chính, thuế; thẩm định giá; khảo sát, thiết kế kỹ thuật; tư vấn giám sát; lập dự án đầu tư xây dựng).",
+     "trang_pdf": 12,
+     "sha256_pdf": "62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36"
+    },
+    {
+     "dieu": 11,
+     "noi_dung": "Hóa đơn được khởi tạo từ máy tính tiền kết nối chuyển dữ liệu điện tử với cơ quan thuế đảm bảo nguyên tắc sau: 1. Nhận biết được hóa đơn in từ máy tính tiền kết nối chuyển dữ liệu điện tử với cơ quan thuế; 2. Không bắt buộc có chữ ký số; 3. Khoản chi mua hàng hóa, dịch vụ sử dụng hóa đơn (hoặc sao chụp hóa đơn hoặc tra thông tin từ Cổng thông tin điện tử của Tổng cục Thuế về hóa đơn) được khởi tạo từ máy tính tiền được xác định là khoản chi có đủ hóa đơn, chứng từ hợp pháp khi xác định nghĩa vụ thuế.",
+     "trang_pdf": 27,
+     "sha256_pdf": "62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36"
+    },
+    {
+     "dieu": 12,
+     "noi_dung": "1. Định dạng hóa đơn điện tử là tiêu chuẩn kỹ thuật quy định kiểu dữ liệu, chiều dài dữ liệu của các trường thông tin phục vụ truyền nhận, lưu trữ và hiển thị hóa đơn điện tử. Định dạng hóa đơn điện tử sử dụng ngôn ngữ định dạng văn bản XML (XML là chữ viết tắt của cụm từ tiếng Anh \"eXtensible Markup Language\" được tạo ra với mục đích chia sẻ dữ liệu điện tử giữa các hệ thống công nghệ thông tin). 2. Định dạng hóa đơn điện tử gồm hai thành phần: thành phần chứa dữ liệu nghiệp vụ hóa đơn điện tử và thành phần chứa dữ liệu chữ ký số. Đối với hóa đơn điện tử có mã của cơ quan thuế thì có thêm thành phần chứa dữ liệu liên quan đến mã cơ quan thuế. 3. Tổng cục Thuế xây dựng và công bố thành phần chứa dữ liệu nghiệp vụ hóa đơn điện tử, thành phần chứa dữ liệu chữ ký số và cung cấp công cụ hiển thị các nội dung của hóa đơn điện tử theo quy định tại Nghị định này. 4. Tổ chức, doanh nghiệp bán hàng hóa, cung cấp dịch vụ khi chuyển dữ liệu hóa đơn điện tử đến cơ quan thuế bằng hình thức gửi trực tiếp phải đáp ứng yêu cầu sau: a) Kết nối với Tổng cục Thuế thông qua kênh thuê riêng hoặc kênh MPLS VPN Layer 3, gồm 1 kênh truyền chính và 1 kênh truyền dự phòng. Mỗi kênh truyền có băng thông tối thiểu 5 Mbps. b) Sử dụng dịch vụ Web (Web Service) hoặc Message Queue (MQ) có mã hóa làm phương thức để kết nối. c) Sử dụng giao thức SOAP để đóng gói và truyền nhận dữ liệu. 5. Hóa đơn điện tử phải được hiển thị đầy đủ, chính xác các nội dung của hóa đơn đảm bảo không dẫn tới cách hiểu sai lệch để người mua có thể đọc được bằng phương tiện điện tử.",
+     "trang_pdf": 27,
+     "sha256_pdf": "62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36"
+    },
+    {
+     "dieu": 30,
+     "noi_dung": "1. Chứng từ trong lĩnh vực quản lý thuế, phí, lệ phí của cơ quan thuế bao gồm: a) Chứng từ khấu trừ thuế thu nhập cá nhân; b) Biên lai gồm: b.1) Biên lai thu thuế, phí, lệ phí không in sẵn mệnh giá; b.2) Biên lai thu thuế, phí, lệ phí in sẵn mệnh giá; b.3) Biên lai thu thuế, phí, lệ phí. 2. Trong quá trình quản lý thuế, phí, lệ phí theo quy định của Luật Quản lý thuế trường hợp có yêu cầu các loại chứng từ khác, Bộ trưởng Bộ Tài chính có trách nhiệm quy định và hướng dẫn thực hiện.",
+     "trang_pdf": 57,
+     "sha256_pdf": "62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36"
+    },
+    {
+     "dieu": 31,
+     "noi_dung": "Tại thời điểm khấu trừ thuế thu nhập cá nhân, thời điểm thu thuế, phí, lệ phí, tổ chức khấu trừ thuế thu nhập cá nhân, tổ chức thu thuế, phí, lệ phí phải lập chứng từ, biên lai giao cho người có thu nhập bị khấu trừ thuế, người nộp các khoản thuế, phí, lệ phí.",
+     "trang_pdf": 57,
+     "sha256_pdf": "62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36"
+    },
+    {
+     "dieu": 45,
+     "noi_dung": "1. Khi kiểm tra hàng hóa lưu thông trên thị trường, đối với trường hợp sử dụng hóa đơn điện tử, cơ quan nhà nước, người có thẩm quyền truy cập Cổng thông tin điện tử của Tổng cục Thuế để tra cứu thông tin về hóa đơn điện tử phục vụ yêu cầu quản lý, không yêu cầu cung cấp hóa đơn giấy. Các cơ quan có liên quan có trách nhiệm sử dụng các thiết bị để truy cập tra cứu dữ liệu hóa đơn điện tử. 2. Trường hợp bất khả kháng do sự cố, thiên tai gây ảnh hưởng đến việc truy cập mạng Internet dẫn đến không tra cứu được dữ liệu hóa đơn thì cơ quan nhà nước, người có thẩm quyền đang thực hiện kiểm tra thực hiện tra cứu thông tin hóa đơn điện tử theo hình thức nhắn tin.",
+     "trang_pdf": 75,
+     "sha256_pdf": "62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36"
+    },
+    {
+     "dieu": 58,
+     "noi_dung": "1. Các doanh nghiệp, tổ chức kinh tế sản xuất, kinh doanh ở các lĩnh vực: điện lực; xăng dầu; bưu chính viễn thông; vận tải hàng không, đường bộ, đường sắt, đường biển, đường thủy; nước sạch; tài chính tín dụng; bảo hiểm; y tế; kinh doanh thương mại điện tử; kinh doanh siêu thị; thương mại thực hiện hóa đơn điện tử và cung cấp dữ liệu hóa đơn điện tử theo định dạng dữ liệu do Tổng cục Thuế công bố. 2. Các tổ chức tín dụng, tổ chức cung ứng dịch vụ thanh toán cung cấp dữ liệu điện tử về giao dịch thanh toán qua tài khoản của các tổ chức, cá nhân khi có yêu cầu bằng văn bản của cơ quan thuế việc cung cấp thông tin khách hàng thực hiện theo quy định của pháp luật về ngân hàng. 3. Tổ chức sản xuất, nhập khẩu những sản phẩm chịu thuế tiêu thụ đặc biệt thuộc đối tượng sử dụng tem theo quy định của pháp luật thực hiện kết nối thông tin về in và sử dụng tem, tem điện tử giữa tổ chức sản xuất, nhập khẩu với cơ quan quản lý thuế. Thông tin về in, sử dụng tem điện tử là cơ sở để lập, quản lý và xây dựng cơ sở dữ liệu hóa đơn điện tử. Các đối tượng sử dụng tem có trách nhiệm chi trả chi phí in và sử dụng tem theo quy định của Bộ trưởng Bộ Tài chính. 4. Các tổ chức, đơn vị: Cơ quan quản lý thị trường, Tổng cục quản lý đất đai, Tổng cục địa chất và khoáng sản Việt Nam, cơ quan công an, giao thông, y tế và các cơ quan khác có liên quan kết nối chia sẻ thông tin, dữ liệu liên quan cần thiết trong lĩnh vực quản lý của đơn vị với Tổng cục Thuế để xây dựng cơ sở dữ liệu hóa đơn điện tử.",
+     "trang_pdf": 85,
+     "sha256_pdf": "62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36"
+    },
+    {
+     "dieu": 59,
+     "noi_dung": "1. Nghị định này có hiệu lực thi hành kể từ ngày 01 tháng 7 năm 2022, khuyến khích cơ quan, tổ chức, cá nhân đáp ứng điều kiện về hạ tầng công nghệ thông tin áp dụng quy định về hóa đơn, chứng từ điện tử của Nghị định này trước ngày 01 tháng 7 năm 2022. 2. Nghị định số 51/2010/NĐ-CP ngày 14 tháng 5 năm 2010 của Chính phủ quy định về hóa đơn bán hàng hóa, cung ứng dịch vụ, Nghị định số 04/2014/NĐ-CP ngày 17 tháng 01 năm 2014 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 51/2010/NĐ-CP quy định về hóa đơn bán hàng hóa, cung ứng dịch vụ, Nghị định số 119/2018/NĐ-CP ngày 12 tháng 9 năm 2018 của Chính phủ quy định về hóa đơn điện tử khi bán hàng hóa, cung cấp dịch vụ tiếp tục có hiệu lực thi hành đến ngày 30 tháng 6 năm 2022. 3. Bãi bỏ khoản 2 và khoản 4 Điều 35 Nghị định số 119/2018/NĐ-CP ngày 12 tháng 9 năm 2018 của Chính phủ quy định về hóa đơn điện tử kể từ ngày 01 tháng 11 năm 2020. 4. Bãi bỏ khoản 12 Điều 5 Nghị định số 12/2015/NĐ-CP ngày 12 tháng 01 năm 2015 của Chính phủ quy định chi tiết thi hành Luật sửa đổi, bổ sung một số điều của các Luật về thuế và sửa đổi, bổ sung một số điều của các Nghị định về thuế. 5. Việc quản lý, sử dụng hóa đơn bán tài sản công khi xử lý tài sản công (hóa đơn bằng giấy do Bộ Tài chính đặt in) tiếp tục thực hiện theo quy định tại Nghị định số 151/2017/NĐ-CP ngày 26 tháng 12 năm 2017 của Chính phủ quy định chi tiết một số điều của Luật Quản lý, sử dụng tài sản công. 6. Việc quản lý, sử dụng hóa đơn bán hàng dự trữ quốc gia khi bán hàng dự trữ quốc gia (hóa đơn bằng giấy) tiếp tục thực hiện theo quy định tại Thông tư số 16/2012/TT-BTC ngày 08 tháng 02 năm 2012 của Bộ Tài chính. Trường hợp có thông báo chuyển đổi áp dụng hóa đơn điện tử bán hàng dự trữ quốc gia thì các đơn vị thực hiện chuyển đổi theo quy định.",
+     "trang_pdf": 85,
+     "sha256_pdf": "62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36"
+    },
+    {
+     "dieu": 60,
+     "khoan": 3,
+     "noi_dung": "3. Bộ Tài chính hướng dẫn cụ thể Điều này.",
+     "trang_pdf": 87,
+     "sha256_pdf": "62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36"
+    },
+    {
+     "dieu": 61,
+     "noi_dung": "1. Bộ trưởng Bộ Tài chính có trách nhiệm chủ trì, phối hợp với Ủy ban nhân dân các tỉnh thành phố thực hiện triển khai việc kết nối thông tin từ máy tính tiền để quản lý doanh thu bán lẻ của các hộ, cá nhân kinh doanh theo quy định tại Nghị định này. 2. Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, căn cứ chức năng, nhiệm vụ được giao có trách nhiệm triển khai thực hiện Nghị định này. 3. Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương chỉ đạo các cơ quan, đơn vị trên địa bàn phối hợp để triển khai thực hiện Nghị định này./.",
+     "trang_pdf": 87,
+     "sha256_pdf": "62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36"
+    }
+   ]
+  },
+  {
    "so_hieu": "124/2026/TT-BTC",
    "slug": "124-2026-tt-btc",
    "ten": "Bổ sung khoản 10 Điều 15 Thông tư số 33/2023/TT-BTC quy định về xác định xuất xứ hàng hoá xuất khẩu, nhập khẩu",
@@ -1732,6 +1866,144 @@
    ]
   },
   {
+   "so_hieu": "181/2025/NĐ-CP",
+   "slug": "181-2025-nd-cp",
+   "ten": "Quy định chi tiết thi hành một số điều của Luật Thuế giá trị gia tăng",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2025-07-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-181-2025-nd-cp-45379.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Nghị định này quy định chi tiết về người nộp thuế tại khoản 1, 4 và khoản 5 Điều 4 và người nộp thuế trong trường hợp nhà cung cấp nước ngoài cung cấp dịch vụ cho người mua là tổ chức kinh doanh tại Việt Nam áp dụng phương pháp khấu trừ thuế quy định tại khoản 4 Điều 4, đối tượng không chịu thuế tại Điều 5, giá tính thuế tại Điều 7, thời điểm xác định thuế giá trị gia tăng tại khoản 2 Điều 8, thuế suất tại khoản 1, 2 Điều 9, phương pháp khấu trừ thuế tại Điều 11, phương pháp tính trực tiếp tại khoản 1 Điều 12, khấu trừ thuế giá trị gia tăng đầu vào tại Điều 14 và hoàn thuế giá trị gia tăng tại Điều 15 của Luật Thuế giá trị gia tăng.",
+     "trang_pdf": 1,
+     "sha256_pdf": "48f1b382c71e84b36d8695cbcf151bd61d3ce7db862261ccee917cc7d9909d1d"
+    },
+    {
+     "dieu": 2,
+     "khoan": 1,
+     "noi_dung": "Đối tượng áp dụng của Nghị định này bao gồm: 1. Người nộp thuế quy định tại Điều 3 Nghị định này.",
+     "trang_pdf": 1,
+     "sha256_pdf": "48f1b382c71e84b36d8695cbcf151bd61d3ce7db862261ccee917cc7d9909d1d"
+    },
+    {
+     "dieu": 4,
+     "khoan": 1,
+     "noi_dung": "1. Sản phẩm cây trồng, rừng trồng, chăn nuôi, thủy sản nuôi trồng, đánh bắt chưa chế biến thành các sản phẩm khác hoặc chỉ qua sơ chế thông thường của tổ chức, cá nhân tự sản xuất, đánh bắt bán ra và ở khâu nhập khẩu. Trong đó, các sản phẩm chỉ qua sơ chế thông thường là các sản phẩm mới được làm sạch, phơi, sấy khô, bóc vỏ, xay xát, xay vỡ mảnh, nghiền vỡ mảnh, xay bỏ vỏ, xát bỏ vỏ, tách hạt, tách cọng, cắt, xay, đánh bóng hạt, hồ hạt, chia tách ra từng phần, bỏ xương, băm, lột da, nghiền, cán mỏng, ướp muối, đóng hộp kín khí, bảo quản lạnh (ướp lạnh, đông lạnh), bảo quản bằng khí sunfuro, bảo quản theo phương thức cho hóa chất để tránh thối rữa, ngâm trong dung dịch lưu huỳnh hoặc ngâm trong dung dịch bảo quản khác và các hình thức bảo quản thông thường khác. Trường hợp không xác định được thì Bộ Nông nghiệp và Môi trường có trách nhiệm căn cứ vào quy trình sản xuất sản phẩm cây trồng, rừng trồng, chăn nuôi, thủy sản nuôi trồng, đánh bắt do người nộp thuế cung cấp để xác định là sản phẩm chưa chế biến thành các sản phẩm khác hoặc chỉ qua sơ chế thông thường của tổ chức, cá nhân tự sản xuất, đánh bắt bán ra và ở khâu nhập khẩu theo quy định của pháp luật.",
+     "trang_pdf": 3,
+     "sha256_pdf": "48f1b382c71e84b36d8695cbcf151bd61d3ce7db862261ccee917cc7d9909d1d"
+    },
+    {
+     "dieu": 4,
+     "khoan": 10,
+     "noi_dung": "10. Máy móc, thiết bị, phụ tùng, vật tư thuộc loại trong nước chưa sản xuất được cần nhập khẩu để sử dụng trực tiếp cho hoạt động nghiên cứu khoa học, phát triển công nghệ; máy móc, thiết bị, phụ tùng thay thế, phương tiện vận tải chuyên dùng và vật tư thuộc loại trong nước chưa sản xuất được cần nhập khẩu để tiến hành hoạt động tìm kiếm thăm dò, phát triển mỏ dầu khí; máy bay, trực thăng, tàu lượn, giàn khoan, tàu thuyền thuộc loại trong nước chưa sản xuất được cần nhập khẩu để tạo tài sản cố định của doanh nghiệp hoặc thuê của nước ngoài để sử dụng cho sản xuất, kinh doanh, cho thuê. Trong đó: Danh mục máy móc, thiết bị, phụ tùng, vật tư thuộc loại trong nước đã sản xuất được để làm cơ sở phân biệt với loại trong nước chưa sản xuất được cần nhập khẩu sử dụng trực tiếp cho hoạt động nghiên cứu khoa học và phát triển công nghệ; Danh mục máy móc, thiết bị, phụ tùng thay thế, phương tiện vận tải chuyên dùng và vật tư thuộc loại trong nước đã sản xuất được làm cơ sở phân biệt với loại trong nước chưa sản xuất được cần nhập khẩu để tiến hành hoạt động tìm kiếm thăm dò, phát triển mỏ dầu khí; Danh mục máy bay, trực thăng, tàu lượn, giàn khoan, tàu thuyền thuộc loại trong nước đã sản xuất được làm cơ sở phân biệt với loại trong nước chưa sản xuất được cần nhập khẩu để tạo tài sản cố định của doanh nghiệp hoặc thuê của nước ngoài để sử dụng cho sản xuất, kinh doanh, cho thuê do Bộ Tài chính ban hành.",
+     "trang_pdf": 6,
+     "sha256_pdf": "48f1b382c71e84b36d8695cbcf151bd61d3ce7db862261ccee917cc7d9909d1d"
+    },
+    {
+     "dieu": 4,
+     "khoan": 12,
+     "noi_dung": "12. Hàng hóa chuyển khẩu, quá cảnh qua lãnh thổ Việt Nam; hàng tạm nhập khẩu, tái xuất khẩu; hàng tạm xuất khẩu, tái nhập khẩu; nguyên liệu nhập khẩu để sản xuất, gia công hàng hóa xuất khẩu theo hợp đồng sản xuất, gia công xuất khẩu ký kết với bên nước ngoài; hàng hóa, dịch vụ được mua bán giữa nước ngoài với các khu phi thuế quan và giữa các khu phi thuế quan với nhau. Hàng hóa nhập khẩu từ nước ngoài của công ty cho thuê tài chính được vận chuyển thẳng vào khu phi thuế quan để cho doanh nghiệp trong khu phi thuế quan thuê tài chính. Khu phi thuế quan thực hiện theo quy định của pháp luật về thuế xuất khẩu, thuế nhập khẩu.",
+     "trang_pdf": 7,
+     "sha256_pdf": "48f1b382c71e84b36d8695cbcf151bd61d3ce7db862261ccee917cc7d9909d1d"
+    },
+    {
+     "dieu": 4,
+     "khoan": 14,
+     "noi_dung": "14. Sản phẩm xuất khẩu là tài nguyên, khoáng sản khai thác chưa chế biến thành sản phẩm khác và sản phẩm xuất khẩu là tài nguyên, khoáng sản khai thác đã chế biến thành sản phẩm khác theo định hướng của nhà nước về không khuyến khích xuất khẩu, hạn chế xuất khẩu các tài nguyên, khoáng sản thô được quy định tại Danh mục (Phụ lục I, Phụ lục II) ban hành kèm theo Nghị định này. Trong trường hợp cần thiết phải điều chỉnh sản phẩm xuất khẩu tại Danh mục (Phụ lục I, Phụ lục II) để phù hợp với bối cảnh kinh tế - xã hội trong từng thời kỳ, giao Bộ Tài chính phối hợp với các bộ liên quan báo cáo Chính phủ xem xét, quyết định.",
+     "trang_pdf": 7,
+     "sha256_pdf": "48f1b382c71e84b36d8695cbcf151bd61d3ce7db862261ccee917cc7d9909d1d"
+    },
+    {
+     "dieu": 4,
+     "khoan": 15,
+     "noi_dung": "15. Hàng hóa nhập khẩu trong trường hợp sau: a) Quà tặng cho cơ quan nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội, tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp, đơn vị vũ trang nhân dân trong định mức miễn thuế nhập khẩu theo quy định của pháp luật về thuế xuất khẩu, thuế nhập khẩu. b) Quà biếu, quà tặng trong định mức miễn thuế nhập khẩu theo quy định của pháp luật về thuế xuất khẩu, thuế nhập khẩu của tổ chức, cá nhân nước ngoài cho cá nhân Việt Nam; đồ dùng của tổ chức, cá nhân nước ngoài theo tiêu chuẩn miễn trừ ngoại giao và tài sản di chuyển trong định mức miễn thuế nhập khẩu theo quy định của pháp luật về thuế xuất khẩu, thuế nhập khẩu. c) Hàng hoá trong tiêu chuẩn hành lý miễn thuế nhập khẩu theo quy định của pháp luật về thuế xuất khẩu, thuế nhập khẩu. d) Hàng hóa nhập khẩu ủng hộ, tài trợ cho phòng, chống, khắc phục hậu quả thảm họa, thiên tai, dịch bệnh, chiến tranh là hàng hóa ủng hộ, tài trợ được các bộ, cơ quan ngang bộ, Ủy ban nhân dân các tỉnh, thành phố, Ủy ban Mặt trận Tổ quốc Việt Nam các tỉnh, thành phố tiếp nhận. Các cơ quan, tổ chức tiếp nhận có trách nhiệm ban hành văn bản tiếp nhận theo đề nghị của tổ chức, cá nhân ủng hộ, tài trợ. đ) Hàng hóa mua bán, trao đổi để phục vụ cho sản xuất, tiêu dùng của cư dân biên giới thuộc Danh mục hàng hóa mua bán, trao đổi của cư dân biên giới theo quy định của pháp luật và trong định mức miễn thuế nhập khẩu theo quy định của pháp luật về thuế xuất khẩu, thuế nhập khẩu. e) Di vật, cổ vật, bảo vật quốc gia theo quy định của pháp luật về di sản văn hóa do cơ quan nhà nước có thẩm quyền nhập khẩu bao gồm cả trường hợp ủy quyền và ủy thác nhập khẩu.",
+     "trang_pdf": 8,
+     "sha256_pdf": "48f1b382c71e84b36d8695cbcf151bd61d3ce7db862261ccee917cc7d9909d1d"
+    },
+    {
+     "dieu": 5,
+     "noi_dung": "1. Đối với hàng hóa, dịch vụ do cơ sở kinh doanh bán ra là giá bán chưa có thuế giá trị gia tăng; đối với hàng hóa, dịch vụ chịu thuế tiêu thụ đặc biệt là giá bán đã có thuế tiêu thụ đặc biệt nhưng chưa có thuế giá trị gia tăng; đối với hàng hóa chịu thuế bảo vệ môi trường là giá bán đã có thuế bảo vệ môi trường nhưng chưa có thuế giá trị gia tăng; đối với hàng hóa chịu thuế tiêu thụ đặc biệt và thuế bảo vệ môi trường là giá bán đã có thuế tiêu thụ đặc biệt và thuế bảo vệ môi trường nhưng chưa có thuế giá trị gia tăng. 2. Đối với hàng hóa nhập khẩu là trị giá tính thuế nhập khẩu theo quy định của pháp luật về thuế xuất khẩu, thuế nhập khẩu cộng với thuế nhập khẩu, cộng với các khoản thuế là thuế nhập khẩu bổ sung theo quy định của pháp luật về thuế xuất khẩu, thuế nhập khẩu và pháp luật về quản lý ngoại thương (nếu có), cộng với thuế tiêu thụ đặc biệt (nếu có) và cộng với thuế bảo vệ môi trường (nếu có). a) Trường hợp hàng hóa nhập khẩu được miễn thuế nhập khẩu thì giá tính thuế giá trị gia tăng là trị giá tính thuế nhập khẩu. b) Trường hợp hàng hóa nhập khẩu được giảm thuế nhập khẩu thì giá tính thuế giá trị gia tăng là trị giá tính thuế nhập khẩu cộng (+) với thuế nhập khẩu xác định theo mức thuế phải nộp sau khi đã được giảm. c) Trường hợp hàng hóa nhập khẩu thuộc đối tượng chịu thuế giá trị gia tăng và được miễn thuế nhập khẩu, sau đó thay đổi mục đích sử dụng dẫn đến phát sinh số thuế nhập khẩu phải nộp thì phải nộp thuế giá trị gia tăng bổ sung trên số tiền thuế nhập khẩu phải nộp.",
+     "trang_pdf": 9,
+     "sha256_pdf": "48f1b382c71e84b36d8695cbcf151bd61d3ce7db862261ccee917cc7d9909d1d"
+    },
+    {
+     "dieu": 15,
+     "noi_dung": "1. Đối với hàng hóa xuất khẩu, thời điểm xác định thuế giá trị gia tăng do người bán tự xác định nhưng chậm nhất không quá ngày làm việc tiếp theo kể từ ngày hàng hóa được thông quan theo quy định của pháp luật về hải quan. 2. Đối với hàng hóa nhập khẩu, thời điểm xác định thuế giá trị gia tăng là thời điểm xác định thuế nhập khẩu theo quy định của pháp luật về thuế xuất khẩu, thuế nhập khẩu.",
+     "trang_pdf": 17,
+     "sha256_pdf": "48f1b382c71e84b36d8695cbcf151bd61d3ce7db862261ccee917cc7d9909d1d"
+    },
+    {
+     "dieu": 17,
+     "khoan": 1,
+     "noi_dung": "1. Hàng hóa xuất khẩu bao gồm: a) Hàng hóa từ Việt Nam bán cho tổ chức, cá nhân ở nước ngoài và được tiêu dùng ở ngoài Việt Nam.",
+     "trang_pdf": 19,
+     "sha256_pdf": "48f1b382c71e84b36d8695cbcf151bd61d3ce7db862261ccee917cc7d9909d1d"
+    },
+    {
+     "dieu": 17,
+     "khoan": 4,
+     "noi_dung": "4. Các trường hợp không áp dụng thuế suất 0% quy định tại điểm b và d khoản 1 Điều 9 Luật Thuế giá trị gia tăng bao gồm: a) Chuyển giao công nghệ, chuyển nhượng quyền sở hữu trí tuệ ra nước ngoài. b) Dịch vụ tái bảo hiểm ra nước ngoài. c) Dịch vụ cấp tín dụng. d) Chuyển nhượng vốn. đ) Sản phẩm phái sinh. e) Dịch vụ bưu chính, viễn thông. g) Sản phẩm xuất khẩu quy định tại khoản 14 Điều 4 của Nghị định này. h) Thuốc lá, rượu, bia nhập khẩu sau đó xuất khẩu. i) Xăng, dầu mua tại nội địa bán cho cơ sở kinh doanh trong khu phi thuế quan; xe ô tô bán cho tổ chức, cá nhân trong khu phi thuế quan. k) Các dịch vụ cung cấp tại Việt Nam cho tổ chức, cá nhân ở nước ngoài như sau: thi đấu thể thao, biểu diễn nghệ thuật, văn hóa, giải trí, hội nghị, khách sạn, đào tạo, quảng cáo, du lịch lữ hành; dịch vụ cung cấp gắn với việc bán, phân phối, tiêu thụ sản phẩm, hàng hóa tại Việt Nam; dịch vụ thanh toán không dùng tiền mặt. l) Các dịch vụ do cơ sở kinh doanh cung cấp cho tổ chức, cá nhân ở trong khu phi thuế quan bao gồm: cho thuê nhà, hội trường, văn phòng, khách sạn, kho bãi; dịch vụ vận chuyển đưa đón người lao động; dịch vụ ăn uống (trừ dịch vụ cung cấp suất ăn công nghiệp, dịch vụ ăn uống trong khu phi thuế quan).",
+     "trang_pdf": 22,
+     "sha256_pdf": "48f1b382c71e84b36d8695cbcf151bd61d3ce7db862261ccee917cc7d9909d1d"
+    },
+    {
+     "dieu": 25,
+     "noi_dung": "Cơ sở kinh doanh phải có hóa đơn giá trị gia tăng của hàng hóa, dịch vụ mua vào hoặc chứng từ nộp thuế giá trị gia tăng ở khâu nhập khẩu hoặc chứng từ nộp thuế giá trị gia tăng thay cho phía nước ngoài theo quy định tại điểm a khoản 2 Điều 14 Luật Thuế giá trị gia tăng (bao gồm cả chứng từ nộp thuế giá trị gia tăng theo tỷ lệ % nhân với doanh thu thay cho phía nước ngoài).",
+     "trang_pdf": 35,
+     "sha256_pdf": "48f1b382c71e84b36d8695cbcf151bd61d3ce7db862261ccee917cc7d9909d1d"
+    },
+    {
+     "dieu": 26,
+     "khoan": 1,
+     "noi_dung": "Cơ sở kinh doanh phải có chứng từ thanh toán không dùng tiền mặt đối với hàng hóa, dịch vụ mua vào (bao gồm cả hàng hóa nhập khẩu) từ 05 triệu đồng trở lên đã bao gồm thuế giá trị gia tăng. Trong đó: 1. Chứng từ thanh toán không dùng tiền mặt là chứng từ chứng minh việc thanh toán không dùng tiền mặt theo quy định của Nghị định số 52/2024/NĐ-CP ngày 15 tháng 5 năm 2024 của Chính phủ về thanh toán không dùng tiền mặt, trừ các chứng từ bên mua nộp tiền mặt vào tài khoản của bên bán.",
+     "trang_pdf": 35,
+     "sha256_pdf": "48f1b382c71e84b36d8695cbcf151bd61d3ce7db862261ccee917cc7d9909d1d"
+    },
+    {
+     "dieu": 29,
+     "khoan": 1,
+     "noi_dung": "1. Cơ sở kinh doanh trong tháng, quý có hàng hóa, dịch vụ xuất khẩu nếu có số thuế giá trị gia tăng đầu vào chưa được khấu trừ hết từ 300 triệu đồng trở lên thì được hoàn thuế giá trị gia tăng theo tháng, quý, trừ trường hợp hàng hóa nhập khẩu sau đó xuất khẩu sang nước khác. Trong đó: a) Đối tượng được hoàn thuế trong một số trường hợp xuất khẩu được xác định như sau: đối với trường hợp ủy thác xuất khẩu là cơ sở kinh doanh có hàng hóa ủy thác xuất khẩu; đối với gia công chuyển tiếp là cơ sở kinh doanh ký hợp đồng gia công xuất khẩu với bên nước ngoài; đối với hàng hóa xuất khẩu để thực hiện công trình xây dựng ở nước ngoài là cơ sở kinh doanh có hàng hóa xuất khẩu thực hiện công trình xây dựng ở nước ngoài. b) Hàng hóa nhập khẩu sau đó xuất khẩu sang nước khác là hàng hóa do cơ sở kinh doanh nhập khẩu từ nước ngoài vào Việt Nam sau đó trực tiếp xuất khẩu hoặc ủy thác xuất khẩu, không bao gồm hàng hóa là nguyên liệu nhập khẩu để sản xuất, gia công hàng xuất khẩu.",
+     "trang_pdf": 46,
+     "sha256_pdf": "48f1b382c71e84b36d8695cbcf151bd61d3ce7db862261ccee917cc7d9909d1d"
+    },
+    {
+     "dieu": 33,
+     "noi_dung": "Người nước ngoài, người Việt Nam định cư ở nước ngoài (trừ thành viên của Tổ bay theo quy định của pháp luật về hàng không, thành viên của Đoàn thủy thủ theo quy định của pháp luật về hàng hải) mang hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế được hoàn thuế đối với hàng hóa mua tại Việt Nam mang theo khi xuất cảnh. Hồ sơ, thủ tục, số thuế được hoàn, phương thức hoàn thuế đối với trường hợp quy định tại khoản này được quy định tại Phụ lục IV ban hành kèm theo Nghị định này.",
+     "trang_pdf": 51,
+     "sha256_pdf": "48f1b382c71e84b36d8695cbcf151bd61d3ce7db862261ccee917cc7d9909d1d"
+    },
+    {
+     "dieu": 37,
+     "noi_dung": "Cơ sở kinh doanh thuộc trường hợp hoàn thuế quy định tại Mục này phải đáp ứng điều kiện sau đây: 1. Cơ sở kinh doanh thuộc trường hợp được hoàn thuế theo quy định tại các Điều 29, Điều 30, Điều 31, Điều 32 Nghị định này phải là cơ sở kinh doanh nộp thuế giá trị gia tăng theo phương pháp khấu trừ thuế, lập và lưu giữ sổ kế toán, chứng từ kế toán theo quy định của pháp luật về kế toán; có tài khoản tiền gửi tại ngân hàng theo mã số thuế của cơ sở kinh doanh. 2. Đáp ứng quy định về khấu trừ thuế giá trị gia tăng đầu vào theo quy định tại Mục 2 Chương III và không thuộc trường hợp quy định tại khoản 15 Điều 23 Nghị định này. 3. Người bán đã kê khai, nộp thuế giá trị gia tăng theo quy định đối với hóa đơn đã xuất cho cơ sở kinh doanh đề nghị hoàn thuế được xác định như sau: a) Tại thời điểm cơ sở kinh doanh nộp hồ sơ hoàn thuế, người bán đã nộp hồ sơ khai thuế giá trị gia tăng theo quy định và không còn nợ tiền thuế giá trị gia tăng của kỳ tính thuế tương ứng với kỳ tính thuế thuộc kỳ hoàn thuế của cơ sở kinh doanh đề nghị hoàn thuế. b) Cơ quan quản lý thuế tại thời điểm cơ sở kinh doanh nộp hồ sơ hoàn thuế trên cơ sở kết quả xử lý của hệ thống công nghệ thông tin tự động để xác định người bán đã kê khai, nộp thuế giá trị gia tăng theo quy định. c) Trường hợp xác định người bán chưa nộp đầy đủ hồ sơ khai thuế giá trị gia tăng của kỳ tính thuế tương ứng với kỳ tính thuế thuộc kỳ hoàn thuế của cơ sở kinh doanh (bao gồm cả trường hợp chưa đến thời hạn nộp hồ sơ khai thuế) hoặc còn nợ tiền thuế giá trị gia tăng của kỳ tính thuế tương ứng với kỳ tính thuế thuộc kỳ hoàn thuế thì cơ sở kinh doanh không được hoàn thuế đối với các hóa đơn tương ứng với kỳ tính thuế người bán chưa nộp đầy đủ hồ sơ khai thuế giá trị gia tăng hoặc còn nợ tiền thuế giá trị gia tăng. 4. Tại thời điểm cơ sở kinh doanh nộp hồ sơ hoàn thuế, cơ sở kinh doanh thuộc trường hợp hoàn thuế giá trị gia tăng, có số thuế giá trị gia tăng đầu vào đáp ứng đầy đủ điều kiện hoàn thuế theo quy định tại Mục này và tuân thủ các quy định về khai thuế theo quy định của pháp luật về quản lý thuế, lập hồ sơ hoàn thuế giá trị gia tăng đối với từng trường hợp hoàn thuế giá trị gia tăng và gửi đến cơ quan thuế có thẩm quyền tiếp nhận. Cơ quan thuế phân loại hồ sơ hoàn thuế giá trị gia tăng thuộc diện hoàn thuế trước hoặc kiểm tra trước hoàn thuế và giải quyết hồ sơ hoàn thuế giá trị gia tăng theo quy định của pháp luật về quản lý thuế.",
+     "trang_pdf": 52,
+     "sha256_pdf": "48f1b382c71e84b36d8695cbcf151bd61d3ce7db862261ccee917cc7d9909d1d"
+    },
+    {
+     "dieu": 38,
+     "khoan": 1,
+     "noi_dung": "1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025.",
+     "trang_pdf": 53,
+     "sha256_pdf": "48f1b382c71e84b36d8695cbcf151bd61d3ce7db862261ccee917cc7d9909d1d"
+    },
+    {
+     "dieu": 39,
+     "noi_dung": "1. Đối với dự án đầu tư đã được đầu tư trước ngày 01 tháng 7 năm 2025 mà vẫn đang trong giai đoạn đầu tư kể từ ngày Nghị định này có hiệu lực thi hành thì được áp dụng quy định hoàn thuế đối với đầu tư tại Điều 30 Nghị định này. 2. Quy định về hoàn thuế giá trị gia tăng đối với hoạt động sản xuất hàng hóa, cung cấp dịch vụ chịu thuế suất thuế giá trị gia tăng 5% quy định tại Điều 31 Nghị định này áp dụng đối với số thuế giá trị gia tăng đầu vào chưa được khấu trừ hết sử dụng cho sản xuất hàng hóa, cung cấp dịch vụ chịu thuế suất thuế giá trị gia tăng 5% phát sinh kể từ ngày Nghị định này có hiệu lực thi hành. 3. Quy định tại khoản 3 Điều 37 Nghị định này áp dụng cho kỳ tính thuế từ tháng 7 năm 2025 hoặc quý 3 năm 2025.",
+     "trang_pdf": 54,
+     "sha256_pdf": "48f1b382c71e84b36d8695cbcf151bd61d3ce7db862261ccee917cc7d9909d1d"
+    },
+    {
+     "dieu": 40,
+     "noi_dung": "1. Bộ Tài chính quy định chi tiết các điều, khoản được giao tại Nghị định và hướng dẫn thực hiện Nghị định này theo chức năng, nhiệm vụ đảm bảo yêu cầu quản lý. 2. Bộ Tài chính quy định cụ thể đối với hàng hóa, dịch vụ không thuộc phạm vi điều chỉnh của Nghị định này và Luật Thuế giá trị gia tăng. 3. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương và các cơ quan, tổ chức, cá nhân liên quan chịu trách nhiệm thi hành Nghị định này./.",
+     "trang_pdf": 55,
+     "sha256_pdf": "48f1b382c71e84b36d8695cbcf151bd61d3ce7db862261ccee917cc7d9909d1d"
+    }
+   ]
+  },
+  {
    "so_hieu": "19/2026/QH16",
    "slug": "19-2026-qh16",
    "ten": "Về thuế bảo vệ môi trường, thuế giá trị gia tăng, thuế tiêu thụ đặc biệt đối với xăng, dầu và nhiên liệu bay",
@@ -1900,6 +2172,106 @@
      "noi_dung": "4. Trong quá trình thực hiện, nếu có khó khăn vướng mắc, các cơ quan, tổ chức, cá nhân phản ánh về Bộ Lao động - Thương binh và Xã hội để nghiên cứu, giải quyết./.",
      "trang_pdf": 3,
      "sha256_pdf": "faa9b9b2ce3db6df1eb0306b1321669bdf3b1583aa1c596fc0705d63f5810c98"
+    }
+   ]
+  },
+  {
+   "so_hieu": "25/2018/NĐ-CP",
+   "slug": "25-2018-nd-cp",
+   "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2018-05-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-25-2018-nd-cp-26051.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "khoan": 1,
+     "noi_dung": "1. Sửa đổi, bổ sung khoản 1 Điều 1 như sau: “1. Nghị định này quy định về hoạt động in bao gồm: Điều kiện hoạt động cơ sở in; chế bản, in, gia công sau in; sao chụp (sau đây gọi là photocopy); nhập khẩu, quản lý thiết bị ngành in. Hoạt động chế bản, in, gia công sau in đối với xuất bản phẩm thực hiện theo quy định của pháp luật về xuất bản.”",
+     "trang_pdf": 1,
+     "sha256_pdf": "d0e52146a23f4cee41f34433282f689f8c656a44ba52702a5b74773164236aaa"
+    },
+    {
+     "dieu": 1,
+     "khoan": 2,
+     "noi_dung": "2. Sửa đổi, bổ sung Điều 3 như sau: “Điều 3. Chính sách của Nhà nước đối với hoạt động in 1. Khuyến khích, ưu đãi đầu tư ứng dụng công nghệ, kỹ thuật, thiết bị in tiết kiệm năng lượng, nguyên liệu, sức lao động và thân thiện với môi trường; hạn chế sử dụng, không sản xuất và nhập khẩu thiết bị in có công nghệ lạc hậu, gây ô nhiễm môi trường. 2. Áp dụng chính sách ưu đãi về đầu tư, thuế, tiền thuê đất đối với hoạt động in phục vụ nhiệm vụ chính trị, quốc phòng, an ninh và các nhiệm vụ trọng yếu khác của đất nước theo quy định của pháp luật”.",
+     "trang_pdf": 1,
+     "sha256_pdf": "d0e52146a23f4cee41f34433282f689f8c656a44ba52702a5b74773164236aaa"
+    },
+    {
+     "dieu": 1,
+     "khoan": 4,
+     "noi_dung": "4. Sửa đổi, bổ sung các điểm b, c và đ khoản 1 Điều 11 như sau: a) Sửa đổi, bổ sung điểm b, điểm c như sau: “b) Có thiết bị phù hợp để thực hiện một hoặc nhiều công đoạn chế bản, in, gia công sau in theo nhu cầu, khả năng hoạt động của cơ sở in và đúng với nội dung đơn đề nghị cấp giấy phép hoạt động in hoặc tờ khai đăng ký hoạt động cơ sở in quy định tại Điều 12 và Điều 14 Nghị định này; c) Có mặt bằng hợp pháp để thực hiện chế bản, in, gia công sau in.” b) Sửa đổi, bổ sung Điểm đ như sau: “đ) Có chủ sở hữu là tổ chức, cá nhân Việt Nam và có người đứng đầu là công dân Việt Nam, thường trú hợp pháp tại Việt Nam, có năng lực hành vi dân sự đầy đủ.”",
+     "trang_pdf": 3,
+     "sha256_pdf": "d0e52146a23f4cee41f34433282f689f8c656a44ba52702a5b74773164236aaa"
+    },
+    {
+     "dieu": 1,
+     "khoan": 8,
+     "noi_dung": "8. Sửa đổi, bổ sung khoản 5 Điều 15 như sau: “5. Lưu giữ đầy đủ hồ sơ liên quan đến sản phẩm nhận chế bản, in, gia công sau in trong 24 tháng, kể từ ngày ký hợp đồng in. Hồ sơ phải lưu giữ gồm có: a) Bản chính hợp đồng chế bản, in, gia công sau in hoặc phiếu đặt in quy định tại khoản 1 Điều 16 Nghị định này; b) Bản thảo (bản mẫu) của sản phẩm đặt in đã được đóng dấu hoặc có chữ ký của tổ chức, cá nhân có sản phẩm đặt in được lưu giữ theo một trong các dạng: Bản thảo trên giấy thông thường; bản thảo in trên giấy can; bản thảo in trên phim; bản thảo điện tử là tệp tin được chứa trong đĩa CD, đĩa CD-ROM, USB, ổ cứng hoặc các thiết bị lưu trữ dữ liệu khác; c) Giấy tờ liên quan đến sản phẩm đặt in quy định tại các Điều 17, 19, 20 và 22 Nghị định này; d) Sổ ghi chép, quản lý ấn phẩm nhận chế bản, in, gia công sau in được ghi đầy đủ thông tin.”",
+     "trang_pdf": 6,
+     "sha256_pdf": "d0e52146a23f4cee41f34433282f689f8c656a44ba52702a5b74773164236aaa"
+    },
+    {
+     "dieu": 1,
+     "khoan": 10,
+     "noi_dung": "10. Sửa đổi, bổ sung Điều 19 như sau: “Điều 19. Nhận chế bản, in, gia công sau in hóa đơn tài chính, các loại thẻ, giấy tờ có sẵn mệnh giá hoặc dùng để ghi mệnh giá 1. Cơ sở in chỉ được nhận chế bản, in, gia công sau in hóa đơn tài chính, các loại thẻ, giấy tờ có sẵn mệnh giá hoặc dùng để ghi mệnh giá khi tổ chức, cá nhân đặt in cung cấp các loại giấy tờ theo quy định của pháp luật chuyên ngành về các yêu cầu thủ tục khi in sản phẩm đó. 2. Tổ chức, cá nhân có sản phẩm đặt in phải chịu trách nhiệm về sản phẩm đặt in với cơ sở in.”",
+     "trang_pdf": 7,
+     "sha256_pdf": "d0e52146a23f4cee41f34433282f689f8c656a44ba52702a5b74773164236aaa"
+    },
+    {
+     "dieu": 1,
+     "khoan": 13,
+     "noi_dung": "13. Sửa đổi, bổ sung Điều 23 như sau: “Điều 23. Chế bản, in, gia công sau in cho tổ chức, cá nhân nước ngoài 1. Khi trực tiếp nhận chế bản, in, gia công sau in cho tổ chức, cá nhân ở nước ngoài (không hiện diện tại Việt Nam), cơ sở in thực hiện theo quy định sau đây: a) Người đứng đầu cơ sở in phải chịu trách nhiệm trước pháp luật về nội dung của sản phẩm in; b) Chỉ nhận chế bản, in, gia công sau in loại sản phẩm in ghi trong giấy phép hoạt động in hoặc nội dung đã được xác nhận đăng ký hoạt động in; c) Có hợp đồng với tổ chức, cá nhân đặt chế bản, in, gia công sau in. Trong hợp đồng phải thể hiện thông tin về tên, địa chỉ của tổ chức, cá nhân nước ngoài có sản phẩm đặt chế bản, in, gia công sau in; thông tin về tên, loại sản phẩm in, số lượng in, địa điểm sản xuất, thời gian xuất khẩu, tên cửa khẩu xuất khẩu, quốc gia nhập khẩu sản phẩm in và các thông tin khác có liên quan; d) Cập nhật thông tin của sản phẩm nhận chế bản, in, gia công sau in vào “Sổ quản lý ấn phẩm nhận chế bản, in, gia công sau in”; đ) Trường hợp nhận chế bản, in, gia công sau in sản phẩm là báo, tạp chí, tờ rời, tờ gấp và các sản phẩm in khác có nội dung về chính trị, lịch sử, địa lý, tôn giáo, địa giới hành chính Việt Nam, chủ quyền quốc gia, cơ sở in phải có văn bản khai báo đầy đủ, chính xác thông tin về tên, địa chỉ của tổ chức, cá nhân nước ngoài đặt chế bản, in, gia công sau in; thông tin về tên, loại sản phẩm in, số lượng in, địa điểm sản xuất, cửa khẩu xuất khẩu sản phẩm in. Văn bản khai báo gửi qua dịch vụ công trực tuyến hoặc dịch vụ bưu chính, chuyển phát hoặc nộp trực tiếp đến cơ quan quản lý nhà nước về hoạt động in cấp tỉnh nơi cơ sở in thực hiện chế bản, in, gia công sau in chậm nhất 01 ngày sau khi có hợp đồng quy định tại điểm c khoản này; e) Xuất khẩu 100% sản phẩm in ra nước ngoài. 2. Khi nhận chế bản, in, gia công sau in cho tổ chức, cá nhân ở nước ngoài (không hiện diện tại Việt Nam) thông qua tổ chức, cá nhân trung gian tại Việt Nam, cơ sở in thực hiện theo quy định sau đây: a) Tuân thủ quy định tại khoản 1 Điều này; b) Yêu cầu tổ chức, cá nhân trung gian đặt chế bản, in, gia công sau in cung cấp hồ sơ hải quan thể hiện việc xuất khẩu 100% số lượng sản phẩm in để lưu giữ tại cơ sở in trong thời hạn 24 tháng, kể từ ngày xuất khẩu. 3. Việc nhận chế bản, in, gia công cho tổ chức, cá nhân nước ngoài đang hoạt động tại Việt Nam phải tuân thủ quy định tại Nghị định này như đối với tổ chức, cá nhân Việt Nam. 4. Tổ chức, cá nhân có hợp đồng in với cơ sở in chịu trách nhiệm về bản quyền của sản phẩm đặt in. 5. Trường hợp có nhu cầu phát hành hoặc sử dụng sản phẩm in tại Việt Nam, cơ sở in hoặc tổ chức, cá nhân đặt chế bản, in, gia công sau in phải làm thủ tục nhập khẩu theo quy định của pháp luật.”",
+     "trang_pdf": 7,
+     "sha256_pdf": "d0e52146a23f4cee41f34433282f689f8c656a44ba52702a5b74773164236aaa"
+    },
+    {
+     "dieu": 1,
+     "khoan": 15,
+     "noi_dung": "15. Sửa đổi, bổ sung điểm b khoản 1 và khoản 3 Điều 27 như sau: a) Sửa đổi, bổ sung điểm b khoản 1 như sau: “b) Máy in sử dụng công nghệ kỹ thuật số, ốp-xét (offset), flexo, ống đồng, letterpress;” b) Sửa đổi, bổ sung khoản 3 như sau: “3. Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết chủng loại thiết bị in nhập khẩu phù hợp với sự phát triển của công nghệ, thiết bị in trong từng thời kỳ. Thông tin của thiết bị in nhập khẩu phải được cập nhật vào cơ sở dữ liệu quốc gia về hoạt động in.”",
+     "trang_pdf": 9,
+     "sha256_pdf": "d0e52146a23f4cee41f34433282f689f8c656a44ba52702a5b74773164236aaa"
+    },
+    {
+     "dieu": 1,
+     "khoan": 16,
+     "noi_dung": "16. Sửa đổi, bổ sung khoản 1 và khoản 3 Điều 28 như sau: a) Sửa đổi, bổ sung khoản 1 như sau: “1. Trước khi nhập khẩu, tổ chức, cá nhân phải có hồ sơ đề nghị cấp giấy phép nhập khẩu thiết bị in gửi qua hệ thống dịch vụ công trực tuyến hoặc dịch vụ bưu chính, chuyển phát hoặc nộp hồ sơ trực tiếp tại Bộ Thông tin và Truyền thông.” b) Sửa đổi, bổ sung khoản 3 như sau: “3. Trong thời gian 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ, Bộ Thông tin và Truyền thông phải cấp giấy phép nhập khẩu thiết bị in; trường hợp không cấp giấy phép phải có văn bản trả lời nêu rõ lý do. Hồ sơ đề nghị cấp giấy phép không thể hiện đầy đủ thông tin theo mẫu quy định bị từ chối cấp giấy phép.”",
+     "trang_pdf": 9,
+     "sha256_pdf": "d0e52146a23f4cee41f34433282f689f8c656a44ba52702a5b74773164236aaa"
+    },
+    {
+     "dieu": 1,
+     "khoan": 17,
+     "noi_dung": "17. Sửa đổi khoản 2, khoản 3 và bổ sung khoản 5, khoản 6 vào sau khoản 4 Điều 30 như sau: a) Sửa đổi, bổ sung khoản 2, khoản 3 như sau: “2. Đối với máy photocopy màu, máy in có chức năng photocopy màu phải đăng ký trước khi sử dụng, như sau: a) Tổ chức, cá nhân phải gửi hồ sơ đăng ký máy qua hệ thống dịch vụ công trực tuyến hoặc dịch vụ bưu chính, chuyển phát hoặc nộp hồ sơ trực tiếp tại Ủy ban nhân dân cấp tỉnh; b) Trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ, Ủy ban nhân dân cấp tỉnh phải xác nhận đăng ký bằng văn bản; trường hợp không xác nhận phải có văn bản trả lời nêu rõ lý do. 3. Hồ sơ đăng ký sử dụng máy photocopy màu, máy in có chức năng photocopy màu bao gồm: a) Đơn đăng ký sử dụng máy theo mẫu quy định; b) Bản sao có bản chính để đối chiếu hoặc bản sao có chứng thực nếu gửi bằng đường bưu chính, chuyển phát giấy phép nhập khẩu máy; hợp đồng và hóa đơn mua máy hoặc chứng từ thuê mua máy; c) Đơn đề nghị chuyển nhượng (đối với máy đã đăng ký sử dụng) có xác nhận của Ủy ban nhân dân cấp tỉnh nơi đã xác nhận đăng ký máy.” b) Bổ sung khoản 5, khoản 6 vào sau khoản 4 như sau: “5. Chuyển nhượng máy photocopy màu, máy in có chức năng photocopy màu: Tổ chức, cá nhân sử dụng máy đã đăng ký khi chuyển nhượng máy phải có hồ sơ gửi đến Ủy ban nhân dân cấp tỉnh nơi đã xác nhận đăng ký máy đó. Hồ sơ gồm: a) Đơn đề nghị chuyển nhượng máy theo mẫu quy định 02 bản; b) Bản sao có bản chính để đối chiếu hoặc bản sao có chứng thực nếu gửi bằng đường bưu chính, chuyển phát giấy tờ đảm bảo tư cách pháp nhân của cơ quan, tổ chức được chuyển nhượng máy; c) Bản chính giấy xác nhận đã đăng ký máy; d) Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được đơn đề nghị chuyển nhượng máy, Ủy ban nhân dân cấp tỉnh nơi đã xác nhận đăng ký máy xác nhận vào đơn chuyển nhượng, trả lại 01 bản cho cơ quan, tổ chức đề nghị chuyển nhượng máy, 01 bản lưu hồ sơ và cập nhật thay đổi đăng ký máy trong dữ liệu quản lý, trường hợp không xác nhận phải có văn bản trả lời nêu rõ lý do. 6. Thanh lý máy: Tổ chức, cá nhân sử dụng máy đã đăng ký, khi thanh lý phải có văn bản thông báo đến cơ quan quản lý nhà nước về hoạt động in nơi đã đăng ký máy, đồng thời giấy xác nhận đăng ký máy hết hiệu lực.”",
+     "trang_pdf": 9,
+     "sha256_pdf": "d0e52146a23f4cee41f34433282f689f8c656a44ba52702a5b74773164236aaa"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Ban hành kèm theo Nghị định này 18 mẫu, biểu mẫu gồm: Đơn, tờ khai, danh mục, giấy phép, giấy xác nhận, sổ, báo cáo để thực hiện các thủ tục hành chính và chế độ thông tin báo cáo trong hoạt động in.",
+     "trang_pdf": 10,
+     "sha256_pdf": "d0e52146a23f4cee41f34433282f689f8c656a44ba52702a5b74773164236aaa"
+    },
+    {
+     "dieu": 4,
+     "noi_dung": "Nghị định này có hiệu lực thi hành từ ngày 01 tháng 5 năm 2018.",
+     "trang_pdf": 11,
+     "sha256_pdf": "d0e52146a23f4cee41f34433282f689f8c656a44ba52702a5b74773164236aaa"
+    },
+    {
+     "dieu": 5,
+     "noi_dung": "1. Cơ sở in đã được cấp giấy phép hoạt động in xuất bản phẩm theo quy định của Luật xuất bản được chế bản, in, gia công sau in các loại sản phẩm quy định tại Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in và không phải làm thủ tục đề nghị cấp giấy phép hoạt động in, đăng ký hoạt động in. 2. Cơ sở in đã nhận chế bản, in, gia công sau in các sản phẩm in (đã có hợp đồng hoặc phiếu đặt in) trước ngày Nghị định này có hiệu lực thi hành phải tiếp tục thực hiện theo quy định tại Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in. 3. Tổ chức, cá nhân đã được cấp giấy phép nhập khẩu thiết bị in trước ngày Nghị định này có hiệu lực thi hành mà chưa hoàn thành thủ tục nhập khẩu phải tiếp tục thực hiện theo quy định tại Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in.",
+     "trang_pdf": 11,
+     "sha256_pdf": "d0e52146a23f4cee41f34433282f689f8c656a44ba52702a5b74773164236aaa"
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này./.",
+     "trang_pdf": 11,
+     "sha256_pdf": "d0e52146a23f4cee41f34433282f689f8c656a44ba52702a5b74773164236aaa"
     }
    ]
   },
