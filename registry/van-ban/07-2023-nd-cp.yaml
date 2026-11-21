@@ -15,12 +15,31 @@ quan_he:
       can_cu: Điều 1 và Điều 2 NĐ 07/2023/NĐ-CP
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Đã đối chiếu toàn văn PDF ký số (07-nd.signed.pdf trên datafiles.chinhphu.vn): Nghị định số 07/2023/NĐ-CP do Phó Thủ tướng Trần Hồng Hà ký ban hành ngày 03-03-2023 và có hiệu lực thi hành kể từ ngày ký ban hành (03-03-2023) theo Điều 2, sửa đổi, bổ sung một số điều của Nghị định số 98/2021/NĐ-CP ngày 08-11-2021 về quản lý trang thiết bị y tế; hiện đang còn hiệu lực.'
+  pham_vi: 'Đã đối chiếu toàn văn PDF ký số (07-nd.signed.pdf trên datafiles.chinhphu.vn, SHA-256 2d28d04bd5188e2fa12bfa9f9e1ecae2f983b845913c67e2cf744d6f513ec770): Nghị định số 07/2023/NĐ-CP do Phó Thủ tướng Trần Hồng Hà ký ban hành ngày 03-03-2023 và có hiệu lực thi hành kể từ ngày ký ban hành (03-03-2023) theo Điều 2, sửa đổi, bổ sung một số điều của Nghị định số 98/2021/NĐ-CP ngày 08-11-2021 về quản lý trang thiết bị y tế; hiện đang còn hiệu lực.'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-15'
-  boi: paperclip-agent@ozvietnam
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      khoan: 1
+      noi_dung: '2. Chủ sở hữu số lưu hành là tổ chức công bố tiêu chuẩn áp dụng đối với trang thiết bị y tế hoặc tổ chức được cấp giấy chứng nhận đăng ký lưu hành đối với trang thiết bị y tế theo quy định của Nghị định này.'
+    - dieu: 1
+      khoan: 11
+      noi_dung: 'Điều 46. Nguyên tắc quản lý xuất khẩu, nhập khẩu trang thiết bị y tế 1. Tổ chức, cá nhân thực hiện việc xuất khẩu, nhập khẩu trang thiết bị y tế phải đáp ứng các điều kiện theo quy định của pháp luật về xuất khẩu, nhập khẩu và phải chịu trách nhiệm bảo đảm chất lượng, số lượng, chủng loại, mục đích sử dụng của trang thiết bị y tế mà mình xuất khẩu, nhập khẩu. 2. Trang thiết bị y tế đã có số lưu hành tại Việt Nam được xuất khẩu, nhập khẩu theo nhu cầu, không hạn chế số lượng và không phải qua Bộ Y tế phê duyệt. 3. Trang thiết bị y tế thuộc trường hợp quy định tại khoản 1 Điều 48 Nghị định này khi nhập khẩu để sử dụng tại Việt Nam phải có giấy phép nhập khẩu. 4. Trang thiết bị y tế không thuộc trường hợp quy định tại khoản 2 và khoản 3 Điều này khi đưa vào Việt Nam theo các hình thức khác thực hiện theo quy định của pháp luật về quản lý ngoại thương. 5. Việc cấp giấy chứng nhận lưu hành tự do áp dụng đối với trang thiết bị y tế theo quy định của pháp luật về quản lý ngoại thương. 6. Việc nhập khẩu trang thiết bị y tế đã qua sử dụng thực hiện theo quy định của pháp luật về quản lý ngoại thương.'
+    - dieu: 1
+      khoan: 12
+      noi_dung: 'Trang thiết bị y tế chưa có số lưu hành nhập khẩu để sử dụng tại cơ sở y tế được mua sắm từ nguồn vốn hỗ trợ phát triển chính thức (ODA) và vốn vay ưu đãi, viện trợ không hoàn lại không thuộc hỗ trợ phát triển chính thức.'
+    - dieu: 1
+      khoan: 18
+      noi_dung: 'Bắt buộc áp dụng Hồ sơ kỹ thuật chung về trang thiết bị y tế theo quy định của ASEAN (**Common Submission Dossier Template - CSDT**) từ ngày **01/01/2024**.'
+    - dieu: 2
+      noi_dung: 'có hiệu lực thi hành kể từ ngày ký ban hành'
+    - dieu: 3
+      noi_dung: 'Bộ trưởng Bộ Y tế có trách nhiệm hướng dẫn, tổ chức và kiểm tra việc thi hành; các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch UBND cấp tỉnh và các cơ quan, tổ chức, cá nhân liên quan chịu trách nhiệm thi hành.'
 ghi_chu: NĐ sửa đổi quan trọng nhất của 98/2021/NĐ-CP — bổ sung quy định phân loại TTBYT theo mức rủi ro. Được dẫn chiếu trong TT 19/2024, TT 24/2026, TT 27/2026, TT 28/2026.
-toan_van: raw/download/datafiles.chinhphu.vn/07-2023-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/07-2023-nd-cp.pdf
+  - wiki/sources/07-2023-nd-cp.md
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=210028&pageid=27160
     truy_cap: '2026-10-12'

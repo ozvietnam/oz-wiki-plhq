@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 23872/TB-CHQ/2026
+so_hieu_khac:
+  - 23872/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-21'
+ten: 'Thông báo về kết quả xác định trước mã số (Module giao tiếp kỹ thuật số Digital Communication Module DCM, ký mã hiệu SC8080, dùng cho máy lọc máu liên tục CRRT PrisMax để nhận và truyền dữ liệu điều trị qua WiFi tới hệ thống bệnh án điện tử EMR, mã số 8517.62.59)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-11-04'
+hieu_luc_tu: '2026-11-04'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=106707&cid=1294
+    truy_cap: '2026-11-21'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/11/6/VB_23872.pdf
+    truy_cap: '2026-11-21'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/11/6/VB_23872.pdf, id=106707, SHA-256 4bb708833a71be208e9acb31708b86599466e784b67ad034ac24b3543815021b): Thông báo số 23872/TB-CHQ ngày 04-11-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Module giao tiếp kỹ thuật số (Digital Communication Module - DCM, ký mã hiệu SC8080, lắp trong máy lọc máu liên tục CRRT PrisMax để nhận, lưu đệm và truyền dữ liệu điều trị qua WiFi tới hệ thống bệnh án điện tử EMR), phân loại vào nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.59; có hiệu lực kể từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Module giao tiếp kỹ thuật số (Digital Communication Module - DCM, ký mã hiệu SC8080, tích hợp vi xử lý Digi ConnectCore 6UL NXP i.MX6UL ARM Cortex-A7, WiFi IEEE 802.11 a/b/g/n/ac, cổng Ethernet RJ45 và đầu nối Hirose 50 chân, lắp cố định trong máy lọc máu liên tục PrisMax để nhận dữ liệu điều trị một chiều qua UART và chuyển tiếp qua WiFi đến hệ thống bệnh án điện tử EMR) thuộc nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.59.'
+toan_van: raw/download/files.customs.gov.vn/23872-tb-chq-2026.pdf
