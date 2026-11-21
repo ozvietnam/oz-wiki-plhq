@@ -676,6 +676,8 @@ flowchart LR
   n_3830_Q__BKHCN["3830/QĐ-BKHCN<br/>còn hiệu lực"]
   n_367_Q__BKHCN["367/QĐ-BKHCN<br/>chưa xác minh"]
   n_2711_Q__BKHCN["2711/QĐ-BKHCN<br/>hết hiệu lực một phần"]
+  n_43_2026_NQ_CP["43/2026/NQ-CP<br/>còn hiệu lực"]
+  n_19_2026_QH16["19/2026/QH16<br/>còn hiệu lực"]
   n_66_2025_QH15["66/2025/QH15<br/>còn hiệu lực"]
   n_03_2022_QH15["03/2022/QH15<br/>hết hiệu lực một phần"]
   n_72_2026_N__CP["72/2026/NĐ-CP<br/>còn hiệu lực"]
@@ -714,6 +716,7 @@ flowchart LR
   n_346_2025_N__CP -->|thay thế toàn bộ từ 2026-01-01| n_53_2020_N__CP
   n_3830_Q__BKHCN -->|sửa đổi Hủy bỏ sản phẩm có mã HS 9405.11.99 tại Quyết định số 367/QĐ-BKHCN ngày 12-03-2024 từ 2025-11-21| n_367_Q__BKHCN
   n_3830_Q__BKHCN -->|sửa đổi Bãi bỏ mã HS 9405.11.99 tại mục 10.4 (bóng đèn có đi-ốt phát sáng LED thông dụng cố định) trong Phụ lục Danh mục sản phẩm, hàng hóa nhóm 2 từ 2025-11-21| n_2711_Q__BKHCN
+  n_43_2026_NQ_CP -->|sửa đổi Kéo dài thời hạn áp dụng Điều 1 (thuế bảo vệ môi trường) và Điều 2 (thuế giá trị gia tăng) đối với xăng, dầu và nhiên liệu bay đến hết ngày 31/12/2026 từ 2026-10-01| n_19_2026_QH16
   n_45_2005_QH11 -->|bãi bỏ từ 2016-09-01| n_107_2016_QH13
   n_56_2024_QH15 -->|sửa đổi từ 2025-01-01| n_38_2019_QH14
   n_66_2025_QH15 -->|thay thế Điều 8 (sửa đổi, bổ sung một số điều của Luật Thuế tiêu thụ đặc biệt) từ 2026-01-01| n_03_2022_QH15
