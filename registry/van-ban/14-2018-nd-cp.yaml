@@ -15,11 +15,125 @@ nguon:
     truy_cap: '2026-11-14'
   - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-14-2018-nd-cp-25834/21275.htm
     truy_cap: '2026-11-14'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/1/25834/21275-1-2018361-36214-2018-nd-cp.pdf
+    truy_cap: '2026-11-21'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=192765), toàn văn PDF ký số (14.signed_01.pdf) và Nghị định 122/2024/NĐ-CP: ban hành và có hiệu lực từ 23-01-2018, đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Nghị định 122/2024/NĐ-CP từ 01-12-2024).'
+  pham_vi: 'Đã đối chiếu toàn văn nguồn bậc A từ PDF Công báo số 361 + 362 ngày 08-02-2018 (raw/download/congbaocdn.chinhphu.vn/14-2018-nd-cp.pdf, 14 trang, trang 31–44 của số Công báo, có lớp chữ ký số bởi Cổng Thông tin điện tử Chính phủ / Văn phòng Chính phủ ngày 13-03-2018, SHA-256 e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c), thẻ vanban.chinhphu.vn (docid=192765), toàn văn PDF ký số (14.signed_01.pdf) và trang wiki/sources/14-2018-nd-cp.md: Thủ tướng Nguyễn Xuân Phúc ký ban hành và có hiệu lực từ ngày 23-01-2018; cấu trúc 6 Chương / 26 Điều / 01 Phụ lục (Mẫu bảng kê mua bán, trao đổi hàng hóa qua biên giới của thương nhân); khoản 2 Điều 26 bãi bỏ Quyết định 52/2015/QĐ-TTg; đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Nghị định 122/2024/NĐ-CP từ 01-12-2024).'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: '1. Nghị định này quy định chi tiết các hoạt động thương mại biên giới quy định tại Điều 53 và Điều 54 Luật Quản lý ngoại thương về hoạt động mua bán, trao đổi hàng hóa của thương nhân, cư dân biên giới; các hoạt động mua bán, trao đổi hàng hóa và các hoạt động liên quan đến mua bán, trao đổi hàng hóa quy định trong điều ước quốc tế giữa nước Cộng hòa xã hội chủ nghĩa Việt Nam và các nước có chung biên giới. 2. Hoạt động tạm nhập, tái xuất, tạm xuất, tái nhập, chuyển khẩu và quá cảnh không thuộc phạm vi điều chỉnh của Nghị định này.'
+      trang_pdf: 1
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 2
+      khoan: 1
+      noi_dung: '1. Thương nhân, các tổ chức, cá nhân tham gia hoạt động thương mại biên giới.'
+      trang_pdf: 1
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 3
+      noi_dung: 'Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: 1. Nước có chung biên giới là nước có chung đường biên giới đất liền với nước Cộng hòa xã hội chủ nghĩa Việt Nam, bao gồm: Cộng hòa nhân dân Trung Hoa, Cộng hòa dân chủ nhân dân Lào và Vương quốc Cam-pu-chia. 2. Cửa khẩu khác và nơi mở ra cho qua lại biên giới là cửa khẩu phụ, lối mở biên giới theo quy định của pháp luật về quản lý cửa khẩu biên giới đất liền. 3. Cư dân biên giới thuộc đối tượng áp dụng của Nghị định này bao gồm: a) Công dân Việt Nam có hộ khẩu thường trú tại xã, phường, thị trấn hoặc khu vực địa giới hành chính tương đương có một phần địa giới hành chính trùng với đường biên giới quốc gia trên đất liền; b) Người có giấy phép của cơ quan công an có thẩm quyền cho phép cư trú ở khu vực biên giới. 4. Chợ biên giới bao gồm chợ hoặc khu, điểm chợ biên giới, chợ cửa khẩu và chợ trong khu kinh tế cửa khẩu nằm trên địa bàn xã, phường, thị trấn hoặc khu vực hành chính tương đương có một phần địa giới hành chính trùng với biên giới quốc gia trên đất liền, đồng thời có hoạt động xuất khẩu, nhập khẩu, mua bán, trao đổi hàng hóa của thương nhân và cư dân biên giới. 5. Hoạt động mua bán, trao đổi hàng hóa qua biên giới của thương nhân là hoạt động xuất khẩu, nhập khẩu theo quy định của pháp luật.'
+      trang_pdf: 2
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 4
+      noi_dung: '1. Hoạt động thương mại biên giới được thanh toán bằng ngoại tệ tự do chuyển đổi, đồng Việt Nam hoặc đồng tiền của nước có chung biên giới. 2. Phương thức thanh toán a) Thanh toán qua ngân hàng; b) Thanh toán bằng tiền mặt; c) Thanh toán bù trừ giữa hàng hóa, dịch vụ xuất khẩu với hàng hóa, dịch vụ nhập khẩu (phần chênh lệch thanh toán qua ngân hàng).'
+      trang_pdf: 2
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 5
+      noi_dung: '1. Thương nhân được thực hiện hoạt động mua bán, trao đổi hàng hóa qua biên giới là thương nhân Việt Nam, bao gồm: Doanh nghiệp, hợp tác xã, hộ kinh doanh, cá nhân có đăng ký kinh doanh theo quy định của pháp luật. 2. Thương nhân có vốn đầu tư trực tiếp nước ngoài, công ty và chi nhánh công ty nước ngoài tại Việt Nam được thực hiện hoạt động mua bán, trao đổi hàng hóa qua biên giới theo cam kết của các điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.'
+      trang_pdf: 3
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 6
+      noi_dung: '1. Cửa khẩu biên giới thực hiện hoạt động mua bán, trao đổi hàng hóa qua biên giới của thương nhân thực hiện theo quy định tại khoản 1 Điều 54 Luật Quản lý ngoại thương. 2. Trường hợp hoạt động mua bán, trao đổi hàng hóa qua biên giới thực hiện qua cửa khẩu phụ, lối mở biên giới, Ủy ban nhân dân tỉnh biên giới quyết định, công bố Danh mục các cửa khẩu phụ, lối mở biên giới được phép thực hiện hoạt động mua bán, trao đổi hàng hóa sau khi trao đổi, thống nhất với các bộ, ngành liên quan về việc đảm bảo có đủ lực lượng kiểm tra, kiểm soát chuyên ngành, điều kiện cơ sở hạ tầng kỹ thuật phục vụ quản lý nhà nước. 3. Bộ Công Thương chủ trì, phối hợp với các cơ quan liên quan báo cáo Thủ tướng Chính phủ xem xét, cho phép thực hiện hoạt động mua bán, trao đổi hàng hóa qua các địa điểm khác không phải là cửa khẩu phụ, lối mở biên giới theo quy định tại khoản 1, khoản 2 Điều này. Trên cơ sở ý kiến cho phép của Thủ tướng Chính phủ, Ủy ban nhân dân tỉnh biên giới thống nhất với các bộ, ngành liên quan về việc đảm bảo có đủ lực lượng kiểm tra, kiểm soát chuyên ngành, điều kiện cơ sở hạ tầng kỹ thuật phục vụ quản lý nhà nước.'
+      trang_pdf: 3
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 7
+      khoan: 1
+      noi_dung: '1. Hàng hóa mua bán, trao đổi qua biên giới của thương nhân phải tuân thủ quy định của Luật Quản lý ngoại thương và các văn bản hướng dẫn chi tiết thi hành về hoạt động mua bán hàng hóa quốc tế.'
+      trang_pdf: 3
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 7
+      khoan: 2
+      noi_dung: '2. Bộ Công Thương chủ trì, phối hợp với các bộ, cơ quan liên quan và Ủy ban nhân dân các tỉnh biên giới ban hành Danh mục hàng hóa được phép mua bán, trao đổi qua cửa khẩu phụ, lối mở biên giới của thương nhân trong từng thời kỳ.'
+      trang_pdf: 4
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 8
+      noi_dung: 'Hàng hóa mua bán, trao đổi qua biên giới của thương nhân phải tuân thủ các quy định của pháp luật, điều ước quốc tế về kiểm dịch y tế; kiểm dịch động vật, thực vật, kiểm dịch thủy sản; kiểm tra chất lượng hàng hóa; kiểm tra về an toàn thực phẩm.'
+      trang_pdf: 4
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 9
+      noi_dung: '1. Hoạt động mua bán, trao đổi hàng hóa qua biên giới của thương nhân được thực hiện trên cơ sở thỏa thuận giữa thương nhân Việt Nam với thương nhân hoặc cá nhân của nước có chung biên giới bằng một trong các hình thức sau: a) Hợp đồng bằng văn bản; b) Trường hợp không xác lập hợp đồng bằng văn bản thì thương nhân phải lập bảng kê hàng hóa mua bán, trao đổi qua biên giới. Thương nhân Việt Nam ký tên, đóng dấu và tự chịu trách nhiệm trước pháp luật về tính xác thực của bảng kê, có giá trị pháp lý tương đương hợp đồng. 2. Bảng kê mua bán, trao đổi hàng hóa qua biên giới của thương nhân quy định tại điểm b khoản 1 Điều này thực hiện theo mẫu quy định tại Phụ lục ban hành kèm theo Nghị định này.'
+      trang_pdf: 4
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 10
+      noi_dung: '1. Thương nhân hoạt động mua bán, trao đổi hàng hóa qua biên giới phải thực hiện đầy đủ các nghĩa vụ về thuế, phí, lệ phí theo quy định của pháp luật. 2. Hàng hóa mua bán, trao đổi qua biên giới được hưởng ưu đãi theo quy định của pháp luật và các điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên. 3. Hàng hóa xuất khẩu dưới hình thức mua bán, trao đổi hàng hóa qua biên giới của thương nhân quy định tại Nghị định này được hoàn thuế giá trị gia tăng theo quy định của pháp luật. 4. Thuế, phí và lệ phí trong hoạt động mua bán, trao đổi hàng hóa qua biên giới của thương nhân được thực hiện theo quy định của pháp luật.'
+      trang_pdf: 4
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 11
+      noi_dung: 'Hoạt động mua bán, trao đổi hàng hóa của cư dân biên giới được thực hiện qua các cửa khẩu, lối mở biên giới quy định tại Điều 6 Nghị định này.'
+      trang_pdf: 5
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 12
+      noi_dung: '1. Hàng hóa của cư dân biên giới là hàng hóa được sản xuất tại Việt Nam hoặc nước có chung biên giới do cư dân biên giới mua bán, trao đổi ở khu vực biên giới hai nước để phục vụ các nhu cầu sản xuất, tiêu dùng của cư dân biên giới. 2. Bộ Công Thương ban hành Danh mục hàng hóa mua bán, trao đổi của cư dân biên giới quy định tại khoản 1 Điều này.'
+      trang_pdf: 5
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 13
+      noi_dung: '1. Cư dân biên giới mua bán, trao đổi hàng hóa thuộc Danh mục hàng hóa mua bán, trao đổi của cư dân biên giới do Bộ Công Thương ban hành theo quy định tại khoản 2 Điều 12 Nghị định này được hưởng định mức miễn thuế theo quy định tại Phụ lục V Nghị định số 134/2016/NĐ-CP ngày 01 tháng 9 năm 2016 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Thuế xuất khẩu, thuế nhập khẩu. 2. Phần giá trị hàng hóa vượt định mức quy định tại khoản 1 Điều này phải chịu thuế nhập khẩu và các loại thuế, phí khác (nếu có) theo quy định của pháp luật.'
+      trang_pdf: 5
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 14
+      khoan: 1
+      noi_dung: '1. Hàng hóa trong định mức theo quy định tại khoản 1 Điều 13 Nghị định này nhưng cư dân biên giới không sử dụng cho sản xuất, tiêu dùng phải nộp thuế theo quy định của pháp luật.'
+      trang_pdf: 5
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 14
+      khoan: 2
+      noi_dung: '2. Thương nhân được thực hiện mua gom hàng hóa quy định tại khoản 1 Điều này tại khu vực chợ biên giới và phải lập bảng kê mua gom hàng hóa.'
+      trang_pdf: 5
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 14
+      khoan: 3
+      noi_dung: '3. Hàng hóa mua bán, trao đổi của cư dân biên giới quy định tại khoản 1 Điều này khi mua gom phải thực hiện kiểm dịch, kiểm tra về an toàn thực phẩm, kiểm tra chất lượng theo quy định tại Điều 8 Nghị định này.'
+      trang_pdf: 5
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 15
+      noi_dung: '1. Hàng hóa mua bán, trao đổi của cư dân biên giới không phải thực hiện kiểm dịch y tế, trừ trường hợp cơ quan Nhà nước có thẩm quyền thông báo có dịch bệnh truyền nhiễm, nguy cơ dịch bệnh truyền nhiễm xảy ra thì phải kiểm dịch y tế. 2. Hàng hóa thuộc diện phải kiểm dịch động vật, thực vật và kiểm dịch thủy sản do cơ quan Nhà nước có thẩm quyền công bố trong từng thời kỳ phải được kiểm dịch theo quy định của pháp luật. 3. Hàng hóa mua bán, trao đổi của cư dân biên giới không phải kiểm tra, kiểm soát về chất lượng, an toàn thực phẩm, trừ trường hợp quy định tại khoản 3 Điều 14 Nghị định này.'
+      trang_pdf: 6
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 16
+      noi_dung: '1. Thương nhân, cá nhân mang quốc tịch Việt Nam, có hộ khẩu thường trú tại khu vực biên giới hoặc có giấy phép của cơ quan công an có thẩm quyền cho cư trú ở khu vực biên giới. 2. Thương nhân, cá nhân mang quốc tịch của nước có chung biên giới, có một trong các giấy tờ có giá trị sử dụng như sau: Hộ chiếu, Giấy chứng minh thư biên giới, Thẻ Căn cước công dân (áp dụng đối với cư dân biên giới trên tuyến biên giới đất liền Việt Nam - Lào, Việt Nam - Cam-pu-chia), Giấy thông hành xuất nhập cảnh vùng biên giới, hoặc giấy tờ có giá trị xuất nhập cảnh khác được cấp theo quy định pháp luật của nước có chung biên giới; thương nhân, hộ kinh doanh, cá nhân có đăng ký kinh doanh của nước có chung biên giới đã được cấp Giấy chứng nhận đăng ký kinh doanh theo quy định pháp luật của nước có chung biên giới. 3. Thương nhân, hộ kinh doanh, cá nhân có đăng ký kinh doanh của nước có chung biên giới chỉ được phép mua bán, trao đổi hàng hóa tại chợ biên giới và phải thực hiện theo các quy định của pháp luật Việt Nam.'
+      trang_pdf: 6
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 18
+      noi_dung: '1. Hàng hóa được mua bán, trao đổi tại chợ biên giới phải là hàng hóa được phép lưu thông trên thị trường Việt Nam theo các quy định của pháp luật. 2. Hàng hóa mua bán, trao đổi qua biên giới để kinh doanh tại chợ biên giới phải tuân thủ các quy định của Nghị định này.'
+      trang_pdf: 7
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 19
+      noi_dung: '1. Hàng hóa mua bán, trao đổi tại chợ biên giới thuộc đối tượng phải kiểm dịch y tế, kiểm dịch động vật, thực vật, thủy sản theo quy định của pháp luật về kiểm dịch y tế, kiểm dịch động vật, thực vật, thủy sản. 2. Hàng hóa mua bán, trao đổi tại chợ biên giới phải kiểm tra, kiểm soát về chất lượng, an toàn thực phẩm. 3. Khi hàng hóa được nhập khẩu từ nước có chung biên giới đưa vào chợ biên giới phải thực hiện kiểm dịch với cơ quan kiểm dịch tại cửa khẩu biên giới nơi hàng hóa nhập khẩu. Hàng hóa xuất khẩu từ chợ biên giới sang nước có chung biên giới thực hiện kiểm dịch theo quy định của pháp luật.'
+      trang_pdf: 7
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 20
+      noi_dung: 'Thương nhân, tổ chức, hộ kinh doanh và cá nhân có đăng ký kinh doanh trong chợ biên giới phải tuân thủ quy định của pháp luật Việt Nam về thuế, phí, lệ phí: Thuế giá trị gia tăng, thuế thu nhập doanh nghiệp, thuế tiêu thụ đặc biệt, lệ phí môn bài và các loại thuế, phí khác (nếu có).'
+      trang_pdf: 7
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 22
+      khoan: 4
+      noi_dung: '4. Phương tiện của nước có chung biên giới vào khu vực cửa khẩu, lối mở biên giới của Việt Nam để giao nhận hàng hóa sau đó quay về nước ngay trong ngày và phương tiện vận tải của cá nhân, tổ chức ở khu vực biên giới thường xuyên qua lại khu vực biên giới trong ngày không phải kê khai tờ khai hải quan và nộp hồ sơ phương tiện nhưng phải chịu sự kiểm tra, kiểm soát, kiểm dịch của các cơ quan quản lý nhà nước chuyên ngành tại cửa khẩu.'
+      trang_pdf: 9
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 24
+      khoan: 2
+      noi_dung: '2. Bộ Tài chính chủ trì, phối hợp với các bộ, ngành liên quan và Ủy ban nhân dân tỉnh biên giới hướng dẫn thực hiện chính sách thuế, phí và lệ phí; thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu; phối hợp với Bộ Quốc phòng đối với phương tiện xuất cảnh, nhập cảnh trong hoạt động thương mại biên giới.'
+      trang_pdf: 11
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
+    - dieu: 26
+      noi_dung: '1. Nghị định này có hiệu lực thi hành từ ngày 23 tháng 01 năm 2018. 2. Bãi bỏ Quyết định số 52/2015/QĐ-TTg ngày 20 tháng 10 năm 2015 của Thủ tướng Chính phủ về việc quản lý hoạt động thương mại biên giới với các nước có chung biên giới. 3. Các văn bản công bố cửa khẩu phụ, lối mở được phép thực hiện hoạt động thương mại biên giới của Ủy ban nhân dân tỉnh biên giới đã ban hành theo Quyết định số 52/2015/QĐ-TTg và các Thông tư ban hành theo Quyết định số 52/2015/QĐ-TTg trước khi Nghị định này có hiệu lực được tiếp tục thực hiện theo thời hạn hiệu lực được nêu trong văn bản đó. 4. Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương chịu trách nhiệm thi hành Nghị định này./.'
+      trang_pdf: 12
+      sha256_pdf: e6e8d6c4ca9085c3c5a8a5b2342ecba8996dab5647906bada62a98fe9c4a0d0c
 ghi_chu: Nghị định khung về hoạt động thương mại biên giới; căn cứ ban hành TT 01/2018/TT-BCT và TT 33/2025/TT-BCT.
-toan_van: raw/download/vanban.chinhphu.vn/14-2018-nd-cp.html
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/14-2018-nd-cp.pdf
+  - raw/download/vanban.chinhphu.vn/14-2018-nd-cp.html
+  - wiki/sources/14-2018-nd-cp.md

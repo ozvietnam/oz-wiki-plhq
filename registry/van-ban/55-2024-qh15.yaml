@@ -15,11 +15,133 @@ nguon:
     truy_cap: '2026-11-14'
   - url: https://congbao.chinhphu.vn/van-ban/luat-so-55-2024-qh15-43594.htm
     truy_cap: '2026-11-14'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/11/43594/53752-1-20241535-153655-2024-qh15.pdf
+    truy_cap: '2026-11-21'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=212483), toàn văn PDF (luat55.pdf) và Công báo (43594): Quốc hội thông qua ngày 29-11-2024, có hiệu lực từ 01-07-2025; đang còn hiệu lực.'
+  pham_vi: 'Đã đối chiếu toàn văn nguồn bậc A từ PDF Công báo số 1535 + 1536 ngày 30-12-2024 (raw/download/congbaocdn.chinhphu.vn/55-2024-qh15.pdf, 43 trang, trang 22–64 của số Công báo, có lớp chữ ký số bởi Cổng Thông tin điện tử Chính phủ / Văn phòng Chính phủ ngày 08-01-2025, SHA-256 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462), thẻ vanban.chinhphu.vn (docid=212483), toàn văn PDF (luat55.pdf) và trang wiki/sources/55-2024-qh15.md: Quốc hội khóa XV thông qua ngày 29-11-2024, Chủ tịch Quốc hội Trần Thanh Mẫn ký chứng thực; cấu trúc 8 Chương / 55 Điều; Điều 54 có hiệu lực từ ngày 01-07-2025 (riêng lộ trình trang bị thiết bị truyền tin báo cháy kết nối Cơ sở dữ liệu tại khoản 5 Điều 20 và điểm c khoản 1 Điều 23 thực hiện chậm nhất từ 01-07-2027), thay thế Luật PCCC 27/2001/QH10 (đã sửa đổi theo Luật 40/2013/QH13 và Luật 30/2023/QH15) và Nghị quyết 99/2019/QH14; đang còn hiệu lực.'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Luật này quy định về phòng cháy, chữa cháy, cứu nạn, cứu hộ; lực lượng, phương tiện, bảo đảm điều kiện hoạt động và quyền, nghĩa vụ, trách nhiệm của cơ quan, tổ chức, hộ gia đình, cá nhân có liên quan trong hoạt động phòng cháy, chữa cháy, cứu nạn, cứu hộ.'
+      trang_pdf: 1
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 2
+      khoan: 7
+      noi_dung: '7. Cơ sở thuộc diện quản lý về phòng cháy, chữa cháy (sau đây gọi là cơ sở) là nhà, công trình, địa điểm được sử dụng để ở, sản xuất, kinh doanh, hoạt động thương mại, làm việc hoặc mục đích khác, được xây dựng, hoạt động theo quy định của pháp luật, thuộc danh mục do Chính phủ quy định. Trong một cơ quan, tổ chức có thể có một hoặc nhiều cơ sở; trong một cơ sở có thể có một hoặc nhiều cơ quan, tổ chức.'
+      trang_pdf: 2
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 2
+      khoan: 8
+      noi_dung: '8. Cơ sở có nguy hiểm về cháy, nổ là cơ sở có nguy cơ cháy, nổ cao thuộc danh mục do Chính phủ quy định.'
+      trang_pdf: 2
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 2
+      khoan: 9
+      noi_dung: '9. Hàng hóa nguy hiểm về cháy, nổ là hàng hóa có chứa các chất, vật phẩm có nguy cơ cháy, nổ ở dạng khí, dạng lỏng hoặc dạng rắn mà khi quản lý, vận chuyển, sử dụng có khả năng gây cháy, nổ, làm nguy hại đến tính mạng, sức khỏe con người, gây thiệt hại về tài sản, ảnh hưởng đến môi trường, an ninh, trật tự, thuộc danh mục do Chính phủ quy định.'
+      trang_pdf: 2
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 2
+      khoan: 10
+      noi_dung: '10. Phương tiện giao thông có yêu cầu về bảo đảm an toàn phòng cháy và chữa cháy (sau đây gọi là phương tiện giao thông) là phương tiện giao thông cơ giới đường bộ, phương tiện giao thông đường sắt, phương tiện thủy nội địa, tàu biển được sản xuất, lắp ráp, đóng mới, hoán cải để vận tải hành khách, hàng hóa nguy hiểm về cháy, nổ; trường hợp là phương tiện giao thông cơ giới đường bộ vận tải hành khách thì phải trên 08 chỗ (không kể chỗ của người lái xe).'
+      trang_pdf: 2
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 2
+      khoan: 17
+      noi_dung: '17. Thẩm định thiết kế về phòng cháy và chữa cháy là việc xem xét, đánh giá sự tuân thủ các quy định của pháp luật, tiêu chuẩn, quy chuẩn kỹ thuật được áp dụng đối với thiết kế về phòng cháy và chữa cháy trong dự án đầu tư xây dựng công trình, công trình, phương tiện giao thông.'
+      trang_pdf: 3
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 2
+      khoan: 18
+      noi_dung: '18. Nghiệm thu về phòng cháy và chữa cháy là việc kiểm tra, đối chiếu thực tế thi công dự án đầu tư xây dựng công trình, công trình, phương tiện giao thông với hồ sơ thiết kế đã được thẩm định.'
+      trang_pdf: 3
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 2
+      khoan: 19
+      noi_dung: '19. Kiểm tra công tác nghiệm thu về phòng cháy và chữa cháy là việc cơ quan quản lý chuyên ngành có thẩm quyền kiểm tra kết quả nghiệm thu về phòng cháy và chữa cháy đối với dự án đầu tư xây dựng công trình, công trình, phương tiện giao thông.'
+      trang_pdf: 3
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 2
+      khoan: 21
+      noi_dung: '21. Cơ quan quản lý chuyên ngành là cơ quan thực hiện chức năng quản lý nhà nước về một lĩnh vực nhất định liên quan đến phòng cháy, chữa cháy, bao gồm: cơ quan Công an, cơ quan chuyên môn về xây dựng và cơ quan đăng kiểm.'
+      trang_pdf: 3
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 3
+      noi_dung: '1. Hoạt động phòng cháy, chữa cháy, cứu nạn, cứu hộ trên lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam thực hiện theo quy định của Luật này và quy định của pháp luật có liên quan. 2. Hoạt động phòng cháy và chữa cháy rừng, trách nhiệm phòng cháy và chữa cháy rừng thực hiện theo quy định của pháp luật về lâm nghiệp. 3. Trường hợp sự cố, thảm họa, thiên tai, dịch bệnh đã được ban bố tình trạng khẩn cấp, ban bố cấp độ phòng thủ dân sự thì hoạt động cứu nạn, cứu hộ thực hiện theo quy định của pháp luật về tình trạng khẩn cấp, pháp luật về phòng thủ dân sự, quy định của Luật này và quy định khác của pháp luật có liên quan.'
+      trang_pdf: 3
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 7
+      noi_dung: '1. Chính phủ thống nhất quản lý nhà nước về phòng cháy, chữa cháy, cứu nạn, cứu hộ. 2. Bộ Công an là cơ quan đầu mối giúp Chính phủ thống nhất thực hiện quản lý nhà nước về phòng cháy, chữa cháy, cứu nạn, cứu hộ. 3. Bộ Quốc phòng, các Bộ, cơ quan ngang Bộ, trong phạm vi nhiệm vụ, quyền hạn của mình, phối hợp với Bộ Công an thực hiện quản lý nhà nước về phòng cháy, chữa cháy, cứu nạn, cứu hộ. 4. Ủy ban nhân dân các cấp thực hiện quản lý nhà nước về phòng cháy, chữa cháy, cứu nạn, cứu hộ tại địa phương. Tại huyện nơi không tổ chức đơn vị hành chính cấp xã thì Ủy ban nhân dân cấp huyện thực hiện các nhiệm vụ, quyền hạn của Ủy ban nhân dân cấp xã quy định tại Luật này.'
+      trang_pdf: 6
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 11
+      khoan: 1
+      noi_dung: '1. Đối tượng kiểm tra về phòng cháy, chữa cháy bao gồm: a) Cơ sở quy định tại khoản 7 Điều 2 của Luật này; b) Nhà ở, nhà ở kết hợp sản xuất, kinh doanh; c) Phương tiện giao thông quy định tại khoản 10 Điều 2 của Luật này; d) Công trình xây dựng trong quá trình thi công.'
+      trang_pdf: 10
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 14
+      khoan: 7
+      noi_dung: '7. Sản xuất, tàng trữ, vận chuyển, sử dụng, mua bán trái phép hàng hóa, chất, vật phẩm nguy hiểm về cháy, nổ.'
+      trang_pdf: 12
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 14
+      khoan: 9
+      noi_dung: '9. Kinh doanh phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ có chất lượng không đúng với tiêu chuẩn công bố áp dụng, quy chuẩn kỹ thuật tương ứng.'
+      trang_pdf: 13
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 16
+      khoan: 1
+      noi_dung: '1. Khi lập, điều chỉnh dự án đầu tư xây dựng công trình, thiết kế công trình, cải tạo, thay đổi công năng sử dụng công trình quy định tại khoản 7 Điều 2 của Luật này và xây dựng công trình tạm theo quy định của pháp luật về xây dựng phải có giải pháp, thiết kế về phòng cháy và chữa cháy phù hợp với công năng, đặc điểm của công trình và bảo đảm các yêu cầu sau đây: a) Khoảng cách phòng cháy, chữa cháy; b) Đường bộ, bãi đỗ, khoảng trống phục vụ hoạt động phòng cháy, chữa cháy, cứu nạn, cứu hộ; c) Giải pháp thoát nạn; d) Dự kiến bậc chịu lửa, giải pháp ngăn cháy, chống cháy lan; đ) Giải pháp chống khói; e) Hệ thống điện phục vụ phòng cháy và chữa cháy; g) Phương tiện, hệ thống phòng cháy và chữa cháy.'
+      trang_pdf: 14
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 22
+      khoan: 3
+      noi_dung: '3. Phương tiện giao thông được sản xuất, lắp ráp, đóng mới, hoán cải thuộc diện phải thẩm định thiết kế về phòng cháy và chữa cháy chỉ được cấp Giấy chứng nhận an toàn kỹ thuật và bảo vệ môi trường khi có văn bản chấp thuận kết quả nghiệm thu về phòng cháy và chữa cháy theo quy định.'
+      trang_pdf: 20
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 24
+      noi_dung: '1. Trong lắp đặt, sử dụng điện cho sinh hoạt phải bảo đảm các điều kiện an toàn về phòng cháy sau đây: a) Chấp hành quy định về an toàn trong sử dụng điện cho sinh hoạt theo quy định của pháp luật về điện lực; b) Đơn vị bán lẻ điện khi đấu nối điện sinh hoạt phải tư vấn việc lắp đặt, sử dụng đối với hệ thống, thiết bị điện để bảo đảm an toàn về phòng cháy; c) Việc lắp đặt, sử dụng dây dẫn điện, thiết bị điện trong nhà phải bảo đảm yêu cầu về an toàn điện theo quy định của pháp luật; thường xuyên kiểm tra, kịp thời sửa chữa, thay thế dây dẫn điện, thiết bị điện không bảo đảm an toàn về phòng cháy; d) Chỉ được sử dụng thiết bị sạc điện cho xe động cơ điện bảo đảm quy chuẩn kỹ thuật quốc gia; nơi sạc điện cho xe động cơ điện trong nhà phải có giải pháp bảo đảm an toàn về phòng cháy; khu vực sạc điện cho xe động cơ điện tập trung trong nhà còn phải có giải pháp ngăn cháy và trang bị phương tiện chữa cháy phù hợp, bảo đảm tiêu chuẩn. 2. Trong lắp đặt, sử dụng điện cho sản xuất phải bảo đảm các điều kiện an toàn về phòng cháy sau đây: a) Chấp hành quy định về an toàn trong sử dụng điện cho sản xuất theo quy định của pháp luật về điện lực và quy định tại điểm b và điểm c khoản 1 Điều này; b) Thiết bị điện được sử dụng trong môi trường nguy hiểm về cháy, nổ phải là thiết bị chuyên dụng theo quy định của pháp luật. 3. Tổ chức, cá nhân kinh doanh sản phẩm, thiết bị điện có trách nhiệm tư vấn, cung cấp thông tin về chất lượng, thông số kỹ thuật của sản phẩm, thiết bị điện phù hợp với mục đích sử dụng. 4. Đơn vị bán lẻ điện có trách nhiệm tuyên truyền, hướng dẫn về bảo đảm an toàn sử dụng điện trong sinh hoạt, sản xuất và thực hiện các nhiệm vụ khác về an toàn sử dụng điện theo quy định của pháp luật về điện lực.'
+      trang_pdf: 22
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 36
+      noi_dung: '1. Lực lượng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ. 2. Lực lượng phòng cháy, chữa cháy và cứu nạn, cứu hộ cơ sở. 3. Lực lượng phòng cháy, chữa cháy và cứu nạn, cứu hộ chuyên ngành. 4. Lực lượng dân phòng.'
+      trang_pdf: 30
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 41
+      khoan: 10
+      noi_dung: '10. Thực hiện quản lý hoạt động chứng nhận hợp chuẩn, hợp quy phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ theo quy định của pháp luật về chất lượng sản phẩm, hàng hóa và pháp luật về tiêu chuẩn, quy chuẩn kỹ thuật.'
+      trang_pdf: 33
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 42
+      noi_dung: '1. Nhà nước trang bị cho lực lượng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ, các lực lượng khác trong Công an nhân dân phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ và các phương tiện, thiết bị cần thiết khác bảo đảm đồng bộ, hiện đại, đáp ứng yêu cầu chữa cháy, cứu nạn, cứu hộ trong mọi tình huống. 2. Người đứng đầu cơ sở quyết định hoặc đề xuất người có thẩm quyền quyết định trang bị phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ cho lực lượng phòng cháy, chữa cháy và cứu nạn, cứu hộ cơ sở, lực lượng phòng cháy, chữa cháy và cứu nạn, cứu hộ chuyên ngành thuộc phạm vi quản lý. 3. Ủy ban nhân dân cấp xã trang bị phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ cho lực lượng dân phòng. 4. Bộ trưởng Bộ Công an quy định việc trang bị phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ quy định tại khoản 2 và khoản 3 Điều này.'
+      trang_pdf: 34
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 43
+      khoan: 2
+      noi_dung: '2. Cơ quan, tổ chức, hộ gia đình, cá nhân có trách nhiệm quản lý, sử dụng, bảo quản, bảo dưỡng đối với phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ đã trang bị để sẵn sàng báo cháy, chữa cháy, cứu nạn, cứu hộ.'
+      trang_pdf: 34
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 44
+      noi_dung: '1. Phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ và vật liệu, cấu kiện ngăn cháy, chống cháy sản xuất, lắp ráp trong nước trước khi lưu thông trên thị trường phải bảo đảm về chất lượng, đúng với tiêu chuẩn công bố áp dụng, quy chuẩn kỹ thuật tương ứng theo quy định của pháp luật về chất lượng sản phẩm, hàng hóa và pháp luật về tiêu chuẩn, quy chuẩn kỹ thuật. 2. Phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ và vật liệu, cấu kiện ngăn cháy, chống cháy nhập khẩu phải đúng với tiêu chuẩn quốc tế, tiêu chuẩn khu vực, tiêu chuẩn nước ngoài hoặc tiêu chuẩn, quy chuẩn kỹ thuật của Việt Nam. Trường hợp giữa Việt Nam và các quốc gia, vùng lãnh thổ thừa nhận kết quả đánh giá sự phù hợp của nhau được thực hiện theo điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên. 3. Chính phủ quy định việc cấp phép trước khi lưu thông trên thị trường đối với phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ và vật liệu, cấu kiện ngăn cháy, chống cháy; danh mục phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ, vật liệu, cấu kiện ngăn cháy, chống cháy.'
+      trang_pdf: 35
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 51
+      noi_dung: '1. Nhà nước khuyến khích cơ quan, tổ chức, cá nhân trong nước, người Việt Nam định cư ở nước ngoài, tổ chức, cá nhân nước ngoài và tổ chức quốc tế đầu tư, đóng góp, tài trợ cho hoạt động phòng cháy, chữa cháy, cứu nạn, cứu hộ. 2. Tổ chức, cá nhân sản xuất, lắp ráp phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ trong nước được hưởng các ưu đãi về tín dụng, đất đai, khoa học và công nghệ, nguồn nhân lực theo quy định của pháp luật.'
+      trang_pdf: 40
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 54
+      noi_dung: '1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025, trừ trường hợp quy định tại khoản 4 Điều này. 2. Luật Phòng cháy và chữa cháy số 27/2001/QH10 đã được sửa đổi, bổ sung một số điều theo Luật số 40/2013/QH13 và Luật số 30/2023/QH15 hết hiệu lực từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại Điều 55 của Luật này. 3. Nghị quyết số 99/2019/QH14 ngày 27/11/2019 của Quốc hội về tiếp tục hoàn thiện, nâng cao hiệu lực, hiệu quả thực hiện chính sách, pháp luật về phòng cháy và chữa cháy hết hiệu lực từ ngày Luật này có hiệu lực thi hành. 4. Việc trang bị thiết bị truyền tin báo cháy kết nối với hệ thống Cơ sở dữ liệu về phòng cháy, chữa cháy, cứu nạn, cứu hộ và truyền tin báo cháy theo lộ trình quy định tại khoản 5 Điều 20 và điểm c khoản 1 Điều 23 của Luật này được thực hiện chậm nhất từ ngày 01 tháng 7 năm 2027.'
+      trang_pdf: 41
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
+    - dieu: 55
+      khoan: 4
+      noi_dung: '4. Cơ quan, tổ chức có chức năng, nhiệm vụ kiểm định phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ trước ngày Luật này có hiệu lực thi hành tiếp tục thực hiện kiểm định phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ cho đến thời hạn theo lộ trình do Chính phủ quy định.'
+      trang_pdf: 42
+      sha256_pdf: 1b1942dbf11e912a28ac2004d1f3cca3b6e7356796507dda7450ccf27a250462
 ghi_chu: Luật khung về PCCC và cứu nạn, cứu hộ; căn cứ trực tiếp của TT 125/2026/TT-BCA về kiểm tra chất lượng phương tiện PCCC nhập khẩu.
-toan_van: raw/download/vanban.chinhphu.vn/55-2024-qh15.html
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/55-2024-qh15.pdf
+  - raw/download/vanban.chinhphu.vn/55-2024-qh15.html
+  - wiki/sources/55-2024-qh15.md
