@@ -3,7 +3,8 @@ so_hieu: 143/2026/NĐ-CP
 loai: NGHI_DINH
 ten: Ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện Việt Nam – Tiểu vương quốc Ả Rập Thống nhất (CEPA), giai đoạn 2026–2027
 co_quan: CP
-ngay_ban_hanh: '2026-04-24'
+ngay_ban_hanh: '2026-05-05'
+hieu_luc_tu: '2026-05-05'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/bieu-thue
@@ -16,10 +17,10 @@ nguon:
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/143-ndcp.signed.pdf
     truy_cap: '2026-11-20'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: số hiệu + tên + hiệu lực 05-05-2026 (chinhphu.vn docid 218021 + TVPL); biểu thuế CEPA VN-UAE giai đoạn 2026-2027
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-19'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đã đọc toàn văn PDF ký số bậc A trên datafiles.chinhphu.vn (143-ndcp.signed.pdf, 144 trang, ký Phó Thủ tướng Nguyễn Văn Thắng ngày 05-05-2026) và đối chiếu chinhphu.vn (docid=218021): gồm 7 Điều và Phụ lục Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định CEPA Việt Nam – UAE giai đoạn 2026–2027 (chi tiết cấp mã 8 số; Điều 3 khoản 3 quy định cột thuế suất 2026 áp dụng từ 03-02-2026 đến hết 31-12-2026, cột 2027 áp dụng từ 01-01-2027 đến hết 31-12-2027). Điều 6 (Hiệu lực thi hành): khoản 1 quy định Nghị định có hiệu lực thi hành kể từ ngày ký ban hành (05-05-2026) đến hết ngày 31-12-2027; khoản 2 quy định điều khoản chuyển tiếp xử lý tiền thuế nộp thừa đối với tờ khai hải quan hàng hóa nhập khẩu từ UAE đăng ký từ ngày 03-02-2026 (ngày Hiệp định CEPA có hiệu lực) đến trước ngày 05-05-2026 nếu đáp ứng đủ điều kiện hưởng thuế suất CEPA. Điều 7 quy định trách nhiệm thi hành. Đối chiếu tình trạng hiện tại đến 2026-11-21 trên chinhphu.vn: chưa có văn bản sửa đổi, bổ sung, thay thế hay bãi bỏ, đang CON_HIEU_LUC.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Trinh thám đêm 19/11 — THIẾU HỤT LỚN: FTA Việt Nam–UAE (CEPA) hiệu lực từ 05-05-2026 mà sổ chưa có biểu thuế ưu đãi. Dùng ngay cho khách giao UAE/Qatar. Cần nạp biểu thuế chi tiết + quy tắc xuất xứ CEPA.'
 toan_van: raw/download/datafiles.chinhphu.vn/143-2026-nd-cp.pdf

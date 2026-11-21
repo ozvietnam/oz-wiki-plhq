@@ -18,9 +18,9 @@ nguon:
 toan_van: raw/download/datafiles.chinhphu.vn/24-2026-nd-cp.pdf
 xac_minh:
   muc: NGUON_A
-  pham_vi: "số hiệu, tiêu đề, ngày ban hành + hiệu lực 17-01-2026 (thẻ vanban.chinhphu.vn); OCR 4 trang đầu bản ký: Điều 3 liệt kê 4 Phụ lục"
-  hieu_luc_da_doi_chieu: false
-  ngay: "2026-11-20"
-  boi: zcode@ozvietnam
+  pham_vi: "Đã đọc toàn văn PDF ký số bậc A trên datafiles.chinhphu.vn (24-ndcp.signed.pdf, 88 trang, ký Phó Thủ tướng Bùi Thanh Sơn ngày 17-01-2026) và đối chiếu thẻ vanban.chinhphu.vn (docid=216671): gồm 5 Điều và 4 Phụ lục hướng dẫn khoản 2 Điều 6, điểm a khoản 1 Điều 9, điểm a khoản 2 Điều 9 và khoản 2 Điều 37 Luật Hóa chất số 69/2025/QH15 (Điều 3 quy định Phụ lục I — Danh mục hóa chất cơ bản thuộc lĩnh vực công nghiệp hóa chất trọng điểm; Phụ lục II — Danh mục hoá chất sản xuất, kinh doanh có điều kiện; Phụ lục III — Danh mục hoá chất cần kiểm soát đặc biệt; Phụ lục IV — Danh mục hóa chất phải xây dựng Kế hoạch phòng ngừa, ứng phó sự cố hóa chất). Điều 4 (Hiệu lực thi hành) quy định Nghị định có hiệu lực thi hành kể từ ngày ký ban hành (17-01-2026). Điều 5 (Tổ chức thực hiện) quy định trách nhiệm thi hành và việc định kỳ trước ngày 30-06 hằng năm các bộ, cơ quan ngang bộ rà soát, đề xuất điều chỉnh, cập nhật danh mục gửi Bộ Công Thương. Đối chiếu tình trạng hiện tại đến 2026-11-21 trên vanban.chinhphu.vn: chưa có văn bản sửa đổi, bổ sung, thay thế hay bãi bỏ, đang CON_HIEU_LUC."
+  hieu_luc_da_doi_chieu: true
+  ngay: "2026-11-21"
+  boi: tho-bo-ba-01@ozvietnam
 ghi_chu: "4 Phụ lục: I — hóa chất cơ bản công nghiệp hóa chất trọng điểm; II — hóa chất SX, kinh doanh CÓ ĐIỀU KIỆN (786); III — cần kiểm soát đặc biệt; IV — phải xây dựng kế hoạch phòng ngừa, ứng phó sự cố. LƯU Ý QUAN TRỌNG: khai báo hóa chất NHẬP KHẨU theo Điều 6 NĐ 26/2026/NĐ-CP gắn theo CHƯƠNG 28+29 của danh mục XNK (BTC), KHÔNG theo các danh mục này — mở #1475 trước khi gắn nghĩa vụ. PDF 88 trang bản scan (text layer trống) — TODO ca đêm: OCR + trích 4 phụ lục thành CSV theo CAS."
 tu_khoa: [hoa-chat, danh-muc-hoa-chat, cas, khai-bao-hoa-chat]
