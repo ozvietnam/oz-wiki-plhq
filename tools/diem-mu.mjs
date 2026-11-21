@@ -161,9 +161,11 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
           'Kiểm tra văn bản này còn được áp dụng không (thường hết hiệu lực theo văn bản gốc), hoặc đã có văn bản hướng dẫn mới.', 'hieu-luc');
       }
     }
-    // D15 — văn bản bị sửa đổi ≥3 lần mà chưa có văn bản hợp nhất (VBHN)
+    // D15 — văn bản quy phạm pháp luật (VBQPPL) bị sửa đổi ≥3 lần mà chưa có văn bản hợp nhất (VBHN)
+    const laVbqppl = ['HIEN_PHAP', 'LUAT', 'PHAP_LENH', 'NGHI_QUYET', 'NGHI_DINH', 'THONG_TU', 'THONG_TU_LIEN_TICH'].includes(d.loai)
+      || (d.loai === 'QUYET_DINH' && /\/\d{4}\/Q[ĐD]-/i.test(d.so_hieu || ''));
     const soLanSua = (ng.bi_sua_doi_boi || []).length;
-    if (soLanSua >= 3) {
+    if (laVbqppl && soLanSua >= 3) {
       const kd = khoa(d.so_hieu);
       const laVbhnCuaD = (x) => {
         if (x === d) return false;
