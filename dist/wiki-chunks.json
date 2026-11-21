@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-21).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 2059,
+ "tong": 2078,
  "chunks": [
   {
    "chunk_id": "dong-bo-quan-diem-phan-loai#1",
@@ -1017,7 +1017,7 @@
    "loai_trang": "summary",
    "tieu_de": "Khung thủ tục hải quan hàng xuất nhập khẩu",
    "muc": "Key themes",
-   "noi_dung": "- **Tầng thủ tục** — xem [[concepts/thu-tuc-hai-quan-xnk]]. Chuỗi hiện hành gồm `54/2014/QH13` → `08/2015/NĐ-CP` (sửa bởi `167/2025/NĐ-CP`, bãi bỏ `59/2018/NĐ-CP`) → `38/2015/TT-BTC` (sửa bởi `39/2018/TT-BTC`, `121/2025/TT-BTC`). Chỉ tiêu mô tả hàng hoá trên tờ khai nhập khẩu (mục 1.78 Mẫu 01 Phụ lục II) được cập nhật tại `121/2025/TT-BTC`. Luật `11/2026/QH16` đã thông qua `2026-08-23`, hiện `CHUA_CO_HIEU_LUC` (sẽ có hiệu lực từ `2027-03-01`).\n- **Phân loại mã HS** — xem [[concepts/phan-loai-ma-hs]]. Quy trình phân loại, phân tích để phân loại hiện hành là `85/2026/TT-BTC` (`CON_HIEU_LUC` từ `2026-09-15`, thay thế toàn bộ `14/2015/TT-BTC` và `17/2021/TT-BTC` theo Điều 15 khoản 1; lưu ý chuyển tiếp cho máy liên hợp/tổ hợp máy đã đăng ký trước `2026-09-15` theo Điều 16 khoản 2). Danh mục hàng hoá XNK Việt Nam hiện hành: `31/2022/TT-BTC` (`CON_HIEU_LUC` từ `2022-12-01`). **Tiền thân** `49/2010/TT-BTC` (\"Hướng dẫn việc phân loại, áp dụng mức thuế\", đã `HET_HIEU_LUC` từ `2015-03-16`) đã nạp — xem [[sources/49-2010-tt-btc]].\n- **Quy trình phân loại của ngành Hải quan** — nhánh quy trình nội ngành hiện hành từ `2026-02-01` là `117/QĐ-CHQ` (ban hành `2026-01-20`, hiệu lực `2026-02-01`, `CON_HIEU_LUC`, nguồn B `THIEU_PDF_A`: Quy trình Xác định trước mã số; Kiểm tra tên hàng, mô tả hàng hóa, mã số, mức thuế, đơn vị tính trong thông quan; Thống nhất công tác phân loại), **bãi bỏ** `1921/QĐ-TCHQ` (`HET_HIEU_LUC` từ `2026-02-01`). Nhánh quy chế/quy trình phân tích, kiểm định đi qua chuỗi lịch sử `1628/QĐ-TCHQ` (đã hết hiệu lực từ `2013-12-09` — xem [[sources/1628-qd-tchq]]) → `4023/QĐ-TCHQ` (đã hết hiệu lực) → `2131/QĐ-TCHQ` (đã hết hiệu lực) → `2999/QĐ-TCHQ` & `2166/QĐ-TCHQ` (đã hết hiệu lực từ `2026-02-01`) → `2169/QĐ-CHQ` (`CON_HIEU_LUC` từ `2026-02-01`, nguồn B `THIEU_PDF_A`). Quy trình kiểm tra sau thông quan hiện hành là `2123/QĐ-CHQ` (`CON_HIEU_LUC` từ `2026-02-01`, nguồn B).\n- **Thuế GTGT khi nhập** — xem [[concepts/thue-gtgt-hang-nhap-khau]]. `204/2025/QH15` và `174/2025/NĐ-CP` quy định chính sách giảm thuế GTGT từ 10% → 8% đối với nhóm hàng hóa, dịch vụ chịu thuế 10% (trừ Phụ lục I và Phụ lục II), `CON_HIEU_LUC` từ `2025-07-01` và `het_hieu_luc_tu: 2026-12-31` — cần theo dõi văn bản gia hạn/thay thế cho thời gian sau `2026-12-31`.\n- **Một cửa quốc gia đã đổi khung** — từ `2026-10-15`, `336/2026/NĐ-CP` (`CON_HIEU_LUC`, `NGUON_A`) thay thế toàn bộ `85/2019/NĐ-CP` (`HET_HIEU_LUC` từ `2026-10-15` theo Điều 48 khoản 2 `336/2026/NĐ-CP`). Đọc quan hệ thay thế này theo [[concepts/doc-tinh-trang-hieu-luc]].\n- **Phân luồng tờ khai theo mức rủi ro** — xem [[concepts/thu-tuc-hai-quan-xnk]]. Quy định gốc là **Điều 22 TT `81/2019/TT-BTC`** (Luồng 1 Xanh / Luồng 2 Vàng / Luồng 3 Đỏ theo rủi ro thấp – trung bình – cao), sửa bởi `06/2024/TT-BTC` từ `2024-03-15` — xem [[sources/81-2019-tt-btc]] và [[sources/06-2024-tt-btc]].\n- **Cơ quan tiếp nhận sau sáp nhập** — xem [[concepts/co-quan-tiep-nhan-sau-sap-nhap]]. Ánh xạ 5 nhóm cơ quan kế thừa (`BNNPTNT`/`BTNMT`→`BNNMT`, `BTTTT`→`BKHCN`, `BGTVT`→`BXD`, `BLĐTBXH`→`BNV`, `TCHQ`→`CHQ`) để tra đúng ký hiệu cơ quan ban hành văn bản mới và nơi nộp hồ sơ.\n- **Nhãn hàng hoá là điểm mù riêng** — khung nhãn cũ (`43/2017/NĐ-CP`, `111/2021/NĐ-CP`) đã `HET_HIEU_LUC` từ `2026-01-23` theo quan hệ bãi bỏ của `37/2026/NĐ-CP` (cùng nghị định đặt [[concepts/muc-do-rui-ro-hang-hoa]]); văn bản đang điều chỉnh nhãn phụ tiếng Việt **chưa xác minh** trong sổ — xem [[concepts/nhan-hang-hoa-nhap-khau]].",
+   "noi_dung": "- **Tầng thủ tục** — xem [[concepts/thu-tuc-hai-quan-xnk]]. Chuỗi hiện hành gồm `54/2014/QH13` → `08/2015/NĐ-CP` (sửa bởi `167/2025/NĐ-CP`, bãi bỏ `59/2018/NĐ-CP`) → `38/2015/TT-BTC` (sửa bởi `39/2018/TT-BTC`, `121/2025/TT-BTC`). Chỉ tiêu mô tả hàng hoá trên tờ khai nhập khẩu (mục 1.78 Mẫu 01 Phụ lục II) được cập nhật tại `121/2025/TT-BTC`. Luật `11/2026/QH16` đã thông qua `2026-08-23`, hiện `CHUA_CO_HIEU_LUC` (sẽ có hiệu lực từ `2027-03-01`).\n- **Phân loại mã HS** — xem [[concepts/phan-loai-ma-hs]]. Quy trình phân loại, phân tích để phân loại hiện hành là `85/2026/TT-BTC` (`CON_HIEU_LUC` từ `2026-09-15`, thay thế toàn bộ `14/2015/TT-BTC` và `17/2021/TT-BTC` theo Điều 15 khoản 1; lưu ý chuyển tiếp cho máy liên hợp/tổ hợp máy đã đăng ký trước `2026-09-15` theo Điều 16 khoản 2). Danh mục hàng hoá XNK Việt Nam hiện hành: `31/2022/TT-BTC` (`CON_HIEU_LUC` từ `2022-12-01`). **Tiền thân** `49/2010/TT-BTC` (\"Hướng dẫn việc phân loại, áp dụng mức thuế\", đã `HET_HIEU_LUC` từ `2015-03-16`) đã nạp — xem [[sources/49-2010-tt-btc]].\n- **Quy trình phân loại của ngành Hải quan** — nhánh quy trình nội ngành hiện hành từ `2026-02-01` là `117/QĐ-CHQ` (ban hành `2026-01-20`, hiệu lực `2026-02-01`, `CON_HIEU_LUC`, nguồn B `THIEU_PDF_A`: Quy trình Xác định trước mã số; Kiểm tra tên hàng, mô tả hàng hóa, mã số, mức thuế, đơn vị tính trong thông quan; Thống nhất công tác phân loại), **bãi bỏ** `1921/QĐ-TCHQ` (`HET_HIEU_LUC` từ `2026-02-01`). Nhánh quy chế/quy trình phân tích, kiểm định đi qua chuỗi lịch sử `1628/QĐ-TCHQ` (đã hết hiệu lực từ `2013-12-09` — xem [[sources/1628-qd-tchq]]) → `4023/QĐ-TCHQ` (đã hết hiệu lực) → `2131/QĐ-TCHQ` (đã hết hiệu lực) → `2999/QĐ-TCHQ` & `2166/QĐ-TCHQ` (đã hết hiệu lực từ `2026-02-01`) → `2169/QĐ-CHQ` (`CON_HIEU_LUC` từ `2026-02-01`, nguồn B `THIEU_PDF_A`). Quy trình kiểm tra sau thông quan hiện hành là `2123/QĐ-CHQ` (`CON_HIEU_LUC` từ `2026-02-01`, nguồn B).\n- **Thuế GTGT khi nhập** — xem [[concepts/thue-gtgt-hang-nhap-khau]]. `204/2025/QH15` và `174/2025/NĐ-CP` quy định chính sách giảm thuế GTGT từ 10% → 8% đối với nhóm hàng hóa, dịch vụ chịu thuế 10% (trừ Phụ lục I và Phụ lục II), `CON_HIEU_LUC` từ `2025-07-01` và `het_hieu_luc_tu: 2026-12-31` — cần theo dõi văn bản gia hạn/thay thế cho thời gian sau `2026-12-31`.\n- **Một cửa quốc gia đã đổi khung** — từ `2026-10-15`, `336/2026/NĐ-CP` (`CON_HIEU_LUC`, `NGUON_A`) thay thế toàn bộ `85/2019/NĐ-CP` (`HET_HIEU_LUC` từ `2026-10-15` theo Điều 48 khoản 2 `336/2026/NĐ-CP`). Đọc quan hệ thay thế này theo [[concepts/doc-tinh-trang-hieu-luc]].\n- **Phân luồng tờ khai theo mức rủi ro** — xem [[concepts/thu-tuc-hai-quan-xnk]]. Quy định gốc là **Điều 22 TT `81/2019/TT-BTC`** (Luồng 1 Xanh / Luồng 2 Vàng / Luồng 3 Đỏ theo rủi ro thấp – trung bình – cao), sửa bởi `06/2024/TT-BTC` từ `2024-03-15` — xem [[sources/81-2019-tt-btc]] và [[sources/06-2024-tt-btc]].\n- **Cơ quan tiếp nhận sau sáp nhập** — xem [[concepts/co-quan-tiep-nhan-sau-sap-nhap]]. Ánh xạ 5 nhóm cơ quan kế thừa (`BNNPTNT`/`BTNMT`→`BNNMT`, `BTTTT`→`BKHCN`, `BGTVT`→`BXD`, `BLĐTBXH`→`BNV`, `TCHQ`→`CHQ`) để tra đúng ký hiệu cơ quan ban hành văn bản mới và nơi nộp hồ sơ.\n- **Nhãn hàng hoá là điểm mù riêng** — khung nhãn cũ (`43/2017/NĐ-CP`, `111/2021/NĐ-CP`) đã `HET_HIEU_LUC` từ `2026-01-23` theo quan hệ bãi bỏ của `37/2026/NĐ-CP` (cùng nghị định đặt [[concepts/muc-do-rui-ro-hang-hoa]]); văn bản đang điều chỉnh nhãn phụ tiếng Việt **chưa xác minh** trong sổ — xem [[concepts/nhan-hang-hoa-nhap-khau]].\n- **Làm thủ tục tại cửa khẩu nhập** — xem [[concepts/thu-tuc-tai-cua-khau-nhap]]. Danh mục 12 nhóm hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập từ `14/08/2026` áp dụng theo `31/2026/QĐ-TTg` (`CON_HIEU_LUC`, `NGUON_A`, trên nền Điều 4 `08/2015/NĐ-CP` sửa bởi `167/2025/NĐ-CP`), thay thế `23/2019/QĐ-TTg` (**đã hết hiệu lực** từ `14/08/2026`).\n- **Thuế chống bán phá giá thép** — xem [[concepts/thue-chong-ban-pha-gia-thep]]. Khung phòng vệ thương mại hiện hành gồm Luật `05/2017/QH14` và Nghị định `86/2025/NĐ-CP` (`CON_HIEU_LUC` từ `01/07/2025`, thay thế `10/2018/NĐ-CP` **đã hết hiệu lực**), cùng 07 quyết định thép còn hiệu lực (`143/QĐ-BCT`, `1959/QĐ-BCT`, `2310/QĐ-BCT`, `2822/QĐ-BCT`, `3011/QĐ-BCT`, `3765/QĐ-BCT`, `3176/QĐ-BCT`); tách bạch với các quyết định **đã hết hiệu lực** (`691/QĐ-BCT`, `693/QĐ-BCT`, `1975/QĐ-BCT`).",
    "tags": [
     "hai-quan",
     "thu-tuc",
@@ -1365,6 +1365,162 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?docid=216764&pageid=27160"
+    },
+    {
+     "so_hieu": "31/2026/QĐ-TTg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-14",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-31-2026-qd-ttg-469911.htm"
+    },
+    {
+     "so_hieu": "23/2019/QĐ-TTg",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-09-01",
+     "het_hieu_luc_tu": "2026-08-14",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "31/2026/QĐ-TTg"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=197288&pageid=27160"
+    },
+    {
+     "so_hieu": "05/2017/QH14",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=190308&pageid=27160"
+    },
+    {
+     "so_hieu": "86/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=213376&pageid=27160"
+    },
+    {
+     "so_hieu": "10/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-15",
+     "het_hieu_luc_tu": "2025-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "86/2025/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-10-2018-nd-cp-25762.htm"
+    },
+    {
+     "so_hieu": "143/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-29",
+     "het_hieu_luc_tu": "2030-01-29",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20143_ap%20thue%20chinh%20thuc%20AD17.pdf"
+    },
+    {
+     "so_hieu": "1959/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-06",
+     "het_hieu_luc_tu": "2030-07-06",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%201959%20ap%20dung%20thue%20CBPG%20chinh%20thuc%20thep%20can%20nong.pdf"
+    },
+    {
+     "so_hieu": "2310/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-08-14",
+     "het_hieu_luc_tu": "2030-08-14",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%202310%20ap%20thue%20chinh%20thuc.pdf"
+    },
+    {
+     "so_hieu": "2822/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-10-24",
+     "het_hieu_luc_tu": "2029-10-24",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-ban-hanh-quyet-dinh-ve-ket-qua-ra-soat-cuoi-ky-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pha.html"
+    },
+    {
+     "so_hieu": "3011/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-11-12",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-hoan-tat-dieu-tra-ra-soat-cuoi-ky-viec-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pham-thep-k.html"
+    },
+    {
+     "so_hieu": "3765/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-12-28",
+     "het_hieu_luc_tu": "2030-12-28",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/12_%20QD%203765%20gia%20han%20ap%20dung%20bien%20phap%20CBPG%20thep%20can%20nguoi.pdf"
+    },
+    {
+     "so_hieu": "3176/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-10-27",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-khoi-xuong-dieu-tra-chong-lan-tranh-bien-phap-phong-ve-thuong-mai-doi-voi-mot-so-san-pham-thep-can-nong-c.html"
+    },
+    {
+     "so_hieu": "691/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2023-03-22",
+     "het_hieu_luc_tu": "2026-03-22",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/Q%C4%90%20691%20.pdf"
+    },
+    {
+     "so_hieu": "693/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2023-03-22",
+     "het_hieu_luc_tu": "2026-03-22",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/Q%C4%90%20693.pdf"
+    },
+    {
+     "so_hieu": "1975/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2021-09-02",
+     "het_hieu_luc_tu": "2026-04-16",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "915/QĐ-BCT"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/1975.pdf"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -1675,7 +1831,7 @@
    "loai_trang": "summary",
    "tieu_de": "Khung thủ tục hải quan hàng xuất nhập khẩu",
    "muc": "Key concepts",
-   "noi_dung": "- [[concepts/thu-tuc-hai-quan-xnk]]\n- [[concepts/phan-loai-ma-hs]]\n- [[concepts/thue-gtgt-hang-nhap-khau]]\n- [[concepts/nhan-hang-hoa-nhap-khau]]\n- [[concepts/muc-do-rui-ro-hang-hoa]]\n- [[concepts/doc-tinh-trang-hieu-luc]]\n- [[concepts/co-quan-tiep-nhan-sau-sap-nhap]]",
+   "noi_dung": "- [[concepts/thu-tuc-hai-quan-xnk]]\n- [[concepts/phan-loai-ma-hs]]\n- [[concepts/thue-gtgt-hang-nhap-khau]]\n- [[concepts/nhan-hang-hoa-nhap-khau]]\n- [[concepts/muc-do-rui-ro-hang-hoa]]\n- [[concepts/doc-tinh-trang-hieu-luc]]\n- [[concepts/co-quan-tiep-nhan-sau-sap-nhap]]\n- [[concepts/thu-tuc-tai-cua-khau-nhap]]\n- [[concepts/thue-chong-ban-pha-gia-thep]]",
    "tags": [
     "hai-quan",
     "thu-tuc",
@@ -13249,6 +13405,1199 @@
      "nguon_a": null
     }
    ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "thu-tuc-tai-cua-khau-nhap#1",
+   "slug": "thu-tuc-tai-cua-khau-nhap",
+   "duong_dan": "wiki/concepts/thu-tuc-tai-cua-khau-nhap.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Thủ tục hải quan tại cửa khẩu nhập (QĐ 31/2026/QĐ-TTg)",
+   "muc": "Definition",
+   "noi_dung": "Thủ tục hải quan tại cửa khẩu nhập là nghĩa vụ bắt buộc người khai hải quan phải làm thủ tục nhập khẩu ngay tại cơ quan hải quan ở **cửa khẩu nhập** đối với một số nhóm hàng hóa nhạy cảm hoặc cần kiểm soát tập trung khi đưa từ nước ngoài vào lãnh thổ Việt Nam. Khung pháp lý hiện hành dựa trên Điều 22 Luật Hải quan `54/2014/QH13`, Điều 4 Nghị định `08/2015/NĐ-CP` (đã sửa đổi, bổ sung khoản 1 và khoản 3 Điều 4 tại khoản 1 Điều 1 Nghị định `167/2025/NĐ-CP`), và danh mục ban hành kèm theo Quyết định **`31/2026/QĐ-TTg`** (`CON_HIEU_LUC`, `NGUON_A`, có hiệu lực từ `14/08/2026`, thay thế Quyết định `23/2019/QĐ-TTg` **đã hết hiệu lực**).",
+   "tags": [
+    "hai-quan",
+    "thu-tuc",
+    "cua-khau-nhap",
+    "2026"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "54/2014/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=175358&pageid=27160"
+    },
+    {
+     "so_hieu": "08/2015/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-03-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=178689&pageid=27160"
+    },
+    {
+     "so_hieu": "167/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-08-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214375"
+    },
+    {
+     "so_hieu": "31/2026/QĐ-TTg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-14",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-31-2026-qd-ttg-469911.htm"
+    },
+    {
+     "so_hieu": "23/2019/QĐ-TTg",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-09-01",
+     "het_hieu_luc_tu": "2026-08-14",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "31/2026/QĐ-TTg"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=197288&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "thu-tuc-tai-cua-khau-nhap#2",
+   "slug": "thu-tuc-tai-cua-khau-nhap",
+   "duong_dan": "wiki/concepts/thu-tuc-tai-cua-khau-nhap.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Thủ tục hải quan tại cửa khẩu nhập (QĐ 31/2026/QĐ-TTg)",
+   "muc": "Tình trạng hiệu lực và ngữ cảnh lịch sử",
+   "noi_dung": "| Văn bản | Tình trạng (`registry/van-ban/`) | Hiệu lực / Ghi chú |\n|---|---|---|\n| `31/2026/QĐ-TTg` | `CON_HIEU_LUC` (`NGUON_A`) | Ban hành `29/06/2026` (Công báo số 393 ngày `14/07/2026`), có hiệu lực từ **`14/08/2026`**; thay thế toàn bộ `23/2019/QĐ-TTg` tại Điều 5 khoản 1. |\n| `23/2019/QĐ-TTg` | `HET_HIEU_LUC` (`NGUON_A`) | Văn bản tiền thân (**đã hết hiệu lực từ `14/08/2026`**, bị thay thế bởi `31/2026/QĐ-TTg`). Lưu ý: bản chụp biểu thuế cũ vẫn còn dẫn chiếu ở 749 mã HS; khi tra cứu từ `14/08/2026` phải áp dụng `31/2026/QĐ-TTg`. |\n| `08/2015/NĐ-CP` | `CON_HIEU_LUC` (`NGUON_A`) | Điều 4 khoản 2 giao Thủ tướng Chính phủ quyết định Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập. |\n| `167/2025/NĐ-CP` | `CON_HIEU_LUC` (`NGUON_A`) | Khoản 1 Điều 1 sửa đổi, bổ sung khoản 1 và khoản 3 Điều 4 `08/2015/NĐ-CP`: hàng bưu chính, chuyển phát nhanh thuộc danh mục phải làm thủ tục tại cửa khẩu nhập được làm thủ tục tại Chi cục Hải quan khu vực quản lý địa điểm tập kết, kiểm tra, giám sát tập trung hàng bưu chính, chuyển phát nhanh. |\n| `54/2014/QH13` | `CON_HIEU_LUC` (`NGUON_A`) | Điều 22 quy định chung về địa điểm làm thủ tục hải quan; Điều 47 khoản 1 và Điều 50 khoản 1, 2 về cửa hàng miễn thuế, cứu trợ khẩn cấp và hàng an ninh quốc phòng. |",
+   "tags": [
+    "hai-quan",
+    "thu-tuc",
+    "cua-khau-nhap",
+    "2026"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "31/2026/QĐ-TTg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-14",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-31-2026-qd-ttg-469911.htm"
+    },
+    {
+     "so_hieu": "23/2019/QĐ-TTg",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-09-01",
+     "het_hieu_luc_tu": "2026-08-14",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "31/2026/QĐ-TTg"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=197288&pageid=27160"
+    },
+    {
+     "so_hieu": "08/2015/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-03-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=178689&pageid=27160"
+    },
+    {
+     "so_hieu": "167/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-08-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214375"
+    },
+    {
+     "so_hieu": "54/2014/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=175358&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "thu-tuc-tai-cua-khau-nhap#3",
+   "slug": "thu-tuc-tai-cua-khau-nhap",
+   "duong_dan": "wiki/concepts/thu-tuc-tai-cua-khau-nhap.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Thủ tục hải quan tại cửa khẩu nhập (QĐ 31/2026/QĐ-TTg)",
+   "muc": "Variants > 1. Xác định \"cửa khẩu nhập\" theo phương thức vận tải (Điều 4 `31/2026/QĐ-TTg`)",
+   "noi_dung": "| Phương thức vận tải | Cửa khẩu nhập để làm thủ tục hải quan |\n|---|---|\n| Đường biển, đường hàng không | Cảng biển, cảng hàng không nơi hàng hóa được dỡ xuống hoặc cảng biển, cảng hàng không ghi trên vận đơn nơi hàng hóa được vận chuyển đến (Điều 4 khoản 1). |\n| Đường sắt | Ga đường sắt liên vận quốc tế ở biên giới (Điều 4 khoản 2). |\n| Đường bộ, đường sông | Cửa khẩu quốc tế, cửa khẩu chính nơi hàng hóa nhập khẩu đi vào lãnh thổ Việt Nam (Điều 4 khoản 3). |\n| Vận đơn / hợp đồng ghi cảng đích đặc thù | Trường hợp ghi cảng đích là **ICD Phước Long - Thành phố Hồ Chí Minh** thì cửa khẩu nhập là ICD Phước Long - TP.HCM (Điều 4 khoản 4). |",
+   "tags": [
+    "hai-quan",
+    "thu-tuc",
+    "cua-khau-nhap",
+    "2026"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "31/2026/QĐ-TTg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-14",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-31-2026-qd-ttg-469911.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "thu-tuc-tai-cua-khau-nhap#4",
+   "slug": "thu-tuc-tai-cua-khau-nhap",
+   "duong_dan": "wiki/concepts/thu-tuc-tai-cua-khau-nhap.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Thủ tục hải quan tại cửa khẩu nhập (QĐ 31/2026/QĐ-TTg)",
+   "muc": "Variants > 2. Tóm tắt 12 nhóm mặt hàng tại Phụ lục `31/2026/QĐ-TTg`",
+   "noi_dung": "Theo Mục I Phụ lục kèm theo `31/2026/QĐ-TTg`, danh mục được xây dựng trên cơ sở Danh mục hàng hóa XNK Việt Nam với 3 nguyên tắc đọc mã tham chiếu: mã 4 số áp dụng cho toàn bộ mã 8 số thuộc nhóm đó; mã 6 số áp dụng cho toàn bộ mã 8 số thuộc phân nhóm đó; mã 8 số chỉ áp dụng cho đúng mã 8 số được liệt kê. Danh mục gồm **12 nhóm**:\n\n1. **Thuốc lá điếu, xì gà và chế phẩm khác từ cây thuốc lá** dùng để hút, hít, nhai, ngửi, ngậm (`2401`, `2402`, `2403`).\n2. **Rượu** — rượu vang, rượu Vermouth, đồ uống lên men khác, cồn etylic từ 80% trở lên hoặc dưới 80%, rượu mạnh, rượu mùi (`2204`, `2205`, `2206`, `2207`, `2208`).\n3. **Bia sản xuất từ malt** (`2203`).\n4. **Xe ô tô chở người dưới 16 chỗ ngồi** (`8702`, `8703`).\n5. **Máy bay, du thuyền** — máy bay (`8802.20.10`, `8802.30.10`, `8802.40.10`); tàu thủy chở khách, thuyền, xuồng du lịch, phà (`8901.10`) và du thuyền hạng nhẹ, tàu thuyền nghỉ ngơi/giải trí/thể thao, canô (`89.03`).\n6. **Xăng các loại** — xăng động cơ không pha chì (`2710.12.21`–`2710.12.29`) và xăng máy bay trừ loại dùng cho động cơ phản lực (`2710.12.31`, `2710.12.39`).\n7. **Máy điều hòa không khí có công suất từ 90.000 BTU trở xuống** (`8415`).\n8. **Bộ bài** (`9504.40.00`).\n9. **Giấy vàng mã** (`4823.90.92`).\n10. **Tiền chất thuốc nổ, vật liệu nổ công nghiệp** theo Danh mục do Bộ Công Thương quy định — gồm 9 dòng tiền chất thuốc nổ (`3102.30.00`, `3105.10.90`, `2904.20.90`, `3102.50.00`, `2834.21.00`, `2829.11.00`, `2829.19.00`, `2829.90.90`) và nhóm vật liệu nổ công nghiệp (`3603.40.00`, `3603.60.00`, `3603.10.00`, `3603.20.00`, `3602.00.00`, `9603.90.10`, cùng các chất nổ Hexogen, TNT, Octogen, Pentrit).\n11. **Hàng hóa nhập khẩu thuộc Danh mục có ảnh hưởng đến quốc phòng, an ninh** do Chính phủ ban hành *(Phụ lục không in mã HS)*.\n12. **Hàng hóa nhập khẩu từ các quốc gia, vùng lãnh thổ có cảnh báo về nguy cơ dịch bệnh** theo thông báo của Bộ Nông nghiệp và Môi trường *(Phụ lục không in mã HS)*.",
+   "tags": [
+    "hai-quan",
+    "thu-tuc",
+    "cua-khau-nhap",
+    "2026"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "31/2026/QĐ-TTg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-14",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-31-2026-qd-ttg-469911.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "thu-tuc-tai-cua-khau-nhap#5",
+   "slug": "thu-tuc-tai-cua-khau-nhap",
+   "duong_dan": "wiki/concepts/thu-tuc-tai-cua-khau-nhap.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Thủ tục hải quan tại cửa khẩu nhập (QĐ 31/2026/QĐ-TTg)",
+   "muc": "Variants > 3. Quy tắc vận đơn hỗn hợp và các trường hợp được làm thủ tục ngoài cửa khẩu nhập (Điều 3 `31/2026/QĐ-TTg`)",
+   "noi_dung": "- **Vận đơn hỗn hợp (Điều 3 khoản 2):** Hàng hóa nhập khẩu có nhiều chủng loại (vừa có hàng thuộc Danh mục vừa có hàng không thuộc Danh mục) đi chung vận đơn thì phải làm thủ tục hải quan tại hải quan cửa khẩu nhập theo Điều 4.\n- **11 trường hợp ngoại lệ được lựa chọn (Điều 3 khoản 3, điểm a–l):** Người khai hải quan được lựa chọn làm thủ tục tại cửa khẩu nhập hoặc tại địa điểm ngoài cửa khẩu nhập đối với:\n  - a) Thiết bị, máy móc, vật tư nhập khẩu xây dựng nhà máy, công trình (tại Hải quan nơi có nhà máy, công trình hoặc kho của nhà máy, công trình);\n  - b) Hàng hóa nhập khẩu phục vụ gia công, sản xuất tiêu dùng trong nước, sản xuất xuất khẩu và chế xuất (tại Hải quan nơi có trụ sở chính, chi nhánh, cơ sở sản xuất hoặc Hải quan quản lý gia công, sản xuất thuộc Chi cục Hải quan khu vực nơi có cơ sở sản xuất hoặc nơi có cửa khẩu nhập);\n  - c) Hàng đưa từ nước ngoài vào khu phi thuế quan, kho ngoại quan (lưu ý: hàng gửi kho ngoại quan để xuất đi nước khác thuộc diện phải có Giấy chứng nhận mã số tạm nhập tái xuất của Bộ Công Thương chỉ được gửi tại tỉnh, thành phố nơi có cửa khẩu nhập hoặc cửa khẩu xuất);\n  - d) Hàng bán tại cửa hàng miễn thuế (Điều 47 khoản 1 Luật `54/2014/QH13`);\n  - đ) Hàng phục vụ yêu cầu cứu trợ khẩn cấp (Điều 50 khoản 1 Luật `54/2014/QH13`);\n  - e) Hàng chuyên dùng phục vụ an ninh quốc phòng (Điều 50 khoản 2 Luật `54/2014/QH13`);\n  - g) Xăng các loại nhập khẩu từ nước ngoài hoặc từ kho ngoại quan vào nội địa (tại Hải quan nơi thương nhân có kho xăng dầu đáp ứng điều kiện kiểm tra, giám sát hải quan);\n  - h) Hàng đóng chung container đưa về địa điểm thu gom hàng lẻ (CFS);\n  - i) Hàng gửi qua dịch vụ bưu chính, chuyển phát nhanh (theo Điều 4 khoản 1 `08/2015/NĐ-CP` sửa bởi `167/2025/NĐ-CP`, làm thủ tục tại Chi cục Hải quan khu vực quản lý địa điểm tập kết, kiểm tra, giám sát tập trung hàng bưu chính, chuyển phát nhanh);\n  - k) Hàng làm thủ tục nhập khẩu tại cảng cạn ICD Mỹ Đình, cảng cạn Long Biên (TP. Hà Nội) theo quy định của Thủ tướng Chính phủ;\n  - l) Các trường hợp khác theo Quyết định của Thủ tướng Chính phủ.",
+   "tags": [
+    "hai-quan",
+    "thu-tuc",
+    "cua-khau-nhap",
+    "2026"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "31/2026/QĐ-TTg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-14",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-31-2026-qd-ttg-469911.htm"
+    },
+    {
+     "so_hieu": "54/2014/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=175358&pageid=27160"
+    },
+    {
+     "so_hieu": "08/2015/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-03-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=178689&pageid=27160"
+    },
+    {
+     "so_hieu": "167/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-08-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214375"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "thu-tuc-tai-cua-khau-nhap#6",
+   "slug": "thu-tuc-tai-cua-khau-nhap",
+   "duong_dan": "wiki/concepts/thu-tuc-tai-cua-khau-nhap.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Thủ tục hải quan tại cửa khẩu nhập (QĐ 31/2026/QĐ-TTg)",
+   "muc": "Variants > 4. Điều khoản chuyển tiếp từ `14/08/2026` (Điều 5 khoản 1 `31/2026/QĐ-TTg`)",
+   "noi_dung": "- Kể từ `14/08/2026`, `31/2026/QĐ-TTg` thay thế hoàn toàn `23/2019/QĐ-TTg` (**đã hết hiệu lực**).\n- **Quy định chuyển tiếp:** Hàng hóa thuộc danh mục phải làm thủ tục tại cửa khẩu nhập của `23/2019/QĐ-TTg` (đã hết hiệu lực) nhưng **không** thuộc danh mục của `31/2026/QĐ-TTg`, nếu **đã đăng ký tờ khai hải quan trước ngày `14/08/2026`**, thì tiếp tục hoàn thành thủ tục hải quan theo quy định tại hải quan cửa khẩu.",
+   "tags": [
+    "hai-quan",
+    "thu-tuc",
+    "cua-khau-nhap",
+    "2026"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "31/2026/QĐ-TTg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-14",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-31-2026-qd-ttg-469911.htm"
+    },
+    {
+     "so_hieu": "23/2019/QĐ-TTg",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-09-01",
+     "het_hieu_luc_tu": "2026-08-14",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "31/2026/QĐ-TTg"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=197288&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "thu-tuc-tai-cua-khau-nhap#7",
+   "slug": "thu-tuc-tai-cua-khau-nhap",
+   "duong_dan": "wiki/concepts/thu-tuc-tai-cua-khau-nhap.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Thủ tục hải quan tại cửa khẩu nhập (QĐ 31/2026/QĐ-TTg)",
+   "muc": "Key sources",
+   "noi_dung": "- [[sources/54-2014-qh13]] — Luật Hải quan `54/2014/QH13` (`CON_HIEU_LUC`, `NGUON_A`): Điều 22 (địa điểm làm thủ tục), Điều 47, Điều 50.\n- [[sources/08-2015-nd-cp]] — Nghị định `08/2015/NĐ-CP` (`CON_HIEU_LUC`, `NGUON_A`): Điều 4 về địa điểm làm thủ tục hải quan.\n- [[sources/167-2025-nd-cp]] — Nghị định `167/2025/NĐ-CP` (`CON_HIEU_LUC`, `NGUON_A`): khoản 1 Điều 1 sửa đổi, bổ sung khoản 1 và khoản 3 Điều 4 `08/2015/NĐ-CP`.\n- `registry/van-ban/31-2026-qd-ttg.yaml` (`31/2026/QĐ-TTg`, `CON_HIEU_LUC`, `NGUON_A`) — toàn văn PDF Công báo số 393 tại `raw/download/congbaocdn.chinhphu.vn/31-2026-qd-ttg.pdf` và bảng mã trích xuất `danh-muc/31-2026-qd-ttg.csv` (chưa có trang riêng trong `wiki/sources/`).\n- `registry/van-ban/23-2019-qd-ttg.yaml` (`23/2019/QĐ-TTg`, `HET_HIEU_LUC` từ `2026-08-14`, `NGUON_A`, bị thay thế bởi `31/2026/QĐ-TTg`).",
+   "tags": [
+    "hai-quan",
+    "thu-tuc",
+    "cua-khau-nhap",
+    "2026"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "54/2014/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=175358&pageid=27160"
+    },
+    {
+     "so_hieu": "08/2015/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-03-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=178689&pageid=27160"
+    },
+    {
+     "so_hieu": "167/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-08-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214375"
+    },
+    {
+     "so_hieu": "31/2026/QĐ-TTg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-14",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-31-2026-qd-ttg-469911.htm"
+    },
+    {
+     "so_hieu": "23/2019/QĐ-TTg",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-09-01",
+     "het_hieu_luc_tu": "2026-08-14",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "31/2026/QĐ-TTg"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=197288&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "thu-tuc-tai-cua-khau-nhap#8",
+   "slug": "thu-tuc-tai-cua-khau-nhap",
+   "duong_dan": "wiki/concepts/thu-tuc-tai-cua-khau-nhap.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Thủ tục hải quan tại cửa khẩu nhập (QĐ 31/2026/QĐ-TTg)",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/thu-tuc-hai-quan-xnk]] — khung chung về thủ tục, hồ sơ và phân luồng khi làm thủ tục nhập khẩu.\n- [[concepts/doc-tinh-trang-hieu-luc]] — cách đọc quan hệ thay thế `23/2019/QĐ-TTg` (đã hết hiệu lực) → `31/2026/QĐ-TTg`.",
+   "tags": [
+    "hai-quan",
+    "thu-tuc",
+    "cua-khau-nhap",
+    "2026"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "23/2019/QĐ-TTg",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-09-01",
+     "het_hieu_luc_tu": "2026-08-14",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "31/2026/QĐ-TTg"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=197288&pageid=27160"
+    },
+    {
+     "so_hieu": "31/2026/QĐ-TTg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-14",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-31-2026-qd-ttg-469911.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "thu-tuc-tai-cua-khau-nhap#9",
+   "slug": "thu-tuc-tai-cua-khau-nhap",
+   "duong_dan": "wiki/concepts/thu-tuc-tai-cua-khau-nhap.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Thủ tục hải quan tại cửa khẩu nhập (QĐ 31/2026/QĐ-TTg)",
+   "muc": "Mentioned in",
+   "noi_dung": "- [[summary/khung-thu-tuc-hai-quan]]",
+   "tags": [
+    "hai-quan",
+    "thu-tuc",
+    "cua-khau-nhap",
+    "2026"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "thu-tuc-tai-cua-khau-nhap#10",
+   "slug": "thu-tuc-tai-cua-khau-nhap",
+   "duong_dan": "wiki/concepts/thu-tuc-tai-cua-khau-nhap.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Thủ tục hải quan tại cửa khẩu nhập (QĐ 31/2026/QĐ-TTg)",
+   "muc": "Notes",
+   "noi_dung": "- Không phải tư vấn pháp lý — luôn kiểm tra văn bản gốc `31/2026/QĐ-TTg` và điều kiện ngoại lệ tại Điều 3 trước khi khai tờ khai.\n- Theo sổ đăng ký `registry/van-ban/31-2026-qd-ttg.yaml`, tệp `danh-muc/31-2026-qd-ttg.csv` hiện ghi `da_doi_chieu: false` và các nhóm 11, 12 không có mã HS cố định trong Phụ lục (phải đối chiếu theo danh mục QP-AN của Chính phủ và thông báo nguy cơ dịch bệnh của Bộ Nông nghiệp và Môi trường). Việc xác định mã HS chi tiết cho hàng hóa thuộc phạm vi `hs-code-api`, không thực hiện tại wiki.",
+   "tags": [
+    "hai-quan",
+    "thu-tuc",
+    "cua-khau-nhap",
+    "2026"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "31/2026/QĐ-TTg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-14",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-31-2026-qd-ttg-469911.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "thue-chong-ban-pha-gia-thep#1",
+   "slug": "thue-chong-ban-pha-gia-thep",
+   "duong_dan": "wiki/concepts/thue-chong-ban-pha-gia-thep.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Thuế chống bán phá giá đối với mặt hàng thép nhập khẩu",
+   "muc": "Definition",
+   "noi_dung": "Thuế chống bán phá giá (CBPG) đối với mặt hàng thép nhập khẩu là biện pháp phòng vệ thương mại bổ sung do Bộ Công Thương quyết định áp dụng theo Luật Quản lý ngoại thương `05/2017/QH14` và Nghị định **`86/2025/NĐ-CP`** (`CON_HIEU_LUC`, `NGUON_A`, có hiệu lực từ `01/07/2025`, thay thế Nghị định `10/2018/NĐ-CP` **đã hết hiệu lực**). Theo bộ câu hỏi nghiệp vụ `CH-16` và sổ đăng ký `registry/van-ban/`, hiện có **07 quyết định thép còn hiệu lực** (`NGUON_A` về hiệu lực) cần phân biệt rạch ròi với **03 quyết định thép đã hết hiệu lực** (`691/QĐ-BCT`, `693/QĐ-BCT`, `1975/QĐ-BCT`).\n\n> **Ranh giới tuyệt đối với `hs-code-api` (0% trùng lặp):** Trang này chỉ tổng hợp khung pháp lý phòng vệ thương mại, tình trạng hiệu lực văn bản và nguyên tắc kiểm tra chứng từ. Wiki **không** lưu bảng thuế suất chi tiết theo từng nhà sản xuất/xuất khẩu, **không** xây dựng công thức hay động cơ tính thuế CBPG, và **không** thực hiện áp mã HS — việc tra mã HS và tính thuế theo ngày đăng ký tờ khai thuộc phạm vi `hs-code-api`.",
+   "tags": [
+    "phong-ve-thuong-mai",
+    "chong-ban-pha-gia",
+    "thep",
+    "thue",
+    "2026"
+   ],
+   "confidence": "medium",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "05/2017/QH14",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=190308&pageid=27160"
+    },
+    {
+     "so_hieu": "86/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=213376&pageid=27160"
+    },
+    {
+     "so_hieu": "10/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-15",
+     "het_hieu_luc_tu": "2025-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "86/2025/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-10-2018-nd-cp-25762.htm"
+    },
+    {
+     "so_hieu": "691/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2023-03-22",
+     "het_hieu_luc_tu": "2026-03-22",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/Q%C4%90%20691%20.pdf"
+    },
+    {
+     "so_hieu": "693/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2023-03-22",
+     "het_hieu_luc_tu": "2026-03-22",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/Q%C4%90%20693.pdf"
+    },
+    {
+     "so_hieu": "1975/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2021-09-02",
+     "het_hieu_luc_tu": "2026-04-16",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "915/QĐ-BCT"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/1975.pdf"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "thue-chong-ban-pha-gia-thep#2",
+   "slug": "thue-chong-ban-pha-gia-thep",
+   "duong_dan": "wiki/concepts/thue-chong-ban-pha-gia-thep.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Thuế chống bán phá giá đối với mặt hàng thép nhập khẩu",
+   "muc": "Variants > 1. Khung pháp lý phòng vệ thương mại và 07 quyết định thép còn hiệu lực (`NGUON_A`)",
+   "noi_dung": "| Văn bản (sổ) | Tên / Nhóm mặt hàng thép & vụ việc | Tình trạng (`registry/van-ban/`) | Thời hạn / Ghi chú đối chiếu |\n|---|---|---|---|\n| `86/2025/NĐ-CP` | Nghị định quy định chi tiết Luật `05/2017/QH14` về các biện pháp phòng vệ thương mại | `CON_HIEU_LUC` (`NGUON_A`) | Hiệu lực từ `01/07/2025`, thay thế `10/2018/NĐ-CP` (**đã hết hiệu lực**). |\n| `143/QĐ-BCT` | Áp dụng CBPG chính thức đối với **cáp thép dự ứng lực** (Ma-lai-xi-a, Thái Lan, Trung Quốc; mã vụ việc `AD17`) | `CON_HIEU_LUC` (`NGUON_A`) | Ban hành `14/01/2025`, hiệu lực `29/01/2025` đến hết `28/01/2030` (`het_hieu_luc_tu: 2030-01-29`). PDF scan ảnh. |\n| `1959/QĐ-BCT` | Áp dụng CBPG chính thức đối với **thép cán nóng** từ Trung Quốc và chấm dứt điều tra với Ấn Độ (mã vụ việc `AD20`) | `CON_HIEU_LUC` (`NGUON_A`) | Ban hành `04/07/2025`, hiệu lực `06/07/2025` đến hết `05/07/2030` (`het_hieu_luc_tu: 2030-07-06`). PDF scan ảnh. |\n| `3176/QĐ-BCT` | Khởi xướng điều tra chống lẩn tránh biện pháp PVTM đối với **thép cán nóng** từ Trung Quốc (mã vụ việc `AC03.AD20`) | `CON_HIEU_LUC` (`NGUON_A`) | Ban hành & hiệu lực từ `27/10/2025`. Lưu ý: là quyết định **khởi xướng điều tra chống lẩn tránh** gắn với vụ `AD20`, chưa có quyết định kết thúc/bãi bỏ trong sổ; PDF scan ảnh. |\n| `2310/QĐ-BCT` | Áp dụng thuế CBPG chính thức đối với **thép mạ** từ Trung Quốc và Hàn Quốc (mã vụ việc `AD19`) | `CON_HIEU_LUC` (`NGUON_A`) | Ban hành & hiệu lực `14/08/2025` đến hết `13/08/2030` (`het_hieu_luc_tu: 2030-08-14`). PDF scan ảnh. |\n| `2822/QĐ-BCT` | Rà soát cuối kỳ áp dụng CBPG đối với **thép hợp kim hoặc không hợp kim được cán phẳng, được sơn** từ Hàn Quốc và Trung Quốc (`ER01.AD04`) | `CON_HIEU_LUC` (`NGUON_A`) | Ban hành & hiệu lực `24/10/2024`, gia hạn 05 năm đến hết `23/10/2029` (`het_hieu_luc_tu: 2029-10-24`). PDF scan ảnh. |\n| `3011/QĐ-BCT` | Rà soát cuối kỳ áp dụng CBPG đối với **thép không gỉ cán nguội** (`TW, ID, MA, CN`) | `CON_HIEU_LUC` (`NGUON_A`) | Ban hành & hiệu lực từ `12/11/2024` theo Điều 2, **chấm dứt** việc áp dụng biện pháp CBPG của quyết định trước đó đối với nhóm hàng này. PDF scan ảnh. |\n| `3765/QĐ-BCT` | Rà soát cuối kỳ áp dụng CBPG đối với **thép cán nguội (ép nguội) dạng cuộn hoặc tấm** từ Trung Quốc (`ER01.AD08`) | `CON_HIEU_LUC` (`NGUON_A`) | Ban hành `26/12/2025`, gia hạn 05 năm từ `28/12/2025` đến `27/12/2030` (`het_hieu_luc_tu: 2030-12-28`). PDF có lớp chữ; Điều 2 bảo lưu quyết định miễn trừ đã cấp trước đó đến hết thời hạn. |",
+   "tags": [
+    "phong-ve-thuong-mai",
+    "chong-ban-pha-gia",
+    "thep",
+    "thue",
+    "2026"
+   ],
+   "confidence": "medium",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "86/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=213376&pageid=27160"
+    },
+    {
+     "so_hieu": "05/2017/QH14",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=190308&pageid=27160"
+    },
+    {
+     "so_hieu": "10/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-15",
+     "het_hieu_luc_tu": "2025-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "86/2025/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-10-2018-nd-cp-25762.htm"
+    },
+    {
+     "so_hieu": "143/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-29",
+     "het_hieu_luc_tu": "2030-01-29",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20143_ap%20thue%20chinh%20thuc%20AD17.pdf"
+    },
+    {
+     "so_hieu": "1959/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-06",
+     "het_hieu_luc_tu": "2030-07-06",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%201959%20ap%20dung%20thue%20CBPG%20chinh%20thuc%20thep%20can%20nong.pdf"
+    },
+    {
+     "so_hieu": "3176/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-10-27",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-khoi-xuong-dieu-tra-chong-lan-tranh-bien-phap-phong-ve-thuong-mai-doi-voi-mot-so-san-pham-thep-can-nong-c.html"
+    },
+    {
+     "so_hieu": "2310/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-08-14",
+     "het_hieu_luc_tu": "2030-08-14",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%202310%20ap%20thue%20chinh%20thuc.pdf"
+    },
+    {
+     "so_hieu": "2822/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-10-24",
+     "het_hieu_luc_tu": "2029-10-24",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-ban-hanh-quyet-dinh-ve-ket-qua-ra-soat-cuoi-ky-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pha.html"
+    },
+    {
+     "so_hieu": "3011/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-11-12",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-hoan-tat-dieu-tra-ra-soat-cuoi-ky-viec-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pham-thep-k.html"
+    },
+    {
+     "so_hieu": "3765/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-12-28",
+     "het_hieu_luc_tu": "2030-12-28",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/12_%20QD%203765%20gia%20han%20ap%20dung%20bien%20phap%20CBPG%20thep%20can%20nguoi.pdf"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "thue-chong-ban-pha-gia-thep#3",
+   "slug": "thue-chong-ban-pha-gia-thep",
+   "duong_dan": "wiki/concepts/thue-chong-ban-pha-gia-thep.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Thuế chống bán phá giá đối với mặt hàng thép nhập khẩu",
+   "muc": "Variants > 2. Ngữ cảnh lịch sử — các quyết định thép đã hết hiệu lực (`HET_HIEU_LUC`)",
+   "noi_dung": "- **`691/QĐ-BCT`** (`HET_HIEU_LUC` từ `22/03/2026`, `NGUON_A`): Gia hạn biện pháp **tự vệ** đối với thép dài (`ER02.SG04`; Điều 2 không gia hạn với phôi thép). Theo mục 2 Thông báo kèm theo, lịch thuế kết thúc hết `21/03/2026` và chuyển sang `0%` từ `22/03/2026` — **biện pháp đã chấm dứt, đã hết hiệu lực**, không áp dụng cho tờ khai từ mốc này.\n- **`693/QĐ-BCT`** (`HET_HIEU_LUC` từ `22/03/2026`, `NGUON_A`): Gia hạn biện pháp **chống lẩn tránh** PVTM đối với thép cuộn, thép dây (`AC01.SG04`). Lịch thuế kết thúc hết `21/03/2026` và **đã hết hiệu lực** từ `22/03/2026`. *(Lưu ý: bản chụp biểu thuế cũ vẫn còn dẫn chiếu `691/QĐ-BCT` và `693/QĐ-BCT` dù sổ đã đối chiếu hết hiệu lực.)*\n- **`1975/QĐ-BCT`** (`HET_HIEU_LUC` từ `16/04/2026`, `NGUON_A`): Áp dụng thuế CBPG đối với **thép hình chữ H** xuất xứ Ma-lai-xi-a (`AD12`). Văn bản này **đã hết hiệu lực từ `16/04/2026`** do Bộ Công Thương ban hành Quyết định **`915/QĐ-BCT`** (`CON_HIEU_LUC`, `NGUON_A`, ngày `16/04/2026`) **không gia hạn** biện pháp CBPG khi rà soát cuối kỳ (căn cứ điểm a khoản 7 Điều 62 Nghị định `86/2025/NĐ-CP`).\n- **`10/2018/NĐ-CP`** (`HET_HIEU_LUC` từ `01/07/2025`, `NGUON_A`): Nghị định phòng vệ thương mại cũ, **đã hết hiệu lực** và bị thay thế bởi `86/2025/NĐ-CP`.",
+   "tags": [
+    "phong-ve-thuong-mai",
+    "chong-ban-pha-gia",
+    "thep",
+    "thue",
+    "2026"
+   ],
+   "confidence": "medium",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "691/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2023-03-22",
+     "het_hieu_luc_tu": "2026-03-22",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/Q%C4%90%20691%20.pdf"
+    },
+    {
+     "so_hieu": "693/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2023-03-22",
+     "het_hieu_luc_tu": "2026-03-22",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/Q%C4%90%20693.pdf"
+    },
+    {
+     "so_hieu": "1975/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2021-09-02",
+     "het_hieu_luc_tu": "2026-04-16",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "915/QĐ-BCT"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/1975.pdf"
+    },
+    {
+     "so_hieu": "915/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20khong%20gia%20han%20ER01_AD12%20-%20signed.pdf"
+    },
+    {
+     "so_hieu": "86/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=213376&pageid=27160"
+    },
+    {
+     "so_hieu": "10/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-15",
+     "het_hieu_luc_tu": "2025-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "86/2025/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-10-2018-nd-cp-25762.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "thue-chong-ban-pha-gia-thep#4",
+   "slug": "thue-chong-ban-pha-gia-thep",
+   "duong_dan": "wiki/concepts/thue-chong-ban-pha-gia-thep.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Thuế chống bán phá giá đối với mặt hàng thép nhập khẩu",
+   "muc": "Variants > 3. Quy trình kiểm tra hồ sơ hải quan áp thuế CBPG (trích nguyên tắc từ toàn văn `3765/QĐ-BCT`)",
+   "noi_dung": "Từ toàn văn có lớp chữ của `3765/QĐ-BCT` (Mục 5 Thông báo kèm theo), việc kiểm tra hồ sơ xác định đối tượng chịu thuế CBPG tại khâu hải quan đi theo 3 bước chứng từ tuần tự:\n\n1. **Bước 1 — Kiểm tra chứng từ chứng nhận xuất xứ hàng hóa** (C/O hoặc chứng từ tự chứng nhận xuất xứ hợp lệ theo các hiệp định thương mại tự do quy định): chứng minh xuất xứ từ quốc gia/vùng lãnh thổ khác ngoài nước bị áp thuế thì không phải nộp thuế CBPG; không nộp được chứng từ chứng nhận xuất xứ thì áp mức thuế CBPG cao nhất của quyết định; xuất xứ thuộc nước bị áp thuế thì chuyển sang Bước 2.\n2. **Bước 2 — Kiểm tra Giấy chứng nhận chất lượng (bản chính) của nhà sản xuất**: đối chiếu tên tổ chức/cá nhân sản xuất với danh sách nhà sản xuất được nêu trong quyết định để xác định có chuyển sang Bước 3 hay áp mức thuế chung.\n3. **Bước 3 — Kiểm tra tên tổ chức, cá nhân xuất khẩu** trên hợp đồng mua bán và hóa đơn thương mại: đối chiếu khớp với danh sách nhà xuất khẩu gắn với nhà sản xuất tương ứng hoặc áp mức chung nếu không trùng khớp; đồng thời kiểm tra quyết định miễn trừ của Bộ Công Thương (nếu có theo Điều 2). Cơ quan hải quan phối hợp cung cấp thông tin nhập khẩu phục vụ theo dõi, giám sát và chống lẩn tránh theo Điều 18 Nghị định `86/2025/NĐ-CP`.",
+   "tags": [
+    "phong-ve-thuong-mai",
+    "chong-ban-pha-gia",
+    "thep",
+    "thue",
+    "2026"
+   ],
+   "confidence": "medium",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "3765/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-12-28",
+     "het_hieu_luc_tu": "2030-12-28",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/12_%20QD%203765%20gia%20han%20ap%20dung%20bien%20phap%20CBPG%20thep%20can%20nguoi.pdf"
+    },
+    {
+     "so_hieu": "86/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=213376&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "thue-chong-ban-pha-gia-thep#5",
+   "slug": "thue-chong-ban-pha-gia-thep",
+   "duong_dan": "wiki/concepts/thue-chong-ban-pha-gia-thep.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Thuế chống bán phá giá đối với mặt hàng thép nhập khẩu",
+   "muc": "Variants > 4. Điểm mù tài liệu cần ghi nhận trung thực",
+   "noi_dung": "- **PDF PVTM là bản scan ảnh chưa trích điều khoản chi tiết:** Ngoại trừ `3765/QĐ-BCT` (`pdftotext` đọc được `9.599` ký tự lớp chữ), toàn bộ 06/07 quyết định thép còn hiệu lực còn lại (`143/QĐ-BCT`, `1959/QĐ-BCT`, `2310/QĐ-BCT`, `2822/QĐ-BCT`, `3011/QĐ-BCT`, `3176/QĐ-BCT`), cùng `915/QĐ-BCT` và các quyết định lịch sử đã hết hiệu lực (`691/QĐ-BCT`, `693/QĐ-BCT`, `1975/QĐ-BCT`) trong `raw/` đều là bản **PDF scan ảnh** (`pdftotext` trả về `0` ký tự với các tệp từ `pvtm.gov.vn`/`moit.gov.vn` và chỉ `116` ký tự với `1975/QĐ-BCT`), nên hiện **chưa trích xuất** `xac_minh.dieu_khoan`, `data/doc-hieu/*.dieu.jsonl` hay bảng phụ lục `danh-muc/*.csv`, và chưa có trang riêng trong `wiki/sources/`.\n- **Toàn văn `86/2025/NĐ-CP` chưa bóc tách điều khoản:** Hồ sơ `registry/van-ban/86-2025-nd-cp.yaml` đã đối chiếu `NGUON_A` về hiệu lực, nhưng tệp `raw/download/congbao.chinhphu.vn/86-2025-nd-cp.html` mới là trang thông tin Công báo (chưa nạp toàn văn PDF/DOC để trích điều khoản). Vì điểm mù này, câu hỏi `CH-16` hiện đạt tiêu chí (a) và (b) nhưng **chưa đạt tiêu chí (c)** trên `eval:qa`.",
+   "tags": [
+    "phong-ve-thuong-mai",
+    "chong-ban-pha-gia",
+    "thep",
+    "thue",
+    "2026"
+   ],
+   "confidence": "medium",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "3765/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-12-28",
+     "het_hieu_luc_tu": "2030-12-28",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/12_%20QD%203765%20gia%20han%20ap%20dung%20bien%20phap%20CBPG%20thep%20can%20nguoi.pdf"
+    },
+    {
+     "so_hieu": "143/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-29",
+     "het_hieu_luc_tu": "2030-01-29",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20143_ap%20thue%20chinh%20thuc%20AD17.pdf"
+    },
+    {
+     "so_hieu": "1959/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-06",
+     "het_hieu_luc_tu": "2030-07-06",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%201959%20ap%20dung%20thue%20CBPG%20chinh%20thuc%20thep%20can%20nong.pdf"
+    },
+    {
+     "so_hieu": "2310/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-08-14",
+     "het_hieu_luc_tu": "2030-08-14",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%202310%20ap%20thue%20chinh%20thuc.pdf"
+    },
+    {
+     "so_hieu": "2822/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-10-24",
+     "het_hieu_luc_tu": "2029-10-24",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-ban-hanh-quyet-dinh-ve-ket-qua-ra-soat-cuoi-ky-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pha.html"
+    },
+    {
+     "so_hieu": "3011/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-11-12",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-hoan-tat-dieu-tra-ra-soat-cuoi-ky-viec-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pham-thep-k.html"
+    },
+    {
+     "so_hieu": "3176/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-10-27",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-khoi-xuong-dieu-tra-chong-lan-tranh-bien-phap-phong-ve-thuong-mai-doi-voi-mot-so-san-pham-thep-can-nong-c.html"
+    },
+    {
+     "so_hieu": "915/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20khong%20gia%20han%20ER01_AD12%20-%20signed.pdf"
+    },
+    {
+     "so_hieu": "691/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2023-03-22",
+     "het_hieu_luc_tu": "2026-03-22",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/Q%C4%90%20691%20.pdf"
+    },
+    {
+     "so_hieu": "693/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2023-03-22",
+     "het_hieu_luc_tu": "2026-03-22",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/Q%C4%90%20693.pdf"
+    },
+    {
+     "so_hieu": "1975/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2021-09-02",
+     "het_hieu_luc_tu": "2026-04-16",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "915/QĐ-BCT"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/1975.pdf"
+    },
+    {
+     "so_hieu": "86/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=213376&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "thue-chong-ban-pha-gia-thep#6",
+   "slug": "thue-chong-ban-pha-gia-thep",
+   "duong_dan": "wiki/concepts/thue-chong-ban-pha-gia-thep.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Thuế chống bán phá giá đối với mặt hàng thép nhập khẩu",
+   "muc": "Key sources",
+   "noi_dung": "- `registry/van-ban/05-2017-qh14.yaml` — Luật Quản lý ngoại thương `05/2017/QH14` (`CON_HIEU_LUC`, `NGUON_A`).\n- `registry/van-ban/86-2025-nd-cp.yaml` — Nghị định `86/2025/NĐ-CP` (`CON_HIEU_LUC`, `NGUON_A`, thay thế `10/2018/NĐ-CP` đã hết hiệu lực).\n- `registry/van-ban/143-qd-bct-2025.yaml` (`143/QĐ-BCT`, `CON_HIEU_LUC`, `NGUON_A`, PDF scan `raw/download/pvtm.gov.vn/143-qd-bct.pdf`).\n- `registry/van-ban/1959-qd-bct.yaml` (`1959/QĐ-BCT`, `CON_HIEU_LUC`, `NGUON_A`, PDF scan `raw/download/pvtm.gov.vn/1959-qd-bct.pdf`).\n- `registry/van-ban/2310-qd-bct-2025.yaml` (`2310/QĐ-BCT`, `CON_HIEU_LUC`, `NGUON_A`, PDF scan `raw/download/pvtm.gov.vn/2310-qd-bct.pdf`).\n- `registry/van-ban/2822-qd-bct-2024.yaml` (`2822/QĐ-BCT`, `CON_HIEU_LUC`, `NGUON_A`, PDF scan `raw/download/pvtm.gov.vn/2822-qd-bct.pdf`).\n- `registry/van-ban/3011-qd-bct.yaml` (`3011/QĐ-BCT`, `CON_HIEU_LUC`, `NGUON_A`, PDF scan `raw/download/moit.gov.vn/3011-qd-bct.pdf`).\n- `registry/van-ban/3765-qd-bct-2025.yaml` (`3765/QĐ-BCT`, `CON_HIEU_LUC`, `NGUON_A`, PDF có lớp chữ `raw/download/pvtm.gov.vn/3765-qd-bct.pdf`).\n- `registry/van-ban/3176-qd-bct-2025.yaml` (`3176/QĐ-BCT`, `CON_HIEU_LUC`, `NGUON_A`, PDF scan `raw/download/pvtm.gov.vn/3176-qd-bct.pdf`).\n- `registry/van-ban/915-qd-bct-2025.yaml` (`915/QĐ-BCT`, `CON_HIEU_LUC`, `NGUON_A`, không gia hạn biện pháp đối với `1975/QĐ-BCT` đã hết hiệu lực).\n- Văn bản lịch sử đã hết hiệu lực: `registry/van-ban/691-qd-bct-2023.yaml` (`691/QĐ-BCT` hết hiệu lực `22/03/2026`), `registry/van-ban/693-qd-bct-2023.yaml` (`693/QĐ-BCT` hết hiệu lực `22/03/2026`), `registry/van-ban/1975-qd-bct.yaml` (`1975/QĐ-BCT` hết hiệu lực `16/04/2026`), `registry/van-ban/10-2018-nd-cp.yaml` (`10/2018/NĐ-CP` hết hiệu lực `01/07/2025`).",
+   "tags": [
+    "phong-ve-thuong-mai",
+    "chong-ban-pha-gia",
+    "thep",
+    "thue",
+    "2026"
+   ],
+   "confidence": "medium",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "05/2017/QH14",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=190308&pageid=27160"
+    },
+    {
+     "so_hieu": "86/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=213376&pageid=27160"
+    },
+    {
+     "so_hieu": "10/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-15",
+     "het_hieu_luc_tu": "2025-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "86/2025/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-10-2018-nd-cp-25762.htm"
+    },
+    {
+     "so_hieu": "143/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-29",
+     "het_hieu_luc_tu": "2030-01-29",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20143_ap%20thue%20chinh%20thuc%20AD17.pdf"
+    },
+    {
+     "so_hieu": "1959/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-06",
+     "het_hieu_luc_tu": "2030-07-06",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%201959%20ap%20dung%20thue%20CBPG%20chinh%20thuc%20thep%20can%20nong.pdf"
+    },
+    {
+     "so_hieu": "2310/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-08-14",
+     "het_hieu_luc_tu": "2030-08-14",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%202310%20ap%20thue%20chinh%20thuc.pdf"
+    },
+    {
+     "so_hieu": "2822/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-10-24",
+     "het_hieu_luc_tu": "2029-10-24",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-ban-hanh-quyet-dinh-ve-ket-qua-ra-soat-cuoi-ky-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pha.html"
+    },
+    {
+     "so_hieu": "3011/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-11-12",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-hoan-tat-dieu-tra-ra-soat-cuoi-ky-viec-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pham-thep-k.html"
+    },
+    {
+     "so_hieu": "3765/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-12-28",
+     "het_hieu_luc_tu": "2030-12-28",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/12_%20QD%203765%20gia%20han%20ap%20dung%20bien%20phap%20CBPG%20thep%20can%20nguoi.pdf"
+    },
+    {
+     "so_hieu": "3176/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-10-27",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-khoi-xuong-dieu-tra-chong-lan-tranh-bien-phap-phong-ve-thuong-mai-doi-voi-mot-so-san-pham-thep-can-nong-c.html"
+    },
+    {
+     "so_hieu": "915/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20khong%20gia%20han%20ER01_AD12%20-%20signed.pdf"
+    },
+    {
+     "so_hieu": "1975/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2021-09-02",
+     "het_hieu_luc_tu": "2026-04-16",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "915/QĐ-BCT"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/1975.pdf"
+    },
+    {
+     "so_hieu": "691/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2023-03-22",
+     "het_hieu_luc_tu": "2026-03-22",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/Q%C4%90%20691%20.pdf"
+    },
+    {
+     "so_hieu": "693/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2023-03-22",
+     "het_hieu_luc_tu": "2026-03-22",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/Q%C4%90%20693.pdf"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "thue-chong-ban-pha-gia-thep#7",
+   "slug": "thue-chong-ban-pha-gia-thep",
+   "duong_dan": "wiki/concepts/thue-chong-ban-pha-gia-thep.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Thuế chống bán phá giá đối với mặt hàng thép nhập khẩu",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/thu-tuc-hai-quan-xnk]] — hồ sơ chứng từ và kiểm tra xuất xứ, thông số hàng hóa khi thông quan.\n- [[concepts/doc-tinh-trang-hieu-luc]] — phân biệt quyết định còn hiệu lực, quyết định chấm dứt/không gia hạn (`3011/QĐ-BCT`, `915/QĐ-BCT`) và quyết định đã hết hiệu lực (`691/QĐ-BCT`, `693/QĐ-BCT`).",
+   "tags": [
+    "phong-ve-thuong-mai",
+    "chong-ban-pha-gia",
+    "thep",
+    "thue",
+    "2026"
+   ],
+   "confidence": "medium",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "3011/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-11-12",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-hoan-tat-dieu-tra-ra-soat-cuoi-ky-viec-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pham-thep-k.html"
+    },
+    {
+     "so_hieu": "915/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20khong%20gia%20han%20ER01_AD12%20-%20signed.pdf"
+    },
+    {
+     "so_hieu": "691/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2023-03-22",
+     "het_hieu_luc_tu": "2026-03-22",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/Q%C4%90%20691%20.pdf"
+    },
+    {
+     "so_hieu": "693/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2023-03-22",
+     "het_hieu_luc_tu": "2026-03-22",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/Q%C4%90%20693.pdf"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "thue-chong-ban-pha-gia-thep#8",
+   "slug": "thue-chong-ban-pha-gia-thep",
+   "duong_dan": "wiki/concepts/thue-chong-ban-pha-gia-thep.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Thuế chống bán phá giá đối với mặt hàng thép nhập khẩu",
+   "muc": "Mentioned in",
+   "noi_dung": "- [[summary/khung-thu-tuc-hai-quan]]",
+   "tags": [
+    "phong-ve-thuong-mai",
+    "chong-ban-pha-gia",
+    "thep",
+    "thue",
+    "2026"
+   ],
+   "confidence": "medium",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "thue-chong-ban-pha-gia-thep#9",
+   "slug": "thue-chong-ban-pha-gia-thep",
+   "duong_dan": "wiki/concepts/thue-chong-ban-pha-gia-thep.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Thuế chống bán phá giá đối với mặt hàng thép nhập khẩu",
+   "muc": "Notes",
+   "noi_dung": "- Không phải tư vấn pháp lý. Do 6/7 quyết định thép còn hiệu lực và nhiều quyết định PVTM liên quan là PDF bản scan chưa OCR/bóc điều khoản chi tiết, luôn mở văn bản gốc trên `pvtm.gov.vn`/`moit.gov.vn` và tra biểu thuế trên `hs-code-api` (`/api/tax`) tại ngày đăng ký tờ khai để kiểm tra phạm vi loại trừ kỹ thuật, miễn trừ và mức thuế suất áp dụng theo từng nhà sản xuất/xuất khẩu.",
+   "tags": [
+    "phong-ve-thuong-mai",
+    "chong-ban-pha-gia",
+    "thep",
+    "thue",
+    "2026"
+   ],
+   "confidence": "medium",
+   "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
   {
@@ -25807,7 +27156,7 @@
    "loai_trang": "sources",
    "tieu_de": "Quyết định 117/QĐ-CHQ — Quy trình Xác định trước mã số; Kiểm tra tên hàng, mô tả hàng hóa, mã số, mức thuế, đơn vị tính trong thông quan; Thống nhất công tác phân loại hàng hóa, áp dụng mức thuế",
    "muc": "Căn cứ pháp lý",
-   "noi_dung": "- Luật Hải quan `54/2014/QH13` (được sửa đổi, bổ sung bởi Luật số 90 năm 2025 của Quốc hội khóa XV)\n- Nghị định `08/2015/NĐ-CP` ngày `21/01/2015` (sửa đổi, bổ sung tại Nghị định `167/2025/NĐ-CP` ngày `30/06/2025`)\n- Thông tư `38/2015/TT-BTC` ngày `25/03/2015` (sửa đổi, bổ sung tại Thông tư `39/2018/TT-BTC` và Thông tư `121/2025/TT-BTC`)\n- Thông tư `14/2015/TT-BTC` ngày `30/01/2015` (sửa đổi, bổ sung tại Thông tư `17/2021/TT-BTC`; từ `15/09/2026` áp dụng Thông tư `85/2026/TT-BTC` theo Điều 20 khoản 3 Quy trình)\n- Thông tư `31/2022/TT-BTC` ngày `08/06/2022`\n- Quyết định số 382 (ngày `26/02/2025` của Bộ trưởng Bộ Tài chính, sửa đổi tại Quyết định số 1892 ngày `30/05/2025` và Quyết định số 2019 ngày `11/06/2025`) quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Cục Hải quan",
+   "noi_dung": "- Luật Hải quan `54/2014/QH13` (được sửa đổi, bổ sung bởi Luật số 90 năm 2025 của Quốc hội khóa XV)\n- Nghị định `08/2015/NĐ-CP` ngày `21/01/2015` (sửa đổi, bổ sung tại Nghị định `167/2025/NĐ-CP` ngày `30/06/2025`)\n- Thông tư `38/2015/TT-BTC` ngày `25/03/2015` (sửa đổi, bổ sung tại Thông tư `39/2018/TT-BTC` và Thông tư `121/2025/TT-BTC`)\n- Thông tư `14/2015/TT-BTC` ngày `30/01/2015` và Thông tư `17/2021/TT-BTC` (cả hai **đã hết hiệu lực từ `15/09/2026`**, bị thay thế bởi Thông tư `85/2026/TT-BTC` — áp dụng theo Điều 20 khoản 3 Quy trình)\n- Thông tư `31/2022/TT-BTC` ngày `08/06/2022`\n- Quyết định số 382 (ngày `26/02/2025` của Bộ trưởng Bộ Tài chính, sửa đổi tại Quyết định số 1892 ngày `30/05/2025` và Quyết định số 2019 ngày `11/06/2025`) quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Cục Hải quan",
    "tags": [
     "quyet-dinh",
     "chq",
@@ -36495,7 +37844,7 @@
    "loai_trang": "sources",
    "tieu_de": "Quyết định 2123/QĐ-CHQ — Quy trình Kiểm tra sau thông quan và quản lý chế độ ưu tiên",
    "muc": "Căn cứ pháp lý",
-   "noi_dung": "- Luật Hải quan `54/2014/QH13` ngày `23/06/2014` (sửa đổi, bổ sung tại Luật ngày `25/06/2025`)\n- Luật Quản lý thuế `38/2019/QH14` ngày `13/06/2019` (sửa đổi, bổ sung tại Luật ngày `29/11/2024`) và Nghị định số 126 (năm 2020 của Chính phủ, sửa đổi bởi Nghị định số 91 năm 2022) quy định chi tiết thi hành một số điều của Luật Quản lý thuế\n- Nghị định `08/2015/NĐ-CP` ngày `21/01/2015` (sửa đổi, bổ sung bởi Nghị định `167/2025/NĐ-CP` ngày `30/06/2025`)\n- Thông tư `38/2015/TT-BTC` ngày `25/03/2015` (sửa đổi, bổ sung bởi Thông tư `39/2018/TT-BTC` và Thông tư `121/2025/TT-BTC` ngày `18/12/2025`)\n- Quyết định số 382 (ngày `26/02/2025` của Bộ trưởng Bộ Tài chính) và Quyết định số 2019 (ngày `11/06/2025` của Bộ Tài chính) quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Cục Hải quan",
+   "noi_dung": "- Luật Hải quan `54/2014/QH13` ngày `23/06/2014` (sửa đổi, bổ sung tại Luật ngày `25/06/2025`)\n- Luật Quản lý thuế `38/2019/QH14` ngày `13/06/2019` (sửa đổi, bổ sung tại Luật ngày `29/11/2024` — **đã hết hiệu lực từ `01/07/2026`**, bị thay thế bởi Luật Quản lý thuế `108/2025/QH15`) và Nghị định số 126 (năm 2020 của Chính phủ, sửa đổi bởi Nghị định số 91 năm 2022) quy định chi tiết thi hành một số điều của Luật Quản lý thuế\n- Nghị định `08/2015/NĐ-CP` ngày `21/01/2015` (sửa đổi, bổ sung bởi Nghị định `167/2025/NĐ-CP` ngày `30/06/2025`)\n- Thông tư `38/2015/TT-BTC` ngày `25/03/2015` (sửa đổi, bổ sung bởi Thông tư `39/2018/TT-BTC` và Thông tư `121/2025/TT-BTC` ngày `18/12/2025`)\n- Quyết định số 382 (ngày `26/02/2025` của Bộ trưởng Bộ Tài chính) và Quyết định số 2019 (ngày `11/06/2025` của Bộ Tài chính) quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Cục Hải quan",
    "tags": [
     "quyet-dinh",
     "chq",
@@ -36528,6 +37877,16 @@
      ],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?docid=197312&pageid=27160"
+    },
+    {
+     "so_hieu": "108/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216541"
     },
     {
      "so_hieu": "08/2015/NĐ-CP",
@@ -55158,7 +56517,7 @@
    "loai_trang": "sources",
    "tieu_de": "Thông tư 81/2019/TT-BTC — Quy định quản lý rủi ro trong hoạt động nghiệp vụ hải quan",
    "muc": "Related sources",
-   "noi_dung": "- [[sources/06-2024-tt-btc]] — sửa đổi, bổ sung TT 81/2019 (hiệu lực 15/03/2024)\n- [[sources/08-2015-nd-cp]] — NĐ 08/2015/NĐ-CP, khung mà Thông tư hướng dẫn\n- [[sources/38-2015-tt-btc]] — TT 38/2015/TT-BTC, thủ tục hải quan (Mục I Chương II bị bãi bỏ theo Điều 34.2)\n- [[sources/1921-qd-tchq]] — QĐ 1921/QĐ-TCHQ, có điều riêng cho hàng hóa phân luồng xanh (chưa xác minh)",
+   "noi_dung": "- [[sources/06-2024-tt-btc]] — sửa đổi, bổ sung TT 81/2019 (hiệu lực 15/03/2024)\n- [[sources/08-2015-nd-cp]] — NĐ 08/2015/NĐ-CP, khung mà Thông tư hướng dẫn\n- [[sources/38-2015-tt-btc]] — TT 38/2015/TT-BTC, thủ tục hải quan (Mục I Chương II bị bãi bỏ theo Điều 34.2)\n- [[sources/1921-qd-tchq]] — QĐ 1921/QĐ-TCHQ (**đã hết hiệu lực từ 01/02/2026**, bị bãi bỏ bởi Quyết định 117/QĐ-CHQ; từng có điều riêng cho hàng hóa phân luồng xanh tại Điều 3 khoản 1 điểm đ)",
    "tags": [
     "thong-tu",
     "btc",
@@ -55204,6 +56563,16 @@
       "117/QĐ-CHQ"
      ],
      "nguon_a": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/11/21/2022-08%20C%E1%BB%A5c%20ki%E1%BB%83m%20%C4%91%E1%BB%8Bnh%20HQ.pdf"
+    },
+    {
+     "so_hieu": "117/QĐ-CHQ",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-02-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": null
     }
    ],
    "canh_bao_hieu_luc": false
@@ -55990,7 +57359,7 @@
    "loai_trang": "sources",
    "tieu_de": "Thông tư 85/2026/TT-BTC — Quy định về phân loại hàng hoá, phân tích để phân loại hàng hoá XNK",
    "muc": "Related sources",
-   "noi_dung": "- [[sources/08-2015-nd-cp]] — NĐ 08/2015/NĐ-CP (hướng dẫn Luật HQ, Điều 16 căn cứ 85/2026)\n- [[sources/49-2010-tt-btc]] — TT 49/2010/TT-BTC, khung \"phân loại + áp dụng mức thuế\" đầu tiên (bị bãi bỏ bởi TT 14/2015, mà TT 14/2015 lại bị TT 85/2026 thay thế)\n- [[sources/1628-qd-tchq]] — QĐ 1628/QĐ-TCHQ, Quy chế phân tích/phân loại của ngành Hải quan (Điều 17.1 của TT 14/2015 là căn cứ cho quy chế này)",
+   "noi_dung": "- [[sources/08-2015-nd-cp]] — NĐ 08/2015/NĐ-CP (hướng dẫn Luật HQ, Điều 16 căn cứ 85/2026)\n- [[sources/49-2010-tt-btc]] — TT 49/2010/TT-BTC, khung \"phân loại + áp dụng mức thuế\" đầu tiên (bị bãi bỏ bởi TT 14/2015, mà TT 14/2015 lại bị TT 85/2026 thay thế)\n- [[sources/1628-qd-tchq]] — QĐ 1628/QĐ-TCHQ (**đã hết hiệu lực từ 09/12/2013**, tiền thân quy chế phân tích/phân loại của ngành Hải quan; trước đây dẫn chiếu Điều 17.1 của TT 14/2015/TT-BTC, nay cũng đã hết hiệu lực và được thay thế bởi TT 85/2026/TT-BTC)",
    "tags": [
     "thong-tu",
     "btc",
@@ -56035,6 +57404,28 @@
      ],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/quyet-dinh-so-1628-qd-tchq-ban-hanh-quy-che-phan-tich-phan-loai-hang-hoa-xuat-nhap-khau-trong-nganh-hai-quan--86278"
+    },
+    {
+     "so_hieu": "14/2015/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2015-03-16",
+     "het_hieu_luc_tu": "2026-09-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "85/2026/TT-BTC"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-85-2026-tt-btc-469982.htm"
+    },
+    {
+     "so_hieu": "85/2026/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-85-2026-tt-btc-469982.htm"
     }
    ],
    "canh_bao_hieu_luc": false

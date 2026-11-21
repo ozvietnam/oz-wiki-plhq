@@ -5,14 +5,274 @@
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
  "canh_bao_tang_nhap": "Tầng TOM_TAT_NHAP được trích tự động bởi LLM (da_soat: false) — CHỈ dùng để định vị điều khoản, KHÔNG trích dẫn nguyên văn hay làm căn cứ pháp lý; chỉ dùng NGUYEN_VAN_NGUON_A để trích dẫn căn cứ.",
  "thong_ke": {
-  "so_van_ban_nguon_a": 2,
-  "so_dieu_khoan_nguon_a": 25,
+  "so_van_ban_nguon_a": 12,
+  "so_dieu_khoan_nguon_a": 133,
   "so_van_ban_tom_tat_nhap": 88,
   "so_dieu_khoan_tom_tat_nhap": 4699,
   "so_tep_doc_hieu": 91,
   "so_dong_loi": 0
  },
  "nguyen_van_nguon_a": [
+  {
+   "so_hieu": "108/2025/QH15",
+   "slug": "108-2025-qh15",
+   "ten": "Luật Quản lý thuế",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-07-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216541",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Luật này quy định việc quản lý các loại thuế, các khoản thu khác thuộc ngân sách nhà nước.",
+     "trang_pdf": 1,
+     "sha256_pdf": "40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d"
+    },
+    {
+     "dieu": 12,
+     "khoan": 6,
+     "noi_dung": "Đối với hàng hóa xuất khẩu, nhập khẩu thì hồ sơ hải quan theo quy định của Luật Hải quan được sử dụng làm hồ sơ khai thuế. Việc khai thuế, khai bổ sung, thời hạn nộp hồ sơ khai thuế, cơ quan hải quan tiếp nhận hồ sơ khai thuế, tỷ giá tính thuế đối với hàng hóa xuất khẩu, hàng hóa nhập khẩu thực hiện theo quy định của pháp luật về hải quan.",
+     "trang_pdf": 11,
+     "sha256_pdf": "40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d"
+    },
+    {
+     "dieu": 24,
+     "khoan": 1,
+     "noi_dung": "Nguyên tắc ấn định thuế: a) Ấn định thuế phải dựa trên các nguyên tắc quản lý thuế, căn cứ tính, phương pháp tính thuế theo quy định của pháp luật về thuế, pháp luật về hải quan; b) Cơ quan quản lý thuế ấn định số tiền thuế phải nộp hoặc ấn định từng yếu tố, căn cứ tính thuế để xác định số tiền thuế phải nộp.",
+     "trang_pdf": 30,
+     "sha256_pdf": "40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d"
+    },
+    {
+     "dieu": 25,
+     "khoan": 1,
+     "diem": "đ",
+     "noi_dung": "Cơ quan hải quan có đủ bằng chứng, căn cứ xác định về việc khai báo trị giá, mã số, xuất xứ hàng hóa không đúng với thực tế, ảnh hưởng đến số thuế phải nộp, ưu đãi;",
+     "trang_pdf": 31,
+     "sha256_pdf": "40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d"
+    },
+    {
+     "dieu": 44,
+     "khoan": 2,
+     "diem": "b",
+     "noi_dung": "Trường hợp người nộp thuế có hành vi khai sai quy định tại khoản 3 Điều 45 của Luật này nhưng đã khai bổ sung trước thời điểm cơ quan hải quan thông báo việc kiểm tra trực tiếp hồ sơ hải quan đối với hàng hóa đang làm thủ tục hải quan; người nộp thuế khai bổ sung trong thời hạn 60 ngày kể từ ngày thông quan và trước thời điểm quyết định thanh tra, kiểm tra đối với hàng hóa đã thông quan, kiểm tra sau thông quan và các trường hợp khác theo quy định của Chính phủ.",
+     "trang_pdf": 57,
+     "sha256_pdf": "40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d"
+    },
+    {
+     "dieu": 44,
+     "khoan": 3,
+     "noi_dung": "Việc áp dụng mức phạt tiền trong xử phạt vi phạm hành chính về quản lý thuế được thực hiện như sau: a) Phạt 10% tính trên số tiền thuế khai thiếu số tiền thuế phải nộp hoặc số tiền thuế khai tăng trong trường hợp được miễn, giảm, hoàn, không thu thuế đối với hành vi quy định tại điểm a khoản 3 Điều 45 của Luật này; b) Phạt 20% tính trên số tiền thuế khai thiếu số tiền thuế phải nộp hoặc số tiền thuế khai tăng trong trường hợp được miễn, giảm, hoàn, không thu thuế đối với hành vi quy định tại khoản 2 và điểm b, điểm c khoản 3 Điều 45 của Luật này; c) Phạt từ 01 lần đến 03 lần số tiền thuế trốn đối với hành vi quy định tại khoản 4 Điều 45 của Luật này.",
+     "trang_pdf": 57,
+     "sha256_pdf": "40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d"
+    },
+    {
+     "dieu": 44,
+     "khoan": 7,
+     "noi_dung": "Đối với hành vi vi phạm thủ tục thuế thì thời hiệu xử phạt là 02 năm. Đối với hành vi trốn thuế chưa đến mức truy cứu trách nhiệm hình sự, hành vi khai sai dẫn đến thiếu số tiền thuế phải nộp hoặc tăng số tiền thuế được miễn, giảm, hoàn, không thu thì thời hiệu xử phạt là 05 năm. Thời điểm để tính thời hiệu xử phạt vi phạm hành chính thực hiện theo quy định của pháp luật về xử lý vi phạm hành chính.",
+     "trang_pdf": 58,
+     "sha256_pdf": "40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d"
+    },
+    {
+     "dieu": 45,
+     "khoan": 4,
+     "diem": "e",
+     "noi_dung": "Khai sai với thực tế hàng hóa xuất khẩu, nhập khẩu mà cá nhân, tổ chức vi phạm không tự nguyện khắc phục hậu quả bằng cách nộp đủ số tiền thuế phải nộp theo quy định;",
+     "trang_pdf": 59,
+     "sha256_pdf": "40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d"
+    },
+    {
+     "dieu": 52,
+     "khoan": 1,
+     "noi_dung": "Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026, trừ quy định tại khoản 2 Điều này.",
+     "trang_pdf": 64,
+     "sha256_pdf": "40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d"
+    },
+    {
+     "dieu": 52,
+     "khoan": 3,
+     "noi_dung": "Luật Quản lý thuế số 38/2019/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 56/2024/QH15 (sau đây gọi là Luật Quản lý thuế số 38/2019/QH14) hết hiệu lực thi hành kể từ ngày Luật này có hiệu lực thi hành, trừ quy định tại khoản 1 và khoản 3 Điều 53 của Luật này; riêng quy định tại Điều 51 của Luật Quản lý thuế số 38/2019/QH14 hết hiệu lực thi hành kể từ ngày 01 tháng 01 năm 2026.",
+     "trang_pdf": 64,
+     "sha256_pdf": "40587b11e57220c69abc6f65008f016bd780254f28e0079aa33b71a57a2c269d"
+    }
+   ]
+  },
+  {
+   "so_hieu": "11/2026/QH16",
+   "slug": "11-2026-qh16",
+   "ten": "Luật sửa đổi, bổ sung một số điều của Luật Hải quan",
+   "tinh_trang": "CHUA_CO_HIEU_LUC",
+   "hieu_luc_tu": "2027-03-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-11-2026-qh16-470446.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "khoan": 1,
+     "diem": "d",
+     "noi_dung": "Người khai hải quan bao gồm: chủ hàng hóa; chủ phương tiện vận tải; người điều khiển phương tiện vận tải; doanh nghiệp kinh doanh dịch vụ bưu chính, doanh nghiệp kinh doanh dịch vụ chuyển phát nhanh quốc tế; chủ quản nền tảng thương mại điện tử; người thực hiện dịch vụ quá cảnh, trung chuyển hàng hóa; đại lý làm thủ tục hải quan, người được chủ hàng hóa, chủ phương tiện vận tải ủy quyền thực hiện thủ tục hải quan.",
+     "trang_pdf": 1,
+     "sha256_pdf": "619c90ed814784441acb644f14c87e33b87c3197c8327bec853e8b1a10ee4d6f"
+    },
+    {
+     "dieu": 1,
+     "khoan": 4,
+     "noi_dung": "Điều 16a. Kiểm tra, giám sát hải quan đối với hàng hóa xuất khẩu, nhập khẩu qua nền tảng thương mại điện tử 1. Hàng hóa xuất khẩu, nhập khẩu qua nền tảng thương mại điện tử phải làm thủ tục hải quan, chịu sự kiểm tra, giám sát hải quan. 2. Tổ chức, cá nhân tại Việt Nam khi mua, bán hàng hóa với nước ngoài qua nền tảng thương mại điện tử phải thực hiện định danh, xác thực điện tử. Chủ quản nền tảng thương mại điện tử có trách nhiệm kết nối với hệ thống xử lý dữ liệu về thương mại điện tử của cơ quan hải quan khi thực hiện định danh, xác thực điện tử. 3. Chủ quản nền tảng thương mại điện tử, doanh nghiệp kinh doanh kho ngoại quan, doanh nghiệp vận chuyển hoặc đại lý của doanh nghiệp vận chuyển, tổ chức, cá nhân có liên quan đến hàng hóa xuất khẩu, nhập khẩu qua nền tảng thương mại điện tử có trách nhiệm cung cấp thông tin liên quan đến hàng hóa cho cơ quan hải quan. 4. Chính phủ quy định chi tiết Điều này.",
+     "trang_pdf": 2,
+     "sha256_pdf": "619c90ed814784441acb644f14c87e33b87c3197c8327bec853e8b1a10ee4d6f"
+    },
+    {
+     "dieu": 1,
+     "khoan": 6,
+     "noi_dung": "Điều 17a. Quản lý tuân thủ trong quản lý hải quan 1. Cơ quan hải quan thực hiện quản lý tuân thủ trong quản lý hải quan, bao gồm: thu thập, xử lý thông tin, dữ liệu hải quan; xây dựng, quản lý hồ sơ tuân thủ; giám sát, đánh giá tuân thủ; thực hiện các biện pháp hỗ trợ người khai hải quan tuân thủ tự nguyện và áp dụng các biện pháp quản lý phù hợp theo mức độ tuân thủ pháp luật. Cơ quan hải quan quản lý hệ thống thông tin nghiệp vụ, ứng dụng công nghệ số, dữ liệu lớn, trí tuệ nhân tạo để thực hiện quản lý tuân thủ trong quản lý hải quan. 2. Người khai hải quan tuân thủ pháp luật được xem xét ưu tiên thực hiện thủ tục hải quan, miễn, giảm mức độ kiểm tra, giám sát hải quan, kiểm tra sau thông quan và các hoạt động nghiệp vụ khác đối với hoạt động xuất khẩu, nhập khẩu, xuất cảnh, nhập cảnh, quá cảnh. 3. Chính phủ quy định chi tiết Điều này.",
+     "trang_pdf": 3,
+     "sha256_pdf": "619c90ed814784441acb644f14c87e33b87c3197c8327bec853e8b1a10ee4d6f"
+    },
+    {
+     "dieu": 1,
+     "khoan": 24,
+     "noi_dung": "Điều 77. Kiểm tra sau thông quan 1. Kiểm tra sau thông quan là hoạt động kiểm tra của cơ quan hải quan đối với hồ sơ hải quan, sổ kế toán, chứng từ kế toán và các chứng từ khác, tài liệu, dữ liệu có liên quan đến hàng hóa; kiểm tra thực tế hàng hóa trong trường hợp cần thiết và còn điều kiện sau khi hàng hóa đã được thông quan. 2. Việc kiểm tra sau thông quan nhằm đánh giá tính chính xác, trung thực nội dung các chứng từ, hồ sơ mà người khai hải quan đã khai, nộp, xuất trình với cơ quan hải quan; đánh giá và nâng cao việc tuân thủ pháp luật về hải quan và các quy định khác của pháp luật có liên quan đến quản lý xuất khẩu, nhập khẩu của người khai hải quan. 3. Kiểm tra sau thông quan được thực hiện tại trụ sở cơ quan hải quan, trụ sở người khai hải quan. Trụ sở người khai hải quan bao gồm trụ sở chính, chi nhánh, cửa hàng, nơi sản xuất, nơi lưu giữ hàng hóa theo quy định của pháp luật có liên quan. 4. Kiểm tra sau thông quan được thực hiện trong thời gian tối đa là 05 năm kể từ ngày đăng ký tờ khai hải quan đến ngày ban hành quyết định kiểm tra sau thông quan. 5. Kiểm tra sau thông quan được thực hiện trên cơ sở áp dụng quản lý rủi ro, quản lý tuân thủ và ứng dụng công nghệ số. 6. Chính phủ quy định chi tiết Điều này.",
+     "trang_pdf": 11,
+     "sha256_pdf": "619c90ed814784441acb644f14c87e33b87c3197c8327bec853e8b1a10ee4d6f"
+    },
+    {
+     "dieu": 1,
+     "khoan": 29,
+     "noi_dung": "Trị giá hải quan đối với hàng hóa xuất khẩu là giá thực tế của hàng hóa tính đến cửa khẩu xuất khẩu, không bao gồm chi phí vận tải quốc tế và chi phí bảo hiểm quốc tế.",
+     "trang_pdf": 13,
+     "sha256_pdf": "619c90ed814784441acb644f14c87e33b87c3197c8327bec853e8b1a10ee4d6f"
+    },
+    {
+     "dieu": 1,
+     "khoan": 32,
+     "noi_dung": "Bãi bỏ khoản 2 Điều 14 và các điều 47, 75, 76, 101 và 102.",
+     "trang_pdf": 14,
+     "sha256_pdf": "619c90ed814784441acb644f14c87e33b87c3197c8327bec853e8b1a10ee4d6f"
+    },
+    {
+     "dieu": 3,
+     "khoan": 1,
+     "noi_dung": "Luật này có hiệu lực thi hành từ ngày 01 tháng 3 năm 2027.",
+     "trang_pdf": 16,
+     "sha256_pdf": "619c90ed814784441acb644f14c87e33b87c3197c8327bec853e8b1a10ee4d6f"
+    }
+   ]
+  },
+  {
+   "so_hieu": "121/2025/TT-BTC",
+   "slug": "121-2025-tt-btc",
+   "ten": "Sửa đổi, bổ sung một số điều của các Thông tư quy định về thủ tục hải quan, kiểm tra, giám sát hải quan, thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-02-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-121-2025-tt-btc-468755.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "khoan": 3,
+     "diem": "a",
+     "noi_dung": "Hồ sơ, mẫu hàng hóa xác định trước mã số a) Đơn đề nghị xác định trước mã số theo mẫu số 01/XĐTMS/NVTHQ Phụ lục VI ban hành kèm Thông tư này; b) Tài liệu kỹ thuật do tổ chức, cá nhân đề nghị xác định trước mã số hàng hóa cung cấp (bản phân tích thành phần, catalogue, hình ảnh hàng hóa): 01 bản; c) Mẫu hàng hóa dự kiến xuất khẩu, nhập khẩu (nếu có). Cơ quan hải quan tiếp nhận và xử lý mẫu hàng hóa dự kiến xuất khẩu, nhập khẩu thực hiện theo quy định tại Điều 10 Thông tư số 14/2015/TT-BTC ngày 30/01/2025 của Bộ trưởng Bộ Tài chính và các văn bản sửa đổi, bổ sung (nếu có) hướng dẫn về phân loại hàng hóa, phân tích để phân loại hàng hóa, phân tích để kiểm tra chất lượng, kiểm tra an toàn thực phẩm đối với hàng hóa xuất khẩu, nhập khẩu. Trường hợp thông tin về hàng hoá tại hồ sơ xác định trước mã số chưa đủ cơ sở để xác định tên gọi, mã số theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam thì cơ quan hải quan có văn bản đề nghị bổ sung chứng thư phân tích, giám định của tổ chức có chức năng giám định theo quy định của pháp luật.",
+     "trang_pdf": 4,
+     "sha256_pdf": "a210244bdded36cc9d5ca7b7b7f00c0d53f3623c2dda75b3ee5fbf4462a92ead"
+    },
+    {
+     "dieu": 1,
+     "khoan": 4,
+     "noi_dung": "Điều 16. Hồ sơ hải quan khi làm thủ tục hải quan 1. Hồ sơ hải quan đối với hàng hóa xuất khẩu a) Tờ khai hải quan; b) Hóa đơn thương mại hoặc chứng từ có giá trị tương đương trong trường hợp người mua phải thanh toán cho người bán. Trường hợp hóa đơn thương mại được cấp dưới dạng điện tử theo quy định tại điểm 2a Điều 8 Nghị định 123/2020/NĐ-CP ngày 19/10/2020 được sửa đổi, bổ sung bởi khoản 5 Điều 1 Nghị định 70/2025/NĐ-CP ngày 20/3/2025 của Chính phủ trước thời điểm khai báo hải quan thì người khai hải quan không phải nộp cho cơ quan hải quan khi làm thủ tục hải quan; c) Giấy phép xuất khẩu hoặc văn bản cho phép xuất khẩu của cơ quan có thẩm quyền theo quy định pháp luật (sau đây gọi tắt là giấy phép xuất khẩu); d) Giấy thông báo miễn kiểm tra hoặc giấy thông báo kết quả kiểm tra chuyên ngành hoặc chứng từ khác theo quy định của pháp luật (sau đây gọi tắt là Giấy chứng nhận kiểm tra chuyên ngành); đ) Chứng từ chứng minh tổ chức, cá nhân đủ điều kiện xuất khẩu hàng hóa theo quy định của pháp luật về đầu tư; e) Hợp đồng ủy thác đối với trường hợp ủy thác xuất khẩu hàng hóa thuộc diện phải có các chứng từ quy định tại điểm c, điểm d, điểm đ khoản này; g) Đối với hàng hóa xuất khẩu của thương nhân nước ngoài không có hiện diện tại Việt Nam thực hiện quyền xuất khẩu: Giấy chứng nhận đăng ký quyền xuất khẩu của thương nhân nước ngoài không có hiện diện tại Việt Nam do Bộ Công Thương cấp; h) Đối với doanh nghiệp có vốn đầu tư nước ngoài thực hiện quyền xuất khẩu: Giấy chứng nhận đầu tư về hoạt động mua bán hàng hóa và các hoạt động liên quan đến mua bán hàng hóa của thương nhân có vốn đầu tư nước ngoài có đăng ký quyền xuất khẩu; Trường hợp không phải thực hiện cấp Giấy chứng nhận đầu tư thì nộp chứng từ tương đương. Trường hợp thực hiện thủ tục hải quan tại cùng một cơ quan hải quan thì người khai hải quan chỉ phải nộp các chứng từ quy định tại điểm g và điểm h khoản này lần đầu khi làm thủ tục hải quan.",
+     "trang_pdf": 5,
+     "sha256_pdf": "a210244bdded36cc9d5ca7b7b7f00c0d53f3623c2dda75b3ee5fbf4462a92ead"
+    },
+    {
+     "dieu": 1,
+     "khoan": 6,
+     "diem": "a",
+     "noi_dung": "Người khai hải quan phải khai đầy đủ các thông tin trên tờ khai hải quan theo các chỉ tiêu thông tin quy định tại mẫu số 01 hoặc mẫu số 02 Phụ lục II ban hành kèm Thông tư này và các chứng từ thuộc hồ sơ hải quan quy định tại Điều 16 Thông tư này theo các chỉ tiêu thông tin quy định tại mẫu số 03 Phụ lục II ban hành kèm Thông tư này cho cơ quan hải quan thông qua Hệ thống xử lý dữ liệu điện tử hải quan. Trường hợp Hệ thống xử lý dữ liệu điện tử hải quan chưa có chức năng tiếp nhận chỉ tiêu thông tin quy định tại mẫu số 03 Phụ lục II ban hành kèm Thông tư này, người khai hải quan nộp bản scan có xác nhận bằng chữ ký số các chứng từ thuộc hồ sơ hải quan cho cơ quan hải quan thông qua hệ thống. Cơ quan hải quan có trách nhiệm thông báo trên trang thông tin điện tử hải quan thời điểm Hệ thống xử lý dữ liệu điện tử hải quan có chức năng tiếp nhận chỉ tiêu thông tin quy định tại mẫu số 03 Phụ lục II ban hành kèm theo Thông tư này. Trường hợp khai trên tờ khai hải quan giấy thì người khai hải quan nộp 02 bản chính tờ khai hải quan theo hướng dẫn tại Phụ lục IV ban hành kèm Thông tư này và nộp, xuất trình bộ hồ sơ hải quan theo quy định tại Điều 3, Điều 16 Thông tư này cho cơ quan hải quan khi đăng ký tờ khai hải quan. Trường hợp nhập khẩu nguyên liệu, vật tư để gia công, sản xuất xuất khẩu, và xuất khẩu sản phẩm gia công, sản xuất xuất khẩu, người khai hải quan phải khai mã sản phẩm xuất khẩu, mã nguyên liệu, vật tư nhập khẩu phù hợp với thực tế quản trị, sản xuất của người khai hải quan tại chỉ tiêu mô tả hàng hóa theo hướng dẫn của Phụ lục II ban hành kèm Thông tư này trên tờ khai hải quan khi làm thủ tục nhập khẩu, xuất khẩu;",
+     "trang_pdf": 18,
+     "sha256_pdf": "a210244bdded36cc9d5ca7b7b7f00c0d53f3623c2dda75b3ee5fbf4462a92ead"
+    },
+    {
+     "dieu": 1,
+     "khoan": 8,
+     "noi_dung": "Điều 20. Khai bổ sung hồ sơ hải quan hàng hóa xuất khẩu, nhập khẩu Khai bổ sung hồ sơ hải quan đối với hàng hóa xuất khẩu, nhập khẩu là việc khai sửa đổi, bổ sung thông tin tờ khai hải quan và nộp các chứng từ liên quan đến khai sửa đổi, bổ sung. 1. Các trường hợp khai bổ sung Trừ các chỉ tiêu thông tin trên tờ khai hải quan không được khai bổ sung quy định tại mục 3 Phụ lục II ban hành kèm Thông tư này, người khai hải quan được khai bổ sung các chỉ tiêu thông tin trên tờ khai hải quan và nộp bổ sung hồ sơ trong các trường hợp sau: a) Khai bổ sung trong thông quan: a.1) Người khai hải quan, người nộp thuế được khai bổ sung hồ sơ hải quan trước thời điểm cơ quan hải quan thông báo kết quả phân luồng tờ khai hải quan cho người khai hải quan; a.2) Người khai hải quan, người nộp thuế phát hiện sai sót trong việc khai hải quan sau thời điểm cơ quan hải quan thông báo kết quả phân luồng nhưng trước khi thông quan thì được khai bổ sung hồ sơ hải quan và bị xử lý theo quy định của pháp luật; b) Khai bổ sung sau khi hàng hóa đã được thông quan: Trừ nội dung khai bổ sung liên quan đến giấy phép xuất khẩu, nhập khẩu; kiểm tra chuyên ngành về chất lượng hàng hóa, y tế, văn hóa, kiểm dịch động vật, thực vật, an toàn thực phẩm, người khai hải quan thực hiện khai bổ sung sau thông quan trong các trường hợp sau: b.1) Người khai hải quan, người nộp thuế xác định có sai sót trong việc khai hải quan thì được khai bổ sung hồ sơ hải quan trong thời hạn 60 ngày kể từ ngày thông quan nhưng trước thời điểm cơ quan hải quan quyết định kiểm tra sau thông quan; b.2) Quá thời hạn 60 ngày kể từ ngày thông quan hoặc sau khi cơ quan hải quan quyết định kiểm tra sau thông quan, người khai hải quan, người nộp thuế mới phát hiện sai sót trong việc khai hải quan thì thực hiện khai bổ sung và bị xử lý theo quy định của pháp luật (nếu có).",
+     "trang_pdf": 22,
+     "sha256_pdf": "a210244bdded36cc9d5ca7b7b7f00c0d53f3623c2dda75b3ee5fbf4462a92ead"
+    },
+    {
+     "dieu": 1,
+     "khoan": 14,
+     "diem": "b",
+     "noi_dung": "Việc kiểm tra thực tế để xác định tên hàng, mã số hàng hóa, trị giá hải quan, xuất xứ, hàng hóa đã qua sử dụng hoặc chưa qua sử dụng: thực hiện theo quy định tại các Điều 24, Điều 25 và Điều 27 Thông tư này. Trường hợp Hệ thống chỉ định kiểm tra, đánh giá tiêu chí kỹ thuật bằng máy móc, trang thiết bị hoặc công chức hải quan thực hiện kiểm tra trực tiếp hoặc kiểm tra thực tế hàng hóa bằng các máy móc, thiết bị kỹ thuật hiện có tại cơ quan Hải quan nơi kiểm tra thực tế hàng hóa không xác định được đầy đủ các tiêu chí kỹ thuật đảm bảo xác định chính xác đối với nội dung khai của người khai hải quan thì Đội trưởng Hải quan quyết định việc yêu cầu kiểm tra, đánh giá tiêu chí kỹ thuật bằng máy móc, trang thiết bị tại cơ quan kiểm định hải quan hoặc giám định, thử nghiệm cụ thể như sau: a) Đối với mặt hàng thuộc Danh mục tiêu chí kỹ thuật tiếp nhận thực hiện tại cơ quan kiểm định hải quan thì lấy mẫu và lập hồ sơ gửi cơ quan kiểm định hải quan để kiểm tra, đánh giá tiêu chí kỹ thuật bằng máy móc, trang thiết bị. a.1) Hồ sơ gồm: a.1.1) Phiếu yêu cầu kiểm tra, đánh giá tiêu chí kỹ thuật hàng hoá xuất khẩu, nhập khẩu bằng máy móc, trang thiết bị tại cơ quan kiểm định hải quan, kiêm Biên bản lấy mẫu hàng hóa (theo mẫu số 44-PYCKT/KĐHQ Phụ lục V ban hành kèm Thông tư này); a.1.2) Phiếu ghi số, ngày văn bản, chứng từ thuộc hồ sơ hải quan liên quan đến mẫu hàng hóa (trong trường hợp khai tờ khai hải quan giấy); a.1.3) Phiếu ghi kết quả kiểm tra thực tế hàng hóa theo mẫu số 06/PGKQKT/GSQL Phụ lục V ban hành kèm Thông tư này; a.1.4) Mẫu hàng hóa yêu cầu kiểm tra, đánh giá; a.1.5) Tài liệu kỹ thuật của hàng hóa hoặc bản phân tích thành phần sản phẩm. Cơ quan hải quan nơi gửi mẫu có chỉ thị qua Hệ thống hoặc bằng văn bản yêu cầu người khai hải quan cung cấp tài liệu kỹ thuật hoặc bản phân tích thành phần sản phẩm. Trường hợp không có tài liệu kỹ thuật hoặc bản phân tích thành phần sản phẩm thì cơ quan hải quan nơi gửi hồ sơ phải nêu rõ lý do và chỉ thị hoặc có văn bản yêu cầu người khai hải quan theo mẫu số 44-PYCKT/KĐHQ Phụ lục V ban hành kèm Thông tư này. a.2) Kết quả kiểm tra, đánh giá tiêu chí kỹ thuật bằng máy móc, trang thiết bị tại cơ quan kiểm định hải quan được ghi lại theo mẫu số 43-KQKTĐG/KĐHQ Phụ lục V ban hành kèm Thông tư này. Thông báo này là cơ sở để phân loại hàng hóa, xác định mức thuế, thực hiện chính sách quản lý hàng hóa.",
+     "trang_pdf": 43,
+     "sha256_pdf": "a210244bdded36cc9d5ca7b7b7f00c0d53f3623c2dda75b3ee5fbf4462a92ead"
+    },
+    {
+     "dieu": 1,
+     "khoan": 53,
+     "noi_dung": "Điều 86. Thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu tại chỗ 1. Hàng hoá xuất nhập khẩu tại chỗ thực hiện theo quy định tại khoản 3 Điều 3 Luật sửa đổi, bổ sung một số điều của Luật Đấu thầu, Luật Đầu tư theo phương thức đối tác công tư, Luật Hải quan, Luật Thuế giá trị gia tăng, Luật Thuế xuất khẩu, thuế nhập khẩu, Luật Đầu tư, Luật Đầu tư công, Luật Quản lý, sử dụng tài sản công; Điều 35 Nghị định số 08/2015/NĐ-CP ngày 21/01/2015 được sửa đổi, bổ sung bởi khoản 19 Điều 1 Nghị định số 167/2025/NĐ-CP ngày 30/6/2025 của Chính phủ. 2. Địa điểm làm thủ tục hải quan: thực hiện tại cơ quan hải quan thuận tiện do người khai hải quan lựa chọn và theo quy định của từng loại hình. 3. Hồ sơ hải quan Hồ sơ hải quan hàng hóa xuất khẩu, nhập khẩu tại chỗ thực hiện theo quy định tại Điều 16 Thông tư này. 4. Thời hạn làm thủ tục hải quan: Trong thời hạn 15 ngày kể từ ngày hàng hóa xuất khẩu thông quan hoặc giải phóng hàng, người nhập khẩu tại chỗ phải làm thủ tục hải quan.",
+     "trang_pdf": 105,
+     "sha256_pdf": "a210244bdded36cc9d5ca7b7b7f00c0d53f3623c2dda75b3ee5fbf4462a92ead"
+    },
+    {
+     "dieu": 1,
+     "khoan": 63,
+     "noi_dung": "Điều 142. Kiểm tra sau thông quan tại trụ sở cơ quan hải quan 1. Các trường hợp kiểm tra, thẩm quyền quyết định kiểm tra a) Đội trưởng Hải quan có thẩm quyền quyết định kiểm tra đối với các hồ sơ hải quan phát sinh tại đơn vị trong thời hạn 60 ngày kể từ ngày hàng hóa được thông quan đến ngày ký ban hành quyết định kiểm tra, cụ thể như sau: a.1) Các trường hợp kiểm tra theo quy định tại khoản 1 Điều 78 Luật số 54/2014/QH13; a.2) Các trường hợp qua phân tích đánh giá rủi ro theo quy định tại khoản 2 Điều 78 Luật Hải quan; a.3) Không thực hiện kiểm tra đối với các trường hợp sau: a.3.1) Hồ sơ hải quan của các lô hàng giống hệt, tương tự với hồ sơ của lô hàng đã kiểm tra sau thông quan và chấp nhận nội dung khai báo của cùng người khai hải quan, nếu không có thông tin mới hoặc dấu hiệu vi phạm khác. Trường hợp hồ sơ các lô hàng giống hệt, tương tự vẫn còn dấu hiệu nghi vấn thì Đội trưởng Hải quan báo cáo Chi cục trưởng Chi cục Hải quan khu vực xem xét xử lý theo thẩm quyền; a.3.2) Trường hợp khối lượng hàng hóa lớn, chủng loại hàng hóa phức tạp, có rủi ro về thuế cần thiết phải kiểm tra sau thông quan tại trụ sở người khai hải quan.",
+     "trang_pdf": 115,
+     "sha256_pdf": "a210244bdded36cc9d5ca7b7b7f00c0d53f3623c2dda75b3ee5fbf4462a92ead"
+    },
+    {
+     "dieu": 2,
+     "khoan": 2,
+     "noi_dung": "Bãi bỏ một phần các Thông tư do Bộ trưởng Bộ Tài chính ban hành như sau: a) Bãi bỏ điểm d.3.2.3 khoản 2 Điều 15 Thông tư số 39/2015/TT-BTC ngày 25/3/2015 của Bộ trưởng Bộ Tài chính. b) Bãi bỏ khoản 4 Điều 12; điểm c.4 khoản 1, khoản 2 Điều 14; Thông tư số 06/2021/TT-BTC ngày 21/01/2021. Bãi bỏ mẫu số 03/NVTHQ, mẫu số 14/NVTHQ Phụ lục I ban hành kèm theo Thông tư số 06/2021/TT-BTC ngày 21/01/2021 của Bộ trưởng Bộ Tài chính. c) Bãi bỏ Điều 2 Thông tư 47/2025/TT-BTC ngày 20/6/2025 của Bộ trưởng Bộ Tài chính. d) Bãi bỏ mẫu số 01/ĐKDMTB/2015, mẫu số 02/PTDTL-DMTB/2015, mẫu số 03/DMTBDKNK-NC/2015, mẫu số 04/PTDTL-TBNC/2015 Phụ lục ban hành kèm Thông tư số 14/2015/TT-BTC ngày 30/01/2015 của Bộ trưởng Bộ Tài chính.",
+     "trang_pdf": 125,
+     "sha256_pdf": "a210244bdded36cc9d5ca7b7b7f00c0d53f3623c2dda75b3ee5fbf4462a92ead"
+    },
+    {
+     "dieu": 3,
+     "khoan": 1,
+     "noi_dung": "Thông tư này có hiệu lực kể từ ngày 01 tháng 02 năm 2026.",
+     "trang_pdf": 126,
+     "sha256_pdf": "a210244bdded36cc9d5ca7b7b7f00c0d53f3623c2dda75b3ee5fbf4462a92ead"
+    }
+   ]
+  },
+  {
+   "so_hieu": "124/2026/TT-BTC",
+   "slug": "124-2026-tt-btc",
+   "ten": "Bổ sung khoản 10 Điều 15 Thông tư số 33/2023/TT-BTC quy định về xác định xuất xứ hàng hoá xuất khẩu, nhập khẩu",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-08-22",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-124-2026-tt-btc-470346.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Bổ sung khoản 10 Điều 15 vào sau khoản 9 Điều 15 như sau: “10. Việc kiểm tra chứng từ chứng nhận xuất xứ hàng hóa nhập khẩu được thực hiện trên cơ sở áp dụng quản lý rủi ro.”",
+     "trang_pdf": 1,
+     "sha256_pdf": "dca1ab6a924613f3d5e288a581d2869343785a7ebf4704a0f9e031c1491584e3"
+    },
+    {
+     "dieu": 2,
+     "khoan": 1,
+     "noi_dung": "Thông tư này có hiệu lực kể từ ngày 22 tháng 8 năm 2026.",
+     "trang_pdf": 2,
+     "sha256_pdf": "dca1ab6a924613f3d5e288a581d2869343785a7ebf4704a0f9e031c1491584e3"
+    },
+    {
+     "dieu": 2,
+     "khoan": 2,
+     "noi_dung": "Trong quá trình thực hiện, nếu các văn bản liên quan viện dẫn tại Thông tư này được sửa đổi, bổ sung hoặc thay thế thì thực hiện theo văn bản mới được sửa đổi, bổ sung hoặc thay thế.",
+     "trang_pdf": 2,
+     "sha256_pdf": "dca1ab6a924613f3d5e288a581d2869343785a7ebf4704a0f9e031c1491584e3"
+    }
+   ]
+  },
   {
    "so_hieu": "19/2026/QH16",
    "slug": "19-2026-qh16",
@@ -43,6 +303,655 @@
    ]
   },
   {
+   "so_hieu": "28/2026/TT-BCT",
+   "slug": "28-2026-tt-bct",
+   "ten": "Ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã số HS) thực hiện kiểm tra nhà nước về an toàn thực phẩm thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-07-17",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?docid=218330&pageid=27160",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Ban hành kèm theo Thông tư này Danh mục các mặt hàng nhập khẩu (kèm theo mã số HS) thực hiện kiểm tra nhà nước về an toàn thực phẩm thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương (Danh mục) được quy định tại khoản 2 Điều 64 Luật An toàn thực phẩm số 55/2010/QH12 và khoản 3 Điều 39 Nghị định số 15/2018/NĐ-CP (không bao gồm dụng cụ, vật liệu bao gói, chứa đựng thực phẩm). Danh mục chi tiết tại Phụ lục kèm theo.",
+     "trang_pdf": 1,
+     "sha256_pdf": "f1dcc9989aec7ecca774092be695cab1b176f25f65f30a8151081258a1afe21b"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Danh mục quy định tại Điều 1 Thông tư này được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam ban hành kèm theo Thông tư số 31/2022/TT-BTC ngày 08 tháng 6 năm 2022 của Bộ trưởng Bộ Tài chính ban hành danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
+     "trang_pdf": 2,
+     "sha256_pdf": "f1dcc9989aec7ecca774092be695cab1b176f25f65f30a8151081258a1afe21b"
+    },
+    {
+     "dieu": 3,
+     "khoan": 1,
+     "noi_dung": "Trường hợp có sự khác biệt, không thống nhất trong việc xác định mã số hàng hóa đối với các hàng hoá thuộc Danh mục ban hành kèm theo Thông tư này, việc phân loại và xác định mã số hàng hoá thực hiện theo quy định của pháp luật về hải quan. Đối với hàng hóa chưa được liệt kê và xác định mã số hàng hóa trong Danh mục ban hành kèm theo Thông tư này, việc xác định mã số hàng hoá thực hiện theo quy định của pháp luật về hải quan. Sau khi thông quan, các tổ chức, cá nhân xuất khẩu, nhập khẩu có văn bản gửi về Bộ Công Thương để làm cơ sở phối hợp với Bộ Tài chính xem xét thống nhất, cập nhật và ban hành Danh mục bổ sung.",
+     "trang_pdf": 2,
+     "sha256_pdf": "f1dcc9989aec7ecca774092be695cab1b176f25f65f30a8151081258a1afe21b"
+    },
+    {
+     "dieu": 3,
+     "khoan": 2,
+     "noi_dung": "Việc kiểm tra nhà nước về an toàn thực phẩm nhập khẩu đối với thực phẩm nhập khẩu thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương theo quy định tại khoản 3 Điều 39 Nghị định số 15/2018/NĐ-CP được thực hiện theo quy định tại Điều 40 Luật An toàn thực phẩm và Điều 16 Nghị định số 15/2018/NĐ-CP.",
+     "trang_pdf": 2,
+     "sha256_pdf": "f1dcc9989aec7ecca774092be695cab1b176f25f65f30a8151081258a1afe21b"
+    },
+    {
+     "dieu": 3,
+     "khoan": 3,
+     "noi_dung": "Thực phẩm nhập khẩu thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương theo quy định tại khoản 3 Điều 39 Nghị định số 15/2018/NĐ-CP nhưng thuộc một trong các trường hợp được quy định tại Điều 13 Nghị định số 15/2018/NĐ-CP (trừ các trường hợp quy định tại khoản 3 Điều 17 Nghị định số 15/2018/NĐ-CP) được miễn kiểm tra nhà nước về an toàn thực phẩm nhập khẩu.",
+     "trang_pdf": 2,
+     "sha256_pdf": "f1dcc9989aec7ecca774092be695cab1b176f25f65f30a8151081258a1afe21b"
+    },
+    {
+     "dieu": 4,
+     "khoan": 1,
+     "noi_dung": "Thông tư này có hiệu lực thi hành kể từ ngày 17 tháng 7 năm 2026.",
+     "trang_pdf": 2,
+     "sha256_pdf": "f1dcc9989aec7ecca774092be695cab1b176f25f65f30a8151081258a1afe21b"
+    },
+    {
+     "dieu": 4,
+     "khoan": 2,
+     "noi_dung": "Khoản 1 Điều 2 và Phụ lục 2 ban hành kèm theo Quyết định số 1182/QĐBCT ngày 06 tháng 4 năm 2021 của Bộ trưởng Bộ Công Thương về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương hết hiệu lực thi hành kể từ ngày Thông tư này có hiệu lực.",
+     "trang_pdf": 2,
+     "sha256_pdf": "f1dcc9989aec7ecca774092be695cab1b176f25f65f30a8151081258a1afe21b"
+    },
+    {
+     "dieu": 4,
+     "khoan": 3,
+     "noi_dung": "Trong trường hợp các văn bản quy phạm pháp luật được viện dẫn trong Thông tư này được sửa đổi, bổ sung hoặc thay thế thì áp dụng theo các văn bản quy phạm pháp luật mới còn hiệu lực.",
+     "trang_pdf": 2,
+     "sha256_pdf": "f1dcc9989aec7ecca774092be695cab1b176f25f65f30a8151081258a1afe21b"
+    }
+   ]
+  },
+  {
+   "so_hieu": "31/2026/QĐ-TTg",
+   "slug": "31-2026-qd-ttg",
+   "ten": "Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-08-14",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-31-2026-qd-ttg-469911.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "khoan": 1,
+     "noi_dung": "Quyết định này quy định về danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập.",
+     "trang_pdf": 1,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 1,
+     "khoan": 2,
+     "noi_dung": "Hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập là hàng hóa đưa từ nước ngoài vào lãnh thổ Việt Nam theo khoản 2 Điều 28 Luật Thương mại.",
+     "trang_pdf": 1,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 2,
+     "khoan": 1,
+     "noi_dung": "Tổ chức, cá nhân thực hiện thủ tục hải quan nhập khẩu hàng hóa thuộc Danh mục ban hành kèm theo Quyết định này.",
+     "trang_pdf": 1,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 2,
+     "khoan": 2,
+     "noi_dung": "Cơ quan hải quan, công chức hải quan.",
+     "trang_pdf": 1,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 2,
+     "khoan": 3,
+     "noi_dung": "Tổ chức, cá nhân khác có liên quan đến việc nhập khẩu hàng hóa thuộc Danh mục ban hành kèm theo Quyết định này.",
+     "trang_pdf": 1,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 3,
+     "khoan": 1,
+     "noi_dung": "Ban hành kèm theo Quyết định này Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập (sau đây gọi tắt là Danh mục).",
+     "trang_pdf": 1,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 3,
+     "khoan": 2,
+     "noi_dung": "Trường hợp hàng hóa nhập khẩu có nhiều chủng loại (thuộc Danh mục và không thuộc Danh mục), chung vận đơn thì phải làm thủ tục hải quan tại hải quan cửa khẩu nhập quy định tại Điều 4 Quyết định này.",
+     "trang_pdf": 2,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 3,
+     "khoan": 3,
+     "noi_dung": "Hàng hóa nhập khẩu thuộc Danh mục quy định tại khoản 1 Điều này, người khai hải quan được lựa chọn làm thủ tục hải quan tại cửa khẩu nhập quy định tại Điều 4 Quyết định này hoặc tại các địa điểm làm thủ tục hải quan ngoài cửa khẩu nhập trong các trường hợp sau:",
+     "trang_pdf": 2,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 3,
+     "khoan": 3,
+     "diem": "a",
+     "noi_dung": "Thiết bị, máy móc, vật tư nhập khẩu để xây dựng nhà máy, công trình được làm thủ tục hải quan tại Hải quan nơi có nhà máy, công trình hoặc kho của nhà máy, công trình.",
+     "trang_pdf": 2,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 3,
+     "khoan": 3,
+     "diem": "b",
+     "noi_dung": "Hàng hóa nhập khẩu phục vụ gia công, sản xuất tiêu dùng trong nước, sản xuất xuất khẩu và chế xuất được làm thủ tục hải quan tại Hải quan nơi có trụ sở chính hoặc trụ sở Chi nhánh hoặc cơ sở sản xuất; Hải quan quản lý hàng gia công, sản xuất thuộc Chi cục Hải quan khu vực nơi có cơ sở sản xuất hoặc nơi có cửa khẩu nhập.",
+     "trang_pdf": 2,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 3,
+     "khoan": 3,
+     "diem": "c",
+     "noi_dung": "Hàng hóa đưa từ nước ngoài vào khu phi thuế quan, kho ngoại quan được làm thủ tục hải quan tại Hải quan quản lý khu phi thuế quan, kho ngoại quan (trừ hàng hóa đưa từ nước ngoài gửi kho ngoại quan để xuất đi nước khác theo quy định phải có Giấy chứng nhận mã số tạm nhập tái xuất của Bộ Công Thương chỉ được gửi kho ngoại quan tại tỉnh, thành phố nơi có cửa khẩu nhập hoặc cửa khẩu xuất).",
+     "trang_pdf": 2,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 3,
+     "khoan": 3,
+     "diem": "d",
+     "noi_dung": "Hàng hóa nhập khẩu bán tại cửa hàng miễn thuế được làm thủ tục hải quan tại Hải quan quản lý cửa hàng miễn thuế theo quy định tại khoản 1 Điều 47 Luật Hải quan.",
+     "trang_pdf": 2,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 3,
+     "khoan": 3,
+     "diem": "đ",
+     "noi_dung": "Hàng hóa nhập khẩu phục vụ yêu cầu cứu trợ khẩn cấp theo quy định tại khoản 1 Điều 50 Luật Hải quan được làm thủ tục hải quan tại Hải quan nơi xảy ra thiên tai, dịch bệnh hoặc có yêu cầu cứu trợ khẩn cấp.",
+     "trang_pdf": 2,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 3,
+     "khoan": 3,
+     "diem": "e",
+     "noi_dung": "Hàng hóa chuyên dùng nhập khẩu phục vụ an ninh quốc phòng theo quy định tại khoản 2 Điều 50 Luật Hải quan được làm thủ tục hải quan tại Hải quan theo đề nghị của người khai hải quan.",
+     "trang_pdf": 2,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 3,
+     "khoan": 3,
+     "diem": "g",
+     "noi_dung": "Xăng các loại nhập khẩu từ nước ngoài hoặc từ kho ngoại quan nhập khẩu vào nội địa được làm thủ tục hải quan tại Hải quan nơi thương nhân có kho xăng dầu đáp ứng điều kiện kiểm tra, giám sát hải quan.",
+     "trang_pdf": 2,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 3,
+     "khoan": 3,
+     "diem": "h",
+     "noi_dung": "Hàng hóa nhập khẩu đóng chung container đưa về địa điểm thu gom hàng lẻ được làm thủ tục hải quan tại Hải quan quản lý địa điểm thu gom hàng lẻ.",
+     "trang_pdf": 2,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 3,
+     "khoan": 3,
+     "diem": "i",
+     "noi_dung": "Hàng hóa nhập khẩu gửi qua dịch vụ bưu chính, dịch vụ chuyển phát nhanh được làm thủ tục hải quan tại các địa điểm theo Nghị định của Chính phủ quy định chi tiết và biện pháp thi hành Luật Hải quan về thủ tục hải quan, kiểm tra, giám sát, kiểm soát hải quan.",
+     "trang_pdf": 3,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 3,
+     "khoan": 3,
+     "diem": "k",
+     "noi_dung": "Hàng hóa làm thủ tục nhập khẩu tại cảng cạn ICD Mỹ Đình, cảng cạn Long Biên, thành phố Hà Nội thực hiện theo quy định của Thủ tướng Chính phủ.",
+     "trang_pdf": 3,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 3,
+     "khoan": 3,
+     "diem": "l",
+     "noi_dung": "Các trường hợp khác theo Quyết định của Thủ tướng Chính phủ.",
+     "trang_pdf": 3,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 4,
+     "noi_dung": "Cửa khẩu nhập để xác định đơn vị hải quan quản lý và làm thủ tục hải quan đối với hàng hóa thuộc Danh mục hàng hóa nhập khẩu ban hành kèm Quyết định này bao gồm:",
+     "trang_pdf": 3,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 4,
+     "khoan": 1,
+     "noi_dung": "Đối với phương thức vận tải đường biển, đường hàng không, cửa khẩu nhập là cảng biển, cảng hàng không nơi hàng hóa được dỡ xuống hoặc cảng biển, cảng hàng không ghi trên vận đơn nơi hàng hóa được vận chuyển đến.",
+     "trang_pdf": 3,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 4,
+     "khoan": 2,
+     "noi_dung": "Đối với phương thức vận tải đường sắt, cửa khẩu nhập là ga đường sắt liên vận quốc tế ở biên giới.",
+     "trang_pdf": 3,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 4,
+     "khoan": 3,
+     "noi_dung": "Đối với phương thức vận tải đường bộ, đường sông, cửa khẩu nhập là cửa khẩu quốc tế, cửa khẩu chính nơi hàng hóa nhập khẩu đi vào lãnh thổ Việt Nam.",
+     "trang_pdf": 3,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 4,
+     "khoan": 4,
+     "noi_dung": "Đối với hàng hóa nhập khẩu trên vận đơn hoặc hợp đồng vận chuyển có ghi cảng đích là ICD Phước Long - Thành phố Hồ Chí Minh thì cửa khẩu nhập là ICD Phước Long - Thành phố Hồ Chí Minh.",
+     "trang_pdf": 3,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 5,
+     "khoan": 1,
+     "noi_dung": "Quyết định này có hiệu lực thi hành từ ngày 14 tháng 8 năm 2026 và thay thế Quyết định số 23/2019/QĐ-TTg ngày 27 tháng 6 năm 2019 của Thủ tướng Chính phủ ban hành danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập. Đối với hàng hóa thuộc danh mục hàng hóa nhập khẩu phải làm thủ tục tại hải quan tại cửa khẩu nhập ban hành kèm theo Quyết định số 23/2019/QĐ-TTg, nhưng không thuộc danh mục hàng hóa phải làm thủ tục hải quan tại cửa khẩu nhập ban hành kèm theo Quyết định này đã đăng ký tờ khai hải quan trước ngày Quyết định này có hiệu lực thì tiếp tục hoàn thành thủ tục hải quan theo quy định tại hải quan cửa khẩu.",
+     "trang_pdf": 3,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 5,
+     "khoan": 2,
+     "noi_dung": "Căn cứ tình hình xuất khẩu, nhập khẩu trong từng thời kỳ, Bộ Tài chính có trách nhiệm chủ trì, phối hợp với Bộ Công Thương và các bộ quản lý chuyên ngành theo dõi, rà soát, báo cáo Thủ tướng Chính phủ sửa đổi, bổ sung quy định này.",
+     "trang_pdf": 3,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    },
+    {
+     "dieu": 5,
+     "khoan": 3,
+     "noi_dung": "Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương chịu trách nhiệm thi hành Quyết định này.",
+     "trang_pdf": 4,
+     "sha256_pdf": "ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5"
+    }
+   ]
+  },
+  {
+   "so_hieu": "33/2025/TT-BCT",
+   "slug": "33-2025-tt-bct",
+   "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 01/2018/TT-BCT ngày 27/02/2018 của Bộ trưởng Bộ Công Thương quy định chi tiết hàng hóa mua bán, trao đổi qua cửa khẩu phụ, lối mở biên giới của thương nhân",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2025-07-21",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://chinhphu.vn/?docid=213824&pageid=27160",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "khoan": 1,
+     "noi_dung": "Bãi bỏ điểm c khoản 2 Điều 3 Thông tư số 01/2018/TT-BCT.",
+     "trang_pdf": 1,
+     "sha256_pdf": "89a825d7012b59b87df57b5a47226f8b6435e16b99fb6352c7f22a9a25ab938f"
+    },
+    {
+     "dieu": 1,
+     "khoan": 2,
+     "noi_dung": "Thay thế Phụ lục I ban hành kèm theo Thông tư số 01/2018/TT-BCT bằng Phụ lục ban hành kèm theo Thông tư này.",
+     "trang_pdf": 1,
+     "sha256_pdf": "89a825d7012b59b87df57b5a47226f8b6435e16b99fb6352c7f22a9a25ab938f"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Thông tư này có hiệu lực thi hành kể từ ngày 21 tháng 7 năm 2025.",
+     "trang_pdf": 2,
+     "sha256_pdf": "89a825d7012b59b87df57b5a47226f8b6435e16b99fb6352c7f22a9a25ab938f"
+    }
+   ]
+  },
+  {
+   "so_hieu": "38/2015/TT-BTC",
+   "slug": "38-2015-tt-btc",
+   "ten": "Quy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hoá xuất khẩu, nhập khẩu",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2015-04-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-38-2015-tt-btc-9949.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "khoan": 1,
+     "noi_dung": "Thông tư này quy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu.",
+     "trang_pdf": 2,
+     "sha256_pdf": "0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb"
+    },
+    {
+     "dieu": 7,
+     "khoan": 1,
+     "noi_dung": "Hồ sơ xác định trước mã số: a) Đơn đề nghị xác định trước theo mẫu số 01/XĐTMS/TXNK Phụ lục VI ban hành kèm Thông tư này: 01 bản chính; b) Mẫu hàng hóa dự kiến xuất khẩu, nhập khẩu. Trường hợp không có mẫu hàng, tổ chức, cá nhân phải cung cấp tài liệu kỹ thuật (như bản phân tích thành phần, catalogue, hình ảnh hàng hóa), mô tả chi tiết thành phần, tính chất, cấu tạo, công dụng, phương thức vận hành của hàng hóa: 01 bản chính.",
+     "trang_pdf": 8,
+     "sha256_pdf": "0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb"
+    },
+    {
+     "dieu": 7,
+     "khoan": 2,
+     "noi_dung": "Hồ sơ xác định trước xuất xứ: a) Đơn đề nghị xác định trước xuất xứ hàng hóa nhập khẩu theo mẫu số 01/XĐTXX/GSQL ban hành kèm Phụ lục V Thông tư này: 01 bản chính; b) Bản kê các nguyên vật liệu dùng để sản xuất ra hàng hóa gồm các thông tin như: tên hàng, mã số hàng hóa, xuất xứ nguyên vật liệu cấu thành sản phẩm, giá CIF hoặc giá tương đương của nguyên vật liệu do nhà sản xuất hoặc nhà xuất khẩu cung cấp: 01 bản chính; c) Bản mô tả sơ bộ quy trình sản xuất ra hàng hóa hoặc Giấy chứng nhận phân tích thành phần do nhà sản xuất cấp: 01 bản chụp; d) Catalogue hoặc hình ảnh hàng hóa: 01 bản chụp.",
+     "trang_pdf": 8,
+     "sha256_pdf": "0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb"
+    },
+    {
+     "dieu": 7,
+     "khoan": 3,
+     "noi_dung": "Hồ sơ xác định trước phương pháp xác định trị giá hải quan: a) Đơn đề nghị (theo mẫu số 02/XĐTTG/TXNK Phụ lục VI Thông tư này): 01 bản chính; b) Hợp đồng mua bán hàng hóa do tổ chức, cá nhân trực tiếp thực hiện giao dịch (nếu có): 01 bản chụp; c) Tài liệu kỹ thuật, hình ảnh hoặc catalogue hàng hóa: 01 bản chụp; d) Các chứng từ, tài liệu có liên quan đến giao dịch dự kiến đề nghị xác định trước (nếu có): 01 bản chụp; đ) Các chứng từ có liên quan trong trường hợp phải quy đổi từ trị giá hóa đơn về giá bán thực tế tại cửa khẩu xuất đối với hàng hóa xuất khẩu: 01 bản chụp. Trường hợp chưa có giao dịch thực tế, tổ chức cá nhân chưa có các chứng từ nêu tại điểm b, d, đ khoản này thì đề nghị cơ quan hải quan hướng dẫn nguyên tắc, điều kiện áp dụng phương pháp xác định trị giá hải quan.",
+     "trang_pdf": 8,
+     "sha256_pdf": "0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb"
+    },
+    {
+     "dieu": 16,
+     "khoan": 2,
+     "diem": "b",
+     "noi_dung": "Hóa đơn thương mại trong trường hợp người mua phải thanh toán cho người bán: 01 bản chụp. Trường hợp chủ hàng mua hàng từ người bán tại Việt Nam nhưng được người bán chỉ định nhận hàng từ nước ngoài thì cơ quan hải quan chấp nhận hóa đơn do người bán tại Việt Nam phát hành cho chủ hàng. Người khai hải quan không phải nộp hóa đơn thương mại trong các trường hợp sau: b.1) Người khai hải quan là doanh nghiệp ưu tiên; b.2) Hàng hóa nhập khẩu để thực hiện hợp đồng gia công cho thương nhân nước ngoài, người khai hải quan khai giá tạm tính tại ô “Trị giá hải quan” trên tờ khai hải quan; b.3) Hàng hóa nhập khẩu không có hóa đơn và người mua không phải thanh toán cho người bán, người khai hải quan khai trị giá hải quan theo hướng dẫn của Bộ Tài chính về xác định trị giá hải quan.",
+     "trang_pdf": 14,
+     "sha256_pdf": "0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb"
+    },
+    {
+     "dieu": 16,
+     "khoan": 2,
+     "diem": "g",
+     "noi_dung": "Chứng từ chứng nhận xuất xứ hàng hóa (Giấy chứng nhận xuất xứ hàng hóa hoặc Chứng từ tự chứng nhận xuất xứ): 01 bản chính hoặc chứng từ dưới dạng dữ liệu điện tử trong các trường hợp sau: g.1) Hàng hóa có xuất xứ từ nước hoặc nhóm nước có thỏa thuận về áp dụng thuế suất ưu đãi đặc biệt với Việt Nam theo quy định của pháp luật Việt Nam và theo các Điều ước quốc tế mà Việt Nam ký kết hoặc tham gia, nếu người nhập khẩu muốn được hưởng các chế độ ưu đãi đó; g.2) Hàng hóa thuộc diện do Việt Nam hoặc các tổ chức quốc tế thông báo đang ở trong thời điểm có nguy cơ gây hại đến an toàn xã hội, sức khỏe của cộng đồng hoặc vệ sinh môi trường cần được kiểm soát; g.3) Hàng hóa nhập khẩu từ các nước thuộc diện Việt Nam thông báo đang ở trong thời điểm áp dụng thuế chống bán phá giá, thuế chống trợ cấp, thuế chống phân biệt đối xử, thuế tự vệ, thuế suất áp dụng theo hạn ngạch thuế quan; g.4) Hàng hóa nhập khẩu phải tuân thủ các chế độ quản lý nhập khẩu theo quy định của pháp luật Việt Nam hoặc các Điều ước quốc tế mà Việt Nam là thành viên. Trường hợp theo thỏa thuận về áp dụng thuế suất ưu đãi đặc biệt với Việt Nam hoặc theo các Điều ước quốc tế mà Việt Nam ký kết hoặc tham gia có quy định về việc nộp Giấy chứng nhận xuất xứ hàng hóa nhập khẩu là chứng từ điện tử hoặc Chứng từ tự chứng nhận xuất xứ hàng hóa của người sản xuất/người xuất khẩu/người nhập khẩu thì cơ quan hải quan chấp nhận các chứng từ này.",
+     "trang_pdf": 15,
+     "sha256_pdf": "0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb"
+    },
+    {
+     "dieu": 18,
+     "khoan": 1,
+     "diem": "a",
+     "noi_dung": "Người khai hải quan phải khai đầy đủ các thông tin trên tờ khai hải quan theo hướng dẫn tại Phụ lục II ban hành kèm Thông tư này. Trường hợp khai trên tờ khai hải quan giấy thì thực hiện theo hướng dẫn tại Phụ lục IV ban hành kèm Thông tư này;",
+     "trang_pdf": 18,
+     "sha256_pdf": "0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb"
+    },
+    {
+     "dieu": 20,
+     "khoan": 1,
+     "diem": "b",
+     "noi_dung": "Người khai hải quan, người nộp thuế xác định có sai sót trong việc khai hải quan thì được khai bổ sung hồ sơ hải quan trong thời hạn 60 ngày kể từ ngày thông quan nhưng trước thời điểm cơ quan hải quan quyết định kiểm tra sau thông quan, thanh tra;",
+     "trang_pdf": 22,
+     "sha256_pdf": "0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb"
+    },
+    {
+     "dieu": 29,
+     "khoan": 2,
+     "diem": "a",
+     "noi_dung": "Đối với những lô hàng nhập khẩu phải kiểm tra thực tế hàng hóa thuộc diện đã tiến hành kiểm tra theo quy định tại khoản 1 Điều này thì công chức hải quan được sử dụng kết quả kiểm tra qua máy soi để làm thủ tục hải quan. Trường hợp khi kiểm tra qua máy soi phát hiện dấu hiệu vi phạm thì thực hiện việc mở kiểm tra trực tiếp hàng hóa;",
+     "trang_pdf": 40,
+     "sha256_pdf": "0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb"
+    },
+    {
+     "dieu": 142,
+     "khoan": 2,
+     "diem": "a",
+     "noi_dung": "Chi cục trưởng Chi cục Hải quan có thẩm quyền quyết định kiểm tra đối với các hồ sơ hải quan đã thông quan trong thời hạn 60 ngày kể từ ngày hàng hóa được thông quan đến ngày ký ban hành Quyết định kiểm tra, thuộc diện phải kiểm tra theo quy định tại khoản 1 Điều 78 Luật Hải quan (trừ những lô hàng đã được kiểm tra thực tế hàng hóa trước khi thông quan) và các trường hợp quy định tại điểm a.2, điểm b.2 khoản 2 Điều 25 Thông tư này;",
+     "trang_pdf": 206,
+     "sha256_pdf": "0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb"
+    },
+    {
+     "dieu": 143,
+     "khoan": 3,
+     "diem": "a",
+     "noi_dung": "Quyết định kiểm tra (theo mẫu số 01/2015-KTSTQ Phụ lục VIII ban hành kèm theo Thông tư này): Đối với các trường hợp kiểm tra theo quy định tại khoản 2, khoản 3 Điều 78 Luật Hải quan, quyết định kiểm tra được gửi trực tiếp hoặc bằng thư bảo đảm, fax cho người khai hải quan trong thời hạn 03 ngày làm việc kể từ ngày ký và chậm nhất 05 ngày làm việc trước khi tiến hành kiểm tra. Riêng trường hợp kiểm tra theo dấu hiệu vi phạm quy định tại khoản 1 Điều 78 Luật Hải quan được thực hiện ngay sau khi công bố quyết định kiểm tra (trao trực tiếp cho người khai hải quan trong giờ làm việc) không phải thông báo trước; Trường hợp thu thập thông tin để thực hiện kiểm tra sau thông quan, cơ quan hải quan yêu cầu người khai hải quan cung cấp thông tin theo mẫu số 02/2015KTSTQ Phụ lục VIII ban hành kèm theo Thông tư này.",
+     "trang_pdf": 208,
+     "sha256_pdf": "0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb"
+    },
+    {
+     "dieu": 149,
+     "khoan": 1,
+     "noi_dung": "Thông tư này có hiệu lực kể từ ngày 01 tháng 4 năm 2015. Riêng điểm đ.2 khoản 1, điểm đ khoản 4 Điều 42; khoản 4, khoản 7, khoản 8 Điều 133; Điều 135 Thông tư này có hiệu lực thi hành kể từ ngày Luật số 71/2014/QH13 về sửa đổi, bổ sung một số điều của các Luật về thuế có hiệu lực (từ ngày 01/01/2015). Cách xác định tiền chậm nộp đối với các tờ khai hải quan đăng ký trước ngày 01/01/2015 nhưng người nộp thuế chậm nộp thuế và thực hiện nộp thuế từ ngày 01/01/2015 thì thực hiện theo hướng dẫn tại Điều 133 Thông tư này.",
+     "trang_pdf": 215,
+     "sha256_pdf": "0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb"
+    }
+   ]
+  },
+  {
+   "so_hieu": "39/2015/TT-BTC",
+   "slug": "39-2015-tt-btc",
+   "ten": "Quy định về trị giá hải quan đối với hàng hoá xuất khẩu, nhập khẩu",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2015-05-10",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?docid=179552&pageid=27160",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "khoan": 1,
+     "noi_dung": "Phạm vi điều chỉnh: Thông tư này quy định về trị giá hải quan đối với hàng hóa xuất khẩu, nhập khẩu.",
+     "trang_pdf": 1,
+     "sha256_pdf": "7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c"
+    },
+    {
+     "dieu": 4,
+     "khoan": 1,
+     "noi_dung": "Nguyên tắc: Trị giá hải quan là giá bán của hàng hóa tính đến cửa khẩu xuất không bao gồm phí bảo hiểm quốc tế (I), phí vận tải quốc tế (F), được xác định theo các phương pháp quy định tại khoản 2 Điều này.",
+     "trang_pdf": 5,
+     "sha256_pdf": "7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c"
+    },
+    {
+     "dieu": 5,
+     "khoan": 1,
+     "noi_dung": "Nguyên tắc: Trị giá hải quan là giá thực tế phải trả tính đến cửa khẩu nhập đầu tiên, được xác định theo các phương pháp quy định tại khoản 2 Điều này.",
+     "trang_pdf": 6,
+     "sha256_pdf": "7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c"
+    },
+    {
+     "dieu": 5,
+     "khoan": 2,
+     "noi_dung": "Phương pháp xác định: Giá thực tế phải trả tính đến cửa khẩu nhập đầu tiên được xác định bằng cách áp dụng tuần tự sáu phương pháp xác định trị giá hải quan quy định tại Điều 6, Điều 8, Điều 9, Điều 10, Điều 11, Điều 12 Thông tư này và dừng ngay ở phương pháp xác định được trị giá hải quan. Các phương pháp xác định trị giá hải quan bao gồm: a) Phương pháp trị giá giao dịch; b) Phương pháp trị giá giao dịch của hàng hóa nhập khẩu giống hệt; c) Phương pháp trị giá giao dịch của hàng hóa nhập khẩu tương tự; d) Phương pháp trị giá khấu trừ; đ) Phương pháp trị giá tính toán; e) Phương pháp suy luận. Trường hợp người khai hải quan đề nghị bằng văn bản thì trình tự áp dụng phương pháp trị giá khấu trừ và phương pháp trị giá tính toán có thể hoán đổi cho nhau.",
+     "trang_pdf": 6,
+     "sha256_pdf": "7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c"
+    },
+    {
+     "dieu": 6,
+     "khoan": 1,
+     "noi_dung": "Trị giá giao dịch là giá thực tế đã thanh toán hay sẽ phải thanh toán cho hàng hóa nhập khẩu sau khi đã được điều chỉnh theo quy định tại Điều 13 và Điều 15 Thông tư này.",
+     "trang_pdf": 6,
+     "sha256_pdf": "7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c"
+    },
+    {
+     "dieu": 13,
+     "khoan": 1,
+     "noi_dung": "Chỉ điều chỉnh cộng nếu đáp ứng đủ các điều kiện sau: a) Do người mua thanh toán và chưa được tính trong trị giá thực tế đã thanh toán hay sẽ phải thanh toán; b) Phải liên quan đến hàng hóa nhập khẩu; c) Có số liệu khách quan, định lượng được, phù hợp với các chứng từ có liên quan. Trường hợp lô hàng nhập khẩu có các khoản điều chỉnh cộng nhưng không có các số liệu khách quan, định lượng được để xác định trị giá hải quan thì không xác định theo phương pháp trị giá giao dịch và phải chuyển sang phương pháp tiếp theo.",
+     "trang_pdf": 18,
+     "sha256_pdf": "7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c"
+    },
+    {
+     "dieu": 13,
+     "khoan": 2,
+     "diem": "a",
+     "noi_dung": "Chí phí hoa hồng bán hàng, phí môi giới. Trường hợp các chi phí này bao gồm các khoản thuế phải nộp ở Việt Nam thì không phải cộng các khoản thuế đó vào trị giá hải quan của hàng hóa nhập khẩu;",
+     "trang_pdf": 18,
+     "sha256_pdf": "7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c"
+    },
+    {
+     "dieu": 14,
+     "khoan": 3,
+     "noi_dung": "Chỉ điều chỉnh cộng phí bản quyền, phí giấy phép vào hàng hóa nhập khẩu nếu đáp ứng đủ các điều kiện sau: a) Người mua phải trả phí bản quyền, phí giấy phép cho việc sử dụng, chuyển giao các quyền sở hữu trí tuệ liên quan đến hàng hóa nhập khẩu theo quy định tại khoản 4 Điều này đang được xác định trị giá hải quan; b) Phí bản quyền, phí giấy phép do người mua phải trả trực tiếp hoặc gián tiếp như một điều kiện cho giao dịch mua bán hàng hóa theo quy định tại khoản 6 Điều này đang được xác định trị giá hải quan thể hiện trên hợp đồng mua bán hàng hóa, hợp đồng cấp phép hoặc các thỏa thuận khác về chuyển giao quyền sở hữu trí tuệ; c) Chưa được tính trong giá thực tế đã thanh toán hay sẽ phải thanh toán của hàng hóa nhập khẩu đang được xác định trị giá hải quan.",
+     "trang_pdf": 23,
+     "sha256_pdf": "7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c"
+    },
+    {
+     "dieu": 15,
+     "khoan": 1,
+     "noi_dung": "Chỉ được điều chỉnh trừ nếu đáp ứng đủ các điều kiện sau: a) Có số liệu khách quan, định lượng được phù hợp với các chứng từ hợp pháp liên quan và có sẵn tại thời điểm xác định trị giá; b) Đã được tính trong giá thực tế đã thanh toán hay sẽ phải thanh toán; c) Phù hợp với quy định của pháp luật về kế toán Việt Nam.",
+     "trang_pdf": 26,
+     "sha256_pdf": "7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c"
+    },
+    {
+     "dieu": 15,
+     "khoan": 2,
+     "diem": "a",
+     "noi_dung": "Chi phí cho những hoạt động phát sinh sau khi nhập khẩu hàng hóa bao gồm các chi phí về xây dựng, kiến trúc, lắp đặt, bảo dưỡng hoặc trợ giúp kỹ thuật, tư vấn kỹ thuật, chi phí giám sát và các chi phí tương tự;",
+     "trang_pdf": 26,
+     "sha256_pdf": "7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c"
+    },
+    {
+     "dieu": 26,
+     "khoan": 1,
+     "noi_dung": "Thông tư này có hiệu lực thi hành kể từ ngày 01/4/2015.",
+     "trang_pdf": 37,
+     "sha256_pdf": "7fe3309756512c4e20b9b2ec65bdfb93ffa06adcfd7140863786831113d20e2c"
+    }
+   ]
+  },
+  {
+   "so_hieu": "49/2026/TT-BXD",
+   "slug": "49-2026-tt-bxd",
+   "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao lĩnh vực giao thông vận tải thuộc phạm vi quản lý của Bộ Xây dựng",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-07-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd.signed.pdf",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Thông tư này ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao lĩnh vực giao thông vận tải thuộc phạm vi quản lý của Bộ Xây dựng kèm theo mã số HS phù hợp với Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam và yêu cầu quản lý chất lượng tương ứng.",
+     "trang_pdf": 1,
+     "sha256_pdf": "5aa4a08ae151bf337b047ac96817bf7998ec23e2da3ad999b3e2098c50fd3f6d"
+    },
+    {
+     "dieu": 3,
+     "khoan": 1,
+     "noi_dung": "Danh mục sản phẩm, hàng hóa có mức độ rủi ro cao được quy định tại Phụ lục I ban hành kèm theo Thông tư này.",
+     "trang_pdf": 2,
+     "sha256_pdf": "5aa4a08ae151bf337b047ac96817bf7998ec23e2da3ad999b3e2098c50fd3f6d"
+    },
+    {
+     "dieu": 3,
+     "khoan": 2,
+     "noi_dung": "Sản phẩm, hàng hóa có mức độ rủi ro cao quy định tại mục I, mục II, mục III, mục IV Phụ lục I ban hành kèm theo Thông tư này phải được chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường theo quy định của pháp luật về trật tự, an toàn giao thông đường bộ.",
+     "trang_pdf": 2,
+     "sha256_pdf": "5aa4a08ae151bf337b047ac96817bf7998ec23e2da3ad999b3e2098c50fd3f6d"
+    },
+    {
+     "dieu": 3,
+     "khoan": 3,
+     "noi_dung": "Sản phẩm, hàng hóa có mức độ rủi ro cao được quy định tại mục V Phụ lục I ban hành kèm theo Thông tư này phải được chứng nhận chất lượng an toàn kỹ thuật theo quy định của pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật.",
+     "trang_pdf": 2,
+     "sha256_pdf": "5aa4a08ae151bf337b047ac96817bf7998ec23e2da3ad999b3e2098c50fd3f6d"
+    },
+    {
+     "dieu": 4,
+     "khoan": 1,
+     "noi_dung": "Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình được quy định tại Phụ lục II ban hành kèm theo Thông tư này.",
+     "trang_pdf": 2,
+     "sha256_pdf": "5aa4a08ae151bf337b047ac96817bf7998ec23e2da3ad999b3e2098c50fd3f6d"
+    },
+    {
+     "dieu": 4,
+     "khoan": 2,
+     "noi_dung": "Sản phẩm, hàng hóa có mức độ rủi ro trung bình quy định tại mục I Phụ lục II ban hành kèm theo Thông tư này phải được công bố hợp quy theo quy định tại khoản 1 Điều 48 Luật Tiêu chuẩn và quy chuẩn kỹ thuật năm 2006 được sửa đổi, bổ sung năm 2018, năm 2025.",
+     "trang_pdf": 2,
+     "sha256_pdf": "5aa4a08ae151bf337b047ac96817bf7998ec23e2da3ad999b3e2098c50fd3f6d"
+    },
+    {
+     "dieu": 4,
+     "khoan": 3,
+     "noi_dung": "Sản phẩm, hàng hóa có mức độ rủi ro trung bình được quy định tại mục II Phụ lục II ban hành kèm theo Thông tư này phải được chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường theo quy định của pháp luật về trật tự, an toàn giao thông đường bộ.",
+     "trang_pdf": 2,
+     "sha256_pdf": "5aa4a08ae151bf337b047ac96817bf7998ec23e2da3ad999b3e2098c50fd3f6d"
+    },
+    {
+     "dieu": 4,
+     "khoan": 4,
+     "noi_dung": "Sản phẩm, hàng hóa có mức độ rủi ro trung bình được quy định tại mục III Phụ lục II ban hành kèm theo Thông tư này phải được chứng nhận theo quy định của pháp luật về đường sắt.",
+     "trang_pdf": 2,
+     "sha256_pdf": "5aa4a08ae151bf337b047ac96817bf7998ec23e2da3ad999b3e2098c50fd3f6d"
+    },
+    {
+     "dieu": 5,
+     "khoan": 1,
+     "noi_dung": "Việc truy xuất nguồn gốc sản phẩm, hàng hóa được thực hiện theo quy định tại Điều 22 Nghị định số 37/2026/NĐ-CP của Chính phủ quy định chi tiết thi hành một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Chất lượng sản phẩm, hàng hóa.",
+     "trang_pdf": 2,
+     "sha256_pdf": "5aa4a08ae151bf337b047ac96817bf7998ec23e2da3ad999b3e2098c50fd3f6d"
+    },
+    {
+     "dieu": 6,
+     "khoan": 1,
+     "noi_dung": "Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 7 năm 2026, trừ trường hợp quy định tại khoản 2 Điều này.",
+     "trang_pdf": 3,
+     "sha256_pdf": "5aa4a08ae151bf337b047ac96817bf7998ec23e2da3ad999b3e2098c50fd3f6d"
+    },
+    {
+     "dieu": 6,
+     "khoan": 2,
+     "noi_dung": "Khoản 1, khoản 2 và khoản 3 Điều 5 Thông tư này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2029.",
+     "trang_pdf": 3,
+     "sha256_pdf": "5aa4a08ae151bf337b047ac96817bf7998ec23e2da3ad999b3e2098c50fd3f6d"
+    },
+    {
+     "dieu": 6,
+     "khoan": 3,
+     "noi_dung": "Bãi bỏ các Thông tư và một số điều tại các Thông tư đã ban hành kể từ khi Thông tư này có hiệu lực thi hành, cụ thể như sau:",
+     "trang_pdf": 3,
+     "sha256_pdf": "5aa4a08ae151bf337b047ac96817bf7998ec23e2da3ad999b3e2098c50fd3f6d"
+    },
+    {
+     "dieu": 6,
+     "khoan": 3,
+     "diem": "a",
+     "noi_dung": "Thông tư số 12/2022/TT-BGTVT của Bộ trưởng Bộ Giao thông vận tải quy định danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Giao thông vận tải.",
+     "trang_pdf": 3,
+     "sha256_pdf": "5aa4a08ae151bf337b047ac96817bf7998ec23e2da3ad999b3e2098c50fd3f6d"
+    },
+    {
+     "dieu": 6,
+     "khoan": 3,
+     "diem": "b",
+     "noi_dung": "Thông tư số 62/2024/TT-BGTVT của Bộ trưởng Bộ Giao thông vận tải sửa đổi, bổ sung một số điều của Thông tư số 12/2022/TT-BGTVT của Bộ trưởng Bộ Giao thông vận tải quy định danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Giao thông vận tải.",
+     "trang_pdf": 3,
+     "sha256_pdf": "5aa4a08ae151bf337b047ac96817bf7998ec23e2da3ad999b3e2098c50fd3f6d"
+    },
+    {
+     "dieu": 6,
+     "khoan": 3,
+     "diem": "c",
+     "noi_dung": "Chương X, Phụ lục II và Phụ lục III của Thông tư số 71/2025/TT-BXD của Bộ trưởng Bộ Xây dựng sửa đổi, bổ sung một số điều của các Thông tư để cắt giảm, đơn giản hóa thủ tục hành chính trong lĩnh vực đăng kiểm, hàng không dân dụng và thanh tra thuộc trách nhiệm quản lý của Bộ Xây dựng.",
+     "trang_pdf": 4,
+     "sha256_pdf": "5aa4a08ae151bf337b047ac96817bf7998ec23e2da3ad999b3e2098c50fd3f6d"
+    },
+    {
+     "dieu": 6,
+     "khoan": 4,
+     "noi_dung": "Trường hợp các văn bản quy phạm pháp luật, tài liệu được viện dẫn trong Thông tư này sửa đổi, bổ sung hoặc thay thế thì thực hiện theo các văn bản quy phạm pháp luật, tài liệu được sửa đổi, bổ sung hoặc thay thế đó.",
+     "trang_pdf": 4,
+     "sha256_pdf": "5aa4a08ae151bf337b047ac96817bf7998ec23e2da3ad999b3e2098c50fd3f6d"
+    },
+    {
+     "dieu": 7,
+     "khoan": 1,
+     "noi_dung": "Sản phẩm, hàng hóa nhập khẩu không thuộc danh mục sản phẩm, hàng hóa quy định tại Phụ lục I, Phụ lục II ban hành kèm theo Thông tư này nhưng thuộc danh mục sản phẩm, hàng hóa quy định tại Thông tư số 12/2022/TTBGTVT được sửa đổi, bổ sung bởi Thông tư số 71/2025/TT-BXD, đã được cấp bản đăng ký kiểm tra chất lượng an toàn kỹ thuật và bảo vệ môi trường xe nhập khẩu hoặc bản đăng ký kiểm tra chất lượng an toàn kỹ thuật và bảo vệ môi trường phụ tùng xe cơ giới nhập khẩu trước ngày Thông tư này có hiệu lực thì tiếp tục hoàn thành thủ tục chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường theo quy định tại thời điểm được cấp bản đăng ký kiểm tra nêu trên.",
+     "trang_pdf": 4,
+     "sha256_pdf": "5aa4a08ae151bf337b047ac96817bf7998ec23e2da3ad999b3e2098c50fd3f6d"
+    },
+    {
+     "dieu": 7,
+     "khoan": 2,
+     "noi_dung": "Sản phẩm, hàng hóa nhập khẩu thuộc danh mục sản phẩm, hàng hóa quy định tại Phụ lục I, Phụ lục II ban hành kèm theo Thông tư này nhưng không thuộc danh mục sản phẩm, hàng hóa quy định tại Thông tư số 12/2022/TT-BGTVT, được sửa đổi, bổ sung bởi Thông tư số 71/2025/TT-BXD, đã đăng ký tờ khai hải quan trước ngày Thông tư này có hiệu lực thì tiếp tục hoàn thành thủ tục nhập khẩu theo quy định tại thời điểm đăng ký tờ khai hải quan.",
+     "trang_pdf": 4,
+     "sha256_pdf": "5aa4a08ae151bf337b047ac96817bf7998ec23e2da3ad999b3e2098c50fd3f6d"
+    }
+   ]
+  },
+  {
    "so_hieu": "85/2026/TT-BTC",
    "slug": "85-2026-tt-btc",
    "ten": "Quy định về phân loại hàng hoá, phân tích để phân loại hàng hoá xuất khẩu, nhập khẩu",
@@ -57,7 +966,7 @@
      "dieu": 4,
      "khoan": 1,
      "noi_dung": "Một mặt hàng có một mã số duy nhất theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
-     "trang_pdf": 25,
+     "trang_pdf": 4,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
@@ -65,7 +974,7 @@
      "khoan": 2,
      "diem": "a",
      "noi_dung": "Điều 26 Luật Hải quan số 54/2014/QH13; Điều 16 Nghị định số 08/2015/NĐ-CP",
-     "trang_pdf": 25,
+     "trang_pdf": 4,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
@@ -73,21 +982,21 @@
      "khoan": 2,
      "diem": "d",
      "noi_dung": "6 (sáu) quy tắc tổng quát giải thích việc phân loại hàng hóa theo Hệ thống hài hoà mô tả và mã hoá hàng hóa",
-     "trang_pdf": 25,
+     "trang_pdf": 4,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
      "dieu": 5,
      "khoan": 1,
      "noi_dung": "Kết quả phân loại hàng hóa được sử dụng để áp dụng chính sách quản lý hàng hóa trên cơ sở thực hiện quy định về điều kiện, thủ tục, hồ sơ áp dụng tại Danh mục hàng hóa cấm xuất khẩu, tạm ngừng xuất khẩu; Danh mục hàng hóa cấm nhập khẩu, tạm ngừng nhập khẩu; Danh mục hàng hóa xuất khẩu, nhập khẩu theo giấy phép của cơ quan nhà nước có thẩm quyền; Danh mục hàng hóa thuộc đối tượng kiểm tra chuyên ngành có hiệu lực tại thời điểm đăng ký tờ khai.",
-     "trang_pdf": 25,
+     "trang_pdf": 4,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
      "dieu": 5,
      "khoan": 2,
      "noi_dung": "Kết quả phân loại hàng hóa được sử dụng để áp dụng mức thuế đối với một mặt hàng trên cơ sở thực hiện quy định tại các Biểu thuế áp dụng đối với hàng hóa xuất khẩu, nhập khẩu có hiệu lực tại thời điểm đăng ký tờ khai và điều kiện, thủ tục, hồ sơ để được áp dụng mức thuế quy định tại các văn bản quy phạm pháp luật về thuế đối với hàng hóa xuất khẩu, nhập khẩu.",
-     "trang_pdf": 25,
+     "trang_pdf": 4,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
@@ -95,7 +1004,7 @@
      "khoan": 1,
      "diem": "a",
      "noi_dung": "Chú giải chi tiết Danh mục HS",
-     "trang_pdf": 26,
+     "trang_pdf": 4,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
@@ -103,7 +1012,7 @@
      "khoan": 1,
      "diem": "b",
      "noi_dung": "Tuyển tập ý kiến phân loại của WCO",
-     "trang_pdf": 26,
+     "trang_pdf": 4,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
@@ -111,7 +1020,7 @@
      "khoan": 1,
      "diem": "c",
      "noi_dung": "Chú giải bổ sung Danh mục AHTN",
-     "trang_pdf": 26,
+     "trang_pdf": 4,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
@@ -119,89 +1028,88 @@
      "khoan": 1,
      "diem": "d",
      "noi_dung": "Cơ sở dữ liệu về Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam",
-     "trang_pdf": 26,
+     "trang_pdf": 5,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
      "dieu": 6,
      "khoan": 2,
      "noi_dung": "Trường hợp có sự khác biệt về mô tả hàng hóa tại Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam và mô tả hàng hóa theo Danh mục HS, Danh mục AHTN thì áp dụng trực tiếp mô tả hàng hóa theo Danh mục HS, Danh mục AHTN để phân loại và hướng dẫn phân loại theo nguyên tắc áp dụng quy định của Điều ước quốc tế mà Việt Nam là thành viên.",
-     "trang_pdf": 26,
+     "trang_pdf": 5,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
      "dieu": 6,
      "khoan": 3,
      "noi_dung": "Trường hợp thực hiện quy định tại Điều 4 và khoản 1 Điều 6 Thông tư này chưa đủ cơ sở để xác định tên gọi, mô tả hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam thì được sử dụng các tiêu chí, tiêu chuẩn, quy chuẩn do cơ quan, tổ chức, đơn vị có thẩm quyền ban hành theo quy định để làm cơ sở xác định tên gọi, mô tả hàng hóa, mã số theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
-     "trang_pdf": 26,
+     "trang_pdf": 5,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
      "dieu": 6,
      "khoan": 4,
      "noi_dung": "Trường hợp hàng hoá có mã số tại Danh mục hàng hoá quản lý chuyên ngành khác biệt với mã số xác định theo Danh mục hàng hoá xuất khẩu, nhập khẩu Việt Nam thì thực hiện theo Danh mục hàng hoá xuất khẩu, nhập khẩu Việt Nam và pháp luật về hải quan.",
-     "trang_pdf": 26,
+     "trang_pdf": 5,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
      "dieu": 6,
      "khoan": 5,
      "noi_dung": "Trường hợp mặt hàng phức tạp, khó phân loại, Cục trưởng Cục Hải quan trên cơ sở ý kiến của Bộ, cơ quan ngang Bộ quản lý chuyên ngành hoặc Ủy ban HS thuộc Tổ chức Hải quan thế giới hoặc Nhóm kỹ thuật về phân loại hàng hoá của ASEAN ban hành văn bản sửa đổi, hướng dẫn phân loại, làm ảnh hưởng tới quá trình khai báo hải quan về mã số, mức thuế và hiệu quả của hoạt động sản xuất kinh doanh của người khai hải quan, người nộp thuế thì thực hiện phân loại hàng hóa kể từ ngày văn bản sửa đổi, hướng dẫn phân loại được ban hành.",
-     "trang_pdf": 26,
+     "trang_pdf": 5,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
      "dieu": 7,
-     "noi_dung": "Hàng hóa là máy liên hợp (gồm hai hay nhiều máy) hoặc tổ hợp máy thuộc các Chương 84, Chương 85 và Chương 90 của Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam được nhập khẩu từ một nguồn hay nhiều nguồn cung cấp, về nhiều chuyến, làm thủ tục tại một hay nhiều đơn vị hải quan khác nhau thì người khai hải quan được lựa chọn phân loại theo từng máy móc, thiết bị hoặc theo quy định tại Chú giải pháp lý 3, 4, 5 Phần XVI của Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam. Trường hợp lựa chọn phân loại theo quy định tại Chú giải pháp lý 3, 4, 5 Phần XVI thì thực hiện theo hướng dẫn tại Điều 9 dưới đây.",
-     "trang_pdf": 27,
+     "noi_dung": "Hàng hóa là máy liên hợp (gồm hai hay nhiều máy) hoặc tổ hợp máy thuộc các Chương 84, Chương 85 và Chương 90 của Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam được nhập khẩu từ một nguồn hay nhiều nguồn cung cấp, về nhiều chuyến, làm thủ tục tại một hay nhiều đơn vị hải quan khác nhau thì người khai hải quan được lựa chọn phân loại theo từng máy móc, thiết bị hoặc theo quy định tại Chú giải pháp lý 3, 4, 5 Phần XVI của Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam. Trường hợp lựa chọn phân loại theo quy định tại Chú giải pháp lý 3, 4, 5 Phần XVI của Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam thì thực hiện theo hướng dẫn tại Điều 9 dưới đây.",
+     "trang_pdf": 5,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
      "dieu": 8,
      "noi_dung": "Hàng hóa là máy móc, thiết bị ở dạng chưa lắp ráp hoặc tháo rời thường do yêu cầu đóng gói, bảo quản hoặc vận chuyển thực hiện phân loại theo quy tắc 2a của 6 (sáu) quy tắc tổng quát giải thích Hệ thống HS. Trường hợp hàng hóa được nhập khẩu từ một nguồn hay nhiều nguồn cung cấp, về nhiều chuyến, làm thủ tục tại một hay nhiều đơn vị hải quan khác nhau thì người khai hải quan, cơ quan hải quan thực hiện theo hướng dẫn tại Điều 9 dưới đây.",
-     "trang_pdf": 27,
+     "trang_pdf": 6,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
      "dieu": 3,
      "khoan": 3,
      "noi_dung": "Để phân loại hàng hóa, người khai hải quan có thể sử dụng các dịch vụ giám định hàng hóa của các tổ chức giám định theo quy định của pháp luật hoặc cơ sở dữ liệu về Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam để xác định các thông tin về thành phần, tính chất lý, hóa, tính năng, công dụng của hàng hóa xuất khẩu, nhập khẩu và chịu trách nhiệm về tính chính xác, hợp pháp của tài liệu cung cấp.",
-     "trang_pdf": 25,
+     "trang_pdf": 3,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
      "dieu": 12,
      "khoan": 6,
      "noi_dung": "Thông báo kết quả phân tích, phân loại; Thông báo kết quả kiểm tra, đánh giá tiêu chí kỹ thuật là cơ sở để xác định mức thuế, thực hiện chính sách quản lý hàng hóa; được cập nhật vào cơ sở dữ liệu của cơ quan hải quan. Thông báo kết quả phân tích, phân loại được công khai trên trang thông tin điện tử của Cục Hải quan (trừ phần phụ lục của Thông báo kết quả phân tích, phân loại).",
-     "trang_pdf": 32,
+     "trang_pdf": 11,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
      "dieu": 12,
      "khoan": 7,
      "noi_dung": "Trường hợp người khai hải quan không đồng ý với Thông báo kết quả phân tích, phân loại thì thực hiện khiếu nại theo Luật Khiếu nại số 02/2011/QH13 hoặc trưng cầu giám định theo quy định tại Điều 30 Nghị định số 08/2015/NĐ-CP.",
-     "trang_pdf": 33,
+     "trang_pdf": 11,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
      "dieu": 13,
-     "khoan": 1,
-     "noi_dung": "Cơ sở dữ liệu về Danh mục hàng hóa xuất khẩu, nhập khẩu được xây dựng từ: 1) Công ước HS và các phụ lục kèm theo; 2) Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam; 3) Danh mục hàng hóa cấm/giấy phép/điều kiện/quản lý chuyên ngành theo NĐ 69/2018; 4) Văn bản hướng dẫn của Bộ Tài chính, Cục Hải quan; 5) Thông báo kết quả xác định trước mã số, phân tích phân loại, kiểm tra đánh giá tiêu chí kỹ thuật; 6) Văn bản giải quyết khiếu nại về phân loại, áp dụng mức thuế.",
-     "trang_pdf": 32,
+     "noi_dung": "1. Công ước HS và các phụ lục kèm theo; 2. Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam; 3. Danh mục hàng hóa cấm xuất khẩu, cấm nhập khẩu, Danh mục hàng hóa xuất khẩu, nhập khẩu theo giấy phép, theo điều kiện, Danh mục hàng hóa xuất khẩu, nhập khẩu thuộc diện quản lý chuyên ngành theo quy định tại Nghị định số 69/2018/NĐ-CP quy định chi tiết một số Điều của Luật Quản lý ngoại thương; 4. Văn bản hướng dẫn về phân loại hàng hóa của Bộ Tài chính, Cục Hải quan; 5. Thông báo kết quả xác định trước mã số; Thông báo kết quả phân tích, phân loại hàng hoá; Thông báo kết quả phân tích kèm mã số hàng hóa; Thông báo kết quả kiểm tra, đánh giá tiêu chí kỹ thuật; 6. Các văn bản giải quyết khiếu nại về phân loại hàng hóa, áp dụng mức thuế của Bộ Tài chính, Cục Hải quan.",
+     "trang_pdf": 12,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
      "dieu": 15,
      "khoan": 1,
-     "noi_dung": "Thông tư này có hiệu lực thi hành kể từ ngày 15 tháng 09 năm 2026. Thông tư này thay thế Thông tư số 14/2015/TT-BTC ngày 30 tháng 01 năm 2015 của Bộ Tài chính hướng dẫn về phân loại hàng hoá, phân tích để phân loại hàng hoá; phân tích để kiểm tra chất lượng, kiểm tra an toàn thực phẩm đối với hàng hóa xuất khẩu, nhập khẩu và Thông tư số 17/2021/TT-BTC ngày 26 tháng 02 năm 2021 của Bộ Tài chính sửa đổi, bổ sung một số Điều tại Thông tư số 14/2015/TT-BTC.",
-     "trang_pdf": 34,
+     "noi_dung": "Thông tư này có hiệu lực thi hành kể từ ngày 15 tháng 09 năm 2026. Thông tư này thay thế Thông tư số 14/2015/TT-BTC ngày 30 tháng 01 năm 2015 của Bộ Tài chính hướng dẫn về phân loại hàng hoá, phân tích để phân loại hàng hoá; phân tích để kiểm tra chất lượng, kiểm tra an toàn thực phẩm đối với hàng hoá xuất khẩu, nhập khẩu và Thông tư số 17/2021/TT-BTC ngày 26 tháng 02 năm 2021 của Bộ Tài chính sửa đổi, bổ sung một số Điều tại Thông tư số 14/2015/TT-BTC.",
+     "trang_pdf": 13,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     },
     {
      "dieu": 16,
      "khoan": 2,
      "noi_dung": "Trường hợp nhập khẩu máy liên hợp hoặc tổ hợp máy thuộc các Chương 84, Chương 85 và Chương 90 và chi tiết, linh kiện rời theo Danh mục đã đăng ký trước thời điểm có hiệu lực của Thông tư này thì vẫn tiếp tục thực hiện theo quy định tại Thông tư số 14/2015/TT-BTC cho đến khi nhập hết hàng hóa theo Danh mục.",
-     "trang_pdf": 34,
+     "trang_pdf": 13,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
     }
    ]
