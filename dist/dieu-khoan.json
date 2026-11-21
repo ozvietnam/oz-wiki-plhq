@@ -5,14 +5,104 @@
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
  "canh_bao_tang_nhap": "Tầng TOM_TAT_NHAP được trích tự động bởi LLM (da_soat: false) — CHỈ dùng để định vị điều khoản, KHÔNG trích dẫn nguyên văn hay làm căn cứ pháp lý; chỉ dùng NGUYEN_VAN_NGUON_A để trích dẫn căn cứ.",
  "thong_ke": {
-  "so_van_ban_nguon_a": 15,
-  "so_dieu_khoan_nguon_a": 147,
+  "so_van_ban_nguon_a": 18,
+  "so_dieu_khoan_nguon_a": 169,
   "so_van_ban_tom_tat_nhap": 88,
   "so_dieu_khoan_tom_tat_nhap": 4699,
   "so_tep_doc_hieu": 91,
   "so_dong_loi": 0
  },
  "nguyen_van_nguon_a": [
+  {
+   "so_hieu": "06/2026/TT-BTC",
+   "slug": "06-2026-tt-btc",
+   "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 13/2015/TT-BTC quy định về kiểm tra, giám sát, tạm dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo vệ quyền sở hữu trí tuệ",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-03-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-06-2026-tt-btc-468899.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "khoan": 1,
+     "noi_dung": "1. Sửa đổi, bổ sung Điều 3 đã được sửa đổi, bổ sung theo quy định tại khoản 1 Điều 1 Thông tư số 13/2020/TT-BTC như sau: “Điều 3. Giải thích từ ngữ Trong Thông tư này, các từ ngữ dưới đây được hiểu như sau: 1. Hàng giả bao gồm các loại hàng hóa theo quy định tại khoản 7 Điều 3 Nghị định số 98/2020/NĐ-CP ngày 26 tháng 8 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong hoạt động thương mại, sản xuất, buôn bán hàng giả, hàng cấm và bảo vệ quyền lợi người tiêu dùng.",
+     "trang_pdf": 2,
+     "sha256_pdf": "b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54"
+    },
+    {
+     "dieu": 1,
+     "khoan": 2,
+     "noi_dung": "2. Người nộp Đơn đề nghị kiểm tra, giám sát hàng hóa xuất khẩu, nhập khẩu liên quan đến quyền sở hữu trí tuệ nộp hồ sơ đến Cục Hải quan thông qua Hệ thống xử lý dữ liệu điện tử hải quan. Trường hợp Hệ thống xử lý dữ liệu điện tử hải quan gặp sự cố hoặc chưa đáp ứng, người nộp Đơn đề nghị nộp 01 bộ hồ sơ giấy gồm các chứng từ quy định tại khoản 1 Điều này trực tiếp tại bộ phận một cửa Cục Hải quan hoặc gửi qua bưu điện đến Cục Hải quan.",
+     "trang_pdf": 4,
+     "sha256_pdf": "b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54"
+    },
+    {
+     "dieu": 1,
+     "khoan": 3,
+     "noi_dung": "2. Trong thời hạn 20 ngày làm việc kể từ ngày tiếp nhận đầy đủ bộ hồ sơ đề nghị, Cục Hải quan kiểm tra các nội dung tại điểm b khoản 1 Điều này, đối chiếu các thông tin của Đơn đề nghị với cơ sở dữ liệu về sở hữu trí tuệ và xử lý như sau: a) Trường hợp không chấp nhận thì thông báo cho người nộp Đơn đề nghị và nêu rõ lí do; b) Trường hợp chấp nhận thì thông báo cho người nộp Đơn và các Chi cục Hải quan khu vực, Chi cục Điều tra Chống buôn lậu để thực hiện kiểm tra, giám sát hải quan đối với hàng hóa xuất khẩu, nhập khẩu theo quy định tại Điều 12 Thông tư này.",
+     "trang_pdf": 5,
+     "sha256_pdf": "b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54"
+    },
+    {
+     "dieu": 1,
+     "khoan": 4,
+     "noi_dung": "4. Bổ sung Điều 10a sau Điều 10 như sau: “Điều 10a. Trình tự, thủ tục chủ động tạm dừng làm thủ tục hải quan 1. Trong quá trình thực hiện các biện pháp kiểm tra, giám sát và kiểm soát hàng hoá xuất khẩu, nhập khẩu liên quan đến sở hữu trí tuệ; qua phân tích cơ sở dữ liệu về sở hữu trí tuệ; trên cơ sở thông tin cung cấp từ các đơn vị nghiệp vụ hải quan, nếu có căn cứ rõ ràng nghi ngờ hàng hóa xuất khẩu, nhập khẩu là hàng hóa giả mạo về nhãn hiệu, hàng hoá giả mạo chỉ dẫn địa lý, hàng hóa sao chép lậu thì Đội trưởng Hải quan nơi đăng ký tờ khai ra Quyết định tạm dừng làm thủ tục hải quan theo mẫu số 10 Phụ lục II ban hành kèm theo Thông tư này.",
+     "trang_pdf": 6,
+     "sha256_pdf": "b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54"
+    },
+    {
+     "dieu": 1,
+     "khoan": 5,
+     "noi_dung": "5. Sửa đổi, bổ sung Điều 11 như sau: “Điều 11. Tiếp tục làm thủ tục hải quan 1. Đội trưởng Hải quan nơi đăng ký tờ khai ban hành quyết định tiếp tục làm thủ tục hải quan cho lô hàng theo Mẫu số 05 Phụ lục II ban hành theo Thông tư này trong các trường hợp sau: a) Theo quy định tại khoản 4 Điều 76 Luật Hải quan số 54/2014/QH13; b) Kết quả kiểm tra của cơ quan hải quan xác định không có vi phạm; c) Quyết định tạm dừng làm thủ tục hải quan bị hủy bỏ theo quy định của pháp luật.",
+     "trang_pdf": 7,
+     "sha256_pdf": "b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54"
+    },
+    {
+     "dieu": 1,
+     "khoan": 6,
+     "noi_dung": "6. Bổ sung Điều 14a vào sau Điều 14 như sau: “Điều 14a. Kiểm tra, giám sát hải quan đối với hàng hóa xuất khẩu, nhập khẩu liên quan đến quyền sở hữu trí tuệ giao dịch qua thương mại điện tử 1. Việc kiểm tra, giám sát hải quan đối với hàng hóa xuất khẩu, nhập khẩu liên quan đến quyền sở hữu trí tuệ giao dịch qua thương mại điện tử được thực hiện trên cơ sở nguyên tắc quản lý rủi ro. Trường hợp Hải quan nơi đăng ký tờ khai có căn cứ rõ ràng về hàng giả mạo quyền sở hữu trí tuệ thì thực hiện theo trình tự, thủ tục quy định tại Điều 10a Thông tư này. 2. Việc xử lý đối với hàng hóa hàng hóa xuất khẩu, nhập khẩu giao dịch qua thương mại điện tử có dấu hiệu về hàng giả hoặc xâm phạm quyền sở hữu trí tuệ thực hiện theo quy định tại Điều 13 và Điều 14 Thông tư này.”",
+     "trang_pdf": 8,
+     "sha256_pdf": "b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54"
+    },
+    {
+     "dieu": 2,
+     "khoan": 1,
+     "noi_dung": "1. Thay thế cụm từ “hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo vệ quyền sở hữu trí tuệ” bằng cụm từ “hàng hóa xuất khẩu, nhập khẩu liên quan đến quyền sở hữu trí tuệ” tại Điều 1, khoản 4 Điều 4, tên Chương II Thông tư số 13/2015/TTBTC, khoản 7, khoản 9 Điều 1 Thông tư số 13/2020/TT-BTC.",
+     "trang_pdf": 8,
+     "sha256_pdf": "b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54"
+    },
+    {
+     "dieu": 2,
+     "khoan": 2,
+     "noi_dung": "2. Thay thế cụm từ “Tổng cục Hải quan” bằng cụm từ “Cục Hải quan” tại điểm e khoản 3 Điều 10, khoản 1 Điều 17 Thông tư số 13/2015/TT-BTC, khoản 6, khoản 9, khoản 10 Điều 1, khoản 2 Điều 2 Thông tư số 13/2020/TT-BTC.",
+     "trang_pdf": 8,
+     "sha256_pdf": "b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54"
+    },
+    {
+     "dieu": 3,
+     "khoan": 1,
+     "noi_dung": "1. Thông tư này có hiệu lực thi hành từ ngày 01 tháng 3 năm 2026.",
+     "trang_pdf": 9,
+     "sha256_pdf": "b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54"
+    },
+    {
+     "dieu": 3,
+     "khoan": 2,
+     "noi_dung": "2. Đối với các hồ sơ cơ quan Hải quan nhận trước ngày Thông tư này có hiệu lực thì áp dụng theo các quy định tại Thông tư số 13/2015/TT-BTC được sửa đổi, bổ sung bởi Thông tư số 13/2020/TT-BTC.",
+     "trang_pdf": 9,
+     "sha256_pdf": "b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54"
+    },
+    {
+     "dieu": 3,
+     "khoan": 3,
+     "noi_dung": "3. Trường hợp các văn bản quy phạm pháp luật viện dẫn tại Thông tư này được sửa đổi, bổ sung hoặc thay thế bằng văn bản quy phạm pháp luật khác thì áp dụng theo quy định tại văn bản sửa đổi, bổ sung hoặc thay thế đó.",
+     "trang_pdf": 10,
+     "sha256_pdf": "b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54"
+    }
+   ]
+  },
   {
    "so_hieu": "07/2023/NĐ-CP",
    "slug": "07-2023-nd-cp",
@@ -51,6 +141,51 @@
     {
      "dieu": 3,
      "noi_dung": "Bộ trưởng Bộ Y tế có trách nhiệm hướng dẫn, tổ chức và kiểm tra việc thi hành; các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch UBND cấp tỉnh và các cơ quan, tổ chức, cá nhân liên quan chịu trách nhiệm thi hành."
+    }
+   ]
+  },
+  {
+   "so_hieu": "07/2023/TT-NHNN",
+   "slug": "07-2023-tt-nhnn",
+   "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 38/2018/TT-NHNN ngày 25/12/2018 của Thống đốc Ngân hàng Nhà nước Việt Nam quy định việc nhập khẩu hàng hóa phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước Việt Nam",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2023-08-14",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-07-2023-tt-nhnn-39759/45761.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "“Điều 4. Nhập khẩu hàng hóa 1. Trên cơ sở văn bản chỉ định và cho phép cơ sở in, đúc tiền được nhập khẩu hàng hóa phục vụ hoạt động in, đúc tiền quy định tại khoản 2 Điều 3 Thông tư này, cơ sở in, đúc tiền thực hiện việc nhập khẩu hàng hóa phục vụ hoạt động in, đúc tiền quy định tại Phụ lục Danh mục hàng hóa chỉ định cơ sở in, đúc tiền nhập khẩu phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước Việt Nam ban hành kèm theo Thông tư này như sau: a) Đối với hàng hóa thuộc mục có số thứ tự 1, 2, 3, 5: Cơ sở in, đúc tiền căn cứ hợp đồng in, đúc tiền giữa cơ sở in, đúc tiền với Ngân hàng Nhà nước để thực hiện việc nhập khẩu hàng hóa; b) Đối với hàng hóa thuộc mục có số thứ tự 4, 6, 7: Cơ sở in, đúc tiền căn cứ văn bản phê duyệt chủ trương đầu tư, quyết định đầu tư của cấp có thẩm quyền theo quy định tại Điều 4 Thông tư số 07/2020/TT-NHNN ngày 30/6/2020 của Thống đốc Ngân hàng Nhà nước Việt Nam quy định việc đầu tư, mua sắm hàng hóa phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước Việt Nam để thực hiện việc nhập khẩu hàng hóa. 2. Thống đốc Ngân hàng Nhà nước ủy quyền Cục trưởng Cục Phát hành và Kho quỹ có văn bản xác nhận việc cơ sở in, đúc tiền nhập khẩu hàng hóa phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước theo hợp đồng mua bán hàng hóa hoặc các hình thức văn bản khác giữa cơ sở in, đúc tiền và đơn vị cung cấp hàng hóa. 3. Khi làm thủ tục nhập khẩu, cơ sở in, đúc tiền gửi Cơ quan hải quan 01 bản chính văn bản xác nhận của Ngân hàng Nhà nước kèm hồ sơ hải quan theo quy định pháp luật.”",
+     "trang_pdf": 2,
+     "sha256_pdf": "ea7e59aa8cd6d814241a07bb3fdceb9a3e4bf9d6730ed0bb6377dbe403aad6c4"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Thay thế Phụ lục ban hành kèm theo Thông tư số 38/2018/TT-NHNN bằng Phụ lục Danh mục hàng hóa chỉ định cơ sở in, đúc tiền nhập khẩu phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước Việt Nam ban hành kèm theo Thông tư này.",
+     "trang_pdf": 2,
+     "sha256_pdf": "ea7e59aa8cd6d814241a07bb3fdceb9a3e4bf9d6730ed0bb6377dbe403aad6c4"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Chánh Văn phòng; Cục trưởng Cục Phát hành và Kho quỹ; Thủ trưởng các đơn vị thuộc Ngân hàng Nhà nước, cơ sở in, đúc tiền chịu trách nhiệm tổ chức thực hiện Thông tư này.",
+     "trang_pdf": 2,
+     "sha256_pdf": "ea7e59aa8cd6d814241a07bb3fdceb9a3e4bf9d6730ed0bb6377dbe403aad6c4"
+    },
+    {
+     "dieu": 4,
+     "khoan": 1,
+     "noi_dung": "1. Thông tư này có hiệu lực thi hành từ ngày 14 tháng 8 năm 2023.",
+     "trang_pdf": 3,
+     "sha256_pdf": "ea7e59aa8cd6d814241a07bb3fdceb9a3e4bf9d6730ed0bb6377dbe403aad6c4"
+    },
+    {
+     "dieu": 4,
+     "khoan": 2,
+     "noi_dung": "2. Thay thế cụm từ “Mã số theo biểu thuế nhập khẩu” thành “Mã số theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam (sau đây gọi là Mã số HS)” quy định tại Danh mục máy móc, thiết bị, nguyên liệu, vật tư, linh kiện, bộ phận, phụ tùng nhập khẩu phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước Việt Nam ban hành kèm theo Thông tư số 01/2017/TT-NHNN ngày 07/02/2017 của Thống đốc Ngân hàng Nhà nước Việt Nam ban hành Danh mục máy móc, thiết bị, nguyên liệu, vật tư, linh kiện, bộ phận, phụ tùng nhập khẩu phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước Việt Nam.",
+     "trang_pdf": 3,
+     "sha256_pdf": "ea7e59aa8cd6d814241a07bb3fdceb9a3e4bf9d6730ed0bb6377dbe403aad6c4"
     }
    ]
   },
@@ -367,6 +502,60 @@
     {
      "dieu": 4,
      "noi_dung": "Điều khoản thi hành: Hiệu lực từ ngày 16/04/2026 đến hết ngày 30/06/2026; khoản 2 giao Chính phủ ban hành Nghị quyết kéo dài thời gian có hiệu lực (Nghị quyết 43/2026/NQ-CP kéo dài Điều 1 và Điều 2 đến hết ngày 31/12/2026)."
+    }
+   ]
+  },
+  {
+   "so_hieu": "201/2026/NĐ-CP",
+   "slug": "201-2026-nd-cp",
+   "ten": "Sửa đổi, bổ sung thuế suất thuế xuất khẩu của một số mặt hàng tại Biểu thuế xuất khẩu ban hành kèm Nghị định số 26/2023/NĐ-CP",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-07-23",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-201-2026-nd-cp-469729.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Sửa đổi, bổ sung thuế suất thuế xuất khẩu của một số mặt hàng quy định tại Phụ lục I - Biểu thuế xuất khẩu theo Danh mục mặt hàng chịu thuế ban hành kèm theo Nghị định số 26/2023/NĐ-CP thành thuế suất thuế xuất khẩu mới quy định tại Phụ lục ban hành kèm theo Nghị định này.",
+     "trang_pdf": 2,
+     "sha256_pdf": "d1c7aafb2dc17495848b00291110f672310b86e31b592b1dea6aa954afcc09da"
+    },
+    {
+     "dieu": 2,
+     "khoan": 1,
+     "noi_dung": "1. Thay thế cụm từ “Bộ Kế hoạch và Đầu tư” tại khoản 1 Điều 6, điểm a.1 khoản 3 Điều 8, điểm c.2 khoản 3 Điều 9, khoản 2 Điều 11, điểm b.1.1 và điểm b.9.1 khoản 2.2 Mục II Phụ lục II bằng cụm từ “Bộ Tài chính”.",
+     "trang_pdf": 2,
+     "sha256_pdf": "d1c7aafb2dc17495848b00291110f672310b86e31b592b1dea6aa954afcc09da"
+    },
+    {
+     "dieu": 2,
+     "khoan": 2,
+     "noi_dung": "2. Thay thế cụm từ “Bộ Giao thông vận tải” tại điểm b.4 khoản 2.2 Mục II Phụ lục II bằng cụm từ “Bộ Xây dựng”.",
+     "trang_pdf": 2,
+     "sha256_pdf": "d1c7aafb2dc17495848b00291110f672310b86e31b592b1dea6aa954afcc09da"
+    },
+    {
+     "dieu": 2,
+     "khoan": 3,
+     "noi_dung": "3. Thay thế cụm từ “Bộ Thông tin và Truyền thông” tại điểm b.8 khoản 2.2 Mục II Phụ lục II, Mẫu số 03 và Mẫu số 04 bằng cụm từ “Bộ Khoa học và Công nghệ”.",
+     "trang_pdf": 2,
+     "sha256_pdf": "d1c7aafb2dc17495848b00291110f672310b86e31b592b1dea6aa954afcc09da"
+    },
+    {
+     "dieu": 3,
+     "khoan": 1,
+     "noi_dung": "1. Nghị định này có hiệu lực thi hành từ ngày 23 tháng 7 năm 2026.",
+     "trang_pdf": 2,
+     "sha256_pdf": "d1c7aafb2dc17495848b00291110f672310b86e31b592b1dea6aa954afcc09da"
+    },
+    {
+     "dieu": 3,
+     "khoan": 2,
+     "noi_dung": "2. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này.",
+     "trang_pdf": 3,
+     "sha256_pdf": "d1c7aafb2dc17495848b00291110f672310b86e31b592b1dea6aa954afcc09da"
     }
    ]
   },
