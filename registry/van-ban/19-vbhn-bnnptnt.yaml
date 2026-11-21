@@ -1,37 +1,39 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 19/VBHN-BNNPTNT
 so_hieu_khac:
-  - 19/VBHN-BNNMT
+  - 19/2022/VBHN-BNNPTNT
 loai: VAN_BAN_HOP_NHAT
-ten: Hợp nhất Thông tư quy định về trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật
+ten: 'Thông tư quy định về quản lý giống thủy sản, thức ăn thủy sản, sản phẩm xử lý môi trường nuôi trồng thủy sản'
 co_quan: BNNPTNT
-ngay_ban_hanh: '2024-05-27'
-tinh_trang: HET_HIEU_LUC_MOT_PHAN
+ngay_ban_hanh: '2022-12-30'
+het_hieu_luc_tu: '2026-03-09'
+tinh_trang: HET_HIEU_LUC
 nhanh:
-  - kiem-tra-chuyen-nganh/kiem-dich
+  - kiem-tra-chuyen-nganh/bnnmt
 quan_he:
   hop_nhat:
-    - so_hieu: 33/2014/TT-BNNPTNT
-    - so_hieu: 34/2018/TT-BNNPTNT
-    - so_hieu: 15/2021/TT-BNNPTNT
-    - so_hieu: 03/2024/TT-BNNPTNT
-  thay_the:
-    - so_hieu: 06/VBHN-BNNPTNT
-      tu_ngay: '2024-05-27'
+    - so_hieu: 26/2018/TT-BNNPTNT
+    - so_hieu: 01/2022/TT-BNNPTNT
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=207302
-    truy_cap: '2026-11-14'
-  - url: https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Van-ban-hop-nhat-19-VBHN-BNNPTNT-2024-Thong-tu-trinh-tu-kiem-dich-thuc-vat-nhap-xuat-khau-612987.aspx
-    truy_cap: '2026-10-28'
-  - url: https://nguonluat.com/docs/19vbhn-bnnptnt-van-ban-hop-nhat-19vbhn-bnnptnt-nam-2024-hop-nhat-thong-tu-quy-dinh-trinh-tu-thu-tuc-kiem-dich-thuc-vat-nhap-khau-xuat-khau-qua-canh-va-sau-nhap-khau-vat-the-thuoc-dien-kiem-dich-thuc-vat-do-bo-truong-bo-nong-nghiep-va-phat-trien-nong-thon-b
-    truy_cap: '2026-10-28'
-  - url: https://www.ppd.gov.vn/FileUpload/Documents/vbhn_19_thong_tu_33_va_thong_tu_03_cua_bo_nnptnt.pdf
-    truy_cap: '2026-10-28'
+    truy_cap: '2026-11-21'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/19bnn.signed.pdf
+    truy_cap: '2026-11-21'
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-26-2018-tt-bnnptnt-28128/25285.htm
+    truy_cap: '2026-11-21'
+  - url: https://vanban.chinhphu.vn/default.aspx?docid=205232&pageid=27160
+    truy_cap: '2026-11-21'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=217170
+    truy_cap: '2026-11-21'
 xac_minh:
   muc: NGUON_A
-  pham_vi: số hiệu, tiêu đề, ngày ban hành 27-05-2024; thành phần hợp nhất 33/2014/TT-BNNPTNT + 34/2018/TT-BNNPTNT + 15/2021/TT-BNNPTNT + 03/2024/TT-BNNPTNT — đối chiếu NGUYÊN VĂN trang đầu PDF hợp nhất Cục BVTV (ppd.gov.vn); hết hiệu lực một phần do các quy định thuộc Thông tư 33/2014/TT-BNNPTNT và 15/2021/TT-BNNPTNT đã được sửa đổi, bổ sung tiếp bởi Thông tư 12/2025/TT-BNNMT ngày 19-06-2025 và Điều 22 Thông tư 07/2026/TT-BNNMT ngày 23-01-2026
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=207302, lưu tại raw/download/vanban.chinhphu.vn/19-vbhn-bnnptnt.html) và toàn văn PDF ký số đính kèm (19bnn.signed.pdf, 41 trang, có lớp chữ, lưu tại raw/download/datafiles.chinhphu.vn/19-vbhn-bnnptnt.pdf): Văn bản hợp nhất số 19/VBHN-BNNPTNT do Thứ trưởng Bộ Nông nghiệp và Phát triển nông thôn Phùng Đức Tiến ký xác thực ngày 30-12-2022, trích yếu "Thông tư quy định về quản lý giống thủy sản, thức ăn thủy sản, sản phẩm xử lý môi trường nuôi trồng thủy sản"; hợp nhất Thông tư 26/2018/TT-BNNPTNT ngày 15-11-2018 (có hiệu lực từ ngày 01-01-2019) và Thông tư 01/2022/TT-BNNPTNT ngày 18-01-2022 (có hiệu lực từ ngày 04-03-2022, Điều 8 sửa đổi, bổ sung Điều 7, Điều 10, Điều 13, Điều 15 và thay thế các Phụ lục II, IV, V của Thông tư 26/2018/TT-BNNPTNT); cấu trúc gồm 4 Chương, 18 Điều và 07 Phụ lục (Phụ lục I–VII). Hết hiệu lực toàn bộ kể từ ngày 09-03-2026 khi cả Thông tư gốc 26/2018/TT-BNNPTNT và Điều 8 cùng các Phụ lục XX, XXI, XXII của Thông tư 01/2022/TT-BNNPTNT hết hiệu lực theo điểm a, điểm b khoản 2 Điều 20 Thông tư 16/2026/TT-BNNMT ngày 09-03-2026 (vanban.chinhphu.vn docid=217170).'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Trả lời đầu việc #275-2 (30/10): 99/2026/VBHN-TT-BNNMT KHÔNG thay VBHN này — khác dòng hợp nhất (99 = hồ sơ nghiệp vụ, chuỗi TT 20/2021; 19 = trình tự thủ tục, chuỗi TT 33/2014).'
-toan_van: raw/download/vanban.chinhphu.vn/19-vbhn-bnnptnt.html
+ghi_chu: 'Hiệu đính về đúng Văn bản hợp nhất 19/VBHN-BNNPTNT ngày 30-12-2022 về quản lý giống thủy sản, thức ăn thủy sản, sản phẩm xử lý môi trường nuôi trồng thủy sản (vanban.chinhphu.vn docid=207302, 19bnn.signed.pdf). Bản hợp nhất 19/VBHN-BNNPTNT ngày 27-05-2024 về kiểm dịch thực vật (حợp nhất TT 33/2014 + 34/2018 + 15/2021 + 03/2024) đã được tách riêng tại registry/van-ban/19-vbhn-bnnptnt-2024.yaml.'
+toan_van: raw/download/datafiles.chinhphu.vn/19-vbhn-bnnptnt.pdf
+tu_khoa:
+  - giong-thuy-san
+  - thuc-an-thuy-san
+  - nuoi-trong-thuy-san
