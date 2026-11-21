@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-11-21
 
-Tổng 3764 điểm: **8 cao**, 204 vừa, 3552 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 3140 điểm: **8 cao**, 339 vừa, 2793 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -8,11 +8,15 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 |---|---|---|---|
 | Sắp hết hiệu lực (≤60 ngày) | Cao | 8 | `hieu-luc` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 201 | `danh-muc-hs` |
+| Văn bản nền tảng (có toàn văn) chưa có trang wiki/sources/ | Vừa | 118 | `doc-hieu` |
+| Trang wiki dẫn văn bản đã hết hiệu lực | Vừa | 17 | `doc-hieu` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
-| Hiệu lực chưa đối chiếu nguồn A | Thấp | 1382 | `hieu-luc` |
-| Chưa có nguồn chính thống | Thấp | 1379 | `truy-vet-nguon` |
-| Văn bản của cơ quan đã sáp nhập | Thấp | 769 | `do-tham` |
+| TB-TCHQ cá biệt chưa có nguồn chính thống | Thấp | 1367 | `tb-tchq` |
+| TB-TCHQ cá biệt chưa đối chiếu nguồn A | Thấp | 1367 | `tb-tchq` |
 | Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay | Thấp | 18 | `hieu-luc` |
+| Hiệu lực chưa đối chiếu nguồn A | Thấp | 15 | `hieu-luc` |
+| Chưa có nguồn chính thống | Thấp | 12 | `truy-vet-nguon` |
+| Văn bản của cơ quan đã sáp nhập | Thấp | 10 | `do-tham` |
 | HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp) | Thấp | 4 | `hieu-luc` |
 
 ## Sắp hết hiệu lực (≤60 ngày) (8)
@@ -70,143 +74,163 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **09/2024/TT-BYT: mã 33045099 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1390 ("Calcipotriol"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
 - … và 161 điểm khác (xem bao-cao/diem-mu.json)
 
+## Văn bản nền tảng (có toàn văn) chưa có trang wiki/sources/ (118)
+
+- [ ] **34/2025/TT-BCT: văn bản nền tảng chưa có trang wiki/sources/34-2025-tt-bct.md** — Đã có toàn văn (raw/download/congbaocdn.chinhphu.vn/34-2025-tt-bct.pdf) nhưng chưa có wiki/sources/34-2025-tt-bct.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **01/2024/TT-BNNPTNT: văn bản nền tảng chưa có trang wiki/sources/01-2024-tt-bnnptnt.md** — Đã có toàn văn (raw/download/congbaocdn.chinhphu.vn/01-2024-tt-bnnptnt.pdf) nhưng chưa có wiki/sources/01-2024-tt-bnnptnt.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **11/2018/TT-BTTTT: văn bản nền tảng chưa có trang wiki/sources/11-2018-tt-btttt.md** — Đã có toàn văn (raw/download/congbaocdn.chinhphu.vn/11-2018-tt-btttt.pdf) nhưng chưa có wiki/sources/11-2018-tt-btttt.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **33/2024/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/33-2024-nd-cp.md** — Đã có toàn văn (raw/download/congbaocdn.chinhphu.vn/33-2024-nd-cp.pdf) nhưng chưa có wiki/sources/33-2024-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **01/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/01-2022-nd-cp.md** — Đã có toàn văn (raw/download/vanban.chinhphu.vn/01-2022-nd-cp.html) nhưng chưa có wiki/sources/01-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **05/2011/QH13: văn bản nền tảng chưa có trang wiki/sources/05-2011-qh13.md** — Đã có toàn văn (raw/download/vanban.chinhphu.vn/05-2011-qh13.html) nhưng chưa có wiki/sources/05-2011-qh13.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **05/2017/QH14: văn bản nền tảng chưa có trang wiki/sources/05-2017-qh14.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/05-2017-qh14.pdf) nhưng chưa có wiki/sources/05-2017-qh14.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **06/2019/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/06-2019-nd-cp.md** — Đã có toàn văn (raw/download/vanban.chinhphu.vn/06-2019-nd-cp.html) nhưng chưa có wiki/sources/06-2019-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **07/2022/QH15: văn bản nền tảng chưa có trang wiki/sources/07-2022-qh15.md** — Đã có toàn văn (raw/download/congbao.chinhphu.vn/07-2022-qh15.html) nhưng chưa có wiki/sources/07-2022-qh15.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **07/2023/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/07-2023-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/07-2023-nd-cp.pdf) nhưng chưa có wiki/sources/07-2023-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **101/2015/QH13: văn bản nền tảng chưa có trang wiki/sources/101-2015-qh13.md** — Đã có toàn văn (raw/download/vanban.chinhphu.vn/101-2015-qh13.html) nhưng chưa có wiki/sources/101-2015-qh13.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **102/2020/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/102-2020-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/102-2020-nd-cp.pdf) nhưng chưa có wiki/sources/102-2020-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **102/2021/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/102-2021-nd-cp.md** — Đã có toàn văn (raw/download/vanban.chinhphu.vn/102-2021-nd-cp.html) nhưng chưa có wiki/sources/102-2021-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **108/2016/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/108-2016-nd-cp.md** — Đã có toàn văn (raw/download/vanban.chinhphu.vn/108-2016-nd-cp.html) nhưng chưa có wiki/sources/108-2016-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **108/2025/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/108-2025-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/108-2025-nd-cp.pdf) nhưng chưa có wiki/sources/108-2025-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **112/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/112-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/112-2022-nd-cp.pdf) nhưng chưa có wiki/sources/112-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **113/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/113-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/113-2022-nd-cp.pdf) nhưng chưa có wiki/sources/113-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **114/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/114-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/114-2022-nd-cp.pdf) nhưng chưa có wiki/sources/114-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **115/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/115-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/115-2022-nd-cp.pdf) nhưng chưa có wiki/sources/115-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **116/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/116-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/116-2022-nd-cp.pdf) nhưng chưa có wiki/sources/116-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **116/2025/QH15: văn bản nền tảng chưa có trang wiki/sources/116-2025-qh15.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/116-2025-qh15.pdf) nhưng chưa có wiki/sources/116-2025-qh15.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **117/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/117-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/117-2022-nd-cp.pdf) nhưng chưa có wiki/sources/117-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **117/2025/QH15: văn bản nền tảng chưa có trang wiki/sources/117-2025-qh15.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/117-2025-qh15.pdf) nhưng chưa có wiki/sources/117-2025-qh15.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **118/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/118-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/118-2022-nd-cp.pdf) nhưng chưa có wiki/sources/118-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **118/2025/QH15: văn bản nền tảng chưa có trang wiki/sources/118-2025-qh15.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/118-2025-qh15.pdf) nhưng chưa có wiki/sources/118-2025-qh15.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **119/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/119-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/119-2022-nd-cp.pdf) nhưng chưa có wiki/sources/119-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **120/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/120-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/120-2022-nd-cp.pdf) nhưng chưa có wiki/sources/120-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **121/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/121-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/121-2022-nd-cp.pdf) nhưng chưa có wiki/sources/121-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **122/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/122-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/122-2022-nd-cp.pdf) nhưng chưa có wiki/sources/122-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **122/2024/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/122-2024-nd-cp.md** — Đã có toàn văn (raw/download/vanban.chinhphu.vn/122-2024-nd-cp.html) nhưng chưa có wiki/sources/122-2024-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **123/2020/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/123-2020-nd-cp.md** — Đã có toàn văn (raw/download/congbao.chinhphu.vn/123-2020-nd-cp.html) nhưng chưa có wiki/sources/123-2020-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **123/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/123-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/123-2022-nd-cp.pdf) nhưng chưa có wiki/sources/123-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **124/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/124-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/124-2022-nd-cp.pdf) nhưng chưa có wiki/sources/124-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **125/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/125-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/125-2022-nd-cp.pdf) nhưng chưa có wiki/sources/125-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **126/2021/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/126-2021-nd-cp.md** — Đã có toàn văn (raw/download/vanban.chinhphu.vn/126-2021-nd-cp.html) nhưng chưa có wiki/sources/126-2021-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **126/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/126-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/126-2022-nd-cp.pdf) nhưng chưa có wiki/sources/126-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **127/2007/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/127-2007-nd-cp.md** — Đã có toàn văn (raw/download/vanban.chinhphu.vn/127-2007-nd-cp.html) nhưng chưa có wiki/sources/127-2007-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **129/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/129-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/129-2022-nd-cp.pdf) nhưng chưa có wiki/sources/129-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **13/2025/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/13-2025-nd-cp.md** — Đã có toàn văn (raw/download/congbao.chinhphu.vn/13-2025-nd-cp.html) nhưng chưa có wiki/sources/13-2025-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **131/2013/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/131-2013-nd-cp.md** — Đã có toàn văn (raw/download/vanban.chinhphu.vn/131-2013-nd-cp.html) nhưng chưa có wiki/sources/131-2013-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- … và 78 điểm khác (xem bao-cao/diem-mu.json)
+
+## Trang wiki dẫn văn bản đã hết hiệu lực (17)
+
+- [ ] **wiki/summary/khung-kiem-tra-chuyen-nganh-2026.md: dẫn 11/2022/TT-BCT đã hết hiệu lực** — Dòng 11 của wiki/summary/khung-kiem-tra-chuyen-nganh-2026.md dẫn 11/2022/TT-BCT (HET_HIEU_LUC từ 2026-07-17). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
+- [ ] **wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md: dẫn 13/2008/QH12 đã hết hiệu lực** — Dòng 25 của wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md dẫn 13/2008/QH12 (HET_HIEU_LUC từ 2025-07-01). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
+- [ ] **wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md: dẫn 219/2013/TT-BTC đã hết hiệu lực** — Dòng 25 của wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md dẫn 219/2013/TT-BTC (HET_HIEU_LUC từ 2025-07-01). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
+- [ ] **wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md: dẫn 78/2021/TT-BTC đã hết hiệu lực** — Dòng 25 của wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md dẫn 78/2021/TT-BTC (HET_HIEU_LUC từ 2025-06-01). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
+- [ ] **wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md: dẫn 221/2013/TT-BTC đã hết hiệu lực** — Dòng 29 của wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md dẫn 221/2013/TT-BTC (HET_HIEU_LUC từ 2017-10-20). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
+- [ ] **wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md: dẫn 05/2014/TT-NHNN đã hết hiệu lực** — Dòng 33 của wiki/summary/mua-ban-giao-thang-nuoc-thu-ba.md dẫn 05/2014/TT-NHNN (HET_HIEU_LUC từ 2025-06-16). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
+- [ ] **wiki/summary/my-pham-gia-dinh.md: dẫn 176/2013/NĐ-CP đã hết hiệu lực** — Dòng 12 của wiki/summary/my-pham-gia-dinh.md dẫn 176/2013/NĐ-CP (HET_HIEU_LUC từ 2020-11-15). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
+- [ ] **wiki/summary/my-pham-gia-dinh.md: dẫn 43/2017/NĐ-CP đã hết hiệu lực (bãi bỏ bởi 37/2026/NĐ-CP)** — Dòng 12 của wiki/summary/my-pham-gia-dinh.md dẫn 43/2017/NĐ-CP (HET_HIEU_LUC từ 2026-01-23) — bãi bỏ bởi 37/2026/NĐ-CP. Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
+- [ ] **wiki/concepts/go-rung.md: dẫn 105/2022/NĐ-CP đã hết hiệu lực** — Dòng 3 của wiki/concepts/go-rung.md dẫn 105/2022/NĐ-CP (HET_HIEU_LUC từ 2025-03-01). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
+- [ ] **wiki/concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham.md: dẫn 11/2022/TT-BCT đã hết hiệu lực** — Dòng 9 của wiki/concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham.md dẫn 11/2022/TT-BCT (HET_HIEU_LUC từ 2026-07-17). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
+- [ ] **wiki/concepts/ktcl-byt-attp-2024.md: dẫn 05/2018/TT-BYT đã hết hiệu lực (bãi bỏ bởi 28/2021/TT-BYT)** — Dòng 47 của wiki/concepts/ktcl-byt-attp-2024.md dẫn 05/2018/TT-BYT (HET_HIEU_LUC từ 2022-02-02) — bãi bỏ bởi 28/2021/TT-BYT. Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
+- [ ] **wiki/concepts/muc-do-rui-ro-hang-hoa.md: dẫn 1921/QĐ-TCHQ đã hết hiệu lực (bãi bỏ bởi 117/QĐ-CHQ)** — Dòng 17 của wiki/concepts/muc-do-rui-ro-hang-hoa.md dẫn 1921/QĐ-TCHQ (HET_HIEU_LUC từ 2026-02-01) — bãi bỏ bởi 117/QĐ-CHQ. Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
+- [ ] **wiki/concepts/phan-bon-nhap-khau.md: dẫn 43/2017/NĐ-CP đã hết hiệu lực (bãi bỏ bởi 37/2026/NĐ-CP)** — Dòng 25 của wiki/concepts/phan-bon-nhap-khau.md dẫn 43/2017/NĐ-CP (HET_HIEU_LUC từ 2026-01-23) — bãi bỏ bởi 37/2026/NĐ-CP. Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
+- [ ] **wiki/concepts/phan-loai-ma-hs.md: dẫn 1921/QĐ-TCHQ đã hết hiệu lực (bãi bỏ bởi 117/QĐ-CHQ)** — Dòng 34 của wiki/concepts/phan-loai-ma-hs.md dẫn 1921/QĐ-TCHQ (HET_HIEU_LUC từ 2026-02-01) — bãi bỏ bởi 117/QĐ-CHQ. Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
+- [ ] **wiki/concepts/phu-gia-thuc-pham-ins.md: dẫn 05/2018/TT-BYT đã hết hiệu lực (bãi bỏ bởi 28/2021/TT-BYT)** — Dòng 58 của wiki/concepts/phu-gia-thuc-pham-ins.md dẫn 05/2018/TT-BYT (HET_HIEU_LUC từ 2022-02-02) — bãi bỏ bởi 28/2021/TT-BYT. Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
+- [ ] **wiki/concepts/thu-tuc-hai-quan-xnk.md: dẫn 1921/QĐ-TCHQ đã hết hiệu lực (bãi bỏ bởi 117/QĐ-CHQ)** — Dòng 23 của wiki/concepts/thu-tuc-hai-quan-xnk.md dẫn 1921/QĐ-TCHQ (HET_HIEU_LUC từ 2026-02-01) — bãi bỏ bởi 117/QĐ-CHQ. Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
+- [ ] **wiki/concepts/thuoc-bvtv-nhap-khau.md: dẫn 21/2017/TT-BNNPTNT đã hết hiệu lực** — Dòng 29 của wiki/concepts/thuoc-bvtv-nhap-khau.md dẫn 21/2017/TT-BNNPTNT (HET_HIEU_LUC từ 2021-01-01). Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.
+
 ## Sắp có hiệu lực (≤60 ngày) (3)
 
 - [ ] **154/2026/TT-BTC có hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 - [ ] **372/2026/NĐ-CP có hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 - [ ] **63/2026/TT-BKHCN có hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 
-## Hiệu lực chưa đối chiếu nguồn A (1382)
+## TB-TCHQ cá biệt chưa có nguồn chính thống (1367)
 
-- [ ] **08/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **10/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **100/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **100/TB-TCHQ/2021: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **101/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1010/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1011/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1012/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1013/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1014/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1014/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1015/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1016/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1018/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1019/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **102/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1020/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1021/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1022/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1023/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1024/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1024/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1025/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1025/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1026/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1026/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1027/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1027/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1028/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1028/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1029/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1029/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **103/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **103/TB-TCHQ/2021: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1030/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1031/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1032/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1039/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **104/TB-TCHQ/2020: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- [ ] **1049/TB-TCHQ/2019: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
-- … và 1342 điểm khác (xem bao-cao/diem-mu.json)
+- [ ] **08/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **10/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **100/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **100/TB-TCHQ/2021: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **101/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1010/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1011/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1012/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1013/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1014/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1014/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1015/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1016/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1018/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1019/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **102/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1020/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1021/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1022/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1023/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1024/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1024/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1025/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1025/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1026/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1026/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1027/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1027/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1028/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1028/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1029/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1029/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **103/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **103/TB-TCHQ/2021: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1030/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1031/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1032/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1039/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **104/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1049/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống** — Tìm thông báo phân loại trên customs.gov.vn, thêm vào nguon, ghi truy_cap.
+- … và 1327 điểm khác (xem bao-cao/diem-mu.json)
 
-## Chưa có nguồn chính thống (1379)
+## TB-TCHQ cá biệt chưa đối chiếu nguồn A (1367)
 
-- [ ] **08/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **10/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **100/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **100/TB-TCHQ/2021: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **101/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1010/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1011/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1012/TB-TCHQ/2019: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1013/TB-TCHQ/2019: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1014/TB-TCHQ/2019: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1014/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1015/TB-TCHQ/2019: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1016/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1018/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1019/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **102/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1020/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1021/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1022/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1023/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1024/TB-TCHQ/2019: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1024/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1025/TB-TCHQ/2019: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1025/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1026/TB-TCHQ/2019: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1026/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1027/TB-TCHQ/2019: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1027/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1028/TB-TCHQ/2019: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1028/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1029/TB-TCHQ/2019: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1029/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **103/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **103/TB-TCHQ/2021: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1030/TB-TCHQ/2019: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1031/TB-TCHQ/2019: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1032/TB-TCHQ/2019: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1039/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **104/TB-TCHQ/2020: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- [ ] **1049/TB-TCHQ/2019: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
-- … và 1339 điểm khác (xem bao-cao/diem-mu.json)
-
-## Văn bản của cơ quan đã sáp nhập (769)
-
-- [ ] **01/2024/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
-- [ ] **03/2024/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
-- [ ] **10/2022/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN** — Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.
-- [ ] **1005/TB-TCHQ/2025 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1008/TB-TCHQ/2024 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **101/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1015/TB-TCHQ/2022 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **102/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **103/TB-TCHQ/2024 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1049/TB-TCHQ/2024 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1061/TB-TCHQ/2022 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1062/TB-TCHQ/2022 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **11/2018/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN** — Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.
-- [ ] **11/2024/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN** — Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.
-- [ ] **1107/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1112/TB-TCHQ/2024 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1113/TB-TCHQ/2024 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1114/TB-TCHQ/2024 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1127/TB-TCHQ/2024 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1128/TB-TCHQ/2024 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1129/TB-TCHQ/2024 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1130/TB-TCHQ/2024 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1133/TB-TCHQ/2022 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1138/TB-TCHQ/2024 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1166/TB-TCHQ/2020 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **118/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **119/TB-TCHQ/2025 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1196/TB-TCHQ/2020 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1217/TB-TCHQ/2020 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1220/TB-TCHQ/2020 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1220/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1257/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1258/TB-TCHQ/2018 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1258/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1259/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1261/TB-TCHQ/2022 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1283/TB-TCHQ/2018 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1286/TB-TCHQ/2024 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1293/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- [ ] **1294/TB-TCHQ/2023 (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
-- … và 729 điểm khác (xem bao-cao/diem-mu.json)
+- [ ] **08/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **10/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **100/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **100/TB-TCHQ/2021: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **101/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1010/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1011/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1012/TB-TCHQ/2019: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1013/TB-TCHQ/2019: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1014/TB-TCHQ/2019: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1014/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1015/TB-TCHQ/2019: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1016/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1018/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1019/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **102/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1020/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1021/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1022/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1023/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1024/TB-TCHQ/2019: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1024/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1025/TB-TCHQ/2019: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1025/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1026/TB-TCHQ/2019: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1026/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1027/TB-TCHQ/2019: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1027/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1028/TB-TCHQ/2019: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1028/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1029/TB-TCHQ/2019: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1029/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **103/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **103/TB-TCHQ/2021: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1030/TB-TCHQ/2019: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1031/TB-TCHQ/2019: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1032/TB-TCHQ/2019: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1039/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **104/TB-TCHQ/2020: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1049/TB-TCHQ/2019: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- … và 1327 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay (18)
 
@@ -228,6 +252,52 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Biểu thuế bieu-thue@2026.04.05 còn dẫn 228/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC** — văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (2 mã HS) — Áp thuế chống bán phá giá đối với Một số sản phẩm kính nổi không màu (ID, MA). Sổ ghi bị thay bởi 1400/QĐ-BCT (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.
 - [ ] **Biểu thuế bieu-thue@2026.04.05 còn dẫn 2093/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC** — văn bản hiện hành của biểu/danh mục — Áp thuế chống bán phá giá đối với Một số sản phẩm kính nổi không màu (ID, MA). Sổ ghi HET_HIEU_LUC từ 2026-06-14 (đã đối chiếu nguồn A), không có văn bản thay/bãi trong sổ — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.
 - [ ] **Biểu thuế bieu-thue@2026.04.05 còn dẫn 2491/QĐ-BCT nhưng sổ ghi HET_HIEU_LUC** — văn bản hiện hành của biểu/danh mục — Áp thuế chống bán phá giá đối với Một số sản phẩm ván sợi gỗ (TH, CN). Sổ ghi bị thay bởi 121/QĐ-BCT (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.
+
+## Hiệu lực chưa đối chiếu nguồn A (15)
+
+- [ ] **117/QĐ-CHQ: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1920/QĐ-TCHQ: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **1925/QĐ-TCHQ: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **2123/QĐ-CHQ: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **2169/QĐ-CHQ: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **2284/QĐ-BKHCN: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **2538/QĐ-TCHQ: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **3366/CHQ-GSQL: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **45/2024/TT-BCT: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **4814/QĐ-BCA: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **5133/BCT-HC: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **6266/QĐ-BCA: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **8378/QĐ-BCA: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **910/2026/SPS-BNNMT: tình trạng "CON_HIEU_LUC" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+- [ ] **9981/QĐ-BCA: tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
+
+## Chưa có nguồn chính thống (12)
+
+- [ ] **117/QĐ-CHQ: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1920/QĐ-TCHQ: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **1925/QĐ-TCHQ: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **2123/QĐ-CHQ: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **2169/QĐ-CHQ: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **2538/QĐ-TCHQ: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **3366/CHQ-GSQL: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **4814/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **5133/BCT-HC: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **6266/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **8378/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+- [ ] **9981/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+
+## Văn bản của cơ quan đã sáp nhập (10)
+
+- [ ] **01/2024/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
+- [ ] **03/2024/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
+- [ ] **10/2022/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN** — Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.
+- [ ] **11/2018/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN** — Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.
+- [ ] **11/2024/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN** — Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.
+- [ ] **1357/QĐ-TCHQ (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
+- [ ] **17/2023/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
+- [ ] **1813/2026/QĐ-CHQ (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
+- [ ] **2079/QĐ-TCHQ (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
+- [ ] **2538/QĐ-TCHQ (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
 
 ## HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp) (4)
 
