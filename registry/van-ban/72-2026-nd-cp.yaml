@@ -22,9 +22,31 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Đối chiếu Công báo số 157 ngày 24-03-2026 (congbao.chinhphu.vn id=469066), toàn văn PDF ký số (raw/download/congbaocdn.chinhphu.vn/72-2026-nd-cp.pdf, 6 trang, Phó Thủ tướng Hồ Đức Phớc ký) và Nghị quyết 43/2026/NQ-CP ngày 30-09-2026 (vanban.chinhphu.vn docid=219739) đã có trong sổ: ban hành và có hiệu lực từ 09-03-2026 (khoản 1 Điều 2 hiệu lực ban đầu đến 30-04-2026, khoản 2 Điều 2 cho phép Chính phủ ban hành Nghị quyết kéo dài); đã được kéo dài thời hạn áp dụng đến hết 31-12-2026 theo Nghị quyết 43/2026/NQ-CP'
+  pham_vi: 'Đối chiếu Công báo số 157 ngày 24-03-2026 (congbao.chinhphu.vn id=469066), toàn văn PDF ký số (raw/download/congbaocdn.chinhphu.vn/72-2026-nd-cp.pdf, 6 trang, Phó Thủ tướng Hồ Đức Phớc ký, SHA-256 f24c3d3df4eeb56842898de5e14138c56a82e15640240fdc074951f6764f668e), wiki/sources/72-2026-nd-cp.md và Nghị quyết 43/2026/NQ-CP ngày 30-09-2026 (vanban.chinhphu.vn docid=219739) đã có trong sổ: ban hành và có hiệu lực từ 09-03-2026 (khoản 1 Điều 2 hiệu lực ban đầu đến 30-04-2026, khoản 2 Điều 2 cho phép Chính phủ ban hành Nghị quyết kéo dài); đã được kéo dài thời hạn áp dụng đến hết 31-12-2026 theo Nghị quyết 43/2026/NQ-CP'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu quy định tại Phụ lục II - Biểu thuế nhập khẩu ưu đãi theo Danh mục mặt hàng chịu thuế ban hành kèm theo Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan thành các mức thuế suất thuế nhập khẩu ưu đãi mới quy định tại Phụ lục ban hành kèm theo Nghị định này.'
+      trang_pdf: 1
+      sha256_pdf: f24c3d3df4eeb56842898de5e14138c56a82e15640240fdc074951f6764f668e
+    - dieu: 2
+      khoan: 1
+      noi_dung: '1. Nghị định này có hiệu lực kể từ ngày ký đến ngày 30 tháng 4 năm 2026. Sau ngày Nghị định này hết hiệu lực, mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu quy định tại Phụ lục ban hành kèm theo Nghị định này được thực hiện theo quy định tại Nghị định số 26/2023/NĐ-CP, trừ trường hợp quy định tại khoản 2 Điều này.'
+      trang_pdf: 2
+      sha256_pdf: f24c3d3df4eeb56842898de5e14138c56a82e15640240fdc074951f6764f668e
+    - dieu: 2
+      khoan: 2
+      noi_dung: '2. Trường hợp đáp ứng yêu cầu cấp bách về đảm bảo phát triển kinh tế xã hội, ổn định thị trường xăng, dầu cần phải kéo dài thời gian có hiệu lực của Nghị định, Bộ Công Thương có ý kiến đề xuất gửi Bộ Tài chính chủ trì, tổng hợp trình Chính phủ ban hành Nghị quyết quy phạm pháp luật để kéo dài thời hạn áp dụng của Nghị định này.'
+      trang_pdf: 2
+      sha256_pdf: f24c3d3df4eeb56842898de5e14138c56a82e15640240fdc074951f6764f668e
+    - dieu: 2
+      khoan: 3
+      noi_dung: '3. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này.'
+      trang_pdf: 2
+      sha256_pdf: f24c3d3df4eeb56842898de5e14138c56a82e15640240fdc074951f6764f668e
 ghi_chu: 'Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó. Tra 17-11-2026: chưa có NĐ/NQ kéo dài thuế suất NK ưu đãi xăng dầu sau hạn NQ 43 (hết 31-12-2026); NQ 353/NQ-CP giao BTC nghiên cứu chính sách thuế hết HL từ 01-01-2027. Tra lại 20-11-2026: xác nhận — chưa có NĐ/NQ kéo dài (tra danh mục NQ-CP trên vanban.chinhphu.vn đến 20-11-2026 không có NQ kéo dài mới sau NQ 43; việc kéo dài tuần tự trước đây đều qua NQ-CP như NQ 43, nên canh NQ-CP tháng 12/2026).'
-toan_van: raw/download/congbaocdn.chinhphu.vn/72-2026-nd-cp.pdf
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/72-2026-nd-cp.pdf
+  - wiki/sources/72-2026-nd-cp.md
