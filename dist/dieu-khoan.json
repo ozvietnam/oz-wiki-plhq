@@ -5,14 +5,82 @@
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
  "canh_bao_tang_nhap": "Tầng TOM_TAT_NHAP được trích tự động bởi LLM (da_soat: false) — CHỈ dùng để định vị điều khoản, KHÔNG trích dẫn nguyên văn hay làm căn cứ pháp lý; chỉ dùng NGUYEN_VAN_NGUON_A để trích dẫn căn cứ.",
  "thong_ke": {
-  "so_van_ban_nguon_a": 12,
-  "so_dieu_khoan_nguon_a": 133,
+  "so_van_ban_nguon_a": 15,
+  "so_dieu_khoan_nguon_a": 147,
   "so_van_ban_tom_tat_nhap": 88,
   "so_dieu_khoan_tom_tat_nhap": 4699,
   "so_tep_doc_hieu": 91,
   "so_dong_loi": 0
  },
  "nguyen_van_nguon_a": [
+  {
+   "so_hieu": "07/2023/NĐ-CP",
+   "slug": "07-2023-nd-cp",
+   "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 98/2021/NĐ-CP ngày 08 tháng 11 năm 2021 của Chính phủ về quản lý trang thiết bị y tế",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2023-03-03",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?docid=210028&pageid=27160",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "khoan": 1,
+     "noi_dung": "2. Chủ sở hữu số lưu hành là tổ chức công bố tiêu chuẩn áp dụng đối với trang thiết bị y tế hoặc tổ chức được cấp giấy chứng nhận đăng ký lưu hành đối với trang thiết bị y tế theo quy định của Nghị định này."
+    },
+    {
+     "dieu": 1,
+     "khoan": 11,
+     "noi_dung": "Điều 46. Nguyên tắc quản lý xuất khẩu, nhập khẩu trang thiết bị y tế 1. Tổ chức, cá nhân thực hiện việc xuất khẩu, nhập khẩu trang thiết bị y tế phải đáp ứng các điều kiện theo quy định của pháp luật về xuất khẩu, nhập khẩu và phải chịu trách nhiệm bảo đảm chất lượng, số lượng, chủng loại, mục đích sử dụng của trang thiết bị y tế mà mình xuất khẩu, nhập khẩu. 2. Trang thiết bị y tế đã có số lưu hành tại Việt Nam được xuất khẩu, nhập khẩu theo nhu cầu, không hạn chế số lượng và không phải qua Bộ Y tế phê duyệt. 3. Trang thiết bị y tế thuộc trường hợp quy định tại khoản 1 Điều 48 Nghị định này khi nhập khẩu để sử dụng tại Việt Nam phải có giấy phép nhập khẩu. 4. Trang thiết bị y tế không thuộc trường hợp quy định tại khoản 2 và khoản 3 Điều này khi đưa vào Việt Nam theo các hình thức khác thực hiện theo quy định của pháp luật về quản lý ngoại thương. 5. Việc cấp giấy chứng nhận lưu hành tự do áp dụng đối với trang thiết bị y tế theo quy định của pháp luật về quản lý ngoại thương. 6. Việc nhập khẩu trang thiết bị y tế đã qua sử dụng thực hiện theo quy định của pháp luật về quản lý ngoại thương."
+    },
+    {
+     "dieu": 1,
+     "khoan": 12,
+     "noi_dung": "Trang thiết bị y tế chưa có số lưu hành nhập khẩu để sử dụng tại cơ sở y tế được mua sắm từ nguồn vốn hỗ trợ phát triển chính thức (ODA) và vốn vay ưu đãi, viện trợ không hoàn lại không thuộc hỗ trợ phát triển chính thức."
+    },
+    {
+     "dieu": 1,
+     "khoan": 18,
+     "noi_dung": "Bắt buộc áp dụng Hồ sơ kỹ thuật chung về trang thiết bị y tế theo quy định của ASEAN (**Common Submission Dossier Template - CSDT**) từ ngày **01/01/2024**."
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "có hiệu lực thi hành kể từ ngày ký ban hành"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Bộ trưởng Bộ Y tế có trách nhiệm hướng dẫn, tổ chức và kiểm tra việc thi hành; các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch UBND cấp tỉnh và các cơ quan, tổ chức, cá nhân liên quan chịu trách nhiệm thi hành."
+    }
+   ]
+  },
+  {
+   "so_hieu": "108/2025/NĐ-CP",
+   "slug": "108-2025-nd-cp",
+   "ten": "Sửa đổi, bổ sung Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2025-05-19",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=213700&pageid=27160",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Sửa đổi mức thuế suất thuế xuất khẩu đối với mặt hàng clanhke xi măng quy định tại Phụ lục I - Biểu thuế xuất khẩu theo Danh mục mặt hàng chịu thuế ban hành kèm theo Nghị định số 26/2023/NĐ-CP thành các mức thuế suất thuế xuất khẩu mới quy định tại Phụ lục ban hành kèm theo Nghị định này."
+    },
+    {
+     "dieu": 2,
+     "khoan": 1,
+     "noi_dung": "1. Nghị định này có hiệu lực thi hành kể từ ngày ký ban hành"
+    },
+    {
+     "dieu": 2,
+     "khoan": 2,
+     "noi_dung": "2. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này."
+    }
+   ]
+  },
   {
    "so_hieu": "108/2025/QH15",
    "slug": "108-2025-qh15",
@@ -611,6 +679,52 @@
      "noi_dung": "Thông tư này có hiệu lực thi hành kể từ ngày 21 tháng 7 năm 2025.",
      "trang_pdf": 2,
      "sha256_pdf": "89a825d7012b59b87df57b5a47226f8b6435e16b99fb6352c7f22a9a25ab938f"
+    }
+   ]
+  },
+  {
+   "so_hieu": "34/2025/TT-BCT",
+   "slug": "34-2025-tt-bct",
+   "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 02/2018/TT-BCT ngày 27/02/2018 của Bộ trưởng Bộ Công Thương quy định chi tiết Danh mục hàng hóa mua bán, trao đổi của cư dân biên giới",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2025-07-21",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?docid=213832&pageid=27160",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "khoan": 1,
+     "noi_dung": "Sửa đổi, bổ sung khoản 1 Điều 2 như sau: “1. Cư dân biên giới mua bán, trao đổi hàng hóa qua biên giới quy định tại khoản 1 Điều 1 Nghị định số 122/2024/NĐ-CP”.",
+     "trang_pdf": 1,
+     "sha256_pdf": "519db348308624b6ca28c2053291cdf94f3c41162f62378449bb01485281a7f6"
+    },
+    {
+     "dieu": 1,
+     "khoan": 2,
+     "noi_dung": "Sửa đổi, bổ sung Điều 3 như sau: “Điều 3. Hàng hóa mua bán, trao đổi qua biên giới của cư dân biên giới 1. Hàng hóa xuất khẩu dưới hình thức mua bán, trao đổi của cư dân biên giới thực hiện theo quy định của pháp luật hiện hành.",
+     "trang_pdf": 1,
+     "sha256_pdf": "519db348308624b6ca28c2053291cdf94f3c41162f62378449bb01485281a7f6"
+    },
+    {
+     "dieu": 1,
+     "khoan": 2,
+     "noi_dung": "2. Hàng hóa được nhập khẩu dưới hình thức mua bán, trao đổi của cư dân biên giới quy định tại Phụ lục I kèm theo Thông tư này. 3. Các mặt hàng ngoài danh mục quy định tại khoản 2 Điều này không được nhập khẩu dưới hình thức mua bán, trao đổi hàng hóa của cư dân biên giới. 4. Trường hợp cần đảm bảo an toàn thực phẩm, phòng ngừa dịch bệnh qua biên giới, Bộ Công Thương sau khi trao đổi với các Bộ, ngành liên quan quyết định tạm ngừng nhập khẩu một số mặt hàng trong danh mục hàng hóa mua bán, trao đổi của cư dân biên giới ban hành theo quy định tại khoản 2 Điều này trên từng địa bàn với thời gian cụ thể”.",
+     "trang_pdf": 2,
+     "sha256_pdf": "519db348308624b6ca28c2053291cdf94f3c41162f62378449bb01485281a7f6"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Thay thế Phụ lục I Danh mục hàng hóa nhập khẩu dưới hình thức mua bán, trao đổi của cư dân biên giới tại Thông tư số 02/2018/TT-BCT bằng Phụ lục ban hành theo Thông tư này.",
+     "trang_pdf": 2,
+     "sha256_pdf": "519db348308624b6ca28c2053291cdf94f3c41162f62378449bb01485281a7f6"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Thông tư này có hiệu lực thi hành kể từ ngày 21 tháng 7 năm 2025.",
+     "trang_pdf": 2,
+     "sha256_pdf": "519db348308624b6ca28c2053291cdf94f3c41162f62378449bb01485281a7f6"
     }
    ]
   },
