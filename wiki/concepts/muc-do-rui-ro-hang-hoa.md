@@ -3,9 +3,11 @@ id: muc-do-rui-ro-hang-hoa
 title: "Mức độ rủi ro của hàng hoá (thấp – trung bình – cao)"
 type: concept
 created: 2026-10-04
-updated: 2026-10-13
+updated: 2026-11-21
 key_sources:
+  - 37-2026-nd-cp
   - 81-2019-tt-btc
+  - 117-qd-chq
   - 1921-qd-tchq
 related_concepts:
   - kiem-tra-nha-nuoc-an-toan-thuc-pham
@@ -18,7 +20,7 @@ tags: [kiem-tra-chuyen-nganh, chat-luong, 2026]
 
 ## Definition
 
-Từ 01/7/2026, hàng hoá thuộc phạm vi Luật Chất lượng sản phẩm, hàng hoá (05/2007/QH12, sửa đổi bởi 78/2025/QH15) được phân thành ba mức rủi ro theo Nghị định 37/2026/NĐ-CP, thay cho cách chia "nhóm 1 / nhóm 2" của Nghị định 132/2008/NĐ-CP. Nghĩa vụ của người nhập khẩu gắn theo mức rủi ro; mỗi bộ ban hành danh mục rủi ro trung bình và cao kèm mã HS.
+Từ 01/7/2026, hàng hoá thuộc phạm vi Luật Chất lượng sản phẩm, hàng hoá (05/2007/QH12, sửa đổi bởi 78/2025/QH15) được phân thành ba mức rủi ro theo Nghị định 37/2026/NĐ-CP, thay cho cách chia "nhóm 1 / nhóm 2" trước đây của Nghị định 132/2008/NĐ-CP (đã hết hiệu lực, bị bãi bỏ từ 01/7/2026). Nghĩa vụ của người nhập khẩu gắn theo mức rủi ro; mỗi bộ ban hành danh mục rủi ro trung bình và cao kèm mã HS.
 
 ## Variants
 
@@ -32,10 +34,10 @@ Lưu ý: Điều 86 Nghị định 37/2026/NĐ-CP nói về miễn, giảm kiể
 
 ## Key sources
 
-- [[sources/1921-qd-tchq]] — QĐ 1921/QĐ-TCHQ, Điều 3 khoản 1 điểm đ: riêng hàng hóa **phân luồng xanh** thì công chức hải quan kiểm tra theo chỉ dẫn rủi ro Vnaccs (chưa xác minh — bản bậc C).
+- [[sources/117-qd-chq]] — QĐ 117/QĐ-CHQ (hiệu lực từ 01/02/2026, nguồn B `THIEU_PDF_A`): quy trình hiện hành của Cục Hải quan về xác định trước mã số, kiểm tra phân loại và áp dụng mức thuế trong thông quan, áp dụng danh mục rủi ro phân loại (`2079/QĐ-TCHQ`) và đánh giá nghi vấn; đã **bãi bỏ** [[sources/1921-qd-tchq]] (`1921/QĐ-TCHQ`, đã hết hiệu lực từ 01/02/2026 — văn bản trước đây từng quy định chuyển thông tin rủi ro luồng xanh sang kiểm tra sau thông quan tại Điều 3 khoản 1 điểm đ).
 - [[sources/81-2019-tt-btc]] — TT 81/2019/TT-BTC, Điều 16: khung 3 mức rủi ro **trong nghiệp vụ hải quan** (rủi ro cao / trung bình / thấp) — khác với khung rủi ro kiểm tra chuyên ngành của NĐ 37/2026; Điều 22 cùng văn bản là nơi quy định **phân luồng tờ khai** theo mức rủi ro.
 
-Đã đối chiếu nguồn A ngày 13/10/2026 (PDF datafiles bậc A dạng ảnh, OCR lưu `raw/download/datafiles.chinhphu.vn/37-2026-nd-cp-body-ocr.txt`; sổ bật `hieu_luc_da_doi_chieu: true`): Điều 82 khoản 1 nguyên văn *"không phải thực hiện kiểm tra chất lượng khi nhập khẩu nhưng phải thực hiện công bố hợp quy"*; khoản 2 *"phải thực hiện đăng ký kiểm tra chất lượng theo quy định tại Điều 83"*; Điều 83 khoản 1 điểm b — thời hạn 01/07/05 ngày làm việc. Số hiệu neo sổ: `37/2026/NĐ-CP`, `05/2007/QH12`, `132/2008/NĐ-CP` (bị bãi từ 01/7/2026 theo Điều 97 khoản 2 điểm a).
+Đã đối chiếu nguồn A ngày 13/10/2026 (PDF datafiles bậc A dạng ảnh, OCR lưu `raw/download/datafiles.chinhphu.vn/37-2026-nd-cp-body-ocr.txt`; sổ bật `hieu_luc_da_doi_chieu: true`): Điều 82 khoản 1 nguyên văn *"không phải thực hiện kiểm tra chất lượng khi nhập khẩu nhưng phải thực hiện công bố hợp quy"*; khoản 2 *"phải thực hiện đăng ký kiểm tra chất lượng theo quy định tại Điều 83"*; Điều 83 khoản 1 điểm b — thời hạn 01/07/05 ngày làm việc. Số hiệu neo sổ: `37/2026/NĐ-CP`, `05/2007/QH12`, `132/2008/NĐ-CP` (đã hết hiệu lực, bị bãi bỏ từ 01/7/2026 theo Điều 97 khoản 2 điểm a Nghị định 37/2026/NĐ-CP).
 
 ## Related concepts
 

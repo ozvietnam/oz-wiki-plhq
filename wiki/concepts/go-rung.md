@@ -3,7 +3,7 @@ id: go-rung
 title: "Gỗ rừng và sản phẩm từ gỗ"
 type: concept
 created: 2026-10-09
-updated: 2026-10-09
+updated: 2026-11-21
 key_sources:
   - 17-2023-tt-bnnptnt
 related_concepts:
@@ -20,7 +20,7 @@ tags:
 
 ## Definition
 
-**Gỗ rừng + sản phẩm từ gỗ** từ các loài cây rừng nguy cấp, quý, hiếm. Quản lý theo **Luật Lâm nghiệp 2017** (sửa 2025), **NĐ 105/2022/NĐ-CP**, **TT 17/2023/TT-BNNPTNT**, **CITES**.
+**Gỗ rừng + sản phẩm từ gỗ** từ các loài cây rừng nguy cấp, quý, hiếm. Quản lý theo **Luật Lâm nghiệp 2017** (sửa đổi, bổ sung tại **146/2025/QH15**), **NĐ 06/2019/NĐ-CP**, **NĐ 102/2020/NĐ-CP**, **NĐ 35/2025/NĐ-CP** (chức năng, cơ cấu Bộ Nông nghiệp và Môi trường), **TT 17/2023/TT-BNNPTNT**, **TT 26/2025/TT-BNNMT**, **CITES**.
 
 ## Phân nhóm theo nguồn gốc
 
@@ -108,8 +108,11 @@ tags:
 ## Key sources
 
 - [[sources/17-2023-tt-bnnptnt]] — Bảng mã HS
-- **Luật Lâm nghiệp 2017** (sửa 2025)
-- **NĐ 105/2022/NĐ-CP**
+- **Luật Lâm nghiệp 2017** (sửa đổi, bổ sung tại **146/2025/QH15**)
+- **NĐ 06/2019/NĐ-CP** — Quản lý thực vật rừng, động vật rừng nguy cấp, quý, hiếm và thực thi CITES
+- **NĐ 102/2020/NĐ-CP** — Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS)
+- **NĐ 35/2025/NĐ-CP** — Chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nông nghiệp và Môi trường (hiệu lực từ 01/3/2025, thay thế cho tiền thân `105/2022/NĐ-CP` của Bộ NN&PTNT cũ đã hết hiệu lực từ 01/3/2025)
+- **TT 26/2025/TT-BNNMT** — Quản lý lâm sản (hiệu lực từ 01/7/2025)
 
 ## Related concepts
 

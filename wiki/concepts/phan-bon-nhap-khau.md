@@ -3,7 +3,7 @@ id: phan-bon-nhap-khau
 title: "Phân bón nhập khẩu"
 type: concept
 created: 2026-10-09
-updated: 2026-10-09
+updated: 2026-11-21
 key_sources:
   - 27-2026-tt-bnnmt
   - 27-2026-tt-bnnmt-pl1
@@ -41,7 +41,7 @@ tags:
 
 1. **Kiểm tra chất lượng** (PL I → công bố hợp quy)
 2. **Công bố hợp quy** tại Sở NN&PTNT địa phương
-3. **Ghi nhãn** theo Nghị định 43/2017/NĐ-CP
+3. **Ghi nhãn** theo khung quản lý nhãn hàng hóa tại Nghị định 37/2026/NĐ-CP (chuyển tiếp Điều 98 khoản 3–4; lưu ý `43/2017/NĐ-CP` đã hết hiệu lực và bị bãi bỏ từ 23/01/2026 theo Điều 97 khoản 4 điểm b `37/2026/NĐ-CP`; văn bản chi tiết mới về nhãn phụ tiếng Việt chưa xác minh trong sổ)
 4. **MSDS** nếu có tính nguy hiểm
 5. **Lưu hành tự do** trong toàn quốc
 
@@ -56,7 +56,7 @@ tags:
 
 - [[sources/27-2026-tt-bnnmt-pl1]] — PL I
 - [[sources/27-2026-tt-bnnmt]] — VB chính
-- **NĐ 43/2017/NĐ-CP** — nhãn hàng hóa
+- **NĐ 37/2026/NĐ-CP** — khung chất lượng và quản lý nhãn hàng hóa (Điều 82, 83, 93, 98; bãi bỏ tiền thân `43/2017/NĐ-CP` đã hết hiệu lực từ 23/01/2026 theo Điều 97 khoản 4 điểm b)
 - **Luật Trồng trọt 2018** — quản lý phân bón
 
 ## Related concepts
