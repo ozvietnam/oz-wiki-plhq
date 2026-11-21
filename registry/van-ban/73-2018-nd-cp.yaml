@@ -20,9 +20,46 @@ nguon:
     truy_cap: '2026-11-12'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'đã đối chiếu toàn văn 40 trang trên Công báo (số 677+678 ngày 05/06/2018, Thủ tướng Nguyễn Xuân Phúc ký) và CSDLQG vbpl.vn (ID 135762): số hiệu, tên, ngày ban hành 15/05/2018, Điều 2 khoản 1 hiệu lực từ ngày ký ban hành 15/05/2018 (khoản 2 thay thế NĐ 82/2013/NĐ-CP và NĐ 126/2015/NĐ-CP); được sửa đổi, bổ sung một phần bởi Nghị định 60/2020/NĐ-CP; hết hiệu lực toàn bộ từ 25/08/2022 khi bị Điều 2 khoản 2 Nghị định 57/2022/NĐ-CP thay thế (vbpl.vn effTo 2022-08-25, effStatus HHL)'
+  pham_vi: 'đã đối chiếu toàn văn 40 trang trên Công báo (số 677+678 ngày 05/06/2018, Thủ tướng Nguyễn Xuân Phúc ký, raw/download/congbaocdn.chinhphu.vn/73-2018-nd-cp.pdf, SHA-256 f1ced25ac9c10a43dd0ae94ff8ecc3a491b6494b7099f137cec44ee4081c50f5), wiki/sources/73-2018-nd-cp.md và CSDLQG vbpl.vn (ID 135762): số hiệu, tên, ngày ban hành 15/05/2018, Điều 2 khoản 1 hiệu lực từ ngày ký ban hành 15/05/2018 (khoản 2 thay thế NĐ 82/2013/NĐ-CP và NĐ 126/2015/NĐ-CP); được sửa đổi, bổ sung một phần bởi Nghị định 60/2020/NĐ-CP; hết hiệu lực toàn bộ từ 25/08/2022 khi bị Điều 2 khoản 2 Nghị định 57/2022/NĐ-CP thay thế (vbpl.vn effTo 2022-08-25, effStatus HHL)'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-12'
-  boi: bo-ba-01@ozvietnam
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Ban hành kèm theo Nghị định này các danh mục chất ma túy và tiền chất sau đây: Danh mục I: Các chất ma túy tuyệt đối cấm sử dụng trong y học và đời sống xã hội; việc sử dụng các chất này trong phân tích, kiểm nghiệm, nghiên cứu khoa học, điều tra tội phạm theo quy định đặc biệt của cơ quan có thẩm quyền. Danh mục II: Các chất ma túy được dùng hạn chế trong phân tích, kiểm nghiệm, nghiên cứu khoa học, điều tra tội phạm hoặc trong lĩnh vực y tế theo quy định của cơ quan có thẩm quyền. Danh mục III: Các chất ma túy được dùng trong phân tích, kiểm nghiệm, nghiên cứu khoa học, điều tra tội phạm hoặc trong lĩnh vực y tế, thú y theo quy định của cơ quan có thẩm quyền. Danh mục IV: Các tiền chất. Các tiền chất sử dụng vì mục đích quốc phòng, an ninh do Bộ Công an quản lý và cấp phép xuất khẩu, nhập khẩu.'
+      trang_pdf: 1
+      sha256_pdf: f1ced25ac9c10a43dd0ae94ff8ecc3a491b6494b7099f137cec44ee4081c50f5
+    - dieu: 2
+      khoan: 1
+      noi_dung: '1. Nghị định này có hiệu lực thi hành kể từ ngày ký ban hành.'
+      trang_pdf: 2
+      sha256_pdf: f1ced25ac9c10a43dd0ae94ff8ecc3a491b6494b7099f137cec44ee4081c50f5
+    - dieu: 2
+      khoan: 2
+      noi_dung: '2. Nghị định số 82/2013/NĐ-CP ngày 19 tháng 7 năm 2013 của Chính phủ ban hành các danh mục chất ma túy và tiền chất và Nghị định số 126/2015/NĐ-CP ngày 09 tháng 12 năm 2015 của Chính phủ sửa đổi, bổ sung danh mục các chất ma túy và tiền chất ban hành kèm theo Nghị định số 82/2013/NĐ-CP ngày 19 tháng 7 năm 2013 của Chính phủ ban hành các danh mục chất ma túy và tiền chất hết hiệu lực kể từ ngày Nghị định này có hiệu lực.'
+      trang_pdf: 2
+      sha256_pdf: f1ced25ac9c10a43dd0ae94ff8ecc3a491b6494b7099f137cec44ee4081c50f5
+    - dieu: 2
+      khoan: 3
+      noi_dung: '3. Các tổ chức, cá nhân kinh doanh hai tiền chất N-Phenethyl-4-piperidinone (NPP) và 4-ANPP thực hiện các quy định về quản lý tiền chất theo Nghị định này và các văn bản có liên quan kể từ ngày 01 tháng 7 năm 2018.'
+      trang_pdf: 2
+      sha256_pdf: f1ced25ac9c10a43dd0ae94ff8ecc3a491b6494b7099f137cec44ee4081c50f5
+    - dieu: 3
+      khoan: 1
+      noi_dung: '1. Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương chịu trách nhiệm thi hành Nghị định này.'
+      trang_pdf: 2
+      sha256_pdf: f1ced25ac9c10a43dd0ae94ff8ecc3a491b6494b7099f137cec44ee4081c50f5
+    - dieu: 3
+      khoan: 2
+      noi_dung: '2. Bộ Nông nghiệp và Phát triển nông thôn có trách nhiệm quản lý các thuốc thú y có chứa chất ma túy và tiền chất theo quy định tại Nghị định số 58/2003/NĐ-CP ngày 29 tháng 5 năm 2003 của Chính phủ quy định về kiểm soát nhập khẩu, xuất khẩu, vận chuyển quá cảnh lãnh thổ Việt Nam chất ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần và Nghị định số 80/2001/NĐ-CP ngày 05 tháng 11 năm 2001 của Chính phủ hướng dẫn việc kiểm soát các hoạt động hợp pháp liên quan đến ma túy ở trong nước.'
+      trang_pdf: 2
+      sha256_pdf: f1ced25ac9c10a43dd0ae94ff8ecc3a491b6494b7099f137cec44ee4081c50f5
+    - dieu: 3
+      khoan: 3
+      noi_dung: '3. Khi phát hiện chất mới chưa có trong các danh mục chất ma túy và tiền chất ban hành kèm theo Nghị định này liên quan đến việc sản xuất, điều chế, sử dụng chất ma túy hoặc theo quy định tại 03 Công ước của Liên hợp quốc về phòng, chống ma túy thì Bộ Công an có trách nhiệm chủ trì, phối hợp với Bộ Y tế, Bộ Công Thương, Bộ Khoa học và Công nghệ, Bộ Nông nghiệp và Phát triển nông thôn và các cơ quan có liên quan xem xét, trình Chính phủ sửa đổi, bổ sung và công bố các danh mục đó./.'
+      trang_pdf: 2
+      sha256_pdf: f1ced25ac9c10a43dd0ae94ff8ecc3a491b6494b7099f137cec44ee4081c50f5
 ghi_chu: Nạp từ điểm mù CAO (OZV-556) — văn bản gốc bị thay thế bởi Nghị định 57/2022/NĐ-CP từ 25/08/2022.
-toan_van: raw/download/congbaocdn.chinhphu.vn/73-2018-nd-cp.pdf
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/73-2018-nd-cp.pdf
+  - wiki/sources/73-2018-nd-cp.md
