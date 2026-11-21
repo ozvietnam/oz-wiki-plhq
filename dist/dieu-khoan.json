@@ -5,8 +5,8 @@
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
  "canh_bao_tang_nhap": "Tầng TOM_TAT_NHAP được trích tự động bởi LLM (da_soat: false) — CHỈ dùng để định vị điều khoản, KHÔNG trích dẫn nguyên văn hay làm căn cứ pháp lý; chỉ dùng NGUYEN_VAN_NGUON_A để trích dẫn căn cứ.",
  "thong_ke": {
-  "so_van_ban_nguon_a": 42,
-  "so_dieu_khoan_nguon_a": 455,
+  "so_van_ban_nguon_a": 45,
+  "so_dieu_khoan_nguon_a": 494,
   "so_van_ban_tom_tat_nhap": 88,
   "so_dieu_khoan_tom_tat_nhap": 4699,
   "so_tep_doc_hieu": 91,
@@ -1597,6 +1597,37 @@
    ]
   },
   {
+   "so_hieu": "28/2026/NĐ-CP",
+   "slug": "28-2026-nd-cp",
+   "ten": "Quy định các danh mục chất ma túy và tiền chất",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-01-19",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216717",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Ban hành kèm theo Nghị định này Phụ lục các danh mục chất ma túy và tiền chất sau đây: Danh mục I: Các chất ma túy tuyệt đối cấm sử dụng trong y học và đời sống xã hội; việc sử dụng các chất này trong nghiên cứu, kiểm nghiệm, giám định, vì mục đích quốc phòng, an ninh theo quy định đặc biệt của cơ quan có thẩm quyền: IA. Các chất gây nghiện và muối, đồng phân, ester, ether và muối của các đồng phân, ester, ether có thể tồn tại của các chất sau (trừ khi ester, ether của chất đó nằm trong danh mục khác); IB. Các chất hướng thần và muối, đồng phân, muối của đồng phân có thể tồn tại của các chất sau. Danh mục II: Các chất ma túy được sử dụng hạn chế trong nghiên cứu, kiểm nghiệm, giám định, vì mục đích quốc phòng, an ninh hoặc trong lĩnh vực y tế theo quy định của cơ quan có thẩm quyền: IIA. Các chất gây nghiện và muối, đồng phân, ester, ether, muối của các đồng phân, ester, ether có thể tồn tại của các chất sau (trừ khi ester, ether của chất đó nằm trong danh mục khác); IIB. Các chất hướng thần và muối, đồng phân, muối của đồng phân có thể tồn tại của các chất sau. Danh mục III: Các chất ma túy được sử dụng trong nghiên cứu, kiểm nghiệm, giám định, vì mục đích quốc phòng, an ninh hoặc trong lĩnh vực y tế, thú y theo quy định của cơ quan có thẩm quyền. Các chất hướng thần và muối, đồng phân, muối của đồng phân có thể tồn tại của các chất sau. Danh mục IV: Các tiền chất: IVA: Các tiền chất thiết yếu, tham gia vào cấu trúc chất ma túy, không có ứng dụng hợp pháp trong y học và đời sống xã hội, được sử dụng hạn chế trong nghiên cứu, kiểm nghiệm, giám định, vì mục đích quốc phòng, an ninh theo quy định đặc biệt của cơ quan có thẩm quyền; IVB: Các tiền chất thiết yếu, tham gia vào cấu trúc chất ma túy, có ứng dụng hợp pháp trong y học và đời sống xã hội; IVC: Các tiền chất là hóa chất, dung môi, chất xúc tác dùng trong quá trình sản xuất chất ma túy.",
+     "trang_pdf": 1,
+     "sha256_pdf": "a053fce94b36ea3a660962bb4fab41e5296cbf0636872895c07758bd685a6c24"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "1. Bộ Công an có trách nhiệm quản lý nhà nước các chất ma túy, tiền chất phục vụ nghiên cứu, kiểm nghiệm, giám định (trừ các chất ma túy, tiền chất được sử dụng trong lĩnh vực y tế, nông nghiệp và môi trường thuộc phạm vi quản lý của Bộ Y tế, Bộ Nông nghiệp và Môi trường; các tiền chất được sử dụng trong lĩnh vực công nghiệp, quốc phòng thuộc phạm vi quản lý của Bộ Công Thương, Bộ Quốc phòng) và vì mục đích quốc phòng, an ninh. 2. Bộ Công Thương có trách nhiệm quản lý nhà nước về các tiền chất sử dụng trong lĩnh vực công nghiệp. 3. Bộ Y tế có trách nhiệm ban hành danh mục và quản lý nhà nước về các chất ma túy, tiền chất được sử dụng trong lĩnh vực y tế. 4. Bộ Nông nghiệp và Môi trường có trách nhiệm ban hành danh mục và quản lý nhà nước các chất ma túy, tiền chất được sử dụng trong lĩnh vực nông nghiệp và môi trường. 5. Bộ Quốc phòng có trách nhiệm quản lý nhà nước về các tiền chất được sử dụng trong lĩnh vực quốc phòng.",
+     "trang_pdf": 2,
+     "sha256_pdf": "a053fce94b36ea3a660962bb4fab41e5296cbf0636872895c07758bd685a6c24"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "1. Nghị định này có hiệu lực thi hành từ ngày 19 tháng 01 năm 2026. 2. Nghị định số 57/2022/NĐ-CP ngày 25 tháng 8 năm 2022 của Chính phủ quy định các danh mục chất ma túy và tiền chất; Nghị định số 90/2024/NĐ-CP ngày 17 tháng 7 năm 2024 sửa đổi, bổ sung danh mục chất ma túy và tiền chất ban hành kèm theo Nghị định số 57/2022/NĐ-CP ngày 25 tháng 8 năm 2022 của Chính phủ quy định các danh mục chất ma túy và tiền chất hết hiệu lực kể từ ngày Nghị định này có hiệu lực thi hành. 3. Các tổ chức, cá nhân sản xuất, kinh doanh hợp pháp Carisoprodol, Etomidate thực hiện các quy định về quản lý chất ma túy theo Nghị định này và các văn bản có liên quan kể từ ngày 01 tháng 6 năm 2026. 4. Các tổ chức, cá nhân sản xuất, kinh doanh hợp pháp 1,4-Butanediol thực hiện các quy định về quản lý tiền chất theo Nghị định này và các văn bản có liên quan trước ngày 31 tháng 12 năm 2026. 5. Bộ trưởng Bộ Công an, các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này. 6. Khi phát hiện chất mới chưa có trong các danh mục chất ma túy và tiền chất ban hành kèm theo Nghị định này liên quan đến mục đích bất hợp pháp hoặc theo quy định tại ba Công ước của Liên hợp quốc về phòng, chống ma túy thì Bộ Công an có trách nhiệm chủ trì, phối hợp với Bộ Y tế, Bộ Công Thương, Bộ Khoa học và Công nghệ, Bộ Nông nghiệp và Môi trường, Bộ Quốc phòng và các cơ quan có liên quan xem xét, trình Chính phủ sửa đổi, bổ sung và công bố các danh mục đó.",
+     "trang_pdf": 3,
+     "sha256_pdf": "a053fce94b36ea3a660962bb4fab41e5296cbf0636872895c07758bd685a6c24"
+    }
+   ]
+  },
+  {
    "so_hieu": "28/2026/TT-BCT",
    "slug": "28-2026-tt-bct",
    "ten": "Ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã số HS) thực hiện kiểm tra nhà nước về an toàn thực phẩm thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
@@ -2350,6 +2381,259 @@
      "noi_dung": "Thông tư này có hiệu lực thi hành kể từ ngày 21 tháng 7 năm 2025.",
      "trang_pdf": 2,
      "sha256_pdf": "519db348308624b6ca28c2053291cdf94f3c41162f62378449bb01485281a7f6"
+    }
+   ]
+  },
+  {
+   "so_hieu": "342/2026/NĐ-CP",
+   "slug": "342-2026-nd-cp",
+   "ten": "Quy định chi tiết Luật Thương mại và Luật Quản lý ngoại thương về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-10-18",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=219372",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Nghị định này quy định chi tiết Điều 22 Luật Thương mại và Điều 5 Luật Quản lý ngoại thương về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam.",
+     "trang_pdf": 1,
+     "sha256_pdf": "22f16f75c82b06e47a8f9d1af0b42e04b38a19e307e4aec7ff7d0fb6347fe30b"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Nghị định này áp dụng đối với nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài, cơ quan, tổ chức, cá nhân có liên quan đến hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam.",
+     "trang_pdf": 1,
+     "sha256_pdf": "22f16f75c82b06e47a8f9d1af0b42e04b38a19e307e4aec7ff7d0fb6347fe30b"
+    },
+    {
+     "dieu": 3,
+     "khoan": 1,
+     "noi_dung": "Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: 1. Hàng hóa là các loại động sản thuộc phạm vi cam kết của Việt Nam về quyền xuất khẩu, quyền nhập khẩu, quyền phân phối bán buôn và quyền phân phối bán lẻ trong các Điều ước quốc tế mà Việt Nam là thành viên. 2. Hoạt động mua bán hàng hóa bao gồm: a) Thực hiện quyền xuất khẩu; b) Thực hiện quyền nhập khẩu; c) Thực hiện quyền phân phối. 3. Các hoạt động liên quan trực tiếp đến mua bán hàng hóa bao gồm: a) Cung cấp dịch vụ giám định thương mại; b) Cung cấp dịch vụ logistics; c) Cho thuê hàng hóa, không bao gồm: cho thuê tài chính, cho thuê trang thiết bị xây dựng có người vận hành; d) Cung cấp dịch vụ xúc tiến thương mại, không bao gồm dịch vụ quảng cáo; đ) Cung cấp dịch vụ trung gian thương mại, không bao gồm hoạt động đại lý bán buôn, đại lý bán lẻ hàng hóa; e) Quản lý và vận hành nền tảng thương mại điện tử trung gian, mạng xã hội hoạt động thương mại điện tử, nền tảng thương mại tích hợp. g) Cung cấp dịch vụ tổ chức đấu thầu hàng hóa, dịch vụ. 4. Quyền xuất khẩu là quyền mua hàng hóa tại Việt Nam để xuất khẩu, bao gồm quyền đứng tên trên tờ khai hàng hóa xuất khẩu để thực hiện và chịu trách nhiệm về các thủ tục liên quan đến xuất khẩu. Quyền xuất khẩu không bao gồm quyền mua hàng hóa từ các đối tượng không phải là thương nhân để xuất khẩu, trừ trường hợp pháp luật Việt Nam hoặc Điều ước quốc tế mà Việt Nam là thành viên có quy định khác. 5. Quyền nhập khẩu là quyền được nhập khẩu hàng hóa từ nước ngoài vào Việt Nam để bán cho thương nhân có quyền phân phối hàng hóa đó tại Việt Nam, bao gồm quyền đứng tên trên tờ khai hàng hóa nhập khẩu để thực hiện và chịu trách nhiệm về các thủ tục liên quan đến nhập khẩu. Quyền nhập khẩu không bao gồm quyền tổ chức hoặc tham gia hệ thống phân phối hàng hóa tại Việt Nam, trừ trường hợp pháp luật Việt Nam hoặc Điều ước quốc tế mà Việt Nam là thành viên có quy định khác. 6. Phân phối là các hoạt động bán buôn, bán lẻ, đại lý bán hàng hóa và nhượng quyền thương mại trong lĩnh vực phân phối. 7. Quyền phân phối là quyền thực hiện trực tiếp các hoạt động phân phối. 8. Bán buôn là hoạt động bán hàng hóa cho thương nhân bán buôn, thương nhân bán lẻ và thương nhân, tổ chức khác, có bao gồm đại lý bán buôn nhưng không bao gồm hoạt động bán lẻ. 9. Bán lẻ là hoạt động bán hàng hóa cho cá nhân, hộ gia đình, tổ chức khác để sử dụng vào mục đích tiêu dùng, có bao gồm đại lý bán lẻ.",
+     "trang_pdf": 2,
+     "sha256_pdf": "22f16f75c82b06e47a8f9d1af0b42e04b38a19e307e4aec7ff7d0fb6347fe30b"
+    },
+    {
+     "dieu": 4,
+     "noi_dung": "1. Nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài thực hiện hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa tại Việt Nam phải tuân thủ các quy định tại Nghị định này; trường hợp Điều ước quốc tế mà Việt Nam là thành viên có quy định khác với quy định tại Nghị định này thì áp dụng quy định của Điều ước quốc tế đó. 2. Tổ chức kinh tế có vốn đầu tư nước ngoài thực hiện hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa tại Việt Nam, ngoài việc tuân thủ các quy định tại Nghị định này còn phải tuân thủ các quy định của pháp luật khác có liên quan.",
+     "trang_pdf": 4,
+     "sha256_pdf": "22f16f75c82b06e47a8f9d1af0b42e04b38a19e307e4aec7ff7d0fb6347fe30b"
+    },
+    {
+     "dieu": 5,
+     "noi_dung": "1. Giấy phép kinh doanh được cấp cho tổ chức kinh tế có vốn đầu tư nước ngoài để thực hiện các hoạt động sau: a) Thực hiện quyền phân phối bán lẻ hàng hóa, không bao gồm hàng hóa quy định tại điểm d khoản 4 Điều 9 Nghị định này; b) Thực hiện quyền nhập khẩu, quyền phân phối bán buôn hàng hóa quy định tại điểm c khoản 4 Điều 9 Nghị định này; c) Thực hiện quyền phân phối bán lẻ hàng hóa quy định tại điểm d khoản 4 Điều 9 Nghị định này; d) Cung cấp dịch vụ logistics; trừ các phân ngành dịch vụ logistics mà Việt Nam có cam kết mở cửa thị trường trong các Điều ước quốc tế mà Việt Nam là thành viên; đ) Cho thuê hàng hóa, không bao gồm cho thuê tài chính; trừ cho thuê trang thiết bị xây dựng có người vận hành; e) Cung cấp dịch vụ xúc tiến thương mại, không bao gồm dịch vụ quảng cáo; g) Cung cấp dịch vụ trung gian thương mại; h) Quản lý và vận hành nền tảng thương mại điện tử trung gian, mạng xã hội hoạt động thương mại điện tử, nền tảng thương mại tích hợp; i) Cung cấp dịch vụ tổ chức đấu thầu hàng hóa, dịch vụ. 2. Giấy phép lập cơ sở bán lẻ được cấp cho tổ chức kinh tế có vốn đầu tư nước ngoài để lập cơ sở bán lẻ. 3. Tổ chức kinh tế có vốn đầu tư nước ngoài có quyền đề nghị cấp Giấy phép lập cơ sở bán lẻ sau khi có Giấy phép kinh doanh và tài liệu về địa điểm lập cơ sở bán lẻ. 4. Trường hợp địa điểm lập cơ sở bán lẻ thứ nhất cùng tỉnh/thành phố trực thuộc trung ương với trụ sở chính, tổ chức kinh tế có vốn đầu tư nước ngoài có quyền đề nghị cấp Giấy phép kinh doanh đồng thời với cấp Giấy phép lập cơ sở bán lẻ thứ nhất. Hồ sơ, trình tự thực hiện theo quy định tại Điều 19 Nghị định này. 5. Tổ chức kinh tế thuộc trường hợp quy định tại khoản 1 Điều 20 Luật Đầu tư phải đáp ứng điều kiện và thực hiện: thủ tục cấp Giấy phép kinh doanh khi thực hiện các hoạt động phải cấp Giấy phép kinh doanh; thủ tục cấp Giấy phép lập cơ sở bán lẻ khi lập cơ sở bán lẻ, theo quy định tại Nghị định này. 6. Tổ chức kinh tế có cơ sở bán lẻ tại Việt Nam, sau khi nhận vốn góp trở thành tổ chức kinh tế có vốn đầu tư nước ngoài, tổ chức kinh tế thuộc trường hợp quy định tại khoản 1 Điều 20 Luật Đầu tư phải làm thủ tục cấp Giấy phép kinh doanh, Giấy phép lập cơ sở bán lẻ. a) Hồ sơ, trình tự cấp Giấy phép kinh doanh đối với trường hợp này thực hiện theo quy định tại Điều 11 và 12 Nghị định này. b) Hồ sơ, trình tự cấp Giấy phép lập cơ sở bán lẻ cho phép cơ sở bán lẻ được tiếp tục hoạt động thực hiện theo quy định tại Điều 36 Nghị định này. c) Trong quá trình thực hiện trình tự, thủ tục cấp Giấy phép lập cơ sở bán lẻ cho phép cơ sở bán lẻ được tiếp tục hoạt động, tổ chức kinh tế đã nhận phần vốn góp, cổ phần của nhà đầu tư nước ngoài được tiếp tục thực hiện hoạt động bán lẻ tại các cơ sở bán lẻ đang hoạt động cho đến khi được cấp Giấy phép kinh doanh, Giấy phép lập cơ sở bán lẻ theo quy định tại Nghị định này, nhưng tối đa không quá 12 tháng kể từ ngày trên giấy tờ pháp lý, văn bản xác nhận của cơ quan có thẩm quyền về việc nhà đầu tư nước ngoài đáp ứng điều kiện góp vốn, mua cổ phần, mua lại phần vốn góp, theo quy định pháp luật về đăng ký đầu tư, đăng ký doanh nghiệp.",
+     "trang_pdf": 5,
+     "sha256_pdf": "22f16f75c82b06e47a8f9d1af0b42e04b38a19e307e4aec7ff7d0fb6347fe30b"
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "1. Ngoài các hoạt động thuộc trường hợp phải cấp Giấy phép kinh doanh quy định tại khoản 1 Điều 5 Nghị định này, tổ chức kinh tế có vốn đầu tư nước ngoài, tổ chức kinh tế thuộc trường hợp quy định tại khoản 1 Điều 20 Luật Đầu tư được quyền thực hiện hoạt động mua bán hàng hóa quy định tại khoản 2 Điều 3 Nghị định này sau khi đăng ký thực hiện các hoạt động đó tại các văn bản được cấp bởi cơ quan có thẩm quyền theo quy định của Luật Đầu tư, Luật Doanh nghiệp. 2. Trường hợp nhà đầu tư nước ngoài không thuộc nước, vùng lãnh thổ tham gia Điều ước quốc tế mà Việt Nam là thành viên có cam kết mở cửa thị trường, đăng ký thực hiện hoạt động mua bán hàng hóa quy định tại khoản 1 Điều này, cơ quan nhà nước có thẩm quyền lấy ý kiến Ủy ban nhân dân cấp tỉnh trước khi cấp, thay đổi đăng ký thực hiện các hoạt động đó tại các giấy tờ do cơ quan có thẩm quyền cấp theo quy định của Luật Đầu tư, Luật Doanh nghiệp.",
+     "trang_pdf": 6,
+     "sha256_pdf": "22f16f75c82b06e47a8f9d1af0b42e04b38a19e307e4aec7ff7d0fb6347fe30b"
+    },
+    {
+     "dieu": 7,
+     "noi_dung": "1. Tổ chức kinh tế có vốn đầu tư nước ngoài đã có quyền xuất khẩu, được xuất khẩu ra nước ngoài và khu vực hải quan riêng các hàng hóa: Hàng hóa mua tại Việt Nam; hàng hóa do tổ chức kinh tế đó đặt gia công tại Việt Nam và hàng hóa nhập khẩu hợp pháp vào Việt Nam, theo các điều kiện sau: a) Hàng hóa xuất khẩu không thuộc danh mục hàng hóa cấm xuất khẩu, danh mục hàng hóa tạm ngừng xuất khẩu, danh mục hàng hóa không được quyền xuất khẩu trong các Điều ước quốc tế mà Việt Nam là thành viên; b) Đối với hàng hóa xuất khẩu thuộc danh mục hàng hóa xuất khẩu theo giấy phép, theo điều kiện, tổ chức kinh tế có vốn đầu tư nước ngoài phải có giấy phép hoặc đáp ứng đủ các điều kiện theo quy định của pháp luật. 2. Tổ chức kinh tế có vốn đầu tư nước ngoài đã có quyền nhập khẩu, được nhập khẩu hàng hóa từ nước ngoài và khu vực hải quan riêng vào Việt Nam, theo các điều kiện sau: a) Hàng hóa nhập khẩu không thuộc danh mục hàng hóa cấm nhập khẩu, danh mục hàng hóa tạm ngừng nhập khẩu, danh mục hàng hóa không được quyền nhập khẩu trong các Điều ước quốc tế mà Việt Nam là thành viên; b) Đối với hàng hóa nhập khẩu thuộc danh mục hàng hóa nhập khẩu theo giấy phép, theo điều kiện, tổ chức kinh tế có vốn đầu tư nước ngoài phải có giấy phép hoặc đáp ứng đủ các điều kiện theo quy định của pháp luật. 3. Thủ tục xuất khẩu, nhập khẩu hàng hóa để thực hiện quyền xuất khẩu, quyền nhập khẩu thực hiện theo quy định pháp luật về quản lý xuất nhập khẩu. 4. Tổ chức kinh tế có vốn đầu tư nước ngoài đã có quyền phân phối bán buôn, quyền phân phối bán lẻ, được bán buôn, bán lẻ hàng hóa sản xuất, gia công tại Việt Nam và hàng hóa nhập khẩu hợp pháp vào Việt Nam. 5. Đối với ngành, nghề đầu tư kinh doanh có điều kiện, tổ chức kinh tế có vốn đầu tư nước ngoài được thực hiện hoạt động kinh doanh khi đáp ứng đủ các điều kiện theo quy định của pháp luật.",
+     "trang_pdf": 6,
+     "sha256_pdf": "22f16f75c82b06e47a8f9d1af0b42e04b38a19e307e4aec7ff7d0fb6347fe30b"
+    },
+    {
+     "dieu": 8,
+     "noi_dung": "1. Ủy ban nhân dân cấp tỉnh nơi tổ chức kinh tế có vốn đầu tư nước ngoài đặt trụ sở chính thực hiện việc: cấp, cấp lại, điều chỉnh, thu hồi Giấy phép kinh doanh. 2. Ủy ban nhân dân cấp tỉnh nơi tổ chức kinh tế có vốn đầu tư nước ngoài đặt cơ sở bán lẻ thực hiện việc: cấp, cấp lại, điều chỉnh, gia hạn, thu hồi Giấy phép lập cơ sở bán lẻ. 3. Cơ quan cấp Giấy phép lấy ý kiến của Bộ Công an và Bộ Quốc phòng về vấn đề an ninh quốc gia trong các trường hợp sau: a) Trường hợp quy định tại khoản 2, điểm b khoản 3, điểm b khoản 4 Điều 9; b) Nhà đầu tư nước ngoài chi phối tổ chức kinh tế là chủ quản nền tảng thương mại điện tử trung gian, mạng xã hội hoạt động thương mại điện tử, nền tảng thương mại điện tử tích hợp là nền tảng số lớn theo quy định pháp luật về bảo vệ người tiêu dùng và thương mại điện tử. c) Nhà đầu tư nước ngoài đề nghị: Cấp Giấy phép lập cơ sở bán lẻ cho phép cơ sở bán lẻ được tiếp tục hoạt động cho: 100 cơ sở bán lẻ có diện tích bán hàng của mỗi cơ sở dưới 500 m2 và/hoặc 50 cơ sở bán lẻ có diện tích bán hàng của mỗi cơ sở từ 500 m2 đến dưới 3.000 m2 và/hoặc 30 cơ sở bán lẻ có diện tích bán hàng của mỗi cơ sở từ 3.000 m2 trở lên, tại Việt Nam; Cấp Giấy phép lập cơ sở bán lẻ mới khi đang sở hữu hoặc tham gia sở hữu từ 100 cơ sở bán lẻ có diện tích bán hàng của mỗi cơ sở dưới 500 m2 và/hoặc 50 cơ sở bán lẻ có diện tích bán hàng của mỗi cơ sở từ 500 m2 đến dưới 3.000 m2 và/hoặc 30 cơ sở bán lẻ có diện tích bán hàng của mỗi cơ sở từ 3.000 m2 trở lên, tại Việt Nam.",
+     "trang_pdf": 7,
+     "sha256_pdf": "22f16f75c82b06e47a8f9d1af0b42e04b38a19e307e4aec7ff7d0fb6347fe30b"
+    },
+    {
+     "dieu": 9,
+     "noi_dung": "1. Nhà đầu tư nước ngoài thuộc nước, vùng lãnh thổ tham gia Điều ước quốc tế mà Việt Nam là thành viên có cam kết mở cửa thị trường cho hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa phải đáp ứng các điều kiện sau: a) Điều kiện về tiếp cận thị trường tại Điều ước quốc tế mà Việt Nam và nước, vùng lãnh thổ đó là thành viên và được nhà đầu tư nước ngoài lựa chọn áp dụng theo quy định pháp luật về đầu tư. Nhà đầu tư nước ngoài phải đáp ứng điều kiện này trong suốt quá trình hoạt động kinh doanh theo quy định tại Nghị định này tại Việt Nam; b) Không còn nợ thuế quá hạn trong trường hợp đã thành lập tổ chức kinh tế tại Việt Nam từ 01 năm trở lên tính đến ngày nộp hồ sơ. 2. Nhà đầu tư nước ngoài không thuộc nước, vùng lãnh thổ tham gia Điều ước quốc tế mà Việt Nam là thành viên phải đáp ứng các điều kiện và tiêu chí sau: a) Các điều kiện quy định tại điểm b khoản 1 Điều này; b) Các tiêu chí sau: Phù hợp với quy định của pháp luật chuyên ngành liên quan; Phù hợp với mức độ cạnh tranh của doanh nghiệp trong nước trong cùng lĩnh vực hoạt động trong thời gian 01 năm tính đến ngày nộp hồ sơ. 3. Trường hợp dịch vụ kinh doanh chưa được cam kết mở cửa thị trường trong các Điều ước quốc tế mà Việt Nam là thành viên: a) Nhà đầu tư nước ngoài thuộc trường hợp quy định tại khoản 1 Điều này phải đáp ứng các điều kiện và tiêu chí quy định tại khoản 1 và điểm b khoản 2 Điều này; b) Nhà đầu tư nước ngoài thuộc trường hợp quy định tại khoản 2 Điều này phải đáp ứng các điều kiện và tiêu chí quy định tại khoản 2 Điều này. 4. Trường hợp hàng hóa kinh doanh chưa được cam kết mở cửa thị trường trong các Điều ước quốc tế mà Việt Nam là thành viên (dầu bôi trơn, mỡ bôi trơn có nguồn gốc từ dầu mỏ; gạo; đường; vật phẩm đã ghi hình; sách, báo và tạp chí): a) Nhà đầu tư nước ngoài thuộc trường hợp quy định tại khoản 1 Điều này phải đáp ứng các điều kiện và tiêu chí quy định tại khoản 1, điểm b khoản 2 Điều này và điểm c, d khoản này, theo các hàng hóa tương ứng; b) Nhà đầu tư nước ngoài thuộc trường hợp quy định tại khoản 2 Điều này phải đáp ứng các điều kiện, tiêu chí quy định tại khoản 2 Điều này và điểm c, d khoản này, theo các hàng hóa tương ứng; c) Đối với hàng hóa là dầu bôi trơn, mỡ bôi trơn có nguồn gốc từ dầu mỏ, Cơ quan cấp Giấy phép xem xét cấp phép thực hiện quyền nhập khẩu, quyền phân phối bán buôn cho tổ chức kinh tế có vốn đầu tư nước ngoài đáp ứng một trong điều kiện sau: Đã được cấp Giấy chứng nhận đăng ký đầu tư cho dự án sản xuất dầu bôi trơn, mỡ bôi trơn có nguồn gốc từ dầu mỏ tại Việt Nam; Đã được cấp Giấy chứng nhận đăng ký đầu tư cho dự án sản xuất hoặc đã được phép phân phối tại Việt Nam máy móc, thiết bị, hàng hóa có sử dụng dầu bôi trơn, mỡ bôi trơn có nguồn gốc từ dầu mỏ. d) Đối với hàng hóa là gạo; đường; vật phẩm đã ghi hình; sách, báo và tạp chí, Cơ quan cấp Giấy phép xem xét cấp phép thực hiện quyền phân phối bán lẻ cho tổ chức kinh tế có vốn đầu tư nước ngoài đã được cấp Giấy phép lập cơ sở bán lẻ dưới hình thức cửa hàng tiện lợi, siêu thị mini, siêu thị để bán lẻ tại các cơ sở bán lẻ đó. 5. Cơ quan cấp Giấy phép xem xét việc đáp ứng các điều kiện, tiêu chí và căn cứ các nội dung sau để quyết định cấp Giấy phép kinh doanh đối với trường hợp quy định tại khoản 2, 3 và 4 Điều này: a) Đối với trường hợp quy định tại khoản 3 và 4 Điều này: Sự phù hợp với chiến lược phát triển ngành, lĩnh vực của địa phương, vùng, quốc gia; Tiến trình đàm phán và mở cửa thị trường của Việt Nam. b) Đối với trường hợp quy định tại khoản 2 Điều này: Nội dung quy định tại điểm a khoản này; Quan hệ ngoại giao, vấn đề an ninh quốc gia, trật tự, an toàn xã hội.",
+     "trang_pdf": 8,
+     "sha256_pdf": "22f16f75c82b06e47a8f9d1af0b42e04b38a19e307e4aec7ff7d0fb6347fe30b"
+    },
+    {
+     "dieu": 10,
+     "noi_dung": "1. Nội dung Giấy phép kinh doanh (Mẫu số 12 tại Phụ lục ban hành kèm theo Nghị định này): a) Tên, mã số doanh nghiệp, địa chỉ trụ sở chính và người đại diện theo pháp luật; b) Chủ sở hữu, thành viên góp vốn, cổ đông sáng lập và nơi đăng ký thành lập, quốc tịch; c) Hoạt động mua bán hàng hóa; d) Hàng hóa kinh doanh; đ) Các hoạt động liên quan trực tiếp đến mua bán hàng hóa; e) Các nội dung khác do Cơ quan cấp Giấy phép quy định tại Giấy phép kinh doanh (nếu có). 2. Thời hạn kinh doanh a) Thời hạn kinh doanh đối với trường hợp quy định tại khoản 1 Điều 9 Nghị định này tương ứng với thời hạn của Giấy chứng nhận đăng ký doanh nghiệp (nếu có), theo quy định pháp luật về doanh nghiệp; b) Thời hạn kinh doanh đối với trường hợp quy định tại khoản 2, 3 và 4 Điều 9 Nghị định này là 05 năm; c) Thời hạn kinh doanh cấp lại bằng thời hạn còn lại của thời hạn kinh doanh đã được cấp.",
+     "trang_pdf": 10,
+     "sha256_pdf": "22f16f75c82b06e47a8f9d1af0b42e04b38a19e307e4aec7ff7d0fb6347fe30b"
+    },
+    {
+     "dieu": 12,
+     "noi_dung": "1. Tổ chức kinh tế có vốn đầu tư nước ngoài nộp 01 bộ hồ sơ theo một trong các cách thức sau: trực tiếp tại Bộ phận Một cửa; qua dịch vụ bưu chính công ích theo quy định của Thủ tướng Chính phủ; qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc qua ủy quyền theo quy định của pháp luật; trực tuyến tại Cổng Dịch vụ công quốc gia (nếu đủ điều kiện áp dụng). 2. Trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Cơ quan cấp Giấy phép kiểm tra và có văn bản yêu cầu sửa đổi, bổ sung nếu hồ sơ chưa đủ và hợp lệ. 3. Trong thời hạn 10 ngày làm việc kể từ ngày nhận được hồ sơ đủ và hợp lệ, Cơ quan cấp Giấy phép kiểm tra việc đáp ứng điều kiện, tiêu chí, căn cứ tương ứng quy định tại Điều 9 Nghị định này. a) Trường hợp không đáp ứng điều kiện, Cơ quan cấp Giấy phép có văn bản trả lời và nêu rõ lý do; b) Trường hợp đáp ứng điều kiện: Cơ quan cấp Giấy phép cấp Giấy phép kinh doanh cho các trường hợp quy định tại khoản 1, điểm a khoản 3 và điểm a khoản 4 Điều 9 Nghị định này; trường hợp từ chối cấp phép, phải có văn bản trả lời và nêu rõ lý do; Cơ quan cấp Giấy phép gửi hồ sơ kèm văn bản lấy ý kiến Bộ Công an và Bộ Quốc phòng đối với các trường hợp quy định tại điểm a và b khoản 3 Điều 8 Nghị định này (Mẫu số 10 tại Phụ lục ban hành kèm theo Nghị định này). 4. Trong thời hạn 14 ngày làm việc kể từ ngày nhận được hồ sơ, Bộ Công an và Bộ Quốc phòng có văn bản chấp thuận cấp Giấy phép kinh doanh; trường hợp từ chối, phải có văn bản trả lời và nêu rõ lý do (Mẫu số 11 tại Phụ lục ban hành kèm theo Nghị định này). 5. Trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ văn bản trả lời của Bộ Công an và Bộ Quốc phòng: a) Trường hợp hai Bộ trên có văn bản chấp thuận cấp phép, Cơ quan cấp Giấy phép thực hiện cấp Giấy phép kinh doanh; b) Trường hợp một trong hai Bộ trên không chấp thuận cấp phép, Cơ quan cấp Giấy phép có văn bản từ chối cấp phép và nêu rõ lý do. 6. Tổ chức kinh tế có vốn đầu tư nước ngoài nhận kết quả giải quyết thủ tục cấp Giấy phép kinh doanh và Cơ quan cấp Giấy phép trả kết quả giải quyết thủ tục cấp Giấy phép kinh doanh theo quy định pháp luật hiện hành về thực hiện thủ tục hành chính. Trường hợp tổ chức kinh tế có vốn đầu tư nước ngoài lựa chọn nhận kết quả giải quyết thủ tục hành chính qua dịch vụ bưu chính, tổ chức kinh tế có vốn đầu tư nước ngoài thực hiện theo hướng dẫn của đơn vị cung ứng dịch vụ bưu chính.",
+     "trang_pdf": 12,
+     "sha256_pdf": "22f16f75c82b06e47a8f9d1af0b42e04b38a19e307e4aec7ff7d0fb6347fe30b"
+    },
+    {
+     "dieu": 20,
+     "noi_dung": "Cơ quan cấp Giấy phép từ chối cấp Giấy phép kinh doanh trong các trường hợp sau: 1. Nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài không đáp ứng điều kiện cấp Giấy phép kinh doanh theo quy định tại Nghị định này. 2. Thời hạn hoạt động của dự án hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa đã hết. 3. Tổ chức kinh tế có vốn đầu tư nước ngoài đề nghị cấp Giấy phép kinh doanh trong thời hạn 02 năm kể từ ngày bị thu hồi Giấy phép kinh doanh theo quy định tại khoản 1 Điều 42 Nghị định này.",
+     "trang_pdf": 16,
+     "sha256_pdf": "22f16f75c82b06e47a8f9d1af0b42e04b38a19e307e4aec7ff7d0fb6347fe30b"
+    },
+    {
+     "dieu": 21,
+     "noi_dung": "1. Trường hợp nhà đầu tư nước ngoài lập cơ sở bán lẻ thứ nhất: a) Không còn nợ thuế quá hạn trong trường hợp tổ chức kinh tế có vốn đầu tư nước ngoài đã được thành lập tại Việt Nam từ 01 năm trở lên tính đến ngày nộp hồ sơ; b) Địa điểm lập cơ sở bán lẻ phải đáp ứng đủ điều kiện theo quy định pháp luật về quản lý đất đai, quy hoạch, đầu tư, xây dựng, phòng cháy chữa cháy, an toàn giao thông, vệ sinh môi trường để lập cơ sở bán lẻ tại khu vực thị trường địa lý liên quan. 2. Trường hợp nhà đầu tư nước ngoài lập cơ sở bán lẻ ngoài cơ sở bán lẻ thứ nhất: a) Trường hợp không phải thực hiện kiểm tra nhu cầu kinh tế: Đáp ứng các điều kiện quy định tại khoản 1 Điều này. b) Trường hợp phải thực hiện kiểm tra nhu cầu kinh tế: Đáp ứng các điều kiện quy định tại khoản 1 Điều này; Đáp ứng tiêu chí Kiểm tra nhu cầu kinh tế quy định tại khoản 2 Điều 22 Nghị định này. 3. Cơ quan cấp Giấy phép xem xét việc đáp ứng các điều kiện, tiêu chí quy định tại khoản 1 và 2 Điều này và căn cứ vào nội dung sau để quyết định cấp Giấy phép lập cơ sở bán lẻ: a) Trường hợp nhà đầu tư nước ngoài thuộc nước, vùng lãnh thổ tham gia Điều ước quốc tế mà Việt Nam là thành viên có cam kết mở cửa thị trường cho hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa: Sự phù hợp với kế hoạch, chiến lược phát triển ngành, lĩnh vực của địa phương, vùng, quốc gia; b) Trường hợp nhà đầu tư nước ngoài không thuộc nước, vùng lãnh thổ tham gia Điều ước quốc tế mà Việt Nam là thành viên: Sự phù hợp với kế hoạch, chiến lược phát triển ngành, lĩnh vực của địa phương, vùng, quốc gia; Tiến trình đàm phán mở cửa thị trường của Việt Nam; Nhu cầu mở cửa thị trường của Việt Nam; Quan hệ ngoại giao, vấn đề an ninh quốc gia, trật tự, an toàn xã hội.",
+     "trang_pdf": 17,
+     "sha256_pdf": "22f16f75c82b06e47a8f9d1af0b42e04b38a19e307e4aec7ff7d0fb6347fe30b"
+    },
+    {
+     "dieu": 22,
+     "noi_dung": "1. Trường hợp phải thực hiện ENT: Nhà đầu tư nước ngoài thuộc nước, vùng lãnh thổ không tham gia Điều ước quốc tế mà Việt Nam là thành viên trong đó có cam kết về việc bãi bỏ ENT, lập cơ sở bán lẻ ngoài cơ sở bán lẻ thứ nhất, trừ trường hợp cơ sở bán lẻ đó có diện tích dưới 500 m2, được lập trong trung tâm thương mại và không thuộc loại hình cửa hàng tiện lợi, siêu thị mini, siêu thị. 2. Tiêu chí ENT: a) Đối với cơ sở bán lẻ có diện tích dưới 5.000 m2: khu vực thị trường địa lý chịu ảnh hưởng được xem xét ở cấp xã/phường hoặc tương đương. Đối với cơ sở bán lẻ có diện tích từ 5.000 m2 trở lên: khu vực thị trường địa lý chịu ảnh hưởng được xem xét ở cấp tỉnh/thành phố trực thuộc trung ương. b) Tác động của cơ sở bán lẻ tới sự ổn định của thị trường, hoạt động kinh doanh của các cơ sở bán lẻ, chợ truyền thống đang hoạt động trong khu vực thị trường địa lý; nhu cầu của khu vực thị trường địa lý và khả năng đáp ứng của cơ sở bán lẻ dự kiến lập mới để khẳng định sự cần thiết mở cơ sở bán lẻ đó. c) Khả năng đóng góp của cơ sở bán lẻ đối với sự phát triển kinh tế - xã hội của khu vực thị trường địa lý chịu ảnh hưởng, cụ thể: Đóng góp cho sự phát triển và hiện đại hóa ngành bán lẻ trong khu vực thị trường địa lý; Cải thiện điều kiện sống của dân cư trong khu vực thị trường địa lý. d) Sự phù hợp của cơ sở bán lẻ đối với yêu cầu đảm bảo: an ninh, trật tự, an toàn xã hội của khu vực thị trường địa lý; an ninh biên giới, hải đảo, khu quân sự.",
+     "trang_pdf": 18,
+     "sha256_pdf": "22f16f75c82b06e47a8f9d1af0b42e04b38a19e307e4aec7ff7d0fb6347fe30b"
+    },
+    {
+     "dieu": 38,
+     "noi_dung": "1. Báo cáo của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài a) Định kỳ hàng năm, trước ngày 15 tháng 01 và ngày 15 tháng 7, tổ chức kinh tế có vốn đầu tư nước ngoài có trách nhiệm báo cáo tình hình thực hiện hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của kỳ báo cáo năm và kỳ báo cáo 06 tháng đầu năm (Mẫu số 14 tại Phụ lục ban hành kèm theo Nghị định này); b) Trường hợp cần thiết, nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài báo cáo, cung cấp tài liệu hoặc giải trình những vấn đề có liên quan đến hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa, hoạt động của cơ sở bán lẻ theo yêu cầu của cơ quan quản lý nhà nước có thẩm quyền; c) Tổ chức kinh tế có vốn đầu tư nước ngoài nộp báo cáo theo một trong các cách thức sau: trực tiếp tại Bộ phận Một cửa; qua dịch vụ bưu chính công ích theo quy định của Thủ tướng Chính phủ; qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc qua ủy quyền theo quy định của pháp luật hoặc trên môi trường điện tử của Cơ sở dữ liệu (nếu đủ điều kiện áp dụng). 2. Báo cáo của Cơ quan cấp Giấy phép a) Định kỳ hàng năm, trước ngày 30 tháng 01 và ngày 31 tháng 7, Cơ quan cấp Giấy phép báo cáo Bộ Công Thương, Bộ Công an, Bộ Quốc phòng về tình hình thực hiện công tác quản lý nhà nước theo quy định của Nghị định này cho kỳ báo cáo năm và kỳ báo cáo 06 tháng đầu năm (Mẫu số 15 tại Phụ lục ban hành kèm theo Nghị định này); b) Trường hợp cần thiết, Cơ quan cấp Giấy phép báo cáo, cung cấp thông tin về tình hình thực hiện công tác quản lý nhà nước và những vấn đề có liên quan đến hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa, hoạt động của cơ sở bán lẻ theo yêu cầu của cơ quan quản lý nhà nước có thẩm quyền. 3. Thời gian chốt số liệu báo cáo trong chế độ báo cáo định kỳ a) Thời gian chốt số liệu báo cáo định kỳ hàng năm tính từ ngày 01 tháng 01 đến hết ngày 31 tháng 12 của năm báo cáo; b) Thời gian chốt số liệu báo cáo định kỳ 6 tháng đầu năm được tính từ ngày 01 tháng 01 đến hết ngày 30 tháng 6 của kỳ báo cáo.",
+     "trang_pdf": 29,
+     "sha256_pdf": "22f16f75c82b06e47a8f9d1af0b42e04b38a19e307e4aec7ff7d0fb6347fe30b"
+    },
+    {
+     "dieu": 44,
+     "noi_dung": "1. Tổ chức kinh tế có vốn đầu tư nước ngoài, tổ chức kinh tế thuộc trường hợp quy định tại khoản 1 Điều 20 Luật Đầu tư đã được cấp Giấy phép kinh doanh, Giấy phép lập cơ sở bán lẻ trước ngày Nghị định này có hiệu lực được tiếp tục thực hiện các hoạt động kinh doanh đã được cấp phép. 2. Tổ chức kinh tế có vốn đầu tư nước ngoài, tổ chức kinh tế thuộc trường hợp quy định tại khoản 1 Điều 20 Luật Đầu tư, đã được cấp Giấy phép kinh doanh, Giấy phép lập cơ sở bán lẻ trước ngày Nghị định này có hiệu lực khi có đề nghị điều chỉnh nội dung quy định tại khoản 1 Điều 10 Nghị định này tại các giấy tờ trên thì phải làm thủ tục theo quy định tại Điều 14 và 15 Nghị định này hoặc khi có đề nghị điều chỉnh nội dung quy định tại các điểm a, b, c, d, đ, g và h khoản 1 Điều 24 Nghị định này tại các giấy tờ trên thì phải làm thủ tục theo quy định tại Điều 29 và 30 Nghị định này. Cơ quan cấp Giấy phép cấp Giấy phép kinh doanh, Giấy phép lập cơ sở bán lẻ ghi nhận lại nội dung đã được cấp phép và ghi nội dung mới được chấp thuận điều chỉnh. 3. Trường hợp có sự thay đổi về địa chỉ trụ sở chính, địa chỉ cơ sở bán lẻ của tổ chức kinh tế có vốn đầu tư nước ngoài theo quy định về sắp xếp đơn vị hành chính cấp tỉnh, tổ chức kinh tế có vốn đầu tư nước ngoài được tiếp tục hoạt động theo Giấy phép kinh doanh, Giấy phép lập cơ sở bán lẻ đã được cấp mà không phải thực hiện thủ tục điều chỉnh Giấy phép kinh doanh, Giấy phép lập cơ sở bán lẻ. 4. Tổ chức kinh tế có vốn đầu tư nước ngoài, tổ chức kinh tế thuộc trường hợp quy định tại khoản 1 Điều 20 Luật Đầu tư chưa được cấp Giấy phép kinh doanh, Giấy phép lập cơ sở bán lẻ nhưng đã có Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư hoặc giấy tờ có giá trị pháp lý tương đương có nội dung hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa, nội dung lập cơ sở bán lẻ, được cấp trước ngày Nghị định số 09/2018/NĐ-CP ngày 15 tháng 01 năm 2018 có hiệu lực, và thuộc diện phải cấp Giấy phép kinh doanh, Giấy phép lập cơ sở bán lẻ theo quy định tại Nghị định này, khi có đề nghị điều chỉnh nội dung quy định tại khoản 1 Điều 10 Nghị định này tại các giấy tờ trên thì phải làm thủ tục theo quy định tại Điều 14 và 15 Nghị định này hoặc khi có đề nghị điều chỉnh nội dung quy định tại các điểm a, b, c, d, đ, g và h khoản 1 Điều 24 Nghị định này tại các giấy tờ trên thì phải làm thủ tục theo quy định tại Điều 29 và 30 Nghị định này. Cơ quan cấp Giấy phép cấp Giấy phép kinh doanh, Giấy phép lập cơ sở bán lẻ ghi nhận lại nội dung đã được cấp phép và ghi nội dung mới được chấp thuận điều chỉnh (Mẫu số 12, 13 tại Phụ lục ban hành kèm theo Nghị định này). 5. Đối với các hồ sơ cấp, cấp lại, điều chỉnh, thu hồi Giấy phép kinh doanh; cấp, cấp lại, điều chỉnh, gia hạn, thu hồi Giấy phép lập cơ sở bán lẻ đã được các Cơ quan cấp Giấy phép tiếp nhận trước ngày Nghị định này có hiệu lực, việc cấp, cấp lại, điều chỉnh, gia hạn, thu hồi Giấy phép kinh doanh, Giấy phép lập cơ sở bán lẻ thực hiện theo quy định của Nghị định số 09/2018/NĐ-CP ngày 15 tháng 01 năm 2018 và Điều 36 Nghị định số 146/2025/NĐ-CP ngày 12 tháng 6 năm 2025. Trong trường hợp hồ sơ chưa đầy đủ, hợp lệ nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài thực hiện giải trình bổ sung theo yêu cầu của Cơ quan cấp Giấy phép trong thời hạn không quá 06 tháng kể từ ngày Cơ quan cấp Giấy phép ban hành văn bản yêu cầu giải trình bổ sung. Quá thời hạn trên, việc cấp, cấp lại, điều chỉnh, thu hồi Giấy phép kinh doanh, cấp, cấp lại, điều chỉnh, gia hạn, thu hồi Giấy phép lập cơ sở bán lẻ thực hiện theo quy định tại Nghị định này.",
+     "trang_pdf": 39,
+     "sha256_pdf": "22f16f75c82b06e47a8f9d1af0b42e04b38a19e307e4aec7ff7d0fb6347fe30b"
+    },
+    {
+     "dieu": 45,
+     "noi_dung": "1. Nghị định này có hiệu lực thi hành từ ngày 18 tháng 10 năm 2026. 2. Nghị định này thay thế Nghị định số 09/2018/NĐ-CP ngày 15 tháng 01 năm 2018 của Chính phủ quy định chi tiết Luật Thương mại và Luật Quản lý ngoại thương về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam; bãi bỏ Điều 36 Nghị định 146/2025/NĐ-CP ngày 12 tháng 6 năm 2025 của Chính phủ quy định về phân quyền, phân cấp trong lĩnh vực công nghiệp và thương mại. 3. Trường hợp các văn bản quy phạm pháp luật được viện dẫn tại Nghị định này được sửa đổi, bổ sung, thay thế thì áp dụng theo quy định của văn bản quy phạm pháp luật được sửa đổi, bổ sung, thay thế đó. 4. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương chịu trách nhiệm hướng dẫn và thi hành Nghị định này.",
+     "trang_pdf": 40,
+     "sha256_pdf": "22f16f75c82b06e47a8f9d1af0b42e04b38a19e307e4aec7ff7d0fb6347fe30b"
+    }
+   ]
+  },
+  {
+   "so_hieu": "35/2019/NĐ-CP",
+   "slug": "35-2019-nd-cp",
+   "ten": "Quy định xử phạt vi phạm hành chính trong lĩnh vực Lâm nghiệp",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2019-06-10",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-35-2019-nd-cp-28907.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "1. Nghị định này quy định về hành vi vi phạm, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả đối với hành vi vi phạm hành chính; thẩm quyền xử phạt và thẩm quyền lập biên bản vi phạm hành chính trong lĩnh vực Lâm nghiệp. 2. Các hành vi vi phạm hành chính khác trong lĩnh vực Lâm nghiệp không được quy định tại Nghị định này thì áp dụng quy định tại các nghị định của Chính phủ về xử phạt vi phạm hành chính trong lĩnh vực quản lý nhà nước khác có liên quan để xử phạt.",
+     "trang_pdf": 1,
+     "sha256_pdf": "7f42a0bac6edc738e59e70a790e6604228553cca846d8ce8b8ec40f8a6588610"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "1. Nghị định này áp dụng đối với tổ chức, cá nhân trong nước và tổ chức, cá nhân nước ngoài có hành vi vi phạm hành chính trong lĩnh vực Lâm nghiệp trên lãnh thổ Việt Nam; người có thẩm quyền lập biên bản và thẩm quyền xử phạt vi phạm hành chính theo quy định tại Nghị định này. 2. Tổ chức quy định tại khoản 1 Điều này gồm: a) Cơ quan nhà nước có hành vi vi phạm mà hành vi đó không thuộc nhiệm vụ quản lý nhà nước được giao; b) Doanh nghiệp được thành lập và hoạt động theo pháp luật Việt Nam; chi nhánh, văn phòng đại diện của doanh nghiệp nước ngoài hoạt động tại Việt Nam; c) Hợp tác xã, liên hiệp hợp tác xã; d) Tổ chức, đơn vị sự nghiệp công lập; đ) Tổ chức nghề nghiệp hoạt động trong lĩnh vực Lâm nghiệp. 3. Cá nhân quy định tại khoản 1 Điều này là những đối tượng không thuộc quy định tại khoản 2 Điều này.",
+     "trang_pdf": 2,
+     "sha256_pdf": "7f42a0bac6edc738e59e70a790e6604228553cca846d8ce8b8ec40f8a6588610"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: 1. Kiểm lâm viên là công chức thuộc các ngạch kiểm lâm, biên chế trong cơ quan kiểm lâm. 2. Bộ phận cơ thể không thể tách rời sự sống là những bộ phận thực hiện các chức năng chuyên biệt của cơ thể động vật, ngay khi tách rời những bộ phận này khỏi cơ thể sống của động vật thì động vật đó chết (ví dụ: đầu, tim, bộ da, bộ xương, buồng gan...). 3. Sản phẩm của động vật rừng là các loại sản phẩm có nguồn gốc từ động vật rừng như: thịt, trứng, sữa, tinh dịch, phôi động vật, huyết, dịch mật, nội tạng, da, lông, xương, sừng, ngà, chân, móng...; vật phẩm có thành phần từ các bộ phận của động vật rừng đã qua chế biến như: cao nấu từ xương động vật, túi xách, ví, dây thắt lưng làm từ da động vật rừng. 4. Rừng khoanh nuôi tái sinh thuộc rừng chưa có trữ lượng bao gồm: rừng tái sinh tự nhiên hoặc rừng khoanh nuôi xúc tiến tái sinh tự nhiên có trữ lượng cây đứng dưới 10 m3/ha. 5. Tang vật, phương tiện vi phạm hành chính gồm: a) Lâm sản khai thác, mua bán, vận chuyển, tàng trữ, chế biến trái quy định của pháp luật; b) Dụng cụ, công cụ, các loại cưa xăng để sử dụng thực hiện hành vi vi phạm hành chính; c) Phương tiện gồm: các loại xe đạp, xe thô sơ, xe mô tô; các loại xe cơ giới đường bộ, tàu thủy, thuyền, ca-nô, sà lan và các phương tiện khác được sử dụng để thực hiện hành vi vi phạm hành chính. 6. Phương tiện bị người vi phạm hành chính chiếm đoạt trái phép là trường hợp phương tiện của chủ sở hữu hợp pháp bị người có hành vi vi phạm hành chính trộm cắp, cướp, cưỡng đoạt, lạm dụng tín nhiệm để chiếm đoạt, lợi dụng chủ tài sản không có điều kiện ngăn cản để chiếm đoạt hoặc các hành vi trái pháp luật khác tước đoạt quyền chiếm hữu, quản lý, sử dụng. 7. Phương tiện bị người vi phạm sử dụng trái phép là trường hợp chủ sở hữu hợp pháp, người quản lý hợp pháp hoặc người sử dụng hợp pháp phương tiện cho người khác thuê, mượn hoặc thuê người khác điều khiển phương tiện hoặc giao phương tiện cho người lao động của mình điều khiển để sử dụng vào mục đích hợp pháp, nhưng người được thuê, được mượn phương tiện hoặc người được giao điều khiển phương tiện đó đã tự ý sử dụng phương tiện để vi phạm hành chính.",
+     "trang_pdf": 2,
+     "sha256_pdf": "7f42a0bac6edc738e59e70a790e6604228553cca846d8ce8b8ec40f8a6588610"
+    },
+    {
+     "dieu": 4,
+     "khoan": 1,
+     "noi_dung": "1. Đối với mỗi hành vi vi phạm hành chính trong lĩnh vực Lâm nghiệp, tổ chức, cá nhân phải chịu một trong các hình thức xử phạt chính là cảnh cáo hoặc phạt tiền. 2. Tùy theo tính chất, mức độ vi phạm tổ chức, cá nhân có hành vi vi phạm còn có thể bị áp dụng một hoặc nhiều hình thức xử phạt bổ sung sau đây: a) Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính; b) Đình chỉ hoạt động khai thác rừng có thời hạn từ 06 tháng đến 12 tháng; c) Đình chỉ hoạt động của cơ sở chế biến lâm sản có thời hạn từ 06 tháng đến 12 tháng.",
+     "trang_pdf": 3,
+     "sha256_pdf": "7f42a0bac6edc738e59e70a790e6604228553cca846d8ce8b8ec40f8a6588610"
+    },
+    {
+     "dieu": 5,
+     "noi_dung": "1. Diện tích rừng hoặc diện tích có cây trồng chưa thành rừng tính bằng mét vuông (m2). 2. Khối lượng gỗ tính bằng mét khối (m3). 3. Đơn vị tính và phương pháp xác định số lượng, khối lượng lâm sản theo quy định của Bộ Nông nghiệp và Phát triển nông thôn. Đối với tang vật vi phạm là gỗ, khi xử phạt vi phạm hành chính phải quy thành gỗ tròn. Quy đổi khối lượng các loại gỗ xẻ, gỗ đẽo thành gỗ tròn bằng cách nhân với hệ số 1,6. 4. Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thuộc loài thông thường; động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB; sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB; thực vật rừng ngoài gỗ và sản phẩm gỗ xác định trị giá bằng tiền Việt Nam, đơn vị tính là đồng.",
+     "trang_pdf": 5,
+     "sha256_pdf": "7f42a0bac6edc738e59e70a790e6604228553cca846d8ce8b8ec40f8a6588610"
+    },
+    {
+     "dieu": 6,
+     "khoan": 1,
+     "noi_dung": "1. Mức phạt tiền đối với hành vi vi phạm hành chính quy định tại Nghị định này là mức phạt tiền được áp dụng đối với cá nhân, mức phạt tiền tối đa trong lĩnh vực Lâm nghiệp đối với cá nhân là 500.000.000 đồng; tổ chức vi phạm áp dụng phạt tiền bằng 2 lần mức phạt tiền với cá nhân có cùng hành vi và mức độ vi phạm, mức phạt tiền tối đa trong lĩnh vực Lâm nghiệp đối với tổ chức là 1.000.000.000 đồng. 2. Hành vi vi phạm hành chính đối với gỗ, thực vật rừng ngoài gỗ thuộc Danh mục loài nguy cấp, quý, hiếm được ưu tiên bảo vệ, thì áp dụng xử phạt hành vi vi phạm như đối với gỗ, thực vật rừng ngoài gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IA. 3. Hành vi vi phạm hành chính đối với các loài thuộc Phụ lục I Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp, thì áp dụng xử phạt hành vi vi phạm như đối với thực vật rừng, động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm I. Hành vi vi phạm hành chính đối với các loài thuộc Phụ lục II Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp, thì áp dụng xử phạt hành vi vi phạm như đối với thực vật rừng, động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm II.",
+     "trang_pdf": 5,
+     "sha256_pdf": "7f42a0bac6edc738e59e70a790e6604228553cca846d8ce8b8ec40f8a6588610"
+    },
+    {
+     "dieu": 22,
+     "khoan": 1,
+     "noi_dung": "Hành vi vận chuyển lâm sản (từ thời điểm lâm sản đã xếp lên phương tiện vận chuyển) không có hồ sơ hợp pháp hoặc có hồ sơ hợp pháp nhưng lâm sản thực tế vận chuyển không phù hợp với hồ sơ đó, bị xử phạt như sau: 1. Phạt tiền từ 5.000.000 đồng đến 15.000.000 đồng đối với một trong các trường hợp sau: a) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thông thường trị giá dưới 15.000.000 đồng; b) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB trị giá dưới 7.000.000 đồng; c) Gỗ thuộc loài thông thường dưới 02 m3; d) Gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIA dưới 01 m3; đ) Gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IA dưới 0,2 m3; e) Thực vật rừng ngoài gỗ trị giá dưới 15.000.000 đồng; g) Sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá dưới 15.000.000 đồng.",
+     "trang_pdf": 44,
+     "sha256_pdf": "7f42a0bac6edc738e59e70a790e6604228553cca846d8ce8b8ec40f8a6588610"
+    },
+    {
+     "dieu": 22,
+     "khoan": 20,
+     "noi_dung": "20. Hình thức xử phạt bổ sung: a) Tịch thu tang vật vi phạm đối với hành vi quy định tại khoản 1, khoản 2, khoản 3, khoản 4, khoản 5, khoản 6, khoản 7, khoản 8, khoản 9, khoản 10, khoản 11, khoản 12, khoản 13, khoản 14, khoản 15, khoản 16, khoản 17, khoản 18 và khoản 19 Điều này (trừ trường hợp gỗ có hồ sơ và nguồn gốc hợp pháp nhưng khối lượng gỗ thực tế vượt quá sai số cho phép theo quy định của Bộ Nông nghiệp và Phát triển nông thôn). b) Tịch thu phương tiện đối với hành vi quy định tại khoản 1, khoản 2, khoản 3, khoản 4, khoản 5, khoản 6, khoản 7, khoản 8, khoản 9, khoản 10, khoản 11, khoản 12, khoản 13, khoản 14, khoản 15, khoản 16, khoản 17, khoản 18 và khoản 19 Điều này thuộc một trong các trường hợp sau: Vi phạm có tổ chức hoặc vi phạm nhiều lần hoặc tái phạm. Sử dụng xe tự ý cải tạo thành hai ngăn, hai đáy, hai mui trở lên; xe không có đăng ký do cơ quan nhà nước có thẩm quyền cấp đối với loại xe theo quy định của pháp luật phải đăng ký quyền sở hữu phương tiện; xe đeo biển số giả. Vận chuyển gỗ thuộc loài thông thường từ 05 m3 trở lên; gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIA từ 2,5 m3 trở lên; gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IA từ 0,4 m3 trở lên; thực vật rừng ngoài gỗ trị giá 25.000.000 đồng trở lên; sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá từ 25.000.000 đồng trở lên. Vận chuyển động vật rừng, bộ phận cơ thể hoặc sản phẩm của chúng thuộc loài thông thường trị giá 25.000.000 trở lên; động vật rừng, bộ phận cơ thể hoặc sản phẩm của chúng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB trị giá 15.000.000 đồng trở lên; sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB trị giá từ 1.000.000 đồng trở lên. Vận chuyển động vật rừng hoặc bộ phận không thể tách rời sự sống của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB; ngà voi, sừng tê giác. Vận chuyển lâm sản trái pháp luật có 02 loại gỗ trở lên (gỗ không thuộc loài nguy cấp, quý, hiếm và gỗ thuộc loài nguy cấp quý, hiếm) hoặc nhiều loại lâm sản khác nhau ngoài gỗ thuộc loài nguy cấp, quý, hiếm, tuy khối lượng của một loại gỗ hoặc trị giá của mỗi loại lâm sản chưa đến mức bị tịch thu phương tiện nhưng tổng khối lượng các loại gỗ vận chuyển trái pháp luật từ 05 m3 trở lên hoặc tổng trị giá các loại lâm sản khác ngoài gỗ vận chuyển trái pháp luật trị giá 25.000.000 đồng trở lên.",
+     "trang_pdf": 52,
+     "sha256_pdf": "7f42a0bac6edc738e59e70a790e6604228553cca846d8ce8b8ec40f8a6588610"
+    },
+    {
+     "dieu": 23,
+     "khoan": 1,
+     "noi_dung": "Hành vi tàng trữ, mua, bán, chế biến lâm sản không có hồ sơ hợp pháp hoặc có hồ sơ hợp pháp nhưng lâm sản không đúng với nội dung hồ sơ đó, bị xử phạt như sau: 1. Phạt tiền từ 5.000.000 đồng đến 15.000.000 đồng đối với một trong các trường hợp sau: a) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thông thường trị giá dưới 15.000.000 đồng; b) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB trị giá đến dưới 7.000.000 đồng; c) Gỗ thuộc loài thông thường dưới 02 m3; d) Gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIA dưới 01 m3; đ) Gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IA dưới 0,2 m3; e) Thực vật rừng ngoài gỗ trị giá dưới 15.000.000 đồng; g) Sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá dưới 15.000.000 đồng.",
+     "trang_pdf": 54,
+     "sha256_pdf": "7f42a0bac6edc738e59e70a790e6604228553cca846d8ce8b8ec40f8a6588610"
+    },
+    {
+     "dieu": 24,
+     "khoan": 1,
+     "noi_dung": "1. Phạt tiền từ 500.000 đồng đến 1.000.000 đồng đối với một trong các hành vi vi phạm sau: a) Chủ lâm sản vận chuyển, mua bán, cất giữ, chế biến thực vật rừng ngoài gỗ; động vật rừng hoặc bộ phận, sản phẩm của chúng có nguồn gốc hợp pháp nhưng không chấp hành đầy đủ các quy định của pháp luật về hồ sơ lâm sản hợp pháp; b) Chủ lâm sản vận chuyển, mua bán, cất giữ, chế biến gỗ rừng trồng, gỗ vườn nhà, cây trồng phân tán có nguồn gốc hợp pháp nhưng không chấp hành đầy đủ các quy định của pháp luật về hồ sơ lâm sản hợp pháp; c) Người điều khiển phương tiện, chủ lâm sản không xuất trình hồ sơ lâm sản trong thời hạn 24 giờ kể từ thời điểm kiểm tra cho người có thẩm quyền khi kiểm tra phương tiện vận chuyển lâm sản.",
+     "trang_pdf": 63,
+     "sha256_pdf": "7f42a0bac6edc738e59e70a790e6604228553cca846d8ce8b8ec40f8a6588610"
+    },
+    {
+     "dieu": 24,
+     "khoan": 3,
+     "noi_dung": "3. Phạt tiền từ 2.000.000 đồng đến 5.000.000 đồng đối với một trong các hành vi vi phạm sau: a) Chủ lâm sản vận chuyển, mua bán, cất giữ, chế biến lâm sản có nguồn gốc nhập khẩu, nguồn gốc sau xử lý tịch thu hợp pháp nhưng không chấp hành đầy đủ các quy định của pháp luật về hồ sơ lâm sản hợp pháp; b) Chủ cơ sở nuôi, trồng vì mục đích thương mại loài thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm hoặc các loài thuộc Phụ lục Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp có nguồn gốc hợp pháp nhưng không đăng ký mã số cơ sở nuôi, trồng theo quy định của pháp luật. 4. Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với chủ lâm sản vận chuyển, mua bán, cất giữ, chế biến lâm sản có nguồn gốc từ rừng tự nhiên hợp pháp nhưng không chấp hành đầy đủ các quy định pháp luật về hồ sơ lâm sản hợp pháp.",
+     "trang_pdf": 64,
+     "sha256_pdf": "7f42a0bac6edc738e59e70a790e6604228553cca846d8ce8b8ec40f8a6588610"
+    },
+    {
+     "dieu": 25,
+     "noi_dung": "1. Người có thẩm quyền xử phạt quy định tại Nghị định này. 2. Công chức, viên chức và người thuộc lực lượng Quân đội nhân dân, Công an nhân dân trong các cơ quan quy định tại các Điều 26, Điều 27, Điều 28, Điều 29, Điều 30, Điều 31, Điều 32 và Điều 33 của Nghị định này đang thi hành công vụ, nhiệm vụ theo chức năng, nhiệm vụ được giao thanh tra, kiểm tra về quản lý rừng, phát triển rừng, sử dụng rừng, bảo vệ rừng và quản lý lâm sản.",
+     "trang_pdf": 64,
+     "sha256_pdf": "7f42a0bac6edc738e59e70a790e6604228553cca846d8ce8b8ec40f8a6588610"
+    },
+    {
+     "dieu": 33,
+     "noi_dung": "1. Công chức Hải quan đang thi hành công vụ có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến 500.000 đồng. 2. Đội trưởng thuộc Chi cục Hải quan, Đội trưởng thuộc Chi cục Kiểm tra sau thông quan có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến 5.000.000 đồng. 3. Chi cục trưởng Chi cục Hải quan, Chi cục trưởng Chi cục Kiểm tra sau thông quan, Đội trưởng Đội kiểm soát thuộc Cục Hải quan tỉnh, liên tỉnh, thành phố trực thuộc trung ương, Đội trưởng Đội kiểm soát chống buôn lậu, Hải đội trưởng Hải đội kiểm soát trên biển và Đội trưởng Đội kiểm soát bảo vệ quyền sở hữu trí tuệ thuộc Cục điều tra chống buôn lậu Tổng cục Hải quan có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến 25.000.000 đồng; c) Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có trị giá không vượt quá 25.000.000 đồng; d) Áp dụng các biện pháp khắc phục hậu quả được quy định tại điểm d và điểm đ khoản 3 Điều 4 của Nghị định này. 4. Cục trưởng Cục Điều tra chống buôn lậu, Cục trưởng Cục Kiểm tra sau thông quan thuộc Tổng cục Hải quan, Cục trưởng Cục Hải quan tỉnh, liên tỉnh, thành phố trực thuộc Trung ương có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến 50.000.000 đồng; c) Đình chỉ hoạt động của cơ sở chế biến lâm sản có thời hạn từ 06 tháng đến 12 tháng; d) Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có trị giá không vượt quá 50.000.000 đồng; đ) Áp dụng các biện pháp khắc phục hậu quả được quy định tại điểm d và điểm đ khoản 3 Điều 4 của Nghị định này. 5. Tổng cục trưởng Tổng cục Hải quan có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến 500.000.000 đồng; c) Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính; d) Áp dụng các biện pháp khắc phục hậu quả được quy định tại điểm d và điểm đ khoản 3 Điều 4 của Nghị định này.",
+     "trang_pdf": 72,
+     "sha256_pdf": "7f42a0bac6edc738e59e70a790e6604228553cca846d8ce8b8ec40f8a6588610"
+    },
+    {
+     "dieu": 34,
+     "khoan": 5,
+     "noi_dung": "3. Những người có thẩm quyền của lực lượng Cảnh sát biển có thẩm quyền xử phạt vi phạm hành chính, có quyền áp dụng các hình thức xử phạt bổ sung và biện pháp khắc phục hậu quả đối với các hành vi vi phạm hành chính quy định tại Điều 22, Điều 23 và Điều 24 theo thẩm quyền quy định tại Điều 31 của Nghị định này thuộc phạm vi quản lý và chức năng, nhiệm vụ, quyền hạn được giao. 4. Những người có thẩm quyền của lực lượng Quản lý thị trường có thẩm quyền xử phạt vi phạm hành chính, có quyền áp dụng các hình thức xử phạt bổ sung và biện pháp khắc phục hậu quả đối với các hành vi vi phạm quy định tại Điều 23, Điều 24 theo thẩm quyền quy định tại Điều 32 của Nghị định này thuộc phạm vi quản lý và chức năng, nhiệm vụ, quyền hạn được giao. 5. Những người có thẩm quyền của lực lượng Hải quan có thẩm quyền xử phạt vi phạm hành chính, có quyền áp dụng các hình thức xử phạt bổ sung và biện pháp khắc phục hậu quả đối với các hành vi vi phạm hành chính quy định tại Điều 22 và Điều 23 theo thẩm quyền quy định tại Điều 33 của Nghị định này thuộc phạm vi quản lý và chức năng, nhiệm vụ, quyền hạn được giao.",
+     "trang_pdf": 74,
+     "sha256_pdf": "7f42a0bac6edc738e59e70a790e6604228553cca846d8ce8b8ec40f8a6588610"
+    },
+    {
+     "dieu": 35,
+     "noi_dung": "1. Xác định và phân định thẩm quyền xử phạt vi phạm hành chính và áp dụng biện pháp khắc phục hậu quả thực hiện theo quy định tại Điều 52 Luật xử lý vi phạm hành chính. 2. Xác định trị giá tang vật vi phạm hành chính (kể cả lâm sản thuộc loài nguy cấp, quý, hiếm) để làm căn cứ xác định khung tiền phạt, thẩm quyền xử phạt thực hiện theo quy định tại Điều 60 Luật xử lý vi phạm hành chính và quy định của pháp luật hiện hành.",
+     "trang_pdf": 74,
+     "sha256_pdf": "7f42a0bac6edc738e59e70a790e6604228553cca846d8ce8b8ec40f8a6588610"
+    },
+    {
+     "dieu": 36,
+     "noi_dung": "1. Nghị định này có hiệu lực thi hành từ ngày 10 tháng 6 năm 2019. 2. Nghị định này thay thế Nghị định số 157/2013/NĐ-CP ngày 11 tháng 11 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính về quản lý rừng, phát triển rừng, bảo vệ rừng và quản lý lâm sản và Điều 3 Nghị định số 41/2017/NĐ-CP ngày 05 tháng 4 năm 2017 của Chính phủ về sửa đổi, bổ sung một số điều của nghị định về xử phạt vi phạm hành chính trong hoạt động thủy sản; lĩnh vực thú y, giống vật nuôi, thức ăn chăn nuôi; quản lý rừng, phát triển rừng, bảo vệ rừng và quản lý lâm sản. 3. Đối với các hành vi vi phạm quy định về kinh doanh giống cây lâm nghiệp chính đồng thời được quy định tại Nghị định số 31/2016/NĐ-CP ngày 06 tháng 5 năm 2016 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giống cây trồng, bảo vệ và kiểm dịch thực vật thì xử phạt vi phạm hành chính theo quy định tại Nghị định này.",
+     "trang_pdf": 74,
+     "sha256_pdf": "7f42a0bac6edc738e59e70a790e6604228553cca846d8ce8b8ec40f8a6588610"
+    },
+    {
+     "dieu": 37,
+     "noi_dung": "1. Các hành vi vi phạm hành chính xảy ra trước ngày Nghị định này có hiệu lực thi hành thì áp dụng Nghị định số 157/2013/NĐ-CP ngày 11 tháng 11 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính về quản lý rừng, phát triển rừng, bảo vệ rừng và quản lý lâm sản; Nghị định số 41/2017/NĐ-CP ngày 05 tháng 4 năm 2017 của Chính phủ về sửa đổi, bổ sung một số điều của nghị định về xử phạt vi phạm hành chính trong hoạt động thủy sản; lĩnh vực thú y, giống vật nuôi, thức ăn chăn nuôi; quản lý rừng, phát triển rừng, bảo vệ rừng và quản lý lâm sản; Nghị định số 31/2016/NĐ-CP ngày 06 tháng 5 năm 2016 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giống cây trồng, bảo vệ và kiểm dịch thực vật để xử phạt. 2. Đối với hành vi vi phạm hành chính về kinh doanh giống cây lâm nghiệp, trong quản lý rừng, phát triển rừng, bảo vệ rừng và quản lý lâm sản xảy ra trước khi Nghị định này có hiệu lực mà sau đó mới bị phát hiện thì áp dụng các quy định có lợi cho tổ chức, cá nhân vi phạm.",
+     "trang_pdf": 75,
+     "sha256_pdf": "7f42a0bac6edc738e59e70a790e6604228553cca846d8ce8b8ec40f8a6588610"
+    },
+    {
+     "dieu": 38,
+     "khoan": 1,
+     "noi_dung": "1. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn có trách nhiệm hướng dẫn và tổ chức thực hiện Nghị định này.",
+     "trang_pdf": 75,
+     "sha256_pdf": "7f42a0bac6edc738e59e70a790e6604228553cca846d8ce8b8ec40f8a6588610"
+    },
+    {
+     "dieu": 38,
+     "khoan": 2,
+     "noi_dung": "2. Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương chịu trách nhiệm thi hành Nghị định này.",
+     "trang_pdf": 76,
+     "sha256_pdf": "7f42a0bac6edc738e59e70a790e6604228553cca846d8ce8b8ec40f8a6588610"
     }
    ]
   },
