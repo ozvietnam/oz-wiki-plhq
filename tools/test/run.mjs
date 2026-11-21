@@ -10,7 +10,7 @@ import { timDiemMu } from '../diem-mu.mjs';
 import { dungJson, veQuanHe } from '../dung.mjs';
 import { lamSachHtml } from '../nap.mjs';
 import { rutGonNhuCau, rutGonBieuThue, rutGonHangThat, rutGonVanBanBieuThue } from '../nhu-cau.mjs';
-import { docCsv, napDanhMuc, kiemDinhDang, dungChiMuc, dungChiMucTheoMa, demLa, docBieuThue } from '../lib/danh-muc.mjs';
+import { docCsv, napDanhMuc, kiemDinhDang, kiemDanhMucCas, COT_CAS, CAS_LOI_IN_NGUON_A, dungChiMuc, dungChiMucTheoMa, demLa, docBieuThue } from '../lib/danh-muc.mjs';
 
 let pass = 0;
 let fail = 0;
@@ -187,6 +187,57 @@ mkdirSync(join(rLech, 'danh-muc'), { recursive: true });
 writeFileSync(join(rLech, 'danh-muc', 'lech.csv'), HEAD + '22030091,Bia,1,Phụ lục,KIEM_TRA_ATTP,,,5\n'); // 8 ô, thiếu 1 so với header 9
 const kLech = kiemTra(napSo(rLech), { root: rLech });
 t('danh mục: lệch số cột CSV → lỗi kèm tên tệp + số dòng', kLech.loi.some((e) => e.file === 'danh-muc/lech.csv' && /dòng 2/.test(e.msg) && /cột/.test(e.msg)));
+
+// 6a'. Lược đồ 11 cột danh-muc/*-cas.csv (OZV-1700)
+const HEAD_CAS = `${COT_CAS.join(',')}\n`;
+const rCasOk = soGia({
+  'cas-vb.yaml': `so_hieu: 24/2026/NĐ-CP\nloai: NGHI_DINH\nten: Danh mục hóa chất\nco_quan: CP\ntinh_trang: CON_HIEU_LUC\nnhanh: [chua-phan-loai]\n${XM}\n`,
+});
+mkdirSync(join(rCasOk, 'danh-muc'), { recursive: true });
+const csvCasOk = HEAD_CAS
+  + '106-99-0,"1,3-Butadien","1,3-Butadiene",C4H6,Hóa chất cơ bản,I,,1,https://congbao.chinhphu.vn/x,,\n'
+  + ',"Diisocyanate (TDI, MDI)","Diisocyanate",,Hóa chất cơ bản,I,,12,https://congbao.chinhphu.vn/x,,\n'
+  + '10037-74-3,Canxi clorat,Calcium chlorate,Ca(ClO3)2,Chất SXKD có điều kiện,II,1,135,https://congbao.chinhphu.vn/x,,\n'
+  + '103-79-7,Phenylacetone,1-Phenyl-2-propanone,C9H10O,Hóa chất kiểm soát đặc biệt,III,A,,https://congbao.chinhphu.vn/x,1,\n'
+  + '10118-77-6,1-Propen-2-clo-1-3-diol diacetat,2-Chloro-1-3-propanediol diacetate,C7H11ClO4,Phòng ngừa sự cố,IV,Bảng A,207,https://congbao.chinhphu.vn/x,,5000\n';
+writeFileSync(join(rCasOk, 'danh-muc', '24-2026-nd-cp-cas.csv'), csvCasOk);
+const kCasOk = kiemTra(napSo(rCasOk), { root: rCasOk });
+t('danh-muc *-cas.csv (1): bảng hợp lệ (gồm dòng không-CAS, 4 PL I–IV và mã trong CAS_LOI_IN_NGUON_A) → 0 lỗi',
+  CAS_LOI_IN_NGUON_A.has('10037-74-3') && kiemDanhMucCas('danh-muc/24-2026-nd-cp-cas.csv', csvCasOk).length === 0 && kCasOk.loi.length === 0,
+  JSON.stringify(kCasOk.loi));
+
+const rCasHeadBad = soGia({ 'cas-vb.yaml': `so_hieu: 24/2026/NĐ-CP\nloai: NGHI_DINH\nten: Danh mục hóa chất\nco_quan: CP\ntinh_trang: CON_HIEU_LUC\nnhanh: [chua-phan-loai]\n${XM}\n` });
+mkdirSync(join(rCasHeadBad, 'danh-muc'), { recursive: true });
+writeFileSync(join(rCasHeadBad, 'danh-muc', 'sai-head-cas.csv'), 'cas,ten_chat,cong_thuc\n106-99-0,Butadien,C4H6\n');
+const kCasHeadBad = kiemTra(napSo(rCasHeadBad), { root: rCasHeadBad });
+t('danh-muc *-cas.csv (2): sai header 11 cột → lỗi kiểm',
+  kCasHeadBad.loi.some((e) => e.file === 'danh-muc/sai-head-cas.csv' && /dòng tiêu đề phải đúng 11 cột/.test(e.msg)),
+  JSON.stringify(kCasHeadBad.loi));
+
+const rCasModBad = soGia({ 'cas-vb.yaml': `so_hieu: 24/2026/NĐ-CP\nloai: NGHI_DINH\nten: Danh mục hóa chất\nco_quan: CP\ntinh_trang: CON_HIEU_LUC\nnhanh: [chua-phan-loai]\n${XM}\n` });
+mkdirSync(join(rCasModBad, 'danh-muc'), { recursive: true });
+writeFileSync(join(rCasModBad, 'danh-muc', 'sai-cas.csv'), HEAD_CAS
+  + '50-00-00,Formaldehit,Formaldehyde,CH2O,Hóa chất cơ bản,I,,1,https://congbao.chinhphu.vn/x,,\n'
+  + '106-99-9,Butadien sai checksum,1-3-Butadiene,C4H6,Hóa chất cơ bản,I,,2,https://congbao.chinhphu.vn/x,,\n');
+const kCasModBad = kiemTra(napSo(rCasModBad), { root: rCasModBad });
+t('danh-muc *-cas.csv (3): mã CAS sai định dạng hoặc sai checksum mod-10 ngoài danh sách lỗi in nguồn A → lỗi kiểm',
+  kCasModBad.loi.some((e) => e.file === 'danh-muc/sai-cas.csv' && /50-00-00.*sai định dạng/.test(e.msg))
+  && kCasModBad.loi.some((e) => e.file === 'danh-muc/sai-cas.csv' && /106-99-9.*sai checksum mod-10/.test(e.msg)),
+  JSON.stringify(kCasModBad.loi));
+
+const rCasToHopBad = soGia({ 'cas-vb.yaml': `so_hieu: 24/2026/NĐ-CP\nloai: NGHI_DINH\nten: Danh mục hóa chất\nco_quan: CP\ntinh_trang: CON_HIEU_LUC\nnhanh: [chua-phan-loai]\n${XM}\n` });
+mkdirSync(join(rCasToHopBad, 'danh-muc'), { recursive: true });
+writeFileSync(join(rCasToHopBad, 'danh-muc', 'sai-to-hop-cas.csv'), HEAD_CAS
+  + '106-99-0,,1-3-Butadiene,Mục A bị trượt vào công thức,,III,1,99,ftp://sai-nguon,3,\r\n');
+const kCasToHopBad = kiemTra(napSo(rCasToHopBad), { root: rCasToHopBad });
+t('danh-muc *-cas.csv (4): trượt tổ hợp (phu_luc, muc, nhom), thiếu ten_chat/phan_loai/nguon, CRLF hoặc trượt cong_thuc → lỗi kiểm',
+  kCasToHopBad.loi.some((e) => /thiếu ten_chat/.test(e.msg))
+  && kCasToHopBad.loi.some((e) => /thiếu phan_loai/.test(e.msg))
+  && kCasToHopBad.loi.some((e) => /tổ hợp \(phu_luc=III/.test(e.msg))
+  && kCasToHopBad.loi.some((e) => /nguon.*http/.test(e.msg))
+  && kCasToHopBad.loi.some((e) => /CRLF/.test(e.msg))
+  && kCasToHopBad.loi.some((e) => /cong_thuc/.test(e.msg)),
+  JSON.stringify(kCasToHopBad.loi));
 const bt6 = docBieuThue(r6);
 t('danh mục: đếm lá theo tiền tố 4 số', demLa(bt6, '1901') === 1200 && demLa(bt6, '190100') === 100 && demLa(bt6, '22030091') === 1 && demLa(bt6, '22029999') === 0);
 const dmu6 = timDiemMu(so6, { today: '2026-10-04', root: r6, nhuCau: null });

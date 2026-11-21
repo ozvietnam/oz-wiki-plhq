@@ -5,6 +5,13 @@ import { join } from 'node:path';
 import { ROOT, khoa, LUOC_DO_PHIEN_BAN } from './registry.mjs';
 
 export const COT = ['ma_hs', 'mo_ta', 'nhom', 'phu_luc', 'loai_tac_dong', 'muc_rui_ro', 'dieu_kien', 'dan_chieu', 'trang'];
+export const COT_CAS = ['cas', 'ten_chat', 'ma_hoa_chat', 'cong_thuc', 'phan_loai', 'phu_luc', 'muc', 'so_thu_tu', 'nguon', 'nhom', 'nguong_kg'];
+export const PHU_LUC_CAS = ['I', 'II', 'III', 'IV'];
+// 3 mã CAS lỗi in trong văn bản gốc Công báo số 77 (NĐ 24/2026/NĐ-CP) đã ghi nhận tại 24-2026-nd-cp-cas-quy-tac.md
+export const CAS_LOI_IN_NGUON_A = new Set(['10037-74-3', '7746-08-4', '10118-77-6']);
+// 3 công thức hoá học trong văn bản gốc Công báo số 77 in có 1 khoảng trắng hợp lệ (không phải nhãn mục trượt cột)
+export const CONG_THUC_CO_KHOANG_TRANG_NGUON_A = new Set(['Mn (NO3)2', 'C21H22N2O2. 0.5H2SO4', 'C18H14-nCln (n=1-14)']);
+const RE_CAS = /^(\d{2,7})-(\d{2})-(\d)$/;
 export const LOAI_TAC_DONG = ['KIEM_TRA_ATTP', 'KIEM_TRA_CHAT_LUONG', 'KIEM_DICH_DONG_VAT', 'KIEM_DICH_THUC_VAT',
   'GIAY_PHEP', 'CAM_NHAP_KHAU', 'CAM_XUAT_KHAU', 'CONG_BO_HOP_QUY', 'DANG_KY_LUU_HANH', 'PHONG_VE_THUONG_MAI',
   // Danh mục hàng ĐƯỢC BỎ/CẮT GIẢM kiểm tra — mã có trong bảng nhưng KHÔNG phải nghĩa vụ.
@@ -120,6 +127,73 @@ export function kiemDinhDang(item) {
     if (!LOAI_TAC_DONG.includes(o.loai_tac_dong)) loi.push(`${at} loai_tac_dong "${o.loai_tac_dong}" không hợp lệ (${LOAI_TAC_DONG.join(', ')})`);
     if (o.muc_rui_ro && !MUC_RUI_RO.includes(o.muc_rui_ro)) loi.push(`${at} muc_rui_ro "${o.muc_rui_ro}" không hợp lệ (${MUC_RUI_RO.join(', ')})`);
     if (o.trang && !/^\d+$/.test(o.trang)) loi.push(`${at} trang phải là số`);
+  }
+  return loi;
+}
+
+/** Kiểm lược đồ 11 cột cho các bảng danh-muc/*-cas.csv (chặn lệch header, rách cột, sai CAS, trượt mục). */
+export function kiemDanhMucCas(tep, text) {
+  const loi = [];
+  const s = String(text);
+  if (s.includes('\r\n')) loi.push(`${tep} chứa ký tự xuống dòng CRLF (\\r\\n)`);
+  const rows = docCsv(s);
+  if (!rows.length) {
+    loi.push(`${tep} tệp CSV rỗng`);
+    return loi;
+  }
+  const head = rows[0].map((h) => h.trim());
+  if (head.join(',') !== COT_CAS.join(',')) {
+    loi.push(`${tep}:1 dòng tiêu đề phải đúng 11 cột: ${COT_CAS.join(',')}`);
+    return loi;
+  }
+  for (let i = 1; i < rows.length; i += 1) {
+    const r = rows[i];
+    const dong = i + 1;
+    const at = `${tep}:${dong}`;
+    if (r.length !== COT_CAS.length) {
+      loi.push(`${at} dòng ${dong}: số cột ${r.length} khác header (${COT_CAS.length})`);
+      continue;
+    }
+    const o = Object.fromEntries(COT_CAS.map((c, j) => [c, (r[j] ?? '').trim()]));
+    if (!o.ten_chat) loi.push(`${at} thiếu ten_chat`);
+    if (!o.phan_loai) loi.push(`${at} thiếu phan_loai`);
+    if (!PHU_LUC_CAS.includes(o.phu_luc)) {
+      loi.push(`${at} phu_luc "${o.phu_luc}" không hợp lệ (${PHU_LUC_CAS.join(', ')})`);
+    } else if (o.phu_luc === 'I') {
+      if (o.muc !== '' || o.nhom !== '' || !/^\d+$/.test(o.so_thu_tu)) {
+        loi.push(`${at} tổ hợp (phu_luc=I, muc="${o.muc}", nhom="${o.nhom}", so_thu_tu="${o.so_thu_tu}") không hợp lệ`);
+      }
+    } else if (o.phu_luc === 'II') {
+      if (o.muc !== '1' || o.nhom !== '' || !/^\d+$/.test(o.so_thu_tu)) {
+        loi.push(`${at} tổ hợp (phu_luc=II, muc="${o.muc}", nhom="${o.nhom}", so_thu_tu="${o.so_thu_tu}") không hợp lệ`);
+      }
+    } else if (o.phu_luc === 'III') {
+      if (!['A', 'B', 'C'].includes(o.muc) || !['1', '2'].includes(o.nhom) || o.so_thu_tu !== '') {
+        loi.push(`${at} tổ hợp (phu_luc=III, muc="${o.muc}", nhom="${o.nhom}", so_thu_tu="${o.so_thu_tu}") không hợp lệ`);
+      }
+    } else if (o.phu_luc === 'IV') {
+      if (o.muc !== 'Bảng A' || o.nhom !== '' || !/^\d+$/.test(o.so_thu_tu)) {
+        loi.push(`${at} tổ hợp (phu_luc=IV, muc="${o.muc}", nhom="${o.nhom}", so_thu_tu="${o.so_thu_tu}") không hợp lệ`);
+      }
+    }
+    if (!/^https?:\/\//.test(o.nguon)) {
+      loi.push(`${at} nguon "${o.nguon}" phải bắt đầu bằng http:// hoặc https://`);
+    }
+    if (o.cas) {
+      const m = o.cas.match(RE_CAS);
+      if (!m) {
+        loi.push(`${at} cas "${o.cas}" sai định dạng (^\\d{2,7}-\\d{2}-\\d$)`);
+      } else {
+        const chuSo = (m[1] + m[2]).split('').reverse().map(Number);
+        const tong = chuSo.reduce((acc, d, idx) => acc + d * (idx + 1), 0);
+        if (tong % 10 !== Number(m[3]) && !CAS_LOI_IN_NGUON_A.has(o.cas)) {
+          loi.push(`${at} cas "${o.cas}" sai checksum mod-10 (kỳ vọng ${tong % 10})`);
+        }
+      }
+    }
+    if (o.cong_thuc.length > 40 || (/\s/.test(o.cong_thuc) && !CONG_THUC_CO_KHOANG_TRANG_NGUON_A.has(o.cong_thuc))) {
+      loi.push(`${at} cong_thuc "${o.cong_thuc}" không hợp lệ (chứa khoảng trắng hoặc dài quá 40 ký tự)`);
+    }
   }
   return loi;
 }
