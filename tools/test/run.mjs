@@ -151,6 +151,18 @@ const dhChan = timDiemMu(napSo(rChan), { today: '2026-10-04', root: rChan, nhuCa
 t('chan: sinh HS_API_CHO_MO_CHAN mức Thấp', dhChan.some((d) => d.ma === 'HS_API_CHO_MO_CHAN' && d.muc_tieu === '12/2018/NĐ-CP' && d.muc === 'Thấp'));
 t('chan: không còn UU_TIEN cho cùng số hiệu', !dhChan.some((d) => d.ma === 'HS_API_UU_TIEN_DOI_CHIEU' && d.muc_tieu === '12/2018/NĐ-CP'));
 t('chan: mục chưa chan vẫn UU_TIEN', dhChan.some((d) => d.ma === 'HS_API_UU_TIEN_DOI_CHIEU' && d.muc_tieu === '9/2020/TT-BCT'));
+const rChanDongBo = soGia({
+  'chan-dm.yaml': `so_hieu: 6266/QĐ-BCA\nloai: QUYET_DINH\nten: Ban hành Danh mục sản phẩm hàng hóa kiểm tra chuyên ngành\nco_quan: BCA\nhieu_luc_tu: "2026-07-01"\ntinh_trang: CON_HIEU_LUC\ntrich_dan_trong_bieu_thue: 150\nnhanh: [kiem-tra-chuyen-nganh/bca]\nxac_minh: {muc: NGUON_THU_CAP, hieu_luc_da_doi_chieu: false, ngay: "2026-10-04", chan: {ma: THIEU_PDF_A, ngay: "2026-10-04", viec_tiep: "Chờ BCA công bố PDF"}}\n`,
+  'chan-khung.yaml': `so_hieu: 45/2024/TT-BCT\nloai: THONG_TU\nten: "(chưa có tiêu đề — số hiệu lệch trong biểu thuế)"\nco_quan: BCT\ntinh_trang: CHUA_XAC_MINH\nnhanh: [kiem-tra-chuyen-nganh/bct]\nxac_minh: {muc: CHUA_XAC_MINH, hieu_luc_da_doi_chieu: false, ngay: "2026-10-04", chan: {ma: SO_HIEU_LECH, ngay: "2026-10-04", viec_tiep: "Báo hs-code-api sửa số hiệu"}}\n`,
+});
+const dmChanDongBo = timDiemMu(napSo(rChanDongBo), { today: '2026-10-04', root: rChanDongBo, nhuCau: null });
+t('chan: không sinh KHONG_TOAN_VAN, VAN_BAN_KHUNG, DANH_MUC_CHUA_TRICH khi đã có xac_minh.chan.ma',
+  !dmChanDongBo.some((d) => ['KHONG_TOAN_VAN', 'VAN_BAN_KHUNG', 'DANH_MUC_CHUA_TRICH'].includes(d.ma)),
+  JSON.stringify(dmChanDongBo.filter((d) => ['KHONG_TOAN_VAN', 'VAN_BAN_KHUNG', 'DANH_MUC_CHUA_TRICH'].includes(d.ma))));
+t('chan: giữ mức Thấp cho KHONG_NGUON_A và HIEU_LUC_CHUA_DOI_CHIEU khi đã có xac_minh.chan.ma',
+  dmChanDongBo.find((d) => d.ma === 'KHONG_NGUON_A' && d.muc_tieu === '6266/QĐ-BCA')?.muc === 'Thấp'
+  && dmChanDongBo.find((d) => d.ma === 'HIEU_LUC_CHUA_DOI_CHIEU' && d.muc_tieu === '6266/QĐ-BCA')?.muc === 'Thấp',
+  JSON.stringify(dmChanDongBo.filter((d) => d.muc_tieu === '6266/QĐ-BCA')));
 const kChanBad = kiemTra(napSo(soGia({
   'bad.yaml': `so_hieu: 1/2026/TT-BCT\nloai: THONG_TU\nten: Chan sai\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\nxac_minh: {muc: CHUA_XAC_MINH, hieu_luc_da_doi_chieu: false, ngay: "2026-10-04", chan: {ma: SAI_MA, ngay: "2026-10-04", viec_tiep: "x"}}\n`,
 })), { today: '2026-10-04' });
