@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-21
 
-2869 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2872 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -373,7 +373,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2187 văn bản, 2187 chưa hết hiệu lực.
+2190 văn bản, 2190 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -382,7 +382,10 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [23450/TB-CHQ/2026](../registry/van-ban/23450-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương bạc hà COOLING FLAVOR MT 02561001 dạng chất lỏng không màu đến vàng nhạt, mùi đặc trưng, tỷ trọng riêng 0,966-0,986 ở 20 độ C, thành phần gồm Propylene glycol 40-60% và hương liệu 40-60%, dùng làm hương liệu trong sản xuất bánh ngọt nhân kem và kẹo, mã số 3302.10.30)
 - 🟢 [23490/TB-CHQ/2026](../registry/van-ban/23490-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương bắp rang caramel CARAMEL POPCORN FLAVOR S2503913, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 10-20%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt nhân kem, kẹo, mã số 3302.10.30)
 - 🟢 [23491/TB-CHQ/2026](../registry/van-ban/23491-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Mô đun đi-ốt phát quang Led module TROOPER 5B, cụm 512 chip LED cấu hình 16S2P trên tấm mạch in nền nhôm PCB kèm 8 điện trở cân bằng dòng, hệ thống cầu chì và đầu nối nhận nguồn DC, kích thước 1200mm x 150mm x 1.76mm, công suất 13.92-15.84 W, dùng để sản xuất đèn chiếu sáng công nghiệp, thương mại, mã số 8541.41.00)
+- 🟢 [23406/TB-CHQ/2026](../registry/van-ban/23406-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Vảy nhựa PET rửa nóng - trong suốt Hot washed PET Flake-clear primary form, mã hiệu CPC-101, thành phần >99% Polyethylene Terephthalate tái sinh từ chai nhựa PET đã qua sử dụng, mật độ khối lượng 250-400 kg/m3, độ nhớt <78 mL/g, dùng làm nguyên liệu sản xuất hạt nhựa PET tái sinh cho ngành thực phẩm, mã số 3907.69.90)
 - 🟢 [23407/TB-CHQ/2026](../registry/van-ban/23407-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thực phẩm bảo vệ sức khỏe BIOCARE VITAMIN E 400 IU dạng viên nang mềm khối lượng 622 mg ± 10%, mỗi viên chứa Vitamin E từ dl-alpha tocopheryl acetate 400 IU cùng phụ liệu vỏ nang Gelatin, chất giữ ẩm Glycerin và nước tinh khiết, đóng gói 60 viên/lọ, mã số 2936.28.00)
+- 🟢 [23454/TB-CHQ/2026](../registry/van-ban/23454-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Khung từ Coil ass'y mã hiệu HP74422 cấu tạo gồm dây nhôm Al coil 13-14 gram quấn quanh lõi cuốn nhựa chịu nhiệt Bobbin và 01 linh kiện bán dẫn Diode, lắp cố định với lõi sắt tạo ra cuộn dây nam châm điện của còi xe ô tô 12V/24V, mã số 8505.90.90)
+- 🟢 [23348/TB-CHQ/2026](../registry/van-ban/23348-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Module diode phát quang LED mã hiệu ZYE004-081 cấu tạo gồm 01 bản mạch in điện tử tấm đế vật liệu cách điện FR4, 01 diode phát quang LED, 01 diode biến đổi nguồn xoay chiều thành 1 chiều và 02 điện trở, kích thước 15x12x4mm, điện áp 12V/1A, công suất 0,35W, dùng làm linh kiện sản xuất đèn chiếu sáng cốp xe máy, mã số 8539.51.00)
 - 🟢 [22419/TB-CHQ/2026](../registry/van-ban/22419-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cao su hỗn hợp chưa lưu hóa Compounding Masterbatch, dạng tấm, thành phần cao su butadiene, cao su tự nhiên, muội carbon, kẽm ô xit, axit stearic, chất chống oxy hóa, dầu aromatic, không chứa lưu huỳnh hoặc chất xúc tiến, dùng trong sản xuất lốp xe, mã số 4005.10.90)
 - 🟢 [73/2026/VBHN-TT-BCT](../registry/van-ban/73-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư sửa đổi quy định Danh mục chi tiết theo mã HS của hàng hóa xuất khẩu, nhập khẩu
 - 🟢 [74/2026/VBHN-TT-BCT](../registry/van-ban/74-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương
