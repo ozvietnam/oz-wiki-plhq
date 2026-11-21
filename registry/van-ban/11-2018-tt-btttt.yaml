@@ -28,8 +28,43 @@ xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF Công báo CDN (lớp chữ): Điều 3 khoản 1 hiệu lực 30-11-2018; căn cứ NĐ 69/2018/NĐ-CP; tình trạng hiện tại: Điều 64 khoản 4 NĐ 292/2026/NĐ-CP (PDF Công báo số 456, lớp chữ) cho VBQPPL hướng dẫn thi hành NĐ 69 tiếp tục thực hiện đến hết 31-12-2026 — TT này thuộc nhóm đó; ĐÃ CÓ văn bản thay: TT 63/2026/TT-BKHCN ngày 27-10-2026 (Công báo số 572 ngày 06-11-2026) Điều 3 khoản 2 thay thế từ 01-01-2027 — đối chiếu trực tiếp trang Công báo 19-11-2026'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng a) Phạm vi điều chỉnh Thông tư này công bố chi tiếtDanh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm theo mã số HS tại Phụ lục kèm theo (sau đây gọi tắt là Danh mục cấm nhập khẩu). b) Đối tượng áp dụng Thông tư này áp dụng đối với các cơ quan nhà nước, tổ chức, cá nhân tham gia hoặc có liên quan đến hoạt động nhập khẩu sản phẩm công nghệ thông tin đã qua sử dụng.'
+      trang_pdf: 1
+      sha256_pdf: 097c08d40524bab30e7056f7168e3853c9d3d8c4df38e346c3781e105f7e438d
+    - dieu: 2
+      khoan: 1
+      noi_dung: '1. Nguyên tắc xây dựng Danh mục cấm nhập khẩu a) Danh mục cấm nhập khẩu kèm theo mã số HS được xây dựng theo Thông tư số 65/2017/TT-BTC ngày 27 tháng 6 năm 2017 của Bộ trưởng Bộ Tài chính ban hành Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam. b) Danh mục cấm nhập khẩu được bổ sung, sửa đổi phù hợp với tình hình phát triển và các quy định khác của pháp luật theo từng thời kỳ.'
+      trang_pdf: 2
+      sha256_pdf: 097c08d40524bab30e7056f7168e3853c9d3d8c4df38e346c3781e105f7e438d
+    - dieu: 2
+      khoan: 2
+      noi_dung: '2. Các quy định áp dụng Danh mục cấm nhập khẩu a) Các trường hợp chỉ liệt kê mã 4 số thì toàn bộ các mã 8 số thuộc nhóm 4 số này đều được áp dụng; Các trường hợp chỉ liệt kê mã 6 số thì toàn bộ các mã 8 số thuộc phân nhóm 6 số này đều được áp dụng; Các trường hợp ngoài mã 4 số và 6 số còn chi tiết đến mã 8 số thì chỉ những mã 8 số đó mới được áp dụng; b) Linh kiện, phụ tùng, cụm linh kiện, phụ kiện đã qua sử dụng của các loại sản phẩm thuộc Danh mục cấm nhập khẩu cũng bị cấm nhập khẩu; c) Đối với máy in, máy photocopy kỹ thuật số đa màu, khi nhập khẩu thực hiện quy định của pháp luật trong lĩnh vực in. Máy in kỹ thuật số, máy photocopy kỹ thuật số loại đơn sắc (đen trắng) có hoặc không có kết hợp tính năng khác, đã qua sử dụng có mã HS thuộc Danh mục cấm nhập khẩu với tính năng in/copy khổ giấy A0 hoặc có tốc độ in/copy từ 35 bản/phút khổ giấy A4 trở lên và hộp mực cho máy in laser đã qua sử dụng (mã HS 8443.99.20) không bị cấm nhập khẩu; d) Sản phẩm công nghệ thông tin tân trang là sản phẩm công nghệ thông tin đã qua sử dụng, được sửa chữa, thay thế linh kiện và qua các công đoạn khác để phục hồi chức năng, hình thức tương đương sản phẩm mới; có nhãn hiệu bằng tiếng Việt ghi rõ sản phẩm tân trang, hoặc bằng tiếng nước ngoài có ý nghĩa tương đương; có chế độ bảo hành như sản phẩm mới của nhà sản xuất. Các sản phẩm công nghệ thông tin tân trang có mã số HS thuộc Danh mục cấm nhập khẩu quy định tại Phụ lục của Thông tư này bị cấm nhập khẩu.'
+      trang_pdf: 2
+      sha256_pdf: 097c08d40524bab30e7056f7168e3853c9d3d8c4df38e346c3781e105f7e438d
+    - dieu: 3
+      khoan: 1
+      noi_dung: '1. Thông tư này có hiệu lực kể từ ngày 30 tháng 11 năm 2018.'
+      trang_pdf: 2
+      sha256_pdf: 097c08d40524bab30e7056f7168e3853c9d3d8c4df38e346c3781e105f7e438d
+    - dieu: 3
+      khoan: 2
+      noi_dung: '2. Thông tư này thay thế Điều 3 và Phụ lục số 01 của Thông tư số 31/2015/ TT-BTTTT ngày 29 tháng 10 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông hướng dẫn một số điều của Nghị định số 187/2013/NĐ-CP ngày 20 tháng 11 năm 2013 của Chính phủ đối với hoạt động xuất, nhập khẩu sản phẩm công nghệ thông tin đã qua sử dụng.'
+      trang_pdf: 2
+      sha256_pdf: 097c08d40524bab30e7056f7168e3853c9d3d8c4df38e346c3781e105f7e438d
+    - dieu: 4
+      khoan: 1
+      noi_dung: '1. Thủ trưởng các cơ quan, đơn vị thuộc Bộ Thông tin và Truyền thông, các cơ quan, tổ chức, cá nhân nêu tại Điều 1 chịu trách nhiệm thi hành Thông tư này.'
+      trang_pdf: 3
+      sha256_pdf: 097c08d40524bab30e7056f7168e3853c9d3d8c4df38e346c3781e105f7e438d
+    - dieu: 4
+      khoan: 2
+      noi_dung: '2. Trong quá trình thực hiện, nếu có vướng mắc, đề nghị cơ quan, tổ chức, cá nhân có liên quan phản ánh về Bộ Thông tin và Truyền thông (Vụ Công nghệ thông tin) để kịp thời hướng dẫn, giải quyết./.'
+      trang_pdf: 3
+      sha256_pdf: 097c08d40524bab30e7056f7168e3853c9d3d8c4df38e346c3781e105f7e438d
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (186 mã HS). het_hieu_luc_tu 31-12-2026 theo chuyển tiếp Điều 64 khoản 4 NĐ 292 (hướng dẫn NĐ 69). Đã có văn bản thay: TT 63/2026/TT-BKHCN (Công báo số 572, Điều 3 khoản 2) hết hiệu lực TT này từ 01-01-2027 — quan hệ thay_the ghi chiều đi trên tệp 63-2026-tt-bkhcn.yaml. Không đổi tinh_trang trước ngày hết chuyển tiếp.'
 quan_he:
   sua_doi:
@@ -37,5 +72,6 @@ quan_he:
       pham_vi: Điều 3 và Phụ lục số 01
       tu_ngay: '2018-11-30'
       can_cu: Điều 3 khoản 2 TT 11/2018/TT-BTTTT
-
-toan_van: raw/download/congbaocdn.chinhphu.vn/11-2018-tt-btttt.pdf
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/11-2018-tt-btttt.pdf
+  - wiki/sources/11-2018-tt-btttt.md
