@@ -17,14 +17,86 @@ nguon:
     truy_cap: '2026-10-20'
   - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-155-2018-nd-cp-27636.htm
     truy_cap: '2026-10-20'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/11/27636/24408-1-20181057-1058155-2018-nd-cp.pdf
+    truy_cap: '2026-11-21'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/11/155.signed.pdf
     truy_cap: '2026-10-20'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'thẻ vanban.chinhphu.vn (docid=195324) và Công báo 27636: ban hành 12-11-2018, hiệu lực 01-01-2019, kèm toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/155-2018-nd-cp.pdf); đã đối chiếu còn hiệu lực qua chuỗi sửa đổi 129/2024/NĐ-CP và VBHN 09/VBHN-BYT'
+  pham_vi: 'đối chiếu toàn văn PDF Công báo số 1057+1058 ngày 26-11-2018 có lớp chữ (raw/download/congbaocdn.chinhphu.vn/155-2018-nd-cp.pdf, 79 trang, SHA-256 2061bb0d31dd5ead4e3b88742dbde1dbd933fdebe5213ab2662e906fa5df438f), thẻ vanban.chinhphu.vn (docid=195324) và PDF ký số (raw/download/datafiles.chinhphu.vn/155-2018-nd-cp.pdf): ban hành 12-11-2018, trích nguyên văn các điều khoản về an toàn thực phẩm (NĐ 15/2018/NĐ-CP, NĐ 67/2016/NĐ-CP), nhập khẩu và thông quan thuốc/nguyên liệu làm thuốc (NĐ 54/2017/NĐ-CP), mỹ phẩm (NĐ 93/2016/NĐ-CP, TT 06/2011/TT-BYT), kiểm dịch y tế biên giới đối với mẫu bệnh phẩm/sản phẩm sinh học nhập khẩu (NĐ 89/2018/NĐ-CP) và điều khoản thi hành; đã đối chiếu còn hiệu lực'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: '1. Bãi bỏ Điều 2 Chương I, Chương IV và Chương V của Nghị định số 67/2016/NĐ-CP ngày 01 tháng 7 năm 2016 của Chính phủ quy định về điều kiện sản xuất, kinh doanh thực phẩm thuộc lĩnh vực quản lý chuyên ngành của Bộ Y tế. 2. Bãi bỏ điểm c khoản 2 Điều 5 Nghị định số 15/2018/NĐ-CP ngày 02 tháng 02 năm 2018 của Chính phủ quy định chi tiết thi hành một số điều của Luật an toàn thực phẩm (sau đây gọi tắt là Nghị định số 15/2018/NĐ-CP). 3. Bãi bỏ Thông tư số 15/2012/TT-BYT ngày 12 tháng 9 năm 2012 của Bộ trưởng Bộ Y tế quy định về điều kiện chung bảo đảm an toàn thực phẩm đối với cơ sở sản xuất, kinh doanh thực phẩm. 4. Bãi bỏ Thông tư số 16/2012/TT-BYT ngày 22 tháng 10 năm 2012 của Bộ trưởng Bộ Y tế quy định về điều kiện bảo đảm an toàn thực phẩm đối với cơ sở sản xuất, kinh doanh thực phẩm, dụng cụ, vật liệu bao gói chứa đựng thực phẩm thuộc phạm vi quản lý của Bộ Y tế. 5. Bãi bỏ Thông tư số 26/2012/TT-BYT ngày 30 tháng 11 năm 2012 của Bộ trưởng Bộ Y tế quy định cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm đối với các cơ sở sản xuất, kinh doanh thực phẩm chức năng, thực phẩm tăng cường vi chất dinh dưỡng, phụ gia, chất hỗ trợ chế biến thực phẩm; nước khoáng thiên nhiên, nước uống đóng chai; dụng cụ, vật liệu bao gói, chứa đựng thực phẩm thuộc phạm vi quản lý của Bộ Y tế. 6. Bãi bỏ Thông tư số 30/2012/TT-BYT ngày 05 tháng 12 năm 2012 của Bộ trưởng Bộ Y tế quy định về điều kiện an toàn thực phẩm đối với cơ sở kinh doanh dịch vụ ăn uống, kinh doanh thức ăn đường phố. 7. Bãi bỏ Thông tư số 47/2014/TT-BYT ngày 11 tháng 12 năm 2014 của Bộ trưởng Bộ Y tế hướng dẫn quản lý an toàn thực phẩm đối với cơ sở kinh doanh dịch vụ ăn uống. 8. Bãi bỏ khoản 1, 3 Điều 14, khoản 1 Điều 15 Thông tư số 43/2014/TT-BYT ngày 24 tháng 11 năm 2014 của Bộ trưởng Bộ Y tế về quản lý thực phẩm chức năng.'
+      trang_pdf: 1
+      sha256_pdf: 2061bb0d31dd5ead4e3b88742dbde1dbd933fdebe5213ab2662e906fa5df438f
+    - dieu: 2
+      khoan: 1
+      noi_dung: '1. Điều 1 Chương I được sửa đổi như sau: “Nghị định này quy định điều kiện sản xuất, kinh doanh thực phẩm và hồ sơ, trình tự, thủ tục, thẩm quyền cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm (sau đây gọi tắt là Giấy chứng nhận) thuộc lĩnh vực quản lý chuyên ngành của Bộ Y tế đối với cơ sở sản xuất, kinh doanh sản phẩm và nhóm thực phẩm trong Phụ lục II ban hành kèm theo Nghị định số 15/2018/NĐ-CP (sau đây gọi tắt là cơ sở sản xuất, kinh doanh thực phẩm) và cơ sở kinh doanh dịch vụ ăn uống. Riêng điều kiện sản xuất, kinh doanh và hồ sơ, trình tự, thủ tục, thẩm quyền cấp, cấp lại Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm đạt yêu cầu Thực hành sản xuất tốt (GMP) thực phẩm bảo vệ sức khỏe và điều kiện sản xuất kinh doanh phụ gia thực phẩm thực hiện theo quy định tại Nghị định số 15/2018/NĐ-CP.”'
+      trang_pdf: 2
+      sha256_pdf: 2061bb0d31dd5ead4e3b88742dbde1dbd933fdebe5213ab2662e906fa5df438f
+    - dieu: 3
+      khoan: 1
+      noi_dung: '1. Sửa đổi, bổ sung điểm a khoản 2 Điều 5 như sau: “a) Tổ chức, cá nhân tự công bố sản phẩm trên phương tiện thông tin đại chúng hoặc trang thông tin điện tử của mình hoặc niêm yết công khai tại trụ sở của tổ chức, cá nhân và công bố trên Hệ thống thông tin dữ liệu cập nhật về an toàn thực phẩm (Trong trường hợp chưa có Hệ thống thông tin dữ liệu cập nhật về an toàn thực phẩm thì tổ chức, cá nhân nộp 01 bản qua đường bưu điện hoặc trực tiếp đến cơ quan quản lý nhà nước có thẩm quyền do Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương chỉ định để lưu trữ hồ sơ và đăng tải tên tổ chức, cá nhân và tên các sản phẩm tự công bố trên trang thông tin điện tử của cơ quan tiếp nhận, trường hợp tổ chức, cá nhân có từ 02 cơ sở sản xuất trở lên cùng sản xuất một sản phẩm thì tổ chức, cá nhân chỉ nộp hồ sơ tại một cơ quan quản lý nhà nước ở địa phương có cơ sở sản xuất do tổ chức, cá nhân lựa chọn. Khi đã lựa chọn cơ quan quản lý nhà nước để nộp hồ sơ thì các lần tự công bố tiếp theo phải nộp hồ sơ tại cơ quan đã lựa chọn trước đó).”'
+      trang_pdf: 6
+      sha256_pdf: 2061bb0d31dd5ead4e3b88742dbde1dbd933fdebe5213ab2662e906fa5df438f
+    - dieu: 3
+      khoan: 2
+      noi_dung: '2. Bổ sung khoản 6 Điều 40 như sau: “6. Tổ chức cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm đối với cơ sở sản xuất nước uống đóng chai, nước khoáng thiên nhiên, nước đá dùng liền, nước đá dùng để chế biến thực phẩm, cơ sở sản xuất thực phẩm bổ sung, thực phẩm dinh dưỡng y học, thực phẩm dùng cho chế độ ăn đặc biệt, sản phẩm dinh dưỡng dùng cho trẻ đến 36 tháng tuổi, phụ gia, chất hỗ trợ chế biến thực phẩm, các vi chất bổ sung vào thực phẩm, cơ sở sản xuất thực phẩm khác không được quy định tại danh mục của Bộ Công Thương và Bộ Nông nghiệp và Phát triển nông thôn, cơ sở kinh doanh dịch vụ ăn uống.”'
+      trang_pdf: 6
+      sha256_pdf: 2061bb0d31dd5ead4e3b88742dbde1dbd933fdebe5213ab2662e906fa5df438f
+    - dieu: 5
+      khoan: 48
+      noi_dung: 'a) Khoản 5 Điều 91 được sửa đổi như sau: “5. Văn phòng đại diện tại Việt Nam của cơ sở sản xuất, cơ sở đứng tên đăng ký, cơ sở sở hữu giấy phép lưu hành của thuốc thử lâm sàng, thuốc đánh giá sinh khả dụng, thử tương đương sinh học; cơ sở nhận thử thuốc trên lâm sàng, cơ sở nhận đánh giá sinh khả dụng, thử tương đương sinh học được nhập khẩu thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc và chất chuẩn để phục vụ việc thử lâm sàng, đánh giá sinh khả dụng, thử tương đương sinh học, đăng ký lưu hành, nghiên cứu, kiểm nghiệm thuốc, nguyên liệu làm thuốc."'
+      trang_pdf: 25
+      sha256_pdf: 2061bb0d31dd5ead4e3b88742dbde1dbd933fdebe5213ab2662e906fa5df438f
+    - dieu: 5
+      khoan: 49
+      noi_dung: 'a) Điểm đ khoản 2 Điều 92 được sửa đổi như sau: “đ) Trường hợp nhập khẩu thuốc, nguyên liệu làm thuốc quy định tại điểm đ khoản 1 Điều 59 của Luật dược và không thuộc trường hợp phải có giấy phép nhập khẩu, cơ sở nhập khẩu xuất trình vận tải đơn của lô thuốc, nguyên liệu làm thuốc thể hiện hàng hóa được xuất từ cảng đi của nước xuất khẩu trước ngày giấy đăng ký lưu hành hết thời hạn hiệu lực để được thông quan.” b) Bổ sung điểm e, g và h khoản 2 Điều 92 như sau: “e) Trường hợp nhập khẩu thuốc, nguyên liệu làm thuốc quy định tại điểm đ khoản 1 Điều 59 của Luật dược và thuộc trường hợp phải có giấy phép nhập khẩu, cơ sở nhập khẩu xuất trình vận tải đơn của lô thuốc, nguyên liệu làm thuốc thể hiện hàng hóa được xuất từ cảng đi của nước xuất khẩu trước ngày giấy đăng ký lưu hành và giấy phép nhập khẩu hết thời hạn hiệu lực để được thông quan;'
+      trang_pdf: 28
+      sha256_pdf: 2061bb0d31dd5ead4e3b88742dbde1dbd933fdebe5213ab2662e906fa5df438f
+    - dieu: 12
+      khoan: 1
+      noi_dung: '1. Bãi bỏ các quy định sau đây của Nghị định số 93/2016/NĐ-CP ngày 01 tháng 7 năm 2016 của Chính phủ quy định điều kiện sản xuất mỹ phẩm: a) Khoản 1 Điều 3; b) Điểm c và e khoản 3 Điều 4; c) Điểm d khoản 1 Điều 7; d) Điểm b khoản 2 Điều 7;'
+      trang_pdf: 62
+      sha256_pdf: 2061bb0d31dd5ead4e3b88742dbde1dbd933fdebe5213ab2662e906fa5df438f
+    - dieu: 12
+      khoan: 2
+      noi_dung: '2. Bãi bỏ một số quy định của Thông tư số 06/2011/TT-BYT ngày 25 tháng 01 năm 2011 của Bộ Y tế quy định về quản lý mỹ phẩm: a) Khoản 2 Điều 4; b) Điểm b, d và g khoản 1 Điều 34; c) Khoản 1 Điều 35.'
+      trang_pdf: 63
+      sha256_pdf: 2061bb0d31dd5ead4e3b88742dbde1dbd933fdebe5213ab2662e906fa5df438f
+    - dieu: 13
+      noi_dung: '“a) Nguyên liệu, phụ liệu, bán thành phẩm dùng trong sản xuất mỹ phẩm phải đạt tiêu chuẩn chất lượng của nhà sản xuất.”'
+      trang_pdf: 63
+      sha256_pdf: 2061bb0d31dd5ead4e3b88742dbde1dbd933fdebe5213ab2662e906fa5df438f
+    - dieu: 15
+      khoan: 2
+      noi_dung: '2. Sửa đổi, bổ sung Điều 36 Nghị định số 89/2018/NĐ-CP ngày 25 tháng 6 năm 2018 của Chính phủ quy định chi tiết thi hành một số điều của Luật phòng, chống bệnh truyền nhiễm về kiểm dịch y tế biên giới như sau: "1. Kiểm dịch viên y tế thu thập: a) Giấy khai báo y tế đối với sản phẩm sinh học, mô, bộ phận cơ thể người nhập khẩu nhằm mục đích dự phòng, nghiên cứu, chẩn đoán, chữa bệnh; b) Giấy khai báo y tế và giấy phép nhập khẩu của Bộ Y tế đối với mẫu máu, huyết thanh, huyết tương, nước tiểu, phân, dịch tiết cơ thể người, các mẫu khác từ người có chứa hoặc có khả năng chứa tác nhân gây bệnh truyền nhiễm cho người, các chủng vi sinh vật, mẫu có chứa vi sinh vật có khả năng gây bệnh cho người nhập khẩu nhằm mục đích dự phòng, nghiên cứu, chẩn đoán, chữa bệnh.'
+      trang_pdf: 65
+      sha256_pdf: 2061bb0d31dd5ead4e3b88742dbde1dbd933fdebe5213ab2662e906fa5df438f
+    - dieu: 20
+      noi_dung: 'Nghị định này có hiệu lực thi hành từ ngày ký ban hành.'
+      trang_pdf: 71
+      sha256_pdf: 2061bb0d31dd5ead4e3b88742dbde1dbd933fdebe5213ab2662e906fa5df438f
+    - dieu: 21
+      khoan: 1
+      noi_dung: '1. Điều khoản chuyển tiếp đối với Nghị định số 89/2018/NĐ-CP: a) Đối với đơn vị đã được cấp phép xuất, nhập khẩu mẫu bệnh phẩm trước ngày Nghị định này có hiệu lực thi hành được thực hiện việc nhập khẩu mẫu bệnh phẩm theo các nội dung đã ghi trong giấy phép; b) Đối với đơn vị đề nghị cấp phép xuất, nhập khẩu mẫu bệnh phẩm đã nộp hồ sơ trước ngày Nghị định này có hiệu lực thi hành nhưng chưa được cấp giấy phép thì thực hiện việc nhập khẩu mẫu bệnh phẩm theo quy định tại Nghị định này.'
+      trang_pdf: 72
+      sha256_pdf: 2061bb0d31dd5ead4e3b88742dbde1dbd933fdebe5213ab2662e906fa5df438f
+    - dieu: 21
+      khoan: 4
+      noi_dung: '4. Điều khoản chuyển tiếp đối với Nghị định số 54/2017/NĐ-CP: a) Các hồ sơ đề nghị cấp chứng chỉ hành nghề hoặc cấp giấy chứng nhận đủ điều kiện kinh doanh dược hoặc cấp phép xuất khẩu, nhập khẩu thuốc, nguyên liệu làm thuốc theo quy định tại Nghị định số 54/2017/NĐ-CP đã nộp trước ngày Nghị định này có hiệu lực thi hành được thực hiện theo quy định của Nghị định số 54/2017/NĐ-CP; b) Các nguyên liệu làm thuốc để sản xuất thuốc theo hồ sơ đăng ký thuốc đã có giấy đăng ký lưu hành thuốc đã được công bố trước ngày Nghị định này có hiệu lực tiếp tục được phép nhập khẩu đến hết thời hạn hiệu lực của giấy đăng ký lưu hành thuốc; c) Các thuốc đã được các cơ sở bán lẻ thuốc trong khuôn viên cơ sở khám bệnh, chữa bệnh mua vào trước ngày Nghị định này có hiệu lực được thực hiện theo quy định tại Nghị định số 54/2017/NĐ-CP.'
+      trang_pdf: 73
+      sha256_pdf: 2061bb0d31dd5ead4e3b88742dbde1dbd933fdebe5213ab2662e906fa5df438f
+    - dieu: 22
+      noi_dung: 'Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương chịu trách nhiệm thi hành Nghị định này./.'
+      trang_pdf: 73
+      sha256_pdf: 2061bb0d31dd5ead4e3b88742dbde1dbd933fdebe5213ab2662e906fa5df438f
 ghi_chu: Sửa nhiều nghị định lĩnh vực BYT, trong đó có NĐ 15/2018/NĐ-CP (điều kiện ATTP, miễn công bố, GCN cơ sở đủ điều kiện ATTP). Bị sửa tiếp bởi NĐ 129/2024/NĐ-CP (chưa có trong sổ — điểm mù). Lưu ý NĐ 46/2026/NĐ-CP (thay thế 15/2018) đang bị tạm ngưng theo NQ 09/2026 và 15/2026/NQ-CP → 15/2018 (đã sửa bởi 155/2018) VẪN áp dụng.
 tu_khoa: [attp, kiem-tra-attp, my-pham]
-toan_van: raw/download/datafiles.chinhphu.vn/155-2018-nd-cp.pdf
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/155-2018-nd-cp.pdf
+  - raw/download/datafiles.chinhphu.vn/155-2018-nd-cp.pdf
+  - wiki/sources/155-2018-nd-cp.md
