@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-21",
   "luoc_do_phien_ban": "1.5.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2851,
+  "tong": 2852,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -3787,6 +3787,65 @@
       "ghi_chu": "Trích yếu cổng Chính phủ cũng tạm ngưng Nghị quyết 66.13/2026/NQ-CP. Nghị quyết này chưa có trong sổ, nên chưa ghi quan hệ. Chưa đọc điều khoản để chốt còn hiệu lực tới đâu.",
       "toan_van": "raw/download/datafiles.chinhphu.vn/09-2026-nq-cp.pdf",
       "slug": "09-2026-nq-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "09/VBHN-BTTTT",
+      "so_hieu_khac": [
+        "09/2024/VBHN-BTTTT"
+      ],
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Thông tư ban hành danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm",
+      "co_quan": "BTTTT",
+      "ngay_ban_hanh": "2024-10-21",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct"
+      ],
+      "quan_he": {
+        "hop_nhat": [
+          {
+            "so_hieu": "22/2018/TT-BTTTT"
+          },
+          {
+            "so_hieu": "11/2024/TT-BTTTT"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-09-vbhn-btttt-43052/52465.htm",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/10/43052/52465-1-20241233-123409-vbhn-btttt.pdf",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=211488",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/10/09-vbhn-btttt.pdf",
+          "truy_cap": "2026-11-12"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu toàn văn PDF Công báo Số 1233 + 1234 ngày 08-11-2024 (trang 53–69, 17 trang, có lớp chữ, lưu tại raw/download/congbaocdn.chinhphu.vn/09-vbhn-btttt.pdf) và thẻ vanban.chinhphu.vn (docid=211488): số hiệu 09/VBHN-BTTTT, trích yếu \"Thông tư ban hành danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm\", Bộ trưởng Nguyễn Mạnh Hùng ký xác thực ngày 21-10-2024; hợp nhất Thông tư 22/2018/TT-BTTTT ngày 28-12-2018 (có hiệu lực từ 12-02-2019), phần bãi bỏ khoản 1 Điều 1 và Phụ lục 01 theo khoản 4 Điều 2 Thông tư 18/2023/TT-BTTTT ngày 30-11-2023 (có hiệu lực từ 30-11-2023), và nội dung sửa đổi, bổ sung theo Điều 2, khoản 1 Điều 3 Thông tư 11/2024/TT-BTTTT ngày 23-09-2024 (có hiệu lực từ 07-11-2024). Cấu trúc gồm 2 Điều (Điều 1 bổ sung khoản 1a quy định Danh mục hàng hóa nhập khẩu theo mã số HS trong lĩnh vực in với các nhóm 84.40, 84.41, 84.42, 84.43; khoản 2 dẫn Phụ lục 02) và Phụ lục 02 (Danh mục hàng hóa theo mã số HS và hình thức quản lý đối với hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực phát hành xuất bản phẩm thuộc các nhóm 49.01, 49.03, 49.05, 49.10, 49.11; Phụ lục 01 đã được bãi bỏ). Đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Văn bản hợp nhất Thông tư 22/2018/TT-BTTTT và Thông tư 11/2024/TT-BTTTT về Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm (kèm nội dung bãi bỏ khoản 1 Điều 1 và Phụ lục 01 bởi Thông tư 18/2023/TT-BTTTT ngày 30-11-2023 — văn bản 18/2023/TT-BTTTT chưa có mục riêng trong sổ nên ghi nhận tại pham_vi và ghi_chu).",
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/09-vbhn-btttt.pdf",
+      "tu_khoa": [
+        "xuat-ban",
+        "in",
+        "xuat-nhap-khau"
+      ],
+      "slug": "09-vbhn-btttt-2024",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -8230,7 +8289,15 @@
       ],
       "slug": "11-2024-tt-btttt",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "09/VBHN-BTTTT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "11/2024/TT-BTTTT"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "11/2026/QH16",
@@ -27748,7 +27815,7 @@
       ],
       "loai": "QUYET_DINH",
       "ten": "Về việc ban hành Quy định về định dạng thông điệp dữ liệu tờ khai hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định, dịch vụ chuyển phát nhanh quốc tế",
-      "co_quan": "TCHQ",
+      "co_quan": "CHQ",
       "ngay_ban_hanh": "2026-11-12",
       "hieu_luc_tu": "2026-11-16",
       "tinh_trang": "CON_HIEU_LUC",
@@ -38183,7 +38250,7 @@
         "ngay": "2026-11-12",
         "boi": "tho-bo-ba-01@ozvietnam"
       },
-      "ghi_chu": "Đã hiệu đính ten, ngay_ban_hanh (từ 2018-11-16 sai ở bản ghi NGUON_B cũ về đúng ngày ký 2018-12-28) và bổ sung hieu_luc_tu: 2019-02-12 theo đúng nguyên bản ký số trên Công báo. Điểm b khoản 1 Điều 2 thay thế thêm Thông tư số 41/2016/TT-BTTTT ngày 26-12-2016 nhưng văn bản này chưa có mục riêng trong registry/van-ban/ nên ghi nhận tại pham_vi và ghi_chu. Phần căn cứ còn nêu Luật Xuất bản số 19/2012/QH13 (chưa mở mục trong sổ) và Nghị định 69/2018/NĐ-CP (đã hết hiệu lực, thay bởi NĐ 95/2026/NĐ-CP). Toàn văn hợp nhất hiện hành của TT 22/2018/TT-BTTTT sau khi sửa đổi bởi TT 11/2024/TT-BTTTT là Văn bản hợp nhất số 09/VBHN-BTTTT ngày 21-10-2024 (https://vanban.chinhphu.vn/?pageid=27160&docid=211488, chưa mở mục riêng trong sổ).",
+      "ghi_chu": "Đã hiệu đính ten, ngay_ban_hanh (từ 2018-11-16 sai ở bản ghi NGUON_B cũ về đúng ngày ký 2018-12-28) và bổ sung hieu_luc_tu: 2019-02-12 theo đúng nguyên bản ký số trên Công báo. Điểm b khoản 1 Điều 2 thay thế thêm Thông tư số 41/2016/TT-BTTTT ngày 26-12-2016 nhưng văn bản này chưa có mục riêng trong registry/van-ban/ nên ghi nhận tại pham_vi và ghi_chu. Phần căn cứ còn nêu Luật Xuất bản số 19/2012/QH13 (chưa mở mục trong sổ) và Nghị định 69/2018/NĐ-CP (đã hết hiệu lực, thay bởi NĐ 95/2026/NĐ-CP). Toàn văn hợp nhất hiện hành của TT 22/2018/TT-BTTTT sau khi sửa đổi bởi TT 11/2024/TT-BTTTT là Văn bản hợp nhất số 09/VBHN-BTTTT ngày 21-10-2024 (https://vanban.chinhphu.vn/?pageid=27160&docid=211488, đã mở mục riêng trong sổ tại registry/van-ban/09-vbhn-btttt-2024.yaml).",
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/22-2018-tt-btttt.pdf",
       "tu_khoa": [
         "xuat-ban",
@@ -38193,6 +38260,13 @@
       "slug": "22-2018-tt-btttt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
+        "duoc_hop_nhat_boi": [
+          {
+            "tu": "09/VBHN-BTTTT",
+            "quan_he": "hop_nhat",
+            "so_hieu": "22/2018/TT-BTTTT"
+          }
+        ],
         "bi_sua_doi_boi": [
           {
             "tu": "11/2024/TT-BTTTT",

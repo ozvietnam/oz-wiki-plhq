@@ -113,6 +113,15 @@
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
       "muc": "Thấp",
+      "tieuDe": "09/VBHN-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN",
+      "muc_tieu": "09/VBHN-BTTTT",
+      "viec": "Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
       "tieuDe": "10/2022/TT-BTTTT (Bộ Thông tin và Truyền thông) còn ghi hiệu lực — cơ quan đã sáp nhập vào BKHCN",
       "muc_tieu": "10/2022/TT-BTTTT",
       "viec": "Kiểm tra BKHCN đã ban hành văn bản thay thế chưa.",
@@ -5607,15 +5616,6 @@
       "muc_tieu": "1812/TB-TCHQ/2020",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
-      "trongSo": 0
-    },
-    {
-      "ma": "CO_QUAN_DA_SAP_NHAP",
-      "muc": "Thấp",
-      "tieuDe": "1813/2026/QĐ-CHQ (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
-      "muc_tieu": "1813/2026/QĐ-CHQ",
-      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
-      "luong": "do-tham",
       "trongSo": 0
     },
     {

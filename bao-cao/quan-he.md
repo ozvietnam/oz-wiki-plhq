@@ -198,6 +198,9 @@ flowchart LR
   n_03_2021_TT_BYT["03/2021/TT-BYT<br/>hết hiệu lực"]
   n_09_2026_NQ_CP["09/2026/NQ-CP<br/>còn hiệu lực"]
   n_46_2026_N__CP["46/2026/NĐ-CP<br/>tạm ngưng"]
+  n_09_VBHN_BTTTT["09/VBHN-BTTTT<br/>còn hiệu lực"]
+  n_22_2018_TT_BTTTT["22/2018/TT-BTTTT<br/>hết hiệu lực một phần"]
+  n_11_2024_TT_BTTTT["11/2024/TT-BTTTT<br/>còn hiệu lực"]
   n_09_VBHN_BYT["09/VBHN-BYT<br/>còn hiệu lực"]
   n_155_2018_N__CP["155/2018/NĐ-CP<br/>còn hiệu lực"]
   n_29_2020_TT_BYT["29/2020/TT-BYT<br/>còn hiệu lực"]
@@ -210,9 +213,7 @@ flowchart LR
   n_109_2026_VBHN_TT_BNNMT["109/2026/VBHN-TT-BNNMT<br/>còn hiệu lực"]
   n_14_2024_TT_BNNPTNT["14/2024/TT-BNNPTNT<br/>hết hiệu lực một phần"]
   n_11_2017_TT_BCT["11/2017/TT-BCT<br/>hết hiệu lực"]
-  n_11_2024_TT_BTTTT["11/2024/TT-BTTTT<br/>còn hiệu lực"]
   n_05_2016_TT_BTTTT["05/2016/TT-BTTTT<br/>hết hiệu lực một phần"]
-  n_22_2018_TT_BTTTT["22/2018/TT-BTTTT<br/>hết hiệu lực một phần"]
   n_09_2013_TT_BTTTT["09/2013/TT-BTTTT<br/>hết hiệu lực một phần"]
   n_03_2015_TT_BTTTT["03/2015/TT-BTTTT<br/>hết hiệu lực một phần"]
   n_111_2021_N__CP["111/2021/NĐ-CP<br/>hết hiệu lực"]
@@ -332,6 +333,8 @@ flowchart LR
   n_09_2024_TT_BYT -->|bãi bỏ từ 2024-07-26| n_48_2018_TT_BYT
   n_09_2024_TT_BYT -->|bãi bỏ từ 2024-07-26| n_03_2021_TT_BYT
   n_09_2026_NQ_CP -->|tạm ngưng| n_46_2026_N__CP
+  n_09_VBHN_BTTTT -->|hợp nhất| n_22_2018_TT_BTTTT
+  n_09_VBHN_BTTTT -->|hợp nhất| n_11_2024_TT_BTTTT
   n_09_VBHN_BYT -->|hợp nhất| n_06_2011_TT_BYT
   n_09_VBHN_BYT -->|hợp nhất| n_09_2015_TT_BYT
   n_09_VBHN_BYT -->|hợp nhất| n_155_2018_N__CP
