@@ -1,0 +1,32 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 19/2026/QH16
+loai: NGHI_QUYET
+ten: 'Về thuế bảo vệ môi trường, thuế giá trị gia tăng, thuế tiêu thụ đặc biệt đối với xăng, dầu và nhiên liệu bay'
+co_quan: QH
+ngay_ban_hanh: '2026-04-12'
+hieu_luc_tu: '2026-04-16'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - thue/thue-noi-dia-khau-nk
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=103261&cid=1294
+    truy_cap: '2026-11-21'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/4/17/NGH!%20QUYET.pdf
+    truy_cap: '2026-11-21'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/4/17/NGH!%20QUYET.pdf, id=103261) và Nghị quyết 43/2026/NQ-CP: Nghị quyết 19/2026/QH16 ngày 12-04-2026 của Quốc hội, hiệu lực từ 16-04-2026; Điều 1 thuế BVMT đối với xăng (trừ etanol), dầu diezel, dầu hỏa, dầu mazut và nhiên liệu bay là 0 đồng/lít; Điều 2 thuộc đối tượng không phải kê khai, tính nộp thuế GTGT nhưng được khấu trừ thuế GTGT đầu vào; Điều 3 thuế suất thuế TTĐB đối với xăng các loại là 0%; Điều 1 và Điều 2 được Nghị quyết 43/2026/NQ-CP kéo dài thời hạn áp dụng đến hết 31-12-2026'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Về thuế bảo vệ môi trường: Mức thuế bảo vệ môi trường đối với xăng (trừ etanol), dầu diezel, dầu hỏa, dầu mazut và nhiên liệu bay là 0 đồng/lít.'
+    - dieu: 2
+      noi_dung: 'Về thuế giá trị gia tăng: Xăng, dầu diezel, dầu hỏa, dầu mazut và nhiên liệu bay thuộc đối tượng không phải kê khai, tính nộp thuế giá trị gia tăng nhưng được khấu trừ thuế giá trị gia tăng đầu vào.'
+    - dieu: 3
+      noi_dung: 'Về thuế tiêu thụ đặc biệt: Thuế suất thuế tiêu thụ đặc biệt đối với xăng các loại là 0%.'
+    - dieu: 4
+      noi_dung: 'Điều khoản thi hành: Hiệu lực từ ngày 16/04/2026 đến hết ngày 30/06/2026; khoản 2 giao Chính phủ ban hành Nghị quyết kéo dài thời gian có hiệu lực (Nghị quyết 43/2026/NQ-CP kéo dài Điều 1 và Điều 2 đến hết ngày 31/12/2026).'
+ghi_chu: 'Điều 1 (thuế BVMT 0 đồng/lít) và Điều 2 (không kê khai, tính nộp thuế GTGT — mã VK240 trên VNACCS/VCIS theo CV 15289/CHQ-NVTHQ) được Nghị quyết 43/2026/NQ-CP kéo dài thời hạn áp dụng đến hết ngày 31-12-2026; Điều 3 (thuế TTĐB xăng 0%) được Nghị quyết 45/2026/NQ-CP kéo dài đến hết ngày 31-03-2027.'
+toan_van: raw/download/files.customs.gov.vn/19-2026-qh16.pdf
