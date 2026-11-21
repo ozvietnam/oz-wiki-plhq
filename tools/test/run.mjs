@@ -105,6 +105,14 @@ const rVbhn = soGia({
   'vbhn_60.yaml': `so_hieu: 60/2026/TT-BCT-VBHN\nloai: THONG_TU\nten: Van ban hop nhat 60/2026/TT-BCT\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\n${XM}\n`,
   'sua1.yaml': `so_hieu: 70/2026/TT-BCT\nloai: THONG_TU\nten: Bi sua 1 lan (duoi nguong)\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\n${XM}\n`,
   'f1.yaml': `so_hieu: 71/2026/TT-BCT\nloai: THONG_TU\nten: Sua 70 lan 1\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\nquan_he: {sua_doi: [70/2026/TT-BCT]}\n${XM}\n`,
+  'qd_hanh_chinh.yaml': `so_hieu: 2711/QĐ-BKHCN\nloai: QUYET_DINH\nten: Quyet dinh hanh chinh khong nam bi sua 3 lan\nco_quan: BKHCN\ntinh_trang: HET_HIEU_LUC_MOT_PHAN\nnhanh: [kiem-tra-chuyen-nganh/bkhcn]\n${XM}\n`,
+  'qdhc1.yaml': `so_hieu: 366/QĐ-BKHCN\nloai: QUYET_DINH\nten: Sua QDHC 1\nco_quan: BKHCN\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bkhcn]\nquan_he: {sua_doi: [2711/QĐ-BKHCN]}\n${XM}\n`,
+  'qdhc2.yaml': `so_hieu: 367/QĐ-BKHCN\nloai: QUYET_DINH\nten: Sua QDHC 2\nco_quan: BKHCN\ntinh_trang: HET_HIEU_LUC_MOT_PHAN\nnhanh: [kiem-tra-chuyen-nganh/bkhcn]\nquan_he: {sua_doi: [2711/QĐ-BKHCN]}\n${XM}\n`,
+  'qdhc3.yaml': `so_hieu: 3830/QĐ-BKHCN\nloai: QUYET_DINH\nten: Sua QDHC 3\nco_quan: BKHCN\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bkhcn]\nquan_he: {sua_doi: [2711/QĐ-BKHCN]}\n${XM}\n`,
+  'qd_qppl.yaml': `so_hieu: 23/2019/QĐ-TTg\nloai: QUYET_DINH\nten: Quyet dinh QPPL co nam bi sua 3 lan\nco_quan: TTG\ntinh_trang: HET_HIEU_LUC_MOT_PHAN\nnhanh: [hai-quan/thu-tuc]\n${XM}\n`,
+  'qdqp1.yaml': `so_hieu: 1/2020/QĐ-TTg\nloai: QUYET_DINH\nten: Sua QDQP 1\nco_quan: TTG\ntinh_trang: CON_HIEU_LUC\nnhanh: [hai-quan/thu-tuc]\nquan_he: {sua_doi: [23/2019/QĐ-TTg]}\n${XM}\n`,
+  'qdqp2.yaml': `so_hieu: 2/2021/QĐ-TTg\nloai: QUYET_DINH\nten: Sua QDQP 2\nco_quan: TTG\ntinh_trang: CON_HIEU_LUC\nnhanh: [hai-quan/thu-tuc]\nquan_he: {sua_doi: [23/2019/QĐ-TTg]}\n${XM}\n`,
+  'qdqp3.yaml': `so_hieu: 3/2022/QĐ-TTg\nloai: QUYET_DINH\nten: Sua QDQP 3\nco_quan: TTG\ntinh_trang: CON_HIEU_LUC\nnhanh: [hai-quan/thu-tuc]\nquan_he: {sua_doi: [23/2019/QĐ-TTg]}\n${XM}\n`,
 });
 const dmVbhn = timDiemMu(napSo(rVbhn), { today: '2026-10-04', root: rVbhn });
 const vbhn = (ma, muc_tieu) => dmVbhn.find((d) => d.ma === ma && d.muc_tieu === muc_tieu);
@@ -112,6 +120,8 @@ t('điểm mù: bị sửa 3 lần chưa VBHN → báo Vừa', vbhn('THIEU_VBHN'
 t('điểm mù: bị sửa 5 lần chưa VBHN → báo Cao', vbhn('THIEU_VBHN', '50/2026/TT-BCT')?.muc === 'Cao');
 t('điểm mù: bị sửa 3 lần có VBHN → không báo', !vbhn('THIEU_VBHN', '60/2026/TT-BCT'));
 t('điểm mù: bị sửa 1 lần → không báo', !vbhn('THIEU_VBHN', '70/2026/TT-BCT'));
+t('điểm mù: QĐ hành chính không năm (2711/QĐ-BKHCN) bị sửa 3 lần → không báo THIEU_VBHN', !vbhn('THIEU_VBHN', '2711/QĐ-BKHCN'));
+t('điểm mù: QĐ QPPL có năm (23/2019/QĐ-TTg) bị sửa 3 lần chưa VBHN → vẫn báo THIEU_VBHN mức Vừa', vbhn('THIEU_VBHN', '23/2019/QĐ-TTg')?.muc === 'Vừa');
 
 
 // 5. Dựng
