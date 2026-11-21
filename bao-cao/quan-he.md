@@ -207,6 +207,7 @@ flowchart LR
   n_155_2018_N__CP["155/2018/NĐ-CP<br/>còn hiệu lực"]
   n_29_2020_TT_BYT["29/2020/TT-BYT<br/>còn hiệu lực"]
   n_34_2025_TT_BYT["34/2025/TT-BYT<br/>còn hiệu lực"]
+  n_102_2020_N__CP["102/2020/NĐ-CP<br/>còn hiệu lực"]
   n_105_2016_QH13["105/2016/QH13<br/>còn hiệu lực"]
   n_34_2005_QH11["34/2005/QH11<br/>hết hiệu lực"]
   n_109_2026_VBHN_TT_BNNMT["109/2026/VBHN-TT-BNNMT<br/>còn hiệu lực"]
@@ -345,6 +346,7 @@ flowchart LR
   n_09_VBHN_BYT -->|hợp nhất| n_155_2018_N__CP
   n_09_VBHN_BYT -->|hợp nhất| n_29_2020_TT_BYT
   n_09_VBHN_BYT -->|hợp nhất| n_34_2025_TT_BYT
+  n_102_2020_N__CP -->|bãi bỏ Điều 17 về hồ sơ gỗ nhập khẩu từ 2020-10-30| n_27_2018_TT_BNNPTNT
   n_105_2016_QH13 -->|thay thế từ 2017-01-01| n_34_2005_QH11
   n_109_2026_VBHN_TT_BNNMT -->|hợp nhất| n_14_2024_TT_BNNPTNT
   n_11_2024_TT_BTTTT -->|sửa đổi Khoản 2 Điều 4; khoản 2 Điều 5; điểm a khoản 1, khoản 2 và khoản 3 Điều 6; khoản 3 Điều 8; thay thế Mẫu số 01 và Mẫu số 02 bằng Phụ lục 01 và Phụ lục 02 từ 2024-11-07| n_05_2016_TT_BTTTT

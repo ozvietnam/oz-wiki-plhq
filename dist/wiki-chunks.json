@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-21).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 2109,
+ "tong": 2153,
  "chunks": [
   {
    "chunk_id": "dong-bo-quan-diem-phan-loai#1",
@@ -16759,6 +16759,539 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "01-2024-tt-bnnptnt#1",
+   "slug": "01-2024-tt-bnnptnt",
+   "duong_dan": "wiki/sources/01-2024-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 01/2024/TT-BNNPTNT — Bảng mã số HS danh mục hàng hóa thuộc thẩm quyền quản lý và KTCN của Bộ NN&PTNT",
+   "muc": "Summary",
+   "noi_dung": "**Thông tư 01/2024/TT-BNNPTNT** do Thứ trưởng Bộ Nông nghiệp và Phát triển nông thôn Phùng Đức Tiến ký ban hành ngày **02/02/2024**, có hiệu lực thi hành từ ngày **20/03/2024**, ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn.\n\nVăn bản gồm **4 điều và 4 Phụ lục** (Phụ lục I gồm 27 mục chuyên ngành; Phụ lục II về kiểm tra chuyên ngành trước thông quan; Phụ lục III về kiểm tra chuyên ngành sau thông quan; Phụ lục IV sửa đổi một số mục danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn), đã được trích xuất **3.721 dòng dữ liệu** tại `danh-muc/01-2024-tt-bnnptnt.csv` và được dẫn chiếu tại **1.468 mã HS** trong biểu thuế xuất nhập khẩu. **Hiện đang còn hiệu lực**.",
+   "tags": [
+    "thong-tu",
+    "bnnptnt",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "khai-bao-hai-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "01/2024/TT-BNNPTNT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-03-20",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?docid=209723&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "01-2024-tt-bnnptnt#2",
+   "slug": "01-2024-tt-bnnptnt",
+   "duong_dan": "wiki/sources/01-2024-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 01/2024/TT-BNNPTNT — Bảng mã số HS danh mục hàng hóa thuộc thẩm quyền quản lý và KTCN của Bộ NN&PTNT",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 02/02/2024 | Bộ Nông nghiệp và Phát triển nông thôn ban hành Thông tư 01/2024/TT-BNNPTNT |\n| 21/02/2024 | Đăng Công báo từ Số 329 + 330 đến Số 343 + 344 |\n| 20/03/2024 | **Có hiệu lực thi hành** (theo khoản 1 Điều 3); thay thế toàn bộ văn bản tiền thân đã hết hiệu lực là Thông tư 11/2021/TT-BNNPTNT |\n| Hiện tại | **Còn hiệu lực** (sau sáp nhập bộ, thẩm quyền quản lý chuyển sang Bộ Nông nghiệp và Môi trường theo cơ chế kế thừa) |",
+   "tags": [
+    "thong-tu",
+    "bnnptnt",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "khai-bao-hai-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "01/2024/TT-BNNPTNT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-03-20",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?docid=209723&pageid=27160"
+    },
+    {
+     "so_hieu": "11/2021/TT-BNNPTNT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2021-11-06",
+     "het_hieu_luc_tu": "2024-03-20",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "01/2024/TT-BNNPTNT"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=204147&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "01-2024-tt-bnnptnt#3",
+   "slug": "01-2024-tt-bnnptnt",
+   "duong_dan": "wiki/sources/01-2024-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 01/2024/TT-BNNPTNT — Bảng mã số HS danh mục hàng hóa thuộc thẩm quyền quản lý và KTCN của Bộ NN&PTNT",
+   "muc": "Cấu trúc (4 điều và 4 Phụ lục)",
+   "noi_dung": "| Phần | Nội dung |\n|---|---|\n| Điều 1 | Ban hành kèm theo Thông tư bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý và danh mục hàng hóa XNK phải kiểm tra chuyên ngành (Phụ lục I, II, III) |\n| Điều 2 | Quy định sử dụng danh mục khi khai báo hải quan và kiểm tra chuyên ngành |\n| Điều 3 | Hiệu lực thi hành và các quy định thay thế, sửa đổi, bãi bỏ (kèm Phụ lục IV) |\n| Điều 4 | Trách nhiệm thi hành |\n| Phụ lục I | Bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ NN&PTNT (27 mục chuyên ngành) |\n| Phụ lục II | Bảng mã số HS đối với danh mục hàng hóa nhập khẩu phải kiểm tra chuyên ngành **trước thông quan** thuộc thẩm quyền quản lý của Bộ NN&PTNT |\n| Phụ lục III | Bảng mã số HS đối với danh mục hàng hóa nhập khẩu phải kiểm tra chuyên ngành **sau thông quan** thuộc thẩm quyền quản lý của Bộ NN&PTNT |\n| Phụ lục IV | Thay thế mục 3.1, mục 4, mục 8, mục 9 Phụ lục của văn bản tiền thân đã hết hiệu lực là Thông tư 16/2021/TT-BNNPTNT |",
+   "tags": [
+    "thong-tu",
+    "bnnptnt",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "khai-bao-hai-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "16/2021/TT-BNNPTNT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-02-03",
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=204775&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "01-2024-tt-bnnptnt#4",
+   "slug": "01-2024-tt-bnnptnt",
+   "duong_dan": "wiki/sources/01-2024-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 01/2024/TT-BNNPTNT — Bảng mã số HS danh mục hàng hóa thuộc thẩm quyền quản lý và KTCN của Bộ NN&PTNT",
+   "muc": "Nội dung từng điều > Điều 1. Ban hành bảng mã số HS kèm theo Thông tư",
+   "noi_dung": "> \"Ban hành kèm theo Thông tư này bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn\"\n\n1. **Phụ lục I** — Bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ NN&PTNT, chia thành **27 mục** theo từng lĩnh vực quản lý (thú y, chăn nuôi, thủy sản, bảo vệ thực vật, trồng trọt, muối, lâm nghiệp, cơ điện nông nghiệp).\n2. **Phụ lục II** — Bảng mã số HS đối với danh mục hàng hóa nhập khẩu phải kiểm tra chuyên ngành **trước thông quan** thuộc thẩm quyền quản lý nhà nước của Bộ NN&PTNT.\n3. **Phụ lục III** — Bảng mã số HS đối với danh mục hàng hóa nhập khẩu phải kiểm tra chuyên ngành **sau thông quan** thuộc thẩm quyền quản lý nhà nước của Bộ NN&PTNT.",
+   "tags": [
+    "thong-tu",
+    "bnnptnt",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "khai-bao-hai-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "01-2024-tt-bnnptnt#5",
+   "slug": "01-2024-tt-bnnptnt",
+   "duong_dan": "wiki/sources/01-2024-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 01/2024/TT-BNNPTNT — Bảng mã số HS danh mục hàng hóa thuộc thẩm quyền quản lý và KTCN của Bộ NN&PTNT",
+   "muc": "Nội dung từng điều > Điều 2. Quy định sử dụng danh mục",
+   "noi_dung": "> \"1. Danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn đã xác định mã hàng ban hành kèm theo Thông tư này là cơ sở để tổ chức, cá nhân thực hiện khai báo hải quan khi xuất khẩu, nhập khẩu vào Việt Nam.\"\n\n- **Cơ sở khai báo hải quan (khoản 1):** Các bảng mã HS kèm theo Thông tư là căn cứ để tổ chức, cá nhân khai báo hải quan khi xuất khẩu, nhập khẩu hàng hóa nông, lâm, thủy sản vào Việt Nam.\n- **Xử lý trường hợp hàng hóa chưa có mã trong Danh mục (khoản 2):** Khi xuất khẩu, nhập khẩu hàng hóa trong lĩnh vực nông nghiệp nhưng chưa có mã hàng trong Danh mục của Thông tư này, việc khai báo hải quan thực hiện theo mô tả thực tế hàng hóa và Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam ban hành kèm theo **Thông tư 31/2022/TT-BTC** ngày 08/06/2022 của Bộ trưởng Bộ Tài chính. Sau khi thông quan, tổ chức, cá nhân gửi văn bản về Bộ NN&PTNT để phối hợp với Bộ Tài chính xem xét thống nhất, cập nhật và ban hành Danh mục bổ sung.\n- **Kiểm tra chuyên ngành hàng hóa xuất khẩu (khoản 3):** Thực hiện theo đề nghị của doanh nghiệp, phục vụ việc thông quan hàng hóa tại nước nhập khẩu.",
+   "tags": [
+    "thong-tu",
+    "bnnptnt",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "khai-bao-hai-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "31/2022/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-31-2022-tt-btc-37431.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "01-2024-tt-bnnptnt#6",
+   "slug": "01-2024-tt-bnnptnt",
+   "duong_dan": "wiki/sources/01-2024-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 01/2024/TT-BNNPTNT — Bảng mã số HS danh mục hàng hóa thuộc thẩm quyền quản lý và KTCN của Bộ NN&PTNT",
+   "muc": "Nội dung từng điều > Điều 3. Hiệu lực thi hành",
+   "noi_dung": "> \"1. Thông tư này có hiệu lực thi hành kể từ ngày 20 tháng 3 năm 2024\"\n\nKhoản 2 Điều 3 quy định thay thế, bãi bỏ các văn bản, quy định sau kể từ ngày 20/03/2024:\n- **Điểm a:** Thay thế toàn bộ **Thông tư 11/2021/TT-BNNPTNT** ngày 20/09/2021 (văn bản tiền thân nay đã hết hiệu lực) ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước và kiểm tra chuyên ngành của Bộ NN&PTNT.\n- **Điểm b:** Thay thế mục 3.1 (Thức ăn chăn nuôi), mục 4 (Thức ăn thủy sản; Sản phẩm xử lý môi trường nuôi trồng thủy sản), mục 8 (Keo dán gỗ), mục 9 (Máy, thiết bị dùng trong ngành Nông nghiệp và Phát triển nông thôn) Phụ lục ban hành kèm theo **Thông tư 16/2021/TT-BNNPTNT** ngày 20/12/2021 (văn bản lịch sử nay đã hết hiệu lực) bằng các mục tương ứng tại **Phụ lục IV** ban hành kèm theo Thông tư này.\n- **Điểm c và điểm d:** Bãi bỏ **Điều 9** và **Phụ lục XXIII** ban hành kèm theo **Thông tư 01/2022/TT-BNNPTNT** ngày 18/01/2022 sửa đổi, bổ sung một số Thông tư trong lĩnh vực thủy sản.",
+   "tags": [
+    "thong-tu",
+    "bnnptnt",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "khai-bao-hai-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "11/2021/TT-BNNPTNT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2021-11-06",
+     "het_hieu_luc_tu": "2024-03-20",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "01/2024/TT-BNNPTNT"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=204147&pageid=27160"
+    },
+    {
+     "so_hieu": "16/2021/TT-BNNPTNT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-02-03",
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=204775&pageid=27160"
+    },
+    {
+     "so_hieu": "01/2022/TT-BNNPTNT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2022-03-04",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=205232&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "01-2024-tt-bnnptnt#7",
+   "slug": "01-2024-tt-bnnptnt",
+   "duong_dan": "wiki/sources/01-2024-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 01/2024/TT-BNNPTNT — Bảng mã số HS danh mục hàng hóa thuộc thẩm quyền quản lý và KTCN của Bộ NN&PTNT",
+   "muc": "Nội dung từng điều > Điều 4. Trách nhiệm thi hành",
+   "noi_dung": "- Chánh Văn phòng Bộ, Vụ trưởng Vụ Pháp chế, Thủ trưởng các đơn vị thuộc Bộ NN&PTNT và các cơ quan, tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Thông tư.\n- Trường hợp có vướng mắc trong quá trình thực hiện, phản ánh kịp thời về Bộ để nghiên cứu, sửa đổi, bổ sung.",
+   "tags": [
+    "thong-tu",
+    "bnnptnt",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "khai-bao-hai-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "01-2024-tt-bnnptnt#8",
+   "slug": "01-2024-tt-bnnptnt",
+   "duong_dan": "wiki/sources/01-2024-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 01/2024/TT-BNNPTNT — Bảng mã số HS danh mục hàng hóa thuộc thẩm quyền quản lý và KTCN của Bộ NN&PTNT",
+   "muc": "Bảng tổng hợp 27 Mục của Phụ lục I và Phụ lục II, III, IV",
+   "noi_dung": "| Phụ lục / Mục | Lĩnh vực / Tên danh mục hàng hóa | Số dòng CSV đã trích (`danh-muc/01-2024-tt-bnnptnt.csv`) | Loại tác động chính trong sổ |\n|---|---|---|---|\n| Phụ lục I — Mục 1 | Động vật, sản phẩm động vật trên cạn thuộc diện phải kiểm dịch | 321 | `KIEM_DICH_DONG_VAT` |\n| Phụ lục I — Mục 2 | Động vật khác trong chăn nuôi | (gộp nhóm tham chiếu) | Quản lý chuyên ngành chăn nuôi |\n| Phụ lục I — Mục 3 | Giống vật nuôi cấm xuất khẩu | (danh mục theo tên giống) | `CAM_XUAT_KHAU` |\n| Phụ lục I — Mục 4 | Giống vật nuôi cần bảo tồn | (danh mục theo tên giống) | Quản lý giống vật nuôi |\n| Phụ lục I — Mục 5 | Động vật, sản phẩm động vật thủy sản thuộc diện phải kiểm dịch | 384 | `KIEM_DICH_DONG_VAT` |\n| Phụ lục I — Mục 6 | Loài thủy sản được phép kinh doanh tại Việt Nam | 80 | `KHAC` |\n| Phụ lục I — Mục 7 | Các loài thủy sản xuất khẩu có điều kiện | 39 | `KHAC` |\n| Phụ lục I — Mục 8 | Các loài thủy sản cấm xuất khẩu | 33 | `CAM_XUAT_KHAU` |\n| Phụ lục I — Mục 9 | Vật thể thuộc diện kiểm dịch thực vật của Việt Nam | 841 | `KIEM_DICH_THUC_VAT` |\n| Phụ lục I — Mục 10 | Thực phẩm có nguồn gốc thực vật nhập khẩu | 743 | `KIEM_TRA_ATTP` |\n| Phụ lục I — Mục 11 | Giống cây trồng | 176 | `KHAC` |\n| Phụ lục I — Mục 12 | Nguồn gen cây trồng cấm xuất khẩu | (danh mục theo loài/giống) | `CAM_XUAT_KHAU` |\n| Phụ lục I — Mục 13 | Muối (kể cả muối ăn và muối bị làm biến tính) — nhóm `2501` | 1 | `KHAC` |\n| Phụ lục I — Mục 14 | Sản phẩm thức ăn chăn nuôi thương mại công bố trên Cổng TTĐT của Bộ | (theo mã tiếp nhận công bố) | Quản lý thức ăn chăn nuôi |\n| Phụ lục I — Mục 15 | Hóa chất, sản phẩm sinh học, vi sinh vật cấm sử dụng trong thức ăn chăn nuôi | (theo tên chất/CAS) | Cấm sử dụng trong TACN |\n| Phụ lục I — Mục 16 | Hóa chất, chế phẩm sinh học, vi sinh vật, nguyên liệu thức ăn được phép sử dụng trong nuôi trồng thủy sản | (danh mục chất/nguyên liệu) | Quản lý nuôi trồng thủy sản |\n| Phụ lục I — Mục 17 | Hóa chất, chế phẩm sinh học, vi sinh vật cấm sử dụng trong thức ăn thủy sản, sản phẩm xử lý môi trường NTTS | (theo tên chất/CAS) | Cấm sử dụng trong NTTS |\n| Phụ lục I — Mục 18 | Thuốc thú y, nguyên liệu thuốc thú y được phép nhập khẩu lưu hành tại Việt Nam | (danh mục hoạt chất/thuốc) | Quản lý thuốc thú y |\n| Phụ lục I — Mục 19 | Phân bón (Chương 31 và các mã liên quan) | 35 | `KHAC` |\n| Phụ lục I — Mục 20 | Hàng hóa cấm xuất khẩu là gỗ tròn, gỗ xẻ các loại từ gỗ rừng tự nhiên trong nước | 166 | `CAM_XUAT_KHAU` |\n| Phụ lục I — Mục 21 | Gỗ và sản phẩm chế biến từ gỗ khi xuất khẩu phải có hồ sơ lâm sản hợp pháp | 281 | `KHAC` |\n| Phụ lục I — Mục 22 | Giống cây trồng lâm nghiệp | 67 | `KHAC` |\n| Phụ lục I — Mục 23 | Thuốc bảo vệ thực vật | 21 | `KHAC` |\n| Phụ lục I — Mục 24 | Thuốc bảo vệ thực vật cấm sử dụng tại Việt Nam | 30 | `KHAC` |\n| Phụ lục I — Mục 25 | Lĩnh vực khai thác thủy sản (tàu cá, ngư cụ) | 43 | `KHAC` |\n| Phụ lục I — Mục 26 | Sản phẩm xử lý chất thải chăn nuôi | (danh mục chế phẩm) | Quản lý chăn nuôi |\n| Phụ lục I — Mục 27 | Máy, thiết bị nông nghiệp | (đối chiếu cùng Phụ lục III/IV) | Quản lý cơ điện nông nghiệp |\n| Phụ lục II | Danh mục hàng hóa nhập khẩu phải kiểm tra chuyên ngành **trước thông quan** | 372 | `KIEM_TRA_CHAT_LUONG` |\n| Phụ lục III | Danh mục hàng hóa nhập khẩu phải kiểm tra chuyên ngành **sau thông quan** | 88 | `KIEM_TRA_CHAT_LUONG` |\n| Phụ lục IV | Sửa đổi phương thức & căn cứ kiểm tra mục 3.1 (TACN), mục 4 (thức ăn thủy sản), mục 8 (keo dán gỗ), mục 9 (máy nông nghiệp) | (bảng quy chuẩn QCVN) | Kiểm tra trước / sau thông quan |",
+   "tags": [
+    "thong-tu",
+    "bnnptnt",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "khai-bao-hai-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "01-2024-tt-bnnptnt#9",
+   "slug": "01-2024-tt-bnnptnt",
+   "duong_dan": "wiki/sources/01-2024-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 01/2024/TT-BNNPTNT — Bảng mã số HS danh mục hàng hóa thuộc thẩm quyền quản lý và KTCN của Bộ NN&PTNT",
+   "muc": "Quy trình tra cứu và khai báo hải quan theo TT 01/2024/TT-BNNPTNT",
+   "noi_dung": "1. **Bước 1 — Đối chiếu mã HS và tên hàng:** Tra cứu mã HS 8 số của lô hàng trong `danh-muc/01-2024-tt-bnnptnt.csv` (hoặc Phụ lục I, II, III của Thông tư). Trường hợp hàng nông nghiệp chưa có mã trong Danh mục, áp dụng khoản 2 Điều 2 để phân loại theo **Thông tư 31/2022/TT-BTC**.\n2. **Bước 2 — Xác định thời điểm và phương thức kiểm tra chuyên ngành:**\n   - Thuộc **Phụ lục II** (hoặc mục kiểm tra trước thông quan như kiểm dịch động vật, thực vật, thủy sản, thức ăn bổ sung/đậm đặc): đăng ký kiểm tra chuyên ngành trên Cổng thông tin một cửa quốc gia và nộp Giấy chứng nhận / Thông báo kết quả kiểm tra để thông quan.\n   - Thuộc **Phụ lục III** và **Phụ lục IV** (như thức ăn chăn nuôi hỗn hợp hoàn chỉnh/truyền thống, thức ăn thủy sản, sản phẩm xử lý môi trường NTTS, keo dán gỗ theo `QCVN 03-01:2022/BNNPTNT`, máy và thiết bị nông nghiệp theo `QCVN 01-182:2015/BNNPTNT`): thực hiện kiểm tra nhà nước về chất lượng **sau thông quan**.\n3. **Bước 3 — Đối chiếu quy định phân loại mức độ rủi ro mới (từ năm 2026):** Khi tra cứu kiểm tra chất lượng hàng nhập khẩu từ năm 2026, cần đối chiếu song song với các văn bản mới của Bộ Nông nghiệp và Môi trường như **Thông tư 27/2026/TT-BNNMT**, **Thông tư 01/2026/TT-BNNMT** và **Thông tư 22/2026/TT-BNNMT**.",
+   "tags": [
+    "thong-tu",
+    "bnnptnt",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "khai-bao-hai-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "01/2024/TT-BNNPTNT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-03-20",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?docid=209723&pageid=27160"
+    },
+    {
+     "so_hieu": "31/2022/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-31-2022-tt-btc-37431.htm"
+    },
+    {
+     "so_hieu": "27/2026/TT-BNNMT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-27-2026-tt-bnnmt-469989.htm"
+    },
+    {
+     "so_hieu": "01/2026/TT-BNNMT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=216592&pageid=27160"
+    },
+    {
+     "so_hieu": "22/2026/TT-BNNMT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-05-19",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?classid=1&docid=218174&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "01-2024-tt-bnnptnt#10",
+   "slug": "01-2024-tt-bnnptnt",
+   "duong_dan": "wiki/sources/01-2024-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 01/2024/TT-BNNPTNT — Bảng mã số HS danh mục hàng hóa thuộc thẩm quyền quản lý và KTCN của Bộ NN&PTNT",
+   "muc": "Căn cứ pháp lý",
+   "noi_dung": "- **Nghị định 105/2022/NĐ-CP** ngày 22/12/2022 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ NN&PTNT (văn bản lịch sử tại thời điểm ban hành, nay đã hết hiệu lực và được thay thế bởi Nghị định về chức năng của Bộ Nông nghiệp và Môi trường).\n- **Nghị định 69/2018/NĐ-CP** ngày 15/05/2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương (văn bản căn cứ lịch sử tại thời điểm ban hành, nay đã hết hiệu lực từ 05/09/2026 và bị thay thế bởi **Nghị định 292/2026/NĐ-CP**).\n- **Nghị định 85/2019/NĐ-CP** ngày 14/11/2019 của Chính phủ quy định thực hiện thủ tục hành chính theo cơ chế một cửa quốc gia, cơ chế một cửa ASEAN và kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu (văn bản căn cứ lịch sử tại thời điểm ban hành, nay đã hết hiệu lực).\n- **Nghị định 132/2008/NĐ-CP**, **Nghị định 74/2018/NĐ-CP** (văn bản lịch sử đã hết hiệu lực từ 01/07/2026) và **Nghị định 154/2018/NĐ-CP** về kiểm tra chất lượng sản phẩm, hàng hóa (dẫn tại Phụ lục IV).",
+   "tags": [
+    "thong-tu",
+    "bnnptnt",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "khai-bao-hai-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "105/2022/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2023-01-15",
+     "het_hieu_luc_tu": "2025-03-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=207041"
+    },
+    {
+     "so_hieu": "69/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-05-15",
+     "het_hieu_luc_tu": "2026-09-05",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "292/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193756&pageid=27160"
+    },
+    {
+     "so_hieu": "292/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-292-2026-nd-cp-470149.htm"
+    },
+    {
+     "so_hieu": "85/2019/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2020-01-01",
+     "het_hieu_luc_tu": "2026-10-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "336/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=198329&pageid=27160"
+    },
+    {
+     "so_hieu": "132/2008/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "37/2026/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=82467&pageid=27160"
+    },
+    {
+     "so_hieu": "74/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-07-01",
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "37/2026/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193720&pageid=27160"
+    },
+    {
+     "so_hieu": "154/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "37/2026/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=195316&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "01-2024-tt-bnnptnt#11",
+   "slug": "01-2024-tt-bnnptnt",
+   "duong_dan": "wiki/sources/01-2024-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 01/2024/TT-BNNPTNT — Bảng mã số HS danh mục hàng hóa thuộc thẩm quyền quản lý và KTCN của Bộ NN&PTNT",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/kiem-tra-chuyen-nganh]]\n- [[concepts/kiem-dich-dong-thuc-vat]]\n- [[concepts/ktcl-bnnmt-2026]]\n- [[concepts/phan-bon-nhap-khau]]\n- [[concepts/thuoc-bvtv-nhap-khau]]\n- [[concepts/go-rung]]\n- [[concepts/phan-loai-ma-hs]]\n- [[concepts/co-quan-tiep-nhan-sau-sap-nhap]]",
+   "tags": [
+    "thong-tu",
+    "bnnptnt",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "khai-bao-hai-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "01-2024-tt-bnnptnt#12",
+   "slug": "01-2024-tt-bnnptnt",
+   "duong_dan": "wiki/sources/01-2024-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 01/2024/TT-BNNPTNT — Bảng mã số HS danh mục hàng hóa thuộc thẩm quyền quản lý và KTCN của Bộ NN&PTNT",
+   "muc": "Related sources",
+   "noi_dung": "- [[sources/11-2021-tt-bnnptnt]] (Thông tư tiền thân đã hết hiệu lực từ 20/03/2024, bị thay thế toàn bộ bởi TT 01/2024/TT-BNNPTNT)\n- [[sources/16-2021-tt-bnnptnt]] (Thông tư danh mục hàng hóa nhóm 2 cũ đã hết hiệu lực, từng được sửa đổi các mục 3.1, 4, 8, 9 tại Phụ lục IV TT 01/2024/TT-BNNPTNT)\n- [[sources/01-2022-tt-bnnptnt]] (Thông tư lĩnh vực thủy sản bị bãi bỏ Điều 9 và Phụ lục XXIII từ 20/03/2024)\n- [[sources/27-2026-tt-bnnmt]] (Thông tư phân loại mức độ rủi ro KTCL của Bộ Nông nghiệp và Môi trường từ năm 2026)\n- [[sources/01-2026-tt-bnnmt]] (Thông tư quy định trong lĩnh vực nông nghiệp và môi trường sau sáp nhập)\n- [[sources/22-2026-tt-bnnmt]] (Thông tư quản lý chuyên ngành của Bộ Nông nghiệp và Môi trường)\n- 31-2022-tt-btc (Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam)",
+   "tags": [
+    "thong-tu",
+    "bnnptnt",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "khai-bao-hai-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "01/2024/TT-BNNPTNT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-03-20",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?docid=209723&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "01-2024-tt-bnnptnt#13",
+   "slug": "01-2024-tt-bnnptnt",
+   "duong_dan": "wiki/sources/01-2024-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 01/2024/TT-BNNPTNT — Bảng mã số HS danh mục hàng hóa thuộc thẩm quyền quản lý và KTCN của Bộ NN&PTNT",
+   "muc": "Open questions",
+   "noi_dung": "- Sau khi Bộ Nông nghiệp và Môi trường ban hành các thông tư kiểm tra chất lượng theo khung 3 mức độ rủi ro năm 2026 (`27/2026/TT-BNNMT`), khi nào sẽ có văn bản hợp nhất hoặc thông tư thay thế toàn bộ 27 mục của `01/2024/TT-BNNPTNT`?\n- Bảng `danh-muc/01-2024-tt-bnnptnt.csv` (3.721 dòng dữ liệu) hiện đang gắn `da_doi_chieu: false`; cần lộ trình rà soát từng mục với các Mục không gắn mã HS trực tiếp (Mục 2, 3, 4, 12, 14–18, 26, 27).",
+   "tags": [
+    "thong-tu",
+    "bnnptnt",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "khai-bao-hai-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "27/2026/TT-BNNMT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-27-2026-tt-bnnmt-469989.htm"
+    },
+    {
+     "so_hieu": "01/2024/TT-BNNPTNT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-03-20",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?docid=209723&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "01-2024-tt-bnnptnt#14",
+   "slug": "01-2024-tt-bnnptnt",
+   "duong_dan": "wiki/sources/01-2024-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 01/2024/TT-BNNPTNT — Bảng mã số HS danh mục hàng hóa thuộc thẩm quyền quản lý và KTCN của Bộ NN&PTNT",
+   "muc": "Notes",
+   "noi_dung": "- Đã đọc toàn văn từ bộ 8 tệp PDF Công báo số 329 + 330 đến số 343 + 344 ngày 21/02/2024 (`raw/download/congbaocdn.chinhphu.vn/01-2024-tt-bnnptnt.pdf` và `-p2.pdf` đến `-p8.pdf`, có lớp chữ điện tử ký số bởi Văn phòng Chính phủ ngày 18/03/2024).\n- Bảng mã HS đã trích xuất tại `danh-muc/01-2024-tt-bnnptnt.csv` (3.721 dòng dữ liệu: Phụ lục I 3.261 dòng, Phụ lục II 372 dòng, Phụ lục III 88 dòng; phủ 1.468 mã HS trong biểu thuế).",
+   "tags": [
+    "thong-tu",
+    "bnnptnt",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "khai-bao-hai-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "01-2026-tt-bnnmt#1",
    "slug": "01-2026-tt-bnnmt",
    "duong_dan": "wiki/sources/01-2026-tt-bnnmt.md",
@@ -23246,6 +23779,467 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "102-2020-nd-cp#1",
+   "slug": "102-2020-nd-cp",
+   "duong_dan": "wiki/sources/102-2020-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 102/2020/NĐ-CP — Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS)",
+   "muc": "Summary",
+   "noi_dung": "**Nghị định 102/2020/NĐ-CP** do Thủ tướng Chính phủ Nguyễn Xuân Phúc ký ban hành ngày **01/09/2020**, có hiệu lực thi hành từ ngày **30/10/2020**, quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS) đối với nhập khẩu, xuất khẩu gỗ; tiêu chí, thẩm quyền, trình tự, thủ tục phân loại doanh nghiệp chế biến và xuất khẩu gỗ; và việc cấp giấy phép FLEGT để xuất khẩu, tạm nhập, tái xuất lô hàng gỗ sang Liên minh châu Âu (EU).\n\nVăn bản gồm **6 chương, 30 điều và 3 Phụ lục** (Phụ lục I gồm 14 biểu mẫu; Phụ lục II quy định tiêu chí phân loại doanh nghiệp chế biến và xuất khẩu gỗ; Phụ lục III quy định Danh mục các mặt hàng gỗ và sản phẩm gỗ thuộc Chương 44 và Chương 94 được cấp phép FLEGT). Nghị định bãi bỏ quy định về hồ sơ gỗ nhập khẩu tại Điều 17 Thông tư 27/2018/TT-BNNPTNT (văn bản lịch sử nay đã hết hiệu lực) từ ngày 30/10/2020. **Hiện đang còn hiệu lực** (được sửa đổi, bổ sung một số điều vào năm 2024).",
+   "tags": [
+    "nghi-dinh",
+    "bnnptnt",
+    "go-rung",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "102/2020/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2020-10-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/09/102.signed.pdf"
+    },
+    {
+     "so_hieu": "27/2018/TT-BNNPTNT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-01-01",
+     "het_hieu_luc_tu": "2023-02-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "06/2019/NĐ-CP",
+      "102/2020/NĐ-CP"
+     ],
+     "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/ve-viec-cong-bo-ket-qua-he-thong-hoa-van-ban-quy-pham-phap-luat-thuoc-linh-vuc-quan-ly-nha-nuoc-cua-bo-nong-nghiep-va-phat-trien-nong-thon-ky-2019-2023--hhtquyetdinh_224"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "102-2020-nd-cp#2",
+   "slug": "102-2020-nd-cp",
+   "duong_dan": "wiki/sources/102-2020-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 102/2020/NĐ-CP — Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS)",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 01/09/2020 | Chính phủ ban hành Nghị định 102/2020/NĐ-CP |\n| 30/10/2020 | **Có hiệu lực thi hành** (theo khoản 1 Điều 28); bãi bỏ Điều 17 về hồ sơ gỗ nhập khẩu của Thông tư 27/2018/TT-BNNPTNT (văn bản lịch sử đã hết hiệu lực) |\n| 30/04/2022 | Quy định về phân loại doanh nghiệp chế biến và xuất khẩu gỗ tại Chương III bắt đầu có hiệu lực thi hành (sau 18 tháng kể từ ngày Nghị định có hiệu lực, theo khoản 3 Điều 28) |\n| Hiện tại | **Còn hiệu lực** (áp dụng song hành với Nghị định 06/2019/NĐ-CP về CITES và Thông tư 26/2025/TT-BNNMT về quản lý, truy xuất nguồn gốc lâm sản) |",
+   "tags": [
+    "nghi-dinh",
+    "bnnptnt",
+    "go-rung",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "102/2020/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2020-10-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/09/102.signed.pdf"
+    },
+    {
+     "so_hieu": "27/2018/TT-BNNPTNT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-01-01",
+     "het_hieu_luc_tu": "2023-02-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "06/2019/NĐ-CP",
+      "102/2020/NĐ-CP"
+     ],
+     "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/ve-viec-cong-bo-ket-qua-he-thong-hoa-van-ban-quy-pham-phap-luat-thuoc-linh-vuc-quan-ly-nha-nuoc-cua-bo-nong-nghiep-va-phat-trien-nong-thon-ky-2019-2023--hhtquyetdinh_224"
+    },
+    {
+     "so_hieu": "06/2019/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2019-03-10",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=196022"
+    },
+    {
+     "so_hieu": "26/2025/TT-BNNMT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214350"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "102-2020-nd-cp#3",
+   "slug": "102-2020-nd-cp",
+   "duong_dan": "wiki/sources/102-2020-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 102/2020/NĐ-CP — Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS)",
+   "muc": "Cấu trúc (6 chương, 30 điều và 3 Phụ lục)",
+   "noi_dung": "| Chương / Phần | Nội dung | Điều / Phạm vi |\n|---|---|---|\n| Chương I | Quy định chung | Điều 1 – Điều 3 |\n| Chương II — Mục 1 | Quản lý gỗ nhập khẩu | Điều 4 – Điều 7 |\n| Chương II — Mục 2 | Quản lý gỗ xuất khẩu | Điều 8 – Điều 10 |\n| Chương III | Phân loại doanh nghiệp chế biến và xuất khẩu gỗ | Điều 11 – Điều 13 |\n| Chương IV — Mục 1 | Cấp giấy phép FLEGT | Điều 14 – Điều 21 |\n| Chương IV — Mục 2 | Đánh giá độc lập | Điều 22 – Điều 24 |\n| Chương V | Tổ chức thực hiện | Điều 25 – Điều 27 |\n| Chương VI | Điều khoản thi hành | Điều 28 – Điều 30 |\n| Phụ lục I | Các biểu mẫu quản lý gỗ nhập khẩu, xuất khẩu, phân loại doanh nghiệp và giấy phép FLEGT | Mẫu số 01 – Mẫu số 14 (trang 23–48 PDF) |\n| Phụ lục II | Tiêu chí phân loại doanh nghiệp chế biến và xuất khẩu gỗ | 2 nhóm tiêu chí lớn (trang 49–50 PDF) |\n| Phụ lục III | Danh mục hàng hóa: Mã các mặt hàng gỗ và sản phẩm gỗ được cấp phép FLEGT | Chương 44 (14 nhóm/phân nhóm) và Chương 94 (4 phân nhóm 6 số) (trang 51–52 PDF) |",
+   "tags": [
+    "nghi-dinh",
+    "bnnptnt",
+    "go-rung",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "102-2020-nd-cp#4",
+   "slug": "102-2020-nd-cp",
+   "duong_dan": "wiki/sources/102-2020-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 102/2020/NĐ-CP — Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS)",
+   "muc": "Chương I — Quy định chung (Điều 1–3)",
+   "noi_dung": "### Điều 1. Phạm vi điều chỉnh\n1. Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS) đối với nhập khẩu, xuất khẩu; tiêu chí, thẩm quyền, trình tự, thủ tục phân loại doanh nghiệp chế biến và xuất khẩu gỗ; cấp giấy phép FLEGT.\n2. Hệ thống bảo đảm gỗ hợp pháp Việt Nam đối với khai thác, vận chuyển, mua bán, chế biến gỗ thực hiện theo quy định của pháp luật về quản lý, truy xuất nguồn gốc lâm sản và các văn bản quy phạm pháp luật khác có liên quan.\n\n### Điều 2. Đối tượng áp dụng\nÁp dụng đối với tổ chức, hộ kinh doanh, hộ gia đình, cộng đồng dân cư, cá nhân trong nước; tổ chức, cá nhân nước ngoài có hoạt động liên quan đến các nội dung quy định tại Điều 1.\n\n### Điều 3. Giải thích từ ngữ\nGiải thích 13 thuật ngữ cốt lõi:\n- **Gỗ hợp pháp (khoản 1):** Gỗ, sản phẩm gỗ (viết tắt là gỗ) được khai thác, nhập khẩu, xử lý tịch thu, vận chuyển, mua bán, chế biến, xuất khẩu phù hợp với quy định của pháp luật Việt Nam, điều ước quốc tế mà Việt Nam là thành viên và pháp luật có liên quan của quốc gia nơi khai thác gỗ xuất khẩu vào Việt Nam.\n- **Giấy phép FLEGT (khoản 2):** Văn bản do Cơ quan thẩm quyền quản lý CITES Việt Nam cấp để xuất khẩu; tạm nhập, tái xuất lô hàng gỗ (trừ lô hàng sản xuất từ gỗ sau xử lý tịch thu) sang Liên minh châu Âu (EU) theo Nghị định này và Hiệp định VPA/FLEGT.\n- **Bảng kê gỗ (khoản 10):** Thông tin về lô hàng gỗ do chủ gỗ kê khai khi nhập khẩu, xuất khẩu gỗ; chủ gỗ chịu trách nhiệm trước pháp luật về nội dung kê khai và nguồn gốc gỗ hợp pháp.\n- **Quốc gia thuộc vùng địa lý tích cực (khoản 11)** và **Gỗ thuộc loại rủi ro cao (khoản 12)**.\n- **Trách nhiệm giải trình khi nhập khẩu gỗ (khoản 13):** Chủ gỗ nhập khẩu cung cấp thông tin liên quan đến tính hợp pháp của nguồn gốc gỗ nhập khẩu, thực hiện các biện pháp đánh giá và giảm thiểu rủi ro theo quy định của quốc gia nơi khai thác gỗ và theo Nghị định này.",
+   "tags": [
+    "nghi-dinh",
+    "bnnptnt",
+    "go-rung",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "102-2020-nd-cp#5",
+   "slug": "102-2020-nd-cp",
+   "duong_dan": "wiki/sources/102-2020-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 102/2020/NĐ-CP — Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS)",
+   "muc": "Chương II — Quản lý gỗ nhập khẩu, xuất khẩu (Điều 4–10) > Mục 1. Quản lý gỗ nhập khẩu (Điều 4–7)",
+   "noi_dung": "#### Điều 4. Quy định chung về quản lý gỗ nhập khẩu\n- Gỗ nhập khẩu phải bảo đảm hợp pháp, được làm thủ tục nhập khẩu và chịu sự kiểm tra, giám sát của cơ quan Hải quan theo pháp luật về Hải quan (khoản 1).\n- Thực hiện quản lý rủi ro theo **tiêu chí xác định quốc gia thuộc vùng địa lý tích cực hoặc không tích cực** (Điều 5) và **loại gỗ thuộc loại rủi ro hoặc không thuộc loại rủi ro** (Điều 6) để phòng ngừa, ngăn chặn vi phạm đồng thời tạo thuận lợi cho tổ chức, cá nhân tuân thủ (khoản 2, 3).\n- Khi mua bán, chuyển giao quyền sở hữu toàn bộ hoặc một phần lô hàng gỗ nhập khẩu cho chủ gỗ khác: chủ gỗ bán phải lập bảng kê gỗ trích từ bảng kê gỗ nhập khẩu trước đó, sao hồ sơ gỗ nhập khẩu, ký xác nhận, đóng dấu (nếu có) giao cho chủ gỗ mua và lưu giữ hồ sơ gốc/bản sao (khoản 5).\n\n#### Điều 5. Tiêu chí xác định và thẩm quyền công bố quốc gia thuộc vùng địa lý tích cực xuất khẩu gỗ vào Việt Nam\n1. Quốc gia thuộc **vùng địa lý tích cực** khi bảo đảm **một trong các tiêu chí** sau:\n   - **Điểm a:** Có Hệ thống bảo đảm gỗ hợp pháp và cấp giấy phép FLEGT đang vận hành;\n   - **Điểm b:** Có quy định pháp luật quốc gia về trách nhiệm giải trình tính hợp pháp của gỗ cho toàn bộ chuỗi cung ứng từ quốc gia nơi khai thác phù hợp với Hệ thống VNTLAS;\n   - **Điểm c:** Có chỉ số hiệu quả Chính phủ từ 0 trở lên theo xếp hạng gần nhất trước đó của Ngân hàng Thế giới về chỉ số quản trị toàn cầu (WGI); có hệ thống văn bản quy phạm pháp luật về thực thi CITES được xếp loại I do Ban thư ký CITES công bố **và** đáp ứng một trong hai tiêu chí: đã ký Hiệp định song phương với Việt Nam về gỗ hợp pháp hoặc có hệ thống chứng chỉ gỗ quốc gia được Việt Nam công nhận.\n2. Quốc gia không đáp ứng tiêu chí tại khoản 1 thì thuộc **vùng địa lý không tích cực**.\n3. Bộ NN&PTNT phối hợp với Bộ Công Thương, Bộ Tài nguyên và Môi trường, Bộ Ngoại giao và các bộ, ngành liên quan công bố Danh sách quốc gia thuộc vùng địa lý tích cực trên trang `www.kiemlam.org.vn`.\n\n#### Điều 6. Tiêu chí xác định và thẩm quyền công bố loại gỗ rủi ro nhập khẩu vào Việt Nam\n1. Gỗ thuộc **loại rủi ro nhập khẩu vào Việt Nam** nếu thuộc **một trong các tiêu chí** sau:\n   - **Điểm a:** Gỗ thuộc các Phụ lục của Công ước CITES (Phụ lục CITES);\n   - **Điểm b:** Gỗ thuộc Danh mục các loài thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IA, Nhóm IIA; Danh mục loài nguy cấp, quý, hiếm được ưu tiên bảo vệ theo pháp luật Việt Nam;\n   - **Điểm c:** Gỗ **lần đầu nhập khẩu** vào Việt Nam;\n   - **Điểm d:** Gỗ có nguy cơ bị đe dọa tuyệt chủng tại quốc gia khai thác hoặc buôn bán trái phép do Bộ NN&PTNT phối hợp với các bộ, ngành và tổ chức quốc tế xác định.\n2. Gỗ không thuộc các tiêu chí tại khoản 1 là **gỗ không thuộc loại rủi ro**.\n3. Định kỳ 6 tháng một lần (ngày 30/06 và 31/12 hằng năm), Bộ NN&PTNT cập nhật và công bố danh mục các loại gỗ đã nhập khẩu vào Việt Nam (tên khoa học, tên thương mại tiếng Việt, tiếng Anh) trên `www.kiemlam.org.vn`.\n\n#### Điều 7. Hồ sơ gỗ nhập khẩu\nKhi làm thủ tục Hải quan đối với lô hàng gỗ nhập khẩu, **ngoài bộ hồ sơ Hải quan** theo quy định, chủ gỗ nhập khẩu phải nộp cho cơ quan Hải quan nơi đăng ký tờ khai:\n1. **Bản chính bảng kê gỗ nhập khẩu** do chủ gỗ lập theo **Mẫu số 01** (đối với gỗ tròn, gỗ xẻ) hoặc **Mẫu số 02** (đối với sản phẩm gỗ) Phụ lục I.\n2. **Một trong các tài liệu sau** tùy theo trường hợp:\n   - **Điểm a (Gỗ thuộc Phụ lục CITES):** Bản sao giấy phép CITES xuất khẩu hoặc tái xuất khẩu do Cơ quan thẩm quyền quản lý CITES nước xuất khẩu/tái xuất khẩu cấp; Bản sao giấy phép CITES nhập khẩu do Cơ quan thẩm quyền quản lý CITES Việt Nam cấp.\n   - **Điểm b (Gỗ từ quốc gia đang vận hành hệ thống cấp phép FLEGT):** Bản sao giấy phép FLEGT xuất khẩu do cơ quan có thẩm quyền nước xuất khẩu cấp.\n   - **Điểm c (Trường hợp không thuộc điểm a hoặc điểm b):** **Bảng kê khai nguồn gốc gỗ nhập khẩu theo Mẫu số 03 Phụ lục I**:\n     - Nếu là **Mức B1** (Gỗ không thuộc loài rủi ro **và** từ vùng địa lý tích cực): **không yêu cầu tài liệu bổ sung**, không phải kê khai Mục C, Mục D của Mẫu số 03.\n     - Nếu là **Mức B2** (Gỗ thuộc loài rủi ro **hoặc** từ vùng địa lý không tích cực): **bắt buộc yêu cầu tài liệu bổ sung** về nguồn gốc khai thác hợp pháp (chứng chỉ tự nguyện/quốc gia được Việt Nam công nhận, hoặc giấy phép/tài liệu khai thác gỗ, hoặc tài liệu thay thế) và thực hiện kê khai biện pháp giảm thiểu rủi ro tại **Mục C và Mục D** của Mẫu số 03.",
+   "tags": [
+    "nghi-dinh",
+    "bnnptnt",
+    "go-rung",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "102-2020-nd-cp#6",
+   "slug": "102-2020-nd-cp",
+   "duong_dan": "wiki/sources/102-2020-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 102/2020/NĐ-CP — Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS)",
+   "muc": "Chương II — Quản lý gỗ nhập khẩu, xuất khẩu (Điều 4–10) > Mục 2. Quản lý gỗ xuất khẩu (Điều 8–10)",
+   "noi_dung": "- **Điều 8 (Quy định chung):** Gỗ xuất khẩu phải bảo đảm hợp pháp, được quản lý theo loại gỗ, thị trường xuất khẩu (EU hoặc ngoài EU) và trên cơ sở kết quả phân loại doanh nghiệp chế biến và xuất khẩu gỗ. Lô hàng gỗ xuất khẩu đã được cấp phép FLEGT được ưu tiên trong việc thực hiện thủ tục Hải quan.\n- **Điều 9 (Xác nhận nguồn gốc gỗ trước khi xuất khẩu):**\n  - **Đối tượng phải xác nhận:** Lô hàng gỗ xuất khẩu của chủ gỗ **không phải là doanh nghiệp Nhóm I** (trừ lô hàng gỗ có nguồn gốc từ gỗ rừng trồng trong nước xuất khẩu sang thị trường ngoài EU thì không cần xác nhận).\n  - **Cơ quan xác nhận & thời hạn:** Cơ quan Kiểm lâm sở tại; kiểm tra tính hợp lệ hồ sơ (Mẫu số 04 + Mẫu số 05/06 + hồ sơ nguồn gốc gỗ) trong 01 ngày làm việc; kiểm tra thực tế lô hàng (tỷ lệ kiểm tra thực tế 20% lô hàng gỗ, lập biên bản theo Mẫu số 07) và xác nhận bảng kê gỗ trong 03 ngày làm việc.\n- **Điều 10 (Hồ sơ gỗ xuất khẩu khi làm thủ tục Hải quan):** Ngoài bộ hồ sơ Hải quan, chủ gỗ nộp một trong các chứng từ:\n  1. **Gỗ thuộc Phụ lục CITES:** Bản chính hoặc bản sao điện tử giấy phép CITES xuất khẩu do Cơ quan thẩm quyền quản lý CITES Việt Nam cấp.\n  2. **Gỗ không thuộc Phụ lục CITES:**\n     - Xuất khẩu sang thị trường **EU**: Bản chính hoặc bản sao điện tử **giấy phép FLEGT**.\n     - Xuất khẩu sang thị trường **ngoài EU**: Nếu chủ gỗ là **doanh nghiệp Nhóm I** → nộp Bản chính bảng kê gỗ xuất khẩu do chủ gỗ tự lập; nếu chủ gỗ **không phải là doanh nghiệp Nhóm I** → nộp Bản chính bảng kê gỗ xuất khẩu có xác nhận của cơ quan Kiểm lâm sở tại theo Điều 9.\n  3. Trường hợp ủy thác xuất khẩu: gửi kèm bản sao hợp đồng ủy thác.",
+   "tags": [
+    "nghi-dinh",
+    "bnnptnt",
+    "go-rung",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "102-2020-nd-cp#7",
+   "slug": "102-2020-nd-cp",
+   "duong_dan": "wiki/sources/102-2020-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 102/2020/NĐ-CP — Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS)",
+   "muc": "Chương III — Phân loại doanh nghiệp chế biến và xuất khẩu gỗ (Điều 11–13)",
+   "noi_dung": "- **Điều 11–12 (Quy định chung & Tiêu chí phân loại):** Phân loại tự động và liên tục qua Hệ thống thông tin phân loại doanh nghiệp thành 02 nhóm:\n  - **Doanh nghiệp Nhóm I:** Đáp ứng đầy đủ các tiêu chí tại khoản 1 Điều 12 và Phụ lục II (thành lập và hoạt động ít nhất 01 năm; tuân thủ quy định về môi trường, phòng cháy chữa cháy, sổ theo dõi nhập xuất lâm sản, thuế, lao động; tuân thủ quy định về nguồn gốc gỗ hợp pháp; thực hiện chế độ báo cáo quý theo Mẫu số 14 và lưu giữ hồ sơ gốc 05 năm; không vi phạm pháp luật đến mức xử lý tại khoản 4 Điều 13).\n  - **Doanh nghiệp Nhóm II:** Doanh nghiệp chưa đáp ứng được một trong các tiêu chí của Nhóm I.\n- **Điều 13 (Trình tự, thủ tục và chuyển loại):** Doanh nghiệp tự kê khai theo Mẫu số 08 Phụ lục I. Cơ quan tiếp nhận là Cơ quan Kiểm lâm cấp tỉnh (hoặc Sở NN&PTNT nơi không có Kiểm lâm cấp tỉnh). Nếu doanh nghiệp Nhóm I hoặc người đại diện hợp pháp bị xử lý hình sự theo Điều 232 Bộ luật Hình sự hoặc bị xử phạt vi phạm hành chính về khai thác, phá rừng, vận chuyển, tàng trữ, mua bán, chế biến lâm sản trái pháp luật với mức phạt tiền từ **25.000.000 đồng trở lên** thì bị chuyển loại từ Nhóm I sang Nhóm II trong 01 ngày làm việc.",
+   "tags": [
+    "nghi-dinh",
+    "bnnptnt",
+    "go-rung",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "102-2020-nd-cp#8",
+   "slug": "102-2020-nd-cp",
+   "duong_dan": "wiki/sources/102-2020-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 102/2020/NĐ-CP — Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS)",
+   "muc": "Chương IV — Giấy phép FLEGT và Đánh giá độc lập (Điều 14–24)",
+   "noi_dung": "- **Mục 1 — Cấp giấy phép FLEGT (Điều 14–21):**\n  - Cấp cho mỗi lô hàng gỗ hợp pháp thuộc **Phụ lục III** xuất khẩu hoặc tạm nhập, tái xuất đến cửa khẩu nhập khẩu đầu tiên vào thị trường EU (trừ lô hàng gỗ đã cấp giấy phép CITES được miễn trừ giấy phép FLEGT theo khoản 5, 6 Điều 14, và trừ lô hàng sản xuất từ gỗ sau xử lý tịch thu theo khoản 1 Điều 16).\n  - Giấy phép FLEGT được cấp trước thời điểm đăng ký tờ khai hải quan, trình bày song ngữ Việt – Anh (điền bằng tiếng Anh theo Mẫu số 10 Phụ lục I), có thời hạn hiệu lực tối đa **06 tháng** kể từ ngày cấp (Điều 15), được gia hạn 01 lần tối đa **02 tháng** (Điều 17).\n  - Cơ quan cấp phép: **Cơ quan thẩm quyền quản lý CITES Việt Nam** (thời hạn cấp phép 05 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ theo Mẫu số 11; trường hợp cần xác minh thì không quá 10 ngày làm việc và lập biên bản theo Mẫu số 12).\n- **Mục 2 — Đánh giá độc lập (Điều 22–24):** Quy định tiêu chí chọn tổ chức đánh giá độc lập (có tư cách pháp nhân tại Việt Nam, hệ thống kiểm soát chất lượng theo ISO 17021, độc lập lợi ích), nội dung và kỳ đánh giá việc vận hành Hệ thống VNTLAS và cấp phép FLEGT.",
+   "tags": [
+    "nghi-dinh",
+    "bnnptnt",
+    "go-rung",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "102-2020-nd-cp#9",
+   "slug": "102-2020-nd-cp",
+   "duong_dan": "wiki/sources/102-2020-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 102/2020/NĐ-CP — Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS)",
+   "muc": "Chương V & Chương VI — Tổ chức thực hiện và Điều khoản thi hành (Điều 25–30)",
+   "noi_dung": "- **Điều 25–27:** Phân công trách nhiệm của Bộ NN&PTNT, UBND cấp tỉnh, cơ quan Kiểm lâm, cơ quan cấp phép FLEGT, cơ quan Hải quan (phối hợp xác minh tính hợp pháp của lô hàng gỗ XNK; kiểm tra, xác nhận bảng kê gỗ nhập khẩu) và chủ gỗ (lưu giữ hồ sơ gỗ trong thời hạn **05 năm** kể từ ngày xuất bán gỗ; báo cáo định kỳ 03 tháng/lần theo Mẫu số 14).\n- **Điều 28 (Hiệu lực thi hành):**\n  - Khoản 1: Có hiệu lực từ ngày **30/10/2020** (trừ khoản 2 và khoản 3).\n  - Khoản 2: Mục 2 Chương II (quản lý gỗ xuất khẩu) và Mục 1 Chương IV (cấp giấy phép FLEGT) thực hiện theo quyết định của Thủ tướng Chính phủ sau khi thống nhất với Ủy ban thực thi chung Hiệp định VPA/FLEGT.\n  - Khoản 3: Chương III (phân loại doanh nghiệp) có hiệu lực sau 18 tháng kể từ ngày Nghị định có hiệu lực (tức từ 30/04/2022).\n  - Khoản 4: Bãi bỏ quy định về hồ sơ gỗ nhập khẩu tại **Điều 17 Thông tư 27/2018/TT-BNNPTNT** ngày 16/11/2018 (văn bản lịch sử nay đã hết hiệu lực toàn bộ từ 15/02/2023) kể từ ngày 30/10/2020.\n  - Khoản 5: Quy định về hồ sơ gỗ xuất khẩu tại Điều 26 Thông tư 27/2018/TT-BNNPTNT (văn bản lịch sử đã hết hiệu lực) hết hiệu lực kể từ ngày quyết định của Thủ tướng Chính phủ tại khoản 2 Điều 28 có hiệu lực.\n- **Điều 29 (Điều khoản chuyển tiếp):** Lô hàng gỗ nhập khẩu đã đăng ký tờ khai hải quan trước ngày 30/10/2020 nhưng chưa được thông quan thì áp dụng chính sách quản lý gỗ nhập khẩu theo quy định tại thời điểm đăng ký tờ khai hải quan.",
+   "tags": [
+    "nghi-dinh",
+    "bnnptnt",
+    "go-rung",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "27/2018/TT-BNNPTNT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-01-01",
+     "het_hieu_luc_tu": "2023-02-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "06/2019/NĐ-CP",
+      "102/2020/NĐ-CP"
+     ],
+     "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/ve-viec-cong-bo-ket-qua-he-thong-hoa-van-ban-quy-pham-phap-luat-thuoc-linh-vuc-quan-ly-nha-nuoc-cua-bo-nong-nghiep-va-phat-trien-nong-thon-ky-2019-2023--hhtquyetdinh_224"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "102-2020-nd-cp#10",
+   "slug": "102-2020-nd-cp",
+   "duong_dan": "wiki/sources/102-2020-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 102/2020/NĐ-CP — Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS)",
+   "muc": "Bảng quyết định nhanh: Hồ sơ gỗ nhập khẩu nộp cho Hải quan (Điều 7)",
+   "noi_dung": "| Trường hợp lô hàng gỗ nhập khẩu | Bảng kê gỗ NK (bản chính) | Chứng từ nguồn gốc hợp pháp nộp kèm tờ khai HQ | Tài liệu bổ sung chứng minh khai thác hợp pháp & giải trình rủi ro |\n|---|---|---|---|\n| **1. Gỗ thuộc Phụ lục CITES** | Mẫu số 01 (gỗ tròn/xẻ) hoặc Mẫu số 02 (sản phẩm gỗ) | Bản sao Giấy phép CITES XK/tái XK của nước XK + Bản sao Giấy phép CITES NK của Việt Nam (điểm a khoản 2 Điều 7) | Đã thẩm định qua cơ chế CITES theo Nghị định 06/2019/NĐ-CP |\n| **2. Gỗ từ quốc gia có hệ thống FLEGT đang vận hành** | Mẫu số 01 hoặc Mẫu số 02 | Bản sao Giấy phép FLEGT xuất khẩu của nước xuất khẩu (điểm b khoản 2 Điều 7) | Không yêu cầu thêm |\n| **3A. Gỗ thông thường, không thuộc loài rủi ro VÀ từ vùng địa lý tích cực (Mức B1)** | Mẫu số 01 hoặc Mẫu số 02 | Bản chính **Mẫu số 03** (Bảng kê khai nguồn gốc gỗ NK) — tích ô **B1** (điểm c khoản 2 Điều 7) | **Không yêu cầu** tài liệu bổ sung, không phải kê khai Mục C, Mục D Mẫu số 03 |\n| **3B. Gỗ thuộc loài rủi ro (nhập lần đầu, quý hiếm...) HOẶC từ vùng địa lý không tích cực (Mức B2)** | Mẫu số 01 hoặc Mẫu số 02 | Bản chính **Mẫu số 03** (Bảng kê khai nguồn gốc gỗ NK) — tích ô **B2** (điểm c khoản 2 Điều 7) | **Bắt buộc** kê khai Mục C (chứng chỉ gỗ được công nhận / giấy phép khai thác / tài liệu thay thế) và Mục D (xác định & giảm thiểu rủi ro) kèm bản sao tài liệu |",
+   "tags": [
+    "nghi-dinh",
+    "bnnptnt",
+    "go-rung",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "06/2019/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2019-03-10",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=196022"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "102-2020-nd-cp#11",
+   "slug": "102-2020-nd-cp",
+   "duong_dan": "wiki/sources/102-2020-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 102/2020/NĐ-CP — Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS)",
+   "muc": "Danh mục mã HS gỗ và sản phẩm gỗ tại Phụ lục III (trang 51–52 PDF)",
+   "noi_dung": "| Chương | Mã HS | Mô tả mặt hàng | Ghi chú phạm vi tại Phụ lục III |\n|---|---|---|---|\n| Chương 44 | `4401` | Gỗ nhiên liệu, dạng khúc, thanh nhỏ, cành, bó hoặc các dạng tương tự; vỏ bào, dăm gỗ; mùn cưa và phế liệu gỗ | Ngoại trừ các mặt hàng làm từ tre hoặc mây |\n| Chương 44 | `4403` | Gỗ cây dạng thô, đã hoặc chưa bóc vỏ hoặc dác gỗ hoặc đẽo vuông thô | Gỗ nguyên liệu (khoản 1 Mục C Mẫu số 03) |\n| Chương 44 | `4406` | Tà vẹt đường sắt hoặc đường xe điện (thanh ngang) bằng gỗ | Gỗ nguyên liệu (khoản 1 Mục C Mẫu số 03) |\n| Chương 44 | `4407` | Gỗ đã cưa hoặc xẻ theo chiều dọc, lạng hoặc bóc, đã hoặc chưa bào, chà nhám hoặc ghép nối đầu, có độ dày trên 6 mm | Gỗ nguyên liệu (khoản 1 Mục C Mẫu số 03) |\n| Chương 44 | `4408` | Tấm gỗ để làm lớp mặt (kể cả tấm thu được bằng cách lạng gỗ ghép), để làm gỗ dán hoặc gỗ ghép tương tự, độ dày không quá 6 mm | Ngoại trừ các mặt hàng làm từ tre hoặc mây |\n| Chương 44 | `4409` | Gỗ (kể cả gỗ thanh và viền dải gỗ trang trí để làm sàn, chưa lắp ghép) được tạo dáng liên tục dọc theo các cạnh, đầu hoặc bề mặt | Ngoại trừ các mặt hàng làm từ tre hoặc mây |\n| Chương 44 | `4410` | Ván dăm, ván dăm định hướng (OSB) và các loại ván tương tự bằng gỗ hoặc vật liệu có chất gỗ khác | Ngoại trừ các mặt hàng làm từ tre hoặc mây |\n| Chương 44 | `4411` | Ván sợi bằng gỗ hoặc bằng các loại vật liệu có chất gỗ khác | Ngoại trừ các mặt hàng làm từ tre hoặc mây |\n| Chương 44 | `4412` | Gỗ dán, tấm gỗ dán ván lạng và các loại gỗ ghép tương tự | Ngoại trừ các mặt hàng làm từ tre hoặc mây |\n| Chương 44 | `441300` | Gỗ đã được làm tăng độ rắn, ở dạng khối, tấm, thanh hoặc tạo hình | Ngoại trừ các mặt hàng làm từ tre hoặc mây |\n| Chương 44 | `441400` | Khung tranh, khung ảnh, khung gương bằng gỗ hoặc các sản phẩm bằng gỗ tương tự | Ngoại trừ các mặt hàng làm từ tre hoặc mây |\n| Chương 44 | `4415` | Hòm, hộp, thùng thưa, thùng hình trống và các loại bao bì tương tự, bằng gỗ; tang cuốn cáp bằng gỗ; giá kệ để kê hàng (pallet) bằng gỗ | Ngoại trừ các mặt hàng làm từ tre hoặc mây |\n| Chương 44 | `4416` | Thùng tô nô, thùng tròn, thùng hình trống, hình trụ, có đai, các loại thùng có đai khác và bộ phận của chúng, bằng gỗ | Ngoại trừ các mặt hàng làm từ tre hoặc mây |\n| Chương 44 | `4418` | Đồ mộc dùng trong xây dựng, kể cả panel gỗ có lõi xốp, panel lát sàn và ván lợp đã lắp ghép | Ngoại trừ các mặt hàng làm từ tre hoặc mây |\n| Chương 94 | `940330` | Đồ nội thất bằng gỗ được sử dụng trong văn phòng | Sản phẩm gỗ hỗn hợp |\n| Chương 94 | `940340` | Đồ nội thất bằng gỗ được sử dụng trong nhà bếp | Sản phẩm gỗ hỗn hợp |\n| Chương 94 | `940350` | Đồ nội thất bằng gỗ được sử dụng trong phòng ngủ | Sản phẩm gỗ hỗn hợp |\n| Chương 94 | `940360` | Đồ gỗ nội thất bằng gỗ khác | Sản phẩm gỗ hỗn hợp |\n\n> **Lưu ý phân biệt gỗ nguyên liệu và sản phẩm gỗ hỗn hợp (theo Mẫu số 03 và Ghi chú cuối Phụ lục III):**\n> - **Gỗ nguyên liệu** gồm các mã HS: `4403`, `4406`, `4407`.\n> - **Sản phẩm gỗ hỗn hợp** bao gồm các sản phẩm gỗ theo mã HS Chương 44 và Chương 94 tại Phụ lục III, ngoại trừ `4403`, `4406`, `4407`.",
+   "tags": [
+    "nghi-dinh",
+    "bnnptnt",
+    "go-rung",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "102-2020-nd-cp#12",
+   "slug": "102-2020-nd-cp",
+   "duong_dan": "wiki/sources/102-2020-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 102/2020/NĐ-CP — Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS)",
+   "muc": "Căn cứ pháp lý",
+   "noi_dung": "- **Luật Tổ chức Chính phủ** ngày 19/06/2015.\n- **Luật Lâm nghiệp** ngày 15/11/2017.\n- **Hiệp định Đối tác tự nguyện** giữa nước Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu về thực thi Luật Lâm nghiệp, Quản trị rừng và Thương mại lâm sản (VPA/FLEGT), có hiệu lực kể từ ngày 01/06/2019.",
+   "tags": [
+    "nghi-dinh",
+    "bnnptnt",
+    "go-rung",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "102-2020-nd-cp#13",
+   "slug": "102-2020-nd-cp",
+   "duong_dan": "wiki/sources/102-2020-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 102/2020/NĐ-CP — Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS)",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/go-rung]]\n- [[concepts/cites-vn]]\n- [[concepts/kiem-dich-dong-thuc-vat]]\n- [[concepts/kiem-tra-chuyen-nganh]]\n- [[concepts/thu-tuc-hai-quan-xnk]]",
+   "tags": [
+    "nghi-dinh",
+    "bnnptnt",
+    "go-rung",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "102-2020-nd-cp#14",
+   "slug": "102-2020-nd-cp",
+   "duong_dan": "wiki/sources/102-2020-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 102/2020/NĐ-CP — Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS)",
+   "muc": "Related sources",
+   "noi_dung": "- 06-2019-nd-cp (Nghị định về quản lý thực vật rừng, động vật rừng nguy cấp, quý, hiếm và thực thi CITES — áp dụng song hành với NĐ 102/2020/NĐ-CP)\n- 27-2018-tt-bnnptnt (Thông tư lịch sử đã hết hiệu lực về quản lý, truy xuất nguồn gốc lâm sản — bị NĐ 102/2020/NĐ-CP bãi bỏ Điều 17 về hồ sơ gỗ nhập khẩu từ 30/10/2020, sau đó bị thay thế toàn bộ bởi TT 26/2022/TT-BNNPTNT đã hết hiệu lực)\n- [[sources/26-2025-tt-bnnmt]] (Thông tư hiện hành quy định về quản lý, truy xuất nguồn gốc lâm sản từ 01/07/2025)\n- [[sources/01-2024-tt-bnnptnt]] (Bảng mã số HS danh mục hàng hóa thuộc thẩm quyền Bộ NN&PTNT, trong đó Mục 20 và Mục 21 Phụ lục I quy định mã HS gỗ xuất khẩu)",
+   "tags": [
+    "nghi-dinh",
+    "bnnptnt",
+    "go-rung",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "102/2020/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2020-10-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/09/102.signed.pdf"
+    },
+    {
+     "so_hieu": "26/2022/TT-BNNPTNT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2023-02-15",
+     "het_hieu_luc_tu": "2025-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "26/2025/TT-BNNMT"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=207247"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "102-2020-nd-cp#15",
+   "slug": "102-2020-nd-cp",
+   "duong_dan": "wiki/sources/102-2020-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 102/2020/NĐ-CP — Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS)",
+   "muc": "Open questions",
+   "noi_dung": "- Cần nạp bổ sung Nghị định sửa đổi, bổ sung một số điều của Nghị định 102/2020/NĐ-CP ban hành năm 2024 vào sổ đăng ký (`registry/van-ban/`) để khép kín chuỗi quan hệ sửa đổi trên đồ thị văn bản.\n- Danh sách quốc gia thuộc vùng địa lý tích cực và danh mục loài gỗ đã nhập khẩu vào Việt Nam công bố định kỳ trên `www.kiemlam.org.vn` đã được đồng bộ sang cơ sở dữ liệu tra cứu tự động chưa?",
+   "tags": [
+    "nghi-dinh",
+    "bnnptnt",
+    "go-rung",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "102/2020/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2020-10-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/09/102.signed.pdf"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "102-2020-nd-cp#16",
+   "slug": "102-2020-nd-cp",
+   "duong_dan": "wiki/sources/102-2020-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 102/2020/NĐ-CP — Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS)",
+   "muc": "Notes",
+   "noi_dung": "- Đã đọc toàn văn từ tệp PDF ký số của Văn phòng Chính phủ (`raw/download/datafiles.chinhphu.vn/102-2020-nd-cp.pdf`, 52 trang, ký số ngày 04/09/2020: trang 1–22 là toàn văn 6 chương 30 điều; trang 23–48 là Phụ lục I gồm Mẫu số 01 đến Mẫu số 14; trang 49–50 là Phụ lục II; trang 51–52 là Phụ lục III).\n- Đã bổ sung cạnh `quan_he.bai_bo` trỏ `27/2018/TT-BNNPTNT` (phạm vi Điều 17 về hồ sơ gỗ nhập khẩu, từ ngày `2020-10-30`, căn cứ khoản 4 Điều 28) vào `registry/van-ban/102-2020-nd-cp.yaml`.",
+   "tags": [
+    "nghi-dinh",
+    "bnnptnt",
+    "go-rung",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "27/2018/TT-BNNPTNT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-01-01",
+     "het_hieu_luc_tu": "2023-02-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "06/2019/NĐ-CP",
+      "102/2020/NĐ-CP"
+     ],
+     "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/ve-viec-cong-bo-ket-qua-he-thong-hoa-van-ban-quy-pham-phap-luat-thuoc-linh-vuc-quan-ly-nha-nuoc-cua-bo-nong-nghiep-va-phat-trien-nong-thon-ky-2019-2023--hhtquyetdinh_224"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "105-2016-qh13#1",
    "slug": "105-2016-qh13",
    "duong_dan": "wiki/sources/105-2016-qh13.md",
@@ -25854,6 +26848,531 @@
     "tam-nhap-tai-xuat",
     "chuyen-khau",
     "khai-bao-hai-quan"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "11-2018-tt-btttt#1",
+   "slug": "11-2018-tt-btttt",
+   "duong_dan": "wiki/sources/11-2018-tt-btttt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS",
+   "muc": "Summary",
+   "noi_dung": "**Thông tư 11/2018/TT-BTTTT** do Quyền Bộ trưởng Bộ Thông tin và Truyền thông Nguyễn Mạnh Hùng ký ban hành ngày **15/10/2018**, có hiệu lực thi hành từ ngày **30/11/2018**, công bố chi tiết Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm theo mã số HS và nguyên tắc, quy định áp dụng Danh mục này.\n\nVăn bản gồm **4 điều và 01 Phụ lục** (39 dòng danh mục thuộc Chương 84 và Chương 85 tại `danh-muc/11-2018-tt-btttt.csv`, tương ứng **186 mã HS** trong biểu thuế xuất nhập khẩu). Theo khoản 4 Điều 64 **Nghị định 292/2026/NĐ-CP**, Thông tư tiếp tục được thực hiện trong giai đoạn chuyển tiếp đến hết ngày **31/12/2026** và sẽ bị thay thế kể từ ngày **01/01/2027** bởi **Thông tư 63/2026/TT-BKHCN**.",
+   "tags": [
+    "thong-tu",
+    "btttt",
+    "hang-cu-cam-nhap-khau",
+    "ma-hs",
+    "quan-ly-ngoai-thuong",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "11/2018/TT-BTTTT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-11-30",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "63/2026/TT-BKHCN"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-11-2018-tt-btttt-27500.htm"
+    },
+    {
+     "so_hieu": "292/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-292-2026-nd-cp-470149.htm"
+    },
+    {
+     "so_hieu": "63/2026/TT-BKHCN",
+     "tinh_trang": "CHUA_CO_HIEU_LUC",
+     "hieu_luc_tu": "2027-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-63-2026-tt-bkhcn-470884.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "11-2018-tt-btttt#2",
+   "slug": "11-2018-tt-btttt",
+   "duong_dan": "wiki/sources/11-2018-tt-btttt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 15/10/2018 | Bộ Thông tin và Truyền thông ban hành Thông tư 11/2018/TT-BTTTT |\n| 30/10/2018 | Đăng Công báo Số 1011 + 1012 (trang 46–52) |\n| 30/11/2018 | **Có hiệu lực thi hành** (theo khoản 1 Điều 3); thay thế Điều 3 và Phụ lục số 01 của Thông tư 31/2015/TT-BTTTT |\n| 05/09/2026 | Nghị định 292/2026/NĐ-CP có hiệu lực (thay thế văn bản lịch sử đã hết hiệu lực là Nghị định 69/2018/NĐ-CP); khoản 4 Điều 64 cho phép các văn bản hướng dẫn tiếp tục thực hiện đến hết 31/12/2026 |\n| 27/10/2026 | Bộ Khoa học và Công nghệ ban hành Thông tư 63/2026/TT-BKHCN để thay thế từ ngày 01/01/2027 |\n| 01/01/2027 | **Sẽ hết hiệu lực** và bị thay thế toàn bộ bởi Thông tư 63/2026/TT-BKHCN (theo khoản 2 Điều 3 TT 63/2026/TT-BKHCN) |",
+   "tags": [
+    "thong-tu",
+    "btttt",
+    "hang-cu-cam-nhap-khau",
+    "ma-hs",
+    "quan-ly-ngoai-thuong",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "11/2018/TT-BTTTT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-11-30",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "63/2026/TT-BKHCN"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-11-2018-tt-btttt-27500.htm"
+    },
+    {
+     "so_hieu": "31/2015/TT-BTTTT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2015-12-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=182728&pageid=27160"
+    },
+    {
+     "so_hieu": "292/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-292-2026-nd-cp-470149.htm"
+    },
+    {
+     "so_hieu": "69/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-05-15",
+     "het_hieu_luc_tu": "2026-09-05",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "292/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193756&pageid=27160"
+    },
+    {
+     "so_hieu": "63/2026/TT-BKHCN",
+     "tinh_trang": "CHUA_CO_HIEU_LUC",
+     "hieu_luc_tu": "2027-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-63-2026-tt-bkhcn-470884.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "11-2018-tt-btttt#3",
+   "slug": "11-2018-tt-btttt",
+   "duong_dan": "wiki/sources/11-2018-tt-btttt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS",
+   "muc": "Cấu trúc (4 điều và 01 Phụ lục)",
+   "noi_dung": "| Phần | Nội dung |\n|---|---|\n| Điều 1 | Phạm vi điều chỉnh và đối tượng áp dụng |\n| Điều 2 | Nguyên tắc xây dựng và quy định áp dụng Danh mục cấm nhập khẩu |\n| Điều 3 | Hiệu lực thi hành (thay thế Điều 3 và Phụ lục số 01 của Thông tư 31/2015/TT-BTTTT) |\n| Điều 4 | Tổ chức thực hiện |\n| Phụ lục | Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm theo mã số HS (Chương 84 và Chương 85) |",
+   "tags": [
+    "thong-tu",
+    "btttt",
+    "hang-cu-cam-nhap-khau",
+    "ma-hs",
+    "quan-ly-ngoai-thuong",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "31/2015/TT-BTTTT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2015-12-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=182728&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "11-2018-tt-btttt#4",
+   "slug": "11-2018-tt-btttt",
+   "duong_dan": "wiki/sources/11-2018-tt-btttt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS",
+   "muc": "Nội dung từng điều > Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng",
+   "noi_dung": "> \"a) Phạm vi điều chỉnh: Thông tư này công bố chi tiết Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm theo mã số HS tại Phụ lục kèm theo (sau đây gọi tắt là Danh mục cấm nhập khẩu).\n> b) Đối tượng áp dụng: Thông tư này áp dụng đối với các cơ quan nhà nước, tổ chức, cá nhân tham gia hoặc có liên quan đến hoạt động nhập khẩu sản phẩm công nghệ thông tin đã qua sử dụng.\"",
+   "tags": [
+    "thong-tu",
+    "btttt",
+    "hang-cu-cam-nhap-khau",
+    "ma-hs",
+    "quan-ly-ngoai-thuong",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "11-2018-tt-btttt#5",
+   "slug": "11-2018-tt-btttt",
+   "duong_dan": "wiki/sources/11-2018-tt-btttt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS",
+   "muc": "Nội dung từng điều > Điều 2. Nguyên tắc xây dựng và quy định áp dụng Danh mục cấm nhập khẩu",
+   "noi_dung": "#### 1. Nguyên tắc xây dựng Danh mục cấm nhập khẩu (khoản 1 Điều 2)\n- Danh mục kèm theo mã số HS được xây dựng theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam tại văn bản lịch sử **Thông tư 65/2017/TT-BTC** ngày 27/06/2017 (nay đã hết hiệu lực và bị thay thế bởi **Thông tư 31/2022/TT-BTC**).\n- Danh mục được bổ sung, sửa đổi phù hợp với tình hình phát triển và các quy định khác của pháp luật theo từng thời kỳ.\n\n#### 2. Các quy định áp dụng Danh mục cấm nhập khẩu (khoản 2 Điều 2)\n\n> \"a) Các trường hợp chỉ liệt kê mã 4 số thì toàn bộ các mã 8 số thuộc nhóm 4 số này đều được áp dụng; Các trường hợp chỉ liệt kê mã 6 số thì toàn bộ các mã 8 số thuộc phân nhóm 6 số này đều được áp dụng; Các trường hợp ngoài mã 4 số và 6 số còn chi tiết đến mã 8 số thì chỉ những mã 8 số đó mới được áp dụng;\n> b) Linh kiện, phụ tùng, cụm linh kiện, phụ kiện đã qua sử dụng của các loại sản phẩm thuộc Danh mục cấm nhập khẩu cũng bị cấm nhập khẩu;\"\n\n- **Quy tắc áp dụng theo cấp độ mã HS (điểm a):**\n  - Chỉ liệt kê **mã 4 số** → áp dụng cho **toàn bộ các mã 8 số** thuộc nhóm 4 số đó (ví dụ: `8470`, `8471`, `8517`, `8518`, `8525`, `8526`, `8527`, `8528`, `8534`, `8540`, `8542`).\n  - Chỉ liệt kê **mã 6 số** → áp dụng cho **toàn bộ các mã 8 số** thuộc phân nhóm 6 số đó.\n  - Ngoài mã 4 số và 6 số còn chi tiết đến **mã 8 số** → **chỉ những mã 8 số được liệt kê** mới bị cấm nhập khẩu (ví dụ: nhóm `8443` chỉ áp dụng cho 9 mã 8 số được liệt kê; nhóm `8544` chỉ áp dụng cho 18 mã 8 số được liệt kê).\n- **Linh kiện, phụ tùng đi kèm (điểm b):** Linh kiện, phụ tùng, cụm linh kiện, phụ kiện **đã qua sử dụng** của các loại sản phẩm thuộc Danh mục cấm nhập khẩu **cũng bị cấm nhập khẩu**.\n- **Ngoại lệ đối với máy in, máy photocopy và hộp mực laser (điểm c):**\n  - Đối với máy in, máy photocopy kỹ thuật số **đa màu**, khi nhập khẩu thực hiện quy định của pháp luật trong lĩnh vực in.\n  - **Không bị cấm nhập khẩu** đối với:\n    1. Máy in kỹ thuật số, máy photocopy kỹ thuật số loại **đơn sắc (đen trắng)** có hoặc không có kết hợp tính năng khác, đã qua sử dụng có mã HS thuộc Danh mục cấm nhập khẩu nhưng có **tính năng in/copy khổ giấy A0** hoặc có **tốc độ in/copy từ 35 bản/phút khổ giấy A4 trở lên**;\n    2. **Hộp mực cho máy in laser đã qua sử dụng** (thuộc mã HS `8443.99.20`).\n- **Sản phẩm công nghệ thông tin tân trang (điểm d):** Sản phẩm CNTT đã qua sử dụng, được sửa chữa, thay thế linh kiện và qua các công đoạn khác để phục hồi chức năng, hình thức tương đương sản phẩm mới, kể cả có nhãn ghi rõ sản phẩm tân trang và có chế độ bảo hành như sản phẩm mới, nếu có mã số HS thuộc Danh mục tại Phụ lục của Thông tư này thì **vẫn bị cấm nhập khẩu**.",
+   "tags": [
+    "thong-tu",
+    "btttt",
+    "hang-cu-cam-nhap-khau",
+    "ma-hs",
+    "quan-ly-ngoai-thuong",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "65/2017/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-01",
+     "het_hieu_luc_tu": "2022-12-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "31/2022/TT-BTC"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=190622"
+    },
+    {
+     "so_hieu": "31/2022/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-31-2022-tt-btc-37431.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "11-2018-tt-btttt#6",
+   "slug": "11-2018-tt-btttt",
+   "duong_dan": "wiki/sources/11-2018-tt-btttt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS",
+   "muc": "Nội dung từng điều > Điều 3. Hiệu lực thi hành",
+   "noi_dung": "- **Khoản 1:** Có hiệu lực kể từ ngày **30/11/2018**.\n- **Khoản 2:** Thay thế **Điều 3 và Phụ lục số 01** của **Thông tư 31/2015/TT-BTTTT** ngày 29/10/2015 của Bộ trưởng Bộ Thông tin và Truyền thông hướng dẫn một số điều của văn bản lịch sử **Nghị định 187/2013/NĐ-CP** (nay đã hết hiệu lực) đối với hoạt động xuất, nhập khẩu sản phẩm công nghệ thông tin đã qua sử dụng.",
+   "tags": [
+    "thong-tu",
+    "btttt",
+    "hang-cu-cam-nhap-khau",
+    "ma-hs",
+    "quan-ly-ngoai-thuong",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "31/2015/TT-BTTTT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2015-12-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=182728&pageid=27160"
+    },
+    {
+     "so_hieu": "187/2013/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2014-02-15",
+     "het_hieu_luc_tu": "2018-06-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=176543&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "11-2018-tt-btttt#7",
+   "slug": "11-2018-tt-btttt",
+   "duong_dan": "wiki/sources/11-2018-tt-btttt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS",
+   "muc": "Nội dung từng điều > Điều 4. Tổ chức thực hiện",
+   "noi_dung": "Thủ trưởng các cơ quan, đơn vị thuộc Bộ TTTT và các cơ quan, tổ chức, cá nhân liên quan chịu trách nhiệm thi hành; vướng mắc phản ánh về Bộ TTTT (Vụ Công nghệ thông tin) — nay thuộc thẩm quyền kế thừa của Bộ Khoa học và Công nghệ.",
+   "tags": [
+    "thong-tu",
+    "btttt",
+    "hang-cu-cam-nhap-khau",
+    "ma-hs",
+    "quan-ly-ngoai-thuong",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "11-2018-tt-btttt#8",
+   "slug": "11-2018-tt-btttt",
+   "duong_dan": "wiki/sources/11-2018-tt-btttt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS",
+   "muc": "Bảng tổng hợp Danh mục cấm nhập khẩu tại Phụ lục (trang 49–52 Công báo)",
+   "noi_dung": "| Chương | Nhóm HS | Cách liệt kê tại Phụ lục | Các mã HS 8 số cụ thể bị cấm (hoặc phạm vi nhóm) | Mô tả mặt hàng & Lưu ý ngoại lệ |\n|---|---|---|---|---|\n| Chương 84 | `8443` | Chi tiết đến **9 mã 8 số** | `8443.31.19`, `8443.31.29`, `8443.31.39`, `8443.32.19`, `8443.32.29`, `8443.32.39`, `8443.32.49`, `8443.32.90`, `8443.99.20` | Máy in, máy copy, máy fax kết hợp hoặc rời có khả năng kết nối máy tính/mạng (loại khác); hộp mực in đã có mực in (**loại trừ** hộp mực in laser `8443.99.20` và máy in/copy kỹ thuật số đơn sắc khổ A0 hoặc tốc độ ≥ 35 bản/phút A4 theo điểm c khoản 2 Điều 2). Lưu ý: mã `8443.32.49` là mã của biểu thuế cũ, sang TT 63/2026/TT-BKHCN đã lược bỏ theo TT 31/2022/TT-BTC |\n| Chương 84 | `8470` | Toàn bộ **nhóm 4 số** | Toàn bộ các mã 8 số thuộc nhóm `8470` | Máy tính và các máy ghi, tái tạo, hiển thị dữ liệu loại bỏ túi có chức năng tính toán; máy kế toán, máy đóng dấu bưu phí, máy bán vé, máy tính tiền |\n| Chương 84 | `8471` | Toàn bộ **nhóm 4 số** | Toàn bộ các mã 8 số thuộc nhóm `8471` | Máy xử lý dữ liệu tự động (máy vi tính, máy chủ, laptop) và các khối chức năng của chúng; đầu đọc từ tính hay quang học |\n| Chương 85 | `8517` | Toàn bộ **nhóm 4 số** | Toàn bộ các mã 8 số thuộc nhóm `8517` | Bộ điện thoại (kể cả điện thoại di động); thiết bị truyền hoặc nhận tiếng, hình ảnh hoặc dữ liệu khác (thiết bị mạng LAN/WAN hữu tuyến hoặc không dây) |\n| Chương 85 | `8518` | Toàn bộ **nhóm 4 số** | Toàn bộ các mã 8 số thuộc nhóm `8518` | Micro và giá đỡ micro; loa; tai nghe có hoặc không ghép nối micro; thiết bị điện khuếch đại âm tần; bộ tăng âm điện |\n| Chương 85 | `8525` | Toàn bộ **nhóm 4 số** | Toàn bộ các mã 8 số thuộc nhóm `8525` | Thiết bị phát dùng cho phát thanh sóng vô tuyến hoặc truyền hình; camera truyền hình, camera kỹ thuật số và camera ghi hình ảnh |\n| Chương 85 | `8526` | Toàn bộ **nhóm 4 số** | Toàn bộ các mã 8 số thuộc nhóm `8526` | Ra đa, các thiết bị dẫn đường bằng sóng vô tuyến và các thiết bị điều khiển từ xa bằng vô tuyến |\n| Chương 85 | `8527` | Toàn bộ **nhóm 4 số** | Toàn bộ các mã 8 số thuộc nhóm `8527` | Thiết bị thu dùng cho phát thanh sóng vô tuyến |\n| Chương 85 | `8528` | Toàn bộ **nhóm 4 số** | Toàn bộ các mã 8 số thuộc nhóm `8528` | Màn hình và máy chiếu, không gắn với thiết bị thu truyền hình; thiết bị thu dùng trong truyền hình |\n| Chương 85 | `8534` | Toàn bộ **nhóm 4 số** | Toàn bộ các mã 8 số thuộc nhóm `8534` | Mạch in (PCB) |\n| Chương 85 | `8540` | Toàn bộ **nhóm 4 số** | Toàn bộ các mã 8 số thuộc nhóm `8540` | Đèn điện tử và ống điện tử dùng nhiệt điện tử, ca tốt lạnh hoặc ca tốt quang điện |\n| Chương 85 | `8542` | Toàn bộ **nhóm 4 số** | Toàn bộ các mã 8 số thuộc nhóm `8542` | Mạch điện tử tích hợp (IC) |\n| Chương 85 | `8544` | Chi tiết đến **18 mã 8 số** | `8544.42.11`, `8544.42.13`, `8544.42.19`, `8544.42.21`, `8544.42.23`, `8544.49.11`, `8544.49.13`, `8544.49.19`, `8544.49.21`, `8544.49.22`, `8544.49.23`, `8544.49.24`, `8544.49.29`, `8544.49.31`, `8544.49.32`, `8544.49.39`, `8544.70.10`, `8544.70.90` | Dây điện, cáp điện dùng cho viễn thông hoặc không dùng cho viễn thông (điện áp ≤ 80V hoặc từ trên 80V đến 1.000V) và cáp sợi quang (`8544.70.10`, `8544.70.90`) |",
+   "tags": [
+    "thong-tu",
+    "btttt",
+    "hang-cu-cam-nhap-khau",
+    "ma-hs",
+    "quan-ly-ngoai-thuong",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "63/2026/TT-BKHCN",
+     "tinh_trang": "CHUA_CO_HIEU_LUC",
+     "hieu_luc_tu": "2027-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-63-2026-tt-bkhcn-470884.htm"
+    },
+    {
+     "so_hieu": "31/2022/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-31-2022-tt-btc-37431.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "11-2018-tt-btttt#9",
+   "slug": "11-2018-tt-btttt",
+   "duong_dan": "wiki/sources/11-2018-tt-btttt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS",
+   "muc": "Bảng quyết định nhanh khi tra cứu nhập khẩu sản phẩm CNTT đã qua sử dụng",
+   "noi_dung": "| Tình huống hàng hóa nhập khẩu | Kết luận theo TT 11/2018/TT-BTTTT (đến hết 31/12/2026) | Căn cứ điều khoản |\n|---|---|---|\n| Hàng hóa **mới 100%** mang các mã HS trong Phụ lục | **Không thuộc phạm vi cấm** của Thông tư này | Điều 1 |\n| Sản phẩm CNTT đã qua sử dụng thuộc 11 nhóm 4 số (`8470`, `8471`, `8517`, `8518`, `8525`, `8526`, `8527`, `8528`, `8534`, `8540`, `8542`) hoặc 27 mã 8 số của nhóm `8443`, `8544` | **Cấm nhập khẩu** (trừ ngoại lệ tại điểm c khoản 2 Điều 2) | Điểm a khoản 2 Điều 2 & Phụ lục |\n| Sản phẩm CNTT đã qua sử dụng thuộc nhóm `8443` hoặc `8544` nhưng **không nằm trong các mã 8 số** liệt kê tại Phụ lục | **Không bị cấm** theo Phụ lục Thông tư này (nhưng cần kiểm tra quy định lĩnh vực in nếu là máy in) | Điểm a khoản 2 Điều 2 |\n| Linh kiện, phụ tùng, cụm linh kiện, phụ kiện **đã qua sử dụng** của các sản phẩm thuộc Danh mục cấm | **Cấm nhập khẩu** | Điểm b khoản 2 Điều 2 |\n| Máy in / máy photocopy kỹ thuật số **đơn sắc (đen trắng)** đã qua sử dụng có khổ in/copy **A0** hoặc tốc độ **≥ 35 bản/phút khổ A4** | **Không bị cấm nhập khẩu** theo Thông tư này | Điểm c khoản 2 Điều 2 |\n| Hộp mực cho **máy in laser** đã qua sử dụng (`8443.99.20`) | **Không bị cấm nhập khẩu** | Điểm c khoản 2 Điều 2 & Phụ lục |\n| Sản phẩm CNTT **tân trang (refurbished)** có mã HS thuộc Phụ lục (kể cả có nhãn tân trang và bảo hành như hàng mới) | **Cấm nhập khẩu** | Điểm d khoản 2 Điều 2 |",
+   "tags": [
+    "thong-tu",
+    "btttt",
+    "hang-cu-cam-nhap-khau",
+    "ma-hs",
+    "quan-ly-ngoai-thuong",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "11/2018/TT-BTTTT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-11-30",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "63/2026/TT-BKHCN"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-11-2018-tt-btttt-27500.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "11-2018-tt-btttt#10",
+   "slug": "11-2018-tt-btttt",
+   "duong_dan": "wiki/sources/11-2018-tt-btttt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS",
+   "muc": "Căn cứ pháp lý",
+   "noi_dung": "- **Luật Công nghệ thông tin** ngày 29/06/2006.\n- **Luật Quản lý ngoại thương** số 05/2017/QH14 ngày 12/06/2017.\n- **Nghị định 69/2018/NĐ-CP** ngày 15/05/2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương (văn bản căn cứ lịch sử tại thời điểm ban hành, đã hết hiệu lực từ ngày 05/09/2026 và bị thay thế bởi **Nghị định 292/2026/NĐ-CP**).\n- **Nghị định 17/2017/NĐ-CP** ngày 17/02/2017 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Thông tin và Truyền thông (văn bản căn cứ lịch sử đã hết hiệu lực).",
+   "tags": [
+    "thong-tu",
+    "btttt",
+    "hang-cu-cam-nhap-khau",
+    "ma-hs",
+    "quan-ly-ngoai-thuong",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "05/2017/QH14",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=190308&pageid=27160"
+    },
+    {
+     "so_hieu": "69/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-05-15",
+     "het_hieu_luc_tu": "2026-09-05",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "292/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193756&pageid=27160"
+    },
+    {
+     "so_hieu": "292/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-292-2026-nd-cp-470149.htm"
+    },
+    {
+     "so_hieu": "17/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-02-17",
+     "het_hieu_luc_tu": "2022-07-26",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=188383"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "11-2018-tt-btttt#11",
+   "slug": "11-2018-tt-btttt",
+   "duong_dan": "wiki/sources/11-2018-tt-btttt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/hang-cu-cam-nhap-khau]]\n- [[concepts/phan-loai-ma-hs]]\n- [[concepts/co-quan-tiep-nhan-sau-sap-nhap]]\n- [[concepts/thu-tuc-hai-quan-xnk]]",
+   "tags": [
+    "thong-tu",
+    "btttt",
+    "hang-cu-cam-nhap-khau",
+    "ma-hs",
+    "quan-ly-ngoai-thuong",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "11-2018-tt-btttt#12",
+   "slug": "11-2018-tt-btttt",
+   "duong_dan": "wiki/sources/11-2018-tt-btttt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS",
+   "muc": "Related sources",
+   "noi_dung": "- [[sources/31-2015-tt-btttt]] (Thông tư bị thay thế Điều 3 và Phụ lục số 01 kể từ ngày 30/11/2018)\n- 63-2026-tt-bkhcn (Thông tư của Bộ Khoa học và Công nghệ công bố Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu — thay thế TT 11/2018/TT-BTTTT kể từ ngày 01/01/2027)\n- 292-2026-nd-cp (Nghị định quy định chi tiết Luật Quản lý ngoại thương — khoản 4 Điều 64 cho phép TT 11/2018/TT-BTTTT tiếp tục thực hiện đến hết 31/12/2026)\n- 31-2022-tt-btc (Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam hiện hành, thay thế văn bản lịch sử đã hết hiệu lực 65/2017/TT-BTC)",
+   "tags": [
+    "thong-tu",
+    "btttt",
+    "hang-cu-cam-nhap-khau",
+    "ma-hs",
+    "quan-ly-ngoai-thuong",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "11/2018/TT-BTTTT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-11-30",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "63/2026/TT-BKHCN"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-11-2018-tt-btttt-27500.htm"
+    },
+    {
+     "so_hieu": "65/2017/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-01",
+     "het_hieu_luc_tu": "2022-12-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "31/2022/TT-BTC"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=190622"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "11-2018-tt-btttt#13",
+   "slug": "11-2018-tt-btttt",
+   "duong_dan": "wiki/sources/11-2018-tt-btttt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS",
+   "muc": "Open questions",
+   "noi_dung": "- Trong bảng `danh-muc/11-2018-tt-btttt.csv` (39 dòng), hiện có 2 dòng tiêu đề nhóm 4 số cha (`8443` và `8544`) đi kèm các dòng mã 8 số con; cần lưu ý khi đối chiếu tự động theo điểm a khoản 2 Điều 2 (nhóm `8443` và `8544` chỉ cấm các mã 8 số được liệt kê chi tiết, không cấm toàn bộ nhóm 4 số như bảng `danh-muc/63-2026-tt-bkhcn.csv` đã chuẩn hóa thành 37 dòng lá).",
+   "tags": [
+    "thong-tu",
+    "btttt",
+    "hang-cu-cam-nhap-khau",
+    "ma-hs",
+    "quan-ly-ngoai-thuong",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "11-2018-tt-btttt#14",
+   "slug": "11-2018-tt-btttt",
+   "duong_dan": "wiki/sources/11-2018-tt-btttt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS",
+   "muc": "Notes",
+   "noi_dung": "- Đã đọc toàn văn từ tệp PDF Công báo Số 1011 + 1012 ngày 30/10/2018 (`raw/download/congbaocdn.chinhphu.vn/11-2018-tt-btttt.pdf`, 7 trang, từ trang 46 đến trang 52 Công báo, có lớp chữ điện tử ký số bởi Văn phòng Chính phủ ngày 02/11/2018).\n- Bảng mã HS đã trích xuất tại `danh-muc/11-2018-tt-btttt.csv` (39 dòng dữ liệu, được dẫn tại 186 mã HS trong biểu thuế).",
+   "tags": [
+    "thong-tu",
+    "btttt",
+    "hang-cu-cam-nhap-khau",
+    "ma-hs",
+    "quan-ly-ngoai-thuong",
+    "con-hieu-luc"
    ],
    "confidence": "high",
    "van_ban_lien_quan": [],
@@ -40515,7 +42034,8 @@
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [
-      "06/2019/NĐ-CP"
+      "06/2019/NĐ-CP",
+      "102/2020/NĐ-CP"
      ],
      "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/ve-viec-cong-bo-ket-qua-he-thong-hoa-van-ban-quy-pham-phap-luat-thuoc-linh-vuc-quan-ly-nha-nuoc-cua-bo-nong-nghiep-va-phat-trien-nong-thon-ky-2019-2023--hhtquyetdinh_224"
     },
