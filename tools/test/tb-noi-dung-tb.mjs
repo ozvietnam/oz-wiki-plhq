@@ -165,6 +165,15 @@ t('số hiệu: không có năm vẫn tách được số', tachSoHieu('1005/TB-
 t('số hiệu: dải số "503-508/TB-TCHQ" mở rộng thành 6 số',
   tachSoHieu('503-508/TB-TCHQ').dai.join(',') === '503,504,505,506,507,508'
   && tachSoHieu('503-508/TB-TCHQ').nums.join(',') === '503,508');
+t('số hiệu: "801,836/TB-TCHQ" phân cách bằng dấu phẩy không mở rộng dải giả',
+  tachSoHieu('801,836/TB-TCHQ').dai.join(',') === '801,836',
+  tachSoHieu('801,836/TB-TCHQ').dai.join(','));
+t('số hiệu: "3308.3337./TB-TCHQ" phân cách bằng dấu chấm không mở rộng dải giả',
+  tachSoHieu('3308.3337./TB-TCHQ').dai.join(',') === '3308,3337',
+  tachSoHieu('3308.3337./TB-TCHQ').dai.join(','));
+t('số hiệu: "2309,2344-2348/TB-TCHQ" kết hợp số lẻ và dải gạch ngang mở rộng đúng',
+  tachSoHieu('2309,2344-2348/TB-TCHQ').dai.join(',') === '2309,2344,2345,2346,2347,2348',
+  tachSoHieu('2309,2344-2348/TB-TCHQ').dai.join(','));
 t('slug: 503/TB-TCHQ/2018 → 503-tb-tchq-2018', slugTB('503/TB-TCHQ/2018') === '503-tb-tchq-2018', slugTB('503/TB-TCHQ/2018'));
 
 // ------------------------------------------------------------------ 3. chỉ mục PDF
