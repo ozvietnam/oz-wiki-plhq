@@ -111,6 +111,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/07-2023-nd-cp]]
 - [[sources/07-2026-tt-bct]]
 - [[sources/08-2015-nd-cp]]
+- [[sources/08-2023-tt-bct]]
 - [[sources/09-2013-tt-btttt]]
 - [[sources/09-2018-tt-byt]]
 - [[sources/09-2024-tt-byt]]
@@ -133,6 +134,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/111-2021-nd-cp]]
 - [[sources/113-2017-nd-cp]]
 - [[sources/114-2025-qh15]]
+- [[sources/115-2022-nd-cp]]
 - [[sources/117-qd-chq]]
 - [[sources/755-tchq-gsql-2020]] — CV 755/TCHQ-GSQL (2020): 6 ví dụ khai mô tả hàng hóa sơ sài (trích đoạn bậc B, chưa có bản gốc)
 - [[sources/1175-qd-ttg-2020]]
@@ -200,6 +202,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/328-qd-ttg-2022]]
 - [[sources/33-2014-tt-bnnptnt]]
 - [[sources/33-2016-tt-bct]]
+- [[sources/33-2024-nd-cp]]
 - [[sources/33-2025-tt-bct]]
 - [[sources/33-2026-tt-bct]]
 - [[sources/34-2005-qh11]]
