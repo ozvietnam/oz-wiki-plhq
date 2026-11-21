@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="oz-schema-version" content="{{LUOC_DO_PHIEN_BAN}}">
+  <meta name="oz-data-version" content="{{PHIEN_BAN}}">
+  <meta name="oz-built-at" content="{{THOI_DIEM_DUNG}}">
+  <title>Cổng tra cứu Pháp luật Hải quan &amp; XNK — oz-wiki-plhq</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand-block">
+        <div class="brand-eyebrow">oz-wiki-plhq · Tri thức mở Pháp luật Xuất Nhập Khẩu</div>
+        <h1>Cổng tra cứu Pháp luật Hải quan &amp; XNK</h1>
+        <p class="subtitle">
+          Tra cứu tình trạng hiệu lực văn bản, đối chiếu Wiki nghiệp vụ, trích dẫn điều khoản nguyên văn nguồn bậc A và danh mục hóa chất CAS (NĐ 24/2026/NĐ-CP).
+        </p>
+      </div>
+      <div class="build-meta" aria-label="Thông tin phiên bản dữ liệu">
+        <span class="meta-pill">Bản dữ liệu: <strong>{{PHIEN_BAN}}</strong></span>
+        <span class="meta-pill">Lược đồ: <strong>v{{LUOC_DO_PHIEN_BAN}}</strong></span>
+        <span class="meta-pill">Dựng lúc: <strong title="{{THOI_DIEM_DUNG}}">{{THOI_DIEM_DUNG}}</strong></span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="tab-nav-wrap" aria-label="Chức năng tra cứu chính">
+    <div class="container">
+      <div class="tab-list" role="tablist">
+        <button
+          type="button"
+          class="tab-btn active"
+          role="tab"
+          id="btn-tab-hieu-luc"
+          aria-selected="true"
+          aria-controls="panel-hieu-luc"
+          data-tab="hieu-luc"
+        >
+          1. Hiệu lực văn bản
+        </button>
+        <button
+          type="button"
+          class="tab-btn"
+          role="tab"
+          id="btn-tab-wiki"
+          aria-selected="false"
+          aria-controls="panel-wiki"
+          data-tab="wiki"
+        >
+          2. Wiki &amp; Hỏi đáp
+        </button>
+        <button
+          type="button"
+          class="tab-btn"
+          role="tab"
+          id="btn-tab-dieu-khoan"
+          aria-selected="false"
+          aria-controls="panel-dieu-khoan"
+          data-tab="dieu-khoan"
+        >
+          3. Điều khoản bậc A
+        </button>
+        <button
+          type="button"
+          class="tab-btn"
+          role="tab"
+          id="btn-tab-cas"
+          aria-selected="false"
+          aria-controls="panel-cas"
+          data-tab="cas"
+        >
+          4. Hóa chất CAS (24/2026)
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container main-content">
+    <div id="global-alert" class="notice notice-warn hidden" role="alert"></div>
+
+    <!-- TAB 1: HIỆU LỰC VĂN BẢN -->
+    <section id="panel-hieu-luc" class="tab-panel active" role="tabpanel" aria-labelledby="btn-tab-hieu-luc">
+      <div id="reg-stats" class="stats-bar"></div>
+
+      <div class="filter-card">
+        <div class="search-row">
+          <label class="sr-only" for="reg-q">Tìm văn bản</label>
+          <input
+            type="search"
+            id="reg-q"
+            class="input-search"
+            placeholder="Tìm theo số hiệu (vd 85/2026/TT-BTC), tên văn bản, cơ quan (BTC, BCT...), nhánh hoặc từ khóa..."
+            autocomplete="off"
+          >
+          <button type="button" id="reg-reset" class="btn-secondary">Đặt lại</button>
+        </div>
+        <div class="filters-grid">
+          <label class="filter-field">
+            <span>Tình trạng hiệu lực</span>
+            <select id="reg-tinh-trang">
+              <option value="">Tất cả tình trạng</option>
+              <option value="CON_HIEU_LUC">Còn hiệu lực</option>
+              <option value="HET_HIEU_LUC">Hết hiệu lực</option>
+              <option value="HET_HIEU_LUC_MOT_PHAN">Hết hiệu lực một phần</option>
+              <option value="TAM_NGUNG_HIEU_LUC">Tạm ngưng hiệu lực</option>
+              <option value="CHUA_CO_HIEU_LUC">Chưa có hiệu lực</option>
+              <option value="CHUA_XAC_MINH">Chưa xác minh</option>
+            </select>
+          </label>
+
+          <label class="filter-field">
+            <span>Mức xác minh nguồn</span>
+            <select id="reg-muc">
+              <option value="">Tất cả mức xác minh</option>
+              <option value="NGUON_A">Nguồn bậc A (NGUON_A)</option>
+              <option value="NGUON_B">Nguồn bậc B (NGUON_B)</option>
+              <option value="NGUON_THU_CAP">Nguồn thứ cấp (NGUON_THU_CAP)</option>
+              <option value="CHUA_XAC_MINH">Chưa xác minh</option>
+            </select>
+          </label>
+
+          <label class="filter-field">
+            <span>Loại văn bản</span>
+            <select id="reg-loai">
+              <option value="">Tất cả loại văn bản</option>
+              <option value="__VBQPPL__">VBQPPL &amp; văn bản điều hành (ẩn Thông báo)</option>
+              <option value="LUAT">Luật</option>
+              <option value="NGHI_DINH">Nghị định</option>
+              <option value="QUYET_DINH">Quyết định</option>
+              <option value="THONG_TU">Thông tư</option>
+              <option value="THONG_TU_LIEN_TICH">Thông tư liên tịch</option>
+              <option value="NGHI_QUYET">Nghị quyết</option>
+              <option value="VAN_BAN_HOP_NHAT">Văn bản hợp nhất</option>
+              <option value="CONG_VAN">Công văn</option>
+              <option value="THONG_BAO">Thông báo</option>
+              <option value="DIEU_UOC">Điều ước quốc tế</option>
+              <option value="TIEU_CHUAN">Tiêu chuẩn / QCVN</option>
+            </select>
+          </label>
+
+          <label class="filter-field">
+            <span>Nhánh nghiệp vụ</span>
+            <select id="reg-nhanh">
+              <option value="">Tất cả nhánh</option>
+            </select>
+          </label>
+        </div>
+        <div class="filter-checks">
+          <label class="check-inline">
+            <input type="checkbox" id="reg-only-rel">
+            <span>Chỉ hiện văn bản có quan hệ (thay thế / sửa đổi / bị tác động)</span>
+          </label>
+        </div>
+      </div>
+
+      <div id="reg-summary" class="result-summary"></div>
+      <div id="reg-list" class="card-list"></div>
+      <div id="reg-pager" class="pager"></div>
+    </section>
+
+    <!-- TAB 2: WIKI & HỎI ĐÁP -->
+    <section id="panel-wiki" class="tab-panel" role="tabpanel" aria-labelledby="btn-tab-wiki" hidden>
+      <div id="wiki-stats" class="stats-bar"></div>
+
+      <div class="filter-card">
+        <div class="search-row">
+          <label class="sr-only" for="wiki-q">Tìm trong Wiki</label>
+          <input
+            type="search"
+            id="wiki-q"
+            class="input-search"
+            placeholder="Tìm theo tiêu đề trang, tên mục, đoạn trích nội dung, tag hoặc số hiệu văn bản..."
+            autocomplete="off"
+          >
+          <button type="button" id="wiki-reset" class="btn-secondary">Đặt lại</button>
+        </div>
+        <div class="filters-grid filters-grid-3">
+          <label class="filter-field">
+            <span>Loại trang Wiki</span>
+            <select id="wiki-loai">
+              <option value="">Tất cả loại trang</option>
+              <option value="summary">Tổng hợp nghiệp vụ (summary)</option>
+              <option value="concepts">Khái niệm &amp; quy định (concepts)</option>
+              <option value="sources">Tài liệu nguồn (sources)</option>
+            </select>
+          </label>
+
+          <label class="filter-field">
+            <span>Phạm vi hiển thị</span>
+            <select id="wiki-mode">
+              <option value="auto">Tự động (Trang khi chưa gõ · Đoạn trích khi tìm)</option>
+              <option value="pages">Danh sách trang (wiki-index)</option>
+              <option value="chunks">Các đoạn trích chi tiết (wiki-chunks)</option>
+            </select>
+          </label>
+
+          <div class="filter-field filter-check-box">
+            <span>Bộ lọc hiệu lực</span>
+            <label class="check-inline">
+              <input type="checkbox" id="wiki-only-old">
+              <span>Chỉ mục có cảnh báo / dẫn văn bản hết hiệu lực</span>
+            </label>
+          </div>
+        </div>
+        <div id="wiki-slug-filter" class="active-chip-row hidden"></div>
+      </div>
+
+      <div id="wiki-summary" class="result-summary"></div>
+      <div id="wiki-list" class="card-list"></div>
+      <div id="wiki-pager" class="pager"></div>
+    </section>
+
+    <!-- TAB 3: ĐIỀU KHOẢN BẬC A -->
+    <section id="panel-dieu-khoan" class="tab-panel" role="tabpanel" aria-labelledby="btn-tab-dieu-khoan" hidden>
+      <div id="dk-stats" class="stats-bar"></div>
+
+      <div class="tier-legend">
+        <div class="tier-box tier-box-a">
+          <span class="badge badge-tier-a">NGUYEN_VAN_NGUON_A</span>
+          <p>Trích <strong>nguyên văn 100%</strong> từ PDF/Công báo bậc A đã đối chiếu mã băm SHA-256 và số trang PDF — dùng làm căn cứ trích dẫn.</p>
+        </div>
+        <div class="tier-box tier-box-draft">
+          <span class="badge badge-tier-draft">Tóm tắt nháp — chưa đối chiếu nguyên văn</span>
+          <p id="dk-warn-text">Tầng TOM_TAT_NHAP được trích tự động bởi LLM (<code>da_soat: false</code>) — chỉ dùng để định vị điều khoản, không thay thế nguyên văn pháp lý.</p>
+        </div>
+      </div>
+
+      <div class="filter-card">
+        <div class="search-row">
+          <label class="sr-only" for="dk-q">Tìm điều khoản</label>
+          <input
+            type="search"
+            id="dk-q"
+            class="input-search"
+            placeholder="Tìm theo số hiệu văn bản, số điều, nội dung điều khoản hoặc nghĩa vụ XNK..."
+            autocomplete="off"
+          >
+          <button type="button" id="dk-reset" class="btn-secondary">Đặt lại</button>
+        </div>
+        <div class="filters-grid filters-grid-2">
+          <label class="filter-field">
+            <span>Tầng tin cậy</span>
+            <select id="dk-tier">
+              <option value="">Cả 2 tầng (hiển thị tách biệt rõ ràng)</option>
+              <option value="NGUYEN_VAN_NGUON_A">Chỉ Nguyên văn nguồn A (NGUYEN_VAN_NGUON_A)</option>
+              <option value="TOM_TAT_NHAP">Chỉ Tóm tắt nháp (TOM_TAT_NHAP)</option>
+            </select>
+          </label>
+          <label class="filter-field">
+            <span>Chọn nhanh văn bản</span>
+            <select id="dk-doc">
+              <option value="">Tất cả văn bản có điều khoản</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div id="dk-summary" class="result-summary"></div>
+      <div id="dk-list" class="card-list"></div>
+      <div id="dk-pager" class="pager"></div>
+    </section>
+
+    <!-- TAB 4: HÓA CHẤT CAS (24/2026) -->
+    <section id="panel-cas" class="tab-panel" role="tabpanel" aria-labelledby="btn-tab-cas" hidden>
+      <div id="cas-stats" class="stats-bar"></div>
+
+      <div class="notice notice-info">
+        Danh mục hóa chất theo <strong>Nghị định 24/2026/NĐ-CP</strong> (Công báo số 77): tra cứu theo mã <code>CAS</code>, tên tiếng Việt (<code>ten_chat</code>), tên khoa học/IUPAC (<code>ma_hoa_chat</code>), công thức hóa học (<code>cong_thuc</code>) hoặc lọc theo Phụ lục <code>I–IV</code>. Lưu ý: danh mục gốc NĐ 24/2026/NĐ-CP không tự động gán mã HS.
+      </div>
+
+      <div class="filter-card">
+        <div class="search-row">
+          <label class="sr-only" for="cas-q">Tìm hóa chất CAS</label>
+          <input
+            type="search"
+            id="cas-q"
+            class="input-search"
+            placeholder="Tìm theo mã CAS (vd 106-99-0), tên chất, tên IUPAC (ma_hoa_chat), công thức (C4H6) hoặc phân loại..."
+            autocomplete="off"
+          >
+          <button type="button" id="cas-reset" class="btn-secondary">Đặt lại</button>
+        </div>
+        <div class="filters-grid filters-grid-2">
+          <label class="filter-field">
+            <span>Phụ lục (NĐ 24/2026/NĐ-CP)</span>
+            <select id="cas-phu-luc">
+              <option value="">Tất cả phụ lục (I – IV)</option>
+              <option value="I">Phụ lục I — Hóa chất cơ bản (CN trọng điểm)</option>
+              <option value="II">Phụ lục II — Sản xuất, kinh doanh có điều kiện</option>
+              <option value="III">Phụ lục III — Hóa chất cần kiểm soát đặc biệt</option>
+              <option value="IV">Phụ lục IV — Phòng ngừa, ứng phó sự cố hóa chất</option>
+            </select>
+          </label>
+          <label class="filter-field">
+            <span>Nhóm dữ liệu CAS</span>
+            <select id="cas-mode">
+              <option value="all">Tất cả (gồm có CAS &amp; không có CAS)</option>
+              <option value="co_cas">Chỉ mục có mã CAS (theo_cas)</option>
+              <option value="khong_co_cas">Chỉ mục không có mã CAS (khong_co_cas)</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div id="cas-summary" class="result-summary"></div>
+      <div id="cas-list" class="cas-results"></div>
+      <div id="cas-pager" class="pager"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Giấy phép &amp; Nguồn dữ liệu</h3>
+        <p>
+          Dữ liệu công khai của <strong>oz-wiki-plhq</strong> phát hành theo giấy phép
+          <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>.
+          Phiên bản dữ liệu: <code>{{PHIEN_BAN}}</code> · Lược đồ: <code>v{{LUOC_DO_PHIEN_BAN}}</code> · Dựng lúc: <code>{{THOI_DIEM_DUNG}}</code>.
+        </p>
+      </div>
+      <div>
+        <h3>Miễn trừ pháp lý</h3>
+        <p>
+          Thông tin trên cổng web chỉ mang tính <strong>tra cứu tham khảo</strong>, không phải tư vấn pháp lý chính thức.
+          Người khai hải quan và doanh nghiệp cần đối chiếu trực tiếp <strong>Công báo</strong>, <strong>Cơ sở dữ liệu quốc gia về văn bản pháp luật (CSDLQG)</strong> và bản ký số nguồn bậc A trước khi nộp tờ khai hải quan hoặc thực hiện thủ tục.
+        </p>
+      </div>
+      <div>
+        <h3>Ranh giới với <code>hs-code-api</code></h3>
+        <p>
+          Cổng web <code>oz-wiki-plhq</code> chỉ tra cứu hiệu lực văn bản pháp luật XNK, tri thức wiki, điều khoản và danh mục hóa chất CAS —
+          <strong>không</strong> thực hiện phân loại mã HS, không áp quy tắc GIR/chú giải HS và <strong>không</strong> tính thuế suất XNK (các chức năng phân loại HS và tính thuế thuộc hệ thống <code>hs-code-api</code>).
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

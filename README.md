@@ -1,33 +1,47 @@
 # Thư viện tri thức pháp luật xuất nhập khẩu Việt Nam (oz-wiki-plhq)
 
-Kho mở, miễn phí, cho cộng đồng làm xuất nhập khẩu: **văn bản nào đang điều chỉnh việc gì, còn hiệu lực không, bị văn bản nào thay, nguồn chính thống ở đâu**, kèm wiki giải thích có dẫn nguồn. Người và AI agent cùng đóng góp qua GitHub.
+Kho mở, miễn phí, cho cộng đồng làm xuất nhập khẩu: **văn bản nào đang điều chỉnh việc gì, còn hiệu lực không, bị văn bản nào thay, nguồn chính thống ở đâu**, kèm wiki giải thích có dẫn nguồn và cổng tra cứu web tĩnh. Người và AI agent cùng đóng góp qua GitHub.
 
 > ⚠️ Đây là tài liệu tham khảo do cộng đồng tổng hợp, **không phải tư vấn pháp lý** và không thay thế văn bản gốc. Luôn mở nguồn bậc A (Công báo, vanban.chinhphu.vn, vbpl.vn) trước khi khai báo. Mỗi văn bản trong sổ ghi rõ mức đã xác minh.
 >
-> 🧭 **Kiến trúc & ranh giới hệ thống:** Xem **[docs/SO-DO-HE-THONG.md](docs/SO-DO-HE-THONG.md)** để nắm rõ phân vai tuyệt đối giữa `oz-wiki-plhq` ↔ `hs-code-api` ↔ Cổng MCP (`ozplugin`), dòng chảy gói dữ liệu máy `1.5.0` và lộ trình nâng cấp 4 giai đoạn.
+> 🧭 **Kiến trúc & ranh giới hệ thống (0% trùng lặp với `hs-code-api`):** Xem **[docs/SO-DO-HE-THONG.md](docs/SO-DO-HE-THONG.md)** để nắm rõ phân vai tuyệt đối giữa `oz-wiki-plhq` ↔ `hs-code-api` ↔ Cổng MCP (`ozplugin`), dòng chảy gói dữ liệu máy `1.5.0`, các cổng kiểm chất lượng Wave 1–4 và cổng tra cứu web công khai trên GitHub Pages.
 
 ## Có gì trong kho
 
 | Phần | Ở đâu | Dùng để |
 |---|---|---|
-| **Sổ đăng ký văn bản** | [`registry/van-ban/`](registry/van-ban/) — mỗi văn bản một tệp YAML | Số hiệu, tên, cơ quan, ngày ban hành/hiệu lực, **tình trạng hiệu lực**, quan hệ **thay thế / sửa đổi / bãi bỏ / tạm ngưng / hướng dẫn / hợp nhất**, nguồn, mức xác minh (kèm `xac_minh.dieu_khoan` nguyên văn bậc A) |
+| **Sổ đăng ký văn bản** | [`registry/van-ban/`](registry/van-ban/) — mỗi văn bản một tệp YAML | Số hiệu, tên, cơ quan, ngày ban hành/hiệu lực, **tình trạng hiệu lực**, quan hệ chiều đi **thay thế / sửa đổi / bãi bỏ / tạm ngưng / hướng dẫn / hợp nhất**, nguồn, mức xác minh (kèm `xac_minh.dieu_khoan` nguyên văn bậc A đối chiếu PDF & SHA-256) |
 | **Cây dữ liệu XNK** | [`registry/cay-xnk.yaml`](registry/cay-xnk.yaml) → [`bao-cao/cay-van-ban.md`](bao-cao/cay-van-ban.md) | Hải quan · Thuế & biểu thuế · Phân loại HS · Xuất xứ & FTA · Quản lý ngoại thương · Kiểm tra chuyên ngành (8 bộ) · Phòng vệ thương mại · Xử phạt · Điều ước quốc tế · Bộ máy |
-| **Đồ thị cũ – mới** | [`bao-cao/quan-he.md`](bao-cao/quan-he.md) | Văn bản nào thay văn bản nào, từ ngày nào |
-| **Báo cáo điểm mù** | [`bao-cao/diem-mu.md`](bao-cao/diem-mu.md) | Thứ còn thiếu, đang mâu thuẫn, trang wiki dẫn văn bản hết hiệu lực hoặc dựa vào nguồn yếu — mỗi dòng là một việc |
+| **Đồ thị cũ – mới** | [`bao-cao/quan-he.md`](bao-cao/quan-he.md) | Văn bản nào thay văn bản nào, từ ngày nào (được kiểm chiều đi `quan_he` tự động trong `tools/kiem-tra.mjs`) |
+| **Báo cáo điểm mù & phân loại miss** | [`bao-cao/diem-mu.md`](bao-cao/diem-mu.md) · `npm run triage:miss` | Phát hiện thiếu sót/mâu thuẫn/trang wiki dẫn văn bản hết hiệu lực (tách tầng TB-TCHQ vs VBQPPL); `phan-loai-miss` phân loại chỉ đọc issue `[miss]` thành 5 nhóm |
 | **Nguồn uy tín** | [`registry/nguon-uy-tin.yaml`](registry/nguon-uy-tin.yaml) | Bậc A (chính thống) / B (thứ cấp đáng tin) / C (đầu mối) |
 | **Cơ quan** | [`registry/co-quan.yaml`](registry/co-quan.yaml) | Ký hiệu, tình trạng sau sáp nhập 2025–2026 |
 | **Toàn văn** | `raw/download/<tên miền>/` | Bản gốc tải từ nguồn, kèm `.nguon.json` (url, ngày, sha256) |
 | **Bảng phụ lục HS & CAS** | [`danh-muc/`](danh-muc/) (`*.csv`, `*-cas.csv`) | Phụ lục mã HS (KTCN, cấm, giấy phép, PVTM) và danh mục hóa chất theo mã CAS (vd NĐ `24/2026/NĐ-CP`). *(`chu-giai-chuong.json` chỉ tra nội bộ khi soạn wiki, không xuất ra `dist/`)* |
 | **Điều khoản nháp** | [`data/doc-hieu/`](data/doc-hieu/) (`*.dieu.jsonl`) | Tóm tắt điều luật trích từ toàn văn (tầng `TOM_TAT_NHAP`, `da_soat: false`) để định vị điều khoản trước khi soát thành nguyên văn nguồn A |
 | **Wiki** | [`wiki/`](wiki/) ([mục lục](wiki/index.md)) | Tóm tắt, khái niệm, tổng hợp có dẫn nguồn — dựng bằng [LuminaWiki](https://github.com/tronghieu/lumina-wiki) |
-| **Bộ đánh giá hỏi đáp** | [`eval/cau-hoi-nghiep-vu.yaml`](eval/cau-hoi-nghiep-vu.yaml) · `node tools/eval-qa.mjs` | Bộ câu hỏi nghiệp vụ PLHQ & XNK đo độ phủ nguồn A, trang wiki và điều khoản đã trích |
-| **Dữ liệu cho máy (`1.5.0`)** | `dist/` (chạy `npm run dung`, xem [tích hợp](docs/tich-hop.md)) | Gói 7 tệp JSON (`registry.json`, `hs-index.json`, `hs-index-theo-ma.json`, `wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`) + `SHA256SUMS` cho [hs-code-api](https://github.com/ozvietnam/hs-code-api) và Cổng MCP `ozplugin` |
+| **Bộ đánh giá hỏi đáp** | [`eval/cau-hoi-nghiep-vu.yaml`](eval/cau-hoi-nghiep-vu.yaml) · `npm run eval:qa` | Bộ **32 câu** hỏi nghiệp vụ thuần PLHQ & XNK đo độ phủ nguồn A, trang wiki và điều khoản đã trích |
+| **Dữ liệu cho máy (`1.5.0`)** | `dist/` (`npm run dung`, xem [tích hợp](docs/tich-hop.md) & [workflow Release](.github/workflows/bao-hs-code-api.yml)) | Gói 7 tệp JSON (`registry.json`, `hs-index.json`, `hs-index-theo-ma.json`, `wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`) + `SHA256SUMS` cho [hs-code-api](https://github.com/ozvietnam/hs-code-api) và Cổng MCP `ozplugin` |
+| **Cổng tra cứu web công khai** | `site/` (`npm run dung:web`, [workflow GitHub Pages](.github/workflows/trang-web.yml)) | Cổng web tĩnh không phụ thuộc CDN, triển khai lên GitHub Pages với 4 thẻ: Hiệu lực văn bản, Wiki & Hỏi đáp, Điều khoản bậc A (`NGUYEN_VAN_NGUON_A` vs `TOM_TAT_NHAP`), Hóa chất CAS (`24/2026/NĐ-CP`) |
 
 ## Dùng thế nào
 
-- **Đọc:** mở [`bao-cao/cay-van-ban.md`](bao-cao/cay-van-ban.md), [`wiki/index.md`](wiki/index.md) và [`docs/SO-DO-HE-THONG.md`](docs/SO-DO-HE-THONG.md) ngay trên GitHub.
+- **Tra cứu trên web (GitHub Pages / tại máy):** cổng tra cứu công khai được dựng tự động lên GitHub Pages qua [`.github/workflows/trang-web.yml`](.github/workflows/trang-web.yml), hoặc dựng tại máy bằng `npm run dung && npm run dung:web` (xuất ra thư mục `site/`, bị gitignore).
+- **Đọc trên GitHub:** mở [`bao-cao/cay-van-ban.md`](bao-cao/cay-van-ban.md), [`wiki/index.md`](wiki/index.md) và [`docs/SO-DO-HE-THONG.md`](docs/SO-DO-HE-THONG.md) ngay trên GitHub.
 - **Hỏi bằng AI:** clone repo, mở bằng Claude Code / Codex / Gemini CLI / Cursor rồi hỏi bằng tiếng Việt, ví dụ *"Bánh quy nhập từ Trung Quốc kiểm tra ATTP theo văn bản nào, còn hiệu lực không?"*. AI đọc wiki + sổ và trả lời kèm dẫn nguồn (`/lumi-ask`). Câu trả lời tốn token của bạn; đọc file thì không.
-- **Kiểm tra tại máy:** `npm install && npm test` · `npm run diem-mu` · `npm run dung` · `node tools/eval-qa.mjs`.
+- **Kiểm tra & vận hành tại máy (Wave 1–4):**
+  - `npm install && npm test` — chạy toàn bộ bộ test, kiểm sổ, cổng kiểm điều khoản nguyên văn, Lumina lint và toàn vẹn sổ
+  - `npm run kiem-tra` — kiểm sổ, CSV HS/CAS và cổng kiểm chiều đi `quan_he` (chặn cạnh ngược thời gian / sai vai trò)
+  - `npm run kiem-tra:dieu-khoan` — cổng kiểm đối chiếu nguyên văn `xac_minh.dieu_khoan` với tệp toàn văn và `sha256_pdf`
+  - `npm run diem-mu` — sinh báo cáo điểm mù (tách tầng TB-TCHQ vs VBQPPL, phát hiện trang wiki dẫn văn bản hết hiệu lực)
+  - `npm run eval:qa` — đo độ phủ **32 câu** hỏi nghiệp vụ PLHQ & XNK
+  - `npm run triage:miss` — công cụ **chỉ đọc** (`phan-loai-miss`) phân loại issue `[miss]` thành 5 nhóm (`DA_CO_TRONG_SO`, `THUOC_HS_CODE_API`, `THIEU_VAN_BAN_MOI`, `THIEU_WIKI_HOAC_DIEU_KHOAN`, `KHAC_CAN_RA_SOAT`)
+  - `npm run dung && npm run dung:web` — dựng 7 tệp `dist/*.json` (`1.5.0`) + báo cáo và dựng cổng tra cứu web tĩnh ra `site/`
+
+## Ranh giới 0% trùng lặp với `hs-code-api`
+
+- **`oz-wiki-plhq` phụ trách:** hiệu lực & quan hệ VBQPPL (`registry/`), điều khoản nguyên văn bậc A (`dist/dieu-khoan.json`), wiki nghiệp vụ PLHQ (`dist/wiki-index.json`, `dist/wiki-chunks.json`), phụ lục mã HS/CAS (`dist/hs-index*.json`, `dist/cas-index.json`) và cổng web tra cứu tĩnh `site/`.
+- **Không trùng lặp với [`hs-code-api`](https://github.com/ozvietnam/hs-code-api):** không xuất `chu-giai-chuong.json` hay `chu-giai-hs.json` ra `dist/`, không xây bộ máy phân loại HS hay 6 quy tắc GIR, không lưu/tính thuế suất biểu thuế và không phục vụ API tiền lệ `/api/precedents`. Chi tiết tại [docs/SO-DO-HE-THONG.md](docs/SO-DO-HE-THONG.md).
 
 ## Đóng góp — người và agent
 
@@ -37,8 +51,8 @@ Xem [CONTRIBUTING.md](CONTRIBUTING.md), [Sơ đồ hệ thống](docs/SO-DO-HE-T
 
 1. **Nguồn trước, kết luận sau.** Không ghi tình trạng hiệu lực là đã xác minh (`xac_minh.hieu_luc_da_doi_chieu: true`) khi chưa mở nguồn bậc A. Bài báo, blog, bài tổng hợp chỉ là đầu mối (bậc C).
 2. **Không đoán.** Không biết thì để `CHUA_XAC_MINH` và ghi rõ trong `ghi_chu`. Trích sai điều luật tệ hơn để trống.
-3. **Chỉ ghi quan hệ chiều đi.** Văn bản MỚI ghi nó thay/sửa/bãi bỏ văn bản nào; chiều ngược do `tools/dung.mjs` tính.
-4. **Trích nguyên văn có điều, khoản, điểm** khi viết wiki về nghĩa vụ pháp lý.
+3. **Chỉ ghi quan hệ chiều đi.** Văn bản MỚI ghi nó thay/sửa/bãi bỏ/tạm ngưng/hướng dẫn/hợp nhất văn bản nào (được `tools/kiem-tra.mjs` chặn tự động nếu ngược thời gian hoặc sai vai trò); chiều ngược do `tools/dung.mjs` tính.
+4. **Trích nguyên văn có điều, khoản, điểm** khi viết wiki về nghĩa vụ pháp lý; mọi `xac_minh.dieu_khoan` được cổng `npm run kiem-tra:dieu-khoan` đối chiếu nguyên văn với bản gốc.
 5. **Không đưa thông tin khách hàng, tờ khai, hợp đồng** vào kho — đây là kho công khai.
 6. Mọi thay đổi qua PR; `npm test` phải xanh.
 7. Sổ đăng ký (`registry/`) là nguồn sự thật về **hiệu lực**; wiki là nơi **giải thích**. Wiki nhắc số hiệu nào thì số hiệu đó phải có trong sổ (điểm mù `WIKI_NHAC_CHUA_DANG_KY`).
