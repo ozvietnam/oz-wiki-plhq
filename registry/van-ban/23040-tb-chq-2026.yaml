@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 23040/TB-CHQ/2026
+so_hieu_khac:
+  - 23040/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-21'
+ten: 'Thông báo về kết quả xác định trước mã số (Cáp mạng Lan UTP Cat6 4X2X24 AWG, cách điện bằng nhựa PE, điện áp tối đa 12V, chưa gắn với đầu nối, không dùng cho viễn thông, dùng trong mạng máy tính, mã số 8544.49.24)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-10-15'
+hieu_luc_tu: '2026-10-15'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=106373&cid=1294
+    truy_cap: '2026-11-21'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/10/16/VB_23040.pdf
+    truy_cap: '2026-11-21'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/10/16/VB_23040.pdf, id=106373, SHA-256 964ff6d337c9e42348063593c2311fcf7a300de4b44b380c4431d5422147183e): Thông báo số 23040/TB-CHQ ngày 15-10-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Cáp mạng Lan UTP Cat6 4X2X24 AWG (bên ngoài lớp vỏ bằng chất liệu nhựa; bên trong là 04 cáp điện ngăn cách bởi vách ngăn chữ thập, mỗi cáp gồm 02 sợi cáp lõi một sợi đồng tiết diện 24AWG, đường kính lõi nhỏ hơn 19,5mm, bọc cách điện bằng plastic nhựa PE; cáp dạng cuộn chưa gắn đầu nối, điện áp tối đa 12V, không dùng cho viễn thông, sử dụng trong mạng máy tính để truyền nhận tín hiệu giữa máy tính với mạng internet và các máy tính khác trong cùng hệ thống), phân loại vào nhóm 85.44, phân nhóm 8544.49, mã số 8544.49.24; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Cáp mạng Lan UTP Cat6 4X2X24 AWG (bên ngoài là lớp vỏ nhựa; bên trong gồm 04 cặp cáp điện ngăn cách bởi vách ngăn chữ thập, mỗi sợi cáp có lõi là một sợi đồng tiết diện 24AWG, đường kính lõi dẫn tín hiệu nhỏ hơn 19,5mm, bọc cách điện bằng nhựa PE; cáp dạng cuộn, chưa gắn đầu nối, điện áp tối đa 12V, không dùng cho viễn thông, sử dụng trong mạng máy tính để truyền nhận tín hiệu) thuộc nhóm 85.44, phân nhóm 8544.49, mã số 8544.49.24.'
+toan_van: raw/download/files.customs.gov.vn/23040-tb-chq-2026.pdf
