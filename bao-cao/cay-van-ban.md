@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-21
 
-2840 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2842 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -3099,8 +3099,9 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Chống bán phá giá, chống trợ cấp, tự vệ `phong-ve-thuong-mai/chong-ban-pha-gia`
 
-29 văn bản, 19 chưa hết hiệu lực.
+31 văn bản, 20 chưa hết hiệu lực.
 
+- 🟢 [2652/QĐ-BCT](../registry/van-ban/2652-qd-bct-2026.yaml) — Về kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm sợi dài làm từ polyester có xuất xứ từ Cộng hòa Nhân dân Trung Hoa, Cộng hòa Ấn Độ, Cộng hòa In-đô-nê-xi-a và Ma-lai-xi-a
 - 🟢 [2174/QĐ-BCT](../registry/van-ban/2174-qd-bct-2025.yaml) — Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm gạch gốm, sứ ốp lát có xuất xứ từ Cộng hòa Ấn Độ _(hết hiệu lực 2031-09-22)_
 - 🟢 [1400/QĐ-BCT](../registry/van-ban/1400-qd-bct-2025.yaml) — Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm kính nổi không màu có xuất xứ từ Cộng hòa In-đô-nê-xi-a và Ma-lai-xi-a _(hết hiệu lực 2031-06-14)_
 - 🟢 [1309/QĐ-BCT](../registry/van-ban/1309-qd-bct-2026.yaml) — Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá và chống trợ cấp đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan
@@ -3128,6 +3129,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - ⚫ [1989/QĐ-BCT](../registry/van-ban/1989-qd-bct-2023.yaml) — Kết quả rà soát lần thứ nhất việc áp dụng biện pháp chống bán phá giá và chống trợ cấp đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan _(hết hiệu lực 2026-06-16)_
 - 🟢 [235/QĐ-BCT](../registry/van-ban/235-qd-bct-2023.yaml) — Áp dụng biện pháp chống bán phá giá chính thức đối với một số sản phẩm bàn, ghế từ Cộng hòa nhân dân Trung Hoa và chấm dứt điều tra áp dụng biện pháp chống bán phá giá đối với một số sản phẩm bàn ghế từ Ma-lai-xi-a _(hết hiệu lực 2028-02-13)_
 - ⚫ [2961/QĐ-BCT](../registry/van-ban/2961-qd-bct-2022.yaml) — Về việc sửa đổi, bổ sung Quyết định số 1578/QĐ-BCT ngày 15 tháng 6 năm 2021 của Bộ trưởng Bộ Công Thương về việc áp dụng thuế chống bán phá giá và thuế chống trợ cấp chính thức đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan _(hết hiệu lực 2026-06-16)_
+- ⚫ [1975/QĐ-BCT](../registry/van-ban/1975-qd-bct.yaml) — Về việc áp dụng thuế chống bán phá giá đối với một số sản phẩm thép hình chữ H có xuất xứ từ Ma-lai-xi-a _(hết hiệu lực 2026-04-16)_
 - ⚫ [1578/QĐ-BCT](../registry/van-ban/1578-qd-bct-2021.yaml) — Áp dụng thuế chống bán phá giá và thuế chống trợ cấp chính thức đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan _(hết hiệu lực 2026-06-16)_
 - ⚫ [10/2018/NĐ-CP](../registry/van-ban/10-2018-nd-cp.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương về các biện pháp phòng vệ thương mại _(hết hiệu lực 2025-07-01)_
 

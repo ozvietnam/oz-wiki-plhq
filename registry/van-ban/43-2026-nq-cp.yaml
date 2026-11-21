@@ -12,13 +12,15 @@ nhanh:
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=219739
     truy_cap: '2026-10-29'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/43_2026_nq-cp_30092026_1-signed.signed.pdf
+    truy_cap: '2026-11-21'
   - url: https://www.mof.gov.vn/tin-tuc-tai-chinh/tin-tuc-su-kien-8/tiep-tuc-keo-dai-thoi-han-uu-dai-thue-xang-dau-den-het-nam-2026
     truy_cap: '2026-10-29'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'thẻ vanban.chinhphu.vn (docid=219739) và thông cáo Bộ Tài chính (mof.gov.vn): số hiệu, tiêu đề đầy đủ, ban hành 30-09-2026, đối chiếu đang có hiệu lực từ 01-10-2026 đến hết 31-12-2026 về kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường và thuế GTGT đối với xăng, dầu'
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A (datafiles.chinhphu.vn) và thẻ vanban.chinhphu.vn (docid=219739): số hiệu, tiêu đề đầy đủ, ban hành 30-09-2026, hiệu lực từ 01-10-2026 đến hết 31-12-2026 về kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường và thuế GTGT đối với xăng, dầu'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
 ghi_chu: 'Trinh thám bộ ngành 29/10 — QUAN TRỌNG cho tra thuế nhóm 2710: MFN ưu đãi + BVMT 0đ chỉ đến 31-12-2026, hết hạn cần NQ kéo dài tiếp (canh). Tra 17-11-2026: chưa có NQ-CP kéo dài thêm sau 31-12-2026 trên vanban.chinhphu; NQ 45/2026/NQ-CP (31-10-2026) chỉ về thuế TTĐB xăng 0% đến 31-03-2027 — KHÔNG thay/kéo dài NQ 43 (NK ưu đãi/BVMT/GTGT xăng dầu). Tra lại 20-11-2026: xác nhận — chưa có NQ-CP kéo dài sau 31-12-2026 (tra danh mục NQ-CP trên vanban.chinhphu.vn/?pageid=27160 đến 20-11-2026: các NQ-CP gần nhất 47/2026 và 46/2026 ngày 10-11-2026, 45/2026 ngày 31-10-2026, 44/2026 ngày 30-10-2026 — đều không về thuế xăng dầu NK ưu đãi/BVMT/GTGT).'
-toan_van: raw/download/vanban.chinhphu.vn/43-2026-nq-cp.html
+toan_van: raw/download/datafiles.chinhphu.vn/43-2026-nq-cp.pdf
