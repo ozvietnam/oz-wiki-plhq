@@ -15,18 +15,107 @@ nguon:
     truy_cap: '2026-11-14'
   - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-123-2020-nd-cp-32290.htm
     truy_cap: '2026-11-14'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2020/10/32290/32999-1-20201011-1012123-2020-nd-cp.pdf
+    truy_cap: '2026-11-21'
   - url: https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-123-2020-nd-cp-quy-dinh-ve-hoa-don-chung-tu--146457
     truy_cap: '2026-11-14'
   - url: https://thuvienphapluat.vn/van-ban/Tai-chinh-Nha-nuoc/Nghi-dinh-123-2020-ND-CP-379445.aspx
     truy_cap: '2026-10-22'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=201365), toàn văn PDF ký số (123.signed_01.pdf, Thủ tướng Nguyễn Xuân Phúc ký), Công báo (32290) và vbpl.vn (ItemID=146457): ban hành 19-10-2020 (đính chính từ 19-09-2020), có hiệu lực thi hành từ 01-07-2022 (khoản 1 Điều 59); đang còn hiệu lực, được hướng dẫn bởi Thông tư 78/2021/TT-BTC và sửa đổi, bổ sung một số điều bởi Nghị định 41/2022/NĐ-CP và Nghị định 70/2025/NĐ-CP (hai nghị định sửa đổi chưa nạp vào sổ).'
+  pham_vi: 'Đã đối chiếu toàn văn nguồn bậc A từ PDF Công báo số 1011+1012 ngày 01-11-2020 (raw/download/congbaocdn.chinhphu.vn/123-2020-nd-cp.pdf, 93 trang, trang 4–95 của số Công báo, chứa toàn bộ 6 Chương / 61 Điều và phần đầu Phụ lục IA, có lớp chữ ký số bởi Văn phòng Chính phủ ngày 30-10-2020, SHA-256 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36), thẻ vanban.chinhphu.vn (docid=201365), toàn văn PDF ký số (123.signed_01.pdf, Thủ tướng Nguyễn Xuân Phúc ký), vbpl.vn (ItemID=146457) và trang wiki/sources/123-2020-nd-cp.md: ban hành 19-10-2020, có hiệu lực thi hành từ 01-07-2022 (khoản 1 Điều 59); đang còn hiệu lực, được hướng dẫn bởi Thông tư 78/2021/TT-BTC và sửa đổi, bổ sung một số điều bởi Nghị định 41/2022/NĐ-CP và Nghị định 70/2025/NĐ-CP (hai nghị định sửa đổi chưa nạp vào sổ).'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Nghị định này quy định việc quản lý, sử dụng hóa đơn khi bán hàng hóa, cung cấp dịch vụ; việc quản lý, sử dụng chứng từ khi thực hiện các thủ tục về thuế, thu phí, lệ phí và quy định nhiệm vụ, quyền hạn và trách nhiệm của cơ quan, tổ chức, cá nhân trong việc quản lý, sử dụng hóa đơn, chứng từ.'
+      trang_pdf: 1
+      sha256_pdf: 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36
+    - dieu: 2
+      noi_dung: '1. Tổ chức, cá nhân bán hàng hóa, cung cấp dịch vụ bao gồm: a) Doanh nghiệp được thành lập và hoạt động theo pháp luật Việt Nam; chi nhánh, văn phòng đại diện của doanh nghiệp nước ngoài hoạt động tại Việt Nam; b) Hợp tác xã, liên hiệp hợp tác xã; c) Hộ, cá nhân kinh doanh, tổ hợp tác; d) Đơn vị sự nghiệp công lập có bán hàng hóa, cung cấp dịch vụ; đ) Tổ chức không phải là doanh nghiệp nhưng có hoạt động kinh doanh. 2. Tổ chức, cá nhân mua hàng hóa, dịch vụ. 3. Tổ chức thu thuế, phí và lệ phí. 4. Người nộp thuế, phí và lệ phí. 5. Tổ chức có trách nhiệm khấu trừ thuế thu nhập cá nhân. 6. Tổ chức nhận in hóa đơn, chứng từ; tổ chức cung cấp phần mềm tự in chứng từ; tổ chức cung cấp dịch vụ hóa đơn, chứng từ điện tử. 7. Cơ quan thuế bao gồm Tổng cục Thuế, Cục Thuế, Chi cục Thuế (bao gồm cả Chi cục Thuế khu vực). 8. Cơ quan hải quan bao gồm Tổng cục Hải quan, Cục Hải quan, Cục Kiểm tra sau thông quan, Chi cục Hải quan. 9. Các tổ chức, cá nhân có liên quan đến việc quản lý, sử dụng hóa đơn và chứng từ.'
+      trang_pdf: 2
+      sha256_pdf: 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36
+    - dieu: 3
+      khoan: 1
+      noi_dung: 'Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: 1. Hóa đơn là chứng từ kế toán do tổ chức, cá nhân bán hàng hóa, cung cấp dịch vụ lập, ghi nhận thông tin bán hàng hóa, cung cấp dịch vụ. Hóa đơn được thể hiện theo hình thức hóa đơn điện tử hoặc hóa đơn do cơ quan thuế đặt in.'
+      trang_pdf: 2
+      sha256_pdf: 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36
+    - dieu: 3
+      khoan: 2
+      noi_dung: '2. Hóa đơn điện tử là hóa đơn có mã hoặc không có mã của cơ quan thuế được thể hiện ở dạng dữ liệu điện tử do tổ chức, cá nhân bán hàng hóa, cung cấp dịch vụ lập bằng phương tiện điện tử để ghi nhận thông tin bán hàng hóa, cung cấp dịch vụ theo quy định của pháp luật về kế toán, pháp luật về thuế, bao gồm cả trường hợp hóa đơn được khởi tạo từ máy tính tiền có kết nối chuyển dữ liệu điện tử với cơ quan thuế, trong đó: a) Hóa đơn điện tử có mã của cơ quan thuế là hóa đơn điện tử được cơ quan thuế cấp mã trước khi tổ chức, cá nhân bán hàng hóa, cung cấp dịch vụ gửi cho người mua. Mã của cơ quan thuế trên hóa đơn điện tử bao gồm số giao dịch là một dãy số duy nhất do hệ thống của cơ quan thuế tạo ra và một chuỗi ký tự được cơ quan thuế mã hóa dựa trên thông tin của người bán lập trên hóa đơn. b) Hóa đơn điện tử không có mã của cơ quan thuế là hóa đơn điện tử do tổ chức bán hàng hóa, cung cấp dịch vụ gửi cho người mua không có mã của cơ quan thuế.'
+      trang_pdf: 3
+      sha256_pdf: 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36
+    - dieu: 4
+      khoan: 1
+      noi_dung: '1. Khi bán hàng hóa, cung cấp dịch vụ, người bán phải lập hóa đơn để giao cho người mua (bao gồm cả các trường hợp hàng hóa, dịch vụ dùng để khuyến mại, quảng cáo, hàng mẫu; hàng hóa, dịch vụ dùng để cho, biếu, tặng, trao đổi, trả thay lương cho người lao động và tiêu dùng nội bộ (trừ hàng hóa luân chuyển nội bộ để tiếp tục quá trình sản xuất); xuất hàng hóa dưới các hình thức cho vay, cho mượn hoặc hoàn trả hàng hóa) và phải ghi đầy đủ nội dung theo quy định tại Điều 10 Nghị định này, trường hợp sử dụng hóa đơn điện tử thì phải theo định dạng chuẩn dữ liệu của cơ quan thuế theo quy định tại Điều 12 Nghị định này.'
+      trang_pdf: 6
+      sha256_pdf: 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36
+    - dieu: 6
+      noi_dung: '1. Hóa đơn, chứng từ được bảo quản, lưu trữ đảm bảo: a) Tính an toàn, bảo mật, toàn vẹn, đầy đủ, không bị thay đổi, sai lệch trong suốt thời gian lưu trữ; b) Lưu trữ đúng và đủ thời hạn theo quy định của pháp luật kế toán. 2. Hóa đơn điện tử, chứng từ điện tử được bảo quản, lưu trữ bằng phương tiện điện tử. Cơ quan, tổ chức, cá nhân được quyền lựa chọn và áp dụng hình thức bảo quản, lưu trữ hóa đơn điện tử, chứng từ điện tử phù hợp với đặc thù hoạt động và khả năng ứng dụng công nghệ. Hóa đơn điện tử, chứng từ điện tử phải sẵn sàng in được ra giấy hoặc tra cứu được khi có yêu cầu. 3. Hóa đơn do cơ quan thuế đặt in, chứng từ đặt in, tự in phải bảo quản, lưu trữ đúng với yêu cầu sau: a) Hóa đơn, chứng từ chưa lập được lưu trữ, bảo quản trong kho theo chế độ lưu trữ bảo quản chứng từ có giá. b) Hóa đơn, chứng từ đã lập trong các đơn vị kế toán được lưu trữ theo quy định lưu trữ, bảo quản chứng từ kế toán. c) Hóa đơn, chứng từ đã lập trong các tổ chức, hộ, cá nhân không phải là đơn vị kế toán được lưu trữ và bảo quản như tài sản riêng của tổ chức, hộ, cá nhân đó.'
+      trang_pdf: 9
+      sha256_pdf: 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36
+    - dieu: 7
+      noi_dung: '1. Hóa đơn điện tử, chứng từ điện tử hợp pháp được chuyển đổi thành hóa đơn, chứng từ giấy khi có yêu cầu nghiệp vụ kinh tế, tài chính phát sinh hoặc theo yêu cầu của cơ quan quản lý thuế, cơ quan kiểm toán, thanh tra, kiểm tra, điều tra và theo quy định của pháp luật về thanh tra, kiểm tra và điều tra. 2. Việc chuyển đổi hóa đơn điện tử, chứng từ điện tử thành hóa đơn, chứng từ giấy phải bảo đảm sự khớp đúng giữa nội dung của hóa đơn điện tử, chứng từ điện tử và hóa đơn, chứng từ giấy sau khi chuyển đổi. 3. Hóa đơn điện tử, chứng từ điện tử được chuyển đổi thành hóa đơn, chứng từ giấy thì hóa đơn, chứng từ giấy chỉ có giá trị lưu giữ để ghi sổ, theo dõi theo quy định của pháp luật về kế toán, pháp luật về giao dịch điện tử, không có hiệu lực để giao dịch, thanh toán, trừ trường hợp hóa đơn được khởi tạo từ máy tính tiền có kết nối chuyển dữ liệu điện tử với cơ quan thuế theo quy định tại Nghị định này.'
+      trang_pdf: 9
+      sha256_pdf: 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36
+    - dieu: 8
+      khoan: 1
+      noi_dung: 'Hóa đơn quy định tại Nghị định này gồm các loại sau: 1. Hóa đơn giá trị gia tăng là hóa đơn dành cho các tổ chức khai thuế giá trị gia tăng theo phương pháp khấu trừ sử dụng cho các hoạt động: a) Bán hàng hóa, cung cấp dịch vụ trong nội địa; b) Hoạt động vận tải quốc tế; c) Xuất vào khu phi thuế quan và các trường hợp được coi như xuất khẩu; d) Xuất khẩu hàng hóa, cung cấp dịch vụ ra nước ngoài.'
+      trang_pdf: 10
+      sha256_pdf: 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36
+    - dieu: 9
+      khoan: 1
+      noi_dung: '1. Thời điểm lập hóa đơn đối với bán hàng hóa (bao gồm cả bán tài sản nhà nước, tài sản tịch thu, sung quỹ nhà nước và bán hàng dự trữ quốc gia) là thời điểm chuyển giao quyền sở hữu hoặc quyền sử dụng hàng hóa cho người mua, không phân biệt đã thu được tiền hay chưa thu được tiền.'
+      trang_pdf: 12
+      sha256_pdf: 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36
+    - dieu: 9
+      khoan: 2
+      noi_dung: '2. Thời điểm lập hóa đơn đối với cung cấp dịch vụ là thời điểm hoàn thành việc cung cấp dịch vụ không phân biệt đã thu được tiền hay chưa thu được tiền. Trường hợp người cung cấp dịch vụ có thu tiền trước hoặc trong khi cung cấp dịch vụ thì thời điểm lập hóa đơn là thời điểm thu tiền (không bao gồm trường hợp thu tiền đặt cọc hoặc tạm ứng để đảm bảo thực hiện hợp đồng cung cấp các dịch vụ: kế toán, kiểm toán, tư vấn tài chính, thuế; thẩm định giá; khảo sát, thiết kế kỹ thuật; tư vấn giám sát; lập dự án đầu tư xây dựng).'
+      trang_pdf: 12
+      sha256_pdf: 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36
+    - dieu: 11
+      noi_dung: 'Hóa đơn được khởi tạo từ máy tính tiền kết nối chuyển dữ liệu điện tử với cơ quan thuế đảm bảo nguyên tắc sau: 1. Nhận biết được hóa đơn in từ máy tính tiền kết nối chuyển dữ liệu điện tử với cơ quan thuế; 2. Không bắt buộc có chữ ký số; 3. Khoản chi mua hàng hóa, dịch vụ sử dụng hóa đơn (hoặc sao chụp hóa đơn hoặc tra thông tin từ Cổng thông tin điện tử của Tổng cục Thuế về hóa đơn) được khởi tạo từ máy tính tiền được xác định là khoản chi có đủ hóa đơn, chứng từ hợp pháp khi xác định nghĩa vụ thuế.'
+      trang_pdf: 27
+      sha256_pdf: 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36
+    - dieu: 12
+      noi_dung: '1. Định dạng hóa đơn điện tử là tiêu chuẩn kỹ thuật quy định kiểu dữ liệu, chiều dài dữ liệu của các trường thông tin phục vụ truyền nhận, lưu trữ và hiển thị hóa đơn điện tử. Định dạng hóa đơn điện tử sử dụng ngôn ngữ định dạng văn bản XML (XML là chữ viết tắt của cụm từ tiếng Anh "eXtensible Markup Language" được tạo ra với mục đích chia sẻ dữ liệu điện tử giữa các hệ thống công nghệ thông tin). 2. Định dạng hóa đơn điện tử gồm hai thành phần: thành phần chứa dữ liệu nghiệp vụ hóa đơn điện tử và thành phần chứa dữ liệu chữ ký số. Đối với hóa đơn điện tử có mã của cơ quan thuế thì có thêm thành phần chứa dữ liệu liên quan đến mã cơ quan thuế. 3. Tổng cục Thuế xây dựng và công bố thành phần chứa dữ liệu nghiệp vụ hóa đơn điện tử, thành phần chứa dữ liệu chữ ký số và cung cấp công cụ hiển thị các nội dung của hóa đơn điện tử theo quy định tại Nghị định này. 4. Tổ chức, doanh nghiệp bán hàng hóa, cung cấp dịch vụ khi chuyển dữ liệu hóa đơn điện tử đến cơ quan thuế bằng hình thức gửi trực tiếp phải đáp ứng yêu cầu sau: a) Kết nối với Tổng cục Thuế thông qua kênh thuê riêng hoặc kênh MPLS VPN Layer 3, gồm 1 kênh truyền chính và 1 kênh truyền dự phòng. Mỗi kênh truyền có băng thông tối thiểu 5 Mbps. b) Sử dụng dịch vụ Web (Web Service) hoặc Message Queue (MQ) có mã hóa làm phương thức để kết nối. c) Sử dụng giao thức SOAP để đóng gói và truyền nhận dữ liệu. 5. Hóa đơn điện tử phải được hiển thị đầy đủ, chính xác các nội dung của hóa đơn đảm bảo không dẫn tới cách hiểu sai lệch để người mua có thể đọc được bằng phương tiện điện tử.'
+      trang_pdf: 27
+      sha256_pdf: 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36
+    - dieu: 30
+      noi_dung: '1. Chứng từ trong lĩnh vực quản lý thuế, phí, lệ phí của cơ quan thuế bao gồm: a) Chứng từ khấu trừ thuế thu nhập cá nhân; b) Biên lai gồm: b.1) Biên lai thu thuế, phí, lệ phí không in sẵn mệnh giá; b.2) Biên lai thu thuế, phí, lệ phí in sẵn mệnh giá; b.3) Biên lai thu thuế, phí, lệ phí. 2. Trong quá trình quản lý thuế, phí, lệ phí theo quy định của Luật Quản lý thuế trường hợp có yêu cầu các loại chứng từ khác, Bộ trưởng Bộ Tài chính có trách nhiệm quy định và hướng dẫn thực hiện.'
+      trang_pdf: 57
+      sha256_pdf: 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36
+    - dieu: 31
+      noi_dung: 'Tại thời điểm khấu trừ thuế thu nhập cá nhân, thời điểm thu thuế, phí, lệ phí, tổ chức khấu trừ thuế thu nhập cá nhân, tổ chức thu thuế, phí, lệ phí phải lập chứng từ, biên lai giao cho người có thu nhập bị khấu trừ thuế, người nộp các khoản thuế, phí, lệ phí.'
+      trang_pdf: 57
+      sha256_pdf: 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36
+    - dieu: 45
+      noi_dung: '1. Khi kiểm tra hàng hóa lưu thông trên thị trường, đối với trường hợp sử dụng hóa đơn điện tử, cơ quan nhà nước, người có thẩm quyền truy cập Cổng thông tin điện tử của Tổng cục Thuế để tra cứu thông tin về hóa đơn điện tử phục vụ yêu cầu quản lý, không yêu cầu cung cấp hóa đơn giấy. Các cơ quan có liên quan có trách nhiệm sử dụng các thiết bị để truy cập tra cứu dữ liệu hóa đơn điện tử. 2. Trường hợp bất khả kháng do sự cố, thiên tai gây ảnh hưởng đến việc truy cập mạng Internet dẫn đến không tra cứu được dữ liệu hóa đơn thì cơ quan nhà nước, người có thẩm quyền đang thực hiện kiểm tra thực hiện tra cứu thông tin hóa đơn điện tử theo hình thức nhắn tin.'
+      trang_pdf: 75
+      sha256_pdf: 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36
+    - dieu: 58
+      noi_dung: '1. Các doanh nghiệp, tổ chức kinh tế sản xuất, kinh doanh ở các lĩnh vực: điện lực; xăng dầu; bưu chính viễn thông; vận tải hàng không, đường bộ, đường sắt, đường biển, đường thủy; nước sạch; tài chính tín dụng; bảo hiểm; y tế; kinh doanh thương mại điện tử; kinh doanh siêu thị; thương mại thực hiện hóa đơn điện tử và cung cấp dữ liệu hóa đơn điện tử theo định dạng dữ liệu do Tổng cục Thuế công bố. 2. Các tổ chức tín dụng, tổ chức cung ứng dịch vụ thanh toán cung cấp dữ liệu điện tử về giao dịch thanh toán qua tài khoản của các tổ chức, cá nhân khi có yêu cầu bằng văn bản của cơ quan thuế việc cung cấp thông tin khách hàng thực hiện theo quy định của pháp luật về ngân hàng. 3. Tổ chức sản xuất, nhập khẩu những sản phẩm chịu thuế tiêu thụ đặc biệt thuộc đối tượng sử dụng tem theo quy định của pháp luật thực hiện kết nối thông tin về in và sử dụng tem, tem điện tử giữa tổ chức sản xuất, nhập khẩu với cơ quan quản lý thuế. Thông tin về in, sử dụng tem điện tử là cơ sở để lập, quản lý và xây dựng cơ sở dữ liệu hóa đơn điện tử. Các đối tượng sử dụng tem có trách nhiệm chi trả chi phí in và sử dụng tem theo quy định của Bộ trưởng Bộ Tài chính. 4. Các tổ chức, đơn vị: Cơ quan quản lý thị trường, Tổng cục quản lý đất đai, Tổng cục địa chất và khoáng sản Việt Nam, cơ quan công an, giao thông, y tế và các cơ quan khác có liên quan kết nối chia sẻ thông tin, dữ liệu liên quan cần thiết trong lĩnh vực quản lý của đơn vị với Tổng cục Thuế để xây dựng cơ sở dữ liệu hóa đơn điện tử.'
+      trang_pdf: 85
+      sha256_pdf: 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36
+    - dieu: 59
+      noi_dung: '1. Nghị định này có hiệu lực thi hành kể từ ngày 01 tháng 7 năm 2022, khuyến khích cơ quan, tổ chức, cá nhân đáp ứng điều kiện về hạ tầng công nghệ thông tin áp dụng quy định về hóa đơn, chứng từ điện tử của Nghị định này trước ngày 01 tháng 7 năm 2022. 2. Nghị định số 51/2010/NĐ-CP ngày 14 tháng 5 năm 2010 của Chính phủ quy định về hóa đơn bán hàng hóa, cung ứng dịch vụ, Nghị định số 04/2014/NĐ-CP ngày 17 tháng 01 năm 2014 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 51/2010/NĐ-CP quy định về hóa đơn bán hàng hóa, cung ứng dịch vụ, Nghị định số 119/2018/NĐ-CP ngày 12 tháng 9 năm 2018 của Chính phủ quy định về hóa đơn điện tử khi bán hàng hóa, cung cấp dịch vụ tiếp tục có hiệu lực thi hành đến ngày 30 tháng 6 năm 2022. 3. Bãi bỏ khoản 2 và khoản 4 Điều 35 Nghị định số 119/2018/NĐ-CP ngày 12 tháng 9 năm 2018 của Chính phủ quy định về hóa đơn điện tử kể từ ngày 01 tháng 11 năm 2020. 4. Bãi bỏ khoản 12 Điều 5 Nghị định số 12/2015/NĐ-CP ngày 12 tháng 01 năm 2015 của Chính phủ quy định chi tiết thi hành Luật sửa đổi, bổ sung một số điều của các Luật về thuế và sửa đổi, bổ sung một số điều của các Nghị định về thuế. 5. Việc quản lý, sử dụng hóa đơn bán tài sản công khi xử lý tài sản công (hóa đơn bằng giấy do Bộ Tài chính đặt in) tiếp tục thực hiện theo quy định tại Nghị định số 151/2017/NĐ-CP ngày 26 tháng 12 năm 2017 của Chính phủ quy định chi tiết một số điều của Luật Quản lý, sử dụng tài sản công. 6. Việc quản lý, sử dụng hóa đơn bán hàng dự trữ quốc gia khi bán hàng dự trữ quốc gia (hóa đơn bằng giấy) tiếp tục thực hiện theo quy định tại Thông tư số 16/2012/TT-BTC ngày 08 tháng 02 năm 2012 của Bộ Tài chính. Trường hợp có thông báo chuyển đổi áp dụng hóa đơn điện tử bán hàng dự trữ quốc gia thì các đơn vị thực hiện chuyển đổi theo quy định.'
+      trang_pdf: 85
+      sha256_pdf: 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36
+    - dieu: 60
+      khoan: 3
+      noi_dung: '3. Bộ Tài chính hướng dẫn cụ thể Điều này.'
+      trang_pdf: 87
+      sha256_pdf: 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36
+    - dieu: 61
+      noi_dung: '1. Bộ trưởng Bộ Tài chính có trách nhiệm chủ trì, phối hợp với Ủy ban nhân dân các tỉnh thành phố thực hiện triển khai việc kết nối thông tin từ máy tính tiền để quản lý doanh thu bán lẻ của các hộ, cá nhân kinh doanh theo quy định tại Nghị định này. 2. Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, căn cứ chức năng, nhiệm vụ được giao có trách nhiệm triển khai thực hiện Nghị định này. 3. Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương chỉ đạo các cơ quan, đơn vị trên địa bàn phối hợp để triển khai thực hiện Nghị định này./.'
+      trang_pdf: 87
+      sha256_pdf: 62fb1da8b50cc6c581f50a2f9b74a02ff3416b6e15261bfc64c22e657491ad36
 ghi_chu: Hóa đơn hàng giao thẳng nước thứ ba — ghi hàng hóa không chịu thuế GTGT theo NĐ này + TT 78/2021 (#227).
 tu_khoa:
   - giao-thang-nuoc-thu-ba
   - thue
-toan_van: raw/download/congbao.chinhphu.vn/123-2020-nd-cp.html
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/123-2020-nd-cp.pdf
+  - raw/download/congbao.chinhphu.vn/123-2020-nd-cp.html
+  - wiki/sources/123-2020-nd-cp.md
