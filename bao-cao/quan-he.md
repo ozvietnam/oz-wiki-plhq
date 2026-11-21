@@ -180,8 +180,13 @@ flowchart LR
   n_05_2015_TT_BNNPTNT["05/2015/TT-BNNPTNT<br/>hết hiệu lực một phần"]
   n_19_VBHN_BNNPTNT["19/VBHN-BNNPTNT<br/>hết hiệu lực một phần"]
   n_11_2022_TT_BNNPTNT["11/2022/TT-BNNPTNT<br/>hết hiệu lực"]
+  n_07_VBHN_BTTTT["07/VBHN-BTTTT<br/>còn hiệu lực"]
+  n_03_2015_TT_BTTTT["03/2015/TT-BTTTT<br/>hết hiệu lực một phần"]
+  n_11_2024_TT_BTTTT["11/2024/TT-BTTTT<br/>còn hiệu lực"]
   n_08_2026_VBHN_BYT["08/2026/VBHN-BYT<br/>còn hiệu lực"]
   n_96_2023_N__CP["96/2023/NĐ-CP<br/>còn hiệu lực"]
+  n_08_VBHN_BTTTT["08/VBHN-BTTTT<br/>còn hiệu lực"]
+  n_05_2016_TT_BTTTT["05/2016/TT-BTTTT<br/>hết hiệu lực một phần"]
   n_09_2015_TT_BYT["09/2015/TT-BYT<br/>còn hiệu lực"]
   n_06_2011_TT_BYT["06/2011/TT-BYT<br/>còn hiệu lực"]
   n_09_2024_TT_BYT["09/2024/TT-BYT<br/>còn hiệu lực"]
@@ -192,7 +197,6 @@ flowchart LR
   n_46_2026_N__CP["46/2026/NĐ-CP<br/>tạm ngưng"]
   n_09_VBHN_BTTTT["09/VBHN-BTTTT<br/>còn hiệu lực"]
   n_22_2018_TT_BTTTT["22/2018/TT-BTTTT<br/>hết hiệu lực một phần"]
-  n_11_2024_TT_BTTTT["11/2024/TT-BTTTT<br/>còn hiệu lực"]
   n_09_VBHN_BYT["09/VBHN-BYT<br/>còn hiệu lực"]
   n_155_2018_N__CP["155/2018/NĐ-CP<br/>còn hiệu lực"]
   n_29_2020_TT_BYT["29/2020/TT-BYT<br/>còn hiệu lực"]
@@ -201,9 +205,7 @@ flowchart LR
   n_34_2005_QH11["34/2005/QH11<br/>hết hiệu lực"]
   n_109_2026_VBHN_TT_BNNMT["109/2026/VBHN-TT-BNNMT<br/>còn hiệu lực"]
   n_14_2024_TT_BNNPTNT["14/2024/TT-BNNPTNT<br/>hết hiệu lực một phần"]
-  n_05_2016_TT_BTTTT["05/2016/TT-BTTTT<br/>hết hiệu lực một phần"]
   n_09_2013_TT_BTTTT["09/2013/TT-BTTTT<br/>hết hiệu lực một phần"]
-  n_03_2015_TT_BTTTT["03/2015/TT-BTTTT<br/>hết hiệu lực một phần"]
   n_111_2021_N__CP["111/2021/NĐ-CP<br/>hết hiệu lực"]
   n_43_2017_N__CP["43/2017/NĐ-CP<br/>hết hiệu lực"]
   n_111_2026_VBHN_TT_BNNMT["111/2026/VBHN-TT-BNNMT<br/>còn hiệu lực"]
@@ -241,6 +243,7 @@ flowchart LR
   n_1182_Q__BCT["1182/QĐ-BCT<br/>hết hiệu lực một phần"]
   n_19_2024_TT_BYT["19/2024/TT-BYT<br/>còn hiệu lực"]
   n_14_2018_TT_BYT["14/2018/TT-BYT<br/>hết hiệu lực"]
+  n_19_VBHN_BNNPTNT_2024["19/VBHN-BNNPTNT/2024<br/>hết hiệu lực một phần"]
   n_16_2015_TT_BTTTT["16/2015/TT-BTTTT<br/>hết hiệu lực"]
   n_2393_Q__BYT["2393/QĐ-BYT<br/>còn hiệu lực"]
   n_24_2026_TT_BYT["24/2026/TT-BYT<br/>còn hiệu lực"]
@@ -316,9 +319,13 @@ flowchart LR
   n_07_2026_TT_BNNMT -->|sửa đổi Điều 22 sửa đổi, bổ sung một số điều của Thông tư 05/2015/TT-BNNPTNT đã được sửa đổi, bổ sung bởi Thông tư 15/2021/TT-BNNPTNT từ 2026-01-23| n_15_2021_TT_BNNPTNT
   n_07_2026_TT_BNNMT -->|sửa đổi Điều 22 sửa đổi, bổ sung quy định đã hợp nhất từ Thông tư 33/2014/TT-BNNPTNT và Thông tư 15/2021/TT-BNNPTNT từ 2026-01-23| n_19_VBHN_BNNPTNT
   n_07_2026_TT_BNNMT -->|bãi bỏ từ 2026-01-23| n_11_2022_TT_BNNPTNT
+  n_07_VBHN_BTTTT -->|hợp nhất| n_03_2015_TT_BTTTT
+  n_07_VBHN_BTTTT -->|hợp nhất| n_11_2024_TT_BTTTT
   n_08_2026_VBHN_BYT -->|hợp nhất| n_98_2021_N__CP
   n_08_2026_VBHN_BYT -->|hợp nhất| n_07_2023_N__CP
   n_08_2026_VBHN_BYT -->|hợp nhất| n_96_2023_N__CP
+  n_08_VBHN_BTTTT -->|hợp nhất| n_05_2016_TT_BTTTT
+  n_08_VBHN_BTTTT -->|hợp nhất| n_11_2024_TT_BTTTT
   n_09_2015_TT_BYT -->|sửa đổi Bãi bỏ các quy định về quảng cáo mỹ phẩm trong Thông tư số 06/2011/TT-BYT ngày 25/01/2011 từ 2015-07-16| n_06_2011_TT_BYT
   n_09_2024_TT_BYT -->|bãi bỏ từ 2024-07-26| n_06_2018_TT_BYT
   n_09_2024_TT_BYT -->|bãi bỏ từ 2024-07-26| n_48_2018_TT_BYT
@@ -367,6 +374,11 @@ flowchart LR
   n_17_2023_TT_BNNPTNT -->|bãi bỏ từ 2024-01-30| n_924_Q__BNN_TCLN
   n_1725_Q__BCT -->|thay thế Phụ lục II từ 2024-07-01| n_1182_Q__BCT
   n_19_2024_TT_BYT -->|thay thế từ 2024-11-16| n_14_2018_TT_BYT
+  n_19_VBHN_BNNPTNT_2024 -->|thay thế từ 2024-05-27| n_06_VBHN_BNNPTNT
+  n_19_VBHN_BNNPTNT_2024 -->|hợp nhất| n_33_2014_TT_BNNPTNT
+  n_19_VBHN_BNNPTNT_2024 -->|hợp nhất| n_34_2018_TT_BNNPTNT
+  n_19_VBHN_BNNPTNT_2024 -->|hợp nhất| n_15_2021_TT_BNNPTNT
+  n_19_VBHN_BNNPTNT_2024 -->|hợp nhất| n_03_2024_TT_BNNPTNT
   n_19_VBHN_BNNPTNT -->|thay thế từ 2024-05-27| n_06_VBHN_BNNPTNT
   n_19_VBHN_BNNPTNT -->|hợp nhất| n_33_2014_TT_BNNPTNT
   n_19_VBHN_BNNPTNT -->|hợp nhất| n_34_2018_TT_BNNPTNT
