@@ -52463,11 +52463,19 @@
           "truy_cap": "2026-10-04"
         },
         {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/31/470149-1785470166_v1_1785493136_signed.pdf",
+          "truy_cap": "2026-11-21"
+        },
+        {
           "url": "https://vanban.chinhphu.vn/?docid=218958&pageid=27160",
           "truy_cap": "2026-10-04"
         }
       ],
-      "toan_van": "raw/download/datafiles.chinhphu.vn/292-2026-nd-cp.pdf",
+      "toan_van": [
+        "raw/download/congbaocdn.chinhphu.vn/292-2026-nd-cp.pdf",
+        "raw/download/datafiles.chinhphu.vn/292-2026-nd-cp.pdf",
+        "wiki/sources/292-2026-nd-cp.md"
+      ],
       "danh_muc_hs": {
         "tep": "danh-muc/292-2026-nd-cp.csv",
         "nguon": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/31/470149-1785470166_v1_1785493136_signed.pdf",
@@ -52478,10 +52486,118 @@
       },
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Công báo số 456 ngày 03-08-2026 và thẻ vanban.chinhphu.vn (docid=218958): ban hành 22-07-2026; Điều 65 khoản 1 hiệu lực từ 05-09-2026 và thay thế NĐ 69/2018/NĐ-CP (đã đối chiếu nguyên văn).",
+        "pham_vi": "Đã đối chiếu toàn văn nguồn bậc A từ PDF Công báo số 456 ngày 03-08-2026 (raw/download/congbaocdn.chinhphu.vn/292-2026-nd-cp.pdf, 97 trang, có lớp chữ ký số bởi Văn phòng Chính phủ ngày 31-07-2026, SHA-256 08a857e7822e0be21f2ccf8b568070051551ce7b7dc986ec7a170ceffe954740), thẻ vanban.chinhphu.vn (docid=218958) và trang wiki/sources/292-2026-nd-cp.md: Phó Thủ tướng Phạm Gia Túc ký ban hành ngày 22-07-2026; cấu trúc 8 Chương / 65 Điều / 07 Phụ lục; Điều 65 khoản 1 có hiệu lực thi hành từ ngày 05-09-2026 và thay thế toàn bộ NĐ 69/2018/NĐ-CP.",
         "hieu_luc_da_doi_chieu": true,
-        "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "1. Nghị định này quy định chi tiết khoản 1 Điều 10, khoản 1 Điều 28, khoản 1 Điều 31, Điều 38, Điều 39, khoản 2 Điều 40, Điều 41, Điều 42, Điều 43, khoản 4 Điều 44, khoản 3 Điều 110, khoản 4 Điều 111 Luật Quản lý ngoại thương và quy định biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương về: a) Hoạt động mua bán hàng hóa quốc tế được thực hiện dưới các hình thức xuất khẩu, nhập khẩu; tạm nhập, tái xuất; tạm xuất, tái nhập; chuyển khẩu; quá cảnh và các hoạt động khác có liên quan đến hoạt động mua bán hàng hóa quốc tế theo quy định của pháp luật và điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên. b) Giải quyết tranh chấp về áp dụng biện pháp quản lý ngoại thương. 2. Việc nhập khẩu hàng hóa là tài sản di chuyển của tổ chức, cá nhân; hành lý của khách xuất cảnh, nhập cảnh; hàng hóa của tổ chức, cá nhân nước ngoài được hưởng quyền ưu đãi, miễn trừ; quà biếu, quà tặng, hàng mẫu tuân thủ quy định của pháp luật có liên quan hoặc theo quy định riêng của Thủ tướng Chính phủ. 3. Nghị định này áp dụng đối với: a) Cơ quan quản lý nhà nước. b) Thương nhân tham gia hoạt động ngoại thương. c) Tổ chức, cá nhân trong nước và nước ngoài khác có liên quan.",
+            "trang_pdf": 1,
+            "sha256_pdf": "08a857e7822e0be21f2ccf8b568070051551ce7b7dc986ec7a170ceffe954740"
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "1. Thương nhân Việt Nam không là tổ chức kinh tế có vốn đầu tư nước ngoài được kinh doanh xuất khẩu, nhập khẩu và thực hiện các hoạt động khác có liên quan không phụ thuộc vào ngành, nghề đăng ký kinh doanh theo quy định tại Điều 4 Nghị định này, trừ hàng hóa thuộc Danh mục cấm xuất khẩu, cấm nhập khẩu theo quy định tại Nghị định này; hàng hóa cấm xuất khẩu, cấm nhập khẩu khác theo quy định của pháp luật; hàng hóa tạm ngừng xuất khẩu, tạm ngừng nhập khẩu. Chi nhánh của thương nhân Việt Nam được thực hiện hoạt động ngoại thương theo ủy quyền của thương nhân. 2. Tổ chức kinh tế có vốn đầu tư nước ngoài, chi nhánh của thương nhân nước ngoài tại Việt Nam khi tiến hành hoạt động xuất khẩu, nhập khẩu thuộc phạm vi điều chỉnh của Nghị định này phải thực hiện các cam kết của Việt Nam trong các điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Danh mục hàng hóa và lộ trình do Bộ Công Thương công bố. Tổ chức kinh tế có vốn đầu tư nước ngoài được trực tiếp xuất khẩu hoặc ủy thác xuất khẩu sản phẩm do tổ chức đó sản xuất; trực tiếp nhập khẩu hoặc ủy thác nhập khẩu máy móc, thiết bị, nguyên liệu, vật tư, phụ tùng, linh kiện và các hàng hóa khác để triển khai hoạt động đầu tư phù hợp với mục tiêu của dự án đầu tư quy định tại Giấy chứng nhận đăng ký đầu tư. 3. Thương nhân nước ngoài không có hiện diện tại Việt Nam kinh doanh hàng hóa tại Việt Nam chỉ được thực hiện trong phạm vi quyền xuất khẩu, quyền nhập khẩu theo quy định hiện hành của Chính phủ. Thương nhân nước ngoài không có hiện diện tại Việt Nam được mua hàng hoá để giao cho thương nhân trong nước hoặc cho thương nhân trong nước thuê, mượn để phục vụ hợp đồng gia công cho chính thương nhân không hiện diện đó; được mua hàng hóa hoặc nhận sản phẩm gia công, nguyên liệu, phụ liệu, vật tư, linh kiện, bán thành phẩm dư thừa của hợp đồng gia công và bán cho thương nhân trong nước để phục vụ sản xuất hàng xuất khẩu.",
+            "trang_pdf": 3,
+            "sha256_pdf": "08a857e7822e0be21f2ccf8b568070051551ce7b7dc986ec7a170ceffe954740"
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "1. Đối với hàng hóa xuất khẩu, nhập khẩu theo giấy phép, thương nhân xuất khẩu, nhập khẩu phải có giấy phép theo quy định pháp luật. 2. Đối với hàng hóa xuất khẩu, nhập khẩu theo điều kiện, thương nhân xuất khẩu, nhập khẩu phải đáp ứng điều kiện theo quy định pháp luật. 3. Hàng hóa xuất khẩu, nhập khẩu phải tuân thủ, đáp ứng chính sách quản lý mặt hàng theo quy định. Đối với hàng hóa thuộc Danh mục hàng hóa xuất khẩu, nhập khẩu phải kiểm tra theo quy định tại Điều 65 Luật Quản lý ngoại thương, thương nhân xuất khẩu, nhập khẩu hàng hóa phải chịu sự kiểm tra của cơ quan có thẩm quyền theo quy định pháp luật.",
+            "trang_pdf": 3,
+            "sha256_pdf": "08a857e7822e0be21f2ccf8b568070051551ce7b7dc986ec7a170ceffe954740"
+          },
+          {
+            "dieu": 5,
+            "khoan": 1,
+            "noi_dung": "1. Hàng hóa cấm xuất khẩu, cấm nhập khẩu thực hiện theo quy định tại các văn bản pháp luật hiện hành và Danh mục hàng hóa cấm xuất khẩu, cấm nhập khẩu quy định tại Phụ lục I Nghị định này. 2. Căn cứ Phụ lục I Nghị định này và các văn bản pháp luật hiện hành, Bộ trưởng, Thủ trưởng cơ quan ngang Bộ có trách nhiệm công bố chi tiết hàng hóa cấm xuất khẩu, cấm nhập khẩu kèm theo mã số hàng hóa (mã HS), trừ trường hợp pháp luật hiện hành đã có quy định chi tiết mã HS các hàng hóa này. Hàng hóa cấm xuất khẩu, cấm nhập khẩu theo quy định tại Phụ lục I Nghị định này là hàng hóa có mã HS và mô tả chi tiết hàng hóa thuộc Danh mục chi tiết do Bộ trưởng, Thủ trưởng cơ quan ngang Bộ công bố.",
+            "trang_pdf": 4,
+            "sha256_pdf": "08a857e7822e0be21f2ccf8b568070051551ce7b7dc986ec7a170ceffe954740"
+          },
+          {
+            "dieu": 8,
+            "noi_dung": "1. Hàng hóa xuất khẩu, nhập khẩu theo giấy phép, theo điều kiện thực hiện theo quy định tại các văn bản pháp luật hiện hành và Danh mục hàng hóa xuất khẩu, nhập khẩu theo giấy phép, điều kiện quy định tại Phụ lục III Nghị định này. 2. Căn cứ Phụ lục III Nghị định này và các văn bản pháp luật hiện hành, Bộ trưởng, Thủ trưởng cơ quan ngang bộ có trách nhiệm công bố chi tiết hàng hóa kèm theo mã HS, trừ trường hợp pháp luật hiện hành đã có quy định chi tiết mã HS các hàng hóa này. 3. Bộ trưởng, Thủ trưởng cơ quan ngang Bộ ban hành hoặc trình cơ quan có thẩm quyền ban hành quy định chi tiết về trình tự, thủ tục cấp giấy phép xuất khẩu, nhập khẩu và thực hiện việc cấp phép theo quy định. 4. Căn cứ mục tiêu điều hành trong từng thời kỳ, Bộ trưởng Bộ Công Thương quy định việc áp dụng Giấy phép xuất khẩu tự động, Giấy phép nhập khẩu tự động đối với một số loại hàng hóa.",
+            "trang_pdf": 7,
+            "sha256_pdf": "08a857e7822e0be21f2ccf8b568070051551ce7b7dc986ec7a170ceffe954740"
+          },
+          {
+            "dieu": 11,
+            "noi_dung": "1. Trong trường hợp cần thiết, để đảm bảo yêu cầu quản lý, các Bộ, cơ quan ngang Bộ căn cứ thẩm quyền quản lý quy định tại Phụ lục IV Nghị định này, trình Chính phủ ban hành văn bản quy định hàng hóa nhập khẩu phải nộp CFS cho cơ quan có thẩm quyền và công bố chi tiết Danh mục hàng hóa kèm theo mã HS hàng hóa. 2. Bộ, cơ quan ngang Bộ có thẩm quyền quản lý quy định hoặc báo cáo cấp có thẩm quyền quy định các thông tin tối thiểu cần có trên CFS nhập khẩu, hoặc quy định mẫu CFS đối với hàng hóa nhập khẩu. 3. Bộ, cơ quan ngang Bộ có thẩm quyền quản lý quy định cụ thể trường hợp CFS được áp dụng cho nhiều lô hàng; quy định cụ thể thời hạn CFS nhập khẩu được chấp nhận trong trường hợp CFS không quy định thời hạn hiệu lực. 4. CFS đối với hàng hóa nhập khẩu thể hiện bằng tiếng Anh. Trường hợp CFS được thể hiện bằng ngôn ngữ khác không phải tiếng Anh thì phải được dịch sang tiếng Việt, có xác thực bởi thương nhân nhập khẩu. 5. Trường hợp có yêu cầu của Bộ, cơ quan ngang Bộ có thẩm quyền quản lý, CFS phải được hợp pháp hóa lãnh sự theo quy định của pháp luật, trừ trường hợp được miễn hợp pháp hóa lãnh sự theo quy định của pháp luật về chứng nhận lãnh sự, hợp pháp hóa lãnh sự. 6. Trường hợp có nghi ngờ tính xác thực của CFS hoặc hàng hóa nhập khẩu không phù hợp với nội dung CFS, cơ quan có thẩm quyền gửi yêu cầu kiểm tra, xác minh tới cơ quan, tổ chức cấp CFS.",
+            "trang_pdf": 7,
+            "sha256_pdf": "08a857e7822e0be21f2ccf8b568070051551ce7b7dc986ec7a170ceffe954740"
+          },
+          {
+            "dieu": 12,
+            "khoan": 1,
+            "noi_dung": "1. Ủy ban nhân dân cấp tỉnh là cơ quan có thẩm quyền cấp CFS đối với hàng hóa xuất khẩu theo các quy định sau: a) Có yêu cầu của thương nhân xuất khẩu về việc cấp CFS cho hàng hóa. b) Hàng hóa có tiêu chuẩn công bố hoặc phiếu công bố sản phẩm hoặc giấy đăng ký lưu hành theo quy định của pháp luật hiện hành.",
+            "trang_pdf": 8,
+            "sha256_pdf": "08a857e7822e0be21f2ccf8b568070051551ce7b7dc986ec7a170ceffe954740"
+          },
+          {
+            "dieu": 13,
+            "noi_dung": "1. Danh mục hàng hóa cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu quy định tại Phụ lục V ban hành kèm theo Nghị định này. 2. Danh mục hàng hóa quy định tại khoản 1 Điều này không áp dụng đối với trường hợp hàng hóa kinh doanh chuyển khẩu theo hình thức hàng hóa được vận chuyển thẳng từ nước xuất khẩu đến nước nhập khẩu, không qua cửa khẩu Việt Nam. 3. Trong trường hợp để ngăn ngừa tình trạng gây ô nhiễm môi trường, dịch bệnh, ảnh hưởng đến sức khỏe, tính mạng con người, chuyển tải bất hợp pháp, nguy cơ gian lận thương mại, Bộ trưởng Bộ Công Thương quyết định cụ thể hàng hóa tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu và công bố công khai Danh mục kèm theo mã HS hàng hóa.",
+            "trang_pdf": 9,
+            "sha256_pdf": "08a857e7822e0be21f2ccf8b568070051551ce7b7dc986ec7a170ceffe954740"
+          },
+          {
+            "dieu": 14,
+            "noi_dung": "1. Ủy ban nhân dân cấp tỉnh là cơ quan có thẩm quyền cấp Giấy phép kinh doanh tạm nhập, tái xuất đối với hàng hóa quy định tại điểm a khoản 1 Điều 39 Luật Quản lý ngoại thương, trừ trường hợp quy định tại khoản 2, khoản 3 Điều này. Hồ sơ, quy trình cấp phép thực hiện theo quy định tại Điều 20, 21 Nghị định này. 2. Đối với tổ chức kinh tế có vốn đầu tư nước ngoài, chỉ được thực hiện tạm nhập, tái xuất hàng hóa theo quy định tại Điều 16 Nghị định này, không được thực hiện hoạt động kinh doanh tạm nhập, tái xuất hàng hóa. 3. Trường hợp pháp luật hiện hành đã có quy định hàng hóa thuộc diện phải cấp giấy phép khi tạm nhập, tái xuất; thương nhân thực hiện theo quy định đó, không phải có Giấy phép kinh doanh tạm nhập, tái xuất theo quy định tại Nghị định này. 4. Hàng hóa kinh doanh tạm nhập, tái xuất chịu sự kiểm tra, giám sát của cơ quan hải quan từ khi tạm nhập cho tới khi hàng hóa thực tái xuất ra khỏi Việt Nam. Không chia nhỏ hàng hóa vận chuyển bằng công-ten-nơ trong suốt quá trình vận chuyển hàng hóa từ cửa khẩu tạm nhập đến khu vực chịu sự giám sát của cơ quan hải quan, cửa khẩu tái xuất theo quy định. Trường hợp do yêu cầu vận chuyển cần phải thay đổi hoặc chia nhỏ hàng hóa vận chuyển bằng công-ten-nơ để tái xuất thì thực hiện theo quy định của cơ quan hải quan. 5. Hàng hóa kinh doanh tạm nhập, tái xuất được lưu lại tại Việt Nam không quá 60 ngày, kể từ ngày hoàn thành thủ tục hải quan tạm nhập. Trường hợp cần kéo dài thời hạn, thương nhân có văn bản đề nghị gia hạn gửi cơ quan hải quan nơi thực hiện thủ tục tạm nhập; thời hạn gia hạn mỗi lần không quá 30 ngày và không quá 02 lần gia hạn cho mỗi lô hàng tạm nhập, tái xuất. Quá thời hạn nêu trên, thương nhân phải tái xuất hàng hóa ra khỏi Việt Nam hoặc tiêu hủy. Trường hợp tiêu hủy hàng hóa kinh doanh tạm nhập, tái xuất do quá thời hạn lưu tại Việt Nam, thương nhân tự tổ chức tiêu hủy và chịu trách nhiệm thực hiện việc tiêu hủy theo quy định của pháp luật về bảo vệ môi trường và pháp luật về hải quan. Trường hợp nhập khẩu vào Việt Nam, thương nhân phải tuân thủ các quy định về quản lý nhập khẩu hàng hóa và thuế. 6. Kinh doanh tạm nhập, tái xuất được thực hiện trên cơ sở hai hợp đồng riêng biệt: Hợp đồng xuất khẩu và hợp đồng nhập khẩu. Hợp đồng xuất khẩu có thể ký trước hoặc sau hợp đồng nhập khẩu. 7. Việc thanh toán tiền hàng theo phương thức tạm nhập, tái xuất phải tuân thủ các quy định về quản lý ngoại hối và hướng dẫn của Ngân hàng Nhà nước Việt Nam.",
+            "trang_pdf": 10,
+            "sha256_pdf": "08a857e7822e0be21f2ccf8b568070051551ce7b7dc986ec7a170ceffe954740"
+          },
+          {
+            "dieu": 18,
+            "noi_dung": "1. Hàng hóa tạm nhập, tái xuất; tạm xuất, tái nhập được tạm nhập, tái xuất; tạm xuất, tái nhập qua các cửa khẩu quốc tế, cửa khẩu chính. 2. Trường hợp hàng hóa nước ngoài gửi vào kho ngoại quan để xuất khẩu, tái xuất qua các tỉnh biên giới thì cửa khẩu tạm nhập để gửi kho ngoại quan và cửa khẩu xuất khẩu, tái xuất hàng hóa qua các tỉnh biên giới thực hiện theo quy định tại Điều này.",
+            "trang_pdf": 14,
+            "sha256_pdf": "08a857e7822e0be21f2ccf8b568070051551ce7b7dc986ec7a170ceffe954740"
+          },
+          {
+            "dieu": 19,
+            "noi_dung": "1. Ủy ban nhân dân cấp tỉnh là cơ quan có thẩm quyền cấp Giấy phép kinh doanh chuyển khẩu đối với hàng hóa quy định tại khoản 1 Điều 43 Luật Quản lý ngoại thương, trừ trường hợp quy định tại khoản 2 Điều này. Hồ sơ, quy trình cấp phép thực hiện theo quy định tại Điều 20, Điều 21 Nghị định này. 2. Đối với tổ chức kinh tế có vốn đầu tư nước ngoài, chỉ được thực hiện kinh doanh chuyển khẩu theo hình thức hàng hóa được vận chuyển thẳng từ nước xuất khẩu đến nước nhập khẩu, không qua cửa khẩu Việt Nam. Hàng hóa kinh doanh chuyển khẩu phải phù hợp với ngành, nghề kinh doanh đã đăng ký hoặc nội dung Giấy chứng nhận đăng ký đầu tư đối với tổ chức kinh tế có vốn đầu tư nước ngoài thuộc trường hợp phải thực hiện thủ tục cấp giấy chứng nhận đăng ký đầu tư. 3. Chuyển khẩu hàng hóa được thực hiện trên cơ sở hai hợp đồng riêng biệt: Hợp đồng mua hàng và hợp đồng bán hàng do thương nhân ký với thương nhân nước ngoài. Hợp đồng mua hàng có thể ký trước hoặc sau hợp đồng bán hàng. 4. Đối với hình thức chuyển khẩu hàng hóa có qua cửa khẩu Việt Nam, hàng hóa kinh doanh chuyển khẩu phải được đưa vào, đưa ra khỏi Việt Nam tại cùng một khu vực cửa khẩu và chịu sự kiểm tra, giám sát của cơ quan hải quan từ khi đưa vào Việt Nam cho tới khi được đưa ra khỏi Việt Nam. 5. Việc thanh toán tiền hàng kinh doanh chuyển khẩu phải tuân thủ các quy định về quản lý ngoại hối và hướng dẫn của Ngân hàng Nhà nước Việt Nam.",
+            "trang_pdf": 14,
+            "sha256_pdf": "08a857e7822e0be21f2ccf8b568070051551ce7b7dc986ec7a170ceffe954740"
+          },
+          {
+            "dieu": 24,
+            "noi_dung": "1. Căn cứ chức năng nhiệm vụ được giao theo quy định của pháp luật tổ chức triển khai thực hiện, kiểm tra, kiểm soát, giám sát chặt chẽ hàng hóa tạm nhập, tái xuất từ khi nhập khẩu vào Việt Nam cho đến khi thực xuất khẩu ra khỏi Việt Nam hoặc chuyển tiêu thụ nội địa, tiêu hủy trong trường hợp được chuyển tiêu thụ nội địa, tiêu hủy theo quy định của pháp luật hiện hành. 2. Định kỳ vào ngày 15 của tháng đầu tiên của quý (hoặc vào ngày làm việc tiếp theo trong trường hợp ngày 15 trùng với ngày nghỉ, ngày lễ) cung cấp thông tin, số liệu thống kê về hoạt động kinh doanh tạm nhập tái xuất của quý liền trước cho Bộ Công Thương và cung cấp thông tin, số liệu đột xuất theo đề nghị của Bộ Công Thương để phục vụ công tác chỉ đạo, điều hành. 3. Thông báo cho Bộ Công Thương và Ủy ban nhân dân cấp tỉnh có liên quan trong các trường hợp sau để phối hợp điều hành, xử lý: a) Doanh nghiệp vi phạm quy định về kinh doanh tạm nhập, tái xuất và kinh doanh chuyển khẩu. b) Có hiện tượng ách tắc hàng hóa kinh doanh tạm nhập, tái xuất, chuyển khẩu tại các cảng, cửa khẩu.",
+            "trang_pdf": 18,
+            "sha256_pdf": "08a857e7822e0be21f2ccf8b568070051551ce7b7dc986ec7a170ceffe954740"
+          },
+          {
+            "dieu": 39,
+            "khoan": 1,
+            "noi_dung": "1. Ủy ban nhân dân cấp tỉnh là cơ quan có thẩm quyền cấp Giấy phép gia công quân phục trên cơ sở lấy ý kiến của Bộ Quốc phòng, Bộ Công an. 2. Quân phục quy định tại Điều này được hiểu là đồng phục của quân nhân thuộc các lực lượng vũ trang nước ngoài, được sản xuất theo kiểu mẫu, quy cách thống nhất, mang mặc theo quy định của các lực lượng vũ trang nước ngoài. Danh mục sản phẩm quân phục trang bị cho các lực lượng vũ trang nước ngoài quy định tại Phụ lục VI Nghị định này. Sản phẩm dệt may thuộc Danh mục này nhưng không phải là sản phẩm quân phục trang bị cho lực lượng vũ trang nước ngoài không phải thực hiện theo quy định tại Điều này. 3. Quân phục gia công xuất khẩu cho lực lượng vũ trang nước ngoài không được tiêu thụ tại Việt Nam.",
+            "trang_pdf": 26,
+            "sha256_pdf": "08a857e7822e0be21f2ccf8b568070051551ce7b7dc986ec7a170ceffe954740"
+          },
+          {
+            "dieu": 48,
+            "noi_dung": "1. Hàng hóa xuất khẩu theo hợp đồng đại lý bán hàng tại nước ngoài được nhập khẩu trở lại Việt Nam trong trường hợp không tiêu thụ được tại nước ngoài. 2. Hàng hóa nhập khẩu trở lại Việt Nam nêu tại khoản 1 Điều này không phải chịu thuế nhập khẩu và được hoàn thuế xuất khẩu (nếu có) theo quy định pháp luật về thuế.",
+            "trang_pdf": 32,
+            "sha256_pdf": "08a857e7822e0be21f2ccf8b568070051551ce7b7dc986ec7a170ceffe954740"
+          },
+          {
+            "dieu": 62,
+            "khoan": 6,
+            "noi_dung": "6. Các cơ quan cấp phép quy định tại Nghị định này chịu trách nhiệm tổ chức thực hiện cấp phép theo đúng quy định và đảm bảo cung cấp dịch vụ công trực tuyến đối với tất cả các thủ tục hành chính. Trường hợp thủ tục hành chính không được thực hiện thông qua Cổng thông tin một cửa quốc gia, cơ quan cấp phép có trách nhiệm thực hiện liên thông với Cổng thông tin một cửa quốc gia để kết nối, chia sẻ dữ liệu hoặc cập nhật, đăng tải giấy phép trên Cổng thông tin một cửa quốc gia để cơ quan hải quan có căn cứ giải quyết thông quan hàng hóa theo quy định.",
+            "trang_pdf": 42,
+            "sha256_pdf": "08a857e7822e0be21f2ccf8b568070051551ce7b7dc986ec7a170ceffe954740"
+          },
+          {
+            "dieu": 64,
+            "noi_dung": "1. Các Giấy phép do các cơ quan có thẩm quyền cấp cho thương nhân theo quy định tại Nghị định số 69/2018/NĐ-CP của Chính phủ quy định chi tiết một số Điều của Luật Quản lý ngoại thương và các văn bản hướng dẫn liên quan trước khi Nghị định này có hiệu lực được tiếp tục thực hiện theo các nội dung và thời hạn hiệu lực của các Giấy phép này. Trường hợp sửa đổi, bổ sung Giấy phép được cấp trước ngày Nghị định này có hiệu lực phải thực hiện theo quy định tại Nghị định này. 2. Các Mã số kinh doanh tạm nhập, tái xuất hàng thực phẩm đông lạnh, hàng đã qua sử dụng, hàng có thuế tiêu thụ đặc biệt đã được cấp hết hiệu lực thi hành kể từ ngày 01 tháng 7 năm 2026, các doanh nghiệp đã được cấp Mã số kinh doanh tạm nhập, tái xuất được rút số tiền đã ký quỹ tại tổ chức tín dụng nơi doanh nghiệp đã thực hiện ký quỹ để phục vụ việc cấp Mã số kinh doanh tạm nhập, tái xuất. Tổ chức tín dụng có trách nhiệm hoàn trả lại số tiền doanh nghiệp đã ký quỹ cho doanh nghiệp. 3. Các CFS đối với hàng hóa xuất khẩu do cơ quan có thẩm quyền cấp cho thương nhân trước khi Nghị định này có hiệu lực được tiếp tục thực hiện theo thời hạn hiệu lực của các CFS này hoặc được thực hiện đến hết ngày 31 tháng 12 năm 2027 đối với các trường hợp không ghi thời hạn hiệu lực trên CFS. 4. Các văn bản quy phạm pháp luật đang có hiệu lực của các Bộ, cơ quan ngang Bộ hướng dẫn thi hành Nghị định số 69/2018/NĐ-CP của Chính phủ được tiếp tục thực hiện đến hết ngày 31 tháng 12 năm 2026. 5. Các hồ sơ thủ tục hành chính đầy đủ đã được cơ quan có thẩm quyền tiếp nhận trước ngày Nghị định này có hiệu lực thi hành thì cơ quan có thẩm quyền đã tiếp nhận hồ sơ tiếp tục thực hiện theo quy định của văn bản quy phạm pháp luật tại thời điểm tiếp nhận hồ sơ.",
+            "trang_pdf": 43,
+            "sha256_pdf": "08a857e7822e0be21f2ccf8b568070051551ce7b7dc986ec7a170ceffe954740"
+          },
+          {
+            "dieu": 65,
+            "noi_dung": "1. Nghị định này có hiệu lực thi hành từ ngày 05 tháng 9 năm 2026 và thay thế Nghị định số 69/2018/NĐ-CP của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương. 2. Nghị định này bãi bỏ: a) Điều 31 và Phụ lục X Nghị định số 146/2025/NĐ-CP của Chính phủ quy định về phân quyền, phân cấp trong lĩnh vực công nghiệp và thương mại. b) Mục B.I Nghị quyết số 19/2026/NQ-CP của Chính phủ về cắt giảm, phân cấp, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh thuộc phạm vi quản lý của Bộ Công Thương. c) Điểm B.I, B.II mục 1; D.I, D.II, D.III, D.IV tiểu mục 2.2; các biểu mẫu số 03, 04, 05 mục 4 Phụ lục I.2 Nghị quyết số 66.18/2026/NQ-CP của Chính phủ phân quyền, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh. d) Quyết định số 11/2013/QĐ-TTg ngày 24 tháng 01 năm 2013 của Thủ tướng Chính phủ về việc cấm xuất khẩu, nhập khẩu, mua bán mẫu vật một số loài động vật hoang dã thuộc các Phụ lục của Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp. 3. Trường hợp các văn bản được dẫn chiếu trong Nghị định này bị thay thế hoặc sửa đổi, bổ sung thì thực hiện theo văn bản thay thế hoặc văn bản đã được sửa đổi, bổ sung. 4. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân cấp tỉnh chịu trách nhiệm hướng dẫn và thi hành Nghị định này.",
+            "trang_pdf": 44,
+            "sha256_pdf": "08a857e7822e0be21f2ccf8b568070051551ce7b7dc986ec7a170ceffe954740"
+          }
+        ]
       },
       "ghi_chu": "Điều 65 khoản 2 còn bãi bỏ Điều 31 và Phụ lục X NĐ 146/2025/NĐ-CP, Mục B.I NQ 19/2026/NQ-CP, một số điểm/mẫu Phụ lục I.2 NQ 66.18/2026/NQ-CP, QĐ 11/2013/QĐ-TTg — chưa ghi thành quan hệ (chưa có trong sổ). Được TT 48/2026/TT-BCT hướng dẫn. Trang tổng hợp Meta AI ghi sai hiệu lực (22-07). Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.",
       "slug": "292-2026-nd-cp",
@@ -69706,17 +69822,99 @@
         {
           "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-384-2026-nd-cp-470799/69797.htm",
           "truy_cap": "2026-11-14"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/10/22/470799-1792659879_v1_1792660332_signed.pdf",
+          "truy_cap": "2026-11-21"
         }
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=219934), Công báo (id=470799/69797) và toàn văn PDF ký số ngày 09-10-2026 bởi Phó Thủ tướng Thường trực Phạm Gia Túc (384_2026_nd-cp_09102026-signed.signed.pdf): Nghị định 384/2026/NĐ-CP quy định xác định xuất xứ Việt Nam đối với hàng hóa sản xuất và lưu thông trong nước (tiêu chí xuất xứ thuần túy tại Điều 5, xuất xứ không thuần túy theo chuyển đổi mã số HS hoặc hàm lượng giá trị Việt Nam VVC tại Điều 6); có hiệu lực thi hành từ ngày 01-01-2027",
+        "pham_vi": "Đã đối chiếu toàn văn nguồn bậc A từ PDF Công báo số 559 ngày 22-10-2026 (raw/download/congbaocdn.chinhphu.vn/384-2026-nd-cp.pdf, 8 trang, trang 2–9 của số Công báo, có lớp chữ ký số bởi Văn phòng Chính phủ ngày 22-10-2026, SHA-256 d6c5f4f5b38d6004b36ec644e39852375132567b9a849f601bd6e7cd7445b3ec), thẻ vanban.chinhphu.vn (docid=219934), toàn văn PDF ký số ngày 09-10-2026 bởi Phó Thủ tướng Phạm Gia Túc (384_2026_nd-cp_09102026-signed.signed.pdf) và trang wiki/sources/384-2026-nd-cp.md: Nghị định 384/2026/NĐ-CP gồm 12 Điều quy định xác định xuất xứ Việt Nam đối với hàng hóa sản xuất và lưu thông trong nước (tiêu chí xuất xứ thuần túy tại Điều 5, xuất xứ không thuần túy theo chuyển đổi mã số HS 4 số hoặc hàm lượng giá trị Việt Nam VVC >= 30% tại Điều 6); có hiệu lực thi hành từ ngày 01-01-2027.",
         "hieu_luc_da_doi_chieu": true,
-        "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "1. Nghị định này quy định xác định xuất xứ Việt Nam đối với hàng hóa sản xuất và lưu thông trong nước, bao gồm: hàng hóa có xuất xứ, hàng hóa có xuất xứ thuần túy, hàng hóa có xuất xứ không thuần túy, công đoạn gia công, chế biến đơn giản; yếu tố không được xem xét khi xác định xuất xứ; trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan. 2. Nghị định này không điều chỉnh đối với các nội dung sau: a) Việc xác định xuất xứ hàng hóa để áp dụng biện pháp chứng nhận xuất xứ hàng hóa đối với hàng hóa xuất khẩu, hàng hóa nhập khẩu; b) Quy định về cách ghi nhãn hàng hóa và cách thức trình bày các nội dung bắt buộc khác trên nhãn hàng hóa; c) Hoạt động truy xuất nguồn gốc sản phẩm, hàng hóa.",
+            "trang_pdf": 1,
+            "sha256_pdf": "d6c5f4f5b38d6004b36ec644e39852375132567b9a849f601bd6e7cd7445b3ec"
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Nghị định này áp dụng đối với: 1. Thương nhân tham gia hoạt động sản xuất và thương mại hàng hóa lưu thông trong nước. 2. Cơ quan quản lý nhà nước, tổ chức, cá nhân trong nước có liên quan.",
+            "trang_pdf": 2,
+            "sha256_pdf": "d6c5f4f5b38d6004b36ec644e39852375132567b9a849f601bd6e7cd7445b3ec"
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Theo Nghị định này, các từ ngữ dưới đây được hiểu như sau: 1. “Nguyên liệu” là bất cứ vật liệu hay chất liệu nào được sử dụng hoặc tiêu tốn trong quá trình sản xuất ra hàng hóa hoặc kết hợp tự nhiên thành một hàng hóa khác hoặc tham gia vào quy trình sản xuất ra một hàng hóa khác. 2. “Chuyển đổi mã số hàng hóa” là sự thay đổi về mã số HS ở cấp độ 04 số (theo Hệ thống hài hòa về mô tả và mã hóa hàng hóa của Tổ chức Hải quan Thế giới) từ nguyên liệu không có xuất xứ để sản xuất ra hàng hóa tại Việt Nam. 3. “Hàm lượng giá trị Việt Nam - Viet Nam Value Content” (sau đây gọi là hàm lượng VVC) là phần giá trị gia tăng của Việt Nam, được tính trên tổng giá trị của hàng hóa. 4. “Giá xuất xưởng” là: a) Giá hàng hóa được trả cho nhà sản xuất đã tham gia vào quá trình sản xuất hoặc gia công cuối cùng, với điều kiện giá đó bao gồm trị giá của nguyên liệu được sử dụng và các chi phí khác phát sinh trong quá trình sản xuất, trừ các loại thuế, phí sẽ hoặc có thể được hoàn lại khi bán sản phẩm cuối cùng ra thị trường nội địa; b) Trường hợp giá xuất xưởng không phản ánh đầy đủ chi phí phát sinh trong quá trình sản xuất thực tế tại Việt Nam, giá xuất xưởng là tổng chi phí trừ đi các loại thuế, phí sẽ hoặc có thể được hoàn lại khi hàng hóa cuối cùng được đưa vào hoạt động thương mại trên thị trường nội địa; c) Trường hợp công đoạn gia công hoặc sản xuất cuối cùng được thương nhân ký hợp đồng phụ thuê một nhà sản xuất khác gia công, sản xuất, thuật ngữ “nhà sản xuất” tại khoản này được hiểu là thương nhân đi thuê gia công hoặc sản xuất. 5. “Trị giá nguyên liệu” là trị giá hải quan tại thời điểm nhập khẩu hoặc giá thu mua tại Việt Nam, đã bao gồm chi phí mua nguyên liệu, chi phí vận tải và các chi phí khác có liên quan cho đến khi nguyên liệu được sử dụng để sản xuất hàng hóa lưu thông trong nước.",
+            "trang_pdf": 2,
+            "sha256_pdf": "d6c5f4f5b38d6004b36ec644e39852375132567b9a849f601bd6e7cd7445b3ec"
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "1. Hàng hóa có xuất xứ Việt Nam khi thuộc một trong các trường hợp sau: a) Hàng hóa có xuất xứ thuần túy Việt Nam theo quy định tại Điều 5 Nghị định này; b) Hàng hóa có xuất xứ không thuần túy Việt Nam theo quy định tại Điều 6 Nghị định này. 2. Trong trường hợp cần thiết, bộ, cơ quan ngang bộ xây dựng quy định riêng về hàng hóa có xuất xứ Việt Nam đối với mặt hàng có tính chất đặc thù thuộc phạm vi quản lý, đảm bảo phù hợp quy định tại Nghị định này.",
+            "trang_pdf": 3,
+            "sha256_pdf": "d6c5f4f5b38d6004b36ec644e39852375132567b9a849f601bd6e7cd7445b3ec"
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Hàng hóa có xuất xứ thuần túy Việt Nam khi thuộc một trong các trường hợp sau: 1. Cây trồng và các sản phẩm từ cây trồng được trồng và thu hoạch tại Việt Nam. 2. Động vật được sinh ra hoặc nuôi dưỡng tại Việt Nam. 3. Sản phẩm từ động vật nêu tại khoản 2 Điều này. 4. Sản phẩm thu được từ săn bắn, đặt bẫy, đánh bắt, nuôi trồng, thu lượm hoặc săn bắt tại Việt Nam. 5. Khoáng sản và chất sản sinh tự nhiên được chiết xuất hoặc lấy ra từ đất, nước, đáy biển hoặc dưới đáy biển của Việt Nam. 6. Sản phẩm lấy từ nước, đáy biển hoặc dưới đáy biển bên ngoài lãnh hải của Việt Nam, với điều kiện Việt Nam có quyền khai thác đối với vùng nước, đáy biển và dưới đáy biển theo luật pháp quốc tế. 7. Sản phẩm đánh bắt và hải sản khác đánh bắt từ vùng biển cả bằng tàu được đăng ký ở Việt Nam và được phép treo cờ của Việt Nam. 8. Sản phẩm được chế biến hoặc được sản xuất ngay trên tàu từ sản phẩm nêu tại khoản 7 Điều này được đăng ký ở Việt Nam và được phép treo cờ của Việt Nam. 9. Vật phẩm thu được trong quá trình sản xuất hoặc tiêu dùng ở Việt Nam hiện không còn thực hiện được chức năng ban đầu, không thể sửa chữa hay khôi phục được và chỉ có thể vứt bỏ hoặc dùng làm các nguyên liệu, vật liệu thô, hoặc sử dụng vào mục đích tái chế. 10. Hàng hóa thu được hoặc được sản xuất từ sản phẩm theo quy định từ khoản 1 đến khoản 9 Điều này.",
+            "trang_pdf": 3,
+            "sha256_pdf": "d6c5f4f5b38d6004b36ec644e39852375132567b9a849f601bd6e7cd7445b3ec"
+          },
+          {
+            "dieu": 6,
+            "noi_dung": "Hàng hóa có xuất xứ không thuần túy Việt Nam khi thuộc một trong các trường hợp sau: 1. Chuyển đổi mã số hàng hóa. 2. Có hàm lượng VVC tối thiểu 30% được xác định theo một trong hai công thức sau: a) Công thức trực tiếp: VVC = Trị giá nguyên liệu có xuất xứ Giá xuất xưởng x 100% b) Công thức gián tiếp: VVC = Giá xuất xưởng - Trị giá nguyên liệu không có xuất xứ Giá xuất xưởng x 100% 3. Trị giá của vật liệu đóng gói và bao bì chứa đựng hàng hóa là một phần cấu thành nên hàng hóa và được tính vào hàm lượng VVC. 4. Đối với hàng hóa thuộc lĩnh vực công nghệ thông tin và công nghệ số, các công đoạn tạo ra giá trị sản phẩm thực hiện tại Việt Nam được tính vào hàm lượng VVC, bao gồm: chi phí nghiên cứu, phát triển; chi phí thiết kế, lập trình, số hóa, tự động hóa; chi phí thử nghiệm kỹ thuật và kiểm thử phần mềm gắn liền với quy trình tạo ra sản phẩm. Công đoạn gia công, chế biến đơn giản quy định tại khoản 2 Điều 7 Nghị định này và yếu tố không được xem xét khi xác định xuất xứ quy định tại Điều 8 Nghị định này không áp dụng đối với khoản này. 5. Thương nhân lựa chọn công thức trực tiếp hoặc công thức gián tiếp, áp dụng trong năm tài chính.",
+            "trang_pdf": 4,
+            "sha256_pdf": "d6c5f4f5b38d6004b36ec644e39852375132567b9a849f601bd6e7cd7445b3ec"
+          },
+          {
+            "dieu": 7,
+            "noi_dung": "1. Công đoạn gia công, chế biến đơn giản là công đoạn không sử dụng kỹ năng đặc biệt, máy móc, dây chuyền hoặc thiết bị chuyên dụng và không được xét khi xác định xuất xứ hàng hóa Việt Nam theo quy định tại Điều 4, Điều 5 và Điều 6 Nghị định này. 2. Các công đoạn sau đây khi được thực hiện riêng rẽ hoặc kết hợp với nhau được xem là gia công, chế biến đơn giản: a) Công đoạn bảo quản hàng hóa trong quá trình vận chuyển và lưu kho (thông gió, trải ra, sấy khô, làm lạnh, ngâm trong muối, xông lưu huỳnh hoặc thêm các phụ gia khác, loại bỏ các bộ phận bị hư hỏng và các công đoạn tương tự); b) Công đoạn như lau chùi, bụi bặm, tẩy rỉ, tẩy dầu mỡ, tẩy sơn hoặc tẩy các chất phủ bề mặt khác; c) Thay đổi bao bì đóng gói và tháo dỡ hay lắp ghép các lô hàng; đóng chai, lọ, đóng gói, bao, hộp và các công việc đóng gói bao bì đơn giản khác; d) Dán hoặc in nhãn hiệu, nhãn, mác, lô-gô và các dấu hiệu phân biệt tương tự lên sản phẩm hoặc bao bì của sản phẩm; đ) Giần, sàng, lựa chọn, phân loại, xếp loại, xếp nhóm hoặc trộn đơn giản (bao gồm cả việc trộn các sản phẩm khác loại) mà không làm thay đổi bản chất của hàng hóa; e) Chia tách hoặc lắp ráp đơn giản các lô hàng; lắp ráp đơn giản các bộ phận của sản phẩm để tạo nên một sản phẩm hoàn chỉnh hoặc tháo rời sản phẩm thành từng phần; g) Xay xát, bóc vỏ, tẩy trắng một phần hoặc toàn bộ, đánh bóng và làm láng ngũ cốc và gạo; nhuộm màu đường hoặc tạo đường miếng; rạch vỏ, trích hạt hoặc tróc hạt một cách đơn giản; h) Mài sắc, mài giũa đơn giản hoặc cắt đơn giản; là hoặc ép thẳng vải; i) Kiểm tra hoặc thử nghiệm một cách đơn giản; k) Giết, mổ động vật. 3. Trong trường hợp cần thiết, bộ, cơ quan ngang bộ xây dựng quy định riêng về công đoạn gia công, chế biến đơn giản đối với mặt hàng có tính chất đặc thù thuộc phạm vi quản lý, đảm bảo phù hợp quy định tại Nghị định này.",
+            "trang_pdf": 4,
+            "sha256_pdf": "d6c5f4f5b38d6004b36ec644e39852375132567b9a849f601bd6e7cd7445b3ec"
+          },
+          {
+            "dieu": 8,
+            "noi_dung": "Yếu tố sử dụng trong quá trình sản xuất, kiểm tra, hoặc thử nghiệm hàng hóa nhưng không tạo nên hàng hóa, hoặc yếu tố sử dụng trong việc bảo dưỡng nhà xưởng, hoặc vận hành thiết bị có liên quan tới việc sản xuất hàng hóa không được xem xét khi xác định xuất xứ Việt Nam theo quy định tại Điều 4, Điều 5 và Điều 6 Nghị định này, bao gồm các yếu tố sau: 1. Nhiên liệu và năng lượng. 2. Dụng cụ, khuôn rập và khuôn đúc. 3. Phụ tùng, vật liệu dùng để bảo dưỡng thiết bị và nhà xưởng. 4. Dầu nhờn, chất bôi trơn, hợp chất và các nguyên liệu khác dùng trong sản xuất hoặc dùng để vận hành thiết bị và nhà xưởng. 5. Găng tay, kính, giày dép, quần áo và các thiết bị an toàn. 6. Thiết bị, dụng cụ và máy móc dùng để kiểm tra hoặc thử nghiệm hàng hóa. 7. Chất xúc tác và dung môi. 8. Bất kỳ nguyên liệu nào khác không cấu thành hàng hóa nhưng việc sử dụng nguyên liệu phải được chứng minh là cần thiết trong quá trình sản xuất ra hàng hóa.",
+            "trang_pdf": 5,
+            "sha256_pdf": "d6c5f4f5b38d6004b36ec644e39852375132567b9a849f601bd6e7cd7445b3ec"
+          },
+          {
+            "dieu": 9,
+            "noi_dung": "1. Thương nhân, tổ chức, cá nhân thể hiện xuất xứ Việt Nam trên nhãn hàng hóa hoặc trên tài liệu, vật phẩm chứa đựng thông tin liên quan đến hàng hóa có trách nhiệm tuân thủ quy định tại Nghị định này. Đối với hàng hóa được thương nhân, tổ chức, cá nhân xác định xuất xứ Việt Nam, thương nhân, tổ chức, cá nhân có trách nhiệm tuân thủ quy định pháp luật về ghi nhãn hàng hóa, bảo vệ quyền lợi người tiêu dùng, chất lượng sản phẩm, hàng hóa và quy định pháp luật khác liên quan. 2. Thương nhân, tổ chức, cá nhân thể hiện xuất xứ Việt Nam chịu trách nhiệm trước pháp luật về tính chính xác, trung thực của thông tin đã công bố; thực hiện lưu trữ hồ sơ, chứng từ chứng minh xuất xứ hàng hóa (bao gồm hóa đơn đầu vào, bảng kê nguyên vật liệu, mô tả quy trình sản xuất và các tài liệu khác có liên quan) để phục vụ công tác thanh tra, kiểm tra của cơ quan có thẩm quyền. Việc lưu trữ dưới dạng dữ liệu điện tử và văn bản thực hiện theo quy định của pháp luật về kế toán và pháp luật về lưu trữ. 3. Thương nhân, tổ chức, cá nhân chịu trách nhiệm chứng minh hàng hóa có xuất xứ Việt Nam theo quy định tại Nghị định này khi cơ quan có thẩm quyền yêu cầu. 4. Thương nhân, tổ chức, cá nhân có trách nhiệm tuân thủ pháp luật Việt Nam về xuất xứ hàng hóa xuất khẩu và quy định của nước nhập khẩu đối với hàng hóa sản xuất, lưu thông trong nước sau đó được xuất khẩu.",
+            "trang_pdf": 6,
+            "sha256_pdf": "d6c5f4f5b38d6004b36ec644e39852375132567b9a849f601bd6e7cd7445b3ec"
+          },
+          {
+            "dieu": 10,
+            "noi_dung": "1. Bộ Công Thương có trách nhiệm: a) Chủ trì, phối hợp với các bộ, cơ quan ngang bộ, cơ quan, tổ chức liên quan tổ chức thi hành Nghị định này; b) Là cơ quan đầu mối giúp Chính phủ quản lý nhà nước về xuất xứ hàng hóa sản xuất và lưu thông trong nước; c) Tham mưu, tổng hợp, trình Chính phủ ban hành quy định yêu cầu, khung kỹ thuật và tiêu chí chung tại Nghị định này; tham gia ý kiến đối với văn bản quy định xác định xuất xứ riêng do bộ, cơ quan ngang bộ chủ trì; tổng hợp văn bản hướng dẫn quy định xác định xuất xứ Việt Nam đối với hàng hóa thuộc lĩnh vực quản lý chuyên ngành của bộ, cơ quan ngang bộ ban hành theo quy định tại khoản 2 Điều 4 và khoản 3 Điều 7 Nghị định này và đăng tải công khai tại Cổng thông tin điện tử Bộ Công Thương; d) Xây dựng, ban hành quy định xác định xuất xứ Việt Nam đối với hàng hóa sản xuất và lưu thông trong nước theo thẩm quyền để phục vụ yêu cầu quản lý của Bộ Công Thương; đ) Phối hợp với bộ, cơ quan ngang bộ triển khai thực hiện quy định xác định xuất xứ Việt Nam đối với hàng hóa sản xuất và lưu thông trong nước thuộc phạm vi quản lý nhà nước của bộ, cơ quan ngang bộ để phục vụ yêu cầu quản lý của bộ, cơ quan ngang bộ; e) Phối hợp với bộ, cơ quan ngang bộ thực hiện kết nối, chia sẻ cơ sở dữ liệu về xuất xứ hàng hóa sản xuất và lưu thông trong nước. 2. Bộ, cơ quan ngang bộ có trách nhiệm: a) Xây dựng, ban hành quy định xác định hàng hóa có xuất xứ Việt Nam đối với mặt hàng có tính chất đặc thù thuộc phạm vi được sản xuất và lưu thông trong nước trong trường hợp cần thiết; b) Chủ trì, phối hợp với Bộ Công Thương và cơ quan có thẩm quyền trong công tác kiểm tra, thực hiện quy định về xuất xứ hàng hóa sản xuất và lưu thông trong nước thuộc phạm vi quản lý; c) Định kỳ báo cáo tình hình thực hiện quy định tại Nghị định này về Bộ Công Thương để kịp thời báo cáo Chính phủ. 3. Ủy ban nhân dân tỉnh, thành phố có trách nhiệm: a) Quản lý, kiểm tra và phối hợp với bộ, cơ quan ngang bộ thực hiện quy định về xuất xứ hàng hóa sản xuất và lưu thông tại địa phương; b) Tổng hợp, báo cáo cơ quan đầu mối về tình hình xác định xuất xứ Việt Nam đối với hàng hóa sản xuất và lưu thông tại địa phương.",
+            "trang_pdf": 6,
+            "sha256_pdf": "d6c5f4f5b38d6004b36ec644e39852375132567b9a849f601bd6e7cd7445b3ec"
+          },
+          {
+            "dieu": 11,
+            "noi_dung": "1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2027. 2. Trường hợp văn bản quy phạm pháp luật dẫn chiếu trong Nghị định này được thay thế hoặc sửa đổi, bổ sung, Nghị định này áp dụng theo văn bản quy phạm pháp luật được thay thế hoặc sửa đổi, bổ sung. 3. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trong phạm vi chức năng, nhiệm vụ của mình chịu trách nhiệm hướng dẫn và thi hành Nghị định này.",
+            "trang_pdf": 7,
+            "sha256_pdf": "d6c5f4f5b38d6004b36ec644e39852375132567b9a849f601bd6e7cd7445b3ec"
+          },
+          {
+            "dieu": 12,
+            "noi_dung": "Hàng hóa có nhãn thể hiện xuất xứ Việt Nam theo đúng quy định pháp luật trước thời điểm Nghị định này có hiệu lực được tiếp tục sử dụng nhãn đó đến khi hàng hóa hết hạn sử dụng.",
+            "trang_pdf": 8,
+            "sha256_pdf": "d6c5f4f5b38d6004b36ec644e39852375132567b9a849f601bd6e7cd7445b3ec"
+          }
+        ]
       },
       "ghi_chu": "Quy định xác định xuất xứ Việt Nam đối với hàng hóa sản xuất và lưu thông trong nước (ban hành 09-10-2026, có hiệu lực từ 01-01-2027) — tách bạch với xuất xứ hàng hóa xuất khẩu, nhập khẩu theo FTA.",
-      "toan_van": "raw/download/congbao.chinhphu.vn/384-2026-nd-cp.html",
+      "toan_van": [
+        "raw/download/congbaocdn.chinhphu.vn/384-2026-nd-cp.pdf",
+        "raw/download/congbao.chinhphu.vn/384-2026-nd-cp.html",
+        "wiki/sources/384-2026-nd-cp.md"
+      ],
       "slug": "384-2026-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -106314,6 +106512,10 @@
           "truy_cap": "2026-11-14"
         },
         {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/11/40452/47122-1-20231215-121680-2023-nd-cp.pdf",
+          "truy_cap": "2026-11-21"
+        },
+        {
           "url": "https://gialai.gov.vn/van-ban-trung-uong-sao-luc/nghi-dinh-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-95-2021-nd-cp-ngay-01-thang-11-nam-2021-va-nghi-dinh-so-83-2014-n",
           "truy_cap": "2026-10-28"
         },
@@ -106324,12 +106526,128 @@
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=208982, Phó Thủ tướng Lê Minh Khái ký thay Thủ tướng), toàn văn PDF ký số (80-nd.signed.pdf) và Công báo Chính phủ (id=40452): số hiệu 80/2023/NĐ-CP, tiêu đề 'Sửa đổi, bổ sung một số điều của Nghị định số 95/2021/NĐ-CP ngày 01 tháng 11 năm 2021 và Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ về kinh doanh xăng dầu', ban hành và có hiệu lực thi hành từ ngày 17-11-2023; đang còn hiệu lực",
+        "pham_vi": "Đã đối chiếu toàn văn nguồn bậc A từ PDF Công báo số 1215 + 1216 ngày 27-11-2023 (raw/download/congbaocdn.chinhphu.vn/80-2023-nd-cp.pdf, 14 trang, trang 2–15 của số Công báo, có lớp chữ ký số bởi Văn phòng Chính phủ ngày 04-12-2023, SHA-256 bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3), thẻ vanban.chinhphu.vn (docid=208982, Phó Thủ tướng Lê Minh Khái ký thay Thủ tướng), toàn văn PDF ký số (80-nd.signed.pdf), Công báo Chính phủ (id=40452) và trang wiki/sources/80-2023-nd-cp.md: số hiệu 80/2023/NĐ-CP, gồm 3 Điều sửa đổi, bổ sung một số điều của Nghị định 95/2021/NĐ-CP và Nghị định 83/2014/NĐ-CP về kinh doanh xăng dầu, ban hành và có hiệu lực thi hành từ ngày 17-11-2023; đang còn hiệu lực.",
         "hieu_luc_da_doi_chieu": true,
-        "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "khoan": 1,
+            "noi_dung": "1. Sửa đổi, bổ sung điểm d khoản 7 Điều 1 và điểm 6 khoản 7 Điều 1 Nghị định số 95/2021/NĐ-CP như sau: “d) Trường hợp Giấy xác nhận đủ điều kiện làm thương nhân đầu mối kinh doanh xăng dầu hết hiệu lực thi hành, thương nhân phải lập hồ sơ như đối với trường hợp cấp mới quy định tại điểm a khoản 7 Điều 1 Nghị định số 95/2021/NĐ-CP, bổ sung văn bản chứng minh thực hiện đầy đủ nghĩa vụ về trích lập, chi sử dụng, kết chuyển Quỹ bình ổn giá xăng dầu và gửi về Bộ Công Thương trước ít nhất ba mươi (30) ngày làm việc, trước khi Giấy xác nhận hết hiệu lực.” “6. Bộ Công Thương có thẩm quyền thu hồi Giấy xác nhận đủ điều kiện làm thương nhân đầu mối kinh doanh xăng dầu. Giấy xác nhận đủ điều kiện làm thương nhân đầu mối kinh doanh xăng dầu bị thu hồi trong các trường hợp: a) Thương nhân không tiếp tục làm thương nhân đầu mối kinh doanh xăng dầu và có văn bản gửi Bộ Công Thương đề nghị thu hồi Giấy xác nhận đủ điều kiện làm thương nhân đầu mối kinh doanh xăng dầu đã được cấp cho thương nhân. b) Thương nhân ngừng thực hiện toàn bộ hoạt động kinh doanh xăng dầu trong thời gian từ chín mươi (90) ngày trở lên. c) Thương nhân không thực hiện đủ tổng nguồn xăng dầu tối thiểu được Bộ Công Thương giao trong hai (02) năm liên tiếp. d) Thương nhân bị giải thể, phá sản theo quy định của pháp luật. đ) Thương nhân vi phạm quy định về điều kiện đối với thương nhân đầu mối kinh doanh xăng dầu và không khắc phục vi phạm trong thời gian chín mươi (90) ngày kể từ ngày ra quyết định xử phạt vi phạm hành chính. e) Thương nhân vi phạm quy định về dự trữ xăng dầu bắt buộc tối thiểu và không khắc phục vi phạm trong thời gian chín mươi (90) ngày kể từ ngày ra quyết định xử phạt vi phạm hành chính. g) Thương nhân đang bị xử lý vi phạm mà tái phạm quy định về bảo đảm chất lượng xăng dầu lưu thông trên thị trường tại Nghị định này và các quy định của pháp luật về chất lượng.”",
+            "trang_pdf": 1,
+            "sha256_pdf": "bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3"
+          },
+          {
+            "dieu": 1,
+            "khoan": 2,
+            "noi_dung": "2. Sửa đổi, bổ sung khoản 8 Điều 1 Nghị định số 95/2021/NĐ-CP như sau: “22. Thương nhân đầu mối kinh doanh xăng dầu có trách nhiệm báo cáo định kỳ hàng quý tình hình sử dụng kho xăng dầu theo quy định của Bộ Công Thương. 23. Trường hợp thương nhân bị chia, hợp nhất, sáp nhập, chuyển đổi hình thức hoặc không tiếp tục làm thương nhân đầu mối kinh doanh xăng dầu, trừ trường hợp việc thay đổi trên không ảnh hưởng đến điều kiện kinh doanh, thương nhân phải thông báo cho Bộ Công Thương để tiến hành thu hồi Giấy xác nhận đủ điều kiện làm thương nhân đầu mối kinh doanh xăng dầu.”",
+            "trang_pdf": 2,
+            "sha256_pdf": "bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3"
+          },
+          {
+            "dieu": 1,
+            "khoan": 3,
+            "noi_dung": "3. Sửa đổi, bổ sung khoản 4 Điều 13 Nghị định số 83/2014/NĐ-CP như sau: “4. Có phòng thử nghiệm thuộc sở hữu của thương nhân hoặc thuê của tổ chức có phòng thử nghiệm đủ năng lực kiểm tra, thử nghiệm theo quy định.”",
+            "trang_pdf": 3,
+            "sha256_pdf": "bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3"
+          },
+          {
+            "dieu": 1,
+            "khoan": 4,
+            "noi_dung": "4. Sửa đổi, bổ sung khoản 6 Điều 14 Nghị định số 83/2014/NĐ-CP như sau: “6. Bộ Công Thương có thẩm quyền thu hồi Giấy xác nhận đủ điều kiện làm thương nhân phân phối xăng dầu. Giấy xác nhận đủ điều kiện làm thương nhân phân phối xăng dầu bị thu hồi trong các trường hợp: a) Thương nhân không tiếp tục làm thương nhân phân phối xăng dầu và có văn bản gửi Bộ Công Thương đề nghị thu hồi Giấy xác nhận đủ điều kiện làm thương nhân phân phối xăng dầu đã được cấp cho thương nhân. b) Thương nhân ngừng thực hiện toàn bộ hoạt động kinh doanh xăng dầu trong thời gian từ chín mươi (90) ngày trở lên. c) Thương nhân bị giải thể, phá sản theo quy định của pháp luật. d) Thương nhân vi phạm quy định về điều kiện đối với thương nhân phân phối xăng dầu và không khắc phục vi phạm trong thời gian chín mươi (90) ngày kể từ ngày ra quyết định xử phạt vi phạm hành chính. đ) Thương nhân vi phạm quy định về dự trữ xăng dầu bắt buộc tối thiểu và không khắc phục vi phạm trong thời gian chín mươi (90) ngày kể từ ngày ra quyết định xử phạt vi phạm hành chính. e) Thương nhân đang bị xử lý vi phạm mà tái phạm quy định về bảo đảm số lượng, chất lượng xăng dầu lưu thông trên thị trường, vi phạm quy định về tăng, giảm giá bán xăng dầu và các quy định của pháp luật về chất lượng.”",
+            "trang_pdf": 3,
+            "sha256_pdf": "bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3"
+          },
+          {
+            "dieu": 1,
+            "khoan": 5,
+            "noi_dung": "5. Sửa đổi, bổ sung Điều 15 Nghị định số 83/2014/NĐ-CP như sau: “17. Thương nhân phân phối xăng dầu có trách nhiệm báo cáo định kỳ hàng quý tình hình sử dụng kho xăng dầu theo quy định của Bộ Công Thương. 18. Trường hợp doanh nghiệp bị chia, hợp nhất, sáp nhập, chuyển đổi hình thức hoặc không tiếp tục làm thương nhân phân phối xăng dầu, trừ trường hợp việc thay đổi trên không ảnh hưởng đến điều kiện kinh doanh, thương nhân phải thông báo cho Bộ Công Thương để tiến hành thu hồi Giấy xác nhận đủ điều kiện làm thương nhân phân phối xăng dầu.”",
+            "trang_pdf": 3,
+            "sha256_pdf": "bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3"
+          },
+          {
+            "dieu": 1,
+            "khoan": 6,
+            "noi_dung": "6. Sửa đổi, bổ sung khoản 8 Điều 20 Nghị định số 83/2014/NĐ-CP như sau: “8. Sở Công Thương có thẩm quyền thu hồi Giấy xác nhận đủ điều kiện làm đại lý bán lẻ xăng dầu. Giấy xác nhận đủ điều kiện làm đại lý bán lẻ xăng dầu bị thu hồi trong các trường hợp: a) Thương nhân không tiếp tục làm đại lý bán lẻ xăng dầu và có văn bản gửi Sở Công Thương đề nghị thu hồi Giấy xác nhận đủ điều kiện làm đại lý bán lẻ xăng dầu đã được cấp cho thương nhân. b) Thương nhân ngừng thực hiện toàn bộ hoạt động kinh doanh xăng dầu trong thời gian từ ba mươi (30) ngày trở lên. c) Thương nhân bị giải thể, phá sản theo quy định của pháp luật. d) Thương nhân vi phạm quy định về điều kiện đối với đại lý bán lẻ xăng dầu và không khắc phục vi phạm trong thời gian chín mươi (90) ngày kể từ ngày ra quyết định xử phạt vi phạm hành chính. đ) Thương nhân đang bị xử lý vi phạm mà tái phạm quy định về bảo đảm số lượng, chất lượng xăng dầu lưu thông trên thị trường và các quy định của pháp luật về chất lượng.”",
+            "trang_pdf": 4,
+            "sha256_pdf": "bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3"
+          },
+          {
+            "dieu": 1,
+            "khoan": 7,
+            "noi_dung": "7. Sửa đổi, bổ sung khoản 2, khoản 3 và khoản 11 Điều 21 Nghị định số 83/2014/NĐ-CP như sau: “2. Chỉ được ký hợp đồng làm đại lý bán lẻ xăng dầu cho tối đa ba (03) thương nhân là thương nhân phân phối xăng dầu hoặc thương nhân đầu mối kinh doanh xăng dầu. 3. Thương nhân đã ký hợp đồng làm đại lý bán lẻ xăng dầu cho ba (03) thương nhân là thương nhân phân phối xăng dầu hoặc thương nhân đầu mối kinh doanh xăng dầu, không được ký thêm hợp đồng làm đại lý bán lẻ xăng dầu cho thương nhân phân phối xăng dầu hoặc thương nhân đầu mối kinh doanh xăng dầu khác. Đại lý bán lẻ xăng dầu phải nằm trong hệ thống phân phối của thương nhân phân phối xăng dầu hoặc thương nhân đầu mối kinh doanh xăng dầu và chịu sự kiểm soát của thương nhân đó.",
+            "trang_pdf": 4,
+            "sha256_pdf": "bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3"
+          },
+          {
+            "dieu": 1,
+            "khoan": 8,
+            "noi_dung": "8. Sửa đổi, bổ sung khoản 6 Điều 25 Nghị định số 83/2014/NĐ-CP như sau: “6. Sở Công Thương có thẩm quyền thu hồi Giấy chứng nhận cửa hàng đủ điều kiện bán lẻ xăng dầu. Giấy chứng nhận cửa hàng đủ điều kiện bán lẻ xăng dầu bị thu hồi trong các trường hợp: a) Thương nhân không tiếp tục hoạt động kinh doanh xăng dầu và có văn bản gửi Sở Công Thương đề nghị thu hồi Giấy chứng nhận cửa hàng đủ điều kiện bán lẻ xăng dầu đã được cấp cho thương nhân. b) Thương nhân bị giải thể, phá sản theo quy định của pháp luật. c) Thương nhân vi phạm quy định về điều kiện đối với cửa hàng bán lẻ xăng dầu và không khắc phục vi phạm trong thời gian chín mươi (90) ngày kể từ ngày ra quyết định xử phạt vi phạm hành chính. d) Thương nhân đang bị xử lý vi phạm mà tái phạm quy định về bảo đảm số lượng, chất lượng xăng dầu lưu thông trên thị trường và quy định pháp luật về chất lượng.”",
+            "trang_pdf": 5,
+            "sha256_pdf": "bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3"
+          },
+          {
+            "dieu": 1,
+            "khoan": 9,
+            "noi_dung": "9. Sửa đổi, bổ sung khoản 9, khoản 10 Điều 26 Nghị định số 83/2014/NĐ-CP như sau: “9. Trường hợp thương nhân bị chia, hợp nhất, sáp nhập, chuyển đổi hình thức hoặc không tiếp tục kinh doanh xăng dầu, trừ trường hợp việc thay đổi trên không ảnh hưởng đến điều kiện kinh doanh, thương nhân phải thông báo cho Sở Công Thương để tiến hành thu hồi Giấy chứng nhận cửa hàng đủ điều kiện bán lẻ xăng dầu. 10. Thực hiện quy định về hóa đơn điện tử và cung cấp dữ liệu hóa đơn điện tử theo quy định của Luật quản lý thuế, các văn bản hướng dẫn của Bộ Tài chính và cơ quan thuế.”",
+            "trang_pdf": 5,
+            "sha256_pdf": "bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3"
+          },
+          {
+            "dieu": 1,
+            "khoan": 10,
+            "noi_dung": "10. Sửa đổi, bổ sung điểm 1, điểm 4, điểm 6 khoản 26 Điều 1 Nghị định số 95/2021/NĐ-CP như sau: “1. Quỹ bình ổn giá xăng dầu là Quỹ tài chính không nằm trong cân đối ngân sách nhà nước (sau đây gọi chung là Quỹ bình ổn giá); toàn bộ nguồn trích lập, chi sử dụng để tham gia điều tiết, hỗ trợ cho mục tiêu bình ổn giá bán xăng dầu trong nước. Thương nhân đầu mối kinh doanh xăng dầu có nghĩa vụ trích lập Quỹ bình ổn giá; hạch toán và theo dõi riêng Quỹ bình ổn giá bằng tài khoản mở tại ngân hàng thương mại, chi nhánh ngân hàng nước ngoài hoạt động hợp pháp tại Việt Nam (sau đây gọi chung là ngân hàng) theo quy định tại Nghị định này và hướng dẫn của Bộ Tài chính. Thương nhân đầu mối kinh doanh xăng dầu chịu trách nhiệm toàn diện trước pháp luật về việc lựa chọn ngân hàng, quản lý và đảm bảo bảo toàn số dư Quỹ bình ổn giá. Ngân hàng thực hiện phong tỏa tài khoản Quỹ bình ổn giá của doanh nghiệp. Tài khoản này chỉ được sử dụng vào mục đích trích lập và chi sử dụng Quỹ bình ổn giá của doanh nghiệp theo thông báo điều hành giá xăng dầu của Bộ Công Thương.",
+            "trang_pdf": 5,
+            "sha256_pdf": "bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3"
+          },
+          {
+            "dieu": 1,
+            "khoan": 11,
+            "noi_dung": "11. Sửa đổi, bổ sung điểm 3 khoản 27 Điều 1 Nghị định số 95/2021/NĐ-CP như sau: “3. Thời gian điều hành giá xăng dầu Thời gian điều hành giá xăng dầu được thực hiện vào ngày thứ Năm hàng tuần. Trường hợp thời gian điều hành giá trùng vào dịp nghỉ Tết Nguyên Đán thì được thực hiện như sau: Nếu ngày thứ Năm trùng vào ngày cuối cùng của năm Âm lịch (29 hoặc 30 Tết Nguyên Đán), việc điều hành giá xăng dầu được thực hiện vào ngày thứ Tư liền kề trước đó. Nếu thứ Năm là ngày mùng 1, mùng 2 hoặc mùng 3 Tết, thời gian điều hành giá xăng dầu được thực hiện vào ngày mùng 4 Tết. Trường hợp thời gian điều hành giá trùng với ngày nghỉ lễ theo quy định thì được thực hiện như sau: Nếu ngày thứ Năm trùng với ngày đầu tiên dịp nghỉ lễ, thời gian điều hành giá xăng dầu được thực hiện vào ngày thứ Tư liền kề trước đó. Nếu ngày thứ Năm trùng vào các ngày nghỉ lễ còn lại, thời gian điều hành giá xăng dầu được thực hiện vào ngày làm việc đầu tiên sau kỳ nghỉ lễ. Trường hợp giá các mặt hàng xăng dầu có biến động bất thường, ảnh hưởng đến phát triển kinh tế - xã hội và đời sống nhân dân, Bộ Công Thương có trách nhiệm báo cáo Thủ tướng Chính phủ xem xét, quyết định thời gian điều hành giá xăng dầu cho phù hợp.”",
+            "trang_pdf": 7,
+            "sha256_pdf": "bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3"
+          },
+          {
+            "dieu": 1,
+            "khoan": 12,
+            "noi_dung": "12. Sửa đổi, bổ sung khoản 28 Điều 1 Nghị định số 95/2021/NĐ-CP như sau: “Điều 38a. Công thức giá cơ sở 1. Giá cơ sở xăng dầu được xác định bằng (=) giá xăng dầu từ nguồn nhập khẩu nhân với (x) tỷ trọng (%) sản lượng xăng dầu từ nguồn nhập khẩu cộng (+) giá xăng dầu từ nguồn sản xuất trong nước nhân với (x) tỷ trọng (%) sản lượng xăng dầu từ nguồn sản xuất trong nước, trong đó: a) Các yếu tố hình thành giá cơ sở, trong đó có các khoản chi phí về thuế để tính giá cơ sở xăng dầu theo quy định tại Nghị định này chỉ để áp dụng tính toán giá cơ sở xăng dầu. b) Tỷ trọng (%) sản lượng xăng dầu từ nguồn sản xuất trong nước và nhập khẩu để tính giá cơ sở được xác định hàng quý; tỷ trọng sản lượng của quý trước liền kề được áp dụng để tính giá cơ sở cho các kỳ điều hành giá cơ sở của quý tiếp theo. Định kỳ hàng quý, trên cơ sở số liệu cung cấp về sản lượng xăng dầu nhập khẩu của Bộ Tài chính và báo cáo sản lượng bán xăng dầu trong nước của các thương nhân đầu mối sản xuất xăng dầu (từ ngày 21 tháng trước liền kề tháng đầu tiên của quý đến ngày 20 tháng cuối quý), cơ quan chủ trì điều hành giá xăng dầu tính toán, xác định tỷ trọng (%) sản lượng xăng dầu từ nguồn trong nước và nhập khẩu để tính giá cơ sở.",
+            "trang_pdf": 8,
+            "sha256_pdf": "bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3"
+          },
+          {
+            "dieu": 1,
+            "khoan": 13,
+            "noi_dung": "13. Sửa đổi, bổ sung điểm a khoản 1 Điều 40 Nghị định số 83/2014/NĐ-CP như sau: “a) Kiểm tra, giám sát thương nhân đầu mối, thương nhân phân phối xăng dầu tuân thủ các điều kiện và quy định tại Điều 7, 9, 10, 11, 13, 15 và 31 Nghị định số 83/2014/NĐ-CP; giao Sở Công Thương kiểm tra, giám sát thương nhân đầu mối kinh doanh xăng dầu, thương nhân phân phối xăng dầu tuân thủ quy định về sử dụng kho xăng dầu tại Điều 9, 15 và 31 Nghị định số 83/2014/NĐ-CP.”",
+            "trang_pdf": 13,
+            "sha256_pdf": "bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3"
+          },
+          {
+            "dieu": 1,
+            "khoan": 14,
+            "noi_dung": "14. Sửa đổi, bổ sung điểm đ khoản 2 Điều 40 Nghị định số 83/2014/NĐ-CP như sau: “đ) Ban hành các văn bản hướng dẫn về hóa đơn điện tử theo quy định tại khoản 9 Điều 1 Nghị định này phù hợp với quy định của Luật Quản lý thuế và các văn bản hướng dẫn.”",
+            "trang_pdf": 13,
+            "sha256_pdf": "bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3"
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "1. Nghị định này có hiệu lực kể từ ngày ký ban hành. 2. Quy định chuyển tiếp a) Đối với thương nhân đã được cấp Giấy xác nhận đủ điều kiện làm tổng đại lý kinh doanh xăng dầu được tiếp tục hoạt động theo các quy định về tổng đại lý kinh doanh xăng dầu tại Nghị định số 95/2021/NĐ-CP và Nghị định số 83/2014/NĐ-CP cho đến khi Giấy xác nhận đủ điều kiện làm tổng đại lý kinh doanh xăng dầu hết hiệu lực. b) Trừ trường hợp quy định tại điểm a khoản 2 Điều 2 Nghị định này, các quy định về tổng đại lý tại Nghị định số 95/2021/NĐ-CP và Nghị định số 83/2014/NĐ-CP hết hiệu lực thi hành kể từ ngày Nghị định này có hiệu lực.",
+            "trang_pdf": 13,
+            "sha256_pdf": "bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3"
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "1. Bộ Công Thương, Bộ Tài chính và các bộ, ngành liên quan hướng dẫn thi hành Nghị định này. 2. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương và các tổ chức, cá nhân liên quan chịu trách nhiệm thi hành Nghị định này./.",
+            "trang_pdf": 14,
+            "sha256_pdf": "bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3"
+          }
+        ]
       },
-      "toan_van": "raw/download/congbao.chinhphu.vn/80-2023-nd-cp.html",
+      "toan_van": [
+        "raw/download/congbaocdn.chinhphu.vn/80-2023-nd-cp.pdf",
+        "raw/download/congbao.chinhphu.vn/80-2023-nd-cp.html",
+        "wiki/sources/80-2023-nd-cp.md"
+      ],
       "slug": "80-2023-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
