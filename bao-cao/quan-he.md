@@ -281,7 +281,7 @@ flowchart LR
   n_01_2009_TT_BKHCN["01/2009/TT-BKHCN<br/>hết hiệu lực"]
   n_366_Q__BKHCN["366/QĐ-BKHCN<br/>còn hiệu lực"]
   n_2711_Q__BKHCN["2711/QĐ-BKHCN<br/>hết hiệu lực một phần"]
-  n_367_Q__BKHCN["367/QĐ-BKHCN<br/>chưa xác minh"]
+  n_367_Q__BKHCN["367/QĐ-BKHCN<br/>hết hiệu lực một phần"]
   n_37_2026_N__CP["37/2026/NĐ-CP<br/>còn hiệu lực"]
   n_132_2008_N__CP["132/2008/NĐ-CP<br/>hết hiệu lực"]
   n_74_2018_N__CP["74/2018/NĐ-CP<br/>hết hiệu lực"]
@@ -412,7 +412,7 @@ flowchart LR
   n_36_2026_TT_BKHCN -->|thay thế từ 2026-07-01| n_58_2015_TTLT_BCT_BKHCN
   n_36_2026_TT_BKHCN -->|thay thế từ 2026-07-01| n_01_2009_TT_BKHCN
   n_366_Q__BKHCN -->|sửa đổi Bổ sung sản phẩm ống bằng thép không gỉ (mã HS 7306.40.20, 7306.40.90, 7306.61.10, 7306.61.90, 7306.69.10, 7306.69.90) vào Phụ lục sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ từ 2023-03-14| n_2711_Q__BKHCN
-  n_367_Q__BKHCN -->|sửa đổi| n_2711_Q__BKHCN
+  n_367_Q__BKHCN -->|sửa đổi Sửa đổi, bổ sung nhóm sản phẩm chiếu sáng bằng công nghệ LED tại số thứ tự 10 (mục 10.1 đến 10.4: bóng đèn LED có ba-lát lắp liền, bóng đèn LED hai đầu thay thế bóng đèn huỳnh quang ống thẳng, đèn điện LED thông dụng di động, đèn điện LED thông dụng cố định; các mã HS 8539.52.10, 8539.52.90, 9405.11.91, 9405.11.99, 9405.21.90) Phụ lục sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ từ 2024-03-12| n_2711_Q__BKHCN
   n_37_2026_N__CP -->|bãi bỏ từ 2026-07-01| n_132_2008_N__CP
   n_37_2026_N__CP -->|bãi bỏ từ 2026-07-01| n_74_2018_N__CP
   n_37_2026_N__CP -->|bãi bỏ Điều 4 từ 2026-07-01| n_154_2018_N__CP
@@ -689,7 +689,7 @@ flowchart LR
   n_346_2025_N__CP["346/2025/NĐ-CP<br/>còn hiệu lực"]
   n_53_2020_N__CP["53/2020/NĐ-CP<br/>hết hiệu lực"]
   n_3830_Q__BKHCN["3830/QĐ-BKHCN<br/>còn hiệu lực"]
-  n_367_Q__BKHCN["367/QĐ-BKHCN<br/>chưa xác minh"]
+  n_367_Q__BKHCN["367/QĐ-BKHCN<br/>hết hiệu lực một phần"]
   n_2711_Q__BKHCN["2711/QĐ-BKHCN<br/>hết hiệu lực một phần"]
   n_43_2026_NQ_CP["43/2026/NQ-CP<br/>còn hiệu lực"]
   n_19_2026_QH16["19/2026/QH16<br/>còn hiệu lực"]

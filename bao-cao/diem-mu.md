@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-11-21
 
-Tổng 3765 điểm: **8 cao**, 205 vừa, 3552 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 3764 điểm: **8 cao**, 204 vừa, 3552 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -9,7 +9,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Sắp hết hiệu lực (≤60 ngày) | Cao | 8 | `hieu-luc` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 201 | `danh-muc-hs` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
-| THIEU_VBHN | Vừa | 1 | `nap-lam-sach` |
 | Hiệu lực chưa đối chiếu nguồn A | Thấp | 1382 | `hieu-luc` |
 | Chưa có nguồn chính thống | Thấp | 1379 | `truy-vet-nguon` |
 | Văn bản của cơ quan đã sáp nhập | Thấp | 769 | `do-tham` |
@@ -76,10 +75,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **154/2026/TT-BTC có hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 - [ ] **372/2026/NĐ-CP có hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 - [ ] **63/2026/TT-BKHCN có hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
-
-## THIEU_VBHN (1)
-
-- [ ] **2711/QĐ-BKHCN đã bị sửa đổi 3 lần nhưng chưa có văn bản hợp nhất** — Tìm văn bản hợp nhất (VBHN) của 2711/QĐ-BKHCN trên vanban.chinhphu.vn; nếu có, thêm vào sổ kèm quan_he.hop_nhat trỏ về 2711/QĐ-BKHCN.
 
 ## Hiệu lực chưa đối chiếu nguồn A (1382)
 
