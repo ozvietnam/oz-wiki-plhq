@@ -1,21 +1,28 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 29/2025/TT-BTC
 loai: THONG_TU
-ten: 'Sửa đổi, bổ sung một số điều của Thông tư 191/2015/TT-BTC quy định thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh gửi qua dịch vụ chuyển phát nhanh quốc tế'
+ten: Sửa đổi, bổ sung một số điều của Thông tư 191/2015/TT-BTC quy định thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh gửi qua dịch vụ chuyển phát nhanh quốc tế
 co_quan: BTC
 ngay_ban_hanh: '2025-05-26'
+hieu_luc_tu: '2025-07-09'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - hai-quan/thu-tuc
+quan_he:
+  sua_doi:
+    - 191/2015/TT-BTC
 nguon:
   - url: https://chinhphu.vn/?pageid=27160&docid=213831&classid=1
     truy_cap: '2026-11-20'
   - url: https://thuvienxuatnhapkhau.com/thong-tu-29-2025-tt-btc-sua-doi-thong-tu-191-2015-tt-btc-quy-dinh-thu-tuc-hai-quan-doi-voi-hang-hoa-xuat-khau-nhap-khau-qua-canh-gui-qua-dich-vu-chuyen-phat-nhanh-quoc-te.html
     truy_cap: '2026-11-20'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/29-btc.signed.pdf
+    truy_cap: '2026-11-21'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + ngày ban hành 26-05-2025 (chinhphu.vn docid 213831 + TVXNK); sửa TT 191/2015 (đã có trong sổ) về hồ sơ HQ hàng chuyển phát nhanh'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-20'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh thám đêm 20/11. Thuộc họ hàng bưu chính/chuyển phát (TT 142/2026, 54/VBHN, QĐ 1813 đã có) — đủ chuỗi giấy tờ hàng express. Đối chiếu lên A cùng họ.'
+  muc: NGUON_A
+  pham_vi: 'Đã đọc toàn văn PDF ký số bậc A trên datafiles.chinhphu.vn (29-btc.signed.pdf, 20 trang, ký Thứ trưởng Nguyễn Đức Chi ngày 26-05-2025) và đối chiếu thẻ chinhphu.vn (docid=213831): gồm 5 Điều và 2 Phụ lục (Phụ lục I gồm các Mẫu số HQ 02-BKTKTGT, HQ 06a-BKCTHH, HQ 06b-BKCTHH; Phụ lục II quy định chỉ tiêu thông tin và hướng dẫn khai). Điều 1 sửa đổi, bổ sung điểm a khoản 2 Điều 8 và điểm a.3 khoản 1 Điều 10 Thông tư 191/2015/TT-BTC (đã được sửa đổi, bổ sung tại Thông tư 56/2019/TT-BTC); Điều 2 sửa đổi, bổ sung, thay thế các Phụ lục của Thông tư 191/2015/TT-BTC; Điều 3 thay thế một số cụm từ về tên cơ quan hải quan sau sắp xếp tổ chức bộ máy; Điều 4 sửa đổi, bổ sung Điều 4 Thông tư 56/2019/TT-BTC. Điều 5 (Điều khoản thi hành) khoản 1 quy định Thông tư có hiệu lực kể từ ngày 09-07-2025. Đối chiếu tình trạng hiện tại đến 2026-11-21 trên chinhphu.vn: chưa có văn bản sửa đổi, bổ sung, thay thế hay bãi bỏ, đang CON_HIEU_LUC.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: Trinh thám đêm 20/11. Thuộc họ hàng bưu chính/chuyển phát (TT 142/2026, 54/VBHN, QĐ 1813 đã có) — đủ chuỗi giấy tờ hàng express. Đối chiếu lên A cùng họ.
+toan_van: raw/download/datafiles.chinhphu.vn/29-2025-tt-btc.pdf
