@@ -652,6 +652,8 @@ flowchart LR
   n_128_2020_N__CP["128/2020/NĐ-CP<br/>hết hiệu lực"]
   n_107_2016_QH13["107/2016/QH13<br/>còn hiệu lực"]
   n_45_2005_QH11["45/2005/QH11<br/>hết hiệu lực"]
+  n_108_2025_N__CP["108/2025/NĐ-CP<br/>còn hiệu lực"]
+  n_26_2023_N__CP["26/2023/NĐ-CP<br/>còn hiệu lực"]
   n_108_2025_QH15["108/2025/QH15<br/>còn hiệu lực"]
   n_38_2019_QH14["38/2019/QH14<br/>hết hiệu lực"]
   n_56_2024_QH15["56/2024/QH15<br/>hết hiệu lực"]
@@ -691,7 +693,6 @@ flowchart LR
   n_134_2016_N__CP["134/2016/NĐ-CP<br/>còn hiệu lực"]
   n_182_2025_N__CP["182/2025/NĐ-CP<br/>còn hiệu lực"]
   n_201_2026_N__CP["201/2026/NĐ-CP<br/>còn hiệu lực"]
-  n_26_2023_N__CP["26/2023/NĐ-CP<br/>còn hiệu lực"]
   n_206_2025_N__CP["206/2025/NĐ-CP<br/>còn hiệu lực"]
   n_127_2022_N__CP["127/2022/NĐ-CP<br/>hết hiệu lực"]
   n_26_2015_TT_BTC["26/2015/TT-BTC<br/>hết hiệu lực"]
@@ -714,6 +715,7 @@ flowchart LR
   n_121_2025_TT_BTC["121/2025/TT-BTC<br/>còn hiệu lực"]
   n_102_2021_N__CP -->|sửa đổi sửa đổi, bổ sung một số điều của Nghị định 128/2020/NĐ-CP quy định xử phạt vi phạm hành chính trong lĩnh vực hải quan (bổ sung Điều 2a; sửa đổi, bổ sung một số khoản của các Điều 5, 7, 8, 11, 14, 20, 23, 28, 29, 30, 31, 32, 34, 36 và bãi bỏ khoản 3 Điều 5) từ 2022-01-01| n_128_2020_N__CP
   n_107_2016_QH13 -->|thay thế từ 2016-09-01| n_45_2005_QH11
+  n_108_2025_N__CP -->|sửa đổi Phụ lục I - Biểu thuế xuất khẩu theo Danh mục mặt hàng chịu thuế (mặt hàng clanhke xi măng nhóm 25.23) từ 2025-05-19| n_26_2023_N__CP
   n_108_2025_QH15 -->|thay thế từ 2026-07-01| n_38_2019_QH14
   n_108_2025_QH15 -->|thay thế từ 2026-07-01| n_56_2024_QH15
   n_112_2022_N__CP -->|thay thế| n_154_2017_N__CP

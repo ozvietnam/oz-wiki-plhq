@@ -246,7 +246,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [199/2025/NĐ-CP](../registry/van-ban/199-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
 - 🟢 [181/2025/NĐ-CP](../registry/van-ban/181-2025-nd-cp.yaml) — Quy định chi tiết thi hành một số điều của Luật Thuế giá trị gia tăng
 - 🟢 [66/2025/QH15](../registry/van-ban/66-2025-qh15.yaml) — Luật Thuế tiêu thụ đặc biệt
-- 🟢 [108/2025/NĐ-CP](../registry/van-ban/108-2025-nd-cp.yaml) — Biểu thuế xuất khẩu (sửa)
+- 🟢 [108/2025/NĐ-CP](../registry/van-ban/108-2025-nd-cp.yaml) — Sửa đổi, bổ sung Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan
 - 🟢 [73/2025/NĐ-CP](../registry/van-ban/73-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
 - 🟢 [21/2025/NĐ-CP](../registry/van-ban/21-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
 - 🟢 [13/2025/NĐ-CP](../registry/van-ban/13-2025-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 115/2022/NĐ-CP ngày 30 tháng 12 năm 2022 của Chính phủ ban hành Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương giai đoạn 2022 - 2027 đã được sửa đổi, bổ sung một số điều theo Nghị định số 68/2023/NĐ-CP ngày 07 tháng 9 năm 2023 của Chính phủ
