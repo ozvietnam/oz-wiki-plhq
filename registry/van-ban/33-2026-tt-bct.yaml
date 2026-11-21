@@ -33,7 +33,57 @@ xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF Công báo số 406 ngày 17-07-2026 (lớp chữ): Điều 6 khoản 1 hiệu lực 01-07-2026; khoản 2 hết hiệu lực TT 41/2023/TT-BCT; sổ không có văn bản sau ghi thay/bãi TT 33/2026'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Thông tư này ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương. Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao kèm theo mã số HS, quy chuẩn kỹ thuật quốc gia và yêu cầu quản lý chất lượng tương ứng tại Phụ lục kèm theo Thông tư này.'
+      trang_pdf: 1
+      sha256_pdf: ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17
+    - dieu: 2
+      noi_dung: 'Thông tư này áp dụng đối với: 1. Tổ chức, cá nhân sản xuất, kinh doanh sản phẩm, hàng hóa quy định tại Điều 1 Thông tư này tại Việt Nam. 2. Tổ chức, cá nhân có hoạt động liên quan đến quản lý chất lượng sản phẩm, hàng hóa quy định tại Điều 1 Thông tư này tại Việt Nam. 3. Các cơ quan, tổ chức, cá nhân khác có liên quan.'
+      trang_pdf: 1
+      sha256_pdf: ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17
+    - dieu: 3
+      khoan: 1
+      noi_dung: 'Quản lý chất lượng sản phẩm, hàng hóa thuộc Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao được thực hiện theo quy định về quản lý chất lượng sản phẩm, hàng hóa thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương và các quy chuẩn kỹ thuật quốc gia tương ứng.'
+      trang_pdf: 2
+      sha256_pdf: ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17
+    - dieu: 3
+      khoan: 2
+      noi_dung: 'Quản lý chất lượng sản phẩm, hàng hóa không thuộc Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao quy định tại Điều 1 Thông tư này được thực hiện theo quy định của pháp luật chuyên ngành và các văn bản pháp luật có liên quan.'
+      trang_pdf: 2
+      sha256_pdf: ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17
+    - dieu: 3
+      khoan: 3
+      noi_dung: 'Trường hợp quy chuẩn kỹ thuật quốc gia đã ban hành trước ngày Thông tư này có hiệu lực thi hành có quy định khác về biện pháp quản lý chất lượng sản phẩm, hàng hóa thuộc Danh mục ban hành kèm theo Thông tư này thì thực hiện theo quy định tại Thông tư này.'
+      trang_pdf: 2
+      sha256_pdf: ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17
+    - dieu: 3
+      khoan: 4
+      noi_dung: 'Trường hợp quy chuẩn kỹ thuật quốc gia được dẫn chiếu tại Thông tư này được sửa đổi, bổ sung hoặc thay thế thì áp dụng theo quy định tại quy chuẩn kỹ thuật quốc gia sửa đổi, bổ sung, thay thế.'
+      trang_pdf: 2
+      sha256_pdf: ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17
+    - dieu: 5
+      noi_dung: 'Tổ chức, cá nhân đã thực hiện đánh giá phù hợp với quy chuẩn kỹ thuật, công bố hợp quy trước ngày Thông tư này có hiệu lực, tiếp tục được sử dụng giấy chứng nhận hợp quy, dấu hợp quy đến hết thời hạn hiệu lực và không phải thực hiện đăng ký lại bản công bố hợp quy.'
+      trang_pdf: 3
+      sha256_pdf: ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17
+    - dieu: 6
+      khoan: 1
+      noi_dung: 'Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 7 năm 2026.'
+      trang_pdf: 3
+      sha256_pdf: ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17
+    - dieu: 6
+      khoan: 2
+      noi_dung: 'Thông tư số 41/2023/TT-BCT ngày 28 tháng 12 năm 2023 của Bộ trưởng Bộ Công Thương Ban hành Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Công Thương hết hiệu lực kể từ ngày Thông tư này có hiệu lực thi hành.'
+      trang_pdf: 3
+      sha256_pdf: ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17
+    - dieu: 6
+      khoan: 3
+      noi_dung: 'Trong quá trình thực hiện, nếu có khó khăn, vướng mắc, đề nghị các cơ quan, tổ chức, cá nhân kịp thời phản ánh về Bộ Công Thương để xem xét, giải quyết./.'
+      trang_pdf: 3
+      sha256_pdf: ea4663c2248b79bb3249dd64e601f1d81924992a0620ddf443c7681207134a17
 ghi_chu: 'Bản datafiles 33-bct.signed.pdf là ảnh quét (35 trang). Dùng Công báo CDN có lớp chữ (70 trang) để trích phụ lục. Mục B rủi ro cao trong phụ lục để trống (chỉ dấu "-").'
-toan_van: raw/download/congbaocdn.chinhphu.vn/33-2026-tt-bct.pdf
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/33-2026-tt-bct.pdf
+  - wiki/sources/33-2026-tt-bct.md

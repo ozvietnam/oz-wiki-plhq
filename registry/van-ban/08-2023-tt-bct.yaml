@@ -27,10 +27,48 @@ xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF Công báo số 663+664 ngày 14-04-2023 (lớp chữ): Điều 3 khoản 1 hiệu lực 16-05-2023; tình trạng hiện tại: Điều 20 khoản 3 điểm c TT 48/2026/TT-BCT (PDF Công báo số 521 ngày 23-09-2026) bãi bỏ khoản 1 Điều 1 và Phụ lục I từ 05-09-2026; Điều 21 khoản 3 cho danh mục thiết bị y tế đã qua sử dụng cấm nhập khẩu (Phụ lục I TT 12/2018 sửa bởi Phụ lục I TT 08/2023) tiếp tục thực hiện đến hết 31-12-2026'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      khoan: 1
+      noi_dung: 'Thay thế Phụ lục I - Danh mục hàng tiêu dùng, thiết bị y tế, phương tiện đã qua sử dụng cấm nhập khẩu quy định tại Điều 3 Thông tư số 12/2018/TT-BCT bằng Phụ lục I ban hành kèm theo Thông tư này.'
+      trang_pdf: 1
+      sha256_pdf: 9e2a89116293aaa62d3ca204de6214ffe79379539146c01743328f8e47187884
+    - dieu: 1
+      khoan: 2
+      noi_dung: 'Thay thế Phụ lục II - Danh mục hàng hóa tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu quy định tại khoản 1 Điều 4 Thông tư số 12/2018/TT-BCT bằng Phụ lục II ban hành kèm theo Thông tư này.'
+      trang_pdf: 1
+      sha256_pdf: 9e2a89116293aaa62d3ca204de6214ffe79379539146c01743328f8e47187884
+    - dieu: 2
+      khoan: 1
+      noi_dung: 'Thay thế Phụ lục I - Danh mục chi tiết theo mã HS đối với thóc, gạo xuất khẩu quy định tại Điều 1 Thông tư số 41/2019/TT-BCT bằng Phụ lục III ban hành kèm theo Thông tư này.'
+      trang_pdf: 2
+      sha256_pdf: 9e2a89116293aaa62d3ca204de6214ffe79379539146c01743328f8e47187884
+    - dieu: 2
+      khoan: 2
+      noi_dung: 'Thay thế Phụ lục VI - Danh mục chi tiết theo mã HS đối với nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá quy định tại khoản 1 Điều 6 Thông tư số 41/2019/TT-BCT bằng Phụ lục IV ban hành kèm theo Thông tư này.'
+      trang_pdf: 2
+      sha256_pdf: 9e2a89116293aaa62d3ca204de6214ffe79379539146c01743328f8e47187884
+    - dieu: 2
+      khoan: 3
+      noi_dung: 'Thay thế Phụ lục VII - Danh mục chi tiết theo mã HS đối với máy móc, thiết bị chuyên ngành thuốc lá quy định tại khoản 2 Điều 6 Thông tư số 41/2019/TTBCT bằng Phụ lục V ban hành kèm theo Thông tư này.'
+      trang_pdf: 2
+      sha256_pdf: 9e2a89116293aaa62d3ca204de6214ffe79379539146c01743328f8e47187884
+    - dieu: 3
+      khoan: 1
+      noi_dung: 'Thông tư này có hiệu lực thi hành kể từ ngày 16 tháng 5 năm 2023.'
+      trang_pdf: 2
+      sha256_pdf: 9e2a89116293aaa62d3ca204de6214ffe79379539146c01743328f8e47187884
+    - dieu: 3
+      khoan: 2
+      noi_dung: 'Trong quá trình thực hiện Thông tư này, nếu có phát sinh vướng mắc, thương nhân, các cơ quan, tổ chức, cá nhân có liên quan phản ánh bằng văn bản về Bộ Công Thương để được xử lý./.'
+      trang_pdf: 2
+      sha256_pdf: 9e2a89116293aaa62d3ca204de6214ffe79379539146c01743328f8e47187884
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1964 mã HS). Tiêu đề đã đối chiếu (vbpl.vn). Tệp trên datafiles.chinhphu.vn mang tên 03-bct.signed.pdf nhưng gắn tại trang vanban.chinhphu.vn docid=207706 (trích yếu Thông tư 08/2023/TT-BCT). PDF ký số dạng ảnh, chưa OCR. Nhập từ hs-code-api data/legal-docs.json (1964 mã HS). File datafiles cũ tên 03-bct.signed.pdf là cùng văn bản 08/2023. HET_HIEU_LUC_MOT_PHAN + het_hieu_luc_tu 31-12-2026: khoản 1 Điều 1 và Phụ lục I bị bãi từ 05-09-2026 nhưng nội dung danh mục TB YT đã qua sử dụng còn chuyển tiếp đến hết 31-12-2026 (Điều 21 khoản 3 TT 48/2026); các khoản/phụ lục khác của TT 08/2023 (sửa PL II, sửa 41/2019…) chưa bị 48/2026 bãi hết. Tra 17-11-2026: không có TT-BCT mới thay riêng phần chuyển tiếp TB YT — sau 31-12-2026 quản lý theo pháp luật chuyên ngành y tế (theo Điều 21 khoản 3 TT 48/2026); thay thế khung chính đã ghi chiều đi trên 48-2026-tt-bct.yaml. Tra lại 19-11-2026: xác nhận — không có TT-BCT thay riêng phần chuyển tiếp, hết hạn đúng kỳ 31-12-2026. Tra lại 20-11-2026: xác nhận — chưa có TT-BCT thay phần chuyển tiếp TB YT đã qua sử dụng (tra vanban.chinhphu.vn 50 VB mới nhất 11–17/11/2026, Công báo số 584 ngày 20/11/2026 mục BCT, moit.gov.vn/van-ban-phap-luat tháng 11/2026; TT-BCT mới nhất là 70/2026/TT-BCT ngày 31/10/2026 về định mức kiểm toán năng lượng, không liên quan).'
-toan_van: raw/download/congbaocdn.chinhphu.vn/08-2023-tt-bct.pdf
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/08-2023-tt-bct.pdf
+  - wiki/sources/08-2023-tt-bct.md
 het_hieu_luc_tu: '2026-12-31'
 quan_he:
   sua_doi:
