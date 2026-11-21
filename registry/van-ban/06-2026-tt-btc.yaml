@@ -20,9 +20,67 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Công báo số 106 ngày 13-02-2026 và PDF toàn văn (raw/download/congbaocdn.chinhphu.vn/06-2026-tt-btc.pdf): ban hành 26-01-2026, Điều 3 khoản 1 hiệu lực từ 01-03-2026, sửa đổi TT 13/2015/TT-BTC.'
+  pham_vi: 'Công báo số 106 ngày 13-02-2026, PDF toàn văn (raw/download/congbaocdn.chinhphu.vn/06-2026-tt-btc.pdf, 27 trang, ký Thứ trưởng Nguyễn Đức Chi ngày 26-01-2026, SHA-256 b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54) và wiki/sources/06-2026-tt-btc.md: ban hành 26-01-2026, Điều 3 khoản 1 hiệu lực từ 01-03-2026, sửa đổi, bổ sung TT 13/2015/TT-BTC (bổ sung Điều 10a chủ động tạm dừng làm thủ tục hải quan và Điều 14a kiểm tra, giám sát hàng hóa giao dịch qua thương mại điện tử).'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      khoan: 1
+      noi_dung: '1. Sửa đổi, bổ sung Điều 3 đã được sửa đổi, bổ sung theo quy định tại khoản 1 Điều 1 Thông tư số 13/2020/TT-BTC như sau: “Điều 3. Giải thích từ ngữ Trong Thông tư này, các từ ngữ dưới đây được hiểu như sau: 1. Hàng giả bao gồm các loại hàng hóa theo quy định tại khoản 7 Điều 3 Nghị định số 98/2020/NĐ-CP ngày 26 tháng 8 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong hoạt động thương mại, sản xuất, buôn bán hàng giả, hàng cấm và bảo vệ quyền lợi người tiêu dùng.'
+      trang_pdf: 2
+      sha256_pdf: b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54
+    - dieu: 1
+      khoan: 2
+      noi_dung: '2. Người nộp Đơn đề nghị kiểm tra, giám sát hàng hóa xuất khẩu, nhập khẩu liên quan đến quyền sở hữu trí tuệ nộp hồ sơ đến Cục Hải quan thông qua Hệ thống xử lý dữ liệu điện tử hải quan. Trường hợp Hệ thống xử lý dữ liệu điện tử hải quan gặp sự cố hoặc chưa đáp ứng, người nộp Đơn đề nghị nộp 01 bộ hồ sơ giấy gồm các chứng từ quy định tại khoản 1 Điều này trực tiếp tại bộ phận một cửa Cục Hải quan hoặc gửi qua bưu điện đến Cục Hải quan.'
+      trang_pdf: 4
+      sha256_pdf: b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54
+    - dieu: 1
+      khoan: 3
+      noi_dung: '2. Trong thời hạn 20 ngày làm việc kể từ ngày tiếp nhận đầy đủ bộ hồ sơ đề nghị, Cục Hải quan kiểm tra các nội dung tại điểm b khoản 1 Điều này, đối chiếu các thông tin của Đơn đề nghị với cơ sở dữ liệu về sở hữu trí tuệ và xử lý như sau: a) Trường hợp không chấp nhận thì thông báo cho người nộp Đơn đề nghị và nêu rõ lí do; b) Trường hợp chấp nhận thì thông báo cho người nộp Đơn và các Chi cục Hải quan khu vực, Chi cục Điều tra Chống buôn lậu để thực hiện kiểm tra, giám sát hải quan đối với hàng hóa xuất khẩu, nhập khẩu theo quy định tại Điều 12 Thông tư này.'
+      trang_pdf: 5
+      sha256_pdf: b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54
+    - dieu: 1
+      khoan: 4
+      noi_dung: '4. Bổ sung Điều 10a sau Điều 10 như sau: “Điều 10a. Trình tự, thủ tục chủ động tạm dừng làm thủ tục hải quan 1. Trong quá trình thực hiện các biện pháp kiểm tra, giám sát và kiểm soát hàng hoá xuất khẩu, nhập khẩu liên quan đến sở hữu trí tuệ; qua phân tích cơ sở dữ liệu về sở hữu trí tuệ; trên cơ sở thông tin cung cấp từ các đơn vị nghiệp vụ hải quan, nếu có căn cứ rõ ràng nghi ngờ hàng hóa xuất khẩu, nhập khẩu là hàng hóa giả mạo về nhãn hiệu, hàng hoá giả mạo chỉ dẫn địa lý, hàng hóa sao chép lậu thì Đội trưởng Hải quan nơi đăng ký tờ khai ra Quyết định tạm dừng làm thủ tục hải quan theo mẫu số 10 Phụ lục II ban hành kèm theo Thông tư này.'
+      trang_pdf: 6
+      sha256_pdf: b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54
+    - dieu: 1
+      khoan: 5
+      noi_dung: '5. Sửa đổi, bổ sung Điều 11 như sau: “Điều 11. Tiếp tục làm thủ tục hải quan 1. Đội trưởng Hải quan nơi đăng ký tờ khai ban hành quyết định tiếp tục làm thủ tục hải quan cho lô hàng theo Mẫu số 05 Phụ lục II ban hành theo Thông tư này trong các trường hợp sau: a) Theo quy định tại khoản 4 Điều 76 Luật Hải quan số 54/2014/QH13; b) Kết quả kiểm tra của cơ quan hải quan xác định không có vi phạm; c) Quyết định tạm dừng làm thủ tục hải quan bị hủy bỏ theo quy định của pháp luật.'
+      trang_pdf: 7
+      sha256_pdf: b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54
+    - dieu: 1
+      khoan: 6
+      noi_dung: '6. Bổ sung Điều 14a vào sau Điều 14 như sau: “Điều 14a. Kiểm tra, giám sát hải quan đối với hàng hóa xuất khẩu, nhập khẩu liên quan đến quyền sở hữu trí tuệ giao dịch qua thương mại điện tử 1. Việc kiểm tra, giám sát hải quan đối với hàng hóa xuất khẩu, nhập khẩu liên quan đến quyền sở hữu trí tuệ giao dịch qua thương mại điện tử được thực hiện trên cơ sở nguyên tắc quản lý rủi ro. Trường hợp Hải quan nơi đăng ký tờ khai có căn cứ rõ ràng về hàng giả mạo quyền sở hữu trí tuệ thì thực hiện theo trình tự, thủ tục quy định tại Điều 10a Thông tư này. 2. Việc xử lý đối với hàng hóa hàng hóa xuất khẩu, nhập khẩu giao dịch qua thương mại điện tử có dấu hiệu về hàng giả hoặc xâm phạm quyền sở hữu trí tuệ thực hiện theo quy định tại Điều 13 và Điều 14 Thông tư này.”'
+      trang_pdf: 8
+      sha256_pdf: b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54
+    - dieu: 2
+      khoan: 1
+      noi_dung: '1. Thay thế cụm từ “hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo vệ quyền sở hữu trí tuệ” bằng cụm từ “hàng hóa xuất khẩu, nhập khẩu liên quan đến quyền sở hữu trí tuệ” tại Điều 1, khoản 4 Điều 4, tên Chương II Thông tư số 13/2015/TTBTC, khoản 7, khoản 9 Điều 1 Thông tư số 13/2020/TT-BTC.'
+      trang_pdf: 8
+      sha256_pdf: b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54
+    - dieu: 2
+      khoan: 2
+      noi_dung: '2. Thay thế cụm từ “Tổng cục Hải quan” bằng cụm từ “Cục Hải quan” tại điểm e khoản 3 Điều 10, khoản 1 Điều 17 Thông tư số 13/2015/TT-BTC, khoản 6, khoản 9, khoản 10 Điều 1, khoản 2 Điều 2 Thông tư số 13/2020/TT-BTC.'
+      trang_pdf: 8
+      sha256_pdf: b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54
+    - dieu: 3
+      khoan: 1
+      noi_dung: '1. Thông tư này có hiệu lực thi hành từ ngày 01 tháng 3 năm 2026.'
+      trang_pdf: 9
+      sha256_pdf: b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54
+    - dieu: 3
+      khoan: 2
+      noi_dung: '2. Đối với các hồ sơ cơ quan Hải quan nhận trước ngày Thông tư này có hiệu lực thì áp dụng theo các quy định tại Thông tư số 13/2015/TT-BTC được sửa đổi, bổ sung bởi Thông tư số 13/2020/TT-BTC.'
+      trang_pdf: 9
+      sha256_pdf: b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54
+    - dieu: 3
+      khoan: 3
+      noi_dung: '3. Trường hợp các văn bản quy phạm pháp luật viện dẫn tại Thông tư này được sửa đổi, bổ sung hoặc thay thế bằng văn bản quy phạm pháp luật khác thì áp dụng theo quy định tại văn bản sửa đổi, bổ sung hoặc thay thế đó.'
+      trang_pdf: 10
+      sha256_pdf: b6666fc73dbfcd0dd0a9dcd9e402f5c5bc17ef2a14b2b68dd26024ca9b524f54
 ghi_chu: 'Có quy định riêng cho hàng giao dịch qua thương mại điện tử. Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.'
-toan_van: raw/download/congbaocdn.chinhphu.vn/06-2026-tt-btc.pdf
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/06-2026-tt-btc.pdf
+  - wiki/sources/06-2026-tt-btc.md
