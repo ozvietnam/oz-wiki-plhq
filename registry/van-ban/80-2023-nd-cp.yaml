@@ -22,14 +22,98 @@ nguon:
     truy_cap: '2026-11-14'
   - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-80-2023-nd-cp-40452.htm
     truy_cap: '2026-11-14'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/11/40452/47122-1-20231215-121680-2023-nd-cp.pdf
+    truy_cap: '2026-11-21'
   - url: https://gialai.gov.vn/van-ban-trung-uong-sao-luc/nghi-dinh-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-95-2021-nd-cp-ngay-01-thang-11-nam-2021-va-nghi-dinh-so-83-2014-n
     truy_cap: '2026-10-28'
   - url: https://www.vietnamtradeportal.gov.vn/index.php?r=site/display&id=4096
     truy_cap: '2026-10-28'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=208982, Phó Thủ tướng Lê Minh Khái ký thay Thủ tướng), toàn văn PDF ký số (80-nd.signed.pdf) và Công báo Chính phủ (id=40452): số hiệu 80/2023/NĐ-CP, tiêu đề ''Sửa đổi, bổ sung một số điều của Nghị định số 95/2021/NĐ-CP ngày 01 tháng 11 năm 2021 và Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ về kinh doanh xăng dầu'', ban hành và có hiệu lực thi hành từ ngày 17-11-2023; đang còn hiệu lực'
+  pham_vi: 'Đã đối chiếu toàn văn nguồn bậc A từ PDF Công báo số 1215 + 1216 ngày 27-11-2023 (raw/download/congbaocdn.chinhphu.vn/80-2023-nd-cp.pdf, 14 trang, trang 2–15 của số Công báo, có lớp chữ ký số bởi Văn phòng Chính phủ ngày 04-12-2023, SHA-256 bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3), thẻ vanban.chinhphu.vn (docid=208982, Phó Thủ tướng Lê Minh Khái ký thay Thủ tướng), toàn văn PDF ký số (80-nd.signed.pdf), Công báo Chính phủ (id=40452) và trang wiki/sources/80-2023-nd-cp.md: số hiệu 80/2023/NĐ-CP, gồm 3 Điều sửa đổi, bổ sung một số điều của Nghị định 95/2021/NĐ-CP và Nghị định 83/2014/NĐ-CP về kinh doanh xăng dầu, ban hành và có hiệu lực thi hành từ ngày 17-11-2023; đang còn hiệu lực.'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
-toan_van: raw/download/congbao.chinhphu.vn/80-2023-nd-cp.html
+  dieu_khoan:
+    - dieu: 1
+      khoan: 1
+      noi_dung: '1. Sửa đổi, bổ sung điểm d khoản 7 Điều 1 và điểm 6 khoản 7 Điều 1 Nghị định số 95/2021/NĐ-CP như sau: “d) Trường hợp Giấy xác nhận đủ điều kiện làm thương nhân đầu mối kinh doanh xăng dầu hết hiệu lực thi hành, thương nhân phải lập hồ sơ như đối với trường hợp cấp mới quy định tại điểm a khoản 7 Điều 1 Nghị định số 95/2021/NĐ-CP, bổ sung văn bản chứng minh thực hiện đầy đủ nghĩa vụ về trích lập, chi sử dụng, kết chuyển Quỹ bình ổn giá xăng dầu và gửi về Bộ Công Thương trước ít nhất ba mươi (30) ngày làm việc, trước khi Giấy xác nhận hết hiệu lực.” “6. Bộ Công Thương có thẩm quyền thu hồi Giấy xác nhận đủ điều kiện làm thương nhân đầu mối kinh doanh xăng dầu. Giấy xác nhận đủ điều kiện làm thương nhân đầu mối kinh doanh xăng dầu bị thu hồi trong các trường hợp: a) Thương nhân không tiếp tục làm thương nhân đầu mối kinh doanh xăng dầu và có văn bản gửi Bộ Công Thương đề nghị thu hồi Giấy xác nhận đủ điều kiện làm thương nhân đầu mối kinh doanh xăng dầu đã được cấp cho thương nhân. b) Thương nhân ngừng thực hiện toàn bộ hoạt động kinh doanh xăng dầu trong thời gian từ chín mươi (90) ngày trở lên. c) Thương nhân không thực hiện đủ tổng nguồn xăng dầu tối thiểu được Bộ Công Thương giao trong hai (02) năm liên tiếp. d) Thương nhân bị giải thể, phá sản theo quy định của pháp luật. đ) Thương nhân vi phạm quy định về điều kiện đối với thương nhân đầu mối kinh doanh xăng dầu và không khắc phục vi phạm trong thời gian chín mươi (90) ngày kể từ ngày ra quyết định xử phạt vi phạm hành chính. e) Thương nhân vi phạm quy định về dự trữ xăng dầu bắt buộc tối thiểu và không khắc phục vi phạm trong thời gian chín mươi (90) ngày kể từ ngày ra quyết định xử phạt vi phạm hành chính. g) Thương nhân đang bị xử lý vi phạm mà tái phạm quy định về bảo đảm chất lượng xăng dầu lưu thông trên thị trường tại Nghị định này và các quy định của pháp luật về chất lượng.”'
+      trang_pdf: 1
+      sha256_pdf: bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3
+    - dieu: 1
+      khoan: 2
+      noi_dung: '2. Sửa đổi, bổ sung khoản 8 Điều 1 Nghị định số 95/2021/NĐ-CP như sau: “22. Thương nhân đầu mối kinh doanh xăng dầu có trách nhiệm báo cáo định kỳ hàng quý tình hình sử dụng kho xăng dầu theo quy định của Bộ Công Thương. 23. Trường hợp thương nhân bị chia, hợp nhất, sáp nhập, chuyển đổi hình thức hoặc không tiếp tục làm thương nhân đầu mối kinh doanh xăng dầu, trừ trường hợp việc thay đổi trên không ảnh hưởng đến điều kiện kinh doanh, thương nhân phải thông báo cho Bộ Công Thương để tiến hành thu hồi Giấy xác nhận đủ điều kiện làm thương nhân đầu mối kinh doanh xăng dầu.”'
+      trang_pdf: 2
+      sha256_pdf: bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3
+    - dieu: 1
+      khoan: 3
+      noi_dung: '3. Sửa đổi, bổ sung khoản 4 Điều 13 Nghị định số 83/2014/NĐ-CP như sau: “4. Có phòng thử nghiệm thuộc sở hữu của thương nhân hoặc thuê của tổ chức có phòng thử nghiệm đủ năng lực kiểm tra, thử nghiệm theo quy định.”'
+      trang_pdf: 3
+      sha256_pdf: bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3
+    - dieu: 1
+      khoan: 4
+      noi_dung: '4. Sửa đổi, bổ sung khoản 6 Điều 14 Nghị định số 83/2014/NĐ-CP như sau: “6. Bộ Công Thương có thẩm quyền thu hồi Giấy xác nhận đủ điều kiện làm thương nhân phân phối xăng dầu. Giấy xác nhận đủ điều kiện làm thương nhân phân phối xăng dầu bị thu hồi trong các trường hợp: a) Thương nhân không tiếp tục làm thương nhân phân phối xăng dầu và có văn bản gửi Bộ Công Thương đề nghị thu hồi Giấy xác nhận đủ điều kiện làm thương nhân phân phối xăng dầu đã được cấp cho thương nhân. b) Thương nhân ngừng thực hiện toàn bộ hoạt động kinh doanh xăng dầu trong thời gian từ chín mươi (90) ngày trở lên. c) Thương nhân bị giải thể, phá sản theo quy định của pháp luật. d) Thương nhân vi phạm quy định về điều kiện đối với thương nhân phân phối xăng dầu và không khắc phục vi phạm trong thời gian chín mươi (90) ngày kể từ ngày ra quyết định xử phạt vi phạm hành chính. đ) Thương nhân vi phạm quy định về dự trữ xăng dầu bắt buộc tối thiểu và không khắc phục vi phạm trong thời gian chín mươi (90) ngày kể từ ngày ra quyết định xử phạt vi phạm hành chính. e) Thương nhân đang bị xử lý vi phạm mà tái phạm quy định về bảo đảm số lượng, chất lượng xăng dầu lưu thông trên thị trường, vi phạm quy định về tăng, giảm giá bán xăng dầu và các quy định của pháp luật về chất lượng.”'
+      trang_pdf: 3
+      sha256_pdf: bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3
+    - dieu: 1
+      khoan: 5
+      noi_dung: '5. Sửa đổi, bổ sung Điều 15 Nghị định số 83/2014/NĐ-CP như sau: “17. Thương nhân phân phối xăng dầu có trách nhiệm báo cáo định kỳ hàng quý tình hình sử dụng kho xăng dầu theo quy định của Bộ Công Thương. 18. Trường hợp doanh nghiệp bị chia, hợp nhất, sáp nhập, chuyển đổi hình thức hoặc không tiếp tục làm thương nhân phân phối xăng dầu, trừ trường hợp việc thay đổi trên không ảnh hưởng đến điều kiện kinh doanh, thương nhân phải thông báo cho Bộ Công Thương để tiến hành thu hồi Giấy xác nhận đủ điều kiện làm thương nhân phân phối xăng dầu.”'
+      trang_pdf: 3
+      sha256_pdf: bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3
+    - dieu: 1
+      khoan: 6
+      noi_dung: '6. Sửa đổi, bổ sung khoản 8 Điều 20 Nghị định số 83/2014/NĐ-CP như sau: “8. Sở Công Thương có thẩm quyền thu hồi Giấy xác nhận đủ điều kiện làm đại lý bán lẻ xăng dầu. Giấy xác nhận đủ điều kiện làm đại lý bán lẻ xăng dầu bị thu hồi trong các trường hợp: a) Thương nhân không tiếp tục làm đại lý bán lẻ xăng dầu và có văn bản gửi Sở Công Thương đề nghị thu hồi Giấy xác nhận đủ điều kiện làm đại lý bán lẻ xăng dầu đã được cấp cho thương nhân. b) Thương nhân ngừng thực hiện toàn bộ hoạt động kinh doanh xăng dầu trong thời gian từ ba mươi (30) ngày trở lên. c) Thương nhân bị giải thể, phá sản theo quy định của pháp luật. d) Thương nhân vi phạm quy định về điều kiện đối với đại lý bán lẻ xăng dầu và không khắc phục vi phạm trong thời gian chín mươi (90) ngày kể từ ngày ra quyết định xử phạt vi phạm hành chính. đ) Thương nhân đang bị xử lý vi phạm mà tái phạm quy định về bảo đảm số lượng, chất lượng xăng dầu lưu thông trên thị trường và các quy định của pháp luật về chất lượng.”'
+      trang_pdf: 4
+      sha256_pdf: bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3
+    - dieu: 1
+      khoan: 7
+      noi_dung: '7. Sửa đổi, bổ sung khoản 2, khoản 3 và khoản 11 Điều 21 Nghị định số 83/2014/NĐ-CP như sau: “2. Chỉ được ký hợp đồng làm đại lý bán lẻ xăng dầu cho tối đa ba (03) thương nhân là thương nhân phân phối xăng dầu hoặc thương nhân đầu mối kinh doanh xăng dầu. 3. Thương nhân đã ký hợp đồng làm đại lý bán lẻ xăng dầu cho ba (03) thương nhân là thương nhân phân phối xăng dầu hoặc thương nhân đầu mối kinh doanh xăng dầu, không được ký thêm hợp đồng làm đại lý bán lẻ xăng dầu cho thương nhân phân phối xăng dầu hoặc thương nhân đầu mối kinh doanh xăng dầu khác. Đại lý bán lẻ xăng dầu phải nằm trong hệ thống phân phối của thương nhân phân phối xăng dầu hoặc thương nhân đầu mối kinh doanh xăng dầu và chịu sự kiểm soát của thương nhân đó.'
+      trang_pdf: 4
+      sha256_pdf: bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3
+    - dieu: 1
+      khoan: 8
+      noi_dung: '8. Sửa đổi, bổ sung khoản 6 Điều 25 Nghị định số 83/2014/NĐ-CP như sau: “6. Sở Công Thương có thẩm quyền thu hồi Giấy chứng nhận cửa hàng đủ điều kiện bán lẻ xăng dầu. Giấy chứng nhận cửa hàng đủ điều kiện bán lẻ xăng dầu bị thu hồi trong các trường hợp: a) Thương nhân không tiếp tục hoạt động kinh doanh xăng dầu và có văn bản gửi Sở Công Thương đề nghị thu hồi Giấy chứng nhận cửa hàng đủ điều kiện bán lẻ xăng dầu đã được cấp cho thương nhân. b) Thương nhân bị giải thể, phá sản theo quy định của pháp luật. c) Thương nhân vi phạm quy định về điều kiện đối với cửa hàng bán lẻ xăng dầu và không khắc phục vi phạm trong thời gian chín mươi (90) ngày kể từ ngày ra quyết định xử phạt vi phạm hành chính. d) Thương nhân đang bị xử lý vi phạm mà tái phạm quy định về bảo đảm số lượng, chất lượng xăng dầu lưu thông trên thị trường và quy định pháp luật về chất lượng.”'
+      trang_pdf: 5
+      sha256_pdf: bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3
+    - dieu: 1
+      khoan: 9
+      noi_dung: '9. Sửa đổi, bổ sung khoản 9, khoản 10 Điều 26 Nghị định số 83/2014/NĐ-CP như sau: “9. Trường hợp thương nhân bị chia, hợp nhất, sáp nhập, chuyển đổi hình thức hoặc không tiếp tục kinh doanh xăng dầu, trừ trường hợp việc thay đổi trên không ảnh hưởng đến điều kiện kinh doanh, thương nhân phải thông báo cho Sở Công Thương để tiến hành thu hồi Giấy chứng nhận cửa hàng đủ điều kiện bán lẻ xăng dầu. 10. Thực hiện quy định về hóa đơn điện tử và cung cấp dữ liệu hóa đơn điện tử theo quy định của Luật quản lý thuế, các văn bản hướng dẫn của Bộ Tài chính và cơ quan thuế.”'
+      trang_pdf: 5
+      sha256_pdf: bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3
+    - dieu: 1
+      khoan: 10
+      noi_dung: '10. Sửa đổi, bổ sung điểm 1, điểm 4, điểm 6 khoản 26 Điều 1 Nghị định số 95/2021/NĐ-CP như sau: “1. Quỹ bình ổn giá xăng dầu là Quỹ tài chính không nằm trong cân đối ngân sách nhà nước (sau đây gọi chung là Quỹ bình ổn giá); toàn bộ nguồn trích lập, chi sử dụng để tham gia điều tiết, hỗ trợ cho mục tiêu bình ổn giá bán xăng dầu trong nước. Thương nhân đầu mối kinh doanh xăng dầu có nghĩa vụ trích lập Quỹ bình ổn giá; hạch toán và theo dõi riêng Quỹ bình ổn giá bằng tài khoản mở tại ngân hàng thương mại, chi nhánh ngân hàng nước ngoài hoạt động hợp pháp tại Việt Nam (sau đây gọi chung là ngân hàng) theo quy định tại Nghị định này và hướng dẫn của Bộ Tài chính. Thương nhân đầu mối kinh doanh xăng dầu chịu trách nhiệm toàn diện trước pháp luật về việc lựa chọn ngân hàng, quản lý và đảm bảo bảo toàn số dư Quỹ bình ổn giá. Ngân hàng thực hiện phong tỏa tài khoản Quỹ bình ổn giá của doanh nghiệp. Tài khoản này chỉ được sử dụng vào mục đích trích lập và chi sử dụng Quỹ bình ổn giá của doanh nghiệp theo thông báo điều hành giá xăng dầu của Bộ Công Thương.'
+      trang_pdf: 5
+      sha256_pdf: bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3
+    - dieu: 1
+      khoan: 11
+      noi_dung: '11. Sửa đổi, bổ sung điểm 3 khoản 27 Điều 1 Nghị định số 95/2021/NĐ-CP như sau: “3. Thời gian điều hành giá xăng dầu Thời gian điều hành giá xăng dầu được thực hiện vào ngày thứ Năm hàng tuần. Trường hợp thời gian điều hành giá trùng vào dịp nghỉ Tết Nguyên Đán thì được thực hiện như sau: Nếu ngày thứ Năm trùng vào ngày cuối cùng của năm Âm lịch (29 hoặc 30 Tết Nguyên Đán), việc điều hành giá xăng dầu được thực hiện vào ngày thứ Tư liền kề trước đó. Nếu thứ Năm là ngày mùng 1, mùng 2 hoặc mùng 3 Tết, thời gian điều hành giá xăng dầu được thực hiện vào ngày mùng 4 Tết. Trường hợp thời gian điều hành giá trùng với ngày nghỉ lễ theo quy định thì được thực hiện như sau: Nếu ngày thứ Năm trùng với ngày đầu tiên dịp nghỉ lễ, thời gian điều hành giá xăng dầu được thực hiện vào ngày thứ Tư liền kề trước đó. Nếu ngày thứ Năm trùng vào các ngày nghỉ lễ còn lại, thời gian điều hành giá xăng dầu được thực hiện vào ngày làm việc đầu tiên sau kỳ nghỉ lễ. Trường hợp giá các mặt hàng xăng dầu có biến động bất thường, ảnh hưởng đến phát triển kinh tế - xã hội và đời sống nhân dân, Bộ Công Thương có trách nhiệm báo cáo Thủ tướng Chính phủ xem xét, quyết định thời gian điều hành giá xăng dầu cho phù hợp.”'
+      trang_pdf: 7
+      sha256_pdf: bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3
+    - dieu: 1
+      khoan: 12
+      noi_dung: '12. Sửa đổi, bổ sung khoản 28 Điều 1 Nghị định số 95/2021/NĐ-CP như sau: “Điều 38a. Công thức giá cơ sở 1. Giá cơ sở xăng dầu được xác định bằng (=) giá xăng dầu từ nguồn nhập khẩu nhân với (x) tỷ trọng (%) sản lượng xăng dầu từ nguồn nhập khẩu cộng (+) giá xăng dầu từ nguồn sản xuất trong nước nhân với (x) tỷ trọng (%) sản lượng xăng dầu từ nguồn sản xuất trong nước, trong đó: a) Các yếu tố hình thành giá cơ sở, trong đó có các khoản chi phí về thuế để tính giá cơ sở xăng dầu theo quy định tại Nghị định này chỉ để áp dụng tính toán giá cơ sở xăng dầu. b) Tỷ trọng (%) sản lượng xăng dầu từ nguồn sản xuất trong nước và nhập khẩu để tính giá cơ sở được xác định hàng quý; tỷ trọng sản lượng của quý trước liền kề được áp dụng để tính giá cơ sở cho các kỳ điều hành giá cơ sở của quý tiếp theo. Định kỳ hàng quý, trên cơ sở số liệu cung cấp về sản lượng xăng dầu nhập khẩu của Bộ Tài chính và báo cáo sản lượng bán xăng dầu trong nước của các thương nhân đầu mối sản xuất xăng dầu (từ ngày 21 tháng trước liền kề tháng đầu tiên của quý đến ngày 20 tháng cuối quý), cơ quan chủ trì điều hành giá xăng dầu tính toán, xác định tỷ trọng (%) sản lượng xăng dầu từ nguồn trong nước và nhập khẩu để tính giá cơ sở.'
+      trang_pdf: 8
+      sha256_pdf: bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3
+    - dieu: 1
+      khoan: 13
+      noi_dung: '13. Sửa đổi, bổ sung điểm a khoản 1 Điều 40 Nghị định số 83/2014/NĐ-CP như sau: “a) Kiểm tra, giám sát thương nhân đầu mối, thương nhân phân phối xăng dầu tuân thủ các điều kiện và quy định tại Điều 7, 9, 10, 11, 13, 15 và 31 Nghị định số 83/2014/NĐ-CP; giao Sở Công Thương kiểm tra, giám sát thương nhân đầu mối kinh doanh xăng dầu, thương nhân phân phối xăng dầu tuân thủ quy định về sử dụng kho xăng dầu tại Điều 9, 15 và 31 Nghị định số 83/2014/NĐ-CP.”'
+      trang_pdf: 13
+      sha256_pdf: bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3
+    - dieu: 1
+      khoan: 14
+      noi_dung: '14. Sửa đổi, bổ sung điểm đ khoản 2 Điều 40 Nghị định số 83/2014/NĐ-CP như sau: “đ) Ban hành các văn bản hướng dẫn về hóa đơn điện tử theo quy định tại khoản 9 Điều 1 Nghị định này phù hợp với quy định của Luật Quản lý thuế và các văn bản hướng dẫn.”'
+      trang_pdf: 13
+      sha256_pdf: bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3
+    - dieu: 2
+      noi_dung: '1. Nghị định này có hiệu lực kể từ ngày ký ban hành. 2. Quy định chuyển tiếp a) Đối với thương nhân đã được cấp Giấy xác nhận đủ điều kiện làm tổng đại lý kinh doanh xăng dầu được tiếp tục hoạt động theo các quy định về tổng đại lý kinh doanh xăng dầu tại Nghị định số 95/2021/NĐ-CP và Nghị định số 83/2014/NĐ-CP cho đến khi Giấy xác nhận đủ điều kiện làm tổng đại lý kinh doanh xăng dầu hết hiệu lực. b) Trừ trường hợp quy định tại điểm a khoản 2 Điều 2 Nghị định này, các quy định về tổng đại lý tại Nghị định số 95/2021/NĐ-CP và Nghị định số 83/2014/NĐ-CP hết hiệu lực thi hành kể từ ngày Nghị định này có hiệu lực.'
+      trang_pdf: 13
+      sha256_pdf: bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3
+    - dieu: 3
+      noi_dung: '1. Bộ Công Thương, Bộ Tài chính và các bộ, ngành liên quan hướng dẫn thi hành Nghị định này. 2. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương và các tổ chức, cá nhân liên quan chịu trách nhiệm thi hành Nghị định này./.'
+      trang_pdf: 14
+      sha256_pdf: bfbc7991065d76df4f161c52a9b4872a3bd40a5ce2f494253f39314f103873d3
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/80-2023-nd-cp.pdf
+  - raw/download/congbao.chinhphu.vn/80-2023-nd-cp.html
+  - wiki/sources/80-2023-nd-cp.md
