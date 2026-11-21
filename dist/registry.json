@@ -40038,29 +40038,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (3004.32.90)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-04-27",
+      "hieu_luc_tu": "2018-04-27",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 2344/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8192 bản ghi 2309,2344-2348/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 2344/TB-TCHQ/2018, ban hành ngày 27/04/2018 (2018-04-27), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-2344-2018",
           "truy_cap": "2026-02-11"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76530&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/2309.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "2344-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -40071,29 +40078,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (3824.99.99)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-04-27",
+      "hieu_luc_tu": "2018-04-27",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 2345/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8192 bản ghi 2309,2344-2348/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 2345/TB-TCHQ/2018, ban hành ngày 27/04/2018 (2018-04-27), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-2345-2018",
           "truy_cap": "2015-01-30"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76530&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/2309.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "2345-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -40104,29 +40118,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (2202.99.50)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-04-27",
+      "hieu_luc_tu": "2018-04-27",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 2346/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8192 bản ghi 2309,2344-2348/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 2346/TB-TCHQ/2018, ban hành ngày 27/04/2018 (2018-04-27), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-2346-2018",
           "truy_cap": "2026-02-11"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76530&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/2309.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "2346-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -40137,29 +40158,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (1902.19.90)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-04-27",
+      "hieu_luc_tu": "2018-04-27",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 2347/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8192 bản ghi 2309,2344-2348/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 2347/TB-TCHQ/2018, ban hành ngày 27/04/2018 (2018-04-27), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-2347-2018",
           "truy_cap": "2026-02-11"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76530&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/2309.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "2347-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -40170,29 +40198,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (2707.99.90)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-04-27",
+      "hieu_luc_tu": "2018-04-27",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 2348/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8192 bản ghi 2309,2344-2348/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 2348/TB-TCHQ/2018, ban hành ngày 27/04/2018 (2018-04-27), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-2348-2018",
           "truy_cap": "2026-02-11"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76530&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/2309.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "2348-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -57945,29 +57980,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (3004...)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-06-12",
+      "hieu_luc_tu": "2018-06-12",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 3308/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8115 bản ghi 3308.3337./TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 3308/TB-TCHQ/2018, ban hành ngày 12/06/2018 (2018-06-12), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-3308-2018",
           "truy_cap": ""
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76544&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/3308.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "3308-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -58289,29 +58331,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (2101.11.10)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-06-12",
+      "hieu_luc_tu": "2018-06-12",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 3337/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8115 bản ghi 3308.3337./TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 3337/TB-TCHQ/2018, ban hành ngày 12/06/2018 (2018-06-12), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-3337-2018",
           "truy_cap": "2026-02-14"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76544&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/3308.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "3337-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -69436,29 +69485,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (3911.90.00)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-07-10",
+      "hieu_luc_tu": "2018-07-10",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 4029/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8076 bản ghi 4029./TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 4029/TB-TCHQ/2018, ban hành ngày 10/07/2018 (2018-07-10), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-4029-2018",
           "truy_cap": "2026-03-12"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76558&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/_4029.PDF",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "4029-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -80067,29 +80123,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (0206.49.00)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-01-26",
+      "hieu_luc_tu": "2018-01-26",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 503/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8427 bản ghi 503-508/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 503/TB-TCHQ/2018, ban hành ngày 26/01/2018 (2018-01-26), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-503-2018",
           "truy_cap": "2026-02-08"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76476&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/503%20TB-TCHQ.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "503-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -80199,29 +80262,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (3003.20.00)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-01-26",
+      "hieu_luc_tu": "2018-01-26",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 504/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8427 bản ghi 503-508/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 504/TB-TCHQ/2018, ban hành ngày 26/01/2018 (2018-01-26), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-504-2018",
           "truy_cap": "2026-02-08"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76476&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/503%20TB-TCHQ.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "504-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -80272,29 +80342,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (3003.20.00)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-01-26",
+      "hieu_luc_tu": "2018-01-26",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 507/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8427 bản ghi 503-508/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 507/TB-TCHQ/2018, ban hành ngày 26/01/2018 (2018-01-26), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-507-2018",
           "truy_cap": "2026-02-08"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76476&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/503%20TB-TCHQ.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "507-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -80592,29 +80669,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (2918.11.00)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-01-26",
+      "hieu_luc_tu": "2018-01-26",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 508/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8427 bản ghi 503-508/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 508/TB-TCHQ/2018, ban hành ngày 26/01/2018 (2018-01-26), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-508-2018",
           "truy_cap": "2026-02-08"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76476&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/503%20TB-TCHQ.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "508-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -87128,29 +87212,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (2917.19.00)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-01-29",
+      "hieu_luc_tu": "2018-01-29",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 573/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8425 bản ghi 556-599/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 573/TB-TCHQ/2018, ban hành ngày 29/01/2018 (2018-01-29), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-573-2018",
           "truy_cap": "2026-02-08"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76477&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/556-599%20TB-TCHQ%20TB%20v%E1%BB%81%20k%E1%BA%BFt%20qu%E1%BA%A3%20x%C3%A1c%20%C4%91%E1%BB%8Bnh%20tr%C6%B0%E1%BB%9Bc%20m%C3%A3%20s%E1%BB%91.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "573-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -87329,29 +87420,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (7202.41.00)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-01-29",
+      "hieu_luc_tu": "2018-01-29",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 575/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8425 bản ghi 556-599/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 575/TB-TCHQ/2018, ban hành ngày 29/01/2018 (2018-01-29), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-575-2018",
           "truy_cap": "2015-01-30"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76477&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/556-599%20TB-TCHQ%20TB%20v%E1%BB%81%20k%E1%BA%BFt%20qu%E1%BA%A3%20x%C3%A1c%20%C4%91%E1%BB%8Bnh%20tr%C6%B0%E1%BB%9Bc%20m%C3%A3%20s%E1%BB%91.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "575-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -87508,29 +87606,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (4810.31.39)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-01-29",
+      "hieu_luc_tu": "2018-01-29",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 576/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8425 bản ghi 556-599/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 576/TB-TCHQ/2018, ban hành ngày 29/01/2018 (2018-01-29), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-576-2018",
           "truy_cap": "2015-01-30"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76477&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/556-599%20TB-TCHQ%20TB%20v%E1%BB%81%20k%E1%BA%BFt%20qu%E1%BA%A3%20x%C3%A1c%20%C4%91%E1%BB%8Bnh%20tr%C6%B0%E1%BB%9Bc%20m%C3%A3%20s%E1%BB%91.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "576-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -87644,29 +87749,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (2936.21.00)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-01-29",
+      "hieu_luc_tu": "2018-01-29",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 577/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8425 bản ghi 556-599/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 577/TB-TCHQ/2018, ban hành ngày 29/01/2018 (2018-01-29), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-577-2018",
           "truy_cap": "2026-02-08"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76477&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/556-599%20TB-TCHQ%20TB%20v%E1%BB%81%20k%E1%BA%BFt%20qu%E1%BA%A3%20x%C3%A1c%20%C4%91%E1%BB%8Bnh%20tr%C6%B0%E1%BB%9Bc%20m%C3%A3%20s%E1%BB%91.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "577-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -87677,29 +87789,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (2916.12.00)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-01-29",
+      "hieu_luc_tu": "2018-01-29",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 579/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8425 bản ghi 556-599/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 579/TB-TCHQ/2018, ban hành ngày 29/01/2018 (2018-01-29), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-579-2018",
           "truy_cap": "2026-02-08"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76477&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/556-599%20TB-TCHQ%20TB%20v%E1%BB%81%20k%E1%BA%BFt%20qu%E1%BA%A3%20x%C3%A1c%20%C4%91%E1%BB%8Bnh%20tr%C6%B0%E1%BB%9Bc%20m%C3%A3%20s%E1%BB%91.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "579-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -89054,29 +89173,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (6006.34.90)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-01-29",
+      "hieu_luc_tu": "2018-01-29",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 598/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8425 bản ghi 556-599/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 598/TB-TCHQ/2018, ban hành ngày 29/01/2018 (2018-01-29), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-598-2018",
           "truy_cap": "2017-12-16"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76477&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/556-599%20TB-TCHQ%20TB%20v%E1%BB%81%20k%E1%BA%BFt%20qu%E1%BA%A3%20x%C3%A1c%20%C4%91%E1%BB%8Bnh%20tr%C6%B0%E1%BB%9Bc%20m%C3%A3%20s%E1%BB%91.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "598-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -97876,29 +98002,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (5107.20.00)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-02-06",
+      "hieu_luc_tu": "2018-02-06",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 714/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8407 bản ghi 687-751/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 714/TB-TCHQ/2018, ban hành ngày 06/02/2018 (2018-02-06), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-714-2018",
           "truy_cap": "2015-01-30"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76481&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/687-751%20%20TB-TCHQ.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "714-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -97978,29 +98111,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (4818.90.00)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-02-06",
+      "hieu_luc_tu": "2018-02-06",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 715/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8407 bản ghi 687-751/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 715/TB-TCHQ/2018, ban hành ngày 06/02/2018 (2018-02-06), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-715-2018",
           "truy_cap": "2015-01-30"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76481&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/687-751%20%20TB-TCHQ.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "715-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -98143,29 +98283,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (3402.90.93)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-02-06",
+      "hieu_luc_tu": "2018-02-06",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 716/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8407 bản ghi 687-751/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 716/TB-TCHQ/2018, ban hành ngày 06/02/2018 (2018-02-06), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-716-2018",
           "truy_cap": "2026-02-09"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76481&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/687-751%20%20TB-TCHQ.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "716-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -98282,29 +98429,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (3824.90.99)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-02-06",
+      "hieu_luc_tu": "2018-02-06",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 717/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8407 bản ghi 687-751/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 717/TB-TCHQ/2018, ban hành ngày 06/02/2018 (2018-02-06), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-717-2018",
           "truy_cap": "2015-01-30"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76481&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/687-751%20%20TB-TCHQ.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "717-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -98454,29 +98608,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (2918.19.00)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-02-06",
+      "hieu_luc_tu": "2018-02-06",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 718/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8407 bản ghi 687-751/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 718/TB-TCHQ/2018, ban hành ngày 06/02/2018 (2018-02-06), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-718-2018",
           "truy_cap": "2026-02-09"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76481&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/687-751%20%20TB-TCHQ.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "718-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -98520,29 +98681,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (5911.90.90)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-02-06",
+      "hieu_luc_tu": "2018-02-06",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 719/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8407 bản ghi 687-751/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 719/TB-TCHQ/2018, ban hành ngày 06/02/2018 (2018-02-06), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-719-2018",
           "truy_cap": "2015-01-30"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76481&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/687-751%20%20TB-TCHQ.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "719-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -98673,29 +98841,36 @@
       "loai_phan_loai_ngay": "2026-10-14",
       "ten": "Phân loại mã HS theo tracuuhs.com (3822.00.90)",
       "co_quan": "TCHQ",
-      "ngay_ban_hanh": "2018-01-01",
-      "hieu_luc_tu": "2018-01-01",
-      "tinh_trang": "CHUA_XAC_MINH",
+      "ngay_ban_hanh": "2018-02-06",
+      "hieu_luc_tu": "2018-02-06",
+      "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
       "xac_minh": {
-        "muc": "NGUON_B",
-        "pham_vi": "HS code lấy từ tracuuhs.com — TB-TCHQ 720/2018",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-10-10",
-        "boi": "hermes-agent@ozvietnam",
-        "ghi_chu": "Trích từ tracuuhs.com qua Chrome headless crawl — chưa đối chiếu nguồn A"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu nguồn bậc A từ Cổng Thông tin điện tử Hải quan (customs.gov.vn, dòng stt=8407 bản ghi 687-751/TB-TCHQ trong data/customs/processed/all-1990-2026.csv): số hiệu 720/TB-TCHQ/2018, ban hành ngày 06/02/2018 (2018-02-06), tệp đính kèm gốc trên files.customs.gov.vn; đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-21",
+        "boi": "tho-bo-ba-01@ozvietnam"
       },
       "nguon": [
         {
           "url": "https://www.tracuuhs.com/tin-tuc/tchq-720-2018",
           "truy_cap": "2026-02-09"
+        },
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=76481&cid=1294",
+          "truy_cap": "2026-11-21"
+        },
+        {
+          "url": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/687-751%20%20TB-TCHQ.tif",
+          "truy_cap": "2026-11-21"
         }
       ],
       "toan_van": "chua_co",
       "slug": "720-tb-tchq-2018",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
