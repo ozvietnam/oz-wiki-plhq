@@ -12,6 +12,8 @@ covers:
   - muc-do-rui-ro-hang-hoa
   - doc-tinh-trang-hieu-luc
   - co-quan-tiep-nhan-sau-sap-nhap
+  - thu-tuc-tai-cua-khau-nhap
+  - thue-chong-ban-pha-gia-thep
 tags: [hai-quan, thu-tuc, phan-loai-hs, thue]
 ---
 
@@ -31,6 +33,8 @@ Thủ tục hải quan hàng xuất nhập khẩu nằm trên ba tầng văn b�
 - **Phân luồng tờ khai theo mức rủi ro** — xem [[concepts/thu-tuc-hai-quan-xnk]]. Quy định gốc là **Điều 22 TT `81/2019/TT-BTC`** (Luồng 1 Xanh / Luồng 2 Vàng / Luồng 3 Đỏ theo rủi ro thấp – trung bình – cao), sửa bởi `06/2024/TT-BTC` từ `2024-03-15` — xem [[sources/81-2019-tt-btc]] và [[sources/06-2024-tt-btc]].
 - **Cơ quan tiếp nhận sau sáp nhập** — xem [[concepts/co-quan-tiep-nhan-sau-sap-nhap]]. Ánh xạ 5 nhóm cơ quan kế thừa (`BNNPTNT`/`BTNMT`→`BNNMT`, `BTTTT`→`BKHCN`, `BGTVT`→`BXD`, `BLĐTBXH`→`BNV`, `TCHQ`→`CHQ`) để tra đúng ký hiệu cơ quan ban hành văn bản mới và nơi nộp hồ sơ.
 - **Nhãn hàng hoá là điểm mù riêng** — khung nhãn cũ (`43/2017/NĐ-CP`, `111/2021/NĐ-CP`) đã `HET_HIEU_LUC` từ `2026-01-23` theo quan hệ bãi bỏ của `37/2026/NĐ-CP` (cùng nghị định đặt [[concepts/muc-do-rui-ro-hang-hoa]]); văn bản đang điều chỉnh nhãn phụ tiếng Việt **chưa xác minh** trong sổ — xem [[concepts/nhan-hang-hoa-nhap-khau]].
+- **Làm thủ tục tại cửa khẩu nhập** — xem [[concepts/thu-tuc-tai-cua-khau-nhap]]. Danh mục 12 nhóm hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập từ `14/08/2026` áp dụng theo `31/2026/QĐ-TTg` (`CON_HIEU_LUC`, `NGUON_A`, trên nền Điều 4 `08/2015/NĐ-CP` sửa bởi `167/2025/NĐ-CP`), thay thế `23/2019/QĐ-TTg` (**đã hết hiệu lực** từ `14/08/2026`).
+- **Thuế chống bán phá giá thép** — xem [[concepts/thue-chong-ban-pha-gia-thep]]. Khung phòng vệ thương mại hiện hành gồm Luật `05/2017/QH14` và Nghị định `86/2025/NĐ-CP` (`CON_HIEU_LUC` từ `01/07/2025`, thay thế `10/2018/NĐ-CP` **đã hết hiệu lực**), cùng 07 quyết định thép còn hiệu lực (`143/QĐ-BCT`, `1959/QĐ-BCT`, `2310/QĐ-BCT`, `2822/QĐ-BCT`, `3011/QĐ-BCT`, `3765/QĐ-BCT`, `3176/QĐ-BCT`); tách bạch với các quyết định **đã hết hiệu lực** (`691/QĐ-BCT`, `693/QĐ-BCT`, `1975/QĐ-BCT`).
 
 ## Sources covered
 
@@ -47,6 +51,8 @@ Các số hiệu khác dẫn trong trang này đều có tệp trong `registry/v
 - [[concepts/muc-do-rui-ro-hang-hoa]]
 - [[concepts/doc-tinh-trang-hieu-luc]]
 - [[concepts/co-quan-tiep-nhan-sau-sap-nhap]]
+- [[concepts/thu-tuc-tai-cua-khau-nhap]]
+- [[concepts/thue-chong-ban-pha-gia-thep]]
 
 ## Open questions
 

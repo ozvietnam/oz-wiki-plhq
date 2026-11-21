@@ -31,5 +31,151 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      khoan: 1
+      noi_dung: 'Quyết định này quy định về danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập.'
+      trang_pdf: 1
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 1
+      khoan: 2
+      noi_dung: 'Hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập là hàng hóa đưa từ nước ngoài vào lãnh thổ Việt Nam theo khoản 2 Điều 28 Luật Thương mại.'
+      trang_pdf: 1
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 2
+      khoan: 1
+      noi_dung: 'Tổ chức, cá nhân thực hiện thủ tục hải quan nhập khẩu hàng hóa thuộc Danh mục ban hành kèm theo Quyết định này.'
+      trang_pdf: 1
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 2
+      khoan: 2
+      noi_dung: 'Cơ quan hải quan, công chức hải quan.'
+      trang_pdf: 1
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 2
+      khoan: 3
+      noi_dung: 'Tổ chức, cá nhân khác có liên quan đến việc nhập khẩu hàng hóa thuộc Danh mục ban hành kèm theo Quyết định này.'
+      trang_pdf: 1
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 3
+      khoan: 1
+      noi_dung: 'Ban hành kèm theo Quyết định này Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập (sau đây gọi tắt là Danh mục).'
+      trang_pdf: 1
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 3
+      khoan: 2
+      noi_dung: 'Trường hợp hàng hóa nhập khẩu có nhiều chủng loại (thuộc Danh mục và không thuộc Danh mục), chung vận đơn thì phải làm thủ tục hải quan tại hải quan cửa khẩu nhập quy định tại Điều 4 Quyết định này.'
+      trang_pdf: 2
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 3
+      khoan: 3
+      noi_dung: 'Hàng hóa nhập khẩu thuộc Danh mục quy định tại khoản 1 Điều này, người khai hải quan được lựa chọn làm thủ tục hải quan tại cửa khẩu nhập quy định tại Điều 4 Quyết định này hoặc tại các địa điểm làm thủ tục hải quan ngoài cửa khẩu nhập trong các trường hợp sau:'
+      trang_pdf: 2
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 3
+      khoan: 3
+      diem: a
+      noi_dung: 'Thiết bị, máy móc, vật tư nhập khẩu để xây dựng nhà máy, công trình được làm thủ tục hải quan tại Hải quan nơi có nhà máy, công trình hoặc kho của nhà máy, công trình.'
+      trang_pdf: 2
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 3
+      khoan: 3
+      diem: b
+      noi_dung: 'Hàng hóa nhập khẩu phục vụ gia công, sản xuất tiêu dùng trong nước, sản xuất xuất khẩu và chế xuất được làm thủ tục hải quan tại Hải quan nơi có trụ sở chính hoặc trụ sở Chi nhánh hoặc cơ sở sản xuất; Hải quan quản lý hàng gia công, sản xuất thuộc Chi cục Hải quan khu vực nơi có cơ sở sản xuất hoặc nơi có cửa khẩu nhập.'
+      trang_pdf: 2
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 3
+      khoan: 3
+      diem: c
+      noi_dung: 'Hàng hóa đưa từ nước ngoài vào khu phi thuế quan, kho ngoại quan được làm thủ tục hải quan tại Hải quan quản lý khu phi thuế quan, kho ngoại quan (trừ hàng hóa đưa từ nước ngoài gửi kho ngoại quan để xuất đi nước khác theo quy định phải có Giấy chứng nhận mã số tạm nhập tái xuất của Bộ Công Thương chỉ được gửi kho ngoại quan tại tỉnh, thành phố nơi có cửa khẩu nhập hoặc cửa khẩu xuất).'
+      trang_pdf: 2
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 3
+      khoan: 3
+      diem: d
+      noi_dung: 'Hàng hóa nhập khẩu bán tại cửa hàng miễn thuế được làm thủ tục hải quan tại Hải quan quản lý cửa hàng miễn thuế theo quy định tại khoản 1 Điều 47 Luật Hải quan.'
+      trang_pdf: 2
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 3
+      khoan: 3
+      diem: đ
+      noi_dung: 'Hàng hóa nhập khẩu phục vụ yêu cầu cứu trợ khẩn cấp theo quy định tại khoản 1 Điều 50 Luật Hải quan được làm thủ tục hải quan tại Hải quan nơi xảy ra thiên tai, dịch bệnh hoặc có yêu cầu cứu trợ khẩn cấp.'
+      trang_pdf: 2
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 3
+      khoan: 3
+      diem: e
+      noi_dung: 'Hàng hóa chuyên dùng nhập khẩu phục vụ an ninh quốc phòng theo quy định tại khoản 2 Điều 50 Luật Hải quan được làm thủ tục hải quan tại Hải quan theo đề nghị của người khai hải quan.'
+      trang_pdf: 2
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 3
+      khoan: 3
+      diem: g
+      noi_dung: 'Xăng các loại nhập khẩu từ nước ngoài hoặc từ kho ngoại quan nhập khẩu vào nội địa được làm thủ tục hải quan tại Hải quan nơi thương nhân có kho xăng dầu đáp ứng điều kiện kiểm tra, giám sát hải quan.'
+      trang_pdf: 2
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 3
+      khoan: 3
+      diem: h
+      noi_dung: 'Hàng hóa nhập khẩu đóng chung container đưa về địa điểm thu gom hàng lẻ được làm thủ tục hải quan tại Hải quan quản lý địa điểm thu gom hàng lẻ.'
+      trang_pdf: 2
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 3
+      khoan: 3
+      diem: i
+      noi_dung: 'Hàng hóa nhập khẩu gửi qua dịch vụ bưu chính, dịch vụ chuyển phát nhanh được làm thủ tục hải quan tại các địa điểm theo Nghị định của Chính phủ quy định chi tiết và biện pháp thi hành Luật Hải quan về thủ tục hải quan, kiểm tra, giám sát, kiểm soát hải quan.'
+      trang_pdf: 3
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 3
+      khoan: 3
+      diem: k
+      noi_dung: 'Hàng hóa làm thủ tục nhập khẩu tại cảng cạn ICD Mỹ Đình, cảng cạn Long Biên, thành phố Hà Nội thực hiện theo quy định của Thủ tướng Chính phủ.'
+      trang_pdf: 3
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 3
+      khoan: 3
+      diem: l
+      noi_dung: 'Các trường hợp khác theo Quyết định của Thủ tướng Chính phủ.'
+      trang_pdf: 3
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 4
+      noi_dung: 'Cửa khẩu nhập để xác định đơn vị hải quan quản lý và làm thủ tục hải quan đối với hàng hóa thuộc Danh mục hàng hóa nhập khẩu ban hành kèm Quyết định này bao gồm:'
+      trang_pdf: 3
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 4
+      khoan: 1
+      noi_dung: 'Đối với phương thức vận tải đường biển, đường hàng không, cửa khẩu nhập là cảng biển, cảng hàng không nơi hàng hóa được dỡ xuống hoặc cảng biển, cảng hàng không ghi trên vận đơn nơi hàng hóa được vận chuyển đến.'
+      trang_pdf: 3
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 4
+      khoan: 2
+      noi_dung: 'Đối với phương thức vận tải đường sắt, cửa khẩu nhập là ga đường sắt liên vận quốc tế ở biên giới.'
+      trang_pdf: 3
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 4
+      khoan: 3
+      noi_dung: 'Đối với phương thức vận tải đường bộ, đường sông, cửa khẩu nhập là cửa khẩu quốc tế, cửa khẩu chính nơi hàng hóa nhập khẩu đi vào lãnh thổ Việt Nam.'
+      trang_pdf: 3
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 4
+      khoan: 4
+      noi_dung: 'Đối với hàng hóa nhập khẩu trên vận đơn hoặc hợp đồng vận chuyển có ghi cảng đích là ICD Phước Long - Thành phố Hồ Chí Minh thì cửa khẩu nhập là ICD Phước Long - Thành phố Hồ Chí Minh.'
+      trang_pdf: 3
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 5
+      khoan: 1
+      noi_dung: 'Quyết định này có hiệu lực thi hành từ ngày 14 tháng 8 năm 2026 và thay thế Quyết định số 23/2019/QĐ-TTg ngày 27 tháng 6 năm 2019 của Thủ tướng Chính phủ ban hành danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập. Đối với hàng hóa thuộc danh mục hàng hóa nhập khẩu phải làm thủ tục tại hải quan tại cửa khẩu nhập ban hành kèm theo Quyết định số 23/2019/QĐ-TTg, nhưng không thuộc danh mục hàng hóa phải làm thủ tục hải quan tại cửa khẩu nhập ban hành kèm theo Quyết định này đã đăng ký tờ khai hải quan trước ngày Quyết định này có hiệu lực thì tiếp tục hoàn thành thủ tục hải quan theo quy định tại hải quan cửa khẩu.'
+      trang_pdf: 3
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 5
+      khoan: 2
+      noi_dung: 'Căn cứ tình hình xuất khẩu, nhập khẩu trong từng thời kỳ, Bộ Tài chính có trách nhiệm chủ trì, phối hợp với Bộ Công Thương và các bộ quản lý chuyên ngành theo dõi, rà soát, báo cáo Thủ tướng Chính phủ sửa đổi, bổ sung quy định này.'
+      trang_pdf: 3
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
+    - dieu: 5
+      khoan: 3
+      noi_dung: 'Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương chịu trách nhiệm thi hành Quyết định này.'
+      trang_pdf: 4
+      sha256_pdf: ae61749253880c67294cf8253528a18b2c5e5fd8a8f694825535565847e7a0b5
 ghi_chu: 'Điều 5 khoản 1: hàng thuộc danh mục cũ nhưng không thuộc danh mục mới đã đăng ký tờ khai trước 14-08-2026 tiếp tục làm thủ tục tại hải quan cửa khẩu. Danh mục 12 nhóm; Điều 4 khoản 4 vẫn cho ICD Phước Long (TP.HCM). Có phụ lục mã HS → cần trích bảng (luồng danh-muc-hs). Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.'
 toan_van: raw/download/congbaocdn.chinhphu.vn/31-2026-qd-ttg.pdf

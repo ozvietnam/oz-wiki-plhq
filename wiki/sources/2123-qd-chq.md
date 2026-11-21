@@ -3,7 +3,7 @@ id: 2123-qd-chq
 title: "Quyết định 2123/QĐ-CHQ — Quy trình Kiểm tra sau thông quan và quản lý chế độ ưu tiên"
 type: source
 created: 2026-11-20
-updated: 2026-11-20
+updated: 2026-11-21
 authors:
   - Cục Hải quan
 year: 2025
@@ -48,7 +48,7 @@ Quyết định **2123/QĐ-CHQ** ngày `30/12/2025` của Cục trưởng Cục 
 ## Căn cứ pháp lý
 
 - Luật Hải quan `54/2014/QH13` ngày `23/06/2014` (sửa đổi, bổ sung tại Luật ngày `25/06/2025`)
-- Luật Quản lý thuế `38/2019/QH14` ngày `13/06/2019` (sửa đổi, bổ sung tại Luật ngày `29/11/2024`) và Nghị định số 126 (năm 2020 của Chính phủ, sửa đổi bởi Nghị định số 91 năm 2022) quy định chi tiết thi hành một số điều của Luật Quản lý thuế
+- Luật Quản lý thuế `38/2019/QH14` ngày `13/06/2019` (sửa đổi, bổ sung tại Luật ngày `29/11/2024` — **đã hết hiệu lực từ `01/07/2026`**, bị thay thế bởi Luật Quản lý thuế `108/2025/QH15`) và Nghị định số 126 (năm 2020 của Chính phủ, sửa đổi bởi Nghị định số 91 năm 2022) quy định chi tiết thi hành một số điều của Luật Quản lý thuế
 - Nghị định `08/2015/NĐ-CP` ngày `21/01/2015` (sửa đổi, bổ sung bởi Nghị định `167/2025/NĐ-CP` ngày `30/06/2025`)
 - Thông tư `38/2015/TT-BTC` ngày `25/03/2015` (sửa đổi, bổ sung bởi Thông tư `39/2018/TT-BTC` và Thông tư `121/2025/TT-BTC` ngày `18/12/2025`)
 - Quyết định số 382 (ngày `26/02/2025` của Bộ trưởng Bộ Tài chính) và Quyết định số 2019 (ngày `11/06/2025` của Bộ Tài chính) quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Cục Hải quan

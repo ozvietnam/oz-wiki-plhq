@@ -25,5 +25,20 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Bổ sung khoản 10 Điều 15 vào sau khoản 9 Điều 15 như sau: “10. Việc kiểm tra chứng từ chứng nhận xuất xứ hàng hóa nhập khẩu được thực hiện trên cơ sở áp dụng quản lý rủi ro.”'
+      trang_pdf: 1
+      sha256_pdf: dca1ab6a924613f3d5e288a581d2869343785a7ebf4704a0f9e031c1491584e3
+    - dieu: 2
+      khoan: 1
+      noi_dung: 'Thông tư này có hiệu lực kể từ ngày 22 tháng 8 năm 2026.'
+      trang_pdf: 2
+      sha256_pdf: dca1ab6a924613f3d5e288a581d2869343785a7ebf4704a0f9e031c1491584e3
+    - dieu: 2
+      khoan: 2
+      noi_dung: 'Trong quá trình thực hiện, nếu các văn bản liên quan viện dẫn tại Thông tư này được sửa đổi, bổ sung hoặc thay thế thì thực hiện theo văn bản mới được sửa đổi, bổ sung hoặc thay thế.'
+      trang_pdf: 2
+      sha256_pdf: dca1ab6a924613f3d5e288a581d2869343785a7ebf4704a0f9e031c1491584e3
 ghi_chu: 'Chỉ bổ sung một khoản (kiểm tra chứng từ chứng nhận xuất xứ theo quản lý rủi ro). Các ý "3 mức xanh-vàng-đỏ", "từ chối C/O nếu lệch trị giá >10%" trên trang tổng hợp Meta AI KHÔNG có trong văn bản. Đầu mối: trang tổng hợp do Meta AI sinh (CEO gửi 04/10/2026) — mọi thông tin dưới đây lấy từ nguồn bậc A, không lấy từ trang đó.'
 toan_van: raw/download/congbaocdn.chinhphu.vn/124-2026-tt-btc.pdf

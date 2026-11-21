@@ -19,6 +19,74 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-10'
   boi: legal-customs@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      khoan: 1
+      noi_dung: Thông tư này quy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu.
+      trang_pdf: 2
+      sha256_pdf: 0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb
+    - dieu: 7
+      khoan: 1
+      noi_dung: 'Hồ sơ xác định trước mã số: a) Đơn đề nghị xác định trước theo mẫu số 01/XĐTMS/TXNK Phụ lục VI ban hành kèm Thông tư này: 01 bản chính; b) Mẫu hàng hóa dự kiến xuất khẩu, nhập khẩu. Trường hợp không có mẫu hàng, tổ chức, cá nhân phải cung cấp tài liệu kỹ thuật (như bản phân tích thành phần, catalogue, hình ảnh hàng hóa), mô tả chi tiết thành phần, tính chất, cấu tạo, công dụng, phương thức vận hành của hàng hóa: 01 bản chính.'
+      trang_pdf: 8
+      sha256_pdf: 0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb
+    - dieu: 7
+      khoan: 2
+      noi_dung: 'Hồ sơ xác định trước xuất xứ: a) Đơn đề nghị xác định trước xuất xứ hàng hóa nhập khẩu theo mẫu số 01/XĐTXX/GSQL ban hành kèm Phụ lục V Thông tư này: 01 bản chính; b) Bản kê các nguyên vật liệu dùng để sản xuất ra hàng hóa gồm các thông tin như: tên hàng, mã số hàng hóa, xuất xứ nguyên vật liệu cấu thành sản phẩm, giá CIF hoặc giá tương đương của nguyên vật liệu do nhà sản xuất hoặc nhà xuất khẩu cung cấp: 01 bản chính; c) Bản mô tả sơ bộ quy trình sản xuất ra hàng hóa hoặc Giấy chứng nhận phân tích thành phần do nhà sản xuất cấp: 01 bản chụp; d) Catalogue hoặc hình ảnh hàng hóa: 01 bản chụp.'
+      trang_pdf: 8
+      sha256_pdf: 0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb
+    - dieu: 7
+      khoan: 3
+      noi_dung: 'Hồ sơ xác định trước phương pháp xác định trị giá hải quan: a) Đơn đề nghị (theo mẫu số 02/XĐTTG/TXNK Phụ lục VI Thông tư này): 01 bản chính; b) Hợp đồng mua bán hàng hóa do tổ chức, cá nhân trực tiếp thực hiện giao dịch (nếu có): 01 bản chụp; c) Tài liệu kỹ thuật, hình ảnh hoặc catalogue hàng hóa: 01 bản chụp; d) Các chứng từ, tài liệu có liên quan đến giao dịch dự kiến đề nghị xác định trước (nếu có): 01 bản chụp; đ) Các chứng từ có liên quan trong trường hợp phải quy đổi từ trị giá hóa đơn về giá bán thực tế tại cửa khẩu xuất đối với hàng hóa xuất khẩu: 01 bản chụp. Trường hợp chưa có giao dịch thực tế, tổ chức cá nhân chưa có các chứng từ nêu tại điểm b, d, đ khoản này thì đề nghị cơ quan hải quan hướng dẫn nguyên tắc, điều kiện áp dụng phương pháp xác định trị giá hải quan.'
+      trang_pdf: 8
+      sha256_pdf: 0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb
+    - dieu: 16
+      khoan: 2
+      diem: b
+      noi_dung: 'Hóa đơn thương mại trong trường hợp người mua phải thanh toán cho người bán: 01 bản chụp. Trường hợp chủ hàng mua hàng từ người bán tại Việt Nam nhưng được người bán chỉ định nhận hàng từ nước ngoài thì cơ quan hải quan chấp nhận hóa đơn do người bán tại Việt Nam phát hành cho chủ hàng. Người khai hải quan không phải nộp hóa đơn thương mại trong các trường hợp sau: b.1) Người khai hải quan là doanh nghiệp ưu tiên; b.2) Hàng hóa nhập khẩu để thực hiện hợp đồng gia công cho thương nhân nước ngoài, người khai hải quan khai giá tạm tính tại ô “Trị giá hải quan” trên tờ khai hải quan; b.3) Hàng hóa nhập khẩu không có hóa đơn và người mua không phải thanh toán cho người bán, người khai hải quan khai trị giá hải quan theo hướng dẫn của Bộ Tài chính về xác định trị giá hải quan.'
+      trang_pdf: 14
+      sha256_pdf: 0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb
+    - dieu: 16
+      khoan: 2
+      diem: g
+      noi_dung: 'Chứng từ chứng nhận xuất xứ hàng hóa (Giấy chứng nhận xuất xứ hàng hóa hoặc Chứng từ tự chứng nhận xuất xứ): 01 bản chính hoặc chứng từ dưới dạng dữ liệu điện tử trong các trường hợp sau: g.1) Hàng hóa có xuất xứ từ nước hoặc nhóm nước có thỏa thuận về áp dụng thuế suất ưu đãi đặc biệt với Việt Nam theo quy định của pháp luật Việt Nam và theo các Điều ước quốc tế mà Việt Nam ký kết hoặc tham gia, nếu người nhập khẩu muốn được hưởng các chế độ ưu đãi đó; g.2) Hàng hóa thuộc diện do Việt Nam hoặc các tổ chức quốc tế thông báo đang ở trong thời điểm có nguy cơ gây hại đến an toàn xã hội, sức khỏe của cộng đồng hoặc vệ sinh môi trường cần được kiểm soát; g.3) Hàng hóa nhập khẩu từ các nước thuộc diện Việt Nam thông báo đang ở trong thời điểm áp dụng thuế chống bán phá giá, thuế chống trợ cấp, thuế chống phân biệt đối xử, thuế tự vệ, thuế suất áp dụng theo hạn ngạch thuế quan; g.4) Hàng hóa nhập khẩu phải tuân thủ các chế độ quản lý nhập khẩu theo quy định của pháp luật Việt Nam hoặc các Điều ước quốc tế mà Việt Nam là thành viên. Trường hợp theo thỏa thuận về áp dụng thuế suất ưu đãi đặc biệt với Việt Nam hoặc theo các Điều ước quốc tế mà Việt Nam ký kết hoặc tham gia có quy định về việc nộp Giấy chứng nhận xuất xứ hàng hóa nhập khẩu là chứng từ điện tử hoặc Chứng từ tự chứng nhận xuất xứ hàng hóa của người sản xuất/người xuất khẩu/người nhập khẩu thì cơ quan hải quan chấp nhận các chứng từ này.'
+      trang_pdf: 15
+      sha256_pdf: 0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb
+    - dieu: 18
+      khoan: 1
+      diem: a
+      noi_dung: Người khai hải quan phải khai đầy đủ các thông tin trên tờ khai hải quan theo hướng dẫn tại Phụ lục II ban hành kèm Thông tư này. Trường hợp khai trên tờ khai hải quan giấy thì thực hiện theo hướng dẫn tại Phụ lục IV ban hành kèm Thông tư này;
+      trang_pdf: 18
+      sha256_pdf: 0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb
+    - dieu: 20
+      khoan: 1
+      diem: b
+      noi_dung: Người khai hải quan, người nộp thuế xác định có sai sót trong việc khai hải quan thì được khai bổ sung hồ sơ hải quan trong thời hạn 60 ngày kể từ ngày thông quan nhưng trước thời điểm cơ quan hải quan quyết định kiểm tra sau thông quan, thanh tra;
+      trang_pdf: 22
+      sha256_pdf: 0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb
+    - dieu: 29
+      khoan: 2
+      diem: a
+      noi_dung: Đối với những lô hàng nhập khẩu phải kiểm tra thực tế hàng hóa thuộc diện đã tiến hành kiểm tra theo quy định tại khoản 1 Điều này thì công chức hải quan được sử dụng kết quả kiểm tra qua máy soi để làm thủ tục hải quan. Trường hợp khi kiểm tra qua máy soi phát hiện dấu hiệu vi phạm thì thực hiện việc mở kiểm tra trực tiếp hàng hóa;
+      trang_pdf: 40
+      sha256_pdf: 0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb
+    - dieu: 142
+      khoan: 2
+      diem: a
+      noi_dung: Chi cục trưởng Chi cục Hải quan có thẩm quyền quyết định kiểm tra đối với các hồ sơ hải quan đã thông quan trong thời hạn 60 ngày kể từ ngày hàng hóa được thông quan đến ngày ký ban hành Quyết định kiểm tra, thuộc diện phải kiểm tra theo quy định tại khoản 1 Điều 78 Luật Hải quan (trừ những lô hàng đã được kiểm tra thực tế hàng hóa trước khi thông quan) và các trường hợp quy định tại điểm a.2, điểm b.2 khoản 2 Điều 25 Thông tư này;
+      trang_pdf: 206
+      sha256_pdf: 0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb
+    - dieu: 143
+      khoan: 3
+      diem: a
+      noi_dung: 'Quyết định kiểm tra (theo mẫu số 01/2015-KTSTQ Phụ lục VIII ban hành kèm theo Thông tư này): Đối với các trường hợp kiểm tra theo quy định tại khoản 2, khoản 3 Điều 78 Luật Hải quan, quyết định kiểm tra được gửi trực tiếp hoặc bằng thư bảo đảm, fax cho người khai hải quan trong thời hạn 03 ngày làm việc kể từ ngày ký và chậm nhất 05 ngày làm việc trước khi tiến hành kiểm tra. Riêng trường hợp kiểm tra theo dấu hiệu vi phạm quy định tại khoản 1 Điều 78 Luật Hải quan được thực hiện ngay sau khi công bố quyết định kiểm tra (trao trực tiếp cho người khai hải quan trong giờ làm việc) không phải thông báo trước; Trường hợp thu thập thông tin để thực hiện kiểm tra sau thông quan, cơ quan hải quan yêu cầu người khai hải quan cung cấp thông tin theo mẫu số 02/2015KTSTQ Phụ lục VIII ban hành kèm theo Thông tư này.'
+      trang_pdf: 208
+      sha256_pdf: 0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb
+    - dieu: 149
+      khoan: 1
+      noi_dung: Thông tư này có hiệu lực kể từ ngày 01 tháng 4 năm 2015. Riêng điểm đ.2 khoản 1, điểm đ khoản 4 Điều 42; khoản 4, khoản 7, khoản 8 Điều 133; Điều 135 Thông tư này có hiệu lực thi hành kể từ ngày Luật số 71/2014/QH13 về sửa đổi, bổ sung một số điều của các Luật về thuế có hiệu lực (từ ngày 01/01/2015). Cách xác định tiền chậm nộp đối với các tờ khai hải quan đăng ký trước ngày 01/01/2015 nhưng người nộp thuế chậm nộp thuế và thực hiện nộp thuế từ ngày 01/01/2015 thì thực hiện theo hướng dẫn tại Điều 133 Thông tư này.
+      trang_pdf: 215
+      sha256_pdf: 0907233cf906c20ec19518b234a3495254d6e31e6d41782dd62444c2ca8594bb
 ghi_chu: 'Đã đọc toàn văn Công báo 509-518/2015 (5 phần PDF ghép, 467 trang). TT nền tảng cho thủ tục HQ + thuế XK NK. Sẽ bị thay thế một phần bởi Luật 11/2026/QH16 (01/03/2027).'
 toan_van: raw/download/congbaocdn.chinhphu.vn/2015/3/26/38-2015-tt-btc.pdf
 nguon:

@@ -3,7 +3,7 @@ id: 117-qd-chq
 title: "Quyết định 117/QĐ-CHQ — Quy trình Xác định trước mã số; Kiểm tra tên hàng, mô tả hàng hóa, mã số, mức thuế, đơn vị tính trong thông quan; Thống nhất công tác phân loại hàng hóa, áp dụng mức thuế"
 type: source
 created: 2026-11-20
-updated: 2026-11-20
+updated: 2026-11-21
 authors:
   - Cục Hải quan
 year: 2026
@@ -66,7 +66,7 @@ Quyết định **117/QĐ-CHQ** ngày `20/01/2026` của Cục trưởng Cục H
 - Luật Hải quan `54/2014/QH13` (được sửa đổi, bổ sung bởi Luật số 90 năm 2025 của Quốc hội khóa XV)
 - Nghị định `08/2015/NĐ-CP` ngày `21/01/2015` (sửa đổi, bổ sung tại Nghị định `167/2025/NĐ-CP` ngày `30/06/2025`)
 - Thông tư `38/2015/TT-BTC` ngày `25/03/2015` (sửa đổi, bổ sung tại Thông tư `39/2018/TT-BTC` và Thông tư `121/2025/TT-BTC`)
-- Thông tư `14/2015/TT-BTC` ngày `30/01/2015` (sửa đổi, bổ sung tại Thông tư `17/2021/TT-BTC`; từ `15/09/2026` áp dụng Thông tư `85/2026/TT-BTC` theo Điều 20 khoản 3 Quy trình)
+- Thông tư `14/2015/TT-BTC` ngày `30/01/2015` và Thông tư `17/2021/TT-BTC` (cả hai **đã hết hiệu lực từ `15/09/2026`**, bị thay thế bởi Thông tư `85/2026/TT-BTC` — áp dụng theo Điều 20 khoản 3 Quy trình)
 - Thông tư `31/2022/TT-BTC` ngày `08/06/2022`
 - Quyết định số 382 (ngày `26/02/2025` của Bộ trưởng Bộ Tài chính, sửa đổi tại Quyết định số 1892 ngày `30/05/2025` và Quyết định số 2019 ngày `11/06/2025`) quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Cục Hải quan
 
