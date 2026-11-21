@@ -12,15 +12,72 @@ nhanh:
 nguon:
   - url: https://chinhphu.vn/?pageid=27160&docid=218021
     truy_cap: '2026-11-19'
-  - url: https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Nghi-dinh-143-2026-ND-CP-bieu-thue-nhap-khau-uu-dai-dac-biet-Hiep-dinh-Tieu-vuong-quoc-A-rap-Thong-nhat-704557.aspx
-    truy_cap: '2026-11-19'
+  - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-143-2026-nd-cp-469481.htm
+    truy_cap: '2026-11-21'
+  - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/5/19/469481-1778818807_v1_1779152467_signed.pdf
+    truy_cap: '2026-11-21'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/143-ndcp.signed.pdf
     truy_cap: '2026-11-20'
+  - url: https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Nghi-dinh-143-2026-ND-CP-bieu-thue-nhap-khau-uu-dai-dac-biet-Hiep-dinh-Tieu-vuong-quoc-A-rap-Thong-nhat-704557.aspx
+    truy_cap: '2026-11-19'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Đã đọc toàn văn PDF ký số bậc A trên datafiles.chinhphu.vn (143-ndcp.signed.pdf, 144 trang, ký Phó Thủ tướng Nguyễn Văn Thắng ngày 05-05-2026) và đối chiếu chinhphu.vn (docid=218021): gồm 7 Điều và Phụ lục Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định CEPA Việt Nam – UAE giai đoạn 2026–2027 (chi tiết cấp mã 8 số; Điều 3 khoản 3 quy định cột thuế suất 2026 áp dụng từ 03-02-2026 đến hết 31-12-2026, cột 2027 áp dụng từ 01-01-2027 đến hết 31-12-2027). Điều 6 (Hiệu lực thi hành): khoản 1 quy định Nghị định có hiệu lực thi hành kể từ ngày ký ban hành (05-05-2026) đến hết ngày 31-12-2027; khoản 2 quy định điều khoản chuyển tiếp xử lý tiền thuế nộp thừa đối với tờ khai hải quan hàng hóa nhập khẩu từ UAE đăng ký từ ngày 03-02-2026 (ngày Hiệp định CEPA có hiệu lực) đến trước ngày 05-05-2026 nếu đáp ứng đủ điều kiện hưởng thuế suất CEPA. Điều 7 quy định trách nhiệm thi hành. Đối chiếu tình trạng hiện tại đến 2026-11-21 trên chinhphu.vn: chưa có văn bản sửa đổi, bổ sung, thay thế hay bãi bỏ, đang CON_HIEU_LUC.'
+  pham_vi: 'Đã đọc toàn văn PDF Công báo số 280 ngày 19-05-2026 có lớp chữ (raw/download/congbaocdn.chinhphu.vn/143-2026-nd-cp.pdf, 586 trang, SHA-256 540edbb45e6e2748d6d2b3677fa974eb6e8138119ecd3cf0596cb6a599fb17e8), PDF ký số bậc A trên datafiles.chinhphu.vn (143-ndcp.signed.pdf, 144 trang, ký Phó Thủ tướng Nguyễn Văn Thắng ngày 05-05-2026) và đối chiếu chinhphu.vn (docid=218021): gồm 7 Điều và Phụ lục Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định CEPA Việt Nam – UAE giai đoạn 2026–2027 (chi tiết cấp mã 8 số; Điều 3 khoản 3 quy định cột thuế suất 2026 áp dụng từ 03-02-2026 đến hết 31-12-2026, cột 2027 áp dụng từ 01-01-2027 đến hết 31-12-2027). Điều 6 (Hiệu lực thi hành): khoản 1 quy định Nghị định có hiệu lực thi hành kể từ ngày ký ban hành (05-05-2026) đến hết ngày 31-12-2027; khoản 2 quy định điều khoản chuyển tiếp xử lý tiền thuế nộp thừa đối với tờ khai hải quan hàng hóa nhập khẩu từ UAE đăng ký từ ngày 03-02-2026 (ngày Hiệp định CEPA có hiệu lực) đến trước ngày 05-05-2026 nếu đáp ứng đủ điều kiện hưởng thuế suất CEPA. Điều 7 quy định trách nhiệm thi hành. Đối chiếu tình trạng hiện tại đến 2026-11-21 trên chinhphu.vn: chưa có văn bản sửa đổi, bổ sung, thay thế hay bãi bỏ, đang CON_HIEU_LUC.'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Nghị định này ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ Các Tiểu vương quốc Ả-rập Thống nhất (sau đây gọi tắt là Hiệp định CEPA) giai đoạn 2026 - 2027 và điều kiện được hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định này.'
+      trang_pdf: 2
+      sha256_pdf: 540edbb45e6e2748d6d2b3677fa974eb6e8138119ecd3cf0596cb6a599fb17e8
+    - dieu: 2
+      noi_dung: 'Điều 2. Đối tượng áp dụng 1. Người nộp thuế theo quy định của Luật Thuế xuất khẩu, thuế nhập khẩu. 2. Cơ quan hải quan, công chức hải quan. 3. Tổ chức, cá nhân có quyền và nghĩa vụ liên quan đến hàng hóa xuất khẩu, nhập khẩu.'
+      trang_pdf: 2
+      sha256_pdf: 540edbb45e6e2748d6d2b3677fa974eb6e8138119ecd3cf0596cb6a599fb17e8
+    - dieu: 3
+      khoan: 1
+      noi_dung: '1. Ban hành kèm theo Nghị định này Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định CEPA giai đoạn 2026 - 2027 (thuế suất thuế nhập khẩu ưu đãi đặc biệt của Việt Nam theo Hiệp định CEPA sau đây gọi tắt là thuế suất CEPA).'
+      trang_pdf: 2
+      sha256_pdf: 540edbb45e6e2748d6d2b3677fa974eb6e8138119ecd3cf0596cb6a599fb17e8
+    - dieu: 3
+      khoan: 2
+      noi_dung: '2. Cột “Mã hàng” và cột “Mô tả hàng hóa” tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này được xây dựng trên cơ sở Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam và chi tiết theo cấp mã 8 số. Trường hợp Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam được sửa đổi, bổ sung, người khai hải quan kê khai mô tả, mã hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu sửa đổi, bổ sung và áp dụng thuế suất của mã hàng hoá được sửa đổi, bổ sung quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này.'
+      trang_pdf: 2
+      sha256_pdf: 540edbb45e6e2748d6d2b3677fa974eb6e8138119ecd3cf0596cb6a599fb17e8
+    - dieu: 3
+      khoan: 3
+      noi_dung: '3. Cột "Thuế suất CEPA (%)" tại Biểu thuế nhập khẩu ưu đãi đặc biệt: Thuế suất áp dụng cho các giai đoạn khác nhau, bao gồm: a) 2026: Thuế suất áp dụng từ ngày 03 tháng 02 năm 2026 đến hết ngày 31 tháng 12 năm 2026; b) 2027: Thuế suất áp dụng từ ngày 01 tháng 01 năm 2027 đến hết ngày 31 tháng 12 năm 2027.'
+      trang_pdf: 2
+      sha256_pdf: 540edbb45e6e2748d6d2b3677fa974eb6e8138119ecd3cf0596cb6a599fb17e8
+    - dieu: 3
+      khoan: 4
+      noi_dung: '4. Ký hiệu "*": Hàng hóa nhập khẩu không được hưởng thuế suất CEPA tại thời điểm tương ứng.'
+      trang_pdf: 3
+      sha256_pdf: 540edbb45e6e2748d6d2b3677fa974eb6e8138119ecd3cf0596cb6a599fb17e8
+    - dieu: 4
+      noi_dung: 'Điều 4. Điều kiện áp dụng thuế suất CEPA Hàng hóa nhập khẩu được áp dụng mức thuế suất CEPA phải đáp ứng đủ các điều kiện sau: 1. Thuộc Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này. 2. Được nhập khẩu từ Các Tiểu vương quốc Ả-rập Thống nhất vào Việt Nam. 3. Đáp ứng các quy định về xuất xứ hàng hóa và có chứng từ chứng nhận xuất xứ hàng hoá theo quy định của Hiệp định CEPA và quy định hiện hành của pháp luật.'
+      trang_pdf: 3
+      sha256_pdf: 540edbb45e6e2748d6d2b3677fa974eb6e8138119ecd3cf0596cb6a599fb17e8
+    - dieu: 5
+      noi_dung: 'Điều 5. Hàng hóa từ khu phi thuế quan của Việt Nam Hàng hóa từ khu phi thuế quan của Việt Nam nhập khẩu vào thị trường trong nước được áp dụng thuế suất CEPA phải đáp ứng đủ các điều kiện quy định tại khoản 1 và khoản 3 Điều 4 Nghị định này.'
+      trang_pdf: 3
+      sha256_pdf: 540edbb45e6e2748d6d2b3677fa974eb6e8138119ecd3cf0596cb6a599fb17e8
+    - dieu: 6
+      khoan: 1
+      noi_dung: '1. Nghị định này có hiệu lực thi hành kể từ ngày ký ban hành đến hết ngày 31 tháng 12 năm 2027.'
+      trang_pdf: 3
+      sha256_pdf: 540edbb45e6e2748d6d2b3677fa974eb6e8138119ecd3cf0596cb6a599fb17e8
+    - dieu: 6
+      khoan: 2
+      noi_dung: '2. Đối với các tờ khai hải quan của hàng hóa nhập khẩu vào Việt Nam từ Các Tiểu vương quốc Ả-rập Thống nhất đăng ký từ ngày 03 tháng 02 năm 2026 đến trước ngày Nghị định này có hiệu lực thi hành, nếu đáp ứng đủ các điều kiện để được hưởng thuế nhập khẩu ưu đãi đặc biệt quy định tại Nghị định này và đã nộp thuế theo mức thuế suất cao hơn thì được cơ quan hải quan xử lý tiền thuế nộp thừa theo quy định của pháp luật về quản lý thuế.'
+      trang_pdf: 3
+      sha256_pdf: 540edbb45e6e2748d6d2b3677fa974eb6e8138119ecd3cf0596cb6a599fb17e8
+    - dieu: 7
+      noi_dung: 'Điều 7. Trách nhiệm thi hành Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này.'
+      trang_pdf: 4
+      sha256_pdf: 540edbb45e6e2748d6d2b3677fa974eb6e8138119ecd3cf0596cb6a599fb17e8
 ghi_chu: 'Trinh thám đêm 19/11 — THIẾU HỤT LỚN: FTA Việt Nam–UAE (CEPA) hiệu lực từ 05-05-2026 mà sổ chưa có biểu thuế ưu đãi. Dùng ngay cho khách giao UAE/Qatar. Cần nạp biểu thuế chi tiết + quy tắc xuất xứ CEPA.'
-toan_van: raw/download/datafiles.chinhphu.vn/143-2026-nd-cp.pdf
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/143-2026-nd-cp.pdf
+  - raw/download/datafiles.chinhphu.vn/143-2026-nd-cp.pdf
