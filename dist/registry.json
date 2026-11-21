@@ -3266,7 +3266,12 @@
         "pham_vi": "Đối chiếu phần căn cứ pháp lý của Thông tư ban hành QCVN 16:2025/BQP trên CSDLQG về pháp luật (vbpl.vn ItemID=179975) và Thông tư 126/2026/TT-BQP ngày 02-09-2026 trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=219388, 126-bqp.signed.pdf): Nghị định số 09/2014/NĐ-CP ngày 27-01-2014 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Ban Cơ yếu Chính phủ vẫn đang được viện dẫn làm căn cứ pháp lý hiện hành năm 2025–2026 (văn bản quy định cơ cấu tổ chức Ban Cơ yếu Chính phủ không phát hành tệp toàn văn công khai trên CSDLQG).",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-15",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "chan": {
+          "ma": "THIEU_PDF_A",
+          "ngay": "2026-11-21",
+          "viec_tiep": "Nghị định quy định cơ cấu tổ chức Ban Cơ yếu Chính phủ; đã kiểm tra trên vanban.chinhphu.vn, datafiles.chinhphu.vn, congbao.chinhphu.vn và vbpl.vn đều không phát hành tệp PDF toàn văn công khai. Hiệu lực đã xác minh qua căn cứ pháp lý của Thông tư 126/2026/TT-BQP."
+        }
       },
       "ghi_chu": "Nghị định quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Ban Cơ yếu Chính phủ; được dẫn chiếu làm căn cứ ban hành Thông tư 126/2026/TT-BQP về danh mục sản phẩm mật mã dân sự có mức độ rủi ro cao.",
       "slug": "09-2014-nd-cp",
@@ -26870,7 +26875,12 @@
         "pham_vi": "Đối chiếu phần căn cứ pháp lý của Quyết định số 328/QĐ-TTg ngày 11-03-2022 của Thủ tướng Chính phủ trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=205452, 328-qd-ttg.signed.pdf): dẫn chiếu Nghị quyết số 18/NQ-CP ngày 06 tháng 7 năm 2021 của Chính phủ phê duyệt Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP) (bản OCR chữ rời nhận nhầm số 8 thành số 3). Văn bản đang còn hiệu lực làm căn cứ triển khai Hiệp định RCEP tại Việt Nam từ 01-01-2022.",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-15",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "chan": {
+          "ma": "THIEU_PDF_A",
+          "ngay": "2026-11-21",
+          "viec_tiep": "Nghị quyết Chính phủ ngày 06-07-2021 phê duyệt Hiệp định RCEP; đã kiểm tra trên vanban.chinhphu.vn, datafiles.chinhphu.vn (tệp 2021/07/18.signed.pdf là Chỉ thị 18/CT-TTg), congbao.chinhphu.vn và vbpl.vn đều không phát hành tệp PDF toàn văn công khai. Hiệu lực đã xác minh qua căn cứ pháp lý của Quyết định 328/QĐ-TTg (docid=205452)."
+        }
       },
       "ghi_chu": "Nghị quyết của Chính phủ phê duyệt Hiệp định RCEP (ký ngày 15-11-2020, có hiệu lực từ 01-01-2022); là căn cứ trực tiếp của Quyết định 01/QĐ-TTg và Quyết định 328/QĐ-TTg năm 2022.",
       "slug": "18-nq-cp-2021",
@@ -35039,7 +35049,12 @@
         "pham_vi": "Đã đối chiếu trên Cổng Thông tin điện tử Hải quan (customs.gov.vn id=58967, dòng 5270 all-1990-2026.csv): số hiệu 2079/QĐ-TCHQ, ban hành và có hiệu lực từ 19/07/2021, thay thế QĐ 583/QĐ-TCHQ ngày 22/03/2019; đang còn hiệu lực.",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-15",
-        "boi": "paperclip-agent@ozvietnam"
+        "boi": "paperclip-agent@ozvietnam",
+        "chan": {
+          "ma": "THIEU_PDF_A",
+          "ngay": "2026-11-21",
+          "viec_tiep": "Đã kiểm tra trực tiếp Cổng Hải quan (customs.gov.vn API GetChiTietVanBan MA=58967) trả DUONG_DAN_FILE_DINH_KEM: null và NOI_DUNG rỗng; vanban.chinhphu.vn, congbao.chinhphu.vn và mof.gov.vn không đăng tệp PDF toàn văn công khai (bản trong kho nội bộ là bậc C)."
+        }
       },
       "ghi_chu": "BẢN DỮ LIỆU NỘI BỘ của kho (CEO xác nhận 30/10): bản do BÊN THỨ BA chép lại — mức rủi ro BẬC C, mã theo AHTN 2017, 896 cặp mã hay khai nhầm (khai mã này nhưng đúng ra là mã kia). Chỉ dùng làm TÍN HIỆU SOÁT nội bộ (lib/rui-ro-phan-loai.js hs-code-api, nhãn QD_2079_BAC_C_NOI_BO, Postgres kín, tệp ngoài git) — KHÔNG phải căn cứ pháp lý, không vào canCuPhapLy, không trả khách ngoài. LƯU Ý PHIÊN BẢN: AHTN 2017 ≠ biểu thuế 2026 đang tra — đối chiếu lại khi dùng tín hiệu với mã hiện hành.",
       "hieu_luc_tu": "2021-07-19",
@@ -79438,7 +79453,12 @@
         "pham_vi": "Đối chiếu nguyên văn phần căn cứ pháp lý của Thông tư số 49/2010/TT-BTC ngày 12-04-2010 trên CSDLQG về pháp luật (vbpl.vn ItemID=25288): \"Căn cứ Quyết định số 49/QĐ-CTN ngày 06 tháng 03 năm 1998 của Chủ tịch nước Cộng hòa Xã hội Chủ nghĩa Việt Nam về việc Việt Nam tham gia Công ước quốc tế về Hệ thống hài hòa mô tả và mã hóa hàng hóa\"; quyết định phê chuẩn/gia nhập điều ước quốc tế (Công ước HS của WCO) đang còn hiệu lực.",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-15",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "chan": {
+          "ma": "THIEU_PDF_A",
+          "ngay": "2026-11-21",
+          "viec_tiep": "Quyết định ngày 06-03-1998 của Chủ tịch nước về việc Việt Nam tham gia Công ước HS; đã kiểm tra trên vbpl.vn, vanban.chinhphu.vn và congbao.chinhphu.vn đều không phát hành tệp PDF toàn văn công khai. Hiệu lực đã xác minh qua căn cứ pháp lý của Thông tư 49/2010/TT-BTC (vbpl.vn ItemID=25288)."
+        }
       },
       "ghi_chu": "Quyết định của Chủ tịch nước về việc Việt Nam tham gia Công ước quốc tế về Hệ thống hài hòa mô tả và mã hóa hàng hóa (Công ước HS) ngày 06-03-1998.",
       "slug": "49-qd-ctn-1998",
