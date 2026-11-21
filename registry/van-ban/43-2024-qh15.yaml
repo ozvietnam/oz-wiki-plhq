@@ -17,9 +17,53 @@ nguon:
     truy_cap: '2026-11-15'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Đã đối chiếu nguồn bậc A trên Cổng Thông tin điện tử Chính phủ (vanban.chinhphu.vn docid=211201, datafiles.chinhphu.vn 43-2024-qh15.pdf) và Công báo Chính phủ (congbao.chinhphu.vn 42578): Quốc hội thông qua ngày 29/06/2024, có hiệu lực từ 01/08/2024, sửa đổi thời điểm có hiệu lực của Luật Đất đai 31/2024/QH15, Luật Nhà ở 27/2023/QH15, Luật Kinh doanh bất động sản 29/2023/QH15 và Luật Các tổ chức tín dụng 32/2024/QH15.'
+  pham_vi: 'Đã đối chiếu nguồn bậc A trên Cổng Thông tin điện tử Chính phủ (vanban.chinhphu.vn docid=211201, raw/download/datafiles.chinhphu.vn/43-2024-qh15.pdf, 2 trang, Chủ tịch Quốc hội Trần Thanh Mẫn ký, SHA-256 859d1f08a3a9fd5555ffc4396226cb2c86a4c48c6f577331cdd476071d2e00f4), wiki/sources/43-2024-qh15.md và Công báo Chính phủ số 987+988 ngày 25/08/2024 (congbao.chinhphu.vn 42578): Quốc hội thông qua ngày 29/06/2024, có hiệu lực từ 01/08/2024, sửa đổi thời điểm có hiệu lực của Luật Đất đai 31/2024/QH15, Luật Nhà ở 27/2023/QH15, Luật Kinh doanh bất động sản 29/2023/QH15 và Luật Các tổ chức tín dụng 32/2024/QH15.'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-15'
-  boi: paperclip-agent@ozvietnam
+  ngay: '2026-11-21'
+  boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      khoan: 1
+      noi_dung: '1. Sửa đổi, bổ sung khoản 2 Điều 251 như sau: “2. Bãi bỏ Nghị quyết số 132/2020/QH14 ngày 17 tháng 11 năm 2020 của Quốc hội thí điểm một số chính sách để tháo gỡ vướng mắc, tồn đọng trong quản lý, sử dụng đất quốc phòng, an ninh kết hợp với hoạt động lao động sản xuất, xây dựng kinh tế từ ngày 01 tháng 01 năm 2025.”.'
+      trang_pdf: 1
+      sha256_pdf: 859d1f08a3a9fd5555ffc4396226cb2c86a4c48c6f577331cdd476071d2e00f4
+    - dieu: 1
+      khoan: 2
+      noi_dung: '2. Sửa đổi, bổ sung khoản 1 Điều 252 như sau: “1. Luật này có hiệu lực thi hành từ ngày 01 tháng 8 năm 2024, trừ trường hợp quy định tại khoản 2 và khoản 3 Điều này.”.'
+      trang_pdf: 1
+      sha256_pdf: 859d1f08a3a9fd5555ffc4396226cb2c86a4c48c6f577331cdd476071d2e00f4
+    - dieu: 1
+      khoan: 3
+      noi_dung: '3. Sửa đổi, bổ sung khoản 10 Điều 255 như sau: “10. Các dự án đầu tư thuộc trường hợp giao đất, cho thuê đất không thông qua hình thức đấu giá quyền sử dụng đất theo quy định của Luật Đất đai số 45/2013/QH13, pháp luật có liên quan và phù hợp với quy hoạch, kế hoạch sử dụng đất mà chưa được giao đất, cho thuê đất thì được tiếp tục thực hiện các bước tiếp theo trong trình tự, thủ tục giao đất, cho thuê đất để giao đất, cho thuê đất cho nhà đầu tư, chủ đầu tư theo quy định của Luật này nếu thuộc một trong các trường hợp sau đây: a) Dự án đã lựa chọn được nhà đầu tư, chủ đầu tư theo đúng quy định của pháp luật về đầu tư, pháp luật về nhà ở, pháp luật về đấu thầu từ ngày 01 tháng 7 năm 2014 đến trước ngày 01 tháng 8 năm 2024;'
+      trang_pdf: 1
+      sha256_pdf: 859d1f08a3a9fd5555ffc4396226cb2c86a4c48c6f577331cdd476071d2e00f4
+    - dieu: 1
+      khoan: 3
+      noi_dung: 'b) Dự án mà nhà đầu tư đã nộp hồ sơ hợp lệ để thực hiện thủ tục lựa chọn nhà đầu tư, chủ đầu tư trước ngày 01 tháng 8 năm 2024 và đã lựa chọn được nhà đầu tư, chủ đầu tư trước ngày 01 tháng 01 năm 2025. Việc lựa chọn nhà đầu tư, chủ đầu tư đối với dự án quy định tại điểm này được thực hiện theo quy định của pháp luật về đầu tư, pháp luật về nhà ở, pháp luật về đấu thầu có hiệu lực tại thời điểm nộp hồ sơ.”.'
+      trang_pdf: 2
+      sha256_pdf: 859d1f08a3a9fd5555ffc4396226cb2c86a4c48c6f577331cdd476071d2e00f4
+    - dieu: 1
+      khoan: 4
+      noi_dung: '4. Sửa đổi, bổ sung khổ đầu khoản 4 Điều 260 như sau: “4. Phương án sử dụng đất, phương án xử lý, phương án sắp xếp lại, xử lý nhà, đất đã được cấp có thẩm quyền phê duyệt theo quy định tại Nghị quyết số 132/2020/QH14 của Quốc hội thí điểm một số chính sách để tháo gỡ vướng mắc, tồn đọng trong quản lý, sử dụng đất quốc phòng, an ninh kết hợp với hoạt động lao động sản xuất, xây dựng kinh tế trước ngày 01 tháng 01 năm 2025 thì thực hiện theo phương án đã phê duyệt.”.'
+      trang_pdf: 2
+      sha256_pdf: 859d1f08a3a9fd5555ffc4396226cb2c86a4c48c6f577331cdd476071d2e00f4
+    - dieu: 2
+      noi_dung: 'Sửa đổi, bổ sung khoản 1 Điều 197 như sau: “1. Luật này có hiệu lực thi hành từ ngày 01 tháng 8 năm 2024.”.'
+      trang_pdf: 2
+      sha256_pdf: 859d1f08a3a9fd5555ffc4396226cb2c86a4c48c6f577331cdd476071d2e00f4
+    - dieu: 3
+      noi_dung: 'Sửa đổi, bổ sung khoản 1 Điều 82 như sau: “1. Luật này có hiệu lực thi hành từ ngày 01 tháng 8 năm 2024.”.'
+      trang_pdf: 2
+      sha256_pdf: 859d1f08a3a9fd5555ffc4396226cb2c86a4c48c6f577331cdd476071d2e00f4
+    - dieu: 4
+      noi_dung: 'Sửa đổi, bổ sung khoản 2 Điều 209 như sau: “2. Khoản 3 Điều 200 và khoản 15 Điều 210 của Luật này có hiệu lực thi hành từ ngày 01 tháng 8 năm 2024.”.'
+      trang_pdf: 2
+      sha256_pdf: 859d1f08a3a9fd5555ffc4396226cb2c86a4c48c6f577331cdd476071d2e00f4
+    - dieu: 5
+      noi_dung: 'Luật này có hiệu lực thi hành từ ngày 01 tháng 8 năm 2024./.'
+      trang_pdf: 2
+      sha256_pdf: 859d1f08a3a9fd5555ffc4396226cb2c86a4c48c6f577331cdd476071d2e00f4
 ghi_chu: 'Đính chính thông tin văn bản: số hiệu 43/2024/QH15 là Luật sửa đổi Luật Đất đai, Luật Nhà ở, Luật Kinh doanh BĐS và Luật Các tổ chức tín dụng (thông qua ngày 29/06/2024, hiệu lực 01/08/2024), không phải Luật Bảo vệ và kiểm dịch thực vật (Luật BV&KDTV hiện hành vẫn là Luật 41/2013/QH13 được sửa đổi bởi Luật 146/2025/QH15).'
-toan_van: raw/download/datafiles.chinhphu.vn/43-2024-qh15.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/43-2024-qh15.pdf
+  - wiki/sources/43-2024-qh15.md

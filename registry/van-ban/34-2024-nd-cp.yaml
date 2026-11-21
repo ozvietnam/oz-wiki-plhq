@@ -21,9 +21,75 @@ nguon:
     truy_cap: '2026-11-12'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'PDF Công báo số 517+518 và 519+520 ngày 17-04-2024 (có lớp chữ) và tệp ký số 34-nd-cp.signed.pdf trên vanban.chinhphu.vn (docid=210000): số hiệu 34/2024/NĐ-CP, trích yếu, ngày ký 31-03-2024, người ký Phó Thủ tướng Trần Hồng Hà; cấu trúc 6 Chương / 35 Điều / 5 Phụ lục (Phụ lục I: Danh mục hàng nguy hiểm phân theo số hiệu UN, loại/nhóm hàng và số hiệu nguy hiểm, không có cột mã HS). Điều 34 (Hiệu lực thi hành, tr. 24–25 Công báo 517+518): "1. Nghị định này có hiệu lực thi hành kể từ ngày 15 tháng 5 năm 2024 và thay thế Nghị định số 42/2020/NĐ-CP ngày 08 tháng 4 năm 2020 của Chính phủ quy định danh mục hàng hóa nguy hiểm, vận chuyển hàng hóa nguy hiểm bằng phương tiện giao thông cơ giới đường bộ và vận chuyển hàng hóa nguy hiểm trên đường thủy nội địa (https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=199749). 2. Các tổ chức, cá nhân đã được cấp Giấy phép vận chuyển hàng hóa nguy hiểm trước ngày Nghị định này có hiệu lực thi hành tiếp tục được sử dụng, không phải thực hiện cấp lại cho đến khi hết hiệu lực của Giấy phép hoặc đến khi thực hiện cấp lại." Đối chiếu tình trạng hiện tại ngày 2026-11-12 trên congbao.chinhphu.vn và vanban.chinhphu.vn: từ ngày 01-01-2025, Nghị định số 161/2024/NĐ-CP ngày 18-12-2024 của Chính phủ quy định Danh mục hàng hóa nguy hiểm, vận chuyển hàng hóa nguy hiểm và trình tự, thủ tục cấp giấy phép, cấp giấy chứng nhận hoàn thành chương trình tập huấn cho người lái xe hoặc người áp tải vận chuyển hàng hóa nguy hiểm trên đường bộ (https://vanban.chinhphu.vn/?pageid=27160&docid=212127, https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/12/161_2024_nd-cp_18122024-signed.pdf) sửa đổi, bổ sung một số quy định của NĐ 34/2024/NĐ-CP để tách phần vận chuyển hàng hóa nguy hiểm trên đường bộ sang NĐ 161/2024/NĐ-CP; NĐ 34/2024/NĐ-CP tiếp tục CON_HIEU_LUC đối với phạm vi vận chuyển hàng hóa nguy hiểm trên đường thủy nội địa.'
+  pham_vi: 'PDF Công báo số 517+518 và 519+520 ngày 17-04-2024 (raw/download/congbaocdn.chinhphu.vn/34-2024-nd-cp.pdf, 95 trang, có lớp chữ, SHA-256 c772431c81fdda7acfc7cc51f7464bd36a1bb550b35e726321307f54ebb6edbb), wiki/sources/34-2024-nd-cp.md và tệp ký số 34-nd-cp.signed.pdf trên vanban.chinhphu.vn (docid=210000): số hiệu 34/2024/NĐ-CP, ngày ký 31-03-2024, người ký Phó Thủ tướng Trần Hồng Hà; cấu trúc 6 Chương / 35 Điều / 5 Phụ lục (Phụ lục I: Danh mục hàng nguy hiểm phân theo số hiệu UN, loại/nhóm hàng và số hiệu nguy hiểm, không có cột mã HS). Có hiệu lực từ 15/05/2024 và thay thế NĐ 42/2020/NĐ-CP theo Điều 34. Từ ngày 01-01-2025, Nghị định số 161/2024/NĐ-CP ngày 18-12-2024 tách phần vận chuyển hàng hóa nguy hiểm trên đường bộ sang NĐ 161/2024/NĐ-CP; NĐ 34/2024/NĐ-CP tiếp tục CON_HIEU_LUC đối với phạm vi vận chuyển hàng hóa nguy hiểm trên đường thủy nội địa.'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-12'
+  ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: '1. Nghị định này quy định Danh mục hàng hóa nguy hiểm, việc vận chuyển hàng hóa nguy hiểm, cấp Giấy phép vận chuyển hàng hóa nguy hiểm bằng phương tiện giao thông cơ giới đường bộ và vận chuyển hàng hóa nguy hiểm trên đường thủy nội địa. 2. Đối với hoạt động vận chuyển các chất phóng xạ, ngoài việc thực hiện Nghị định này còn phải thực hiện theo quy định của pháp luật về năng lượng nguyên tử. 3. Đối với hoạt động vận chuyển vũ khí, vật liệu nổ, công cụ hỗ trợ, tiền chất thuốc nổ, pháo thực hiện theo quy định của pháp luật về vũ khí, vật liệu nổ, công cụ hỗ trợ, tiền chất thuốc nổ và pháo. 4. Đối với hoạt động vận chuyển các loại hàng hóa nguy hiểm phục vụ mục đích an ninh, quốc phòng của lực lượng vũ trang thực hiện theo quy định của Nghị định này và do Bộ trưởng Bộ Công an và Bộ trưởng Bộ Quốc phòng tổ chức thực hiện. 5. Đối với các hàng hóa nguy hiểm là chất thải nguy hại, ngoài quy định của nghị định này còn phải tuân thủ quy định của pháp luật về bảo vệ môi trường. 6. Đối với trường hợp có quy định khác nhau giữa Nghị định này với quy định của pháp luật về năng lượng nguyên tử, vũ khí, vật liệu nổ, công cụ hỗ trợ, tiền chất thuốc nổ, pháo, bảo vệ môi trường, phòng cháy và chữa cháy thì thực hiện theo quy định của pháp luật về năng lượng nguyên tử, vũ khí, vật liệu nổ, công cụ hỗ trợ, tiền chất thuốc nổ và pháo, bảo vệ môi trường, phòng cháy và chữa cháy.'
+      trang_pdf: 2
+      sha256_pdf: c772431c81fdda7acfc7cc51f7464bd36a1bb550b35e726321307f54ebb6edbb
+    - dieu: 2
+      noi_dung: '1. Nghị định này áp dụng với tổ chức, cá nhân Việt Nam và nước ngoài liên quan đến việc vận chuyển hàng hóa nguy hiểm bằng phương tiện giao thông cơ giới đường bộ và trên đường thủy nội địa trên lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam. 2. Thủ tướng Chính phủ quyết định việc áp dụng những quy chế, biện pháp đặc biệt đối với việc vận chuyển hàng hóa nguy hiểm trong các trường hợp sau đây: a) Hàng hóa phục vụ cho yêu cầu cấp bách phòng, chống dịch bệnh, thiên tai, địch họa; b) Hàng hóa quá cảnh của các nước, tổ chức quốc tế không ký kết điều ước quốc tế liên quan tới Việt Nam.'
+      trang_pdf: 2
+      sha256_pdf: c772431c81fdda7acfc7cc51f7464bd36a1bb550b35e726321307f54ebb6edbb
+    - dieu: 4
+      khoan: 2
+      noi_dung: '2. Các bao bì, thùng chứa hàng hóa nguy hiểm chưa được làm sạch bên trong và bên ngoài sau khi dỡ hết hàng hóa nguy hiểm cũng được coi là hàng hóa nguy hiểm tương ứng.'
+      trang_pdf: 4
+      sha256_pdf: c772431c81fdda7acfc7cc51f7464bd36a1bb550b35e726321307f54ebb6edbb
+    - dieu: 5
+      noi_dung: '1. Danh mục hàng hóa nguy hiểm được phân theo loại, nhóm kèm theo mã số Liên hợp quốc và số hiệu nguy hiểm quy định tại Phụ lục I của Nghị định này. 2. Mức độ nguy hiểm của mỗi chất trong danh mục hàng hóa nguy hiểm được biểu thị bằng số hiệu nguy hiểm với một nhóm có 2 đến 3 chữ số quy định tại Phụ lục II của Nghị định này.'
+      trang_pdf: 4
+      sha256_pdf: c772431c81fdda7acfc7cc51f7464bd36a1bb550b35e726321307f54ebb6edbb
+    - dieu: 6
+      khoan: 1
+      noi_dung: '1. Bao bì, thùng chứa và việc đóng gói hàng hóa nguy hiểm trong lãnh thổ Việt Nam phải tuân thủ theo quy chuẩn kỹ thuật quốc gia (QCVN) hoặc tiêu chuẩn quốc gia (TCVN) hoặc quy định của pháp luật chuyên ngành tương ứng với loại hàng hóa. Bao bì, thùng chứa đối với hàng hóa nhập khẩu thực hiện theo khuyến cáo và yêu cầu của nhà sản xuất.'
+      trang_pdf: 5
+      sha256_pdf: c772431c81fdda7acfc7cc51f7464bd36a1bb550b35e726321307f54ebb6edbb
+    - dieu: 7
+      noi_dung: '1. Việc ghi nhãn hàng hóa nguy hiểm được thực hiện theo quy định của Luật Hóa chất và quy định của pháp luật về nhãn hàng hóa. 2. Phía ngoài mỗi bao bì, thùng chứa hàng hóa nguy hiểm có dán biểu trưng nguy hiểm, báo hiệu nguy hiểm ở vị trí dễ quan sát. Kích thước, ký hiệu, màu sắc biểu trưng nguy hiểm theo mẫu quy định tại Phụ lục III của Nghị định này. 3. Báo hiệu nguy hiểm hình chữ nhật, kích thước và màu sắc theo mẫu quy định tại Phụ lục III của Nghị định này. Vị trí dán báo hiệu nguy hiểm ở bên dưới biểu trưng nguy hiểm.'
+      trang_pdf: 6
+      sha256_pdf: c772431c81fdda7acfc7cc51f7464bd36a1bb550b35e726321307f54ebb6edbb
+    - dieu: 16
+      noi_dung: '1. Nội dung của Giấy phép vận chuyển hàng hóa nguy hiểm a) Tên, địa chỉ, điện thoại liên hệ của đơn vị được cấp giấy phép; họ và tên, chức danh người đại diện theo pháp luật; b) Loại, nhóm hàng hóa nguy hiểm; c) Hành trình, lịch trình vận chuyển (áp dụng đối với trường hợp cấp theo chuyến); d) Thời hạn của giấy phép. Đối với trường hợp cấp theo từng chuyến hàng phải có thêm thông tin về phương tiện và người điều khiển phương tiện, người áp tải (áp dụng đối với trường hợp vận chuyển hàng hóa nguy hiểm quy định phải có người áp tải). 2. Mẫu Giấy phép vận chuyển hàng hóa nguy hiểm phải có mã nhận diện QR, báo hiệu nguy hiểm do cơ quan cấp quản lý và phát hành. 3. Giấy phép vận chuyển hàng hóa nguy hiểm có hiệu lực trên toàn quốc. Thời hạn của giấy phép theo đề nghị của người vận tải nhưng tối đa không quá 24 tháng và không quá niên hạn sử dụng của phương tiện.'
+      trang_pdf: 11
+      sha256_pdf: c772431c81fdda7acfc7cc51f7464bd36a1bb550b35e726321307f54ebb6edbb
+    - dieu: 17
+      noi_dung: '1. Bộ Công an tổ chức cấp Giấy phép vận chuyển hàng hóa nguy hiểm loại 1, loại 2, loại 3, loại 4, loại 9 theo quy định tại khoản 1 Điều 4 của Nghị định này (trừ hóa chất bảo vệ thực vật và quy định tại khoản 2 Điều này). 2. Bộ Quốc phòng tổ chức cấp Giấy phép vận chuyển hàng hóa nguy hiểm cho các tổ chức, doanh nghiệp thuộc phạm vi quản lý của Bộ Quốc phòng. 3. Bộ Khoa học và Công nghệ tổ chức cấp Giấy phép vận chuyển hàng hóa nguy hiểm loại 5, loại 8 theo quy định tại khoản 1 Điều 4 của Nghị định này. 4. Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương tổ chức cấp Giấy phép vận chuyển hàng hóa nguy hiểm là hóa chất bảo vệ thực vật. 5. Cơ quan cấp Giấy phép vận chuyển hàng hóa nguy hiểm căn cứ vào loại, nhóm hàng hóa nguy hiểm theo quy định tại khoản 1 Điều 4 của Nghị định này để quyết định tuyến đường vận chuyển và thời gian vận chuyển. 6. Việc cấp Giấy phép vận chuyển hàng hóa nguy hiểm loại 7 được thực hiện theo quy định tại Nghị định về việc tiến hành công việc bức xạ và hoạt động dịch vụ hỗ trợ ứng dụng năng lượng nguyên tử. 7. Cơ quan cấp Giấy phép vận chuyển hàng hóa nguy hiểm từ chối cấp giấy phép đối với hoạt động vận chuyển hàng hóa nguy hiểm là các chất dễ cháy, nổ có hành trình đi qua công trình hầm, phà theo quy định tại Điều 12 của Nghị định này.'
+      trang_pdf: 11
+      sha256_pdf: c772431c81fdda7acfc7cc51f7464bd36a1bb550b35e726321307f54ebb6edbb
+    - dieu: 17
+      khoan: 8
+      noi_dung: '8. Tổ chức, cá nhân khi vận chuyển hàng hóa nguy hiểm thuộc một trong các trường hợp sau đây được miễn cấp Giấy phép vận chuyển hàng hóa nguy hiểm theo quy định tại Nghị định này: a) Vận chuyển hàng hóa nguy hiểm là khí thiên nhiên hóa lỏng (LNG) và khí thiên nhiên nén (CNG) có tổng khối lượng nhỏ hơn 1.080 ki-lô-gam; b) Vận chuyển hàng hóa nguy hiểm là khí dầu mỏ hóa lỏng (LPG) có tổng khối lượng nhỏ hơn 2.250 ki-lô-gam; c) Vận chuyển hàng hóa nguy hiểm là nhiên liệu lỏng có tổng dung tích nhỏ hơn 1.500 lít; d) Vận chuyển hàng hóa nguy hiểm là hóa chất bảo vệ thực vật có tổng khối lượng nhỏ hơn 1.000 ki-lô-gam; đ) Vận chuyển hàng hóa nguy hiểm đối với các hóa chất độc nguy hiểm còn lại trong các loại, nhóm hàng hóa nguy hiểm. 9. Phương tiện vận chuyển hàng hóa nguy hiểm không phải đề nghị cấp Giấy phép vận chuyển hàng hóa nguy hiểm quy định tại khoản 8 Điều này phải đảm bảo các điều kiện an toàn phòng cháy, chữa cháy theo quy định pháp luật về phòng cháy, chữa cháy trong quá trình vận chuyển.'
+      trang_pdf: 12
+      sha256_pdf: c772431c81fdda7acfc7cc51f7464bd36a1bb550b35e726321307f54ebb6edbb
+    - dieu: 21
+      noi_dung: '1. Chủ trì tổng hợp ý kiến của các bộ, ngành có liên quan trong việc sửa đổi, bổ sung danh mục hàng hóa nguy hiểm trình Chính phủ ban hành; tổng hợp báo cáo về vận chuyển hàng hóa nguy hiểm theo quy định tại Nghị định này. 2. Ban hành quy chuẩn kỹ thuật quốc gia về an toàn kỹ thuật và bảo vệ môi trường đối với phương tiện thủy nội địa và phương tiện giao thông cơ giới đường bộ chở hàng hóa nguy hiểm, thiết bị chuyên dùng gắn cố định (không thể tách rời) trên phương tiện vận chuyển hàng hóa nguy hiểm. 3. Phối hợp với các bộ, ngành có liên quan trong công tác quản lý, thanh tra, kiểm tra và xử lý vi phạm đối với hoạt động vận chuyển hàng hóa nguy hiểm.'
+      trang_pdf: 18
+      sha256_pdf: c772431c81fdda7acfc7cc51f7464bd36a1bb550b35e726321307f54ebb6edbb
+    - dieu: 27
+      noi_dung: '1. Quản lý danh mục hàng hóa nguy hiểm là hóa chất bảo vệ thực vật. 2. Chủ trì, phối hợp với Bộ Giao thông vận tải tham mưu Chính phủ sửa đổi, bổ sung danh mục hàng hóa nguy hiểm liên quan đến hóa chất bảo vệ thực vật. 3. Phối hợp với các bộ, ngành có liên quan trong công tác quản lý, thanh tra, kiểm tra và xử lý vi phạm đối với hoạt động vận chuyển hàng hóa nguy hiểm theo thẩm quyền.'
+      trang_pdf: 20
+      sha256_pdf: c772431c81fdda7acfc7cc51f7464bd36a1bb550b35e726321307f54ebb6edbb
+    - dieu: 28
+      noi_dung: 'Phối hợp với các bộ, ngành có liên quan trong công tác quản lý, thanh tra, kiểm tra và xử lý vi phạm đối với hoạt động vận chuyển hàng hóa nguy hiểm theo thẩm quyền.'
+      trang_pdf: 20
+      sha256_pdf: c772431c81fdda7acfc7cc51f7464bd36a1bb550b35e726321307f54ebb6edbb
+    - dieu: 29
+      noi_dung: 'Thực hiện công tác kiểm tra, giám sát, kiểm soát xuất nhập cảnh; kiểm tra, giám sát hàng hóa nguy hiểm, phương tiện vận chuyển hàng hóa nguy hiểm trong địa bàn hoạt động hải quan theo quy định của pháp luật.'
+      trang_pdf: 20
+      sha256_pdf: c772431c81fdda7acfc7cc51f7464bd36a1bb550b35e726321307f54ebb6edbb
+    - dieu: 34
+      noi_dung: '1. Nghị định này có hiệu lực thi hành kể từ ngày 15 tháng 5 năm 2024 và thay thế Nghị định số 42/2020/NĐ-CP ngày 08 tháng 4 năm 2020 của Chính phủ quy định danh mục hàng hóa nguy hiểm, vận chuyển hàng hóa nguy hiểm bằng phương tiện giao thông cơ giới đường bộ và vận chuyển hàng hóa nguy hiểm trên đường thủy nội địa. 2. Các tổ chức, cá nhân đã được cấp Giấy phép vận chuyển hàng hóa nguy hiểm trước ngày Nghị định này có hiệu lực thi hành tiếp tục được sử dụng, không phải thực hiện cấp lại cho đến khi hết hiệu lực của Giấy phép hoặc đến khi thực hiện cấp lại.'
+      trang_pdf: 24
+      sha256_pdf: c772431c81fdda7acfc7cc51f7464bd36a1bb550b35e726321307f54ebb6edbb
+    - dieu: 35
+      noi_dung: 'Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương và các cá nhân, đơn vị có liên quan chịu trách nhiệm thi hành Nghị định này./.'
+      trang_pdf: 24
+      sha256_pdf: c772431c81fdda7acfc7cc51f7464bd36a1bb550b35e726321307f54ebb6edbb
 ghi_chu: 'Biểu thuế XNK Tổng cục (nhu-cau/bieu-thue-van-ban.json) liệt kê số hiệu 34/2024/NĐ-CP với vai trò HIEN_HANH (0 mã HS) nhưng gắn nhầm dòng mô tả nội dung của Điều 5 NĐ 33/2024/NĐ-CP ("Danh mục hóa chất Bảng 1,2,3 / Danh mục hóa chất nhập khẩu phải khai báo... / Hóa chất cấm đầu tư kinh doanh..."). Trên thực tế nguồn bậc A, NĐ 34/2024/NĐ-CP do Bộ Giao thông vận tải trình, quy định Danh mục hàng hóa nguy hiểm theo số hiệu Liên hợp quốc (UN) và số hiệu nguy hiểm (không có bảng mã HS), phục vụ kiểm tra, giám sát vận chuyển hàng nguy hiểm (xếp nhánh hai-quan/kiem-tra-giam-sat). Văn bản bị thay thế toàn bộ là NĐ 42/2020/NĐ-CP ngày 08-04-2020 (https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=199749) và văn bản sửa đổi, bổ sung một phần từ 01-01-2025 là NĐ 161/2024/NĐ-CP ngày 18-12-2024 (https://vanban.chinhphu.vn/?pageid=27160&docid=212127) đều chưa có mục riêng trong sổ nên ghi nhận kèm URL tại pham_vi và ghi_chu, không đưa vào quan_he.'
-toan_van: raw/download/congbaocdn.chinhphu.vn/34-2024-nd-cp.pdf
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/34-2024-nd-cp.pdf
+  - wiki/sources/34-2024-nd-cp.md
