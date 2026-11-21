@@ -25,7 +25,13 @@ nguon:
     truy_cap: '2026-10-20'
   - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/2/4/28signed-1770197502883408446461.pdf
     truy_cap: '2026-11-21'
-danh_muc_khong_ma_hs: 'Phụ lục trên Công báo số 82 ngày 04/02/2026 (34 trang, gồm Danh mục I: IA, IB; Danh mục II: IIA, IIB; Danh mục III; Danh mục IV: IVA, IVB, IVC) chỉ có các cột STT, Tên chất, Tên khoa học và Mã thông tin CAS — không gắn mã HS và không dẫn chiếu mã HS.'
+danh_muc_hs:
+  tep: danh-muc/28-2026-nd-cp.csv
+  nguon: https://congbaocdn.chinhphu.vn/180507251028987904/2026/2/4/28signed-1770197502883408446461.pdf
+  trich_boi: tho-bo-ba-01@ozvietnam
+  ngay: '2026-11-21'
+  da_doi_chieu: true
+  ghi_chu: 'Trích từ PDF Công báo số 82 ngày 04-02-2026 (trang 34–39 PDF, tức trang 36–41 số Công báo): 79 tiền chất tại Danh mục IV (IVA: 31 tiền chất do Bộ Công an quản lý; IVB: 30 tiền chất do Bộ Công Thương, Bộ Y tế, Bộ Nông nghiệp và Môi trường quản lý; IVC: 18 tiền chất là hóa chất, dung môi, chất xúc tác do Bộ Công Thương, Bộ Nông nghiệp và Môi trường quản lý), tách ô 2 mã HS của Sulfuric acid (IVC.15: 2807.00.10, 2807.00.90) thành 80 dòng dữ liệu; 9 dòng IVA.12..IVA.20 trong bản gốc Công báo in mã 2932.99.90 (AHTN cũ) đã chuẩn hóa về 2932.99.00 theo Biểu thuế hiện hành (nhu-cau/bieu-thue.json); các Danh mục I, II, III (trang 4–33 PDF) chỉ liệt kê theo tên chất, tên khoa học và mã CAS, không gắn mã HS.'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'Đã đối chiếu toàn văn nguồn bậc A từ PDF Công báo số 82 ngày 04-02-2026 (raw/download/congbaocdn.chinhphu.vn/28-2026-nd-cp.pdf, 40 trang, trang 3–42 của số Công báo, có lớp chữ ký số bởi Văn phòng Chính phủ ngày 04-02-2026, SHA-256 a053fce94b36ea3a660962bb4fab41e5296cbf0636872895c07758bd685a6c24), thẻ vanban.chinhphu.vn (docid=216717) và trang wiki/sources/28-2026-nd-cp.md: Thủ tướng Phạm Minh Chính ký ban hành ngày 19-01-2026; cấu trúc 3 Điều và Phụ lục 04 Danh mục chất ma túy, tiền chất (Danh mục I: IA 24 chất, IB 34 chất; Danh mục II: IIA 135 chất, IIB 341 chất; Danh mục III: 81 chất; Danh mục IV: IVA 31 tiền chất, IVB 30 tiền chất, IVC 18 tiền chất); Điều 3 khoản 1-2 có hiệu lực từ ngày 19-01-2026 và thay thế toàn bộ NĐ 57/2022/NĐ-CP, NĐ 90/2024/NĐ-CP.'
