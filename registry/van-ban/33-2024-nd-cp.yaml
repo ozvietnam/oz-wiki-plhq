@@ -49,7 +49,67 @@ xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF Công báo số 499+500 và 501+502 ngày 12-04-2024 (có lớp chữ) và tệp ký số 33-nd-cp.signed.pdf trên vanban.chinhphu.vn (docid=209957): số hiệu 33/2024/NĐ-CP, trích yếu, ngày ký 27-03-2024, người ký Phó Thủ tướng Trần Lưu Quang; cấu trúc 6 Chương / 41 Điều / 3 Phụ lục (Phụ lục I: Danh mục hóa chất Bảng 1, 2, 3 kèm mã số HS và mã CAS; Phụ lục II: Bảng kê khai; Phụ lục III: 14 mẫu văn bản). Điều 40 (Hiệu lực thi hành, tr. 42–43 Công báo 499+500): "1. Nghị định này có hiệu lực thi hành từ ngày 19 tháng 5 năm 2024. 2. Nghị định này thay thế các văn bản quy phạm pháp luật; điểm, khoản, điều của các văn bản quy phạm pháp luật sau đây: a) Nghị định số 38/2014/NĐ-CP ngày 06 tháng 5 năm 2014 của Chính phủ về quản lý hóa chất thuộc diện kiểm soát của Công ước cấm phát triển, sản xuất, tàng trữ, sử dụng và phá hủy vũ khí hóa học (https://vanban.chinhphu.vn/?pageid=27160&docid=173712); b) Điều 9, điểm a khoản 2 Điều 47 Nghị định số 77/2016/NĐ-CP ngày 01 tháng 7 năm 2016 của Chính phủ (https://vanban.chinhphu.vn/?pageid=27160&docid=185657); c) Điều 12 và 13 Nghị định số 08/2018/NĐ-CP ngày 15 tháng 01 năm 2018 của Chính phủ (https://vanban.chinhphu.vn/?pageid=27160&docid=192607); d) Điều 6 và 7 Nghị định số 17/2020/NĐ-CP ngày 05 tháng 02 năm 2020 của Chính phủ (https://vanban.chinhphu.vn/?pageid=27160&docid=199044). 3. Bãi bỏ Quyết định số 76/2002/QĐ-TTg ngày 14 tháng 6 năm 2002 của Thủ tướng Chính phủ về việc thành lập Tổ công tác thực hiện Công ước cấm phát triển, sản xuất, tàng trữ, sử dụng vũ khí hóa học và phá huỷ các loại vũ khí này (Công ước Cấm vũ khí hóa học) (https://vanban.chinhphu.vn/?pageid=27160&docid=10891)." Điều 38 khoản 6 quy định việc báo cáo hóa chất Bảng, DOC, DOC-PSF tại điểm c khoản 2 các Điều 23, 24, 25, 26 qua Cơ sở dữ liệu hóa chất quốc gia áp dụng từ 15-02-2025. Đối chiếu tình trạng hiện tại ngày 2026-11-12 trên congbao.chinhphu.vn, vanban.chinhphu.vn và vbpl.vn: khoản 4 Điều 31 Nghị định 26/2026/NĐ-CP ngày 17-01-2026 (https://vanban.chinhphu.vn/?docid=216673&pageid=27160, Công báo số 78 ngày 02-02-2026) bãi bỏ khoản 2 Điều 34 của NĐ 33/2024/NĐ-CP từ ngày 17-01-2026; toàn bộ các điều khoản quản lý xuất nhập khẩu hóa chất Bảng và Phụ lục I, II, III của NĐ 33/2024/NĐ-CP vẫn đang CON_HIEU_LUC.'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-12'
+  ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Nghị định này quy định việc thực hiện Công ước Cấm phát triển, sản xuất, tàng trữ, sử dụng và phá hủy vũ khí hóa học (sau đây gọi tắt là Công ước Cấm vũ khí hóa học) trên lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam bao gồm: 1. Các quy định chung về việc thực hiện Công ước Cấm vũ khí hóa học. 2. Sản xuất, kinh doanh, xuất khẩu, nhập khẩu, chế biến, sử dụng, tàng trữ hóa chất Bảng; sản xuất hóa chất DOC, DOC-PSF. 3. Báo cáo hóa chất Bảng, hóa chất DOC, DOC-PSF. 4. Các quy định về thanh sát và thanh tra, kiểm tra. 5. Quản lý nhà nước về hóa chất Bảng, hóa chất DOC, DOC-PSF.'
+      trang_pdf: 2
+      sha256_pdf: bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41
+    - dieu: 2
+      noi_dung: 'Nghị định này áp dụng đối với tổ chức, cá nhân tham gia hoặc liên quan đến các hoạt động thực hiện Công ước Cấm vũ khí hóa học trên lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam.'
+      trang_pdf: 2
+      sha256_pdf: bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41
+    - dieu: 5
+      khoan: 1
+      noi_dung: 'Ban hành Danh mục các hóa chất Bảng 1, hóa chất Bảng 2 và hóa chất Bảng 3 tại Phụ lục I kèm theo Nghị định này.'
+      trang_pdf: 7
+      sha256_pdf: bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41
+    - dieu: 5
+      khoan: 2
+      noi_dung: 'Bổ sung trường hợp ngoại trừ đối với một số hóa chất thuộc Danh mục hóa chất hạn chế sản xuất, kinh doanh trong lĩnh vực công nghiệp tại Phụ lục II kèm theo Nghị định số 82/2022/NĐ-CP ngày 18 tháng 10 năm 2022 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 113/2017/NĐ-CP ngày 09 tháng 10 năm 2017 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất như sau:'
+      trang_pdf: 7
+      sha256_pdf: bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41
+    - dieu: 5
+      khoan: 3
+      noi_dung: 'Bãi bỏ một số hóa chất thuộc Danh mục hóa chất sản xuất, kinh doanh có điều kiện trong lĩnh vực công nghiệp tại Phụ lục I kèm theo Nghị định số 113/2017/NĐ-CP ngày 09 tháng 10 năm 2017 của Chính phủ được sửa đổi, bổ sung bởi Nghị định số 82/2022/NĐ-CP ngày 18 tháng 10 năm 2022 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 113/2017/NĐ-CP ngày 09 tháng 10 năm 2017 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất như sau:'
+      trang_pdf: 8
+      sha256_pdf: bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41
+    - dieu: 5
+      khoan: 4
+      noi_dung: 'Bãi bỏ một số hóa chất thuộc Danh mục hóa chất phải khai báo tại Phụ lục V kèm theo Nghị định số 113/2017/NĐ-CP ngày 09 tháng 10 năm 2017 của Chính phủ được sửa đổi, bổ sung bởi Nghị định số 82/2022/NĐ-CP ngày 18 tháng 10 năm 2022 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 113/2017/NĐ-CP ngày 09 tháng 10 năm 2017 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất như sau:'
+      trang_pdf: 9
+      sha256_pdf: bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41
+    - dieu: 17
+      khoan: 1
+      noi_dung: 'Tổ chức, cá nhân chỉ được nhập khẩu, xuất khẩu hóa chất Bảng 1, hóa chất Bảng 2 từ các Quốc gia thành viên của Công ước Cấm vũ khí hóa học. Trường hợp việc xuất khẩu hóa chất Bảng 3 được thực hiện với tổ chức, cá nhân của quốc gia không phải là thành viên của Công ước thì phải có Giấy chứng nhận sử dụng cuối cùng của cơ quan có thẩm quyền của quốc gia này.'
+      trang_pdf: 23
+      sha256_pdf: bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41
+    - dieu: 17
+      khoan: 2
+      noi_dung: 'Tổ chức, cá nhân nhập khẩu, xuất khẩu hóa chất Bảng phải có giấy phép do cơ quan có thẩm quyền cấp. Giấy phép nhập khẩu, xuất khẩu hóa chất Bảng là điều kiện để thông quan khi nhập khẩu, xuất khẩu hóa chất Bảng.'
+      trang_pdf: 23
+      sha256_pdf: bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41
+    - dieu: 40
+      khoan: 1
+      noi_dung: 'Nghị định này có hiệu lực thi hành từ ngày 19 tháng 5 năm 2024.'
+      trang_pdf: 41
+      sha256_pdf: bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41
+    - dieu: 40
+      khoan: 2
+      noi_dung: 'Nghị định này thay thế các văn bản quy phạm pháp luật; điểm, khoản, điều của các văn bản quy phạm pháp luật sau đây: a) Nghị định số 38/2014/NĐ-CP ngày 06 tháng 5 năm 2014 của Chính phủ về quản lý hóa chất thuộc diện kiểm soát của Công ước cấm phát triển, sản xuất, tàng trữ, sử dụng và phá hủy vũ khí hóa học; b) Điều 9, điểm a khoản 2 Điều 47 Nghị định số 77/2016/NĐ-CP ngày 01 tháng 7 năm 2016 của Chính phủ sửa đổi, bổ sung một số quy định về điều kiện đầu tư kinh doanh trong lĩnh vực mua bán hàng hóa quốc tế, hóa chất, vật liệu nổ công nghiệp, phân bón, kinh doanh khí, kinh doanh thực phẩm thuộc phạm vi quản lý nhà nước của Bộ Công Thương; c) Điều 12 và 13 Nghị định số 08/2018/NĐ-CP ngày 15 tháng 01 năm 2018 của Chính phủ sửa đổi một số Nghị định liên quan đến điều kiện đầu tư kinh doanh thuộc phạm vi quản lý nhà nước của Bộ Công Thương; d) Điều 6 và 7 Nghị định số 17/2020/NĐ-CP ngày 05 tháng 02 năm 2020 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định liên quan đến điều kiện đầu tư kinh doanh thuộc lĩnh vực quản lý nhà nước của Bộ Công Thương.'
+      trang_pdf: 41
+      sha256_pdf: bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41
+    - dieu: 40
+      khoan: 3
+      noi_dung: 'Bãi bỏ Quyết định số 76/2002/QĐ-TTg ngày 14 tháng 6 năm 2002 của Thủ tướng Chính phủ về việc thành lập Tổ công tác thực hiện Công ước cấm phát triển, sản xuất, tàng trữ, sử dụng vũ khí hóa học và phá huỷ các loại vũ khí này (Công ước Cấm vũ khí hóa học).'
+      trang_pdf: 42
+      sha256_pdf: bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41
+    - dieu: 41
+      noi_dung: 'Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương, các cơ quan, tổ chức và cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này./.'
+      trang_pdf: 42
+      sha256_pdf: bcb228f4ab095dd6009693412708d2ffac8a4a7986075ef0c2c56128f6a07f41
 ghi_chu: 'Được biểu thuế XNK (hs-code-api) dẫn tại 60 mã HS thuộc Phụ lục I (Danh mục hóa chất Bảng 1, 2, 3). Các văn bản bị thay thế toàn bộ hoặc một phần theo khoản 2, khoản 3 Điều 40 gồm: NĐ 38/2014/NĐ-CP ngày 06-05-2014 (https://vanban.chinhphu.vn/?pageid=27160&docid=173712), Điều 9 và điểm a khoản 2 Điều 47 NĐ 77/2016/NĐ-CP ngày 01-07-2016 (https://vanban.chinhphu.vn/?pageid=27160&docid=185657), Điều 12 và 13 NĐ 08/2018/NĐ-CP ngày 15-01-2018 (https://vanban.chinhphu.vn/?pageid=27160&docid=192607), Điều 6 và 7 NĐ 17/2020/NĐ-CP ngày 05-02-2020 (https://vanban.chinhphu.vn/?pageid=27160&docid=199044) và QĐ 76/2002/QĐ-TTg ngày 14-06-2002 (https://vanban.chinhphu.vn/?pageid=27160&docid=10891) chưa có mục riêng trong sổ nên ghi nhận tại pham_vi và ghi_chu, không đưa vào quan_he để tránh phát sinh điểm mù THIEU_VAN_BAN. Tình trạng hiệu lực hiện tại: khoản 2 Điều 34 (về căn cứ thanh tra đột xuất) đã bị bãi bỏ từ 17-01-2026 theo khoản 4 Điều 31 NĐ 26/2026/NĐ-CP (https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-26-2026-nd-cp-468804.htm).'
-toan_van: raw/download/congbaocdn.chinhphu.vn/33-2024-nd-cp.pdf
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/33-2024-nd-cp.pdf
+  - wiki/sources/33-2024-nd-cp.md
