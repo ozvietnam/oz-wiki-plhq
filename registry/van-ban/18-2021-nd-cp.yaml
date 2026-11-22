@@ -18,9 +18,47 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, trích yếu, ngày ban hành 11-03-2021 và ngày có hiệu lực 25-04-2021 trên vanban.chinhphu.vn (docid=202806), kèm toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/18-2021-nd-cp.pdf, wiki/sources/18-2021-nd-cp.md); đối chiếu còn hiệu lực, sửa đổi bổ sung 134/2016/NĐ-CP'
+  pham_vi: số hiệu, trích yếu, ngày ban hành 11-03-2021 và ngày có hiệu lực 25-04-2021 trên vanban.chinhphu.vn (docid=202806), kèm toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/18-2021-nd-cp.pdf, 114 trang) và bản OCR (raw/ocr/18-2021-nd-cp.ocr.txt, wiki/sources/18-2021-nd-cp.md); đối chiếu còn hiệu lực, sửa đổi bổ sung 134/2016/NĐ-CP
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-22'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Thẻ cổng Chính phủ khớp ngày và người ký Nguyễn Xuân Phúc. PDF: https://datafiles.chinhphu.vn/cpp/files/vbpq/2021/03/18.signed.pdf. Chưa đọc điều khoản sửa đổi.'
-toan_van: raw/download/datafiles.chinhphu.vn/18-2021-nd-cp.pdf
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Sửa đổi, bd sung một số điều của Nghị định số 134/2016/NĐ- CP ngày 01 tháng 9 năm 2016 của Chính phủ quy định chỉ tiết một số điều và biện pháp thi hành. Luật Thuế xuất khẩu, thuế nhập khẩu
+      trang_pdf: 1
+    - dieu: 1
+      khoan: 4
+      noi_dung: '4. Điểm g khoản 1, khoản 2, khoản 4, khoản 5 Điều 10 được sửa đổi, bổ sung như sau: “Điều 10. Miễn thuế đối với hàng hóa nhập khẩu để gia công, sản phẩm gia công xuất khẩu 1. Hàng hóa nhập khẩu. để gia công, sản phẩm gia công xuất khẩu theo hợp đồng gia công được miễn thuế xuất khâu, thuế nhập khẩu theo quy định tại khoản 6 Điều 16 Luật Thuế xuất khâu, thuế nhập khẩu gồm: g) Sản phẩm gia công xuất khẩu ra nước ngoài hoặc xuất khẩu vào khu phi thuế quan, xuất khẩu tại chỗ cho tổ chức, cá nhân tại Việt Nam theo chỉ định của bên đặt gia công. Sản phẩm gia công xuất khẩu được miễn thuế xuất khẩu theo quy định tại điểm này nếu sản phẩm được gia công từ toản bộ hàng hóa nhập khẩu. Trường hợp sản phẩm gia công xuất khẩu được sản xuất từ nguyên liệu, vật tư trong nước có thuế xuất khẩu thì khi xuất khâu phải nộp thuế đối với phần trị giá nguyên liệu, vật tư trong nước cầu thành trong sản phẩm xuất khẩu theo mức thuế suất của nguyên liệu, vật tư.'
+      trang_pdf: 6
+    - dieu: 1
+      khoan: 6
+      noi_dung: '6. Điều 12 được sửa đổi, bd sung như sau: “Điều 12. Miễn thuế đối với hàng hóa nhập khau dé sản xuất hàng hóa xuât khâu 1. Hàng hoá nhập khẩu đề sản xuất hàng hoá xuất khâu được miễn thuế nhập khâu theo quy định tại khoản 7 Điều 16 Luật Thuế xuất khẩu, thuế nhập khẩu, bao gồm: a) Nguyên liệu, vật tư (bao gồm cả vật tư làm bao bì hoặc bao bì dé dong gói sản phẩm xuất khẩu), linh kiện, bán thành phẩm nhập khẩu trực tiếp cau thanh san pham xuất khâu hoặc tham gia trực tiếp vào quá trình sản xuất hàng hóa xuất khẩu nhưng không trực tiếp chuyên hóa thành hàng hóa;'
+      trang_pdf: 10
+    - dieu: 1
+      khoan: 7
+      noi_dung: '7. Sửa đổi, bố sung khoản 4 và bổ sung khoản 6 Điều 14 như sau: “Điều 14. Miễn thuế hàng hóa nhập khẩu de tao tài sản cố định của đối tượng được hưởng ưu đãi đầu tư 4. Căn cứ để xác định vật tư xây dựng trong nước chưa sản xuất được thực hiện theo quy định của Bộ Kê hoạch và Đâu tư. Căn cứ để xác định phương tiện vận tải chuyên dùng trong dây chuyền công nghệ sử dụng trực tiếp cho hoạt động sản xuất của dự án đầu tư thực hiện theo Danh mục hoặc tiêu chí để xác định hàng hoá nhập khẩu miễn thuế của Bộ Khoa học và Công nghệ hoặc theo văn bản xác nhận của Bộ Khoa học và Công nghệ đối với phương tiện vận tải chuyên dùng nhập khâu trong dây chuyền công nghệ sử dụng trực tiếp cho hoạt động sản xuất của dự án đầu tư.'
+      trang_pdf: 14
+    - dieu: 1
+      khoan: 8
+      noi_dung: '8. Khoản 1 Diéu 15 được sửa đôi, bé sung như Sau: “Điều 15. Miễn thuế nhập khẩu đối với nguyên liệu, vật tư, linh kiện trong thời hạn 05 năm 1. Nguyên liệu, vật tư, linh kiện trong nước chưa sản xuất được nhập khâu để sản xuất của dự án đầu tư quy định tại điểm a, b, c khoản này được miễn thuế nhập khâu trong thời hạn 05 năm kế từ ngày bắt đầu sản xuất theo quy định tại khoản 13 Điều 16 Luật Thuế xuất khẩu, thuế nhập khâu.'
+      trang_pdf: 15
+    - dieu: 1
+      khoan: 13
+      noi_dung: '13. Điểm b, điểm k khoản 3, điểm đ khoản 7 Điều 30 được sửa đổi, bổ sung như sau: “Điều 30. Thông báo Danh mục hàng hóa miễn thuế dự kiến nhập khẩu đối với các trường hợp thông báo Danh mục miễn thuế 3. Hồ sơ thông báo Danh mục miễn thuế b) Danh mục miễn thuế gửi qua Hệ thống xử lý dữ liệu điện tử của cơ quan hải quan. Trường hợp, hệ thống gặp sự cô, chủ dự án nộp 02 bản chính Danh mục miễn thuế bản giấy theo Mẫu số 06 và 01 bản chính Phiếu theo dõi trừ lùi theo Mẫu số 07 Phụ lục VII ban hành kèm theo Nghị định này.'
+      trang_pdf: 27
+    - dieu: 1
+      khoan: 14
+      noi_dung: '14. Sửa đổi điểm e, bỗ sung điểm h khoản 2, điểm c khoản 3 và bổ sung khoản 5 Điều 31 như sau: “Điều 31. Hồ sơ, thủ tục miễn thuế khi làm tha tục hải quan 2. Ngoài hé sơ quy định tại khoản 1 Điều này, tùy từng trường hợp, người nộp thuế nộp thêm một trong các chứng từ sau: e) Văn bản xác nhận của Bộ Khoa học và Công nghệ đối với phương tiện vận tải quy định tại khoản 11, khoản 15, khoản 16 Điều 16 Luật Thuế xuất khẩu, thuế nhập khẩu: 01 bản chính;'
+      trang_pdf: 28
+    - dieu: 1
+      khoan: 15
+      noi_dung: '15. Bễ sung Điều 31a như sau: “Điều 31a. Thông báo, kiểm tra việc sử dụng hàng hóa miễn thuế nhập khẩu 1. Thông báo việc sử dụng hàng hóa miễn thuế nhập khẩu a) Đối tượng thông báo: Chủ dự án có trách nhiệm thông báo tình hình sử dụng hàng hóa miễn thuế theo các chỉ tiêu thông tin quy định tại Mẫu số 07 Phụ lục VITa ban hành kèm theo Nghị định này thông qua Hệ thống xử lý dữ liệu điện tử hoặc theo . Mẫu số 18 Phu lục VII ban hành kèm theo Nghị định này cho cơ quan hải quan nơi tiếp nhận Danh mục miễn thuế đối với các trường hợp phải thông... báo Danh mục miễn thuế với cơ quan hải quan. b) Thời điểm và thời hạn thông báo: Định kỳ hàng năm, trong thời hạn 90 ngày kể từ ngày kết thúc năm tải chính, tổ chức, cá nhân thông báo tình hình sử dụng hàng hóa miễn thuế trong năm tài chính cho cơ quan hải quan nơi tiếp nhận Danh mục miễn. thuế cho đến khi toàn bộ dự án chấm dứt hoạt động hoặc hàng hóa đã tái xuất khâu ra khỏi Việt Nam hoặc khi hàng hóa thay đổi mục đích sử dụng miễn thuế, chuyên tiêu thụ nội địa, đã được tiêu hủy.'
+      trang_pdf: 31
+    - dieu: 2
+      khoan: 1
+      noi_dung: Điều 2. Tổ chức thực hiện 1. Nghị định này có hiệu lực thi hành từ ngày 25 tháng 4 năm 2021.
+      trang_pdf: 37
+ghi_chu: Thẻ cổng Chính phủ khớp ngày và người ký Nguyễn Xuân Phúc. Đã OCR toàn văn 114 trang và trích 9 điều khoản nguyên văn bậc A (sửa Điều 10, 12, 14, 15, 30, 31 và bổ sung Điều 31a báo cáo sử dụng hàng hóa miễn thuế trong 90 ngày kể từ ngày kết thúc năm tài chính tại Điều 1; hiệu lực từ 25/04/2021 tại Điều 2).
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/18-2021-nd-cp.pdf
+  - raw/ocr/18-2021-nd-cp.ocr.txt
