@@ -19,9 +19,27 @@ xac_minh:
     PDF Công báo CDN số 823+824 ngày 12-08-2020: Điều 1 (Phụ lục) chỉ định cơ quan đầu mối cho từng Chương Hiệp định EVFTA (1-17); Điều 2 cho phép BCT điều chỉnh phù hợp tình hình thực tế, báo cáo TTgCP; Điều 3 hiệu lực từ ngày ký 04-08-2020; Điều 4 trách nhiệm thi hành
     Hết hiệu lực toàn bộ từ 16-01-2026 theo Điều 5 QĐ 126/QĐ-TTg (PDF Công báo số 71 ngày 31-01-2026)
     Tình trạng hiện tại: HET_HIEU_LUC, sổ đăng ký không có VB sau ghi thay thế
+    Đã trích xuất nguyên văn 4 Điều từ PDF Công báo lớp chữ (4 mục điều khoản, trang 1–2, SHA-256 12911d0220c7527ce21ebc29eeb36affc252c31578932f5d5c17b1a353bbb73b)
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Ban hành kèm theo Quyết định này Danh sách chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu (EVFTA).
+      trang_pdf: 1
+      sha256_pdf: 12911d0220c7527ce21ebc29eeb36affc252c31578932f5d5c17b1a353bbb73b
+    - dieu: 2
+      noi_dung: Điều 2. Trong quá trình triển khai thực thi Hiệp định, trường hợp cần điều chỉnh để phù hợp với tình hình thực tế, Bộ Công Thương chủ trì, phối hợp với các cơ quan liên quan tổng hợp, báo cáo Thủ tướng Chính phủ xem xét, quyết định.
+      trang_pdf: 1
+      sha256_pdf: 12911d0220c7527ce21ebc29eeb36affc252c31578932f5d5c17b1a353bbb73b
+    - dieu: 3
+      noi_dung: Điều 3. Quyết định này có hiệu lực thi hành kể từ ngày ký ban hành.
+      trang_pdf: 2
+      sha256_pdf: 12911d0220c7527ce21ebc29eeb36affc252c31578932f5d5c17b1a353bbb73b
+    - dieu: 4
+      noi_dung: Điều 4. Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ và Thủ trưởng các cơ quan có liên quan chịu trách nhiệm thi hành Quyết định này./.
+      trang_pdf: 2
+      sha256_pdf: 12911d0220c7527ce21ebc29eeb36affc252c31578932f5d5c17b1a353bbb73b
 ghi_chu: Hết hiệu lực từ 16-01-2026 theo Điều 5 QĐ 126/QĐ-TTg. Đã đọc toàn văn 4 Điều + Phụ lục (Danh sách cơ quan đầu mối theo Chương Hiệp định EVFTA).
 het_hieu_luc_tu: '2026-01-16'
 toan_van: raw/download/congbaocdn.chinhphu.vn/1175-qd-ttg.pdf
