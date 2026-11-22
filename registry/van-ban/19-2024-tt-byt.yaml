@@ -32,10 +32,28 @@ xac_minh:
   ngay: '2026-10-10'
   boi: legal-customs@ozvietnam
   nguon_da_mo:
-    - 'chinhphu.vn/?docid=211347 (thẻ metadata)'
-    - 'datafiles.chinhphu.vn/cpp/files/vbpq/2024/10/19-byt.signed.pdf (toàn văn 9 trang, OCR)'
-ghi_chu: 'Nguồn mã HS của thiết bị y tế — được Điều 2 khoản 2 TT 24/2026/TT-BYT dẫn chiếu. 95 mục trải rộng Ch.30, 37, 87, 90, 94 (HS 3005-9405). Wiki source đầy đủ tại wiki/sources/19-2024-tt-byt.md.'
-toan_van: raw/download/datafiles.chinhphu.vn/19-2024-tt-byt.pdf
+    - chinhphu.vn/?docid=211347 (thẻ metadata)
+    - datafiles.chinhphu.vn/cpp/files/vbpq/2024/10/19-byt.signed.pdf (toàn văn 9 trang, OCR)
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Thông tư này ban hành Danh mục và nguyên tắc áp dụng danh mục thiết bị y tế xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa (sau đây viết tắt 1a mã số HS) theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam ban hành HÀ kèm theo Thông tư số 31/2022/TT-BTC ngày 08 tháng 6 năm 2022 của Bộ tường f—
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Ban hành danh mục Ban hành kèm theo Thông tư này danh mục thiết bị V tế xuất khâu, nhập khẩu đã được xác định mã số HS theo Danh mục hàng hóa xuất khâu, nhập khâu Việt Nam.
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: Điều 3. Nguyên tắc áp dụng danh mục 1. Trường hợp có sự khác biệt, không thông nhất trong việc phân loại và xác định mã số HS đối với các hàng hóa thuộc Danh mục ban hành kèm theo Thông tư này, việc xác định mã số HS thực hiện theo quy định của pháp luật về hái quan.
+      trang_pdf: 2
+    - dieu: 4
+      noi_dung: Điều 4. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngayl6 tháng 1 Inăm 2024. 2. Thông tư số 14/2018/TT-BYT ngày 15 tháng 5 năm 2018 của Bộ trưởng Bộ Y tế ban hành Danh mục thiết bị y tế được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khâu, nhập khâu Việt Nam hết hiệu lực ké từ ngày Thông tư này có hiệu lực Z7 Peal
+      trang_pdf: 2
+    - dieu: 5
+      noi_dung: Điều 5. Trách nhiệm thi hành Cục trưởng Cục Cơ sở hạ tầng và Thiết bị y tế; Thủ trưởng các đơn vị thuộc và trực thuộc Bộ Y tế, Giám đốc Sở Y tế các tỉnh, thành phó trực thuộc trung ương, Thủ trưởng cơ quan Y tế các Bộ, ngành và các cơ quan, tổ chức và cá nhân có liên quan chịu trách nhiệm thực hiện Thông tư này.
+      trang_pdf: 3
+ghi_chu: Nguồn mã HS của thiết bị y tế — được Điều 2 khoản 2 TT 24/2026/TT-BYT dẫn chiếu. 95 mục trải rộng Ch.30, 37, 87, 90, 94 (HS 3005-9405). Wiki source đầy đủ tại wiki/sources/19-2024-tt-byt.md.
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/19-2024-tt-byt.pdf
+  - raw/ocr/19-2024-tt-byt.ocr.txt
 nguon:
   - url: https://chinhphu.vn/?docid=211347&pageid=27160
     truy_cap: '2026-10-09'
@@ -47,4 +65,4 @@ danh_muc_hs:
   trich_boi: legal-customs@ozvietnam
   ngay: '2026-10-10'
   da_doi_chieu: true
-  ghi_chu: 'Phụ lục trang 4–9, 95 dòng, 112 mã 8 số.'
+  ghi_chu: Phụ lục trang 4–9, 95 dòng, 112 mã 8 số.

@@ -17,9 +17,21 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, trích yếu, ngày ban hành 04-02-2026 và ngày có hiệu lực 04-02-2026 trên vanban.chinhphu.vn (docid=216891); đối chiếu toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/09-2026-nq-cp.pdf, wiki/sources/09-2026-nq-cp.md) tạm ngưng hiệu lực NĐ 46/2026/NĐ-CP'
+  pham_vi: số hiệu, trích yếu, ngày ban hành 04-02-2026 và ngày có hiệu lực 04-02-2026 trên vanban.chinhphu.vn (docid=216891); đối chiếu toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/09-2026-nq-cp.pdf, wiki/sources/09-2026-nq-cp.md) tạm ngưng hiệu lực NĐ 46/2026/NĐ-CP
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Tạm ngưng hiệu lực và điều chỉnh thời hạn áp dụng văn bản 1. Tạm ngưng hiệu lực áp dụng Nghị định số 46/2026/NĐ- CP ngày 26 tháng 01 năm 2026 của Chính phủ quy định chỉ tiết thi hành một số điều và biện pháp đề tổ chức, hướng dẫn thi hành Luat An toàn thực phẩm và Nghị quyết SỐ: 66. 13/2026/NQ-CP ngày 27 tháng 01 năm 2026 của Chính phủ về công bố, đăng ký sản phẩm thực phẩm cho đến hết ngày 15 tháng 4 năm 2026.'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Áp dụng văn bản quy phạm pháp luật trong thời gian tạm ngưng hiệu lực - Trong thời gian tạm ngưng hiệu lực theo quy định tại Điều 1 Nghị quyết này, _ Nghị định 15/2018/NĐ-CP ngày 02 tháng 02 năm 2018 của Chính phủ quy định chỉ tiết thi hành một số điều của Luật An toàn thực phẩm và các văn bản quy định, hướng dẫn thi hành Nghị định này tiếp tục có hiệu lực.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Hiệu lực thi hành và trách nhiệm tổ chức thực hiện 1. Nghị quyết này có hiệu lực thi hành kể từ ngày 04 tháng 02 năm 2026.
+      trang_pdf: 2
 ghi_chu: Trích yếu cổng Chính phủ cũng tạm ngưng Nghị quyết 66.13/2026/NQ-CP. Nghị quyết này chưa có trong sổ, nên chưa ghi quan hệ. Chưa đọc điều khoản để chốt còn hiệu lực tới đâu.
-toan_van: raw/download/datafiles.chinhphu.vn/09-2026-nq-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/09-2026-nq-cp.pdf
+  - raw/ocr/09-2026-nq-cp.ocr.txt

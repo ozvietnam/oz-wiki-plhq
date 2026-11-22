@@ -23,6 +23,40 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Pham vi điều chỉnh 1. Nghị định này quy định chỉ tiết các điều khoản sau đây của Luật Khiếu nại: a) Khoản 2 Điều 3 về khiếu nại và giải quyết khiếu nại trong đơn vị sự nghiệp công lập; b) Khoản 4 Điều 8 về nhiều người cùng khiếu nại về một nội dung; c) Khoản 3 Điều 41 về công khai quyết định giải quyết khiếu nại; d) Khoản 4 Điều 46 về thi hành quyết định giải quyết khiếu nại có hiệu lực pháp luật;'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng Nghị định này áp dụng đối với cơ quan, tô chức, công dân Việt Nam; cơ quan, tổ chức, cá nhân nước ngoai tại Việt Nam trong việc khiếu nại quyết định hành chính, hành vi hành chính, trừ trường hợp điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có quy định khác.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Hình thức khiếu nại 1. Hình thức khiếu nại được thực hiện theo quy định tại khoản 1, khoản 2 Điều 8 của Luật Khiếu nại. Đơn khiếu nại được thực hiện theo Mẫu số 01 ban hành kèm theo Nghị định này. 2. Trường hợp người khiếu nại đến khiếu nại trực tiếp thì người tiếp nhận khiếu nại hướng dẫn người khiếu nại viết đơn khiếu nại hoặc người tiếp nhận khiếu nại ghi lại việc khiếu nại bằng văn bản theo Mẫu số 01 ban hành kèm theo Nghị định này.
+      trang_pdf: 2
+    - dieu: 9
+      noi_dung: Điều 9. Trách nhiệm của cơ quan, ¢ tô chức, cá nhân trong việc phối hợp xử lý trường hợp nhiều người cùng khiếu nại về một nội dung ở cấp huyện .
+      trang_pdf: 5
+    - dieu: 14
+      noi_dung: Điều 14. Tham quyền giải quyết khiếu nại trong đơn vị sự nghiệp công lập 1. Người đứng đầu đơn vị sự nghiệp công lập có thâm quyền giải quyết khiếu nại lần đầu đối với quyết định hành chính, hành vi hành chính của mình, của viên chức do mình quản lý trực tiếp.
+      trang_pdf: 8
+    - dieu: 19
+      noi_dung: Điều 19. Làm việc trực tiếp với người khiếu nại, người đại điện, người được ủy quyền, luật sư, trợ giúp viên pháp lý của người khiêu nại
+      trang_pdf: 10
+    - dieu: 24
+      noi_dung: Điều 24. Trưng cầu giám định 1, Người giải quyết khiếu nại quyết định việc trưng cầu giám định khi xét thấy cần có sự đánh giá về nội dung liên quan đến chuyên môn, kỹ thuật làm căn cứ cho việc kết luận nội dung khiếu nại.
+      trang_pdf: 12
+    - dieu: 29
+      noi_dung: 'Điều 29. Ban hành, gửi, công khai quyết định giải quyết khiếu nại 1. Căn cứ quy định của pháp luật, kết quả xác minh nội dung khiếu nại, kết quả đối thoại (nếu có), người giải quyết khiếu nại ban hành quyết định giải quyết khiếu nại theo quy định sau đây:'
+      trang_pdf: 14
+    - dieu: 36
+      noi_dung: Điều 36. jprach nhiệm của cơ quan được giao tô chức thi hành quyết định giải quyết khiếu nại có hiệu lực pháp luật
+      trang_pdf: 19
+    - dieu: 43
+      noi_dung: Điều 43. Hiệu lực thi hành 1. Việc giải quyết đối với khiếu nại trong doanh nghiệp nhà nước và khiếu nại của người lao động trong đơn vị sự nghiệp công lập được thực hiện theo quy định của Nghị định so 24/2018/NĐ-CP ngày 27 tháng 02 năm 2018 của Chính phủ quy định về giải quyết khiếu nại, tố cáo trong lĩnh vực lao động, giáo dục nghề nghiệp, hoạt động đưa người lao động Việt Nam đi làm việc Ở nước ngoài theo hợp đồng, việc làm, an toàn, vệ sinh
+      trang_pdf: 22
 ghi_chu: Sửa đổi bởi NĐ 155/2026/NĐ-CP (15-05-2026, hiệu lực 01-07-2026, triển khai Luật 136/2025 — chưa nạp, điểm mù). Hiệu lực theo bản đã sửa.
-tu_khoa: [khieu-nai]
-toan_van: raw/download/datafiles.chinhphu.vn/124-2020-nd-cp.pdf
+tu_khoa:
+  - khieu-nai
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/124-2020-nd-cp.pdf
+  - raw/ocr/124-2020-nd-cp.ocr.txt

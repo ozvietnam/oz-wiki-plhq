@@ -13,8 +13,29 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Sửa đối khoản 2 Điều 42 Nghị định s số 105/2006/NĐ- CP ngày 22 tháng 2 năm 2006 của Chính phủ quy định chỉ tiết và hướng dẫn thi hành một số điều của Luật sở hữu trí tuệ về bảo vệ quyền sở hữu trí tuệ và quản lý nhà nước về sở hữu trí tuệ (đã được sửa đổi, bỗ sung tại khoản 10 Điều 1 Nghị định số 119/2010/NĐ- CP ngày 30 tháng 12 năm 2010 của Chính phủ)
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 105/2016/NĐ-CP ngày 01 tháng 7 năm 2016 của Chính phủ quy định về điều kiện hoạt động của tổ chức kiểm định, hiệu chuẩn, thử nghiệm phương tiện đo, chuẩn đo lường 1. Bãi bỏ điểm a khoản 2, khoản 5 Điều 3.
+      trang_pdf: 1
+    - dieu: 4
+      noi_dung: 'Điều 4. Sửa déi, bỗ sung một số điều của Nghị định số 132/2008/NĐ-CP ngày 31 tháng 12 năm 2008 của Chính phủ quy định chỉ tiết thi hành một số điều Luật chất lượng sản phẩm, hàng hóa (đã được sửa đổi, bd sung tại Nghị định số 74/2018/NĐ-CP ngày 15 thang 5 năm 2018 của Chính phủ) 1. Sửa đối, bô sung diém a khoản 2a Điêu 7 như sau:'
+      trang_pdf: 6
+    - dieu: 5
+      noi_dung: Điều 5. Bãi bỏ Nghị định số 87/2016/NĐ-CP ngày 01 tháng 7 năm 2016 của Chính phủ về điêu kiện kinh doanh mũ bảo hiém cho người đi mô tô, xe máy.
+      trang_pdf: 9
+    - dieu: 6
+      noi_dung: Điều 6. Quy định chuyén tiếp Tổ chức đánh giá sự phù hợp đã được cấp Giấy chứng nhận đăng ký hoạt động đánh giá sự phù hợp được tiệp tục hoạt động đên hết thời hạn hiệu lực ghi trên Giây chứng nhận. Trường hợp tô chức đánh giá sự phù hợp bổ sung lĩnh vực hoạt động đã đăng ký phải đáp ứng điêu kiện quy định tại Nghị định này.
+      trang_pdf: 9
+    - dieu: 7
+      noi_dung: Điều 7. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành từ ngày ký ban hành.
+      trang_pdf: 9
 ghi_chu: Điều 4 hết hiệu lực từ 01/7/2026. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=195316&pageid=27160
     truy_cap: '2026-10-04'
-toan_van: raw/download/datafiles.chinhphu.vn/154-2018-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/154-2018-nd-cp.pdf
+  - raw/ocr/154-2018-nd-cp.ocr.txt
