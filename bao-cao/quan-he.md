@@ -691,6 +691,7 @@ flowchart LR
   n_126_2022_N__CP["126/2022/NĐ-CP<br/>còn hiệu lực"]
   n_156_2017_N__CP["156/2017/NĐ-CP<br/>hết hiệu lực"]
   n_13_2025_N__CP["13/2025/NĐ-CP<br/>còn hiệu lực"]
+  n_144_2024_N__CP["144/2024/NĐ-CP<br/>còn hiệu lực"]
   n_15_2023_Q__TTg["15/2023/QĐ-TTg<br/>còn hiệu lực"]
   n_45_2017_Q__TTg["45/2017/QĐ-TTg<br/>hết hiệu lực"]
   n_18_2021_N__CP["18/2021/NĐ-CP<br/>còn hiệu lực"]
@@ -738,6 +739,7 @@ flowchart LR
   n_125_2022_N__CP -->|thay thế| n_149_2017_N__CP
   n_126_2022_N__CP -->|thay thế| n_156_2017_N__CP
   n_13_2025_N__CP -->|sửa đổi từ 2025-01-21| n_115_2022_N__CP
+  n_144_2024_N__CP -->|sửa đổi từ 2024-12-16| n_26_2023_N__CP
   n_15_2023_Q__TTg -->|bãi bỏ toàn bộ từ 2023-07-15| n_45_2017_Q__TTg
   n_18_2021_N__CP -->|sửa đổi| n_134_2016_N__CP
   n_182_2025_N__CP -->|sửa đổi| n_134_2016_N__CP

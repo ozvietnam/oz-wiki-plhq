@@ -5,8 +5,8 @@
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
  "canh_bao_tang_nhap": "Tầng TOM_TAT_NHAP được trích tự động bởi LLM (da_soat: false) — CHỈ dùng để định vị điều khoản, KHÔNG trích dẫn nguyên văn hay làm căn cứ pháp lý; chỉ dùng NGUYEN_VAN_NGUON_A để trích dẫn căn cứ.",
  "thong_ke": {
-  "so_van_ban_nguon_a": 63,
-  "so_dieu_khoan_nguon_a": 832,
+  "so_van_ban_nguon_a": 65,
+  "so_dieu_khoan_nguon_a": 838,
   "so_van_ban_tom_tat_nhap": 88,
   "so_dieu_khoan_tom_tat_nhap": 4699,
   "so_tep_doc_hieu": 91,
@@ -1190,6 +1190,44 @@
    ]
   },
   {
+   "so_hieu": "119/2017/NĐ-CP",
+   "slug": "119-2017-nd-cp",
+   "ten": "Quy định về xử phạt vi phạm hành chính trong lĩnh vực tiêu chuẩn, đo lường và chất lượng sản phẩm, hàng hóa",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2017-12-15",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-119-2017-nd-cp-24980/19675.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh 1. Nghị định này quy định về hành vi vi phạm hành chính, hình thức xử phạt và mức phạt, biện pháp khắc phục hậu quả, thẩm quyền xử phạt và thẩm quyền lập biên bản vi phạm hành chính trong lĩnh vực tiêu chuẩn và quy chuẩn kỹ thuật; đo lường; chất lượng sản phẩm, hàng hóa (sau đây gọi tắt là lĩnh vực tiêu chuẩn, đo lường và chất lượng sản phẩm, hàng hóa). 2. Các hành vi vi phạm hành chính khác trong lĩnh vực tiêu chuẩn, đo lường và chất lượng sản phẩm, hàng hóa không được quy định tại Nghị định này thì áp dụng quy định tại các nghị định khác của Chính phủ về xử phạt vi phạm hành chính trong lĩnh vực quản lý nhà nước có liên quan để xử phạt. Đối với hàng hóa nhập khẩu chưa được thông quan thì áp dụng nghị định của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hải quan để xử phạt đối với các vi phạm về tiêu chuẩn, đo lường và chất lượng sản phẩm, hàng hóa.",
+     "trang_pdf": 1,
+     "sha256_pdf": "e33af890d97a79583ffbd5412da14ff2f78a7ebce0e4ac5554565c34ff7c2463"
+    },
+    {
+     "dieu": 42,
+     "khoan": 4,
+     "noi_dung": "4. Người có thẩm quyền xử phạt của cơ quan Hải quan quy định tại Điều 37 Nghị định này có thẩm quyền lập biên bản vi phạm hành chính, xử phạt vi phạm hành chính đối với các hành vi vi phạm hành chính trong lĩnh vực tiêu chuẩn, đo lường và chất lượng sản phẩm, hàng hóa quy định tại Nghị định này phát hiện được tại địa bàn thuộc thẩm quyền quản lý của Hải quan mà Nghị định của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hải quan chưa quy định.",
+     "trang_pdf": 55,
+     "sha256_pdf": "e33af890d97a79583ffbd5412da14ff2f78a7ebce0e4ac5554565c34ff7c2463"
+    },
+    {
+     "dieu": 44,
+     "noi_dung": "Điều 44. Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 15 tháng 12 năm 2017. Nghị định này thay thế Nghị định số 80/2013/NĐ-CP ngày 19 tháng 7 năm 2013 của Chính phủ quy định về xử phạt vi phạm hành chính trong lĩnh vực tiêu chuẩn, đo lường và chất lượng sản phẩm, hàng hóa.",
+     "trang_pdf": 56,
+     "sha256_pdf": "e33af890d97a79583ffbd5412da14ff2f78a7ebce0e4ac5554565c34ff7c2463"
+    },
+    {
+     "dieu": 45,
+     "noi_dung": "Điều 45. Quy định chuyển tiếp Đối với hành vi vi phạm hành chính trong lĩnh vực tiêu chuẩn, đo lường và chất lượng sản phẩm, hàng hóa xảy ra trước khi Nghị định này có hiệu lực mà sau đó mới bị phát hiện hoặc đang xem xét giải quyết thì áp dụng các quy định có lợi cho tổ chức, cá nhân vi phạm.",
+     "trang_pdf": 56,
+     "sha256_pdf": "e33af890d97a79583ffbd5412da14ff2f78a7ebce0e4ac5554565c34ff7c2463"
+    }
+   ]
+  },
+  {
    "so_hieu": "121/2025/TT-BTC",
    "slug": "121-2025-tt-btc",
    "ten": "Sửa đổi, bổ sung một số điều của các Thông tư quy định về thủ tục hải quan, kiểm tra, giám sát hải quan, thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu",
@@ -2312,6 +2350,31 @@
      "noi_dung": "Điều 7. Trách nhiệm thi hành Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này.",
      "trang_pdf": 4,
      "sha256_pdf": "540edbb45e6e2748d6d2b3677fa974eb6e8138119ecd3cf0596cb6a599fb17e8"
+    }
+   ]
+  },
+  {
+   "so_hieu": "144/2024/NĐ-CP",
+   "slug": "144-2024-nd-cp",
+   "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2024-12-16",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-144-2024-nd-cp-43109/52626.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Sửa đổi mức thuế suất thuế xuất khẩu, mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng quy định tại Phụ lục I - Biểu thuế xuất khẩu, Phụ lục II Biểu thuế nhập khẩu ưu đãi theo Danh mục mặt hàng chịu thuế quy định tại Điều 3 Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ thành các mức thuế suất thuế xuất khẩu, mức thuế suất thuế nhập khẩu ưu đãi mới quy định tại Phụ lục I và Phụ lục II ban hành kèm theo Nghị định này.",
+     "trang_pdf": 2,
+     "sha256_pdf": "d2472a791e2bc2792ffe3a4aa3b2b43c92cf4fa612f73572cf155491b61e9faf"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Điều khoản thi hành và tổ chức thực hiện 1. Nghị định này có hiệu lực từ ngày 16 tháng 12 năm 2024. 2. Thuế suất thuế nhập khẩu ưu đãi của các mặt hàng thuộc nhóm 24.04, các mặt hàng có mã HS 8543.40.00 thuộc Phụ lục II Biểu thuế nhập khẩu ưu đãi theo Danh mục mặt hàng chịu thuế ban hành kèm theo Nghị định này được áp dụng trong trường hợp các mặt hàng này được phép nhập khẩu vào Việt Nam theo quy định của pháp luật. 3. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này.",
+     "trang_pdf": 2,
+     "sha256_pdf": "d2472a791e2bc2792ffe3a4aa3b2b43c92cf4fa612f73572cf155491b61e9faf"
     }
    ]
   },

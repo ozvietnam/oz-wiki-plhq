@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-2899 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2904 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -91,7 +91,7 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Kiểm tra, giám sát, kiểm soát hải quan `hai-quan/kiem-tra-giam-sat`
 
-47 văn bản, 35 chưa hết hiệu lực.
+48 văn bản, 36 chưa hết hiệu lực.
 
 - 🟢 [166/2026/TT-BTC](../registry/van-ban/166-2026-tt-btc.yaml) — Bãi bỏ một số thông tư liên tịch do Bộ trưởng Bộ Tài chính liên tịch ban hành liên quan đến lĩnh vực tài chính
 - 🟢 [66/2026/TT-BKHCN](../registry/van-ban/66-2026-tt-bkhcn.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 11/2015/TT-BKHCN ngày 26 tháng 6 năm 2015 của Bộ trưởng Bộ Khoa học và Công nghệ
@@ -118,6 +118,7 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 - 🟢 [81/2019/TT-BTC](../registry/van-ban/81-2019-tt-btc.yaml) — Quy định quản lý rủi ro trong hoạt động nghiệp vụ hải quan
 - 🟢 [42/2019/QH14](../registry/van-ban/42-2019-qh14.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Kinh doanh bảo hiểm, Luật Sở hữu trí tuệ
 - ⚫ [22/2018/NĐ-CP](../registry/van-ban/22-2018-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ năm 2005 và Luật sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ năm 2009 về quyền tác giả, quyền liên quan _(hết hiệu lực 2023-04-26)_
+- 🟢 [119/2017/NĐ-CP](../registry/van-ban/119-2017-nd-cp.yaml) — Quy định về xử phạt vi phạm hành chính trong lĩnh vực tiêu chuẩn, đo lường và chất lượng sản phẩm, hàng hóa
 - ⚫ [46/2017/NĐ-CP](../registry/van-ban/46-2017-nd-cp.yaml) — Quy định về điều kiện đầu tư và hoạt động trong lĩnh vực giáo dục _(hết hiệu lực 2024-11-20)_
 - 🟢 [28/2017/NĐ-CP](../registry/van-ban/28-2017-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 131/2013/NĐ-CP quy định xử phạt vi phạm hành chính về quyền tác giả, quyền liên quan và Nghị định số 158/2013/NĐ-CP quy định xử phạt vi phạm hành chính trong lĩnh vực văn hóa, thể thao, du lịch và quảng cáo
 - ⚫ [155/2016/TT-BTC](../registry/van-ban/155-2016-tt-btc.yaml) — Quy định chi tiết thi hành Nghị định số 127/2013/NĐ-CP ngày 15 tháng 10 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính và cưỡng chế thi hành quyết định hành chính trong lĩnh vực hải quan và Nghị định số 45/2016/NĐ-CP ngày 26 tháng 5 năm 2016 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 127/2013/NĐ-CP _(hết hiệu lực 2020-12-26)_
@@ -250,7 +251,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [73/2025/NĐ-CP](../registry/van-ban/73-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
 - 🟢 [21/2025/NĐ-CP](../registry/van-ban/21-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
 - 🟢 [13/2025/NĐ-CP](../registry/van-ban/13-2025-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 115/2022/NĐ-CP ngày 30 tháng 12 năm 2022 của Chính phủ ban hành Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương giai đoạn 2022 - 2027 đã được sửa đổi, bổ sung một số điều theo Nghị định số 68/2023/NĐ-CP ngày 07 tháng 9 năm 2023 của Chính phủ
-- 🟢 [144/2024/NĐ-CP](../registry/van-ban/144-2024-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
+- 🟢 [144/2024/NĐ-CP](../registry/van-ban/144-2024-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan
 - 🟢 [77/2023/NĐ-CP](../registry/van-ban/77-2023-nd-cp.yaml) — Quản lý nhập khẩu hàng hóa tân trang theo Hiệp định CPTPP
 - 🟢 [15/2023/QĐ-TTg](../registry/van-ban/15-2023-qd-ttg.yaml) — Biểu thuế NK thông thường
 - 🟢 [26/2023/NĐ-CP](../registry/van-ban/26-2023-nd-cp.yaml) — Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hoá và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan
@@ -373,7 +374,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2217 văn bản, 2217 chưa hết hiệu lực.
+2221 văn bản, 2221 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -416,6 +417,10 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [73/2026/VBHN-TT-BCT](../registry/van-ban/73-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư sửa đổi quy định Danh mục chi tiết theo mã HS của hàng hóa xuất khẩu, nhập khẩu
 - 🟢 [74/2026/VBHN-TT-BCT](../registry/van-ban/74-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương
 - 🟢 [21112/TB-CHQ/2026](../registry/van-ban/21112-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cáp điện ALVSH035F lõi nhôm bọc cách điện bằng plastic dùng cho xe ô tô, điện áp định mức 60VDC hoặc 25VAC, mã số 8544.49.22)
+- 🟢 [21113/TB-CHQ/2026](../registry/van-ban/21113-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị thổi khí nóng cầm tay gia dụng iTera-Pro Plus, ký mã hiệu DS-19, 220-240V, 1200W, mã số 8516.79.90)
+- 🟢 [21114/TB-CHQ/2026](../registry/van-ban/21114-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cụm mô-đun đầu xe ô tô hoàn thiện FRT END MODULE / Cụm FEM, ký mã hiệu 64100-P6000TC, mã số 8708.99.80)
+- 🟢 [21129/TB-CHQ/2026](../registry/van-ban/21129-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chất làm sạch bề mặt kim loại BONDERITE C-IC 120WN 1000KG ACID CLEANER chứa 10-30% axit hydrofluoric, mã số 2811.11.00)
+- 🟢 [21130/TB-CHQ/2026](../registry/van-ban/21130-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị trung tâm của hệ thống đo lường và kiểm tra hình ảnh Vision System Controller, ký mã hiệu XG-X2900, mã số 9031.80.90)
 - 🟢 [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - 🟢 [1489/TB-CHQ/2026](../registry/van-ban/1489-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1633/TB-CHQ/2026](../registry/van-ban/1633-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2710.12.99)
@@ -3061,7 +3066,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Khoa học và Công nghệ `kiem-tra-chuyen-nganh/bkhcn`
 
-15 văn bản, 11 chưa hết hiệu lực.
+16 văn bản, 12 chưa hết hiệu lực.
 
 - 🟢 [23/2026/VBHN-TT-BKHCN](../registry/van-ban/23-2026-vbhn-tt-bkhcn.yaml) — Quy định về đo lường đối với phương tiện đo nhóm 2
 - 🟢 [45/2026/TT-BKHCN](../registry/van-ban/45-2026-tt-bkhcn.yaml) — Sửa đổi, bổ sung một số điều của các thông tư của Bộ trưởng Bộ Khoa học và Công nghệ để thực hiện cắt giảm, đơn giản hóa thủ tục hành chính trong lĩnh vực đo lường
@@ -3075,6 +3080,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [10/2022/TT-BTTTT](../registry/van-ban/10-2022-tt-btttt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 13/2018/TT-BTTTT ngày 15/10/2018 của Bộ trưởng Bộ Thông tin và Truyền thông quy định Danh mục sản phẩm an toàn thông tin mạng nhập khẩu theo giấy phép và trình tự, thủ tục, hồ sơ cấp Giấy phép nhập khẩu sản phẩm an toàn thông tin mạng
 - 🟡 [154/2018/NĐ-CP](../registry/van-ban/154-2018-nd-cp.yaml) — Sửa đổi, bổ sung, bãi bỏ một số quy định về điều kiện đầu tư kinh doanh và kiểm tra chuyên ngành thuộc phạm vi quản lý của Bộ Khoa học và Công nghệ
 - 🟢 [2284/QĐ-BKHCN](../registry/van-ban/2284-qd-bkhcn.yaml) — Công bố Bảng mã HS đối với phương tiện đo nhóm 2 phải phê duyệt mẫu thuộc đối tượng kiểm tra nhà nước về đo lường khi nhập khẩu
+- 🟢 [119/2017/NĐ-CP](../registry/van-ban/119-2017-nd-cp.yaml) — Quy định về xử phạt vi phạm hành chính trong lĩnh vực tiêu chuẩn, đo lường và chất lượng sản phẩm, hàng hóa
 - 🟡 [08/2014/NĐ-CP](../registry/van-ban/08-2014-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Khoa học và công nghệ
 - ⚫ [01/2009/TT-BKHCN](../registry/van-ban/01-2009-tt-bkhcn.yaml) — Danh mục sản phẩm, hàng hoá có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ KH&CN _(hết hiệu lực 2026-07-01)_
 - ⚫ [71/2007/NĐ-CP](../registry/van-ban/71-2007-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thực hiện một số điều của Luật Công nghệ thông tin về công nghiệp công nghệ thông tin _(hết hiệu lực 2026-01-01)_
