@@ -59,10 +59,30 @@
         "pham_vi": "số hiệu, trích yếu, ngày ban hành 03-01-2018, hiệu lực 03-01-2018 và tệp 01.signed_03.pdf trên vanban.chinhphu.vn (docid=192514); còn hiệu lực",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-15",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Ban hành kém theo Nghị định này Điều lệ tổ chức và hoạt động của Tổng công ty Lương thực miền Bắc.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Nghị định này có hiệu lực thi hành từ ngày ban hành và thay thể Nghị định số 12/2014/NĐ-CP ngày 25 tháng 02 năm 2014 của Chính phủ về Điều lệ tổ chức và hoạt động của Tổng công ty Lương thực miền Bắc.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dan tỉnh, thành phố trực thuộc trung ương, Hội đồng thành viên, Tổng giám đốc Tổng công ty Lương thực miền Bắc chịu trách nhiệm thi hành Nghị định này./.",
+            "trang_pdf": 2
+          }
+        ]
       },
       "ghi_chu": "Ban hành Điều lệ tổ chức và hoạt động của Tổng công ty Lương thực miền Bắc.",
-      "toan_van": "raw/download/datafiles.chinhphu.vn/01-2018-nd-cp.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/01-2018-nd-cp.pdf",
+        "raw/ocr/01-2018-nd-cp.ocr.txt"
+      ],
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=192514",
@@ -3763,10 +3783,65 @@
         "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=196022) và toàn văn PDF ký số (06.signed_01.pdf, Thủ tướng Nguyễn Xuân Phúc ký): ban hành 22-01-2019, có hiệu lực từ 10-03-2019 (khoản 1 Điều 40); thay thế Nghị định 32/2006/NĐ-CP và Nghị định 82/2006/NĐ-CP (chưa nạp vào sổ), bãi bỏ các quy định về quản lý gỗ, thực vật rừng tại Thông tư 27/2018/TT-BNNPTNT; đang còn hiệu lực, được sửa đổi, bổ sung một số điều bởi Nghị định 84/2021/NĐ-CP ngày 22-09-2021 (chưa nạp vào sổ).",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh Nghị định này quy định Danh mục các loài thực vật rừng, động vật rừng nguy cấp, quý, hiếm; chế độ quản lý, bảo vệ, trình tự, thủ tục khai thác các loài thực vật rừng, động vật rừng nguy cấp, quý, hiểm; nuôi động vật rừng thông thường: thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp (sau đây viết tắt là CITES) tại Việt Nam.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Đối tượng áp dụng Nghị định này áp dụng đối với cơ quan nhà nước, tô chức, hộ gia đình, cá nhân trong nước; người Việt Nam định cư ở nước ngoài và tô chức, cá nhân nước ngoài có hoạt động liên quan đến thực vật rừng, động vật rừng nguy cấp, quý, hiếm và các loài động vật, thực vật hoang dã nguy cấp thuộc các Phu luc CITES; nuôi động vật rừng thông thường trên lãnh thé Việt Nam.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Giải thích từ ngữ Trong Nghị định này, các từ ngữ được hiểu như sau: 1. Loài dùng dé chỉ một loài, một phân loài hoặc một quan thé động vật, thực vật cách biệt vê địa ly.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 10,
+            "noi_dung": "Điều 10. Xử lý mẫu vật các loài thực vật rừng, động vật rừng nguy cấp, quý, hiếm sau tịch thu 1. Xử lý mẫu vật sống: a) Việc xử lý tịch thu phải chăm sóc mẫu vật, tránh rủi ro dé mẫu vật bị chết;",
+            "trang_pdf": 7
+          },
+          {
+            "dieu": 15,
+            "noi_dung": "Điều 15. Điều kiện nuôi, trồng các loài động vật, thực vật hoang dã nguy cấp thuộc Phụ lục CITES vì mục đích thương mại 1. Đối với động vật: a) Đảm bảo nguồn giống hợp pháp: Khai thác hợp pháp; mẫu vật sau xử lý tịch thu theo quy định của pháp luật; nhập khâu hợp pháp hoặc mẫu vật từ cơ sở nuôi hợp pháp khác;",
+            "trang_pdf": 9
+          },
+          {
+            "dieu": 21,
+            "noi_dung": "Điều 21. Điều kiện quá cảnh mẫu vật sống động vật hoang dã nguy cấp thuộc Phụ lục CITES 1. Có giấy phép CITES xuat khẩu, tái xuất khâu do Cơ quan thâm quyền quản lý CITES nước xuất khâu cấp. _ 2. Gửi bản sao giấy phép CITES xuất khẩu, tái xuất khâu tới Co quan thâm quyên quản ly CITES Việt Nam 15 ngày làm việc trước khi làm thủ tục quá cảnh.",
+            "trang_pdf": 14
+          },
+          {
+            "dieu": 26,
+            "noi_dung": "Điều 26. Trình tự, thú tục cấp phép CITES nhập nội từ biển mẫu vật động vật, thực vật hoang dã nguy cấp thuộc Phụ lục I, II CITES 1. Cơ quan thấm quyền quản lý CITES Việt Nam có trách nhiệm cấp giấy phép CITES nhập nội từ biển. 2. Hồ sơ dé nghị cấp giấy phép: a) Đề nghị nhập nội từ biển mẫu vật theo Mẫu số 15 tại Phụ lục ban hành kèm theo Nghị định này;",
+            "trang_pdf": 19
+          },
+          {
+            "dieu": 31,
+            "noi_dung": "Điều 31. Giám định mẫu vật các loài động vật, thực vật hoang dã nguy cấp thuộc Phụ lục CITES 1. Mẫu vật các loài động vật, thực vật hoang dã nguy cấp thuộc các Phụ lục CITES được giám định trong những trường hợp sau: a) Cần xác định chính xác loài, loài phụ hoặc quan thé động vật, thực vật hoang da dé áp dụng các quy định phù hợp của pháp luật Việt Nam và CITES;",
+            "trang_pdf": 22
+          },
+          {
+            "dieu": 35,
+            "noi_dung": "Điều 35. Công bố hạn ngạch xuất khẩu quốc tế; xây dựng hạn ngạch khai thắc 1. Công bố hạn ngạch xuất khâu quốc tế: a) Cơ quan thấm quyền quan ly CITES Việt Nam công bố trên Công thông tin điện tử Chính phủ và của Bộ Nông nghiệp và Phát triển nông thôn hạn ngạch xuất khẩu do Ban thư ký CITES thông báo đối với những loài có hạn ngạch xuất khâu quốc tế;",
+            "trang_pdf": 26
+          },
+          {
+            "dieu": 41,
+            "noi_dung": "Điều 41. Điều khoản chuyển tiếp 1. Các cơ sở nuôi, trồng không vì mục đích thương mại thành lập trước khi Nghị định này có hiệu lực thi hành, trong thời hạn 03 (ba) thang kế từ ngày Nghị định này có hiệu lực, chủ cơ sở thực hiện mở số, ghi chép và lưu giữ sô theo dối đầu vật nuôi theo Mẫu số 16, số theo đõi cơ sở trồng thực vật theo Mẫu số 17 tại Phụ lục ban hành kèm theo Nghị định này;",
+            "trang_pdf": 30
+          }
+        ]
       },
       "ghi_chu": "Nạp tham chiếu CITES theo #247 — ca gỗ dùng để check tên khoa học loài (Fagus sylvatica = beech không thuộc CITES). Song song NĐ 102/2020.",
-      "toan_van": "raw/download/datafiles.chinhphu.vn/06-2019-nd-cp.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/06-2019-nd-cp.pdf",
+        "raw/ocr/06-2019-nd-cp.ocr.txt"
+      ],
       "slug": "06-2019-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -6889,7 +6964,19 @@
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
         "boi": "tho-bo-ba-01@ozvietnam",
-        "ghi_chu": "Crawl từ vanban.chinhphu.vn docid=197774"
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn docid=197774",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Sửa đổi, bd sung Điều 2 Thông tư số 22/2016/TT-BCT như san: 1. Bãi bỏ Phụ lục II - Quy tắc cụ thể mặt hàng tại khoản 2 Điều 2 Thông. tư số 22/2016/TT-BCT và thay thé bằng P Phụ lục I ban hành kèm theo Thông tư này. 2. Bãi bỏ Phụ lục III - Tiêu chí chuyên đổi cơ bản đối với sản phẩm dệt may tại khoản 3 Điều 2 Thông tư số 22/2016/TT-BCT và thay thế bằng Phụ lục I ban hành kèm theo Thông tư này.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Hiệu lực thi hành ` ˆˆ Thông tư này có hiệu lực thi hành kể từ ngày JS tháng J năm 2019./.",
+            "trang_pdf": 2
+          }
+        ]
       },
       "nguon": [
         {
@@ -6901,7 +6988,10 @@
           "truy_cap": "2026-10-10"
         }
       ],
-      "toan_van": "raw/download/datafiles.chinhphu.vn/10-2019-tt-bct.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/10-2019-tt-bct.pdf",
+        "raw/ocr/10-2019-tt-bct.ocr.txt"
+      ],
       "slug": "10-2019-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -32745,7 +32835,59 @@
         "pham_vi": "thẻ vanban.chinhphu.vn (docid=207842) và Điều 115: số hiệu, tiêu đề, ngày ban hành và có hiệu lực từ 26-04-2023; đối chiếu còn hiệu lực, thay thế NĐ 22/2018/NĐ-CP, NĐ 119/2010/NĐ-CP và bãi bỏ phần bảo vệ quyền tác giả, quyền liên quan của NĐ 105/2006/NĐ-CP",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh 1. Nghị định này quy định chỉ tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ năm 2005; Luật sửa đôi, bỗ sung một số điều của Luật Sở hữu tri tuệ năm 2009; Luật sửa đổi, bd sung một số điều của Luật Kinh doanh bảo hiểm, Luật Sở hữu trí tuệ năm 2019 và Luật sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ năm 2022 (sau đây gọi chung là Luật Sở hữu trí tuệ) về quyền tác giả, quyền liên quan.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Đối tượng áp dụng Nghị định này áp dụng đối với: 1. Tác giả, chủ sở hữu quyền tác giả, người biểu diễn, chủ sở hữu quyền liên quan theo quy định của Luật Sở hữu trí tuệ. 2. Tô chức, cá nhân khác có hoạt động liên quan đên quyên tác giả, quyên liên quan. 3. Co quan có thâm quyên quản ly nhà nước vệ quyền tác giả, quyên liên quan.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Giải thích từ ngữ Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: 1. Tác phẩm di cao là tác phẩm được công bồ lần đầu sau khi tác giả chết. 2. Tác phâm khuyết danh là tác phẩm không có hoặc chưa có tên tác giả (tên khai sinh hoặc bút danh) trên tác phâm khi công bô.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 23,
+            "noi_dung": "Điều 23. Sử dung tác phẩm, cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát sóng mà Nhà nước là đại diện quản lý quyền tác gia, quyền liên quan 1. Tác phẩm, cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát sóng mà Nhà nước là đại diện quản lý quyền tác gia, quyén lién quan quy định tại khoản 2 Điều 42 của Luật Sở hữu trí tuệ bao gồm:",
+            "trang_pdf": 18
+          },
+          {
+            "dieu": 43,
+            "noi_dung": "Điều 43. Yêu cầu về tác phẩm, cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát sóng trong hồ sơ đăng ký quyền tác giả, đăng ký quyền liên quan 1. Tên tác phẩm, cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát sóng phải phù hợp với nội dung và loại hình tác phâm, nội dung cuộc biêu điện, bản ghi âm, ghi hình, chương trình phát sóng.",
+            "trang_pdf": 42
+          },
+          {
+            "dieu": 64,
+            "noi_dung": "Điều 64. Căn cứ xác định hành vi xâm phạm quyền tác giả, quyền liên quan Căn cứ xác định hành vi xâm phạm quyền tác giả, quyền liên quan quy định tại các điều 28 và 35 của Luật Sở hữu trí tuệ bao gồm:",
+            "trang_pdf": 60
+          },
+          {
+            "dieu": 86,
+            "noi_dung": "Điều 86. Quyền yêu cầu kiểm soát hàng hóa xuất khẩu, nhập khẩu liên quan đến quyền (ác giá, quyền liên quan Chủ thê quyền tác giả, quyền liên quan có quyền trực tiếp hoặc thông qua đại diện theo pháp luật hoặc đại diện theo ủy quyên nộp đơn đề nghị kiêm tra, giám sát để phát hiện hàng hóa xuất khẩu, nhập khẩu có dấu hiệu xâm phạm quyền tác giả, quyền liên quan hoặc đơn đề nghị tạm dừng làm thủ tục hải quan đối với hàng hóa xuất khâu, nhập khẩu bị nghỉ ngờ xâm phạm quyền tác giả, quyền liên quan.",
+            "trang_pdf": 78
+          },
+          {
+            "dieu": 88,
+            "noi_dung": "Điều 88. Thủ tục xử lý đơn 1. Trong thời hạn 20 ngày, kế từ ngày nhận được đơn đề nghị kiểm tra, giám sát hàng hóa xuất khâu, nhập khâu và đủ các tài liệu quy định tại khoản 2 Điều 74 của Luật Hải quan hoặc trong thời hạn 02 giờ làm việc, ké từ thời điểm nhận được đơn đề nghị tạm dừng làm thủ tục hải quan và đủ các tài liệu quy định tại khoản 3 Điều 74 của Luật Hải quan, cơ quan hải quan có trách nhiệm xem xét, ra thông báo chấp nhận đơn, nếu người nộp đơn đã thực hiện nghĩa vụ quy định tại các điểm a, b, c khoản 1 và khoản 2 Điều 217 của Luật Sở hữu trí tuệ.",
+            "trang_pdf": 78
+          },
+          {
+            "dieu": 89,
+            "noi_dung": "Điều 89. Thẫm quyền, trình tự, thủ tục chủ động tạm dừng làm thủ tục hải quan 1. Trong quá trình thực hiện kiểm tra, giám sat và kiểm soát, nếu phát hiện căn cứ rõ rang để nghi ngờ hàng hóa xuất khẩu, nhập khẩu là hàng hóa sao chép lậu, Chi cục Hải quan chủ động tạm dừng làm thủ tục hải quan đối với hàng hóa đó.",
+            "trang_pdf": 79
+          },
+          {
+            "dieu": 115,
+            "noi_dung": "Điều 115. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành kể từ ngày 26 tháng 4 năm 2023.",
+            "trang_pdf": 100
+          }
+        ]
       },
       "ghi_chu": "KHÔNG thay thế NĐ 131/2013 (xử phạt QTC vẫn theo NĐ 131/2013 sđ 28/2017). TVPL ghi nhận bị sửa bởi NĐ 116/2026/NĐ-CP (02-04-2026, TTHC — đã có công báo) và NĐ 134/2026/NĐ-CP (06-04-2026, nguồn tỉnh, chưa thấy trên cổng A) — chưa ghi quan hệ, chờ săn bậc A.",
       "tu_khoa": [
@@ -32753,7 +32895,10 @@
         "shtt",
         "thi-hanh"
       ],
-      "toan_van": "raw/download/datafiles.chinhphu.vn/17-2023-nd-cp.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/17-2023-nd-cp.pdf",
+        "raw/ocr/17-2023-nd-cp.ocr.txt"
+      ],
       "slug": "17-2023-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -68537,10 +68682,65 @@
         "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=202988) và toàn văn PDF ký số (31.signed.pdf): ban hành và có hiệu lực từ 26-03-2021; đang còn hiệu lực (được sửa đổi, bổ sung tại Điều 128 Nghị định 163/2025/NĐ-CP).",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng 1. Nghị định này quy định chỉ tiết và hướng dẫn thi hành một số điều của Luật Đầu tư về điều kiện đầu tư kinh doanh; ngành, nghề và điều kiện tiếp cận thị trường đối với nhà đầu tư nước ngoài; bảo đảm đầu tư kinh doanh; ưu đãi, hỗ trợ đầu tư; thủ tục đầu tư; hoạt động đầu tư ra nước ngoài; xúc tiễn đầu tư; quản lý nhà nước đối với hoạt động đầu tư kinh doanh tại Việt Nam và đầu tư ra nước ngoài.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Giải thích từ ngữ Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: 1. Bản sao hợp lệ là bản sao được cấp từ số gốc hoặc bản sao được chứng thực từ bản chính bởi cơ quan, tô chức có thâm quyền hoặc từ cơ sở đữ liệu quốc gia đối với trường hợp thông tin gốc được lưu trữ trên cơ sở dữ liệu quốc gia về dân cư, đăng ký doanh nghiệp và đầu tư.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Bao đảm của Nhà nước dé thực hiện dự án đầu tư 1. Căn cứ điều kiện phát triển kinh tế - xã hội và nhu cầu thu hút đầu tư trong từng thời kỳ, mục tiêu, quy mô, tính chất của dự án đầu tư, Thủ tướng Chính phủ xem xét, quyết định hình thức, nội dung bảo đảm của Nhà nước dé thực hiện dự án đầu tư thuộc thâm quyền chấp thuận chủ trương đầu tư của Quốc hội, Thủ tướng Chính phủ và dự án đầu tư phát triển kết cấu hạ tầng quan trọng khác theo đề",
+            "trang_pdf": 4
+          },
+          {
+            "dieu": 22,
+            "noi_dung": "Điều 22. Điều chỉnh ưu đãi đầu tư 1. Dự án đầu tư đang được hưởng ưu đãi đầu tư và đáp ứng thêm điều kiện hưởng ưu đãi ở mức cao hơn hoặc được hưởng thêm ưu đãi theo hình thức ưu đãi mới thì được hưởng ưu đãi ở mức cao hơn hoặc hưởng thêm ưu đãi theo hình thức ưu đãi mới cho thời gian ưu đãi còn lại.",
+            "trang_pdf": 22
+          },
+          {
+            "dieu": 39,
+            "noi_dung": "Điều 39. Hồ sơ cấp, điều chỉnh Giấy chứng nhận đăng ký đầu tư trực tuyến 1. Đối với các dự án đầu tư không thuộc diện chấp thuận chủ trương đầu tư, nhà đầu tư được lựa chọn nộp hồ sơ cấp, điều chỉnh Giấy chứng nhận đăng ký đầu tư bang bản giấy theo quy định tại các Điều 36 và 47 của Nghị định này hoặc nộp hé sơ trực tuyến trên Hệ thông thông tin quốc gia về đầu tư theo một trong hai hình thức: sử dụng chữ ký sô hoặc không sử dụng chữ ký số.",
+            "trang_pdf": 48
+          },
+          {
+            "dieu": 57,
+            "noi_dung": "Điều 57. Điều kiện, thủ tục chấm đứt hoạt động của dự án đầu tư 1. Dự án đầu tư chấm dứt hoạt động trong các trường hợp quy định tại các khoản 1 và 2 Điều 48 của Luật Đâu tư. 2. Việc chấm đứt hoạt động của dự án đầu tư thực hiện theo thủ tục sau:",
+            "trang_pdf": 68
+          },
+          {
+            "dieu": 74,
+            "noi_dung": "Điều 74. Tài liệu xác định hình thức đầu tư ra nước ngoài 1. Đối với hoạt dong dau tu ra nước ngoài theo hình thức hop đồng ở nước ngoài quy định tại điểm b khoản 1 Điều 52 của Luật Đầu tư, nhà đầu tư nộp thỏa thuận, hợp đồng với đối tác nước ngoài về việc đầu tư hoặc tài liệu khác có giá trị tương đương kèm theo tài liệu về tư cách pháp lý của đối tác nước ngoài.",
+            "trang_pdf": 81
+          },
+          {
+            "dieu": 93,
+            "noi_dung": "Điều 93. Chương trình xúc tiến đầu tư của các bộ, cơ quan ngang bộ, Ủy ban nhân dân cấp tỉnh 1. Hướng dẫn xây dựng chương trình xúc tiến đầu tư: a) Bộ Kế hoạch và Đầu tư Xây dựng kế hoạch xúc tiến đầu tư trong từng thời kỳ phát triển kinh tế - xã hội để định hướng công tác xúc tiến đầu tư trên phạm vi cả nước;",
+            "trang_pdf": 97
+          },
+          {
+            "dieu": 110,
+            "noi_dung": "Điều 110. Sửa đổi, bd sung một số điều của Nghị định số 82/2018/NĐ-CP ngày 22 tháng 5 năm 2018 của Chính phủ quy định về quản lý khu công nghiệp và khu kinh tế Bãi bỏ các khoản 2 và 3 Điều 66 Nghị định số 82/2018/NĐ-CP ngày 22 tháng 5 năm 2018 của Chính phủ quy định về quan lý khu công nghiệp và khu kinh tê.",
+            "trang_pdf": 118
+          },
+          {
+            "dieu": 131,
+            "noi_dung": "Điều 131. Hiệu lực thi hành 1. Nghị định này có hiệu lực từ ngày ký.",
+            "trang_pdf": 138
+          }
+        ]
       },
       "ghi_chu": "Nghị định hướng dẫn Luật Đầu tư — quy định danh mục ngành, nghề tiếp cận thị trường và ưu đãi đầu tư (liên quan miễn thuế nhập khẩu tạo tài sản cố định).",
-      "toan_van": "raw/download/datafiles.chinhphu.vn/31-2021-nd-cp.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/31-2021-nd-cp.pdf",
+        "raw/ocr/31-2021-nd-cp.ocr.txt"
+      ],
       "slug": "31-2021-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -126779,9 +126979,64 @@
         "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=214558) và toàn văn PDF ký số trên datafiles.chinhphu.vn (90qh.signed.pdf): Quốc hội thông qua ngày 25-06-2025, có hiệu lực thi hành từ ngày 01-07-2025; đang còn hiệu lực.",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-15",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Sửa đổi, bd sung một số điều của Luật Đấu thầu 1. Sửa đối, bổ sung, bãi bỏ một số khoản của Điều 2 như sau: a) Sửa đổi, bỗ sung đoạn đầu khoản 1 như sau:",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Sửa đỗi, bd sung một số điều của Luật Đầu tư theo phương thức đối tác công tư 1. Sửa đổi, bd sung một số khoản của Điều 3 như sau: a) Sửa đổi, bd sung khoản 1 và khoản 2 như sau: “1, Báo cáo nghiên cứu tiền kha thi, báo cáo đề xuất chủ trương dau tư là tai liệu trình bày các nội dung nghiên cứu sơ bộ về sự cân thiệt, tính khả thi và hiệu",
+            "trang_pdf": 16
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Sửa đổi, bé sung một số điều của Luật Hải quan 1. Sửa đổi, bỗ sung Điều 42 như sau: “Điều 42. Điều kiện áp dụng chế độ ưu tiên ._ 1, Doanh nghiệp được công nhận áp dụng chế độ ưu tiên khi đáp ứng đủ các điêu kiện sau đây: a) Tuân thủ pháp luật về hải quan, pháp luật về thuế trong 02 năm liên tục; b) Có kim ngạch xuất khẩu, nhập khẩu hằng năm đạt mức quy định;",
+            "trang_pdf": 31
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Điều 4. Sửa đổi, bd sung một số điều của Luật Thuế giá trị gia tăng Sửa đổi, bd sung điểm a khoản 1 Điều 9 như sau:",
+            "trang_pdf": 32
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Điều 5. Sửa đỗi, bé sung một số điều của Luật Thuế xuất khẩu, thuế nhập khẩu 1. Bãi bỏ khoản 18 Điều 16. 2. Thay thé số “18” thành “các điểm b, c và d khoản 21” tại khoản 1 Điều 17. 3. Sửa đôi, bỗ sung khoản 21 Điều 16 như sau: “21. Hang hóa nhập khâu để phát triển khoa học, công nghệ, đổi mới sáng tạo, công nghiệp công nghệ số, bao gồm:",
+            "trang_pdf": 33
+          },
+          {
+            "dieu": 6,
+            "noi_dung": "Điều 6. Sửa đối, bỗ sung một số số điều của Luật Đầu tư 1. Sửa đỗi, bổ sung một số điểm, khoản của Điều 16 như sau: a) Sửa đổi, bỗ sung điểm a khoản 1 như sau: “a) Hoạt động công nghệ cao, sản phẩm công nghiệp hễ trợ công nghệ cao, hoạt động nghiên cứu và phát triển, sản xuất các sản phẩm hình thành từ kết quả khoa học và công nghệ theo quy định của pháp luật về khoa học, công nghệ và",
+            "trang_pdf": 33
+          },
+          {
+            "dieu": 7,
+            "noi_dung": "Điều 7. Sửa đổi, bd sung một số điều của Luật Đầu tư công 1. Bé sung khoản 5 vào sau khoản 4 Điều 3 như sau: “5, Nhiệm vụ, dự án đầu tư do tổ chức, cá nhân tài trợ hợp pháp và yêu cầu không dua vào ngân sách nha nước thì không phải thực hiện theo quy định của Luat này.” 2. Sửa sabi, bồ sung một số khoản của Điều 4 như sau: a) Sửa đổi, bd sung khoản 4 như sau:",
+            "trang_pdf": 40
+          },
+          {
+            "dieu": 8,
+            "noi_dung": "Điều 8. Sửa đối, bổ sung một số điều của Luật Quản lý, sử dung tài sản công 1. Sửa đối, bd sung Điều 1 như sau: “Điều 1. Phạm vi điều chỉnh Luật này quy định về quản lý nhà nước đối với tài sản công; chế độ quản lý, sử dụng tai sản công; quyền và nghĩa vụ của các cơ quan, té chức, đơn vị, cá nhân trong việc quản lý, sử dụng tài sản công. Đôi với tài sản công là tiên thuộc ngân sách nhà nước, các quỹ tai chính nhà",
+            "trang_pdf": 53
+          },
+          {
+            "dieu": 9,
+            "noi_dung": "Điều 9. Điều khoản thi hành 1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. 2. Bãi bỏ điểm b khoản 3 Điều 33 của Luật Nhà ở số 27/2023/QH15 đã được . sửa đổi bd sung theo Luật số 43/2024/QH15 và Luật số 47/2024/QH15. 3. Bãi bỏ khoản 6 Điều 14, các khoản 1, 2, 3 và 4 Điều 29 của Luật Quản lý nợ công số 20/2017/QH14.",
+            "trang_pdf": 56
+          },
+          {
+            "dieu": 10,
+            "noi_dung": "Điều 10. Quy định chuyển tiếp 1. Quy định chuyển tiếp các quy định sửa đôi, bd sung Luật Đấu thầu như sau:",
+            "trang_pdf": 57
+          }
+        ]
       },
-      "toan_van": "raw/download/datafiles.chinhphu.vn/90-2025-qh15.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/90-2025-qh15.pdf",
+        "raw/ocr/90-2025-qh15.ocr.txt"
+      ],
       "ghi_chu": "Sửa đổi, bổ sung một số điều của 8 luật (trong đó có Luật Hải quan 54/2014/QH13, Luật Thuế XNK 107/2016/QH13, Luật Thuế GTGT 48/2024/QH15).",
       "slug": "90-2025-qh15",
       "bac_nguon_cao_nhat": "A",
