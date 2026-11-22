@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-2996 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3000 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2300 văn bản, 2300 chưa hết hiệu lực.
+2304 văn bản, 2304 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -514,6 +514,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [15382/TB-CHQ/2026](../registry/van-ban/15382-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thuốc kem bôi ngoài da Hirudoid chứa hoạt chất Mucopolysaccharide polysulfate 0,3 g/100 g kem, đóng gói hộp 1 tuýp 14 g, mã số 3004.90.99)
 - 🟢 [15384/TB-CHQ/2026](../registry/van-ban/15384-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bo mạch chủ dành cho máy tính xách tay có chứa CPU Intel Core Ultra 7 265H và GPU NVIDIA GeForce RTX 5060, ký mã hiệu MTM40, mã số 8471.50.10)
 - 🟢 [15042/TB-CHQ/2026](../registry/van-ban/15042-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bảng mẫu vải Swatch card, ký mã hiệu 778CARD, gồm 2 miếng vải sơnin 100% polyester đã tráng phủ dán trên bảng giấy bìa 4,25 x 9 inch, mã số 6307.90.90)
+- 🟢 [13727/TB-CHQ/2026](../registry/van-ban/13727-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Máy plasma lạnh hỗ trợ điều trị vết thương PlasmaMED-GAP, ký mã hiệu PlasmaMED-BV-M3, mã số 9018.90.31)
 - 🟢 [13271/TB-CHQ/2026](../registry/van-ban/13271-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ toan áo phẫu thuật thần kinh sọ não Neuro Pack with Pouch, ký mã hiệu V-NSP-002, vải không dệt polypropylene tiệt trùng bằng khí EO dùng 1 lần, mã số 6307.90.90)
 - 🟢 [13272/TB-CHQ/2026](../registry/van-ban/13272-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ toan áo phẫu thuật cột sống Spinal Laminectomy Pack, ký mã hiệu V-SLP-002, vải không dệt polypropylene tiệt trùng bằng khí EO dùng 1 lần, mã số 6307.90.90)
 - 🟢 [13273/TB-CHQ/2026](../registry/van-ban/13273-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ toan áo phẫu thuật chỉnh hình cơ xương khớp chung Orthopedic Pack, ký mã hiệu V-OPP-002, vải không dệt polypropylene tiệt trùng bằng khí EO dùng 1 lần, mã số 6307.90.90)
@@ -521,6 +522,9 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [13329/TB-CHQ/2026](../registry/van-ban/13329-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ cấp nguồn của đèn LED, Model SLB450N801N1A, Part No PSNH450801D(L), đầu vào 200-250VAC 47W, đầu ra 23-50VDC 40W, mã số 8504.40.90)
 - 🟢 [10280/TB-CHQ/2026](../registry/van-ban/10280-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Máy đọc sách Boox Palma 2 Pro, model Palma2 Pro, màn hình mực điện tử E-Ink 6.13 inch Kaleido 3, RAM 8GB, ROM 128GB, Android 15, không có chức năng nghe gọi, mã số 8471.30.90)
 - 🟢 [9572/TB-CHQ/2026](../registry/van-ban/9572-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị đo độ ẩm đất bằng bức xạ vi sóng thụ động TurfRad Moisture Sensor, ký mã hiệu TurfRad Rev. 1.4, băng tần L 1400-1427 MHz chỉ thu, mã số 9027.89.90)
+- 🟢 [8848/TB-CHQ/2026](../registry/van-ban/8848-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Dụng cụ kiểm tra độ thẳng hàng chân pin tiếp xúc mạch điện bằng thép không gỉ, ký mã hiệu 7386-8850A00 49YC002837, mã số 9031.80.90)
+- 🟢 [7700/TB-CHQ/2026](../registry/van-ban/7700-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Nguyên liệu thực phẩm AQUAMIN F từ tảo biển đỏ Lithothamnion sp. dạng bột bổ sung canxi và khoáng chất tự nhiên, mã số 1212.21.90)
+- 🟢 [7911/TB-CHQ/2026](../registry/van-ban/7911-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Màn hình hiển thị Left Monitor for Room 70 Dual cho hệ thống hội nghị truyền hình Webex Room 70D, ký mã hiệu CS-ROOM70D-MON-L, mã số 8528.52.00)
 - 🟢 [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - 🟢 [1489/TB-CHQ/2026](../registry/van-ban/1489-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1633/TB-CHQ/2026](../registry/van-ban/1633-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2710.12.99)
