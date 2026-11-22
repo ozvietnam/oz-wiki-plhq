@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 19783/TB-CHQ/2026
+so_hieu_khac:
+  - 19783/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Vỏ thùng rác thép không gỉ SUS304 sử dụng nơi công cộng có in sẵn logo và hướng dẫn phân loại rác, mã số 7323.93.00)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-08-03'
+hieu_luc_tu: '2026-08-03'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=105348&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/8/7/VB_19783.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/8/7/VB_19783.pdf, id=105348, SHA-256 cdc84a978671bf5c189ca53b7d175fa79c44c26448636ffbbad20a3cc1406079): Thông báo số 19783/TB-CHQ ngày 03-08-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Vỏ thùng rác sử dụng nơi công cộng có in sẵn logo và hướng dẫn phân loại rác (ký mã hiệu SUS304; làm từ thép không gỉ inox 304 dày 0,65 mm, kích thước tổng thể 580x280x760 mm, không bao gồm 02 thùng đựng rác bên trong, gồm phần thân vỏ hình ô van dẹt 580x280x700 mm hàn kín đáy và phần miệng thùng 580x280x60 mm không có nắp đậy chia làm 02 ô đổ rác tái chế và không tái chế bằng thanh chắn chữ V), phân loại vào nhóm 73.23, phân nhóm 7323.93, mã số 7323.93.00; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Vỏ thùng rác bằng thép không gỉ SUS304 dày 0,65 mm (kích thước 580x280x760 mm, gồm thân vỏ và miệng thùng chia 2 ô phân loại rác tái chế và không tái chế, không kèm thùng chứa bên trong, sử dụng nơi công cộng) thuộc nhóm 73.23, phân nhóm 7323.93, mã số 7323.93.00.'
+toan_van: raw/download/files.customs.gov.vn/19783-tb-chq-2026.pdf
