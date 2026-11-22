@@ -5,8 +5,8 @@
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
  "canh_bao_tang_nhap": "Tầng TOM_TAT_NHAP được trích tự động bởi LLM (da_soat: false) — CHỈ dùng để định vị điều khoản, KHÔNG trích dẫn nguyên văn hay làm căn cứ pháp lý; chỉ dùng NGUYEN_VAN_NGUON_A để trích dẫn căn cứ.",
  "thong_ke": {
-  "so_van_ban_nguon_a": 351,
-  "so_dieu_khoan_nguon_a": 3091,
+  "so_van_ban_nguon_a": 358,
+  "so_dieu_khoan_nguon_a": 3138,
   "so_van_ban_tom_tat_nhap": 88,
   "so_dieu_khoan_tom_tat_nhap": 3684,
   "so_tep_doc_hieu": 91,
@@ -2866,6 +2866,79 @@
    ]
   },
   {
+   "so_hieu": "07/VBHN-BTC",
+   "slug": "07-vbhn-btc-2025",
+   "ten": "Văn bản hợp nhất Nghị định Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": null,
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=213492",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh ? - Nghị định số 144/2024/NĐ-CP ngày 01/11/2023 có căn cứ ban hành như sau: __ Căn cứ Luật Tô chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bỗ sung một số điêu của Luật Tô chức Chính phủ và Luật Tô chức chính quyên địa phương ngày 22 tháng 1] năm 2019;",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Đối tượng áp dụng 1. Người nộp thuế theo quy định của Luật Thuế xuất khẩu, thuế nhập khẩu. 2. Cơ quan hải quan, công chức hải quan. 3. Tô chức, cá nhân có quyên và nghĩa vụ liên quan đên hàng hoá xuât khâu, nhập khâu.",
+     "trang_pdf": 3
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Ban hành Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi theo Danh mục mặt hàng chịu thuế, Danh mục hàng hoá và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan Ban hành kèm theo Nghị định này: 1. Phụ lục I - Biểu thuế xuất khâu theo Danh mục mặt hàng chịu thuế. 2.5 Phụ lục II - Biểu thuế nhập khẩu ưu đãi theo Danh mục mặt hàng chịu thuê.",
+     "trang_pdf": 3
+    },
+    {
+     "dieu": 4,
+     "noi_dung": "Điều 4. Biểu thuế xuất khẩu theo Danh mục mặt hàng chịu thuế 1. Biểu thuế xuất khâu theo Danh mục mặt hàng chịu thuế quy định tại Phụ lục I ban hành kèm theo Nghị định này gồm mã số hàng hóa (mã hàng), mô tả hàng hoá, mức thuế suất thuế xuất khẩu quy định cho từng nhóm mặt hàng, mặt hàng chịu thuế xuất khẩu.",
+     "trang_pdf": 3
+    },
+    {
+     "dieu": 5,
+     "noi_dung": "Điều 5. Biểu thuế nhập khẩu ưu đãi theo Danh mục mặt hàng chịu thuế Biểu thuế nhập khâu ưu đãi theo Danh mục mặt hàng chịu thuế (Biểu thuế nhập khẩu ưu đãi) quy định tại Phụ lục II ban hành kèm theo Nghị định này bao gồm:",
+     "trang_pdf": 4
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Điều 6. Thuế suất thuế nhập khẩu ưu đãi đối với các mặt hàng máy gia công cơ khí Các mặt hàng máy gia công cơ khí thuộc các nhóm hàng từ 84.54 đến 84.63 áp dụng mức thué suất thuế nhập khâu ưu đãi như sau:",
+     "trang_pdf": 6
+    },
+    {
+     "dieu": 7,
+     "noi_dung": "Điều 7. Thuế nhập khẩu đối với mặt hàng xe ô tô đã qua sử dụng 1. Xe ô tô chở người đã qua sử dụng từ 09 chỗ ngồi trở xuống có dung tích xi lanh không quá 1.000cc thuộc nhóm hang 87.03 áp dụng mức thuê tuyệt đôi quy định tại Phụ lục III ban hành kèm theo Nghị định này.",
+     "trang_pdf": 6
+    },
+    {
+     "dieu": 8,
+     "noi_dung": "Điều 8. Thuế suất thuế nhập khẩu ưu đãi đối với linh kiện ô tô nhập khẩu theo Chương trình ưu đãi thuế dé sản xuất, lắp ráp xe ô tô (Chương trình ưu đãi thuế) _ 1. Quy định thuế suất thuế nhập khẩu ưu đãi 0% đối với linh kiện ô tô nhập khâu thuộc nhóm 98.49 tại khoản 3 Mục II Phụ lục II ban hành kèm theo Nghị định này như sau:",
+     "trang_pdf": 6
+    },
+    {
+     "dieu": 9,
+     "noi_dung": "Điều 9. Thuế suất thuế nhập khẩu wu đãi đối với nguyên liệu, vật tư, linh kiện để sản xuất, gia công (lắp ráp) các sản phẩm công nghiệp hỗ trợ wu tiên phát triển cho ngành sản xuất, lap rap 6 to dén ngay 31 thang 12 nam 2027 (gọi tắt là Chương trình wu đãi thuế công nghiệp hỗ trợ ô tô) ”",
+     "trang_pdf": 14
+    },
+    {
+     "dieu": 10,
+     "noi_dung": "Điều 10. Danh mục hàng hóa và mức thuế suất thuế nhập khẩu đối với các mặt hàng áp dụng hạn ngạch thuế quan 1. Danh mục hang hoá áp dung hạn ngạch thuế quan gồm mặt hàng thuộc các nhóm hàng được quy định tại Phụ lục IV ban hành kèm theo Nghị định này",
+     "trang_pdf": 19
+    },
+    {
+     "dieu": 11,
+     "noi_dung": "Điều 11. Trách nhiệm tổ chức thực hiện 1. Bộ Tài chính thực hiện kiểm tra, giám sát, tham van giá, chong gian lận thương mại theo quy định đối với những mặt hàng có mức thuế suất thuế nhập khẩu cao và các mặt hàng có rủi ro cao về trị giá tính thuế. _ 2. BO Ké hoach va Dau tu ban hành Danh mục hàng hoá trong nước đã sản xuât được; rà soát, cập nhật sửa đôi Danh mục đảm bảo phù hợp với thực tế. 3. Bộ Công Thương có trách nhiệm:",
+     "trang_pdf": 20
+    },
+    {
+     "dieu": 12,
+     "noi_dung": "Điều 12. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành từ ngày 15 thang 7 năm 2023. >. Điều 2 Nghi dinh số 1442024//ND-CP ngày 01/11/2024, có hiệu luc thi hành từ ngày 16/12/2024, quy định như sau: Điều 2. Điều khoản thi hành và tổ chức thực hiện 1. Nghị định này có hiệu lực từ ngày 16 tháng 12 năm 2024.",
+     "trang_pdf": 21
+    }
+   ]
+  },
+  {
    "so_hieu": "07/VBHN-BTTTT",
    "slug": "07-vbhn-btttt-2024",
    "ten": "Thông tư quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in",
@@ -4380,6 +4453,34 @@
    ]
   },
   {
+   "so_hieu": "1092/QĐ-BTC",
+   "slug": "1092-qd-btc-2024",
+   "ten": "Về việc công bố kết quả hệ thống hóa văn bản quy phạm pháp luật thuộc lĩnh vực quản lý nhà nước của Bộ Tài chính kỳ 2019 - 2023",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2024-05-13",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://www.mof.gov.vn/phap-luat-tai-chinh/ke-hoach-cong-tac/mofucm316272",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Công bố kèm theo Quyết định này kết quả hệ thống hóa văn bản quy phạm pháp luật thuộc lĩnh vực quản lý nhà nước của Bộ Tài chính kỳ 2019 - 2023, bao gôm: 1. Danh mục văn bản quy phạm pháp luật còn hiệu lực thuộc lĩnh vực quản lý nhà nước của Bộ Tài chính trong kỳ hệ thông hóa 2019 - 2023;",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Trách nhiệm của các đơn VỊ: 1. Vụ Pháp chế phối hợp với Cục Tin học và Thống kê tài chính, Văn phòng Bộ và các đơn vị có liên quan thực hiện việc đăng tải Kết quả hệ thong hóa văn bản quy phạm pháp luật trên Công thông tin điện tử của Bộ Tài chính;",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Quyết định này có hiệu lực thi hành kể từ ngày ký. Chánh Văn phòng Bộ, Vụ trưởng Vụ Pháp chê và Thủ trưởng các đơn vị thuộc Bộ chịu trách nhiệm thi hành Quyét định này. W/",
+     "trang_pdf": 2
+    }
+   ]
+  },
+  {
    "so_hieu": "11/2015/TT-BKHCN",
    "slug": "11-2015-tt-bkhcn",
    "ten": "Quy định chi tiết và hướng dẫn thi hành một số điều của Nghị định số 99/2013/NĐ-CP ngày 29/8/2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp",
@@ -5105,6 +5206,69 @@
     {
      "dieu": 7,
      "noi_dung": "Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này."
+    }
+   ]
+  },
+  {
+   "so_hieu": "112/2025/QH15",
+   "slug": "112-2025-qh15",
+   "ten": "Luật Quy hoạch",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-03-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216547&classid=1&typegroupid=3",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Luật này quy định hệ thống quy hoạch; việc lập, thẩm định, quyết định hoặc phê duyệt, công bố, cung cap thông tin, thực hiện, đánh giá và điều chỉnh quy hoạch; quản lý nhà nước về hoạt động quy hoạch.",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Đối tượng áp dụng Luật này áp dụng đối với cơ quan, tổ chức, cá nhân tham gia lập, thầm định, quyết định hoặc phê duyệt, công bô, cung cap thông tin, thực hiện, đánh giá, điều chỉnh quy hoạch và cơ quan, tô chức, cá nhân khác có liên quan.",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau: 1. Quy hoạch là định hướng phát triển, sắp xếp, phân bố không gian các hoạt động kinh tế, xã hội, quốc phòng, an ninh gắn với phát triển kết cấu hạ tầng, sử dụng tài nguyên, bảo vệ môi trường trên một phạm vi lãnh thổ cho thời kỳ nhất định nhằm sử dụng hiệu quả các nguồn lực của đất nước dé thực hiện mục tiêu phát triển bền vững và bảo đảm tầm nhìn phát triển quốc",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 11,
+     "noi_dung": "Điều 11. Chính sách của nhà nước về hoạt động quy hoạch 1. Nhà nước quản lý phát triển kinh tế - xã hội và bảo đảm quốc phòng, an ninh, bảo vệ môi trường theo quy hoạch đã được quyết định hoặc phê duyệt.",
+     "trang_pdf": 10
+    },
+    {
+     "dieu": 19,
+     "noi_dung": "Điều 19. Căn cứ lập quy hoạch 1. Chiến lược phát triển kinh tế - xã hội, chiến lược phát triển ngành, lĩnh vực trong cùng giai đoạn phat trién (nêu có). 2. Quy hoạch thời kỳ trước. 3. Quy hoạch có liên quan (nếu có). 4. Quy hoạch chỉ tiết ngành, quy hoạch đô thị và nông thôn được lập căn cứ theo quy định của Luật này và quy định khác của pháp luật có liên quan.",
+     "trang_pdf": 13
+    },
+    {
+     "dieu": 26,
+     "noi_dung": "Điều 26. Nội dung quy hoạch không gian biển quốc gia 1. Quy hoạch không gian biển quốc gia bao gồm những nội dung chủ yếu sau đây: a) Phân tích, đánh giá về điều kiện tự nhiên, nguồn lực, bối cảnh trực tiếp tác động và thực trạng sử dụng không gian, tài nguyên biển và hải đảo của các hoạt động trên vùng đất ven biển, hải đảo, vùng biển thuộc chủ quyền, quyền chủ quyền, quyền tài phán quốc gia của Việt Nam;",
+     "trang_pdf": 16
+    },
+    {
+     "dieu": 33,
+     "noi_dung": "Điều 33. Hội đồng thẩm định quy hoạch 1. Thành phần Hội đồng thâm định quy hoạch cấp quốc gia, quy hoạch vùng, quy hoạch tỉnh bao gồm Chủ tịch Hội đồng, Phó Chủ tịch Hội đồng và các thành viên. Thành viên của Hội đồng thẩm định quy hoạch bao gồm đại diện Bộ, cơ quan ngang Bộ, địa phương, cơ quan, tổ chức có liên quan và các chuyên gia là ủy viên phản biện.",
+     "trang_pdf": 22
+    },
+    {
+     "dieu": 40,
+     "noi_dung": "Điều 40. Nội dung quyết định hoặc phê duyệt quy hoạch 1. Nội dung quyết định hoặc phê duyệt quy hoạch _cấp quốc gia, quy hoạch vùng, quy hoạch tỉnh bao gồm các nội dung chủ yêu quy định tại các điểm c, d, đ, e, g, h, i, k, 1, m van khoản 1 Điều 25; các điểm d, đ và e khoản 1 Điều 26; các điểm c, d, đ và e khoản 1 Điều 27;",
+     "trang_pdf": 26
+    },
+    {
+     "dieu": 48,
+     "noi_dung": "Điều 48. Đánh giá sự phù hợp của dự án với quy hoạch trong chấp thuận hoặc phê duyệt chủ trương đầu tư, quyết định đầu tư 1. Quy hoạch được sử dụng làm căn cứ đánh giá sự phù hợp của dự án trong chấp thuận hoặc phê duyệt chủ trương đầu tư theo quy định của pháp luật",
+     "trang_pdf": 29
+    },
+    {
+     "dieu": 57,
+     "noi_dung": "Điều 57. Hiệu lực thi hành 1. Luật này có hiệu lực thi hành từ ngày 01 tháng 3 năm 2026, trừ quy định tại các khoản 2, 3 và 4 Điều này. 2. Điều 48 của Luật này có hiệu lực thi hành từ ngày Luật này được thông qua. 3. Điều 56 của Luật nay có hiệu lực thi hành từ ngày Luật này được thông qua đến hết ngày 28 tháng 02 năm 2026, trừ quy định tại khoản 4 Điều này.",
+     "trang_pdf": 46
     }
    ]
   },
@@ -7027,6 +7191,39 @@
    ]
   },
   {
+   "so_hieu": "1254/QĐ-TTg",
+   "slug": "1254-qd-ttg-2018",
+   "ten": "Về việc phê duyệt Kế hoạch hành động thúc đẩy Cơ chế một cửa quốc gia, Cơ chế một cửa ASEAN, cải cách công tác kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu và tạo thuận lợi thương mại giai đoạn 2018 - 2020",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2018-09-26",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=194899",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phê duyệt Kế hoạch hành động thúc đây Cơ chế một cửa quốc gia, Cơ chế một cửa ASEAN, cải cách công tác kiểm tra chuyên ngành đối với hàng hóa xuất khẩu, nhập khẩu và tạo thuận lợi thương mại giai đoạn 2018 - 2020 với những nội dung chủ yếu sau đây:",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Tô chức thực hiện 1. Ủy ban chỉ đạo quốc gia về Cơ chế một cửa ASEAN, Cơ chế một cửa quốc gia và tạo thuận lợi thương mai (sau day goi tat la Uy ban 1899) chi dao, hướng dẫn, kiểm tra, giám sát việc tổ chức thực hiện Quyết định này; định kỳ 06 tháng và hàng năm, báo cáo Thủ tướng Chính phủ tình hình, kết quả thực hiện Kế hoạch. 2. Các bộ, cơ quan thuộc Ủy ban 1899:",
+     "trang_pdf": 9
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Quyết định này có hiệu lực thi hành kể từ ngày ký. lãi",
+     "trang_pdf": 11
+    },
+    {
+     "dieu": 4,
+     "noi_dung": "Điều 4. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và Thủ, trưởng các đơn vị có liên n quan chịu trách nhiệm thi hành Quyết định này./ - Thủ tướng, các Phó Thủ tướng Chính phủ; - Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ; - HĐND, UBND các tỉnh, thành phố trực thuộc trung ương; - Văn phòng Trung ương và các Ban của Đảng;",
+     "trang_pdf": 12
+    }
+   ]
+  },
+  {
    "so_hieu": "126/2021/NĐ-CP",
    "slug": "126-2021-nd-cp",
    "ten": "Sửa đổi, bổ sung một số điều của các Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp; tiêu chuẩn, đo lường và chất lượng sản phẩm hàng hóa; khoa học và công nghệ; chuyển giao công nghệ; năng lượng, nguyên tử",
@@ -8823,6 +9020,91 @@
      "dieu": 3,
      "noi_dung": "Điều 3. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và Thủ An, các đơn vị, các bên liên ae ehju trách nhiệm thi hành Quyết định chị ni",
      "trang_pdf": 2
+    }
+   ]
+  },
+  {
+   "so_hieu": "143/2025/QH15",
+   "slug": "143-2025-qh15",
+   "ten": "Luật Đầu tư",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-03-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216524&classid=1&typegroupid=3",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Luật này quy định về hoạt động đầu tư kinh doanh tại Việt Nam và hoạt động đầu tư kinh doanh từ Việt Nam ra nước ngoài.",
+     "trang_pdf": 1,
+     "sha256_pdf": "567993cfb60108a6d21b4dd102cfbad156db78953b6753a07ccf4e202964a6cb"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Đối tượng áp dụng Luật này áp dụng đối với nhà đầu tư và cơ quan, tổ chức, cá nhân liên quan đến hoạt động đầu tư kinh doanh.",
+     "trang_pdf": 1,
+     "sha256_pdf": "567993cfb60108a6d21b4dd102cfbad156db78953b6753a07ccf4e202964a6cb"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau: 1. Chấp thuận chủ trương đầu tư là việc cơ quan nhà nước có thẩm quyền chấp thuận về mục tiêu, địa điểm, quy mô, tiến độ, thời hạn thực hiện dự án; nhà đầu tư hoặc hình thức lựa chọn nhà đầu tư và cơ chế, chính sách đặc biệt (nếu có) để thực hiện dự án đầu tư.",
+     "trang_pdf": 1,
+     "sha256_pdf": "567993cfb60108a6d21b4dd102cfbad156db78953b6753a07ccf4e202964a6cb"
+    },
+    {
+     "dieu": 9,
+     "noi_dung": "Điều 9. Bảo đảm quyền sở hữu tài sản 1. Tài sản hợp pháp của nhà đầu tư không bị quốc hữu hóa hoặc bị tịch thu bằng biện pháp hành chính. 2. Trường hợp Nhà nước trưng mua, trưng dụng tài sản vì lý do quốc phòng, an ninh hoặc vì lợi ích quốc gia, tình trạng khẩn cấp, phòng, chống thiên tai thì nhà đầu tư được thanh toán, bồi thường theo quy định của pháp luật về trưng mua, trưng dụng tài sản và quy định của pháp luật khác có liên quan.",
+     "trang_pdf": 8,
+     "sha256_pdf": "567993cfb60108a6d21b4dd102cfbad156db78953b6753a07ccf4e202964a6cb"
+    },
+    {
+     "dieu": 14,
+     "noi_dung": "Điều 14. Ưu đãi đầu tư và hỗ trợ đầu tư 1. Đối tượng được hưởng ưu đãi đầu tư bao gồm: a) Dự án đầu tư thuộc ngành, nghề ưu đãi đầu tư quy định tại Điều 15 của Luật này; b) Dự án đầu tư tại địa bàn ưu đãi đầu tư quy định tại Điều 15 của Luật này;",
+     "trang_pdf": 10,
+     "sha256_pdf": "567993cfb60108a6d21b4dd102cfbad156db78953b6753a07ccf4e202964a6cb"
+    },
+    {
+     "dieu": 20,
+     "noi_dung": "Điều 20. Thực hiện hoạt động đầu tư của tổ chức kinh tế có vốn đầu tư nước ngoài 1. Tổ chức kinh tế phải đáp ứng điều kiện và thực hiện thủ tục đầu tư theo quy định đối với nhà đầu tư nước ngoài khi đầu tư góp vốn, mua cổ phần, mua phần vốn góp của tổ chức kinh tế khác;",
+     "trang_pdf": 15,
+     "sha256_pdf": "567993cfb60108a6d21b4dd102cfbad156db78953b6753a07ccf4e202964a6cb"
+    },
+    {
+     "dieu": 25,
+     "noi_dung": "Điều 25. Thẩm quyền chấp thuận chủ trương đầu tư 1. Quốc hội chấp thuận chủ trương đầu tư đối với dự án đầu tư quy định tại khoản 20 Điều 24 của Luật này.",
+     "trang_pdf": 19,
+     "sha256_pdf": "567993cfb60108a6d21b4dd102cfbad156db78953b6753a07ccf4e202964a6cb"
+    },
+    {
+     "dieu": 30,
+     "noi_dung": "Điều 30. Bảo đảm thực hiện dự án đầu tư 1. Nhà đầu tư phải ký quỹ hoặc phải có bảo lãnh ngân hàng về nghĩa vụ ký quỹ để bảo đảm thực hiện dự án đầu tư có đề nghị Nhà nước giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất, trừ các trường hợp sau đây: a) Nhà đầu tư trúng đấu giá quyền sử dụng đất; b) Nhà đầu tư trúng đấu thầu thực hiện dự án đầu tư có sử dụng đất;",
+     "trang_pdf": 23,
+     "sha256_pdf": "567993cfb60108a6d21b4dd102cfbad156db78953b6753a07ccf4e202964a6cb"
+    },
+    {
+     "dieu": 35,
+     "noi_dung": "Điều 35. Ngừng hoạt động của dự án đầu tư 1. Nhà đầu tư ngừng hoạt động của dự án đầu tư phải thông báo bằng văn bản cho cơ quan đăng ký đầu tư. Trường hợp ngừng hoạt động của dự án đầu tư vì lý do bất khả kháng thì nhà đầu tư được Nhà nước miễn tiền thuê đất, giảm tiền sử dụng đất trong thời gian ngừng hoạt động để khắc phục hậu quả do bất khả kháng gây ra.",
+     "trang_pdf": 27,
+     "sha256_pdf": "567993cfb60108a6d21b4dd102cfbad156db78953b6753a07ccf4e202964a6cb"
+    },
+    {
+     "dieu": 41,
+     "noi_dung": "Điều 41. Ngành, nghề đầu tư ra nước ngoài có điều kiện 1. Ngành, nghề đầu tư ra nước ngoài có điều kiện bao gồm: a) Ngân hàng; b) Bảo hiểm; c) Chứng khoán; d) Báo chí, phát thanh, truyền hình; đ) Kinh doanh bất động sản.",
+     "trang_pdf": 30,
+     "sha256_pdf": "567993cfb60108a6d21b4dd102cfbad156db78953b6753a07ccf4e202964a6cb"
+    },
+    {
+     "dieu": 46,
+     "noi_dung": "Điều 46. Hệ thống thông tin quốc gia về đầu tư 1. Hệ thống thông tin quốc gia về đầu tư bao gồm: a) Hệ thống thông tin quốc gia về đầu tư trong nước; b) Hệ thống thông tin quốc gia về đầu tư nước ngoài vào Việt Nam; c) Hệ thống thông tin quốc gia về đầu tư của Việt Nam ra nước ngoài; d) Hệ thống thông tin quốc gia về xúc tiến đầu tư; đ) Hệ thống thông tin quốc gia về khu công nghiệp, khu kinh tế;",
+     "trang_pdf": 35,
+     "sha256_pdf": "567993cfb60108a6d21b4dd102cfbad156db78953b6753a07ccf4e202964a6cb"
+    },
+    {
+     "dieu": 52,
+     "noi_dung": "Điều 52. Điều khoản chuyển tiếp 1. Nhà đầu tư đã được cấp Giấy phép đầu tư, Giấy chứng nhận ưu đãi đầu tư, Giấy chứng nhận đầu tư, Giấy chứng nhận đăng ký đầu tư, văn bản quyết định chủ trương đầu tư, chấp thuận chủ trương đầu tư trước ngày Luật này có hiệu lực thi hành được thực hiện dự án đầu tư theo Giấy phép đầu tư, Giấy chứng nhận ưu",
+     "trang_pdf": 39,
+     "sha256_pdf": "567993cfb60108a6d21b4dd102cfbad156db78953b6753a07ccf4e202964a6cb"
     }
    ]
   },
@@ -12146,6 +12428,37 @@
    ]
   },
   {
+   "so_hieu": "2393/QĐ-BYT",
+   "slug": "2393-qd-byt-2025",
+   "ten": "Về việc công bố thủ tục hành chính được sửa đổi, bổ sung quy định tại Thông tư số 34/2025/TT-BYT ngày 03 tháng 7 năm 2025 của Bộ trưởng Bộ Y tế sửa đổi, bổ sung một số điều của Thông tư số 06/2011/TT-BYT ngày 25 tháng 01 năm 2011 của Bộ trưởng Bộ Y tế quy định về quản lý mỹ phẩm thuộc phạm vi chức năng quản lý của Bộ Y tế",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2025-08-18",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214428",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Công bố kèm theo Quyết định này 03 thủ tục hành chính được sửa đổi, bổ sung quy định tại Thông tư số 34/2025/TT-BYT ngày 03 tháng 7 năm 2025 của Bộ trưởng Bộ Y tế sửa đổi, bổ sung một số điều của Thông tư số 06/2011/TT-BYT ngày 25 tháng 01 năm 2011 của Bộ trưởng Bộ Y tế quy định về quản lý mỹ phẩm thuộc phạm vi, chức năng quản lý của Bộ Y tế.",
+     "trang_pdf": 1,
+     "sha256_pdf": "0755c7a6f6cc8a01d3f30b8351984ac2447f472aa20d851277f3aa69ced06922"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Quyết định này có hiệu lực thi hành kể từ ngày 18 tháng 8 năm 2025.",
+     "trang_pdf": 1,
+     "sha256_pdf": "0755c7a6f6cc8a01d3f30b8351984ac2447f472aa20d851277f3aa69ced06922"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Các Ông, Bà: Chánh Văn phòng Bộ; Cục Quản lý Dược; Thủ trưởng các Vụ, Cục; Thủ trưởng Cơ quan chuyên môn về y tế thuộc Ủy ban nhân dân cấp tỉnh và Thủ trưởng các đơn vị, cá nhân có liên quan chịu trách nhiệm thi hành Quyết định này./.",
+     "trang_pdf": 2,
+     "sha256_pdf": "0755c7a6f6cc8a01d3f30b8351984ac2447f472aa20d851277f3aa69ced06922"
+    }
+   ]
+  },
+  {
    "so_hieu": "24/2012/TT-BTC",
    "slug": "24-2012-tt-btc",
    "ten": "Sửa đổi, bổ sung Thông tư số 77/2008/TT-BTC ngày 15/9/2008 hướng dẫn thi hành một số biện pháp xử lý nợ đọng thuế",
@@ -15436,6 +15749,34 @@
      "noi_dung": "1. Nghị định này có hiệu lực thi hành từ ngày 18 tháng 10 năm 2026. 2. Nghị định này thay thế Nghị định số 09/2018/NĐ-CP ngày 15 tháng 01 năm 2018 của Chính phủ quy định chi tiết Luật Thương mại và Luật Quản lý ngoại thương về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam; bãi bỏ Điều 36 Nghị định 146/2025/NĐ-CP ngày 12 tháng 6 năm 2025 của Chính phủ quy định về phân quyền, phân cấp trong lĩnh vực công nghiệp và thương mại. 3. Trường hợp các văn bản quy phạm pháp luật được viện dẫn tại Nghị định này được sửa đổi, bổ sung, thay thế thì áp dụng theo quy định của văn bản quy phạm pháp luật được sửa đổi, bổ sung, thay thế đó. 4. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương chịu trách nhiệm hướng dẫn và thi hành Nghị định này.",
      "trang_pdf": 40,
      "sha256_pdf": "22f16f75c82b06e47a8f9d1af0b42e04b38a19e307e4aec7ff7d0fb6347fe30b"
+    }
+   ]
+  },
+  {
+   "so_hieu": "344/2026/QĐ-BTC",
+   "slug": "344-2026-qd-btc",
+   "ten": "Về việc công bố thủ tục hành chính mới ban hành, được sửa đổi, bổ sung và bãi bỏ trong lĩnh vực hải quan thuộc phạm vi chức năng quản lý nhà nước của Bộ Tài chính",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-02-24",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://files.customs.gov.vn/CustomsCMS/CAO_BANG/2026/3/6/26.02.24-%20344_QD%20cong%20bo%20TTHC%20TT%20121.pdf",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Công bố kèm theo Quyết định này thủ tục hành chính được sửa đôi, bô sung và bị bãi bỏ trong lĩnh vực hải quan thuộc phạm vi chức năng quản lý của Bộ Tài chính.",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Bãi bỏ nội dung công bó thủ tục hành chính tại: số thứ tự 1, 3 điểm A mục 1 Phan I; số thứ tự 1, 2, 3 điểm A mục 2 phần I; số thứ tự 1 điểm B mục 2 phần I; số thứ tự 6, 7, 8, 11, 12, 13, 15, 16, 18, 19, 20, 21 điểm C mục 2 Phan I Quyết định số 2065/QD-BTC ngày 06/10/2022; số thứ tự 1, 2, 4, 6 điểm C mục | phan I, số thứ tự 12, 18 điểm A mục 2 phan I, số thứ tự 2, 18, 19 điểm C mục 2 phan I Quyết định số 2770/QĐ-BTC ngày 25/12/2015;",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Cục trưởng Cục Hai quan, Chánh Văn phòng, Vụ trưởng Vụ Pháp chế, Chi cục trưởng các Chi cục Hải quan khu vực và Thủ trưởng các đơn vị có liên quan chịu trách nhiệm thi hành Quyêt định này./. Yd",
+     "trang_pdf": 2
     }
    ]
   },

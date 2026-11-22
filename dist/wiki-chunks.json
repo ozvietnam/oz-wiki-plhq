@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-22).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 3137,
+ "tong": 3145,
  "chunks": [
   {
    "chunk_id": "dong-bo-quan-diem-phan-loai#1",
@@ -30181,7 +30181,18 @@
     "con-hieu-luc"
    ],
    "confidence": "high",
-   "van_ban_lien_quan": [],
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "44/2023/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2023-07-01",
+     "het_hieu_luc_tu": "2024-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=208168"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -51056,6 +51067,16 @@
      "nguon_a": "https://vanban.chinhphu.vn/?docid=186707&pageid=27160"
     },
     {
+     "so_hieu": "87/2010/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2010-10-01",
+     "het_hieu_luc_tu": "2016-09-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=96272"
+    },
+    {
      "so_hieu": "107/2016/QH13",
      "tinh_trang": "CON_HIEU_LUC",
      "hieu_luc_tu": "2016-09-01",
@@ -51218,7 +51239,18 @@
     "nghi-dinh"
    ],
    "confidence": "high",
-   "van_ban_lien_quan": [],
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "87/2010/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2010-10-01",
+     "het_hieu_luc_tu": "2016-09-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=96272"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -52459,6 +52491,136 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=179820"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "143-2025-qh15#1",
+   "slug": "143-2025-qh15",
+   "duong_dan": "wiki/sources/143-2025-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "Luật Đầu tư số 143/2025/QH15",
+   "muc": "Summary",
+   "noi_dung": "**Luật Đầu tư số 143/2025/QH15** được Quốc hội khóa XV thông qua ngày **11/12/2025**, có hiệu lực chính thức từ ngày **01/03/2026** (riêng Điều 7 và Phụ lục IV Danh mục ngành, nghề đầu tư kinh doanh có điều kiện có hiệu lực từ **01/07/2026**; khoản 3 Điều 50 có hiệu lực từ **01/01/2026**). Luật quy định khung pháp lý về ngành, nghề cấm đầu tư kinh doanh, ngành, nghề đầu tư kinh doanh có điều kiện, ưu đãi và hỗ trợ đầu tư đặc biệt (bao gồm ưu đãi dự án công nghiệp dược, máy móc thiết bị đầu tư), đồng thời thay thế Luật Đầu tư năm 2020.",
+   "tags": [
+    "luat",
+    "qh",
+    "quan-ly-ngoai-thuong",
+    "dau-tu",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "143/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-03-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216524&classid=1&typegroupid=3"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "143-2025-qh15#2",
+   "slug": "143-2025-qh15",
+   "duong_dan": "wiki/sources/143-2025-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "Luật Đầu tư số 143/2025/QH15",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n| --- | --- |\n| 11/12/2025 | Quốc hội khóa XV thông qua Luật Đầu tư số 143/2025/QH15 |\n| 01/01/2026 | Khoản 3 Điều 50 (sửa đổi một số điều của Luật Đường sắt) có hiệu lực |\n| 01/03/2026 | **Có hiệu lực chính thức**; Luật Đầu tư năm 2020 hết hiệu lực (trừ Điều 7 và Phụ lục IV) |\n| 01/07/2026 | Điều 7 và Phụ lục IV Danh mục ngành, nghề đầu tư kinh doanh có điều kiện có hiệu lực (**Đang còn hiệu lực**, `CON_HIEU_LUC`) |",
+   "tags": [
+    "luat",
+    "qh",
+    "quan-ly-ngoai-thuong",
+    "dau-tu",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "143/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-03-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216524&classid=1&typegroupid=3"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "143-2025-qh15#3",
+   "slug": "143-2025-qh15",
+   "duong_dan": "wiki/sources/143-2025-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "Luật Đầu tư số 143/2025/QH15",
+   "muc": "Điểm đáng chú ý đối với XNK & quản lý chuyên ngành",
+   "noi_dung": "- **Ngành, nghề cấm và kinh doanh có điều kiện (Điều 6, Điều 7, Phụ lục IV)**: Là căn cứ pháp lý trực tiếp để xác định điều kiện kinh doanh đối với doanh nghiệp hoạt động trong các lĩnh vực gắn với xuất nhập khẩu hàng hóa chuyên ngành như kinh doanh dược phẩm, mỹ phẩm, hóa chất, thuốc bảo vệ thực vật, thực phẩm chức năng, dịch vụ giám định thương mại và kinh doanh tạm nhập tái xuất.\n- **Sửa đổi Luật Dược về ưu đãi dự án công nghiệp dược (Khoản 1 Điều 50)**: Sửa đổi đoạn đầu khoản 2 Điều 8 [[sources/105-2016-qh13|Luật Dược 105/2016/QH13]] (đã được hợp nhất trong [[sources/76-vbhn-vpqh|Văn bản hợp nhất 76-VBHN/VPQH]]) về tiêu chí vốn đầu tư từ 3.000 tỷ đồng và giải ngân tối thiểu 1.000 tỷ đồng trong 03 năm để hưởng ưu đãi đầu tư đặc biệt.\n- **Ưu đãi thuế đối với dự án đầu tư (Khoản 2 Điều 50)**: Sửa đổi điểm h khoản 2 Điều 12 Luật Thuế thu nhập doanh nghiệp năm 2025 kết nối cơ chế ưu đãi đầu tư đặc biệt với pháp luật thuế.\n- **Tài liệu nguồn bậc A trong kho**: Đã nạp bản PDF có lớp chữ 76 trang (`raw/download/datafiles.chinhphu.vn/143-2025-qh15.pdf`) và trích xuất điều khoản nguyên văn trong sổ đăng ký.",
+   "tags": [
+    "luat",
+    "qh",
+    "quan-ly-ngoai-thuong",
+    "dau-tu",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "105/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "143-2025-qh15#4",
+   "slug": "143-2025-qh15",
+   "duong_dan": "wiki/sources/143-2025-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "Luật Đầu tư số 143/2025/QH15",
+   "muc": "Liên kết trong sổ",
+   "noi_dung": "- Sửa đổi trực tiếp: [[sources/105-2016-qh13|Luật Dược 105/2016/QH13]], Luật Đường sắt 95/2025/QH15 (đã có trong sổ đăng ký), cùng Luật Thuế thu nhập doanh nghiệp năm 2025.\n- Hợp nhất liên quan: [[sources/76-vbhn-vpqh|Văn bản hợp nhất Luật Dược 76-VBHN/VPQH]].",
+   "tags": [
+    "luat",
+    "qh",
+    "quan-ly-ngoai-thuong",
+    "dau-tu",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "105/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+    },
+    {
+     "so_hieu": "95/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214604"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -61501,6 +61663,36 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://www.mof.gov.vn/api/mediafile/media-article/61206b44-d862-4b77-8db8-d46256648d93/750b9933-9eed-4d07-ad96-c367fb9b4452.docx"
+    },
+    {
+     "so_hieu": "304/2016/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": "2019-04-10",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=188785"
+    },
+    {
+     "so_hieu": "20/2019/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-04-10",
+     "het_hieu_luc_tu": "2022-03-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=196292"
+    },
+    {
+     "so_hieu": "1092/QĐ-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-05-13",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.mof.gov.vn/phap-luat-tai-chinh/ke-hoach-cong-tac/mofucm316272"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -61531,6 +61723,26 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://www.mof.gov.vn/api/mediafile/media-article/61206b44-d862-4b77-8db8-d46256648d93/750b9933-9eed-4d07-ad96-c367fb9b4452.docx"
+    },
+    {
+     "so_hieu": "304/2016/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": "2019-04-10",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=188785"
+    },
+    {
+     "so_hieu": "1092/QĐ-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-05-13",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.mof.gov.vn/phap-luat-tai-chinh/ke-hoach-cong-tac/mofucm316272"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -61553,6 +61765,16 @@
    "confidence": "high",
    "van_ban_lien_quan": [
     {
+     "so_hieu": "1092/QĐ-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-05-13",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.mof.gov.vn/phap-luat-tai-chinh/ke-hoach-cong-tac/mofucm316272"
+    },
+    {
      "so_hieu": "19/2019/TT-BTC",
      "tinh_trang": "CON_HIEU_LUC",
      "hieu_luc_tu": "2019-04-10",
@@ -61561,6 +61783,16 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://www.mof.gov.vn/api/mediafile/media-article/61206b44-d862-4b77-8db8-d46256648d93/750b9933-9eed-4d07-ad96-c367fb9b4452.docx"
+    },
+    {
+     "so_hieu": "304/2016/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": "2019-04-10",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=188785"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -61583,6 +61815,16 @@
    "confidence": "high",
    "van_ban_lien_quan": [
     {
+     "so_hieu": "1254/QĐ-TTg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-09-26",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=194899"
+    },
+    {
      "so_hieu": "85/2019/NĐ-CP",
      "tinh_trang": "HET_HIEU_LUC",
      "hieu_luc_tu": "2020-01-01",
@@ -61603,6 +61845,36 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?classid=0&docid=219265&pageid=27160"
+    },
+    {
+     "so_hieu": "304/2016/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": "2019-04-10",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=188785"
+    },
+    {
+     "so_hieu": "20/2019/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-04-10",
+     "het_hieu_luc_tu": "2022-03-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=196292"
+    },
+    {
+     "so_hieu": "140/2016/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": "2022-03-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=186718"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -61644,6 +61916,16 @@
    "confidence": "high",
    "van_ban_lien_quan": [
     {
+     "so_hieu": "304/2016/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": "2019-04-10",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=188785"
+    },
+    {
      "so_hieu": "19/2019/TT-BTC",
      "tinh_trang": "CON_HIEU_LUC",
      "hieu_luc_tu": "2019-04-10",
@@ -61652,6 +61934,26 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://www.mof.gov.vn/api/mediafile/media-article/61206b44-d862-4b77-8db8-d46256648d93/750b9933-9eed-4d07-ad96-c367fb9b4452.docx"
+    },
+    {
+     "so_hieu": "20/2019/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-04-10",
+     "het_hieu_luc_tu": "2022-03-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=196292"
+    },
+    {
+     "so_hieu": "1092/QĐ-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-05-13",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.mof.gov.vn/phap-luat-tai-chinh/ke-hoach-cong-tac/mofucm316272"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -61682,6 +61984,16 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://www.mof.gov.vn/api/mediafile/media-article/61206b44-d862-4b77-8db8-d46256648d93/750b9933-9eed-4d07-ad96-c367fb9b4452.docx"
+    },
+    {
+     "so_hieu": "1092/QĐ-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-05-13",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.mof.gov.vn/phap-luat-tai-chinh/ke-hoach-cong-tac/mofucm316272"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -98325,6 +98637,16 @@
      "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-44-2024-qh15-43548.htm"
     },
     {
+     "so_hieu": "112/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-03-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216547&classid=1&typegroupid=3"
+    },
+    {
      "so_hieu": "114/2025/QH15",
      "tinh_trang": "CON_HIEU_LUC",
      "hieu_luc_tu": "2026-07-01",
@@ -98333,6 +98655,16 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-114-2025-qh15-468676.htm"
+    },
+    {
+     "so_hieu": "143/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-03-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216524&classid=1&typegroupid=3"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -98383,6 +98715,26 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-44-2024-qh15-43548.htm"
+    },
+    {
+     "so_hieu": "112/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-03-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216547&classid=1&typegroupid=3"
+    },
+    {
+     "so_hieu": "143/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-03-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216524&classid=1&typegroupid=3"
     },
     {
      "so_hieu": "114/2025/QH15",
@@ -98592,6 +98944,16 @@
    ],
    "confidence": "high",
    "van_ban_lien_quan": [
+    {
+     "so_hieu": "143/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-03-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216524&classid=1&typegroupid=3"
+    },
     {
      "so_hieu": "163/2025/NĐ-CP",
      "tinh_trang": "CON_HIEU_LUC",
@@ -103003,6 +103365,78 @@
      "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-31-2022-tt-btc-37431.htm"
     }
    ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "cong-uoc-vien-1980-cisg#1",
+   "slug": "cong-uoc-vien-1980-cisg",
+   "duong_dan": "wiki/sources/cong-uoc-vien-1980-cisg.md",
+   "loai_trang": "sources",
+   "tieu_de": "Công ước Viên 1980 (CISG) — Hợp đồng mua bán hàng hóa quốc tế",
+   "muc": "Summary",
+   "noi_dung": "Công ước của Liên hợp quốc về hợp đồng mua bán hàng hóa quốc tế (*United Nations Convention on Contracts for the International Sale of Goods* — CISG, ký tại Viên ngày **11/04/1980**) là điều ước quốc tế nền tảng điều chỉnh hợp đồng mua bán hàng hóa giữa các bên có trụ sở thương mại tại các quốc gia thành viên khác nhau (hoặc khi quy phạm tư pháp quốc tế dẫn chiếu đến luật của một quốc gia thành viên). Việt Nam nộp văn kiện gia nhập ngày **18/12/2015** (quốc gia thành viên thứ 84) và Công ước chính thức có hiệu lực đối với Việt Nam từ ngày **01/01/2017** theo **Thông báo số 06/2016/TB-LPQT** ngày 05/02/2016 của Bộ Ngoại giao (đăng Công báo số 195 + 196 ngày 23/02/2016, trang 71).\n\nKhi phê chuẩn/gia nhập, Việt Nam đưa ra **Tuyên bố bảo lưu theo Điều 12 và Điều 96** của Công ước: bất kỳ quy định nào của Điều 11, Điều 29 hoặc Phần II của Công ước cho phép hợp đồng mua bán, việc sửa đổi/chấm dứt hợp đồng hoặc chào hàng/chấp nhận chào hàng được xác lập dưới hình thức không phải bằng văn bản sẽ **không được áp dụng** khi dù chỉ một trong các bên có trụ sở thương mại đặt tại Việt Nam.",
+   "tags": [
+    "dieu-uoc-quoc-te",
+    "mua-ban-hang-hoa-quoc-te",
+    "quan-ly-ngoai-thuong",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "cong-uoc-vien-1980-cisg#2",
+   "slug": "cong-uoc-vien-1980-cisg",
+   "duong_dan": "wiki/sources/cong-uoc-vien-1980-cisg.md",
+   "loai_trang": "sources",
+   "tieu_de": "Công ước Viên 1980 (CISG) — Hợp đồng mua bán hàng hóa quốc tế",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n| --- | --- |\n| 11/04/1980 | Thông qua và ký tại Viên (Áo) trong khuôn khổ UNCITRAL |\n| 18/12/2015 | Việt Nam nộp văn kiện gia nhập Công ước (thành viên thứ 84) |\n| 05/02/2016 | Bộ Ngoại giao ban hành Thông báo 06/2016/TB-LPQT công bố hiệu lực và bảo lưu |\n| 01/01/2017 | Công ước chính thức có hiệu lực đối với Việt Nam (**Đang còn hiệu lực**, `CON_HIEU_LUC`) |",
+   "tags": [
+    "dieu-uoc-quoc-te",
+    "mua-ban-hang-hoa-quoc-te",
+    "quan-ly-ngoai-thuong",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "cong-uoc-vien-1980-cisg#3",
+   "slug": "cong-uoc-vien-1980-cisg",
+   "duong_dan": "wiki/sources/cong-uoc-vien-1980-cisg.md",
+   "loai_trang": "sources",
+   "tieu_de": "Công ước Viên 1980 (CISG) — Hợp đồng mua bán hàng hóa quốc tế",
+   "muc": "Điểm đáng chú ý khi áp dụng",
+   "noi_dung": "- **Tự động áp dụng trừ khi loại trừ (Điều 6 CISG)**: Khi doanh nghiệp Việt Nam ký hợp đồng xuất khẩu hoặc nhập khẩu hàng hóa với đối tác tại quốc gia thành viên CISG khác (như Trung Quốc, Nhật Bản, Hàn Quốc, Singapore, Hoa Kỳ, Đức, Pháp...), CISG tự động điều chỉnh quyền và nghĩa vụ giao hàng, chứng từ, kiểm tra hàng hóa, chuyển rủi ro và chế tài vi phạm, trừ khi hợp đồng có điều khoản loại trừ rõ ràng việc áp dụng CISG.\n- **Bảo lưu hình thức văn bản (Điều 12 & Điều 96)**: Theo nguyên văn Tuyên bố công bố tại Thông báo 06/2016/TB-LPQT, hợp đồng mua bán hàng hóa quốc tế có bên đặt trụ sở thương mại tại Việt Nam và việc sửa đổi, chấm dứt hợp đồng phải lập dưới hình thức văn bản (không công nhận hình thức giao kết miệng).\n- **Loại trừ hàng hóa không điều chỉnh (Điều 2–3)**: Công ước không áp dụng đối với hàng mua dùng cho cá nhân/gia đình, tàu thủy/tàu bay, điện năng, chứng khoán, hay hợp đồng gia công mà bên đặt gia công cung cấp phần lớn nguyên vật liệu.\n- **Tài liệu nguồn bậc A trong kho**: Đã nạp bản PDF Công báo chính thức có chữ ký số của Văn phòng Chính phủ (`raw/download/congbaocdn.chinhphu.vn/cong-uoc-vien-1980-cisg.pdf`) cùng bản OCR (`raw/ocr/cong-uoc-vien-1980-cisg.ocr.txt`).",
+   "tags": [
+    "dieu-uoc-quoc-te",
+    "mua-ban-hang-hoa-quoc-te",
+    "quan-ly-ngoai-thuong",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "cong-uoc-vien-1980-cisg#4",
+   "slug": "cong-uoc-vien-1980-cisg",
+   "duong_dan": "wiki/sources/cong-uoc-vien-1980-cisg.md",
+   "loai_trang": "sources",
+   "tieu_de": "Công ước Viên 1980 (CISG) — Hợp đồng mua bán hàng hóa quốc tế",
+   "muc": "Liên kết trong sổ",
+   "noi_dung": "- Xem [[sources/cong-uoc-hs|Công ước HS]] về chuẩn mô tả và mã hóa hàng hóa quốc tế trong khai báo hải quan.\n- Xem [[sources/38-2019-qh14|Luật Quản lý thuế]] và [[sources/107-2016-qh13|Luật Thuế xuất khẩu, thuế nhập khẩu]] khi đối chiếu hồ sơ chứng từ hợp đồng ngoại thương.",
+   "tags": [
+    "dieu-uoc-quoc-te",
+    "mua-ban-hang-hoa-quoc-te",
+    "quan-ly-ngoai-thuong",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   }
  ]

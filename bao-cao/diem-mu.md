@@ -1,16 +1,14 @@
 # Báo cáo điểm mù — 2026-11-22
 
-Tổng 3103 điểm: **9 cao**, 132 vừa, 2962 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 3093 điểm: **8 cao**, 123 vừa, 2962 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
 | Nhóm | Mức | Số điểm | Luồng việc |
 |---|---|---|---|
 | Sắp hết hiệu lực (≤60 ngày) | Cao | 8 | `hieu-luc` |
-| THIEU_VBHN | Cao | 1 | `nap-lam-sach` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 70 | `danh-muc-hs` |
 | Văn bản nền tảng (có toàn văn) chưa có trang wiki/sources/ | Vừa | 50 | `doc-hieu` |
-| Wiki nhắc văn bản chưa đăng ký | Vừa | 9 | `lien-ket-cheo` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
 | TB-TCHQ cá biệt chưa có nguồn chính thống | Thấp | 1367 | `tb-tchq` |
 | TB-TCHQ cá biệt chưa đối chiếu nguồn A | Thấp | 1367 | `tb-tchq` |
@@ -32,10 +30,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **204/2025/QH15 hết hiệu lực ngày 2026-12-31** — Tới ngày thì chuyển tinh_trang; rà mọi trang wiki và văn bản đang dẫn chiếu 204/2025/QH15.
 - [ ] **43/2026/NQ-CP hết hiệu lực ngày 2026-12-31** — Tới ngày thì chuyển tinh_trang; rà mọi trang wiki và văn bản đang dẫn chiếu 43/2026/NQ-CP.
 - [ ] **72/2026/NĐ-CP hết hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển tinh_trang; rà mọi trang wiki và văn bản đang dẫn chiếu 72/2026/NĐ-CP.
-
-## THIEU_VBHN (1)
-
-- [ ] **26/2023/NĐ-CP đã bị sửa đổi 7 lần nhưng chưa có văn bản hợp nhất** — Tìm văn bản hợp nhất (VBHN) của 26/2023/NĐ-CP trên vanban.chinhphu.vn; nếu có, thêm vào sổ kèm quan_he.hop_nhat trỏ về 26/2023/NĐ-CP.
 
 ## Mã HS trong bảng không có trong biểu thuế (70)
 
@@ -124,18 +118,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **77/2023/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/77-2023-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/77-2023-nd-cp.pdf,raw/ocr/77-2023-nd-cp.ocr.txt) nhưng chưa có wiki/sources/77-2023-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
 - [ ] **83/2014/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/83-2014-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/83-2014-nd-cp.pdf,raw/ocr/83-2014-nd-cp.ocr.txt) nhưng chưa có wiki/sources/83-2014-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
 - … và 10 điểm khác (xem bao-cao/diem-mu.json)
-
-## Wiki nhắc văn bản chưa đăng ký (9)
-
-- [ ] **Wiki nhắc 44/2023/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/101-2023-qh15.md).
-- [ ] **Wiki nhắc 87/2010/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/134-2016-nd-cp.md).
-- [ ] **Wiki nhắc 304/2016/TT-BTC nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/19-2019-tt-btc.md).
-- [ ] **Wiki nhắc 20/2019/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/19-2019-tt-btc.md).
-- [ ] **Wiki nhắc 1092/QĐ-BTC nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/19-2019-tt-btc.md).
-- [ ] **Wiki nhắc 1254/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/19-2019-tt-btc.md).
-- [ ] **Wiki nhắc 140/2016/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/19-2019-tt-btc.md).
-- [ ] **Wiki nhắc 112/2025/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/76-vbhn-vpqh.md).
-- [ ] **Wiki nhắc 143/2025/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/76-vbhn-vpqh.md).
 
 ## Sắp có hiệu lực (≤60 ngày) (3)
 

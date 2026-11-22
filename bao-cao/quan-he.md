@@ -8,6 +8,9 @@ Mũi tên đi từ văn bản MỚI tới văn bản bị tác động. Sinh t�
 flowchart LR
   n_105_2022_N__CP["105/2022/NĐ-CP<br/>hết hiệu lực"]
   n_15_2017_N__CP["15/2017/NĐ-CP<br/>hết hiệu lực"]
+  n_112_2025_QH15["112/2025/QH15<br/>còn hiệu lực"]
+  n_105_2016_QH13["105/2016/QH13<br/>còn hiệu lực"]
+  n_95_2025_QH15["95/2025/QH15<br/>còn hiệu lực"]
   n_124_2020_N__CP["124/2020/NĐ-CP<br/>còn hiệu lực"]
   n_81_2013_N__CP["81/2013/NĐ-CP<br/>hết hiệu lực"]
   n_155_2026_N__CP["155/2026/NĐ-CP<br/>còn hiệu lực"]
@@ -18,6 +21,8 @@ flowchart LR
   n_96_2022_N__CP["96/2022/NĐ-CP<br/>hết hiệu lực"]
   n_98_2017_N__CP["98/2017/NĐ-CP<br/>hết hiệu lực"]
   n_105_2022_N__CP -->|thay thế từ 2023-01-15| n_15_2017_N__CP
+  n_112_2025_QH15 -->|sửa đổi Bãi bỏ cụm từ “phê duyệt quy hoạch hệ thống kiểm nghiệm của Nhà nước,” tại khoản 5 Điều 104 Luật Dược từ 2026-03-01| n_105_2016_QH13
+  n_112_2025_QH15 -->|sửa đổi Sửa đổi một số cụm từ về quy hoạch ngành đường sắt tại Điều 9, Điều 14, Điều 19 và Điều 37 Luật Đường sắt từ 2026-03-01| n_95_2025_QH15
   n_124_2020_N__CP -->|thay thế từ 2020-12-10| n_81_2013_N__CP
   n_155_2026_N__CP -->|sửa đổi| n_124_2020_N__CP
   n_50_VBHN_BXD -->|hợp nhất| n_80_2014_N__CP
@@ -577,6 +582,9 @@ flowchart LR
   n_135_2026_VBHN_TT_BCT["135/2026/VBHN-TT-BCT<br/>còn hiệu lực"]
   n_19_2026_TT_BCT["19/2026/TT-BCT<br/>còn hiệu lực"]
   n_67_2026_TT_BCT["67/2026/TT-BCT<br/>còn hiệu lực"]
+  n_143_2025_QH15["143/2025/QH15<br/>còn hiệu lực"]
+  n_105_2016_QH13["105/2016/QH13<br/>còn hiệu lực"]
+  n_95_2025_QH15["95/2025/QH15<br/>còn hiệu lực"]
   n_173_2018_TT_BQP["173/2018/TT-BQP<br/>còn hiệu lực"]
   n_40_2017_TT_BQP["40/2017/TT-BQP<br/>hết hiệu lực"]
   n_25_2018_N__CP["25/2018/NĐ-CP<br/>còn hiệu lực"]
@@ -625,6 +633,8 @@ flowchart LR
   n_13_2023_Q__TTg -->|thay thế từ 2023-06-01| n_28_2020_Q__TTg
   n_135_2026_VBHN_TT_BCT -->|hợp nhất| n_19_2026_TT_BCT
   n_135_2026_VBHN_TT_BCT -->|hợp nhất| n_67_2026_TT_BCT
+  n_143_2025_QH15 -->|sửa đổi Sửa đổi đoạn đầu khoản 2 Điều 8 Luật Dược về ưu đãi và hỗ trợ đầu tư đặc biệt cho dự án phát triển công nghiệp dược từ 2026-03-01| n_105_2016_QH13
+  n_143_2025_QH15 -->|sửa đổi Sửa đổi, bổ sung một số điều của Luật Đường sắt (điểm c khoản 3 Điều 24 và tên Mục 2 Chương II) từ 2026-01-01| n_95_2025_QH15
   n_173_2018_TT_BQP -->|thay thế từ 2019-01-01| n_40_2017_TT_BQP
   n_25_2018_N__CP -->|sửa đổi từ 2018-05-01| n_60_2014_N__CP
   n_292_2026_N__CP -->|thay thế từ 2026-09-05| n_69_2018_N__CP
@@ -654,12 +664,15 @@ flowchart LR
 
 ```mermaid
 flowchart LR
+  n_07_VBHN_BTC["07/VBHN-BTC<br/>còn hiệu lực"]
+  n_26_2023_N__CP["26/2023/NĐ-CP<br/>còn hiệu lực"]
+  n_144_2024_N__CP["144/2024/NĐ-CP<br/>còn hiệu lực"]
+  n_21_2025_N__CP["21/2025/NĐ-CP<br/>còn hiệu lực"]
   n_102_2021_N__CP["102/2021/NĐ-CP<br/>còn hiệu lực"]
   n_128_2020_N__CP["128/2020/NĐ-CP<br/>hết hiệu lực"]
   n_107_2016_QH13["107/2016/QH13<br/>còn hiệu lực"]
   n_45_2005_QH11["45/2005/QH11<br/>hết hiệu lực"]
   n_108_2025_N__CP["108/2025/NĐ-CP<br/>còn hiệu lực"]
-  n_26_2023_N__CP["26/2023/NĐ-CP<br/>còn hiệu lực"]
   n_108_2025_QH15["108/2025/QH15<br/>còn hiệu lực"]
   n_38_2019_QH14["38/2019/QH14<br/>hết hiệu lực"]
   n_56_2024_QH15["56/2024/QH15<br/>hết hiệu lực"]
@@ -694,17 +707,17 @@ flowchart LR
   n_126_2022_N__CP["126/2022/NĐ-CP<br/>còn hiệu lực"]
   n_156_2017_N__CP["156/2017/NĐ-CP<br/>hết hiệu lực"]
   n_13_2025_N__CP["13/2025/NĐ-CP<br/>còn hiệu lực"]
-  n_144_2024_N__CP["144/2024/NĐ-CP<br/>còn hiệu lực"]
   n_15_2023_Q__TTg["15/2023/QĐ-TTg<br/>còn hiệu lực"]
   n_45_2017_Q__TTg["45/2017/QĐ-TTg<br/>hết hiệu lực"]
   n_18_2021_N__CP["18/2021/NĐ-CP<br/>còn hiệu lực"]
   n_134_2016_N__CP["134/2016/NĐ-CP<br/>còn hiệu lực"]
   n_182_2025_N__CP["182/2025/NĐ-CP<br/>còn hiệu lực"]
   n_199_2025_N__CP["199/2025/NĐ-CP<br/>còn hiệu lực"]
+  n_20_2019_N__CP["20/2019/NĐ-CP<br/>hết hiệu lực"]
+  n_140_2016_N__CP["140/2016/NĐ-CP<br/>hết hiệu lực"]
   n_201_2026_N__CP["201/2026/NĐ-CP<br/>còn hiệu lực"]
   n_206_2025_N__CP["206/2025/NĐ-CP<br/>còn hiệu lực"]
   n_127_2022_N__CP["127/2022/NĐ-CP<br/>hết hiệu lực"]
-  n_21_2025_N__CP["21/2025/NĐ-CP<br/>còn hiệu lực"]
   n_26_2015_TT_BTC["26/2015/TT-BTC<br/>hết hiệu lực"]
   n_219_2013_TT_BTC["219/2013/TT-BTC<br/>hết hiệu lực"]
   n_57_2020_N__CP["57/2020/NĐ-CP<br/>hết hiệu lực"]
@@ -724,6 +737,9 @@ flowchart LR
   n_38_2015_TT_BTC["38/2015/TT-BTC<br/>còn hiệu lực"]
   n_39_2018_TT_BTC["39/2018/TT-BTC<br/>còn hiệu lực"]
   n_121_2025_TT_BTC["121/2025/TT-BTC<br/>còn hiệu lực"]
+  n_07_VBHN_BTC -->|hợp nhất| n_26_2023_N__CP
+  n_07_VBHN_BTC -->|hợp nhất| n_144_2024_N__CP
+  n_07_VBHN_BTC -->|hợp nhất| n_21_2025_N__CP
   n_102_2021_N__CP -->|sửa đổi sửa đổi, bổ sung một số điều của Nghị định 128/2020/NĐ-CP quy định xử phạt vi phạm hành chính trong lĩnh vực hải quan (bổ sung Điều 2a và Điều 33a; sửa đổi, bổ sung một số điểm, khoản của các Điều 4, 5, 26, 28, 29, 30, 31, 32, 33, 34 và 36) từ 2022-01-01| n_128_2020_N__CP
   n_107_2016_QH13 -->|thay thế từ 2016-09-01| n_45_2005_QH11
   n_108_2025_N__CP -->|sửa đổi Phụ lục I - Biểu thuế xuất khẩu theo Danh mục mặt hàng chịu thuế (mặt hàng clanhke xi măng nhóm 25.23) từ 2025-05-19| n_26_2023_N__CP
@@ -750,6 +766,7 @@ flowchart LR
   n_18_2021_N__CP -->|sửa đổi| n_134_2016_N__CP
   n_182_2025_N__CP -->|sửa đổi| n_134_2016_N__CP
   n_199_2025_N__CP -->|sửa đổi bổ sung điểm c.3.6, c.3.7 và bãi bỏ điểm a.7 khoản 3 Điều 8; bãi bỏ điểm 1 phần Chú giải mặt hàng Chương 72 Mục I Phụ lục II; sửa đổi mức thuế suất thuế xuất khẩu tại Phụ lục I (nhóm 28.04) và thuế suất thuế nhập khẩu ưu đãi tại Phụ lục II (nhóm 39.01, 39.02, 72.09) từ 2025-07-08| n_26_2023_N__CP
+  n_20_2019_N__CP -->|sửa đổi từ 2019-04-10| n_140_2016_N__CP
   n_201_2026_N__CP -->|sửa đổi Phụ lục I — thuế suất thuế xuất khẩu một số mặt hàng thuộc nhóm 25.29 và 81.06 từ 2026-07-23| n_26_2023_N__CP
   n_206_2025_N__CP -->|bãi bỏ toàn bộ từ 2025-07-15| n_127_2022_N__CP
   n_21_2025_N__CP -->|sửa đổi tên Điều 9 và khoản 1 Điều 9 (kéo dài Chương trình ưu đãi thuế công nghiệp hỗ trợ ô tô đến ngày 31/12/2027) từ 2025-02-10| n_26_2023_N__CP
