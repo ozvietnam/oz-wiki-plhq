@@ -28,6 +28,17 @@ xac_minh:
   nguon_da_mo:
     - 'vanban.chinhphu.vn/?docid=218705 (thẻ metadata)'
     - 'datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/26-byt-kem.pdf (toàn văn 2 trang, OCR)'
+  dieu_khoan:
+    - dieu: 1
+      khoan: 1
+      noi_dung: 'PHỤ LỤC DANH MỤC DƯỢC LIỆU, THUỐC CỔ TRUYỀN CÓ MỨC ĐỘ RỦI RO TRUNG BÌNH THUỘC TRÁCH NHIỆM QUẢN LÝ CỦA BỘ Y TẾ (Ban hành kèm theo Thông tư số 26 /2026/TT-BYT ngày 01 tháng 7 năm 2026 của Bộ trưởng Bộ Y tế) STT 1 Tên nhóm hàng hóa Dược liệu Mã số HS Danh mục 11 ban hành kèm theo Thông tư số 09/2024/TT-BYT của Bộ trưởng Bộ Y tế ban hành các danh mục thuốc, nguyên liệu làm thuốc dùng cho người và mỹ phẩm xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam. Yêu cầu quản lý chất lượng tương ứng Cấp Giấy đăng ký lưu hành hoặc cấp Giấy phép nhập khẩu hoặc Công bố Tiêu chuẩn chất lượng và các biện pháp quản lý chất lượng khác theo quy định của Luật Dược số 105/2016/QH13 được sửa đổi, bổ sung bởi Luật số 44/2024/QH15, Nghị định số 163/2025/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Dược, Thông tư số 32/2025/TT-BYT của Bộ trưởng Bộ Y tế quy định quản lý về chất lượng thuốc cổ truyền, vị thuốc cổ truyền, dược liệu, Thông tư số 29/2025/TT-BYT của Bộ trưởng Bộ Y tế quy định về việc đăng ký lưu hành thuốc cổ truyền, vị thuốc cổ truyền, dược liệu và các văn bản quy phạm pháp luật về dược khác có liên quan.'
+      trang_pdf: 1
+      sha256_pdf: 9fb19f3ff4302bd76b28421ca083eb168854a1bc0efc4d12c467cca9a335c14e
+    - dieu: 1
+      khoan: 2
+      noi_dung: '2 Thuốc cổ truyền Danh mục 13 ban hành Cấp Giấy đăng ký lưu hành kèm theo Thông tư số hoặc cấp Giấy phép nhập khẩu đối với thuốc cổ truyền 09/2024/TT-BYT. chưa có số đăng ký lưu hành tại Việt Nam hoặc công bố đáp ứng tiêu chuẩn chế biến, bào chế thuốc cổ truyền trong cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền và các biện pháp quản lý chất lượng khác theo quy định của Luật Dược số 105/2016/QH13 được sửa đổi, bổ sung bởi Luật số 44/2024/QH15, Nghị định số 163/2025/NĐ-CP, Thông tư số 32/2025/TTBYT, Thông tư số 29/2025/TT-BYT, Thông tư số 32/2020/TT-BYT của Bộ trưởng Bộ Y tế quy định tiêu chuẩn chế biến, bào chế thuốc cổ truyền trong các cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền và các văn bản quy phạm pháp luật về dược khác có liên quan.'
+      trang_pdf: 2
+      sha256_pdf: 9fb19f3ff4302bd76b28421ca083eb168854a1bc0efc4d12c467cca9a335c14e
 ghi_chu: 'Phụ lục 2 trang KHÔNG in mã HS trực tiếp: 2 dòng đầu dẫn chiếu Danh mục II (dược liệu) + Danh mục 13 (thuốc cổ truyền) của 09/2024/TT-BYT. Mã HS suy ra từ bảng 09/2024 (ghi trong dieu_kien).'
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=218705&pageid=27160

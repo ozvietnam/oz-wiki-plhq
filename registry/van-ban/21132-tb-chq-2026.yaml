@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 21132/TB-CHQ/2026
+so_hieu_khac:
+  - 21132/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Bộ nguồn chuyển mạch dùng cho máy tính Power Supply Unit 155W, chuyển đổi AC 100-240V sang DC 12,6V, mã số 8504.40.19)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-08-28'
+hieu_luc_tu: '2026-08-28'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=106015&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/9/22/VB_21132.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/9/22/VB_21132.pdf, id=106015, SHA-256 707bd2c6d59a0b7ee88d3990dbc116370ceb9020e99cce2fc01299ec6d0a44cf): Thông báo số 21132/TB-CHQ ngày 28-08-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Bộ nguồn chuyển mạch dùng cho máy tính (Power Supply Unit, Model Name X3039, Product code SPX2P1SSA1/WAP; cấu tạo bản mạch PCB vật liệu FR-4 4 lớp gắn cổng nguồn AC inlet, đầu nối Busbar, cổng kết nối tín hiệu Signal Connector, đi-ốt cầu, cuộn lọc, cuộn cảm, IC nguồn, IC tham chiếu, IC điều khiển, IC khuếch đại thuật toán, MOSFET, diode chỉnh lưu, biến áp xung, tụ điện, optocoupler; kích thước 115,5 x 115,5 x 15,1 mm, trọng lượng 200 g; chuyển đổi điện áp xoay chiều AC đầu vào 100 ~ 240 VAC, 50/60 Hz, 2,5 A sang điện áp một chiều DC đầu ra 12,6 VDC ± 5%, 12,3 A, công suất 155 W dùng cho máy tính, không phải bộ nguồn cấp điện liên tục UPS), phân loại vào nhóm 85.04, phân nhóm 8504.40, mã số 8504.40.19; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Bộ nguồn chuyển mạch dùng cho máy tính (Power Supply Unit, bản mạch PCB FR-4 4 lớp, kích thước 115,5 x 115,5 x 15,1 mm, trọng lượng 200 g, chuyển đổi điện áp xoay chiều AC 100-240 VAC sang điện áp một chiều DC 12,6 VDC ± 5%, 12,3 A, 155 W, không phải bộ nguồn cấp điện liên tục UPS) thuộc nhóm 85.04, phân nhóm 8504.40, mã số 8504.40.19.'
+toan_van: raw/download/files.customs.gov.vn/21132-tb-chq-2026.pdf

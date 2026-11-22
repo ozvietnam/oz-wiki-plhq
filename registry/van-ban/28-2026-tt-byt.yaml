@@ -36,5 +36,45 @@ xac_minh:
   nguon_da_mo:
     - 'vanban.chinhphu.vn/?classid=1&docid=218707 (thẻ metadata)'
     - 'datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/28-byt.signed.pdf (toàn văn 2 trang, text layer)'
+  dieu_khoan:
+    - dieu: 1
+      khoan: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh 1. Thông tư này điều chỉnh đối với thuốc hóa dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc, bán thành phẩm thuốc, bán thành phẩm dược liệu (cao, cốm, bột, dịch chiết, tinh dầu, nhựa, gôm, thạch) thuộc trách nhiệm quản lý của Bộ Y tế.'
+      trang_pdf: 1
+      sha256_pdf: b20ea7b104046ff48611c9566e184db7505701c2031b561f7f6b88540762a422
+    - dieu: 1
+      khoan: 2
+      noi_dung: '2. Thông tư này không điều chỉnh đối với nguyên liệu làm thuốc là dược liệu.'
+      trang_pdf: 1
+      sha256_pdf: b20ea7b104046ff48611c9566e184db7505701c2031b561f7f6b88540762a422
+    - dieu: 2
+      khoan: 1
+      noi_dung: 'Điều 2. Ban hành Danh mục thuốc hóa dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc, bán thành phẩm thuốc và bán thành phẩm dược liệu có mức độ rủi ro cao, mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Y tế 1. Ban hành Danh mục thuốc hóa dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc, bán thành phẩm thuốc và bán thành phẩm dược liệu có mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Y tế chi tiết tại Phụ lục I kèm theo Thông tư này.'
+      trang_pdf: 1
+      sha256_pdf: b20ea7b104046ff48611c9566e184db7505701c2031b561f7f6b88540762a422
+    - dieu: 2
+      khoan: 2
+      noi_dung: '2. Ban hành Danh mục thuốc hóa dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc, bán thành phẩm thuốc và bán thành phẩm dược liệu có mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Y tế chi tiết tại Phụ lục II kèm theo Thông tư này.'
+      trang_pdf: 1
+      sha256_pdf: b20ea7b104046ff48611c9566e184db7505701c2031b561f7f6b88540762a422
+    - dieu: 3
+      khoan: 1
+      noi_dung: 'Điều 3. Trách nhiệm thi hành 1. Cục Quản lý Dược có trách nhiệm: a) Tổ chức triển khai, hướng dẫn, kiểm tra việc thực hiện Thông tư này trong phạm vi toàn quốc; b) Rà soát, đề xuất Bộ Y tế điều chỉnh, cập nhật, bổ sung các Danh mục quy định tại Điều 2 Thông tư này.'
+      trang_pdf: 2
+      sha256_pdf: b20ea7b104046ff48611c9566e184db7505701c2031b561f7f6b88540762a422
+    - dieu: 3
+      khoan: 2
+      noi_dung: '2. Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương có trách nhiệm: a) Tổ chức triển khai, hướng dẫn, kiểm tra việc thực hiện Thông tư này trên địa bàn quản lý; b) Chỉ đạo các cơ quan có liên quan trong công tác quản lý, kiểm tra chất lượng thuốc hóa dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc, bán thành phẩm thuốc và bán thành phẩm dược liệu có mức độ rủi ro cao, mức độ rủi ro trung bình theo quy định của pháp luật về dược.'
+      trang_pdf: 2
+      sha256_pdf: b20ea7b104046ff48611c9566e184db7505701c2031b561f7f6b88540762a422
+    - dieu: 3
+      khoan: 3
+      noi_dung: '3. Cơ sở kiểm nghiệm thuốc, nguyên liệu làm thuốc của nhà nước có trách nhiệm thực hiện kiểm tra chất lượng thuốc hóa dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc, bán thành phẩm thuốc và bán thành phẩm dược liệu có mức độ rủi ro cao, mức độ rủi ro trung bình theo quy định của pháp luật về dược.'
+      trang_pdf: 2
+      sha256_pdf: b20ea7b104046ff48611c9566e184db7505701c2031b561f7f6b88540762a422
+    - dieu: 4
+      noi_dung: 'Điều 4. Hiệu lực thi hành Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 7 năm 2026. Trong quá trình thực hiện nếu có khó khăn, vướng mắc, đề nghị các cơ quan, tổ chức, cá nhân phản ánh về Bộ Y tế (Cục Quản lý Dược) để giải quyết./.'
+      trang_pdf: 2
+      sha256_pdf: b20ea7b104046ff48611c9566e184db7505701c2031b561f7f6b88540762a422
 ghi_chu: 'Phụ lục I (13 nhóm rủi ro cao) + Phụ lục II (4 nhóm rủi ro trung bình) ở tệp 28-byt-kem.pdf; không in mã HS — ma_hs để trống, dan_chieu=09/2024/TT-BYT; loai_tac_dong=DANG_KY_LUU_HANH.'
 toan_van: raw/download/datafiles.chinhphu.vn/28-2026-tt-byt.pdf
