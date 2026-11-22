@@ -344,4 +344,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/21-2025-nd-cp]]
 - [[sources/73-2025-nd-cp]]
 - [[sources/199-2025-nd-cp]]
+- [[sources/206-2025-nd-cp]]
+- [[sources/260-2025-nd-cp]]
+- [[sources/56-2026-nd-cp]]
 <!-- /lumina:index -->
