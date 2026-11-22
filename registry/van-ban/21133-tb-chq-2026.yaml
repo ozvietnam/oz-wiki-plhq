@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 21133/TB-CHQ/2026
+so_hieu_khac:
+  - 21133/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Module nguồn sử dụng trong hệ thống cung cấp nguồn cho máy chủ Power Module 532W, chuyển đổi DC 40-60V sang DC 3,85V, mã số 8504.40.19)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-08-28'
+hieu_luc_tu: '2026-08-28'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=106016&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/9/22/VB_21133.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/9/22/VB_21133.pdf, id=106016, SHA-256 42b9933afe3e88a11647e3e1e6d4ccd51a3c7ec339e698599beb4806f4169f47): Thông báo số 21133/TB-CHQ ngày 28-08-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Module nguồn sử dụng trong hệ thống cung cấp nguồn cho máy chủ (Power Module, Product Code SMX1SS01A1/WAP; cấu tạo bản mạch PCB vật liệu FR-4 10 lớp gắn miếng tản nhiệt Heatsink, biến áp Transformer, đầu nối Terminal, keo tản nhiệt, keo epoxy, vi mạch IC, MOSFET, tụ điện, cuộn cảm, điện trở; kích thước 22 x 24 x 11,8 mm, trọng lượng 19 g, tần số chuyển mạch danh định khoảng 700 kHz, hiệu suất 92% ~ 94%; sử dụng trong hệ thống cung cấp nguồn chuyên dụng chỉ dùng riêng cho máy chủ, chuyển đổi điện áp một chiều DC đầu vào 40 ~ 60 VDC sang điện áp một chiều DC đầu ra 3,85 VDC, dòng tối đa 140 A, công suất tối đa 532 W), phân loại vào nhóm 85.04, phân nhóm 8504.40, mã số 8504.40.19; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Module nguồn (Power Module) sử dụng trong hệ thống cung cấp nguồn chuyên dụng chỉ dùng riêng cho máy chủ (bản mạch PCB FR-4 10 lớp, kích thước 22 x 24 x 11,8 mm, trọng lượng 19 g, chuyển đổi điện áp một chiều DC 40-60 VDC sang điện áp một chiều DC 3,85 VDC, dòng tối đa 140 A, công suất tối đa 532 W) thuộc nhóm 85.04, phân nhóm 8504.40, mã số 8504.40.19.'
+toan_van: raw/download/files.customs.gov.vn/21133-tb-chq-2026.pdf

@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 21168/TB-CHQ/2026
+so_hieu_khac:
+  - 21168/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo kết quả xác định trước mã số (Thiết bị cung cấp nguồn cho máy chủ Power Supply Unit for Server 800W, chuyển đổi AC 100-240V hoặc DC 200-240V sang DC 12V/5V, mã số 8504.40.19)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-08-28'
+hieu_luc_tu: '2026-08-28'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=106017&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/9/22/VB_21168.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/9/22/VB_21168.pdf, id=106017, SHA-256 55c6c7c242247e69d0e26f2da38cd01031e7cb5a6b1768a8046f952442c90c0f): Thông báo số 21168/TB-CHQ ngày 28-08-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Thiết bị cung cấp nguồn cho máy chủ (Power Supply Unit for Server / PSU for Server, Model No PWS-802A-1R, Product code PSSF801202A; cấu tạo vỏ kim loại nhôm bọc ngoài có đầu kết nối, bên trong là bản mạch gắn IC điều khiển chương trình, IC logic, IC khuếch đại tín hiệu, IC quản lý - điều khiển nguồn, đi-ốt, điện trở, tụ điện, cuộn cảm, transistor, biến áp, LED, dây dẫn, cầu chì, tấm chắn cách điện và quạt tản nhiệt; kích thước 40 x 76 x 360 mm, trọng lượng 1,26 kg, công suất tối đa 800 W, chuẩn 80PLUS Titanium, hỗ trợ Active PFC; chuyển đổi từ điện xoay chiều AC 100-240 VAC / 10-5 A hoặc điện một chiều điện áp cao DC 200-240 VDC / 5 A sang điện một chiều điện áp thấp 12 VDC / 66 A ở chế độ hoạt động Active và 5 VDC / 4 A ở chế độ chờ Standby để cung cấp nguồn điện cho máy chủ server hoạt động, không phải bộ nguồn cấp điện liên tục UPS), phân loại vào nhóm 85.04, phân nhóm 8504.40, mã số 8504.40.19; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Thiết bị cung cấp nguồn cho máy chủ (Power Supply Unit for Server, công suất tối đa 800 W, vỏ nhôm 40 x 76 x 360 mm, trọng lượng 1,26 kg, chuyển đổi điện xoay chiều AC 100-240 VAC hoặc một chiều điện áp cao DC 200-240 VDC sang điện một chiều điện áp thấp 12 VDC / 66 A và 5 VDC / 4 A dùng cho máy chủ, không phải bộ nguồn cấp điện liên tục UPS) thuộc nhóm 85.04, phân nhóm 8504.40, mã số 8504.40.19.'
+toan_van: raw/download/files.customs.gov.vn/21168-tb-chq-2026.pdf
