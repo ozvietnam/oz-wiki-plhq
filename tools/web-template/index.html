@@ -16,7 +16,7 @@
         <div class="brand-eyebrow">oz-wiki-plhq · Tri thức mở Pháp luật Xuất Nhập Khẩu</div>
         <h1>Cổng tra cứu Pháp luật Hải quan &amp; XNK</h1>
         <p class="subtitle">
-          Tra cứu tình trạng hiệu lực văn bản, đối chiếu Wiki nghiệp vụ, trích dẫn điều khoản nguyên văn nguồn bậc A và danh mục hóa chất CAS (NĐ 24/2026/NĐ-CP).
+          Tra cứu tình trạng hiệu lực văn bản, đối chiếu Wiki nghiệp vụ, trích dẫn điều khoản nguyên văn nguồn bậc A, danh mục hóa chất CAS (NĐ 24/2026/NĐ-CP) và chính sách chuyên ngành theo mã HS đã biết.
         </p>
       </div>
       <div class="build-meta" aria-label="Thông tin phiên bản dữ liệu">
@@ -26,6 +26,12 @@
       </div>
     </div>
   </header>
+
+  <div id="expiry-ribbon" class="expiry-ribbon hidden" role="region" aria-label="Cảnh báo văn bản sắp hết hiệu lực" hidden>
+    <div class="container expiry-ribbon-inner">
+      <button type="button" id="expiry-ribbon-btn" class="expiry-ribbon-btn"></button>
+    </div>
+  </div>
 
   <nav class="tab-nav-wrap" aria-label="Chức năng tra cứu chính">
     <div class="container">
@@ -73,6 +79,17 @@
           data-tab="cas"
         >
           4. Hóa chất CAS (24/2026)
+        </button>
+        <button
+          type="button"
+          class="tab-btn"
+          role="tab"
+          id="btn-tab-chinh-sach-hs"
+          aria-selected="false"
+          aria-controls="panel-chinh-sach-hs"
+          data-tab="chinh-sach-hs"
+        >
+          5. Chính sách theo mã HS
         </button>
       </div>
     </div>
@@ -153,7 +170,12 @@
             <input type="checkbox" id="reg-only-rel">
             <span>Chỉ hiện văn bản có quan hệ (thay thế / sửa đổi / bị tác động)</span>
           </label>
+          <label class="check-inline check-inline-warn">
+            <input type="checkbox" id="reg-only-expiring">
+            <span>Sắp hết hiệu lực (≤60 ngày)</span>
+          </label>
         </div>
+        <div id="reg-active-filter" class="active-chip-row hidden" hidden></div>
       </div>
 
       <div id="reg-summary" class="result-summary"></div>
@@ -256,6 +278,7 @@
             </select>
           </label>
         </div>
+        <div id="dk-active-filter" class="active-chip-row hidden" hidden></div>
       </div>
 
       <div id="dk-summary" class="result-summary"></div>
@@ -309,7 +332,77 @@
       <div id="cas-list" class="cas-results"></div>
       <div id="cas-pager" class="pager"></div>
     </section>
+
+    <!-- TAB 5: CHÍNH SÁCH THEO MÃ HS -->
+    <section id="panel-chinh-sach-hs" class="tab-panel" role="tabpanel" aria-labelledby="btn-tab-chinh-sach-hs" hidden>
+      <div id="hs-stats" class="stats-bar"></div>
+
+      <div id="hs-boundary-notice" class="notice notice-info">
+        <strong>Lưu ý ranh giới với <code>hs-code-api</code>:</strong>
+        Chức năng này <strong>chỉ tra cứu chính sách quản lý chuyên ngành / điều kiện / giấy phép theo mã HS đã biết</strong> (4, 6 hoặc 8 chữ số);
+        <strong>không</strong> áp mã HS theo mô tả hàng hóa, không áp quy tắc GIR và <strong>không</strong> tính thuế suất XNK (các chức năng phân loại mã HS và tính thuế suất thuộc hệ thống <code>hs-code-api</code>).
+      </div>
+
+      <div class="filter-card">
+        <div class="search-row">
+          <label class="sr-only" for="hs-q">Nhập mã HS đã biết</label>
+          <input
+            type="search"
+            id="hs-q"
+            class="input-search"
+            placeholder="Nhập mã HS đã biết 4, 6 hoặc 8 chữ số (vd 3808.91.99, 380891, 3808)..."
+            autocomplete="off"
+            inputmode="numeric"
+          >
+          <button type="button" id="hs-reset" class="btn-secondary">Đặt lại</button>
+        </div>
+        <div class="filters-grid filters-grid-2">
+          <label class="filter-field">
+            <span>Tình trạng văn bản</span>
+            <select id="hs-tinh-trang">
+              <option value="">Tất cả tình trạng</option>
+              <option value="CON_HIEU_LUC">Còn hiệu lực</option>
+              <option value="HET_HIEU_LUC_MOT_PHAN">Hết hiệu lực một phần</option>
+              <option value="HET_HIEU_LUC">Hết hiệu lực</option>
+              <option value="CHUA_CO_HIEU_LUC">Chưa có hiệu lực</option>
+              <option value="CHUA_XAC_MINH">Chưa xác minh</option>
+            </select>
+          </label>
+          <label class="filter-field">
+            <span>Loại tác động quản lý</span>
+            <select id="hs-loai-tac-dong">
+              <option value="">Tất cả loại tác động</option>
+              <option value="GIAY_PHEP">Giấy phép</option>
+              <option value="KIEM_TRA_CHAT_LUONG">Kiểm tra chất lượng</option>
+              <option value="CONG_BO_HOP_QUY">Công bố hợp quy</option>
+              <option value="KIEM_DICH_THUC_VAT">Kiểm dịch thực vật</option>
+              <option value="KIEM_DICH_DONG_VAT">Kiểm dịch động vật</option>
+              <option value="KIEM_TRA_ATTP">Kiểm tra ATTP</option>
+              <option value="DANG_KY_LUU_HANH">Đăng ký lưu hành</option>
+              <option value="CAT_GIAM_KIEM_TRA">Cắt giảm kiểm tra</option>
+              <option value="CAM_NHAP_KHAU">Cấm nhập khẩu</option>
+              <option value="CAM_XUAT_KHAU">Cấm xuất khẩu</option>
+              <option value="KHAC">Khác / Chuyên ngành</option>
+            </select>
+          </label>
+        </div>
+        <div id="hs-samples" class="hs-samples">
+          <span class="text-soft">Ví dụ nhanh:</span>
+          <button type="button" class="btn-small" data-hs-sample="3808.91.99">3808.91.99</button>
+          <button type="button" class="btn-small" data-hs-sample="380891">380891</button>
+          <button type="button" class="btn-small" data-hs-sample="3808">3808</button>
+          <button type="button" class="btn-small" data-hs-sample="8517.13.00">8517.13.00</button>
+          <button type="button" class="btn-small" data-hs-sample="3004">3004</button>
+        </div>
+      </div>
+
+      <div id="hs-summary" class="result-summary"></div>
+      <div id="hs-list" class="card-list"></div>
+      <div id="hs-pager" class="pager"></div>
+    </section>
   </main>
+
+  <div id="copy-toast" class="copy-toast hidden" role="status" aria-live="polite" hidden></div>
 
   <footer class="site-footer">
     <div class="container footer-grid">
@@ -331,8 +424,8 @@
       <div>
         <h3>Ranh giới với <code>hs-code-api</code></h3>
         <p>
-          Cổng web <code>oz-wiki-plhq</code> chỉ tra cứu hiệu lực văn bản pháp luật XNK, tri thức wiki, điều khoản và danh mục hóa chất CAS —
-          <strong>không</strong> thực hiện phân loại mã HS, không áp quy tắc GIR/chú giải HS và <strong>không</strong> tính thuế suất XNK (các chức năng phân loại HS và tính thuế thuộc hệ thống <code>hs-code-api</code>).
+          Cổng web <code>oz-wiki-plhq</code> chỉ tra cứu hiệu lực văn bản pháp luật XNK, tri thức wiki, điều khoản, danh mục hóa chất CAS và chính sách quản lý chuyên ngành theo mã HS đã biết —
+          <strong>không</strong> thực hiện phân loại mã HS theo mô tả hàng hóa, không áp quy tắc GIR/chú giải HS và <strong>không</strong> tính thuế suất XNK (các chức năng phân loại HS và tính thuế thuộc hệ thống <code>hs-code-api</code>).
         </p>
       </div>
     </div>
