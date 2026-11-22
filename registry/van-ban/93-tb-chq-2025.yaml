@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 93/TB-CHQ/2025
+so_hieu_khac:
+  - 93/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Mô đun camera / Webcam Newton Eye Camera Module chụp và gửi hình ảnh hàng hóa trên kệ hàng về máy chủ, ký mã hiệu EC120THWXC/WWW, mã số 8525.89.30)'
+co_quan: CHQ
+ngay_ban_hanh: '2025-03-12'
+hieu_luc_tu: '2025-03-12'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=99618&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/18/VB_93.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/18/VB_93.pdf, id=99618, SHA-256 97b334f70f8ae77de5ea67da00547b31f7e40ac2b291b2d933cebd51a5e7767a): Thông báo số 93/TB-CHQ ngày 12-03-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Mô đun camera / Webcam dùng để chụp và gửi hình ảnh hàng hóa trên kệ hàng về máy chủ hỗ trợ phân tích, quản lý và tối ưu hóa quá trình vận hành của cửa hàng (tên thương mại Newton Eye Camera Module, ký mã hiệu EC120THWXC/WWW; cấu tạo gồm vỏ nhựa, bản mạch tích hợp camera kỹ thuật số FOV 120 độ độ phân giải FF 5M Pixel 2593x1944 mã hóa JPEG, tiêu cự nhỏ nhất 80cm, khoảng cách phù hợp tiêu cự 0.8~3m, vi xử lý MCU BLE IC NRF8211 và WiFi IC RTL8735B băng tần 2.4/5GHz, IC NFC TNB132M, bộ nhớ Flash 128Mbit, không có khe cắm thẻ nhớ ngoài, cấp nguồn 5V qua cổng USB Type-C), phân loại vào nhóm 85.25, phân nhóm 8525.89, mã số 8525.89.30; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Mô đun camera / Webcam dùng chụp và gửi hình ảnh hàng hóa trên kệ hàng về máy chủ hỗ trợ quản lý cửa hàng (Newton Eye Camera Module, ký mã hiệu EC120THWXC/WWW, độ phân giải FF 5M Pixel 2593x1944 JPEG, góc nhìn tối đa 120 độ, khoảng cách tiêu cự 0.8~3m, kết nối BLE/WiFi 2.4/5GHz, nguồn 5V USB Type-C) thuộc nhóm 85.25, phân nhóm 8525.89, mã số 8525.89.30.'
+toan_van: raw/download/files.customs.gov.vn/93-tb-chq-2025.pdf
