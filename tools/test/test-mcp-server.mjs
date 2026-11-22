@@ -332,6 +332,90 @@ try {
   });
   t('tools/call plhq_hoi_phap_luat: thiếu cau_hoi trả isError=true', hoiErr?.result?.isError === true);
 
+  // 3c-bis. Nâng cấp truy hồi Wave 5+: viết tắt, ghim so_hieu, HET_HIEU_LUC không đứng #1, lọc nhiễu NGUYEN_VAN_NGUON_A, gợi ý dự phòng
+  const hoiVietTatCo = await server.xuLyYeuCau({
+    jsonrpc: '2.0',
+    id: 191,
+    method: 'tools/call',
+    params: { name: 'plhq_hoi_phap_luat', arguments: { cau_hoi: 'C/O form E nộp bản giấy hay điện tử?', limit: 5 } },
+  });
+  const hoiCoSc = hoiVietTatCo?.result?.structuredContent;
+  t(
+    'tools/call plhq_hoi_phap_luat: mở rộng viết tắt C/O form E tìm trúng ACFTA / 12/2019/TT-BCT',
+    !hoiVietTatCo?.result?.isError
+      && (hoiCoSc?.van_ban_lien_quan || []).some((v) => v.so_hieu === '12/2019/TT-BCT')
+      && hoiCoSc?.van_ban_lien_quan?.[0]?.tinh_trang !== 'HET_HIEU_LUC',
+    JSON.stringify((hoiCoSc?.van_ban_lien_quan || []).slice(0, 3).map((v) => v.so_hieu)),
+  );
+
+  const hoiPinBlind = await server.xuLyYeuCau({
+    jsonrpc: '2.0',
+    id: 192,
+    method: 'tools/call',
+    params: { name: 'plhq_hoi_phap_luat', arguments: { cau_hoi: 'Luật Quản lý ngoại thương 05/2017/QH14 quy định gì?', limit: 5 } },
+  });
+  const hoiPinSc = hoiPinBlind?.result?.structuredContent;
+  t(
+    'tools/call plhq_hoi_phap_luat: ghim 05/2017/QH14 lên #1 kèm chua_co_toan_van_trong_kho & goi_y_du_phong sang lớp 2',
+    !hoiPinBlind?.result?.isError
+      && hoiPinSc?.van_ban_lien_quan?.[0]?.so_hieu === '05/2017/QH14'
+      && hoiPinSc?.van_ban_lien_quan?.[0]?.khop_so_hieu_truc_tiep === true
+      && hoiPinSc?.van_ban_lien_quan?.[0]?.chua_co_toan_van_trong_kho === true
+      && hoiPinSc?.do_tin_cay_tra_loi !== 'CAO'
+      && hoiPinSc?.goi_y_du_phong?.can_tra_nguon_truc_tiep === true
+      && hoiPinSc?.goi_y_du_phong?.cong_cu_de_xuat === 'tim_van_ban_lop_2',
+    JSON.stringify({ top: hoiPinSc?.van_ban_lien_quan?.[0], dtc: hoiPinSc?.do_tin_cay_tra_loi }),
+  );
+
+  const hoiGtgt = await server.xuLyYeuCau({
+    jsonrpc: '2.0',
+    id: 193,
+    method: 'tools/call',
+    params: { name: 'plhq_hoi_phap_luat', arguments: { cau_hoi: 'Thuế GTGT 8% bao giờ hết hạn?', limit: 5 } },
+  });
+  const hoiGtgtSc = hoiGtgt?.result?.structuredContent;
+  t(
+    'tools/call plhq_hoi_phap_luat: lọc nhiễu NGUYEN_VAN_NGUON_A (không lọt 137/2020 pháo hoa) & hiện hành đứng #1',
+    !hoiGtgt?.result?.isError
+      && hoiGtgtSc?.van_ban_lien_quan?.[0]?.tinh_trang !== 'HET_HIEU_LUC'
+      && (hoiGtgtSc?.van_ban_lien_quan || []).some((v) => v.so_hieu === '174/2025/NĐ-CP')
+      && !(hoiGtgtSc?.dieu_khoan_nguon_a || []).some((d) => d.so_hieu === '137/2020/NĐ-CP' || d.so_hieu === '34/2024/NĐ-CP'),
+    JSON.stringify({ topVb: hoiGtgtSc?.van_ban_lien_quan?.slice(0, 2).map((v) => v.so_hieu), dk: hoiGtgtSc?.dieu_khoan_nguon_a?.map((d) => d.so_hieu) }),
+  );
+
+  const hoiVphc = await server.xuLyYeuCau({
+    jsonrpc: '2.0',
+    id: 194,
+    method: 'tools/call',
+    params: { name: 'plhq_hoi_phap_luat', arguments: { cau_hoi: 'Khai sai mã HS bị phạt VPHC bao nhiêu tiền?', limit: 5 } },
+  });
+  const hoiVphcSc = hoiVphc?.result?.structuredContent;
+  t(
+    'tools/call plhq_hoi_phap_luat: HET_HIEU_LUC (128/2020) không đứng #1 trước văn bản hiện hành',
+    !hoiVphc?.result?.isError
+      && hoiVphcSc?.van_ban_lien_quan?.[0]?.tinh_trang !== 'HET_HIEU_LUC'
+      && (hoiVphcSc?.van_ban_lien_quan || []).some((v) => v.so_hieu === '169/2026/NĐ-CP'),
+    JSON.stringify((hoiVphcSc?.van_ban_lien_quan || []).slice(0, 3).map((v) => `${v.so_hieu}[${v.tinh_trang}]`)),
+  );
+
+  const hoiOos = await server.xuLyYeuCau({
+    jsonrpc: '2.0',
+    id: 195,
+    method: 'tools/call',
+    params: { name: 'plhq_hoi_phap_luat', arguments: { cau_hoi: 'Thông tư 999/2099/TT-XYZ quy định về thuế vũ trụ' } },
+  });
+  const hoiOosSc = hoiOos?.result?.structuredContent;
+  t(
+    'tools/call plhq_hoi_phap_luat: câu ngoài kho bật KHONG_TIM_THAY + goi_y_du_phong sang lớp 2 & [BỔ SUNG SỔ]',
+    !hoiOos?.result?.isError
+      && hoiOosSc?.do_tin_cay_tra_loi === 'KHONG_TIM_THAY'
+      && hoiOosSc?.goi_y_du_phong?.can_tra_nguon_truc_tiep === true
+      && hoiOosSc?.goi_y_du_phong?.cong_cu_de_xuat === 'tim_van_ban_lop_2'
+      && hoiOosSc?.goi_y_du_phong?.can_mo_the_bo_sung_so === true
+      && hoiOos.result.content[0].text.includes('KHONG_TIM_THAY'),
+    JSON.stringify({ dtc: hoiOosSc?.do_tin_cay_tra_loi, dp: hoiOosSc?.goi_y_du_phong }),
+  );
+
   // 3d. plhq_tra_cas
   const casButadien = await server.xuLyYeuCau({
     jsonrpc: '2.0',

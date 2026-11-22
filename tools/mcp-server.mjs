@@ -428,7 +428,22 @@ function dinhDangHoiPhapLuat(res) {
 
   const ketQua = Array.isArray(res?.ket_qua) ? res.ket_qua : [];
   const dieuKhoanA = Array.isArray(res?.dieu_khoan_nguon_a) ? res.dieu_khoan_nguon_a : [];
+  const dieuKhoanNhap = Array.isArray(res?.dieu_khoan_tom_tat_nhap) ? res.dieu_khoan_tom_tat_nhap : [];
   const lines = [`## Kết quả hỏi đáp pháp luật PLHQ (${ketQua.length} đoạn wiki, ${dieuKhoanA.length} điều khoản nguồn A)`];
+  if (res?.do_tin_cay_tra_loi) {
+    lines.push(`- Độ tin cậy trả lời: **${res.do_tin_cay_tra_loi}**`);
+  }
+
+  if (res?.goi_y_du_phong) {
+    const dp = res.goi_y_du_phong;
+    lines.push('', '### Gợi ý dự phòng (khi thiếu toàn văn / không tìm thấy)');
+    if (dp.ly_do) lines.push(`- ${dp.ly_do}`);
+    if (dp.cong_cu_de_xuat) lines.push(`- Công cụ đề xuất: \`${dp.cong_cu_de_xuat}\``);
+    if (dp.can_mo_the_bo_sung_so) lines.push('- Nên ghi nhận yêu cầu `[BỔ SUNG SỔ]` để nạp toàn văn nguồn A.');
+    if (Array.isArray(dp.url_nguon_bac_a_goi_y) && dp.url_nguon_bac_a_goi_y.length) {
+      lines.push(`- Nguồn bậc A gợi ý: ${dp.url_nguon_bac_a_goi_y.join(' | ')}`);
+    }
+  }
 
   if (Array.isArray(res?.canh_bao) && res.canh_bao.length) {
     lines.push('', '### Cảnh báo hiệu lực');
@@ -462,7 +477,14 @@ function dinhDangHoiPhapLuat(res) {
     }
   }
 
-  if (!ketQua.length && !dieuKhoanA.length) {
+  if (dieuKhoanNhap.length) {
+    lines.push('', '### Tóm tắt nháp định vị điều khoản (`TOM_TAT_NHAP`, da_soat: false — chỉ tham khảo định vị, không trích nguyên văn)');
+    for (const dk of dieuKhoanNhap) {
+      lines.push(`- **[${dk.so_hieu || dk.slug || '?'}]** ${dk.dieu || ''} ${dk.ten || ''}: ${dk.tom_tat || ''}`);
+    }
+  }
+
+  if (!ketQua.length && !dieuKhoanA.length && !dieuKhoanNhap.length) {
     lines.push('', 'Không tìm thấy nội dung phù hợp trong kho wiki và điều khoản nguồn A.');
   }
   return lines.join('\n');

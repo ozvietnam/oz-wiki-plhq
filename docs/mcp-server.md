@@ -57,7 +57,7 @@ Tệp thực thi: [`tools/mcp-server.mjs`](../tools/mcp-server.mjs) (chạy tr�
 |---|---|---|
 | `plhq_tra_hieu_luc` | `so_hieu` *(bắt buộc)* | Tra cứu tình trạng hiệu lực (`tinh_trang`), `hieu_luc_tu`, `het_hieu_luc_tu`, `ngay_ban_hanh`, `co_quan`, đầy đủ `quan_he` chiều đi và `quan_he_nguoc` (bị thay thế/sửa đổi/bãi bỏ/tạm ngưng/hướng dẫn bởi), URL nguồn bậc A (`nguon_bac_a`), và cờ `xac_minh.hieu_luc_da_doi_chieu` (kèm cảnh báo khi chưa đối chiếu nguồn A). So khớp chuẩn qua `khoa()` trên cả `so_hieu` và `so_hieu_khac`, có gợi ý gần đúng nếu không khớp tuyệt đối. |
 | `plhq_tra_dieu_khoan` | `so_hieu?`, `dieu?`, `khoan?`, `diem?`, `tu_khoa?`, `chi_nguyen_van?`, `limit?` | Tra điều khoản pháp luật theo số hiệu văn bản, số điều/khoản/điểm hoặc từ khóa. **Luôn ưu tiên tầng `NGUYEN_VAN_NGUON_A`** (kèm `trang_pdf`, `sha256_pdf`, `nguyen_van_da_xac_minh: true`). Chỉ khi `chi_nguyen_van !== true` và cần mở rộng mới trả thêm tầng `TOM_TAT_NHAP` kèm cảnh báo `da_soat: false`. |
-| `plhq_hoi_phap_luat` | `cau_hoi` *(bắt buộc)*, `nhanh?`, `limit?` | Tìm kiếm không phân biệt dấu trên `wiki-chunks`, `wiki-index` và điều khoản `NGUYEN_VAN_NGUON_A` (có thể lọc theo `nhanh` trong `cay-xnk.yaml`). Gắn kèm tình trạng hiệu lực của từng `van_ban_lien_quan` và cảnh báo nếu đoạn wiki có cờ `canh_bao_hieu_luc`. Nếu câu hỏi thuộc phân loại mã HS / GIR / thuế suất / tiền lệ → trả `chuyen_huong` sang `hs-code-api`. |
+| `plhq_hoi_phap_luat` | `cau_hoi` *(bắt buộc)*, `nhanh?`, `limit?` | Tìm kiếm mở rộng từ viết tắt (`ATTP`, `KTCN`, `VPHC`, `TNTX`, `GTGT`, `C/O`...), ghim số hiệu hỏi đích danh, xếp văn bản hiện hành lên trên `HET_HIEU_LUC` và lọc nhiễu `NGUYEN_VAN_NGUON_A` (có tách riêng tầng định vị `dieu_khoan_tom_tat_nhap` mang `da_soat: false`). Trả kèm `do_tin_cay_tra_loi` (`CAO \| TRUNG_BINH \| THAP \| KHONG_TIM_THAY`), `pham_vi_du_lieu` và `goi_y_du_phong` (trỏ sang `tim_van_ban_lop_2` + URL bậc A + thẻ `[BỔ SUNG SỔ]` khi thiếu toàn văn / ngoài kho — không suy diễn). Nếu câu hỏi thuộc phân loại mã HS / GIR / thuế suất / tiền lệ → trả `chuyen_huong` sang `hs-code-api`. |
 | `plhq_tra_cas` | `query` *(bắt buộc)*, `phu_luc?`, `limit?` | Tra hóa chất trong danh mục NĐ `24/2026/NĐ-CP` (`cas-index.json`) theo mã CAS, tên chất (`ten_chat`), tên khoa học/mã hóa chất (`ma_hoa_chat`) hoặc công thức (`cong_thuc`), lọc tùy chọn `phu_luc` (`I`..`IV`), tìm cả mục `khong_co_cas`, trả đủ mọi phụ lục mà chất thuộc về kèm ngưỡng `nguong_kg` (nếu có). |
 | `plhq_chinh_sach_theo_hs` | `ma_hs` *(bắt buộc)*, `limit?` | Tra cứu theo tiền tố mã HS 4/6/8 số **đã biết** trên `hs-index-theo-ma.json` để liệt kê văn bản KTCN, cấm/tạm ngừng, giấy phép, phòng vệ thương mại áp lên mã đó kèm `tinh_trang` hiệu lực. Không dùng để suy đoán hay áp mã HS mới (việc của `hs-code-api`). |
 | `plhq_sap_het_hieu_luc` | `trong_so_ngay?`, `hom_nay?` | Liệt kê các văn bản có `het_hieu_luc_tu` trong vòng `<= trong_so_ngay` ngày (mặc định `60` ngày) tính từ `hom_nay` (mặc định theo ngày `phien_ban` dữ liệu hoặc ngày hiện tại), sắp tăng dần theo ngày hết hiệu lực. |
@@ -166,10 +166,16 @@ Mọi tích hợp MCP client, trợ lý AI hoặc ứng dụng dựng trên `oz-
 
 ---
 
+Cổng `oz-wiki-plhq` sử dụng cơ chế 3 tầng để không bao giờ bịa điều luật hay trả lời rỗng im lặng khi tích hợp với `ozplugin`:
+- **Tầng 1 (Kho PLHQ nội bộ):** `plhq_hoi_phap_luat` trả `do_tin_cay_tra_loi` (`CAO` | `TRUNG_BINH` | `THAP` | `KHONG_TIM_THAY`), tách riêng `dieu_khoan_nguon_a` và `dieu_khoan_tom_tat_nhap` (`da_soat: false`).
+- **Tầng 2 (Fallback trực tiếp nguồn A):** Khi độ tin cậy `THAP` / `KHONG_TIM_THAY` hoặc văn bản gắn cờ `chua_co_toan_van_trong_kho: true`, trường `goi_y_du_phong` trả sẵn `cong_cu_de_xuat: "tim_van_ban_lop_2"` cùng tối đa 5 URL bậc A (`url_nguon_bac_a_goi_y`) để `ozplugin` tra trực tiếp `.gov.vn` / `vbpl.vn` / `chinhphu.vn`.
+- **Tầng 3 (Tự học bù kho):** Cờ `can_mo_the_bo_sung_so: true` báo hiệu mở thẻ `[BỔ SUNG SỔ]` nạp bổ sung vào `oz-wiki-plhq`.
+
 ## Kiểm tra hoạt động tại máy
 
 ```bash
 node tools/test/test-mcp-server.mjs
+npm run eval:retrieval
 ```
 
 Xem thêm bảng đầy đủ các lệnh kiểm tra toàn kho tại [README.md](../README.md) và [docs/SO-DO-HE-THONG.md](SO-DO-HE-THONG.md).
