@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 22272/TB-CHQ/2026
+so_hieu_khac:
+  - 22272/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Mô-đun nguồn cho trạm sạc xe điện EV POWER MODULE 30 kW, chuyển đổi AC 3 pha 380V sang DC 150-1000V, mã số 8504.40.90)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-09-28'
+hieu_luc_tu: '2026-09-28'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=106191&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/9/29/VB_22272.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/9/29/VB_22272.pdf, id=106191, SHA-256 07e2b01f85db0937fa85747de2d1f895c3c6df006bb75edf1092f38062132af7): Thông báo số 22272/TB-CHQ ngày 28-09-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Mô-đun nguồn cho trạm sạc xe điện (EV POWER MODULE, ký mã hiệu SE03P1KUFA/EPN; cấu tạo gồm bản mạch gắn linh kiện điều khiển, tụ điện, cầu chì, rơ-le, bộ lọc nhiễu điện từ EMI, mạch hiệu chỉnh hệ số công suất PFC, bộ chuyển đổi DC/DC, biến áp, quạt tản nhiệt và vỏ bảo vệ kim loại; công suất tối đa 30 kW, trọng lượng 16,4 kg, kích thước 300 x 84 x 437,5 mm; thực hiện chuyển đổi dòng điện xoay chiều AC đầu vào 3 pha 380 VAC ± 10%, 50 Hz ~ 60 Hz sang dòng điện một chiều DC đầu ra 150 VDC ~ 1000 VDC / 30 A, tối đa 65 A để sạc điện cho xe điện tại trạm sạc), phân loại vào nhóm 85.04, phân nhóm 8504.40, mã số 8504.40.90; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Mô-đun nguồn cho trạm sạc xe điện (EV POWER MODULE, công suất tối đa 30 kW, chuyển đổi dòng điện xoay chiều AC 3 pha 380 VAC ± 10% qua bộ lọc EMI, mạch PFC và bộ chuyển đổi DC/DC sang dòng điện một chiều DC 150-1000 VDC / 30 A, tối đa 65 A dùng cho trạm sạc xe điện) thuộc nhóm 85.04, phân nhóm 8504.40, mã số 8504.40.90.'
+toan_van: raw/download/files.customs.gov.vn/22272-tb-chq-2026.pdf

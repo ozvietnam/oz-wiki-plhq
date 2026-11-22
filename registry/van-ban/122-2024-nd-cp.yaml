@@ -13,15 +13,57 @@ quan_he:
     - so_hieu: 14/2018/NĐ-CP
       tu_ngay: '2024-12-01'
 nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-122-2024-nd-cp-42850/52002.htm
+    truy_cap: '2026-11-22'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/10/42850/52002-1-20241115-1116122-2024-nd-cp.pdf
+    truy_cap: '2026-11-22'
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=211361
     truy_cap: '2026-11-14'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/122-nd.signed.pdf
     truy_cap: '2026-11-14'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=211361) và toàn văn PDF ký số (122-nd.signed.pdf): ban hành 04-10-2024, có hiệu lực từ 01-12-2024, sửa đổi, bổ sung một số điều của Nghị định 14/2018/NĐ-CP; đang còn hiệu lực.'
+  pham_vi: 'Đối chiếu toàn văn PDF Công báo số 1115+1116 ngày 18-10-2024 có lớp chữ (raw/download/congbaocdn.chinhphu.vn/122-2024-nd-cp.pdf, 4 trang, SHA-256 34289ca0b5398f36959bab8d93afd12596fbe752417b6c640f8261fc6c6e01ff), thẻ vanban.chinhphu.vn (docid=211361) và toàn văn PDF ký số (122-nd.signed.pdf): ban hành 04-10-2024, có hiệu lực từ 01-12-2024, sửa đổi, bổ sung một số điều của Nghị định 14/2018/NĐ-CP về đối tượng cư dân biên giới, phương thức thanh toán, tiêu chuẩn và truy xuất nguồn gốc hàng hóa thương mại biên giới, quản lý chợ biên giới, xuất nhập cảnh người và phương tiện và lộ trình 2029-2030; đang còn hiệu lực.'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-22'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      khoan: 1
+      noi_dung: '1. Sửa đổi, bổ sung khoản 3 Điều 3 như sau: “3. Cư dân biên giới thuộc đối tượng áp dụng của Nghị định này là công dân Việt Nam có nơi thường trú tại xã, phường, thị trấn hoặc đơn vị hành chính tương đương có một phần địa giới hành chính trùng với đường biên giới quốc gia trên đất liền.”'
+      trang_pdf: 1
+      sha256_pdf: 34289ca0b5398f36959bab8d93afd12596fbe752417b6c640f8261fc6c6e01ff
+    - dieu: 1
+      khoan: 2
+      noi_dung: '2. Sửa đổi, bổ sung khoản 2 Điều 4 như sau: “2. Phương thức thanh toán a) Thanh toán qua ngân hàng; b) Thanh toán bù trừ giữa hàng hoá, dịch vụ xuất khẩu với hàng hoá, dịch vụ nhập khẩu (phần chênh lệch thanh toán qua ngân hàng); c) Thanh toán bằng tiền mặt chỉ áp dụng đối với hoạt động mua bán, trao đổi hàng hóa của cư dân biên giới.”'
+      trang_pdf: 2
+      sha256_pdf: 34289ca0b5398f36959bab8d93afd12596fbe752417b6c640f8261fc6c6e01ff
+    - dieu: 1
+      khoan: 3
+      noi_dung: '3. Bổ sung Điều 4a vào sau Điều 4 như sau: “Điều 4a. Tiêu chuẩn hàng hóa trong hoạt động thương mại biên giới Hàng hóa trong hoạt động mua bán, trao đổi hàng hóa qua biên giới của thương nhân, cư dân biên giới phải đáp ứng đầy đủ tiêu chuẩn, chất lượng, quy định về truy xuất nguồn gốc và các điều kiện khác theo quy định pháp luật của nước nhập khẩu.”'
+      trang_pdf: 2
+      sha256_pdf: 34289ca0b5398f36959bab8d93afd12596fbe752417b6c640f8261fc6c6e01ff
+    - dieu: 1
+      khoan: 4
+      noi_dung: '4. Sửa đổi, bổ sung khoản 1, khoản 2 Điều 16 như sau: “1. Thương nhân, công dân mang quốc tịch Việt Nam đã đăng ký cư trú tại khu vực biên giới. 2. Thương nhân, công dân mang quốc tịch của nước có chung đường biên giới, có Hộ chiếu hoặc các giấy tờ có giá trị thay thế hộ chiếu và thị thực, trừ trường hợp được miễn thị thực, còn giá trị sử dụng theo điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên và Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam số 47/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 51/2019/QH14 và Luật số 23/2023/QH15; thương nhân, hộ kinh doanh, cá nhân có đăng ký kinh doanh của nước có chung đường biên giới đã được cấp Giấy chứng nhận đăng ký kinh doanh theo quy định pháp luật của nước có chung đường biên giới.”'
+      trang_pdf: 2
+      sha256_pdf: 34289ca0b5398f36959bab8d93afd12596fbe752417b6c640f8261fc6c6e01ff
+    - dieu: 1
+      khoan: 6
+      noi_dung: '6. Sửa đổi, bổ sung khoản 1, khoản 3 của Điều 22 như sau: a) Sửa đổi, bổ sung khoản 1 như sau: “1. Chủ hàng hoặc người được chủ hàng ủy quyền, chủ phương tiện, người điều khiển phương tiện vận tải hàng hóa, nhân viên phục vụ trên xe, tàu, thuyền là người nước ngoài nhập cảnh, xuất cảnh qua cửa khẩu biên giới thực hiện theo quy định của điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên và Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam số 47/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 51/2019/QH14 và Luật số 23/2023/QH15.” b) Sửa đổi khoản 3 như sau: “3. Phương tiện và công dân của nước có chung đường biên giới là người điều khiển phương tiện vận tải hàng hóa và chủ thể kinh doanh của nước có chung đường biên giới khi ra, vào chợ biên giới, chợ cửa khẩu và chợ trong Khu kinh tế cửa khẩu của Việt Nam để vận chuyển hàng hóa phải chịu sự kiểm tra, kiểm soát, kiểm dịch của các cơ quan quản lý nhà nước chuyên ngành tại cửa khẩu.”'
+      trang_pdf: 3
+      sha256_pdf: 34289ca0b5398f36959bab8d93afd12596fbe752417b6c640f8261fc6c6e01ff
+    - dieu: 1
+      khoan: 7
+      noi_dung: '7. Sửa đổi, bổ sung khoản 2 Điều 24 như sau: “2. Bộ Tài chính chủ trì, phối hợp với các bộ, ngành liên quan và Ủy ban nhân dân tỉnh biên giới: a) Hướng dẫn thực hiện chính sách thuế, phí và lệ phí; b) Thực hiện thủ tục, kiểm tra, giám sát, kiểm soát hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh; phương tiện vận tải xuất cảnh, nhập cảnh, quá cảnh.”'
+      trang_pdf: 3
+      sha256_pdf: 34289ca0b5398f36959bab8d93afd12596fbe752417b6c640f8261fc6c6e01ff
+    - dieu: 2
+      noi_dung: '1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 12 năm 2024. 2. Trong năm 2029, Bộ Tài chính báo cáo Chính phủ xem xét, quyết định việc điều chỉnh số lần được miễn thuế và số tiền được miễn thuế cho nhập khẩu hàng hoá theo hình thức mua bán, trao đổi hàng hóa của cư dân biên giới. 3. Từ ngày 01 tháng 01 năm 2029, khi thực hiện hoạt động mua bán, trao đổi hàng hóa qua biên giới, cư dân biên giới phải có mặt để làm thủ tục xuất nhập khẩu. 4. Từ ngày 01 tháng 01 năm 2030, hàng hoá chỉ được làm thủ tục xuất nhập khẩu tại các cửa khẩu quốc tế; cửa khẩu chính (cửa khẩu song phương); cửa khẩu phụ; lối thông quan, đường chuyên dụng vận chuyển hàng hóa thuộc cửa khẩu quốc tế, cửa khẩu chính (cửa khẩu song phương); lối mở biên giới đã hoàn thành trình tự mở, nâng cấp cửa khẩu biên giới, lối mở biên giới theo quy định pháp luật hiện hành và đã đạt thỏa thuận song phương về cho phép xuất khẩu, nhập khẩu, trao đổi hàng hóa. 5. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương và cơ quan, cá nhân liên quan chịu trách nhiệm thi hành Nghị định này./.'
+      trang_pdf: 4
+      sha256_pdf: 34289ca0b5398f36959bab8d93afd12596fbe752417b6c640f8261fc6c6e01ff
 ghi_chu: Căn cứ pháp lý trực tiếp để Bộ Công Thương ban hành TT 33/2025/TT-BCT sửa đổi danh mục hàng hóa mua bán qua cửa khẩu phụ, lối mở biên giới.
-toan_van: raw/download/vanban.chinhphu.vn/122-2024-nd-cp.html
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/122-2024-nd-cp.pdf
+  - raw/download/vanban.chinhphu.vn/122-2024-nd-cp.html
+  - wiki/sources/122-2024-nd-cp.md

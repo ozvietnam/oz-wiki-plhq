@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 22274/TB-CHQ/2026
+so_hieu_khac:
+  - 22274/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Module truyền nhận tín hiệu Bluetooth/Wi-Fi băng tần 2,4 GHz, Model CM01WTA01M, mã số 8517.62.59)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-09-28'
+hieu_luc_tu: '2026-09-28'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=106190&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/9/29/VB_22274.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/9/29/VB_22274.pdf, id=106190, SHA-256 601e53c87d9fdd0be144320ace135910e54dca7ab96c8b0c60264bddd3d19e06): Thông báo số 22274/TB-CHQ ngày 28-09-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Module truyền nhận tín hiệu Bluetooth/Wi-Fi (Model CM01WTA01M, Product Code CM01WTA01MDWSM; cấu tạo gồm bản mạch in PCB vật liệu FR-4 4 lớp tích hợp anten vi dải Pattern Antenna, gắn vi xử lý trung tâm kiêm bộ thu phát vô tuyến Wi-Fi/BLE SoC RTL8720CM băng tần 2,4 GHz, chip bộ nhớ Flash 64 Mbit EN25QH64A-104HIP, thạch anh dao động 40 MHz, vi mạch ổn áp LDO 3,3 V DC, mạch phối hợp trở kháng RF Matching và nắp bảo vệ kim loại Shield Can; chuẩn Wi-Fi IEEE 802.11 b/g/n và Bluetooth Low Energy BLE 4.2, giao tiếp SPI và UART, kích thước 20 x 35 x 4,8 mm; trình bày dạng module không có vỏ để gắn trực tiếp vào bảng mạch điều khiển của thiết bị điện tử nhằm thu, phát, chuyển đổi và truyền nhận dữ liệu qua mạng không dây), phân loại vào nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.59; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Module truyền nhận tín hiệu Bluetooth/Wi-Fi (Model CM01WTA01M, Product Code CM01WTA01MDWSM; bản mạch PCB FR-4 4 lớp tích hợp Pattern Antenna, gắn vi mạch Wi-Fi/BLE SoC RTL8720CM băng tần 2,4 GHz, chip nhớ Flash 64 Mbit, chuẩn Wi-Fi IEEE 802.11 b/g/n và BLE 4.2, dạng module không có vỏ dùng gắn vào bảng mạch điều khiển của thiết bị điện tử) thuộc nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.59.'
+toan_van: raw/download/files.customs.gov.vn/22274-tb-chq-2026.pdf
