@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-3052 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3056 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2356 văn bản, 2356 chưa hết hiệu lực.
+2360 văn bản, 2360 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -641,6 +641,10 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [5017/TB-CHQ/2025](../registry/van-ban/5017-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.90)
 - 🟢 [5018/TB-CHQ/2025](../registry/van-ban/5018-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
 - 🟢 [4449/TB-CHQ/2025](../registry/van-ban/4449-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2710.19.89)
+- 🟢 [3939/TB-CHQ/2025](../registry/van-ban/3939-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị tạo chế độ rung Linear Vibrator, động cơ điện xoay chiều tuyến tính công suất không quá 37,5W lắp trên thiết bị đeo tay thông minh, mã hiệu GH31-00798A, mã số 8501.10.99)
+- 🟢 [3526/TB-CHQ/2025](../registry/van-ban/3526-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Bộ điều khiển phân tán OptiFlexTM Advanced Equipment Controller dùng giám sát và điều khiển hệ thống cơ điện tòa nhà, mã hiệu OFS561T-E2, mã số 8537.10.92)
+- 🟢 [3528/TB-CHQ/2025](../registry/van-ban/3528-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Bộ điều khiển phân tán OptiFlexTM Advanced Equipment Controller dùng giám sát và điều khiển hệ thống cơ điện tòa nhà, mã hiệu OF022-E2, mã số 8537.10.92)
+- 🟢 [3264/TB-CHQ/2025](../registry/van-ban/3264-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Bộ dụng cụ dẫn hướng và đẩy dây hàn Drive Roll Kit dùng cho máy hàn hồ quang điện một chiều Miller DeltaWeld 602, mã hiệu P/N 079607, mã số 8515.90.90)
 - 🟢 [3265/TB-CHQ/2025](../registry/van-ban/3265-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (7312.10.99)
 - 🟢 [2666/TB-CHQ/2025](../registry/van-ban/2666-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3902.10.40)
 - 🟢 [2684/TB-CHQ/2025](../registry/van-ban/2684-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3902.30.90)
