@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-22).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 4335,
+ "tong": 4344,
  "chunks": [
   {
    "chunk_id": "dong-bo-quan-diem-phan-loai#1",
@@ -33383,7 +33383,7 @@
    "loai_trang": "sources",
    "tieu_de": "VBHN 09/VBHN-BYT 2025 — hợp nhất TT 06/2011 quản lý mỹ phẩm; 2 BẢNG VÀNG: Phiếu công bố mục 8/10 + Phụ lục 05-MP thay đổi sau công bố",
    "muc": "Toàn văn",
-   "noi_dung": "Toàn văn (53 điều + 18 phụ lục) đọc tại [TVPL](https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Van-ban-hop-nhat-09-VBHN-BYT-2025-Thong-tu-quy-dinh-quan-ly-my-pham-667028.aspx) hoặc [DAV](https://dav.gov.vn/van-ban-hop-nhat-so-09vbhn-byt-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-n4966.html). Tệp PDF lớp chữ gắn tại `raw/download/datafiles.chinhphu.vn/09-vbhn-byt.pdf` (8 trang, SHA-256 `0518655cb29f2b303a48be64d2491a842f30f84bc8eec0d15eda9dc1895dec61`, toàn văn Thông tư 34/2025/TT-BYT sửa đổi, bổ sung Thông tư 06/2011/TT-BYT được hợp nhất tại 09/VBHN-BYT) đã được trích xuất nguyên văn 6 Điều (10 mục điều khoản, trang 1–6) vào `xac_minh.dieu_khoan`.",
+   "noi_dung": "Toàn văn hợp nhất đầy đủ (53 điều + 18 phụ lục, 62 trang) đọc tại bản ký xác thực ngày 25/07/2025 trên [DAV](https://dav.gov.vn/van-ban-hop-nhat-so-09vbhn-byt-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-n4966.html) (PDF lưu cục bộ tại `raw/download/dav.gov.vn/09-vbhn-byt-2025.pdf`), hoặc tham khảo thêm tại [TVPL](https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Van-ban-hop-nhat-09-VBHN-BYT-2025-Thong-tu-quy-dinh-quan-ly-my-pham-667028.aspx). Đã thay tệp cũ bị gắn nhầm từ `34-byt.pdf` bằng bản PDF hợp nhất đầy đủ và trích xuất nguyên văn 10 điều đại diện (từ `Điều 1` đến `Điều 53`) vào `xac_minh.dieu_khoan`.",
    "tags": [
     "van-ban-hop-nhat",
     "byt",
@@ -33392,28 +33392,7 @@
     "quan-trong"
    ],
    "confidence": "high",
-   "van_ban_lien_quan": [
-    {
-     "so_hieu": "34/2025/TT-BYT",
-     "tinh_trang": "CON_HIEU_LUC",
-     "hieu_luc_tu": "2025-08-18",
-     "het_hieu_luc_tu": null,
-     "hieu_luc_da_doi_chieu": true,
-     "bi_thay_the_boi": [],
-     "bi_bai_bo_boi": [],
-     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214428"
-    },
-    {
-     "so_hieu": "06/2011/TT-BYT",
-     "tinh_trang": "CON_HIEU_LUC",
-     "hieu_luc_tu": "2011-04-01",
-     "het_hieu_luc_tu": null,
-     "hieu_luc_da_doi_chieu": true,
-     "bi_thay_the_boi": [],
-     "bi_bai_bo_boi": [],
-     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=99376"
-    }
-   ],
+   "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
   {
@@ -44082,7 +44061,7 @@
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
-     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207173&pageid=27160"
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=207349"
     },
     {
      "so_hieu": "57/2019/NĐ-CP",
@@ -44137,7 +44116,7 @@
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
-     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207173&pageid=27160"
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=207349"
     },
     {
      "so_hieu": "57/2019/NĐ-CP",
@@ -44434,7 +44413,7 @@
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
-     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207173&pageid=27160"
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=207349"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -44446,7 +44425,7 @@
    "loai_trang": "sources",
    "tieu_de": "NĐ 115/2022/NĐ-CP — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định CPTPP giai đoạn 2022–2027",
    "muc": "Open questions",
-   "noi_dung": "- Cần nạp bổ sung Nghị định ngày 07/09/2023 (sửa đổi, bổ sung một số điều của Nghị định 115/2022/NĐ-CP đối với Malaysia, Chile, Brunei Darussalam) vào `registry/van-ban/` để khép kín chuỗi quan hệ sửa đổi giữa 115/2022/NĐ-CP và 13/2025/NĐ-CP.\n- Cần tải thay thế tệp `raw/download/datafiles.chinhphu.vn/115-2022-nd-cp.pdf` từ URL đúng `https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/115nd.signed.pdf` (`docid=207349`) hoặc Công báo số 269+270 (`43399-1-2023269-270115-2022-nd-cp.pdf`), vì tệp hiện lưu trong `raw/download/` từng bị script nạp nhầm từ `docid=207173` (`36-bct.signed.pdf`).",
+   "noi_dung": "- Cần nạp bổ sung Nghị định ngày 07/09/2023 (sửa đổi, bổ sung một số điều của Nghị định 115/2022/NĐ-CP đối với Malaysia, Chile, Brunei Darussalam) vào `registry/van-ban/` để khép kín chuỗi quan hệ sửa đổi giữa 115/2022/NĐ-CP và 13/2025/NĐ-CP.",
    "tags": [
     "nghi-dinh",
     "btc",
@@ -44467,7 +44446,7 @@
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
-     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207173&pageid=27160"
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=207349"
     },
     {
      "so_hieu": "13/2025/NĐ-CP",
@@ -44489,7 +44468,7 @@
    "loai_trang": "sources",
    "tieu_de": "NĐ 115/2022/NĐ-CP — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định CPTPP giai đoạn 2022–2027",
    "muc": "Notes",
-   "noi_dung": "- Đã đọc và đối chiếu nguyên văn từ PDF Công báo số 269 + 270 ngày 01/02/2023 (`https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/12/38713/43399-1-2023269-270115-2022-nd-cp.pdf`, có lớp chữ điện tử ký số bởi Văn phòng Chính phủ ngày 21/02/2023) và thẻ văn bản gốc `docid=207349` trên Cổng TTĐT Chính phủ, kết hợp đối chiếu với toàn văn Công báo số 241 + 242 ngày 02/02/2025 của Nghị định 13/2025/NĐ-CP.\n- Đã chuẩn hoá trường `ten` đầy đủ nguyên văn và căn cứ khoản 2 Điều 7 trong `registry/van-ban/115-2022-nd-cp.yaml`.",
+   "noi_dung": "- Đã đọc và đối chiếu nguyên văn từ PDF Công báo số 269 + 270 ngày 01/02/2023 (`https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/12/38713/43399-1-2023269-270115-2022-nd-cp.pdf`, lưu cục bộ tại `raw/download/congbaocdn.chinhphu.vn/115-2022-nd-cp.pdf`, có lớp chữ điện tử ký số bởi Văn phòng Chính phủ ngày 21/02/2023) và thẻ văn bản gốc `docid=207349` trên Cổng TTĐT Chính phủ (đã gỡ tệp tải nhầm `docid=207173` / `36-bct.signed.pdf` trước đây), kết hợp đối chiếu với toàn văn Công báo số 241 + 242 ngày 02/02/2025 của Nghị định 13/2025/NĐ-CP.\n- Đã chuẩn hoá trường `ten` đầy đủ nguyên văn, căn cứ khoản 2 Điều 7 và trích nguyên văn 8 Điều (`Điều 1` – `Điều 8`) vào `xac_minh.dieu_khoan` trong `registry/van-ban/115-2022-nd-cp.yaml`.",
    "tags": [
     "nghi-dinh",
     "btc",
@@ -45566,7 +45545,7 @@
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
-     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207173&pageid=27160"
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=207349"
     },
     {
      "so_hieu": "13/2025/NĐ-CP",
@@ -58368,7 +58347,7 @@
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
-     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207173&pageid=27160"
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=207349"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -58410,7 +58389,7 @@
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
-     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207173&pageid=27160"
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=207349"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -58442,7 +58421,7 @@
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
-     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207173&pageid=27160"
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=207349"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -58474,7 +58453,7 @@
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
-     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207173&pageid=27160"
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=207349"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -58516,7 +58495,7 @@
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
-     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207173&pageid=27160"
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=207349"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -58631,7 +58610,7 @@
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
-     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207173&pageid=27160"
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=207349"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -80725,15 +80704,61 @@
    "slug": "2284-qd-bkhcn",
    "duong_dan": "wiki/sources/2284-qd-bkhcn.md",
    "loai_trang": "sources",
-   "tieu_de": "Công bố Bảng mã HS đối với phương tiện đo nhóm 2 phải phê duyệt mẫu thuộc đối tượng kiểm tra nhà nước về đo lường khi nhập khẩu",
+   "tieu_de": "QĐ 2284/QĐ-BKHCN — Công bố Bảng mã HS phương tiện đo nhóm 2 phải phê duyệt mẫu kiểm tra nhà nước về đo lường khi nhập khẩu",
    "muc": "Summary",
-   "noi_dung": "**Stub page** — Công bố Bảng mã HS đối với phương tiện đo nhóm 2 phải phê duyệt mẫu thuộc đối tượng kiểm tra nhà nước về đo lường khi nhập khẩu (2284/QĐ-BKHCN) ban hành 2018-08-15, có hiệu lực từ 2018-08-15, **đang còn hiệu lực**.\n\n> **Lưu ý**: Wiki tạm thời — chưa có toàn văn PDF. Cần tải về để đọc kỹ. Có thể dùng:\n> - `node tools/nap.mjs \"<url>\" --so-hieu \"2284/QĐ-BKHCN\"`\n> - Tải từ datafiles.chinhphu.vn hoặc congbaocdn.chinhphu.vn\n\n**Cơ quan ban hành**: Bộ Khoa học và Công nghệ",
+   "noi_dung": "**Quyết định 2284/QĐ-BKHCN** do Thứ trưởng Bộ Khoa học và Công nghệ Trần Văn Tùng ký ban hành ngày **15/08/2018**, có hiệu lực thi hành **kể từ ngày ký** (Điều 3), công bố **Bảng mã HS đối với phương tiện đo nhóm 2 phải phê duyệt mẫu thuộc đối tượng kiểm tra nhà nước về đo lường khi nhập khẩu** gồm **4 điều và Phụ lục 27 dòng mã HS** (chiếu theo Biểu thuế tại `65/2017/TT-BTC`). Văn bản được dẫn chiếu cho `19` mã HS trong biểu thuế hải quan, làm căn cứ xác định phương tiện đo thuộc diện phải có **Quyết định phê duyệt mẫu** khi làm thủ tục nhập khẩu.\n\n> **Lưu ý nguồn xác minh (`NGUON_B`, `confidence: medium`):** Toàn văn đọc trực tiếp từ bản đánh máy lại do Bộ Công Thương đăng tải trên Cổng thông tin thương mại Việt Nam (`vntr.moit.gov.vn`, `raw/download/vntr.moit.gov.vn/2284-qd-bkhcn.pdf`, 7 trang, có lớp chữ). Sổ đăng ký giữ mức **`NGUON_B`** (`xac_minh.chan: THIEU_PDF_A`) vì chưa có bản PDF ký số gốc trực tiếp từ cổng Bộ Khoa học và Công nghệ (`most.gov.vn` / `mst.gov.vn`) để chốt kiểm tra đối chiếu cập nhật với Thông tư cập nhật danh mục phương tiện đo nhóm 2 năm 2024 (`03-2024-tt-bkhcn`). Không nhầm lẫn với Quyết định cùng số năm 2013 về công bố TCVN trang sức.",
    "tags": [
-    "stub",
+    "quyet-dinh",
+    "bkhcn",
     "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
+    "nhom-2",
+    "ma-hs",
+    "con-hieu-luc"
    ],
-   "confidence": "low",
+   "confidence": "medium",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "2284/QĐ-BKHCN",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-08-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vntr.moit.gov.vn/storage/doc/file/1632882390%20_%202284_QD-BKHCN.pdf"
+    },
+    {
+     "so_hieu": "65/2017/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-01",
+     "het_hieu_luc_tu": "2022-12-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "31/2022/TT-BTC"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=190622"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "2284-qd-bkhcn#2",
+   "slug": "2284-qd-bkhcn",
+   "duong_dan": "wiki/sources/2284-qd-bkhcn.md",
+   "loai_trang": "sources",
+   "tieu_de": "QĐ 2284/QĐ-BKHCN — Công bố Bảng mã HS phương tiện đo nhóm 2 phải phê duyệt mẫu kiểm tra nhà nước về đo lường khi nhập khẩu",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 15/08/2018 | Bộ Khoa học và Công nghệ ban hành **Quyết định 2284/QĐ-BKHCN**; có hiệu lực thi hành ngay từ ngày ký (Điều 3) |\n| 15/10/2024 | Danh mục phương tiện đo nhóm 2 tổng thể được Bộ KH&CN cập nhật tại Thông tư `03-2024-tt-bkhcn` (cần đối chiếu khi có bản gốc bậc A) |\n| Hiện tại | Sổ đăng ký ghi `CON_HIEU_LUC` ở mức `NGUON_B` (`hieu_luc_da_doi_chieu: false`, đang chờ bản PDF ký số gốc của BKHCN) |",
+   "tags": [
+    "quyet-dinh",
+    "bkhcn",
+    "kiem-tra-chuyen-nganh",
+    "nhom-2",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "medium",
    "van_ban_lien_quan": [
     {
      "so_hieu": "2284/QĐ-BKHCN",
@@ -80749,36 +80774,22 @@
    "canh_bao_hieu_luc": false
   },
   {
-   "chunk_id": "2284-qd-bkhcn#2",
-   "slug": "2284-qd-bkhcn",
-   "duong_dan": "wiki/sources/2284-qd-bkhcn.md",
-   "loai_trang": "sources",
-   "tieu_de": "Công bố Bảng mã HS đối với phương tiện đo nhóm 2 phải phê duyệt mẫu thuộc đối tượng kiểm tra nhà nước về đo lường khi nhập khẩu",
-   "muc": "Tình trạng hiệu lực",
-   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 2018-08-15 | Bộ Khoa học và Công nghệ ban hành |\n| 2018-08-15 | Có hiệu lực |\n| Đang hiệu lực | |",
-   "tags": [
-    "stub",
-    "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
-   ],
-   "confidence": "low",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
    "chunk_id": "2284-qd-bkhcn#3",
    "slug": "2284-qd-bkhcn",
    "duong_dan": "wiki/sources/2284-qd-bkhcn.md",
    "loai_trang": "sources",
-   "tieu_de": "Công bố Bảng mã HS đối với phương tiện đo nhóm 2 phải phê duyệt mẫu thuộc đối tượng kiểm tra nhà nước về đo lường khi nhập khẩu",
-   "muc": "Căn cứ pháp lý (theo registry)",
-   "noi_dung": "- Căn cứ vào các luật/nghị định chuyên ngành",
+   "tieu_de": "QĐ 2284/QĐ-BKHCN — Công bố Bảng mã HS phương tiện đo nhóm 2 phải phê duyệt mẫu kiểm tra nhà nước về đo lường khi nhập khẩu",
+   "muc": "Cấu trúc (4 điều và Phụ lục 27 nhóm mã HS)",
+   "noi_dung": "| Phần | Nội dung | Trang PDF |\n|---|---|---|\n| **Điều 1** | Công bố Bảng mã HS đối với phương tiện đo nhóm 2 phải phê duyệt mẫu thuộc đối tượng kiểm tra nhà nước về đo lường khi nhập khẩu (tại Phụ lục kèm theo) | Trang 1 |\n| **Điều 2** | Giao Tổng cục trưởng Tổng cục Tiêu chuẩn Đo lường Chất lượng hướng dẫn và tổ chức thực hiện | Trang 1 |\n| **Điều 3** | Hiệu lực thi hành kể từ ngày ký ban hành (`15/08/2018`) | Trang 1 |\n| **Điều 4** | Trách nhiệm thi hành của Tổng cục trưởng Tổng cục TCĐLCL, Vụ trưởng Vụ Pháp chế và các tổ chức, cá nhân có liên quan | Trang 2 |\n| **Phụ lục** | **27 STT mã HS** kèm tên phương tiện đo, yêu cầu kỹ thuật đo lường (`ĐLVN`), văn bản áp dụng và biện pháp quản lý | Trang 2 – 7 |",
    "tags": [
-    "stub",
+    "quyet-dinh",
+    "bkhcn",
     "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
+    "nhom-2",
+    "ma-hs",
+    "con-hieu-luc"
    ],
-   "confidence": "low",
+   "confidence": "medium",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -80787,15 +80798,18 @@
    "slug": "2284-qd-bkhcn",
    "duong_dan": "wiki/sources/2284-qd-bkhcn.md",
    "loai_trang": "sources",
-   "tieu_de": "Công bố Bảng mã HS đối với phương tiện đo nhóm 2 phải phê duyệt mẫu thuộc đối tượng kiểm tra nhà nước về đo lường khi nhập khẩu",
-   "muc": "Quy trình HQ (cần đọc toàn văn để xác nhận)",
-   "noi_dung": "1. Xác định hàng thuộc phạm vi KTCL\n2. Tra mã HS\n3. Nộp hồ sơ KTCL tại Bộ Khoa học và Công nghệ\n4. Cấp Giấy chứng nhận\n5. Khai báo HQ\n6. Thông quan",
+   "tieu_de": "QĐ 2284/QĐ-BKHCN — Công bố Bảng mã HS phương tiện đo nhóm 2 phải phê duyệt mẫu kiểm tra nhà nước về đo lường khi nhập khẩu",
+   "muc": "Nội dung các điều và nguyên tắc quản lý",
+   "noi_dung": "### Điều 1 – Điều 4. Quy định chung\n- **Điều 1 (nguyên văn):** *“Công bố Bảng mã HS đối với phương tiện đo nhóm 2 phải phê duyệt mẫu thuộc đối tượng kiểm tra nhà nước về đo lường khi nhập khẩu tại Phụ lục ban hành kèm theo Quyết định này, bao gồm tên phương tiện đo nhóm 2, mã HS, yêu cầu kỹ thuật đo lường (ĐLVN) tương ứng và văn bản quy phạm pháp luật quản lý.”*\n- **Biện pháp quản lý chung ghi tại Phụ lục:**\n  - **Hình thức quản lý:** Kiểm tra nhà nước về đo lường khi nhập khẩu.\n  - **Căn cứ kiểm tra khi nhập khẩu:** **Quyết định phê duyệt mẫu phương tiện đo** (theo Thông tư quy định về đo lường đối với phương tiện đo nhóm 2 `23-2013-tt-bkhcn` ngày 26/09/2013 và Thông tư quy định kiểm tra nhà nước về đo lường `28-2013-tt-bkhcn` ngày 17/12/2013).\n  - **Cơ quan thực hiện:** Tổng cục Tiêu chuẩn Đo lường Chất lượng (nay là Ủy ban Tiêu chuẩn Đo lường Chất lượng Quốc gia trực thuộc Bộ KH&CN).",
    "tags": [
-    "stub",
+    "quyet-dinh",
+    "bkhcn",
     "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
+    "nhom-2",
+    "ma-hs",
+    "con-hieu-luc"
    ],
-   "confidence": "low",
+   "confidence": "medium",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -80804,16 +80818,32 @@
    "slug": "2284-qd-bkhcn",
    "duong_dan": "wiki/sources/2284-qd-bkhcn.md",
    "loai_trang": "sources",
-   "tieu_de": "Công bố Bảng mã HS đối với phương tiện đo nhóm 2 phải phê duyệt mẫu thuộc đối tượng kiểm tra nhà nước về đo lường khi nhập khẩu",
-   "muc": "Related concepts (chưa có wiki)",
-   "noi_dung": "- kiem-tra-chuyen-nganh\n- các concept liên quan",
+   "tieu_de": "QĐ 2284/QĐ-BKHCN — Công bố Bảng mã HS phương tiện đo nhóm 2 phải phê duyệt mẫu kiểm tra nhà nước về đo lường khi nhập khẩu",
+   "muc": "Phụ lục Bảng 27 mã HS phương tiện đo nhóm 2 phải phê duyệt mẫu khi nhập khẩu",
+   "noi_dung": "*(Mã HS trong Phụ lục đối chiếu theo Thông tư `65/2017/TT-BTC` — cần rà soát quy đổi tương ứng khi khai báo theo Danh mục hàng hóa XNK hiện hành)*",
    "tags": [
-    "stub",
+    "quyet-dinh",
+    "bkhcn",
     "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
+    "nhom-2",
+    "ma-hs",
+    "con-hieu-luc"
    ],
-   "confidence": "low",
-   "van_ban_lien_quan": [],
+   "confidence": "medium",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "65/2017/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-01",
+     "het_hieu_luc_tu": "2022-12-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "31/2022/TT-BTC"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=190622"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -80821,15 +80851,18 @@
    "slug": "2284-qd-bkhcn",
    "duong_dan": "wiki/sources/2284-qd-bkhcn.md",
    "loai_trang": "sources",
-   "tieu_de": "Công bố Bảng mã HS đối với phương tiện đo nhóm 2 phải phê duyệt mẫu thuộc đối tượng kiểm tra nhà nước về đo lường khi nhập khẩu",
-   "muc": "Related sources",
-   "noi_dung": "- Cần xác minh với VB liên quan",
+   "tieu_de": "QĐ 2284/QĐ-BKHCN — Công bố Bảng mã HS phương tiện đo nhóm 2 phải phê duyệt mẫu kiểm tra nhà nước về đo lường khi nhập khẩu",
+   "muc": "Phụ lục Bảng 27 mã HS phương tiện đo nhóm 2 phải phê duyệt mẫu khi nhập khẩu > 1. Nhóm cân các loại (STT 1–11, nhóm `8423`)",
+   "noi_dung": "| STT | Mã HS | Phương tiện đo | Yêu cầu kỹ thuật đo lường (`ĐLVN`) |\n|---|---|---|---|\n| 1 | `8423.10.10` | Cân người, kể cả cân trẻ em; cân sử dụng trong gia đình (hoạt động bằng điện): cân bàn, cân đĩa | `ĐLVN 100:2002` |\n| 2 | `8423.10.20` | Cân người, kể cả cân trẻ em; cân sử dụng trong gia đình (không hoạt động bằng điện): cân đồng hồ lò xo, cân bàn, cân đĩa | `ĐLVN 121:2003`, `ĐLVN 100:2002` |\n| 3 | `8423.20.10` | Cân băng tải hoạt động bằng điện | `ĐLVN 226:2010` |\n| 4 | `8423.81.10` | Cân có khả năng cân tối đa $\\le 30\\text{ kg}$ (hoạt động bằng điện): cân đĩa, cân bàn, cân treo móc cẩu | `ĐLVN 100:2002`, `ĐLVN 260:2015` |\n| 5 | `8423.81.20` | Cân có khả năng cân tối đa $\\le 30\\text{ kg}$ (không hoạt động bằng điện): cân đồng hồ lò xo, cân đĩa, cân bàn, cân treo móc cẩu | `ĐLVN 121:2003`, `ĐLVN 100:2002`, `ĐLVN 260:2015` |\n| 6 | `8423.82.11` | Cân có khả năng cân tối đa $> 30\\text{ kg}$ đến $\\le 1000\\text{ kg}$ (hoạt động bằng điện): cân đĩa, cân bàn, cân treo móc cẩu | `ĐLVN 100:2002`, `ĐLVN 260:2015` |\n| 7 | `8423.82.19` | Cân có khả năng cân tối đa $> 1000\\text{ kg}$ đến $\\le 5000\\text{ kg}$ (hoạt động bằng điện): cân bàn, cân treo móc cẩu | `ĐLVN 100:2002`, `ĐLVN 260:2015` |\n| 8 | `8423.82.21` | Cân có khả năng cân tối đa $> 30\\text{ kg}$ đến $\\le 1000\\text{ kg}$ (không hoạt động bằng điện): cân đồng hồ lò xo, cân đĩa, cân bàn, cân treo móc cẩu | `ĐLVN 100:2002`, `ĐLVN 260:2015`, `ĐLVN 121:2003` |\n| 9 | `8423.82.29` | Cân có khả năng cân tối đa $> 1000\\text{ kg}$ đến $\\le 5000\\text{ kg}$ (không hoạt động bằng điện): cân bàn, cân treo móc cẩu | `ĐLVN 100:2002`, `ĐLVN 260:2015` |\n| 10 | `8423.89.10` | Cân có khả năng cân tối đa $> 5000\\text{ kg}$ (hoạt động bằng điện): cân bàn, cân treo móc cẩu, cân kiểm tra tải trọng xe cơ giới, cân ô tô, cân tàu hỏa động/tĩnh | `ĐLVN 100:2002`, `ĐLVN 260:2015`, `ĐLVN 225:2015`, `ĐLVN 224:2010` |\n| 11 | `8423.89.20` | Cân có khả năng cân tối đa $> 5000\\text{ kg}$ (không hoạt động bằng điện): cân bàn, cân treo móc cẩu | `ĐLVN 100:2002`, `ĐLVN 260:2015` |",
    "tags": [
-    "stub",
+    "quyet-dinh",
+    "bkhcn",
     "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
+    "nhom-2",
+    "ma-hs",
+    "con-hieu-luc"
    ],
-   "confidence": "low",
+   "confidence": "medium",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -80838,15 +80871,18 @@
    "slug": "2284-qd-bkhcn",
    "duong_dan": "wiki/sources/2284-qd-bkhcn.md",
    "loai_trang": "sources",
-   "tieu_de": "Công bố Bảng mã HS đối với phương tiện đo nhóm 2 phải phê duyệt mẫu thuộc đối tượng kiểm tra nhà nước về đo lường khi nhập khẩu",
-   "muc": "Open questions",
-   "noi_dung": "- Cần tải toàn văn từ nguồn nào?\n- Phạm vi KTCL cụ thể?\n- Có mã HS cụ thể không?",
+   "tieu_de": "QĐ 2284/QĐ-BKHCN — Công bố Bảng mã HS phương tiện đo nhóm 2 phải phê duyệt mẫu kiểm tra nhà nước về đo lường khi nhập khẩu",
+   "muc": "Phụ lục Bảng 27 mã HS phương tiện đo nhóm 2 phải phê duyệt mẫu khi nhập khẩu > 2. Nhóm biến áp, biến dòng đo lường (STT 12–20, nhóm `8504`)",
+   "noi_dung": "| STT | Mã HS | Phương tiện đo | Yêu cầu kỹ thuật đo lường (`ĐLVN`) |\n|---|---|---|---|\n| 12 | `8504.31.11` | Biến áp đo lường điện áp từ $110\\text{ kV}$ trở lên | Quy trình thử nghiệm tạm thời kèm Quyết định `660-qd-tdc` ngày 14/05/2009 |\n| 13 | `8504.31.12` | Biến áp đo lường điện áp từ $66\\text{ kV}$ nhưng dưới $110\\text{ kV}$ | Quy trình thử nghiệm tạm thời kèm Quyết định `660-qd-tdc` |\n| 14 | `8504.31.13` | Biến áp đo lường điện áp từ $1\\text{ kV}$ nhưng dưới $66\\text{ kV}$ | `ĐLVN 144:2012` |\n| 15 | `8504.31.19` | Biến áp đo lường loại khác | `ĐLVN 144:2012` / Quy trình thử nghiệm tạm thời |\n| 16 | `8504.31.21` | Biến dòng đo lường dạng vòng dùng cho đường dây điện áp từ $110\\text{ kV}$ trở lên không quá $220\\text{ kV}$ | Quy trình thử nghiệm tạm thời kèm Quyết định `660-qd-tdc` |\n| 17 | `8504.31.22` | Biến dòng đo lường dùng cho đường dây điện áp từ $110\\text{ kV}$ trở lên nhưng không quá $220\\text{ kV}$ loại khác | Quy trình thử nghiệm tạm thời kèm Quyết định `660-qd-tdc` |\n| 18 | `8504.31.23` | Biến dòng đo lường dùng cho đường dây điện áp từ $66\\text{ kV}$ nhưng dưới $110\\text{ kV}$ | Quy trình thử nghiệm tạm thời kèm Quyết định `660-qd-tdc` |\n| 19 | `8504.31.24` | Biến dòng đo lường dùng cho đường dây điện áp từ $1\\text{ kV}$ nhưng dưới $66\\text{ kV}$ | `ĐLVN 126:2012` |\n| 20 | `8504.31.29` | Biến dòng đo lường loại khác | `ĐLVN 126:2012` |",
    "tags": [
-    "stub",
+    "quyet-dinh",
+    "bkhcn",
     "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
+    "nhom-2",
+    "ma-hs",
+    "con-hieu-luc"
    ],
-   "confidence": "low",
+   "confidence": "medium",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -80855,15 +80891,195 @@
    "slug": "2284-qd-bkhcn",
    "duong_dan": "wiki/sources/2284-qd-bkhcn.md",
    "loai_trang": "sources",
-   "tieu_de": "Công bố Bảng mã HS đối với phương tiện đo nhóm 2 phải phê duyệt mẫu thuộc đối tượng kiểm tra nhà nước về đo lường khi nhập khẩu",
-   "muc": "Notes",
-   "noi_dung": "- VB chưa được tải toàn văn — stub\n- Cần tải bằng `node tools/nap.mjs` hoặc script Python tương tự\n- Ưu tiên: tải từ Công báo (bậc A) hoặc datafiles.chinhphu.vn\n- 19 mã HS trích dẫn trong biểu thuế",
+   "tieu_de": "QĐ 2284/QĐ-BKHCN — Công bố Bảng mã HS phương tiện đo nhóm 2 phải phê duyệt mẫu kiểm tra nhà nước về đo lường khi nhập khẩu",
+   "muc": "Phụ lục Bảng 27 mã HS phương tiện đo nhóm 2 phải phê duyệt mẫu khi nhập khẩu > 3. Nhóm đồng hồ đo khí, nước, xăng dầu, công tơ điện, taximet và đo nồng độ cồn/tốc độ (STT 21–27, nhóm `9027`–`9031`)",
+   "noi_dung": "| STT | Mã HS | Phương tiện đo | Yêu cầu kỹ thuật đo lường (`ĐLVN`) |\n|---|---|---|---|\n| 21 | `9027.80.30` | Phương tiện đo nồng độ cồn trong hơi thở | `ĐLVN 240:2010` |\n| 22 | `9028.10.90` | Đồng hồ khí dân dụng; đồng hồ khí công nghiệp | `ĐLVN 239:2011`, `ĐLVN 254:2015` |\n| 23 | `9028.20.20` | Đồng hồ nước lạnh có cơ cấu điện tử; đồng hồ nước lạnh cơ khí | `ĐLVN 96:2017`, `ĐLVN 228:2010` |\n| 24 | `9028.20.90` | Cột đo khí dầu mỏ hóa lỏng; cột đo xăng dầu; đồng hồ khí dầu mỏ hóa lỏng; đồng hồ xăng dầu; phương tiện đo mức xăng dầu tự động | `ĐLVN 97:2017`, `ĐLVN 238:2011`, `ĐLVN 256:2015` |\n| 25 | `9028.30.10` | Công tơ điện xoay chiều 1 pha, 3 pha (kiểu cảm ứng, kiểu điện tử, cấp chính xác 0,2 đến 0,05) | `ĐLVN 111:2002`, `ĐLVN 237:2011`, Quy trình kèm Quyết định `660-qd-tdc` |\n| 26 | `9029.10.20` | Taximet | `ĐLVN 118:2013` |\n| 27 | `9031.80.90` | Phương tiện đo kiểm tra tốc độ phương tiện giao thông | `ĐLVN 220:2017` |",
    "tags": [
-    "stub",
+    "quyet-dinh",
+    "bkhcn",
     "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
+    "nhom-2",
+    "ma-hs",
+    "con-hieu-luc"
    ],
-   "confidence": "low",
+   "confidence": "medium",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "2284-qd-bkhcn#9",
+   "slug": "2284-qd-bkhcn",
+   "duong_dan": "wiki/sources/2284-qd-bkhcn.md",
+   "loai_trang": "sources",
+   "tieu_de": "QĐ 2284/QĐ-BKHCN — Công bố Bảng mã HS phương tiện đo nhóm 2 phải phê duyệt mẫu kiểm tra nhà nước về đo lường khi nhập khẩu",
+   "muc": "Căn cứ pháp lý",
+   "noi_dung": "- **Luật Đo lường** ngày 11/11/2011 (`04-2011-qh13`, chưa nạp vào sổ).\n- **Nghị định `187/2013/NĐ-CP`** ngày 20/11/2013 (về hoạt động mua bán hàng hóa quốc tế — văn bản lịch sử đã hết hiệu lực, được dẫn tại phần căn cứ năm 2018).\n- **[[sources/08-2015-nd-cp|Nghị định 08/2015/NĐ-CP]]** ngày 21/01/2015 quy định chi tiết và biện pháp thi hành Luật Hải quan.\n- **Nghị định `95/2017/NĐ-CP`** ngày 16/08/2017 quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Khoa học và Công nghệ.\n- **Thông tư `23-2013-tt-bkhcn`** ngày 26/09/2013 của Bộ trưởng Bộ KH&CN quy định về đo lường đối với phương tiện đo nhóm 2 (chưa nạp vào sổ).",
+   "tags": [
+    "quyet-dinh",
+    "bkhcn",
+    "kiem-tra-chuyen-nganh",
+    "nhom-2",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "medium",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "187/2013/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2014-02-15",
+     "het_hieu_luc_tu": "2018-06-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=176543&pageid=27160"
+    },
+    {
+     "so_hieu": "08/2015/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-03-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=178689&pageid=27160"
+    },
+    {
+     "so_hieu": "95/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-08-16",
+     "het_hieu_luc_tu": "2023-06-06",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=190819"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "2284-qd-bkhcn#10",
+   "slug": "2284-qd-bkhcn",
+   "duong_dan": "wiki/sources/2284-qd-bkhcn.md",
+   "loai_trang": "sources",
+   "tieu_de": "QĐ 2284/QĐ-BKHCN — Công bố Bảng mã HS phương tiện đo nhóm 2 phải phê duyệt mẫu kiểm tra nhà nước về đo lường khi nhập khẩu",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/kiem-tra-chuyen-nganh]]\n- [[concepts/ktcl-bkhcn-2026]]\n- [[concepts/phan-loai-ma-hs]]\n- [[concepts/thu-tuc-hai-quan-xnk]]",
+   "tags": [
+    "quyet-dinh",
+    "bkhcn",
+    "kiem-tra-chuyen-nganh",
+    "nhom-2",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "medium",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "2284-qd-bkhcn#11",
+   "slug": "2284-qd-bkhcn",
+   "duong_dan": "wiki/sources/2284-qd-bkhcn.md",
+   "loai_trang": "sources",
+   "tieu_de": "QĐ 2284/QĐ-BKHCN — Công bố Bảng mã HS phương tiện đo nhóm 2 phải phê duyệt mẫu kiểm tra nhà nước về đo lường khi nhập khẩu",
+   "muc": "Related sources",
+   "noi_dung": "- [[sources/08-2015-nd-cp]] (Nghị định quy định chi tiết thi hành Luật Hải quan)\n- [[sources/2711-qd-bkhcn]] (QĐ `2711/QĐ-BKHCN` — Danh mục sản phẩm, hàng hóa nhóm 2 kiểm tra chất lượng thuộc BKHCN)\n- `65/2017/TT-BTC` (Danh mục hàng hóa XNK Việt Nam dùng làm mốc mã HS trong Phụ lục — chưa có trang wiki)\n- `03-2024-tt-bkhcn` (Thông tư của BKHCN cập nhật danh mục phương tiện đo nhóm 2 từ `15/10/2024` — chưa nạp vào sổ)\n- `23-2013-tt-bkhcn` & `28-2013-tt-bkhcn` (Thông tư về phương tiện đo nhóm 2 và kiểm tra nhà nước về đo lường — chưa nạp vào sổ)",
+   "tags": [
+    "quyet-dinh",
+    "bkhcn",
+    "kiem-tra-chuyen-nganh",
+    "nhom-2",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "medium",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "2711/QĐ-BKHCN",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2022-12-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?classid=2&docid=207275&pageid=27160"
+    },
+    {
+     "so_hieu": "65/2017/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-01",
+     "het_hieu_luc_tu": "2022-12-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "31/2022/TT-BTC"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=190622"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "2284-qd-bkhcn#12",
+   "slug": "2284-qd-bkhcn",
+   "duong_dan": "wiki/sources/2284-qd-bkhcn.md",
+   "loai_trang": "sources",
+   "tieu_de": "QĐ 2284/QĐ-BKHCN — Công bố Bảng mã HS phương tiện đo nhóm 2 phải phê duyệt mẫu kiểm tra nhà nước về đo lường khi nhập khẩu",
+   "muc": "Open questions",
+   "noi_dung": "- Cần săn bản PDF ký số gốc bậc A của `2284/QĐ-BKHCN` trên cổng `most.gov.vn` / `mst.gov.vn` để gỡ cờ chặn `THIEU_PDF_A` và nâng `confidence` lên `high`.\n- Cần nạp `03-2024-tt-bkhcn`, `23-2013-tt-bkhcn`, `28-2013-tt-bkhcn` và trích bảng mã HS `danh-muc/2284-qd-bkhcn.csv` để đối chiếu ánh xạ mã HS hiện hành (từ `65/2017/TT-BTC` sang AHTN 2022).",
+   "tags": [
+    "quyet-dinh",
+    "bkhcn",
+    "kiem-tra-chuyen-nganh",
+    "nhom-2",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "medium",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "2284/QĐ-BKHCN",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-08-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vntr.moit.gov.vn/storage/doc/file/1632882390%20_%202284_QD-BKHCN.pdf"
+    },
+    {
+     "so_hieu": "65/2017/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-01",
+     "het_hieu_luc_tu": "2022-12-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "31/2022/TT-BTC"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=190622"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "2284-qd-bkhcn#13",
+   "slug": "2284-qd-bkhcn",
+   "duong_dan": "wiki/sources/2284-qd-bkhcn.md",
+   "loai_trang": "sources",
+   "tieu_de": "QĐ 2284/QĐ-BKHCN — Công bố Bảng mã HS phương tiện đo nhóm 2 phải phê duyệt mẫu kiểm tra nhà nước về đo lường khi nhập khẩu",
+   "muc": "Notes",
+   "noi_dung": "- Toàn văn đọc từ `raw/download/vntr.moit.gov.vn/2284-qd-bkhcn.pdf` (238.071 bytes, 7 trang có lớp chữ, SHA-256 `480f7d37b62be3a79e7b25548ba5bf5d15a339068c54b59d5318d330eb5d4821`).\n- Nguồn là bản đánh máy lại do Bộ Công Thương đăng tải trên Cổng thông tin thương mại (`vntr.moit.gov.vn`), chưa phải PDF ký số gốc của BKHCN nên giữ nguyên trạng thái `NGUON_B`, `confidence: medium`.\n- Đã trích xuất và đối chiếu nguyên văn cả 4 điều (`Điều 1` – `Điều 4`) vào `xac_minh.dieu_khoan` trong `registry/van-ban/2284-qd-bkhcn.yaml`.",
+   "tags": [
+    "quyet-dinh",
+    "bkhcn",
+    "kiem-tra-chuyen-nganh",
+    "nhom-2",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "medium",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -118157,15 +118373,480 @@
    "slug": "51-2018-tt-bct",
    "duong_dan": "wiki/sources/51-2018-tt-bct.md",
    "loai_trang": "sources",
-   "tieu_de": "Sửa đổi, bổ sung một số điều của Thông tư liên tịch số 47/2011/TTLT-BCT-BTNMT ngày 30 tháng 12 năm 2011 của Bộ trưởng Bộ Công Thương và Bộ trưởng Bộ Tài nguyên và Môi trường quy định việc quản lý nhập khẩu, xuất khẩu và tạm nhập - tái xuất các chất làm suy giảm tầng ô-dôn theo quy định của Nghị định thư Montreal về các chất làm suy giảm tầng ô-dôn",
+   "tieu_de": "TT 51/2018/TT-BCT — Sửa đổi TTLT 47/2011 quản lý XNK, TNTX các chất làm suy giảm tầng ô-dôn (HCFC)",
    "muc": "Summary",
-   "noi_dung": "**Sửa đổi, bổ sung một số điều của Thông tư liên tịch số 47/2011/TTLT-BCT-BTNMT ngày 30 tháng 12 năm 2011 của Bộ trưởng Bộ Công Thương và Bộ trưởng Bộ Tài nguyên và Môi trường quy định việc quản lý nhập khẩu, xuất khẩu và tạm nhập - tái xuất các chất làm suy giảm tầng ô-dôn theo quy định của Nghị định thư Montreal về các chất làm suy giảm tầng ô-dôn** (51/2018/TT-BCT) ban hành 2018-12-19, có hiệu lực 2019-02-04.\n\n**Cơ quan ban hành**: Bộ Công Thương",
+   "noi_dung": "**Thông tư 51/2018/TT-BCT** do Bộ trưởng Bộ Công Thương Trần Tuấn Anh ký ban hành ngày **19/12/2018**, có hiệu lực thi hành từ ngày **04/02/2019** (Điều 5), sửa đổi, bổ sung một số điều của **Thông tư liên tịch số 47/2011/TTLT-BCT-BTNMT** ngày 30/12/2011 quy định việc quản lý nhập khẩu, xuất khẩu và tạm nhập - tái xuất các chất làm suy giảm tầng ô-dôn theo Nghị định thư Montreal. Văn bản gồm **5 điều và 02 phụ lục** (**Phụ lục IIb** mẫu Đơn đăng ký nhập khẩu các chất HCFC và **Phụ lục VIIb** mẫu Báo cáo tình hình nhập khẩu các chất HCFC).\n\nVề tình trạng hiệu lực, Thông tư đang ở trạng thái **hết hiệu lực một phần** (`HET_HIEU_LUC_MOT_PHAN`) kể từ ngày **05/02/2020** do **Điều 4** (chế độ báo cáo) đã bị bãi bỏ bởi điểm b khoản 2 Điều 37 **Thông tư 42/2019/TT-BCT** ([[sources/42-2019-tt-bct]]); đồng thời văn bản gốc được sửa đổi là `47/2011/TTLT-BCT-BTNMT` đã hết hiệu lực từ ngày `20/02/2022` khi chuyển sang cơ chế quản lý chất làm suy giảm tầng ô-dôn theo pháp luật bảo vệ môi trường mới.",
    "tags": [
+    "thong-tu",
     "bct",
-    "kiem-tra-chuyen-nganh",
-    "khai-bao-hai-quan"
+    "quan-ly-ngoai-thuong",
+    "giay-phep",
+    "hoa-chat",
+    "het-hieu-luc-mot-phan"
    ],
-   "confidence": "medium",
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "51/2018/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2019-02-04",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "42/2019/TT-BCT"
+     ],
+     "nguon_a": "https://moit.gov.vn/van-ban-phap-luat/van-ban-dieu-hanh/-thong-tu-sua-doi-bo-sung-mot-so-dieu-cua-thong-tu-lien-tich.html"
+    },
+    {
+     "so_hieu": "47/2011/TTLT-BCT-BTNMT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2012-02-15",
+     "het_hieu_luc_tu": "2022-02-20",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-lien-tich-so-47-2011-ttlt-bct-btnmt-5581.htm"
+    },
+    {
+     "so_hieu": "42/2019/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2020-02-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://chinhphu.vn/default.aspx?docid=198850&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "51-2018-tt-bct#2",
+   "slug": "51-2018-tt-bct",
+   "duong_dan": "wiki/sources/51-2018-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 51/2018/TT-BCT — Sửa đổi TTLT 47/2011 quản lý XNK, TNTX các chất làm suy giảm tầng ô-dôn (HCFC)",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 19/12/2018 | Bộ trưởng Bộ Công Thương ban hành **Thông tư 51/2018/TT-BCT** |\n| 04/02/2019 | **Có hiệu lực thi hành** (khoản 1 Điều 5) |\n| 05/02/2020 | **Điều 4** (Chế độ báo cáo) bị bãi bỏ bởi điểm b khoản 2 Điều 37 **Thông tư 42/2019/TT-BCT** ([[sources/42-2019-tt-bct]]) (`HET_HIEU_LUC_MOT_PHAN`) |\n| 20/02/2022 | Văn bản gốc `47/2011/TTLT-BCT-BTNMT` hết hiệu lực toàn bộ khi thay thế bởi cơ chế quản lý mới về bảo vệ tầng ô-dôn |",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "giay-phep",
+    "hoa-chat",
+    "het-hieu-luc-mot-phan"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "51/2018/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2019-02-04",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "42/2019/TT-BCT"
+     ],
+     "nguon_a": "https://moit.gov.vn/van-ban-phap-luat/van-ban-dieu-hanh/-thong-tu-sua-doi-bo-sung-mot-so-dieu-cua-thong-tu-lien-tich.html"
+    },
+    {
+     "so_hieu": "42/2019/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2020-02-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://chinhphu.vn/default.aspx?docid=198850&pageid=27160"
+    },
+    {
+     "so_hieu": "47/2011/TTLT-BCT-BTNMT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2012-02-15",
+     "het_hieu_luc_tu": "2022-02-20",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-lien-tich-so-47-2011-ttlt-bct-btnmt-5581.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "51-2018-tt-bct#3",
+   "slug": "51-2018-tt-bct",
+   "duong_dan": "wiki/sources/51-2018-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 51/2018/TT-BCT — Sửa đổi TTLT 47/2011 quản lý XNK, TNTX các chất làm suy giảm tầng ô-dôn (HCFC)",
+   "muc": "Cấu trúc (5 điều và 2 Phụ lục)",
+   "noi_dung": "| Phần | Nội dung | Phạm vi sửa đổi TTLT 47/2011 | Trang PDF |\n|---|---|---|---|\n| **Điều 1** | Nguyên tắc quản lý nhập khẩu các chất làm suy giảm tầng ô-dôn | Sửa đổi, bổ sung khoản 3 Điều 2 `47/2011/TTLT-BCT-BTNMT` | Trang 1 – 2 |\n| **Điều 2** | Thủ tục cấp giấy phép nhập khẩu các chất HCFC | Bổ sung điểm a khoản 2 Điều 4 `47/2011/TTLT-BCT-BTNMT` (Phụ lục IIb thay thế Phụ lục II) | Trang 2 |\n| **Điều 3** | Thủ tục tạm nhập tái xuất các chất HCFC | Sửa đổi, bổ sung khoản 1 Điều 7 `47/2011/TTLT-BCT-BTNMT` dẫn chiếu `69/2018/NĐ-CP` | Trang 2 |\n| **Điều 4** | Chế độ báo cáo *(đã bị bãi bỏ từ 05/02/2020)* | Sửa đổi, bổ sung Điều 8 `47/2011/TTLT-BCT-BTNMT` (Phụ lục VIIb thay thế Phụ lục VII) | Trang 2 |\n| **Điều 5** | Hiệu lực thi hành | Hiệu lực từ **04/02/2019** và trách nhiệm phản ánh vướng mắc về BCT | Trang 2 – 3 |\n| **Phụ lục IIb** | Đơn đăng ký nhập khẩu các chất HCFC | Mẫu đơn đăng ký gửi Bộ Công Thương (thay thế Phụ lục II) | Trang 4 |\n| **Phụ lục VIIb** | Mẫu báo cáo tình hình nhập khẩu các chất HCFC | Bảng kê giấy phép BCT, mã HS, số hiệu tờ khai hải quan, khối lượng (kg), trị giá (USD) | Trang 5 |",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "giay-phep",
+    "hoa-chat",
+    "het-hieu-luc-mot-phan"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "47/2011/TTLT-BCT-BTNMT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2012-02-15",
+     "het_hieu_luc_tu": "2022-02-20",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-lien-tich-so-47-2011-ttlt-bct-btnmt-5581.htm"
+    },
+    {
+     "so_hieu": "69/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-05-15",
+     "het_hieu_luc_tu": "2026-09-05",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "292/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193756&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "51-2018-tt-bct#4",
+   "slug": "51-2018-tt-bct",
+   "duong_dan": "wiki/sources/51-2018-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 51/2018/TT-BCT — Sửa đổi TTLT 47/2011 quản lý XNK, TNTX các chất làm suy giảm tầng ô-dôn (HCFC)",
+   "muc": "Nội dung chi tiết các điều > Điều 1. Nguyên tắc quản lý nhập khẩu các chất làm suy giảm tầng ô-dôn",
+   "noi_dung": "> “3. Việc quản lý nhập khẩu các chất HCFC thuộc Phụ lục I Thông tư số 47 được thực hiện theo các nguyên tắc sau:”\n\n- **Giấy phép nhập khẩu (điểm a):** Việc nhập khẩu các chất HCFC thuộc Phụ lục I Thông tư số 47 thực hiện **theo giấy phép của Bộ Công Thương**.\n- **Điều hành hạn ngạch liên bộ (điểm b):** Trên cơ sở lượng hạn ngạch nhập khẩu chất HCFC tại Điều 3 Thông tư 47, báo cáo tình hình thực hiện nhập khẩu và đăng ký nhập khẩu năm tiếp theo của thương nhân, Bộ Công Thương trao đổi với Bộ Tài nguyên và Môi trường về đối tượng được phép nhập khẩu và phương thức điều hành.\n- **Mốc đăng ký năm tiếp theo (điểm c):** Thương nhân phải **báo cáo tình hình thực hiện nhập khẩu và đăng ký nhập khẩu cho năm tiếp theo trước tháng 12 hàng năm**.",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "giay-phep",
+    "hoa-chat",
+    "het-hieu-luc-mot-phan"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "51-2018-tt-bct#5",
+   "slug": "51-2018-tt-bct",
+   "duong_dan": "wiki/sources/51-2018-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 51/2018/TT-BCT — Sửa đổi TTLT 47/2011 quản lý XNK, TNTX các chất làm suy giảm tầng ô-dôn (HCFC)",
+   "muc": "Nội dung chi tiết các điều > Điều 2. Thủ tục cấp giấy phép nhập khẩu các chất HCFC",
+   "noi_dung": "- Bổ sung điểm a khoản 2 Điều 4 Thông tư `47/2011/TTLT-BCT-BTNMT`:\n  - Hồ sơ đề nghị cấp giấy phép phải kèm **Đơn đăng ký nhập khẩu các chất HCFC theo mẫu tại Phụ lục IIb** ban hành kèm theo Thông tư này (gồm tên chất, khối lượng nhập khẩu dự kiến (kg), khối lượng đăng ký (kg), số/ngày hợp đồng nhập khẩu, nước xuất khẩu).\n  - **Phụ lục IIb** thay thế Phụ lục II của Thông tư 47.",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "giay-phep",
+    "hoa-chat",
+    "het-hieu-luc-mot-phan"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "47/2011/TTLT-BCT-BTNMT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2012-02-15",
+     "het_hieu_luc_tu": "2022-02-20",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-lien-tich-so-47-2011-ttlt-bct-btnmt-5581.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "51-2018-tt-bct#6",
+   "slug": "51-2018-tt-bct",
+   "duong_dan": "wiki/sources/51-2018-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 51/2018/TT-BCT — Sửa đổi TTLT 47/2011 quản lý XNK, TNTX các chất làm suy giảm tầng ô-dôn (HCFC)",
+   "muc": "Nội dung chi tiết các điều > Điều 3. Thủ tục tạm nhập tái xuất các chất HCFC",
+   "noi_dung": "- Sửa đổi, bổ sung khoản 1 Điều 7 của Thông tư `47/2011/TTLT-BCT-BTNMT`:\n  - **Thủ tục tạm nhập, tái xuất các chất HCFC** thực hiện theo quy định tại **Nghị định `69/2018/NĐ-CP`** ngày 15/05/2018 của Chính phủ quy định chi tiết một số điều của **[[sources/05-2017-qh14|Luật Quản lý ngoại thương]]**.",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "giay-phep",
+    "hoa-chat",
+    "het-hieu-luc-mot-phan"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "47/2011/TTLT-BCT-BTNMT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2012-02-15",
+     "het_hieu_luc_tu": "2022-02-20",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-lien-tich-so-47-2011-ttlt-bct-btnmt-5581.htm"
+    },
+    {
+     "so_hieu": "69/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-05-15",
+     "het_hieu_luc_tu": "2026-09-05",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "292/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193756&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "51-2018-tt-bct#7",
+   "slug": "51-2018-tt-bct",
+   "duong_dan": "wiki/sources/51-2018-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 51/2018/TT-BCT — Sửa đổi TTLT 47/2011 quản lý XNK, TNTX các chất làm suy giảm tầng ô-dôn (HCFC)",
+   "muc": "Nội dung chi tiết các điều > Điều 4. Chế độ báo cáo *(đã bị bãi bỏ)*",
+   "noi_dung": "- Trước khi bị bãi bỏ từ `05/02/2020` bởi điểm b khoản 2 Điều 37 **[[sources/42-2019-tt-bct|Thông tư 42/2019/TT-BCT]]**, Điều này sửa đổi Điều 8 Thông tư `47/2011/TTLT-BCT-BTNMT` yêu cầu thương nhân báo cáo tình hình nhập khẩu HCFC theo **Phụ lục VIIb** (thay thế Phụ lục VII):\n  - **Báo cáo quý:** gửi Bộ Công Thương **trước ngày 5 của quý tiếp theo**;\n  - **Báo cáo năm:** gửi Bộ Công Thương **trước tháng 12 hàng năm** (kèm kế hoạch đăng ký nhập khẩu năm tiếp theo).",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "giay-phep",
+    "hoa-chat",
+    "het-hieu-luc-mot-phan"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "42/2019/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2020-02-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://chinhphu.vn/default.aspx?docid=198850&pageid=27160"
+    },
+    {
+     "so_hieu": "47/2011/TTLT-BCT-BTNMT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2012-02-15",
+     "het_hieu_luc_tu": "2022-02-20",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-lien-tich-so-47-2011-ttlt-bct-btnmt-5581.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "51-2018-tt-bct#8",
+   "slug": "51-2018-tt-bct",
+   "duong_dan": "wiki/sources/51-2018-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 51/2018/TT-BCT — Sửa đổi TTLT 47/2011 quản lý XNK, TNTX các chất làm suy giảm tầng ô-dôn (HCFC)",
+   "muc": "Nội dung chi tiết các điều > Điều 5. Hiệu lực thi hành",
+   "noi_dung": "- Thông tư có hiệu lực thi hành kể từ ngày **04/02/2019**.\n- Thương nhân, tổ chức, cá nhân có vướng mắc phát sinh phản ánh bằng văn bản về Bộ Công Thương để xem xét, hướng dẫn.",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "giay-phep",
+    "hoa-chat",
+    "het-hieu-luc-mot-phan"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "51-2018-tt-bct#9",
+   "slug": "51-2018-tt-bct",
+   "duong_dan": "wiki/sources/51-2018-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 51/2018/TT-BCT — Sửa đổi TTLT 47/2011 quản lý XNK, TNTX các chất làm suy giảm tầng ô-dôn (HCFC)",
+   "muc": "Căn cứ pháp lý",
+   "noi_dung": "- **[[sources/05-2017-qh14|Luật Quản lý ngoại thương số 05/2017/QH14]]** ngày 12/06/2017.\n- **Nghị định số `98/2017/NĐ-CP`** ngày 18/08/2017 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương.\n- **Nghị định số `69/2018/NĐ-CP`** ngày 15/05/2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương.\n- **Công ước Viên năm 1985** về bảo vệ tầng ô-dôn và **Nghị định thư Montreal năm 1987** về các chất làm suy giảm tầng ô-dôn cùng các văn kiện sửa đổi, bổ sung mà Việt Nam tham gia.",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "giay-phep",
+    "hoa-chat",
+    "het-hieu-luc-mot-phan"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "05/2017/QH14",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=190308&pageid=27160"
+    },
+    {
+     "so_hieu": "98/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-08-18",
+     "het_hieu_luc_tu": "2022-12-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "96/2022/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=190821"
+    },
+    {
+     "so_hieu": "69/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-05-15",
+     "het_hieu_luc_tu": "2026-09-05",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "292/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193756&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "51-2018-tt-bct#10",
+   "slug": "51-2018-tt-bct",
+   "duong_dan": "wiki/sources/51-2018-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 51/2018/TT-BCT — Sửa đổi TTLT 47/2011 quản lý XNK, TNTX các chất làm suy giảm tầng ô-dôn (HCFC)",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/thu-tuc-hai-quan-xnk]]\n- [[concepts/hoa-chat-nguy-hiem-trong-hang-hoa]]\n- [[concepts/giay-phep-hoa-chat-co-dieu-kien]]",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "giay-phep",
+    "hoa-chat",
+    "het-hieu-luc-mot-phan"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "51-2018-tt-bct#11",
+   "slug": "51-2018-tt-bct",
+   "duong_dan": "wiki/sources/51-2018-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 51/2018/TT-BCT — Sửa đổi TTLT 47/2011 quản lý XNK, TNTX các chất làm suy giảm tầng ô-dôn (HCFC)",
+   "muc": "Related sources",
+   "noi_dung": "- `47/2011/TTLT-BCT-BTNMT` (Thông tư liên tịch gốc quy định quản lý XNK, TNTX các chất làm suy giảm tầng ô-dôn — đã hết hiệu lực từ 20/02/2022, chưa có trang wiki)\n- [[sources/42-2019-tt-bct]] (Thông tư `42/2019/TT-BCT` — Điều 37 khoản 2 điểm b bãi bỏ Điều 4 Thông tư `51/2018/TT-BCT` từ ngày `05/02/2020`)\n- [[sources/05-2017-qh14]] (Luật Quản lý ngoại thương `05/2017/QH14`)\n- `69/2018/NĐ-CP` (Nghị định quy định chi tiết Luật Quản lý ngoại thương — chưa có trang wiki)",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "giay-phep",
+    "hoa-chat",
+    "het-hieu-luc-mot-phan"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "47/2011/TTLT-BCT-BTNMT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2012-02-15",
+     "het_hieu_luc_tu": "2022-02-20",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-lien-tich-so-47-2011-ttlt-bct-btnmt-5581.htm"
+    },
+    {
+     "so_hieu": "42/2019/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2020-02-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://chinhphu.vn/default.aspx?docid=198850&pageid=27160"
+    },
+    {
+     "so_hieu": "51/2018/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2019-02-04",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "42/2019/TT-BCT"
+     ],
+     "nguon_a": "https://moit.gov.vn/van-ban-phap-luat/van-ban-dieu-hanh/-thong-tu-sua-doi-bo-sung-mot-so-dieu-cua-thong-tu-lien-tich.html"
+    },
+    {
+     "so_hieu": "05/2017/QH14",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=190308&pageid=27160"
+    },
+    {
+     "so_hieu": "69/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-05-15",
+     "het_hieu_luc_tu": "2026-09-05",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "292/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193756&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "51-2018-tt-bct#12",
+   "slug": "51-2018-tt-bct",
+   "duong_dan": "wiki/sources/51-2018-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 51/2018/TT-BCT — Sửa đổi TTLT 47/2011 quản lý XNK, TNTX các chất làm suy giảm tầng ô-dôn (HCFC)",
+   "muc": "Open questions",
+   "noi_dung": "- Cần đối chiếu đầy đủ các điều khoản quản lý HCFC/HFC thay thế trong hệ thống văn bản bảo vệ môi trường sau năm 2022 để cập nhật đồng bộ lược đồ chuyển tiếp từ `47/2011/TTLT-BCT-BTNMT` và `51/2018/TT-BCT`.",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "quan-ly-ngoai-thuong",
+    "giay-phep",
+    "hoa-chat",
+    "het-hieu-luc-mot-phan"
+   ],
+   "confidence": "high",
    "van_ban_lien_quan": [
     {
      "so_hieu": "47/2011/TTLT-BCT-BTNMT",
@@ -118193,139 +118874,36 @@
    "canh_bao_hieu_luc": false
   },
   {
-   "chunk_id": "51-2018-tt-bct#2",
+   "chunk_id": "51-2018-tt-bct#13",
    "slug": "51-2018-tt-bct",
    "duong_dan": "wiki/sources/51-2018-tt-bct.md",
    "loai_trang": "sources",
-   "tieu_de": "Sửa đổi, bổ sung một số điều của Thông tư liên tịch số 47/2011/TTLT-BCT-BTNMT ngày 30 tháng 12 năm 2011 của Bộ trưởng Bộ Công Thương và Bộ trưởng Bộ Tài nguyên và Môi trường quy định việc quản lý nhập khẩu, xuất khẩu và tạm nhập - tái xuất các chất làm suy giảm tầng ô-dôn theo quy định của Nghị định thư Montreal về các chất làm suy giảm tầng ô-dôn",
-   "muc": "Tình trạng hiệu lực",
-   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 2018-12-19 | Bộ Công Thương ban hành |\n| 2019-02-04 | Có hiệu lực |\n| Đang hiệu lực | |",
-   "tags": [
-    "bct",
-    "kiem-tra-chuyen-nganh",
-    "khai-bao-hai-quan"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "51-2018-tt-bct#3",
-   "slug": "51-2018-tt-bct",
-   "duong_dan": "wiki/sources/51-2018-tt-bct.md",
-   "loai_trang": "sources",
-   "tieu_de": "Sửa đổi, bổ sung một số điều của Thông tư liên tịch số 47/2011/TTLT-BCT-BTNMT ngày 30 tháng 12 năm 2011 của Bộ trưởng Bộ Công Thương và Bộ trưởng Bộ Tài nguyên và Môi trường quy định việc quản lý nhập khẩu, xuất khẩu và tạm nhập - tái xuất các chất làm suy giảm tầng ô-dôn theo quy định của Nghị định thư Montreal về các chất làm suy giảm tầng ô-dôn",
-   "muc": "Cấu trúc",
-   "noi_dung": "- **5 điều** (theo OCR)\n- Không có mã HS in (TT về quy trình hoặc quản lý chung)",
-   "tags": [
-    "bct",
-    "kiem-tra-chuyen-nganh",
-    "khai-bao-hai-quan"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "51-2018-tt-bct#4",
-   "slug": "51-2018-tt-bct",
-   "duong_dan": "wiki/sources/51-2018-tt-bct.md",
-   "loai_trang": "sources",
-   "tieu_de": "Sửa đổi, bổ sung một số điều của Thông tư liên tịch số 47/2011/TTLT-BCT-BTNMT ngày 30 tháng 12 năm 2011 của Bộ trưởng Bộ Công Thương và Bộ trưởng Bộ Tài nguyên và Môi trường quy định việc quản lý nhập khẩu, xuất khẩu và tạm nhập - tái xuất các chất làm suy giảm tầng ô-dôn theo quy định của Nghị định thư Montreal về các chất làm suy giảm tầng ô-dôn",
-   "muc": "Căn cứ pháp lý (theo OCR)",
-   "noi_dung": "Căn cứ Luật tổ chức Chính phủ ngày 19 tháng 6 năm 2015, | Căn cứ Luật bảo hiểm xã hội ngày 20 tháng 11 năm 2014; | Căn cứ Luật việc làm ngày 16 tháng 11 năm 2013,",
-   "tags": [
-    "bct",
-    "kiem-tra-chuyen-nganh",
-    "khai-bao-hai-quan"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "51-2018-tt-bct#5",
-   "slug": "51-2018-tt-bct",
-   "duong_dan": "wiki/sources/51-2018-tt-bct.md",
-   "loai_trang": "sources",
-   "tieu_de": "Sửa đổi, bổ sung một số điều của Thông tư liên tịch số 47/2011/TTLT-BCT-BTNMT ngày 30 tháng 12 năm 2011 của Bộ trưởng Bộ Công Thương và Bộ trưởng Bộ Tài nguyên và Môi trường quy định việc quản lý nhập khẩu, xuất khẩu và tạm nhập - tái xuất các chất làm suy giảm tầng ô-dôn theo quy định của Nghị định thư Montreal về các chất làm suy giảm tầng ô-dôn",
-   "muc": "Nội dung chính",
-   "noi_dung": "- Điều 1: Phạm vi điều chỉnh, đối tượng áp dụng\n- Điều 2: Chỉ phí quản lý bảo hiểm xã hội, bảo hiểm thất nghiệp, bảo\n- Điều 3: Mức chỉ tiền lương đối với cán bộ, công chức, viên chức và\n- Điều 4: Hiệu lực thi hành\n- Điều 5: Tổ chức thực hiện",
-   "tags": [
-    "bct",
-    "kiem-tra-chuyen-nganh",
-    "khai-bao-hai-quan"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "51-2018-tt-bct#6",
-   "slug": "51-2018-tt-bct",
-   "duong_dan": "wiki/sources/51-2018-tt-bct.md",
-   "loai_trang": "sources",
-   "tieu_de": "Sửa đổi, bổ sung một số điều của Thông tư liên tịch số 47/2011/TTLT-BCT-BTNMT ngày 30 tháng 12 năm 2011 của Bộ trưởng Bộ Công Thương và Bộ trưởng Bộ Tài nguyên và Môi trường quy định việc quản lý nhập khẩu, xuất khẩu và tạm nhập - tái xuất các chất làm suy giảm tầng ô-dôn theo quy định của Nghị định thư Montreal về các chất làm suy giảm tầng ô-dôn",
-   "muc": "Quy trình khai báo HQ",
-   "noi_dung": "1. Xác định hàng theo phạm vi KTCL\n2. Tra mã HS theo Danh mục hàng hóa XK NK VN\n3. Nộp hồ sơ KTCL tại Bộ Công Thương\n4. Cấp Giấy chứng nhận / Phiếu công bố\n5. Khai báo HQ\n6. Thông quan",
-   "tags": [
-    "bct",
-    "kiem-tra-chuyen-nganh",
-    "khai-bao-hai-quan"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "51-2018-tt-bct#7",
-   "slug": "51-2018-tt-bct",
-   "duong_dan": "wiki/sources/51-2018-tt-bct.md",
-   "loai_trang": "sources",
-   "tieu_de": "Sửa đổi, bổ sung một số điều của Thông tư liên tịch số 47/2011/TTLT-BCT-BTNMT ngày 30 tháng 12 năm 2011 của Bộ trưởng Bộ Công Thương và Bộ trưởng Bộ Tài nguyên và Môi trường quy định việc quản lý nhập khẩu, xuất khẩu và tạm nhập - tái xuất các chất làm suy giảm tầng ô-dôn theo quy định của Nghị định thư Montreal về các chất làm suy giảm tầng ô-dôn",
-   "muc": "Related concepts (chưa có wiki)",
-   "noi_dung": "- kiem-tra-chuyen-nganh",
-   "tags": [
-    "bct",
-    "kiem-tra-chuyen-nganh",
-    "khai-bao-hai-quan"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "51-2018-tt-bct#8",
-   "slug": "51-2018-tt-bct",
-   "duong_dan": "wiki/sources/51-2018-tt-bct.md",
-   "loai_trang": "sources",
-   "tieu_de": "Sửa đổi, bổ sung một số điều của Thông tư liên tịch số 47/2011/TTLT-BCT-BTNMT ngày 30 tháng 12 năm 2011 của Bộ trưởng Bộ Công Thương và Bộ trưởng Bộ Tài nguyên và Môi trường quy định việc quản lý nhập khẩu, xuất khẩu và tạm nhập - tái xuất các chất làm suy giảm tầng ô-dôn theo quy định của Nghị định thư Montreal về các chất làm suy giảm tầng ô-dôn",
-   "muc": "Related sources",
-   "noi_dung": "- (Các VB liên quan trong nhánh kiem-tra-chuyen-nganh)",
-   "tags": [
-    "bct",
-    "kiem-tra-chuyen-nganh",
-    "khai-bao-hai-quan"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "51-2018-tt-bct#9",
-   "slug": "51-2018-tt-bct",
-   "duong_dan": "wiki/sources/51-2018-tt-bct.md",
-   "loai_trang": "sources",
-   "tieu_de": "Sửa đổi, bổ sung một số điều của Thông tư liên tịch số 47/2011/TTLT-BCT-BTNMT ngày 30 tháng 12 năm 2011 của Bộ trưởng Bộ Công Thương và Bộ trưởng Bộ Tài nguyên và Môi trường quy định việc quản lý nhập khẩu, xuất khẩu và tạm nhập - tái xuất các chất làm suy giảm tầng ô-dôn theo quy định của Nghị định thư Montreal về các chất làm suy giảm tầng ô-dôn",
+   "tieu_de": "TT 51/2018/TT-BCT — Sửa đổi TTLT 47/2011 quản lý XNK, TNTX các chất làm suy giảm tầng ô-dôn (HCFC)",
    "muc": "Notes",
-   "noi_dung": "- Đã đọc toàn văn qua `datafiles.chinhphu.vn` (PDF 657KB)\n- **5 điều** (theo OCR tesseract vie 200dpi)\n- Không có mã HS in (TT về quy trình)",
+   "noi_dung": "- Đã thay thế tệp bị nạp nhầm trước đây (`raw/download/datafiles.chinhphu.vn/51-2018-tt-bct.pdf`, vốn là Quyết định `51-2018-qd-ttg` về chi phí quản lý BHXH/BHTN/BHYT) bằng tệp PDF chính thức bậc A của Bộ Công Thương tại `raw/download/moit.gov.vn/51-2018-tt-bct.pdf` (`285.412` bytes, 5 trang có lớp chữ điện tử, SHA-256 `c23b8f68f4aadc3e9c0deef159df5047ce376cb0f1b78ff66c43397ade533d3b`).\n- Đã trích xuất và đối chiếu nguyên văn cả 5 điều (`Điều 1` – `Điều 5`) vào `xac_minh.dieu_khoan` trong `registry/van-ban/51-2018-tt-bct.yaml` và biên soạn lại `data/doc-hieu/51-2018-tt-bct.dieu.jsonl` theo đúng toàn văn `51/2018/TT-BCT`.",
    "tags": [
+    "thong-tu",
     "bct",
-    "kiem-tra-chuyen-nganh",
-    "khai-bao-hai-quan"
+    "quan-ly-ngoai-thuong",
+    "giay-phep",
+    "hoa-chat",
+    "het-hieu-luc-mot-phan"
    ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "51/2018/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2019-02-04",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "42/2019/TT-BCT"
+     ],
+     "nguon_a": "https://moit.gov.vn/van-ban-phap-luat/van-ban-dieu-hanh/-thong-tu-sua-doi-bo-sung-mot-so-dieu-cua-thong-tu-lien-tich.html"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
