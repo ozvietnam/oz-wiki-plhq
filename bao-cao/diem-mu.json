@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-22",
-  "tong": 3088,
+  "tong": 3084,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -1994,15 +1994,6 @@
     {
       "ma": "WIKI_CHUA_CO_VB_NEN_TANG",
       "muc": "Vừa",
-      "tieuDe": "116/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/116-2022-nd-cp.md",
-      "muc_tieu": "116/2022/NĐ-CP",
-      "viec": "Đã có toàn văn (raw/download/datafiles.chinhphu.vn/116-2022-nd-cp.pdf) nhưng chưa có wiki/sources/116-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_CHUA_CO_VB_NEN_TANG",
-      "muc": "Vừa",
       "tieuDe": "116/2025/QH15: văn bản nền tảng chưa có trang wiki/sources/116-2025-qh15.md",
       "muc_tieu": "116/2025/QH15",
       "viec": "Đã có toàn văn (raw/download/datafiles.chinhphu.vn/116-2025-qh15.pdf) nhưng chưa có wiki/sources/116-2025-qh15.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.",
@@ -2174,15 +2165,6 @@
     {
       "ma": "WIKI_CHUA_CO_VB_NEN_TANG",
       "muc": "Vừa",
-      "tieuDe": "117/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/117-2022-nd-cp.md",
-      "muc_tieu": "117/2022/NĐ-CP",
-      "viec": "Đã có toàn văn (raw/download/datafiles.chinhphu.vn/117-2022-nd-cp.pdf) nhưng chưa có wiki/sources/117-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_CHUA_CO_VB_NEN_TANG",
-      "muc": "Vừa",
       "tieuDe": "117/2025/QH15: văn bản nền tảng chưa có trang wiki/sources/117-2025-qh15.md",
       "muc_tieu": "117/2025/QH15",
       "viec": "Đã có toàn văn (raw/download/datafiles.chinhphu.vn/117-2025-qh15.pdf) nhưng chưa có wiki/sources/117-2025-qh15.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.",
@@ -2277,15 +2259,6 @@
       "muc_tieu": "1173/TB-TCHQ/2020",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_CHUA_CO_VB_NEN_TANG",
-      "muc": "Vừa",
-      "tieuDe": "118/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/118-2022-nd-cp.md",
-      "muc_tieu": "118/2022/NĐ-CP",
-      "viec": "Đã có toàn văn (raw/download/datafiles.chinhphu.vn/118-2022-nd-cp.pdf) nhưng chưa có wiki/sources/118-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.",
-      "luong": "doc-hieu",
       "trongSo": 0
     },
     {
@@ -6084,6 +6057,15 @@
       "muc_tieu": "1898/TB-TCHQ/2018",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "19/2018/TT-BNNPTNT: chưa có toàn văn trong raw/",
+      "muc_tieu": "19/2018/TT-BNNPTNT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"19/2018/TT-BNNPTNT\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -25767,24 +25749,6 @@
       "muc_tieu": "99899/TB-TCHQ/2023",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 19/2018/TT-BNNPTNT nhưng sổ chưa có",
-      "muc_tieu": "19/2018/TT-BNNPTNT",
-      "viec": "Thêm vào sổ (wiki/sources/01-2022-tt-bnnptnt.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 13/2020/TT-BNNPTNT nhưng sổ chưa có",
-      "muc_tieu": "13/2020/TT-BNNPTNT",
-      "viec": "Thêm vào sổ (wiki/sources/01-2022-tt-bnnptnt.md).",
-      "luong": "lien-ket-cheo",
       "trongSo": 0
     },
     {

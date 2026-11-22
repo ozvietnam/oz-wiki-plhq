@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-2924 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2931 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -260,9 +260,9 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [113/2022/NĐ-CP](../registry/van-ban/113-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thương mại tự do giữa một bên là nước Cộng hòa xã hội chủ nghĩa Việt Nam và bên kia là Liên minh Kinh tế Á - Âu và các quốc gia thành viên giai đoạn 2022 - 2027
 - 🟢 [114/2022/NĐ-CP](../registry/van-ban/114-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa Cuba giai đoạn 2022 - 2027
 - 🟢 [115/2022/NĐ-CP](../registry/van-ban/115-2022-nd-cp.yaml) — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương giai đoạn 2022 - 2027
-- 🟢 [116/2022/NĐ-CP](../registry/van-ban/116-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi EVFTA
-- 🟢 [117/2022/NĐ-CP](../registry/van-ban/117-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi UKVFTA
-- 🟢 [118/2022/NĐ-CP](../registry/van-ban/118-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi ACFTA
+- 🟢 [116/2022/NĐ-CP](../registry/van-ban/116-2022-nd-cp.yaml) — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu giai đoạn 2022 - 2027
+- 🟢 [117/2022/NĐ-CP](../registry/van-ban/117-2022-nd-cp.yaml) — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên hiệp Vương quốc Anh và Bắc Ai-len giai đoạn 2022 - 2027
+- 🟢 [118/2022/NĐ-CP](../registry/van-ban/118-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại hàng hóa ASEAN - Trung Quốc giai đoạn 2022 - 2027
 - 🟢 [119/2022/NĐ-CP](../registry/van-ban/119-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi AKFTA
 - 🟢 [120/2022/NĐ-CP](../registry/van-ban/120-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi AJCEP
 - 🟢 [121/2022/NĐ-CP](../registry/van-ban/121-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi AANZFTA
@@ -298,13 +298,15 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Biểu thuế XNK (TT-BCT, quy tắc mặt hàng cụ thể các FTA) `thue/bieu-thue-xnk`
 
-28 văn bản, 10 chưa hết hiệu lực.
+30 văn bản, 12 chưa hết hiệu lực.
 
 - 🟢 [112/2022/NĐ-CP](../registry/van-ban/112-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa Chi Lê giai đoạn 2022 - 2027
 - 🟢 [113/2022/NĐ-CP](../registry/van-ban/113-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thương mại tự do giữa một bên là nước Cộng hòa xã hội chủ nghĩa Việt Nam và bên kia là Liên minh Kinh tế Á - Âu và các quốc gia thành viên giai đoạn 2022 - 2027
 - 🟢 [114/2022/NĐ-CP](../registry/van-ban/114-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa Cuba giai đoạn 2022 - 2027
 - 🟢 [115/2022/NĐ-CP](../registry/van-ban/115-2022-nd-cp.yaml) — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương giai đoạn 2022 - 2027
-- 🟢 [116/2022/NĐ-CP](../registry/van-ban/116-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi EVFTA
+- 🟢 [116/2022/NĐ-CP](../registry/van-ban/116-2022-nd-cp.yaml) — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu giai đoạn 2022 - 2027
+- 🟢 [117/2022/NĐ-CP](../registry/van-ban/117-2022-nd-cp.yaml) — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên hiệp Vương quốc Anh và Bắc Ai-len giai đoạn 2022 - 2027
+- 🟢 [118/2022/NĐ-CP](../registry/van-ban/118-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại hàng hóa ASEAN - Trung Quốc giai đoạn 2022 - 2027
 - 🟢 [125/2022/NĐ-CP](../registry/van-ban/125-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi VKFTA
 - ⚫ [127/2022/NĐ-CP](../registry/van-ban/127-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa dân chủ nhân dân Lào từ ngày 30 tháng 12 năm 2022 đến ngày 04 tháng 10 năm 2023 _(hết hiệu lực 2023-10-04)_
 - 🟢 [41/2022/TT-BCT](../registry/van-ban/41-2022-tt-bct.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 11/2020/TT-BCT ngày 15 tháng 6 năm 2020 của Bộ trưởng Bộ Công Thương quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Thương mại tự do giữa Việt Nam và Liên minh châu Âu
@@ -376,7 +378,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2241 văn bản, 2241 chưa hết hiệu lực.
+2246 văn bản, 2246 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -443,6 +445,11 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [19488/TB-CHQ/2026](../registry/van-ban/19488-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Vỏ hộp bộ điều khiển điện tử trong hệ thống phanh ABS của xe máy Housing, ECU, ký mã hiệu 009V79185-00000, mã số 8536.90.94)
 - 🟢 [19489/TB-CHQ/2026](../registry/van-ban/19489-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Vỏ hộp bộ điều khiển điện tử trong hệ thống phanh ABS của xe máy Housing, ECU, ký mã hiệu 009V79187-00000, mã số 8536.90.94)
 - 🟢 [19411/TB-CHQ/2026](../registry/van-ban/19411-tb-chq-2026.yaml) — Thông báo đính chính Thông báo kết quả xác định trước mã số (Đính chính Mục 3 Thông báo số 19329/TB-CHQ ngày 23/7/2026 từ phân nhóm 8507.90 thành phân nhóm 8705.90, mã số 8705.90.90)
+- 🟢 [19329/TB-CHQ/2026](../registry/van-ban/19329-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị trình diễn, diễu hành và giải trí tự hành trong công viên chủ đề Theme Park Parade Entertainment Float, mã số 8705.90.90)
+- 🟢 [19276/TB-CHQ/2026](../registry/van-ban/19276-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Tượng nghệ thuật trang trí bằng kim loại hình hoa súng cách điệu Water Lily, mã số 9703.90.00)
+- 🟢 [19277/TB-CHQ/2026](../registry/van-ban/19277-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Miếng bảo vệ bằng nhôm của tai nghe không dây Bluetooth, mã số 8518.90.90)
+- 🟢 [18873/TB-CHQ/2026](../registry/van-ban/18873-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ vòng thử cỡ ngón tay dùng với nhẫn thông minh Galaxy Ring Size Kit, mã số 9031.80.90)
+- 🟢 [18772/TB-CHQ/2026](../registry/van-ban/18772-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cụm cầu sau xe ô tô chở người dưới 9 chỗ ngồi RR Suspension Module, mã số 8708.50.26)
 - 🟢 [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - 🟢 [1489/TB-CHQ/2026](../registry/van-ban/1489-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1633/TB-CHQ/2026](../registry/van-ban/1633-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2710.12.99)
@@ -2694,11 +2701,14 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Hiệp định FTA (ACFTA, ATIGA, RCEP, CPTPP, EVFTA...) `xuat-xu-fta/hiep-dinh`
 
-10 văn bản, 6 chưa hết hiệu lực.
+13 văn bản, 9 chưa hết hiệu lực.
 
 - 🟢 [143/2026/NĐ-CP](../registry/van-ban/143-2026-nd-cp.yaml) — Ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện Việt Nam – Tiểu vương quốc Ả Rập Thống nhất (CEPA), giai đoạn 2026–2027
 - 🟢 [113/2022/NĐ-CP](../registry/van-ban/113-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thương mại tự do giữa một bên là nước Cộng hòa xã hội chủ nghĩa Việt Nam và bên kia là Liên minh Kinh tế Á - Âu và các quốc gia thành viên giai đoạn 2022 - 2027
 - 🟢 [114/2022/NĐ-CP](../registry/van-ban/114-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa Cuba giai đoạn 2022 - 2027
+- 🟢 [116/2022/NĐ-CP](../registry/van-ban/116-2022-nd-cp.yaml) — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu giai đoạn 2022 - 2027
+- 🟢 [117/2022/NĐ-CP](../registry/van-ban/117-2022-nd-cp.yaml) — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên hiệp Vương quốc Anh và Bắc Ai-len giai đoạn 2022 - 2027
+- 🟢 [118/2022/NĐ-CP](../registry/van-ban/118-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại hàng hóa ASEAN - Trung Quốc giai đoạn 2022 - 2027
 - 🟢 [328/QĐ-TTg](../registry/van-ban/328-qd-ttg-2022.yaml) — Về việc chỉ định các cơ quan đầu mối để triển khai Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)
 - 🟢 [01/QĐ-TTg](../registry/van-ban/01-qd-ttg-2022.yaml) — Phê duyệt Kế hoạch thực hiện Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)
 - 🟢 [18/NQ-CP](../registry/van-ban/18-nq-cp-2021.yaml) — Phê duyệt Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)
@@ -2721,10 +2731,9 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 #### VCFTA / VKFTA (Việt Nam – Liên minh châu Âu / Hàn Quốc) `xuat-xu-fta/hiep-dinh/vcfeta`
 
-9 văn bản, 7 chưa hết hiệu lực.
+8 văn bản, 6 chưa hết hiệu lực.
 
 - 🟢 [126/QĐ-TTg](../registry/van-ban/126-qd-ttg-2026.yaml) — Chỉ định các cơ quan đầu mối để triển khai thực hiện Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu (EVFTA)
-- 🟢 [116/2022/NĐ-CP](../registry/van-ban/116-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi EVFTA
 - 🟢 [125/2022/NĐ-CP](../registry/van-ban/125-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi VKFTA
 - 🟢 [41/2022/TT-BCT](../registry/van-ban/41-2022-tt-bct.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 11/2020/TT-BCT ngày 15 tháng 6 năm 2020 của Bộ trưởng Bộ Công Thương quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Thương mại tự do giữa Việt Nam và Liên minh châu Âu
 - ⚫ [111/2020/NĐ-CP](../registry/van-ban/111-2020-nd-cp.yaml) — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu giai đoạn 2020 - 2022 _(hết hiệu lực 2022-12-30)_
@@ -3055,7 +3064,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Nông nghiệp và Môi trường `kiem-tra-chuyen-nganh/bnnmt`
 
-30 văn bản, 14 chưa hết hiệu lực.
+32 văn bản, 15 chưa hết hiệu lực.
 
 - 🟢 [44/2026/TT-BNNMT](../registry/van-ban/44-2026-tt-bnnmt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 27/2026/TT-BNNMT ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Nông nghiệp và Môi trường ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Môi trường
 - 🟢 [91/2026/VBHN-TT-BNNMT](../registry/van-ban/91-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư ban hành Danh mục loài cây trồng biến đổi gen được phép khảo nghiệm đánh giá rủi ro đối với đa dạng sinh học và môi trường cho mục đích làm giống cây trồng ở Việt Nam
@@ -3073,11 +3082,13 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟡 [01/2022/TT-BNNPTNT](../registry/van-ban/01-2022-tt-bnnptnt.yaml) — Sửa đổi, bổ sung một số Thông tư trong lĩnh vực thủy sản
 - ⚫ [16/2021/TT-BNNPTNT](../registry/van-ban/16-2021-tt-bnnptnt.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Phát triển nông thôn _(hết hiệu lực 2026-07-01)_
 - ⚫ [11/2021/TT-BNNPTNT](../registry/van-ban/11-2021-tt-bnnptnt.yaml) — Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn _(hết hiệu lực 2024-03-20)_
+- ⚫ [13/2020/TT-BNNPTNT](../registry/van-ban/13-2020-tt-bnnptnt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 21/2018/TT-BNNPTNT ngày 15/11/2018 quy định ghi, nộp báo cáo, nhật ký khai thác thủy sản; công bố cảng cá chỉ định xác nhận nguồn gốc thủy sản từ khai thác; danh sách tàu cá khai thác thủy sản bất hợp pháp; xác nhận nguyên liệu, chứng nhận nguồn gốc thủy sản khai thác _(hết hiệu lực 2022-03-04)_
 - 🟢 [102/2020/NĐ-CP](../registry/van-ban/102-2020-nd-cp.yaml) — Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam
 - ⚫ [29/2019/TT-BNN](../registry/van-ban/29-2019-tt-bnn.yaml) — Quy định xử lý động vật rừng là tang vật, vật chứng; động vật rừng do tổ chức, cá nhân tự nguyện giao nộp Nhà nước _(hết hiệu lực 2025-07-01)_
 - 🟢 [06/2019/NĐ-CP](../registry/van-ban/06-2019-nd-cp.yaml) — Về quản lý thực vật rừng, động vật rừng nguy cấp, quý, hiếm và thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp
 - ⚫ [26/2018/TT-BLĐTBXH](../registry/van-ban/26-2018-tt-bldtbxh.yaml) — Quy định về quản lý chất lượng sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội _(hết hiệu lực 2026-07-28)_
 - ⚫ [27/2018/TT-BNNPTNT](../registry/van-ban/27-2018-tt-bnnptnt.yaml) — Quy định về quản lý, truy xuất nguồn gốc lâm sản _(hết hiệu lực 2023-02-15)_
+- 🟡 [19/2018/TT-BNNPTNT](../registry/van-ban/19-2018-tt-bnnptnt.yaml) — Hướng dẫn về bảo vệ và phát triển nguồn lợi thủy sản
 - ⚫ [26/2018/TT-BNNPTNT](../registry/van-ban/26-2018-tt-bnnptnt.yaml) — Quy định về quản lý giống thủy sản, thức ăn thủy sản, sản phẩm xử lý môi trường nuôi trồng thủy sản _(hết hiệu lực 2026-03-09)_
 - 🟡 [04/2018/TT-BNNPTNT](../registry/van-ban/04-2018-tt-bnnptnt.yaml) — Quy định tiêu chí, trình tự, thủ tục công nhận tiến bộ kỹ thuật trong nông nghiệp
 - ⚫ [21/2017/TT-BNNPTNT](../registry/van-ban/21-2017-tt-bnnptnt.yaml) — Hướng dẫn thực hiện Quyết định số 886/QĐ-TTg ngày 16/6/2017 của Thủ tướng Chính phủ phê duyệt Chương trình mục tiêu phát triển Lâm nghiệp bền vững giai đoạn 2016 - 2020 _(hết hiệu lực 2021-01-01)_

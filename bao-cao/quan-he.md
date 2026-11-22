@@ -727,9 +727,9 @@ flowchart LR
   n_113_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_150_2017_N__CP
   n_114_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_39_2020_N__CP
   n_115_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_57_2019_N__CP
-  n_116_2022_N__CP -->|thay thế| n_111_2020_N__CP
+  n_116_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_111_2020_N__CP
   n_117_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_53_2021_N__CP
-  n_118_2022_N__CP -->|thay thế| n_153_2017_N__CP
+  n_118_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_153_2017_N__CP
   n_119_2022_N__CP -->|thay thế| n_157_2017_N__CP
   n_120_2022_N__CP -->|thay thế| n_160_2017_N__CP
   n_121_2022_N__CP -->|thay thế| n_158_2017_N__CP
