@@ -17,9 +17,27 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, trích yếu, ngày ban hành 06-04-2026 và ngày có hiệu lực 06-04-2026 trên vanban.chinhphu.vn (docid=217667); đối chiếu toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/15-2026-nq-cp.pdf, wiki/sources/15-2026-nq-cp.md) tiếp tục tạm ngưng hiệu lực NĐ 46/2026/NĐ-CP'
+  pham_vi: số hiệu, trích yếu, ngày ban hành 06-04-2026 và ngày có hiệu lực 06-04-2026 trên vanban.chinhphu.vn (docid=217667); đối chiếu toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/15-2026-nq-cp.pdf, wiki/sources/15-2026-nq-cp.md) tiếp tục tạm ngưng hiệu lực NĐ 46/2026/NĐ-CP
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Tam ngung hiéu luc 4p dung van ban Tạm ngưng hiệu lực áp dụng cho đến khi Luật An toàn thực phẩm (sửa đổi) và Nghị định hướng dẫn Luật An toàn thực phẩm (sửa đối) có hiệu lực thi hành đối với các văn bản sau đây: 1. Nghị định số 46/2026/NĐ-CP ngày 26 tháng 01 năm 2026 của Chính phủ quy định chỉ tiết thi hành một số điều và biện pháp dé tổ chức, › hướng dẫn thi hành Luật An toàn thực phẩm.'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Áp dụng văn bản trong thời gian tạm ngưng hiệu lực Trong thời gian tạm ngưng hiệu lực theo quy định tại Điều 1 Nghị quyết này, Nghị định sô 15/2018/NĐ-CP ngày 02 tháng 02 năm 2018 của Chính phủ quy định chi tiết thi hành một số điều của Luật An toàn thực phẩm và các văn ban quy dinh, hướng dẫn thi hành tiếp tục có hiệu lực.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: 'Điều 3. Trách nhiệm tỗ chức thực hiện | 1. Các Bộ: Y tế, Công Thương, Nông nghiệp và Môi trường a) Chủ động hướng dẫn tô chức triển khai thi hành Nghị quyết này theo lĩnh vực được phân công quản lý.'
+      trang_pdf: 2
+    - dieu: 4
+      noi_dung: Điều 4. Điêu khoản chuyển tiếp Đối với các hồ sơ đã nộp trước ngày Nghị quy ết này có hiệu lực được tiếp tục giải quyết theo quy định tại Nghị định số 15/2018/NĐ-CP ngày 02 tháng 02 năm 2018 của Chính phủ quy định chỉ tiết thi hành một số điều của Luật An toàn thực phẩm và các văn bản quy định, hướng dẫn có liên quan.
+      trang_pdf: 4
+    - dieu: 5
+      noi_dung: Điều 5. Hiệu lực thi hành | L. Nghĩ quyết này có hiệu lực thi hành kể từ ngày ký ban hành và thay thé Nghị | quyết số 09/2026/NQ-CP ngày 04 thang 02 năm 2026 của Chính phủ tạm ngưng hiệu | lực và điều chỉnh thời hạn áp dụng Nghị định số 46/2026/NĐ-CP ngày 26 tháng 01 năm 2026 và Nghị quyết số 66.13/2026/NQ-CP ngày 27 tháng 01 năm 2026. 2. Các Bộ, cơ quan ngang Bộ, Ủy ban nhân dân tỉnh, thành phố chịu trách | nhiệm thi hành Nghị quyết nay. /
+      trang_pdf: 4
 ghi_chu: 'Trích yếu cổng Chính phủ cũng tạm ngưng Nghị quyết 66.13/2026/NQ-CP. Nghị quyết này chưa có trong sổ, nên chưa ghi quan hệ. Người ký trên thẻ: Lê Thành Long. Chưa đọc điều khoản.'
-toan_van: raw/download/datafiles.chinhphu.vn/15-2026-nq-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/15-2026-nq-cp.pdf
+  - raw/ocr/15-2026-nq-cp.ocr.txt

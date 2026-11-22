@@ -18,9 +18,42 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, trích yếu, ngày ban hành 02-02-2018, hiệu lực 02-02-2018 trên vanban.chinhphu.vn (docid=192829) và toàn văn OCR 59 trang (raw/download/datafiles.chinhphu.vn/15-2018-nd-cp.pdf); còn hiệu lực (NĐ 46/2026/NĐ-CP thay thế đang bị tạm ngưng), hợp nhất tại VBHN 15/VBHN-VPQH ngày 23-02-2026'
+  pham_vi: số hiệu, trích yếu, ngày ban hành 02-02-2018, hiệu lực 02-02-2018 trên vanban.chinhphu.vn (docid=192829) và toàn văn OCR 59 trang (raw/download/datafiles.chinhphu.vn/15-2018-nd-cp.pdf); còn hiệu lực (NĐ 46/2026/NĐ-CP thay thế đang bị tạm ngưng), hợp nhất tại VBHN 15/VBHN-VPQH ngày 23-02-2026
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Nghị định này quy định chỉ tiết thi hành một số điều của Luật an toàn thực phẩm về: 1. Thủ tục tự công bố sản phẩm. 2. Thủ tục đăng ký bản công bố sản phẩm. 3. Bảo đảm an toàn thực phẩm biến đổi gen. 4. Cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm. 5. Kiểm tra nhà nước về an toàn thực phẩm nhập khẩu, xuất khẩu. 6. Ghi nhãn thực phẩm. 7. Quảng cáo thực phẩm.'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng Nghị định này áp dụng đối với cơ quan, tô chức, cá nhân Việt Nam; tổ chức, cá nhân nước ngoài tại Việt Nam tham gia sản xuất, kinh doanh thực phẩm; tổ chức, cá nhân có hoạt động liên quan đến an toàn thực phẩm tại Việt Nam (sau đây gọi chung là tổ chức, cá nhân).
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: 'Điều 3. Giải thích từ ngữ Trong Nghị định này, các từ ngữ sau đây được hiểu như sau: 1. Thực phẩm bảo vệ sức khỏe (Health Supplement, Dietary Supplement) là những sản phâm được dùng dé bé sung thêm vào chế độ ăn uông hàng ngày nhằm duy trì, tăng cường, cải thiện các chức năng của cơ thể con người, giám nguy cơ mắc bệnh. Thực phẩm bảo vệ sức khỏe chứa một hoặc nhiều chất hoặc hỗn hợp các chất sau:'
+      trang_pdf: 2
+    - dieu: 10
+      noi_dung: Điều 10. Ghi nhãn đối với hàng hóa chứa sinh vật biến đỗi gen, sản phẩm của sinh vật biến đổi gen sử dụng làm thực phẩm
+      trang_pdf: 8
+    - dieu: 15
+      noi_dung: Điều 15. Cơ quan kiểm tra nhà nước đối với thực phẩm nhập khẩu 1. Cơ quan kiểm tra nhà nước đối với thực phẩm nhập khẩu là cơ quan được Bộ Y tế, Bộ Nông nghiệp và Phát triển nông thôn hoặc Bộ Công Thương giao hoặc chỉ định. _ Trường hợp một lô hàng nhập khẩu có nhiều loại thực phẩm thuộc thâm quyền quản lý của nhiêu bộ thì cơ quan kiêm tra nhà nước là cơ quan được Bộ Nông nghiệp và Phát trién nông thôn giao hoặc chỉ định.
+      trang_pdf: 11
+    - dieu: 20
+      noi_dung: 'Điều 20. Xử lý thực phẩm không đạt yêu cầu thực phẩm nhập khẩu 1. Sau khi hoàn tất việc xử lý đối với thực phâm không đạt yêu cầu nhập khẩu theo quyết định của cơ quan kiểm tra nhà nước, chủ hàng có trách nhiệm báo cáo cơ quan kiểm tra nhà nước và cơ quan tiếp nhận hồ sơ công bô một trong các giấy tờ sau: a) Chứng từ tái xuất đối với trường hợp áp dụng hình thức tái xuất; b) Biên bản tiêu hủy có xác nhận của cơ quan có thầm quyền;'
+      trang_pdf: 15
+    - dieu: 26
+      noi_dung: Điều 26. Các thực phẩm phải đăng ký nội dung trước khi quảng cáo 1. Thực phẩm bảo vệ sức khỏe, thực phẩm dinh dưỡng y học, thực phẩm dùng cho chê độ ăn đặc biệt. 2. Sản phẩm dinh dưỡng dùng cho trẻ đến 36 tháng tudi không thuộc trường hợp câm quảng cáo quy định tại Điều 7 của Luật quảng cáo.
+      trang_pdf: 19
+    - dieu: 31
+      noi_dung: Điều 31. Quy định về phụ gia thực phẩm đơn chất 1. Phụ gia thực phẩm thuộc danh mục các chất phụ gia được phép sử dung trong thực pham do Bộ Y tế quy định thuộc đối tượng tự công bô. 2. Thủ tục tự công bố sản phẩm đối với phụ gia thực phẩm đơn chất thực hiện theo quy định tại Điều 5 Nghị định này.
+      trang_pdf: 24
+    - dieu: 36
+      noi_dung: Điều 36. Nguyên tắc phân công trách nhiệm quản ly nha nước về an toàn thực phẩm 1. Trên cơ sở các quy định của Luật an toàn thực phẩm và bảo đảm phù hợp với các văn bản pháp luật có liên quan. 2. Trên cơ sở thông nhật quản ly nha nước vệ an toàn thực pham. 3. Bảo đảm việc quản lý xuyên suốt toàn bộ quá trình sản xuất, kinh doanh thực phẩm. 4. Phối hợp chặt chẽ giữa các bộ ngành.
+      trang_pdf: 25
+    - dieu: 43
+      noi_dung: Điều 43. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành từ ngày 02 tháng 02 năm 2018. 2. Thay thế Nghị định số 38/2012/NĐ-CP ngày 25 tháng 4 năm 2012 của Chính phủ quy định chi tiết thi hành một số điều của Luật an toàn thực phẩm;
+      trang_pdf: 30
 ghi_chu: 'Vẫn áp dụng tại 10/2026 vì NĐ 46/2026/NĐ-CP thay thế đang bị tạm ngưng. Đã đọc toàn văn 09/10/2026 qua OCR: 7 chương, KTCL ATTP Điều 13 (miễn), 16 (3 phương thức), 19 (3+7 ngày). VBHN 15/VBHN-VPQH ngày 23/02/2026.'
-toan_van: raw/download/datafiles.chinhphu.vn/15-2018-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/15-2018-nd-cp.pdf
+  - raw/ocr/15-2018-nd-cp.ocr.txt

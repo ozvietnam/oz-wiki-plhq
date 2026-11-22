@@ -17,17 +17,41 @@ danh_muc_hs:
   trich_boi: cursor-agent@ozvietnam
   ngay: '2026-10-12'
   da_doi_chieu: false
-  ghi_chu: 'Bảng CSV sẵn có trên main (54 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
+  ghi_chu: Bảng CSV sẵn có trên main (54 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.
 xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF ký số datafiles.chinhphu.vn (ảnh quét, 7 trang): Điều 6 hiệu lực từ 02-09-2026 (viết tay); Điều 5 khoản 2 chuyển tiếp 24 tháng cho sản phẩm đã được cấp phép lưu thông; chưa đăng Công báo (dò ID 469850–470720 ngày 05-10-2026)'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-05'
   boi: claude-code@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Thông tư này quy định Danh mục sản phẩm mật mã dân sự có mức độ rủi ro cao thuộc phạm vi quản lý của Bộ trưởng Bộ Quốc phòng kèm theo mã số HS phù hợp với Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam và yêu cầu quản lý chất lượng tương ứng.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng 1. Tổ chức, cá nhân sản xuất, kinh doanh, nhập khẩu sản phẩm mật mã dân sự có mức độ rủi ro cao được quy định tại Danh mục ban hành kèm theo Thông tư này. 2. Cơ quan, don vi, tổ chức, cá nhân có hoạt động liên quan đến quản lý chât lượng sản phẩm mật mã dân sự có mức độ rủi ro cao được quy định tại Danh mục ban hành kèm theo Thông tư này.
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: 'Điều 3. Danh mục sản pham mật mã dân sự có mức độ rủi ro cao Danh mục sản phẩm, hàng hóa có mức độ rủi ro cao và yêu cầu quản lý chât lượng tương ứng được quy định như sau: 1. Danh mục sản phâm mật mã dân sự có mức độ rủi ro cao thuộc phạm vi quản lý của Bộ trưởng Bộ Quốc phòng được quy định tại Phụ lục ban hành kèm theo Thông tư này.'
+      trang_pdf: 2
+    - dieu: 4
+      noi_dung: Điều 4. Nguyên tac quan lý san phầm mật mã dân sự có mức độ rủi ro cao thuộc phạm vi quản lý của Bộ trưởng Bộ Quoc phòng
+      trang_pdf: 2
+    - dieu: 5
+      noi_dung: Điều 5. Điều khoản chuyển tiếp 1. Trường hợp văn bản quy phạm pháp luật, quy chuẩn kỹ thuật quốc gia hoặc mã số HS quy định tại Danh mục hàng hóa xuất khâu, nhập khâu Việt Nam được dẫn chiếu tại Thông tư này được sửa đổi, bố sung hoặc thay thế thì thực hiện theo văn bản sửa đổi, bổ sung hoặc thay thế, trừ trường hợp văn bản đó có quy định chuyền tiếp khác.
+      trang_pdf: 3
+    - dieu: 6
+      noi_dung: Điều 6. Hiệu lực thi hành Thông tư này có hiệu lực thi hành ké từ ngày 74 tháng 7. năm 2026.
+      trang_pdf: 3
+    - dieu: 7
+      noi_dung: Điều 7. Tổ chức thực hiện 1. Trưởng ban Ban Cơ yếu Chính phủ, Thủ trưởng các cơ quan, đơn vị và các t6 chức, cá nhân có liên quan chịu trách nhiệm thi hành Thông tu này.
+      trang_pdf: 3
 ghi_chu: 'Cơ quan: Ban Cơ yếu Chính phủ. Chuyển tiếp 24 tháng cho sản phẩm đã cấp phép. Liên quan NĐ 341/2026/NĐ-CP. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.'
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=219388&pageid=27160
     truy_cap: '2026-10-04'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/126-bqp.signed.pdf
     truy_cap: '2026-10-05'
-toan_van: raw/download/datafiles.chinhphu.vn/126-2026-tt-bqp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/126-2026-tt-bqp.pdf
+  - raw/ocr/126-2026-tt-bqp.ocr.txt

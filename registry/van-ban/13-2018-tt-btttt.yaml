@@ -13,7 +13,9 @@ nguon:
     truy_cap: '2026-10-04'
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-13-2018-tt-btttt-27516.htm
     truy_cap: '2026-10-04'
-toan_van: raw/download/datafiles.chinhphu.vn/13-2018-tt-btttt.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/13-2018-tt-btttt.pdf
+  - raw/ocr/13-2018-tt-btttt.ocr.txt
 danh_muc_thay_boi: 10/2022/TT-BTTTT
 xac_minh:
   muc: NGUON_A
@@ -21,3 +23,40 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Thông tư này quy định Danh mục sản phẩm an toàn thông tin mạng nhập khẩu theo giấy phép và trình tự, thủ tục, hồ sơ cấp Giây phép nhập khâu sản phẩm an toàn thông tin mạng (sau đây gọi tắt là Giấy phép nhập khẩu).
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng Thông tư này áp dụng đối với các doanh nghiệp đã được cấp Giấy phép kinh doanh sản phẩm, dịch vụ an toàn thông tin mạng thực hiện hoạt động nhập khẩu sản phẩm an toàn thông tin mạng thuộc Danh mục. 1
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Sản phẩm an toàn thông tin mạng nhập khẩu theo giấy phép 1. Danh mục sản phẩm an toàn thông tin mạng nhập khẩu theo giấy phép được quy định tại Phụ lục I của Thông tư này. 2. Sản phẩm an toàn thông tin mạng nhập khẩu theo giấy phép là thiết bi hoàn chỉnh có đặc tính kỹ thuật, mô ta hàng hóa theo đúng chỉ tiêu kỹ thuật, cấu trúc thiết kế, có thể hoạt động độc lập; không áp dụng đối với linh kiện hoặc phụ kiện hoặc bộ phận của sản phẩm.
+      trang_pdf: 2
+    - dieu: 4
+      noi_dung: Điều 4. Hiệu lực của Giấy phép nhập khẩu Thời hạn hiệu lực của Giấy phép nhập khẩu là 02 (hai) năm hoặc bằng thời hạn hiệu lực của Giấy phép kinh doanh sản phẩm, dịch vụ an toàn thông tin mạng của doanh nghiệp trong trường hợp thời hạn hiệu lực của Giấy phép kinh doanh sản phẩm, dich vụ an toàn thông tin mạng còn ít hơn 02 (hai) năm.
+      trang_pdf: 2
+    - dieu: 5
+      noi_dung: Điều 5. Lệ phí cấp, cấp lại Giấy phép nhập khẩu Doanh nghiệp nhập khẩu sản phẩm an toàn thông tin mạng có nghĩa vụ nộp lệ phí cấp, cấp lại Giấy phép nhập khẩu theo quy định tại Thông tư số 269/2016/TT-BTC ngày 14 tháng 11 năm 2016 của Bộ trưởng Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí và lệ phí thuộc lĩnh vực an toàn thông tin. Chương II CAP GIAY PHÉP NHẬP KHẨU
+      trang_pdf: 2
+    - dieu: 6
+      noi_dung: Điều 6. Cơ quan cấp Giấy phép nhập khẩu Bộ Thông tin và Truyền thông (Cục An toàn thông tin) là cơ quan cấp Giấy phép nhập khẩu.
+      trang_pdf: 2
+    - dieu: 7
+      noi_dung: 'Điều 7. Hồ sơ đề nghị cấp Giấy phép nhập khẩu Hồ sơ đề nghị cấp Giấy phép nhập khẩu được lập thành 01 (một) bộ, bao gồm: 1. Đơn đề nghị cấp Giấy phép nhập khẩu theo Mẫu số 01 tại Phụ lục II của Thông tư này. . 2. Giấy phép kinh doanh sản phẩm, dịch vụ an toàn thông tin mạng: bản sao. 3. Giấy chứng nhận hoặc công bố hợp chuân, hợp quy: bản sao có chứng thực, trường hợp ban sao không có chứng thực thì mang bản chính dé đối chiếu.'
+      trang_pdf: 2
+    - dieu: 8
+      noi_dung: 'Điều 8. Tiếp nhận hồ sơ và cấp Giấy phép nhập khẩu 1. Doanh nghiệp nộp hồ sơ theo một trong các hình thức sau đây:'
+      trang_pdf: 2
+    - dieu: 9
+      noi_dung: Điều 9. Tham định và cấp Giấy phép nhập khẩu 1. Trong thời han 02 (hai) ngày làm việc ké từ ngày nhận hồ sơ, Cục An toàn thông tin kiểm tra và gửi thông báo cho doanh nghiệp về tính đầy đủ của hồ sơ theo quy định tại Điều 7 của Thông tư này bằng văn bản hoặc hình thức điện tử. 2. Trường hợp hồ sơ chưa đầy đủ, doanh nghiệp có trách nhiệm thực hiện bổ sung theo yêu cầu của Cục An toàn thông tin.
+      trang_pdf: 3
+    - dieu: 10
+      noi_dung: Điều 10. Cấp lại Giấy phép nhập khẩu 1. Đối với Giấy phép nhập khẩu còn hiệu lực và bị mất hoặc bị hư hỏng, doanh nghiệp gửi don dé nghị cấp lại Giấy phép nhập khẩu theo Mẫu số 02 tại Phụ lục II của Thông tư này tới Bộ Thông tin và Truyền thông (Cục An toàn thông tin). 2. Trong thời han 03 (ba) ngày làm việc ké từ ngày nhận được đơn hợp lệ, Bộ Thông tin và Truyền thông xem xét cấp lại Giấy phép nhập khẩu cho doanh nghiệp.
+      trang_pdf: 4
+    - dieu: 11
+      noi_dung: Điều 11. Điều khoản chuyền tiếp Doanh nghiệp chưa phải nộp Giấy chứng nhận hoặc công bố hợp chuẩn, hợp quy tại khoản 3 Điều 7 khi nộp hé sơ đề nghị cấp Giấy phép nhập khẩu sản phẩm an toàn thông tin mạng cho đến khi Bộ Thông tin và Truyền thông ban hành danh mục tiêu chuẩn hoặc quy chuẩn kỹ thuật quốc gia về sản phẩm an toàn thông tin mạng.
+      trang_pdf: 4
+    - dieu: 12
+      noi_dung: Điều 12. Điều khoản thi hành 1. Thông tư này có hiệu lực thi hành ké từ ngay@ tháng Anam 2018. 2. Chánh Văn phòng, Thủ trưởng các đơn vi thuộc Bộ Thông tin và Truyền thông và tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Thông tư này.
+      trang_pdf: 4

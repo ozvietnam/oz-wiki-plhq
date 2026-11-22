@@ -25,6 +25,23 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-21'
   boi: zcode@ozvietnam
-ghi_chu: 'Khoản 15 Điều 1 sửa Điều 16 NĐ 08/2015 (phân loại — TT 85/2026 viện dẫn "NĐ 08/2015 Điều 16 sửa bởi NĐ 167/2025 khoản 15 Điều 1"). Sửa cả phần kiểm tra, xác định trị giá hải quan của NĐ 08/2015. Bãi bỏ NĐ 59/2018/NĐ-CP (văn bản sửa NĐ 08 lần đầu).'
-tu_khoa: [thu-tuc-hai-quan, ktstq]
-toan_van: raw/download/datafiles.chinhphu.vn/167-2025-nd-cp.pdf
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đối, bd sung một số điều của Nghị định số 08/2015/NĐ-CP ngày 21 tháng 01 năm 2015 của Chính phủ quy định chỉ tiết và biện pháp thi hành Luật Hải quan về thủ tục hải quan, kiểm tra, giám sát, kiếm soát hải quan 1. Sửa đối, bô sung khoản 1, khoản 3 Điều 4 như sau: a) Sửa đổi, bỗ sung khoản 1 như sau: “1, Địa điểm làm thủ tục hải quan được thực hiện theo quy định tại Điều 22 Luật Hải quan.'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Thay thế, bãi bỏ một số cụm từ, điểm, khoản, điều của Nghị định số 08/2015/NĐ- CP ngày 21 tháng 01 năm 2015 của Chính phủ quy định chỉ tiết và biện pháp thi hành Luật Hải quan về thủ tục hải quan, kiểm tra, giám sát, kiểm soát hải quan 1. Thay thế một số cụm từ như sau: a) Thay thé cụm từ “Tổng Cục Hải quan” tại khoản 2 Điều 3; khoản 1 Điều 22; khoản 2, khoản 3, khoản 5 Điêu 24 băng cụm từ “Cục Hải quan”;'
+      trang_pdf: 76
+    - dieu: 3
+      noi_dung: Điều 3. Trách nhiệm tổ chức thực hiện Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Uy ban nhân dân tỉnh, thành phô trực thuộc trung ương và
+      trang_pdf: 76
+    - dieu: 4
+      noi_dung: Điều 4. Điều khoản thi hành 1. Hiệu lực thi hành _ Nghị định này có hiệu lực thi hành từ ngày 15 tháng 8 năm 2025. _ Riêng các khoản 5, 6 và 19 Điều 1 Nghị định này sửa đổi, bổ sung Điều 10, Điều 11 và Điêu 35 Nghị định so 08/2015/NĐ-CP ngày 21 thang 01 năm 2015 của Chính phủ có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. 2. Điều khoản chuyển tiếp |
+      trang_pdf: 77
+ghi_chu: Khoản 15 Điều 1 sửa Điều 16 NĐ 08/2015 (phân loại — TT 85/2026 viện dẫn "NĐ 08/2015 Điều 16 sửa bởi NĐ 167/2025 khoản 15 Điều 1"). Sửa cả phần kiểm tra, xác định trị giá hải quan của NĐ 08/2015. Bãi bỏ NĐ 59/2018/NĐ-CP (văn bản sửa NĐ 08 lần đầu).
+tu_khoa:
+  - thu-tuc-hai-quan
+  - ktstq
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/167-2025-nd-cp.pdf
+  - raw/ocr/167-2025-nd-cp.ocr.txt

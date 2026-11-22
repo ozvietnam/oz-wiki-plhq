@@ -19,9 +19,42 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, trích yếu, ngày ban hành 21-01-2015, hiệu lực 15-03-2015 trên vanban.chinhphu.vn (docid=178689) và toàn văn OCR 87 trang (raw/download/datafiles.chinhphu.vn/08-2015-nd-cp.pdf); còn hiệu lực, hợp nhất tại VBHN 15/VBHN-VPQH ngày 23-02-2026'
+  pham_vi: số hiệu, trích yếu, ngày ban hành 21-01-2015, hiệu lực 15-03-2015 trên vanban.chinhphu.vn (docid=178689) và toàn văn OCR 87 trang (raw/download/datafiles.chinhphu.vn/08-2015-nd-cp.pdf); còn hiệu lực, hợp nhất tại VBHN 15/VBHN-VPQH ngày 23-02-2026
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Nghị định này quy định chỉ tiết một số điều và biện pháp thi hành Luật Hải quan về thủ tục hải quan, kiểm tra, giám sát hải quan và kiểm soát hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh, phương tiện vận tải xuất cảnh, nhập cảnh, quá cảnh, thông tin có lên quan đến hoạt động quản lý nhà nước về hải quan.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng 1. Tổ chức, cá nhân thực hiện xuất khẩu, nhập khẩu, quá cảnh hàng hóa, xuất cảnh, nhập cảnh, quá cảnh phương tiện vận tải. 2. Tổ chức, cá nhân có quyền và nghĩa vụ liên quan đến hoạt động xuất khẩu, nhập khâu, quá cảnh hàng hóa; xuất cảnh, nhập cảnh, quá cảnh phương tiện vận tải. 3. Cơ quan hải quan, công chức hải quan. 4. Cơ quan khác của Nhà nước trong việc phối hợp quản lý nhà nước về hải quan.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: 'Điều 3. Giải thích từ ngữ Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: 1. “Thủ tục hải quan điện tử” là thủ tục hải quan trong đó việc khai, tiếp nhận, xử lý thông tin khai hải quan, trao đôi các thông tin khác theo quy định của pháp luật về thủ tục hải quan giữa các bên có liên quan thực hiện thông qua Hệ thống xử lý dữ liệu điện tử hải quan.'
+      trang_pdf: 2
+    - dieu: 20
+      noi_dung: 'Điều 20. Nguyên tắc, phương pháp xác định trị giá hải quan 1. Đối với hàng hóa xuất khẩu: Trị giá hải quan hàng xuất khẩu là giá bán của hàng hóa tính đến cửa khâu xuất, không bao gôm phí bảo hiểm quốc tế và phí vận tải quốc tế.'
+      trang_pdf: 13
+    - dieu: 34
+      noi_dung: 'Điều 34. Giám sát hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh * 1. Giám sat hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh thực hiện theo quy định tại các Điều 38, 39, 40, 41 Luat Hai quan. 2. pé thực hiện c các quy định về giám sát hải quan tại Luật Hải quan, doanh nghiệp kinh doanh cảng, kho, bãi có trách nhiệm:'
+      trang_pdf: 26
+    - dieu: 50
+      noi_dung: 'Điều 50. Thủ tục hải quan đối với thiết bị, máy móc, phương tiện thi công, khuôn, mẫu tạm nhập tái xuất, tạm xuất tái nhập dé sản xuất, thi công công trình, thực hiện dự án, thử nghiệm 1. Hồ sơ hải quan đối với thiết bị, máy móc, phương tiện thi công, khuôn, mẫu tạm nhập - tái xuất: a) Tờ khai hải quan theo mẫu do Bộ Tài chính ban hành;'
+      trang_pdf: 41
+    - dieu: 65
+      noi_dung: 'Điều 65. Hồ sơ hai quan đối với tàu biển xuất cảnh, nhập cảnh, quá cảnh 1. Đối với tàu biển nhập cảnh: a) Bản khai chung; b) Bản khai hàng hóa nhập khẩu bằng đường biển trong trường hợp tàu biển vận chuyển hàng hóa; c) Thông tin về vận đơn thứ cấp trong trường hợp tàu biển vận chuyển hàng hóa; d) Danh sách thuyền viên; đ) Bản khai hành lý thuyền viên, nhân viên làm việc trên tàu biển; li'
+      trang_pdf: 51
+    - dieu: 79
+      noi_dung: 'Điều 79. Tha tục hải quan đối với phương tiện vận tải thủy (thuyền xudng, ca nô) xuất cảnh, nhập cảnh qua cửa khẩu biên giới đường sông 1. Hồ sơ hải quan đối với phương tiện vận tải thủy nhập cảnh (thuyền xudng, ca nô nước ngoài tam nhập; thuyền xudng, ca nô Việt Nam tái nhập), người khai hải quan nộp hoặc xuất trình các giây tờ sau: a) Giấy phép vận tải thủy qua biên giới của cơ quan có thẩm quyền: Xuất trình bản chính;'
+      trang_pdf: 61
+    - dieu: 93
+      noi_dung: Điều 93. Thủ tục hải quan đối với nguyên liệu, vật tư đưa vào, đưa ra kho bảo thuế 1. Thủ tục hải quan đối với nguyên liệu, vật tư nhập khâu đưa vào kho bảo thuê thực hiện như thủ tục hai quan đôi với hang hoá nhập khâu dé sản xuat hàng xuất khẩu, trừ thủ tục nộp thuê. 2. Hàng hóa đưa vào kho bảo thuế chỉ được sử dụng để sản xuất hàng xuất khẩu của chủ kho bảo thuế. 73
+      trang_pdf: 73
+    - dieu: 111
+      noi_dung: Điều 111. Trách nhiệm thi hành 1. Bộ Tài chính hướng dẫn thi hành các điều, khoản được giao tại Nghị định. 86
+      trang_pdf: 86
 ghi_chu: 'Thẻ cổng Chính phủ khớp trích yếu thủ tục hải quan, người ký Nguyễn Tấn Dũng. Đã đọc toàn văn 09/10/2026: 9 chương, 100 điều. Đã sửa bởi NĐ 59/2018/NĐ-CP, hợp nhất tại VBHN 15/VBHN-VPQH (23/02/2026). Sẽ thay thế một phần bởi Luật 11/2026/QH16 (01/03/2027).'
-toan_van: raw/download/datafiles.chinhphu.vn/08-2015-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/08-2015-nd-cp.pdf
+  - raw/ocr/08-2015-nd-cp.ocr.txt
