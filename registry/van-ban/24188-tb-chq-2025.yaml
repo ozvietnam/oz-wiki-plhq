@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 24188/TB-CHQ/2025
+so_hieu_khac:
+  - 24188/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Thiết bị tường lửa thế hệ mới để phát hiện và ngăn chặn các cuộc tấn công mạng bảo vệ hệ thống mạng nội bộ, ký mã hiệu Axgate 13000S, mã số 8517.62.49)'
+co_quan: CHQ
+ngay_ban_hanh: '2025-09-15'
+hieu_luc_tu: '2025-09-15'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=101338&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/9/15/48.VBDI_24188.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/9/15/48.VBDI_24188.pdf, id=101338, SHA-256 0619811cf588f9c95e456dfa2ce019cbbc668cc61cdf5c7151709693621544b8): Thông báo số 24188/TB-CHQ ngày 15-09-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Thiết bị tường lửa thế hệ mới (ký, mã hiệu Axgate 13000S; cấu tạo gồm CPU 16 Core 2.9 GHz x 2, RAM 96GB, lưu trữ hệ thống SSD 250GB, lưu trữ nhật ký SSD 4TB, hệ điều hành chuyên dụng AOS, 4 cổng mạng 10GBASE-R tối đa 32 cổng, 8 cổng 1GBASE-R tối đa 64 cổng và khả năng mở rộng cổng 40G, cổng console RS-232, nguồn điện 100-240VAC hỗ trợ nguồn dự phòng kép, công suất tiêu thụ AVG 144.3W / MAX 450W, khung máy rackmount 2U tiêu chuẩn kích thước 438 x 598 x 88 mm, khối lượng 16 kg; băng thông tường lửa 320 Gbps, băng thông chống xâm nhập 49.3 Gbps, băng thông IPS VPN 41.7 Gbps; hoạt động theo mô hình NGFW thực hiện Packet Inspection, Stateful Inspection, DPI, IPS/IDS, Anti-DDoS, lọc URL/nội dung, kiểm soát băng thông, VPN và mã hóa để phát hiện và ngăn chặn các cuộc tấn công mạng bảo vệ hệ thống mạng nội bộ trong quá trình truyền nhận dữ liệu), phân loại vào nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.49; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Thiết bị tường lửa thế hệ mới để phát hiện và ngăn chặn các cuộc tấn công mạng bảo vệ hệ thống mạng nội bộ dùng cho hệ thống hữu tuyến kỹ thuật số (ký, mã hiệu Axgate 13000S; khung rackmount 2U, CPU 16 Core 2.9 GHz x 2, RAM 96GB, SSD 250GB + 4TB, 4 cổng 10GBASE-R, 8 cổng 1GBASE-R, hệ điều hành AOS, băng thông tường lửa 320 Gbps, tích hợp DPI, IPS/IDS, Anti-DDoS, VPN) thuộc nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.49.'
+toan_van: raw/download/files.customs.gov.vn/24188-tb-chq-2025.pdf
