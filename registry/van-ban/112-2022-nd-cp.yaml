@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — từ sheet HT biểu thuế
 so_hieu: 112/2022/NĐ-CP
 loai: NGHI_DINH
-ten: Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Chi Lê giai đoạn 2022 - 2027
+ten: Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa Chi Lê giai đoạn 2022 - 2027
 co_quan: CP
 ngay_ban_hanh: '2022-12-30'
 hieu_luc_tu: '2022-12-30'
@@ -12,15 +12,52 @@ nhanh:
   - thue/bieu-thue-xnk
 quan_he:
   thay_the:
-    - 154/2017/NĐ-CP
+    - so_hieu: 154/2017/NĐ-CP
+      pham_vi: toàn bộ
+      tu_ngay: '2022-12-30'
+      can_cu: Điều 6 khoản 2 Nghị định 112/2022/NĐ-CP
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'đối chiếu toàn văn PDF ký số trên datafiles.chinhphu.vn (2023/01/112nd.signed.pdf, raw/download/datafiles.chinhphu.vn/112-2022-nd-cp.pdf): ban hành 30-12-2022, có hiệu lực từ 30-12-2022 đến hết 31-12-2027, thay thế Nghị định 154/2017/NĐ-CP'
+  pham_vi: 'đối chiếu toàn văn PDF ký số trên datafiles.chinhphu.vn (2023/01/112nd.signed.pdf, raw/download/datafiles.chinhphu.vn/112-2022-nd-cp.pdf, 4 trang, SHA-256 35cd80758bf381714bb6894bb6578be045db88bad2122749a7afda482e5425eb) và trang wiki/sources/112-2022-nd-cp.md: ban hành 30-12-2022, có hiệu lực từ ngày ký 30-12-2022 đến hết 31-12-2027, gồm 7 Điều ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định VCFTA giai đoạn 2022 - 2027, thay thế toàn bộ Nghị định 154/2017/NĐ-CP theo khoản 2 Điều 6'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-22'
   boi: tho-bo-ba-01@ozvietnam
   ghi_chu: 'Crawl từ datafiles.chinhphu.vn (PDF path: 2023/01/112nd.signed.pdf)'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Nghị định này ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa Chi Lê (sau đây gọi tắt là Hiệp định VCFTA) giai đoạn 2022 - 2027 và điều kiện được hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định này.'
+    - dieu: 2
+      noi_dung: '1. Người nộp thuế theo quy định của Luật Thuế xuất khẩu, thuế nhập khẩu. 2. Cơ quan hải quan, công chức hải quan. 3. Tổ chức, cá nhân có quyền và nghĩa vụ liên quan đến hàng hóa xuất khẩu, nhập khẩu.'
+    - dieu: 3
+      khoan: 1
+      noi_dung: '1. Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định VCFTA giai đoạn 2022 - 2027 (sau đây gọi tắt là Biểu thuế nhập khẩu ưu đãi đặc biệt) gồm mã hàng, mô tả hàng hóa, thuế suất thuế nhập khẩu ưu đãi đặc biệt theo các giai đoạn được nhập khẩu từ lãnh thổ theo quy định tại khoản 2 Điều 4 Nghị định này đối với từng mã hàng.'
+    - dieu: 3
+      khoan: 2
+      noi_dung: '2. Cột “Mã hàng” và cột “Mô tả hàng hóa” tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này được xây dựng trên cơ sở Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam và chi tiết theo cấp mã 8 số hoặc 10 số. Trường hợp Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam được sửa đổi, bổ sung, người khai hải quan kê khai mô tả, mã hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu sửa đổi, bổ sung và áp dụng thuế suất của mã hàng hoá được sửa đổi, bổ sung quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này.'
+    - dieu: 3
+      khoan: 3
+      noi_dung: '3. Cột “Thuế suất VCFTA (%)” tại Biểu thuế nhập khẩu ưu đãi đặc biệt: Thuế suất áp dụng cho các giai đoạn khác nhau, bao gồm: a) Cột “2022”: Thuế suất áp dụng từ ngày 30 tháng 12 năm 2022 đến hết ngày 31 tháng 12 năm 2022; b) Cột “2023”: Thuế suất áp dụng từ ngày 01 tháng 01 năm 2023 đến hết ngày 31 tháng 12 năm 2023; c) Cột “2024”: Thuế suất áp dụng từ ngày 01 tháng 01 năm 2024 đến hết ngày 31 tháng 12 năm 2024; d) Cột “2025”: Thuế suất áp dụng từ ngày 01 tháng 01 năm 2025 đến hết ngày 31 tháng 12 năm 2025; đ) Cột “2026”: Thuế suất áp dụng từ ngày 01 tháng 01 năm 2026 đến hết ngày 31 tháng 12 năm 2026; e) Cột “2027”: Thuế suất áp dụng từ ngày 01 tháng 01 năm 2027 đến hết ngày 31 tháng 12 năm 2027.'
+    - dieu: 3
+      khoan: 4
+      noi_dung: '4. Ký hiệu “*”: Hàng hóa nhập khẩu không được hưởng thuế nhập khẩu ưu đãi đặc biệt của Hiệp định VCFTA.'
+    - dieu: 3
+      khoan: 5
+      noi_dung: '5. Đối với hàng hóa nhập khẩu áp dụng hạn ngạch thuế quan gồm một số mặt hàng thuộc các nhóm hàng 04.07, 17.01, 24.01, 25.01, thuế nhập khẩu ưu đãi đặc biệt trong hạn ngạch là mức thuế suất quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này; danh mục và lượng hạn ngạch thuế quan nhập khẩu hàng năm theo quy định của Bộ Công Thương và mức thuế suất thuế nhập khẩu ngoài hạn ngạch áp dụng theo quy định tại Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan của Chính phủ tại thời điểm nhập khẩu.'
+    - dieu: 4
+      noi_dung: 'Hàng hóa nhập khẩu được áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định VCFTA phải đáp ứng đủ các điều kiện sau: 1. Thuộc Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này. 2. Được nhập khẩu vào Việt Nam từ Cộng hòa Chi Lê. 3. Đáp ứng các quy định về xuất xứ hàng hóa (trong đó có quy định về vận chuyển trực tiếp) và có chứng từ chứng nhận xuất xứ hàng hoá theo quy định của Hiệp định VCFTA.'
+    - dieu: 5
+      noi_dung: 'Hàng hóa từ khu phi thuế quan của Việt Nam nhập khẩu vào thị trường trong nước được áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định VCFTA phải đáp ứng đủ các điều kiện quy định tại khoản 1 và khoản 3 Điều 4 Nghị định này.'
+    - dieu: 6
+      khoan: 1
+      noi_dung: '1. Nghị định này có hiệu lực từ ngày ký ban hành.'
+    - dieu: 6
+      khoan: 2
+      noi_dung: '2. Nghị định số 154/2017/NĐ-CP ngày 27 tháng 12 năm 2017 của Chính phủ ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thương mại tự do giữa Việt Nam - Chi Lê giai đoạn 2018 - 2022 hết hiệu lực kể từ ngày Nghị định này có hiệu lực thi hành.'
+    - dieu: 7
+      noi_dung: 'Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này.'
 nguon:
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/112nd.signed.pdf
     truy_cap: '2026-10-10'
-toan_van: raw/download/datafiles.chinhphu.vn/112-2022-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/112-2022-nd-cp.pdf
+  - wiki/sources/112-2022-nd-cp.md

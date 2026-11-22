@@ -1,13 +1,15 @@
 # Sổ đăng ký văn bản — crawl từ vanban.chinhphu.vn (sheet HT biểu thuế)
 so_hieu: 114/2022/NĐ-CP
 loai: NGHI_DINH
-ten: Biểu thuế NK ưu đãi VN-Cuba
+ten: Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa Cuba giai đoạn 2022 - 2027
 co_quan: CP
 ngay_ban_hanh: '2022-12-30'
 hieu_luc_tu: '2022-12-30'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/bieu-thue
+  - xuat-xu-fta/hiep-dinh
+  - thue/bieu-thue-xnk
 quan_he:
   thay_the:
     - so_hieu: 39/2020/NĐ-CP
@@ -16,14 +18,45 @@ quan_he:
       can_cu: Điều 6 khoản 2 Nghị định 114/2022/NĐ-CP
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'thẻ vanban.chinhphu.vn (docid=207171) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/114-2022-nd-cp.pdf): ban hành 30-12-2022, có hiệu lực từ 30-12-2022 đến hết 31-12-2027, thay thế Nghị định 39/2020/NĐ-CP theo khoản 2 Điều 6'
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=207171), toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/114-2022-nd-cp.pdf, 45 trang, SHA-256 9cf5c7e1faed8449debb7e84bf3d2143775b04aecdca988cec27d730e0950f44) và trang wiki/sources/114-2022-nd-cp.md: ban hành 30-12-2022, có hiệu lực từ ngày ký 30-12-2022 đến hết 31-12-2027, gồm 7 Điều và Phụ lục Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định Thương mại Việt Nam - Cuba giai đoạn 2022 - 2027, thay thế toàn bộ Nghị định 39/2020/NĐ-CP theo khoản 2 Điều 6'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-22'
   boi: tho-bo-ba-01@ozvietnam
   ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Nghị định này ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa Cuba (sau đây gọi tắt là Hiệp định Thương mại Việt Nam - Cuba) giai đoạn 2022 - 2027 và điều kiện được hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định này.'
+    - dieu: 2
+      noi_dung: '1. Người nộp thuế theo quy định của Luật Thuế xuất khẩu, thuế nhập khẩu. 2. Cơ quan hải quan, công chức hải quan. 3. Tổ chức, cá nhân có quyền và nghĩa vụ liên quan đến hàng hoá xuất khẩu, nhập khẩu.'
+    - dieu: 3
+      khoan: 1
+      noi_dung: '1. Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Việt Nam - Cuba giai đoạn 2022 - 2027 (sau đây gọi tắt là Biểu thuế nhập khẩu ưu đãi đặc biệt) gồm mã hàng, mô tả hàng hóa, thuế suất thuế nhập khẩu ưu đãi đặc biệt theo các giai đoạn được nhập khẩu từ lãnh thổ theo quy định tại khoản 2 Điều 4 Nghị định này đối với từng mã hàng.'
+    - dieu: 3
+      khoan: 2
+      noi_dung: '2. Cột “Mã hàng” và cột “Mô tả hàng hóa” tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này được xây dựng trên cơ sở Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam và chi tiết theo cấp mã 8 số. Trường hợp Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam được sửa đổi, bổ sung, người khai hải quan kê khai mô tả, mã hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu sửa đổi, bổ sung và áp dụng thuế suất của mã hàng hoá được sửa đổi, bổ sung quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này.'
+    - dieu: 3
+      khoan: 3
+      noi_dung: '3. Cột “Thuế suất (%)” tại Biểu thuế nhập khẩu ưu đãi đặc biệt: Thuế suất áp dụng cho các giai đoạn khác nhau, bao gồm: a) Cột “2022”: Thuế suất áp dụng từ ngày 30 tháng 12 năm 2022 đến hết ngày 31 tháng 12 năm 2022; b) Cột “2023 - 2027”: Thuế suất áp dụng từ ngày 01 tháng 01 năm 2023 đến hết ngày 31 tháng 12 năm 2027.'
+    - dieu: 3
+      khoan: 4
+      noi_dung: '4. Đối với hàng hóa nhập khẩu áp dụng hạn ngạch thuế quan thuộc các nhóm hàng 17.01 và 24.01, thuế nhập khẩu ưu đãi đặc biệt trong hạn ngạch là mức thuế suất quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này; danh mục và lượng hạn ngạch thuế quan nhập khẩu hàng năm theo quy định của Bộ Công Thương và mức thuế suất thuế nhập khẩu ngoài hạn ngạch áp dụng theo quy định tại Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan của Chính phủ tại thời điểm nhập khẩu.'
+    - dieu: 4
+      noi_dung: 'Hàng hóa nhập khẩu được áp dụng mức thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định Thương mại Việt Nam - Cuba phải đáp ứng đủ các điều kiện sau: 1. Thuộc Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này. 2. Được nhập khẩu vào Việt Nam từ Cộng hòa Cuba. 3. Đáp ứng các quy định về xuất xứ hàng hóa (trong đó có quy định về vận chuyển trực tiếp) và có chứng từ chứng nhận xuất xứ hàng hoá theo quy định của Hiệp định Thương mại Việt Nam - Cuba.'
+    - dieu: 5
+      noi_dung: 'Hàng hóa từ khu phi thuế quan của Việt Nam nhập khẩu vào thị trường trong nước được áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định Thương mại Việt Nam - Cuba phải đáp ứng đủ các điều kiện quy định tại khoản 1 và khoản 3 Điều 4 Nghị định này.'
+    - dieu: 6
+      khoan: 1
+      noi_dung: '1. Nghị định này có hiệu lực từ ngày ký ban hành.'
+    - dieu: 6
+      khoan: 2
+      noi_dung: '2. Nghị định số 39/2020/NĐ-CP ngày 03 tháng 4 năm 2020 của Chính phủ ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa Cuba giai đoạn 2020 - 2023 hết hiệu lực kể từ ngày Nghị định này có hiệu lực thi hành.'
+    - dieu: 7
+      noi_dung: 'Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này.'
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=207171&pageid=27160
     truy_cap: '2026-10-10'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/114-nd.signed.pdf
     truy_cap: '2026-10-10'
-toan_van: raw/download/datafiles.chinhphu.vn/114-2022-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/114-2022-nd-cp.pdf
+  - wiki/sources/114-2022-nd-cp.md

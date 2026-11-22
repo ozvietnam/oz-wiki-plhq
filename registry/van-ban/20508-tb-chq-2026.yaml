@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 20508/TB-CHQ/2026
+so_hieu_khac:
+  - 20508/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (LED COB PCB module, ký mã hiệu COB160110-600W, các đi-ốt phát quang LED lắp ráp trên tấm mạch in PCB, không có mạch điện điều khiển điện áp và dòng điện DC, công suất 600W, điện áp vào 168-185VDC, dùng chiếu ánh sáng LED ngoài trời, mã số 8541.41.00)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-08-17'
+hieu_luc_tu: '2026-08-17'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=105540&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/8/22/VB_20508.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/8/22/VB_20508.pdf, id=105540, SHA-256 ba7f9a152be9a602558e5f05e682c571ea699b9162f48050cfb26ef3810f7569): Thông báo số 20508/TB-CHQ ngày 17-08-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng LED COB PCB module (ký, mã hiệu COB160110-600W; các đi-ốt phát quang LED được lắp ráp trên tấm mạch in nền nhôm PCB kích thước 150x60mm dày 1,5mm theo cấu hình 60Sx11P gồm 660 chip LED, không có mạch điện để điều khiển điện áp và dòng điện DC đến mức mà đèn LED có thể sử dụng được; sử dụng để lắp vào vỏ của bộ đèn LED phù hợp và kết hợp với bộ nguồn/driver và bộ tản nhiệt, dùng chiếu ánh sáng LED ngoài trời, công suất 600W, điện áp vào 168-185VDC), phân loại vào nhóm 85.41, mã số 8541.41.00; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng LED COB PCB module (ký, mã hiệu COB160110-600W; các đi-ốt phát quang LED được lắp ráp trên tấm mạch in PCB, không có mạch điện điều khiển điện áp và dòng điện DC, dùng làm cụm phát sáng/nguồn sáng LED công suất 600W, điện áp vào 168-185VDC để lắp trong đèn LED chiếu sáng ngoài trời kết hợp với driver và bộ tản nhiệt) thuộc nhóm 85.41, mã số 8541.41.00.'
+toan_van: raw/download/files.customs.gov.vn/20508-tb-chq-2026.pdf
