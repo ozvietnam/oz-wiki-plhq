@@ -11,7 +11,7 @@ có ngay quan hệ mã ↔ văn bản cho hàng nghìn mã. Không cần dò t�
 | Tầng | Văn bản | Lưu ở đâu | Độ tin |
 |---|---|---|---|
 | 1. Trực tiếp có mã HS | Danh mục kèm mã HS (KTCN, cấm, giấy phép, phòng vệ thương mại, biểu thuế) | `danh-muc/<slug>.csv` (tài liệu này) | Cao: trích nguyên văn phụ lục |
-| 2. Theo mô tả, không ghi mã | "hàng đã qua sử dụng", "pin lithium"… | Chưa làm, làm sau tầng 1 | Vừa: suy ra, phải ghi rõ |
+| 2. Theo mô tả, không ghi mã | "hàng đã qua sử dụng", "pin lithium", "tiền chất Danh mục IV"… | [`danh-muc/chinh-sach-mo-ta.yaml`](../danh-muc/chinh-sach-mo-ta.yaml) (`tools/lib/chinh-sach-mo-ta.mjs` → `dist/chinh-sach-mo-ta.json`) | Vừa (`VUA_SUY_RA`): suy ra theo mô tả, phải ghi rõ & đối chiếu nguồn bậc A |
 | 3. Đề cập, hướng dẫn | Thông báo phân loại, công văn | Chưa làm | Tham khảo |
 
 ## Tệp bảng
@@ -104,15 +104,34 @@ Quy trình khi gặp danh mục dẫn chiếu:
 
 Case lưu vẹn: PR #281 + #282 (19 mã, 8/8 nhóm TT 27/2026; đính chính thủy tinh).
 
+## Tầng 2: Chính sách quản lý theo mô tả (`danh-muc/chinh-sach-mo-ta.yaml`)
+
+Lớp bổ trợ cho những nhóm hàng mà văn bản không liệt kê đầy đủ mã HS hoặc nghĩa vụ phụ thuộc tình trạng/loại hình lô hàng ("đã qua sử dụng", "pin lithium", "hóa chất & tiền chất Danh mục IV", "bao bì tiếp xúc trực tiếp thực phẩm", "12 nhóm làm thủ tục tại cửa khẩu nhập", "ghi nhãn hàng hóa", "gia công / SXXK / miễn thuế"…).
+
+- **Ranh giới tuyệt đối 0% trùng lặp với `hs-code-api`:** Tầng 2 **chỉ gợi ý chính sách quản lý chuyên ngành theo mô tả; không áp mã HS, không chạy 6 quy tắc GIR, không tính thuế suất**. Kho **không** xuất `chu-giai-hs.json` hay `chu-giai-chuong.json` ra `dist/`.
+- **Tệp nguồn:** [`danh-muc/chinh-sach-mo-ta.yaml`](../danh-muc/chinh-sach-mo-ta.yaml), đọc và kiểm chuẩn bằng [`tools/lib/chinh-sach-mo-ta.mjs`](../tools/lib/chinh-sach-mo-ta.mjs) (`docChinhSachMoTa()`, `kiemChinhSachMoTa()`, `dungChinhSachMoTa()`).
+- **Lược đồ mỗi quy tắc trong `quy_tac[]`:**
+  - `id` (slug duy nhất), `ten`, `nhom_hang`, `tu_khoa_nhan_dien[]` (≥ 3 từ khóa tiếng Việt không rỗng);
+  - `loai_tac_dong` (thuộc 12 giá trị `LOAI_TAC_DONG` trong `tools/lib/danh-muc.mjs`);
+  - `do_tin: VUA_SUY_RA` (bắt buộc — mọi suy luận Tầng 2 chỉ để tham khảo, không thay thế đối chiếu văn bản gốc);
+  - `can_cu_so_hieu[]` (mọi số hiệu bắt buộc tồn tại trong `registry/van-ban/`, kiểm qua `so.theoKhoa`);
+  - `nghia_vu_tom_tat`, `luu_y_loai_tru` (nêu rõ trường hợp loại trừ và trạng thái thực tế của văn bản hết/tạm ngưng hiệu lực như `43/2017/NĐ-CP`, `111/2021/NĐ-CP`), `ranh_gioi_hs_api`.
+- **Từ điển viết tắt PLHQ (`TU_DIEN_VIET_TAT_PLHQ`):** 25 thuật ngữ viết tắt chuẩn XNK/PLHQ (`gtgt`, `ktcn`, `attp`, `cbpg`, `pvtm`, `co`, `xnk`, `hq`, `ttdb`, `bvmt`, `tntx`, `dncx`, `qlrr`, `kstq`, `gcn`, `qcvn`, `tcvn`, `vbhn`, `vphc`, `mfn`, `acfta`, `evfta`, `rcep`, `kd`, `ktcl`) xuất kèm trong tệp máy thứ 8 `dist/chinh-sach-mo-ta.json`.
+
 ## Dùng ở đâu
 
-`npm run dung` xuất `dist/hs-index.json`, gồm mỗi văn bản kèm tình trạng hiệu lực và các dòng bảng.
-[hs-code-api](https://github.com/ozvietnam/hs-code-api) đồng bộ tệp này, và `/api/tax?hs=…` trả về danh sách
+`npm run dung` xuất `dist/hs-index.json` và `dist/hs-index-theo-ma.json`, gồm mỗi văn bản kèm tình trạng hiệu lực và các dòng bảng.
+[hs-code-api](https://github.com/ozvietnam/hs-code-api) đồng bộ dữ liệu kho này, và `/api/tax?hs=…` trả về danh sách
 văn bản danh mục chứa mã đó, kèm `dieu_kien` và mức khớp: đúng 8 số hay theo nhóm 4 hoặc 6 số.
+Từ Wave 8 (`1.5.0` cộng thêm), `dungChiMucTheoMa` hỗ trợ trường tuỳ chọn `anh_xa_ahtn_cu` (nối từ [`registry/phien-ban-bieu-thue-mapping.yaml`](../registry/phien-ban-bieu-thue-mapping.yaml) sang mã EN2022 trong `bieu-thue.json` cho các mã nằm trong `canh_bao_ma` — chỉ để tham khảo đối chiếu lại văn bản gốc), và `dungChinhSachMoTa` dựng đối tượng cho tệp thứ 8 `dist/chinh-sach-mo-ta.json`.
+
+Giấy phép **CC BY 4.0** — chuỗi ghi nguồn chuẩn thống nhất theo W4 ([`docs/tich-hop.md`](tich-hop.md)):
+
+> Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản `phien_ban`). Đã rút gọn và đổi nhãn hiển thị.
 
 ## Lịch sử lược đồ (tệp máy)
 
-`dist/hs-index.json` mang `luoc_do_phien_ban` (semver, chung một hằng số với `dist/registry.json` trong
+`dist/hs-index.json`, `dist/hs-index-theo-ma.json` và tệp thứ 8 `dist/chinh-sach-mo-ta.json` mang `luoc_do_phien_ban` (semver, chung một hằng số `LUOC_DO_PHIEN_BAN` với `dist/registry.json` trong
 `tools/lib/registry.mjs`). Quy ước tăng phiên bản như [lược đồ sổ đăng ký](luoc-do-so-dang-ky.md#lịch-sử-lược-đồ-tệp-máy):
 phá vỡ → major, thêm trường/giá trị liệt kê không phá bên đọc → minor. Bên ánh xạ `loai_tac_dong` sang nhãn
 tiếng Việt kiểm dòng dưới đây trước khi cập nhật nhãn.
@@ -123,3 +142,5 @@ tiếng Việt kiểm dòng dưới đây trước khi cập nhật nhãn.
 | 1.1.0 | 2026-10-13 | Thêm tệp mới `dist/hs-index-theo-ma.json` (nhóm mã HS → văn bản, đảo chiều của `hs-index.json`); cấu trúc hai tệp cũ không đổi — minor theo quy ước W1 |
 | 1.2.0 | 2026-10-13 | `hs-index-theo-ma.json`: thêm `bieu_thue_doi_chieu` + `canh_bao_ma` (nhóm mã ngoài biểu thuế), `tien_le_tb_tchq` (mật độ TB-TCHQ theo mã 8 số / nhóm 4 số), `tong_canh`; gộp cạnh trùng toàn trường (13.543 → 9.900) |
 | 1.3.0 | 2026-10-14 | Không đổi cấu trúc chỉ mục HS; số semver chung tăng theo sổ (thêm `loai_phan_loai*` tuỳ chọn trên TB-TCHQ) |
+| 1.4.0 | 2026-11-14 | Thêm trường `phu_luc_cua` trên sổ để không báo điểm mù trùng bảng CSV với văn bản mẹ; cấu trúc tệp chỉ mục HS không đổi — minor |
+| 1.5.0 | 2026-11-21 | Mở rộng gói `1.5.0` cho Cổng MCP (`wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`). Cộng thêm Wave 8 (không phá major `1.x`, giữ `LUOC_DO_PHIEN_BAN = '1.5.0'`, không thêm `chu-giai-hs`/`chu-giai-chuong`): thêm trường tuỳ chọn `anh_xa_ahtn_cu` trong `dist/hs-index-theo-ma.json` và lược đồ tệp thứ 8 `dist/chinh-sach-mo-ta.json` (`danh-muc/chinh-sach-mo-ta.yaml`, `TU_DIEN_VIET_TAT_PLHQ` 25 viết tắt) |

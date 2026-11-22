@@ -9,7 +9,8 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { napSo, khoa, bacNguon, chuanCanh, dungDoThi, homNay, ROOT, QUAN_HE_LAM_MAT_HIEU_LUC } from './lib/registry.mjs';
-import { napDanhMuc, kiemDinhDang, doiChieu, docBieuThue, laVanBanDanhMuc } from './lib/danh-muc.mjs';
+import { napDanhMuc, kiemDinhDang, doiChieu, docBieuThue, laVanBanDanhMuc, docAnhXaAhtn } from './lib/danh-muc.mjs';
+import { laDieuRac, timVanBanTheoSlug } from './lib/dieu-khoan-dist.mjs';
 
 const MUC = { CAO: 'Cao', VUA: 'Vừa', THAP: 'Thấp' };
 // Số hiệu văn bản trong chữ: 28/2026/TT-BCT, 08/2015/NĐ-CP, 1182/QĐ-BCT, 54/2014/QH13
@@ -117,6 +118,73 @@ export function docHangThat(root = ROOT) {
   try { return JSON.parse(readFileSync(p, 'utf8')); } catch { return null; }
 }
 
+function tonTaiTrongBieuThue(bt, maHs) {
+  if (!bt?.la || !maHs) return false;
+  if (bt.la.has(maHs)) return true;
+  for (const k of bt.la) {
+    if (k.startsWith(maHs)) return true;
+  }
+  return false;
+}
+
+function kiemTraChatLuongDocHieu({ root, so, add }) {
+  const dhDir = join(root, 'data', 'doc-hieu');
+  if (!existsSync(dhDir)) return;
+  const bySlug = new Map(so.vanBan.map((d) => [d._slug, d]));
+  const files = readdirSync(dhDir).filter((f) => f.endsWith('.dieu.jsonl')).sort();
+  for (const f of files) {
+    const rawSlug = f.replace(/\.dieu\.jsonl$/, '');
+    const { d, slug } = timVanBanTheoSlug(rawSlug, so, bySlug);
+    const mucTieu = d?.so_hieu || slug;
+    const nhanVb = d ? `${d.so_hieu} (data/doc-hieu/${f})` : `data/doc-hieu/${f}`;
+    const raw = readFileSync(join(dhDir, f), 'utf8');
+    let soRac = 0;
+    let soHopLe = 0;
+    let soThieuNghiaVu = 0;
+    for (const line of raw.split(/\r?\n/)) {
+      const s = line.trim();
+      if (!s) continue;
+      let rec;
+      try {
+        rec = JSON.parse(s);
+      } catch {
+        continue;
+      }
+      if (!rec || typeof rec !== 'object' || Array.isArray(rec)) continue;
+      if (laDieuRac(rec.dieu)) {
+        soRac += 1;
+        continue;
+      }
+      soHopLe += 1;
+      const nv = Array.isArray(rec.nghia_vu_xnk)
+        ? rec.nghia_vu_xnk.map(String).filter((x) => x.trim())
+        : [];
+      if (!nv.length) soThieuNghiaVu += 1;
+    }
+    if (soRac > 0) {
+      add(
+        'DOC_HIEU_DIEU_RAC',
+        MUC.THAP,
+        `${nhanVb}: có ${soRac} dòng điều rác / placeholder`,
+        mucTieu,
+        `Rà lại data/doc-hieu/${f}: loại bỏ ${soRac} dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.`,
+        'doc-hieu',
+      );
+    }
+    if (soHopLe > 0 && soThieuNghiaVu * 2 >= soHopLe) {
+      const tyLe = Math.round((soThieuNghiaVu * 100) / soHopLe);
+      add(
+        'DOC_HIEU_THIEU_NGHIA_VU',
+        MUC.THAP,
+        `${nhanVb}: ${soThieuNghiaVu}/${soHopLe} (${tyLe}%) điều hợp lệ trống nghia_vu_xnk`,
+        mucTieu,
+        `Soát tay data/doc-hieu/${f}: ${soThieuNghiaVu}/${soHopLe} điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.`,
+        'doc-hieu',
+      );
+    }
+  }
+}
+
 /**
  * Kết luận đối chiếu của người (doi-chieu/hang-that.csv: ma_hs,ket_luan,can_cu,ngay,ghi_chu) —
  * mã đã đối chiếu KHÔNG thuộc diện (hoặc đã xử lý) thì không đưa lại vào điểm mù.
@@ -140,7 +208,7 @@ export function docDoiChieu(root = ROOT) {
 /** Văn bản danh mục thuộc khung KTCN 2026 (nhánh kiểm tra chuyên ngành, hiệu lực từ 01/7/2026). */
 const laKtcn2026 = (d) => (d.nhanh || []).some((n) => n.startsWith('kiem-tra-chuyen-nganh')) && String(d.hieu_luc_tu || '') >= '2026-07-01';
 
-export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCau(root), bieuThue = docBieuThue(root), hangThat = docHangThat(root), ketLuan = docDoiChieu(root), vanBanBieuThue = docVanBanBieuThue(root) } = {}) {
+export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCau(root), bieuThue = docBieuThue(root), hangThat = docHangThat(root), ketLuan = docDoiChieu(root), vanBanBieuThue = docVanBanBieuThue(root), mappingAhtn = docAnhXaAhtn(root) } = {}) {
   const ds = [];
   // trongSo: xếp trong cùng nhóm (vd số mã HS chịu ảnh hưởng) — lớn trước.
   const add = (ma, muc, tieuDe, muc_tieu, viec, luong, trongSo = 0) => ds.push({ ma, muc, tieuDe, muc_tieu, viec, luong, trongSo });
@@ -345,6 +413,9 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
   // D16 — trang wiki nghiệp vụ (summary/concepts) dẫn văn bản đã hết hiệu lực
   kiemTraWikiHetHieuLuc({ root, theoKhoa, nguoc, add });
 
+  // D-DH — chất lượng dữ liệu trích điều khoản nháp data/doc-hieu/*.dieu.jsonl
+  kiemTraChatLuongDocHieu({ root, so, add });
+
   // D-DM — lớp mã HS ↔ văn bản (docs/luoc-do-danh-muc-hs.md)
   const bangDm = napDanhMuc(so, root);
   const daCoBang = new Set(bangDm.map((it) => khoa(it.vanBan.so_hieu)));
@@ -356,12 +427,26 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
     add('DANH_MUC_CHUA_TRICH', ktcn2026 || dan >= 50 ? MUC.CAO : MUC.VUA, `Chưa trích bảng mã HS: ${d.so_hieu}`, d.so_hieu,
       `Văn bản danh mục chưa có danh-muc/${d._slug}.csv. Tìm bản có phụ lục (ưu tiên Công báo có lớp chữ), trích theo docs/luoc-do-danh-muc-hs.md, kiểm bằng npm test.${dan ? ` Biểu thuế đang dẫn ${dan} mã.` : ''}`, 'danh-muc-hs', ktcn2026 ? 10000 + dan : dan);
   }
+  const anhXaMap = mappingAhtn?.mapping || null;
   for (const it of bangDm) {
     if (kiemDinhDang(it).length) continue;
     const { khongTonTai, danChieu } = doiChieu(it, { bt: bieuThue, so });
     for (const o of khongTonTai) {
-      add('HS_KHONG_TON_TAI', MUC.VUA, `${it.vanBan.so_hieu}: mã ${o.ma_hs} không có trong biểu thuế`, it.vanBan.so_hieu,
-        `${it.tep} dòng ${o._dong} ("${o.mo_ta.slice(0, 60)}"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.`, 'danh-muc-hs');
+      const anhXa = anhXaMap && Object.prototype.hasOwnProperty.call(anhXaMap, o.ma_hs) ? anhXaMap[o.ma_hs] : null;
+      if (anhXa?.hs_moi && tonTaiTrongBieuThue(bieuThue, anhXa.hs_moi)) {
+        const loai = anhXa.loai || 'chua_ro';
+        add(
+          'HS_AHTN_CU_DA_ANH_XA',
+          MUC.THAP,
+          `${it.vanBan.so_hieu}: mã ${o.ma_hs} (AHTN cũ) → đã ánh xạ sang ${anhXa.hs_moi} (${loai})`,
+          it.vanBan.so_hieu,
+          `${it.tep} dòng ${o._dong} ("${o.mo_ta.slice(0, 60)}"). Đã ánh xạ sang hs_moi: ${anhXa.hs_moi} (loai: ${loai}) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.`,
+          'danh-muc-hs',
+        );
+      } else {
+        add('HS_KHONG_TON_TAI', MUC.VUA, `${it.vanBan.so_hieu}: mã ${o.ma_hs} không có trong biểu thuế`, it.vanBan.so_hieu,
+          `${it.tep} dòng ${o._dong} ("${o.mo_ta.slice(0, 60)}"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.`, 'danh-muc-hs');
+      }
     }
     for (const [sh, dc] of danChieu) {
       if (dc && daCoBang.has(khoa(dc.so_hieu))) continue;
@@ -495,6 +580,7 @@ const TEN_MA = {
   HS_API_CHO_MO_CHAN: 'HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp)',
   HS_API_LECH_THU_VIEN: 'Thư viện hs-code-api ghi khác sổ',
   DANH_MUC_CHUA_TRICH: 'Văn bản danh mục chưa trích bảng mã HS', HS_KHONG_TON_TAI: 'Mã HS trong bảng không có trong biểu thuế',
+  HS_AHTN_CU_DA_ANH_XA: 'Mã HS AHTN cũ đã ánh xạ sang biểu thuế EN2022',
   DAN_CHIEU_CHUA_CO_BANG: 'Bảng dẫn chiếu mã HS sang văn bản chưa có bảng',
   HANG_THAT_CHUA_DOI_CHIEU_KTCN: 'Mã HS có hàng thật chưa đối chiếu KTCN 2026 (hs-code-api /api/demand)',
   HANG_THAT_CU: 'Nhu cầu hàng thật đã cũ',
@@ -504,6 +590,8 @@ const TEN_MA = {
   TB_TCHQ_CHUA_DOI_CHIEU: 'TB-TCHQ cá biệt chưa đối chiếu nguồn A',
   WIKI_DAN_VB_HET_HIEU_LUC: 'Trang wiki dẫn văn bản đã hết hiệu lực',
   WIKI_CHUA_CO_VB_NEN_TANG: 'Văn bản nền tảng (có toàn văn) chưa có trang wiki/sources/',
+  DOC_HIEU_DIEU_RAC: 'Tệp doc-hieu chứa dòng điều rác / placeholder',
+  DOC_HIEU_THIEU_NGHIA_VU: 'Tệp doc-hieu thiếu nghĩa vụ XNK (≥50% điều hợp lệ trống)',
 };
 
 export function veMarkdown(ds, { today = homNay(), gioiHan = 40 } = {}) {

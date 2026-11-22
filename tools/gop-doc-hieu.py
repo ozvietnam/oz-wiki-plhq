@@ -32,6 +32,34 @@ SUFFIXES = ("-body-ocr", "-ocr-body", "-toanvan", "-body", "-ocr", "-tiep")
 
 # Số điều: "Điều 5" hoặc ghi trần "5" / "5." / "5)" (một số tệp Gemma ghi vậy)
 DIEU_RE = re.compile(r"^(?:Điều\s+(\d+)|(\d+)[.)]?)\s*$")
+RAC_PLACEHOLDER_RE = re.compile(
+    r"^(?:[-—–]+|n/a|null|none|undefined|<[^>]*>|\(?không\s*(?:rõ|có|xác\s*định|đánh\s*số|ghi)(?:\s*(?:số\s*|đánh\s*số\s*)?điều(?:\s*rõ\s*ràng)?)?\)?)$",
+    re.IGNORECASE,
+)
+
+
+def la_rac_phu_luc(dieu) -> bool:
+    """Từ chối dòng placeholder/rác phụ lục không phải điều khoản (dieu == '-', rỗng, N/A...)."""
+    if dieu is None:
+        return True
+    s = str(dieu).strip()
+    if not s:
+        return True
+    return RAC_PLACEHOLDER_RE.match(s) is not None
+
+
+def la_thieu_nghia_vu(rec: dict) -> bool:
+    """Record hợp lệ nhưng thiếu hoặc rỗng danh sách nghia_vu_xnk."""
+    nv = rec.get("nghia_vu_xnk")
+    if not isinstance(nv, list):
+        return True
+    return not any(str(x).strip() for x in nv if x is not None)
+
+
+def la_nguon_ocr(piece: str) -> bool:
+    """Nhận diện piece bắt nguồn từ văn bản quét OCR (-ocr)."""
+    low = piece.lower()
+    return "-ocr" in low or low.endswith("ocr")
 
 
 def norm_slug(slug: str) -> str:
@@ -97,8 +125,16 @@ def doc_du_lieu():
     Trả về {doc_slug: {so_dieu: rec}} và bộ đếm báo cáo.
     """
     by_doc = defaultdict(dict)  # slug chuẩn hoá -> {số điều: bản đầy đủ nhất}
-    stats = defaultdict(lambda: {"doc": 0, "ghi": 0, "bia": 0, "loi": 0,
-                                 "trung_noi_bo": 0})
+    stats = defaultdict(lambda: {
+        "doc": 0,
+        "ghi": 0,
+        "bia": 0,
+        "loi": 0,
+        "rac_phu_luc": 0,
+        "trung_noi_bo": 0,
+        "thieu_nghia_vu": 0,
+        "nguon_ocr": False,
+    })
     for ra_file in sorted(RA_DIR.glob("*.jsonl")):
         m = re.match(r"^(.*)-c(\d+)\.jsonl$", ra_file.name)
         if not m:
@@ -106,11 +142,17 @@ def doc_du_lieu():
         piece, cnn = m.group(1), f"c{int(m.group(2)):02d}"
         slug = norm_slug(piece)
         stats[slug]["doc"] = 1
+        if la_nguon_ocr(piece):
+            stats[slug]["nguon_ocr"] = True
         recs, loi = doc_text_dong(ra_file.read_text(encoding="utf-8"))
         stats[slug]["loi"] += loi
         for rec in recs:
             stats[slug]["ghi"] += 1
-            mm = DIEU_RE.match(str(rec.get("dieu", "")).strip())
+            dieu_val = rec.get("dieu")
+            if la_rac_phu_luc(dieu_val):
+                stats[slug]["rac_phu_luc"] += 1
+                continue
+            mm = DIEU_RE.match(str(dieu_val).strip())
             if not mm:
                 stats[slug]["loi"] += 1
                 continue
@@ -127,6 +169,10 @@ def doc_du_lieu():
                 by_doc[slug][so] = rec
             else:
                 stats[slug]["trung_noi_bo"] += 1
+    for slug, recs in by_doc.items():
+        stats[slug]["thieu_nghia_vu"] = sum(
+            1 for r in recs.values() if la_thieu_nghia_vu(r)
+        )
     return by_doc, stats
 
 
@@ -172,21 +218,30 @@ def main():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     by_doc, stats = doc_du_lieu()
     tong_them = 0
-    print(f"{'văn bản':44s} {'ghi':>5s} {'bia':>4s} {'loi':>4s} "
-          f"{'trung':>5s} {'cu':>4s} {'them':>5s}")
+    print(f"{'văn bản':44s} {'ghi':>5s} {'rac':>4s} {'bia':>4s} {'loi':>4s} "
+          f"{'trung':>5s} {'thieu_nv':>8s} {'cu':>4s} {'them':>5s}  cảnh báo")
     for slug in sorted(by_doc):
         st = stats[slug]
         da_co, them = ghep_file(slug, by_doc[slug])
         tong_them += them
-        print(f"{slug:44s} {st['ghi']:5d} {st['bia']:4d} {st['loi']:4d} "
-              f"{st['trung_noi_bo']:5d} {da_co:4d} {them:5d}")
+        canh_bao = "[OCR - soát kỹ]" if st["nguon_ocr"] else ""
+        print(f"{slug:44s} {st['ghi']:5d} {st['rac_phu_luc']:4d} {st['bia']:4d} "
+              f"{st['loi']:4d} {st['trung_noi_bo']:5d} {st['thieu_nghia_vu']:8d} "
+              f"{da_co:4d} {them:5d}  {canh_bao}")
     so_vb = len(by_doc)
+    tong_rac = sum(s["rac_phu_luc"] for s in stats.values())
     tong_bia = sum(s["bia"] for s in stats.values())
     tong_loi = sum(s["loi"] for s in stats.values())
     tong_ghi = sum(s["ghi"] for s in stats.values())
+    tong_thieu_nv = sum(s["thieu_nghia_vu"] for s in stats.values())
+    ocr_docs = sorted(slug for slug, s in stats.items() if s["nguon_ocr"])
     print(f"\nTỔNG: {so_vb} văn bản | {tong_ghi} dòng đọc | "
-          f"{tong_bia} điều bịa (bỏ) | {tong_loi} dòng lỗi | "
+          f"{tong_rac} rác phụ lục (bỏ) | {tong_bia} điều bịa (bỏ) | "
+          f"{tong_loi} dòng lỗi | {tong_thieu_nv} điều thiếu nghĩa vụ XNK | "
           f"{tong_them} điều thêm mới")
+    if ocr_docs:
+        print(f"CẢNH BÁO OCR ({len(ocr_docs)} văn bản nguồn -ocr, cần soát chính tả & tóm tắt kỹ hơn): "
+              + ", ".join(ocr_docs))
     return 0
 
 

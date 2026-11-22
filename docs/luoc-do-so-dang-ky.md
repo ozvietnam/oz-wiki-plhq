@@ -83,6 +83,10 @@ của `dist/dieu-khoan.json`.
 ngày đúng dạng và hợp lý so với tình trạng, nhánh có trong cây, cơ quan có trong danh sách, không trùng
 số hiệu, không chu trình thay thế, `NGUON_A` / `hieu_luc_da_doi_chieu: true` phải có nguồn bậc A.
 
+Giấy phép **CC BY 4.0** — chuỗi ghi nguồn chuẩn thống nhất theo W4 ([`docs/tich-hop.md`](tich-hop.md)):
+
+> Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản `phien_ban`). Đã rút gọn và đổi nhãn hiển thị.
+
 ## Lịch sử lược đồ (tệp máy)
 
 `dist/*.json` mang `luoc_do_phien_ban` (semver, mọi tệp máy dùng chung một hằng
@@ -102,3 +106,4 @@ chối bản chụp và báo lỗi, thay vì trả sai tình trạng hiệu lự
 | 1.3.0 | 2026-10-14 | Thêm trường tuỳ chọn TB-TCHQ: `loai_phan_loai` / `loai_phan_loai_can_cu` / `loai_phan_loai_ngay` (3 nhóm nghiệp vụ + `CHUA_XAC_DINH`). Không đổi trường bắt buộc — minor |
 | 1.4.0 | 2026-11-14 | Thêm trường tuỳ chọn `phu_luc_cua` (số hiệu văn bản mẹ): phụ lục tách riêng không tạo điểm mù `DANH_MUC_CHUA_TRICH` khi mẹ đã có bảng CSV. Không đổi trường bắt buộc — minor |
 | 1.5.0 | 2026-11-21 | Mở rộng gói máy cho Cổng MCP hỏi đáp PLHQ: thêm 4 tệp mới `dist/wiki-index.json`, `dist/wiki-chunks.json`, `dist/dieu-khoan.json` (tách tầng `NGUYEN_VAN_NGUON_A` vs `TOM_TAT_NHAP`), `dist/cas-index.json` (từ `danh-muc/*-cas.csv`); giữ nguyên cấu trúc 3 tệp cũ — minor |
+| 1.5.0 *(cộng thêm Wave 8)* | 2026-11-22 | Cộng thêm trên nền `1.5.0` (không phá major `1.x`, giữ nguyên `LUOC_DO_PHIEN_BAN = '1.5.0'`, không thêm `chu-giai-hs.json` hay `chu-giai-chuong.json`): thêm trường tuỳ chọn `anh_xa_ahtn_cu` trong `dist/hs-index-theo-ma.json` (ánh xạ từ `registry/phien-ban-bieu-thue-mapping.yaml`), `thong_ke.so_dong_rac_da_loc` trong `dist/dieu-khoan.json`, và lược đồ tệp thứ 8 `dist/chinh-sach-mo-ta.json` (`danh-muc/chinh-sach-mo-ta.yaml`, `tools/lib/chinh-sach-mo-ta.mjs` với `TU_DIEN_VIET_TAT_PLHQ` 25 viết tắt & Tầng 2 `VUA_SUY_RA`) |
