@@ -17,6 +17,8 @@ quan_he:
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=188924
     truy_cap: '2026-10-29'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2017/03/28.signed.pdf
+    truy_cap: '2026-11-22'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'thẻ vanban.chinhphu.vn (docid=188924): số hiệu, tiêu đề, ngày ban hành 20-03-2017, có hiệu lực từ 05-05-2017; đối chiếu còn hiệu lực, sửa đổi, bổ sung một số điều của Nghị định 131/2013/NĐ-CP và Nghị định 158/2013/NĐ-CP'
@@ -26,4 +28,4 @@ xac_minh:
 tu_khoa:
   - quyen-tac-gia
   - xu-phat
-toan_van: raw/download/vanban.chinhphu.vn/28-2017-nd-cp.html
+toan_van: raw/download/datafiles.chinhphu.vn/28-2017-nd-cp.pdf
