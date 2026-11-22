@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-3040 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3044 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2344 văn bản, 2344 chưa hết hiệu lực.
+2348 văn bản, 2348 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -612,11 +612,15 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [20104/TB-CHQ/2025](../registry/van-ban/20104-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3824.99.99)
 - 🟢 [19691/TB-CHQ/2025](../registry/van-ban/19691-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3824.99.99)
 - 🟢 [19307/TB-CHQ/2025](../registry/van-ban/19307-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Dầu nhựa nhiệt phân Plastic Pyrolysis Oil chứa trên 70% hydrocacbon từ nhựa đã qua sử dụng nhiệt phân ở nhiệt độ cao dùng làm nguyên liệu sản xuất dầu diesel và naphtha, mã số 2710.19.89)
+- 🟢 [18804/TB-CHQ/2025](../registry/van-ban/18804-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị đeo tay thông minh Huawei Band 10 khung nhựa gia cường, màn hình cảm ứng AMOLED 1.47 inch, kết nối Bluetooth 5.0, chống nước 5 ATM, không hỗ trợ GPS/NFC/loa/mic, mã số 9102.12.00)
+- 🟢 [18172/TB-CHQ/2025](../registry/van-ban/18172-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Khung điện thoại bằng nhôm hợp kim dùng cho điện thoại di động Samsung A56, ký mã hiệu CNC8, kích thước 162.137 x 77.835 x 7.449 mm, mã số 8517.79.99)
 - 🟢 [16238/TB-CHQ/2025](../registry/van-ban/16238-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3919.90.92)
 - 🟢 [15745/TB-CHQ/2025](../registry/van-ban/15745-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.99)
 - 🟢 [15622/TB-CHQ/2025](../registry/van-ban/15622-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (1517.90.30)
 - 🟢 [15668/TB-CHQ/2025](../registry/van-ban/15668-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2103.90.29)
 - 🟢 [15674/TB-CHQ/2025](../registry/van-ban/15674-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
+- 🟢 [14313/TB-CHQ/2025](../registry/van-ban/14313-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Van an toàn dạng van lò xo hai chiều bằng nhựa gắn kèm ống dẫn bằng cao su lưu hóa dùng kiểm soát áp suất bình xăng xe máy, ký mã hiệu 1B000694, mã số 8481.40.30)
+- 🟢 [12394/TB-CHQ/2025](../registry/van-ban/12394-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Vỏ khuôn - đế khuôn Mold base bằng thép hợp kim dùng kết hợp với lõi khuôn cho máy ép nhựa, ký mã hiệu MDC DA 2530 40 40 70 SVMNOH210, mã số 8480.20.00)
 - 🟢 [10115/TB-CHQ/2025](../registry/van-ban/10115-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
 - 🟢 [10116/TB-CHQ/2025](../registry/van-ban/10116-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
 - 🟢 [8992/TB-CHQ/2025](../registry/van-ban/8992-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2101.12.99)
