@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 20863/TB-CHQ/2026
+so_hieu_khac:
+  - 20863/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Đồng lá mỏng bằng đồng tinh luyện chắn nhiễu điện từ dạng cuộn, ký hiệu HSF-USB3-3.0, mã số 7410.21.00)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-08-24'
+hieu_luc_tu: '2026-08-24'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=106003&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/9/22/VB_20863.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/9/22/VB_20863.pdf, id=106003, SHA-256 2ca6af2bf19a8ed3f6b91638cc1e88cc3882b9ca26acf23bedf04229d8bc61d7): Thông báo số 20863/TB-CHQ ngày 24-08-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Đồng lá mỏng, bằng đồng tinh luyện, ký hiệu HSF-USB3-3.0 (EMI Shielding Film; dạng cuộn, chiều dày 10 µm không gồm lớp bồi nhựa PET, chiều rộng 200-250 mm, chiều dài 10-500 m; cấu tạo 03 lớp chính gồm lớp cách điện nhựa epoxy CAS 61788-97-4 24,7% và carbon CAS 7440-44-0 6,1%, lớp kim loại đồng tinh luyện CAS 7440-50-8 47,1% mạ điện phân niken CAS 7440-02-0 7,5% và lớp keo kết dính nhựa epoxy không dẫn điện 14,6%, kèm 02 lớp bồi màng PET bảo vệ bề mặt trên/dưới; dùng làm lớp dẫn điện và chắn nhiễu điện từ EMI gắn lên module mặt trước bản mạch in điện tử PCB/FPCB), phân loại vào nhóm 74.10, phân nhóm "- Đã được bồi", mã số 7410.21.00; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Đồng lá mỏng bằng đồng tinh luyện mạ niken đã được bồi lớp cách điện epoxy + carbon và lớp keo epoxy không dẫn điện (ký hiệu HSF-USB3-3.0, EMI Shielding Film, chiều dày 10 µm không kể lớp bồi PET, dùng chắn nhiễu điện từ cho bản mạch in điện tử) thuộc nhóm 74.10, mã số 7410.21.00.'
+toan_van: raw/download/files.customs.gov.vn/20863-tb-chq-2026.pdf

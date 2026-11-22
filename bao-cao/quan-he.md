@@ -718,7 +718,7 @@ flowchart LR
   n_38_2015_TT_BTC["38/2015/TT-BTC<br/>còn hiệu lực"]
   n_39_2018_TT_BTC["39/2018/TT-BTC<br/>còn hiệu lực"]
   n_121_2025_TT_BTC["121/2025/TT-BTC<br/>còn hiệu lực"]
-  n_102_2021_N__CP -->|sửa đổi sửa đổi, bổ sung một số điều của Nghị định 128/2020/NĐ-CP quy định xử phạt vi phạm hành chính trong lĩnh vực hải quan (bổ sung Điều 2a; sửa đổi, bổ sung một số khoản của các Điều 5, 7, 8, 11, 14, 20, 23, 28, 29, 30, 31, 32, 34, 36 và bãi bỏ khoản 3 Điều 5) từ 2022-01-01| n_128_2020_N__CP
+  n_102_2021_N__CP -->|sửa đổi sửa đổi, bổ sung một số điều của Nghị định 128/2020/NĐ-CP quy định xử phạt vi phạm hành chính trong lĩnh vực hải quan (bổ sung Điều 2a và Điều 33a; sửa đổi, bổ sung một số điểm, khoản của các Điều 4, 5, 26, 28, 29, 30, 31, 32, 33, 34 và 36) từ 2022-01-01| n_128_2020_N__CP
   n_107_2016_QH13 -->|thay thế từ 2016-09-01| n_45_2005_QH11
   n_108_2025_N__CP -->|sửa đổi Phụ lục I - Biểu thuế xuất khẩu theo Danh mục mặt hàng chịu thuế (mặt hàng clanhke xi măng nhóm 25.23) từ 2025-05-19| n_26_2023_N__CP
   n_108_2025_QH15 -->|thay thế từ 2026-07-01| n_38_2019_QH14
