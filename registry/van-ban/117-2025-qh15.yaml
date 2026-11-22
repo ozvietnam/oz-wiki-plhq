@@ -15,9 +15,30 @@ nguon:
     truy_cap: '2026-11-15'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=216500) và toàn văn PDF đính kèm trên datafiles.chinhphu.vn (luat117-2025.pdf): Quốc hội thông qua ngày 10-12-2025, có hiệu lực thi hành từ ngày 01-03-2026; đang còn hiệu lực.'
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=216500) và toàn văn PDF đính kèm trên datafiles.chinhphu.vn (luat117-2025.pdf): Quốc hội thông qua ngày 10-12-2025, có hiệu lực thi hành từ ngày 01-03-2026; đang còn hiệu lực. Đã OCR 21 trang bản scan thành raw/ocr/117-2025-qh15.ocr.txt.'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
-toan_van: raw/download/datafiles.chinhphu.vn/117-2025-qh15.pdf
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Luật này quy định về bí mật nhà nước, bảo vệ bí mật nhà nước và trách nhiệm của cơ quan, tô chức, cá nhân có liên quan.'
+      trang_pdf: 1
+    - dieu: 13
+      khoan: 2
+      noi_dung: '2. Vận chuyền, giao, nhận tài liệu, vật chứa bí mật nhà nước giữa cơ quan, tô chức ở trong nước với cơ quan, tô chức của Việt Nam ở nước ngoài hoặc giữa các cơ quan, tô chức của Việt Nam ở nước ngoài với nhau do giao liên ngoại giao hoặc người được giao nhiệm vụ thực hiện.'
+      trang_pdf: 10
+    - dieu: 13
+      khoan: 5
+      noi_dung: '5. Vận chuyên tài liệu, vật chứa bí mật nhà nước qua dịch vụ bưu chính được thực hiện theo quy định của pháp luật về bưu chính.'
+      trang_pdf: 11
+    - dieu: 14
+      khoan: 2
+      noi_dung: '2. Việc mang tài liệu, vật chứa bí mật nhà nước ra khỏi nơi lưu giữ để phục vụ công tác ở nước ngoài phải được người đứng đầu, cấp phó của người đứng đầu có thâm quyền quy định tại các điểm a, b, c, d, đ, e, g, h, i, k va 1 khoản 1 Điều 11 của Luật nay cho phép và phải báo cáo Trưởng đoàn công tac.'
+      trang_pdf: 11
+    - dieu: 27
+      noi_dung: '1. Luật này có hiệu lực thi hành từ ngày 01 tháng 3 năm 2026. 2. Luật Bảo vệ bí mật nhà nước số 29/2018/QH14 đã được sửa đổi, bỗ sung một số điều theo Luật số 81/2025/QH15 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành.'
+      trang_pdf: 20
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/117-2025-qh15.pdf
+  - raw/ocr/117-2025-qh15.ocr.txt
 ghi_chu: 'Luật Bảo vệ bí mật nhà nước số 117/2025/QH15 ngày 10-12-2025 (hiệu lực từ 01-03-2026).'
