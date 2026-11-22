@@ -15,9 +15,11 @@ xac_minh:
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
 ghi_chu: Sửa đổi, bổ sung Thông tư 72/2015/TT-BTC về chế độ doanh nghiệp ưu tiên hải quan.
-toan_van: raw/download/vanban.chinhphu.vn/07-2019-tt-btc.html
+toan_van: raw/download/datafiles.chinhphu.vn/07-2019-tt-btc.pdf
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=196349
     truy_cap: '2026-11-15'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/03/296-btc.signed.pdf
     truy_cap: '2026-11-15'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/03/07-btc.signed.pdf
+    truy_cap: '2026-11-22'

@@ -10,12 +10,14 @@ nhanh:
   - thue/mien-giam-hoan
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, trích yếu, ngày ban hành 17-02-2012, hiệu lực 15-04-2012 trên Công báo số 247+248/2012 (congbao.chinhphu.vn); còn ghi nhận hiệu lực trên Công báo'
+  pham_vi: số hiệu, trích yếu, ngày ban hành 17-02-2012, hiệu lực 15-04-2012 trên Công báo số 247+248/2012 (congbao.chinhphu.vn); còn ghi nhận hiệu lực trên Công báo
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Sửa đổi Thông tư 77/2008/TT-BTC hướng dẫn biện pháp xử lý nợ đọng thuế.'
-toan_van: raw/download/congbao.chinhphu.vn/24-2012-tt-btc.html
+ghi_chu: Sửa đổi Thông tư 77/2008/TT-BTC hướng dẫn biện pháp xử lý nợ đọng thuế.
+toan_van: raw/download/congbaocdn.chinhphu.vn/24-2012-tt-btc.pdf
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-24-2012-tt-btc-15113.htm
     truy_cap: '2026-11-15'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2012/2/15113/10119-1-2012247-248-242012tt-btcpdf
+    truy_cap: '2026-11-22'
