@@ -23,7 +23,48 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Văn bản hợp nhất Thông tư 26/2025/TT-BNNMT và Thông tư 84/2025/TT-BNNMT quy định về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân (trong quan_he.hop_nhat chỉ ghi 26/2025/TT-BNNMT đã có trong sổ).'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Thông tư này quy định về: 1. Hồ sơ lâm sản hợp pháp, quản lý, truy xuất nguồn gốc lâm sản; trình tự, thủ tục khai thác thực vật rừng thông thường, động vật rừng thông thường. 2. Đánh dấu mẫu vật động vật, thực vật thuộc loài nguy cấp, quý, hiếm2; động vật, thực vật thuộc Phụ lục Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp (sau đây viết tắt là CITES), trừ loài thủy sản.'
+      trang_pdf: 2
+      sha256_pdf: 555cd7e16a3a8a061d6b1a117fc1b4340fa404dcc6d6c3c24fb91f59848f5fce
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng Thông tư này áp dụng đối với tổ chức, cá nhân, hộ kinh doanh, hộ gia đình, cộng đồng dân cư có hoạt động liên quan đến các nội dung quy định tại Điều 1 Thông tư này.
+      trang_pdf: 3
+      sha256_pdf: 555cd7e16a3a8a061d6b1a117fc1b4340fa404dcc6d6c3c24fb91f59848f5fce
+    - dieu: 3
+      noi_dung: 'Điều 3. Giải thích từ ngữ Trong Thông tư này các từ ngữ dưới đây được hiểu như sau: 1. Cơ quan Kiểm lâm sở tại là Hạt Kiểm lâm hoặc Kiểm lâm cấp tỉnh ở những địa phương không có Hạt Kiểm lâm.'
+      trang_pdf: 3
+      sha256_pdf: 555cd7e16a3a8a061d6b1a117fc1b4340fa404dcc6d6c3c24fb91f59848f5fce
+    - dieu: 8
+      noi_dung: 'Điều 8. Hồ sơ lâm sản có nguồn gốc khai thác trong nước 1. Gỗ khai thác từ rừng tự nhiên: bản chính Bảng kê lâm sản có xác nhận của cơ quan Kiểm lâm sở tại.'
+      trang_pdf: 14
+      sha256_pdf: 555cd7e16a3a8a061d6b1a117fc1b4340fa404dcc6d6c3c24fb91f59848f5fce
+    - dieu: 12
+      noi_dung: 'Điều 12. Hồ sơ lâm sản xuất khẩu 1. Đối với gỗ nguyên liệu, sản phẩm gỗ: a) Bản sao hoặc bản điện tử tờ khai hải quan theo quy định pháp luật về hải quan; b) Đối với gỗ nguyên liệu, sản phẩm gỗ thuộc loài nguy cấp, quý, hiếm33, Phụ lục CITES: bản sao hoặc bản điện tử Giấy phép CITES xuất khẩu, tái xuất khẩu do Cơ quan thẩm quyền quản lý CITES Việt Nam34 cấp;'
+      trang_pdf: 18
+      sha256_pdf: 555cd7e16a3a8a061d6b1a117fc1b4340fa404dcc6d6c3c24fb91f59848f5fce
+    - dieu: 16
+      noi_dung: 'Điều 16. Quy định kiểm tra 1. Nguyên tắc: a) Hoạt động kiểm tra của cơ quan Kiểm lâm do Tổ kiểm tra hoặc Đoàn kiểm tra (sau đây gọi viết là Tổ kiểm tra) thực hiện khi có quyết định kiểm tra của người có thẩm quyền quy định tại khoản 7 Điều này, trừ trường hợp kiểm tra đột xuất theo quy định tại khoản 4 Điều này;'
+      trang_pdf: 25
+      sha256_pdf: 555cd7e16a3a8a061d6b1a117fc1b4340fa404dcc6d6c3c24fb91f59848f5fce
+    - dieu: 20
+      noi_dung: 'Điều 20. Hệ thống thông tin phân loại doanh nghiệp, Cơ sở dữ liệu vi phạm 1. Hệ thống thông tin phân loại doanh nghiệp: a) Được xây dựng theo quy định của pháp luật; ứng dụng để tiếp nhận, lưu trữ thông tin và phân loại doanh nghiệp theo quy định tại Nghị định số 102/2020/NĐ-CP và tại Thông tư này; b) Được điều chỉnh, thay đổi khi có yêu cầu và phù hợp với quy định mới; phục vụ cho việc phân loại doanh nghiệp thuận lợi, chính xác, kịp thời;'
+      trang_pdf: 30
+      sha256_pdf: 555cd7e16a3a8a061d6b1a117fc1b4340fa404dcc6d6c3c24fb91f59848f5fce
+    - dieu: 24
+      noi_dung: 'Điều 24. Trách nhiệm của cơ quan chủ trì quản lý tài sản, đơn vị tiếp nhận tài sản sau khi được xác lập quyền sở hữu toàn dân 1. Cơ quan chủ trì quản lý tài sản: a) Chịu trách nhiệm xây dựng Phương án xử lý tài sản xác lập quyền sở hữu toàn dân trình cơ quan, người có thẩm quyền quyết định phê duyệt theo đúng thời hạn và thực hiện việc xử lý tài sản theo Phương án đã được phê duyệt; b) Quản lý và lưu giữ hồ sơ trong quá trình xử lý;'
+      trang_pdf: 37
+      sha256_pdf: 555cd7e16a3a8a061d6b1a117fc1b4340fa404dcc6d6c3c24fb91f59848f5fce
+    - dieu: 28
+      noi_dung: 'Điều 28. Chuyển giao cho cơ quan quản lý chuyên ngành 1. Đối tượng: a) Động vật, loài thủy sản thuộc loài nguy cấp, quý, hiếm70 Nhóm I, Phụ lục I CITES; b) Động vật, loài thủy sản không thuộc điểm a khoản này, cơ quan quản lý chuyên ngành có văn bản đề nghị được tiếp nhận tài sản theo Mẫu số 23 Phụ lục II ban hành kèm theo Thông tư này.'
+      trang_pdf: 41
+      sha256_pdf: 555cd7e16a3a8a061d6b1a117fc1b4340fa404dcc6d6c3c24fb91f59848f5fce
+    - dieu: 33
+      noi_dung: Điều 33. Hiệu lực thi hành 1. Thông tư này có hiệu lực kể từ ngày 01 tháng 7 năm 2025, trừ trường hợp quy định tại khoản 2 Điều này. 2. Quy định Phân loại doanh nghiệp tại Chương III Thông tư này có hiệu lực kể từ ngày 16 tháng 5 năm 2026.
+      trang_pdf: 48
+      sha256_pdf: 555cd7e16a3a8a061d6b1a117fc1b4340fa404dcc6d6c3c24fb91f59848f5fce
+ghi_chu: Văn bản hợp nhất Thông tư 26/2025/TT-BNNMT và Thông tư 84/2025/TT-BNNMT quy định về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân (trong quan_he.hop_nhat chỉ ghi 26/2025/TT-BNNMT đã có trong sổ).
 tu_khoa:
   - lam-san
   - go-nhap-khau

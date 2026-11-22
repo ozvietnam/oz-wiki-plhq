@@ -14,6 +14,31 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Vị trí và chức năng Bộ Công Thương là cơ quan của Chính phủ, thực hiện chức năng quản lý nhà nước về công nghiệp và thương mại, bao gồm các ngành và lĩnh vực: Điện, than, địa chất, khoáng sản, dầu khí, năng lượng mới, năng lượng tái tạo, sử dụng năng lượng tiết kiệm và hiệu quả, hóa chất, vật liệu nổ công nghiệp, công nghiệp cơ khí, công nghiệp luyện kim, công nghiệp tiêu dùng, công nghiệp thực phẩm, công nghiệp hỗ trợ, công nghiệp môi'
+      trang_pdf: 1
+      sha256_pdf: faca337902a359222ebef74d765b5d6fc95e4126eb549aa3723297b97a4443b2
+    - dieu: 2
+      noi_dung: 'Điều 2. Nhiệm vụ và quyền hạn Bộ Công Thương thực hiện nhiệm vụ, quyền hạn theo quy định tại Luật Tổ chức Chính phủ, quy định của Chính phủ về chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của bộ, cơ quan ngang bộ và những nhiệm vụ, quyền hạn sau đây: 1. Trình Chính phủ dự án luật, nghị quyết của Quốc hội, pháp lệnh, nghị quyết của Ủy ban Thường vụ Quốc hội; dự thảo nghị định, dự thảo nghị quyết của Chính phủ;'
+      trang_pdf: 1
+      sha256_pdf: faca337902a359222ebef74d765b5d6fc95e4126eb549aa3723297b97a4443b2
+    - dieu: 3
+      noi_dung: Điều 3. Cơ cấu tổ chức 1. Vụ Kế hoạch - Tài chính. 2. Vụ Phát triển thị trường nước ngoài và Thương mại đa biên. 3. Vụ Tổ chức cán bộ. 4. Vụ Pháp chế. 5. Văn phòng bộ. 6. Cục Năng lượng - Dầu khí. 7. Cục Điện lực. 8. Cục Công nghiệp. 9. Cục Kỹ thuật an toàn và Môi trường công nghiệp. 10. Cục Hóa chất. 11. Cục Quản lý và Phát triển thị trường trong nước. 12. Cục Thương mại điện tử. 13. Ủy ban Cạnh tranh quốc gia.
+      trang_pdf: 16
+      sha256_pdf: faca337902a359222ebef74d765b5d6fc95e4126eb549aa3723297b97a4443b2
+    - dieu: 4
+      noi_dung: Điều 4. Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 15 tháng 9 năm 2026; thay thế Nghị định số 40/2025/NĐ-CP ngày 26 tháng 02 năm 2025 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương.
+      trang_pdf: 17
+      sha256_pdf: faca337902a359222ebef74d765b5d6fc95e4126eb549aa3723297b97a4443b2
+    - dieu: 5
+      noi_dung: Điều 5. Điều khoản chuyển tiếp Bộ Công Thương tiếp tục thực hiện nhiệm vụ, quyền hạn quản lý nhà nước về an toàn thực phẩm theo quy định pháp luật về an toàn thực phẩm cho đến khi có quy định khác của cơ quan có thẩm quyền.
+      trang_pdf: 17
+      sha256_pdf: faca337902a359222ebef74d765b5d6fc95e4126eb549aa3723297b97a4443b2
+    - dieu: 6
+      noi_dung: Điều 6. Trách nhiệm thi hành Bộ trưởng Bộ Công Thương, các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố chịu trách nhiệm thi hành Nghị định này.
+      trang_pdf: 18
+      sha256_pdf: faca337902a359222ebef74d765b5d6fc95e4126eb549aa3723297b97a4443b2
 ghi_chu: Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=219447&pageid=27160

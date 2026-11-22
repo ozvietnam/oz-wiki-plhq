@@ -3,7 +3,7 @@ so_hieu: 08/VBHN-BTTTT
 so_hieu_khac:
   - 08/2024/VBHN-BTTTT
 loai: VAN_BAN_HOP_NHAT
-ten: 'Thông tư quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế'
+ten: Thông tư quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế
 co_quan: BTTTT
 ngay_ban_hanh: '2024-10-21'
 tinh_trang: CON_HIEU_LUC
@@ -28,7 +28,52 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Văn bản hợp nhất Thông tư 05/2016/TT-BTTTT và Thông tư 11/2024/TT-BTTTT quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế (ISBN).'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng 1. Thông tư này quy định chi tiết và hướng dẫn việc cấp, quản lý, yêu cầu kỹ thuật, vị trí, kích thước, màu sắc, cách thức ghi mã số sách tiêu chuẩn quốc tế International Standard Books Number (sau đây gọi tắt là mã số ISBN). 2. Thông tư này áp dụng đối với các đối tượng sau đây: a) Cục Xuất bản, In và Phát hành; b) Các nhà xuất bản.'
+      trang_pdf: 3
+      sha256_pdf: 96569764fff0b125b9d53b1c72256e05cce4d670022056fd5ad4bd06675962e0
+    - dieu: 2
+      noi_dung: Điều 2. Trách nhiệm của cơ quan quản lý mã số ISBN 1. Cục Xuất bản, In và Phát hành là cơ quan quản lý mã số ISBN tại Việt Nam có trách nhiệm cấp, quản lý và thu hồi mã số ISBN. 2. Hằng năm, Cục Xuất bản, In và Phát hành báo cáo về tình hình sử dụng mã số ISBN ở Việt Nam và đóng phí hoạt động cho tổ chức ISBN quốc tế.
+      trang_pdf: 3
+      sha256_pdf: 96569764fff0b125b9d53b1c72256e05cce4d670022056fd5ad4bd06675962e0
+    - dieu: 4
+      noi_dung: Điều 4. Đối tượng phải ghi mã số ISBN Nhà xuất bản phải ghi mã số ISBN trên sách và tài liệu dạng sách, bao gồm cả bản đồ, sách điện tử, sách chữ nổi (sau đây gọi chung là sách). Chương II TẠO LẬP VÀ SỬ DỤNG MÃ SỐ ISBN
+      trang_pdf: 4
+      sha256_pdf: 96569764fff0b125b9d53b1c72256e05cce4d670022056fd5ad4bd06675962e0
+    - dieu: 5
+      noi_dung: 'Điều 5. Nguyên tắc tạo lập và sử dụng mã số ISBN 1. Mã số ISBN được tạo lập và sử dụng tại Việt Nam là ISBN-13 và phải tích hợp với mã vạch theo chuẩn EAN-13, đảm bảo các yêu cầu sau: a) Đọc được bằng máy hoặc phần mềm đọc mã thông dụng; b) Chứa các thông tin của sách quy định tại Khoản 1 Điều 6 Thông tư này; c) Có liên kết đến thông tin của xuất bản phẩm trong hệ thống cơ sở dữ liệu của Cục Xuất bản, In và Phát hành;'
+      trang_pdf: 4
+      sha256_pdf: 96569764fff0b125b9d53b1c72256e05cce4d670022056fd5ad4bd06675962e0
+    - dieu: 6
+      noi_dung: 'Điều 6. Cơ sở dữ liệu tích hợp với mã số ISBN 1. Mã số ISBN tích hợp với mã vạch EAN-13 phải chứa các thông tin sau: a) Tên nhà xuất bản; b) Tên sách; c) Tên tác giả, tên dịch giả (đối với sách dịch); d)3 Năm xuất bản lần đầu;'
+      trang_pdf: 4
+      sha256_pdf: 96569764fff0b125b9d53b1c72256e05cce4d670022056fd5ad4bd06675962e0
+    - dieu: 7
+      noi_dung: 'Điều 7. Vị trí và trình bày mã số ISBN 1. Đối với sách in: a) Mã số ISBN tích hợp mã vạch phải in tại8 bìa 4. Nếu là sách có bìa bọc thì in trên bìa bọc;'
+      trang_pdf: 6
+      sha256_pdf: 96569764fff0b125b9d53b1c72256e05cce4d670022056fd5ad4bd06675962e0
+    - dieu: 8
+      noi_dung: 'Điều 8. Yêu cầu kỹ thuật thể hiện đối với mã vạch EAN-13 khi tích hợp với mã số ISBN 1. Kích thước: a) Kích thước tiêu chuẩn của mã vạch có chiều cao 22,85mm, rộng 31,35mm.'
+      trang_pdf: 8
+      sha256_pdf: 96569764fff0b125b9d53b1c72256e05cce4d670022056fd5ad4bd06675962e0
+    - dieu: 9
+      noi_dung: 'Điều 9. Nguyên tắc cấp mã số ISBN 1. Mỗi tên sách thuộc các trường hợp sau đây được cấp một mã số ISBN riêng biệt:'
+      trang_pdf: 8
+      sha256_pdf: 96569764fff0b125b9d53b1c72256e05cce4d670022056fd5ad4bd06675962e0
+    - dieu: 10
+      noi_dung: Điều 10. Cách thức cấp mã số ISBN Cục Xuất bản, In và Phát hành cấp mã số ISBN kèm theo xác nhận đăng ký xuất bản cho từng tên sách.
+      trang_pdf: 9
+      sha256_pdf: 96569764fff0b125b9d53b1c72256e05cce4d670022056fd5ad4bd06675962e0
+    - dieu: 11
+      noi_dung: 'Điều 11. Thu hồi mã số ISBN 1. Cục Xuất bản, In và Phát hành thu hồi mã số ISBN đã cấp đối với trường hợp mã số ISBN không được sử dụng theo quy định. 2.10 Cách thức thu hồi mã số ISBN: Chậm nhất trước ngày 31 tháng 3 hằng năm, trường hợp không thực hiện xuất bản từng tên sách kèm theo mã số ISBN 10'
+      trang_pdf: 9
+      sha256_pdf: 96569764fff0b125b9d53b1c72256e05cce4d670022056fd5ad4bd06675962e0
+    - dieu: 12
+      noi_dung: Điều 12. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 8 năm 2016. 11 Điều 5 Thông tư số 11/2024/TT-BTTTT ngày 23 tháng 9 năm 2024 của Bộ trưởng Bộ Thông tin và Truyền thông sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014
+      trang_pdf: 10
+      sha256_pdf: 96569764fff0b125b9d53b1c72256e05cce4d670022056fd5ad4bd06675962e0
+ghi_chu: Văn bản hợp nhất Thông tư 05/2016/TT-BTTTT và Thông tư 11/2024/TT-BTTTT quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế (ISBN).
 toan_van: raw/download/congbaocdn.chinhphu.vn/08-vbhn-btttt.pdf
 tu_khoa:
   - xuat-ban

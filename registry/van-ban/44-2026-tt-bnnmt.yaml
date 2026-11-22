@@ -33,5 +33,22 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Sửa đổi, bổ sung thứ tự số 4.1, thứ tự số 4.2, thứ tự số 4.3, thứ tự số 4.4 tại Phụ lục I Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Môi trường
+      trang_pdf: 1
+      sha256_pdf: 799cf3cde1dc8d3f2357d62f7aaf0f41ac99db2f725cd666c6788ff6930c708c
+    - dieu: 2
+      noi_dung: Điều 2. Bổ sung thứ tự số 2 vào sau thứ tự số 1 tại Phụ lục II Danh mục sản phẩm, hàng hóa có mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Môi trường TT Tên sản phẩm/hàng hóa 2 Thuốc thú y có chứa chất ma túy; Vắc xin thú y nhược độc Mã HS Quy chuẩn kỹ thuật áp dụng Yêu cầu quản lý chất lượng tương ứng
+      trang_pdf: 3
+      sha256_pdf: 799cf3cde1dc8d3f2357d62f7aaf0f41ac99db2f725cd666c6788ff6930c708c
+    - dieu: 3
+      noi_dung: Điều 3. Thay thế một số cụm từ của Thông tư 27/2026/TT-BNNMT 1. Thay thế cụm từ “ngày 02 tháng 01 năm 2024” tại khoản 3 Điều 6 Thông tư số 27/2026/TT-BNNMT bằng cụm từ “ngày 02 tháng 02 năm 2024”.
+      trang_pdf: 4
+      sha256_pdf: 799cf3cde1dc8d3f2357d62f7aaf0f41ac99db2f725cd666c6788ff6930c708c
+    - dieu: 4
+      noi_dung: Điều 4. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành từ ngày 09 tháng10 năm 2026. 2. Trong quá trình thực hiện, nếu có khó khăn, vướng mắc, đề nghị cơ quan, tổ chức, cá nhân phản ánh về Bộ Nông nghiệp và Môi trường để xem xét, sửa đổi, bổ sung./.
+      trang_pdf: 5
+      sha256_pdf: 799cf3cde1dc8d3f2357d62f7aaf0f41ac99db2f725cd666c6788ff6930c708c
 ghi_chu: 'Bắt bởi radar công báo 29/10 (issue #251) — nạp cùng ngày phát hiện. TT 27/2026 đã có sẵn trong sổ; hiệu lực từ 2026-10-09, đã trích bảng danh-muc/44-2026-tt-bnnmt.csv.'
 toan_van: raw/download/datafiles.chinhphu.vn/44-2026-tt-bnnmt.pdf

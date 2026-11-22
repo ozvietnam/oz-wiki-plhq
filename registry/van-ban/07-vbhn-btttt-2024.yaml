@@ -3,7 +3,7 @@ so_hieu: 07/VBHN-BTTTT
 so_hieu_khac:
   - 07/2024/VBHN-BTTTT
 loai: VAN_BAN_HOP_NHAT
-ten: 'Thông tư quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in'
+ten: Thông tư quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in
 co_quan: BTTTT
 ngay_ban_hanh: '2024-10-21'
 tinh_trang: CON_HIEU_LUC
@@ -28,7 +28,24 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Văn bản hợp nhất Thông tư 03/2015/TT-BTTTT và Thông tư 11/2024/TT-BTTTT hướng dẫn Nghị định 60/2014/NĐ-CP về hoạt động in (kèm nội dung bãi bỏ các Điều 4, 7, 8, 9, 10, 11 và Phụ lục bởi khoản 2 Điều 2 Thông tư 18/2023/TT-BTTTT ngày 30-11-2023 — văn bản 18/2023/TT-BTTTT chưa có mục riêng trong sổ nên ghi nhận tại pham_vi và ghi_chu).'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Thông tư này quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ về hoạt động in (sau đây được viết tắt là Nghị định số 60/2014/NĐ-CP). Điều 2.2(được bãi bỏ)
+      trang_pdf: 3
+      sha256_pdf: f71582046317555bd170f5f17b1e9a5ce89532b59622cd9e773c742e984a8e95
+    - dieu: 3
+      noi_dung: Điều 3. Trách nhiệm tổ chức tập huấn và bồi dưỡng kiến thức pháp luật, nghiệp vụ trong hoạt động in 1. Cục Xuất bản, In và Phát hành chủ trì, phối hợp với cơ quan, đơn vị liên quan tổ chức tập huấn, bồi dưỡng kiến thức pháp luật, nghiệp vụ trong hoạt động in trên phạm vi cả nước.
+      trang_pdf: 3
+      sha256_pdf: f71582046317555bd170f5f17b1e9a5ce89532b59622cd9e773c742e984a8e95
+    - dieu: 5
+      noi_dung: Điều 5. Tổ chức liên ngành phòng, chống các hành vi vi phạm pháp luật trong hoạt động in quy định tại Khoản 7 Điều 5 và Điểm d Khoản 1 Điều 7 Nghị định số 60/2014/NĐ-CP 1. Tổ chức liên ngành là tổ chức phối hợp hoạt động của các cơ quan liên quan để phòng, chống các hành vi vi phạm pháp luật trong hoạt động in.
+      trang_pdf: 4
+      sha256_pdf: f71582046317555bd170f5f17b1e9a5ce89532b59622cd9e773c742e984a8e95
+    - dieu: 12
+      noi_dung: Điều 12. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 5 năm 2015. 6 Điều này được bãi bỏ theo quy định tại khoản 2 Điều 2 Thông tư số 18/2023/TT-BTTTT ngày 30 tháng 11 năm 2023 của Bộ trưởng Bộ Thông tin và Truyền thông về bãi bỏ một số văn bản quy phạm pháp luật do Bộ trưởng Bộ Thông tin và Truyền thông ban hành hoặc liên tịch ban hành, có hiệu lực kể từ ngày 30 tháng 11 năm 2023.
+      trang_pdf: 5
+      sha256_pdf: f71582046317555bd170f5f17b1e9a5ce89532b59622cd9e773c742e984a8e95
+ghi_chu: Văn bản hợp nhất Thông tư 03/2015/TT-BTTTT và Thông tư 11/2024/TT-BTTTT hướng dẫn Nghị định 60/2014/NĐ-CP về hoạt động in (kèm nội dung bãi bỏ các Điều 4, 7, 8, 9, 10, 11 và Phụ lục bởi khoản 2 Điều 2 Thông tư 18/2023/TT-BTTTT ngày 30-11-2023 — văn bản 18/2023/TT-BTTTT chưa có mục riêng trong sổ nên ghi nhận tại pham_vi và ghi_chu).
 toan_van: raw/download/congbaocdn.chinhphu.vn/07-vbhn-btttt.pdf
 tu_khoa:
   - xuat-ban

@@ -3,7 +3,7 @@ so_hieu: 50/VBHN-BXD
 so_hieu_khac:
   - 50/2026/VBHN-BXD
 loai: VAN_BAN_HOP_NHAT
-ten: 'Nghị định về thoát nước và xử lý nước thải'
+ten: Nghị định về thoát nước và xử lý nước thải
 co_quan: BXD
 ngay_ban_hanh: '2026-06-17'
 tinh_trang: CON_HIEU_LUC
@@ -27,7 +27,48 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Văn bản hợp nhất Nghị định 80/2014/NĐ-CP về thoát nước và xử lý nước thải qua các lần sửa đổi, bổ sung (98/2019/NĐ-CP, 08/2022/NĐ-CP, 85/2024/NĐ-CP). Chỉ khai quan_he.hop_nhat đối với 80/2014/NĐ-CP đã có trong sổ; các Nghị định 98/2019/NĐ-CP, 08/2022/NĐ-CP và 85/2024/NĐ-CP chưa có trong sổ nên ghi nhận đầy đủ tại xac_minh.pham_vi.'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng 1. Nghị định này quy định về hoạt động thoát nước và xử lý nước thải tại các đô thị, các khu công nghiệp, khu kinh tế, khu chế xuất, khu công nghệ cao (sau đây gọi tắt là khu công nghiệp), khu dân cư nông thôn tập trung; quyền và nghĩa vụ của tổ chức, cá nhân và hộ gia đình có hoạt động liên quan đến thoát nước và xử lý nước thải trên lãnh thổ Việt Nam.
+      trang_pdf: 2
+      sha256_pdf: a30c8f3bb25184a4300895349da091aaba8ad2a5b12040796c113ab6ff5d2a81
+    - dieu: 2
+      noi_dung: Điều 2. Giải thích từ ngữ 1. Hoạt động thoát nước và xử lý nước thải là các hoạt động về quy hoạch, thiết kế, đầu tư xây dựng, quản lý, vận hành hệ thống thoát nước. 2. Dịch vụ thoát nước và xử lý nước thải (gọi tắt là dịch vụ thoát nước) là các hoạt động về quản lý, vận hành hệ thống thoát nước nhằm đáp ứng yêu cầu thoát nước mưa, nước thải và xử lý nước thải theo các quy định của pháp luật.
+      trang_pdf: 2
+      sha256_pdf: a30c8f3bb25184a4300895349da091aaba8ad2a5b12040796c113ab6ff5d2a81
+    - dieu: 3
+      noi_dung: Điều 3. Nguyên tắc chung quản lý thoát nước và xử lý nước thải 1. Dịch vụ thoát nước đô thị, khu dân cư nông thôn tập trung là loại hình hoạt động công ích, được Nhà nước quan tâm, ưu tiên và khuyến khích đầu tư nhằm đáp ứng yêu cầu thoát nước và xử lý nước thải, bảo đảm phát triển bền vững.
+      trang_pdf: 4
+      sha256_pdf: a30c8f3bb25184a4300895349da091aaba8ad2a5b12040796c113ab6ff5d2a81
+    - dieu: 11
+      noi_dung: Điều 11. Chủ đầu tư công trình thoát nước 1. Ủy ban nhân dân theo phân cấp quản lý hoặc đơn vị thoát nước được giao là chủ đầu tư xây dựng các công trình thoát nước sử dụng vốn ngân sách nhà nước trên địa bàn do mình quản lý. 2. Chủ đầu tư hệ thống thoát nước khu dân cư nông thôn tập trung được đầu tư từ nguồn vốn ngân sách là Ban quản lý xây dựng nông thôn xã do Ủy ban nhân dân xã quyết định.
+      trang_pdf: 7
+      sha256_pdf: a30c8f3bb25184a4300895349da091aaba8ad2a5b12040796c113ab6ff5d2a81
+    - dieu: 17
+      noi_dung: Điều 17. Lựa chọn đơn vị thoát nước 1. Đối với hệ thống thoát nước đô thị, khu dân cư nông thôn tập trung được đầu tư bằng vốn ngân sách nhà nước, việc lựa chọn đơn vị thoát nước tuân thủ theo quy định pháp luật hiện hành về cung ứng sản phẩm dịch vụ công ích.
+      trang_pdf: 9
+      sha256_pdf: a30c8f3bb25184a4300895349da091aaba8ad2a5b12040796c113ab6ff5d2a81
+    - dieu: 23
+      noi_dung: Điều 23. Quy định về xử lý nước thải phi tập trung 1. Giải pháp xử lý nước thải phi tập trung được áp dụng đối với các khu hoặc cụm dân cư, khu đô thị mới, hộ gia đình, cơ sở sản xuất kinh doanh, dịch vụ, sản xuất tiểu thủ công nghiệp, làng nghề, chợ, trường học, khu nghỉ dưỡng hoặc các khu vực bị hạn chế bởi đất đai, địa hình... không có khả năng hoặc chưa thể kết nối với hệ thống thoát nước tập trung.
+      trang_pdf: 13
+      sha256_pdf: a30c8f3bb25184a4300895349da091aaba8ad2a5b12040796c113ab6ff5d2a81
+    - dieu: 29
+      noi_dung: 'Điều 29. Quyền và nghĩa vụ của tổ chức, cá nhân và hộ gia đình sử dụng dịch vụ thoát nước 1. Tổ chức, cá nhân và hộ gia đình sử dụng dịch vụ thoát nước có các quyền sau đây: a) Được cung cấp dịch vụ thoát nước theo quy định của pháp luật; b) Yêu cầu đơn vị thoát nước kịp thời khắc phục khi có sự cố xảy ra; c) Được cung cấp hoặc giới thiệu thông tin về hoạt động thoát nước;'
+      trang_pdf: 16
+      sha256_pdf: a30c8f3bb25184a4300895349da091aaba8ad2a5b12040796c113ab6ff5d2a81
+    - dieu: 35
+      noi_dung: Điều 35. Thỏa thuận và miễn trừ đấu nối 1. Thỏa thuận đấu nối là văn bản thỏa thuận giữa đơn vị thoát nước và hộ thoát nước về vị trí đấu nối, các yêu cầu kỹ thuật của điểm đấu nối, thời điểm đấu nối, chất lượng, khối lượng nước thải xả vào điểm đấu nối.
+      trang_pdf: 19
+      sha256_pdf: a30c8f3bb25184a4300895349da091aaba8ad2a5b12040796c113ab6ff5d2a81
+    - dieu: 41
+      noi_dung: 'Điều 41. Trách nhiệm lập, thẩm quyền thẩm định và phê duyệt giá dịch vụ thoát nước5 1. Đối với hệ thống thoát nước được đầu tư từ ngân sách nhà nước và các nguồn vốn khác (trừ hệ thống thoát nước tại khu công nghiệp được đầu tư bằng nguồn vốn ngoài ngân sách nhà nước): việc lập phương án giá, thẩm định phương án giá, trình và ban hành văn bản định giá dịch vụ thoát nước thực hiện theo Luật Giá và các văn bản hướng dẫn Luật Giá.'
+      trang_pdf: 21
+      sha256_pdf: a30c8f3bb25184a4300895349da091aaba8ad2a5b12040796c113ab6ff5d2a81
+    - dieu: 48
+      noi_dung: Điều 48. Hiệu lực thi hành7 Nghị định này có hiệu lực thi hành kể từ ngày 01 tháng 01 năm 2015 và thay thế Nghị định số 88/2007/NĐ-CP ngày 28 tháng 5 năm 2007 của Chính phủ về thoát nước đô thị và khu công nghiệp Việt Nam.
+      trang_pdf: 24
+      sha256_pdf: a30c8f3bb25184a4300895349da091aaba8ad2a5b12040796c113ab6ff5d2a81
+ghi_chu: Văn bản hợp nhất Nghị định 80/2014/NĐ-CP về thoát nước và xử lý nước thải qua các lần sửa đổi, bổ sung (98/2019/NĐ-CP, 08/2022/NĐ-CP, 85/2024/NĐ-CP). Chỉ khai quan_he.hop_nhat đối với 80/2014/NĐ-CP đã có trong sổ; các Nghị định 98/2019/NĐ-CP, 08/2022/NĐ-CP và 85/2024/NĐ-CP chưa có trong sổ nên ghi nhận đầy đủ tại xac_minh.pham_vi.
 toan_van: raw/download/datafiles.chinhphu.vn/50-vbhn-bxd.pdf
 tu_khoa:
   - thoat-nuoc

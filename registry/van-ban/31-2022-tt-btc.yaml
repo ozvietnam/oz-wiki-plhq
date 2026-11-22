@@ -21,22 +21,28 @@ quan_he:
       can_cu: Điều 4 khoản 2 TT 31/2022/TT-BTC
 xac_minh:
   muc: NGUON_A
-  pham_vi: >-
-    (1) Điều khoản thi hành: bản chữ Công báo (18 phần 523–558 tại raw/download/congbaocdn.chinhphu.vn/tt-31-2022-cb-*.pdf,
-    mỗi phần kèm .nguon.json) — Điều 4 khoản 1 hiệu lực 01-12-2022; khoản 2 thay thế TT 65/2017/TT-BTC và TT 09/2019/TT-BTC.
-    Toàn bộ 97 chương Danh mục + Phụ lục II (6 quy tắc tổng quát + chú giải) đã đọc; chú giải chương/phân nhóm trích vào
-    danh-muc/chu-giai-chuong.json bằng tools/trich-chu-giai.mjs.
-    (2) Tình trạng hiện tại: rà registry 13-10-2026 — không có văn bản nào sau ghi thay/bãi/tạm ngưng TT 31/2022;
-    các danh mục KTCN 2026 (vd 15/2024, 27/2026/TT-BYT) vẫn dẫn TT 31/2022 làm căn cứ mã HS; bản chụp biểu thuế
-    Tổng cục 2026.04 dùng đúng hệ mã 8 số của Danh mục này.
+  pham_vi: '(1) Điều khoản thi hành: bản chữ Công báo (18 phần 523–558 tại raw/download/congbaocdn.chinhphu.vn/tt-31-2022-cb-*.pdf, mỗi phần kèm .nguon.json) — Điều 4 khoản 1 hiệu lực 01-12-2022; khoản 2 thay thế TT 65/2017/TT-BTC và TT 09/2019/TT-BTC. Toàn bộ 97 chương Danh mục + Phụ lục II (6 quy tắc tổng quát + chú giải) đã đọc; chú giải chương/phân nhóm trích vào danh-muc/chu-giai-chuong.json bằng tools/trich-chu-giai.mjs. (2) Tình trạng hiện tại: rà registry 13-10-2026 — không có văn bản nào sau ghi thay/bãi/tạm ngưng TT 31/2022; các danh mục KTCN 2026 (vd 15/2024, 27/2026/TT-BYT) vẫn dẫn TT 31/2022 làm căn cứ mã HS; bản chụp biểu thuế Tổng cục 2026.04 dùng đúng hệ mã 8 số của Danh mục này.'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-13'
   boi: zcode-glm@ozvietnam
-ghi_chu: >-
-  Danh mục hàng hóa XK-NK Việt Nam theo AHTN 2022 — xương sống phân loại: Điều 3 quy định dùng để xây dựng biểu thuế,
-  danh mục quản lý nhà nước và thống kê. Chú giải chương + phân nhóm + GIR (Phụ lục II) trích sẵn cho tra cứu:
-  node tools/chu-giai.mjs <chương|mã HS> | --quy-tac. Chú giải bổ sung (SEN) của AHTN không in trong tài liệu này —
-  văn bản chỉ dẫn tham khảo ấn phẩm SEN của AHTN 2022.
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Ban hành kèm theo Thông tư này Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam, gồm hai (2) phụ lục: Phụ lục I - Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.'
+      trang_pdf: 1
+      sha256_pdf: 3b84ea8100eeaf914ccd3b64a96b5669fc3b4a344b08caa14cb69a762179586e
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng 1. Tổ chức, cá nhân thực hiện xuất khẩu, nhập khẩu hàng hóa. 2. Tổ chức, cá nhân có quyền và nghĩa vụ liên quan đến hàng hóa xuất khẩu, nhập khẩu. 3. Cơ quan hải quan, công chức hải quan. 4. Cơ quan khác của Nhà nước trong việc phối hợp quản lý nhà nước về hải quan và quản lý hàng hóa xuất nhập khẩu.
+      trang_pdf: 2
+      sha256_pdf: 3b84ea8100eeaf914ccd3b64a96b5669fc3b4a344b08caa14cb69a762179586e
+    - dieu: 3
+      noi_dung: 'Điều 3. Nguyên tắc áp dụng Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam được sử dụng để: 1. Xây dựng các Biểu thuế áp dụng đối với hàng hóa xuất khẩu, nhập khẩu. 2. Xây dựng các Danh mục hàng hóa phục vụ quản lý nhà nước theo quy định của Chính phủ và quy định tại khoản 4 Điều 26 Luật Hải quan. 3. Thống kê Nhà nước về hàng hóa xuất khẩu, nhập khẩu. 4. Phục vụ công tác quản lý nhà nước về xuất khẩu, nhập khẩu hàng hóa và các lĩnh vực khác.'
+      trang_pdf: 2
+      sha256_pdf: 3b84ea8100eeaf914ccd3b64a96b5669fc3b4a344b08caa14cb69a762179586e
+    - dieu: 4
+      noi_dung: Điều 4. Tổ chức thực hiện 1. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 12 năm 2022. 2. Thông tư này thay thế Thông tư số 65/2017/TT-BTC ngày 27/6/2017 của Bộ trưởng Bộ Tài chính ban hành Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam và Thông tư số 09/2019/TT-BTC ngày 15/02/2019 của Bộ trưởng Bộ Tài chính sửa đổi, bổ sung một số nội dung tại các Phụ lục của Thông tư số 65/2017/TT-BTC ngày 27/6/2017 của Bộ trưởng Bộ Tài chính ban
+      trang_pdf: 2
+      sha256_pdf: 3b84ea8100eeaf914ccd3b64a96b5669fc3b4a344b08caa14cb69a762179586e
+ghi_chu: 'Danh mục hàng hóa XK-NK Việt Nam theo AHTN 2022 — xương sống phân loại: Điều 3 quy định dùng để xây dựng biểu thuế, danh mục quản lý nhà nước và thống kê. Chú giải chương + phân nhóm + GIR (Phụ lục II) trích sẵn cho tra cứu: node tools/chu-giai.mjs <chương|mã HS> | --quy-tac. Chú giải bổ sung (SEN) của AHTN không in trong tài liệu này — văn bản chỉ dẫn tham khảo ấn phẩm SEN của AHTN 2022.'
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-31-2022-tt-btc-37431.htm
     truy_cap: '2026-10-04'

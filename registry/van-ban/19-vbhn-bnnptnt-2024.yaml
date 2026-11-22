@@ -5,7 +5,7 @@ so_hieu_khac:
   - 19/2024/VBHN-BNNMT
   - 19/2024/VBHN-TT-BNNPTNT
 loai: VAN_BAN_HOP_NHAT
-ten: 'Thông tư quy định trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật'
+ten: Thông tư quy định trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật
 co_quan: BNNPTNT
 ngay_ban_hanh: '2024-05-27'
 tinh_trang: HET_HIEU_LUC_MOT_PHAN
@@ -35,7 +35,48 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Ghi rõ năm ban hành 2024 tại so_hieu (19/VBHN-BNNPTNT/2024) và so_hieu_khac để phân biệt với tệp 19-vbhn-bnnptnt.yaml đã có sẵn trong sổ (vốn đang gắn với docid=207302 trên vanban.chinhphu.vn là Văn bản hợp nhất 19/VBHN-BNNPTNT ngày 30-12-2022 về quản lý giống thủy sản, thức ăn thủy sản). Toàn văn bản hợp nhất ngày 27-05-2024 được nạp tại raw/download/ppd.gov.vn/19-vbhn-bnnptnt.pdf.'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh2 Thông tư này quy định về: 1. Trình tự, thủ tục cấp Giấy chứng nhận kiểm dịch thực vật nhập khẩu, xuất khẩu và quá cảnh đối với vật thể thuộc diện kiểm dịch thực vật; kiểm dịch thực vật sau nhập khẩu.'
+      trang_pdf: 3
+      sha256_pdf: 4bd28627ce3e2965cb13b49e453ba5e5771bdab9b827b1387eee893bea66166c
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng Thông tư này áp dụng đối với tổ chức, cá nhân trong nước và nước ngoài có hoạt động nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật (sau đây gọi là vật thể) tại Việt Nam.
+      trang_pdf: 3
+      sha256_pdf: 4bd28627ce3e2965cb13b49e453ba5e5771bdab9b827b1387eee893bea66166c
+    - dieu: 3
+      noi_dung: 'Điều 3. Giải thích từ ngữ Trong thông tư này, các từ ngữ dưới đây được hiểu như sau: Căn cứ Luật Thủy sản ngày 21 tháng 11 năm 2017; Căn cứ Luật Chăn nuôi ngày 19 tháng 11 năm 2018; Căn cứ Nghị định số 105/2022/NĐ-CP ngày 22 tháng 12 năm 2022 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nông nghiệp và Phát triển nông thôn; Theo đề nghị của Cục trưởng Cục Bảo vệ thực vật;'
+      trang_pdf: 3
+      sha256_pdf: 4bd28627ce3e2965cb13b49e453ba5e5771bdab9b827b1387eee893bea66166c
+    - dieu: 6
+      noi_dung: Điều 6. Hồ sơ đăng ký kiểm dịch thực vật nhập khẩu 4Khoản này được bổ sung theo quy định tại khoản 1 Điều 2 Thông tư số 15/2021/TT-
+      trang_pdf: 4
+      sha256_pdf: 4bd28627ce3e2965cb13b49e453ba5e5771bdab9b827b1387eee893bea66166c
+    - dieu: 8
+      noi_dung: Điều 8. Thông báo kiểm dịch thực vật Điều này được bổ sung theo quy định tại khoản 3 Điều 1 của Thông tư số 34/2018/TTBNNPTNT ngày 16 tháng 11 năm 2018 của Bộ Nông nghiệp và Phát triển nông thôn sửa đổi, bổ sung một số điều của Thông tư số 33/2014/TT-BNNPTNT ngày 30 tháng 10 năm 2014 và Thông tư số 20/2017/TT-BNNPTNT ngày 10 tháng 11 năm 2017 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn, có hiệu lực kể từ ngày 01 tháng 01 năm 2019.
+      trang_pdf: 7
+      sha256_pdf: 4bd28627ce3e2965cb13b49e453ba5e5771bdab9b827b1387eee893bea66166c
+    - dieu: 10
+      noi_dung: Điều 10. Trình tự, thủ tục kiểm dịch thực vật xuất khẩu 1. Đăng ký kiểm dịch thực vật Chủ vật thể nộp trực tiếp 01 bộ hồ sơ đăng ký cho cơ quan kiểm dịch thực vật nơi gần nhất. 2. Tiếp nhận và kiểm tra hồ sơ 12Khoản này được sửa đổi, bổ sung theo quy định tại khoản 5 Điều 2 Thông tư số
+      trang_pdf: 8
+      sha256_pdf: 4bd28627ce3e2965cb13b49e453ba5e5771bdab9b827b1387eee893bea66166c
+    - dieu: 13
+      noi_dung: Điều 13. Vật thể phải thực hiện kiểm dịch thực vật sau nhập khẩu. 1. Hom giống, cây giống, củ giống, cành ghép và mắt ghép quy định phải qua kiểm dịch thực vật sau nhập khẩu theo kết quả phân tích nguy cơ dịch hại. 2. Sinh vật có ích
+      trang_pdf: 11
+      sha256_pdf: 4bd28627ce3e2965cb13b49e453ba5e5771bdab9b827b1387eee893bea66166c
+    - dieu: 15
+      noi_dung: 'Điều 15. Nội dung kiểm dịch thực vật sau nhập khẩu 1. Đối với giống cây trồng: Kiểm tra sinh vật gây hại tiềm ẩn được xác định trong báo cáo phân tích nguy cơ dịch hại. 2. Đối với sinh vật có ích: Kiểm tra độ thuần, tính chuyên tính ký chủ trong khu nhân nuôi cách ly. Đối với côn trùng, nhện có ích còn kiểm tra thêm chỉ tiêu về ký sinh bậc 2.'
+      trang_pdf: 11
+      sha256_pdf: 4bd28627ce3e2965cb13b49e453ba5e5771bdab9b827b1387eee893bea66166c
+    - dieu: 17
+      noi_dung: 'Điều 17. Thời gian kiểm tra theo dõi Thời gian kiểm tra, theo dõi kiểm dịch thực vật sau nhập khẩu đối với từng loại giống cây trồng và sinh vật có ích như sau: 1. Chồi, hom, cành, mắt ghép: từ 1 đến 2 năm. 2. Cây: từ 6 đến 12 tháng. 3. Củ giống: 1 chu kỳ sinh trưởng. 4. Sinh vật có ích: Ít nhất một thế hệ. Chương VI TỔ CHỨC THỰC HIỆN VÀ ĐIỀU KHOẢN THI HÀNH15 15 Các Điều 3, 4, 5 Thông tư số 34/2018/TT-BNNPTNT ngày 16 tháng'
+      trang_pdf: 12
+      sha256_pdf: 4bd28627ce3e2965cb13b49e453ba5e5771bdab9b827b1387eee893bea66166c
+    - dieu: 20
+      noi_dung: Điều 20. Hiệu lực thi hành Thông tư này có hiệu lực kể từ ngày 01 tháng 01 năm 2015. Thay thế Thông tư số 65/2012/TT-BNNPTNT ngày 26/12/2012 của Bộ trưởng Bộ Nông nghiệp và phát triển nông thôn quy định về trình tự, thủ tục cấp giấy chứng nhận kiểm dịch thực vật.
+      trang_pdf: 15
+      sha256_pdf: 4bd28627ce3e2965cb13b49e453ba5e5771bdab9b827b1387eee893bea66166c
+ghi_chu: Ghi rõ năm ban hành 2024 tại so_hieu (19/VBHN-BNNPTNT/2024) và so_hieu_khac để phân biệt với tệp 19-vbhn-bnnptnt.yaml đã có sẵn trong sổ (vốn đang gắn với docid=207302 trên vanban.chinhphu.vn là Văn bản hợp nhất 19/VBHN-BNNPTNT ngày 30-12-2022 về quản lý giống thủy sản, thức ăn thủy sản). Toàn văn bản hợp nhất ngày 27-05-2024 được nạp tại raw/download/ppd.gov.vn/19-vbhn-bnnptnt.pdf.
 toan_van: raw/download/ppd.gov.vn/19-vbhn-bnnptnt.pdf
 tu_khoa:
   - kiem-dich-thuc-vat
