@@ -1,26 +1,49 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 24/2026/NĐ-CP
 loai: NGHI_DINH
-ten: "Quy định các danh mục hoá chất thuộc phạm vi điều chỉnh của Luật Hoá chất"
+ten: Quy định các danh mục hoá chất thuộc phạm vi điều chỉnh của Luật Hoá chất
 co_quan: CP
-ngay_ban_hanh: "2026-01-17"
-hieu_luc_tu: "2026-01-17"
+ngay_ban_hanh: '2026-01-17'
+hieu_luc_tu: '2026-01-17'
 tinh_trang: CON_HIEU_LUC
-nhanh: [giay-phep]
+nhanh:
+  - giay-phep
 quan_he:
   huong_dan:
     - 69/2025/QH15
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=216671
-    truy_cap: "2026-11-20"
+    truy_cap: '2026-11-20'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/24-ndcp.signed.pdf
-    truy_cap: "2026-11-20"
-toan_van: raw/download/datafiles.chinhphu.vn/24-2026-nd-cp.pdf
+    truy_cap: '2026-11-20'
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/24-2026-nd-cp.pdf
+  - raw/ocr/24-2026-nd-cp.ocr.txt
 xac_minh:
   muc: NGUON_A
-  pham_vi: "Đã đọc toàn văn PDF ký số bậc A trên datafiles.chinhphu.vn (24-ndcp.signed.pdf, 88 trang, ký Phó Thủ tướng Bùi Thanh Sơn ngày 17-01-2026) và đối chiếu thẻ vanban.chinhphu.vn (docid=216671): gồm 5 Điều và 4 Phụ lục hướng dẫn khoản 2 Điều 6, điểm a khoản 1 Điều 9, điểm a khoản 2 Điều 9 và khoản 2 Điều 37 Luật Hóa chất số 69/2025/QH15 (Điều 3 quy định Phụ lục I — Danh mục hóa chất cơ bản thuộc lĩnh vực công nghiệp hóa chất trọng điểm; Phụ lục II — Danh mục hoá chất sản xuất, kinh doanh có điều kiện; Phụ lục III — Danh mục hoá chất cần kiểm soát đặc biệt; Phụ lục IV — Danh mục hóa chất phải xây dựng Kế hoạch phòng ngừa, ứng phó sự cố hóa chất). Điều 4 (Hiệu lực thi hành) quy định Nghị định có hiệu lực thi hành kể từ ngày ký ban hành (17-01-2026). Điều 5 (Tổ chức thực hiện) quy định trách nhiệm thi hành và việc định kỳ trước ngày 30-06 hằng năm các bộ, cơ quan ngang bộ rà soát, đề xuất điều chỉnh, cập nhật danh mục gửi Bộ Công Thương. Đối chiếu tình trạng hiện tại đến 2026-11-21 trên vanban.chinhphu.vn: chưa có văn bản sửa đổi, bổ sung, thay thế hay bãi bỏ, đang CON_HIEU_LUC."
+  pham_vi: 'Đã đọc toàn văn PDF ký số bậc A trên datafiles.chinhphu.vn (24-ndcp.signed.pdf, 88 trang, ký Phó Thủ tướng Bùi Thanh Sơn ngày 17-01-2026) và đối chiếu thẻ vanban.chinhphu.vn (docid=216671): gồm 5 Điều và 4 Phụ lục hướng dẫn khoản 2 Điều 6, điểm a khoản 1 Điều 9, điểm a khoản 2 Điều 9 và khoản 2 Điều 37 Luật Hóa chất số 69/2025/QH15 (Điều 3 quy định Phụ lục I — Danh mục hóa chất cơ bản thuộc lĩnh vực công nghiệp hóa chất trọng điểm; Phụ lục II — Danh mục hoá chất sản xuất, kinh doanh có điều kiện; Phụ lục III — Danh mục hoá chất cần kiểm soát đặc biệt; Phụ lục IV — Danh mục hóa chất phải xây dựng Kế hoạch phòng ngừa, ứng phó sự cố hóa chất). Điều 4 (Hiệu lực thi hành) quy định Nghị định có hiệu lực thi hành kể từ ngày ký ban hành (17-01-2026). Điều 5 (Tổ chức thực hiện) quy định trách nhiệm thi hành và việc định kỳ trước ngày 30-06 hằng năm các bộ, cơ quan ngang bộ rà soát, đề xuất điều chỉnh, cập nhật danh mục gửi Bộ Công Thương. Đối chiếu tình trạng hiện tại đến 2026-11-21 trên vanban.chinhphu.vn: chưa có văn bản sửa đổi, bổ sung, thay thế hay bãi bỏ, đang CON_HIEU_LUC.'
   hieu_luc_da_doi_chieu: true
-  ngay: "2026-11-21"
+  ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: "4 Phụ lục: I — hóa chất cơ bản công nghiệp hóa chất trọng điểm; II — hóa chất SX, kinh doanh CÓ ĐIỀU KIỆN (786); III — cần kiểm soát đặc biệt; IV — phải xây dựng kế hoạch phòng ngừa, ứng phó sự cố. LƯU Ý QUAN TRỌNG: khai báo hóa chất NHẬP KHẨU theo Điều 6 NĐ 26/2026/NĐ-CP gắn theo CHƯƠNG 28+29 của danh mục XNK (BTC), KHÔNG theo các danh mục này — mở #1475 trước khi gắn nghĩa vụ. PDF 88 trang bản scan (text layer trống) — TODO ca đêm: OCR + trích 4 phụ lục thành CSV theo CAS."
-tu_khoa: [hoa-chat, danh-muc-hoa-chat, cas, khai-bao-hoa-chat]
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Nghị định này quy định các danh mục hoá chất thuộc phạm vi điều chỉnh của Luật Hoá chất về các lĩnh vực phát triển công nghiệp hóa chất, hoạt động hóa chất và an toàn, an ninh trong hoạt động hóa chất, cụ thể: khoản 2 Điều 6; điểm a khoản 1 Điều 9; điểm a khoản 2 Điều 9; khoản 2 Điều 37.'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng Cơ quan, t6 chức, cá nhân trong nước và tổ chức, cá nhân nước ngoài thực hiện các hoạt động liên quan đến lĩnh vực phát triển công nghiệp hóa chất, hoạt động hóa chất và an toàn, an ninh trong hoạt động hóa chất trên lãnh thé Việt Nam.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: 'Điều 3. Các danh mục thuộc phạm vi điều chỉnh của Luật Hoá chất Quy định các danh mục hoá chất thuộc phạm vi điều chỉnh của Luật Hóa chất tại các Phụ lục kèm theo Nghị định này như sau: Danh mục hóa chất cơ bản thuộc lĩnh vực công nghiệp hóa chất trọng điểm (Phụ luc I); Danh mục hoá chất sản xuất, kinh doanh có điều kiện (Phụ lục II); Danh mục hoá chất cần kiểm soát đặc biệt (Phụ lục II);'
+      trang_pdf: 1
+    - dieu: 4
+      noi_dung: Điều 4. Hiệu lực thi hành Nghị định này có hiệu lực thi hành ké từ ngày ký ban hành.
+      trang_pdf: 1
+    - dieu: 5
+      noi_dung: Điều 5. Tô chức thực hiện 1. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương chịu trách nhiệm thi hành Nghị định này.
+      trang_pdf: 1
+ghi_chu: '4 Phụ lục: I — hóa chất cơ bản công nghiệp hóa chất trọng điểm; II — hóa chất SX, kinh doanh CÓ ĐIỀU KIỆN (786); III — cần kiểm soát đặc biệt; IV — phải xây dựng kế hoạch phòng ngừa, ứng phó sự cố. LƯU Ý QUAN TRỌNG: khai báo hóa chất NHẬP KHẨU theo Điều 6 NĐ 26/2026/NĐ-CP gắn theo CHƯƠNG 28+29 của danh mục XNK (BTC), KHÔNG theo các danh mục này — mở #1475 trước khi gắn nghĩa vụ. PDF 88 trang bản scan (text layer trống) — TODO ca đêm: OCR + trích 4 phụ lục thành CSV theo CAS.'
+tu_khoa:
+  - hoa-chat
+  - danh-muc-hoa-chat
+  - cas
+  - khai-bao-hoa-chat
