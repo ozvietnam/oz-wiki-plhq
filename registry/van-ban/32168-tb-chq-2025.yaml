@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 32168/TB-CHQ/2025
+so_hieu_khac:
+  - 32168/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Bộ nguồn chuyển mạch dùng cho màn hình tivi, ký mã hiệu Model L75S6_FWD / Product S5T75R261B1/WVD, mã số 8504.40.90)'
+co_quan: CHQ
+ngay_ban_hanh: '2025-10-28'
+hieu_luc_tu: '2025-10-28'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=101701&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/10/29/VB_32168.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/10/29/VB_32168.pdf, id=101701, SHA-256 37266a015d13d2418f42f43a2fd6fa2c48932415b5e518bf64e8198df2892695): Thông báo số 32168/TB-CHQ ngày 28-10-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Bộ nguồn chuyển mạch dùng cho màn hình tivi 70-75 inch (ký, mã hiệu Model L75S6_FWD, Product S5T75R261B1/WVD; bản mạch điện tử gắn biến áp xung, đi-ốt cầu, cuộn lọc, cuộn cảm, IC nâng áp, IC dao động, IC LED Driver, Mosfet; chuyển đổi điện áp xoay chiều đầu vào 100-240VAC 50-60Hz sang điện áp một chiều đầu ra 108VDC cấp cho đèn LED tivi và 13VDC cấp cho mạch điều khiển màn hình tivi, công suất 264W), phân loại vào nhóm 85.04, phân nhóm 8504.40, mã số 8504.40.90; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Bộ nguồn chuyển mạch (SMPS) dùng cho màn hình tivi 70-75 inch (ký, mã hiệu Model L75S6_FWD, Product S5T75R261B1/WVD; chuyển đổi điện áp xoay chiều AC 100-240V sang một chiều DC 108V và 13V, công suất 264W) thuộc nhóm 85.04, phân nhóm 8504.40, mã số 8504.40.90.'
+toan_van: raw/download/files.customs.gov.vn/32168-tb-chq-2025.pdf
