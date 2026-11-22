@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 17479/TB-CHQ/2026
+so_hieu_khac:
+  - 17479/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Đầu nối thử nghiệm điện dạng gắn bề mặt SMT Test Terminal S2761-46R, mã số 8536.90.94)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-06-15'
+hieu_luc_tu: '2026-06-15'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=104775&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/6/15/4.VB_17479.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/6/15/4.VB_17479.pdf, id=104775, SHA-256 13b2430f67e24f80604677608635a70bb59e0f560cea3593678997925d6b02b4): Thông báo số 17479/TB-CHQ ngày 15-06-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Đầu nối điện làm điểm đo thử nghiệm điện dạng gắn bề mặt (SMT Test Terminal, ký mã hiệu S2761-46R; cấu tạo nguyên khối từ đồng thau dày 0,20 mm mạ lót Ni-ken và mạ bề mặt Thiếc, kích thước 1,60 x 0,80 x 1,15 mm, hàn cố định lên bảng mạch in PCB bằng công nghệ SMT để truyền dẫn tín hiệu điện sang đầu dò test probe hoặc kẹp đo test clip của thiết bị kiểm tra, điện áp sử dụng dưới 1.000V, dòng điện định mức tối đa 3,5A), phân loại vào nhóm 85.36, phân nhóm 8536.90, mã số 8536.90.94; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Đầu nối thử nghiệm điện dạng gắn bề mặt (SMT Test Terminal, ký mã hiệu S2761-46R; cấu tạo nguyên khối bằng đồng thau mạ Ni-ken/Thiếc, kích thước 1,60 x 0,80 x 1,15 mm, hàn SMT trên PCB làm điểm tiếp xúc đo kiểm, điện áp dưới 1.000V, dòng điện định mức tối đa 3,5A) thuộc nhóm 85.36, phân nhóm 8536.90, mã số 8536.90.94.'
+toan_van: raw/download/files.customs.gov.vn/17479-tb-chq-2026.pdf
