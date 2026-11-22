@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 13329/TB-CHQ/2026
+so_hieu_khac:
+  - 13329/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Bộ cấp nguồn của đèn LED, Model SLB450N801N1A, Part No PSNH450801D(L), đầu vào 200-250VAC 47W, đầu ra 23-50VDC 40W, mã số 8504.40.90)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-03-04'
+hieu_luc_tu: '2026-03-04'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=102707&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/3/5/VB_13329.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/3/5/VB_13329.pdf, id=102707, SHA-256 07a959ad99b31cae3c9e297a1a9341af905f5d3e865a654664855f8d6689c9f9): Thông báo số 13329/TB-CHQ ngày 04-03-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Bộ cấp nguồn của đèn LED (ký, mã hiệu Model SLB450N801N1A, Part No PSNH450801D(L); cấu tạo gồm vỏ nhựa, dây điện, bản mạch gắn bộ lọc nhiễu điện từ EMI, đi-ốt chỉnh lưu cầu AC-DC, khối dao động chuyển đổi DC-DC cấu trúc LLC, MOSFET đóng mở tần số cao, biến áp xung cách ly hạ áp và tụ lọc; kích thước 186 x 31 x 22 mm, khối lượng 110 g, điện áp đầu vào 200-250 VAC 50/60 Hz công suất 47 W, điện áp đầu ra 23-50 VDC công suất 40 W), phân loại vào nhóm 85.04, phân nhóm 8504.40, mã số 8504.40.90; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Bộ cấp nguồn của đèn LED (Model SLB450N801N1A, Part No PSNH450801D(L); biến đổi điện áp xoay chiều AC 200-250 VAC 50/60 Hz công suất 47 W sang điện áp một chiều DC 23-50 VDC công suất 40 W qua bộ lọc EMI, cầu chỉnh lưu, mạch dao động LLC và biến áp xung cách ly; kích thước 186 x 31 x 22 mm, nặng 110 g) thuộc nhóm 85.04, phân nhóm 8504.40, mã số 8504.40.90.'
+toan_van: raw/download/files.customs.gov.vn/13329-tb-chq-2026.pdf
