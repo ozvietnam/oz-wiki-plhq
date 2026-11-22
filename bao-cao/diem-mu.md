@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-11-22
 
-Tổng 3043 điểm: **8 cao**, 3 vừa, 3032 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 3011 điểm: **8 cao**, 3 vừa, 3000 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -11,11 +11,11 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | TB-TCHQ cá biệt chưa có nguồn chính thống | Thấp | 1367 | `tb-tchq` |
 | TB-TCHQ cá biệt chưa đối chiếu nguồn A | Thấp | 1367 | `tb-tchq` |
 | Mã HS AHTN cũ đã ánh xạ sang biểu thuế EN2022 | Thấp | 201 | `danh-muc-hs` |
-| Tệp doc-hieu thiếu nghĩa vụ XNK (≥50% điều hợp lệ trống) | Thấp | 36 | `doc-hieu` |
 | Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay | Thấp | 18 | `hieu-luc` |
 | Hiệu lực chưa đối chiếu nguồn A | Thấp | 15 | `hieu-luc` |
 | Văn bản của cơ quan đã sáp nhập | Thấp | 12 | `do-tham` |
 | Chưa có nguồn chính thống | Thấp | 12 | `truy-vet-nguon` |
+| Tệp doc-hieu thiếu nghĩa vụ XNK (≥50% điều hợp lệ trống) | Thấp | 4 | `doc-hieu` |
 | HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp) | Thấp | 4 | `hieu-luc` |
 
 ## Sắp hết hiệu lực (≤60 ngày) (8)
@@ -167,45 +167,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **09/2024/TT-BYT: mã 33045099 (AHTN cũ) → đã ánh xạ sang 33049990 (don_le)** — danh-muc/09-2024-tt-byt.csv dòng 1390 ("Calcipotriol"). Đã ánh xạ sang hs_moi: 33049990 (loai: don_le) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.
 - … và 161 điểm khác (xem bao-cao/diem-mu.json)
 
-## Tệp doc-hieu thiếu nghĩa vụ XNK (≥50% điều hợp lệ trống) (36)
-
-- [ ] **07/2023/TT-NHNN (data/doc-hieu/07-2023-tt-nhnn-body.dieu.jsonl): 3/4 (75%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/07-2023-tt-nhnn-body.dieu.jsonl: 3/4 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **09/2025/TT-BNV (data/doc-hieu/09-2025-tt-bnv.dieu.jsonl): 27/37 (73%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/09-2025-tt-bnv.dieu.jsonl: 27/37 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **10/2020/TT-BTTTT (data/doc-hieu/10-2020-tt-btttt.dieu.jsonl): 9/11 (82%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/10-2020-tt-btttt.dieu.jsonl: 9/11 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **107/2016/QH13 (data/doc-hieu/107-2016-qh13.dieu.jsonl): 49/66 (74%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/107-2016-qh13.dieu.jsonl: 49/66 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **11/2017/TT-BCT (data/doc-hieu/11-2017-tt-bct.dieu.jsonl): 46/56 (82%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/11-2017-tt-bct.dieu.jsonl: 46/56 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **11/2018/TT-BTTTT (data/doc-hieu/11-2018-tt-btttt-body.dieu.jsonl): 4/4 (100%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/11-2018-tt-btttt-body.dieu.jsonl: 4/4 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **11/2021/TT-BNNPTNT (data/doc-hieu/11-2021-tt-bnnptnt.dieu.jsonl): 313/323 (97%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/11-2021-tt-bnnptnt.dieu.jsonl: 313/323 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **11/2026/TT-BXD (data/doc-hieu/11-2026-tt-bxd-body.dieu.jsonl): 3/5 (60%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/11-2026-tt-bxd-body.dieu.jsonl: 3/5 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **125/2026/TT-BCA (data/doc-hieu/125-2026-tt-bca-body.dieu.jsonl): 5/7 (71%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/125-2026-tt-bca-body.dieu.jsonl: 5/7 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **13/2022/NĐ-CP (data/doc-hieu/13-2022-nd-cp.dieu.jsonl): 2/3 (67%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/13-2022-nd-cp.dieu.jsonl: 2/3 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **13/2024/TT-BLĐTBXH (data/doc-hieu/13-2024-tt-bldtbxh.dieu.jsonl): 3/6 (50%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/13-2024-tt-bldtbxh.dieu.jsonl: 3/6 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **154/2018/NĐ-CP (data/doc-hieu/154-2018-nd-cp.dieu.jsonl): 7/10 (70%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/154-2018-nd-cp.dieu.jsonl: 7/10 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **16/2021/TT-BNNPTNT (data/doc-hieu/16-2021-tt-bnnptnt.dieu.jsonl): 2/4 (50%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/16-2021-tt-bnnptnt.dieu.jsonl: 2/4 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **16/2024/TT-BYT (data/doc-hieu/16-2024-tt-byt.dieu.jsonl): 5/6 (83%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/16-2024-tt-byt.dieu.jsonl: 5/6 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **1725/QĐ-BCT (data/doc-hieu/1725-qd-bct.dieu.jsonl): 3/4 (75%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/1725-qd-bct.dieu.jsonl: 3/4 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **19/2024/TT-BYT (data/doc-hieu/19-2024-tt-byt.dieu.jsonl): 3/5 (60%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/19-2024-tt-byt.dieu.jsonl: 3/5 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **22/2018/TT-BLĐTBXH (data/doc-hieu/22-2018-tt-bldtbxh.dieu.jsonl): 3/4 (75%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/22-2018-tt-bldtbxh.dieu.jsonl: 3/4 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **26/2018/TT-BLĐTBXH (data/doc-hieu/26-2018-tt-bldtbxh.dieu.jsonl): 8/16 (50%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/26-2018-tt-bldtbxh.dieu.jsonl: 8/16 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **27/2026/TT-BNNMT (data/doc-hieu/27-2026-tt-bnnmt-body.dieu.jsonl): 100/115 (87%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/27-2026-tt-bnnmt-body.dieu.jsonl: 100/115 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **27/2026/TT-BYT (data/doc-hieu/27-2026-tt-byt.dieu.jsonl): 2/4 (50%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/27-2026-tt-byt.dieu.jsonl: 2/4 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **28/2026/TT-BCT (data/doc-hieu/28-2026-tt-bct.dieu.jsonl): 24/26 (92%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/28-2026-tt-bct.dieu.jsonl: 24/26 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **31/2015/TT-BTTTT (data/doc-hieu/31-2015-tt-btttt.dieu.jsonl): 4/7 (57%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/31-2015-tt-btttt.dieu.jsonl: 4/7 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **31/2018/TT-BCT (data/doc-hieu/31-2018-tt-bct.dieu.jsonl): 47/69 (68%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/31-2018-tt-bct.dieu.jsonl: 47/69 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **328/QĐ-TTg (data/doc-hieu/328-qd-ttg.dieu.jsonl): 4/4 (100%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/328-qd-ttg.dieu.jsonl: 4/4 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **367/QĐ-BKHCN (data/doc-hieu/367-qd-bkhcn-2024.dieu.jsonl): 2/3 (67%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/367-qd-bkhcn-2024.dieu.jsonl: 2/3 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **41/2013/QH13 (data/doc-hieu/41-2013-qh13.dieu.jsonl): 17/29 (59%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/41-2013-qh13.dieu.jsonl: 17/29 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **41/2023/TT-BCT (data/doc-hieu/41-2023-tt-bct.dieu.jsonl): 6/6 (100%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/41-2023-tt-bct.dieu.jsonl: 6/6 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **43/2017/NĐ-CP (data/doc-hieu/43-2017-nd-cp.dieu.jsonl): 14/23 (61%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/43-2017-nd-cp.dieu.jsonl: 14/23 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **48/2026/TT-BCT (data/doc-hieu/48-2026-tt-bct-body.dieu.jsonl): 61/93 (66%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/48-2026-tt-bct-body.dieu.jsonl: 61/93 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **51/2018/TT-BCT (data/doc-hieu/51-2018-tt-bct.dieu.jsonl): 3/5 (60%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/51-2018-tt-bct.dieu.jsonl: 3/5 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **58/2015/TTLT-BCT-BKHCN (data/doc-hieu/58-2015-ttlt-bct-bkhcn.dieu.jsonl): 67/80 (84%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/58-2015-ttlt-bct-bkhcn.dieu.jsonl: 67/80 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **715/QĐ-BCT (data/doc-hieu/715-qd-bct.dieu.jsonl): 2/2 (100%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/715-qd-bct.dieu.jsonl: 2/2 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **data/doc-hieu/tt-31-2022-cb-523-524.dieu.jsonl: 353/359 (98%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/tt-31-2022-cb-523-524.dieu.jsonl: 353/359 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **data/doc-hieu/tt-31-2022-cb-545-546.dieu.jsonl: 144/156 (92%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/tt-31-2022-cb-545-546.dieu.jsonl: 144/156 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **data/doc-hieu/tt-31-2022-cb-549-550.dieu.jsonl: 384/384 (100%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/tt-31-2022-cb-549-550.dieu.jsonl: 384/384 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-- [ ] **data/doc-hieu/tt-31-2022-cb-557-558.dieu.jsonl: 135/159 (85%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/tt-31-2022-cb-557-558.dieu.jsonl: 135/159 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-
 ## Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay (18)
 
 - [ ] **Biểu thuế bieu-thue@2026.04.05 còn dẫn 12/2022/TT-BGTVT nhưng sổ ghi HET_HIEU_LUC** — văn bản hiện hành của biểu/danh mục, cột chính sách mặt hàng (1315 mã HS) — HHNK phải chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường trước khi thông quan / Sản phẩm, hàng hóa phải chứng nhận công bố hợp quy. Sổ ghi bị bãi bỏ bởi 49/2026/TT-BXD (đã đối chiếu nguồn A) — phần sổ đã xong; lệch còn lại nằm ở bản chụp biểu của Tổng cục, cầu nối hs-code-api báo khi sổ đổi.
@@ -274,6 +235,13 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **6266/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **8378/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **9981/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+
+## Tệp doc-hieu thiếu nghĩa vụ XNK (≥50% điều hợp lệ trống) (4)
+
+- [ ] **data/doc-hieu/tt-31-2022-cb-523-524.dieu.jsonl: 353/359 (98%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/tt-31-2022-cb-523-524.dieu.jsonl: 353/359 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
+- [ ] **data/doc-hieu/tt-31-2022-cb-545-546.dieu.jsonl: 144/156 (92%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/tt-31-2022-cb-545-546.dieu.jsonl: 144/156 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
+- [ ] **data/doc-hieu/tt-31-2022-cb-549-550.dieu.jsonl: 384/384 (100%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/tt-31-2022-cb-549-550.dieu.jsonl: 384/384 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
+- [ ] **data/doc-hieu/tt-31-2022-cb-557-558.dieu.jsonl: 135/159 (85%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/tt-31-2022-cb-557-558.dieu.jsonl: 135/159 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
 
 ## HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp) (4)
 
