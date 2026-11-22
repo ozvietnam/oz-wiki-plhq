@@ -22,6 +22,21 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Áp dụng thuế chống bán phá giá chính thức đối với sản phẩm tháp điện gió từ Cộng hòa nhân dân Trung Hoa được phân loại theo các mã HS 7308.20.11 và 7308.20.19, trong trường hợp được nhập khẩu như là một bộ phận của to máy phát điện chạy bằng sức gió thì được phân loại theo mã HS 8502.31.10 và 8502.31.20 (mã vụ việc: AD18) với nội dung chỉ tiết nêu tại Thông báo kèm theo Quyết định này.'
+      trang_pdf: 2
+    - dieu: 2
+      noi_dung: Điều 2. Trình tự, thủ tục điều tra thực hiện theo quy định pháp luật về phòng vệ thương mại của Việt Nam.
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: Điều 3. Quyết định này có hiệu lực sau 15 ngày ké từ ngày ban hành.
+      trang_pdf: 2
+    - dieu: 4
+      noi_dung: Điều 4. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và Thủ trưởng các đơn vị, các bên liên quan chịu trách nhiệm thi hành Quyết định này./. k = BỘ TRƯỞNG.
+      trang_pdf: 2
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (4 mã HS). Mã vụ việc AD18. PDF Cục PVTM là ảnh — OCR.
 het_hieu_luc_tu: '2030-01-08'
-toan_van: raw/download/pvtm.gov.vn/3453-qd-bct.pdf
+toan_van:
+  - raw/download/pvtm.gov.vn/3453-qd-bct.pdf
+  - raw/ocr/3453-qd-bct-2024.ocr.txt

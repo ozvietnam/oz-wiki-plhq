@@ -14,11 +14,46 @@ nguon:
     truy_cap: '2026-11-06'
   - url: http://tulieuvankien.dangcongsan.vn/he-thong-van-ban/van-ban-quy-pham-phap-luat/nghi-dinh-so-462020nd-cp-ngay-0942020-cua-chinh-phu-quy-dinh-thu-tuc-hai-quan-kiem-tra-giam-sat-hai-quan-doi-voi-hang-hoa-6335
     truy_cap: '2026-11-06'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/04/46.signed.pdf
+    truy_cap: '2026-11-22'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'đối chiếu thẻ vanban.chinhphu.vn (docid=199721) và tulieuvankien.dangcongsan.vn: số hiệu, tên nguyên văn, cơ quan Chính phủ (ký Nguyễn Xuân Phúc), ngày ban hành 09-04-2020, có hiệu lực từ 01-06-2020; đối chiếu còn hiệu lực về thủ tục hải quan đối với hàng hóa quá cảnh qua Hệ thống quá cảnh Hải quan ASEAN (ACTS)'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Nghị định này quy định về thủ tục, kiểm tra, giám sát hải quan đối với hàng hóa quá cảnh thông qua Hệ thống quá cảnh Hải quan ASEAN (sau đây gọi là Hệ thống ACTS); chế độ ưu tiên đối với doanh nghiệp thực hiện hoạt động quá cảnh hàng hóa thông qua Hệ thống ACTS; bảo lãnh, đặt cọc và thu hồi nợ thuế hải quan đối với hàng hóa quá cảnh thông qua Hệ thống ACTS.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng 1. Tế chức, cá nhân thực hiện quá cảnh hàng hóa thông qua Hệ thống ACTS. 2. Tổ chức, cá nhân có quyền và nghĩa vụ liên quan. 3. Cơ quan hải quan, công chức hải quan.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: 'Điều 3. Giải thích từ ngữ Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: 1. Hệ thống ACTS là hệ thống công nghệ thông tin tích hợp do các nước'
+      trang_pdf: 2
+    - dieu: 9
+      noi_dung: 'Điều 9. Thủ tục hải quan đối với hàng hóa quá ‹ cảnh thông qua Hệ thống ACTS từ các nước ngoài ASEAN qua lãnh thé Việt Nam đến các nước thành viên ASEAN 1. Hồ sơ hải quan: a) Tờ khai quá cảnh hải quan theo các chỉ tiêu thông tin do Bộ Tài chính ban hành; b) Giấy phép quá cảnh hàng hóa trong trường hợp pháp luật Việt Nam quy định phải có giây phép quá cảnh hàng hóa: 01 bản chính;'
+      trang_pdf: 9
+    - dieu: 13
+      noi_dung: 'Điều 13. Thủ tục hải quan đối với hàng hóa quá cảnh từ các nước thành viên ASEAN qua lãnh thé Việt Nam đến các nước thành viên ASEAN khác 1. Hồ sơ hải quan: a) Chứng từ TAD (trường hợp Hệ thống ACTS gặp sự cố thì phải có xác nhận của cơ quan hải quan các nước ASEAN tham gia hành trình vận chuyên hàng hóa quá cảnh); b) Giấy phép quá cảnh hàng hóa trong trường hợp pháp luật Việt Nam quy định phải có giây phép quá cảnh hàng hóa: 01 bản chính;'
+      trang_pdf: 13
+    - dieu: 18
+      noi_dung: 'Điều 18. Hệ thống ACTS 1. Hệ thống ACTS do Tổng cục Hải quan xây dựng, quản lý và vận hành trên cơ sở các tài liệu kỹ thuật được thống nhất giữa các quốc gia thành viên ASEAN tham gia Nghị định thư 7. 2. Các giao dịch điện tử thực hiện thông qua Hệ thống ACTS bao gồm: a) Khai, nhận, phản hồi thông tin về thực hiện thủ tục quá cảnh hàng hóa; b) Chuyển kết qua xử lý tờ khai quá cảnh hai quan tới người khai hải quan;'
+      trang_pdf: 19
+    - dieu: 23
+      noi_dung: 'Điều 23. Xứ lý sự cố Trường hợp Hệ thống ACTS có sự cố không thể trao đổi, cung cấp thông tin dưới hình thức điện tử:'
+      trang_pdf: 22
+    - dieu: 28
+      noi_dung: Điều 28. Hủy bỏ bảo lãnh 1. Khi hủy bỏ bảo lãnh một hành trình hoặc bảo lãnh nhiều hành trình, người bảo lãnh thông báo theo mẫu do Bộ Tài chính ban hành gửi cơ quan hải quan nơi đăng ký tờ khai quá cảnh hải quan qua đường bưu chính hoặc qua hệ thống dữ liệu điện tử về việc hủy bỏ bảo lãnh.
+      trang_pdf: 29
+    - dieu: 32
+      noi_dung: 'Điều 32. Điều kiện áp dụng chế độ ưu tiên Doanh nghiệp quá cảnh được áp dụng, chế độ ưu tiên khi thực hiện quá cảnh hàng hóa thông qua Hệ thống ACTS nếu đáp ứng đủ các điều kiện sau: 1. Điều kiện về trụ sở của doanh nghiệp:'
+      trang_pdf: 33
+    - dieu: 38
+      noi_dung: Điều 38. Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 01 tháng 6 năm 2020.
+      trang_pdf: 38
 ghi_chu: 'Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Liên quan XNK trực tiếp: thủ tục hải quan, kiểm tra/giám sát hải quan đối với hàng hóa quá cảnh qua Hệ thống quá cảnh Hải quan ASEAN (ACTS, thực hiện Nghị định thư 7 ASEAN).'
-toan_van: raw/download/vanban.chinhphu.vn/46-2020-nd-cp.html
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/46-2020-nd-cp.pdf
+  - raw/ocr/46-2020-nd-cp.ocr.txt

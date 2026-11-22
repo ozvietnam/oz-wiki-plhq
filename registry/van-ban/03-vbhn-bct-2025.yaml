@@ -29,10 +29,43 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Văn bản hợp nhất Nghị định 98/2020/NĐ-CP quy định xử phạt vi phạm hành chính trong hoạt động thương mại, sản xuất, buôn bán hàng giả, hàng cấm và bảo vệ quyền lợi người tiêu dùng qua 3 lần sửa đổi, bổ sung (17/2022/NĐ-CP, 96/2023/NĐ-CP, 24/2025/NĐ-CP; trong quan_he.hop_nhat chỉ ghi 98/2020/NĐ-CP và 96/2023/NĐ-CP đã có trong sổ). Lưu toan_van bằng bản HTML từ vanban.chinhphu.vn vì bộ PDF ký số nặng 21,7 MB + 29 MB.'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh 1. Nghị định này quy định về hành vi vi phạm hành chính, hình thức xử phat, mức xử phạt, biện pháp khắc phục hậu quả, thẩm quyền lập biên bản vi phạm hành chính, thâm quyên xử phạt vi phạm hành chính trong hoạt động thương mại, sản xuât, buôn bán hàng giả, hàng câm và bảo vệ quyên lợi người tiêu dùng.
+      trang_pdf: 3
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng bị xử phạt hành chính 1. Cá nhân, tổ chức Việt Nam hoặc cá nhân, tổ chức nước ngoài thực hiện hành vi vi phạm hành chính quy định tại Nghị định này trên lãnh thô Việt Nam.
+      trang_pdf: 4
+    - dieu: 3
+      noi_dung: '1. “Sản xuất” là việc thực hiện một, một số hoặc tat cả các hoạt động chế tạo, chê bản, in, gia công, đặt hang, sơ chê, chê biên, chiết xuat, tái chê, lap ráp, pha trộn, san chia, sang chiết, nạp, đóng gói và hoạt động khác làm ra hàng hóa. 2. “Buôn bán” là việc thực hiện một, một số hoặc tất cả các hoạt động chào hàng, bày bán, lưu giữ, bảo quản, vận chuyên, bán buôn, bán lẻ, xuât khâu, nhập khâu và hoạt động khác đưa hàng hóa vào lưu thông.'
+      trang_pdf: 5
+    - dieu: 9
+      noi_dung: 'Điều 9. Hành vi buôn bán hàng giả về giá trị sử dụng, công dụng 1. Đối với hành vi buôn bán hàng giả về giá trị sử dụng, công dụng quy định tại điểm a, b, c và d khoản 7 Điêu 3 của Nghị định này, mức phạt tiên như Sau: a) Phat tiền từ 1. 000. 000 đồng đến 3.000.000 đồng trong trường hợp hàng giả tương đương với số lượng của hàng thật có trị giá dưới 3.000.000 đồng hoặc thu lợi bất hợp pháp dưới 5.000.000 đồng;'
+      trang_pdf: 17
+    - dieu: 15
+      noi_dung: 'Điều 15. Hành vi kinh doanh hàng hóa nhập lậu 1. Đối với hành vi kinh doanh hàng hóa nhập lậu, mức phạt tiền như sau: a) Phạt tiền từ 500.000 đồng đến 1.000.000 đồng trong trường hợp hàng hóa nhập lậu có trị giá dưới 3.000.000 đông; b) Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng trong trường hợp hàng hóa nhập lậu có giá trị từ 3.000.000 đông đên dưới 5.000.000 đồng;'
+      trang_pdf: 27
+    - dieu: 21
+      noi_dung: 'Điều 21. Hành vi vi phạm về dán tem đối với thuốc lá tiêu thụ trong nước 1. Đối với hành vi kinh doanh thuốc lá sản xuất trong nước không dán tem thuôc lá tiêu thụ trong nước hoặc dan tem thuôc lá tiêu thụ trong nước không đúng quy định, mức phạt tiên như sau: a) Phạt cảnh cáo hoặc phạt tiền từ 200.000 đồng đến 500.000 đồng trong trường hợp hàng hóa vi phạm có giá trị dưới 1.000.000 đồng;'
+      trang_pdf: 35
+    - dieu: 26
+      noi_dung: 'Điều 26. Hành vi vi phạm về nhập khẩu rượu 1. Phat tiền từ 20.000.000 đồng đến 30.000.000 đồng đối với một trong các hành vi vi phạm sau đây: a) Nhập khẩu trực tiếp hoặc ủy thác nhập khẩu rượu bán thành phẩm dé sản xuât rượu thành phâm có độ côn từ 5,5 độ trở lên mà không có giây phép kinh doanh rượu theo quy định; b) Bán rượu bán thành phẩm nhập khẩu có độ cồn từ 5,5 độ trở lên cho đối tượng không có giây phép sản xuât rượu công nghiệp.'
+      trang_pdf: 39
+    - dieu: 31
+      noi_dung: 'Điều 31. Hành vi đầu cơ hàng hóa 1. Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với hành vi lợi dụng tình hình khan hiếm hàng hóa hoặc tạo ra sự khan hiêm hàng hóa giả tạo trên thị trường dé mua vét, mua gom hang hóa có giá trị từ 50.000.000 đông đên dưới 100.000.000 đồng nham bán lại thu lợi bat chính thuộc một trong các trường hợp sau đây''5:'
+      trang_pdf: 42
+    - dieu: 37
+      noi_dung: 'Điều 37. Hành vi vi phạm về hàng hóa tạm ngừng xuất khẩu, tạm ngừng nhập khẩu 1. Đối với hành vi xuất khẩu, nhập khâu hàng hóa thuộc danh mục hàng hóa tạm ngừng xuất khẩu hoặc tạm ngừng nhập khâu mà không được phép băng văn bản của cơ quan quản lý nhà nước có thâm quyên, mức phạt tiên như sau: a) Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng trong trường hợp hàng hóa vi phạm có giá trị dưới 20.000.000 đồng;'
+      trang_pdf: 55
+    - dieu: 43
+      noi_dung: Điều 43. Hành vi vi phạm về hoạt động của cửa hàng miễn thuế 1. Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với hành vi bán hàng miễn thuế vượt quá định lượng quy định. 2. Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với hành vi bán hàng miễn thuế không đúng đối tượng.
+      trang_pdf: 60
+ghi_chu: Văn bản hợp nhất Nghị định 98/2020/NĐ-CP quy định xử phạt vi phạm hành chính trong hoạt động thương mại, sản xuất, buôn bán hàng giả, hàng cấm và bảo vệ quyền lợi người tiêu dùng qua 3 lần sửa đổi, bổ sung (17/2022/NĐ-CP, 96/2023/NĐ-CP, 24/2025/NĐ-CP; trong quan_he.hop_nhat chỉ ghi 98/2020/NĐ-CP và 96/2023/NĐ-CP đã có trong sổ). Lưu toan_van bằng bản HTML từ vanban.chinhphu.vn vì bộ PDF ký số nặng 21,7 MB + 29 MB.
 tu_khoa:
   - xu-phat
   - hang-gia
   - hang-cam
   - hang-nhap-lau
-toan_van: raw/download/vanban.chinhphu.vn/03-vbhn-bct-2025.html
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/03-vbhn-bct-2025.pdf
+  - raw/ocr/03-vbhn-bct-2025.ocr.txt

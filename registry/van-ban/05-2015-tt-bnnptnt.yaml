@@ -23,5 +23,38 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Thông tư này quy định chỉ tiết điều kiện, trình tự và thủ tục cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng Thông tư này áp dụng đối với tổ chức, cá nhân trong nước và tổ chức, cá nhân nước ngoài tham gia hoạt động xử lý vật thể thuộc diện kiểm dịch thực vật (sau đây gọi tắt là vật thể) tại Việt Nam.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Phí và lệ phí Tổ chức, cá nhân hành nghề xử lý vật thể phải nộp phí, lệ phí thẩm định hồ sơ và cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật (sau đây viết tat là Giấy chứng nhận hành nghề), Thẻ hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật (sau đây viết tắt là Thẻ hành nghẻ) theo quy định của pháp luật về phí và lệ phí.
+      trang_pdf: 1
+    - dieu: 5
+      noi_dung: 'Điều 5. Trình tự, thủ tục cấp Giấy chứng nhận hành nghề 1. Hồ sơ gồm: a) Đơn đề nghị theo mẫu tại Phụ lục I ban hành kèm theo Thông tu nảy;'
+      trang_pdf: 2
+    - dieu: 6
+      noi_dung: 'Điều 6. Trình tự và thú tục cấp lại Giấy chứng nhận hành nghề 1. Giấy chứng nhận hành nghề được cấp lại trong các trường hợp sau đây: a) Bị mất, sai sót, hư hỏng hoặc thay đổi thông tin liên quan đến tên của tổ chức hành nghề,'
+      trang_pdf: 3
+    - dieu: 7
+      noi_dung: 'Điều 7. CẤp Thẻ hành nghề Thẻ hành nghề được cấp cho cá nhân có đủ điều kiện sau: 1. Đã được tập huấn và kiểm tra chuyên môn theo nội dung chương trình được Cục Bảo vệ thực vật quy định. 2. Đảm bảo sức khỏe theo quy định.'
+      trang_pdf: 5
+    - dieu: 9
+      noi_dung: Điều 9. Trinh tự, thủ tục cấp lại Thế hành nghề 1. Thẻ hành nghề được cấp lại trong các trường hợp bị mất, sai sót, hư hỏng. 2. Hỗ sơ, trình tự cp lại Thẻ hành nghề được thực hiện theo quy định tại Điều 8 của Thông tư này.
+      trang_pdf: 5
+    - dieu: 10
+      noi_dung: Điều 10. Trách nhiệm của Cục Bao vệ thực vật đối với hoạt động xử lý vật thể 1. Tổ chức kiểm tra điều kiện cấp, cấp lại Giấy chứng nhận hành nghệ xử lý vật thé thuộc diện kiểm dịch thực vật theo quy định tại Thông tư này. 2. Tổ chức tập huấn, kiểm tra chuyên môn và cấp Thẻ hành nghề xử lý vật thể thuộc điện kiểm địch thực vật. 3, Xây dựng các chương trình tập huấn về xử lý vật thé.
+      trang_pdf: 6
+    - dieu: 11
+      noi_dung: Điều 11. Quyền và nghĩa vụ của tổ chức hành nghề xử ly vật thé thuộc điện kiểm dịch thực vật. 1. Khi thực hiện hoạt động xử lý vật thể thuộc diện kiểm dịch thực vật tại địa phương thì phải thông báo bằng văn bản cho Chỉ cục Bảo vệ thực vật tỉnh, thành phố trực thuộc trung ương. 2. Thực hiện theo qui định tại Điều 42 của Luật Bảo vệ và kiểm dịch thực vật.
+      trang_pdf: 6
+    - dieu: 13
+      noi_dung: Điều 13. Điều khoản thi hành 1. Thông tư này có hiệu lực thi hành kế từ ngày 30 tháng 03 năm 2015. 2. Thay thế Quyết định số 89/2007/QĐ-BNN ngày 01 tháng 11 năm 2007 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn ban hành Quy định quản lý nhà nước về hoạt động xông hơi khử trùng vật thể thuộc diện kiểm dịch thực vat;
+      trang_pdf: 7
 ghi_chu: Nạp tối thiểu làm đích sửa đổi cho TT 15/2021 (#237 — giải nợ mâu thuẫn nguồn).
-toan_van: raw/download/vanban.chinhphu.vn/05-2015-tt-bnnptnt.html
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/05-2015-tt-bnnptnt.pdf
+  - raw/ocr/05-2015-tt-bnnptnt.ocr.txt

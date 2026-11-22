@@ -14,8 +14,17 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Bãi bỏ Thông tư số 37/2015/TT-BCT ngày 30 tháng 10 năm 2015 của Bộ trưởng Bộ Công Thương quy định về mức giới hạn và việc kiểm tra hàm lượng formaldehyt và amin thơm chuyên hóa từ thuôc nhuộm azo trong sản pham dét may.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Hiệu lực thi hành Thông tư này có hiệu lực thi hành ké từ ngayol6 tháng 44 năm 2016.
+      trang_pdf: 1
 ghi_chu: Bãi bỏ Thông tư 37/2015/TT-BCT về kiểm tra hàm lượng formaldehyt và amin thơm trong dệt may.
-toan_van: raw/download/vanban.chinhphu.vn/23-2016-tt-bct.html
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/23-2016-tt-bct.pdf
+  - raw/ocr/23-2016-tt-bct.ocr.txt
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=187254
     truy_cap: '2026-11-15'

@@ -14,10 +14,53 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: '1. Nghị định này quy định hành vi vi phạm hành chính, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả, thẩm quyền lập biên bản và thẩm quyền xử phạt vi phạm hành chính trong các lĩnh vực sau đây: a) Bưu chính; b) Viễn thông, bao gồm: kinh doanh dịch vụ viễn thông; thiết lập mạng và cung cấp dịch vụ; quy hoạch, thiết kế, xây dựng, sử dụng công trình viễn thông; quy hoạch, quản lý và sử dụng tài nguyên viễn thông, Internet;'
+      trang_pdf: 2
+      sha256_pdf: 74dde2edfd96bb0b0f4e4c1784c3bdd2f1483ef7506e066035e0f6daf3876a53
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng bị xử phạt 1. Tổ chức, cá nhân Việt Nam và tổ chức, cá nhân nước ngoài (sau đây gọi tắt là tổ chức, cá nhân) thực hiện hành vi vi phạm hành chính quy định tại Nghị định này.
+      trang_pdf: 2
+      sha256_pdf: 74dde2edfd96bb0b0f4e4c1784c3bdd2f1483ef7506e066035e0f6daf3876a53
+    - dieu: 3
+      noi_dung: 'Điều 3. Hình thức xử phạt vi phạm hành chính và biện pháp khắc phục hậu quả 1. Hình thức xử phạt chính: a) Cảnh cáo; b) Phạt tiền. 2. Tùy theo tính chất, mức độ vi phạm, tổ chức, cá nhân có hành vi vi phạm hành chính còn có thể bị áp dụng một hoặc nhiều hình thức xử phạt bổ sung sau:'
+      trang_pdf: 3
+      sha256_pdf: 74dde2edfd96bb0b0f4e4c1784c3bdd2f1483ef7506e066035e0f6daf3876a53
+    - dieu: 14
+      noi_dung: 'Điều 14. Vi phạm các quy định về tem bưu chính 1. Phạt cảnh cáo hoặc phạt tiền từ 600.000 đồng đến 1.000.000 đồng trong việc thanh toán trước giá cước dịch vụ bưu chính đối với một trong các hành vi sau: a) Sử dụng tem bưu chính Việt Nam đã có dấu hủy; b) Sử dụng tem bưu chính Việt Nam không còn nguyên vẹn. 2. Phạt tiền từ 1.000.000 đồng đến 3.000.000 đồng đối với hành vi sử dụng tem bưu chính Việt Nam bị cấm lưu hành.'
+      trang_pdf: 17
+      sha256_pdf: 74dde2edfd96bb0b0f4e4c1784c3bdd2f1483ef7506e066035e0f6daf3876a53
+    - dieu: 23
+      noi_dung: Điều 23. Vi phạm các quy định về cạnh tranh trong kinh doanh dịch vụ viễn thông 1. Phạt tiền từ 50.000.000 đồng đến 70.000.000 đồng đối với doanh nghiệp viễn thông có vị trí thống lĩnh thị trường, doanh nghiệp viễn thông nắm giữ phương tiện thiết yếu không cung cấp kịp thời cho doanh nghiệp viễn thông khác thông tin kỹ thuật về phương tiện thiết yếu hoặc thông tin thương mại liên quan cần thiết để cung cấp dịch vụ.
+      trang_pdf: 26
+      sha256_pdf: 74dde2edfd96bb0b0f4e4c1784c3bdd2f1483ef7506e066035e0f6daf3876a53
+    - dieu: 33
+      noi_dung: 'Điều 33. Vi phạm các quy định về giao kết hợp đồng theo mẫu, điều kiện giao dịch chung, lưu giữ và sử dụng thông tin thuê bao 1. Đình chỉ hoạt động cung cấp dịch vụ viễn thông đối với các số thuê bao từ 10 tháng đến 12 tháng do vi phạm một trong các hành vi sau đây trong trường hợp số lượng SIM vi phạm từ 01 đến 200 SIM: a) Giả mạo;'
+      trang_pdf: 37
+      sha256_pdf: 74dde2edfd96bb0b0f4e4c1784c3bdd2f1483ef7506e066035e0f6daf3876a53
+    - dieu: 43
+      noi_dung: Điều 43. Vi phạm về quy hoạch, quy định về quản lý và sử dụng kho số viễn thông 1. Phạt tiền từ 70.000.000 đồng đến 100.000.000 đồng đối với hành vi không hoàn trả kho số viễn thông đã được cấp khi không còn nhu cầu sử dụng.
+      trang_pdf: 56
+      sha256_pdf: 74dde2edfd96bb0b0f4e4c1784c3bdd2f1483ef7506e066035e0f6daf3876a53
+    - dieu: 53
+      noi_dung: 'Điều 53. Vi phạm quy định về chất lượng mạng và dịch vụ viễn thông 1. Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với một trong các hành vi sau: a) Không hoàn thành đúng thời hạn quy định thủ tục công bố chất lượng dịch vụ viễn thông đối với các dịch vụ thuộc Danh mục dịch vụ viễn thông bắt buộc quản lý chất lượng;'
+      trang_pdf: 67
+      sha256_pdf: 74dde2edfd96bb0b0f4e4c1784c3bdd2f1483ef7506e066035e0f6daf3876a53
+    - dieu: 62
+      noi_dung: Điều 62. Vi phạm quy định về thuê, mượn thiết bị vô tuyến điện 1. Phạt cảnh cáo hoặc phạt tiền từ 600.000 đồng đến 1.000.000 đồng đối với hành vi ký kết hợp đồng cho thuê, cho mượn thiết bị vô tuyến điện thiếu một trong các nội dung theo quy định.
+      trang_pdf: 84
+      sha256_pdf: 74dde2edfd96bb0b0f4e4c1784c3bdd2f1483ef7506e066035e0f6daf3876a53
+    - dieu: 73
+      noi_dung: Điều 73. Vi phạm quy định về tham gia phối hợp quốc tế 1. Phạt tiền từ 30.000.000 đồng đến 50.000.000 đồng đối với hành vi không tham gia phối hợp quốc tế về tần số vô tuyến điện và quỹ đạo vệ tinh cho hệ thống vệ tinh hoặc về tần số vô tuyến điện cho hệ thống thông tin vô tuyến điện mặt đất với cơ quan quản lý tần số vô tuyến điện của các quốc gia theo quy định của pháp luật Việt Nam hoặc theo quy định của Liên minh Viễn thông quốc tế.
+      trang_pdf: 94
+      sha256_pdf: 74dde2edfd96bb0b0f4e4c1784c3bdd2f1483ef7506e066035e0f6daf3876a53
 ghi_chu: Xử phạt vi phạm hành chính lĩnh vực bưu chính, viễn thông, tần số vô tuyến điện, CNTT và giao dịch điện tử.
-toan_van: raw/download/congbao.chinhphu.vn/15-2020-nd-cp.html
+toan_van: raw/download/congbaocdn.chinhphu.vn/15-2020-nd-cp.pdf
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-15-2020-nd-cp-30682.htm
     truy_cap: '2026-11-15'
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=199053
     truy_cap: '2026-11-15'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2020/2/30682/29922-1-2020217-21815-2020-nd-cp.pdf
+    truy_cap: '2026-11-22'

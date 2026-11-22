@@ -31,5 +31,17 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Hủy bỏ sản phẩm có mã HS 9405.1 1.99 (Đèn điện LED thông dụng cố định) tại số thứ tự 10.4 Phụ lục ban hành kèm theo Quyét định sô 367/QD-BKHCN ngày 12 tháng 3 năm 2024 của Bộ trưởng Bộ Khoa học và Công nghệ
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Quyết định này có hiệu lực kể từ ngày ký.
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: Điều 3. Chánh Văn phòng, Chủ tịch Ủy ban Tiêu chuẩn Do lường Chất lượng Quốc gia, Vụ trưởng Vụ Pháp chế và các tổ chức, cá nhân liên quan chịu trách nhiệm thi hành Quyết định này./.
+      trang_pdf: 2
 ghi_chu: 'Quyết định 3830/QĐ-BKHCN ngày 21-11-2025 hủy bỏ sản phẩm có mã HS 9405.11.99 khỏi Danh mục hàng hóa nhóm 2 tại Quyết định 367/QĐ-BKHCN và Quyết định 2711/QĐ-BKHCN (lưu ý: cần phân biệt với Quyết định 3830/QĐ-BKHCN ngày 18-12-2019 công bố hàng hóa nhóm 2 đợt 4 đã hết hiệu lực và bị thay thế bởi Quyết định 2711/QĐ-BKHCN từ 15-02-2023).'
-toan_van: raw/download/mic.mediacdn.vn/3830-qd-bkhcn.pdf
+toan_van:
+  - raw/download/mic.mediacdn.vn/3830-qd-bkhcn.pdf
+  - raw/ocr/3830-qd-bkhcn.ocr.txt

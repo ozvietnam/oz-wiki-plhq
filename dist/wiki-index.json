@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-22).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 316,
+ "tong": 320,
  "trang": [
   {
    "slug": "dong-bo-quan-diem-phan-loai",
@@ -8302,6 +8302,46 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "101-2023-qh15",
+   "duong_dan": "wiki/sources/101-2023-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "NQ 101/2023/QH15 — Nghị quyết Kỳ họp thứ 5, Quốc hội khóa XV (giảm 2% thuế GTGT 2023)",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "nghi-quyet",
+    "qh",
+    "thue-gtgt",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "so_chunks": 8,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "101/2023/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2023-06-24",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-101-2023-qh15-39763.htm"
+    },
+    {
+     "so_hieu": "43/2022/QH15",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-01-11",
+     "het_hieu_luc_tu": "2024-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=205183"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "102-2020-nd-cp",
    "duong_dan": "wiki/sources/102-2020-nd-cp.md",
    "loai_trang": "sources",
@@ -12315,14 +12355,17 @@
    "loai_trang": "sources",
    "tieu_de": "NĐ 134/2016/NĐ-CP — Hướng dẫn Luật Thuế XK NK",
    "created": "2026-10-10",
-   "updated": "2026-10-10",
+   "updated": "2026-11-22",
    "tags": [
-    "nd-cp",
-    "stub",
-    "thue-xk-nk"
+    "thue-xk-nk",
+    "mien-thue",
+    "gia-cong",
+    "sxxk",
+    "uu-dai-dau-tu",
+    "nghi-dinh"
    ],
-   "confidence": "medium",
-   "so_chunks": 2,
+   "confidence": "high",
+   "so_chunks": 6,
    "van_ban_lien_quan": [
     {
      "so_hieu": "134/2016/NĐ-CP",
@@ -12343,6 +12386,26 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?docid=184599&pageid=27160"
+    },
+    {
+     "so_hieu": "18/2021/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2021-04-25",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=202806&pageid=27160"
+    },
+    {
+     "so_hieu": "182/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=214329&pageid=27160"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -13054,6 +13117,49 @@
      ],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?docid=192829&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "15289-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/15289-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "CV 15289/CHQ-NVTHQ — Áp dụng mức thuế BVMT, GTGT, TTĐB đối với xăng, dầu và nhiên liệu bay theo NQ 19/2026/QH16",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "cong-van",
+    "chq",
+    "thue-bvmt",
+    "thue-gtgt",
+    "thue-ttdb",
+    "xang-dau",
+    "vnaccs-vcis",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "so_chunks": 8,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "19/2026/QH16",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=103261&cid=1294"
+    },
+    {
+     "so_hieu": "43/2026/NQ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-10-01",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=219739"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -14469,14 +14575,17 @@
    "loai_trang": "sources",
    "tieu_de": "NĐ 18/2021/NĐ-CP — Sửa đổi NĐ 134/2016 (giảm/hoàn thuế)",
    "created": "2026-10-10",
-   "updated": "2026-10-10",
+   "updated": "2026-11-22",
    "tags": [
-    "nd-cp",
-    "stub",
-    "thue-xk-nk"
+    "thue-xk-nk",
+    "mien-thue",
+    "danh-muc-mien-thue",
+    "bao-cao-su-dung",
+    "dncx",
+    "nghi-dinh"
    ],
-   "confidence": "medium",
-   "so_chunks": 2,
+   "confidence": "high",
+   "so_chunks": 6,
    "van_ban_lien_quan": [
     {
      "so_hieu": "18/2021/NĐ-CP",
@@ -14497,6 +14606,26 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?docid=186707&pageid=27160"
+    },
+    {
+     "so_hieu": "107/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=184599&pageid=27160"
+    },
+    {
+     "so_hieu": "182/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=214329&pageid=27160"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -14601,14 +14730,17 @@
    "loai_trang": "sources",
    "tieu_de": "NĐ 182/2025/NĐ-CP — Sửa đổi NĐ 134/2016 (lần 2)",
    "created": "2026-10-10",
-   "updated": "2026-10-10",
+   "updated": "2026-11-22",
    "tags": [
-    "nd-cp",
-    "stub",
-    "thue-xk-nk"
+    "thue-xk-nk",
+    "mien-thue",
+    "khoa-hoc-cong-nghe",
+    "doi-moi-sang-tao",
+    "cong-nghiep-cong-nghe-so",
+    "nghi-dinh"
    ],
-   "confidence": "medium",
-   "so_chunks": 2,
+   "confidence": "high",
+   "so_chunks": 5,
    "van_ban_lien_quan": [
     {
      "so_hieu": "182/2025/NĐ-CP",
@@ -14619,6 +14751,46 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?docid=214329&pageid=27160"
+    },
+    {
+     "so_hieu": "134/2016/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=186707&pageid=27160"
+    },
+    {
+     "so_hieu": "18/2021/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2021-04-25",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=202806&pageid=27160"
+    },
+    {
+     "so_hieu": "90/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214558"
+    },
+    {
+     "so_hieu": "107/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=184599&pageid=27160"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -14783,6 +14955,58 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=208550"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "19-2019-tt-btc",
+   "duong_dan": "wiki/sources/19-2019-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 19/2019/TT-BTC — Bãi bỏ TT 304/2016/TT-BTC về bảng giá tính lệ phí trước bạ ô tô, xe máy",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "thong-tu",
+    "btc",
+    "le-phi-truoc-ba",
+    "bai-bo",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "so_chunks": 8,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "19/2019/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2019-04-10",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.mof.gov.vn/api/mediafile/media-article/61206b44-d862-4b77-8db8-d46256648d93/750b9933-9eed-4d07-ad96-c367fb9b4452.docx"
+    },
+    {
+     "so_hieu": "85/2019/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2020-01-01",
+     "het_hieu_luc_tu": "2026-10-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "336/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=198329&pageid=27160"
+    },
+    {
+     "so_hieu": "336/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-10-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?classid=0&docid=219265&pageid=27160"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -22643,6 +22867,88 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=193909"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "76-vbhn-vpqh",
+   "duong_dan": "wiki/sources/76-vbhn-vpqh.md",
+   "loai_trang": "sources",
+   "tieu_de": "76-VBHN/VPQH — Văn bản hợp nhất Luật Dược (25/03/2026)",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "van-ban-hop-nhat",
+    "luat-duoc",
+    "vpqh",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "so_chunks": 11,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "105/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+    },
+    {
+     "so_hieu": "28/2018/QH14",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2026-03-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=49815"
+    },
+    {
+     "so_hieu": "44/2024/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-44-2024-qh15-43548.htm"
+    },
+    {
+     "so_hieu": "114/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-114-2025-qh15-468676.htm"
+    },
+    {
+     "so_hieu": "54/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-07-01",
+     "het_hieu_luc_tu": "2025-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "163/2025/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=189761"
+    },
+    {
+     "so_hieu": "163/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214322"
     }
    ],
    "canh_bao_hieu_luc": false

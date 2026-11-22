@@ -14,8 +14,35 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Danh mục phương tiện, thiết bị phải dán nhãn năng lượng và áp dụng hiệu suất năng lượng tối thiểu 1. Nhóm thiết bị gia dụng gồm: Đèn huỳnh quang ống thẳng, đèn huỳnh quang compact, chấn lưu điện từ và điện tử cho đèn huỳnh quang, máy điều hòa nhiệt độ, tủ lạnh, máy giặt sử dụng trong gia đình, nồi cơm điện, quạt điện, máy thu hình, đèn LED, bình đun nước nóng có dự trữ.'
+      trang_pdf: 1
+      sha256_pdf: 906fcc1458497e088482ecf742f305a447730e6f74241b87c0d4f318febb6c9f
+    - dieu: 2
+      noi_dung: 'Điều 2. Lộ trình thực hiện dán nhãn năng lượng 1. Đối với nhóm thiết bị gia dụng và nhóm thiết bị công nghiệp a) Thực hiện dán nhãn năng lượng bắt buộc đối với các thiết bị gia dụng và nhóm thiết bị công nghiệp sau: Đèn huỳnh quang ống thẳng, đèn huỳnh quang compact, chấn lưu điện từ và điện tử cho đèn huỳnh quang, máy điều hòa nhiệt độ,'
+      trang_pdf: 1
+      sha256_pdf: 906fcc1458497e088482ecf742f305a447730e6f74241b87c0d4f318febb6c9f
+    - dieu: 3
+      noi_dung: Điều 3. Lộ trình thực hiện áp dụng mức hiệu suất năng lượng tối thiểu 1. Đối với nhóm thiết bị gia dụng Không được phép nhập khẩu và sản xuất các phương tiện, thiết bị có hiệu suất năng lượng thấp hơn mức hiệu suất năng lượng tối thiểu (trừ những phương tiện, thiết bị quy định tại khoản 4 Điều này).
+      trang_pdf: 2
+      sha256_pdf: 906fcc1458497e088482ecf742f305a447730e6f74241b87c0d4f318febb6c9f
+    - dieu: 4
+      noi_dung: Điều 4. Giải pháp hỗ trợ thực hiện dán nhãn năng lượng và áp dụng mức hiệu suất năng lượng tối thiểu 1. Đầu tư xây dựng các cơ sở thử nghiệm chuyên ngành và trang thiết bị để thực hiện kiểm tra, thử nghiệm, chứng nhận hiệu suất năng lượng đối với các phương tiện, thiết bị phải dán nhãn năng lượng theo lộ trình.
+      trang_pdf: 3
+      sha256_pdf: 906fcc1458497e088482ecf742f305a447730e6f74241b87c0d4f318febb6c9f
+    - dieu: 5
+      noi_dung: 'Điều 5. Tổ chức thực hiện 1. Bộ Công Thương có trách nhiệm: a) Hướng dẫn, kiểm tra, giám sát việc dán nhãn năng lượng cho các nhóm phương tiện, thiết bị phải dán nhãn năng lượng tại các khoản 1, 2 Điều 2 Quyết định này; b) Chủ trì, phối hợp với các bộ, ngành liên quan trình Thủ tướng Chính phủ bổ sung danh mục các phương tiện, thiết bị sử dụng năng lượng phải dán nhãn năng lượng;'
+      trang_pdf: 3
+      sha256_pdf: 906fcc1458497e088482ecf742f305a447730e6f74241b87c0d4f318febb6c9f
+    - dieu: 6
+      noi_dung: Điều 6. Hiệu lực thi hành 1. Quyết định này có hiệu lực thi hành từ ngày 25 tháng 4 năm 2017 và thay thế Quyết định số 51/2011/QĐ-TTg ngày 12 tháng 9 năm 2011 của Thủ tướng Chính phủ quy định danh mục phương tiện, thiết bị phải dán nhãn năng lượng, áp dụng mức hiệu suất năng lượng tối thiểu và lộ trình thực hiện, Quyết định số 03/2013/QĐ-TTg ngày 14 tháng 01 năm 2013 của Thủ tướng Chính phủ sửa đổi, bổ sung một số điều của Quyết định số
+      trang_pdf: 4
+      sha256_pdf: 906fcc1458497e088482ecf742f305a447730e6f74241b87c0d4f318febb6c9f
 ghi_chu: Quy định nhóm phương tiện, thiết bị phải dán nhãn năng lượng và áp dụng hiệu suất năng lượng tối thiểu.
-toan_van: raw/download/congbao.chinhphu.vn/04-2017-qd-ttg.html
+toan_van: raw/download/congbaocdn.chinhphu.vn/04-2017-qd-ttg.pdf
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-04-2017-qd-ttg-22452.htm
     truy_cap: '2026-11-15'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2017/3/22452/16772-1-042017qd-ttg16970pdf
+    truy_cap: '2026-11-22'

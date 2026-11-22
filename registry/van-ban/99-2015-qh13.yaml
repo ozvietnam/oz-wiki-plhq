@@ -11,12 +11,55 @@ nhanh:
   - xu-phat
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, trích yếu, ngày ban hành 26-11-2015 trên Công báo số 1263+1264/2015 (congbao.chinhphu.vn), lùi hiệu lực tới 01-01-2018 theo Nghị quyết 144/2016/QH13 và Nghị quyết 41/2017/QH14; còn hiệu lực'
+  pham_vi: số hiệu, trích yếu, ngày ban hành 26-11-2015 trên Công báo số 1263+1264/2015 (congbao.chinhphu.vn), lùi hiệu lực tới 01-01-2018 theo Nghị quyết 144/2016/QH13 và Nghị quyết 41/2017/QH14; còn hiệu lực
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Quy định thẩm quyền tiến hành một số hoạt động điều tra của cơ quan Hải quan (Cục Điều tra chống buôn lậu, Cục Hải quan tỉnh/thành phố, Chi cục Hải quan cửa khẩu).'
-toan_van: raw/download/congbao.chinhphu.vn/99-2015-qh13.html
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Luật này quy định về nguyên tắc tổ chức điều tra hình sự; tổ chức bộ máy, nhiệm vụ, quyền hạn của Cơ quan điều tra; nhiệm vụ, quyền hạn của cơ quan được giao nhiệm vụ tiến hành một số hoạt động điều tra; Điều tra viên và các chức danh khác trong điều tra hình sự; quan hệ phân công, phối hợp và kiểm soát trong hoạt động điều tra hình sự;
+      trang_pdf: 1
+      sha256_pdf: c5dc2338b86b5b037fc8b6c50a024dca3fc3a92fdf2bb5365ca24a13d36981c6
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng 1. Cơ quan điều tra, cơ quan được giao nhiệm vụ tiến hành một số hoạt động điều tra. 2. Thủ trưởng, Phó Thủ trưởng, Điều tra viên, Cán bộ điều tra của Cơ quan điều tra; Thủ trưởng, Phó Thủ trưởng và cán bộ điều tra của cơ quan được giao nhiệm vụ tiến hành một số hoạt động điều tra. 3. Cơ quan, tổ chức, cá nhân có liên quan.
+      trang_pdf: 1
+      sha256_pdf: c5dc2338b86b5b037fc8b6c50a024dca3fc3a92fdf2bb5365ca24a13d36981c6
+    - dieu: 3
+      noi_dung: Điều 3. Nguyên tắc tổ chức điều tra hình sự 1. Tuân thủ Hiến pháp và pháp luật. 2. Bảo đảm sự chỉ đạo, chỉ huy tập trung thống nhất, hiệu lực, hiệu quả; phân công, phân cấp rành mạch, chuyên sâu, tránh chồng chéo và được kiểm soát chặt chẽ; điều tra kịp thời, nhanh chóng, chính xác, khách quan, toàn diện, đầy đủ, không để lọt tội phạm và không làm oan người vô tội.
+      trang_pdf: 1
+      sha256_pdf: c5dc2338b86b5b037fc8b6c50a024dca3fc3a92fdf2bb5365ca24a13d36981c6
+    - dieu: 13
+      noi_dung: Điều 13. Giám sát của cơ quan, tổ chức, đại biểu dân cử đối với hoạt động điều tra hình sự Quốc hội, các cơ quan của Quốc hội, Đoàn đại biểu Quốc hội, đại biểu Quốc hội, Hội đồng nhân dân, đại biểu Hội đồng nhân dân, Ủy ban Mặt trận Tổ quốc Việt Nam và các tổ chức thành viên của Mặt trận giám sát hoạt động điều tra của Cơ quan điều tra, cơ quan được giao nhiệm vụ tiến hành một số hoạt động điều tra, người có thẩm quyền điều tra hình sự theo quy
+      trang_pdf: 4
+      sha256_pdf: c5dc2338b86b5b037fc8b6c50a024dca3fc3a92fdf2bb5365ca24a13d36981c6
+    - dieu: 23
+      noi_dung: Điều 23. Nhiệm vụ, quyền hạn của Cơ quan An ninh điều tra Bộ Quốc phòng 1. Tổ chức công tác trực ban hình sự, tiếp nhận tố giác, tin báo về tội phạm, kiến nghị khởi tố; phân loại và giải quyết tố giác, tin báo về tội phạm, kiến nghị khởi tố thuộc thẩm quyền giải quyết của mình hoặc chuyển ngay đến cơ quan có thẩm quyền để giải quyết.
+      trang_pdf: 10
+      sha256_pdf: c5dc2338b86b5b037fc8b6c50a024dca3fc3a92fdf2bb5365ca24a13d36981c6
+    - dieu: 32
+      noi_dung: Điều 32. Nhiệm vụ, quyền hạn điều tra của Bộ đội biên phòng 1. Bộ đội biên phòng khi thực hiện nhiệm vụ trong lĩnh vực quản lý của mình mà phát hiện tội phạm quy định tại Chương XIII và các điều 150, 151, 152, 153, 188, 189, 192, 193, 195, 207, 227, 235, 236, 242, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 303, 304, 305, 306, 309, 330, 337, 338, 346, 347, 348, 349 và 350 của Bộ luật hình sự xảy ra trong khu vực biên giới trên đất liền, bờ
+      trang_pdf: 14
+      sha256_pdf: c5dc2338b86b5b037fc8b6c50a024dca3fc3a92fdf2bb5365ca24a13d36981c6
+    - dieu: 42
+      noi_dung: Điều 42. Quan hệ giữa đơn vị điều tra và đơn vị trinh sát 1. Quan hệ giữa đơn vị điều tra và đơn vị trinh sát là quan hệ phối hợp, hỗ trợ trong phát hiện, ngăn chặn, điều tra, xử lý và phòng ngừa tội phạm.
+      trang_pdf: 23
+      sha256_pdf: c5dc2338b86b5b037fc8b6c50a024dca3fc3a92fdf2bb5365ca24a13d36981c6
+    - dieu: 51
+      noi_dung: Điều 51. Nhiệm kỳ của Điều tra viên Điều tra viên được bổ nhiệm lần đầu có thời hạn là 05 năm; trường hợp được bổ nhiệm lại hoặc nâng ngạch thì thời hạn là 10 năm.
+      trang_pdf: 27
+      sha256_pdf: c5dc2338b86b5b037fc8b6c50a024dca3fc3a92fdf2bb5365ca24a13d36981c6
+    - dieu: 61
+      noi_dung: Điều 61. Bảo đảm biên chế, đào tạo, bồi dưỡng trong công tác điều tra hình sự 1. Nhà nước bảo đảm biên chế cần thiết cho Cơ quan điều tra, cơ quan được giao nhiệm vụ tiến hành một số hoạt động điều tra. 2. Người làm công tác điều tra hình sự phải được huấn luyện, đào tạo, bồi dưỡng về chuyên môn nghiệp vụ, pháp luật phù hợp với nhiệm vụ, quyền hạn được giao.
+      trang_pdf: 32
+      sha256_pdf: c5dc2338b86b5b037fc8b6c50a024dca3fc3a92fdf2bb5365ca24a13d36981c6
+    - dieu: 71
+      noi_dung: Điều 71. Hiệu lực thi hành 1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2016. 2. Pháp lệnh tổ chức điều tra hình sự số 23/2004/PL-UBTVQH11 đã được sửa đổi, bổ sung một số điều theo Pháp lệnh số 30/2006/PL-UBTVQH11 và Pháp lệnh số 09/2009/PL-UBTVQH12 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành.
+      trang_pdf: 35
+      sha256_pdf: c5dc2338b86b5b037fc8b6c50a024dca3fc3a92fdf2bb5365ca24a13d36981c6
+ghi_chu: Quy định thẩm quyền tiến hành một số hoạt động điều tra của cơ quan Hải quan (Cục Điều tra chống buôn lậu, Cục Hải quan tỉnh/thành phố, Chi cục Hải quan cửa khẩu).
+toan_van: raw/download/congbaocdn.chinhphu.vn/99-2015-qh13.pdf
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/luat-so-99-2015-qh13-18445.htm
     truy_cap: '2026-11-15'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2015/11/18445/13022-1-992015qh1313067pdf
+    truy_cap: '2026-11-22'

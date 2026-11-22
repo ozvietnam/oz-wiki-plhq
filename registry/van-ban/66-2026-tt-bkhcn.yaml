@@ -24,10 +24,34 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Sửa đổi, bổ sung Thông tư 11/2015/TT-BKHCN hướng dẫn Nghị định 99/2013/NĐ-CP về xử phạt VPHC sở hữu công nghiệp (tạm giữ, buộc hoàn trả, thu hồi, ngăn chặn truy cập tên miền xâm phạm quyền SHCN); có hiệu lực thi hành từ 01-01-2027.'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đổi, bé sung khoản 1 Điều 1 “1, Phạm vi điều chỉnh: Thông tư này quy định chỉ tiết và hướng dẫn thi hành một số điều của Nghị định sô 99/2013/NĐ-CP ngày 29 tháng 8 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp được sửa đổi, bỗ sung bởi Nghị định số 126/2021/NĐ-CP, Nghị định sô 46/2024/NĐ-CP và Nghị định số 186/2026/NĐ-CP (sau đây gọi là Nghị định sé 99/2013/NĐ-CP).”.'
+      trang_pdf: 2
+    - dieu: 4
+      noi_dung: Điều 4. Áp dụng biện pháp ngăn chặn và bảo dam xử lý vi phạm hành chính Người có thâm quyền xử phạt vi phạm hành chính xem xét, áp dụng biện pháp ngăn chặn và bảo đảm xử lý vi phạm hành chính là tạm giữ tên miền đối với tên.
+      trang_pdf: 2
+    - dieu: 5
+      noi_dung: Điều 5. Sửa déi, bỗ sung khoản 2 và bổ sung khoản 3, 4, 5, 6 và 7 Điều 19 “2, Đối với hành vi chiếm hữu, sử dụng tên miền quy định tại điểm a khoản 16 Điều 14 Nghị định số 99/2013/NĐ-CP, chủ thể có quyền kiến nghị xử lý là tô A Nulte~-Z/
+      trang_pdf: 3
+    - dieu: 6
+      noi_dung: 'Điều 6. BO sung khoản 5 vào sau khoản 4 Điều 24 =5: Trường hợp thông tin, tài liệu, chứng cứ được cung cấp dưới dạng điện tử, việc cung cập, thu thập, lưu trữ, kiểm tra, xác minh và sử dụng được thực hiện theo quy định của pháp luật về xi lý vi phạm hành chính, pháp luật về giao dịch điện tử và pháp luật có liên quan.”.'
+      trang_pdf: 6
+    - dieu: 7
+      noi_dung: 'Điều 7. Bỗ sung Điều 24a vào sau Điều 24 “Điều 24a. Phối hợp trong xử lý vi phạm hành chính đối với tên miền 1. Việc áp dụng biện pháp tạm giữ tên miền được thực hiện như sau:'
+      trang_pdf: 6
+    - dieu: 8
+      noi_dung: Điều 8. Bãi bỏ Điều 22 của Thông tư số 11/2015/TT-BKHCN. Chương II DIEU KHOẢN THI HANH
+      trang_pdf: 9
+    - dieu: 9
+      noi_dung: Điều 9. Hiệu lực thi hành và điều khoản chuyển tiếp 1. Thông tư này có hiệu lực thi hành ké từ ngày 01 tháng 01 năm 2027. 2. Bãi bỏ toàn bộ Thông tư liên tịch số 14/2016/TTLT-BTTTT-BKHCN ngày 08 tháng 6 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông và Bộ trưởng Bộ Khoa học và Công nghệ hướng dẫn trình tự, thủ tục thay đổi, thu hồi tên miền vi phạm pháp luật về sở hữu trí tuệ.
+      trang_pdf: 9
+ghi_chu: Sửa đổi, bổ sung Thông tư 11/2015/TT-BKHCN hướng dẫn Nghị định 99/2013/NĐ-CP về xử phạt VPHC sở hữu công nghiệp (tạm giữ, buộc hoàn trả, thu hồi, ngăn chặn truy cập tên miền xâm phạm quyền SHCN); có hiệu lực thi hành từ 01-01-2027.
 tu_khoa:
   - so-huu-tri-tue
   - xu-phat
   - nhan-hieu
   - ten-mien
-toan_van: raw/download/datafiles.chinhphu.vn/66-2026-tt-bkhcn.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/66-2026-tt-bkhcn.pdf
+  - raw/ocr/66-2026-tt-bkhcn.ocr.txt

@@ -11,11 +11,23 @@ nhanh:
 nguon:
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/01/100.signed.pdf
     truy_cap: '2026-11-15'
-toan_van: raw/download/datafiles.chinhphu.vn/100-qd-ttg.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/100-qd-ttg.pdf
+  - raw/ocr/100-qd-ttg-2019.ocr.txt
 xac_minh:
   muc: NGUON_A
   pham_vi: 'Đối chiếu toàn văn PDF ký số trên Cổng TTĐT Chính phủ (datafiles.chinhphu.vn/cpp/files/vbpq/2019/01/100.signed.pdf): Quyết định số 100/QĐ-TTg ngày 19-01-2019 của Thủ tướng Chính phủ phê duyệt Đề án triển khai, áp dụng và quản lý hệ thống truy xuất nguồn gốc; Điều 2 quy định Quyết định có hiệu lực thi hành kể từ ngày ký ban hành (19-01-2019); đang còn hiệu lực.'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phê duyệt “Đề án triển khai, ap dung va quan ly hé théng truy xuất nguồn gốc” (sau đây viết tắt là Đề án) với nội dung chủ yêu sau đây: I. MỤC TIÊU 1. Mục tiêu tổng quát a) Hoàn thiện hệ thống quy định pháp luật, văn bản, tài liệu hướng dẫn về truy xuất nguồn gốc.'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Quyết định này có hiệu lực thi hành kể từ ngày ký.
+      trang_pdf: 5
+    - dieu: 3
+      noi_dung: 'Điều 3. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ, Chủ tịch Ủy. ban: nhân. dân, tỉnh,: thành phố trực thuộc rung, uongryaseac tổ - - chức, cá nhân liên quan chịu trách nhiệm thi hành Quyết định này./'
+      trang_pdf: 6
 ghi_chu: Phê duyệt Đề án triển khai, áp dụng và quản lý hệ thống truy xuất nguồn gốc (Đề án 100), giao Bộ Khoa học và Công nghệ chủ trì xây dựng Cổng thông tin truy xuất nguồn gốc sản phẩm, hàng hóa quốc gia.

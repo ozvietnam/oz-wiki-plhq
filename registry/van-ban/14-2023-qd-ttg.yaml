@@ -14,8 +14,31 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh 1. Quyết định này quy định về Danh mục và lộ trình phương tiện, thiết bị sử dụng năng lượng có hiệu suất thấp phải loại bỏ (không cho phép nhập khẩu, sản xuất và kinh doanh trong nước) và các tổ máy phát điện hiệu suất thấp không được xây dựng mới. 2. Quyết định này không áp dụng đối với những phương tiện, thiết bị tạm nhập, tái xuất, phục vụ sửa chữa thay thế, kiểm tra mức hiệu suất năng lượng.
+      trang_pdf: 1
+      sha256_pdf: 96670044530c64ef93a56552c824e4d0cf282890472ed28943dca86d04215052
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng Quyết định này áp dụng đối với cơ quan nhà nước, doanh nghiệp, tổ chức và cá nhân tham gia hoạt động nhập khẩu, sản xuất và kinh doanh hàng hóa quy định tại Điều 3 Quyết định này.
+      trang_pdf: 2
+      sha256_pdf: 96670044530c64ef93a56552c824e4d0cf282890472ed28943dca86d04215052
+    - dieu: 3
+      noi_dung: 'Điều 3. Danh mục và lộ trình phương tiện, thiết bị sử dụng năng lượng có hiệu suất thấp phải loại bỏ và các tổ máy phát điện hiệu suất thấp không được xây dựng mới 1. Danh mục và lộ trình thiết bị sử dụng năng lượng có hiệu suất thấp phải loại bỏ được quy định tại Phụ lục I kèm theo Quyết định này, bao gồm: a) Nhóm thiết bị gia dụng: Bóng đèn huỳnh quang compact, balát điện tử dùng cho bóng đèn huỳnh quang, balát điện từ dùng cho bóng đèn huỳnh'
+      trang_pdf: 2
+      sha256_pdf: 96670044530c64ef93a56552c824e4d0cf282890472ed28943dca86d04215052
+    - dieu: 4
+      noi_dung: Điều 4. Tổ chức thực hiện 1. Bộ Khoa học và Công nghệ có trách nhiệm a) Chủ trì, phối hợp với các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương triển khai các giải pháp hỗ trợ thực hiện loại bỏ các phương tiện, thiết bị sử dụng năng lượng phải loại bỏ, các tổ máy phát điện hiệu suất thấp không được xây dựng mới quy định tại Quyết định này.
+      trang_pdf: 3
+      sha256_pdf: 96670044530c64ef93a56552c824e4d0cf282890472ed28943dca86d04215052
+    - dieu: 5
+      noi_dung: Điều 5. Điều khoản thi hành 1. Quyết định này có hiệu lực thi hành từ ngày 15 tháng 7 năm 2023. Quyết định số 24/2018/QĐ-TTg ngày 18 tháng 5 năm 2018 của Thủ tướng
+      trang_pdf: 4
+      sha256_pdf: 96670044530c64ef93a56552c824e4d0cf282890472ed28943dca86d04215052
 ghi_chu: Lộ trình loại bỏ phương tiện, thiết bị sử dụng năng lượng hiệu suất thấp.
-toan_van: raw/download/congbao.chinhphu.vn/14-2023-qd-ttg.html
+toan_van: raw/download/congbaocdn.chinhphu.vn/14-2023-qd-ttg.pdf
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-14-2023-qd-ttg-39358.htm
     truy_cap: '2026-11-15'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/5/39358/44783-1-2023727-72814-2023-qd-ttg.pdf
+    truy_cap: '2026-11-22'

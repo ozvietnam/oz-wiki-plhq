@@ -19,5 +19,17 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Ban hành kèm theo Quyết định này Kế hoạch thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP).
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Quyết định này có hiệu lực thi hành kể từ ngày ký ban hành.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và Thủ trưởng các cơ quan có liên quan chịu trách nhiệm thi hành Quyết định này./.
+      trang_pdf: 1
 ghi_chu: Kế hoạch thực hiện Hiệp định CPTPP của Chính phủ; được viện dẫn làm căn cứ ban hành QĐ 127/QĐ-TTg (2026).
-toan_van: raw/download/vanban.chinhphu.vn/121-qd-ttg.html
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/121-qd-ttg-2019.pdf
+  - raw/ocr/121-qd-ttg-2019.ocr.txt

@@ -11,12 +11,33 @@ nhanh:
   - thue/thue-noi-dia-khau-nk
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, trích yếu, ngày ban hành 26-11-2014, hiệu lực 01-01-2015 và tệp 71.signed.pdf trên vanban.chinhphu.vn (docid=178140); còn hiệu lực một phần đối với các điều khoản chưa bị luật thuế mới thay thế'
+  pham_vi: số hiệu, trích yếu, ngày ban hành 26-11-2014, hiệu lực 01-01-2015 và tệp 71.signed.pdf trên vanban.chinhphu.vn (docid=178140); còn hiệu lực một phần đối với các điều khoản chưa bị luật thuế mới thay thế
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Luật sửa đổi 6 luật thuế (TNDN, TNCN, GTGT, Tài nguyên, Quản lý thuế, Thuế XK-NK) có hiệu lực từ 01/01/2015; các điều sửa Luật GTGT hết hiệu lực từ 01/07/2025 theo Luật GTGT 48/2024/QH15.'
-toan_van: raw/download/vanban.chinhphu.vn/71-2014-qh13.html
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1 Sửa đổi, bố sung một số điều của Luật thuế thu nhập doanh nghiệp số 14/2008/QH12 đã được sửa đổi, bố sung một số điều theo Luật số 32/2013/QH13.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2 Sửa đổi, bổ sung một số điều của Luật thuế thu nhập cá nhân số 04/2007/QH12 đã được sửa dối, bổ sung một số điều theo Luật sô 26/2012/QH13.
+      trang_pdf: 4
+    - dieu: 3
+      noi_dung: 'Điều 3 Sửa đổi, bổ sung một số điều của Luật thuế giá trị gia tăng số 13/2008/QH12 đã được sửa đôi bỗ sung một sô điêu theo Luật sd 31/2013/QH13. 1. Bô sung khoản 3a vào sau khoản 3 Điêu 5 như sau: “3a. Phân bón; máy moc, thiết bị chuyên dùng phục vụ cho sản xuất nông nghiệp; tàu đánh bắt xa bờ; thức ăn gia súc, gia cầm và thức ăn cho vật nuôi khác;”'
+      trang_pdf: 6
+    - dieu: 4
+      noi_dung: 'Điều 4 Sửa đối, b6 sung một sô điều của Luật thuế tài nguyên số 45/2009/QH12. 1. Khoản 7 Điều 2 được sửa đôi, bổ sung như sau: “7, Nước thiên nhiên, bao gồm nước mặt và nước dưới đất, trừ nước thiên nhiên dùng cho nông nghiệp, lâm nghiệp, ngư nghiệp, diém nghiệp.”'
+      trang_pdf: 6
+    - dieu: 5
+      noi_dung: 'Điều 5 Sửa đổi, bổ sung một số điều của Luật quản lý thuế số 78/2006/QH11 đã được sửa đôi, bô sung một sô điêu theo Luật sô 21/2012/QH13. 1. Các khoản I, la và 6 Điều 31 được sửa đổi, bổ sung như sau:'
+      trang_pdf: 6
+    - dieu: 6
+      noi_dung: 'Điều 6 1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2015. 2. Bãi bỏ các nội dung quy định về ty giá khi xác định doanh thu, chi phi, giá tính thuê, thu nhập tính thuế, thu nhập chịu thuê và thuê nộp ngân sách nhà nước tat:'
+      trang_pdf: 7
+ghi_chu: Luật sửa đổi 6 luật thuế (TNDN, TNCN, GTGT, Tài nguyên, Quản lý thuế, Thuế XK-NK) có hiệu lực từ 01/01/2015; các điều sửa Luật GTGT hết hiệu lực từ 01/07/2025 theo Luật GTGT 48/2024/QH15.
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/71-2014-qh13.pdf
+  - raw/ocr/71-2014-qh13.ocr.txt
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=178140
     truy_cap: '2026-11-15'

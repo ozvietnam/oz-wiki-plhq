@@ -14,8 +14,28 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đổi, bé sung Điều 1 “Điều 1. Vi trí và chức năng Bộ Xây dựng là cơ quan của Chính phủ, thực hiện chức năng quản lý nhà nước về: Quy hoạch đô thị và nông thôn, kiến trúc; hoạt động xây dựng; phát triển đô thị; hạ tầng kỹ thuật; nhà ở; thị trường bất động sản; vật liệu xây dựng; giao thông vận tải đường bộ, đường sắt, đường thủy nội địa, hàng hải, hàng không dân dụng trong phạm vi cả nước;'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Sửa đổi, bỗ sung một số điểm, khoản của Điều 2 1. Sửa đổi, bỗ sung điểm a khoản 5 như sau: “a) Tổ chức lập, thâm định Quy hoạch tổng thể hệ thống đô thị và nông thôn; tham gia công tác thâm định các quy hoạch theo quy định pháp luật về quy hoach;”. 2. Sửa đôi, bé sung điểm o khoản 6 như sau: “o) Thong nhất quản lý nhà nước về việc cấp, thu hồi chứng chỉ hành nghề; quản lý cấp mã số chứng chỉ hành nghề;”.'
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Sửa đỗi, bố sung Điều 3 “Điều 3. Cơ cấu tổ chức _— . Văn phòng. 2. Vụ Hợp tác quốc tế. 3. Vụ Pháp chế. 4. Vụ Kế hoạch - Tài chính. 5. Vụ Tổ chức cán bộ. 6. Vụ Quy hoạch - Kiến trúc. 7. Vụ Vận tải và An toàn giao thông. 8. Vụ Khoa học công nghệ, môi trường và Vật liệu xây dựng. 9. Cục Hàng không Việt Nam. 10. Cục Đường bộ Việt Nam. 11. Cục Hàng hải và Đường thủy Việt Nam. 12. Cục Đường sắt Việt Nam. 13. Cục Đăng kiểm Việt Nam.
+      trang_pdf: 3
+    - dieu: 4
+      noi_dung: Điều 4. Bỗ sung, thay thế, bãi bỏ một số cụm từ, điểm, khoản tại Điều 2 1. Bổ sung cụm từ “đô thị và nông thôn” vào sau cụm từ “quy hoạch” tại tên khoản 5. 2. Bỗ sung cụm từ “, định hướng phát triển đô thị thông minh quốc gia” vào sau cụm từ “dự án quan trong quôc gia về phát triển đô thị” tại điểm a khoản 7.
+      trang_pdf: 4
+    - dieu: 5
+      noi_dung: Điều 5. Điều khoản thi hành Nghị định này có hiệu lực thi hành từ ngày 15 tháng 9 năm 2026.
+      trang_pdf: 5
 ghi_chu: Bộ Xây dựng gồm phần việc Bộ GTVT cũ (Cục Đăng kiểm VN, Cục Hàng hải và Đường thuỷ VN, Cục Đường bộ VN, Cục Hàng không VN). Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=219446&pageid=27160
     truy_cap: '2026-10-04'
-toan_van: raw/download/vanban.chinhphu.vn/354-2026-nd-cp.html
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/354_2026_nd-cp_11092026-signed.signed.pdf
+    truy_cap: '2026-11-22'
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/354-2026-nd-cp.pdf
+  - raw/ocr/354-2026-nd-cp.ocr.txt

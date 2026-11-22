@@ -14,8 +14,20 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đổi, bd sung một số điều của Luật Tiêu chuẩn và quy chuẩn kỹ thuật 1. Sửa đối, bỗ sung Điều 3 như sau: “Điều 3. Giải thích từ ngữ 1. Tiêu chuẩn là quy định về đặc tính kỹ thuật và yêu cầu quản lý dùng làm chuẩn dé phân loại, đánh giá san phẩm, hàng hoá, dịch vụ, quá trình, môi trường và các đối tượng khác trong hoạt động kinh tế - xã hội. Tiêu chuẩn do cơ quan, tô chức, đơn vị công bố dưới dạng văn bản để tự nguyện áp dụng.'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 thang 01 năm 2026.
+      trang_pdf: 22
+    - dieu: 3
+      noi_dung: Điều 3. Điều khoản chuyển tiếp Trường hợp tiêu chuẩn, quy chuẩn kỹ thuật đã được tổ chức xây dựng, thâm định nhưng đên ngày Luật này có hiệu lực thi hành chưa được công bo, ban hành thì việc xây dựng tiêu chuẩn, quy chuẩn kỹ thuật được tiếp tục thực hiện theo quy định của Luật Tiêu chuẩn và quy chuân kỹ thuật số 68/2006/QH11 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14.
+      trang_pdf: 22
 ghi_chu: Luật sửa đổi, bổ sung một số điều của Luật Tiêu chuẩn và quy chuẩn kỹ thuật.
-toan_van: raw/download/vanban.chinhphu.vn/70-2025-qh15.html
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/70-2025-qh15.pdf
+  - raw/ocr/70-2025-qh15.ocr.txt
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=214672
     truy_cap: '2026-11-15'

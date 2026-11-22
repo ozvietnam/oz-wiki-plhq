@@ -13,10 +13,53 @@ nguon:
     truy_cap: '2026-10-28'
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=179326
     truy_cap: '2026-10-29'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2015/1/7958/4373-1-2015363-364-132015tt-btcpdf
+    truy_cap: '2026-11-22'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'Đã đối chiếu lại trên Công báo (nguồn bậc A) ngày 28-10-2026: ban hành 30-01-2015, hiệu lực 15-03-2015, cơ quan Bộ Tài chính. Mục "Lược đồ" của Công báo cho biết văn bản CHƯA bị thay thế/bãi bỏ và CHƯA bị sửa đổi/đính chính. Ngoài ra đã bị TT 06/2026/TT-BTC sửa đổi, bổ sung từ 01-03-2026 (chiều đi ghi ở văn bản mới: registry/van-ban/06-2026-tt-btc.yaml) — nên vẫn còn hiệu lực.'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-28'
   boi: zcode@ozvietnam
-toan_van: raw/download/congbao.chinhphu.vn/13-2015-tt-btc.html
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Thông tư này quy định về kiểm tra, giám sát, tạm dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo vệ quyền sở hữu trí tuệ; kiểm soát hàng giả và hàng hóa xâm phạm quyền sở hữu trí tuệ.
+      trang_pdf: 2
+      sha256_pdf: 3548de02f8492e5b28f0c77cc8073970f7b05caa38a7b736e7fca871ac70de28
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng 1. Cơ quan hải quan, công chức hải quan. 2. Tổ chức, cá nhân xuất khẩu, nhập khẩu hàng hóa hoặc người được ủy quyền. 3. Tổ chức, cá nhân là chủ thể quyền sở hữu trí tuệ, chủ sở hữu hàng thật bị làm giả hoặc đại diện hợp pháp của chủ sở hữu. 4. Tổ chức, cá nhân khác có liên quan.
+      trang_pdf: 2
+      sha256_pdf: 3548de02f8492e5b28f0c77cc8073970f7b05caa38a7b736e7fca871ac70de28
+    - dieu: 3
+      noi_dung: 'Điều 3. Giải thích từ ngữ Các từ ngữ sử dụng trong Thông tư này được hiểu như sau: 1. Hàng giả bao gồm các loại hàng hóa theo quy định tại khoản 8 Điều 3 Nghị định số 185/2013/NĐ-CP ngày 15/11/2013 của Chính phủ quy định xử phạt vi phạm hành chính trong hoạt động thương mại, sản xuất, buôn bán hàng giả, hàng cấm và bảo vệ quyền lợi người tiêu dùng.'
+      trang_pdf: 2
+      sha256_pdf: 3548de02f8492e5b28f0c77cc8073970f7b05caa38a7b736e7fca871ac70de28
+    - dieu: 6
+      noi_dung: 'Điều 6. Quy định về nộp hồ sơ đề nghị kiểm tra, giám sát hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo hộ quyền sở hữu trí tuệ Chủ thể quyền sở hữu trí tuệ hoặc người được ủy quyền nộp bộ hồ sơ gửi Tổng cục Hải quan (Cục Giám sát quản lý về hải quan) gồm: 1. Đơn đề nghị kiểm tra, giám sát hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo hộ quyền sở hữu trí tuệ theo mẫu số 01-SHTT ban hành kèm Thông tư này: 01 bản chính.'
+      trang_pdf: 4
+      sha256_pdf: 3548de02f8492e5b28f0c77cc8073970f7b05caa38a7b736e7fca871ac70de28
+    - dieu: 8
+      noi_dung: 'Điều 8. Chấm dứt hiệu lực đơn đề nghị Tổng cục Hải quan (Cục Giám sát quản lý về Hải quan) có trách nhiệm - thông báo chấm dứt hiệu lực đơn đề nghị kiểm tra, giám sát hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo hộ quyền sở hữu trí tuệ trong trường hợp: 1. Người nộp đơn có văn bản đề nghị chấm dứt việc kiểm tra, giám sát của cơ quan hải quan đối với hàng hóa có yêu cầu bảo hộ.'
+      trang_pdf: 6
+      sha256_pdf: 3548de02f8492e5b28f0c77cc8073970f7b05caa38a7b736e7fca871ac70de28
+    - dieu: 10
+      noi_dung: Điều 10. Tạm dừng làm thủ tục hải quan 1. Chậm nhất 02 giờ làm việc kể từ thời điểm nhận được đủ bộ hồ sơ theo quy định tại Điều 9 Thông tư này, nếu chấp nhận đơn đề nghị, Chi cục trưởng Chi cục Hải quan quyết định tạm dừng làm thủ tục hải quan theo mẫu số 03-SHTT ban hành kèm theo Thông tư này. Quyết định tạm dừng được gửi trực tiếp hoặc bằng thư bảo đảm, đồng thời fax ngay cho tổ chức, cá nhân có liên quan.
+      trang_pdf: 7
+      sha256_pdf: 3548de02f8492e5b28f0c77cc8073970f7b05caa38a7b736e7fca871ac70de28
+    - dieu: 11
+      noi_dung: Điều 11. Tiếp tục làm thủ tục hải quan 1. Chi cục Hải quan quyết định tạm dừng có trách nhiệm quyết định tiếp tục làm thủ tục hải quan cho lô hàng theo quy định tại khoản 4 Điều 76 Luật Hải quan và thông báo cho các bên liên quan biết (theo mẫu số 05-SHTT ban hành kèm theo Thông tư này).
+      trang_pdf: 9
+      sha256_pdf: 3548de02f8492e5b28f0c77cc8073970f7b05caa38a7b736e7fca871ac70de28
+    - dieu: 13
+      noi_dung: Điều 13. Xử lý đối với hàng giả hoặc hàng hóa có dấu hiệu là hàng giả 1. Trường hợp phát hiện hàng hóa xuất khẩu, nhập khẩu là hàng giả thì áp dụng các biện pháp ngăn chặn và xử phạt theo quy định của pháp luật về xử lý vi phạm hành chính.
+      trang_pdf: 10
+      sha256_pdf: 3548de02f8492e5b28f0c77cc8073970f7b05caa38a7b736e7fca871ac70de28
+    - dieu: 15
+      noi_dung: Điều 15. Trách nhiệm, thẩm quyền của lực lượng kiểm soát hải quan 1. Phạm vi trách nhiệm của lực lượng kiểm soát hải quan trong công tác chống hàng giả và hàng hóa xâm phạm quyền sở hữu trí tuệ thực hiện theo quy định tại Điều 88 Luật Hải quan và Nghị định số 01/2015/NĐ-CP ngày 02/01/2015 của Chính phủ quy định chi tiết phạm vi địa bàn hoạt động hải quan;
+      trang_pdf: 12
+      sha256_pdf: 3548de02f8492e5b28f0c77cc8073970f7b05caa38a7b736e7fca871ac70de28
+    - dieu: 18
+      noi_dung: Điều 18. Hiệu lực thi hành Thông tư này có hiệu lực thi hành từ ngày 15 tháng 3 năm 2015 và thay thế Thông tư số 44/2011/TT-BTC ngày 11/4/2011 của Bộ trưởng Bộ Tài chính hướng dẫn về công tác chống hàng giả và bảo vệ quyền sở hữu trí tuệ trong lĩnh vực hải quan các văn bản hướng dẫn trước đây trái với quy định tại Thông tư này./.
+      trang_pdf: 13
+      sha256_pdf: 3548de02f8492e5b28f0c77cc8073970f7b05caa38a7b736e7fca871ac70de28
+toan_van: raw/download/congbaocdn.chinhphu.vn/13-2015-tt-btc.pdf

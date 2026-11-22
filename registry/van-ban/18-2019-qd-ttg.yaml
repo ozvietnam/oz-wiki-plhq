@@ -20,11 +20,54 @@ nguon:
     truy_cap: '2026-11-06'
   - url: https://thuvienphapluat.vn/van-ban/xuat-nhap-khau/decision-18-2019-qd-ttg-import-of-used-machinery-equipment-and-technological-lines-412549.aspx
     truy_cap: '2026-11-06'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2019/4/28889/26622-1-2019409-41018-2019-qd-ttg.pdf
+    truy_cap: '2026-11-22'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=196855), toàn văn PDF ký số (18.signed_01.pdf, Phó Thủ tướng Trịnh Đình Dũng ký thay Thủ tướng) và Công báo Chính phủ (mã 26622): ban hành 19-04-2019, có hiệu lực từ 15-06-2019 (Điều 17), thay thế Thông tư 23/2015/TT-BKHCN (chưa nạp vào sổ); đang còn hiệu lực, được sửa đổi, bổ sung một số điều bởi Quyết định 28/2022/QĐ-TTg ngày 20-12-2022 và Quyết định 02/2026/QĐ-TTg (chưa nạp vào sổ).'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh 1. Quyết định này quy định tiêu chí, hồ sơ, trình tự, thủ tục nhập khẩu và hoạt động giám định đối với máy móc, thiết bị, dây chuyền công nghệ đã qua sử dụng có mã hàng hóa (mã số HS) thuộc Chương 84 và Chương 85 quy định tại Danh mục hàng hoá xuất khẩu, nhập khẩu Việt Nam, được nhập khẩu nhằm sử dụng cho hoạt động sản xuất tại Việt Nam mà không thuộc các danh mục hàng hóa cấm nhập khẩu do Chính phủ, Thủ tướng Chính
+      trang_pdf: 1
+      sha256_pdf: 642a888a48b6f924e5cf420fee81bbb82dca4be4972504a69b6b5d01b45ac730
+    - dieu: 2
+      noi_dung: 'Điều 2. Đối tượng áp dụng Quyết định này áp dụng đối với: 1. Tổ chức, doanh nghiệp (sau đây viết chung là doanh nghiệp) nhập khẩu máy móc, thiết bị, dây chuyền công nghệ đã qua sử dụng.'
+      trang_pdf: 2
+      sha256_pdf: 642a888a48b6f924e5cf420fee81bbb82dca4be4972504a69b6b5d01b45ac730
+    - dieu: 3
+      noi_dung: 'Điều 3. Giải thích từ ngữ Trong Quyết định này, các từ ngữ dưới đây được hiểu như sau: 1. Máy móc, thiết bị là một kết cấu hoàn chỉnh, gồm các chi tiết, cụm chi tiết, bộ phận có liên kết với nhau để vận hành, chuyển động theo mục đích sử dụng được thiết kế.'
+      trang_pdf: 3
+      sha256_pdf: 642a888a48b6f924e5cf420fee81bbb82dca4be4972504a69b6b5d01b45ac730
+    - dieu: 6
+      noi_dung: 'Điều 6. Tiêu chí nhập khẩu đối với máy móc, thiết bị đã qua sử dụng Máy móc, thiết bị đã qua sử dụng được phép nhập khẩu khi đáp ứng các tiêu chí sau: 1. Tuổi thiết bị không vượt quá 10 năm. Đối với máy móc, thiết bị thuộc một số lĩnh vực cụ thể, tuổi thiết bị được quy định chi tiết tại Phụ lục I ban hành kèm theo Quyết định này.'
+      trang_pdf: 4
+      sha256_pdf: 642a888a48b6f924e5cf420fee81bbb82dca4be4972504a69b6b5d01b45ac730
+    - dieu: 7
+      noi_dung: 'Điều 7. Hồ sơ, trình tự thủ tục nhập khẩu dây chuyền công nghệ đã qua sử dụng 1. Hồ sơ nhập khẩu: Ngoài hồ sơ nhập khẩu theo quy định của Luật Hải quan, doanh nghiệp phải bổ sung tài liệu sau: a) Bản sao Giấy chứng nhận đăng ký doanh nghiệp có đóng dấu của doanh nghiệp.'
+      trang_pdf: 5
+      sha256_pdf: 642a888a48b6f924e5cf420fee81bbb82dca4be4972504a69b6b5d01b45ac730
+    - dieu: 9
+      noi_dung: Điều 9. Nhập khẩu máy móc, thiết bị đã qua sử dụng trong trường hợp khác 1. Trong trường hợp doanh nghiệp đang tiến hành sản xuất tại Việt Nam, để bảo đảm duy trì hoạt động sản xuất, có nhu cầu nhập khẩu máy móc, thiết bị đã qua sử dụng có tuổi thiết bị vượt quá quy định tại khoản 1 Điều 6 Quyết định này nhưng công suất (tính theo số lượng sản phẩm được tạo ra bởi máy móc, thiết bị trong một đơn vị thời gian) hoặc hiệu suất còn lại của máy móc,
+      trang_pdf: 7
+      sha256_pdf: 642a888a48b6f924e5cf420fee81bbb82dca4be4972504a69b6b5d01b45ac730
+    - dieu: 11
+      noi_dung: Điều 11. Hồ sơ, trình tự thủ tục chỉ định tổ chức giám định máy móc, thiết bị, dây chuyền công nghệ đã qua sử dụng 1. Bộ Khoa học và Công nghệ phối hợp với các bộ, cơ quan ngang bộ tổ chức thực hiện việc chỉ định, thừa nhận theo thỏa thuận thừa nhận song phương hoặc đa
+      trang_pdf: 10
+      sha256_pdf: 642a888a48b6f924e5cf420fee81bbb82dca4be4972504a69b6b5d01b45ac730
+    - dieu: 13
+      noi_dung: Điều 13. Trách nhiệm của các bộ, cơ quan ngang bộ 1. Phối hợp với Bộ Khoa học và Công nghệ trong triển khai thực hiện Quyết định này. 2. Căn cứ tình hình phát triển kinh tế - xã hội, yêu cầu quản lý nhà nước về lĩnh vực chuyên ngành, đề xuất tiêu chí về tuổi thiết bị đối với máy móc, thiết bị đã qua sử dụng khác thuộc lĩnh vực được phân công quản lý, gửi về Bộ Khoa học và Công nghệ để tổng hợp, trình Thủ tướng Chính phủ xem xét, phê duyệt.
+      trang_pdf: 13
+      sha256_pdf: 642a888a48b6f924e5cf420fee81bbb82dca4be4972504a69b6b5d01b45ac730
+    - dieu: 14
+      noi_dung: Điều 14. Trách nhiệm của doanh nghiệp nhập khẩu máy móc, thiết bị, dây chuyền công nghệ đã qua sử dụng 1. Thực hiện nhập khẩu máy móc, thiết bị, dây chuyền công nghệ đã qua sử dụng theo quy định tại Quyết định này và các văn bản quy phạm pháp luật liên quan. 2. Chịu sự kiểm tra của cơ quan quản lý nhà nước có thẩm quyền; chịu trách nhiệm trước pháp luật về hành vi vi phạm quy định tại Quyết định này và các văn bản quy phạm pháp luật liên quan.
+      trang_pdf: 13
+      sha256_pdf: 642a888a48b6f924e5cf420fee81bbb82dca4be4972504a69b6b5d01b45ac730
+    - dieu: 17
+      noi_dung: Điều 17. Điều khoản thi hành 1. Quyết định này có hiệu lực thi hành từ ngày 15 tháng 6 năm 2019. 2. Trường hợp các văn bản quy phạm pháp luật được viện dẫn tại Quyết định này được sửa đổi, bổ sung hoặc thay thế thì thực hiện theo các văn bản mới.
+      trang_pdf: 15
+      sha256_pdf: 642a888a48b6f924e5cf420fee81bbb82dca4be4972504a69b6b5d01b45ac730
 ghi_chu: 'Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Liên quan XNK trực tiếp: máy móc, thiết bị, dây chuyền công nghệ đã qua sử dụng nhập khẩu theo mã HS Chương 84, 85 phải đáp ứng tiêu chuẩn, hồ sơ, trình tự kiểm tra và lấy mẫu theo QĐ này trước khi thông quan — khách XNK tra nhiều khi nhập dây chuyền sản xuất second-hand.'
-toan_van: raw/download/congbao.chinhphu.vn/18-2019-qd-ttg.html
+toan_van: raw/download/congbaocdn.chinhphu.vn/18-2019-qd-ttg.pdf

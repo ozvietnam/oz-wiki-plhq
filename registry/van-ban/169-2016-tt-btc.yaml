@@ -19,5 +19,23 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Pham vi điều chỉnh và đối tượng áp dụng 1. Phạm vi điều chỉnh Thông tư này quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí thẩm định hợp đồng chuyển giao công nghệ. 2. Đối tượng áp dụng
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Tổ chức thu phí Cơ quan quản lý nhà nước có thẩm quyền thẩm định hợp đồng chuyển giao công nghệ theo quy định tại Nghị định số 133/2008/NĐ-CP ngày 31 tháng 12 năm 2008 của Chính phú. quy định chi tiết va hướng dẫn thi hành một số điều của Luật chuyển giao công nghệ có nhiệm vụ tổ chức thu, kê khai, nộp, quản lý và sử dụng phí thẩm định hợp đồng chuyển giao công nghệ theo quy định tại Thông tư này (dưới đây gọi chung là tổ chức thu phi).
+      trang_pdf: 2
+    - dieu: 4
+      noi_dung: 'Điều 4. Mức thu phí Mức thư phí thẩm định hợp đồng chuyến giao công nghệ được quy định như sau: 1. Mức thu phí thẩm định hợp đồng chuyển giao công nghệ dé đăng ký: a) Đối với các hợp đồng chuyên giao công nghệ đăng ký lần đầu thì phí thấm định hợp đồng chuyển giao công nghệ được tính theo tỷ lệ bằng 0, 1%'
+      trang_pdf: 2
+    - dieu: 5
+      noi_dung: Điều 5. Kê khai, nộp phi 1. Chậm nhất là ngày 05 hàng tháng, tổ chức thu phí phải gửi số tiền phí đã thu của tháng trước vào tải khoản phí chờ nộp ngân sách mớ tại Kho bạc Nhà nước.
+      trang_pdf: 3
+    - dieu: 7
+      noi_dung: Điều 7. Tổ chức thực hiện 1. Thông tư này có hiệu lực kế từ ngày 01 tháng 01 năm 2017; thay thé Thông tư số 200/2009/TT-BTC ngày 15 tháng 10 năm 2009 của Bộ trưởng Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí thâm định hợp đồng chuyển giao công nghệ.
+      trang_pdf: 3
 ghi_chu: Thông tư phí của Bộ Tài chính được dẫn chiếu trong wiki; lưu ý phí thẩm định cấp phép mật mã dân sự thực hiện theo TT 249/2016/TT-BTC.
-toan_van: raw/download/vanban.chinhphu.vn/169-2016-tt-btc.html
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/169-2016-tt-btc.pdf
+  - raw/ocr/169-2016-tt-btc.ocr.txt

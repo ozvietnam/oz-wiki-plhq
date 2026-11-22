@@ -13,11 +13,28 @@ nguon:
     truy_cap: '2026-10-29'
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=219370
     truy_cap: '2026-11-14'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/127-btc.signed.pdf
+    truy_cap: '2026-11-22'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'thẻ chinhphu.vn (docid=219370): số hiệu, tiêu đề đầy đủ, ngày ban hành 27-08-2026, có hiệu lực từ 15-10-2026, kèm Phụ lục I-X chỉ tiêu thông tin và mẫu chứng từ khai báo phương tiện vận tải xuất nhập cảnh, quá cảnh; đối chiếu đang còn hiệu lực'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Thông tư nay quy định các chỉ tiêu thông tin, ‘mau chimg tir khai bao khi lam thu tuc xuất cảnh, nhập cảnh, quá cảnh, chuyên cảng đối với phương tiện vận tải xuất cảnh, nhập cảnh, quá cảnh, chuyển cảng qua cửa khẩu cảng hàng không, cảng biển, đường sắt, đường bộ và đường thủy nội địa.
+      trang_pdf: 2
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng 1. Cơ quan hai quan; công chức hải quan. 2. Người khai hải quan đối với phương tiện vận tải xuất cảnh, nhập cảnh, quá cảnh, chuyên cảng. 3. Các cơ quan khác của Nhà nước trong việc phối hợp quản lý nhà nước đối với phương tiện vận tải xuất cảnh, nhập cảnh, quá cảnh, chuyên cảng.
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: 'Điều 3. Chỉ tiêu thông tin, mẫu chứng từ 1. Chỉ tiêu thông tin khai báo đối với phương tiện vận tải xuất cảnh, nhập cảnh, quá cảnh, chuyên cảng thông qua Cổng thông tin một cửa quốc gia: a) Chỉ tiêu thông tin khai báo đối với tàu biển xuất cảnh, nhập cảnh, quá cảnh, chuyển cảng qua cửa khẩu cảng biển tại Phụ luc I; b) Chỉ tiêu thông tin khai báo đối với tàu bay xuất cảnh, nhập cảnh, quá cảnh qua cửa khâu cảng hàng không tại Phụ lục II;'
+      trang_pdf: 2
+    - dieu: 4
+      noi_dung: Điều 4. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 15 tháng 10 năm 2026. 2. Ké từ ngày Thông tư này có hiệu lực thi hành, Thông tư số 50/2018/TT- - BTC của Bộ trưởng Bộ Tài chính ban hành các chỉ tiêu thông tin, mau chứng từ khai báo khi làm thủ tục xuất cảnh, nhập cảnh, quá cảnh đối với phương tiện qua cửa khẩu đường hàng không, đường biển, đường sắt, đường bộ và cửa khâu đường sông theo quy định tại Nghị định số 59/2018/NĐ-CP của Chính phủ hết hiệu lực thi hành.
+      trang_pdf: 3
 ghi_chu: Bắt bởi trinh thám bộ ngành (WebSearch tầng 2) 29/10 — mẫu chứng từ khai báo PHƯƠNG TIỆN VẬN TẢI (nhóm Đ70-74 NĐ 08/2015 bị 167/2025 sửa).
-toan_van: raw/download/vanban.chinhphu.vn/127-2026-tt-btc.html
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/127-2026-tt-btc.pdf
+  - raw/ocr/127-2026-tt-btc.ocr.txt

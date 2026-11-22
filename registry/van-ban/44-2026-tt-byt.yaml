@@ -21,5 +21,18 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-18'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đổi khoản 3 Điều 14 “3. Kể từ ngày 01 tháng 11 năm 2028, thuốc generic có chứa dược chất hoặc dạng bào chế phải thử tương đương sinh học theo quy định tại Thông tư này đã được cấp giấy đăng ký lưu hành: a) Chỉ được tiếp tục sản xuất, nhập khẩu và đưa ra lưu hành khi đã được công bố thuốc có tài liệu chứng minh tương đương sinh học;'
+      trang_pdf: 1
+      sha256_pdf: 6f4b6e2b02ef7e2b13fbaa1922503935e71202cc831f91e417dc8b3d0ca03a3e
+    - dieu: 2
+      noi_dung: 'Điều 2. Sửa đổi, bổ sung Điều 17 1. Bổ sung điểm d vào sau điểm c khoản 1 như sau: “d) Tổ chức thực hiện việc công bố, cập nhật Danh mục thuốc chưa được công bố thuốc có tài liệu chứng minh tương đương sinh học trên Trang thông tin điện tử của Cục Quản lý Dược từ ngày 01 tháng 07 năm 2027.”. 2. Bổ sung khoản 1a vào sau khoản 1 như sau: “1a.'
+      trang_pdf: 2
+      sha256_pdf: 6f4b6e2b02ef7e2b13fbaa1922503935e71202cc831f91e417dc8b3d0ca03a3e
+    - dieu: 3
+      noi_dung: Điều 3. Hiệu lực thi hành Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 11 năm 2026. Trong quá trình thực hiện, nếu có khó khăn, vướng mắc, đề nghị các cơ quan, tổ chức, cá nhân phản ánh về Bộ Y tế (Cục Quản lý Dược) xem xét, giải quyết./.
+      trang_pdf: 2
+      sha256_pdf: 6f4b6e2b02ef7e2b13fbaa1922503935e71202cc831f91e417dc8b3d0ca03a3e
 ghi_chu: Trinh sát trạm BYT đêm 5/11. Sửa đổi, bổ sung khoản 3 Điều 14 và Điều 17 Thông tư 07/2022/TT-BYT về lộ trình thử tương đương sinh học đối với thuốc generic sản xuất, nhập khẩu và đăng ký lưu hành tại Việt Nam (liên kết thủ tục tại Điều 47, 55 Thông tư 32/2026/TT-BYT).
-toan_van: raw/download/vanban.chinhphu.vn/44-2026-tt-byt.html
+toan_van: raw/download/datafiles.chinhphu.vn/44-2026-tt-byt.pdf

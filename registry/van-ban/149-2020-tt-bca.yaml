@@ -10,12 +10,53 @@ nhanh:
   - kiem-tra-chuyen-nganh/bca
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, trích yếu, ngày ban hành 31-12-2020, hiệu lực 20-02-2021 trên Công báo số 121+122/2021 (congbao.chinhphu.vn); còn hiệu lực'
+  pham_vi: số hiệu, trích yếu, ngày ban hành 31-12-2020, hiệu lực 20-02-2021 trên Công báo số 121+122/2021 (congbao.chinhphu.vn); còn hiệu lực
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Hướng dẫn Nghị định 136/2020/NĐ-CP về phòng cháy và chữa cháy, kiểm định phương tiện phòng cháy và chữa cháy.'
-toan_van: raw/download/congbao.chinhphu.vn/149-2020-tt-bca.html
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Thông tư này quy định một số nội dung trong công tác phòng cháy, chữa cháy, gồm: Hồ sơ quản lý, nội quy an toàn, sơ đồ chỉ dẫn, biển cấm, biển báo, biển chỉ dẫn về phòng cháy và chữa cháy; khu dân cư có nguy cơ cháy, nổ cao; phân cấp quản lý về phòng cháy và chữa cháy; kiểm tra an toàn về phòng cháy và chữa cháy; phê duyệt, thực tập phương án chữa cháy;'
+      trang_pdf: 2
+      sha256_pdf: 52542ab41a56def3ee94e32c2768a19d390767eb1a41d1ceaa1aa74958ce217a
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng Thông tư này áp dụng đối với cơ quan, tổ chức, hộ gia đình và cá nhân hoạt động, sinh sống trên lãnh thổ Cộng hòa xã hội chủ nghĩa Việt Nam.
+      trang_pdf: 2
+      sha256_pdf: 52542ab41a56def3ee94e32c2768a19d390767eb1a41d1ceaa1aa74958ce217a
+    - dieu: 3
+      noi_dung: 'Điều 3. Phụ lục Ban hành kèm theo Thông tư này Phụ lục biểu mẫu sử dụng trong công tác phòng cháy và chữa cháy: 1. Phiếu chiến thuật chữa cháy (Mẫu số 01). 2. Chứng chỉ bồi dưỡng kiến thức về phòng cháy và chữa cháy (Mẫu số 02). 3. Tem kiểm định phương tiện phòng cháy và chữa cháy (Mẫu số 03). Chương II QUY ĐỊNH CỤ THỂ'
+      trang_pdf: 2
+      sha256_pdf: 52542ab41a56def3ee94e32c2768a19d390767eb1a41d1ceaa1aa74958ce217a
+    - dieu: 6
+      noi_dung: 'Điều 6. Khu dân cư có nguy cơ cháy, nổ cao Khu dân cư có nguy cơ cháy, nổ cao là khu dân cư quy định tại khoản 1 Điều 6 Nghị định số 136/2020/NĐ-CP khi có một trong những tiêu chí như sau: 1. Có làng nghề sản xuất, kinh doanh hàng hóa dễ cháy, nổ. 2. Có tối thiểu 20% hộ gia đình sinh sống kết hợp với sản xuất, kinh doanh hàng hóa, hóa chất dễ cháy, nổ trên tổng số nhà ở hộ gia đình.'
+      trang_pdf: 5
+      sha256_pdf: 52542ab41a56def3ee94e32c2768a19d390767eb1a41d1ceaa1aa74958ce217a
+    - dieu: 7
+      noi_dung: Điều 7. Phân cấp quản lý về phòng cháy và chữa cháy trong Công an nhân dân Giám đốc Công an cấp tỉnh căn cứ bộ máy tổ chức, biên chế, địa bàn, số lượng cơ sở theo danh mục quy định tại Phụ lục III ban hành kèm theo Nghị định số 136/2020/NĐ-CP để quyết định phân cấp quản lý về phòng cháy và chữa cháy cho Phòng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ Công an cấp tỉnh quản lý đối với phương tiện giao thông cơ giới có yêu cầu đặc biệt về
+      trang_pdf: 5
+      sha256_pdf: 52542ab41a56def3ee94e32c2768a19d390767eb1a41d1ceaa1aa74958ce217a
+    - dieu: 9
+      noi_dung: Điều 9. Thẩm quyền phê duyệt phương án chữa cháy 1. Thẩm quyền phê duyệt phương án chữa cháy a) Bộ trưởng Bộ Công an phê duyệt phương án chữa cháy của cơ quan Công an có huy động lực lượng, phương tiện của Công an nhiều tỉnh, thành phố trực thuộc Trung ương; b) Chủ tịch Ủy ban nhân dân cấp tỉnh phê duyệt phương án chữa cháy của cơ quan Công an có huy động lực lượng, phương tiện của cơ quan, tổ chức thuộc phạm vi quản lý;
+      trang_pdf: 6
+      sha256_pdf: 52542ab41a56def3ee94e32c2768a19d390767eb1a41d1ceaa1aa74958ce217a
+    - dieu: 10
+      noi_dung: Điều 10. Thời hạn thực tập phương án chữa cháy 1. Phương án chữa cháy của cơ sở quy định tại điểm a khoản 3 Điều 19 Nghị định số 136/2020/NĐ-CP phải được tổ chức thực tập ít nhất một lần một năm và thực tập đột xuất khi có yêu cầu bảo đảm về an toàn phòng cháy và chữa cháy đối với các sự kiện đặc biệt về chính trị, kinh tế, văn hóa, xã hội tổ chức ở địa phương.
+      trang_pdf: 7
+      sha256_pdf: 52542ab41a56def3ee94e32c2768a19d390767eb1a41d1ceaa1aa74958ce217a
+    - dieu: 12
+      noi_dung: Điều 12. Đầu tư, quản lý, khai thác vận hành hệ thống quản lý cơ sở dữ liệu về phòng cháy, chữa cháy và truyền tin báo sự cố 1. Cơ sở hạ tầng thông tin của hệ thống quản lý cơ sở dữ liệu về phòng cháy, chữa cháy và truyền tin báo sự cố được đầu tư theo quy định của pháp luật, bảo đảm các nguyên tắc cung cấp hàng hóa và dịch vụ công, bảo đảm quyền của các cá nhân, tổ chức trong việc tiếp cận và sử dụng hạ tầng phù hợp với quy định của pháp luật.
+      trang_pdf: 9
+      sha256_pdf: 52542ab41a56def3ee94e32c2768a19d390767eb1a41d1ceaa1aa74958ce217a
+    - dieu: 13
+      noi_dung: 'Điều 13. Thành lập đội phòng cháy, chữa cháy chuyên ngành Cơ sở quy định tại các điểm a, b, c, d và điểm đ khoản 3 Điều 44 Luật Phòng cháy và chữa cháy được sửa đổi, bổ sung tại khoản 25 Điều 1 Luật sửa đổi, bổ sung một số điều của Luật Phòng cháy và chữa cháy và các cơ sở sau: Kho dự trữ cấp quốc gia; kho dầu mỏ, sản phẩm dầu mỏ có tổng dung tích 15.000 m3 trở lên;'
+      trang_pdf: 10
+      sha256_pdf: 52542ab41a56def3ee94e32c2768a19d390767eb1a41d1ceaa1aa74958ce217a
+    - dieu: 16
+      noi_dung: 'Điều 16. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 20 tháng 02 năm 2021 và thay thế các Thông tư: Thông tư số 66/2014/TT-BCA ngày 16/12/2014 của Bộ trưởng Bộ Công an quy định chi tiết thi hành một số điều của Nghị định số 79/2014/NĐ-CP ngày 31 tháng 7 năm 2014 của Chính phủ quy định chi tiết thi hành một số điều của Luật Phòng cháy và chữa cháy và Luật sửa đổi, bổ sung một số điều của Luật Phòng cháy và chữa cháy;'
+      trang_pdf: 13
+      sha256_pdf: 52542ab41a56def3ee94e32c2768a19d390767eb1a41d1ceaa1aa74958ce217a
+ghi_chu: Hướng dẫn Nghị định 136/2020/NĐ-CP về phòng cháy và chữa cháy, kiểm định phương tiện phòng cháy và chữa cháy.
+toan_van: raw/download/congbaocdn.chinhphu.vn/149-2020-tt-bca.pdf
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-149-2020-tt-bca-33004.htm
     truy_cap: '2026-11-15'

@@ -10,12 +10,23 @@ nhanh:
   - thue/mien-giam-hoan
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, trích yếu, ngày ban hành 17-02-2012, hiệu lực 15-04-2012 trên Công báo số 247+248/2012 (congbao.chinhphu.vn); còn ghi nhận hiệu lực trên Công báo'
+  pham_vi: số hiệu, trích yếu, ngày ban hành 17-02-2012, hiệu lực 15-04-2012 trên Công báo số 247+248/2012 (congbao.chinhphu.vn); còn ghi nhận hiệu lực trên Công báo
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Sửa đổi Thông tư 77/2008/TT-BTC hướng dẫn biện pháp xử lý nợ đọng thuế.'
-toan_van: raw/download/congbao.chinhphu.vn/24-2012-tt-btc.html
+  dieu_khoan:
+    - dieu: 2
+      noi_dung: 'Điều 2. Sửa đổi, bổ sung điểm 2b, điểm 2c Mục II như sau: “b) Hồ sơ đề nghị xóa nợ thuế và các khoản phạt do doanh nghiệp lập và nộp cho cơ quan hải quan nơi làm thủ tục hải quan 01 bộ, bao gồm: b.1. Công văn đề nghị xóa nợ thuế và các khoản phạt của doanh nghiệp trong đó giải trình rõ lý do đề nghị xóa nợ, nêu rõ nguyên nhân tính sai số thuế phải nộp, số tiền thuế (tiền phạt) đã thông báo, số tiền thuế phải nộp nếu tính đúng, số tiền thuế và'
+      trang_pdf: 2
+      sha256_pdf: e14754745890681854b1d05995bdf348eb9c7b15ffdf71b7d947c4396a44720d
+    - dieu: 3
+      noi_dung: Điều 3. Tổ chức thực hiện Thông tư này có hiệu lực thi hành từ ngày 15 tháng 4 năm 2012, thay thế các hướng dẫn trước đây trái với Thông tư này. Tổng cục Hải quan, Cục Hải quan các tỉnh, thành phố có trách nhiệm thực hiện theo quy định tại Thông tư này. Trong quá trình thực hiện Thông tư này, nếu có vướng mắc đề nghị phản ánh về Bộ Tài chính để xem xét, hướng dẫn giải quyết./.
+      trang_pdf: 4
+      sha256_pdf: e14754745890681854b1d05995bdf348eb9c7b15ffdf71b7d947c4396a44720d
+ghi_chu: Sửa đổi Thông tư 77/2008/TT-BTC hướng dẫn biện pháp xử lý nợ đọng thuế.
+toan_van: raw/download/congbaocdn.chinhphu.vn/24-2012-tt-btc.pdf
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-24-2012-tt-btc-15113.htm
     truy_cap: '2026-11-15'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2012/2/15113/10119-1-2012247-248-242012tt-btcpdf
+    truy_cap: '2026-11-22'
