@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 350/TB-CHQ/2025
+so_hieu_khac:
+  - 350/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Máy tính trạm workstation Dell Precision 3680 Tower, Regulatory Model D30M, Regulatory Type D30M001, mã số 8471.50.10)'
+co_quan: CHQ
+ngay_ban_hanh: '2025-03-21'
+hieu_luc_tu: '2025-03-21'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=99681&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/24/VB_350.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/24/VB_350.pdf, id=99681, SHA-256 98516749d4074cbe655f4c5e62c567c3fafe89b1e3fca9fde8d39459992cab59): Thông báo số 350/TB-CHQ ngày 21-03-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Máy tính trạm (workstation), model Dell Precision 3680 Tower (ký, mã hiệu Regulatory Model: D30M, Regulatory Type: D30M001, nhà sản xuất Dell; thiết kế dạng tháp tower, kích thước 372,90mm x 173,00mm x 420,20mm, trọng lượng 7,58kg - 16,05kg, có thiết kế, kích thước, trọng lượng và cách thức đặt/để sử dụng như máy tính để bàn desktop, phù hợp sử dụng cho cá nhân và doanh nghiệp), phân loại vào nhóm 84.71, phân nhóm 8471.50, mã số 8471.50.10; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Máy tính trạm (workstation), model Dell Precision 3680 Tower (Regulatory Model: D30M, Regulatory Type: D30M001, nhà sản xuất Dell; thiết kế dạng tower, kích thước và cách thức đặt/để sử dụng như máy tính để bàn desktop) thuộc nhóm 84.71, phân nhóm 8471.50, mã số 8471.50.10.'
+toan_van: raw/download/files.customs.gov.vn/350-tb-chq-2025.pdf
