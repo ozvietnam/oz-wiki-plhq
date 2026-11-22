@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-22).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 290,
+ "tong": 293,
  "trang": [
   {
    "slug": "dong-bo-quan-diem-phan-loai",
@@ -9332,6 +9332,51 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "119-2022-nd-cp",
+   "duong_dan": "wiki/sources/119-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 119/2022/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Hàng hóa ASEAN – Hàn Quốc (AKFTA) giai đoạn 2022–2027",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "thue-xk-nk",
+    "bieu-thue",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "so_chunks": 16,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "119/2022/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207166&pageid=27160"
+    },
+    {
+     "so_hieu": "157/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-01",
+     "het_hieu_luc_tu": "2022-12-30",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "119/2022/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-157-2017-nd-cp-25474/20558.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "12-2019-tt-bct",
    "duong_dan": "wiki/sources/12-2019-tt-bct.md",
    "loai_trang": "sources",
@@ -9448,6 +9493,96 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd.signed.pdf"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "120-2022-nd-cp",
+   "duong_dan": "wiki/sources/120-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 120/2022/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện ASEAN – Nhật Bản (AJCEP) giai đoạn 2022–2028",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "thue-xk-nk",
+    "bieu-thue",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "so_chunks": 15,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "120/2022/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207165&pageid=27160"
+    },
+    {
+     "so_hieu": "160/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-01",
+     "het_hieu_luc_tu": "2022-12-30",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "120/2022/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-160-2017-nd-cp-25775/21168.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "121-2022-nd-cp",
+   "duong_dan": "wiki/sources/121-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 121/2022/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thành lập Khu vực Thương mại tự do ASEAN – Ôt-xtrây-lia – Niu Di-lân (AANZFTA) giai đoạn 2022–2027",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "thue-xk-nk",
+    "bieu-thue",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "ma-hs",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "so_chunks": 15,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "121/2022/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207164&pageid=27160"
+    },
+    {
+     "so_hieu": "158/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-01",
+     "het_hieu_luc_tu": "2022-12-30",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "121/2022/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-158-2017-nd-cp-25574.htm"
     }
    ],
    "canh_bao_hieu_luc": false

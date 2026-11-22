@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-22",
   "luoc_do_phien_ban": "1.5.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 2936,
+  "tong": 2941,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -14616,26 +14616,104 @@
     {
       "so_hieu": "119/2022/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Biểu thuế NK ưu đãi AKFTA",
+      "ten": "Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc giai đoạn 2022 - 2027",
       "co_quan": "CP",
       "ngay_ban_hanh": "2022-12-30",
       "hieu_luc_tu": "2022-12-30",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "thue/bieu-thue"
+        "thue/bieu-thue",
+        "xuat-xu-fta/hiep-dinh",
+        "thue/bieu-thue-xnk"
       ],
       "quan_he": {
         "thay_the": [
-          "157/2017/NĐ-CP"
+          {
+            "so_hieu": "157/2017/NĐ-CP",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2022-12-30",
+            "can_cu": "Điều 7 khoản 2 Nghị định 119/2022/NĐ-CP"
+          }
         ]
       },
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "thẻ vanban.chinhphu.vn (docid=207166) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/119-2022-nd-cp.pdf): ban hành 30-12-2022, có hiệu lực từ 30-12-2022 đến hết 31-12-2027, thay thế Nghị định 157/2017/NĐ-CP",
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=207166), toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/119-2022-nd-cp.pdf, 643 trang, SHA-256 6021e3b3be0c3b0a43e0838026c7884e426bc9360a4233fe0d510c940106307e) và trang wiki/sources/119-2022-nd-cp.md: ban hành 30-12-2022, có hiệu lực từ ngày ký 30-12-2022 đến hết 31-12-2027, gồm 8 Điều và Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc (AKFTA) giai đoạn 2022 - 2027, thay thế toàn bộ Nghị định 157/2017/NĐ-CP theo khoản 2 Điều 7",
         "hieu_luc_da_doi_chieu": true,
-        "ngay": "2026-11-14",
+        "ngay": "2026-11-22",
         "boi": "tho-bo-ba-01@ozvietnam",
-        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Nghị định này quy định thuế suất thuế nhập khẩu ưu đãi đặc biệt để thực hiện Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc thuộc Hiệp định Khung về Hợp tác Kinh tế Toàn diện ASEAN - Hàn Quốc giai đoạn 2022 - 2027 và điều kiện được hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định này."
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "1. Người nộp thuế theo quy định của Luật Thuế xuất khẩu, thuế nhập khẩu. 2. Cơ quan hải quan, công chức hải quan. 3. Tổ chức, cá nhân có quyền và nghĩa vụ liên quan đến hàng hoá xuất khẩu, nhập khẩu."
+          },
+          {
+            "dieu": 3,
+            "khoan": 1,
+            "noi_dung": "1. Ban hành kèm theo Nghị định này Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam (thuế suất thuế nhập khẩu ưu đãi đặc biệt áp dụng sau đây gọi là thuế suất AKFTA) để thực hiện Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc giai đoạn 2022 - 2027."
+          },
+          {
+            "dieu": 3,
+            "khoan": 2,
+            "noi_dung": "2. Cột “Mã hàng” và cột “Mô tả hàng hóa” tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này được xây dựng trên cơ sở Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam và chi tiết theo cấp mã 8 số hoặc 10 số. Trường hợp Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam được sửa đổi, bổ sung, người khai hải quan kê khai mô tả, mã hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu sửa đổi, bổ sung và áp dụng thuế suất của mã hàng hoá được sửa đổi, bổ sung quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này."
+          },
+          {
+            "dieu": 3,
+            "khoan": 3,
+            "noi_dung": "3. Cột “Thuế suất AKFTA (%)”: Thuế suất áp dụng từ ngày 30 tháng 12 năm 2022 đến hết ngày 31 tháng 12 năm 2027."
+          },
+          {
+            "dieu": 3,
+            "khoan": 4,
+            "noi_dung": "4. Ký hiệu “*”: Hàng hóa nhập khẩu không được hưởng thuế suất AKFTA tại thời điểm tương ứng."
+          },
+          {
+            "dieu": 3,
+            "khoan": 5,
+            "noi_dung": "5. Cột “Nước không được hưởng ưu đãi”: những mặt hàng nhập khẩu từ nước có thể hiện ký hiệu tên nước (được quy định tại khoản 2 Điều 4 Nghị định này) không được áp dụng thuế suất AKFTA quy định tại Nghị định này."
+          },
+          {
+            "dieu": 3,
+            "khoan": 6,
+            "noi_dung": "6. Cột “GIC”: hàng hóa sản xuất tại Khu công nghiệp Khai Thành thuộc lãnh thổ Bắc Triều Tiên áp dụng thuế suất AKFTA theo quy định tại Điều 6 Nghị định này."
+          },
+          {
+            "dieu": 3,
+            "khoan": 7,
+            "noi_dung": "7. Đối với hàng hóa nhập khẩu áp dụng hạn ngạch thuế quan gồm một số mặt hàng thuộc các nhóm hàng 04.07, 17.01, 24.01, 25.01, thuế nhập khẩu ưu đãi đặc biệt trong hạn ngạch là mức thuế suất quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này; danh mục và lượng hạn ngạch thuế quan nhập khẩu hàng năm theo quy định của Bộ Công Thương và mức thuế suất thuế nhập khẩu ngoài hạn ngạch áp dụng theo quy định tại Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan của Chính phủ tại thời điểm nhập khẩu."
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Hàng hóa nhập khẩu được áp dụng thuế suất AKFTA phải đáp ứng đủ các điều kiện sau: 1. Thuộc Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này. 2. Được nhập khẩu vào Việt Nam từ các nước là thành viên của Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc, bao gồm các nước sau: a) Bru-nây Đa-rút-xa-lam, ký hiệu là BN; b) Vương quốc Cam-pu-chia, ký hiệu là KH; c) Cộng hoà In-đô-nê-xi-a, ký hiệu là ID; d) Cộng hoà Dân chủ Nhân dân Lào, ký hiệu là LA; đ) Ma-lay-xi-a, ký hiệu là MY; e) Cộng hòa Liên bang Mi-an-ma, ký hiệu là MM; g) Cộng hoà Phi-líp-pin, ký hiệu là PH; h) Cộng hoà Xinh-ga-po, ký hiệu là SG; i) Vương quốc Thái Lan, ký hiệu là TH; k) Đại hàn Dân Quốc (Hàn Quốc), ký hiệu là KR; 3. Đáp ứng các quy định về xuất xứ hàng hóa (bao gồm cả quy định về vận chuyển trực tiếp), có Giấy chứng nhận xuất xứ hàng hoá (C/O) mẫu AK hoặc có chứng từ chứng nhận xuất xứ hàng hóa, theo quy định của Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc và theo quy định hiện hành của pháp luật."
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Hàng hóa từ khu phi thuế quan của Việt Nam nhập khẩu vào thị trường trong nước được áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc phải đáp ứng đủ các điều kiện quy định tại khoản 1 và khoản 3 Điều 4 Nghị định này."
+          },
+          {
+            "dieu": 6,
+            "noi_dung": "Hàng hóa sản xuất tại Khu công nghiệp Khai Thành thuộc lãnh thổ Bắc Triều Tiên (hàng hóa GIC) để được áp dụng thuế suất AKFTA của Việt Nam phải đáp ứng đủ các điều kiện sau: 1. Thuộc các mặt hàng có thể hiện ký hiệu “GIC” tại cột “GIC” của Biểu thuế ban hành kèm theo Nghị định này. 2. Được nhập khẩu từ Hàn Quốc vào Việt Nam. 3. Đáp ứng các quy định về xuất xứ hàng hóa (bao gồm cả quy định về vận chuyển trực tiếp), có Giấy chứng nhận xuất xứ hàng hoá (C/O) mẫu AK in dòng chữ “Rule 6” tại ô số 8 do cơ quan có thẩm quyền cấp C/O Mẫu AK của Hàn Quốc cấp hoặc có chứng từ chứng nhận xuất xứ hàng hóa, theo quy định của Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc đối với hàng hóa áp dụng Quy tắc 6 - AKFTA và theo quy định hiện hành của pháp luật."
+          },
+          {
+            "dieu": 7,
+            "khoan": 1,
+            "noi_dung": "1. Nghị định này có hiệu lực từ ngày ký ban hành."
+          },
+          {
+            "dieu": 7,
+            "khoan": 2,
+            "noi_dung": "2. Nghị định số 157/2017/NĐ-CP ngày 27 tháng 12 năm 2017 của Chính phủ ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc giai đoạn 2018 - 2022 hết hiệu lực kể từ ngày Nghị định này có hiệu lực thi hành."
+          },
+          {
+            "dieu": 8,
+            "noi_dung": "Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này."
+          }
+        ]
       },
       "nguon": [
         {
@@ -14647,7 +14725,10 @@
           "truy_cap": "2026-10-10"
         }
       ],
-      "toan_van": "raw/download/datafiles.chinhphu.vn/119-2022-nd-cp.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/119-2022-nd-cp.pdf",
+        "wiki/sources/119-2022-nd-cp.md"
+      ],
       "slug": "119-2022-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -15364,26 +15445,90 @@
     {
       "so_hieu": "120/2022/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Biểu thuế NK ưu đãi AJCEP",
+      "ten": "Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện ASEAN - Nhật Bản giai đoạn 2022 - 2028",
       "co_quan": "CP",
       "ngay_ban_hanh": "2022-12-30",
       "hieu_luc_tu": "2022-12-30",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "thue/bieu-thue"
+        "thue/bieu-thue",
+        "xuat-xu-fta/hiep-dinh",
+        "thue/bieu-thue-xnk"
       ],
       "quan_he": {
         "thay_the": [
-          "160/2017/NĐ-CP"
+          {
+            "so_hieu": "160/2017/NĐ-CP",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2022-12-30",
+            "can_cu": "Điều 6 khoản 2 Nghị định 120/2022/NĐ-CP"
+          }
         ]
       },
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "thẻ vanban.chinhphu.vn (docid=207165) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/120-2022-nd-cp.pdf): ban hành 30-12-2022, có hiệu lực từ 30-12-2022 đến hết 31-12-2027, thay thế Nghị định 160/2017/NĐ-CP",
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=207165), toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/120-2022-nd-cp.pdf, 4 trang lời văn Nghị định, SHA-256 41c8e994363118f3cac1c207dde8ca95f9a3fdb7a74cb1b203d4d05b1f347326) và trang wiki/sources/120-2022-nd-cp.md: ban hành 30-12-2022, có hiệu lực từ ngày ký 30-12-2022 đến hết 31-03-2028, gồm 7 Điều quy định Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định Đối tác kinh tế toàn diện ASEAN - Nhật Bản (AJCEP) giai đoạn 2022 - 2028 theo 6 giai đoạn từ 30-12-2022 đến 31-03-2028, thay thế toàn bộ Nghị định 160/2017/NĐ-CP theo khoản 2 Điều 6",
         "hieu_luc_da_doi_chieu": true,
-        "ngay": "2026-11-14",
+        "ngay": "2026-11-22",
         "boi": "tho-bo-ba-01@ozvietnam",
-        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Nghị định này quy định thuế suất thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện ASEAN - Nhật Bản giai đoạn 2022 - 2028 và điều kiện được hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định này."
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "1. Người nộp thuế theo quy định của Luật Thuế xuất khẩu, thuế nhập khẩu. 2. Cơ quan hải quan, công chức hải quan. 3. Tổ chức, cá nhân có quyền và nghĩa vụ liên quan đến hàng hoá xuất khẩu, nhập khẩu."
+          },
+          {
+            "dieu": 3,
+            "khoan": 1,
+            "noi_dung": "1. Ban hành kèm theo Nghị định này Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện ASEAN - Nhật Bản giai đoạn 2022 - 2028 (thuế suất thuế nhập khẩu ưu đãi đặc biệt áp dụng sau đây gọi là thuế suất AJCEP)."
+          },
+          {
+            "dieu": 3,
+            "khoan": 2,
+            "noi_dung": "2. Cột “Mã hàng” và cột “Mô tả hàng hóa” tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này được xây dựng trên cơ sở Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam và chi tiết theo cấp mã 8 số hoặc 10 số. Trường hợp Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam được sửa đổi, bổ sung, người khai hải quan kê khai mô tả, mã hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu sửa đổi, bổ sung và áp dụng thuế suất của mã hàng hoá được sửa đổi, bổ sung quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này."
+          },
+          {
+            "dieu": 3,
+            "khoan": 3,
+            "noi_dung": "3. Cột “Thuế suất AJCEP (%)”: Thuế suất áp dụng cho các giai đoạn khác nhau, bao gồm: a) 30/12/2022 - 31/3/2023: Thuế suất áp dụng từ ngày 30 tháng 12 năm 2022 đến hết ngày 31 tháng 3 năm 2023; b) 01/4/2023 - 31/3/2024: Thuế suất áp dụng từ ngày 01 tháng 4 năm 2023 đến hết ngày 31 tháng 3 năm 2024; c) 01/4/2024 - 31/3/2025: Thuế suất áp dụng từ ngày 01 tháng 4 năm 2024 đến hết ngày 31 tháng 3 năm 2025; d) 01/4/2025 - 31/3/2026: Thuế suất áp dụng từ ngày 01 tháng 4 năm 2025 đến hết ngày 31 tháng 3 năm 2026; đ) 01/4/2026 - 31/3/2027: Thuế suất áp dụng từ ngày 01 tháng 4 năm 2026 đến hết ngày 31 tháng 3 năm 2027; e) 01/4/2027 - 31/3/2028: Thuế suất áp dụng từ ngày 01 tháng 4 năm 2027 đến hết ngày 31 tháng 3 năm 2028."
+          },
+          {
+            "dieu": 3,
+            "khoan": 4,
+            "noi_dung": "4. Ký hiệu “*”: Hàng hóa nhập khẩu không được hưởng thuế suất AJCEP tại thời điểm tương ứng."
+          },
+          {
+            "dieu": 3,
+            "khoan": 5,
+            "noi_dung": "5. Đối với hàng hóa nhập khẩu áp dụng hạn ngạch thuế quan gồm một số mặt hàng thuộc các nhóm hàng 04.07, 17.01, 24.01, 25.01, thuế nhập khẩu ưu đãi đặc biệt trong hạn ngạch là mức thuế suất quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này; danh mục và lượng hạn ngạch thuế quan nhập khẩu hàng năm theo quy định của Bộ Công Thương và mức thuế suất thuế nhập khẩu ngoài hạn ngạch áp dụng theo quy định tại Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan của Chính phủ tại thời điểm nhập khẩu."
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Hàng hóa nhập khẩu được áp dụng thuế suất AJCEP phải đáp ứng đủ các điều kiện sau: 1. Thuộc Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này. 2. Được nhập khẩu từ các nước là thành viên của Hiệp định Đối tác kinh tế toàn diện ASEAN - Nhật Bản, bao gồm các nước sau: a) Bru-nây Đa-rút-xa-lam; b) Vương quốc Cam-pu-chia; c) Cộng hoà In-đô-nê-xi-a; d) Cộng hoà Dân chủ Nhân dân Lào; đ) Ma-lay-xi-a; e) Cộng hoà Liên bang Mi-an-ma; g) Cộng hoà Phi-líp-pin; h) Cộng hoà Xinh-ga-po; i) Vương quốc Thái Lan; k) Nhật Bản. 3. Đáp ứng các quy định về xuất xứ hàng hóa (bao gồm cả quy định về vận chuyển trực tiếp) và có Giấy chứng nhận xuất xứ hàng hoá (C/O) mẫu AJ hoặc có chứng từ chứng nhận xuất xứ hàng hóa theo quy định của Hiệp định Đối tác kinh tế toàn diện ASEAN - Nhật Bản và theo quy định hiện hành của pháp luật."
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Hàng hóa từ khu phi thuế quan của Việt Nam nhập khẩu vào thị trường trong nước được áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định Đối tác kinh tế toàn diện ASEAN - Nhật Bản phải đáp ứng đủ các điều kiện quy định tại khoản 1 và khoản 3 Điều 4 Nghị định này."
+          },
+          {
+            "dieu": 6,
+            "khoan": 1,
+            "noi_dung": "1. Nghị định này có hiệu lực thi hành từ ngày ký ban hành."
+          },
+          {
+            "dieu": 6,
+            "khoan": 2,
+            "noi_dung": "2. Nghị định số 160/2017/NĐ-CP ngày 27 tháng 12 năm 2017 của Chính phủ ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện ASEAN - Nhật Bản giai đoạn 2018 - 2023 hết hiệu lực kể từ ngày Nghị định này có hiệu lực thi hành."
+          },
+          {
+            "dieu": 7,
+            "noi_dung": "Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này."
+          }
+        ]
       },
       "nguon": [
         {
@@ -15395,7 +15540,10 @@
           "truy_cap": "2026-10-10"
         }
       ],
-      "toan_van": "raw/download/datafiles.chinhphu.vn/120-2022-nd-cp.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/120-2022-nd-cp.pdf",
+        "wiki/sources/120-2022-nd-cp.md"
+      ],
       "slug": "120-2022-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -15674,26 +15822,90 @@
     {
       "so_hieu": "121/2022/NĐ-CP",
       "loai": "NGHI_DINH",
-      "ten": "Biểu thuế NK ưu đãi AANZFTA",
+      "ten": "Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thành lập Khu vực Thương mại tự do ASEAN - Ôt-xtrây-lia - Niu Di-lân giai đoạn 2022 - 2027",
       "co_quan": "CP",
       "ngay_ban_hanh": "2022-12-30",
       "hieu_luc_tu": "2022-12-30",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
-        "thue/bieu-thue"
+        "thue/bieu-thue",
+        "xuat-xu-fta/hiep-dinh",
+        "thue/bieu-thue-xnk"
       ],
       "quan_he": {
         "thay_the": [
-          "158/2017/NĐ-CP"
+          {
+            "so_hieu": "158/2017/NĐ-CP",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2022-12-30",
+            "can_cu": "Điều 6 khoản 2 Nghị định 121/2022/NĐ-CP"
+          }
         ]
       },
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "thẻ vanban.chinhphu.vn (docid=207164) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/121-2022-nd-cp.pdf): ban hành 30-12-2022, có hiệu lực từ 30-12-2022 đến hết 31-12-2027, thay thế Nghị định 158/2017/NĐ-CP",
+        "pham_vi": "thẻ vanban.chinhphu.vn (docid=207164), toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/121-2022-nd-cp.pdf, 4 trang lời văn Nghị định, SHA-256 6996e9788fad1251716d436bf7b522bad0eccf67145a0f81be086bdd3bcb42c0) và trang wiki/sources/121-2022-nd-cp.md: ban hành 30-12-2022, có hiệu lực từ ngày ký 30-12-2022 đến hết 31-12-2027, gồm 7 Điều ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt và Danh mục hàng hóa áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt ngoài hạn ngạch thực hiện Hiệp định thành lập Khu vực Thương mại tự do ASEAN - Ôt-xtrây-lia - Niu Di-lân (AANZFTA) giai đoạn 2022 - 2027, thay thế toàn bộ Nghị định 158/2017/NĐ-CP theo khoản 2 Điều 6",
         "hieu_luc_da_doi_chieu": true,
-        "ngay": "2026-11-14",
+        "ngay": "2026-11-22",
         "boi": "tho-bo-ba-01@ozvietnam",
-        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn"
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Nghị định này quy định thuế suất thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thành lập Khu vực Thương mại tự do ASEAN - Ôt-xtrây-lia - Niu Di-lân giai đoạn 2022 - 2027 và điều kiện được hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định này."
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "1. Người nộp thuế theo quy định của Luật Thuế xuất khẩu, thuế nhập khẩu. 2. Cơ quan hải quan, công chức hải quan. 3. Tổ chức, cá nhân có quyền và nghĩa vụ liên quan đến hàng hoá xuất khẩu, nhập khẩu."
+          },
+          {
+            "dieu": 3,
+            "khoan": 1,
+            "noi_dung": "1. Ban hành kèm theo Nghị định này Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam (thuế suất thuế nhập khẩu ưu đãi đặc biệt áp dụng sau đây gọi là thuế suất AANZFTA) và Danh mục hàng hóa áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt ngoài hạn ngạch của Việt Nam để thực hiện Hiệp định thành lập Khu vực Thương mại tự do ASEAN - Ôt-xtrây-lia - Niu Di-lân giai đoạn 2022 - 2027."
+          },
+          {
+            "dieu": 3,
+            "khoan": 2,
+            "noi_dung": "2. Cột “Mã hàng” và cột “Mô tả hàng hóa” tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này được xây dựng trên cơ sở Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam và chi tiết theo cấp mã 8 số hoặc 10 số. Trường hợp Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam được sửa đổi, bổ sung, người khai hải quan kê khai mô tả, mã hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu sửa đổi, bổ sung và áp dụng thuế suất của mã hàng hoá được sửa đổi, bổ sung quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này."
+          },
+          {
+            "dieu": 3,
+            "khoan": 3,
+            "noi_dung": "3. Cột “Thuế suất AANZFTA (%)”: Thuế suất áp dụng từ ngày 30 tháng 12 năm 2022 đến ngày 31 tháng 12 năm 2027."
+          },
+          {
+            "dieu": 3,
+            "khoan": 4,
+            "noi_dung": "4. Ký hiệu “*”: Hàng hóa nhập khẩu không được hưởng thuế suất AANZFTA tại thời điểm tương ứng."
+          },
+          {
+            "dieu": 3,
+            "khoan": 5,
+            "noi_dung": "5. Đối với hàng hóa nhập khẩu áp dụng hạn ngạch thuế quan gồm một số mặt hàng thuộc các nhóm hàng 04.07, 17.01, 24.01, 25.01, thuế suất AANZFTA trong hạn ngạch là mức thuế suất quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này; thuế suất AANZFTA ngoài hạn ngạch là mức thuế suất quy định tại Danh mục hàng hóa áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt ngoài hạn ngạch ban hành kèm theo Nghị định này. Thuế suất thuế nhập khẩu ngoài hạn ngạch đối với hàng hóa không thuộc Danh mục nêu trên thì áp dụng theo quy định tại Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan của Chính phủ tại thời điểm nhập khẩu. Danh mục và lượng hạn ngạch thuế quan nhập khẩu hàng năm theo quy định của Bộ Công Thương."
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Hàng hóa nhập khẩu được áp dụng thuế suất AANZFTA phải đáp ứng đủ các điều kiện sau: 1. Thuộc Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này. 2. Được nhập khẩu từ các nước là thành viên của Hiệp định thành lập Khu vực Thương mại tự do ASEAN - Ôt-xtrây-lia - Niu Di-lân, bao gồm các nước sau: a) Bru-nây Đa-rút-xa-lam; b) Vương quốc Cam-pu-chia; c) Cộng hoà In-đô-nê-xi-a; d) Cộng hoà Dân chủ Nhân dân Lào; đ) Ma-lay-xi-a; e) Cộng hòa Liên bang Mi-an-ma; g) Cộng hoà Phi-líp-pin; h) Cộng hoà Xinh-ga-po; i) Vương quốc Thái Lan; k) Ôt-xtrây-lia; l) Niu Di-lân. 3. Đáp ứng các quy định về xuất xứ hàng hóa (bao gồm cả quy định về vận chuyển trực tiếp) và có Giấy chứng nhận xuất xứ hàng hóa (C/O) Mẫu AANZ hoặc có chứng từ chứng nhận xuất xứ hàng hóa theo quy định của Hiệp định thành lập Khu vực Thương mại tự do ASEAN - Ôt-xtrây-lia - Niu Di-lân và quy định hiện hành của pháp luật."
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Hàng hóa từ khu phi thuế quan của Việt Nam nhập khẩu vào thị trường trong nước được áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định thành lập Khu vực Thương mại tự do ASEAN - Ôt-xtrây-lia - Niu Di-lân phải đáp ứng đủ các điều kiện quy định tại khoản 1 và khoản 3 Điều 4 Nghị định này."
+          },
+          {
+            "dieu": 6,
+            "khoan": 1,
+            "noi_dung": "1. Nghị định này có hiệu lực từ ngày ký ban hành."
+          },
+          {
+            "dieu": 6,
+            "khoan": 2,
+            "noi_dung": "2. Nghị định số 158/2017/NĐ-CP ngày 27 tháng 12 năm 2017 của Chính phủ ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thành lập Khu vực Thương mại tự do ASEAN - Ôt-xtrây-lia - Niu Di-lân giai đoạn 2018 - 2022 hết hiệu lực kể từ ngày Nghị định này có hiệu lực thi hành."
+          },
+          {
+            "dieu": 7,
+            "noi_dung": "Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này."
+          }
+        ]
       },
       "nguon": [
         {
@@ -15705,7 +15917,10 @@
           "truy_cap": "2026-10-10"
         }
       ],
-      "toan_van": "raw/download/datafiles.chinhphu.vn/121-2022-nd-cp.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/121-2022-nd-cp.pdf",
+        "wiki/sources/121-2022-nd-cp.md"
+      ],
       "slug": "121-2022-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -26188,7 +26403,10 @@
           {
             "tu": "119/2022/NĐ-CP",
             "quan_he": "thay_the",
-            "so_hieu": "157/2017/NĐ-CP"
+            "so_hieu": "157/2017/NĐ-CP",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2022-12-30",
+            "can_cu": "Điều 7 khoản 2 Nghị định 119/2022/NĐ-CP"
           }
         ]
       }
@@ -26477,7 +26695,10 @@
           {
             "tu": "121/2022/NĐ-CP",
             "quan_he": "thay_the",
-            "so_hieu": "158/2017/NĐ-CP"
+            "so_hieu": "158/2017/NĐ-CP",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2022-12-30",
+            "can_cu": "Điều 6 khoản 2 Nghị định 121/2022/NĐ-CP"
           }
         ]
       }
@@ -26946,7 +27167,10 @@
           {
             "tu": "120/2022/NĐ-CP",
             "quan_he": "thay_the",
-            "so_hieu": "160/2017/NĐ-CP"
+            "so_hieu": "160/2017/NĐ-CP",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2022-12-30",
+            "can_cu": "Điều 6 khoản 2 Nghị định 120/2022/NĐ-CP"
           }
         ]
       }
@@ -32070,6 +32294,166 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "18134/TB-CHQ/2026",
+      "so_hieu_khac": [
+        "18134/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-22",
+      "ten": "Thông báo về kết quả xác định trước mã số (Máy đọc sách điện tử màn hình E-Ink có chức năng từ điển, mã số 8543.70.30)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2026-06-26",
+      "hieu_luc_tu": "2026-06-26",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=104900&cid=1294",
+          "truy_cap": "2026-11-22"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/6/26/VB_18134.pdf",
+          "truy_cap": "2026-11-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/6/26/VB_18134.pdf, id=104900, SHA-256 f96daa3e4a1377756f16d59826af896e695c2f5ea4bab38efed84ca290ef890b): Thông báo số 18134/TB-CHQ ngày 26-06-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Máy đọc sách điện tử Kindle Paperwhite Signature Edition (model SA569P, hàng mới 100%; sử dụng màn hình công nghệ mực điện tử E-Ink 7 inch, kích thước 176 x 127 x 7,8 mm, trọng lượng 214 g, bộ nhớ 1 GB RAM + 16 GB hoặc 32 GB ROM, kết nối Wi-Fi và Bluetooth, không có khe cắm thẻ SIM, không có chức năng gọi điện hoặc nhắn tin, dùng để đọc hiển thị các file sách điện tử và có chức năng tra cứu từ điển), phân loại vào nhóm 85.43, phân nhóm 8543.70, mã số 8543.70.30; có hiệu lực từ ngày ký",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-22",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Xác định trước mã số mặt hàng Máy đọc sách điện tử Kindle Paperwhite Signature Edition (model SA569P, hàng mới 100%; màn hình mực điện tử E-Ink 7 inch, hỗ trợ Wi-Fi và Bluetooth, không có khe SIM, dùng đọc hiển thị file sách điện tử và có chức năng từ điển) thuộc nhóm 85.43, phân nhóm 8543.70, mã số 8543.70.30.",
+      "toan_van": "raw/download/files.customs.gov.vn/18134-tb-chq-2026.pdf",
+      "slug": "18134-tb-chq-2026",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "18154/TB-CHQ/2026",
+      "so_hieu_khac": [
+        "18154/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-22",
+      "ten": "Thông báo về kết quả xác định trước mã số (Bộ linh kiện đồng bộ dùng để sản xuất bình chữa cháy khí CO2 MT3 3kg dạng chưa lắp ráp, mã số 8424.10.90)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2026-06-26",
+      "hieu_luc_tu": "2026-06-26",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=104916&cid=1294",
+          "truy_cap": "2026-11-22"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/6/29/1.VB_18154.pdf",
+          "truy_cap": "2026-11-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/6/29/1.VB_18154.pdf, id=104916, SHA-256 179e8f56a2595d94fd9bb19569cbeedcc9681b51f7902f3df35b06c05becce3b): Thông báo số 18154/TB-CHQ ngày 26-06-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Bộ linh kiện đồng bộ dùng để sản xuất bình chữa cháy khí CO2 MT3 (3 kg) / CO2 Fire Extinguisher MT3 Assembly Kit (ký mã hiệu CKD-MT3; bình chữa cháy khí CO2 MT3 bán thành phẩm ở dạng chưa lắp ráp, tháo rời, cấu tạo gồm 04 chi tiết: 01 vỏ bình chữa cháy CO2 bằng thép chịu áp lực dung tích danh định 4,5 lít có cụm van chữa cháy bằng hợp kim đồng và thép không gỉ được cuốn băng tan PTFE và ống siphon siết cố định, 01 chốt cài an toàn bằng thép mạ kẽm, 01 khóa niêm phong bằng nhựa, 01 loa phun CO2 bằng nhựa kỹ thuật chịu lạnh; nhập khẩu để lắp ráp, nạp khí CO2 3 kg và dán tem nhãn thành bình chữa cháy CO2 hoàn chỉnh công suất 34B, C), phân loại vào nhóm 84.24, phân nhóm 8424.10, mã số 8424.10.90; có hiệu lực kể từ ngày ban hành",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-22",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Xác định trước mã số mặt hàng Bộ linh kiện đồng bộ dùng để sản xuất bình chữa cháy khí CO2 MT3 (3 kg) ở dạng chưa lắp ráp, tháo rời (ký hiệu CKD-MT3; gồm vỏ bình thép chịu áp lực 4,5 lít gắn cụm van và ống siphon, chốt cài an toàn, khóa niêm phong, loa phun CO2) thuộc nhóm 84.24, phân nhóm 8424.10, mã số 8424.10.90.",
+      "toan_van": "raw/download/files.customs.gov.vn/18154-tb-chq-2026.pdf",
+      "slug": "18154-tb-chq-2026",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "18180/TB-CHQ/2026",
+      "so_hieu_khac": [
+        "18180/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-22",
+      "ten": "Thông báo về kết quả xác định trước mã số (Cảm biến tiệm cận / Cảm biến từ Proximity Sensor, mã số 8536.50.51)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2026-06-29",
+      "hieu_luc_tu": "2026-06-29",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=104983&cid=1294",
+          "truy_cap": "2026-11-22"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/7/2/1.VB_18180.pdf",
+          "truy_cap": "2026-11-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/7/2/1.VB_18180.pdf, id=104983, SHA-256 395fc33e8e824411490abeab8061478659301d9bd55fe4e90b1d49e246c55b1c): Thông báo số 18180/TB-CHQ ngày 29-06-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Cảm biến tiệm cận (Cảm biến từ / Proximity Sensor, ký mã hiệu E2E-X2D1-N 2M; cấu tạo gồm thân vỏ và bề mặt cảm biến bằng nhựa Polyarylate, bộ phận phát cuộn dây đồng tạo từ trường biến thiên, bảng mạch, cáp liền vỏ bọc PVC dài 2 m; hình trụ thân ren M8 đường kính 8 mm, khoảng cách phát hiện 2 mm, nguồn cấp 12-24 VDC, dùng phát hiện vật thể bằng kim loại trong khoảng cách gần theo nguyên lý cảm ứng điện từ, là thiết bị đóng ngắt mạch điện sử dụng linh kiện bán dẫn transistor), phân loại vào nhóm 85.36, phân nhóm 8536.50, mã số 8536.50.51; có hiệu lực từ ngày ký",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-22",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Xác định trước mã số mặt hàng Cảm biến tiệm cận (Cảm biến từ / Proximity Sensor, ký hiệu E2E-X2D1-N 2M; thân vỏ nhựa Polyarylate ren M8, cuộn dây đồng, bảng mạch, cáp liền dài 2 m, nguồn 12-24 VDC, thiết bị đóng ngắt mạch điện sử dụng linh kiện bán dẫn transistor) thuộc nhóm 85.36, phân nhóm 8536.50, mã số 8536.50.51.",
+      "toan_van": "raw/download/files.customs.gov.vn/18180-tb-chq-2026.pdf",
+      "slug": "18180-tb-chq-2026",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "18181/TB-CHQ/2026",
+      "so_hieu_khac": [
+        "18181/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-22",
+      "ten": "Thông báo về kết quả xác định trước mã số (Cảm biến quang siêu nhỏ hình chữ U phát hiện vật cản bằng tia hồng ngoại, mã số 8536.50.51)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2026-06-29",
+      "hieu_luc_tu": "2026-06-29",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=104990&cid=1294",
+          "truy_cap": "2026-11-22"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/7/2/8.VB_18181.pdf",
+          "truy_cap": "2026-11-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/7/2/8.VB_18181.pdf, id=104990, SHA-256 833a001ce80d4c8c39a04f4e6d78adf4a8a79e28eaabf97ece179baebab34a74): Thông báo số 18181/TB-CHQ ngày 29-06-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Cảm biến quang siêu nhỏ hình chữ U (slot type photoelectric sensor, ký mã hiệu PM-U25-C3; cấu tạo gồm LED hồng ngoại IR emitter, phototransistor, vỏ nhựa kỹ thuật, bảng mạch, dây kết nối dài 3 m; khe 6 mm, nguồn 5-24 VDC, dòng ~20 mA, ngõ ra NPN open collector, sử dụng phát hiện vật cản bằng tia hồng ngoại, là thiết bị đóng ngắt mạch điện sử dụng linh kiện bán dẫn transistor), phân loại vào nhóm 85.36, phân nhóm 8536.50, mã số 8536.50.51; có hiệu lực từ ngày ký",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-22",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Xác định trước mã số mặt hàng Cảm biến quang siêu nhỏ hình chữ U (slot type photoelectric sensor, ký hiệu PM-U25-C3; cấu tạo gồm LED hồng ngoại, phototransistor, vỏ nhựa kỹ thuật, bảng mạch, dây kết nối dài 3 m, nguồn 5-24 VDC, thiết bị đóng ngắt mạch điện sử dụng linh kiện bán dẫn transistor) thuộc nhóm 85.36, phân nhóm 8536.50, mã số 8536.50.51.",
+      "toan_van": "raw/download/files.customs.gov.vn/18181-tb-chq-2026.pdf",
+      "slug": "18181-tb-chq-2026",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "182/2012/TT-BTC",
       "loai": "THONG_TU",
       "ten": "Sửa đổi, bổ sung điểm 1 Mục I hướng dẫn khai báo trị giá tính thuế trên tờ khai trị giá ban hành kèm theo Quyết định số 30/2008/QĐ-BTC ngày 21 tháng 5 năm 2008 của Bộ trưởng Bộ Tài chính",
@@ -33320,6 +33704,46 @@
       "toan_van": "chua_co",
       "slug": "1856-tb-tchq-2020",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "18590/TB-CHQ/2026",
+      "so_hieu_khac": [
+        "18590/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-22",
+      "ten": "Thông báo về kết quả xác định trước mã số (Cụm cản sau ô tô / Ba đờ xốc BUMPER ASSY-RR, mã số 8708.10.90)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2026-07-07",
+      "hieu_luc_tu": "2026-07-07",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=105087&cid=1294",
+          "truy_cap": "2026-11-22"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/7/13/2.VB_18590.pdf",
+          "truy_cap": "2026-11-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/7/13/2.VB_18590.pdf, id=105087, SHA-256 916339375ef93c95de3418fee1067616cb8cfff9acf415477657aadf5cd2f510): Thông báo số 18590/TB-CHQ ngày 07-07-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Cụm cản sau (Ba đờ xốc / BUMPER ASSY-RR, ký mã hiệu 86611-K6410TC; là 01 cụm lắp ráp thống nhất từ nhiều linh kiện ô tô gồm bumper sau bằng nhựa, xương bumper, giá đỡ bumper sau, ốp bumper sau phía dưới, giá bắt cảm biến, nẹp trang trí bumper, dây điện bumper sau, đèn lùi trên bumper, đèn phản quang trên bumper, ăng ten chìa khóa thông minh, cảm biến hỗ trợ lùi; kích thước tổng thể 1620 mm x 430 mm x 600 mm), phân loại vào nhóm 87.08, phân nhóm 8708.10, mã số 8708.10.90; có hiệu lực kể từ ngày ban hành",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-22",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Xác định trước mã số mặt hàng Cụm cản sau ô tô (Ba đờ xốc / BUMPER ASSY-RR, ký hiệu 86611-K6410TC; cụm lắp ráp gồm bumper sau bằng nhựa, xương bumper, giá đỡ, ốp dưới, giá bắt cảm biến, nẹp trang trí, dây điện, đèn lùi, đèn phản quang, ăng ten chìa khóa thông minh, cảm biến hỗ trợ lùi) thuộc nhóm 87.08, phân nhóm 8708.10, mã số 8708.10.90.",
+      "toan_van": "raw/download/files.customs.gov.vn/18590-tb-chq-2026.pdf",
+      "slug": "18590-tb-chq-2026",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
