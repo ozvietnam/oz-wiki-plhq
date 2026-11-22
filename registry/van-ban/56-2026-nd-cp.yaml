@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — crawl từ vanban.chinhphu.vn (sheet HT biểu thuế)
 so_hieu: 56/2026/NĐ-CP
 loai: NGHI_DINH
-ten: Biểu thuế NK ưu đãi VN-Cam
+ten: Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Bản Thỏa thuận thúc đẩy thương mại song phương giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ Vương quốc Campuchia giai đoạn 2025 - 2026
 co_quan: CP
 ngay_ban_hanh: '2026-02-12'
 hieu_luc_tu: '2026-02-12'
@@ -10,14 +10,45 @@ nhanh:
   - thue/bieu-thue
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'thẻ vanban.chinhphu.vn (docid=216953) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/56-2026-nd-cp.pdf, 7 Điều + Phụ lục I, II, III, người ký Phó Thủ tướng Hồ Đức Phớc): Nghị định 56/2026/NĐ-CP của Chính phủ về Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Bản Thỏa thuận thúc đẩy thương mại song phương giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ Vương quốc Campuchia giai đoạn 2025 - 2026, ban hành ngày 12-02-2026, có hiệu lực thi hành từ ngày ký ban hành 12-02-2026 cho đến hết ngày 31-12-2026 theo khoản 1 Điều 6 (khoản 2 Điều 6 quy định xử lý tiền thuế nộp thừa đối với các tờ khai hải quan đăng ký từ ngày 28-04-2025 đến trước ngày Nghị định có hiệu lực thi hành); đối chiếu đang còn hiệu lực (không có văn bản sửa đổi, thay thế hoặc bãi bỏ trong sổ)'
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=216953), toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/56-2026-nd-cp.pdf, 10 trang, 7 Điều + Phụ lục I, II, III, người ký Phó Thủ tướng Hồ Đức Phớc, SHA-256 0e15d99c990e81aa5ab3fa4af3f7c874a7ff7b94c4f100ea3d8945ccf52eaabb) và trang wiki/sources/56-2026-nd-cp.md: Nghị định 56/2026/NĐ-CP của Chính phủ về Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Bản Thỏa thuận thúc đẩy thương mại song phương giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ Vương quốc Campuchia giai đoạn 2025 - 2026, ban hành ngày 12-02-2026, có hiệu lực thi hành từ ngày ký ban hành 12-02-2026 cho đến hết ngày 31-12-2026 theo khoản 1 Điều 6 (khoản 2 Điều 6 quy định xử lý tiền thuế nộp thừa đối với các tờ khai hải quan đăng ký từ ngày 28-04-2025 đến trước ngày Nghị định có hiệu lực thi hành); đối chiếu đang còn hiệu lực (không có văn bản sửa đổi, thay thế hoặc bãi bỏ trong sổ)'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-22'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Nghị định này quy định thuế suất thuế nhập khẩu ưu đãi đặc biệt và điều kiện hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Bản Thỏa thuận thúc đẩy thương mại song phương giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ Vương quốc Campuchia giai đoạn 2025 - 2026 (sau đây viết tắt là Bản Thỏa thuận Việt Nam - Campuchia giai đoạn 2025 - 2026).'
+    - dieu: 2
+      noi_dung: '1. Người nộp thuế theo quy định của Luật Thuế xuất khẩu, thuế nhập khẩu. 2. Cơ quan hải quan, công chức hải quan. 3. Tổ chức, cá nhân có quyền và nghĩa vụ liên quan đến hàng hóa nhập khẩu có xuất xứ từ Vương quốc Campuchia.'
+    - dieu: 3
+      noi_dung: 'Ban hành kèm theo Nghị định này: 1. Phụ lục I - Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Bản Thỏa thuận Việt Nam - Campuchia giai đoạn 2025 - 2026. 2. Phụ lục II - Danh mục hàng hóa nhập khẩu theo hạn ngạch thuế quan của Việt Nam để thực hiện Bản Thỏa thuận Việt Nam - Campuchia giai đoạn 2025 - 2026. 3. Phụ lục III - Danh mục các cặp cửa khẩu được phép thông quan các mặt hàng hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Bản Thỏa thuận Việt Nam - Campuchia giai đoạn 2025 - 2026.'
+    - dieu: 4
+      noi_dung: 'Hàng hóa nhập khẩu được áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Bản Thỏa thuận Việt Nam - Campuchia giai đoạn 2025 - 2026 phải đáp ứng đủ các điều kiện sau: 1. Thuộc Biểu thuế nhập khẩu ưu đãi đặc biệt để thực hiện Bản Thỏa thuận Việt Nam - Campuchia giai đoạn 2025 - 2026 tại Phụ lục I ban hành kèm theo Nghị định này. 2. Có Giấy chứng nhận xuất xứ hàng hóa mẫu S (C/O form S) do cơ quan có thẩm quyền của Vương quốc Campuchia cấp. 3. Thông quan qua các cặp cửa khẩu quy định tại Phụ lục III ban hành kèm theo Nghị định này.'
+    - dieu: 5
+      khoan: 1
+      noi_dung: '1. Mặt hàng lúa gạo và lá thuốc lá khô nêu tại Phụ lục I ban hành kèm theo Nghị định này, nếu đáp ứng các điều kiện quy định tại Điều 4 Nghị định này và quy định của Bộ Công Thương về việc nhập khẩu theo hạn ngạch thuế quan theo Bản Thỏa thuận Việt Nam - Campuchia giai đoạn 2025 - 2026 thì được hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt nêu tại Phụ lục I, theo số lượng hạn ngạch nhập khẩu quy định tại Phụ lục II ban hành kèm theo Nghị định này.'
+    - dieu: 5
+      khoan: 2
+      noi_dung: '2. Đối với mặt hàng lúa gạo: Trường hợp mặt hàng lúa gạo nhập khẩu ngoài số lượng hạn ngạch quy định tại Phụ lục II ban hành kèm theo Nghị định này (gọi tắt là nhập khẩu vượt hạn ngạch) thì số lượng nhập khẩu vượt hạn ngạch được áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt của các Hiệp định thương mại tự do mà Việt Nam và Campuchia cùng là thành viên nếu đáp ứng đủ các điều kiện quy định tại các Nghị định Biểu thuế nhập khẩu ưu đãi đặc biệt tương ứng; hoặc được áp dụng thuế suất thuế nhập khẩu ưu đãi quy định tại các văn bản quy phạm pháp luật của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan và các văn bản sửa đổi, bổ sung (nếu có).'
+    - dieu: 5
+      khoan: 3
+      noi_dung: '3. Đối với mặt hàng lá thuốc lá khô: a) Trường hợp lượng lá thuốc lá khô nhập khẩu vượt số lượng hạn ngạch quy định tại Phụ lục II ban hành kèm theo Nghị định này nhưng vẫn nằm trong tổng mức hạn ngạch theo WTO và bảo đảm các điều kiện quy định trong các văn bản quy phạm pháp luật của Việt Nam về hạn ngạch thuế quan thì số lượng vượt hạn ngạch này được áp dụng mức thuế suất thuế nhập khẩu ưu đãi quy định tại các văn bản quy phạm pháp luật của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan và các văn bản sửa đổi, bổ sung (nếu có). b) Trường hợp lượng lá thuốc lá khô nhập khẩu vượt số lượng hạn ngạch quy định tại Phụ lục II ban hành kèm theo Nghị định này và nằm ngoài tổng mức hạn ngạch theo WTO thì áp dụng mức thuế suất thuế nhập khẩu ngoài hạn ngạch đối với mặt hàng lá thuốc lá khô theo quy định tại các văn bản quy phạm pháp luật của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan và các văn bản sửa đổi, bổ sung (nếu có).'
+    - dieu: 5
+      khoan: 4
+      noi_dung: '4. Số lượng mặt hàng lúa gạo và lá thuốc lá khô được nhập khẩu thuộc các trường hợp quy định tại điểm a và điểm b khoản này, không tính vào số lượng hạn ngạch của mặt hàng tương ứng quy định tại Phụ lục II ban hành kèm theo Nghị định này: a) Các mặt hàng lúa gạo do phía Việt Nam đầu tư, trồng tại Campuchia nhập khẩu về Việt Nam áp dụng theo quy định hiện hành của pháp luật. b) Các mặt hàng lúa gạo và lá thuốc lá khô có xuất xứ từ Campuchia do các doanh nghiệp Việt Nam nhập khẩu về Việt Nam để tái xuất đi các thị trường khác thực hiện theo cơ chế tạm nhập tái xuất của Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và các Hiệp định khu vực, quốc tế mà hai bên tham gia ký kết.'
+    - dieu: 6
+      khoan: 1
+      noi_dung: '1. Nghị định này có hiệu lực thi hành từ ngày ký ban hành cho đến hết ngày 31 tháng 12 năm 2026.'
+    - dieu: 6
+      khoan: 2
+      noi_dung: '2. Đối với các tờ khai hải quan của các mặt hàng nêu tại Phụ lục I ban hành kèm theo Nghị định này đăng ký từ ngày 28 tháng 4 năm 2025 đến trước ngày Nghị định này có hiệu lực thi hành, nếu đáp ứng đủ điều kiện được hưởng mức thuế suất thuế nhập khẩu ưu đãi đặc biệt quy định tại Nghị định này và đã nộp thuế theo mức thuế suất cao hơn thì được cơ quan hải quan xử lý tiền thuế nộp thừa theo quy định của pháp luật về quản lý thuế.'
+    - dieu: 7
+      noi_dung: 'Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân liên quan chịu trách nhiệm thi hành Nghị định này.'
 ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=216953&pageid=27160
     truy_cap: '2026-10-10'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/02/56-nd.signed.pdf
     truy_cap: '2026-10-10'
-toan_van: raw/download/datafiles.chinhphu.vn/56-2026-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/56-2026-nd-cp.pdf
+  - wiki/sources/56-2026-nd-cp.md
