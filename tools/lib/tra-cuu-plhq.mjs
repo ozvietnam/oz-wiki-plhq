@@ -84,7 +84,7 @@ const GENERIC_CUSTOMS_TOKENS = new Set([
   'i', 'ii', 'iii', 'iv', 'v', 'vi',
 ]);
 
-// Từ điển viết tắt PLHQ dùng để mở rộng truy vấn hỏi đáp (vẫn giữ token gốc để ưu tiên khớp chính xác).
+// Từ điển viết tắt và đồng nghĩa nghiệp vụ PLHQ phổ quát dùng để mở rộng truy vấn hỏi đáp (giữ token gốc để ưu tiên khớp chính xác).
 export const VIET_TAT_PLHQ = new Map([
   ['c/o', ['chung nhan xuat xu', 'xuat xu']],
   ['form e', ['acfta', 'form-e']],
@@ -102,16 +102,22 @@ export const VIET_TAT_PLHQ = new Map([
   ['ktcl', ['kiem tra chat luong', 'kiem tra chuyen nganh']],
   ['vphc', ['vi pham hanh chinh', 'xu phat']],
   ['tntx', ['tam nhap tai xuat']],
+  ['tam nhap tai xuat', ['tntx']],
   ['gtgt', ['gia tri gia tang', 'vat']],
   ['vat', ['gia tri gia tang', 'gtgt']],
   ['dncx', ['doanh nghiep che xuat']],
-  ['sxxk', ['san xuat xuat khau', 'san xuat hang xuat khau']],
+  ['doanh nghiep che xuat', ['dncx']],
+  ['sxxk', ['san xuat xuat khau', 'san xuat hang hoa xuat khau', 'san xuat hang xuat khau']],
+  ['san xuat hang hoa xuat khau', ['sxxk', 'san xuat xuat khau']],
+  ['san xuat hang xuat khau', ['sxxk', 'san xuat xuat khau']],
+  ['san xuat xuat khau', ['sxxk', 'san xuat hang hoa xuat khau']],
   ['cbpg', ['chong ban pha gia']],
   ['pvtm', ['phong ve thuong mai']],
   ['evfta', ['hiep dinh thuong mai tu do viet nam eu']],
   ['cptpp', ['doi tac toan dien va tien bo xuyen thai binh duong']],
   ['rcep', ['doi tac kinh te toan dien khu vuc']],
   ['ktstq', ['kiem tra sau thong quan']],
+  ['kiem tra sau thong quan', ['ktstq']],
   ['shtt', ['so huu tri tue']],
   ['tbyt', ['thiet bi y te', 'trang thiet bi y te']],
   ['kddv', ['kiem dich dong vat']],
@@ -128,6 +134,8 @@ export const VIET_TAT_PLHQ = new Map([
   ['xk', ['xuat khau']],
   ['nk', ['nhap khau']],
   ['xnk', ['xuat nhap khau']],
+  ['o to', ['xe co gioi', 'phuong tien giao thong']],
+  ['cua khau nhap', ['cua khau']],
 ]);
 
 const RE_SO_HIEU_BO_SUNG =
@@ -144,14 +152,52 @@ function chuanHoaVanBan(s) {
     .trim();
 }
 
+const RE_NAM_4_SO = /^(?:19|20)\d{2}$/;
+
+function taoBienTheNgay(dayNum, monthNum, yearNum) {
+  if (!Number.isInteger(dayNum) || !Number.isInteger(monthNum) || !Number.isInteger(yearNum)) return null;
+  if (dayNum < 1 || dayNum > 31 || monthNum < 1 || monthNum > 12 || yearNum < 1900 || yearNum > 2099) return null;
+  const d = String(dayNum);
+  const dd = d.padStart(2, '0');
+  const m = String(monthNum);
+  const mm = m.padStart(2, '0');
+  const yyyy = String(yearNum);
+  const key = `${yyyy}-${mm}-${dd}`;
+  const variants = [...new Set([
+    `${d}/${m}/${yyyy}`,
+    `${dd}/${m}/${yyyy}`,
+    `${d}/${mm}/${yyyy}`,
+    `${dd}/${mm}/${yyyy}`,
+    `${yyyy}-${mm}-${dd}`,
+    `${dd}-${mm}-${yyyy}`,
+    `${d}-${m}-${yyyy}`,
+  ])];
+  const regex = new RegExp(`(?<!\\d)(?:${variants.map((v) => v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})(?!\\d)`);
+  return { key, year: yyyy, variants, regex };
+}
+
+function tachNgayChuanHoa(norm) {
+  const byKey = new Map();
+  let normKhongNgay = norm;
+  const reNgay = /\b(\d{1,2})\/(\d{1,2})\/((?:19|20)\d{2})\b|\b((?:19|20)\d{2})-(\d{1,2})-(\d{1,2})\b/g;
+  normKhongNgay = norm.replace(reNgay, (full, d1, m1, y1, y2, m2, d2) => {
+    const dayNum = Number(d1 ?? d2);
+    const monthNum = Number(m1 ?? m2);
+    const yearNum = Number(y1 ?? y2);
+    const group = taoBienTheNgay(dayNum, monthNum, yearNum);
+    if (!group) return full;
+    if (!byKey.has(group.key)) byKey.set(group.key, group);
+    return ' ';
+  });
+  return { exactDateGroups: [...byKey.values()], normKhongNgay };
+}
+
 function moRongVietTat(normText) {
   const expandedPhrases = [];
   const seenPhrase = new Set();
   for (const [abbr, targets] of VIET_TAT_PLHQ.entries()) {
     const escaped = abbr.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const re = abbr.includes('/') || abbr.includes('.')
-      ? new RegExp(`(?<![a-z0-9])${escaped}(?![a-z0-9])`, 'i')
-      : new RegExp(`\\b${escaped}\\b`, 'i');
+    const re = new RegExp(`(?<![a-z0-9])${escaped}(?![a-z0-9])`, 'i');
     if (re.test(normText)) {
       if (abbr === 'c/o') {
         if (!seenPhrase.has('c/o')) {
@@ -172,6 +218,14 @@ function moRongVietTat(normText) {
       }
     }
   }
+  const expandedPhraseMatchers = expandedPhrases.map((ph) => {
+    const phVariants = ph === 'c/o' ? ['c/o'] : [ph, ph.replace(/\s+/g, '-')];
+    return new RegExp(
+      phVariants
+        .map((v) => `(?<![a-z0-9])${v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![a-z0-9])`)
+        .join('|'),
+    );
+  });
   const expandedTokens = [];
   const seenTok = new Set();
   for (const ph of expandedPhrases) {
@@ -182,7 +236,7 @@ function moRongVietTat(normText) {
       }
     }
   }
-  return { expandedPhrases, expandedTokens };
+  return { expandedPhrases, expandedPhraseMatchers, expandedTokens };
 }
 
 function tachTuKhoa(s) {
@@ -197,9 +251,13 @@ function tachTuKhoa(s) {
       coreTokens: [],
       specificTokens: [],
       accentedCoreTokens: [],
+      accentedSpecificTokens: [],
       expandedPhrases: [],
+      expandedPhraseMatchers: [],
       expandedTokens: [],
       exactNumericTags: [],
+      exactDateGroups: [],
+      standaloneYears: new Set(),
     };
   }
   const nfcLower = nfc.toLowerCase();
@@ -208,11 +266,16 @@ function tachTuKhoa(s) {
   const allTokens = [...new Set(norm.split(/[^a-z0-9]+/).filter((t) => t.length >= 2 || /^\d+$/.test(t)))];
   const filtered = allTokens.filter((t) => !STOP_WORDS_ASCII.has(t));
   const coreTokens = filtered.length ? filtered : allTokens;
-  const { expandedPhrases, expandedTokens } = moRongVietTat(norm);
+  const { expandedPhrases, expandedPhraseMatchers, expandedTokens } = moRongVietTat(norm);
+  // Loại năm 4 chữ số thuần túy khỏi specificTokens/accentedSpecificTokens để năm hiện tại (vd 2026) không lấn át chủ đề.
   const specificTokens = coreTokens.filter(
-    (t) => !GENERIC_CUSTOMS_TOKENS.has(t) && !/^\d{1,2}$/.test(t),
+    (t) => !GENERIC_CUSTOMS_TOKENS.has(t) && !/^\d{1,2}$/.test(t) && !RE_NAM_4_SO.test(t),
   );
-  const exactNumericTags = [...new Set((norm.match(/\b\d+\s*%|\b\d{1,2}\/\d{1,2}\/\d{4}\b|\b\d{4}\b/g) || []).map((x) => x.replace(/\s+/g, '')))];
+  const { exactDateGroups, normKhongNgay } = tachNgayChuanHoa(norm);
+  const exactNumericTags = [
+    ...new Set((normKhongNgay.match(/\b\d+\s*%|\b\d{4}\b/g) || []).map((x) => x.replace(/\s+/g, ''))),
+  ];
+  const standaloneYears = new Set(norm.match(/(?<![/\d])(?:19|20)\d{2}(?![/\d])/g) || []);
   const coreSet = new Set(coreTokens);
   const specSet = new Set(specificTokens);
   const accentedCoreTokens = [
@@ -236,8 +299,11 @@ function tachTuKhoa(s) {
     rawSeq,
     normSeq,
     expandedPhrases,
+    expandedPhraseMatchers,
     expandedTokens,
     exactNumericTags,
+    exactDateGroups,
+    standaloneYears,
   };
 }
 
@@ -1240,20 +1306,41 @@ function chamDiemKhoi({ tieuDe, muc, noiDung, tags, refs, soHieuHits, preferredA
     }
   }
 
-  // Khớp cụm mở rộng viết tắt (vd: c/o -> chung nhan xuat xu, form e -> acfta / form-e)
+  // Khớp cụm mở rộng viết tắt (dùng ranh giới từ để tránh khớp nhầm chuỗi con, vd "so to khai" chứa "o to").
   let expandedPhraseHits = 0;
   let expandedTitleHits = 0;
-  for (const ph of qInfo.expandedPhrases || []) {
-    const phVariants = ph === 'c/o' ? ['c/o'] : [ph, ph.replace(/\s+/g, '-')];
-    const hitTitle = phVariants.some((v) => titleNorm.includes(v));
-    const hitFull = hitTitle || phVariants.some((v) => fullNorm.includes(v));
-    if (hitTitle) expandedTitleHits += 1;
-    if (hitFull) expandedPhraseHits += 1;
+  const matchers = qInfo.expandedPhraseMatchers || [];
+  if (matchers.length) {
+    for (const re of matchers) {
+      const hitTitle = re.test(titleNorm);
+      const hitFull = hitTitle || re.test(fullNorm);
+      if (hitTitle) expandedTitleHits += 1;
+      if (hitFull) expandedPhraseHits += 1;
+    }
+  } else {
+    for (const ph of qInfo.expandedPhrases || []) {
+      const phVariants = ph === 'c/o' ? ['c/o'] : [ph, ph.replace(/\s+/g, '-')];
+      const hitTitle = phVariants.some((v) => titleNorm.includes(v));
+      const hitFull = hitTitle || phVariants.some((v) => fullNorm.includes(v));
+      if (hitTitle) expandedTitleHits += 1;
+      if (hitFull) expandedPhraseHits += 1;
+    }
   }
 
   let exactNumHits = 0;
   for (const nt of qInfo.exactNumericTags || []) {
     if (fullNorm.replace(/\s+/g, '').includes(nt)) exactNumHits += 1;
+  }
+
+  let exactDateHits = 0;
+  let exactDateTitleHits = 0;
+  for (const dg of qInfo.exactDateGroups || []) {
+    if (dg.regex.test(titleNorm)) {
+      exactDateHits += 1;
+      exactDateTitleHits += 1;
+    } else if (dg.regex.test(fullNorm)) {
+      exactDateHits += 1;
+    }
   }
 
   let accentedMatched = 0;
@@ -1321,13 +1408,13 @@ function chamDiemKhoi({ tieuDe, muc, noiDung, tags, refs, soHieuHits, preferredA
     }
   }
 
-  if (matched === 0 && refHits === 0 && expandedPhraseHits === 0) return 0;
+  if (matched === 0 && refHits === 0 && expandedPhraseHits === 0 && exactDateHits === 0) return 0;
 
   if (loaiTrang === 'NGUYEN_VAN_NGUON_A') {
     if (refHits === 0) {
       const hasStrongDomainMatch =
         specMatched >= 2 ||
-        (specTokens.length <= 1 && specMatched === specTokens.length && (matched >= 2 || expandedPhraseHits >= 1 || exactNumHits >= 1)) ||
+        (specTokens.length <= 1 && specMatched === specTokens.length && (matched >= 2 || expandedPhraseHits >= 1 || exactNumHits >= 1 || exactDateHits >= 1)) ||
         specBigramHits >= 1 ||
         expandedPhraseHits >= 1;
       if (!hasStrongDomainMatch) return 0;
@@ -1387,6 +1474,7 @@ function chamDiemKhoi({ tieuDe, muc, noiDung, tags, refs, soHieuHits, preferredA
   score += Math.min(accentedSpecBigramHits, 5) * 18 + Math.min(accentedSpecBigramTitleHits, 3) * 16;
   score += Math.min(expandedPhraseHits, 4) * 18 + Math.min(expandedTitleHits, 4) * 16;
   score += exactNumHits * 10;
+  score += exactDateHits * 30 + exactDateTitleHits * 12;
   score += refHits * 60;
   score += preferredRefHits * 28;
 
@@ -1406,7 +1494,51 @@ function chamDiemKhoi({ tieuDe, muc, noiDung, tags, refs, soHieuHits, preferredA
   return Math.max(0, score);
 }
 
-function timTrongRegistry(store, qInfo, soHieuHits, { nhanh, limit = 5 } = {}) {
+function canHaUuTienChuaCoHieuLuc(tinhTrang, hieuLucTu, soHieuKhoa, pinnedSet, qInfo, storeYear) {
+  if (tinhTrang !== 'CHUA_CO_HIEU_LUC') return false;
+  if (soHieuKhoa && pinnedSet.has(soHieuKhoa)) return false;
+  const effStr = String(hieuLucTu || '').trim();
+  const m = effStr.match(/^(\d{4})(?:-(\d{2})-(\d{2}))?/);
+  if (!m) return true;
+  const effYear = m[1];
+  if (qInfo?.standaloneYears?.has(effYear)) return false;
+  if (
+    (qInfo?.exactDateGroups || []).some((g) => {
+      if (g.year !== effYear) return false;
+      if (storeYear && Number(effYear) > Number(storeYear)) return true;
+      return m[2] ? g.key >= effStr.slice(0, 10) : true;
+    })
+  ) {
+    return false;
+  }
+  return true;
+}
+
+function haDiemChuaCoHieuLuc(score) {
+  return score > 0 ? Math.max(1, Math.round(score * 0.6) - 30) : 0;
+}
+
+function canHaUuTienTrangWiki(ownDoc, refs, store, pinnedSet, qInfo, storeYear) {
+  if (ownDoc) {
+    return canHaUuTienChuaCoHieuLuc(
+      ownDoc.tinh_trang,
+      ownDoc.hieu_luc_tu,
+      khoa(ownDoc.so_hieu),
+      pinnedSet,
+      qInfo,
+      storeYear,
+    );
+  }
+  const resolved = (refs || [])
+    .map((r) => chonBanGhi(store.byKhoa.get(khoa(r.so_hieu)), khoa(r.so_hieu)))
+    .filter(Boolean);
+  if (!resolved.length) return false;
+  return resolved.every((d) =>
+    canHaUuTienChuaCoHieuLuc(d.tinh_trang, d.hieu_luc_tu, khoa(d.so_hieu), pinnedSet, qInfo, storeYear),
+  );
+}
+
+function timTrongRegistry(store, qInfo, soHieuHits, { nhanh, limit = 5, storeYear = null } = {}) {
   const results = [];
   const pinSet = new Set(soHieuHits);
   for (const doc of store.registry?.van_ban || []) {
@@ -1428,6 +1560,9 @@ function timTrongRegistry(store, qInfo, soHieuHits, { nhanh, limit = 5 } = {}) {
       },
       qInfo,
     );
+    if (canHaUuTienChuaCoHieuLuc(doc.tinh_trang, doc.hieu_luc_tu, k, pinSet, qInfo, storeYear)) {
+      score = haDiemChuaCoHieuLuc(score);
+    }
     if (isPinned) score = Math.max(score, 120);
     if (score === 0) continue;
     if (!isPinned && score < 55) continue;
@@ -1495,19 +1630,25 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
     };
   }
 
+  const storeYear = String(store.phien_ban || homNay()).slice(0, 4);
+
   // Helper gán ref sở hữu của chính trang wiki (ví dụ sources/107-2016-qh13.md -> 107/2016/QH13)
+  const ownDocForSlug = (slug) =>
+    store.bySlug.get(slug) || store.bySlug.get(String(slug || '').replace(/^sources\//, '')) || null;
   const ownSoHieuForSlug = (slug) => {
-    const doc = store.bySlug.get(slug) || store.bySlug.get(slug.replace(/^sources\//, ''));
+    const doc = ownDocForSlug(slug);
     return doc?.so_hieu ? [{ so_hieu: doc.so_hieu }] : [];
   };
 
   // 1. Tìm trên wiki-index (trang)
   const pageMatches = [];
   for (const trang of store.wikiIndex?.trang || []) {
-    const ownRefs = ownSoHieuForSlug(trang.slug);
+    const ownDoc = ownDocForSlug(trang.slug);
+    const ownRefs = ownDoc?.so_hieu ? [{ so_hieu: ownDoc.so_hieu }] : [];
     const mergedPageRefs = [...(trang.van_ban_lien_quan || []), ...ownRefs];
     if (!khopNhanh(nhanh, mergedPageRefs, trang.tags, store)) continue;
-    const score = chamDiemKhoi(
+    const ownHetUnpinned = Boolean(ownDoc?.tinh_trang === 'HET_HIEU_LUC' && !pinnedSet.has(khoa(ownDoc.so_hieu)));
+    let score = chamDiemKhoi(
       {
         tieuDe: trang.tieu_de,
         muc: trang.slug,
@@ -1515,13 +1656,16 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
         tags: trang.tags,
         refs: mergedPageRefs,
         soHieuHits,
-        canhBaoHieuLuc: trang.canh_bao_hieu_luc,
+        canhBaoHieuLuc: Boolean(trang.canh_bao_hieu_luc) || ownHetUnpinned,
         loaiTrang: trang.loai_trang,
         confidence: trang.confidence,
         laStub: (trang.tags || []).includes('stub'),
       },
       qInfo,
     );
+    if (score > 0 && canHaUuTienTrangWiki(ownDoc, mergedPageRefs, store, pinnedSet, qInfo, storeYear)) {
+      score = haDiemChuaCoHieuLuc(score);
+    }
     if (score > 0) {
       pageMatches.push({ trang, score });
     }
@@ -1533,7 +1677,8 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
   const chunkCandidates = [];
   for (const chunk of store.wikiChunks?.chunks || []) {
     const parent = store.wikiTrangBySlug.get(chunk.slug);
-    const ownRefs = ownSoHieuForSlug(chunk.slug);
+    const ownDoc = ownDocForSlug(chunk.slug);
+    const ownRefs = ownDoc?.so_hieu ? [{ so_hieu: ownDoc.so_hieu }] : [];
     const effectiveRefs = [
       ...(Array.isArray(chunk.van_ban_lien_quan) && chunk.van_ban_lien_quan.length
         ? chunk.van_ban_lien_quan
@@ -1542,6 +1687,7 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
     ];
     if (!khopNhanh(nhanh, effectiveRefs, chunk.tags, store)) continue;
 
+    const ownHetUnpinned = Boolean(ownDoc?.tinh_trang === 'HET_HIEU_LUC' && !pinnedSet.has(khoa(ownDoc.so_hieu)));
     let score = chamDiemKhoi(
       {
         tieuDe: chunk.tieu_de,
@@ -1550,7 +1696,7 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
         tags: chunk.tags,
         refs: effectiveRefs,
         soHieuHits,
-        canhBaoHieuLuc: chunk.canh_bao_hieu_luc,
+        canhBaoHieuLuc: Boolean(chunk.canh_bao_hieu_luc) || ownHetUnpinned,
         loaiTrang: chunk.loai_trang,
         confidence: chunk.confidence,
         laStub: (chunk.tags || []).includes('stub'),
@@ -1560,6 +1706,9 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
     if (score === 0) continue;
     const pageBonus = pageScoreMap.get(chunk.slug) ? Math.min(28, Math.round(pageScoreMap.get(chunk.slug) * 0.28)) : 0;
     score += pageBonus;
+    if (canHaUuTienTrangWiki(ownDoc, effectiveRefs, store, pinnedSet, qInfo, storeYear)) {
+      score = haDiemChuaCoHieuLuc(score);
+    }
 
     const refreshedRefs = lamMoiVanBanLienQuan(effectiveRefs, store, {
       pinnedSet,
@@ -1635,8 +1784,10 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
   }
 
   // Tập văn bản hiện hành ưu tiên từ top wiki + registry để dẫn hướng chọn điều khoản nguồn A chính xác
+  const wikiPoolAll = [...wikiSelected, ...wikiDuPhong];
   const wikiKetQua = topWikiChunks.slice(0, maxItems);
-  const registryHits = timTrongRegistry(store, qInfo, soHieuHits, { nhanh, limit: 6 });
+  const registryPoolLimit = Math.max(12, maxItems * 2);
+  const registryHits = timTrongRegistry(store, qInfo, soHieuHits, { nhanh, limit: registryPoolLimit, storeYear });
 
   const relevanceMap = new Map();
   const addRel = (soHieu, delta) => {
@@ -1648,26 +1799,39 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
   for (let i = 0; i < Math.min(5, wikiKetQua.length); i += 1) {
     const item = wikiKetQua[i];
     const weight = Math.max(10, 45 - i * 8);
-    const ownDoc = store.bySlug.get(item.slug);
+    const ownDoc = ownDocForSlug(item.slug);
     if (ownDoc?.so_hieu) addRel(ownDoc.so_hieu, weight + 15);
     for (const ref of item.van_ban_lien_quan || []) addRel(ref.so_hieu, weight);
   }
-  for (const rh of registryHits) addRel(rh.doc.so_hieu, Math.round(rh.score * 0.4));
+  const topRegistryHits = registryHits.slice(0, 6);
+  const extraRegistryHits = registryHits.slice(6);
+  for (const rh of topRegistryHits) addRel(rh.doc.so_hieu, Math.round(rh.score * 0.4));
+  for (const rh of extraRegistryHits) addRel(rh.doc.so_hieu, Math.round(rh.score * 0.15));
 
   const preferredActiveSet = new Set(soHieuHits);
-  for (const [k, relScore] of [...relevanceMap.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8)) {
+  for (const [k] of [...relevanceMap.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8)) {
     const doc = chonBanGhi(store.byKhoa.get(k), k);
-    if (doc && doc.tinh_trang !== 'HET_HIEU_LUC') preferredActiveSet.add(k);
+    if (
+      doc &&
+      doc.tinh_trang !== 'HET_HIEU_LUC' &&
+      !canHaUuTienChuaCoHieuLuc(doc.tinh_trang, doc.hieu_luc_tu, k, pinnedSet, qInfo, storeYear)
+    ) {
+      preferredActiveSet.add(k);
+    }
   }
 
   // 3. Tìm trên điều khoản NGUYEN_VAN_NGUON_A (đã lọc nhiễu)
   const dkCandidates = [];
   for (const vb of store.dieuKhoan?.nguyen_van_nguon_a || []) {
-    const docMeta = chonBanGhi(store.byKhoa.get(khoa(vb.so_hieu)), khoa(vb.so_hieu));
+    const kVb = khoa(vb.so_hieu);
+    const docMeta = chonBanGhi(store.byKhoa.get(kVb), kVb);
     if (nhanh && !khopNhanh(nhanh, [{ so_hieu: vb.so_hieu }], docMeta?.nhanh || [], store)) continue;
+    const vbTinhTrang = vb.tinh_trang || docMeta?.tinh_trang || null;
+    const vbHieuLuc = vb.hieu_luc_tu || docMeta?.hieu_luc_tu || null;
+    const haFuture = canHaUuTienChuaCoHieuLuc(vbTinhTrang, vbHieuLuc, kVb, pinnedSet, qInfo, storeYear);
     for (const dk of vb.dieu_khoan || []) {
       const firstLine = String(dk.noi_dung || '').split(/\r?\n/)[0].slice(0, 140);
-      const score = chamDiemKhoi(
+      let score = chamDiemKhoi(
         {
           tieuDe: `${vb.so_hieu} ${vb.ten || ''}`,
           muc: `Điều ${dk.dieu}${dk.khoan ? ` khoản ${dk.khoan}` : ''}${dk.diem ? ` điểm ${dk.diem}` : ''} ${firstLine}`,
@@ -1676,13 +1840,14 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
           refs: [{ so_hieu: vb.so_hieu }],
           soHieuHits,
           preferredActiveSet,
-          canhBaoHieuLuc: vb.tinh_trang === 'HET_HIEU_LUC',
+          canhBaoHieuLuc: vbTinhTrang === 'HET_HIEU_LUC',
           loaiTrang: 'NGUYEN_VAN_NGUON_A',
           confidence: 'high',
         },
         qInfo,
       );
       if (score === 0) continue;
+      if (haFuture) score = haDiemChuaCoHieuLuc(score);
       dkCandidates.push({
         diem_phu_hop: score,
         loai: 'dieu_khoan_nguon_a',
@@ -1733,9 +1898,12 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
       if (!kVb) continue;
       const docMeta = chonBanGhi(store.byKhoa.get(kVb), kVb);
       if (nhanh && !khopNhanh(nhanh, [{ so_hieu: vb.so_hieu }], docMeta?.nhanh || [], store)) continue;
+      const vbTinhTrang = vb.tinh_trang || docMeta?.tinh_trang || null;
+      const vbHieuLuc = vb.hieu_luc_tu || docMeta?.hieu_luc_tu || null;
+      const haFuture = canHaUuTienChuaCoHieuLuc(vbTinhTrang, vbHieuLuc, kVb, pinnedSet, qInfo, storeYear);
       for (const dk of vb.dieu_khoan || []) {
         const text = `${dk.dieu || ''} ${dk.ten || ''} ${dk.tom_tat || ''} ${(dk.nghia_vu_xnk || []).join(' ')}`;
-        const score = chamDiemKhoi(
+        let score = chamDiemKhoi(
           {
             tieuDe: `${vb.so_hieu || vb.slug} ${docMeta?.ten || ''}`,
             muc: `${dk.dieu || ''} ${dk.ten || ''}`,
@@ -1744,13 +1912,14 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
             refs: vb.so_hieu ? [{ so_hieu: vb.so_hieu }] : [],
             soHieuHits,
             preferredActiveSet,
-            canhBaoHieuLuc: vb.tinh_trang === 'HET_HIEU_LUC',
+            canhBaoHieuLuc: vbTinhTrang === 'HET_HIEU_LUC',
             loaiTrang: 'NGUYEN_VAN_NGUON_A',
             confidence: 'medium',
           },
           qInfo,
         );
         if (score === 0) continue;
+        if (haFuture) score = haDiemChuaCoHieuLuc(score);
         dkTomTatCandidates.push({
           diem_phu_hop: score,
           loai: 'dieu_khoan_tom_tat_nhap',
@@ -1773,22 +1942,106 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
   const topDieuKhoanNhap = dkTomTatCandidates.slice(0, Math.min(3, maxItems));
 
   // Gom văn bản liên quan: ghim số hiệu hỏi đích danh -> wiki chunks -> điều khoản nguồn A -> registry hits
+  const maxWikiScore = wikiKetQua[0]?.diem_phu_hop || 0;
+  const maxDkScore = topDieuKhoan[0]?.diem_phu_hop || 0;
   const rawRefs = [];
   for (const sk of soHieuHits) {
     const doc = chonBanGhi(store.byKhoa.get(sk), sk);
     if (doc) rawRefs.push({ so_hieu: doc.so_hieu, _meta: { khopTrucTiep: true, bonus: 300 } });
   }
   for (const item of wikiKetQua) {
-    const ownDoc = store.bySlug.get(item.slug);
+    const ownDoc = ownDocForSlug(item.slug);
     if (ownDoc?.so_hieu && !laTbTchq(ownDoc)) rawRefs.push({ so_hieu: ownDoc.so_hieu });
     if (Array.isArray(item.van_ban_lien_quan)) rawRefs.push(...item.van_ban_lien_quan);
+  }
+  // Bổ sung tham chiếu từ các chunk wiki đạt ngưỡng cao (tránh rơi VB khi limit=5 cắt bớt ket_qua)
+  const wikiExtraLimit = Math.max(maxItems, 12);
+  const wikiExtraMinScore = Math.max(90, Math.round(maxWikiScore * 0.6));
+  for (let i = wikiKetQua.length; i < Math.min(wikiPoolAll.length, wikiExtraLimit); i += 1) {
+    const item = wikiPoolAll[i];
+    if (item.diem_phu_hop < wikiExtraMinScore) break;
+    const ownDoc = ownDocForSlug(item.slug);
+    if (ownDoc?.so_hieu && !laTbTchq(ownDoc)) {
+      rawRefs.push({ so_hieu: ownDoc.so_hieu });
+      addRel(ownDoc.so_hieu, 10);
+    }
+    for (const ref of item.van_ban_lien_quan || []) {
+      rawRefs.push(ref);
+      addRel(ref.so_hieu, 6);
+    }
   }
   for (const dk of topDieuKhoan) {
     if (dk.so_hieu) rawRefs.push({ so_hieu: dk.so_hieu });
     addRel(dk.so_hieu, 25);
   }
+  // Bổ sung VB có điều khoản NGUYEN_VAN_NGUON_A đạt ngưỡng cao ngoài top 5
+  const dkExtraMinScore = Math.max(90, Math.round(maxDkScore * 0.6));
+  const seenDkExtra = new Set(topDieuKhoan.map((d) => khoa(d.so_hieu)));
+  for (let i = 0; i < Math.min(dkSelected.length, 16); i += 1) {
+    const dk = dkSelected[i];
+    if (dk.diem_phu_hop < dkExtraMinScore) break;
+    const kDk = khoa(dk.so_hieu);
+    if (!kDk || seenDkExtra.has(kDk)) continue;
+    seenDkExtra.add(kDk);
+    rawRefs.push({ so_hieu: dk.so_hieu });
+    addRel(dk.so_hieu, 8);
+  }
   for (const rh of registryHits) {
     rawRefs.push({ so_hieu: rh.doc.so_hieu });
+  }
+
+  // Liên kết chuỗi sửa đổi/hướng dẫn còn hiệu lực từ các văn bản top CON_HIEU_LUC có điểm liên quan cao nhất
+  const topActiveSeeds = [...relevanceMap.entries()]
+    .map(([k, rel]) => ({ k, rel, doc: chonBanGhi(store.byKhoa.get(k), k) }))
+    .filter((x) => x.doc && (x.doc.tinh_trang === 'CON_HIEU_LUC' || x.doc.tinh_trang === 'HET_HIEU_LUC_MOT_PHAN'))
+    .sort((a, b) => b.rel - a.rel)
+    .slice(0, 6);
+  const maxTopRel = topActiveSeeds[0]?.rel || 0;
+  if (maxTopRel > 1) {
+    const queryMatchTerms = [...new Set([...(qInfo.specificTokens || []), ...(qInfo.expandedTokens || [])])];
+    for (const seed of topActiveSeeds) {
+      const seedMainBranches = new Set(
+        (seed.doc.nhanh || []).map((n) => String(n).split('/')[0]).filter(Boolean),
+      );
+      const qhn = seed.doc.quan_he_nguoc || {};
+      const qh = seed.doc.quan_he || {};
+      const relCandidates = [
+        ...(qhn.bi_sua_doi_boi || []).map((e) => ({ so: e?.tu, kind: 'sua_doi' })),
+        ...(qh.sua_doi || []).map((e) => ({ so: chuanCanh(e)?.so_hieu, kind: 'sua_doi' })),
+        ...(qhn.duoc_huong_dan_boi || []).map((e) => ({ so: e?.tu, kind: 'huong_dan' })),
+        ...(qh.huong_dan || []).map((e) => ({ so: chuanCanh(e)?.so_hieu, kind: 'huong_dan' })),
+      ];
+      for (const { so, kind } of relCandidates) {
+        const relK = khoa(so);
+        if (!relK) continue;
+        const relDoc = chonBanGhi(store.byKhoa.get(relK), relK);
+        if (!relDoc) continue;
+        if (relDoc.tinh_trang !== 'CON_HIEU_LUC' && relDoc.tinh_trang !== 'HET_HIEU_LUC_MOT_PHAN') continue;
+        if (nhanh && !khopNhanh(nhanh, [{ so_hieu: relDoc.so_hieu }], relDoc.nhanh || [], store)) continue;
+        const relHay = chuanHoaVanBan(
+          `${relDoc.so_hieu} ${relDoc.ten || ''} ${(relDoc.nhanh || []).join(' ')} ${relDoc.ghi_chu || ''}`,
+        );
+        const relWords = new Set(relHay.split(/[^a-z0-9]+/).filter(Boolean));
+        const matchesSpec = queryMatchTerms.some(
+          (t) => relWords.has(t) || (t.length >= 5 && relHay.includes(t)),
+        );
+        const sameMainBranch = (relDoc.nhanh || []).some((n) =>
+          seedMainBranches.has(String(n).split('/')[0]),
+        );
+        const sameExactBranch = (relDoc.nhanh || []).some((n) => (seed.doc.nhanh || []).includes(n));
+        const okRel =
+          kind === 'sua_doi'
+            ? matchesSpec || sameMainBranch
+            : matchesSpec || (sameMainBranch && sameExactBranch);
+        if (!okRel) continue;
+        rawRefs.push({ so_hieu: relDoc.so_hieu });
+        const existingRel = relevanceMap.get(relK) || 0;
+        const linkedBonus = Math.min(Math.max(10, Math.round(seed.rel * 0.35)), maxTopRel - 1);
+        if (existingRel < linkedBonus) {
+          relevanceMap.set(relK, linkedBonus);
+        }
+      }
+    }
   }
 
   const vanBanLienQuan = lamMoiVanBanLienQuan(rawRefs, store, {
@@ -1815,8 +2068,6 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
   }
 
   // Đánh giá độ tin cậy & hợp đồng gợi ý dự phòng chống trả lời rỗng / chống bịa luật
-  const maxWikiScore = wikiKetQua[0]?.diem_phu_hop || 0;
-  const maxDkScore = topDieuKhoan[0]?.diem_phu_hop || 0;
   const coPinnedThieuToanVan = vanBanLienQuan.some((v) => v.khop_so_hieu_truc_tiep && v.chua_co_toan_van_trong_kho);
   const coPinnedCoTriThuc = soHieuHits.some((sk) => {
     const d = chonBanGhi(store.byKhoa.get(sk), sk);
