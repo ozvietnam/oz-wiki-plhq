@@ -3,14 +3,14 @@ id: 01-2022-tt-bnnptnt
 title: "Sửa đổi, bổ sung một số Thông tư trong lĩnh vực thủy sản"
 type: source
 created: 2026-10-12
-updated: 2026-10-12
+updated: 2026-11-22
 authors:
   - BNNPTNT
 year: 2022
 source_type: legal
 importance: 3
 provenance: replayable
-confidence: medium
+confidence: high
 tags: [bnnptnt, kiem-tra-chuyen-nganh, khai-bao-hai-quan]
 ---
 
@@ -26,23 +26,21 @@ tags: [bnnptnt, kiem-tra-chuyen-nganh, khai-bao-hai-quan]
 |---|---|
 | 2022-01-18 | Bộ NN&PTNT ban hành |
 | 2022-03-04 | Có hiệu lực |
-| Đang hiệu lực | |
+| 2024-03-20 | Hết hiệu lực một phần (TT 01/2024/TT-BNNPTNT bãi bỏ Điều 9 và Phụ lục XXIII) |
 
 ## Cấu trúc
 
-- **20 điều** (theo OCR)
+- **10 Điều** và **23 Phụ lục** (Phụ lục I–XXIII, đối chiếu PDF Công báo số 209+210 năm 2022 có lớp chữ)
 
-## Căn cứ pháp lý (theo OCR)
+## Căn cứ pháp lý
 
-Căn cứ Nghị định số 15/2017/NĐ-CP ngày 17 tháng 02 năm 2017 của | Căn cứ Luật Thủy sản ngày 21 tháng 11 năm 2017; | Căn cứ Nghị định số 69/2018/NĐ-CP ngày 15 tháng 5 năm 2018 của
+Căn cứ Nghị định số 15/2017/NĐ-CP ngày 17 tháng 02 năm 2017 của Chính phủ; Căn cứ Luật Thủy sản ngày 21 tháng 11 năm 2017; Căn cứ Nghị định số 69/2018/NĐ-CP ngày 15 tháng 5 năm 2018 của Chính phủ.
 
 ## Nội dung chính
 
-- Điều 1: Sửa đổi, bổ sung một số điều của Thông tư số 19/2018/TTBNNPTNT ngày 15/11/2018 c
-- Điều 15: 7. Thay thế Phụ lục I bằng Phụ lục I ban hành kèm theo Thông tư này;
-- Điều 2: Sửa đổi, bổ sung một số điều của Thông tư số 20/2018/TTBNNPTNT ngày 15/11/2018 c
-- Điều 14: Thẩm quyền, tiêu chuẩn cấp thẻ kiểm ngư
-- Điều 15: 4. Thay thế cụm từ “VIET NAM FISHERIES RESOURCES
+- Điều 1–8: Sửa đổi, bổ sung một số điều của các Thông tư 19/2018/TT-BNNPTNT đến 26/2018/TT-BNNPTNT ngày 15/11/2018 trong lĩnh vực thủy sản.
+- Điều 9: Thay thế Phần A Mục 16 Phụ lục I Thông tư 11/2021/TT-BNNPTNT bằng Phụ lục XXIII (đã bị bãi bỏ từ 20/03/2024 bởi TT 01/2024/TT-BNNPTNT).
+- Điều 10: Hiệu lực thi hành từ ngày 04/03/2022; bãi bỏ Thông tư 13/2020/TT-BNNPTNT ngày 09/11/2020.
 
 ## Quy trình khai báo HQ
 
@@ -60,7 +58,5 @@ Căn cứ Nghị định số 15/2017/NĐ-CP ngày 17 tháng 02 năm 2017 của 
 - (Các VB liên quan trong nhánh kiem-tra-chuyen-nganh)
 
 ## Notes
-- Đã đọc toàn văn qua `datafiles.chinhphu.vn` (PDF 828KB)
-- **20 điều** (theo OCR tesseract vie 200dpi)
-- Không có mã HS in (TT về quy trình)
-- Cần đối chiếu thêm
+- Đã đối chiếu toàn văn PDF lớp chữ Công báo tại `raw/download/congbaocdn.chinhphu.vn/01-2022-tt-bnnptnt.pdf` (95 trang, SHA-256 `298ca35eec928fc681841675384e060f0c9f29d46e15f7432ac694a5c1270d40`).
+- Đã trích xuất nguyên văn 10 Điều (35 mục điều khoản, trang 1–30) vào `xac_minh.dieu_khoan` trong sổ đăng ký.

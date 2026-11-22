@@ -199,7 +199,5 @@ urls:
 
 ## Notes
 
-- Đã đọc toàn văn qua `datafiles.chinhphu.vn` (125 trang PDF có text layer)
-- pdftotext cho ra 5.729 dòng, 231.652 ký tự
-- 14 phụ lục (bảng biểu) chứa danh mục mã HS chi tiết — cần đối chiếu PDF để có dữ liệu chính xác
-- 37 điều tập trung vào kiểm dịch (Chương II chiếm 29/37 = 78%)
+- Đã đọc toàn văn qua `datafiles.chinhphu.vn` (`raw/download/datafiles.chinhphu.vn/01-2026-tt-bnnmt.pdf`, 125 trang PDF có text layer, SHA-256 `832a983a825a26ef5414b1b320a65753c7877719f0c2d51d8ea0de0d7ec81818`).
+- Toàn văn thực tế trên PDF lớp chữ gồm **4 Chương, 30 Điều** (trang 1–27, Điều 29 là Điều khoản chuyển tiếp, Điều 30 là Hiệu lực thi hành) và **14 Phụ lục** (trang 28–125); đã trích xuất nguyên văn 30 Điều (42 mục điều khoản) vào `xac_minh.dieu_khoan` trong sổ đăng ký.

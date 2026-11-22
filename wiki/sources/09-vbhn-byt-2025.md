@@ -97,4 +97,4 @@ Phiếu công bố sản phẩm mỹ phẩm có **10 mục thông tin**. Khách 
 
 ## Toàn văn
 
-Toàn văn (53 điều + 18 phụ lục) đọc tại [TVPL](https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Van-ban-hop-nhat-09-VBHN-BYT-2025-Thong-tu-quy-dinh-quan-ly-my-pham-667028.aspx) hoặc [DAV](https://dav.gov.vn/van-ban-hop-nhat-so-09vbhn-byt-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-n4966.html).
+Toàn văn (53 điều + 18 phụ lục) đọc tại [TVPL](https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Van-ban-hop-nhat-09-VBHN-BYT-2025-Thong-tu-quy-dinh-quan-ly-my-pham-667028.aspx) hoặc [DAV](https://dav.gov.vn/van-ban-hop-nhat-so-09vbhn-byt-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-n4966.html). Tệp PDF lớp chữ gắn tại `raw/download/datafiles.chinhphu.vn/09-vbhn-byt.pdf` (8 trang, SHA-256 `0518655cb29f2b303a48be64d2491a842f30f84bc8eec0d15eda9dc1895dec61`, toàn văn Thông tư 34/2025/TT-BYT sửa đổi, bổ sung Thông tư 06/2011/TT-BYT được hợp nhất tại 09/VBHN-BYT) đã được trích xuất nguyên văn 6 Điều (10 mục điều khoản, trang 1–6) vào `xac_minh.dieu_khoan`.
