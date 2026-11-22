@@ -1,9 +1,10 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 28/2018/QH14
 loai: LUAT
-ten: Luật sửa đổi, bổ sung một số điều của Luật Dược 2018 (đã hợp nhất)
+ten: Luật sửa đổi, bổ sung một số điều của 11 luật có liên quan đến quy hoạch
 co_quan: QH
 ngay_ban_hanh: '2018-06-15'
+hieu_luc_tu: '2019-01-01'
 tinh_trang: HET_HIEU_LUC
 het_hieu_luc_tu: '2026-03-01'
 nhanh:
@@ -15,15 +16,68 @@ quan_he:
       tu_ngay: '2019-01-01'
       can_cu: Điều 3 và Điều 12 Luật 28/2018/QH14
 nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/luat-so-28-2018-qh14-26903.htm
+    truy_cap: '2026-11-22'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/6/26903/23092-1-2018777-77828-2018-qh14.pdf
+    truy_cap: '2026-11-22'
   - url: https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=49815
     truy_cap: '2026-10-09'
-toan_van: null
+toan_van: raw/download/congbaocdn.chinhphu.vn/28-2018-qh14.pdf
 xac_minh:
   muc: NGUON_A
-  pham_vi: Số hiệu 28/2018/QH14, ban hành 15/6/2018; đã được hợp nhất vào 76-VBHN/VPQH 2026 (tháng 3/2026). Đây là bản sửa đổi Luật Dược 2016 lần 1, trước 44/2024/QH15 (lần 2).
+  pham_vi: 'PDF Công báo số 777 + 778 ngày 15-07-2018 (congbaocdn.chinhphu.vn, 10 trang có lớp chữ): Luật sửa đổi, bổ sung một số điều của 11 luật có liên quan đến quy hoạch, thông qua 15-06-2018, hiệu lực từ 01-01-2019 (Điều 12); Điều 3 sửa đổi Luật Dược 105/2016/QH13 (đã hợp nhất vào 76-VBHN/VPQH ngày 25-03-2026). Ngoài ra Điều 1 sửa Luật ATTP 55/2010/QH12, Điều 7 sửa Luật Hóa chất 06/2007/QH12, Điều 10 sửa Luật Sử dụng năng lượng tiết kiệm và hiệu quả 50/2010/QH12.'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-09'
   boi: hermes
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đổi, bổ sung một số điều của Luật An toàn thực phẩm 1. Sửa đổi, bổ sung khoản 1 Điều 4 như sau: “1. Xây dựng chiến lược quốc gia về an toàn thực phẩm.”. 2. Sửa đổi, bổ sung điểm a khoản 1 Điều 62 như sau: “a) Chủ trì xây dựng, trình cơ quan nhà nước có thẩm quyền ban hành và tổ chức thực hiện chiến lược quốc gia về an toàn thực phẩm;”.'
+      trang_pdf: 1
+      sha256_pdf: 729088794b13f57d6bc353cbcf2fac32cc47ae2f9c5216819e10049f299b0bc0
+    - dieu: 2
+      noi_dung: 'Điều 2. Sửa đổi, bổ sung một số điều của Luật Công chứng 1. Sửa đổi, bổ sung khoản 1 Điều 18 như sau: “1. Việc thành lập tổ chức hành nghề công chứng phải tuân theo quy định của Luật này.”. 2. Sửa đổi, bổ sung khoản 1 Điều 24 như sau: “1. Khi thay đổi một trong các nội dung quy định tại khoản 3 Điều 23 của Luật này, Văn phòng công chứng phải đăng ký nội dung thay đổi tại Sở Tư pháp nơi Văn phòng công chứng đã đăng ký hoạt động.”.'
+      trang_pdf: 2
+      sha256_pdf: 729088794b13f57d6bc353cbcf2fac32cc47ae2f9c5216819e10049f299b0bc0
+    - dieu: 3
+      noi_dung: 'Điều 3. Sửa đổi, bổ sung một số điều của Luật Dược 1. Sửa đổi, bổ sung điểm a khoản 1 Điều 10 như sau: “a) Chủ trì, phối hợp với bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ có liên quan ban hành theo thẩm quyền hoặc trình cấp có thẩm quyền ban hành và tổ chức thực hiện văn bản quy phạm pháp luật, chiến lược, chính sách phát triển công nghiệp dược;”.'
+      trang_pdf: 2
+      sha256_pdf: 729088794b13f57d6bc353cbcf2fac32cc47ae2f9c5216819e10049f299b0bc0
+    - dieu: 4
+      noi_dung: 'Điều 4. Sửa đổi, bổ sung một số điều của Luật Đầu tư 1. Sửa đổi, bổ sung khoản 1 Điều 20 như sau: “1.'
+      trang_pdf: 3
+      sha256_pdf: 729088794b13f57d6bc353cbcf2fac32cc47ae2f9c5216819e10049f299b0bc0
+    - dieu: 5
+      noi_dung: 'Điều 5. Sửa đổi, bổ sung một số điều của Luật Đầu tư công 1. Bổ sung khoản 5 vào Điều 5 như sau: “5. Đầu tư lập, thẩm định, quyết định hoặc phê duyệt, công bố và điều chỉnh quy hoạch theo quy định của pháp luật về quy hoạch.”. 2. Sửa đổi, bổ sung khoản 2 Điều 12 như sau: “2.'
+      trang_pdf: 4
+      sha256_pdf: 729088794b13f57d6bc353cbcf2fac32cc47ae2f9c5216819e10049f299b0bc0
+    - dieu: 6
+      noi_dung: 'Điều 6. Sửa đổi, bổ sung một số điều của Luật Điện lực 1. Sửa đổi, bổ sung Điều 8 như sau: “Điều 8. Quy hoạch phát triển điện lực 1. Quy hoạch phát triển điện lực là quy hoạch ngành quốc gia làm cơ sở cho các hoạt động đầu tư phát triển điện lực. 2. Việc lập quy hoạch phát triển điện lực phải tuân thủ quy định của pháp luật về quy hoạch và các nguyên tắc sau đây:'
+      trang_pdf: 5
+      sha256_pdf: 729088794b13f57d6bc353cbcf2fac32cc47ae2f9c5216819e10049f299b0bc0
+    - dieu: 7
+      noi_dung: 'Điều 7. Sửa đổi, bổ sung một số điều của Luật Hóa chất 1. Sửa đổi, bổ sung khoản 2 Điều 6 như sau: “2. Nhà nước đầu tư xây dựng hệ thống kiểm soát an toàn hóa chất quốc gia, cơ sở dữ liệu thông tin an toàn hóa chất.”. 2. Bổ sung khoản 5 vào Điều 10 như sau: “5.'
+      trang_pdf: 6
+      sha256_pdf: 729088794b13f57d6bc353cbcf2fac32cc47ae2f9c5216819e10049f299b0bc0
+    - dieu: 8
+      noi_dung: 'Điều 8. Sửa đổi, bổ sung một số điều của Luật Khoa học và công nghệ 1. Sửa đổi, bổ sung Điều 10 như sau: “Điều 10. Quy hoạch mạng lưới tổ chức khoa học và công nghệ công lập 1. Quy hoạch mạng lưới tổ chức khoa học và công nghệ công lập là quy hoạch ngành quốc gia.'
+      trang_pdf: 7
+      sha256_pdf: 729088794b13f57d6bc353cbcf2fac32cc47ae2f9c5216819e10049f299b0bc0
+    - dieu: 9
+      noi_dung: 'Điều 9. Sửa đổi, bổ sung một số điều của Luật Phòng, chống tác hại của thuốc lá 1. Sửa đổi, bổ sung khoản 3 Điều 4 như sau: “3. Hoạt động sản xuất, kinh doanh thuốc lá phải phù hợp với mục tiêu từng bước giảm nguồn cung cấp thuốc lá, phù hợp với việc giảm nhu cầu sử dụng thuốc lá.”. 2. Bãi bỏ Điều 20 và khoản 1 Điều 21.'
+      trang_pdf: 8
+      sha256_pdf: 729088794b13f57d6bc353cbcf2fac32cc47ae2f9c5216819e10049f299b0bc0
+    - dieu: 10
+      noi_dung: 'Điều 10. Sửa đổi, bổ sung một số điều của Luật Sử dụng năng lượng tiết kiệm và hiệu quả 1. Sửa đổi, bổ sung Điều 6 như sau: “Điều 6. Chiến lược phát triển năng lượng quốc gia, quy hoạch tổng thể về năng lượng, chương trình sử dụng năng lượng 1. Chiến lược phát triển năng lượng quốc gia, chương trình sử dụng năng lượng phải đáp ứng các yêu cầu sau đây: a) Cung cấp năng lượng ổn định, an toàn; sử dụng hợp lý, tiết kiệm nguồn tài nguyên năng lượng;'
+      trang_pdf: 8
+      sha256_pdf: 729088794b13f57d6bc353cbcf2fac32cc47ae2f9c5216819e10049f299b0bc0
+    - dieu: 11
+      noi_dung: 'Điều 11. Sửa đổi, bổ sung một số điều của Luật Trẻ em 1. Sửa đổi, bổ sung khoản 5 Điều 5 như sau: “5. Khi xây dựng chính sách, pháp luật tác động đến trẻ em, phải xem xét ý kiến của trẻ em và của các cơ quan, tổ chức có liên quan; bảo đảm lồng ghép các mục tiêu, chỉ tiêu về trẻ em trong quy hoạch có liên quan theo quy định của pháp luật về quy hoạch, kế hoạch phát triển kinh tế - xã hội quốc gia, ngành và địa phương.”.'
+      trang_pdf: 9
+      sha256_pdf: 729088794b13f57d6bc353cbcf2fac32cc47ae2f9c5216819e10049f299b0bc0
+    - dieu: 12
+      noi_dung: Điều 12. Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2019. Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 5 thông qua ngày 15 tháng 6 năm 2018./. CHỦ TỊCH QUỐC HỘI Nguyễn Thị Kim Ngân
+      trang_pdf: 10
+      sha256_pdf: 729088794b13f57d6bc353cbcf2fac32cc47ae2f9c5216819e10049f299b0bc0
 ghi_chu: Giữ trong sổ để truy vết. Văn bản 105/2016 + 28/2018 + 44/2024 đã được hợp nhất thành 76-VBHN/VPQH 2026 — đây là bản đang có hiệu lực.
 tu_khoa:
   - luat

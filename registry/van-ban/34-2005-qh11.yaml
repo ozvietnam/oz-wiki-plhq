@@ -10,15 +10,55 @@ tinh_trang: HET_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
 nguon:
+  - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=14757
+    truy_cap: '2026-11-22'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2006/07/15216_l34qh.rtf
+    truy_cap: '2026-11-22'
   - url: https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=9345
     truy_cap: '2026-10-09'
-toan_van: null
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/34-2005-qh11.rtf
+  - raw/download/datafiles.chinhphu.vn/34-2005-qh11.txt
 xac_minh:
   muc: NGUON_A
   pham_vi: Số hiệu 34/2005/QH11, ban hành 14/6/2005, hiệu lực 01/10/2005; hết hiệu lực 01/01/2017 do bị thay thế bởi 105/2016/QH13. Đây là bản Luật Dược nền tảng trước 105/2016. Khai thác qua vbpl.vn (nguồn bậc B - thứ cấp đáng tin).
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-09'
   boi: hermes
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh, đối tượng áp dụng 1. Luật này quy định việc kinh doanh thuốc; đăng ký, lưu hành thuốc; sử dụng thuốc; cung ứng thuốc; thông tin, quảng cáo thuốc; thử thuốc trên lâm sàng; quản lý thuốc gây nghiện, thuốc hướng tâm thần, tiền chất dùng làm thuốc và thuốc phóng xạ; tiêu chuẩn chất lượng thuốc và kiểm nghiệm thuốc. 2. Luật này áp dụng đối với cơ quan, tổ chức, cá nhân trong nước và nước ngoài tại Việt Nam.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau: 1. Dược là thuốc và hoạt động liên quan đến thuốc. 2. Thuốc là chất hoặc hỗn hợp các chất dùng cho người nhằm mục đích phòng bệnh, chữa bệnh, chẩn đoán bệnh hoặc điều chỉnh chức năng sinh lý cơ thể bao gồm thuốc thành phẩm, nguyên liệu làm thuốc, vắc xin, sinh phẩm y tế, trừ thực phẩm chức năng.'
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: 'Điều 3. Chính sách của Nhà nước về lĩnh vực dược Nhà nước thực hiện các chính sách sau đây về lĩnh vực dược: 1. Phát triển ngành dược thành một ngành kinh tế - kỹ thuật mũi nhọn, ưu tiên phát triển công nghiệp dược.'
+      trang_pdf: 1
+    - dieu: 14
+      noi_dung: Điều 14. Lệ phí cấp Giấy chứng nhận đủ điều kiện kinh doanh thuốc, Chứng chỉ hành nghề dược Cơ sở kinh doanh thuốc đề nghị cấp Giấy chứng nhận đủ điều kiện kinh doanh thuốc, cá nhân đề nghị cấp Chứng chỉ hành nghề dược phải nộp lệ phí theo quy định của pháp luật. Mục II Sản xuất thuốc
+      trang_pdf: 1
+    - dieu: 20
+      noi_dung: Điều 20. Phạm vi nhập khẩu thuốc 1. Thuốc có số đăng ký tại Việt Nam được nhập khẩu không hạn chế về số lượng, trừ vắc xin, sinh phẩm y tế và thuốc thuộc danh mục phải kiểm soát đặc biệt theo quy định tại Điều 63 của Luật này.
+      trang_pdf: 1
+    - dieu: 23
+      noi_dung: Điều 23. Nghĩa vụ của cơ sở bán buôn thuốc 1. Bảo quản thuốc theo đúng các điều kiện ghi trên nhãn thuốc. 2. Giữ nguyên vẹn bao bì của thuốc, không được thay đổi bao bì và nhãn của thuốc. Trường hợp thay đổi nhãn, bao bì của thuốc đã được đăng ký thì phải được cơ sở sản xuất thuốc uỷ quyền và được Bộ Y tế đồng ý bằng văn bản. 3. Bảo đảm việc giao, nhận, bảo quản thuốc phải do người có trình độ chuyên môn về dược đảm nhận.
+      trang_pdf: 1
+    - dieu: 33
+      noi_dung: Điều 33. Quyền của doanh nghiệp làm dịch vụ kiểm nghiệm thuốc 1. Kiểm nghiệm nguyên liệu làm thuốc, thuốc bán thành phẩm, thuốc thành phẩm. 2. Trả lời kết quả kiểm nghiệm đối với mẫu thuốc đã kiểm nghiệm. 3. Được hưởng tiền thù lao làm dịch vụ kiểm nghiệm thuốc.
+      trang_pdf: 1
+    - dieu: 42
+      noi_dung: Điều 42. Bán thuốc đông y và thuốc từ dược liệu tại cơ sở khám bệnh, chữa bệnh Bác sĩ đông y, y sĩ đông y, lương y đang làm việc tại cơ sở khám bệnh, chữa bệnh được bán lẻ thuốc đông y và thuốc từ dược liệu tại cơ sở khám bệnh, chữa bệnh.
+      trang_pdf: 1
+    - dieu: 52
+      noi_dung: Điều 52. Quảng cáo thuốc 1. Việc quảng cáo thuốc do cơ sở kinh doanh thuốc hoặc người kinh doanh dịch vụ quảng cáo thực hiện và phải tuân theo quy định của pháp luật về quảng cáo. 2. Không được sử dụng lợi ích vật chất, lợi dụng danh nghĩa của tổ chức, cá nhân, các loại thư tín, kết quả nghiên cứu lâm sàng chưa được Bộ Y tế công nhận và các hình thức tương tự để quảng cáo thuốc.
+      trang_pdf: 1
+    - dieu: 61
+      noi_dung: Điều 61. Nghĩa vụ của tổ chức nhận thử thuốc trên lâm sàng 1. Tuân thủ các quy định thực hành tốt trong thử thuốc trên lâm sàng; báo cáo về quá trình, kết quả thử lâm sàng và báo cáo khẩn trong trường hợp cần thiết với Bộ Y tế. 2. Ký kết hợp đồng về việc thử thuốc trên lâm sàng với tổ chức, cá nhân có thuốc thử lâm sàng và với người tham gia thử lâm sàng.
+      trang_pdf: 1
+    - dieu: 72
+      noi_dung: Điều 72. Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 10 năm 2005. Các quy định trước đây trái với Luật này đều bãi bỏ.
+      trang_pdf: 1
 ghi_chu: Giữ trong sổ để truy vết lịch sử pháp lý. Không dùng cho khai báo hải quan hiện tại.
 tu_khoa:
   - luat
