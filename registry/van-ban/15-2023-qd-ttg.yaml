@@ -20,10 +20,25 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Quyết định này quy định việc áp dụng thuế suất thông thường đối với hàng hoá nhập khẩu theo quy định tại điểm c khoản 3 Điều 5 Luật Thuế xuất khấu, thuế nhập khẩu.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng 1. Chủ hàng hóa xuất khẩu, nhập khẩu. 2. Tổ chức, cá nhân có quyền và nghĩa vụ liên quan đến hoạt động xuất khẩu, nhập khâu hàng hóa.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: 'Điều 3. Việc áp dụng thuế suất thông thường đối với hàng hoá nhập khẩu, 1. Biểu thuế suất thuế nhập khẩu thông thường đối với hàng hóa nhập khâu ban hành kèm theo Quyết định này gồm:'
+      trang_pdf: 2
+    - dieu: 4
+      noi_dung: Điều 4. Hiệu lực và tô chức thực biện 1. Quyết định này có hiệu lực thi hành từ ngày 15 tháng 7 năm 2023.
+      trang_pdf: 2
+ghi_chu: Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=207990&pageid=27160
     truy_cap: '2026-10-10'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/6/15-ttg.signed.pdf
     truy_cap: '2026-10-10'
-toan_van: raw/download/datafiles.chinhphu.vn/15-2023-qd-ttg.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/15-2023-qd-ttg.pdf
+  - raw/ocr/15-2023-qd-ttg.ocr.txt
