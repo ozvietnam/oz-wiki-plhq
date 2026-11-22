@@ -387,8 +387,8 @@ try {
     && casReal.khong_co_cas.length >= 10,
     JSON.stringify(casReal.thong_ke));
 
-  t('kho thật (RAM): phien-ban-bieu-thue-mapping.yaml (114 mã, 0 lỗi) + anh_xa_ahtn_cu nối vào hs-index-theo-ma',
-    Object.keys(axReal?.mapping || {}).length === 114
+  t('kho thật (RAM): phien-ban-bieu-thue-mapping.yaml (≥ 114 mã, 0 lỗi) + anh_xa_ahtn_cu nối vào hs-index-theo-ma',
+    Object.keys(axReal?.mapping || {}).length >= 114
     && kiemAnhXaAhtn(axReal, btReal).length === 0
     && cmMaReal.anh_xa_ahtn_cu?.tong_duoc_anh_xa >= 100
     && Object.values(cmMaReal.anh_xa_ahtn_cu?.mapping || {}).every((v) => demLa(btReal, v.hs_moi) > 0),

@@ -1,17 +1,17 @@
 # Mapping mã HS từ văn bản pháp luật cũ → biểu thuế EN2022
-# Ngày tạo: 2026-10-15
-# Tác giả: Hermes (Sếp Thắng)
-# Nguồn: 114 mã HS trong văn bản pháp luật VN không có trong biểu thuế EN2022
-# Phân tích: dist/hs-index-theo-ma.json (canh_bao_ma = 114 mã)
-# Mapping: 100% tự động + thủ công, tất cả mã đích có trong tax.json
+# Ngày tạo: 2026-10-15 · Cập nhật: 2026-11-22 (114 → 137 mã, khép 70 → 0 điểm mù HS_KHONG_TON_TAI)
+# Tác giả: Hermes (Sếp Thắng) · Bổ sung Wave 16: ong-w16-ahtn-mapping
+# Nguồn: 137 mã HS trong văn bản pháp luật VN không có trong biểu thuế EN2022 (114 gốc + 23 mã từ 08/2023, 41/2019, 1182/QĐ-BCT)
+# Mapping: 100% thủ công đối chiếu Thông tư 31/2022/TT-BTC + nhu-cau/bieu-thue.json (demLa > 0)
 
 thong_tin:
   ngay_tao: "2026-10-15"
-  so_ma: 114
+  ngay_cap_nhat: "2026-11-22"
+  so_ma: 137
   phien_ban_cu: "AHTN 2017 / Biểu thuế VN trước EN2022"
   phien_ban_moi: "EN2022 (TT 31/2022/TT-BTC)"
-  nguon_xac_thuc: "Biểu thuế tax.json (hs-code-api) + kiem-tra-ma-hs-2026.md"
-  canh_bao: "Mã cũ trong văn bản pháp luật VN có thể là mã AHTN 2017, lỗi đánh máy (3034/3094 thay vì 3004), hoặc phân nhóm đã bị gộp trong EN2022"
+  nguon_xac_thuc: "Biểu thuế tax.json (hs-code-api) + TT 31/2022/TT-BTC + kiem-tra-ma-hs-2026.md"
+  canh_bao: "Mã cũ trong văn bản pháp luật VN có thể là mã AHTN 2017, lỗi đánh máy (3034/3094 thay vì 3004), hoặc phân nhóm đã bị tách/gộp trong EN2022"
 
 phan_loai:
   tu_dong_6s: 48    # Tự động - cùng prefix 6 số, đổi 2 số cuối
@@ -21,6 +21,9 @@ phan_loai:
   loi_danh_may_3034: 5  # "3034" thực ra là "3004" (thuốc, không phải cá)
   loi_danh_may_3094: 3  # "3094" thực ra là "3004"
   don_le: 24        # Các mã đơn lẻ khác
+  chuyen_1_1_8s: 4  # Chuyển 1-1 sang đúng một mã 8 số EN2022 (8478.90.00, 8479.89.69/70, 9405.19.92)
+  tach_en2022_6s: 8 # Tách nhiều dòng 8 số trong cùng phân nhóm 6 số EN2022 (dùng prefix 6 số không thu hẹp)
+  tach_en2022_4s: 11 # Tách nhiều phân nhóm 6 số trong cùng nhóm 4 số EN2022 (3603, 8517, 9405)
 
 mapping:
   "03034900":
@@ -113,12 +116,28 @@ mapping:
   "35101090":
     hs_moi: "35069900"
     loai: "don_le"
+  "36030010":
+    hs_moi: "3603"
+    loai: "tach_en2022_4s"
+    ghi_chu: "AHTN 2017 (dây cháy chậm bán thành phẩm; kíp nổ cơ bản; QĐ 1182 gồm kíp nổ điện và kíp nổ đốt số 8) → EN2022 tách nhóm 36.03 thành 3603.10.00..3603.60.00 (kíp nổ 3603.40.00, kíp nổ điện 3603.60.00, dây cháy chậm 3603.10.00); dùng tiền tố 4 số 3603 để không thu hẹp."
+  "36030020":
+    hs_moi: "3603"
+    loai: "tach_en2022_4s"
+    ghi_chu: "AHTN 2017 (dây cháy chậm; dây nổ) → EN2022 tách thành 3603.10.00 (dây cháy chậm) và 3603.20.00 (dây nổ); dùng tiền tố 4 số 3603 để không thu hẹp."
+  "36030090":
+    hs_moi: "3603"
+    loai: "tach_en2022_4s"
+    ghi_chu: "AHTN 2017 (loại khác của nhóm 36.03; QĐ 1182 gồm dây nổ chịu nước và mồi nổ) → EN2022 tách sang 3603.20.00..3603.60.00; dùng tiền tố 4 số 3603 để phủ đủ."
   "39042099":
     hs_moi: "39041099"
     loai: "don_le"
   "39072090":
     hs_moi: "39072990"
     loai: "don_le"
+  "40151900":
+    hs_moi: "401519"
+    loai: "tach_en2022_6s"
+    ghi_chu: "AHTN 2017 (găng tay cao su lưu hóa loại khác, TT 08/2023 Phụ lục II) → EN2022 tách thành 4015.19.10 (cao su tự nhiên) và 4015.19.90 (cao su lưu hóa khác); dùng tiền tố 6 số 401519 (khớp Phụ lục I cùng TT 08/2023)."
   "40199999":
     hs_moi: "40169999"
     loai: "don_le"
@@ -131,6 +150,18 @@ mapping:
   "44140000":
     hs_moi: "44141000"
     loai: "don_le"
+  "48132000":
+    hs_moi: "481320"
+    loai: "tach_en2022_6s"
+    ghi_chu: "AHTN 2017 (giấy cuốn thuốc lá dạng cuộn rộng <= 5 cm) → EN2022 tách thành 8 mã 4813.20.10..4813.20.39; dùng tiền tố 6 số 481320 (khớp Phụ lục IV TT 08/2023/TT-BCT thay Phụ lục VI TT 41/2019/TT-BCT)."
+  "48139010":
+    hs_moi: "481390"
+    loai: "tach_en2022_6s"
+    ghi_chu: "AHTN 2017 (giấy cuốn thuốc lá rộng > 5 cm, đã phủ) → EN2022 tách thành 4813.90.11, 4813.90.12 và 4813.90.19; định dạng chỉ nhận 4/6/8 số nên dùng 481390 để không bỏ sót 4813.90.11/12."
+  "48139090":
+    hs_moi: "481390"
+    loai: "tach_en2022_6s"
+    ghi_chu: "AHTN 2017 (giấy cuốn thuốc lá loại khác thuộc 4813.90) → EN2022 tách thành 4813.90.91 (giấy bọc thuốc lá) và 4813.90.99 (loại khác); dùng 481390 để không bỏ sót 4813.90.91."
   "49051000":
     hs_moi: "49052000"
     loai: "don_le"
@@ -329,12 +360,28 @@ mapping:
   "84501200":
     hs_moi: "84501210"
     loai: "tu_dong_6s"
+  "84789010":
+    hs_moi: "84789000"
+    loai: "chuyen_1_1_8s"
+    ghi_chu: "AHTN 2017 (bộ phận máy chế biến thuốc lá hoạt động bằng điện) → EN2022 gộp 8478.90.10 và 8478.90.20 thành duy nhất 8478.90.00 (- Bộ phận); khớp Phụ lục V TT 08/2023/TT-BCT thay Phụ lục VII TT 41/2019/TT-BCT."
+  "84798939":
+    hs_moi: "84798969"
+    loai: "chuyen_1_1_8s"
+    ghi_chu: "AHTN 2017 (máy và thiết bị cơ khí khác hoạt động bằng điện, loại khác; QĐ 1182 trạm nạp/cấp LPG) → EN2022 đổi số hiệu 1-1 sang 8479.89.69 (do chèn 8479.89.50 ở phía trên)."
+  "84798940":
+    hs_moi: "84798970"
+    loai: "chuyen_1_1_8s"
+    ghi_chu: "AHTN 2017 (máy và thiết bị cơ khí khác không hoạt động bằng điện; QĐ 1182 trạm nạp/cấp LPG) → EN2022 đổi số hiệu 1-1 sang 8479.89.70."
   "85013140":
     hs_moi: "85013130"
     loai: "tu_dong_6s"
   "85013212":
     hs_moi: "85013221"
     loai: "tu_dong_6s"
+  "85013222":
+    hs_moi: "850132"
+    loai: "tach_en2022_6s"
+    ghi_chu: "AHTN 2017 (động cơ điện DC khác công suất > 750 W đến 37,5 kW) → EN2022 tách thành 8501.32.24 (dùng cho xe Chương 87) và 8501.32.25 (động cơ khác, tương ứng động cơ phòng nổ tại QĐ 1182); dùng 850132 để không thu hẹp."
   "85013292":
     hs_moi: "85013221"
     loai: "tu_dong_6s"
@@ -350,18 +397,66 @@ mapping:
   "85076010":
     hs_moi: "85076031"
     loai: "tu_dong_6s"
+  "85171200":
+    hs_moi: "8517"
+    loai: "tach_en2022_4s"
+    ghi_chu: "AHTN 2017 (điện thoại cho mạng di động tế bào hoặc mạng không dây khác) → EN2022 tách thành 2 phân nhóm 6 số là 8517.13.00 (điện thoại thông minh) và 8517.14.00 (điện thoại mạng di động/không dây khác); dùng 8517 để không bỏ sót."
+  "85318010":
+    hs_moi: "853180"
+    loai: "tach_en2022_6s"
+    ghi_chu: "AHTN 2017 (chuông điện tử và thiết bị báo hiệu âm thanh khác) → EN2022 tách thành 8531.80.11 (dùng cho cửa) và 8531.80.19 (loại khác; chủ yếu cho còi điện/chuông điện phòng nổ QĐ 1182); dùng 853180 để không thu hẹp."
   "85352900":
     hs_moi: "85352910"
     loai: "tu_dong_6s"
+  "85364190":
+    hs_moi: "853641"
+    loai: "tach_en2022_6s"
+    ghi_chu: "AHTN 2017 (rơ le khác dùng cho điện áp <= 60 V) → EN2022 tách thành 8536.41.91 (rơ le bán dẫn/điện từ điện áp <= 28 V) và 8536.41.99 (loại khác); dùng 853641 để không bỏ sót rơ le <= 28 V."
   "85392292":
     hs_moi: "85392299"
     loai: "tu_dong_6s"
+  "85444298":
+    hs_moi: "854442"
+    loai: "tach_en2022_6s"
+    ghi_chu: "AHTN 2017 (cáp dữ liệu dạng dẹt có hai sợi hoặc hơn, điện áp <= 1.000 V, đã lắp đầu nối) → EN2022 tách thành 8544.42.91 (cách điện cao su/plastic/giấy) và 8544.42.92 (loại khác); dùng 854442 để phủ cả hai."
   "94049010":
     hs_moi: "94049000"
     loai: "tu_dong_6s"
   "94049090":
     hs_moi: "94049000"
     loai: "tu_dong_6s"
+  "94051091":
+    hs_moi: "9405"
+    loai: "tach_en2022_4s"
+    ghi_chu: "AHTN 2017 (đèn rọi gắn trần/tường thuộc 9405.10) → EN2022 tách theo nguồn sáng sang 9405.11.91 (LED) và 9405.19.91 (loại khác); dùng 9405 để không bỏ sót công nghệ LED hoặc thường."
+  "94051092":
+    hs_moi: "94051992"
+    loai: "chuyen_1_1_8s"
+    ghi_chu: "AHTN 2017 (đèn gắn bóng đèn huỳnh quang thuộc 9405.10) → EN2022 chuyển 1-1 sang 9405.19.92 (- Đèn gắn bóng đèn huỳnh quang, nhóm không dùng nguồn sáng LED)."
+  "94051099":
+    hs_moi: "9405"
+    loai: "tach_en2022_4s"
+    ghi_chu: "AHTN 2017 (đèn điện trần/tường loại khác thuộc 9405.10) → EN2022 tách theo nguồn sáng sang 9405.11.99 (LED) và 9405.19.99 (loại khác); dùng 9405 để phủ cả hai."
+  "94054020":
+    hs_moi: "9405"
+    loai: "tach_en2022_4s"
+    ghi_chu: "AHTN 2017 (đèn pha thuộc 9405.40) → EN2022 tách theo nguồn sáng sang 9405.41.10 (quang điện LED), 9405.42.10 (LED) và 9405.49.10 (loại khác); dùng 9405 để phủ đủ."
+  "94054040":
+    hs_moi: "9405"
+    loai: "tach_en2022_4s"
+    ghi_chu: "AHTN 2017 (đèn rọi khác thuộc 9405.40) → EN2022 tách theo nguồn sáng sang 9405.41.20 (quang điện LED), 9405.42.20 (LED) và 9405.49.20 (loại khác); dùng 9405 để phủ đủ."
+  "94054060":
+    hs_moi: "9405"
+    loai: "tach_en2022_4s"
+    ghi_chu: "AHTN 2017 (đèn chiếu sáng bên ngoài khác thuộc 9405.40) → EN2022 tách theo nguồn sáng sang 9405.41.40 (quang điện LED), 9405.42.60 (LED) và 9405.49.60 (loại khác); dùng 9405 để phủ đủ."
+  "94054099":
+    hs_moi: "9405"
+    loai: "tach_en2022_4s"
+    ghi_chu: "AHTN 2017 (đèn và bộ đèn điện khác, loại khác thuộc 9405.40) → EN2022 tách theo nguồn sáng sang 9405.41.90 (quang điện LED), 9405.42.90 (LED) và 9405.49.90 (loại khác); dùng 9405 để phủ đủ."
+  "94056090":
+    hs_moi: "9405"
+    loai: "tach_en2022_4s"
+    ghi_chu: "AHTN 2017 (biển hiệu/biển đề tên được chiếu sáng loại khác thuộc 9405.60) → EN2022 tách thành 9405.61.90 (LED) và 9405.69.90 (loại khác); dùng 9405 để phủ cả hai."
   "96190091":
     hs_moi: "96190099"
     loai: "tu_dong_6s"

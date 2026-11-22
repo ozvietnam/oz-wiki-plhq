@@ -359,8 +359,8 @@ const nAnhXaThat = demTheoMa.get('HS_AHTN_CU_DA_ANH_XA')?.n || 0;
 const nDocHieuRacThat = demTheoMa.get('DOC_HIEU_DIEU_RAC')?.n || 0;
 const nDocHieuThieuThat = demTheoMa.get('DOC_HIEU_THIEU_NGHIA_VU')?.n || 0;
 
-t('kho thật: HS_KHONG_TON_TAI < 100 (70) và HS_AHTN_CU_DA_ANH_XA > 100 (131, mức Thấp)',
-  nKhongTonTaiThat > 0 && nKhongTonTaiThat < 100
+t('kho thật: HS_KHONG_TON_TAI < 100 (≥ 0) và HS_AHTN_CU_DA_ANH_XA > 100 (mức Thấp)',
+  nKhongTonTaiThat >= 0 && nKhongTonTaiThat < 100
   && nAnhXaThat > 100
   && dmThat.filter((d) => d.ma === 'HS_AHTN_CU_DA_ANH_XA').every((d) => d.muc === 'Thấp' && d.luong === 'danh-muc-hs'),
   JSON.stringify({ HS_KHONG_TON_TAI: nKhongTonTaiThat, HS_AHTN_CU_DA_ANH_XA: nAnhXaThat }));
