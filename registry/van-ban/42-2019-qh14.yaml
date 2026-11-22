@@ -25,8 +25,23 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đỗi, bd sung một số điều của Luật Kinh doanh bảo hiểm 1. Bổ sung các khoản 21, 22, 23, 24, 25 và 26 vào sau khoản 20 Điều 3 như sau:'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Sửa đối, bỗ sung một số điều của Luật Sở hữu trí tuệ 1. Sửa đổi, bd sung điểm a khoản 3 Điều 6 như sau: “a) Quyền sở hữu công nghiệp đối với sáng chế, kiểu dáng công nghiệp, thiết kế bố trí, nhãn hiệu được xác lập trên cơ sở quyết định cấp văn bang bảo hộ của cơ quan nhà nước có thẩm quyền theo thủ tục đăng ký quy định tại Luật này hoặc công nhận đăng ký quốc tế theo điều ước quốc tế mà'
+      trang_pdf: 4
+    - dieu: 3
+      noi_dung: 'Điều 3. Hiệu lực thi hành 1. Luật này có hiệu lực thi hành từ ngày 01 tháng 11 năm 2019, trừ trường hợp quy định tại khoản 4 Điều này. 2. Bỗ sung mục 32a vào sau mục 32 Phụ lục 4 Danh mục ngành, nghề đầu tư kinh doanh có điều kiện của Luật Đầu tư số 67/2014/QH13 đã được sửa đổi, bd sung một số điều theo Luật số 90/2015/QH13, Luật số 03/2016/QH14, Luật số 04/2017/QH14 và Luật số 28/2018/QH14 như sau:'
+      trang_pdf: 8
+    - dieu: 4
+      noi_dung: Điều 4. Quy định chuyển tiếp 1. Trong thời hạn 01 năm ké từ ngày Luật này có hiệu lực, cá nhân, tổ chức cung cap dich vụ phụ trợ bảo hiểm trước ngày Luật nay có hiệu lực phải đáp ứng các điều kiện cung cấp dịch vụ phụ trợ bảo hiểm theo quy định tại Luật này.
+      trang_pdf: 8
 ghi_chu: Lần sửa đổi thứ hai của Luật Sở hữu trí tuệ (kèm Luật Kinh doanh bảo hiểm).
 tu_khoa:
   - so-huu-tri-tue
   - shtt
-toan_van: raw/download/datafiles.chinhphu.vn/42-2019-qh14.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/42-2019-qh14.pdf
+  - raw/ocr/42-2019-qh14.ocr.txt

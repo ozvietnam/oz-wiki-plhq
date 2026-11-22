@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 2652/QĐ-BCT
 loai: QUYET_DINH
-ten: 'Về kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm sợi dài làm từ polyester có xuất xứ từ Cộng hòa Nhân dân Trung Hoa, Cộng hòa Ấn Độ, Cộng hòa In-đô-nê-xi-a và Ma-lai-xi-a'
+ten: Về kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm sợi dài làm từ polyester có xuất xứ từ Cộng hòa Nhân dân Trung Hoa, Cộng hòa Ấn Độ, Cộng hòa In-đô-nê-xi-a và Ma-lai-xi-a
 co_quan: BCT
 ngay_ban_hanh: '2026-10-13'
 hieu_luc_tu: '2026-10-16'
@@ -17,7 +17,9 @@ quan_he:
 nguon:
   - url: https://moit.gov.vn/upload/2005517/fck/files/QD_2652_ap_thue_vu_viec_ER01_AD10_fd85a.pdf
     truy_cap: '2026-11-21'
-toan_van: raw/download/moit.gov.vn/2652-qd-bct.pdf
+toan_van:
+  - raw/download/moit.gov.vn/2652-qd-bct.pdf
+  - raw/ocr/2652-qd-bct-2026.ocr.txt
 trich_dan_trong_bieu_thue: 6
 xac_minh:
   muc: NGUON_A
@@ -25,4 +27,20 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Kết quả rà soát cuối kỳ (ER01.AD10) biện pháp chống bán phá giá đối với sợi polyester (PFY, 6 mã HS); thay thế Quyết định 3546/QĐ-BCT từ ngày 16-10-2026.'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Gia hạn thêm 05 năm việc áp dụng thuế chống bán phá giá đối với một số sản phẩm sợi dài làm từ polyester, được phân loại theo các mã HS 5402.33.10, 5402.33.90, 5402.46.10, 5402.46.90, 5402.47.10 và 5402.47.90, được nhập khẩu vào Việt Nam, có xuất xứ từ Cộng hòa Ấn Độ, Cộng hòa In-đô-nê-xi-a, Ma-lai-xi-a và Cộng hòa nhân dân Trung Hoa (mã vụ việc: ER01.AD10) với nội dung chỉ tiết nêu tại Thông báo kèm theo Quyết định này.'
+      trang_pdf: 2
+    - dieu: 2
+      noi_dung: Điều 2. Các Quyết định miễn trừ việc áp dụng biện pháp chồng bán phá giá đối với một số sản phẩm sợi dài làm từ polyester nêu tại Điều 1 Quyết định này đã được Bộ trưởng Bộ Công Thương ban hành trước ngày Quyết định này có hiệu lực, tiếp tục được thực hiện đến hết thời hạn hiệu lực của Quyết định miễn trừ đó.
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: Điều 3. Quyết định này có hiệu lực thi hành kể từ ngày 16 tháng 10 năm 2026.
+      trang_pdf: 2
+    - dieu: 4
+      noi_dung: 'Điều 4. Các Quyết định sau hết hiệu lực thi hành: 1. Quyết định số 2302/QĐ-BCT ngày 13 tháng 10 năm 2021 của Bộ trưởng Bộ Công Thương về việc áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm sợi dài làm từ polyester có xuất xứ từ Cộng hòa Nhân dân Trung Hoa, Cộng hòa Án Độ, Cộng hòa In-đô-nê-xi-a và Ma-lai-xi-a;'
+      trang_pdf: 2
+    - dieu: 5
+      noi_dung: Điều 5. Chánh Văn phòng Bộ, fare trưởng Cục Phòng vệ. th nng ø mại, ‘Tha trưởng các don VỊ và các bên a quan chịu trách nhiệm thi hành Quyết định này. /.
+      trang_pdf: 3
+ghi_chu: Kết quả rà soát cuối kỳ (ER01.AD10) biện pháp chống bán phá giá đối với sợi polyester (PFY, 6 mã HS); thay thế Quyết định 3546/QĐ-BCT từ ngày 16-10-2026.

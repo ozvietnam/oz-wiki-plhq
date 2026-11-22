@@ -31,4 +31,25 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-toan_van: raw/download/datafiles.chinhphu.vn/14-2024-tt-bnnptnt.pdf
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Danh mục vật thé thuộc diện kiểm dịch thực vật 1. Thực vật: Cây và các bộ phận của cây. ''2. Sản phẩm thực vật: _a) Các loại củ, quả, hat, hoa, lá, thân, cành, gốc, rễ, vỏ cây; b) Các loại tắm, cám, khô dầu, san lát, sợi tự nhiên đạng thô, xơ thực vật; c) Bột có nguồn gốc thực vật, tinh bột sắn; đ) Cọng thuốc lá, bông thô, phế liệu bông, rơm, rạ và thực vật thủy sinh (trừ các loại rong, tảo, thực vật thuỷ sinh sống ở biển);'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Danh mục vật thé thuộc diện kiểm dich thực vật phải phân tích nguy cơ dịch hại trước khi nhập khẩu vào Việt Nam 1. Vật liệu làm giống: Cây giống, hạt giống, củ giống và các bộ phận có thé làm giống của cây (trừ cây ở dạng nuôi cấy mô, hạt giống các loại cây họ thập tự, hạt giống lúa, ngô, kê, hạt giống hành, tôi). 2. Quả tươi, củ khoai lang tươi, củ khoai tây tươi. 3. Có, hạt cỏ sử dụng cho mục đích gieo trồng.'
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: 'Điều 3. Các vật thể thuộc diện kiểm dịch thực vật được miễn phân tích nguy cơ dịch hại Các vật thể thuộc diện kiểm dịch thực vật quy định tại Điều 2 Thông tư này được miễn phân tích nguy cơ dịch hại trong các trường hợp: 1. Vật liệu làm giống nhập khẩu phục vụ nghiên cứu khoa học hoặc thử nghiệm, đánh giá trong phòng thí nghiệm.'
+      trang_pdf: 2
+    - dieu: 4
+      noi_dung: Điều 4. Điều khoản chuyển tiếp 1. Hồ sơ đề nghị cấp Giấy chứng nhận kiểm dịch thực vật đối với vật thê trong Danh mục vật thể thuộc diện kiểm dịch thực vật;
+      trang_pdf: 3
+    - dieu: 5
+      noi_dung: Điều 5. Điều khoản thi hành. 1. Thông tư này có hiệu lực thi hành ké tirngay49 thang42 năm 2024. 2. Thông tư số 30/2014/TT-BNNPTNT ngày 05 tháng 9 nam 2014 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn về việc Ban hành danh mục vật thể thuộc diện kiểm dịch thực vật; Danh mục vật thể thuộc diện kiểm dịch thực vật phải phân tích nguy cơ dịch hại trước khi nhập khẩu vào Việt Nam hết hiệu lực ké từ ngày Thông tư này có hiệu lực thi hành.
+      trang_pdf: 3
+    - dieu: 6
+      noi_dung: Điều 6. Trách nhiệm thihanh - 1. Chánh Văn phòng Bộ, Cục trưởng Cục Bảo vệ thực vật, tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Thông tư này. 2. Trong quá trình thực hiện Thông tư, nếu có khó khăn, vướng mắc, các cơ quan, đơn vị, tô chức, cá nhân kịp thời phản ánh về Bộ Nông nghiệp và Phát triển nông thôn (Cục Bảo vệ thực vật) để tổng hợp, trình Bộ trưởng xem xét, quyết định./. mBÓ TRƯỞNG —
+      trang_pdf: 4
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/14-2024-tt-bnnptnt.pdf
+  - raw/ocr/14-2024-tt-bnnptnt.ocr.txt

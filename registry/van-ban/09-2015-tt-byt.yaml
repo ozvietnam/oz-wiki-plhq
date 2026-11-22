@@ -12,8 +12,8 @@ quan_he:
   sua_doi:
     - so_hieu: 06/2011/TT-BYT
       tu_ngay: '2015-07-16'
-      pham_vi: 'Bãi bỏ các quy định về quảng cáo mỹ phẩm trong Thông tư số 06/2011/TT-BYT ngày 25/01/2011'
-      can_cu: 'Điểm d khoản 2 Điều 24 Thông tư 09/2015/TT-BYT'
+      pham_vi: Bãi bỏ các quy định về quảng cáo mỹ phẩm trong Thông tư số 06/2011/TT-BYT ngày 25/01/2011
+      can_cu: Điểm d khoản 2 Điều 24 Thông tư 09/2015/TT-BYT
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=180328
     truy_cap: '2026-11-12'
@@ -29,8 +29,41 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-12'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Xác minh nguồn bậc A (OZV-561) — quy định điều kiện, thẩm quyền, hồ sơ, thủ tục xác nhận nội dung quảng cáo đối với thuốc, mỹ phẩm, thực phẩm/phụ gia thực phẩm thuộc quản lý Bộ Y tế, hóa chất/chế phẩm diệt côn trùng diệt khuẩn dùng trong gia dụng và y tế, trang thiết bị y tế, sữa và sản phẩm dinh dưỡng dùng cho trẻ, dịch vụ khám bệnh chữa bệnh. Điểm d khoản 2 Điều 24 bãi bỏ quy định về quảng cáo mỹ phẩm tại TT 06/2011/TT-BYT; một số thủ tục xác nhận quảng cáo chuyên ngành đã hết hiệu lực một phần theo các nghị định, thông tư mới của Chính phủ và Bộ Y tế.'
-toan_van: raw/download/datafiles.chinhphu.vn/09-2015-tt-byt.pdf
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Thông tư này quy định về điều kiện, thẩm quyền, hồ sơ, thủ tục xác nhận nội dung quảng cáo đối với sản phẩm, hàng hóa, dịch vụ đặc biệt thuộc lĩnh vực quản lý của Bộ Y tế, bao gồm: JL Thuốc không thuộc trường hợp cắm quảng cáo quy định tại Khoản 5 Điều 7 của Luật quảng cáo. 2. Mỹ phẩm. 3. Thực phẩm, phụ gia thực phẩm thuộc lĩnh vực được phân công quản lý của Bộ Y tế, bao gồm: a) Thực phẩm chức năng;'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng Thông tư này ấp dụng với tổ chức, cá nhân có liên quan đến việc xác nhận nội dung quảng cáo đối với sản phẩm, hàng hóa, dịch vụ đặc biệt thuộc lĩnh vực quản lý của Bộ Y tế trên lãnh thé Việt Nam.
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: Điều 3. Phí thẩm định, lệ phi cấp, cấp lại giấy xác nhận nội dung quãng cáo đối với sản phẩm, hàng hóa, dịch vụ đặc biệt thuộc lĩnh vực quản lý của Bộ Y tế 1. Đơn vị đề nghị xác nhận nội dung quảng cáo có trách nhiệm nộp phí thâm định, lệ phí cấp, cấp lại giấy xác nhận nội dung quảng cáo tại cơ quan tiép nhận hề sơ đề nghị xác nhận nội dung quảng cáo theo quy định của pháp luật.
+      trang_pdf: 2
+    - dieu: 7
+      noi_dung: 'Điều 7. Điều kiện xác nhận nội dung quảng cáo thực phẩm, phụ gia thực phẩm 1. Sản phẩm thực phẩm, phụ gia thực phẩm đã có giấy xác nhận công bố phù hợp quy định an toàn thực phẩm (đối với sản phẩm chưa có quy chuẩn kỹ thuật quốc gia) hoặc giấy tiếp nhận bản công bố hợp quy của cơ quan nhà nước có thầm quyền cấp. 2. Nội dung quảng cáo phải theo đúng quy định tại Điều 5 Nghị định số 181/2013/NĐ-CP và các nội dung sau đây:'
+      trang_pdf: 6
+    - dieu: 11
+      noi_dung: 'Điều 11. Điều kiện xác nhận nội dung quảng cáo dịch vụ khám bệnh, chữa bệnh 1. Phải đủ điều kiện quảng cáo quy định tại Điểm e Khoản 4 Điều 20 của Luật quảng cáo, cụ thé như sau: a) Giấy phép hoạt động khám bệnh, chữa bệnh đối với cơ sở khám bệnh, chữa bệnh; b) Chứng chỉ hành nghề khám bệnh, chữa bệnh đối với người hành nghề mà pháp luật về khám bệnh, chữa bệnh quy định bắt buộc phải có chứng chỉ hành nghề.'
+      trang_pdf: 8
+    - dieu: 14
+      noi_dung: Điều 14. Hồ sơ đề nghị xác nhận nội dung quảng cáo thuốc 1. Các giấy tờ quy định tại Điều 13 Thông tư này. 2. Tờ hướng dẫn sử dụng thuốc đã được Cục Quản lý được - Bộ Y tế phê duyệt. 3. Giấy-phép lưu hành sản phẩm do Cục Quản lý dược cấp hoặc quyết định cấp số đăng kỹ thuôc tại Cục Quán lý dược.
+      trang_pdf: 11
+    - dieu: 16
+      noi_dung: Điều 16. Hồ sơ đề nghị xác nhận nội dung quảng cáo thực phẩm, phụ gia thực phẩm, sữa và sản phẩm dinh dưỡng ding cho trẻ 1. Các Biấy tờ quy định tại Điều 13 Thông tư này. ; 2. Gidy tiép nhan ban công bố hợp quy hoặc giấy xác nhận công bố phù hợp quy định an toàn thực phẩm (đối. voi những sản phẩm chưa có quy chuẩn kỹ thuật) của cơ quan nhà nước có thẩm quyền cấp. 3. Bản thông tin chi tiết về sản phẩm đã được cơ quan có thâm quyền xác nhận.
+      trang_pdf: 11
+    - dieu: 19
+      noi_dung: Điều 19. Hồ sơ đề nghị xác nhận nội dung quảng cáo dịch vụ khám bệnh, chữa bệnh 1. Các giấy tờ quy định tại Điều 13 Thông tư này. 2. Giấy phép hoạt động khám bệnh, chữa bệnh của cơ sở thực hiện dịch vụ khám bệnh, chữa bệnh được quảng cáo do Bộ trưởng Bộ Y tế hoặc Giám đắc Sở Y tế cấp và danh mục kỹ thuật chuyên môn đã được Bộ trưởng Bộ Y tế hoặc Giám đốc Sở Y tế phê duyệt.
+      trang_pdf: 12
+    - dieu: 22
+      noi_dung: 'Điều 22. Cách ghi số giấy xác nhận nội dung quảng cáo 1. Đối với nội dung quảng cáo do các tổ chức thuộc Bộ Y tế cấp giấy xác nhận nội dung quảng cáo, nguyên tắc ghi như sau: số thứ tự được cấp/năm cắp/XNQC-tên viết tắt của tổ chức cấp. Ví dụ: 123/2015/XNQC-ATTP. 2. Đối với giấy xác nhận nội dung quảng + cáo do Sở Y tế, Chi cục An toàn vệ sinh thực phẩm cấp, nguyên tắc ghỉ như sau: số thứ tự được cắp/năm cấp/XNQC-'
+      trang_pdf: 15
+    - dieu: 26
+      noi_dung: Điều 26. Quy định chuyển tiếp 1. Tổ chức, cá nhân đã đăng ký hồ sơ quảng cáo sản phẩm, hàng hóa, dịch vụ đặc biệt thuộc lĩnh vực quản lý của Bộ Y tế được cơ quan quản lý nhà nước có thâm quyền cấp giấy tiếp nhận hồ sơ đăng ký quảng cáo trước ngày Thông tư này có hiệu lực được tiếp tục thực hiện quảng cáo cho đến khi giấy tiếp nhận hồ sơ đăng ký quảng cáo hết hiệu lực.
+      trang_pdf: 18
+ghi_chu: Xác minh nguồn bậc A (OZV-561) — quy định điều kiện, thẩm quyền, hồ sơ, thủ tục xác nhận nội dung quảng cáo đối với thuốc, mỹ phẩm, thực phẩm/phụ gia thực phẩm thuộc quản lý Bộ Y tế, hóa chất/chế phẩm diệt côn trùng diệt khuẩn dùng trong gia dụng và y tế, trang thiết bị y tế, sữa và sản phẩm dinh dưỡng dùng cho trẻ, dịch vụ khám bệnh chữa bệnh. Điểm d khoản 2 Điều 24 bãi bỏ quy định về quảng cáo mỹ phẩm tại TT 06/2011/TT-BYT; một số thủ tục xác nhận quảng cáo chuyên ngành đã hết hiệu lực một phần theo các nghị định, thông tư mới của Chính phủ và Bộ Y tế.
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/09-2015-tt-byt.pdf
+  - raw/ocr/09-2015-tt-byt.ocr.txt
 tu_khoa:
   - my-pham
   - quang-cao

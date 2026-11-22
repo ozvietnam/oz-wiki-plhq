@@ -14,10 +14,19 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Mức thuế bảo vệ môi trường đối với xăng, dầu, mỡ nhờn 1. Mức thuế bảo vệ môi trường đối với xăng, dầu, mỡ nhờn từ ngày 01 tháng 01 năm 2026 đên hết ngày 31 tháng 12 năm 2026 được quy định như sau: B K Số TT Hàng hóa vinh hight héa) 1 Xăng, trừ etanol lít 2.000 2 __ | Nhiên liệu bay lít 1.500 3 | Dau diesel lit 1.000 4 |Dầuhỏa lit 600 5 | Dau mazut lit 1.000 6 |Dầunhờn lit 1.000 7 |Mỡnhờn kg 1.000'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Điều khoản thi hành 1. Nghị quyết này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026.
+      trang_pdf: 1
+ghi_chu: Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=215926&pageid=27160
     truy_cap: '2026-10-10'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/11/nq109cuaubtvqh.pdf
     truy_cap: '2026-10-10'
-toan_van: raw/download/datafiles.chinhphu.vn/109-2025-ubtvqh15.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/109-2025-ubtvqh15.pdf
+  - raw/ocr/109-2025-ubtvqh15.ocr.txt

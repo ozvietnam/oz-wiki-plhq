@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 96/2023/NĐ-CP
 loai: NGHI_DINH
-ten: 'Quy định chi tiết một số điều của Luật Khám bệnh, chữa bệnh'
+ten: Quy định chi tiết một số điều của Luật Khám bệnh, chữa bệnh
 co_quan: CP
 ngay_ban_hanh: '2023-12-30'
 hieu_luc_tu: '2024-01-01'
@@ -12,13 +12,13 @@ quan_he:
   sua_doi:
     - so_hieu: 98/2021/NĐ-CP
       tu_ngay: '2024-01-01'
-      pham_vi: 'sửa đổi tên Chương IV; sửa đổi, bổ sung các Điều 12, 13, 14, 15, 16, 17, 18, 19, 20, 30 và bổ sung Điều 32a (riêng khoản 19 Điều 147 sửa đổi, bổ sung Điều 30 áp dụng từ 01/01/2026)'
-      can_cu: 'Các khoản 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21 Điều 147 Nghị định 96/2023/NĐ-CP'
+      pham_vi: sửa đổi tên Chương IV; sửa đổi, bổ sung các Điều 12, 13, 14, 15, 16, 17, 18, 19, 20, 30 và bổ sung Điều 32a (riêng khoản 19 Điều 147 sửa đổi, bổ sung Điều 30 áp dụng từ 01/01/2026)
+      can_cu: Các khoản 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21 Điều 147 Nghị định 96/2023/NĐ-CP
   bai_bo:
     - so_hieu: 155/2018/NĐ-CP
       tu_ngay: '2024-01-01'
-      pham_vi: 'Điều 11'
-      can_cu: 'Khoản 3 Điều 147 Nghị định 96/2023/NĐ-CP'
+      pham_vi: Điều 11
+      can_cu: Khoản 3 Điều 147 Nghị định 96/2023/NĐ-CP
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=209491
     truy_cap: '2026-11-12'
@@ -32,8 +32,41 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-12'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Nạp từ điểm mù CAO (OZV-560) — sửa đổi, bổ sung Nghị định 98/2021/NĐ-CP về thử nghiệm lâm sàng thiết bị y tế (Điều 12–20), thành phần hồ sơ đề nghị cấp mới số lưu hành thiết bị y tế (Điều 30, áp dụng từ 01/01/2026) và cơ chế ưu tiên xử lý hồ sơ đăng ký lưu hành thiết bị y tế bao gồm thiết bị y tế nhập khẩu (Điều 32a); đồng thời chuyển quan hệ sua_doi từ 98-2021-nd-cp.yaml về đúng chiều đi tại phiếu 96-2023-nd-cp.yaml. Khoản 3 và khoản 22 Điều 147 còn thay thế Nghị định 109/2016/NĐ-CP và Nghị định 102/2011/NĐ-CP (hành nghề và bảo hiểm trách nhiệm khám chữa bệnh nội địa, chưa đưa vào quan_he.thay_the vì nằm ngoài phạm vi sổ XNK).'
-toan_van: raw/download/datafiles.chinhphu.vn/96-2023-nd-cp.pdf
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh 1. Nghị định này quy định chi tiết một số điều của Luật Khám bệnh, chữa bệnh về: a) Cấp giấy phép hành nghề khám bệnh, chữa bệnh; b) Cấp giấy phép hoạt động khám bệnh, chữa bệnh; c) Ap dung kỹ thuật mới, phương pháp mới và thử nghiệm lâm sang trong khám bệnh, chữa bệnh; d) Quản lý thiết bị y tế tại cơ sở khám bệnh, chữa bệnh;'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Giải thích từ ngữ 1, Người hành nghề toàn thời gian là người lao động đã được cấp giấy phép hành nghề và đăng ký hành nghề trong toàn bộ thời gian làm việc theo giờ làm việc hành chính của cơ sở khám bệnh, chữa bệnh.
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: 'Điều 3. Thời gian, nội dung thực hành dé cấp giấy phép hành nghề khám bệnh, chữa bệnh 1. Thời gian thực hành khám bệnh, chữa bệnh đối với chức danh bác sỹ là 12 tháng, trong đó: a) Thời gian thực hành chuyên môn khám bệnh, chữa bệnh là 09 tháng: b) Thời gian thực hành chuyên môn khám bệnh, chữa bệnh vẻ hồi sức cấp cứu là 03 tháng. 2. Thời gian thực hành khám bệnh, chữa bệnh đối với chức danh y sỹ là 09 tháng, trong đó:'
+      trang_pdf: 4
+    - dieu: 36
+      noi_dung: Điều 36. Sử dung ngôn ngữ đối với người nước ngoài, đồng bào dân tộc thiểu số không có khả năng sử dụng tiếng Việt, người khuyết tật về ngôn ngữ đến khám bệnh, chữa bệnh tại cơ sở khám bệnh, chữa bệnh tại Việt Nam
+      trang_pdf: 58
+    - dieu: 54
+      noi_dung: 'Điều 54. Điều kiện cấp giấy phép hoạt động đối với cơ sở tâm lý lâm sàng Ngoài việc đáp ứng các điều kiện chung theo quy định tại Điều 40 Nghị định này, người chịu trách nhiệm chuyên môn kỹ thuật của cơ sở tâm lý lâm sàng phải là người hành nghề thuộc một trong các chức danh sau đây: 1. Tâm lý lâm sàng.'
+      trang_pdf: 75
+    - dieu: 73
+      noi_dung: Điều 73. Nguyên tắc hoạt động của tổ chức chứng nhận chất lượng cơ sử khám bệnh, chữa bệnh 1. Bảo đảm thực hiện đúng quy định tại khoản 1 và 2 Điều 58 của Luật Khám bệnh, chữa bệnh. 2. Đánh giá, chứng nhận chất lượng phải bảo đảm phù hợp với tiêu chuẩn quản lý chất lượng đã được Bộ Y tế ban hành hoặc thừa nhận. 3. Việc đánh giá, chứng nhận chất lượng được thực hiện tự nguyện trên cơ sở hợp đồng dịch vụ với cơ sở khám bệnh, chữa bệnh.
+      trang_pdf: 91
+    - dieu: 90
+      noi_dung: Điều 90. Hồ sơ, thủ tục xếp cấp chuyên môn kỹ thuật 1. Hồ sơ đề nghị xếp cắp chuyên môn kỹ thuật:. a) Văn bản đề nghị xếp cấp; b) Bảng tự chấm điểm theo tiêu chí và nội dung đánh giá quy định tại Phụ lục V ban hành kèm theo Nghị định nay; `
+      trang_pdf: 109
+    - dieu: 108
+      noi_dung: Điều 108. Kinh phí chỉ thường xuyên của cơ sở khám bệnh, chữa bệnh của nhà nước được huy động, điều động theo Điều 116 của Luật Khám bệnh, chữa bệnh 1. Nguồn kinh phí bảo đảm chỉ thường xuyên của cơ sở khám bệnh, chữa bệnh của nhà nước được huy động, điều động thực hiện theo quy định tại khoản 2 Diéu 117 của Luật Khám bệnh, chữa bệnh.
+      trang_pdf: 126
+    - dieu: 125
+      noi_dung: 'Điều 125. Quy trình cấp giấy phép hành nghề khám bệnh, chữa bệnh 1. Sau khi hoàn thành chương trình đào tạo, người có văn bằng tốt nghiệp thuộc lĩnh vực sức khỏe sẽ được lựa chọn một trong ba phương án liên quan đến cấp giấy phép hành nghề khám bệnh, chữa bệnh như sau:'
+      trang_pdf: 143
+    - dieu: 147
+      noi_dung: Điều 147. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2024. 2. Quy định cập nhật, đăng tải thông tin trên Hệ thống thông tin về quân lý hoạt động khám bệnh, chữa bệnh tại Nghị định này bắt đầu thực hiện từ ngày 01 tháng 01 năm 2027.
+      trang_pdf: 181
+ghi_chu: Nạp từ điểm mù CAO (OZV-560) — sửa đổi, bổ sung Nghị định 98/2021/NĐ-CP về thử nghiệm lâm sàng thiết bị y tế (Điều 12–20), thành phần hồ sơ đề nghị cấp mới số lưu hành thiết bị y tế (Điều 30, áp dụng từ 01/01/2026) và cơ chế ưu tiên xử lý hồ sơ đăng ký lưu hành thiết bị y tế bao gồm thiết bị y tế nhập khẩu (Điều 32a); đồng thời chuyển quan hệ sua_doi từ 98-2021-nd-cp.yaml về đúng chiều đi tại phiếu 96-2023-nd-cp.yaml. Khoản 3 và khoản 22 Điều 147 còn thay thế Nghị định 109/2016/NĐ-CP và Nghị định 102/2011/NĐ-CP (hành nghề và bảo hiểm trách nhiệm khám chữa bệnh nội địa, chưa đưa vào quan_he.thay_the vì nằm ngoài phạm vi sổ XNK).
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/96-2023-nd-cp.pdf
+  - raw/ocr/96-2023-nd-cp.ocr.txt
 tu_khoa:
   - thiet-bi-y-te
   - trang-thiet-bi-y-te

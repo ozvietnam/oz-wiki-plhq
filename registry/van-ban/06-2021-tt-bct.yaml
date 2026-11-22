@@ -14,8 +14,17 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đỗi, bố sung một số điều của Thông tư số. 16/2014/T1- BCT . ngày 29 thang 5 năm 2014 của Bộ trưởng Bộ Công Thương quy định về thực hiện giá bán điện 1. Điểm b khoản 1 Điều 4 được sửa đôi như sau: “b) Đơn vi bán lẻ điện tại khu công nghiệp, cụm công nghiệp” 2. Điểm b khoản 2 Điều 5 được sửa đổi như sau: _ “b) Don vị bán lẻ điện tại khu công nghiệp, cụm công nghiệp”'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Hiệu lực thihành _ 1. Thông tư này có "hiệu lực thi hành tỉ từ ngày +5 tháng 9 năm 2021. 2. Trong quá trình thực hiện nếu Có vướng mắc, vẫn đề mới phát sinh, yêu cầu các đơn vị có liên quan phản ánh về Cục Điều tiết điện lực để xem xét, giải quyết theo thâm quyền hoặc báo cáo Bộ Công Thương giải quyết./.
+      trang_pdf: 4
 ghi_chu: Sửa đổi quy định thực hiện giá bán điện tại Thông tư 16/2014/TT-BCT.
-toan_van: raw/download/datafiles.chinhphu.vn/06-2021-tt-bct.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/06-2021-tt-bct.pdf
+  - raw/ocr/06-2021-tt-bct.ocr.txt
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=203818
     truy_cap: '2026-11-15'
