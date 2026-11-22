@@ -14,8 +14,26 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: paperclip-agent@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Vị trí và chức năng Bộ Nông nghiệp và Môi trường là cơ quan của Chính phủ thực hiện chức năng quản lý nhà nước về các lĩnh vực: nông nghiệp; lâm nghiệp; diêm nghiệp; thủy sản; thủy lợi; phòng chống thiên tai; phat triển nông thôn; đất dai; tài nguyên nước; tài nguyên khoáng sản, địa chất; môi trường; khí tượng thuỷ văn; biến đổi khí hậu; đo đạc và bản đồ; quản lý tổng hợp tài nguyên và bảo vệ môi trường biển và hải đảo; viễn thám;'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Nhiệm vụ và quyền hạn Bộ Nông nghiệp và Môi trường thực hiện các nhiệm vụ, quyền hạn quy định tại Luật Tổ chức Chính phủ, quy định của Chính phủ về chức năng, nhiệm vụ, quyền hạn và cơ cầu tổ chức của bộ, cơ quan ngang bộ và những nhiệm vụ, quyền hạn cụ thể sau:'
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Cơ cấu tổ chức 1. Vụ Hợp tác quốc tế. 2. Vụ Kế hoạch - Tài chính. 3. Vụ Khoa học và Công nghệ. 4. Vụ Pháp chế. 5. Vụ Tổ chức cán bộ. 6. Văn phòng bộ. 7. Thanh tra bộ. 8. Cục Chuyển đổi số. 9. Cục Trồng trọt và Bảo vệ thực vật. 10. Cục Chăn nuôi và Thú y. 11. Cục Thủy sản và Kiểm ngư. 12. Cục Lâm nghiệp và Kiểm lâm. 13. Cục Quản lý và Xây dựng công trình thuỷ lợi. 14. Cục Quản lý đê điều và Phòng, chống thiên tai.
+      trang_pdf: 22
+    - dieu: 4
+      noi_dung: Điều 4. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 3 năm 2025. 2. Nghị định này thay thế Nghị định số 68/2022/NĐ-CP ngày 22 thang 9 năm 2022 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu t6 chức của Bộ Tài nguyên và Môi trường và Nghị định sô 105/2022/NĐ-CP ngày 22 tháng 12 năm 2022 của Chính phủ quy định chức hang, nhiệm vụ, quyền hạn và cơ cấu tô chức của Bộ Nông nghiệp và Phát triển nông thôn.
+      trang_pdf: 23
+    - dieu: 5
+      noi_dung: Điều 5. Trách nhiệm thi hành Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Uy ban nhân dân tỉnh, thành phô trực thuộc trung ương chịu trách nhiệm thi hành Nghị định này.
+      trang_pdf: 24
 ghi_chu: Nghị định quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nông nghiệp và Môi trường — căn cứ pháp lý về thẩm quyền ban hành cho TT 01/2026/TT-BNNMT và các văn bản của BNNMT.
-toan_van: raw/download/datafiles.chinhphu.vn/35-2025-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/35-2025-nd-cp.pdf
+  - raw/ocr/35-2025-nd-cp.ocr.txt
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=223102&pageid=27160
     truy_cap: '2026-10-12'

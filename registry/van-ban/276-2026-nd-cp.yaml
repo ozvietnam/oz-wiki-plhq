@@ -8,10 +8,26 @@ nhanh:
   - bo-may
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, trích yếu, ngày ban hành và có hiệu lực 08-07-2026 trên vanban.chinhphu.vn (docid=218832), người ký Phạm Thị Thanh Trà; đối chiếu toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/276-2026-nd-cp.pdf) còn hiệu lực'
+  pham_vi: số hiệu, trích yếu, ngày ban hành và có hiệu lực 08-07-2026 trên vanban.chinhphu.vn (docid=218832), người ký Phạm Thị Thanh Trà; đối chiếu toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/276-2026-nd-cp.pdf) còn hiệu lực
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Vị trí và chức năng Bộ Nội vụ là cơ quan của Chính phủ, thực hiện chức năng quản lý nhà nước về các ngành, lĩnh vực: Tổ chức hành chính, đơn vị sự nghiệp công lập; tổ chức chính quyền địa phương; cán bộ, công chức, viên chức và công vụ; lao động, tiền lương, bảo hiểm xã hội; việc làm; an toàn, vệ sinh lao động; hội, quỹ xã hội, quỹ từ thiện, tổ chức phi chính phủ; người có công; thanh niên; bình đăng giới; văn thư, lưu trữ nhà nước;'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Nhiệm vụ và quyền hạn Bộ Nội vụ thực hiện nhiệm vụ, quyền hạn theo quy định tại Luật Tả chức Chính phủ, quy định của Chính phủ về chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của bộ, cơ quan ngang bộ và thực hiện những nhiệm vụ, quyền hạn cụ thé sau đây: ,'
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Cơ cấu tô chức 1. Vụ Tổ chức - Biên chế. 2. Vụ Chính quyền địa phương. 3. Vụ Công chức - Viên chức.
+      trang_pdf: 11
+    - dieu: 4
+      noi_dung: Điều 4. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành từ ngày 08 tháng 7 năm 2026. 2. Nghị định này thay thế Nghị định số 25/2025/NĐ-CP ngày 21 tháng 02 năm, 2025 của Chính phủ quy định chức năng, nhiệm vụ, quyên hạn và cơ cấu tổ chức của Bộ Nội vụ.
+      trang_pdf: 12
+    - dieu: 5
+      noi_dung: Điều 5. Trách nhiệm thi hành Bộ trưởng Bộ Nội vụ, các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương chịu trách nhiệm thi hành Nghị định này.
+      trang_pdf: 13
 ghi_chu: Bộ Nội vụ nay quản lý an toàn, vệ sinh lao động sau khi Bộ LĐ-TB&XH giải thể. Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
 nguon:
   - url: https://vanban.chinhphu.vn/?classid=1&docid=218832&pageid=27160
@@ -20,4 +36,6 @@ nguon:
     truy_cap: '2026-10-04'
 ngay_ban_hanh: '2026-07-08'
 hieu_luc_tu: '2026-07-08'
-toan_van: raw/download/datafiles.chinhphu.vn/276-2026-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/276-2026-nd-cp.pdf
+  - raw/ocr/276-2026-nd-cp.ocr.txt

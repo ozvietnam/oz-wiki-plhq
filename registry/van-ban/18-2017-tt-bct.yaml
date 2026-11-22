@@ -14,8 +14,17 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Bãi bỏ một số điều của Thông tư liên tịch số 58/2015/TTLT- BCT-BKHCN ngày 31 tháng 12 năm 2015 của Bộ trưởng Bộ Công Thương và Bộ trưởng Bộ Khoa học và Công nghệ quy định quản lý chất lượng thép sản xuất trong nước và thép nhập khẩu như sau: 1. Bãi bỏ điểm c khoản 2 Điều 1; khoản 2 Điều 2; Điều 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, khoản 2 Điều 21 và Điều 22.'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2: Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 08 tháng1 † năm 2017. 2. Trong quá trình triển khai, nếu có khó khăn, vướng mắc, đề nghị các cơ quan, tổ chức, cá nhân kịp thời phản ánh về Bộ Công Thương để có hướng dẫn sửa đổi, bd sung...'
+      trang_pdf: 2
 ghi_chu: Bãi bỏ một số điều của Thông tư liên tịch 58/2015/TTLT-BCT-BKHCN về quản lý chất lượng thép.
-toan_van: raw/download/datafiles.chinhphu.vn/18-2017-tt-bct.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/18-2017-tt-bct.pdf
+  - raw/ocr/18-2017-tt-bct.ocr.txt
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=191725
     truy_cap: '2026-11-15'

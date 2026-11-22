@@ -14,7 +14,9 @@ nguon:
     truy_cap: '2026-11-20'
   - url: https://thuehaiquan.tapchikinhtetaichinh.vn/chinh-thuc-ap-dung-quy-trinh-moi-ve-kiem-tra-sau-thong-quan-144580.html
     truy_cap: '2026-11-20'
-toan_van: raw/download/quangtri.gov.vn/2123-qd-chq-2025.pdf
+toan_van:
+  - raw/download/quangtri.gov.vn/2123-qd-chq-2025.pdf
+  - raw/ocr/2123-qd-chq-2025.ocr.txt
 xac_minh:
   muc: NGUON_B
   pham_vi: 'Đã tải và đối chiếu toàn văn bản PDF ký gốc có dấu đỏ (46 trang, 7.660.049 byte, sha256 6335beedd6aeb9d586d21304780d3a53953916e908a19dd716c729c1acbad1b5, gồm Quyết định 3 điều, Quy trình và hệ thống biểu mẫu kèm theo) từ Cổng Thông tin điện tử tỉnh Quảng Trị (quangtri.gov.vn) và Thời báo Tài chính Việt Nam — chuyên trang Thuế & Hải quan: số hiệu 2123/QĐ-CHQ, ngày ban hành 30-12-2025, người ký Cục trưởng Cục Hải quan Nguyễn Văn Thọ, trích yếu nguyên văn "Ban hành Quy trình Kiểm tra sau thông quan và quản lý chế độ ưu tiên". Theo Điều 2 Quyết định (trang 2): Quyết định này có hiệu lực kể từ ngày 01/02/2026, thay thế Quyết định số 575/QĐ-TCHQ ngày 21/03/2019 của Tổng cục trưởng Tổng cục Hải quan về việc ban hành Quy trình Kiểm tra sau thông quan và Quyết định số 2659/QĐ-TCHQ ngày 14/09/2015 của Tổng cục trưởng Tổng cục Hải quan về việc ban hành Quy trình thẩm định điều kiện công nhận doanh nghiệp ưu tiên, áp dụng chế độ ưu tiên, quản lý doanh nghiệp ưu tiên theo quy định tại Thông tư 72/2015/TT-BTC (hai Quyết định 575/QĐ-TCHQ và 2659/QĐ-TCHQ hiện chưa nạp trong sổ nên ghi nhận tại phạm vi đối chiếu và ghi chú để tránh sinh điểm mù THIEU_VAN_BAN). Đang còn hiệu lực.'
@@ -25,7 +27,38 @@ xac_minh:
     viec_tiep: Đã có PDF bản ký gốc dấu đỏ từ quangtri.gov.vn; chờ customs.gov.vn mở chặn để gắn URL customs.gov.vn và nâng NGUON_A
   ngay: '2026-11-20'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Ban hành Quy trình Kiểm tra sau thông quan và quản lý chế độ ưu tiên (KTSTQ theo dấu hiệu vi phạm và theo quản lý rủi ro tại khoản 2, khoản 3 Điều 78 Luật Hải quan; thẩm định, công nhận, gia hạn và quản lý doanh nghiệp ưu tiên - DNUT). Có hiệu lực từ ngày 01/02/2026; theo Điều 2 thay thế Quyết định số 575/QĐ-TCHQ ngày 21/03/2019 và Quyết định số 2659/QĐ-TCHQ ngày 14/09/2015.'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Quy trình này quy định: 1. Trình tự, thủ tục, hồ sơ và các công việc: Thu thập, phân tích, xử lý thông tin phục vụ hoạt động. kiểm tra sau thông quan; xây dựng kê hoạch kiểm tra; thực hiện kiểm tra; xử lý kết quả kiểm tra sau thông quan (sau đây gọi tắt là KTSTQ).'
+      trang_pdf: 3
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng 1. Các đơn vị hải quan và công chức được giao các nhiệm vụ về kiểm tra sau thông quan và quản lý chế độ ưu tiên nêu tại Điêu 1 Quy trình này. 2. Các đơn vị và công chức khác trong ngành hải quan có liên quan.
+      trang_pdf: 3
+    - dieu: 3
+      noi_dung: Điều 3. Giải thích từ ngữ 1. Người khai hải quan thuộc địa bàn quản lý là người khai hải quan có trụ sở chính hoặc có mã số thuế thuộc địa ban quan lý của Chi cục Hải quan khu vực.
+      trang_pdf: 3
+    - dieu: 7
+      noi_dung: Điều 7. Hình thức và nguyên tắc thu thập thông tin 1. Hình thức thu thập thông tin a) Thu thập thông tin bằng văn bản Văn bản thu thập thông tin phải nêu rõ phạm vi, nội dung thông tin cần cung cáp, hình thức cung cấp, thời gian đề nghị nhận được thông tin và đầu môi liên hệ. Thực hiện theo mẫu số 12/TTTT Phụ lục VIII ban hành kèm Thông tư sô 121.
+      trang_pdf: 8
+    - dieu: 10
+      noi_dung: Điều 10. Kiểm tra sau thông quan tại tru sở cơ quan hai quan Chi cục trưởng Chỉ cục Hải quan khu vực/Đội trưởng hải quan tổ chức thực hiện kiêm tra sau thông quan tại trụ sở cơ quan hải quan. 1. Đề xuất kiểm tra - Đối với các hồ sơ hải quan thuộc diện phải kiểm tra trong thời hạn tối đa 05 năm ké từ ngày đăng ký tờ khai đến ngày ký ban hành Quyết định kiểm tra thì
+      trang_pdf: 12
+    - dieu: 14
+      noi_dung: 'Điều 14. Tham định hồ sơ đề nghị áp dụng chế độ ưu tiên 1. Thời gian thâm định hồ sơ: tối đa 05 (năm) ngày làm việc ké từ ngày cơ quan hải quan nhận được đầy đủ hồ sơ theo quy định. 2. Nội dung thâm định hồ sơ:'
+      trang_pdf: 21
+    - dieu: 18
+      noi_dung: Điều 18. Ưu tiên về thủ tục thuế 1. Được hoàn thuế trước, kiểm tra sau. Hồ sơ, thủ tục hoàn thuế thực hiện theo quy định. 2. Thời hạn nộp thuế đối với hàng hóa xuất khẩu, nhập khẩu của doanh nghiệp ưu tiên thực hiện theo quy định tại khoản 2 Điều 9 Luật Thuế xuất khâu, thuế nhập khẩu ngày 06/4/2016. 3. Được ưu tiên khi thực hiện các thủ tục về thuế đối với hàng hóa xuất khẩu, nhập khâu theo quy định của pháp luật về thuê.
+      trang_pdf: 26
+    - dieu: 21
+      noi_dung: Điều 21. Ưu tiên về kiểm tra sau thông quan 1. Được miễn kiểm tra sau thông quan tại trụ sở cơ quan hải quan trừ trường hợp quy định tại khoản 1 Điều 78 Luật Hải quan.
+      trang_pdf: 26
+    - dieu: 24
+      noi_dung: 'Điều 24. Đình chỉ áp dụng chế độ ưu tiên 1. Doanh nghiệp bị đình chỉ áp dụng chế độ ưu tiên nếu thuộc một trong ba trường hợp sau: a) Doanh nghiệp đề nghị dừng áp dụng chế độ ưu tiên; b) Hết thời hạn tạm đình chỉ, doanh nghiệp không thực hiện các quy định tại Điều 45 Luật Hải quan; c) Doanh nghiệp không còn duy trì việc đáp ứng một trong các điều kiện áp dụng chê độ doanh nghiệp ưu tiên.'
+      trang_pdf: 29
+    - dieu: 28
+      noi_dung: Điều 28. Tổ chức thực hiện 1. Chỉ cục trưởng Chỉ cục Kiểm tra sau thông quan, Chỉ cục trưởng Chỉ cục Hải quan khu vực căn cứ vào hướng dẫn tại Quy trình này hướng dẫn cho các đơn vị thuộc Chi cục Kiểm tra sau thông quan, Hải quan cửa khâu/ngoài cửa khâu, Đội Phúc tập và Kiểm tra sau thông quan thực hiện thống nhất.
+      trang_pdf: 33
+ghi_chu: Ban hành Quy trình Kiểm tra sau thông quan và quản lý chế độ ưu tiên (KTSTQ theo dấu hiệu vi phạm và theo quản lý rủi ro tại khoản 2, khoản 3 Điều 78 Luật Hải quan; thẩm định, công nhận, gia hạn và quản lý doanh nghiệp ưu tiên - DNUT). Có hiệu lực từ ngày 01/02/2026; theo Điều 2 thay thế Quyết định số 575/QĐ-TCHQ ngày 21/03/2019 và Quyết định số 2659/QĐ-TCHQ ngày 14/09/2015.
 tu_khoa:
   - kiem-tra-sau-thong-quan
   - doanh-nghiep-uu-tien

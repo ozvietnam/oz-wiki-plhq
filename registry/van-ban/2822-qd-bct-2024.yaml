@@ -22,6 +22,24 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Gia hạn thêm 05 năm việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép hợp kim hoặc không hợp kim được cán phẳng, được sơn nhập khẩu vào Việt Nam và được phân loại theo mã HS 7210.70.12, 7210.70.13, 7210.70.19, 7210.70.21, 7210.70.29, 7210.70.91, 7210.70.99, 7212.40.11, 7212.40.12, 7212.40.13, 7212.40.14, 7212.40.19, 7212.40.91, 7212.40.99, 7225.99.90, 7226.99.19, 7226.99.99 có xuất xứ từ Đại Hàn Dân quốc và Cộng hòa
+      trang_pdf: 3
+    - dieu: 2
+      noi_dung: Điều 2. Các Quyết định miễn trừ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép nêu tại Điều 1 Quyết định này đã được Bộ trưởng Bộ Công Thương ban hàñh trước ngày Quyết định này có hiệu lực, tiếp tục được thực hiện đến hết thời hạn hiệu lực của Quyết định miễn trừ đó.
+      trang_pdf: 3
+    - dieu: 3
+      noi_dung: Điều 3. Quyết định này có hiệu lực thi hành kê từ ngày ký ban hành.
+      trang_pdf: 3
+    - dieu: 4
+      noi_dung: Điều 4. Các Quyết định Sau hết hiệu lực thi hành 1. Quyết định số 3198/QD-BCT ngày 24 tháng 10 năm 2019 của Bộ trưởng Bộ Công Thương về việc áp dụng thuế chống bán phá giá đối với một số sản phâm thép hợp kim hoặc không hợp kim, được cán phẳng, được sơn có xuất xứ từ nước Cộng hòa nhân dân Trung Hoa và nước Đại Hàn Dân quốc;
+      trang_pdf: 3
+    - dieu: 5
+      noi_dung: Điều 5. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại, Thủ trưởng các đơn vị và các bên liên quan chịu trách nhiệm thi hành Quyết định này./.
+      trang_pdf: 4
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (16 mã HS). Mã vụ việc ER01.AD04. PDF Cục PVTM là ảnh ký số — điều khoản đọc bằng OCR. Điều 4 hết hiệu lực các QĐ 3198, 1283, 2964, 84, 449/QĐ-BCT liên quan AD04.
 het_hieu_luc_tu: '2029-10-24'
-toan_van: raw/download/pvtm.gov.vn/2822-qd-bct.pdf
+toan_van:
+  - raw/download/pvtm.gov.vn/2822-qd-bct.pdf
+  - raw/ocr/2822-qd-bct-2024.ocr.txt
