@@ -1,22 +1,18 @@
 # Báo cáo điểm mù — 2026-11-22
 
-Tổng 3136 điểm: **9 cao**, 132 vừa, 2995 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 3043 điểm: **8 cao**, 73 vừa, 2962 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
 | Nhóm | Mức | Số điểm | Luồng việc |
 |---|---|---|---|
 | Sắp hết hiệu lực (≤60 ngày) | Cao | 8 | `hieu-luc` |
-| THIEU_VBHN | Cao | 1 | `nap-lam-sach` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 70 | `danh-muc-hs` |
-| Văn bản nền tảng (có toàn văn) chưa có trang wiki/sources/ | Vừa | 50 | `doc-hieu` |
-| Wiki nhắc văn bản chưa đăng ký | Vừa | 9 | `lien-ket-cheo` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
 | TB-TCHQ cá biệt chưa có nguồn chính thống | Thấp | 1367 | `tb-tchq` |
 | TB-TCHQ cá biệt chưa đối chiếu nguồn A | Thấp | 1367 | `tb-tchq` |
 | Mã HS AHTN cũ đã ánh xạ sang biểu thuế EN2022 | Thấp | 131 | `danh-muc-hs` |
 | Tệp doc-hieu thiếu nghĩa vụ XNK (≥50% điều hợp lệ trống) | Thấp | 36 | `doc-hieu` |
-| Tệp doc-hieu chứa dòng điều rác / placeholder | Thấp | 33 | `doc-hieu` |
 | Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay | Thấp | 18 | `hieu-luc` |
 | Hiệu lực chưa đối chiếu nguồn A | Thấp | 15 | `hieu-luc` |
 | Văn bản của cơ quan đã sáp nhập | Thấp | 12 | `do-tham` |
@@ -33,10 +29,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **204/2025/QH15 hết hiệu lực ngày 2026-12-31** — Tới ngày thì chuyển tinh_trang; rà mọi trang wiki và văn bản đang dẫn chiếu 204/2025/QH15.
 - [ ] **43/2026/NQ-CP hết hiệu lực ngày 2026-12-31** — Tới ngày thì chuyển tinh_trang; rà mọi trang wiki và văn bản đang dẫn chiếu 43/2026/NQ-CP.
 - [ ] **72/2026/NĐ-CP hết hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển tinh_trang; rà mọi trang wiki và văn bản đang dẫn chiếu 72/2026/NĐ-CP.
-
-## THIEU_VBHN (1)
-
-- [ ] **26/2023/NĐ-CP đã bị sửa đổi 7 lần nhưng chưa có văn bản hợp nhất** — Tìm văn bản hợp nhất (VBHN) của 26/2023/NĐ-CP trên vanban.chinhphu.vn; nếu có, thêm vào sổ kèm quan_he.hop_nhat trỏ về 26/2023/NĐ-CP.
 
 ## Mã HS trong bảng không có trong biểu thuế (70)
 
@@ -81,62 +73,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **41/2019/TT-BCT: mã 84789010 không có trong biểu thuế** — danh-muc/41-2019-tt-bct.csv dòng 103 ("2. Máy cắt kiện lá"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
 - [ ] **41/2019/TT-BCT: mã 84789010 không có trong biểu thuế** — danh-muc/41-2019-tt-bct.csv dòng 104 ("3. Xy lanh làm ẩm lá"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
 - … và 30 điểm khác (xem bao-cao/diem-mu.json)
-
-## Văn bản nền tảng (có toàn văn) chưa có trang wiki/sources/ (50)
-
-- [ ] **05/2011/QH13: văn bản nền tảng chưa có trang wiki/sources/05-2011-qh13.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/05-2011-qh13.doc,raw/download/datafiles.chinhphu.vn/05-2011-qh13.txt) nhưng chưa có wiki/sources/05-2011-qh13.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **05/2017/QH14: văn bản nền tảng chưa có trang wiki/sources/05-2017-qh14.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/05-2017-qh14.pdf,raw/ocr/05-2017-qh14.ocr.txt) nhưng chưa có wiki/sources/05-2017-qh14.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **06/2019/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/06-2019-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/06-2019-nd-cp.pdf,raw/ocr/06-2019-nd-cp.ocr.txt) nhưng chưa có wiki/sources/06-2019-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **101/2015/QH13: văn bản nền tảng chưa có trang wiki/sources/101-2015-qh13.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/101-2015-qh13.pdf,raw/ocr/101-2015-qh13.ocr.txt) nhưng chưa có wiki/sources/101-2015-qh13.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **108/2016/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/108-2016-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/108-2016-nd-cp.pdf,raw/ocr/108-2016-nd-cp.ocr.txt) nhưng chưa có wiki/sources/108-2016-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **116/2025/QH15: văn bản nền tảng chưa có trang wiki/sources/116-2025-qh15.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/116-2025-qh15.pdf,raw/ocr/116-2025-qh15.ocr.txt) nhưng chưa có wiki/sources/116-2025-qh15.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **117/2025/QH15: văn bản nền tảng chưa có trang wiki/sources/117-2025-qh15.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/117-2025-qh15.pdf,raw/ocr/117-2025-qh15.ocr.txt) nhưng chưa có wiki/sources/117-2025-qh15.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **118/2025/QH15: văn bản nền tảng chưa có trang wiki/sources/118-2025-qh15.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/118-2025-qh15.pdf,raw/ocr/118-2025-qh15.ocr.txt) nhưng chưa có wiki/sources/118-2025-qh15.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **131/2013/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/131-2013-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/131-2013-nd-cp.pdf,raw/ocr/131-2013-nd-cp.ocr.txt) nhưng chưa có wiki/sources/131-2013-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **133/2025/QH15: văn bản nền tảng chưa có trang wiki/sources/133-2025-qh15.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/133-2025-qh15.pdf,raw/ocr/133-2025-qh15.ocr.txt) nhưng chưa có wiki/sources/133-2025-qh15.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **146/2025/QH15: văn bản nền tảng chưa có trang wiki/sources/146-2025-qh15.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/146-2025-qh15.pdf,raw/ocr/146-2025-qh15.ocr.txt) nhưng chưa có wiki/sources/146-2025-qh15.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **15/2012/QH13: văn bản nền tảng chưa có trang wiki/sources/15-2012-qh13.md** — Đã có toàn văn (raw/download/congbaocdn.chinhphu.vn/15-2012-qh13.pdf) nhưng chưa có wiki/sources/15-2012-qh13.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **165/2026/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/165-2026-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/165-2026-nd-cp.pdf,raw/ocr/165-2026-nd-cp.ocr.txt) nhưng chưa có wiki/sources/165-2026-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **169/2026/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/169-2026-nd-cp.md** — Đã có toàn văn (raw/download/congbaocdn.chinhphu.vn/169-2026-nd-cp.pdf) nhưng chưa có wiki/sources/169-2026-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **17/2023/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/17-2023-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/17-2023-nd-cp.pdf,raw/ocr/17-2023-nd-cp.ocr.txt) nhưng chưa có wiki/sources/17-2023-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **21/2011/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/21-2011-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/21-2011-nd-cp.doc,raw/download/datafiles.chinhphu.vn/21-2011-nd-cp.txt) nhưng chưa có wiki/sources/21-2011-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **217/2025/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/217-2025-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/217-2025-nd-cp.pdf,raw/ocr/217-2025-nd-cp.ocr.txt) nhưng chưa có wiki/sources/217-2025-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **252/2026/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/252-2026-nd-cp.md** — Đã có toàn văn (raw/download/files.customs.gov.vn/252-2026-nd-cp.docx) nhưng chưa có wiki/sources/252-2026-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **28/2017/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/28-2017-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/28-2017-nd-cp.pdf,raw/ocr/28-2017-nd-cp.ocr.txt) nhưng chưa có wiki/sources/28-2017-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **285/2025/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/285-2025-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/285-2025-nd-cp.pdf,raw/ocr/285-2025-nd-cp.ocr.txt) nhưng chưa có wiki/sources/285-2025-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **29/2012/QH12: văn bản nền tảng chưa có trang wiki/sources/29-2012-qh12.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/29-2012-qh12.doc,raw/download/datafiles.chinhphu.vn/29-2012-qh12.txt) nhưng chưa có wiki/sources/29-2012-qh12.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **293/2026/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/293-2026-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/293-2026-nd-cp.pdf) nhưng chưa có wiki/sources/293-2026-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **31/2018/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/31-2018-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/31-2018-nd-cp.pdf,raw/ocr/31-2018-nd-cp.ocr.txt) nhưng chưa có wiki/sources/31-2018-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **31/2021/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/31-2021-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/31-2021-nd-cp.pdf,raw/ocr/31-2021-nd-cp.ocr.txt) nhưng chưa có wiki/sources/31-2021-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **35/2018/QH14: văn bản nền tảng chưa có trang wiki/sources/35-2018-qh14.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/35-2018-qh14.pdf,raw/ocr/35-2018-qh14.ocr.txt) nhưng chưa có wiki/sources/35-2018-qh14.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **36/2005/QH11: văn bản nền tảng chưa có trang wiki/sources/36-2005-qh11.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/36-2005-qh11.rtf,raw/download/datafiles.chinhphu.vn/36-2005-qh11.txt) nhưng chưa có wiki/sources/36-2005-qh11.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **36/2009/QH12: văn bản nền tảng chưa có trang wiki/sources/36-2009-qh12.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/36-2009-qh12.doc,raw/download/datafiles.chinhphu.vn/36-2009-qh12.txt) nhưng chưa có wiki/sources/36-2009-qh12.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **365/2026/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/365-2026-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/365-2026-nd-cp.pdf,raw/ocr/365-2026-nd-cp.ocr.txt) nhưng chưa có wiki/sources/365-2026-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **42/2013/QH13: văn bản nền tảng chưa có trang wiki/sources/42-2013-qh13.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/42-2013-qh13.pdf,raw/ocr/42-2013-qh13.ocr.txt) nhưng chưa có wiki/sources/42-2013-qh13.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **42/2024/QH15: văn bản nền tảng chưa có trang wiki/sources/42-2024-qh15.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/42-2024-qh15.pdf) nhưng chưa có wiki/sources/42-2024-qh15.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **46/2020/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/46-2020-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/46-2020-nd-cp.pdf,raw/ocr/46-2020-nd-cp.ocr.txt) nhưng chưa có wiki/sources/46-2020-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **46/2024/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/46-2024-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/46-2024-nd-cp.pdf,raw/ocr/46-2024-nd-cp.ocr.txt) nhưng chưa có wiki/sources/46-2024-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **50/2005/QH11: văn bản nền tảng chưa có trang wiki/sources/50-2005-qh11.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/50-2005-qh11.doc,raw/download/datafiles.chinhphu.vn/50-2005-qh11.txt) nhưng chưa có wiki/sources/50-2005-qh11.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **66/2025/QH15: văn bản nền tảng chưa có trang wiki/sources/66-2025-qh15.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/66-2025-qh15.pdf,raw/ocr/66-2025-qh15.ocr.txt) nhưng chưa có wiki/sources/66-2025-qh15.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **68/2006/QH11: văn bản nền tảng chưa có trang wiki/sources/68-2006-qh11.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/68-2006-qh11.doc,raw/download/datafiles.chinhphu.vn/68-2006-qh11.txt) nhưng chưa có wiki/sources/68-2006-qh11.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **69/2025/QH15: văn bản nền tảng chưa có trang wiki/sources/69-2025-qh15.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/69-2025-qh15.pdf,raw/ocr/69-2025-qh15.ocr.txt) nhưng chưa có wiki/sources/69-2025-qh15.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **70/2025/QH15: văn bản nền tảng chưa có trang wiki/sources/70-2025-qh15.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/70-2025-qh15.pdf,raw/ocr/70-2025-qh15.ocr.txt) nhưng chưa có wiki/sources/70-2025-qh15.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **71/2014/QH13: văn bản nền tảng chưa có trang wiki/sources/71-2014-qh13.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/71-2014-qh13.pdf,raw/ocr/71-2014-qh13.ocr.txt) nhưng chưa có wiki/sources/71-2014-qh13.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **77/2023/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/77-2023-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/77-2023-nd-cp.pdf,raw/ocr/77-2023-nd-cp.ocr.txt) nhưng chưa có wiki/sources/77-2023-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **83/2014/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/83-2014-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/83-2014-nd-cp.pdf,raw/ocr/83-2014-nd-cp.ocr.txt) nhưng chưa có wiki/sources/83-2014-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- … và 10 điểm khác (xem bao-cao/diem-mu.json)
-
-## Wiki nhắc văn bản chưa đăng ký (9)
-
-- [ ] **Wiki nhắc 44/2023/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/101-2023-qh15.md).
-- [ ] **Wiki nhắc 87/2010/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/134-2016-nd-cp.md).
-- [ ] **Wiki nhắc 304/2016/TT-BTC nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/19-2019-tt-btc.md).
-- [ ] **Wiki nhắc 20/2019/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/19-2019-tt-btc.md).
-- [ ] **Wiki nhắc 1092/QĐ-BTC nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/19-2019-tt-btc.md).
-- [ ] **Wiki nhắc 1254/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/19-2019-tt-btc.md).
-- [ ] **Wiki nhắc 140/2016/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/19-2019-tt-btc.md).
-- [ ] **Wiki nhắc 112/2025/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/76-vbhn-vpqh.md).
-- [ ] **Wiki nhắc 143/2025/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/76-vbhn-vpqh.md).
 
 ## Sắp có hiệu lực (≤60 ngày) (3)
 
@@ -314,42 +250,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **data/doc-hieu/tt-31-2022-cb-545-546.dieu.jsonl: 144/156 (92%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/tt-31-2022-cb-545-546.dieu.jsonl: 144/156 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
 - [ ] **data/doc-hieu/tt-31-2022-cb-549-550.dieu.jsonl: 384/384 (100%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/tt-31-2022-cb-549-550.dieu.jsonl: 384/384 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
 - [ ] **data/doc-hieu/tt-31-2022-cb-557-558.dieu.jsonl: 135/159 (85%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/tt-31-2022-cb-557-558.dieu.jsonl: 135/159 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-
-## Tệp doc-hieu chứa dòng điều rác / placeholder (33)
-
-- [ ] **01/2026/TT-BNNMT (data/doc-hieu/01-2026-tt-bnnmt.dieu.jsonl): có 48 dòng điều rác / placeholder** — Rà lại data/doc-hieu/01-2026-tt-bnnmt.dieu.jsonl: loại bỏ 48 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **02/2024/TT-BTTTT (data/doc-hieu/02-2024-tt-btttt.dieu.jsonl): có 68 dòng điều rác / placeholder** — Rà lại data/doc-hieu/02-2024-tt-btttt.dieu.jsonl: loại bỏ 68 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **09/2025/TT-BNV (data/doc-hieu/09-2025-tt-bnv.dieu.jsonl): có 1 dòng điều rác / placeholder** — Rà lại data/doc-hieu/09-2025-tt-bnv.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **10/2022/TT-BTTTT (data/doc-hieu/10-2022-tt-btttt-body.dieu.jsonl): có 17 dòng điều rác / placeholder** — Rà lại data/doc-hieu/10-2022-tt-btttt-body.dieu.jsonl: loại bỏ 17 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **10/2022/TT-BTTTT (data/doc-hieu/10-2022-tt-btttt.dieu.jsonl): có 49 dòng điều rác / placeholder** — Rà lại data/doc-hieu/10-2022-tt-btttt.dieu.jsonl: loại bỏ 49 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **10/2024/TT-BKHCN (data/doc-hieu/10-2024-tt-bkhcn.dieu.jsonl): có 5 dòng điều rác / placeholder** — Rà lại data/doc-hieu/10-2024-tt-bkhcn.dieu.jsonl: loại bỏ 5 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **107/2016/QH13 (data/doc-hieu/107-2016-qh13.dieu.jsonl): có 2 dòng điều rác / placeholder** — Rà lại data/doc-hieu/107-2016-qh13.dieu.jsonl: loại bỏ 2 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **11/2017/TT-BCT (data/doc-hieu/11-2017-tt-bct.dieu.jsonl): có 13 dòng điều rác / placeholder** — Rà lại data/doc-hieu/11-2017-tt-bct.dieu.jsonl: loại bỏ 13 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **11/2021/TT-BNNPTNT (data/doc-hieu/11-2021-tt-bnnptnt.dieu.jsonl): có 279 dòng điều rác / placeholder** — Rà lại data/doc-hieu/11-2021-tt-bnnptnt.dieu.jsonl: loại bỏ 279 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **125/2021/TT-BCA (data/doc-hieu/125-2021-tt-bca-body.dieu.jsonl): có 32 dòng điều rác / placeholder** — Rà lại data/doc-hieu/125-2021-tt-bca-body.dieu.jsonl: loại bỏ 32 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **125/2021/TT-BCA (data/doc-hieu/125-2021-tt-bca.dieu.jsonl): có 34 dòng điều rác / placeholder** — Rà lại data/doc-hieu/125-2021-tt-bca.dieu.jsonl: loại bỏ 34 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **15/2018/NĐ-CP (data/doc-hieu/15-2018-nd-cp.dieu.jsonl): có 1 dòng điều rác / placeholder** — Rà lại data/doc-hieu/15-2018-nd-cp.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **15/2024/TT-BYT (data/doc-hieu/15-2024-tt-byt-body.dieu.jsonl): có 1 dòng điều rác / placeholder** — Rà lại data/doc-hieu/15-2024-tt-byt-body.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **17/2023/TT-BNNPTNT (data/doc-hieu/17-2023-tt-bnnptnt-body.dieu.jsonl): có 111 dòng điều rác / placeholder** — Rà lại data/doc-hieu/17-2023-tt-bnnptnt-body.dieu.jsonl: loại bỏ 111 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **174/2025/NĐ-CP (data/doc-hieu/174-2025-nd-cp.dieu.jsonl): có 25 dòng điều rác / placeholder** — Rà lại data/doc-hieu/174-2025-nd-cp.dieu.jsonl: loại bỏ 25 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **26/2018/TT-BLĐTBXH (data/doc-hieu/26-2018-tt-bldtbxh.dieu.jsonl): có 9 dòng điều rác / placeholder** — Rà lại data/doc-hieu/26-2018-tt-bldtbxh.dieu.jsonl: loại bỏ 9 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **27/2026/TT-BNNMT (data/doc-hieu/27-2026-tt-bnnmt-body.dieu.jsonl): có 58 dòng điều rác / placeholder** — Rà lại data/doc-hieu/27-2026-tt-bnnmt-body.dieu.jsonl: loại bỏ 58 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **2711/QĐ-BKHCN (data/doc-hieu/2711-qd-bkhcn.dieu.jsonl): có 1 dòng điều rác / placeholder** — Rà lại data/doc-hieu/2711-qd-bkhcn.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **28/2021/TT-BYT (data/doc-hieu/28-2021-tt-byt.dieu.jsonl): có 47 dòng điều rác / placeholder** — Rà lại data/doc-hieu/28-2021-tt-byt.dieu.jsonl: loại bỏ 47 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **28/2026/TT-BCT (data/doc-hieu/28-2026-tt-bct.dieu.jsonl): có 1 dòng điều rác / placeholder** — Rà lại data/doc-hieu/28-2026-tt-bct.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **31/2018/TT-BCT (data/doc-hieu/31-2018-tt-bct.dieu.jsonl): có 11 dòng điều rác / placeholder** — Rà lại data/doc-hieu/31-2018-tt-bct.dieu.jsonl: loại bỏ 11 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **33/2014/TT-BNNPTNT (data/doc-hieu/33-2014-tt-bnnptnt.dieu.jsonl): có 7 dòng điều rác / placeholder** — Rà lại data/doc-hieu/33-2014-tt-bnnptnt.dieu.jsonl: loại bỏ 7 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **37/2026/NĐ-CP (data/doc-hieu/37-2026-nd-cp.dieu.jsonl): có 1 dòng điều rác / placeholder** — Rà lại data/doc-hieu/37-2026-nd-cp.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **45/2023/TT-BCT (data/doc-hieu/45-2023-tt-bct-body.dieu.jsonl): có 2 dòng điều rác / placeholder** — Rà lại data/doc-hieu/45-2023-tt-bct-body.dieu.jsonl: loại bỏ 2 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **48/2026/TT-BCT (data/doc-hieu/48-2026-tt-bct-body.dieu.jsonl): có 10 dòng điều rác / placeholder** — Rà lại data/doc-hieu/48-2026-tt-bct-body.dieu.jsonl: loại bỏ 10 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **58/2015/TTLT-BCT-BKHCN (data/doc-hieu/58-2015-ttlt-bct-bkhcn.dieu.jsonl): có 1 dòng điều rác / placeholder** — Rà lại data/doc-hieu/58-2015-ttlt-bct-bkhcn.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **74/2018/NĐ-CP (data/doc-hieu/74-2018-nd-cp.dieu.jsonl): có 2 dòng điều rác / placeholder** — Rà lại data/doc-hieu/74-2018-nd-cp.dieu.jsonl: loại bỏ 2 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **81/2019/TT-BTC (data/doc-hieu/81-2019-tt-btc.dieu.jsonl): có 2 dòng điều rác / placeholder** — Rà lại data/doc-hieu/81-2019-tt-btc.dieu.jsonl: loại bỏ 2 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **89/2018/NĐ-CP (data/doc-hieu/89-2018-nd-cp.dieu.jsonl): có 1 dòng điều rác / placeholder** — Rà lại data/doc-hieu/89-2018-nd-cp.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **data/doc-hieu/tt-31-2022-cb-523-524.dieu.jsonl: có 89 dòng điều rác / placeholder** — Rà lại data/doc-hieu/tt-31-2022-cb-523-524.dieu.jsonl: loại bỏ 89 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **data/doc-hieu/tt-31-2022-cb-545-546.dieu.jsonl: có 49 dòng điều rác / placeholder** — Rà lại data/doc-hieu/tt-31-2022-cb-545-546.dieu.jsonl: loại bỏ 49 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **data/doc-hieu/tt-31-2022-cb-549-550.dieu.jsonl: có 42 dòng điều rác / placeholder** — Rà lại data/doc-hieu/tt-31-2022-cb-549-550.dieu.jsonl: loại bỏ 42 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **data/doc-hieu/tt-31-2022-cb-557-558.dieu.jsonl: có 29 dòng điều rác / placeholder** — Rà lại data/doc-hieu/tt-31-2022-cb-557-558.dieu.jsonl: loại bỏ 29 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
 
 ## Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay (18)
 

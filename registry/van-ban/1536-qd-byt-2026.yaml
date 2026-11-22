@@ -27,7 +27,10 @@ xac_minh:
   muc: NGUON_A
   pham_vi: 'đối chiếu thông tin ký ban hành của Thứ trưởng Bộ Y tế Nguyễn Tri Thức ngày 28-05-2026 (có hiệu lực từ ngày ký 28-05-2026) cùng toàn văn các văn bản QPPL gốc về quản lý mỹ phẩm và CGMP-ASEAN trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=216427 cho Thông tư 47/2025/TT-BYT ngày 30-12-2025, docid=219432 và 18-vbhn-byt.signed.pdf cho VBHN 18/VBHN-QĐ-BYT ngày 10-09-2026) và CSDL Quốc gia về VBPL (vbpl.vn ItemID=15266 cho Quyết định 24/2006/QĐ-BYT): sửa đổi, bổ sung một số nội dung công bố thủ tục hành chính trong lĩnh vực Mỹ phẩm tại Quyết định 7866/QĐ-BYT ngày 28-12-2018 (đồng bộ việc bãi bỏ thời hạn 02 năm của GCN CGMP-ASEAN và Mẫu số 01/CGMP-MP theo khoản 2 Điều 2 Thông tư 47/2025/TT-BYT từ 15-02-2026); đính chính trích yếu nguyên văn (không phải văn bản danh mục hàng hóa kèm mã HS); đang còn hiệu lực'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
-  boi: tho-bo-ba-01@ozvietnam
-ghi_chu: Sửa đổi, bổ sung một số nội dung tại Quyết định 7866/QĐ-BYT ngày 28-12-2018 về công bố thủ tục hành chính trong lĩnh vực Mỹ phẩm (có hiệu lực từ 28-05-2026).
-toan_van: raw/download/vanban.chinhphu.vn/1536-qd-byt.html
+  ngay: '2026-11-22'
+  boi: ong-w15-nap-gap@ozvietnam
+  chan:
+    ma: THIEU_PDF_A
+    ngay: '2026-11-22'
+    viec_tiep: 'Quyết định công bố TTHC ngày 28-05-2026 của Bộ Y tế (không phải VBQPPL nên không đăng Công báo/vbpl.vn/vanban.chinhphu.vn); đã rà soát vpcp.dichvucong.gov.vn (không có bản ghi 1536/QĐ-BYT dưới cơ quan Bộ Y tế 4881), moh.gov.vn, dav.gov.vn và cổng địa phương (haiphong.gov.vn chỉ có 146/TB-UBND dẫn chiếu mà không đính kèm bản gốc QĐ 1536/QĐ-BYT). Xóa đường dẫn HTML cũ bị lưu nhầm TT 47/2025/TT-BYT (docid=216427); chờ BYT hoặc cổng DVCQG đăng tải toàn văn PDF bậc A.'
+ghi_chu: Sửa đổi, bổ sung một số nội dung tại Quyết định 7866/QĐ-BYT ngày 28-12-2018 về công bố thủ tục hành chính trong lĩnh vực Mỹ phẩm (có hiệu lực từ 28-05-2026). Chưa có bản PDF toàn văn bậc A công khai trực tuyến; tệp 1536-qd-byt.html trước đây thực chất là TT 47/2025/TT-BYT (docid=216427).

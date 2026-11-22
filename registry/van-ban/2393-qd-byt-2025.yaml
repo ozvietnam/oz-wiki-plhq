@@ -15,6 +15,10 @@ quan_he:
     - so_hieu: 7866/QĐ-BYT
       tu_ngay: '2025-08-18'
 nguon:
+  - url: https://hscv.dienbien.gov.vn/qlvb/vbpq.nsf/3d0f058120469ad34725726600365420/B55C2A9CE53502A047258CD5000574B4/$file/dongdau4841_22-07-2025-20-15-47_Du%20thao%20QD%20cong%20bo%20TTHC%20MP%2018.7.2025.signed.pdf
+    truy_cap: '2026-11-22'
+  - url: https://vpcp.dichvucong.gov.vn/p/home/dvc-tthc-quyet-dinh-cong-bo-chi-tiet.html?ma_quyet_dinh=109006
+    truy_cap: '2026-11-22'
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=214428
     truy_cap: '2026-11-14'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/34-byt.pdf
@@ -27,9 +31,22 @@ nguon:
     truy_cap: '2026-10-22'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'đối chiếu thông tin ký ban hành của Thứ trưởng Bộ Y tế Đỗ Xuân Tuyên ngày 22-07-2025 (có hiệu lực từ 18-08-2025 cùng thời điểm hiệu lực của Thông tư 34/2025/TT-BYT) và toàn văn Thông tư 34/2025/TT-BYT ngày 03-07-2025 trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=214428, 34-byt.pdf) cùng CSDL Quốc gia về VBPL (vbpl.vn ItemID=181191): công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực quản lý mỹ phẩm quy định tại Thông tư 34/2025/TT-BYT (sửa đổi Thông tư 06/2011/TT-BYT docid=99376) và sửa đổi, bãi bỏ phần nội dung TTHC tương ứng tại Quyết định 7866/QĐ-BYT ngày 28-12-2018; đính chính trích yếu nguyên văn (không phải văn bản danh mục hàng hóa kèm mã HS); đang còn hiệu lực'
+  pham_vi: 'đối chiếu toàn văn PDF chính thức 26 trang có lớp chữ của Bộ Y tế (tải từ Cổng VBQPPL tỉnh Điện Biên hscv.dienbien.gov.vn, văn bản đóng dấu số 2393/QĐ-BYT ngày 22-07-2025 của Thứ trưởng Đỗ Xuân Tuyên, khớp mã quyết định 109006 trên CSDLQG về TTHC vpcp.dichvucong.gov.vn) cùng Thông tư 34/2025/TT-BYT (docid=214428) và Thông tư 06/2011/TT-BYT (docid=99376): Điều 1 công bố 03 thủ tục hành chính được sửa đổi, bổ sung quy định tại TT 34/2025/TT-BYT; Điều 2 hiệu lực từ 18-08-2025, bãi bỏ phần TTHC tương ứng tại QĐ 7866/QĐ-BYT (28-12-2018), QĐ 1907/QĐ-BYT (19-04-2021) và bãi bỏ QĐ 3629/QĐ-BYT (30-07-2021); đang còn hiệu lực (lưu ý bản PDF gốc có lỗi đánh máy ghi nhầm ngày của TT 06/2011 thành "25 tháng 01 năm 2025" ở trích yếu trang 1 nhưng Điều 1 ghi đúng 25-01-2011).'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
-  boi: tho-bo-ba-01@ozvietnam
-ghi_chu: Công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực quản lý mỹ phẩm theo Thông tư 34/2025/TT-BYT (ban hành 22-07-2025, có hiệu lực từ 18-08-2025).
-toan_van: raw/download/vanban.chinhphu.vn/2393-qd-byt.html
+  ngay: '2026-11-22'
+  boi: ong-w15-nap-gap@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Công bố kèm theo Quyết định này 03 thủ tục hành chính được sửa đổi, bổ sung quy định tại Thông tư số 34/2025/TT-BYT ngày 03 tháng 7 năm 2025 của Bộ trưởng Bộ Y tế sửa đổi, bổ sung một số điều của Thông tư số 06/2011/TT-BYT ngày 25 tháng 01 năm 2011 của Bộ trưởng Bộ Y tế quy định về quản lý mỹ phẩm thuộc phạm vi, chức năng quản lý của Bộ Y tế.
+      trang_pdf: 1
+      sha256_pdf: 0755c7a6f6cc8a01d3f30b8351984ac2447f472aa20d851277f3aa69ced06922
+    - dieu: 2
+      noi_dung: Điều 2. Quyết định này có hiệu lực thi hành kể từ ngày 18 tháng 8 năm 2025.
+      trang_pdf: 1
+      sha256_pdf: 0755c7a6f6cc8a01d3f30b8351984ac2447f472aa20d851277f3aa69ced06922
+    - dieu: 3
+      noi_dung: 'Điều 3. Các Ông, Bà: Chánh Văn phòng Bộ; Cục Quản lý Dược; Thủ trưởng các Vụ, Cục; Thủ trưởng Cơ quan chuyên môn về y tế thuộc Ủy ban nhân dân cấp tỉnh và Thủ trưởng các đơn vị, cá nhân có liên quan chịu trách nhiệm thi hành Quyết định này./.'
+      trang_pdf: 2
+      sha256_pdf: 0755c7a6f6cc8a01d3f30b8351984ac2447f472aa20d851277f3aa69ced06922
+ghi_chu: Đã nạp toàn văn PDF 26 trang có lớp chữ bậc A của Quyết định 2393/QĐ-BYT (ban hành 22-07-2025, hiệu lực từ 18-08-2025); thay thế vỏ HTML cũ vốn là TT 34/2025/TT-BYT (docid=214428).
+toan_van: raw/download/hscv.dienbien.gov.vn/2393-qd-byt-2025.pdf

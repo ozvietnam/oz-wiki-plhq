@@ -13,6 +13,8 @@ quan_he:
     - 06/2011/TT-BYT
     - 155/2018/NĐ-CP
 nguon:
+  - url: https://vpcp.dichvucong.gov.vn/p/home/dvc-tthc-quyet-dinh-cong-bo-chi-tiet.html?ma_quyet_dinh=25510
+    truy_cap: '2026-11-22'
   - url: https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=99376
     truy_cap: '2026-11-14'
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=195324
@@ -29,9 +31,12 @@ nguon:
     truy_cap: '2026-10-22'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'đối chiếu thông tin ký ban hành ngày 28-12-2018 (có hiệu lực từ ngày ký 28-12-2018) cùng toàn văn các văn bản QPPL gốc về quản lý mỹ phẩm trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=99376 cho Thông tư 06/2011/TT-BYT, docid=195324 và 155.signed.pdf cho Nghị định 155/2018/NĐ-CP ngày 12-11-2018, docid=214428 cho Thông tư 34/2025/TT-BYT, docid=216427 cho Thông tư 47/2025/TT-BYT, docid=219432 cho VBHN 18/VBHN-QĐ-BYT): công bố thủ tục hành chính mới ban hành/được sửa đổi, bổ sung trong lĩnh vực Mỹ phẩm thuộc phạm vi chức năng quản lý của Bộ Y tế (đính chính trích yếu nguyên văn chính thức, không phải văn bản danh mục hàng hóa kèm mã HS); đã được sửa đổi, bổ sung và bãi bỏ một phần nội dung TTHC bởi Quyết định 2393/QĐ-BYT ngày 22-07-2025 (HL 18-08-2025) và Quyết định 1536/QĐ-BYT ngày 28-05-2026 (HL 28-05-2026)'
+  pham_vi: 'đối chiếu bản ghi Quyết định số 7866/QĐ-BYT ngày 28-12-2018 trên Cổng DVCQG (vpcp.dichvucong.gov.vn ma_quyet_dinh=25510, có tệp đính kèm 7866_QD-BYT_409396.pdf nhưng csdl.dichvucong.gov.vn trả lỗi 503 khi tải tệp) cùng toàn văn các văn bản QPPL gốc về quản lý mỹ phẩm trên Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=99376 cho TT 06/2011/TT-BYT, docid=195324 và 155.signed.pdf cho NĐ 155/2018/NĐ-CP, docid=214428 cho TT 34/2025/TT-BYT, docid=216427 cho TT 47/2025/TT-BYT, docid=219432 cho VBHN 18/VBHN-QĐ-BYT): công bố TTHC mới ban hành/được sửa đổi, bổ sung trong lĩnh vực Mỹ phẩm; đã được sửa đổi, bổ sung và bãi bỏ một phần nội dung TTHC bởi Quyết định 2393/QĐ-BYT (HL 18-08-2025) và Quyết định 1536/QĐ-BYT (HL 28-05-2026)'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
-  boi: tho-bo-ba-01@ozvietnam
-ghi_chu: Công bố thủ tục hành chính mới ban hành/được sửa đổi, bổ sung trong lĩnh vực Mỹ phẩm (ban hành 28-12-2018); đã được sửa đổi, bổ sung một phần bởi QĐ 2393/QĐ-BYT (22-07-2025) và QĐ 1536/QĐ-BYT (28-05-2026).
-toan_van: raw/download/vanban.chinhphu.vn/7866-qd-byt.html
+  ngay: '2026-11-22'
+  boi: ong-w15-nap-gap@ozvietnam
+  chan:
+    ma: THIEU_PDF_A
+    ngay: '2026-11-22'
+    viec_tiep: 'CSDLQG về TTHC (vpcp.dichvucong.gov.vn ma_quyet_dinh=25510) có metadata và mã tệp 7866_QD-BYT_409396.pdf nhưng máy chủ tải tệp csdl.dichvucong.gov.vn lỗi HTTP 503; vanban.chinhphu.vn, congbao.chinhphu.vn, vbpl.vn, dav.gov.vn, moh.gov.vn không đăng toàn văn bản gốc (Công báo Cà Mau số 18/2019 chỉ trích 01 TTHC cấp tỉnh kèm QĐ 506/QĐ-UBND). Xóa toan_van cũ bị lưu nhầm TT 06/2011/TT-BYT (docid=99376).'
+ghi_chu: Công bố thủ tục hành chính mới ban hành/được sửa đổi, bổ sung trong lĩnh vực Mỹ phẩm (ban hành 28-12-2018); đã được sửa đổi, bổ sung một phần bởi QĐ 2393/QĐ-BYT (22-07-2025) và QĐ 1536/QĐ-BYT (28-05-2026). Chưa tải được toàn văn PDF gốc bậc A do csdl.dichvucong.gov.vn 503; tệp 7866-qd-byt.html trước đây thực chất là TT 06/2011/TT-BYT (docid=99376).
