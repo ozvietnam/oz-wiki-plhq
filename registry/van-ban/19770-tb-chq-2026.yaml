@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 19770/TB-CHQ/2026
+so_hieu_khac:
+  - 19770/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Cảm biến hồng ngoại IR OPTICS SENSOR, ký mã hiệu IMS1910, gồm vi mạch tích hợp đèn LED hồng ngoại và đi-ốt quang trên bảng mạch in FR-4 tích hợp bộ chuyển đổi ADC, dùng lắp trên thiết bị đeo thông minh để phát hiện tiếp xúc với da, mã số 9031.49.90)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-08-03'
+hieu_luc_tu: '2026-08-03'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=105349&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/8/7/VB_19770.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/8/7/VB_19770.pdf, id=105349, SHA-256 f3bbfdbd03553e0b65506f069aa976d3a6e594d9e77eb2fa41507bf10975e465): Thông báo số 19770/TB-CHQ ngày 03-08-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Cảm biến hồng ngoại (IR OPTICS SENSOR, ký, mã hiệu IMS1910, kích thước 4,4mm x 3,80mm, trọng lượng 6,8mg, điện áp 1,62-1,98V; cấu tạo gồm vi mạch tích hợp Model W3111 chứa đèn LED hồng ngoại và đi-ốt quang gắn trên lớp nền silicon, bảng mạch in FR-4 2 lớp dày 0,2mm, hợp chất đúc bán dẫn quang học và bộ chuyển đổi tín hiệu ADC tích hợp sẵn; dùng lắp đặt trên tai nghe bluetooth, thiết bị đeo tay thông minh, thiết bị cầm tay để phát hiện thiết bị có đang tiếp xúc với da hay không), phân loại vào nhóm 90.31, phân nhóm 9031.49, mã số 9031.49.90; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Cảm biến hồng ngoại (IR OPTICS SENSOR, ký mã hiệu IMS1910, gồm vi mạch tích hợp đèn LED hồng ngoại và đi-ốt quang gắn trên bảng mạch in FR-4, tích hợp bộ chuyển đổi ADC, dùng lắp trong tai nghe bluetooth, đồng hồ thông minh, thiết bị cầm tay để nhận diện tiếp xúc với da) thuộc nhóm 90.31, phân nhóm 9031.49, mã số 9031.49.90.'
+toan_van: raw/download/files.customs.gov.vn/19770-tb-chq-2026.pdf
