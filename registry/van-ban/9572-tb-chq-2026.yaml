@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 9572/TB-CHQ/2026
+so_hieu_khac:
+  - 9572/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Thiết bị đo độ ẩm đất bằng bức xạ vi sóng thụ động TurfRad Moisture Sensor, ký mã hiệu TurfRad Rev. 1.4, băng tần L 1400-1427 MHz chỉ thu, mã số 9027.89.90)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-02-05'
+hieu_luc_tu: '2026-02-05'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=102574&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/2/6/VB_9572.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/2/6/VB_9572.pdf, id=102574, SHA-256 9e25d3f47fb73398435c6d881ceb03ec77f90d6bbbc60c0493d61e71f8f5fa14): Thông báo số 9572/TB-CHQ ngày 05-02-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Thiết bị đo độ ẩm (cảm biến độ ẩm) TurfRad Moisture Sensor (ký, mã hiệu TurfRad Rev. 1.4; cảm biến đo bức xạ vi sóng thụ động băng tần L 1400-1427 MHz chế độ chỉ thu không phát, đo độ ẩm thể tích của đất không cần tiếp xúc trực tiếp; gồm ăng-ten vi sóng thụ động L-band 1,4 GHz tách tín hiệu nhiệt độ độ sáng TBH/TBV, mô-đun thu bức xạ vi sóng LNA và bộ lọc thông dải, bộ thu GNSS đa hệ GPS/GLONASS/Galileo/BeiDou, mô-đun Wi-Fi 2,4 GHz IC ESP32-WROVER-E, Bluetooth 802.15.1, bo mạch xử lý trung tâm MCU/CPU, pin Li-ion 18650 3,6 V 2600 mAh kèm mạch nguồn 11-15 VDC ~4 W và vỏ bảo vệ chắn nhiễu EMI; kích thước 630 x 354 x 130 mm, nặng 4,9 kg), phân loại vào nhóm 90.27, phân nhóm 9027.89, mã số 9027.89.90; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Thiết bị đo độ ẩm (cảm biến độ ẩm) TurfRad Moisture Sensor (ký, mã hiệu TurfRad Rev. 1.4; cảm biến vi sóng thụ động Passive Microwave Radiometer dải tần 1400-1427 MHz chỉ thu không phát, thu bức xạ vi sóng tự nhiên TBH/TBV từ đất để tính độ ẩm thể tích vùng rễ kèm định vị GNSS và truyền dữ liệu qua Wi-Fi/Bluetooth; nguồn 11-15 VDC ~4 W, pin Li-ion 18650 2600 mAh, kích thước 630 x 354 x 130 mm, nặng 4,9 kg) thuộc nhóm 90.27, phân nhóm 9027.89, mã số 9027.89.90.'
+toan_van: raw/download/files.customs.gov.vn/9572-tb-chq-2026.pdf
