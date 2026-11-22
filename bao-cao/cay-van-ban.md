@@ -2932,7 +2932,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Khung chung về chất lượng sản phẩm, hàng hoá `kiem-tra-chuyen-nganh/khung-chat-luong`
 
-15 văn bản, 10 chưa hết hiệu lực.
+15 văn bản, 9 chưa hết hiệu lực.
 
 - 🟢 [37/2026/NĐ-CP](../registry/van-ban/37-2026-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Chất lượng sản phẩm, hàng hóa
 - 🟢 [22/2026/NĐ-CP](../registry/van-ban/22-2026-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Tiêu chuẩn và quy chuẩn kỹ thuật
@@ -2946,7 +2946,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [21/2011/NĐ-CP](../registry/van-ban/21-2011-nd-cp.yaml) — Quy định chi tiết và biện pháp thi hành Luật Sử dụng năng lượng tiết kiệm và hiệu quả
 - ⚫ [132/2008/NĐ-CP](../registry/van-ban/132-2008-nd-cp.yaml) — Quy định chi tiết thi hành một số điều của Luật Chất lượng sản phẩm, hàng hoá _(hết hiệu lực 2026-07-01)_
 - 🟢 [05/2007/QH12](../registry/van-ban/05-2007-qh12.yaml) — Luật Chất lượng sản phẩm, hàng hoá
-- 🟢 [127/2007/NĐ-CP](../registry/van-ban/127-2007-nd-cp.yaml) — Quy định chi tiết thi hành một số điều của Luật Tiêu chuẩn và Quy chuẩn kỹ thuật
+- ⚫ [127/2007/NĐ-CP](../registry/van-ban/127-2007-nd-cp.yaml) — Quy định chi tiết thi hành một số điều của Luật Tiêu chuẩn và Quy chuẩn kỹ thuật _(hết hiệu lực 2026-01-16)_
 - 🟢 [68/2006/QH11](../registry/van-ban/68-2006-qh11.yaml) — Luật Tiêu chuẩn và Quy chuẩn kỹ thuật
 - ⚫ [44/2001/TT-BKHCNMT](../registry/van-ban/44-2001-tt-bkhcnmt.yaml) — Hướng dẫn hoạt động kiểm tra hàng hoá của các đơn vị sự nghiệp kỹ thuật phục vụ quản lý nhà nước _(hết hiệu lực 2015-09-29)_
 

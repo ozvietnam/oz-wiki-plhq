@@ -253,6 +253,8 @@ flowchart LR
   n_14_2018_TT_BYT["14/2018/TT-BYT<br/>hết hiệu lực"]
   n_19_VBHN_BNNPTNT_2024["19/VBHN-BNNPTNT/2024<br/>hết hiệu lực một phần"]
   n_16_2015_TT_BTTTT["16/2015/TT-BTTTT<br/>hết hiệu lực"]
+  n_22_2026_N__CP["22/2026/NĐ-CP<br/>còn hiệu lực"]
+  n_127_2007_N__CP["127/2007/NĐ-CP<br/>hết hiệu lực"]
   n_2393_Q__BYT["2393/QĐ-BYT<br/>còn hiệu lực"]
   n_24_2026_TT_BYT["24/2026/TT-BYT<br/>còn hiệu lực"]
   n_05_2022_TT_BYT["05/2022/TT-BYT<br/>còn hiệu lực"]
@@ -392,6 +394,7 @@ flowchart LR
   n_19_VBHN_BNNPTNT -->|hợp nhất| n_26_2018_TT_BNNPTNT
   n_19_VBHN_BNNPTNT -->|hợp nhất| n_01_2022_TT_BNNPTNT
   n_22_2018_TT_BTTTT -->|thay thế Toàn bộ Thông tư số 16/2015/TT-BTTTT ngày 17/6/2015 quy định chi tiết thi hành Nghị định số 187/2013/NĐ-CP về xuất khẩu, nhập khẩu hàng hóa trong lĩnh vực in, phát hành xuất bản phẩm (cùng Thông tư sửa đổi, bổ sung số 41/2016/TT-BTTTT ngày 26/12/2016) từ 2019-02-12| n_16_2015_TT_BTTTT
+  n_22_2026_N__CP -->|thay thế toàn bộ từ 2026-01-16| n_127_2007_N__CP
   n_2393_Q__BYT -->|sửa đổi từ 2025-08-18| n_7866_Q__BYT
   n_24_2026_TT_BYT -->|sửa đổi| n_05_2022_TT_BYT
   n_24_2026_TT_BYT -->|sửa đổi Điều 8 (lộ trình kiểm định) từ 2026-07-01| n_05_2022_TT_BYT
