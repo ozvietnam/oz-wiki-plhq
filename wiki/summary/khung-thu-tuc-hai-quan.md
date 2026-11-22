@@ -3,7 +3,7 @@ id: khung-thu-tuc-hai-quan
 title: "Khung thủ tục hải quan hàng xuất nhập khẩu"
 type: summary
 created: 2026-10-04
-updated: 2026-11-21
+updated: 2026-11-22
 covers:
   - thu-tuc-hai-quan-xnk
   - phan-loai-ma-hs
@@ -14,6 +14,7 @@ covers:
   - co-quan-tiep-nhan-sau-sap-nhap
   - thu-tuc-tai-cua-khau-nhap
   - thue-chong-ban-pha-gia-thep
+  - hoa-chat-tien-chat-cas-xnk
 tags: [hai-quan, thu-tuc, phan-loai-hs, thue]
 ---
 
@@ -35,10 +36,12 @@ Thủ tục hải quan hàng xuất nhập khẩu nằm trên ba tầng văn b�
 - **Nhãn hàng hoá là điểm mù riêng** — khung nhãn cũ (`43/2017/NĐ-CP`, `111/2021/NĐ-CP`) đã `HET_HIEU_LUC` từ `2026-01-23` theo quan hệ bãi bỏ của `37/2026/NĐ-CP` (cùng nghị định đặt [[concepts/muc-do-rui-ro-hang-hoa]]); văn bản đang điều chỉnh nhãn phụ tiếng Việt **chưa xác minh** trong sổ — xem [[concepts/nhan-hang-hoa-nhap-khau]].
 - **Làm thủ tục tại cửa khẩu nhập** — xem [[concepts/thu-tuc-tai-cua-khau-nhap]]. Danh mục 12 nhóm hàng nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập từ `14/08/2026` áp dụng theo `31/2026/QĐ-TTg` (`CON_HIEU_LUC`, `NGUON_A`, trên nền Điều 4 `08/2015/NĐ-CP` sửa bởi `167/2025/NĐ-CP`), thay thế `23/2019/QĐ-TTg` (**đã hết hiệu lực** từ `14/08/2026`).
 - **Thuế chống bán phá giá thép** — xem [[concepts/thue-chong-ban-pha-gia-thep]]. Khung phòng vệ thương mại hiện hành gồm Luật `05/2017/QH14` và Nghị định `86/2025/NĐ-CP` (`CON_HIEU_LUC` từ `01/07/2025`, thay thế `10/2018/NĐ-CP` **đã hết hiệu lực**), cùng 07 quyết định thép còn hiệu lực (`143/QĐ-BCT`, `1959/QĐ-BCT`, `2310/QĐ-BCT`, `2822/QĐ-BCT`, `3011/QĐ-BCT`, `3765/QĐ-BCT`, `3176/QĐ-BCT`); tách bạch với các quyết định **đã hết hiệu lực** (`691/QĐ-BCT`, `693/QĐ-BCT`, `1975/QĐ-BCT`).
+- **Hóa chất, tiền chất Danh mục IV & hàng nguy hiểm XNK** — xem [[concepts/hoa-chat-tien-chat-cas-xnk]] (`24/2026/NĐ-CP`, `28/2026/NĐ-CP`, `33/2024/NĐ-CP`, `34/2024/NĐ-CP`, `73/2021/QH14`).
+- **Theo dõi văn bản mức Cao sắp hết hiệu lực 31/12/2026 & 01/01/2027** — xem [[summary/van-ban-sap-het-hieu-luc-2026-2027]] (gồm giảm GTGT 8% `204/2025/QH15` + `174/2025/NĐ-CP`, xăng dầu `72/2026/NĐ-CP` + `43/2026/NQ-CP`, CNTT cũ `11/2018/TT-BTTTT`, BCT `08/2023/TT-BCT` + `12/2018/TT-BCT`, BQP `173/2018/TT-BQP`).
 
 ## Sources covered
 
-Đã có trang `wiki/sources/` cho: `54/2014/QH13` → [[sources/54-vbhn-vpqh]], `08/2015/NĐ-CP` → [[sources/08-2015-nd-cp]], `38/2015/TT-BTC` → [[sources/38-2015-tt-btc]], `39/2018/TT-BTC` → [[sources/39-2018-tt-btc]], `85/2026/TT-BTC` → [[sources/85-2026-tt-btc]], `121/2025/TT-BTC` → [[sources/121-2025-tt-btc]], `11/2026/QH16` → [[sources/11-2026-qh16]], cùng 4 văn bản lịch sử/quản lý rủi ro: [[sources/49-2010-tt-btc]], [[sources/1628-qd-tchq]], [[sources/81-2019-tt-btc]] và [[sources/06-2024-tt-btc]]. Ngoài ra trong `wiki/sources/` còn có trang riêng cho `167/2025/NĐ-CP`, `60/2019/TT-BTC`, `117/QĐ-CHQ`, `1921/QĐ-TCHQ`, `2123/QĐ-CHQ`, `174/2025/NĐ-CP`, `204/2025/QH15`, `37/2026/NĐ-CP`.
+Đã có trang `wiki/sources/` cho: `54/2014/QH13` → [[sources/54-vbhn-vpqh]], `08/2015/NĐ-CP` → [[sources/08-2015-nd-cp]], `38/2015/TT-BTC` → [[sources/38-2015-tt-btc]], `39/2018/TT-BTC` → [[sources/39-2018-tt-btc]], `85/2026/TT-BTC` → [[sources/85-2026-tt-btc]], `121/2025/TT-BTC` → [[sources/121-2025-tt-btc]], `11/2026/QH16` → [[sources/11-2026-qh16]], `31/2026/QĐ-TTg` → [[sources/31-2026-qd-ttg]], `124/2026/TT-BTC` → [[sources/124-2026-tt-btc]], `143/2026/NĐ-CP` → [[sources/143-2026-nd-cp]], `186/2026/NĐ-CP` → [[sources/186-2026-nd-cp]], `19/2026/QH16` → [[sources/19-2026-qh16]], cùng 4 văn bản lịch sử/quản lý rủi ro: [[sources/49-2010-tt-btc]], [[sources/1628-qd-tchq]], [[sources/81-2019-tt-btc]] và [[sources/06-2024-tt-btc]]. Ngoài ra trong `wiki/sources/` còn có trang riêng cho `167/2025/NĐ-CP`, `60/2019/TT-BTC`, `117/QĐ-CHQ`, `1921/QĐ-TCHQ`, `2123/QĐ-CHQ`, `174/2025/NĐ-CP`, `204/2025/QH15`, `37/2026/NĐ-CP`.
 
 Các số hiệu khác dẫn trong trang này đều có tệp trong `registry/van-ban/` nhưng **chưa có trang wiki**: `31/2022/TT-BTC`, `336/2026/NĐ-CP`, `2169/QĐ-CHQ`, `86/2026/TT-BTC`, cùng các văn bản đã hết hiệu lực `14/2015/TT-BTC`, `17/2021/TT-BTC`, `85/2019/NĐ-CP`, `4023/QĐ-TCHQ`, `2131/QĐ-TCHQ`, `2999/QĐ-TCHQ`, `2166/QĐ-TCHQ`.
 
@@ -53,6 +56,7 @@ Các số hiệu khác dẫn trong trang này đều có tệp trong `registry/v
 - [[concepts/co-quan-tiep-nhan-sau-sap-nhap]]
 - [[concepts/thu-tuc-tai-cua-khau-nhap]]
 - [[concepts/thue-chong-ban-pha-gia-thep]]
+- [[concepts/hoa-chat-tien-chat-cas-xnk]]
 
 ## Open questions
 
