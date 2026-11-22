@@ -16850,7 +16850,7 @@
     "kiem-tra-chuyen-nganh",
     "khai-bao-hai-quan"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [
     {
      "so_hieu": "01/2022/TT-BNNPTNT",
@@ -16872,14 +16872,25 @@
    "loai_trang": "sources",
    "tieu_de": "Sửa đổi, bổ sung một số Thông tư trong lĩnh vực thủy sản",
    "muc": "Tình trạng hiệu lực",
-   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 2022-01-18 | Bộ NN&PTNT ban hành |\n| 2022-03-04 | Có hiệu lực |\n| Đang hiệu lực | |",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 2022-01-18 | Bộ NN&PTNT ban hành |\n| 2022-03-04 | Có hiệu lực |\n| 2024-03-20 | Hết hiệu lực một phần (TT 01/2024/TT-BNNPTNT bãi bỏ Điều 9 và Phụ lục XXIII) |",
    "tags": [
     "bnnptnt",
     "kiem-tra-chuyen-nganh",
     "khai-bao-hai-quan"
    ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "01/2024/TT-BNNPTNT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-03-20",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?docid=209723&pageid=27160"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -16889,13 +16900,13 @@
    "loai_trang": "sources",
    "tieu_de": "Sửa đổi, bổ sung một số Thông tư trong lĩnh vực thủy sản",
    "muc": "Cấu trúc",
-   "noi_dung": "- **20 điều** (theo OCR)",
+   "noi_dung": "- **10 Điều** và **23 Phụ lục** (Phụ lục I–XXIII, đối chiếu PDF Công báo số 209+210 năm 2022 có lớp chữ)",
    "tags": [
     "bnnptnt",
     "kiem-tra-chuyen-nganh",
     "khai-bao-hai-quan"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -16905,14 +16916,14 @@
    "duong_dan": "wiki/sources/01-2022-tt-bnnptnt.md",
    "loai_trang": "sources",
    "tieu_de": "Sửa đổi, bổ sung một số Thông tư trong lĩnh vực thủy sản",
-   "muc": "Căn cứ pháp lý (theo OCR)",
-   "noi_dung": "Căn cứ Nghị định số 15/2017/NĐ-CP ngày 17 tháng 02 năm 2017 của | Căn cứ Luật Thủy sản ngày 21 tháng 11 năm 2017; | Căn cứ Nghị định số 69/2018/NĐ-CP ngày 15 tháng 5 năm 2018 của",
+   "muc": "Căn cứ pháp lý",
+   "noi_dung": "Căn cứ Nghị định số 15/2017/NĐ-CP ngày 17 tháng 02 năm 2017 của Chính phủ; Căn cứ Luật Thủy sản ngày 21 tháng 11 năm 2017; Căn cứ Nghị định số 69/2018/NĐ-CP ngày 15 tháng 5 năm 2018 của Chính phủ.",
    "tags": [
     "bnnptnt",
     "kiem-tra-chuyen-nganh",
     "khai-bao-hai-quan"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [
     {
      "so_hieu": "15/2017/NĐ-CP",
@@ -16948,14 +16959,47 @@
    "loai_trang": "sources",
    "tieu_de": "Sửa đổi, bổ sung một số Thông tư trong lĩnh vực thủy sản",
    "muc": "Nội dung chính",
-   "noi_dung": "- Điều 1: Sửa đổi, bổ sung một số điều của Thông tư số 19/2018/TTBNNPTNT ngày 15/11/2018 c\n- Điều 15: 7. Thay thế Phụ lục I bằng Phụ lục I ban hành kèm theo Thông tư này;\n- Điều 2: Sửa đổi, bổ sung một số điều của Thông tư số 20/2018/TTBNNPTNT ngày 15/11/2018 c\n- Điều 14: Thẩm quyền, tiêu chuẩn cấp thẻ kiểm ngư\n- Điều 15: 4. Thay thế cụm từ “VIET NAM FISHERIES RESOURCES",
+   "noi_dung": "- Điều 1–8: Sửa đổi, bổ sung một số điều của các Thông tư 19/2018/TT-BNNPTNT đến 26/2018/TT-BNNPTNT ngày 15/11/2018 trong lĩnh vực thủy sản.\n- Điều 9: Thay thế Phần A Mục 16 Phụ lục I Thông tư 11/2021/TT-BNNPTNT bằng Phụ lục XXIII (đã bị bãi bỏ từ 20/03/2024 bởi TT 01/2024/TT-BNNPTNT).\n- Điều 10: Hiệu lực thi hành từ ngày 04/03/2022; bãi bỏ Thông tư 13/2020/TT-BNNPTNT ngày 09/11/2020.",
    "tags": [
     "bnnptnt",
     "kiem-tra-chuyen-nganh",
     "khai-bao-hai-quan"
    ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "26/2018/TT-BNNPTNT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-01-01",
+     "het_hieu_luc_tu": "2026-03-09",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-26-2018-tt-bnnptnt-28128/25285.htm"
+    },
+    {
+     "so_hieu": "11/2021/TT-BNNPTNT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2021-11-06",
+     "het_hieu_luc_tu": "2024-03-20",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "01/2024/TT-BNNPTNT"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=204147&pageid=27160"
+    },
+    {
+     "so_hieu": "01/2024/TT-BNNPTNT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-03-20",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?docid=209723&pageid=27160"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -16971,7 +17015,7 @@
     "kiem-tra-chuyen-nganh",
     "khai-bao-hai-quan"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -16988,7 +17032,7 @@
     "kiem-tra-chuyen-nganh",
     "khai-bao-hai-quan"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -17005,7 +17049,7 @@
     "kiem-tra-chuyen-nganh",
     "khai-bao-hai-quan"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -17016,13 +17060,13 @@
    "loai_trang": "sources",
    "tieu_de": "Sửa đổi, bổ sung một số Thông tư trong lĩnh vực thủy sản",
    "muc": "Notes",
-   "noi_dung": "- Đã đọc toàn văn qua `datafiles.chinhphu.vn` (PDF 828KB)\n- **20 điều** (theo OCR tesseract vie 200dpi)\n- Không có mã HS in (TT về quy trình)\n- Cần đối chiếu thêm",
+   "noi_dung": "- Đã đối chiếu toàn văn PDF lớp chữ Công báo tại `raw/download/congbaocdn.chinhphu.vn/01-2022-tt-bnnptnt.pdf` (95 trang, SHA-256 `298ca35eec928fc681841675384e060f0c9f29d46e15f7432ac694a5c1270d40`).\n- Đã trích xuất nguyên văn 10 Điều (35 mục điều khoản, trang 1–30) vào `xac_minh.dieu_khoan` trong sổ đăng ký.",
    "tags": [
     "bnnptnt",
     "kiem-tra-chuyen-nganh",
     "khai-bao-hai-quan"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -17909,7 +17953,7 @@
    "loai_trang": "sources",
    "tieu_de": "TT 01/2026/TT-BNNMT — Kiểm dịch động vật, sản phẩm động vật trên cạn",
    "muc": "Notes",
-   "noi_dung": "- Đã đọc toàn văn qua `datafiles.chinhphu.vn` (125 trang PDF có text layer)\n- pdftotext cho ra 5.729 dòng, 231.652 ký tự\n- 14 phụ lục (bảng biểu) chứa danh mục mã HS chi tiết — cần đối chiếu PDF để có dữ liệu chính xác\n- 37 điều tập trung vào kiểm dịch (Chương II chiếm 29/37 = 78%)",
+   "noi_dung": "- Đã đọc toàn văn qua `datafiles.chinhphu.vn` (`raw/download/datafiles.chinhphu.vn/01-2026-tt-bnnmt.pdf`, 125 trang PDF có text layer, SHA-256 `832a983a825a26ef5414b1b320a65753c7877719f0c2d51d8ea0de0d7ec81818`).\n- Toàn văn thực tế trên PDF lớp chữ gồm **4 Chương, 30 Điều** (trang 1–27, Điều 29 là Điều khoản chuyển tiếp, Điều 30 là Hiệu lực thi hành) và **14 Phụ lục** (trang 28–125); đã trích xuất nguyên văn 30 Điều (42 mục điều khoản) vào `xac_minh.dieu_khoan` trong sổ đăng ký.",
    "tags": [
     "bnnmt",
     "kiem-dich",
@@ -24625,7 +24669,7 @@
    "loai_trang": "sources",
    "tieu_de": "TT 09/2025/TT-BNV — KTCL sản phẩm, hàng hóa BNV (an toàn, có mã HS)",
    "muc": "Notes",
-   "noi_dung": "- Đã đọc toàn văn qua `congbaocdn.chinhphu.vn` (đã tải 600KB)\n- 28 điều + 48 mã HS\n- KTCL sản phẩm BNV (mới 2025)",
+   "noi_dung": "- Đã đối chiếu toàn văn PDF lớp chữ Công báo tại `raw/download/congbaocdn.chinhphu.vn/09-2025-tt-bnv.pdf` (48 trang, 19 Điều + Phụ lục I, II, SHA-256 `a02a2320858e20956306e3f9aff617a31f2ca30af38a8fedee9cb1a34b4d57e6`).\n- Đã trích xuất nguyên văn 19 Điều (28 mục điều khoản, trang 1–19) vào `xac_minh.dieu_khoan` trong sổ đăng ký; Điều 16 đã bị bãi bỏ từ 28/07/2026 bởi điểm d khoản 2 Điều 7 Thông tư 16/2026/TT-BNV.",
    "tags": [
     "bnv",
     "kiem-tra-chuyen-nganh",
@@ -24635,7 +24679,18 @@
     "chat-luong"
    ],
    "confidence": "high",
-   "van_ban_lien_quan": [],
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "16/2026/TT-BNV",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-28",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=219023&pageid=27160"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -24911,7 +24966,7 @@
    "loai_trang": "sources",
    "tieu_de": "VBHN 09/VBHN-BYT 2025 — hợp nhất TT 06/2011 quản lý mỹ phẩm; 2 BẢNG VÀNG: Phiếu công bố mục 8/10 + Phụ lục 05-MP thay đổi sau công bố",
    "muc": "Toàn văn",
-   "noi_dung": "Toàn văn (53 điều + 18 phụ lục) đọc tại [TVPL](https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Van-ban-hop-nhat-09-VBHN-BYT-2025-Thong-tu-quy-dinh-quan-ly-my-pham-667028.aspx) hoặc [DAV](https://dav.gov.vn/van-ban-hop-nhat-so-09vbhn-byt-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-n4966.html).",
+   "noi_dung": "Toàn văn (53 điều + 18 phụ lục) đọc tại [TVPL](https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Van-ban-hop-nhat-09-VBHN-BYT-2025-Thong-tu-quy-dinh-quan-ly-my-pham-667028.aspx) hoặc [DAV](https://dav.gov.vn/van-ban-hop-nhat-so-09vbhn-byt-hop-nhat-thong-tu-quy-dinh-ve-quan-ly-my-pham-n4966.html). Tệp PDF lớp chữ gắn tại `raw/download/datafiles.chinhphu.vn/09-vbhn-byt.pdf` (8 trang, SHA-256 `0518655cb29f2b303a48be64d2491a842f30f84bc8eec0d15eda9dc1895dec61`, toàn văn Thông tư 34/2025/TT-BYT sửa đổi, bổ sung Thông tư 06/2011/TT-BYT được hợp nhất tại 09/VBHN-BYT) đã được trích xuất nguyên văn 6 Điều (10 mục điều khoản, trang 1–6) vào `xac_minh.dieu_khoan`.",
    "tags": [
     "van-ban-hop-nhat",
     "byt",
@@ -24920,7 +24975,28 @@
     "quan-trong"
    ],
    "confidence": "high",
-   "van_ban_lien_quan": [],
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "34/2025/TT-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-08-18",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214428"
+    },
+    {
+     "so_hieu": "06/2011/TT-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2011-04-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=99376"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {

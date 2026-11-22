@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-2919 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2924 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -376,7 +376,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2236 văn bản, 2236 chưa hết hiệu lực.
+2241 văn bản, 2241 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -438,6 +438,11 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [20320/TB-CHQ/2026](../registry/van-ban/20320-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ cấp nguồn điện có khả năng chống nước Waterproof Power Supply sử dụng cho đèn LED, ký mã hiệu RSE-1K0N-375Z, chuyển đổi nguồn xoay chiều AC 180-260VAC thành một chiều DC 230-375VDC, công suất tối đa 1000W, mã số 8504.40.30)
 - 🟢 [20233/TB-CHQ/2026](../registry/van-ban/20233-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cụm IP / MODULE ASSY-COCKPIT, ký mã hiệu 84700-I7AA0TC2, cụm bảng táp-lô trung tâm điều khiển lắp ráp thống nhất từ xương IP kim loại, thân IP, trục lái, dây điện, cửa gió, cụm điều khiển điều hòa, túi khí hành khách, hộp điều khiển AVN, cụm đồng hồ táp-lô lắp trên xe ô tô chở người dưới 9 chỗ ngồi, mã số 8708.29.95)
 - 🟢 [19770/TB-CHQ/2026](../registry/van-ban/19770-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cảm biến hồng ngoại IR OPTICS SENSOR, ký mã hiệu IMS1910, gồm vi mạch tích hợp đèn LED hồng ngoại và đi-ốt quang trên bảng mạch in FR-4 tích hợp bộ chuyển đổi ADC, dùng lắp trên thiết bị đeo thông minh để phát hiện tiếp xúc với da, mã số 9031.49.90)
+- 🟢 [19783/TB-CHQ/2026](../registry/van-ban/19783-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Vỏ thùng rác thép không gỉ SUS304 sử dụng nơi công cộng có in sẵn logo và hướng dẫn phân loại rác, mã số 7323.93.00)
+- 🟢 [19468/TB-CHQ/2026](../registry/van-ban/19468-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thuốc không kê đơn ZY-10 Forte dạng viên nang mềm chứa Ubidecarenone 100mg, mã số 3004.90.89)
+- 🟢 [19488/TB-CHQ/2026](../registry/van-ban/19488-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Vỏ hộp bộ điều khiển điện tử trong hệ thống phanh ABS của xe máy Housing, ECU, ký mã hiệu 009V79185-00000, mã số 8536.90.94)
+- 🟢 [19489/TB-CHQ/2026](../registry/van-ban/19489-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Vỏ hộp bộ điều khiển điện tử trong hệ thống phanh ABS của xe máy Housing, ECU, ký mã hiệu 009V79187-00000, mã số 8536.90.94)
+- 🟢 [19411/TB-CHQ/2026](../registry/van-ban/19411-tb-chq-2026.yaml) — Thông báo đính chính Thông báo kết quả xác định trước mã số (Đính chính Mục 3 Thông báo số 19329/TB-CHQ ngày 23/7/2026 từ phân nhóm 8507.90 thành phân nhóm 8705.90, mã số 8705.90.90)
 - 🟢 [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - 🟢 [1489/TB-CHQ/2026](../registry/van-ban/1489-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1633/TB-CHQ/2026](../registry/van-ban/1633-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2710.12.99)

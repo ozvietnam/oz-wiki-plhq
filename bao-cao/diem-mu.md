@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-11-22
 
-Tổng 3086 điểm: **8 cao**, 283 vừa, 2795 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 3088 điểm: **8 cao**, 285 vừa, 2795 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -10,6 +10,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 201 | `danh-muc-hs` |
 | Văn bản nền tảng (có toàn văn) chưa có trang wiki/sources/ | Vừa | 78 | `doc-hieu` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
+| Wiki nhắc văn bản chưa đăng ký | Vừa | 2 | `lien-ket-cheo` |
 | THIEU_VBHN | Vừa | 1 | `nap-lam-sach` |
 | TB-TCHQ cá biệt chưa có nguồn chính thống | Thấp | 1367 | `tb-tchq` |
 | TB-TCHQ cá biệt chưa đối chiếu nguồn A | Thấp | 1367 | `tb-tchq` |
@@ -123,6 +124,11 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **154/2026/TT-BTC có hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 - [ ] **372/2026/NĐ-CP có hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 - [ ] **63/2026/TT-BKHCN có hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
+
+## Wiki nhắc văn bản chưa đăng ký (2)
+
+- [ ] **Wiki nhắc 19/2018/TT-BNNPTNT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/01-2022-tt-bnnptnt.md).
+- [ ] **Wiki nhắc 13/2020/TT-BNNPTNT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/01-2022-tt-bnnptnt.md).
 
 ## THIEU_VBHN (1)
 
