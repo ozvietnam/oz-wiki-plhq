@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-3000 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3004 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2304 văn bản, 2304 chưa hết hiệu lực.
+2308 văn bản, 2308 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -525,6 +525,10 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [8848/TB-CHQ/2026](../registry/van-ban/8848-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Dụng cụ kiểm tra độ thẳng hàng chân pin tiếp xúc mạch điện bằng thép không gỉ, ký mã hiệu 7386-8850A00 49YC002837, mã số 9031.80.90)
 - 🟢 [7700/TB-CHQ/2026](../registry/van-ban/7700-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Nguyên liệu thực phẩm AQUAMIN F từ tảo biển đỏ Lithothamnion sp. dạng bột bổ sung canxi và khoáng chất tự nhiên, mã số 1212.21.90)
 - 🟢 [7911/TB-CHQ/2026](../registry/van-ban/7911-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Màn hình hiển thị Left Monitor for Room 70 Dual cho hệ thống hội nghị truyền hình Webex Room 70D, ký mã hiệu CS-ROOM70D-MON-L, mã số 8528.52.00)
+- 🟢 [7912/TB-CHQ/2026](../registry/van-ban/7912-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Màn hình hiển thị Monitor for Room 70S cho hệ thống hội nghị truyền hình Webex Room 70S, ký mã hiệu CS-ROOM70S-MON-S=, mã số 8528.52.00)
+- 🟢 [7913/TB-CHQ/2026](../registry/van-ban/7913-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Màn hình hiển thị CTS-IX5000 70 Display cho hệ thống hội nghị truyền hình TelePresence IX5000 Series, ký mã hiệu CTS-SK-70-G1=, mã số 8528.52.00)
+- 🟢 [7914/TB-CHQ/2026](../registry/van-ban/7914-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Màn hình hiển thị Left Monitor for MX800 70 Dual Screen w/Dual Camera cho hệ thống hội nghị truyền hình TelePresence MX800, ký mã hiệu CTS-MX800-MON-L-D=, mã số 8528.52.00)
+- 🟢 [7915/TB-CHQ/2026](../registry/van-ban/7915-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Màn hình hiển thị Right Monitor for Room 70 Dual cho hệ thống hội nghị truyền hình Webex Room 70D, ký mã hiệu CS-ROOM70D-MON-R=, mã số 8528.52.00)
 - 🟢 [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - 🟢 [1489/TB-CHQ/2026](../registry/van-ban/1489-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1633/TB-CHQ/2026](../registry/van-ban/1633-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2710.12.99)
