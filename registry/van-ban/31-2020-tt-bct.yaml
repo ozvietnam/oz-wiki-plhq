@@ -14,8 +14,17 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đổi, bỗ sung một số điều và thay thế một số nội dung của Thông tư số 13/2018/TT- BCT ngày 15 › tháng 6 năm 2018 quy định về quan ly, sử dung vat liệu nỗ công nghiệp, tiền chất thuốc nỗ sử dụng để sản xuất vật liệu nỗ công nghiệp 1. Sửa đổi Điều 1 như sau: “Điều 1. Phạm vi điều chỉnh'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Điều khoản thi hành 1. Thông tư này có hiệu lực ké từ ngàyÁ€ tháng 01 năm 2021. 2. Trong quá trình thực hiện, các văn bản quy phạm pháp luật dẫn chiếu dé áp dụng trong Thông tư được sửa đổi, bổ sung hoặc thay thế bằng các văn bản mới thì được dẫn chiếu áp dụng theo các văn bản mới đó. 3. Trong quá trình thực hiện nếu có vướng mắc, đề nghị phản ánh về Bộ tf Thương dé nghiên cứu giải yeh
+      trang_pdf: 2
 ghi_chu: Sửa đổi Thông tư 13/2018/TT-BCT về quản lý, sử dụng vật liệu nổ công nghiệp, tiền chất thuốc nổ.
-toan_van: raw/download/datafiles.chinhphu.vn/31-2020-tt-bct.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/31-2020-tt-bct.pdf
+  - raw/ocr/31-2020-tt-bct.ocr.txt
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=202350
     truy_cap: '2026-11-15'

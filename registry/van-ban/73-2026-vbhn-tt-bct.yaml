@@ -26,5 +26,17 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-12'
   boi: tho-05-ai-live@ozvietnam
-ghi_chu: 'Trinh sát đêm 11/11, nạp toàn văn và đối chiếu hiệu lực ngày 12/11. LÕI tra cứu mã HS khai báo — cặp với 74/2026/VBHN-TT-BCT (TT bổ sung). Đã nối quan_he.hop_nhat với 08/2023/TT-BCT và 48/2026/TT-BCT đã có trong sổ; hai thông tư thành phần còn lại (43/2023/TT-BCT, 41/2026/TT-BCT) chưa ghi vào quan_he vì chưa có trong sổ.'
-toan_van: raw/download/datafiles.chinhphu.vn/73-2026-vbhn-tt-bct.pdf
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Sửa đổi, bổ sung một số điều của Thông tư số 12/2018/TT-BCT ngày 15 tháng 6 năm 2018 của Bộ trưởng Bộ Công Thương, quy định chỉ tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 62/2018/NĐ- CP ngày 15 tháng 5 năm 2018 của Chính phủ quy định chỉ tiết một số điều của Luật Quản lý ngoại thương (sau đây gọi là Thông tư số 12/2018/TT-BCT) 12 (được bãi bỏ) 23 (được bãi bỏ)
+      trang_pdf: 2
+    - dieu: 2
+      noi_dung: 'Điều 2. Sửa đỗi, bd sung một số điều của Thông tư số 41/2019/T T-BCT ngay 16 thang 12 năm, 2019 của Bộ trưởng Bộ Công Thương bo sung Danh mục chỉ tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương (Thông tư số 41/2019/TT- BCT) ! Thông tư số 43/2023/TT-BCT có căn cứ ban hành như sau: “Căn cứ Luật Phòng, chống tác hại của thuốc lá;'
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: 'Điều 3. Hiệu lực thi hanh‘ * Điều 7, Điều 8 Thông tư số 43/2023/TT- BCT, có hiệu lực kể từ ngày 12 tháng 02 năm 2024 quy định như sau: “Điều 7. Quy định chuyển tiếp L Trường hợp đã tiếp nhận hồ sơ đối với các thủ tục hành chính quy định tại Điều 2 của Thông tư này trước ngày Thông tư này có hiệu lực thì tiếp tục thực hiện theo quy định của pháp luật tại thời điểm tiếp nhận hồ sơ.'
+      trang_pdf: 3
+ghi_chu: Trinh sát đêm 11/11, nạp toàn văn và đối chiếu hiệu lực ngày 12/11. LÕI tra cứu mã HS khai báo — cặp với 74/2026/VBHN-TT-BCT (TT bổ sung). Đã nối quan_he.hop_nhat với 08/2023/TT-BCT và 48/2026/TT-BCT đã có trong sổ; hai thông tư thành phần còn lại (43/2023/TT-BCT, 41/2026/TT-BCT) chưa ghi vào quan_he vì chưa có trong sổ.
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/73-2026-vbhn-tt-bct.pdf
+  - raw/ocr/73-2026-vbhn-tt-bct.ocr.txt

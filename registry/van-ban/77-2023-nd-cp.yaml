@@ -15,10 +15,43 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-  ghi_chu: 'Crawl từ vanban.chinhphu.vn docid=208887'
+  ghi_chu: Crawl từ vanban.chinhphu.vn docid=208887
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh 1. Nghị định này quy định việc quản lý nhập khẩu hàng hóa tân trang theo Hiệp định Đối tác Toàn diện và Tiên bộ xuyên Thái Bình Dương (sau đây gọi là Hiệp định CPTPP). 2. Nghị định này chỉ 4p dụng đối với việc nhập khẩu hàng hóa tân trang theo Hiệp định CPTPP và cùng chủng loại với hàng hóa đã qua sử dụng thuộc diện cắm nhập khẩu vào Việt Nam theo quy định pháp luật.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đắi tượng áp dụng Nghị định này áp dụng đối với doanh nghiệp tân trang, cơ sở tân trang, chủ sở hữu nhãn hiệu, thương nhân nhập khẩu hàng hóa tân trang và các cơ quan, tổ chức, cá nhân có liên quan đến hoạt động nhập khẩu hàng hóa tân trang theo Hiệp định CPTPP.
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: 'Điều 3. Giải thích từ ngữ Trong Nghị định này, các thuật ngữ dưới đây được hiểu như sau: 1. Vật tư đã được phục hồi là một hoặc nhiều bộ phận riêng biệt (i) được tháo ra từ hàng hóa đã qua sử dụng, sau đó (ii) được làm sạch, kiểm tra chất lượng, thử nghiệm hoặc trải qua các công đoạn gia công, sửa chữa cần thiết khác để bảo đảm đưa vật tư đó trở lại tình trạng hoạt động tốt, chắc chắn và an toàn. 2. Hàng hóa tân trang là sản phẩm:'
+      trang_pdf: 2
+    - dieu: 6
+      noi_dung: Điều 6. Mã số tân trang 1. Mã số tân trang là mã định danh do Bộ Công Thương cấp cho doanh nghiệp tân trang hoặc chủ sở hữu nhãn hiệu là tổ chức. 2. Mã số tân trang được cấp cho doanh nghiệp tân trang hoặc chủ sở hữu nhãn hiệu chứng minh được năng lực tân trang, chế độ bảo hành và quyền sử dụng nhãn hiệu theo quy định tại Nghị định này. 3. Mã số tân trang có thời hạn hiệu lực tối đa là 5 năm kế từ ngày cấp.
+      trang_pdf: 4
+    - dieu: 9
+      noi_dung: 'Điều 9. Yêu cầu đối với tài liệu thuyết minh việc hàng hóa tân trang đáp ứng được quy tắc xuất xứ theo Hiệp định CPTPP Tài liệu thuyết minh việc hàng hóa tân trang đáp ứng được quy tắc xuất xứ theo Hiệp định CPTPP tôi thiêu cân:'
+      trang_pdf: 5
+    - dieu: 11
+      noi_dung: 'Điều 11. Yêu cầu đối với văn bản của chủ sở hữu nhãn hiệu cho phép hàng hóa tân trang được sử dụng nhãn hiệu của hàng hóa ban đầu hoặc được sử dụng cho hàng hóa mà mình sở hữu nhãn hiệu Văn bản của chủ sở hữu nhãn hiệu nêu tại Điêu này tôi thiêu cân:'
+      trang_pdf: 6
+    - dieu: 14
+      noi_dung: Điều 14. Gia hạn hiệu lực Mã số tân trang 1. Doanh nghiệp có nhu cầu gia hạn hiệu lực Mã số tân trang gửi Đơn đề nghị gia hạn Mã số tân trang theo mẫu tại Phụ lục VII hoặc Phụ lục VII Nghị định này tới Bộ Công Thương it nhất 90 ngày trước ngày Mã số tân trang hết hiệu lực. 2. Thời hạn xử lý Don dé nghị gia hạn Mã số tân trang là không quá 07 ngày làm việc trong trường hợp không sửa đổi, bd sung thông tin so với Mã số tân trang đã được cấp.
+      trang_pdf: 8
+    - dieu: 16
+      noi_dung: 'Điều 16. Đình chỉ, thu hồi Mã số tân trang 1. Bộ Công Thương thu hồi Mã số tân trang trong những trường hợp sau:'
+      trang_pdf: 9
+    - dieu: 19
+      noi_dung: 'Điều 19. Thủ tục nhập khẩu bàng hóa tân trang Ngoài thủ tục hải quan theo quy định, thương nhân nhập khẩu hàng hóa tân trang nộp hoặc xuất trình cho cơ quan Hải quan các văn bản sau: 1. Chứng từ chứng nhận xuất xứ hàng hóa theo Hiệp định CPTPP (nộp hoặc xuất trình theo quy định pháp luật)'
+      trang_pdf: 13
+    - dieu: 22
+      noi_dung: Điều 22. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2024.
+      trang_pdf: 14
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=208887&pageid=27160
     truy_cap: '2026-10-10'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/11/77-cp.signed.pdf
     truy_cap: '2026-10-10'
-toan_van: raw/download/datafiles.chinhphu.vn/77-2023-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/77-2023-nd-cp.pdf
+  - raw/ocr/77-2023-nd-cp.ocr.txt

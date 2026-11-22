@@ -29,8 +29,20 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Bãi bỏ toàn bộ các nghị định Bãi bỏ toàn bộ các nghị định sau đây: 1. Nghị định số 35/2005/NĐ-CP ngày 17 tháng 3 năm 2005 của Chính phủ về việc xử lý kỷ luật cán bộ, công chức. 2. Nghị định số 105/2006/NĐ-CP ngày 22 tháng 9 năm 2006 của Chính phủ quy định chỉ tiết và hướng dẫn thi hành một số điều của Luật Sở hữu trí tuệ về bảo vệ quyền sở hữu trí tuệ và quản lý nhà nước về sở hữu trí tuệ.'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Bãi bỏ một phần các nghị định Bãi bỏ một phần các nghị định sau đây: 1. Bãi bỏ khoản 1 Điều 12 Nghị định số 65/2017/NĐ-CP ngày 19 tháng năm 2017 của Chính phủ chính sách đặc thù về giống, vốn và công nghệ trong F>——t phát triển nuôi trồng, khai thác dược liệu.'
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: Điều 3. Điều khoản thi hành 1. Nghị định này có hiệu lực thi hành kể từ ngày 30 tháng 12 năm 2025.
+      trang_pdf: 2
 ghi_chu: Chỉ ghi quan hệ với gia đình SHTT (bãi toàn bộ NĐ 105/2006 và NĐ 119/2010); nghị định còn bãi bỏ toàn bộ 6 NĐ khác (35/2005, 35/2007, 27/2010, 137/2013, 04/2015, 63/2020) và một phần NĐ 65/2017, NĐ 08/2018 — ngoài phạm vi sổ tay.
 tu_khoa:
   - so-huu-tri-tue
   - bai-bo
-toan_van: raw/download/datafiles.chinhphu.vn/285-2025-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/285-2025-nd-cp.pdf
+  - raw/ocr/285-2025-nd-cp.ocr.txt

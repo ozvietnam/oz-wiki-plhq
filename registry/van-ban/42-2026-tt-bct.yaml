@@ -21,5 +21,14 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Thông tư quy định Danh mục chi tiết hàng hóa lưỡng dụng thuộc thẩm quyền quản lý của Bộ Công Thương theo khoản 2 Điều 7 Nghị định 259/2025/NĐ-CP (ban hành 29-07-2026, hiệu lực 12-09-2026 theo khoản 1 Điều 2; Phụ lục mô tả đặc tính kỹ thuật hàng lưỡng dụng không gắn mã HS 8 số).'
-toan_van: raw/download/files.customs.gov.vn/42-2026-tt-bct.pdf
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Danh mục chỉ tiết hàng hóa lưỡng dụng thuộc thấm quyền quản lý của Bộ Công Thương Ban hành Danh mục chỉ tiết hàng hóa lưỡng dụng thuộc thâm quyền quản lý của Bộ Công Thương thực hiện khoản 2 Điều 7 Nghị định số 259/2025/ND- CP tại Phụ lục kèm theo Thông tư này.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kế từ ngày AZ tháng 3 năm 2026. 2. Trong quá trình thực hiện Thông tư này, nếu phát sinh vướng mắc, thương nhân, các cơ quan, tô chức có liên quan phản ánh băng văn bản về Bộ
+      trang_pdf: 1
+ghi_chu: Thông tư quy định Danh mục chi tiết hàng hóa lưỡng dụng thuộc thẩm quyền quản lý của Bộ Công Thương theo khoản 2 Điều 7 Nghị định 259/2025/NĐ-CP (ban hành 29-07-2026, hiệu lực 12-09-2026 theo khoản 1 Điều 2; Phụ lục mô tả đặc tính kỹ thuật hàng lưỡng dụng không gắn mã HS 8 số).
+toan_van:
+  - raw/download/files.customs.gov.vn/42-2026-tt-bct.pdf
+  - raw/ocr/42-2026-tt-bct.ocr.txt

@@ -19,5 +19,20 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Bảng mã loại hình xuất khẩu, nhập khẩu và hướng dẫn sử dụng hiện hành (ban hành 18-05-2021, có hiệu lực từ 01-06-2021 theo Điều 2, thay thế Công văn 2765/TCHQ-GSQL ngày 01-04-2015).'
-toan_van: raw/download/files.customs.gov.vn/1357-qd-tchq.pdf
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Ban hành kèm theo Quyết định này Bảng mã loại hình xuất khẩu, nhập khâu và hướng dẫn sử dụng.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Hiệu lực thi hành Quyết định này có hiệu lực kể từ ngày 01/6/2021 và thay thế công văn số 2765/TCHQ-GSQL ngày 01/04/2015 của Tổng cục Hải quan về mã loại hình XNK trên hệ thống VNACCS.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Điều khoản chuyền tiếp 1. Đối với các tờ khai hải quan đã đăng ký theo loại hình tương ứng trước ngày Quyết định này có hiệu lực, nêu có thay đôi mục đích sử dụng, đăng ký tờ khai hải quan theo loại hình xuất khẩu, nhập khẩu mới thì sử dụng mã loại hình theo quy định tại Quyết định này ké từ thời điểm đăng ký tờ khai hải quan mới.
+      trang_pdf: 1
+    - dieu: 4
+      noi_dung: 'Điều 4. Tố chức thực hiện: 1. Thủ trưởng các đơn vị thuộc và trực thuộc Tổng cục Hải quan chịu trách nhiệm thi hành Quyết định này. 2. Cục Hải quan các tỉnh, thành phố chỉ đạo các Chi cục Hải quan trực thuộc thông báo công khai Quyết định này tại các địa điểm làm thủ tục hải quan để người khai hải quan biết, thực hiện. 3. Trong quá trình thực hiện, nếu. có vướng mắc phát sinh, Cục Hải quan'
+      trang_pdf: 2
+ghi_chu: Bảng mã loại hình xuất khẩu, nhập khẩu và hướng dẫn sử dụng hiện hành (ban hành 18-05-2021, có hiệu lực từ 01-06-2021 theo Điều 2, thay thế Công văn 2765/TCHQ-GSQL ngày 01-04-2015).
+toan_van:
+  - raw/download/files.customs.gov.vn/1357-qd-tchq.pdf
+  - raw/ocr/1357-qd-tchq-2021.ocr.txt
