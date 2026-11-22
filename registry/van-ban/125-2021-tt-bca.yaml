@@ -10,10 +10,10 @@ nhanh:
   - kiem-tra-chuyen-nganh/bca
   - quan-ly-ngoai-thuong/giay-phep
 nguon:
-- url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-125-2021-tt-bca-36544/39412.htm
-  truy_cap: '2026-07-02'
-- url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2021/12/36544/39412-1-2022123-124125-2021-tt-bca.pdf
-  truy_cap: '2026-10-04'
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-125-2021-tt-bca-36544/39412.htm
+    truy_cap: '2026-07-02'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2021/12/36544/39412-1-2022123-124125-2021-tt-bca.pdf
+    truy_cap: '2026-10-04'
 trich_dan_trong_bieu_thue: 1
 danh_muc_hs:
   tep: danh-muc/125-2021-tt-bca.csv
@@ -21,12 +21,25 @@ danh_muc_hs:
   trich_boi: tho-bo-ba-01@ozvietnam
   ngay: '2026-11-18'
   da_doi_chieu: true
-  ghi_chu: 'Trích nguyên văn 15 dòng sản phẩm pháo hoa, pháo hoa nổ tại Phụ lục Đ (trang PDF 74, trang Công báo 75 — Công báo số 123 + 124 ngày 22-01-2022), tất cả mang mã HS 36041000, kèm đối chiếu nhãn hiệu và ký mã hiệu tại Phụ lục C (trang PDF 72, Công báo 73) và Phụ lục D (trang PDF 73, Công báo 74), áp dụng QCVN 04:2021/BCA.'
+  ghi_chu: Trích nguyên văn 15 dòng sản phẩm pháo hoa, pháo hoa nổ tại Phụ lục Đ (trang PDF 74, trang Công báo 75 — Công báo số 123 + 124 ngày 22-01-2022), tất cả mang mã HS 36041000, kèm đối chiếu nhãn hiệu và ký mã hiệu tại Phụ lục C (trang PDF 72, Công báo 73) và Phụ lục D (trang PDF 73, Công báo 74), áp dụng QCVN 04:2021/BCA.
 xac_minh:
   muc: NGUON_A
   pham_vi: PDF Công báo CDN; hiệu lực 01-03-2022 khớp sổ
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Ban hành kèm theo Thông tư này: 1. Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ, mã số QCVN 04:2021/BCA và các phụ lục ban hành kèm theo Quy chuẩn, bao gồm: Hồ sơ kho bảo quản pháo hoa, pháo hoa nổ (Phụ lục A); Yêu cầu kỹ thuật và phương pháp thử pháo hoa, pháo hoa nổ (Phụ lục B). 2. Danh mục pháo hoa, pháo hoa nổ quy định tại Phụ lục C và Phụ lục D.'
+      trang_pdf: 2
+      sha256_pdf: b549f6c822882274caf78fe70815e506ed2df8f25a13ef8722c471624a829062
+    - dieu: 2
+      noi_dung: Điều 2. Hiệu lực thi hành 1. Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ ban hành kèm theo Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 3 năm 2022.
+      trang_pdf: 2
+      sha256_pdf: b549f6c822882274caf78fe70815e506ed2df8f25a13ef8722c471624a829062
+    - dieu: 3
+      noi_dung: Điều 3. Trách nhiệm thi hành 1. Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội có trách nhiệm hướng dẫn, kiểm tra, đôn đốc việc thực hiện Thông tư này; căn cứ yêu cầu
+      trang_pdf: 2
+      sha256_pdf: b549f6c822882274caf78fe70815e506ed2df8f25a13ef8722c471624a829062
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn + chinhphu.vn). GHI CHÚ NGHIỆP VỤ (hs-code-api): QCVN 04:2021/BCA. Kèm Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ (chương 36).'
 toan_van: raw/download/congbaocdn.chinhphu.vn/125-2021-tt-bca.pdf

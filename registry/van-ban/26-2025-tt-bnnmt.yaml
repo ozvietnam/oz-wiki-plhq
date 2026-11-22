@@ -22,11 +22,54 @@ nguon:
     truy_cap: '2026-10-28'
   - url: https://thuvienphapluat.vn/van-ban/Linh-vuc-khac/Thong-tu-26-2025-TT-BNNMT-xu-ly-lam-san-thuy-san-la-tai-san-duoc-xac-lap-quyen-so-huu-toan-dan-662945.aspx
     truy_cap: '2026-10-28'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/26-bnnmt.pdf
+    truy_cap: '2026-11-22'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'thẻ vanban.chinhphu.vn (docid=214350) và trang nguồn wiki/sources/26-2025-tt-bnnmt.md: ban hành 24-06-2025, có hiệu lực từ 01-07-2025 theo khoản 1 Điều 33 (Chương III phân loại doanh nghiệp có hiệu lực từ 16-05-2026 theo khoản 2 Điều 33); khoản 3 Điều 33 thay thế TT 26/2022/TT-BNNPTNT và bãi bỏ TT 29/2019/TT-BNN; đối chiếu còn hiệu lực'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Thông tư này quy định về: 1. Hồ sơ lâm sản hợp pháp, quản lý, truy xuất nguồn gốc lâm sản; trình tự, thủ tục khai thác thực vật rừng thông thường, động vật rừng thông thường. 2. Đánh dấu mẫu vật động vật, thực vật thuộc Danh mục loài nguy cấp, quý, hiếm; động vật, thực vật thuộc Phụ lục Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp (sau đây viết tắt là CITES), trừ loài thủy sản.'
+      trang_pdf: 1
+      sha256_pdf: c0bd787c67adcd1bc724f97f2b255699850500c3428a01d019934a1f77c2b6d7
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng Thông tư này áp dụng đối với tổ chức, cá nhân, hộ kinh doanh, hộ gia đình, cộng đồng dân cư có hoạt động liên quan đến các nội dung quy định tại Điều 1 Thông tư này.
+      trang_pdf: 2
+      sha256_pdf: c0bd787c67adcd1bc724f97f2b255699850500c3428a01d019934a1f77c2b6d7
+    - dieu: 3
+      noi_dung: 'Điều 3. Giải thích từ ngữ Trong Thông tư này các từ ngữ dưới đây được hiểu như sau: 1. Cơ quan Kiểm lâm sở tại là Hạt Kiểm lâm hoặc Kiểm lâm cấp tỉnh ở những địa phương không có Hạt Kiểm lâm.'
+      trang_pdf: 2
+      sha256_pdf: c0bd787c67adcd1bc724f97f2b255699850500c3428a01d019934a1f77c2b6d7
+    - dieu: 8
+      noi_dung: 'Điều 8. Hồ sơ lâm sản có nguồn gốc khai thác trong nước 1. Gỗ khai thác từ rừng tự nhiên: bản chính Bảng kê lâm sản có xác nhận của cơ quan Kiểm lâm sở tại. 2. Gỗ loài thông thường khai thác từ rừng trồng do Nhà nước là đại diện chủ sở hữu; rừng trồng phòng hộ do tổ chức, cá nhân, hộ gia đình, cộng đồng dân cư tự đầu tư: a) Bản chính Bảng kê lâm sản do chủ lâm sản lập; bản sao phương án khai'
+      trang_pdf: 12
+      sha256_pdf: c0bd787c67adcd1bc724f97f2b255699850500c3428a01d019934a1f77c2b6d7
+    - dieu: 12
+      noi_dung: 'Điều 12. Hồ sơ lâm sản xuất khẩu 1. Đối với gỗ nguyên liệu, sản phẩm gỗ: a) Bản sao hoặc bản điện tử tờ khai hải quan theo quy định pháp luật về hải quan; b) Đối với gỗ nguyên liệu, sản phẩm gỗ thuộc Danh mục loài nguy cấp, quý, hiếm, Phụ lục CITES: bản sao hoặc bản điện tử Giấy phép CITES xuất khẩu, tái xuất khẩu do Cơ quan quản lý CITES Việt Nam cấp; c) Đối với gỗ nguyên liệu, sản phẩm gỗ không thuộc trường hợp quy định'
+      trang_pdf: 15
+      sha256_pdf: c0bd787c67adcd1bc724f97f2b255699850500c3428a01d019934a1f77c2b6d7
+    - dieu: 16
+      noi_dung: 'Điều 16. Quy định kiểm tra 1. Nguyên tắc: a) Hoạt động kiểm tra của cơ quan Kiểm lâm do Tổ kiểm tra hoặc Đoàn kiểm tra (sau đây gọi viết là Tổ kiểm tra) thực hiện khi có quyết định kiểm tra của người có thẩm quyền quy định tại khoản 7 Điều này, trừ trường hợp kiểm tra đột xuất theo quy định tại khoản 4 Điều này;'
+      trang_pdf: 20
+      sha256_pdf: c0bd787c67adcd1bc724f97f2b255699850500c3428a01d019934a1f77c2b6d7
+    - dieu: 20
+      noi_dung: 'Điều 20. Hệ thống thông tin phân loại doanh nghiệp, Cơ sở dữ liệu vi phạm 1. Hệ thống thông tin phân loại doanh nghiệp: a) Được xây dựng theo quy định của pháp luật; ứng dụng để tiếp nhận, lưu trữ thông tin và phân loại doanh nghiệp theo quy định tại Nghị định số 102/2020/NĐ-CP và tại Thông tư này; b) Được điều chỉnh, thay đổi khi có yêu cầu và phù hợp với quy định mới; phục vụ cho việc phân loại doanh nghiệp thuận lợi, chính xác, kịp thời;'
+      trang_pdf: 26
+      sha256_pdf: c0bd787c67adcd1bc724f97f2b255699850500c3428a01d019934a1f77c2b6d7
+    - dieu: 24
+      noi_dung: 'Điều 24. Trách nhiệm của cơ quan chủ trì quản lý tài sản, đơn vị tiếp nhận tài sản sau khi được xác lập quyền sở hữu toàn dân 1. Cơ quan chủ trì quản lý tài sản: a) Chịu trách nhiệm xây dựng Phương án xử lý tài sản xác lập quyền sở hữu toàn dân trình cơ quan, người có thẩm quyền quyết định phê duyệt theo đúng thời hạn và thực hiện việc xử lý tài sản theo Phương án đã được phê duyệt; b) Quản lý và lưu giữ hồ sơ trong quá trình xử lý;'
+      trang_pdf: 31
+      sha256_pdf: c0bd787c67adcd1bc724f97f2b255699850500c3428a01d019934a1f77c2b6d7
+    - dieu: 28
+      noi_dung: 'Điều 28. Chuyển giao cho cơ quan quản lý chuyên ngành 1. Đối tượng: a) Động vật, loài thủy sản thuộc Danh mục loài nguy cấp, quý, hiếm Nhóm I, Phụ lục I CITES;'
+      trang_pdf: 34
+      sha256_pdf: c0bd787c67adcd1bc724f97f2b255699850500c3428a01d019934a1f77c2b6d7
+    - dieu: 33
+      noi_dung: Điều 33. Hiệu lực thi hành 1. Thông tư này có hiệu lực kể từ ngày 01 tháng 7 năm 2025, trừ trường hợp quy định tại khoản 2 Điều này. 2. Quy định Phân loại doanh nghiệp tại Chương III Thông tư này có hiệu
+      trang_pdf: 39
+      sha256_pdf: c0bd787c67adcd1bc724f97f2b255699850500c3428a01d019934a1f77c2b6d7
 ghi_chu: 'Hiện hành cho truy xuất nguồn gốc lâm sản NK — Mẫu 01 Phụ lục II là Bảng kê lâm sản (tầng 2 #247, xem trang nguồn). Định nghĩa Điều 3.6: dăm gỗ thuộc GỖ NGUYÊN LIỆU. Điều 9.1: hồ sơ gỗ NK theo Điều 7 NĐ 102/2020 (sửa 2024). Có VBHN 04/VBHN-BNNMT 2026 — nạp khi có nhu cầu.'
-toan_van: raw/download/vanban.chinhphu.vn/26-2025-tt-bnnmt.html
+toan_van: raw/download/datafiles.chinhphu.vn/26-2025-tt-bnnmt.pdf

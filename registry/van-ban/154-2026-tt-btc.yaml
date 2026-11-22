@@ -17,11 +17,34 @@ nguon:
     truy_cap: '2026-10-30'
   - url: https://luatvietnam.vn/thue/thong-tu-154-2026-tt-btc-sua-doi-thong-tu-80-2019-tt-btc-ve-thu-tuc-hai-quan-452011-d1.html
     truy_cap: '2026-10-30'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/10/154-btc.signed.pdf
+    truy_cap: '2026-11-22'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'đối chiếu thẻ vanban.chinhphu.vn (docid=220072) và cạnh sửa đổi trong sổ: Thông tư 154/2026/TT-BTC ban hành 15-10-2026, có hiệu lực thi hành từ ngày 01-01-2027 (tại thời điểm đối chiếu 14-11-2026 đang ở trạng thái CHUA_CO_HIEU_LUC); sửa đổi, bổ sung một số điều của Thông tư 80/2019/TT-BTC ngày 15-11-2019 về thủ tục hải quan, quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu mua gom của người nước ngoài'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đổi, bd sung Điều 4 như sau: “Điều 4. Thủ tục hải quan, quản lý thuế, phí và lệ phí đối với hàng hoá nhập khẩu thương nhân mua gom của cư dân biên giới'
+      trang_pdf: 2
+    - dieu: 2
+      noi_dung: 'Điều 2. Sửa đỗi, bỗ sung Điều 5 như sau: “Điều 5. Kiểm tra, giám sát hải quan đối với hàng hoá xuất khẩu, nhập khẫu của thương nhân, hàng hoá nhập khẩu thương nhân mua gom của cư dân biên giới'
+      trang_pdf: 3
+    - dieu: 3
+      noi_dung: 'Điều 3. Sữa đối, bỗ sung Điều 6 như sau: “Điều 6. Thủ tục hai quan, quan lý thuế, phí và lệ phí đối với hàng hoá xuất khẩu, nhập khẩu của cư dân biên giới'
+      trang_pdf: 3
+    - dieu: 4
+      noi_dung: 5 “Điều 7. Kiểm tra, giám sát hải quan đối với hàng hóa xuất khẩu, nhập khẩu của cư dân biên giới 1. Đối với hàng hóa xuất khẩu của cư dân biên giới, việc kiểm tra thực tế hàng hóa do Đội trưởng Hải quan cửa khâu quyết định trên cơ sở thông tin liên quan đến hàng hóa theo quy định tại Điều 29, Điều 30 Nghị định 08/2015/NĐ- CP được sửa đổi, bỗ sung bởi Nghị định số 167/2025/NĐ-CP, hướng dẫn tại Thông tư số 38/2015/TT-BTC được sửa đổi, bổ sung bởi
+      trang_pdf: 5
+    - dieu: 5
+      noi_dung: 'Điều 5. Thay thế một số cụm từ tại Thông tư số 80/2019/TT-BTC như sau: 1. Thay thé cụm từ “Tổng cục Hải quan” bằng cụm từ “Cục Hải quan” tại Điều 8, khoản 1, khoản 3 Điều 9, khoản 2 Điều 10, khoản 2 Điều 11, Phụ lục IV; 2. Thay thế cụm từ “Cục Hải quan tỉnh, TP...” bằng cụm từ “Hải quan khu vực” tại Phụ lục IV; 3. Thay thế cụm từ “Chỉ cục Hải quan cửa khâu” bằng cụm từ “Hải quan cửa khẩu” tại khoản 2 Điều 9, Điều 10, Phụ lục IV;'
+      trang_pdf: 5
+    - dieu: 6
+      noi_dung: Điều 6. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành từ ngày 01/01/2027. 2. Trường hợp các văn bản liên quan viện dẫn tại Thông tư này được sửa đôi, bé sung hoặc thay thé thì thực hiện theo văn bản sửa đổi, bé sung hoặc thay thé đó.
+      trang_pdf: 6
 ghi_chu: 'Radar RSS 30/10 (issue #278). CHUA_CO_HIEU_LUC tới 01-01-2027 — MỐC CANH như TT 142/2026 (16-11-2026) và Luật 11/2026 (01-03-2027).'
-toan_van: raw/download/vanban.chinhphu.vn/154-2026-tt-btc.html
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/154-2026-tt-btc.pdf
+  - raw/ocr/154-2026-tt-btc.ocr.txt

@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
-so_hieu: '211/2025/NĐ-CP'
+so_hieu: 211/2025/NĐ-CP
 loai: NGHI_DINH
-ten: 'Quy định về hoạt động mật mã dân sự và sửa đổi, bổ sung một số điều của Nghị định số 15/2020/NĐ-CP ngày 03 tháng 02 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bưu chính, viễn thông, tần số vô tuyến điện, công nghệ thông tin và giao dịch điện tử được sửa đổi, bổ sung một số điều tại Nghị định số 14/2022/NĐ-CP ngày 27 tháng 01 năm 2022 của Chính phủ'
+ten: Quy định về hoạt động mật mã dân sự và sửa đổi, bổ sung một số điều của Nghị định số 15/2020/NĐ-CP ngày 03 tháng 02 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bưu chính, viễn thông, tần số vô tuyến điện, công nghệ thông tin và giao dịch điện tử được sửa đổi, bổ sung một số điều tại Nghị định số 14/2022/NĐ-CP ngày 27 tháng 01 năm 2022 của Chính phủ
 co_quan: CP
 ngay_ban_hanh: '2025-07-25'
 hieu_luc_tu: '2025-09-09'
@@ -36,6 +36,46 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-12'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Nghị định này quy định chi tiết một số điều của Luật An toàn thông tin mạng về kinh doanh sản phẩm, dịch vụ mật mã dân sự, xuất khẩu, nhập khẩu sản phẩm mật mã dân sự, đánh giá sự phù hợp sản phẩm mật mã dân sự và sửa đổi, bổ sung một số điều của Nghị định số 15/2020/NĐ-CP ngày 03 tháng 02 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bưu chính, viễn thông, tần số vô tuyến điện, công nghệ
+      trang_pdf: 2
+      sha256_pdf: 88a56eb9c78205b19da846d4ab39adfc8db6ac0b769b3fa28f023d7947e492b4
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng 1. Doanh nghiệp kinh doanh sản phẩm, dịch vụ mật mã dân sự, xuất khẩu, nhập khẩu sản phẩm mật mã dân sự; tổ chức tham gia hoạt động đánh giá sự phù hợp sản phẩm mật mã dân sự và các tổ chức, cá nhân khác có liên quan.
+      trang_pdf: 2
+      sha256_pdf: 88a56eb9c78205b19da846d4ab39adfc8db6ac0b769b3fa28f023d7947e492b4
+    - dieu: 3
+      noi_dung: Điều 3. Danh mục sản phẩm, dịch vụ mật mã dân sự, Danh mục sản phẩm mật mã dân sự xuất khẩu, nhập khẩu theo giấy phép Ban hành Danh mục sản phẩm, dịch vụ mật mã dân sự tại Phụ lục I và Danh mục sản phẩm mật mã dân sự xuất khẩu, nhập khẩu theo giấy phép tại Phụ lục II kèm theo Nghị định này.
+      trang_pdf: 2
+      sha256_pdf: 88a56eb9c78205b19da846d4ab39adfc8db6ac0b769b3fa28f023d7947e492b4
+    - dieu: 5
+      noi_dung: Điều 5. Điều kiện cấp Giấy phép kinh doanh sản phẩm, dịch vụ mật mã dân sự 1. Doanh nghiệp được cấp Giấy phép kinh doanh sản phẩm, dịch vụ mật mã dân sự khi đáp ứng đủ các điều kiện quy định tại khoản 2 Điều 31 Luật An toàn thông tin mạng.
+      trang_pdf: 3
+      sha256_pdf: 88a56eb9c78205b19da846d4ab39adfc8db6ac0b769b3fa28f023d7947e492b4
+    - dieu: 6
+      noi_dung: 'Điều 6. Trình tự, thủ tục cấp mới, sửa đổi, bổ sung, cấp lại, gia hạn Giấy phép kinh doanh sản phẩm, dịch vụ mật mã dân sự 1. Hồ sơ đề nghị cấp mới Giấy phép kinh doanh sản phẩm, dịch vụ mật mã dân sự gồm: a) Đơn đề nghị cấp Giấy phép kinh doanh sản phẩm, dịch vụ mật mã dân sự theo mẫu số 01 Phụ lục III Nghị định này; b) Bản sao Giấy chứng nhận đăng ký doanh nghiệp hoặc Giấy chứng nhận đăng ký đầu tư hoặc giấy tờ khác có giá trị tương đương;'
+      trang_pdf: 3
+      sha256_pdf: 88a56eb9c78205b19da846d4ab39adfc8db6ac0b769b3fa28f023d7947e492b4
+    - dieu: 7
+      noi_dung: 'Điều 7. Trình tự, thủ tục đề nghị cấp Giấy phép xuất khẩu, nhập khẩu sản phẩm mật mã dân sự 1. Hồ sơ đề nghị cấp Giấy phép xuất khẩu, nhập khẩu sản phẩm mật mã dân sự được lập thành 01 bộ, gồm: a) Đơn đề nghị cấp Giấy phép xuất khẩu, nhập khẩu sản phẩm mật mã dân sự theo mẫu số 07 Phụ lục III Nghị định này; b) Bản sao Giấy phép kinh doanh sản phẩm, dịch vụ mật mã dân sự; c) Bản sao Giấy chứng nhận hợp quy đối với sản phẩm mật mã dân sự nhập khẩu.'
+      trang_pdf: 5
+      sha256_pdf: 88a56eb9c78205b19da846d4ab39adfc8db6ac0b769b3fa28f023d7947e492b4
+    - dieu: 8
+      noi_dung: 'Điều 8. Trách nhiệm quản lý hoạt động đánh giá sự phù hợp sản phẩm mật mã dân sự Ban Cơ yếu Chính phủ giúp Bộ trưởng Bộ Quốc phòng thực hiện quản lý hoạt động đánh giá sự phù hợp sản phẩm mật mã dân sự, có nhiệm vụ sau đây: 1. Cấp Giấy chứng nhận đăng ký hoạt động đánh giá sự phù hợp sản phẩm mật mã dân sự. 2. Chỉ định và quản lý hoạt động của tổ chức đánh giá sự phù hợp sản phẩm mật mã dân sự. 3. Tiếp nhận công bố hợp quy sản phẩm mật mã dân sự.'
+      trang_pdf: 6
+      sha256_pdf: 88a56eb9c78205b19da846d4ab39adfc8db6ac0b769b3fa28f023d7947e492b4
+    - dieu: 9
+      noi_dung: Điều 9. Điều kiện, trình tự, thủ tục đăng ký hoạt động đánh giá sự phù hợp, chỉ định tổ chức đánh giá sự phù hợp và công bố hợp quy sản phẩm mật mã dân sự 1. Điều kiện, trình tự, thủ tục đăng ký hoạt động đánh giá sự phù hợp;
+      trang_pdf: 6
+      sha256_pdf: 88a56eb9c78205b19da846d4ab39adfc8db6ac0b769b3fa28f023d7947e492b4
+    - dieu: 10
+      noi_dung: Điều 10. Thừa nhận kết quả đánh giá sự phù hợp sản phẩm mật mã dân sự 1. Việc thừa nhận kết quả đánh giá sự phù hợp sản phẩm mật mã dân sự giữa Việt Nam với các quốc gia, vùng lãnh thổ khác, giữa tổ chức đánh giá sự phù hợp của Việt Nam với tổ chức đánh giá sự phù hợp của quốc gia, vùng lãnh thổ khác được thực hiện theo quy định của pháp luật hiện hành về tiêu chuẩn, quy chuẩn kỹ thuật.
+      trang_pdf: 7
+      sha256_pdf: 88a56eb9c78205b19da846d4ab39adfc8db6ac0b769b3fa28f023d7947e492b4
+    - dieu: 12
+      noi_dung: Điều 12. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành từ ngày 09 tháng 9 năm 2025. 2. Nghị định số 58/2016/NĐ-CP ngày 01 tháng 7 năm 2016 của Chính phủ quy định chi tiết về kinh doanh sản phẩm, dịch vụ mật mã dân sự và xuất khẩu, nhập khẩu sản phẩm mật mã dân sự;
+      trang_pdf: 28
+      sha256_pdf: 88a56eb9c78205b19da846d4ab39adfc8db6ac0b769b3fa28f023d7947e492b4
 ghi_chu: 'Đã chuẩn hóa trường ten theo đúng trích yếu trên Công báo (bỏ tiền tố thừa "Nghị định số 211/2025/NĐ-CP của Chính phủ: "). Các văn bản hết hiệu lực theo khoản 2 Điều 12 (58/2016/NĐ-CP, 53/2018/NĐ-CP, 32/2023/NĐ-CP), các văn bản được sửa đổi, bổ sung tại Điều 11 (15/2020/NĐ-CP, 14/2022/NĐ-CP) và văn bản căn cứ (Luật An toàn thông tin mạng số 86/2015/QH13) chưa mở mục riêng trong registry/van-ban/ nên ghi nhận đầy đủ tại pham_vi, không đưa vào quan_he để tránh tham chiếu treo. Lưu ý nghiệp vụ XNK từ ngày 01-09-2026: Chính phủ đã ban hành Nghị định số 341/2026/NĐ-CP ngày 01-09-2026 quy định về hoạt động mật mã dân sự (thi hành khoản 5 Điều 28 Luật An ninh mạng số 116/2025/QH15, docid=219343, Công báo Số 506 ngày 11-09-2026 — chưa mở mục trong sổ) có hiệu lực từ 01-09-2026 kèm Phụ lục I, II, III mới về Danh mục sản phẩm mật mã dân sự xuất khẩu, nhập khẩu theo giấy phép và quy định chuyển tiếp tại Điều 18 (giấy phép cấp trước 01-07-2026 tiếp tục sử dụng đến hết thời hạn ghi trên giấy phép), trong khi Điều 17 NĐ 341/2026/NĐ-CP không bãi bỏ tường minh NĐ 211/2025/NĐ-CP và Chương IV (Điều 11) của NĐ 211/2025/NĐ-CP sửa đổi NĐ 15/2020/NĐ-CP vẫn giữ nguyên hiệu lực.'
 toan_van: raw/download/congbaocdn.chinhphu.vn/211-2025-nd-cp.pdf
-

@@ -18,14 +18,49 @@ quan_he:
       can_cu: Điều 7 khoản 2 Nghị định 115/2022/NĐ-CP
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'thẻ vanban.chinhphu.vn (docid=207173) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/115-2022-nd-cp.pdf): ban hành 30-12-2022, có hiệu lực từ 30-12-2022 đến hết 31-12-2027, thay thế Nghị định 57/2019/NĐ-CP theo khoản 2 Điều 6'
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=207349) và toàn văn PDF Công báo số 269 + 270 ngày 01-02-2023 (raw/download/congbaocdn.chinhphu.vn/115-2022-nd-cp.pdf): ban hành 30-12-2022, có hiệu lực từ 30-12-2022 đến hết 31-12-2027, thay thế Nghị định 57/2019/NĐ-CP và Nghị định 21/2022/NĐ-CP theo khoản 2 Điều 7'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
-  boi: tho-bo-ba-01@ozvietnam
-  ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
+  ngay: '2026-11-22'
+  boi: ong-w17-raw-ready@ozvietnam
+  ghi_chu: Đã thay thế tệp PDF tải nhầm trước đây (docid=207173, 36/2022/TT-BCT) bằng PDF Công báo bậc A đúng của 115/2022/NĐ-CP.
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Nghị định này ban hành Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ
+      trang_pdf: 1
+      sha256_pdf: 674ddf8bb88ee02ec8931574dcd64f6f35d70bcac14c303c4c310b6308f13ced
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng 1. Người nộp thuế theo quy định của Luật Thuế xuất khẩu, thuế nhập khẩu. 2. Cơ quan hải quan, công chức hải quan. 3. Tổ chức, cá nhân có quyền và nghĩa vụ liên quan đến hàng hóa xuất khẩu, nhập khẩu.
+      trang_pdf: 2
+      sha256_pdf: 674ddf8bb88ee02ec8931574dcd64f6f35d70bcac14c303c4c310b6308f13ced
+    - dieu: 3
+      noi_dung: 'Điều 3. Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định CPTPP giai đoạn 2022 - 2027 1. Ban hành kèm theo Nghị định này: a) Phụ lục I - Biểu thuế xuất khẩu ưu đãi của Việt Nam để thực hiện Hiệp định CPTPP.'
+      trang_pdf: 2
+      sha256_pdf: 674ddf8bb88ee02ec8931574dcd64f6f35d70bcac14c303c4c310b6308f13ced
+    - dieu: 4
+      noi_dung: Điều 4. Biểu thuế xuất khẩu ưu đãi của Việt Nam để thực hiện Hiệp định CPTPP 1. Biểu thuế xuất khẩu ưu đãi của Việt Nam để thực hiện Hiệp định CPTPP quy định tại Phụ lục I ban hành kèm theo Nghị định này gồm mã hàng, mô tả hàng hóa, thuế suất thuế xuất khẩu ưu đãi theo các giai đoạn khi xuất khẩu sang từng nước quy định tại điểm a khoản 5 Điều này đối với từng mã hàng.
+      trang_pdf: 3
+      sha256_pdf: 674ddf8bb88ee02ec8931574dcd64f6f35d70bcac14c303c4c310b6308f13ced
+    - dieu: 5
+      noi_dung: Điều 5. Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định CPTPP; Danh mục hàng hóa và thuế nhập khẩu ưu đãi đặc biệt đối với xe ô tô đã qua sử dụng áp dụng hạn ngạch thuế quan của Việt Nam để thực hiện Hiệp định CPTPP 1. Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định CPTPP quy định tại Phụ lục II ban hành kèm theo Nghị định này gồm mã hàng, mô tả hàng hóa, thuế suất thuế nhập khẩu ưu đãi đặc biệt
+      trang_pdf: 5
+      sha256_pdf: 674ddf8bb88ee02ec8931574dcd64f6f35d70bcac14c303c4c310b6308f13ced
+    - dieu: 6
+      noi_dung: 'Điều 6. Hàng hóa từ khu phi thuế quan của Việt Nam Hàng hóa từ khu phi thuế quan của Việt Nam nhập khẩu vào thị trường trong nước đáp ứng đủ các điều kiện quy định tại điểm a và điểm c khoản 7 Điều 5 Nghị định này được áp dụng thuế suất quy định tại Phụ lục II: 1. Từ ngày 30 tháng 12 năm 2022 đến ngày 31 tháng 12 năm 2022 tại cột có ký hiệu “(II)”. 2. Từ ngày 01 tháng 01 năm 2023 đến ngày 31 tháng 12 năm 2023 tại cột có ký hiệu “(III)”.'
+      trang_pdf: 8
+      sha256_pdf: 674ddf8bb88ee02ec8931574dcd64f6f35d70bcac14c303c4c310b6308f13ced
+    - dieu: 7
+      noi_dung: Điều 7. Hiệu lực thi hành 1. Nghị định này có hiệu lực từ ngày ký ban hành. 2. Nghị định số 57/2019/NĐ-CP ngày 26 tháng 6 năm 2019 ban hành Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt để thực hiện Hiệp định CPTPP giai đoạn 2019 - 2022 và Nghị định số 21/2022/NĐ-CP ngày 10 tháng 3 năm 2022 ngày sửa đổi, bổ sung một số điều của Nghị định số 57/2019/NĐ-CP hết hiệu lực kể từ ngày Nghị định này có hiệu lực thi hành.
+      trang_pdf: 8
+      sha256_pdf: 674ddf8bb88ee02ec8931574dcd64f6f35d70bcac14c303c4c310b6308f13ced
+    - dieu: 8
+      noi_dung: Điều 8. Trách nhiệm thi hành Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này./.
+      trang_pdf: 9
+      sha256_pdf: 674ddf8bb88ee02ec8931574dcd64f6f35d70bcac14c303c4c310b6308f13ced
 nguon:
-  - url: https://vanban.chinhphu.vn/default.aspx?docid=207173&pageid=27160
-    truy_cap: '2026-10-10'
-  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/36-bct.signed.pdf
-    truy_cap: '2026-10-10'
-toan_van: raw/download/datafiles.chinhphu.vn/115-2022-nd-cp.pdf
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=207349
+    truy_cap: '2026-11-22'
+  - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-115-2022-nd-cp-38713.htm
+    truy_cap: '2026-11-22'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/12/38713/43399-1-2023269-270115-2022-nd-cp.pdf
+    truy_cap: '2026-11-22'
+toan_van: raw/download/congbaocdn.chinhphu.vn/115-2022-nd-cp.pdf

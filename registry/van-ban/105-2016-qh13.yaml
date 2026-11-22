@@ -3,18 +3,18 @@
 # → Căn cứ pháp lý then chốt cho mọi mặt hàng dược phẩm nhập khẩu
 so_hieu: 105/2016/QH13
 loai: LUAT
-ten: "Luật Dược"
+ten: Luật Dược
 co_quan: QH
-ngay_ban_hanh: 2016-04-06
-hieu_luc_tu: 2017-01-01
+ngay_ban_hanh: '2016-04-06'
+hieu_luc_tu: '2017-01-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
 quan_he:
   thay_the:
     - so_hieu: 34/2005/QH11
-      tu_ngay: 2017-01-01
-      can_cu: "Điều 116 khoản 4 Luật 105/2016/QH13"
+      tu_ngay: '2017-01-01'
+      can_cu: Điều 116 khoản 4 Luật 105/2016/QH13
   sua_doi: []
   bai_bo: []
   tam_ngung: []
@@ -22,14 +22,44 @@ quan_he:
   hop_nhat: []
 nguon:
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf
-    truy_cap: 2026-10-09
+    truy_cap: '2026-10-09'
 toan_van: raw/download/datafiles.chinhphu.vn/2026/3/76-vbhn-vpqh-2026.md
 trich_dan_trong_bieu_thue: 0
 xac_minh:
   muc: NGUON_A
-  pham_vi: "Văn bản hợp nhất toàn bộ 3 văn bản (105/2016, 28/2018, 44/2024). Đã đọc chi tiết toàn văn 14 Chương, 119 Điều. Cấu trúc: Chương I (Điều 1-6, Quy định chung - gồm Điều 2 giải thích từ ngữ, Điều 6 hành vi nghiêm cấm); Chương II (Điều 7-10, Chính sách NN); Chương III (Điều 11-31, Hành nghề dược); Chương IV (Điều 32-65, Kinh doanh dược); Chương V (Điều 54-65, Đăng ký lưu hành - Điều 54 miễn đăng ký cho thuốc NK theo Điều 60, Điều 60 NK thuốc chưa GĐKLH 9 trường hợp - đặc biệt Điều 60.2b dược liệu lần đầu dùng làm thuốc); Chương VI (Điều 66-73, Dược liệu + Thuốc cổ truyền - Điều 73.3 Bộ Y tế hướng dẫn thuốc cổ truyền dạng bào chế hiện đại); Chương VII-XIV (Đơn thuốc, Thông tin thuốc, Dược lâm sàng, Quản lý thuốc trong cơ sở KCB, Thử thuốc lâm sàng, Quy chuẩn chất lượng, Quản lý giá, Điều khoản thi hành). 12 Mục chia nhỏ trong 14 Chương."
+  pham_vi: 'Văn bản hợp nhất toàn bộ 3 văn bản (105/2016, 28/2018, 44/2024). Đã đọc chi tiết toàn văn 14 Chương, 119 Điều. Cấu trúc: Chương I (Điều 1-6, Quy định chung - gồm Điều 2 giải thích từ ngữ, Điều 6 hành vi nghiêm cấm); Chương II (Điều 7-10, Chính sách NN); Chương III (Điều 11-31, Hành nghề dược); Chương IV (Điều 32-65, Kinh doanh dược); Chương V (Điều 54-65, Đăng ký lưu hành - Điều 54 miễn đăng ký cho thuốc NK theo Điều 60, Điều 60 NK thuốc chưa GĐKLH 9 trường hợp - đặc biệt Điều 60.2b dược liệu lần đầu dùng làm thuốc); Chương VI (Điều 66-73, Dược liệu + Thuốc cổ truyền - Điều 73.3 Bộ Y tế hướng dẫn thuốc cổ truyền dạng bào chế hiện đại); Chương VII-XIV (Đơn thuốc, Thông tin thuốc, Dược lâm sàng, Quản lý thuốc trong cơ sở KCB, Thử thuốc lâm sàng, Quy chuẩn chất lượng, Quản lý giá, Điều khoản thi hành). 12 Mục chia nhỏ trong 14 Chương.'
   hieu_luc_da_doi_chieu: true
-  ngay: 2026-10-09
+  ngay: '2026-10-09'
   boi: hermes
-ghi_chu: "Điều 2 khoản 2: 'Thuốc là chế phẩm có chứa dược chất hoặc dược liệu dùng cho người nhằm mục đích phòng bệnh, chẩn đoán bệnh, chữa bệnh, điều trị bệnh, giảm nhẹ bệnh, điều chỉnh chức năng sinh lý cơ thể người'. Điều 2 khoản 8: 'Thuốc cổ truyền là thuốc có thành phần từ một hoặc nhiều dược liệu được phối ngũ theo lý luận y học cổ truyền'. Điều 60.2b: cho phép cấp phép NK thuốc chưa có GĐKLH nếu chứa dược liệu lần đầu sử dụng làm thuốc tại VN - cơ sở pháp lý cho DN NK cao dán gừng + ngải cứu dù chưa có trong DM 09/2024/TT-BYT."
-tu_khoa: [dược-phẩm, thuốc, nguyên-liệu-làm-thuốc, y-hoc-co-truyen, kiem-soat-dac-biet]
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng 1. Luật này quy định về chính sách của Nhà nước về dược và phát triển công nghiệp dược; hành nghề dược; kinh doanh dược; đăng ký, lưu hành, thu hồi thuốc và nguyên liệu làm thuốc; dược liệu và thuốc cổ truyền; đơn thuốc và sử dụng thuốc; thông tin thuốc, cảnh giác dược và quảng cáo thuốc; dược lâm sàng; quản lý thuốc trong cơ sở khám bệnh, chữa bệnh;
+    - dieu: 2
+      noi_dung: 'Điều 2. Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau: 1. Dược là thuốc và nguyên liệu làm thuốc. 2. Thuốc là chế phẩm có chứa dược chất hoặc dược liệu dùng cho người nhằm mục đích phòng bệnh, chẩn đoán bệnh, chữa bệnh, điều trị bệnh, giảm nhẹ bệnh, điều chỉnh chức năng sinh lý cơ thể người bao gồm thuốc hóa dược, thuốc dược liệu, thuốc cổ truyền, vắc xin và sinh phẩm.'
+    - dieu: 3
+      noi_dung: 'Điều 3. Dự trữ quốc gia về thuốc, nguyên liệu làm thuốc 1. Nhà nước thực hiện dự trữ quốc gia về thuốc và nguyên liệu làm thuốc để sử dụng trong trường hợp sau đây: a) Phòng, chống dịch bệnh và khắc phục hậu quả thiên tai, thảm họa; b) Bảo đảm quốc phòng, an ninh; c) Phòng, chẩn đoán và điều trị các bệnh hiếm gặp; d) Thuốc không sẵn có.'
+    - dieu: 17
+      noi_dung: Điều 17. Điều kiện đối với người chịu trách nhiệm chuyên môn về dược của cơ sở xuất khẩu, nhập khẩu thuốc, nguyên liệu làm thuốc 1. Người chịu trách nhiệm chuyên môn về dược của cơ sở xuất khẩu, nhập khẩu thuốc, nguyên liệu làm thuốc phải có văn bằng chuyên môn quy định tại điểm a khoản 1 Điều 13 của Luật này và có 02 năm thực hành chuyên môn tại cơ sở dược phù hợp, trừ trường hợp quy định tại khoản 2 và khoản 3 Điều này.
+    - dieu: 29
+      noi_dung: Điều 29. Quản lý Chứng chỉ hành nghề dược 1. Mỗi cá nhân chỉ được cấp một Chứng chỉ hành nghề dược. Trên Chứng chỉ hành nghề dược ghi đầy đủ phạm vi hành nghề mà người có Chứng chỉ hành nghề dược đáp ứng điều kiện và được phép hành nghề. Chứng chỉ hành nghề dược không quy định thời hạn hiệu lực và có giá trị trong phạm vi cả nước.
+    - dieu: 41
+      noi_dung: Điều 41. Quản lý Giấy chứng nhận đủ điều kiện kinh doanh dược 1. Giấy chứng nhận đủ điều kiện kinh doanh dược không quy định thời hạn hiệu lực.
+    - dieu: 53
+      noi_dung: 'Điều 53. Quyền và trách nhiệm của cơ sở kinh doanh dịch vụ thử tương đương sinh học của thuốc 1. Cơ sở kinh doanh dịch vụ thử tương đương sinh học của thuốc có các quyền sau đây: a) Quyền quy định tại điểm a và điểm b khoản 1 Điều 42 của Luật này; b) Tiến hành giai đoạn nghiên cứu trên lâm sàng và giai đoạn phân tích dịch sinh học trong thử tương đương sinh học của thuốc.'
+    - dieu: 64
+      noi_dung: 'Điều 64. Trách nhiệm thu hồi thuốc 1. Cơ sở đăng ký thuốc, cơ sở sản xuất thuốc trong nước, cơ sở có pha chế, chế biến, bào chế thuốc, cơ sở nhập khẩu, cơ sở ủy thác nhập khẩu thuốc có thuốc bị thu hồi có các trách nhiệm sau đây: a) Ngừng kinh doanh thuốc bị thu hồi; b) Chủ trì, phối hợp với tổ chức, cá nhân có liên quan công bố thông tin về thuốc bị thu hồi và tổ chức thu hồi, tiếp nhận thuốc bị thu hồi; c) Xử lý thuốc bị thu hồi;'
+    - dieu: 76
+      noi_dung: Điều 76. Nội dung và trách nhiệm thông tin thuốc 1.118 Thông tin thuốc nhằm mục đích hướng dẫn sử dụng thuốc hợp lý, an toàn, hiệu quả cho người hành nghề khám bệnh, chữa bệnh, người hành nghề dược và người sử dụng thuốc. 2. Thông tin thuốc phải cập nhật, rõ ràng, đầy đủ, chính xác dựa trên bằng chứng, dễ hiểu, phù hợp với đối tượng được cung cấp thông tin.
+    - dieu: 88
+      noi_dung: 'Điều 88. Yêu cầu đối với thuốc thử lâm sàng 1. Thuốc thử lâm sàng phải bảo đảm các yêu cầu sau đây: a) Đã được nghiên cứu ở giai đoạn tiền lâm sàng; b) Có dạng bào chế ổn định; c) Đạt tiêu chuẩn chất lượng theo hồ sơ đăng ký thử lâm sàng. 2. Nhãn thuốc thử lâm sàng phải ghi dòng chữ “Thuốc dùng cho thử lâm sàng. Cấm dùng cho mục đích khác”.'
+    - dieu: 100
+      noi_dung: Điều 100. Nguyên tắc phê duyệt việc thử tương đương sinh học của thuốc 1. Việc thử tương đương sinh học của thuốc chỉ được thực hiện sau khi đã được Hội đồng đạo đức trong nghiên cứu y sinh học cấp cơ sở đánh giá về khoa học và đạo đức đối với hồ sơ thử tương đương sinh học của thuốc và được người 82 chịu trách nhiệm chuyên môn của cơ sở nhận thử tương đương sinh học của thuốc phê duyệt bằng văn bản.
+    - dieu: 113
+      noi_dung: Điều 113. Trách nhiệm của Bảo hiểm xã hội Việt Nam trong quản lý giá thuốc139 Công khai giá thuốc trúng thầu được thanh toán từ quỹ bảo hiểm y tế trên Cổng thông tin điện tử của Bảo hiểm xã hội Việt Nam. Điều 114.140 (được bãi bỏ) 137 Điều này được sửa đổi, bổ sung theo quy định tại khoản 45 Điều 1 của Luật số 44/2024/QH15 sửa đổi, bổ sung một số điều của Luật Dược, có hiệu lực kể từ ngày 01 tháng 7 năm 2025.
+ghi_chu: 'Điều 2 khoản 2: ''Thuốc là chế phẩm có chứa dược chất hoặc dược liệu dùng cho người nhằm mục đích phòng bệnh, chẩn đoán bệnh, chữa bệnh, điều trị bệnh, giảm nhẹ bệnh, điều chỉnh chức năng sinh lý cơ thể người''. Điều 2 khoản 8: ''Thuốc cổ truyền là thuốc có thành phần từ một hoặc nhiều dược liệu được phối ngũ theo lý luận y học cổ truyền''. Điều 60.2b: cho phép cấp phép NK thuốc chưa có GĐKLH nếu chứa dược liệu lần đầu sử dụng làm thuốc tại VN - cơ sở pháp lý cho DN NK cao dán gừng + ngải cứu dù chưa có trong DM 09/2024/TT-BYT.'
+tu_khoa:
+  - dược-phẩm
+  - thuốc
+  - nguyên-liệu-làm-thuốc
+  - y-hoc-co-truyen
+  - kiem-soat-dac-biet

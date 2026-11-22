@@ -17,8 +17,22 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đỗi, bỗ sung một số điều của Luật Chất lượng sản phẩm, hàng hóa 1. Sửa đôi, bd sung các điều 1, 2, 3, 4, 5 và 6; bỗ sung các điều 6a, 6b, 6c, 6d, 6đ vào sau Điêu 6 như sau: Điều 1. Phạm vi điều chỉnh Luật này quy định biện pháp quản n lý chất lượng sản phẩm, hàng hóa; quyền và nghĩa vụ của tổ chức, cá nhân sản xuất, kinh doanh sản phẩm, hàng hóa và tổ chức, cá nhân khác có hoạt động liên quan đến chất lượng sản phẩm, hàng hóa.'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026.
+      trang_pdf: 27
+    - dieu: 3
+      noi_dung: 'Điều 3. Điều khoản chuyên tiếp 1. Tô chức, cá nhân có sản phẩm, hàng hóa đã được công bố hợp chuẩn, công bố hợp quy, đã được cấp giấy chứng nhận hợp chuẩn, chứng nhận hợp quy trước ngày Luật này có hiệu lực thi hành thì tiếp tục thực hiện theo thời hạn hiệu lực ghi trong các nội dung công bố hoặc giấy chứng nhận đã được cấp.'
+      trang_pdf: 27
 ghi_chu: Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=214606&pageid=27160
     truy_cap: '2026-10-04'
-toan_van: raw/download/vanban.chinhphu.vn/78-2025-qh15.html
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/78qh.signed.pdf
+    truy_cap: '2026-11-22'
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/78-2025-qh15.pdf
+  - raw/ocr/78-2025-qh15.ocr.txt

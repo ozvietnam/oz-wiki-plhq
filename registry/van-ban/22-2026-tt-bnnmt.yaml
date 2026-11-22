@@ -25,55 +25,96 @@ xac_minh:
   boi: cursor-agent@ozvietnam
   dieu_count: 19
   dieu_liet_ke:
-    - "Điều 1: Sửa TT 07/2026/TT-BNNMT (Trồng trọt & BVTV - lưu hành đặc cách giống cây trồng)"
-    - "Điều 2: Bãi bỏ khoản 2 Điều 1, Điều 7a, Phụ lục Ia, IIa của TT 33/2014/TT-BNNPTNT (kiểm dịch thực vật)"
-    - "Điều 3: Kiểm tra nhà nước ATTP nhập khẩu - phân cấp cho UBND cấp tỉnh thay Cục Thú y, Cục BVTV (hiệu lực 01/9/2026)"
-    - "Điều 4: Sửa TT 17/2025/TT-BNNMT (chất lượng nông lâm sản & thủy sản)"
-    - "Điều 5: Bãi bỏ khoản 1 Điều 19 TT 38/2018/TT-BNNPTNT; khoản 2 Điều 11 TT 17/2025/TT-BNNMT"
-    - "Điều 6: Sửa TT 11/2026/TT-BNNMT (hạn ngạch phát thải khí nhà kính & tín chỉ các-bon - hiệu lực 01/8/2026)"
-    - "Điều 7: Bãi bỏ toàn bộ TT 17/2015/TT-BTNMT (Cơ chế tín chỉ chung VN-Nhật)"
-    - "Điều 8: Sửa TT 04/2018/TT-BNNPTNT (công nhận tiến bộ kỹ thuật trong nông nghiệp)"
-    - "Điều 9: Bãi bỏ TT 01/2021/TT-BNNPTNT, TT 17/2016/TT-BNNPTNT (+10/2024), TT 43/2025/TT-BNNMT"
-    - "Điều 10: Sửa/bãi bỏ TT 20/2016/TT-BTNMT (CSDL tài nguyên, môi trường biển & hải đảo, sửa bởi 23/2023/TT-BTNMT)"
-    - "Điều 11: Sửa TT 94/2025/TT-BNNMT (Luật Chăn nuôi - khảo nghiệm dòng/giống vật nuôi)"
-    - "Điều 12: Sửa TT 66/2025/TT-BNNMT (chăn nuôi động vật khác - ruồi lính đen, bò cạp)"
-    - "Điều 13: Sửa TT 24/2022/TT-BNNPTNT (cơ sở, vùng an toàn dịch bệnh động vật, sửa bởi 09/2025, 20/2026)"
-    - "Điều 14: Sửa/bãi bỏ TT 13/2016/TT-BNNPTNT (thuốc thú y, sửa bởi 18/2018, 13/2022, 09/2024, 09/2025, 15/2026)"
-    - "Điều 15: Sửa TT 01/2026/TT-BNNMT (kiểm dịch động vật, sản phẩm động vật trên cạn)"
-    - "Điều 16: Bãi bỏ khoản 4,5, điểm b khoản 6, khoản 7,9,10 Điều 26 TT 09/2025/TT-BNNMT; khoản 1 Điều 1 TT 20/2026/TT-BNNMT"
-    - "Điều 17: Thay thế Mẫu số 04 Phụ lục II TT 02/2022/TT-BTNMT (BVMT, sửa bởi 09/2026/TT-BNNMT)"
-    - "Điều 18: Điều khoản chuyển tiếp (5 khoản)"
-    - "Điều 19: Hiệu lực thi hành (7 khoản - nhiều mốc)"
+    - 'Điều 1: Sửa TT 07/2026/TT-BNNMT (Trồng trọt & BVTV - lưu hành đặc cách giống cây trồng)'
+    - 'Điều 2: Bãi bỏ khoản 2 Điều 1, Điều 7a, Phụ lục Ia, IIa của TT 33/2014/TT-BNNPTNT (kiểm dịch thực vật)'
+    - 'Điều 3: Kiểm tra nhà nước ATTP nhập khẩu - phân cấp cho UBND cấp tỉnh thay Cục Thú y, Cục BVTV (hiệu lực 01/9/2026)'
+    - 'Điều 4: Sửa TT 17/2025/TT-BNNMT (chất lượng nông lâm sản & thủy sản)'
+    - 'Điều 5: Bãi bỏ khoản 1 Điều 19 TT 38/2018/TT-BNNPTNT; khoản 2 Điều 11 TT 17/2025/TT-BNNMT'
+    - 'Điều 6: Sửa TT 11/2026/TT-BNNMT (hạn ngạch phát thải khí nhà kính & tín chỉ các-bon - hiệu lực 01/8/2026)'
+    - 'Điều 7: Bãi bỏ toàn bộ TT 17/2015/TT-BTNMT (Cơ chế tín chỉ chung VN-Nhật)'
+    - 'Điều 8: Sửa TT 04/2018/TT-BNNPTNT (công nhận tiến bộ kỹ thuật trong nông nghiệp)'
+    - 'Điều 9: Bãi bỏ TT 01/2021/TT-BNNPTNT, TT 17/2016/TT-BNNPTNT (+10/2024), TT 43/2025/TT-BNNMT'
+    - 'Điều 10: Sửa/bãi bỏ TT 20/2016/TT-BTNMT (CSDL tài nguyên, môi trường biển & hải đảo, sửa bởi 23/2023/TT-BTNMT)'
+    - 'Điều 11: Sửa TT 94/2025/TT-BNNMT (Luật Chăn nuôi - khảo nghiệm dòng/giống vật nuôi)'
+    - 'Điều 12: Sửa TT 66/2025/TT-BNNMT (chăn nuôi động vật khác - ruồi lính đen, bò cạp)'
+    - 'Điều 13: Sửa TT 24/2022/TT-BNNPTNT (cơ sở, vùng an toàn dịch bệnh động vật, sửa bởi 09/2025, 20/2026)'
+    - 'Điều 14: Sửa/bãi bỏ TT 13/2016/TT-BNNPTNT (thuốc thú y, sửa bởi 18/2018, 13/2022, 09/2024, 09/2025, 15/2026)'
+    - 'Điều 15: Sửa TT 01/2026/TT-BNNMT (kiểm dịch động vật, sản phẩm động vật trên cạn)'
+    - 'Điều 16: Bãi bỏ khoản 4,5, điểm b khoản 6, khoản 7,9,10 Điều 26 TT 09/2025/TT-BNNMT; khoản 1 Điều 1 TT 20/2026/TT-BNNMT'
+    - 'Điều 17: Thay thế Mẫu số 04 Phụ lục II TT 02/2022/TT-BTNMT (BVMT, sửa bởi 09/2026/TT-BNNMT)'
+    - 'Điều 18: Điều khoản chuyển tiếp (5 khoản)'
+    - 'Điều 19: Hiệu lực thi hành (7 khoản - nhiều mốc)'
   vb_bi_sua_hoac_bai:
     sua:
-      - "07/2026/TT-BNNMT"
-      - "17/2025/TT-BNNMT"
-      - "11/2026/TT-BNNMT"
-      - "04/2018/TT-BNNPTNT"
-      - "20/2016/TT-BTNMT (sửa bởi 23/2023/TT-BTNMT)"
-      - "94/2025/TT-BNNMT"
-      - "66/2025/TT-BNNMT"
-      - "24/2022/TT-BNNPTNT (sửa bởi 09/2025/TT-BNNMT, 20/2026/TT-BNNMT)"
-      - "13/2016/TT-BNNPTNT (sửa bởi 18/2018, 13/2022, 09/2024, 09/2025, 15/2026)"
-      - "01/2026/TT-BNNMT"
-      - "02/2022/TT-BTNMT (sửa bởi 09/2026/TT-BNNMT)"
+      - 07/2026/TT-BNNMT
+      - 17/2025/TT-BNNMT
+      - 11/2026/TT-BNNMT
+      - 04/2018/TT-BNNPTNT
+      - 20/2016/TT-BTNMT (sửa bởi 23/2023/TT-BTNMT)
+      - 94/2025/TT-BNNMT
+      - 66/2025/TT-BNNMT
+      - 24/2022/TT-BNNPTNT (sửa bởi 09/2025/TT-BNNMT, 20/2026/TT-BNNMT)
+      - 13/2016/TT-BNNPTNT (sửa bởi 18/2018, 13/2022, 09/2024, 09/2025, 15/2026)
+      - 01/2026/TT-BNNMT
+      - 02/2022/TT-BTNMT (sửa bởi 09/2026/TT-BNNMT)
     bai:
-      - "33/2014/TT-BNNPTNT (khoản 2 Điều 1, Điều 7a, Phụ lục Ia, IIa)"
-      - "38/2018/TT-BNNPTNT (khoản 1 Điều 19)"
-      - "17/2015/TT-BTNMT (toàn bộ - Cơ chế tín chỉ chung VN-Nhật)"
-      - "01/2021/TT-BNNPTNT (toàn bộ - TCVN/QCVN)"
-      - "17/2016/TT-BNNPTNT (toàn bộ + 10/2024 sửa bổ sung) (nhiệm vụ BVMT)"
-      - "43/2025/TT-BNNMT (toàn bộ - nhiệm vụ KH&CN)"
-      - "09/2025/TT-BNNMT (khoản 4,5, điểm b k.6, k.7,9,10 Điều 26)"
-      - "20/2026/TT-BNNMT (khoản 1 Điều 1)"
+      - 33/2014/TT-BNNPTNT (khoản 2 Điều 1, Điều 7a, Phụ lục Ia, IIa)
+      - 38/2018/TT-BNNPTNT (khoản 1 Điều 19)
+      - 17/2015/TT-BTNMT (toàn bộ - Cơ chế tín chỉ chung VN-Nhật)
+      - 01/2021/TT-BNNPTNT (toàn bộ - TCVN/QCVN)
+      - 17/2016/TT-BNNPTNT (toàn bộ + 10/2024 sửa bổ sung) (nhiệm vụ BVMT)
+      - 43/2025/TT-BNNMT (toàn bộ - nhiệm vụ KH&CN)
+      - 09/2025/TT-BNNMT (khoản 4,5, điểm b k.6, k.7,9,10 Điều 26)
+      - 20/2026/TT-BNNMT (khoản 1 Điều 1)
   chuong_linh_vuc:
-    - "Chương I (Điều 1-2): Trồng trọt & Bảo vệ thực vật (BVTV)"
-    - "Chương II (Điều 3-5): Quản lý chất lượng nông lâm sản & thủy sản - ATTP nhập khẩu"
-    - "Chương III (Điều 6-7): Biến đổi khí hậu (hạn ngạch phát thải KN, tín chỉ các-bon)"
-    - "Chương IV (Điều 8-9): Khoa học & Công nghệ (tiến bộ kỹ thuật nông nghiệp)"
-    - "Chương V (Điều 10): Tài nguyên, môi trường biển & hải đảo (CSDL)"
-    - "Chương VI (Điều 11-16): Chăn nuôi & Thú y (giống vật nuôi, thuốc thú y, kiểm dịch ĐV, vùng ATDB)"
-    - "Chương VII (Điều 17): Môi trường (BVMT - ĐTM)"
-    - "Chương VIII (Điều 18-19): Điều khoản thi hành"
+    - 'Chương I (Điều 1-2): Trồng trọt & Bảo vệ thực vật (BVTV)'
+    - 'Chương II (Điều 3-5): Quản lý chất lượng nông lâm sản & thủy sản - ATTP nhập khẩu'
+    - 'Chương III (Điều 6-7): Biến đổi khí hậu (hạn ngạch phát thải KN, tín chỉ các-bon)'
+    - 'Chương IV (Điều 8-9): Khoa học & Công nghệ (tiến bộ kỹ thuật nông nghiệp)'
+    - 'Chương V (Điều 10): Tài nguyên, môi trường biển & hải đảo (CSDL)'
+    - 'Chương VI (Điều 11-16): Chăn nuôi & Thú y (giống vật nuôi, thuốc thú y, kiểm dịch ĐV, vùng ATDB)'
+    - 'Chương VII (Điều 17): Môi trường (BVMT - ĐTM)'
+    - 'Chương VIII (Điều 18-19): Điều khoản thi hành'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đổi, bổ sung một số điều của Thông tư số 07/2026/TTBNNMT ngày 23 tháng 01 năm 2026 của Bộ trưởng Bộ Nông nghiệp và Môi trường quy định chi tiết một số điều của Luật Bảo vệ và kiểm dịch thực vật, Luật Trồng trọt và sửa đổi, bổ sung một số điều của các thông tư trong lĩnh vực trồng trọt và bảo vệ thực vật 1. Sửa đổi, bổ sung Điều 6 như sau: “Điều 6. Hồ sơ, trình tự, thủ tục và thẩm quyền cấp, hủy bỏ Quyết định công nhận lưu hành đặc'
+      trang_pdf: 2
+      sha256_pdf: c5d95264f73efaee2ac9ce7836f41b45d553d3d2e8093d7fed18eebe94457a80
+    - dieu: 2
+      noi_dung: Điều 2. Bãi bỏ khoản 2 Điều 1, Điều 7a, Phụ lục Ia, Phụ lục IIa ban hành kèm theo Thông tư số 33/2014/TT-BNNPTNT ngày 30 tháng 10 năm 2014 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật được sửa đổi, bổ sung bởi Thông tư số 34/2018/TT-BNNPTNT. Chương II LĨNH VỰC QUẢN LÝ CHẤT LƯỢNG NÔNG LÂM SẢN VÀ THỦY SẢN
+      trang_pdf: 3
+      sha256_pdf: c5d95264f73efaee2ac9ce7836f41b45d553d3d2e8093d7fed18eebe94457a80
+    - dieu: 3
+      noi_dung: Điều 3. Kiểm tra nhà nước về an toàn thực phẩm nhập khẩu thuộc thẩm quyền quản lý của Bộ Nông nghiệp và Môi trường 1. Cơ quan Kiểm tra nhà nước về an toàn thực phẩm nhập khẩu thuộc thẩm quyền quản lý của Bộ Nông nghiệp và Môi trường theo phương thức kiểm tra thông thường, theo phương thức kiểm tra chặt là cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao hoặc chỉ định.
+      trang_pdf: 3
+      sha256_pdf: c5d95264f73efaee2ac9ce7836f41b45d553d3d2e8093d7fed18eebe94457a80
+    - dieu: 6
+      noi_dung: 'Điều 6. Sửa đổi, bổ sung một số điều của Thông tư số 11/2026/TTBNNMT ngày 13 tháng 02 năm 2026 của Bộ trưởng Bộ Nông nghiệp và Môi trường quy định quản lý, vận hành hệ thống đăng ký quốc gia về hạn ngạch phát thải khí nhà kính và tín chỉ các-bon 1. Sửa đổi, bổ sung, bãi bỏ một số khoản của Điều 13 như sau: a) Bãi bỏ điểm b khoản 1; b) Sửa đổi, bổ sung khoản 3 như sau: “3.'
+      trang_pdf: 6
+      sha256_pdf: c5d95264f73efaee2ac9ce7836f41b45d553d3d2e8093d7fed18eebe94457a80
+    - dieu: 8
+      noi_dung: 'Điều 8. Sửa đổi, bổ sung một số điều của Thông tư số 04/2018/TTBNNPTNT ngày 03 tháng 5 năm 2018 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định tiêu chí, trình tự, thủ tục công nhận tiến bộ kỹ thuật trong nông nghiệp 1. Bãi bỏ Điều 3. 2. Sửa đổi, bổ sung Điều 5 như sau: “Điều 5. Hồ sơ đăng ký, tiếp nhận, kiểm tra, thẩm định hồ sơ, công nhận tiến bộ kỹ thuật 1. Hồ sơ đăng ký Tổ chức, cá nhân có nhu cầu đăng ký công nhận tiến bộ kỹ'
+      trang_pdf: 8
+      sha256_pdf: c5d95264f73efaee2ac9ce7836f41b45d553d3d2e8093d7fed18eebe94457a80
+    - dieu: 10
+      noi_dung: 'Điều 10. Sửa đổi, bổ sung, bãi bỏ một số điều của Thông tư số 20/2016/TT-BTNMT ngày 25 tháng 8 năm 2016 của Bộ trưởng Bộ Tài nguyên và Môi trường quy định về xây dựng, khai thác và sử dụng cơ sở dữ liệu tài nguyên, môi trường biển và hải đảo được sửa đổi, bổ sung bởi Thông tư số 23/2023/TT-BTNMT 1. Sửa đổi, bổ sung Điều 11 như sau: “Điều 11. Nguyên tắc khai thác và sử dụng cơ sở dữ liệu tài nguyên, môi trường biển và hải đảo 1. Phục vụ kịp thời'
+      trang_pdf: 10
+      sha256_pdf: c5d95264f73efaee2ac9ce7836f41b45d553d3d2e8093d7fed18eebe94457a80
+    - dieu: 12
+      noi_dung: 'Điều 12. Sửa đổi, bổ sung một số điều của Thông tư số 66/2025/TTBNNMT ngày 21 tháng 11 năm 2025 của Bộ trưởng Bộ Nông nghiệp và Môi trường quy định về chăn nuôi động vật khác thuộc danh mục động vật khác được phép chăn nuôi và truy xuất nguồn gốc sản phẩm chăn nuôi 1. Sửa đổi, bổ sung khoản 3 và khoản 4 Điều 4 như sau:'
+      trang_pdf: 15
+      sha256_pdf: c5d95264f73efaee2ac9ce7836f41b45d553d3d2e8093d7fed18eebe94457a80
+    - dieu: 14
+      noi_dung: 'Điều 14. Sửa đổi, bổ sung, bãi bỏ một số điều của Thông tư số 13/2016/TT-BNNPTNT ngày 02 tháng 6 năm 2016 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định về quản lý thuốc thú y được sửa đổi, bổ sung bởi Thông tư số 18/2018/TT-BNNPTNT, Thông tư số 13/2022/TTBNNPTNT, Thông tư số 09/2024/TT-BNNPTNT, Thông tư số 09/2025/TTBNNMT và Thông tư số 15/2026/TT-BNNMT 1. Sửa đổi, bổ sung một số điểm, khoản của Điều 3 như sau: a) Bãi bỏ điểm đ'
+      trang_pdf: 20
+      sha256_pdf: c5d95264f73efaee2ac9ce7836f41b45d553d3d2e8093d7fed18eebe94457a80
+    - dieu: 16
+      noi_dung: Điều 16. Bãi bỏ một số điều khoản của một số Thông tư 1. Bãi bỏ khoản 4, khoản 5, điểm b khoản 6, khoản 7, khoản 9 và khoản 10 Điều 26 Thông tư số 09/2025/TT-BNNMT ngày 19 tháng 6 năm 2025 của Bộ trưởng Bộ Nông nghiệp và Môi trường quy định phân quyền, phân cấp và phân định thẩm quyền trong lĩnh vực quản lý nhà nước về chăn nuôi và thú y.
+      trang_pdf: 21
+      sha256_pdf: c5d95264f73efaee2ac9ce7836f41b45d553d3d2e8093d7fed18eebe94457a80
+    - dieu: 19
+      noi_dung: Điều 19. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 19tháng 5 năm 2026, trừ trường hợp quy định tại khoản 2, khoản 3 và khoản 4 Điều này. 2. Điều 2, Điều 3 Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 9 năm 2026.
+      trang_pdf: 22
+      sha256_pdf: c5d95264f73efaee2ac9ce7836f41b45d553d3d2e8093d7fed18eebe94457a80
 ghi_chu: 'TT tổng hợp sửa/bãi 11 Thông tư, bãi 8 Thông tư/điều khoản thuộc 8 lĩnh vực quản lý nhà nước BNNMT. Trọng tâm phân cấp: Chủ tịch UBND cấp tỉnh thay Cục Thú y/Cục BVTV kiểm tra ATTP nhập khẩu (Điều 3, hiệu lực 01/9/2026). Ngày có hiệu lực 19/5/2026 (Điều 19.1) trùng ngày ban hành; cập nhật hieu_luc_tu thành 2026-05-19. Sổ trước đó để 2026-09-01 (sai - mốc đổi cq kiểm tra).'
 toan_van: raw/download/datafiles.chinhphu.vn/22-2026-tt-bnnmt.pdf

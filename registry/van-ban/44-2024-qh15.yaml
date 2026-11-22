@@ -1,10 +1,10 @@
 # Luật sửa đổi, bổ sung một số điều của Luật Dược
 so_hieu: 44/2024/QH15
 loai: LUAT
-ten: "Luật sửa đổi, bổ sung một số điều của Luật Dược"
+ten: Luật sửa đổi, bổ sung một số điều của Luật Dược
 co_quan: QH
-ngay_ban_hanh: 2024-11-21
-hieu_luc_tu: 2025-07-01
+ngay_ban_hanh: '2024-11-21'
+hieu_luc_tu: '2025-07-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
@@ -12,23 +12,42 @@ quan_he:
   thay_the: []
   sua_doi:
     - so_hieu: 105/2016/QH13
-      pham_vi: "Điều 2 (giải thích từ ngữ), Điều 11 (chứng chỉ hành nghề), khoản 4, 5, 9, điểm a và c khoản 18, điểm d và đ khoản 32, khoản 33, 39, 43 Điều 1"
-      tu_ngay: 2025-07-01
-      can_cu: "Điều 1 Luật 44/2024/QH15"
+      pham_vi: Điều 2 (giải thích từ ngữ), Điều 11 (chứng chỉ hành nghề), khoản 4, 5, 9, điểm a và c khoản 18, điểm d và đ khoản 32, khoản 33, 39, 43 Điều 1
+      tu_ngay: '2025-07-01'
+      can_cu: Điều 1 Luật 44/2024/QH15
   bai_bo: []
   tam_ngung: []
   huong_dan: []
   hop_nhat: []
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/luat-so-44-2024-qh15-43548.htm
-    truy_cap: 2026-10-09
-toan_van: raw/download/congbao.chinhphu.vn/2024/11/44-2024-qh15.htm
+    truy_cap: '2026-10-09'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/11/43548/53667-1-20241519-152044-2024-qh15.pdf
+    truy_cap: '2026-11-22'
+toan_van: raw/download/congbaocdn.chinhphu.vn/44-2024-qh15.pdf
 trich_dan_trong_bieu_thue: 0
 xac_minh:
   muc: NGUON_A
-  pham_vi: "Số hiệu, ngày ban hành, ngày hiệu lực, người ký (Trần Thanh Mẫn); xác nhận thay đổi Điều 2 Luật Dược"
+  pham_vi: Số hiệu, ngày ban hành, ngày hiệu lực, người ký (Trần Thanh Mẫn); xác nhận thay đổi Điều 2 Luật Dược
   hieu_luc_da_doi_chieu: true
-  ngay: 2026-10-09
+  ngay: '2026-10-09'
   boi: hermes
-ghi_chu: "Căn cứ pháp lý then chốt để xác định thuốc cổ truyền, nguyên liệu làm thuốc. Cần kiểm tra chi tiết Điều 1 để xác định phạm vi thay đổi cụ thể từng khoản."
-tu_khoa: [dược-phẩm, thuốc, sua-doi-luat-duoc, 105-2016]
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đổi, bổ sung một số điều của Luật Dược 1. Sửa đổi, bổ sung một số khoản của Điều 2 như sau: a) Sửa đổi, bổ sung khoản 5 như sau: “5. Dược liệu (bao gồm cả vị thuốc cổ truyền) là nguyên liệu làm thuốc có nguồn gốc từ thực vật, động vật, khoáng vật, nấm và đạt tiêu chuẩn làm thuốc.”; b) Sửa đổi, bổ sung các khoản 8, 9 và 10 như sau: “8.'
+      trang_pdf: 1
+      sha256_pdf: 13a2558e2b6d360478d3c4d49fb3d5bf90f2e76989d39f273bc4f9458d0f7aa7
+    - dieu: 2
+      noi_dung: 'Điều 2. Sửa đổi, bổ sung Luật Giá số 16/2023/QH15 Sửa đổi, bổ sung mục 9 Phụ lục số 01 - Danh mục hàng hóa, dịch vụ bình ổn giá ban hành kèm theo Luật Giá số 16/2023/QH15 như sau: “9. Thuốc thuộc Danh mục thuốc thiết yếu.”.'
+      trang_pdf: 30
+      sha256_pdf: 13a2558e2b6d360478d3c4d49fb3d5bf90f2e76989d39f273bc4f9458d0f7aa7
+    - dieu: 3
+      noi_dung: 'Điều 3. Điều khoản thi hành 1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025, trừ trường hợp quy định tại khoản 2 Điều này. 2. Các quy định sau đây có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025: a) Điểm a khoản 19, điểm b khoản 20 và điểm a khoản 21 Điều 1 của Luật này; b) Quy định về gia hạn giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc tại khoản 30 Điều 1 của Luật này.'
+      trang_pdf: 31
+      sha256_pdf: 13a2558e2b6d360478d3c4d49fb3d5bf90f2e76989d39f273bc4f9458d0f7aa7
+ghi_chu: Căn cứ pháp lý then chốt để xác định thuốc cổ truyền, nguyên liệu làm thuốc. Cần kiểm tra chi tiết Điều 1 để xác định phạm vi thay đổi cụ thể từng khoản.
+tu_khoa:
+  - dược-phẩm
+  - thuốc
+  - sua-doi-luat-duoc
+  - 105-2016

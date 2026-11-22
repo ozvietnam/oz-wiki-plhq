@@ -1,18 +1,18 @@
 # Nghị định 163/2025/NĐ-CP hướng dẫn Luật Dược 105/2016 (sửa bởi 44/2024)
 so_hieu: 163/2025/NĐ-CP
 loai: NGHI_DINH
-ten: "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Dược"
+ten: Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Dược
 co_quan: CP
-ngay_ban_hanh: 2025-06-29
-hieu_luc_tu: 2025-07-01
+ngay_ban_hanh: '2025-06-29'
+hieu_luc_tu: '2025-07-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
 quan_he:
   thay_the:
     - so_hieu: 54/2017/NĐ-CP
-      tu_ngay: 2025-07-01
-      can_cu: "Điều 129 khoản 2 NĐ 163/2025/NĐ-CP"
+      tu_ngay: '2025-07-01'
+      can_cu: Điều 129 khoản 2 NĐ 163/2025/NĐ-CP
   sua_doi: []
   bai_bo: []
   tam_ngung: []
@@ -22,17 +22,59 @@ quan_he:
   hop_nhat: []
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=214322
-    truy_cap: 2026-10-09
+    truy_cap: '2026-10-09'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/163nd.signed.pdf
-    truy_cap: 2026-10-09
-    ghi_chu: 'PDF bản ký số 288 trang (bản scan, không có text layer)'
+    truy_cap: '2026-10-09'
+    ghi_chu: PDF bản ký số 288 trang (bản scan, không có text layer)
 toan_van: raw/download/datafiles.chinhphu.vn/2025/7/163-2025-nd-cp-body.txt
 trich_dan_trong_bieu_thue: 0
 xac_minh:
   muc: NGUON_A
-  pham_vi: "Số hiệu 163/2025/NĐ-CP, ngày ban hành 29-06-2025, người ký Lê Thành Long, ngày hiệu lực 01-07-2025; thay thế 54/2017/NĐ-CP. Điều chỉnh Điều 13, khoản 4 Điều 29, khoản 3 Điều 34, khoản 5 Điều 38, khoản 2 Điều 41, khoản 6 Điều 54, khoản 4+5 Điều 60, khoản 3 Điều 69 của Luật Dược 2016; khoản 4, 5, 9, điểm a+c khoản 18, điểm d+đ khoản 32, khoản 33, 39, 43 Điều 1 Luật sửa đổi 2024. Căn cứ ban hành: Luật Tổ chức Chính phủ 18/02/2025 + Luật Tổ chức chính quyền địa phương 16/6/2025. OCR toàn văn 288 trang đã đọc: 129 Điều + 5 Phụ lục. Điều quan trọng: (1) Điều 19 - Điều kiện kinh doanh thuốc cổ truyền (5 mục - SX/XK/NK/bảo quản/bán buôn/bán lẻ dược liệu + thuốc dược liệu + thuốc cổ truyền); (2) Điều 87 - Quy định thông báo NK thuốc (5 ngày làm việc trước khi khai HQ, gửi UBND cấp tỉnh - chi tiết 7 trường thông tin); (3) Điều 88 - Kiểm nghiệm chất lượng thuốc trước khi lưu hành; (4) Điều 89-90 - Đăng ký lưu hành dược liệu, tá dược, vỏ nang; (5) Điều 125 - Lộ trình triển khai kiểm soát NK thuốc; (6) Điều 127 - Điều khoản chuyển tiếp; (7) Điều 128 - Sửa đổi NĐ 31/2021; (8) Điều 129 - Hiệu lực thi hành. Phụ lục: I (mẫu đơn đề nghị cấp GĐKLH), II (báo cáo XNK thuốc kiểm soát đặc biệt), III (các mẫu khác), IV-V (chưa rõ). CHÚ Ý: DM11/12/13 trong 09/2024/TT-BYT không phải do 163/2025/NĐ-CP quy định - 163/2025 chỉ là NĐ hướng dẫn Luật Dược, không thay đổi DM 09/2024/TT-BYT."
+  pham_vi: 'Số hiệu 163/2025/NĐ-CP, ngày ban hành 29-06-2025, người ký Lê Thành Long, ngày hiệu lực 01-07-2025; thay thế 54/2017/NĐ-CP. Điều chỉnh Điều 13, khoản 4 Điều 29, khoản 3 Điều 34, khoản 5 Điều 38, khoản 2 Điều 41, khoản 6 Điều 54, khoản 4+5 Điều 60, khoản 3 Điều 69 của Luật Dược 2016; khoản 4, 5, 9, điểm a+c khoản 18, điểm d+đ khoản 32, khoản 33, 39, 43 Điều 1 Luật sửa đổi 2024. Căn cứ ban hành: Luật Tổ chức Chính phủ 18/02/2025 + Luật Tổ chức chính quyền địa phương 16/6/2025. OCR toàn văn 288 trang đã đọc: 129 Điều + 5 Phụ lục. Điều quan trọng: (1) Điều 19 - Điều kiện kinh doanh thuốc cổ truyền (5 mục - SX/XK/NK/bảo quản/bán buôn/bán lẻ dược liệu + thuốc dược liệu + thuốc cổ truyền); (2) Điều 87 - Quy định thông báo NK thuốc (5 ngày làm việc trước khi khai HQ, gửi UBND cấp tỉnh - chi tiết 7 trường thông tin); (3) Điều 88 - Kiểm nghiệm chất lượng thuốc trước khi lưu hành; (4) Điều 89-90 - Đăng ký lưu hành dược liệu, tá dược, vỏ nang; (5) Điều 125 - Lộ trình triển khai kiểm soát NK thuốc; (6) Điều 127 - Điều khoản chuyển tiếp; (7) Điều 128 - Sửa đổi NĐ 31/2021; (8) Điều 129 - Hiệu lực thi hành. Phụ lục: I (mẫu đơn đề nghị cấp GĐKLH), II (báo cáo XNK thuốc kiểm soát đặc biệt), III (các mẫu khác), IV-V (chưa rõ). CHÚ Ý: DM11/12/13 trong 09/2024/TT-BYT không phải do 163/2025/NĐ-CP quy định - 163/2025 chỉ là NĐ hướng dẫn Luật Dược, không thay đổi DM 09/2024/TT-BYT.'
   hieu_luc_da_doi_chieu: true
-  ngay: 2026-10-09
+  ngay: '2026-10-09'
   boi: hermes
-ghi_chu: "Căn cứ pháp lý hiện hành cho giấy phép NK thuốc, nguyên liệu làm thuốc. Phụ lục I-V quy định biểu mẫu cụ thể. Cần rà chi tiết các điều khoản về giấy phép nhập khẩu thuốc dùng ngoài da (Điều 87) và thuốc cổ truyền. Lộ trình 01-01-2028 cho báo cáo NK (Điều 87, 125) — cần theo dõi. Đã tải PDF bản ký số gốc 288 trang nhưng không có text layer."
-tu_khoa: [dược-phẩm, nguyên-liệu-làm-thuốc, gcn-dkkdd, 105-2016, 44-2024]
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh và đối tượng áp đụng 1. Nghị định này quy định chỉ tiết điểm đ khoản 26 Điều 2, điểm b khoản 2 Điều 13, khoản 4 Điều 29, khoản 3 Điều 34, khoản 5 Điều 38, khoản 2 Điều 4], khoản 6 Điều 54, khoản 4 và 5 Điều 60, khoản 3 Điều 69 của Luật Dược số 105/2016/QH13;
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Quy định chỉ tiết về hồ sơ đề nghị cấp Chứng chỉ hành nghề được 1. Hồ sơ để nghị cấp Chứng chỉ hành nghề dược thực hiện theo quy định tại Điều 24 của Luật Dược và được quy định cụ thê như sau: a) Đơn đề nghị cấp Chứng chỉ hành nghề được thực hiện theo Mẫu số 02 tại Phụ lục I ban hành kèm theo Nghị định này; :'
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: 'Điều 3. Quy định chỉ tiết về hồ sơ đề nghị cấp lại Chứng chỉ hành nghề được 1. Hồ sơ đề nghị cấp lại Chứng chỉ hành nghề dược thực hiện theo quy định tại Điều 25 của Luật Dược và được quy định cụ thê như sau: “a) Đơn đề nghị cấp lại Chứng chỉ hành nghề được thực hiện theo Mẫu số 04 tại Phụ lục I ban hành kèm theo Nghị định này; _b) Chứng chỉ hành nghề dược đã được cấp trừ trường hợp Chứng chỉ hành nghề dược bị mất.'
+      trang_pdf: 1
+    - dieu: 17
+      noi_dung: Điều 17. Yêu cầu đối với cơ sở tỗổ chức thi xét cấp Chứng chỉ hành nghề dược Phải là một trong các CƠ SỞ đào tạo đại học, sau đại học chuyên ngành dược, chuyên ngành y dược cổ truyền. === TRANG 17 === 17
+      trang_pdf: 1
+    - dieu: 30
+      noi_dung: Điều 30. Các biện pháp về an ninh, bảo đảm không thất thoát thuốc, nguyên liệu làm thuốc phải kiểm soát đặc biệt 1. Cơ sở kinh doanh thuốc phải kiểm soát đặc biệt phải thực hiện các quy định tại các Điều 31, 32, 33, 34, 35 và 36 của Nghị định này.
+      trang_pdf: 1
+    - dieu: 43
+      noi_dung: 'Điều 43. Tiêu chí, hồ Sơ đề nghị cấp phép xuất khẩu thuốc gầy nghiện, thuốc hướng thần, thuốc tiền chất, thuốc dạng phối hợp có chứa dược chất gây nghiện, thuốc dạng phối hợp có chứa dược chất hướng thần, thuốc đạng phối hợp có chứa tiền chất, › nguyên liệu làm thuốc là dược chất gây nghiện, được chất hướng thần, tiền chất dùng làm thuốc 1. Thuốc chỉ được cấp phép xuất khẩu khi đáp ứng một trong các tiêu chí sau:'
+      trang_pdf: 1
+    - dieu: 57
+      noi_dung: 'Điều 57. Tiêu chí, hồ sơ đề nghị cấp phép nhập khẩu thuốc viện trợ, viện trợ nhân đạo 1. Thuốc được cấp phép nhập khẩu khi đáp ứng tiêu chí sau: Thuốc được cấp phép lưu hành tại nước sản xuất hoặc nước là thành viên 1CH hoặc Australia và thuộc một trong các trường hợp sau: a) Thuốc viện trợ được các đoàn công tác khám bệnh, chữa bệnh nhân đạo của nước ngoài mang theo đề phục vụ công tác khám bệnh, chữa bệnh nhân đạo;'
+      trang_pdf: 1
+    - dieu: 73
+      noi_dung: 'Điều 73. Thủ tục và thời gian cấp phép nhập khẩu nguyên liệu làm thuốc chưa có giấy đăng ký lưu hành tại Việt Nam, trừ nguyên liệu làm thuốc phải kiểm soát đặc biệt : 1. Thủ tục và thời gian cấp phép nhập khẩu nguyên liệu làm thuốc quy định tại các Điều 68, 70 và 72 của Nghị định này:'
+      trang_pdf: 1
+    - dieu: 86
+      noi_dung: 'Điều 86. Các loại thuốc phải kiểm soát nhập khẩu Thuốc đã có giấy đăng ký lưu hành tại Việt Nam phải kiểm soát nhập khẩu theo quy định tại các Điêu 87 và 88 của Nghị định này, trừ các trường hợp sau đây: 1. Thuốc đáp ứng nhu cầu phòng, điều trị bệnh truyền nhiễm thuộc nhóm A đã được công bố dịch theo quy định của pháp luật về phòng, chống bệnh truyền nhiễm. 2. Thuốc có hạn dùng dưới 30 ngày.'
+      trang_pdf: 1
+    - dieu: 99
+      noi_dung: 'Điều 99. Hình thức, phạm vi thu hồi nguyên liệu làm thuốc 1. Hình thức thu hồi: __a) Thu hồi bắt buộc là thu hồi theo quyết định của cơ quan nhà nước có thâm quyên; b) Thu hồi tự nguyện là thu hồi do cơ sở đăng ký, cơ sở sản xuất, cơ sở nhập khâu nguyên liệu làm thuộc tự nguyện thực hiện. 2. Phạm vi thu hồi:'
+      trang_pdf: 1
+    - dieu: 112
+      noi_dung: Điều 112. Quy định về Bảng công bố, công bố lại giá bán buôn thuốc dự kiến 1. Bảng công bố giá bán buôn thuốc dự kiến thuốc nhập khâu vào Việt Nam và thuốc sản xuất trong nước theo Mẫu số 01 tại Phụ lục VII ban hành kèm theo Nghị định này. 2. Bảng công bố lại giá bán buôn thuốc dự kiến thuốc nhập khẩu vào Việt Nam và thuốc sản xuất trong nước theo Mẫu số 02 tại Phụ lục VII ban hành kèm theo Nghị định này.
+      trang_pdf: 1
+    - dieu: 129
+      noi_dung: 'Điều 129. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. 2. Kể từ ngày Nghị định này có hiệu lực thi hành, các Nghị định của Chính phủ và các điều khoản sau đây hết hiệu lực thi hành: a) Khoản 10 Điều 27 Nghị định số 85/2024/NĐ-CP ngày 10 tháng 7 năm 2024 của Chính phủ quy định chỉ tiêt một sô điều của Luật Giá;'
+      trang_pdf: 1
+ghi_chu: Căn cứ pháp lý hiện hành cho giấy phép NK thuốc, nguyên liệu làm thuốc. Phụ lục I-V quy định biểu mẫu cụ thể. Cần rà chi tiết các điều khoản về giấy phép nhập khẩu thuốc dùng ngoài da (Điều 87) và thuốc cổ truyền. Lộ trình 01-01-2028 cho báo cáo NK (Điều 87, 125) — cần theo dõi. Đã tải PDF bản ký số gốc 288 trang nhưng không có text layer.
+tu_khoa:
+  - dược-phẩm
+  - nguyên-liệu-làm-thuốc
+  - gcn-dkkdd
+  - 105-2016
+  - 44-2024

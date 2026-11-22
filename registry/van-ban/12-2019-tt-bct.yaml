@@ -11,6 +11,8 @@ nhanh:
 nguon:
   - url: https://moit.gov.vn/van-ban-phap-luat/van-ban-phap-quy/-thong-tu-quy-dinh-quy-tac-xuat-xu-hang-hoa-trong-hiep-dinh-3.html
     truy_cap: '2026-11-14'
+  - url: https://moit.gov.vn/upload/2005517/20210623/_VB_1565254230844_VB_Th%C3%B4ng%20t%C6%B0%20Quy%20t%E1%BA%AFc%20xu%E1%BA%A5t%20x%E1%BB%A9%20trong%20ACFTA_MOIT.rar
+    truy_cap: '2026-11-22'
   - url: https://luatvietnam.vn/thuong-mai/thong-tu-12-2019-tt-bct-quy-tac-xuat-xu-hang-hoa-trong-hiep-dinh-hop-tac-giua-asean-va-trung-quoc-175969-d1.html
     truy_cap: '2026-10-21'
 xac_minh:
@@ -19,9 +21,35 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Thông tư này quy định Quy tắc xuất xứ hàng hóa trong Hiệp định khung về hợp tác kinh tế toàn diện giữa Hiệp hội các quốc gia Đông Nam Á và nước Cộng hòa nhân dân Trung Hoa (sau đây gọi là ACFTA).
+    - dieu: 2
+      noi_dung: 'Điều 2. Đối tượng áp dụng Thông tư này áp dụng đối với: 1. Cơ quan, tổ chức cấp Giấy chứng nhận xuất xứ hàng hóa (C/O). 2. Thương nhân, cơ quan, tổ chức, cá nhân tham gia các hoạt động có liên quan đến xuất xứ hàng hóa.'
+    - dieu: 3
+      noi_dung: 'Điều 3. Giải thích từ ngữ Theo quy định tại Thông tư này, các thuật ngữ dưới đây hiểu như sau: 1. Nuôi trồng thuỷ sản là việc nuôi trồng các sinh vật sống dưới nước bao gồm cá, động vật thân mềm, loài giáp xác, động vật không xương sống dưới nước khác và thực vật thủy sinh, từ các loại con giống như trứng, cá con, cá giống và ấu trùng bằng cách can thiệp vào quá trình nuôi trồng hoặc tăng trưởng nhằm thúc đẩy sinh sản như nuôi cấy, cho ăn hoặc'
+    - dieu: 8
+      noi_dung: 'Điều 8. Công thức tính RVC 1. RVC được tính theo công thức sau: RVC = FOB - VNM x 100% FOB Trong đó: RVC là hàm lượng giá trị khu vực được thể hiện bằng tỷ lệ phần trăm. VNM là trị giá nguyên liệu không có xuất xứ.'
+    - dieu: 12
+      noi_dung: 'Điều 12. De Minimis Hàng hóa không đáp ứng tiêu chí CTC theo quy định tại Điều 7 Thông tư này vẫn được coi là có xuất xứ nếu: 1. Đối với hàng hóa không thuộc từ Chương 50 đến Chương 63 của Hệ thống hài hòa mô tả và mã hóa hàng hóa, trị giá của tất cả nguyên liệu không có xuất xứ không đáp ứng tiêu chí CTC được sử dụng để sản xuất ra hàng hóa không vượt quá 10% trị giá FOB của hàng hóa.'
+    - dieu: 16
+      noi_dung: 'Điều 16. Nguyên liệu giống nhau và có thể dùng thay thế lẫn nhau Việc xác định các nguyên liệu giống nhau và có thể dùng thay thế lẫn nhau là nguyên liệu có xuất xứ hay không có xuất xứ được thực hiện bằng các phương pháp sau: 1. Chia tách thực tế từng nguyên liệu; hoặc 2. Áp dụng các nguyên tắc kế toán về quản lý kho được áp dụng rộng rãi, hoặc các thông lệ quản lý kho tại Nước thành viên xuất khẩu.'
+    - dieu: 21
+      noi_dung: Điều 21. Cấp C/O mẫu E 1. C/O mẫu E được cấp trước hoặc tại thời điểm giao hàng. Trường hợp C/O mẫu E không được cấp tại thời điểm giao hàng hoặc không muộn hơn 3 ngày tính từ ngày giao hàng theo đề nghị của nhà xuất khẩu, C/O mẫu E được cấp sau phù hợp với quy định và pháp luật của Nước thành viên xuất khẩu. C/O mẫu E cấp sau trong thời hạn 12 tháng kể từ ngày giao hàng và phải đánh dấu vào Ô số 13 nơi có dòng chữ “ISSUED RETROACTIVELY”.
+    - dieu: 25
+      noi_dung: Điều 25. Thời hạn hiệu lực của C/O C/O mẫu E có hiệu lực trong vòng 1 năm kể từ ngày cấp và phải được nộp cho cơ quan hải quan Nước thành viên nhập khẩu trong thời hạn đó.
+    - dieu: 29
+      noi_dung: Điều 29. Lưu trữ hồ sơ 1. Hồ sơ đề nghị cấp C/O mẫu E và tất cả chứng từ liên quan được lưu tại cơ quan, tổ chức cấp C/O không ít hơn 3 năm kể từ ngày cấp. 2. Thông tin liên quan đến hiệu lực của C/O mẫu E được cung cấp theo yêu cầu của Nước thành viên nhập khẩu. 3. Bất kỳ thông tin trao đổi giữa các Nước thành viên liên quan phải được giữ bí mật và chỉ được sử dụng cho việc xác nhận tính hợp lệ của C/O mẫu E.
+    - dieu: 34
+      noi_dung: Điều 34. Điều khoản thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 12 tháng 9 năm 2019. 2. Mẫu C/O mẫu E, quy tắc xuất xứ hàng hóa tương ứng và việc áp dụng được thực hiện theo thỏa thuận của các Nước thành viên ACFTA và quy định tại Thông tư này.
 ghi_chu: 'BỘ QUY TẮC XUẤT XỨ ACFTA (C/O form E) ĐANG ÁP DỤNG HÔM NAY: 4 chương 34 điều + 4 phụ lục (Phụ lục I = quy tắc cụ thể theo mặt hàng). Sửa đổi bởi TT 10/2022/TT-BCT (chưa nạp — điểm mù). LƯU Ý PHÂN BIỆT: TT 49/2025/TT-BCT là AKFTA (Hàn Quốc), KHÔNG phải ACFTA.'
 tu_khoa:
   - acfta
   - form-e
   - xuat-xu
-toan_van: raw/download/moit.gov.vn/12-2019-tt-bct.html
+toan_van:
+  - raw/download/moit.gov.vn/12-2019-tt-bct.docx
+  - raw/download/moit.gov.vn/12-2019-tt-bct-phu-luc-1.docx
+  - raw/download/moit.gov.vn/12-2019-tt-bct-phu-luc-2.docx
+  - raw/download/moit.gov.vn/12-2019-tt-bct-phu-luc-3.docx
+  - raw/download/moit.gov.vn/12-2019-tt-bct-phu-luc-4.docx

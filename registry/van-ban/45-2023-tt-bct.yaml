@@ -32,5 +32,18 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương 1. Sửa đổi, bổ sung Điều 4 như sau: “Điều 4. Danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu 1. Khoáng sản xuất khẩu là khoáng sản có nguồn gốc hợp pháp, đã qua quá trình chế biến, có tên trong Danh mục chủng loại và đáp ứng tiêu chuẩn chất lượng sau đây:'
+      trang_pdf: 1
+      sha256_pdf: a95343aec4c8ab7c07a9f13ce1c6942c8eb9cf0a803e45179bb4c87b3d377fc2
+    - dieu: 2
+      noi_dung: Điều 2. Sửa đổi, bổ sung các Phụ lục của Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương 1. Sửa đổi, bổ sung Phụ lục 1 - Sửa tên gọi Phụ lục 1 thành “Danh mục chủng loại và tiêu chuẩn chất lượng khoáng sản xuất khẩu có nguồn gốc trong nước” - Sửa mã số hàng hóa (HS code) cập nhật theo Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục
+      trang_pdf: 4
+      sha256_pdf: a95343aec4c8ab7c07a9f13ce1c6942c8eb9cf0a803e45179bb4c87b3d377fc2
+    - dieu: 3
+      noi_dung: Điều 3. Hiệu lực thi hành Thông tư này có hiệu lực thi hành từ ngày 15 tháng 02 năm 2024./.
+      trang_pdf: 5
+      sha256_pdf: a95343aec4c8ab7c07a9f13ce1c6942c8eb9cf0a803e45179bb4c87b3d377fc2
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 15 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn + vbpl.vn).
 toan_van: raw/download/congbaocdn.chinhphu.vn/45-2023-tt-bct.pdf

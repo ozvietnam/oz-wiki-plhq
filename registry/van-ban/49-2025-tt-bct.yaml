@@ -13,15 +13,58 @@ nguon:
     truy_cap: '2026-10-21'
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-49-2025-tt-bct-46234/59030.htm
     truy_cap: '2026-10-21'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/9/46234/59017-1-20251399-140049-2025-tt-bct.pdf
+    truy_cap: '2026-11-22'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'thẻ vanban.chinhphu.vn (docid=215370), Công báo 59030 và wiki/sources/49-2025-tt-bct.md: ban hành 09-09-2025, đối chiếu đã có hiệu lực từ 01-05-2026 (quy tắc xuất xứ AKFTA)'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Thông tư này quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Thương mại hàng hóa thuộc Hiệp định khung về Hợp tác Kinh tế Toàn diện giữa Chính phủ các Nước thành viên Hiệp hội các quốc gia Đông Nam Á (ASEAN) và Chính phủ Đại Hàn Dân Quốc (Hàn Quốc) (sau đây gọi là Hiệp định).
+      trang_pdf: 2
+      sha256_pdf: 211c11d5564e5b764f747e9705dbcfef35785df220cd339c52abee3018c7bd9b
+    - dieu: 2
+      noi_dung: 'Điều 2. Đối tượng áp dụng Thông tư này áp dụng đối với: 1. Cơ quan, tổ chức cấp Giấy chứng nhận xuất xứ hàng hóa (C/O). 2. Thương nhân. 3. Cơ quan, tổ chức, cá nhân liên quan đến xuất xứ hàng hóa xuất khẩu và nhập khẩu.'
+      trang_pdf: 2
+      sha256_pdf: 211c11d5564e5b764f747e9705dbcfef35785df220cd339c52abee3018c7bd9b
+    - dieu: 3
+      noi_dung: 'Điều 3. Giải thích từ ngữ Trong Thông tư này, các thuật ngữ dưới đây được hiểu như sau: 1. CIF là trị giá hàng hóa nhập khẩu đã bao gồm cước vận tải và phí bảo hiểm tính đến cảng hoặc cửa khẩu của nước nhập khẩu. 2. FOB là trị giá hàng hóa đã giao qua mạn tàu, bao gồm phí vận tải từ nhà sản xuất đến cảng hoặc địa điểm cuối cùng trước khi tàu chở hàng rời bến.'
+      trang_pdf: 2
+      sha256_pdf: 211c11d5564e5b764f747e9705dbcfef35785df220cd339c52abee3018c7bd9b
+    - dieu: 9
+      noi_dung: Điều 9. Quy định đối với một số hàng hóa đặc biệt 1. Hàng hóa đặc biệt được coi là có xuất xứ ngay cả khi được sản xuất, gia công hay chế biến tại khu vực bên ngoài lãnh thổ của Hàn Quốc và các Nước thành viên ASEAN (như khu công nghiệp) bằng nguyên liệu xuất khẩu từ một Nước thành viên, sau đó được tái nhập trở lại Nước thành viên đó.
+      trang_pdf: 7
+      sha256_pdf: 211c11d5564e5b764f747e9705dbcfef35785df220cd339c52abee3018c7bd9b
+    - dieu: 14
+      noi_dung: 'Điều 14. Quy định về đóng gói và vật liệu đóng gói 1. Trường hợp nguyên liệu đóng gói và bao bì đóng gói hàng hóa nhằm mục đích bán lẻ: a) Cần tính trị giá của nguyên liệu đóng gói và bao bì khi xác định xuất xứ của hàng hóa áp dụng tiêu chí RVC theo quy định tại Điều 7 Thông tư này với điều kiện nguyên liệu đóng gói và bao bì đó là một phần của hàng hóa.'
+      trang_pdf: 10
+      sha256_pdf: 211c11d5564e5b764f747e9705dbcfef35785df220cd339c52abee3018c7bd9b
+    - dieu: 19
+      noi_dung: Điều 19. Kiểm tra trước khi xuất khẩu Nhà sản xuất hoặc nhà xuất khẩu hàng hóa hoặc đại diện được ủy quyền nộp đơn cho cơ quan, tổ chức cấp C/O để đề nghị kiểm tra xuất xứ hàng hóa trước khi xuất khẩu theo quy định và pháp luật của Nước thành viên. Kết quả kiểm tra tùy vào xem xét định kỳ hoặc khi cần thiết được chấp nhận như chứng từ hỗ trợ để xác định xuất xứ đối với hàng hóa xuất khẩu sau này.
+      trang_pdf: 11
+      sha256_pdf: 211c11d5564e5b764f747e9705dbcfef35785df220cd339c52abee3018c7bd9b
+    - dieu: 24
+      noi_dung: Điều 24. Cấp C/O mẫu AK 1. C/O mẫu AK được cấp trước hoặc tại thời điểm giao hàng hoặc không muộn hơn 03 ngày làm việc từ ngày giao hàng khi hàng hóa xuất khẩu được coi là có xuất xứ tại lãnh thổ của Nước thành viên xuất khẩu theo quy định tại Thông tư này.
+      trang_pdf: 13
+      sha256_pdf: 211c11d5564e5b764f747e9705dbcfef35785df220cd339c52abee3018c7bd9b
+    - dieu: 29
+      noi_dung: Điều 29. Xử lý khác biệt nhỏ 1. Trường hợp không có nghi ngờ về xuất xứ của hàng hóa, những khác biệt nhỏ giữa thông tin khai trên C/O mẫu AK với các chứng từ nộp cho cơ quan hải quan của Nước thành viên nhập khẩu khi làm thủ tục nhập khẩu không làm mất hiệu lực của C/O mẫu AK nếu những khác biệt này phù hợp với hàng hóa nhập khẩu thực tế.
+      trang_pdf: 15
+      sha256_pdf: 211c11d5564e5b764f747e9705dbcfef35785df220cd339c52abee3018c7bd9b
+    - dieu: 34
+      noi_dung: Điều 34. Từ chối cho hưởng ưu đãi thuế quan Nước thành viên nhập khẩu có thể từ chối cho hưởng ưu đãi thuế quan hoặc truy thu khoản tiền thuế chưa nộp theo quy định và pháp luật của nước mình trong trường hợp hàng hóa không đáp ứng các quy định về quy tắc xuất xứ hàng hóa tại Thông tư này.
+      trang_pdf: 18
+      sha256_pdf: 211c11d5564e5b764f747e9705dbcfef35785df220cd339c52abee3018c7bd9b
+    - dieu: 40
+      noi_dung: Điều 40. Điều khoản thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 5 năm 2026. 2. Trường hợp các văn bản được dẫn chiếu trong Thông tư này bị thay thế hoặc sửa đổi, bổ sung thì thực hiện theo văn bản thay thế hoặc văn bản đã được sửa đổi, bổ sung.
+      trang_pdf: 20
+      sha256_pdf: 211c11d5564e5b764f747e9705dbcfef35785df220cd339c52abee3018c7bd9b
 ghi_chu: 'LÀ AKFTA (ASEAN - HÀN QUỐC, C/O form AK) — KHÔNG PHẢI ACFTA/Trung Quốc. Nạp để chặn nhầm lẫn: nhiều nguồn phụ trộn 49/2025 vào chuỗi ACFTA (issue #222). Hiệu lực 01-05-2026 ĐÃ TỚI (21-10-2026) — đã có hiệu lực.'
 tu_khoa:
   - akfta
   - form-ak
   - xuat-xu
-toan_van: raw/download/congbao.chinhphu.vn/49-2025-tt-bct.html
+toan_van: raw/download/congbaocdn.chinhphu.vn/49-2025-tt-bct.pdf
