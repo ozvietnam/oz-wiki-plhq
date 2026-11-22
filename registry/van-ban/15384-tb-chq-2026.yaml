@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 15384/TB-CHQ/2026
+so_hieu_khac:
+  - 15384/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Bo mạch chủ dành cho máy tính xách tay có chứa CPU Intel Core Ultra 7 265H và GPU NVIDIA GeForce RTX 5060, ký mã hiệu MTM40, mã số 8471.50.10)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-04-17'
+hieu_luc_tu: '2026-04-17'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=103279&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/4/20/5.VB_15384.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/4/20/5.VB_15384.pdf, id=103279, SHA-256 8eba060403afda3319f521d49f57ddba698665c72828da3bf51cc255e6bc96d1): Thông báo số 15384/TB-CHQ ngày 17-04-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Bo mạch chủ dành cho máy tính xách tay có chứa CPU (ký, mã hiệu MTM40, dùng cho máy tính xách tay model ThinkPad P14s Gen 6; đã tích hợp bộ xử lý trung tâm CPU Intel Core Ultra 7 265H 2,2-5,3 GHz, bộ xử lý đồ họa GPU NVIDIA GeForce RTX 5060 Laptop GPU, bộ nhớ đồ họa VRAM GDDR7 SDRAM 16 Gb, chip chuyển mạch USB PI3USB102ZMEX, chip phân phối xung nhịp NB669GQ, chip nhớ BIOS NOR Flash SPI 8 Mb GD25LQ80EEIGR, IC điều khiển nhúng EC, các cổng giao tiếp I/O và mạch bảo vệ trên mạch in PCB đa lớp; khối lượng 0,16 kg/chiếc), phân loại vào nhóm 84.71, phân nhóm 8471.50, mã số 8471.50.10; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Bo mạch chủ dành cho máy tính xách tay có chứa CPU (ký, mã hiệu MTM40, dùng cho máy tính xách tay ThinkPad P14s Gen 6; tích hợp CPU Intel Core Ultra 7 265H, GPU NVIDIA GeForce RTX 5060 Laptop GPU, VRAM GDDR7 16 Gb, chip BIOS GD25LQ80EEIGR, IC điều khiển nhúng EC và các cổng giao tiếp I/O trên mạch in PCB) thuộc nhóm 84.71, phân nhóm 8471.50, mã số 8471.50.10.'
+toan_van: raw/download/files.customs.gov.vn/15384-tb-chq-2026.pdf
