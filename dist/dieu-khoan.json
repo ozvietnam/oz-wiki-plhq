@@ -5,8 +5,8 @@
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
  "canh_bao_tang_nhap": "Tầng TOM_TAT_NHAP được trích tự động bởi LLM (da_soat: false) — CHỈ dùng để định vị điều khoản, KHÔNG trích dẫn nguyên văn hay làm căn cứ pháp lý; chỉ dùng NGUYEN_VAN_NGUON_A để trích dẫn căn cứ.",
  "thong_ke": {
-  "so_van_ban_nguon_a": 65,
-  "so_dieu_khoan_nguon_a": 838,
+  "so_van_ban_nguon_a": 69,
+  "so_dieu_khoan_nguon_a": 863,
   "so_van_ban_tom_tat_nhap": 88,
   "so_dieu_khoan_tom_tat_nhap": 4699,
   "so_tep_doc_hieu": 91,
@@ -3033,6 +3033,85 @@
    ]
   },
   {
+   "so_hieu": "24/2026/TT-BYT",
+   "slug": "24-2026-tt-byt",
+   "ten": "Xác định mức độ rủi ro và biện pháp quản lý đối với thiết bị y tế",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-07-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?docid=218703&pageid=27160",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "khoan": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Thông tư này quy định về: 1. Xác định mức độ rủi ro và biện pháp quản lý đối với sản phẩm, hàng hóa là thiết bị y tế.",
+     "trang_pdf": 1,
+     "sha256_pdf": "279f776ea2f988963a0750b31d9d4e9b00b6e4ed4718ea2fc740d79624d30452"
+    },
+    {
+     "dieu": 1,
+     "khoan": 2,
+     "noi_dung": "2. Sửa đổi, bổ sung một số điều của Thông tư số 05/2022/TT-BYT quy định chi tiết thi hành một số điều của Nghị định số 98/2021/NĐ-CP về quản lý thiết bị y tế.",
+     "trang_pdf": 1,
+     "sha256_pdf": "279f776ea2f988963a0750b31d9d4e9b00b6e4ed4718ea2fc740d79624d30452"
+    },
+    {
+     "dieu": 2,
+     "khoan": 1,
+     "noi_dung": "Điều 2. Quy định về xác định mức độ rủi ro và biện pháp quản lý đối với sản phẩm, hàng hóa là thiết bị y tế 1. Việc xác định mức độ rủi ro và biện pháp quản lý tương ứng với mức độ rủi ro của sản phẩm, hàng hóa là thiết bị y tế được thực hiện theo các quy định tại Nghị định số 98/2021/NĐ-CP và các văn bản hướng dẫn thi hành.",
+     "trang_pdf": 2,
+     "sha256_pdf": "279f776ea2f988963a0750b31d9d4e9b00b6e4ed4718ea2fc740d79624d30452"
+    },
+    {
+     "dieu": 2,
+     "khoan": 2,
+     "noi_dung": "2. Mã số HS đối với thiết bị y tế được quy định tại Thông tư số 19/2024/TT-BYT ban hành Danh mục thiết bị y tế xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.",
+     "trang_pdf": 2,
+     "sha256_pdf": "279f776ea2f988963a0750b31d9d4e9b00b6e4ed4718ea2fc740d79624d30452"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Sửa đổi, bổ sung một số điều của Thông tư số 05/2022/TT-BYT quy định chi tiết thi hành một số điều của Nghị định số 98/2021/NĐ-CP về quản lý thiết bị y tế Sửa đổi, bổ sung Điều 8 như sau: “Điều 8. Lộ trình thực hiện Đối với các thiết bị y tế quy định tại các khoản 1, 2, 3, 4, 5 và 6 Điều 5 Thông tư này: 1. Thực hiện mua sắm sau ngày 30 tháng 6 năm 2027 phải kiểm định an toàn và tính năng kỹ thuật của thiết bị y tế theo đúng quy trình kiểm định do Bộ trưởng Bộ Y tế ban hành. 2. Thực hiện mua sắm trước ngày 01 tháng 7 năm 2027 phải hoàn thành việc kiểm định an toàn và tính năng kỹ thuật của thiết bị y tế trước ngày 01 tháng 01 năm 2028 theo đúng quy trình kiểm định do Bộ trưởng Bộ Y tế ban hành.”.",
+     "trang_pdf": 2,
+     "sha256_pdf": "279f776ea2f988963a0750b31d9d4e9b00b6e4ed4718ea2fc740d79624d30452"
+    },
+    {
+     "dieu": 4,
+     "khoan": 1,
+     "noi_dung": "Điều 4. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 7 năm 2026.",
+     "trang_pdf": 2,
+     "sha256_pdf": "279f776ea2f988963a0750b31d9d4e9b00b6e4ed4718ea2fc740d79624d30452"
+    },
+    {
+     "dieu": 4,
+     "khoan": 2,
+     "noi_dung": "2. Thông tư số 59/2025/TT-BYT sửa đổi, bổ sung một số điều của Thông tư số 05/2022/TT-BYT quy định chi tiết thi hành một số điều của Nghị định số 98/2021/NĐ-CP về quản lý thiết bị y tế hết hiệu lực kể từ ngày Thông tư này có hiệu lực thi hành.",
+     "trang_pdf": 2,
+     "sha256_pdf": "279f776ea2f988963a0750b31d9d4e9b00b6e4ed4718ea2fc740d79624d30452"
+    },
+    {
+     "dieu": 5,
+     "noi_dung": "Điều 5. Điều khoản tham chiếu Trường hợp các văn bản dẫn chiếu trong Thông tư này được thay thế hoặc sửa đổi, bổ sung thì thực hiện theo văn bản thay thế hoặc sửa đổi, bổ sung đó.",
+     "trang_pdf": 2,
+     "sha256_pdf": "279f776ea2f988963a0750b31d9d4e9b00b6e4ed4718ea2fc740d79624d30452"
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Điều 6. Tổ chức thực hiện Cục Hạ tầng và Thiết bị y tế, Chánh Văn phòng Bộ, Thủ trưởng các cơ quan, đơn vị thuộc Bộ Y tế và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Thông tư này.",
+     "trang_pdf": 2,
+     "sha256_pdf": "279f776ea2f988963a0750b31d9d4e9b00b6e4ed4718ea2fc740d79624d30452"
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Trong quá trình thực hiện, nếu có khó khăn, vướng mắc, các tổ chức, cá nhân phản ánh về Bộ Y tế (Cục Hạ tầng và Thiết bị y tế) để được xem xét, giải quyết./.",
+     "trang_pdf": 3,
+     "sha256_pdf": "279f776ea2f988963a0750b31d9d4e9b00b6e4ed4718ea2fc740d79624d30452"
+    }
+   ]
+  },
+  {
    "so_hieu": "25/2018/NĐ-CP",
    "slug": "25-2018-nd-cp",
    "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in",
@@ -3133,6 +3212,78 @@
    ]
   },
   {
+   "so_hieu": "26/2026/TT-BYT",
+   "slug": "26-2026-tt-byt",
+   "ten": "Danh mục dược liệu, thuốc cổ truyền theo mức độ rủi ro (rủi ro trung bình)",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-07-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?docid=218705&pageid=27160",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "khoan": 1,
+     "noi_dung": "PHỤ LỤC DANH MỤC DƯỢC LIỆU, THUỐC CỔ TRUYỀN CÓ MỨC ĐỘ RỦI RO TRUNG BÌNH THUỘC TRÁCH NHIỆM QUẢN LÝ CỦA BỘ Y TẾ (Ban hành kèm theo Thông tư số 26 /2026/TT-BYT ngày 01 tháng 7 năm 2026 của Bộ trưởng Bộ Y tế) STT 1 Tên nhóm hàng hóa Dược liệu Mã số HS Danh mục 11 ban hành kèm theo Thông tư số 09/2024/TT-BYT của Bộ trưởng Bộ Y tế ban hành các danh mục thuốc, nguyên liệu làm thuốc dùng cho người và mỹ phẩm xuất khẩu, nhập khẩu đã được xác định mã số hàng hóa theo danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam. Yêu cầu quản lý chất lượng tương ứng Cấp Giấy đăng ký lưu hành hoặc cấp Giấy phép nhập khẩu hoặc Công bố Tiêu chuẩn chất lượng và các biện pháp quản lý chất lượng khác theo quy định của Luật Dược số 105/2016/QH13 được sửa đổi, bổ sung bởi Luật số 44/2024/QH15, Nghị định số 163/2025/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Dược, Thông tư số 32/2025/TT-BYT của Bộ trưởng Bộ Y tế quy định quản lý về chất lượng thuốc cổ truyền, vị thuốc cổ truyền, dược liệu, Thông tư số 29/2025/TT-BYT của Bộ trưởng Bộ Y tế quy định về việc đăng ký lưu hành thuốc cổ truyền, vị thuốc cổ truyền, dược liệu và các văn bản quy phạm pháp luật về dược khác có liên quan.",
+     "trang_pdf": 1,
+     "sha256_pdf": "9fb19f3ff4302bd76b28421ca083eb168854a1bc0efc4d12c467cca9a335c14e"
+    },
+    {
+     "dieu": 1,
+     "khoan": 2,
+     "noi_dung": "2 Thuốc cổ truyền Danh mục 13 ban hành Cấp Giấy đăng ký lưu hành kèm theo Thông tư số hoặc cấp Giấy phép nhập khẩu đối với thuốc cổ truyền 09/2024/TT-BYT. chưa có số đăng ký lưu hành tại Việt Nam hoặc công bố đáp ứng tiêu chuẩn chế biến, bào chế thuốc cổ truyền trong cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền và các biện pháp quản lý chất lượng khác theo quy định của Luật Dược số 105/2016/QH13 được sửa đổi, bổ sung bởi Luật số 44/2024/QH15, Nghị định số 163/2025/NĐ-CP, Thông tư số 32/2025/TTBYT, Thông tư số 29/2025/TT-BYT, Thông tư số 32/2020/TT-BYT của Bộ trưởng Bộ Y tế quy định tiêu chuẩn chế biến, bào chế thuốc cổ truyền trong các cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền và các văn bản quy phạm pháp luật về dược khác có liên quan.",
+     "trang_pdf": 2,
+     "sha256_pdf": "9fb19f3ff4302bd76b28421ca083eb168854a1bc0efc4d12c467cca9a335c14e"
+    }
+   ]
+  },
+  {
+   "so_hieu": "27/2026/TT-BYT",
+   "slug": "27-2026-tt-byt",
+   "ten": "Ban hành Danh mục thực phẩm; dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm có mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Y tế",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-07-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?docid=218706&pageid=27160",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Ban hành Danh mục thực phẩm; dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm có mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Y tế tại Phụ lục kèm theo Thông tư này.",
+     "trang_pdf": 1,
+     "sha256_pdf": "399982d57d89353f9d78cf8f21d8d8596d0cfdf2a3e263741158580d26a92e8b"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Điều khoản tham chiếu Trường hợp các văn bản quy phạm pháp luật dẫn chiếu để áp dụng tại Thông tư này được sửa đổi, bổ sung, thay thế hoặc ban hành mới thì áp dụng theo văn bản sửa đổi, bổ sung, thay thế hoặc ban hành mới.",
+     "trang_pdf": 1,
+     "sha256_pdf": "399982d57d89353f9d78cf8f21d8d8596d0cfdf2a3e263741158580d26a92e8b"
+    },
+    {
+     "dieu": 3,
+     "khoan": 1,
+     "noi_dung": "Điều 3. Tổ chức thực hiện 1. Cục trưởng Cục An toàn thực phẩm có trách nhiệm a) Tổ chức triển khai, hướng dẫn, kiểm tra việc thực hiện Thông tư này. b) Tiếp tục rà soát, đề xuất cập nhật, bổ sung Danh mục thực phẩm; dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Y tế.",
+     "trang_pdf": 2,
+     "sha256_pdf": "399982d57d89353f9d78cf8f21d8d8596d0cfdf2a3e263741158580d26a92e8b"
+    },
+    {
+     "dieu": 3,
+     "khoan": 2,
+     "noi_dung": "2. Ủy ban nhân dân các tỉnh, thành phố có trách nhiệm a) Tổ chức triển khai thực hiện Thông tư này tại địa phương theo chức năng, nhiệm vụ, thẩm quyền được giao. b) Chỉ đạo cơ quan chuyên môn thực hiện quản lý, kiểm tra các sản phẩm thuộc Danh mục ban hành kèm theo Thông tư này theo quy định của pháp luật.",
+     "trang_pdf": 2,
+     "sha256_pdf": "399982d57d89353f9d78cf8f21d8d8596d0cfdf2a3e263741158580d26a92e8b"
+    },
+    {
+     "dieu": 4,
+     "noi_dung": "Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 7 năm 2026. Trong quá trình thực hiện nếu có vướng mắc, cơ quan, tổ chức cá nhân kịp thời phản ánh về Bộ Y tế (thông qua Cục An toàn thực phẩm) để nghiên cứu, giải quyết./.",
+     "trang_pdf": 2,
+     "sha256_pdf": "399982d57d89353f9d78cf8f21d8d8596d0cfdf2a3e263741158580d26a92e8b"
+    }
+   ]
+  },
+  {
    "so_hieu": "28/2026/NĐ-CP",
    "slug": "28-2026-nd-cp",
    "ten": "Quy định các danh mục chất ma túy và tiền chất",
@@ -3227,6 +3378,74 @@
      "noi_dung": "Trong trường hợp các văn bản quy phạm pháp luật được viện dẫn trong Thông tư này được sửa đổi, bổ sung hoặc thay thế thì áp dụng theo các văn bản quy phạm pháp luật mới còn hiệu lực.",
      "trang_pdf": 2,
      "sha256_pdf": "f1dcc9989aec7ecca774092be695cab1b176f25f65f30a8151081258a1afe21b"
+    }
+   ]
+  },
+  {
+   "so_hieu": "28/2026/TT-BYT",
+   "slug": "28-2026-tt-byt",
+   "ten": "Ban hành Danh mục thuốc hóa dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc, bán thành phẩm thuốc và bán thành phẩm dược liệu có mức độ rủi ro cao, mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Y tế",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-07-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?classid=1&docid=218707&pageid=27160",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "khoan": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh 1. Thông tư này điều chỉnh đối với thuốc hóa dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc, bán thành phẩm thuốc, bán thành phẩm dược liệu (cao, cốm, bột, dịch chiết, tinh dầu, nhựa, gôm, thạch) thuộc trách nhiệm quản lý của Bộ Y tế.",
+     "trang_pdf": 1,
+     "sha256_pdf": "b20ea7b104046ff48611c9566e184db7505701c2031b561f7f6b88540762a422"
+    },
+    {
+     "dieu": 1,
+     "khoan": 2,
+     "noi_dung": "2. Thông tư này không điều chỉnh đối với nguyên liệu làm thuốc là dược liệu.",
+     "trang_pdf": 1,
+     "sha256_pdf": "b20ea7b104046ff48611c9566e184db7505701c2031b561f7f6b88540762a422"
+    },
+    {
+     "dieu": 2,
+     "khoan": 1,
+     "noi_dung": "Điều 2. Ban hành Danh mục thuốc hóa dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc, bán thành phẩm thuốc và bán thành phẩm dược liệu có mức độ rủi ro cao, mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Y tế 1. Ban hành Danh mục thuốc hóa dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc, bán thành phẩm thuốc và bán thành phẩm dược liệu có mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Y tế chi tiết tại Phụ lục I kèm theo Thông tư này.",
+     "trang_pdf": 1,
+     "sha256_pdf": "b20ea7b104046ff48611c9566e184db7505701c2031b561f7f6b88540762a422"
+    },
+    {
+     "dieu": 2,
+     "khoan": 2,
+     "noi_dung": "2. Ban hành Danh mục thuốc hóa dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc, bán thành phẩm thuốc và bán thành phẩm dược liệu có mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Y tế chi tiết tại Phụ lục II kèm theo Thông tư này.",
+     "trang_pdf": 1,
+     "sha256_pdf": "b20ea7b104046ff48611c9566e184db7505701c2031b561f7f6b88540762a422"
+    },
+    {
+     "dieu": 3,
+     "khoan": 1,
+     "noi_dung": "Điều 3. Trách nhiệm thi hành 1. Cục Quản lý Dược có trách nhiệm: a) Tổ chức triển khai, hướng dẫn, kiểm tra việc thực hiện Thông tư này trong phạm vi toàn quốc; b) Rà soát, đề xuất Bộ Y tế điều chỉnh, cập nhật, bổ sung các Danh mục quy định tại Điều 2 Thông tư này.",
+     "trang_pdf": 2,
+     "sha256_pdf": "b20ea7b104046ff48611c9566e184db7505701c2031b561f7f6b88540762a422"
+    },
+    {
+     "dieu": 3,
+     "khoan": 2,
+     "noi_dung": "2. Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương có trách nhiệm: a) Tổ chức triển khai, hướng dẫn, kiểm tra việc thực hiện Thông tư này trên địa bàn quản lý; b) Chỉ đạo các cơ quan có liên quan trong công tác quản lý, kiểm tra chất lượng thuốc hóa dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc, bán thành phẩm thuốc và bán thành phẩm dược liệu có mức độ rủi ro cao, mức độ rủi ro trung bình theo quy định của pháp luật về dược.",
+     "trang_pdf": 2,
+     "sha256_pdf": "b20ea7b104046ff48611c9566e184db7505701c2031b561f7f6b88540762a422"
+    },
+    {
+     "dieu": 3,
+     "khoan": 3,
+     "noi_dung": "3. Cơ sở kiểm nghiệm thuốc, nguyên liệu làm thuốc của nhà nước có trách nhiệm thực hiện kiểm tra chất lượng thuốc hóa dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc, bán thành phẩm thuốc và bán thành phẩm dược liệu có mức độ rủi ro cao, mức độ rủi ro trung bình theo quy định của pháp luật về dược.",
+     "trang_pdf": 2,
+     "sha256_pdf": "b20ea7b104046ff48611c9566e184db7505701c2031b561f7f6b88540762a422"
+    },
+    {
+     "dieu": 4,
+     "noi_dung": "Điều 4. Hiệu lực thi hành Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 7 năm 2026. Trong quá trình thực hiện nếu có khó khăn, vướng mắc, đề nghị các cơ quan, tổ chức, cá nhân phản ánh về Bộ Y tế (Cục Quản lý Dược) để giải quyết./.",
+     "trang_pdf": 2,
+     "sha256_pdf": "b20ea7b104046ff48611c9566e184db7505701c2031b561f7f6b88540762a422"
     }
    ]
   },
