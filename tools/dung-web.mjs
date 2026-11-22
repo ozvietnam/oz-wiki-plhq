@@ -2,8 +2,8 @@
 // Dựng cổng web tra cứu tĩnh (0 CDN, 0 npm mới) từ dist/ (hoặc in-memory fallback khi distDir chưa có tệp):
 //   <outDir>/.nojekyll
 //   <outDir>/index.html, app.js, style.css
-//   <outDir>/data/{registry,wiki-index,wiki-chunks,dieu-khoan,cas-index}.json
-// Tuyệt đối KHÔNG xuất chu-giai-hs.json, chu-giai-chuong.json, hs-index*.json (ranh giới oz-wiki-plhq ↔ hs-code-api).
+//   <outDir>/data/{registry,wiki-index,wiki-chunks,dieu-khoan,cas-index,hs-policy,sap-het-hieu-luc}.json
+// Tuyệt đối KHÔNG xuất chu-giai-hs.json, chu-giai-chuong.json, hs-index.json, hs-index-theo-ma.json (ranh giới oz-wiki-plhq ↔ hs-code-api).
 import {
   existsSync,
   mkdirSync,
@@ -14,8 +14,9 @@ import {
 import { join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import yaml from 'js-yaml';
-import { ROOT, homNay, LUOC_DO_PHIEN_BAN, napSo } from './lib/registry.mjs';
+import { ROOT, homNay, LUOC_DO_PHIEN_BAN, napSo, bacNguon } from './lib/registry.mjs';
 import { dungJson } from './dung.mjs';
+import { dungChiMuc, dungChiMucTheoMa } from './lib/danh-muc.mjs';
 import { dungWikiDist } from './lib/wiki-dist.mjs';
 import { dungDieuKhoan, dungCasIndex } from './lib/dieu-khoan-dist.mjs';
 
@@ -122,6 +123,135 @@ export function rutGonRegistry(reg, { coQuanTen = {}, nhanhTen = {} } = {}) {
   return ketQua;
 }
 
+const MS_PER_DAY = 86_400_000;
+const RE_ISO_NGAY = /^\d{4}-\d{2}-\d{2}$/;
+let cachedNguonUyTin = null;
+
+function taiNguonUyTin(baseRoot = ROOT) {
+  const custom = join(baseRoot, 'registry', 'nguon-uy-tin.yaml');
+  if (baseRoot !== ROOT && existsSync(custom)) {
+    try {
+      const data = yaml.load(readFileSync(custom, 'utf8'), { schema: yaml.CORE_SCHEMA });
+      if (data && typeof data === 'object') return data;
+    } catch { /* fallback sang ROOT */ }
+  }
+  if (!cachedNguonUyTin) {
+    try {
+      const data = yaml.load(readFileSync(join(ROOT, 'registry', 'nguon-uy-tin.yaml'), 'utf8'), { schema: yaml.CORE_SCHEMA });
+      cachedNguonUyTin = data && typeof data === 'object' ? data : {};
+    } catch {
+      cachedNguonUyTin = {};
+    }
+  }
+  return cachedNguonUyTin;
+}
+
+function parseUtcDayMs(dateStr) {
+  if (typeof dateStr !== 'string' || !RE_ISO_NGAY.test(dateStr)) return NaN;
+  const ms = Date.parse(`${dateStr}T00:00:00Z`);
+  if (!Number.isFinite(ms)) return NaN;
+  return new Date(ms).toISOString().slice(0, 10) === dateStr ? ms : NaN;
+}
+
+/** Rút gọn dist/hs-index-theo-ma.json cho trình duyệt (chỉ giữ chính sách theo mã HS đã biết; bỏ ten & tien_le_tb_tchq). */
+export function rutGonHsPolicy(hsIndexTheoMa, { phien_ban, luoc_do_phien_ban } = {}) {
+  const pb = hsIndexTheoMa?.phien_ban || phien_ban || homNay();
+  const ldpb = hsIndexTheoMa?.luoc_do_phien_ban || luoc_do_phien_ban || LUOC_DO_PHIEN_BAN;
+  const srcMa = hsIndexTheoMa?.ma && typeof hsIndexTheoMa.ma === 'object' ? hsIndexTheoMa.ma : {};
+  const ma = {};
+
+  for (const code of Object.keys(srcMa).sort()) {
+    const list = srcMa[code];
+    if (!Array.isArray(list) || !list.length) continue;
+    const seen = new Set();
+    const entries = [];
+    for (const e of list) {
+      if (!e?.so_hieu) continue;
+      const item = {
+        so_hieu: String(e.so_hieu),
+        slug: e.slug || null,
+        tinh_trang: e.tinh_trang || 'CHUA_XAC_MINH',
+        hieu_luc_tu: e.hieu_luc_tu || null,
+        het_hieu_luc_tu: e.het_hieu_luc_tu || null,
+        hieu_luc_da_doi_chieu: e.hieu_luc_da_doi_chieu === true,
+        loai_tac_dong: e.loai_tac_dong || null,
+        muc_rui_ro: e.muc_rui_ro || null,
+        dieu_kien: e.dieu_kien || null,
+        dan_chieu: e.dan_chieu || null,
+      };
+      const sig = JSON.stringify(item);
+      if (!seen.has(sig)) {
+        seen.add(sig);
+        entries.push(item);
+      }
+    }
+    if (entries.length) ma[code] = entries;
+  }
+
+  return {
+    phien_ban: pb,
+    luoc_do_phien_ban: ldpb,
+    tong_nhom_ma: Object.keys(ma).length,
+    ma,
+  };
+}
+
+/** Lọc văn bản chưa HET_HIEU_LUC có het_hieu_luc_tu từ `today` đến `today + trong_so_ngay` (mặc định 60 ngày), sắp tăng dần. */
+export function tinhSapHetHieuLuc(reg, { today, trongSoNgay = 60, trong_so_ngay, nguonUyTin } = {}) {
+  const rawWindow = trong_so_ngay ?? trongSoNgay;
+  const cuaSo = Number.isFinite(Number(rawWindow)) ? Math.max(0, Math.floor(Number(rawWindow))) : 60;
+  const phienBan = reg?.phien_ban || today || homNay();
+  const ngayDung = today || reg?.phien_ban || homNay();
+  const todayMs = parseUtcDayMs(ngayDung);
+  if (!Number.isFinite(todayMs)) {
+    return {
+      phien_ban: phienBan,
+      ngay_dung: ngayDung,
+      trong_so_ngay: cuaSo,
+      tong: 0,
+      danh_sach: [],
+    };
+  }
+
+  const uyTin = nguonUyTin || taiNguonUyTin(ROOT);
+  const danhSach = [];
+  for (const d of reg?.van_ban || []) {
+    if (!d || d.tinh_trang === 'HET_HIEU_LUC') continue;
+    const hetMs = parseUtcDayMs(d.het_hieu_luc_tu);
+    if (!Number.isFinite(hetMs)) continue;
+    const soNgayConLai = Math.round((hetMs - todayMs) / MS_PER_DAY);
+    if (soNgayConLai < 0 || soNgayConLai > cuaSo) continue;
+    const urlNguonA = Array.isArray(d.nguon)
+      ? (d.nguon.find((n) => n?.url && bacNguon(String(n.url), uyTin) === 'A')?.url || null)
+      : null;
+    danhSach.push({
+      so_hieu: d.so_hieu,
+      slug: d.slug || null,
+      ten: d.ten || '',
+      co_quan: d.co_quan || null,
+      tinh_trang: d.tinh_trang || 'CHUA_XAC_MINH',
+      het_hieu_luc_tu: d.het_hieu_luc_tu,
+      so_ngay_con_lai: soNgayConLai,
+      xac_minh_muc: d.xac_minh?.muc || 'CHUA_XAC_MINH',
+      nhanh: Array.isArray(d.nhanh) ? d.nhanh : [],
+      url_nguon_a: urlNguonA ? String(urlNguonA) : null,
+    });
+  }
+
+  danhSach.sort((a, b) =>
+    a.het_hieu_luc_tu.localeCompare(b.het_hieu_luc_tu)
+    || String(a.so_hieu || '').localeCompare(String(b.so_hieu || ''), 'vi')
+  );
+
+  return {
+    phien_ban: phienBan,
+    ngay_dung: ngayDung,
+    trong_so_ngay: cuaSo,
+    tong: danhSach.length,
+    danh_sach: danhSach,
+  };
+}
+
 function chenThongTinDung(noiDung, meta) {
   return String(noiDung)
     .replaceAll('{{LUOC_DO_PHIEN_BAN}}', meta.luoc_do_phien_ban)
@@ -156,6 +286,7 @@ export function dungWeb({
   }
 
   let datasets;
+  let hsTheoMa = null;
   let nguonDuLieu = 'dist';
   const du5TepDist = existsSync(inDist) && TEP_DU_LIEU.every((f) => existsSync(join(inDist, f)));
 
@@ -167,6 +298,10 @@ export function dungWeb({
       'dieu-khoan.json': docJson(join(inDist, 'dieu-khoan.json')),
       'cas-index.json': docJson(join(inDist, 'cas-index.json')),
     };
+    const hsTheoMaPath = join(inDist, 'hs-index-theo-ma.json');
+    if (existsSync(hsTheoMaPath)) {
+      hsTheoMa = docJson(hsTheoMaPath);
+    }
   } else if (existsSync(join(baseRoot, 'registry', 'van-ban'))) {
     nguonDuLieu = 'in-memory';
     const so = napSo(baseRoot);
@@ -174,6 +309,10 @@ export function dungWeb({
     const { index: wikiIndex, chunks: wikiChunks } = dungWikiDist(so, baseRoot, ngayDung);
     const dieuKhoan = dungDieuKhoan(so, baseRoot, ngayDung);
     const casIndex = dungCasIndex(so, baseRoot, ngayDung);
+    const chiMuc = dungChiMuc(so, baseRoot, ngayDung);
+    if (chiMuc.van_ban.length) {
+      hsTheoMa = dungChiMucTheoMa(chiMuc);
+    }
     datasets = {
       'registry.json': reg,
       'wiki-index.json': wikiIndex,
@@ -190,18 +329,25 @@ export function dungWeb({
 
   const nhan = taiTuDienNhan(baseRoot);
   const regGon = rutGonRegistry(datasets['registry.json'], nhan);
+  const meta = {
+    luoc_do_phien_ban: String(regGon.luoc_do_phien_ban || LUOC_DO_PHIEN_BAN),
+    phien_ban: String(regGon.phien_ban || ngayDung),
+    thoi_diem_dung: thoiDiemDung,
+  };
+  const hsPolicy = rutGonHsPolicy(hsTheoMa, meta);
+  const sapHetHieuLuc = tinhSapHetHieuLuc(regGon, {
+    today: today || regGon.phien_ban || ngayDung,
+    nguonUyTin: taiNguonUyTin(baseRoot),
+  });
+
   const outDatasets = {
     'registry.json': regGon,
     'wiki-index.json': datasets['wiki-index.json'],
     'wiki-chunks.json': datasets['wiki-chunks.json'],
     'dieu-khoan.json': datasets['dieu-khoan.json'],
     'cas-index.json': datasets['cas-index.json'],
-  };
-
-  const meta = {
-    luoc_do_phien_ban: String(regGon.luoc_do_phien_ban || LUOC_DO_PHIEN_BAN),
-    phien_ban: String(regGon.phien_ban || ngayDung),
-    thoi_diem_dung: thoiDiemDung,
+    'hs-policy.json': hsPolicy,
+    'sap-het-hieu-luc.json': sapHetHieuLuc,
   };
 
   const dataOutDir = join(targetOut, 'data');
@@ -239,11 +385,10 @@ export function dungWeb({
 }
 
 function docThamSoCli(argv) {
-  const layGiaTri = (flag) => {
+  const layGiaTri = (flag, resolvePath = true) => {
     const idx = argv.indexOf(flag);
-    return idx !== -1 && argv[idx + 1] && !argv[idx + 1].startsWith('--')
-      ? resolve(argv[idx + 1])
-      : null;
+    if (idx === -1 || !argv[idx + 1] || argv[idx + 1].startsWith('--')) return null;
+    return resolvePath ? resolve(argv[idx + 1]) : argv[idx + 1];
   };
   return {
     help: argv.includes('--help') || argv.includes('-h'),
@@ -251,13 +396,14 @@ function docThamSoCli(argv) {
     distDir: layGiaTri('--dist') || join(ROOT, 'dist'),
     templateDir: layGiaTri('--template') || undefined,
     root: layGiaTri('--root') || ROOT,
+    today: layGiaTri('--today', false) || undefined,
   };
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
   const opts = docThamSoCli(process.argv.slice(2));
   if (opts.help) {
-    console.log('Cách dùng: node tools/dung-web.mjs [--out <dir>] [--dist <dir>] [--template <dir>] [--root <dir>]');
+    console.log('Cách dùng: node tools/dung-web.mjs [--out <dir>] [--dist <dir>] [--template <dir>] [--root <dir>] [--today YYYY-MM-DD]');
     process.exit(0);
   }
   const kq = dungWeb(opts);
