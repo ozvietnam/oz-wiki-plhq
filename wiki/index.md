@@ -341,4 +341,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/154-2026-tt-btc]]
 - [[sources/372-2026-nd-cp]]
 - [[sources/63-2026-tt-bkhcn]]
+- [[sources/21-2025-nd-cp]]
+- [[sources/73-2025-nd-cp]]
+- [[sources/199-2025-nd-cp]]
 <!-- /lumina:index -->

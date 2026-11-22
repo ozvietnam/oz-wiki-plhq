@@ -1,23 +1,40 @@
 # Sổ đăng ký văn bản — crawl từ vanban.chinhphu.vn (sheet HT biểu thuế)
 so_hieu: 73/2025/NĐ-CP
 loai: NGHI_DINH
-ten: Biểu thuế NK ưu đãi (sửa)
+ten: Sửa đổi, bổ sung mức thuế suất thuế nhập khẩu ưu đãi của một số mặt hàng tại Biểu thuế nhập khẩu ưu đãi theo Danh mục mặt hàng chịu thuế ban hành kèm theo Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan
 co_quan: CP
 ngay_ban_hanh: '2025-03-31'
 hieu_luc_tu: '2025-03-31'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/bieu-thue
+quan_he:
+  sua_doi:
+    - so_hieu: 26/2023/NĐ-CP
+      pham_vi: Phụ lục II — sửa đổi mức thuế suất thuế nhập khẩu ưu đãi của một số mặt hàng tại Mục I và bổ sung mặt hàng Ethane (mã 9853.00.00, tương ứng 2711.19.00, thuế suất 0%) vào Chương 98 tại khoản 3 Mục II Phụ lục II
+      tu_ngay: '2025-03-31'
+      can_cu: Điều 1, khoản 1 Điều 2 và Phụ lục Nghị định 73/2025/NĐ-CP
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'thẻ vanban.chinhphu.vn (docid=213245) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/73-2025-nd-cp.pdf, 2 Điều + Phụ lục gồm Mục I và Mục II, người ký Phó Thủ tướng Hồ Đức Phớc): Nghị định 73/2025/NĐ-CP của Chính phủ sửa đổi, bổ sung mức thuế suất thuế nhập khẩu ưu đãi của một số mặt hàng tại Biểu thuế nhập khẩu ưu đãi theo Danh mục mặt hàng chịu thuế ban hành kèm theo Nghị định 26/2023/NĐ-CP ngày 31-05-2023, ban hành ngày 31-03-2025, có hiệu lực thi hành kể từ ngày ký ban hành 31-03-2025 theo khoản 1 Điều 2; đối chiếu đang còn hiệu lực'
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=213245), toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/73-2025-nd-cp.pdf, 46 trang, 2 Điều + Phụ lục gồm Mục I và Mục II, Phó Thủ tướng Hồ Đức Phớc ký, SHA-256 fd9ebe9d81c6fd689d95751e48c28f737bd7cf4caf49c2dffd1f4832fc88c3dc) và trang wiki/sources/73-2025-nd-cp.md: Nghị định 73/2025/NĐ-CP của Chính phủ sửa đổi, bổ sung mức thuế suất thuế nhập khẩu ưu đãi của một số mặt hàng tại Biểu thuế nhập khẩu ưu đãi theo Danh mục mặt hàng chịu thuế ban hành kèm theo Nghị định 26/2023/NĐ-CP ngày 31-05-2023, ban hành ngày 31-03-2025, có hiệu lực thi hành kể từ ngày ký ban hành 31-03-2025 theo khoản 1 Điều 2; đối chiếu đang còn hiệu lực'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-22'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Sửa đổi, bổ sung mức thuế suất thuế nhập khẩu ưu đãi của một số mặt hàng quy định tại Phụ lục II - Biểu thuế nhập khẩu ưu đãi theo Danh mục mặt hàng chịu thuế quy định tại Điều 3 Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ thành các mức thuế suất thuế nhập khẩu ưu đãi mới quy định tại Phụ lục ban hành kèm theo Nghị định này.'
+    - dieu: 2
+      khoan: 1
+      noi_dung: '1. Nghị định này có hiệu lực thi hành kể từ ngày ký ban hành.'
+    - dieu: 2
+      khoan: 2
+      noi_dung: '2. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này.'
 ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=213245&pageid=27160
     truy_cap: '2026-10-10'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/3/73-cp.signed.pdf
     truy_cap: '2026-10-10'
-toan_van: raw/download/datafiles.chinhphu.vn/73-2025-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/73-2025-nd-cp.pdf
+  - wiki/sources/73-2025-nd-cp.md
