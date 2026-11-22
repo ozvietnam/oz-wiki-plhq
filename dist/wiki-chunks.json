@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-22).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 3088,
+ "tong": 3117,
  "chunks": [
   {
    "chunk_id": "dong-bo-quan-diem-phan-loai#1",
@@ -34928,15 +34928,17 @@
    "slug": "113-2017-nd-cp",
    "duong_dan": "wiki/sources/113-2017-nd-cp.md",
    "loai_trang": "sources",
-   "tieu_de": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất",
-   "muc": "Summary",
-   "noi_dung": "**Stub page** — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất (113/2017/NĐ-CP) ban hành 2017-10-09, có hiệu lực từ 2017-11-25, **hết hiệu lực từ 2026-01-17** theo tinh_trang trong registry.\n\n> **Lưu ý**: Theo rule của Sếp Thắng, VB bị bãi bỏ / hết hiệu lực chỉ tạo stub ngắn (metadata + quan hệ), KHÔNG nạp toàn văn PDF. Wiki này ghi nhận lịch sử.\n\n**Bãi bỏ / thay thế bởi**: 24-2026-nd-cp (bãi bỏ)\n\n**Cơ quan ban hành**: Chính phủ",
+   "tieu_de": "NĐ 113/2017/NĐ-CP — Quy định chi tiết Luật Hóa chất (ĐÃ HẾT HIỆU LỰC từ 17/01/2026, thay bởi NĐ 26/2026)",
+   "muc": "",
+   "noi_dung": "# ⚠️ VĂN BẢN ĐÃ HẾT HIỆU LỰC TỪ NGÀY 17/01/2026\n\n> **Lưu ý hiệu lực:** **Nghị định 113/2017/NĐ-CP** (cùng văn bản sửa đổi là [[sources/82-2022-nd-cp|Nghị định 82/2022/NĐ-CP]]) **đã HẾT HIỆU LỰC toàn bộ kể từ ngày 17/01/2026** theo **khoản 3 Điều 31 [[sources/26-2026-nd-cp|Nghị định 26/2026/NĐ-CP]]**. Khi làm thủ tục khai báo hóa chất nhập khẩu, xin cấp phép xuất nhập khẩu hóa chất hoặc tra cứu danh mục hóa chất hiện hành từ ngày 17/01/2026, **phải áp dụng Luật Hóa chất số `69/2025/QH15`, [[sources/26-2026-nd-cp|Nghị định 26/2026/NĐ-CP]] và `24/2026/NĐ-CP`** (chỉ giữ giá trị chuyển tiếp đối với giấy phép, giấy chứng nhận cấp trước 17/01/2026 theo Điều 30 NĐ 26/2026/NĐ-CP).",
    "tags": [
-    "stub",
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
     "kiem-tra-chuyen-nganh",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [
     {
      "so_hieu": "113/2017/NĐ-CP",
@@ -34951,6 +34953,50 @@
       "33/2024/NĐ-CP"
      ],
      "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-113-2017-nd-cp-24884/19507.htm"
+    },
+    {
+     "so_hieu": "82/2022/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-22",
+     "het_hieu_luc_tu": "2026-01-17",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "26/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [
+      "33/2024/NĐ-CP"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-82-2022-nd-cp-38082.htm"
+    },
+    {
+     "so_hieu": "26/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-17",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-26-2026-nd-cp-468804.htm"
+    },
+    {
+     "so_hieu": "69/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214610"
+    },
+    {
+     "so_hieu": "24/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-17",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216671"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -34960,16 +35006,69 @@
    "slug": "113-2017-nd-cp",
    "duong_dan": "wiki/sources/113-2017-nd-cp.md",
    "loai_trang": "sources",
-   "tieu_de": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất",
-   "muc": "Tình trạng hiệu lực",
-   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 2017-10-09 | Chính phủ ban hành |\n| 2017-11-25 | Có hiệu lực |\n| 2026-01-17 | **Hết hiệu lực** |",
+   "tieu_de": "NĐ 113/2017/NĐ-CP — Quy định chi tiết Luật Hóa chất (ĐÃ HẾT HIỆU LỰC từ 17/01/2026, thay bởi NĐ 26/2026)",
+   "muc": "Summary",
+   "noi_dung": "**Nghị định 113/2017/NĐ-CP** do Thủ tướng Chính phủ Nguyễn Xuân Phúc ký ban hành ngày **09/10/2017**, có hiệu lực thi hành từ ngày **25/11/2017** (thay thế Nghị định `108/2008/NĐ-CP` và Nghị định `26/2011/NĐ-CP` đã hết hiệu lực), quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất năm 2007 (`06/2007/QH12`, đã hết hiệu lực).\n\nVăn bản gồm **07 chương, 40 điều** và **06 Phụ lục** (Phụ lục I–VI), từng là khung pháp lý nền tảng cho quản lý hóa chất sản xuất kinh doanh có điều kiện, hóa chất hạn chế, tiền chất công nghiệp (giấy phép xuất khẩu, nhập khẩu), hóa chất cấm, phiếu an toàn hóa chất (MSDS) và thủ tục **khai báo hóa chất nhập khẩu qua Cổng thông tin một cửa quốc gia** (từng được dẫn chiếu cho khoảng 667 mã HS trong biểu thuế). **Hiện đã hết hiệu lực toàn bộ (`HET_HIEU_LUC`) từ ngày 17/01/2026**.",
    "tags": [
-    "stub",
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
     "kiem-tra-chuyen-nganh",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "113/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-11-25",
+     "het_hieu_luc_tu": "2026-01-17",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "26/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [
+      "33/2024/NĐ-CP"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-113-2017-nd-cp-24884/19507.htm"
+    },
+    {
+     "so_hieu": "108/2008/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2017-11-25",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "113/2017/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=79077&pageid=27160"
+    },
+    {
+     "so_hieu": "26/2011/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2011-06-01",
+     "het_hieu_luc_tu": "2017-11-25",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "113/2017/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=99827&pageid=27160"
+    },
+    {
+     "so_hieu": "06/2007/QH12",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2008-07-01",
+     "het_hieu_luc_tu": "2026-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "69/2025/QH15"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=51260"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -34977,16 +35076,81 @@
    "slug": "113-2017-nd-cp",
    "duong_dan": "wiki/sources/113-2017-nd-cp.md",
    "loai_trang": "sources",
-   "tieu_de": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất",
-   "muc": "Căn cứ pháp lý (nếu có)",
-   "noi_dung": "- Cần đối chiếu với VB thay thế / bãi bỏ\n- Có thể tham chiếu ở các concept/wiki source liên quan",
+   "tieu_de": "NĐ 113/2017/NĐ-CP — Quy định chi tiết Luật Hóa chất (ĐÃ HẾT HIỆU LỰC từ 17/01/2026, thay bởi NĐ 26/2026)",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 09/10/2017 | Chính phủ ban hành **Nghị định 113/2017/NĐ-CP** (đăng Công báo số 783 + 784 ngày 19/10/2017) |\n| 25/11/2017 | Có hiệu lực thi hành; thay thế `108/2008/NĐ-CP` và `26/2011/NĐ-CP` (hết hiệu lực từ 25/11/2017) |\n| 2022 | Được sửa đổi, bổ sung một số điều bởi [[sources/82-2022-nd-cp]] (cùng hết hiệu lực từ 17/01/2026) |\n| 19/05/2024 | Bãi bỏ một số hóa chất thuộc Phụ lục I và Phụ lục V (đã sửa bởi NĐ 82/2022/NĐ-CP) theo [[sources/33-2024-nd-cp]] |\n| **17/01/2026** | **Hết hiệu lực toàn bộ** theo khoản 3 Điều 31 [[sources/26-2026-nd-cp]]; danh mục hóa chất mới quy định tại `24/2026/NĐ-CP` |\n| Hiện tại | **Hết hiệu lực** (`HET_HIEU_LUC`) — chỉ còn quy định chuyển tiếp giấy phép/GCN cũ theo Điều 30 [[sources/26-2026-nd-cp]] |",
    "tags": [
-    "stub",
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
     "kiem-tra-chuyen-nganh",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "113/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-11-25",
+     "het_hieu_luc_tu": "2026-01-17",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "26/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [
+      "33/2024/NĐ-CP"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-113-2017-nd-cp-24884/19507.htm"
+    },
+    {
+     "so_hieu": "108/2008/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2017-11-25",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "113/2017/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=79077&pageid=27160"
+    },
+    {
+     "so_hieu": "26/2011/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2011-06-01",
+     "het_hieu_luc_tu": "2017-11-25",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "113/2017/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=99827&pageid=27160"
+    },
+    {
+     "so_hieu": "82/2022/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-22",
+     "het_hieu_luc_tu": "2026-01-17",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "26/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [
+      "33/2024/NĐ-CP"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-82-2022-nd-cp-38082.htm"
+    },
+    {
+     "so_hieu": "24/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-17",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216671"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -34994,15 +35158,17 @@
    "slug": "113-2017-nd-cp",
    "duong_dan": "wiki/sources/113-2017-nd-cp.md",
    "loai_trang": "sources",
-   "tieu_de": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất",
-   "muc": "Related concepts (chưa có wiki)",
-   "noi_dung": "- kiem-tra-chuyen-nganh (cần tạo concept)\n- các concept liên quan đến lĩnh vực của VB",
+   "tieu_de": "NĐ 113/2017/NĐ-CP — Quy định chi tiết Luật Hóa chất (ĐÃ HẾT HIỆU LỰC từ 17/01/2026, thay bởi NĐ 26/2026)",
+   "muc": "Cấu trúc (07 chương, 40 điều & 06 Phụ lục)",
+   "noi_dung": "| Chương / Phụ lục | Nội dung | Điều |\n|---|---|---|\n| **Chương I** | Những quy định chung (phạm vi, đối tượng, giải thích từ ngữ) | Điều 1 – 3 |\n| **Chương II** | Điều kiện đầu tư, sản xuất, kinh doanh hóa chất (nhà xưởng, bảo quản, hóa chất có điều kiện, tiền chất công nghiệp & giấy phép XNK, hóa chất hạn chế, hóa chất cấm, hóa chất độc) | Điều 4 – 19 |\n| **Chương III** | Kế hoạch, biện pháp phòng ngừa, ứng phó sự cố hóa chất và khoảng cách an toàn | Điều 20 – 22 |\n| **Chương IV** | Phân loại hóa chất và Phiếu an toàn hóa chất (MSDS) | Điều 23 – 24 |\n| **Chương V** | Khai báo hóa chất (danh mục phải khai báo, khai báo hóa chất sản xuất, **khai báo hóa chất nhập khẩu qua NSW**, miễn trừ, bảo mật thông tin, cơ sở dữ liệu hóa chất) | Điều 25 – 30 |\n| **Chương VI** | Huấn luyện an toàn hóa chất | Điều 31 – 35 |\n| **Chương VII** | Chế độ báo cáo, quản lý nhà nước, hiệu lực thi hành và chuyển tiếp | Điều 36 – 40 |\n| **Phụ lục I – VI** | PL I: Hóa chất SX, KD có điều kiện; PL II: Hóa chất hạn chế SX, KD; PL III: Hóa chất cấm; PL IV: Ngưỡng khối lượng lập Kế hoạch phòng ngừa sự cố; PL V: Hóa chất phải khai báo (kèm mã CAS, mã HS tham khảo); PL VI: Biểu mẫu cấp phép và phản hồi khai báo | — |",
    "tags": [
-    "stub",
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
     "kiem-tra-chuyen-nganh",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -35011,15 +35177,17 @@
    "slug": "113-2017-nd-cp",
    "duong_dan": "wiki/sources/113-2017-nd-cp.md",
    "loai_trang": "sources",
-   "tieu_de": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất",
-   "muc": "Related sources (chưa có wiki)",
-   "noi_dung": "- Cần đối chiếu với các VB thay thế / bãi bỏ",
+   "tieu_de": "NĐ 113/2017/NĐ-CP — Quy định chi tiết Luật Hóa chất (ĐÃ HẾT HIỆU LỰC từ 17/01/2026, thay bởi NĐ 26/2026)",
+   "muc": "Nội dung các quy định chính (giá trị tra cứu lịch sử trước 17/01/2026) > 1. Giấy phép xuất khẩu, nhập khẩu tiền chất công nghiệp (Điều 11 – Điều 13)",
+   "noi_dung": "- Tổ chức, cá nhân xuất khẩu, nhập khẩu **tiền chất công nghiệp** phải có **Giấy phép xuất khẩu, nhập khẩu tiền chất công nghiệp** làm điều kiện thông quan (khoản 1 Điều 12).\n- Thời hạn giải quyết hồ sơ là **07 ngày làm việc** kể từ ngày nhận đủ hồ sơ hợp lệ (thông báo bổ sung trong 03 ngày làm việc). Giấy phép đối với tiền chất **Nhóm 1** cấp theo từng lô và có thời hạn 06 tháng; **Nhóm 2** có thời hạn 06 tháng; gia hạn tối đa 01 lần không quá 06 tháng (khoản 3, 4, 7 Điều 12).\n- **Miễn trừ cấp phép (Điều 13 khoản 1):** Hàng hóa chứa tiền chất công nghiệp Nhóm 1 có hàm lượng **nhỏ hơn 1%** khối lượng; Nhóm 2 có hàm lượng **nhỏ hơn 5%** khối lượng.",
    "tags": [
-    "stub",
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
     "kiem-tra-chuyen-nganh",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -35028,15 +35196,17 @@
    "slug": "113-2017-nd-cp",
    "duong_dan": "wiki/sources/113-2017-nd-cp.md",
    "loai_trang": "sources",
-   "tieu_de": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất",
-   "muc": "Open questions",
-   "noi_dung": "- VB nào thay thế hoàn toàn?\n- Có còn áp dụng phần nào không?",
+   "tieu_de": "NĐ 113/2017/NĐ-CP — Quy định chi tiết Luật Hóa chất (ĐÃ HẾT HIỆU LỰC từ 17/01/2026, thay bởi NĐ 26/2026)",
+   "muc": "Nội dung các quy định chính (giá trị tra cứu lịch sử trước 17/01/2026) > 2. Khai báo hóa chất nhập khẩu qua Cổng thông tin một cửa quốc gia (Điều 25 – Điều 28)",
+   "noi_dung": "- Tổ chức, cá nhân nhập khẩu hóa chất thuộc **Phụ lục V** (hoặc hỗn hợp chứa chất thuộc Phụ lục V được phân loại là hóa chất nguy hiểm theo Điều 23) phải khai báo hóa chất nhập khẩu **trước khi thông quan qua Cổng thông tin một cửa quốc gia** (khoản 1 Điều 27).\n- Hồ sơ khai báo gồm thông tin theo mẫu Phụ lục VI, hóa đơn mua bán (hoặc giấy báo hàng về cảng nếu phi thương mại), và **Phiếu an toàn hóa chất (MSDS) bằng tiếng Việt** (khoản 3 Điều 27); lưu giữ hồ sơ tối thiểu 05 năm (khoản 6 Điều 27). Hệ thống tự động phản hồi xác nhận hoàn thành khai báo làm cơ sở thông quan (khoản 4 Điều 27).\n- **Các trường hợp miễn trừ khai báo (Điều 28):**\n  1. Phục vụ an ninh, quốc phòng, ứng phó sự cố thiên tai, dịch bệnh khẩn cấp;\n  2. Tiền chất ma túy, tiền chất thuốc nổ, vật liệu nổ công nghiệp và hóa chất bảng đã được cấp phép SX, NK;\n  3. Nhập khẩu **dưới 10 kg/một lần nhập khẩu** (không áp dụng miễn trừ đối với hóa chất hạn chế SX, KD trong lĩnh vực công nghiệp);\n  4. Nguyên liệu sản xuất thuốc đã có GCN đăng ký lưu hành tại Việt Nam hoặc dược chất để sản xuất theo hồ sơ đăng ký thuốc đã có GCN lưu hành;\n  5. Nguyên liệu sản xuất thuốc bảo vệ thực vật đã có GCN đăng ký thuốc BVTV tại Việt Nam.",
    "tags": [
-    "stub",
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
     "kiem-tra-chuyen-nganh",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -35045,15 +35215,222 @@
    "slug": "113-2017-nd-cp",
    "duong_dan": "wiki/sources/113-2017-nd-cp.md",
    "loai_trang": "sources",
-   "tieu_de": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất",
-   "muc": "Notes",
-   "noi_dung": "- VB đã hết hiệu lực — không nạp toàn văn (rule Sếp Thắng 2026-10-10)\n- Cần đối chiếu với VB thay thế để có thông tin đầy đủ\n- Lưu ý: Có thể có phần chuyển tiếp trong VB thay thế (Điều X \"Chuyển tiếp\")\n- Tham khảo: ~667 mã HS trong biểu thuế (nếu có)",
+   "tieu_de": "NĐ 113/2017/NĐ-CP — Quy định chi tiết Luật Hóa chất (ĐÃ HẾT HIỆU LỰC từ 17/01/2026, thay bởi NĐ 26/2026)",
+   "muc": "Nội dung các quy định chính (giá trị tra cứu lịch sử trước 17/01/2026) > 3. Quy định chuyển tiếp khi chuyển sang Nghị định 26/2026/NĐ-CP",
+   "noi_dung": "- Theo Điều 30 [[sources/26-2026-nd-cp|Nghị định 26/2026/NĐ-CP]], các giấy chứng nhận, giấy phép hoạt động hóa chất đã được cấp theo Nghị định 113/2017/NĐ-CP được tiếp tục sử dụng đến **31/12/2026**, **31/12/2027** hoặc đến khi hết hạn tùy từng loại giấy phép/giấy chứng nhận theo các khoản 2–7 Điều 30.\n- Toàn bộ thủ tục mới về khai báo hóa chất nhập khẩu, hóa chất kinh doanh có điều kiện, hóa chất cần kiểm soát đặc biệt và công bố thông tin hóa chất nguy hiểm trong sản phẩm, hàng hóa từ 17/01/2026 thực hiện theo [[sources/26-2026-nd-cp]], danh mục mới tại `24/2026/NĐ-CP` và Thông tư `01-2026-tt-bct`.",
    "tags": [
-    "stub",
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
     "kiem-tra-chuyen-nganh",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "26/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-17",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-26-2026-nd-cp-468804.htm"
+    },
+    {
+     "so_hieu": "113/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-11-25",
+     "het_hieu_luc_tu": "2026-01-17",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "26/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [
+      "33/2024/NĐ-CP"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-113-2017-nd-cp-24884/19507.htm"
+    },
+    {
+     "so_hieu": "24/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-17",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216671"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "113-2017-nd-cp#8",
+   "slug": "113-2017-nd-cp",
+   "duong_dan": "wiki/sources/113-2017-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 113/2017/NĐ-CP — Quy định chi tiết Luật Hóa chất (ĐÃ HẾT HIỆU LỰC từ 17/01/2026, thay bởi NĐ 26/2026)",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/khai-bao-hoa-chat-nhap-khau]]\n- [[concepts/giay-phep-hoa-chat-co-dieu-kien]]\n- [[concepts/hoa-chat-tien-chat-cas-xnk]]\n- [[concepts/hoa-chat-nguy-hiem-trong-hang-hoa]]",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "113-2017-nd-cp#9",
+   "slug": "113-2017-nd-cp",
+   "duong_dan": "wiki/sources/113-2017-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 113/2017/NĐ-CP — Quy định chi tiết Luật Hóa chất (ĐÃ HẾT HIỆU LỰC từ 17/01/2026, thay bởi NĐ 26/2026)",
+   "muc": "Related sources",
+   "noi_dung": "- [[sources/26-2026-nd-cp]] (Nghị định 26/2026/NĐ-CP — văn bản thay thế toàn bộ NĐ 113/2017/NĐ-CP từ 17/01/2026)\n- `24/2026/NĐ-CP` (Nghị định quy định các danh mục hóa chất mới theo Luật Hóa chất `69/2025/QH15`, hiệu lực 17/01/2026 — chưa có wiki)\n- [[sources/82-2022-nd-cp]] (Nghị định sửa đổi, bổ sung NĐ 113/2017/NĐ-CP; đã hết hiệu lực cùng ngày 17/01/2026 theo NĐ 26/2026/NĐ-CP)\n- [[sources/33-2024-nd-cp]] (Nghị định về Công ước Cấm vũ khí hóa học, bãi bỏ một số STT thuộc Phụ lục I, V NĐ 113/2017/NĐ-CP từ 19/05/2024)\n- `108/2008/NĐ-CP` và `26/2011/NĐ-CP` (các nghị định tiền nhiệm trước NĐ 113/2017/NĐ-CP, đã hết hiệu lực từ 25/11/2017)",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "26/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-17",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-26-2026-nd-cp-468804.htm"
+    },
+    {
+     "so_hieu": "113/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-11-25",
+     "het_hieu_luc_tu": "2026-01-17",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "26/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [
+      "33/2024/NĐ-CP"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-113-2017-nd-cp-24884/19507.htm"
+    },
+    {
+     "so_hieu": "24/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-17",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216671"
+    },
+    {
+     "so_hieu": "69/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214610"
+    },
+    {
+     "so_hieu": "108/2008/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2017-11-25",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "113/2017/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=79077&pageid=27160"
+    },
+    {
+     "so_hieu": "26/2011/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2011-06-01",
+     "het_hieu_luc_tu": "2017-11-25",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "113/2017/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=99827&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "113-2017-nd-cp#10",
+   "slug": "113-2017-nd-cp",
+   "duong_dan": "wiki/sources/113-2017-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 113/2017/NĐ-CP — Quy định chi tiết Luật Hóa chất (ĐÃ HẾT HIỆU LỰC từ 17/01/2026, thay bởi NĐ 26/2026)",
+   "muc": "Open questions",
+   "noi_dung": "- Bản PDF Công báo số 783 + 784 (`113-2017-nd-cp.pdf`) kết thúc ở STT 217 Phụ lục II và ghi *(Xem tiếp Công báo số 785 + 786)* cho các Phụ lục III–VI. Do NĐ 113/2017/NĐ-CP đã hết hiệu lực từ 17/01/2026, việc tra cứu danh mục hóa chất hiện hành ưu tiên đối chiếu trực tiếp sang `24/2026/NĐ-CP`.",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "113/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-11-25",
+     "het_hieu_luc_tu": "2026-01-17",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "26/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [
+      "33/2024/NĐ-CP"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-113-2017-nd-cp-24884/19507.htm"
+    },
+    {
+     "so_hieu": "24/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-17",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216671"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "113-2017-nd-cp#11",
+   "slug": "113-2017-nd-cp",
+   "duong_dan": "wiki/sources/113-2017-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 113/2017/NĐ-CP — Quy định chi tiết Luật Hóa chất (ĐÃ HẾT HIỆU LỰC từ 17/01/2026, thay bởi NĐ 26/2026)",
+   "muc": "Notes",
+   "noi_dung": "- Đã đọc toàn văn phần quy phạm (Điều 1–40, trang PDF 2–38), Phụ lục I và Phụ lục II (trang PDF 39–84) từ PDF Công báo số 783 + 784 ngày 19/10/2017 (`raw/download/congbaocdn.chinhphu.vn/113-2017-nd-cp.pdf`, SHA-256 `49398f8816c34ff0d8fe7e59268b8c9d1935fd78e6076382b6f69732cc546129`).\n- Đã trích xuất 10 mục điều khoản nguyên văn vào `xac_minh.dieu_khoan` trong `registry/van-ban/113-2017-nd-cp.yaml`.",
+   "tags": [
+    "nghi-dinh",
+    "bct",
+    "hoa-chat",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -35963,16 +36340,233 @@
    "slug": "114-2025-qh15",
    "duong_dan": "wiki/sources/114-2025-qh15.md",
    "loai_trang": "sources",
-   "tieu_de": "Luật Phòng bệnh",
+   "tieu_de": "Luật Phòng bệnh 114/2025/QH15 — Luật gốc về phòng bệnh và kiểm dịch y tế biên giới từ 01/07/2026",
    "muc": "Summary",
-   "noi_dung": "**Stub page** — Luật Phòng bệnh (114/2025/QH15) ban hành , có hiệu lực từ 2026-07-01, **đang còn hiệu lực**.\n\n> **Lưu ý**: Wiki tạm thời — chưa có toàn văn PDF. Cần tải về để đọc kỹ. Có thể dùng:\n> - `node tools/nap.mjs \"<url>\" --so-hieu \"114/2025/QH15\"`\n> - Tải từ datafiles.chinhphu.vn hoặc congbaocdn.chinhphu.vn\n\n**Cơ quan ban hành**: Quốc hội",
+   "noi_dung": "**Luật Phòng bệnh số 114/2025/QH15** do Quốc hội khóa XV, Kỳ họp thứ 10 thông qua ngày **10/12/2025** (Chủ tịch Quốc hội Trần Thanh Mẫn ký chứng thực), có hiệu lực thi hành từ ngày **01/07/2026**, thay thế toàn bộ **Luật Phòng, chống bệnh truyền nhiễm số `03-2007-qh12`** (cùng các luật sửa đổi `15-2008-qh12` và `35-2018-qh14`).\n\nLuật gồm **06 chương, 46 điều** (27 trang Công báo số 36 ngày 21/01/2026), thiết lập khuôn khổ pháp lý toàn diện về phòng, chống bệnh truyền nhiễm, bệnh không lây nhiễm, rối loạn tâm thần, dinh dưỡng và Quỹ Phòng bệnh. Trong lĩnh vực hải quan và xuất nhập khẩu, **Điều 20** quy định nền tảng pháp lý về **kiểm dịch y tế tại cửa khẩu** đối với người, phương tiện vận chuyển, hàng hóa xuất khẩu, nhập khẩu, quá cảnh và mẫu bệnh phẩm/mô/bộ phận cơ thể người (được Chính phủ quy định chi tiết tại `165/2026/NĐ-CP`), đồng thời **Điều 43 khoản 4 điểm c** kế thừa nghĩa vụ đóng góp bắt buộc **2% trên giá tính thuế tiêu thụ đặc biệt của cơ sở sản xuất, nhập khẩu thuốc lá**. **Hiện đang còn hiệu lực** (`CON_HIEU_LUC`).",
    "tags": [
-    "stub",
+    "luat",
+    "qh",
+    "kiem-dich",
     "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
+    "byt",
+    "con-hieu-luc"
    ],
-   "confidence": "low",
+   "confidence": "high",
    "van_ban_lien_quan": [
+    {
+     "so_hieu": "114/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-114-2025-qh15-468676.htm"
+    },
+    {
+     "so_hieu": "165/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=218169"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "114-2025-qh15#2",
+   "slug": "114-2025-qh15",
+   "duong_dan": "wiki/sources/114-2025-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "Luật Phòng bệnh 114/2025/QH15 — Luật gốc về phòng bệnh và kiểm dịch y tế biên giới từ 01/07/2026",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 10/12/2025 | Quốc hội khóa XV thông qua **Luật Phòng bệnh số 114/2025/QH15** tại Kỳ họp thứ 10 |\n| 21/01/2026 | Đăng Công báo số 36 (trang 38–64) |\n| **01/07/2026** | **Có hiệu lực thi hành** (Điều 45 khoản 1); đồng thời Luật Phòng, chống bệnh truyền nhiễm `03-2007-qh12` hết hiệu lực |\n| 01/07/2026 | Nghị định `165/2026/NĐ-CP` (ban hành 15/05/2026) quy định chi tiết thi hành Luật Phòng bệnh có hiệu lực đồng bộ |\n| Hiện tại | **Đang còn hiệu lực** (`CON_HIEU_LUC`) |",
+   "tags": [
+    "luat",
+    "qh",
+    "kiem-dich",
+    "kiem-tra-chuyen-nganh",
+    "byt",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "114/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-114-2025-qh15-468676.htm"
+    },
+    {
+     "so_hieu": "165/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=218169"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "114-2025-qh15#3",
+   "slug": "114-2025-qh15",
+   "duong_dan": "wiki/sources/114-2025-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "Luật Phòng bệnh 114/2025/QH15 — Luật gốc về phòng bệnh và kiểm dịch y tế biên giới từ 01/07/2026",
+   "muc": "Cấu trúc (06 chương, 46 điều)",
+   "noi_dung": "| Chương | Nội dung | Điều |\n|---|---|---|\n| **Chương I** | Những quy định chung (phạm vi điều chỉnh, giải thích từ ngữ, chính sách, nguyên tắc, quản lý nhà nước, hành vi bị nghiêm cấm, thông tin truyền thông, hợp tác quốc tế, giám sát trong phòng bệnh) | Điều 1 – 14 |\n| **Chương II** | Phòng, chống bệnh truyền nhiễm (phân loại bệnh nhóm A/B/C và cấp độ dịch, biện pháp phòng chống, cách ly y tế, **kiểm dịch y tế tại cửa khẩu**, sử dụng vắc xin/sinh phẩm, tiêm chủng, an toàn/an ninh sinh học trong xét nghiệm) | Điều 15 – 26 |\n| **Chương III** | Phòng, chống bệnh không lây nhiễm và rối loạn tâm thần (khám sức khỏe định kỳ/sàng lọc miễn phí, phòng chống bệnh không lây nhiễm và rối loạn tâm thần) | Điều 27 – 33 |\n| **Chương IV** | Dinh dưỡng trong phòng bệnh (theo nhóm đối tượng độ tuổi, phụ nữ có thai, bà mẹ cho con bú, người cao tuổi) | Điều 34 – 37 |\n| **Chương V** | Điều kiện bảo đảm để phòng bệnh (nghiên cứu, chế độ nhân lực, nguồn kinh phí, **dự trữ quốc gia thuốc/hóa chất/thiết bị y tế** và **Quỹ phòng bệnh**) | Điều 38 – 43 |\n| **Chương VI** | Điều khoản thi hành (sửa đổi Luật Bảo hiểm y tế, bãi bỏ Điều 28–30 Luật PCTH thuốc lá, sửa thuật ngữ tại Luật Dược, hiệu lực thi hành và chuyển tiếp) | Điều 44 – 46 |",
+   "tags": [
+    "luat",
+    "qh",
+    "kiem-dich",
+    "kiem-tra-chuyen-nganh",
+    "byt",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "114-2025-qh15#4",
+   "slug": "114-2025-qh15",
+   "duong_dan": "wiki/sources/114-2025-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "Luật Phòng bệnh 114/2025/QH15 — Luật gốc về phòng bệnh và kiểm dịch y tế biên giới từ 01/07/2026",
+   "muc": "Nội dung trọng tâm đối với Hải quan, Kiểm dịch y tế và XNK > 1. Kiểm dịch y tế tại cửa khẩu đối với hàng hóa, phương tiện và mẫu bệnh phẩm XNK (Điều 20)",
+   "noi_dung": "- **Đối tượng phải kiểm dịch y tế tại cửa khẩu (khoản 1 Điều 20):**\n  - Người nhập cảnh, xuất cảnh, quá cảnh Việt Nam;\n  - Phương tiện vận chuyển nhập cảnh, xuất cảnh, quá cảnh Việt Nam;\n  - **Hàng hóa nhập khẩu, xuất khẩu, quá cảnh Việt Nam**;\n  - **Thi thể, hài cốt, tro cốt, mẫu bệnh phẩm, mô, bộ phận cơ thể người** vận chuyển qua biên giới Việt Nam.\n- **05 nội dung kiểm dịch y tế (khoản 2 Điều 20):**\n  1. Thu thập thông tin đối tượng phải kiểm dịch y tế và tình hình dịch bệnh trên thế giới;\n  2. **Khai báo y tế**;\n  3. Quan sát y tế trực tiếp và gián tiếp;\n  4. **Kiểm tra y tế** (kiểm tra giấy tờ/thông tin liên quan đến y tế và kiểm tra thực tế khi xuất phát/đi qua vùng có dịch bệnh nhóm A hoặc nhóm B phải cách ly, hoặc có dấu hiệu mang tác nhân/trung gian truyền bệnh);\n  5. **Xử lý y tế** tại cửa khẩu khi phát hiện đối tượng mắc/nghi mắc hoặc mang tác nhân gây bệnh truyền nhiễm thuộc nhóm A hoặc một số bệnh nhóm B phải cách ly.\n- **Trách nhiệm thực hiện và phối hợp (khoản 3 Điều 20):** Chủ phương tiện hoặc người quản lý hàng hóa, thi thể, hài cốt, mẫu bệnh phẩm phải thực hiện khai báo y tế, chấp hành thu thập thông tin, quan sát, kiểm tra, xử lý y tế và thanh toán chi phí theo giá dịch vụ kiểm dịch y tế; tổ chức kiểm dịch y tế cấp giấy chứng nhận trong kiểm dịch y tế; các cơ quan chức năng tại cửa khẩu (bao gồm Hải quan) phối hợp thực hiện. Chính phủ quy định chi tiết nội dung này tại `165/2026/NĐ-CP`.",
+   "tags": [
+    "luat",
+    "qh",
+    "kiem-dich",
+    "kiem-tra-chuyen-nganh",
+    "byt",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "165/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=218169"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "114-2025-qh15#5",
+   "slug": "114-2025-qh15",
+   "duong_dan": "wiki/sources/114-2025-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "Luật Phòng bệnh 114/2025/QH15 — Luật gốc về phòng bệnh và kiểm dịch y tế biên giới từ 01/07/2026",
+   "muc": "Nội dung trọng tâm đối với Hải quan, Kiểm dịch y tế và XNK > 2. Khoản đóng góp 2% trên giá tính thuế TTĐB thuốc lá nhập khẩu và sửa đổi Luật Dược (Điều 43 & Điều 44)",
+   "noi_dung": "- **Quỹ phòng bệnh — nguồn thu từ nhập khẩu thuốc lá (điểm c khoản 4 Điều 43 và khoản 2 Điều 44):** Từ ngày 01/07/2026, Luật bãi bỏ các Điều 28, 29 và 30 của Luật Phòng, chống tác hại của thuốc lá (`09-2012-qh13`) và chuyển toàn bộ kinh phí kết dư Quỹ PCTH thuốc lá sang **Quỹ phòng bệnh**; đồng thời quy định nguồn hình thành Quỹ gồm **khoản đóng góp bắt buộc 2% trên giá tính thuế tiêu thụ đặc biệt của cơ sở sản xuất, nhập khẩu thuốc lá**.\n- **Dự trữ quốc gia phòng, chống dịch bệnh (Điều 42):** Nhà nước thực hiện dự trữ quốc gia về thuốc, hóa chất, thiết bị y tế để phòng, chống dịch bệnh theo pháp luật về dự trữ quốc gia.\n- **Đồng bộ thuật ngữ với [[sources/105-2016-qh13|Luật Dược 105/2016/QH13]] (khoản 3 Điều 44):** Thay thế cụm từ *\"công bố dịch theo quy định của pháp luật về phòng, chống bệnh truyền nhiễm\"* bằng *\"thông tin dịch bệnh theo quy định của pháp luật về phòng bệnh\"* tại nhiều điều khoản của Luật Dược, bao gồm **điểm b khoản 3 và khoản 5b Điều 60** (về cấp phép nhập khẩu thuốc trong tình huống dịch bệnh).",
+   "tags": [
+    "luat",
+    "qh",
+    "kiem-dich",
+    "kiem-tra-chuyen-nganh",
+    "byt",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "105/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "114-2025-qh15#6",
+   "slug": "114-2025-qh15",
+   "duong_dan": "wiki/sources/114-2025-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "Luật Phòng bệnh 114/2025/QH15 — Luật gốc về phòng bệnh và kiểm dịch y tế biên giới từ 01/07/2026",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/kiem-tra-chuyen-nganh]]\n- [[concepts/thu-tuc-hai-quan-xnk]]\n- [[concepts/thu-tuc-tai-cua-khau-nhap]]\n- [[concepts/nhap-khau-thuoc-la]]",
+   "tags": [
+    "luat",
+    "qh",
+    "kiem-dich",
+    "kiem-tra-chuyen-nganh",
+    "byt",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "114-2025-qh15#7",
+   "slug": "114-2025-qh15",
+   "duong_dan": "wiki/sources/114-2025-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "Luật Phòng bệnh 114/2025/QH15 — Luật gốc về phòng bệnh và kiểm dịch y tế biên giới từ 01/07/2026",
+   "muc": "Related sources",
+   "noi_dung": "- `165/2026/NĐ-CP` (Nghị định quy định chi tiết và hướng dẫn thi hành Luật Phòng bệnh về kiểm dịch y tế biên giới đối với hàng hóa XNK, quá cảnh từ 01/07/2026 — chưa có wiki)\n- [[sources/89-2018-nd-cp]] (Nghị định 89/2018/NĐ-CP hướng dẫn thi hành Luật Phòng, chống bệnh truyền nhiễm trước đây về kiểm dịch y tế biên giới — cần rà soát hiệu lực chuyển tiếp sau 01/07/2026 so với `165/2026/NĐ-CP`)\n- [[sources/105-2016-qh13]] (Luật Dược 105/2016/QH13 — được sửa đổi thuật ngữ về thông tin dịch bệnh tại khoản 3 Điều 44 Luật 114/2025/QH15)\n- [[sources/76-vbhn-vpqh]] (Văn bản hợp nhất Luật Dược ban hành ngày 25/03/2026, đã tích hợp nội dung sửa đổi của Luật 114/2025/QH15)",
+   "tags": [
+    "luat",
+    "qh",
+    "kiem-dich",
+    "kiem-tra-chuyen-nganh",
+    "byt",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "165/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=218169"
+    },
+    {
+     "so_hieu": "89/2018/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-08-10",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=194022&pageid=27160"
+    },
+    {
+     "so_hieu": "105/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+    },
     {
      "so_hieu": "114/2025/QH15",
      "tinh_trang": "CON_HIEU_LUC",
@@ -35987,121 +36581,53 @@
    "canh_bao_hieu_luc": false
   },
   {
-   "chunk_id": "114-2025-qh15#2",
-   "slug": "114-2025-qh15",
-   "duong_dan": "wiki/sources/114-2025-qh15.md",
-   "loai_trang": "sources",
-   "tieu_de": "Luật Phòng bệnh",
-   "muc": "Tình trạng hiệu lực",
-   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n|  | Quốc hội ban hành |\n| 2026-07-01 | Có hiệu lực |\n| Đang hiệu lực | |",
-   "tags": [
-    "stub",
-    "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
-   ],
-   "confidence": "low",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "114-2025-qh15#3",
-   "slug": "114-2025-qh15",
-   "duong_dan": "wiki/sources/114-2025-qh15.md",
-   "loai_trang": "sources",
-   "tieu_de": "Luật Phòng bệnh",
-   "muc": "Căn cứ pháp lý (theo registry)",
-   "noi_dung": "- Căn cứ vào các luật/nghị định chuyên ngành",
-   "tags": [
-    "stub",
-    "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
-   ],
-   "confidence": "low",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "114-2025-qh15#4",
-   "slug": "114-2025-qh15",
-   "duong_dan": "wiki/sources/114-2025-qh15.md",
-   "loai_trang": "sources",
-   "tieu_de": "Luật Phòng bệnh",
-   "muc": "Quy trình HQ (cần đọc toàn văn để xác nhận)",
-   "noi_dung": "1. Xác định hàng thuộc phạm vi KTCL\n2. Tra mã HS\n3. Nộp hồ sơ KTCL tại Quốc hội\n4. Cấp Giấy chứng nhận\n5. Khai báo HQ\n6. Thông quan",
-   "tags": [
-    "stub",
-    "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
-   ],
-   "confidence": "low",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "114-2025-qh15#5",
-   "slug": "114-2025-qh15",
-   "duong_dan": "wiki/sources/114-2025-qh15.md",
-   "loai_trang": "sources",
-   "tieu_de": "Luật Phòng bệnh",
-   "muc": "Related concepts (chưa có wiki)",
-   "noi_dung": "- kiem-tra-chuyen-nganh\n- các concept liên quan",
-   "tags": [
-    "stub",
-    "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
-   ],
-   "confidence": "low",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "114-2025-qh15#6",
-   "slug": "114-2025-qh15",
-   "duong_dan": "wiki/sources/114-2025-qh15.md",
-   "loai_trang": "sources",
-   "tieu_de": "Luật Phòng bệnh",
-   "muc": "Related sources",
-   "noi_dung": "- Cần xác minh với VB liên quan",
-   "tags": [
-    "stub",
-    "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
-   ],
-   "confidence": "low",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "114-2025-qh15#7",
-   "slug": "114-2025-qh15",
-   "duong_dan": "wiki/sources/114-2025-qh15.md",
-   "loai_trang": "sources",
-   "tieu_de": "Luật Phòng bệnh",
-   "muc": "Open questions",
-   "noi_dung": "- Cần tải toàn văn từ nguồn nào?\n- Phạm vi KTCL cụ thể?\n- Có mã HS cụ thể không?",
-   "tags": [
-    "stub",
-    "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
-   ],
-   "confidence": "low",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
    "chunk_id": "114-2025-qh15#8",
    "slug": "114-2025-qh15",
    "duong_dan": "wiki/sources/114-2025-qh15.md",
    "loai_trang": "sources",
-   "tieu_de": "Luật Phòng bệnh",
-   "muc": "Notes",
-   "noi_dung": "- VB chưa được tải toàn văn — stub\n- Cần tải bằng `node tools/nap.mjs` hoặc script Python tương tự\n- Ưu tiên: tải từ Công báo (bậc A) hoặc datafiles.chinhphu.vn\n- 0 mã HS trích dẫn trong biểu thuế",
+   "tieu_de": "Luật Phòng bệnh 114/2025/QH15 — Luật gốc về phòng bệnh và kiểm dịch y tế biên giới từ 01/07/2026",
+   "muc": "Open questions",
+   "noi_dung": "- Cần đối chiếu đầy đủ phạm vi chuyển tiếp hoặc bãi bỏ giữa `165/2026/NĐ-CP` (ban hành 15/05/2026) với [[sources/89-2018-nd-cp]] để xác định chính xác từng điều khoản kiểm dịch y tế biên giới đối với hàng hóa sau ngày 01/07/2026.",
    "tags": [
-    "stub",
+    "luat",
+    "qh",
+    "kiem-dich",
     "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
+    "byt",
+    "con-hieu-luc"
    ],
-   "confidence": "low",
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "165/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=218169"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "114-2025-qh15#9",
+   "slug": "114-2025-qh15",
+   "duong_dan": "wiki/sources/114-2025-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "Luật Phòng bệnh 114/2025/QH15 — Luật gốc về phòng bệnh và kiểm dịch y tế biên giới từ 01/07/2026",
+   "muc": "Notes",
+   "noi_dung": "- Đã tải và đọc toàn văn bản PDF Công báo số 36 ngày 21/01/2026 có lớp chữ sạch (`raw/download/congbaocdn.chinhphu.vn/114-2025-qh15.pdf`, 27 trang, SHA-256 `b8e1ab9a89892502a04af16145da1b932876f63b49f13a364d352edd13ba4366`).\n- Đã trích xuất 12 điều khoản nguyên văn (bao gồm `Điều 20` Kiểm dịch y tế và `Điều 45` Hiệu lực thi hành) vào `xac_minh.dieu_khoan` trong `registry/van-ban/114-2025-qh15.yaml`.",
+   "tags": [
+    "luat",
+    "qh",
+    "kiem-dich",
+    "kiem-tra-chuyen-nganh",
+    "byt",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -38858,15 +39384,81 @@
    "slug": "1182-qd-bct-2021",
    "duong_dan": "wiki/sources/1182-qd-bct-2021.md",
    "loai_trang": "sources",
-   "tieu_de": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+   "tieu_de": "QĐ 1182/QĐ-BCT (2021) — Danh mục mặt hàng nhập khẩu kiểm tra chuyên ngành của BCT (hết hiệu lực một phần)",
    "muc": "Summary",
-   "noi_dung": "**Stub page** — Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương (1182/QĐ-BCT) ban hành 2021-04-06, có hiệu lực từ 2021-04-06, **hết hiệu lực từ ** theo tinh_trang trong registry.\n\n> **Lưu ý**: Theo rule của Sếp Thắng, VB bị bãi bỏ / hết hiệu lực chỉ tạo stub ngắn (metadata + quan hệ), KHÔNG nạp toàn văn PDF. Wiki này ghi nhận lịch sử.\n\n**Bãi bỏ / thay thế bởi**: Bị thay thế bởi 2711-tt-bkhcn (BKHCN)\n\n**Cơ quan ban hành**: Bộ Công Thương",
+   "noi_dung": "**Quyết định 1182/QĐ-BCT** do Bộ trưởng Bộ Công Thương Trần Tuấn Anh ký ban hành ngày **06/04/2021** và có hiệu lực kể từ ngày ký (**06/04/2021**), thay thế Quyết định `1325a-qd-bct-2019` ngày 20/05/2019, ban hành **Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương** gồm **04 điều** và **03 Phụ lục** (Phụ lục 1, 2 và 3).\n\nHiện văn bản đang ở trạng thái **hết hiệu lực một phần** (`HET_HIEU_LUC_MOT_PHAN`):\n- **Phụ lục 1** (kiểm tra chất lượng sản phẩm, hàng hóa nhóm 2 thuộc BCT — **148 dòng / 141 mã HS** thuộc các Chương 31, 36, 73, 84, 85, 94 trong `danh-muc/1182-qd-bct-2021.csv`): **vẫn còn hiệu lực** trong sổ do [[sources/33-2026-tt-bct|Thông tư 33/2026/TT-BCT]] chưa có điều khoản bãi bỏ tường minh đối với Phụ lục 1 QĐ 1182/QĐ-BCT;\n- **Phụ lục 2** (kiểm tra nhà nước về an toàn thực phẩm — cùng khoản 1 Điều 2): **đã hết hiệu lực từ ngày 17/07/2026** theo khoản 2 Điều 4 [[sources/28-2026-tt-bct|Thông tư 28/2026/TT-BCT]];\n- **Phụ lục 3** (kiểm tra hiệu suất năng lượng — thường được dẫn là Phụ lục II): **đã bị thay thế từ ngày 01/07/2024** theo khoản 2 Điều 3 [[sources/1725-qd-bct-2024|Quyết định 1725/QĐ-BCT]].",
    "tags": [
-    "stub",
+    "quyet-dinh",
+    "bct",
     "kiem-tra-chuyen-nganh",
-    "het-hieu-luc"
+    "ma-hs",
+    "het-hieu-luc-mot-phan"
    ],
-   "confidence": "medium",
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "1182/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2021-04-06",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "1725/QĐ-BCT"
+     ],
+     "bi_bai_bo_boi": [
+      "28/2026/TT-BCT"
+     ],
+     "nguon_a": "https://moit.gov.vn/van-ban-phap-luat/van-ban-dieu-hanh/quyet-dinh-ve-viec-ban-hanh-danh-muc-cac-mat-hang-nhap-khau-.html"
+    },
+    {
+     "so_hieu": "33/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=218710&pageid=27160"
+    },
+    {
+     "so_hieu": "28/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-17",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=218330&pageid=27160"
+    },
+    {
+     "so_hieu": "1725/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/van-ban-phap-luat/van-ban-phap-quy/quyet-dinh-ve-viec-ban-hanh-danh-muc-cac-mat-hang-kiem-tra-hieu-suat-nang-luong-va-dan-nhan-nang-luong-thuoc-trach-nhiem.html"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "1182-qd-bct-2021#2",
+   "slug": "1182-qd-bct-2021",
+   "duong_dan": "wiki/sources/1182-qd-bct-2021.md",
+   "loai_trang": "sources",
+   "tieu_de": "QĐ 1182/QĐ-BCT (2021) — Danh mục mặt hàng nhập khẩu kiểm tra chuyên ngành của BCT (hết hiệu lực một phần)",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 06/04/2021 | Bộ Công Thương ban hành **Quyết định 1182/QĐ-BCT** và **có hiệu lực ngay từ ngày ký** (khoản 1 Điều 3); thay thế Quyết định `1325a-qd-bct-2019` |\n| **01/07/2024** | Phần **hiệu suất năng lượng** (Phụ lục 3 / Phụ lục II) bị thay thế bởi [[sources/1725-qd-bct-2024]] (Điều 3 khoản 2) |\n| **17/07/2026** | **Khoản 1 Điều 2 và Phụ lục 2** (danh mục kiểm tra nhà nước về an toàn thực phẩm) hết hiệu lực thi hành theo khoản 2 Điều 4 [[sources/28-2026-tt-bct]] |\n| Hiện tại | **Hết hiệu lực một phần** (`HET_HIEU_LUC_MOT_PHAN`) — **Phụ lục 1** (chất lượng sản phẩm, hàng hóa công nghiệp nhóm 2) vẫn chưa bị bãi bỏ tường minh; cần đối chiếu song song [[sources/33-2026-tt-bct]] và [[sources/37-2026-nd-cp]] |",
+   "tags": [
+    "quyet-dinh",
+    "bct",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "het-hieu-luc-mot-phan"
+   ],
+   "confidence": "high",
    "van_ban_lien_quan": [
     {
      "so_hieu": "1182/QĐ-BCT",
@@ -38886,36 +39478,21 @@
    "canh_bao_hieu_luc": false
   },
   {
-   "chunk_id": "1182-qd-bct-2021#2",
-   "slug": "1182-qd-bct-2021",
-   "duong_dan": "wiki/sources/1182-qd-bct-2021.md",
-   "loai_trang": "sources",
-   "tieu_de": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
-   "muc": "Tình trạng hiệu lực",
-   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 2021-04-06 | Bộ Công Thương ban hành |\n| 2021-04-06 | Có hiệu lực |\n|  | **Hết hiệu lực** |",
-   "tags": [
-    "stub",
-    "kiem-tra-chuyen-nganh",
-    "het-hieu-luc"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
    "chunk_id": "1182-qd-bct-2021#3",
    "slug": "1182-qd-bct-2021",
    "duong_dan": "wiki/sources/1182-qd-bct-2021.md",
    "loai_trang": "sources",
-   "tieu_de": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
-   "muc": "Căn cứ pháp lý (nếu có)",
-   "noi_dung": "- Cần đối chiếu với VB thay thế / bãi bỏ\n- Có thể tham chiếu ở các concept/wiki source liên quan",
+   "tieu_de": "QĐ 1182/QĐ-BCT (2021) — Danh mục mặt hàng nhập khẩu kiểm tra chuyên ngành của BCT (hết hiệu lực một phần)",
+   "muc": "Cấu trúc & Phân công đầu mối thực hiện (04 điều & 03 Phụ lục)",
+   "noi_dung": "| Điều / Phụ lục | Nội dung | Trạng thái từng phần |\n|---|---|---|\n| **Điều 1** | Ban hành Danh mục các mặt hàng nhập khẩu (kèm mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương tại Phụ lục 1, 2 và 3 | Hiệu lực từng phần theo từng Phụ lục |\n| **Điều 2 khoản 1** | Giao Vụ Khoa học và Công nghệ rà soát, cập nhật danh mục KTCN và giải đáp vướng mắc đối với **Phụ lục 2** (ATTP) | **Hết hiệu lực từ 17/07/2026** theo khoản 2 Điều 4 [[sources/28-2026-tt-bct]] |\n| **Điều 2 khoản 2** | Giao **Cục Kỹ thuật an toàn và Môi trường công nghiệp**, **Cục Hóa chất** hướng dẫn, giải đáp vướng mắc hoạt động KTCN đối với **Phụ lục 1** | Còn hiệu lực (gắn với Phụ lục 1) |\n| **Điều 2 khoản 3** | Giao Vụ Tiết kiệm năng lượng và Phát triển bền vững hướng dẫn hoạt động KTCN đối với **Phụ lục 3** (hiệu suất năng lượng) | Đã bị thay thế bởi [[sources/1725-qd-bct-2024]] từ 01/07/2024 |\n| **Điều 3** | Hiệu lực từ ngày ký (06/04/2021); thay thế `1325a-qd-bct-2019`; dẫn chiếu tự động sang VBQPPL mới khi văn bản được dẫn chiếu thay đổi, bổ sung (khoản 3) | Còn hiệu lực |\n| **Điều 4** | Trách nhiệm thi hành của Chánh Văn phòng Bộ, các Vụ, Cục liên quan và tổ chức, cá nhân | Còn hiệu lực |\n| **Phụ lục 1** | Danh mục kiểm tra chất lượng hàng hóa nhóm 2 thuộc BCT (**148 dòng / 141 mã HS** tại `danh-muc/1182-qd-bct-2021.csv`) | Còn hiệu lực theo sổ (`HET_HIEU_LUC_MOT_PHAN`) |\n| **Phụ lục 2** | Danh mục kiểm tra nhà nước về an toàn thực phẩm thuộc BCT | **Hết hiệu lực từ 17/07/2026** (thay bằng [[sources/28-2026-tt-bct]]) |\n| **Phụ lục 3** | Danh mục phương tiện, thiết bị kiểm tra hiệu suất năng lượng tối thiểu | **Bị thay thế từ 01/07/2024** (thay bằng [[sources/1725-qd-bct-2024]]) |",
    "tags": [
-    "stub",
+    "quyet-dinh",
+    "bct",
     "kiem-tra-chuyen-nganh",
-    "het-hieu-luc"
+    "ma-hs",
+    "het-hieu-luc-mot-phan"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -38924,16 +39501,33 @@
    "slug": "1182-qd-bct-2021",
    "duong_dan": "wiki/sources/1182-qd-bct-2021.md",
    "loai_trang": "sources",
-   "tieu_de": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
-   "muc": "Related concepts (chưa có wiki)",
-   "noi_dung": "- kiem-tra-chuyen-nganh (cần tạo concept)\n- các concept liên quan đến lĩnh vực của VB",
+   "tieu_de": "QĐ 1182/QĐ-BCT (2021) — Danh mục mặt hàng nhập khẩu kiểm tra chuyên ngành của BCT (hết hiệu lực một phần)",
+   "muc": "Chi tiết nhóm hàng hóa còn hiệu lực tại Phụ lục 1 (trích `danh-muc/1182-qd-bct-2021.csv`)",
+   "noi_dung": "Theo dữ liệu đã trích xuất tại `danh-muc/1182-qd-bct-2021.csv`, **Phụ lục 1** gồm **148 dòng / 141 mã HS** tập trung vào sản phẩm công nghiệp có khả năng gây mất an toàn (vật liệu nổ công nghiệp, tiền chất thuốc nổ, thiết bị áp lực, thiết bị phòng nổ dùng trong mỏ/công nghiệp):\n- **Chương 31 (2 dòng):** Amoni nitrat (`3102.30.00`) dùng sản xuất thuốc nổ nhũ tương / ANFO;\n- **Chương 36 (8 dòng):** Thuốc nổ nhũ tương, thuốc nổ amonit AD1, kíp nổ điện/đốt, dây cháy chậm, dây nổ, mồi nổ (nhóm `36.02`, `36.03`);\n- **Chương 73 (11 dòng):** Đường ống dẫn hơi/nước nóng, cột chống thủy lực đơn/giàn chống tự hành khai thác hầm lò, bình chịu áp lực, trạm nạp/cấp LPG;\n- **Chương 84 (18 dòng):** Nồi hơi công nghiệp, nồi đun nước nóng nhiệt độ môi chất trên 115°C, thiết bị trạm nạp/cấp LPG;\n- **Chương 85 (101 dòng):** Động cơ điện phòng nổ, máy phát điện phòng nổ, máy biến áp phòng nổ, thiết bị thông tin/đóng cắt/cáp điện phòng nổ;\n- **Chương 94 (8 dòng):** Đèn chiếu sáng phòng nổ.\n\n> **Lưu ý khi tra mã HS biểu thuế cũ:** Danh mục Phụ lục 1 ban hành năm 2021 dẫn chiếu theo Biểu thuế `65-2017-tt-btc` (2017) nên có 22 mã đã đổi hoặc không còn trong Biểu thuế hiện hành (ví dụ nhóm `3603.00.x`, `8517.12.00`, `8479.89.39/40`, một số mã `8501`, `8531`, `8536`, `8544`, `9405`). Theo khoản 3 Điều 3 QĐ 1182/QĐ-BCT, khi văn bản dẫn chiếu thay đổi thì áp dụng theo văn bản tương ứng mới ban hành.",
    "tags": [
-    "stub",
+    "quyet-dinh",
+    "bct",
     "kiem-tra-chuyen-nganh",
-    "het-hieu-luc"
+    "ma-hs",
+    "het-hieu-luc-mot-phan"
    ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "1182/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2021-04-06",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "1725/QĐ-BCT"
+     ],
+     "bi_bai_bo_boi": [
+      "28/2026/TT-BCT"
+     ],
+     "nguon_a": "https://moit.gov.vn/van-ban-phap-luat/van-ban-dieu-hanh/quyet-dinh-ve-viec-ban-hanh-danh-muc-cac-mat-hang-nhap-khau-.html"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -38941,15 +39535,17 @@
    "slug": "1182-qd-bct-2021",
    "duong_dan": "wiki/sources/1182-qd-bct-2021.md",
    "loai_trang": "sources",
-   "tieu_de": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
-   "muc": "Related sources (chưa có wiki)",
-   "noi_dung": "- Cần đối chiếu với các VB thay thế / bãi bỏ",
+   "tieu_de": "QĐ 1182/QĐ-BCT (2021) — Danh mục mặt hàng nhập khẩu kiểm tra chuyên ngành của BCT (hết hiệu lực một phần)",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/ktcl-bct-2026]]\n- [[concepts/kiem-tra-chuyen-nganh]]\n- [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]]\n- [[concepts/doc-tinh-trang-hieu-luc]]",
    "tags": [
-    "stub",
+    "quyet-dinh",
+    "bct",
     "kiem-tra-chuyen-nganh",
-    "het-hieu-luc"
+    "ma-hs",
+    "het-hieu-luc-mot-phan"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -38958,16 +39554,73 @@
    "slug": "1182-qd-bct-2021",
    "duong_dan": "wiki/sources/1182-qd-bct-2021.md",
    "loai_trang": "sources",
-   "tieu_de": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
-   "muc": "Open questions",
-   "noi_dung": "- VB nào thay thế hoàn toàn?\n- Có còn áp dụng phần nào không?",
+   "tieu_de": "QĐ 1182/QĐ-BCT (2021) — Danh mục mặt hàng nhập khẩu kiểm tra chuyên ngành của BCT (hết hiệu lực một phần)",
+   "muc": "Related sources",
+   "noi_dung": "- [[sources/28-2026-tt-bct]] (Thông tư 28/2026/TT-BCT — chấm dứt hiệu lực khoản 1 Điều 2 và Phụ lục 2 ATTP từ 17/07/2026)\n- [[sources/1725-qd-bct-2024]] (Quyết định 1725/QĐ-BCT — thay thế danh mục hiệu suất năng lượng từ 01/07/2024)\n- [[sources/33-2026-tt-bct]] (Thông tư 33/2026/TT-BCT — quy định mới của Bộ Công Thương về danh mục rủi ro trung bình/cao theo [[sources/37-2026-nd-cp]], không có điều khoản bãi bỏ Phụ lục 1 QĐ 1182/QĐ-BCT)\n- [[sources/37-2026-nd-cp]] (Nghị định 37/2026/NĐ-CP quy định quản lý chất lượng hàng hóa theo mức độ rủi ro từ 01/07/2026)",
    "tags": [
-    "stub",
+    "quyet-dinh",
+    "bct",
     "kiem-tra-chuyen-nganh",
-    "het-hieu-luc"
+    "ma-hs",
+    "het-hieu-luc-mot-phan"
    ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "28/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-17",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=218330&pageid=27160"
+    },
+    {
+     "so_hieu": "1725/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/van-ban-phap-luat/van-ban-phap-quy/quyet-dinh-ve-viec-ban-hanh-danh-muc-cac-mat-hang-kiem-tra-hieu-suat-nang-luong-va-dan-nhan-nang-luong-thuoc-trach-nhiem.html"
+    },
+    {
+     "so_hieu": "33/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=218710&pageid=27160"
+    },
+    {
+     "so_hieu": "1182/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2021-04-06",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "1725/QĐ-BCT"
+     ],
+     "bi_bai_bo_boi": [
+      "28/2026/TT-BCT"
+     ],
+     "nguon_a": "https://moit.gov.vn/van-ban-phap-luat/van-ban-dieu-hanh/quyet-dinh-ve-viec-ban-hanh-danh-muc-cac-mat-hang-nhap-khau-.html"
+    },
+    {
+     "so_hieu": "37/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-23",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=216764&pageid=27160"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -38975,15 +39628,51 @@
    "slug": "1182-qd-bct-2021",
    "duong_dan": "wiki/sources/1182-qd-bct-2021.md",
    "loai_trang": "sources",
-   "tieu_de": "Về việc ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
-   "muc": "Notes",
-   "noi_dung": "- VB đã hết hiệu lực — không nạp toàn văn (rule Sếp Thắng 2026-10-10)\n- Cần đối chiếu với VB thay thế để có thông tin đầy đủ\n- Lưu ý: Có thể có phần chuyển tiếp trong VB thay thế (Điều X \"Chuyển tiếp\")\n- Tham khảo: ~249 mã HS trong biểu thuế (nếu có)",
+   "tieu_de": "QĐ 1182/QĐ-BCT (2021) — Danh mục mặt hàng nhập khẩu kiểm tra chuyên ngành của BCT (hết hiệu lực một phần)",
+   "muc": "Open questions",
+   "noi_dung": "- Mặc dù khung [[sources/37-2026-nd-cp]] đã chuyển sang quản lý theo mức độ rủi ro từ 01/07/2026, [[sources/33-2026-tt-bct]] mới chỉ làm hết hiệu lực Thông tư `41-2023-tt-bct` và chưa bãi bỏ tường minh Phụ lục 1 Quyết định 1182/QĐ-BCT; cần theo dõi quyết định công bố/bãi bỏ tiếp theo của Bộ Công Thương.",
    "tags": [
-    "stub",
+    "quyet-dinh",
+    "bct",
     "kiem-tra-chuyen-nganh",
-    "het-hieu-luc"
+    "ma-hs",
+    "het-hieu-luc-mot-phan"
    ],
-   "confidence": "medium",
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "1182/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2021-04-06",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "1725/QĐ-BCT"
+     ],
+     "bi_bai_bo_boi": [
+      "28/2026/TT-BCT"
+     ],
+     "nguon_a": "https://moit.gov.vn/van-ban-phap-luat/van-ban-dieu-hanh/quyet-dinh-ve-viec-ban-hanh-danh-muc-cac-mat-hang-nhap-khau-.html"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "1182-qd-bct-2021#8",
+   "slug": "1182-qd-bct-2021",
+   "duong_dan": "wiki/sources/1182-qd-bct-2021.md",
+   "loai_trang": "sources",
+   "tieu_de": "QĐ 1182/QĐ-BCT (2021) — Danh mục mặt hàng nhập khẩu kiểm tra chuyên ngành của BCT (hết hiệu lực một phần)",
+   "muc": "Notes",
+   "noi_dung": "- Đã OCR bản PDF gốc có dấu của Bộ Công Thương (`raw/download/moit.gov.vn/1182-qd-bct.pdf`, 40 trang, lớp chữ cũ bị lỗi font) thành `raw/ocr/1182-qd-bct-2021.ocr.txt` để đọc rõ toàn bộ Điều 1–4 (trang 1–3).\n- Đã trích xuất nguyên văn 04 điều (`Điều 1`–`Điều 4`) vào `xac_minh.dieu_khoan` trong `registry/van-ban/1182-qd-bct-2021.yaml`; bảng 148 dòng mã HS Phụ lục 1 lưu tại `danh-muc/1182-qd-bct-2021.csv`.",
+   "tags": [
+    "quyet-dinh",
+    "bct",
+    "kiem-tra-chuyen-nganh",
+    "ma-hs",
+    "het-hieu-luc-mot-phan"
+   ],
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -48688,15 +49377,327 @@
    "slug": "132-2008-nd-cp",
    "duong_dan": "wiki/sources/132-2008-nd-cp.md",
    "loai_trang": "sources",
-   "tieu_de": "Quy định chi tiết thi hành một số điều của Luật Chất lượng sản phẩm, hàng hoá",
-   "muc": "Summary",
-   "noi_dung": "**Stub page** — Quy định chi tiết thi hành một số điều của Luật Chất lượng sản phẩm, hàng hoá (132/2008/NĐ-CP) ban hành 2008-12-31, có hiệu lực từ , **hết hiệu lực từ 2026-07-01** theo tinh_trang trong registry.\n\n> **Lưu ý**: Theo rule của Sếp Thắng, VB bị bãi bỏ / hết hiệu lực chỉ tạo stub ngắn (metadata + quan hệ), KHÔNG nạp toàn văn PDF. Wiki này ghi nhận lịch sử.\n\n**Bãi bỏ / thay thế bởi**: 13-2022-nd-cp (sửa), 74-2018-nd-cp (sửa)\n\n**Cơ quan ban hành**: Chính phủ",
+   "tieu_de": "NĐ 132/2008/NĐ-CP — Quy định chi tiết Luật Chất lượng SP, HH (ĐÃ HẾT HIỆU LỰC từ 01/07/2026)",
+   "muc": "",
+   "noi_dung": "# ⚠️ VĂN BẢN ĐÃ HẾT HIỆU LỰC TỪ NGÀY 01/07/2026\n\n> **Lưu ý hiệu lực:** **Nghị định 132/2008/NĐ-CP** (cùng các nghị định sửa đổi là [[sources/74-2018-nd-cp|Nghị định 74/2018/NĐ-CP]], [[sources/13-2022-nd-cp|Nghị định 13/2022/NĐ-CP]] và Điều 4 [[sources/154-2018-nd-cp|Nghị định 154/2018/NĐ-CP]]) **đã bị BÃI BỎ toàn bộ kể từ ngày 01/07/2026** theo **Điều 97 khoản 2 điểm a [[sources/37-2026-nd-cp|Nghị định 37/2026/NĐ-CP]]**. Mọi quy định về phân loại rủi ro hàng hóa nhập khẩu (rủi ro thấp / trung bình / cao thay thế khái niệm \"nhóm 1 / nhóm 2\") từ ngày 01/07/2026 **phải áp dụng [[sources/37-2026-nd-cp|Nghị định 37/2026/NĐ-CP]]** và Luật Chất lượng sản phẩm, hàng hóa hợp nhất (`05/2007/QH12` sửa đổi bởi `78/2025/QH15`).",
    "tags": [
-    "stub",
+    "nghi-dinh",
+    "bkhcn",
+    "khung-chat-luong",
     "kiem-tra-chuyen-nganh",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "132/2008/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "37/2026/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=82467&pageid=27160"
+    },
+    {
+     "so_hieu": "74/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-07-01",
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "37/2026/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193720&pageid=27160"
+    },
+    {
+     "so_hieu": "13/2022/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "37/2026/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=205199&pageid=27160"
+    },
+    {
+     "so_hieu": "154/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "37/2026/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=195316&pageid=27160"
+    },
+    {
+     "so_hieu": "37/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-23",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=216764&pageid=27160"
+    },
+    {
+     "so_hieu": "05/2007/QH12",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2008-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=51259&pageid=27160"
+    },
+    {
+     "so_hieu": "78/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=214606&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "132-2008-nd-cp#2",
+   "slug": "132-2008-nd-cp",
+   "duong_dan": "wiki/sources/132-2008-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 132/2008/NĐ-CP — Quy định chi tiết Luật Chất lượng SP, HH (ĐÃ HẾT HIỆU LỰC từ 01/07/2026)",
+   "muc": "Summary",
+   "noi_dung": "**Nghị định 132/2008/NĐ-CP** do Thủ tướng Chính phủ Nguyễn Tấn Dũng ký ban hành ngày **31/12/2008**, có hiệu lực thi hành sau 15 ngày kể từ ngày đăng Công báo (bãi bỏ `179-2004-nd-cp`), quy định chi tiết thi hành một số điều của [[sources/05-2007-qh12|Luật Chất lượng sản phẩm, hàng hóa số 05/2007/QH12]].\n\nVăn bản gồm **06 chương, 38 điều**, thiết lập cơ chế phân định hàng hóa nhóm 2 có khả năng gây mất an toàn (Điều 3), điều kiện bảo đảm chất lượng và kiểm tra nhà nước đối với hàng hóa nhập khẩu, xuất khẩu, lưu thông trên thị trường (Chương II), tổ chức cơ quan kiểm tra và đánh giá sự phù hợp (Chương II–III), Giải thưởng Chất lượng Quốc gia (Chương IV) và phân công trách nhiệm quản lý nhà nước giữa Bộ Khoa học và Công nghệ với 14 bộ quản lý ngành, lĩnh vực (Chương V). **Hiện đã hết hiệu lực toàn bộ (`HET_HIEU_LUC`) từ ngày 01/07/2026**.",
+   "tags": [
+    "nghi-dinh",
+    "bkhcn",
+    "khung-chat-luong",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "132/2008/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "37/2026/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=82467&pageid=27160"
+    },
+    {
+     "so_hieu": "05/2007/QH12",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2008-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=51259&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "132-2008-nd-cp#3",
+   "slug": "132-2008-nd-cp",
+   "duong_dan": "wiki/sources/132-2008-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 132/2008/NĐ-CP — Quy định chi tiết Luật Chất lượng SP, HH (ĐÃ HẾT HIỆU LỰC từ 01/07/2026)",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 31/12/2008 | Chính phủ ban hành **Nghị định 132/2008/NĐ-CP** |\n| Đầu năm 2009 | Có hiệu lực thi hành sau 15 ngày kể từ ngày đăng Công báo; bãi bỏ `179-2004-nd-cp` (Điều 36) |\n| 2018 – 2022 | Được sửa đổi, bổ sung bởi [[sources/74-2018-nd-cp]], [[sources/154-2018-nd-cp]] (Điều 4) và [[sources/13-2022-nd-cp]] (các quy định này đều hết hiệu lực vào 01/07/2026 theo NĐ 37/2026/NĐ-CP) |\n| **01/07/2026** | **Bị bãi bỏ toàn bộ** theo Điều 97 khoản 2 điểm a [[sources/37-2026-nd-cp|Nghị định 37/2026/NĐ-CP]] |\n| Hiện tại | **Hết hiệu lực** (`HET_HIEU_LUC`) — thay thế bằng cơ chế quản lý theo mức độ rủi ro tại [[sources/37-2026-nd-cp]] |",
+   "tags": [
+    "nghi-dinh",
+    "bkhcn",
+    "khung-chat-luong",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "132/2008/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "37/2026/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=82467&pageid=27160"
+    },
+    {
+     "so_hieu": "37/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-23",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=216764&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "132-2008-nd-cp#4",
+   "slug": "132-2008-nd-cp",
+   "duong_dan": "wiki/sources/132-2008-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 132/2008/NĐ-CP — Quy định chi tiết Luật Chất lượng SP, HH (ĐÃ HẾT HIỆU LỰC từ 01/07/2026)",
+   "muc": "Cấu trúc (06 chương, 38 điều)",
+   "noi_dung": "| Chương | Nội dung | Điều |\n|---|---|---|\n| **Chương I** | Những quy định chung (phạm vi, đối tượng, tiêu chí xác định Danh mục sản phẩm, hàng hóa nhóm 2) | Điều 1 – 3 |\n| **Chương II** | Quản lý chất lượng sản phẩm, hàng hóa: trong sản xuất (Mục 1), **hàng hóa nhập khẩu (Mục 2)**, hàng hóa xuất khẩu (Mục 3), lưu thông trên thị trường (Mục 4), trong quá trình sử dụng (Mục 5) và đánh giá sự phù hợp (Mục 6) | Điều 4 – 19 |\n| **Chương III** | Tổ chức kiểm tra chất lượng sản phẩm, hàng hóa (cơ quan kiểm tra trung ương/địa phương, kiểm soát viên chất lượng, kinh phí) | Điều 20 – 23 |\n| **Chương IV** | Giải thưởng Chất lượng Quốc gia | Điều 24 – 30 |\n| **Chương V** | Trách nhiệm quản lý nhà nước (Bộ KH&CN, phân công chi tiết cho các Bộ quản lý ngành, UBND các cấp và cơ quan kiểm tra địa phương) | Điều 31 – 34 |\n| **Chương VI** | Điều khoản thi hành (chuyển tiếp TCVN/TCN chưa chuyển thành QCVN, hiệu lực, bãi bỏ `179-2004-nd-cp`) | Điều 35 – 38 |",
+   "tags": [
+    "nghi-dinh",
+    "bkhcn",
+    "khung-chat-luong",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "132-2008-nd-cp#5",
+   "slug": "132-2008-nd-cp",
+   "duong_dan": "wiki/sources/132-2008-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 132/2008/NĐ-CP — Quy định chi tiết Luật Chất lượng SP, HH (ĐÃ HẾT HIỆU LỰC từ 01/07/2026)",
+   "muc": "Nội dung trọng tâm về kiểm tra chất lượng hàng hóa XNK (giai đoạn trước 01/07/2026) > 1. Xác định hàng hóa nhóm 2 và quản lý chất lượng hàng hóa nhập khẩu (Điều 3, Điều 7, Điều 8)",
+   "noi_dung": "- **Tiêu chí xác định hàng hóa nhóm 2 (Điều 3):** Căn cứ vào khả năng gây mất an toàn (bản chất hóa học/vật lý/sinh học; kết cấu, nguyên lý hoạt động; quá trình vận chuyển, lưu giữ, bảo quản, sử dụng) và yêu cầu quản lý trong từng thời kỳ; Bộ quản lý ngành ban hành Danh mục nhóm 2 sau khi có ý kiến của Bộ KH&CN.\n- **Điều kiện đối với hàng hóa nhập khẩu (Điều 7):**\n  - Đáp ứng Điều 34 Luật Chất lượng sản phẩm, hàng hóa, bảo đảm an toàn và thể hiện thông tin cảnh báo nguy cơ gây mất an toàn.\n  - Đối với **hàng hóa nhóm 2 (khoản 2 Điều 7):** Phải công bố hợp quy, chứng nhận hợp quy theo quy chuẩn kỹ thuật tương ứng dựa trên một trong 04 căn cứ: tự đánh giá của người sản xuất/nhập khẩu; đánh giá của tổ chức đánh giá sự phù hợp; chứng nhận hợp quy theo QCVN; hoặc kết quả giám định tại cửa khẩu xuất/nhập của tổ chức được chỉ định/thừa nhận.\n  - **Hàng hóa từ khu chế xuất (khoản 5 Điều 7):** Hàng hóa do doanh nghiệp trong khu chế xuất sản xuất cho thị trường trong nước được quản lý chất lượng như đối với hàng hóa nhập khẩu.\n- **Kiểm tra nhà nước và thông quan hàng nhập khẩu (Điều 8):**\n  - Áp dụng đối với hàng hóa nhóm 2 hoặc hàng hóa khác khi có dấu hiệu, nguy cơ gây mất an toàn; trình tự theo Điều 35 Luật Chất lượng sản phẩm, hàng hóa.\n  - Nếu đạt yêu cầu, **cơ quan kiểm tra ra thông báo để cơ quan hải quan và người nhập khẩu làm thủ tục thông quan**; nếu không đạt, tùy mức độ có thể buộc tái xuất, tái chế hoặc tiêu hủy.",
+   "tags": [
+    "nghi-dinh",
+    "bkhcn",
+    "khung-chat-luong",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "132-2008-nd-cp#6",
+   "slug": "132-2008-nd-cp",
+   "duong_dan": "wiki/sources/132-2008-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 132/2008/NĐ-CP — Quy định chi tiết Luật Chất lượng SP, HH (ĐÃ HẾT HIỆU LỰC từ 01/07/2026)",
+   "muc": "Nội dung trọng tâm về kiểm tra chất lượng hàng hóa XNK (giai đoạn trước 01/07/2026) > 2. Hàng hóa xuất khẩu và phân công trách nhiệm quản lý giữa các Bộ (Điều 9–10, Điều 31–32)",
+   "noi_dung": "- **Hàng hóa xuất khẩu (Điều 9 – Điều 10):** Phải bảo đảm điều kiện chất lượng theo Điều 32 Luật Chất lượng SP, HH; khi hàng xuất khẩu bị nước nhập khẩu trả lại do không đạt chất lượng hoặc có vi phạm có thể ảnh hưởng nghiêm trọng đến uy tín hàng Việt Nam hoặc gây nguy hại trong nước thì cơ quan kiểm tra áp dụng kiểm tra và xử lý theo Điều 33 Luật Chất lượng SP, HH.\n- **Phân công quản lý ngành (Điều 32):** Phân công danh mục lĩnh vực quản lý chất lượng giữa Bộ Y tế, Bộ NN&PTNT, Bộ GTVT, Bộ Xây dựng, Bộ Công Thương, Bộ LĐTB&XH, Bộ TT&TT, Bộ TN&MT, Bộ GD&ĐT, Bộ Tài chính, Bộ VHTT&DL, NHNN, Bộ Quốc phòng, Bộ Công an và Bộ KH&CN (đây là khung phân công trước khi sắp xếp bộ máy năm 2025–2026 và trước khi chuyển sang khung phân loại rủi ro tại [[sources/37-2026-nd-cp]]).",
+   "tags": [
+    "nghi-dinh",
+    "bkhcn",
+    "khung-chat-luong",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "132-2008-nd-cp#7",
+   "slug": "132-2008-nd-cp",
+   "duong_dan": "wiki/sources/132-2008-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 132/2008/NĐ-CP — Quy định chi tiết Luật Chất lượng SP, HH (ĐÃ HẾT HIỆU LỰC từ 01/07/2026)",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/muc-do-rui-ro-hang-hoa]]\n- [[concepts/kiem-tra-chuyen-nganh]]\n- [[concepts/doc-tinh-trang-hieu-luc]]",
+   "tags": [
+    "nghi-dinh",
+    "bkhcn",
+    "khung-chat-luong",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "132-2008-nd-cp#8",
+   "slug": "132-2008-nd-cp",
+   "duong_dan": "wiki/sources/132-2008-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 132/2008/NĐ-CP — Quy định chi tiết Luật Chất lượng SP, HH (ĐÃ HẾT HIỆU LỰC từ 01/07/2026)",
+   "muc": "Related sources",
+   "noi_dung": "- [[sources/37-2026-nd-cp]] (Nghị định 37/2026/NĐ-CP — bãi bỏ toàn bộ NĐ 132/2008/NĐ-CP từ 01/07/2026 theo Điều 97 khoản 2 điểm a và thay thế bằng quản lý theo 3 mức độ rủi ro)\n- [[sources/05-2007-qh12]] (Luật Chất lượng sản phẩm, hàng hóa số 05/2007/QH12, đã được sửa đổi bởi [[sources/78-2025-qh15]])\n- [[sources/74-2018-nd-cp]] (Nghị định sửa đổi, bổ sung NĐ 132/2008/NĐ-CP; đã hết hiệu lực từ 01/07/2026)\n- [[sources/13-2022-nd-cp]] (Nghị định sửa đổi NĐ 132/2008/NĐ-CP; đã hết hiệu lực từ 01/07/2026, riêng khoản 3–7 Điều 1 từ 23/01/2026)\n- [[sources/154-2018-nd-cp]] (Nghị định cắt giảm điều kiện kinh doanh; Điều 4 sửa NĐ 132/2008 đã hết hiệu lực từ 01/07/2026)",
+   "tags": [
+    "nghi-dinh",
+    "bkhcn",
+    "khung-chat-luong",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "37/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-23",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=216764&pageid=27160"
+    },
+    {
+     "so_hieu": "132/2008/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "37/2026/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=82467&pageid=27160"
+    },
+    {
+     "so_hieu": "05/2007/QH12",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2008-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=51259&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "132-2008-nd-cp#9",
+   "slug": "132-2008-nd-cp",
+   "duong_dan": "wiki/sources/132-2008-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 132/2008/NĐ-CP — Quy định chi tiết Luật Chất lượng SP, HH (ĐÃ HẾT HIỆU LỰC từ 01/07/2026)",
+   "muc": "Open questions",
+   "noi_dung": "- Ngày hiệu lực chính xác của Nghị định 132/2008/NĐ-CP (sau 15 ngày kể từ ngày đăng Công báo đầu năm 2009 theo Điều 36) chưa thể hiện trực tiếp trong tệp `.doc` gốc; cần đối chiếu số Công báo năm 2009 nếu cần xác minh mốc ngày cũ phục vụ kiểm tra sau thông quan các năm trước 2018.",
+   "tags": [
+    "nghi-dinh",
+    "bkhcn",
+    "khung-chat-luong",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
    "van_ban_lien_quan": [
     {
      "so_hieu": "132/2008/NĐ-CP",
@@ -48714,104 +49715,21 @@
    "canh_bao_hieu_luc": false
   },
   {
-   "chunk_id": "132-2008-nd-cp#2",
+   "chunk_id": "132-2008-nd-cp#10",
    "slug": "132-2008-nd-cp",
    "duong_dan": "wiki/sources/132-2008-nd-cp.md",
    "loai_trang": "sources",
-   "tieu_de": "Quy định chi tiết thi hành một số điều của Luật Chất lượng sản phẩm, hàng hoá",
-   "muc": "Tình trạng hiệu lực",
-   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 2008-12-31 | Chính phủ ban hành |\n|  | Có hiệu lực |\n| 2026-07-01 | **Hết hiệu lực** |",
-   "tags": [
-    "stub",
-    "kiem-tra-chuyen-nganh",
-    "het-hieu-luc"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "132-2008-nd-cp#3",
-   "slug": "132-2008-nd-cp",
-   "duong_dan": "wiki/sources/132-2008-nd-cp.md",
-   "loai_trang": "sources",
-   "tieu_de": "Quy định chi tiết thi hành một số điều của Luật Chất lượng sản phẩm, hàng hoá",
-   "muc": "Căn cứ pháp lý (nếu có)",
-   "noi_dung": "- Cần đối chiếu với VB thay thế / bãi bỏ\n- Có thể tham chiếu ở các concept/wiki source liên quan",
-   "tags": [
-    "stub",
-    "kiem-tra-chuyen-nganh",
-    "het-hieu-luc"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "132-2008-nd-cp#4",
-   "slug": "132-2008-nd-cp",
-   "duong_dan": "wiki/sources/132-2008-nd-cp.md",
-   "loai_trang": "sources",
-   "tieu_de": "Quy định chi tiết thi hành một số điều của Luật Chất lượng sản phẩm, hàng hoá",
-   "muc": "Related concepts (chưa có wiki)",
-   "noi_dung": "- kiem-tra-chuyen-nganh (cần tạo concept)\n- các concept liên quan đến lĩnh vực của VB",
-   "tags": [
-    "stub",
-    "kiem-tra-chuyen-nganh",
-    "het-hieu-luc"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "132-2008-nd-cp#5",
-   "slug": "132-2008-nd-cp",
-   "duong_dan": "wiki/sources/132-2008-nd-cp.md",
-   "loai_trang": "sources",
-   "tieu_de": "Quy định chi tiết thi hành một số điều của Luật Chất lượng sản phẩm, hàng hoá",
-   "muc": "Related sources (chưa có wiki)",
-   "noi_dung": "- Cần đối chiếu với các VB thay thế / bãi bỏ",
-   "tags": [
-    "stub",
-    "kiem-tra-chuyen-nganh",
-    "het-hieu-luc"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "132-2008-nd-cp#6",
-   "slug": "132-2008-nd-cp",
-   "duong_dan": "wiki/sources/132-2008-nd-cp.md",
-   "loai_trang": "sources",
-   "tieu_de": "Quy định chi tiết thi hành một số điều của Luật Chất lượng sản phẩm, hàng hoá",
-   "muc": "Open questions",
-   "noi_dung": "- VB nào thay thế hoàn toàn?\n- Có còn áp dụng phần nào không?",
-   "tags": [
-    "stub",
-    "kiem-tra-chuyen-nganh",
-    "het-hieu-luc"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "132-2008-nd-cp#7",
-   "slug": "132-2008-nd-cp",
-   "duong_dan": "wiki/sources/132-2008-nd-cp.md",
-   "loai_trang": "sources",
-   "tieu_de": "Quy định chi tiết thi hành một số điều của Luật Chất lượng sản phẩm, hàng hoá",
+   "tieu_de": "NĐ 132/2008/NĐ-CP — Quy định chi tiết Luật Chất lượng SP, HH (ĐÃ HẾT HIỆU LỰC từ 01/07/2026)",
    "muc": "Notes",
-   "noi_dung": "- VB đã hết hiệu lực — không nạp toàn văn (rule Sếp Thắng 2026-10-10)\n- Cần đối chiếu với VB thay thế để có thông tin đầy đủ\n- Lưu ý: Có thể có phần chuyển tiếp trong VB thay thế (Điều X \"Chuyển tiếp\")\n- Tham khảo: ~0 mã HS trong biểu thuế (nếu có)",
+   "noi_dung": "- Đã tải bản `.doc` chính thức từ cổng `datafiles.chinhphu.vn` (`85126_qd132cp.doc`, lưu tại `raw/download/datafiles.chinhphu.vn/132-2008-nd-cp.doc`) và chuyển đổi UTF-8 (`raw/download/datafiles.chinhphu.vn/132-2008-nd-cp.txt`) để đọc toàn bộ 06 chương, 38 điều.\n- Đã trích xuất 11 mục điều khoản nguyên văn (bao gồm `Điều 7`, `Điều 8`, `Điều 36`) vào `xac_minh.dieu_khoan` trong `registry/van-ban/132-2008-nd-cp.yaml`.",
    "tags": [
-    "stub",
+    "nghi-dinh",
+    "bkhcn",
+    "khung-chat-luong",
     "kiem-tra-chuyen-nganh",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -50307,7 +51225,7 @@
    "loai_trang": "sources",
    "tieu_de": "NĐ 143/2026/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam thực hiện Hiệp định CEPA Việt Nam – UAE giai đoạn 2026–2027",
    "muc": "Nội dung chi tiết các quy định nghiệp vụ Hải quan, Thuế XNK và Xuất xứ CEPA > 3. Điều khoản chuyển tiếp xử lý tiền thuế nộp thừa cho tờ khai từ 03/02/2026 đến trước 05/05/2026 (Khoản 2 Điều 6)",
-   "noi_dung": "- Nguyên văn **khoản 2 Điều 6**:\n  > *\"2. Đối với các tờ khai hải quan của hàng hóa nhập khẩu vào Việt Nam từ Các Tiểu vương quốc Ả-rập Thống nhất đăng ký từ ngày 03 tháng 02 năm 2026 đến trước ngày Nghị định này có hiệu lực thi hành, nếu đáp ứng đủ các điều kiện để được hưởng thuế nhập khẩu ưu đãi đặc biệt quy định tại Nghị định này và đã nộp thuế theo mức thuế suất cao hơn thì được cơ quan hải quan xử lý tiền thuế nộp thừa theo quy định của pháp luật về quản lý thuế.\"*\n- Người nộp thuế thực hiện thủ tục đề nghị cơ quan hải quan xử lý tiền thuế nộp thừa theo quy định của **Luật Quản lý thuế** số 38/2019/QH14 ([[sources/38-2019-qh14]], đã được sửa đổi, bổ sung bởi Luật số 56/2024/QH15) và các văn bản hướng dẫn thủ tục hải quan, quản lý thuế XNK ([[sources/38-2015-tt-btc]], [[sources/39-2018-tt-btc]], [[sources/121-2025-tt-btc]]).",
+   "noi_dung": "- Nguyên văn **khoản 2 Điều 6**:\n  > *\"2. Đối với các tờ khai hải quan của hàng hóa nhập khẩu vào Việt Nam từ Các Tiểu vương quốc Ả-rập Thống nhất đăng ký từ ngày 03 tháng 02 năm 2026 đến trước ngày Nghị định này có hiệu lực thi hành, nếu đáp ứng đủ các điều kiện để được hưởng thuế nhập khẩu ưu đãi đặc biệt quy định tại Nghị định này và đã nộp thuế theo mức thuế suất cao hơn thì được cơ quan hải quan xử lý tiền thuế nộp thừa theo quy định của pháp luật về quản lý thuế.\"*\n- Người nộp thuế thực hiện thủ tục đề nghị cơ quan hải quan xử lý tiền thuế nộp thừa theo quy định của **Luật Quản lý thuế** số 38/2019/QH14 ([[sources/38-2019-qh14]], đã được sửa đổi, bổ sung bởi Luật số 56/2024/QH15 — cả hai đã `HET_HIEU_LUC` từ 01/07/2026, bị thay thế bởi **Luật Quản lý thuế số 108/2025/QH15** [[sources/108-2025-qh15]] đối với hồ sơ phát sinh từ ngày 01/07/2026) và các văn bản hướng dẫn thủ tục hải quan, quản lý thuế XNK ([[sources/38-2015-tt-btc]], [[sources/39-2018-tt-btc]], [[sources/121-2025-tt-btc]]).",
    "tags": [
     "nghi-dinh",
     "btc",
@@ -50343,6 +51261,16 @@
      ],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=212484"
+    },
+    {
+     "so_hieu": "108/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216541"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -50354,7 +51282,7 @@
    "loai_trang": "sources",
    "tieu_de": "NĐ 143/2026/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam thực hiện Hiệp định CEPA Việt Nam – UAE giai đoạn 2026–2027",
    "muc": "Căn cứ pháp lý",
-   "noi_dung": "- **Luật Tổ chức Chính phủ** (`63-2025-qh15`).\n- **Luật Thuế xuất khẩu, thuế nhập khẩu** số 107/2016/QH13 ([[sources/107-2016-qh13]]), được sửa đổi, bổ sung bởi Luật số 90/2025/QH15.\n- **Luật Hải quan** số 54/2014/QH13 ([[sources/54-2014-qh13]]), được sửa đổi, bổ sung bởi Luật số 90/2025/QH15.\n- **Luật Điều ước quốc tế** (`108-2016-qh13`), được sửa đổi, bổ sung bởi Luật sửa đổi năm 2025 (`137-2025-qh15`).\n- **Luật Quản lý thuế** số 38/2019/QH14 ([[sources/38-2019-qh14]]), được sửa đổi, bổ sung bởi Luật số 56/2024/QH15.\n- **Hiệp định Đối tác kinh tế toàn diện (CEPA)** giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ Các Tiểu vương quốc Ả-rập Thống nhất (có hiệu lực kể từ ngày 03/02/2026).",
+   "noi_dung": "- **Luật Tổ chức Chính phủ** (`63-2025-qh15`).\n- **Luật Thuế xuất khẩu, thuế nhập khẩu** số 107/2016/QH13 ([[sources/107-2016-qh13]]), được sửa đổi, bổ sung bởi Luật số 90/2025/QH15.\n- **Luật Hải quan** số 54/2014/QH13 ([[sources/54-2014-qh13]]), được sửa đổi, bổ sung bởi Luật số 90/2025/QH15.\n- **Luật Điều ước quốc tế** (`108-2016-qh13`), được sửa đổi, bổ sung bởi Luật sửa đổi năm 2025 (`137-2025-qh15`).\n- **Luật Quản lý thuế** số 38/2019/QH14 ([[sources/38-2019-qh14]], được sửa đổi, bổ sung bởi Luật số 56/2024/QH15 — văn bản được dẫn chiếu tại thời điểm ban hành 05/05/2026; cả hai đã `HET_HIEU_LUC` từ ngày 01/07/2026 và bị thay thế bởi **Luật Quản lý thuế số 108/2025/QH15** [[sources/108-2025-qh15]]).\n- **Hiệp định Đối tác kinh tế toàn diện (CEPA)** giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ Các Tiểu vương quốc Ả-rập Thống nhất (có hiệu lực kể từ ngày 03/02/2026).",
    "tags": [
     "nghi-dinh",
     "btc",
@@ -50420,6 +51348,16 @@
      ],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=212484"
+    },
+    {
+     "so_hieu": "108/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216541"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -58420,7 +59358,7 @@
    "loai_trang": "sources",
    "tieu_de": "NĐ 186/2026/NĐ-CP — Sửa đổi, bổ sung Nghị định 99/2013/NĐ-CP quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp",
    "muc": "Căn cứ pháp lý",
-   "noi_dung": "- **Luật Tổ chức Chính phủ** (`63-2025-qh15`); **Luật Tổ chức chính quyền địa phương** (`72-2025-qh15`).\n- **Luật Xử lý vi phạm hành chính** số 15/2012/QH13 (được sửa đổi, bổ sung bởi Luật Hải quan số 54/2014/QH13 [[sources/54-2014-qh13]], Luật năm 2020 `67-2020-qh14`, Luật số 56/2024/QH15 và Luật năm 2025 `88-2025-qh15`).\n- **Luật Sở hữu trí tuệ** số 50/2005/QH11 (được sửa đổi, bổ sung bởi Luật số 36/2009/QH12, Luật số 42/2019/QH14, Luật số 07/2022/QH15 [[sources/07-2022-qh15]], Luật Khoa học, công nghệ và đổi mới sáng tạo số 93/2025/QH15 và Luật sửa đổi năm 2025 `131-2025-qh15`).\n- **Luật Công nghệ thông tin** (`67-2006-qh11`); **Luật Cạnh tranh** (`23-2018-qh14`); **Luật Doanh nghiệp** (`59-2020-qh14`); **Luật Thanh tra** (`84-2025-qh15`).",
+   "noi_dung": "- **Luật Tổ chức Chính phủ** (`63-2025-qh15`); **Luật Tổ chức chính quyền địa phương** (`72-2025-qh15`).\n- **Luật Xử lý vi phạm hành chính** số 15/2012/QH13 (được sửa đổi, bổ sung bởi Luật Hải quan số 54/2014/QH13 [[sources/54-2014-qh13]], Luật năm 2020 `67-2020-qh14`, Luật số 56/2024/QH15 [sổ ghi `HET_HIEU_LUC` từ 01/07/2026 do phần sửa Luật Quản lý thuế tại Điều 6 bị thay thế bởi **Luật Quản lý thuế số 108/2025/QH15** [[sources/108-2025-qh15]]] và Luật năm 2025 `88-2025-qh15`).\n- **Luật Sở hữu trí tuệ** số 50/2005/QH11 (được sửa đổi, bổ sung bởi Luật số 36/2009/QH12, Luật số 42/2019/QH14, Luật số 07/2022/QH15 [[sources/07-2022-qh15]], Luật Khoa học, công nghệ và đổi mới sáng tạo số 93/2025/QH15 và Luật sửa đổi năm 2025 `131-2025-qh15`).\n- **Luật Công nghệ thông tin** (`67-2006-qh11`); **Luật Cạnh tranh** (`23-2018-qh14`); **Luật Doanh nghiệp** (`59-2020-qh14`); **Luật Thanh tra** (`84-2025-qh15`).",
    "tags": [
     "nghi-dinh",
     "bkhcn",
@@ -58463,6 +59401,16 @@
      ],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=212484"
+    },
+    {
+     "so_hieu": "108/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216541"
     },
     {
      "so_hieu": "50/2005/QH11",
@@ -60909,14 +61857,15 @@
    "slug": "204-2025-qh15",
    "duong_dan": "wiki/sources/204-2025-qh15.md",
    "loai_trang": "sources",
-   "tieu_de": "NQ 204/2025/QH15 — Giảm thuế GTGT",
+   "tieu_de": "NQ 204/2025/QH15 — Giảm 2% thuế suất thuế giá trị gia tăng (còn 8%) từ 01/07/2025 đến 31/12/2026",
    "muc": "Summary",
-   "noi_dung": "**Stub page** — Nghị quyết 204/2025/QH15 ngày 17/6/2025 của Quốc hội về giảm thuế GTGT. Đây là căn cứ pháp lý cấp cao nhất cho NĐ 174/2025/NĐ-CP (giảm thuế suất GTGT từ 10% xuống 8%). Cần đọc toàn văn.",
+   "noi_dung": "**Nghị quyết 204/2025/QH15** được Quốc hội khóa XV, kỳ họp thứ 9 thông qua ngày **17/06/2025** (Chủ tịch Quốc hội Trần Thanh Mẫn ký chứng thực), có hiệu lực thi hành từ ngày **01/07/2025 đến hết ngày 31/12/2026**, quyết nghị chính sách **giảm 2% thuế suất thuế giá trị gia tăng (GTGT)** (từ 10% xuống **8%**) đối với các nhóm hàng hóa, dịch vụ đang chịu thuế suất 10%, trừ một số nhóm hàng hóa, dịch vụ loại trừ.\n\nVăn bản gồm **02 điều** (01 trang PDF ký số gốc), là căn cứ pháp lý cấp cao nhất cho [[sources/174-2025-nd-cp|Nghị định 174/2025/NĐ-CP]] ngày 30/06/2025 quy định chi tiết danh mục hàng hóa, dịch vụ không được giảm thuế theo mã ngành/mã HS tại khâu nhập khẩu, sản xuất và kinh doanh thương mại. **Hiện đang còn hiệu lực** (`CON_HIEU_LUC`) đến hết ngày **31/12/2026**.",
    "tags": [
     "nghi-quyet",
+    "qh",
     "thue-gtgt",
-    "stub",
-    "vat-8"
+    "vat-8",
+    "con-hieu-luc"
    ],
    "confidence": "high",
    "van_ban_lien_quan": [
@@ -60948,14 +61897,182 @@
    "slug": "204-2025-qh15",
    "duong_dan": "wiki/sources/204-2025-qh15.md",
    "loai_trang": "sources",
-   "tieu_de": "NQ 204/2025/QH15 — Giảm thuế GTGT",
-   "muc": "Open questions",
-   "noi_dung": "- NQ có quy định cụ thể tỷ lệ giảm không?\n- Phạm vi áp dụng?\n- Thời hạn hiệu lực trong NQ?",
+   "tieu_de": "NQ 204/2025/QH15 — Giảm 2% thuế suất thuế giá trị gia tăng (còn 8%) từ 01/07/2025 đến 31/12/2026",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 17/06/2025 | Quốc hội khóa XV thông qua tại kỳ họp thứ 9 (ký số công bố trên Cổng TTĐT Chính phủ ngày 30/06/2025) |\n| 01/07/2025 | **Có hiệu lực thi hành** (Điều 2); đồng bộ áp dụng cùng Luật Thuế GTGT số `48-2024-qh15` và [[sources/174-2025-nd-cp]] |\n| 31/12/2026 | **Hết thời hạn hiệu lực** theo Điều 2 Nghị quyết 204/2025/QH15 (cần theo dõi văn bản mới của Quốc hội nếu được gia hạn sang năm 2027) |\n| Hiện tại | **Đang còn hiệu lực** (`CON_HIEU_LUC`, hết hiệu lực vào 31/12/2026) |",
    "tags": [
     "nghi-quyet",
+    "qh",
     "thue-gtgt",
-    "stub",
-    "vat-8"
+    "vat-8",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "204/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=217343&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "204-2025-qh15#3",
+   "slug": "204-2025-qh15",
+   "duong_dan": "wiki/sources/204-2025-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "NQ 204/2025/QH15 — Giảm 2% thuế suất thuế giá trị gia tăng (còn 8%) từ 01/07/2025 đến 31/12/2026",
+   "muc": "Cấu trúc & Toàn văn nội dung (02 điều)",
+   "noi_dung": "| Điều | Nội dung |\n|---|---|\n| **Điều 1** | **Phạm vi áp dụng** — Giảm 2% thuế suất thuế GTGT đối với hàng hóa, dịch vụ quy định tại khoản 3 Điều 9 Luật Thuế GTGT số `48-2024-qh15` (còn 8%), trừ các nhóm loại trừ; giao Chính phủ quy định chi tiết |\n| **Điều 2** | **Hiệu lực thi hành** — Có hiệu lực từ ngày **01/07/2025 đến hết ngày 31/12/2026** |\n\n### Điều 1 — Phạm vi áp dụng và các nhóm hàng hóa, dịch vụ bị loại trừ\n\n- **Mức giảm (khoản 1 Điều 1):** Giảm **2%** thuế suất thuế giá trị gia tăng, áp dụng đối với các nhóm hàng hóa, dịch vụ quy định tại **khoản 3 Điều 9 Luật Thuế giá trị gia tăng số `48-2024-qh15`** (tức nhóm chịu thuế suất 10%, giảm còn **8%**).\n- **Các nhóm hàng hóa, dịch vụ KHÔNG được giảm (loại trừ, vẫn giữ mức 10% hoặc theo quy định hiện hành):**\n  1. Viễn thông, hoạt động tài chính, ngân hàng, chứng khoán, bảo hiểm, kinh doanh bất động sản;\n  2. **Sản phẩm kim loại**, **sản phẩm khai khoáng (trừ than)** — lưu ý mặt hàng **than** được giảm xuống 8%;\n  3. **Sản phẩm hàng hóa và dịch vụ chịu thuế tiêu thụ đặc biệt (trừ xăng)** — lưu ý mặt hàng **xăng** được giảm xuống 8%.\n- **Giao quy định chi tiết (khoản 2 Điều 1):** Chính phủ quy định chi tiết khoản 1 Điều 1 — đã cụ thể hóa tại [[sources/174-2025-nd-cp|Nghị định 174/2025/NĐ-CP]] (Phụ lục I đối với hàng hóa/dịch vụ loại trừ tại khoản 1a và Phụ lục II đối với hàng hóa/dịch vụ chịu thuế TTĐB tại khoản 1b).\n\n### Điều 2 — Thời hạn hiệu lực thi hành\n\n- Nghị quyết có hiệu lực thi hành từ ngày **01 tháng 7 năm 2025** đến hết ngày **31 tháng 12 năm 2026**.\n- So với các nghị quyết giảm thuế GTGT trước đó (như [[sources/101-2023-qh15]]), Nghị quyết 204/2025/QH15 mở rộng thêm các mặt hàng **than** và **xăng** vào diện được giảm thuế GTGT còn **8%** (với điều kiện thuộc đối tượng chịu thuế suất 10%) và áp dụng thống nhất tại khâu nhập khẩu, sản xuất, gia công và kinh doanh thương mại theo hướng dẫn tại [[sources/174-2025-nd-cp]].",
+   "tags": [
+    "nghi-quyet",
+    "qh",
+    "thue-gtgt",
+    "vat-8",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "174/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=214310&pageid=27160"
+    },
+    {
+     "so_hieu": "204/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=217343&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "204-2025-qh15#4",
+   "slug": "204-2025-qh15",
+   "duong_dan": "wiki/sources/204-2025-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "NQ 204/2025/QH15 — Giảm 2% thuế suất thuế giá trị gia tăng (còn 8%) từ 01/07/2025 đến 31/12/2026",
+   "muc": "Căn cứ pháp lý",
+   "noi_dung": "- Hiến pháp nước CHXHCN Việt Nam (sửa đổi theo Nghị quyết `203-2025-qh15`).\n- Luật Tổ chức Quốc hội (`57-2014-qh13`, sửa đổi bởi `65-2020-qh14` và `62-2025-qh15`).\n- Luật Thuế giá trị gia tăng số `48-2024-qh15` (khoản 3 Điều 9).\n- Luật Ban hành văn bản quy phạm pháp luật số `64-2025-qh15`.",
+   "tags": [
+    "nghi-quyet",
+    "qh",
+    "thue-gtgt",
+    "vat-8",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "204-2025-qh15#5",
+   "slug": "204-2025-qh15",
+   "duong_dan": "wiki/sources/204-2025-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "NQ 204/2025/QH15 — Giảm 2% thuế suất thuế giá trị gia tăng (còn 8%) từ 01/07/2025 đến 31/12/2026",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/thue-gtgt-hang-nhap-khau]]\n- [[concepts/thu-tuc-hai-quan-xnk]]",
+   "tags": [
+    "nghi-quyet",
+    "qh",
+    "thue-gtgt",
+    "vat-8",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "204-2025-qh15#6",
+   "slug": "204-2025-qh15",
+   "duong_dan": "wiki/sources/204-2025-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "NQ 204/2025/QH15 — Giảm 2% thuế suất thuế giá trị gia tăng (còn 8%) từ 01/07/2025 đến 31/12/2026",
+   "muc": "Related sources",
+   "noi_dung": "- [[sources/174-2025-nd-cp]] (Nghị định 174/2025/NĐ-CP quy định chi tiết chính sách giảm thuế GTGT theo NQ 204/2025/QH15, kèm Phụ lục I, II mã HS loại trừ)\n- [[sources/101-2023-qh15]] (Nghị quyết Kỳ họp thứ 5 Quốc hội khóa XV — chính sách giảm 2% thuế GTGT giai đoạn 01/07/2023 – 31/12/2023)",
+   "tags": [
+    "nghi-quyet",
+    "qh",
+    "thue-gtgt",
+    "vat-8",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "174/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=214310&pageid=27160"
+    },
+    {
+     "so_hieu": "204/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=217343&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "204-2025-qh15#7",
+   "slug": "204-2025-qh15",
+   "duong_dan": "wiki/sources/204-2025-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "NQ 204/2025/QH15 — Giảm 2% thuế suất thuế giá trị gia tăng (còn 8%) từ 01/07/2025 đến 31/12/2026",
+   "muc": "Open questions",
+   "noi_dung": "- Theo kiểm tra trên `vanban.chinhphu.vn` đến ngày **20/11/2026**, chưa có Nghị quyết mới của Quốc hội kéo dài chính sách giảm thuế GTGT 8% sang năm 2027 (Nghị quyết `353-nq-cp` ngày 06/11/2026 mới giao Bộ Tài chính nghiên cứu). Cần theo dõi sát trước mốc **31/12/2026** để cập nhật cho tờ khai nhập khẩu đăng ký từ ngày 01/01/2027.",
+   "tags": [
+    "nghi-quyet",
+    "qh",
+    "thue-gtgt",
+    "vat-8",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "204-2025-qh15#8",
+   "slug": "204-2025-qh15",
+   "duong_dan": "wiki/sources/204-2025-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "NQ 204/2025/QH15 — Giảm 2% thuế suất thuế giá trị gia tăng (còn 8%) từ 01/07/2025 đến 31/12/2026",
+   "muc": "Notes",
+   "noi_dung": "- Đã đọc và đối chiếu trực tiếp bản ảnh PDF ký số gốc (`raw/download/datafiles.chinhphu.vn/204-2025-qh15.pdf`, 1 trang) cùng bản OCR tại `raw/ocr/204-2025-qh15.ocr.txt`.\n- Đã trích xuất nguyên văn `Điều 1` và `Điều 2` vào `xac_minh.dieu_khoan` trong `registry/van-ban/204-2025-qh15.yaml`.",
+   "tags": [
+    "nghi-quyet",
+    "qh",
+    "thue-gtgt",
+    "vat-8",
+    "con-hieu-luc"
    ],
    "confidence": "high",
    "van_ban_lien_quan": [],
@@ -65183,17 +66300,295 @@
    "slug": "26-2023-nd-cp",
    "duong_dan": "wiki/sources/26-2023-nd-cp.md",
    "loai_trang": "sources",
-   "tieu_de": "NĐ 26/2023/NĐ-CP — Biểu thuế XK, Biểu thuế NK ưu đãi",
+   "tieu_de": "NĐ 26/2023/NĐ-CP — Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi (MFN) và Chương 98",
    "muc": "Summary",
-   "noi_dung": "**Stub page** — NĐ 26/2023/NĐ-CP ngày 31/5/2023 quy định **Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan**.\n\nĐây là biểu thuế nền tảng để áp dụng khi khai báo HQ. Cần đọc toàn văn.",
+   "noi_dung": "**Nghị định 26/2023/NĐ-CP** do Chính phủ ban hành ngày **31/05/2023**, có hiệu lực thi hành từ ngày **15/07/2023** (thay thế Nghị định `57/2020/NĐ-CP` đã hết hiệu lực và các nghị định tiền nhiệm `122-2016-nd-cp`, `125-2017-nd-cp`, `101-2021-nd-cp`, `51-2022-nd-cp`), ban hành **Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi (MFN), Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan** để hướng dẫn thi hành [[sources/107-2016-qh13|Luật Thuế xuất khẩu, thuế nhập khẩu số 107/2016/QH13]].\n\nVăn bản gồm **12 điều** và **04 Phụ lục** (Phụ lục I–IV), thiết lập khung thuế suất xuất khẩu (bao gồm quy tắc 51% tài nguyên, khoáng sản + chi phí năng lượng tại nhóm STT 211), Biểu thuế nhập khẩu ưu đãi 97 chương và Chương 98 (ưu đãi thuế lắp ráp ô tô nhóm 98.49 và công nghiệp hỗ trợ ô tô), thuế suất máy gia công cơ khí trong nước chưa sản xuất được (0%), thuế tuyệt đối/hỗn hợp đối với xe ô tô đã qua sử dụng và thuế ngoài hạn ngạch thuế quan. **Hiện đang còn hiệu lực** (`CON_HIEU_LUC`) với các sửa đổi, bổ sung tại `144/2024/NĐ-CP`, `21/2025/NĐ-CP`, `73/2025/NĐ-CP`, `108/2025/NĐ-CP`, `199/2025/NĐ-CP`, `72/2026/NĐ-CP` và `201/2026/NĐ-CP`.",
    "tags": [
-    "nd-cp",
-    "stub",
+    "nghi-dinh",
+    "btc",
     "bieu-thue",
-    "thue-xk-nk"
+    "thue-xk-nk",
+    "chuong-98",
+    "con-hieu-luc"
    ],
    "confidence": "high",
    "van_ban_lien_quan": [
+    {
+     "so_hieu": "26/2023/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2023-07-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=208020&pageid=27160"
+    },
+    {
+     "so_hieu": "57/2020/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2020-07-10",
+     "het_hieu_luc_tu": "2023-07-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "26/2023/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=200088"
+    },
+    {
+     "so_hieu": "107/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=184599&pageid=27160"
+    },
+    {
+     "so_hieu": "144/2024/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-12-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-144-2024-nd-cp-43109/52626.htm"
+    },
+    {
+     "so_hieu": "21/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-02-10",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=212714&pageid=27160"
+    },
+    {
+     "so_hieu": "73/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-03-31",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=213245&pageid=27160"
+    },
+    {
+     "so_hieu": "108/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-05-19",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=213700&pageid=27160"
+    },
+    {
+     "so_hieu": "199/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-08",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=214494&pageid=27160"
+    },
+    {
+     "so_hieu": "72/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-03-09",
+     "het_hieu_luc_tu": "2027-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-72-2026-nd-cp-469066.htm"
+    },
+    {
+     "so_hieu": "201/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-23",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-201-2026-nd-cp-469729.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "26-2023-nd-cp#2",
+   "slug": "26-2023-nd-cp",
+   "duong_dan": "wiki/sources/26-2023-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 26/2023/NĐ-CP — Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi (MFN) và Chương 98",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 31/05/2023 | Chính phủ ban hành **Nghị định 26/2023/NĐ-CP** (đăng Công báo số 743 + 744 ngày 19/06/2023) |\n| 15/07/2023 | **Có hiệu lực thi hành** (Điều 12 khoản 1); thay thế `122-2016-nd-cp`, `125-2017-nd-cp`, `57/2020/NĐ-CP` (đã hết hiệu lực), `101-2021-nd-cp`, `51-2022-nd-cp` |\n| 16/12/2024 | Sửa đổi, bổ sung bởi [[sources/144-2024-nd-cp]] |\n| 10/02/2025 | Sửa đổi Điều 9 (kéo dài Chương trình ưu đãi thuế CNHT ô tô đến 31/12/2027) bởi [[sources/21-2025-nd-cp]] |\n| 31/03/2025 | Sửa đổi Phụ lục II (thuế suất NK ưu đãi và bổ sung Ethane `9853.00.00` thuế 0%) bởi [[sources/73-2025-nd-cp]] |\n| 19/05/2025 | Sửa đổi Phụ lục I (mặt hàng clanhke xi măng nhóm 25.23) bởi [[sources/108-2025-nd-cp]] |\n| 08/07/2025 | Sửa đổi Phụ lục I, II và điểm a.7, c.3.6, c.3.7 khoản 3 Điều 8 bởi [[sources/199-2025-nd-cp]] |\n| 09/03/2026 | Sửa đổi thuế suất NK ưu đãi một số mặt hàng xăng, dầu bởi [[sources/72-2026-nd-cp]] |\n| 23/07/2026 | Sửa đổi Phụ lục I (thuế suất XK nhóm 25.29 và 81.06) bởi [[sources/201-2026-nd-cp]] |\n| Hiện tại | **Đang còn hiệu lực** (`CON_HIEU_LUC`) |",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "bieu-thue",
+    "thue-xk-nk",
+    "chuong-98",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "26/2023/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2023-07-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=208020&pageid=27160"
+    },
+    {
+     "so_hieu": "57/2020/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2020-07-10",
+     "het_hieu_luc_tu": "2023-07-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "26/2023/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=200088"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "26-2023-nd-cp#3",
+   "slug": "26-2023-nd-cp",
+   "duong_dan": "wiki/sources/26-2023-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 26/2023/NĐ-CP — Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi (MFN) và Chương 98",
+   "muc": "Cấu trúc (12 điều & 04 Phụ lục)",
+   "noi_dung": "| Điều / Phụ lục | Nội dung |\n|---|---|\n| **Điều 1 – 2** | Phạm vi điều chỉnh và đối tượng áp dụng (người nộp thuế theo Luật Thuế XK, NK; cơ quan hải quan; tổ chức, cá nhân liên quan) |\n| **Điều 3** | Ban hành 04 Phụ lục: **Phụ lục I** (Biểu thuế XK), **Phụ lục II** (Biểu thuế NK ưu đãi), **Phụ lục III** (thuế tuyệt đối/hỗn hợp ô tô đã qua sử dụng từ 15 chỗ trở xuống), **Phụ lục IV** (hàng hóa áp dụng hạn ngạch thuế quan) |\n| **Điều 4** | **Biểu thuế xuất khẩu** — Quy tắc khai mã 8 số khi hàng xuất khẩu không có tên trong Biểu thuế XK và quy tắc nhóm STT 211 (tài nguyên, khoáng sản + chi phí năng lượng chiếm từ 51% giá thành trở lên; Mẫu số 14 chứng minh dưới 51%) |\n| **Điều 5** | **Biểu thuế nhập khẩu ưu đãi** — Mục I (97 chương theo Danh mục HH XNK VN) và Mục II (Chương 98: chú giải, điều kiện, thủ tục quyết toán và quyền lựa chọn thuế suất Chương 98 hoặc FTA) |\n| **Điều 6** | **Máy gia công cơ khí (nhóm 84.54–84.63)** — Thuế suất NK ưu đãi 0% nếu thuộc loại trong nước chưa sản xuất được theo quy định của Bộ Kế hoạch và Đầu tư |\n| **Điều 7** | **Xe ô tô đã qua sử dụng** — Thuế tuyệt đối (≤9 chỗ, ≤1.000cc thuộc nhóm 87.03), thuế hỗn hợp (≤9 chỗ trên 1.000cc và 10–15 chỗ), thuế suất 150% (≥16 chỗ; xe tải ≤5 tấn nhóm 87.04) và mức bằng 1,5 lần thuế suất xe mới cùng loại |\n| **Điều 8** | **Chương trình ưu đãi thuế linh kiện ô tô (nhóm 98.49)** — Thuế suất NK ưu đãi 0% theo kỳ xét 06 tháng/12 tháng (giai đoạn 2022–2027), điều kiện sản lượng chung/riêng và mã khai báo `A43` / `#&7a` |\n| **Điều 9** | **Chương trình ưu đãi thuế công nghiệp hỗ trợ ô tô** — Thuế suất NK ưu đãi 0% đối với nguyên liệu, vật tư, linh kiện trong nước chưa sản xuất được (đã được [[sources/21-2025-nd-cp]] sửa đổi gia hạn) |\n| **Điều 10** | **Hạn ngạch thuế quan** — Áp dụng thuế trong hạn ngạch theo Mục I Phụ lục II hoặc Biểu FTA và thuế ngoài hạn ngạch theo Phụ lục IV |\n| **Điều 11 – 12** | Trách nhiệm tổ chức thực hiện, hiệu lực thi hành từ **15/07/2023**, văn bản bị thay thế và chuyển tiếp miễn điều kiện độ rời rạc tối thiểu từ 01/10/2022 |",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "bieu-thue",
+    "thue-xk-nk",
+    "chuong-98",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "26-2023-nd-cp#4",
+   "slug": "26-2023-nd-cp",
+   "duong_dan": "wiki/sources/26-2023-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 26/2023/NĐ-CP — Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi (MFN) và Chương 98",
+   "muc": "Nội dung trọng tâm về thuế xuất khẩu, nhập khẩu và thủ tục hải quan > 1. Biểu thuế xuất khẩu và quy tắc STT 211 (Điều 4)",
+   "noi_dung": "- **Nguyên tắc khai báo hàng không có tên trong Biểu thuế XK (khoản 1 Điều 4):** Trường hợp hàng hóa xuất khẩu không có tên trong Phụ lục I thì người khai hải quan khai mã hàng 8 chữ số tương ứng theo Mục I Phụ lục II và không phải khai thuế suất trên tờ khai XK.\n- **Điều kiện áp dụng nhóm STT 211 (khoản 2–3 Điều 4):** Áp dụng đối với vật tư, nguyên liệu, bán thành phẩm không thuộc STT 01–210 được chế biến trực tiếp từ nguyên liệu chính là tài nguyên, khoáng sản có tổng giá trị tài nguyên, khoáng sản cộng chi phí năng lượng chiếm **từ 51% giá thành sản xuất sản phẩm trở lên** (theo `100-2016-nd-cp` và `146-2017-nd-cp`).\n  - Đối với các mặt hàng chi tiết mã 8 số thuộc các nhóm **25.23, 27.06, 27.07, 27.08, 68.01, 68.02, 68.03** tại STT 211: nếu không kê khai theo STT 211, người nộp thuế phải nộp **Bảng kê theo Mẫu số 14 Phụ lục II** tại thời điểm làm thủ tục hải quan để chứng minh tỷ lệ dưới 51%.\n  - Đối với mặt hàng thuộc nhóm STT 211 nhưng chưa chi tiết mã 8 số mà đáp ứng ngưỡng từ 51% trở lên: khai theo mã 8 số tương ứng tại Mục I Phụ lục II với mức thuế suất thuế xuất khẩu **5%**.",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "bieu-thue",
+    "thue-xk-nk",
+    "chuong-98",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "26-2023-nd-cp#5",
+   "slug": "26-2023-nd-cp",
+   "duong_dan": "wiki/sources/26-2023-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 26/2023/NĐ-CP — Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi (MFN) và Chương 98",
+   "muc": "Nội dung trọng tâm về thuế xuất khẩu, nhập khẩu và thủ tục hải quan > 2. Biểu thuế nhập khẩu ưu đãi (MFN) và Chương 98 (Điều 5 & Điều 6)",
+   "noi_dung": "- **Đồng bộ Danh mục hàng hóa XNK (khoản 1 Điều 5):** Khi Danh mục hàng hóa XNK Việt Nam được sửa đổi, bổ sung, người khai hải quan kê khai mô tả, mã hàng theo Danh mục sửa đổi, bổ sung và áp dụng thuế suất của mã hàng sửa đổi, bổ sung.\n- **Chương 98 (khoản 2 Điều 5):**\n  - Áp dụng thuế suất riêng tại Chương 98 nếu đáp ứng tiêu chuẩn kỹ thuật, điều kiện và thủ tục báo cáo quyết toán tại khoản 1 và khoản 2 Mục II Phụ lục II (các nhóm 98.11, 98.25, 98.26, 98.30, 98.37, 98.39, 98.46, 98.47, linh kiện CKD/ô tô nhóm 98.21, 98.49...).\n  - Khi khai hải quan mã Chương 98, người khai **phải khai cột “Mã hàng tương ứng tại Mục I Phụ lục II” và ghi bên cạnh mã hàng của Chương 98**; đồng thời được quyền lựa chọn áp dụng thuế suất ưu đãi đặc biệt (FTA) nếu đủ điều kiện.\n- **Máy gia công cơ khí (Điều 6):** Máy thuộc nhóm **84.54 đến 84.63** không thuộc Danh mục máy móc, thiết bị trong nước đã sản xuất được của Bộ Kế hoạch và Đầu tư được áp dụng thuế suất NK ưu đãi **0%**.",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "bieu-thue",
+    "thue-xk-nk",
+    "chuong-98",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "26-2023-nd-cp#6",
+   "slug": "26-2023-nd-cp",
+   "duong_dan": "wiki/sources/26-2023-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 26/2023/NĐ-CP — Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi (MFN) và Chương 98",
+   "muc": "Nội dung trọng tâm về thuế xuất khẩu, nhập khẩu và thủ tục hải quan > 3. Chương trình ưu đãi thuế ô tô và Hạn ngạch thuế quan (Điều 7, 8, 9, 10)",
+   "noi_dung": "- **Xe ô tô đã qua sử dụng (Điều 7):**\n  - Từ 09 chỗ trở xuống, dung tích xi lanh **không quá 1.000cc** (nhóm 87.03): áp dụng mức **thuế tuyệt đối** tại Phụ lục III.\n  - Từ 09 chỗ trở xuống, dung tích **trên 1.000cc** (nhóm 87.03) và **10–15 chỗ** (nhóm 87.02): áp dụng **thuế hỗn hợp** tại Phụ lục III.\n  - Từ **16 chỗ trở lên** (nhóm 87.02) và xe tải có khối lượng toàn bộ thiết kế **không quá 05 tấn** (nhóm 87.04, trừ xe chuyên dùng loại trừ): áp dụng thuế suất **150%**.\n  - Các loại xe đã qua sử dụng khác thuộc nhóm 87.02, 87.03, 87.04: bằng **1,5 lần** thuế suất MFN xe mới cùng chủng loại.\n- **Chương trình ưu đãi thuế linh kiện ô tô nhóm 98.49 (Điều 8):** Áp dụng cho doanh nghiệp có Giấy chứng nhận đủ điều kiện sản xuất, lắp ráp ô tô do Bộ Công Thương cấp. Khi mở tờ khai ban đầu vẫn kê khai và nộp thuế theo thuế suất thông thường/MFN/FTA (chưa áp 0%), khai mã loại hình **A43** và `#&7a` tại ô số quản lý nội bộ; sau kỳ xét 06 tháng hoặc 12 tháng nếu đạt sản lượng tối thiểu (riêng xe điện, pin nhiên liệu, hybrid, sinh học, khí thiên nhiên được miễn điều kiện sản lượng kỳ đầu và kỳ kế tiếp) thì được hoàn tiền thuế nộp thừa.\n- **Hạn ngạch thuế quan (Điều 10):** Lượng hạn ngạch thực hiện theo quy định của Bộ Công Thương; phần ngoài hạn ngạch áp dụng mức thuế tại Phụ lục IV (hoặc mức thấp hơn nếu mức ngoài hạn ngạch tại Phụ lục IV thấp hơn mức theo Điều ước quốc tế).",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "bieu-thue",
+    "thue-xk-nk",
+    "chuong-98",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "26-2023-nd-cp#7",
+   "slug": "26-2023-nd-cp",
+   "duong_dan": "wiki/sources/26-2023-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 26/2023/NĐ-CP — Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi (MFN) và Chương 98",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/phan-loai-ma-hs]]\n- [[concepts/han-ngach-thue-quan]]\n- [[concepts/thu-tuc-hai-quan-xnk]]\n- [[concepts/xuat-xu-fta]]",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "bieu-thue",
+    "thue-xk-nk",
+    "chuong-98",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "26-2023-nd-cp#8",
+   "slug": "26-2023-nd-cp",
+   "duong_dan": "wiki/sources/26-2023-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 26/2023/NĐ-CP — Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi (MFN) và Chương 98",
+   "muc": "Related sources",
+   "noi_dung": "- [[sources/107-2016-qh13]] (Luật Thuế xuất khẩu, thuế nhập khẩu số 107/2016/QH13)\n- [[sources/144-2024-nd-cp]] (Nghị định sửa đổi, bổ sung Nghị định 26/2023/NĐ-CP)\n- [[sources/21-2025-nd-cp]] (Nghị định sửa đổi Điều 9 Nghị định 26/2023/NĐ-CP)\n- [[sources/73-2025-nd-cp]] (Nghị định sửa đổi Phụ lục II Nghị định 26/2023/NĐ-CP)\n- [[sources/108-2025-nd-cp]] (Nghị định sửa đổi Phụ lục I mặt hàng clanhke xi măng)\n- [[sources/199-2025-nd-cp]] (Nghị định sửa đổi Điều 8 và Phụ lục I, II Nghị định 26/2023/NĐ-CP)\n- [[sources/72-2026-nd-cp]] (Nghị định sửa đổi thuế suất NK ưu đãi một số mặt hàng xăng, dầu)\n- [[sources/201-2026-nd-cp]] (Nghị định sửa đổi Phụ lục I thuế suất XK nhóm 25.29 và 81.06)",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "bieu-thue",
+    "thue-xk-nk",
+    "chuong-98",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "107/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=184599&pageid=27160"
+    },
     {
      "so_hieu": "26/2023/NĐ-CP",
      "tinh_trang": "CON_HIEU_LUC",
@@ -65208,18 +66603,40 @@
    "canh_bao_hieu_luc": false
   },
   {
-   "chunk_id": "26-2023-nd-cp#2",
+   "chunk_id": "26-2023-nd-cp#9",
    "slug": "26-2023-nd-cp",
    "duong_dan": "wiki/sources/26-2023-nd-cp.md",
    "loai_trang": "sources",
-   "tieu_de": "NĐ 26/2023/NĐ-CP — Biểu thuế XK, Biểu thuế NK ưu đãi",
+   "tieu_de": "NĐ 26/2023/NĐ-CP — Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi (MFN) và Chương 98",
    "muc": "Open questions",
-   "noi_dung": "- Biểu thuế XK hiện hành là biểu nào?\n- Biểu thuế NK ưu đãi có bao nhiêu dòng?\n- Có còn hiệu lực không (sửa đổi bởi NĐ nào)?",
+   "noi_dung": "- Bản PDF Công báo số 743 + 744 (`45388-1-2023743-74426-2023-nd-cp.pdf`) gồm 95 trang có đầy đủ toàn văn Điều 1–12, Phụ lục I và phần đầu Phụ lục II; các số Công báo kế tiếp (745–770) chứa phần tiếp theo của Phụ lục II–IV. Việc tra cứu mức thuế chi tiết từng mã HS 8 số hiện hành cần kết hợp bản biểu thuế đã cập nhật các nghị định sửa đổi đến năm 2026.",
    "tags": [
-    "nd-cp",
-    "stub",
+    "nghi-dinh",
+    "btc",
     "bieu-thue",
-    "thue-xk-nk"
+    "thue-xk-nk",
+    "chuong-98",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "26-2023-nd-cp#10",
+   "slug": "26-2023-nd-cp",
+   "duong_dan": "wiki/sources/26-2023-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 26/2023/NĐ-CP — Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi (MFN) và Chương 98",
+   "muc": "Notes",
+   "noi_dung": "- Đã đọc toàn văn phần quy phạm (Điều 1–12, trang PDF 2–26) từ bản PDF Công báo số 743 + 744 ngày 19/06/2023 có lớp chữ sạch (`raw/download/congbaocdn.chinhphu.vn/26-2023-nd-cp.pdf`, SHA-256 `4b96e98b4d8ca94e87085f54e985d87e8f6bd7861c3963487fd6a56256e2269d`).\n- Đã trích xuất nguyên văn toàn bộ 12 điều (`Điều 1`–`Điều 12`) vào `xac_minh.dieu_khoan` trong `registry/van-ban/26-2023-nd-cp.yaml`.",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "bieu-thue",
+    "thue-xk-nk",
+    "chuong-98",
+    "con-hieu-luc"
    ],
    "confidence": "high",
    "van_ban_lien_quan": [],
@@ -68039,25 +69456,58 @@
    "slug": "28-2018-qh14",
    "duong_dan": "wiki/sources/28-2018-qh14.md",
    "loai_trang": "sources",
-   "tieu_de": "'Luật sửa đổi, bổ sung một số điều của Luật Dược 2018 (đã hợp nhất)'",
-   "muc": "Summary",
-   "noi_dung": "**Stub page** — 'Luật sửa đổi, bổ sung một số điều của Luật Dược 2018 (đã hợp nhất)' (28/2018/QH14) ban hành , có hiệu lực từ , **hết hiệu lực từ ** theo tinh_trang trong registry.\n\n> **Lưu ý**: Theo rule của Sếp Thắng, VB bị bãi bỏ / hết hiệu lực chỉ tạo stub ngắn (metadata + quan hệ), KHÔNG nạp toàn văn PDF. Wiki này ghi nhận lịch sử.\n\n**Bãi bỏ / thay thế bởi**: Sửa đổi Luật Dược 2016 (đã hợp nhất)\n\n**Cơ quan ban hành**: Quốc hội",
+   "tieu_de": "Luật 28/2018/QH14 — Sửa đổi 11 luật liên quan đến quy hoạch (HẾT HIỆU LỰC phần Luật Dược khi hợp nhất 76-VBHN/VPQH)",
+   "muc": "",
+   "noi_dung": "# ⚠️ LƯU Ý HIỆU LỰC & HỢP NHẤT (HẾT HIỆU LỰC TRONG SỔ TỪ 01/03/2026)\n\n> **Lưu ý:** **Luật số 28/2018/QH14** có tên chính thức là **Luật sửa đổi, bổ sung một số điều của 11 luật có liên quan đến quy hoạch** (không phải chỉ riêng Luật Dược). Nội dung sửa đổi **Luật Dược số 105/2016/QH13** tại Điều 3 Luật này (cùng [[sources/44-2024-qh15|Luật 44/2024/QH15]] và [[sources/114-2025-qh15|Luật Phòng bệnh 114/2025/QH15]]) **đã được hợp nhất vào Văn bản hợp nhất [[sources/76-vbhn-vpqh|76-VBHN/VPQH]] ngày 25/03/2026**. Trong sổ đăng ký của thư viện, văn bản này mang trạng thái `HET_HIEU_LUC` từ `01/03/2026` để tránh trích dẫn rời; khi áp dụng quy định hiện hành về dược phẩm **phải tra cứu [[sources/76-vbhn-vpqh]]** (và [[sources/105-2016-qh13]]).",
    "tags": [
-    "stub",
+    "luat",
+    "qh",
+    "quy-hoach",
+    "duoc",
     "kiem-tra-chuyen-nganh",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [
     {
      "so_hieu": "28/2018/QH14",
      "tinh_trang": "HET_HIEU_LUC",
-     "hieu_luc_tu": null,
+     "hieu_luc_tu": "2019-01-01",
      "het_hieu_luc_tu": "2026-03-01",
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
-     "nguon_a": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=49815"
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-28-2018-qh14-26903.htm"
+    },
+    {
+     "so_hieu": "105/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+    },
+    {
+     "so_hieu": "44/2024/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-44-2024-qh15-43548.htm"
+    },
+    {
+     "so_hieu": "114/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-114-2025-qh15-468676.htm"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -68067,16 +69517,72 @@
    "slug": "28-2018-qh14",
    "duong_dan": "wiki/sources/28-2018-qh14.md",
    "loai_trang": "sources",
-   "tieu_de": "'Luật sửa đổi, bổ sung một số điều của Luật Dược 2018 (đã hợp nhất)'",
-   "muc": "Tình trạng hiệu lực",
-   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n|  | Quốc hội ban hành |\n|  | Có hiệu lực |\n|  | **Hết hiệu lực** |",
+   "tieu_de": "Luật 28/2018/QH14 — Sửa đổi 11 luật liên quan đến quy hoạch (HẾT HIỆU LỰC phần Luật Dược khi hợp nhất 76-VBHN/VPQH)",
+   "muc": "Summary",
+   "noi_dung": "**Luật số 28/2018/QH14** do Chủ tịch Quốc hội Nguyễn Thị Kim Ngân ký chứng thực sau khi được Quốc hội khóa XIV, kỳ họp thứ 5 thông qua ngày **15/06/2018**, có hiệu lực thi hành từ ngày **01/01/2019** (Điều 12), sửa đổi, bổ sung một số điều có liên quan đến quy hoạch của **11 luật**.\n\nVăn bản gồm **12 điều** (10 trang Công báo số 777 + 778 ngày 15/07/2018), trong đó các điều liên quan trực tiếp đến lĩnh vực kiểm tra chuyên ngành và XNK gồm: **Điều 1** (sửa đổi [[sources/55-2010-qh12|Luật An toàn thực phẩm số 55/2010/QH12]]), **Điều 3** (sửa đổi [[sources/105-2016-qh13|Luật Dược số 105/2016/QH13]]), **Điều 7** (sửa đổi Luật Hóa chất số `06/2007/QH12`, nay đã hết hiệu lực từ 01/01/2026 khi Luật Hóa chất `69/2025/QH15` có hiệu lực) và **Điều 10** (sửa đổi Luật Sử dụng năng lượng tiết kiệm và hiệu quả số `50-2010-qh12`).",
    "tags": [
-    "stub",
+    "luat",
+    "qh",
+    "quy-hoach",
+    "duoc",
     "kiem-tra-chuyen-nganh",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "28/2018/QH14",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-01-01",
+     "het_hieu_luc_tu": "2026-03-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-28-2018-qh14-26903.htm"
+    },
+    {
+     "so_hieu": "55/2010/QH12",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2011-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=96032&pageid=27160"
+    },
+    {
+     "so_hieu": "105/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+    },
+    {
+     "so_hieu": "06/2007/QH12",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2008-07-01",
+     "het_hieu_luc_tu": "2026-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "69/2025/QH15"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=51260"
+    },
+    {
+     "so_hieu": "69/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214610"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -68084,16 +69590,62 @@
    "slug": "28-2018-qh14",
    "duong_dan": "wiki/sources/28-2018-qh14.md",
    "loai_trang": "sources",
-   "tieu_de": "'Luật sửa đổi, bổ sung một số điều của Luật Dược 2018 (đã hợp nhất)'",
-   "muc": "Căn cứ pháp lý (nếu có)",
-   "noi_dung": "- Cần đối chiếu với VB thay thế / bãi bỏ\n- Có thể tham chiếu ở các concept/wiki source liên quan",
+   "tieu_de": "Luật 28/2018/QH14 — Sửa đổi 11 luật liên quan đến quy hoạch (HẾT HIỆU LỰC phần Luật Dược khi hợp nhất 76-VBHN/VPQH)",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 15/06/2018 | Quốc hội khóa XIV thông qua tại kỳ họp thứ 5 (đăng Công báo số 777 + 778 ngày 15/07/2018) |\n| 01/01/2019 | **Có hiệu lực thi hành** (Điều 12) |\n| 01/01/2026 | Luật Hóa chất `06/2007/QH12` (đối tượng sửa đổi tại Điều 7) hết hiệu lực, thay thế bởi `69/2025/QH15` |\n| **01/03/2026** | Sổ ghi mốc hết hiệu lực / hợp nhất (`HET_HIEU_LUC`) gắn với đợt hợp nhất Luật Dược thành [[sources/76-vbhn-vpqh]] (ngày 25/03/2026); đồng thời Luật Quy hoạch `112-2025-qh15` và Luật Đầu tư `143-2025-qh15` có hiệu lực |\n| 01/07/2026 | [[sources/114-2025-qh15]] (Luật Phòng bệnh 114/2025/QH15, Điều 44 khoản 2) bãi bỏ các Điều 28, 29 và 30 Luật Phòng, chống tác hại của thuốc lá (liên quan Điều 9 Luật 28/2018/QH14) |",
    "tags": [
-    "stub",
+    "luat",
+    "qh",
+    "quy-hoach",
+    "duoc",
     "kiem-tra-chuyen-nganh",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "06/2007/QH12",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2008-07-01",
+     "het_hieu_luc_tu": "2026-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "69/2025/QH15"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=51260"
+    },
+    {
+     "so_hieu": "69/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214610"
+    },
+    {
+     "so_hieu": "114/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-114-2025-qh15-468676.htm"
+    },
+    {
+     "so_hieu": "28/2018/QH14",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-01-01",
+     "het_hieu_luc_tu": "2026-03-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-28-2018-qh14-26903.htm"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -68101,16 +69653,52 @@
    "slug": "28-2018-qh14",
    "duong_dan": "wiki/sources/28-2018-qh14.md",
    "loai_trang": "sources",
-   "tieu_de": "'Luật sửa đổi, bổ sung một số điều của Luật Dược 2018 (đã hợp nhất)'",
-   "muc": "Related concepts (chưa có wiki)",
-   "noi_dung": "- kiem-tra-chuyen-nganh (cần tạo concept)\n- các concept liên quan đến lĩnh vực của VB",
+   "tieu_de": "Luật 28/2018/QH14 — Sửa đổi 11 luật liên quan đến quy hoạch (HẾT HIỆU LỰC phần Luật Dược khi hợp nhất 76-VBHN/VPQH)",
+   "muc": "Cấu trúc (12 điều — 11 luật được sửa đổi & Hiệu lực)",
+   "noi_dung": "| Điều | Luật được sửa đổi, bổ sung | Tóm tắt nội dung sửa đổi trọng tâm |\n|---|---|---|\n| **Điều 1** | [[sources/55-2010-qh12]] (Luật ATTP 55/2010/QH12) | Sửa khoản 1 Điều 4, điểm a khoản 1–2 Điều 62, khoản 1 Điều 63, khoản 1 và khoản 4 Điều 64, khoản 1 Điều 65 (bỏ cụm quy hoạch tổng thể an toàn thực phẩm, chuyển sang xây dựng chiến lược quốc gia, chính sách, kế hoạch, quy chuẩn địa phương và chính sách phát triển chợ, siêu thị) |\n| **Điều 2** | Luật Công chứng (`53-2014-qh13`) | Sửa khoản 1 Điều 18, khoản 1 Điều 24, điểm b–c khoản 2 Điều 69; bãi bỏ điểm b khoản 1 Điều 70 |\n| **Điều 3** | [[sources/105-2016-qh13]] (Luật Dược 105/2016/QH13) | Sửa điểm a, c khoản 1, khoản 2, điểm a khoản 6, điểm a khoản 8 Điều 10 (trách nhiệm Bộ Y tế, Bộ Công Thương, địa phương về chiến lược, chính sách phát triển công nghiệp dược, hóa dược, vùng nuôi trồng dược liệu); sửa khoản 5 Điều 104 (Thủ tướng phê duyệt quy hoạch hệ thống kiểm nghiệm của Nhà nước); **bãi bỏ Điều 9** |\n| **Điều 4** | Luật Đầu tư (`67-2014-qh13`) | Sửa điểm b khoản 1 Điều 20, điểm a khoản 2 Điều 20 và bãi bỏ điểm đ khoản 2 Điều 20 (đầu tư phát triển hệ thống kết cấu hạ tầng khu công nghiệp, khu chế xuất, khu công nghệ cao, khu kinh tế phù hợp quy hoạch) |\n| **Điều 5** | Luật Đầu tư công (`49-2014-qh13`) | Bổ sung khoản 5 Điều 5 và sửa nhiều điều khoản về lập, thẩm định, quyết định, điều chỉnh quy hoạch và kế hoạch đầu tư công |\n| **Điều 6** | Luật Điện lực (`28-2004-qh11`, sửa bởi `24-2012-qh13`) | Sửa Điều 8, 9, 10 về quy hoạch phát triển điện lực quốc gia và phương án phát triển mạng lưới cấp điện trong quy hoạch tỉnh; bãi bỏ Điều 8a |\n| **Điều 7** | Luật Hóa chất (`06/2007/QH12`, đã hết hiệu lực) | Sửa khoản 2 Điều 6 (hệ thống kiểm soát an toàn hóa chất quốc gia), bổ sung khoản 5 Điều 10 (địa điểm bố trí KCN/cơ sở sản xuất hóa chất), sửa khoản 3 Điều 49, Điều 62 và **bãi bỏ Điều 8, Điều 9** (quy hoạch phát triển ngành công nghiệp hóa chất) |\n| **Điều 8** | Luật Khoa học và công nghệ (`29-2013-qh13`) | Sửa Điều 10, 11, 20, 44 và bãi bỏ khoản 2, 3 Điều 67 (hội nhập quy hoạch mạng lưới tổ chức KH&CN vào pháp luật về quy hoạch) |\n| **Điều 9** | Luật Phòng, chống tác hại của thuốc lá (`09-2012-qh13`) | Sửa khoản 3 Điều 4; bãi bỏ Điều 20 và khoản 1 Điều 21 (bỏ quy hoạch mạng lưới sản xuất, chế biến nguyên liệu thuốc lá) |\n| **Điều 10** | Luật Sử dụng năng lượng tiết kiệm và hiệu quả (`50-2010-qh12`) | Sửa Điều 6 (Quy hoạch tổng thể về năng lượng là quy hoạch ngành quốc gia do Bộ Công Thương tổ chức lập trình Thủ tướng phê duyệt); bãi bỏ điểm b khoản 1 và điểm b khoản 2 Điều 25 |\n| **Điều 11** | Luật Trẻ em (`102-2016-qh13`) | Sửa khoản 5 Điều 5, khoản 1 Điều 79, khoản 2 Điều 82 về lồng ghép mục tiêu trẻ em trong quy hoạch |\n| **Điều 12** | Hiệu lực thi hành | Có hiệu lực từ ngày **01/01/2019** |",
    "tags": [
-    "stub",
+    "luat",
+    "qh",
+    "quy-hoach",
+    "duoc",
     "kiem-tra-chuyen-nganh",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "55/2010/QH12",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2011-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=96032&pageid=27160"
+    },
+    {
+     "so_hieu": "105/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+    },
+    {
+     "so_hieu": "06/2007/QH12",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2008-07-01",
+     "het_hieu_luc_tu": "2026-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "69/2025/QH15"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=51260"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -68118,16 +69706,42 @@
    "slug": "28-2018-qh14",
    "duong_dan": "wiki/sources/28-2018-qh14.md",
    "loai_trang": "sources",
-   "tieu_de": "'Luật sửa đổi, bổ sung một số điều của Luật Dược 2018 (đã hợp nhất)'",
-   "muc": "Related sources (chưa có wiki)",
-   "noi_dung": "- Cần đối chiếu với các VB thay thế / bãi bỏ",
+   "tieu_de": "Luật 28/2018/QH14 — Sửa đổi 11 luật liên quan đến quy hoạch (HẾT HIỆU LỰC phần Luật Dược khi hợp nhất 76-VBHN/VPQH)",
+   "muc": "Nội dung đáng chú ý đối với ngành Dược, ATTP và Hóa chất",
+   "noi_dung": "- **Ngành Dược (Điều 3):** Bãi bỏ quy định quy hoạch phát triển ngành dược riêng tại **Điều 9** Luật Dược [[sources/105-2016-qh13]] (chỉ giữ thẩm quyền Thủ tướng Chính phủ phê duyệt quy hoạch hệ thống kiểm nghiệm thuốc, nguyên liệu làm thuốc của Nhà nước tại khoản 5 Điều 104). Nội dung này hiện đã được hợp nhất hoàn chỉnh vào [[sources/76-vbhn-vpqh]].\n- **An toàn thực phẩm (Điều 1) & Hóa chất (Điều 7):** Bỏ quy hoạch phát triển ngành hóa chất theo luật cũ `06/2007/QH12` (nay toàn bộ Luật Hóa chất năm 2007 đã hết hiệu lực, thay bằng Luật Hóa chất `69/2025/QH15`); đồng thời chuyển nhiệm vụ quản lý an toàn thực phẩm tại Điều 62–65 [[sources/55-2010-qh12]] từ \"quy hoạch tổng thể\" sang chiến lược, kế hoạch và quy chuẩn kỹ thuật.",
    "tags": [
-    "stub",
+    "luat",
+    "qh",
+    "quy-hoach",
+    "duoc",
     "kiem-tra-chuyen-nganh",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "06/2007/QH12",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2008-07-01",
+     "het_hieu_luc_tu": "2026-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "69/2025/QH15"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=51260"
+    },
+    {
+     "so_hieu": "69/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214610"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -68135,15 +69749,18 @@
    "slug": "28-2018-qh14",
    "duong_dan": "wiki/sources/28-2018-qh14.md",
    "loai_trang": "sources",
-   "tieu_de": "'Luật sửa đổi, bổ sung một số điều của Luật Dược 2018 (đã hợp nhất)'",
-   "muc": "Open questions",
-   "noi_dung": "- VB nào thay thế hoàn toàn?\n- Có còn áp dụng phần nào không?",
+   "tieu_de": "Luật 28/2018/QH14 — Sửa đổi 11 luật liên quan đến quy hoạch (HẾT HIỆU LỰC phần Luật Dược khi hợp nhất 76-VBHN/VPQH)",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/thuoc-theo-luat-duoc-2016]]\n- [[concepts/duoc-lieu-theo-luat-duoc-2016]]\n- [[concepts/doc-tinh-trang-hieu-luc]]",
    "tags": [
-    "stub",
+    "luat",
+    "qh",
+    "quy-hoach",
+    "duoc",
     "kiem-tra-chuyen-nganh",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -68152,15 +69769,120 @@
    "slug": "28-2018-qh14",
    "duong_dan": "wiki/sources/28-2018-qh14.md",
    "loai_trang": "sources",
-   "tieu_de": "'Luật sửa đổi, bổ sung một số điều của Luật Dược 2018 (đã hợp nhất)'",
-   "muc": "Notes",
-   "noi_dung": "- VB đã hết hiệu lực — không nạp toàn văn (rule Sếp Thắng 2026-10-10)\n- Cần đối chiếu với VB thay thế để có thông tin đầy đủ\n- Lưu ý: Có thể có phần chuyển tiếp trong VB thay thế (Điều X \"Chuyển tiếp\")\n- Tham khảo: ~0 mã HS trong biểu thuế (nếu có)",
+   "tieu_de": "Luật 28/2018/QH14 — Sửa đổi 11 luật liên quan đến quy hoạch (HẾT HIỆU LỰC phần Luật Dược khi hợp nhất 76-VBHN/VPQH)",
+   "muc": "Related sources",
+   "noi_dung": "- [[sources/76-vbhn-vpqh]] (Văn bản hợp nhất Luật Dược ngày 25/03/2026 — bản đang có hiệu lực hợp nhất [[sources/105-2016-qh13]], Luật 28/2018/QH14, [[sources/44-2024-qh15]], [[sources/114-2025-qh15]])\n- [[sources/105-2016-qh13]] (Luật Dược số 105/2016/QH13)\n- [[sources/44-2024-qh15]] (Luật sửa đổi, bổ sung một số điều của Luật Dược năm 2024)\n- [[sources/55-2010-qh12]] (Luật An toàn thực phẩm số 55/2010/QH12 — được sửa đổi tại Điều 1 Luật 28/2018/QH14)",
    "tags": [
-    "stub",
+    "luat",
+    "qh",
+    "quy-hoach",
+    "duoc",
     "kiem-tra-chuyen-nganh",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "28/2018/QH14",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-01-01",
+     "het_hieu_luc_tu": "2026-03-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-28-2018-qh14-26903.htm"
+    },
+    {
+     "so_hieu": "105/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+    },
+    {
+     "so_hieu": "55/2010/QH12",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2011-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=96032&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "28-2018-qh14#8",
+   "slug": "28-2018-qh14",
+   "duong_dan": "wiki/sources/28-2018-qh14.md",
+   "loai_trang": "sources",
+   "tieu_de": "Luật 28/2018/QH14 — Sửa đổi 11 luật liên quan đến quy hoạch (HẾT HIỆU LỰC phần Luật Dược khi hợp nhất 76-VBHN/VPQH)",
+   "muc": "Open questions",
+   "noi_dung": "- Hiện tại 10 trong số 11 luật được sửa đổi tại Luật 28/2018/QH14 đã có các luật mới hoặc luật sửa đổi thay thế về quy hoạch/chuyên ngành giai đoạn 2024–2026 (`69/2025/QH15`, `76-VBHN/VPQH`, `114/2025/QH15`); không sử dụng trực tiếp Luật 28/2018/QH14 mà phải tra văn bản hợp nhất hoặc luật chuyên ngành hiện hành.",
+   "tags": [
+    "luat",
+    "qh",
+    "quy-hoach",
+    "duoc",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "28/2018/QH14",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-01-01",
+     "het_hieu_luc_tu": "2026-03-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-28-2018-qh14-26903.htm"
+    },
+    {
+     "so_hieu": "69/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214610"
+    },
+    {
+     "so_hieu": "114/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-114-2025-qh15-468676.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "28-2018-qh14#9",
+   "slug": "28-2018-qh14",
+   "duong_dan": "wiki/sources/28-2018-qh14.md",
+   "loai_trang": "sources",
+   "tieu_de": "Luật 28/2018/QH14 — Sửa đổi 11 luật liên quan đến quy hoạch (HẾT HIỆU LỰC phần Luật Dược khi hợp nhất 76-VBHN/VPQH)",
+   "muc": "Notes",
+   "noi_dung": "- Đã tải và đọc toàn văn bản PDF Công báo số 777 + 778 ngày 15/07/2018 có lớp chữ sạch (`raw/download/congbaocdn.chinhphu.vn/28-2018-qh14.pdf`, 10 trang, SHA-256 `729088794b13c6b66f9cb44e69939e663ac7937eb4fbcb1216d18a97c109bd92`).\n- Đã cập nhật chính xác tên văn bản và trích xuất toàn bộ 12 điều (`Điều 1`–`Điều 12`) vào `xac_minh.dieu_khoan` trong `registry/van-ban/28-2018-qh14.yaml`.",
+   "tags": [
+    "luat",
+    "qh",
+    "quy-hoach",
+    "duoc",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -69820,15 +71542,174 @@
    "slug": "29-2025-tt-bkhcn",
    "duong_dan": "wiki/sources/29-2025-tt-bkhcn.md",
    "loai_trang": "sources",
-   "tieu_de": "Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn lĩnh vực công nghệ thông tin và viễn thông thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
-   "muc": "Summary",
-   "noi_dung": "**Stub page** — Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn lĩnh vực công nghệ thông tin và viễn thông thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ (29/2025/TT-BKHCN) ban hành 2025-11-13, có hiệu lực từ 2025-12-31, **hết hiệu lực từ 2026-07-01** theo tinh_trang trong registry.\n\n> **Lưu ý**: Theo rule của Sếp Thắng, VB bị bãi bỏ / hết hiệu lực chỉ tạo stub ngắn (metadata + quan hệ), KHÔNG nạp toàn văn PDF. Wiki này ghi nhận lịch sử.\n\n**Bãi bỏ / thay thế bởi**: Bị sửa bởi 26-2025-tt-bkhcn\n\n**Cơ quan ban hành**: Bộ Khoa học và Công nghệ",
+   "tieu_de": "TT 29/2025/TT-BKHCN — Danh mục hàng hóa nhóm 2 CNTT & viễn thông (ĐÃ HẾT HIỆU LỰC từ 01/07/2026)",
+   "muc": "",
+   "noi_dung": "# ⚠️ VĂN BẢN ĐÃ HẾT HIỆU LỰC TỪ NGÀY 01/07/2026\n\n> **Lưu ý hiệu lực:** **Thông tư 29/2025/TT-BKHCN** **đã HẾT HIỆU LỰC toàn bộ kể từ ngày 01/07/2026** theo **Điều 6 khoản 2 điểm a [[sources/36-2026-tt-bkhcn|Thông tư 36/2026/TT-BKHCN]]**. Từ ngày 01/07/2026, khi tra cứu danh mục sản phẩm, hàng hóa lĩnh vực CNTT & viễn thông thuộc diện kiểm tra chất lượng / chứng nhận hợp quy / công bố hợp quy khi nhập khẩu, **phải áp dụng [[sources/36-2026-tt-bkhcn|Thông tư 36/2026/TT-BKHCN]]** (phân loại theo mức độ rủi ro cao / trung bình) và [[sources/37-2026-nd-cp|Nghị định 37/2026/NĐ-CP]].",
    "tags": [
-    "stub",
+    "thong-tu",
+    "bkhcn",
+    "cntt-vien-thong",
     "kiem-tra-chuyen-nganh",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "29/2025/TT-BKHCN",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2025-12-31",
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "36/2026/TT-BKHCN"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=215881&pageid=27160"
+    },
+    {
+     "so_hieu": "36/2026/TT-BKHCN",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=218716&pageid=27160"
+    },
+    {
+     "so_hieu": "37/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-23",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=216764&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "29-2025-tt-bkhcn#2",
+   "slug": "29-2025-tt-bkhcn",
+   "duong_dan": "wiki/sources/29-2025-tt-bkhcn.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 29/2025/TT-BKHCN — Danh mục hàng hóa nhóm 2 CNTT & viễn thông (ĐÃ HẾT HIỆU LỰC từ 01/07/2026)",
+   "muc": "Summary",
+   "noi_dung": "**Thông tư 29/2025/TT-BKHCN** do Bộ trưởng Bộ Khoa học và Công nghệ Nguyễn Mạnh Hùng ký ban hành ngày **13/11/2025**, có hiệu lực thi hành từ ngày **31/12/2025** (thay thế [[sources/02-2024-tt-btttt|Thông tư 02/2024/TT-BTTTT]] đã hết hiệu lực), quy định **Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn lĩnh vực công nghệ thông tin và viễn thông** thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ (sau hợp nhất chức năng quản lý CNTT & viễn thông từ Bộ TT&TT).\n\nVăn bản gồm **07 điều** và **02 Phụ lục** (58 trang Công báo số 1617 + 1618 ngày 26/11/2025), tách biệt Danh mục hàng hóa nhóm 2 bắt buộc chứng nhận hợp quy + công bố hợp quy (Phụ lục I) và bắt buộc công bố hợp quy (Phụ lục II), đồng thời nêu nguyên tắc áp dụng với sản phẩm tích hợp và quy chuẩn mới. Văn bản chỉ áp dụng chuyển tiếp đến khi Danh mục phân loại theo rủi ro được ban hành (Điều 6) và **đã hết hiệu lực toàn bộ (`HET_HIEU_LUC`) từ ngày 01/07/2026**.",
+   "tags": [
+    "thong-tu",
+    "bkhcn",
+    "cntt-vien-thong",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "29/2025/TT-BKHCN",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2025-12-31",
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "36/2026/TT-BKHCN"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=215881&pageid=27160"
+    },
+    {
+     "so_hieu": "02/2024/TT-BTTTT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2024-05-15",
+     "het_hieu_luc_tu": "2025-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "29/2025/TT-BKHCN"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?classid=0&docid=210028&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "29-2025-tt-bkhcn#3",
+   "slug": "29-2025-tt-bkhcn",
+   "duong_dan": "wiki/sources/29-2025-tt-bkhcn.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 29/2025/TT-BKHCN — Danh mục hàng hóa nhóm 2 CNTT & viễn thông (ĐÃ HẾT HIỆU LỰC từ 01/07/2026)",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 13/11/2025 | Bộ trưởng Bộ KH&CN ban hành **Thông tư 29/2025/TT-BKHCN** (đăng Công báo số 1617 + 1618 ngày 26/11/2025) |\n| 31/12/2025 | Có hiệu lực thi hành (khoản 1 Điều 5); làm hết hiệu lực [[sources/02-2024-tt-btttt]] (khoản 2 Điều 5) |\n| **01/07/2026** | **Hết hiệu lực toàn bộ** theo Điều 6 khoản 2 điểm a [[sources/36-2026-tt-bkhcn]] (TT 36/2026/TT-BKHCN; khớp điều khoản hết hạn tại đoạn 2 Điều 6 TT 29/2025/TT-BKHCN) |\n| Hiện tại | **Hết hiệu lực** (`HET_HIEU_LUC`) — thay thế bởi [[sources/36-2026-tt-bkhcn]] |",
+   "tags": [
+    "thong-tu",
+    "bkhcn",
+    "cntt-vien-thong",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "29/2025/TT-BKHCN",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2025-12-31",
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "36/2026/TT-BKHCN"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=215881&pageid=27160"
+    },
+    {
+     "so_hieu": "36/2026/TT-BKHCN",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=218716&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "29-2025-tt-bkhcn#4",
+   "slug": "29-2025-tt-bkhcn",
+   "duong_dan": "wiki/sources/29-2025-tt-bkhcn.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 29/2025/TT-BKHCN — Danh mục hàng hóa nhóm 2 CNTT & viễn thông (ĐÃ HẾT HIỆU LỰC từ 01/07/2026)",
+   "muc": "Cấu trúc (07 điều & 02 Phụ lục)",
+   "noi_dung": "| Điều / Phụ lục | Nội dung |\n|---|---|\n| **Điều 1** | **Phạm vi điều chỉnh** — Danh mục hàng hóa nhóm 2 lĩnh vực CNTT & viễn thông, nguyên tắc quản lý và các trường hợp ngưng/chưa bắt buộc áp dụng một phần/toàn bộ QCVN; **chỉ áp dụng đối với sản phẩm có đồng thời mã HS và mô tả trong Danh mục** (khoản 2) |\n| **Điều 2** | **Đối tượng áp dụng** — Tổ chức, cá nhân sản xuất, kinh doanh và cơ quan/tổ chức liên quan đến quản lý chất lượng hàng hóa nhóm 2 tại Việt Nam |\n| **Điều 3** | **Danh mục sản phẩm, hàng hóa nhóm 2** — Phụ lục I (chứng nhận hợp quy + công bố hợp quy) và Phụ lục II (công bố hợp quy) |\n| **Điều 4** | **Nguyên tắc quản lý** — Quy tắc áp dụng cho sản phẩm tích hợp (khoản 2), hàng hóa chịu đồng thời nhiều QCVN (khoản 3), xung đột quy chuẩn ban hành trước (khoản 4) và cập nhật QCVN mới (khoản 5) |\n| **Điều 5** | **Hiệu lực thi hành** — Hiệu lực từ **31/12/2025**; chấm dứt hiệu lực [[sources/02-2024-tt-btttt]] |\n| **Điều 6** | **Điều khoản chuyển tiếp** — GCN hợp quy, Thông báo tiếp nhận CBHQ cấp trước 31/12/2025 giữ giá trị đến hết thời hạn ghi trên giấy; Thông tư hết hiệu lực khi ban hành Danh mục theo phân loại rủi ro |\n| **Điều 7** | **Tổ chức thực hiện** — Trách nhiệm của Ủy ban Tiêu chuẩn Đo lường Chất lượng Quốc gia và các cơ quan liên quan |\n| **Phụ lục I** | **Danh mục bắt buộc chứng nhận hợp quy và công bố hợp quy** (Thiết bị phát, thu-phát sóng vô tuyến điện cố định/di động như điện thoại di động `8517.13.00`/`8517.14.00`, trạm gốc, phát thanh/truyền hình quảng bá, ra đa; thiết bị vô tuyến cự ly ngắn SRD...) |\n| **Phụ lục II** | **Danh mục bắt buộc công bố hợp quy** (Máy tính để bàn `8471.41`, máy tính xách tay `8471.30.20`, máy tính bảng `8471.30.90`, thiết bị CNTT và thiết bị vô tuyến khác kèm ghi chú miễn/giảm điều kiện thử nghiệm như công suất EIRP dưới 60 mW ở băng tần 2,4/5 GHz hoặc thiết bị ≥300 kg dùng điện 3 pha) |",
+   "tags": [
+    "thong-tu",
+    "bkhcn",
+    "cntt-vien-thong",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "29-2025-tt-bkhcn#5",
+   "slug": "29-2025-tt-bkhcn",
+   "duong_dan": "wiki/sources/29-2025-tt-bkhcn.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 29/2025/TT-BKHCN — Danh mục hàng hóa nhóm 2 CNTT & viễn thông (ĐÃ HẾT HIỆU LỰC từ 01/07/2026)",
+   "muc": "Nội dung chính (lịch sử áp dụng giai đoạn 31/12/2025 – 30/06/2026)",
+   "noi_dung": "- **Nguyên tắc xác định đối tượng (khoản 2 Điều 1):** Hàng hóa phải có **đồng thời mã HS** (theo `31-2022-tt-btc`) **và mô tả hàng hóa** thuộc Phụ lục I hoặc II mới phải áp dụng quản lý chất lượng theo Thông tư này.\n- **Sản phẩm tích hợp & đa QCVN (khoản 2–3 Điều 4):** Sản phẩm nhóm 2 có tích hợp sản phẩm nhóm 2 khác (ví dụ máy tính xách tay tích hợp mô-đun thu phát vô tuyến) hoặc thuộc phạm vi nhiều QCVN phải thực hiện chứng nhận hợp quy, công bố hợp quy đầy đủ các QCVN tương ứng (trong đó quy chuẩn `QCVN 134:2024/BTTTT` từng dự kiến áp dụng từ 01/07/2026 cho ĐTDĐ và 01/07/2027 cho laptop/tablet có chức năng vô tuyến).\n- **Chuyển tiếp sang khung mới (Điều 7 [[sources/36-2026-tt-bkhcn]]):** Các GCN hợp quy và Thông báo tiếp nhận công bố hợp quy đã cấp trước ngày 01/07/2026 (bao gồm giấy cấp theo TT 29/2025/TT-BKHCN) tiếp tục có giá trị đến hết thời hạn ghi trên giấy.",
+   "tags": [
+    "thong-tu",
+    "bkhcn",
+    "cntt-vien-thong",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
    "van_ban_lien_quan": [
     {
      "so_hieu": "29/2025/TT-BKHCN",
@@ -69846,87 +71727,21 @@
    "canh_bao_hieu_luc": false
   },
   {
-   "chunk_id": "29-2025-tt-bkhcn#2",
-   "slug": "29-2025-tt-bkhcn",
-   "duong_dan": "wiki/sources/29-2025-tt-bkhcn.md",
-   "loai_trang": "sources",
-   "tieu_de": "Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn lĩnh vực công nghệ thông tin và viễn thông thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
-   "muc": "Tình trạng hiệu lực",
-   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 2025-11-13 | Bộ Khoa học và Công nghệ ban hành |\n| 2025-12-31 | Có hiệu lực |\n| 2026-07-01 | **Hết hiệu lực** |",
-   "tags": [
-    "stub",
-    "kiem-tra-chuyen-nganh",
-    "het-hieu-luc"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "29-2025-tt-bkhcn#3",
-   "slug": "29-2025-tt-bkhcn",
-   "duong_dan": "wiki/sources/29-2025-tt-bkhcn.md",
-   "loai_trang": "sources",
-   "tieu_de": "Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn lĩnh vực công nghệ thông tin và viễn thông thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
-   "muc": "Căn cứ pháp lý (nếu có)",
-   "noi_dung": "- Cần đối chiếu với VB thay thế / bãi bỏ\n- Có thể tham chiếu ở các concept/wiki source liên quan",
-   "tags": [
-    "stub",
-    "kiem-tra-chuyen-nganh",
-    "het-hieu-luc"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "29-2025-tt-bkhcn#4",
-   "slug": "29-2025-tt-bkhcn",
-   "duong_dan": "wiki/sources/29-2025-tt-bkhcn.md",
-   "loai_trang": "sources",
-   "tieu_de": "Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn lĩnh vực công nghệ thông tin và viễn thông thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
-   "muc": "Related concepts (chưa có wiki)",
-   "noi_dung": "- kiem-tra-chuyen-nganh (cần tạo concept)\n- các concept liên quan đến lĩnh vực của VB",
-   "tags": [
-    "stub",
-    "kiem-tra-chuyen-nganh",
-    "het-hieu-luc"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "29-2025-tt-bkhcn#5",
-   "slug": "29-2025-tt-bkhcn",
-   "duong_dan": "wiki/sources/29-2025-tt-bkhcn.md",
-   "loai_trang": "sources",
-   "tieu_de": "Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn lĩnh vực công nghệ thông tin và viễn thông thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
-   "muc": "Related sources (chưa có wiki)",
-   "noi_dung": "- Cần đối chiếu với các VB thay thế / bãi bỏ",
-   "tags": [
-    "stub",
-    "kiem-tra-chuyen-nganh",
-    "het-hieu-luc"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
    "chunk_id": "29-2025-tt-bkhcn#6",
    "slug": "29-2025-tt-bkhcn",
    "duong_dan": "wiki/sources/29-2025-tt-bkhcn.md",
    "loai_trang": "sources",
-   "tieu_de": "Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn lĩnh vực công nghệ thông tin và viễn thông thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
-   "muc": "Open questions",
-   "noi_dung": "- VB nào thay thế hoàn toàn?\n- Có còn áp dụng phần nào không?",
+   "tieu_de": "TT 29/2025/TT-BKHCN — Danh mục hàng hóa nhóm 2 CNTT & viễn thông (ĐÃ HẾT HIỆU LỰC từ 01/07/2026)",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/ktcl-bkhcn-2026]]\n- [[concepts/muc-do-rui-ro-hang-hoa]]\n- [[concepts/doc-tinh-trang-hieu-luc]]",
    "tags": [
-    "stub",
+    "thong-tu",
+    "bkhcn",
+    "cntt-vien-thong",
     "kiem-tra-chuyen-nganh",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -69935,15 +71750,113 @@
    "slug": "29-2025-tt-bkhcn",
    "duong_dan": "wiki/sources/29-2025-tt-bkhcn.md",
    "loai_trang": "sources",
-   "tieu_de": "Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn lĩnh vực công nghệ thông tin và viễn thông thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
-   "muc": "Notes",
-   "noi_dung": "- VB đã hết hiệu lực — không nạp toàn văn (rule Sếp Thắng 2026-10-10)\n- Cần đối chiếu với VB thay thế để có thông tin đầy đủ\n- Lưu ý: Có thể có phần chuyển tiếp trong VB thay thế (Điều X \"Chuyển tiếp\")\n- Tham khảo: ~52 mã HS trong biểu thuế (nếu có)",
+   "tieu_de": "TT 29/2025/TT-BKHCN — Danh mục hàng hóa nhóm 2 CNTT & viễn thông (ĐÃ HẾT HIỆU LỰC từ 01/07/2026)",
+   "muc": "Related sources",
+   "noi_dung": "- [[sources/36-2026-tt-bkhcn]] (Thông tư 36/2026/TT-BKHCN — văn bản thay thế TT 29/2025/TT-BKHCN từ 01/07/2026 theo mức độ rủi ro)\n- [[sources/37-2026-nd-cp]] (Nghị định 37/2026/NĐ-CP quy định chi tiết Luật Chất lượng SP, HH theo mức độ rủi ro từ 01/07/2026)\n- [[sources/02-2024-tt-btttt]] (Thông tư 02/2024/TT-BTTTT — văn bản tiền nhiệm đã hết hiệu lực từ 31/12/2025)",
    "tags": [
-    "stub",
+    "thong-tu",
+    "bkhcn",
+    "cntt-vien-thong",
     "kiem-tra-chuyen-nganh",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "36/2026/TT-BKHCN",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=218716&pageid=27160"
+    },
+    {
+     "so_hieu": "29/2025/TT-BKHCN",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2025-12-31",
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "36/2026/TT-BKHCN"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=215881&pageid=27160"
+    },
+    {
+     "so_hieu": "37/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-23",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=216764&pageid=27160"
+    },
+    {
+     "so_hieu": "02/2024/TT-BTTTT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2024-05-15",
+     "het_hieu_luc_tu": "2025-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "29/2025/TT-BKHCN"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?classid=0&docid=210028&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "29-2025-tt-bkhcn#8",
+   "slug": "29-2025-tt-bkhcn",
+   "duong_dan": "wiki/sources/29-2025-tt-bkhcn.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 29/2025/TT-BKHCN — Danh mục hàng hóa nhóm 2 CNTT & viễn thông (ĐÃ HẾT HIỆU LỰC từ 01/07/2026)",
+   "muc": "Open questions",
+   "noi_dung": "- Hiện vẫn còn một số dòng trong bản chụp biểu thuế cũ (`bieu-thue@2026.04.05`) dẫn chiếu số hiệu `29/2025/TT-BKHCN` (52 mã HS); khi đối chiếu thực tế cho tờ khai từ 01/07/2026 cần ánh xạ trực tiếp sang [[sources/36-2026-tt-bkhcn]].",
+   "tags": [
+    "thong-tu",
+    "bkhcn",
+    "cntt-vien-thong",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "29/2025/TT-BKHCN",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2025-12-31",
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "36/2026/TT-BKHCN"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=215881&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "29-2025-tt-bkhcn#9",
+   "slug": "29-2025-tt-bkhcn",
+   "duong_dan": "wiki/sources/29-2025-tt-bkhcn.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 29/2025/TT-BKHCN — Danh mục hàng hóa nhóm 2 CNTT & viễn thông (ĐÃ HẾT HIỆU LỰC từ 01/07/2026)",
+   "muc": "Notes",
+   "noi_dung": "- Đã đọc toàn văn bản PDF Công báo số 1617 + 1618 ngày 26/11/2025 có lớp chữ sạch (`raw/download/congbaocdn.chinhphu.vn/29-2025-tt-bkhcn.pdf`, 58 trang, trang Công báo 35–92).\n- Đã trích xuất nguyên văn toàn bộ 07 điều (`Điều 1`–`Điều 7`) vào `xac_minh.dieu_khoan` trong `registry/van-ban/29-2025-tt-bkhcn.yaml`.",
+   "tags": [
+    "thong-tu",
+    "bkhcn",
+    "cntt-vien-thong",
+    "kiem-tra-chuyen-nganh",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -73850,15 +75763,18 @@
    "slug": "34-2005-qh11",
    "duong_dan": "wiki/sources/34-2005-qh11.md",
    "loai_trang": "sources",
-   "tieu_de": "'Luật Dược 2005 (bản gốc, đã hết hiệu lực)'",
-   "muc": "Summary",
-   "noi_dung": "**Stub page** — 'Luật Dược 2005 (bản gốc, đã hết hiệu lực)' (34/2005/QH11) ban hành , có hiệu lực từ , **hết hiệu lực từ ** theo tinh_trang trong registry.\n\n> **Lưu ý**: Theo rule của Sếp Thắng, VB bị bãi bỏ / hết hiệu lực chỉ tạo stub ngắn (metadata + quan hệ), KHÔNG nạp toàn văn PDF. Wiki này ghi nhận lịch sử.\n\n**Bãi bỏ / thay thế bởi**: Đã thay thế bởi Luật Dược 2016\n\n**Cơ quan ban hành**: Quốc hội",
+   "tieu_de": "Luật Dược 34/2005/QH11 — Bản gốc năm 2005 (ĐÃ HẾT HIỆU LỰC từ 01/01/2017, thay bởi 105/2016/QH13)",
+   "muc": "",
+   "noi_dung": "# ⚠️ VĂN BẢN ĐÃ HẾT HIỆU LỰC TỪ NGÀY 01/01/2017\n\n> **Lưu ý hiệu lực:** **Luật Dược số 34/2005/QH11** **đã HẾT HIỆU LỰC toàn bộ kể từ ngày 01/01/2017** theo **Điều 116 khoản 4 [[sources/105-2016-qh13|Luật Dược số 105/2016/QH13]]**. Không sử dụng văn bản này cho khai báo hải quan và thủ tục xuất nhập khẩu thuốc, dược liệu hiện hành; mọi tra cứu hiệu lực hiện nay **phải sử dụng [[sources/76-vbhn-vpqh|Văn bản hợp nhất Luật Dược 76-VBHN/VPQH]]** (hợp nhất [[sources/105-2016-qh13]], Luật 28/2018/QH14 đã hợp nhất, [[sources/44-2024-qh15]] và [[sources/114-2025-qh15]]).",
    "tags": [
-    "stub",
+    "luat",
+    "qh",
+    "duoc",
     "kiem-tra-chuyen-nganh",
+    "byt",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [
     {
      "so_hieu": "34/2005/QH11",
@@ -73870,7 +75786,27 @@
       "105/2016/QH13"
      ],
      "bi_bai_bo_boi": [],
-     "nguon_a": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=9345"
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=14757"
+    },
+    {
+     "so_hieu": "105/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+    },
+    {
+     "so_hieu": "28/2018/QH14",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2019-01-01",
+     "het_hieu_luc_tu": "2026-03-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-28-2018-qh14-26903.htm"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -73880,16 +75816,32 @@
    "slug": "34-2005-qh11",
    "duong_dan": "wiki/sources/34-2005-qh11.md",
    "loai_trang": "sources",
-   "tieu_de": "'Luật Dược 2005 (bản gốc, đã hết hiệu lực)'",
-   "muc": "Tình trạng hiệu lực",
-   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n|  | Quốc hội ban hành |\n|  | Có hiệu lực |\n|  | **Hết hiệu lực** |",
+   "tieu_de": "Luật Dược 34/2005/QH11 — Bản gốc năm 2005 (ĐÃ HẾT HIỆU LỰC từ 01/01/2017, thay bởi 105/2016/QH13)",
+   "muc": "Summary",
+   "noi_dung": "**Luật Dược số 34/2005/QH11** được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XI, kỳ họp thứ 7 thông qua ngày **14/06/2005** (Chủ tịch Quốc hội Nguyễn Văn An ký chứng thực), có hiệu lực thi hành từ ngày **01/10/2005** (Điều 72). Đây là đạo luật nền tảng đầu tiên điều chỉnh toàn diện hoạt động dược tại Việt Nam trước khi Luật Dược 2016 ra đời.\n\nTheo bản gốc chính thức trên Cổng thông tin điện tử Chính phủ (`15216_l34qh.rtf`), Luật gồm **11 chương, 73 điều** (từ Điều 1 đến Điều 73), quy định về kinh doanh thuốc (bao gồm xuất khẩu, nhập khẩu thuốc tại Điều 18–20), đăng ký và lưu hành thuốc (Điều 35–38), thuốc đông y và thuốc từ dược liệu (Điều 39–45), quản lý thuốc phải kiểm soát đặc biệt (Điều 63–65), tiêu chuẩn chất lượng và kiểm nghiệm thuốc (Điều 66–70). **Hiện đã hết hiệu lực toàn bộ (`HET_HIEU_LUC`) từ ngày 01/01/2017**.",
    "tags": [
-    "stub",
+    "luat",
+    "qh",
+    "duoc",
     "kiem-tra-chuyen-nganh",
+    "byt",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "34/2005/QH11",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2005-10-01",
+     "het_hieu_luc_tu": "2017-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "105/2016/QH13"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=14757"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -73897,16 +75849,42 @@
    "slug": "34-2005-qh11",
    "duong_dan": "wiki/sources/34-2005-qh11.md",
    "loai_trang": "sources",
-   "tieu_de": "'Luật Dược 2005 (bản gốc, đã hết hiệu lực)'",
-   "muc": "Căn cứ pháp lý (nếu có)",
-   "noi_dung": "- Cần đối chiếu với VB thay thế / bãi bỏ\n- Có thể tham chiếu ở các concept/wiki source liên quan",
+   "tieu_de": "Luật Dược 34/2005/QH11 — Bản gốc năm 2005 (ĐÃ HẾT HIỆU LỰC từ 01/01/2017, thay bởi 105/2016/QH13)",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 14/06/2005 | Quốc hội khóa XI thông qua **Luật Dược số 34/2005/QH11** tại kỳ họp thứ 7 |\n| 01/10/2005 | Có hiệu lực thi hành (Điều 72) |\n| **01/01/2017** | **Hết hiệu lực toàn bộ**, bị thay thế bởi [[sources/105-2016-qh13]] (Luật Dược 105/2016/QH13, Điều 116 khoản 4; có quy định chuyển tiếp tại Điều 115 của `76-VBHN/VPQH` đối với GCN đủ ĐK kinh doanh dược cấp theo Luật 34/2005/QH11 còn hạn) |\n| Hiện tại | **Hết hiệu lực** (`HET_HIEU_LUC`) — bản hợp nhất đang có hiệu lực là [[sources/76-vbhn-vpqh]] |",
    "tags": [
-    "stub",
+    "luat",
+    "qh",
+    "duoc",
     "kiem-tra-chuyen-nganh",
+    "byt",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "34/2005/QH11",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2005-10-01",
+     "het_hieu_luc_tu": "2017-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "105/2016/QH13"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=14757"
+    },
+    {
+     "so_hieu": "105/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -73914,15 +75892,18 @@
    "slug": "34-2005-qh11",
    "duong_dan": "wiki/sources/34-2005-qh11.md",
    "loai_trang": "sources",
-   "tieu_de": "'Luật Dược 2005 (bản gốc, đã hết hiệu lực)'",
-   "muc": "Related concepts (chưa có wiki)",
-   "noi_dung": "- kiem-tra-chuyen-nganh (cần tạo concept)\n- các concept liên quan đến lĩnh vực của VB",
+   "tieu_de": "Luật Dược 34/2005/QH11 — Bản gốc năm 2005 (ĐÃ HẾT HIỆU LỰC từ 01/01/2017, thay bởi 105/2016/QH13)",
+   "muc": "Cấu trúc (11 chương, 73 điều)",
+   "noi_dung": "| Chương | Nội dung | Điều |\n|---|---|---|\n| **Chương I** | Những quy định chung (phạm vi điều chỉnh, 16+ định nghĩa từ ngữ về thuốc, nguyên liệu làm thuốc, thuốc đông y/từ dược liệu, chính sách, dự trữ quốc gia, quản lý giá, hành vi bị nghiêm cấm) | Điều 1 – 9 |\n| **Chương II** | Kinh doanh thuốc (Mục I: điều kiện & chứng chỉ hành nghề; Mục II: sản xuất; **Mục III: xuất khẩu, nhập khẩu thuốc**; Mục IV: bán buôn; Mục V: bán lẻ; Mục VI: dịch vụ bảo quản & kiểm nghiệm thuốc) | Điều 10 – 34 |\n| **Chương III** | Đăng ký, lưu hành thuốc (căn cứ & thời hạn 06 tháng cấp số đăng ký, điều kiện lưu hành, nhãn thuốc, thu hồi thuốc) | Điều 35 – 38 |\n| **Chương IV** | Thuốc đông y và thuốc từ dược liệu (chất lượng & bảo quản dược liệu, miễn đăng ký thuốc thang/dược liệu thô/thuốc phiến, xuất khẩu/nhập khẩu thuốc đông y và thuốc từ dược liệu) | Điều 39 – 45 |\n| **Chương V** | Đơn thuốc và sử dụng thuốc | Điều 46 – 47 |\n| **Chương VI** | Cung ứng thuốc | Điều 48 – 50 |\n| **Chương VII** | Thông tin, quảng cáo thuốc | Điều 51 – 53 |\n| **Chương VIII** | Thử thuốc trên lâm sàng | Điều 54 – 62 |\n| **Chương IX** | Quản lý thuốc gây nghiện, thuốc hướng tâm thần, tiền chất dùng làm thuốc và thuốc phóng xạ (thuốc phải kiểm soát đặc biệt) | Điều 63 – 65 |\n| **Chương X** | Tiêu chuẩn chất lượng thuốc và kiểm nghiệm thuốc | Điều 66 – 70 |\n| **Chương XI** | Điều khoản thi hành (chuyển tiếp, hiệu lực từ 01/10/2005, hướng dẫn thi hành) | Điều 71 – 73 |",
    "tags": [
-    "stub",
+    "luat",
+    "qh",
+    "duoc",
     "kiem-tra-chuyen-nganh",
+    "byt",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -73931,15 +75912,18 @@
    "slug": "34-2005-qh11",
    "duong_dan": "wiki/sources/34-2005-qh11.md",
    "loai_trang": "sources",
-   "tieu_de": "'Luật Dược 2005 (bản gốc, đã hết hiệu lực)'",
-   "muc": "Related sources (chưa có wiki)",
-   "noi_dung": "- Cần đối chiếu với các VB thay thế / bãi bỏ",
+   "tieu_de": "Luật Dược 34/2005/QH11 — Bản gốc năm 2005 (ĐÃ HẾT HIỆU LỰC từ 01/01/2017, thay bởi 105/2016/QH13)",
+   "muc": "Nội dung quy định lịch sử liên quan đến xuất nhập khẩu thuốc và dược liệu (trước 01/01/2017)",
+   "noi_dung": "### 1. Quyền, nghĩa vụ và phạm vi nhập khẩu thuốc (Điều 18, 19, 20)\n\n- **Xuất khẩu, nhập khẩu và ủy thác (Điều 18, Điều 19):** Doanh nghiệp xuất khẩu, nhập khẩu thuốc tuân thủ thực hành tốt bảo quản, phân phối, kê khai giá thuốc và chịu trách nhiệm về chất lượng thuốc XNK; cơ sở kinh doanh thuốc được quyền ủy thác xuất khẩu, nhập khẩu.\n- **Phạm vi nhập khẩu thuốc (Điều 20):**\n  - **Thuốc có số đăng ký tại Việt Nam (khoản 1):** Được nhập khẩu **không hạn chế về số lượng**, trừ vắc xin, sinh phẩm y tế và thuốc thuộc danh mục phải kiểm soát đặc biệt (Điều 63).\n  - **Thuốc chưa có số đăng ký (khoản 2):** Chỉ được nhập khẩu với số lượng nhất định trong 07 trường hợp: chứa dược chất chưa có SĐK hoặc đã có SĐK nhưng chưa đáp ứng đủ nhu cầu điều trị; đáp ứng nhu cầu cấp bách phòng chống dịch, thiên tai, thảm họa, điều trị đặc biệt; chương trình mục tiêu y tế quốc gia; viện trợ/viện trợ nhân đạo; thử lâm sàng, làm mẫu đăng ký, trưng bày triển lãm/hội chợ; mang theo chữa bệnh cho bản thân; hoặc phi mậu dịch khác.\n\n### 2. Dược liệu, thuốc đông y/từ dược liệu và thuốc kiểm soát đặc biệt (Điều 40–45, Điều 63–65)\n\n- **Thuốc đông y và thuốc từ dược liệu (Điều 2 khoản 8–9, Điều 43–45):** Luật 2005 phân biệt \"thuốc từ dược liệu\" với thuốc có hoạt chất tinh khiết chiết xuất từ dược liệu hoặc kết hợp hoạt chất hóa học tổng hợp; miễn đăng ký đối với thuốc thang cân theo đơn tại cơ sở KCB đông y, **dược liệu thô, thuốc phiến** (điểm b khoản 1 Điều 43); hoạt động xuất nhập khẩu dẫn chiếu theo Mục III Chương II (Điều 45).\n- **Thuốc thuộc danh mục phải kiểm soát đặc biệt (Điều 63–65):** Gồm thuốc gây nghiện, thuốc hướng tâm thần, tiền chất dùng làm thuốc và thuốc phóng xạ; việc XNK và vận chuyển phải tuân thủ quy định riêng của pháp luật và lưu giữ chứng từ ít nhất 02 năm sau khi thuốc hết hạn sử dụng.",
    "tags": [
-    "stub",
+    "luat",
+    "qh",
+    "duoc",
     "kiem-tra-chuyen-nganh",
+    "byt",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -73948,15 +75932,18 @@
    "slug": "34-2005-qh11",
    "duong_dan": "wiki/sources/34-2005-qh11.md",
    "loai_trang": "sources",
-   "tieu_de": "'Luật Dược 2005 (bản gốc, đã hết hiệu lực)'",
-   "muc": "Open questions",
-   "noi_dung": "- VB nào thay thế hoàn toàn?\n- Có còn áp dụng phần nào không?",
+   "tieu_de": "Luật Dược 34/2005/QH11 — Bản gốc năm 2005 (ĐÃ HẾT HIỆU LỰC từ 01/01/2017, thay bởi 105/2016/QH13)",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/thuoc-theo-luat-duoc-2016]]\n- [[concepts/duoc-lieu-theo-luat-duoc-2016]]\n- [[concepts/doc-tinh-trang-hieu-luc]]",
    "tags": [
-    "stub",
+    "luat",
+    "qh",
+    "duoc",
     "kiem-tra-chuyen-nganh",
+    "byt",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -73965,15 +75952,124 @@
    "slug": "34-2005-qh11",
    "duong_dan": "wiki/sources/34-2005-qh11.md",
    "loai_trang": "sources",
-   "tieu_de": "'Luật Dược 2005 (bản gốc, đã hết hiệu lực)'",
-   "muc": "Notes",
-   "noi_dung": "- VB đã hết hiệu lực — không nạp toàn văn (rule Sếp Thắng 2026-10-10)\n- Cần đối chiếu với VB thay thế để có thông tin đầy đủ\n- Lưu ý: Có thể có phần chuyển tiếp trong VB thay thế (Điều X \"Chuyển tiếp\")\n- Tham khảo: ~0 mã HS trong biểu thuế (nếu có)",
+   "tieu_de": "Luật Dược 34/2005/QH11 — Bản gốc năm 2005 (ĐÃ HẾT HIỆU LỰC từ 01/01/2017, thay bởi 105/2016/QH13)",
+   "muc": "Related sources",
+   "noi_dung": "- [[sources/105-2016-qh13]] (Luật Dược số 105/2016/QH13 — thay thế toàn bộ Luật Dược 34/2005/QH11 từ 01/01/2017)\n- [[sources/76-vbhn-vpqh]] (Văn bản hợp nhất Luật Dược ngày 25/03/2026 — bản đang áp dụng hiện hành, vẫn giữ Điều 115 quy định chuyển tiếp đối với giấy chứng nhận cấp theo Luật 34/2005/QH11 còn hiệu lực)\n- [[sources/163-2025-nd-cp]] (Nghị định 163/2025/NĐ-CP hướng dẫn thi hành Luật Dược hiện hành)\n- [[sources/09-2024-tt-byt]] (Thông tư 09/2024/TT-BYT ban hành danh mục thuốc, dược liệu kèm mã HS)",
    "tags": [
-    "stub",
+    "luat",
+    "qh",
+    "duoc",
     "kiem-tra-chuyen-nganh",
+    "byt",
     "het-hieu-luc"
    ],
-   "confidence": "medium",
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "105/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+    },
+    {
+     "so_hieu": "34/2005/QH11",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2005-10-01",
+     "het_hieu_luc_tu": "2017-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "105/2016/QH13"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=14757"
+    },
+    {
+     "so_hieu": "163/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214322"
+    },
+    {
+     "so_hieu": "09/2024/TT-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-07-26",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/TW/Pages/ivbpq-toanvan.aspx?ItemID=169844"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "34-2005-qh11#8",
+   "slug": "34-2005-qh11",
+   "duong_dan": "wiki/sources/34-2005-qh11.md",
+   "loai_trang": "sources",
+   "tieu_de": "Luật Dược 34/2005/QH11 — Bản gốc năm 2005 (ĐÃ HẾT HIỆU LỰC từ 01/01/2017, thay bởi 105/2016/QH13)",
+   "muc": "Open questions",
+   "noi_dung": "- Toàn bộ quy định hiện hành về nhập khẩu thuốc, dược liệu và nguyên liệu làm thuốc đã chuyển sang [[sources/76-vbhn-vpqh]] (`105/2016/QH13` hợp nhất cùng [[sources/44-2024-qh15]] và [[sources/114-2025-qh15]]) và [[sources/163-2025-nd-cp]]; chỉ cần tra lại Luật 34/2005/QH11 khi giải quyết hồ sơ lịch sử trước năm 2017 hoặc đối chiếu chuyển tiếp tại Điều 115.",
+   "tags": [
+    "luat",
+    "qh",
+    "duoc",
+    "kiem-tra-chuyen-nganh",
+    "byt",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "105/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+    },
+    {
+     "so_hieu": "34/2005/QH11",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2005-10-01",
+     "het_hieu_luc_tu": "2017-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "105/2016/QH13"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=14757"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "34-2005-qh11#9",
+   "slug": "34-2005-qh11",
+   "duong_dan": "wiki/sources/34-2005-qh11.md",
+   "loai_trang": "sources",
+   "tieu_de": "Luật Dược 34/2005/QH11 — Bản gốc năm 2005 (ĐÃ HẾT HIỆU LỰC từ 01/01/2017, thay bởi 105/2016/QH13)",
+   "muc": "Notes",
+   "noi_dung": "- Đã tải tệp `.rtf` gốc trên Cổng thông tin điện tử Chính phủ (`raw/download/datafiles.chinhphu.vn/34-2005-qh11.rtf`, SHA-256 `250a1ecacaed50c2c9d7d7d96f9d29f617173ba9fc8724e4c73b78bc85b4c4be`) và giải mã TCVN3 sang bản UTF-8 sạch (`raw/download/datafiles.chinhphu.vn/34-2005-qh11.txt`, 11 chương, 73 điều).\n- Đã trích xuất 11 điều khoản nguyên văn (bao gồm `Điều 20` Phạm vi nhập khẩu thuốc và `Điều 72` Hiệu lực thi hành) vào `xac_minh.dieu_khoan` trong `registry/van-ban/34-2005-qh11.yaml`.",
+   "tags": [
+    "luat",
+    "qh",
+    "duoc",
+    "kiem-tra-chuyen-nganh",
+    "byt",
+    "het-hieu-luc"
+   ],
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -81467,15 +83563,16 @@
    "slug": "45-2024-tt-bct",
    "duong_dan": "wiki/sources/45-2024-tt-bct.md",
    "loai_trang": "sources",
-   "tieu_de": "(chưa có tiêu đề) 45/2024/TT-BCT",
-   "muc": "Summary",
-   "noi_dung": "**Stub page** — (chưa có tiêu đề) 45/2024/TT-BCT (45/2024/TT-BCT) ban hành , có hiệu lực từ , **đang còn hiệu lực**.\n\n> **Lưu ý**: Wiki tạm thời — chưa có toàn văn PDF. Cần tải về để đọc kỹ. Có thể dùng:\n> - `node tools/nap.mjs \"<url>\" --so-hieu \"45/2024/TT-BCT\"`\n> - Tải từ datafiles.chinhphu.vn hoặc congbaocdn.chinhphu.vn\n\n**Cơ quan ban hành**: Bộ Công Thương",
+   "tieu_de": "45/2024/TT-BCT — Hồ sơ rà soát lệch số hiệu (SO_HIEU_LECH) — không tồn tại trên Công báo / Bộ Công Thương",
+   "muc": "",
+   "noi_dung": "# ⚠️ LƯU Ý XÁC MINH: KHÔNG TỒN TẠI VĂN BẢN SỐ HIỆU `45/2024/TT-BCT` (`SO_HIEU_LECH`)\n\n> **Kết luận kiểm chứng nguồn bậc A:** Qua tra cứu trực tiếp trên **Công báo Chính phủ** (`congbao.chinhphu.vn`), **Cổng thông tin VBQPPL Chính phủ** (`vanban.chinhphu.vn`), **CSDLQG về pháp luật** (`vbpl.vn`) và **Cổng TTĐT Bộ Công Thương** (`moit.gov.vn`), **không tồn tại Thông tư số `45/2024/TT-BCT`**. Số hiệu này là mục nhập bị lệch từ cột chính sách của biểu thuế (`hs-code-api`, 1 mã HS) và được giữ lại trong sổ ở trạng thái chặn `xac_minh.chan.ma = SO_HIEU_LECH` để cảnh báo đối chiếu ngược sang văn bản thật.",
    "tags": [
-    "stub",
+    "thong-tu",
+    "bct",
     "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
+    "so-hieu-lech"
    ],
-   "confidence": "low",
+   "confidence": "high",
    "van_ban_lien_quan": [
     {
      "so_hieu": "45/2024/TT-BCT",
@@ -81495,16 +83592,38 @@
    "slug": "45-2024-tt-bct",
    "duong_dan": "wiki/sources/45-2024-tt-bct.md",
    "loai_trang": "sources",
-   "tieu_de": "(chưa có tiêu đề) 45/2024/TT-BCT",
-   "muc": "Tình trạng hiệu lực",
-   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n|  | Bộ Công Thương ban hành |\n|  | Có hiệu lực |\n| Đang hiệu lực | |",
+   "tieu_de": "45/2024/TT-BCT — Hồ sơ rà soát lệch số hiệu (SO_HIEU_LECH) — không tồn tại trên Công báo / Bộ Công Thương",
+   "muc": "Summary",
+   "noi_dung": "Bản ghi `45-2024-tt-bct` được khởi tạo ngày **04/10/2026** từ `data/legal-docs.json` của `hs-code-api` (nơi số hiệu `45/2024/TT-BCT` xuất hiện ở vai trò `CHINH_SACH_MA_HS` cho **01 mã HS** trong biểu thuế), kèm trường `ngay_ban_hanh: 2023-12-29` và không có trích yếu tên văn bản.\n\nKiểm chứng trên các nguồn bậc A cho thấy **không có Thông tư nào mang số hiệu `45/2024/TT-BCT`** được Bộ Công Thương ban hành hay đăng Công báo. Đáng chú ý, ngày ban hành `29/12/2023` ghi trong mục dữ liệu nguồn **trùng khớp tuyệt đối với ngày ban hành của Thông tư 45/2023/TT-BCT** (`29/12/2023`, sửa đổi `23-2021-tt-bct` về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu, có hiệu lực từ `15/02/2024` và đăng Công báo tháng 01/2024).",
    "tags": [
-    "stub",
+    "thong-tu",
+    "bct",
     "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
+    "so-hieu-lech"
    ],
-   "confidence": "low",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "45/2024/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/TW/Pages/vbpq-timkiem.aspx?Keyword=45%2F2024%2FTT-BCT"
+    },
+    {
+     "so_hieu": "45/2023/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-02-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-45-2023-tt-bct-40975/48170.htm"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -81512,16 +83631,38 @@
    "slug": "45-2024-tt-bct",
    "duong_dan": "wiki/sources/45-2024-tt-bct.md",
    "loai_trang": "sources",
-   "tieu_de": "(chưa có tiêu đề) 45/2024/TT-BCT",
-   "muc": "Căn cứ pháp lý (theo registry)",
-   "noi_dung": "- Căn cứ vào các luật/nghị định chuyên ngành",
+   "tieu_de": "45/2024/TT-BCT — Hồ sơ rà soát lệch số hiệu (SO_HIEU_LECH) — không tồn tại trên Công báo / Bộ Công Thương",
+   "muc": "Hồ sơ đối chiếu số hiệu bị lệch (`SO_HIEU_LECH`)",
+   "noi_dung": "| Tiêu chí | Ghi nhận trong dữ liệu nhập | Kết quả đối chiếu nguồn bậc A |\n|---|---|---|\n| Số hiệu truy vấn | `45/2024/TT-BCT` | **Không tồn tại** trên `congbao.chinhphu.vn`, `vanban.chinhphu.vn`, `vbpl.vn`, `moit.gov.vn` |\n| Ngày ban hành trong metadata nhập | `2023-12-29` | Trùng đúng ngày ban hành **29/12/2023** của Thông tư **45/2023/TT-BCT** (hiệu lực `15/02/2024`, đăng Công báo số 95+96 ngày `19/01/2024`) |\n| Số mã HS bị ảnh hưởng | `1` mã HS (`nhu-cau/bieu-thue-van-ban.json`, `nhu-cau/hs-code-api.json`) | Cần mở issue đối chiếu mã HS cụ thể bên kho `hs-code-api` để xác định đúng số hiệu gốc |\n| Trạng thái chặn trong sổ | `xac_minh.chan.ma: SO_HIEU_LECH` (`hieu_luc_da_doi_chieu: false`) | Giữ nguyên trạng thái chặn để không phát sinh trích dẫn ảo |",
    "tags": [
-    "stub",
+    "thong-tu",
+    "bct",
     "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
+    "so-hieu-lech"
    ],
-   "confidence": "low",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "45/2024/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/TW/Pages/vbpq-timkiem.aspx?Keyword=45%2F2024%2FTT-BCT"
+    },
+    {
+     "so_hieu": "45/2023/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-02-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-45-2023-tt-bct-40975/48170.htm"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -81529,16 +83670,38 @@
    "slug": "45-2024-tt-bct",
    "duong_dan": "wiki/sources/45-2024-tt-bct.md",
    "loai_trang": "sources",
-   "tieu_de": "(chưa có tiêu đề) 45/2024/TT-BCT",
-   "muc": "Quy trình HQ (cần đọc toàn văn để xác nhận)",
-   "noi_dung": "1. Xác định hàng thuộc phạm vi KTCL\n2. Tra mã HS\n3. Nộp hồ sơ KTCL tại Bộ Công Thương\n4. Cấp Giấy chứng nhận\n5. Khai báo HQ\n6. Thông quan",
+   "tieu_de": "45/2024/TT-BCT — Hồ sơ rà soát lệch số hiệu (SO_HIEU_LECH) — không tồn tại trên Công báo / Bộ Công Thương",
+   "muc": "Các văn bản thật có số hiệu gần kề cần đối chiếu",
+   "noi_dung": "Khi xử lý mã HS đang gắn nhãn `45/2024/TT-BCT` bên `hs-code-api`, người tra cứu cần kiểm tra xem nguồn gốc dữ liệu biểu thuế đã gõ nhầm từ văn bản nào trong 03 văn bản có thật dưới đây:\n\n1. **Thông tư 45/2023/TT-BCT** (`45-2023-tt-bct`, đã có trong `registry/van-ban/45-2023-tt-bct.yaml`, `CON_HIEU_LUC`): Ban hành đúng ngày **29/12/2023**, hiệu lực từ **15/02/2024**, sửa đổi, bổ sung Thông tư `23-2021-tt-bct` về danh mục chủng loại, tiêu chuẩn chất lượng **khoáng sản xuất khẩu** do Bộ Công Thương quản lý (29 dòng danh mục HS tại `danh-muc/45-2023-tt-bct.csv`, biểu thuế dẫn 15 mã HS). Khả năng cao nhất đây là nguồn gốc của lỗi gõ nhầm năm `2023` thành `2024` vì trùng khớp `ngay_ban_hanh: 2023-12-29` và năm bắt đầu hiệu lực là `2024`.\n2. **Thông tư số 45 năm 2024 của Bộ Tài chính** (`45-2024-tt-btc`, ban hành ngày 01/07/2024): Quy định về phương pháp định giá chung đối với hàng hóa, dịch vụ do Nhà nước định giá (trùng số `45/2024`, khác đuôi cơ quan `TT-BTC` vs `TT-BCT`).\n3. **Thông tư số 45 năm 2025 của Bộ Công Thương** (`45-2025-tt-bct`, có hiệu lực từ 15/07/2025): Sửa đổi, bổ sung một số điều của các thông tư thuộc lĩnh vực quản lý thị trường (cùng đuôi `TT-BCT`, khác năm `2025`).",
    "tags": [
-    "stub",
+    "thong-tu",
+    "bct",
     "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
+    "so-hieu-lech"
    ],
-   "confidence": "low",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "45/2024/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/TW/Pages/vbpq-timkiem.aspx?Keyword=45%2F2024%2FTT-BCT"
+    },
+    {
+     "so_hieu": "45/2023/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-02-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-45-2023-tt-bct-40975/48170.htm"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -81546,15 +83709,16 @@
    "slug": "45-2024-tt-bct",
    "duong_dan": "wiki/sources/45-2024-tt-bct.md",
    "loai_trang": "sources",
-   "tieu_de": "(chưa có tiêu đề) 45/2024/TT-BCT",
-   "muc": "Related concepts (chưa có wiki)",
-   "noi_dung": "- kiem-tra-chuyen-nganh\n- các concept liên quan",
+   "tieu_de": "45/2024/TT-BCT — Hồ sơ rà soát lệch số hiệu (SO_HIEU_LECH) — không tồn tại trên Công báo / Bộ Công Thương",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/doc-tinh-trang-hieu-luc]]\n- [[concepts/kiem-tra-chuyen-nganh]]",
    "tags": [
-    "stub",
+    "thong-tu",
+    "bct",
     "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
+    "so-hieu-lech"
    ],
-   "confidence": "low",
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -81563,16 +83727,28 @@
    "slug": "45-2024-tt-bct",
    "duong_dan": "wiki/sources/45-2024-tt-bct.md",
    "loai_trang": "sources",
-   "tieu_de": "(chưa có tiêu đề) 45/2024/TT-BCT",
+   "tieu_de": "45/2024/TT-BCT — Hồ sơ rà soát lệch số hiệu (SO_HIEU_LECH) — không tồn tại trên Công báo / Bộ Công Thương",
    "muc": "Related sources",
-   "noi_dung": "- Cần xác minh với VB liên quan",
+   "noi_dung": "- `45/2023/TT-BCT` (Thông tư ngày 29/12/2023 sửa đổi `23-2021-tt-bct` về khoáng sản xuất khẩu — đã có hồ sơ đầy đủ và bảng mã HS tại `registry/van-ban/45-2023-tt-bct.yaml` và `danh-muc/45-2023-tt-bct.csv`; chưa có trang wiki riêng)",
    "tags": [
-    "stub",
+    "thong-tu",
+    "bct",
     "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
+    "so-hieu-lech"
    ],
-   "confidence": "low",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "45/2023/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-02-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-45-2023-tt-bct-40975/48170.htm"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -81580,16 +83756,38 @@
    "slug": "45-2024-tt-bct",
    "duong_dan": "wiki/sources/45-2024-tt-bct.md",
    "loai_trang": "sources",
-   "tieu_de": "(chưa có tiêu đề) 45/2024/TT-BCT",
+   "tieu_de": "45/2024/TT-BCT — Hồ sơ rà soát lệch số hiệu (SO_HIEU_LECH) — không tồn tại trên Công báo / Bộ Công Thương",
    "muc": "Open questions",
-   "noi_dung": "- Cần tải toàn văn từ nguồn nào?\n- Phạm vi KTCL cụ thể?\n- Có mã HS cụ thể không?",
+   "noi_dung": "- Cần mở issue / đối chiếu lại đúng **01 mã HS** bên kho `hs-code-api` đang dẫn `45/2024/TT-BCT` để xác nhận có đúng là lỗi gõ nhầm từ `45/2023/TT-BCT` (hay `45-2024-tt-btc` / `45-2025-tt-bct`) trước khi sửa hoặc đóng thẻ chặn `SO_HIEU_LECH`.",
    "tags": [
-    "stub",
+    "thong-tu",
+    "bct",
     "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
+    "so-hieu-lech"
    ],
-   "confidence": "low",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "45/2024/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/TW/Pages/vbpq-timkiem.aspx?Keyword=45%2F2024%2FTT-BCT"
+    },
+    {
+     "so_hieu": "45/2023/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-02-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-45-2023-tt-bct-40975/48170.htm"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -81597,16 +83795,28 @@
    "slug": "45-2024-tt-bct",
    "duong_dan": "wiki/sources/45-2024-tt-bct.md",
    "loai_trang": "sources",
-   "tieu_de": "(chưa có tiêu đề) 45/2024/TT-BCT",
+   "tieu_de": "45/2024/TT-BCT — Hồ sơ rà soát lệch số hiệu (SO_HIEU_LECH) — không tồn tại trên Công báo / Bộ Công Thương",
    "muc": "Notes",
-   "noi_dung": "- VB chưa được tải toàn văn — stub\n- Cần tải bằng `node tools/nap.mjs` hoặc script Python tương tự\n- Ưu tiên: tải từ Công báo (bậc A) hoặc datafiles.chinhphu.vn\n- 1 mã HS trích dẫn trong biểu thuế",
+   "noi_dung": "- Không có tệp `toan_van` và không trích `xac_minh.dieu_khoan` vì số hiệu `45/2024/TT-BCT` **không tồn tại** trong hệ thống văn bản quy phạm pháp luật bậc A; không được suy đoán hay lấy nội dung của văn bản khác gán vào số hiệu này.\n- Đã giữ nguyên trạng thái `xac_minh.chan.ma: SO_HIEU_LECH` trong `registry/van-ban/45-2024-tt-bct.yaml` theo đúng quy định tại `docs/huong-dan-agent.md` và `docs/luoc-do-so-dang-ky.md`.",
    "tags": [
-    "stub",
+    "thong-tu",
+    "bct",
     "kiem-tra-chuyen-nganh",
-    "can-tai-toan-van"
+    "so-hieu-lech"
    ],
-   "confidence": "low",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "45/2024/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/TW/Pages/vbpq-timkiem.aspx?Keyword=45%2F2024%2FTT-BCT"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -91524,12 +93734,12 @@
     {
      "so_hieu": "28/2018/QH14",
      "tinh_trang": "HET_HIEU_LUC",
-     "hieu_luc_tu": null,
+     "hieu_luc_tu": "2019-01-01",
      "het_hieu_luc_tu": "2026-03-01",
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
-     "nguon_a": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=49815"
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-28-2018-qh14-26903.htm"
     },
     {
      "so_hieu": "44/2024/QH15",
@@ -91584,12 +93794,12 @@
     {
      "so_hieu": "28/2018/QH14",
      "tinh_trang": "HET_HIEU_LUC",
-     "hieu_luc_tu": null,
+     "hieu_luc_tu": "2019-01-01",
      "het_hieu_luc_tu": "2026-03-01",
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
-     "nguon_a": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=49815"
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-28-2018-qh14-26903.htm"
     },
     {
      "so_hieu": "44/2024/QH15",
