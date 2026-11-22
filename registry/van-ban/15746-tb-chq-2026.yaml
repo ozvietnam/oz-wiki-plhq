@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 15746/TB-CHQ/2026
+so_hieu_khac:
+  - 15746/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (tệp PDF gốc 1.VB_15746.pdf trên Cổng Hải quan bị lỗi null-byte, chưa xác minh chi tiết tên mặt hàng và mã số HS)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-04-28'
+hieu_luc_tu: '2026-04-28'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=103433&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/4/29/1.VB_15746.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu mục đăng văn bản và tệp PDF bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/4/29/1.VB_15746.pdf, id=103433, SHA-256 cf3a76ce3b6bf4f3ae6f1e0b9606bb0d9e3bebde2b4250b16f01830b7c405d5a): Thông báo số 15746/TB-CHQ ngày 28-04-2026 của Cục Hải quan về kết quả xác định trước mã số (lĩnh vực Phân loại hàng hóa - LV313); tệp PDF đính kèm trên máy chủ files.customs.gov.vn (3.487.860 byte) toàn bộ là byte 0x00 từ phía cổng phát hành nên chưa trích được mô tả kỹ thuật mặt hàng và mã số HS 8 số'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Thông báo số 15746/TB-CHQ ngày 28-04-2026 của Cục Hải quan về kết quả xác định trước mã số (cùng đợt ban hành ngày 28-04-2026 với 15745/TB-CHQ, 15747/TB-CHQ và 15748/TB-CHQ); tệp PDF đính kèm trên Cổng Hải quan (1.VB_15746.pdf, 3.487.860 byte) bị lỗi toàn byte 0x00 nên chưa trích được tên mặt hàng và mã số HS 8 số.'
+toan_van: raw/download/files.customs.gov.vn/15746-tb-chq-2026.pdf
