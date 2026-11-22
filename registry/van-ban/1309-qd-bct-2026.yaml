@@ -33,5 +33,23 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: 'Mã vụ việc ER01.AD13-AS01. PDF CamScanner trên cổng moit.gov.vn — điều khoản đọc bằng OCR. Cùng ngày có QĐ 1310/QĐ-BCT (registry/van-ban/1310-qd-bct-2026.yaml, quan_he.huong_dan trỏ về 1309/QĐ-BCT) gia hạn biện pháp chống lẩn tránh theo thời hạn của 1309.'
-toan_van: raw/download/moit.gov.vn/1309-qd-bct.pdf
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Gia hạn thêm 05 năm việc áp dụng thuế chống bán phá giá và thuế chống trợ cấp đối với một số sản phẩm đường mía nhập khẩu vào Việt Nam được phân loại theo mã HS: 1701.13.00; 1701.14.00; 1701.91.00; 1701.99.10; 1701.99.90; và 1702.90.91 có xuất xứ từ Vương quốc Thái Lan (mã vụ việc ER01.AD13-AS01) với nội dung chỉ tiết nêu tại Thông báo kèm theo Quyết định này. #Ó te tsensa vẻ À'
+      trang_pdf: 2
+    - dieu: 2
+      noi_dung: Điều 2. Quyết định này có hiệu lực thi hành kể từ ngày 16 tháng 6 năm 2026. 4
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: 'Điều 3. Kế từ ngày Quyết định này có hiệu lực, các Quyết định sau hết hiệu lực thi hành: 1. Quyết định số 1578/QD-BCT ngày 15 tháng 6 năm 2021 của Bộ trưởng Bộ Công Thương áp dụng thuế chống bán phá giá và thuế chống trợ cấp chính thức đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan;'
+      trang_pdf: 2
+    - dieu: 4
+      noi_dung: Điều 4. Các Quyết định miễn trừ việc áp dụng biện pháp chống bán phá giá và chống trợ cấp đối với một số sản phẩm đường nêu tại Điều 1 Quyết định này đã được Bộ trưởng Bộ Công Thương ban hành trước ngày Quyết định này có hiệu lực, tiếp tục được thực hiện đến hết thời hạn hiệu lực của Quyết định miễn trừ đó.
+      trang_pdf: 3
+    - dieu: 5
+      noi_dung: Điều 5. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại, Thủ trưởng các đơn vị và các bên liên quan chịu trách nhiệm thi hành Quyết định nay./.
+      trang_pdf: 3
+ghi_chu: Mã vụ việc ER01.AD13-AS01. PDF CamScanner trên cổng moit.gov.vn — điều khoản đọc bằng OCR. Cùng ngày có QĐ 1310/QĐ-BCT (registry/van-ban/1310-qd-bct-2026.yaml, quan_he.huong_dan trỏ về 1309/QĐ-BCT) gia hạn biện pháp chống lẩn tránh theo thời hạn của 1309.
+toan_van:
+  - raw/download/moit.gov.vn/1309-qd-bct.pdf
+  - raw/ocr/1309-qd-bct-2026.ocr.txt

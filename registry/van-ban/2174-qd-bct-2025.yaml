@@ -34,5 +34,17 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm gạch gốm, sứ ốp lát có xuất xứ từ Cộng hòa Ấn Độ được phân loại theo d
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Quyết định này có hiệu lực sau 15 ngày kể từ ngày ban hành.
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: Điều 3. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và Thủ trưởng các đơn vị, các bên liên quan chịu trách nhiệm thi hành Quyết định nay./.
+      trang_pdf: 2
 ghi_chu: Vụ việc AD23 — gạch gốm, sứ ốp lát xuất xứ Ấn Độ (8 mã HS nhóm 6907.21). Áp thuế CBPG chính thức từ 22-09-2026 đến 22-09-2031 với mức thuế từ 5,55% đến 45,30% tùy nhà sản xuất/xuất khẩu.
-toan_van: raw/download/pvtm.gov.vn/2174-qd-bct.pdf
+toan_van:
+  - raw/download/pvtm.gov.vn/2174-qd-bct.pdf
+  - raw/ocr/2174-qd-bct-2025.ocr.txt

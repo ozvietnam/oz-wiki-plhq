@@ -19,5 +19,26 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Vị trí và chức năng Bộ Công Thương là cơ quan của Chính phủ, thực hiện chức năng quản lý nhà nước về công nghiệp và thương mại, bao gôm các ngành và lĩnh vực: Điện, than, dầu khí, năng lượng mới, năng lượng tái tạo, sử dụng năng lượng tiết kiệm và hiệu quả, hóa chất, vật liệu nỗ công nghiệp, công nghiệp cơ khí, công nghiệp luyện kim, công nghiệp khai thác mỏ và chế biến khoáng sản, công nghiệp tiêu dùng, công nghiệp thực phẩm, công'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Nhiệm vụ và quyền hạn Bộ Công Thương thực hiện nhiệm vụ, quyền hạn theo quy định tại Luật Tổ chức Chính phủ, các quy định của Chính phủ về chức năng, nhiệm vụ, quyền hạn và-cơ cau tô chức của bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ và những nhiệm vụ, quyền hạn cụ thé sau đây:'
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Cơ cầu tô chức 1. Vụ Kế hoạch, Tài chính và Quản lý doanh nghiệp. 2. Vụ Phát triển thị trường nước ngoài. 3. Vụ Chính sách thương mại đa biên. 4. Vụ Dầu khí và Than. 5. Vụ Tổ chức cán bộ. 6. Vụ Pháp chế. 7. Thanh tra bộ. §. Văn phòng bộ. 9. Ủy ban Cạnh tranh quốc gia.
+      trang_pdf: 13
+    - dieu: 4
+      noi_dung: Điều 4. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành ké từ ngày 01 tháng 3 năm 2025; thay thé Nghị định số 96/2022/NĐ-CP ngày 29 tháng 11 năm 2022 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cầu té chức của Bộ Công Thương.
+      trang_pdf: 14
+    - dieu: 5
+      noi_dung: Điều 5. Điều khoản chuyển tiếp Cơ quan Quản lý thị trường các cấp tiếp tục thực hiện chức năng, nhiệm vụ, quyền hạn theo quy định pháp luật hiện hành đến khi chuyền giao Cục Quản lý thị trường cấp tỉnh thuộc Tổng cục Quản lý thị trường về Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương;
+      trang_pdf: 15
+    - dieu: 6
+      noi_dung: 'Điều 6. Trách nhiệm thi hành Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc '' Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương chịu trách nhiệm thi hành Nghị định này:'
+      trang_pdf: 15
 ghi_chu: Nghị định hiện hành quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương từ 01-03-2025.
-toan_van: raw/download/datafiles.chinhphu.vn/40-2025-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/40-2025-nd-cp.pdf
+  - raw/ocr/40-2025-nd-cp.ocr.txt

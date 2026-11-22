@@ -18,6 +18,18 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Áp dụng thuế chống bán phá giá chính thức đối với sản phẩm cáp thép dự ứng lực được phân loại theo các mã HS 7312.10.91 và 7312.10.99 từ Ma- lai-xi-a, Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa (mã vụ việc: ; AD17) với nội dung chi tiết nêu tại Thong báo kèm theo Quyết định này. N'
+      trang_pdf: 2
+    - dieu: 2
+      noi_dung: Điều 2. Quyết định này có hiệu lực sau 15 ngày kể từ ngày ban hành.
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: Điều 3. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và Thủ trưởng các đơn vị, các bên liên quan chịu trách nhiệm thi hành Quyết định này./ TIẾT . BỘ TRƯỞN G
+      trang_pdf: 2
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 2 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + quangninh.gov.vn (Sở Công Thương)). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc AD17. HS 7312.10.91; 7312.10.99 (đường kính 9,0–16,0 mm). Thuế: Malaysia 9,79%–12,06%, Thái Lan 11%, Trung Quốc 10,48%–28%; 5 năm từ 29/01/2025. Số hiệu hay viết 143/QĐ-BCT-2025. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL. Nhập từ hs-code-api data/legal-docs.json (2 mã HS). Mã vụ việc AD17. PDF Cục PVTM là ảnh — OCR.'
 het_hieu_luc_tu: '2030-01-29'
-toan_van: raw/download/pvtm.gov.vn/143-qd-bct.pdf
+toan_van:
+  - raw/download/pvtm.gov.vn/143-qd-bct.pdf
+  - raw/ocr/143-qd-bct-2025.ocr.txt

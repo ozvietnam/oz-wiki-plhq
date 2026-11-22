@@ -22,6 +22,24 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Gia hạn thêm 05 năm việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm nhôm, hợp kim hoặc không hợp kim, ở dạng thanh, que và hình, đã được đùn ép, đã hoặc chưa xử lý bề mặt, đã hoặc chưa được gia công thêm nhập khẩu vào Việt Nam và được phân loại theo mã HS 7604.10.10, 7604.10.90, 7604.21.90, 7604.29.10, 7604.29.90 có xuất xứ từ Cộng hòa nhân dân Trung Hoa (mã vụ việc: ER01.AD05) với nội dung chỉ tiết nêu tại Thông báo kèm'
+      trang_pdf: 2
+    - dieu: 2
+      noi_dung: Điều 2. Các Quyết định miễn trừ việc áp dụng biện pháp chống bán phá giá đối với một số sản phâm nhôm nêu tại Điều 1 Quyết định này đã được Bộ trưởng Bộ Công Thương ban hành trước ngày Quyết định này có hiệu lực, tiếp tục được thực hiện đến hết thời hạn hiệu lực của Quyết định miễn trừ đó.
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: Điều 3. Quyết định này có hiệu lực thi hành kể từ ngày 03 tháng 10 năm 2024.
+      trang_pdf: 2
+    - dieu: 4
+      noi_dung: Điều 4. Quyết định số 74/QĐ-BCT ngày 16 tháng 01 năm 2023 của Bộ trưởng Bộ Công Thương hết hiệu lực kể từ ngày Quyết định này có hiệu lực.
+      trang_pdf: 3
+    - dieu: 5
+      noi_dung: Điều 5. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại, Thủ trưởng các đơn vị và các bên liên quan chịu trách nhiệm thi hành Quyết định này./.
+      trang_pdf: 3
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (5 mã HS). Mã vụ việc ER01.AD05. PDF Cục PVTM là ảnh — OCR. Điều 4 hết hiệu lực QĐ 74/QĐ-BCT.
 het_hieu_luc_tu: '2029-10-03'
-toan_van: raw/download/pvtm.gov.vn/2531-qd-bct.pdf
+toan_van:
+  - raw/download/pvtm.gov.vn/2531-qd-bct.pdf
+  - raw/ocr/2531-qd-bct-2024.ocr.txt

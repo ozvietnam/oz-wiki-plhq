@@ -14,10 +14,22 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-  ghi_chu: 'Crawl từ moit.gov.vn'
+  ghi_chu: Crawl từ moit.gov.vn
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Chấm dứt, không gia hạn việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép không gi cán nguội được quy định cụ thé tại Quyết định số 3162/QĐ-BCT ngày 21 tháng 10 năm 2019 của Bộ trưởng Bộ Công Thương về kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép không gỉ cán nguội có xuất xứ từ Cộng hòa nhân dân Trung Hoa, Cộng hòa In-đô-nê-xi-a, Ma-lai-xi-a và Vùng lãnh thổ Dai Loan.
+      trang_pdf: 2
+    - dieu: 2
+      noi_dung: Điều 2. Quyết định này có hiệu lực kể từ ngày ban hành.
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: Điều 3. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và các bên liên quan chịu trách nhiệm thi hành Quyết định này./. KT. BỘ TRƯỜNG
+      trang_pdf: 2
 nguon:
   - url: https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-hoan-tat-dieu-tra-ra-soat-cuoi-ky-viec-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pham-thep-k.html
     truy_cap: '2026-10-10'
   - url: https://moit.gov.vn/upload/2005517/fck/files/QD_3011_12_11_24_65001.pdf
     truy_cap: '2026-10-10'
-toan_van: raw/download/moit.gov.vn/3011-qd-bct.pdf
+toan_van:
+  - raw/download/moit.gov.vn/3011-qd-bct.pdf
+  - raw/ocr/3011-qd-bct.ocr.txt

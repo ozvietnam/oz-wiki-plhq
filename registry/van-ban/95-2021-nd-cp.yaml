@@ -27,4 +27,19 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-toan_van: raw/download/datafiles.chinhphu.vn/95-2021-nd-cp.pdf
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa déi, bỗ sung một số điều của Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phú về kinh doanh xăng dầu 1. Khoản 2 Điều 2 được sửa đôi, bô sung như sau: “2. Nghị định này không áp dụng đối với thương nhân nhập khâu, xuất khẩu, sản xuất và pha chế các loại xăng dầu chuyên dùng cho nhu cầu riêng của mình với số lượng không quá 200 lít/kg/tháng và không lưu thông trên thị trường.”'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Hiệu lực thi hành 1. Nghị định này có hiệu lực từ ngày 02 tháng 01 năm 2022. _ 2. Bãi bỏ khoản 6 Điều 9, khoản 18 Điều 9, khoản 7 Điều 15, khoản 7 ‘Dieu 18, Điều 36, điểm e khoản 1 va điềm c khoản 2 Điêu 40 của Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ về kinh doanh xăng dau.
+      trang_pdf: 20
+    - dieu: 3
+      noi_dung: Điều 3. Điều khoản chuyén tiếp 1. Thương nhân kinh doanh xăng dầu đã được cấp Giấy phép kinh doanh xuất khâu, nhập khẩu xăng dầu, các Giấy xác nhận kinh doanh xăng dầu, Giấy chứng nhận cửa hàng đủ điều kiện bán lẻ xăng dầu được tiếp tục hoạt động theo các điều kiện quy định tại Nghị định số 83/2014/NĐ-CP cho đến khi các Giấy phép, Giấy xác nhận, Giấy chứng nhận hết hiệu lực hoặc có sự thay đổi về điều kiện kinh doanh xăng dâu.
+      trang_pdf: 20
+    - dieu: 4
+      noi_dung: Điều 4. Trách nhiệm thi hành và t6 chức thực hiện Nghị định 1. Bộ Công Thương, Bộ Tài chính phối hợp với các bộ ngành liên quan hướng dan thi hành Nghị định này.
+      trang_pdf: 20
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/95-2021-nd-cp.pdf
+  - raw/ocr/95-2021-nd-cp.ocr.txt

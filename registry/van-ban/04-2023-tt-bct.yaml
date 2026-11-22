@@ -14,10 +14,31 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Crawl từ vanban.chinhphu.vn docid=207527'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Áp dụng hạn ngạch thuế quan nhập khẩu đối với thuốc lá nguyên liệu, trứng gia cầm có xuất xứ từ các nước thành viên của Liên minh Kinh tế Á -Âu theo Hiệp định thương mại tự do Việt Nam - Liên minh Kinh tế Á - Âu trong giai đoạn 2023 - 2027.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng Thông tư này áp dụng đối với các thương nhân nhập khẩu theo hạn ngạch thuế quan thuốc lá nguyên liệu, trứng gia câm từ các nước thành viên của Liên minh Kinh tế A - Âu và các cơ quan, tổ chức, cá nhân khác có liên quan.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Hàng hóa và lượng hạn ngạch thuế quan nhập khẩu 1. Mã số hàng hóa và lượng hạn ngạch thuế quan nhập khẩu của mặt hàng áp dụng hạn ngạch thuế quan quy định tại Điều 1 Thông tư này trong giai đoạn 2023 - 2027 thực hiện theo Phụ lục ban hành kèm theo. _--
+      trang_pdf: 1
+    - dieu: 4
+      noi_dung: Điều 4. Đối tượng được phân giao 1. Hạn ngạch thuế quan nhập khâu thuốc lá nguyên liệu được phân giao cho thương nhân có giấy phép sản xuất thuốc lá điều do Bộ Công Thương cập và có nhu cầu sử dụng thuốc lá nguyên liệu nhập khẩu cho sản xuất thuốc lá điều. 2. Hạn ngạch thuế quan nhập khẩu trứng gia cằm được phân giao cho thương nhân có nhu câu nhập khẩu.
+      trang_pdf: 3
+    - dieu: 5
+      noi_dung: Điều 5. Phương thức phân giao Phương thức phân giao hạn ngạch thuế quan nhập khẩu thuốc lá nguyên liệu, trứng gia cầm được thực hiện theo quy định tại Thông tư số 12/2018/TT- BCT ngày 15 tháng 6 năm 2018 của Bộ trưởng Bộ Công Thương quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định sô 69/2018/NĐ-CP ngày 15 tháng 5 năm 2018 của Chính phủ quy định chỉ tiết một số điều của Luật Quản lý ngoại thương.
+      trang_pdf: 3
+    - dieu: 6
+      noi_dung: Điều 6. Hiệu lực thi hành Thông tư này có hiệu lở thi hành ké từ ngay fp thang 4 năm 2023 đến hết ngày 31 thang 12 năm 2027. _-= om
+      trang_pdf: 3
+ghi_chu: Crawl từ vanban.chinhphu.vn docid=207527
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=207527&pageid=27160
     truy_cap: '2026-10-10'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/3/04-bct.pdf
     truy_cap: '2026-10-10'
-toan_van: raw/download/datafiles.chinhphu.vn/04-2023-tt-bct.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/04-2023-tt-bct.pdf
+  - raw/ocr/04-2023-tt-bct.ocr.txt
