@@ -542,5 +542,250 @@ function docMau(overrides) {
   }
 }
 
+// --- Test 7: Độ phủ specificTokens thắng trùng ngày + đồng nghĩa rời rạc và tránh khớp nhầm "ô tô" -> "tô chức" ---
+{
+  const root = soGia({
+    vanBan: [
+      docMau({
+        so_hieu: '70/2026/TT-BXD',
+        slug: '70-2026-tt-bxd',
+        loai: 'THONG_TU',
+        co_quan: 'Bộ Xây dựng',
+        ten: 'Thông tư ban hành danh mục kiểm tra chất lượng phương tiện giao thông',
+      }),
+      docMau({
+        so_hieu: '71/2026/QH15',
+        slug: '71-2026-qh15',
+        loai: 'LUAT',
+        co_quan: 'Quốc hội',
+        ten: 'Luật sửa đổi thẩm quyền kiểm tra chất lượng xe cơ giới hiệu lực 01/07/2026',
+      }),
+      docMau({
+        so_hieu: '72/2026/TT-BTC',
+        slug: '72-2026-tt-btc',
+        loai: 'THONG_TU',
+        co_quan: 'Bộ Tài chính',
+        ten: 'Thông tư về danh mục chất lượng khoáng sản tổ chức thực hiện',
+        xac_minh: {
+          muc: 'NGUON_A',
+          ngay_xac_minh: '2026-06-01',
+          dieu_khoan: [
+            {
+              dieu: 6,
+              ten: 'Tô chức kiểm tra chất lượng danh mục khoáng sản',
+              toan_van: 'Các tô chức thực hiện kiểm tra chất lượng theo danh mục khoáng sản xuất khẩu.',
+              nghia_vu_xnk: ['Tô chức thực hiện kiểm tra danh mục khoáng sản'],
+            },
+          ],
+        },
+      }),
+    ],
+    wikiConcepts: [
+      {
+        slug: 'kiem-tra-o-to-nhap-khau',
+        tieu_de: 'Phương tiện giao thông vận tải',
+        tags: ['xe-co-gioi', 'oto'],
+        confidence: 'high',
+        van_ban_lien_quan: [{ so_hieu: '70/2026/TT-BXD', tinh_trang: 'CON_HIEU_LUC' }],
+        body: '## Playbook kiểm tra\n\nÔ tô nhập khẩu phải kiểm tra chất lượng theo danh mục quy định từ ngày 01/7/2026 theo 70/2026/TT-BXD.',
+      },
+    ],
+    wikiSources: [
+      {
+        so_hieu: '71/2026/QH15',
+        slug: '71-2026-qh15',
+        tieu_de: 'Luật 71/2026/QH15 sửa đổi kiểm tra chất lượng xe cơ giới (hiệu lực 01/07/2026)',
+        tags: ['phuong-tien-giao-thong'],
+        confidence: 'high',
+        van_ban_lien_quan: [{ so_hieu: '71/2026/QH15', tinh_trang: 'CON_HIEU_LUC' }],
+        body: '## Chuyển thẩm quyền kiểm tra chất lượng xe cơ giới từ 01/07/2026\n\nXe ô tô nhập khẩu chịu kiểm tra chất lượng từ ngày 01/07/2026.',
+      },
+      {
+        so_hieu: '72/2026/TT-BTC',
+        slug: '72-2026-tt-btc',
+        tieu_de: 'Danh mục chất lượng khoáng sản hiệu lực 01/07/2026',
+        confidence: 'high',
+        van_ban_lien_quan: [{ so_hieu: '72/2026/TT-BTC', tinh_trang: 'CON_HIEU_LUC' }],
+        body: '## Danh mục\n\nCác tô chức kiểm tra chất lượng theo danh mục khoáng sản áp dụng từ 01/07/2026.',
+      },
+    ],
+  });
+
+  try {
+    const store = await taoKhoTraCuu({ root });
+    const res = hoiPhapLuat(store, 'Ô tô nhập khẩu phải kiểm tra chất lượng theo danh mục nào từ 01/7/2026?', { limit: 5 });
+    const cConcept = res.ket_qua.find((x) => x.slug === 'kiem-tra-o-to-nhap-khau');
+    const cPartial = res.ket_qua.find((x) => x.slug === '71-2026-qh15');
+    const cFakeTo = res.ket_qua.find((x) => x.slug === '72-2026-tt-btc');
+    t(
+      '(7) Độ phủ đủ specificTokens thắng khối chỉ trùng ngày/đồng nghĩa rời rạc và không khớp nhầm "tô chức" cho "ô tô"',
+      res.ket_qua[0]?.slug === 'kiem-tra-o-to-nhap-khau'
+        && Boolean(cConcept && cPartial && cConcept.diem_phu_hop > cPartial.diem_phu_hop)
+        && (!cFakeTo || cConcept.diem_phu_hop > cFakeTo.diem_phu_hop)
+        && res.van_ban_lien_quan[0]?.so_hieu === '70/2026/TT-BXD',
+      JSON.stringify({
+        kq: res.ket_qua.map((x) => [x.slug, x.diem_phu_hop]),
+        vb: res.van_ban_lien_quan.map((x) => x.so_hieu),
+      }),
+    );
+  } finally {
+    rmSync(root, { recursive: true, force: true });
+  }
+}
+
+// --- Test 8: Top NGUYEN_VAN_NGUON_A không bị đẩy xuống bởi danh sách ref dài trong wiki chunk ---
+{
+  const manyRefs = Array.from({ length: 12 }, (_, idx) =>
+    docMau({
+      so_hieu: `${81 + idx}/2026/TT-BCT`,
+      slug: `${81 + idx}-2026-tt-bct`,
+      loai: 'THONG_TU',
+      co_quan: 'Bộ Công Thương',
+      ten: `Văn bản tham chiếu phụ số ${81 + idx}`,
+    }),
+  );
+  const refTagsText = manyRefs.map((d) => d.so_hieu).join(', ');
+  const root = soGia({
+    vanBan: [
+      docMau({
+        so_hieu: '80/2026/TT-BTC',
+        slug: '80-2026-tt-btc',
+        loai: 'THONG_TU',
+        co_quan: 'Bộ Tài chính',
+        ten: 'Thông tư quy định hoàn thuế bảo lãnh chứng từ điện tử đặc thù',
+        xac_minh: {
+          muc: 'NGUON_A',
+          hieu_luc_da_doi_chieu: true,
+          ngay_xac_minh: '2026-06-01',
+          dieu_khoan: [
+            {
+              dieu: 15,
+              ten: 'Hồ sơ hoàn thuế bảo lãnh chứng từ điện tử đặc thù',
+              noi_dung: 'Điều 15. Hồ sơ hoàn thuế bảo lãnh chứng từ điện tử đặc thù gồm đơn đề nghị hoàn thuế bảo lãnh và chứng từ nộp ngân sách điện tử.',
+              toan_van: 'Điều 15. Hồ sơ hoàn thuế bảo lãnh chứng từ điện tử đặc thù gồm đơn đề nghị hoàn thuế bảo lãnh và chứng từ nộp ngân sách điện tử.',
+              nghia_vu_xnk: ['Nộp hồ sơ hoàn thuế bảo lãnh chứng từ điện tử đặc thù'],
+            },
+          ],
+        },
+      }),
+      ...manyRefs,
+    ],
+    wikiConcepts: [
+      {
+        slug: 'tong-hop-nhieu-van-ban',
+        tieu_de: 'Tổng hợp hồ sơ hoàn thuế bảo lãnh chứng từ điện tử đặc thù',
+        confidence: 'high',
+        van_ban_lien_quan: manyRefs.map((d) => ({ so_hieu: d.so_hieu, tinh_trang: 'CON_HIEU_LUC' })),
+        body: [
+          '## Bối cảnh hồ sơ hoàn thuế bảo lãnh chứng từ điện tử đặc thù',
+          '',
+          `Các quy định liên quan rải rác gồm ${refTagsText} áp dụng cho hồ sơ hoàn thuế bảo lãnh chứng từ điện tử đặc thù.`,
+          '',
+          '## Quy trình phối hợp chứng từ điện tử đặc thù',
+          '',
+          `Khi xử lý hoàn thuế bảo lãnh chứng từ điện tử đặc thù cần đối chiếu ${refTagsText}.`,
+        ].join('\n'),
+      },
+    ],
+  });
+
+  try {
+    const store = await taoKhoTraCuu({ root });
+    const res = hoiPhapLuat(store, 'hồ sơ hoàn thuế bảo lãnh chứng từ điện tử đặc thù gồm những gì?', { limit: 5 });
+    t(
+      '(8) Top NGUYEN_VAN_NGUON_A giữ vị trí #1 trong van_ban_lien_quan dù wiki chunk có 12 ref phụ',
+      res.dieu_khoan_nguon_a[0]?.so_hieu === '80/2026/TT-BTC'
+        && res.van_ban_lien_quan[0]?.so_hieu === '80/2026/TT-BTC',
+      JSON.stringify({
+        dk0: res.dieu_khoan_nguon_a[0]?.so_hieu,
+        vb: res.van_ban_lien_quan.slice(0, 5).map((v) => v.so_hieu),
+      }),
+    );
+  } finally {
+    rmSync(root, { recursive: true, force: true });
+  }
+}
+
+// --- Test 9: Giữ nguyên expiredTop1 = 0 và fallback OOS (KHONG_TIM_THAY + goi_y_du_phong) ---
+{
+  const root = soGia({
+    vanBan: [
+      docMau({
+        so_hieu: '90/2015/NĐ-CP',
+        slug: '90-2015-nd-cp',
+        ngay_ban_hanh: '2015-05-01',
+        tinh_trang: 'HET_HIEU_LUC',
+        hieu_luc_tu: '2015-07-01',
+        het_hieu_luc_tu: '2026-07-01',
+        ten: 'Nghị định cũ hết hiệu lực về ký quỹ bảo đảm phế liệu nhập khẩu',
+        xac_minh: {
+          muc: 'NGUON_A',
+          hieu_luc_da_doi_chieu: true,
+          ngay_xac_minh: '2026-07-05',
+          dieu_khoan: [
+            {
+              dieu: 9,
+              noi_dung: 'Điều 9. Ký quỹ bảo đảm phế liệu nhập khẩu thực hiện trước khi thông quan lô hàng phế liệu.',
+            },
+          ],
+        },
+      }),
+      docMau({
+        so_hieu: '91/2026/NĐ-CP',
+        slug: '91-2026-nd-cp',
+        ngay_ban_hanh: '2026-06-15',
+        tinh_trang: 'CON_HIEU_LUC',
+        hieu_luc_tu: '2026-07-01',
+        ten: 'Nghị định hiện hành về ký quỹ bảo đảm phế liệu nhập khẩu',
+        quan_he: {
+          thay_the: [{ so_hieu: '90/2015/NĐ-CP', tu_ngay: '2026-07-01' }],
+        },
+      }),
+    ],
+    wikiSources: [
+      {
+        so_hieu: '90/2015/NĐ-CP',
+        slug: '90-2015-nd-cp',
+        tieu_de: 'Ký quỹ bảo đảm phế liệu nhập khẩu theo 90/2015/NĐ-CP',
+        confidence: 'high',
+        van_ban_lien_quan: [{ so_hieu: '90/2015/NĐ-CP', tinh_trang: 'HET_HIEU_LUC' }],
+        body: '## Quy định ký quỹ\n\nKý quỹ bảo đảm phế liệu nhập khẩu trước thông quan.',
+      },
+      {
+        so_hieu: '91/2026/NĐ-CP',
+        slug: '91-2026-nd-cp',
+        tieu_de: 'Quy định hiện hành ký quỹ bảo đảm phế liệu nhập khẩu',
+        confidence: 'high',
+        van_ban_lien_quan: [{ so_hieu: '91/2026/NĐ-CP', tinh_trang: 'CON_HIEU_LUC' }],
+        body: '## Quy định hiện hành\n\nKý quỹ bảo đảm phế liệu nhập khẩu thay thế 90/2015/NĐ-CP từ 01/07/2026.',
+      },
+    ],
+  });
+
+  try {
+    const store = await taoKhoTraCuu({ root });
+    const resActive = hoiPhapLuat(store, 'ký quỹ bảo đảm phế liệu nhập khẩu thực hiện thế nào?', { limit: 5 });
+    const resOosCode = hoiPhapLuat(store, 'Thông tư 999/2099/TT-XYZ quy định về thuế vũ trụ', { limit: 5 });
+    const resOosTopic = hoiPhapLuat(store, 'Thủ tục nhập khẩu đũa thần phép thuật sao Hỏa', { limit: 5 });
+    t(
+      '(9) Giữ expiredTop1 = 0 và bật KHONG_TIM_THAY + goi_y_du_phong cho truy vấn OOS',
+      resActive.van_ban_lien_quan[0]?.tinh_trang !== 'HET_HIEU_LUC'
+        && resActive.van_ban_lien_quan[0]?.so_hieu === '91/2026/NĐ-CP'
+        && resOosCode.do_tin_cay_tra_loi === 'KHONG_TIM_THAY'
+        && resOosCode.goi_y_du_phong?.can_tra_nguon_truc_tiep === true
+        && resOosCode.goi_y_du_phong?.can_mo_the_bo_sung_so === true
+        && resOosTopic.do_tin_cay_tra_loi === 'KHONG_TIM_THAY'
+        && resOosTopic.goi_y_du_phong?.can_tra_nguon_truc_tiep === true,
+      JSON.stringify({
+        vb0: resActive.van_ban_lien_quan[0],
+        oos1: resOosCode.do_tin_cay_tra_loi,
+        oos2: resOosTopic.do_tin_cay_tra_loi,
+      }),
+    );
+  } finally {
+    rmSync(root, { recursive: true, force: true });
+  }
+}
+
 console.log(`\nKết quả test-tra-cuu-plhq: ${pass} passed, ${fail} failed`);
 process.exit(fail > 0 ? 1 : 0);
