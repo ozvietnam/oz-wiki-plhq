@@ -1,8 +1,8 @@
-# Bộ câu hỏi đánh giá chất lượng hỏi đáp pháp luật hải quan & XNK (32 câu)
-# Gồm 16 câu kế thừa từ docs/cau-hoi-mau.md (CH-01..CH-16) và 16 câu mở rộng (CH-17..CH-32).
+# Bộ câu hỏi đánh giá chất lượng hỏi đáp pháp luật hải quan & XNK (60 câu)
+# Gồm 16 câu kế thừa từ docs/cau-hoi-mau.md (CH-01..CH-16), 16 câu mở rộng đợt 1 (CH-17..CH-32), 18 câu mở rộng đợt 2 (CH-33..CH-50) và 10 câu mở rộng đợt 3 (CH-51..CH-60).
 # KHÔNG chứa câu hỏi "hàng X áp mã HS gì" (phạm vi của hs-code-api).
-phien_ban: '2026-11-21'
-tong_so_cau: 32
+phien_ban: '2026-11-22'
+tong_so_cau: 60
 cau_hoi:
   - id: CH-01
     nhanh: kiem-tra-chuyen-nganh/an-toan-thuc-pham
@@ -526,3 +526,425 @@ cau_hoi:
       - summary/khung-thu-tuc-hai-quan
       - concepts/doc-tinh-trang-hieu-luc
     nguon_can_cu_ky_vong: Điều 48 khoản 2 NĐ 336/2026/NĐ-CP (hiệu lực từ 15/10/2026, thay thế toàn bộ NĐ 85/2019/NĐ-CP) quy định thực hiện thủ tục hành chính đối với hàng hóa XNK, quá cảnh theo Cơ chế một cửa quốc gia, một cửa ASEAN.
+
+  - id: CH-33
+    nhanh: hai-quan/luat-khung
+    cau_hoi: Luật sửa đổi, bổ sung Luật Hải quan 11/2026/QH16 (hiệu lực từ 01/03/2027) bổ sung quy định mới nào về thương mại điện tử xuyên biên giới, quản lý tuân thủ và thời hạn kiểm tra sau thông quan?
+    van_ban_bat_buoc:
+      - 11/2026/QH16
+      - 54/2014/QH13
+    van_ban_het_hieu_luc_can_tranh: []
+    trang_wiki:
+      - sources/11-2026-qh16
+      - summary/khung-thu-tuc-hai-quan
+    nguon_can_cu_ky_vong: Điều 1 khoản 1 điểm d (chủ quản nền tảng TMĐT là người khai hải quan), khoản 4 (Điều 16a kiểm tra, giám sát hàng hóa XNK qua nền tảng TMĐT và định danh điện tử), khoản 6 (Điều 17a quản lý tuân thủ để ưu tiên miễn/giảm kiểm tra), khoản 24 (Điều 77 kiểm tra sau thông quan tối đa 05 năm) và Điều 3 khoản 1 Luật 11/2026/QH16 (hiệu lực từ 01/03/2027, sửa đổi Luật Hải quan 54/2014/QH13).
+
+  - id: CH-34
+    nhanh: thue/thue-noi-dia-khau-nk
+    cau_hoi: Hàng hóa chuyển khẩu, tạm nhập tái xuất, nguyên liệu nhập khẩu để gia công/sản xuất xuất khẩu chịu thuế GTGT khâu nhập khẩu thế nào và điều kiện chứng từ thanh toán không dùng tiền mặt để khấu trừ, hoàn thuế GTGT hàng xuất khẩu theo NĐ 181/2025/NĐ-CP ra sao?
+    van_ban_bat_buoc:
+      - 181/2025/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh:
+      - 219/2013/TT-BTC
+      - 26/2015/TT-BTC
+      - 13/2008/QH12
+    trang_wiki:
+      - sources/181-2025-nd-cp
+      - summary/mua-ban-giao-thang-nuoc-thu-ba
+    nguon_can_cu_ky_vong: Điều 4 khoản 12 (hàng chuyển khẩu, quá cảnh, tạm nhập tái xuất, tạm xuất tái nhập, nguyên liệu nhập khẩu để SXXK/gia công xuất khẩu không chịu thuế GTGT), Điều 15, Điều 17 khoản 4 (các trường hợp không áp dụng thuế suất 0%), Điều 25, Điều 26 khoản 1 (chứng từ thanh toán không dùng tiền mặt từ 05 triệu đồng trở lên) và Điều 29 khoản 1 (hoàn thuế GTGT hàng xuất khẩu từ 300 triệu đồng) NĐ 181/2025/NĐ-CP.
+
+  - id: CH-35
+    nhanh: thue
+    cau_hoi: Khi bán hàng hóa xuất khẩu hoặc khi cơ quan nhà nước kiểm tra hàng hóa lưu thông trên thị trường, doanh nghiệp sử dụng loại hóa đơn điện tử nào, lập hóa đơn vào thời điểm nào và cơ quan kiểm tra tra cứu ra sao theo NĐ 123/2020/NĐ-CP?
+    van_ban_bat_buoc:
+      - 123/2020/NĐ-CP
+      - 108/2025/QH15
+    van_ban_het_hieu_luc_can_tranh:
+      - 38/2019/QH14
+    trang_wiki:
+      - summary/mua-ban-giao-thang-nuoc-thu-ba
+      - sources/108-2025-qh15
+    nguon_can_cu_ky_vong: Điều 4 khoản 1, Điều 6 (lưu trữ hóa đơn điện tử), Điều 8 khoản 1 điểm d (hóa đơn GTGT cho xuất khẩu hàng hóa), Điều 9 khoản 1 (thời điểm lập hóa đơn bán hàng là thời điểm chuyển giao quyền sở hữu/sử dụng) và Điều 45 khoản 1 (cơ quan kiểm tra lưu thông tra cứu hóa đơn điện tử qua Cổng thông tin điện tử thuế, không yêu cầu hóa đơn giấy) NĐ 123/2020/NĐ-CP; Luật Quản lý thuế 108/2025/QH15.
+
+  - id: CH-36
+    nhanh: thue/bieu-thue
+    cau_hoi: Chính sách thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường, thuế GTGT và thuế TTĐB đối với xăng, dầu và nhiên liệu bay năm 2026 đang áp dụng mức nào và thời hạn hiệu lực kéo dài đến khi nào?
+    van_ban_bat_buoc:
+      - 19/2026/QH16
+      - 43/2026/NQ-CP
+      - 72/2026/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh: []
+    trang_wiki:
+      - sources/19-2026-qh16
+      - summary/van-ban-sap-het-hieu-luc-2026-2027
+    nguon_can_cu_ky_vong: Điều 1–4 NQ 19/2026/QH16 (thuế BVMT 0 đồng/lít; xăng dầu và nhiên liệu bay không phải kê khai, tính nộp GTGT nhưng được khấu trừ đầu vào; thuế TTĐB xăng 0%), được NQ 43/2026/NQ-CP kéo dài Điều 1 và Điều 2 đến hết ngày 31/12/2026; NĐ 72/2026/NĐ-CP sửa mức thuế suất NK ưu đãi xăng dầu tại Biểu thuế NĐ 26/2023/NĐ-CP (hiệu lực đến hết 31/12/2026 theo lộ trình gia hạn).
+
+  - id: CH-37
+    nhanh: xuat-xu-fta/hiep-dinh
+    cau_hoi: Điều kiện áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định Đối tác kinh tế toàn diện Việt Nam – UAE (CEPA) giai đoạn 2026–2027 và xử lý tiền thuế nộp thừa cho tờ khai từ 03/02/2026 quy định thế nào?
+    van_ban_bat_buoc:
+      - 143/2026/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh: []
+    trang_wiki:
+      - sources/143-2026-nd-cp
+      - concepts/xuat-xu-fta
+    nguon_can_cu_ky_vong: Điều 3 (Biểu thuế nhập khẩu ưu đãi đặc biệt CEPA 2026–2027 chi tiết cấp mã 8 số), Điều 4 (3 điều kiện hưởng thuế suất CEPA), Điều 5 (hàng hóa từ khu phi thuế quan) và Điều 6 khoản 1–2 (hiệu lực đến hết 31/12/2027 và xử lý hoàn tiền thuế nộp thừa cho tờ khai nhập khẩu từ UAE đăng ký từ 03/02/2026) NĐ 143/2026/NĐ-CP.
+
+  - id: CH-38
+    nhanh: kiem-tra-chuyen-nganh/bct
+    cau_hoi: Hàng hóa thuộc Danh mục sản phẩm rủi ro trung bình và rủi ro cao do Bộ Công Thương quản lý theo TT 33/2026/TT-BCT thực hiện quản lý chất lượng và xử lý giấy chứng nhận hợp quy cấp trước 01/07/2026 như thế nào?
+    van_ban_bat_buoc:
+      - 33/2026/TT-BCT
+      - 37/2026/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh:
+      - 41/2023/TT-BCT
+    trang_wiki:
+      - sources/33-2026-tt-bct
+      - concepts/ktcl-bct-2026
+      - summary/khung-kiem-tra-chuyen-nganh-2026
+    nguon_can_cu_ky_vong: Điều 1, Điều 3 (áp dụng theo quy chuẩn kỹ thuật quốc gia tương ứng và pháp luật chuyên ngành), Điều 5 (giấy chứng nhận hợp quy, dấu hợp quy và công bố hợp quy trước 01/07/2026 tiếp tục sử dụng đến hết thời hạn hiệu lực) và Điều 6 (hiệu lực từ 01/07/2026, thay thế TT 41/2023/TT-BCT) TT 33/2026/TT-BCT; NĐ 37/2026/NĐ-CP.
+
+  - id: CH-39
+    nhanh: quan-ly-ngoai-thuong/giay-phep
+    cau_hoi: Doanh nghiệp xuất nhập khẩu hóa chất và tiền chất (đối chiếu mã CAS) thuộc Danh mục IV NĐ 28/2026/NĐ-CP hoặc các Phụ lục NĐ 24/2026/NĐ-CP phải tuân thủ cơ chế khai báo, cấp phép và kiểm soát xuất nhập khẩu nào?
+    van_ban_bat_buoc:
+      - 24/2026/NĐ-CP
+      - 26/2026/NĐ-CP
+      - 28/2026/NĐ-CP
+      - 73/2021/QH14
+    van_ban_het_hieu_luc_can_tranh:
+      - 57/2022/NĐ-CP
+      - 90/2024/NĐ-CP
+      - 113/2017/NĐ-CP
+      - 82/2022/NĐ-CP
+    trang_wiki:
+      - concepts/hoa-chat-tien-chat-cas-xnk
+      - concepts/khai-bao-hoa-chat-nhap-khau
+      - concepts/giay-phep-hoa-chat-co-dieu-kien
+      - sources/26-2026-nd-cp
+    nguon_can_cu_ky_vong: NĐ 24/2026/NĐ-CP (4 Phụ lục danh mục hóa chất), Điều 6 (khai báo hóa chất NK Chương 28–29 trên Cổng một cửa quốc gia), Điều 10 và Điều 14 NĐ 26/2026/NĐ-CP (giấy phép XNK hóa chất cần kiểm soát đặc biệt Phụ lục III), Điều 1–3 NĐ 28/2026/NĐ-CP (ban hành Danh mục I–IV chất ma túy và 79 tiền chất, thay thế NĐ 57/2022/NĐ-CP và NĐ 90/2024/NĐ-CP), Điều 12–17 và Điều 50 Luật Phòng, chống ma túy 73/2021/QH14.
+
+  - id: CH-40
+    nhanh: quan-ly-ngoai-thuong/giay-phep
+    cau_hoi: Hoạt động xuất khẩu, nhập khẩu hóa chất Bảng 1, Bảng 2 và Bảng 3 theo Công ước Cấm vũ khí hóa học tại Việt Nam hiện nay áp dụng danh mục, điều kiện giấy phép và kiểm soát thông quan theo các văn bản nào?
+    van_ban_bat_buoc:
+      - 33/2024/NĐ-CP
+      - 26/2026/NĐ-CP
+      - 24/2026/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh: []
+    trang_wiki:
+      - sources/33-2024-nd-cp
+      - concepts/hoa-chat-tien-chat-cas-xnk
+      - sources/26-2026-nd-cp
+    nguon_can_cu_ky_vong: Điều 5 khoản 1 và Phụ lục I NĐ 33/2024/NĐ-CP (Danh mục hóa chất Bảng 1, Bảng 2, Bảng 3 và nghĩa vụ báo cáo, thanh sát OPCW); từ 17/01/2026 trình tự cấp phép XNK hóa chất Bảng 2, 3 (Phụ lục III NĐ 24/2026/NĐ-CP) và hóa chất Bảng 1 được thống nhất theo Điều 14 (bao gồm Giấy chứng nhận sử dụng cuối cùng khi xuất Bảng 3 cho nước ngoài Công ước), Điều 16–18 và Điều 31 khoản 4 NĐ 26/2026/NĐ-CP.
+
+  - id: CH-41
+    nhanh: hai-quan/kiem-tra-giam-sat
+    cau_hoi: Hàng hóa nguy hiểm theo mã UN và bao bì chưa làm sạch khi kiểm tra giám sát hải quan hoặc vận chuyển đường thủy nội địa phải đáp ứng quy định đóng gói, nhãn biểu trưng nguy hiểm và trường hợp miễn giấy phép vận chuyển nào theo NĐ 34/2024/NĐ-CP?
+    van_ban_bat_buoc:
+      - 34/2024/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh: []
+    trang_wiki:
+      - sources/34-2024-nd-cp
+      - concepts/hoa-chat-nguy-hiem-trong-hang-hoa
+      - concepts/hoa-chat-tien-chat-cas-xnk
+    nguon_can_cu_ky_vong: Điều 4 khoản 2 (bao bì, thùng chứa chưa làm sạch sau khi dỡ hết vẫn là hàng nguy hiểm), Điều 6 khoản 1 (đóng gói hàng nhập khẩu theo khuyến cáo nhà sản xuất), Điều 7 (nhãn và biểu trưng nguy hiểm Phụ lục III), Điều 17 khoản 8 (trường hợp miễn Giấy phép vận chuyển) và Điều 29 (kiểm tra, giám sát hải quan đối với hàng hóa và phương tiện vận chuyển hàng nguy hiểm) NĐ 34/2024/NĐ-CP.
+
+  - id: CH-42
+    nhanh: hai-quan/kiem-tra-giam-sat
+    cau_hoi: Thủ tục nộp đơn đề nghị kiểm tra giám sát quyền sở hữu trí tuệ qua hệ thống điện tử hải quan, trình tự cơ quan hải quan chủ động tạm dừng làm thủ tục (kể cả hàng thương mại điện tử) và thời hạn xử lý được quy định thế nào?
+    van_ban_bat_buoc:
+      - 07/2022/QH15
+      - 65/2023/NĐ-CP
+      - 06/2026/TT-BTC
+      - 13/2015/TT-BTC
+    van_ban_het_hieu_luc_can_tranh:
+      - 103/2006/NĐ-CP
+    trang_wiki:
+      - sources/07-2022-qh15
+      - sources/65-2023-nd-cp
+      - sources/06-2026-tt-btc
+    nguon_can_cu_ky_vong: Điều 1 khoản 80–81 (sửa Điều 216 Luật SHTT, thời hạn 10 ngày làm việc khi hải quan chủ động tạm dừng) và Điều 2 khoản 1 Luật 07/2022/QH15; NĐ 65/2023/NĐ-CP; Điều 1 khoản 2–6 TT 06/2026/TT-BTC sửa đổi TT 13/2015/TT-BTC (xử lý đơn đề nghị trong 20 ngày làm việc, Điều 10a trình tự chủ động tạm dừng và Điều 14a kiểm tra giám sát SHTT giao dịch thương mại điện tử).
+
+  - id: CH-43
+    nhanh: xu-phat
+    cau_hoi: Từ ngày 15/07/2026, thẩm quyền xử phạt và mức phạt tiền tối đa của các chức danh cơ quan Hải quan đối với hành vi xâm phạm quyền sở hữu công nghiệp trong hoạt động nhập khẩu, quá cảnh được quy định ra sao theo NĐ 186/2026/NĐ-CP?
+    van_ban_bat_buoc:
+      - 186/2026/NĐ-CP
+      - 99/2013/NĐ-CP
+      - 07/2022/QH15
+    van_ban_het_hieu_luc_can_tranh: []
+    trang_wiki:
+      - sources/186-2026-nd-cp
+      - sources/07-2022-qh15
+    nguon_can_cu_ky_vong: Điều 3 (sửa Điều 15 khoản 3 phân định thẩm quyền xử phạt của Hải quan đối với vi phạm trong nhập khẩu, quá cảnh, địa bàn hoạt động hải quan), Điều 7 (sửa Điều 19 quy định mức phạt tiền của Công chức đến 12,5 triệu, Đội trưởng đến 75 triệu, Chi cục trưởng đến 125 triệu, Cục trưởng Cục Hải quan đến 250 triệu đồng) và Điều 18 (hiệu lực từ 15/07/2026) NĐ 186/2026/NĐ-CP sửa đổi NĐ 99/2013/NĐ-CP.
+
+  - id: CH-44
+    nhanh: xu-phat
+    cau_hoi: Hành vi vận chuyển, mua bán, cất giữ lâm sản có nguồn gốc nhập khẩu không chấp hành đầy đủ quy định về hồ sơ lâm sản hợp pháp bị xử phạt như thế nào và thẩm quyền xử phạt của cơ quan Hải quan đến mức nào?
+    van_ban_bat_buoc:
+      - 35/2019/NĐ-CP
+      - 102/2020/NĐ-CP
+      - 17/2023/TT-BNNPTNT
+    van_ban_het_hieu_luc_can_tranh: []
+    trang_wiki:
+      - concepts/go-rung
+      - concepts/dong-vat-hoang-da-nguy-cap
+    nguon_can_cu_ky_vong: Điều 22 (vận chuyển lâm sản không có hồ sơ hợp pháp và tịch thu tang vật/phương tiện), Điều 24 khoản 3 điểm a (phạt tiền từ 2.000.000 đến 5.000.000 đồng đối với lâm sản nguồn gốc nhập khẩu hợp pháp nhưng thiếu hồ sơ theo quy định) và Điều 33 (thẩm quyền xử phạt của Công chức Hải quan, Đội trưởng, Chi cục trưởng, Cục trưởng, Tổng cục trưởng Hải quan) NĐ 35/2019/NĐ-CP; NĐ 102/2020/NĐ-CP.
+
+  - id: CH-45
+    nhanh: kiem-tra-chuyen-nganh/byt
+    cau_hoi: Trang thiết bị y tế đã có số lưu hành hoặc nhập khẩu từ nguồn vốn ODA, viện trợ không hoàn lại khi chưa có số lưu hành được xuất nhập khẩu theo nguyên tắc nào và thời điểm bắt buộc áp dụng hồ sơ kỹ thuật chung ASEAN (CSDT) là khi nào?
+    van_ban_bat_buoc:
+      - 98/2021/NĐ-CP
+      - 07/2023/NĐ-CP
+      - 19/2024/TT-BYT
+    van_ban_het_hieu_luc_can_tranh:
+      - 14/2018/TT-BYT
+    trang_wiki:
+      - sources/07-2023-nd-cp
+      - sources/19-2024-tt-byt
+    nguon_can_cu_ky_vong: "Điều 1 khoản 11 (sửa Điều 46 NĐ 98/2021/NĐ-CP: thiết bị y tế đã có số lưu hành được XNK theo nhu cầu, không hạn chế số lượng và không qua Bộ Y tế phê duyệt), khoản 12 (nhập khẩu thiết bị y tế từ nguồn vốn ODA, viện trợ không hoàn lại chưa có số lưu hành) và khoản 18 (bắt buộc áp dụng hồ sơ kỹ thuật chung ASEAN — CSDT từ 01/01/2024) NĐ 07/2023/NĐ-CP; Danh mục mã HS TT 19/2024/TT-BYT."
+
+  - id: CH-46
+    nhanh: quan-ly-ngoai-thuong/hang-da-qua-su-dung
+    cau_hoi: Nguyên tắc áp dụng Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu theo mã số HS tại TT 11/2018/TT-BTTTT (mã 4 số, 6 số và linh kiện, phụ tùng), thời hạn hết hiệu lực chuyển tiếp và văn bản thay thế từ 01/01/2027 là gì?
+    van_ban_bat_buoc:
+      - 11/2018/TT-BTTTT
+      - 63/2026/TT-BKHCN
+      - 292/2026/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh:
+      - 69/2018/NĐ-CP
+    trang_wiki:
+      - sources/11-2018-tt-btttt
+      - summary/van-ban-sap-het-hieu-luc-2026-2027
+      - concepts/hang-cu-cam-nhap-khau
+    nguon_can_cu_ky_vong: Điều 1 và Điều 2 khoản 2 TT 11/2018/TT-BTTTT (mã 4 số hoặc 6 số áp dụng cho toàn bộ mã 8 số trực thuộc; linh kiện, phụ tùng, cụm linh kiện của sản phẩm thuộc Danh mục cũng thuộc diện cấm nhập khẩu; áp dụng chuyển tiếp đến hết ngày 31/12/2026 theo Điều 64 khoản 4 NĐ 292/2026/NĐ-CP); từ ngày 01/01/2027 bị thay thế bởi TT 63/2026/TT-BKHCN.
+
+  - id: CH-47
+    nhanh: quan-ly-ngoai-thuong/luat-khung
+    cau_hoi: Từ ngày 18/10/2026, doanh nghiệp có vốn đầu tư nước ngoài (FDI) thực hiện quyền xuất khẩu, quyền nhập khẩu và mua bán hàng hóa tại Việt Nam trường hợp nào phải xin Giấy phép kinh doanh và cơ quan nào có thẩm quyền cấp?
+    van_ban_bat_buoc:
+      - 342/2026/NĐ-CP
+      - 05/2017/QH14
+      - 36/2005/QH11
+    van_ban_het_hieu_luc_can_tranh:
+      - 09/2018/NĐ-CP
+    trang_wiki:
+      - sources/342-2026-nd-cp
+    nguon_can_cu_ky_vong: Điều 5 (các hoạt động phải cấp Giấy phép kinh doanh và Giấy phép lập cơ sở bán lẻ), Điều 6 (thực hiện quyền xuất khẩu, nhập khẩu ngoài diện cấp Giấy phép kinh doanh), Điều 7 (điều kiện xuất khẩu, nhập khẩu hàng hóa của doanh nghiệp FDI), Điều 8 (thẩm quyền của UBND cấp tỉnh) và Điều 45 (hiệu lực từ 18/10/2026, thay thế NĐ 09/2018/NĐ-CP) NĐ 342/2026/NĐ-CP.
+
+  - id: CH-48
+    nhanh: kiem-tra-chuyen-nganh/bca
+    cau_hoi: Theo Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ 55/2024/QH15, phương tiện PCCC và vật liệu ngăn cháy nhập khẩu phải đáp ứng tiêu chuẩn, quy chuẩn và quy định chứng nhận hợp chuẩn, hợp quy, kiểm định chuyển tiếp nào?
+    van_ban_bat_buoc:
+      - 55/2024/QH15
+      - 125/2026/TT-BCA
+    van_ban_het_hieu_luc_can_tranh: []
+    trang_wiki:
+      - sources/55-2024-qh15
+      - concepts/thiet-bi-pccc
+      - concepts/ktcl-bca-2026
+    nguon_can_cu_ky_vong: Điều 22 khoản 3 (nghiệm thu PCCC phương tiện giao thông trước khi cấp GCN ATKT & BVMT), Điều 41 khoản 10 (chứng nhận hợp chuẩn, hợp quy phương tiện PCCC), Điều 44 (chất lượng và cấp phép lưu thông phương tiện PCCC, vật liệu ngăn cháy nhập khẩu) và Điều 55 khoản 4 (chuyển tiếp kiểm định phương tiện PCCC) Luật 55/2024/QH15; danh mục rủi ro tại TT 125/2026/TT-BCA.
+
+  - id: CH-49
+    nhanh: kiem-tra-chuyen-nganh/bxd
+    cau_hoi: Theo Luật Trật tự, an toàn giao thông đường bộ 36/2024/QH15, xe cơ giới, xe máy chuyên dùng và phụ tùng nhập khẩu phải bảo đảm kiểm tra chất lượng an toàn kỹ thuật và bảo vệ môi trường, đăng ký tạm thời và trách nhiệm bảo hành, triệu hồi thế nào?
+    van_ban_bat_buoc:
+      - 36/2024/QH15
+      - 49/2026/TT-BXD
+    van_ban_het_hieu_luc_can_tranh:
+      - 12/2022/TT-BGTVT
+      - 62/2024/TT-BGTVT
+    trang_wiki:
+      - sources/36-2024-qh15
+      - sources/49-2026-tt-bxd
+      - concepts/phuong-tien-giao-thong-van-tai
+    nguon_can_cu_ky_vong: Điều 9 khoản 9 (cấm nhập khẩu xe cơ giới, xe máy chuyên dùng không bảo đảm chất lượng ATKT & BVMT), Điều 39 khoản 5 (đăng ký tạm thời xe nhập khẩu từ cảng về kho, xe tạm nhập tái xuất), Điều 41 khoản 1–5 (đối tượng kiểm tra chứng nhận ATKT & BVMT và trách nhiệm bảo hành, bảo dưỡng, triệu hồi của tổ chức nhập khẩu) và Điều 89 khoản 6 Luật 36/2024/QH15; danh mục TT 49/2026/TT-BXD.
+
+  - id: CH-50
+    nhanh: kiem-tra-chuyen-nganh/an-toan-thuc-pham
+    cau_hoi: Phụ gia thực phẩm (kể cả phụ gia hỗn hợp từ hai chất trở lên), thực phẩm và bao bì tiếp xúc trực tiếp với thực phẩm nhập khẩu theo TT 15/2024/TT-BYT áp dụng nguyên tắc phân loại, kiểm tra chặt và miễn kiểm tra ATTP trong trường hợp nào?
+    van_ban_bat_buoc:
+      - 15/2024/TT-BYT
+      - 15/2018/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh:
+      - 28/2021/TT-BYT
+    trang_wiki:
+      - concepts/phu-gia-thuc-pham-ins
+      - concepts/vat-lieu-bao-bi-tiep-xuc-thuc-pham
+      - concepts/ktcl-byt-attp-2024
+    nguon_can_cu_ky_vong: Điều 3 khoản 1–5 (xử lý khi chưa có mã hàng trong Danh mục, áp dụng kiểm tra chặt đối với hàng không thuộc Danh mục khi có cảnh báo, các trường hợp miễn kiểm tra nhà nước theo Điều 13 NĐ 15/2018/NĐ-CP, xác định mã HS phụ gia hỗn hợp theo 6 quy tắc tổng quát) và Điều 5 khoản 2 (thay thế TT 28/2021/TT-BYT) TT 15/2024/TT-BYT.
+
+  - id: CH-51
+    nhanh: xuat-xu-fta
+    cau_hoi: Sau khi Nghị định 146/2025/NĐ-CP và Thông tư 40/2025/TT-BCT phân quyền, phân cấp cấp C/O và chấp thuận tự chứng nhận xuất xứ từ 01/07/2025, cơ quan nào có thẩm quyền cấp C/O và Văn bản chấp thuận, cần đáp ứng 05 điều kiện nào và cơ quan hải quan kiểm tra chứng từ chứng nhận xuất xứ hàng nhập khẩu theo nguyên tắc nào từ 22/08/2026?
+    van_ban_bat_buoc:
+      - 40/2025/TT-BCT
+      - 33/2023/TT-BTC
+      - 124/2026/TT-BTC
+      - 31/2018/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh: []
+    trang_wiki:
+      - sources/40-2025-tt-bct
+      - sources/124-2026-tt-btc
+      - concepts/xuat-xu-fta
+      - concepts/quy-tac-xuat-xu
+    nguon_can_cu_ky_vong: "Điều 1, Điều 3–8 (Cục Xuất nhập khẩu thuộc Bộ Công Thương và tổ chức được UBND cấp tỉnh giao nhiệm vụ cấp C/O, Văn bản chấp thuận tự chứng nhận xuất xứ; 05 điều kiện về nhân lực, tập huấn người ký, tài khoản thu phí, hạ tầng số Hệ thống eCoSys kết nối Cổng thông tin một cửa quốc gia, khu vực lưu trữ; trách nhiệm UBND cấp tỉnh triển khai trong 90 ngày và kiểm tra, xác minh C/O đã cấp) TT 40/2025/TT-BCT; Điều 1 TT 124/2026/TT-BTC (bổ sung khoản 10 Điều 15 TT 33/2023/TT-BTC: kiểm tra chứng từ chứng nhận xuất xứ hàng hóa nhập khẩu trên cơ sở áp dụng quản lý rủi ro từ 22/08/2026); khung NĐ 31/2018/NĐ-CP."
+
+  - id: CH-52
+    nhanh: xuat-xu-fta/hiep-dinh/cptpp
+    cau_hoi: Doanh nghiệp xuất khẩu hoặc nhập khẩu hàng hóa giữa Việt Nam và Liên hiệp Vương quốc Anh và Bắc Ai-len (bao gồm Guernsey, Jersey, Đảo Man) áp dụng Biểu thuế CPTPP giai đoạn 2024–2027 theo cột thuế suất nào, điều kiện hồi tố xử lý tiền thuế nộp thừa từ 15/12/2024, thời hạn khai bổ sung hoàn thuế xuất khẩu và quy tắc cộng gộp, De Minimis, miễn C/O, lưu trữ hồ sơ CPTPP ra sao?
+    van_ban_bat_buoc:
+      - 13/2025/NĐ-CP
+      - 115/2022/NĐ-CP
+      - 03/2019/TT-BCT
+    van_ban_het_hieu_luc_can_tranh:
+      - 57/2019/NĐ-CP
+    trang_wiki:
+      - sources/13-2025-nd-cp
+      - sources/115-2022-nd-cp
+      - concepts/cptpp
+      - concepts/xuat-xu-fta
+    nguon_can_cu_ky_vong: Điều 1 (bổ sung khoản 4d Điều 4, sửa đổi điểm a khoản 5 Điều 4, bổ sung khoản 6d Điều 5 và sửa đổi điểm b khoản 7 Điều 5 NĐ 115/2022/NĐ-CP áp dụng lộ trình cột (IV) từ 15/12/2024, (V) năm 2025, (VI) năm 2026, (VII) năm 2027 cho Liên hiệp Vương quốc Anh và Bắc Ai-len cùng 3 vùng lãnh thổ) và Điều 2 khoản 3 (xử lý tiền thuế nộp thừa cho tờ khai đăng ký từ 15/12/2024) NĐ 13/2025/NĐ-CP; Điều 4 khoản 6 (nộp thuế MFN trước, khai bổ sung hoàn thuế trong 01 năm) và Điều 5 NĐ 115/2022/NĐ-CP; Điều 13 (cộng gộp), Điều 14 (De Minimis 10%), Điều 21 (quá cảnh, chuyển tải), Điều 24 (miễn chứng từ xuất xứ lô hàng trị giá hải quan không quá 1.000 USD), Điều 26 (lưu trữ hồ sơ tối thiểu 05 năm) và Điều 27 (kiểm tra, xác minh xuất xứ) TT 03/2019/TT-BCT (tránh dẫn NĐ 57/2019/NĐ-CP đã hết hiệu lực).
+
+  - id: CH-53
+    nhanh: hai-quan/tri-gia
+    cau_hoi: Khi xác định trị giá hải quan hàng hóa nhập khẩu theo TT 39/2015/TT-BTC và TT 60/2019/TT-BTC, nguyên tắc áp dụng tuần tự 06 phương pháp, quyền đề nghị hoán đổi phương pháp khấu trừ và tính toán, điều kiện áp dụng trị giá giao dịch khi có mối quan hệ đặc biệt và các loại giá bị cấm sử dụng trong phương pháp suy luận là gì?
+    van_ban_bat_buoc:
+      - 39/2015/TT-BTC
+      - 60/2019/TT-BTC
+    van_ban_het_hieu_luc_can_tranh:
+      - 40/2007/NĐ-CP
+    trang_wiki:
+      - sources/39-2015-tt-btc
+      - sources/60-2019-tt-btc
+      - sources/38-2015-tt-btc
+    nguon_can_cu_ky_vong: Điều 5 (áp dụng tuần tự 06 phương pháp xác định trị giá hải quan hàng nhập khẩu và quyền đề nghị hoán đổi giữa phương pháp trị giá khấu trừ và phương pháp trị giá tính toán), Điều 6 (phương pháp trị giá giao dịch và các điều kiện áp dụng), Điều 7 (mối quan hệ đặc biệt và khoản 4 Điều 7 về thủ tục khai báo, kiểm tra, chứng minh giá giao dịch không bị ảnh hưởng), Điều 12 khoản 3 (07 loại trị giá không được sử dụng trong phương pháp suy luận, gồm giá bán nội địa hàng sản xuất tại Việt Nam, giá bán nội địa nước xuất khẩu, giá tham chiếu trong Danh mục rủi ro...), Điều 13–14 (điều chỉnh cộng và phí bản quyền/giấy phép) TT 39/2015/TT-BTC được sửa đổi, bổ sung tại Điều 1 TT 60/2019/TT-BTC (tránh dẫn NĐ 40/2007/NĐ-CP đã hết hiệu lực).
+
+  - id: CH-54
+    nhanh: hai-quan/loai-hinh
+    cau_hoi: Khi khai tờ khai hải quan VNACCS theo Quyết định 1357/QĐ-TCHQ, doanh nghiệp phân biệt cách chọn nhóm mã loại hình nhập khẩu kinh doanh tiêu dùng/sản xuất (A11, A12, A41), nhập gia công/SXXK (E21, E31), chuyển tiêu thụ nội địa (A21, A42), xuất kinh doanh (B11) và tạm nhập tái xuất (G11–G24) gắn với thủ tục chuyển mục đích sử dụng và quyết toán nguyên liệu ra sao?
+    van_ban_bat_buoc:
+      - 1357/QĐ-TCHQ
+      - 38/2015/TT-BTC
+      - 39/2018/TT-BTC
+      - 121/2025/TT-BTC
+      - 134/2016/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh: []
+    trang_wiki:
+      - summary/khung-thu-tuc-hai-quan
+      - concepts/thu-tuc-hai-quan-xnk
+      - sources/38-2015-tt-btc
+      - sources/39-2018-tt-btc
+      - sources/121-2025-tt-btc
+    nguon_can_cu_ky_vong: "Bảng mã loại hình xuất khẩu, nhập khẩu và hướng dẫn sử dụng ban hành kèm theo QĐ 1357/QĐ-TCHQ (thay thế công văn 2765/TCHQ-GSQL: phân biệt A11/A12/A41, E21 gia công vs E31 SXXK, A21 chuyển tiêu thụ nội địa từ TNTX vs A42 chuyển tiêu thụ nội địa khác, B11 xuất kinh doanh và nhóm G11–G24, H11); thủ tục thay đổi mục đích sử dụng, chuyển tiêu thụ nội địa và báo cáo quyết toán, xử lý nguyên liệu dư thừa, phế liệu, phế phẩm gia công/SXXK/DNCX tại Điều 21, 55, 56, 60 TT 38/2015/TT-BTC được sửa đổi, bổ sung bởi TT 39/2018/TT-BTC và khoản 9, 28, 29, 32 Điều 1 TT 121/2025/TT-BTC; chính sách miễn thuế gia công, SXXK theo NĐ 134/2016/NĐ-CP."
+
+  - id: CH-55
+    nhanh: thue/luat-thue
+    cau_hoi: Hàng hóa nhập khẩu để tạo tài sản cố định của dự án ưu đãi đầu tư, nguyên liệu/vật tư/linh kiện trong nước chưa sản xuất được miễn thuế 05 năm, và hàng hóa phục vụ khoa học công nghệ, đổi mới sáng tạo, công nghiệp công nghệ số được miễn thuế xuất nhập khẩu theo điều kiện, thủ tục thông báo Danh mục miễn thuế và báo cáo sử dụng hằng năm như thế nào?
+    van_ban_bat_buoc:
+      - 107/2016/QH13
+      - 134/2016/NĐ-CP
+      - 18/2021/NĐ-CP
+      - 182/2025/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh:
+      - 45/2005/QH11
+      - 06/2021/TT-BTC
+    trang_wiki:
+      - sources/107-2016-qh13
+      - sources/134-2016-nd-cp
+      - sources/18-2021-nd-cp
+      - sources/182-2025-nd-cp
+    nguon_can_cu_ky_vong: Chương IV (Điều 16–22, trong đó Điều 16 các trường hợp miễn thuế gồm tạo tài sản cố định ưu đãi đầu tư, 05 năm nguyên liệu trong nước chưa sản xuất được, KH&CN; Điều 17 thủ tục miễn thuế) Luật Thuế XK, NK 107/2016/QH13; Chương II–III NĐ 134/2016/NĐ-CP được sửa đổi, bổ sung bởi NĐ 18/2021/NĐ-CP (Điều 14, 15, 30, 31, 31a) và NĐ 182/2025/NĐ-CP (bổ sung ưu đãi miễn thuế phục vụ khoa học, công nghệ, đổi mới sáng tạo, công nghiệp công nghệ số theo Điều 24, 30), quy định thông báo Danh mục hàng hóa miễn thuế trước khi nhập khẩu (cơ quan hải quan phản hồi trong 03 ngày làm việc) và báo cáo tình hình sử dụng hàng hóa miễn thuế hằng năm trong thời hạn 90 ngày kể từ ngày kết thúc năm tài chính (tránh dẫn Luật 45/2005/QH11 và TT 06/2021/TT-BTC đã hết hiệu lực).
+
+  - id: CH-56
+    nhanh: kiem-tra-chuyen-nganh/bct
+    cau_hoi: Theo Luật Hóa chất 69/2025/QH15, Nghị định 26/2026/NĐ-CP và Thông tư 01/2026/TT-BCT, doanh nghiệp nhập khẩu hóa chất và sản phẩm chứa hóa chất nguy hiểm phải thực hiện khai báo hóa chất nhập khẩu qua Cổng thông tin một cửa quốc gia, xin phép XNK hóa chất cần kiểm soát đặc biệt (nhóm 1, nhóm 2), lập phiếu kiểm soát mua bán và công bố thông tin hóa chất nguy hiểm trong sản phẩm, hàng hóa như thế nào?
+    van_ban_bat_buoc:
+      - 69/2025/QH15
+      - 26/2026/NĐ-CP
+      - 01/2026/TT-BCT
+    van_ban_het_hieu_luc_can_tranh:
+      - 113/2017/NĐ-CP
+      - 82/2022/NĐ-CP
+    trang_wiki:
+      - sources/26-2026-nd-cp
+      - concepts/khai-bao-hoa-chat-nhap-khau
+      - concepts/hoa-chat-nguy-hiem-trong-hang-hoa
+      - concepts/giay-phep-hoa-chat-co-dieu-kien
+    nguon_can_cu_ky_vong: Luật Hóa chất 69/2025/QH15; Điều 6 (khai báo hóa chất nhập khẩu qua Cổng thông tin một cửa quốc gia), Điều 10 (hóa chất kinh doanh có điều kiện), Điều 14 (giấy phép XNK hóa chất cần kiểm soát đặc biệt), Điều 18 (hóa chất cấm), Điều 21 (miễn trừ khai báo hóa chất nhập khẩu), Chương IV Điều 28–29 (công bố thông tin hàm lượng hóa chất nguy hiểm trong sản phẩm, hàng hóa trước khi lưu thông) và Điều 30 (chuyển tiếp) NĐ 26/2026/NĐ-CP; Điều 3 (phân cấp Cục Hóa chất cho nhóm 1 vs UBND cấp tỉnh cho nhóm 2), Điều 5 (Phiếu an toàn hóa chất), Điều 6 khoản 12 (mẫu 13a/13b khai báo NK qua Một cửa quốc gia), Điều 8 (phiếu kiểm soát mua bán từ 01/01/2026) và Điều 11 cùng Phụ lục XIX TT 01/2026/TT-BCT (tránh dẫn NĐ 113/2017/NĐ-CP và NĐ 82/2022/NĐ-CP đã hết hiệu lực).
+
+  - id: CH-57
+    nhanh: quan-ly-ngoai-thuong
+    cau_hoi: Từ ngày 05/09/2026 khi Nghị định 292/2026/NĐ-CP và Thông tư 48/2026/TT-BCT thay thế Nghị định 69/2018/NĐ-CP, quy định mới về bãi bỏ Mã số kinh doanh tạm nhập tái xuất, phân cấp thẩm quyền cấp phép cho UBND cấp tỉnh (TNTX, chuyển khẩu, CFS xuất khẩu), thời hạn lưu giữ hàng TNTX, hạn ngạch thuế quan nhập khẩu và chứng nhận Quy trình Kimberley đối với kim cương thô được thực hiện như thế nào?
+    van_ban_bat_buoc:
+      - 292/2026/NĐ-CP
+      - 48/2026/TT-BCT
+      - 05/2017/QH14
+    van_ban_het_hieu_luc_can_tranh:
+      - 69/2018/NĐ-CP
+    trang_wiki:
+      - sources/292-2026-nd-cp
+      - sources/48-2026-tt-bct
+      - concepts/han-ngach-thue-quan
+      - concepts/kim-cuong-tho
+    nguon_can_cu_ky_vong: Điều 12 (phân cấp UBND cấp tỉnh cấp CFS hàng xuất khẩu có hiệu lực 05 năm), Điều 13–14 và 18–21 (kinh doanh TNTX/chuyển khẩu qua cửa khẩu quốc tế/chính, thời hạn lưu giữ tại Việt Nam tối đa 60 ngày và gia hạn tối đa 02 lần x 30 ngày, phân cấp UBND cấp tỉnh cấp phép, cấm DN FDI kinh doanh TNTX), Điều 24 (trách nhiệm Cục Hải quan thống kê ngày 15 tháng đầu quý) và Điều 64 khoản 2 (chấm dứt Mã số kinh doanh TNTX và rút ký quỹ từ 01/07/2026) NĐ 292/2026/NĐ-CP; Điều 4 (hàng tiêu dùng/phương tiện đã qua sử dụng cấm NK), Điều 7–12 (hạn ngạch thuế quan nhập khẩu) và Điều 5–6, 13–19 (xuất nhập khẩu kim cương thô theo Quy chế Chứng nhận Kimberley) TT 48/2026/TT-BCT hướng dẫn Luật Quản lý ngoại thương 05/2017/QH14 (tránh dẫn NĐ 69/2018/NĐ-CP đã hết hiệu lực).
+
+  - id: CH-58
+    nhanh: kiem-tra-chuyen-nganh/byt
+    cau_hoi: Trong quản lý xuất nhập khẩu dược phẩm và dược liệu theo Thông tư 28/2026/TT-BYT, Thông tư 26/2026/TT-BYT và Thông tư 09/2024/TT-BYT, việc phân loại mức độ rủi ro giữa thuốc hóa dược/vắc xin/sinh phẩm/nguyên liệu làm thuốc với dược liệu/thuốc cổ truyền, nguyên tắc xử lý khi khác biệt mã HS và nghĩa vụ thông báo lô thuốc nhập khẩu tới UBND cấp tỉnh tối thiểu 05 ngày làm việc trước khai hải quan được quy định ra sao?
+    van_ban_bat_buoc:
+      - 28/2026/TT-BYT
+      - 26/2026/TT-BYT
+      - 09/2024/TT-BYT
+      - 163/2025/NĐ-CP
+      - 105/2016/QH13
+      - 44/2024/QH15
+    van_ban_het_hieu_luc_can_tranh:
+      - 54/2017/NĐ-CP
+      - 06/2018/TT-BYT
+      - 48/2018/TT-BYT
+      - 03/2021/TT-BYT
+    trang_wiki:
+      - sources/28-2026-tt-byt
+      - sources/26-2026-tt-byt
+      - sources/09-2024-tt-byt
+      - sources/163-2025-nd-cp
+      - sources/44-2024-qh15
+    nguon_can_cu_ky_vong: Điều 1–2 (thuốc hóa dược, thuốc dược liệu, vắc xin, sinh phẩm, nguyên liệu làm thuốc rủi ro cao/trung bình tại Phụ lục I–II, không điều chỉnh dược liệu) TT 28/2026/TT-BYT; Phụ lục TT 26/2026/TT-BYT (dược liệu thuộc Danh mục 11 và thuốc cổ truyền thuộc Danh mục 13 TT 09/2024/TT-BYT xếp mức độ rủi ro trung bình); Điều 1, 3 TT 09/2024/TT-BYT (xác định mã HS theo pháp luật hải quan khi có khác biệt và cập nhật mặt hàng mới sau thông quan); Điều 19 (điều kiện kinh doanh XK/NK thuốc cổ truyền) và Điều 87–88 (thông báo lô thuốc nhập khẩu đến UBND cấp tỉnh tối thiểu 05 ngày làm việc trước khi khai hải quan) NĐ 163/2025/NĐ-CP hướng dẫn Luật Dược 105/2016/QH13 được sửa đổi bởi Luật 44/2024/QH15 (Điều 2, 54, 60 về thuốc cổ truyền dạng bào chế hiện đại và nhập khẩu thuốc chưa có GĐKLH; tránh dẫn các văn bản đã hết hiệu lực).
+
+  - id: CH-59
+    nhanh: kiem-tra-chuyen-nganh/bnnmt
+    cau_hoi: Theo Thông tư 27/2026/TT-BNNMT và Nghị định 37/2026/NĐ-CP, hàng hóa nhập khẩu thuộc phạm vi quản lý của Bộ Nông nghiệp và Môi trường được phân chia giữa nhóm rủi ro cao (như thuốc bảo vệ thực vật nhóm 38.08) và nhóm rủi ro trung bình (như phân bón, thức ăn chăn nuôi, giống cây trồng) với yêu cầu kiểm tra trước thông quan, xác định mã HS khi chưa liệt kê và cơ chế không phải công bố hợp quy lại như thế nào?
+    van_ban_bat_buoc:
+      - 27/2026/TT-BNNMT
+      - 37/2026/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh:
+      - 16/2021/TT-BNNPTNT
+      - 74/2018/NĐ-CP
+    trang_wiki:
+      - sources/27-2026-tt-bnnmt
+      - concepts/ktcl-bnnmt-2026
+      - concepts/thuoc-bvtv-nhap-khau
+      - concepts/phan-bon-nhap-khau
+    nguon_can_cu_ky_vong: "Điều 3 và Phụ lục I (danh mục sản phẩm rủi ro trung bình gồm giống cây trồng, phân bón, thức ăn chăn nuôi: tự công bố tiêu chuẩn áp dụng và tự đánh giá hoặc chứng nhận phù hợp QCVN, công bố hợp quy trước lưu thông) và Điều 4 cùng Phụ lục II (danh mục rủi ro cao gồm 21 dòng mã HS thuốc BVTV nhóm 38.08 phải kiểm tra chuyên ngành trước thông quan và chứng nhận hợp quy bởi tổ chức được chỉ định theo QCVN 01-188:2018/BNNPTNT), Điều 5 (xác định mã HS theo pháp luật hải quan, căn cứ bản chất/thành phần/công dụng khi chưa có mã) TT 27/2026/TT-BNNMT; Điều 82, 83, 86 (thời hạn 01/07/05 ngày làm việc cho hàng rủi ro cao và điều kiện giảm kiểm tra / không công bố hợp quy lại đối với hàng rủi ro trung bình) NĐ 37/2026/NĐ-CP."
+
+  - id: CH-60
+    nhanh: kiem-tra-chuyen-nganh/bkhcn
+    cau_hoi: Từ ngày 01/07/2026, Thông tư 36/2026/TT-BKHCN và Nghị định 37/2026/NĐ-CP phân loại và áp dụng biện pháp quản lý chất lượng đối với hàng hóa nhập khẩu thuộc Bộ Khoa học và Công nghệ (mức độ rủi ro cao vs rủi ro trung bình), xử lý trường hợp chịu nhiều QCVN đồng thời, miễn/giảm kiểm tra khi tái nhập cùng loại và chuyển tiếp hồ sơ trước 01/07/2026 như thế nào?
+    van_ban_bat_buoc:
+      - 36/2026/TT-BKHCN
+      - 37/2026/NĐ-CP
+    van_ban_het_hieu_luc_can_tranh:
+      - 29/2025/TT-BKHCN
+      - 58/2015/TTLT-BCT-BKHCN
+      - 15/2018/TT-BTTTT
+      - 10/2020/TT-BTTTT
+      - 74/2018/NĐ-CP
+    trang_wiki:
+      - sources/36-2026-tt-bkhcn
+      - concepts/ktcl-bkhcn-2026
+      - concepts/rui-ro-cao-vs-trung-binh
+      - sources/37-2026-nd-cp
+    nguon_can_cu_ky_vong: "Điều 3 (Danh mục sản phẩm, hàng hóa rủi ro cao — bắt buộc chứng nhận hợp quy dựa trên kết quả thử nghiệm của tổ chức được công nhận và đăng ký kiểm tra nhà nước trước thông quan), Điều 4 (Danh mục rủi ro trung bình — không kiểm tra khi nhập khẩu, công bố hợp quy trước lưu thông), Điều 5 (đáp ứng đủ các QCVN nếu thuộc nhiều quy chuẩn mà không đánh giá trùng lặp), Điều 6–7 (hiệu lực từ 01/07/2026 và chuyển tiếp hồ sơ đăng ký KTNN trước 01/07/2026) TT 36/2026/TT-BKHCN; Điều 82, 83, 84, 86 (khung rủi ro trung bình/cao, thời hạn xử lý 01/07/05 ngày làm việc, chế độ giảm kiểm tra 02 năm sau 03 lần đạt liên tiếp và điều kiện không công bố lại) NĐ 37/2026/NĐ-CP."

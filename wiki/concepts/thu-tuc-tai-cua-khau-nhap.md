@@ -3,11 +3,12 @@ id: thu-tuc-tai-cua-khau-nhap
 title: "Thủ tục hải quan tại cửa khẩu nhập (QĐ 31/2026/QĐ-TTg)"
 type: concept
 created: 2026-11-21
-updated: 2026-11-21
+updated: 2026-11-22
 key_sources:
   - 54-2014-qh13
   - 08-2015-nd-cp
   - 167-2025-nd-cp
+  - 31-2026-qd-ttg
 related_concepts:
   - thu-tuc-hai-quan-xnk
   - doc-tinh-trang-hieu-luc
@@ -87,7 +88,7 @@ Theo Mục I Phụ lục kèm theo `31/2026/QĐ-TTg`, danh mục được xây d
 - [[sources/54-2014-qh13]] — Luật Hải quan `54/2014/QH13` (`CON_HIEU_LUC`, `NGUON_A`): Điều 22 (địa điểm làm thủ tục), Điều 47, Điều 50.
 - [[sources/08-2015-nd-cp]] — Nghị định `08/2015/NĐ-CP` (`CON_HIEU_LUC`, `NGUON_A`): Điều 4 về địa điểm làm thủ tục hải quan.
 - [[sources/167-2025-nd-cp]] — Nghị định `167/2025/NĐ-CP` (`CON_HIEU_LUC`, `NGUON_A`): khoản 1 Điều 1 sửa đổi, bổ sung khoản 1 và khoản 3 Điều 4 `08/2015/NĐ-CP`.
-- `registry/van-ban/31-2026-qd-ttg.yaml` (`31/2026/QĐ-TTg`, `CON_HIEU_LUC`, `NGUON_A`) — toàn văn PDF Công báo số 393 tại `raw/download/congbaocdn.chinhphu.vn/31-2026-qd-ttg.pdf` và bảng mã trích xuất `danh-muc/31-2026-qd-ttg.csv` (chưa có trang riêng trong `wiki/sources/`).
+- [[sources/31-2026-qd-ttg]] — Quyết định `31/2026/QĐ-TTg` (`CON_HIEU_LUC`, `NGUON_A`): toàn văn PDF Công báo số 393 tại `raw/download/congbaocdn.chinhphu.vn/31-2026-qd-ttg.pdf` và bảng mã trích xuất `danh-muc/31-2026-qd-ttg.csv`.
 - `registry/van-ban/23-2019-qd-ttg.yaml` (`23/2019/QĐ-TTg`, `HET_HIEU_LUC` từ `2026-08-14`, `NGUON_A`, bị thay thế bởi `31/2026/QĐ-TTg`).
 
 ## Related concepts
