@@ -1,28 +1,78 @@
 # Sổ đăng ký văn bản — crawl từ vanban.chinhphu.vn (sheet HT biểu thuế)
 so_hieu: 116/2022/NĐ-CP
 loai: NGHI_DINH
-ten: Biểu thuế NK ưu đãi EVFTA
+ten: Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu giai đoạn 2022 - 2027
 co_quan: CP
 ngay_ban_hanh: '2022-12-30'
 hieu_luc_tu: '2022-12-30'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/bieu-thue
-  - xuat-xu-fta/hiep-dinh/vcfeta
+  - xuat-xu-fta/hiep-dinh
   - thue/bieu-thue-xnk
 quan_he:
   thay_the:
-    - 111/2020/NĐ-CP
+    - so_hieu: 111/2020/NĐ-CP
+      pham_vi: toàn bộ
+      tu_ngay: '2022-12-30'
+      can_cu: Điều 7 khoản 2 Nghị định 116/2022/NĐ-CP
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'thẻ vanban.chinhphu.vn (docid=207169) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/116-2022-nd-cp.pdf): ban hành 30-12-2022, có hiệu lực từ 30-12-2022 đến hết 31-12-2027, thay thế Nghị định 111/2020/NĐ-CP'
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=207169), toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/116-2022-nd-cp.pdf, 417 trang, SHA-256 43510cddd43fe17fd1e58c40e2bc7dee4aa6078944bc96c86027f0b68116f9e8) và trang wiki/sources/116-2022-nd-cp.md: ban hành 30-12-2022, có hiệu lực từ ngày ký 30-12-2022 đến hết 31-12-2027, gồm 8 Điều và 3 Phụ lục ban hành Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định EVFTA giai đoạn 2022 - 2027, thay thế toàn bộ Nghị định 111/2020/NĐ-CP theo khoản 2 Điều 7'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-22'
   boi: tho-bo-ba-01@ozvietnam
   ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Nghị định này ban hành Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu (sau đây gọi tắt là Hiệp định EVFTA) giai đoạn 2022 - 2027 và điều kiện được hưởng thuế suất thuế xuất khẩu ưu đãi, thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định này.'
+    - dieu: 2
+      noi_dung: '1. Người nộp thuế theo quy định của Luật Thuế xuất khẩu, thuế nhập khẩu. 2. Cơ quan hải quan, công chức hải quan. 3. Tổ chức, cá nhân có quyền và nghĩa vụ liên quan đến hàng hóa xuất khẩu, nhập khẩu.'
+    - dieu: 3
+      khoan: 1
+      noi_dung: '1. Biểu thuế xuất khẩu ưu đãi của Việt Nam để thực hiện Hiệp định EVFTA giai đoạn 2022 - 2027 tại Phụ lục I Nghị định này gồm mã hàng, mô tả hàng hóa, thuế suất thuế xuất khẩu ưu đãi theo các giai đoạn khi xuất khẩu sang các lãnh thổ quy định tại điểm a khoản 2 Điều 4 Nghị định này đối với từng mã hàng.'
+    - dieu: 3
+      khoan: 2
+      noi_dung: '2. Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định EVFTA giai đoạn 2022 - 2027 tại Phụ lục II Nghị định này gồm mã hàng, mô tả hàng hóa, thuế suất thuế nhập khẩu ưu đãi đặc biệt theo các giai đoạn được nhập khẩu từ các lãnh thổ theo quy định tại điểm b khoản 3 Điều 5 Nghị định này đối với từng mã hàng.'
+    - dieu: 3
+      khoan: 3
+      noi_dung: '3. Cột “Mã hàng” và cột “Mô tả hàng hóa” tại các Phụ lục ban hành kèm theo Nghị định này được xây dựng trên cơ sở Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam và chi tiết theo cấp mã 8 số hoặc 10 số. Trường hợp Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam được sửa đổi, bổ sung, người khai hải quan kê khai mô tả, mã hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu sửa đổi, bổ sung và áp dụng thuế suất của mã hàng hoá được sửa đổi, bổ sung quy định tại các Phụ lục ban hành kèm theo Nghị định này.'
+    - dieu: 3
+      khoan: 4
+      noi_dung: '4. Cột “Thuế suất (%)” tại Phụ lục I và Phụ lục II: Thuế suất áp dụng cho các giai đoạn khác nhau, bao gồm: a) Cột “2022”: Thuế suất áp dụng từ ngày 30 tháng 12 năm 2022 đến hết ngày 31 tháng 12 năm 2022; b) Cột “2023”: Thuế suất áp dụng từ ngày 01 tháng 01 năm 2023 đến hết ngày 31 tháng 12 năm 2023; c) Cột “2024”: Thuế suất áp dụng từ ngày 01 tháng 01 năm 2024 đến hết ngày 31 tháng 12 năm 2024; d) Cột “2025”: Thuế suất áp dụng từ ngày 01 tháng 01 năm 2025 đến hết ngày 31 tháng 12 năm 2025; đ) Cột “2026”: Thuế suất áp dụng từ ngày 01 tháng 01 năm 2026 đến hết ngày 31 tháng 12 năm 2026; e) Cột “2027”: Thuế suất áp dụng từ ngày 01 tháng 01 năm 2027 đến hết ngày 31 tháng 12 năm 2027.'
+    - dieu: 4
+      khoan: 1
+      noi_dung: '1. Các mặt hàng không thuộc Biểu thuế xuất khẩu ưu đãi quy định tại Phụ lục I ban hành kèm theo Nghị định này được áp dụng mức thuế suất 0% khi xuất khẩu sang các lãnh thổ quy định tại điểm a khoản 2 Điều này.'
+    - dieu: 4
+      khoan: 2
+      noi_dung: '2. Điều kiện áp dụng thuế suất thuế xuất khẩu ưu đãi theo Hiệp định EVFTA: Hàng hóa xuất khẩu từ Việt Nam được áp dụng thuế suất thuế xuất khẩu ưu đãi quy định tại Phụ lục I ban hành kèm theo Nghị định này và tại khoản 1 Điều này phải đáp ứng đủ các điều kiện sau: a) Được nhập khẩu vào lãnh thổ thành viên Liên minh châu Âu quy định tại Phụ lục III ban hành kèm theo Nghị định này. b) Có chứng từ vận tải (bản chụp) thể hiện đích đến là các lãnh thổ theo quy định tại điểm a khoản 2 Điều này theo quy định của pháp luật hiện hành. c) Có tờ khai hải quan nhập khẩu hoặc chứng từ thay thế tờ khai hải quan của lô hàng xuất khẩu từ Việt Nam nhập khẩu vào lãnh thổ các nước được quy định tại điểm a khoản 2 Điều này (bản chụp) theo quy định của pháp luật hiện hành. d) Các chứng từ nêu tại điểm b và c khoản 2 Điều này nếu không phải bản tiếng Việt hoặc tiếng Anh thì người khai hải quan phải dịch ra tiếng Việt hoặc tiếng Anh và chịu trách nhiệm về nội dung bản dịch.'
+    - dieu: 4
+      khoan: 3
+      noi_dung: '3. Thủ tục áp dụng thuế suất thuế xuất khẩu ưu đãi theo Hiệp định EVFTA: a) Tại thời điểm làm thủ tục hải quan, người khai hải quan thực hiện khai tờ khai xuất khẩu, áp dụng thuế suất thuế xuất khẩu, tính thuế và nộp thuế theo Biểu thuế xuất khẩu theo Danh mục mặt hàng chịu thuế tại Nghị định Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan và các văn bản sửa đổi, bổ sung. b) Trong thời hạn 01 năm kể từ ngày đăng ký tờ khai xuất khẩu, người khai hải quan nộp đầy đủ chứng từ chứng minh hàng hóa đáp ứng quy định tại điểm b và điểm c khoản 2 Điều này và thực hiện khai bổ sung để áp dụng mức thuế suất thuế xuất khẩu ưu đãi theo Hiệp định EVFTA. Quá thời hạn 01 năm nêu trên, hàng hóa xuất khẩu không được áp dụng thuế suất thuế xuất khẩu ưu đãi theo Hiệp định EVFTA. c) Cơ quan hải quan thực hiện kiểm tra hồ sơ, kiểm tra thuế suất thuế xuất khẩu ưu đãi theo Biểu thuế xuất khẩu ưu đãi quy định tại Phụ lục I ban hành kèm theo Nghị định này, nếu hàng hóa xuất khẩu đáp ứng đủ các điều kiện quy định tại khoản 2 Điều này thì áp dụng thuế suất thuế xuất khẩu ưu đãi theo Hiệp định EVFTA và thực hiện xử lý tiền thuế nộp thừa cho người khai hải quan theo quy định của pháp luật về quản lý thuế.'
+    - dieu: 5
+      khoan: 1
+      noi_dung: '1. Ký hiệu “*”: Hàng hóa nhập khẩu không được hưởng thuế nhập khẩu ưu đãi đặc biệt của Hiệp định EVFTA.'
+    - dieu: 5
+      khoan: 2
+      noi_dung: '2. Đối với hàng hóa nhập khẩu áp dụng hạn ngạch thuế quan gồm một số mặt hàng thuộc các nhóm hàng 04.07; 17.01; 24.01; 25.01, thuế nhập khẩu ưu đãi đặc biệt trong hạn ngạch là mức thuế suất quy định tại Phụ lục II ban hành kèm theo Nghị định này; danh mục và lượng hạn ngạch thuế quan nhập khẩu hàng năm theo quy định của Bộ Công Thương và mức thuế suất thuế nhập khẩu ngoài hạn ngạch áp dụng theo quy định tại Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan của Chính phủ tại thời điểm nhập khẩu.'
+    - dieu: 5
+      khoan: 3
+      noi_dung: '3. Điều kiện áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định EVFTA: Hàng hóa nhập khẩu được áp dụng mức thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định EVFTA phải đáp ứng đủ các điều kiện sau: a) Thuộc Biểu thuế nhập khẩu ưu đãi đặc biệt quy định tại Phụ lục II ban hành kèm theo Nghị định này. b) Được nhập khẩu vào Việt Nam từ: - Lãnh thổ thành viên Liên minh châu Âu quy định tại Phụ lục III ban hành kèm theo Nghị định này; - Công quốc An-đô-ra; Cộng hòa San Ma-ri-nô; và - Vùng lãnh thổ Xớt-ta và Mê-li-la. c) Đáp ứng các quy định về xuất xứ hàng hóa và có chứng từ chứng nhận xuất xứ hàng hoá theo quy định của Hiệp định EVFTA.'
+    - dieu: 6
+      noi_dung: 'Hàng hóa từ khu phi thuế quan của Việt Nam nhập khẩu vào thị trường trong nước được áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định EVFTA phải đáp ứng đủ các điều kiện quy định tại điểm a, điểm c khoản 3 Điều 5 Nghị định này.'
+    - dieu: 7
+      khoan: 1
+      noi_dung: '1. Nghị định này có hiệu lực từ ngày ký ban hành.'
+    - dieu: 7
+      khoan: 2
+      noi_dung: '2. Nghị định số 111/2020/NĐ-CP ngày 18 tháng 9 năm 2020 của Chính phủ về việc ban hành Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh châu Âu giai đoạn 2020 - 2022 hết hiệu lực kể từ ngày Nghị định này có hiệu lực thi hành.'
+    - dieu: 8
+      noi_dung: 'Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này.'
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=207169&pageid=27160
     truy_cap: '2026-10-10'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/116-nd.signed.pdf
     truy_cap: '2026-10-10'
-toan_van: raw/download/datafiles.chinhphu.vn/116-2022-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/116-2022-nd-cp.pdf
+  - wiki/sources/116-2022-nd-cp.md
