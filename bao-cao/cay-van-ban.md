@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-2894 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2899 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -373,7 +373,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2212 văn bản, 2212 chưa hết hiệu lực.
+2217 văn bản, 2217 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -409,8 +409,13 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [22272/TB-CHQ/2026](../registry/van-ban/22272-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Mô-đun nguồn cho trạm sạc xe điện EV POWER MODULE 30 kW, chuyển đổi AC 3 pha 380V sang DC 150-1000V, mã số 8504.40.90)
 - 🟢 [22273/TB-CHQ/2026](../registry/van-ban/22273-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Module truyền nhận tín hiệu vô tuyến không dây LoRa Module băng tần 920 MHz, Model TLT01CSI, mã số 8517.62.59)
 - 🟢 [22274/TB-CHQ/2026](../registry/van-ban/22274-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Module truyền nhận tín hiệu Bluetooth/Wi-Fi băng tần 2,4 GHz, Model CM01WTA01M, mã số 8517.62.59)
+- 🟢 [22294/TB-CHQ/2026](../registry/van-ban/22294-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chất bảo quản dựa trên benzisothiazolinone và methylisothiazolinone Preventol BM 5, quy cách 20 kg/thùng, mã số 3808.99.90)
+- 🟢 [22012/TB-CHQ/2026](../registry/van-ban/22012-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chất xử lý bề mặt giày Treatment Agent RB-76, quy cách 15 kg/thùng, mã số 3208.90.90)
+- 🟢 [21794/TB-CHQ/2026](../registry/van-ban/21794-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hộp carton bằng bột giấy nén MPP Cushion dùng đựng máy tính xách tay và phụ kiện, kích thước 396x277x61 mm, mã số 4202.19.90)
+- 🟢 [21728/TB-CHQ/2026](../registry/van-ban/21728-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thuốc kê đơn OLESOM T chứa Terbutaline sulfate 1,5 mg và Guaifenesin 66,5 mg/5 ml siro, hộp 1 chai 60 ml, mã số 3004.90.99)
 - 🟢 [73/2026/VBHN-TT-BCT](../registry/van-ban/73-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư sửa đổi quy định Danh mục chi tiết theo mã HS của hàng hóa xuất khẩu, nhập khẩu
 - 🟢 [74/2026/VBHN-TT-BCT](../registry/van-ban/74-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương
+- 🟢 [21112/TB-CHQ/2026](../registry/van-ban/21112-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cáp điện ALVSH035F lõi nhôm bọc cách điện bằng plastic dùng cho xe ô tô, điện áp định mức 60VDC hoặc 25VAC, mã số 8544.49.22)
 - 🟢 [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - 🟢 [1489/TB-CHQ/2026](../registry/van-ban/1489-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1633/TB-CHQ/2026](../registry/van-ban/1633-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2710.12.99)
