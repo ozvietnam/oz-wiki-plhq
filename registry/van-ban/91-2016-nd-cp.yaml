@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 91/2016/NĐ-CP
 loai: NGHI_DINH
-ten: 'Về quản lý hóa chất, chế phẩm diệt côn trùng, diệt khuẩn dùng trong lĩnh vực gia dụng và y tế'
+ten: Về quản lý hóa chất, chế phẩm diệt côn trùng, diệt khuẩn dùng trong lĩnh vực gia dụng và y tế
 co_quan: CP
 ngay_ban_hanh: '2016-07-01'
 hieu_luc_tu: '2016-07-01'
@@ -17,11 +17,44 @@ nguon:
     truy_cap: '2026-11-12'
   - url: https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-91-2016-nd-cp-ve-quan-ly-hoa-chat-che-pham-diet-con-trung-diet-khuan-dung-trong-linh-vuc-gia-dung-va-y-te--112021
     truy_cap: '2026-11-12'
-toan_van: raw/download/datafiles.chinhphu.vn/91-2016-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/91-2016-nd-cp.pdf
+  - raw/ocr/91-2016-nd-cp.ocr.txt
 xac_minh:
   muc: NGUON_A
   pham_vi: 'Thẻ vanban.chinhphu.vn (docid=185596), PDF ký số 91.signed.pdf, Công báo (20331) và vbpl.vn (112021): ban hành 01-07-2016, người ký Nguyễn Xuân Phúc, hiệu lực từ 01-07-2016; đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi NĐ 155/2018/NĐ-CP và NĐ 129/2024/NĐ-CP).'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-12'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Văn bản gốc quản lý hóa chất, chế phẩm diệt côn trùng, diệt khuẩn gia dụng và y tế thuộc phạm vi quản lý của Bộ Y tế; được sửa đổi, bổ sung bởi NĐ 155/2018/NĐ-CP và NĐ 129/2024/NĐ-CP.'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Nghị định này quy định về sản xuất, sang chai đóng gói (sau đây gọi tắt là sản xuất), kiểm nghiệm, khảo nghiệm, lưu hành, mua bán, vận chuyên và xuất khâu, nhập khẩu hóa chất, chế phẩm diệt côn trùng, diệt khuẩn dùng trong lĩnh vực gia dụng và y te.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Giải thích từ ngữ Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: 1. Hoạt chất là chất có hoạt tính diệt côn trùng, diệt khuẩn. 2. Hóa chất diệt côn trùng, diệt khuẩn là hóa chất có chứa hoạt chất diệt côn trùng, diệt khuẩn ở dạng kỹ thuật dùng để gia công chế biến thành chế phẩm điệt côn trùng, diệt khuẩn dùng trong lĩnh vực gia dụng và y tế (sau đây gọi tắt là hóa chất).'
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: 'Điều 3. Danh mục hoạt chất 1. Danh mục hoạt chất gồm: a) Danh mục hoạt chất cắm sử dụng trong chế phẩm; b) Danh mục hoạt chất hạn chế phạm vi sử dung trong chế phẩm. 2. Bộ trưởng Bộ Y tế ban hành Danh mục hoạt chất cắm sử dung, han chế phạm vi sử dụng quy định tại khoản 1 Điều này căn cứ vào một hoặc nhiều nguồn thông tin sau: a) Cảnh báo của các tổ chức quốc tế, tình hình sử dụng tại các nước trên thê giới;'
+      trang_pdf: 2
+    - dieu: 12
+      noi_dung: 'Điều 12. Công bố đủ điều kiện thực hiện kiếm nghiệm 1. Cơ sở kiểm nghiệm nộp hồ sơ trực tiếp hoặc gửi hồ sơ qua bưu điện đến Bộ Y tế. Trường hợp Bộ Y tế trién khai công bố trực tuyến thì cơ sở công bé nộp hé sơ trực tuyến. 2. Thủ tục công bế trực tiếp:'
+      trang_pdf: 7
+    - dieu: 21
+      noi_dung: 'Điều 21. Các hình thức đăng ký lưu hành 1. Đăng ký lưu hành mới áp dụng đối với các trường hợp sau: a) Ché pham mới được sản xuất trong nước trừ chế phẩm được sản xuất chi để xuất khẩu; b) Chế phẩm đã được cho phép sử dụng ở nước ngoài nhưng lần đầu tiên được nhập khâu đề sử dụng ở Việt Nam;'
+      trang_pdf: 12
+    - dieu: 30
+      noi_dung: Điều 30. Tiếp nhận, thim định hồ sơ dang ký cấp lại Giấy chứng nhận đăng ký lưu hành 1. Cơ sở đăng ký nộp hồ sơ tại Bộ Y tế. 2. Sau khi nhận được hd sơ đăng ký cấp lại Giấy chứng nhận đăng ký lưu hành, Bộ Y tế cấp cho cơ sở đăng ký Phiếu tiếp nhận ho sơ. Phiếu tiếp nhận hồ sơ theo Mẫu số 07 tại Phụ luc II ban hành kèm theo Nghị định này.
+      trang_pdf: 20
+    - dieu: 37
+      noi_dung: Điều 37. Thủ tục đình chỉ lưu hành chế phẩm có cảnh báo của cơ quan có thẩm quyền về chế phẩm 1. Trong thời hạn 05 ngày làm việc, kế từ ngày nhận được thông báo về yếu tố nguy cơ gây ảnh hưởng xấu đến sức khỏe người sử dụng hoặc môi trường của hoạt chất hoặc chế phẩm do các quôc gia mà chế phẩm đang lưu hành hoặc Tổ chức Y tế thế giới gửi đến, Bộ Y tế có trách nhiệm ban hành quyết định đình chỉ lưu hành đối với chế phẩm và gửi văn bản yêu cau
+      trang_pdf: 24
+    - dieu: 45
+      noi_dung: Điều 45. Yêu cầu đối với bao bì, thùng chứa hoặc công-ten-nơ trong quá trình vận chuyển 1. Phải được bao gói phù hợp với từng loại hóa chất, chế phẩm theo đúng quy định tại Điều 33 Nghị định này.
+      trang_pdf: 28
+    - dieu: 56
+      noi_dung: Điều 56. Trách nhiệm của Bộ Công Thương 1. Chủ trì, phối hợp Bộ Y tế ban hành quy chuân về khoảng cách an toàn đối với cơ sở sản xuất chế phẩm và ghi nhãn hóa chất, chế phẩm theo Hệ thống hài hòa toàn cầu về phân loại và ghỉ nhãn hóa chat (GHS). 2. Thực hiện các hoạt động thanh tra, kiểm tra hóa chất, chế phẩm lưu hành trên thị trường theo quy định của pháp luật.
+      trang_pdf: 34
+    - dieu: 65
+      noi_dung: Điều 65. Điều kfoản chuyén tiếp 1. Cơ sở sản xuất hóa chất, chế phẩm đã hoạt động trước ngày Nghị định này có hiệu lực thi hành được tiếp tục hoạt động sản xuất nhưng phải hoàn thành việc công bố đủ điều kiện sân xuất trước ngày 01 tháng 7 năm 2017.
+      trang_pdf: 37
+ghi_chu: Văn bản gốc quản lý hóa chất, chế phẩm diệt côn trùng, diệt khuẩn gia dụng và y tế thuộc phạm vi quản lý của Bộ Y tế; được sửa đổi, bổ sung bởi NĐ 155/2018/NĐ-CP và NĐ 129/2024/NĐ-CP.
