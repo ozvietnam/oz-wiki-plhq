@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-11-22
 
-Tổng 3135 điểm: **9 cao**, 131 vừa, 2995 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 3143 điểm: **9 cao**, 139 vừa, 2995 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -10,8 +10,8 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | THIEU_VBHN | Cao | 1 | `nap-lam-sach` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 70 | `danh-muc-hs` |
 | Văn bản nền tảng (có toàn văn) chưa có trang wiki/sources/ | Vừa | 57 | `doc-hieu` |
+| Wiki nhắc văn bản chưa đăng ký | Vừa | 9 | `lien-ket-cheo` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
-| Wiki nhắc văn bản chưa đăng ký | Vừa | 1 | `lien-ket-cheo` |
 | TB-TCHQ cá biệt chưa có nguồn chính thống | Thấp | 1367 | `tb-tchq` |
 | TB-TCHQ cá biệt chưa đối chiếu nguồn A | Thấp | 1367 | `tb-tchq` |
 | Mã HS AHTN cũ đã ánh xạ sang biểu thuế EN2022 | Thấp | 131 | `danh-muc-hs` |
@@ -116,7 +116,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **35/2025/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/35-2025-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/35-2025-nd-cp.pdf,raw/ocr/35-2025-nd-cp.ocr.txt) nhưng chưa có wiki/sources/35-2025-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
 - [ ] **36/2005/QH11: văn bản nền tảng chưa có trang wiki/sources/36-2005-qh11.md** — Đã có toàn văn (raw/download/vanban.chinhphu.vn/36-2005-qh11.html) nhưng chưa có wiki/sources/36-2005-qh11.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
 - [ ] **36/2009/QH12: văn bản nền tảng chưa có trang wiki/sources/36-2009-qh12.md** — Đã có toàn văn (raw/download/vanban.chinhphu.vn/36-2009-qh12.html) nhưng chưa có wiki/sources/36-2009-qh12.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **365/2026/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/365-2026-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/365-2026-nd-cp.pdf) nhưng chưa có wiki/sources/365-2026-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **365/2026/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/365-2026-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/365-2026-nd-cp.pdf,raw/ocr/365-2026-nd-cp.ocr.txt) nhưng chưa có wiki/sources/365-2026-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
 - [ ] **42/2013/QH13: văn bản nền tảng chưa có trang wiki/sources/42-2013-qh13.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/42-2013-qh13.pdf) nhưng chưa có wiki/sources/42-2013-qh13.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
 - [ ] **42/2019/QH14: văn bản nền tảng chưa có trang wiki/sources/42-2019-qh14.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/42-2019-qh14.pdf) nhưng chưa có wiki/sources/42-2019-qh14.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
 - [ ] **42/2024/QH15: văn bản nền tảng chưa có trang wiki/sources/42-2024-qh15.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/42-2024-qh15.pdf) nhưng chưa có wiki/sources/42-2024-qh15.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
@@ -126,15 +126,23 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **60/2014/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/60-2014-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/60-2014-nd-cp.pdf) nhưng chưa có wiki/sources/60-2014-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
 - … và 17 điểm khác (xem bao-cao/diem-mu.json)
 
+## Wiki nhắc văn bản chưa đăng ký (9)
+
+- [ ] **Wiki nhắc 44/2023/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/101-2023-qh15.md).
+- [ ] **Wiki nhắc 87/2010/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/134-2016-nd-cp.md).
+- [ ] **Wiki nhắc 304/2016/TT-BTC nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/19-2019-tt-btc.md).
+- [ ] **Wiki nhắc 20/2019/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/19-2019-tt-btc.md).
+- [ ] **Wiki nhắc 1092/QĐ-BTC nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/19-2019-tt-btc.md).
+- [ ] **Wiki nhắc 1254/QĐ-TTg nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/19-2019-tt-btc.md).
+- [ ] **Wiki nhắc 140/2016/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/19-2019-tt-btc.md).
+- [ ] **Wiki nhắc 112/2025/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/76-vbhn-vpqh.md).
+- [ ] **Wiki nhắc 143/2025/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/76-vbhn-vpqh.md).
+
 ## Sắp có hiệu lực (≤60 ngày) (3)
 
 - [ ] **154/2026/TT-BTC có hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 - [ ] **372/2026/NĐ-CP có hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 - [ ] **63/2026/TT-BKHCN có hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
-
-## Wiki nhắc văn bản chưa đăng ký (1)
-
-- [ ] **Wiki nhắc 87/2010/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/134-2016-nd-cp.md).
 
 ## TB-TCHQ cá biệt chưa có nguồn chính thống (1367)
 

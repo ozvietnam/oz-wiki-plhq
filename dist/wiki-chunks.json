@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-22).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 3014,
+ "tong": 3041,
  "chunks": [
   {
    "chunk_id": "dong-bo-quan-diem-phan-loai#1",
@@ -28700,6 +28700,212 @@
     "khai-bao-hai-quan"
    ],
    "confidence": "medium",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "101-2023-qh15#1",
+   "slug": "101-2023-qh15",
+   "duong_dan": "wiki/sources/101-2023-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "NQ 101/2023/QH15 — Nghị quyết Kỳ họp thứ 5, Quốc hội khóa XV (giảm 2% thuế GTGT 2023)",
+   "muc": "Summary",
+   "noi_dung": "**Nghị quyết 101/2023/QH15** do Quốc hội khóa XV thông qua ngày 24/06/2023 tại Kỳ họp thứ 5 (hiệu lực từ ngày thông qua 24/06/2023), gồm 7 mục quyết nghị (không đánh số `Điều N`). Đối với lĩnh vực thuế và xuất nhập khẩu, **Mục 4** quyết nghị giảm 2% thuế suất thuế giá trị gia tăng (GTGT) theo điểm a khoản 1.1 Điều 3 Nghị quyết 43/2022/QH15 trong thời gian từ **01/07/2023 đến hết 31/12/2023**, đồng thời **Mục 2** yêu cầu tháo gỡ vướng mắc hoàn thuế GTGT, cắt giảm thủ tục kiểm tra chuyên ngành và thúc đẩy xuất khẩu, tận dụng các FTA.",
+   "tags": [
+    "nghi-quyet",
+    "qh",
+    "thue-gtgt",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "101/2023/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2023-06-24",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-101-2023-qh15-39763.htm"
+    },
+    {
+     "so_hieu": "43/2022/QH15",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-01-11",
+     "het_hieu_luc_tu": "2024-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=205183"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "101-2023-qh15#2",
+   "slug": "101-2023-qh15",
+   "duong_dan": "wiki/sources/101-2023-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "NQ 101/2023/QH15 — Nghị quyết Kỳ họp thứ 5, Quốc hội khóa XV (giảm 2% thuế GTGT 2023)",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 24/06/2023 | Quốc hội khóa XV thông qua tại Kỳ họp thứ 5 và có hiệu lực thi hành |\n| 01/07/2023 – 31/12/2023 | Thời hạn áp dụng chính sách giảm 2% thuế suất thuế GTGT (Mục 4) |\n| 21/07/2023 | Đăng Công báo số 839 + 840 (trang 29–38) |\n| Còn hiệu lực | Đã đối chiếu trên Công báo Chính phủ |",
+   "tags": [
+    "nghi-quyet",
+    "qh",
+    "thue-gtgt",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "101-2023-qh15#3",
+   "slug": "101-2023-qh15",
+   "duong_dan": "wiki/sources/101-2023-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "NQ 101/2023/QH15 — Nghị quyết Kỳ họp thứ 5, Quốc hội khóa XV (giảm 2% thuế GTGT 2023)",
+   "muc": "Cấu trúc (7 mục quyết nghị)",
+   "noi_dung": "Văn bản sử dụng cấu trúc khoản đánh số `1.` đến `7.` (không có `Điều N`):\n\n| Mục | Nội dung chính |\n|---|---|\n| **1 (1.1 – 1.2)** | Tổng hợp kết quả lập pháp Kỳ họp thứ 5: thông qua 08 luật, 17 nghị quyết; cho ý kiến lần 2 dự án Luật Đất đai (sửa đổi) và lần 1 đối với 08 dự án luật |\n| **2 (a – k)** | Đánh giá kinh tế - xã hội 2022–2023 và 11 nhóm yêu cầu điều hành đối với Chính phủ (tài khóa, tiền tệ, hoàn thuế GTGT, rà soát pháp luật, cắt giảm thủ tục kiểm tra chuyên ngành, xúc tiến xuất khẩu/FTA) |\n| **3** | Giải quyết kiến nghị của cử tri và đại biểu Quốc hội |\n| **4** | **Giảm 2% thuế suất thuế GTGT** từ 01/07/2023 đến hết 31/12/2023 theo NQ 43/2022/QH15 |\n| **5 (a – c)** | Điều chỉnh chủ trương đầu tư Dự án Hồ chứa nước Ka Pét (tỉnh Bình Thuận) |\n| **6** | Chấp thuận chủ trương đầu tư bổ sung vốn điều lệ cho Agribank giai đoạn 2021–2023 (tối đa 17.100 tỷ đồng) |\n| **7** | Tổ chức thực hiện và giám sát thực hiện Nghị quyết |",
+   "tags": [
+    "nghi-quyet",
+    "qh",
+    "thue-gtgt",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "43/2022/QH15",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-01-11",
+     "het_hieu_luc_tu": "2024-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=205183"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "101-2023-qh15#4",
+   "slug": "101-2023-qh15",
+   "duong_dan": "wiki/sources/101-2023-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "NQ 101/2023/QH15 — Nghị quyết Kỳ họp thứ 5, Quốc hội khóa XV (giảm 2% thuế GTGT 2023)",
+   "muc": "Nội dung trọng tâm liên quan đến thuế và XNK",
+   "noi_dung": "### Mục 4 — Giảm 2% thuế suất thuế GTGT (nguyên văn đoạn đầu)\n\n> \"4. Thực hiện giảm 2% thuế suất thuế giá trị gia tăng quy định tại điểm a, khoản 1.1 Điều 3 của Nghị quyết số 43/2022/QH15 của Quốc hội về chính sách tài khóa, tiền tệ hỗ trợ Chương trình phục hồi và phát triển kinh tế - xã hội trong thời gian từ ngày 01/7/2023 đến hết ngày 31/12/2023.\"\n\n- Chính phủ tổ chức thực hiện kịp thời, hiệu quả, không làm ảnh hưởng đến dự toán thu và bội chi ngân sách nhà nước năm 2023; báo cáo kết quả thực hiện cùng tổng kết NQ 43/2022/QH15 tại Kỳ họp thứ 6.\n\n### Mục 2 — Chỉ đạo về hoàn thuế, kiểm tra chuyên ngành và XNK\n\n- **Điểm b**: Kịp thời giải quyết hồ sơ hoàn thuế giá trị gia tăng theo quy định; nghiên cứu phương án điều chỉnh mức giảm trừ gia cảnh thuế TNCN, linh hoạt thuế bảo vệ môi trường với xăng dầu, đề xuất chính sách đối với thuế tối thiểu toàn cầu và thuế các-bon.\n- **Điểm đ**: Rà soát hệ thống VBQPPL, phát hiện quy định mâu thuẫn, chồng chéo, vướng mắc trong các luật và văn bản dưới luật; báo cáo kết quả rà soát tại Kỳ họp thứ 6.\n- **Điểm h**: Tiếp tục rà soát cắt giảm điều kiện kinh doanh, **thủ tục kiểm tra chuyên ngành**, kiểm soát chặt việc ban hành thông tư, không làm phát sinh thủ tục, \"giấy phép con\", tiêu chuẩn, quy chuẩn kỹ thuật mới không phù hợp; tháo gỡ vướng mắc kiểm định xe cơ giới và PCCC.\n- **Điểm i**: Đẩy mạnh xúc tiến thương mại, **thúc đẩy xuất khẩu hàng hóa**, khai thác hiệu quả thị trường truyền thống, đa dạng hóa thị trường xuất khẩu, hỗ trợ doanh nghiệp, hợp tác xã tận dụng các **Hiệp định thương mại tự do (FTA)** đã ký kết.",
+   "tags": [
+    "nghi-quyet",
+    "qh",
+    "thue-gtgt",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "43/2022/QH15",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-01-11",
+     "het_hieu_luc_tu": "2024-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=205183"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "101-2023-qh15#5",
+   "slug": "101-2023-qh15",
+   "duong_dan": "wiki/sources/101-2023-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "NQ 101/2023/QH15 — Nghị quyết Kỳ họp thứ 5, Quốc hội khóa XV (giảm 2% thuế GTGT 2023)",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/thue-gtgt-hang-nhap-khau]]\n- [[concepts/kiem-tra-chuyen-nganh]]\n- [[concepts/thu-tuc-hai-quan-xnk]]",
+   "tags": [
+    "nghi-quyet",
+    "qh",
+    "thue-gtgt",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "101-2023-qh15#6",
+   "slug": "101-2023-qh15",
+   "duong_dan": "wiki/sources/101-2023-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "NQ 101/2023/QH15 — Nghị quyết Kỳ họp thứ 5, Quốc hội khóa XV (giảm 2% thuế GTGT 2023)",
+   "muc": "Related sources",
+   "noi_dung": "- 43/2022/QH15 — Nghị quyết về chính sách tài khóa, tiền tệ hỗ trợ Chương trình phục hồi (căn cứ trực tiếp tại Mục 4; chưa có wiki)\n- [[sources/204-2025-qh15]] — Nghị quyết giảm thuế GTGT giai đoạn sau (2025–2026)",
+   "tags": [
+    "nghi-quyet",
+    "qh",
+    "thue-gtgt",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "43/2022/QH15",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-01-11",
+     "het_hieu_luc_tu": "2024-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=205183"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "101-2023-qh15#7",
+   "slug": "101-2023-qh15",
+   "duong_dan": "wiki/sources/101-2023-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "NQ 101/2023/QH15 — Nghị quyết Kỳ họp thứ 5, Quốc hội khóa XV (giảm 2% thuế GTGT 2023)",
+   "muc": "Open questions",
+   "noi_dung": "- Các nghị định hướng dẫn chi tiết thi hành Mục 4 cho nửa cuối năm 2023 (như NĐ 44/2023/NĐ-CP) đã hết chu kỳ áp dụng từ 01/01/2024; cần tra cứu theo chuỗi nối tiếp nếu đối chiếu tờ khai nhập khẩu năm 2023.",
+   "tags": [
+    "nghi-quyet",
+    "qh",
+    "thue-gtgt",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "101-2023-qh15#8",
+   "slug": "101-2023-qh15",
+   "duong_dan": "wiki/sources/101-2023-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "NQ 101/2023/QH15 — Nghị quyết Kỳ họp thứ 5, Quốc hội khóa XV (giảm 2% thuế GTGT 2023)",
+   "muc": "Notes",
+   "noi_dung": "- Đã đọc toàn văn 10 trang PDF Công báo số 839 + 840/Ngày 21-7-2023 (`raw/download/congbaocdn.chinhphu.vn/101-2023-qh15.pdf`, có lớp chữ sạch).\n- Văn bản không chia `Điều N` mà chia 7 mục (`1.`–`7.`), nên được lập hồ sơ chi tiết tại trang wiki nguồn này thay cho trích điều khoản `Điều N`.",
+   "tags": [
+    "nghi-quyet",
+    "qh",
+    "thue-gtgt",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -58235,6 +58441,236 @@
     "thu-tuc-hai-quan",
     "kiem-tra-chuyen-nganh",
     "sua-doi",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "19-2019-tt-btc#1",
+   "slug": "19-2019-tt-btc",
+   "duong_dan": "wiki/sources/19-2019-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 19/2019/TT-BTC — Bãi bỏ TT 304/2016/TT-BTC về bảng giá tính lệ phí trước bạ ô tô, xe máy",
+   "muc": "Summary",
+   "noi_dung": "**Thông tư 19/2019/TT-BTC** của Bộ trưởng Bộ Tài chính ban hành ngày 09/04/2019, có hiệu lực từ ngày **10/04/2019**, quy định bãi bỏ toàn bộ **Thông tư 304/2016/TT-BTC** ngày 15/11/2016 ban hành Bảng giá tính lệ phí trước bạ đối với ô tô, xe máy (gắn với thời điểm hiệu lực của Nghị định 20/2019/NĐ-CP). Tệp nguồn bậc A hiện có trong kho (`raw/download/mof.gov.vn/19-2019-tt-btc.docx`) là **Danh mục I văn bản QPPL còn hiệu lực của Bộ Tài chính kỳ hệ thống hóa 2019–2023** ban hành kèm Quyết định 1092/QĐ-BTC ngày 13/05/2024, xác nhận chính thức hiệu lực và nội dung bãi bỏ của Thông tư 19/2019/TT-BTC.",
+   "tags": [
+    "thong-tu",
+    "btc",
+    "le-phi-truoc-ba",
+    "bai-bo",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "19/2019/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2019-04-10",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.mof.gov.vn/api/mediafile/media-article/61206b44-d862-4b77-8db8-d46256648d93/750b9933-9eed-4d07-ad96-c367fb9b4452.docx"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "19-2019-tt-btc#2",
+   "slug": "19-2019-tt-btc",
+   "duong_dan": "wiki/sources/19-2019-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 19/2019/TT-BTC — Bãi bỏ TT 304/2016/TT-BTC về bảng giá tính lệ phí trước bạ ô tô, xe máy",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 09/04/2019 | Bộ Tài chính ban hành Thông tư 19/2019/TT-BTC |\n| 10/04/2019 | Có hiệu lực thi hành; bãi bỏ toàn bộ Thông tư 304/2016/TT-BTC ngày 15/11/2016 |\n| 13/05/2024 | Quyết định 1092/QĐ-BTC (Danh mục I) xác nhận đang còn hiệu lực trong kỳ hệ thống hóa 2019–2023 |",
+   "tags": [
+    "thong-tu",
+    "btc",
+    "le-phi-truoc-ba",
+    "bai-bo",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "19/2019/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2019-04-10",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.mof.gov.vn/api/mediafile/media-article/61206b44-d862-4b77-8db8-d46256648d93/750b9933-9eed-4d07-ad96-c367fb9b4452.docx"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "19-2019-tt-btc#3",
+   "slug": "19-2019-tt-btc",
+   "duong_dan": "wiki/sources/19-2019-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 19/2019/TT-BTC — Bãi bỏ TT 304/2016/TT-BTC về bảng giá tính lệ phí trước bạ ô tô, xe máy",
+   "muc": "Cấu trúc tài liệu nguồn hiện có",
+   "noi_dung": "Tệp `.docx` lưu tại `raw/download/mof.gov.vn/19-2019-tt-btc.docx` (8.045 đoạn trích từ bảng Word) là **Danh mục I kèm theo Quyết định 1092/QĐ-BTC ngày 13/05/2024** của Bộ Tài chính (không phải bản tách rời có cấu trúc `Điều N` của Thông tư 19/2019/TT-BTC). Trong Danh mục I, Thông tư 19/2019/TT-BTC được liệt kê ở hai mục lĩnh vực:\n\n- **Lĩnh vực Thuế, phí, lệ phí**: ghi nhận `Thông tư 19/2019/TT-BTC`, ngày ban hành `09/4/2019`, ngày có hiệu lực `10/4/2019`, tên gọi *\"Thông tư số 19/2019/TT-BTC ngày 09/4/2019 của Bộ Tài chính về việc bãi bỏ Thông tư 304/2016/TT-BTC ngày 15/11/2016 của Bộ trưởng Bộ Tài chính ban hành Bảng giá tính lệ phí trước bạ đối với ô tô, xe máy\"*.\n- **Lĩnh vực Ngân sách nhà nước / Hành chính sự nghiệp**: lặp lại thông tin nhận diện tương tự, không có ghi chú hết hiệu lực hay kiến nghị bãi bỏ đối với chính Thông tư 19/2019/TT-BTC.",
+   "tags": [
+    "thong-tu",
+    "btc",
+    "le-phi-truoc-ba",
+    "bai-bo",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "19/2019/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2019-04-10",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.mof.gov.vn/api/mediafile/media-article/61206b44-d862-4b77-8db8-d46256648d93/750b9933-9eed-4d07-ad96-c367fb9b4452.docx"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "19-2019-tt-btc#4",
+   "slug": "19-2019-tt-btc",
+   "duong_dan": "wiki/sources/19-2019-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 19/2019/TT-BTC — Bãi bỏ TT 304/2016/TT-BTC về bảng giá tính lệ phí trước bạ ô tô, xe máy",
+   "muc": "Ý nghĩa đối với nghiệp vụ XNK",
+   "noi_dung": "- **Không phải văn bản về Cổng thông tin một cửa quốc gia (NSW)**: khung pháp lý về Cơ chế một cửa quốc gia là QĐ 1254/QĐ-TTg → NĐ 85/2019/NĐ-CP → NĐ 336/2026/NĐ-CP.\n- **Liên hệ gián tiếp đối với ô tô, xe máy nhập khẩu**: việc bãi bỏ Bảng giá tính lệ phí trước bạ tại TT 304/2016/TT-BTC đồng bộ với lộ trình sửa đổi cách tính giá tính lệ phí trước bạ theo NĐ 20/2019/NĐ-CP (sửa đổi NĐ 140/2016/NĐ-CP).",
+   "tags": [
+    "thong-tu",
+    "btc",
+    "le-phi-truoc-ba",
+    "bai-bo",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "85/2019/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2020-01-01",
+     "het_hieu_luc_tu": "2026-10-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "336/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=198329&pageid=27160"
+    },
+    {
+     "so_hieu": "336/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-10-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?classid=0&docid=219265&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "19-2019-tt-btc#5",
+   "slug": "19-2019-tt-btc",
+   "duong_dan": "wiki/sources/19-2019-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 19/2019/TT-BTC — Bãi bỏ TT 304/2016/TT-BTC về bảng giá tính lệ phí trước bạ ô tô, xe máy",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/phuong-tien-giao-thong-van-tai]]\n- [[concepts/doc-tinh-trang-hieu-luc]]",
+   "tags": [
+    "thong-tu",
+    "btc",
+    "le-phi-truoc-ba",
+    "bai-bo",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "19-2019-tt-btc#6",
+   "slug": "19-2019-tt-btc",
+   "duong_dan": "wiki/sources/19-2019-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 19/2019/TT-BTC — Bãi bỏ TT 304/2016/TT-BTC về bảng giá tính lệ phí trước bạ ô tô, xe máy",
+   "muc": "Related sources",
+   "noi_dung": "- 304/2016/TT-BTC — Thông tư ban hành Bảng giá tính lệ phí trước bạ đối với ô tô, xe máy (bị bãi bỏ bởi 19/2019/TT-BTC; chưa có wiki)\n- 20/2019/NĐ-CP — Nghị định sửa đổi quy định về lệ phí trước bạ (cùng hiệu lực 10/04/2019; chưa có wiki)\n- 1092/QĐ-BTC — Quyết định công bố kết quả hệ thống hóa VBQPPL của BTC kỳ 2019–2023 (nguồn của tệp `.docx`)",
+   "tags": [
+    "thong-tu",
+    "btc",
+    "le-phi-truoc-ba",
+    "bai-bo",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "19/2019/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2019-04-10",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.mof.gov.vn/api/mediafile/media-article/61206b44-d862-4b77-8db8-d46256648d93/750b9933-9eed-4d07-ad96-c367fb9b4452.docx"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "19-2019-tt-btc#7",
+   "slug": "19-2019-tt-btc",
+   "duong_dan": "wiki/sources/19-2019-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 19/2019/TT-BTC — Bãi bỏ TT 304/2016/TT-BTC về bảng giá tính lệ phí trước bạ ô tô, xe máy",
+   "muc": "Open questions",
+   "noi_dung": "- Nếu cần trích nguyên văn từng `Điều 1`, `Điều 2` của bản Thông tư 19/2019/TT-BTC riêng lẻ, cần bổ sung PDF/toàn văn Công báo của riêng TT 19/2019/TT-BTC vào `toan_van` (vì tệp `.docx` hiện tại là Danh mục I kèm QĐ 1092/QĐ-BTC).",
+   "tags": [
+    "thong-tu",
+    "btc",
+    "le-phi-truoc-ba",
+    "bai-bo",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "19/2019/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2019-04-10",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.mof.gov.vn/api/mediafile/media-article/61206b44-d862-4b77-8db8-d46256648d93/750b9933-9eed-4d07-ad96-c367fb9b4452.docx"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "19-2019-tt-btc#8",
+   "slug": "19-2019-tt-btc",
+   "duong_dan": "wiki/sources/19-2019-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 19/2019/TT-BTC — Bãi bỏ TT 304/2016/TT-BTC về bảng giá tính lệ phí trước bạ ô tô, xe máy",
+   "muc": "Notes",
+   "noi_dung": "- Đã kiểm tra toàn bộ nội dung XML của `raw/download/mof.gov.vn/19-2019-tt-btc.docx` (370.570 bytes, `word/document.xml` 6,6 MB).\n- Tệp nguồn là bảng Danh mục hệ thống hóa VBQPPL của BTC nên không có cấu trúc `Điều N` để trích tự động bằng `trich-dieu-khoan.mjs`.",
+   "tags": [
+    "thong-tu",
+    "btc",
+    "le-phi-truoc-ba",
+    "bai-bo",
     "con-hieu-luc"
    ],
    "confidence": "high",
@@ -89529,6 +89965,353 @@
     "chua-co-ban-goc"
    ],
    "confidence": "medium",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "76-vbhn-vpqh#1",
+   "slug": "76-vbhn-vpqh",
+   "duong_dan": "wiki/sources/76-vbhn-vpqh.md",
+   "loai_trang": "sources",
+   "tieu_de": "76-VBHN/VPQH — Văn bản hợp nhất Luật Dược (25/03/2026)",
+   "muc": "Summary",
+   "noi_dung": "**Văn bản hợp nhất 76-VBHN/VPQH** do Chủ nhiệm Văn phòng Quốc hội ký xác thực ngày **25/03/2026**, hợp nhất toàn bộ **Luật Dược 105/2016/QH13** (ban hành 06/04/2016, hiệu lực 01/01/2017) cùng 05 luật sửa đổi, bổ sung gồm: Luật 28/2018/QH14, Luật 44/2024/QH15, Luật Quy hoạch 112/2025/QH15, Luật Phòng bệnh 114/2025/QH15 và Luật Đầu tư 143/2025/QH15. Toàn văn gồm **14 Chương, 116 Điều** (có một số điều được bãi bỏ trong quá trình sửa đổi), là bản hợp nhất hiện hành điều chỉnh đăng ký lưu hành, xuất nhập khẩu, nhãn mác và quản lý chất lượng thuốc, nguyên liệu làm thuốc, dược liệu tại Việt Nam.",
+   "tags": [
+    "van-ban-hop-nhat",
+    "luat-duoc",
+    "vpqh",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "105/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+    },
+    {
+     "so_hieu": "28/2018/QH14",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2026-03-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=49815"
+    },
+    {
+     "so_hieu": "44/2024/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-44-2024-qh15-43548.htm"
+    },
+    {
+     "so_hieu": "114/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-114-2025-qh15-468676.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "76-vbhn-vpqh#2",
+   "slug": "76-vbhn-vpqh",
+   "duong_dan": "wiki/sources/76-vbhn-vpqh.md",
+   "loai_trang": "sources",
+   "tieu_de": "76-VBHN/VPQH — Văn bản hợp nhất Luật Dược (25/03/2026)",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 01/01/2017 | Luật Dược 105/2016/QH13 có hiệu lực thi hành |\n| 01/01/2019 | Sửa đổi, bổ sung liên quan quy hoạch theo Luật 28/2018/QH14 |\n| 01/07/2025 | Sửa đổi, bổ sung nhiều điều (kinh doanh TMĐT, ĐKLH, XNK Điều 60...) theo Luật 44/2024/QH15 |\n| 01/03/2026 | Sửa đổi theo Luật Quy hoạch 112/2025/QH15 và Luật Đầu tư 143/2025/QH15 |\n| 25/03/2026 | Văn phòng Quốc hội xác thực Văn bản hợp nhất 76-VBHN/VPQH |\n| 01/07/2026 | Các sửa đổi theo Luật Phòng bệnh 114/2025/QH15 và phần quy định tại Điều 7, Phụ lục IV Luật Đầu tư 143/2025/QH15 có hiệu lực |",
+   "tags": [
+    "van-ban-hop-nhat",
+    "luat-duoc",
+    "vpqh",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "105/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+    },
+    {
+     "so_hieu": "28/2018/QH14",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2026-03-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=49815"
+    },
+    {
+     "so_hieu": "44/2024/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-44-2024-qh15-43548.htm"
+    },
+    {
+     "so_hieu": "114/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-114-2025-qh15-468676.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "76-vbhn-vpqh#3",
+   "slug": "76-vbhn-vpqh",
+   "duong_dan": "wiki/sources/76-vbhn-vpqh.md",
+   "loai_trang": "sources",
+   "tieu_de": "76-VBHN/VPQH — Văn bản hợp nhất Luật Dược (25/03/2026)",
+   "muc": "Cấu trúc (14 Chương, 116 Điều)",
+   "noi_dung": "| Chương | Nội dung | Khoảng Điều |\n|---|---|---|\n| I | Những quy định chung | 1–6 |\n| II | Chính sách của Nhà nước về dược và phát triển công nghiệp dược | 7–10 |\n| III | Hành nghề dược | 11–31 |\n| IV | Kinh doanh dược | 32–53 |\n| V | Đăng ký, lưu hành, thu hồi thuốc và nguyên liệu làm thuốc | 54–65 |\n| VI | Dược liệu và thuốc cổ truyền | 66–73 |\n| VII | Đơn thuốc và sử dụng thuốc | 74–75 |\n| VIII | Thông tin thuốc, cảnh giác dược và quảng cáo thuốc | 76–79 |\n| IX | Dược lâm sàng | 80–83 |\n| X | Quản lý thuốc trong cơ sở khám bệnh, chữa bệnh | 84–85+ |\n| XI | Thử thuốc trên lâm sàng, thử tương đương sinh học của thuốc | đến 101 |\n| XII | Quy chuẩn, tiêu chuẩn chất lượng và việc kiểm nghiệm | 102–105 |\n| XIII | Quản lý giá thuốc | 106–114 |\n| XIV | Điều khoản thi hành | 115–116 |",
+   "tags": [
+    "van-ban-hop-nhat",
+    "luat-duoc",
+    "vpqh",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "76-vbhn-vpqh#4",
+   "slug": "76-vbhn-vpqh",
+   "duong_dan": "wiki/sources/76-vbhn-vpqh.md",
+   "loai_trang": "sources",
+   "tieu_de": "76-VBHN/VPQH — Văn bản hợp nhất Luật Dược (25/03/2026)",
+   "muc": "Nội dung trọng tâm đối với xuất nhập khẩu và quản lý chuyên ngành > Điều 1 & Điều 2 — Phạm vi và giải thích từ ngữ",
+   "noi_dung": "- **Dược**: là thuốc và nguyên liệu làm thuốc (Điều 2 khoản 1).\n- **Thuốc**: chế phẩm có chứa dược chất hoặc dược liệu dùng cho người nhằm phòng bệnh, chẩn đoán bệnh, chữa bệnh, điều trị bệnh, giảm nhẹ bệnh, điều chỉnh chức năng sinh lý cơ thể người (bao gồm thuốc hóa dược, thuốc dược liệu, thuốc cổ truyền, vắc xin và sinh phẩm — Điều 2 khoản 2).\n- **Nguyên liệu làm thuốc**: thành phần tham gia cấu tạo của thuốc gồm dược chất, dược liệu, tá dược, vỏ nang được sử dụng trong quá trình sản xuất thuốc (Điều 2 khoản 3).",
+   "tags": [
+    "van-ban-hop-nhat",
+    "luat-duoc",
+    "vpqh",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "76-vbhn-vpqh#5",
+   "slug": "76-vbhn-vpqh",
+   "duong_dan": "wiki/sources/76-vbhn-vpqh.md",
+   "loai_trang": "sources",
+   "tieu_de": "76-VBHN/VPQH — Văn bản hợp nhất Luật Dược (25/03/2026)",
+   "muc": "Nội dung trọng tâm đối với xuất nhập khẩu và quản lý chuyên ngành > Điều 32 & Điều 54 — Kinh doanh TMĐT dược và đối tượng phải đăng ký lưu hành",
+   "noi_dung": "- **Điều 32 khoản 1 điểm a** (sửa bởi Luật 44/2024/QH15): hoạt động kinh doanh dược bao gồm cả kinh doanh thuốc, nguyên liệu làm thuốc theo phương thức thương mại điện tử trên sàn giao dịch TMĐT, ứng dụng/website bán hàng có chức năng đặt hàng trực tuyến.\n- **Điều 54 khoản 1–2**: thuốc và nguyên liệu làm thuốc phải đăng ký trước khi lưu hành tại Việt Nam, trừ các trường hợp miễn theo Điều 47, Điều 60 (khoản 2, 3, 5a), Điều 70 và Điều 85.",
+   "tags": [
+    "van-ban-hop-nhat",
+    "luat-duoc",
+    "vpqh",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "44/2024/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-44-2024-qh15-43548.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "76-vbhn-vpqh#6",
+   "slug": "76-vbhn-vpqh",
+   "duong_dan": "wiki/sources/76-vbhn-vpqh.md",
+   "loai_trang": "sources",
+   "tieu_de": "76-VBHN/VPQH — Văn bản hợp nhất Luật Dược (25/03/2026)",
+   "muc": "Nội dung trọng tâm đối với xuất nhập khẩu và quản lý chuyên ngành > Điều 60 — Nhập khẩu, xuất khẩu thuốc và nguyên liệu làm thuốc",
+   "noi_dung": "- **Khoản 1 (Nhập khẩu không cần giấy phép NK)**: thuốc, nguyên liệu làm thuốc là dược chất đã có giấy đăng ký lưu hành (GĐKLH) tại Việt Nam; nguyên liệu làm thuốc là dược chất để sản xuất thuốc theo hồ sơ đăng ký thuốc đã có GĐKLH — trừ trường hợp kiểm soát đặc biệt tại khoản 4.\n- **Khoản 2 (Cấp phép NK thuốc chưa có GĐKLH)**: cấp phép theo số lượng ghi trên giấy phép đối với: dược chất chưa có GĐKLH hoặc chưa đáp ứng đủ nhu cầu điều trị; dược liệu lần đầu sử dụng làm thuốc tại Việt Nam hoặc chưa đủ nhu cầu điều trị; nhu cầu cấp bách (quốc phòng, an ninh, dịch bệnh, thiên tai); thuốc hiếm; biệt dược gốc/thuốc cùng tên thương mại giá thấp theo yêu cầu Bộ trưởng BYT; chương trình y tế Nhà nước; viện trợ; thử tương đương sinh học/mẫu đăng ký/nghiên cứu/trưng bày (điểm h); mục đích phi thương mại khác gồm cả nhập khẩu cho nhu cầu điều trị đặc biệt của cơ sở khám chữa bệnh (điểm i).\n- **Khoản 3 (Cấp phép NK nguyên liệu chưa có GĐKLH)**: làm mẫu đăng ký/kiểm nghiệm/nghiên cứu/trưng bày; hoặc để sản xuất thuốc xuất khẩu, bán thành phẩm thuốc xuất khẩu, thuốc phục vụ quốc phòng/an ninh/phòng điều trị bệnh truyền nhiễm nhóm A/khắc phục thiên tai, pha chế điều trị tại cơ sở KCB.\n- **Khoản 4**: thuốc phải kiểm soát đặc biệt phải cấp phép XK/NK theo đúng số lượng trên giấy phép.\n- **Khoản 5**: thuốc, nguyên liệu làm thuốc được phép xuất khẩu không cần giấy phép của Bộ Y tế, trừ dược liệu quý hiếm/đặc hữu phải kiểm soát, thuốc kiểm soát đặc biệt, dược chất hướng thần/gây nghiện/tiền chất làm thuốc hoặc chất phóng xạ.\n- **Khoản 5a–6a** (bổ sung bởi Luật 44/2024/QH15 & Luật 114/2025/QH15): thuốc thử lâm sàng nhập khẩu theo công bố trên Cổng TTĐT Bộ Y tế không cần cấp phép NK; Bộ Tài chính định kỳ chia sẻ số liệu thông quan XK/NK thuốc kiểm soát đặc biệt với Bộ Y tế.\n- **Khoản 7**: giao Chính phủ quy định tiêu chí, hồ sơ, thủ tục cấp phép XK/NK, danh mục cấm nhập khẩu/cấm sản xuất, và quy định nhập khẩu dược liệu, tá dược, vỏ nang, bao bì tiếp xúc trực tiếp với thuốc.",
+   "tags": [
+    "van-ban-hop-nhat",
+    "luat-duoc",
+    "vpqh",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "44/2024/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-44-2024-qh15-43548.htm"
+    },
+    {
+     "so_hieu": "114/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-114-2025-qh15-468676.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "76-vbhn-vpqh#7",
+   "slug": "76-vbhn-vpqh",
+   "duong_dan": "wiki/sources/76-vbhn-vpqh.md",
+   "loai_trang": "sources",
+   "tieu_de": "76-VBHN/VPQH — Văn bản hợp nhất Luật Dược (25/03/2026)",
+   "muc": "Nội dung trọng tâm đối với xuất nhập khẩu và quản lý chuyên ngành > Điều 61, Điều 68 & Điều 73 — Nhãn thuốc, chất lượng dược liệu và thuốc cổ truyền",
+   "noi_dung": "- **Điều 61**: quy định các nội dung bắt buộc trên nhãn thuốc, nguyên liệu làm thuốc lưu hành trên thị trường (gồm tên, dạng bào chế, thành phần/hàm lượng, quy cách đóng gói, tên và địa chỉ cơ sở sản xuất và cơ sở nhập khẩu).\n- **Điều 68**: dược liệu phải đạt tiêu chuẩn chất lượng, rõ nguồn gốc xuất xứ; dư lượng hóa chất BVTV, kim loại nặng, vi sinh vật, độc tính không vượt mức quy định; tổ chức nhập khẩu dược liệu phải công bố tiêu chuẩn theo quy định.\n- **Điều 73 khoản 3**: giao Bộ trưởng Bộ Y tế hướng dẫn đối với thuốc cổ truyền có dạng bào chế hiện đại.",
+   "tags": [
+    "van-ban-hop-nhat",
+    "luat-duoc",
+    "vpqh",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "76-vbhn-vpqh#8",
+   "slug": "76-vbhn-vpqh",
+   "duong_dan": "wiki/sources/76-vbhn-vpqh.md",
+   "loai_trang": "sources",
+   "tieu_de": "76-VBHN/VPQH — Văn bản hợp nhất Luật Dược (25/03/2026)",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/thuoc-theo-luat-duoc-2016]]\n- [[concepts/duoc-lieu-theo-luat-duoc-2016]]\n- [[concepts/phan-biet-3004-3005-3006]]\n- [[concepts/doc-tinh-trang-hieu-luc]]",
+   "tags": [
+    "van-ban-hop-nhat",
+    "luat-duoc",
+    "vpqh",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "76-vbhn-vpqh#9",
+   "slug": "76-vbhn-vpqh",
+   "duong_dan": "wiki/sources/76-vbhn-vpqh.md",
+   "loai_trang": "sources",
+   "tieu_de": "76-VBHN/VPQH — Văn bản hợp nhất Luật Dược (25/03/2026)",
+   "muc": "Related sources",
+   "noi_dung": "- [[summary/luat-duoc-va-phan-loai-hs]] — Bảng quyết định nhanh Luật Dược và phân loại mã HS\n- [[sources/105-2016-qh13]] — Luật Dược 2016 (luật gốc)\n- [[sources/28-2018-qh14]] — Luật sửa đổi 11 luật liên quan quy hoạch\n- [[sources/44-2024-qh15]] — Luật sửa đổi, bổ sung một số điều của Luật Dược\n- [[sources/163-2025-nd-cp]] — Nghị định hướng dẫn thi hành Luật Dược (thay NĐ 54/2017/NĐ-CP)\n- [[sources/09-2024-tt-byt]] — Thông tư ban hành 14 Danh mục thuốc, dược liệu, thuốc cổ truyền",
+   "tags": [
+    "van-ban-hop-nhat",
+    "luat-duoc",
+    "vpqh",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "54/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-07-01",
+     "het_hieu_luc_tu": "2025-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "163/2025/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=189761"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "76-vbhn-vpqh#10",
+   "slug": "76-vbhn-vpqh",
+   "duong_dan": "wiki/sources/76-vbhn-vpqh.md",
+   "loai_trang": "sources",
+   "tieu_de": "76-VBHN/VPQH — Văn bản hợp nhất Luật Dược (25/03/2026)",
+   "muc": "Open questions",
+   "noi_dung": "- Kiểm tra sự tương thích giữa các quy định dẫn chiếu về Luật Đầu tư 143/2025/QH15 (Điều 7, Phụ lục IV từ 01/07/2026) và Nghị định hướng dẫn chi tiết thi hành tiếp theo sau NĐ 163/2025/NĐ-CP.",
+   "tags": [
+    "van-ban-hop-nhat",
+    "luat-duoc",
+    "vpqh",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "163/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214322"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "76-vbhn-vpqh#11",
+   "slug": "76-vbhn-vpqh",
+   "duong_dan": "wiki/sources/76-vbhn-vpqh.md",
+   "loai_trang": "sources",
+   "tieu_de": "76-VBHN/VPQH — Văn bản hợp nhất Luật Dược (25/03/2026)",
+   "muc": "Notes",
+   "noi_dung": "- Đã đọc toàn văn tệp `raw/download/datafiles.chinhphu.vn/2026/3/76-vbhn-vpqh-2026.md` (284.135 bytes; toàn văn text trên một dòng nên `trich-dieu-khoan.mjs` không bắt được ranh giới dòng `^Điều N`).\n- Đã đồng thời trích xuất nguyên văn 10 điều khoản cốt lõi vào `xac_minh.dieu_khoan` trong `registry/van-ban/76-vbhn-vpqh.yaml` và đối chiếu khớp 100% qua `kiem-tra-dieu-khoan.mjs`.",
+   "tags": [
+    "van-ban-hop-nhat",
+    "luat-duoc",
+    "vpqh",
+    "kiem-tra-chuyen-nganh",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
