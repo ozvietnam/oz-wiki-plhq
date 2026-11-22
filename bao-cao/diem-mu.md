@@ -1,17 +1,16 @@
 # Báo cáo điểm mù — 2026-11-22
 
-Tổng 3043 điểm: **8 cao**, 73 vừa, 2962 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 3043 điểm: **8 cao**, 3 vừa, 3032 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
 | Nhóm | Mức | Số điểm | Luồng việc |
 |---|---|---|---|
 | Sắp hết hiệu lực (≤60 ngày) | Cao | 8 | `hieu-luc` |
-| Mã HS trong bảng không có trong biểu thuế | Vừa | 70 | `danh-muc-hs` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
 | TB-TCHQ cá biệt chưa có nguồn chính thống | Thấp | 1367 | `tb-tchq` |
 | TB-TCHQ cá biệt chưa đối chiếu nguồn A | Thấp | 1367 | `tb-tchq` |
-| Mã HS AHTN cũ đã ánh xạ sang biểu thuế EN2022 | Thấp | 131 | `danh-muc-hs` |
+| Mã HS AHTN cũ đã ánh xạ sang biểu thuế EN2022 | Thấp | 201 | `danh-muc-hs` |
 | Tệp doc-hieu thiếu nghĩa vụ XNK (≥50% điều hợp lệ trống) | Thấp | 36 | `doc-hieu` |
 | Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay | Thấp | 18 | `hieu-luc` |
 | Hiệu lực chưa đối chiếu nguồn A | Thấp | 15 | `hieu-luc` |
@@ -29,50 +28,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **204/2025/QH15 hết hiệu lực ngày 2026-12-31** — Tới ngày thì chuyển tinh_trang; rà mọi trang wiki và văn bản đang dẫn chiếu 204/2025/QH15.
 - [ ] **43/2026/NQ-CP hết hiệu lực ngày 2026-12-31** — Tới ngày thì chuyển tinh_trang; rà mọi trang wiki và văn bản đang dẫn chiếu 43/2026/NQ-CP.
 - [ ] **72/2026/NĐ-CP hết hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển tinh_trang; rà mọi trang wiki và văn bản đang dẫn chiếu 72/2026/NĐ-CP.
-
-## Mã HS trong bảng không có trong biểu thuế (70)
-
-- [ ] **08/2023/TT-BCT: mã 40151900 không có trong biểu thuế** — danh-muc/08-2023-tt-bct.csv dòng 222 ("Sản phẩm may mặc và đồ phụ trợ may mặc (kể cả găng tay, găng"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 36030010 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 7 ("Các loại kíp nổ điện dùng trong công nghiệp"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 36030010 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 8 ("Kíp nổ đốt số 8 dùng trong công nghiệp"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 36030020 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 9 ("Dây cháy chậm công nghiệp"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 36030090 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 10 ("Dây nổ chịu nước dùng trong công nghiệp"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 36030090 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 11 ("Mồi nổ dùng cho thuốc nổ công nghiệp"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 84798939 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 37 ("Trạm nạp LPG cho chai, xe bồn, xe ô tô"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 84798940 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 38 ("Trạm nạp LPG cho chai, xe bồn, xe ô tô"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 84798939 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 39 ("Trạm cấp LPG"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 84798940 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 40 ("Trạm cấp LPG"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 85013222 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 48 ("Động cơ điện phòng nổ"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 85171200 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 88 ("Thiết bị thông tin phòng nổ (Điện thoại, Máy đàm thoại, Còi "). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 85318010 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 95 ("Thiết bị thông tin phòng nổ (Điện thoại, Máy đàm thoại, Còi "). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 85364190 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 110 ("Thiết bị phân phối, đóng cắt phòng nổ (Khởi động từ, Khởi độ"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 85444298 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 131 ("Cáp điện phòng nổ"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 94051091 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 142 ("Đèn chiếu sáng phòng nổ"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 94051092 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 143 ("Đèn chiếu sáng phòng nổ"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 94051099 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 144 ("Đèn chiếu sáng phòng nổ"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 94054020 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 145 ("Đèn chiếu sáng phòng nổ"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 94054040 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 146 ("Đèn chiếu sáng phòng nổ"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 94054060 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 147 ("Đèn chiếu sáng phòng nổ"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 94054099 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 148 ("Đèn chiếu sáng phòng nổ"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **1182/QĐ-BCT: mã 94056090 không có trong biểu thuế** — danh-muc/1182-qd-bct-2021.csv dòng 149 ("Đèn chiếu sáng phòng nổ"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **41/2019/TT-BCT: mã 48132000 không có trong biểu thuế** — danh-muc/41-2019-tt-bct.csv dòng 86 ("Giấy cuốn thuốc lá, đã hoặc chưa cắt theo cỡ hoặc ở dạng tập"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **41/2019/TT-BCT: mã 48139010 không có trong biểu thuế** — danh-muc/41-2019-tt-bct.csv dòng 87 ("Giấy cuốn thuốc lá, đã hoặc chưa cắt theo cỡ hoặc ở dạng tập"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **41/2019/TT-BCT: mã 48139090 không có trong biểu thuế** — danh-muc/41-2019-tt-bct.csv dòng 88 ("Giấy cuốn thuốc lá, đã hoặc chưa cắt theo cỡ hoặc ở dạng tập"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **41/2019/TT-BCT: mã 84789010 không có trong biểu thuế** — danh-muc/41-2019-tt-bct.csv dòng 90 ("1. Máy cắt đầu lá"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **41/2019/TT-BCT: mã 84789010 không có trong biểu thuế** — danh-muc/41-2019-tt-bct.csv dòng 91 ("2. Xy lanh làm ẩm"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **41/2019/TT-BCT: mã 84789010 không có trong biểu thuế** — danh-muc/41-2019-tt-bct.csv dòng 92 ("3. Hầm ủ lá (xy lô trữ và ủ lá)"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **41/2019/TT-BCT: mã 84789010 không có trong biểu thuế** — danh-muc/41-2019-tt-bct.csv dòng 93 ("4. Máy sấy lá (sấy, làm nguội, làm dịu)"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **41/2019/TT-BCT: mã 84789010 không có trong biểu thuế** — danh-muc/41-2019-tt-bct.csv dòng 94 ("5. Hệ thống cân và đóng (ép) kiện lá"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **41/2019/TT-BCT: mã 84789010 không có trong biểu thuế** — danh-muc/41-2019-tt-bct.csv dòng 95 ("1. Xy lanh làm ẩm cọng lần 1"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **41/2019/TT-BCT: mã 84789010 không có trong biểu thuế** — danh-muc/41-2019-tt-bct.csv dòng 96 ("2. Xy lanh làm ẩm cọng lần 2"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **41/2019/TT-BCT: mã 84789010 không có trong biểu thuế** — danh-muc/41-2019-tt-bct.csv dòng 97 ("3. Hệ thống tước cọng, tách lá"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **41/2019/TT-BCT: mã 84789010 không có trong biểu thuế** — danh-muc/41-2019-tt-bct.csv dòng 98 ("4. Máy sấy cọng (sấy, làm nguội, làm dịu)"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **41/2019/TT-BCT: mã 84789010 không có trong biểu thuế** — danh-muc/41-2019-tt-bct.csv dòng 99 ("5. Máy phân loại, làm sạch cọng"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **41/2019/TT-BCT: mã 84789010 không có trong biểu thuế** — danh-muc/41-2019-tt-bct.csv dòng 100 ("6. Hệ thống cân và đóng (ép) kiện cọng"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **41/2019/TT-BCT: mã 84789010 không có trong biểu thuế** — danh-muc/41-2019-tt-bct.csv dòng 102 ("1. Thiết bị hấp chân không"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **41/2019/TT-BCT: mã 84789010 không có trong biểu thuế** — danh-muc/41-2019-tt-bct.csv dòng 103 ("2. Máy cắt kiện lá"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- [ ] **41/2019/TT-BCT: mã 84789010 không có trong biểu thuế** — danh-muc/41-2019-tt-bct.csv dòng 104 ("3. Xy lanh làm ẩm lá"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
-- … và 30 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Sắp có hiệu lực (≤60 ngày) (3)
 
@@ -168,13 +123,14 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **1049/TB-TCHQ/2019: TB-TCHQ tình trạng "CHUA_XAC_MINH" chưa đối chiếu nguồn A** — Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.
 - … và 1327 điểm khác (xem bao-cao/diem-mu.json)
 
-## Mã HS AHTN cũ đã ánh xạ sang biểu thuế EN2022 (131)
+## Mã HS AHTN cũ đã ánh xạ sang biểu thuế EN2022 (201)
 
 - [ ] **01/2024/TT-BNNPTNT: mã 03034900 (AHTN cũ) → đã ánh xạ sang 03034910 (tu_dong_6s)** — danh-muc/01-2024-tt-bnnptnt.csv dòng 441 ("Cá, đông lạnh, trừ phi-lê cá (fillets) và các loại thịt cá k"). Đã ánh xạ sang hs_moi: 03034910 (loai: tu_dong_6s) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.
 - [ ] **01/2024/TT-BNNPTNT: mã 44129990 (AHTN cũ) → đã ánh xạ sang 44129900 (tu_dong_6s)** — danh-muc/01-2024-tt-bnnptnt.csv dòng 3035 ("Gỗ dán, tấm gỗ dán veneer và các loại gỗ ghép tương tự: - Lo"). Đã ánh xạ sang hs_moi: 44129900 (loai: tu_dong_6s) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.
 - [ ] **01/2024/TT-BNNPTNT: mã 44140000 (AHTN cũ) → đã ánh xạ sang 44141000 (don_le)** — danh-muc/01-2024-tt-bnnptnt.csv dòng 3037 ("Khung tranh, khung ảnh, khung gương bằng gỗ hoặc các sản phẩ"). Đã ánh xạ sang hs_moi: 44141000 (loai: don_le) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.
 - [ ] **08/2023/TT-BCT: mã 40199999 (AHTN cũ) → đã ánh xạ sang 40169999 (don_le)** — danh-muc/08-2023-tt-bct.csv dòng 12 ("Các sản phẩm khác bằng cao su lưu hóa trừ cao su cứng: - Loạ"). Đã ánh xạ sang hs_moi: 40169999 (loai: don_le) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.
 - [ ] **08/2023/TT-BCT: mã 85392292 (AHTN cũ) → đã ánh xạ sang 85392299 (tu_dong_6s)** — danh-muc/08-2023-tt-bct.csv dòng 156 ("Bóng đèn dây tóc hoặc bóng đèn phóng điện, kể cả đèn pha gắn"). Đã ánh xạ sang hs_moi: 85392299 (loai: tu_dong_6s) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.
+- [ ] **08/2023/TT-BCT: mã 40151900 (AHTN cũ) → đã ánh xạ sang 401519 (tach_en2022_6s)** — danh-muc/08-2023-tt-bct.csv dòng 222 ("Sản phẩm may mặc và đồ phụ trợ may mặc (kể cả găng tay, găng"). Đã ánh xạ sang hs_moi: 401519 (loai: tach_en2022_6s) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.
 - [ ] **09/2024/TT-BYT: mã 29230090 (AHTN cũ) → đã ánh xạ sang 29224900 (don_le)** — danh-muc/09-2024-tt-byt.csv dòng 51 ("Hydroxyurea"). Đã ánh xạ sang hs_moi: 29224900 (loai: don_le) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.
 - [ ] **09/2024/TT-BYT: mã 33043900 (AHTN cũ) → đã ánh xạ sang 33049990 (don_le)** — danh-muc/09-2024-tt-byt.csv dòng 401 ("19 Nor-testosterone (tên gọi khác là Nandrolone)"). Đã ánh xạ sang hs_moi: 33049990 (loai: don_le) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.
 - [ ] **09/2024/TT-BYT: mã 33042091 (AHTN cũ) → đã ánh xạ sang 33042000 (tu_dong_6s)** — danh-muc/09-2024-tt-byt.csv dòng 402 ("Amifloxacin (Dạng uống hoặc dạng mỡ)"). Đã ánh xạ sang hs_moi: 33042000 (loai: tu_dong_6s) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.
@@ -209,8 +165,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **09/2024/TT-BYT: mã 30343290 (AHTN cũ) → đã ánh xạ sang 30043210 (loi_danh_may_3034)** — danh-muc/09-2024-tt-byt.csv dòng 1320 ("Betamethasone"). Đã ánh xạ sang hs_moi: 30043210 (loai: loi_danh_may_3034) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.
 - [ ] **09/2024/TT-BYT: mã 33045099 (AHTN cũ) → đã ánh xạ sang 33049990 (don_le)** — danh-muc/09-2024-tt-byt.csv dòng 1389 ("Calcifediol"). Đã ánh xạ sang hs_moi: 33049990 (loai: don_le) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.
 - [ ] **09/2024/TT-BYT: mã 33045099 (AHTN cũ) → đã ánh xạ sang 33049990 (don_le)** — danh-muc/09-2024-tt-byt.csv dòng 1390 ("Calcipotriol"). Đã ánh xạ sang hs_moi: 33049990 (loai: don_le) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.
-- [ ] **09/2024/TT-BYT: mã 30942091 (AHTN cũ) → đã ánh xạ sang 30042099 (loi_danh_may_3094)** — danh-muc/09-2024-tt-byt.csv dòng 1418 ("Cefalotin (Dạng uống hoặc dạng mỡ)"). Đã ánh xạ sang hs_moi: 30042099 (loai: loi_danh_may_3094) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.
-- … và 91 điểm khác (xem bao-cao/diem-mu.json)
+- … và 161 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Tệp doc-hieu thiếu nghĩa vụ XNK (≥50% điều hợp lệ trống) (36)
 
