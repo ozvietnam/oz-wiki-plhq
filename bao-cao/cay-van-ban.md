@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-3004 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3008 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2308 văn bản, 2308 chưa hết hiệu lực.
+2312 văn bản, 2312 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -529,6 +529,10 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [7913/TB-CHQ/2026](../registry/van-ban/7913-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Màn hình hiển thị CTS-IX5000 70 Display cho hệ thống hội nghị truyền hình TelePresence IX5000 Series, ký mã hiệu CTS-SK-70-G1=, mã số 8528.52.00)
 - 🟢 [7914/TB-CHQ/2026](../registry/van-ban/7914-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Màn hình hiển thị Left Monitor for MX800 70 Dual Screen w/Dual Camera cho hệ thống hội nghị truyền hình TelePresence MX800, ký mã hiệu CTS-MX800-MON-L-D=, mã số 8528.52.00)
 - 🟢 [7915/TB-CHQ/2026](../registry/van-ban/7915-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Màn hình hiển thị Right Monitor for Room 70 Dual cho hệ thống hội nghị truyền hình Webex Room 70D, ký mã hiệu CS-ROOM70D-MON-R=, mã số 8528.52.00)
+- 🟢 [7920/TB-CHQ/2026](../registry/van-ban/7920-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ thu nhận tín hiệu truyền hình tivi (tuner), Part No DTVS20EH7A, Model BN40-00329A, mã số 8529.90.91)
+- 🟢 [6740/TB-CHQ/2026](../registry/van-ban/6740-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bảng mạch chuyển đổi nguồn và xử lý tín hiệu cho TV, Maker PN VT32HM075A3PVD, Model BN96-50993F, mã số 8529.90.54)
+- 🟢 [6746/TB-CHQ/2026](../registry/van-ban/6746-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bình tích áp bằng thép dung tích 21 lít kèm theo van dùng cho máy lọc nước gia đình, ký mã hiệu RO-152, mã số 8421.99.94)
+- 🟢 [6560/TB-CHQ/2026](../registry/van-ban/6560-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Keo nóng chảy Hot Melt Adhesive, ký mã hiệu LG-905S, mã số 3506.91.90)
 - 🟢 [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - 🟢 [1489/TB-CHQ/2026](../registry/van-ban/1489-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1633/TB-CHQ/2026](../registry/van-ban/1633-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2710.12.99)
