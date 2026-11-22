@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-2931 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2936 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -378,7 +378,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2246 văn bản, 2246 chưa hết hiệu lực.
+2251 văn bản, 2251 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -450,6 +450,11 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [19277/TB-CHQ/2026](../registry/van-ban/19277-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Miếng bảo vệ bằng nhôm của tai nghe không dây Bluetooth, mã số 8518.90.90)
 - 🟢 [18873/TB-CHQ/2026](../registry/van-ban/18873-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ vòng thử cỡ ngón tay dùng với nhẫn thông minh Galaxy Ring Size Kit, mã số 9031.80.90)
 - 🟢 [18772/TB-CHQ/2026](../registry/van-ban/18772-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cụm cầu sau xe ô tô chở người dưới 9 chỗ ngồi RR Suspension Module, mã số 8708.50.26)
+- 🟢 [18721/TB-CHQ/2026](../registry/van-ban/18721-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Kính thông minh không màn hình Non-display Smart Glasses, ký mã hiệu SM-O200, mã số 9004.90.90)
+- 🟢 [18737/TB-CHQ/2026](../registry/van-ban/18737-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cụm cầu trước ô tô FRT SUSPENSION MODULE, ký mã hiệu 62400-I7000TC23 / 64100-P6000TC, mã số 8708.50.26)
+- 🟢 [18693/TB-CHQ/2026](../registry/van-ban/18693-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Máy tách hạt từ quả tươi Seed Extraction Machine, ký mã hiệu EMM-1100, mã số 8438.60.00)
+- 🟢 [18591/TB-CHQ/2026](../registry/van-ban/18591-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cụm cản trước / Ba đờ xốc ô tô BUMPER ASSY-FR, ký mã hiệu 86511-K6504TC, mã số 8708.10.90)
+- 🟢 [18595/TB-CHQ/2026](../registry/van-ban/18595-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Đuôi gió ô tô SPOILER ASSY-RR, ký mã hiệu 87200-I7000TC, mã số 8708.29.95)
 - 🟢 [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - 🟢 [1489/TB-CHQ/2026](../registry/van-ban/1489-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1633/TB-CHQ/2026](../registry/van-ban/1633-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2710.12.99)
