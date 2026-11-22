@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 24187/TB-CHQ/2025
+so_hieu_khac:
+  - 24187/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Thiết bị truyền tín hiệu một chiều từ khu vực mạng an toàn ra khu vực mạng ngoài, ký mã hiệu NnetDiode U type, mã số 8517.62.49)'
+co_quan: CHQ
+ngay_ban_hanh: '2025-09-15'
+hieu_luc_tu: '2025-09-15'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=101339&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/9/15/49.VBDI_24187.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/9/15/49.VBDI_24187.pdf, id=101339, SHA-256 c7e296a2b1219cde9f768227669ff9728b63d5ead21d3da383156389f1011129): Thông báo số 24187/TB-CHQ ngày 15-09-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Thiết bị truyền tín hiệu một chiều (ký, mã hiệu NnetDiode U type; gồm bộ phận truyền Tx nằm trong vùng mạng an toàn và bộ phận nhận Rx nằm trong vùng mạng ngoài được tích hợp trong một khối vỏ kim loại rackmount 1U kích thước 438 x 44 x 480 mm, khối lượng 8 kg, công suất tiêu thụ 300W, nguồn điện 100-240VAC 50/60Hz; mỗi đơn vị Tx và Rx có 4 cổng RJ-45 tốc độ 1 Gbps, 2 cổng USB 3.0, 1 cổng Console RJ-45; kết nối phần cứng chỉ cho phép truyền dữ liệu một chiều vật lý duy nhất ở tốc độ 1 Gbps trong hệ thống hữu tuyến kỹ thuật số, chuẩn mã hóa SHA-256 và AES-256, ngăn chặn rò rỉ dữ liệu ngược chiều hoặc tấn công mạng từ vùng mạng ít an toàn hơn), phân loại vào nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.49; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Thiết bị truyền tín hiệu một chiều tích hợp bộ phận truyền (Tx) và bộ phận nhận (Rx) trong một khối dùng cho hệ thống hữu tuyến kỹ thuật số (ký, mã hiệu NnetDiode U type; vỏ rackmount 1U, tốc độ truyền 1 Gbps, mỗi đơn vị có 4 cổng RJ-45 1 Gbps, 2 cổng USB 3.0, 1 cổng Console RJ-45, chỉ cho phép truyền dữ liệu một chiều vật lý từ vùng mạng an toàn ra vùng mạng ngoài) thuộc nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.49.'
+toan_van: raw/download/files.customs.gov.vn/24187-tb-chq-2025.pdf

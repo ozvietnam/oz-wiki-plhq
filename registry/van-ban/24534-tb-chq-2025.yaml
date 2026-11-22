@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 24534/TB-CHQ/2025
+so_hieu_khac:
+  - 24534/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Thiết bị lưu trữ dữ liệu phân tán dùng cho mạng nội bộ và trung tâm dữ liệu, ký mã hiệu OceanStor Pacific 9920, mã số 8471.70.90)'
+co_quan: CHQ
+ngay_ban_hanh: '2025-09-16'
+hieu_luc_tu: '2025-09-16'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=101352&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/9/17/VBDI_24534.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/9/17/VBDI_24534.pdf, id=101352, SHA-256 ff82083ad6a4ec95320b137d619a719a414381c5df9793691bebd0c36dbb9bbc): Thông báo số 24534/TB-CHQ ngày 16-09-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Thiết bị lưu trữ dữ liệu phân tán (ký, mã hiệu OceanStor Pacific 9920; cấu tạo gồm khung máy chính 2U 25 khe SSD kích thước 86.1 x 447 x 830 mm nặng 38 kg, 2 bộ xử lý điều khiển Kunpeng 920 48 core, bộ nhớ RAM 16GB DDR4 x 16, 2 ổ cứng M.2 SSD SATA 3.0 480GB lưu trữ hệ điều hành và phần mềm quản lý, 17 ổ cứng 30.72TB SSD NVMe Palm Disk unit lưu trữ dữ liệu, card mạng 1x100G Dual Port QSFP28-PCIe 4.0 kèm module quang 2xQSFP28-100G-SR4; hoạt động theo nguyên lý lưu trữ phân tán với cơ chế mã hóa xóa Erasure Coding, hỗ trợ đa giao thức SMB/CIFS, NFS, iSCSI, S3, HDFS, chuyên xử lý dữ liệu phi cấu trúc băng thông cao và độ trễ thấp cho doanh nghiệp và trung tâm dữ liệu), phân loại vào nhóm 84.71, phân nhóm 8471.70, mã số 8471.70.90; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Thiết bị lưu trữ dữ liệu phân tán chuyên xử lý dữ liệu phi cấu trúc cho doanh nghiệp và trung tâm dữ liệu (ký, mã hiệu OceanStor Pacific 9920; khung máy 2U, 2 bộ xử lý điều khiển 48 core, RAM 16GB DDR4 x 16, 2 ổ M.2 SATA SSD 480GB, 17 ổ 30.72TB SSD NVMe, card mạng 100G QSFP28) thuộc nhóm 84.71, phân nhóm 8471.70, mã số 8471.70.90.'
+toan_van: raw/download/files.customs.gov.vn/24534-tb-chq-2025.pdf
