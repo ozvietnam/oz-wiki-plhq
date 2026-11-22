@@ -1,62 +1,55 @@
 ---
 id: 41-2016-tt-btttt
-title: "Sửa đổi, bổ sung một số điều của Thông tư số 16/2015/TT-BTTTT ngày 17 tháng 6 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết thi hành Nghị định số 187/2013/NĐ-CP ngày 20 tháng 11 năm 2013 của Chính phủ về xuất khẩu, nhập khẩu hàng hóa trong lĩnh vực in, phát hành xuất bản phẩm"
+title: "TT 41/2016/TT-BTTTT — Sửa đổi, bổ sung TT 16/2015/TT-BTTTT về XNK lĩnh vực in, xuất bản (ĐÃ HẾT HIỆU LỰC từ 12/02/2019)"
 type: source
 created: 2026-10-12
-updated: 2026-10-12
+updated: 2026-11-22
 authors:
   - BTTTT
 year: 2016
 source_type: legal
 importance: 3
-provenance: missing
-confidence: low
-tags: [stub, kiem-tra-chuyen-nganh, can-tai-toan-van]
+provenance: partial
+confidence: high
+tags:
+  - btttt
+  - xuat-ban
+  - hoat-dong-in
+  - sua-doi
+  - het-hieu-luc
+urls:
+  - https://congbao.chinhphu.vn/van-ban/thong-tu-so-41-2016-tt-btttt-22060.htm
 ---
+
+# ⚠️ VĂN BẢN ĐÃ HẾT HIỆU LỰC TỪ NGÀY 12/02/2019
+
+> **Lưu ý hiệu lực:** **Thông tư 41/2016/TT-BTTTT** **đã HẾT HIỆU LỰC toàn bộ kể từ ngày 12/02/2019** do bị thay thế bởi **điểm b khoản 1 Điều 2 Thông tư `22/2018/TT-BTTTT`** (cùng lúc với văn bản gốc là [[sources/16-2015-tt-btttt|TT 16/2015/TT-BTTTT]]). Khi tra cứu danh mục hàng hóa XNK kèm mã HS trong lĩnh vực in, phát hành xuất bản phẩm hiện hành, **áp dụng Thông tư `22/2018/TT-BTTTT`** (đã được sửa đổi tại Điều 2 [[sources/11-2024-tt-btttt|TT 11/2024/TT-BTTTT]]).
 
 ## Summary
 
-**Stub page** — Sửa đổi, bổ sung một số điều của Thông tư số 16/2015/TT-BTTTT ngày 17 tháng 6 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết thi hành Nghị định số 187/2013/NĐ-CP ngày 20 tháng 11 năm 2013 của Chính phủ về xuất khẩu, nhập khẩu hàng hóa trong lĩnh vực in, phát hành xuất bản phẩm (41/2016/TT-BTTTT) ban hành 2016-12-26, có hiệu lực từ 2017-03-01, **đang còn hiệu lực**.
+**Thông tư 41/2016/TT-BTTTT** do Bộ Thông tin và Truyền thông ban hành ngày **26/12/2016**, có hiệu lực thi hành từ ngày **01/03/2017**, sửa đổi, bổ sung một số điều của [[sources/16-2015-tt-btttt|Thông tư 16/2015/TT-BTTTT]] ngày 17/06/2015 quy định chi tiết thi hành Nghị định `187/2013/NĐ-CP` về xuất khẩu, nhập khẩu hàng hóa trong lĩnh vực in, phát hành xuất bản phẩm.
 
-> **Lưu ý**: Wiki tạm thời — chưa có toàn văn PDF. Cần tải về để đọc kỹ. Có thể dùng:
-> - `node tools/nap.mjs "<url>" --so-hieu "41/2016/TT-BTTTT"`
-> - Tải từ datafiles.chinhphu.vn hoặc congbaocdn.chinhphu.vn
-
-**Cơ quan ban hành**: Bộ Thông tin và Truyền thông
+Văn bản hiện ở trạng thái **đã hết hiệu lực (`HET_HIEU_LUC`)** kể từ ngày **12/02/2019** theo điểm b khoản 1 Điều 2 Thông tư `22/2018/TT-BTTTT`. *(Trang này đính chính lại nội dung sai "đang còn hiệu lực" của bản nháp trước đây.)*
 
 ## Tình trạng hiệu lực
 
 | Mốc | Sự kiện |
 |---|---|
-| 2016-12-26 | Bộ Thông tin và Truyền thông ban hành |
-| 2017-03-01 | Có hiệu lực |
-| Đang hiệu lực | |
+| 26/12/2016 | Bộ TT&TT ban hành **Thông tư 41/2016/TT-BTTTT** (Công báo Số 93 + 94, `id=22060`) |
+| **01/03/2017** | **Có hiệu lực thi hành**, sửa đổi bổ sung [[sources/16-2015-tt-btttt|TT 16/2015/TT-BTTTT]] |
+| **12/02/2019** | **Hết hiệu lực toàn bộ**, bị thay thế bởi điểm b khoản 1 Điều 2 Thông tư `22/2018/TT-BTTTT` |
+| Hiện tại | **ĐÃ HẾT HIỆU LỰC** (`HET_HIEU_LUC`) — thay thế bởi Thông tư `22/2018/TT-BTTTT` (và [[sources/11-2024-tt-btttt]]) |
 
-## Căn cứ pháp lý (theo registry)
-- Căn cứ vào các luật/nghị định chuyên ngành
+## Phạm vi điều chỉnh lịch sử
 
-## Quy trình HQ (cần đọc toàn văn để xác nhận)
-1. Xác định hàng thuộc phạm vi KTCL
-2. Tra mã HS
-3. Nộp hồ sơ KTCL tại Bộ Thông tin và Truyền thông
-4. Cấp Giấy chứng nhận
-5. Khai báo HQ
-6. Thông quan
+- Sửa đổi, bổ sung một số quy định, danh mục và thủ tục tại [[sources/16-2015-tt-btttt|TT 16/2015/TT-BTTTT]] về XNK thiết bị in và xuất bản phẩm dưới khung Nghị định `187/2013/NĐ-CP` (giai đoạn **01/03/2017 – 11/02/2019**).
+- Cả văn bản gốc [[sources/16-2015-tt-btttt]] và văn bản sửa đổi này cùng được thay thế đồng thời bởi Thông tư `22/2018/TT-BTTTT` từ ngày **12/02/2019**.
 
-## Related concepts (chưa có wiki)
-- kiem-tra-chuyen-nganh
-- các concept liên quan
+## Quan hệ và văn bản thay thế
 
-## Related sources
-- Cần xác minh với VB liên quan
-
-## Open questions
-- Cần tải toàn văn từ nguồn nào?
-- Phạm vi KTCL cụ thể?
-- Có mã HS cụ thể không?
+- **Sửa đổi văn bản trước:** [[sources/16-2015-tt-btttt|Thông tư 16/2015/TT-BTTTT]].
+- **Bị thay thế bởi:** Điểm b khoản 1 Điều 2 Thông tư `22/2018/TT-BTTTT` (từ ngày 12/02/2019).
 
 ## Notes
-- VB chưa được tải toàn văn — stub
-- Cần tải bằng `node tools/nap.mjs` hoặc script Python tương tự
-- Ưu tiên: tải từ Công báo (bậc A) hoặc datafiles.chinhphu.vn
-- 0 mã HS trích dẫn trong biểu thuế
+
+- Trang tham chiếu lịch sử xác minh dựa trên Công báo (`id=22060`) và toàn văn Điều 2 khoản 1 điểm b của Thông tư `22/2018/TT-BTTTT` (`raw/download/congbaocdn.chinhphu.vn/22-2018-tt-btttt.pdf`).

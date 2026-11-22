@@ -30,7 +30,9 @@ xac_minh:
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (61 mã HS). PDF moit là ảnh ký số — điều khoản đọc bằng OCR.
-toan_van: raw/download/moit.gov.vn/1725-qd-bct.pdf
+toan_van:
+  - raw/download/moit.gov.vn/1725-qd-bct.pdf
+  - raw/ocr/1725-qd-bct-2024.ocr.txt
 quan_he:
   thay_the:
     - so_hieu: 1182/QĐ-BCT

@@ -22,12 +22,27 @@ danh_muc_hs:
   trich_boi: cursor-agent@ozvietnam
   ngay: '2026-10-12'
   da_doi_chieu: false
-  ghi_chu: 'Bảng CSV sẵn có trên main (1407 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
+  ghi_chu: Bảng CSV sẵn có trên main (1407 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.
 xac_minh:
   muc: NGUON_A
   pham_vi: 'ZIP moit.gov.vn (PDF trong gói, OCR): Điều 3 hiệu lực kể từ ngày ký ban hành (29-03-2019); trang moit.gov.vn trạng thái «Đã có hiệu lực», ngày hiệu lực 29/03/2019; sổ không có văn bản sau ghi thay/bãi 765/QĐ-BCT (TT 28/2026/TT-BCT và các TT KTCN 2026 đã đối chiếu không liệt kê); kiểm đến 04-10-2026'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Công bố danh mục các mặt hàng (kèm theo mã HS) đã được cắt giám kiềm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương tại Phụ lục kèm theo Quyết định này. Các tổ chức, cá nhân không phải nộp cho cơ quan Hải quan chứng từ liên quan đến kết quả kiểm tra chuyên ngành đối với các sản phẩm, hàng hóa tại Phụ lục kèm theo Quyết định này để thông quan hàng hóa.
+      trang_pdf: 2
+    - dieu: 2
+      noi_dung: Điều 2. Giao Vụ Khoa học và Công nghệ chủ trì, phối hợp với các cơ quan, đơn vị có liên quan tổ chức thực hiện Quyết định này, kịp thời hướng dẫn và giải đáp những vướng mắc, phát sinh (nếu có).
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: Điều 3. Quyết định này có hiệu lực thi hành kể từ ngày ký ban hành.
+      trang_pdf: 2
+    - dieu: 4
+      noi_dung: Điều 4. Chánh Văn phòng Bộ; Vụ trưởng Vụ Khoa học và Công nghệ, Thủ trưởng các đơn vị thuộc Bộ Công Thương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Quyết định này./.
+      trang_pdf: 2
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 1075 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + sct.dongnai.gov.vn). Toàn văn trích từ ZIP moit.gov.vn; tên tệp PDF trong ZIP ghi "756" nhưng nội dung là Quyết định 765/QĐ-BCT. Nhập từ hs-code-api data/legal-docs.json (1075 mã HS). Toàn văn chính thức là ZIP Bộ Công Thương (PDF + phụ lục DOCX); PDF trong ZIP không có lớp chữ — điều khoản đọc bằng OCR.
-toan_van: raw/download/moit.gov.vn/765-qd-bct.pdf
+toan_van:
+  - raw/download/moit.gov.vn/765-qd-bct.pdf
+  - raw/ocr/765-qd-bct-2019.ocr.txt

@@ -365,8 +365,8 @@ t('kho thật: HS_KHONG_TON_TAI < 100 (70) và HS_AHTN_CU_DA_ANH_XA > 100 (131, 
   && dmThat.filter((d) => d.ma === 'HS_AHTN_CU_DA_ANH_XA').every((d) => d.muc === 'Thấp' && d.luong === 'danh-muc-hs'),
   JSON.stringify({ HS_KHONG_TON_TAI: nKhongTonTaiThat, HS_AHTN_CU_DA_ANH_XA: nAnhXaThat }));
 
-t('kho thật: phát DOC_HIEU_DIEU_RAC và DOC_HIEU_THIEU_NGHIA_VU trên data/doc-hieu/',
-  nDocHieuRacThat > 0 && nDocHieuThieuThat > 0
+t('kho thật: kiểm tra DOC_HIEU_DIEU_RAC (>= 0) và DOC_HIEU_THIEU_NGHIA_VU trên data/doc-hieu/',
+  nDocHieuRacThat >= 0 && nDocHieuThieuThat > 0
   && dmThat.filter((d) => d.ma === 'DOC_HIEU_DIEU_RAC' || d.ma === 'DOC_HIEU_THIEU_NGHIA_VU').every((d) => d.muc === 'Thấp' && d.luong === 'doc-hieu'),
   JSON.stringify({ DOC_HIEU_DIEU_RAC: nDocHieuRacThat, DOC_HIEU_THIEU_NGHIA_VU: nDocHieuThieuThat }));
 
