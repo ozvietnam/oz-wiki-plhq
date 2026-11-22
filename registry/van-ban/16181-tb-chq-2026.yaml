@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 16181/TB-CHQ/2026
+so_hieu_khac:
+  - 16181/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Thiết bị chuyển mạch mạng LAN model C9200L-24T-4G-E, 24 cổng dữ liệu 10/100/1000 Mbps và 4 cổng uplink SFP 1G, điện áp 100-240 VAC, mã số 8517.62.49)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-05-13'
+hieu_luc_tu: '2026-05-13'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=103703&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/5/15/VB_16181.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/5/15/VB_16181.pdf, id=103703, SHA-256 a3522a6db18569248cf64eb0fb1c1e4cf7ec846b43d758df24df74dfe1ea5ff2): Thông báo số 16181/TB-CHQ ngày 13-05-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Thiết bị chuyển mạch C9200L-24T-4G-E (ký, mã hiệu C9200L-24T-4G-E; khung chassis 1U, 24 cổng dữ liệu Ethernet RJ45 tốc độ 10/100/1000 Mbps và 4 cổng uplink SFP tốc độ 1G, bộ nhớ DRAM 2GB, Flash 4GB, phần mềm Network Essentials, nguồn điện PWR-C5-125WAC, điện áp 100-240 VAC, khối lượng 4.35 kg; dùng để kết nối có dây các thiết bị trong mạng cục bộ LAN), phân loại vào nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.49; có hiệu lực kể từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Thiết bị chuyển mạch C9200L-24T-4G-E (ký, mã hiệu C9200L-24T-4G-E; 24 cổng dữ liệu 10/100/1000 Mbps và 4 cổng uplink SFP 1G, Network Essentials, nguồn PWR-C5-125WAC, điện áp 100-240 VAC; dùng kết nối thiết bị trong mạng LAN) thuộc nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.49.'
+toan_van: raw/download/files.customs.gov.vn/16181-tb-chq-2026.pdf
