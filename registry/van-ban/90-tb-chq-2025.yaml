@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 90/TB-CHQ/2025
+so_hieu_khac:
+  - 90/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Dung dịch xịt mũi Nasatoin Nasal Spray chứa Ectoin 2%, mã sản phẩm SNS01, chai xịt 20 ml, mã số 3004.90.99)'
+co_quan: CHQ
+ngay_ban_hanh: '2025-03-12'
+hieu_luc_tu: '2025-03-12'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=99622&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/18/VB_90.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/18/VB_90.pdf, id=99622, SHA-256 70ae0f0c40ee577f300a26908fe5c0c1b7b5129e1eecd131dfdb32fd40d6b3c5): Thông báo số 90/TB-CHQ ngày 12-03-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Dung dịch xịt mũi (tên thương mại Nasatoin Nasal Spray, mã sản phẩm SNS01; thành phần gồm Ectoin 2%, Sodium Chloride 2,1%, Sodium-di-hydrogen-phosphate dihydrate 0,13%, Di-sodium-hydrogen-phosphate anhydrous 0,14%, còn lại là nước; đóng gói chai xịt dung tích 20 ml chia liều xịt, dùng để điều trị và phòng ngừa các triệu chứng viêm mũi hoặc viêm mũi xoang), phân loại vào nhóm 30.04, phân nhóm 3004.90, mã số 3004.90.99; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Dung dịch xịt mũi Nasatoin Nasal Spray (mã sản phẩm SNS01; thành phần chính Ectoin 2%, muối biển 2,1%, đóng gói chai xịt 20 ml chia liều dùng điều trị và phòng ngừa triệu chứng viêm mũi, viêm mũi xoang) thuộc nhóm 30.04, phân nhóm 3004.90, mã số 3004.90.99.'
+toan_van: raw/download/files.customs.gov.vn/90-tb-chq-2025.pdf
