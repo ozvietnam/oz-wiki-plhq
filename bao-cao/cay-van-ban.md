@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-3044 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3048 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2348 văn bản, 2348 chưa hết hiệu lực.
+2352 văn bản, 2352 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -621,6 +621,10 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [15674/TB-CHQ/2025](../registry/van-ban/15674-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
 - 🟢 [14313/TB-CHQ/2025](../registry/van-ban/14313-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Van an toàn dạng van lò xo hai chiều bằng nhựa gắn kèm ống dẫn bằng cao su lưu hóa dùng kiểm soát áp suất bình xăng xe máy, ký mã hiệu 1B000694, mã số 8481.40.30)
 - 🟢 [12394/TB-CHQ/2025](../registry/van-ban/12394-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Vỏ khuôn - đế khuôn Mold base bằng thép hợp kim dùng kết hợp với lõi khuôn cho máy ép nhựa, ký mã hiệu MDC DA 2530 40 40 70 SVMNOH210, mã số 8480.20.00)
+- 🟢 [11888/TB-CHQ/2025](../registry/van-ban/11888-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Máy chiếu Panasonic PT-REQ12BE 1-Chip DLP 4K Laser Projector độ sáng 12.000/12.400 Lumen, kết nối trực tiếp với máy xử lý dữ liệu tự động, mã số 8528.62.00)
+- 🟢 [11889/TB-CHQ/2025](../registry/van-ban/11889-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Máy chiếu Panasonic PT-REQ10BE 1-Chip DLP 4K Laser Projector độ sáng 10.000/10.300 Lumen, kết nối trực tiếp với máy xử lý dữ liệu tự động, mã số 8528.62.00)
+- 🟢 [11911/TB-CHQ/2025](../registry/van-ban/11911-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Ống kính zoom góc rộng máy chiếu 1-Chip DLP Projector Zoom Lens ET-C1W300 dùng cho máy chiếu Panasonic dòng PT-REQ và PT-REZ, mã số 9002.90.30)
+- 🟢 [10665/TB-CHQ/2025](../registry/van-ban/10665-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Cáp điều khiển chưa gắn đầu nối, cách điện bằng cao su tổng hợp, 2 lõi đồng xoắn x 1.5mm2, điện áp 450/750V, không dùng cho viễn thông, Part number 745A47, mã số 8544.49.42)
 - 🟢 [10115/TB-CHQ/2025](../registry/van-ban/10115-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
 - 🟢 [10116/TB-CHQ/2025](../registry/van-ban/10116-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
 - 🟢 [8992/TB-CHQ/2025](../registry/van-ban/8992-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2101.12.99)
