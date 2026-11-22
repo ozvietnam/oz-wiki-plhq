@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-22).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 3041,
+ "tong": 3049,
  "chunks": [
   {
    "chunk_id": "dong-bo-quan-diem-phan-loai#1",
@@ -51693,6 +51693,268 @@
     "2026"
    ],
    "confidence": "medium",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "15289-chq-nvthq-2026#1",
+   "slug": "15289-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/15289-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "CV 15289/CHQ-NVTHQ — Áp dụng mức thuế BVMT, GTGT, TTĐB đối với xăng, dầu và nhiên liệu bay theo NQ 19/2026/QH16",
+   "muc": "Summary",
+   "noi_dung": "**Công văn hỏa tốc số 15289/CHQ-NVTHQ** ngày **15/04/2026** của Cục Hải quan (thừa lệnh Cục trưởng, ký bởi Mai Thị Vân Anh) gửi Các Chi cục Hải quan khu vực, hướng dẫn thực hiện chính sách thuế đối với xăng, dầu và nhiên liệu bay theo [[sources/19-2026-qh16|Nghị quyết 19/2026/QH16]] ngày 12/04/2026 của Quốc hội. Văn bản quy định cụ thể mức thuế bảo vệ môi trường (`0 đồng/lít`), diện không phải kê khai tính nộp thuế GTGT nhưng được khấu trừ đầu vào, thuế suất thuế TTĐB đối với xăng các loại (`0%`) và hướng dẫn khai báo mã **`VK240`** trên hệ thống VNACCS/VCIS. Theo sổ đăng ký, văn bản đang **còn hiệu lực** (`CON_HIEU_LUC`).",
+   "tags": [
+    "cong-van",
+    "chq",
+    "thue-bvmt",
+    "thue-gtgt",
+    "thue-ttdb",
+    "xang-dau",
+    "vnaccs-vcis",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "19/2026/QH16",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=103261&cid=1294"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "15289-chq-nvthq-2026#2",
+   "slug": "15289-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/15289-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "CV 15289/CHQ-NVTHQ — Áp dụng mức thuế BVMT, GTGT, TTĐB đối với xăng, dầu và nhiên liệu bay theo NQ 19/2026/QH16",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 12/04/2026 | Quốc hội ban hành [[sources/19-2026-qh16|Nghị quyết 19/2026/QH16]] về thuế BVMT, thuế GTGT, thuế TTĐB đối với xăng, dầu và nhiên liệu bay |\n| 15/04/2026 | Cục Hải quan ban hành Công văn **15289/CHQ-NVTHQ** hướng dẫn các Chi cục Hải quan khu vực thực hiện |\n| 16/04/2026 | Bắt đầu thời hạn áp dụng ban đầu theo Nghị quyết `19/2026/QH16` (giai đoạn đầu đến hết `30/06/2026`) |\n| 30/09/2026 | Chính phủ ban hành Nghị quyết `43/2026/NQ-CP` kéo dài thời hạn áp dụng Điều 1 (thuế BVMT) và Điều 2 (thuế GTGT) của Nghị quyết `19/2026/QH16` đến hết `31/12/2026` |\n| Hiện tại | **Còn hiệu lực** (`CON_HIEU_LUC`) |",
+   "tags": [
+    "cong-van",
+    "chq",
+    "thue-bvmt",
+    "thue-gtgt",
+    "thue-ttdb",
+    "xang-dau",
+    "vnaccs-vcis",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "19/2026/QH16",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=103261&cid=1294"
+    },
+    {
+     "so_hieu": "43/2026/NQ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-10-01",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=219739"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "15289-chq-nvthq-2026#3",
+   "slug": "15289-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/15289-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "CV 15289/CHQ-NVTHQ — Áp dụng mức thuế BVMT, GTGT, TTĐB đối với xăng, dầu và nhiên liệu bay theo NQ 19/2026/QH16",
+   "muc": "Cấu trúc và nội dung chính (3 mục)",
+   "noi_dung": "Công văn được trình bày theo 03 mục đánh số `1, 2, 3` (không có cấu trúc `Điều N`):\n\n- **Mục 1 — Áp dụng mức thuế BVMT, GTGT, TTĐB đối với xăng, dầu và nhiên liệu bay** (theo [[sources/19-2026-qh16|Nghị quyết 19/2026/QH16]] kể từ `16/04/2026` đến hết `30/06/2026`, trừ trường hợp khoản 2 Điều 4 Nghị quyết `19/2026/QH16`):\n  - **Điểm a (Thuế bảo vệ môi trường)**: Mức thuế bảo vệ môi trường đối với xăng (trừ etanol), dầu diezel, dầu hỏa, dầu mazut và nhiên liệu bay là **`0 đồng/lít`**.\n  - **Điểm b (Thuế giá trị gia tăng)**: Xăng, dầu diezel, dầu hỏa, dầu mazut và nhiên liệu bay thuộc đối tượng **không phải kê khai, tính nộp thuế giá trị gia tăng** nhưng **được khấu trừ thuế giá trị gia tăng đầu vào**.\n  - **Điểm c (Thuế tiêu thụ đặc biệt)**: Thuế suất thuế tiêu thụ đặc biệt đối với **xăng các loại là `0%`**.\n- **Mục 2 — Hướng dẫn khai báo thuế GTGT trên hệ thống VNACCS/VCIS**:\n  - Người khai hải quan chọn mã **`VK240`** tại ô chỉ tiêu thông tin *“Mã áp dụng thuế suất/mức thuế và thu khác”* trên tờ khai hải quan điện tử nhập khẩu đăng ký kể từ `16/04/2026` đến hết `30/06/2026` để khai báo thuế GTGT đối với hàng hóa thuộc đối tượng không phải kê khai, tính nộp thuế GTGT theo Nghị quyết `19/2026/QH16`.\n- **Mục 3 — Tuyên truyền, phổ biến**:\n  - Các Chi cục Hải quan khu vực thực hiện tuyên truyền, phổ biến đến cộng đồng doanh nghiệp và các tổ chức, cá nhân có liên quan về nội dung Nghị quyết `19/2026/QH16`.",
+   "tags": [
+    "cong-van",
+    "chq",
+    "thue-bvmt",
+    "thue-gtgt",
+    "thue-ttdb",
+    "xang-dau",
+    "vnaccs-vcis",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "19/2026/QH16",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=103261&cid=1294"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "15289-chq-nvthq-2026#4",
+   "slug": "15289-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/15289-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "CV 15289/CHQ-NVTHQ — Áp dụng mức thuế BVMT, GTGT, TTĐB đối với xăng, dầu và nhiên liệu bay theo NQ 19/2026/QH16",
+   "muc": "Căn cứ pháp lý",
+   "noi_dung": "- [[sources/19-2026-qh16|Nghị quyết số 19/2026/QH16]] ngày 12/04/2026 của Quốc hội về việc ban hành một số quy định về thuế bảo vệ môi trường, thuế giá trị gia tăng, thuế tiêu thụ đặc biệt đối với xăng, dầu và nhiên liệu bay.",
+   "tags": [
+    "cong-van",
+    "chq",
+    "thue-bvmt",
+    "thue-gtgt",
+    "thue-ttdb",
+    "xang-dau",
+    "vnaccs-vcis",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "19/2026/QH16",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=103261&cid=1294"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "15289-chq-nvthq-2026#5",
+   "slug": "15289-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/15289-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "CV 15289/CHQ-NVTHQ — Áp dụng mức thuế BVMT, GTGT, TTĐB đối với xăng, dầu và nhiên liệu bay theo NQ 19/2026/QH16",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/thue-gtgt-hang-nhap-khau]] — Thuế GTGT đối với hàng hóa nhập khẩu và khai báo mã áp dụng thuế suất trên tờ khai\n- [[concepts/thu-tuc-hai-quan-xnk]] — Khai báo chỉ tiêu thông tin trên hệ thống VNACCS/VCIS",
+   "tags": [
+    "cong-van",
+    "chq",
+    "thue-bvmt",
+    "thue-gtgt",
+    "thue-ttdb",
+    "xang-dau",
+    "vnaccs-vcis",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "15289-chq-nvthq-2026#6",
+   "slug": "15289-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/15289-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "CV 15289/CHQ-NVTHQ — Áp dụng mức thuế BVMT, GTGT, TTĐB đối với xăng, dầu và nhiên liệu bay theo NQ 19/2026/QH16",
+   "muc": "Related sources",
+   "noi_dung": "- [[sources/19-2026-qh16]] — Nghị quyết Quốc hội mà Công văn `15289/CHQ-NVTHQ` trực tiếp hướng dẫn (`quan_he.huong_dan`)\n- [[sources/72-2026-nd-cp]] — Nghị định sửa đổi mức thuế suất thuế nhập khẩu ưu đãi (MFN) đối với xăng, dầu, nguyên liệu sản xuất xăng, dầu\n- `43-2026-nq-cp` (`43/2026/NQ-CP`) — Nghị quyết Chính phủ kéo dài hiệu lực Điều 1–2 của Nghị quyết `19/2026/QH16` đến hết `31/12/2026` (chưa có trang riêng trong `wiki/sources/`)",
+   "tags": [
+    "cong-van",
+    "chq",
+    "thue-bvmt",
+    "thue-gtgt",
+    "thue-ttdb",
+    "xang-dau",
+    "vnaccs-vcis",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "43/2026/NQ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-10-01",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=219739"
+    },
+    {
+     "so_hieu": "19/2026/QH16",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=103261&cid=1294"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "15289-chq-nvthq-2026#7",
+   "slug": "15289-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/15289-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "CV 15289/CHQ-NVTHQ — Áp dụng mức thuế BVMT, GTGT, TTĐB đối với xăng, dầu và nhiên liệu bay theo NQ 19/2026/QH16",
+   "muc": "Open questions",
+   "noi_dung": "- Cần đối chiếu thêm văn bản hướng dẫn mới (nếu Cục Hải quan ban hành bổ sung) về việc sử dụng mã **`VK240`** trên VNACCS/VCIS trong giai đoạn gia hạn theo `43/2026/NQ-CP` (`01/10/2026`–`31/12/2026`).",
+   "tags": [
+    "cong-van",
+    "chq",
+    "thue-bvmt",
+    "thue-gtgt",
+    "thue-ttdb",
+    "xang-dau",
+    "vnaccs-vcis",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "43/2026/NQ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-10-01",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=219739"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "15289-chq-nvthq-2026#8",
+   "slug": "15289-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/15289-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "CV 15289/CHQ-NVTHQ — Áp dụng mức thuế BVMT, GTGT, TTĐB đối với xăng, dầu và nhiên liệu bay theo NQ 19/2026/QH16",
+   "muc": "Notes",
+   "noi_dung": "- Toàn văn PDF gốc 01 trang ký số trên Cổng Hải quan lưu tại `raw/download/files.customs.gov.vn/15289-chq-nvthq-2026.pdf` (SHA-256 `4cad480a97abeaf1e0f0ec4e839985523f023e32e909e4c264a2e5489f028802`, `1.525.623` byte).\n- Bản OCR `tesseract` (`vie+eng`, `dpi=250`, 1 trang, `2.312` ký tự) lưu tại `raw/ocr/15289-chq-nvthq-2026.ocr.txt`. Trên bản scan, dấu tròn màu đỏ của cơ quan đè nhẹ lên chữ số cuối của số hiệu nhưng đối chiếu tệp gốc (`VB_15289.pdf`, URL id `103261`) xác nhận số hiệu chính xác là `15289/CHQ-NVTHQ`.\n- Văn bản là Công văn hành chính có 03 mục (`1., 2., 3.`), không có cấu trúc `Điều N`, nên không sinh trường `xac_minh.dieu_khoan` trong `registry/van-ban/15289-chq-nvthq-2026.yaml`.",
+   "tags": [
+    "cong-van",
+    "chq",
+    "thue-bvmt",
+    "thue-gtgt",
+    "thue-ttdb",
+    "xang-dau",
+    "vnaccs-vcis",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },

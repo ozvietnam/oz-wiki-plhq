@@ -2189,7 +2189,39 @@
         "pham_vi": "thẻ vanban.chinhphu.vn (docid=207527) và toàn văn PDF gốc (raw/download/datafiles.chinhphu.vn/04-2023-tt-bct.pdf, 6 Điều + Phụ lục): Thông tư 04/2023/TT-BCT ban hành 20-02-2023, có hiệu lực từ 10-04-2023 đến hết 31-12-2027 theo Điều 6; đối chiếu đang còn hiệu lực về hạn ngạch thuế quan nhập khẩu thuốc lá nguyên liệu (nhóm 24.01, 500 tấn/năm) và trứng gia cầm (nhóm 04.07) xuất xứ Liên minh Kinh tế Á - Âu giai đoạn 2023 - 2027",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh Áp dụng hạn ngạch thuế quan nhập khẩu đối với thuốc lá nguyên liệu, trứng gia cầm có xuất xứ từ các nước thành viên của Liên minh Kinh tế Á -Âu theo Hiệp định thương mại tự do Việt Nam - Liên minh Kinh tế Á - Âu trong giai đoạn 2023 - 2027.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Đối tượng áp dụng Thông tư này áp dụng đối với các thương nhân nhập khẩu theo hạn ngạch thuế quan thuốc lá nguyên liệu, trứng gia câm từ các nước thành viên của Liên minh Kinh tế A - Âu và các cơ quan, tổ chức, cá nhân khác có liên quan.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Hàng hóa và lượng hạn ngạch thuế quan nhập khẩu 1. Mã số hàng hóa và lượng hạn ngạch thuế quan nhập khẩu của mặt hàng áp dụng hạn ngạch thuế quan quy định tại Điều 1 Thông tư này trong giai đoạn 2023 - 2027 thực hiện theo Phụ lục ban hành kèm theo. _--",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Điều 4. Đối tượng được phân giao 1. Hạn ngạch thuế quan nhập khâu thuốc lá nguyên liệu được phân giao cho thương nhân có giấy phép sản xuất thuốc lá điều do Bộ Công Thương cập và có nhu cầu sử dụng thuốc lá nguyên liệu nhập khẩu cho sản xuất thuốc lá điều. 2. Hạn ngạch thuế quan nhập khẩu trứng gia cằm được phân giao cho thương nhân có nhu câu nhập khẩu.",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Điều 5. Phương thức phân giao Phương thức phân giao hạn ngạch thuế quan nhập khẩu thuốc lá nguyên liệu, trứng gia cầm được thực hiện theo quy định tại Thông tư số 12/2018/TT- BCT ngày 15 tháng 6 năm 2018 của Bộ trưởng Bộ Công Thương quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định sô 69/2018/NĐ-CP ngày 15 tháng 5 năm 2018 của Chính phủ quy định chỉ tiết một số điều của Luật Quản lý ngoại thương.",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 6,
+            "noi_dung": "Điều 6. Hiệu lực thi hành Thông tư này có hiệu lở thi hành ké từ ngay fp thang 4 năm 2023 đến hết ngày 31 thang 12 năm 2027. _-= om",
+            "trang_pdf": 3
+          }
+        ]
       },
       "ghi_chu": "Crawl từ vanban.chinhphu.vn docid=207527",
       "nguon": [
@@ -2202,7 +2234,10 @@
           "truy_cap": "2026-10-10"
         }
       ],
-      "toan_van": "raw/download/datafiles.chinhphu.vn/04-2023-tt-bct.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/04-2023-tt-bct.pdf",
+        "raw/ocr/04-2023-tt-bct.ocr.txt"
+      ],
       "slug": "04-2023-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -2237,10 +2272,45 @@
         "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=217125) và toàn văn PDF sao y 11 trang (04-bkhcn.pdf, Bộ trưởng Nguyễn Mạnh Hùng ký ngày 27-02-2026): Điều 1 sửa đổi khoản 1, khoản 3 Điều 4 Thông tư 22/2013/TT-BKHCN (đo lường trong kinh doanh vàng); Điều 2 sửa đổi điểm b mục 3.4.2 QCVN 19:2019/BKHCN kèm Thông tư 08/2019/TT-BKHCN (sản phẩm chiếu sáng LED); Điều 3 sửa đổi mục 4.4.3 QCVN 03:2019/BKHCN kèm Thông tư 09/2019/TT-BKHCN (an toàn đồ chơi trẻ em); Điều 4 sửa đổi khoản 1 Điều 4 Thông tư 23/2013/TT-BKHCN (đã sửa bởi 07/2019/TT-BKHCN và 03/2024/TT-BKHCN) ban hành bảng 69 nhóm phương tiện đo nhóm 2 và chu kỳ kiểm định; Điều 5 bãi bỏ điểm 5.3 Điều 5 QCVN 25:2025/BKHCN kèm Thông tư 01/2025/TT-BKHCN; Điều 6 quy định có hiệu lực từ 15-04-2026 (riêng Điều 2 hết hiệu lực từ 01-06-2026)",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Sửa đối, bỗ sung một số điều của Thông tư số 22/2013/TT-BKHCN ngày 26 tháng 9 năm 2013 của Bộ trưởng Bộ Khoa học và Công nghệ quy định về quản lý đo lường trong kinh doanh vàng và quản lý chất lượng vàng trang sức, mỹ nghệ lưu thông trên thị trường như sau: 1. Sửa đổi, bé sung khoản 1 Điều 4 như sau:",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Sửa đổi, bỗ sung điểm b mục 3.4.2 Quy chuẩn kỹ thuật quốc gia QCVN 19:2019/BKHCN về sản pham chiếu sáng bằng công nghệ LED ban hành kèm theo Thông tư số 08/2019/TT-BKHCN ngày 25 tháng 9 năm 2019 của Bộ trưởng Bộ Khoa học và Công nghệ như sau:",
+            "trang_pdf": 5
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Sửa đối, bd sung mục 4.4.3 Quy chuẩn kỹ thuật quốc gia QCVN 03:2019/BKHCN về an toàn đồ chơi trẻ em ban hành kèm theo Thông tư số 09/2019/TT-BKHCN ngày 30 tháng 9 năm 2019 của Bộ trưởng Bộ Khoa học và Công nghệ như sau:",
+            "trang_pdf": 5
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Điều 4. Sửa đối, bd sung khoản 1 Điều 4 Thông tư số 23/2013/TT- BKHCN ngày 26 tháng 9 năm 2013 của Bộ trưởng Bộ Khoa học và Công nghệ quy định về đo lường đối với phương tiện đo nhóm 2 đã được sửa déi, bỗ sung tại khoản 2 Điều 1 Thông tư số 07/2019/TT-BKHCN ngày 26 tháng 7 năm 2019 của Bộ trưởng Bộ Khoa học và Công nghệ sửa đỗi, bỗ sung một số điều của Thông tư số 23/2013/TT-BKHCN và sửa đổi, b6 sung tại Điều 1 Thông tư số 03/2024/TT-BKHCN ngày",
+            "trang_pdf": 5
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Điều 5. Bãi bỏ điểm 5.3 Điều 5 “Quy chuẩn kỹ thuật quốc gia QCVN 25:2025/BKHCN về thiết bị điện dùng cho lắp đặt điện trong gia đình và hệ thống lắp đặt tương tự” được ban hành kèm theo Thông tư sô 01/2025/TT- BKHCN ngày 14 tháng 02 năm 2025 của Bộ trưởng Bộ Khoa học và Công nghệ.",
+            "trang_pdf": 10
+          },
+          {
+            "dieu": 6,
+            "noi_dung": "Điều 6. Điều khoản thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 4Õ tháng 4 năm 2026. Vf poe Ổ a",
+            "trang_pdf": 10
+          }
+        ]
       },
       "ghi_chu": "Sửa đổi, bổ sung, bãi bỏ một số quy định về đo lường vàng (TT 22/2013), phương tiện đo nhóm 2 (TT 23/2013), thử nghiệm hợp quy đèn LED (QCVN 19:2019) và đồ chơi trẻ em (QCVN 03:2019), thiết bị điện (QCVN 25:2025) — có hiệu lực từ 15-04-2026.",
-      "toan_van": "raw/download/datafiles.chinhphu.vn/04-2026-tt-bkhcn.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/04-2026-tt-bkhcn.pdf",
+        "raw/ocr/04-2026-tt-bkhcn.ocr.txt"
+      ],
       "slug": "04-2026-tt-bkhcn",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -2621,10 +2691,65 @@
         "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=179183) và toàn văn PDF ký số (05-tt.signed.pdf, Bộ trưởng Cao Đức Phát ký): ban hành 12-02-2015, có hiệu lực từ 30-03-2015; đang còn hiệu lực, được sửa đổi, bổ sung một số điều bởi Thông tư 15/2021/TT-BNNPTNT ngày 06-12-2021 và Điều 22 Thông tư 07/2026/TT-BNNMT ngày 23-01-2026.",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh Thông tư này quy định chỉ tiết điều kiện, trình tự và thủ tục cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Đối tượng áp dụng Thông tư này áp dụng đối với tổ chức, cá nhân trong nước và tổ chức, cá nhân nước ngoài tham gia hoạt động xử lý vật thể thuộc diện kiểm dịch thực vật (sau đây gọi tắt là vật thể) tại Việt Nam.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Phí và lệ phí Tổ chức, cá nhân hành nghề xử lý vật thể phải nộp phí, lệ phí thẩm định hồ sơ và cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật (sau đây viết tat là Giấy chứng nhận hành nghề), Thẻ hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật (sau đây viết tắt là Thẻ hành nghẻ) theo quy định của pháp luật về phí và lệ phí.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Điều 5. Trình tự, thủ tục cấp Giấy chứng nhận hành nghề 1. Hồ sơ gồm: a) Đơn đề nghị theo mẫu tại Phụ lục I ban hành kèm theo Thông tu nảy;",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 6,
+            "noi_dung": "Điều 6. Trình tự và thú tục cấp lại Giấy chứng nhận hành nghề 1. Giấy chứng nhận hành nghề được cấp lại trong các trường hợp sau đây: a) Bị mất, sai sót, hư hỏng hoặc thay đổi thông tin liên quan đến tên của tổ chức hành nghề,",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 7,
+            "noi_dung": "Điều 7. CẤp Thẻ hành nghề Thẻ hành nghề được cấp cho cá nhân có đủ điều kiện sau: 1. Đã được tập huấn và kiểm tra chuyên môn theo nội dung chương trình được Cục Bảo vệ thực vật quy định. 2. Đảm bảo sức khỏe theo quy định.",
+            "trang_pdf": 5
+          },
+          {
+            "dieu": 9,
+            "noi_dung": "Điều 9. Trinh tự, thủ tục cấp lại Thế hành nghề 1. Thẻ hành nghề được cấp lại trong các trường hợp bị mất, sai sót, hư hỏng. 2. Hỗ sơ, trình tự cp lại Thẻ hành nghề được thực hiện theo quy định tại Điều 8 của Thông tư này.",
+            "trang_pdf": 5
+          },
+          {
+            "dieu": 10,
+            "noi_dung": "Điều 10. Trách nhiệm của Cục Bao vệ thực vật đối với hoạt động xử lý vật thể 1. Tổ chức kiểm tra điều kiện cấp, cấp lại Giấy chứng nhận hành nghệ xử lý vật thé thuộc diện kiểm dịch thực vật theo quy định tại Thông tư này. 2. Tổ chức tập huấn, kiểm tra chuyên môn và cấp Thẻ hành nghề xử lý vật thể thuộc điện kiểm địch thực vật. 3, Xây dựng các chương trình tập huấn về xử lý vật thé.",
+            "trang_pdf": 6
+          },
+          {
+            "dieu": 11,
+            "noi_dung": "Điều 11. Quyền và nghĩa vụ của tổ chức hành nghề xử ly vật thé thuộc điện kiểm dịch thực vật. 1. Khi thực hiện hoạt động xử lý vật thể thuộc diện kiểm dịch thực vật tại địa phương thì phải thông báo bằng văn bản cho Chỉ cục Bảo vệ thực vật tỉnh, thành phố trực thuộc trung ương. 2. Thực hiện theo qui định tại Điều 42 của Luật Bảo vệ và kiểm dịch thực vật.",
+            "trang_pdf": 6
+          },
+          {
+            "dieu": 13,
+            "noi_dung": "Điều 13. Điều khoản thi hành 1. Thông tư này có hiệu lực thi hành kế từ ngày 30 tháng 03 năm 2015. 2. Thay thế Quyết định số 89/2007/QĐ-BNN ngày 01 tháng 11 năm 2007 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn ban hành Quy định quản lý nhà nước về hoạt động xông hơi khử trùng vật thể thuộc diện kiểm dịch thực vat;",
+            "trang_pdf": 7
+          }
+        ]
       },
       "ghi_chu": "Nạp tối thiểu làm đích sửa đổi cho TT 15/2021 (#237 — giải nợ mâu thuẫn nguồn).",
-      "toan_van": "raw/download/datafiles.chinhphu.vn/05-2015-tt-bnnptnt.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/05-2015-tt-bnnptnt.pdf",
+        "raw/ocr/05-2015-tt-bnnptnt.ocr.txt"
+      ],
       "slug": "05-2015-tt-bnnptnt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -4747,10 +4872,65 @@
         "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=172126) và toàn văn PDF đính kèm (08-nd.pdf): ban hành 27-01-2014, có hiệu lực từ 15-03-2014; đã hết hiệu lực một phần theo các nghị định hướng dẫn Luật Khoa học, công nghệ và đổi mới sáng tạo 2025 (NĐ 262/2025/NĐ-CP, NĐ 267/2025/NĐ-CP).",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh Nghị định này quy định chỉ tiết và hướng dẫn thi hành các điều 11, 12, 15, 25, 30, 32, 41, 43, 46 và một số vấn đề cần thiết khác của luật khoa học và công nghệ liên quan đến thành lập tổ chức khoa học và công nghệ, văn phòng đại diện, chỉ nhánh của tổ chức khoa học và công nghệ; đánh giá độc lập tổ chức khoa học và công nghệ; trình tự, thủ tục xác định, phê duyệt nhiệm vụ khoa học và công nghệ đặc biệt;",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Đối tượng áp dụng Nghị định này áp dụng đối với tổ chức, cá nhân hoạt động khoa học và công nghệ và tô chức, cá nhân khác có liên quan đến hoạt động khoa học và công nghệ tại Việt Nam.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "1. Tổ chức khoa học và công nghệ công lập là tổ chức khoa học và công nghệ đo cơ quan có thẩm quyền quy định tại các diém a, b, e, d, đ, e và g Khoản i Điều 12 Luật khoa học và công nghệ và do tô chức chính trị, tô chức chính trị - xã hội, thành lập và đầu tư. 2. Tổ chức khoa học và công nghệ ngoài công lập là tổ chức khoa học và công nghệ do doanh nghiệp, cá nhân và các tổ chức Việt Nam không thuộc quy định tại Khoản 1 Điều nay thành lập.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 10,
+            "noi_dung": "Điều 10. Trình tự, thủ tục thay đổi, bd sung, cấp lại Giấy chứng nhận đăng ký hoạt động khoa học và công nghệ 1. Đối với trường hợp thay đổi, bd sung Giấy chứng nhận đăng ký hoạt động khoa học và công nghệ, hô sơ bao gom:",
+            "trang_pdf": 9
+          },
+          {
+            "dieu": 16,
+            "noi_dung": "Điều 16. Giải thể tổ chức khoa học và công nghệ 1. Giải thé tổ chức khoa học va công nghệ là việc chấm dứt hoạt động của tổ chức khoa học và công nghệ. Việc giải thể tổ chức khoa học và công nghệ được thực hiện trong các trường hợp sau đây: a) Kết thúc thời hạn hoạt động đã ghi trong Điều lệ tổ chức và hoạt động của tổ chức khoa học và công nghệ mà không có quyết định gia hạn; b) Theo quyết định của cơ quan, tổ chức, cá nhân có thâm quyển;",
+            "trang_pdf": 14
+          },
+          {
+            "dieu": 22,
+            "noi_dung": "Điều 22. Quyền và nghĩa vụ của văn phòng đại diện, chỉ nhánh tại Việt Nam của tô chức khoa học và công nghệ nước ngoài 1. Văn phòng đại diện, chỉ nhánh có các quyền sau đây: a) Được Nhà nước Việt Nam bảo hộ các quyền và lợi ích hợp pháp theo quy định của pháp luật Việt Nam và Điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên;",
+            "trang_pdf": 20
+          },
+          {
+            "dieu": 28,
+            "noi_dung": "Điều 28. Nhiệm vụ khoa học và công nghệ sử dụng ngân sách nhà nước cấp cơ sở Nhiệm vụ khoa học và công nghệ sử dụng ngân sách nhà nước cấp cơ sở là nhiệm vụ khoa học và công nghệ nhằm giải quyết các vấn dé khoa học và công nghệ của cơ sở và do Thủ trưởng cơ sở ký hợp đồng thực hiện bao gồm: 1. Dé tai khoa học và công nghệ cấp cơ sở; 2. Dự án khoa học và công nghệ cấp co sở.",
+            "trang_pdf": 24
+          },
+          {
+            "dieu": 34,
+            "noi_dung": "Điều 34. Tổ chức, chuyên gia tư vấn độc lập 1. Tổ chức tư vấn độc lập là tổ chức khoa học và công nghệ có năng lực và kinh nghiệm trong lĩnh vực chuyên môn cân tư vân.",
+            "trang_pdf": 27
+          },
+          {
+            "dieu": 40,
+            "noi_dung": "Điều 40. Trình tự, thủ tục giao quyền sở hữu, quyền sử dụng kết quả nghiên cứu khoa học và phát triển công nghệ sử dụng ngân sách nhà nước 1. Tổ chức chủ trì thực hiện nhiệm vụ khoa học và công nghệ, doanh nghiệp khoa học và công nghệ có nhu cầu được giao quyển sở hữu, quyền sử dụng kết quả nghiên cứu khoa học và phát triển công nghệ phải làm hd sơ đề nghị giao quyền sở hữu, quyền sử dụng gửi đại diện chủ sở hữu nhà nước.",
+            "trang_pdf": 31
+          },
+          {
+            "dieu": 49,
+            "noi_dung": "Điều 49. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành kể từ ngày 15 tháng 3 năm 2014. 2. Nghị định số 81/2002/NĐ-CP ngày 17 tháng 10 năm 2002 của Chính phủ quy định chỉ tiết thi hành một số điều của Luật khoa học và công nghệ; Nghị định số 201/2004/NĐ-CP ngày 10 tháng 12 năm 2004 của Chính phủ ban hành Quy chế hoạt động khoa học xã hội và nhân văn;",
+            "trang_pdf": 37
+          }
+        ]
       },
       "ghi_chu": "Hướng dẫn Luật Khoa học và công nghệ 2013; được viện dẫn trong căn cứ của TT 10/2024/TT-BKHCN.",
-      "toan_van": "raw/download/datafiles.chinhphu.vn/08-2014-nd-cp.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/08-2014-nd-cp.pdf",
+        "raw/ocr/08-2014-nd-cp.ocr.txt"
+      ],
       "slug": "08-2014-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -10605,7 +10785,59 @@
         "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=180609, Bộ trưởng Nguyễn Quân ký) và toàn văn PDF ký số đính kèm (11-tt-bkhcn.signed.pdf, 24 trang): số hiệu 11/2015/TT-BKHCN, ban hành ngày 26-06-2015, có hiệu lực thi hành từ ngày 11-08-2015 (Điều 31, thay thế Thông tư 37/2011/TT-BKHCN); đang còn hiệu lực, quy định chi tiết và hướng dẫn thi hành một số điều của Nghị định 99/2013/NĐ-CP về xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp (được sửa đổi, bổ sung một số điều bởi Thông tư 06/2024/TT-BKHCN ngày 30-09-2024, hợp nhất tại 04/VBHN-BKHCN ngày 15-11-2024, và sửa đổi, bổ sung tiếp bởi Thông tư 66/2026/TT-BKHCN ngày 31-10-2026).",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-21",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Thông tư này quy định chỉ tiết và hướng dẫn thi hành một số điều của Nghị định số 99/2013/NĐ-CP ngày 29/8/2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp (sau đây gọi tat là Nghị định 99/2013/NĐ-CP). 2. Dối tượng áp dụng: a) Tổ chức, cá nhân có hành vi vi phạm hành chính trong lĩnh vực sở hữu công nghiệp; b) Tổ chức, cá nhân có thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp;",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Đối tượng bị xử phạt vi phạm hành chính 1. Cá nhân có hành vi vi phạm hành chính trong lĩnh vực sở hữu công nghiệp, gồm: a) Công dân Việt Nam hoặc người nước ngoài; b) Hộ kinh doanh được thành lập và hoạt động theo quy định của pháp luật đăng ký kinh doanh. 2. Tổ chức có hành vi vi phạm hành chính trong lĩnh vực sở hữu công nghiệp, gồm: l a) Đơn vị sự nghiệp công lập, tô chức chính trị, tổ chức chính trị - xã hội,",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Hình thức xử phạt bỗ sưng Tịch thu tang vật, phương tiện vi phạm hành chính quy định tại Điểm a Khoản 2 Điều 3 và Điểm a Khoản 12 Điều 12 Nghị định 99/2013/NĐ-CP được áp dụng đổi với vi phạm do lỗi cỗ ý và có một trong các căn cứ sau đây: 1, Khi thấy cần thiết để đảm bảo tang vật, phương tiện vi phạm không bị tiêu hủy, tau tan, thay đổi hiện trạng hoặc ngăn ngừa khả năng dẫn đến hành vi vi phạm tiếp theo.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 8,
+            "noi_dung": "Điều 8. Hành vi vi phạm quy định về đại diện sở hữu công nghiệp quy định tại Điều 7 Nghị định 99/2013/NĐ-CP 1. Hành vi “đồng thời là đại diện cho các bên tranh chấp với nhau về quyền sở hữu công nghiệp” quy định tại Điểm a Khoản 2 Diều 7 Nghị định 99/2013/NĐ-CP được hiểu là một trong các hành vi sau đây:",
+            "trang_pdf": 7
+          },
+          {
+            "dieu": 11,
+            "noi_dung": "Điều 11. Hành vi xâm phạm quyền đối với sáng chế Khi xác định hành vi xâm phạm quyền đối với sáng chế phải tuân theo quy định tại các điều 5 và 8 Nghị định 105/2006/NĐ-CP sửa đổi và một số hướng dẫn sau:",
+            "trang_pdf": 9
+          },
+          {
+            "dieu": 15,
+            "noi_dung": "Điều 15. Hành vi xâm phạm quyền đối với chỉ dẫn địa lý Khi xác định hành vi xâm phạm quyền đối với chỉ dẫn địa lý phải tuân theo quy định tại các điều 5 và 12 Nghị định 105/2006/NĐ-CP sửa đôi và một số hướng dẫn sau: _1. Căn cứ đánh giá khả năng gây nhằm lẫn của dấu hiệu với chỉ dẫn địa lý có thê được áp dụng một cách thích hợp tương tự như cách áp dụng căn cứ đánh giá khả năng gây nhâm lần của dâu hiệu với nhãn hiệu được bảo hộ.",
+            "trang_pdf": 13
+          },
+          {
+            "dieu": 18,
+            "noi_dung": "Điều 18. Nhập khẩu song song 1. Nhập khẩu song song theo quy định tại Khoản 2 Điều 26 Nghị định 99/2013/NĐ-CP là việc tổ chức, cá nhân nhập khẩu sản phẩm do chính chủ sở hữu hoặc tổ chức, cá nhân được chuyển giao quyên sử dụng, kể cả chuyển giao quyền sử dụng theo quyết định bắt buộc, người có quyền sử dụng trước đôi tượng sở hữu công nghiệp đã đưa ra thị trường trong nước hoặc nước ngoài một cách hợp pháp, mặc dù không được sự đồng ý.của chủ",
+            "trang_pdf": 14
+          },
+          {
+            "dieu": 22,
+            "noi_dung": "Điều 22. Ủy quyền yêu cầu xứ lý vi phạm Văn bản ủy quyền yêu cầu xử lý vi phạm khi được nộp kèm theo đơn yêu cầu xử lý vi phạm phải đáp ứng các điều kiện theo quy định tại Điều 23 Nghị định 99/2013/NĐ-CP và lưu ý một số trường hợp sau:",
+            "trang_pdf": 17
+          },
+          {
+            "dieu": 26,
+            "noi_dung": "Điều 26. Phối hợp xử lý vi phạm _ 1. Cục Sở hữu trí tuệ, Viện Khoa học sở hữu trí tuệ và các cơ quan có thầm quyền xử lý xâm phạm quyên sở hữu công nghiệp có trách nhiệm phôi hợp xử ly vi phạm khi nhận được yêu cầu phối hợp xử lý vi phạm theo quy định tại Khoản 1 Điều 29 Nghị định 99/2013/NĐ-CP.",
+            "trang_pdf": 21
+          },
+          {
+            "dieu": 31,
+            "noi_dung": "Điều 31. Hiệu lực thi hành Thông tư này có hiệu lực kể từ ngày 11 tháng 8 năm 2015 và thay thế Thông tư số 37/2011/T1-BKHCN ngày 27 tháng 12 năm 2011 của Bộ trưởng Bộ Khoa học và Công nghệ hướng dẫn thi hành một số điều của Nghị định số 23",
+            "trang_pdf": 23
+          }
+        ]
       },
       "ghi_chu": "Văn bản hướng dẫn Nghị định 99/2013/NĐ-CP xác định hành vi xâm phạm quyền SHCN, hàng hóa giả mạo nhãn hiệu/chỉ dẫn địa lý, cạnh tranh không lành mạnh và thủ tục xử lý vi phạm (được sửa đổi bởi TT 06/2024/TT-BKHCN, hợp nhất tại 04/VBHN-BKHCN và sửa đổi tiếp bởi TT 66/2026/TT-BKHCN).",
       "tu_khoa": [
@@ -10614,7 +10846,10 @@
         "nhan-hieu",
         "hang-gia"
       ],
-      "toan_van": "raw/download/datafiles.chinhphu.vn/11-2015-tt-bkhcn.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/11-2015-tt-bkhcn.pdf",
+        "raw/ocr/11-2015-tt-bkhcn.ocr.txt"
+      ],
       "slug": "11-2015-tt-bkhcn",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -10968,10 +11203,30 @@
         "pham_vi": "đọc toàn văn 3 trang bản scan ký số trên datafiles.chinhphu.vn (OCR) và thẻ vanban.chinhphu.vn (docid=202818): số 11/2021/QĐ-TTg ban hành 17-03-2021, Điều 2 có hiệu lực từ ngày ký (17-03-2021), Điều 1 kéo dài thời gian thực hiện cơ chế tài chính đặc thù; đối chiếu trên vanban.chinhphu.vn còn hiệu lực",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Kéo dài thời hạn áp dụng của 08 Quyết định và 01 văn bản của Thủ tướng Chính phủ cho đến khi thực hiện cải cách tiền lương theo Nghị quyết số 27-NQ/TW ngày 21 tháng 5 năm 2018 của Hội nghị lần thứ bảy Ban Chap hành Trung ương khóa XII về cải cách chính sách tiền lương đối với cán bộ, công chức, viên chức, lực lượng vũ trang và người lao động trong doanh nghiệp, gồm:",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Quyết định này có hiệu lực từ ngày ký và áp dụng từ năm ngân sách 2021.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Các Bộ trưởng: Tài chính, Nội vụ, Giao thông vận tải, Thông tin và Truyền thông, Nông nghiệp và Phát triển nông thôn, Khoa học và Công nghệ và Thủ trưởng các đơn vị có liên quan chịu trách nhiệm thi hành Quyết định nay./.",
+            "trang_pdf": 3
+          }
+        ]
       },
       "ghi_chu": "Nạp đợt \"làm tất\" 6/11 (#87 P1/P2 + #209). CẢNH BÁO NHẪM: issue #87 gán \"11/2021/QĐ-TTg — Kiểm tra, giám sát chuyên ngành hàng XNK\" — SAI hoàn toàn; bản scan gốc xác nhận đây là QĐ tài chính (kéo dài cơ chế tài chính đặc thù). Kiểm tra chuyên ngành XNK hiện chưa từng thuộc QĐ này: khung KTCN là NĐ 85/2019/NĐ-CP (kiểm tra chuyên ngành, HL 01/01/2020) → bị NĐ 336/2026/NĐ-CP thay thế từ 15/10/2026 (Điều 48 khoản 2, đọc trực tiếp bản scan) — đây chính là \"NĐ mới\" thay QĐ/NĐ KTCN mà issue nghi ngờ, KHÔNG có QĐ 2026 nào tên \"KTCN\" mang số 11/2021. Ghi chú thêm: \"38/2018/QĐ-TTg về KTCN\" cũng KHÔNG thấy trên hệ thống quốc gia (0 kết quả) — chuỗi giả định 08/2016→38/2018→11/2021 không xác minh được, không ghi. Liên quan XNK: không liên quan trực tiếp; chỉ liên quan gián tiếp qua đơn vị hải quan hưởng cơ chế tài chính đặc thù được kéo dài.",
-      "toan_van": "raw/download/datafiles.chinhphu.vn/11-2021-qd-ttg.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/11-2021-qd-ttg.pdf",
+        "raw/ocr/11-2021-qd-ttg.ocr.txt"
+      ],
       "slug": "11-2021-qd-ttg",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -21912,10 +22167,40 @@
         "pham_vi": "PDF moit.gov.vn QD_ket_qua_ra_soat_ER01_AD13-AS01 (OCR): Điều 1 gia hạn 05 năm thuế CBPG+CTC đường mía Thái Lan (HS 1701.13.00…; mã vụ ER01.AD13-AS01) đến hết 15-06-2031 theo Thông báo kèm theo; Điều 2 hiệu lực 16-06-2026; Điều 3 cho hết hiệu lực 1578/2021, 2961/2022, 1989/2023, 2105/2025 QĐ-BCT. Chưa thấy văn bản sau thay/bãi 1309 (kiểm đến 04-10-2026)",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "boi": "cursor-agent@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Gia hạn thêm 05 năm việc áp dụng thuế chống bán phá giá và thuế chống trợ cấp đối với một số sản phẩm đường mía nhập khẩu vào Việt Nam được phân loại theo mã HS: 1701.13.00; 1701.14.00; 1701.91.00; 1701.99.10; 1701.99.90; và 1702.90.91 có xuất xứ từ Vương quốc Thái Lan (mã vụ việc ER01.AD13-AS01) với nội dung chỉ tiết nêu tại Thông báo kèm theo Quyết định này. #Ó te tsensa vẻ À",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Quyết định này có hiệu lực thi hành kể từ ngày 16 tháng 6 năm 2026. 4",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Kế từ ngày Quyết định này có hiệu lực, các Quyết định sau hết hiệu lực thi hành: 1. Quyết định số 1578/QD-BCT ngày 15 tháng 6 năm 2021 của Bộ trưởng Bộ Công Thương áp dụng thuế chống bán phá giá và thuế chống trợ cấp chính thức đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan;",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Điều 4. Các Quyết định miễn trừ việc áp dụng biện pháp chống bán phá giá và chống trợ cấp đối với một số sản phẩm đường nêu tại Điều 1 Quyết định này đã được Bộ trưởng Bộ Công Thương ban hành trước ngày Quyết định này có hiệu lực, tiếp tục được thực hiện đến hết thời hạn hiệu lực của Quyết định miễn trừ đó.",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Điều 5. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại, Thủ trưởng các đơn vị và các bên liên quan chịu trách nhiệm thi hành Quyết định nay./.",
+            "trang_pdf": 3
+          }
+        ]
       },
       "ghi_chu": "Mã vụ việc ER01.AD13-AS01. PDF CamScanner trên cổng moit.gov.vn — điều khoản đọc bằng OCR. Cùng ngày có QĐ 1310/QĐ-BCT (registry/van-ban/1310-qd-bct-2026.yaml, quan_he.huong_dan trỏ về 1309/QĐ-BCT) gia hạn biện pháp chống lẩn tránh theo thời hạn của 1309.",
-      "toan_van": "raw/download/moit.gov.vn/1309-qd-bct.pdf",
+      "toan_van": [
+        "raw/download/moit.gov.vn/1309-qd-bct.pdf",
+        "raw/ocr/1309-qd-bct-2026.ocr.txt"
+      ],
       "slug": "1309-qd-bct-2026",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -22121,13 +22406,43 @@
           "truy_cap": "2026-11-12"
         }
       ],
-      "toan_van": "raw/download/moit.gov.vn/1310-qd-bct.pdf",
+      "toan_van": [
+        "raw/download/moit.gov.vn/1310-qd-bct.pdf",
+        "raw/ocr/1310-qd-bct-2026.ocr.txt"
+      ],
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "PDF gốc moit.gov.vn QD_gia_han_AC02-AD13_AS01_5d8d1.pdf (9 trang, ký Thứ trưởng Nguyễn Sinh Nhật Tân ngày 02-06-2026): Điều 1 gia hạn biện pháp chống lẩn tránh biện pháp PVTM đối với đường mía (HS 1701.13.00, 1701.14.00, 1701.91.00, 1701.99.10, 1701.99.90, 1702.90.91) xuất xứ Campuchia, Indonesia, Lào, Malaysia, Myanmar (thuế CBPG 42,99% + CTC 4,65%, trừ 8 công ty được miễn tại Mục 3.2 Thông báo kèm theo); Điều 2 hiệu lực từ 16-06-2026; Điều 3 cho hết hiệu lực 7 QĐ (1514/QĐ-BCT ngày 01-08-2022, 2960/QĐ-BCT ngày 30-12-2022, 783/QĐ-BCT ngày 28-03-2023, 1407/QĐ-BCT ngày 10-06-2024, 662/QĐ-BCT ngày 12-03-2025, 1908/QĐ-BCT ngày 01-07-2025, 2868/QĐ-BCT ngày 13-10-2025); Mục 2 Thông báo kèm theo quy định thời hạn áp dụng theo thời hạn của QĐ 1309/QĐ-BCT ngày 02-06-2026 (đến hết 15-06-2031). Chưa thấy văn bản sau thay/bãi 1310/QĐ-BCT (kiểm đến 12-11-2026).",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-12",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Gia hạn việc áp dụng biện pháp chống lân tránh biện pháp phòng vệ thương mại đối với một số sản phẩm đường mía nhập khẩu vào Việt Nam được phân loại theo mã HS: 1701.13.00; 1701.14.00; 1701.91.00; 1701.99.10; 1701.99.90; và 1702.90.91 có xuất xứ từ Vương quốc Cam-pu-chia, Cộng hòa In- đô-nê-xi-a, Cộng hòa dân chủ nhân dân Lào, Ma-lai-xi-a và Cộng hòa liên bang Mi-an-ma với nội dung chỉ tiết nêu tại Thông báo kèm theo Quyết định này.",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Quyết định này có hiệu lực thi hành kể từ ngày 16 tháng 6 năm 2026.",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Ké từ ngày Quyết định này có hiệu lực, các Quyết định sau hết hiệu lực thi hành: 1. Quyết định số 1514/QD-BCT ngày 01 tháng 8 năm 2022 của Bộ trưởng Bộ Công Thương về việc áp dụng biện pháp chống lẫn tránh biện pháp phòng vệ thương mại đối với một số sản phâm đường mía;",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Điều 4. Các Quyết định miễn trừ việc áp dụng biện pháp chống lan tránh biện pháp phòng vệ thương mại đối với một số sản phẩm đường nêu tại Điều | Quyết định này đã được Bộ trưởng Bộ Công Thương ban hành trước ngày Quyết định này có hiệu lực, tiếp tục được thực hiện đến hết thời hạn hiệu lực của Quyết định miễn trừ đó.",
+            "trang_pdf": 4
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Điều 5. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại, Thủ trưởng các đơn vi và các bên liên quan chịu trách nhiệm thi hành Quyết định này./. . KT. BỘ TRƯỞNG Tnhh THỨ TRƯỞN - Như Điều 5; - Văn phòng Chính phủ; - Các Bộ: TC, NN&MT, NG, KHCN; - Bộ trưởng; - Các Thứ trưởng; - Các website: Chính phủ, Bộ Công Thương; - Cục Hải quan — Bộ Tài chính; - Các Cục: CN, XNK, DCK; - Các Vụ: TINN, DB, PC; - Văn phòng BCĐLNHNQT về kinh tế;",
+            "trang_pdf": 4
+          }
+        ]
       },
       "ghi_chu": "Ban hành cùng ngày 02-06-2026 với QĐ 1309/QĐ-BCT (vụ việc ER01.AD13-AS01). 7 QĐ hết hiệu lực tại Điều 3 (1514/2022, 2960/2022, 783/2023, 1407/2024, 662/2025, 1908/2025, 2868/2025 QĐ-BCT) hiện chưa có mục riêng trong sổ — ghi tại đây để tra cứu, khi nạp stub sẽ bổ sung cạnh bai_bo.",
       "slug": "1310-qd-bct-2026",
@@ -22814,9 +23129,64 @@
         "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=216530) và toàn văn PDF đính kèm trên datafiles.chinhphu.vn (luatso133.2025.qh15.pdf): Quốc hội thông qua ngày 10-12-2025, có hiệu lực thi hành từ ngày 01-07-2026; đang còn hiệu lực.",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-15",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh Luật này quy định về hoạt động công nghệ cao, chính sách, biện pháp khuyến khích, thúc đây hoạt động công nghệ cao và các hoạt động liên quan đến phát triển công nghệ chiến lược.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Đối tượng áp dụng Luật này áp dụng đối với tổ chức, cá nhân Việt Nam, người Việt Nam định cư ở nước ngoài, tô chức nước ngoài, cá nhân nước ngoài tham gia hoặc có liên quan đến hoạt động công nghệ cao, công nghệ chiến lược tại Việt Nam.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau: 1. Công nghệ cao là công nghệ có hàm lượng cao về nghiên cứu khoa học va phát trién công nghệ, tích hợp các thành tựu khoa học tiên tiên, có tính đột phá, tạo ra sản phẩm, dịch vụ có chất lượng vượt trội, giá trị gia tăng cao, thân thiện với môi trường.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 7,
+            "noi_dung": "Điều 7. Hợp tác quốc tế về công nghệ cao, công nghệ chiến lược 1. Nhà nước tạo điều kiện và hỗ trợ tổ chức, cá nhân trong nước hợp tác quốc tế trong nghiên cứu và phát triển, chuyển giao, ứng dụng và thương mại hóa công nghệ cao, công nghệ chiến lược; tham gia mạng lưới đổi mới sáng tạo, chuỗi giá trị và dự án hợp tác khu vực, toàn cầu phù hợp pháp luật Việt Nam và điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên;",
+            "trang_pdf": 4
+          },
+          {
+            "dieu": 10,
+            "noi_dung": "Điều 10. Các hành vi bị nghiêm cấm 1. Lợi dụng hoạt động công nghệ cao, công nghệ chiến lược dé xâm phạm lợi ích quốc gia, quyền và lợi ích hợp pháp của tổ chức, cá nhân; gây hậu quả xấu đến quôc phòng, an ninh, đạo đức xã hội, sức khỏe cộng đồng và môi trường. 2. Sử dụng công nghệ cao, công nghệ chiến lược hoặc sản phẩm, dịch vụ hình thành từ công nghệ đó dé thực hiện hành vi vi phạm pháp luật.",
+            "trang_pdf": 6
+          },
+          {
+            "dieu": 13,
+            "noi_dung": "Điều 13. Thu hút và phát triển nguồn nhân lực công nghệ cao 1. Nhân lực công nghệ cao bao gồm: a) Người Việt Nam, người Việt Nam định cư ở nước ngoài, người nước ngoài có trình độ chuyên môn, kỹ năng cao, có năng lực nghiên cứu và phát triển, làm chủ, chuyển giao hoặc thương mại hóa công nghệ cao, công nghệ chiến lược;",
+            "trang_pdf": 9
+          },
+          {
+            "dieu": 17,
+            "noi_dung": "Điều 17. Ứng dụng công nghệ cao, công nghệ chiến lược trong phát triển kinh tế - xã hội 1. Nhà nước có chính sách khuyến khích, tạo điều kiện để tổ chức, doanh nghiệp, cá nhân ứng dụng công nghệ cao, công nghệ chiến lược trong ngành kinh tế, quôc phòng và an ninh, đặc biệt tại các vùng kinh tế trọng điểm, nông thôn, vùng đồng bào dân tộc thiểu số, biên giới và hải đảo, vùng có điều kiện kinh tế - xã hội khó khăn, đặc biệt khó khăn.",
+            "trang_pdf": 13
+          },
+          {
+            "dieu": 20,
+            "noi_dung": "Điều 20. Thúc day phát triển hệ sinh thái công nghệ cao va cơ sở hạ tang kỹ thuật 1. Hệ sinh thái công nghệ cao là tập hợp các chủ thể có tương tác lẫn nhau phục vụ phát triển công nghệ cao, trong đó doanh nghiệp công nghệ cao giữ vai trò trung tâm, các thành phần chính là cơ quan quản lý, tô chức khoa học và công nghệ, cơ sở giáo dục đại học, tô chức hỗ trợ khởi nghiệp và đổi mới sáng tạo, tô chức hỗ trợ, người sử dụng và một số thành phần",
+            "trang_pdf": 15
+          },
+          {
+            "dieu": 23,
+            "noi_dung": "Điều 23. Đô thị công nghệ cao 1. Đô thị công nghệ cao là đô thị được hình thành và phát triển trên cơ sở hệ sinh thái công nghệ cao, trong đó khu công nghệ cao, các tô chức khoa học và công nghệ giữ vai trò trung tâm. 2. Đô thị công nghệ cao ngoài việc đáp ứng các tiêu chí của đô thị theo quy định của pháp luật còn phải đáp ứng các điêu kiện sau đây: a) Có khu công nghệ cao và tô chức khoa học và công nghệ giữ vai trò trung",
+            "trang_pdf": 20
+          },
+          {
+            "dieu": 27,
+            "noi_dung": "Điều 27. Quy định chuyền tiếp 1. Các loại giấy chứng nhận được cấp theo quy định tại Luật Công nghệ cao số 21/2008/QH12 còn thời hạn sau ngày Luật này có hiệu lực thi hành thì tiếp tục có hiệu lực đến hết thời hạn theo giấy chứng nhận.",
+            "trang_pdf": 27
+          }
+        ]
       },
-      "toan_van": "raw/download/datafiles.chinhphu.vn/133-2025-qh15.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/133-2025-qh15.pdf",
+        "raw/ocr/133-2025-qh15.ocr.txt"
+      ],
       "ghi_chu": "Luật Công nghệ cao số 133/2025/QH15 ngày 10-12-2025 (hiệu lực từ 01-07-2026, thay thế Luật Công nghệ cao 21/2008/QH12).",
       "slug": "133-2025-qh15",
       "bac_nguon_cao_nhat": "A",
@@ -23204,10 +23574,65 @@
         "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=220071) và toàn văn PDF ký số ngày 21-10-2026 bởi Thứ trưởng Bộ Công Thương Nguyễn Việt Sơn (135-vbhn-bct.signed.pdf, số ký hiệu 135/VBHN-TT-BCT): hợp nhất Thông tư 19/2026/TT-BCT ngày 03-04-2026 quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước, trích lập Quỹ bình ổn giá xăng dầu và hoàn trả tạm ứng ngân sách nhà nước với Thông tư 67/2026/TT-BCT ngày 20-10-2026 (HL 20-10-2026, docid=220090, Công báo mã 470854); đang còn hiệu lực",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh Thông tư này quy định việc tiếp nhận, quản lý, kiểm tra, giám sát, kiểm toán, quyết toán: tạm ứng, chỉ sử dụng Quỹ bình ôn giá xăng dầu tạm ứng từ nguồn ngân sách nhà nước, trích lập Quỹ bình ổn giá xăng dầu và hoàn trả tạm ứng ngân sách nhà nước.",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Đối tượng áp dụng 1. Thương nhân đầu mối kinh doanh xăng dầu (sau đây viết tắt là thương nhân). 2. Ngân hàng thương mại nơi thương nhân mở tài khoản phong tỏa dé tiếp nhận nguồn ngân sách nhà nước tạm ứng cho Quỹ bình én giá xăng dầu, chi sử dụng, trích lập và hoàn trả tạm ứng ngân sách nhà nước. 3. Các cơ quan, tô chức, cá nhân có liên quan.",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. N uyên tắc thực hiện chi sử dụng Quỹ bình ồn giá xăng dầu tạm ứng từ nguồn ngân. sách nhà nước, trích lập Quỹ bình 6n giá xăng dầu và hoàn trả tạm ứng ngân sách nhà nước } Thông | tư số 672026/TT-BCT có căn cứ ban hành như sau: “Căn cứ Luật Ngân sách nhà nước số 89/2025/QH15; Căn cứ Luật Giá số 16/2023/QH15 được sửa đổi, bổ sung bởi Luật số 44/2024/QH15; Luật số 61/2024/QH15; Luật số 95/2025/QH15; Luật số 140/2025/QH15;",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Điều 5. Tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước? 1. Căn cứ thông báo điều hành giá bán xăng dầu của Bộ Công Thương có nội dung điều hành chi sử dụng Quỹ bình ồn giá xăng dầu, Cục Quản ly và Phát triển thị trường trong nước gửi văn bản đề nghị thương nhân tạm ứng cho Quỹ bình 6n giá xăng dầu tại thương nhân.",
+            "trang_pdf": 5
+          },
+          {
+            "dieu": 7,
+            "noi_dung": "Điều 7. Chi sử dụng Quỹ bình 6n giá xăng dầu tạm ứng từ nguồn ngân sách nhà nước” 1. Căn cứ Quyết định phê duyệt số tiền tạm ứng/số tiền tạm ứng bổ sung của Bộ Công Thương, thương nhân xác định số tiền chỉ sử dụng thực tế phát sinh theo quy định để thực hiện rút tiền từ tài khoản phong tỏa Quỹ bình ôn giá xăng dầu tạm ứng từ nguồn ngân sách nhà nước mở tại Ngân hàng thương mại.",
+            "trang_pdf": 6
+          },
+          {
+            "dieu": 8,
+            "noi_dung": "Điều 8. Trích lập Quỹ bình ổn giá xăng dau‘ 1. Trong thời gian năm (05) ngày làm việc, ké từ ngày tiếp theo của ngày kết thúc một (01) kỳ điều hành giá xăng dầu của Bộ Công Thương, thương nhân xác định số tiền trích lập Quỹ bình ôn giá xăng dầu thực tế phát sinh theo quy định và chuyên nộp toàn bộ sô tiên đó vào tài khoản phong tỏa Quỹ bình ô én giá xăng dầu tạm ứng từ nguồn ngân sách nhà nước của thương nhân mở tại Ngân „hàng thương mại.",
+            "trang_pdf": 6
+          },
+          {
+            "dieu": 9,
+            "noi_dung": "Điều 9. Hoan trả tạm ứng ngân sách nhà nước 1. Cục Quản lý và Phát triển thị trường trong nước xây dựng phương án, kế hoạch cụ thể về việc thu hồi ngân sách nhà nước trình Bộ Công Thương báo cáo Chính phủ, bao gồm tính toán thời gian sử dụng và trích lập Quỹ bình 6n giá xăng dau dé thu hồi tạm ứng hoàn trả ngân sách nhà nước kê từ ngày Bộ Công Thương có Quyết định triển khai thực hiện trích lập Quỹ bình 6n giá xăng dầu dé hoàn trả ngân sách nhà",
+            "trang_pdf": 7
+          },
+          {
+            "dieu": 10,
+            "noi_dung": "Điều 10. Trách nhiệm của Cục Quản lý và Phát triển thị trường trong nước 1. Hướng dẫn các thương nhân thực hiện tạm ứng từ nguồn ngân sách nhà nước cho Quỹ bình ôn giá xăng dâu tại thương nhân.",
+            "trang_pdf": 8
+          },
+          {
+            "dieu": 12,
+            "noi_dung": "Điều 12. Trách nhiệm của thương nhân 1. Chấp hành nghiêm việc trích lập, chỉ sử dụng Quỹ bình ô ôn giá xăng dầu tạm ứng từ nguồn ngân sách nhà nước theo Văn bản thông báo điều hành giá bán xăng dâu và các Văn bản thông báo liên quan của Bộ Công Thương, hoàn trả số dư Quỹ bình 6n giá xăng dầu theo đúng thời hạn quy định.",
+            "trang_pdf": 9
+          },
+          {
+            "dieu": 14,
+            "noi_dung": "Điều 14. Điều khoản thi hành? ? Điều 2, Điều 3 của Thông tư số 67/2026/TT-BCT, có hiệu lực kể từ ngày 20 tháng 10 năm 2026 quy định như sau: “Điều 2. Điều khoản chuyén tiếp Ww",
+            "trang_pdf": 11
+          }
+        ]
       },
       "ghi_chu": "Hợp nhất Thông tư 19/2026/TT-BCT ngày 03-04-2026 và Thông tư 67/2026/TT-BCT ngày 20-10-2026 về Quỹ bình ổn giá xăng dầu (gia đình xăng dầu #240).",
-      "toan_van": "raw/download/datafiles.chinhphu.vn/135-2026-vbhn-tt-bct.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/135-2026-vbhn-tt-bct.pdf",
+        "raw/ocr/135-2026-vbhn-tt-bct.ocr.txt"
+      ],
       "slug": "135-2026-vbhn-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -23304,10 +23729,35 @@
         "pham_vi": "Đối chiếu toàn văn PDF gốc trên Cổng thông tin điện tử Hải quan (files.customs.gov.vn, 12 trang, Phó Tổng cục trưởng Mai Xuân Thành ký ngày 18-05-2021): ban hành Bảng mã loại hình xuất khẩu, nhập khẩu và hướng dẫn sử dụng; Điều 2 quy định có hiệu lực thi hành từ ngày 01-06-2021 và thay thế Công văn số 2765/TCHQ-GSQL ngày 01-04-2015 của Tổng cục Hải quan; đang còn hiệu lực.",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-15",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Ban hành kèm theo Quyết định này Bảng mã loại hình xuất khẩu, nhập khâu và hướng dẫn sử dụng.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Hiệu lực thi hành Quyết định này có hiệu lực kể từ ngày 01/6/2021 và thay thế công văn số 2765/TCHQ-GSQL ngày 01/04/2015 của Tổng cục Hải quan về mã loại hình XNK trên hệ thống VNACCS.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Điều khoản chuyền tiếp 1. Đối với các tờ khai hải quan đã đăng ký theo loại hình tương ứng trước ngày Quyết định này có hiệu lực, nêu có thay đôi mục đích sử dụng, đăng ký tờ khai hải quan theo loại hình xuất khẩu, nhập khẩu mới thì sử dụng mã loại hình theo quy định tại Quyết định này ké từ thời điểm đăng ký tờ khai hải quan mới.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Điều 4. Tố chức thực hiện: 1. Thủ trưởng các đơn vị thuộc và trực thuộc Tổng cục Hải quan chịu trách nhiệm thi hành Quyết định này. 2. Cục Hải quan các tỉnh, thành phố chỉ đạo các Chi cục Hải quan trực thuộc thông báo công khai Quyết định này tại các địa điểm làm thủ tục hải quan để người khai hải quan biết, thực hiện. 3. Trong quá trình thực hiện, nếu. có vướng mắc phát sinh, Cục Hải quan",
+            "trang_pdf": 2
+          }
+        ]
       },
       "ghi_chu": "Bảng mã loại hình xuất khẩu, nhập khẩu và hướng dẫn sử dụng hiện hành (ban hành 18-05-2021, có hiệu lực từ 01-06-2021 theo Điều 2, thay thế Công văn 2765/TCHQ-GSQL ngày 01-04-2015).",
-      "toan_van": "raw/download/files.customs.gov.vn/1357-qd-tchq.pdf",
+      "toan_van": [
+        "raw/download/files.customs.gov.vn/1357-qd-tchq.pdf",
+        "raw/ocr/1357-qd-tchq-2021.ocr.txt"
+      ],
       "slug": "1357-qd-tchq-2021",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -25248,11 +25698,31 @@
         "pham_vi": "PDF pvtm.gov.vn (OCR): Điều 2 hiệu lực sau 15 ngày kể từ ngày ban hành (14-01-2025 → 29-01-2025); Thông báo thời hạn 05 năm kể từ ngày QĐ có hiệu lực; CON_HIEU_LUC đến hết 28-01-2030 (kiểm đến 04-10-2026)",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "boi": "cursor-agent@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Áp dụng thuế chống bán phá giá chính thức đối với sản phẩm cáp thép dự ứng lực được phân loại theo các mã HS 7312.10.91 và 7312.10.99 từ Ma- lai-xi-a, Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa (mã vụ việc: ; AD17) với nội dung chi tiết nêu tại Thong báo kèm theo Quyết định này. N",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Quyết định này có hiệu lực sau 15 ngày kể từ ngày ban hành.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và Thủ trưởng các đơn vị, các bên liên quan chịu trách nhiệm thi hành Quyết định này./ TIẾT . BỘ TRƯỞN G",
+            "trang_pdf": 2
+          }
+        ]
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 2 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + quangninh.gov.vn (Sở Công Thương)). GHI CHÚ NGHIỆP VỤ (hs-code-api): Mã vụ việc AD17. HS 7312.10.91; 7312.10.99 (đường kính 9,0–16,0 mm). Thuế: Malaysia 9,79%–12,06%, Thái Lan 11%, Trung Quốc 10,48%–28%; 5 năm từ 29/01/2025. Số hiệu hay viết 143/QĐ-BCT-2025. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL. Nhập từ hs-code-api data/legal-docs.json (2 mã HS). Mã vụ việc AD17. PDF Cục PVTM là ảnh — OCR.",
       "het_hieu_luc_tu": "2030-01-29",
-      "toan_van": "raw/download/pvtm.gov.vn/143-qd-bct.pdf",
+      "toan_van": [
+        "raw/download/pvtm.gov.vn/143-qd-bct.pdf",
+        "raw/ocr/143-qd-bct-2025.ocr.txt"
+      ],
       "slug": "143-qd-bct-2025",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -27450,7 +27920,10 @@
         "boi": "tho-bo-ba-01@ozvietnam"
       },
       "ghi_chu": "Hướng dẫn khai báo trên VNACCS/VCIS theo Nghị quyết 19/2026/QH16: mục 2 quy định người khai hải quan chọn mã VK240 tại chỉ tiêu mã miễn/giảm/không chịu thuế GTGT cho xăng, dầu diezel, dầu hỏa, dầu mazut và nhiên liệu bay nhập khẩu.",
-      "toan_van": "raw/download/files.customs.gov.vn/15289-chq-nvthq-2026.pdf",
+      "toan_van": [
+        "raw/download/files.customs.gov.vn/15289-chq-nvthq-2026.pdf",
+        "raw/ocr/15289-chq-nvthq-2026.ocr.txt"
+      ],
       "slug": "15289-chq-nvthq-2026",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -44286,11 +44759,31 @@
         "pham_vi": "PDF pvtm.gov.vn (OCR): Điều 1 chấm dứt, không gia hạn biện pháp CBPG (ER01.AD07 / BOPP); Điều 2 hiệu lực từ 23-07-2025; QĐ còn hiệu lực với tư cách kết luận rà soát (kiểm đến 04-10-2026)",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "boi": "cursor-agent@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Chấm dứt, không gia hạn việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm bằng plastic được làm từ các polyme từ propylen được quy định cụ thé tại Quyết định số 1900/QD-BCT ngày 20 tháng 7 năm 2020.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Quyết định này có hiệu lực kể từ ngày 23 tháng 7 năm 2025.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và các bên liên quan chịu trách nhiệm thi hành Quyết định này./. k”",
+            "trang_pdf": 2
+          }
+        ]
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (2 mã HS). Mã vụ việc ER01.AD07. PDF Cục PVTM là ảnh — OCR. Biện pháp CBPG gốc (QĐ 1900/QĐ-BCT) không được gia hạn.",
       "hieu_luc_tu": "2025-07-23",
-      "toan_van": "raw/download/pvtm.gov.vn/2027-qd-bct.pdf",
+      "toan_van": [
+        "raw/download/pvtm.gov.vn/2027-qd-bct.pdf",
+        "raw/ocr/2027-qd-bct.ocr.txt"
+      ],
       "slug": "2027-qd-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -48852,10 +49345,30 @@
         "pham_vi": "đối chiếu toàn văn PDF có dấu đỏ và chữ ký của Thứ trưởng Nguyễn Sinh Nhật Tân trên Cổng Cục Phòng vệ thương mại (pvtm.gov.vn / trav.gov.vn): QĐ 2174/QĐ-BCT ngày 07-09-2026 kèm Thông báo áp dụng thuế CBPG chính thức (5,55%–45,30%) đối với gạch gốm, sứ ốp lát xuất xứ Ấn Độ thuộc 8 mã HS 6907.21.21, 6907.21.22, 6907.21.23, 6907.21.24, 6907.21.91, 6907.21.92, 6907.21.93, 6907.21.94 (mã vụ việc AD23 khởi xướng theo QĐ 2333/QĐ-BCT ngày 18-08-2025, gia hạn điều tra theo QĐ 1906/QĐ-BCT ngày 14-08-2026); Điều 2 và Mục 4 Thông báo quy định có hiệu lực sau 15 ngày kể từ ngày ban hành (22-09-2026), thời hạn áp dụng 05 năm (đến 22-09-2031)",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm gạch gốm, sứ ốp lát có xuất xứ từ Cộng hòa Ấn Độ được phân loại theo d",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Quyết định này có hiệu lực sau 15 ngày kể từ ngày ban hành.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và Thủ trưởng các đơn vị, các bên liên quan chịu trách nhiệm thi hành Quyết định nay./.",
+            "trang_pdf": 2
+          }
+        ]
       },
       "ghi_chu": "Vụ việc AD23 — gạch gốm, sứ ốp lát xuất xứ Ấn Độ (8 mã HS nhóm 6907.21). Áp thuế CBPG chính thức từ 22-09-2026 đến 22-09-2031 với mức thuế từ 5,55% đến 45,30% tùy nhà sản xuất/xuất khẩu.",
-      "toan_van": "raw/download/pvtm.gov.vn/2174-qd-bct.pdf",
+      "toan_van": [
+        "raw/download/pvtm.gov.vn/2174-qd-bct.pdf",
+        "raw/ocr/2174-qd-bct-2025.ocr.txt"
+      ],
       "slug": "2174-qd-bct-2025",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -51167,10 +51680,25 @@
         "pham_vi": "số hiệu, trích yếu, ngày ban hành 12-10-2016, hiệu lực 26-11-2016 và tệp 23-bct.signed.pdf trên vanban.chinhphu.vn (docid=187254); còn hiệu lực",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-15",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Bãi bỏ Thông tư số 37/2015/TT-BCT ngày 30 tháng 10 năm 2015 của Bộ trưởng Bộ Công Thương quy định về mức giới hạn và việc kiểm tra hàm lượng formaldehyt và amin thơm chuyên hóa từ thuôc nhuộm azo trong sản pham dét may.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Hiệu lực thi hành Thông tư này có hiệu lực thi hành ké từ ngayol6 tháng 44 năm 2016.",
+            "trang_pdf": 1
+          }
+        ]
       },
       "ghi_chu": "Bãi bỏ Thông tư 37/2015/TT-BCT về kiểm tra hàm lượng formaldehyt và amin thơm trong dệt may.",
-      "toan_van": "raw/download/datafiles.chinhphu.vn/23-2016-tt-bct.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/23-2016-tt-bct.pdf",
+        "raw/ocr/23-2016-tt-bct.ocr.txt"
+      ],
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=187254",
@@ -57197,11 +57725,41 @@
         "pham_vi": "PDF pvtm.gov.vn (OCR): Điều 1 gia hạn thêm 05 năm CBPG nhôm (ER01.AD05); Điều 3 hiệu lực từ 03-10-2024; Thông báo: thuế áp dụng 03-10-2024 đến 02-10-2029; CON_HIEU_LUC trong kỳ (kiểm đến 04-10-2026)",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-10-04",
-        "boi": "cursor-agent@ozvietnam"
+        "boi": "cursor-agent@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Gia hạn thêm 05 năm việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm nhôm, hợp kim hoặc không hợp kim, ở dạng thanh, que và hình, đã được đùn ép, đã hoặc chưa xử lý bề mặt, đã hoặc chưa được gia công thêm nhập khẩu vào Việt Nam và được phân loại theo mã HS 7604.10.10, 7604.10.90, 7604.21.90, 7604.29.10, 7604.29.90 có xuất xứ từ Cộng hòa nhân dân Trung Hoa (mã vụ việc: ER01.AD05) với nội dung chỉ tiết nêu tại Thông báo kèm",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Các Quyết định miễn trừ việc áp dụng biện pháp chống bán phá giá đối với một số sản phâm nhôm nêu tại Điều 1 Quyết định này đã được Bộ trưởng Bộ Công Thương ban hành trước ngày Quyết định này có hiệu lực, tiếp tục được thực hiện đến hết thời hạn hiệu lực của Quyết định miễn trừ đó.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Quyết định này có hiệu lực thi hành kể từ ngày 03 tháng 10 năm 2024.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Điều 4. Quyết định số 74/QĐ-BCT ngày 16 tháng 01 năm 2023 của Bộ trưởng Bộ Công Thương hết hiệu lực kể từ ngày Quyết định này có hiệu lực.",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Điều 5. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại, Thủ trưởng các đơn vị và các bên liên quan chịu trách nhiệm thi hành Quyết định này./.",
+            "trang_pdf": 3
+          }
+        ]
       },
       "ghi_chu": "Nhập từ hs-code-api data/legal-docs.json (5 mã HS). Mã vụ việc ER01.AD05. PDF Cục PVTM là ảnh — OCR. Điều 4 hết hiệu lực QĐ 74/QĐ-BCT.",
       "het_hieu_luc_tu": "2029-10-03",
-      "toan_van": "raw/download/pvtm.gov.vn/2531-qd-bct.pdf",
+      "toan_van": [
+        "raw/download/pvtm.gov.vn/2531-qd-bct.pdf",
+        "raw/ocr/2531-qd-bct-2024.ocr.txt"
+      ],
       "slug": "2531-qd-bct-2024",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -62589,14 +63147,34 @@
         "pham_vi": "thẻ vanban.chinhphu.vn (docid=215767) và báo Chính phủ: số hiệu, ngày ban hành 03-11-2025, có hiệu lực từ 30-12-2025; đối chiếu còn hiệu lực, bãi bỏ toàn bộ Nghị định 105/2006/NĐ-CP và Nghị định 119/2010/NĐ-CP trong lĩnh vực sở hữu trí tuệ",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Bãi bỏ toàn bộ các nghị định Bãi bỏ toàn bộ các nghị định sau đây: 1. Nghị định số 35/2005/NĐ-CP ngày 17 tháng 3 năm 2005 của Chính phủ về việc xử lý kỷ luật cán bộ, công chức. 2. Nghị định số 105/2006/NĐ-CP ngày 22 tháng 9 năm 2006 của Chính phủ quy định chỉ tiết và hướng dẫn thi hành một số điều của Luật Sở hữu trí tuệ về bảo vệ quyền sở hữu trí tuệ và quản lý nhà nước về sở hữu trí tuệ.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Bãi bỏ một phần các nghị định Bãi bỏ một phần các nghị định sau đây: 1. Bãi bỏ khoản 1 Điều 12 Nghị định số 65/2017/NĐ-CP ngày 19 tháng năm 2017 của Chính phủ chính sách đặc thù về giống, vốn và công nghệ trong F>——t phát triển nuôi trồng, khai thác dược liệu.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Điều khoản thi hành 1. Nghị định này có hiệu lực thi hành kể từ ngày 30 tháng 12 năm 2025.",
+            "trang_pdf": 2
+          }
+        ]
       },
       "ghi_chu": "Chỉ ghi quan hệ với gia đình SHTT (bãi toàn bộ NĐ 105/2006 và NĐ 119/2010); nghị định còn bãi bỏ toàn bộ 6 NĐ khác (35/2005, 35/2007, 27/2010, 137/2013, 04/2015, 63/2020) và một phần NĐ 65/2017, NĐ 08/2018 — ngoài phạm vi sổ tay.",
       "tu_khoa": [
         "so-huu-tri-tue",
         "bai-bo"
       ],
-      "toan_van": "raw/download/datafiles.chinhphu.vn/285-2025-nd-cp.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/285-2025-nd-cp.pdf",
+        "raw/ocr/285-2025-nd-cp.ocr.txt"
+      ],
       "slug": "285-2025-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -65453,7 +66031,24 @@
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
         "boi": "tho-bo-ba-01@ozvietnam",
-        "ghi_chu": "Crawl từ moit.gov.vn"
+        "ghi_chu": "Crawl từ moit.gov.vn",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Chấm dứt, không gia hạn việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép không gi cán nguội được quy định cụ thé tại Quyết định số 3162/QĐ-BCT ngày 21 tháng 10 năm 2019 của Bộ trưởng Bộ Công Thương về kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép không gỉ cán nguội có xuất xứ từ Cộng hòa nhân dân Trung Hoa, Cộng hòa In-đô-nê-xi-a, Ma-lai-xi-a và Vùng lãnh thổ Dai Loan.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Quyết định này có hiệu lực kể từ ngày ban hành.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và các bên liên quan chịu trách nhiệm thi hành Quyết định này./. KT. BỘ TRƯỜNG",
+            "trang_pdf": 2
+          }
+        ]
       },
       "nguon": [
         {
@@ -65465,7 +66060,10 @@
           "truy_cap": "2026-10-10"
         }
       ],
-      "toan_van": "raw/download/moit.gov.vn/3011-qd-bct.pdf",
+      "toan_van": [
+        "raw/download/moit.gov.vn/3011-qd-bct.pdf",
+        "raw/ocr/3011-qd-bct.ocr.txt"
+      ],
       "slug": "3011-qd-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -66806,7 +67404,59 @@
         "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=193105, người ký Thủ tướng Nguyễn Xuân Phúc, tệp đính kèm 31.signed.pdf) và quan hệ trong sổ: Nghị định 31/2018/NĐ-CP của Chính phủ quy định chi tiết Luật Quản lý ngoại thương (05/2017/QH14) về xuất xứ hàng hóa, ban hành ngày 08-03-2018, có hiệu lực thi hành kể từ ngày ký ban hành 08-03-2018; đối chiếu đang còn hiệu lực (không có văn bản thay thế hoặc bãi bỏ trong sổ)",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh Nghị định này quy định về xuất xứ hàng hóa xuất khâu, xuất xứ hàng hóa nhập khẩu.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Đối tượng áp dụng Nghị định này áp dụng đối với thương nhân, các cơ quan, tổ chức, cá nhân khác có hoạt động liên quan đến xuất xứ hàng hóa.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Giải thích từ ngữ Theo Nghị định này, các từ ngữ sau đây được hiểu như sau: 1. Xuất xứ hàng hóa là nước, nhóm nước, hoặc vùng lãnh thổ nơi sản xuất ra toàn bộ hàng hóa hoặc nơi thực hiện công đoạn chế biến cơ bản cuối cùng đối với hàng hóa trong trường hợp có nhiều nước, nhóm nước, hoặc vùng lãnh thổ tham gia vào quá trình sản xuất ra hàng hóa đó.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 9,
+            "noi_dung": "Điều 9. Công đoạn gia công, chế biến đơn giản Công đoạn gia công, chế biến sau đây khi được thực hiện riêng rễ hoặc kết hợp với nhau, được xem là đơn giản và không được xét đên khi xác định xuất xứ hàng hoá tại một nước, nhóm nước, hoặc vùng lãnh tho:",
+            "trang_pdf": 5
+          },
+          {
+            "dieu": 13,
+            "noi_dung": "Điều 13. Đăng ky hồ sơ thương nhân 1. Thương nhân đề nghị cấp Giấy chứng nhận xuất xứ hàng hóa lần đầu tiên phải đăng ký hồ sơ thương nhân với cơ quan, tổ chức cấp Giấy chứng nhận xuất xứ hàng hóa và chỉ được xem xét cấp Giấy chứng nhận xuất xứ hàng hóa khi đã đăng ký hồ sơ thương nhân đầy đủ và hợp lệ. Hồ sơ thương nhân bao gồm:",
+            "trang_pdf": 7
+          },
+          {
+            "dieu": 17,
+            "noi_dung": "Điều 17. Giấy chứng nhận xuất xứ hàng hóa cấp sau 1. Trong trường hợp Giấy chứng nhận xuất xứ hàng hóa không được cấp vào thời điểm xuất khẩu, Giấy chứng nhận xuất xứ hàng hóa được phép cap sau và có giá trị hiệu lực tinh từ thời điểm giao hàng nhưng không qua l năm kể từ ngày giao hàng và phải được đóng dau “ISSUED RETROACTIVELY/ ISSUED RETROSPECTIVELY” lên Giấy chứng nhận xuất xứ hàng hóa.",
+            "trang_pdf": 12
+          },
+          {
+            "dieu": 21,
+            "noi_dung": "Điều 21. Từ chối cấp Giấy chứng nhận xuất xứ hàng hóa Cơ quan, tô chức cấp Giấy chứng nhận xuất xứ hàng hóa từ chối cấp Giấy chứng nhận xuất xứ hàng hóa bằng văn bản hoặc thông báo tại Hệ thống quản lý và cấp chứng nhận xuất xứ điện tử của Bộ Công Thương tại địa chỉ www.ecosys.gov.vn hoặc trang điện tử khác của các cơ quan, tổ chức cấp Giấy chứng nhận xuất xứ hàng hóa được Bộ Công Thương ủy quyền và nêu rõ lý do từ chối trong những trường hợp",
+            "trang_pdf": 16
+          },
+          {
+            "dieu": 25,
+            "noi_dung": "Điều 25. Tự chứng nhận xuất xứ hàng hóa Thực hiện Điều ước quốc tế mà Việt Nam ký kết hoặc gia nhập, căn cứ quy định của nước nhập khẩu về tự chứng nhận xuất xứ hàng hóa, Bộ Công Thương quy định tiêu chí lựa chọn thương nhân; quy trình, thủ tục tự chứng nhận xuất xứ; nghĩa vụ và trách nhiệm của thương nhân tự chứng nhận xuất xứ; cơ chế kiểm tra, xác minh việc tự chứng nhận xuất xứ hàng hóa xuất khâu của thương nhân và chế tài xử lý vi phạm.",
+            "trang_pdf": 18
+          },
+          {
+            "dieu": 29,
+            "noi_dung": "Điều 29. Biện pháp chống gian lận xuất xứ 1. Cơ quan, tổ chức cấp Giấy chứng nhận xuất xứ hàng hóa áp dụng các biện pháp chống gian lận xuất xứ đối với các trường hợp sau: a) Tạm dừng cấp Giấy chứng nhận xuất xứ hàng hóa trong thời hạn 3 tháng ké từ lần đầu tiên thương nhân đăng tải các thông tin, dữ liệu không liên quan đến việc đề nghị cấp Giấy chứng nhận xuất xứ hàng hóa trên Hệ thống",
+            "trang_pdf": 20
+          },
+          {
+            "dieu": 34,
+            "noi_dung": "Điều 34. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành từ ngày 08 tháng 3 năm 2018. 2. Nghị định này thay thế Nghị định SỐ, 19/2006/NĐ-CP ngày 20 tháng 02 năm 2006 của Chính phủ quy định chi tiệt Luật Thương mại về xuất xứ hàng hóa và các Thông tư hướng dẫn Nghị định sô 19/2006/NĐ-CP.",
+            "trang_pdf": 23
+          }
+        ]
       },
       "ghi_chu": "Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.",
       "nguon": [
@@ -66819,7 +67469,10 @@
           "truy_cap": "2026-11-22"
         }
       ],
-      "toan_van": "raw/download/datafiles.chinhphu.vn/31-2018-nd-cp.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/31-2018-nd-cp.pdf",
+        "raw/ocr/31-2018-nd-cp.ocr.txt"
+      ],
       "slug": "31-2018-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -66880,10 +67533,25 @@
         "pham_vi": "số hiệu, trích yếu, ngày ban hành 30-11-2020, hiệu lực 15-01-2021 và tệp 31-bct.pdf trên vanban.chinhphu.vn (docid=202350); còn hiệu lực",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-15",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Sửa đổi, bỗ sung một số điều và thay thế một số nội dung của Thông tư số 13/2018/TT- BCT ngày 15 › tháng 6 năm 2018 quy định về quan ly, sử dung vat liệu nỗ công nghiệp, tiền chất thuốc nỗ sử dụng để sản xuất vật liệu nỗ công nghiệp 1. Sửa đổi Điều 1 như sau: “Điều 1. Phạm vi điều chỉnh",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Điều khoản thi hành 1. Thông tư này có hiệu lực ké từ ngàyÁ€ tháng 01 năm 2021. 2. Trong quá trình thực hiện, các văn bản quy phạm pháp luật dẫn chiếu dé áp dụng trong Thông tư được sửa đổi, bổ sung hoặc thay thế bằng các văn bản mới thì được dẫn chiếu áp dụng theo các văn bản mới đó. 3. Trong quá trình thực hiện nếu có vướng mắc, đề nghị phản ánh về Bộ tf Thương dé nghiên cứu giải yeh",
+            "trang_pdf": 2
+          }
+        ]
       },
       "ghi_chu": "Sửa đổi Thông tư 13/2018/TT-BCT về quản lý, sử dụng vật liệu nổ công nghiệp, tiền chất thuốc nổ.",
-      "toan_van": "raw/download/datafiles.chinhphu.vn/31-2020-tt-bct.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/31-2020-tt-bct.pdf",
+        "raw/ocr/31-2020-tt-bct.ocr.txt"
+      ],
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=202350",
@@ -74763,9 +75431,39 @@
         "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=196257), toàn văn PDF đính kèm (34-bnnptnt.pdf, Thứ trưởng Lê Quốc Doanh ký) và CSDL quốc gia vbpl.vn (ItemID=134291): ban hành 16-11-2018, có hiệu lực từ 01-01-2019 theo khoản 1 Điều 4; sửa đổi, bổ sung một số điều của Thông tư 33/2014/TT-BNNPTNT (Điều 1) và Thông tư 20/2017/TT-BNNPTNT (Điều 2). Hết hiệu lực một phần từ 16-05-2024 khi bị Thông tư 03/2024/TT-BNNPTNT ngày 01-04-2024 (docid=210131, Điều 1 và Điều 3) bãi bỏ một số quy định; đã được hợp nhất tại 19/VBHN-BNNPTNT ngày 27-05-2024.",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Sửa đổi, bd sung một số điều của Thông tư số 33/2014/TT- BNNPTNT ngày 30 ngày 10 tháng 2014 của Bộ trưởng Bộ Nông nghiệp và _ Phát triển nông thôn quy định trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật 1. Điều | được sửa đổi, bd sung như sau: “Điều 1. Phạm vi điều chỉnh Thông tư này quy định về:",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Sửa đỗi, bd sung Thông tư số 20/2017/TT-BNNPTNT ngày 10 tháng 11 năm 2017 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn hướng dẫn thực hiện Nghị định số 39/2017/NĐ-CP ngày 04 tháng 4 năm 2017 của Chính phủ về quan lý thức ăn chăn nuôi, thủy sẵn 1. Bố sung khoản 2a, khoản 3a Điều 9 như sau:",
+            "trang_pdf": 4
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2019. 2. Bãi bỏ Điều 1 Thông tư số 30/2017/TT-BNNPTNT ngày 29 tháng 12 năm 2017 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn sửa đổi, bổ sung một số điều của Thông tư số 33/2014/TT-BNNPINT ngày 30 tháng 10 năm 2014 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khâu, quá cảnh và sau",
+            "trang_pdf": 5
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Điều 4. Điều khoản chuyển tiếp 1. Trong thời gian chưa hoàn thiện xong phần mềm để thực hiện đồng -thời thủ tục kiểm dịch thực vật và kiểm tra chất lượng thức ăn chăn nuôi, thức ăn thủy sản có nguồn gốc thực vật nhập khẩu trên Cơ chế một cửa Quốc gia, Tổng cục Thủy sản, Cục Chăn nuôi tiếp tục thực hiện thủ tục hành chính có liên quan đến kiểm tra nhà nước về chất lượng thức ăn chăn nuôi, thức ăn thủy sản qua Cơ chế một cửa Quốc gia trong thời",
+            "trang_pdf": 6
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Điều 5. Té chức thực hiện 1. Cục trưởng Cục Bảo vệ thực vật, Tổng cục trưởng Tổng cục Thủy sản, Cục trưởng Cục Chăn nuôi và Thủ trưởng các đơn vi, tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Thông tư này. 2. Trong quá trình thực hiện Thông tư này, nếu có khó khăn, vướng mắc, đề nghị cơ quan, tổ chức, cá nhân phản ánh về Bộ Nông nghiệp và Phát triển nông thôn dé xem xét, sửa đôi, bé sung./.",
+            "trang_pdf": 7
+          }
+        ]
       },
-      "toan_van": "raw/download/datafiles.chinhphu.vn/34-2018-tt-bnnptnt.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/34-2018-tt-bnnptnt.pdf",
+        "raw/ocr/34-2018-tt-bnnptnt.ocr.txt"
+      ],
       "slug": "34-2018-tt-bnnptnt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -85207,10 +85905,45 @@
         "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=212924) và toàn văn PDF ký số (40-1cp.signed.pdf): ban hành 26-02-2025, có hiệu lực từ 01-03-2025 (thay thế Nghị định 96/2022/NĐ-CP); đang còn hiệu lực.",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Vị trí và chức năng Bộ Công Thương là cơ quan của Chính phủ, thực hiện chức năng quản lý nhà nước về công nghiệp và thương mại, bao gôm các ngành và lĩnh vực: Điện, than, dầu khí, năng lượng mới, năng lượng tái tạo, sử dụng năng lượng tiết kiệm và hiệu quả, hóa chất, vật liệu nỗ công nghiệp, công nghiệp cơ khí, công nghiệp luyện kim, công nghiệp khai thác mỏ và chế biến khoáng sản, công nghiệp tiêu dùng, công nghiệp thực phẩm, công",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Nhiệm vụ và quyền hạn Bộ Công Thương thực hiện nhiệm vụ, quyền hạn theo quy định tại Luật Tổ chức Chính phủ, các quy định của Chính phủ về chức năng, nhiệm vụ, quyền hạn và-cơ cau tô chức của bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ và những nhiệm vụ, quyền hạn cụ thé sau đây:",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Cơ cầu tô chức 1. Vụ Kế hoạch, Tài chính và Quản lý doanh nghiệp. 2. Vụ Phát triển thị trường nước ngoài. 3. Vụ Chính sách thương mại đa biên. 4. Vụ Dầu khí và Than. 5. Vụ Tổ chức cán bộ. 6. Vụ Pháp chế. 7. Thanh tra bộ. §. Văn phòng bộ. 9. Ủy ban Cạnh tranh quốc gia.",
+            "trang_pdf": 13
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Điều 4. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành ké từ ngày 01 tháng 3 năm 2025; thay thé Nghị định số 96/2022/NĐ-CP ngày 29 tháng 11 năm 2022 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cầu té chức của Bộ Công Thương.",
+            "trang_pdf": 14
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Điều 5. Điều khoản chuyển tiếp Cơ quan Quản lý thị trường các cấp tiếp tục thực hiện chức năng, nhiệm vụ, quyền hạn theo quy định pháp luật hiện hành đến khi chuyền giao Cục Quản lý thị trường cấp tỉnh thuộc Tổng cục Quản lý thị trường về Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương;",
+            "trang_pdf": 15
+          },
+          {
+            "dieu": 6,
+            "noi_dung": "Điều 6. Trách nhiệm thi hành Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc ' Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương chịu trách nhiệm thi hành Nghị định này:",
+            "trang_pdf": 15
+          }
+        ]
       },
       "ghi_chu": "Nghị định hiện hành quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương từ 01-03-2025.",
-      "toan_van": "raw/download/datafiles.chinhphu.vn/40-2025-nd-cp.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/40-2025-nd-cp.pdf",
+        "raw/ocr/40-2025-nd-cp.ocr.txt"
+      ],
       "slug": "40-2025-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -89820,10 +90553,25 @@
         "pham_vi": "Đối chiếu toàn văn PDF ký số của Bộ Công Thương trên Cổng thông tin điện tử Hải quan (files.customs.gov.vn, 42_2026_TT_BCT_29_07_2026.pdf, 19 trang, Thứ trưởng Nguyễn Sinh Nhật Tân ký ngày 29-07-2026): Thông tư số 42/2026/TT-BCT quy định Danh mục chi tiết hàng hóa lưỡng dụng thuộc thẩm quyền quản lý của Bộ Công Thương (thực hiện khoản 2 Điều 7 Nghị định 259/2025/NĐ-CP); khoản 1 Điều 2 quy định có hiệu lực thi hành từ ngày 12-09-2026, đang còn hiệu lực.",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-15",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Danh mục chỉ tiết hàng hóa lưỡng dụng thuộc thấm quyền quản lý của Bộ Công Thương Ban hành Danh mục chỉ tiết hàng hóa lưỡng dụng thuộc thâm quyền quản lý của Bộ Công Thương thực hiện khoản 2 Điều 7 Nghị định số 259/2025/ND- CP tại Phụ lục kèm theo Thông tư này.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kế từ ngày AZ tháng 3 năm 2026. 2. Trong quá trình thực hiện Thông tư này, nếu phát sinh vướng mắc, thương nhân, các cơ quan, tô chức có liên quan phản ánh băng văn bản về Bộ",
+            "trang_pdf": 1
+          }
+        ]
       },
       "ghi_chu": "Thông tư quy định Danh mục chi tiết hàng hóa lưỡng dụng thuộc thẩm quyền quản lý của Bộ Công Thương theo khoản 2 Điều 7 Nghị định 259/2025/NĐ-CP (ban hành 29-07-2026, hiệu lực 12-09-2026 theo khoản 1 Điều 2; Phụ lục mô tả đặc tính kỹ thuật hàng lưỡng dụng không gắn mã HS 8 số).",
-      "toan_van": "raw/download/files.customs.gov.vn/42-2026-tt-bct.pdf",
+      "toan_van": [
+        "raw/download/files.customs.gov.vn/42-2026-tt-bct.pdf",
+        "raw/ocr/42-2026-tt-bct.ocr.txt"
+      ],
       "slug": "42-2026-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -93255,10 +94003,65 @@
         "pham_vi": "đối chiếu thẻ vanban.chinhphu.vn (docid=199721) và tulieuvankien.dangcongsan.vn: số hiệu, tên nguyên văn, cơ quan Chính phủ (ký Nguyễn Xuân Phúc), ngày ban hành 09-04-2020, có hiệu lực từ 01-06-2020; đối chiếu còn hiệu lực về thủ tục hải quan đối với hàng hóa quá cảnh qua Hệ thống quá cảnh Hải quan ASEAN (ACTS)",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh Nghị định này quy định về thủ tục, kiểm tra, giám sát hải quan đối với hàng hóa quá cảnh thông qua Hệ thống quá cảnh Hải quan ASEAN (sau đây gọi là Hệ thống ACTS); chế độ ưu tiên đối với doanh nghiệp thực hiện hoạt động quá cảnh hàng hóa thông qua Hệ thống ACTS; bảo lãnh, đặt cọc và thu hồi nợ thuế hải quan đối với hàng hóa quá cảnh thông qua Hệ thống ACTS.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Đối tượng áp dụng 1. Tế chức, cá nhân thực hiện quá cảnh hàng hóa thông qua Hệ thống ACTS. 2. Tổ chức, cá nhân có quyền và nghĩa vụ liên quan. 3. Cơ quan hải quan, công chức hải quan.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Giải thích từ ngữ Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: 1. Hệ thống ACTS là hệ thống công nghệ thông tin tích hợp do các nước",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 9,
+            "noi_dung": "Điều 9. Thủ tục hải quan đối với hàng hóa quá ‹ cảnh thông qua Hệ thống ACTS từ các nước ngoài ASEAN qua lãnh thé Việt Nam đến các nước thành viên ASEAN 1. Hồ sơ hải quan: a) Tờ khai quá cảnh hải quan theo các chỉ tiêu thông tin do Bộ Tài chính ban hành; b) Giấy phép quá cảnh hàng hóa trong trường hợp pháp luật Việt Nam quy định phải có giây phép quá cảnh hàng hóa: 01 bản chính;",
+            "trang_pdf": 9
+          },
+          {
+            "dieu": 13,
+            "noi_dung": "Điều 13. Thủ tục hải quan đối với hàng hóa quá cảnh từ các nước thành viên ASEAN qua lãnh thé Việt Nam đến các nước thành viên ASEAN khác 1. Hồ sơ hải quan: a) Chứng từ TAD (trường hợp Hệ thống ACTS gặp sự cố thì phải có xác nhận của cơ quan hải quan các nước ASEAN tham gia hành trình vận chuyên hàng hóa quá cảnh); b) Giấy phép quá cảnh hàng hóa trong trường hợp pháp luật Việt Nam quy định phải có giây phép quá cảnh hàng hóa: 01 bản chính;",
+            "trang_pdf": 13
+          },
+          {
+            "dieu": 18,
+            "noi_dung": "Điều 18. Hệ thống ACTS 1. Hệ thống ACTS do Tổng cục Hải quan xây dựng, quản lý và vận hành trên cơ sở các tài liệu kỹ thuật được thống nhất giữa các quốc gia thành viên ASEAN tham gia Nghị định thư 7. 2. Các giao dịch điện tử thực hiện thông qua Hệ thống ACTS bao gồm: a) Khai, nhận, phản hồi thông tin về thực hiện thủ tục quá cảnh hàng hóa; b) Chuyển kết qua xử lý tờ khai quá cảnh hai quan tới người khai hải quan;",
+            "trang_pdf": 19
+          },
+          {
+            "dieu": 23,
+            "noi_dung": "Điều 23. Xứ lý sự cố Trường hợp Hệ thống ACTS có sự cố không thể trao đổi, cung cấp thông tin dưới hình thức điện tử:",
+            "trang_pdf": 22
+          },
+          {
+            "dieu": 28,
+            "noi_dung": "Điều 28. Hủy bỏ bảo lãnh 1. Khi hủy bỏ bảo lãnh một hành trình hoặc bảo lãnh nhiều hành trình, người bảo lãnh thông báo theo mẫu do Bộ Tài chính ban hành gửi cơ quan hải quan nơi đăng ký tờ khai quá cảnh hải quan qua đường bưu chính hoặc qua hệ thống dữ liệu điện tử về việc hủy bỏ bảo lãnh.",
+            "trang_pdf": 29
+          },
+          {
+            "dieu": 32,
+            "noi_dung": "Điều 32. Điều kiện áp dụng chế độ ưu tiên Doanh nghiệp quá cảnh được áp dụng, chế độ ưu tiên khi thực hiện quá cảnh hàng hóa thông qua Hệ thống ACTS nếu đáp ứng đủ các điều kiện sau: 1. Điều kiện về trụ sở của doanh nghiệp:",
+            "trang_pdf": 33
+          },
+          {
+            "dieu": 38,
+            "noi_dung": "Điều 38. Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 01 tháng 6 năm 2020.",
+            "trang_pdf": 38
+          }
+        ]
       },
       "ghi_chu": "Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Liên quan XNK trực tiếp: thủ tục hải quan, kiểm tra/giám sát hải quan đối với hàng hóa quá cảnh qua Hệ thống quá cảnh Hải quan ASEAN (ACTS, thực hiện Nghị định thư 7 ASEAN).",
-      "toan_van": "raw/download/datafiles.chinhphu.vn/46-2020-nd-cp.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/46-2020-nd-cp.pdf",
+        "raw/ocr/46-2020-nd-cp.ocr.txt"
+      ],
       "slug": "46-2020-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -96136,10 +96939,65 @@
         "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=179820), PDF ký số (49-btc.signed.pdf) và Thông tư 142/2026/TT-BTC: ban hành 14-04-2015, có hiệu lực từ 29-05-2015; đang còn hiệu lực (được sửa đổi, bổ sung bởi TT 56/2019/TT-BTC, TT 29/2025/TT-BTC và TT 142/2026/TT-BTC).",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh . Théng tư này quy định thủ tục hai quan đối với thư, gói, kiện hàng hóa _xuât khẩu, nhập khâu gửi qua mạng bưu chính được cung ứng bởi doanh nghiệp được chỉ định (sau đây gọi chung là bưư gửi).",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Đối tượng áp dụng . 1. Doanh nghiệp được chỉ định theo quy định của Luật Bưu chính (sau đây gọi tắt là doanh nghiệp); 2. Cơ quan, tổ chức, cá nhân có bưu gửi xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính; 3. Cơ quan Hải quan; công chức hải quan.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Địa điểm làm thủ tục hải quan. Bưu gửi được làm thủ tục hải quan tại trụ sở Chi cục Hải quan Bưu điện, trụ sở Chỉ 'cục Hải quan chuyên phát nhanh, trụ sở Chỉ cục Hải quan cửa khẩu sân bay quôc tế (sau đây gọi tắt là Chi cục Hải quan).",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 6,
+            "noi_dung": "Điều 6. Thủ tục hải quan giấy đối với bưu gửi xuất khẩu, nhập khâu 1. Thủ tục đối với bưu gửi xuất khâu, nhập khẩu không có thuế, hoặc được miễn thuê (dưới đây gọi là bưu gửi xuât khâu, nhập khâu không thuê) a) Trách nhiệm của người khai hải quan:",
+            "trang_pdf": 6
+          },
+          {
+            "dieu": 8,
+            "noi_dung": "Điều 8. Khai hải quan đối với hàng bưu chính thu gom ngoài lãnh thô đưa vào Việt Nam thực hiện phân loại, chia chọn chuyển tiếp đi quốc tế",
+            "trang_pdf": 9
+          },
+          {
+            "dieu": 10,
+            "noi_dung": "Điều 10. Quy định đối với bưu gửi xuất khẩu, nhập khẩu chuyển cửa khẩu 1. Bưu gửi xuất khẩu chuyên cửa khẩu là bưu gửi xuất khẩu đã hoàn thành thủ tục hải quan được vận chuyển từ Chỉ cục Hải quan (Chỉ cục Hải quan chuyên phát nhanh, Chỉ cục Hải quan Bưu điện hoặc Chi cục Hải quan cửa khẩu sân bay quốc tế) nơi làm thủ tục xuất khẩu đến Chi cục Hải quan cửa khẩu xuất dé xuất khâu bưu gửi. -",
+            "trang_pdf": 11
+          },
+          {
+            "dieu": 11,
+            "noi_dung": "Điều 11. „hủ tục hải quan đối với bưu gửi xuất khẩu, nhập khẩu . chuyển cửa khẩu 1. Địa điểm làm thủ tục hải quan: Chỉ cục Hải quan nơi quản lý bưu gửi bắt đầu được vận chuyển đi (đối với bưu gửi xuất khẩu), Chi cục Hải quan nơi cuối cùng bưu gửi được vận chuyển đến (đối với bưu gửi nhập khẩu). 2. Hồ sơ hải quan: a) Tờ khai vận chuyển độc lập theo các chỉ tiêu thông tin quy định tại",
+            "trang_pdf": 12
+          },
+          {
+            "dieu": 13,
+            "noi_dung": "Điều 13. Hồ sơ thành lập địa điểm kiểm tra, giảm sát hải quan do doanh nghiệp kinh doanh làm chủ đầu tư Hồ sơ thành lập địa điểm gồm 02 bộ, mỗi bộ có giấy tờ sau đây: 1. Văn bản đề nghị thành lập địa điểm của doanh nghiệp trong đó xác định rõ những nội dung gồm: sự cần thiết phải thành lập, vị trí địa điểm dự kiến thành lập, diện tích, các điều kiện về co sở vật chất, kỹ thuật, hạ tầng: 01 bản chính.",
+            "trang_pdf": 13
+          },
+          {
+            "dieu": 15,
+            "noi_dung": "Điều 15. Chấm đứt, tạm dừng hoạt động của địa điểm 1. Chấm dứt hoạt động của địa điểm a) Các trường hợp chấm dứt hoạt động a.1) Doanh nghiệp có văn bản đề nghị cham đứt hoạt động; a.2) Quá thời hạn 06 tháng ké từ khi có quyết định thành lập nhưng . doanh nghiệp không đưa vào hoạt động mà không có ly do chính đáng; a.3) Trường hợp địa điểm không đáp ứng các điều kiện về kiểm tra, giám sát hải quan theo quy định tại Điều 12 Thông tư này;",
+            "trang_pdf": 14
+          },
+          {
+            "dieu": 19,
+            "noi_dung": "-_1, Tổng cục trưởng Tổng cục Hải quan chỉ đạo Cục trưởng Cục Hải quan các tỉnh, thành phố liên quan chịu trách nhiệm tổ chức quan lý, theo đõi và thực hiện nội dung quy định tại Thông tư này. 2. Đối với tờ khai hải quan đã đăng ký trước ngày Thông tư này có hiệu lực thì thực hiện theo quy định tại Thông tư số 99/2010/TT-BTC ngày 09” tháng 07 năm 2010 của Bộ trưởng Bộ Tài chính quy định thủ tục hải quan đối",
+            "trang_pdf": 18
+          }
+        ]
       },
       "ghi_chu": "Thông tư quy định thủ tục hải quan đối với hàng hóa xuất nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định; được sửa đổi, bổ sung tại Điều 1 và Điều 3 TT 142/2026/TT-BTC.",
-      "toan_van": "raw/download/datafiles.chinhphu.vn/49-2015-tt-btc.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/49-2015-tt-btc.pdf",
+        "raw/ocr/49-2015-tt-btc.ocr.txt"
+      ],
       "slug": "49-2015-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -114675,14 +115533,69 @@
         "pham_vi": "thẻ vanban.chinhphu.vn (docid=214610) và quan hệ trong sổ: Luật Hóa chất 69/2025/QH15 ban hành 14-06-2025, có hiệu lực từ 01-01-2026, thay thế Luật Hóa chất 06/2007/QH12; đối chiếu đang còn hiệu lực, được hướng dẫn bởi NĐ 26/2026/NĐ-CP và TT 01/2026/TT-BCT",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh Luật này quy định về hóa chất, quản lý hoạt động hóa chất; phát triển ngành công nghiệp hóa chất; thông tin hóa chất, hóa chất nguy hiểm trong sản phẩm, hàng hóa; an toàn, an ninh trong hoạt động hóa chất.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau: 1. Hóa chất là chất, hỗn hợp chất tự nhiên hoặc được con người khai thác, tạo ra. _ 2. Chất là đơn chất, hợp chất bao gồm cả tạp chất sinh ra trong quá trình chế biến; những phụ gia cần thiết để bảo đảm đặc tính lý, hóa én định; không bao gồm dung môi mà khi tách ra thì tính chất của chất đó không thay đổi.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Các hành vi bị nghiêm cấm 1. Chiếm đoạt hóa chất; sản xuất, kinh doanh, vận chuyển, tồn trữ, sử dụng, mua, bán, trao đôi, tặng cho, gửi, mượn, cho mượn, thuê, cho thuê, câm cỗ hóa chất trái pháp luật. 2. Chiém doat, mua, ban, trao đôi, tặng cho, mượn, cho mượn, thuê, cho thuê, cam có, làm giả, sửa chữa, tây xóa giấy phép, giấy chứng nhận, chứng chỉ về hóa chất.",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 10,
+            "noi_dung": "Điều 10. Sản xuất hóa chất 1. Tổ chức sản xuất hóa chất phải đáp ứng các điều kiện sau đây: a) Được thành lập theo quy định của pháp luật; b) Có day đủ tài liệu pháp lý, tài liệu an toàn, cơ sở vật chất - kỹ thuật, năng lực chuyên môn đáp ứng yêu câu dé thực hiện hoạt động sản xuât hóa chat; c) Đáp ứng quy định tại Điều 33 và Điều 35 của Luật này;",
+            "trang_pdf": 8
+          },
+          {
+            "dieu": 16,
+            "noi_dung": "Điều 16. Xử lý chất thải từ hoạt động hóa chất 1. Tổ chức, cá nhân thực hiện hoạt động hóa chất phải xử lý chất thai, bao bì, thiết bị chứa hóa chất thải bỏ từ hoạt động hóa chất và các vật dụng khác có liên quan đến quá trình sử đụng có chứa yêu tô độc hại, dễ cháy, dễ nỗ, gây ăn mon, gây nhiễm độc hoặc có đặc tính nguy hại dé gây 6 nhiễm môi trường và các đặc tính nguy hại khác theo quy định của Luật này, quy định của pháp luật về bảo vệ môi",
+            "trang_pdf": 14
+          },
+          {
+            "dieu": 22,
+            "noi_dung": "Điều 22. Quản lý hóa chất mới 1. Hóa chất mới sau khi được đăng ký tại cơ quan nhà nước có thâm quyền được phân loại và quản lý như hóa chất cần kiểm soát đặc biệt. 2. Trong thời hạn 05 năm kể từ ngày hóa chất mới được đăng ký, hằng năm, tô chức, cá nhân có hoạt động hóa chất liên quan đến hóa chất mới phải cập nhật thông tin, dir liệu vào Cơ sở dữ liệu chuyên ngành hóa chất về quá trình hoạt động với hóa chất mới.",
+            "trang_pdf": 17
+          },
+          {
+            "dieu": 28,
+            "noi_dung": "Điều 28. Nghĩa vụ cung cấp thông tin 1. Tổ chức, cá nhân hoạt động hóa chất có nghĩa vụ cung cấp đầy đủ, kịp thời, chính xác thông tin theo yêu câu của cơ quan có thầm quyền trong các trường hợp sau đây: a) Sự có hóa chất xảy ra trong hoạt động hóa chat; b) Phục vụ yêu cầu phòng ngừa thảm họa tự nhiên có khả năng gây ra sự cố hóa chất trong hoạt động hóa chất;",
+            "trang_pdf": 19
+          },
+          {
+            "dieu": 35,
+            "noi_dung": "Điều 35. Khoảng cách an toàn 1. Khoảng cách an toàn là khoảng cách cần bảo đảm từ một công trình hóa chất đến khu dân cư, công trình công cộng, công trình quốc phòng, khu quân Sự, công trình an ninh, di tích lịch SỬ - văn hóa, danh lam thắng cảnh, khu bảo tồn thiên nhiên, khu vực khai thác nguồn nước sinh hoạt nhằm hạn chế tối đa tác động tiêu cực đến con người, cơ sở vật chất, tài sản, môi trường trong điều kiện hoạt động bình thường.",
+            "trang_pdf": 23
+          },
+          {
+            "dieu": 41,
+            "noi_dung": "Điều 41. Phối hợp phòng ngừa, ứng phó sự cỗ hóa chất 1. Sự cố hóa chất được phân cấp như sau: a) Sự cố hóa chất cấp cơ sở là sự có hóa chất xảy ra trong phạm vi địa giới của cơ sở hóa chất và khi diễn biến, mức độ thiệt hại của sự cố năm trong khả năng, điều kiện ứng phó, khắc phục hậu quả của lực lượng ứng phó tại cơ sở hóa chất;",
+            "trang_pdf": 25
+          },
+          {
+            "dieu": 48,
+            "noi_dung": "Điều 48. Quy định chuyển tiếp 1. Báo cáo nghiên cứu khả thi đầu tư xây dựng, báo cáo kinh tế - kỹ thuật đầu tư xây dựng dự án hóa chất đã được trình cơ quan có thẩm quyền thấm định nhưng đến ngày Luật này có hiệu lực thi hành chưa có văn bản thâm định thì việc thẩm định tiếp tục thực hiện theo quy định của pháp luật về xây dựng.",
+            "trang_pdf": 28
+          }
+        ]
       },
       "ghi_chu": "Thay thế Luật Hóa chất 06/2007/QH12; nghị định hướng dẫn thi hành (thay NĐ 26/2026/NĐ-CP) đang soạn thảo — theo dõi khi ban hành.",
       "tu_khoa": [
         "hoa-chat",
         "tien-chat"
       ],
-      "toan_van": "raw/download/datafiles.chinhphu.vn/69-2025-qh15.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/69-2025-qh15.pdf",
+        "raw/ocr/69-2025-qh15.ocr.txt"
+      ],
       "slug": "69-2025-qh15",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -118386,10 +119299,30 @@
         "pham_vi": "PDF chữ ký số datafiles.chinhphu.vn (11 trang, ký Thứ trưởng Nguyễn Sinh Nhật Tân ngày 14-09-2026) + congbao.chinhphu.vn (Công báo số 512-VBHN) + vanban.chinhphu.vn docid=219509 + PDF moit.gov.vn: 3 Điều + Phụ lục xác thực văn bản hợp nhất. Hợp nhất Thông tư 08/2023/TT-BCT ngày 31-03-2023 sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu (hiệu lực 16-05-2023), được sửa đổi, bổ sung bởi: (1) Thông tư 43/2023/TT-BCT ngày 28-12-2023 (hiệu lực 16-02-2024), (2) Thông tư 41/2026/TT-BCT ngày 20-08-2026 (hiệu lực 07-10-2026), (3) Thông tư 48/2026/TT-BCT ngày 05-09-2026 (hiệu lực 05-09-2026). Đối chiếu đến 12-11-2026 là bản hợp nhất đang áp dụng.",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-12",
-        "boi": "tho-05-ai-live@ozvietnam"
+        "boi": "tho-05-ai-live@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Sửa đổi, bổ sung một số điều của Thông tư số 12/2018/TT-BCT ngày 15 tháng 6 năm 2018 của Bộ trưởng Bộ Công Thương, quy định chỉ tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 62/2018/NĐ- CP ngày 15 tháng 5 năm 2018 của Chính phủ quy định chỉ tiết một số điều của Luật Quản lý ngoại thương (sau đây gọi là Thông tư số 12/2018/TT-BCT) 12 (được bãi bỏ) 23 (được bãi bỏ)",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Sửa đỗi, bd sung một số điều của Thông tư số 41/2019/T T-BCT ngay 16 thang 12 năm, 2019 của Bộ trưởng Bộ Công Thương bo sung Danh mục chỉ tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương (Thông tư số 41/2019/TT- BCT) ! Thông tư số 43/2023/TT-BCT có căn cứ ban hành như sau: “Căn cứ Luật Phòng, chống tác hại của thuốc lá;",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Hiệu lực thi hanh‘ * Điều 7, Điều 8 Thông tư số 43/2023/TT- BCT, có hiệu lực kể từ ngày 12 tháng 02 năm 2024 quy định như sau: “Điều 7. Quy định chuyển tiếp L Trường hợp đã tiếp nhận hồ sơ đối với các thủ tục hành chính quy định tại Điều 2 của Thông tư này trước ngày Thông tư này có hiệu lực thì tiếp tục thực hiện theo quy định của pháp luật tại thời điểm tiếp nhận hồ sơ.",
+            "trang_pdf": 3
+          }
+        ]
       },
       "ghi_chu": "Trinh sát đêm 11/11, nạp toàn văn và đối chiếu hiệu lực ngày 12/11. LÕI tra cứu mã HS khai báo — cặp với 74/2026/VBHN-TT-BCT (TT bổ sung). Đã nối quan_he.hop_nhat với 08/2023/TT-BCT và 48/2026/TT-BCT đã có trong sổ; hai thông tư thành phần còn lại (43/2023/TT-BCT, 41/2026/TT-BCT) chưa ghi vào quan_he vì chưa có trong sổ.",
-      "toan_van": "raw/download/datafiles.chinhphu.vn/73-2026-vbhn-tt-bct.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/73-2026-vbhn-tt-bct.pdf",
+        "raw/ocr/73-2026-vbhn-tt-bct.ocr.txt"
+      ],
       "slug": "73-2026-vbhn-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -118994,10 +119927,55 @@
         "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=219510) và toàn văn PDF ký số (74-vbhn-bct.signed.pdf, 17 trang, 9 điều và các Phụ lục II, III, IV, V, VII, VIII, Thứ trưởng Nguyễn Sinh Nhật Tân ký xác thực ngày 14-09-2026): hợp nhất Thông tư 41/2019/TT-BCT ngày 16-12-2019 (hiệu lực 29-01-2020), được sửa đổi, bổ sung bởi Thông tư 23/2021/TT-BCT ngày 15-12-2021 (hiệu lực 01-02-2022), Thông tư 08/2023/TT-BCT ngày 31-03-2023 (hiệu lực 16-05-2023) và Thông tư 48/2026/TT-BCT ngày 05-09-2026 (hiệu lực 05-09-2026); đối chiếu đang là bản hợp nhất hiện hành",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Thông tư số 30/2018/TT-BCT ngày 01 thang 10 nam 2018 cua Bộ trưởng Bộ Công Thương quy định chi tiết một số điều của Nghị định số 107/2018/NĐ- CP ngày 15 thang 8 năm 2018 của Chính phủ về kinh doanh xuất khẩu gạo (Thông tư số 30/2018/TT-BCT) Ban hành kèm theo Thông tư này Phụ lục I - Danh mục chỉ tiết theo mã HS đối với thóc, gạo xuất khẩu quy định tại Thông tư số 30/2018/TT-BCT.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Thông tư số 10/201 1/TT-BCT ngày 30 tháng 3 năm 2011 của Bộ trưởng Bộ Công Thương sửa doi, bỗ sung, bãi bỏ một số quy ( định về thủ tục hành chính trong lĩnh vực xuất, nhập khẩu theo Nghị quyêt so 59/NQ-CP ngày 17 tháng 12 năm 2010 của Chính phủ về việc đơn giản hóa thủ tục hành chính thuộc phạm vi chức năng quản lý của Bộ Công Thương (Thông tư số 10/2011/TT-BCT)",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Điều 4. Thông tư số 38/2014/TT-BCT ngày 24 (háng 10 năm 2014 của Bộ trưởng Bộ Công Thương quy định chỉ tiết một số điều của Nghị định số ! Thông tư số 23/202 1/TT-BCT có căn cứ ban hành như sau: “Căn cứ Nghị định số 98/2017/NĐ-CP ngày 18 tháng 8 năm 2017 của Chính phủ quy định chức năng, nhiệm vụ, quyên hạn và cơ cấu tổ chức của Bộ Công Thương:",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 6,
+            "noi_dung": "Điều 6. Thông tư số 57/2018/TT-BCT ngày 26 tháng 12 năm 2018 của Bộ trưởng Bộ Công Thương quy định chỉ tiết một số điều của các Nghị định liên quan đến kinh doanh thuốc lá (Thông tư số 57/2018/TT-BCT) _1. Ban hành kèm theo Thông tư này Phụ lục VỊ - Danh mục chỉ tiết theo mã HS đôi với nguyên liệu thuôc lá, giây cuỗn điều thuốc lá quy định tại Thông tư số 57/2018/TT-BCT.",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 7,
+            "noi_dung": "Điều 7. Thông tư số 15/2013/TT-BCT ngày 15 tháng 7 năm 2013 của Bộ trưởng Bộ Công Thương quy định về xuất khẩu than (Thông tư số 15/2013/TT-BCT) ¬ oo.",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 8,
+            "noi_dung": "Điều 8. Nguyên tắc áp dụng danh mục 1. Trường hợp chỉ liệt kê mã HS 4 số thì toàn bộ các mã HS 8 số thuộc nhóm HS 4 sô này đêu được áp dụng. 2. Trường hợp chỉ liệt kê mã HS 6 số thì toàn bộ các mã HS 8 số thuộc phân nhóm HS 6 sô này déu được áp dụng. 3. Trường hợp liệt kê chi tiết đến mã HS 8 số thì chỉ mã HS 8 số đó mới được áp dụng.",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 9,
+            "noi_dung": "Điều 9. Hiệu lực thi hành 3 Điều này được bãi bỏ theo quy định tại khoản 2 Điều 7 của Thông tư số 23/2021/TT-BCT, có hiệu lực kể từ ngày 01 tháng 02 năm 2022. * Điều 7 của Thông tư số 23/2021/TT-BCT, có hiệu lực kẻ từ ngày 01 tháng 02 năm 2022 quy định như sau: Điều 7. Hiệu lực thi hành",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 21,
+            "noi_dung": "Điều 21. Điều khoản chuyển tiếp 1. Các Giấy phép do các cơ quan có thẩm quyên cap cho thương nhân theo quy định tại Thông tư số 12/2018/TT- BCT của Bộ trưởng Bộ Công Thương quy định chỉ tiết một số điều của | Luật Quản lý ngoại thương và Nghị định số 69/2018/ND- CP ngày 15 tháng 5 năm 2018 của Chính phú quy định chỉ tiết một số điều của Luật Quản lý ngoại thương;",
+            "trang_pdf": 4
+          }
+        ]
       },
       "ghi_chu": "Trinh sát đêm 7/11, đối chiếu nguồn A ngày 14/11. Bản hợp nhất danh mục mã HS XNK của BCT (cặp với 73/2026/VBHN-TT-BCT) — đã nối đủ quan_he.hop_nhat với 41/2019/TT-BCT, 23/2021/TT-BCT, 08/2023/TT-BCT và 48/2026/TT-BCT.",
-      "toan_van": "raw/download/datafiles.chinhphu.vn/74-2026-vbhn-tt-bct.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/74-2026-vbhn-tt-bct.pdf",
+        "raw/ocr/74-2026-vbhn-tt-bct.ocr.txt"
+      ],
       "slug": "74-2026-vbhn-tt-bct",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -120283,7 +121261,59 @@
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
         "boi": "tho-bo-ba-01@ozvietnam",
-        "ghi_chu": "Crawl từ vanban.chinhphu.vn docid=208887"
+        "ghi_chu": "Crawl từ vanban.chinhphu.vn docid=208887",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh 1. Nghị định này quy định việc quản lý nhập khẩu hàng hóa tân trang theo Hiệp định Đối tác Toàn diện và Tiên bộ xuyên Thái Bình Dương (sau đây gọi là Hiệp định CPTPP). 2. Nghị định này chỉ 4p dụng đối với việc nhập khẩu hàng hóa tân trang theo Hiệp định CPTPP và cùng chủng loại với hàng hóa đã qua sử dụng thuộc diện cắm nhập khẩu vào Việt Nam theo quy định pháp luật.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Đắi tượng áp dụng Nghị định này áp dụng đối với doanh nghiệp tân trang, cơ sở tân trang, chủ sở hữu nhãn hiệu, thương nhân nhập khẩu hàng hóa tân trang và các cơ quan, tổ chức, cá nhân có liên quan đến hoạt động nhập khẩu hàng hóa tân trang theo Hiệp định CPTPP.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Giải thích từ ngữ Trong Nghị định này, các thuật ngữ dưới đây được hiểu như sau: 1. Vật tư đã được phục hồi là một hoặc nhiều bộ phận riêng biệt (i) được tháo ra từ hàng hóa đã qua sử dụng, sau đó (ii) được làm sạch, kiểm tra chất lượng, thử nghiệm hoặc trải qua các công đoạn gia công, sửa chữa cần thiết khác để bảo đảm đưa vật tư đó trở lại tình trạng hoạt động tốt, chắc chắn và an toàn. 2. Hàng hóa tân trang là sản phẩm:",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 6,
+            "noi_dung": "Điều 6. Mã số tân trang 1. Mã số tân trang là mã định danh do Bộ Công Thương cấp cho doanh nghiệp tân trang hoặc chủ sở hữu nhãn hiệu là tổ chức. 2. Mã số tân trang được cấp cho doanh nghiệp tân trang hoặc chủ sở hữu nhãn hiệu chứng minh được năng lực tân trang, chế độ bảo hành và quyền sử dụng nhãn hiệu theo quy định tại Nghị định này. 3. Mã số tân trang có thời hạn hiệu lực tối đa là 5 năm kế từ ngày cấp.",
+            "trang_pdf": 4
+          },
+          {
+            "dieu": 9,
+            "noi_dung": "Điều 9. Yêu cầu đối với tài liệu thuyết minh việc hàng hóa tân trang đáp ứng được quy tắc xuất xứ theo Hiệp định CPTPP Tài liệu thuyết minh việc hàng hóa tân trang đáp ứng được quy tắc xuất xứ theo Hiệp định CPTPP tôi thiêu cân:",
+            "trang_pdf": 5
+          },
+          {
+            "dieu": 11,
+            "noi_dung": "Điều 11. Yêu cầu đối với văn bản của chủ sở hữu nhãn hiệu cho phép hàng hóa tân trang được sử dụng nhãn hiệu của hàng hóa ban đầu hoặc được sử dụng cho hàng hóa mà mình sở hữu nhãn hiệu Văn bản của chủ sở hữu nhãn hiệu nêu tại Điêu này tôi thiêu cân:",
+            "trang_pdf": 6
+          },
+          {
+            "dieu": 14,
+            "noi_dung": "Điều 14. Gia hạn hiệu lực Mã số tân trang 1. Doanh nghiệp có nhu cầu gia hạn hiệu lực Mã số tân trang gửi Đơn đề nghị gia hạn Mã số tân trang theo mẫu tại Phụ lục VII hoặc Phụ lục VII Nghị định này tới Bộ Công Thương it nhất 90 ngày trước ngày Mã số tân trang hết hiệu lực. 2. Thời hạn xử lý Don dé nghị gia hạn Mã số tân trang là không quá 07 ngày làm việc trong trường hợp không sửa đổi, bd sung thông tin so với Mã số tân trang đã được cấp.",
+            "trang_pdf": 8
+          },
+          {
+            "dieu": 16,
+            "noi_dung": "Điều 16. Đình chỉ, thu hồi Mã số tân trang 1. Bộ Công Thương thu hồi Mã số tân trang trong những trường hợp sau:",
+            "trang_pdf": 9
+          },
+          {
+            "dieu": 19,
+            "noi_dung": "Điều 19. Thủ tục nhập khẩu bàng hóa tân trang Ngoài thủ tục hải quan theo quy định, thương nhân nhập khẩu hàng hóa tân trang nộp hoặc xuất trình cho cơ quan Hải quan các văn bản sau: 1. Chứng từ chứng nhận xuất xứ hàng hóa theo Hiệp định CPTPP (nộp hoặc xuất trình theo quy định pháp luật)",
+            "trang_pdf": 13
+          },
+          {
+            "dieu": 22,
+            "noi_dung": "Điều 22. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2024.",
+            "trang_pdf": 14
+          }
+        ]
       },
       "nguon": [
         {
@@ -120295,7 +121325,10 @@
           "truy_cap": "2026-10-10"
         }
       ],
-      "toan_van": "raw/download/datafiles.chinhphu.vn/77-2023-nd-cp.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/77-2023-nd-cp.pdf",
+        "raw/ocr/77-2023-nd-cp.ocr.txt"
+      ],
       "slug": "77-2023-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -123964,10 +124997,65 @@
         "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=183198) và toàn văn PDF ký số (88.signed.pdf): thông qua ngày 20-11-2015, có hiệu lực từ 01-01-2017; đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Luật 56/2024/QH15).",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh | Luat nay quy dinh về nội dung công tác kế toán, tổ chức bộ máy kế toán, người làm kế toán, hoạt động kinh doanh dịch vụ kế toán, quản lý nhà nước về kế toán và tổ chức nghề nghiệp về kế toán.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Đối tượng áp dụng 1. Cơ quan có nhiệm vụ thu, chỉ ngân sách nhà nước các cấp. 2. Cơ quan nhà nước, tổ chức, đơn vi sự nghiệp sử dụng ngân sách nhà nước. 3. Tổ chức, đơn vị sự nghiệp không sử dụng ngân sách nhà nước. 4. Doanh nghiệp được thành lập và hoạt động theo pháp luật Việt Nam; chỉ nhánh, văn phòng đại diện của doanh nghiệp nước ngoài hoạt động tại Việt Nam. 5. Hợp tác xã, liên hiệp hợp tác xã. 6. Hộ kinh doanh, tổ hợp tác.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau: 1. Báo cáo tài chính là hệ thống thông tin kinh tế, tài chính của đơn vị kế toán được trình bày theo biểu mẫu quy định tại chuẩn mực kế toán và chế độ kế toán.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 14,
+            "noi_dung": "Điều 14. Giá trị của tài liệu, số liệu kế toán 1. Tài liệu, số liệu kế toán có giá trị pháp lý của đơn vị kế toán và được sử dụng dé công bố, công khai theo quy định của pháp luật. 2. Tài liệu, số liệu kế toán là cơ sở để xây dựng và xét duyệt kế hoạch, dự toán, quyết toán, xem xét, xử lý hành vi vi phạm pháp luật.",
+            "trang_pdf": 8
+          },
+          {
+            "dieu": 23,
+            "noi_dung": "Điều 23. Lựa chọn áp dụng hệ thống tài khoản kế toán 1. Đơn vị kế toán phải căn cứ vào hệ thống tài khoản kế toán do Bộ Tài chính quy định để chọn hệ thống tài khoản kế toán áp dụng ở đơn vị mình. Ae",
+            "trang_pdf": 11
+          },
+          {
+            "dieu": 33,
+            "noi_dung": "Điều 33. Kiếm toán báo cáo tài chính 1. Báo cáo tài chính năm của đơn vị kế toán mà pháp luật quy định phải kiểm toán thì phải được kiểm toán trước khi nộp cho cơ quan nha nước có thâm quyền và trước khi công khai. AY",
+            "trang_pdf": 16
+          },
+          {
+            "dieu": 43,
+            "noi_dung": "Điều 43. Công việc kế toán trong trường hợp chia đơn vị kế toán 1. Đơn vị kế toán bị chia thành các đơn vị kế toán mới phải thực hiện các công việc sau đây: a) Khóa số kế toán, kiểm kê tài sản, xác định nợ chưa thanh toán, lập báo cáo tài chính; b) Phân chia tài sản, nợ chưa thanh toán, lập biên bản ban giao và ghi số kế toán theo biên bản bàn giao; c) Ban giao tài liệu kế toán liên quan đến tài sản, nợ chưa thanh toán cho các đơn vị kê toán mới.",
+            "trang_pdf": 21
+          },
+          {
+            "dieu": 53,
+            "noi_dung": "Điều 53. Kế toán trưởng _1. Kế toán trưởng là người đứng đầu bộ máy kế toán của đơn vị có nhiệm vụ tô chức thực hiện công tác kê toán trong don vị kê toán.",
+            "trang_pdf": 24
+          },
+          {
+            "dieu": 62,
+            "noi_dung": "Điều 62. Thời hạn cấp Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kế toán 1. Trong thời hạn 15 ngày, kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ Tài chính cấp Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kê toán cho doanh nghiệp; trường hợp từ chối cấp thì phải trả lời bằng văn bản và nêu rõ lý do.",
+            "trang_pdf": 29
+          },
+          {
+            "dieu": 73,
+            "noi_dung": "Điều 73. Điều khoản chuyên tiếp 1. Chính phủ chuẩn bị các điều kiện cần thiết để bắt đầu việc lập báo cáo tài chính nhà nước theo quy định tại Điều 30 của Luật này chậm nhất là 24 tháng, ké từ ngày Luật này có hiệu lực.",
+            "trang_pdf": 35
+          }
+        ]
       },
       "ghi_chu": "Quy định về chứng từ kế toán, sổ kế toán, báo cáo tài chính phục vụ kiểm tra sau thông quan và quản lý thuế.",
-      "toan_van": "raw/download/datafiles.chinhphu.vn/88-2015-qh13.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/88-2015-qh13.pdf",
+        "raw/ocr/88-2015-qh13.ocr.txt"
+      ],
       "slug": "88-2015-qh13",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
@@ -125782,9 +126870,34 @@
         "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=204393, Phó Thủ tướng Lê Văn Thành ký thay Thủ tướng) và toàn văn PDF ký số (95.signed.pdf): số hiệu 95/2021/NĐ-CP, tiêu đề 'Sửa đổi, bổ sung một số điều của Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 về kinh doanh xăng dầu', ban hành ngày 01-11-2021, có hiệu lực thi hành từ ngày 02-01-2022; đang còn hiệu lực (sửa đổi, bổ sung Nghị định 83/2014/NĐ-CP và tiếp tục được sửa đổi, bổ sung một số điều bởi Nghị định 80/2023/NĐ-CP từ 17-11-2023)",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Sửa déi, bỗ sung một số điều của Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phú về kinh doanh xăng dầu 1. Khoản 2 Điều 2 được sửa đôi, bô sung như sau: “2. Nghị định này không áp dụng đối với thương nhân nhập khâu, xuất khẩu, sản xuất và pha chế các loại xăng dầu chuyên dùng cho nhu cầu riêng của mình với số lượng không quá 200 lít/kg/tháng và không lưu thông trên thị trường.”",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Hiệu lực thi hành 1. Nghị định này có hiệu lực từ ngày 02 tháng 01 năm 2022. _ 2. Bãi bỏ khoản 6 Điều 9, khoản 18 Điều 9, khoản 7 Điều 15, khoản 7 ‘Dieu 18, Điều 36, điểm e khoản 1 va điềm c khoản 2 Điêu 40 của Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ về kinh doanh xăng dau.",
+            "trang_pdf": 20
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Điều khoản chuyén tiếp 1. Thương nhân kinh doanh xăng dầu đã được cấp Giấy phép kinh doanh xuất khâu, nhập khẩu xăng dầu, các Giấy xác nhận kinh doanh xăng dầu, Giấy chứng nhận cửa hàng đủ điều kiện bán lẻ xăng dầu được tiếp tục hoạt động theo các điều kiện quy định tại Nghị định số 83/2014/NĐ-CP cho đến khi các Giấy phép, Giấy xác nhận, Giấy chứng nhận hết hiệu lực hoặc có sự thay đổi về điều kiện kinh doanh xăng dâu.",
+            "trang_pdf": 20
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Điều 4. Trách nhiệm thi hành và t6 chức thực hiện Nghị định 1. Bộ Công Thương, Bộ Tài chính phối hợp với các bộ ngành liên quan hướng dan thi hành Nghị định này.",
+            "trang_pdf": 20
+          }
+        ]
       },
-      "toan_van": "raw/download/datafiles.chinhphu.vn/95-2021-nd-cp.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/95-2021-nd-cp.pdf",
+        "raw/ocr/95-2021-nd-cp.ocr.txt"
+      ],
       "slug": "95-2021-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
@@ -126584,10 +127697,65 @@
         "pham_vi": "Đối chiếu nguồn bậc A trên vanban.chinhphu.vn (docid=204442) và congbao.chinhphu.vn (id=34803): Nghị định 98/2021/NĐ-CP quy định về quản lý trang thiết bị y tế (ban hành 08-11-2021, hiệu lực từ 01-01-2022), đã được sửa đổi, bổ sung một số điều từ ngày 15-03-2023 bởi Nghị định 07/2023/NĐ-CP và tiếp tục được dẫn chiếu làm căn cứ tại Thông tư 19/2024/TT-BYT, Thông tư 24/2026/TT-BYT (còn hiệu lực, hết hiệu lực một phần tại các điều khoản đã sửa đổi).",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-14",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh 1. Nghị định này quy định việc quản lý trang thiết bị y tế bao gồm: phân loại trang thiết bị y tế; sản xuất, nghiên cứu lâm sàng, lưu hành, mua bán, xuất khẩu, nhập khẩu, cung cấp dịch vụ trang thiết bị y tế; thông tin, quảng cáo trang thiết bị y tế; quan lý giá trang thiết bị y tế và quản lý, sử dung trang thiết bị y tế tại các cơ sở y tế. 2. Nghị định này không áp dụng đối với:",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Giải thích từ ngữ 1. Trang thiết bị y tế là các loại thiết bị, vật tư cấy ghép, dung cụ, vật liệu, thuốc thử và chất hiệu chuẩn in vitro, phần mềm (software) đáp ứng đồng thời các yêu cầu sau đây: a) Được sử dụng riêng lẻ hay phối hợp với nhau theo chỉ định của chủ sở hữu trang thiết bị y tế để phục vụ cho con người nhằm một hoặc nhiều mục đích sau đây:",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Nguyên tắc quản lý trang thiết bị y tế 1. Bảo dam chất lượng, an toàn và sử dụng hiệu quả trang thiết bị y tế. 2. Thông tin đầy đủ, chính xác, kịp thời về đặc tính kỹ thuật, công dụng của trang thiết bị y tế và các yếu tố nguy cơ có thé xảy ra đối với người sử dụng. 3. Bảo đảm truy xuất nguồn gốc của trang thiết bị y tế.",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 14,
+            "noi_dung": "Điều 14. Yêu cầu đối với cơ sở nhận nghiên cứu lâm sàng trang thiết bị y tế Cơ sở nhận nghiên cứu lâm sàng trang thiết bị y tế phải đáp ứng các yêu câu sau đây: 1. Là cơ sở có chức năng về nghiên cứu khoa học, độc lập đối với tổ chức, cá nhân có trang thiết bị y tê nghiên cứu lâm sàng. 2. Có địa điểm, phòng nghiên cứu lâm sàng, hệ thống quản lý chất",
+            "trang_pdf": 9
+          },
+          {
+            "dieu": 24,
+            "noi_dung": "Điều 24. Các trường hợp được miễn công bố tiêu chuẩn áp dung va miễn đăng ký lưu hành 1. Trang thiết bị y tế chỉ phục vụ cho mục đích nghiên cứu, thử nghiệm, kiểm định, kiểm nghiệm, khảo , nghiệm, đánh giá chất lượng, đào tạo hướng dẫn sử dụng, sửa chữa trang thiết bị y tế.",
+            "trang_pdf": 17
+          },
+          {
+            "dieu": 34,
+            "noi_dung": "Điều 34. Xứ lý đối với trường hop trang thiét bi y tế có cảnh báo về nguy cơ tiềm ẫn đe dọa nghiêm trọng đến sức khỏe cộng đồng hoặc có thê dẫn đến tử vong cho người sử dụng",
+            "trang_pdf": 31
+          },
+          {
+            "dieu": 45,
+            "noi_dung": "Điều 45. Nội dung, trách nhiệm kê khai giá trang thiết bị y tế 1. Nội dung kê khai giá trang thiết bị y tế: a) Tên, chủng loại trang thiết bị y tế; b) Nước sản xuất; c) Đơn vị tính; d) Gia vốn nhập khẩu đối với trang, thiết bị y tế nhập khẩu hoặc chỉ phí sản xuất đối với trang thiết biy tế sản xuất trong nước; đ) Lợi nhuận dự kiến; e) Giá bán tối đa của trang thiết bị y tế tương ứng với từng cấu hình, tính năng kỹ thuật theo đơn vị tính;",
+            "trang_pdf": 39
+          },
+          {
+            "dieu": 55,
+            "noi_dung": "Điều 55. Nguyên tắc kiểm định, hiệu chuẩn trang thiết bị y tẾ 1. Trang thiết bị y tế thuộc danh mục đo Bộ trưởng Bộ Y tế công bố phải kiểm định về an toàn và tính năng kỹ thuật trước khi đưa vào sử dụng (trừ trường hợp quy định tại Điều 57 Nghị định này), định kỳ, sau sửa chữa lớn. Việc kiểm định trang thiết bị y tế là phương tiện đo, thiết bị bức xạ thực hiện theo quy định tại khoản 2 Điều này.",
+            "trang_pdf": 47
+          },
+          {
+            "dieu": 65,
+            "noi_dung": "Điều 65. Quyền và trách nhiệm của cơ sở y tế trong việc quản lý, sử dụng trang thiết bị y tế 1. Cơ sở y tế có quyền: a) Yêu cầu chủ sở hữu số lưu hành hoặc cơ sở bảo hành được chứng nhận bởi chủ sở hữu trang thiệt bị y tê thực hiện việc bao dưỡng định kỳ trong thời hạn bảo hành; b) Yêu cầu bên bán cung cấp tài liệu kỹ thuật của trang thiết bị y tế;",
+            "trang_pdf": 52
+          },
+          {
+            "dieu": 76,
+            "noi_dung": "Điều 76. Điều khoán chuyển tiếp 1. Các trang thiết bị y tế đã được sản xuất tại Việt Nam hoặc đã được nhập khâu Việt Nam trước ngày Nghị định này có hiệu lực thi hành được tiép tục lưu hành đền khi bị thanh ly theo quy định pháp luật về quan lý, sử dụng tài sản công hoặc đên hệt thời hạn ghi trên giây chứng nhận đăng ký lưu hành hoặc đến hết hạn sử dụng của sản phẩm.",
+            "trang_pdf": 58
+          }
+        ]
       },
       "ghi_chu": "Nghị định nền tảng quản lý trang thiết bị y tế (TT-BYT, BYT). Áp dụng cho mọi TTBYT XNK từ 2022.",
-      "toan_van": "raw/download/datafiles.chinhphu.vn/98-2021-nd-cp.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/98-2021-nd-cp.pdf",
+        "raw/ocr/98-2021-nd-cp.ocr.txt"
+      ],
       "nguon": [
         {
           "url": "https://vanban.chinhphu.vn/?docid=204442&pageid=27160",
@@ -126994,7 +128162,59 @@
         "pham_vi": "Đối chiếu thẻ vanban.chinhphu.vn (docid=169530, Thủ tướng Nguyễn Tấn Dũng ký), toàn văn PDF đính kèm (99-nd.pdf) và CSDL quốc gia vbpl.vn (ItemID=170812): số hiệu 99/2013/NĐ-CP, tiêu đề 'Quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp', ban hành ngày 29-08-2013, có hiệu lực thi hành từ ngày 15-10-2013 (Điều 45, thay thế Nghị định 97/2010/NĐ-CP); đang còn hiệu lực (được sửa đổi, bổ sung một số điều bởi Nghị định 126/2021/NĐ-CP từ 01-03-2022, Nghị định 46/2024/NĐ-CP từ 01-07-2024 và Nghị định 186/2026/NĐ-CP từ 15-07-2026; được hướng dẫn thi hành bởi Thông tư 11/2015/TT-BKHCN và Thông tư 66/2026/TT-BKHCN)",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-21",
-        "boi": "tho-bo-ba-01@ozvietnam"
+        "boi": "tho-bo-ba-01@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh Nghị định này quy định về các hành vi vi phạm, hình thức xử phạt, mức phạt, biện pháp khắc phục hậu quả; thủ tục nộp đơn yêu cầu xử lý vi phạm, thấm quyên, thủ tục giải quyết đơn yêu cầu xử lý vi phạm; thấm quyền xử phạt và thi hành quyết định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Quy định về mức phạt tiền tối đa, thẩm quyền xử phạt đối với cá nhân, tổ chức 1. Mức phạt tiền đối với các hành vi quy định tại Chương II của Nghị định này là mức phạt tiền đối với cá nhân. Mức phạt tiền tối đa đối với cá nhân là 250.000.000 đồng. Đối với cùng một hành vi vi phạm. hành chính thì mức phat | tiền đối với tổ chức gấp 02 lần mức phạt tiền đối với cá nhân. Mức phạt tiền tối đa đối với tổ chức là 500.000.000 đồng.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Hình thức xử phạt, biện pháp khắc phục hậu quả 1. Đối với mỗi hành vi vi phạm hành chính trong lĩnh vực sở hữu công nghiệp, tổ chức, cá nhân vi phạm phải chịu một trong các hình thức xử phạt chính là cảnh cáo hoặc phạt tiền. 2. Tùy theo tính chất, mức độ vi phạm, tổ chức, cá nhân vi phạm còn có thé bị áp dụng một hoặc các hình thức xử phạt bé sung sau đây:",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 8,
+            "noi_dung": "Điều 8. Vi phạm quy định về giám định số hữu công nghiệp 1. Phạt cảnh cáo hoặc phạt tiền từ 500.000 đồng đến 1.000.000 đồng đối với một trong các hành vi sau đây: a) Vi phạm quy định về trình tự, thủ tục giám định, thời hạn giám định; b) Không có mặt theo giấy triệu tập của cơ quan trưng cầu giám định mà không có lý do chính đáng, không thực hiện việc giải thích kết luận giám định khi có yêu cầu của cơ quan trưng cầu giám định.",
+            "trang_pdf": 7
+          },
+          {
+            "dieu": 12,
+            "noi_dung": "Điều 12. Sản xuất, nhập khẩu, buôn bán, vận chuyển, tàng trữ để bán hàng hóa giả mạo nhãn hiệu, chỉ dân địa lý 1. Phạt tiền từ 4.000.000 đồng đến 8.000.000 đồng đôi với một trong các hành vi sau đây trong trường hợp giá trị hàng hóa vi phạm đến 5.000.000 đồng: a) Bán; chào hàng; vận chuyến, kể cả quá cảnh; tàng trữ; trưng bay để ban hàng hóa giả mạo nhãn hiệu, chỉ dẫn địa lý;",
+            "trang_pdf": 13
+          },
+          {
+            "dieu": 17,
+            "noi_dung": "Điều 17. Tham quyền xử phạt của Thanh tra Thông tin và Truyén thông 1. Thanh tra viên thuộc Thanh tra Bộ Thông tin và Truyền thông, Thanh tra Sở Thông tin và Truyền thông đang thi hành công vụ có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến 500.000 đồng: c) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá mức tiền phạt được quy định tại Điểm b Khoản này;",
+            "trang_pdf": 21
+          },
+          {
+            "dieu": 20,
+            "noi_dung": "Điều 20. Tham quyền xứ phạt của Công an nhân dân 1. Trạm trưởng trạm Công an cửa khâu, khu chế xuất có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến 2.500.000 đồng: c) Tịch thu tang vat, phuong tién vi phạm hành chính có giá trị không vượt quá mức tiền phạt được quy định tại Điểm b Khoản này; d) Áp dụng biện pháp khắc phục hậu quả quy định tại Điểm d Khoản 3 Điều 3 Nghị định này.",
+            "trang_pdf": 24
+          },
+          {
+            "dieu": 24,
+            "noi_dung": "Điều 24. Đơn yêu cầu xử lý vi phạm 1. Yêu cầu xử lý vi phạm phải được thé hiện bằng văn bản dưới hình thức đơn yêu cầu xử lý vi phạm, trong đó nêu rõ ngày làm đơn, tên co quan nhận đơn hoặc các cơ quan nhận đơn, thông tin về tổ chức, cá nhân yêu cau xử ly vi phạm; người đại điện hợp pháp hoặc tổ chức, cá nhân được ủ ủy quyền; đối tượng sở hữu công nghiệp hén quan; hang hóa, dich vụ có dấu hiệu vi phạm; tên, địa chỉ tổ chức, cá nhân vi phạm;",
+            "trang_pdf": 28
+          },
+          {
+            "dieu": 27,
+            "noi_dung": "Điều 27. Xứ lý vụ việc vi phạm khi có tranh chấp 1. Trường hợp có phát sinh khiếu nại, tố cáo hoặc tranh chấp về quyền đăng ký, quyên sở hữu, quyền yêu cầu xử lý vi phạm, điều kiện bảo hộ, phạm vi bảo hộ quyên sở hữu công nghiệp liên quan sau khi đơn yêu cầu xử lý vi phạm được thụ lý thì cơ quan có thâm quyền thụ lý vụ:việc thực hiện các biện pháp xử ly sau đây: \"",
+            "trang_pdf": 31
+          },
+          {
+            "dieu": 33,
+            "noi_dung": "Điều 33. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành kể từ ngày 15 tháng 10 năm 2013. 2. Nghị định số 97/2010/NĐ-CP ngày 21 tháng 9 năm 2010 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp hết hiệu lực kế từ ngày Nghị định này có hiệu lực thi hành.",
+            "trang_pdf": 35
+          }
+        ]
       },
       "ghi_chu": "Sửa đổi bởi NĐ 126/2021/NĐ-CP, NĐ 46/2024/NĐ-CP và NĐ 186/2026/NĐ-CP; hướng dẫn bởi TT 11/2015/TT-BKHCN (sửa đổi bởi TT 66/2026/TT-BKHCN). Văn bản chế tài chính khi hàng XNK xâm phạm nhãn hiệu/kiểu dáng.",
       "tu_khoa": [
@@ -127003,7 +128223,10 @@
         "nhan-hieu",
         "hang-gia"
       ],
-      "toan_van": "raw/download/datafiles.chinhphu.vn/99-2013-nd-cp.pdf",
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/99-2013-nd-cp.pdf",
+        "raw/ocr/99-2013-nd-cp.ocr.txt"
+      ],
       "slug": "99-2013-nd-cp",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {

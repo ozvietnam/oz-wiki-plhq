@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-22).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 319,
+ "tong": 320,
  "trang": [
   {
    "slug": "dong-bo-quan-diem-phan-loai",
@@ -13117,6 +13117,49 @@
      ],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?docid=192829&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "15289-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/15289-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "CV 15289/CHQ-NVTHQ — Áp dụng mức thuế BVMT, GTGT, TTĐB đối với xăng, dầu và nhiên liệu bay theo NQ 19/2026/QH16",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "cong-van",
+    "chq",
+    "thue-bvmt",
+    "thue-gtgt",
+    "thue-ttdb",
+    "xang-dau",
+    "vnaccs-vcis",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "so_chunks": 8,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "19/2026/QH16",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=103261&cid=1294"
+    },
+    {
+     "so_hieu": "43/2026/NQ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-10-01",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=219739"
     }
    ],
    "canh_bao_hieu_luc": false
