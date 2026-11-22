@@ -5,8 +5,8 @@
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
  "canh_bao_tang_nhap": "Tầng TOM_TAT_NHAP được trích tự động bởi LLM (da_soat: false) — CHỈ dùng để định vị điều khoản, KHÔNG trích dẫn nguyên văn hay làm căn cứ pháp lý; chỉ dùng NGUYEN_VAN_NGUON_A để trích dẫn căn cứ.",
  "thong_ke": {
-  "so_van_ban_nguon_a": 98,
-  "so_dieu_khoan_nguon_a": 1228,
+  "so_van_ban_nguon_a": 103,
+  "so_dieu_khoan_nguon_a": 1262,
   "so_van_ban_tom_tat_nhap": 88,
   "so_dieu_khoan_tom_tat_nhap": 3674,
   "so_tep_doc_hieu": 91,
@@ -734,6 +734,62 @@
      "noi_dung": "Điều 30. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 01 năm 2026. 2. Thông tư này thay thế các Thông tư sau: a) Thông tư số 25/2016/TT-BNNPTNT ngày 30/6/2016 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định về kiểm dịch động vật, sản phẩm động vật trên cạn; b) Thông tư số 35/2018/TT-BNNPTNT ngày 25/12/2018 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn sửa đổi, bổ sung một số điều của Thông tư số 25/2016/TT-BNNPTNT ngày 30/6/2016 và Thông tư số 20/2017/TT-BNNPTNT ngày 10/11/2017 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn; c) Thông tư số 09/2022/TT-BNNPTNT ngày 19/8/2022 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn sửa đổi, bổ sung một số điều của các Thông tư quy định về kiểm dịch động vật, sản phẩm động vật trên cạn; d) Thông tư số 04/2024/TT-BNNPTNT ngày 01/4/2024 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn sửa đổi, bổ sung một số điều của các Thông tư quy định về kiểm dịch động vật, sản phẩm động vật trên cạn; đ) Thông tư số 28/2025/TT-BNNMT ngày 24/6/2025 của Bộ trưởng Bộ Nông nghiệp và Môi trường sửa đổi, bổ sung một số điều của Thông tư số 25/2016/TTBNNPTNT ngày 30 tháng 6 năm 2016 của Bộ trưởng Bộ Nông nghiệp và Phát triển 27 nông thôn quy định về kiểm dịch động vật, sản phẩm động vật trên cạn. 3. Bãi bỏ Điều 22 Thông tư số 09/2025/TT-BNNMT ngày 19/6/2025 của Bộ trưởng Bộ Nông nghiệp và Môi trường quy định phân quyền, phân cấp và phân định thẩm quyền trong lĩnh vực quản lý nhà nước về chăn nuôi thú y. Trong quá trình thực hiện, nếu có vướng mắc, đề nghị các tổ chức, cá nhân báo cáo về Bộ Nông nghiệp và Môi trường (qua Cục Chăn nuôi và Thú y) để xem xét, sửa đổi bổ sung./.",
      "trang_pdf": 26,
      "sha256_pdf": "832a983a825a26ef5414b1b320a65753c7877719f0c2d51d8ea0de0d7ec81818"
+    }
+   ]
+  },
+  {
+   "so_hieu": "05/2017/QH14",
+   "slug": "05-2017-qh14",
+   "ten": "Luật Quản lý ngoại thương",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2018-01-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?docid=190308&pageid=27160",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Luật này quy định về biện pháp quản lý ngoại thương, phát triển hoạt động ngoại thương; giải quyêt tranh chấp về áp dụng biện pháp quản lý ngoại thương.",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "1. Cơ quan quản lý nhà nước. 2. Thương nhân tham gia hoạt động ngoại thương. 3. Tổ chức, cá nhân trong nước và nước ngoài khác có liên quan.",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 3,
+     "khoan": 1,
+     "noi_dung": "1. Hoạt động ngoại thương là hoạt động mua bán hàng hóa quốc tế được thực hiện đưới các hình thức xuất khẩu, nhập khẩu; tạm nhập, tái xuất; tạm xuất, tái nhập; chuyển khẩu; quá cảnh và các hoạt động khác có liên quan đến hoạt động mua bán hàng hóa quốc tế theo quy định của pháp luật và điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 8,
+     "noi_dung": "1. Cấm xuất khẩu là biện pháp do cơ quan nhà nước có thâm quyền quyết định không được đưa hàng hóa từ nội địa vào khu vực hải quan riêng hoặc đưa ra khỏi lãnh thô Việt Nam. 2. Cấm nhập khẩu là biện pháp do cơ quan nhà nước có thẩm quyền quyết định không được đưa hàng hóa từ khu vực hải quan riêng vào nội địa hoặc từ nước ngoài vào lãnh thô Việt Nam.",
+     "trang_pdf": 6
+    },
+    {
+     "dieu": 32,
+     "noi_dung": "1. Chứng từ chứng nhận xuất xứ hàng hóa bao gồm: a) Giấy chứng nhận xuất xứ hàng hóa dưới dạng văn bản hoặc các hình thức khác có giá trị pháp lý tương đương do cơ quan, tô chức có thâm quyên cap cho thương nhân; b) Chứng từ tự chứng nhận xuất xứ hàng hóa do thương nhân phát hành theo quy định tại khoản 2 Điều 34 của Luật này. 2. Chính phủ quy định chỉ tiết về xuất xứ hàng hóa và chứng nhận xuất xứ hàng hóa.",
+     "trang_pdf": 12
+    },
+    {
+     "dieu": 39,
+     "khoan": 3,
+     "noi_dung": "3. Hàng hóa kinh doanh tạm nhập, tái xuất phải được làm thủ tục hải quan khi nhập khâu vào lãnh thô Việt Nam và chịu sự kiểm tra, giám sát của cơ quan hải quan cho tới khi tái xuất ra khỏi lãnh thô Việt Nam.",
+     "trang_pdf": 14
+    },
+    {
+     "dieu": 67,
+     "khoan": 1,
+     "noi_dung": "1. Các biện pháp phòng vệ thương mại bao gồm biện pháp chống bán phá giá, biện pháp chông trợ cấp và biện pháp tự vệ do Bộ trưởng Bộ Công Thương quyết định áp dụng đối với hàng hóa nhập khâu vào Việt Nam trong những trường hợp cụ thê.",
+     "trang_pdf": 25
+    },
+    {
+     "dieu": 112,
+     "noi_dung": "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 nam 2018. 2. Các pháp lệnh sau đây hết hiệu lực kế từ ngày Luật nay có hiệu lực thi hành, trừ trường hợp quy định tại Điêu 113 của Luật nay: a) Phap lệnh về Tự vệ trong nhập khẩu hàng hóa nước ngoài vào Việt Nam sô 42/2002/PL-UBTVQHI0; b) Pháp lệnh Chống bán phá giá hàng hóa nhập khẩu vào Việt Nam số 20/2004/PL-UBTVQHII; ‘c) Pháp lệnh Chống trợ cấp hàng hóa nhập khẩu vào Việt Nam số 22/2004/PL-UBTVQHII. 3. Bãi bỏ khoản 3 Điều 28, khoản 3 Điều 29, khoản 3 Điều 30, các điều 31, 33, 242, 243, 244, 245, 246 và 247 của Luật Thương mại so 36/2005/QH11.",
+     "trang_pdf": 51
     }
    ]
   },
@@ -2454,6 +2510,53 @@
    ]
   },
   {
+   "so_hieu": "116/2025/QH15",
+   "slug": "116-2025-qh15",
+   "ten": "Luật An ninh mạng",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-07-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216499",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "1. Luật này quy định vé an ninh mang, bảo vệ an ninh mang; quyên, nghĩa vụ, trách nhiệm của cơ quan, tô chức, cá nhân có liên quan. 2. Luật này áp dụng đối với: a) Cơ quan, tô chức, cá nhân Việt Nam; b) Cơ quan, tổ chức, cá nhân nước ngoài tại Việt Nam và người sốc Việt Nam chưa xác định được quốc tịch đang sinh sông tại Việt Nam đã được cấp giấy chứng nhận căn cước; c) Cơ quan, tổ chức, cá nhân nước ngoài trực tiếp tham gia hoặc có liên quan đến hoạt động bảo vệ an ninh mạng, kinh doanh sản phẩm, dịch vụ an ninh mạng tại Việt Nam.",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 27,
+     "khoan": 1,
+     "noi_dung": "1. Tiêu chuẩn an ninh mạng, quy chuẩn kỹ thuật an ninh mạng được áp dụng đối với hệ thống thông tin, phần cứng, phần mềm, hệ thống quản lý, vận hành an ninh mạng, sản phâm, dịch vụ an ninh mạng, công nghệ thông tin và thiết bị kết nối mạng.",
+     "trang_pdf": 25
+    },
+    {
+     "dieu": 28,
+     "khoan": 1,
+     "noi_dung": "1. Sản phâm an ninh mạng bao gồm: a) Sản pham mat ma dan su; b) Sản phẩm kiểm tra, đánh giá an ninh mạng; c) Sản phẩm giám sát an ninh mạng: d) Sản phâm chống tan công, xâm nhập; đ) Sản pham an ninh mạng khác.",
+     "trang_pdf": 26
+    },
+    {
+     "dieu": 29,
+     "khoan": 1,
+     "noi_dung": "1. Doanh nghiệp kinh doanh sản phẩm, dịch vụ an ninh mạng phải có giấy phép kinh doanh sản phâm, dịch vụ an ninh mạng.",
+     "trang_pdf": 26
+    },
+    {
+     "dieu": 29,
+     "khoan": 3,
+     "noi_dung": "3. Chính phủ quy định việc cấp, tạm đình chỉ, thu hồi giấy phép kinh doanh sản phẩm, dịch vụ an ninh mạng: quy định việc nhập khâu, xuất khẩu sản phẩm an ninh mạng: quy định việc kinh doanh sản phẩm, dịch vụ an ninh mạng.",
+     "trang_pdf": 27
+    },
+    {
+     "dieu": 44,
+     "noi_dung": "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026. 2. Luật An toàn thông tin mạng số 86/2015/QH13 đã được sửa đổi, bộ sung một sô điêu theo Luật sô 35/2018/QH14; Luật An ninh mạng số 24/2018/QH14 hệt hiệu lực kê từ ngày Luật này có hiệu lực thi hành.",
+     "trang_pdf": 36
+    }
+   ]
+  },
+  {
    "so_hieu": "117/2022/NĐ-CP",
    "slug": "117-2022-nd-cp",
    "ten": "Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên hiệp Vương quốc Anh và Bắc Ai-len giai đoạn 2022 - 2027",
@@ -2539,6 +2642,47 @@
     {
      "dieu": 8,
      "noi_dung": "Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này."
+    }
+   ]
+  },
+  {
+   "so_hieu": "117/2025/QH15",
+   "slug": "117-2025-qh15",
+   "ten": "Luật Bảo vệ bí mật nhà nước",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-03-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216500",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Luật này quy định về bí mật nhà nước, bảo vệ bí mật nhà nước và trách nhiệm của cơ quan, tô chức, cá nhân có liên quan.",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 13,
+     "khoan": 2,
+     "noi_dung": "2. Vận chuyền, giao, nhận tài liệu, vật chứa bí mật nhà nước giữa cơ quan, tô chức ở trong nước với cơ quan, tô chức của Việt Nam ở nước ngoài hoặc giữa các cơ quan, tô chức của Việt Nam ở nước ngoài với nhau do giao liên ngoại giao hoặc người được giao nhiệm vụ thực hiện.",
+     "trang_pdf": 10
+    },
+    {
+     "dieu": 13,
+     "khoan": 5,
+     "noi_dung": "5. Vận chuyên tài liệu, vật chứa bí mật nhà nước qua dịch vụ bưu chính được thực hiện theo quy định của pháp luật về bưu chính.",
+     "trang_pdf": 11
+    },
+    {
+     "dieu": 14,
+     "khoan": 2,
+     "noi_dung": "2. Việc mang tài liệu, vật chứa bí mật nhà nước ra khỏi nơi lưu giữ để phục vụ công tác ở nước ngoài phải được người đứng đầu, cấp phó của người đứng đầu có thâm quyền quy định tại các điểm a, b, c, d, đ, e, g, h, i, k va 1 khoản 1 Điều 11 của Luật nay cho phép và phải báo cáo Trưởng đoàn công tac.",
+     "trang_pdf": 11
+    },
+    {
+     "dieu": 27,
+     "noi_dung": "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 3 năm 2026. 2. Luật Bảo vệ bí mật nhà nước số 29/2018/QH14 đã được sửa đổi, bỗ sung một số điều theo Luật số 81/2025/QH15 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành.",
+     "trang_pdf": 20
     }
    ]
   },
@@ -5143,6 +5287,58 @@
     {
      "dieu": 4,
      "noi_dung": "Điều khoản thi hành: Hiệu lực từ ngày 16/04/2026 đến hết ngày 30/06/2026; khoản 2 giao Chính phủ ban hành Nghị quyết kéo dài thời gian có hiệu lực (Nghị quyết 43/2026/NQ-CP kéo dài Điều 1 và Điều 2 đến hết ngày 31/12/2026)."
+    }
+   ]
+  },
+  {
+   "so_hieu": "191/2015/TT-BTC",
+   "slug": "191-2015-tt-btc",
+   "ten": "Quy định thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh gửi qua dịch vụ chuyển phát nhanh quốc tế",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2016-01-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=182774",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Thông tư này quy định thủ tục hải quan đối với hang hóa xuất khẩu, nhập khẩu, quá cảnh gửi qua dịch vụ chuyển phát nhanh quốc tế (dưới đây gọi là hàng hóa).",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "1. Doanh nghiệp cung ứng dich vụ chuyển phát nhanh quốc tế (dưới đây gọi là doanh nghiệp chuyển phát nhanh). 2. Tổ chức, cá nhân sử dụng dịch vụ của doanh nghiệp chuyển phát nhanh. 3. Doanh nghiệp kinh doanh kho bãi, địa điểm kiểm tra hải quan tập trung đối với hàng hóa chuyển phát nhanh. 4. Cơ quan Hải quan; công chức hải quan.",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "1. Chỉ cục Hải quan cửa khẩu. 2. Chi cục Hải quan quản lý địa điểm kiểm tra hải quan tập trung đối với hàng hóa chuyển phát nhanh đáp ứng các điều kiện quy định tại Thông tư này. 3. Chi cục hải quan quản lý hàng hóa theo loại hình gia công, sản xuất xuất khẩu của doanh nghiệp chế xuất gửi qua doanh nghiệp chuyên phát nhanh được thực hiện quy định tại Điều 58 Thông tư số 38/2015/TT-BTC ngày 25 tháng 3 năm 2015 của Bộ trưởng Bộ Tài chính quy định về thủ tục hải uan; kiểm tra, giám sát hải quan; thuế xuất khẩu, thuế nhập khẩu và quản lý thuê đối với hàng hoá xuất khẩu, nhập khẩu (dưới đây gọi là Thông tư số 38/2015/TT-BTC).",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 6,
+     "khoan": 1,
+     "noi_dung": "1. Hàng hóa nhập khẩu được chia nhóm như sau: a) Nhóm 1: Hàng hóa nhập khẩu là tài liệu, chứng từ không có giá trị thương mại; b) Nhóm 2: Hàng hóa nhập khâu được miễn thuế trong định mức theo quy định hiện hành của Thủ tướng Chính phủ, trừ hàng hóa phải có giấy phép nhập khẩu hoặc thuộc đối tượng phải kiểm tra chuyên ngành; c) Nhóm 3: Hàng hóa nhập khẩu không thuộc điểm a, điểm b Khoản này.",
+     "trang_pdf": 4
+    },
+    {
+     "dieu": 6,
+     "khoan": 2,
+     "noi_dung": "2. Hàng hóa xuất khâu được chia nhóm như sau: a) Nhóm 1: Hàng hóa xuất khẩu là tài liệu, chứng từ không có giá trị thương mại; b) Nhóm 2: Hàng hóa xuất khâu có trị giá dưới năm triệu đồng Việt Nam (5.000.000 đồng) và không có thuế xuất khâu, trừ hàng hóa phải có giấy phép xuất khẩu hoặc thuộc đối tượng phải kiểm tra chuyên ngành; c) Nhóm 3: Hàng hóa xuất khẩu không thuộc điểm a, điểm b Khoản này.",
+     "trang_pdf": 4
+    },
+    {
+     "dieu": 8,
+     "khoan": 1,
+     "noi_dung": "1. Hồ sơ hải quan đối với hàng hóa quy định tại điểm a khoản 1 và điểm a khoản 2 Điêu 6 Thông tư này là Bản lược khai hàng hóa và Tờ khai tài liệu chứng từ không có giá trị thương mại (dưới đây gọi là Tờ khai tài liệu, chứng từ) theo Mau sô HQ 01-TKTLCT Phụ lục I ban hành kèm Thông tư này.",
+     "trang_pdf": 5
+    },
+    {
+     "dieu": 26,
+     "khoan": 1,
+     "noi_dung": "1. Thông tư này có hiệu lực thi hành ngày 01 tháng 01 năm 2016. Bãi bỏ Thông tư sô 100/2010/TT-BTC ngày 09 tháng 7 năm 2010 của Bộ trưởng Bộ Tài chính quy định thủ tục hải quan đổi với hàng hóa xuất khẩu, nhập khâu gửi qua địch vụ chuyển phát nhanh đường hàng không quốc tế và Thông tư số 36/2011/TT-BTC ngày 16 tháng 03 năm 2011 của Bộ trưởng Bộ Tài chính quy định thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khâu, quá cảnh gửi qua dịch vụ chuyển phát nhanh đường bộ.",
+     "trang_pdf": 23
     }
    ]
   },
@@ -9001,6 +9197,67 @@
      "noi_dung": "Trường hợp nhập khẩu máy liên hợp hoặc tổ hợp máy thuộc các Chương 84, Chương 85 và Chương 90 và chi tiết, linh kiện rời theo Danh mục đã đăng ký trước thời điểm có hiệu lực của Thông tư này thì vẫn tiếp tục thực hiện theo quy định tại Thông tư số 14/2015/TT-BTC cho đến khi nhập hết hàng hóa theo Danh mục.",
      "trang_pdf": 13,
      "sha256_pdf": "652932cd3e3dda1dd498a46cdddb9fe2be61daada3def3452c045eb400d4fdfe"
+    }
+   ]
+  },
+  {
+   "so_hieu": "93/2025/QH15",
+   "slug": "93-2025-qh15",
+   "ten": "Luật Khoa học, công nghệ và đổi mới sáng tạo",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2025-10-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214603",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Luật này quy định về hoạt động khoa học, công nghệ và đổi mới sáng tạo của cơ quan, tô chức, cá nhân; chính sách, biện pháp bảo đảm phát triển khoa học, công nghệ và thúc đây déi mới sáng tạo.",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Luật này áp dụng đối với cơ quan, tô chức, cá nhân trực tiếp tham gia hoặc có liên quan đến hoạt động khoa học, công nghệ và đôi mới sáng tạo tại Việt Nam hoặc ngoài lãnh thé Việt Nam nhưng có quyên và nghĩa vụ theo quy định của pháp luật Việt Nam, điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 70,
+     "khoan": 4,
+     "noi_dung": "4. Nhà nước hỗ trợ pháp lý và tư vấn cho tổ chức, cá nhân tham gia hợp tác quốc tế dé bảo vệ quyền sở hữu trí tuệ và giải quyết tranh chấp liên quan đến chuyền giao công nghệ.",
+     "trang_pdf": 46
+    },
+    {
+     "dieu": 71,
+     "khoan": 7,
+     "diem": "a",
+     "noi_dung": "a) Sửa đổi, bd sung điểm b khoản 1 Điều 86 như sau: “b) Tổ chức, cá nhân đầu tư kinh phí, phương tiện vật chất cho tác giả dưới hình thức giao việc, thuê việc, tô chức, cá nhân được giao quản. lý nguồn gen cung cấp nguồn gen, tri thức truyền thống về nguồn gen theo hợp đồng tiếp cận nguồn gen và chia sẻ lợi ích, trừ trường hợp các bên có thỏa thuận khác.”;",
+     "trang_pdf": 49
+    },
+    {
+     "dieu": 71,
+     "khoan": 7,
+     "diem": "h",
+     "noi_dung": "h) Bãi bỏ Điều 86a, Điều 133a, khoản 2 Điều 135, Điều 136a, khoản 6 Điều 139, khoản 3 và khoản 4 Điều 164, khoản 2 Điều 191, Điều 191a, Điều 191b, khoản 4 Điều 194.",
+     "trang_pdf": 50
+    },
+    {
+     "dieu": 72,
+     "khoan": 1,
+     "noi_dung": "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 10 năm 2025, trừ trường hợp quy định tại khoản 2 Điều này.",
+     "trang_pdf": 50
+    },
+    {
+     "dieu": 72,
+     "khoan": 2,
+     "noi_dung": "2. Các điều 15, 61, 62, 63, 64, 65 và 66 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025.",
+     "trang_pdf": 50
+    },
+    {
+     "dieu": 72,
+     "khoan": 3,
+     "noi_dung": "3. Luật Khoa học và công nghệ số 29/2013/QH13 đã được sửa đổi, bỏ sung một sô điêu theo Luật sô 28/2018/QH14 và Luật sô 07/2022/QH15 (sau đây gọi chung là Luật Khoa học và Công nghệ số 29/2013/QH13) hết hiệu lực kể từ ngày Luật này có hiệu lực thị hành, trừ trường hợp quy định tại các khoản 1,2, 3, 6, 8 và 9 Điều 73 của Luật này.",
+     "trang_pdf": 50
     }
    ]
   },
