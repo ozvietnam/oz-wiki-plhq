@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-3012 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3016 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2316 văn bản, 2316 chưa hết hiệu lực.
+2320 văn bản, 2320 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -552,6 +552,10 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [38544/TB-CHQ/2025](../registry/van-ban/38544-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.91)
 - 🟢 [38545/TB-CHQ/2025](../registry/van-ban/38545-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Nguyên liệu dùng trong chế biến, sản xuất thực phẩm từ đường mía lên men tự nhiên VERDAD F7, mã số 2106.90.91)
 - 🟢 [37689/TB-CHQ/2025](../registry/van-ban/37689-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (7106.92.00)
+- 🟢 [37690/TB-CHQ/2025](../registry/van-ban/37690-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị không dây thông minh thông báo vị trí đồ vật Samsung Smart Tag 2, ký mã hiệu CDI6FSB01W/ESS, mã số 8531.80.19)
+- 🟢 [37691/TB-CHQ/2025](../registry/van-ban/37691-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị đeo tay thông minh Huawei Watch 5 phiên bản đường kính 42mm, ký mã hiệu SOC-AL00, mã số 8517.62.59)
+- 🟢 [37692/TB-CHQ/2025](../registry/van-ban/37692-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị đeo tay thông minh Huawei Watch 5 phiên bản đường kính 46mm, ký mã hiệu RTS-AL00, mã số 8517.62.59)
+- 🟢 [37693/TB-CHQ/2025](../registry/van-ban/37693-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị đeo tay thông minh Huawei Watch Fit 4 Pro, ký mã hiệu SYA-B29, mã số 8517.62.59)
 - 🟢 [35621/TB-CHQ/2025](../registry/van-ban/35621-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.99)
 - 🟢 [35250/TB-CHQ/2025](../registry/van-ban/35250-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2202.10.20)
 - 🟢 [35251/TB-CHQ/2025](../registry/van-ban/35251-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2202.10.20)
