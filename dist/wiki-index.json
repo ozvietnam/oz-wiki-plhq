@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-22).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 310,
+ "tong": 313,
  "trang": [
   {
    "slug": "dong-bo-quan-diem-phan-loai",
@@ -11883,7 +11883,7 @@
      "so_hieu": "206/2025/NĐ-CP",
      "tinh_trang": "CON_HIEU_LUC",
      "hieu_luc_tu": "2025-07-15",
-     "het_hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2030-02-24",
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
@@ -15313,6 +15313,59 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "206-2025-nd-cp",
+   "duong_dan": "wiki/sources/206-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 206/2025/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Lào giai đoạn 2025 – 2030",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "so_chunks": 13,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "206/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-15",
+     "het_hieu_luc_tu": "2030-02-24",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=214630&pageid=27160"
+    },
+    {
+     "so_hieu": "126/2022/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207159&pageid=27160"
+    },
+    {
+     "so_hieu": "127/2022/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-30",
+     "het_hieu_luc_tu": "2023-10-04",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "206/2025/NĐ-CP"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-127-2022-nd-cp-38461.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "2079-qd-tchq",
    "duong_dan": "wiki/sources/2079-qd-tchq.md",
    "loai_trang": "sources",
@@ -16517,6 +16570,47 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?docid=218703&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "260-2025-nd-cp",
+   "duong_dan": "wiki/sources/260-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 260/2025/NĐ-CP — Sửa đổi mức thuế suất thuế xuất khẩu (về 0%) đối với nhóm 71.13, 71.14, 71.15 tại Nghị định 26/2023/NĐ-CP",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "ma-hs",
+    "sua-doi",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "so_chunks": 9,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "260/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-10-10",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=215575&pageid=27160"
+    },
+    {
+     "so_hieu": "26/2023/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2023-07-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=208020&pageid=27160"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -21180,6 +21274,37 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-32-2020-tt-byt-quy-dinh-tieu-chuan-che-bien-bao-che-thuoc-co-truyen-trong-cac-co-so-kham-benh-chua-benh-bang-y-hoc-co-truyen--147387"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "56-2026-nd-cp",
+   "duong_dan": "wiki/sources/56-2026-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 56/2026/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Campuchia giai đoạn 2025 – 2026",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "so_chunks": 12,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "56/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-02-12",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=216953&pageid=27160"
     }
    ],
    "canh_bao_hieu_luc": false

@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-22).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 2931,
+ "tong": 2965,
  "chunks": [
   {
    "chunk_id": "dong-bo-quan-diem-phan-loai#1",
@@ -46422,7 +46422,7 @@
      "so_hieu": "206/2025/NĐ-CP",
      "tinh_trang": "CON_HIEU_LUC",
      "hieu_luc_tu": "2025-07-15",
-     "het_hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2030-02-24",
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
@@ -46465,7 +46465,7 @@
      "so_hieu": "206/2025/NĐ-CP",
      "tinh_trang": "CON_HIEU_LUC",
      "hieu_luc_tu": "2025-07-15",
-     "het_hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2030-02-24",
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
@@ -46711,7 +46711,7 @@
      "so_hieu": "206/2025/NĐ-CP",
      "tinh_trang": "CON_HIEU_LUC",
      "hieu_luc_tu": "2025-07-15",
-     "het_hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2030-02-24",
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
@@ -59239,7 +59239,7 @@
    "loai_trang": "sources",
    "tieu_de": "NĐ 199/2025/NĐ-CP — Sửa đổi, bổ sung khoản 3 Điều 8 (ưu đãi thuế lắp ráp ô tô) và thuế suất XK/NK nhóm 28.04, 39.01, 39.02, 72.09 tại Nghị định 26/2023/NĐ-CP",
    "muc": "Căn cứ pháp lý",
-   "noi_dung": "- **Luật Tổ chức Chính phủ** ngày 18/02/2025.\n- **Luật Thuế xuất khẩu, thuế nhập khẩu** ngày 06/04/2016 ([[sources/107-2016-qh13]]).\n- **Luật Quản lý thuế** ngày 13/06/2019 ([[sources/38-2019-qh14]]); Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách nhà nước, Luật Quản lý, sử dụng tài sản công, Luật Quản lý thuế, Luật Thuế thu nhập cá nhân, Luật Dự trữ quốc gia, Luật Xử lý vi phạm hành chính ngày 29/11/2024.\n- **Luật Hải quan** ngày 23/06/2014 ([[sources/54-2014-qh13]]).\n- **Nghị quyết số 71/2006/QH11** ngày 29/11/2006 của Quốc hội phê chuẩn Nghị định thư gia nhập Hiệp định thành lập Tổ chức thương mại thế giới (WTO) của nước Cộng hòa xã hội chủ nghĩa Việt Nam.",
+   "noi_dung": "- **Luật Tổ chức Chính phủ** ngày 18/02/2025.\n- **Luật Thuế xuất khẩu, thuế nhập khẩu** ngày 06/04/2016 ([[sources/107-2016-qh13]]).\n- **Luật Quản lý thuế** ngày 13/06/2019 ([[sources/38-2019-qh14]]); Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách nhà nước, Luật Quản lý, sử dụng tài sản công, Luật Quản lý thuế, Luật Thuế thu nhập cá nhân, Luật Dự trữ quốc gia, Luật Xử lý vi phạm hành chính ngày 29/11/2024.\n- **Luật Hải quan** ngày 23/06/2014 ([[sources/54-2014-qh13]]).\n- **Nghị quyết của Quốc hội** ngày 29/11/2006 (`71-2006-qh11`) phê chuẩn Nghị định thư gia nhập Hiệp định thành lập Tổ chức thương mại thế giới (WTO) của nước Cộng hòa xã hội chủ nghĩa Việt Nam.",
    "tags": [
     "nghi-dinh",
     "bieu-thue",
@@ -59768,6 +59768,381 @@
     "thue-gtgt",
     "stub",
     "vat-8"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "206-2025-nd-cp#1",
+   "slug": "206-2025-nd-cp",
+   "duong_dan": "wiki/sources/206-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 206/2025/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Lào giai đoạn 2025 – 2030",
+   "muc": "Summary",
+   "noi_dung": "**Nghị định 206/2025/NĐ-CP** do Phó Thủ tướng Chính phủ Hồ Đức Phớc ký ban hành ngày **15/07/2025**, có hiệu lực từ ngày ký ban hành (**15/07/2025**) đến hết ngày **24/02/2030**, ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa dân chủ nhân dân Lào giai đoạn 2025 – 2030 (ký ngày 08/04/2024 tại Viêng Chăn, Lào).\n\nVăn bản gồm **10 điều và 03 Phụ lục** (17 trang PDF ký số, phân loại theo Danh mục AHTN 2022), quy định: (1) Thuế suất nhập khẩu ưu đãi đặc biệt **0%** cho hàng hóa xuất xứ từ Lào (có **C/O mẫu S**) ngoài 03 Phụ lục; (2) Ưu đãi **giảm 50% thuế suất ATIGA** theo Nghị định 126/2022/NĐ-CP (hoặc 50% thuế suất MFN nếu ATIGA cao hơn MFN) cho 14 dòng hàng tại Phụ lục I (trong đó mặt hàng đường nhóm `17.01` phải nằm trong hạn ngạch thuế quan của Bộ Công Thương mới được giảm 50% ATIGA, vượt hạn ngạch thì không được hưởng ưu đãi); (3) Danh mục 182 dòng hàng không được hưởng ưu đãi thuế quan tại Phụ lục II; (4) Chế độ hạn ngạch thuế quan hằng năm hưởng thuế suất **0%** tại Phụ lục III đối với lúa gạo nhóm `10.06` (**70.000 tấn/năm**) và lá thuốc lá chưa chế biến, phế liệu lá thuốc lá nhóm `24.01` (**3.000 tấn/năm**). Khoản 2 Điều 9 cho phép hồi tố xử lý tiền thuế nộp thừa đối với tờ khai nhập khẩu đăng ký từ ngày **24/02/2025** đến trước ngày 15/07/2025; khoản 3 Điều 9 chính thức **bãi bỏ toàn bộ Nghị định 127/2022/NĐ-CP**. **Hiện đang còn hiệu lực**.",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "206/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-15",
+     "het_hieu_luc_tu": "2030-02-24",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=214630&pageid=27160"
+    },
+    {
+     "so_hieu": "126/2022/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207159&pageid=27160"
+    },
+    {
+     "so_hieu": "127/2022/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-30",
+     "het_hieu_luc_tu": "2023-10-04",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "206/2025/NĐ-CP"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-127-2022-nd-cp-38461.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "206-2025-nd-cp#2",
+   "slug": "206-2025-nd-cp",
+   "duong_dan": "wiki/sources/206-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 206/2025/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Lào giai đoạn 2025 – 2030",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 08/04/2024 | Chính phủ Việt Nam và Chính phủ Lào ký Hiệp định Thương mại Việt Nam – Lào tại Viêng Chăn (được Chính phủ Việt Nam phê duyệt ngày 11/10/2024) |\n| 24/02/2025 | Mốc bắt đầu thời kỳ áp dụng ưu đãi theo Điều 1; các tờ khai đăng ký từ **24/02/2025** đến trước ngày 15/07/2025 đáp ứng đủ điều kiện được xử lý hoàn/bù trừ tiền thuế nộp thừa theo khoản 2 Điều 9 |\n| 15/07/2025 | Chính phủ ban hành Nghị định 206/2025/NĐ-CP; **có hiệu lực thi hành từ ngày ký ban hành** và bãi bỏ toàn bộ [[sources/127-2022-nd-cp]] (khoản 1, khoản 3 Điều 9) |\n| 24/02/2030 | Kết thúc thời hạn hiệu lực của Nghị định theo Điều 1 và khoản 1 Điều 9 |\n| Hiện tại | **Còn hiệu lực** |",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "206/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-15",
+     "het_hieu_luc_tu": "2030-02-24",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=214630&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "206-2025-nd-cp#3",
+   "slug": "206-2025-nd-cp",
+   "duong_dan": "wiki/sources/206-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 206/2025/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Lào giai đoạn 2025 – 2030",
+   "muc": "Cấu trúc (10 điều và 03 Phụ lục)",
+   "noi_dung": "| Phần | Nội dung | Phạm vi |\n|---|---|---|\n| Điều 1 | Phạm vi điều chỉnh | Thuế suất và điều kiện hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định Thương mại Việt Nam – Lào từ ngày 24/02/2025 đến hết ngày 24/02/2030 |\n| Điều 2 | Đối tượng áp dụng | Người nộp thuế; cơ quan hải quan, công chức hải quan; tổ chức, cá nhân có quyền và nghĩa vụ liên quan |\n| Điều 3 | Danh mục hàng hóa có xuất xứ từ Lào theo Hiệp định Thương mại Việt Nam – Lào | Ban hành kèm theo Phụ lục I, Phụ lục II và Phụ lục III |\n| Điều 4 | Hàng hóa nhập khẩu được áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt **0%** | Hàng hóa có xuất xứ từ Lào ngoài Phụ lục I, II, III đáp ứng điều kiện tại Điều 8 |\n| Điều 5 | Hàng hóa nhập khẩu được hưởng ưu đãi **giảm 50% thuế suất ATIGA** | Hàng hóa thuộc Phụ lục I đáp ứng điều kiện tại Điều 7 và Điều 8 hưởng 50% thuế suất ATIGA ([[sources/126-2022-nd-cp]]) hoặc 50% thuế suất MFN nếu ATIGA cao hơn MFN |\n| Điều 6 | Hàng hóa nhập khẩu không được hưởng ưu đãi thuế quan khi nhập khẩu vào Việt Nam | Hàng hóa thuộc Phụ lục II |\n| Điều 7 | Hàng hóa nhập khẩu áp dụng chế độ hạn ngạch thuế quan | Khoản 1: lúa gạo nhóm `10.06` (03 dòng tại Phụ lục III); Khoản 2: lá thuốc lá và phế liệu lá thuốc lá nhóm `24.01` (13 dòng tại Phụ lục III); Khoản 3: đường và các sản phẩm có liên quan nhóm `17.01` (05 dòng tại Phụ lục I) |\n| Điều 8 | Điều kiện được hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt | Nhập khẩu từ Lào vào Việt Nam; đáp ứng quy định xuất xứ, vận chuyển trực tiếp và có **C/O mẫu S** |\n| Điều 9 | Điều khoản thi hành | Hiệu lực từ 15/07/2025 đến hết 24/02/2030 (khoản 1); xử lý tiền thuế nộp thừa từ 24/02/2025 (khoản 2); bãi bỏ Nghị định 127/2022/NĐ-CP (khoản 3) |\n| Điều 10 | Trách nhiệm thi hành | Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ, Chủ tịch UBND cấp tỉnh và tổ chức, cá nhân liên quan |\n| Phụ lục I | Danh mục hàng hóa được hưởng ưu đãi giảm 50% thuế suất ATIGA của Việt Nam | 14 dòng mã HS 8 số thuộc nhóm `04.07` (6 dòng), `10.06` (3 dòng), `17.01` (5 dòng) — trang 6 PDF |\n| Phụ lục II | Danh mục hàng hóa không được hưởng ưu đãi thuế quan | 182 dòng mã HS 8 số thuộc Chương 12, 13, 24, 27, 30, 36, 38, 40, 87, 93 — trang 7–16 PDF |\n| Phụ lục III | Danh mục hàng hóa được hưởng chế độ hạn ngạch thuế quan hằng năm | 16 dòng mã HS 8 số: 13 dòng lá thuốc lá nhóm `24.01` (3.000 tấn/năm) và 03 dòng lúa gạo nhóm `10.06` (70.000 tấn/năm) — trang 17 PDF |",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "127/2022/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-30",
+     "het_hieu_luc_tu": "2023-10-04",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "206/2025/NĐ-CP"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-127-2022-nd-cp-38461.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "206-2025-nd-cp#4",
+   "slug": "206-2025-nd-cp",
+   "duong_dan": "wiki/sources/206-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 206/2025/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Lào giai đoạn 2025 – 2030",
+   "muc": "Nội dung chi tiết các điều (trích nguyên văn) > Điều 1 – Điều 3. Phạm vi điều chỉnh, đối tượng áp dụng và cấu trúc 03 Phụ lục",
+   "noi_dung": "- **Điều 1. Phạm vi điều chỉnh:**\n  > Nghị định này quy định thuế suất thuế nhập khẩu ưu đãi đặc biệt và điều kiện hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định Thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa dân chủ nhân dân Lào (sau đây viết tắt là Hiệp định Thương mại Việt Nam - Lào) từ ngày 24 tháng 02 năm 2025 đến hết ngày 24 tháng 02 năm 2030.\n- **Điều 2. Đối tượng áp dụng:**\n  > 1. Người nộp thuế theo quy định của Luật Thuế xuất khẩu, thuế nhập khẩu.\n  > 2. Cơ quan hải quan, công chức hải quan.\n  > 3. Tổ chức, cá nhân có quyền và nghĩa vụ liên quan đến hàng hóa xuất khẩu, nhập khẩu.\n- **Điều 3. Danh mục hàng hóa có xuất xứ từ Lào theo Hiệp định Thương mại Việt Nam - Lào:**\n  > Ban hành kèm theo Nghị định này:\n  > 1. Phụ lục I - Danh mục hàng hóa được hưởng ưu đãi giảm 50% thuế suất ATIGA của Việt Nam theo Hiệp định Thương mại Việt Nam - Lào.\n  > 2. Phụ lục II - Danh mục hàng hóa không được hưởng ưu đãi thuế quan theo Hiệp định Thương mại Việt Nam - Lào.\n  > 3. Phụ lục III - Danh mục hàng hóa được hưởng chế độ hạn ngạch thuế quan hàng năm theo Hiệp định Thương mại Việt Nam - Lào.",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "206-2025-nd-cp#5",
+   "slug": "206-2025-nd-cp",
+   "duong_dan": "wiki/sources/206-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 206/2025/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Lào giai đoạn 2025 – 2030",
+   "muc": "Nội dung chi tiết các điều (trích nguyên văn) > Điều 4 – Điều 6. Ba mức chính sách thuế quan theo phân nhóm hàng hóa",
+   "noi_dung": "- **Điều 4. Hàng hóa nhập khẩu được áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt 0%:**\n  > Hàng hóa nhập khẩu có xuất xứ từ Lào, trừ hàng hóa nhập khẩu thuộc Danh mục hàng hóa quy định tại Phụ lục I, Phụ lục II và Phụ lục III ban hành kèm theo Nghị định này, được áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt 0% (không phần trăm) nếu đáp ứng các điều kiện quy định tại Điều 8 Nghị định này.\n- **Điều 5. Hàng hóa nhập khẩu được hưởng ưu đãi giảm 50% thuế suất ATIGA:**\n  > Hàng hóa nhập khẩu từ Lào, thuộc danh mục hàng hóa quy định tại Phụ lục I ban hành kèm theo Nghị định này được hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt bằng 50% thuế suất Hiệp định Thương mại hàng hóa ASEAN (ATIGA) quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định số 126/2022/NĐ-CP ngày 30 tháng 12 năm 2022 của Chính phủ ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Hàng hóa ASEAN giai đoạn 2022 - 2027 nếu đáp ứng các điều kiện quy định tại Điều 7 và Điều 8 Nghị định này.\n  >\n  > Trong trường hợp thuế suất ATIGA cao hơn thuế suất thuế nhập khẩu ưu đãi quy định tại Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan của Chính phủ tại thời điểm nhập khẩu và các văn bản sửa đổi, bổ sung (nếu có) (sau đây gọi là Biểu thuế MFN) thì áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt bằng 50% thuế suất quy định tại Biểu thuế MFN.\n- **Điều 6. Hàng hóa nhập khẩu không được hưởng ưu đãi thuế quan khi nhập khẩu vào Việt Nam:**\n  > Hàng hóa thuộc Phụ lục II ban hành kèm theo Nghị định này sẽ không được hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định Thương mại Việt Nam - Lào khi nhập khẩu vào Việt Nam.",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "126/2022/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207159&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "206-2025-nd-cp#6",
+   "slug": "206-2025-nd-cp",
+   "duong_dan": "wiki/sources/206-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 206/2025/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Lào giai đoạn 2025 – 2030",
+   "muc": "Nội dung chi tiết các điều (trích nguyên văn) > Điều 7. Hàng hóa nhập khẩu áp dụng chế độ hạn ngạch thuế quan",
+   "noi_dung": "> 1. Đối với mặt hàng lúa gạo - mã số HS 10.06 (03 dòng hàng HS 8 số chi tiết tại Phụ lục III ban hành kèm theo Nghị định này):\n> a) Mặt hàng lúa gạo có xuất xứ từ Lào nhập khẩu trong hạn ngạch quy định tại Phụ lục III ban hành kèm theo Nghị định này khi nhập khẩu vào Việt Nam nếu đáp ứng điều kiện quy định tại Điều 8 Nghị định này và quy định của Bộ Công Thương về việc nhập khẩu theo hạn ngạch thuế quan thì được hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt 0% (không phần trăm).\n> b) Mặt hàng lúa gạo có xuất xứ từ Lào nhập khẩu vượt số lượng hạn ngạch quy định tại Phụ lục III ban hành kèm theo Nghị định này khi nhập khẩu vào Việt Nam nếu đáp ứng các điều kiện quy định tại Điều 8 Nghị định này thì số lượng nhập khẩu vượt hạn ngạch thuế quan áp dụng mức thuế suất quy định tại Điều 5 của Nghị định này.\n>\n> 2. Đối với mặt hàng lá thuốc lá chưa chế biến và phế liệu lá thuốc lá - mã số HS 24.01 (13 dòng hàng HS 8 số chi tiết tại Phụ lục III ban hành kèm theo Nghị định này):\n> a) Mặt hàng lá thuốc lá chưa chế biến và phế liệu lá thuốc lá có xuất xứ từ Lào thuộc danh mục hàng hóa nhập khẩu áp dụng chế độ hạn ngạch thuế quan quy định tại Phụ lục III ban hành kèm theo Nghị định này khi nhập khẩu vào Việt Nam nếu đáp ứng điều kiện quy định tại Điều 8 của Nghị định này và quy định của Bộ Công Thương về việc nhập khẩu theo hạn ngạch thuế quan thì được hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt 0% (không phần trăm).\n> b) Mặt hàng lá thuốc lá chưa chế biến và phế liệu lá thuốc lá có xuất xứ từ Lào nhập khẩu vào Việt Nam vượt số lượng hạn ngạch quy định tại Phụ lục III ban hành kèm theo Nghị định này thì không được hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định Thương mại Việt Nam - Lào.\n>\n> 3. Đối với mặt hàng đường và các sản phẩm có liên quan - mã số HS 17.01 (5 dòng hàng HS 8 số chi tiết tại Phụ lục I ban hành kèm theo Nghị định này):\n> a) Mặt hàng đường và các sản phẩm có liên quan có xuất xứ từ Lào quy định tại Phụ lục I ban hành kèm theo Nghị định này khi nhập khẩu vào Việt Nam nếu đáp ứng đủ các điều kiện quy định tại Điều 8 Nghị định này và số lượng nhập khẩu nằm trong hạn ngạch theo quy định của Bộ Công Thương về việc nhập khẩu theo hạn ngạch thuế quan thì được hưởng ưu đãi giảm 50% thuế suất nhập khẩu ATIGA.\n> b) Mặt hàng đường và các sản phẩm có liên quan xuất xứ từ Lào quy định tại Phụ lục I ban hành kèm theo Nghị định này khi nhập khẩu vượt số lượng hạn ngạch theo quy định của Bộ Công Thương khi nhập khẩu vào Việt Nam thì không được hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định Thương mại Việt Nam - Lào.",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "206-2025-nd-cp#7",
+   "slug": "206-2025-nd-cp",
+   "duong_dan": "wiki/sources/206-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 206/2025/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Lào giai đoạn 2025 – 2030",
+   "muc": "Nội dung chi tiết các điều (trích nguyên văn) > Điều 8 – Điều 10. Điều kiện hưởng ưu đãi (C/O mẫu S), hiệu lực hồi tố và điều khoản bãi bỏ",
+   "noi_dung": "- **Điều 8. Điều kiện được hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định Thương mại Việt Nam - Lào:**\n  > Hàng hóa nhập khẩu quy định tại Điều 4, Điều 5 và Điều 7 của Nghị định này được áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định Thương mại Việt Nam - Lào phải đáp ứng đủ các điều kiện sau:\n  > 1. Được nhập khẩu từ Lào vào Việt Nam.\n  > 2. Đáp ứng các quy định về xuất xứ hàng hóa (bao gồm cả quy định về vận chuyển trực tiếp) và có Giấy chứng nhận xuất xứ hàng hóa mẫu S (C/O form S) do cơ quan có thẩm quyền của Lào cấp, theo quy định của Hiệp định Thương mại Việt Nam - Lào.\n- **Điều 9. Điều khoản thi hành:**\n  > 1. Nghị định này có hiệu lực từ ngày ký ban hành đến hết ngày 24 tháng 02 năm 2030.\n  > 2. Đối với hàng hóa được nhập khẩu từ Lào vào Việt Nam và đăng ký tờ khai hải quan nhập khẩu từ ngày 24 tháng 02 năm 2025 đến trước ngày Nghị định này có hiệu lực thi hành, nếu đáp ứng đủ các điều kiện để được hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo quy định tại Nghị định này và nếu đã nộp thuế theo mức thuế cao hơn thì được cơ quan hải quan xử lý tiền thuế nộp thừa theo quy định của pháp luật về quản lý thuế.\n  > 3. Nghị định này bãi bỏ Nghị định số 127/2022/NĐ-CP ngày 30 tháng 12 năm 2022 của Chính phủ về Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa dân chủ nhân dân Lào từ ngày 30 tháng 12 năm 2022 đến ngày 04 tháng 10 năm 2023.\n- **Điều 10. Trách nhiệm thi hành:**\n  > Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân liên quan chịu trách nhiệm thi hành Nghị định này./.",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "127/2022/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-30",
+     "het_hieu_luc_tu": "2023-10-04",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "206/2025/NĐ-CP"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-127-2022-nd-cp-38461.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "206-2025-nd-cp#8",
+   "slug": "206-2025-nd-cp",
+   "duong_dan": "wiki/sources/206-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 206/2025/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Lào giai đoạn 2025 – 2030",
+   "muc": "Bảng quyết định nhanh và tóm tắt 03 Phụ lục > 1. Bảng quyết định nhanh theo nhóm mặt hàng (Điều 4, 5, 6, 7)",
+   "noi_dung": "| Nhóm mặt hàng có xuất xứ từ Lào (C/O mẫu S) | Trong hạn ngạch thuế quan (theo quy định của BCT) | Ngoài / vượt hạn ngạch thuế quan | Căn cứ pháp lý |\n|---|---|---|---|\n| **Hàng hóa thông thường** (ngoài Phụ lục I, II, III) | Không áp dụng HNTQ → Thuế suất **0%** | Thuế suất **0%** | Điều 4, Điều 8 |\n| **Trứng gia cầm nhóm `04.07`** (6 dòng tại Phụ lục I: `0407.21.00`, `0407.29.10`, `0407.29.90`, `0407.90.10`, `0407.90.20`, `0407.90.90`) | Không áp dụng HNTQ → **50% ATIGA** (hoặc 50% MFN) | **50% ATIGA** (hoặc 50% MFN) | Điều 5, Phụ lục I |\n| **Lúa gạo nhóm `10.06`** (3 dòng tại Phụ lục I & III: `1006.10.90`, `1006.20.10`, `1006.20.90`) | Hạn ngạch **70.000 tấn/năm** → Thuế suất **0%** | Vượt hạn ngạch → **50% ATIGA** (hoặc 50% MFN) | Khoản 1 Điều 7, Điều 5, Phụ lục I & III |\n| **Đường mía, đường củ cải nhóm `17.01`** (5 dòng tại Phụ lục I: `1701.13.00`, `1701.14.00`, `1701.91.00`, `1701.99.10`, `1701.99.90`) | Trong hạn ngạch BCT → **50% ATIGA** (hoặc 50% MFN) | Vượt hạn ngạch → **Không được hưởng ưu đãi** Việt Nam – Lào | Khoản 3 Điều 7, Điều 5, Phụ lục I |\n| **Lá thuốc lá và phế liệu lá thuốc lá nhóm `24.01`** (13 dòng tại Phụ lục III: `2401.10.10`..`90`, `2401.20.10`..`90`, `2401.30.10`..`90`) | Hạn ngạch **3.000 tấn/năm** → Thuế suất **0%** | Vượt hạn ngạch → **Không được hưởng ưu đãi** Việt Nam – Lào | Khoản 2 Điều 7, Phụ lục III |\n| **Hàng hóa thuộc Phụ lục II** (182 dòng mã HS 8 số) | **Không được hưởng ưu đãi** thuế quan Việt Nam – Lào | **Không được hưởng ưu đãi** thuế quan Việt Nam – Lào | Điều 6, Phụ lục II |",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "206-2025-nd-cp#9",
+   "slug": "206-2025-nd-cp",
+   "duong_dan": "wiki/sources/206-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 206/2025/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Lào giai đoạn 2025 – 2030",
+   "muc": "Bảng quyết định nhanh và tóm tắt 03 Phụ lục > 2. Phạm vi Phụ lục II (182 dòng mã HS 8 số không hưởng ưu đãi thuế quan)",
+   "noi_dung": "So với Nghị định 127/2022/NĐ-CP (407 dòng), Phụ lục II của Nghị định 206/2025/NĐ-CP rút gọn còn **182 dòng mã HS 8 số** thuộc 10 Chương:\n- **Chương 12 & Chương 13:** Hạt thuốc phiện (`1207.91.00`), nhựa thuốc phiện (`1302.11.10`, `1302.11.90`).\n- **Chương 24:** Lá thuốc lá và phế liệu lá thuốc lá nhóm `24.01` (ngoài hạn ngạch), xì gà và thuốc lá điếu nhóm `24.02`, thuốc lá chế biến khác nhóm `24.03`, sản phẩm chứa thuốc lá/nicotin dùng để hút không đốt cháy nhóm `24.04`.\n- **Chương 27:** Dầu mỏ và các loại dầu thu được từ khoáng bi-tum, xăng động cơ, nhiên liệu máy bay, dầu diesel, dầu bôi trơn, dầu thải thuộc nhóm `27.09` và `27.10`.\n- **Chương 30:** Phế thải dược phẩm nhóm `3006.92`.\n- **Chương 36 & Chương 38:** Pháo hoa, pháo hiệu nhóm `36.04`; chất thải đô thị, rác thải bệnh viện, chất thải công nghiệp hóa chất nhóm `38.25`.\n- **Chương 40:** Lốp cao su bơm hơi đã qua sử dụng hoặc đắp lại nhóm `40.12`.\n- **Chương 87:** Xe ô tô chở người nhóm `87.03`, xe tăng và xe chiến đấu bọc thép nhóm `87.10`, mô tô và xe máy nhóm `87.11`.\n- **Chương 93:** Vũ khí, đạn dược và bộ phận, phụ kiện từ nhóm `93.01` đến nhóm `93.07`.",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "127/2022/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-30",
+     "het_hieu_luc_tu": "2023-10-04",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "206/2025/NĐ-CP"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-127-2022-nd-cp-38461.htm"
+    },
+    {
+     "so_hieu": "206/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-15",
+     "het_hieu_luc_tu": "2030-02-24",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=214630&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "206-2025-nd-cp#10",
+   "slug": "206-2025-nd-cp",
+   "duong_dan": "wiki/sources/206-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 206/2025/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Lào giai đoạn 2025 – 2030",
+   "muc": "Căn cứ pháp lý",
+   "noi_dung": "- **Luật Tổ chức Chính phủ** ngày 18/02/2025.\n- **Luật Tổ chức chính quyền địa phương** năm 2025.\n- **Luật Thuế xuất khẩu, thuế nhập khẩu** ngày 06/04/2016 ([[sources/107-2016-qh13]]).\n- **Luật Hải quan** ngày 23/06/2014 ([[sources/54-2014-qh13]]).\n- **Luật Điều ước quốc tế** ngày 09/04/2016.\n- **Hiệp định Thương mại** giữa Chính phủ nước CHXHCN Việt Nam và Chính phủ nước CHDCND Lào ký ngày 08/04/2024 tại Viêng Chăn, Lào (theo Nghị quyết ngày 05/04/2024 và Nghị quyết ngày 11/10/2024 của Chính phủ).",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "206-2025-nd-cp#11",
+   "slug": "206-2025-nd-cp",
+   "duong_dan": "wiki/sources/206-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 206/2025/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Lào giai đoạn 2025 – 2030",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/xuat-xu-fta]]\n- [[concepts/quy-tac-xuat-xu]]\n- [[concepts/han-ngach-thue-quan]]\n- [[concepts/phan-loai-ma-hs]]",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "206-2025-nd-cp#12",
+   "slug": "206-2025-nd-cp",
+   "duong_dan": "wiki/sources/206-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 206/2025/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Lào giai đoạn 2025 – 2030",
+   "muc": "Related sources",
+   "noi_dung": "- [[sources/127-2022-nd-cp]] (Nghị định Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Lào giai đoạn 30/12/2022 – 04/10/2023, đã bị bãi bỏ toàn bộ theo khoản 3 Điều 9 Nghị định 206/2025/NĐ-CP)\n- [[sources/126-2022-nd-cp]] (Nghị định Biểu thuế nhập khẩu ưu đãi đặc biệt ATIGA giai đoạn 2022 – 2027, làm căn cứ tính mức giảm 50% thuế suất ATIGA tại Điều 5)\n- [[sources/26-2023-nd-cp]] (Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi MFN)\n- [[sources/56-2026-nd-cp]] (Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Campuchia giai đoạn 2025 – 2026, cùng sử dụng C/O mẫu S)\n- [[sources/107-2016-qh13]] (Luật Thuế xuất khẩu, thuế nhập khẩu)",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "206/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-15",
+     "het_hieu_luc_tu": "2030-02-24",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=214630&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "206-2025-nd-cp#13",
+   "slug": "206-2025-nd-cp",
+   "duong_dan": "wiki/sources/206-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 206/2025/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Lào giai đoạn 2025 – 2030",
+   "muc": "Notes",
+   "noi_dung": "- Đã đọc và trích xuất nguyên văn toàn bộ 10 Điều (trang 1–5) và 03 Phụ lục (trang 6–17) từ tệp PDF ký số bậc A trên Cổng TTĐT Chính phủ (`raw/download/datafiles.chinhphu.vn/206-2025-nd-cp.pdf`, 17 trang, Phó Thủ tướng Hồ Đức Phớc ký, ký số bởi Văn phòng Chính phủ ngày 17/07/2025 16:09:33 +07:00, SHA-256 `c9b84dd5d8ae49e663884f4038262aa5b508c050ac8c7ba7202b8cc1218e7992`) bằng OCR `pdftoppm -r 200` + `tesseract -l vie`, đối chiếu thẻ văn bản gốc `docid=214630`.\n- Đã cập nhật đầy đủ `xac_minh.dieu_khoan` (Điều 1 đến Điều 10) trong `registry/van-ban/206-2025-nd-cp.yaml`.",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
    ],
    "confidence": "high",
    "van_ban_lien_quan": [],
@@ -60425,7 +60800,7 @@
    "loai_trang": "sources",
    "tieu_de": "NĐ 21/2025/NĐ-CP — Sửa đổi, bổ sung Điều 9 Nghị định 26/2023/NĐ-CP kéo dài Chương trình ưu đãi thuế công nghiệp hỗ trợ ô tô đến hết 31/12/2027",
    "muc": "Căn cứ pháp lý",
-   "noi_dung": "- **Luật Tổ chức Chính phủ** ngày 19/06/2015; Luật sửa đổi, bổ sung một số điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương ngày 22/11/2019.\n- **Luật Thuế xuất khẩu, thuế nhập khẩu** ngày 06/04/2016 ([[sources/107-2016-qh13]]).\n- **Luật Quản lý thuế** ngày 13/06/2019 ([[sources/38-2019-qh14]]).\n- **Luật Hải quan** ngày 23/06/2014 ([[sources/54-2014-qh13]]).\n- **Nghị quyết số 71/2006/QH11** ngày 29/11/2006 của Quốc hội phê chuẩn Nghị định thư gia nhập Hiệp định thành lập Tổ chức thương mại thế giới (WTO) của nước Cộng hòa xã hội chủ nghĩa Việt Nam.",
+   "noi_dung": "- **Luật Tổ chức Chính phủ** ngày 19/06/2015; Luật sửa đổi, bổ sung một số điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương ngày 22/11/2019.\n- **Luật Thuế xuất khẩu, thuế nhập khẩu** ngày 06/04/2016 ([[sources/107-2016-qh13]]).\n- **Luật Quản lý thuế** ngày 13/06/2019 ([[sources/38-2019-qh14]]).\n- **Luật Hải quan** ngày 23/06/2014 ([[sources/54-2014-qh13]]).\n- **Nghị quyết của Quốc hội** ngày 29/11/2006 (`71-2006-qh11`) phê chuẩn Nghị định thư gia nhập Hiệp định thành lập Tổ chức thương mại thế giới (WTO) của nước Cộng hòa xã hội chủ nghĩa Việt Nam.",
    "tags": [
     "nghi-dinh",
     "bieu-thue",
@@ -63967,6 +64342,261 @@
     "kiem-tra-chuyen-nganh",
     "rui-ro",
     "khai-bao-hai-quan"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "260-2025-nd-cp#1",
+   "slug": "260-2025-nd-cp",
+   "duong_dan": "wiki/sources/260-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 260/2025/NĐ-CP — Sửa đổi mức thuế suất thuế xuất khẩu (về 0%) đối với nhóm 71.13, 71.14, 71.15 tại Nghị định 26/2023/NĐ-CP",
+   "muc": "Summary",
+   "noi_dung": "**Nghị định 260/2025/NĐ-CP** do Phó Thủ tướng Chính phủ Hồ Đức Phớc ký ban hành ngày **10/10/2025**, có hiệu lực thi hành kể từ ngày ký ban hành (**10/10/2025**), sửa đổi mức thuế suất thuế xuất khẩu đối với một số mặt hàng thuộc nhóm `71.13`, `71.14` và `71.15` tại Phụ lục I — Biểu thuế xuất khẩu theo Danh mục mặt hàng chịu thuế ban hành kèm theo **Nghị định 26/2023/NĐ-CP** ngày 31/05/2023 của Chính phủ.\n\nVăn bản gồm **2 điều và 01 Phụ lục** (3 trang PDF ký số), quy định điều chỉnh mức thuế suất thuế xuất khẩu về **0%** đối với toàn bộ **13 mã hàng 8 số** thuộc 3 nhóm mặt hàng kim hoàn, mỹ nghệ bằng kim loại quý hoặc kim loại dát phủ kim loại quý tại Phụ lục I Nghị định 26/2023/NĐ-CP: nhóm `71.13` — Đồ trang sức và các bộ phận của đồ trang sức (6 mã: `7113.11.10`, `7113.11.90`, `7113.19.10`, `7113.19.90`, `7113.20.10`, `7113.20.90`), nhóm `71.14` — Đồ kỹ nghệ vàng hoặc bạc và các bộ phận của đồ kỹ nghệ vàng bạc (3 mã: `7114.11.00`, `7114.19.00`, `7114.20.00`) và nhóm `71.15` — Các sản phẩm khác bằng kim loại quý hoặc kim loại dát phủ kim loại quý (4 mã: `7115.10.00`, `7115.90.10`, `7115.90.20`, `7115.90.90`). **Hiện đang còn hiệu lực**.",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "ma-hs",
+    "sua-doi",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "260/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-10-10",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=215575&pageid=27160"
+    },
+    {
+     "so_hieu": "26/2023/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2023-07-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=208020&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "260-2025-nd-cp#2",
+   "slug": "260-2025-nd-cp",
+   "duong_dan": "wiki/sources/260-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 260/2025/NĐ-CP — Sửa đổi mức thuế suất thuế xuất khẩu (về 0%) đối với nhóm 71.13, 71.14, 71.15 tại Nghị định 26/2023/NĐ-CP",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 31/05/2023 | Chính phủ ban hành Nghị định 26/2023/NĐ-CP về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi (hiệu lực từ 15/07/2023) |\n| 10/10/2025 | Chính phủ ban hành Nghị định 260/2025/NĐ-CP; **có hiệu lực thi hành kể từ ngày ký ban hành** (khoản 1 Điều 2) |\n| Hiện tại | **Còn hiệu lực** |",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "ma-hs",
+    "sua-doi",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "26/2023/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2023-07-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=208020&pageid=27160"
+    },
+    {
+     "so_hieu": "260/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-10-10",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=215575&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "260-2025-nd-cp#3",
+   "slug": "260-2025-nd-cp",
+   "duong_dan": "wiki/sources/260-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 260/2025/NĐ-CP — Sửa đổi mức thuế suất thuế xuất khẩu (về 0%) đối với nhóm 71.13, 71.14, 71.15 tại Nghị định 26/2023/NĐ-CP",
+   "muc": "Cấu trúc (2 điều và 01 Phụ lục)",
+   "noi_dung": "| Phần | Nội dung | Phạm vi |\n|---|---|---|\n| Điều 1 | Sửa đổi mức thuế suất thuế xuất khẩu đối với một số mặt hàng quy định tại Phụ lục I ban hành kèm theo Nghị định 26/2023/NĐ-CP | Thay thế mức thuế suất thuế xuất khẩu của các mặt hàng thuộc nhóm `71.13`, `71.14` và `71.15` tại Phụ lục I Nghị định 26/2023/NĐ-CP bằng mức thuế suất mới tại Phụ lục kèm theo |\n| Điều 2 | Hiệu lực thi hành | Hiệu lực kể từ ngày ký ban hành 10/10/2025 (khoản 1) và trách nhiệm thi hành (khoản 2) |\n| Phụ lục | Sửa đổi mức thuế suất thuế xuất khẩu của một số mặt hàng thuộc nhóm `71.13`, `71.14` và `71.15` tại Phụ lục I Nghị định 26/2023/NĐ-CP | STT 134 (`71.13`), STT 135 (`71.14`) và STT 136 (`71.15`) — tất cả 13 dòng mã HS 8 số áp dụng thuế suất xuất khẩu **0%** (trang 3 PDF) |",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "ma-hs",
+    "sua-doi",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "26/2023/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2023-07-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=208020&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "260-2025-nd-cp#4",
+   "slug": "260-2025-nd-cp",
+   "duong_dan": "wiki/sources/260-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 260/2025/NĐ-CP — Sửa đổi mức thuế suất thuế xuất khẩu (về 0%) đối với nhóm 71.13, 71.14, 71.15 tại Nghị định 26/2023/NĐ-CP",
+   "muc": "Nội dung chi tiết các điều (trích nguyên văn)",
+   "noi_dung": "### Điều 1. Sửa đổi mức thuế suất thuế xuất khẩu đối với một số mặt hàng quy định tại Phụ lục I ban hành kèm theo Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan\n\n> Sửa đổi mức thuế suất thuế xuất khẩu đối với một số mặt hàng thuộc nhóm 71.13, 71.14 và 71.15 quy định tại Phụ lục I - Biểu thuế xuất khẩu theo Danh mục mặt hàng chịu thuế ban hành kèm theo Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan thành các mức thuế suất thuế xuất khẩu mới quy định tại Phụ lục ban hành kèm theo Nghị định này.\n\n### Điều 2. Hiệu lực thi hành\n\n> 1. Nghị định này có hiệu lực thi hành kể từ ngày ký ban hành.\n> 2. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này.",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "ma-hs",
+    "sua-doi",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "26/2023/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2023-07-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=208020&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "260-2025-nd-cp#5",
+   "slug": "260-2025-nd-cp",
+   "duong_dan": "wiki/sources/260-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 260/2025/NĐ-CP — Sửa đổi mức thuế suất thuế xuất khẩu (về 0%) đối với nhóm 71.13, 71.14, 71.15 tại Nghị định 26/2023/NĐ-CP",
+   "muc": "Bảng chi tiết Phụ lục — Thuế suất thuế xuất khẩu đối với nhóm `71.13`, `71.14` và `71.15`",
+   "noi_dung": "| STT | Mã hàng | Mô tả hàng hóa | Thuế suất XK (%) |\n|---|---|---|---|\n| **134** | **71.13** | **Đồ trang sức và các bộ phận của đồ trang sức, bằng kim loại quý hoặc kim loại được dát phủ kim loại quý.** | |\n| | | - Bằng kim loại quý đã hoặc chưa mạ hoặc dát phủ kim loại quý: | |\n| | `7113.11` | - - Bằng bạc, đã hoặc chưa mạ hoặc dát phủ kim loại quý khác: | |\n| | `7113.11.10` | - - - Bộ phận | **0** |\n| | `7113.11.90` | - - - Loại khác | **0** |\n| | `7113.19` | - - Bằng kim loại quý khác, đã hoặc chưa mạ hoặc dát phủ kim loại quý: | |\n| | `7113.19.10` | - - - Bộ phận | **0** |\n| | `7113.19.90` | - - - Loại khác | **0** |\n| | `7113.20` | - Bằng kim loại cơ bản dát phủ kim loại quý: | |\n| | `7113.20.10` | - - Bộ phận | **0** |\n| | `7113.20.90` | - - Loại khác | **0** |\n| **135** | **71.14** | **Đồ kỹ nghệ vàng hoặc bạc và các bộ phận của đồ kỹ nghệ vàng bạc, bằng kim loại quý hoặc kim loại dát phủ kim loại quý.** | |\n| | | - Bằng kim loại quý đã hoặc chưa mạ hoặc dát phủ kim loại quý: | |\n| | `7114.11.00` | - - Bằng bạc, đã hoặc chưa mạ hoặc dát phủ kim loại quý khác | **0** |\n| | `7114.19.00` | - - Bằng kim loại quý khác, đã hoặc chưa mạ hoặc dát phủ kim loại quý | **0** |\n| | `7114.20.00` | - Bằng kim loại cơ bản dát phủ kim loại quý | **0** |\n| **136** | **71.15** | **Các sản phẩm khác bằng kim loại quý hoặc kim loại dát phủ kim loại quý.** | |\n| | `7115.10.00` | - Vật xúc tác ở dạng tấm đan hoặc lưới, bằng bạch kim | **0** |\n| | `7115.90` | - Loại khác: | |\n| | `7115.90.10` | - - Bằng vàng hoặc bạc | **0** |\n| | `7115.90.20` | - - Bằng kim loại dát phủ vàng hoặc bạc | **0** |\n| | `7115.90.90` | - - Loại khác | **0** |",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "ma-hs",
+    "sua-doi",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "260-2025-nd-cp#6",
+   "slug": "260-2025-nd-cp",
+   "duong_dan": "wiki/sources/260-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 260/2025/NĐ-CP — Sửa đổi mức thuế suất thuế xuất khẩu (về 0%) đối với nhóm 71.13, 71.14, 71.15 tại Nghị định 26/2023/NĐ-CP",
+   "muc": "Căn cứ pháp lý",
+   "noi_dung": "- **Luật Tổ chức Chính phủ** ngày 18/02/2025.\n- **Luật Thuế xuất khẩu, thuế nhập khẩu** ngày 06/04/2016 ([[sources/107-2016-qh13]]) và Luật sửa đổi, bổ sung năm 2025.\n- **Luật Quản lý thuế** ngày 13/06/2019 ([[sources/38-2019-qh14]]) và Luật sửa đổi, bổ sung ngày 29/11/2024.\n- **Luật Hải quan** ngày 23/06/2014 ([[sources/54-2014-qh13]]) và Luật sửa đổi, bổ sung năm 2025.\n- **Nghị quyết của Quốc hội** ngày 29/11/2006 (`71-2006-qh11`) phê chuẩn Nghị định thư gia nhập Hiệp định thành lập Tổ chức thương mại thế giới (WTO) của nước Cộng hòa xã hội chủ nghĩa Việt Nam.",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "ma-hs",
+    "sua-doi",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "260-2025-nd-cp#7",
+   "slug": "260-2025-nd-cp",
+   "duong_dan": "wiki/sources/260-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 260/2025/NĐ-CP — Sửa đổi mức thuế suất thuế xuất khẩu (về 0%) đối với nhóm 71.13, 71.14, 71.15 tại Nghị định 26/2023/NĐ-CP",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/phan-loai-ma-hs]]\n- [[concepts/thu-tuc-hai-quan-xnk]]",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "ma-hs",
+    "sua-doi",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "260-2025-nd-cp#8",
+   "slug": "260-2025-nd-cp",
+   "duong_dan": "wiki/sources/260-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 260/2025/NĐ-CP — Sửa đổi mức thuế suất thuế xuất khẩu (về 0%) đối với nhóm 71.13, 71.14, 71.15 tại Nghị định 26/2023/NĐ-CP",
+   "muc": "Related sources",
+   "noi_dung": "- [[sources/26-2023-nd-cp]] (Nghị định gốc ban hành Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi)\n- [[sources/144-2024-nd-cp]] (Nghị định sửa đổi mức thuế suất thuế xuất khẩu nhóm `31.02`, `79.01`, `80.01` và thuế nhập khẩu ưu đãi tại Nghị định 26/2023/NĐ-CP)\n- [[sources/108-2025-nd-cp]] (Nghị định sửa đổi mức thuế suất thuế xuất khẩu clanhke xi măng nhóm `25.23` tại Phụ lục I Nghị định 26/2023/NĐ-CP)\n- [[sources/199-2025-nd-cp]] (Nghị định sửa đổi khoản 3 Điều 8, thuế suất xuất khẩu Phospho vàng nhóm `28.04` và thuế suất nhập khẩu ưu đãi nhóm `39.01`, `39.02`, `72.09` tại Nghị định 26/2023/NĐ-CP)\n- [[sources/201-2026-nd-cp]] (Nghị định sửa đổi mức thuế suất thuế xuất khẩu nhóm `25.29` và `81.06` tại Phụ lục I Nghị định 26/2023/NĐ-CP)\n- [[sources/107-2016-qh13]] (Luật Thuế xuất khẩu, thuế nhập khẩu)",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "ma-hs",
+    "sua-doi",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "26/2023/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2023-07-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=208020&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "260-2025-nd-cp#9",
+   "slug": "260-2025-nd-cp",
+   "duong_dan": "wiki/sources/260-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 260/2025/NĐ-CP — Sửa đổi mức thuế suất thuế xuất khẩu (về 0%) đối với nhóm 71.13, 71.14, 71.15 tại Nghị định 26/2023/NĐ-CP",
+   "muc": "Notes",
+   "noi_dung": "- Đã đọc và trích xuất nguyên văn toàn bộ 2 Điều (trang 1–2) và Phụ lục (trang 3) từ tệp PDF ký số bậc A trên Cổng TTĐT Chính phủ (`raw/download/datafiles.chinhphu.vn/260-2025-nd-cp.pdf`, 3 trang, Phó Thủ tướng Hồ Đức Phớc ký, ký số bởi Văn phòng Chính phủ ngày 13/10/2025 16:40:51 +07:00, SHA-256 `1b99847cd0fdad1ecc34778327e70d11c3e23331e6634bacb9bbdd664ae1c621`) bằng OCR `pdftoppm -r 200` + `tesseract -l vie`, đối chiếu thẻ văn bản gốc `docid=215575`.\n- Đã cập nhật đầy đủ `xac_minh.dieu_khoan` (Điều 1 và khoản 1, 2 Điều 2) trong `registry/van-ban/260-2025-nd-cp.yaml`.",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "ma-hs",
+    "sua-doi",
+    "con-hieu-luc"
    ],
    "confidence": "high",
    "van_ban_lien_quan": [],
@@ -82392,6 +83022,268 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "56-2026-nd-cp#1",
+   "slug": "56-2026-nd-cp",
+   "duong_dan": "wiki/sources/56-2026-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 56/2026/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Campuchia giai đoạn 2025 – 2026",
+   "muc": "Summary",
+   "noi_dung": "**Nghị định 56/2026/NĐ-CP** do Phó Thủ tướng Chính phủ Hồ Đức Phớc ký ban hành ngày **12/02/2026**, có hiệu lực thi hành từ ngày ký ban hành (**12/02/2026**) cho đến hết ngày **31/12/2026**, ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Bản Thỏa thuận thúc đẩy thương mại song phương giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ Vương quốc Campuchia giai đoạn 2025 – 2026.\n\nVăn bản gồm **7 điều và 03 Phụ lục** (10 trang PDF ký số, phân loại theo Danh mục AHTN 2022), quy định: (1) Mức thuế suất thuế nhập khẩu ưu đãi đặc biệt **0%** cho **28 dòng mã HS 8 số** tại Phụ lục I (thuộc các nhóm gia cầm sống `01.05`, thịt và phụ phẩm gia cầm `02.07`, quả chanh thuộc chi cam quýt `08.05`, lúa gạo `10.06` và lá thuốc lá chưa chế biến `24.01`) khi có **C/O mẫu S** do Campuchia cấp và thông quan qua đúng **23 cặp cửa khẩu** quy định tại Phụ lục III; (2) Chế độ hạn ngạch thuế quan hằng năm tại Phụ lục II đối với lúa gạo nhóm `10.06` (**300.000 tấn gạo/năm** cho năm 2025 và năm 2026, tỷ lệ quy đổi 02 kg thóc = 01 kg gạo) và lá thuốc lá khô nhóm `24.01` (**3.000 tấn/năm** cho năm 2025 và năm 2026), kèm cơ chế xử lý lượng vượt hạn ngạch và các trường hợp không tính trừ vào hạn ngạch tại Điều 5; (3) Hồi tố xử lý hoàn/bù trừ tiền thuế nộp thừa đối với các tờ khai hải quan đăng ký từ ngày **28/04/2025** đến trước ngày 12/02/2026 theo khoản 2 Điều 6. **Hiện đang còn hiệu lực**.",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "56/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-02-12",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=216953&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "56-2026-nd-cp#2",
+   "slug": "56-2026-nd-cp",
+   "duong_dan": "wiki/sources/56-2026-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 56/2026/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Campuchia giai đoạn 2025 – 2026",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| 28/04/2025 | Mốc bắt đầu thời kỳ áp dụng thuế suất năm 2025 của Bản Thỏa thuận Việt Nam – Campuchia giai đoạn 2025 – 2026; các tờ khai đăng ký từ **28/04/2025** đến trước ngày 12/02/2026 đáp ứng đủ điều kiện được cơ quan hải quan xử lý tiền thuế nộp thừa (khoản 2 Điều 6) |\n| 12/02/2026 | Chính phủ ban hành Nghị định 56/2026/NĐ-CP; **có hiệu lực thi hành từ ngày ký ban hành** (khoản 1 Điều 6) |\n| 31/12/2026 | Kết thúc thời hạn hiệu lực của Nghị định theo khoản 1 Điều 6 |\n| Hiện tại | **Còn hiệu lực** |",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "56/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-02-12",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=216953&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "56-2026-nd-cp#3",
+   "slug": "56-2026-nd-cp",
+   "duong_dan": "wiki/sources/56-2026-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 56/2026/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Campuchia giai đoạn 2025 – 2026",
+   "muc": "Cấu trúc (7 điều và 03 Phụ lục)",
+   "noi_dung": "| Phần | Nội dung | Phạm vi |\n|---|---|---|\n| Điều 1 | Phạm vi điều chỉnh | Thuế suất thuế nhập khẩu ưu đãi đặc biệt và điều kiện hưởng thuế suất theo Bản Thỏa thuận Việt Nam – Campuchia giai đoạn 2025 – 2026 |\n| Điều 2 | Đối tượng áp dụng | Người nộp thuế; cơ quan hải quan, công chức hải quan; tổ chức, cá nhân có quyền và nghĩa vụ liên quan đến hàng hóa nhập khẩu có xuất xứ từ Vương quốc Campuchia |\n| Điều 3 | Biểu thuế nhập khẩu ưu đãi đặc biệt; Danh mục hàng hóa nhập khẩu theo hạn ngạch thuế quan và Danh mục các cặp cửa khẩu được phép thông quan | Ban hành kèm theo Phụ lục I, Phụ lục II và Phụ lục III |\n| Điều 4 | Điều kiện áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt | Đáp ứng đủ 03 điều kiện: thuộc Phụ lục I; có **C/O mẫu S** do Campuchia cấp; thông quan qua cặp cửa khẩu tại Phụ lục III |\n| Điều 5 | Thuế suất và hạn ngạch thuế quan đối với mặt hàng lúa gạo và lá thuốc lá khô có xuất xứ từ Vương quốc Campuchia | Khoản 1: hưởng thuế suất tại Phụ lục I theo hạn ngạch tại Phụ lục II; Khoản 2: thuế suất đối với lúa gạo vượt hạn ngạch; Khoản 3: thuế suất đối với lá thuốc lá khô vượt hạn ngạch (trong/ngoài tổng hạn ngạch WTO); Khoản 4: 02 trường hợp không tính vào số lượng hạn ngạch |\n| Điều 6 | Hiệu lực thi hành | Hiệu lực từ 12/02/2026 đến hết 31/12/2026 (khoản 1); xử lý tiền thuế nộp thừa đối với tờ khai đăng ký từ 28/04/2025 đến trước ngày Nghị định có hiệu lực (khoản 2) |\n| Điều 7 | Trách nhiệm thi hành | Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ, Chủ tịch UBND cấp tỉnh và tổ chức, cá nhân liên quan |\n| Phụ lục I | Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Bản Thỏa thuận Việt Nam – Campuchia giai đoạn 2025 – 2026 | 28 dòng mã HS 8 số (nhóm `01.05`, `02.07`, `08.05`, `10.06`, `24.01`) đều hưởng thuế suất **0%** cho cả năm 2025 (28/04/2025 – 31/12/2025) và năm 2026 (01/01/2026 – 31/12/2026) — trang 6–8 PDF |\n| Phụ lục II | Danh mục hàng hóa nhập khẩu theo hạn ngạch thuế quan giai đoạn 2025 – 2026 | Mục I: Lúa gạo nhóm `10.06` (04 dòng, **300.000 tấn gạo/năm**); Mục II: Lá thuốc lá chưa chế biến nhóm `24.01` (11 dòng, **3.000 tấn lá thuốc lá khô/năm**) — trang 9 PDF |\n| Phụ lục III | Danh mục các cặp cửa khẩu được phép thông quan | 23 cặp cửa khẩu biên giới đất liền Việt Nam – Campuchia — trang 10 PDF |",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "56-2026-nd-cp#4",
+   "slug": "56-2026-nd-cp",
+   "duong_dan": "wiki/sources/56-2026-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 56/2026/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Campuchia giai đoạn 2025 – 2026",
+   "muc": "Nội dung chi tiết các điều (trích nguyên văn) > Điều 1 – Điều 4. Phạm vi, đối tượng, 03 Phụ lục và điều kiện hưởng ưu đãi",
+   "noi_dung": "- **Điều 1. Phạm vi điều chỉnh:**\n  > Nghị định này quy định thuế suất thuế nhập khẩu ưu đãi đặc biệt và điều kiện hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Bản Thỏa thuận thúc đẩy thương mại song phương giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ Vương quốc Campuchia giai đoạn 2025 - 2026 (sau đây viết tắt là Bản Thỏa thuận Việt Nam - Campuchia giai đoạn 2025 - 2026).\n- **Điều 2. Đối tượng áp dụng:**\n  > 1. Người nộp thuế theo quy định của Luật Thuế xuất khẩu, thuế nhập khẩu.\n  > 2. Cơ quan hải quan, công chức hải quan.\n  > 3. Tổ chức, cá nhân có quyền và nghĩa vụ liên quan đến hàng hóa nhập khẩu có xuất xứ từ Vương quốc Campuchia.\n- **Điều 3. Biểu thuế nhập khẩu ưu đãi đặc biệt; Danh mục hàng hóa nhập khẩu theo hạn ngạch thuế quan và Danh mục các cặp cửa khẩu được phép thông quan:**\n  > Ban hành kèm theo Nghị định này:\n  > 1. Phụ lục I - Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Bản Thỏa thuận Việt Nam - Campuchia giai đoạn 2025 - 2026.\n  > 2. Phụ lục II - Danh mục hàng hóa nhập khẩu theo hạn ngạch thuế quan của Việt Nam để thực hiện Bản Thỏa thuận Việt Nam - Campuchia giai đoạn 2025 - 2026.\n  > 3. Phụ lục III - Danh mục các cặp cửa khẩu được phép thông quan các mặt hàng hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Bản Thỏa thuận Việt Nam - Campuchia giai đoạn 2025 - 2026.\n- **Điều 4. Điều kiện áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt:**\n  > Hàng hóa nhập khẩu được áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Bản Thỏa thuận Việt Nam - Campuchia giai đoạn 2025 - 2026 phải đáp ứng đủ các điều kiện sau:\n  > 1. Thuộc Biểu thuế nhập khẩu ưu đãi đặc biệt để thực hiện Bản Thỏa thuận Việt Nam - Campuchia giai đoạn 2025 - 2026 tại Phụ lục I ban hành kèm theo Nghị định này.\n  > 2. Có Giấy chứng nhận xuất xứ hàng hóa mẫu S (C/O form S) do cơ quan có thẩm quyền của Vương quốc Campuchia cấp.\n  > 3. Thông quan qua các cặp cửa khẩu quy định tại Phụ lục III ban hành kèm theo Nghị định này.",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "56-2026-nd-cp#5",
+   "slug": "56-2026-nd-cp",
+   "duong_dan": "wiki/sources/56-2026-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 56/2026/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Campuchia giai đoạn 2025 – 2026",
+   "muc": "Nội dung chi tiết các điều (trích nguyên văn) > Điều 5. Thuế suất và hạn ngạch thuế quan đối với mặt hàng lúa gạo và lá thuốc lá khô có xuất xứ từ Vương quốc Campuchia",
+   "noi_dung": "> 1. Mặt hàng lúa gạo và lá thuốc lá khô nêu tại Phụ lục I ban hành kèm theo Nghị định này, nếu đáp ứng các điều kiện quy định tại Điều 4 Nghị định này và quy định của Bộ Công Thương về việc nhập khẩu theo hạn ngạch thuế quan theo Bản Thỏa thuận Việt Nam - Campuchia giai đoạn 2025 - 2026 thì được hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt nêu tại Phụ lục I, theo số lượng hạn ngạch nhập khẩu quy định tại Phụ lục II ban hành kèm theo Nghị định này.\n>\n> 2. Đối với mặt hàng lúa gạo: Trường hợp mặt hàng lúa gạo nhập khẩu ngoài số lượng hạn ngạch quy định tại Phụ lục II ban hành kèm theo Nghị định này (gọi tắt là nhập khẩu vượt hạn ngạch) thì số lượng nhập khẩu vượt hạn ngạch được áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt của các Hiệp định thương mại tự do mà Việt Nam và Campuchia cùng là thành viên nếu đáp ứng đủ các điều kiện quy định tại các Nghị định Biểu thuế nhập khẩu ưu đãi đặc biệt tương ứng; hoặc được áp dụng thuế suất thuế nhập khẩu ưu đãi quy định tại các văn bản quy phạm pháp luật của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan và các văn bản sửa đổi, bổ sung (nếu có).\n>\n> 3. Đối với mặt hàng lá thuốc lá khô:\n> a) Trường hợp lượng lá thuốc lá khô nhập khẩu vượt số lượng hạn ngạch quy định tại Phụ lục II ban hành kèm theo Nghị định này nhưng vẫn nằm trong tổng mức hạn ngạch theo WTO và bảo đảm các điều kiện quy định trong các văn bản quy phạm pháp luật của Việt Nam về hạn ngạch thuế quan thì số lượng vượt hạn ngạch này được áp dụng mức thuế suất thuế nhập khẩu ưu đãi quy định tại các văn bản quy phạm pháp luật của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan và các văn bản sửa đổi, bổ sung (nếu có).\n> b) Trường hợp lượng lá thuốc lá khô nhập khẩu vượt số lượng hạn ngạch quy định tại Phụ lục II ban hành kèm theo Nghị định này và nằm ngoài tổng mức hạn ngạch theo WTO thì áp dụng mức thuế suất thuế nhập khẩu ngoài hạn ngạch đối với mặt hàng lá thuốc lá khô theo quy định tại các văn bản quy phạm pháp luật của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan và các văn bản sửa đổi, bổ sung (nếu có).\n>\n> 4. Số lượng mặt hàng lúa gạo và lá thuốc lá khô được nhập khẩu thuộc các trường hợp quy định tại điểm a và điểm b khoản này, không tính vào số lượng hạn ngạch của mặt hàng tương ứng quy định tại Phụ lục II ban hành kèm theo Nghị định này:\n> a) Các mặt hàng lúa gạo do phía Việt Nam đầu tư, trồng tại Campuchia nhập khẩu về Việt Nam áp dụng theo quy định hiện hành của pháp luật.\n> b) Các mặt hàng lúa gạo và lá thuốc lá khô có xuất xứ từ Campuchia do các doanh nghiệp Việt Nam nhập khẩu về Việt Nam để tái xuất đi các thị trường khác thực hiện theo cơ chế tạm nhập tái xuất của Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và các Hiệp định khu vực, quốc tế mà hai bên tham gia ký kết.",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "56-2026-nd-cp#6",
+   "slug": "56-2026-nd-cp",
+   "duong_dan": "wiki/sources/56-2026-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 56/2026/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Campuchia giai đoạn 2025 – 2026",
+   "muc": "Nội dung chi tiết các điều (trích nguyên văn) > Điều 6 & Điều 7. Hiệu lực thi hành, hồi tố hoàn thuế từ 28/04/2025 và trách nhiệm thi hành",
+   "noi_dung": "- **Điều 6. Hiệu lực thi hành:**\n  > 1. Nghị định này có hiệu lực thi hành từ ngày ký ban hành cho đến hết ngày 31 tháng 12 năm 2026.\n  > 2. Đối với các tờ khai hải quan của các mặt hàng nêu tại Phụ lục I ban hành kèm theo Nghị định này đăng ký từ ngày 28 tháng 4 năm 2025 đến trước ngày Nghị định này có hiệu lực thi hành, nếu đáp ứng đủ điều kiện được hưởng mức thuế suất thuế nhập khẩu ưu đãi đặc biệt quy định tại Nghị định này và đã nộp thuế theo mức thuế suất cao hơn thì được cơ quan hải quan xử lý tiền thuế nộp thừa theo quy định của pháp luật về quản lý thuế.\n- **Điều 7. Trách nhiệm thi hành:**\n  > Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân liên quan chịu trách nhiệm thi hành Nghị định này.",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "56-2026-nd-cp#7",
+   "slug": "56-2026-nd-cp",
+   "duong_dan": "wiki/sources/56-2026-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 56/2026/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Campuchia giai đoạn 2025 – 2026",
+   "muc": "Chi tiết Phụ lục I, Phụ lục II và Phụ lục III > 1. Phụ lục I & Phụ lục II — Biểu thuế nhập khẩu ưu đãi đặc biệt (28 dòng mã HS 8 số) và Định lượng hạn ngạch thuế quan (2025 – 2026)",
+   "noi_dung": "| STT (PL I) | Mã hàng (AHTN 2022) | Mô tả hàng hóa | Thuế suất 2025 (28/4–31/12/2025) | Thuế suất 2026 (01/1–31/12/2026) | Chế độ hạn ngạch thuế quan (Phụ lục II) |\n|---|---|---|---|---|---|\n| 1 | `0105.11.90` | Gia cầm sống $\\le 185\\text{ g}$, gà thuộc loài *Gallus domesticus* - Loại khác | **0%** | **0%** | Không áp dụng HNTQ |\n| 2 | `0105.99.20` | Gia cầm sống loại khác - Vịt, ngan loại khác | **0%** | **0%** | Không áp dụng HNTQ |\n| 3 – 10 | `0207.11.00`, `0207.12.00`, `0207.13.00`, `0207.14.10`, `0207.14.20`, `0207.14.30`, `0207.14.91`, `0207.14.99` | Thịt và phụ phẩm ăn được sau giết mổ của gà thuộc loài *Gallus domesticus* (chưa chặt mảnh tươi/ướp lạnh/đông lạnh; đã chặt mảnh tươi/ướp lạnh; cánh, đùi, gan, thịt lọc/tách xương cơ học và loại khác đông lạnh) | **0%** | **0%** | Không áp dụng HNTQ |\n| 11 – 13 | `0805.50.10`, `0805.50.20`, `0805.90.00` | Quả chanh vàng (*Citrus limon*, *Citrus limonum*), quả chanh xanh (*Citrus aurantifolia*, *Citrus latifolia*) và quả thuộc chi cam quýt loại khác | **0%** | **0%** | Không áp dụng HNTQ |\n| 14 – 17 | `1006.10.10(*)`, `1006.10.90(*)`, `1006.20.10(*)`, `1006.20.90(*)` | **Lúa gạo** (Thóc phù hợp để gieo trồng, thóc loại khác; Gạo lứt Hom Mali, gạo lứt loại khác) | **0%** | **0%** | **300.000 tấn gạo/năm** cho năm 2025 và **300.000 tấn gạo/năm** cho năm 2026 *(Ghi chú: 02 kg thóc = 01 kg gạo)* |\n| 18 – 28 | `2401.10.10(*)`, `2401.10.20(*)`, `2401.10.40(*)`, `2401.10.50(*)`, `2401.10.90(*)`, `2401.20.10(*)`, `2401.20.20(*)`, `2401.20.30(*)`, `2401.20.40(*)`, `2401.20.50(*)`, `2401.20.90(*)` | **Lá thuốc lá chưa chế biến** (Chưa tước cọng: loại Virginia sấy không khí nóng / không sấy không khí nóng, loại Burley, loại khác; Đã tước cọng một phần hoặc toàn bộ: loại Virginia, Oriental, Burley, loại khác) | **0%** | **0%** | **3.000 tấn lá thuốc lá khô/năm** cho năm 2025 và **3.000 tấn lá thuốc lá khô/năm** cho năm 2026 |",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "56-2026-nd-cp#8",
+   "slug": "56-2026-nd-cp",
+   "duong_dan": "wiki/sources/56-2026-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 56/2026/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Campuchia giai đoạn 2025 – 2026",
+   "muc": "Chi tiết Phụ lục I, Phụ lục II và Phụ lục III > 2. Phụ lục III — Danh mục 23 cặp cửa khẩu được phép thông quan",
+   "noi_dung": "| STT | Cửa khẩu phía Việt Nam | Cửa khẩu phía Campuchia |\n|---|---|---|\n| 1 | Lệ Thanh (tỉnh Gia Lai) | Ou Va Dav (tỉnh Ratanakiri) |\n| 2 | Bu Prăng (tỉnh Lâm Đồng) | Dak Dam (tỉnh Mondulkiri) |\n| 3 | Đắk Peur (tỉnh Lâm Đồng) | Nam Lear (tỉnh Mondulkiri) |\n| 4 | Hoa Lư (tỉnh Đồng Nai) | Trapeang Sre (tỉnh Kratie) |\n| 5 | Hoàng Diệu (tỉnh Đồng Nai) | Lapakhe (tỉnh Mondulkiri) |\n| 6 | Lộc Thịnh (tỉnh Đồng Nai) | Tonle Cham (tỉnh Tboung Khmum) |\n| 7 | Mộc Bài (tỉnh Tây Ninh) | Bavet (Svay Rieng Province) |\n| 8 | Xa Mát (tỉnh Tây Ninh) | Trapeang Plong (tỉnh Tboung Khmum) |\n| 9 | Chàng Riệc (tỉnh Tây Ninh) | Da (tỉnh Tboung Khmum) |\n| 10 | Kà Tum (tỉnh Tây Ninh) | Chan Mul (tỉnh Tboung Khmum) |\n| 11 | Phước Tân (tỉnh Tây Ninh) | Bosmon (tỉnh Svay Rieng) |\n| 12 | Vạc Sa (tỉnh Tây Ninh) | Doun Rodth (tỉnh Tboung Khmum) |\n| 13 | Tân Nam (tỉnh Tây Ninh) | Meun Chey (tỉnh Prey Veng) |\n| 14 | Bình Hiệp (tỉnh Tây Ninh) | Prey Vor (tỉnh Svay Rieng) |\n| 15 | Mỹ Quý Tây (tỉnh Tây Ninh) | Samrong (tỉnh Svay Rieng) |\n| 16 | Dinh Bà (tỉnh Đồng Tháp) | Banteay Chakrey (tỉnh Prey Veng) |\n| 17 | Thường Phước (tỉnh Đồng Tháp) | Koh Roka (tỉnh Prey Veng) |\n| 18 | Vĩnh Xương (tỉnh An Giang) | Ka-Orm Samnor (tỉnh Kandal) |\n| 19 | Tịnh Biên (tỉnh An Giang) | Phnom Den (tỉnh Takeo) |\n| 20 | Khánh Bình (tỉnh An Giang) | Chrey Thom (tỉnh Kandal) |\n| 21 | Vĩnh Hội Đông (tỉnh An Giang) | Kampong Krosang (tỉnh Takeo) |\n| 22 | Hà Tiên (tỉnh An Giang) | Prek Chak (tỉnh Kampot) |\n| 23 | Giang Thành (tỉnh An Giang) | Ton Hon (tỉnh Kampot) |",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "56-2026-nd-cp#9",
+   "slug": "56-2026-nd-cp",
+   "duong_dan": "wiki/sources/56-2026-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 56/2026/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Campuchia giai đoạn 2025 – 2026",
+   "muc": "Căn cứ pháp lý",
+   "noi_dung": "- **Luật Tổ chức Chính phủ** ngày 18/02/2025.\n- **Luật Thuế xuất khẩu, thuế nhập khẩu** ngày 06/04/2016 ([[sources/107-2016-qh13]]) và Luật sửa đổi, bổ sung năm 2025.\n- **Luật Quản lý thuế** ngày 13/06/2019 ([[sources/38-2019-qh14]]) và Luật sửa đổi, bổ sung ngày 29/11/2024.\n- **Luật Hải quan** ngày 23/06/2014 ([[sources/54-2014-qh13]]) và Luật sửa đổi, bổ sung năm 2025.\n- **Luật Điều ước quốc tế** ngày 09/04/2016.\n- **Bản Thỏa thuận thúc đẩy thương mại song phương** giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ Vương quốc Campuchia giai đoạn 2025 – 2026.",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "56-2026-nd-cp#10",
+   "slug": "56-2026-nd-cp",
+   "duong_dan": "wiki/sources/56-2026-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 56/2026/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Campuchia giai đoạn 2025 – 2026",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/xuat-xu-fta]]\n- [[concepts/quy-tac-xuat-xu]]\n- [[concepts/han-ngach-thue-quan]]\n- [[concepts/cua-khau-phu-loi-mo]]",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "56-2026-nd-cp#11",
+   "slug": "56-2026-nd-cp",
+   "duong_dan": "wiki/sources/56-2026-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 56/2026/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Campuchia giai đoạn 2025 – 2026",
+   "muc": "Related sources",
+   "noi_dung": "- [[sources/80-2023-nd-cp]] (Nghị định Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Campuchia giai đoạn 2023 – 2024 tiền nhiệm)\n- [[sources/206-2025-nd-cp]] (Nghị định Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Lào giai đoạn 2025 – 2030, cùng áp dụng C/O mẫu S)\n- [[sources/126-2022-nd-cp]] (Nghị định Biểu thuế nhập khẩu ưu đãi đặc biệt ATIGA giai đoạn 2022 – 2027)\n- [[sources/26-2023-nd-cp]] (Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi MFN và mức thuế nhập khẩu ngoài hạn ngạch thuế quan)\n- [[sources/107-2016-qh13]] (Luật Thuế xuất khẩu, thuế nhập khẩu)",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "56-2026-nd-cp#12",
+   "slug": "56-2026-nd-cp",
+   "duong_dan": "wiki/sources/56-2026-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 56/2026/NĐ-CP — Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam – Campuchia giai đoạn 2025 – 2026",
+   "muc": "Notes",
+   "noi_dung": "- Đã đọc và trích xuất nguyên văn toàn bộ 7 Điều (trang 1–5) và 03 Phụ lục (trang 6–10) từ tệp PDF ký số bậc A trên Cổng TTĐT Chính phủ (`raw/download/datafiles.chinhphu.vn/56-2026-nd-cp.pdf`, 10 trang, Phó Thủ tướng Hồ Đức Phớc ký, ký số bởi Văn phòng Chính phủ ngày 13/02/2026 16:53:25 +07:00, SHA-256 `0e15d99c990e81aa5ab3fa4af3f7c874a7ff7b94c4f100ea3d8945ccf52eaabb`) bằng OCR `pdftoppm -r 200` + `tesseract -l vie` và đối chiếu trực tiếp ảnh PNG 180dpi của các bảng Phụ lục I, II, III, cùng thẻ văn bản gốc `docid=216953`.\n- Đã cập nhật đầy đủ `xac_minh.dieu_khoan` (Điều 1 đến Điều 7) trong `registry/van-ban/56-2026-nd-cp.yaml`.",
+   "tags": [
+    "nghi-dinh",
+    "bieu-thue",
+    "thue-xk-nk",
+    "xuat-xu-fta",
+    "han-ngach-thue-quan",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "58-2015-ttlt-bct-bkhcn#1",
    "slug": "58-2015-ttlt-bct-bkhcn",
    "duong_dan": "wiki/sources/58-2015-ttlt-bct-bkhcn.md",
@@ -86219,7 +87111,7 @@
    "loai_trang": "sources",
    "tieu_de": "NĐ 73/2025/NĐ-CP — Sửa đổi, bổ sung mức thuế suất thuế nhập khẩu ưu đãi (MFN) của một số mặt hàng tại Nghị định 26/2023/NĐ-CP",
    "muc": "Căn cứ pháp lý",
-   "noi_dung": "- **Luật Tổ chức Chính phủ** ngày 18/02/2025.\n- **Luật Thuế xuất khẩu, thuế nhập khẩu** ngày 06/04/2016 ([[sources/107-2016-qh13]]).\n- **Luật Quản lý thuế** ngày 13/06/2019 ([[sources/38-2019-qh14]]); Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách nhà nước, Luật Quản lý, sử dụng tài sản công, Luật Quản lý thuế, Luật Thuế thu nhập cá nhân, Luật Dự trữ quốc gia, Luật Xử lý vi phạm hành chính ngày 29/11/2024.\n- **Luật Hải quan** ngày 23/06/2014 ([[sources/54-2014-qh13]]).\n- **Nghị quyết số 71/2006/QH11** ngày 29/11/2006 của Quốc hội phê chuẩn Nghị định thư gia nhập Hiệp định thành lập Tổ chức thương mại thế giới (WTO) của nước Cộng hòa xã hội chủ nghĩa Việt Nam.",
+   "noi_dung": "- **Luật Tổ chức Chính phủ** ngày 18/02/2025.\n- **Luật Thuế xuất khẩu, thuế nhập khẩu** ngày 06/04/2016 ([[sources/107-2016-qh13]]).\n- **Luật Quản lý thuế** ngày 13/06/2019 ([[sources/38-2019-qh14]]); Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách nhà nước, Luật Quản lý, sử dụng tài sản công, Luật Quản lý thuế, Luật Thuế thu nhập cá nhân, Luật Dự trữ quốc gia, Luật Xử lý vi phạm hành chính ngày 29/11/2024.\n- **Luật Hải quan** ngày 23/06/2014 ([[sources/54-2014-qh13]]).\n- **Nghị quyết của Quốc hội** ngày 29/11/2006 (`71-2006-qh11`) phê chuẩn Nghị định thư gia nhập Hiệp định thành lập Tổ chức thương mại thế giới (WTO) của nước Cộng hòa xã hội chủ nghĩa Việt Nam.",
    "tags": [
     "nghi-dinh",
     "bieu-thue",

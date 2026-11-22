@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-2956 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2961 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -239,11 +239,11 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [201/2026/NĐ-CP](../registry/van-ban/201-2026-nd-cp.yaml) — Sửa đổi, bổ sung thuế suất thuế xuất khẩu của một số mặt hàng tại Biểu thuế xuất khẩu ban hành kèm Nghị định số 26/2023/NĐ-CP
 - 🟢 [143/2026/NĐ-CP](../registry/van-ban/143-2026-nd-cp.yaml) — Ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện Việt Nam – Tiểu vương quốc Ả Rập Thống nhất (CEPA), giai đoạn 2026–2027
 - 🟢 [72/2026/NĐ-CP](../registry/van-ban/72-2026-nd-cp.yaml) — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu tại Biểu thuế nhập khẩu ưu đãi ban hành kèm theo Nghị định số 26/2023/NĐ-CP _(hết hiệu lực 2027-01-01)_
-- 🟢 [56/2026/NĐ-CP](../registry/van-ban/56-2026-nd-cp.yaml) — Biểu thuế NK ưu đãi VN-Cam
+- 🟢 [56/2026/NĐ-CP](../registry/van-ban/56-2026-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Bản Thỏa thuận thúc đẩy thương mại song phương giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ Vương quốc Campuchia giai đoạn 2025 - 2026
 - 🟢 [3830/QĐ-BKHCN](../registry/van-ban/3830-qd-bkhcn.yaml) — Quyết định về việc hủy bỏ sản phẩm có mã HS 9405.11.99 tại Quyết định số 367/QĐ-BKHCN ngày 12 tháng 3 năm 2024 của Bộ trưởng Bộ Khoa học và Công nghệ
 - 🟢 [109/2025/UBTVQH15](../registry/van-ban/109-2025-ubtvqh15.yaml) — Thuế bảo vệ môi trường
-- 🟢 [260/2025/NĐ-CP](../registry/van-ban/260-2025-nd-cp.yaml) — Biểu thuế xuất khẩu (sửa)
-- 🟢 [206/2025/NĐ-CP](../registry/van-ban/206-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi VN-Lào
+- 🟢 [260/2025/NĐ-CP](../registry/van-ban/260-2025-nd-cp.yaml) — Sửa đổi mức thuế suất thuế xuất khẩu đối với một số mặt hàng thuộc nhóm 71.13, 71.14 và 71.15 tại Biểu thuế xuất khẩu theo Danh mục mặt hàng chịu thuế ban hành kèm theo Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan
+- 🟢 [206/2025/NĐ-CP](../registry/van-ban/206-2025-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa dân chủ nhân dân Lào giai đoạn 2025 - 2030 _(hết hiệu lực 2030-02-24)_
 - 🟢 [199/2025/NĐ-CP](../registry/van-ban/199-2025-nd-cp.yaml) — Sửa đổi, bổ sung Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan
 - 🟢 [181/2025/NĐ-CP](../registry/van-ban/181-2025-nd-cp.yaml) — Quy định chi tiết thi hành một số điều của Luật Thuế giá trị gia tăng
 - 🟢 [66/2025/QH15](../registry/van-ban/66-2025-qh15.yaml) — Luật Thuế tiêu thụ đặc biệt
@@ -386,7 +386,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2271 văn bản, 2271 chưa hết hiệu lực.
+2276 văn bản, 2276 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -483,6 +483,11 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [17345/TB-CHQ/2026](../registry/van-ban/17345-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Băng keo hai mặt DS10G dạng cuộn jumbo nền vải không dệt tissue phủ keo acrylic, mã số 3506.91.90)
 - 🟢 [16859/TB-CHQ/2026](../registry/van-ban/16859-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Polystyrene ở dạng cục tái chế nóng chảy dạng nguyên sinh hàm lượng > 99%, mã số 3903.19.90)
 - 🟢 [16749/TB-CHQ/2026](../registry/van-ban/16749-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thuốc kê đơn viên đặt âm đạo Canvey chứa Metronidazole, Chloramphenicol, Nystatin, Dexamethasone acetate, mã số 3004.20.79)
+- 🟢 [16776/TB-CHQ/2026](../registry/van-ban/16776-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương phô mai Cheddar Flavor, ký mã hiệu DC6410X, dạng bột mịn màu be nhạt dùng để tạo hương phô mai cho các sản phẩm thực phẩm, mã số 2106.90.98)
+- 🟢 [16778/TB-CHQ/2026](../registry/van-ban/16778-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chế phẩm hóa học Gold dressing agent gồm Urea 50%, Natri carbonat 20%, Natri thiosulfate 15% và Natri clorua công nghiệp 15%, dạng bột màu trắng dùng làm chất trợ tuyển quặng vàng, mã số 3824.99.99)
+- 🟢 [16658/TB-CHQ/2026](../registry/van-ban/16658-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chất khơi mào phản ứng Trigonox 93 gồm Tert-Butyl peroxybenzoate 77,5-81,0% và Acetylacetone 19,0-22,5%, dạng dung dịch dùng làm chất khơi mào phản ứng trong sản xuất nhựa và đá nhân tạo, mã số 3815.90.00)
+- 🟢 [16555/TB-CHQ/2026](../registry/van-ban/16555-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Trục đầu ra từ puly thứ cấp Driven Pulley shaft bằng thép hợp kim, ký mã hiệu 1A005707, dài 179,7 mm, thuộc hệ truyền động bánh sau xe máy tay ga, mã số 8714.10.40)
+- 🟢 [16379/TB-CHQ/2026](../registry/van-ban/16379-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hệ thống điều hòa không khí Inverter multi hai chiều dành cho nhà ở gồm 01 dàn nóng RAS-3M26S3AV-E công suất làm lạnh/sưởi 7,5/9,0 kW kết hợp 02 dàn lạnh âm trần nối ống gió RAS-M13U2DVG-E và 01 dàn lạnh RAS-M16U2DVG-E, kèm bộ phận làm lạnh và van đảo chiều chu trình nóng/lạnh, mã số 8415.81.97)
 - 🟢 [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - 🟢 [1489/TB-CHQ/2026](../registry/van-ban/1489-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1633/TB-CHQ/2026](../registry/van-ban/1633-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2710.12.99)
