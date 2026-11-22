@@ -22,7 +22,7 @@
     "mcp:server": "node tools/mcp-server.mjs",
     "eval:qa": "node tools/eval-qa.mjs",
     "eval:retrieval": "node tools/eval-retrieval.mjs",
-    "test": "node tools/test/run.mjs && node tools/test/tb-noi-dung-tb.mjs && node tools/test/test-mcp-dist.mjs && node tools/test/test-diem-mu-nang-cap.mjs && node tools/test/test-quan-he-chieu-di.mjs && node tools/test/test-dieu-khoan-nguyen-van.mjs && node tools/test/test-phan-loai-miss.mjs && node tools/test/test-dung-web.mjs && node tools/test/test-mcp-server.mjs && node tools/kiem-tra-dieu-khoan.mjs && node tools/kiem-tra.mjs && node _lumina/scripts/lint.mjs --json > /dev/null && node scripts/test-kiem-tra-toan-ven-registry.mjs && node scripts/kiem-tra-toan-ven-registry.mjs && node tools/test/test-trich-dieu-khoan.mjs",
+    "test": "node tools/test/run.mjs && node tools/test/tb-noi-dung-tb.mjs && node tools/test/test-mcp-dist.mjs && node tools/test/test-diem-mu-nang-cap.mjs && node tools/test/test-quan-he-chieu-di.mjs && node tools/test/test-dieu-khoan-nguyen-van.mjs && node tools/test/test-phan-loai-miss.mjs && node tools/test/test-dung-web.mjs && node tools/test/test-mcp-server.mjs && node tools/kiem-tra-dieu-khoan.mjs && node tools/kiem-tra.mjs && node _lumina/scripts/lint.mjs --json > /dev/null && node scripts/test-kiem-tra-toan-ven-registry.mjs && node scripts/kiem-tra-toan-ven-registry.mjs && node tools/test/test-trich-dieu-khoan.mjs && node tools/test/test-tra-cuu-plhq.mjs && node tools/test/test-kiem-tra-nap.mjs && node tools/test/test-ocr-raw.mjs && node tools/test/test-tai-pdf-tu-vo-html.mjs",
     "test:parser": "python3 tools/test-trich-14dm.py",
     "trich": "python3 tools/trich-14dm.mjs.py",
     "check-hs": "python3 tools/kiem-tra-ma-hs-2026.py",
