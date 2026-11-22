@@ -1,4 +1,4 @@
-# Sổ đăng ký văn bản — stub. Lược đồ: docs/luoc-do-so-dang-ky.md
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 35/2025/NĐ-CP
 loai: NGHI_DINH
 ten: Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nông nghiệp và Môi trường
@@ -8,17 +8,45 @@ hieu_luc_tu: '2025-03-01'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
-xac_minh:
-  muc: NGUON_A
-  pham_vi: 'Đã đối chiếu toàn văn PDF ký số (35-nd.signed.pdf trên datafiles.chinhphu.vn): Nghị định số 35/2025/NĐ-CP do Phó Thủ tướng Trần Hồng Hà ký ban hành ngày 25-02-2025, có hiệu lực thi hành từ ngày 01-03-2025 theo khoản 1 Điều 4, quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nông nghiệp và Môi trường (là căn cứ thẩm quyền ban hành Thông tư 01/2026/TT-BNNMT; bản ghi stub cũ ghi nhầm tên sang Nghị định hướng dẫn Luật Thú y 35/2016/NĐ-CP).'
-  hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-15'
-  boi: paperclip-agent@ozvietnam
-ghi_chu: Nghị định quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nông nghiệp và Môi trường — căn cứ pháp lý về thẩm quyền ban hành cho TT 01/2026/TT-BNNMT và các văn bản của BNNMT.
-toan_van: raw/download/datafiles.chinhphu.vn/35-2025-nd-cp.pdf
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=223102&pageid=27160
-    truy_cap: '2026-10-12'
-    ghi_chu: Thẻ metadata — cần verify URL chính xác
+    truy_cap: '2026-11-15'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/3/35-nd.signed.pdf
     truy_cap: '2026-11-15'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu toàn văn PDF ký số 24 trang trên datafiles.chinhphu.vn (raw/download/datafiles.chinhphu.vn/35-2025-nd-cp.pdf, Phó Thủ tướng Trần Hồng Hà ký ngày 25-02-2025, SHA-256 4057ab3ccfa868a16994cf0a5fa79dd22cec771867125daec10ce39f26d70480) và trang wiki/sources/35-2025-nd-cp.md: gồm 5 điều quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức 30 đơn vị của Bộ Nông nghiệp và Môi trường; có hiệu lực thi hành từ ngày 01-03-2025 và thay thế Nghị định 68/2022/NĐ-CP cùng Nghị định 105/2022/NĐ-CP theo Điều 4; đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Bộ Nông nghiệp và Môi trường là cơ quan của Chính phủ thực hiện chức năng quản lý nhà nước về các lĩnh vực: nông nghiệp; lâm nghiệp; diêm nghiệp; thủy sản; thủy lợi; phòng chống thiên tai; phát triển nông thôn; đất đai; tài nguyên nước; tài nguyên khoáng sản, địa chất; môi trường; khí tượng thuỷ văn; biến đổi khí hậu; đo đạc và bản đồ; quản lý tổng hợp tài nguyên và bảo vệ môi trường biển và hải đảo; viễn thám; quản lý nhà nước các dịch vụ công trong các lĩnh vực thuộc phạm vi quản lý của bộ.'
+    - dieu: 2
+      khoan: 5
+      noi_dung: '5. Ban hành thông tư, quyết định và các văn bản khác về quản lý nhà nước đối với ngành, lĩnh vực thuộc phạm vi quản lý của bộ; chỉ đạo, hướng dẫn, tổ chức thực hiện và kiểm tra, đánh giá việc thực hiện chiến lược, chính sách, quy hoạch, kế hoạch, chương trình, đề án, dự án, nhiệm vụ, các văn bản quy phạm pháp luật thuộc phạm vi quản lý của bộ sau khi được phê duyệt, ban hành; xây dựng tiêu chuẩn quốc gia; xây dựng, ban hành chỉ tiêu quốc gia, quy chuẩn kỹ thuật quốc gia, quy định kỹ thuật, chỉ tiêu thống kê, định mức kinh tế - kỹ thuật trong các ngành, lĩnh vực thuộc phạm vi quản lý nhà nước của bộ; thông tin, tuyên truyền, phổ biến, giáo dục pháp luật, giáo dục nâng cao nhận thức cộng đồng về các ngành, lĩnh vực thuộc phạm vi quản lý nhà nước của bộ.'
+    - dieu: 2
+      khoan: 6
+      noi_dung: '6. Về trồng trọt và bảo vệ thực vật: a) Chỉ đạo, hướng dẫn, kiểm tra hoạt động trồng trọt; việc phát triển vùng cây trồng, sản xuất nông sản thực phẩm an toàn; sản xuất trồng trọt giảm phát thải, sản xuất tuần hoàn, thích ứng với biến đổi khí hậu; công tác bảo vệ và kiểm dịch thực vật; xây dựng lộ trình và hướng dẫn cấp mã số vùng trồng, cơ sở đóng gói trên phạm vi toàn quốc theo quy định của pháp luật; b) Chỉ đạo, hướng dẫn việc sử dụng ngân sách cho các chương trình phòng, chống, khắc phục hậu quả dịch bệnh trên thực vật; c) Chỉ đạo thực hiện về cơ cấu cây trồng; canh tác, kỹ thuật trồng trọt, thu hoạch; tổng kết, đánh giá thực hiện kế hoạch sản xuất trồng trọt hàng năm; ban hành kế hoạch chuyển đổi cơ cấu cây trồng trên đất trồng lúa phạm vi toàn quốc; d) Chỉ đạo, hướng dẫn về trồng trọt hữu cơ; về giống cây trồng nông nghiệp, phân bón và thuốc bảo vệ thực vật theo quy định của pháp luật.'
+    - dieu: 2
+      khoan: 14
+      noi_dung: '14. Về an toàn thực phẩm nông, lâm, thủy sản và muối: a) Chỉ đạo, hướng dẫn, kiểm tra, giám sát việc thực hiện các quy định của pháp luật về an toàn thực phẩm đối với sản xuất ban đầu nông, lâm, thủy sản, muối thuộc phạm vi quản lý nhà nước của bộ; b) Chỉ đạo, hướng dẫn, kiểm tra, giám sát việc thực hiện các quy định của pháp luật về an toàn thực phẩm trong quá trình sản xuất, thu gom, giết mổ, sơ chế, chế biến, bảo quản, vận chuyển, xuất khẩu, nhập khẩu, kinh doanh đối với các sản phẩm, nhóm sản phẩm, thực phẩm, hàng hóa và cơ sở sản xuất, kinh doanh các sản phẩm thực phẩm theo phân công của Chính phủ; c) Tổ chức giám sát, đánh giá nguy cơ, cảnh báo, phòng ngừa, ngăn chặn và khắc phục sự cố an toàn thực phẩm đối với sản phẩm là thực phẩm thuộc phạm vi quản lý; kiểm tra, giám sát việc thực hiện truy xuất nguồn gốc, thu hồi và xử lý đối với thực phẩm không bảo đảm an toàn thuộc phạm vi quản lý; d) Chỉ định cơ sở kiểm nghiệm thực phẩm phục vụ quản lý nhà nước, cơ sở kiểm nghiệm kiểm chứng, kết luận cuối cùng khi có sự khác biệt về kết quả kiểm nghiệm giữa các cơ sở kiểm nghiệm thuộc lĩnh vực được phân công quản lý; đ) Quản lý an toàn thực phẩm đối với chợ đầu mối, đấu giá nông sản; e) Chỉ định cơ quan kiểm tra nhà nước về an toàn thực phẩm nhập khẩu đối với các sản phẩm thuộc lĩnh vực được phân công quản lý; g) Công bố danh sách quốc gia, vùng lãnh thổ và danh sách các cơ sở sản xuất, kinh doanh được phép xuất khẩu vào Việt Nam thuộc lĩnh vực được phân công quản lý.'
+    - dieu: 2
+      khoan: 15
+      noi_dung: '15. Về quản lý chất lượng đối với giống cây trồng, gia súc, gia cầm, vật nuôi, dụng cụ, thiết bị, vật tư, sản phẩm, dịch vụ nông, lâm, diêm nghiệp, thủy sản: a) Tổ chức thực hiện và kiểm tra việc thực hiện cơ chế, chính sách, chiến lược, kế hoạch, chương trình phát triển, nâng cao chất lượng sản phẩm, hàng hoá thuộc phạm vi quản lý của bộ; b) Ban hành danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn (sản phẩm, hàng hóa nhóm 2) thuộc phạm vi quản lý của bộ; c) Chỉ định và quản lý hoạt động của các tổ chức đánh giá sự phù hợp về chất lượng sản phẩm, hàng hoá thuộc phạm vi quản lý của bộ.'
+    - dieu: 2
+      khoan: 17
+      noi_dung: '17. Về thương mại nông, lâm, thủy sản và muối: a) Thực hiện đàm phán thúc đẩy mở cửa thị trường nông sản; tháo gỡ rào cản kỹ thuật trong xuất khẩu, nhập khẩu nông sản; phát triển hợp tác, liên kết trong sản xuất và tiêu thụ sản phẩm nông nghiệp theo phân công của Chính phủ, Thủ tướng Chính phủ; b) Phối hợp với Bộ Công Thương xây dựng, trình cơ quan có thẩm quyền ban hành và tổ chức thực hiện chương trình, đề án về xúc tiến thương mại nông, lâm, thủy sản, phát triển thương hiệu nông sản; triển khai các hoạt động phân tích, dự báo thị trường, xúc tiến thương mại và các hoạt động liên quan đến chương trình thương hiệu về nông, lâm, thủy sản và muối thuộc phạm vi quản lý của bộ; c) Ban hành danh mục cụ thể về hàng hóa cấm nhập khẩu, hàng hóa cấm xuất khẩu; danh mục hàng hóa xuất khẩu, hàng hóa nhập khẩu thuộc diện quản lý chuyên ngành của bộ theo quy định của pháp luật.'
+    - dieu: 2
+      khoan: 32
+      noi_dung: '32. Tổ chức thực hiện hoạt động đăng ký, giao, công nhận, chấp thuận, cấp, cấp đổi, gia hạn, điều chỉnh, cấp lại, chấp thuận trả lại, tạm dừng, đình chỉ, thu hồi các loại giấy phép, giấy chứng nhận, quyết định liên quan đến các lĩnh vực quản lý nhà nước của bộ theo quy định pháp luật.'
+    - dieu: 3
+      noi_dung: '1. Vụ Hợp tác quốc tế. 2. Vụ Kế hoạch - Tài chính. 3. Vụ Khoa học và Công nghệ. 4. Vụ Pháp chế. 5. Vụ Tổ chức cán bộ. 6. Văn phòng bộ. 7. Thanh tra bộ. 8. Cục Chuyển đổi số. 9. Cục Trồng trọt và Bảo vệ thực vật. 10. Cục Chăn nuôi và Thú y. 11. Cục Thủy sản và Kiểm ngư. 12. Cục Lâm nghiệp và Kiểm lâm. 13. Cục Quản lý và Xây dựng công trình thuỷ lợi. 14. Cục Quản lý đê điều và Phòng, chống thiên tai. 15. Cục Kinh tế hợp tác và Phát triển nông thôn. 16. Cục Chất lượng, Chế biến và Phát triển thị trường. 17. Cục Quản lý đất đai. 18. Cục Quản lý tài nguyên nước. 19. Cục Địa chất và Khoáng sản Việt Nam. 20. Cục Môi trường. 21. Cục Biến đổi khí hậu. 22. Cục Bảo tồn thiên nhiên và Đa dạng sinh học. 23. Cục Khí tượng Thủy văn. 24. Cục Biển và Hải đảo Việt Nam. 25. Cục Đo đạc, Bản đồ và Thông tin địa lý Việt Nam. 26. Cục Viễn thám quốc gia. 27. Viện Chiến lược, Chính sách nông nghiệp và môi trường. 28. Báo Nông nghiệp và Môi trường. 29. Tạp chí Nông nghiệp và Môi trường. 30. Trung tâm Khuyến nông quốc gia. Tại Điều này, các đơn vị quy định từ khoản 1 đến khoản 26 là các đơn vị hành chính giúp Bộ trưởng thực hiện chức năng quản lý nhà nước; các đơn vị quy định từ khoản 27 đến khoản 30 là các đơn vị sự nghiệp công lập phục vụ chức năng quản lý nhà nước của bộ. Bộ trưởng Bộ Nông nghiệp và Môi trường quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của các đơn vị trực thuộc bộ; trình Thủ tướng Chính phủ ban hành quyết định về danh sách các đơn vị sự nghiệp công lập khác trực thuộc bộ theo quy định. Vụ Kế hoạch - Tài chính có 03 phòng; Vụ Tổ chức cán bộ có 03 phòng.'
+    - dieu: 4
+      noi_dung: '1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 3 năm 2025. 2. Nghị định này thay thế Nghị định số 68/2022/NĐ-CP ngày 22 tháng 9 năm 2022 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Tài nguyên và Môi trường và Nghị định số 105/2022/NĐ-CP ngày 22 tháng 12 năm 2022 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nông nghiệp và Phát triển nông thôn.'
+    - dieu: 5
+      noi_dung: 'Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương chịu trách nhiệm thi hành Nghị định này.'
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/35-2025-nd-cp.pdf
+  - wiki/sources/35-2025-nd-cp.md
+ghi_chu: Nghị định quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nông nghiệp và Môi trường — căn cứ pháp lý về thẩm quyền ban hành cho TT 01/2026/TT-BNNMT và các văn bản của BNNMT.
