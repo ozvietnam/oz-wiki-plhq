@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 1150/TB-CHQ/2025
+so_hieu_khac:
+  - 1150/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Bản mạch in đã lắp ráp Source PCB Assembly của mô-đun màn hình OLED 15.6 inch trên ô tô, mã hiệu 6871L-8301A, mã số 8529.90.53)'
+co_quan: CHQ
+ngay_ban_hanh: '2025-04-04'
+hieu_luc_tu: '2025-04-04'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=99811&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/4/15/VB_1150.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/4/15/VB_1150.pdf, id=99811, SHA-256 2594c1e8da85755b1a290dadfa166429fbe9fc63ffae94674e8eefd817d110ef): Thông báo số 1150/TB-CHQ ngày 04-04-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Source PCB Assembly (tên gọi theo cấu tạo, công dụng: Bản mạch in đã lắp ráp Source PCB Assembly của mô-đun màn hình OLED 15.6 inch dùng lắp đặt màn hình hiển thị trên ô tô; ký, mã hiệu 6871L-8301A, nhà sản xuất LTE Mountis; gồm mạch in, chip điện tử, cuộn cảm, đi-ốt, điện trở cố định, IC, RAM điện từ, tụ điện, transistor, 01 khe nối cáp và mạch định giờ Timing control IC; kích thước 298mm x 55mm x 0.8mm, trọng lượng 30.5g, điện áp 24V; chức năng biến đổi và truyền dẫn tín hiệu video nhận từ bản mạch chính Set Main Board đến Source Drive IC trên mô-đun màn hình OLED), phân loại vào nhóm 85.29, phân nhóm 8529.90, mã số 8529.90.53; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Bản mạch in đã lắp ráp Source PCB Assembly của mô-đun màn hình OLED 15.6 inch dùng lắp đặt màn hình hiển thị trên ô tô (ký, mã hiệu 6871L-8301A, nhà sản xuất LTE Mountis; kích thước 298x55x0.8mm, nặng 30.5g, điện áp 24V, có chức năng biến đổi và truyền dẫn tín hiệu video từ Set Main Board đến Source Drive IC trên mô-đun màn hình OLED) thuộc nhóm 85.29, phân nhóm 8529.90, mã số 8529.90.53.'
+toan_van: raw/download/files.customs.gov.vn/1150-tb-chq-2025.pdf

@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-3060 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3064 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2364 văn bản, 2364 chưa hết hiệu lực.
+2368 văn bản, 2368 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -650,12 +650,16 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [3265/TB-CHQ/2025](../registry/van-ban/3265-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (7312.10.99)
 - 🟢 [3327/TB-CHQ/2025](../registry/van-ban/3327-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị thông báo thanh toán chuyển khoản thành công bằng âm thanh không tích hợp màn hình hiển thị, mã hiệu Tingee 3S, mã số 8518.21.10)
 - 🟢 [3328/TB-CHQ/2025](../registry/van-ban/3328-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị thông báo thanh toán chuyển khoản thành công bằng âm thanh tích hợp màn hình LCD hiển thị số tiền, mã hiệu Tingee 6LS, mã số 8518.21.10)
+- 🟢 [2625/TB-CHQ/2025](../registry/van-ban/2625-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Kính thư giãn PSiO tạo cảm giác dễ chịu cho mắt kết hợp nghe nhạc thư giãn, mã hiệu PsiO 3.0, mã số 8519.81.99)
 - 🟢 [2666/TB-CHQ/2025](../registry/van-ban/2666-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3902.10.40)
 - 🟢 [2684/TB-CHQ/2025](../registry/van-ban/2684-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3902.30.90)
 - 🟢 [2381/TB-CHQ/2025](../registry/van-ban/2381-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (5607.49.00)
 - 🟢 [2382/TB-CHQ/2025](../registry/van-ban/2382-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2103.90.19)
 - 🟢 [2573/TB-CHQ/2025](../registry/van-ban/2573-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1413/TB-CHQ/2025](../registry/van-ban/1413-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3505.10.10)
+- 🟢 [1259/TB-CHQ/2025](../registry/van-ban/1259-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Polymer acrylic nguyên sinh dạng phân tán trong nước GJ-901 ACRYLIC POLYMER hàm lượng rắn 55%, mã số 3906.90.20)
+- 🟢 [1141/TB-CHQ/2025](../registry/van-ban/1141-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Khung máy chủ phiến Dell PowerEdge MX7000 Modular Chassis, Regulatory Model E44S, mã số 8473.30.90)
+- 🟢 [1150/TB-CHQ/2025](../registry/van-ban/1150-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Bản mạch in đã lắp ráp Source PCB Assembly của mô-đun màn hình OLED 15.6 inch trên ô tô, mã hiệu 6871L-8301A, mã số 8529.90.53)
 - 🟢 [1175/TB-CHQ/2025](../registry/van-ban/1175-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
 - 🟢 [1184/TB-CHQ/2025](../registry/van-ban/1184-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2936.90.00)
 - 🟢 [975/TB-CHQ/2025](../registry/van-ban/975-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3824.99.99)
