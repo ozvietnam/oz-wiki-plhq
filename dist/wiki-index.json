@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-22).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 281,
+ "tong": 284,
  "trang": [
   {
    "slug": "dong-bo-quan-diem-phan-loai",
@@ -5431,6 +5431,50 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "01-2022-nd-cp",
+   "duong_dan": "wiki/sources/01-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 01/2022/NĐ-CP — Sửa đổi, bổ sung quy định chi tiết thi hành Luật Đường sắt về niên hạn sử dụng phương tiện giao thông đường sắt",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "nghi-dinh",
+    "bxd",
+    "hang-da-qua-su-dung",
+    "kiem-tra-chuyen-nganh",
+    "thu-tuc-hai-quan",
+    "sua-doi",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "so_chunks": 10,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "01/2022/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-01-04",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-01-2022-nd-cp-36458.htm"
+    },
+    {
+     "so_hieu": "69/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-05-15",
+     "het_hieu_luc_tu": "2026-09-05",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "292/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193756&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "01-2022-tt-bnnptnt",
    "duong_dan": "wiki/sources/01-2022-tt-bnnptnt.md",
    "loai_trang": "sources",
@@ -7443,6 +7487,92 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "102-2021-nd-cp",
+   "duong_dan": "wiki/sources/102-2021-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 102/2021/NĐ-CP — Sửa đổi, bổ sung các Nghị định về xử phạt vi phạm hành chính trong lĩnh vực thuế, hóa đơn và hải quan",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "nghi-dinh",
+    "btc",
+    "thu-tuc-hai-quan",
+    "thue-xk-nk",
+    "xu-phat",
+    "sua-doi",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "so_chunks": 12,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "102/2021/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-102-2021-nd-cp-34839.htm"
+    },
+    {
+     "so_hieu": "128/2020/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2020-12-10",
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "169/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=201401&pageid=27160"
+    },
+    {
+     "so_hieu": "169/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3244&aid=217408&cid=5277"
+    },
+    {
+     "so_hieu": "15/2012/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-15-2012-qh13-915.htm"
+    },
+    {
+     "so_hieu": "38/2019/QH14",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2020-07-01",
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "108/2025/QH15"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=197312&pageid=27160"
+    },
+    {
+     "so_hieu": "54/2014/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=175358&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "105-2016-qh13",
    "duong_dan": "wiki/sources/105-2016-qh13.md",
    "loai_trang": "sources",
@@ -8692,6 +8822,114 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "119-2017-nd-cp",
+   "duong_dan": "wiki/sources/119-2017-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 119/2017/NĐ-CP — Quy định về xử phạt vi phạm hành chính trong lĩnh vực tiêu chuẩn, đo lường và chất lượng sản phẩm, hàng hóa",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "nghi-dinh",
+    "bkhcn",
+    "kiem-tra-chuyen-nganh",
+    "nhan-hang-hoa",
+    "thu-tuc-hai-quan",
+    "xu-phat",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "so_chunks": 11,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "119/2017/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2017-12-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-119-2017-nd-cp-24980/19675.htm"
+    },
+    {
+     "so_hieu": "126/2021/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-03-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-126-2021-nd-cp-36427.htm"
+    },
+    {
+     "so_hieu": "43/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-06-01",
+     "het_hieu_luc_tu": "2026-01-23",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "37/2026/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=189385"
+    },
+    {
+     "so_hieu": "68/2006/QH11",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2007-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=30035"
+    },
+    {
+     "so_hieu": "05/2007/QH12",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2008-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=51259&pageid=27160"
+    },
+    {
+     "so_hieu": "15/2012/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-15-2012-qh13-915.htm"
+    },
+    {
+     "so_hieu": "132/2008/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "37/2026/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=82467&pageid=27160"
+    },
+    {
+     "so_hieu": "128/2020/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2020-12-10",
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "169/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=201401&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "12-2019-tt-bct",
    "duong_dan": "wiki/sources/12-2019-tt-bct.md",
    "loai_trang": "sources",
@@ -9751,7 +9989,7 @@
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
-     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=204966"
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-01-2022-nd-cp-36458.htm"
     },
     {
      "so_hieu": "09/2014/NĐ-CP",

@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-2909 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2914 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -374,7 +374,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2226 văn bản, 2226 chưa hết hiệu lực.
+2231 văn bản, 2231 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -426,6 +426,11 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [21168/TB-CHQ/2026](../registry/van-ban/21168-tb-chq-2026.yaml) — Thông báo kết quả xác định trước mã số (Thiết bị cung cấp nguồn cho máy chủ Power Supply Unit for Server 800W, chuyển đổi AC 100-240V hoặc DC 200-240V sang DC 12V/5V, mã số 8504.40.19)
 - 🟢 [21205/TB-CHQ/2026](../registry/van-ban/21205-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chất béo bánh kẹo Wilfil 420 từ phân đoạn dầu hạt cọ đã tinh chế và hydro hóa, số CAS 68990-82-9, mã số 1517.90.50)
 - 🟢 [20996/TB-CHQ/2026](../registry/van-ban/20996-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ thực hành AI nâng cao dùng cho cấp THCS AI Advanced Kit for Secondary School, Model WB1012, mã số 9503.00.99)
+- 🟢 [20860/TB-CHQ/2026](../registry/van-ban/20860-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Tấm phim hiển thị giấy điện tử EPD dùng trong sản xuất màn hình giấy điện tử, ký mã hiệu 0711-13070002, mã số 3920.59.00)
+- 🟢 [20862/TB-CHQ/2026](../registry/van-ban/20862-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Đồng lá mỏng bằng đồng tinh luyện chắn nhiễu điện từ dạng cuộn, ký hiệu HSF-USB3-2.0, mã số 7410.21.00)
+- 🟢 [20863/TB-CHQ/2026](../registry/van-ban/20863-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Đồng lá mỏng bằng đồng tinh luyện chắn nhiễu điện từ dạng cuộn, ký hiệu HSF-USB3-3.0, mã số 7410.21.00)
+- 🟢 [20639/TB-CHQ/2026](../registry/van-ban/20639-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị theo dõi đa chức năng Tive Solo 5G tích hợp định vị GPS và cảm biến môi trường, ký mã hiệu TT-7000, mã số 8526.91.90)
+- 🟢 [20717/TB-CHQ/2026](../registry/van-ban/20717-tb-chq-2026.yaml) — Thông báo đính chính Thông báo kết quả xác định trước mã số (đính chính Mục 2 và Mục 3 Thông báo số 19997/TB-CHQ ngày 07-08-2026 về thành phần Ethyl acetate hàm lượng 50%-80%)
 - 🟢 [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - 🟢 [1489/TB-CHQ/2026](../registry/van-ban/1489-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1633/TB-CHQ/2026](../registry/van-ban/1633-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2710.12.99)
