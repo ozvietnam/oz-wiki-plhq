@@ -8,16 +8,41 @@ hieu_luc_tu: '2022-01-04'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong/hang-da-qua-su-dung
-xac_minh:
-  muc: NGUON_A
-  pham_vi: 'số hiệu, trích yếu, ngày ban hành 04-01-2022, hiệu lực 04-01-2022 và tệp 1-nd.signed.pdf trên vanban.chinhphu.vn (docid=204966); còn hiệu lực'
-  hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-15'
-  boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Sửa đổi quy định niên hạn phương tiện giao thông đường sắt nhập khẩu đã qua sử dụng tại Nghị định 65/2018/NĐ-CP.'
-toan_van: raw/download/vanban.chinhphu.vn/01-2022-nd-cp.html
 nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-01-2022-nd-cp-36458.htm
+    truy_cap: '2026-11-22'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/1/36458/39234-1-202269-7001-2022-nd-cp.pdf
+    truy_cap: '2026-11-22'
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=204966
     truy_cap: '2026-11-15'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/01/1-nd.signed.pdf
     truy_cap: '2026-11-15'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF Công báo số 69 + 70 ngày 16-01-2022 có lớp chữ (raw/download/congbaocdn.chinhphu.vn/01-2022-nd-cp.pdf, 02 trang, SHA-256 721324e9e3ed63df0dda6972ef3b6bf126ab93ef7874ff58f659ba249c52378d), thẻ vanban.chinhphu.vn (docid=204966, Phó Thủ tướng Lê Văn Thành ký) và tệp PDF ký số 1-nd.signed.pdf: số hiệu 01/2022/NĐ-CP, ban hành ngày 04-01-2022, có hiệu lực thi hành kể từ ngày ký (04-01-2022, Điều 2); gồm 03 Điều sửa đổi khoản 3, bổ sung khoản 6 Điều 18 và sửa đổi Điều 19 Nghị định 65/2018/NĐ-CP về đối tượng không áp dụng niên hạn sử dụng và lộ trình thực hiện niên hạn sử dụng của phương tiện giao thông đường sắt; đang còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      khoan: 1
+      noi_dung: 'Điều 1. Sửa đổi, bổ sung một số điều của Nghị định số 65/2018/NĐ-CP ngày 12 tháng 5 năm 2018 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đường sắt 1. Sửa đổi khoản 3 và bổ sung khoản 6 Điều 18 như sau: a) Sửa đổi khoản 3 như sau: "3. Không áp dụng quy định về niên hạn sử dụng phương tiện giao thông đường sắt quy định tại khoản 1, khoản 2 Điều này đối với việc thực hiện cứu hộ cứu nạn; dồn dịch trong ga, cảng, trong đề-pô, trong nội bộ nhà máy; điều chuyển giữa các ga, các đề-pô; các đầu máy hơi nước kéo đoàn tàu du lịch; toa xe mặt võng chuyên vận tải phục vụ an ninh, quốc phòng và các loại phương tiện chuyên dùng di chuyển trên đường sắt.". b) Bổ sung khoản 6 như sau: "6. Phương tiện giao thông đường sắt quy định tại khoản 1, khoản 2 Điều này khi hết niên hạn sử dụng được chuyển thành phương tiện không áp dụng quy định về niên hạn sử dụng theo quy định tại khoản 3 Điều này.".'
+      trang_pdf: 1
+      sha256_pdf: 721324e9e3ed63df0dda6972ef3b6bf126ab93ef7874ff58f659ba249c52378d
+    - dieu: 1
+      khoan: 2
+      noi_dung: '2. Sửa đổi Điều 19 như sau: "Điều 19. Lộ trình thực hiện niên hạn sử dụng của phương tiện giao thông đường sắt 1. Các phương tiện hết niên hạn sử dụng trước ngày 31 tháng 12 năm 2018: Được phép hoạt động đến hết ngày 31 tháng 12 năm 2023. 2. Các phương tiện hết niên hạn sử dụng từ 01 tháng 01 năm 2019 đến ngày 31 tháng 12 năm 2019: Được phép hoạt động đến hết ngày 31 tháng 12 năm 2024. 3. Các phương tiện hết niên hạn sử dụng từ 01 tháng 01 năm 2020 đến ngày 31 tháng 12 năm 2025: Được phép hoạt động đến hết ngày 31 tháng 12 năm 2025. 4. Các phương tiện hết niên hạn sử dụng từ ngày 01 tháng 01 năm 2026: Không được kéo dài thời gian hoạt động.".'
+      trang_pdf: 2
+      sha256_pdf: 721324e9e3ed63df0dda6972ef3b6bf126ab93ef7874ff58f659ba249c52378d
+    - dieu: 2
+      noi_dung: 'Điều 2. Hiệu lực thi hành Nghị định này có hiệu lực thi hành kể từ ngày ký.'
+      trang_pdf: 2
+      sha256_pdf: 721324e9e3ed63df0dda6972ef3b6bf126ab93ef7874ff58f659ba249c52378d
+    - dieu: 3
+      noi_dung: 'Điều 3. Trách nhiệm thi hành Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương và Thủ trưởng các cơ quan liên quan chịu trách nhiệm thi hành Nghị định này.'
+      trang_pdf: 2
+      sha256_pdf: 721324e9e3ed63df0dda6972ef3b6bf126ab93ef7874ff58f659ba249c52378d
+ghi_chu: 'Sửa đổi quy định niên hạn phương tiện giao thông đường sắt nhập khẩu đã qua sử dụng và lộ trình thực hiện niên hạn sử dụng tại Điều 18, Điều 19 Nghị định 65/2018/NĐ-CP.'
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/01-2022-nd-cp.pdf
+  - raw/download/vanban.chinhphu.vn/01-2022-nd-cp.html
