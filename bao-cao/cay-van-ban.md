@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-2987 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2991 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -394,7 +394,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2292 văn bản, 2292 chưa hết hiệu lực.
+2296 văn bản, 2296 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -512,6 +512,10 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [15379/TB-CHQ/2026](../registry/van-ban/15379-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Máy tiêm gia cầm tự động 4 chức năng Yiyishenghui Integrated Immunization Machine HS-MY4, công suất 70 W, dùng tiêm chủng gia cầm từ 3 ngày tuổi, mã số 9018.90.39)
 - 🟢 [15382/TB-CHQ/2026](../registry/van-ban/15382-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thuốc kem bôi ngoài da Hirudoid chứa hoạt chất Mucopolysaccharide polysulfate 0,3 g/100 g kem, đóng gói hộp 1 tuýp 14 g, mã số 3004.90.99)
 - 🟢 [15384/TB-CHQ/2026](../registry/van-ban/15384-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bo mạch chủ dành cho máy tính xách tay có chứa CPU Intel Core Ultra 7 265H và GPU NVIDIA GeForce RTX 5060, ký mã hiệu MTM40, mã số 8471.50.10)
+- 🟢 [15042/TB-CHQ/2026](../registry/van-ban/15042-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bảng mẫu vải Swatch card, ký mã hiệu 778CARD, gồm 2 miếng vải sơnin 100% polyester đã tráng phủ dán trên bảng giấy bìa 4,25 x 9 inch, mã số 6307.90.90)
+- 🟢 [13271/TB-CHQ/2026](../registry/van-ban/13271-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ toan áo phẫu thuật thần kinh sọ não Neuro Pack with Pouch, ký mã hiệu V-NSP-002, vải không dệt polypropylene tiệt trùng bằng khí EO dùng 1 lần, mã số 6307.90.90)
+- 🟢 [13272/TB-CHQ/2026](../registry/van-ban/13272-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ toan áo phẫu thuật cột sống Spinal Laminectomy Pack, ký mã hiệu V-SLP-002, vải không dệt polypropylene tiệt trùng bằng khí EO dùng 1 lần, mã số 6307.90.90)
+- 🟢 [13273/TB-CHQ/2026](../registry/van-ban/13273-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ toan áo phẫu thuật chỉnh hình cơ xương khớp chung Orthopedic Pack, ký mã hiệu V-OPP-002, vải không dệt polypropylene tiệt trùng bằng khí EO dùng 1 lần, mã số 6307.90.90)
 - 🟢 [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - 🟢 [1489/TB-CHQ/2026](../registry/van-ban/1489-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1633/TB-CHQ/2026](../registry/van-ban/1633-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2710.12.99)
