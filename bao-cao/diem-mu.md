@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-11-22
 
-Tổng 3134 điểm: **9 cao**, 130 vừa, 2995 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 3135 điểm: **9 cao**, 131 vừa, 2995 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -11,6 +11,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 70 | `danh-muc-hs` |
 | Văn bản nền tảng (có toàn văn) chưa có trang wiki/sources/ | Vừa | 57 | `doc-hieu` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
+| Wiki nhắc văn bản chưa đăng ký | Vừa | 1 | `lien-ket-cheo` |
 | TB-TCHQ cá biệt chưa có nguồn chính thống | Thấp | 1367 | `tb-tchq` |
 | TB-TCHQ cá biệt chưa đối chiếu nguồn A | Thấp | 1367 | `tb-tchq` |
 | Mã HS AHTN cũ đã ánh xạ sang biểu thuế EN2022 | Thấp | 131 | `danh-muc-hs` |
@@ -130,6 +131,10 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **154/2026/TT-BTC có hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 - [ ] **372/2026/NĐ-CP có hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
 - [ ] **63/2026/TT-BKHCN có hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển CON_HIEU_LUC; nạp toàn văn và tóm tắt vào wiki trước ngày hiệu lực.
+
+## Wiki nhắc văn bản chưa đăng ký (1)
+
+- [ ] **Wiki nhắc 87/2010/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/134-2016-nd-cp.md).
 
 ## TB-TCHQ cá biệt chưa có nguồn chính thống (1367)
 

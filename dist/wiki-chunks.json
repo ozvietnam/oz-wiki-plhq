@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-22).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 3003,
+ "tong": 3014,
  "chunks": [
   {
    "chunk_id": "dong-bo-quan-diem-phan-loai#1",
@@ -48611,14 +48611,17 @@
    "duong_dan": "wiki/sources/134-2016-nd-cp.md",
    "loai_trang": "sources",
    "tieu_de": "NĐ 134/2016/NĐ-CP — Hướng dẫn Luật Thuế XK NK",
-   "muc": "Summary",
-   "noi_dung": "**Stub page** — NĐ 134/2016/NĐ-CP quy định chi tiết một số điều và biện pháp thi hành Luật Thuế XK NK 107/2016/QH13. Cần đọc toàn văn.",
+   "muc": "",
+   "noi_dung": "# NĐ 134/2016/NĐ-CP — Quy định chi tiết Luật Thuế xuất khẩu, thuế nhập khẩu\n\nNghị định số **134/2016/NĐ-CP** (ban hành ngày 01/09/2016, hiệu lực từ 01/09/2016; thay thế Nghị định 87/2010/NĐ-CP) quy định chi tiết một số điều và biện pháp thi hành [[sources/107-2016-qh13|Luật Thuế xuất khẩu, thuế nhập khẩu số 107/2016/QH13]]. Văn bản gốc gồm 3 Chương, 40 Điều và 07 Phụ lục, đã được sửa đổi, bổ sung bởi [[sources/18-2021-nd-cp|Nghị định 18/2021/NĐ-CP]] và [[sources/182-2025-nd-cp|Nghị định 182/2025/NĐ-CP]].",
    "tags": [
-    "nd-cp",
-    "stub",
-    "thue-xk-nk"
+    "thue-xk-nk",
+    "mien-thue",
+    "gia-cong",
+    "sxxk",
+    "uu-dai-dau-tu",
+    "nghi-dinh"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [
     {
      "so_hieu": "134/2016/NĐ-CP",
@@ -48639,6 +48642,26 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?docid=184599&pageid=27160"
+    },
+    {
+     "so_hieu": "18/2021/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2021-04-25",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=202806&pageid=27160"
+    },
+    {
+     "so_hieu": "182/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=214329&pageid=27160"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -48649,15 +48672,172 @@
    "duong_dan": "wiki/sources/134-2016-nd-cp.md",
    "loai_trang": "sources",
    "tieu_de": "NĐ 134/2016/NĐ-CP — Hướng dẫn Luật Thuế XK NK",
-   "muc": "Open questions",
-   "noi_dung": "- Đã tải toàn văn chưa?\n- Bao nhiêu chương điều?\n- Nội dung chi tiết các trường hợp giảm/hoàn thuế?",
+   "muc": "1. Phạm vi, đối tượng và miễn thuế gia công, sản xuất xuất khẩu",
+   "noi_dung": "- **Điều 1**: Quy định chi tiết đối tượng chịu thuế, người nộp thuế, thời hạn nộp thuế, miễn thuế, giảm thuế, hoàn thuế xuất khẩu, thuế nhập khẩu theo Luật số 107/2016/QH13.\n- **Điều 10**: Miễn thuế đối với hàng hóa nhập khẩu để gia công, sản phẩm gia công xuất khẩu (nguyên liệu, vật tư, linh kiện, hàng mẫu, máy móc thiết bị thuê mượn phục vụ hợp đồng gia công).\n- **Điều 12**: Miễn thuế đối với hàng hóa nhập khẩu để sản xuất hàng hóa xuất khẩu (nguyên liệu, vật tư, linh kiện nhập khẩu đưa vào sản xuất sản phẩm xuất khẩu).",
    "tags": [
-    "nd-cp",
-    "stub",
-    "thue-xk-nk"
+    "thue-xk-nk",
+    "mien-thue",
+    "gia-cong",
+    "sxxk",
+    "uu-dai-dau-tu",
+    "nghi-dinh"
    ],
-   "confidence": "medium",
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "107/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=184599&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "134-2016-nd-cp#3",
+   "slug": "134-2016-nd-cp",
+   "duong_dan": "wiki/sources/134-2016-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 134/2016/NĐ-CP — Hướng dẫn Luật Thuế XK NK",
+   "muc": "2. Miễn thuế tạo tài sản cố định, 05 năm nguyên liệu và KH&CN",
+   "noi_dung": "- **Điều 14 (Miễn thuế tạo tài sản cố định — dự án ưu đãi đầu tư)**: Miễn thuế nhập khẩu đối với máy móc, thiết bị, phương tiện vận tải chuyên dùng, vật tư xây dựng trong nước chưa sản xuất được để tạo tài sản cố định của đối tượng được hưởng ưu đãi đầu tư (được sửa đổi chi tiết tại khoản 7 Điều 1 [[sources/18-2021-nd-cp|Nghị định 18/2021/NĐ-CP]]).\n- **Điều 15 (Miễn thuế 05 năm nguyên liệu, vật tư, linh kiện)**: Miễn thuế nhập khẩu trong thời hạn **05 năm** kể từ khi bắt đầu sản xuất đối với nguyên liệu, vật tư, linh kiện trong nước chưa sản xuất được nhập khẩu để sản xuất của dự án đầu tư thuộc ngành, nghề đặc biệt ưu đãi đầu tư hoặc địa bàn có điều kiện kinh tế - xã hội đặc biệt khó khăn (sửa đổi tại khoản 8 Điều 1 [[sources/18-2021-nd-cp|Nghị định 18/2021/NĐ-CP]]).\n- **Điều 19 và Điều 24 (NCKH, CNTT, công nghiệp công nghệ số)**: Điều 19 gốc (nghiên cứu khoa học, phát triển công nghệ) đã **bị bãi bỏ** tại Điều 2 [[sources/182-2025-nd-cp|Nghị định 182/2025/NĐ-CP]]; đồng thời **Điều 24** được sửa đổi toàn diện tại khoản 1 Điều 1 [[sources/182-2025-nd-cp|Nghị định 182/2025/NĐ-CP]] để quy định miễn thuế nhập khẩu hàng hóa phát triển khoa học, công nghệ, đổi mới sáng tạo và công nghiệp công nghệ số.",
+   "tags": [
+    "thue-xk-nk",
+    "mien-thue",
+    "gia-cong",
+    "sxxk",
+    "uu-dai-dau-tu",
+    "nghi-dinh"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "18/2021/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2021-04-25",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=202806&pageid=27160"
+    },
+    {
+     "so_hieu": "182/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=214329&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "134-2016-nd-cp#4",
+   "slug": "134-2016-nd-cp",
+   "duong_dan": "wiki/sources/134-2016-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 134/2016/NĐ-CP — Hướng dẫn Luật Thuế XK NK",
+   "muc": "3. Thông báo Danh mục miễn thuế và báo cáo sử dụng hàng hóa miễn thuế",
+   "noi_dung": "- **Điều 30 (Thông báo Danh mục hàng hóa miễn thuế dự kiến nhập khẩu)**:\n  - **Khoản 1 & khoản 4**: Chủ dự án / tổ chức thuộc các trường hợp miễn thuế theo quy định (bao gồm tạo TSCĐ theo Điều 14, nguyên liệu 05 năm theo Điều 15, điểm b, c, d khoản 21 Điều 16 Luật 107/2016/QH13 sửa đổi theo Điều 24 mới) phải gửi **Thông báo Danh mục miễn thuế** cho cơ quan hải quan **trước khi đăng ký tờ khai hàng hóa nhập khẩu miễn thuế đầu tiên**.\n  - **Điểm a khoản 6**: Cơ quan hải quan tiếp nhận, kiểm tra hồ sơ thông báo Danh mục miễn thuế và thông báo kết quả cho người nộp thuế trong thời hạn tối đa **03 ngày làm việc** kể từ ngày tiếp nhận đủ hồ sơ.\n  - **Điểm đ khoản 7 (báo cáo tình hình sử dụng hàng hóa miễn thuế)**: Quy định trách nhiệm báo cáo hằng năm chậm nhất là ngày thứ **90** kể từ ngày kết thúc năm tài chính; nội dung báo cáo sử dụng định kỳ sau này được tách và quy định riêng tại **Điều 31a** bổ sung bởi khoản 15 Điều 1 [[sources/18-2021-nd-cp|Nghị định 18/2021/NĐ-CP]].",
+   "tags": [
+    "thue-xk-nk",
+    "mien-thue",
+    "gia-cong",
+    "sxxk",
+    "uu-dai-dau-tu",
+    "nghi-dinh"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "107/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=184599&pageid=27160"
+    },
+    {
+     "so_hieu": "18/2021/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2021-04-25",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=202806&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "134-2016-nd-cp#5",
+   "slug": "134-2016-nd-cp",
+   "duong_dan": "wiki/sources/134-2016-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 134/2016/NĐ-CP — Hướng dẫn Luật Thuế XK NK",
+   "muc": "4. Hồ sơ miễn thuế, giảm thuế, hoàn thuế và hiệu lực",
+   "noi_dung": "- **Điều 31**: Quy định hồ sơ, thủ tục miễn thuế khi làm thủ tục hải quan đối với hàng hóa thuộc diện miễn thuế (bao gồm trường hợp không phải thông báo Danh mục miễn thuế).\n- **Điều 32 – Điều 37**: Quy định chi tiết giảm thuế đối với hàng hóa bị hư hỏng, mất mát trong quá trình giám sát hải quan (Điều 32) và hoàn thuế xuất khẩu, thuế nhập khẩu trong các trường hợp tái xuất, tái nhập, nộp thừa, sản xuất xuất khẩu (Điều 33 – Điều 37).\n- **Điều 38**: Có hiệu lực thi hành từ ngày **01/09/2016**, thay thế Nghị định số 87/2010/NĐ-CP.",
+   "tags": [
+    "thue-xk-nk",
+    "mien-thue",
+    "gia-cong",
+    "sxxk",
+    "uu-dai-dau-tu",
+    "nghi-dinh"
+   ],
+   "confidence": "high",
    "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "134-2016-nd-cp#6",
+   "slug": "134-2016-nd-cp",
+   "duong_dan": "wiki/sources/134-2016-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 134/2016/NĐ-CP — Hướng dẫn Luật Thuế XK NK",
+   "muc": "5. Quan hệ hiệu lực và đối chiếu toàn văn",
+   "noi_dung": "- Tệp toàn văn PDF lưu tại `raw/download/datafiles.chinhphu.vn/134-2016-nd-cp.pdf` (78 trang scan có chữ ký số), bản OCR kiểm chứng 78 trang lưu tại `raw/ocr/134-2016-nd-cp.ocr.txt`.\n- Khi tra cứu quy định hiện hành về miễn thuế dự án ưu đãi đầu tư, Danh mục miễn thuế và báo cáo sử dụng hàng hóa miễn thuế, phải đọc kết hợp với các điểm sửa đổi tại [[sources/18-2021-nd-cp|NĐ 18/2021/NĐ-CP]] (từ 25/04/2021) và [[sources/182-2025-nd-cp|NĐ 182/2025/NĐ-CP]] (từ 01/07/2025).",
+   "tags": [
+    "thue-xk-nk",
+    "mien-thue",
+    "gia-cong",
+    "sxxk",
+    "uu-dai-dau-tu",
+    "nghi-dinh"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "18/2021/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2021-04-25",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=202806&pageid=27160"
+    },
+    {
+     "so_hieu": "182/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=214329&pageid=27160"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -56700,14 +56880,17 @@
    "duong_dan": "wiki/sources/18-2021-nd-cp.md",
    "loai_trang": "sources",
    "tieu_de": "NĐ 18/2021/NĐ-CP — Sửa đổi NĐ 134/2016 (giảm/hoàn thuế)",
-   "muc": "Summary",
-   "noi_dung": "**Stub page** — NĐ 18/2021/NĐ-CP sửa đổi, bổ sung NĐ 134/2016/NĐ-CP về giảm/hoàn thuế. Cần đọc toàn văn.",
+   "muc": "",
+   "noi_dung": "# NĐ 18/2021/NĐ-CP — Sửa đổi, bổ sung một số điều của NĐ 134/2016/NĐ-CP\n\nNghị định số **18/2021/NĐ-CP** (ban hành ngày 11/03/2021, hiệu lực từ ngày **25/04/2021**) sửa đổi, bổ sung toàn diện nhiều quy định về miễn thuế, giảm thuế, hoàn thuế, không thu thuế và điều kiện kiểm tra, giám sát hải quan trong [[sources/134-2016-nd-cp|Nghị định 134/2016/NĐ-CP]] thi hành [[sources/107-2016-qh13|Luật Thuế xuất khẩu, thuế nhập khẩu 107/2016/QH13]]. Văn bản gồm 2 Điều (Điều 1 gồm 21 khoản sửa đổi, bổ sung; Điều 2 gồm 6 khoản về tổ chức thực hiện và hiệu lực) cùng các Phụ lục biểu mẫu.",
    "tags": [
-    "nd-cp",
-    "stub",
-    "thue-xk-nk"
+    "thue-xk-nk",
+    "mien-thue",
+    "danh-muc-mien-thue",
+    "bao-cao-su-dung",
+    "dncx",
+    "nghi-dinh"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [
     {
      "so_hieu": "18/2021/NĐ-CP",
@@ -56728,6 +56911,16 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?docid=186707&pageid=27160"
+    },
+    {
+     "so_hieu": "107/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=184599&pageid=27160"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -56738,15 +56931,119 @@
    "duong_dan": "wiki/sources/18-2021-nd-cp.md",
    "loai_trang": "sources",
    "tieu_de": "NĐ 18/2021/NĐ-CP — Sửa đổi NĐ 134/2016 (giảm/hoàn thuế)",
-   "muc": "Open questions",
-   "noi_dung": "- Đã tải toàn văn chưa?\n- Sửa những điều nào?\n- Có hiệu lực từ ngày nào?",
+   "muc": "1. Gia công, sản xuất xuất khẩu và kiểm tra giám sát DNCX",
+   "noi_dung": "- **Khoản 1 Điều 1 (sửa Điều 3)**: Quy định áp dụng thuế suất và miễn thuế đối với hàng hóa xuất khẩu, nhập khẩu tại chỗ phục vụ gia công và sản xuất xuất khẩu.\n- **Khoản 4 – khoản 6 Điều 1 (sửa Điều 10, Điều 11, Điều 12)**: Siết chặt và làm rõ điều kiện cơ sở gia công, cơ sở sản xuất hàng hóa xuất khẩu được miễn thuế khi nhập khẩu nguyên liệu, vật tư, linh kiện, sản phẩm gia công và trường hợp thuê gia công lại.\n- **Khoản 10 Điều 1 (bổ sung Điều 28a)**: Quy định điều kiện kiểm tra, giám sát hải quan và áp dụng chính sách thuế đối với doanh nghiệp chế xuất thuộc khu phi thuế quan (hệ thống camera giám sát lưu giữ dữ liệu tối thiểu **12 tháng**, quy trình kiểm tra xác nhận điều kiện trong **10 ngày làm việc**).",
    "tags": [
-    "nd-cp",
-    "stub",
-    "thue-xk-nk"
+    "thue-xk-nk",
+    "mien-thue",
+    "danh-muc-mien-thue",
+    "bao-cao-su-dung",
+    "dncx",
+    "nghi-dinh"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "18-2021-nd-cp#3",
+   "slug": "18-2021-nd-cp",
+   "duong_dan": "wiki/sources/18-2021-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 18/2021/NĐ-CP — Sửa đổi NĐ 134/2016 (giảm/hoàn thuế)",
+   "muc": "2. Miễn thuế tạo tài sản cố định và nguyên liệu 05 năm",
+   "noi_dung": "- **Khoản 7 Điều 1 (sửa Điều 14)**: Quy định chi tiết miễn thuế hàng hóa nhập khẩu để tạo tài sản cố định của đối tượng được hưởng ưu đãi đầu tư, bổ sung nguyên tắc xác định máy móc, thiết bị, phương tiện vận tải chuyên dùng trong dây chuyền công nghệ và các dự án quy mô vốn lớn hoặc sử dụng nhiều lao động ở vùng nông thôn.\n- **Khoản 8 Điều 1 (sửa Điều 15)**: Quy định miễn thuế nhập khẩu trong thời hạn **05 năm** kể từ khi bắt đầu sản xuất đối với nguyên liệu, vật tư, linh kiện trong nước chưa sản xuất được của dự án thuộc ngành, nghề đặc biệt ưu đãi đầu tư hoặc địa bàn có điều kiện kinh tế - xã hội đặc biệt khó khăn.",
+   "tags": [
+    "thue-xk-nk",
+    "mien-thue",
+    "danh-muc-mien-thue",
+    "bao-cao-su-dung",
+    "dncx",
+    "nghi-dinh"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "18-2021-nd-cp#4",
+   "slug": "18-2021-nd-cp",
+   "duong_dan": "wiki/sources/18-2021-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 18/2021/NĐ-CP — Sửa đổi NĐ 134/2016 (giảm/hoàn thuế)",
+   "muc": "3. Thông báo Danh mục miễn thuế và Báo cáo sử dụng hàng hóa miễn thuế (Điều 31a)",
+   "noi_dung": "- **Khoản 13 Điều 1 (sửa Điều 30 — Thông báo Danh mục miễn thuế)**: Chuẩn hóa quy trình thông báo Danh mục hàng hóa miễn thuế dự kiến nhập khẩu qua Hệ thống xử lý dữ liệu điện tử hải quan (hoặc hồ sơ giấy khi hệ thống gặp sự cố theo Mẫu số 05, 06, 07), quy định rõ thành phần hồ sơ, sửa đổi Danh mục và thời hạn xử lý của cơ quan hải quan.\n- **Khoản 14 Điều 1 (sửa Điều 31)**: Quy định hồ sơ, thủ tục miễn thuế trực tiếp khi làm thủ tục hải quan.\n- **Khoản 15 Điều 1 (bổ sung Điều 31a — Thông báo tình hình sử dụng hàng hóa miễn thuế)**: Tổ chức, cá nhân sử dụng hàng hóa miễn thuế nhập khẩu thuộc đối tượng phải thông báo Danh mục miễn thuế có trách nhiệm thông báo tình hình sử dụng hàng hóa miễn thuế định kỳ **hằng năm** cho cơ quan hải quan nơi tiếp nhận Danh mục miễn thuế trong thời hạn **90 ngày** kể từ ngày kết thúc năm tài chính (theo Mẫu số 07 Phụ lục VIIa hoặc Mẫu số 18 Phụ lục VII). Trường hợp hết thời hạn miễn thuế 05 năm mà nguyên liệu, vật tư, linh kiện chưa sử dụng hết phải kê khai, nộp đủ thuế trong thời hạn 30 ngày.",
+   "tags": [
+    "thue-xk-nk",
+    "mien-thue",
+    "danh-muc-mien-thue",
+    "bao-cao-su-dung",
+    "dncx",
+    "nghi-dinh"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "18-2021-nd-cp#5",
+   "slug": "18-2021-nd-cp",
+   "duong_dan": "wiki/sources/18-2021-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 18/2021/NĐ-CP — Sửa đổi NĐ 134/2016 (giảm/hoàn thuế)",
+   "muc": "4. Không thu thuế và hiệu lực thi hành",
+   "noi_dung": "- **Khoản 19 Điều 1 (bổ sung Điều 37a)**: Quy định cụ thể các trường hợp không thu thuế xuất khẩu, thuế nhập khẩu (hàng hóa không tái nhập/tái xuất, hàng hóa thuộc đối tượng không chịu thuế hoặc hoàn thuế nhưng chưa nộp thuế).\n- **Điều 2**: Nghị định có hiệu lực thi hành từ ngày **25/04/2021** và quy định xử lý chuyển tiếp đối với Danh mục miễn thuế đã thông báo trước ngày có hiệu lực.",
+   "tags": [
+    "thue-xk-nk",
+    "mien-thue",
+    "danh-muc-mien-thue",
+    "bao-cao-su-dung",
+    "dncx",
+    "nghi-dinh"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "18-2021-nd-cp#6",
+   "slug": "18-2021-nd-cp",
+   "duong_dan": "wiki/sources/18-2021-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 18/2021/NĐ-CP — Sửa đổi NĐ 134/2016 (giảm/hoàn thuế)",
+   "muc": "5. Đối chiếu toàn văn và văn bản liên quan",
+   "noi_dung": "- Tệp PDF gốc lưu tại `raw/download/datafiles.chinhphu.vn/18-2021-nd-cp.pdf` (114 trang scan có chữ ký số), bản OCR 114 trang lưu tại `raw/ocr/18-2021-nd-cp.ocr.txt`.\n- Đối với lĩnh vực khoa học, công nghệ, đổi mới sáng tạo và công nghiệp công nghệ số, quy định về Điều 24 và Điều 30 của [[sources/134-2016-nd-cp|Nghị định 134/2016/NĐ-CP]] tiếp tục được sửa đổi tại [[sources/182-2025-nd-cp|Nghị định 182/2025/NĐ-CP]].",
+   "tags": [
+    "thue-xk-nk",
+    "mien-thue",
+    "danh-muc-mien-thue",
+    "bao-cao-su-dung",
+    "dncx",
+    "nghi-dinh"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "134/2016/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=186707&pageid=27160"
+    },
+    {
+     "so_hieu": "182/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=214329&pageid=27160"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -57206,14 +57503,17 @@
    "duong_dan": "wiki/sources/182-2025-nd-cp.md",
    "loai_trang": "sources",
    "tieu_de": "NĐ 182/2025/NĐ-CP — Sửa đổi NĐ 134/2016 (lần 2)",
-   "muc": "Summary",
-   "noi_dung": "**Stub page** — NĐ 182/2025/NĐ-CP sửa đổi, bổ sung NĐ 134/2016 (lần 2) về chính sách thuế. Cần đọc toàn văn.",
+   "muc": "",
+   "noi_dung": "# NĐ 182/2025/NĐ-CP — Sửa đổi, bổ sung một số điều của NĐ 134/2016/NĐ-CP (lần 2)\n\nNghị định số **182/2025/NĐ-CP** (ban hành ngày 01/07/2025, hiệu lực từ ngày **01/07/2025**) sửa đổi, bổ sung một số điều của [[sources/134-2016-nd-cp|Nghị định 134/2016/NĐ-CP]] (đã được sửa đổi tại [[sources/18-2021-nd-cp|Nghị định 18/2021/NĐ-CP]]) nhằm cụ thể hóa chính sách miễn thuế nhập khẩu cho hoạt động **khoa học, công nghệ, đổi mới sáng tạo và công nghiệp công nghệ số** theo khoản 3 Điều 5 Luật số 90/2025/QH15 sửa đổi khoản 21 Điều 16 [[sources/107-2016-qh13|Luật Thuế xuất khẩu, thuế nhập khẩu 107/2016/QH13]].",
    "tags": [
-    "nd-cp",
-    "stub",
-    "thue-xk-nk"
+    "thue-xk-nk",
+    "mien-thue",
+    "khoa-hoc-cong-nghe",
+    "doi-moi-sang-tao",
+    "cong-nghiep-cong-nghe-so",
+    "nghi-dinh"
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "van_ban_lien_quan": [
     {
      "so_hieu": "182/2025/NĐ-CP",
@@ -57224,6 +57524,46 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?docid=214329&pageid=27160"
+    },
+    {
+     "so_hieu": "134/2016/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=186707&pageid=27160"
+    },
+    {
+     "so_hieu": "18/2021/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2021-04-25",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=202806&pageid=27160"
+    },
+    {
+     "so_hieu": "90/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214558"
+    },
+    {
+     "so_hieu": "107/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=184599&pageid=27160"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -57234,14 +57574,160 @@
    "duong_dan": "wiki/sources/182-2025-nd-cp.md",
    "loai_trang": "sources",
    "tieu_de": "NĐ 182/2025/NĐ-CP — Sửa đổi NĐ 134/2016 (lần 2)",
-   "muc": "Open questions",
-   "noi_dung": "- Đã tải toàn văn chưa?\n- Sửa những điều nào?\n- Có hiệu lực từ ngày nào?",
+   "muc": "1. Miễn thuế nhập khẩu phát triển KH&CN, đổi mới sáng tạo, công nghiệp công nghệ số (Điều 1 khoản 1)",
+   "noi_dung": "- **Khoản 1 Điều 1** sửa đổi **Điều 24** Nghị định 134/2016/NĐ-CP về miễn thuế hàng hóa nhập khẩu để phát triển khoa học, công nghệ, đổi mới sáng tạo, công nghiệp công nghệ số:\n  - Hàng hóa nhập khẩu thuộc khoản 21 Điều 16 Luật 107/2016/QH13 (được sửa đổi tại khoản 3 Điều 5 Luật số 90/2025/QH15) gồm máy móc, thiết bị, phụ tùng, vật tư chuyên dùng; tài liệu, sách báo khoa học chuyên dùng; hàng hóa tạo tài sản cố định hoặc nguyên liệu, vật tư, linh kiện trong nước chưa sản xuất được phục vụ trực tiếp nghiên cứu khoa học, phát triển công nghệ, đổi mới sáng tạo và công nghiệp công nghệ số.\n  - Trường hợp hết thời hạn miễn thuế **05 năm** theo quy định tại điểm c khoản 21 Điều 16 Luật 107/2016/QH13 (sửa đổi) mà nguyên liệu, vật tư, linh kiện nhập khẩu chưa sử dụng hết thì người nộp thuế phải kê khai, nộp đủ thuế theo quy định đối với phần chưa sử dụng hết.\n  - Thủ tục áp dụng: hàng hóa thuộc **điểm b, c, d khoản 21 Điều 16** thực hiện thông báo **Danh mục miễn thuế** theo **Điều 30** Nghị định 134/2016/NĐ-CP; hàng hóa thuộc **điểm a khoản 21 Điều 16** thực hiện hồ sơ, thủ tục miễn thuế khi làm thủ tục hải quan theo **Điều 31** Nghị định 134/2016/NĐ-CP.",
    "tags": [
-    "nd-cp",
-    "stub",
-    "thue-xk-nk"
+    "thue-xk-nk",
+    "mien-thue",
+    "khoa-hoc-cong-nghe",
+    "doi-moi-sang-tao",
+    "cong-nghiep-cong-nghe-so",
+    "nghi-dinh"
    ],
-   "confidence": "medium",
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "134/2016/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=186707&pageid=27160"
+    },
+    {
+     "so_hieu": "107/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=184599&pageid=27160"
+    },
+    {
+     "so_hieu": "90/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214558"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "182-2025-nd-cp#3",
+   "slug": "182-2025-nd-cp",
+   "duong_dan": "wiki/sources/182-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 182/2025/NĐ-CP — Sửa đổi NĐ 134/2016 (lần 2)",
+   "muc": "2. Sửa đổi thủ tục thông báo Danh mục miễn thuế tại Điều 30 (Điều 1 khoản 2)",
+   "noi_dung": "- **Khoản 2 Điều 1** sửa đổi, bổ sung **Điều 30** Nghị định 134/2016/NĐ-CP để tích hợp các trường hợp mới vào quy trình thông báo Danh mục hàng hóa miễn thuế:\n  - Bổ sung dẫn chiếu **điểm b, c, d khoản 21 Điều 16 Luật 107/2016/QH13** (sửa đổi bởi Luật 90/2025/QH15) vào đối tượng phải thông báo Danh mục hàng hóa miễn thuế dự kiến nhập khẩu.\n  - Sửa **điểm đ khoản 3 Điều 30** về giấy tờ chứng minh đối với tổ chức khoa học và công nghệ, doanh nghiệp công nghệ cao, trung tâm đổi mới sáng tạo, trung tâm nghiên cứu và phát triển (R&D).\n  - Sửa **điểm i khoản 3 Điều 30** bổ sung bản thuyết minh dự án sản xuất sản phẩm công nghệ số hoặc văn bản xác nhận liên quan làm căn cứ tiếp nhận Danh mục miễn thuế.",
+   "tags": [
+    "thue-xk-nk",
+    "mien-thue",
+    "khoa-hoc-cong-nghe",
+    "doi-moi-sang-tao",
+    "cong-nghiep-cong-nghe-so",
+    "nghi-dinh"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "134/2016/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=186707&pageid=27160"
+    },
+    {
+     "so_hieu": "107/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=184599&pageid=27160"
+    },
+    {
+     "so_hieu": "90/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214558"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "182-2025-nd-cp#4",
+   "slug": "182-2025-nd-cp",
+   "duong_dan": "wiki/sources/182-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 182/2025/NĐ-CP — Sửa đổi NĐ 134/2016 (lần 2)",
+   "muc": "3. Bãi bỏ Điều 19 cũ và hiệu lực thi hành (Điều 2, Điều 3)",
+   "noi_dung": "- **Điều 2 (Bãi bỏ, thay thế dẫn chiếu)**:\n  - **Bãi bỏ Điều 19** Nghị định 134/2016/NĐ-CP (quy định cũ về miễn thuế nghiên cứu khoa học, phát triển công nghệ) do đã được hợp nhất và mở rộng tại Điều 24 mới.\n  - Bỏ cụm từ \"19\" tại khoản 1 Điều 40 và thay dẫn chiếu \"Điều 19\" tại điểm c khoản 5 Điều 31 bằng \"điểm a khoản 21 Điều 16 Luật Thuế xuất khẩu, thuế nhập khẩu (được sửa đổi tại khoản 3 Điều 5 Luật số 90/2025/QH15)\".\n- **Điều 3 (Hiệu lực thi hành)**: Nghị định có hiệu lực từ ngày **01/07/2025**.",
+   "tags": [
+    "thue-xk-nk",
+    "mien-thue",
+    "khoa-hoc-cong-nghe",
+    "doi-moi-sang-tao",
+    "cong-nghiep-cong-nghe-so",
+    "nghi-dinh"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "134/2016/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=186707&pageid=27160"
+    },
+    {
+     "so_hieu": "90/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214558"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "182-2025-nd-cp#5",
+   "slug": "182-2025-nd-cp",
+   "duong_dan": "wiki/sources/182-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 182/2025/NĐ-CP — Sửa đổi NĐ 134/2016 (lần 2)",
+   "muc": "4. Đối chiếu toàn văn",
+   "noi_dung": "- Tệp PDF gốc lưu tại `raw/download/datafiles.chinhphu.vn/182-2025-nd-cp.pdf` (04 trang scan có chữ ký số), bản OCR kiểm chứng 04 trang lưu tại `raw/ocr/182-2025-nd-cp.ocr.txt`.",
+   "tags": [
+    "thue-xk-nk",
+    "mien-thue",
+    "khoa-hoc-cong-nghe",
+    "doi-moi-sang-tao",
+    "cong-nghiep-cong-nghe-so",
+    "nghi-dinh"
+   ],
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
