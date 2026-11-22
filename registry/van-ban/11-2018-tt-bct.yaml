@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — từ sheet HT biểu thuế
 so_hieu: 11/2018/TT-BCT
 loai: THONG_TU
-ten: 'Sửa đổi, bổ sung Thông tư số 21/2016/TT-BCT ngày 20 tháng 9 năm 2016 của Bộ trưởng Bộ Công Thương quy định thực hiện Quy tắc xuất xứ hàng hóa trong Hiệp định Thương mại tự do giữa Việt Nam và Liên minh Kinh tế Á Âu'
+ten: Sửa đổi, bổ sung Thông tư số 21/2016/TT-BCT ngày 20 tháng 9 năm 2016 của Bộ trưởng Bộ Công Thương quy định thực hiện Quy tắc xuất xứ hàng hóa trong Hiệp định Thương mại tự do giữa Việt Nam và Liên minh Kinh tế Á Âu
 co_quan: BCT
 ngay_ban_hanh: '2018-05-29'
 hieu_luc_tu: '2018-07-01'
@@ -17,11 +17,28 @@ nguon:
     truy_cap: '2026-11-14'
   - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-11-2018-tt-bct-sua-doi-bo-sung-thong-tu-so-21-2016-tt-bct-ngay-20-thang-9-nam-2016-cua-bo-truong-bo-cong-thuong-quy-dinh-thuc-hien-quy-tac-xuat-xu-hang-hoa-trong-hiep-dinh-thuong-mai-tu-do-giua-viet-nam-va-lien-minh-kinh-te-a-au--129235
     truy_cap: '2026-11-14'
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-11-2018-tt-bct-26771.htm
+    truy_cap: '2026-11-22'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/5/26771/22894-1-2018743-74411-2018-tt-bct.pdf
+    truy_cap: '2026-11-22'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'Đã đối chiếu tệp gốc ký số (11-bct.zip: TT 11 2018 TT BCT signed.pdf + PL TT 11 PSR.pdf) trên Cổng Thông tin điện tử Chính phủ (vanban.chinhphu.vn docid=193969) và CSDL Quốc gia về VBPL (vbpl.vn ID 129235): Thông tư số 11/2018/TT-BCT do Bộ trưởng Trần Tuấn Anh ký ban hành ngày 29-05-2018 (bản ghi cũ để ngày giả định 2018-01-01 và gắn nhầm ngày ban hành 2018-05-29 vào hieu_luc_tu), có hiệu lực thi hành từ ngày 01-07-2018 theo khoản 1 Điều 2. Điều 1 thay thế Phụ lục II (Quy tắc cụ thể mặt hàng - PSR chuyển đổi sang HS 2017) ban hành kèm theo Thông tư số 21/2016/TT-BCT ngày 20-09-2016. Văn bản hiện đang còn hiệu lực thi hành.'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Thay thế Phụ lục II (Quy tắc cụ thể mặt hàng - PSR theo Danh mục HS 2017) của Thông tư 21/2016/TT-BCT (chưa có trong sổ) thực hiện Hiệp định VN-EAEU FTA.'
-toan_van: chua_co
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Sửa đổi, bổ sung Điều 3 Thông tư số 21/2016/TT-BCT Thủ tục cấp và kiểm tra Giấy chứng nhận xuất xứ hàng hóa thực hiện theo quy định tại Phụ lục I ban hành kèm theo Thông tư số 21/2016/TT-BCT; Nghị định số 31/2018/NĐ-CP ngày 08 tháng 3 năm 2018 của Chính phủ quy định chi tiết Luật Quản lý ngoại thương về xuất xứ hàng hóa và Thông tư số 05/2018/TT-BCT ngày 03 tháng 4 năm 2018 của Bộ trưởng Công Thương quy định về xuất xứ hàng hóa.
+      trang_pdf: 1
+      sha256_pdf: a744dc2dad1c9d547c4348d2d71d71798223ad72434dd74ed6d02aa52ace5536
+    - dieu: 2
+      noi_dung: Điều 2. Sửa đổi, bổ sung Phụ lục II ban hành kèm theo Thông tư số 21/2016/TT-BCT Thay thế Phụ lục II - Quy tắc cụ thể mặt hàng ban hành kèm theo Thông tư số 21/2016/TT-BCT bằng Phụ lục ban hành kèm theo Thông tư này.
+      trang_pdf: 2
+      sha256_pdf: a744dc2dad1c9d547c4348d2d71d71798223ad72434dd74ed6d02aa52ace5536
+    - dieu: 3
+      noi_dung: Điều 3. Hiệu lực thi hành Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 7 năm 2018./. BỘ TRƯỞNG Trần Tuấn Anh
+      trang_pdf: 2
+      sha256_pdf: a744dc2dad1c9d547c4348d2d71d71798223ad72434dd74ed6d02aa52ace5536
+ghi_chu: Thay thế Phụ lục II (Quy tắc cụ thể mặt hàng - PSR theo Danh mục HS 2017) của Thông tư 21/2016/TT-BCT (chưa có trong sổ) thực hiện Hiệp định VN-EAEU FTA.
+toan_van: raw/download/congbaocdn.chinhphu.vn/11-2018-tt-bct.pdf

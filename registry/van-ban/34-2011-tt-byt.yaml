@@ -24,5 +24,17 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Ban hành kèm theo Thông tư này các Quy chuẩn kỹ thuật quốc gia về an toàn vệ sinh đối với bao bì, dụng cụ tiếp xúc trực tiếp với thực phẩm: QCVN 12-1:2011/BYT - Quy chuẩn kỹ thuật quốc gia về an toàn vệ sinh đối với bao bì, dụng cụ tiếp xúc trực tiếp với thực phẩm bằng nhựa tổng hợp; QCVN 12-2:2011/BYT - Quy chuẩn kỹ thuật quốc gia về an toàn vệ sinh đối với bao bì, dụng cụ tiếp xúc trực tiếp với thực phẩm bằng cao su;'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Thông tư này có hiệu lực từ ngày 01 tháng 03 năm 2012
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Cục trưởng Cục An toàn vệ sinh thực phẩm, Thủ trưởng các đơn vị thuộc Bộ Y tế, các đơn vị trực thuộc Bộ Y tế; Giám đốc Sở Y tế các tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Thông tư này./.
+      trang_pdf: 1
 ghi_chu: 'Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. LƯU Ý TRÙNG SỐ: đây KHÔNG phải định mức thiết bị y tế hay mỹ phẩm — là QCVN an toàn vệ sinh bao bì, dụng cụ tiếp xúc trực tiếp thực phẩm (nhựa/cao su/kim loại); hàng bao bì thực phẩm nhập khẩu phải công bố hợp quy theo QCVN này khi thông quan và lưu thông.'
-toan_van: raw/download/vbpl.vn/34-2011-tt-byt.html
+toan_van:
+  - raw/download/vbpl.vn/34-2011-tt-byt.html
+  - raw/download/vbpl.vn/34-2011-tt-byt-body.txt

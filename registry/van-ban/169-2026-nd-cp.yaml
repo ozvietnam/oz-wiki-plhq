@@ -18,11 +18,60 @@ nguon:
     truy_cap: '2026-10-30'
   - url: https://thuehaiquan.tapchikinhtetaichinh.vn/16-thong-tu-nghi-dinh-van-ban-lien-quan-den-linh-vuc-xuat-nhap-khau-logistics-chinh-thuc-co-hieu-luc-160552.html
     truy_cap: '2026-10-29'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=218154
+    truy_cap: '2026-11-22'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/169-ndcp.signed.pdf
+    truy_cap: '2026-11-22'
+  - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-169-2026-nd-cp-469561.htm
+    truy_cap: '2026-11-22'
+  - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/5/29/469561-1780020367_v1_1780042395_signed.pdf
+    truy_cap: '2026-11-22'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'đối chiếu cổng Hải quan (customs.gov.vn aid=217408) và quan hệ thay thế trong sổ: Nghị định 169/2026/NĐ-CP của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hải quan (ban hành 15-05-2026, gồm 4 Chương 40 Điều), có hiệu lực thi hành từ ngày 01-07-2026 và thay thế toàn bộ Nghị định 128/2020/NĐ-CP; đối chiếu đang còn hiệu lực'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh 1. Nghị định này quy định hành vi vi phạm hành chính; hành vi vi phạm hành chính đã kết thúc và hành vi vi phạm hành chính đang thực hiện; hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; đối tượng bị xử phạt; thẩm quyền xử phạt, mức phạt tiền cụ thể theo từng chức danh và thẩm quyền lập biên bản đối với vi phạm hành chính;
+      trang_pdf: 1
+      sha256_pdf: ae4ab5dbe08581ab91859346c563fd1889e2262921a420a9ff4b9f3202d12034
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng 1. Tổ chức, cá nhân trong nước; tổ chức, cá nhân nước ngoài có hành vi vi phạm hành chính trong lĩnh vực hải quan trên lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam, trừ trường hợp Điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có quy định khác.
+      trang_pdf: 2
+      sha256_pdf: ae4ab5dbe08581ab91859346c563fd1889e2262921a420a9ff4b9f3202d12034
+    - dieu: 3
+      noi_dung: 'Điều 3. Nguyên tắc xử phạt vi phạm hành chính trong lĩnh vực hải quan 1. Tổ chức, cá nhân thực hiện vi phạm hành chính nhiều lần thì bị xử phạt về từng hành vi vi phạm, trừ các trường hợp sau: thực hiện từng hành vi vi phạm quy định tại các điểm a, b, d khoản 1, điểm a khoản 3 Điều 8; các khoản 1, 2, 3, 4, các điểm a, b, c, d khoản 6 Điều 9;'
+      trang_pdf: 2
+      sha256_pdf: ae4ab5dbe08581ab91859346c563fd1889e2262921a420a9ff4b9f3202d12034
+    - dieu: 9
+      noi_dung: 'Điều 9. Vi phạm quy định về khai hải quan 1. Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với một trong các hành vi vi phạm sau: a) Khai sai so với thực tế về lượng (tang vật có trị giá trên 10.000.000 đồng), tên hàng, xuất xứ hàng hóa là hàng viện trợ nhân đạo, viện trợ không hoàn lại đã được cấp có thẩm quyền phê duyệt;'
+      trang_pdf: 12
+      sha256_pdf: ae4ab5dbe08581ab91859346c563fd1889e2262921a420a9ff4b9f3202d12034
+    - dieu: 14
+      noi_dung: 'Điều 14. Vi phạm quy định về kiểm soát hải quan 1. Phạt tiền từ 1.000.000 đồng đến 3.000.000 đồng đối với một trong các hành vi vi phạm sau: a) Không chấp hành lệnh dừng, khám xét phương tiện vận tải theo quy định; b) Không cung cấp sơ đồ hầm hàng, chỉ dẫn, mở nơi nghi vấn cất giữ hàng hóa trên phương tiện vận tải để thực hiện quyết định khám hành chính.'
+      trang_pdf: 24
+      sha256_pdf: ae4ab5dbe08581ab91859346c563fd1889e2262921a420a9ff4b9f3202d12034
+    - dieu: 19
+      noi_dung: 'Điều 19. Vi phạm quy định về xuất khẩu, nhập khẩu hàng hóa theo hạn ngạch, giấy phép, điều kiện, tiêu chuẩn kỹ thuật, quy chuẩn kỹ thuật 1. Các hành vi vi phạm quy định về xuất khẩu, nhập khẩu hàng hóa theo điều kiện, tiêu chuẩn kỹ thuật, quy chuẩn kỹ thuật gồm: a) Xuất khẩu, nhập khẩu hàng hóa không đáp ứng điều kiện, tiêu chuẩn kỹ thuật, quy chuẩn kỹ thuật;'
+      trang_pdf: 31
+      sha256_pdf: ae4ab5dbe08581ab91859346c563fd1889e2262921a420a9ff4b9f3202d12034
+    - dieu: 23
+      noi_dung: Điều 23. Vi phạm quy định về ghi nhãn hàng hóa nhập khẩu 1. Phạt tiền từ 1.000.000 đồng đến 3.000.000 đồng đối với hành vi nhập khẩu hàng hóa có nhãn gốc nhưng không đọc được các nội dung trên nhãn theo quy định của pháp luật về nhãn hàng hóa mà cá nhân, tổ chức nhập khẩu hàng hóa không khắc phục được.
+      trang_pdf: 35
+      sha256_pdf: ae4ab5dbe08581ab91859346c563fd1889e2262921a420a9ff4b9f3202d12034
+    - dieu: 28
+      noi_dung: Điều 28. Thẩm quyền lập biên bản vi phạm hành chính 1. Người có thẩm quyền lập biên bản vi phạm hành chính gồm những người có thẩm quyền xử phạt quy định tại các Điều 29, 30, 31, 32, 33 Nghị định này khi đang thi hành công vụ. 2. Người thuộc lực lượng Quân đội nhân dân, công chức thuộc cơ quan quy định tại các Điều 29, 30, 31, 32, 33 của Nghị định này đang thi hành công vụ, nhiệm vụ.
+      trang_pdf: 40
+      sha256_pdf: ae4ab5dbe08581ab91859346c563fd1889e2262921a420a9ff4b9f3202d12034
+    - dieu: 33
+      noi_dung: 'Điều 33. Thẩm quyền xử phạt của Công an nhân dân 1. Chiến sĩ Công an nhân dân đang thi hành công vụ có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến 10.000.000 đồng đối với cá nhân; phạt tiền đến 20.000.000 đồng đối với tổ chức; c) Tịch thu tang vật vi phạm hành chính có giá trị không vượt quá 02 lần mức tiền phạt được quy định tại điểm b khoản này.'
+      trang_pdf: 46
+      sha256_pdf: ae4ab5dbe08581ab91859346c563fd1889e2262921a420a9ff4b9f3202d12034
+    - dieu: 39
+      noi_dung: Điều 39. Điều khoản chuyển tiếp 1. Đối với hành vi vi phạm xảy ra và kết thúc trước thời điểm Nghị định này có hiệu lực mà bị phát hiện hoặc xem xét ra quyết định xử phạt khi Nghị định này đã có hiệu lực thì áp dụng quy định của Nghị định này nếu Nghị định này không quy định trách nhiệm pháp lý hoặc quy định trách nhiệm pháp lý nhẹ hơn.
+      trang_pdf: 53
+      sha256_pdf: ae4ab5dbe08581ab91859346c563fd1889e2262921a420a9ff4b9f3202d12034
 ghi_chu: Trinh sát WebSearch trạm CP đêm 29/10. Đã kéo 128/2020/NĐ-CP trong sổ sang HET_HIEU_LUC 01-07-2026 theo quan hệ này. Thiếu ngày ban hành + toàn văn — nạp bổ sung khi công bố chính thức trên vanban.chinhphu.vn.
-toan_van: raw/download/customs.gov.vn/169-2026-nd-cp.html
+toan_van: raw/download/congbaocdn.chinhphu.vn/169-2026-nd-cp.pdf

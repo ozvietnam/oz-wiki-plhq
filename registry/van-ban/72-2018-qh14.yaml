@@ -13,11 +13,34 @@ nguon:
     truy_cap: '2026-10-04'
   - url: https://vbpl.vn/FileData/TW/Lists/vbpq/Attachments/145200/VanBanGoc_72.2018.QH14.pdf
     truy_cap: '2026-10-04'
+  - url: https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-72-2018-qh14-27679.htm
+    truy_cap: '2026-11-22'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/11/27679/24484-1-20181073-107472-2018-qh14.pdf
+    truy_cap: '2026-11-22'
+  - url: https://vbpl.vn/van-ban/chi-tiet/nghi-quyet-72-2018-qh14--145200
+    truy_cap: '2026-11-22'
 xac_minh:
   muc: NGUON_A
   pham_vi: số hiệu, tiêu đề, ngày thông qua, Điều 1 phê chuẩn CPTPP ký 08/3/2018 tại San-ti-a-gô; vbpl ghi còn hiệu lực, ngày có hiệu lực 27/12/2018. PDF gốc ghi Công báo số 1073+1074 ngày 03/12/2018.
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: grok@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phê chuẩn điều ước quốc tế Phê chuẩn Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương cùng các văn kiện liên quan (tên tiếng Anh là Comprehensive and Progressive Agreement for Trans-Pacific Partnership, sau đây gọi tắt là Hiệp định CPTPP) được ký ngày 08 tháng 3 năm 2018 tại thành phố San-ti-a-gô, Cộng hòa Chi-lê. Toàn văn Hiệp định CPTPP ghi tại Phụ lục 01 kèm theo Nghị quyết này.
+      trang_pdf: 1
+      sha256_pdf: d883be17b1bbe5d0414c2ad9ec469b0571bf21c3dec7a838325d664a9a4a2994
+    - dieu: 2
+      noi_dung: Điều 2. Áp dụng điều ước quốc tế Áp dụng toàn bộ nội dung của Hiệp định CPTPP, trong đó áp dụng trực tiếp các quy định của Hiệp định CPTPP tại Phụ lục 02.
+      trang_pdf: 1
+      sha256_pdf: d883be17b1bbe5d0414c2ad9ec469b0571bf21c3dec7a838325d664a9a4a2994
+    - dieu: 3
+      noi_dung: Điều 3. Tổ chức thực hiện điều ước quốc tế 1. Giao Chính phủ, Tòa án nhân dân tối cao, Viện Kiểm sát nhân dân tối cao và các cơ quan, tổ chức có liên quan theo thẩm quyền tiến hành rà soát các dự án luật tại Phụ lục 3 và các văn bản pháp luật khác để kiến nghị cơ quan có thẩm quyền sửa đổi, bổ sung hoặc ban hành mới kịp thời, bảo đảm tính thống nhất của hệ thống pháp luật và đúng lộ trình thực hiện các cam kết trong Hiệp định CPTPP.
+      trang_pdf: 2
+      sha256_pdf: d883be17b1bbe5d0414c2ad9ec469b0571bf21c3dec7a838325d664a9a4a2994
+    - dieu: 4
+      noi_dung: Điều 4. Giám sát việc thực hiện Nghị quyết Quốc hội, Ủy ban Thường vụ Quốc hội, Hội đồng Dân tộc, các Ủy ban của Quốc hội, các Đoàn đại biểu Quốc hội và các đại biểu Quốc hội trong phạm vi nhiệm vụ, quyền hạn của mình giám sát việc thực hiện Nghị quyết này. Nghị quyết này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 6 thông qua ngày 12 tháng 11 năm 2018./. CHỦ TỊCH QUỐC HỘI Nguyễn Thị Kim Ngân
+      trang_pdf: 2
+      sha256_pdf: d883be17b1bbe5d0414c2ad9ec469b0571bf21c3dec7a838325d664a9a4a2994
 ghi_chu: Điều 1 phê chuẩn CPTPP (Comprehensive and Progressive Agreement for Trans-Pacific Partnership) ký ngày 08/3/2018 tại San-ti-a-gô. Ngày hiệp định có hiệu lực với Việt Nam không nằm ở Điều 1 — chưa ghi. Chưa mở Điều khoản về Vương quốc Anh gia nhập sau này.
-toan_van: raw/download/vbpl.vn/72-2018-qh14.html
+toan_van: raw/download/congbaocdn.chinhphu.vn/72-2018-qh14.pdf
