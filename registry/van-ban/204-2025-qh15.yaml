@@ -15,8 +15,17 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Pham vi áp dụng 1. Giảm 2% thuế suất thuế giá trị gia tăng, áp dụng đối với các nhóm hàng hóa, dịch vụ quy định tại khoản 3 Dieu 9 của Luật Thuế giá trị gia tăng sô 48/2024/QH15 (còn 8%), trừ một số nhóm hàng hóa, dịch vụ sau: viễn thông, hoạt động tài chính, ngân hàng, chứng khoán, bảo hiểm, kinh doanh bất động sản, sản phẩm kim loại, sản phẩm khai khoáng (trừ than), sản phẩm hàng hóa và dịch vụ chịu thuế tiêu thụ đặc biệt (trừ xăng).'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Hiệu lực thi hành Nghị quyết này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026. Nghị quyết này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 9 thông qua ngày 17 tháng 6 năm 2025 —
+      trang_pdf: 1
 ghi_chu: 'Nghị quyết QH về chính sách giảm thuế GTGT 8% từ 01/07/2025 - 31/12/2026. Là căn cứ pháp lý cho NĐ 174/2025/NĐ-CP. Tra 17-11-2026: chưa có NQ QH mới kéo dài sang 2027 trên vanban.chinhphu; NQ 353/NQ-CP (06-11-2026) mới giao BTC nghiên cứu — chưa ban hành văn bản thay/kéo dài. Tra lại 20-11-2026: xác nhận — chưa có NQ QH kéo dài giảm thuế GTGT sang 2027 (tra danh mục Nghị quyết QH trên vanban.chinhphu.vn/?pageid=27160&classid=1&orggroupid=1 đến 20-11-2026; kết hợp tra cứu chỉ mục tìm kiếm cũng chưa thấy NQ GTGT 2027 — kỳ họp QH bế mạc giữa tháng 11 nhưng văn bản chưa đăng).'
-toan_van: raw/download/datafiles.chinhphu.vn/204-2025-qh15.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/204-2025-qh15.pdf
+  - raw/ocr/204-2025-qh15.ocr.txt
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=217343&pageid=27160
     truy_cap: '2026-10-12'

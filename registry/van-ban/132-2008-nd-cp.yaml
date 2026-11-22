@@ -10,11 +10,50 @@ nhanh:
   - kiem-tra-chuyen-nganh/khung-chat-luong
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn); hết hiệu lực từ 2026-07-01 do bị bãi bỏ bởi 37/2026/NĐ-CP (Điều 97 khoản 2 điểm a NĐ 37/2026/NĐ-CP)'
+  pham_vi: số hiệu/trích yếu trên nguồn A (vanban.chinhphu.vn); hết hiệu lực từ 2026-07-01 do bị bãi bỏ bởi 37/2026/NĐ-CP (Điều 97 khoản 2 điểm a NĐ 37/2026/NĐ-CP)
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Nghị định này quy định chi tiết thi hành một số điều của Luật Chất lượng sản phẩm, hàng hoá về quản lý chất lượng sản phẩm, hàng hóa; tổ chức kiểm tra chất lượng sản phẩm, hàng hoá; giải thưởng chất lượng quốc gia; trách nhiệm quản lý nhà nước về chất lượng sản phẩm, hàng hóa.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng Nghị định này áp dụng đối với tổ chức, cá nhân sản xuất, kinh doanh sản phẩm, hàng hoá và tổ chức, cá nhân có hoạt động liên quan đến chất lượng sản phẩm, hàng hóa tại Việt Nam.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: 'Điều 3. Xác định và ban hành Danh mục sản phẩm, hàng hoá có khả năng gây mất an toàn 1. Việc xác định sản phẩm, hàng hoá thuộc Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn (sản phẩm, hàng hoá nhóm 2) căn cứ vào: a) Khả năng gây mất an toàn có thể xảy ra của sản phẩm, hàng hóa; b) Yêu cầu và khả năng quản lý nhà nước trong từng thời kỳ.'
+      trang_pdf: 1
+    - dieu: 7
+      noi_dung: 'Điều 7. Điều kiện bảo đảm chất lượng hàng hoá nhập khẩu trước khi đưa ra thị trường 1. Người nhập khẩu phải thực hiện các yêu cầu về quản lý chất lượng hàng hoá theo quy định tại Điều 34 của Luật Chất lượng sản phẩm, hàng hoá trước khi đưa hàng hoá ra lưu thông trên thị trường, đồng thời có trách nhiệm: a) Bảo đảm hàng hoá an toàn cho người, động vật, thực vật, tài sản, môi trường; b) Tự xác định và thể hiện thông tin để cảnh báo về nguy cơ gây mất an toàn của hàng hoá.'
+      trang_pdf: 1
+    - dieu: 8
+      noi_dung: Điều 8. Kiểm tra nhà nước về chất lượng hàng hoá nhập khẩu và xử lý vi phạm 1. Việc kiểm tra nhà nước về chất lượng hàng hoá nhập khẩu (sau đây gọi tắt là kiểm tra chất lượng hàng hoá nhập khẩu) do cơ quan kiểm tra chất lượng sản phẩm, hàng hoá tiến hành đối với hàng hoá thuộc nhóm 2 hoặc hàng hoá khác khi có dấu hiệu, nguy cơ gây mất an toàn.
+      trang_pdf: 1
+    - dieu: 13
+      noi_dung: Điều 13. Xử lý vi phạm trong quá trình kiểm tra chất lượng hàng hoá lưu thông trên thị trường 1. Cơ quan kiểm tra chất lượng sản phẩm, hàng hoá tiến hành kiểm tra chất lượng hàng hoá lưu thông trên thị trường theo trình tự, thủ tục quy định tại Điều 39 và xử lý vi phạm theo quy định tại Điều 40 của Luật Chất lượng sản phẩm, hàng hoá.
+      trang_pdf: 1
+    - dieu: 17
+      noi_dung: Điều 17. Tổ chức đánh giá sự phù hợp và đăng ký lĩnh vực hoạt động đánh giá sự phù hợp 1. Tổ chức đánh giá sự phù hợp được cung cấp dịch vụ trên lãnh thổ Việt Nam sau khi đáp ứng các điều kiện quy định tại khoản 5 Điều 25 của Luật Chất lượng sản phẩm, hàng hoá, có các quyền theo quy định tại Điều 19 của Luật Chất lượng sản phẩm, hàng hoá.
+      trang_pdf: 1
+    - dieu: 22
+      noi_dung: Điều 22. Kiểm soát viên chất lượng 1. Kiểm soát viên chất lượng là ngạch công chức chuyên ngành kiểm tra chất lượng sản phẩm, hàng hóa. 2. Chức danh, mã số ngạch, tiêu chuẩn nghiệp vụ các ngạch công chức chuyên ngành kiểm soát chất lượng sản phẩm, hàng hóa do Bộ Nội vụ ban hành.
+      trang_pdf: 1
+    - dieu: 26
+      noi_dung: Điều 26. Nguyên tắc xét thưởng 1. Không phân biệt đối xử giữa các loại hình, quy mô, không hạn chế số lượng các tổ chức, doanh nghiệp tham dự. 2. Việc xét thưởng phải bảo đảm công khai, khách quan và công bằng theo phương pháp chuyên gia đánh giá cho điểm trên cơ sở các tiêu chí quy định tại Điều 27 Nghị định này.
+      trang_pdf: 1
+    - dieu: 31
+      noi_dung: Điều 31. Trách nhiệm của Bộ Khoa học và Công nghệ quản lý nhà nước về chất lượng sản phẩm, hàng hoá cụ thể 1. Thực hiện nhiệm vụ quản lý nhà nước về chất lượng sản phẩm, hàng hoá quy định tại Điều 69 của Luật Chất lượng sản phẩm, hàng hoá.
+      trang_pdf: 1
+    - dieu: 36
+      noi_dung: Điều 36. Hiệu lực thi hành Nghị định này có hiệu lực thi hành sau 15 ngày, kể từ ngày đăng Công báo. Bãi bỏ Nghị định số 179/2004/NĐ-CP ngày 21 tháng 10 năm 2004 của Chính phủ quy định quản lý nhà nước về chất lượng sản phẩm, hàng hoá và những quy định trước đây trái với Nghị định này.
+      trang_pdf: 1
 ghi_chu: Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=82467&pageid=27160
     truy_cap: '2026-10-04'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2009/01/85126_qd132cp.doc
+    truy_cap: '2026-11-22'
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/132-2008-nd-cp.doc
+  - raw/download/datafiles.chinhphu.vn/132-2008-nd-cp.txt

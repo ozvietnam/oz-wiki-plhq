@@ -21,13 +21,54 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: claude-code@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Nghị định này quy định chi tiết và hướng dẫn thi hành một số điều của Luật hóa chất về: 1. Yêu cầu chung để đảm bảo an toàn trong sản xuất, kinh doanh hóa chất. 2. Hóa chất sản xuất, kinh doanh có điều kiện trong lĩnh vực công nghiệp; điều kiện, hồ sơ, trình tự, thủ tục cấp Giấy chứng nhận đủ điều kiện sản xuất, kinh doanh hóa chất sản xuất, kinh doanh có điều kiện trong lĩnh vực công nghiệp.'
+      trang_pdf: 1
+      sha256_pdf: e55c901ff32e57e071539715896d532eea9cd6b97428f2f64d337bfce070bd38
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng Nghị định này áp dụng đối với tổ chức, cá nhân tham gia hoạt động hóa chất; tổ chức, cá nhân liên quan đến hoạt động hóa chất trên lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam.
+      trang_pdf: 2
+      sha256_pdf: e55c901ff32e57e071539715896d532eea9cd6b97428f2f64d337bfce070bd38
+    - dieu: 3
+      noi_dung: 'Điều 3. Giải thích từ ngữ Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: 1. Sản xuất hóa chất là hoạt động tạo ra hóa chất thông qua các phản ứng hóa học, quá trình sinh hóa hoặc quá trình hóa lý, vật lý như trích ly, cô đặc, pha loãng, phối trộn... 2. Kinh doanh hóa chất bao gồm hoạt động buôn bán, xuất khẩu, nhập khẩu hóa chất để cung ứng hóa chất trên thị trường nhằm mục đích sinh lời.'
+      trang_pdf: 2
+      sha256_pdf: e55c901ff32e57e071539715896d532eea9cd6b97428f2f64d337bfce070bd38
+    - dieu: 9
+      noi_dung: Điều 9. Điều kiện cấp Giấy chứng nhận đủ điều kiện sản xuất, kinh doanh hóa chất sản xuất, kinh doanh có điều kiện trong lĩnh vực công nghiệp 1. Điều kiện sản xuất a) Là doanh nghiệp, hợp tác xã, hộ kinh doanh được thành lập theo quy định của pháp luật, có ngành nghề sản xuất hóa chất; b) Cơ sở vật chất - kỹ thuật phải đáp ứng yêu cầu trong sản xuất theo quy định tại Điều 12 của Luật hóa chất; Điều 4; khoản 1, 2 Điều 5;
+      trang_pdf: 6
+      sha256_pdf: e55c901ff32e57e071539715896d532eea9cd6b97428f2f64d337bfce070bd38
+    - dieu: 13
+      noi_dung: Điều 13. Miễn trừ, thu hồi Giấy phép xuất khẩu, nhập khẩu tiền chất công nghiệp 1. Các trường hợp được miễn trừ cấp Giấy phép xuất khẩu, nhập khẩu a) Hàng hóa chứa tiền chất công nghiệp Nhóm 1 có hàm lượng nhỏ hơn 1% khối lượng; b) Hàng hóa chứa tiền chất công nghiệp Nhóm 2 có hàm lượng nhỏ hơn 5% khối lượng.
+      trang_pdf: 15
+      sha256_pdf: e55c901ff32e57e071539715896d532eea9cd6b97428f2f64d337bfce070bd38
+    - dieu: 18
+      noi_dung: Điều 18. Hóa chất cấm 1. Danh mục hóa chất cấm được ban hành tại Phụ lục III kèm theo Nghị định này. 2. Trong trường hợp đặc biệt để phục vụ mục đích nghiên cứu khoa học, bảo đảm quốc phòng, an ninh, phòng, chống dịch bệnh, việc sản xuất, nhập khẩu, sử dụng hóa chất cấm thực hiện theo quy định tại Điều 19 của Luật hóa chất và quy định của Chính phủ.
+      trang_pdf: 19
+      sha256_pdf: e55c901ff32e57e071539715896d532eea9cd6b97428f2f64d337bfce070bd38
+    - dieu: 23
+      noi_dung: 'Điều 23. Phân loại hóa chất Việc phân loại hóa chất được thực hiện theo quy tắc và hướng dẫn kỹ thuật của GHS, từ Phiên bản 2 năm 2007 trở đi, bao gồm các phân loại chính sau:'
+      trang_pdf: 24
+      sha256_pdf: e55c901ff32e57e071539715896d532eea9cd6b97428f2f64d337bfce070bd38
+    - dieu: 28
+      noi_dung: Điều 28. Các trường hợp miễn trừ khai báo 1. Hóa chất được sản xuất, nhập khẩu phục vụ an ninh, quốc phòng, ứng phó các sự cố thiên tai, dịch bệnh khẩn cấp. 2. Hóa chất là tiền chất ma túy, tiền chất thuốc nổ, vật liệu nổ công nghiệp và hóa chất bảng đã được cấp phép sản xuất, nhập khẩu. 3. Hóa chất nhập khẩu dưới 10 kg/một lần nhập khẩu.
+      trang_pdf: 29
+      sha256_pdf: e55c901ff32e57e071539715896d532eea9cd6b97428f2f64d337bfce070bd38
+    - dieu: 32
+      noi_dung: 'Điều 32. Đối tượng phải được huấn luyện an toàn hóa chất 1. Nhóm 1, bao gồm: a) Người đứng đầu đơn vị, cơ sở sản xuất, kinh doanh và phòng, ban, chi nhánh trực thuộc; phụ trách bộ phận sản xuất, kinh doanh, kỹ thuật; quản đốc phân xưởng hoặc tương đương; b) Cấp phó của người đứng đầu theo quy định tại điểm a khoản 1 Điều này được giao nhiệm vụ phụ trách công tác an toàn hóa chất.'
+      trang_pdf: 31
+      sha256_pdf: e55c901ff32e57e071539715896d532eea9cd6b97428f2f64d337bfce070bd38
+    - dieu: 38
+      noi_dung: Điều 38. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành từ ngày 25 tháng 11 năm 2017 và thay thế Nghị định số 108/2008/NĐ-CP ngày 07 tháng 10 năm 2008 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật hóa chất và Nghị định số 26/2011/NĐ-CP ngày 08 tháng 4 năm 2011 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 108/2008/NĐ-CP.
+      trang_pdf: 36
+      sha256_pdf: e55c901ff32e57e071539715896d532eea9cd6b97428f2f64d337bfce070bd38
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 667 mã HS). Tiêu đề đã đối chiếu (congbao.chinhphu.vn). Hết hiệu lực từ 17-01-2026 theo Điều 31 khoản 3 NĐ 26/2026/NĐ-CP; danh mục hóa chất mới tại NĐ 24/2026/NĐ-CP. Lưu ý chuyển tiếp (Điều 30 NĐ 26/2026): giấy chứng nhận, giấy phép đã cấp theo NĐ 113/2017 được dùng tiếp tới 31-12-2026, 31-12-2027 hoặc hết hạn tuỳ trường hợp.'
 quan_he:
   thay_the:
-  - so_hieu: 108/2008/NĐ-CP
-    tu_ngay: '2017-11-25'
-    can_cu: Điều 38 khoản 1 NĐ 113/2017/NĐ-CP
-  - so_hieu: 26/2011/NĐ-CP
-    tu_ngay: '2017-11-25'
-    can_cu: Điều 38 khoản 1 NĐ 113/2017/NĐ-CP
+    - so_hieu: 108/2008/NĐ-CP
+      tu_ngay: '2017-11-25'
+      can_cu: Điều 38 khoản 1 NĐ 113/2017/NĐ-CP
+    - so_hieu: 26/2011/NĐ-CP
+      tu_ngay: '2017-11-25'
+      can_cu: Điều 38 khoản 1 NĐ 113/2017/NĐ-CP
 toan_van: raw/download/congbaocdn.chinhphu.vn/113-2017-nd-cp.pdf

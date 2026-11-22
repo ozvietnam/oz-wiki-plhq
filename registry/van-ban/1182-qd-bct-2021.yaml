@@ -30,38 +30,27 @@ danh_muc_hs:
   trich_boi: tho-bo-ba-01@ozvietnam
   ngay: '2026-11-19'
   da_doi_chieu: false
-  ghi_chu: >-
-    Chỉ trích Phụ lục 1 (chất lượng nhóm 2, còn hiệu lực): 148 dòng / 141 mã
-    (mỗi dòng mô tả của một mã thành một dòng CSV; ô mô tả gộp nhiều mã trong
-    bảng gốc được tính lại cho từng mã). BỎ KHÔNG TRÍCH Phụ lục 2 (ATTP — hết
-    hiệu lực từ 17-07-2026 theo Đ4 k2 TT 28/2026/TT-BCT) và Phụ lục 3 (hiệu
-    suất năng lượng — chính là «Phụ lục II» bị QĐ 1725/QĐ-BCT thay từ
-    01-07-2024, đã có bảng riêng danh-muc/1725-qd-bct-2024.csv). Nguồn trích là
-    bản TVPL 470522 có lớp chữ cả 3 phụ lục; PDF moit (bậc A) là ảnh quét 40
-    trang không lớp chữ, HTML không phân trang nên để trống cột trang. 22 mã
-    thuộc biểu thuế cũ không còn trong bản chụp nhu-cau/bieu-thue.json (3603
-    .00.x, 8517.12.00, 8479.89.39/40, một số 8501/8531/8536/8544/9405) — giữ
-    nguyên văn theo phụ lục, tool diem-mu sẽ báo HS_KHONG_TON_TAI.
+  ghi_chu: 'Chỉ trích Phụ lục 1 (chất lượng nhóm 2, còn hiệu lực): 148 dòng / 141 mã (mỗi dòng mô tả của một mã thành một dòng CSV; ô mô tả gộp nhiều mã trong bảng gốc được tính lại cho từng mã). BỎ KHÔNG TRÍCH Phụ lục 2 (ATTP — hết hiệu lực từ 17-07-2026 theo Đ4 k2 TT 28/2026/TT-BCT) và Phụ lục 3 (hiệu suất năng lượng — chính là «Phụ lục II» bị QĐ 1725/QĐ-BCT thay từ 01-07-2024, đã có bảng riêng danh-muc/1725-qd-bct-2024.csv). Nguồn trích là bản TVPL 470522 có lớp chữ cả 3 phụ lục; PDF moit (bậc A) là ảnh quét 40 trang không lớp chữ, HTML không phân trang nên để trống cột trang. 22 mã thuộc biểu thuế cũ không còn trong bản chụp nhu-cau/bieu-thue.json (3603 .00.x, 8517.12.00, 8479.89.39/40, một số 8501/8531/8536/8544/9405) — giữ nguyên văn theo phụ lục, tool diem-mu sẽ báo HS_KHONG_TON_TAI.'
 xac_minh:
   muc: NGUON_A
-  pham_vi: >-
-    tình trạng hiện tại (soát 14-11-2026): (1) Điều 4 khoản 2 TT 28/2026/TT-BCT
-    (PDF Công báo số 328 ngày 14-06-2026, lớp chữ) chấm dứt Khoản 1 Điều 2 và
-    Phụ lục 2 từ 17-07-2026; (2) QĐ 1725/QĐ-BCT Điều 3 khoản 2 thay Phụ lục II
-    từ 01-07-2024; (3) đã đọc toàn văn TT 33/2026/TT-BCT trên nguồn A (PDF Công
-    báo số 406 ngày 17-07-2026, lớp chữ, URL congbaocdn ở nguon) — Điều 6 chỉ
-    hết hiệu lực TT 41/2023/TT-BCT; toàn văn không nhắc số hiệu 1182/QĐ-BCT và
-    không có điều khoản bãi/thay Phụ lục 1. Kết luận: Phụ lục 1 vẫn còn hiệu lực
-    → giữ HET_HIEU_LUC_MOT_PHAN. Khung NĐ 37/2026/NĐ-CP bỏ khái niệm «nhóm 2»
-    từ 01-07-2026 nhưng không có điều khoản bãi tường minh Phụ lục 1 QĐ 1182.
+  pham_vi: 'tình trạng hiện tại (soát 14-11-2026): (1) Điều 4 khoản 2 TT 28/2026/TT-BCT (PDF Công báo số 328 ngày 14-06-2026, lớp chữ) chấm dứt Khoản 1 Điều 2 và Phụ lục 2 từ 17-07-2026; (2) QĐ 1725/QĐ-BCT Điều 3 khoản 2 thay Phụ lục II từ 01-07-2024; (3) đã đọc toàn văn TT 33/2026/TT-BCT trên nguồn A (PDF Công báo số 406 ngày 17-07-2026, lớp chữ, URL congbaocdn ở nguon) — Điều 6 chỉ hết hiệu lực TT 41/2023/TT-BCT; toàn văn không nhắc số hiệu 1182/QĐ-BCT và không có điều khoản bãi/thay Phụ lục 1. Kết luận: Phụ lục 1 vẫn còn hiệu lực → giữ HET_HIEU_LUC_MOT_PHAN. Khung NĐ 37/2026/NĐ-CP bỏ khái niệm «nhóm 2» từ 01-07-2026 nhưng không có điều khoản bãi tường minh Phụ lục 1 QĐ 1182.'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-cursor-01@ozvietnam
-ghi_chu: >-
-  HET_HIEU_LUC_MOT_PHAN: Phụ lục 2 (ATTP) hết từ 17-07-2026 theo TT 28/2026;
-  Phụ lục II đã được QĐ 1725/QĐ-BCT thay từ 01-07-2024; Phụ lục 1 (chất lượng
-  nhóm 2) còn hiệu lực — đã soát toàn văn TT 33/2026/TT-BCT (Công báo số 406)
-  ngày 14-11-2026, không thấy điều khoản bãi PL1 (OZV-792). Biểu thuế dẫn 249
-  mã. Chưa trích CSV Phụ lục 1 (PDF moit 40 trang bảng xoay ngang) — việc OCR
-  để thẻ con riêng. GHI CHÚ NGHIỆP VỤ: [PL2] ATTP · [PL1] chất lượng nhóm 2.
-toan_van: raw/download/moit.gov.vn/1182-qd-bct.pdf
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương tại các Phụ lục số 1, 2 và 3 kèm theo Quyết định này.
+      trang_pdf: 2
+    - dieu: 2
+      noi_dung: 'Điều 2. Tổ chức thực hiện 1. Giao Vụ Khoa học và Công nghệ: (i) Chủ trì, phối hợp với các cơ quan, đơn vị có liên quan rà soát, cập nhật công bố danh mục các mặt hàng (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương phù hợp yêu cầu quản lý nhà nước theo từng thời kỳ;'
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: Điều 3. Điều khoản thi hành 1. Quyết định này có hiệu lực thi hành kể từ ngày ký ban hành. 2. Quyết định này thay thế Quyết định số 1325A/QĐ-BCT ngày 20 tháng 5 năm 2019 của Bộ trưởng Bộ Công Thương về việc ban hành Danh mục các mặt hàng (kèm theo mã HS) thực hiện kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương.
+      trang_pdf: 3
+    - dieu: 4
+      noi_dung: 'Điều 4. Chánh Văn phòng Bộ, Vụ trưởng các Vụ: Khoa học và Công nghệ, Tiết kiệm năng lượng và Phát triển bền vững, Cục trưởng các Cục: Kỹ thuật an toàn và Môi trường công nghiệp, Hóa chất, Thủ trưởng các đơn vị thuộc Bộ Công Thương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Quyết định này./.'
+      trang_pdf: 3
+ghi_chu: 'HET_HIEU_LUC_MOT_PHAN: Phụ lục 2 (ATTP) hết từ 17-07-2026 theo TT 28/2026; Phụ lục II đã được QĐ 1725/QĐ-BCT thay từ 01-07-2024; Phụ lục 1 (chất lượng nhóm 2) còn hiệu lực — đã soát toàn văn TT 33/2026/TT-BCT (Công báo số 406) ngày 14-11-2026, không thấy điều khoản bãi PL1 (OZV-792). Biểu thuế dẫn 249 mã. Chưa trích CSV Phụ lục 1 (PDF moit 40 trang bảng xoay ngang) — việc OCR để thẻ con riêng. GHI CHÚ NGHIỆP VỤ: [PL2] ATTP · [PL1] chất lượng nhóm 2.'
+toan_van:
+  - raw/download/moit.gov.vn/1182-qd-bct.pdf
+  - raw/ocr/1182-qd-bct-2021.ocr.txt
