@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 18181/TB-CHQ/2026
+so_hieu_khac:
+  - 18181/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Cảm biến quang siêu nhỏ hình chữ U phát hiện vật cản bằng tia hồng ngoại, mã số 8536.50.51)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-06-29'
+hieu_luc_tu: '2026-06-29'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=104990&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/7/2/8.VB_18181.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/7/2/8.VB_18181.pdf, id=104990, SHA-256 833a001ce80d4c8c39a04f4e6d78adf4a8a79e28eaabf97ece179baebab34a74): Thông báo số 18181/TB-CHQ ngày 29-06-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Cảm biến quang siêu nhỏ hình chữ U (slot type photoelectric sensor, ký mã hiệu PM-U25-C3; cấu tạo gồm LED hồng ngoại IR emitter, phototransistor, vỏ nhựa kỹ thuật, bảng mạch, dây kết nối dài 3 m; khe 6 mm, nguồn 5-24 VDC, dòng ~20 mA, ngõ ra NPN open collector, sử dụng phát hiện vật cản bằng tia hồng ngoại, là thiết bị đóng ngắt mạch điện sử dụng linh kiện bán dẫn transistor), phân loại vào nhóm 85.36, phân nhóm 8536.50, mã số 8536.50.51; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Cảm biến quang siêu nhỏ hình chữ U (slot type photoelectric sensor, ký hiệu PM-U25-C3; cấu tạo gồm LED hồng ngoại, phototransistor, vỏ nhựa kỹ thuật, bảng mạch, dây kết nối dài 3 m, nguồn 5-24 VDC, thiết bị đóng ngắt mạch điện sử dụng linh kiện bán dẫn transistor) thuộc nhóm 85.36, phân nhóm 8536.50, mã số 8536.50.51.'
+toan_van: raw/download/files.customs.gov.vn/18181-tb-chq-2026.pdf
