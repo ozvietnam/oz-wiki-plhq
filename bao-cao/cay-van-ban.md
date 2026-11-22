@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-2992 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2996 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2296 văn bản, 2296 chưa hết hiệu lực.
+2300 văn bản, 2300 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -517,6 +517,10 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [13271/TB-CHQ/2026](../registry/van-ban/13271-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ toan áo phẫu thuật thần kinh sọ não Neuro Pack with Pouch, ký mã hiệu V-NSP-002, vải không dệt polypropylene tiệt trùng bằng khí EO dùng 1 lần, mã số 6307.90.90)
 - 🟢 [13272/TB-CHQ/2026](../registry/van-ban/13272-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ toan áo phẫu thuật cột sống Spinal Laminectomy Pack, ký mã hiệu V-SLP-002, vải không dệt polypropylene tiệt trùng bằng khí EO dùng 1 lần, mã số 6307.90.90)
 - 🟢 [13273/TB-CHQ/2026](../registry/van-ban/13273-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ toan áo phẫu thuật chỉnh hình cơ xương khớp chung Orthopedic Pack, ký mã hiệu V-OPP-002, vải không dệt polypropylene tiệt trùng bằng khí EO dùng 1 lần, mã số 6307.90.90)
+- 🟢 [13274/TB-CHQ/2026](../registry/van-ban/13274-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ toan áo phẫu thuật chung Universal Pack, ký mã hiệu V-UNP-302, vải không dệt polypropylene tiệt trùng bằng khí EO dùng 1 lần, mã số 6307.90.90)
+- 🟢 [13329/TB-CHQ/2026](../registry/van-ban/13329-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ cấp nguồn của đèn LED, Model SLB450N801N1A, Part No PSNH450801D(L), đầu vào 200-250VAC 47W, đầu ra 23-50VDC 40W, mã số 8504.40.90)
+- 🟢 [10280/TB-CHQ/2026](../registry/van-ban/10280-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Máy đọc sách Boox Palma 2 Pro, model Palma2 Pro, màn hình mực điện tử E-Ink 6.13 inch Kaleido 3, RAM 8GB, ROM 128GB, Android 15, không có chức năng nghe gọi, mã số 8471.30.90)
+- 🟢 [9572/TB-CHQ/2026](../registry/van-ban/9572-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị đo độ ẩm đất bằng bức xạ vi sóng thụ động TurfRad Moisture Sensor, ký mã hiệu TurfRad Rev. 1.4, băng tần L 1400-1427 MHz chỉ thu, mã số 9027.89.90)
 - 🟢 [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - 🟢 [1489/TB-CHQ/2026](../registry/van-ban/1489-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1633/TB-CHQ/2026](../registry/van-ban/1633-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2710.12.99)
