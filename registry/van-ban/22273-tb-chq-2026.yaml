@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 22273/TB-CHQ/2026
+so_hieu_khac:
+  - 22273/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Module truyền nhận tín hiệu vô tuyến không dây LoRa Module băng tần 920 MHz, Model TLT01CSI, mã số 8517.62.59)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-09-28'
+hieu_luc_tu: '2026-09-28'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=106189&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/9/29/VB_22273.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/9/29/VB_22273.pdf, id=106189, SHA-256 f7367c94b83bb6afc68d8513dedee34809dea6a604a9e1d4f9735b6ec17e56e9): Thông báo số 22273/TB-CHQ ngày 28-09-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Module truyền nhận tín hiệu vô tuyến không dây (LoRa Module, Model TLT01CSI; cấu tạo gồm bản mạch PCB vật liệu FR-4 4 lớp gắn IC vi điều khiển MCU ARM Cortex-M0+ STM32L082KBU6, IC Tuner SX1276 thu phát tín hiệu tần số vô tuyến RF công nghệ LoRa tại băng tần 920 MHz, IC chuyển mạch RF Switch, thạch anh Xtal, cuộn cảm, nắp bảo vệ kim loại Cover Shield, điện trở, tụ điện; kích thước 20 x 22 x 2,7 mm, trọng lượng 2,1 gram, bộ nhớ Flash 128 kB, hỗ trợ giao tiếp UART, I2C, GPIO, SPI; dùng để kết nối các thiết bị với nhau trong hệ thống, truyền và nhận thông tin giám sát điều khiển trạng thái hoạt động của thiết bị qua mạng không dây LPWA), phân loại vào nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.59; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Module truyền nhận tín hiệu vô tuyến không dây (LoRa Module, Model TLT01CSI; bản mạch PCB FR-4 4 lớp gắn IC điều khiển MCU STM32L082KBU6, IC Tuner SX1276 băng tần 920 MHz, IC RF Switch, thạch anh Xtal, cuộn cảm, Cover Shield; dùng truyền và nhận thông tin giám sát, điều khiển thiết bị qua mạng không dây LPWA) thuộc nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.59.'
+toan_van: raw/download/files.customs.gov.vn/22273-tb-chq-2026.pdf
