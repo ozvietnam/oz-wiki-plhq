@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-11-22
 
-Tổng 3081 điểm: **8 cao**, 277 vừa, 2796 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 3077 điểm: **8 cao**, 274 vừa, 2795 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -8,7 +8,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 |---|---|---|---|
 | Sắp hết hiệu lực (≤60 ngày) | Cao | 8 | `hieu-luc` |
 | Mã HS trong bảng không có trong biểu thuế | Vừa | 201 | `danh-muc-hs` |
-| Văn bản nền tảng (có toàn văn) chưa có trang wiki/sources/ | Vừa | 72 | `doc-hieu` |
+| Văn bản nền tảng (có toàn văn) chưa có trang wiki/sources/ | Vừa | 69 | `doc-hieu` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
 | THIEU_VBHN | Vừa | 1 | `nap-lam-sach` |
 | TB-TCHQ cá biệt chưa có nguồn chính thống | Thấp | 1367 | `tb-tchq` |
@@ -18,7 +18,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Văn bản của cơ quan đã sáp nhập | Thấp | 12 | `do-tham` |
 | Chưa có nguồn chính thống | Thấp | 12 | `truy-vet-nguon` |
 | HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp) | Thấp | 4 | `hieu-luc` |
-| Chưa có toàn văn | Thấp | 1 | `nap-lam-sach` |
 
 ## Sắp hết hiệu lực (≤60 ngày) (8)
 
@@ -75,7 +74,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **09/2024/TT-BYT: mã 33045099 không có trong biểu thuế** — danh-muc/09-2024-tt-byt.csv dòng 1390 ("Calcipotriol"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.
 - … và 161 điểm khác (xem bao-cao/diem-mu.json)
 
-## Văn bản nền tảng (có toàn văn) chưa có trang wiki/sources/ (72)
+## Văn bản nền tảng (có toàn văn) chưa có trang wiki/sources/ (69)
 
 - [ ] **05/2011/QH13: văn bản nền tảng chưa có trang wiki/sources/05-2011-qh13.md** — Đã có toàn văn (raw/download/vanban.chinhphu.vn/05-2011-qh13.html) nhưng chưa có wiki/sources/05-2011-qh13.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
 - [ ] **05/2017/QH14: văn bản nền tảng chưa có trang wiki/sources/05-2017-qh14.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/05-2017-qh14.pdf) nhưng chưa có wiki/sources/05-2017-qh14.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
@@ -85,9 +84,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **116/2025/QH15: văn bản nền tảng chưa có trang wiki/sources/116-2025-qh15.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/116-2025-qh15.pdf) nhưng chưa có wiki/sources/116-2025-qh15.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
 - [ ] **117/2025/QH15: văn bản nền tảng chưa có trang wiki/sources/117-2025-qh15.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/117-2025-qh15.pdf) nhưng chưa có wiki/sources/117-2025-qh15.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
 - [ ] **118/2025/QH15: văn bản nền tảng chưa có trang wiki/sources/118-2025-qh15.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/118-2025-qh15.pdf) nhưng chưa có wiki/sources/118-2025-qh15.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **122/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/122-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/122-2022-nd-cp.pdf) nhưng chưa có wiki/sources/122-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **123/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/123-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/123-2022-nd-cp.pdf) nhưng chưa có wiki/sources/123-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- [ ] **124/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/124-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/124-2022-nd-cp.pdf) nhưng chưa có wiki/sources/124-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
 - [ ] **125/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/125-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/125-2022-nd-cp.pdf) nhưng chưa có wiki/sources/125-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
 - [ ] **126/2022/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/126-2022-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/126-2022-nd-cp.pdf) nhưng chưa có wiki/sources/126-2022-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
 - [ ] **127/2007/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/127-2007-nd-cp.md** — Đã có toàn văn (raw/download/vanban.chinhphu.vn/127-2007-nd-cp.html) nhưng chưa có wiki/sources/127-2007-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
@@ -117,7 +113,10 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **31/2018/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/31-2018-nd-cp.md** — Đã có toàn văn (raw/download/vanban.chinhphu.vn/31-2018-nd-cp.html) nhưng chưa có wiki/sources/31-2018-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
 - [ ] **31/2021/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/31-2021-nd-cp.md** — Đã có toàn văn (raw/download/vanban.chinhphu.vn/31-2021-nd-cp.html) nhưng chưa có wiki/sources/31-2021-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
 - [ ] **336/2026/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/336-2026-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/336-2026-nd-cp.pdf) nhưng chưa có wiki/sources/336-2026-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
-- … và 32 điểm khác (xem bao-cao/diem-mu.json)
+- [ ] **346/2025/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/346-2025-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/346-2025-nd-cp.pdf) nhưng chưa có wiki/sources/346-2025-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **35/2018/QH14: văn bản nền tảng chưa có trang wiki/sources/35-2018-qh14.md** — Đã có toàn văn (raw/download/vanban.chinhphu.vn/35-2018-qh14.html) nhưng chưa có wiki/sources/35-2018-qh14.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- [ ] **35/2025/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/35-2025-nd-cp.md** — Đã có toàn văn (raw/download/datafiles.chinhphu.vn/35-2025-nd-cp.pdf) nhưng chưa có wiki/sources/35-2025-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.
+- … và 29 điểm khác (xem bao-cao/diem-mu.json)
 
 ## Sắp có hiệu lực (≤60 ngày) (3)
 
@@ -292,7 +291,3 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Chờ mở chặn 2284/QĐ-BKHCN (THIEU_PDF_A) — 19 mã HS** — Đã ghi xac_minh.chan: THIEU_PDF_A (2026-10-04). Việc tiếp: Đã có toàn văn trên vntr.moit.gov.vn (bản đánh máy lại của Bộ Công Thương, không phải bản gốc BKHCN); vẫn chờ bản gốc có chữ ký trên datafiles/most/mst và nguồn A xác nhận tình trạng hiệu lực (danh mục nhóm 2 đã được TT 03/2024/TT-BKHCN cập nhật).. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.
 - [ ] **Chờ mở chặn 9981/QĐ-BCA (THIEU_PDF_A) — 12 mã HS** — Đã ghi xac_minh.chan: THIEU_PDF_A (2026-10-09). Việc tiếp: customs Attachments/12857 đã 404; chờ bản ký số trên datafiles/bocongan. Không nạp từ TVXNK (C) để đánh true. Ngoài ra, 6266/QĐ-BCA (2023) thay TT 08/2019/TT-BCA, KHÔNG thay QĐ 9981. 125/2026/TT-BCA Điều 5 quy định chuyển tiếp nhưng không ghi rõ thay 9981 — cần đối chiếu thêm khi có nguồn A.. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.
 - [ ] **Chờ mở chặn 45/2024/TT-BCT (SO_HIEU_LECH) — 1 mã HS** — Đã ghi xac_minh.chan: SO_HIEU_LECH (2026-10-04). Việc tiếp: Đối chiếu mã HS bên hs-code-api — Công báo không có 45/2024/TT-BCT (có 45/2024/TT-BTC, 45/2025/TT-BCT). Mở issue hs-code-api nếu lệch số hiệu.. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.
-
-## Chưa có toàn văn (1)
-
-- [ ] **19/2018/TT-BNNPTNT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "19/2018/TT-BNNPTNT" --ghi
