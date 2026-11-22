@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-2969 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2977 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -386,7 +386,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2284 văn bản, 2284 chưa hết hiệu lực.
+2292 văn bản, 2292 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -496,6 +496,14 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [16110/TB-CHQ/2026](../registry/van-ban/16110-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Keo dán Glue LG-T-211 dạng lỏng màu vàng nhạt dùng để cố định mặt giày trong khâu may, đóng gói 15 kg/thùng, mã số 3506.91.90)
 - 🟢 [16061/TB-CHQ/2026](../registry/van-ban/16061-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Mặt nạ xông hơi mắt thư giãn MegRhythm loại có hương, ký mã hiệu MSEM-LA / MSEM-CH / MSEM-OS / MSEM-CI / MSEM-FO, chứa lõi hạt sinh nhiệt Fe và H2O 56,1%, đóng gói 5 miếng/hộp, mã số 3824.99.99)
 - 🟢 [16062/TB-CHQ/2026](../registry/van-ban/16062-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Mặt nạ xông hơi mắt thư giãn MegRhythm loại không hương, ký mã hiệu MSEM-US, chứa lõi hạt sinh nhiệt Fe và H2O 55,1%, đóng gói 5 miếng/hộp, mã số 3824.99.99)
+- 🟢 [15745/TB-CHQ/2026](../registry/van-ban/15745-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chế phẩm dầu cắt gọt tổng hợp đa năng hiệu suất cao TEXMO MEX 209 dạng lỏng, đóng gói 18 lít/thùng, mã số 3403.99.19)
+- 🟢 [15746/TB-CHQ/2026](../registry/van-ban/15746-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (tệp PDF gốc 1.VB_15746.pdf trên Cổng Hải quan bị lỗi null-byte, chưa xác minh chi tiết tên mặt hàng và mã số HS)
+- 🟢 [15747/TB-CHQ/2026](../registry/van-ban/15747-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chế phẩm dầu cắt gọt tổng hợp đa năng hiệu suất cao TEXMO MEX 201 dạng lỏng, đóng gói 18 lít/thùng, mã số 3403.99.19)
+- 🟢 [15748/TB-CHQ/2026](../registry/van-ban/15748-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chất tẩy rửa gốc nước TEXMO WATER-BASED CLEANERS Q-1 dùng làm sạch dầu mỡ và cặn bám trên bề mặt kim loại, máy móc, đóng gói 18 lít/thùng, mã số 3402.90.12)
+- 🟢 [15378/TB-CHQ/2026](../registry/van-ban/15378-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Máy tiêm gia cầm tự động 3 chức năng Yiyishenghui Integrated Immunization Machine HS-MY3, công suất 65 W, dùng tiêm chủng gia cầm từ 3 ngày tuổi, mã số 9018.90.39)
+- 🟢 [15379/TB-CHQ/2026](../registry/van-ban/15379-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Máy tiêm gia cầm tự động 4 chức năng Yiyishenghui Integrated Immunization Machine HS-MY4, công suất 70 W, dùng tiêm chủng gia cầm từ 3 ngày tuổi, mã số 9018.90.39)
+- 🟢 [15382/TB-CHQ/2026](../registry/van-ban/15382-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thuốc kem bôi ngoài da Hirudoid chứa hoạt chất Mucopolysaccharide polysulfate 0,3 g/100 g kem, đóng gói hộp 1 tuýp 14 g, mã số 3004.90.99)
+- 🟢 [15384/TB-CHQ/2026](../registry/van-ban/15384-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bo mạch chủ dành cho máy tính xách tay có chứa CPU Intel Core Ultra 7 265H và GPU NVIDIA GeForce RTX 5060, ký mã hiệu MTM40, mã số 8471.50.10)
 - 🟢 [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - 🟢 [1489/TB-CHQ/2026](../registry/van-ban/1489-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1633/TB-CHQ/2026](../registry/van-ban/1633-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2710.12.99)
