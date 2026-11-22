@@ -4,26 +4,26 @@ Kho mở, miễn phí, cho cộng đồng làm xuất nhập khẩu: **văn bả
 
 > ⚠️ Đây là tài liệu tham khảo do cộng đồng tổng hợp, **không phải tư vấn pháp lý** và không thay thế văn bản gốc. Luôn mở nguồn bậc A (Công báo, vanban.chinhphu.vn, vbpl.vn) trước khi khai báo. Mỗi văn bản trong sổ ghi rõ mức đã xác minh.
 >
-> 🧭 **Kiến trúc & ranh giới hệ thống (0% trùng lặp với `hs-code-api`):** Xem **[docs/SO-DO-HE-THONG.md](docs/SO-DO-HE-THONG.md)** để nắm rõ phân vai tuyệt đối giữa `oz-wiki-plhq` ↔ `hs-code-api` ↔ Cổng MCP (`ozplugin`), dòng chảy gói dữ liệu máy `1.5.0`, các cổng kiểm chất lượng Wave 1–4 và cổng tra cứu web công khai trên GitHub Pages.
+> 🧭 **Kiến trúc & ranh giới hệ thống (0% trùng lặp với `hs-code-api`):** Xem **[docs/SO-DO-HE-THONG.md](docs/SO-DO-HE-THONG.md)** để nắm rõ phân vai tuyệt đối giữa `oz-wiki-plhq` ↔ `hs-code-api` ↔ Cổng MCP (`ozplugin`), dòng chảy gói dữ liệu máy `1.5.0` (8 tệp JSON), chuỗi thu thập/OCR/trích điều khoản nguyên văn bậc A, các cổng kiểm chất lượng tự động (`eval:qa` 60 câu, `eval:retrieval`, `kiem-tra:dieu-khoan`) và cổng tra cứu web công khai V2 trên GitHub Pages.
 
 ## Có gì trong kho
 
 | Phần | Ở đâu | Dùng để |
 |---|---|---|
-| **Sổ đăng ký văn bản** | [`registry/van-ban/`](registry/van-ban/) — mỗi văn bản một tệp YAML | Số hiệu, tên, cơ quan, ngày ban hành/hiệu lực, **tình trạng hiệu lực**, quan hệ chiều đi **thay thế / sửa đổi / bãi bỏ / tạm ngưng / hướng dẫn / hợp nhất**, nguồn, mức xác minh (kèm `xac_minh.dieu_khoan` nguyên văn bậc A đối chiếu PDF & SHA-256) |
+| **Sổ đăng ký văn bản** | [`registry/van-ban/`](registry/van-ban/) — mỗi văn bản một tệp YAML | Số hiệu, tên, cơ quan, ngày ban hành/hiệu lực, **tình trạng hiệu lực**, quan hệ chiều đi **thay thế / sửa đổi / bãi bỏ / tạm ngưng / hướng dẫn / hợp nhất**, nguồn, mức xác minh (kèm `xac_minh.dieu_khoan` nguyên văn bậc A đối chiếu PDF & SHA-256 qua `tools/trich-dieu-khoan.mjs`) |
 | **Cây dữ liệu XNK** | [`registry/cay-xnk.yaml`](registry/cay-xnk.yaml) → [`bao-cao/cay-van-ban.md`](bao-cao/cay-van-ban.md) | Hải quan · Thuế & biểu thuế · Phân loại HS · Xuất xứ & FTA · Quản lý ngoại thương · Kiểm tra chuyên ngành (8 bộ) · Phòng vệ thương mại · Xử phạt · Điều ước quốc tế · Bộ máy |
 | **Đồ thị cũ – mới** | [`bao-cao/quan-he.md`](bao-cao/quan-he.md) | Văn bản nào thay văn bản nào, từ ngày nào (được kiểm chiều đi `quan_he` tự động trong `tools/kiem-tra.mjs`) |
-| **Báo cáo điểm mù & phân loại miss** | [`bao-cao/diem-mu.md`](bao-cao/diem-mu.md) · `npm run triage:miss` | Phát hiện thiếu sót/mâu thuẫn/trang wiki dẫn văn bản hết hiệu lực (tách tầng TB-TCHQ vs VBQPPL); `phan-loai-miss` phân loại chỉ đọc issue `[miss]` thành 5 nhóm |
+| **Báo cáo điểm mù & phân loại miss** | [`bao-cao/diem-mu.md`](bao-cao/diem-mu.md) · `npm run triage:miss` | Phát hiện thiếu sót/mâu thuẫn/trang wiki dẫn văn bản hết hiệu lực (tách tầng TB-TCHQ vs VBQPPL, ghi nhận `HS_AHTN_CU_DA_ANH_XA`, `DOC_HIEU_*`); `phan-loai-miss` phân loại chỉ đọc issue `[miss]` thành 5 nhóm |
 | **Nguồn uy tín** | [`registry/nguon-uy-tin.yaml`](registry/nguon-uy-tin.yaml) | Bậc A (chính thống) / B (thứ cấp đáng tin) / C (đầu mối) |
 | **Cơ quan** | [`registry/co-quan.yaml`](registry/co-quan.yaml) | Ký hiệu, tình trạng sau sáp nhập 2025–2026 |
-| **Toàn văn** | `raw/download/<tên miền>/` | Bản gốc tải từ nguồn, kèm `.nguon.json` (url, ngày, sha256) |
-| **Bảng phụ lục HS & CAS** | [`danh-muc/`](danh-muc/) (`*.csv`, `*-cas.csv`) | Phụ lục mã HS (KTCN, cấm, giấy phép, PVTM) và danh mục hóa chất theo mã CAS (vd NĐ `24/2026/NĐ-CP`). *(`chu-giai-chuong.json` chỉ tra nội bộ khi soạn wiki, không xuất ra `dist/`)* |
-| **Điều khoản nháp** | [`data/doc-hieu/`](data/doc-hieu/) (`*.dieu.jsonl`) | Tóm tắt điều luật trích từ toàn văn (tầng `TOM_TAT_NHAP`, `da_soat: false`) để định vị điều khoản trước khi soát thành nguyên văn nguồn A |
+| **Toàn văn & OCR bậc A** | `raw/download/<tên miền>/` · `raw/ocr/` | Bản gốc tải từ nguồn (`tools/nap.mjs`, `tools/tai-pdf-tu-vo-html.mjs`), kèm `.nguon.json` (url, ngày, sha256), bản OCR giữ phân trang `\f` (`tools/ocr-raw.mjs` → `*.ocr.txt`, `*.ocr.json`) và kiểm toán 5 nhóm (`tools/kiem-tra-nap.mjs`) |
+| **Bảng phụ lục HS, CAS, Tầng 2 & ánh xạ AHTN** | [`danh-muc/`](danh-muc/) (`*.csv`, `*-cas.csv`, [`chinh-sach-mo-ta.yaml`](danh-muc/chinh-sach-mo-ta.yaml)) · [`registry/phien-ban-bieu-thue-mapping.yaml`](registry/phien-ban-bieu-thue-mapping.yaml) | Phụ lục mã HS (KTCN, cấm, giấy phép, PVTM), danh mục hóa chất theo mã CAS (vd NĐ `24/2026/NĐ-CP`), gợi ý Tầng 2 theo mô tả (`VUA_SUY_RA` + 25 viết tắt PLHQ) và bảng ánh xạ mã AHTN cũ → biểu thuế EN2022. *(`chu-giai-chuong.json` chỉ tra nội bộ khi soạn wiki, không xuất ra `dist/`)* |
+| **Điều khoản nháp** | [`data/doc-hieu/`](data/doc-hieu/) (`*.dieu.jsonl`) | Tóm tắt điều luật trích từ toàn văn (tầng `TOM_TAT_NHAP`, `da_soat: false`, tự động lọc điều rác `laDieuRac`) để định vị điều khoản trước khi trích/soát thành nguyên văn nguồn A (`xac_minh.dieu_khoan`) |
 | **Wiki** | [`wiki/`](wiki/) ([mục lục](wiki/index.md)) | Tóm tắt, khái niệm, tổng hợp có dẫn nguồn — dựng bằng [LuminaWiki](https://github.com/tronghieu/lumina-wiki) |
-| **Bộ đánh giá hỏi đáp** | [`eval/cau-hoi-nghiep-vu.yaml`](eval/cau-hoi-nghiep-vu.yaml) · `npm run eval:qa` | Bộ **32 câu** hỏi nghiệp vụ thuần PLHQ & XNK đo độ phủ nguồn A, trang wiki và điều khoản đã trích |
-| **Dữ liệu cho máy (`1.5.0`)** | `dist/` (`npm run dung`, xem [tích hợp](docs/tich-hop.md) & [workflow Release](.github/workflows/bao-hs-code-api.yml)) | Gói 7 tệp JSON (`registry.json`, `hs-index.json`, `hs-index-theo-ma.json`, `wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`) + `SHA256SUMS` cho [hs-code-api](https://github.com/ozvietnam/hs-code-api) và Cổng MCP `ozplugin` |
-| **Cổng tra cứu web công khai** | `site/` (`npm run dung:web`, [workflow GitHub Pages](.github/workflows/trang-web.yml)) | Cổng web tĩnh không phụ thuộc CDN, triển khai lên GitHub Pages với 4 thẻ: Hiệu lực văn bản, Wiki & Hỏi đáp, Điều khoản bậc A (`NGUYEN_VAN_NGUON_A` vs `TOM_TAT_NHAP`), Hóa chất CAS (`24/2026/NĐ-CP`) |
-| **Cổng MCP & CLI tra cứu PLHQ** | [`docs/mcp-server.md`](docs/mcp-server.md) · `npm run mcp:server` · `npm run tra-cuu` | MCP stdio server JSON-RPC 2.0 thuần Node (`0` dependency ngoài mới, 6 tools + 2 resources cho Claude Desktop, Antigravity, Cursor, `ozplugin`) và CLI tra cứu nhanh hiệu lực, điều khoản bậc A, wiki, mã CAS, chính sách theo HS |
+| **Bộ đánh giá hỏi đáp & truy hồi** | [`eval/cau-hoi-nghiep-vu.yaml`](eval/cau-hoi-nghiep-vu.yaml) · `npm run eval:qa` · `npm run eval:retrieval` | Bộ **60 câu** (`CH-01..CH-60`) hỏi nghiệp vụ thuần PLHQ & XNK đo độ phủ nguồn A, trang wiki, điều khoản (`eval:qa`) và chất lượng truy hồi sống của `hoiPhapLuat` (`eval:retrieval`) |
+| **Dữ liệu cho máy (`1.5.0`)** | `dist/` (`npm run dung`, xem [tích hợp](docs/tich-hop.md) & [workflow Release](.github/workflows/bao-hs-code-api.yml)) | Gói **8 tệp JSON** (`registry.json`, `hs-index.json`, `hs-index-theo-ma.json` kèm `anh_xa_ahtn_cu`, `wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`, `chinh-sach-mo-ta.json`) + `SHA256SUMS` cho [hs-code-api](https://github.com/ozvietnam/hs-code-api) và Cổng MCP `ozplugin` |
+| **Cổng tra cứu web công khai (V2)** | `site/` (`npm run dung:web`, [workflow GitHub Pages](.github/workflows/trang-web.yml)) | Cổng web tĩnh `0` CDN triển khai lên GitHub Pages với **5 thẻ** (kèm dải cảnh báo `sap-het-hieu-luc.json` & deep-link router): Hiệu lực văn bản (lọc `≤60` ngày), Wiki & Hỏi đáp, Điều khoản bậc A (`NGUYEN_VAN_NGUON_A` vs `TOM_TAT_NHAP` + copy trích dẫn CC BY 4.0), Hóa chất CAS (`24/2026/NĐ-CP`), Chính sách theo mã HS (`chinh-sach-hs` đọc `hs-policy.json`) |
+| **Cổng MCP & CLI tra cứu PLHQ** | [`docs/mcp-server.md`](docs/mcp-server.md) · `npm run mcp:server` · `npm run tra-cuu` | MCP stdio server JSON-RPC 2.0 thuần Node (`0` dependency ngoài mới, 6 tools + 2 resources + dự phòng 3 tầng cho Claude Desktop, Antigravity, Cursor, `ozplugin`) và CLI tra cứu nhanh hiệu lực, điều khoản bậc A, wiki, mã CAS, chính sách theo HS |
 
 ## Dùng thế nào
 
@@ -33,18 +33,24 @@ Kho mở, miễn phí, cho cộng đồng làm xuất nhập khẩu: **văn bả
 - **Tra cứu trên web (GitHub Pages / tại máy):** cổng tra cứu công khai được dựng tự động lên GitHub Pages qua [`.github/workflows/trang-web.yml`](.github/workflows/trang-web.yml), hoặc dựng tại máy bằng `npm run dung && npm run dung:web` (xuất ra thư mục `site/`, bị gitignore).
 - **Đọc trên GitHub:** mở [`bao-cao/cay-van-ban.md`](bao-cao/cay-van-ban.md), [`wiki/index.md`](wiki/index.md) và [`docs/SO-DO-HE-THONG.md`](docs/SO-DO-HE-THONG.md) ngay trên GitHub.
 - **Hỏi bằng AI:** clone repo, mở bằng Claude Code / Codex / Gemini CLI / Cursor rồi hỏi bằng tiếng Việt, ví dụ *"Bánh quy nhập từ Trung Quốc kiểm tra ATTP theo văn bản nào, còn hiệu lực không?"*. AI đọc wiki + sổ và trả lời kèm dẫn nguồn (`/lumi-ask`). Câu trả lời tốn token của bạn; đọc file thì không.
-- **Kiểm tra & vận hành tại máy (Wave 1–4):**
-  - `npm install && npm test` — chạy toàn bộ bộ test, kiểm sổ, cổng kiểm điều khoản nguyên văn, Lumina lint và toàn vẹn sổ
-  - `npm run kiem-tra` — kiểm sổ, CSV HS/CAS và cổng kiểm chiều đi `quan_he` (chặn cạnh ngược thời gian / sai vai trò)
-  - `npm run kiem-tra:dieu-khoan` — cổng kiểm đối chiếu nguyên văn `xac_minh.dieu_khoan` với tệp toàn văn và `sha256_pdf`
-  - `npm run diem-mu` — sinh báo cáo điểm mù (tách tầng TB-TCHQ vs VBQPPL, phát hiện trang wiki dẫn văn bản hết hiệu lực)
-  - `npm run eval:qa` — đo độ phủ **32 câu** hỏi nghiệp vụ PLHQ & XNK
+- **Kiểm tra, thu thập & vận hành tại máy:**
+  - `npm install && npm test` — chạy toàn bộ bộ test, kiểm sổ, cổng kiểm điều khoản nguyên văn, Lumina lint và toàn vẹn `dist/registry.json`
+  - `npm run kiem-tra` — kiểm sổ, CSV HS/CAS, `chinh-sach-mo-ta.yaml`, ánh xạ AHTN `phien-ban-bieu-thue-mapping.yaml` và 3 cổng chiều đi `quan_he` (chặn cạnh ngược thời gian / sai vai trò)
+  - `npm run kiem-tra:dieu-khoan` — cổng kiểm đối chiếu nguyên văn `xac_minh.dieu_khoan` với tệp toàn văn (`.pdf`/`.txt`/`.md`/`.ocr.txt`) và `sha256_pdf`
+  - **Thu thập bậc A, OCR & trích điều khoản nguyên văn:**
+    - `node tools/kiem-tra-nap.mjs` — kiểm toán 5 nhóm chất lượng nạp toàn văn (`DA_INGEST_TRI_THUC`, `CO_TOAN_VAN_CHUA_INGEST`, `PDF_BAN_SCAN_CAN_OCR`, `VO_HTML_CHUA_TAI_PDF`, `THIEU_RAW`)
+    - `node tools/tai-pdf-tu-vo-html.mjs` — tự động bóc URL PDF bậc A từ vỏ HTML `VO_HTML_CHUA_TAI_PDF`, kiểm `%PDF` và nạp vào `raw/download/`
+    - `node tools/ocr-raw.mjs --slug <slug>` — OCR PDF bản scan (`pdftoppm` + `tesseract -l vie+eng`) giữ phân trang `\f` ra `raw/ocr/<slug>.ocr.txt` + `.ocr.json`
+    - `node tools/trich-dieu-khoan.mjs --slug <slug>` (hoặc `--all-ready`) — trích điều khoản nguyên văn vào `xac_minh.dieu_khoan` từ `.ocr.txt`/`.txt`/`.md`/PDF lớp chữ/`.docx` kèm tự kiểm chứng `chuanHoaKhopNguyenVan` + `sha256_pdf`
+  - `npm run diem-mu` — sinh báo cáo điểm mù (tách tầng TB-TCHQ vs VBQPPL, ghi nhận `HS_AHTN_CU_DA_ANH_XA`, `DOC_HIEU_DIEU_RAC`/`DOC_HIEU_THIEU_NGHIA_VU`, phát hiện trang wiki dẫn văn bản hết hiệu lực)
+  - `npm run eval:qa` — đo độ phủ **60 câu** (`CH-01..CH-60`) hỏi nghiệp vụ PLHQ & XNK
+  - `npm run eval:retrieval` — cổng đo truy hồi sống của `hoiPhapLuat` trên bộ **60 câu** nghiệp vụ + câu ghim số hiệu + viết tắt + ngoài kho
   - `npm run triage:miss` — công cụ **chỉ đọc** (`phan-loai-miss`) phân loại issue `[miss]` thành 5 nhóm (`DA_CO_TRONG_SO`, `THUOC_HS_CODE_API`, `THIEU_VAN_BAN_MOI`, `THIEU_WIKI_HOAC_DIEU_KHOAN`, `KHAC_CAN_RA_SOAT`)
-  - `npm run dung && npm run dung:web` — dựng 7 tệp `dist/*.json` (`1.5.0`) + báo cáo và dựng cổng tra cứu web tĩnh ra `site/`
+  - `npm run dung && npm run dung:web` — dựng **8 tệp** `dist/*.json` (`1.5.0`) + báo cáo và dựng cổng tra cứu web tĩnh V2 (5 thẻ, 7 tệp `site/data/*.json`) ra `site/`
 
 ## Ranh giới 0% trùng lặp với `hs-code-api`
 
-- **`oz-wiki-plhq` phụ trách:** hiệu lực & quan hệ VBQPPL (`registry/`), điều khoản nguyên văn bậc A (`dist/dieu-khoan.json`), wiki nghiệp vụ PLHQ (`dist/wiki-index.json`, `dist/wiki-chunks.json`), phụ lục mã HS/CAS (`dist/hs-index*.json`, `dist/cas-index.json`) và cổng web tra cứu tĩnh `site/`.
+- **`oz-wiki-plhq` phụ trách:** hiệu lực & quan hệ VBQPPL (`registry/`), điều khoản nguyên văn bậc A (`dist/dieu-khoan.json`), wiki nghiệp vụ PLHQ (`dist/wiki-index.json`, `dist/wiki-chunks.json`), phụ lục mã HS/CAS & gợi ý đối chiếu AHTN cũ (`dist/hs-index*.json`, `dist/cas-index.json`), gợi ý chính sách Tầng 2 theo mô tả (`dist/chinh-sach-mo-ta.json`, `VUA_SUY_RA` + 25 viết tắt) và cổng web tra cứu tĩnh V2 `site/`.
 - **Không trùng lặp với [`hs-code-api`](https://github.com/ozvietnam/hs-code-api):** không xuất `chu-giai-chuong.json` hay `chu-giai-hs.json` ra `dist/`, không xây bộ máy phân loại HS hay 6 quy tắc GIR, không lưu/tính thuế suất biểu thuế và không phục vụ API tiền lệ `/api/precedents`. Chi tiết tại [docs/SO-DO-HE-THONG.md](docs/SO-DO-HE-THONG.md).
 
 ## Đóng góp — người và agent
