@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-3028 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3032 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2332 văn bản, 2332 chưa hết hiệu lực.
+2336 văn bản, 2336 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -586,7 +586,11 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [25148/TB-CHQ/2025](../registry/van-ban/25148-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
 - 🟢 [25150/TB-CHQ/2025](../registry/van-ban/25150-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (7312.10.99)
 - 🟢 [25114/TB-CHQ/2025](../registry/van-ban/25114-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.32.90)
+- 🟢 [24778/TB-CHQ/2025](../registry/van-ban/24778-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Module màn hình tinh thể lỏng LCD 14 inch dùng cho máy tính xách tay, ký mã hiệu B140XTN07.4, mã số 8524.91.00)
+- 🟢 [24779/TB-CHQ/2025](../registry/van-ban/24779-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Loa chưa lắp vào vỏ loa dùng sản xuất loa siêu trầm, ký mã hiệu HUNFW00029A, mã số 8518.29.90)
 - 🟢 [24781/TB-CHQ/2025](../registry/van-ban/24781-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Loa chưa lắp vào vỏ loa/Unit speaker dùng sản xuất loa thanh soundbar, ký mã hiệu HUNFF00010A, mã số 8518.29.90)
+- 🟢 [24534/TB-CHQ/2025](../registry/van-ban/24534-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị lưu trữ dữ liệu phân tán dùng cho mạng nội bộ và trung tâm dữ liệu, ký mã hiệu OceanStor Pacific 9920, mã số 8471.70.90)
+- 🟢 [24187/TB-CHQ/2025](../registry/van-ban/24187-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị truyền tín hiệu một chiều từ khu vực mạng an toàn ra khu vực mạng ngoài, ký mã hiệu NnetDiode U type, mã số 8517.62.49)
 - 🟢 [24068/TB-CHQ/2025](../registry/van-ban/24068-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.99)
 - 🟢 [24069/TB-CHQ/2025](../registry/van-ban/24069-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.99)
 - 🟢 [21396/TB-CHQ/2025](../registry/van-ban/21396-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2103.90.13)

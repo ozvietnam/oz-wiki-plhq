@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-22",
   "luoc_do_phien_ban": "1.5.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 3028,
+  "tong": 3032,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -60448,6 +60448,46 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "24187/TB-CHQ/2025",
+      "so_hieu_khac": [
+        "24187/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-22",
+      "ten": "Thông báo về kết quả xác định trước mã số (Thiết bị truyền tín hiệu một chiều từ khu vực mạng an toàn ra khu vực mạng ngoài, ký mã hiệu NnetDiode U type, mã số 8517.62.49)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2025-09-15",
+      "hieu_luc_tu": "2025-09-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=101339&cid=1294",
+          "truy_cap": "2026-11-22"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/9/15/49.VBDI_24187.pdf",
+          "truy_cap": "2026-11-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/9/15/49.VBDI_24187.pdf, id=101339, SHA-256 c7e296a2b1219cde9f768227669ff9728b63d5ead21d3da383156389f1011129): Thông báo số 24187/TB-CHQ ngày 15-09-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Thiết bị truyền tín hiệu một chiều (ký, mã hiệu NnetDiode U type; gồm bộ phận truyền Tx nằm trong vùng mạng an toàn và bộ phận nhận Rx nằm trong vùng mạng ngoài được tích hợp trong một khối vỏ kim loại rackmount 1U kích thước 438 x 44 x 480 mm, khối lượng 8 kg, công suất tiêu thụ 300W, nguồn điện 100-240VAC 50/60Hz; mỗi đơn vị Tx và Rx có 4 cổng RJ-45 tốc độ 1 Gbps, 2 cổng USB 3.0, 1 cổng Console RJ-45; kết nối phần cứng chỉ cho phép truyền dữ liệu một chiều vật lý duy nhất ở tốc độ 1 Gbps trong hệ thống hữu tuyến kỹ thuật số, chuẩn mã hóa SHA-256 và AES-256, ngăn chặn rò rỉ dữ liệu ngược chiều hoặc tấn công mạng từ vùng mạng ít an toàn hơn), phân loại vào nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.49; có hiệu lực từ ngày ký",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-22",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Xác định trước mã số mặt hàng Thiết bị truyền tín hiệu một chiều tích hợp bộ phận truyền (Tx) và bộ phận nhận (Rx) trong một khối dùng cho hệ thống hữu tuyến kỹ thuật số (ký, mã hiệu NnetDiode U type; vỏ rackmount 1U, tốc độ truyền 1 Gbps, mỗi đơn vị có 4 cổng RJ-45 1 Gbps, 2 cổng USB 3.0, 1 cổng Console RJ-45, chỉ cho phép truyền dữ liệu một chiều vật lý từ vùng mạng an toàn ra vùng mạng ngoài) thuộc nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.49.",
+      "toan_van": "raw/download/files.customs.gov.vn/24187-tb-chq-2025.pdf",
+      "slug": "24187-tb-chq-2025",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "242/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -60770,6 +60810,46 @@
       "toan_van": "chua_co",
       "slug": "2453-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "24534/TB-CHQ/2025",
+      "so_hieu_khac": [
+        "24534/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-22",
+      "ten": "Thông báo về kết quả xác định trước mã số (Thiết bị lưu trữ dữ liệu phân tán dùng cho mạng nội bộ và trung tâm dữ liệu, ký mã hiệu OceanStor Pacific 9920, mã số 8471.70.90)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2025-09-16",
+      "hieu_luc_tu": "2025-09-16",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=101352&cid=1294",
+          "truy_cap": "2026-11-22"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/9/17/VBDI_24534.pdf",
+          "truy_cap": "2026-11-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/9/17/VBDI_24534.pdf, id=101352, SHA-256 ff82083ad6a4ec95320b137d619a719a414381c5df9793691bebd0c36dbb9bbc): Thông báo số 24534/TB-CHQ ngày 16-09-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Thiết bị lưu trữ dữ liệu phân tán (ký, mã hiệu OceanStor Pacific 9920; cấu tạo gồm khung máy chính 2U 25 khe SSD kích thước 86.1 x 447 x 830 mm nặng 38 kg, 2 bộ xử lý điều khiển Kunpeng 920 48 core, bộ nhớ RAM 16GB DDR4 x 16, 2 ổ cứng M.2 SSD SATA 3.0 480GB lưu trữ hệ điều hành và phần mềm quản lý, 17 ổ cứng 30.72TB SSD NVMe Palm Disk unit lưu trữ dữ liệu, card mạng 1x100G Dual Port QSFP28-PCIe 4.0 kèm module quang 2xQSFP28-100G-SR4; hoạt động theo nguyên lý lưu trữ phân tán với cơ chế mã hóa xóa Erasure Coding, hỗ trợ đa giao thức SMB/CIFS, NFS, iSCSI, S3, HDFS, chuyên xử lý dữ liệu phi cấu trúc băng thông cao và độ trễ thấp cho doanh nghiệp và trung tâm dữ liệu), phân loại vào nhóm 84.71, phân nhóm 8471.70, mã số 8471.70.90; có hiệu lực từ ngày ký",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-22",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Xác định trước mã số mặt hàng Thiết bị lưu trữ dữ liệu phân tán chuyên xử lý dữ liệu phi cấu trúc cho doanh nghiệp và trung tâm dữ liệu (ký, mã hiệu OceanStor Pacific 9920; khung máy 2U, 2 bộ xử lý điều khiển 48 core, RAM 16GB DDR4 x 16, 2 ổ M.2 SATA SSD 480GB, 17 ổ 30.72TB SSD NVMe, card mạng 100G QSFP28) thuộc nhóm 84.71, phân nhóm 8471.70, mã số 8471.70.90.",
+      "toan_van": "raw/download/files.customs.gov.vn/24534-tb-chq-2025.pdf",
+      "slug": "24534-tb-chq-2025",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -61115,6 +61195,86 @@
       ],
       "toan_van": "chua_co",
       "slug": "2473-tb-tchq-2018",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "24778/TB-CHQ/2025",
+      "so_hieu_khac": [
+        "24778/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-22",
+      "ten": "Thông báo về kết quả xác định trước mã số (Module màn hình tinh thể lỏng LCD 14 inch dùng cho máy tính xách tay, ký mã hiệu B140XTN07.4, mã số 8524.91.00)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2025-09-17",
+      "hieu_luc_tu": "2025-09-17",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=101368&cid=1294",
+          "truy_cap": "2026-11-22"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/9/19/4.VBDI_24778.pdf",
+          "truy_cap": "2026-11-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/9/19/4.VBDI_24778.pdf, id=101368, SHA-256 1acdfc7812ed9a2c96db7e26c48db80768bd19fc7bb06ada5b0b999050e49691): Thông báo số 24778/TB-CHQ ngày 17-09-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Module màn hình tinh thể lỏng LCD 14 inch dùng cho máy tính xách tay (TFT-LCM, ký, mã hiệu B140XTN07.4; kích thước 309.399 x 173.952 mm, độ dày kính 0.4 mm, khối lượng 300 g, điện áp nguồn tối đa 3.6V, công suất tối đa 2.5W, độ sáng 300 cd/m2; cấu tạo gồm tấm màn hình tinh thể lỏng LCD 14 inch công nghệ TFT, tấm lưng bằng nhôm, bảng mạch PCB gắn phía sau panel LCD có IC T-CON giao tiếp eDP và IC LED Driver cùng các linh kiện điện tử cấp nguồn/truyền tín hiệu, IC điều khiển hiển thị X-Driver IC, cáp kết nối, tấm phân cực Polarizer film và đèn nền LED Backlight; không bao gồm IC giải mã hay xử lý tín hiệu video), phân loại vào nhóm 85.24, phân nhóm \"- Loại khác\", mã số 8524.91.00; có hiệu lực từ ngày ký",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-22",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Xác định trước mã số mặt hàng Module màn hình tinh thể lỏng LCD 14 inch dùng làm linh kiện sản xuất máy tính xách tay, đã có trình điều khiển (TFT-LCM, ký, mã hiệu B140XTN07.4; kích thước 309.399 x 173.952 mm, gồm tấm LCD 14 inch, tấm lưng nhôm, PCB gắn IC T-CON và IC LED Driver, X-Driver IC, cáp kết nối, tấm phân cực và đèn nền LED Backlight) thuộc nhóm 85.24, mã số 8524.91.00.",
+      "toan_van": "raw/download/files.customs.gov.vn/24778-tb-chq-2025.pdf",
+      "slug": "24778-tb-chq-2025",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "24779/TB-CHQ/2025",
+      "so_hieu_khac": [
+        "24779/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-22",
+      "ten": "Thông báo về kết quả xác định trước mã số (Loa chưa lắp vào vỏ loa dùng sản xuất loa siêu trầm, ký mã hiệu HUNFW00029A, mã số 8518.29.90)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2025-09-17",
+      "hieu_luc_tu": "2025-09-17",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=101367&cid=1294",
+          "truy_cap": "2026-11-22"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/9/19/3.VBDI_24779.pdf",
+          "truy_cap": "2026-11-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/9/19/3.VBDI_24779.pdf, id=101367, SHA-256 a98a7aad75f60a90abcc18851c5639ccb227508a3dfbdecd39e7e37727896ae0): Thông báo số 24779/TB-CHQ ngày 17-09-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Loa chưa lắp vào vỏ loa (Unit speaker, ký, mã hiệu HUNFW00029A; cấu tạo gồm nắp che bụi, màng loa, cuộn dây đồng, màng nhện, đầu kết nối dây dẫn, khung, đế nam châm, 2 nam châm chính, tấm đỡ, dây dẫn tín hiệu, vòng ổn định từ trường và đệm chống rung; tần số 46Hz~3.5kHz, công suất 80W, điện áp hoạt động 0~17,88V/AC, kích thước đường kính x chiều cao 169.6 x 120.7 mm, trọng lượng 2930 g, sử dụng để sản xuất sản phẩm loa siêu trầm sub woofer), phân loại vào nhóm 85.18, phân nhóm 8518.29, mã số 8518.29.90; có hiệu lực từ ngày ký",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-22",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Xác định trước mã số mặt hàng Loa chưa lắp vào vỏ loa (Unit speaker, ký, mã hiệu HUNFW00029A; tần số 46Hz~3.5kHz, công suất 80W, điện áp hoạt động 0~17,88V/AC, kích thước 169.6 x 120.7 mm, trọng lượng 2930 g, dùng để sản xuất loa siêu trầm sub woofer) thuộc nhóm 85.18, phân nhóm 8518.29, mã số 8518.29.90.",
+      "toan_van": "raw/download/files.customs.gov.vn/24779-tb-chq-2025.pdf",
+      "slug": "24779-tb-chq-2025",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
