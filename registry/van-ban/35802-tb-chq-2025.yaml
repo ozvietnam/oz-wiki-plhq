@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 35802/TB-CHQ/2025
+so_hieu_khac:
+  - 35802/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Đầu cắm kết nối/Connector dạng đầu cái hàn lên bảng mạch in SMD, ký mã hiệu CONNECTOR,05010HR-24A00G,24PIN, mã số 8536.69.32)'
+co_quan: CHQ
+ngay_ban_hanh: '2025-11-14'
+hieu_luc_tu: '2025-11-14'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=101863&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/11/15/21.VB_35802.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/11/15/21.VB_35802.pdf, id=101863, SHA-256 eb1ecb5a9adc5b23b89b31a99350f5ccda7bc4279c553b9e815228af29d9dd96): Thông báo số 35802/TB-CHQ ngày 14-11-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Đầu cắm kết nối/Connector dạng đầu cái (socket) dùng hàn lên bảng mạch in SMD (Surface Mount Device) để kết nối với cáp dẹt và mạch in linh hoạt FFC/FPC bước chân 0.50mm (ký, mã hiệu CONNECTOR,05010HR-24A00G,24PIN; cấu tạo gồm vỏ housing bằng nhựa PA6T, chân kết nối terminal bằng đồng phốt pho C5210 mạ vàng, móc giữ hook bằng đồng thau C2680 mạ thiếc; điện áp định mức AC/DC 50V, dòng điện định mức AC/DC 0.5A), phân loại vào nhóm 85.36, phân nhóm 8536.69, mã số 8536.69.32; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Đầu cắm kết nối/Connector dạng đầu cái (socket) dùng hàn lên bảng mạch in SMD để kết nối với cáp dẹt và mạch in linh hoạt FFC/FPC bước chân 0.50mm (ký, mã hiệu CONNECTOR,05010HR-24A00G,24PIN; điện áp định mức AC/DC 50V, dòng điện định mức AC/DC 0.5A) thuộc nhóm 85.36, phân nhóm 8536.69, mã số 8536.69.32.'
+toan_van: raw/download/files.customs.gov.vn/35802-tb-chq-2025.pdf
