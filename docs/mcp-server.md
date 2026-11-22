@@ -5,7 +5,7 @@ Kho **`oz-wiki-plhq`** cung cấp sẵn hai đường tra cứu tại máy (**0 
 1. **MCP Stdio Server (`npm run mcp:server`):** máy chủ [Model Context Protocol](https://modelcontextprotocol.io/) chạy giao thức JSON-RPC 2.0 qua `stdin`/`stdout` cho **Claude Desktop**, **Antigravity**, **Cursor**, **Cổng MCP `ozplugin`** và các agent tương thích.
 2. **CLI tra cứu (`npm run tra-cuu`):** công cụ dòng lệnh cho người làm xuất nhập khẩu, kỹ sư và script tự động.
 
-> **Kiến trúc & lược đồ dữ liệu:** Xem [docs/SO-DO-HE-THONG.md](SO-DO-HE-THONG.md) và [docs/tich-hop.md](tich-hop.md) để nắm chi tiết 7 tệp `dist/*.json` (`1.5.0`) và hợp đồng trường ổn định.
+> **Kiến trúc & lược đồ dữ liệu:** Xem [docs/SO-DO-HE-THONG.md](SO-DO-HE-THONG.md) và [docs/tich-hop.md](tich-hop.md) để nắm chi tiết gói **8 tệp** `dist/*.json` (`1.5.0`) và hợp đồng trường ổn định *(engine `tools/lib/tra-cuu-plhq.mjs` nạp 6 tệp cốt lõi phục vụ tra cứu: `registry.json`, `hs-index-theo-ma.json`, `wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`, hoặc tự dựng in-memory khi thiếu `dist/`)*.
 
 ---
 
@@ -59,7 +59,7 @@ Tệp thực thi: [`tools/mcp-server.mjs`](../tools/mcp-server.mjs) (chạy tr�
 | `plhq_tra_dieu_khoan` | `so_hieu?`, `dieu?`, `khoan?`, `diem?`, `tu_khoa?`, `chi_nguyen_van?`, `limit?` | Tra điều khoản pháp luật theo số hiệu văn bản, số điều/khoản/điểm hoặc từ khóa. **Luôn ưu tiên tầng `NGUYEN_VAN_NGUON_A`** (kèm `trang_pdf`, `sha256_pdf`, `nguyen_van_da_xac_minh: true`). Chỉ khi `chi_nguyen_van !== true` và cần mở rộng mới trả thêm tầng `TOM_TAT_NHAP` kèm cảnh báo `da_soat: false`. |
 | `plhq_hoi_phap_luat` | `cau_hoi` *(bắt buộc)*, `nhanh?`, `limit?` | Tìm kiếm mở rộng từ viết tắt (`ATTP`, `KTCN`, `VPHC`, `TNTX`, `GTGT`, `C/O`...), ghim số hiệu hỏi đích danh, xếp văn bản hiện hành lên trên `HET_HIEU_LUC` và lọc nhiễu `NGUYEN_VAN_NGUON_A` (có tách riêng tầng định vị `dieu_khoan_tom_tat_nhap` mang `da_soat: false`). Trả kèm `do_tin_cay_tra_loi` (`CAO \| TRUNG_BINH \| THAP \| KHONG_TIM_THAY`), `pham_vi_du_lieu` và `goi_y_du_phong` (trỏ sang `tim_van_ban_lop_2` + URL bậc A + thẻ `[BỔ SUNG SỔ]` khi thiếu toàn văn / ngoài kho — không suy diễn). Nếu câu hỏi thuộc phân loại mã HS / GIR / thuế suất / tiền lệ → trả `chuyen_huong` sang `hs-code-api`. |
 | `plhq_tra_cas` | `query` *(bắt buộc)*, `phu_luc?`, `limit?` | Tra hóa chất trong danh mục NĐ `24/2026/NĐ-CP` (`cas-index.json`) theo mã CAS, tên chất (`ten_chat`), tên khoa học/mã hóa chất (`ma_hoa_chat`) hoặc công thức (`cong_thuc`), lọc tùy chọn `phu_luc` (`I`..`IV`), tìm cả mục `khong_co_cas`, trả đủ mọi phụ lục mà chất thuộc về kèm ngưỡng `nguong_kg` (nếu có). |
-| `plhq_chinh_sach_theo_hs` | `ma_hs` *(bắt buộc)*, `limit?` | Tra cứu theo tiền tố mã HS 4/6/8 số **đã biết** trên `hs-index-theo-ma.json` để liệt kê văn bản KTCN, cấm/tạm ngừng, giấy phép, phòng vệ thương mại áp lên mã đó kèm `tinh_trang` hiệu lực. Không dùng để suy đoán hay áp mã HS mới (việc của `hs-code-api`). |
+| `plhq_chinh_sach_theo_hs` | `ma_hs` *(bắt buộc)*, `limit?` | Tra cứu theo tiền tố mã HS 4/6/8 số **đã biết** trên `hs-index-theo-ma.json` để liệt kê văn bản KTCN, cấm/tạm ngừng, giấy phép, phòng vệ thương mại áp lên mã đó kèm `tinh_trang` hiệu lực và cảnh báo `canh_bao_ma` khi mã nằm ngoài biểu thuế đối chiếu (xem thêm `anh_xa_ahtn_cu` từ `registry/phien-ban-bieu-thue-mapping.yaml` trong `dist/hs-index-theo-ma.json`). Không dùng để suy đoán hay áp mã HS mới (việc của `hs-code-api`). |
 | `plhq_sap_het_hieu_luc` | `trong_so_ngay?`, `hom_nay?` | Liệt kê các văn bản có `het_hieu_luc_tu` trong vòng `<= trong_so_ngay` ngày (mặc định `60` ngày) tính từ `hom_nay` (mặc định theo ngày `phien_ban` dữ liệu hoặc ngày hiện tại), sắp tăng dần theo ngày hết hiệu lực. |
 
 Mỗi lời gọi `tools/call` đều trả đồng thời:
@@ -153,7 +153,7 @@ npm run tra-cuu -- cas "106-99-0" --phu-luc IV
 Mọi tích hợp MCP client, trợ lý AI hoặc ứng dụng dựng trên `oz-wiki-plhq` phải tuân thủ 4 nguyên tắc sau:
 
 1. **Phân tách tuyệt đối 2 tầng điều khoản (`NGUYEN_VAN_NGUON_A` vs `TOM_TAT_NHAP`):**
-   - **`NGUYEN_VAN_NGUON_A`:** trích từ `xac_minh.dieu_khoan` của văn bản đã đối chiếu PDF nguồn bậc A và kiểm tự động bằng `npm run kiem-tra:dieu-khoan` (kiểm khớp chữ theo `trang_pdf` và băm `sha256_pdf`). **Được phép trích dẫn trực tiếp làm căn cứ pháp lý**, kèm số hiệu văn bản và URL `nguon_a`.
+   - **`NGUYEN_VAN_NGUON_A`:** trích từ `xac_minh.dieu_khoan` của văn bản đã đối chiếu PDF/OCR nguồn bậc A (qua `tools/trich-dieu-khoan.mjs` hoặc soát tay) và kiểm tự động bằng `npm run kiem-tra:dieu-khoan` (kiểm khớp chữ theo `trang_pdf` và băm `sha256_pdf`). **Được phép trích dẫn trực tiếp làm căn cứ pháp lý**, kèm số hiệu văn bản và URL `nguon_a`.
    - **`TOM_TAT_NHAP`:** trích tự động từ `data/doc-hieu/*.dieu.jsonl`, luôn mang `da_soat: false`. **CHỈ dùng để định vị điều luật hoặc nghĩa vụ liên quan; TUYỆT ĐỐI KHÔNG trích nguyên văn hay khẳng định là căn cứ pháp lý.** Khi kết quả thuộc tầng này, bắt buộc hiển thị cảnh báo `"Tóm tắt nháp — chưa đối chiếu nguyên văn PDF bậc A"` và dẫn link `nguon_a` để người dùng mở bản gốc.
 2. **Tôn trọng hiệu lực & cảnh báo wiki (`canh_bao_hieu_luc`, `hieu_luc_da_doi_chieu`):**
    - Đọc nguyên giá trị `tinh_trang`, không tự suy luận văn bản còn/hết hiệu lực chỉ từ ngày tháng.
@@ -166,6 +166,8 @@ Mọi tích hợp MCP client, trợ lý AI hoặc ứng dụng dựng trên `oz-
 
 ---
 
+## Cơ chế dự phòng 3 tầng
+
 Cổng `oz-wiki-plhq` sử dụng cơ chế 3 tầng để không bao giờ bịa điều luật hay trả lời rỗng im lặng khi tích hợp với `ozplugin`:
 - **Tầng 1 (Kho PLHQ nội bộ):** `plhq_hoi_phap_luat` trả `do_tin_cay_tra_loi` (`CAO` | `TRUNG_BINH` | `THAP` | `KHONG_TIM_THAY`), tách riêng `dieu_khoan_nguon_a` và `dieu_khoan_tom_tat_nhap` (`da_soat: false`).
 - **Tầng 2 (Fallback trực tiếp nguồn A):** Khi độ tin cậy `THAP` / `KHONG_TIM_THAY` hoặc văn bản gắn cờ `chua_co_toan_van_trong_kho: true`, trường `goi_y_du_phong` trả sẵn `cong_cu_de_xuat: "tim_van_ban_lop_2"` cùng tối đa 5 URL bậc A (`url_nguon_bac_a_goi_y`) để `ozplugin` tra trực tiếp `.gov.vn` / `vbpl.vn` / `chinhphu.vn`.
@@ -175,7 +177,12 @@ Cổng `oz-wiki-plhq` sử dụng cơ chế 3 tầng để không bao giờ bị
 
 ```bash
 node tools/test/test-mcp-server.mjs
+node tools/test/test-tra-cuu-plhq.mjs
+npm run eval:qa
 npm run eval:retrieval
 ```
+
+- `npm run eval:qa`: đo độ phủ nguồn A, trang wiki và điều khoản trên **60 câu** nghiệp vụ ([`eval/cau-hoi-nghiep-vu.yaml`](../eval/cau-hoi-nghiep-vu.yaml)).
+- `npm run eval:retrieval`: cổng đo truy hồi sống của `hoiPhapLuat` trên bộ **60 câu** nghiệp vụ + 5 câu ghim số hiệu + 5 câu viết tắt + 2 câu ngoài kho (ngưỡng đạt: `expiredTop1 = 0`, `hitAny >= 95%`, `soHieuPinRate = 5/5`, `abbrQueriesRate = 5/5`, `outOfScopeFallbackRate = 2/2`).
 
 Xem thêm bảng đầy đủ các lệnh kiểm tra toàn kho tại [README.md](../README.md) và [docs/SO-DO-HE-THONG.md](SO-DO-HE-THONG.md).
