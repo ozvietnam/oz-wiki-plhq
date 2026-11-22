@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-2961 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2969 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -386,7 +386,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2276 văn bản, 2276 chưa hết hiệu lực.
+2284 văn bản, 2284 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -488,6 +488,14 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [16658/TB-CHQ/2026](../registry/van-ban/16658-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chất khơi mào phản ứng Trigonox 93 gồm Tert-Butyl peroxybenzoate 77,5-81,0% và Acetylacetone 19,0-22,5%, dạng dung dịch dùng làm chất khơi mào phản ứng trong sản xuất nhựa và đá nhân tạo, mã số 3815.90.00)
 - 🟢 [16555/TB-CHQ/2026](../registry/van-ban/16555-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Trục đầu ra từ puly thứ cấp Driven Pulley shaft bằng thép hợp kim, ký mã hiệu 1A005707, dài 179,7 mm, thuộc hệ truyền động bánh sau xe máy tay ga, mã số 8714.10.40)
 - 🟢 [16379/TB-CHQ/2026](../registry/van-ban/16379-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hệ thống điều hòa không khí Inverter multi hai chiều dành cho nhà ở gồm 01 dàn nóng RAS-3M26S3AV-E công suất làm lạnh/sưởi 7,5/9,0 kW kết hợp 02 dàn lạnh âm trần nối ống gió RAS-M13U2DVG-E và 01 dàn lạnh RAS-M16U2DVG-E, kèm bộ phận làm lạnh và van đảo chiều chu trình nóng/lạnh, mã số 8415.81.97)
+- 🟢 [16407/TB-CHQ/2026](../registry/van-ban/16407-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cao cô đặc xương ngựa bạch Equus ferus caballus dạng bánh/cao đặc, tổng hàm lượng 18 axit amin > 70 g/100g, dùng làm nguyên liệu sản xuất thực phẩm, mã số 2106.90.99)
+- 🟢 [16252/TB-CHQ/2026](../registry/van-ban/16252-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị sạc không dây đôi ACC HHP,CHARGING PAD,E ENG,UNIT, ký mã hiệu EP-P5400BBEGBR, công suất sạc tối đa 15W dùng cho điện thoại thông minh, thiết bị đeo tay thông minh và tai nghe bluetooth, mã số 8504.40.40)
+- 🟢 [16181/TB-CHQ/2026](../registry/van-ban/16181-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị chuyển mạch mạng LAN model C9200L-24T-4G-E, 24 cổng dữ liệu 10/100/1000 Mbps và 4 cổng uplink SFP 1G, điện áp 100-240 VAC, mã số 8517.62.49)
+- 🟢 [16108/TB-CHQ/2026](../registry/van-ban/16108-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chất ghép nối Silane cho sản phẩm đá nhân tạo GENIOSIL® CS 2 chứa Ethyl silicate 25%-<50% và Triethoxyphenylsilane 1%-<3%, mã số 3824.99.99)
+- 🟢 [16109/TB-CHQ/2026](../registry/van-ban/16109-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Keo dán Glue LG-850 dạng lỏng màu vàng dùng để dán đế lót giày, đóng gói 15 kg/thùng, mã số 3506.91.90)
+- 🟢 [16110/TB-CHQ/2026](../registry/van-ban/16110-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Keo dán Glue LG-T-211 dạng lỏng màu vàng nhạt dùng để cố định mặt giày trong khâu may, đóng gói 15 kg/thùng, mã số 3506.91.90)
+- 🟢 [16061/TB-CHQ/2026](../registry/van-ban/16061-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Mặt nạ xông hơi mắt thư giãn MegRhythm loại có hương, ký mã hiệu MSEM-LA / MSEM-CH / MSEM-OS / MSEM-CI / MSEM-FO, chứa lõi hạt sinh nhiệt Fe và H2O 56,1%, đóng gói 5 miếng/hộp, mã số 3824.99.99)
+- 🟢 [16062/TB-CHQ/2026](../registry/van-ban/16062-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Mặt nạ xông hơi mắt thư giãn MegRhythm loại không hương, ký mã hiệu MSEM-US, chứa lõi hạt sinh nhiệt Fe và H2O 55,1%, đóng gói 5 miếng/hộp, mã số 3824.99.99)
 - 🟢 [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - 🟢 [1489/TB-CHQ/2026](../registry/van-ban/1489-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1633/TB-CHQ/2026](../registry/van-ban/1633-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2710.12.99)
