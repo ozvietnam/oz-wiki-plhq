@@ -13,10 +13,12 @@ nguon:
     truy_cap: '2026-10-28'
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=179326
     truy_cap: '2026-10-29'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2015/1/7958/4373-1-2015363-364-132015tt-btcpdf
+    truy_cap: '2026-11-22'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'Đã đối chiếu lại trên Công báo (nguồn bậc A) ngày 28-10-2026: ban hành 30-01-2015, hiệu lực 15-03-2015, cơ quan Bộ Tài chính. Mục "Lược đồ" của Công báo cho biết văn bản CHƯA bị thay thế/bãi bỏ và CHƯA bị sửa đổi/đính chính. Ngoài ra đã bị TT 06/2026/TT-BTC sửa đổi, bổ sung từ 01-03-2026 (chiều đi ghi ở văn bản mới: registry/van-ban/06-2026-tt-btc.yaml) — nên vẫn còn hiệu lực.'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-28'
   boi: zcode@ozvietnam
-toan_van: raw/download/congbao.chinhphu.vn/13-2015-tt-btc.html
+toan_van: raw/download/congbaocdn.chinhphu.vn/13-2015-tt-btc.pdf
