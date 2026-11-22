@@ -20,7 +20,7 @@ xac_minh:
   muc: NGUON_A
   pham_vi: 'đối chiếu thẻ vanban.chinhphu.vn (docid=199721) và tulieuvankien.dangcongsan.vn: số hiệu, tên nguyên văn, cơ quan Chính phủ (ký Nguyễn Xuân Phúc), ngày ban hành 09-04-2020, có hiệu lực từ 01-06-2020; đối chiếu còn hiệu lực về thủ tục hải quan đối với hàng hóa quá cảnh qua Hệ thống quá cảnh Hải quan ASEAN (ACTS)'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-22'
   boi: tho-bo-ba-01@ozvietnam
   dieu_khoan:
     - dieu: 1
@@ -32,26 +32,83 @@ xac_minh:
     - dieu: 3
       noi_dung: 'Điều 3. Giải thích từ ngữ Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: 1. Hệ thống ACTS là hệ thống công nghệ thông tin tích hợp do các nước'
       trang_pdf: 2
+    - dieu: 4
+      noi_dung: 'Điều 4. Người khai hải quan Người khai hải quan đối với hàng hóa quá cảnh theo quy định tại Nghị định này (sau đây gọi là người khai hải quan) gôm: 1. Chủ hàng hóa quá cảnh. 2. Người thực hiện dịch vụ quá cảnh hàng hóa. 3. Đại lý làm thủ tục hải quan.'
+      trang_pdf: 3
+    - dieu: 5
+      noi_dung: 'Điều 5. Quyền và nghĩa vụ của người khai hải quan 1. Quyền của người khai hải quan: a) Được cơ quan hải quan hướng dẫn làm thủ tục hải quan đối với hàng hóa quá cảnh thông qua Hệ thống ACTS theo quy định tại Nghị định này; b) Được lựa chọn thực hiện thủ tục hải quan quá cảnh thông qua Hệ thống ACTS quy định tại Nghị định này hoặc thủ tục hải quan quá cảnh theo quy định hiện hành của pháp luật Việt Nam;'
+      trang_pdf: 4
+    - dieu: 6
+      noi_dung: 'Điều 6. Quy định về hàng hóa quá cảnh thông qua Hệ thống ACTS 1. Hàng hóa quá cảnh thông qua Hệ thống ACTS xuất phát từ Việt Nam, quá cảnh qua các nước thành viên ASEAN khác phải tuân thủ chính sách quản lý đôi với hàng hóa quá cảnh của nước quá cảnh. 2. Hàng hóa quá cảnh thông qua Hệ thống ACTS qua các nước thành viên ASEAN khác và nhập khẩu vào Việt Nam phải tuân thủ chính sách quan lý đối với hàng hóa quá cảnh của các nước thành viên khác và chính sách quản lý đối với hàng hóa nhập khẩu của pháp luật có liên quan của Việt Nam.'
+      trang_pdf: 5
+    - dieu: 7
+      noi_dung: '2. Hàng hóa quá cảnh thông qua Hệ thống ACTS chỉ được đưa từ Việt Nam đến các nước thành viên ASEAN hoặc đưa từ các nước thành viên ASEAN vào Việt Nam qua các cửa khâu quôc tế: Cầu Treo (Hà Tĩnh), Lao Bảo (Quảng Trị), Mộc Bài (Tây Ninh).'
+      trang_pdf: 6
+    - dieu: 8
+      noi_dung: 'Điều 8. Thủ tục hải quan đối với hàng hóa xuất phát từ Việt Nam quá cảnh qua các nước thành viên ASEAN khác 1. Hồ sơ hải quan: a) Tờ khai quá cảnh hải quan theo các chỉ tiêu thông tin do Bộ Tài chính ban hành; b) Giấy phép quá cảnh hàng hóa hoặc chứng từ tương đương trong trường hợp pháp luật của các nước thành viên ASEAN trong hành trình quá cảnh quy định phải có giấy phép quá cảnh hàng hóa hoặc chứng từ tương đương: 01 bán chụp; c) Thư bảo lãnh hoặc chứng từ đặt cọc tiền thuế: 01 bán chính.'
+      trang_pdf: 6
     - dieu: 9
       noi_dung: 'Điều 9. Thủ tục hải quan đối với hàng hóa quá ‹ cảnh thông qua Hệ thống ACTS từ các nước ngoài ASEAN qua lãnh thé Việt Nam đến các nước thành viên ASEAN 1. Hồ sơ hải quan: a) Tờ khai quá cảnh hải quan theo các chỉ tiêu thông tin do Bộ Tài chính ban hành; b) Giấy phép quá cảnh hàng hóa trong trường hợp pháp luật Việt Nam quy định phải có giây phép quá cảnh hàng hóa: 01 bản chính;'
       trang_pdf: 9
+    - dieu: 10
+      noi_dung: 'Điều 10. Khai bỗ sung tờ khai quá cảnh hải quan 1. Các trường hợp khai bổ sung tờ khai quá cảnh hải quan thông qua Hệ thông ACTS: a) Người khai hải quan tự phát hiện sai sót trước thời điểm Chi cục hải quan điểm đi thông báo kiểm tra hồ sơ hải quan, kiểm tra thực tế hàng hóa hoặc trước thời điểm phê duyệt hàng hóa được vận chuyển quá cảnh thông qua Hệ thống ACTS;'
+      trang_pdf: 10
+    - dieu: 11
+      noi_dung: 'Điều 11. Hủy tờ khai quá cảnh hải quan 1. Các trường hợp hủy tờ khai quá cảnh hải quan thông qua Hệ thống ACTS: a) Quá thời hạn 15 ngày kể từ ngày tờ khai quá cảnh hải quan được cấp số ARN nhưng không xuất trình hàng hóa để cơ quan hải quan thực hiện niêm phong hoặc lập Biên bản chứng nhận (uường hợp hàng hóa không thé niêm phong được) hoặc không đưa hàng đến cửa khẩu xuất;'
+      trang_pdf: 10
+    - dieu: 12
+      noi_dung: 'Điều 12. Thủ tục hải quan, đối với hàng hóa quá cảnh qua các nước thành viên ASEAN và nhập khấu vào Việt Nam hoặc hàng hóa quá cảnh từ các nước thành viên ASEAN qua lãnh thé Việt Nam đến các nước ngoài ASEAN 1. Hồ sơ hải quan: Chứng từ TAD (trường hợp Hệ thống ACTS gặp sự cố thì TAD phải có xác nhận của cơ quan hải quan các nước ASEAN tham gia hành trình vận chuyền hàng hóa quá cảnh).'
+      trang_pdf: 11
     - dieu: 13
       noi_dung: 'Điều 13. Thủ tục hải quan đối với hàng hóa quá cảnh từ các nước thành viên ASEAN qua lãnh thé Việt Nam đến các nước thành viên ASEAN khác 1. Hồ sơ hải quan: a) Chứng từ TAD (trường hợp Hệ thống ACTS gặp sự cố thì phải có xác nhận của cơ quan hải quan các nước ASEAN tham gia hành trình vận chuyên hàng hóa quá cảnh); b) Giấy phép quá cảnh hàng hóa trong trường hợp pháp luật Việt Nam quy định phải có giây phép quá cảnh hàng hóa: 01 bản chính;'
       trang_pdf: 13
+    - dieu: 14
+      noi_dung: 'Điều 14. Thủ tục xác minh việc kết thúc hoạt động quá cảnh 1. Các trường hợp phải xác minh: a) Cơ quan hải quan điểm đi không nhận được “thông báo hàng đến” từ cơ quan hải quan điểm đích thông qua Hệ thống ACTS trong thời hạn 02 ngày làm việc, ké từ ngày kết thúc thời hạn phải hoàn thành thủ tục quá cảnh do Hệ thống ACTS xác định;'
+      trang_pdf: 15
+    - dieu: 15
+      noi_dung: 'Điều 15. Giám sát hàng hóa quá cảnh thông qua Hệ thống ACTS 1. Hàng hóa quá cảnh phải được niêm phong theo quy định trừ trường hợp hàng hóa không thể niêm phong (hàng rời, hàng siêu trường, siêu trọng, hàng công kénh) co quan hải quan điểm đi căn cứ biên ban chứng nhận dé ghi nhận thông tin về hàng hóa thông qua Hệ thống ACTS. 2. Hàng hóa quá cánh qua lãnh thô Việt Nam thuộc diện phải có giấy phép quá cảnh hàng hóa của Thủ tướng Chính phủ, được giám sát bằng phương tiện kỹ thuật hoặc được giám sát trực tiếp bởi công chức hải quan.'
+      trang_pdf: 16
+    - dieu: 16
+      noi_dung: 'Điều 16. Niêm phong hàng hóa quá cảnh thông qua Hệ thống ACTS 1. Niêm phong hải quan: Hàng hóa quá cảnh phải được niêm phong hải quan hoặc niêm phong đặc biệt (đối với doanh nghiệp quá cảnh được ưu tiên), trừ các trường hợp hàng hóa không thể niêm phong hải quan (hàng rời, hàng siêu trường, siêu trọng, hàng cồng kénh).'
+      trang_pdf: 16
+    - dieu: 17
+      noi_dung: 'Điều 17. Thủ tục dự phòng trong trường hợp Hệ thống ACTS không hoạt động (thủ tục quá cảnh hàng hóa ACTS dự phòng) 1. Thủ tục quá cảnh hàng hóa thông qua Hệ thống ACTS được áp dụng thủ tục quá cảnh hàng hóa ACTS dự phòng trong các trường hợp sau: a) Hệ thống điện tử tại một trong các cơ quan hải quan trong hành trình quá cảnh không hoạt động; b) Hệ thống khai báo điện tử của người khai hải quan không hoạt động; c) Toàn bộ hay một phần Hệ thống ACTS kết nối điện tử giữa cơ quan hải quan và người khai hải quan không hoạt động.'
+      trang_pdf: 17
     - dieu: 18
       noi_dung: 'Điều 18. Hệ thống ACTS 1. Hệ thống ACTS do Tổng cục Hải quan xây dựng, quản lý và vận hành trên cơ sở các tài liệu kỹ thuật được thống nhất giữa các quốc gia thành viên ASEAN tham gia Nghị định thư 7. 2. Các giao dịch điện tử thực hiện thông qua Hệ thống ACTS bao gồm: a) Khai, nhận, phản hồi thông tin về thực hiện thủ tục quá cảnh hàng hóa; b) Chuyển kết qua xử lý tờ khai quá cảnh hai quan tới người khai hải quan;'
       trang_pdf: 19
     - dieu: 23
       noi_dung: 'Điều 23. Xứ lý sự cố Trường hợp Hệ thống ACTS có sự cố không thể trao đổi, cung cấp thông tin dưới hình thức điện tử:'
       trang_pdf: 22
+    - dieu: 24
+      noi_dung: 'Điều 24. Bảo lãnh quá cảnh 1. Trước khi đăng ký tờ khai quá cảnh hải quan đối với hàng hóa xuất phát từ Việt Nam, người khai hải quan lựa chọn hình thức bảo lãnh một hành trình hoặc bao lãnh nhiều hành trình và nộp thư bảo lãnh của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài cho cơ quan hải quan nơi đăng ký tờ khai để cập nhật thông qua Hệ thống ACTS. Bảo lãnh có giá trị đối với các nước tham gia hành trình vận chuyên hàng hóa quá cảnh.'
+      trang_pdf: 22
+    - dieu: 25
+      noi_dung: 'Điều 25. Đặt cọc tiền bảo lãnh hàng hóa quá cảnh 1. Trước khi đăng ký tờ khai quá cảnh hải quan, người khai hải quan được lựa chọn hình thức bảo lãnh là đặt cọc tiền cho cơ quan hải quan dé đảm bảo cho việc thanh toán tiền thuế hải quan có. thể phát sinh phải nộp cho một tờ khai quá cảnh hải quan và nộp giấy nộp tiền cho cơ quan hải quan dé cập nhật thông qua Hệ thống ACTS.'
+      trang_pdf: 26
+    - dieu: 26
+      noi_dung: 'Điều 26. Miễn bao lãnh nhiều hành trình 1. Doanh nghiệp được miễn bảo lãnh nhiều hành trình nếu đáp ứng các điêu kiện sau: a) Được công nhận doanh nghiệp quá cảnh được ưu tiên; b) Doanh nghiệp có đăng ký kinh doanh dịch vụ vận tải hoặc kinh doanh dich vu logistics theo quy định của pháp luật;'
+      trang_pdf: 27
     - dieu: 28
       noi_dung: Điều 28. Hủy bỏ bảo lãnh 1. Khi hủy bỏ bảo lãnh một hành trình hoặc bảo lãnh nhiều hành trình, người bảo lãnh thông báo theo mẫu do Bộ Tài chính ban hành gửi cơ quan hải quan nơi đăng ký tờ khai quá cảnh hải quan qua đường bưu chính hoặc qua hệ thống dữ liệu điện tử về việc hủy bỏ bảo lãnh.
       trang_pdf: 29
+    - dieu: 30
+      noi_dung: 'Điều 30. Trường hop phát sinh tiền thuế hải quan phải nộp và giảm thuế hải quan 1. Các trường hợp sau đây được xác định là phát sinh tiền thuế hải quan phải nộp: a) Hàng hóa di chuyển bat hợp pháp khỏi thủ tục quá cảnh thông qua Hệ thống ACTS quy định tại khoản 15 Điều 3 Nghị định này hoặc sau 30 ngày mà cơ quan hải quan điểm đi không nhận được hồ sơ, chứng từ của người khai hải quan hoặc của các cơ quan hải quan trong hành trình quá cảnh chứng minh hoạt động quá cảnh đã được hoàn thành thủ tục hải quan thông qua Hệ thống ACTS quy định tại khoản 2 Điều 14 Nghị định này;'
+      trang_pdf: 30
+    - dieu: 31
+      noi_dung: 'Điều 31. Thu hồi và hỗ trợ thu hồi nợ thuế hải quan 1. Thu hồi nợ thuế hải quan: a) Các trường hợp phát sinh số tiền thuế phải nộp theo quy định tại khoản 1 Điều 30 Nghị định này thì cơ quan hải quan thực hiện tính lại số tiền thuế hải quan phải nộp theo quy định hiện hành; b) Việc thu hồi nợ thuế hải quan thực hiện theo quy định tại khoản 7, khoản 8 Điều 24, khoản 2, khoản 3, khoản 4 Điều 31 Nghị định nay và pháp luật về thuế.'
+      trang_pdf: 31
     - dieu: 32
       noi_dung: 'Điều 32. Điều kiện áp dụng chế độ ưu tiên Doanh nghiệp quá cảnh được áp dụng, chế độ ưu tiên khi thực hiện quá cảnh hàng hóa thông qua Hệ thống ACTS nếu đáp ứng đủ các điều kiện sau: 1. Điều kiện về trụ sở của doanh nghiệp:'
       trang_pdf: 33
+    - dieu: 33
+      noi_dung: 'Điều 33. Chế độ ưu tiên 1. Miễn bảo lãnh theo quy định tại Điều 26 Nghị định này. 2. Miễn xuất trình TAD, xuất trình hàng hóa tại cơ quan hải quan, trừ trường hợp Hệ thông ATCS có sự cô. 3. Miễn kiểm tra hồ sơ hải quan, miễn kiểm tra thực tế hàng hóa tại cơ quan hải quan điểm đi, trừ trường hợp có dau hiệu vi phạm pháp luật. 4. Được sử dụng niêm phong đặc biệt đã được cơ quan hải quan chấp nhận. 5. Thời hạn doanh nghiệp quá cảnh được hưởng chế độ ưu tiên là 36 tháng kể từ ngày ban hành quyết định công nhận doanh nghiệp quá cảnh được ưu tiên.'
+      trang_pdf: 34
     - dieu: 38
       noi_dung: Điều 38. Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 01 tháng 6 năm 2020.
+      trang_pdf: 38
+    - dieu: 39
+      noi_dung: 'Điều 39. Tổ chức thực hiện và trách nhiệm thi hành 1. Bộ Tài chính: a) Chủ trì, phối hợp với các bộ, ngành liên quan tổ chức thực hiện các quy định tại Nghị định này; b) Chủ tr, phối hợp với các bộ, ngành liên quan xây dựng, hướng dẫn, ban hành cụ thể về các yêu cau kỹ thuật, phat triên, triển khai, quản lý, vận hành hệ thống công nghệ thông tin cho hoạt động quá cảnh ACTS. 2. Bộ Giao thông vận tải quy định cụ thể tuyến đường được vận chuyển hàng hóa quá cảnh Hải quan ASEAN.'
       trang_pdf: 38
 ghi_chu: 'Nạp từ nhu cầu khách tra (issue miss) — đợt tập trung 6/11. Liên quan XNK trực tiếp: thủ tục hải quan, kiểm tra/giám sát hải quan đối với hàng hóa quá cảnh qua Hệ thống quá cảnh Hải quan ASEAN (ACTS, thực hiện Nghị định thư 7 ASEAN).'
 toan_van:
