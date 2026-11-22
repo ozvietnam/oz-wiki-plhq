@@ -23,5 +23,38 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chính Thông tư này quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Đối tác Toàn điện và Tiên bộ xuyên Thái Bình Dương (sau đây gọi là Hiệp định).
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Đối tượng áp dụng Thông tư này áp dung đối với: 1, Cơ quan, tổ chức cấp Giấy chứng nhận xuất xứ hàng hóa (C/O). 2. Thương nhân. . 3. Cơ quan, tô chức, cá nhân liên quan đến xuất xứ hàng hóa xuất khẩu và nhập khâu theo Hiệp định.'
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: 1. Nuôi trồng thủy sản là việc nuôi trồng các sinh vật sống dưới nước bao gồm cá, động vật thân mềm, loài giáp xác, động vật không xương sống dưới nước khác hoặc thực vật thủy sinh từ các loại con giống như trứng, cá giông, cá con hoặc ấu trùng bằng cách can thiệp vào quá trình nuôi trồng hoặc tăng trưởng nhằm thúc đây sinh sản như nuôi cây, cho ăn hoặc bảo vệ khỏi các động vật ăn thịt.
+      trang_pdf: 2
+    - dieu: 8
+      noi_dung: 'Điều 8. Hàm lượng giá trị khu vực 1. Hàm lượng giá trị khu vực quy định tại Thông tư này và các Phụ lục liên quan để xác định hàng hóa có xuất xứ được tính như sau:'
+      trang_pdf: 5
+    - dieu: 12
+      noi_dung: Điều 12. Chi phí tịnh 1. Trường hợp áp dụng tiêu chí hàm lượng giá trị khu vực tại Phụ luc I ban hành kèm theo Thông tư này để xác định xuất xứ hàng hóa cho ô tô thuộc phân nhóm 8407.31 đến phân nhóm 8407.34, phân nhóm 8408.20, phân nhóm từ 8409.91 đến phân nhóm 8409.99, nhóm 8701 đến nhóm 8709 hoặc nhóm 8711, việc xác định xuất xứ cho hàng hóa đó dựa trên công thức tính chỉ phí tịnh theo quy định tại Điều 8 Thông tư này.
+      trang_pdf: 8
+    - dieu: 16
+      noi_dung: 'Điều 16. Phụ kiện, phụ tùng, dụng cụ, tài liệu về sản pham hoặc hướng dan sử dụng 1. Theo quy định tại Điều này:'
+      trang_pdf: 13
+    - dieu: 19
+      noi_dung: Điều 19. Nguyên liệu gián tiếp Nguyên liệu gián tiếp được coi là có xuất xứ mà không cần xét đến việc nó được sản xuât ở đâu.
+      trang_pdf: 14
+    - dieu: 23
+      noi_dung: Điều 23. Các khác biệt trên chứng từ chứng nhận xuất xứ hàng hóa 1. Cơ quan có thẩm quyền của Nước thành viên nhập khẩu sẽ không từ chối chứng từ chứng nhận xuất xứ hàng hóa vì lỗi nhỏ hoặc các khác biệt trên chứng từ chứng nhận xuất xứ hàng hóa đó. 2. Lỗi nhỏ hoặc các khác biệt trên chứng từ chứng nhận xuất xứ hàng hóa đo cơ quan có thâm quyên của Nước thành viên nhập khâu quy định.
+      trang_pdf: 15
+    - dieu: 28
+      noi_dung: Điều 28. Bảo mật Cơ quan có thẩm quyền Việt Nam đảm bảo bảo mật thông tin liên quan đến xuất xứ hàng hóa, tránh gây tổn hai đến vị thế cạnh tranh của cá nhân, tổ chức cung cap thông tin theo quy định tại Thông tư này và các quy định khác của pháp luật có liên quan. _ CHƯƠNGIV | QUY DINH RIENG DOI VOI HANG DET MAY
+      trang_pdf: 18
+    - dieu: 33
+      noi_dung: Điều 33. Hiệu lực thi hành Thông tư này có hiệu lực thi hanh kể từ ngày O8 tháng 3. nam
+      trang_pdf: 20
 ghi_chu: Thông tư nội luật hóa quy tắc xuất xứ hàng hóa và thủ tục chứng nhận xuất xứ (C/O mẫu CPTPP) trong Hiệp định CPTPP; được sửa đổi, bổ sung bởi Thông tư 06/2020/TT-BCT ngày 24-03-2020 (chưa có trong sổ).
-toan_van: raw/download/datafiles.chinhphu.vn/03-2019-tt-bct.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/03-2019-tt-bct.pdf
+  - raw/ocr/03-2019-tt-bct.ocr.txt
