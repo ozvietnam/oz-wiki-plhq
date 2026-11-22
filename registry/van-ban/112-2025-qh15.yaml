@@ -1,0 +1,68 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 112/2025/QH15
+loai: LUAT
+ten: Luật Quy hoạch
+co_quan: QH
+ngay_ban_hanh: '2025-12-10'
+hieu_luc_tu: '2026-03-01'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - bo-may
+quan_he:
+  sua_doi:
+    - so_hieu: 105/2016/QH13
+      pham_vi: 'Bãi bỏ cụm từ “phê duyệt quy hoạch hệ thống kiểm nghiệm của Nhà nước,” tại khoản 5 Điều 104 Luật Dược'
+      tu_ngay: '2026-03-01'
+      can_cu: 'Khoản 10 Điều 55 Luật Quy hoạch số 112/2025/QH15'
+    - so_hieu: 95/2025/QH15
+      pham_vi: 'Sửa đổi một số cụm từ về quy hoạch ngành đường sắt tại Điều 9, Điều 14, Điều 19 và Điều 37 Luật Đường sắt'
+      tu_ngay: '2026-03-01'
+      can_cu: 'Khoản 1 Điều 55 Luật Quy hoạch số 112/2025/QH15'
+nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=216547&classid=1&typegroupid=3
+    truy_cap: '2026-11-22'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/112-qh15-2025.signed.pdf
+    truy_cap: '2026-11-22'
+  - url: https://vbpl.vn/van-ban/chi-tiet/luat-quy-hoach--0d02e820-58e7-11f1-97ef-cda804c15594
+    truy_cap: '2026-11-22'
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/112-2025-qh15.pdf
+  - raw/ocr/112-2025-qh15.ocr.txt
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=216547, 112-qh15-2025.signed.pdf 52 trang, Chủ tịch Quốc hội Trần Thanh Mẫn ký thông qua ngày 10-12-2025) và CSDLQG về VBPL (vbpl.vn ItemID=0d02e820-58e7-11f1-97ef-cda804c15594): Điều 57 quy định có hiệu lực từ 01-03-2026 (riêng Điều 48 và Điều 56 có hiệu lực từ ngày thông qua), thay thế Luật Quy hoạch số 21/2017/QH14 (chưa ghi quan_he thay thế vì Luật 21/2017/QH14 chưa có trong sổ); đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: ong-w15-nap-gap@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Luật này quy định hệ thống quy hoạch; việc lập, thẩm định, quyết định hoặc phê duyệt, công bố, cung cap thông tin, thực hiện, đánh giá và điều chỉnh quy hoạch; quản lý nhà nước về hoạt động quy hoạch.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng Luật này áp dụng đối với cơ quan, tổ chức, cá nhân tham gia lập, thầm định, quyết định hoặc phê duyệt, công bô, cung cap thông tin, thực hiện, đánh giá, điều chỉnh quy hoạch và cơ quan, tô chức, cá nhân khác có liên quan.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: 'Điều 3. Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau: 1. Quy hoạch là định hướng phát triển, sắp xếp, phân bố không gian các hoạt động kinh tế, xã hội, quốc phòng, an ninh gắn với phát triển kết cấu hạ tầng, sử dụng tài nguyên, bảo vệ môi trường trên một phạm vi lãnh thổ cho thời kỳ nhất định nhằm sử dụng hiệu quả các nguồn lực của đất nước dé thực hiện mục tiêu phát triển bền vững và bảo đảm tầm nhìn phát triển quốc'
+      trang_pdf: 1
+    - dieu: 11
+      noi_dung: Điều 11. Chính sách của nhà nước về hoạt động quy hoạch 1. Nhà nước quản lý phát triển kinh tế - xã hội và bảo đảm quốc phòng, an ninh, bảo vệ môi trường theo quy hoạch đã được quyết định hoặc phê duyệt.
+      trang_pdf: 10
+    - dieu: 19
+      noi_dung: Điều 19. Căn cứ lập quy hoạch 1. Chiến lược phát triển kinh tế - xã hội, chiến lược phát triển ngành, lĩnh vực trong cùng giai đoạn phat trién (nêu có). 2. Quy hoạch thời kỳ trước. 3. Quy hoạch có liên quan (nếu có). 4. Quy hoạch chỉ tiết ngành, quy hoạch đô thị và nông thôn được lập căn cứ theo quy định của Luật này và quy định khác của pháp luật có liên quan.
+      trang_pdf: 13
+    - dieu: 26
+      noi_dung: 'Điều 26. Nội dung quy hoạch không gian biển quốc gia 1. Quy hoạch không gian biển quốc gia bao gồm những nội dung chủ yếu sau đây: a) Phân tích, đánh giá về điều kiện tự nhiên, nguồn lực, bối cảnh trực tiếp tác động và thực trạng sử dụng không gian, tài nguyên biển và hải đảo của các hoạt động trên vùng đất ven biển, hải đảo, vùng biển thuộc chủ quyền, quyền chủ quyền, quyền tài phán quốc gia của Việt Nam;'
+      trang_pdf: 16
+    - dieu: 33
+      noi_dung: Điều 33. Hội đồng thẩm định quy hoạch 1. Thành phần Hội đồng thâm định quy hoạch cấp quốc gia, quy hoạch vùng, quy hoạch tỉnh bao gồm Chủ tịch Hội đồng, Phó Chủ tịch Hội đồng và các thành viên. Thành viên của Hội đồng thẩm định quy hoạch bao gồm đại diện Bộ, cơ quan ngang Bộ, địa phương, cơ quan, tổ chức có liên quan và các chuyên gia là ủy viên phản biện.
+      trang_pdf: 22
+    - dieu: 40
+      noi_dung: Điều 40. Nội dung quyết định hoặc phê duyệt quy hoạch 1. Nội dung quyết định hoặc phê duyệt quy hoạch _cấp quốc gia, quy hoạch vùng, quy hoạch tỉnh bao gồm các nội dung chủ yêu quy định tại các điểm c, d, đ, e, g, h, i, k, 1, m van khoản 1 Điều 25; các điểm d, đ và e khoản 1 Điều 26; các điểm c, d, đ và e khoản 1 Điều 27;
+      trang_pdf: 26
+    - dieu: 48
+      noi_dung: Điều 48. Đánh giá sự phù hợp của dự án với quy hoạch trong chấp thuận hoặc phê duyệt chủ trương đầu tư, quyết định đầu tư 1. Quy hoạch được sử dụng làm căn cứ đánh giá sự phù hợp của dự án trong chấp thuận hoặc phê duyệt chủ trương đầu tư theo quy định của pháp luật
+      trang_pdf: 29
+    - dieu: 57
+      noi_dung: Điều 57. Hiệu lực thi hành 1. Luật này có hiệu lực thi hành từ ngày 01 tháng 3 năm 2026, trừ quy định tại các khoản 2, 3 và 4 Điều này. 2. Điều 48 của Luật này có hiệu lực thi hành từ ngày Luật này được thông qua. 3. Điều 56 của Luật nay có hiệu lực thi hành từ ngày Luật này được thông qua đến hết ngày 28 tháng 02 năm 2026, trừ quy định tại khoản 4 Điều này.
+      trang_pdf: 46
+ghi_chu: Luật Quy hoạch năm 2025 (hiệu lực từ 01-03-2026). Được dẫn chiếu trong VBHN 76-VBHN/VPQH hợp nhất Luật Dược (sửa đổi nội dung liên quan quy hoạch).

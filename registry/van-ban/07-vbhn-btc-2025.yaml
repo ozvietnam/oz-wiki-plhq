@@ -1,0 +1,70 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 07/VBHN-BTC
+so_hieu_khac:
+  - 07/2025/VBHN-BTC
+loai: VAN_BAN_HOP_NHAT
+ten: Văn bản hợp nhất Nghị định Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan
+co_quan: BTC
+ngay_ban_hanh: '2025-04-22'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - thue/bieu-thue
+quan_he:
+  hop_nhat:
+    - 26/2023/NĐ-CP
+    - 144/2024/NĐ-CP
+    - 21/2025/NĐ-CP
+nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=213492
+    truy_cap: '2026-11-22'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/4/07-vbhn-btc.pdf
+    truy_cap: '2026-11-22'
+  - url: https://vbpl.vn/van-ban/chi-tiet/van-ban-hop-nhat--179424
+    truy_cap: '2026-11-22'
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/07-vbhn-btc-2025.pdf
+  - raw/ocr/07-vbhn-btc-2025.ocr.txt
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=213492, 07-vbhn-btc.pdf 23 trang ký bởi Bộ Tài chính ngày 23-04-2025 18:05:32 +07:00, Thứ trưởng Cao Anh Tuấn ký xác thực ngày 22-04-2025) và CSDLQG về VBPL (vbpl.vn ItemID=179424): văn bản hợp nhất chính thức của Bộ Tài chính hợp nhất Nghị định 26/2023/NĐ-CP cùng 02 nghị định sửa đổi, bổ sung là Nghị định 144/2024/NĐ-CP (HL 16-12-2024) và Nghị định 21/2025/NĐ-CP (HL 10-02-2025). Văn bản hợp nhất không thay thế 03 nghị định được hợp nhất; đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: ong-w15-nap-gap@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh ? - Nghị định số 144/2024/NĐ-CP ngày 01/11/2023 có căn cứ ban hành như sau: __ Căn cứ Luật Tô chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bỗ sung một số điêu của Luật Tô chức Chính phủ và Luật Tô chức chính quyên địa phương ngày 22 tháng 1] năm 2019;'
+      trang_pdf: 2
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng 1. Người nộp thuế theo quy định của Luật Thuế xuất khẩu, thuế nhập khẩu. 2. Cơ quan hải quan, công chức hải quan. 3. Tô chức, cá nhân có quyên và nghĩa vụ liên quan đên hàng hoá xuât khâu, nhập khâu.
+      trang_pdf: 3
+    - dieu: 3
+      noi_dung: 'Điều 3. Ban hành Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi theo Danh mục mặt hàng chịu thuế, Danh mục hàng hoá và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan Ban hành kèm theo Nghị định này: 1. Phụ lục I - Biểu thuế xuất khâu theo Danh mục mặt hàng chịu thuế. 2.5 Phụ lục II - Biểu thuế nhập khẩu ưu đãi theo Danh mục mặt hàng chịu thuê.'
+      trang_pdf: 3
+    - dieu: 4
+      noi_dung: Điều 4. Biểu thuế xuất khẩu theo Danh mục mặt hàng chịu thuế 1. Biểu thuế xuất khâu theo Danh mục mặt hàng chịu thuế quy định tại Phụ lục I ban hành kèm theo Nghị định này gồm mã số hàng hóa (mã hàng), mô tả hàng hoá, mức thuế suất thuế xuất khẩu quy định cho từng nhóm mặt hàng, mặt hàng chịu thuế xuất khẩu.
+      trang_pdf: 3
+    - dieu: 5
+      noi_dung: 'Điều 5. Biểu thuế nhập khẩu ưu đãi theo Danh mục mặt hàng chịu thuế Biểu thuế nhập khâu ưu đãi theo Danh mục mặt hàng chịu thuế (Biểu thuế nhập khẩu ưu đãi) quy định tại Phụ lục II ban hành kèm theo Nghị định này bao gồm:'
+      trang_pdf: 4
+    - dieu: 6
+      noi_dung: 'Điều 6. Thuế suất thuế nhập khẩu ưu đãi đối với các mặt hàng máy gia công cơ khí Các mặt hàng máy gia công cơ khí thuộc các nhóm hàng từ 84.54 đến 84.63 áp dụng mức thué suất thuế nhập khâu ưu đãi như sau:'
+      trang_pdf: 6
+    - dieu: 7
+      noi_dung: Điều 7. Thuế nhập khẩu đối với mặt hàng xe ô tô đã qua sử dụng 1. Xe ô tô chở người đã qua sử dụng từ 09 chỗ ngồi trở xuống có dung tích xi lanh không quá 1.000cc thuộc nhóm hang 87.03 áp dụng mức thuê tuyệt đôi quy định tại Phụ lục III ban hành kèm theo Nghị định này.
+      trang_pdf: 6
+    - dieu: 8
+      noi_dung: 'Điều 8. Thuế suất thuế nhập khẩu ưu đãi đối với linh kiện ô tô nhập khẩu theo Chương trình ưu đãi thuế dé sản xuất, lắp ráp xe ô tô (Chương trình ưu đãi thuế) _ 1. Quy định thuế suất thuế nhập khẩu ưu đãi 0% đối với linh kiện ô tô nhập khâu thuộc nhóm 98.49 tại khoản 3 Mục II Phụ lục II ban hành kèm theo Nghị định này như sau:'
+      trang_pdf: 6
+    - dieu: 9
+      noi_dung: Điều 9. Thuế suất thuế nhập khẩu wu đãi đối với nguyên liệu, vật tư, linh kiện để sản xuất, gia công (lắp ráp) các sản phẩm công nghiệp hỗ trợ wu tiên phát triển cho ngành sản xuất, lap rap 6 to dén ngay 31 thang 12 nam 2027 (gọi tắt là Chương trình wu đãi thuế công nghiệp hỗ trợ ô tô) ”
+      trang_pdf: 14
+    - dieu: 10
+      noi_dung: Điều 10. Danh mục hàng hóa và mức thuế suất thuế nhập khẩu đối với các mặt hàng áp dụng hạn ngạch thuế quan 1. Danh mục hang hoá áp dung hạn ngạch thuế quan gồm mặt hàng thuộc các nhóm hàng được quy định tại Phụ lục IV ban hành kèm theo Nghị định này
+      trang_pdf: 19
+    - dieu: 11
+      noi_dung: 'Điều 11. Trách nhiệm tổ chức thực hiện 1. Bộ Tài chính thực hiện kiểm tra, giám sát, tham van giá, chong gian lận thương mại theo quy định đối với những mặt hàng có mức thuế suất thuế nhập khẩu cao và các mặt hàng có rủi ro cao về trị giá tính thuế. _ 2. BO Ké hoach va Dau tu ban hành Danh mục hàng hoá trong nước đã sản xuât được; rà soát, cập nhật sửa đôi Danh mục đảm bảo phù hợp với thực tế. 3. Bộ Công Thương có trách nhiệm:'
+      trang_pdf: 20
+    - dieu: 12
+      noi_dung: 'Điều 12. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành từ ngày 15 thang 7 năm 2023. >. Điều 2 Nghi dinh số 1442024//ND-CP ngày 01/11/2024, có hiệu luc thi hành từ ngày 16/12/2024, quy định như sau: Điều 2. Điều khoản thi hành và tổ chức thực hiện 1. Nghị định này có hiệu lực từ ngày 16 tháng 12 năm 2024.'
+      trang_pdf: 21
+ghi_chu: Văn bản hợp nhất chính thức cho Nghị định 26/2023/NĐ-CP (cùng NĐ 144/2024/NĐ-CP và NĐ 21/2025/NĐ-CP), do Thứ trưởng Bộ Tài chính Cao Anh Tuấn ký xác thực ngày 22-04-2025. Lưu ý trang 1 của PDF gốc in nhầm ngày ban hành NĐ 144/2024/NĐ-CP thành "01 tháng 11 năm 2023" (thực tế ban hành 01-11-2024).
