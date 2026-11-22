@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 358/TB-CHQ/2025
+so_hieu_khac:
+  - 358/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Thẻ cảm biến nhiệt độ và độ ẩm truyền dữ liệu qua tần số 2.4GHz, ký mã hiệu ELF26F6BXH/LID, mã số 9025.80.00)'
+co_quan: CHQ
+ngay_ban_hanh: '2025-03-21'
+hieu_luc_tu: '2025-03-21'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=99683&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/24/VB_358.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/24/VB_358.pdf, id=99683, SHA-256 4966bfed3711399be3546812089a04bc5ed043d5782d8e233c3b588bb0752d4c): Thông báo số 358/TB-CHQ ngày 21-03-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Thẻ cảm biến nhiệt độ và độ ẩm (ký, mã hiệu ELF26F6BXH/LID; cấu tạo vỏ nhựa, pin CR2450, bản mạch PCB gắn IC cảm biến nhiệt độ và độ ẩm, IC NFC, IC bộ nhớ, thạch anh Crystal và IC RF Microcontrollers - MCU; điện áp đầu vào 3V, đọc giá trị cảm biến qua giao tiếp I2C và truyền bằng sóng vô tuyến tần số 2.4GHz đến cổng kết nối Gateway để hiển thị thông tin nhiệt độ, độ ẩm trên chương trình người dùng), phân loại vào nhóm 90.25, mã số 9025.80.00; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Thẻ cảm biến nhiệt độ và độ ẩm nhận thông tin môi trường qua IC cảm biến và gửi đến cổng kết nối Gateway qua sóng vô tuyến tần số 2.4GHz (ký, mã hiệu ELF26F6BXH/LID, điện áp đầu vào 3V, giao tiếp I2C) thuộc nhóm 90.25, mã số 9025.80.00.'
+toan_van: raw/download/files.customs.gov.vn/358-tb-chq-2025.pdf

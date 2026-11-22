@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 379/TB-CHQ/2025
+so_hieu_khac:
+  - 379/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Họng ga xe máy Throttle body kèm cảm biến vị trí bướm ga, ký mã hiệu 1D001039 / ID001039, mã số 8481.80.99)'
+co_quan: CHQ
+ngay_ban_hanh: '2025-03-21'
+hieu_luc_tu: '2025-03-21'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=99693&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/25/VB_379.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/25/VB_379.pdf, id=99693, SHA-256 f951d95d2f40f8c85227422c61346d43d0e0d7cec353d14b4212dbcefa44f8f1): Thông báo số 379/TB-CHQ ngày 21-03-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Họng ga xe máy (Throttle body), gồm van bướm và cảm biến vị trí bướm ga, không kèm van không tải, không kèm ECU (ký, mã hiệu ID001039, nhà sản xuất MAGNETI MARELLI (CHINA) CO., LTD.; cấu tạo thân họng ga hình trụ bằng hợp kim nhôm và cảm biến vị trí bướm ga TPS, lắp đặt nối tiếp với ống dẫn khí trước khi ghép với cổ hút để điều tiết lưu lượng không khí vào động cơ), phân loại vào nhóm 84.81, phân nhóm 8481.80, mã số 8481.80.99; có hiệu lực kể từ ngày ban hành'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Họng ga xe máy (Throttle body) gồm van bướm và cảm biến vị trí bướm ga, không kèm van không tải, không kèm ECU (ký, mã hiệu ID001039, nhà sản xuất MAGNETI MARELLI (CHINA) CO., LTD.; dùng để điều tiết lưu lượng không khí vào động cơ) thuộc nhóm 84.81, phân nhóm 8481.80, mã số 8481.80.99.'
+toan_van: raw/download/files.customs.gov.vn/379-tb-chq-2025.pdf

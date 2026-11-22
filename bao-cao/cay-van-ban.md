@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-3072 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3076 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2376 văn bản, 2376 chưa hết hiệu lực.
+2380 văn bản, 2380 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -674,9 +674,13 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [351/TB-CHQ/2025](../registry/van-ban/351-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Máy tính trạm workstation dạng rackmount Dell Precision 7960 Rack, Regulatory Model E82S, Regulatory Type E82S001, mã số 8471.50.90)
 - 🟢 [352/TB-CHQ/2025](../registry/van-ban/352-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.90.99)
 - 🟢 [353/TB-CHQ/2025](../registry/van-ban/353-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị đeo tay thông minh Huawei Watch D2 phiên bản dây cao su, ký mã hiệu LCA-B10, mã số 8517.62.59)
+- 🟢 [354/TB-CHQ/2025](../registry/van-ban/354-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Dây cáp dùng để sạc và truyền dữ liệu Data link cable USB 2.0 TYPE C TO TYPE C, ký mã hiệu GH39-02143A, điện áp đầu vào DC 5.0V, mã số 8544.42.99)
 - 🟢 [355/TB-CHQ/2025](../registry/van-ban/355-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2707.99.90)
 - 🟢 [356/TB-CHQ/2025](../registry/van-ban/356-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2707.99.90)
 - 🟢 [357/TB-CHQ/2025](../registry/van-ban/357-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2707.99.90)
+- 🟢 [358/TB-CHQ/2025](../registry/van-ban/358-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thẻ cảm biến nhiệt độ và độ ẩm truyền dữ liệu qua tần số 2.4GHz, ký mã hiệu ELF26F6BXH/LID, mã số 9025.80.00)
+- 🟢 [379/TB-CHQ/2025](../registry/van-ban/379-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Họng ga xe máy Throttle body kèm cảm biến vị trí bướm ga, ký mã hiệu 1D001039 / ID001039, mã số 8481.80.99)
+- 🟢 [381/TB-CHQ/2025](../registry/van-ban/381-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Bản lề bằng kim loại dùng cho máy tính xách tay ASSY HINGE-L, ký mã hiệu BA98-03945A, mã số 8302.10.00)
 - 🟢 [223/TB-CHQ/2025](../registry/van-ban/223-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.59)
 - 🟢 [120/TB-CHQ/2025](../registry/van-ban/120-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
 - 🟢 [121/TB-CHQ/2025](../registry/van-ban/121-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
