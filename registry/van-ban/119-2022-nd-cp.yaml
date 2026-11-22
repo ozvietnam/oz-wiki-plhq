@@ -1,26 +1,73 @@
 # Sổ đăng ký văn bản — crawl từ vanban.chinhphu.vn (sheet HT biểu thuế)
 so_hieu: 119/2022/NĐ-CP
 loai: NGHI_DINH
-ten: Biểu thuế NK ưu đãi AKFTA
+ten: Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc giai đoạn 2022 - 2027
 co_quan: CP
 ngay_ban_hanh: '2022-12-30'
 hieu_luc_tu: '2022-12-30'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/bieu-thue
+  - xuat-xu-fta/hiep-dinh
+  - thue/bieu-thue-xnk
 quan_he:
   thay_the:
-    - 157/2017/NĐ-CP
+    - so_hieu: 157/2017/NĐ-CP
+      pham_vi: toàn bộ
+      tu_ngay: '2022-12-30'
+      can_cu: Điều 7 khoản 2 Nghị định 119/2022/NĐ-CP
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'thẻ vanban.chinhphu.vn (docid=207166) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/119-2022-nd-cp.pdf): ban hành 30-12-2022, có hiệu lực từ 30-12-2022 đến hết 31-12-2027, thay thế Nghị định 157/2017/NĐ-CP'
+  pham_vi: 'thẻ vanban.chinhphu.vn (docid=207166), toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/119-2022-nd-cp.pdf, 643 trang, SHA-256 6021e3b3be0c3b0a43e0838026c7884e426bc9360a4233fe0d510c940106307e) và trang wiki/sources/119-2022-nd-cp.md: ban hành 30-12-2022, có hiệu lực từ ngày ký 30-12-2022 đến hết 31-12-2027, gồm 8 Điều và Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc (AKFTA) giai đoạn 2022 - 2027, thay thế toàn bộ Nghị định 157/2017/NĐ-CP theo khoản 2 Điều 7'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-22'
   boi: tho-bo-ba-01@ozvietnam
   ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Nghị định này quy định thuế suất thuế nhập khẩu ưu đãi đặc biệt để thực hiện Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc thuộc Hiệp định Khung về Hợp tác Kinh tế Toàn diện ASEAN - Hàn Quốc giai đoạn 2022 - 2027 và điều kiện được hưởng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định này.'
+    - dieu: 2
+      noi_dung: '1. Người nộp thuế theo quy định của Luật Thuế xuất khẩu, thuế nhập khẩu. 2. Cơ quan hải quan, công chức hải quan. 3. Tổ chức, cá nhân có quyền và nghĩa vụ liên quan đến hàng hoá xuất khẩu, nhập khẩu.'
+    - dieu: 3
+      khoan: 1
+      noi_dung: '1. Ban hành kèm theo Nghị định này Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam (thuế suất thuế nhập khẩu ưu đãi đặc biệt áp dụng sau đây gọi là thuế suất AKFTA) để thực hiện Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc giai đoạn 2022 - 2027.'
+    - dieu: 3
+      khoan: 2
+      noi_dung: '2. Cột “Mã hàng” và cột “Mô tả hàng hóa” tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này được xây dựng trên cơ sở Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam và chi tiết theo cấp mã 8 số hoặc 10 số. Trường hợp Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam được sửa đổi, bổ sung, người khai hải quan kê khai mô tả, mã hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu sửa đổi, bổ sung và áp dụng thuế suất của mã hàng hoá được sửa đổi, bổ sung quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này.'
+    - dieu: 3
+      khoan: 3
+      noi_dung: '3. Cột “Thuế suất AKFTA (%)”: Thuế suất áp dụng từ ngày 30 tháng 12 năm 2022 đến hết ngày 31 tháng 12 năm 2027.'
+    - dieu: 3
+      khoan: 4
+      noi_dung: '4. Ký hiệu “*”: Hàng hóa nhập khẩu không được hưởng thuế suất AKFTA tại thời điểm tương ứng.'
+    - dieu: 3
+      khoan: 5
+      noi_dung: '5. Cột “Nước không được hưởng ưu đãi”: những mặt hàng nhập khẩu từ nước có thể hiện ký hiệu tên nước (được quy định tại khoản 2 Điều 4 Nghị định này) không được áp dụng thuế suất AKFTA quy định tại Nghị định này.'
+    - dieu: 3
+      khoan: 6
+      noi_dung: '6. Cột “GIC”: hàng hóa sản xuất tại Khu công nghiệp Khai Thành thuộc lãnh thổ Bắc Triều Tiên áp dụng thuế suất AKFTA theo quy định tại Điều 6 Nghị định này.'
+    - dieu: 3
+      khoan: 7
+      noi_dung: '7. Đối với hàng hóa nhập khẩu áp dụng hạn ngạch thuế quan gồm một số mặt hàng thuộc các nhóm hàng 04.07, 17.01, 24.01, 25.01, thuế nhập khẩu ưu đãi đặc biệt trong hạn ngạch là mức thuế suất quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này; danh mục và lượng hạn ngạch thuế quan nhập khẩu hàng năm theo quy định của Bộ Công Thương và mức thuế suất thuế nhập khẩu ngoài hạn ngạch áp dụng theo quy định tại Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan của Chính phủ tại thời điểm nhập khẩu.'
+    - dieu: 4
+      noi_dung: 'Hàng hóa nhập khẩu được áp dụng thuế suất AKFTA phải đáp ứng đủ các điều kiện sau: 1. Thuộc Biểu thuế nhập khẩu ưu đãi đặc biệt ban hành kèm theo Nghị định này. 2. Được nhập khẩu vào Việt Nam từ các nước là thành viên của Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc, bao gồm các nước sau: a) Bru-nây Đa-rút-xa-lam, ký hiệu là BN; b) Vương quốc Cam-pu-chia, ký hiệu là KH; c) Cộng hoà In-đô-nê-xi-a, ký hiệu là ID; d) Cộng hoà Dân chủ Nhân dân Lào, ký hiệu là LA; đ) Ma-lay-xi-a, ký hiệu là MY; e) Cộng hòa Liên bang Mi-an-ma, ký hiệu là MM; g) Cộng hoà Phi-líp-pin, ký hiệu là PH; h) Cộng hoà Xinh-ga-po, ký hiệu là SG; i) Vương quốc Thái Lan, ký hiệu là TH; k) Đại hàn Dân Quốc (Hàn Quốc), ký hiệu là KR; 3. Đáp ứng các quy định về xuất xứ hàng hóa (bao gồm cả quy định về vận chuyển trực tiếp), có Giấy chứng nhận xuất xứ hàng hoá (C/O) mẫu AK hoặc có chứng từ chứng nhận xuất xứ hàng hóa, theo quy định của Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc và theo quy định hiện hành của pháp luật.'
+    - dieu: 5
+      noi_dung: 'Hàng hóa từ khu phi thuế quan của Việt Nam nhập khẩu vào thị trường trong nước được áp dụng thuế suất thuế nhập khẩu ưu đãi đặc biệt theo Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc phải đáp ứng đủ các điều kiện quy định tại khoản 1 và khoản 3 Điều 4 Nghị định này.'
+    - dieu: 6
+      noi_dung: 'Hàng hóa sản xuất tại Khu công nghiệp Khai Thành thuộc lãnh thổ Bắc Triều Tiên (hàng hóa GIC) để được áp dụng thuế suất AKFTA của Việt Nam phải đáp ứng đủ các điều kiện sau: 1. Thuộc các mặt hàng có thể hiện ký hiệu “GIC” tại cột “GIC” của Biểu thuế ban hành kèm theo Nghị định này. 2. Được nhập khẩu từ Hàn Quốc vào Việt Nam. 3. Đáp ứng các quy định về xuất xứ hàng hóa (bao gồm cả quy định về vận chuyển trực tiếp), có Giấy chứng nhận xuất xứ hàng hoá (C/O) mẫu AK in dòng chữ “Rule 6” tại ô số 8 do cơ quan có thẩm quyền cấp C/O Mẫu AK của Hàn Quốc cấp hoặc có chứng từ chứng nhận xuất xứ hàng hóa, theo quy định của Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc đối với hàng hóa áp dụng Quy tắc 6 - AKFTA và theo quy định hiện hành của pháp luật.'
+    - dieu: 7
+      khoan: 1
+      noi_dung: '1. Nghị định này có hiệu lực từ ngày ký ban hành.'
+    - dieu: 7
+      khoan: 2
+      noi_dung: '2. Nghị định số 157/2017/NĐ-CP ngày 27 tháng 12 năm 2017 của Chính phủ ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc giai đoạn 2018 - 2022 hết hiệu lực kể từ ngày Nghị định này có hiệu lực thi hành.'
+    - dieu: 8
+      noi_dung: 'Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này.'
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=207166&pageid=27160
     truy_cap: '2026-10-10'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/119-nd.signed.pdf
     truy_cap: '2026-10-10'
-toan_van: raw/download/datafiles.chinhphu.vn/119-2022-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/119-2022-nd-cp.pdf
+  - wiki/sources/119-2022-nd-cp.md
