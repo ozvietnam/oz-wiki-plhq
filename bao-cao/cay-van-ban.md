@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-3008 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3012 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2312 văn bản, 2312 chưa hết hiệu lực.
+2316 văn bản, 2316 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -533,6 +533,8 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [6740/TB-CHQ/2026](../registry/van-ban/6740-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bảng mạch chuyển đổi nguồn và xử lý tín hiệu cho TV, Maker PN VT32HM075A3PVD, Model BN96-50993F, mã số 8529.90.54)
 - 🟢 [6746/TB-CHQ/2026](../registry/van-ban/6746-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bình tích áp bằng thép dung tích 21 lít kèm theo van dùng cho máy lọc nước gia đình, ký mã hiệu RO-152, mã số 8421.99.94)
 - 🟢 [6560/TB-CHQ/2026](../registry/van-ban/6560-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Keo nóng chảy Hot Melt Adhesive, ký mã hiệu LG-905S, mã số 3506.91.90)
+- 🟢 [6561/TB-CHQ/2026](../registry/van-ban/6561-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Keo nóng chảy Hot Melt Adhesive, ký mã hiệu LG-9021C, mã số 3506.91.90)
+- 🟢 [6562/TB-CHQ/2026](../registry/van-ban/6562-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Keo nóng chảy PUR Hot Melt, ký mã hiệu LG-PUR-2579C, mã số 3506.91.90)
 - 🟢 [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - 🟢 [1489/TB-CHQ/2026](../registry/van-ban/1489-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1633/TB-CHQ/2026](../registry/van-ban/1633-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2710.12.99)
@@ -540,6 +542,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [577/TB-CHQ/2026](../registry/van-ban/577-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (3506.10.00)
 - 🟢 [07/TB-CHQ/2026](../registry/van-ban/07-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số của Công ty TNHH Shen Yu (Việt Nam) (Cáp đồng trục, loại chưa gắn với đầu nối, điện áp tối đa 30V, cách điện và vỏ bọc bằng nhựa FEP, mã số 8544.20.21)
 - 🟢 [20/TB-CHQ/2026](../registry/van-ban/20-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2506.10.00)
+- 🟢 [26/TB-CHQ/2026](../registry/van-ban/26-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Tay đòn giảm áp / đối trọng ly tâm bằng thép trong cụm trục cam động cơ xe máy ARM COMP DECOMP, ký mã hiệu 14113-K3M-T000, mã số 8409.91.39)
 - ❔ [1288/TB-TCHQ/2026](../registry/van-ban/1288-tb-tchq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (3824.99.99)
 - ❔ [2840/TB-TCHQ/2026](../registry/van-ban/2840-tb-tchq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (1503.00.90)
 - ❔ [2841/TB-TCHQ/2026](../registry/van-ban/2841-tb-tchq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2916.19.00)
@@ -547,6 +550,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - ❔ [4006/TB-TCHQ/2026](../registry/van-ban/4006-tb-tchq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2905.29.00)
 - ❔ [6063/TB-CHQ/2026](../registry/van-ban/6063-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.89)
 - 🟢 [38544/TB-CHQ/2025](../registry/van-ban/38544-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.91)
+- 🟢 [38545/TB-CHQ/2025](../registry/van-ban/38545-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Nguyên liệu dùng trong chế biến, sản xuất thực phẩm từ đường mía lên men tự nhiên VERDAD F7, mã số 2106.90.91)
 - 🟢 [37689/TB-CHQ/2025](../registry/van-ban/37689-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (7106.92.00)
 - 🟢 [35621/TB-CHQ/2025](../registry/van-ban/35621-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.99)
 - 🟢 [35250/TB-CHQ/2025](../registry/van-ban/35250-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2202.10.20)
