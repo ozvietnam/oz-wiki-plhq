@@ -1,23 +1,44 @@
 # Sổ đăng ký văn bản — crawl từ vanban.chinhphu.vn (sheet HT biểu thuế)
 so_hieu: 144/2024/NĐ-CP
 loai: NGHI_DINH
-ten: Biểu thuế NK ưu đãi (sửa)
+ten: Sửa đổi, bổ sung một số điều của Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan
 co_quan: CP
 ngay_ban_hanh: '2024-11-01'
 hieu_luc_tu: '2024-12-16'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue/bieu-thue
-xac_minh:
-  muc: NGUON_A
-  pham_vi: 'thẻ vanban.chinhphu.vn (docid=211569) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/144-2024-nd-cp.pdf, 2 Điều + Phụ lục I, II): Nghị định 144/2024/NĐ-CP ban hành 01-11-2024, có hiệu lực từ ngày 16-12-2024 theo khoản 1 Điều 2; đối chiếu đang còn hiệu lực, sửa đổi mức thuế suất thuế xuất khẩu (Phụ lục I: nhóm 31.02, 79.01, 80.01) và thuế nhập khẩu ưu đãi (Phụ lục II: nhóm 23.04, 24.04, 85.43, 87.01 và Chương 98 nhóm 98.45) quy định tại Điều 3 Nghị định 26/2023/NĐ-CP'
-  hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
-  boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Crawl từ vanban.chinhphu.vn + datafiles.chinhphu.vn'
+quan_he:
+  sua_doi:
+    - so_hieu: 26/2023/NĐ-CP
+      tu_ngay: '2024-12-16'
+      can_cu: Điều 1, Điều 2 Nghị định 144/2024/NĐ-CP
 nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-144-2024-nd-cp-43109/52626.htm
+    truy_cap: '2026-11-22'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/11/43109/52626-1-20241247-1248144-2024-nd-cp.pdf
+    truy_cap: '2026-11-22'
   - url: https://vanban.chinhphu.vn/default.aspx?docid=211569&pageid=27160
     truy_cap: '2026-10-10'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/11/144-cp.signed.pdf
     truy_cap: '2026-10-10'
-toan_van: raw/download/datafiles.chinhphu.vn/144-2024-nd-cp.pdf
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu toàn văn PDF Công báo số 1247 + 1248 ngày 14-11-2024 có lớp chữ (raw/download/congbaocdn.chinhphu.vn/144-2024-nd-cp.pdf, 9 trang, SHA-256 d2472a791e2bc2792ffe3a4aa3b2b43c92cf4fa612f73572cf155491b61e9faf), thẻ vanban.chinhphu.vn (docid=211569, Phó Thủ tướng Hồ Đức Phớc ký) và toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/144-2024-nd-cp.pdf, 2 Điều + Phụ lục I, II): Nghị định 144/2024/NĐ-CP ban hành 01-11-2024, có hiệu lực từ ngày 16-12-2024 theo khoản 1 Điều 2; đối chiếu đang còn hiệu lực, sửa đổi mức thuế suất thuế xuất khẩu (Phụ lục I: nhóm 31.02, 79.01, 80.01) và thuế nhập khẩu ưu đãi (Phụ lục II: nhóm 23.04, 24.04, 85.43, 87.01 và Chương 98 nhóm 98.45) quy định tại Điều 3 Nghị định 26/2023/NĐ-CP.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Sửa đổi mức thuế suất thuế xuất khẩu, mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng quy định tại Phụ lục I - Biểu thuế xuất khẩu, Phụ lục II Biểu thuế nhập khẩu ưu đãi theo Danh mục mặt hàng chịu thuế quy định tại Điều 3 Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ thành các mức thuế suất thuế xuất khẩu, mức thuế suất thuế nhập khẩu ưu đãi mới quy định tại Phụ lục I và Phụ lục II ban hành kèm theo Nghị định này.'
+      trang_pdf: 2
+      sha256_pdf: d2472a791e2bc2792ffe3a4aa3b2b43c92cf4fa612f73572cf155491b61e9faf
+    - dieu: 2
+      noi_dung: 'Điều 2. Điều khoản thi hành và tổ chức thực hiện 1. Nghị định này có hiệu lực từ ngày 16 tháng 12 năm 2024. 2. Thuế suất thuế nhập khẩu ưu đãi của các mặt hàng thuộc nhóm 24.04, các mặt hàng có mã HS 8543.40.00 thuộc Phụ lục II Biểu thuế nhập khẩu ưu đãi theo Danh mục mặt hàng chịu thuế ban hành kèm theo Nghị định này được áp dụng trong trường hợp các mặt hàng này được phép nhập khẩu vào Việt Nam theo quy định của pháp luật. 3. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này.'
+      trang_pdf: 2
+      sha256_pdf: d2472a791e2bc2792ffe3a4aa3b2b43c92cf4fa612f73572cf155491b61e9faf
+ghi_chu: 'Sửa đổi mức thuế suất thuế xuất khẩu (Phụ lục I: nhóm 31.02, 79.01, 80.01) và thuế nhập khẩu ưu đãi MFN (Phụ lục II: nhóm 23.04, 24.04, 85.43, 87.01 và Chương 98 nhóm 98.45) tại Điều 3 Nghị định 26/2023/NĐ-CP từ ngày 16-12-2024.'
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/144-2024-nd-cp.pdf
+  - raw/download/datafiles.chinhphu.vn/144-2024-nd-cp.pdf
+  - wiki/sources/144-2024-nd-cp.md

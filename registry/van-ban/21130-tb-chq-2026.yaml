@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 21130/TB-CHQ/2026
+so_hieu_khac:
+  - 21130/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Thiết bị trung tâm của hệ thống đo lường và kiểm tra hình ảnh Vision System Controller, ký mã hiệu XG-X2900, mã số 9031.80.90)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-08-28'
+hieu_luc_tu: '2026-08-28'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=106014&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/9/22/VB_21130.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/9/22/VB_21130.pdf, id=106014, SHA-256 98cbaed20891f163cbaff4b300338a7641aa3f62ca87f64beb6037ae0f61acb7): Thông báo số 21130/TB-CHQ ngày 28-08-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Thiết bị trung tâm của hệ thống đo lường và kiểm tra hình ảnh (tên thương mại Vision System Controller, ký mã hiệu XG-X2900; cấu tạo gồm các bảng mạch in PCB gắn bộ vi xử lý song song 14 lõi, cổng kết nối tối đa 4 camera, cổng I/O kỹ thuật số, cổng Ethernet, RS-232C, USB, VGA, khe thẻ nhớ SD trong khung vỏ kim loại; kích thước 141,6 x 145,7 x 168 mm, khối lượng ~1.750 g, điện áp đầu vào 24V DC ± 10% / 5,3 A; cài sẵn phần mềm cố định Firmware để xử lý dữ liệu hình ảnh tốc độ cao, thực hiện kiểm tra 3D trực tiếp, kiểm tra khuyết tật bề mặt, hướng dẫn căn chỉnh robot/máy gia công và đo kiểm kích thước sản phẩm), phân loại vào nhóm 90.31, phân nhóm 9031.80, mã số 9031.80.90; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Thiết bị trung tâm của hệ thống đo lường và kiểm tra hình ảnh công nghiệp (Vision System Controller, ký mã hiệu XG-X2900, vi xử lý 14 lõi cài sẵn Firmware xử lý ảnh thực hiện kiểm tra 3D, phát hiện khuyết tật bề mặt, nhận dạng OCR và đo kích thước sản phẩm) thuộc nhóm 90.31, phân nhóm 9031.80, mã số 9031.80.90.'
+toan_van: raw/download/files.customs.gov.vn/21130-tb-chq-2026.pdf
