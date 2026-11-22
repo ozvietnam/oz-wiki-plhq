@@ -73,7 +73,48 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
-ghi_chu: 'Điều 20 khoản 2 còn bãi bỏ TT 04/2007/TT-BTM, TTLT 14/2009, TT 25/2012/TT-BCT, TTLT 01/2012 — chưa có trong sổ. Khoản 3 còn bãi một phần TT 38/2025 và TT 26/2026 — chưa ghi quan_he. NĐ 292/2026/NĐ-CP (căn cứ) đã đăng ký sổ (292-2026-nd-cp.yaml).'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Thông tư này quy định chi tiết Điều 22 Luật Quản lý ngoại thương và khoản 2 Điều 5; khoản 2, 3 Điều 8; khoản 4, 5 Điều 62 Nghị định số 292/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương về: 1. Danh mục hàng tiêu dùng và phương tiện đã qua sử dụng cấm nhập khẩu chi tiết theo mã số hàng hóa (mã HS) thuộc thẩm quyền quản lý của Bộ Công Thương.'
+      trang_pdf: 1
+      sha256_pdf: 4cd96890a1c6478967494a09887e95469ddf7acece26c8c75052052ef2cbc957
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng Thông tư này áp dụng đối với thương nhân tham gia hoạt động ngoại thương; tổ chức, cá nhân có liên quan đến hoạt động ngoại thương theo quy định tại Luật Quản lý ngoại thương.
+      trang_pdf: 2
+      sha256_pdf: 4cd96890a1c6478967494a09887e95469ddf7acece26c8c75052052ef2cbc957
+    - dieu: 3
+      noi_dung: 'Điều 3. Giải thích từ ngữ Trong Thông tư này, các thuật ngữ dưới đây được hiểu như sau: 1. Kim cương là loại khoáng sản tự nhiên được cấu thành chủ yếu từ các-bon tinh thể nguyên chất sắp xếp đẳng thước, thang độ cứng Mohs (trầy xước) bằng 10, có khối lượng riêng xấp xỉ bằng 3,52 và có chỉ số khúc xạ bằng 2,42.'
+      trang_pdf: 2
+      sha256_pdf: 4cd96890a1c6478967494a09887e95469ddf7acece26c8c75052052ef2cbc957
+    - dieu: 6
+      noi_dung: Điều 6. Danh mục kim cương thô xuất khẩu, nhập khẩu theo Quy chế Chứng nhận Quy trình Kimberley Ban hành Danh mục kim cương thô xuất khẩu, nhập khẩu theo Quy chế Chứng nhận Quy trình Kimberley chi tiết theo mã số hàng hóa (mã HS) thuộc thẩm quyền quản lý của Bộ Công Thương tại Phụ lục III kèm theo Thông tư này. Chương III HẠN NGẠCH THUẾ QUAN NHẬP KHẨU
+      trang_pdf: 3
+      sha256_pdf: 4cd96890a1c6478967494a09887e95469ddf7acece26c8c75052052ef2cbc957
+    - dieu: 8
+      noi_dung: Điều 8. Nguyên tắc phân giao hạn ngạch thuế quan nhập khẩu 1. Việc phân giao hạn ngạch thuế quan nhập khẩu được thực hiện công khai, minh bạch, không phân biệt đối xử, tuân thủ các cam kết quốc tế và phù hợp với quy định của pháp luật.
+      trang_pdf: 3
+      sha256_pdf: 4cd96890a1c6478967494a09887e95469ddf7acece26c8c75052052ef2cbc957
+    - dieu: 10
+      noi_dung: Điều 10. Các phương thức phân giao hạn ngạch thuế quan nhập khẩu 1. Đấu giá Bộ Công Thương tổ chức đấu giá công khai hạn ngạch thuế quan nhập khẩu đối với từng mặt hàng trong phạm vi lượng hạn ngạch được giao. Thương nhân trúng đấu giá được phân giao lượng hạn ngạch thuế quan tương ứng để thực hiện nhập khẩu theo quy định.
+      trang_pdf: 4
+      sha256_pdf: 4cd96890a1c6478967494a09887e95469ddf7acece26c8c75052052ef2cbc957
+    - dieu: 13
+      noi_dung: Điều 13. Xuất khẩu, nhập khẩu kim cương thô 1. Đối với kim cương thô thuộc Danh mục quy định tại Phụ lục III kèm theo Thông tư này, thương nhân chỉ được phép xuất khẩu, nhập khẩu với các thành viên của Quy chế Chứng nhận KP. Bộ Công Thương thông báo Danh sách các thành viên của Quy chế Chứng nhận KP tại Cổng thông tin điện tử Bộ Công Thương.
+      trang_pdf: 6
+      sha256_pdf: 4cd96890a1c6478967494a09887e95469ddf7acece26c8c75052052ef2cbc957
+    - dieu: 15
+      noi_dung: 'Điều 15. Hồ sơ, quy trình cấp Giấy chứng nhận KP đối với kim cương thô xuất khẩu theo Quy chế Chứng nhận KP 1. Hồ sơ đề nghị cấp Giấy chứng nhận KP theo Quy chế Chứng nhận KP gồm: a) Bản kê khai trực tuyến thông tin về Giấy chứng nhận KP theo mẫu và hướng dẫn quy định tại Phụ lục VIII kèm theo Thông tư này. b) Hoá đơn thương mại: 01 bản sao điện tử. c) Phiếu đóng gói: 01 bản sao điện tử.'
+      trang_pdf: 7
+      sha256_pdf: 4cd96890a1c6478967494a09887e95469ddf7acece26c8c75052052ef2cbc957
+    - dieu: 17
+      noi_dung: 'Điều 17. Trách nhiệm của cơ quan cấp phép và thương nhân xuất khẩu, nhập khẩu kim cương thô 1. Trách nhiệm của thương nhân Thương nhân xuất khẩu, nhập khẩu kim cương thô theo Quy chế Chứng nhận KP có trách nhiệm: a) Chịu trách nhiệm trước pháp luật về tính chính xác, trung thực của hồ sơ và tài liệu nộp, xuất trình cho cơ quan có thẩm quyền.'
+      trang_pdf: 9
+      sha256_pdf: 4cd96890a1c6478967494a09887e95469ddf7acece26c8c75052052ef2cbc957
+    - dieu: 20
+      noi_dung: 'Điều 20. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 05 tháng 9 năm 2026. 2. Thông tư này bãi bỏ toàn bộ các văn bản sau đây: a) Thông tư số 04/2007/TT-BTM của Bộ trưởng Bộ Thương mại hướng dẫn thủ tục xuất khẩu, nhập khẩu, gia công, thanh lý hàng nhập khẩu và tiêu thụ sản phẩm của doanh nghiệp có vốn đầu tư nước ngoài theo Luật Đầu tư.'
+      trang_pdf: 11
+      sha256_pdf: 4cd96890a1c6478967494a09887e95469ddf7acece26c8c75052052ef2cbc957
+ghi_chu: Điều 20 khoản 2 còn bãi bỏ TT 04/2007/TT-BTM, TTLT 14/2009, TT 25/2012/TT-BCT, TTLT 01/2012 — chưa có trong sổ. Khoản 3 còn bãi một phần TT 38/2025 và TT 26/2026 — chưa ghi quan_he. NĐ 292/2026/NĐ-CP (căn cứ) đã đăng ký sổ (292-2026-nd-cp.yaml).
 toan_van: raw/download/congbaocdn.chinhphu.vn/48-2026-tt-bct.pdf
 danh_muc_hs:
   tep: danh-muc/48-2026-tt-bct.csv

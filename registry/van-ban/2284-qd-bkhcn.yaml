@@ -24,5 +24,22 @@ xac_minh:
     ma: THIEU_PDF_A
     viec_tiep: Đã có toàn văn trên vntr.moit.gov.vn (bản đánh máy lại của Bộ Công Thương, không phải bản gốc BKHCN); vẫn chờ bản gốc có chữ ký trên datafiles/most/mst và nguồn A xác nhận tình trạng hiệu lực (danh mục nhóm 2 đã được TT 03/2024/TT-BKHCN cập nhật).
     ngay: '2026-10-04'
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Công bố Bảng mã HS đối với phương tiện đo nhóm 2 phải phê duyệt mẫu thuộc đối tượng kiểm tra nhà nước về đo lường khi nhập khẩu tại Phụ lục ban hành kèm theo Quyết định này, bao gồm tên phương tiện đo nhóm 2, mã HS, yêu cầu kỹ thuật đo lường (ĐLVN) tương ứng và văn bản quy phạm pháp luật quản lý.
+      trang_pdf: 1
+      sha256_pdf: 480f7d37b62be3a79e7b25548ba5bf5d15a339068c54b59d5318d330eb5d4821
+    - dieu: 2
+      noi_dung: Điều 2. Tổng cục trưởng Tổng cục Tiêu chuẩn Đo lường Chất lượng hướng dẫn và tổ chức thực hiện Quyết định này.
+      trang_pdf: 1
+      sha256_pdf: 480f7d37b62be3a79e7b25548ba5bf5d15a339068c54b59d5318d330eb5d4821
+    - dieu: 3
+      noi_dung: Điều 3. Quyết định này có hiệu lực kể từ ngày ký ban hành.
+      trang_pdf: 1
+      sha256_pdf: 480f7d37b62be3a79e7b25548ba5bf5d15a339068c54b59d5318d330eb5d4821
+    - dieu: 4
+      noi_dung: Điều 4. Tổng cục trưởng Tổng cục Tiêu chuẩn Đo lường Chất lượng, Vụ trưởng Vụ Pháp chế và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Quyết định này./.
+      trang_pdf: 2
+      sha256_pdf: 480f7d37b62be3a79e7b25548ba5bf5d15a339068c54b59d5318d330eb5d4821
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 19 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn + thuvienxuatnhapkhau.com). GHI CHÚ NGHIỆP VỤ (hs-code-api): Index năm 2018 = bảng mã HS phương tiện đo nhóm 2 (XNK). Có QĐ 2284/QĐ-BKHCN năm 2013 về công bố TCVN trang sức — KHÔNG nhầm số hiệu. Danh mục đo lường nhóm 2 đã được TT 03/2024/TT-BKHCN cập nhật từ 15/10/2024. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.'
 toan_van: raw/download/vntr.moit.gov.vn/2284-qd-bkhcn.pdf

@@ -21,5 +21,38 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh L Nghị định này quy định về Nền tảng quốc gia về định danh, xác thực và truy xuất nguồn gốc sản phẩm, hàng hóa; hoạt động định danh, xác thực và truy xuất nguồn gốc sản phẩm, hàng hóa trên môi trường số thông qua Nền tang quốc gia về định danh, xác thực và truy xuất nguồn gốc sản phẩm, hàng hóa;
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Đối tượng áp dụng Nghị định này áp dụng đối với: 1. Cơ quan nhà nước có thâm quyền trong quản lý nhà nước về định danh, xác thực và truy xuất nguồn gốc sản phẩm, hàng hóa; quản lý, vận hành, khai thác Nền tảng quốc gia vé dinh danh, xác thực và truy xuất nguồn gốc sản phẩm, hàng hoá và Cơ sở dữ liệu quốc gia về sản phẩm, hàng hóa.'
+      trang_pdf: 3
+    - dieu: 3
+      noi_dung: 'Điều 3. Giải thích từ ngữ Trong Nghị định này, những từ ngữ dưới đây được hiểu như sau: 1. Nền tảng quốc gia về định danh, xác thực và truy xuất nguồn gốc sản phẩm, hàng hoá là hệ thống công nghệ thông tin do Bộ Công an xây dựng, quản lý, vận hành dựa trên Nền tảng chuỗi khối quốc gia phục vụ định danh, xác thực và truy xuất nguồn gốc sản phẩm, hàng hoá, bao gồm phần cứng, phần mềm và cơ sở dữ liệu, được xây dựng dựa trên công nghệ chuỗi khối,'
+      trang_pdf: 3
+    - dieu: 9
+      noi_dung: Điều 9. Định danh sản phẩm, hàng hóa 1. Định danh sản phẩm, hàng hóa là việc tạo lập và gắn mã UID cho từng đơn vị sản phẩm, hàng hóa hoặc theo lô, mẻ sản xuất, kinh doanh sản phẩm, hàng hoá trên Nên tảng quốc gia về định danh, xác thực và truy xuất nguôn gôc sản phẩm, hàng hoá nhằm nhận diện, xác thực và phục vụ truy xuất nguồn goc trong toàn bộ vòng đời của san phẩm, hang hóa.
+      trang_pdf: 13
+    - dieu: 14
+      noi_dung: Điều 14. Cơ chế kết noi, liên thông của Nền tảng quốc gia về định danh, xác thực và truy xuất nguồn gốc sản phẩm, hàng hoá
+      trang_pdf: 20
+    - dieu: 18
+      noi_dung: 'Điều 18. Cơ sở dữ liệu quốc gia về sản phẩm, hàng hoá 1. Cơ sở dữ liệu quốc gia về sản phẩm, hàng hoá bao gồm dữ liệu chủ và dữ liệu phát sinh của sản | phâm, hàng hóa trong toàn bộ vòng đời, bảo đảm nhận diện thông nhất, đối chiếu, xác thực và truy vết, đáp ứng tối thiểu các mục tiêu sau đây:'
+      trang_pdf: 25
+    - dieu: 22
+      noi_dung: Điều 22. Chia sẻ, kết nối, cung cấp thông tin, dữ liệu của các bộ, ngành, địa phương trên Nền tảng quốc gia về định Bans xác thực và ony xuat nguon gốc sản phẩm, hàng hoá, Cơ sở dữ liệu quốc gia về sản phẩm, hàng hóa
+      trang_pdf: 32
+    - dieu: 26
+      noi_dung: 'Điều 26. Khai thác, sử dụng và chia sẻ thông tin, dữ liệu trong Cơ sở dữ liệu quốc gia về sản phẩm, hàng hoá 1. Việc khai thác, sử dụng và chia sẻ thông tin, dữ liệu về sản phẩm, hàng hoá trong Cơ sở dữ liệu quôc gia về sản phẩm, hàng hoá được thực hiện theo các nguyên tắc sau đây:'
+      trang_pdf: 35
+    - dieu: 31
+      noi_dung: 'Điều 31. Trách nhiệm của Bộ Công an 1. Thực hiện xây dựng, quản lý, sử dụng, khai thác Nền tảng quốc gia về định danh, xác thực và truy xuất nguồn gốc sản phẩm, hàng hoá va Cơ sở dữ liệu quốc gia về sản phâm, hàng hóa. 2. Chủ trì, phối hợp các bộ, cơ quan ngang bộ:'
+      trang_pdf: 39
+    - dieu: 36
+      noi_dung: Điều 36. Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2027.
+      trang_pdf: 44
 ghi_chu: Truy xuất nguồn gốc sản phẩm, hàng hoá (bao gồm hàng hoá nhập khẩu lưu thông trên thị trường Việt Nam) — có hiệu lực từ ngày 01-01-2027.
-toan_van: raw/download/vanban.chinhphu.vn/372-2026-nd-cp.html
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/372-2026-nd-cp.pdf
+  - raw/ocr/372-2026-nd-cp.ocr.txt

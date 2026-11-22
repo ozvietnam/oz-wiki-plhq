@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 32/2020/TT-BYT
 loai: THONG_TU
-ten: 'Quy định tiêu chuẩn chế biến, bào chế thuốc cổ truyền trong các cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền'
+ten: Quy định tiêu chuẩn chế biến, bào chế thuốc cổ truyền trong các cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền
 co_quan: BYT
 ngay_ban_hanh: '2020-12-31'
 hieu_luc_tu: '2021-02-17'
@@ -13,7 +13,8 @@ quan_he:
   sua_doi: []
   bai_bo: []
   tam_ngung: []
-  huong_dan: [105/2016/QH13]
+  huong_dan:
+    - 105/2016/QH13
   hop_nhat: []
 nguon:
   - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-32-2020-tt-byt-quy-dinh-tieu-chuan-che-bien-bao-che-thuoc-co-truyen-trong-cac-co-so-kham-benh-chua-benh-bang-y-hoc-co-truyen--147387
@@ -29,5 +30,41 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 2
+      noi_dung: Điều 2. Giải thích từ ngữ 1. Chế biến vị thuốc cổ truyền theo phương pháp cổ truyền là quá trình làm thay đổi về chất và lượng của dược liệu thành vị thuốc cổ truyền theo lý luận và phương pháp của y học cổ truyền hoặc theo kinh nghiệm dân gian bao gồm sơ chế, thái phiến và phức chế.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Tiêu chuẩn chế biến, bào chế thuốc cổ truyền 1. Cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền có tổ chức chế biến dược liệu, vị thuốc cổ truyền triển khai áp dụng tiêu chuẩn quy định tại Phụ lục I ban hành kèm theo Thông tư này. 2. Cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền có tổ chức bào chế thuốc cổ truyền có dạng bào chế truyền thống triển khai áp dụng tiêu chuẩn quy định tại Phụ lục II ban hành kèm theo Thông tư này.
+      trang_pdf: 1
+    - dieu: 4
+      noi_dung: Điều 4. Hồ sơ công bố đáp ứng tiêu chuẩn chế biến, bào chế thuốc cổ truyền 1. Bản sao Giấy phép hoạt động của cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền; 2. Bản công bố đáp ứng đủ điều kiện chế biến, bào chế thuốc cổ truyền quy định tại Mẫu số 01 Phụ lục IV ban hành kèm theo Thông tư này; 3. Báo cáo hoạt động bào chế, chế biến thuốc cổ truyền theo Mẫu số 02 Phụ lục IV ban hành kèm theo Thông tư này.
+      trang_pdf: 1
+    - dieu: 5
+      noi_dung: 'Điều 5. Trình tự công bố đáp ứng tiêu chuẩn về chế biến, bào chế thuốc cổ truyền 1. Cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền nộp hồ sơ công bố đáp ứng tiêu chuẩn chế biến, bào chế thuốc cổ truyền qua hệ thống dịch vụ công trực tuyến hoặc qua bưu điện hoặc nộp trực tiếp đến cơ quan tiếp nhận hồ sơ (Bộ Y tế hoặc Sở Y tế) theo quy định sau đây:'
+      trang_pdf: 1
+    - dieu: 6
+      noi_dung: Điều 6. Kiểm tra, đánh giá việc đáp ứng tiêu chuẩn chế biến, bào chế thuốc cổ truyền. 1. Định kỳ tháng 11 hằng năm, cơ quan tiếp nhận hồ sơ công bố trên Trang Thông tin điện tử của cơ quan tiếp nhận về kế hoạch kiểm tra, đánh giá việc duy trì đáp ứng tiêu chuẩn chế biến, bào chế thuốc cổ truyền và gửi bản kế hoạch này đến các cơ sở có tên trong kế hoạch.
+      trang_pdf: 1
+    - dieu: 7
+      noi_dung: 'Điều 7. Tổ chức thực hiện 1. Cục Quản lý Y, Dược cổ truyền có trách nhiệm: a) Hướng dẫn, tổ chức triển khai, kiểm tra, đánh giá việc thực hiện Thông tư này trên toàn quốc. b) Kiểm tra, đánh giá các cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền trực thuộc trung ương và Bộ, Ngành. c) Chỉ đạo các Sở Y tế các tỉnh, thành phố trực thuộc trung ương triển khai việc thực hiện Thông tư này.'
+      trang_pdf: 1
+    - dieu: 8
+      noi_dung: Điều 8. Điều khoản chuyển tiếp Đối với thuốc do cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền tự bào chế thuộc phạm vi thanh toán của Quỹ bảo hiểm y tế theo quy định tại Thông tư số 05/2015/TT-BYT ngày 17 tháng 3 năm 2015 của Bộ trưởng Bộ Y tế ban hành Danh mục thuốc đông y, thuốc từ dược liệu và vị thuốc y học cổ truyền thuộc phạm vi thanh toán của quỹ bảo hiểm y tế và Thông tư số 50/2017/TT-BYT ngày 29 tháng 12 năm 2017 của Bộ trưởng Bộ Y tế
+      trang_pdf: 1
+    - dieu: 9
+      noi_dung: Điều 9. Điều khoản tham chiếu Trường hợp các văn bản dẫn chiếu trong Thông tư này được thay thế hoặc sửa đổi, bổ sung thì áp dụng theo văn bản thay thế hoặc sửa đổi, bổ sung đó.
+      trang_pdf: 1
+    - dieu: 10
+      noi_dung: Điều 10. Lộ trình thực hiện 1. Các cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền có tổ chức chế biến vị thuốc cổ truyền phải công bố việc đáp ứng đủ tiêu chuẩn chế biến vị thuốc cổ truyền theo quy định tại Thông tư này trước ngày 31 tháng 12 năm 2022.
+      trang_pdf: 1
+    - dieu: 11
+      noi_dung: Điều 11. Hiệu lực thi hành Thông tư này có hiệu lực thi hành kể từ ngày17 tháng 02 năm 2021. Trong quá trình tổ chức thực hiện nếu có khó khăn, vướng mắc đề nghị các cơ quan, tổ chức, cá nhân phản ánh kịp thời về Bộ Y tế (Cục Quản lý Y, Dược cổ truyền) để xem xét, hướng dẫn./.
+      trang_pdf: 1
 ghi_chu: 'Giải quyết vùng xám pháp lý Điều 73.3 Luật 105/2016: "Các dạng khác" trong dạng bào chế hiện đại cover cao dán thuốc cổ truyền.'
-tu_khoa: [thong-tu, duoc, co-truyen, bao-che, ktc]
+tu_khoa:
+  - thong-tu
+  - duoc
+  - co-truyen
+  - bao-che
+  - ktc
