@@ -1946,6 +1946,7 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
       if (haFuture) score = haDiemChuaCoHieuLuc(score);
       dkCandidates.push({
         diem_phu_hop: score,
+        _ngay: vb.ngay_ban_hanh || docMeta?.ngay_ban_hanh || vb.hieu_luc_tu || docMeta?.hieu_luc_tu || '',
         loai: 'dieu_khoan_nguon_a',
         tang_tin_cay: 'NGUYEN_VAN_NGUON_A',
         nguyen_van_da_xac_minh: true,
@@ -1968,7 +1969,14 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
       });
     }
   }
-  dkCandidates.sort((a, b) => b.diem_phu_hop - a.diem_phu_hop);
+  const uuTienTrangThaiDk = (tt) =>
+    tt === 'CON_HIEU_LUC' ? 3 : tt === 'HET_HIEU_LUC_MOT_PHAN' ? 2 : tt === 'HET_HIEU_LUC' ? 0 : 1;
+  const soSanhDk = (a, b) =>
+    b.diem_phu_hop - a.diem_phu_hop ||
+    uuTienTrangThaiDk(b.tinh_trang) - uuTienTrangThaiDk(a.tinh_trang) ||
+    String(b._ngay || '').localeCompare(String(a._ngay || '')) ||
+    String(a.so_hieu || '').localeCompare(String(b.so_hieu || ''));
+  dkCandidates.sort(soSanhDk);
   // Đa dạng hóa tối đa 2 điều khoản cho mỗi văn bản trước khi lấy thêm từ cùng văn bản
   const demDkTheoVb = new Map();
   const dkSelected = [];
@@ -1983,7 +1991,9 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
       dkDuPhong.push(item);
     }
   }
-  const topDieuKhoan = [...dkSelected, ...dkDuPhong].slice(0, Math.min(5, maxItems));
+  const topDieuKhoan = [...dkSelected, ...dkDuPhong]
+    .slice(0, Math.min(5, maxItems))
+    .map(({ _ngay, ...rest }) => rest);
 
   // 4. Tìm mở rộng tầng TOM_TAT_NHAP khi NGUYEN_VAN_NGUON_A ít hoặc thiếu cho văn bản đích danh (tách mảng riêng!)
   const dkTomTatCandidates = [];
@@ -2018,6 +2028,7 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
         if (haFuture) score = haDiemChuaCoHieuLuc(score);
         dkTomTatCandidates.push({
           diem_phu_hop: score,
+          _ngay: vb.ngay_ban_hanh || docMeta?.ngay_ban_hanh || vb.hieu_luc_tu || docMeta?.hieu_luc_tu || '',
           loai: 'dieu_khoan_tom_tat_nhap',
           tang_tin_cay: 'TOM_TAT_NHAP',
           da_soat: false,
@@ -2033,9 +2044,11 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
         });
       }
     }
-    dkTomTatCandidates.sort((a, b) => b.diem_phu_hop - a.diem_phu_hop);
+    dkTomTatCandidates.sort(soSanhDk);
   }
-  const topDieuKhoanNhap = dkTomTatCandidates.slice(0, Math.min(3, maxItems));
+  const topDieuKhoanNhap = dkTomTatCandidates
+    .slice(0, Math.min(3, maxItems))
+    .map(({ _ngay, ...rest }) => rest);
 
   // Gom văn bản liên quan: ghim số hiệu hỏi đích danh -> wiki chunks -> điều khoản nguồn A -> registry hits
   const maxWikiScore = wikiKetQua[0]?.diem_phu_hop || 0;

@@ -787,5 +787,63 @@ function docMau(overrides) {
   }
 }
 
+// --- Test 10: Phá hòa điểm điều khoản ưu tiên CON_HIEU_LUC và ngày ban hành mới hơn ---
+{
+  const tenChung = 'Quy định hồ sơ mẫu giấy nghiệp vụ kiểm dịch thực vật';
+  const noiDungChung = 'Điều 4. Quy cách mẫu giấy nghiệp vụ kiểm dịch thực vật áp dụng thống nhất.';
+  const root = soGia({
+    vanBan: [
+      docMau({
+        so_hieu: '20/2021/TT-TEST',
+        slug: '20-2021-tt-test',
+        loai: 'THONG_TU',
+        ngay_ban_hanh: '2021-12-28',
+        tinh_trang: 'HET_HIEU_LUC_MOT_PHAN',
+        hieu_luc_tu: '2022-02-11',
+        ten: tenChung,
+        xac_minh: {
+          muc: 'NGUON_A',
+          ngay_xac_minh: '2026-03-01',
+          dieu_khoan: [{ dieu: 4, noi_dung: noiDungChung }],
+        },
+      }),
+      docMau({
+        so_hieu: '99/2026/VBHN-TEST',
+        slug: '99-2026-vbhn-test',
+        loai: 'VAN_BAN_HOP_NHAT',
+        ngay_ban_hanh: '2026-10-20',
+        tinh_trang: 'CON_HIEU_LUC',
+        hieu_luc_tu: null,
+        ten: tenChung,
+        quan_he: {
+          hop_nhat: [{ so_hieu: '20/2021/TT-TEST' }],
+        },
+        xac_minh: {
+          muc: 'NGUON_A',
+          ngay_xac_minh: '2026-10-20',
+          dieu_khoan: [{ dieu: 4, noi_dung: noiDungChung }],
+        },
+      }),
+    ],
+  });
+
+  try {
+    const store = await taoKhoTraCuu({ root });
+    const res = hoiPhapLuat(store, 'quy cách mẫu giấy nghiệp vụ kiểm dịch thực vật', { limit: 5 });
+    t(
+      '(10) Phá hòa điểm điều khoản ưu tiên CON_HIEU_LUC và ngày ban hành mới hơn, không rò rỉ _ngay',
+      res.dieu_khoan_nguon_a[0]?.so_hieu === '99/2026/VBHN-TEST'
+        && res.van_ban_lien_quan[0]?.so_hieu === '99/2026/VBHN-TEST'
+        && !('_ngay' in (res.dieu_khoan_nguon_a[0] || {})),
+      JSON.stringify({
+        dk0: res.dieu_khoan_nguon_a[0],
+        vb0: res.van_ban_lien_quan[0],
+      }),
+    );
+  } finally {
+    rmSync(root, { recursive: true, force: true });
+  }
+}
+
 console.log(`\nKết quả test-tra-cuu-plhq: ${pass} passed, ${fail} failed`);
 process.exit(fail > 0 ? 1 : 0);
