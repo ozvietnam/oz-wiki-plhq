@@ -34,25 +34,47 @@ quan_he:
       can_cu: Điều 97 khoản 4 điểm c
 xac_minh:
   muc: NGUON_A
-  pham_vi: >-
-    (1) Điều khoản thi hành: PDF datafiles bậc A dạng ảnh (sha256 30e8d3…f660), OCR tesseract lưu tại
-    raw/download/datafiles.chinhphu.vn/37-2026-nd-cp-body-ocr.txt — Điều 97 khoản 1: hiệu lực từ ngày ký 23-01-2026;
-    khoản 2 điểm a–d: NĐ 132/2008, NĐ 74/2018, Điều 4 NĐ 154/2018, NĐ 13/2022 hết hiệu lực 01-07-2026;
-    khoản 4: NĐ 43/2017 và NĐ 111/2021 hết hiệu lực 23-01-2026. Nội dung lõi đã đọc nguyên văn: Điều 82 khoản 1
-    (rủi ro trung bình — không kiểm tra khi nhập, phải công bố hợp quy), khoản 2 (rủi ro cao — đăng ký kiểm tra theo
-    Điều 83), Điều 83 khoản 1 điểm b (thời hạn 01/07/05 ngày làm việc), Điều 86 (miễn, giảm kiểm tra rủi ro cao).
-    (2) Tình trạng hiện tại: rà registry 13-10-2026 — không có văn bản nào sau ghi thay/bãi/tạm ngưng NĐ 37;
-    các TT KTCN 2026 của 8 bộ đều ghi NĐ 37 ở quan hệ huong_dan (đúng chiều).
+  pham_vi: '(1) Điều khoản thi hành: PDF datafiles bậc A dạng ảnh (sha256 30e8d3…f660), OCR tesseract lưu tại raw/download/datafiles.chinhphu.vn/37-2026-nd-cp-body-ocr.txt — Điều 97 khoản 1: hiệu lực từ ngày ký 23-01-2026; khoản 2 điểm a–d: NĐ 132/2008, NĐ 74/2018, Điều 4 NĐ 154/2018, NĐ 13/2022 hết hiệu lực 01-07-2026; khoản 4: NĐ 43/2017 và NĐ 111/2021 hết hiệu lực 23-01-2026. Nội dung lõi đã đọc nguyên văn: Điều 82 khoản 1 (rủi ro trung bình — không kiểm tra khi nhập, phải công bố hợp quy), khoản 2 (rủi ro cao — đăng ký kiểm tra theo Điều 83), Điều 83 khoản 1 điểm b (thời hạn 01/07/05 ngày làm việc), Điều 86 (miễn, giảm kiểm tra rủi ro cao). (2) Tình trạng hiện tại: rà registry 13-10-2026 — không có văn bản nào sau ghi thay/bãi/tạm ngưng NĐ 37; các TT KTCN 2026 của 8 bộ đều ghi NĐ 37 ở quan hệ huong_dan (đúng chiều).'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-13'
   boi: zcode-glm@ozvietnam
-ghi_chu: >-
-  Bỏ "nhóm 1/nhóm 2"; từ 01/7/2026 chia rủi ro thấp/trung bình/cao (Điều 82, 83). Đối chiếu nguồn A xong 13-10-2026
-  (PDF ảnh + OCR — lỗi dấu có thể có, trích đăng wiki phải đối chiếu ngữ cảnh). Bài tổng hợp KTCN 2026 (nguồn thứ cấp,
-  có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Nghị định này quy định chi tiết Điều 5, Điều 6a, Điều 6b, Điều 6c, Điều 6đ, Điều 23b, Điều 34, Điều 34a, Điều 45, Điều 46, Điều 48, Điều 49, Điều 72 của Luật Chất lượng sản phẩm, hàng hóa số 05/2007/QH12 được sửa đổi, bỗ sung bởi Luật sô 78/2025/QH15 (sau đây gọi là Luật) và biện pháp để tổ chức, hướng dẫn thi hành Luật vé truy xuất nguồn gốc sản phẩm, hàng hóa, mã số, mã vạch, cơ chế tài chính về chỉ phí thử nghiệm,
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng 1. Nghị định này áp dụng đối với tô chức, cá nhân sản xuất, kinh doanh sản phẩm, hàng hóa và tô chức, cá nhân có hoạt động liên quan đến chất lượng sản phẩm, hàng hóa, mã số, mã vạch, nhãn hàng hóa, hộ chiếu số, truy xuất nguôn gôc sản phẩm, hàng hóa, đánh giá sự phù hợp và Giải thưởng chất lượng quôc gia tại Việt Nam.
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: Điều 3. Giải thích từ ngữ 1. Ghi nhãn hàng hóa là thé hiện nội dung cơ bản, cần thiết về hàng hóa trên nhãn hàng hóa dé người tiêu dùng nhận biết, làm căn cứ lựa chọn, sử dụng; dé nhà sản xuất, kinh doanh thông tin, quảng bá cho hàng hóa của mình và để các cơ quan chức năng thực hiện việc kiểm tra, giám sát.
+      trang_pdf: 2
+    - dieu: 13
+      noi_dung: 'Điều 13. Hoạt động kiểm tra, giám sát 1. Quản lý rủi ro trong kiêm tra, giám sát thực hiện theo ìguyên tac sau: a) Xây dựng, triển khai áp dụng quản lý rủi ro trong hoạt động kiểm tra, giám sát về tiêu chuẩn, đo lường, chất lượng và nhãn hàng hóa;'
+      trang_pdf: 12
+    - dieu: 25
+      noi_dung: 'Điều 25. Quản lý nhà nước về truy xuất nguồn gốc sản phẩm, hàng hóa 1. Chính phủ giao Bộ Khoa học và Công nghệ quản lý nhà nước về hoạt động truy xuất nguôn gốc sản pham, hàng hóa, cụ thể:'
+      trang_pdf: 22
+    - dieu: 45
+      noi_dung: Điều 45. Định lượng hàng hóa 1. Hàng hóa định lượng bằng đại lượng đo lường thì phải ghi định lượng theo quy định của pháp luật vê đo lường. 2. Hàng hóa định lượng bằng số đếm thì phải ghi định lượng theo số đếm tự nhiên. 3. Trường hợp trong một bao bì thương phẩm có nhiều đơn vị hàng hóa thì phải ghi định lượng của từng đơn vị hàng hóa và định lượng tông của các đơn vị hàng hóa.
+      trang_pdf: 39
+    - dieu: 82
+      noi_dung: Điều 82. Kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu 1. Đối với hàng hóa nhập khẩu thuộc danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, trước khi đưa hàng hóa ra lưu thông trên thị trường, tô chức, cá nhân nhập khẩu không phải thực hiện kiểm tra chất lượng khi nhập khẩu nhưng phải thực hiện công bố hợp quy phi hợp với quy chuẩn kỹ thuật quốc gia tương ứng hoặc thực hiện biện pháp quản lý chất lượng được quy định tại luật khác có liên quan theo nguyên tắc quy định tại khoản 2 Điều 48 Luật Tiêu chuẩn và quy chuân kỹ thuật được sửa đổi, bổ sung tại khoản 19 Điều 1 Luật số 70/2025/QHI 5.
+      trang_pdf: 71
+    - dieu: 83
+      noi_dung: Điều 83. Trình tự, thủ tục kiếm tra chất lượng hàng hóa nhập khẩu có mức độ rủi ro cao 1. Trường hợp hàng hóa nhập khẩu đã có Giấy chứng nhận hợp quy a) Tổ chức, cá nhân nhập khẩu thực hiện đăng ký kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu theo quy định tại cơ quan kiểm tra chất lượng sản phẩm, hàng hóa (sau đây gọi tắt là cơ quan kiểm tra).
+      trang_pdf: 71
+    - dieu: 86
+      noi_dung: 'Điều 86. Miễn, giảm kiểm tra chất lượng hàng hóa nhập khẩu có mức độ rủi ro cao; không phải thực hiện lại việc công bố hợp quy đối với hàng hóa nhập khẩu có mức độ rủi ro trung bình 1. Hàng hóa có mức độ rủi ro cao được miễn kiểm tra chất lượng khi nhập khẩu trong các trường hợp sau:'
+      trang_pdf: 76
+    - dieu: 97
+      noi_dung: 'Điều 97. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành kế từ ngày ký ban hành. 2. Các Nghị định, quy định đưới đây hết hiệu lực ké từ ngày 01 tháng 7 năm 2026:'
+      trang_pdf: 89
+ghi_chu: Bỏ "nhóm 1/nhóm 2"; từ 01/7/2026 chia rủi ro thấp/trung bình/cao (Điều 82, 83). Đối chiếu nguồn A xong 13-10-2026 (PDF ảnh + OCR — lỗi dấu có thể có, trích đăng wiki phải đối chiếu ngữ cảnh). Bài tổng hợp KTCN 2026 (nguồn thứ cấp, có trích nguyên văn điều luật) — xem hs-code-api data/ktcn-regime-2026.json.
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=216764&pageid=27160
     truy_cap: '2026-10-04'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/37-1.signed.pdf
     truy_cap: '2026-10-04'
-toan_van: raw/download/datafiles.chinhphu.vn/37-2026-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/37-2026-nd-cp.pdf
+  - raw/ocr/37-2026-nd-cp.ocr.txt

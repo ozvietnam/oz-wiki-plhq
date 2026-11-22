@@ -16,10 +16,24 @@ nguon:
     truy_cap: '2026-10-21'
 xac_minh:
   muc: NGUON_A
-  pham_vi: "toàn văn OCR PDF (raw/download/datafiles.chinhphu.vn/81-2025-qh15.pdf): thông qua 24-06-2025, hiệu lực từ 01-07-2025 theo nguyên văn Điều 3; sửa đổi Luật Khiếu nại 02/2011/QH13"
+  pham_vi: 'toàn văn OCR PDF (raw/download/datafiles.chinhphu.vn/81-2025-qh15.pdf): thông qua 24-06-2025, hiệu lực từ 01-07-2025 theo nguyên văn Điều 3; sửa đổi Luật Khiếu nại 02/2011/QH13'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: "Còn sửa Luật Tổ chức TAND, Luật Tố tụng hành chính, Luật TLADS (chưa nạp — điểm mù). Phần Luật Khiếu nại — trích nguyên văn: đã được sửa đổi, bổ sung một số điều theo Luật số 42/2013/QH13."
-tu_khoa: [khieu-nai, to-tung-hanh-chinh]
-toan_van: raw/download/datafiles.chinhphu.vn/81-2025-qh15.pdf
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đối, bỗ sung một số điều của Luật Tổ chức Tòa án nhân dân 1. Sửa đổi, bổ sung Điều 4 như sau: “Điều 4. Tố chức và thẩm quyền thành lập, giải thé các Tòa án nhân dân 1. Tổ chức của Tòa án nhân dân bao gồm: a) Tòa án nhân dân tối cao; b) Tòa án nhân dân tỉnh, thành phó (sau đây gọi là Tòa án nhân dân cấp tỉnh); c) Tòa án nhân dân khu vực; d) Tòa án chuyên biệt tại Trung tâm tài chính quốc tế (sau đây gọi là Tòa án chuyên biệt);'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Sửa đổi, bỗ sung một số điều của luật có liên quan 1. Sửa đổi, b6 sung khoản 3 Điều 7 của Luật Trọng tài thương mại số 54/2010/QHI2 như sau: “3, Tòa án có thâm quyền đối với hoạt động trọng tài quy định tại khoản 1 và điểm a, b, c, d, đ và e khoản 2 Điều này là Tòa án nhân dân khu vực.'
+      trang_pdf: 13
+    - dieu: 3
+      noi_dung: Điều 3. Hiệu lực thi hành Luật này có hiệu luc thi hành từ ngày 01 tháng 7 năm 2025.ÿ_ Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 9 thông qua ngày 24 tháng 6 năm 2025.
+      trang_pdf: 25
+ghi_chu: 'Còn sửa Luật Tổ chức TAND, Luật Tố tụng hành chính, Luật TLADS (chưa nạp — điểm mù). Phần Luật Khiếu nại — trích nguyên văn: đã được sửa đổi, bổ sung một số điều theo Luật số 42/2013/QH13.'
+tu_khoa:
+  - khieu-nai
+  - to-tung-hanh-chinh
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/81-2025-qh15.pdf
+  - raw/ocr/81-2025-qh15.ocr.txt

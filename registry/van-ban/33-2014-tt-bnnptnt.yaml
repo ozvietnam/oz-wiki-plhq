@@ -12,16 +12,45 @@ nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 30-10-2014 và hiệu lực gốc 01-01-2015 trên vanban.chinhphu.vn (docid=177307) và wiki/sources/33-2014-tt-bnnptnt.md; đối chiếu còn hiệu lực, đã được hợp nhất trong 19/VBHN-BNNPTNT ngày 27-05-2024'
+  pham_vi: số hiệu, tiêu đề, ngày ban hành 30-10-2014 và hiệu lực gốc 01-01-2015 trên vanban.chinhphu.vn (docid=177307) và wiki/sources/33-2014-tt-bnnptnt.md; đối chiếu còn hiệu lực, đã được hợp nhất trong 19/VBHN-BNNPTNT ngày 27-05-2024
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: >-
-  Văn bản GỐC của mảng trình tự thủ tục KDTV (issue #237), hiệu lực gốc 01-01-2015 (nguyên văn
-  PDF hợp nhất Cục BVTV). Bị sửa bởi TT 34/2018, TT 15/2021; TT 03/2024 bãi một phần TT 34/2018.
-  Hợp nhất hiện hành: VBHN 19/VBHN-BNNPTNT ngày 27-05-2024. Lưu ý: TT 15/2020 là QCVN kỹ thuật,
-  không phải trình tự. Bài tổng hợp KTCN 2026 — xem hs-code-api data/ktcn-regime-2026.json.
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Thông tư này quy định về trình tự, thủ tục và cấp Giấy chứng nhận kiểm dịch thực vật nhập khâu, xuất khẩu và quá cảnh đối với vật thể thuộc diện kiểm dịch thực vật; kiểm dịch thực vật sau nhập khẩu. Trường hợp Việt Nam ký kết hoặc gia nhập điều ước quốc tế về kiểm dịch thực vật có quy định khác thì việc kiểm dịch thực vật thực hiện theo điều ước quốc tế đó.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng Thông tư này áp dụng đối với tổ chức, cá nhân trong nước và nước ngoài có hoạt động nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật (sau đây gọi là vật thể) tại Việt Nam.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: 'Điều 3. Giải thích từ ngữ Trong thông tư này, các từ ngữ dưới đây được hiểu như sau: 1. Nhập khẩu: bao gồm các hoạt động nhập khẩu, tạm nhập, tái nhập lô vật thể, chuyển cửa khẩu và chuyển vào kho ngoại quan. 2. Xuất khẩu: bao gồm các hoạt động xuất khẩu, tạm xuất, tái xuất khẩu lô vật thể. 3. Lô vật thể: là một lượng nhất định của vật thể có các điều kiện và yếu tố giống nhau về khả năng nhiễm dịch. :'
+      trang_pdf: 2
+    - dieu: 6
+      noi_dung: Điều 6. Hồ sơ đăng ký kiểm dịch thực vật nhập khẩu 1. Giấy đăng ký kiểm dịch thực vật (theo mẫu qui định tại Phụ lục I ban hành kèm theo Thông tư này). 2. Bản sao chụp hoặc bản chính Giấy chứng nhận kiểm dịch thực vật do cơ quan kiểm dịch thực vật có thầm quyền của nước xuất khâu .
+      trang_pdf: 2
+    - dieu: 8
+      noi_dung: 'Điều 8. Thông báo kiểm dịch thực vật 1. Thông báo cho nước xuất khẩu Cục Bảo vệ thực vật thông báo cho cơ quan kiểm dịch thực vật có thẩm quyền của nước xuất khẩu trong các trường hợp sau: a) Vật thể nhập khẩu bị nhiễm đối tượng kiểm dịch thực vật, đối tượng phải kiểm soát của Việt Nam hoặc sinh vật gây hại lạ và biện pháp kiểm dịch thực vật được áp dụng để xử lý; b) Vật thể nhập khẩu chưa được phép nhập khâu vào Việt Nam;'
+      trang_pdf: 4
+    - dieu: 10
+      noi_dung: Điều 10. Trình tự, thủ tục kiểm dịch thực vật xuất khẩu 1. Đăng ký kiểm dịch thực vật i Chủ vật thé nộp trực tiếp 01 bộ hd sơ đăng ky cho cơ quan kiểm dich thực vật nơi gần nhất. 2. Tiếp nhận và kiểm tra hồ sơ Cơ quan kiểm dịch thực vật có trách nhiệm tiếp nhận và kiểm tra ngay tính hợp lệ của hồ sơ theo qui định tại khoản 2 Điều 7 của Thông tư này. 3. Kiểm tra vật thể
+      trang_pdf: 5
+    - dieu: 13
+      noi_dung: Điều 13. Vật thé phải thực hiện kiểm dịch thực vật sau nhập khẩu. 1. Hom giống, cây giống, củ giống, cành ghép và mắt ghép quy định phải qua kiểm dịch thực vật sau nhập khẩu theo kết quả phân tích nguy cơ dịch hại. 2. Sinh vật có ích
+      trang_pdf: 7
+    - dieu: 15
+      noi_dung: 'Điều 15. Nội dung kiểm dịch thực vật sau nhập khẩu 1. Đối với giống cây trồng: Kiểm tra sinh vật gây hại tiềm ân được xác định trong báo cáo phân tích nguy cơ dịch hại. 2. Đối với sinh vật có ích: Kiểm tra độ thuần, tính chuyên tính ký chú trong khu nhân nuôi cách ly. Đối với côn trùng, nhện có ích còn kiểm tra thêm chỉ tiêu về ký sinh bậc 2.'
+      trang_pdf: 8
+    - dieu: 17
+      noi_dung: 'Điều 17. Thời gian kiểm tra theo doi Thời gian kiểm tra, theo dõi kiểm dịch thực vật sau nhập khẩu đối với từng loại giống cây trồng và sinh vật có ích như sau: 1. Chéi, hom, cành, mắt ghép: từ 1 đến 2 năm. 2. Cây: từ 6 đến 12 tháng. 3. Củ giống: 1 chu kỳ sinh trưởng. 4. Sinh vật có ích : Ít nhất một thế hệ. CHƯƠNG VI TO CHỨC THUC HIỆN VÀ DIEU KHOẢN THI HANH'
+      trang_pdf: 9
+    - dieu: 20
+      noi_dung: Điều 20. Hiệu lực thi hành Thông tư này có hiệu lực kể từ ngày 01 tháng 01 năm 2015. Thay thế Thông tư số 65/2012/TT-BNNPTNT ngày 26/12/2012 của Bộ trưởng Bộ Nông nghiệp và phát triển nông thôn qui | định về trình tự, thủ tục cấp giấy chứng nhận kiểm dịch thực vật. Bãi bỏ mẫu giấy 3,7,8,9,10,11 tại phụ lục I ban hành kèm theo Thông tư 14/2012/TT-BNNPTNT ngày 27/03/2012 của Bộ 9
+      trang_pdf: 9
+ghi_chu: 'Văn bản GỐC của mảng trình tự thủ tục KDTV (issue #237), hiệu lực gốc 01-01-2015 (nguyên văn PDF hợp nhất Cục BVTV). Bị sửa bởi TT 34/2018, TT 15/2021; TT 03/2024 bãi một phần TT 34/2018. Hợp nhất hiện hành: VBHN 19/VBHN-BNNPTNT ngày 27-05-2024. Lưu ý: TT 15/2020 là QCVN kỹ thuật, không phải trình tự. Bài tổng hợp KTCN 2026 — xem hs-code-api data/ktcn-regime-2026.json.'
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=177307&pageid=27160
     truy_cap: '2026-10-04'
-toan_van: raw/download/datafiles.chinhphu.vn/33-2014-tt-bnnptnt.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/33-2014-tt-bnnptnt.pdf
+  - raw/ocr/33-2014-tt-bnnptnt.ocr.txt

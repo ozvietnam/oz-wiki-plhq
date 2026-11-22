@@ -17,8 +17,26 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đỗi, bd sung một số điều tại Thông tư số 38/2015/TT-BTC ngày 25 tháng 3 năm 2015 của Bộ trưởng Bộ Tài chính quy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khau, thuế nhập khau và quản lý thuế đối với hàng hoá xuất khẩu, nhập khẩu: 1. Khoản 2 Điều 2 được sửa đỗi, bỗ sung như sau:'
+      trang_pdf: 3
+    - dieu: 2
+      noi_dung: Điều 2. Các nội dung bãi bỏ 1, Bãi bỏ Điều 26; khoản 5, 6 Điều 31; khoản 7 Điều 32; điểm c khoản 1 Điều 37; Điều 40; khoản 1, 2,3, 6, 9 Điêu 42; khoản 1, 4, 5 Điều 43; Điều 49, 65, 73; điểm b.5 khoản 2 Điều 83; Điều 88, Điều 92, Điều 97, Điều 98, Điều 99, Điều 100, Điều 101, Điều 107, Điều 108, Điều 109, Điều 110, Điều 111, Điều 112, Điều 113, Điều 114, Điều 115, Điều 116, Điều 117, Điều 118, Điều 119
+      trang_pdf: 187
+    - dieu: 3
+      noi_dung: Điều 3. Điều khoản chuyến tiếp 1. Trong trường hợp Hệ thống xử lý dữ liệu điện tử hải quan gặp sự cố hoặc chưa có chức năng đáp ứng yêu cầu truyền nhận thông tin điện tử theo quy định tại Thông tư này, người khai hải quan và cơ quan hải quan thực hiện các thủ tục có liên quan trên hồ sơ giấy.
+      trang_pdf: 188
+    - dieu: 4
+      noi_dung: Điều 4. Trách nhiệm tổ chức thực hiện 1. Tổng cục trưởng Tổng cục Hải quan căn cứ vào hướng dẫn tại Thông tư này hướng dẫn các đơn vị hải quan thực hiện thống nhất, bảo đám vừa tạo điều kiện thông thoáng cho hoạt động xuất khẩu, nhập khẩu, vừa thực hiện tốt công tác quản lý hải quan.
+      trang_pdf: 188
+    - dieu: 5
+      noi_dung: Điều 5. Hiệu lực thihành 1. Thông tư này có hiệu lực ké từ ngày 05 tháng 06 năm 2018. 2. Quá trình thực biện, nếu các văn bản liên quan dé cập tại Thông tư này được sửa đổi, bổ sung hoặc thay thé thì thực hiện theo văn bản mới được sửa đổi, bé sung hoặc thay thế./.
+      trang_pdf: 189
 ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A. Phụ lục quy định chỉ tiêu khai, gồm yêu cầu mô tả hàng hoá (mục 1.78) mà hs-code-api /api/describe tuân theo.
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=193970&pageid=27160
     truy_cap: '2026-10-04'
-toan_van: raw/download/datafiles.chinhphu.vn/39-2018-tt-btc.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/39-2018-tt-btc.pdf
+  - raw/ocr/39-2018-tt-btc.ocr.txt

@@ -13,10 +13,19 @@ nguon:
     truy_cap: '2026-10-04'
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-33-2016-tt-bct-21937/16323.htm
     truy_cap: '2026-10-04'
-toan_van: raw/download/datafiles.chinhphu.vn/33-2016-tt-bct.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/33-2016-tt-bct.pdf
+  - raw/ocr/33-2016-tt-bct.ocr.txt
 xac_minh:
   muc: NGUON_A
   pham_vi: 'thẻ vanban.chinhphu.vn (docid=188443), Công báo (id=21937/16323), toàn văn PDF/OCR (raw/download/datafiles.chinhphu.vn/33-2016-tt-bct.pdf, wiki/sources/33-2016-tt-bct.md, 2 Điều, người ký Bộ trưởng Trần Tuấn Anh) và cạnh ngược trong sổ: Thông tư 33/2016/TT-BCT ban hành 23-12-2016, có hiệu lực từ 01-01-2017 theo Điều 2 (sửa đổi Điều 2 TT 36/2015/TT-BCT và một số mục của QCVN 09:2015/BCT đối với sản phẩm khăn giấy và giấy vệ sinh); hết hiệu lực một phần từ ngày 05-02-2020 khi khoản 6 Điều 1 bị bãi bỏ bởi điểm a khoản 2 Điều 37 Thông tư 42/2019/TT-BCT (phần còn hiệu lực được hợp nhất tại 136/2026/VBHN-TT-BCT)'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đổi, bd sung một số điều cia Thông tư số 36/2015/TT-BCT ngày 28 tháng 10 năm 2015 ban hành Quy chuẩn kỹ thuật quốc gia đối với sản phẩm khăn giấy và giấy vệ sinh 1. Sửa đổi Điều 2 như sau: “Thông tư này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2018”. 2. Sửa đổi số thứ tự 2. Bảng 1 mục 2.2.1 của QCVN 09:2015/BCT như sau: trụ ; _——__ ee eee'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Hiệu lực thi hành Thông tư này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2017./. này.
+      trang_pdf: 5
