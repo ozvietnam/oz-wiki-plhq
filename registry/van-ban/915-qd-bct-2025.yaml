@@ -33,5 +33,17 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Không gia hạn việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép hình chữ H có xuất xứ từ Ma-lai-xi-a được quy định cụ thể tại Quyết định số 1975/QĐ-BCT ngày 18 tháng 8 năm 2021.
+      trang_pdf: 2
+    - dieu: 2
+      noi_dung: Điều 2. Quyết định này có hiệu lực kể từ ngày ban hành.
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: Điều 3. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và các bên liên quan chịu trách nhiệm thi hành Quyết định này./. Ap
+      trang_pdf: 2
 ghi_chu: Vụ việc ER01.AD12 — kết thúc rà soát cuối kỳ và không gia hạn biện pháp CBPG đối với thép hình chữ H xuất xứ Malaysia (áp dụng theo QĐ 1975/QĐ-BCT ngày 18-08-2021 và QĐ 2962/QĐ-BCT ngày 30-12-2022) do nhà sản xuất trong nước không nộp hồ sơ yêu cầu gia hạn.
-toan_van: raw/download/pvtm.gov.vn/915-qd-bct.pdf
+toan_van:
+  - raw/download/pvtm.gov.vn/915-qd-bct.pdf
+  - raw/ocr/915-qd-bct-2025.ocr.txt

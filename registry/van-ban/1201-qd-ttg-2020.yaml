@@ -19,5 +19,20 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Ban hành kèm theo Quyết định này Kế hoạch thực hiện Hiệp định Thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên mình châu Au (EVFTA) va Phu luc.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Quyết định này có hiệu lực thi hành kể từ ngày ky ban hành.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Trong quá trình triển khai thực hiện Hiệp định, trường hợp cần bổ sung, sửa đổi cho phù hợp với tình hình thực tế, Bộ Công Thương chủ trì, phối hợp với các Bộ, ngành và cơ quan liên quan tổng hợp, báo cáo Thủ tướng Chính phủ xem xét, quyết định.
+      trang_pdf: 1
+    - dieu: 4
+      noi_dung: Điều 4. Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phô trực thuộc trung ương và Thủ trưởng các cơ quan có liên quan chịu trách nhiệm thi hành Quyết định này./.
+      trang_pdf: 1
 ghi_chu: Kế hoạch thực hiện Hiệp định EVFTA của Chính phủ; được viện dẫn làm căn cứ ban hành QĐ 126/QĐ-TTg (2026).
-toan_van: raw/download/datafiles.chinhphu.vn/1201-qd-ttg-2020.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/1201-qd-ttg-2020.pdf
+  - raw/ocr/1201-qd-ttg-2020.ocr.txt

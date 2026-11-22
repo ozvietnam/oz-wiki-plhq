@@ -1,26 +1,65 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 25/2026/NĐ-CP
 loai: NGHI_DINH
-ten: "Quy định chi tiết và biện pháp để tổ chức, hướng dẫn thi hành một số điều của Luật Hóa chất liên quan đến phát triển ngành công nghiệp hóa chất và an toàn, an ninh hóa chất"
+ten: Quy định chi tiết và biện pháp để tổ chức, hướng dẫn thi hành một số điều của Luật Hóa chất liên quan đến phát triển ngành công nghiệp hóa chất và an toàn, an ninh hóa chất
 co_quan: CP
-ngay_ban_hanh: "2026-01-17"
-hieu_luc_tu: "2026-01-17"
+ngay_ban_hanh: '2026-01-17'
+hieu_luc_tu: '2026-01-17'
 tinh_trang: CON_HIEU_LUC
-nhanh: [giay-phep]
+nhanh:
+  - giay-phep
 quan_he:
   huong_dan:
     - 69/2025/QH15
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=216672
-    truy_cap: "2026-11-20"
+    truy_cap: '2026-11-20'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/25ndcp.signed.pdf
-    truy_cap: "2026-11-20"
-toan_van: raw/download/datafiles.chinhphu.vn/25-2026-nd-cp.pdf
+    truy_cap: '2026-11-20'
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/25-2026-nd-cp.pdf
+  - raw/ocr/25-2026-nd-cp.ocr.txt
 xac_minh:
   muc: NGUON_A
-  pham_vi: "Đã đọc toàn văn PDF ký số bậc A trên datafiles.chinhphu.vn (25ndcp.signed.pdf, 44 trang, ký Phó Thủ tướng Bùi Thanh Sơn ngày 17-01-2026) và đối chiếu thẻ vanban.chinhphu.vn (docid=216672): gồm 8 Chương, 41 Điều (trang 1–38) và Phụ lục biểu mẫu (trang 39–44), quy định chi tiết khoản 15 Điều 2, khoản 5 Điều 4, khoản 5 Điều 5, khoản 3 Điều 6, khoản 5 Điều 8, khoản 5 Điều 33, khoản 3 Điều 35, khoản 3 Điều 36, khoản 2 Điều 37, khoản 2 Điều 38, khoản 5 Điều 39, khoản 3 Điều 42, khoản 4 Điều 46 của Luật Hóa chất số 69/2025/QH15. Chương VIII (Điều khoản thi hành): Điều 40 quy định điều khoản chuyển tiếp đối với hợp đồng tư vấn chuyên ngành hóa chất đã ký trước ngày Nghị định có hiệu lực (khoản 1), hạn 31-12-2026 phải xây dựng Kế hoạch phòng ngừa, ứng phó sự cố hóa chất trình thẩm định, phê duyệt đối với cơ sở đã ban hành Biện pháp phòng ngừa nhưng thuộc điểm b khoản 2 Điều 33 (khoản 2), và việc tiếp tục thực hiện Kế hoạch cấp tỉnh đã ban hành (khoản 3); Điều 41 (Hiệu lực thi hành) khoản 1 quy định Nghị định có hiệu lực thi hành kể từ ngày ký ban hành (17-01-2026), khoản 2 quy định trách nhiệm thi hành. Đối chiếu tình trạng hiện tại đến 2026-11-21 trên vanban.chinhphu.vn: chưa có văn bản sửa đổi, bổ sung, thay thế hay bãi bỏ, đang CON_HIEU_LUC."
+  pham_vi: 'Đã đọc toàn văn PDF ký số bậc A trên datafiles.chinhphu.vn (25ndcp.signed.pdf, 44 trang, ký Phó Thủ tướng Bùi Thanh Sơn ngày 17-01-2026) và đối chiếu thẻ vanban.chinhphu.vn (docid=216672): gồm 8 Chương, 41 Điều (trang 1–38) và Phụ lục biểu mẫu (trang 39–44), quy định chi tiết khoản 15 Điều 2, khoản 5 Điều 4, khoản 5 Điều 5, khoản 3 Điều 6, khoản 5 Điều 8, khoản 5 Điều 33, khoản 3 Điều 35, khoản 3 Điều 36, khoản 2 Điều 37, khoản 2 Điều 38, khoản 5 Điều 39, khoản 3 Điều 42, khoản 4 Điều 46 của Luật Hóa chất số 69/2025/QH15. Chương VIII (Điều khoản thi hành): Điều 40 quy định điều khoản chuyển tiếp đối với hợp đồng tư vấn chuyên ngành hóa chất đã ký trước ngày Nghị định có hiệu lực (khoản 1), hạn 31-12-2026 phải xây dựng Kế hoạch phòng ngừa, ứng phó sự cố hóa chất trình thẩm định, phê duyệt đối với cơ sở đã ban hành Biện pháp phòng ngừa nhưng thuộc điểm b khoản 2 Điều 33 (khoản 2), và việc tiếp tục thực hiện Kế hoạch cấp tỉnh đã ban hành (khoản 3); Điều 41 (Hiệu lực thi hành) khoản 1 quy định Nghị định có hiệu lực thi hành kể từ ngày ký ban hành (17-01-2026), khoản 2 quy định trách nhiệm thi hành. Đối chiếu tình trạng hiện tại đến 2026-11-21 trên vanban.chinhphu.vn: chưa có văn bản sửa đổi, bổ sung, thay thế hay bãi bỏ, đang CON_HIEU_LUC.'
   hieu_luc_da_doi_chieu: true
-  ngay: "2026-11-21"
+  ngay: '2026-11-21'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: "Nghị định trong bộ văn bản hoá chất ban hành cùng ngày 17-01-2026 (NĐ 24/2026/NĐ-CP danh mục, NĐ 26/2026/NĐ-CP quản lý hoạt động, TT 01/2026/TT-BCT hướng dẫn), đều hướng dẫn Luật Hoá chất 69/2025/QH15. Đã đọc toàn văn PDF ký số bậc A (44 trang) và hoàn tất đối chiếu chương-điều, điều khoản chuyển tiếp (Điều 40) và điều khoản hiệu lực (Điều 41 khoản 1) ngày 2026-11-21."
-tu_khoa: [hoa-chat, cong-nghiep-hoa-chat, an-toan-hoa-chat, an-ninh-hoa-chat, luat-hoa-chat]
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Nghị định này quy định chi tiết khoản 15 Điều 2; khoản 5 Điều 4, khoản 5 Điều 5, khoản 3 Điều 6, khoản 5 Điều 8, khoản 5 Điều 33, khoản 3 Điều 35, khoản 3 Điều 36, khoản 2 Điều 37, khoản 2 Điều 38, khoản 5. Diéu 39, khoan 3 Điều 42, khoản 4 Điều 46 của Luật Hóa chất và biện pháp dé tổ chức, hướng dẫn thi hành Luật Hóa chất về trách nhiệm quản lý nhà nước về phat triển ngành công nghiệp hóa chất và an toàn, an ninh hóa
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dựng Cơ quan, tô chức, cá nhân trong nước và tổ chức, cá nhân nước ngoài thực hiện các hoạt động liên quan đến hóa chất trên lãnh thổ Việt Nam.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Giải thích từ ngữ 1. Nguyên tắc hóa học xanh là bộ nguyên tắc được áp dụng trong thiết kế, lựa chọn công nghệ, thiết bị, quy trình sản xuất, sử dụng và thải bỏ hóa chất nhằm giảm thiêu hoặc loại bỏ việc sử dụng và tạo ra hóa chất nguy hiểm.
+      trang_pdf: 2
+    - dieu: 9
+      noi_dung: Điều 9. Tổ chức thực hiện Chiến lược phát triển ngành công nghiệp hóa chất 1. Sau khi Chiến lược được phê duyệt, Bộ Công Thương xây dựng và ban hành kê hoạch hành động thực hiện Chiến lược. Các bộ, cơ quan ngang bộ, địa phương có trách nhiệm tô chức thực hiện các nhiệm vụ, giải pháp thuộc chức năng, nhiệm vụ được giao tại văn bản phê duyệt Chiến lược và kế hoạch hành động thực hiện Chiến lược.
+      trang_pdf: 7
+    - dieu: 13
+      noi_dung: 'Điều 13. Nội dung Báo cáo nghiên cứu khả thi đầu tư xây dựng, Báo cáo kinh tế - kỹ thuật đầu tư xây dựng của dự án hóa chất 1. Báo cáo nghiên cứu khả thi đầu tư xây dựng, Báo cáo kinh tế - kỹ thuật đầu tư xây dựng của dự án hóa chất được thực hiện theo quy định pháp luật về xây dựng và bé sung các nội dung như sau:'
+      trang_pdf: 11
+    - dieu: 18
+      noi_dung: 'Điều 18. Điều kiện cấp chứng chỉ tư vẫn chuyên ngành hóa chất đối với cá nhân hoạt động tư van an toàn, an ninh hóa chất 1. Cá nhân hoạt động tư vấn an toàn : an ninh hóa chất được cấp chứng chỉ tư van chuyên ngành hóa chất khi đáp ứng các điều kiện sau đây: a) Có bằng cử nhân hoặc tương đương trở lên ngành đào tạo về hóa học thuộc Danh mục quy định tại Phụ lục ITI ban hành kèm theo Nghị định này;'
+      trang_pdf: 15
+    - dieu: 23
+      noi_dung: 'Điều 23. Trình tự, thủ tục, tham quyền cấp, cấp lại, cấp điều chỉnh, thu hồi chứng chỉ tư van chuyên ngành hóa chất 1. Cá nhân nộp 01 bộ hồ sơ đề nghị cấp, cấp lại, cấp điều chỉnh chứng chỉ tư vấn đến cơ quan có thầm quyền cấp chứng chỉ tư van bằng một trong các hình thức sau: a) Trực tiếp tại Bộ phận Một cửa;'
+      trang_pdf: 19
+    - dieu: 30
+      noi_dung: 'Điều 30. Nội dung huấn luyện an toàn chuyên ngành hóa chất 1. Nội dung huấn luyện an toàn chuyên ngành hóa chất phải phù hợp với : vị trí công tác của người được huấn luyện; tính chất, chủng loại, mức độ nguy hiểm của hóa chất tại cơ sở hoạt động hóa chất. 2. Nội dung huấn luyện đối với Nhóm 1: a) Những quy định của pháp luật trong hoạt động hóa chất; b) Các yếu tố nguy hiểm trong hoạt động hóa chất của cơ sở;'
+      trang_pdf: 25
+    - dieu: 34
+      noi_dung: 'Điều 34. Tham định kế hoạch phòng ngừa ứng phó sự cố hóa chất 1. Hồ sơ đề nghị thâm định Kế hoạch phòng ngừa, ứng phó sự cô hóa chất bao gôm: a) Văn bản đề nghị thẩm định Kế hoạch phòng ngừa, ứng phó sự cố hóa chât theo mâu quy định tại khoản 8 Điêu này; b) Kế hoạch phòng ngừa, ứng phó sự có hóa chất gồm 09 bản. 2. Trình tự, thủ tục thẩm định, phê duyệt Kế hoạch phòng ngừa, ứng phó sự cô hóa chât:'
+      trang_pdf: 30
+    - dieu: 41
+      noi_dung: Điều 41. Hiệu lực thi hành __1, Nghị định này có hiệu lực thi hành kế từ ngày ký ban hành.
+      trang_pdf: 37
+ghi_chu: Nghị định trong bộ văn bản hoá chất ban hành cùng ngày 17-01-2026 (NĐ 24/2026/NĐ-CP danh mục, NĐ 26/2026/NĐ-CP quản lý hoạt động, TT 01/2026/TT-BCT hướng dẫn), đều hướng dẫn Luật Hoá chất 69/2025/QH15. Đã đọc toàn văn PDF ký số bậc A (44 trang) và hoàn tất đối chiếu chương-điều, điều khoản chuyển tiếp (Điều 40) và điều khoản hiệu lực (Điều 41 khoản 1) ngày 2026-11-21.
+tu_khoa:
+  - hoa-chat
+  - cong-nghiep-hoa-chat
+  - an-toan-hoa-chat
+  - an-ninh-hoa-chat
+  - luat-hoa-chat

@@ -29,4 +29,16 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-toan_van: raw/download/datafiles.chinhphu.vn/15-2021-tt-bnnptnt.pdf
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đổi, bd sung một số điều của Thông tư số 05/2015/TT- BNNPTNT ngày 12/02/2015 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định về trình tự, thủ tục cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật 1. Sửa đối, bỗ sung Điều 3 như sau: “Điều 3. Phí'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Sứa đổi, bổ sung một số điều Thông tư số 33/2014/TT- BNNPTNT ngày 30 ngày tháng 10 năm 2014 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật 1. Bé sung khoản 5 Điều 3 như sau:'
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: Điều 3. Hiệu lực thi hành Thông tư này có hiệu lực thi hành ké từ ngày 4 tháng 04 năm 2022.
+      trang_pdf: 3
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/15-2021-tt-bnnptnt.pdf
+  - raw/ocr/15-2021-tt-bnnptnt.ocr.txt

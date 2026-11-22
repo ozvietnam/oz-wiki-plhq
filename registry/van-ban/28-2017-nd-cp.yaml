@@ -25,7 +25,25 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đỗi, bd sung một số điều của Nghị định số 131/2013/NĐ-CP ngày 16 tháng 10 năm 2013 của Chính phú quy định xử phạt vi phạm hành chính về quyên tác giả, quyên liên quan 1. Sửa đổi khoản 2 Điều 16 như sau: “2. Biện pháp khắc phục hậu quả: Buộc tái xuất tang vật vi phạm đối với hành vi quy định tại khoản 1 Điều này. Trường hợp không áp dụng được biện pháp buộc tái xuất thì áp dụng biện pháp buộc tiêu hủy.”'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Sửa đỗi, bd sung một số điều của Nghị định số 158/2013/NĐ-CP ngày 12 tháng 11 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực văn hoá, thể thao, du lịch và quảng cáo 1. Bé sung các khoản 8, 9, 10 va 11 vào Điều 2 như sau: “§. Buộc phải đáp ứng cơ sở vật chất, trang thiết bị đối với phòng chiếu phim có sử dụng hiệu ứng đặc biệt tác động đên người xem phim.'
+      trang_pdf: 8
+    - dieu: 3
+      noi_dung: Điều 3. Bãi bỏ các quy định và thay thế cựm từ 1. Bãi bỏ điểm b khoản 1 và điểm b khoản 2 Điều 10; điểm b khoản 4 Điều 13; điểm e khoản 5 Điều 23; điểm c khoản 2 Điều 24; khoản 2 và khoản 3 Điều 38; điểm d khoản 1, điểm a và điểm b khoản 2, điểm b khoản 3 Điều 42; điểm a khoản 7 Điều 44; điểm a khoản 6 Điều 51;
+      trang_pdf: 37
+    - dieu: 4
+      noi_dung: Điều 4. Hiệu lực của Nghị định 1. Nghị định này có hiệu lực thi hành từ ngày 05 tháng 5 năm 2017. 2. Đối với hành vi vi phạm hành chính về quyền tác giả, quyền liên quan và hành vi vi phạm hành chính trong lĩnh vực văn hóa, thê thao, du lịch và quảng cáo xây ra trước ngày Nghị định này có hiệu lực mà sau đó mới được phát hiện hoặc đang xem xét giải quyết thì áp dụng các quy định có lợi cho cá nhân, tổ chức vi phạm.
+      trang_pdf: 37
+    - dieu: 5
+      noi_dung: Điều 5. Trách nhiệm thi hành Nghị định 1. Bộ Văn hoá, Thé thao và Du lich chủ trì, phối hợp với các bộ, ngành có liên quan hướng dẫn, tô chức thực hiện Nghị định này.
+      trang_pdf: 37
 tu_khoa:
   - quyen-tac-gia
   - xu-phat
-toan_van: raw/download/datafiles.chinhphu.vn/28-2017-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/28-2017-nd-cp.pdf
+  - raw/ocr/28-2017-nd-cp.ocr.txt

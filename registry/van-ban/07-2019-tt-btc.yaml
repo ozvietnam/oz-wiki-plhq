@@ -14,8 +14,20 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đối, bổ sung một số điều của Thông tư số 72/2015/TT- BTC ngày 12 tháng 5 năm 2015 của Bộ trưởng Bộ Tài chính quy định áp dụng chế độ ưu tiên trong việc thực hiện thủ tục hải. quan, kiểm tra, giám sát hải quan đối với hàng hóa xuất khẩu, nhập khẩu của doanh nghiệp: 1. Sửa đổi tiêu đề của Điều 6 như sau: “Điều 6. Thực hiện thủ tục hải quan bằng tờ khai chưa hoàn chỉnh”. '' 2. Sửa đỗi, bỗ sung khoản 3 Điều 7 như sau:'
+      trang_pdf: 2
+    - dieu: 2
+      noi_dung: Điều 2. Các nội dung bãi bỏ 1. Bỏ cụm từ “phải được thực hiện bằng máy soi” tại khoản 2 Điều 5 Thông tư số 72/2015/TT-BTC ngày 12/5/2015 của Bộ trưởng Bộ Tài chính. 2. Bãi bỏ khoản 5 Điều 7 Thông tư số 72/2015/TT-BTC ngày 12/5/2015 của Bộ trưởng Bộ Tài chính.
+      trang_pdf: 5
+    - dieu: 3
+      noi_dung: 'Điều 3. Hiệu lực thi hành 1. Thông tư nay có hiệu lực thi hành kể từ ngày 2.Ÿ./.0//.2013 2. Quá trình thực hiện, nếu các văn bản liên quan dé cập tại Thông tư này được sửa đổi, bổ sung hoặc thay thế thì thực hiện theo văn bản mới được sửa đổi, bổ sung hoặc thay thế./: Mle'
+      trang_pdf: 5
 ghi_chu: Sửa đổi, bổ sung Thông tư 72/2015/TT-BTC về chế độ doanh nghiệp ưu tiên hải quan.
-toan_van: raw/download/datafiles.chinhphu.vn/07-2019-tt-btc.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/07-2019-tt-btc.pdf
+  - raw/ocr/07-2019-tt-btc.ocr.txt
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=196349
     truy_cap: '2026-11-15'

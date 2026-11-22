@@ -25,4 +25,34 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-toan_van: raw/download/datafiles.chinhphu.vn/20-2021-tt-bnnptnt.pdf
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh "Thông tư này quy định quy cách, cách ghi, sử dụng mẫu giấy, mẫu dấu nghiệp vụ, mẫu tem niêm phong kiểm dịch thực vật; ký giấy, đóng dấu nghiệp vụ kiêm dịch thực vật.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng Thông tư này áp dụng đối với tổ chức, cá nhân có liên quan đến nội dung quy định tại Điêu 1 Thông tư này.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Mẫu giấy, mẫu dấu nghiệp vụ và mẫu tem niêm phong kiểm dịch thực vật Ban hành kèm theo Thông tư này 06 mẫu giấy nghiệp vụ kiểm dịch thực vật tại Phụ luc I; mau dau nghiép vu kiém dich thuc vat tai Phu luc II; mau tem niêm phòng kiêm dich thực vật tại Phu lục II.
+      trang_pdf: 1
+    - dieu: 4
+      noi_dung: 'Điều 4. Quy cách mẫu giấy nghiệp vụ, dấu nghiệp vụ kiểm dịch thực vật 1. Quy cách mẫu giấy nghiệp vụ kiểm dịch thực vật tại Phụ lục I ban hành kèm theo Thông tư này như sau: a) Các mẫu giấy 1, 2, 3, 4, 5 và 6 thống nhất sử dụng khổ giấy A4 (210mm x 297mm); b) Các mẫu giấy nghiệp vụ số 2 và 4 được thiết kế song ngữ Việt - Anh;'
+      trang_pdf: 1
+    - dieu: 5
+      noi_dung: 'Điều 5. Cách ghi và sử dụng mẫu giấy nghiệp vụ kiểm dịch thực vật 1. Cách ghi mẫu giấy nghiệp vụ tai Phụ luc I ban hành kèm theo Thông tu này như sau: a) Tên cơ quan chủ quản: tên cơ quan chủ quản cấp trên trực tiếp; b) Tên cơ quan kiểm dịch thực vật: tên cơ quan kiểm dịch thực vật cấp giây;'
+      trang_pdf: 2
+    - dieu: 6
+      noi_dung: Điều 6. Sử dụng dấu nghiệp vụ kiểm dịch thực vật 1. Dấu nghiệp vụ kiểm dịch thực vật được sử dụng đóng vào mục “Dấu của cơ quan” tại mẫu giấy quy định tại Phu lục V và Phụ lục VI ban hành kèm theo Thông tư số 33/2014/TT-BNNPTNT. 2. Việc quản lý dấu nghiệp vụ kiểm dịch thực vật được thực hiện theo quy định pháp luật về công tác văn thư.
+      trang_pdf: 3
+    - dieu: 7
+      noi_dung: Điều 7. Ký giấy, đóng dấu nghiệp vụ kiểm dịch thực vật 1. Giấy chứng nhận kiểm dịch thực vật, Giấy chứng nhận kiểm dịch thực vật tái xuất khẩu quy định Phụ lục V và Phụ lục VI ban hành kèm theo Thông tư số 33/2014/TT-BNNPTNT do Lãnh đạo Chi cục Kiểm dịch thực vật vùng hoặc
+      trang_pdf: 3
+    - dieu: 8
+      noi_dung: Điều 8. Trách nhiệm của tổ chức, cá nhân 1. Cục Bảo vệ thực vật a) Hướng dẫn, kiểm tra, đôn đốc thực hiện Thông tư nay; b) Thực hiện, chỉ đạo, hướng dẫn, kiểm tra việc lập hồ sơ về kiểm dịch thực vật theo đúng các qui định của pháp luật;
+      trang_pdf: 4
+    - dieu: 9
+      noi_dung: Điều 9. Hiệu lực thi hành 1. Thông tư này có hiệu lực kể từ ngay/4 tháng QU năm 2022. 2. Thông tư này thay thế Thông tư số 14/2012/TT-BNNPTNT ngày 2? tháng 3 năm 2012 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn hướng dẫn hồ sơ nghiệp vụ kiểm dịch thực vật. Trong quá trình thực hiện, nếu có khó khăn, vướng mắc, đề nghị tổ chức, cá nhân kịp thời phản ánh về Bộ Nông nghiệp và Phát triển nông thôn để xem xét sửa đổi, bổ sung ./.
+      trang_pdf: 5
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/20-2021-tt-bnnptnt.pdf
+  - raw/ocr/20-2021-tt-bnnptnt.ocr.txt
