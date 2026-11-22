@@ -11,6 +11,8 @@ nhanh:
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-43-2013-tt-bct-5486.htm
     truy_cap: '2026-10-04'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2013/12/5486/2652-1-2014219-220-432013tt-bctpdf
+    truy_cap: '2026-11-22'
   - url: https://moit.gov.vn/van-ban-phap-luat/van-ban-phap-quy/-thong-tu-quy-dinh-noi-dung-trinh-tu-thu-tuc-lap-tham-dinh-p.html
     truy_cap: '2026-10-04'
 xac_minh:
@@ -19,4 +21,45 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-toan_van: raw/download/congbao.chinhphu.vn/43-2013-tt-bct.html
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Thông tư này quy định về: 1. Nội dung, trình tự, thủ tục lập, thẩm định và phê duyệt Quy hoạch phát triển điện lực quốc gia và Quy hoạch phát triển điện lực tỉnh, thành phố trực thuộc Trung ương. 2. Nội dung, trình tự, thủ tục lập, thẩm định và phê duyệt điều chỉnh Quy hoạch phát triển điện lực quốc gia và Quy hoạch phát triển điện lực tỉnh, thành phố trực thuộc Trung ương.'
+      trang_pdf: 1
+      sha256_pdf: 721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1
+    - dieu: 2
+      noi_dung: 'Điều 2. Đối tượng áp dụng Thông tư này áp dụng cho các đối tượng sau:'
+      trang_pdf: 1
+      sha256_pdf: 721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1
+    - dieu: 3
+      noi_dung: 'Điều 3. Giải thích từ ngữ Trong Thông tư này, các từ ngữ dưới đây được hiểu như sau: 1. Quy hoạch phát triển điện lực là quy hoạch chuyên ngành điện, bao gồm hai cấp sau: a) Quy hoạch phát triển điện lực quốc gia;'
+      trang_pdf: 2
+      sha256_pdf: 721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1
+    - dieu: 8
+      noi_dung: Điều 8. Trình tự, thủ tục thẩm định và phê duyệt Quy hoạch phát triển điện lực quốc gia 1. Trong thời hạn năm (05) ngày làm việc kể từ khi nhận được hồ sơ, Tổng cục Năng lượng phải có văn bản yêu cầu bổ sung nếu hồ sơ quy hoạch chưa đầy đủ, hợp lệ. 2. Sau khi nhận đủ hồ sơ hợp lệ, Tổng cục Năng lượng trình Bộ trưởng Bộ Công Thương quyết định thành lập Hội đồng thẩm định Quy hoạch phát triển điện lực quốc gia.
+      trang_pdf: 6
+      sha256_pdf: 721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1
+    - dieu: 12
+      noi_dung: 'Điều 12. Trình tự, thủ tục thẩm định và phê duyệt Quy hoạch phát triển điện lực tỉnh 1. Đối với Hợp phần Quy hoạch phát triển hệ thống điện 110kV: a) Sau khi Hội đồng nhân dân tỉnh hoặc Thường trực Hội đồng nhân dân tỉnh thông qua nội dung Hợp phần quy hoạch, Ủy ban nhân dân tỉnh hoàn chỉnh hồ sơ, gửi Tổng cục Năng lượng thẩm định để trình Bộ trưởng Bộ Công Thương phê duyệt;'
+      trang_pdf: 10
+      sha256_pdf: 721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1
+    - dieu: 16
+      noi_dung: Điều 16. Trình tự, thủ tục lập và phê duyệt đề cương, dự toán cho điều chỉnh Quy hoạch phát triển điện lực quốc gia theo chu kỳ 5 năm 1. Chậm nhất mười hai (12) tháng trước khi kết thúc năm (05) năm đầu tiên của chu kỳ quy hoạch, Tổng cục Năng lượng tổ chức lập và trình Bộ trưởng Bộ Công Thương phê duyệt đề cương, dự toán cho điều chỉnh Quy hoạch phát triển điện lực quốc gia cho các năm còn lại.
+      trang_pdf: 13
+      sha256_pdf: 721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1
+    - dieu: 20
+      noi_dung: 'Điều 20. Thẩm quyền điều chỉnh Quy hoạch phát triển điện lực điện tỉnh 1. Đối với bổ sung điều chỉnh Hợp phần Quy hoạch phát triển hệ thống điện 110kV: Trên cơ sở văn bản đề nghị bổ sung, điều chỉnh quy hoạch của chủ đầu tư dự án nguồn điện vừa và nhỏ và lưới điện 110kV hoặc kiến nghị của các khách hàng điện lớn, Ủy ban nhân dân tỉnh xem xét gửi Tổng cục Năng lượng thẩm định để trình Bộ trưởng Bộ Công Thương phê duyệt.'
+      trang_pdf: 15
+      sha256_pdf: 721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1
+    - dieu: 24
+      noi_dung: 'Điều 24. Trình tự, thủ tục lập điều chỉnh Quy hoạch phát triển điện lực tỉnh theo chu kỳ 5 năm 1. Đối với điều chỉnh Hợp phần Quy hoạch phát triển hệ thống điện 110kV: a) Trên cơ sở kế hoạch vốn được duyệt cho điều chỉnh Hợp phần Quy hoạch phát triển hệ thống điện 110kV tỉnh, Sở Công Thương tổ chức lựa chọn đơn vị tư vấn lập điều chỉnh Hợp phần quy hoạch trình Chủ tịch Ủy ban nhân dân tỉnh phê duyệt;'
+      trang_pdf: 17
+      sha256_pdf: 721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1
+    - dieu: 28
+      noi_dung: Điều 28. Công bố quy hoạch phát triển điện lực 1. Sau khi Đề án Quy hoạch phát triển điện lực được cấp có thẩm quyền phê duyệt, Cơ quan tổ chức lập quy hoạch chỉ đạo đơn vị tư vấn hoàn thiện đề án kèm theo file mềm gửi Tổng cục Năng lượng - Bộ Công Thương và Ủy ban nhân dân tỉnh. 2. Quy hoạch phát triển điện lực các cấp được cơ quan nhà nước có thẩm quyền phê duyệt được công bố công khai.
+      trang_pdf: 21
+      sha256_pdf: 721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1
+    - dieu: 33
+      noi_dung: Điều 33. Hiệu lực thi hành Thông tư này có hiệu lực thi hành kể từ ngày 15 tháng 02 năm 2014 và thay thế Quyết định số 42/2005/QĐ-BCN ngày 30 tháng 12 năm 2005 của Bộ trưởng Bộ Công nghiệp quy định nội dung, trình tự, thủ tục lập và thẩm định quy hoạch phát triển điện lực./.
+      trang_pdf: 22
+      sha256_pdf: 721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1
+toan_van: raw/download/congbaocdn.chinhphu.vn/43-2013-tt-bct.pdf

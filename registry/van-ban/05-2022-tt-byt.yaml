@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 05/2022/TT-BYT
 loai: THONG_TU
-ten: 'Quy định chi tiết thi hành một số điều của Nghị định số 98/2021/NĐ-CP ngày 08 tháng 11 năm 2021 của Chính phủ về quản lý trang thiết bị y tế'
+ten: Quy định chi tiết thi hành một số điều của Nghị định số 98/2021/NĐ-CP ngày 08 tháng 11 năm 2021 của Chính phủ về quản lý trang thiết bị y tế
 co_quan: BYT
 ngay_ban_hanh: '2022-08-01'
 hieu_luc_tu: '2022-08-01'
@@ -20,12 +20,42 @@ nguon:
 quan_he:
   huong_dan:
     - so_hieu: 98/2021/NĐ-CP
-      can_cu: 'Phần Căn cứ và Điều 1 Thông tư 05/2022/TT-BYT'
+      can_cu: Phần Căn cứ và Điều 1 Thông tư 05/2022/TT-BYT
 xac_minh:
   muc: NGUON_A
   pham_vi: 'Đã đối chiếu trên CSDL Quốc gia về VBPL (vbpl.vn ID 155154), Cục Cơ sở hạ tầng và Thiết bị y tế - Bộ Y tế (imda.moh.gov.vn) và toàn văn PDF ký số Thông tư 24/2026/TT-BYT trên Cổng Chính phủ (vanban.chinhphu.vn docid=218703, 24-byt.signed.pdf): Thông tư số 05/2022/TT-BYT ban hành và có hiệu lực từ ngày 01-08-2022, quy định chi tiết thi hành một số điều của Nghị định 98/2021/NĐ-CP về quản lý trang thiết bị y tế (phân loại TTB y tế, danh mục TTB y tế phải kiểm định an toàn và tính năng kỹ thuật, danh mục TTB y tế cấp giấy phép nhập khẩu). Văn bản hiện đang còn hiệu lực thi hành; Điều 8 về lộ trình kiểm định từng được sửa đổi bởi Thông tư 59/2025/TT-BYT ngày 31-12-2025 và nay được sửa đổi, bổ sung bởi Điều 3 Thông tư 24/2026/TT-BYT ngày 30-06-2026 (hiệu lực từ 01-07-2026, đồng thời bãi bỏ Thông tư 59/2025/TT-BYT).'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: 'Quy định quy tắc phân loại, danh mục trang thiết bị y tế thuộc diện kiểm định an toàn và tính năng kỹ thuật, danh mục TTB y tế mua bán như hàng hóa thông thường và hồ sơ, thủ tục công bố/lưu hành theo Nghị định 98/2021/NĐ-CP; Điều 8 được sửa đổi bởi Điều 3 Thông tư 24/2026/TT-BYT.'
-toan_van: chua_co
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Pham vi điều chính 1. Thông tư này quy định chỉ tiết thi hành một số điều của Nghị định số 98/2021/NĐ-CP ngày 08 tháng 11 năm 2021 của Chính phủ về quản lý trang thiết bị y tế (sau đây viết tắt là Nghị định số 98/2021/NĐ-CP) gồm: a) Phân loại trang thiết bị y tế quy định tại khoản 5 Điều 5 Nghị định số 98/2021/NĐ-CP;'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Quy định việc phân loại trang thiết bị y tế 1. Trang thiết bị y té duge phan loại theo một hoặc một nhóm dé xác định mức độ rủi ro và cap sô lưu hành. 2. Việc phân loại một hoặc một nhóm trang thiết bị y tế phải dựa trên cơ sở quy tắc phân loại về mức độ rủi ro A, B, C, D (quy dinh cu thé tai Phu luc I ban hành kèm theo Thông tư này). 3. Mẫu bản kết quả phân loại trang thiết bị y tế được thực hiện theo Phụ lục II của Thông tư này.
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: 'Điều 3. Bỗ sung danh mục trang thiết bị y tế chan đoán in vitro không phải thực hiện đánh giá chất lượng bởi cơ quan có thẩm quyền của Việt Nam quy định tại điểm đ khoản 3 Điều 30 Nghị định số 98/2021/NĐ-CP 1. Đã được cấp giấy chứng nhận lưu hành tự do (Certificate of Free Sale) của một trong các nước, tô chức sau: a) Cục Quản lý Thực phẩm và Dược phẩm Hoa Kỳ (FDA) - My; b) Cục Quan ly hàng hóa trị liệu (TGA) - Úc;'
+      trang_pdf: 2
+    - dieu: 4
+      noi_dung: Điều 4. Danh mục trang thiết bị y tế thuộc loại B, C, D được mua, bán như các hàng hóa thông thường theo quy định tại khoản 1 Điều 42 Nghị định số 98/2021/NĐ-CP 1. Máy đo huyết áp cá nhân.
+      trang_pdf: 2
+    - dieu: 5
+      noi_dung: Điều 5. Danh mục trang thiết bị y tế phải được kiểm định về an toàn và tính năng kỹ thuật theo quy định tại khoản 10 Điều 70 Nghị định số 98/2021/NĐ-CP 1. Máy thở. 2. Máy gây mê kèm thở. 3. Dao mô điện. 4. Lồng ấp trẻ sơ sinh. 5. Máy phá rung tim. 6. Máy thận nhân tạo.
+      trang_pdf: 3
+    - dieu: 6
+      noi_dung: Điều 6. Danh mục trang thiết bị y tế cấp giấy phép nhập khẩu để thực hiện quy định tại điểm d khoản 2 Điều 76 Nghị định số 98/2021/NĐ-CP 1. Các thiết bị chân đoán hình anh dùng tia X. 2. Hệ thống cộng hưởng từ. 3. Máy siêu âm chân đoán. 4. Hệ thông nội soi chân đoán. 5. Hệ thông Cyclotron.
+      trang_pdf: 3
+    - dieu: 7
+      noi_dung: Điều 7. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành ké từ ngày 0/ thang 8 năm 2022. 2. Các nội dung quy định chỉ tiết thi hành một số điều của Nghị định số 98/2021/NĐ-CP tại Thông tư này được áp dụng từ ngày Nghị định số 98/2021/NĐ-CP có hiệu lực thi hành.
+      trang_pdf: 5
+    - dieu: 8
+      noi_dung: 'Điều 8. Lộ trình thực hiện 1. Đối với các trang thiết bị y tế quy định tại các khoản 1, 2 và 3 Điều 5 Thông tư này: a) Nếu mua sắm sau ngày 31 tháng 12 năm 2022 phải kiêm định an toàn và tính năng kỹ thuật của trang thiết bị y tế theo đúng quy trình kiểm định do Bộ trưởng Bộ Y tế ban hành;'
+      trang_pdf: 6
+    - dieu: 9
+      noi_dung: Điều 9. Tổ chức thực hiện Chánh Văn phòng Bộ; Chánh Thanh tra Bộ; Vụ trưởng, Cục trưởng, Tổng Cục trưởng thuộc Bộ Y tế; Giám đốc Sở Y tế các tỉnh, thành phó trực thuộc Trung ương và cơ quan, tô chức, cá nhân có liên quan chịu trách nhiệm thi hành Thông tư này. Trong quá trình thực hiện nếu có khó khăn, vướng mắc, đề nghị các cơ quan, tô chức, cá nhân phản ánh kịp thời về Bộ Y tế dé xem xét, giải quyết./.
+      trang_pdf: 6
+ghi_chu: Quy định quy tắc phân loại, danh mục trang thiết bị y tế thuộc diện kiểm định an toàn và tính năng kỹ thuật, danh mục TTB y tế mua bán như hàng hóa thông thường và hồ sơ, thủ tục công bố/lưu hành theo Nghị định 98/2021/NĐ-CP; Điều 8 được sửa đổi bởi Điều 3 Thông tư 24/2026/TT-BYT.
+toan_van:
+  - raw/download/admin.medinet.gov.vn/05-2022-tt-byt.pdf
+  - raw/ocr/05-2022-tt-byt.ocr.txt

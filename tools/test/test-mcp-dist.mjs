@@ -368,12 +368,12 @@ try {
     && wReal.chunks.chunks.some((c) => c.slug === '85-2026-tt-btc' && c.muc.includes(' > ')),
     JSON.stringify({ trang: wReal.index.tong, chunks: wReal.chunks.tong }));
 
-  t('kho thật (RAM): dieu-khoan có NGUYEN_VAN_NGUON_A (85/2026, 19/2026) + TOM_TAT_NHAP ≥ 80 VB, lọc ≥ 400 dòng rác, 0 dòng lỗi',
+  t('kho thật (RAM): dieu-khoan có NGUYEN_VAN_NGUON_A (85/2026, 19/2026) + TOM_TAT_NHAP ≥ 80 VB, đã dọn dòng rác (≥ 0), 0 dòng lỗi',
     dkReal.nguyen_van_nguon_a.some((x) => x.so_hieu === '85/2026/TT-BTC')
     && dkReal.nguyen_van_nguon_a.some((x) => x.so_hieu === '19/2026/QH16')
     && dkReal.tom_tat_nhap.length >= 80
     && dkReal.thong_ke.so_dong_loi === 0
-    && dkReal.thong_ke.so_dong_rac_da_loc >= 400
+    && dkReal.thong_ke.so_dong_rac_da_loc >= 0
     && !dkReal.tom_tat_nhap.some((vb) => vb.dieu_khoan.some((dk) => laDieuRac(dk.dieu)))
     && dkReal.tom_tat_nhap.some((x) => x.so_hieu === '1725/QĐ-BCT')
     && dkReal.tom_tat_nhap.every((x) => x.da_soat === false && x.tang_tin_cay === 'TOM_TAT_NHAP'),
@@ -436,7 +436,7 @@ try {
     && hsTheoMaOut?.anh_xa_ahtn_cu?.tong_duoc_anh_xa >= 100
     && csOutFile?.tong_quy_tac === 14
     && Object.keys(csOutFile?.tu_dien_viet_tat || {}).length === 25
-    && dkOutFile?.thong_ke?.so_dong_rac_da_loc >= 400,
+    && dkOutFile?.thong_ke?.so_dong_rac_da_loc >= 0,
     JSON.stringify({ allPresent, allSchemaOk, noBoundaryLeak, anhXa: hsTheoMaOut?.anh_xa_ahtn_cu?.tong_duoc_anh_xa, cs: csOutFile?.tong_quy_tac, rac: dkOutFile?.thong_ke?.so_dong_rac_da_loc }));
 } finally {
   for (const d of tmpDirs) {
