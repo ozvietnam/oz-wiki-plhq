@@ -14,8 +14,38 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng 1. Phạm vi điều chỉnh ; a) Ban hanh Danh mục sản phẩm công nghệ thông tin đã qua sử dụng câm nhập khâu tại Phụ lục sô 01 kèm theo (sau đây gọi tắt là Danh mục cấm nhập khâu);
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Giải thích từ ngữ Trong Thông tư này, các từ ngữ dưới đây được hiểu như sau: 1. Hoạt động gia công tái chế, sửa chữa sản phẩm công nghệ thông tin đã qua sử dụng là hoạt động bao gồm các công đoạn sản xuất: thay thế linh kiện, lắp ráp, sửa chữa, phục hồi, nâng cấp chức năng, làm mới các sản phẩm công nghệ thông tin đã qua sử dung dé có các tính năng tương đương với sản phẩm mới.'
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: Điều 3. Nguyên tắc xây dựng và quy định áp dụng Danh mục cấm nhập khâu 1. Nguyên tắc xây dựng Danh mục cấm nhập khâu a) Danh mục cam nhap khau duge lập dựa trên cơ sở Danh mục hàng hoá và mã sô HS trong Biéu thuê xuất khẩu, Biểu thuế nhập khẩu ưu đãi; b) Danh mục cắm nhập khẩu được xây dựng, bổ sung, sửa đổi phù hợp với tình hình phát trién của công nghệ thông tin và các quy định khác của pháp luật theo từng thời kì.
+      trang_pdf: 2
+    - dieu: 4
+      noi_dung: 'Điều 4. Trường hợp nhập khẩu sản phẩm thuộc Danh mục cấm nhập khâu đê nghiên cứu khoa học 1. Bộ Thông tin và Truyền thông xem xét, cho phép nhập khẩu sản phẩm thuộc Danh mục câm nhập khẩu đề nghiên cứu khoa học (bao gôm các hoạt động: nghiên cứu khoa học; làm mẫu phục vụ hoạt động thiệt kê, nghiên cứu - phát trién sản phẩm và kiểm thử trong hoạt động sản xuât).'
+      trang_pdf: 3
+    - dieu: 5
+      noi_dung: Điều 5. Điều kiện thực hiện hoạt động gia công tái chế, sửa chữa các sản phẩm công nghệ thông tin đã qua sử dụng thuộc Danh mục cẩm nhập khâu cho thương nhân nước ngoài Việc thực hiện hoạt động gia công tái chế, sửa chữa các sản phâm công
+      trang_pdf: 3
+    - dieu: 6
+      noi_dung: 'Điều 6. Hồ sơ, thủ tục đề nghị thực hiện hoạt động gia công 1. Hồ sơ đề nghị thực hiện hoạt động gia công bao gồm: a) Đơn đề nghị thực hiện hoạt động gia công của tô chức trong đó ghi rõ các nội dung liên quan đên thông tin tổ chức và thông tin hoạt động gia công theo Mẫu 02 của Phụ lục 02 của Thông tư này: 01 (một) bản chính;'
+      trang_pdf: 4
+    - dieu: 7
+      noi_dung: Điều 7. Quy định về thú tục hải quan và chế độ báo cáo 1. Thủ tục hải quan đối với trường hợp thực hiện hoạt động gia công được áp dụng theo quy định của pháp luật đôi với hàng hóa gia công cho thương nhân nước ngoài.
+      trang_pdf: 5
+    - dieu: 8
+      noi_dung: Điều 8. Hiệu lực thi hành 1, Thông tư này có hiệu lực kể từ ngày4ðtháng44 năm 2015. 2. Thông tư này thay thế Thông tư số 11/20 12/TT-BTTTT ngày 17 tháng 7 năm 2012 của Bộ trưởng Bộ Thông tin và Truyền thông quy định Danh mục sản phẩm công nghệ thông tin đã qua sử dụng câm nhập khâu.
+      trang_pdf: 5
+    - dieu: 9
+      noi_dung: 'Điều 9. Tổ chức thực hiện 1. Thủ trưởng các cơ quan, đơn vị thuộc Bộ Thông tin và Truyền thông, các co quan, tô chức, cá nhân nêu tại Điều 1 chịu trách nhiệm thi hành Thông tư này. 2. Trong quá trình thực hiện, nếu có vướng mắc, dé nghị cơ quan, tổ chức, cá nhân có liên quan phan ánh về Bộ Thông tin và Truyền thông dé kip thoi giai quyét./ tt BO TRUONG:'
+      trang_pdf: 5
 ghi_chu: TT 11/2018/TT-BTTTT thay thế Điều 3 và Phụ lục số 01; stub chưa mở toàn văn.
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=182728&pageid=27160
     truy_cap: '2026-11-14'
-toan_van: raw/download/datafiles.chinhphu.vn/31-2015-tt-btttt.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/31-2015-tt-btttt.pdf
+  - raw/ocr/31-2015-tt-btttt.ocr.txt

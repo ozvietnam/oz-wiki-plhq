@@ -33,9 +33,42 @@ nguon:
     truy_cap: '2026-10-28'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, tiêu đề, ngày ban hành 15-11-2019, hiệu lực 01-01-2020, người ký Vũ Thị Mai (Bộ trưởng Bộ Tài chính), toàn văn OCR 30 trang thân văn + phụ lục'
+  pham_vi: số hiệu, tiêu đề, ngày ban hành 15-11-2019, hiệu lực 01-01-2020, người ký Vũ Thị Mai (Bộ trưởng Bộ Tài chính), toàn văn OCR 30 trang thân văn + phụ lục
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-28'
   boi: claude-code@ozvietnam
-toan_van: raw/download/datafiles.chinhphu.vn/81-2019-tt-btc.pdf
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Thông tư này quy định: 1. Thu thập, xử lý, quản lý, sử dụng thông tin quản lý rủi ro; đánh giá việc tuân thủ pháp luật của người khai hải quan. 2. Phân loại mức độ rủi ro người khai hải quan và các hoạt động xuât khâu, nhập khâu, xuât cảnh, nhập cảnh, quá cảnh. 3. Ap dụng quản lý rủi ro trong hoạt động nghiệp vụ hải quan.'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng 1. Người khai hai quan. - 2. Cơ quan hải quan, công chức hải quan. 3. Các cơ quan Nhà nước trong việc phối hợp quan lý nhà nước về hải quan.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: 'Điều 3. Giải thích từ ngữ 1. Ap dung quản lý rủi ro là việc ứng dụng các nguyên tắc, quy trình, biện pháp, kỹ thuật nghiệp vụ quản lý rủi ro và các sản phẩm thông tin quản: lý” rủi ro dé quyết định và thực hiện quyết định kiểm tra, giám sát hai quan, kiểm tra sau thông quan, thanh tra và các hoạt động nghiệp vụ khác.'
+      trang_pdf: 2
+    - dieu: 9
+      noi_dung: 'Điều 9. Quan lý tuân thủ pháp luật đối với người khai hải quan _ 1, Nội dung quản lý tuân thủ pháp luật đối với người khai hải quan bao gồm: . _ a) Xây dựng, quan lý hỗ sơ người khai hải quan; xác lập, quan lý hồ sơ rủi ro đôi với người khai hải quan có nguy cơ không tuân thủ pháp luật;'
+      trang_pdf: 7
+    - dieu: 13
+      noi_dung: Điều 13. Nguyên tắc phân loại mức độ rủi ro 1. Mức độ rủi ro trong hoạt động xuất khẩu, nhập khẩu, xuất cảnh, nhập cảnh, quá cảnh được phân loại trên cơ sở mức độ tuân thủ pháp luật của người khai hai quan và các yếu tố liên quan quy định tại Điều 15 Nghị định sô 08/2015/NĐ-CP.
+      trang_pdf: 10
+    - dieu: 17
+      noi_dung: 'Điều 17. Tiêu chí phân loại mức độ rủi ro đối với hoạt động xuất khẩu, nhập khẩu, xuất cảnh, nhập cảnh, quá cảnh trong hoạt động nghiệp vụ hải quan Rủi ro đối với hoạt động xuất khẩu, nhập khẩu, xuất cảnh, nhập cảnh, quá cảnh trong hoạt động nghiệp vụ hải quan được phân loại dựa trên các yêu tố quy định tại Điều 15 Nghị định số 08/2015/NĐ-CP như sau: 1. Mức độ tuân thủ, mức độ rủi ro người khai hải quan tại Điều 10 và 14 Thông tư này.'
+      trang_pdf: 12
+    - dieu: 21
+      noi_dung: 'Điều 21. Quyết định kiểm tra hàng hóa trong quá trình xếp, đỡ, lưu giữ tại cảng, kho, bãi, khu vực cửa khâu Căn cứ mức độ rủi ro trong quá trình xếp, đỡ, lưu giữ tại cảng, kho, bãi, khu vực cửa khẩu và các thông tin nghiệp vụ tại thời điểm ra quyết định, cơ quan hải quan quyết định việc kiểm tra hàng hóa và thông báo trên Hệ thống xử ly dữ liệu điện tử hải quan như sau:'
+      trang_pdf: 15
+    - dieu: 25
+      noi_dung: 'Điều 25. Quyết định kiếm tra trong quản lý hoạt động kinh doanh hàng miễn thuế Căn cứ mức độ rủi ro trong hoạt động kinh doanh hàng miễn thuế va các thông tin nghiệp vụ tại thời điểm ra quyết định, cơ quan hải quan quyết định kiểm tra và thông báo trên Hệ thống xử lý dữ liệu điện tử hải quan như sau: 1. Rủi ro cao: Thực hiện kiểm tra một hoặc một số nội dung sau:'
+      trang_pdf: 17
+    - dieu: 29
+      noi_dung: Điều 29. Quyết định kiểm tra, giám sát đối với phương tiện vận tải xuất cảnh, nhập cảnh, quá cảnh; người xuất cảnh, nhập cảnh, quá cánh; hành lý của người xuất cảnh, nhập cảnh, quá cảnh
+      trang_pdf: 19
+    - dieu: 34
+      noi_dung: Điều 34. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kế từ ngày 01 tháng 01 năm 2020. 2. Các quy định tại Điều 8, 9, 11, 12, 13 và 15 Mục I chương II Thông tư 38/2015/TT-BTC ngày 25 tháng 03 năm 2015 của Bộ Tài chính quy định về thủ tục hải quan, kiểm tra, giám sát hải quan thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu;
+      trang_pdf: 21
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/81-2019-tt-btc.pdf
+  - raw/ocr/81-2019-tt-btc.ocr.txt
 ghi_chu: 'Văn bản nền tảng về phân luồng tờ khai: Điều 22 quy định Luồng 1 (Xanh) / Luồng 2 (Vàng) / Luồng 3 (Đỏ) theo mức độ rủi ro thấp - trung bình - cao. Điều 14 phân loại người khai hải quan thành 9 hạng rủi ro (Hạng 1 doanh nghiệp ưu tiên; Hạng 2 rất thấp; Hạng 3 thấp; Hạng 4 trung bình; Hạng 5 cao; Hạng 6 rất cao; Hạng 7-9 theo lịch sử vi phạm). Điều 10 phân loại mức độ tuân thủ pháp luật thành 5 Mức (1 doanh nghiệp ưu tiên; 2 tuân thủ cao; 3 tuân thủ trung bình; 4 tuân thủ thấp; 5 không tuân thủ). Điều 20 khoản 2 cho phép thủ trưởng cơ quan hải quan quyết định thay đổi hình thức, mức độ kiểm tra khi có thông tin nghi ngờ vi phạm. Đã bị sửa đổi, bổ sung bởi TT 06/2024/TT-BTC từ 15-03-2024. Người ký: Vũ Thị Mai.'

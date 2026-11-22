@@ -17,7 +17,9 @@ nguon:
     truy_cap: '2026-11-15'
   - url: https://files.customs.gov.vn/CustomsCMS/TP_HO_CHI_MINH/2020/Web/Data/DocumentAttachments/Vanban_755.PDF
     truy_cap: '2026-11-15'
-toan_van: raw/download/files.customs.gov.vn/755-tchq-gsql-2020.pdf
+toan_van:
+  - raw/download/files.customs.gov.vn/755-tchq-gsql-2020.pdf
+  - raw/ocr/755-tchq-gsql-2020.ocr.txt
 xac_minh:
   muc: NGUON_A
   pham_vi: Đã tải và đối chiếu toàn văn PDF bản gốc có chữ ký số của Tổng cục Hải quan và dấu đỏ của Phó Tổng cục trưởng Mai Xuân Thành ký ngày 11/02/2020 (7 trang, customs.gov.vn id=54195, files.customs.gov.vn Vanban_755.PDF, dòng 6905 all-1990-2026.csv). Một số nội dung hướng dẫn về kiểm tra, giám sát xuất xứ và ghi nhãn được thay thế bởi CV 17552/CHQ-GSQL ngày 16/06/2026.

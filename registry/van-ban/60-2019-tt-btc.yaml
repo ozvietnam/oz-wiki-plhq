@@ -17,9 +17,23 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đỗi, bỗ sung một số điều của Thông tư số 39/2015/TT-BTC ngày 25 tháng 3 năm 2015 của Bộ truéng Bộ Tài chính quy định về trị giá hải quan đối với hàng hoá xuất khẩu, nhập khẩu: 1. Khoản 5 được sửa đỗi; bo sung khoản 15, khoản 16, khoản 17, khoản 18, khoản 19 Điều 2 như sau: “5, Phan mềm ứng dụng là các dữ liệu, chương trình hoặc hướng dẫn được thé hiện dưới dạng các lệnh, các mã, lược đồ hoặc bất kỳ dạng nào khác'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Trách nhiệm t6 chức thực hiện 1. Tổng cục trưởng Tổng cục Hải quan căn cứ quy định tại Thông tư nay hướng dẫn các đơn vị hải quan thực hiện thống nhất, bảo đảm vừa tạo điều kiện thuận lợi cho hoạt động xuất khẩu, nhập khẩu, vừa thực hiện tốt công tác quan lý hải quan.
+      trang_pdf: 26
+    - dieu: 3
+      noi_dung: Điều 3. Hiệu lực thi hành 1. Thông tư này có hiệu lực kê từ ngày 4§ tháng AOnăm 2019. 2. Bãi bỏ khoản 15 Điều 1 Thông tư số 39/2018/TT-BTC ngày 20/4/2018 của Bộ trưởng Bộ Tài chính.
+      trang_pdf: 27
 ghi_chu: Khởi tạo 2026-10-04 từ hiểu biết nền; cần đối chiếu nguồn A.
 nguon:
   - url: https://vanban.chinhphu.vn/?docid=197882&pageid=27160
     truy_cap: '2026-10-04'
-tu_khoa: [tri-gia, tham-van-tri-gia]
-toan_van: raw/download/datafiles.chinhphu.vn/60-2019-tt-btc.pdf
+tu_khoa:
+  - tri-gia
+  - tham-van-tri-gia
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/60-2019-tt-btc.pdf
+  - raw/ocr/60-2019-tt-btc.ocr.txt

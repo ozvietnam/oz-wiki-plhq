@@ -17,9 +17,42 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, trích yếu, ngày ban hành 26-01-2026 trên thẻ vanban.chinhphu.vn (docid=216827), kèm toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/46-2026-nd-cp.pdf, wiki/sources/46-2026-nd-cp.md); đối chiếu tình trạng tạm ngưng hiệu lực theo 09/2026/NQ-CP và 15/2026/NQ-CP'
+  pham_vi: số hiệu, trích yếu, ngày ban hành 26-01-2026 trên thẻ vanban.chinhphu.vn (docid=216827), kèm toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/46-2026-nd-cp.pdf, wiki/sources/46-2026-nd-cp.md); đối chiếu tình trạng tạm ngưng hiệu lực theo 09/2026/NQ-CP và 15/2026/NQ-CP
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Nghị định này quy định chỉ tiết và hướng dẫn thi hành một số điều của Luật An toàn thực phẩm gồm: 1. Quy định chỉ tiết các nội dung về:'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng | Nghị định này áp dụng đối với co quan, tổ chức, cá nhân Việt Nam; tổ. chức, cá nhân nước ngoài tại Việt Nam tham gia sản xuất, kinh doanh thực phâm; tô chức, cá nhân có hoạt động liên quan đên an toàn thực phẩm tại Việt, Nam (sau đây gọi chung là tô chức, cá nhân).
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: 'Điều 3. Giải thích từ ngữ Trong Nghị định này, các từ ngữ sau đây được hiểu như sau: 1. Thực phẩm chức năng là thực phẩm dùng đề hỗ trợ chức năng của cơ thể con người, tạo cho cơ thể tình trạng thoải mái, tăng sức đề kháng, giảm bớt nguy cơ mắc bệnh, bao gồm thực phẩm bảo vệ sức khỏe, thực phẩm dinh dưỡng y học, thực phẩm dùng cho chế độ ăn đặc biệt và thực phẩm bổ sung.'
+      trang_pdf: 3
+    - dieu: 12
+      noi_dung: 'Điều 12. Điều kiện bảo đảm an toàn thực phẩm trong sản xuất thực ˆ phẩm bảo vệ sức khỏe 1. Cơ sở sản xuất thực phẩm bảo vệ sức khỏe phải đáp ứng điều kiện chung về bảo đảm an toàn thực phẩm được quy định tại khoản 1 Điều 19, khoản 1 Điều 20 Luật An toàn thực phẩm và những quy định sau đây:'
+      trang_pdf: 9
+    - dieu: 18
+      noi_dung: Điều 18. Thu hồi Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm 1. Tham quyền thu hồi:. Cơ quan đã cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm, Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm đạt yêu cầu Thực hành sản xuất tốt (GMP) thực phẩm bảo vệ sức khỏe (sau đây gọi chung là Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm) và cơ quan có thâm quyên theo quy định của pháp luật về xử lý vi phạm hành chính có quyền
+      trang_pdf: 15
+    - dieu: 25
+      noi_dung: 'Điều 25. Trình tự kiểm tra nhà nước về an toàn thực phẩm. đối với | thực phẩm nhập khẩu | 1. Trình tự thực hiện kiểm tra giảm:'
+      trang_pdf: 22
+    - dieu: 32
+      noi_dung: 'Điều 32. Miễn một số nội dung ghi nhãn bắt buộc 1. Miễn ghi nhãn phụ đối với sản phẩm mang theo người nhập cảnh để tiêu dùng cá nhân, quà tặng, quà biếu trong định mức được miên thuế nhập khẩu; sản phẩm nhập khẩu của đối tượng được ưu đãi, miễn: trừ ngoại giao; sản phẩm quá cảnh, chuyên khẩu, trung chuyền, tạm nhập, tái xuất, gửi kho ngoại quan; sản phẩm là mau thử nghiệm hoặc nghiên cứu; sản phẩm là mẫu trưng bày hội chợ, triển lãm;'
+      trang_pdf: 28
+    - dieu: 39
+      noi_dung: 'Điều 39. Cấp mã số cơ sở kiểm nghiệm Cơ quan chỉ định có trách nhiệm cấp và quản lý mã số cho các cơ sở kiểm nghiệm thực phẩm phục vụ quản lý nhà nước. Mã số cơ sở kiểm nghiệm thực phẩm phục vụ quản lý nhà nước được ký hiệu như sau: (số thứ tự)/(Ký hiệu Ủy ban nhân dân cấp tinh)- KNTP-ky higu phan loai theo lĩnh vực quan lý (nếu có) |'
+      trang_pdf: 36
+    - dieu: 46
+      noi_dung: Điều 46. Trách nhiệm quản lý nhà nước về an toàn thực phẩm của Bộ 4I Nông nghiệp và Môi trường 1. Ban hành quy chuẩn kỹ thuật quốc gia đối với sân phẩm, nhóm sản phẩm thuộc lĩnh vực được phân công quản lý quy định tại Điều 63 Luật An toàn thực phẩm va Phụ luc II ban hành kèm theo Nghị định này (trừ bao bi, dụng cụ tiếp xúc trực tiếp với thực phẩm do Bộ Y tế ban hành).
+      trang_pdf: 40
+    - dieu: 54
+      noi_dung: Điều 54. Điều khoản chuyển tiếp 1. Đối với sản phẩm đã tự công bố trước thời điểm Nghị định này có hiệu lực thi hành, tổ chức, cá nhân được tiếp tục sản xuất, kinh doanh, nhập khẩu sản phẩm cho đến khi hoàn thành việc đăng ký bản công bố hợp quy. Tô chức, cá nhân có trách nhiệm hoàn thành việc đăng ký bản công bố hợp quy theo quy định tại Nghị định này trong thời hạn 12 tháng kể từ ngày Nghị định này có hiệu lực thi hành.
+      trang_pdf: 49
 ghi_chu: Thẻ cổng Chính phủ ghi ngày có hiệu lực 26-01-2026 (ngày bắt đầu), không ghi tạm ngưng. Tình trạng TAM_NGUNG giữ theo trích yếu Nghị quyết 09/2026/NQ-CP và 15/2026/NQ-CP trên cùng cổng; chưa đọc điều khoản nên chưa đặt hieu_luc_da_doi_chieu. Đừng viết "NĐ 15/2018 đã bị thay".
-toan_van: raw/download/datafiles.chinhphu.vn/46-2026-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/46-2026-nd-cp.pdf
+  - raw/ocr/46-2026-nd-cp.ocr.txt
