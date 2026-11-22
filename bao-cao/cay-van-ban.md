@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-2946 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2951 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -244,12 +244,12 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [109/2025/UBTVQH15](../registry/van-ban/109-2025-ubtvqh15.yaml) — Thuế bảo vệ môi trường
 - 🟢 [260/2025/NĐ-CP](../registry/van-ban/260-2025-nd-cp.yaml) — Biểu thuế xuất khẩu (sửa)
 - 🟢 [206/2025/NĐ-CP](../registry/van-ban/206-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi VN-Lào
-- 🟢 [199/2025/NĐ-CP](../registry/van-ban/199-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
+- 🟢 [199/2025/NĐ-CP](../registry/van-ban/199-2025-nd-cp.yaml) — Sửa đổi, bổ sung Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan
 - 🟢 [181/2025/NĐ-CP](../registry/van-ban/181-2025-nd-cp.yaml) — Quy định chi tiết thi hành một số điều của Luật Thuế giá trị gia tăng
 - 🟢 [66/2025/QH15](../registry/van-ban/66-2025-qh15.yaml) — Luật Thuế tiêu thụ đặc biệt
 - 🟢 [108/2025/NĐ-CP](../registry/van-ban/108-2025-nd-cp.yaml) — Sửa đổi, bổ sung Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan
-- 🟢 [73/2025/NĐ-CP](../registry/van-ban/73-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
-- 🟢 [21/2025/NĐ-CP](../registry/van-ban/21-2025-nd-cp.yaml) — Biểu thuế NK ưu đãi (sửa)
+- 🟢 [73/2025/NĐ-CP](../registry/van-ban/73-2025-nd-cp.yaml) — Sửa đổi, bổ sung mức thuế suất thuế nhập khẩu ưu đãi của một số mặt hàng tại Biểu thuế nhập khẩu ưu đãi theo Danh mục mặt hàng chịu thuế ban hành kèm theo Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan
+- 🟢 [21/2025/NĐ-CP](../registry/van-ban/21-2025-nd-cp.yaml) — Sửa đổi, bổ sung Điều 9 của Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan
 - 🟢 [13/2025/NĐ-CP](../registry/van-ban/13-2025-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 115/2022/NĐ-CP ngày 30 tháng 12 năm 2022 của Chính phủ ban hành Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương giai đoạn 2022 - 2027 đã được sửa đổi, bổ sung một số điều theo Nghị định số 68/2023/NĐ-CP ngày 07 tháng 9 năm 2023 của Chính phủ
 - 🟢 [144/2024/NĐ-CP](../registry/van-ban/144-2024-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan
 - 🟢 [77/2023/NĐ-CP](../registry/van-ban/77-2023-nd-cp.yaml) — Quản lý nhập khẩu hàng hóa tân trang theo Hiệp định CPTPP
@@ -384,7 +384,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2261 văn bản, 2261 chưa hết hiệu lực.
+2266 văn bản, 2266 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -471,6 +471,11 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [17792/TB-CHQ/2026](../registry/van-ban/17792-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thuốc nhỏ mắt Levo JP Eye Drops 0.5% dạng dung dịch chứa Levofloxacin hydrate JP 25 mg/5 mL, mã số 3004.90.99)
 - 🟢 [17694/TB-CHQ/2026](../registry/van-ban/17694-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Máy chủ server Dell PowerEdge R770 khung 2U, mã số 8471.50.90)
 - 🟢 [17719/TB-CHQ/2026](../registry/van-ban/17719-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thanh dẫn điện hai lớp nhôm bọc đồng Copper clad aluminum flat bar CCA Busbar Cu/Al 30/70, mã số 7407.10.41)
+- 🟢 [17459/TB-CHQ/2026](../registry/van-ban/17459-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị trộn tần số tín hiệu truyền hình RF thụ động Combiner CHA-5800C, mã số 8543.70.90)
+- 🟢 [17344/TB-CHQ/2026](../registry/van-ban/17344-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Băng keo hai mặt DS10A1 dạng cuộn jumbo nền giấy tissue phủ keo acrylic, mã số 3506.91.90)
+- 🟢 [17345/TB-CHQ/2026](../registry/van-ban/17345-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Băng keo hai mặt DS10G dạng cuộn jumbo nền vải không dệt tissue phủ keo acrylic, mã số 3506.91.90)
+- 🟢 [16859/TB-CHQ/2026](../registry/van-ban/16859-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Polystyrene ở dạng cục tái chế nóng chảy dạng nguyên sinh hàm lượng > 99%, mã số 3903.19.90)
+- 🟢 [16749/TB-CHQ/2026](../registry/van-ban/16749-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thuốc kê đơn viên đặt âm đạo Canvey chứa Metronidazole, Chloramphenicol, Nystatin, Dexamethasone acetate, mã số 3004.20.79)
 - 🟢 [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - 🟢 [1489/TB-CHQ/2026](../registry/van-ban/1489-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1633/TB-CHQ/2026](../registry/van-ban/1633-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2710.12.99)

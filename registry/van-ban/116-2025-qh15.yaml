@@ -15,9 +15,34 @@ nguon:
     truy_cap: '2026-11-15'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=216499) và toàn văn PDF đính kèm trên datafiles.chinhphu.vn (luat116-2025.pdf): Quốc hội thông qua ngày 10-12-2025, có hiệu lực thi hành từ ngày 01-07-2026; đang còn hiệu lực.'
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=216499) và toàn văn PDF đính kèm trên datafiles.chinhphu.vn (luat116-2025.pdf): Quốc hội thông qua ngày 10-12-2025, có hiệu lực thi hành từ ngày 01-07-2026; đang còn hiệu lực. Đã OCR 37 trang bản scan thành raw/ocr/116-2025-qh15.ocr.txt.'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
-toan_van: raw/download/datafiles.chinhphu.vn/116-2025-qh15.pdf
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: '1. Luật này quy định vé an ninh mang, bảo vệ an ninh mang; quyên, nghĩa vụ, trách nhiệm của cơ quan, tô chức, cá nhân có liên quan. 2. Luật này áp dụng đối với: a) Cơ quan, tô chức, cá nhân Việt Nam; b) Cơ quan, tổ chức, cá nhân nước ngoài tại Việt Nam và người sốc Việt Nam chưa xác định được quốc tịch đang sinh sông tại Việt Nam đã được cấp giấy chứng nhận căn cước; c) Cơ quan, tổ chức, cá nhân nước ngoài trực tiếp tham gia hoặc có liên quan đến hoạt động bảo vệ an ninh mạng, kinh doanh sản phẩm, dịch vụ an ninh mạng tại Việt Nam.'
+      trang_pdf: 1
+    - dieu: 27
+      khoan: 1
+      noi_dung: '1. Tiêu chuẩn an ninh mạng, quy chuẩn kỹ thuật an ninh mạng được áp dụng đối với hệ thống thông tin, phần cứng, phần mềm, hệ thống quản lý, vận hành an ninh mạng, sản phâm, dịch vụ an ninh mạng, công nghệ thông tin và thiết bị kết nối mạng.'
+      trang_pdf: 25
+    - dieu: 28
+      khoan: 1
+      noi_dung: '1. Sản phâm an ninh mạng bao gồm: a) Sản pham mat ma dan su; b) Sản phẩm kiểm tra, đánh giá an ninh mạng; c) Sản phẩm giám sát an ninh mạng: d) Sản phâm chống tan công, xâm nhập; đ) Sản pham an ninh mạng khác.'
+      trang_pdf: 26
+    - dieu: 29
+      khoan: 1
+      noi_dung: '1. Doanh nghiệp kinh doanh sản phẩm, dịch vụ an ninh mạng phải có giấy phép kinh doanh sản phâm, dịch vụ an ninh mạng.'
+      trang_pdf: 26
+    - dieu: 29
+      khoan: 3
+      noi_dung: '3. Chính phủ quy định việc cấp, tạm đình chỉ, thu hồi giấy phép kinh doanh sản phẩm, dịch vụ an ninh mạng: quy định việc nhập khâu, xuất khẩu sản phẩm an ninh mạng: quy định việc kinh doanh sản phẩm, dịch vụ an ninh mạng.'
+      trang_pdf: 27
+    - dieu: 44
+      noi_dung: '1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026. 2. Luật An toàn thông tin mạng số 86/2015/QH13 đã được sửa đổi, bộ sung một sô điêu theo Luật sô 35/2018/QH14; Luật An ninh mạng số 24/2018/QH14 hệt hiệu lực kê từ ngày Luật này có hiệu lực thi hành.'
+      trang_pdf: 36
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/116-2025-qh15.pdf
+  - raw/ocr/116-2025-qh15.ocr.txt
 ghi_chu: 'Luật An ninh mạng số 116/2025/QH15 ngày 10-12-2025 (hiệu lực từ 01-07-2026).'

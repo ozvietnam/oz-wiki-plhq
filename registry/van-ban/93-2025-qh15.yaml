@@ -23,12 +23,47 @@ nguon:
     truy_cap: '2026-11-12'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'đã đối chiếu toàn văn 52 trang PDF ký số của Luật 93/2025/QH15 (93qh.signed.pdf, Chủ tịch Quốc hội Trần Thanh Mẫn ký) trên vanban.chinhphu.vn (docid=214603) và Văn bản hợp nhất Luật SHTT số 155/VBHN-VPQH ngày 09/09/2025 (155-vbhn-vpqh.pdf): số hiệu 93/2025/QH15, tiêu đề Luật Khoa học, công nghệ và đổi mới sáng tạo, gồm 7 Chương 73 Điều, Quốc hội khóa XV kỳ họp thứ 9 thông qua ngày 27/06/2025; khoản 7 Điều 71 sửa đổi, bổ sung, bãi bỏ một số điều của Luật Sở hữu trí tuệ số 50/2005/QH11 (đã sửa đổi theo Luật 36/2009/QH12, 42/2019/QH14, 07/2022/QH15); khoản 1 và khoản 2 Điều 72 quy định có hiệu lực từ 01/10/2025 (riêng các Điều 15, 61, 62, 63, 64, 65 và 66 có hiệu lực từ 01/07/2025); khoản 3 Điều 72 làm hết hiệu lực Luật Khoa học và công nghệ số 29/2013/QH13'
+  pham_vi: 'đã đối chiếu toàn văn 52 trang PDF ký số của Luật 93/2025/QH15 (93qh.signed.pdf, Chủ tịch Quốc hội Trần Thanh Mẫn ký) trên vanban.chinhphu.vn (docid=214603) và Văn bản hợp nhất Luật SHTT số 155/VBHN-VPQH ngày 09/09/2025 (155-vbhn-vpqh.pdf): số hiệu 93/2025/QH15, tiêu đề Luật Khoa học, công nghệ và đổi mới sáng tạo, gồm 7 Chương 73 Điều, Quốc hội khóa XV kỳ họp thứ 9 thông qua ngày 27/06/2025; khoản 7 Điều 71 sửa đổi, bổ sung, bãi bỏ một số điều của Luật Sở hữu trí tuệ số 50/2005/QH11 (đã sửa đổi theo Luật 36/2009/QH12, 42/2019/QH14, 07/2022/QH15); khoản 1 và khoản 2 Điều 72 quy định có hiệu lực từ 01/10/2025 (riêng các Điều 15, 61, 62, 63, 64, 65 và 66 có hiệu lực từ 01/07/2025); khoản 3 Điều 72 làm hết hiệu lực Luật Khoa học và công nghệ số 29/2013/QH13. Đã OCR 52 trang bản scan thành raw/ocr/93-2025-qh15.ocr.txt.'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-12'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Luật này quy định về hoạt động khoa học, công nghệ và đổi mới sáng tạo của cơ quan, tô chức, cá nhân; chính sách, biện pháp bảo đảm phát triển khoa học, công nghệ và thúc đây déi mới sáng tạo.'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Luật này áp dụng đối với cơ quan, tô chức, cá nhân trực tiếp tham gia hoặc có liên quan đến hoạt động khoa học, công nghệ và đôi mới sáng tạo tại Việt Nam hoặc ngoài lãnh thé Việt Nam nhưng có quyên và nghĩa vụ theo quy định của pháp luật Việt Nam, điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.'
+      trang_pdf: 1
+    - dieu: 70
+      khoan: 4
+      noi_dung: '4. Nhà nước hỗ trợ pháp lý và tư vấn cho tổ chức, cá nhân tham gia hợp tác quốc tế dé bảo vệ quyền sở hữu trí tuệ và giải quyết tranh chấp liên quan đến chuyền giao công nghệ.'
+      trang_pdf: 46
+    - dieu: 71
+      khoan: 7
+      diem: a
+      noi_dung: 'a) Sửa đổi, bd sung điểm b khoản 1 Điều 86 như sau: “b) Tổ chức, cá nhân đầu tư kinh phí, phương tiện vật chất cho tác giả dưới hình thức giao việc, thuê việc, tô chức, cá nhân được giao quản. lý nguồn gen cung cấp nguồn gen, tri thức truyền thống về nguồn gen theo hợp đồng tiếp cận nguồn gen và chia sẻ lợi ích, trừ trường hợp các bên có thỏa thuận khác.”;'
+      trang_pdf: 49
+    - dieu: 71
+      khoan: 7
+      diem: h
+      noi_dung: 'h) Bãi bỏ Điều 86a, Điều 133a, khoản 2 Điều 135, Điều 136a, khoản 6 Điều 139, khoản 3 và khoản 4 Điều 164, khoản 2 Điều 191, Điều 191a, Điều 191b, khoản 4 Điều 194.'
+      trang_pdf: 50
+    - dieu: 72
+      khoan: 1
+      noi_dung: '1. Luật này có hiệu lực thi hành từ ngày 01 tháng 10 năm 2025, trừ trường hợp quy định tại khoản 2 Điều này.'
+      trang_pdf: 50
+    - dieu: 72
+      khoan: 2
+      noi_dung: '2. Các điều 15, 61, 62, 63, 64, 65 và 66 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025.'
+      trang_pdf: 50
+    - dieu: 72
+      khoan: 3
+      noi_dung: '3. Luật Khoa học và công nghệ số 29/2013/QH13 đã được sửa đổi, bỏ sung một sô điêu theo Luật sô 28/2018/QH14 và Luật sô 07/2022/QH15 (sau đây gọi chung là Luật Khoa học và Công nghệ số 29/2013/QH13) hết hiệu lực kể từ ngày Luật này có hiệu lực thị hành, trừ trường hợp quy định tại các khoản 1,2, 3, 6, 8 và 9 Điều 73 của Luật này.'
+      trang_pdf: 50
 ghi_chu: 'Xác minh nguồn bậc A (OZV-561) — đã bổ sung trang văn bản riêng trên vanban.chinhphu.vn (docid=214603) và toàn văn bản ký số 93qh.signed.pdf. Khoản 7 Điều 71 là lần sửa đổi, bổ sung thứ tư đối với Luật Sở hữu trí tuệ số 50/2005/QH11 (về quyền đăng ký sáng chế, kiểu dáng công nghiệp, thiết kế bố trí và giống cây trồng từ nhiệm vụ KH&CN sử dụng ngân sách nhà nước, hợp nhất tại 155/VBHN-VPQH). Ngoài ra các khoản 1–6, 8, 9 Điều 71 còn sửa đổi một số điều của các luật ngoài phạm vi sổ hải quan (Luật Công nghệ cao, Luật Chuyển giao công nghệ, Luật Thuế TNCN, Luật Đất đai, Luật Báo chí, Luật Xây dựng, Luật Nhà ở) và bãi bỏ các Điều 3–9 Nghị quyết 193/2025/QH15.'
-toan_van: raw/download/datafiles.chinhphu.vn/93-2025-qh15.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/93-2025-qh15.pdf
+  - raw/ocr/93-2025-qh15.ocr.txt
 tu_khoa:
   - so-huu-tri-tue
   - shtt
