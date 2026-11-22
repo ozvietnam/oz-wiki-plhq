@@ -23,9 +23,13 @@ Kho mở, miễn phí, cho cộng đồng làm xuất nhập khẩu: **văn bả
 | **Bộ đánh giá hỏi đáp** | [`eval/cau-hoi-nghiep-vu.yaml`](eval/cau-hoi-nghiep-vu.yaml) · `npm run eval:qa` | Bộ **32 câu** hỏi nghiệp vụ thuần PLHQ & XNK đo độ phủ nguồn A, trang wiki và điều khoản đã trích |
 | **Dữ liệu cho máy (`1.5.0`)** | `dist/` (`npm run dung`, xem [tích hợp](docs/tich-hop.md) & [workflow Release](.github/workflows/bao-hs-code-api.yml)) | Gói 7 tệp JSON (`registry.json`, `hs-index.json`, `hs-index-theo-ma.json`, `wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`) + `SHA256SUMS` cho [hs-code-api](https://github.com/ozvietnam/hs-code-api) và Cổng MCP `ozplugin` |
 | **Cổng tra cứu web công khai** | `site/` (`npm run dung:web`, [workflow GitHub Pages](.github/workflows/trang-web.yml)) | Cổng web tĩnh không phụ thuộc CDN, triển khai lên GitHub Pages với 4 thẻ: Hiệu lực văn bản, Wiki & Hỏi đáp, Điều khoản bậc A (`NGUYEN_VAN_NGUON_A` vs `TOM_TAT_NHAP`), Hóa chất CAS (`24/2026/NĐ-CP`) |
+| **Cổng MCP & CLI tra cứu PLHQ** | [`docs/mcp-server.md`](docs/mcp-server.md) · `npm run mcp:server` · `npm run tra-cuu` | MCP stdio server JSON-RPC 2.0 thuần Node (`0` dependency ngoài mới, 6 tools + 2 resources cho Claude Desktop, Antigravity, Cursor, `ozplugin`) và CLI tra cứu nhanh hiệu lực, điều khoản bậc A, wiki, mã CAS, chính sách theo HS |
 
 ## Dùng thế nào
 
+- **Cổng MCP & CLI tra cứu PLHQ (tại máy — [hướng dẫn chi tiết](docs/mcp-server.md)):**
+  - `npm run mcp:server` — chạy MCP JSON-RPC 2.0 stdio server (`tools/mcp-server.mjs`) kết nối trực tiếp Claude Desktop, Antigravity, Cursor và `ozplugin`
+  - `npm run tra-cuu -- <lệnh>` (hoặc `node tools/tra-cuu.mjs`) — tra cứu nhanh hiệu lực văn bản, điều khoản bậc A, hỏi đáp wiki PLHQ, hóa chất CAS và chính sách theo mã HS đã biết ngay trên terminal
 - **Tra cứu trên web (GitHub Pages / tại máy):** cổng tra cứu công khai được dựng tự động lên GitHub Pages qua [`.github/workflows/trang-web.yml`](.github/workflows/trang-web.yml), hoặc dựng tại máy bằng `npm run dung && npm run dung:web` (xuất ra thư mục `site/`, bị gitignore).
 - **Đọc trên GitHub:** mở [`bao-cao/cay-van-ban.md`](bao-cao/cay-van-ban.md), [`wiki/index.md`](wiki/index.md) và [`docs/SO-DO-HE-THONG.md`](docs/SO-DO-HE-THONG.md) ngay trên GitHub.
 - **Hỏi bằng AI:** clone repo, mở bằng Claude Code / Codex / Gemini CLI / Cursor rồi hỏi bằng tiếng Việt, ví dụ *"Bánh quy nhập từ Trung Quốc kiểm tra ATTP theo văn bản nào, còn hiệu lực không?"*. AI đọc wiki + sổ và trả lời kèm dẫn nguồn (`/lumi-ask`). Câu trả lời tốn token của bạn; đọc file thì không.

@@ -9,23 +9,13 @@ import { join, extname, basename } from 'node:path';
 import { createHash } from 'node:crypto';
 import yaml from 'js-yaml';
 import { napSo, khoa, bacNguon, slugTuSoHieu, homNay, ROOT } from './lib/registry.mjs';
+import { kiemTraPdfCoLopChu, lamSachHtmlDeKiem, phanTichHtmlRaw } from './lib/kiem-tra-raw.mjs';
 
 const GIOI_HAN = 50 * 1024 * 1024;
 
 /** HTML → chữ sạch: bỏ script/style/menu, giữ xuống dòng theo khối, gộp khoảng trắng. */
 export function lamSachHtml(html) {
-  return String(html)
-    .replace(/<(script|style|noscript|nav|header|footer|form)[^>]*>[\s\S]*?<\/\1>/gi, '')
-    .replace(/<br\s*\/?>/gi, '\n')
-    .replace(/<\/(p|div|li|tr|h[1-6]|table|section|article)>/gi, '\n')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'")
-    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
-    .replace(/[ \t\f\v]+/g, ' ')
-    .replace(/ *\n */g, '\n')
-    .replace(/\n{3,}/g, '\n\n')
-    .normalize('NFC')
-    .trim();
+  return lamSachHtmlDeKiem(html);
 }
 
 function tenTep(url, soHieu, ext) {
@@ -34,17 +24,7 @@ function tenTep(url, soHieu, ext) {
   return b.includes('.') ? b : `${b}${ext}`;
 }
 
-async function main() {
-  const args = process.argv.slice(2);
-  const url = args.find((a) => /^https?:\/\//.test(a));
-  const i = args.indexOf('--so-hieu');
-  const soHieu = i >= 0 ? args[i + 1] : null;
-  const ghi = args.includes('--ghi');
-  if (!url) {
-    console.error('Cách dùng: node tools/nap.mjs <url> [--so-hieu "..."] [--ghi]');
-    process.exit(2);
-  }
-  const so = napSo();
+async function taiVaLuu({ url, soHieu, ghi, so, choPhepTheoPdf = false }) {
   const bac = bacNguon(url, so.nguon);
   if (bac !== 'A') console.warn(`⚠️  Nguồn bậc ${bac} (${new URL(url).hostname}). Toàn văn nên lấy từ nguồn bậc A — xem registry/nguon-uy-tin.yaml.`);
 
@@ -66,20 +46,48 @@ async function main() {
   const file = join(dir, tenTep(url, soHieu, ext));
   const rel = file.slice(ROOT.length + 1);
   const sha256 = createHash('sha256').update(buf).digest('hex');
+
+  const meta = { url, truy_cap: homNay(), sha256, content_type: ct, bytes: buf.length, bac_nguon: bac, so_hieu: soHieu };
+  let htmlInfo = null;
+  let pdfInfo = null;
+  if (ext === '.html' || ext === '.htm') {
+    htmlInfo = phanTichHtmlRaw(buf.toString('utf8'), url);
+    meta.co_toan_van = htmlInfo.co_toan_van;
+    meta.loai_tep_raw = htmlInfo.loai_tep_raw;
+    if (htmlInfo.pdf_nhung.length) meta.pdf_nhung = htmlInfo.pdf_nhung;
+  } else if (ext === '.pdf') {
+    pdfInfo = kiemTraPdfCoLopChu(buf);
+    meta.co_lop_chu = pdfInfo.co_lop_chu;
+    meta.loai_tep_raw = pdfInfo.trang_thai;
+  }
+
   if (existsSync(file)) {
     const cu = createHash('sha256').update(readFileSync(file)).digest('hex');
     if (cu === sha256) { console.log(`Đã có, không đổi: ${rel}`); }
     else { console.error(`Đã có ${rel} với nội dung KHÁC (raw/ bất biến). Văn bản có thể đã được sửa ở nguồn — mở issue "hiệu lực".`); process.exit(1); }
   } else {
     writeFileSync(file, buf);
-    writeFileSync(`${file}.nguon.json`, JSON.stringify({ url, truy_cap: homNay(), sha256, content_type: ct, bytes: buf.length, bac_nguon: bac, so_hieu: soHieu }, null, 2) + '\n');
-    if (ext === '.html') writeFileSync(file.replace(/\.html$/, '.txt'), lamSachHtml(buf.toString('utf8')) + '\n');
+    writeFileSync(`${file}.nguon.json`, JSON.stringify(meta, null, 2) + '\n');
+    if (ext === '.html' && htmlInfo?.co_toan_van) {
+      writeFileSync(file.replace(/\.html$/, '.txt'), htmlInfo.chu_sach + '\n');
+    } else if (ext === '.html') {
+      console.warn(`⚠️  ${rel} là ${htmlInfo.loai_tep_raw} (không có Điều N) — không ghi tệp .txt giả toàn văn.`);
+    } else if (pdfInfo?.trang_thai === 'PDF_BAN_SCAN_CAN_OCR') {
+      console.warn(`⚠️  ${rel} là PDF bản scan (<200 ký tự lớp chữ) — cần OCR trước khi ingest.`);
+    }
     console.log(`Đã tải ${rel} (${buf.length} byte, sha256 ${sha256.slice(0, 12)}…, nguồn bậc ${bac})`);
   }
-  // Trang giới thiệu văn bản (vd chinhphu.vn) thường chỉ có tóm tắt; toàn văn là PDF có chữ ký số.
-  if (ext === '.html') {
-    const pdfs = [...new Set((buf.toString('utf8').match(/https?:\/\/[^"'\s]+\.pdf/gi) || []))];
-    if (pdfs.length) console.log(`Trang này có tệp PDF toàn văn — nên tải thêm:\n${pdfs.slice(0, 5).map((p) => `  node tools/nap.mjs "${p}"${soHieu ? ` --so-hieu "${soHieu}" --ghi` : ''}`).join('\n')}`);
+
+  let savedRel = rel;
+  if ((ext === '.html' || ext === '.htm') && htmlInfo?.pdf_nhung.length) {
+    const firstPdfA = htmlInfo.pdf_nhung.find((p) => bacNguon(p, so.nguon) === 'A') || htmlInfo.pdf_nhung[0];
+    if (choPhepTheoPdf && !htmlInfo.co_toan_van && firstPdfA) {
+      console.log(`--theo-pdf: tự động tải tệp PDF toàn văn ${firstPdfA}`);
+      const pdfRel = await taiVaLuu({ url: firstPdfA, soHieu, ghi: false, so, choPhepTheoPdf: false });
+      savedRel = pdfRel;
+    } else {
+      console.log(`Trang này có tệp PDF toàn văn — nên tải thêm:\n${htmlInfo.pdf_nhung.slice(0, 5).map((p) => `  node tools/nap.mjs "${p}"${soHieu ? ` --so-hieu "${soHieu}" --ghi` : ''}`).join('\n')}`);
+    }
   }
 
   if (ghi && soHieu) {
@@ -89,12 +97,28 @@ async function main() {
     const raw = readFileSync(fp, 'utf8');
     const head = raw.split('\n').filter((l) => l.startsWith('#')).join('\n');
     const obj = yaml.load(raw, { schema: yaml.CORE_SCHEMA });
-    obj.toan_van = rel;
+    obj.toan_van = savedRel;
     obj.nguon = obj.nguon || [];
     if (!obj.nguon.some((n) => n.url === url)) obj.nguon.push({ url, truy_cap: homNay() });
     writeFileSync(fp, `${head ? `${head}\n` : ''}${yaml.dump(obj, { lineWidth: -1, noRefs: true })}`);
     console.log(`Đã ghi toan_van + nguon vào ${d._file}`);
   }
+  return savedRel;
+}
+
+async function main() {
+  const args = process.argv.slice(2);
+  const url = args.find((a) => /^https?:\/\//.test(a));
+  const i = args.indexOf('--so-hieu');
+  const soHieu = i >= 0 ? args[i + 1] : null;
+  const ghi = args.includes('--ghi');
+  const theoPdf = args.includes('--theo-pdf');
+  if (!url) {
+    console.error('Cách dùng: node tools/nap.mjs <url> [--so-hieu "..."] [--ghi] [--theo-pdf]');
+    process.exit(2);
+  }
+  const so = napSo();
+  await taiVaLuu({ url, soHieu, ghi, so, choPhepTheoPdf: theoPdf });
   console.log('Bước tiếp: mở phiên AI trong repo và gõ /lumi-ingest với tệp vừa tải để tóm tắt vào wiki.');
 }
 

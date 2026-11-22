@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-2941 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2946 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -266,9 +266,9 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [119/2022/NĐ-CP](../registry/van-ban/119-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc giai đoạn 2022 - 2027
 - 🟢 [120/2022/NĐ-CP](../registry/van-ban/120-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện ASEAN - Nhật Bản giai đoạn 2022 - 2028
 - 🟢 [121/2022/NĐ-CP](../registry/van-ban/121-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thành lập Khu vực Thương mại tự do ASEAN - Ôt-xtrây-lia - Niu Di-lân giai đoạn 2022 - 2027
-- 🟢 [122/2022/NĐ-CP](../registry/van-ban/122-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi AIFTA
-- 🟢 [123/2022/NĐ-CP](../registry/van-ban/123-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi AHKFTA
-- 🟢 [124/2022/NĐ-CP](../registry/van-ban/124-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi VJEPA
+- 🟢 [122/2022/NĐ-CP](../registry/van-ban/122-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại hàng hóa ASEAN - Ấn Độ giai đoạn 2022 - 2027
+- 🟢 [123/2022/NĐ-CP](../registry/van-ban/123-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Tự do ASEAN - Hồng Kông, Trung Quốc giai đoạn 2022 - 2027
+- 🟢 [124/2022/NĐ-CP](../registry/van-ban/124-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế Việt Nam - Nhật Bản giai đoạn 2022 - 2028
 - 🟢 [125/2022/NĐ-CP](../registry/van-ban/125-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi VKFTA
 - 🟢 [126/2022/NĐ-CP](../registry/van-ban/126-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi ATIGA
 - ⚫ [127/2022/NĐ-CP](../registry/van-ban/127-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa dân chủ nhân dân Lào từ ngày 30 tháng 12 năm 2022 đến ngày 04 tháng 10 năm 2023 _(hết hiệu lực 2023-10-04)_
@@ -298,7 +298,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Biểu thuế XNK (TT-BCT, quy tắc mặt hàng cụ thể các FTA) `thue/bieu-thue-xnk`
 
-33 văn bản, 15 chưa hết hiệu lực.
+36 văn bản, 18 chưa hết hiệu lực.
 
 - 🟢 [112/2022/NĐ-CP](../registry/van-ban/112-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa Chi Lê giai đoạn 2022 - 2027
 - 🟢 [113/2022/NĐ-CP](../registry/van-ban/113-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thương mại tự do giữa một bên là nước Cộng hòa xã hội chủ nghĩa Việt Nam và bên kia là Liên minh Kinh tế Á - Âu và các quốc gia thành viên giai đoạn 2022 - 2027
@@ -310,6 +310,9 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [119/2022/NĐ-CP](../registry/van-ban/119-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc giai đoạn 2022 - 2027
 - 🟢 [120/2022/NĐ-CP](../registry/van-ban/120-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện ASEAN - Nhật Bản giai đoạn 2022 - 2028
 - 🟢 [121/2022/NĐ-CP](../registry/van-ban/121-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thành lập Khu vực Thương mại tự do ASEAN - Ôt-xtrây-lia - Niu Di-lân giai đoạn 2022 - 2027
+- 🟢 [122/2022/NĐ-CP](../registry/van-ban/122-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại hàng hóa ASEAN - Ấn Độ giai đoạn 2022 - 2027
+- 🟢 [123/2022/NĐ-CP](../registry/van-ban/123-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Tự do ASEAN - Hồng Kông, Trung Quốc giai đoạn 2022 - 2027
+- 🟢 [124/2022/NĐ-CP](../registry/van-ban/124-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế Việt Nam - Nhật Bản giai đoạn 2022 - 2028
 - 🟢 [125/2022/NĐ-CP](../registry/van-ban/125-2022-nd-cp.yaml) — Biểu thuế NK ưu đãi VKFTA
 - ⚫ [127/2022/NĐ-CP](../registry/van-ban/127-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thương mại giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa dân chủ nhân dân Lào từ ngày 30 tháng 12 năm 2022 đến ngày 04 tháng 10 năm 2023 _(hết hiệu lực 2023-10-04)_
 - 🟢 [41/2022/TT-BCT](../registry/van-ban/41-2022-tt-bct.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 11/2020/TT-BCT ngày 15 tháng 6 năm 2020 của Bộ trưởng Bộ Công Thương quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Thương mại tự do giữa Việt Nam và Liên minh châu Âu
@@ -381,7 +384,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2256 văn bản, 2256 chưa hết hiệu lực.
+2261 văn bản, 2261 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -463,6 +466,11 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [18181/TB-CHQ/2026](../registry/van-ban/18181-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cảm biến quang siêu nhỏ hình chữ U phát hiện vật cản bằng tia hồng ngoại, mã số 8536.50.51)
 - 🟢 [18134/TB-CHQ/2026](../registry/van-ban/18134-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Máy đọc sách điện tử màn hình E-Ink có chức năng từ điển, mã số 8543.70.30)
 - 🟢 [18154/TB-CHQ/2026](../registry/van-ban/18154-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ linh kiện đồng bộ dùng để sản xuất bình chữa cháy khí CO2 MT3 3kg dạng chưa lắp ráp, mã số 8424.10.90)
+- 🟢 [18155/TB-CHQ/2026](../registry/van-ban/18155-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ linh kiện đồng bộ sản xuất bình chữa cháy bột khô ABC-8kg bán thành phẩm chưa lắp ráp CKD-ABC8, mã số 8424.10.90)
+- 🟢 [17787/TB-CHQ/2026](../registry/van-ban/17787-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cuộn cảm đa chức năng ANTENNA COIL-NFC/MST/WPC S938U, ký mã hiệu GH42-07118A, mã số 8504.50.10)
+- 🟢 [17792/TB-CHQ/2026](../registry/van-ban/17792-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thuốc nhỏ mắt Levo JP Eye Drops 0.5% dạng dung dịch chứa Levofloxacin hydrate JP 25 mg/5 mL, mã số 3004.90.99)
+- 🟢 [17694/TB-CHQ/2026](../registry/van-ban/17694-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Máy chủ server Dell PowerEdge R770 khung 2U, mã số 8471.50.90)
+- 🟢 [17719/TB-CHQ/2026](../registry/van-ban/17719-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thanh dẫn điện hai lớp nhôm bọc đồng Copper clad aluminum flat bar CCA Busbar Cu/Al 30/70, mã số 7407.10.41)
 - 🟢 [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - 🟢 [1489/TB-CHQ/2026](../registry/van-ban/1489-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1633/TB-CHQ/2026](../registry/van-ban/1633-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2710.12.99)
@@ -2714,7 +2722,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Hiệp định FTA (ACFTA, ATIGA, RCEP, CPTPP, EVFTA...) `xuat-xu-fta/hiep-dinh`
 
-16 văn bản, 12 chưa hết hiệu lực.
+19 văn bản, 15 chưa hết hiệu lực.
 
 - 🟢 [143/2026/NĐ-CP](../registry/van-ban/143-2026-nd-cp.yaml) — Ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện Việt Nam – Tiểu vương quốc Ả Rập Thống nhất (CEPA), giai đoạn 2026–2027
 - 🟢 [113/2022/NĐ-CP](../registry/van-ban/113-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thương mại tự do giữa một bên là nước Cộng hòa xã hội chủ nghĩa Việt Nam và bên kia là Liên minh Kinh tế Á - Âu và các quốc gia thành viên giai đoạn 2022 - 2027
@@ -2725,6 +2733,9 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [119/2022/NĐ-CP](../registry/van-ban/119-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Hàng hóa ASEAN - Hàn Quốc giai đoạn 2022 - 2027
 - 🟢 [120/2022/NĐ-CP](../registry/van-ban/120-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện ASEAN - Nhật Bản giai đoạn 2022 - 2028
 - 🟢 [121/2022/NĐ-CP](../registry/van-ban/121-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định thành lập Khu vực Thương mại tự do ASEAN - Ôt-xtrây-lia - Niu Di-lân giai đoạn 2022 - 2027
+- 🟢 [122/2022/NĐ-CP](../registry/van-ban/122-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại hàng hóa ASEAN - Ấn Độ giai đoạn 2022 - 2027
+- 🟢 [123/2022/NĐ-CP](../registry/van-ban/123-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại Tự do ASEAN - Hồng Kông, Trung Quốc giai đoạn 2022 - 2027
+- 🟢 [124/2022/NĐ-CP](../registry/van-ban/124-2022-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế Việt Nam - Nhật Bản giai đoạn 2022 - 2028
 - 🟢 [328/QĐ-TTg](../registry/van-ban/328-qd-ttg-2022.yaml) — Về việc chỉ định các cơ quan đầu mối để triển khai Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)
 - 🟢 [01/QĐ-TTg](../registry/van-ban/01-qd-ttg-2022.yaml) — Phê duyệt Kế hoạch thực hiện Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)
 - 🟢 [18/NQ-CP](../registry/van-ban/18-nq-cp-2021.yaml) — Phê duyệt Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP)

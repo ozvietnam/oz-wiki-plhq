@@ -9,6 +9,7 @@ _This catalog is updated by /lumi-ingest and /lumi-init._
 - [[summary/luat-duoc-va-phan-loai-hs]] — Luật Dược 2016: ảnh hưởng đến phân loại HS, bảng quyết định nhanh, điểm mù thường gặp
 - [[summary/tom-tat-14-dm-09-2024-tt-byt]] — 14 Danh mục của 09/2024/TT-BYT: cấu trúc, cách tìm tên dược liệu, use case cao dán gừng + ngải cứu
 - [[summary/dong-bo-quan-diem-phan-loai]] — Đồng bộ quan điểm phân loại: biểu thuế ↔ văn bản ↔ tiền lệ TB-TCHQ; quy tắc khi quan điểm lệch nhau
+- [[summary/van-ban-sap-het-hieu-luc-2026-2027]] — Cẩm nang 8 văn bản mức Cao sắp hết hiệu lực 31/12/2026–01/01/2027 và 3 văn bản mới sắp có hiệu lực 01/01/2027
 
 ## Concepts
 
@@ -16,6 +17,7 @@ _This catalog is updated by /lumi-ingest and /lumi-init._
 - [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]] — Kiểm tra ATTP hàng nhập khẩu (NĐ 15/2018 vẫn áp dụng)
 - [[concepts/doc-tinh-trang-hieu-luc]] — Thay thế, sửa đổi, bãi bỏ, tạm ngưng khác nhau thế nào
 - [[concepts/co-quan-tiep-nhan-sau-sap-nhap]] — Bảng ánh xạ 5 nhóm cơ quan kế thừa sau sáp nhập 2025–2026 (`BNNMT`, `BKHCN`, `BXD`, `BNV`, `CHQ`)
+- [[concepts/hoa-chat-tien-chat-cas-xnk]] — Hóa chất, tiền chất Danh mục IV & hàng nguy hiểm XNK (NĐ 24/2026, NĐ 28/2026, NĐ 33/2024, NĐ 34/2024)
 - [[concepts/thu-tuc-hai-quan-xnk]] — Luật / NĐ / TT thủ tục hải quan và chỉ tiêu khai
 - [[concepts/thu-tuc-tai-cua-khau-nhap]] — Danh mục 12 nhóm hàng nhập khẩu phải làm thủ tục tại cửa khẩu nhập từ 14/8/2026 (QĐ 31/2026/QĐ-TTg)
 - [[concepts/mo-ta-hang-hoa-khai-bao]] — Ô mô tả hàng hóa trên tờ khai: chỉ tiêu 1.78 (TT 121/2025) + ví dụ mô tả sơ sài (CV 755/2020)
@@ -328,4 +330,15 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/119-2022-nd-cp]]
 - [[sources/120-2022-nd-cp]]
 - [[sources/121-2022-nd-cp]]
+- [[sources/122-2022-nd-cp]]
+- [[sources/123-2022-nd-cp]]
+- [[sources/124-2022-nd-cp]]
+- [[summary/van-ban-sap-het-hieu-luc-2026-2027]]
+- [[concepts/hoa-chat-tien-chat-cas-xnk]]
+- [[sources/124-2026-tt-btc]]
+- [[sources/19-2026-qh16]]
+- [[sources/31-2026-qd-ttg]]
+- [[sources/154-2026-tt-btc]]
+- [[sources/372-2026-nd-cp]]
+- [[sources/63-2026-tt-bkhcn]]
 <!-- /lumina:index -->

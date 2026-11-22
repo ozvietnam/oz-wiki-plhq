@@ -47,6 +47,19 @@ function timVanBanTheoSlug(rawSlug, so, bySlug) {
   return { d: null, slug: ns };
 }
 
+export { timVanBanTheoSlug };
+
+/** Nhận diện bản ghi rác phụ lục/placeholder không có số điều thực (rỗng, "-", "—", "–", "n/a", "null"...). */
+export function laDieuRac(dieu) {
+  if (dieu === null || dieu === undefined) return true;
+  const s = String(dieu).trim();
+  if (!s) return true;
+  if (/^[-—–]+$/.test(s)) return true;
+  if (/^(?:n\/a|null|none|undefined)$/i.test(s)) return true;
+  if (/^(?:<[^>]*>|\(?không\s*(?:rõ|có|xác\s*định|đánh\s*số|ghi)(?:\s*(?:số\s*|đánh\s*số\s*)?điều(?:\s*rõ\s*ràng)?)?\)?)$/i.test(s)) return true;
+  return false;
+}
+
 function chuanBanGhiDieuKhoan(rec) {
   return {
     dieu: rec.dieu ?? null,
@@ -113,6 +126,7 @@ export function dungDieuKhoan(so, root = ROOT, today = homNay()) {
   const nhom = new Map();
   let soTepDocHieu = 0;
   let soDongLoi = 0;
+  let soDongRacDaLoc = 0;
 
   if (existsSync(dhDir)) {
     const files = readdirSync(dhDir).filter((f) => f.endsWith('.dieu.jsonl')).sort();
@@ -137,6 +151,10 @@ export function dungDieuKhoan(so, root = ROOT, today = homNay()) {
           const rec = JSON.parse(s);
           if (!rec || typeof rec !== 'object' || Array.isArray(rec)) {
             soDongLoi += 1;
+            continue;
+          }
+          if (laDieuRac(rec.dieu)) {
+            soDongRacDaLoc += 1;
             continue;
           }
           items.push(chuanBanGhiDieuKhoan(rec));
@@ -180,6 +198,7 @@ export function dungDieuKhoan(so, root = ROOT, today = homNay()) {
       so_dieu_khoan_tom_tat_nhap: soDieuKhoanTomTat,
       so_tep_doc_hieu: soTepDocHieu,
       so_dong_loi: soDongLoi,
+      so_dong_rac_da_loc: soDongRacDaLoc,
     },
     nguyen_van_nguon_a,
     tom_tat_nhap,

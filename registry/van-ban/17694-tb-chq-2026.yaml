@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 17694/TB-CHQ/2026
+so_hieu_khac:
+  - 17694/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Máy chủ server Dell PowerEdge R770 khung 2U, mã số 8471.50.90)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-06-19'
+hieu_luc_tu: '2026-06-19'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=104824&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/6/22/5.VB_17694.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/6/22/5.VB_17694.pdf, id=104824, SHA-256 c49e81b252251eca60fa422dd9dab69860d72f3b99551752fc8334d8bf77f841): Thông báo số 17694/TB-CHQ ngày 19-06-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Máy chủ (server) Dell PowerEdge R770 dạng khung 2U (trang bị 2 bộ xử lý Intel Xeon 6507P 3.5 GHz 8C/16T 24 GT/s, bộ nhớ RAM 2 x 32 GB DDR5 RDIMM tổng 64 GB, bộ điều khiển lưu trữ BOSS-N1 DC-MHS và PERC H965i, 3 ổ cứng SSD 960 GB SATA 6 Gbps 2.5 inch, 2 nguồn điện thay nóng 1500W, quạt làm mát, card mạng Broadcom 5719 4 cổng 1GbE Base-T OCP 3.0 và Broadcom 57414 2 cổng 25GbE SFP28, card HBA QLogic QLE2772C 2 cổng 32G, hệ điều hành Microsoft Windows Server, kích thước 86,8 x 482 x 814,52 mm, không gồm bàn phím, chuột, màn hình), phân loại vào nhóm 84.71, phân nhóm 8471.50, mã số 8471.50.90; có hiệu lực kể từ ngày ban hành'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Máy chủ (server) Dell PowerEdge R770 khung 2U (2 x CPU Intel Xeon 6507P, RAM 64 GB DDR5, 3 x SSD 960 GB SATA, bộ điều khiển PERC H965i/BOSS-N1, card mạng Broadcom 5719/57414, card HBA QLogic QLE2772C, không gồm bàn phím, chuột, màn hình) thuộc nhóm 84.71, phân nhóm 8471.50, mã số 8471.50.90.'
+toan_van: raw/download/files.customs.gov.vn/17694-tb-chq-2026.pdf

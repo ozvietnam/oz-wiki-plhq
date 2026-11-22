@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 17787/TB-CHQ/2026
+so_hieu_khac:
+  - 17787/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Cuộn cảm đa chức năng ANTENNA COIL-NFC/MST/WPC S938U, ký mã hiệu GH42-07118A, mã số 8504.50.10)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-06-22'
+hieu_luc_tu: '2026-06-22'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=104869&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/6/24/2.VB_17787.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/6/24/2.VB_17787.pdf, id=104869, SHA-256 d13751f1b7df9cf098a44e37a1368a55eb83b03914bdbab89859a212a68ff598): Thông báo số 17787/TB-CHQ ngày 22-06-2026 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Cuộn cảm đa chức năng (ANTENNA COIL-NFC/MST/WPC S938U, ký mã hiệu GH42-07118A; cấu tạo gồm lớp film bảo vệ Carrier film, tấm graphite tản nhiệt, tấm nano bọc PET Shielding sheet, cuộn coil dạng mạch in mềm core FPCB bằng đồng mạ niken, cuộn coil dạng mạch in mềm NFC FPCB chứa điện trở nhiệt THM và đầu nối connector, cuộn coil SPEN shielding sheet, lớp đệm bảo vệ Sponge; kích thước 137,593 x 58,725 mm, trọng lượng tịnh 3,6 gram; lắp giữa pin và nắp lưng điện thoại thông minh để thực hiện chức năng sạc không dây WPC, truyền dữ liệu bảo mật từ tính MST và kết nối không dây tầm ngắn NFC), phân loại vào nhóm 85.04, phân nhóm 8504.50, mã số 8504.50.10; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Cuộn cảm đa chức năng dùng cho điện thoại thông minh (ANTENNA COIL-NFC/MST/WPC S938U, ký mã hiệu GH42-07118A; gồm cuộn coil đồng mạ niken trên mạch in mềm FPCB, tấm graphite, tấm nano bọc PET, điện trở nhiệt THM và đầu nối; thực hiện chức năng sạc không dây WPC, truyền dữ liệu từ tính MST và giao tiếp NFC) thuộc nhóm 85.04, phân nhóm 8504.50, mã số 8504.50.10.'
+toan_van: raw/download/files.customs.gov.vn/17787-tb-chq-2026.pdf

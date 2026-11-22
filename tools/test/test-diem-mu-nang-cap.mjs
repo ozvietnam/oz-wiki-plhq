@@ -1,4 +1,5 @@
-// Test nâng cấp diem-mu.mjs: tách tầng TB-TCHQ (D2/D3/D14), D16 WIKI_DAN_VB_HET_HIEU_LUC, D17 WIKI_CHUA_CO_VB_NEN_TANG.
+// Test nâng cấp diem-mu.mjs: tách tầng TB-TCHQ (D2/D3/D14), D16 WIKI_DAN_VB_HET_HIEU_LUC, D17 WIKI_CHUA_CO_VB_NEN_TANG,
+// HS_AHTN_CU_DA_ANH_XA, DOC_HIEU_DIEU_RAC và DOC_HIEU_THIEU_NGHIA_VU.
 import { mkdtempSync, mkdirSync, writeFileSync, cpSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
@@ -12,7 +13,7 @@ const t = (name, cond, extra = '') => {
   else { fail += 1; console.log(`FAIL ${name} ${extra}`); }
 };
 
-function soGia(vanBan, { wiki = {} } = {}) {
+function soGia(vanBan, { wiki = {}, docHieu = {}, danhMuc = {}, extra = {} } = {}) {
   const root = mkdtempSync(join(tmpdir(), 'kb-dm-'));
   mkdirSync(join(root, 'registry', 'van-ban'), { recursive: true });
   for (const f of ['cay-xnk.yaml', 'co-quan.yaml', 'nguon-uy-tin.yaml']) {
@@ -23,6 +24,19 @@ function soGia(vanBan, { wiki = {} } = {}) {
   }
   for (const [relPath, body] of Object.entries(wiki)) {
     const fp = join(root, 'wiki', relPath);
+    mkdirSync(join(fp, '..'), { recursive: true });
+    writeFileSync(fp, body);
+  }
+  for (const [file, body] of Object.entries(docHieu)) {
+    mkdirSync(join(root, 'data', 'doc-hieu'), { recursive: true });
+    writeFileSync(join(root, 'data', 'doc-hieu', file), body);
+  }
+  for (const [file, body] of Object.entries(danhMuc)) {
+    mkdirSync(join(root, 'danh-muc'), { recursive: true });
+    writeFileSync(join(root, 'danh-muc', file), body);
+  }
+  for (const [relPath, body] of Object.entries(extra)) {
+    const fp = join(root, relPath);
     mkdirSync(join(fp, '..'), { recursive: true });
     writeFileSync(fp, body);
   }
@@ -206,7 +220,125 @@ try {
   rmSync(rD17, { recursive: true, force: true });
 }
 
-// 4. Chạy timDiemMu(napSo()) trên kho thật (chỉ trong RAM, không ghi dist/ hay bao-cao/)
+// 4. HS_AHTN_CU_DA_ANH_XA (dương tính & âm tính)
+const HEAD_DM = 'ma_hs,mo_ta,nhom,phu_luc,loai_tac_dong,muc_rui_ro,dieu_kien,dan_chieu,trang\n';
+const rAhtn = soGia({
+  '50-2026-tt-bct.yaml': `so_hieu: 50/2026/TT-BCT\nloai: THONG_TU\nten: Danh mục kiểm tra thử\nco_quan: BCT\ntinh_trang: CON_HIEU_LUC\nnhanh: [kiem-tra-chuyen-nganh/bct]\ndanh_muc_hs: {tep: danh-muc/dm.csv, nguon: "https://congbao.chinhphu.vn/x", ngay: "2026-10-04"}\n${XM_A}\n`,
+}, {
+  danhMuc: {
+    'dm.csv': HEAD_DM
+      + '22030091,Bia hợp lệ có trong biểu thuế,1,PL1,KIEM_TRA_ATTP,,,,1\n'
+      + '30349099,Thuốc lỗi đánh máy AHTN cũ đã ánh xạ,2,PL1,GIAY_PHEP,,,,2\n'
+      + '62011100,Áo khoác nam ánh xạ về nhóm 4 số,3,PL1,KIEM_TRA_CHAT_LUONG,,,,3\n'
+      + '22029999,Đồ uống chưa có trong mapping,4,PL1,KIEM_TRA_ATTP,,,,4\n'
+      + '88887777,Mã có mapping nhưng đích không tồn tại biểu thuế,5,PL1,GIAY_PHEP,,,,5\n',
+  },
+  extra: {
+    'nhu-cau/bieu-thue.json': JSON.stringify({
+      nguon: 'test',
+      phien_ban: '2026-11-22',
+      tong: 3,
+      ma: { '22030091': 'Bia', '30049099': 'Thuốc khác', '62012000': 'Áo khoác nam' },
+    }),
+    'registry/phien-ban-bieu-thue-mapping.yaml': [
+      'thong_tin:',
+      '  phien_ban_cu: "AHTN 2017"',
+      '  phien_ban_moi: "EN2022"',
+      'mapping:',
+      '  "30349099":',
+      '    hs_moi: "30049099"',
+      '    loai: "loi_danh_may_3034"',
+      '  "62011100":',
+      '    hs_moi: "6201"',
+      '    loai: "gom_6201"',
+      '  "88887777":',
+      '    hs_moi: "99998888"',
+      '    loai: "don_le"',
+    ].join('\n') + '\n',
+  },
+});
+
+try {
+  const dmAhtn = timDiemMu(napSo(rAhtn), { today: '2026-11-22', root: rAhtn, nhuCau: null, hangThat: null, vanBanBieuThue: null });
+  const daAnhXa = dmAhtn.filter((d) => d.ma === 'HS_AHTN_CU_DA_ANH_XA');
+  const khongTonTai = dmAhtn.filter((d) => d.ma === 'HS_KHONG_TON_TAI');
+
+  t('HS_AHTN_CU_DA_ANH_XA dương tính: mã AHTN cũ đã ánh xạ sang mã/tiền tố hợp lệ → mức Thấp, không trùng HS_KHONG_TON_TAI',
+    daAnhXa.length === 2
+    && daAnhXa.every((d) => d.muc === 'Thấp' && d.luong === 'danh-muc-hs' && d.muc_tieu === '50/2026/TT-BCT')
+    && daAnhXa.some((d) => d.tieuDe.includes('30349099') && d.tieuDe.includes('30049099') && d.tieuDe.includes('loi_danh_may_3034'))
+    && daAnhXa.some((d) => d.tieuDe.includes('62011100') && d.tieuDe.includes('6201') && d.tieuDe.includes('gom_6201'))
+    && !khongTonTai.some((d) => /30349099|62011100/.test(d.tieuDe)),
+    JSON.stringify({ daAnhXa, khongTonTai }));
+
+  t('HS_AHTN_CU_DA_ANH_XA âm tính: mã hợp lệ không báo; mã chưa mapping hoặc đích vắng biểu thuế vẫn báo HS_KHONG_TON_TAI (Vừa)',
+    khongTonTai.length === 2
+    && khongTonTai.every((d) => d.muc === 'Vừa')
+    && khongTonTai.some((d) => d.tieuDe.includes('22029999'))
+    && khongTonTai.some((d) => d.tieuDe.includes('88887777'))
+    && !dmAhtn.some((d) => ['HS_AHTN_CU_DA_ANH_XA', 'HS_KHONG_TON_TAI'].includes(d.ma) && d.tieuDe.includes('22030091')),
+    JSON.stringify({ daAnhXa, khongTonTai }));
+} finally {
+  rmSync(rAhtn, { recursive: true, force: true });
+}
+
+// 5. DOC_HIEU_DIEU_RAC & DOC_HIEU_THIEU_NGHIA_VU (dương tính, âm tính & ngưỡng ≥50%)
+const rDh = soGia({
+  '07-2023-tt-nhnn.yaml': `so_hieu: 07/2023/TT-NHNN\nloai: THONG_TU\nten: Thông tư NHNN\nco_quan: NHNN\ntinh_trang: CON_HIEU_LUC\nnhanh: [hai-quan/thu-tuc]\n${XM_A}\n`,
+  '10-2024-tt-btc.yaml': `so_hieu: 10/2024/TT-BTC\nloai: THONG_TU\nten: Thông tư 1 dòng trống nghĩa vụ\nco_quan: BTC\ntinh_trang: CON_HIEU_LUC\nnhanh: [hai-quan/thu-tuc]\n${XM_A}\n`,
+  '11-2024-tt-btc.yaml': `so_hieu: 11/2024/TT-BTC\nloai: THONG_TU\nten: Thông tư dưới ngưỡng 50%\nco_quan: BTC\ntinh_trang: CON_HIEU_LUC\nnhanh: [hai-quan/thu-tuc]\n${XM_A}\n`,
+  '12-2024-tt-btc.yaml': `so_hieu: 12/2024/TT-BTC\nloai: THONG_TU\nten: Thông tư chỉ có dòng rác\nco_quan: BTC\ntinh_trang: CON_HIEU_LUC\nnhanh: [hai-quan/thu-tuc]\n${XM_A}\n`,
+}, {
+  docHieu: {
+    // 2 rác (-, N/A), 1 JSON hỏng, 2 hợp lệ (1 có NV, 1 trống → 1/2 = 50% đạt ngưỡng)
+    '07-2023-tt-nhnn-body-ocr.dieu.jsonl': [
+      JSON.stringify({ dieu: '-', ten: 'Rác 1', nghia_vu_xnk: [] }),
+      '{json hong',
+      JSON.stringify({ dieu: 'N/A', ten: 'Rác 2', nghia_vu_xnk: [] }),
+      JSON.stringify({ dieu: 'Điều 1', ten: 'Phạm vi', nghia_vu_xnk: ['Khai báo hải quan'] }),
+      JSON.stringify({ dieu: 'Điều 2', ten: 'Hiệu lực', nghia_vu_xnk: [] }),
+    ].join('\n') + '\n',
+    // 1 dòng hợp lệ nhưng nghia_vu_xnk chỉ chứa khoảng trắng → 1/1 = 100%, không rác
+    '10-2024-tt-btc.dieu.jsonl': JSON.stringify({ dieu: 'Điều 1', ten: 'Chỉ 1 điều', nghia_vu_xnk: ['   '] }) + '\n',
+    // 3 dòng hợp lệ, 1 trống (1/3 = 33% < 50%), 0 rác → không phát cả 2 mã
+    '11-2024-tt-btc.dieu.jsonl': [
+      JSON.stringify({ dieu: 'Điều 1', ten: 'Đ1', nghia_vu_xnk: ['NV 1'] }),
+      JSON.stringify({ dieu: 'Điều 2', ten: 'Đ2', nghia_vu_xnk: ['NV 2'] }),
+      JSON.stringify({ dieu: 'Điều 3', ten: 'Đ3', nghia_vu_xnk: [] }),
+    ].join('\n') + '\n',
+    // 2 rác (rỗng, "—"), 0 hợp lệ → chỉ phát DOC_HIEU_DIEU_RAC, không phát DOC_HIEU_THIEU_NGHIA_VU
+    '12-2024-tt-btc.dieu.jsonl': [
+      JSON.stringify({ dieu: '', ten: 'Trống', nghia_vu_xnk: [] }),
+      JSON.stringify({ dieu: '—', ten: 'Gạch dài', nghia_vu_xnk: [] }),
+    ].join('\n') + '\n',
+  },
+});
+
+try {
+  const dmDh = timDiemMu(napSo(rDh), { today: '2026-11-22', root: rDh, nhuCau: null, hangThat: null, vanBanBieuThue: null });
+  const dhRac = dmDh.filter((d) => d.ma === 'DOC_HIEU_DIEU_RAC');
+  const dhThieu = dmDh.filter((d) => d.ma === 'DOC_HIEU_THIEU_NGHIA_VU');
+
+  t('DOC_HIEU_DIEU_RAC dương & âm tính: phát đúng cho 07/2023 (2 dòng rác) và 12/2024, bỏ qua tệp sạch 10/2024 và 11/2024',
+    dhRac.length === 2
+    && dhRac.every((d) => d.muc === 'Thấp' && d.luong === 'doc-hieu')
+    && dhRac.some((d) => d.muc_tieu === '07/2023/TT-NHNN' && /có 2 dòng điều rác/.test(d.tieuDe))
+    && dhRac.some((d) => d.muc_tieu === '12/2024/TT-BTC' && /có 2 dòng điều rác/.test(d.tieuDe))
+    && !dhRac.some((d) => ['10/2024/TT-BTC', '11/2024/TT-BTC'].includes(d.muc_tieu)),
+    JSON.stringify(dhRac));
+
+  t('DOC_HIEU_THIEU_NGHIA_VU ngưỡng ≥50% & 1–2 dòng: phát cho 1/2 (50%) và 1/1 (100%), bỏ qua 1/3 (33%) và 0/0',
+    dhThieu.length === 2
+    && dhThieu.every((d) => d.muc === 'Thấp' && d.luong === 'doc-hieu')
+    && dhThieu.some((d) => d.muc_tieu === '07/2023/TT-NHNN' && /1\/2 \(50%\)/.test(d.tieuDe))
+    && dhThieu.some((d) => d.muc_tieu === '10/2024/TT-BTC' && /1\/1 \(100%\)/.test(d.tieuDe))
+    && !dhThieu.some((d) => ['11/2024/TT-BTC', '12/2024/TT-BTC'].includes(d.muc_tieu)),
+    JSON.stringify(dhThieu));
+} finally {
+  rmSync(rDh, { recursive: true, force: true });
+}
+
+// 6. Chạy timDiemMu(napSo()) trên kho thật (chỉ trong RAM, không ghi dist/ hay bao-cao/)
 const soThat = napSo();
 const dmThat = timDiemMu(soThat);
 const mdThat = veMarkdown(dmThat);
@@ -222,9 +354,27 @@ const tbSet = new Set(soThat.vanBan.filter(laTbTchq).map((d) => d.so_hieu));
 t('kho thật: CO_QUAN_DA_SAP_NHAP, KHONG_NGUON_A, HIEU_LUC_CHUA_DOI_CHIEU không còn lẫn TB-TCHQ',
   !dmThat.some((d) => ['CO_QUAN_DA_SAP_NHAP', 'KHONG_NGUON_A', 'HIEU_LUC_CHUA_DOI_CHIEU'].includes(d.ma) && tbSet.has(d.muc_tieu)));
 
-t('kho thật: TEN_MA dịch đủ 4 mã mới sang tiếng Việt trong veMarkdown()',
-  ['TB_TCHQ_KHONG_NGUON_A', 'TB_TCHQ_CHUA_DOI_CHIEU', 'WIKI_DAN_VB_HET_HIEU_LUC', 'WIKI_CHUA_CO_VB_NEN_TANG']
-    .every((ma) => !mdThat.includes(`| ${ma} |`)));
+const nKhongTonTaiThat = demTheoMa.get('HS_KHONG_TON_TAI')?.n || 0;
+const nAnhXaThat = demTheoMa.get('HS_AHTN_CU_DA_ANH_XA')?.n || 0;
+const nDocHieuRacThat = demTheoMa.get('DOC_HIEU_DIEU_RAC')?.n || 0;
+const nDocHieuThieuThat = demTheoMa.get('DOC_HIEU_THIEU_NGHIA_VU')?.n || 0;
+
+t('kho thật: HS_KHONG_TON_TAI < 100 (70) và HS_AHTN_CU_DA_ANH_XA > 100 (131, mức Thấp)',
+  nKhongTonTaiThat > 0 && nKhongTonTaiThat < 100
+  && nAnhXaThat > 100
+  && dmThat.filter((d) => d.ma === 'HS_AHTN_CU_DA_ANH_XA').every((d) => d.muc === 'Thấp' && d.luong === 'danh-muc-hs'),
+  JSON.stringify({ HS_KHONG_TON_TAI: nKhongTonTaiThat, HS_AHTN_CU_DA_ANH_XA: nAnhXaThat }));
+
+t('kho thật: phát DOC_HIEU_DIEU_RAC và DOC_HIEU_THIEU_NGHIA_VU trên data/doc-hieu/',
+  nDocHieuRacThat > 0 && nDocHieuThieuThat > 0
+  && dmThat.filter((d) => d.ma === 'DOC_HIEU_DIEU_RAC' || d.ma === 'DOC_HIEU_THIEU_NGHIA_VU').every((d) => d.muc === 'Thấp' && d.luong === 'doc-hieu'),
+  JSON.stringify({ DOC_HIEU_DIEU_RAC: nDocHieuRacThat, DOC_HIEU_THIEU_NGHIA_VU: nDocHieuThieuThat }));
+
+t('kho thật: TEN_MA dịch đủ 7 mã mới (4 mã Wave trước + 3 mã Wave 8) sang tiếng Việt trong veMarkdown()',
+  [
+    'TB_TCHQ_KHONG_NGUON_A', 'TB_TCHQ_CHUA_DOI_CHIEU', 'WIKI_DAN_VB_HET_HIEU_LUC', 'WIKI_CHUA_CO_VB_NEN_TANG',
+    'HS_AHTN_CU_DA_ANH_XA', 'DOC_HIEU_DIEU_RAC', 'DOC_HIEU_THIEU_NGHIA_VU',
+  ].every((ma) => !mdThat.includes(`| ${ma} |`) && !mdThat.includes(`## ${ma} (`)));
 
 console.log('\n--- Tóm tắt điểm mù trên kho thật ---');
 for (const r of [...demTheoMa.values()].sort((a, b) => b.n - a.n)) {

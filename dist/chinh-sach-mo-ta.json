@@ -1,0 +1,882 @@
+{
+ "phien_ban": "2026-11-22",
+ "luoc_do_phien_ban": "1.5.0",
+ "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
+ "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-22).",
+ "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
+ "canh_bao_tang_2": "Tầng 2 suy ra theo mô tả hàng hóa (VUA_SUY_RA) — chỉ tham khảo kiểm tra chuyên ngành, không phân loại mã HS; luôn đối chiếu văn bản gốc nguồn bậc A.",
+ "tong_quy_tac": 14,
+ "tu_dien_viet_tat": {
+  "gtgt": "giá trị gia tăng",
+  "ktcn": "kiểm tra chuyên ngành",
+  "attp": "an toàn thực phẩm",
+  "cbpg": "chống bán phá giá",
+  "pvtm": "phòng vệ thương mại",
+  "co": "xuất xứ hàng hóa",
+  "xnk": "xuất nhập khẩu",
+  "hq": "hải quan",
+  "ttdb": "tiêu thụ đặc biệt",
+  "bvmt": "bảo vệ môi trường",
+  "tntx": "tạm nhập tái xuất",
+  "dncx": "doanh nghiệp chế xuất",
+  "qlrr": "quản lý rủi ro",
+  "kstq": "kiểm tra sau thông quan",
+  "gcn": "giấy chứng nhận",
+  "qcvn": "quy chuẩn kỹ thuật quốc gia",
+  "tcvn": "tiêu chuẩn quốc gia",
+  "vbhn": "văn bản hợp nhất",
+  "vphc": "vi phạm hành chính",
+  "mfn": "thuế suất ưu đãi",
+  "acfta": "ASEAN Trung Quốc",
+  "evfta": "Việt Nam Liên minh Châu Âu",
+  "rcep": "Đối tác Kinh tế Toàn diện Khu vực",
+  "kd": "kiểm dịch",
+  "ktcl": "kiểm tra chất lượng"
+ },
+ "quy_tac": [
+  {
+   "id": "may-moc-thiet-bi-da-qua-su-dung",
+   "ten": "Máy móc, thiết bị, dây chuyền công nghệ đã qua sử dụng nhập khẩu",
+   "nhom_hang": "Máy móc, thiết bị, dây chuyền công nghệ đã qua sử dụng nhập khẩu để phục vụ sản xuất (không bao gồm hàng tiêu dùng, phương tiện, thiết bị CNTT/công nghệ số đã qua sử dụng thuộc diện cấm nhập khẩu)",
+   "tu_khoa_nhan_dien": [
+    "máy móc đã qua sử dụng",
+    "thiết bị đã qua sử dụng",
+    "dây chuyền công nghệ cũ",
+    "máy móc cũ nhập khẩu",
+    "thiết bị second-hand"
+   ],
+   "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+   "do_tin": "VUA_SUY_RA",
+   "can_cu_so_hieu": [
+    "18/2019/QĐ-TTg",
+    "292/2026/NĐ-CP",
+    "48/2026/TT-BCT"
+   ],
+   "can_cu_chi_tiet": [
+    {
+     "so_hieu": "18/2019/QĐ-TTg",
+     "slug": "18-2019-qd-ttg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2019-06-15",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=196855"
+    },
+    {
+     "so_hieu": "292/2026/NĐ-CP",
+     "slug": "292-2026-nd-cp",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-05",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-292-2026-nd-cp-470149.htm"
+    },
+    {
+     "so_hieu": "48/2026/TT-BCT",
+     "slug": "48-2026-tt-bct",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-05",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-48-2026-tt-bct-470460.htm"
+    }
+   ],
+   "nghia_vu_tom_tat": "Máy móc, thiết bị và dây chuyền công nghệ đã qua sử dụng nhập khẩu theo QĐ 18/2019/QĐ-TTg phải đáp ứng điều kiện về tuổi thiết bị, tiêu chuẩn an toàn, tiết kiệm năng lượng và bảo vệ môi trường (QCVN/TCVN hoặc chuẩn G7/Hàn Quốc), đồng thời nộp hồ sơ và chứng thư giám định của tổ chức giám định được chỉ định trước khi thông quan.",
+   "luu_y_loai_tru": "Không áp dụng cho máy móc, thiết bị, phương tiện hoặc đồ gia dụng đã qua sử dụng thuộc Danh mục hàng tiêu dùng, phương tiện đã qua sử dụng cấm nhập khẩu tại Phụ lục I TT 48/2026/TT-BCT (hướng dẫn NĐ 292/2026/NĐ-CP) hoặc sản phẩm CNTT/công nghệ số đã qua sử dụng cấm nhập khẩu (11/2018/TT-BTTTT, từ 01/01/2027 theo 63/2026/TT-BKHCN); lưu ý QĐ 18/2019/QĐ-TTg còn được sửa đổi bởi QĐ 28/2022/QĐ-TTg và QĐ 02/2026/QĐ-TTg (chưa mở mục riêng trong sổ).",
+   "ranh_gioi_hs_api": "Chỉ gợi ý chính sách quản lý chuyên ngành theo mô tả; không áp mã HS."
+  },
+  {
+   "id": "thiet-bi-mat-ma-dan-su",
+   "ten": "Sản phẩm mật mã dân sự xuất khẩu, nhập khẩu theo giấy phép",
+   "nhom_hang": "Thiết bị, phần mềm, mô-đun phần cứng sử dụng thuật toán mật mã dân sự (VPN, tường lửa mã hóa, HSM, thẻ thông minh mật mã, token OTP, thiết bị truyền dẫn/lưu trữ có mã hóa dữ liệu)",
+   "tu_khoa_nhan_dien": [
+    "mật mã dân sự",
+    "sản phẩm mã hóa dữ liệu",
+    "thiết bị vpn bảo mật",
+    "mô đun hsm chữ ký số",
+    "token mật mã"
+   ],
+   "loai_tac_dong": "GIAY_PHEP",
+   "do_tin": "VUA_SUY_RA",
+   "can_cu_so_hieu": [
+    "211/2025/NĐ-CP"
+   ],
+   "can_cu_chi_tiet": [
+    {
+     "so_hieu": "211/2025/NĐ-CP",
+     "slug": "211-2025-nd-cp",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-09-09",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-211-2025-nd-cp-45739.htm"
+    }
+   ],
+   "nghia_vu_tom_tat": "Doanh nghiệp xuất khẩu, nhập khẩu sản phẩm mật mã dân sự thuộc Phụ lục II NĐ 211/2025/NĐ-CP phải có Giấy phép kinh doanh sản phẩm, dịch vụ mật mã dân sự và Giấy phép xuất khẩu, nhập khẩu sản phẩm mật mã dân sự do Ban Cơ yếu Chính phủ cấp trước khi thông quan.",
+   "luu_y_loai_tru": "Loại trừ sản phẩm mật mã phục vụ mục đích quân sự, quốc phòng, an ninh quốc gia (cơ chế riêng) và các chức năng mã hóa tiêu dùng thông thường được miễn trừ theo quy định chuyên ngành. Lưu ý trạng thái sổ: NĐ 211/2025/NĐ-CP đang CON_HIEU_LUC trong sổ; từ 01/09/2026 Chính phủ ban hành thêm NĐ 341/2026/NĐ-CP về hoạt động mật mã dân sự (chưa mở mục riêng trong sổ, ghi nhận tại ghi_chu của 211/2025/NĐ-CP) với Phụ lục mới và Điều 18 chuyển tiếp giấy phép cấp trước 01/07/2026.",
+   "ranh_gioi_hs_api": "Chỉ gợi ý chính sách quản lý chuyên ngành theo mô tả; không áp mã HS."
+  },
+  {
+   "id": "hang-hoa-nguy-hiem-pin-lithium",
+   "ten": "Hàng hóa nguy hiểm và pin lithium trong vận chuyển, nhập khẩu",
+   "nhom_hang": "Hàng hóa nguy hiểm phân loại theo số hiệu Liên hợp quốc (UN), pin lithium, ắc quy lithium, khí dễ cháy/khí nén, chất lỏng dễ cháy, chất oxy hóa, chất ăn mòn hoặc độc hại khi vận chuyển và nhập khẩu",
+   "tu_khoa_nhan_dien": [
+    "hàng hóa nguy hiểm",
+    "pin lithium",
+    "số hiệu un nguy hiểm",
+    "vận chuyển hàng nguy hiểm",
+    "chất dễ cháy nổ ăn mòn"
+   ],
+   "loai_tac_dong": "GIAY_PHEP",
+   "do_tin": "VUA_SUY_RA",
+   "can_cu_so_hieu": [
+    "34/2024/NĐ-CP",
+    "36/2026/TT-BKHCN"
+   ],
+   "can_cu_chi_tiet": [
+    {
+     "so_hieu": "34/2024/NĐ-CP",
+     "slug": "34-2024-nd-cp",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-05-15",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-34-2024-nd-cp-41626.htm"
+    },
+    {
+     "so_hieu": "36/2026/TT-BKHCN",
+     "slug": "36-2026-tt-bkhcn",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=218716&pageid=27160"
+    }
+   ],
+   "nghia_vu_tom_tat": "Hàng hóa thuộc Danh mục hàng hóa nguy hiểm Phụ lục I NĐ 34/2024/NĐ-CP (xác định theo số hiệu UN và số hiệu nguy hiểm, không phân theo cột mã HS) phải đóng gói đúng quy cách, dán biểu trưng/báo hiệu nguy hiểm theo Điều 6–7 và có Giấy phép vận chuyển hàng hóa nguy hiểm (Điều 16–17) trừ trường hợp được miễn theo ngưỡng. Riêng pin lithium cho máy tính xách tay, điện thoại di động thuộc Phụ lục I TT 36/2026/TT-BKHCN còn chịu kiểm tra nhà nước về chất lượng (mức rủi ro cao) khi nhập khẩu.",
+   "luu_y_loai_tru": "NĐ 34/2024/NĐ-CP hiện CON_HIEU_LUC cho phạm vi vận chuyển đường thủy nội địa (phần vận chuyển đường bộ đã tách sang NĐ 161/2024/NĐ-CP từ 01/01/2025, chưa mở mục riêng trong sổ). Miễn Giấy phép vận chuyển nếu dưới ngưỡng tại Điều 17 khoản 8 NĐ 34/2024/NĐ-CP (nhưng vẫn phải bảo đảm an toàn PCCC). Chất phóng xạ, vật liệu nổ công nghiệp và chất thải nguy hại áp dụng thêm luật chuyên ngành riêng theo Điều 1 NĐ 34/2024/NĐ-CP.",
+   "ranh_gioi_hs_api": "Chỉ gợi ý chính sách quản lý chuyên ngành theo mô tả; không áp mã HS."
+  },
+  {
+   "id": "hoa-chat-tien-chat-danh-muc-iv",
+   "ten": "Hóa chất thuộc diện kiểm soát và tiền chất Danh mục IV",
+   "nhom_hang": "Hóa chất công nghiệp có điều kiện, hóa chất cần kiểm soát đặc biệt, hóa chất Bảng 1/2/3 Công ước CWC, tiền chất ma túy và tiền chất công nghiệp/dung môi Danh mục IV (IVA, IVB, IVC)",
+   "tu_khoa_nhan_dien": [
+    "tiền chất danh mục iv",
+    "hóa chất kiểm soát đặc biệt",
+    "khai báo hóa chất nhập khẩu",
+    "hóa chất bảng công ước cwc",
+    "tiền chất ma túy dung môi"
+   ],
+   "loai_tac_dong": "GIAY_PHEP",
+   "do_tin": "VUA_SUY_RA",
+   "can_cu_so_hieu": [
+    "24/2026/NĐ-CP",
+    "28/2026/NĐ-CP",
+    "33/2024/NĐ-CP",
+    "73/2021/QH14",
+    "69/2025/QH15",
+    "26/2026/NĐ-CP"
+   ],
+   "can_cu_chi_tiet": [
+    {
+     "so_hieu": "24/2026/NĐ-CP",
+     "slug": "24-2026-nd-cp",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-17",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216671"
+    },
+    {
+     "so_hieu": "28/2026/NĐ-CP",
+     "slug": "28-2026-nd-cp",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-19",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216717"
+    },
+    {
+     "so_hieu": "33/2024/NĐ-CP",
+     "slug": "33-2024-nd-cp",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-05-19",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-33-2024-nd-cp-41584.htm"
+    },
+    {
+     "so_hieu": "73/2021/QH14",
+     "slug": "73-2021-qh14",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-01-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=204940"
+    },
+    {
+     "so_hieu": "69/2025/QH15",
+     "slug": "69-2025-qh15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214610"
+    },
+    {
+     "so_hieu": "26/2026/NĐ-CP",
+     "slug": "26-2026-nd-cp",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-17",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-26-2026-nd-cp-468804.htm"
+    }
+   ],
+   "nghia_vu_tom_tat": "Phải đối chiếu thành phần hóa chất theo tên chất và mã CAS: (a) hóa chất thuộc Phụ lục I–IV NĐ 24/2026/NĐ-CP (hướng dẫn Luật Hóa chất 69/2025/QH15; tra cứu mã CAS tại dist/cas-index.json) chịu điều kiện kinh doanh, kiểm soát đặc biệt hoặc kế hoạch phòng ngừa sự cố; (b) tiền chất thuộc Danh mục IV (IVA/IVB/IVC) NĐ 28/2026/NĐ-CP và Điều 17 Luật 73/2021/QH14 phải có giấy phép xuất khẩu, nhập khẩu của Bộ Công an/Bộ Công Thương/Bộ Y tế/Bộ NN&MT; (c) hóa chất Bảng 1, 2, 3 Công ước CWC theo Phụ lục I NĐ 33/2024/NĐ-CP phải có giấy phép XNK là điều kiện thông quan (Điều 17 khoản 2); (d) khai báo hóa chất nhập khẩu theo Điều 6 NĐ 26/2026/NĐ-CP gắn với hàng thuộc Chương 28 và 29.",
+   "luu_y_loai_tru": "Danh mục I, II, III của NĐ 28/2026/NĐ-CP và các phụ lục NĐ 24/2026/NĐ-CP quản lý theo tên chất và mã CAS (không gắn bảng mã HS cố định), không thể chỉ tra theo mã HS mà bỏ qua MSDS/tỷ lệ hỗn hợp. Lưu ý lộ trình tại Điều 3 khoản 3–4 NĐ 28/2026/NĐ-CP: Carisoprodol, Etomidate áp dụng từ 01/06/2026; 1,4-Butanediol thực hiện quản lý tiền chất trước ngày 31/12/2026. Khai báo hóa chất nhập khẩu theo Điều 6 NĐ 26/2026/NĐ-CP gắn Chương 28+29, không đồng nhất hoàn toàn với danh mục tại NĐ 24/2026/NĐ-CP.",
+   "ranh_gioi_hs_api": "Chỉ gợi ý chính sách quản lý chuyên ngành theo mô tả; không áp mã HS."
+  },
+  {
+   "id": "thuc-pham-va-bao-bi-tiep-xuc-thuc-pham",
+   "ten": "Thực phẩm, phụ gia thực phẩm và bao bì tiếp xúc trực tiếp thực phẩm",
+   "nhom_hang": "Thực phẩm chế biến bao gói sẵn, thực phẩm bảo vệ sức khỏe/bổ sung, phụ gia thực phẩm, dụng cụ chứa đựng và vật liệu bao gói tiếp xúc trực tiếp với thực phẩm (nhựa, cao su, kim loại...)",
+   "tu_khoa_nhan_dien": [
+    "an toàn thực phẩm",
+    "bao bì tiếp xúc thực phẩm",
+    "dụng cụ chứa đựng thực phẩm",
+    "phụ gia thực phẩm",
+    "kiểm tra nhà nước attp"
+   ],
+   "loai_tac_dong": "KIEM_TRA_ATTP",
+   "do_tin": "VUA_SUY_RA",
+   "can_cu_so_hieu": [
+    "15/2018/NĐ-CP",
+    "28/2026/TT-BCT",
+    "15/2024/TT-BYT",
+    "27/2026/TT-BYT"
+   ],
+   "can_cu_chi_tiet": [
+    {
+     "so_hieu": "15/2018/NĐ-CP",
+     "slug": "15-2018-nd-cp",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-02-02",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=192829&pageid=27160"
+    },
+    {
+     "so_hieu": "28/2026/TT-BCT",
+     "slug": "28-2026-tt-bct",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-17",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=218330&pageid=27160"
+    },
+    {
+     "so_hieu": "15/2024/TT-BYT",
+     "slug": "15-2024-tt-byt",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-11-02",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-15-2024-tt-byt-44656.htm"
+    },
+    {
+     "so_hieu": "27/2026/TT-BYT",
+     "slug": "27-2026-tt-byt",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=218706&pageid=27160"
+    }
+   ],
+   "nghia_vu_tom_tat": "Thực phẩm, phụ gia thực phẩm và bao bì/dụng cụ tiếp xúc trực tiếp với thực phẩm nhập khẩu thực hiện tự công bố hoặc đăng ký bản công bố sản phẩm và kiểm tra nhà nước về an toàn thực phẩm theo NĐ 15/2018/NĐ-CP (Điều 16 ba phương thức kiểm tra: giảm, thông thường, chặt) và danh mục phân công theo bộ: Bộ Công Thương (TT 28/2026/TT-BCT hiệu lực từ 17/07/2026, bãi bỏ Khoản 1 Điều 2 và Phụ lục 2 QĐ 1182/QĐ-BCT) và Bộ Y tế (TT 15/2024/TT-BYT kèm TT 27/2026/TT-BYT mức rủi ro trung bình hiệu lực từ 01/07/2026).",
+   "luu_y_loai_tru": "Lưu ý hiệu lực khung: NĐ 46/2026/NĐ-CP thay thế NĐ 15/2018/NĐ-CP đang TAM_NGUNG_HIEU_LUC nên vẫn áp dụng NĐ 15/2018/NĐ-CP. TT 28/2026/TT-BCT (Điều 1) KHÔNG bao gồm dụng cụ, vật liệu bao gói, chứa đựng thực phẩm — phần bao bì tiếp xúc trực tiếp thuộc phạm vi BYT (TT 15/2024/TT-BYT và TT 27/2026/TT-BYT). Miễn kiểm tra ATTP nhập khẩu đối với trường hợp tại Điều 13 NĐ 15/2018/NĐ-CP (hàng gia công/SXXK không tiêu thụ nội địa, mẫu thử nghiệm, quà biếu trong định mức...) và bao bì KHÔNG chứa đựng, KHÔNG tiếp xúc trực tiếp với thực phẩm (Điều 3 khoản 4 điểm c TT 15/2024/TT-BYT). Thủy tinh/gốm sứ tráng men (QCVN 12-4:2015/BYT) KHÔNG nằm trong danh mục rủi ro trung bình của TT 27/2026/TT-BYT.",
+   "ranh_gioi_hs_api": "Chỉ gợi ý chính sách quản lý chuyên ngành theo mô tả; không áp mã HS."
+  },
+  {
+   "id": "hang-lam-thu-tuc-tai-cua-khau-nhap",
+   "ten": "12 nhóm hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập",
+   "nhom_hang": "Thuốc lá/xì gà, rượu/cồn, bia, ô tô chở người dưới 16 chỗ, máy bay/du thuyền, xăng các loại, máy điều hòa <=90.000 BTU, bộ bài, giấy vàng mã, tiền chất/vật liệu nổ công nghiệp, hàng ảnh hưởng quốc phòng an ninh và hàng từ vùng có cảnh báo dịch bệnh",
+   "tu_khoa_nhan_dien": [
+    "thủ tục tại cửa khẩu nhập",
+    "danh mục cửa khẩu nhập",
+    "vận đơn hỗn hợp nhiều chủng loại",
+    "hàng nhạy cảm cửa khẩu",
+    "điều hòa 90000 btu cửa khẩu"
+   ],
+   "loai_tac_dong": "KHAC",
+   "do_tin": "VUA_SUY_RA",
+   "can_cu_so_hieu": [
+    "31/2026/QĐ-TTg",
+    "08/2015/NĐ-CP",
+    "167/2025/NĐ-CP",
+    "54/2014/QH13"
+   ],
+   "can_cu_chi_tiet": [
+    {
+     "so_hieu": "31/2026/QĐ-TTg",
+     "slug": "31-2026-qd-ttg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-14",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-31-2026-qd-ttg-469911.htm"
+    },
+    {
+     "so_hieu": "08/2015/NĐ-CP",
+     "slug": "08-2015-nd-cp",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-03-15",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=178689&pageid=27160"
+    },
+    {
+     "so_hieu": "167/2025/NĐ-CP",
+     "slug": "167-2025-nd-cp",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-08-15",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214375"
+    },
+    {
+     "so_hieu": "54/2014/QH13",
+     "slug": "54-2014-qh13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-01-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=175358&pageid=27160"
+    }
+   ],
+   "nghia_vu_tom_tat": "Theo QĐ 31/2026/QĐ-TTg (hiệu lực từ 14/08/2026, thay thế QĐ 23/2019/QĐ-TTg đã HET_HIEU_LUC), 12 nhóm hàng thuộc Phụ lục phải làm thủ tục hải quan nhập khẩu ngay tại cửa khẩu nhập (Điều 4 xác định cửa khẩu nhập theo từng phương thức vận tải; cảng đích ICD Phước Long TP.HCM được công nhận theo Điều 4 khoản 4). Nếu vận đơn hỗn hợp có cả hàng thuộc Danh mục và hàng ngoài Danh mục, toàn bộ lô phải làm thủ tục tại cửa khẩu nhập (Điều 3 khoản 2).",
+   "luu_y_loai_tru": "Nhóm 11 (hàng ảnh hưởng quốc phòng, an ninh) và Nhóm 12 (hàng từ quốc gia/vùng lãnh thổ có cảnh báo nguy cơ dịch bệnh của Bộ NN&MT) trong Phụ lục QĐ 31/2026/QĐ-TTg KHÔNG in mã HS, bắt buộc nhận diện theo mô tả/nguồn gốc. Có 11 trường hợp ngoại lệ tại Điều 3 khoản 3 điểm a–l được chọn làm thủ tục ngoài cửa khẩu nhập (máy móc/vật tư xây nhà máy; hàng gia công/SXXK/DNCX; hàng đưa vào khu phi thuế quan/kho ngoại quan; cửa hàng miễn thuế; cứu trợ khẩn cấp; QP-AN; xăng dầu vào kho thương nhân; hàng ghép container CFS; hàng bưu chính/chuyển phát nhanh theo NĐ 08/2015 sửa bởi NĐ 167/2025; ICD Mỹ Đình, ICD Long Biên).",
+   "ranh_gioi_hs_api": "Chỉ gợi ý chính sách quản lý chuyên ngành theo mô tả; không áp mã HS."
+  },
+  {
+   "id": "hang-rui-ro-cao-trung-binh-ktcn-2026",
+   "ten": "Hàng hóa nhóm rủi ro cao và rủi ro trung bình trong KTCN chất lượng từ 2026",
+   "nhom_hang": "Sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc phạm vi Luật Chất lượng sản phẩm, hàng hóa theo khung phân 3 mức rủi ro (thấp, trung bình, cao) thay thế cơ chế nhóm 1 / nhóm 2 từ 01/07/2026",
+   "tu_khoa_nhan_dien": [
+    "hàng rủi ro cao ktcn",
+    "hàng rủi ro trung bình ktcn",
+    "khung chất lượng 2026",
+    "đăng ký kiểm tra chất lượng",
+    "công bố hợp quy hàng nhập"
+   ],
+   "loai_tac_dong": "KIEM_TRA_CHAT_LUONG",
+   "do_tin": "VUA_SUY_RA",
+   "can_cu_so_hieu": [
+    "37/2026/NĐ-CP",
+    "05/2007/QH12",
+    "33/2026/TT-BCT",
+    "36/2026/TT-BKHCN",
+    "27/2026/TT-BNNMT",
+    "41/2026/TT-BXD",
+    "49/2026/TT-BXD"
+   ],
+   "can_cu_chi_tiet": [
+    {
+     "so_hieu": "37/2026/NĐ-CP",
+     "slug": "37-2026-nd-cp",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-23",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=216764&pageid=27160"
+    },
+    {
+     "so_hieu": "05/2007/QH12",
+     "slug": "05-2007-qh12",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2008-07-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=51259&pageid=27160"
+    },
+    {
+     "so_hieu": "33/2026/TT-BCT",
+     "slug": "33-2026-tt-bct",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=218710&pageid=27160"
+    },
+    {
+     "so_hieu": "36/2026/TT-BKHCN",
+     "slug": "36-2026-tt-bkhcn",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=218716&pageid=27160"
+    },
+    {
+     "so_hieu": "27/2026/TT-BNNMT",
+     "slug": "27-2026-tt-bnnmt",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-27-2026-tt-bnnmt-469989.htm"
+    },
+    {
+     "so_hieu": "41/2026/TT-BXD",
+     "slug": "41-2026-tt-bxd",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=218644&pageid=27160"
+    },
+    {
+     "so_hieu": "49/2026/TT-BXD",
+     "slug": "49-2026-tt-bxd",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd.signed.pdf"
+    }
+   ],
+   "nghia_vu_tom_tat": "Từ 01/07/2026 theo Điều 82–83 NĐ 37/2026/NĐ-CP và các thông tư danh mục của các bộ: (1) Hàng rủi ro trung bình: không kiểm tra chất lượng khi nhập khẩu nhưng phải thực hiện công bố hợp quy theo QCVN tương ứng (Điều 82 khoản 1); (2) Hàng rủi ro cao: phải đăng ký kiểm tra nhà nước về chất lượng theo Điều 83 (mốc 01 ngày làm việc khi có GCN hợp quy / 07 ngày bổ sung hồ sơ / 05 ngày khắc phục nhãn) hoặc đưa về bảo quản đánh giá tại tổ chức chứng nhận được chỉ định.",
+   "luu_y_loai_tru": "Hàng rủi ro thấp không thuộc đối tượng kiểm tra nhà nước về chất lượng khi nhập khẩu (không gọi là \"miễn kiểm tra\"); cơ chế miễn, giảm kiểm tra tại Điều 86 NĐ 37/2026/NĐ-CP chỉ áp dụng cho hàng rủi ro cao. Khung 3 mức rủi ro chất lượng của NĐ 37/2026/NĐ-CP khác hoàn toàn với khung rủi ro phân luồng tờ khai hải quan (TT 81/2019/TT-BTC) và không thay thế khung an toàn thực phẩm (NĐ 15/2018/NĐ-CP).",
+   "ranh_gioi_hs_api": "Chỉ gợi ý chính sách quản lý chuyên ngành theo mô tả; không áp mã HS."
+  },
+  {
+   "id": "thiet-bi-vo-tuyen-cntt-vien-thong",
+   "ten": "Thiết bị vô tuyến điện, viễn thông và công nghệ thông tin thuộc diện hợp quy/giấy phép",
+   "nhom_hang": "Thiết bị thu phát sóng vô tuyến (Wi-Fi, Bluetooth, Zigbee, RFID, thiết bị tầm ngắn SRD >=60mW), thiết bị đầu cuối/trạm gốc viễn thông, máy tính/laptop, thẻ thông minh/NFC và sản phẩm an toàn thông tin mạng",
+   "tu_khoa_nhan_dien": [
+    "thiết bị vô tuyến điện",
+    "thiết bị thu phát sóng wifi bluetooth",
+    "thiết bị công nghệ thông tin",
+    "chứng nhận hợp quy bkhcn",
+    "sản phẩm an toàn thông tin mạng"
+   ],
+   "loai_tac_dong": "CONG_BO_HOP_QUY",
+   "do_tin": "VUA_SUY_RA",
+   "can_cu_so_hieu": [
+    "36/2026/TT-BKHCN",
+    "10/2022/TT-BTTTT",
+    "37/2026/NĐ-CP"
+   ],
+   "can_cu_chi_tiet": [
+    {
+     "so_hieu": "36/2026/TT-BKHCN",
+     "slug": "36-2026-tt-bkhcn",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=218716&pageid=27160"
+    },
+    {
+     "so_hieu": "10/2022/TT-BTTTT",
+     "slug": "10-2022-tt-btttt",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-09-15",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-10-2022-tt-btttt-37592.htm"
+    },
+    {
+     "so_hieu": "37/2026/NĐ-CP",
+     "slug": "37-2026-nd-cp",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-23",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=216764&pageid=27160"
+    }
+   ],
+   "nghia_vu_tom_tat": "Thiết bị vô tuyến điện và CNTT-TT thuộc Phụ lục I TT 36/2026/TT-BKHCN (rủi ro cao: trạm gốc, thiết bị vô tuyến, SRD >=60mW băng 2.4/5/6 GHz, RFID, pin lithium laptop/ĐTDĐ) phải chứng nhận hợp quy và đăng ký kiểm tra chất lượng khi nhập khẩu; nhóm thuộc Phụ lục II (rủi ro trung bình: laptop, màn hình/TV, thẻ thông minh, NFC...) phải tự đánh giá hoặc chứng nhận hợp quy và công bố hợp quy theo Điều 4 TT 36/2026/TT-BKHCN và Điều 82 NĐ 37/2026/NĐ-CP. Sản phẩm an toàn thông tin mạng thuộc TT 10/2022/TT-BTTTT phải có Giấy phép nhập khẩu.",
+   "luu_y_loai_tru": "Phụ kiện thụ động không có mạch thu phát vô tuyến hoặc thiết bị tầm ngắn dưới ngưỡng công suất miễn cấp phép theo QCVN có thể không thuộc diện chứng nhận hợp quy vô tuyến. Cần tách riêng: (a) sản phẩm có chức năng mật mã dân sự chịu thêm NĐ 211/2025/NĐ-CP; (b) sản phẩm CNTT/công nghệ số đã qua sử dụng chịu diện cấm nhập khẩu theo TT 11/2018/TT-BTTTT (đến hết 31/12/2026) và TT 63/2026/TT-BKHCN (từ 01/01/2027).",
+   "ranh_gioi_hs_api": "Chỉ gợi ý chính sách quản lý chuyên ngành theo mô tả; không áp mã HS."
+  },
+  {
+   "id": "hang-kiem-dich-thuc-vat",
+   "ten": "Vật thể thuộc diện kiểm dịch thực vật và phân tích nguy cơ dịch hại",
+   "nhom_hang": "Cây trồng, hạt giống, củ, quả tươi, ngũ cốc, gỗ/ván/bao bì gỗ chèn lót (ISPM 15), nguyên liệu thức ăn nguồn gốc thực vật và vật thể có khả năng mang sinh vật gây hại kiểm dịch thực vật",
+   "tu_khoa_nhan_dien": [
+    "kiểm dịch thực vật",
+    "phân tích nguy cơ dịch hại",
+    "vật thể kiểm dịch thực vật",
+    "bao bì gỗ ispm 15",
+    "nông sản hạt giống thực vật"
+   ],
+   "loai_tac_dong": "KIEM_DICH_THUC_VAT",
+   "do_tin": "VUA_SUY_RA",
+   "can_cu_so_hieu": [
+    "01/2024/TT-BNNPTNT",
+    "14/2024/TT-BNNPTNT",
+    "22/2026/TT-BNNMT"
+   ],
+   "can_cu_chi_tiet": [
+    {
+     "so_hieu": "01/2024/TT-BNNPTNT",
+     "slug": "01-2024-tt-bnnptnt",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-03-20",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://chinhphu.vn/?docid=209723&pageid=27160"
+    },
+    {
+     "so_hieu": "14/2024/TT-BNNPTNT",
+     "slug": "14-2024-tt-bnnptnt",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2024-12-15",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=211706&classid=1&orggroupid=4"
+    },
+    {
+     "so_hieu": "22/2026/TT-BNNMT",
+     "slug": "22-2026-tt-bnnmt",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-05-19",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?classid=1&docid=218174&pageid=27160"
+    }
+   ],
+   "nghia_vu_tom_tat": "Vật thể thuộc Danh mục tại Điều 1 TT 14/2024/TT-BNNPTNT (và bảng mã HS tương ứng tại Mục 9 Phụ lục I TT 01/2024/TT-BNNPTNT) phải khai báo, kiểm dịch thực vật tại cửa khẩu nhập và có Giấy chứng nhận kiểm dịch thực vật (kèm giấy phép phân tích nguy cơ dịch hại PRA đối với vật thể tại Điều 2 TT 14/2024/TT-BNNPTNT) theo thẩm quyền quản lý sau sắp xếp bộ máy cập nhật tại TT 22/2026/TT-BNNMT.",
+   "luu_y_loai_tru": "TT 14/2024/TT-BNNPTNT (HET_HIEU_LUC_MOT_PHAN, đã hợp nhất tại 109/2026/VBHN-TT-BNNMT) quy định danh mục theo mô tả vật thể, không có bảng mã HS; miễn PRA đối với một số trường hợp nghiên cứu theo Điều 3. Sản phẩm thực vật đã chế biến sâu, đóng gói thương mại tiệt trùng hoặc vật liệu phi thực vật không thuộc diện kiểm dịch theo quy định chi tiết chuyên ngành.",
+   "ranh_gioi_hs_api": "Chỉ gợi ý chính sách quản lý chuyên ngành theo mô tả; không áp mã HS."
+  },
+  {
+   "id": "tam-nhap-tai-xuat-chuyen-khau-co-dieu-kien",
+   "ten": "Kinh doanh tạm nhập, tái xuất và chuyển khẩu hàng hóa có điều kiện hoặc cấm",
+   "nhom_hang": "Hàng hóa kinh doanh tạm nhập tái xuất (TNTX), kinh doanh chuyển khẩu, hàng gửi kho ngoại quan xuất đi nước thứ ba (bao gồm hàng cấm kinh doanh TNTX Phụ lục V NĐ 292/2026/NĐ-CP, hàng thực phẩm đông lạnh, hàng đã qua sử dụng, hàng TTĐB)",
+   "tu_khoa_nhan_dien": [
+    "tạm nhập tái xuất",
+    "kinh doanh chuyển khẩu",
+    "hàng cấm tạm nhập tái xuất",
+    "gửi kho ngoại quan tái xuất",
+    "thời hạn lưu giữ tntx"
+   ],
+   "loai_tac_dong": "KHAC",
+   "do_tin": "VUA_SUY_RA",
+   "can_cu_so_hieu": [
+    "292/2026/NĐ-CP",
+    "12/2018/TT-BCT",
+    "48/2026/TT-BCT",
+    "05/2017/QH14"
+   ],
+   "can_cu_chi_tiet": [
+    {
+     "so_hieu": "292/2026/NĐ-CP",
+     "slug": "292-2026-nd-cp",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-05",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-292-2026-nd-cp-470149.htm"
+    },
+    {
+     "so_hieu": "12/2018/TT-BCT",
+     "slug": "12-2018-tt-bct",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2018-06-15",
+     "het_hieu_luc_tu": "2026-12-31",
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-12-2018-tt-bct-26878/23046.htm"
+    },
+    {
+     "so_hieu": "48/2026/TT-BCT",
+     "slug": "48-2026-tt-bct",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-05",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-48-2026-tt-bct-470460.htm"
+    },
+    {
+     "so_hieu": "05/2017/QH14",
+     "slug": "05-2017-qh14",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=190308&pageid=27160"
+    }
+   ],
+   "nghia_vu_tom_tat": "Từ 05/09/2026 theo NĐ 292/2026/NĐ-CP (thay thế NĐ 69/2018/NĐ-CP đã HET_HIEU_LUC) và TT 48/2026/TT-BCT: hàng thuộc Phụ lục V NĐ 292/2026/NĐ-CP bị cấm kinh doanh TNTX, chuyển khẩu; hàng kinh doanh TNTX chịu giám sát hải quan xuyên suốt, lưu giữ tại Việt Nam tối đa 60 ngày (gia hạn không quá 02 lần × 30 ngày theo Điều 14 khoản 5), thực hiện trên 02 hợp đồng riêng biệt và qua cửa khẩu quốc tế/chính (Điều 18). Theo Điều 64 khoản 2 NĐ 292/2026/NĐ-CP, các Mã số kinh doanh TNTX hàng thực phẩm đông lạnh, hàng đã qua sử dụng, hàng có thuế TTĐB đã cấp hết hiệu lực từ 01/07/2026.",
+   "luu_y_loai_tru": "Cấm kinh doanh TNTX/chuyển khẩu (Phụ lục V NĐ 292/2026/NĐ-CP) KHÔNG đồng nghĩa cấm nhập khẩu thông thường vào nội địa (ví dụ phế liệu vẫn có thể nhập khẩu theo QĐ 13/2023/QĐ-TTg nếu đáp ứng điều kiện); đồng thời chuyển khẩu vận chuyển thẳng từ nước xuất khẩu đến nước nhập khẩu không qua cửa khẩu Việt Nam được loại trừ khỏi Phụ lục V (Điều 13 khoản 2). Tổ chức kinh tế có vốn đầu tư nước ngoài không được kinh doanh TNTX (Điều 14 khoản 2) và chỉ chuyển khẩu thẳng không qua cửa khẩu VN (Điều 19 khoản 2). TT 12/2018/TT-BCT hiện HET_HIEU_LUC_MOT_PHAN — phần khung đã bị TT 48/2026/TT-BCT bãi bỏ từ 05/09/2026, chỉ còn Phụ lục I (thiết bị y tế đã qua sử dụng cấm NK) áp dụng chuyển tiếp đến hết 31/12/2026 (Điều 21 khoản 3 TT 48/2026/TT-BCT).",
+   "ranh_gioi_hs_api": "Chỉ gợi ý chính sách quản lý chuyên ngành theo mô tả; không áp mã HS."
+  },
+  {
+   "id": "ghi-nhan-hang-hoa-nhap-khau",
+   "ten": "Ghi nhãn hàng hóa nhập khẩu, nhãn phụ tiếng Việt và truy xuất nguồn gốc",
+   "nhom_hang": "Hàng hóa nhập khẩu lưu thông trên thị trường Việt Nam có yêu cầu ghi nhãn gốc, nhãn phụ tiếng Việt, nhãn điện tử và định danh/truy xuất nguồn gốc sản phẩm",
+   "tu_khoa_nhan_dien": [
+    "ghi nhãn hàng hóa",
+    "nhãn phụ tiếng việt",
+    "nhãn hàng nhập khẩu",
+    "truy xuất nguồn gốc hàng hóa",
+    "nhãn điện tử"
+   ],
+   "loai_tac_dong": "KHAC",
+   "do_tin": "VUA_SUY_RA",
+   "can_cu_so_hieu": [
+    "37/2026/NĐ-CP",
+    "372/2026/NĐ-CP",
+    "43/2017/NĐ-CP",
+    "111/2021/NĐ-CP"
+   ],
+   "can_cu_chi_tiet": [
+    {
+     "so_hieu": "37/2026/NĐ-CP",
+     "slug": "37-2026-nd-cp",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-23",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=216764&pageid=27160"
+    },
+    {
+     "so_hieu": "372/2026/NĐ-CP",
+     "slug": "372-2026-nd-cp",
+     "tinh_trang": "CHUA_CO_HIEU_LUC",
+     "hieu_luc_tu": "2027-01-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=219673"
+    },
+    {
+     "so_hieu": "43/2017/NĐ-CP",
+     "slug": "43-2017-nd-cp",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-06-01",
+     "het_hieu_luc_tu": "2026-01-23",
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=189385"
+    },
+    {
+     "so_hieu": "111/2021/NĐ-CP",
+     "slug": "111-2021-nd-cp",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2026-01-23",
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=204681&pageid=27160"
+    }
+   ],
+   "nghia_vu_tom_tat": "TRẠNG THÁI TRUNG THỰC TRONG SỔ: cả NĐ 43/2017/NĐ-CP và NĐ 111/2021/NĐ-CP đều đã HET_HIEU_LUC từ ngày 23/01/2026 do bị bãi bỏ toàn bộ tại Điều 97 khoản 4 điểm b, c NĐ 37/2026/NĐ-CP (hiệu lực 23/01/2026). Không được viện dẫn 43/2017/NĐ-CP hoặc 111/2021/NĐ-CP như văn bản còn hiệu lực sau mốc 23/01/2026. Khung chung điều chỉnh nhãn hàng hóa hiện nằm tại Chương IV NĐ 37/2026/NĐ-CP (gồm nhãn phụ và nhãn điện tử; chi tiết thực thi từng điều khoản nhãn trong Chương IV cần tiếp tục đối chiếu nguyên văn nguồn bậc A). Từ ngày 01/01/2027, NĐ 372/2026/NĐ-CP (hiện CHUA_CO_HIEU_LUC) bổ sung quy định về định danh, xác thực và truy xuất nguồn gốc sản phẩm, hàng hóa (mã UID).",
+   "luu_y_loai_tru": "43/2017/NĐ-CP và 111/2021/NĐ-CP được liệt kê trong can_cu_so_hieu CHỈ để phản ánh đúng trạng thái HET_HIEU_LUC từ 23/01/2026 và áp dụng điều khoản chuyển tiếp tại Điều 98 khoản 3–4 NĐ 37/2026/NĐ-CP (hàng hóa có nhãn đúng NĐ 43/2017 & 111/2021 đã sản xuất/nhập khẩu/lưu thông trước 23/01/2026 được tiếp tục lưu thông đến hết hạn sử dụng; nhãn/bao bì thương phẩm đã sản xuất/in ấn trước 23/01/2026 được sử dụng tiếp không quá 02 năm kể từ 23/01/2026). Các mặt hàng chuyên ngành (thực phẩm, hóa chất nguy hiểm GHS, thiết bị y tế...) phải đáp ứng thêm quy định ghi nhãn chuyên ngành tương ứng.",
+   "ranh_gioi_hs_api": "Chỉ gợi ý chính sách quản lý chuyên ngành theo mô tả; không áp mã HS."
+  },
+  {
+   "id": "hang-mien-thue-gia-cong-sxxk",
+   "ten": "Hàng hóa miễn thuế nhập khẩu, gia công xuất khẩu và sản xuất xuất khẩu (SXXK)",
+   "nhom_hang": "Nguyên liệu, vật tư, linh kiện nhập khẩu để gia công, sản xuất hàng hóa xuất khẩu (SXXK), hàng hóa của doanh nghiệp chế xuất (DNCX) và hàng hóa miễn thuế tạo tài sản cố định / dự án ưu đãi đầu tư",
+   "tu_khoa_nhan_dien": [
+    "miễn thuế nhập khẩu",
+    "hàng gia công xuất khẩu",
+    "sản xuất xuất khẩu sxxk",
+    "doanh nghiệp chế xuất dncx",
+    "báo cáo quyết toán nguyên liệu"
+   ],
+   "loai_tac_dong": "KHAC",
+   "do_tin": "VUA_SUY_RA",
+   "can_cu_so_hieu": [
+    "107/2016/QH13",
+    "134/2016/NĐ-CP",
+    "18/2021/NĐ-CP",
+    "182/2025/NĐ-CP",
+    "38/2015/TT-BTC",
+    "121/2025/TT-BTC"
+   ],
+   "can_cu_chi_tiet": [
+    {
+     "so_hieu": "107/2016/QH13",
+     "slug": "107-2016-qh13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=184599&pageid=27160"
+    },
+    {
+     "so_hieu": "134/2016/NĐ-CP",
+     "slug": "134-2016-nd-cp",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=186707&pageid=27160"
+    },
+    {
+     "so_hieu": "18/2021/NĐ-CP",
+     "slug": "18-2021-nd-cp",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2021-04-25",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=202806&pageid=27160"
+    },
+    {
+     "so_hieu": "182/2025/NĐ-CP",
+     "slug": "182-2025-nd-cp",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=214329&pageid=27160"
+    },
+    {
+     "so_hieu": "38/2015/TT-BTC",
+     "slug": "38-2015-tt-btc",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-04-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-38-2015-tt-btc-9949.htm"
+    },
+    {
+     "so_hieu": "121/2025/TT-BTC",
+     "slug": "121-2025-tt-btc",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-02-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-121-2025-tt-btc-468755.htm"
+    }
+   ],
+   "nghia_vu_tom_tat": "Nguyên liệu, vật tư, linh kiện nhập khẩu để gia công hoặc sản xuất hàng hóa xuất khẩu thuộc đối tượng miễn thuế theo Điều 16 Luật Thuế XK, NK 107/2016/QH13 và NĐ 134/2016/NĐ-CP (sửa đổi bởi NĐ 18/2021/NĐ-CP và NĐ 182/2025/NĐ-CP) khi người nộp thuế đáp ứng điều kiện về cơ sở sản xuất/gia công, thông báo hợp đồng/cơ sở sản xuất, theo dõi định mức và nộp báo cáo quyết toán sử dụng nguyên liệu vật tư theo TT 38/2015/TT-BTC (sửa đổi bởi TT 121/2025/TT-BTC hiệu lực từ 01/02/2026).",
+   "luu_y_loai_tru": "Miễn thuế nhập khẩu theo loại hình gia công/SXXK/DNCX KHÔNG đồng nghĩa tự động miễn kiểm tra chuyên ngành hoặc giấy phép nhập khẩu (chỉ miễn nếu văn bản quản lý chuyên ngành có điều khoản loại trừ riêng, như Điều 13 NĐ 15/2018/NĐ-CP về ATTP). Trường hợp chuyển tiêu thụ nội địa, bán phế liệu/phế phẩm hoặc thay đổi mục đích sử dụng so với mục đích được miễn thuế phải khai tờ khai mới, nộp đủ thuế và đáp ứng chính sách mặt hàng tại thời điểm chuyển mục đích. Quy tắc này chỉ gợi ý khung chính sách loại hình; không tính thuế suất (thuộc hs-code-api).",
+   "ranh_gioi_hs_api": "Chỉ gợi ý chính sách quản lý chuyên ngành theo mô tả; không áp mã HS."
+  },
+  {
+   "id": "hang-kiem-dich-dong-vat",
+   "ten": "Động vật, sản phẩm động vật trên cạn và thủy sản thuộc diện kiểm dịch động vật",
+   "nhom_hang": "Động vật sống, thịt, sữa, trứng, mật ong, da/lông, bột xương/thức ăn chăn nuôi có nguồn gốc động vật và động vật/sản phẩm động vật thủy sản nhập khẩu, xuất khẩu",
+   "tu_khoa_nhan_dien": [
+    "kiểm dịch động vật",
+    "sản phẩm động vật trên cạn",
+    "kiểm dịch thủy sản",
+    "giấy chứng nhận kiểm dịch",
+    "thịt sữa trứng nhập khẩu"
+   ],
+   "loai_tac_dong": "KIEM_DICH_DONG_VAT",
+   "do_tin": "VUA_SUY_RA",
+   "can_cu_so_hieu": [
+    "01/2024/TT-BNNPTNT",
+    "25/2016/TT-BNNPTNT",
+    "79/2015/QH13",
+    "22/2026/TT-BNNMT"
+   ],
+   "can_cu_chi_tiet": [
+    {
+     "so_hieu": "01/2024/TT-BNNPTNT",
+     "slug": "01-2024-tt-bnnptnt",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-03-20",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://chinhphu.vn/?docid=209723&pageid=27160"
+    },
+    {
+     "so_hieu": "25/2016/TT-BNNPTNT",
+     "slug": "25-2016-tt-bnnptnt",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2016-08-15",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=185870"
+    },
+    {
+     "so_hieu": "79/2015/QH13",
+     "slug": "79-2015-qh13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-07-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?docid=180584&pageid=27160"
+    },
+    {
+     "so_hieu": "22/2026/TT-BNNMT",
+     "slug": "22-2026-tt-bnnmt",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-05-19",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://vanban.chinhphu.vn/?classid=1&docid=218174&pageid=27160"
+    }
+   ],
+   "nghia_vu_tom_tat": "Động vật và sản phẩm động vật thuộc diện kiểm dịch theo Luật Thú y 79/2015/QH13, TT 25/2016/TT-BNNPTNT và Phụ lục I TT 01/2024/TT-BNNPTNT phải đăng ký kiểm dịch trước khi đưa hàng về cửa khẩu, xuất trình Health Certificate của cơ quan thẩm quyền nước xuất khẩu và được cơ quan thú y cấp Giấy chứng nhận kiểm dịch động vật để thông quan (thẩm quyền/thủ tục hành chính đã cập nhật cắt giảm theo TT 22/2026/TT-BNNMT).",
+   "luu_y_loai_tru": "Lưu ý kiểm dịch động vật và kiểm tra an toàn thực phẩm là hai thủ tục độc lập (có thể phối hợp thực hiện một cửa cho thực phẩm nguồn gốc động vật). Cần kiểm tra kỹ danh mục quốc gia/vùng lãnh thổ có cảnh báo dịch bệnh của Bộ NN&MT (liên quan cả Nhóm 12 QĐ 31/2026/QĐ-TTg làm thủ tục tại cửa khẩu nhập).",
+   "ranh_gioi_hs_api": "Chỉ gợi ý chính sách quản lý chuyên ngành theo mô tả; không áp mã HS."
+  },
+  {
+   "id": "san-pham-cong-nghe-so-da-qua-su-dung-cam-nhap-khau",
+   "ten": "Sản phẩm công nghệ thông tin / công nghệ số và hàng tiêu dùng đã qua sử dụng cấm nhập khẩu",
+   "nhom_hang": "Máy tính, điện thoại, máy chủ, linh kiện CNTT/công nghệ số, đồ điện tử gia dụng, hàng dệt may, nội thất và phương tiện đã qua sử dụng thuộc danh mục cấm nhập khẩu",
+   "tu_khoa_nhan_dien": [
+    "sản phẩm công nghệ thông tin đã qua sử dụng",
+    "sản phẩm công nghệ số đã qua sử dụng",
+    "hàng tiêu dùng đã qua sử dụng cấm nhập khẩu",
+    "linh kiện máy tính cũ",
+    "điện thoại laptop cũ cấm nhập"
+   ],
+   "loai_tac_dong": "CAM_NHAP_KHAU",
+   "do_tin": "VUA_SUY_RA",
+   "can_cu_so_hieu": [
+    "11/2018/TT-BTTTT",
+    "63/2026/TT-BKHCN",
+    "48/2026/TT-BCT",
+    "292/2026/NĐ-CP"
+   ],
+   "can_cu_chi_tiet": [
+    {
+     "so_hieu": "11/2018/TT-BTTTT",
+     "slug": "11-2018-tt-btttt",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-11-30",
+     "het_hieu_luc_tu": "2026-12-31",
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-11-2018-tt-btttt-27500.htm"
+    },
+    {
+     "so_hieu": "63/2026/TT-BKHCN",
+     "slug": "63-2026-tt-bkhcn",
+     "tinh_trang": "CHUA_CO_HIEU_LUC",
+     "hieu_luc_tu": "2027-01-01",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-63-2026-tt-bkhcn-470884.htm"
+    },
+    {
+     "so_hieu": "48/2026/TT-BCT",
+     "slug": "48-2026-tt-bct",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-05",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-48-2026-tt-bct-470460.htm"
+    },
+    {
+     "so_hieu": "292/2026/NĐ-CP",
+     "slug": "292-2026-nd-cp",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-05",
+     "het_hieu_luc_tu": null,
+     "bac_nguon_cao_nhat": "A",
+     "url_nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-292-2026-nd-cp-470149.htm"
+    }
+   ],
+   "nghia_vu_tom_tat": "Sản phẩm công nghệ thông tin đã qua sử dụng thuộc Danh mục TT 11/2018/TT-BTTTT (CON_HIEU_LUC đến hết 31/12/2026) và từ 01/01/2027 chuyển sang Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu theo TT 63/2026/TT-BKHCN (hiện CHUA_CO_HIEU_LUC đến trước 01/01/2027) bị CẤM nhập khẩu. Tương tự, hàng tiêu dùng và phương tiện đã qua sử dụng thuộc Phụ lục I TT 48/2026/TT-BCT (hướng dẫn NĐ 292/2026/NĐ-CP) bị CẤM nhập khẩu.",
+   "luu_y_loai_tru": "Phân biệt rạch ròi với máy móc, thiết bị, dây chuyền công nghệ phục vụ trực tiếp sản xuất thuộc QĐ 18/2019/QĐ-TTg (được phép nhập khẩu có điều kiện nếu không nằm trong danh mục cấm). Kiểm tra các trường hợp ngoại lệ đặc biệt nhập khẩu để nghiên cứu khoa học, bảo hành/sửa chữa hoặc tái nhập theo quy định của Luật Quản lý ngoại thương và NĐ 292/2026/NĐ-CP.",
+   "ranh_gioi_hs_api": "Chỉ gợi ý chính sách quản lý chuyên ngành theo mô tả; không áp mã HS."
+  }
+ ]
+}
