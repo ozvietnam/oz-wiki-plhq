@@ -14,10 +14,19 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-  ghi_chu: 'Crawl từ vanban.chinhphu.vn docid=197774'
+  ghi_chu: Crawl từ vanban.chinhphu.vn docid=197774
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa đổi, bd sung Điều 2 Thông tư số 22/2016/TT-BCT như san: 1. Bãi bỏ Phụ lục II - Quy tắc cụ thể mặt hàng tại khoản 2 Điều 2 Thông. tư số 22/2016/TT-BCT và thay thé bằng P Phụ lục I ban hành kèm theo Thông tư này. 2. Bãi bỏ Phụ lục III - Tiêu chí chuyên đổi cơ bản đối với sản phẩm dệt may tại khoản 3 Điều 2 Thông tư số 22/2016/TT-BCT và thay thế bằng Phụ lục I ban hành kèm theo Thông tư này.'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Hiệu lực thi hành ` ˆˆ Thông tư này có hiệu lực thi hành kể từ ngày JS tháng J năm 2019./.'
+      trang_pdf: 2
 nguon:
   - url: https://vanban.chinhphu.vn/default.aspx?docid=197774&pageid=27160
     truy_cap: '2026-10-10'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/09/10-bct.signed.pdf
     truy_cap: '2026-10-10'
-toan_van: raw/download/datafiles.chinhphu.vn/10-2019-tt-bct.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/10-2019-tt-bct.pdf
+  - raw/ocr/10-2019-tt-bct.ocr.txt

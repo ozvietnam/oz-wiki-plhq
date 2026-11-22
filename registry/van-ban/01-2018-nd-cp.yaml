@@ -14,8 +14,20 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Ban hành kém theo Nghị định này Điều lệ tổ chức và hoạt động của Tổng công ty Lương thực miền Bắc.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Nghị định này có hiệu lực thi hành từ ngày ban hành và thay thể Nghị định số 12/2014/NĐ-CP ngày 25 tháng 02 năm 2014 của Chính phủ về Điều lệ tổ chức và hoạt động của Tổng công ty Lương thực miền Bắc.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dan tỉnh, thành phố trực thuộc trung ương, Hội đồng thành viên, Tổng giám đốc Tổng công ty Lương thực miền Bắc chịu trách nhiệm thi hành Nghị định này./.
+      trang_pdf: 2
 ghi_chu: Ban hành Điều lệ tổ chức và hoạt động của Tổng công ty Lương thực miền Bắc.
-toan_van: raw/download/datafiles.chinhphu.vn/01-2018-nd-cp.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/01-2018-nd-cp.pdf
+  - raw/ocr/01-2018-nd-cp.ocr.txt
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=192514
     truy_cap: '2026-11-15'
