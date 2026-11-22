@@ -1,6 +1,6 @@
-# Cây văn bản pháp luật XNK — 2026-11-21
+# Cây văn bản pháp luật XNK — 2026-11-22
 
-2885 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+2890 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -373,7 +373,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2203 văn bản, 2203 chưa hết hiệu lực.
+2208 văn bản, 2208 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -399,6 +399,11 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [22894/TB-CHQ/2026](../registry/van-ban/22894-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cáp điện CIVUS 0.35 BE cách điện bằng nhựa PVC, 01 lõi đồng bện 07 sợi đường kính 0,70 mm, điện áp 12V-24V, chưa gắn đầu nối, không dùng cho viễn thông, mã số 8544.49.22)
 - 🟢 [22772/TB-CHQ/2026](../registry/van-ban/22772-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị trị liệu nhiệt cứu dùng pin Model LJ-001, công suất 30W, có chức năng làm nóng miếng thảo mộc kinh lạc, không có chức năng massage cơ học, mã số 8516.79.90)
 - 🟢 [22776/TB-CHQ/2026](../registry/van-ban/22776-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị điện tử đặt chân iTera-Bio Foot Massager Model JC-02A, điện áp 220-240V, công suất 245W, tích hợp màng gia nhiệt dưới hai tấm kim loại, không có cơ cấu massage cơ học, mã số 8516.79.90)
+- 🟢 [22687/TB-CHQ/2026](../registry/van-ban/22687-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chế phẩm Energydot dạng dung dịch màu đen, thành phần chính gồm các hạt Nano Carbon chấm lượng tử Quantum Carbon Dots kích thước < 10nm với hàm lượng chất hữu cơ 45%, tổng carbon hữu cơ 20%, phụ gia PEG 5%, TWEEN 80 2% và nước, dùng phun hoặc trộn lẫn với phân bón lá trong nông nghiệp, mã số 3824.99.99)
+- 🟢 [22584/TB-CHQ/2026](../registry/van-ban/22584-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hóa chất COS-540 dạng lỏng, thành phần gồm Acrylic ester co-polymer CAS 35239-19-1 hàm lượng 32 ± 1,0%, Ethyl acetate CAS 141-78-6 hàm lượng 52-59%, Toluene CAS 108-88-3 hàm lượng 9-12%, đóng gói 180 Kg/Drum, dùng làm nguyên liệu polymer trung gian trong sản xuất chất bám dính và băng keo PSA, mã số 3208.20.90)
+- 🟢 [22555/TB-CHQ/2026](../registry/van-ban/22555-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị đeo tay thông minh Watch GT 6 phiên bản đường kính 46mm, ký mã hiệu ATM-B19, màn hình cảm ứng AMOLED 1.47 inch, thân máy bằng thép không gỉ, tích hợp loa, micro, cảm biến IMU 9 trục, cảm biến nhịp tim quang học, hỗ trợ Bluetooth 6.0, GPS, NFC, không hỗ trợ Wi-Fi và eSIM, mã số 8517.62.59)
+- 🟢 [22556/TB-CHQ/2026](../registry/van-ban/22556-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị đeo tay thông minh Watch GT 6 phiên bản đường kính 41mm, ký mã hiệu KSU-B19, màn hình cảm ứng AMOLED 1.32 inch, thân máy bằng thép không gỉ, tích hợp loa, micro, cảm biến IMU 9 trục, cảm biến nhịp tim quang học, hỗ trợ Bluetooth 6.0, GPS, NFC, không hỗ trợ Wi-Fi và eSIM, mã số 8517.62.59)
+- 🟢 [22557/TB-CHQ/2026](../registry/van-ban/22557-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị đeo tay thông minh Watch GT 6 Pro phiên bản đường kính 46mm, ký mã hiệu ATM-B29, màn hình cảm ứng AMOLED 1.47 inch, thân máy bằng hợp kim titanium, tích hợp loa, micro, cảm biến IMU 9 trục, cảm biến nhịp tim quang học, hỗ trợ Bluetooth 6.0, GPS, NFC, không hỗ trợ Wi-Fi và eSIM, mã số 8517.62.59)
 - 🟢 [22419/TB-CHQ/2026](../registry/van-ban/22419-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cao su hỗn hợp chưa lưu hóa Compounding Masterbatch, dạng tấm, thành phần cao su butadiene, cao su tự nhiên, muội carbon, kẽm ô xit, axit stearic, chất chống oxy hóa, dầu aromatic, không chứa lưu huỳnh hoặc chất xúc tiến, dùng trong sản xuất lốp xe, mã số 4005.10.90)
 - 🟢 [73/2026/VBHN-TT-BCT](../registry/van-ban/73-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư sửa đổi quy định Danh mục chi tiết theo mã HS của hàng hóa xuất khẩu, nhập khẩu
 - 🟢 [74/2026/VBHN-TT-BCT](../registry/van-ban/74-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương
