@@ -19,5 +19,20 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Sửa đổi, bố sung một số điều của Thông tư số 22/2016/TT- BCT ngày 3 tháng 10 năm 2016 của Bộ trưởng Bộ Công Thương thực hiện Quy tắc xuất xứ hàng hóa trong Hiệp định Thương mại hàng hóa ASEAN (sau đây gọi tắt là Thông tư số 22/2016/TT-BCT), được sửa doi, bé sung bởi Thông tư sô 19/2020/TT-BCT ngày 14 tháng 8 năm 2020 của Bộ trưởng Bộ Công Thương sửa đối, bố sung các Thông tư quy định thực hiện Quy tắc xuất xứ hàng hóa trong Hiệp định
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Bãi bỏ một số điều của Thông tư số 19/2020/TT-BCT Bãi bỏ khoản 1, khoản 2 và khoản 3 Điều 1 Thông tư số 19/2020/TT-BCT.
+      trang_pdf: 3
+    - dieu: 3
+      noi_dung: Điều 3. Quy định chuyền tiếp C/O mẫu D theo quy định tại Phụ lục II ban hành kèm theo Thông tư số 19/2020/TT-BCT được cấp đến hết ngày 31 tháng 10 năm 2022 và được cơ quan hải quan chấp nhận trong thời hạn quy định tại Điều 15 Phụ lục I ban hành kèm theo Thông tư này.
+      trang_pdf: 3
+    - dieu: 4
+      noi_dung: Điều 4. Điều khoản thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày AG thang t nam 2022. 2. Trường hợp các van bản được dẫn chiếu trong Thông tư này bị thay thế hoặc sửa đôi, bô sung thì thực hiện theo văn bản thay thê hoặc văn bản đã được sửa đôi, bô sung.
+      trang_pdf: 3
 ghi_chu: Thông tư sửa đổi, bổ sung quy định thực hiện Quy tắc xuất xứ hàng hóa trong Hiệp định ATIGA (cập nhật PSR theo HS 2022 và chứng nhận xuất xứ C/O mẫu D).
-toan_van: raw/download/datafiles.chinhphu.vn/10-2022-tt-bct.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/10-2022-tt-bct.pdf
+  - raw/ocr/10-2022-tt-bct.ocr.txt

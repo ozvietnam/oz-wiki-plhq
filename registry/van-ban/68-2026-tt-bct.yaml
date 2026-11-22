@@ -19,5 +19,38 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Thông tư này quy định tỷ lệ hao hụt xăng dầu tối đa trong hoạt động kinh doanh xăng dầu, bao gồm: xuất khẩu, nhập khẩu, kinh doanh tạm nhập tái xuất, kinh doanh chuyển khẩu, gia công xăng dầu xuất khẩu; pha chế xăng dầu; mua bán, phân phối xăng dầu tại thị trường trong nước; tiếp nhận, bảo quản và vận chuyên xăng dau.'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng Thông tư này áp dụng đối với thương nhân theo quy định của Luật Thương mại, có hoạt động kinh doanh xăng dầu và tô chức, cá nhân khác có liên quan đến quản lý tỷ lệ hao hụt xăng dầu trong hoạt động kinh doanh xăng dầu tại thị trường Việt Nam.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Giải thích từ ngữ 1. Hao hụt xăng dầu là sự thiếu hụt xăng dầu về lượng so với lượng xăng dầu ban đầu do bay hơi tự nhiên, bám dính, ảnh hưởng của các yếu tố về công nghệ, kỹ thuật trong quá trình giao nhận nhập, xuất, tồn chứa, súc rửa bồn bẻ, phương tiện vận chuyền, pha chế, vận chuyền, chuyên tai, bán lẻ xăng dầu.
+      trang_pdf: 3
+    - dieu: 6
+      noi_dung: Điều 6. Tỷ lệ hao hụt xăng dầu công đoạn nhập 1. Hao hụt xăng dầu công đoạn nhập được xác định bằng hiệu số của lượng xăng dầu tại thiết bị chứa xăng dầu của phương tiện vận chuyền hoặc bồn, bé chứa trước khi nhập trừ đi lượng xăng dầu thực tế nhận được tại bồn, bể hoặc lượng xác định tại đồng hồ.
+      trang_pdf: 4
+    - dieu: 7
+      noi_dung: Điều 7. Tý lệ hao hụt xăng dầu công đoạn xuất 1. Hao hụt xăng dầu công đoạn xuất được xác định bằng hiệu số của lượng xăng dâu xuât đi tại bon, bê xuât trừ đi lượng nhận tại thiệt bi chứa xăng dau của phương tiện vận chuyền hoặc bon, bê hoặc lượng xác định tại đông ho.
+      trang_pdf: 6
+    - dieu: 9
+      noi_dung: Điều 9. Tỷ lệ hao hụt xăng dầu trong công đoạn súc rửa 1. Hao hụt xăng dầu trong công đoạn súc rửa bồn, bé chứa, phương tiện vận chuyền là lượng xăng dầu thiếu hụt do bay hơi, bám dính vào thành bồn, bé chứa, phương tiện vận chuyên, không bao gồm lượng xăng dầu lẫn vào bùn cặn ở đáy thiết bị bồn, bể chứa, phương tiện vận chuyên khi súc rửa không sử dụng được.
+      trang_pdf: 7
+    - dieu: 10
+      noi_dung: Điều 10. Tỷ lệ hao hụt xăng dầu trong công đoạn pha chế 1. Hao hụt xăng dầu trong công đoạn pha chế được xác định bằng hiệu số của tổng lượng các thành phần pha chế đầu vào trừ đi lượng thành phẩm xăng dầu đầu ra.
+      trang_pdf: 7
+    - dieu: 12
+      noi_dung: Điều 12. Tỷ lệ hao hụt xăng dầu công đoạn chuyển tải 1. Hao hụt xăng dầu công đoạn chuyền tải được xác định bằng hiệu số của lượng xăng dâu chuyền tải xác định từ tàu lớn hoặc phương tiện vận tải khác trừ đi lượng xăng dau xác định nhận tại tàu nhỏ hoặc phương tiện vận tải.
+      trang_pdf: 8
+    - dieu: 13
+      noi_dung: Điều 13. Tỷ lệ hao hụt xăng dầu công đoạn xuất từ bể chứa đến cột bơm xăng dầu tại cửa hàng bán lẻ xăng dầu va từ phương tiện tra nap hoặc bé chứa nhiên liệu hàng không đến đồng hồ xuất lên máy bay 1. Hao hụt xăng dầu tại cửa hàng bán lẻ xăng dầu được xác định bằng tổng lượng hao hụt xăng dầu của các công đoạn nhập, xuất, tồn chứa và súc rửa.
+      trang_pdf: 8
+    - dieu: 16
+      noi_dung: Điều 16. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kế từ ngày 01 tháng 01 năm 2027. 2. Thông tư này thay thế Thông tư số 43/2015/TT-BCT ngày 08 tháng 12 năm 2015 của Bộ trưởng Bộ Công Thương quy định tỷ lệ hao hụt xăng dâu trong hoạt động kinh doanh xăng dầu. 3. Trường hợp các văn bản quy phạm pháp luật dẫn chiếu tại Thông tư này được sửa đôi, bô sung hoặc thay thê thì áp dụng theo các văn bản mới ban hành.
+      trang_pdf: 10
 ghi_chu: Quy định tỷ lệ hao hụt xăng dầu trong hoạt động kinh doanh xăng dầu (ban hành 30-10-2026, có hiệu lực từ 01-01-2027, thay thế Thông tư 43/2015/TT-BCT).
-toan_van: raw/download/moit.gov.vn/68-2026-tt-bct.pdf
+toan_van:
+  - raw/download/moit.gov.vn/68-2026-tt-bct.pdf
+  - raw/ocr/68-2026-tt-bct.ocr.txt

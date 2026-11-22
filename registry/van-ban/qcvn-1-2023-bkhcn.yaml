@@ -30,5 +30,24 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Ban hành kèm theo Thông tư này Quy chuẩn kỹ thuật quốc gia về xăng, nhiên liệu điêzen và nhiên liệu sinh học (QCVN 01:2022/BKHCN).
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 02 năm 2023. 2. Các văn bản quy phạm pháp luật sau đây hết hiệu lực thi hành theo quy định về ` lộ trình áp dụng tại Điều 3 và điều khoản chuyền tiếp tại Điều 4 Thông tư này:'
+      trang_pdf: 1
+    - dieu: 3
+      khoan: 2
+      noi_dung: 2. Khuyến khích các doanh nghiệp, tổ chức, cá nhân sản xuất, pha chế, nhập khẩu và phân phối xăng, nhiên liệu điêzen và nhiên liệu sinh học áp dụng các quy định tại QCVN 01:2022/BKHCN kê từ ngày Thông tư này có hiệu lực.
+      trang_pdf: 2
+    - dieu: 4
+      noi_dung: Điều 4. Điều khoản chuyến tiếp 1. Doanh nghiệp, tổ chức, cá nhân được lựa chọn áp dụng theo Sửa đổi 1:2017 QCVN 1:2015/BKHCN và QCVN 1:2015/BKHCN hoặc theo QCVN 01:2022/BKHCN đối với các sản phẩm xăng, nhiên liệu điêzen mức 2, mức 3, mức 4 sản xuất, pha chế, nhập khâu, phân phối từ ngày 01 tháng 02 năm 2023 đến ngày 15 tháng 6 năm 2023.
+      trang_pdf: 2
+    - dieu: 5
+      noi_dung: Điều 5. Tố chức thực hiện i. “Tổng cục trưởng Tổng cục Tiêu chuẩn Đo lường Chất lượng có trách nhiệm tổ chức hướng dẫn, phô biến, tuyên truyền, triển khai thực hiện Thông tư này. 2. Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương và các tô chức, cá nhân liên quan chịu trách nhiệm thi hành Thông tư này.
+      trang_pdf: 2
 ghi_chu: Quy chuẩn kỹ thuật quốc gia về xăng, nhiên liệu điêzen và nhiên liệu sinh học — ký hiệu chính thức QCVN 01:2022/BKHCN (kèm TT 16/2022/TT-BKHCN, hiệu lực 01-02-2023) và Sửa đổi 01:2026 QCVN 01:2022/BKHCN (kèm TT 19/2026/TT-BKHCN, hiệu lực 30-04-2026).
-toan_van: raw/download/datafiles.chinhphu.vn/qcvn-1-2023-bkhcn.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/qcvn-1-2023-bkhcn.pdf
+  - raw/ocr/qcvn-1-2023-bkhcn.ocr.txt

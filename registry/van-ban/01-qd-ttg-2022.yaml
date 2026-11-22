@@ -19,5 +19,20 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phê duyệt Kế hoạch thực hiện Hiệp định Đối tac Kinh tế Toàn diện Khu vực (Hiệp định RCEP): 1. Mục tiêu: Phân công nhiệm vụ, trách nhiệm cho các cơ quan, tổ chức liên quan, quyết định biện pháp chỉ đạo, điều hành và các biện pháp khác dé triển khai thực hiện đầy đủ và có hiệu quả Hiệp định nảy.'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Tổ chức thực hiện 1. Trên cơ sở mục tiêu, nhiệm vụ được phê duyệt tại Kế hoạch thực hiện này và căn cứ chức năng, nhiệm vụ đã được phân công, các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương chỉ đạo xây dựng Kế hoạch thực hiện của bộ, ngành, địa phương gửi Bộ Công Thương trước ngày 15 tháng 02 năm 2022 dé tổng hợp và báo cáo Thủ tướng Chính
+      trang_pdf: 4
+    - dieu: 3
+      noi_dung: Điều 3. Quyết định này có hiệu lực thi hành kế từ ngày ký ban hành.
+      trang_pdf: 4
+    - dieu: 4
+      noi_dung: Điều 4. Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và Thủ trưởng các cơ quan có liên quan chịu trách nhiệm thi hành Quyết định nay./.
+      trang_pdf: 4
 ghi_chu: Kế hoạch thực hiện Hiệp định RCEP; được viện dẫn làm căn cứ ban hành QĐ 328/QĐ-TTg (2022).
-toan_van: raw/download/datafiles.chinhphu.vn/01-qd-ttg-2022.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/01-qd-ttg-2022.pdf
+  - raw/ocr/01-qd-ttg-2022.ocr.txt
