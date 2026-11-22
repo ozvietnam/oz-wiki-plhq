@@ -723,8 +723,8 @@ flowchart LR
   n_108_2025_N__CP -->|sửa đổi Phụ lục I - Biểu thuế xuất khẩu theo Danh mục mặt hàng chịu thuế (mặt hàng clanhke xi măng nhóm 25.23) từ 2025-05-19| n_26_2023_N__CP
   n_108_2025_QH15 -->|thay thế từ 2026-07-01| n_38_2019_QH14
   n_108_2025_QH15 -->|thay thế từ 2026-07-01| n_56_2024_QH15
-  n_112_2022_N__CP -->|thay thế| n_154_2017_N__CP
-  n_113_2022_N__CP -->|thay thế| n_150_2017_N__CP
+  n_112_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_154_2017_N__CP
+  n_113_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_150_2017_N__CP
   n_114_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_39_2020_N__CP
   n_115_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_57_2019_N__CP
   n_116_2022_N__CP -->|thay thế| n_111_2020_N__CP
