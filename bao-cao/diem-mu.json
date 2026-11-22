@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-22",
-  "tong": 3146,
+  "tong": 3144,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -7095,15 +7095,6 @@
       "trongSo": 0
     },
     {
-      "ma": "WIKI_CHUA_CO_VB_NEN_TANG",
-      "muc": "Vừa",
-      "tieuDe": "199/2025/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/199-2025-nd-cp.md",
-      "muc_tieu": "199/2025/NĐ-CP",
-      "viec": "Đã có toàn văn (raw/download/datafiles.chinhphu.vn/199-2025-nd-cp.pdf) nhưng chưa có wiki/sources/199-2025-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
       "ma": "TB_TCHQ_KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "199/TB-TCHQ/2018: TB-TCHQ chưa có nguồn chính thống",
@@ -7838,15 +7829,6 @@
       "tieuDe": "21/2011/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/21-2011-nd-cp.md",
       "muc_tieu": "21/2011/NĐ-CP",
       "viec": "Đã có toàn văn (raw/download/vanban.chinhphu.vn/21-2011-nd-cp.html) nhưng chưa có wiki/sources/21-2011-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_CHUA_CO_VB_NEN_TANG",
-      "muc": "Vừa",
-      "tieuDe": "21/2025/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/21-2025-nd-cp.md",
-      "muc_tieu": "21/2025/NĐ-CP",
-      "viec": "Đã có toàn văn (raw/download/datafiles.chinhphu.vn/21-2025-nd-cp.pdf) nhưng chưa có wiki/sources/21-2025-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.",
       "luong": "doc-hieu",
       "trongSo": 0
     },
@@ -9697,8 +9679,8 @@
     },
     {
       "ma": "THIEU_VBHN",
-      "muc": "Vừa",
-      "tieuDe": "26/2023/NĐ-CP đã bị sửa đổi 4 lần nhưng chưa có văn bản hợp nhất",
+      "muc": "Cao",
+      "tieuDe": "26/2023/NĐ-CP đã bị sửa đổi 7 lần nhưng chưa có văn bản hợp nhất",
       "muc_tieu": "26/2023/NĐ-CP",
       "viec": "Tìm văn bản hợp nhất (VBHN) của 26/2023/NĐ-CP trên vanban.chinhphu.vn; nếu có, thêm vào sổ kèm quan_he.hop_nhat trỏ về 26/2023/NĐ-CP.",
       "luong": "nap-lam-sach",
@@ -23475,15 +23457,6 @@
       "trongSo": 0
     },
     {
-      "ma": "WIKI_CHUA_CO_VB_NEN_TANG",
-      "muc": "Vừa",
-      "tieuDe": "73/2025/NĐ-CP: văn bản nền tảng chưa có trang wiki/sources/73-2025-nd-cp.md",
-      "muc_tieu": "73/2025/NĐ-CP",
-      "viec": "Đã có toàn văn (raw/download/datafiles.chinhphu.vn/73-2025-nd-cp.pdf) nhưng chưa có wiki/sources/73-2025-nd-cp.md. Tóm tắt và nạp vào wiki/sources/ theo wiki/chuan-mau-wiki-source.md.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
       "ma": "TB_TCHQ_KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "7300/TB-TCHQ/2018: TB-TCHQ chưa có nguồn chính thống",
@@ -25686,6 +25659,15 @@
       "muc_tieu": "99899/TB-TCHQ/2023",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_NHAC_CHUA_DANG_KY",
+      "muc": "Vừa",
+      "tieuDe": "Wiki nhắc 71/2006/QH11 nhưng sổ chưa có",
+      "muc_tieu": "71/2006/QH11",
+      "viec": "Thêm vào sổ (wiki/sources/199-2025-nd-cp.md, wiki/sources/21-2025-nd-cp.md, wiki/sources/73-2025-nd-cp.md).",
+      "luong": "lien-ket-cheo",
       "trongSo": 0
     },
     {

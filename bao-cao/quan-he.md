@@ -697,9 +697,11 @@ flowchart LR
   n_18_2021_N__CP["18/2021/NĐ-CP<br/>còn hiệu lực"]
   n_134_2016_N__CP["134/2016/NĐ-CP<br/>còn hiệu lực"]
   n_182_2025_N__CP["182/2025/NĐ-CP<br/>còn hiệu lực"]
+  n_199_2025_N__CP["199/2025/NĐ-CP<br/>còn hiệu lực"]
   n_201_2026_N__CP["201/2026/NĐ-CP<br/>còn hiệu lực"]
   n_206_2025_N__CP["206/2025/NĐ-CP<br/>còn hiệu lực"]
   n_127_2022_N__CP["127/2022/NĐ-CP<br/>hết hiệu lực"]
+  n_21_2025_N__CP["21/2025/NĐ-CP<br/>còn hiệu lực"]
   n_26_2015_TT_BTC["26/2015/TT-BTC<br/>hết hiệu lực"]
   n_219_2013_TT_BTC["219/2013/TT-BTC<br/>hết hiệu lực"]
   n_57_2020_N__CP["57/2020/NĐ-CP<br/>hết hiệu lực"]
@@ -713,6 +715,7 @@ flowchart LR
   n_66_2025_QH15["66/2025/QH15<br/>còn hiệu lực"]
   n_03_2022_QH15["03/2022/QH15<br/>hết hiệu lực một phần"]
   n_72_2026_N__CP["72/2026/NĐ-CP<br/>còn hiệu lực"]
+  n_73_2025_N__CP["73/2025/NĐ-CP<br/>còn hiệu lực"]
   n_86_2026_TT_BTC["86/2026/TT-BTC<br/>còn hiệu lực"]
   n_06_2021_TT_BTC["06/2021/TT-BTC<br/>hết hiệu lực"]
   n_38_2015_TT_BTC["38/2015/TT-BTC<br/>còn hiệu lực"]
@@ -743,8 +746,10 @@ flowchart LR
   n_15_2023_Q__TTg -->|bãi bỏ toàn bộ từ 2023-07-15| n_45_2017_Q__TTg
   n_18_2021_N__CP -->|sửa đổi| n_134_2016_N__CP
   n_182_2025_N__CP -->|sửa đổi| n_134_2016_N__CP
+  n_199_2025_N__CP -->|sửa đổi bổ sung điểm c.3.6, c.3.7 và bãi bỏ điểm a.7 khoản 3 Điều 8; bãi bỏ điểm 1 phần Chú giải mặt hàng Chương 72 Mục I Phụ lục II; sửa đổi mức thuế suất thuế xuất khẩu tại Phụ lục I (nhóm 28.04) và thuế suất thuế nhập khẩu ưu đãi tại Phụ lục II (nhóm 39.01, 39.02, 72.09) từ 2025-07-08| n_26_2023_N__CP
   n_201_2026_N__CP -->|sửa đổi Phụ lục I — thuế suất thuế xuất khẩu một số mặt hàng thuộc nhóm 25.29 và 81.06 từ 2026-07-23| n_26_2023_N__CP
   n_206_2025_N__CP -->|bãi bỏ toàn bộ từ 2025-07-15| n_127_2022_N__CP
+  n_21_2025_N__CP -->|sửa đổi tên Điều 9 và khoản 1 Điều 9 (kéo dài Chương trình ưu đãi thuế công nghiệp hỗ trợ ô tô đến ngày 31/12/2027) từ 2025-02-10| n_26_2023_N__CP
   n_26_2015_TT_BTC -->|sửa đổi| n_219_2013_TT_BTC
   n_26_2023_N__CP -->|bãi bỏ toàn bộ từ 2023-07-15| n_57_2020_N__CP
   n_346_2025_N__CP -->|thay thế toàn bộ từ 2026-01-01| n_53_2020_N__CP
@@ -754,6 +759,7 @@ flowchart LR
   n_56_2024_QH15 -->|sửa đổi từ 2025-01-01| n_38_2019_QH14
   n_66_2025_QH15 -->|thay thế Điều 8 (sửa đổi, bổ sung một số điều của Luật Thuế tiêu thụ đặc biệt) từ 2026-01-01| n_03_2022_QH15
   n_72_2026_N__CP -->|sửa đổi thuế suất NK ưu đãi một số mặt hàng xăng, dầu từ 2026-03-09| n_26_2023_N__CP
+  n_73_2025_N__CP -->|sửa đổi Phụ lục II — sửa đổi mức thuế suất thuế nhập khẩu ưu đãi của một số mặt hàng tại Mục I và bổ sung mặt hàng Ethane (mã 9853.00.00, tương ứng 2711.19.00, thuế suất 0%) vào Chương 98 tại khoản 3 Mục II Phụ lục II từ 2025-03-31| n_26_2023_N__CP
   n_86_2026_TT_BTC -->|bãi bỏ toàn bộ từ 2026-07-01| n_06_2021_TT_BTC
   n_86_2026_TT_BTC -->|bãi bỏ Điều 104, 105, 131, 132, 134, 135, 140 (phần miễn thuế) từ 2026-07-01| n_38_2015_TT_BTC
   n_86_2026_TT_BTC -->|bãi bỏ khoản 64, 65, 67, 68, 71 Điều 1 từ 2026-07-01| n_39_2018_TT_BTC
