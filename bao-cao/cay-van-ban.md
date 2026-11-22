@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-3024 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3028 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2328 văn bản, 2328 chưa hết hiệu lực.
+2332 văn bản, 2332 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -571,18 +571,22 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [32816/TB-CHQ/2025](../registry/van-ban/32816-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3901.40.00)
 - 🟢 [32817/TB-CHQ/2025](../registry/van-ban/32817-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3901.40.00)
 - 🟢 [32168/TB-CHQ/2025](../registry/van-ban/32168-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Bộ nguồn chuyển mạch dùng cho màn hình tivi, ký mã hiệu Model L75S6_FWD / Product S5T75R261B1/WVD, mã số 8504.40.90)
+- 🟢 [30917/TB-CHQ/2025](../registry/van-ban/30917-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Nắp rửa điện tử/nắp đậy và bệ ngồi điện tử của bồn cầu bằng nhựa, ký mã hiệu TCF33320GAA#NW1, mã số 8516.79.90)
 - 🟢 [30659/TB-CHQ/2025](../registry/van-ban/30659-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (7312.10.99)
 - 🟢 [30820/TB-CHQ/2025](../registry/van-ban/30820-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3808.94.90)
 - 🟢 [30872/TB-CHQ/2025](../registry/van-ban/30872-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3005.10.10)
 - 🟢 [29001/TB-CHQ/2025](../registry/van-ban/29001-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
 - 🟢 [29002/TB-CHQ/2025](../registry/van-ban/29002-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
+- 🟢 [29057/TB-CHQ/2025](../registry/van-ban/29057-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Bộ sản phẩm loa âm thanh vòm 11.1.4 kênh gồm loa thanh, loa trầm và 2 loa phụ đóng gói bán lẻ, ký mã hiệu HW-Q990F/XL, mã số 8518.22.10)
 - 🟢 [28738/TB-CHQ/2025](../registry/van-ban/28738-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.90)
 - 🟢 [28739/TB-CHQ/2025](../registry/van-ban/28739-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
 - 🟢 [28740/TB-CHQ/2025](../registry/van-ban/28740-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
 - 🟢 [26287/TB-CHQ/2025](../registry/van-ban/26287-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2202.99.50)
+- 🟢 [25954/TB-CHQ/2025](../registry/van-ban/25954-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Hộp đựng đồ bên hông xe máy bằng nhựa ABS dung tích 15 lít, ký mã hiệu Motocycle Side box TD25, mã số 4202.12.99)
 - 🟢 [25148/TB-CHQ/2025](../registry/van-ban/25148-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
 - 🟢 [25150/TB-CHQ/2025](../registry/van-ban/25150-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (7312.10.99)
 - 🟢 [25114/TB-CHQ/2025](../registry/van-ban/25114-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.32.90)
+- 🟢 [24781/TB-CHQ/2025](../registry/van-ban/24781-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Loa chưa lắp vào vỏ loa/Unit speaker dùng sản xuất loa thanh soundbar, ký mã hiệu HUNFF00010A, mã số 8518.29.90)
 - 🟢 [24068/TB-CHQ/2025](../registry/van-ban/24068-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.99)
 - 🟢 [24069/TB-CHQ/2025](../registry/van-ban/24069-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.99)
 - 🟢 [21396/TB-CHQ/2025](../registry/van-ban/21396-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2103.90.13)
