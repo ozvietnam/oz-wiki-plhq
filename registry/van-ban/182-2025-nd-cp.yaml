@@ -18,9 +18,35 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'số hiệu, trích yếu, ngày ban hành 01-07-2025 và ngày có hiệu lực 01-07-2025 trên vanban.chinhphu.vn (docid=214329), kèm toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/182-2025-nd-cp.pdf, wiki/sources/182-2025-nd-cp.md); đối chiếu còn hiệu lực, sửa đổi bổ sung 134/2016/NĐ-CP'
+  pham_vi: số hiệu, trích yếu, ngày ban hành 01-07-2025 và ngày có hiệu lực 01-07-2025 trên vanban.chinhphu.vn (docid=214329), kèm toàn văn PDF ký số (raw/download/datafiles.chinhphu.vn/182-2025-nd-cp.pdf, 4 trang) và bản OCR (raw/ocr/182-2025-nd-cp.ocr.txt, wiki/sources/182-2025-nd-cp.md); đối chiếu còn hiệu lực, sửa đổi bổ sung 134/2016/NĐ-CP (đã sửa bởi 18/2021/NĐ-CP)
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-22'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: Thẻ cổng Chính phủ, người ký Hồ Đức Phớc. Trích yếu nói nghị định này sửa 134/2016/NĐ-CP sau khi nghị định đó đã được 18/2021/NĐ-CP sửa. Chưa đọc điều khoản nên chưa ghi phạm vi sửa và chưa đặt hieu_luc_da_doi_chieu.
-toan_van: raw/download/datafiles.chinhphu.vn/182-2025-nd-cp.pdf
+  dieu_khoan:
+    - dieu: 1
+      khoan: 1
+      noi_dung: '1. Sửa đổi, bd sung Điều 24 như sau: “Điều 24. Miễn thuế hàng hóa nhập khẩu để phát triển khoa học, công nghệ, đỗi mới sáng tạo, công nghiệp công nghệ số'
+      trang_pdf: 1
+    - dieu: 1
+      khoan: 1
+      noi_dung: Hết thời hạn miễn thuế 05 năm quy định tại điểm c khoản 21 Điều 16 Luật Thuế xuất khẩu, thuế nhập khẩu đã được sửa đổi, bổ sung tại Luật số 90/2025/QH15, người nộp thuế phải kê khai, nộp đủ thuế theo quy định đối với lượng nguyên liệu, vật tư, linh kiện nhập khẩu đã được miễn thuế nhưng không sử dụng hết. 5. Hàng hóa nhập khẩu quy định tại các điểm b, c và d khoản 21 Điều 16 Luật Thuế xuất khẩu, thuế nhập khẩu đã được sửa đổi, bổ sung tại Luật số 90/2025/QH15, thực hiện thông báo danh mục hàng hóa miễn thuế dự kiến nhập khẩu theo quy định tại Điều 30 Nghị định này.
+      trang_pdf: 2
+    - dieu: 1
+      khoan: 2
+      noi_dung: '2. Sửa đổi, bỗ sung, thay thế một số nội dung của Điều 30 như sau: a) Sửa đổi, bd sung khoản 1 như sau: _ “1. Các trường hợp thông báo danh mục hàng hóa miễn thuế dự kiến nhập khâu gôm các hàng hóa thuộc đôi tượng miễn thuê quy định tại các điểm b,c va d khoản 21 Điêu 16 Luật Thuê xuat khâu, thuê nhập khâu đã được sửa đôi, bổ sung tại Luật số 90/2025/QH15 và Điều 14, Điều 15, Điều 16, Điều 17, Điều 18, Điều 23 Nghị định này”.'
+      trang_pdf: 2
+    - dieu: 1
+      khoan: 2
+      diem: d
+      noi_dung: 'd) Sửa đổi, eS sa sung điểm] Shon 3 như sau: “i) Ban thuyét TiNHS dự án sản xuất. sản phẩm công nghệ số quy định tại điểm d khoản 21 Điều 16 Luật Thuế xuất khẩu, thuế nhập khẩu đã được sửa đổi, bd sung tại khoản 3 Điều 5 Luật số 90/2025/QH15: 01 bản chụp”.'
+      trang_pdf: 3
+    - dieu: 2
+      noi_dung: Điều 2. Thay thế, bãi bô một số từ, cụm từ, khoản, điều của Nghị định số 134/2016/ND- CP ngày 01 thang 9 năm 2016 của Chính phủ quy định chỉ tiết một số điều và biện pháp thi hành Luật Thuế xuất khẩu, thuế nhập khẩu đã được sửa đổi, bd sung theo Nghị định số 18/2021/NĐ-CP ngày 11 tháng 3 năm 2021 của Chính phủ 1. Bãi bỏ Điều 19 Nghị định số 134/2016/NĐ-CP ngày 01 tháng 9 năm 2016 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Thuế xuất khẩu, thuế nhập khẩu.
+      trang_pdf: 3
+    - dieu: 3
+      noi_dung: Điều 3. Điều khoản thi hành 1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025.
+      trang_pdf: 3
+ghi_chu: 'Thẻ cổng Chính phủ, người ký Phó Thủ tướng Hồ Đức Phớc. Đã OCR toàn văn 4 trang và trích 6 điều khoản nguyên văn bậc A: Điều 1 khoản 1 sửa Điều 24 NĐ 134/2016 (miễn thuế hàng hóa nhập khẩu phát triển KH&CN, đổi mới sáng tạo, công nghiệp công nghệ số theo Luật 90/2025/QH15), Điều 1 khoản 2 sửa Điều 30 (thông báo Danh mục miễn thuế), Điều 2 bãi bỏ Điều 19 NĐ 134/2016, Điều 3 hiệu lực từ 01/07/2025.'
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/182-2025-nd-cp.pdf
+  - raw/ocr/182-2025-nd-cp.ocr.txt
