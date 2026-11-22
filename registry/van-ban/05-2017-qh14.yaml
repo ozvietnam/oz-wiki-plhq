@@ -15,9 +15,39 @@ nguon:
     truy_cap: '2026-10-04'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Luật 05/2017/QH14 (Quốc hội KH 14, ban hành 12/06/2017) — Luật Quản lý ngoại thương. Hiệu lực từ 01/01/2018. Đã nạp toàn văn PDF datafiles.chinhphu.vn.'
+  pham_vi: 'Luật 05/2017/QH14 (Quốc hội KH 14, ban hành 12/06/2017) — Luật Quản lý ngoại thương. Hiệu lực từ 01/01/2018. Đã nạp toàn văn PDF datafiles.chinhphu.vn và OCR 52 trang (raw/ocr/05-2017-qh14.ocr.txt).'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-12'
   boi: legal-customs@ozvietnam
-ghi_chu: Thẻ cổng Chính phủ khớp Luật quản lý ngoại thương, người ký Nguyễn Thị Kim Ngân. Chưa đọc điều khoản thi hành. Codex@ozvietnam đã tải và kiểm tra PDF gốc 52 trang ngày 04/10/2026; PDF quét ảnh, cần OCR. Bản nhị phân chưa được đưa vào PR này do tải lên bị treo; chưa đặt toan_van. Xem dấu SHA-256 và bàn giao tại docs/thu-thap/2026-10-04-ba-luat-loi.json.
-toan_van: raw/download/datafiles.chinhphu.vn/05-2017-qh14.pdf
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Luật này quy định về biện pháp quản lý ngoại thương, phát triển hoạt động ngoại thương; giải quyêt tranh chấp về áp dụng biện pháp quản lý ngoại thương.'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: '1. Cơ quan quản lý nhà nước. 2. Thương nhân tham gia hoạt động ngoại thương. 3. Tổ chức, cá nhân trong nước và nước ngoài khác có liên quan.'
+      trang_pdf: 1
+    - dieu: 3
+      khoan: 1
+      noi_dung: '1. Hoạt động ngoại thương là hoạt động mua bán hàng hóa quốc tế được thực hiện đưới các hình thức xuất khẩu, nhập khẩu; tạm nhập, tái xuất; tạm xuất, tái nhập; chuyển khẩu; quá cảnh và các hoạt động khác có liên quan đến hoạt động mua bán hàng hóa quốc tế theo quy định của pháp luật và điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.'
+      trang_pdf: 1
+    - dieu: 8
+      noi_dung: '1. Cấm xuất khẩu là biện pháp do cơ quan nhà nước có thâm quyền quyết định không được đưa hàng hóa từ nội địa vào khu vực hải quan riêng hoặc đưa ra khỏi lãnh thô Việt Nam. 2. Cấm nhập khẩu là biện pháp do cơ quan nhà nước có thẩm quyền quyết định không được đưa hàng hóa từ khu vực hải quan riêng vào nội địa hoặc từ nước ngoài vào lãnh thô Việt Nam.'
+      trang_pdf: 6
+    - dieu: 32
+      noi_dung: '1. Chứng từ chứng nhận xuất xứ hàng hóa bao gồm: a) Giấy chứng nhận xuất xứ hàng hóa dưới dạng văn bản hoặc các hình thức khác có giá trị pháp lý tương đương do cơ quan, tô chức có thâm quyên cap cho thương nhân; b) Chứng từ tự chứng nhận xuất xứ hàng hóa do thương nhân phát hành theo quy định tại khoản 2 Điều 34 của Luật này. 2. Chính phủ quy định chỉ tiết về xuất xứ hàng hóa và chứng nhận xuất xứ hàng hóa.'
+      trang_pdf: 12
+    - dieu: 39
+      khoan: 3
+      noi_dung: '3. Hàng hóa kinh doanh tạm nhập, tái xuất phải được làm thủ tục hải quan khi nhập khâu vào lãnh thô Việt Nam và chịu sự kiểm tra, giám sát của cơ quan hải quan cho tới khi tái xuất ra khỏi lãnh thô Việt Nam.'
+      trang_pdf: 14
+    - dieu: 67
+      khoan: 1
+      noi_dung: '1. Các biện pháp phòng vệ thương mại bao gồm biện pháp chống bán phá giá, biện pháp chông trợ cấp và biện pháp tự vệ do Bộ trưởng Bộ Công Thương quyết định áp dụng đối với hàng hóa nhập khâu vào Việt Nam trong những trường hợp cụ thê.'
+      trang_pdf: 25
+    - dieu: 112
+      noi_dung: '1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 nam 2018. 2. Các pháp lệnh sau đây hết hiệu lực kế từ ngày Luật nay có hiệu lực thi hành, trừ trường hợp quy định tại Điêu 113 của Luật nay: a) Phap lệnh về Tự vệ trong nhập khẩu hàng hóa nước ngoài vào Việt Nam sô 42/2002/PL-UBTVQHI0; b) Pháp lệnh Chống bán phá giá hàng hóa nhập khẩu vào Việt Nam số 20/2004/PL-UBTVQHII; ‘c) Pháp lệnh Chống trợ cấp hàng hóa nhập khẩu vào Việt Nam số 22/2004/PL-UBTVQHII. 3. Bãi bỏ khoản 3 Điều 28, khoản 3 Điều 29, khoản 3 Điều 30, các điều 31, 33, 242, 243, 244, 245, 246 và 247 của Luật Thương mại so 36/2005/QH11.'
+      trang_pdf: 51
+ghi_chu: Thẻ cổng Chính phủ khớp Luật quản lý ngoại thương, người ký Nguyễn Thị Kim Ngân. Chưa đọc điều khoản thi hành. Codex@ozvietnam đã tải và kiểm tra PDF gốc 52 trang ngày 04/10/2026; PDF quét ảnh, cần OCR. Bản nhị phân chưa được đưa vào PR này do tải lên bị treo; chưa đặt toan_van. Xem dấu SHA-256 và bàn giao tại docs/thu-thap/2026-10-04-ba-luat-loi.json. Đã OCR 52 trang bản scan thành raw/ocr/05-2017-qh14.ocr.txt.
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/05-2017-qh14.pdf
+  - raw/ocr/05-2017-qh14.ocr.txt

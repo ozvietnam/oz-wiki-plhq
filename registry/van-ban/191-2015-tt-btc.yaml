@@ -20,11 +20,39 @@ nguon:
     truy_cap: '2026-11-12'
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-191-2015-tt-btc-18249.htm
     truy_cap: '2026-11-12'
-toan_van: raw/download/datafiles.chinhphu.vn/191-2015-tt-btc.pdf
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/191-2015-tt-btc.pdf
+  - raw/ocr/191-2015-tt-btc.ocr.txt
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'Đã đọc toàn văn PDF ký số trên datafiles.chinhphu.vn (191-btc.signed.pdf, 49 trang, người ký Thứ trưởng Đỗ Hoàng Anh Tuấn) và đối chiếu thẻ vanban.chinhphu.vn (docid=182774), congbao.chinhphu.vn (ID 18249, Công báo số 1209+1210): gồm 6 chương, 27 điều và các phụ lục biểu mẫu tờ khai hàng hóa trị giá thấp (MIC/MEC); Điều 26 khoản 1 quy định có hiệu lực thi hành từ ngày 01-01-2016 và bãi bỏ Thông tư 100/2010/TT-BTC ngày 09-07-2010, Thông tư 36/2011/TT-BTC ngày 16-03-2011. Đã đối chiếu tình trạng hiện hành: còn hiệu lực (được sửa đổi, bổ sung một phần bởi Thông tư 56/2019/TT-BTC ngày 23-08-2019 và Thông tư 29/2025/TT-BTC ngày 26-05-2025 có hiệu lực từ 09-07-2025).'
+  pham_vi: 'Đã đọc toàn văn PDF ký số trên datafiles.chinhphu.vn (191-btc.signed.pdf, 49 trang, người ký Thứ trưởng Đỗ Hoàng Anh Tuấn) và đối chiếu thẻ vanban.chinhphu.vn (docid=182774), congbao.chinhphu.vn (ID 18249, Công báo số 1209+1210): gồm 6 chương, 27 điều và các phụ lục biểu mẫu tờ khai hàng hóa trị giá thấp (MIC/MEC); Điều 26 khoản 1 quy định có hiệu lực thi hành từ ngày 01-01-2016 và bãi bỏ Thông tư 100/2010/TT-BTC ngày 09-07-2010, Thông tư 36/2011/TT-BTC ngày 16-03-2011. Đã đối chiếu tình trạng hiện hành: còn hiệu lực (được sửa đổi, bổ sung một phần bởi Thông tư 56/2019/TT-BTC ngày 23-08-2019 và Thông tư 29/2025/TT-BTC ngày 26-05-2025 có hiệu lực từ 09-07-2025). Đã OCR 49 trang bản scan thành raw/ocr/191-2015-tt-btc.ocr.txt.'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-12'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Thông tư này quy định thủ tục hải quan đối với hang hóa xuất khẩu, nhập khẩu, quá cảnh gửi qua dịch vụ chuyển phát nhanh quốc tế (dưới đây gọi là hàng hóa).'
+      trang_pdf: 2
+    - dieu: 2
+      noi_dung: '1. Doanh nghiệp cung ứng dich vụ chuyển phát nhanh quốc tế (dưới đây gọi là doanh nghiệp chuyển phát nhanh). 2. Tổ chức, cá nhân sử dụng dịch vụ của doanh nghiệp chuyển phát nhanh. 3. Doanh nghiệp kinh doanh kho bãi, địa điểm kiểm tra hải quan tập trung đối với hàng hóa chuyển phát nhanh. 4. Cơ quan Hải quan; công chức hải quan.'
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: '1. Chỉ cục Hải quan cửa khẩu. 2. Chi cục Hải quan quản lý địa điểm kiểm tra hải quan tập trung đối với hàng hóa chuyển phát nhanh đáp ứng các điều kiện quy định tại Thông tư này. 3. Chi cục hải quan quản lý hàng hóa theo loại hình gia công, sản xuất xuất khẩu của doanh nghiệp chế xuất gửi qua doanh nghiệp chuyên phát nhanh được thực hiện quy định tại Điều 58 Thông tư số 38/2015/TT-BTC ngày 25 tháng 3 năm 2015 của Bộ trưởng Bộ Tài chính quy định về thủ tục hải uan; kiểm tra, giám sát hải quan; thuế xuất khẩu, thuế nhập khẩu và quản lý thuê đối với hàng hoá xuất khẩu, nhập khẩu (dưới đây gọi là Thông tư số 38/2015/TT-BTC).'
+      trang_pdf: 2
+    - dieu: 6
+      khoan: 1
+      noi_dung: '1. Hàng hóa nhập khẩu được chia nhóm như sau: a) Nhóm 1: Hàng hóa nhập khẩu là tài liệu, chứng từ không có giá trị thương mại; b) Nhóm 2: Hàng hóa nhập khâu được miễn thuế trong định mức theo quy định hiện hành của Thủ tướng Chính phủ, trừ hàng hóa phải có giấy phép nhập khẩu hoặc thuộc đối tượng phải kiểm tra chuyên ngành; c) Nhóm 3: Hàng hóa nhập khẩu không thuộc điểm a, điểm b Khoản này.'
+      trang_pdf: 4
+    - dieu: 6
+      khoan: 2
+      noi_dung: '2. Hàng hóa xuất khâu được chia nhóm như sau: a) Nhóm 1: Hàng hóa xuất khẩu là tài liệu, chứng từ không có giá trị thương mại; b) Nhóm 2: Hàng hóa xuất khâu có trị giá dưới năm triệu đồng Việt Nam (5.000.000 đồng) và không có thuế xuất khâu, trừ hàng hóa phải có giấy phép xuất khẩu hoặc thuộc đối tượng phải kiểm tra chuyên ngành; c) Nhóm 3: Hàng hóa xuất khẩu không thuộc điểm a, điểm b Khoản này.'
+      trang_pdf: 4
+    - dieu: 8
+      khoan: 1
+      noi_dung: '1. Hồ sơ hải quan đối với hàng hóa quy định tại điểm a khoản 1 và điểm a khoản 2 Điêu 6 Thông tư này là Bản lược khai hàng hóa và Tờ khai tài liệu chứng từ không có giá trị thương mại (dưới đây gọi là Tờ khai tài liệu, chứng từ) theo Mau sô HQ 01-TKTLCT Phụ lục I ban hành kèm Thông tư này.'
+      trang_pdf: 5
+    - dieu: 26
+      khoan: 1
+      noi_dung: '1. Thông tư này có hiệu lực thi hành ngày 01 tháng 01 năm 2016. Bãi bỏ Thông tư sô 100/2010/TT-BTC ngày 09 tháng 7 năm 2010 của Bộ trưởng Bộ Tài chính quy định thủ tục hải quan đổi với hàng hóa xuất khẩu, nhập khâu gửi qua địch vụ chuyển phát nhanh đường hàng không quốc tế và Thông tư số 36/2011/TT-BTC ngày 16 tháng 03 năm 2011 của Bộ trưởng Bộ Tài chính quy định thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khâu, quá cảnh gửi qua dịch vụ chuyển phát nhanh đường bộ.'
+      trang_pdf: 23
 ghi_chu: 'Nạp từ nhu cầu khách tra (issue [miss] #403). Văn bản lõi về thủ tục hải quan đối với hàng hóa XNK, quá cảnh gửi qua dịch vụ chuyển phát nhanh quốc tế (chia nhóm 1, 2, 3; tờ khai trị giá thấp MIC/MEC; địa điểm kiểm tra, giám sát tập trung). Đã được sửa đổi, bổ sung bởi Thông tư 56/2019/TT-BTC và Thông tư 29/2025/TT-BTC.'
