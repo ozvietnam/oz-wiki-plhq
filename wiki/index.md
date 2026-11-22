@@ -313,4 +313,7 @@ Catalog nguồn wiki: xem thư mục [`sources/`](sources/).
 - [[sources/122-2024-nd-cp]]
 - [[sources/126-2021-nd-cp]]
 - [[sources/137-2020-nd-cp]]
+- [[sources/143-2026-nd-cp]]
+- [[sources/144-2024-nd-cp]]
+- [[sources/186-2026-nd-cp]]
 <!-- /lumina:index -->
