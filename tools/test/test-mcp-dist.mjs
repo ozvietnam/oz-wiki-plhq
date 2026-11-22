@@ -1,4 +1,4 @@
-// Test bộ tạo dữ liệu máy MCP (1.5.0): wiki-dist, dieu-khoan-dist, cas-index và CLI tools/dung.mjs.
+// Test bộ tạo dữ liệu máy MCP (1.5.0): wiki-dist, dieu-khoan-dist, cas-index, anh_xa_ahtn_cu, chinh-sach-mo-ta và CLI tools/dung.mjs.
 // Mọi kiểm thử chỉ ghi vào tmpdir() hoặc kiểm trong RAM — không chạm WORK/dist/ hay WORK/bao-cao/.
 import { mkdtempSync, mkdirSync, writeFileSync, cpSync, readFileSync, existsSync, rmSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
@@ -6,9 +6,11 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { napSo, ROOT, LUOC_DO_PHIEN_BAN } from '../lib/registry.mjs';
 import { dungJson } from '../dung.mjs';
+import { kiemTra } from '../kiem-tra.mjs';
 import { RE_SO_HIEU_WIKI, phanTichFrontmatter, tachChunks, dungWikiDist } from '../lib/wiki-dist.mjs';
-import { chuanHoaSlugDocHieu, dungDieuKhoan, dungCasIndex } from '../lib/dieu-khoan-dist.mjs';
-import { COT_CAS } from '../lib/danh-muc.mjs';
+import { chuanHoaSlugDocHieu, laDieuRac, dungDieuKhoan, dungCasIndex } from '../lib/dieu-khoan-dist.mjs';
+import { COT_CAS, dungChiMuc, dungChiMucTheoMa, docBieuThue, docAnhXaAhtn, kiemAnhXaAhtn, demLa } from '../lib/danh-muc.mjs';
+import { TU_DIEN_VIET_TAT_PLHQ, docChinhSachMoTa, kiemChinhSachMoTa, dungChinhSachMoTa } from '../lib/chinh-sach-mo-ta.mjs';
 
 let pass = 0;
 let fail = 0;
@@ -26,7 +28,7 @@ const makeTmp = (prefix) => {
   return d;
 };
 
-function soGia(vanBan, { wiki = {}, docHieu = {}, danhMuc = {} } = {}) {
+function soGia(vanBan, { wiki = {}, docHieu = {}, danhMuc = {}, extra = {} } = {}) {
   const root = makeTmp('kb-mcp-');
   mkdirSync(join(root, 'registry', 'van-ban'), { recursive: true });
   for (const f of ['cay-xnk.yaml', 'co-quan.yaml', 'nguon-uy-tin.yaml']) {
@@ -47,6 +49,11 @@ function soGia(vanBan, { wiki = {}, docHieu = {}, danhMuc = {} } = {}) {
   for (const [file, body] of Object.entries(danhMuc)) {
     mkdirSync(join(root, 'danh-muc'), { recursive: true });
     writeFileSync(join(root, 'danh-muc', file), body);
+  }
+  for (const [rel, body] of Object.entries(extra)) {
+    const full = join(root, rel);
+    mkdirSync(join(full, '..'), { recursive: true });
+    writeFileSync(full, body);
   }
   return root;
 }
@@ -172,6 +179,9 @@ try {
       '07-2023-tt-nhnn-body-ocr.dieu.jsonl': [
         JSON.stringify({ dieu: 'Điều 1', ten: 'Phạm vi', tom_tat: 'Tóm tắt Đ1', nghia_vu_xnk: ['Nghĩa vụ A', ''], nguon_trich: 'gemma-4-e4b' }),
         '{dòng JSON hỏng không crash',
+        JSON.stringify({ dieu: '-', ten: 'Phụ lục gạch', tom_tat: 'Rác 1', nghia_vu_xnk: [] }),
+        JSON.stringify({ dieu: 'N/A', ten: 'Không rõ', tom_tat: 'Rác 2', nghia_vu_xnk: [] }),
+        JSON.stringify({ dieu: '', ten: 'Trống', tom_tat: 'Rác 3', nghia_vu_xnk: [] }),
         JSON.stringify({ dieu: 'Điều 2', ten: 'Hiệu lực', tom_tat: 'Tóm tắt Đ2', nghia_vu_xnk: [] }),
       ].join('\n') + '\n',
     },
@@ -199,6 +209,15 @@ try {
     && dkRes.thong_ke.so_dong_loi === 1,
     JSON.stringify(dkRes.thong_ke));
 
+  t('dieu-khoan: lọc dòng rác (dieu: "-", "N/A", rỗng) vào so_dong_rac_da_loc, giữ Điều N và NGUYEN_VAN_NGUON_A',
+    dkRes.thong_ke.so_dong_rac_da_loc === 3
+    && dkRes.tom_tat_nhap[0].dieu_khoan.map((x) => x.dieu).join(',') === 'Điều 1,Điều 2'
+    && dkRes.nguyen_van_nguon_a[0].dieu_khoan.length === 1
+    && dkRes.nguyen_van_nguon_a[0].dieu_khoan[0].dieu === 4
+    && laDieuRac('-') && laDieuRac('N/A') && laDieuRac('') && laDieuRac(null)
+    && !laDieuRac('Điều 1') && !laDieuRac('Điều 1a') && !laDieuRac('12'),
+    JSON.stringify(dkRes.thong_ke));
+
   const casRes = dungCasIndex(napSo(rDk), rDk, '2026-11-21');
   t('cas-index: nối 24-2026-nd-cp-cas.csv, gộp nhiều phụ lục theo mã CAS, lọc bảng lỗi và tách khong_co_cas',
     casRes.luoc_do_phien_ban === '1.5.0'
@@ -210,11 +229,136 @@ try {
     && casRes.khong_co_cas[0].ten_chat === 'Diisocyanate',
     JSON.stringify(casRes.thong_ke));
 
+  // 4b. Ánh xạ AHTN cũ → EN2022 (anh_xa_ahtn_cu + kiemAnhXaAhtn)
+  const btGia = {
+    nguon: 'test', phien_ban: '2026-11-22', tong: 2,
+    ma: { '22030091': 'Bia', '30049099': 'Thuốc' },
+    la: new Set(['22030091', '30049099']),
+  };
+  const cmGiaAx = {
+    phien_ban: '2026-11-22', luoc_do_phien_ban: '1.5.0', giay_phep: 'CC BY 4.0',
+    van_ban: [{
+      so_hieu: '50/2026/TT-BCT', slug: '50-2026-tt-bct', ten: 'Danh mục thử', tinh_trang: 'CON_HIEU_LUC',
+      hieu_luc_tu: null, het_hieu_luc_tu: null, hieu_luc_da_doi_chieu: true,
+      dong: [
+        { ma_hs: '22030091', loai_tac_dong: 'KIEM_TRA_ATTP' },
+        { ma_hs: '30349099', loai_tac_dong: 'GIAY_PHEP' },
+        { ma_hs: '99999999', loai_tac_dong: 'GIAY_PHEP' },
+      ],
+    }],
+  };
+  const axGia = {
+    thong_tin: { phien_ban_cu: 'AHTN 2017', phien_ban_moi: 'EN2022' },
+    phan_loai: {},
+    mapping: {
+      '30349099': { hs_moi: '30049099', loai: 'loi_danh_may_3034' },
+      '11112222': { hs_moi: '22030091', loai: 'don_le' },
+      '77778888': { hs_moi: '66665555', loai: 'don_le' },
+    },
+  };
+  const cmMaAx = dungChiMucTheoMa(cmGiaAx, { bt: btGia, anhXaAhtn: axGia });
+  t('anh_xa_ahtn_cu: dungChiMucTheoMa gắn đúng mã thuộc canh_bao_ma và loại mã ngoài bảng/ngoài biểu thuế',
+    cmMaAx.canh_bao_ma.length === 2
+    && cmMaAx.canh_bao_ma.includes('30349099')
+    && cmMaAx.canh_bao_ma.includes('99999999')
+    && cmMaAx.anh_xa_ahtn_cu?.phien_ban_cu === 'AHTN 2017'
+    && cmMaAx.anh_xa_ahtn_cu?.phien_ban_moi === 'EN2022'
+    && cmMaAx.anh_xa_ahtn_cu?.tong_duoc_anh_xa === 1
+    && cmMaAx.anh_xa_ahtn_cu?.mapping['30349099']?.hs_moi === '30049099'
+    && cmMaAx.anh_xa_ahtn_cu?.mapping['30349099']?.loai === 'loi_danh_may_3034'
+    && !cmMaAx.anh_xa_ahtn_cu?.mapping['11112222']
+    && !cmMaAx.anh_xa_ahtn_cu?.mapping['77778888'],
+    JSON.stringify(cmMaAx.anh_xa_ahtn_cu));
+
+  const cmMaAxRong = dungChiMucTheoMa(cmGiaAx, { bt: btGia, anhXaAhtn: { thong_tin: {}, phan_loai: {}, mapping: {} } });
+  t('anh_xa_ahtn_cu: không có mã khớp trả tong_duoc_anh_xa = 0 sạch',
+    cmMaAxRong.anh_xa_ahtn_cu?.tong_duoc_anh_xa === 0 && Object.keys(cmMaAxRong.anh_xa_ahtn_cu?.mapping || {}).length === 0);
+
+  const loiAxBad = kiemAnhXaAhtn({
+    mapping: {
+      '123': { hs_moi: '30049099', loai: 'don_le' },
+      '30349099': { hs_moi: 'abc', loai: '' },
+      '22029999': { hs_moi: '88887777', loai: 'don_le' },
+    },
+  }, btGia);
+  t('kiemAnhXaAhtn âm tính: bắt mã cũ sai, hs_moi sai định dạng/ngoài biểu thuế và thiếu loai',
+    loiAxBad.some((m) => /mapping\["123"\] mã cũ không hợp lệ/.test(m))
+    && loiAxBad.some((m) => /mapping\["30349099"\] hs_moi "abc" không hợp lệ/.test(m))
+    && loiAxBad.some((m) => /mapping\["30349099"\] thiếu loai/.test(m))
+    && loiAxBad.some((m) => /mapping\["22029999"\] hs_moi "88887777" không tồn tại trong biểu thuế/.test(m)),
+    JSON.stringify(loiAxBad));
+
+  // 4c. Tầng 2 Chính sách theo mô tả + kiemChinhSachMoTa & kiemTra
+  const soCsGia = napSo(rDk);
+  const quyTacMau = {
+    id: 'quy-tac-mau',
+    ten: 'Quy tắc mẫu',
+    nhom_hang: 'Hàng mẫu',
+    tu_khoa_nhan_dien: ['hang mau'],
+    loai_tac_dong: 'GIAY_PHEP',
+    do_tin: 'VUA_SUY_RA',
+    can_cu_so_hieu: ['85/2026/TT-BTC'],
+    nghia_vu_tom_tat: 'Nghĩa vụ mẫu',
+    luu_y_loai_tru: 'Loại trừ mẫu',
+    ranh_gioi_hs_api: 'Chỉ gợi ý theo mô tả.',
+  };
+  const loiCsNull = kiemChinhSachMoTa(null, soCsGia);
+  const loiCsBad = kiemChinhSachMoTa({
+    quy_tac: [
+      quyTacMau,
+      {
+        ...quyTacMau,
+        id: 'quy-tac-mau',
+        ten: '',
+        tu_khoa_nhan_dien: [],
+        loai_tac_dong: 'PHAN_LOAI_HS_SAI',
+        do_tin: 'NGUON_A',
+        can_cu_so_hieu: ['999/2099/TT-KHONG-CO'],
+      },
+      { ...quyTacMau, id: 'ID Sai Dinh Dang' },
+    ],
+  }, soCsGia);
+  t('kiemChinhSachMoTa âm tính: chặn null, trùng id, slug sai, thiếu trường, từ khóa rỗng, loai_tac_dong/do_tin sai, can_cu ngoài sổ',
+    loiCsNull.length === 1
+    && loiCsBad.some((m) => /trùng id/.test(m))
+    && loiCsBad.some((m) => /thiếu ten/.test(m))
+    && loiCsBad.some((m) => /tu_khoa_nhan_dien rỗng/.test(m))
+    && loiCsBad.some((m) => /loai_tac_dong "PHAN_LOAI_HS_SAI" không hợp lệ/.test(m))
+    && loiCsBad.some((m) => /do_tin phải là "VUA_SUY_RA"/.test(m))
+    && loiCsBad.some((m) => /999\/2099\/TT-KHONG-CO.*không tồn tại/.test(m))
+    && loiCsBad.some((m) => /phải là slug/.test(m)),
+    JSON.stringify(loiCsBad));
+
+  const rKiemPhuTroBad = soGia({
+    '85-2026-tt-btc.yaml': `so_hieu: 85/2026/TT-BTC\nloai: THONG_TU\nten: Phân loại HS\nco_quan: BTC\nhieu_luc_tu: "2026-09-15"\ntinh_trang: CON_HIEU_LUC\nnhanh: [phan-loai-hs/quy-trinh-phan-loai]\n${NGUON_A}\n${XM}\n`,
+  }, {
+    extra: {
+      'danh-muc/chinh-sach-mo-ta.yaml': 'quy_tac:\n  - id: loi-can-cu\n    ten: Test lỗi\n    nhom_hang: Test\n    tu_khoa_nhan_dien: [test]\n    loai_tac_dong: GIAY_PHEP\n    do_tin: NGUON_A\n    can_cu_so_hieu: [777/2099/TT-MAU]\n    nghia_vu_tom_tat: x\n    luu_y_loai_tru: y\n    ranh_gioi_hs_api: z\n',
+      'registry/phien-ban-bieu-thue-mapping.yaml': 'mapping:\n  "30349099":\n    hs_moi: "99999999"\n    loai: ""\n',
+      'nhu-cau/bieu-thue.json': JSON.stringify({ nguon: 'test', phien_ban: '2026-11-22', tong: 1, ma: { '22030091': 'Bia' } }),
+    },
+  });
+  const kPhuTroBad = kiemTra(napSo(rKiemPhuTroBad), { root: rKiemPhuTroBad });
+  const kMockKhongRoot = kiemTra(soCsGia, {});
+  t('kiemTra: kiểm chinh-sach-mo-ta.yaml + mapping AHTN khi truyền root/opts, an toàn với kiemTra(mockSo, {})',
+    kPhuTroBad.loi.some((e) => e.file === 'danh-muc/chinh-sach-mo-ta.yaml' && /do_tin/.test(e.msg))
+    && kPhuTroBad.loi.some((e) => e.file === 'danh-muc/chinh-sach-mo-ta.yaml' && /777\/2099\/TT-MAU/.test(e.msg))
+    && kPhuTroBad.loi.some((e) => e.file === 'registry/phien-ban-bieu-thue-mapping.yaml' && /99999999/.test(e.msg))
+    && kPhuTroBad.loi.some((e) => e.file === 'registry/phien-ban-bieu-thue-mapping.yaml' && /thiếu loai/.test(e.msg))
+    && kMockKhongRoot.loi.length === 0,
+    JSON.stringify({ bad: kPhuTroBad.loi, mock: kMockKhongRoot.loi }));
+
   // 5. Kiểm dữ liệu thật trong RAM (không ghi ra WORK/dist/)
   const soReal = napSo(ROOT);
   const wReal = dungWikiDist(soReal, ROOT, '2026-11-21');
   const dkReal = dungDieuKhoan(soReal, ROOT, '2026-11-21');
   const casReal = dungCasIndex(soReal, ROOT, '2026-11-21');
+  const btReal = docBieuThue(ROOT);
+  const axReal = docAnhXaAhtn(ROOT);
+  const cmReal = dungChiMuc(soReal, ROOT, '2026-11-22');
+  const cmMaReal = dungChiMucTheoMa(cmReal, { bt: btReal, anhXaAhtn: axReal });
+  const csDataReal = docChinhSachMoTa(ROOT);
+  const csOutReal = dungChinhSachMoTa(soReal, ROOT, '2026-11-22');
 
   t('kho thật (RAM): wiki-index và wiki-chunks phủ >200 trang / >1500 đoạn, bỏ qua graph/index/log',
     wReal.index.tong >= 200
@@ -224,11 +368,13 @@ try {
     && wReal.chunks.chunks.some((c) => c.slug === '85-2026-tt-btc' && c.muc.includes(' > ')),
     JSON.stringify({ trang: wReal.index.tong, chunks: wReal.chunks.tong }));
 
-  t('kho thật (RAM): dieu-khoan có NGUYEN_VAN_NGUON_A (85/2026, 19/2026) + TOM_TAT_NHAP ≥ 80 VB, 0 dòng lỗi',
+  t('kho thật (RAM): dieu-khoan có NGUYEN_VAN_NGUON_A (85/2026, 19/2026) + TOM_TAT_NHAP ≥ 80 VB, lọc ≥ 400 dòng rác, 0 dòng lỗi',
     dkReal.nguyen_van_nguon_a.some((x) => x.so_hieu === '85/2026/TT-BTC')
     && dkReal.nguyen_van_nguon_a.some((x) => x.so_hieu === '19/2026/QH16')
     && dkReal.tom_tat_nhap.length >= 80
     && dkReal.thong_ke.so_dong_loi === 0
+    && dkReal.thong_ke.so_dong_rac_da_loc >= 400
+    && !dkReal.tom_tat_nhap.some((vb) => vb.dieu_khoan.some((dk) => laDieuRac(dk.dieu)))
     && dkReal.tom_tat_nhap.some((x) => x.so_hieu === '1725/QĐ-BCT')
     && dkReal.tom_tat_nhap.every((x) => x.da_soat === false && x.tang_tin_cay === 'TOM_TAT_NHAP'),
     JSON.stringify(dkReal.thong_ke));
@@ -241,9 +387,29 @@ try {
     && casReal.khong_co_cas.length >= 10,
     JSON.stringify(casReal.thong_ke));
 
+  t('kho thật (RAM): phien-ban-bieu-thue-mapping.yaml (114 mã, 0 lỗi) + anh_xa_ahtn_cu nối vào hs-index-theo-ma',
+    Object.keys(axReal?.mapping || {}).length === 114
+    && kiemAnhXaAhtn(axReal, btReal).length === 0
+    && cmMaReal.anh_xa_ahtn_cu?.tong_duoc_anh_xa >= 100
+    && Object.values(cmMaReal.anh_xa_ahtn_cu?.mapping || {}).every((v) => demLa(btReal, v.hs_moi) > 0),
+    JSON.stringify({ tong_mapping: Object.keys(axReal?.mapping || {}).length, anh_xa: cmMaReal.anh_xa_ahtn_cu?.tong_duoc_anh_xa }));
+
+  t('kho thật (RAM): chinh-sach-mo-ta (14 quy tắc, 25 viết tắt, đủ can_cu_chi_tiet, 0 lỗi kiểm)',
+    kiemChinhSachMoTa(csDataReal, soReal).length === 0
+    && csOutReal.luoc_do_phien_ban === '1.5.0'
+    && csOutReal.tong_quy_tac === 14
+    && csOutReal.quy_tac.length === 14
+    && Object.keys(TU_DIEN_VIET_TAT_PLHQ).length === 25
+    && Object.keys(csOutReal.tu_dien_viet_tat || {}).length === 25
+    && csOutReal.canh_bao_tang_2.includes('VUA_SUY_RA')
+    && csOutReal.quy_tac.every((r) => r.do_tin === 'VUA_SUY_RA'
+      && r.can_cu_chi_tiet.length === r.can_cu_so_hieu.length
+      && r.can_cu_chi_tiet.every((c) => Boolean(c.slug) && Boolean(c.tinh_trang))),
+    JSON.stringify({ quy_tac: csOutReal.tong_quy_tac, viet_tat: Object.keys(csOutReal.tu_dien_viet_tat || {}).length }));
+
   // 6. Chạy CLI tools/dung.mjs ra tmpdir() + kiểm ranh giới không tạo chu-giai-hs.json / chu-giai-chuong.json
   const tmpOut = makeTmp('kb-dung-out-');
-  execFileSync('node', [join(ROOT, 'tools', 'dung.mjs'), '--out', tmpOut], { cwd: ROOT, encoding: 'utf8' });
+  const dungStdout = execFileSync('node', [join(ROOT, 'tools', 'dung.mjs'), '--out', tmpOut], { cwd: ROOT, encoding: 'utf8' });
   const expectedFiles = [
     'registry.json',
     'hs-index.json',
@@ -252,17 +418,26 @@ try {
     'wiki-chunks.json',
     'dieu-khoan.json',
     'cas-index.json',
+    'chinh-sach-mo-ta.json',
   ];
   const allPresent = expectedFiles.every((f) => existsSync(join(tmpOut, 'dist', f)));
   const allSchemaOk = allPresent && expectedFiles.every((f) => {
     const obj = JSON.parse(readFileSync(join(tmpOut, 'dist', f), 'utf8'));
     return obj.luoc_do_phien_ban === '1.5.0';
   });
+  const hsTheoMaOut = allPresent ? JSON.parse(readFileSync(join(tmpOut, 'dist', 'hs-index-theo-ma.json'), 'utf8')) : null;
+  const csOutFile = allPresent ? JSON.parse(readFileSync(join(tmpOut, 'dist', 'chinh-sach-mo-ta.json'), 'utf8')) : null;
+  const dkOutFile = allPresent ? JSON.parse(readFileSync(join(tmpOut, 'dist', 'dieu-khoan.json'), 'utf8')) : null;
   const noBoundaryLeak = !existsSync(join(tmpOut, 'dist', 'chu-giai-hs.json'))
     && !existsSync(join(tmpOut, 'dist', 'chu-giai-chuong.json'));
-  t('CLI tools/dung.mjs --out tmpdir: xuất đủ 7 tệp dist/*.json (luoc_do_phien_ban = 1.5.0), không sinh chu-giai-hs/chuong',
-    allPresent && allSchemaOk && noBoundaryLeak && dungJson(napSo(rWiki)).luoc_do_phien_ban === '1.5.0',
-    JSON.stringify({ allPresent, allSchemaOk, noBoundaryLeak }));
+  t('CLI tools/dung.mjs --out tmpdir: xuất đủ 8 tệp dist/*.json (luoc_do_phien_ban = 1.5.0), không sinh chu-giai-hs/chuong',
+    allPresent && allSchemaOk && noBoundaryLeak && dungJson(napSo(rWiki)).luoc_do_phien_ban === '1.5.0'
+    && dungStdout.includes('dist/chinh-sach-mo-ta.json')
+    && hsTheoMaOut?.anh_xa_ahtn_cu?.tong_duoc_anh_xa >= 100
+    && csOutFile?.tong_quy_tac === 14
+    && Object.keys(csOutFile?.tu_dien_viet_tat || {}).length === 25
+    && dkOutFile?.thong_ke?.so_dong_rac_da_loc >= 400,
+    JSON.stringify({ allPresent, allSchemaOk, noBoundaryLeak, anhXa: hsTheoMaOut?.anh_xa_ahtn_cu?.tong_duoc_anh_xa, cs: csOutFile?.tong_quy_tac, rac: dkOutFile?.thong_ke?.so_dong_rac_da_loc }));
 } finally {
   for (const d of tmpDirs) {
     try { rmSync(d, { recursive: true, force: true }); } catch {}

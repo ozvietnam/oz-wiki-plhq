@@ -8,7 +8,7 @@ URL ổn định trên nhánh `main`: `https://raw.githubusercontent.com/ozvietn
 
 ## Phát hành ổn định (bản chụp gắn thẻ)
 
-Ngoài URL `main`, mỗi lần **bất kỳ** tệp nào trong gói `dist/` **đổi** so với `HEAD`, workflow `dung-lai-va-bao-hs-code-api` (`.github/workflows/bao-hs-code-api.yml`) tạo một GitHub Release gắn thẻ `dist-YYYY-MM-DD` (hậu tố `.N` nếu trùng ngày), đính kèm đủ bộ 7 tệp dữ liệu máy cùng bản băm:
+Ngoài URL `main`, mỗi lần **bất kỳ** tệp nào trong gói `dist/` **đổi** so với `HEAD`, workflow `dung-lai-va-bao-hs-code-api` (`.github/workflows/bao-hs-code-api.yml`) tạo một GitHub Release gắn thẻ `dist-YYYY-MM-DD` (hậu tố `.N` nếu trùng ngày), đính kèm bộ 7 tệp dữ liệu máy lõi (cộng tệp thứ 8 `chinh-sach-mo-ta.json` được chuẩn hoá cộng thêm ở `1.5.0`) cùng bản băm:
 
 - `registry.json`
 - `hs-index.json`
@@ -17,6 +17,7 @@ Ngoài URL `main`, mỗi lần **bất kỳ** tệp nào trong gói `dist/` **đ
 - `wiki-chunks.json`
 - `dieu-khoan.json`
 - `cas-index.json`
+- `chinh-sach-mo-ta.json` *(tệp thứ 8 — Tầng 2 theo mô tả & 25 viết tắt PLHQ, dựng bởi `dungChinhSachMoTa()` trong `tools/lib/chinh-sach-mo-ta.mjs`; cộng thêm trên `1.5.0`)*
 - `SHA256SUMS`
 
 Ba loại URL, hợp đồng như sau:
@@ -27,7 +28,7 @@ Ba loại URL, hợp đồng như sau:
 | `…/releases/latest/download/<tep>.json` | Đổi trỏ theo **mỗi** lần phát hành — cho bên muốn luôn bản mới nhưng không phụ thuộc `main` |
 | `raw.githubusercontent.com/…/main/dist/<tep>.json` | Luôn khớp nguồn trên `main` — giữ cho bên đang dùng, không xoá |
 
-Không tạo release nếu toàn bộ 7 tệp `dist/*.json` không đổi. Kiểm tải về bằng `SHA256SUMS` đính kèm; kiểm cấu trúc bằng `luoc_do_phien_ban` (so major — xem [Cấu trúc](#cấu-trúc) bên dưới).
+Không tạo release nếu các tệp `dist/*.json` được theo dõi không đổi. Kiểm tải về bằng `SHA256SUMS` đính kèm; kiểm cấu trúc bằng `luoc_do_phien_ban` (so major — xem [Cấu trúc](#cấu-trúc) bên dưới).
 
 Giấy phép **CC BY 4.0** — chuỗi ghi nguồn chuẩn (thống nhất 13/10/2026, dùng đúng chuỗi này ở mọi sản phẩm
 dẫn dữ liệu kho, kèm ngày `phien_ban` của bản đang dùng):
@@ -36,7 +37,7 @@ dẫn dữ liệu kho, kèm ngày `phien_ban` của bản đang dùng):
 
 ## Cấu trúc
 
-Tất cả 7 tệp máy trong `dist/` đều mang `luoc_do_phien_ban` — số semver chung của
+Tất cả các tệp máy trong `dist/` (7 tệp lõi do `tools/dung.mjs` ghi sẵn và lược đồ tệp thứ 8 `dist/chinh-sach-mo-ta.json`) đều mang `luoc_do_phien_ban` — số semver chung của
 **cấu trúc** (hiện tại `1.5.0` trong `tools/lib/registry.mjs`; riêng `phien_ban` là ngày dựng). Bên đọc
 so **major**: lệch major thì từ chối bản chụp và báo lỗi, thay vì trả sai tình trạng hiệu lực. Lịch sử
 lược đồ: [docs/luoc-do-so-dang-ky.md](luoc-do-so-dang-ky.md#lịch-sử-lược-đồ-tệp-máy).
@@ -99,17 +100,18 @@ danh sách văn bản áp** kèm `loai_tac_dong`, `muc_rui_ro`, `dieu_kien`, `ti
 khoá là tiền tố của mã (4, 6 số) và khoá trùng 8 số — ngữ nghĩa khớp tiền tố như khi tra thuận chiều;
 hướng dẫn bằng chữ nằm trong trường `cach_tra` của chính tệp.
 
-Từ **1.2.0** tệp này thêm ba khối đồng bộ quan điểm phân loại:
+Từ **1.2.0** tệp này thêm ba khối đồng bộ quan điểm phân loại, và từ **1.5.0 (cộng thêm Wave 8)** hỗ trợ thêm trường tuỳ chọn `anh_xa_ahtn_cu` (không phá major `1.x`):
 
 | Trường | Nghĩa | Bên đọc nên làm |
 |---|---|---|
 | `bieu_thue_doi_chieu` | Bản chụp biểu thuế đã dùng để soi (nguồn, phiên bản, số mã) + đếm nhóm mã không khớp | Ghi phiên bản khi trích dẫn |
 | `canh_bao_ma` | Nhóm mã **không có trong biểu thuế** (mã AHTN cũ hoặc trích lệch — vd `28389000` của 09/2024/TT-BYT) | Tra ra khoá này thì **dừng**, không kết luận diện áp; đối chiếu văn bản gốc |
 | `tien_le_tb_tchq` | Mật độ thông báo phân loại Tổng cục: `theo_ma_8` (721 mã 8 số, customs.gov.vn) + `theo_nhom_4` (397 nhóm, tracuuhs) | Chỉ tham khảo — văn bản cá biệt bậc C; tra chi tiết `npm run tien-le` |
+| `anh_xa_ahtn_cu` *(tuỳ chọn, `1.5.0` cộng thêm)* | Gợi ý ánh xạ mã trong `canh_bao_ma` sang EN2022 từ `registry/phien-ban-bieu-thue-mapping.yaml` khi đối chiếu với `bieu-thue.json`: `{ phien_ban_cu, phien_ban_moi, tong_duoc_anh_xa, ghi_chu, mapping: { [maCu]: { hs_moi, loai } } }` | Chỉ dùng để định vị đối chiếu sang biểu thuế EN2022; **không** tự áp mã HS thay cho kiểm tra văn bản gốc & `hs-code-api` |
 
-### Gói dữ liệu mới từ `1.5.0` phục vụ Cổng MCP hỏi đáp PLHQ (`ozplugin`)
+### Gói dữ liệu `1.5.0` phục vụ Cổng MCP hỏi đáp PLHQ (`ozplugin`)
 
-Từ phiên bản lược đồ `1.5.0`, `npm run dung` xuất thêm 4 tệp JSON chuyên dụng cho hỏi đáp pháp luật hải quan trên Cổng MCP (mọi tệp đều kèm `phien_ban`, `luoc_do_phien_ban`, `giay_phep`, `mien_tru`):
+Từ phiên bản lược đồ `1.5.0`, bộ dữ liệu máy cho Cổng MCP gồm 4 tệp JSON khởi đầu do `npm run dung` xuất (`wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`) và tệp thứ 8 `dist/chinh-sach-mo-ta.json` được chuẩn hoá cộng thêm (không phá major `1.x`, giữ nguyên `luoc_do_phien_ban: "1.5.0"`, tuyệt đối không xuất `chu-giai-hs.json` hay `chu-giai-chuong.json`; mọi tệp đều kèm `phien_ban`, `luoc_do_phien_ban`, `giay_phep`, `mien_tru`):
 
 #### 1. `dist/wiki-index.json` & `dist/wiki-chunks.json` (chỉ mục & đoạn wiki có neo hiệu lực)
 
@@ -127,7 +129,7 @@ Sinh từ `wiki/summary/*.md`, `wiki/concepts/*.md`, `wiki/sources/*.md` (bỏ q
 
 Phân tách tuyệt đối hai tầng dữ liệu điều khoản để Cổng MCP **không trộn nháp LLM với nguyên văn đã xác minh**:
 
-- **Đầu tệp:** `phien_ban`, `luoc_do_phien_ban`, `giay_phep`, `mien_tru`, `canh_bao_tang_nhap`, `thong_ke` (`so_van_ban_nguon_a`, `so_dieu_khoan_nguon_a`, `so_van_ban_tom_tat_nhap`, `so_dieu_khoan_tom_tat_nhap`, `so_tep_doc_hieu`, `so_dong_loi`).
+- **Đầu tệp:** `phien_ban`, `luoc_do_phien_ban`, `giay_phep`, `mien_tru`, `canh_bao_tang_nhap`, `thong_ke` (`so_van_ban_nguon_a`, `so_dieu_khoan_nguon_a`, `so_van_ban_tom_tat_nhap`, `so_dieu_khoan_tom_tat_nhap`, `so_tep_doc_hieu`, `so_dong_loi`, và tuỳ chọn cộng thêm `so_dong_rac_da_loc`).
 - **Tầng 1 — `nguyen_van_nguon_a[]`** (từ `xac_minh.dieu_khoan` trong `registry/van-ban/*.yaml`):
   - Trường: `so_hieu`, `slug`, `ten`, `tinh_trang`, `hieu_luc_tu`, `het_hieu_luc_tu`, `hieu_luc_da_doi_chieu`, `nguon_a`, `tang_tin_cay: "NGUYEN_VAN_NGUON_A"`, `dieu_khoan[]` (`dieu`, `noi_dung` nguyên văn; tuỳ chọn `khoan`, `diem`, `trang_pdf`, `sha256_pdf`).
   - **Quy tắc dùng:** **được trích dẫn trực tiếp làm căn cứ pháp lý** trong câu trả lời, kèm `nguon_a`.
@@ -144,6 +146,17 @@ Dựng từ mọi bảng `danh-muc/*-cas.csv` đã qua kiểm chuẩn 11 cột `
   - `theo_cas`: map `<mã CAS>` → mảng các mục `{ cas, ten_chat, ma_hoa_chat, cong_thuc, phan_loai, phu_luc, muc, so_thu_tu, nhom, nguong_kg, nguon, so_hieu, slug, tinh_trang, hieu_luc_tu, het_hieu_luc_tu, hieu_luc_da_doi_chieu, nguon_a, tep }`.
   - `khong_co_cas[]`: danh sách các dòng phụ lục không có mã CAS cố định (cấu trúc trường tương tự, `cas: null`).
 - **Quy tắc dùng:** Một mã CAS có thể thuộc nhiều phụ lục cùng lúc (I, II, III, IV), nên cần đọc trọn mảng `theo_cas[cas]` và kèm quy tắc ngưỡng/hỗn hợp của văn bản nguồn (vd `danh-muc/24-2026-nd-cp-cas-quy-tac.md`); tìm thêm trong `khong_co_cas[]` theo tên chất khi tra nhóm chất không có mã CAS.
+
+#### 4. `dist/chinh-sach-mo-ta.json` (tệp thứ 8 — Tầng 2 theo mô tả & Từ điển viết tắt PLHQ)
+
+Dựng từ `danh-muc/chinh-sach-mo-ta.yaml` bằng `dungChinhSachMoTa(so, root, today)` trong [`tools/lib/chinh-sach-mo-ta.mjs`](../tools/lib/chinh-sach-mo-ta.mjs) (cộng thêm trên `1.5.0`, không phá major `1.x`, giữ 0% trùng lặp với `hs-code-api` — không phân loại mã HS, không chạy GIR, không xuất `chu-giai-hs.json`/`chu-giai-chuong.json`):
+
+- **Đầu tệp:** `phien_ban`, `luoc_do_phien_ban` (`"1.5.0"`), `giay_phep`, `ghi_nguon_chuan`, `mien_tru`, `canh_bao_tang_2` (`"Tầng 2 suy ra theo mô tả hàng hóa (VUA_SUY_RA) — chỉ tham khảo kiểm tra chuyên ngành, không phân loại mã HS; luôn đối chiếu văn bản gốc nguồn bậc A."`), `tong_quy_tac`, `tu_dien_viet_tat` (25 thuật ngữ viết tắt chuẩn XNK/PLHQ `TU_DIEN_VIET_TAT_PLHQ`), `quy_tac[]`.
+- **Mỗi phần tử trong `quy_tac[]`:** `{ id, ten, nhom_hang, tu_khoa_nhan_dien[], loai_tac_dong, do_tin: "VUA_SUY_RA", can_cu_so_hieu[], can_cu_chi_tiet[], nghia_vu_tom_tat, luu_y_loai_tru, ranh_gioi_hs_api }`.
+  - `can_cu_chi_tiet[]` nối trực tiếp từ `so`: `{ so_hieu, slug, tinh_trang, hieu_luc_tu, het_hieu_luc_tu, bac_nguon_cao_nhat, url_nguon_a }`.
+- **Quy tắc dùng bắt buộc cho bên đọc:**
+  1. Mọi quy tắc đều mang `do_tin: "VUA_SUY_RA"` — **chỉ tham khảo định hướng kiểm tra chuyên ngành theo mô tả; không dùng để áp mã HS hoặc tính thuế suất**, luôn kiểm tra trạng thái `tinh_trang` / `het_hieu_luc_tu` trong `can_cu_chi_tiet[]` (ví dụ `43/2017/NĐ-CP` và `111/2021/NĐ-CP` đã `HET_HIEU_LUC` từ `2026-01-23`) và đối chiếu `url_nguon_a`.
+  2. Hiển thị đúng chuỗi ghi nguồn CC BY 4.0 theo W4 (`Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản phien_ban). Đã rút gọn và đổi nhãn hiển thị.`) và `mien_tru`.
 
 
 ## Quy tắc khi dùng

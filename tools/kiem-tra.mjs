@@ -1,11 +1,13 @@
 #!/usr/bin/env node
 // Kiểm sổ đăng ký văn bản. LỖI → chặn PR (exit 1). CẢNH BÁO → in ra, không chặn.
 //   node tools/kiem-tra.mjs [--json]
-import { readdirSync, readFileSync } from 'node:fs';
-import { join } from 'node:path';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
+import { join, resolve } from 'node:path';
+import { pathToFileURL } from 'node:url';
 import { napSo, khoa, slugTuSoHieu, bacNguon, chuanCanh, dungDoThi, homNay, ROOT,
   LOAI, TINH_TRANG, MUC_XAC_MINH, CHAN_HIEU_LUC, QUAN_HE } from './lib/registry.mjs';
-import { napDanhMuc, kiemDinhDang, kiemDanhMucCas, docCsv } from './lib/danh-muc.mjs';
+import { napDanhMuc, kiemDinhDang, kiemDanhMucCas, docCsv, docAnhXaAhtn, kiemAnhXaAhtn, docBieuThue } from './lib/danh-muc.mjs';
+import { docChinhSachMoTa, kiemChinhSachMoTa } from './lib/chinh-sach-mo-ta.mjs';
 
 const NGAY = /^\d{4}-\d{2}-\d{2}$/;
 const TRUONG = new Set(['so_hieu', 'loai', 'ten', 'co_quan', 'ngay_ban_hanh', 'hieu_luc_tu', 'het_hieu_luc_tu',
@@ -16,7 +18,10 @@ const TRUONG = new Set(['so_hieu', 'loai', 'ten', 'co_quan', 'ngay_ban_hanh', 'h
 const LOAI_PHAN_LOAI = ['XAC_DINH_TRUOC', 'KIEM_TRA_XAC_DINH_LAI', 'DINH_CHINH', 'CHUA_XAC_DINH'];
 const LOAI_CAP_LUAT = new Set(['HIEN_PHAP', 'LUAT', 'NGHI_QUYET']);
 
-export function kiemTra(so, { today = homNay(), root = ROOT } = {}) {
+export function kiemTra(so, opts = {}) {
+  const { today = homNay(), root = ROOT } = opts;
+  const checkChinhSachMoTa = opts.kiemChinhSachMoTa ?? opts.kiemMoTa ?? (opts.root !== undefined);
+  const checkAnhXaAhtn = opts.kiemAnhXaAhtn ?? opts.kiemAnhXa ?? (opts.root !== undefined);
   const loi = [];
   const canhBao = [];
   const L = (file, msg) => loi.push({ file, msg });
@@ -222,6 +227,28 @@ export function kiemTra(so, { today = homNay(), root = ROOT } = {}) {
     if (e && e.code !== 'ENOENT') L('danh-muc/', `không đọc được thư mục: ${e.message}`);
   }
 
+  // Kiểm ánh xạ mã AHTN cũ → EN2022 và danh mục Tầng 2 theo mô tả (chỉ bật khi truyền root/opts hoặc chạy CLI trên ROOT
+  // để không áp nhầm tệp của ROOT lên sổ giả lập trong bộ nhớ khi caller gọi kiemTra(mockSo, {})).
+  if (checkAnhXaAhtn) {
+    const tepAnhXa = 'registry/phien-ban-bieu-thue-mapping.yaml';
+    if (existsSync(join(root, tepAnhXa))) {
+      const anhXa = docAnhXaAhtn(root);
+      if (!anhXa) L(tepAnhXa, 'YAML hỏng hoặc không phải object hợp lệ');
+      else for (const msg of kiemAnhXaAhtn(anhXa, docBieuThue(root))) L(tepAnhXa, msg);
+    }
+  }
+  if (checkChinhSachMoTa) {
+    const tepMoTa = 'danh-muc/chinh-sach-mo-ta.yaml';
+    if (existsSync(join(root, tepMoTa))) {
+      try {
+        const csMoTa = docChinhSachMoTa(root);
+        for (const msg of kiemChinhSachMoTa(csMoTa, so)) L(tepMoTa, msg);
+      } catch (e) {
+        L(tepMoTa, `không đọc được: ${e.message.split('\n')[0]}`);
+      }
+    }
+  }
+
   // Chu trình thay thế (A thay B, B thay A)
   const { nguoc } = dungDoThi(so);
   for (const d of so.vanBan) {
@@ -234,8 +261,8 @@ export function kiemTra(so, { today = homNay(), root = ROOT } = {}) {
   return { loi, canhBao, soVanBan: so.vanBan.length };
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
-  const r = kiemTra(napSo());
+if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
+  const r = kiemTra(napSo(), { root: ROOT, kiemChinhSachMoTa: true, kiemAnhXaAhtn: true });
   if (process.argv.includes('--json')) console.log(JSON.stringify(r, null, 2));
   else {
     for (const w of r.canhBao) console.log(`CẢNH BÁO ${w.file}: ${w.msg}`);

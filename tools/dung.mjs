@@ -9,13 +9,15 @@
 //   dist/wiki-chunks.json     — các đoạn nội dung wiki/ gắn hiệu lực văn bản liên quan
 //   dist/dieu-khoan.json      — điều khoản nguyên văn nguồn A + tóm tắt nháp doc-hieu
 //   dist/cas-index.json       — chỉ mục hóa chất theo mã CAS từ danh-muc/*-cas.csv
+//   dist/chinh-sach-mo-ta.json — tầng 2 gợi ý chính sách theo mô tả (VUA_SUY_RA) + 25 viết tắt PLHQ
 import { writeFileSync, mkdirSync, readFileSync, readdirSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { napSo, khoa, chuanCanh, dungDoThi, homNay, bacNguon, ROOT, QUAN_HE, LUOC_DO_PHIEN_BAN } from './lib/registry.mjs';
-import { dungChiMuc, dungChiMucTheoMa, docBieuThue } from './lib/danh-muc.mjs';
+import { dungChiMuc, dungChiMucTheoMa, docBieuThue, docAnhXaAhtn } from './lib/danh-muc.mjs';
 import { dungWikiDist } from './lib/wiki-dist.mjs';
 import { dungDieuKhoan, dungCasIndex } from './lib/dieu-khoan-dist.mjs';
+import { dungChinhSachMoTa } from './lib/chinh-sach-mo-ta.mjs';
 
 const BIEU_TUONG = {
   CON_HIEU_LUC: '🟢', HET_HIEU_LUC: '⚫', HET_HIEU_LUC_MOT_PHAN: '🟡', TAM_NGUNG_HIEU_LUC: '⏸️',
@@ -155,18 +157,21 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
       return Object.keys(m).length ? m : null;
     } catch { return null; }
   })();
-  const cmMa = dungChiMucTheoMa(cm, { bt: docBieuThue(inRoot), tienLe8, tienLe4 });
+  const cmMa = dungChiMucTheoMa(cm, { bt: docBieuThue(inRoot), tienLe8, tienLe4, anhXaAhtn: docAnhXaAhtn(inRoot) });
   writeFileSync(join(outRoot, 'dist', 'hs-index-theo-ma.json'), JSON.stringify(cmMa, null, 1) + '\n');
-  console.log(`dist/hs-index-theo-ma.json (${cmMa.tong_nhom_ma} nhóm mã, ${cmMa.tong_canh} cạnh mã↔văn bản${cmMa.bieu_thue_doi_chieu ? `, ${cmMa.bieu_thue_doi_chieu.nhom_ngoai_bieu_thue} nhóm ngoài biểu thuế` : ''})`);
+  console.log(`dist/hs-index-theo-ma.json (${cmMa.tong_nhom_ma} nhóm mã, ${cmMa.tong_canh} cạnh mã↔văn bản${cmMa.bieu_thue_doi_chieu ? `, ${cmMa.bieu_thue_doi_chieu.nhom_ngoai_bieu_thue} nhóm ngoài biểu thuế` : ''}${cmMa.anh_xa_ahtn_cu ? `, ${cmMa.anh_xa_ahtn_cu.tong_duoc_anh_xa} ánh xạ AHTN cũ` : ''})`);
   const { index: wikiIndex, chunks: wikiChunks } = dungWikiDist(so, inRoot, today);
   writeFileSync(join(outRoot, 'dist', 'wiki-index.json'), JSON.stringify(wikiIndex, null, 1) + '\n');
   writeFileSync(join(outRoot, 'dist', 'wiki-chunks.json'), JSON.stringify(wikiChunks, null, 1) + '\n');
   console.log(`dist/wiki-index.json (${wikiIndex.tong} trang) · dist/wiki-chunks.json (${wikiChunks.tong} đoạn)`);
   const dieuKhoan = dungDieuKhoan(so, inRoot, today);
   writeFileSync(join(outRoot, 'dist', 'dieu-khoan.json'), JSON.stringify(dieuKhoan, null, 1) + '\n');
-  console.log(`dist/dieu-khoan.json (${dieuKhoan.thong_ke.so_van_ban_nguon_a} VB nguồn A / ${dieuKhoan.thong_ke.so_dieu_khoan_nguon_a} điều khoản, ${dieuKhoan.thong_ke.so_van_ban_tom_tat_nhap} VB tóm tắt nháp / ${dieuKhoan.thong_ke.so_dieu_khoan_tom_tat_nhap} mục)`);
+  console.log(`dist/dieu-khoan.json (${dieuKhoan.thong_ke.so_van_ban_nguon_a} VB nguồn A / ${dieuKhoan.thong_ke.so_dieu_khoan_nguon_a} điều khoản, ${dieuKhoan.thong_ke.so_van_ban_tom_tat_nhap} VB tóm tắt nháp / ${dieuKhoan.thong_ke.so_dieu_khoan_tom_tat_nhap} mục, lọc ${dieuKhoan.thong_ke.so_dong_rac_da_loc} dòng rác)`);
   const casIndex = dungCasIndex(so, inRoot, today);
   writeFileSync(join(outRoot, 'dist', 'cas-index.json'), JSON.stringify(casIndex, null, 1) + '\n');
   console.log(`dist/cas-index.json (${casIndex.thong_ke.so_ma_cas_duy_nhat} mã CAS, ${casIndex.thong_ke.so_dong_khong_co_cas} dòng không CAS)`);
+  const chinhSachMoTa = dungChinhSachMoTa(so, inRoot, today);
+  writeFileSync(join(outRoot, 'dist', 'chinh-sach-mo-ta.json'), JSON.stringify(chinhSachMoTa, null, 1) + '\n');
+  console.log(`dist/chinh-sach-mo-ta.json (${chinhSachMoTa.tong_quy_tac} quy tắc, ${Object.keys(chinhSachMoTa.tu_dien_viet_tat || {}).length} viết tắt)`);
   console.log(`dist/registry.json · bao-cao/cay-van-ban.md · bao-cao/quan-he.md (${so.vanBan.length} văn bản)`);
 }

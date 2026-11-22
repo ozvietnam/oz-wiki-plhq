@@ -2,6 +2,7 @@
 // Lược đồ: docs/luoc-do-danh-muc-hs.md. Không gọi mạng; biểu thuế đối chiếu lấy từ nhu-cau/bieu-thue.json.
 import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
+import yaml from 'js-yaml';
 import { ROOT, khoa, LUOC_DO_PHIEN_BAN } from './registry.mjs';
 
 export const COT = ['ma_hs', 'mo_ta', 'nhom', 'phu_luc', 'loai_tac_dong', 'muc_rui_ro', 'dieu_kien', 'dan_chieu', 'trang'];
@@ -63,6 +64,55 @@ export function demLa(bt, maHs) {
   let n = 0;
   for (const k of bt.la) if (k.startsWith(maHs)) n += 1;
   return n;
+}
+
+/** Đọc bảng ánh xạ mã AHTN cũ → EN2022 (registry/phien-ban-bieu-thue-mapping.yaml). null nếu chưa có. */
+export function docAnhXaAhtn(root = ROOT) {
+  const p = join(root, 'registry', 'phien-ban-bieu-thue-mapping.yaml');
+  if (!existsSync(p)) return null;
+  try {
+    const raw = yaml.load(readFileSync(p, 'utf8'), { schema: yaml.CORE_SCHEMA });
+    if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return null;
+    const mapping = {};
+    for (const [k, v] of Object.entries(raw.mapping || {})) {
+      const maCu = String(k).trim();
+      if (v && typeof v === 'object' && !Array.isArray(v)) {
+        mapping[maCu] = {
+          ...v,
+          ...(v.hs_moi != null ? { hs_moi: String(v.hs_moi).trim() } : {}),
+        };
+      } else {
+        mapping[maCu] = v;
+      }
+    }
+    return {
+      thong_tin: raw.thong_tin && typeof raw.thong_tin === 'object' && !Array.isArray(raw.thong_tin) ? raw.thong_tin : {},
+      phan_loai: raw.phan_loai && typeof raw.phan_loai === 'object' && !Array.isArray(raw.phan_loai) ? raw.phan_loai : {},
+      mapping,
+    };
+  } catch { return null; }
+}
+
+/** Kiểm tra lược đồ ánh xạ AHTN cũ → EN2022 và (tuỳ chọn) tồn tại hs_moi trong biểu thuế đối chiếu. */
+export function kiemAnhXaAhtn(anhXa, bt = null) {
+  const loi = [];
+  const mapping = anhXa?.mapping && typeof anhXa.mapping === 'object' && !Array.isArray(anhXa.mapping) ? anhXa.mapping : {};
+  for (const [maCuRaw, info] of Object.entries(mapping)) {
+    const maCu = String(maCuRaw);
+    if (!MA_HS.test(maCu)) {
+      loi.push(`mapping["${maCu}"] mã cũ không hợp lệ (phải là 4, 6 hoặc 8 chữ số)`);
+    }
+    const hsMoi = typeof info?.hs_moi === 'string' ? info.hs_moi : '';
+    if (!MA_HS.test(hsMoi)) {
+      loi.push(`mapping["${maCu}"] hs_moi "${info?.hs_moi ?? ''}" không hợp lệ (phải là 4, 6 hoặc 8 chữ số)`);
+    } else if (bt?.la && !(demLa(bt, hsMoi) > 0)) {
+      loi.push(`mapping["${maCu}"] hs_moi "${hsMoi}" không tồn tại trong biểu thuế đối chiếu`);
+    }
+    if (typeof info?.loai !== 'string' || !info.loai.trim()) {
+      loi.push(`mapping["${maCu}"] thiếu loai (phải là chuỗi không rỗng)`);
+    }
+  }
+  return loi;
 }
 
 /** Văn bản trông như danh mục kèm mã HS (để báo "chưa trích").
@@ -253,9 +303,10 @@ export function dungChiMuc(so, root = ROOT, today) {
 /** Đảo chiều của dungChiMuc → dist/hs-index-theo-ma.json: nhóm mã HS (4/6/8 số) → danh sách văn bản áp.
  *  Bên tra mã 8 số lấy mọi khoá là tiền tố của mã đó (4, 6 số) cộng khoá trùng 8 số — cùng ngữ nghĩa
  *  khớp tiền tố mà hs-code-api vẫn dùng khi tra thuận chiều.
- *  Tuỳ chọn { bt, tienLe8, tienLe4 } (v2): đối chiếu nhóm mã với bản chụp biểu thuế (cảnh báo mã AHTN cũ
- *  /trích lệch đã rơi khỏi biểu thuế) và gắn mật độ tiền lệ TB-TCHQ theo mã 8 số + nhóm 4 số. */
-export function dungChiMucTheoMa(chiMuc, { bt = null, tienLe8 = null, tienLe4 = null } = {}) {
+ *  Tuỳ chọn { bt, tienLe8, tienLe4, anhXaAhtn } (v2): đối chiếu nhóm mã với bản chụp biểu thuế (cảnh báo mã AHTN cũ
+ *  /trích lệch đã rơi khỏi biểu thuế), nối gợi ý ánh xạ AHTN cũ → EN2022 cho các mã trong canh_bao_ma,
+ *  và gắn mật độ tiền lệ TB-TCHQ theo mã 8 số + nhóm 4 số. */
+export function dungChiMucTheoMa(chiMuc, { bt = null, tienLe8 = null, tienLe4 = null, anhXaAhtn = null } = {}) {
   const ma = {};
   for (const vb of chiMuc.van_ban || []) {
     for (const d of vb.dong || []) {
@@ -294,6 +345,29 @@ export function dungChiMucTheoMa(chiMuc, { bt = null, tienLe8 = null, tienLe4 = 
       ghi_chu: 'Nhóm mã không có trong bản chụp biểu thuế — thường là mã AHTN cũ (văn bản danh mục ban hành theo AHTN 2017/2022, biểu thuế đã bỏ) hoặc trích lệch. KHÔNG dùng các khoá này làm căn cứ diện áp cho người khai; đối chiếu lại văn bản gốc (ví dụ phân tích danh-muc/kiem-tra-ma-hs-2026.md).',
     };
     out.canh_bao_ma = ngoai;
+    if (anhXaAhtn?.mapping && typeof anhXaAhtn.mapping === 'object' && !Array.isArray(anhXaAhtn.mapping)) {
+      const anhXaMap = {};
+      for (const maCu of ngoai) {
+        if (!Object.hasOwn(anhXaAhtn.mapping, maCu)) continue;
+        const info = anhXaAhtn.mapping[maCu];
+        if (!info || typeof info !== 'object') continue;
+        const hsMoi = typeof info.hs_moi === 'string' ? info.hs_moi.trim() : (info.hs_moi != null ? String(info.hs_moi).trim() : '');
+        if (!MA_HS.test(hsMoi)) continue;
+        const hopLeBt = hopLe(hsMoi) || (bt.la ? demLa(bt, hsMoi) > 0 : false);
+        if (!hopLeBt) continue;
+        anhXaMap[maCu] = {
+          hs_moi: hsMoi,
+          loai: typeof info.loai === 'string' && info.loai.trim() ? info.loai.trim() : (info.loai ?? null),
+        };
+      }
+      out.anh_xa_ahtn_cu = {
+        phien_ban_cu: anhXaAhtn.thong_tin?.phien_ban_cu || null,
+        phien_ban_moi: anhXaAhtn.thong_tin?.phien_ban_moi || null,
+        tong_duoc_anh_xa: Object.keys(anhXaMap).length,
+        ghi_chu: 'Gợi ý đối chiếu sang mã biểu thuế EN2022 cho nhóm mã trong canh_bao_ma — chỉ tham khảo, đối chiếu văn bản gốc trước khi áp dụng.',
+        mapping: anhXaMap,
+      };
+    }
   }
   if (tienLe8 || tienLe4) {
     out.tien_le_tb_tchq = {
