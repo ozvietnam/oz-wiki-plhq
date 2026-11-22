@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-22).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 537,
+ "tong": 560,
  "trang": [
   {
    "slug": "dong-bo-quan-diem-phan-loai",
@@ -31260,6 +31260,55 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "38-2014-tt-bct",
+   "duong_dan": "wiki/sources/38-2014-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "Thông tư 38/2014/TT-BCT - Quy định chi tiết một số điều của Nghị định 83/2014/NĐ-CP về kinh doanh xăng dầu",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "xang-dau",
+    "xuat-nhap-khau",
+    "bct"
+   ],
+   "confidence": "high",
+   "so_chunks": 12,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "38/2014/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2014-11-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/van-ban-phap-luat/van-ban-hop-nhat/-van-ban-hop-nhat-thong-tu-quy-dinh-chi-tiet-mot-so-dieu-cua.html"
+    },
+    {
+     "so_hieu": "83/2014/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2014-11-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=175893"
+    },
+    {
+     "so_hieu": "95/2012/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2012-12-26",
+     "het_hieu_luc_tu": "2017-08-18",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=164493"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "38-2015-tt-btc",
    "duong_dan": "wiki/sources/38-2015-tt-btc.md",
    "loai_trang": "sources",
@@ -31498,6 +31547,116 @@
      ],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=212484"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "3830-qd-bkhcn",
+   "duong_dan": "wiki/sources/3830-qd-bkhcn.md",
+   "loai_trang": "sources",
+   "tieu_de": "Quyết định 3830/QĐ-BKHCN - Hủy bỏ sản phẩm mã HS 9405.11.99 tại Quyết định 367/QĐ-BKHCN",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "bkhcn",
+    "ktcl",
+    "den-led",
+    "ma-hs"
+   ],
+   "confidence": "high",
+   "so_chunks": 10,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "3830/QĐ-BKHCN",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-11-21",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://mst.gov.vn/van-ban-phap-luat/25249.htm"
+    },
+    {
+     "so_hieu": "367/QĐ-BKHCN",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2024-03-12",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=209891&pageid=27160"
+    },
+    {
+     "so_hieu": "2711/QĐ-BKHCN",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2022-12-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?classid=2&docid=207275&pageid=27160"
+    },
+    {
+     "so_hieu": "127/2007/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2026-01-16",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "22/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=34842"
+    },
+    {
+     "so_hieu": "132/2008/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "37/2026/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=82467&pageid=27160"
+    },
+    {
+     "so_hieu": "74/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-07-01",
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "37/2026/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193720&pageid=27160"
+    },
+    {
+     "so_hieu": "154/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "37/2026/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=195316&pageid=27160"
+    },
+    {
+     "so_hieu": "13/2022/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "37/2026/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=205199&pageid=27160"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -32058,6 +32217,46 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "41-2022-tt-bct",
+   "duong_dan": "wiki/sources/41-2022-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "Thông tư 41/2022/TT-BCT - Sửa đổi Thông tư 11-2020-TT-BCT về Quy tắc xuất xứ EVFTA",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "xuat-xu",
+    "evfta",
+    "bct",
+    "ma-hs"
+   ],
+   "confidence": "high",
+   "so_chunks": 10,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "41/2022/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2023-02-20",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=207201&pageid=27160"
+    },
+    {
+     "so_hieu": "96/2022/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-01",
+     "het_hieu_luc_tu": "2025-03-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=206919"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "41-2023-tt-bct",
    "duong_dan": "wiki/sources/41-2023-tt-bct.md",
    "loai_trang": "sources",
@@ -32446,6 +32645,46 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "42-2026-tt-bct",
+   "duong_dan": "wiki/sources/42-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "Thông tư 42/2026/TT-BCT - Danh mục chi tiết hàng hóa lưỡng dụng thuộc thẩm quyền Bộ Công Thương",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "hang-hoa-luong-dung",
+    "kiem-soat-thuong-mai-chien-luoc",
+    "bct",
+    "ma-hs"
+   ],
+   "confidence": "high",
+   "so_chunks": 11,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "42/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-12",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=105279&cid=1294"
+    },
+    {
+     "so_hieu": "40/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-03-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=212924"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "43-2013-tt-bct",
    "duong_dan": "wiki/sources/43-2013-tt-bct.md",
    "loai_trang": "sources",
@@ -32668,6 +32907,85 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "44-2026-tt-bnnmt",
+   "duong_dan": "wiki/sources/44-2026-tt-bnnmt.md",
+   "loai_trang": "sources",
+   "tieu_de": "Thông tư 44/2026/TT-BNNMT - Sửa đổi Thông tư 27/2026/TT-BNNMT về danh mục hàng hóa rủi ro trung bình, cao",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "bnnmt",
+    "thuoc-thu-y",
+    "muc-do-rui-ro",
+    "ktcl"
+   ],
+   "confidence": "high",
+   "so_chunks": 10,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "44/2026/TT-BNNMT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-10-09",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=219929&classid=1"
+    },
+    {
+     "so_hieu": "27/2026/TT-BNNMT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-27-2026-tt-bnnmt-469989.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "44-2026-tt-byt",
+   "duong_dan": "wiki/sources/44-2026-tt-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "Thông tư 44/2026/TT-BYT - Sửa đổi Thông tư 07-2022-TT-BYT về thuốc thử tương đương sinh học",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "byt",
+    "duoc-pham",
+    "tuong-duong-sinh-hoc"
+   ],
+   "confidence": "high",
+   "so_chunks": 10,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "44/2026/TT-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-11-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=220147"
+    },
+    {
+     "so_hieu": "32/2026/TT-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-10-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-32-2026-tt-byt-quy-dinh-viec-dang-ky-luu-hanh-thuoc-nguyen-lieu-lam-thuoc--b3c8a3e0-9945-11f1-9dcb-2dbe29d2ab4a"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "45-2023-tt-bct",
    "duong_dan": "wiki/sources/45-2023-tt-bct.md",
    "loai_trang": "sources",
@@ -32753,6 +33071,45 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-45-2023-tt-bct-40975/48170.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "45-2026-tt-bkhcn",
+   "duong_dan": "wiki/sources/45-2026-tt-bkhcn.md",
+   "loai_trang": "sources",
+   "tieu_de": "Thông tư 45/2026/TT-BKHCN - Cắt giảm, đơn giản hóa thủ tục hành chính trong lĩnh vực đo lường",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "bkhcn",
+    "do-luong",
+    "cat-giam-thu-tuc"
+   ],
+   "confidence": "high",
+   "so_chunks": 11,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "45/2026/TT-BKHCN",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=219139&classid=1&orggroupid=4"
+    },
+    {
+     "so_hieu": "04/2026/TT-BKHCN",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=217125"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -33080,6 +33437,71 @@
      ],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?docid=193756&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "47-2025-tt-btc",
+   "duong_dan": "wiki/sources/47-2025-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "Thông tư 47/2025/TT-BTC - Bãi bỏ các Thông tư về thủ tục hải quan ban hành trong bối cảnh dịch Covid-19",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "btc",
+    "hai-quan",
+    "bai-bo"
+   ],
+   "confidence": "high",
+   "so_chunks": 10,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "47/2025/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-06-20",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-47-2025-tt-btc-45281.htm"
+    },
+    {
+     "so_hieu": "38/2015/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-04-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-38-2015-tt-btc-9949.htm"
+    },
+    {
+     "so_hieu": "39/2018/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-06-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193970&pageid=27160"
+    },
+    {
+     "so_hieu": "59/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-06-05",
+     "het_hieu_luc_tu": "2025-08-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "167/2025/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193550&pageid=27160"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -33595,6 +34017,109 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "49-2015-tt-btc",
+   "duong_dan": "wiki/sources/49-2015-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "Thông tư 49/2015/TT-BTC - Thủ tục hải quan đối với hàng hóa XNK gửi qua dịch vụ bưu chính chỉ định",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "btc",
+    "hai-quan",
+    "buu-chinh"
+   ],
+   "confidence": "high",
+   "so_chunks": 10,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "49/2015/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-05-29",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=179820"
+    },
+    {
+     "so_hieu": "38/2015/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-04-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-38-2015-tt-btc-9949.htm"
+    },
+    {
+     "so_hieu": "45/2005/QH11",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2006-01-01",
+     "het_hieu_luc_tu": "2016-09-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "107/2016/QH13"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=10454&pageid=27160"
+    },
+    {
+     "so_hieu": "78/2006/QH11",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2007-07-01",
+     "het_hieu_luc_tu": "2020-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=29975"
+    },
+    {
+     "so_hieu": "21/2012/QH13",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2013-07-01",
+     "het_hieu_luc_tu": "2020-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-21-2012-qh13-952.htm"
+    },
+    {
+     "so_hieu": "87/2010/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2010-10-01",
+     "het_hieu_luc_tu": "2016-09-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=96272"
+    },
+    {
+     "so_hieu": "83/2013/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2013-09-15",
+     "het_hieu_luc_tu": "2020-12-05",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=168784"
+    },
+    {
+     "so_hieu": "107/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=184599&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "49-2025-tt-bct",
    "duong_dan": "wiki/sources/49-2025-tt-bct.md",
    "loai_trang": "sources",
@@ -34056,6 +34581,36 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-13-2015-tt-btc-7958.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "50-vbhn-bxd-2026",
+   "duong_dan": "wiki/sources/50-vbhn-bxd-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "Văn bản hợp nhất 50/VBHN-BXD - Nghị định về thoát nước và xử lý nước thải",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "vbhn",
+    "bxd",
+    "thoat-nuoc",
+    "moi-truong"
+   ],
+   "confidence": "high",
+   "so_chunks": 10,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "80/2014/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=175375"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -35496,6 +36051,113 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "66-2026-tt-bkhcn",
+   "duong_dan": "wiki/sources/66-2026-tt-bkhcn.md",
+   "loai_trang": "sources",
+   "tieu_de": "Thông tư 66/2026/TT-BKHCN - Sửa đổi Thông tư 11/2015/TT-BKHCN về xử phạt vi phạm hành chính sở hữu công nghiệp",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "bkhcn",
+    "so-huu-tri-tue",
+    "ten-mien"
+   ],
+   "confidence": "high",
+   "so_chunks": 10,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "66/2026/TT-BKHCN",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2027-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=220228"
+    },
+    {
+     "so_hieu": "11/2015/TT-BKHCN",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-08-11",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=180609"
+    },
+    {
+     "so_hieu": "06/2024/TT-BKHCN",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-11-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=211484"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "67-2026-tt-bct",
+   "duong_dan": "wiki/sources/67-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "Thông tư 67/2026/TT-BCT - Sửa đổi Thông tư 19/2026/TT-BCT về tạm ứng Quỹ bình ổn giá xăng dầu",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "bct",
+    "xang-dau",
+    "quy-bog"
+   ],
+   "confidence": "high",
+   "so_chunks": 10,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "67/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-10-20",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-67-2026-tt-bct-470854.htm"
+    },
+    {
+     "so_hieu": "19/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=220090"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "67-2026-vbhn-bnnmt",
+   "duong_dan": "wiki/sources/67-2026-vbhn-bnnmt.md",
+   "loai_trang": "sources",
+   "tieu_de": "Văn bản hợp nhất 67/2026/VBHN-BNNMT - Quy định về kiểm dịch động vật, sản phẩm động vật trên cạn",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "vbhn",
+    "bnnmt",
+    "kiem-dich-dong-vat",
+    "thu-y"
+   ],
+   "confidence": "high",
+   "so_chunks": 10,
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "68-2006-qh11",
    "duong_dan": "wiki/sources/68-2006-qh11.md",
    "loai_trang": "sources",
@@ -35597,6 +36259,35 @@
      ],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=34842"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "68-2026-tt-bct",
+   "duong_dan": "wiki/sources/68-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "Thông tư 68/2026/TT-BCT - Quy định tỷ lệ hao hụt xăng dầu trong hoạt động kinh doanh xăng dầu",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "bct",
+    "xang-dau",
+    "hao-hut"
+   ],
+   "confidence": "high",
+   "so_chunks": 10,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "68/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2027-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/upload/2005517/fck/files/1_TT_2026_68_089c6.pdf"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -36314,6 +37005,94 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "73-2026-vbhn-tt-bct",
+   "duong_dan": "wiki/sources/73-2026-vbhn-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "Văn bản hợp nhất 73/2026/VBHN-TT-BCT - Hợp nhất Thông tư 08/2023/TT-BCT sửa đổi Danh mục chi tiết mã HS",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "vbhn",
+    "bct",
+    "ma-hs",
+    "thuoc-la"
+   ],
+   "confidence": "high",
+   "so_chunks": 10,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "08/2023/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2023-05-16",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?classid=1&docid=207706&orggroupid=4&pageid=27160"
+    },
+    {
+     "so_hieu": "12/2018/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2018-06-15",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-12-2018-tt-bct-26878/23046.htm"
+    },
+    {
+     "so_hieu": "41/2019/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2020-01-29",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://vbpl.vn/search?q=41%2F2019%2FTT-BCT"
+    },
+    {
+     "so_hieu": "96/2022/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-01",
+     "het_hieu_luc_tu": "2025-03-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=206919"
+    },
+    {
+     "so_hieu": "40/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-03-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=212924"
+    },
+    {
+     "so_hieu": "69/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-05-15",
+     "het_hieu_luc_tu": "2026-09-05",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "292/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193756&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "74-2018-nd-cp",
    "duong_dan": "wiki/sources/74-2018-nd-cp.md",
    "loai_trang": "sources",
@@ -36351,6 +37130,115 @@
       "37/2026/NĐ-CP"
      ],
      "nguon_a": "https://vanban.chinhphu.vn/?docid=193720&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "74-2026-vbhn-tt-bct",
+   "duong_dan": "wiki/sources/74-2026-vbhn-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "Văn bản hợp nhất 74/2026/VBHN-TT-BCT - Hợp nhất Thông tư 41/2019/TT-BCT bổ sung Danh mục mã số HS",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "vbhn",
+    "bct",
+    "ma-hs",
+    "xang-dau",
+    "khoang-san"
+   ],
+   "confidence": "high",
+   "so_chunks": 10,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "41/2019/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2020-01-29",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://vbpl.vn/search?q=41%2F2019%2FTT-BCT"
+    },
+    {
+     "so_hieu": "23/2021/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-02-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=205006"
+    },
+    {
+     "so_hieu": "08/2023/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2023-05-16",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?classid=1&docid=207706&orggroupid=4&pageid=27160"
+    },
+    {
+     "so_hieu": "38/2014/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2014-11-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/van-ban-phap-luat/van-ban-hop-nhat/-van-ban-hop-nhat-thong-tu-quy-dinh-chi-tiet-mot-so-dieu-cua.html"
+    },
+    {
+     "so_hieu": "98/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-08-18",
+     "het_hieu_luc_tu": "2022-12-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "96/2022/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=190821"
+    },
+    {
+     "so_hieu": "96/2022/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-01",
+     "het_hieu_luc_tu": "2025-03-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=206919"
+    },
+    {
+     "so_hieu": "40/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-03-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=212924"
+    },
+    {
+     "so_hieu": "69/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-05-15",
+     "het_hieu_luc_tu": "2026-09-05",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "292/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193756&pageid=27160"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -36993,6 +37881,35 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "78-2026-tt-btc",
+   "duong_dan": "wiki/sources/78-2026-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "Thông tư 78/2026/TT-BTC - Sửa đổi Thông tư 203-2014-TT-BTC xử lý hàng hóa tồn đọng hải quan",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "btc",
+    "hai-quan",
+    "hang-ton-dong"
+   ],
+   "confidence": "high",
+   "so_chunks": 10,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "78/2026/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=105114&cid=1294"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "79-2015-qh13",
    "duong_dan": "wiki/sources/79-2015-qh13.md",
    "loai_trang": "sources",
@@ -37057,6 +37974,70 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?docid=176543&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "80-2019-tt-btc",
+   "duong_dan": "wiki/sources/80-2019-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "Thông tư 80/2019/TT-BTC - Thủ tục hải quan, quản lý thuế đối với hàng hóa thương mại biên giới",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "btc",
+    "hai-quan",
+    "thuong-mai-bien-gioi",
+    "cu-dan-bien-gioi"
+   ],
+   "confidence": "high",
+   "so_chunks": 10,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "80/2019/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2020-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-80-2019-tt-btc-30090.htm"
+    },
+    {
+     "so_hieu": "154/2026/TT-BTC",
+     "tinh_trang": "CHUA_CO_HIEU_LUC",
+     "hieu_luc_tu": "2027-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=220072&classid=1"
+    },
+    {
+     "so_hieu": "59/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-06-05",
+     "het_hieu_luc_tu": "2025-08-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "167/2025/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193550&pageid=27160"
+    },
+    {
+     "so_hieu": "69/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-05-15",
+     "het_hieu_luc_tu": "2026-09-05",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "292/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193756&pageid=27160"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -37317,6 +38298,35 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "81-2026-tt-bxd",
+   "duong_dan": "wiki/sources/81-2026-tt-bxd.md",
+   "loai_trang": "sources",
+   "tieu_de": "Thông tư 81/2026/TT-BXD - Quy định dán nhãn năng lượng đối với vật liệu xây dựng",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "bxd",
+    "vat-lieu-xay-dung",
+    "dan-nhan-nang-luong"
+   ],
+   "confidence": "high",
+   "so_chunks": 11,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "81/2026/TT-BXD",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moc.gov.vn/pl/pages/ChiTietVanBan.aspx?vID=897"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "82-2022-nd-cp",
    "duong_dan": "wiki/sources/82-2022-nd-cp.md",
    "loai_trang": "sources",
@@ -37440,6 +38450,60 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=204393"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "83-2026-tt-btc",
+   "duong_dan": "wiki/sources/83-2026-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "Thông tư 83/2026/TT-BTC - Tiêu chuẩn, thi cấp chứng chỉ và quản lý đại lý làm thủ tục hải quan",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "btc",
+    "hai-quan",
+    "dai-ly-hai-quan",
+    "chung-chi-khai-hai-quan"
+   ],
+   "confidence": "high",
+   "so_chunks": 11,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "83/2026/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=218769"
+    },
+    {
+     "so_hieu": "12/2015/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2015-03-15",
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "83/2026/TT-BTC"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=179327"
+    },
+    {
+     "so_hieu": "25/2026/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2026-05-10",
+     "het_hieu_luc_tu": "2026-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "83/2026/TT-BTC"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=217361"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -38228,6 +39292,91 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "91-2026-vbhn-tt-bnnmt",
+   "duong_dan": "wiki/sources/91-2026-vbhn-tt-bnnmt.md",
+   "loai_trang": "sources",
+   "tieu_de": "Văn bản hợp nhất 91/2026/VBHN-TT-BNNMT - Danh mục loài cây trồng biến đổi gen được phép khảo nghiệm",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "vbhn",
+    "bnnmt",
+    "giong-cay-trong",
+    "bien-doi-gen"
+   ],
+   "confidence": "high",
+   "so_chunks": 10,
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "915-qd-bct-2025",
+   "duong_dan": "wiki/sources/915-qd-bct-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "Quyết định 915/QĐ-BCT - Kết quả rà soát cuối kỳ chống bán phá giá thép hình chữ H từ Malaysia (ER01.AD12)",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "bct",
+    "chong-ban-pha-gia",
+    "thep",
+    "phong-ve-thuong-mai"
+   ],
+   "confidence": "high",
+   "so_chunks": 10,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "915/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20khong%20gia%20han%20ER01_AD12%20-%20signed.pdf"
+    },
+    {
+     "so_hieu": "1975/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2021-09-02",
+     "het_hieu_luc_tu": "2026-04-16",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "915/QĐ-BCT"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://files.customs.gov.vn/DA_NANG/Uploads/65e32243-11bf-4695-985d-c1563e8c13ba/1975.pdf"
+    },
+    {
+     "so_hieu": "1978/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-08",
+     "het_hieu_luc_tu": "2026-04-16",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "915/QĐ-BCT"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/Quy%E1%BA%BFt%20%C4%91%E1%BB%8Bnh%20th%C3%A9p%20ch%E1%BB%AF%20H_0001.pdf"
+    },
+    {
+     "so_hieu": "10/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-15",
+     "het_hieu_luc_tu": "2025-07-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "86/2025/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-10-2018-nd-cp-25762.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "924-qd-bnn-tcln-2017",
    "duong_dan": "wiki/sources/924-qd-bnn-tcln-2017.md",
    "loai_trang": "sources",
@@ -38772,6 +39921,57 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-99-2015-qh13-18445.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "99-2026-vbhn-tt-bnnmt",
+   "duong_dan": "wiki/sources/99-2026-vbhn-tt-bnnmt.md",
+   "loai_trang": "sources",
+   "tieu_de": "Văn bản hợp nhất 99/2026/VBHN-TT-BNNMT - Quy định hồ sơ nghiệp vụ kiểm dịch thực vật",
+   "created": "2026-11-22",
+   "updated": "2026-11-22",
+   "tags": [
+    "source",
+    "vbhn",
+    "bnnmt",
+    "kiem-dich-thuc-vat"
+   ],
+   "confidence": "high",
+   "so_chunks": 10,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "20/2021/TT-BNNPTNT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2022-02-11",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=204999"
+    },
+    {
+     "so_hieu": "15/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-02-17",
+     "het_hieu_luc_tu": "2023-01-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "105/2022/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=188321"
+    },
+    {
+     "so_hieu": "33/2014/TT-BNNPTNT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2015-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=177307&pageid=27160"
     }
    ],
    "canh_bao_hieu_luc": false
