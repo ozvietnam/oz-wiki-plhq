@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-3048 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3052 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2352 văn bản, 2352 chưa hết hiệu lực.
+2356 văn bản, 2356 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -625,12 +625,16 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [11889/TB-CHQ/2025](../registry/van-ban/11889-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Máy chiếu Panasonic PT-REQ10BE 1-Chip DLP 4K Laser Projector độ sáng 10.000/10.300 Lumen, kết nối trực tiếp với máy xử lý dữ liệu tự động, mã số 8528.62.00)
 - 🟢 [11911/TB-CHQ/2025](../registry/van-ban/11911-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Ống kính zoom góc rộng máy chiếu 1-Chip DLP Projector Zoom Lens ET-C1W300 dùng cho máy chiếu Panasonic dòng PT-REQ và PT-REZ, mã số 9002.90.30)
 - 🟢 [10665/TB-CHQ/2025](../registry/van-ban/10665-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Cáp điều khiển chưa gắn đầu nối, cách điện bằng cao su tổng hợp, 2 lõi đồng xoắn x 1.5mm2, điện áp 450/750V, không dùng cho viễn thông, Part number 745A47, mã số 8544.49.42)
+- 🟢 [10235/TB-CHQ/2025](../registry/van-ban/10235-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Bảng mạch in điện tử hai mặt chưa gắn linh kiện, loại 2 lớp dẫn điện dùng cho hệ thống điện tử tự động ô tô, model PSS_STD V0.1, mã số 8534.00.20)
 - 🟢 [10115/TB-CHQ/2025](../registry/van-ban/10115-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
 - 🟢 [10116/TB-CHQ/2025](../registry/van-ban/10116-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
+- 🟢 [9933/TB-CHQ/2025](../registry/van-ban/9933-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị bù áp thủy lực Hydraulic Accumulator SBO210-2,8E1/112U-210AK dung tích 2.8 lít, áp suất tối đa 210 bar, mã số 8479.89.70)
 - 🟢 [8992/TB-CHQ/2025](../registry/van-ban/8992-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2101.12.99)
 - 🟢 [8993/TB-CHQ/2025](../registry/van-ban/8993-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2101.12.99)
 - 🟢 [8601/TB-CHQ/2025](../registry/van-ban/8601-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.90.99)
+- 🟢 [8323/TB-CHQ/2025](../registry/van-ban/8323-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Phốt làm kín dầu NOK kiểu cơ khí BES1807-A0 TC 27 42 7 bằng cao su NBR kết hợp khung và lò xo thép, kích thước 27x42x7mm, mã số 8484.20.00)
 - 🟢 [7975/TB-CHQ/2025](../registry/van-ban/7975-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3926.90.99)
+- 🟢 [7204/TB-CHQ/2025](../registry/van-ban/7204-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Bảng giá điện tử ESL màn hình dẹt mực điện tử E-ink 4 màu kết nối BLE 2.4GHz và NFC, model EL029F5W4C/WWW, mã số 8531.80.29)
 - 🟢 [6631/TB-CHQ/2025](../registry/van-ban/6631-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
 - 🟢 [6471/TB-CHQ/2025](../registry/van-ban/6471-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2901.10.00)
 - 🟢 [5016/TB-CHQ/2025](../registry/van-ban/5016-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.90)
