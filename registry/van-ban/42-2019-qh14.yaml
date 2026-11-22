@@ -23,15 +23,52 @@ xac_minh:
   muc: NGUON_A
   pham_vi: số hiệu, ngày ban hành 14-06-2019, hiệu lực 01-11-2019, sửa đổi Luật 50/2005/QH11 — đối chiếu nguyên văn phần đầu VBHN 155/VBHN-VPQH (09-09-2025)
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-22'
   boi: tho-bo-ba-01@ozvietnam
   dieu_khoan:
     - dieu: 1
       noi_dung: 'Điều 1. Sửa đỗi, bd sung một số điều của Luật Kinh doanh bảo hiểm 1. Bổ sung các khoản 21, 22, 23, 24, 25 và 26 vào sau khoản 20 Điều 3 như sau:'
       trang_pdf: 1
     - dieu: 2
+      khoan: 1
       noi_dung: 'Điều 2. Sửa đối, bỗ sung một số điều của Luật Sở hữu trí tuệ 1. Sửa đổi, bd sung điểm a khoản 3 Điều 6 như sau: “a) Quyền sở hữu công nghiệp đối với sáng chế, kiểu dáng công nghiệp, thiết kế bố trí, nhãn hiệu được xác lập trên cơ sở quyết định cấp văn bang bảo hộ của cơ quan nhà nước có thẩm quyền theo thủ tục đăng ký quy định tại Luật này hoặc công nhận đăng ký quốc tế theo điều ước quốc tế mà'
       trang_pdf: 4
+    - dieu: 2
+      khoan: 2
+      noi_dung: '2. Sửa đổi, bễ sung khoản 3 và bê sung khoản 4 vào sau khoản 3 Điều 60 như sau: “3, Sáng chế không bị coi là mắt tính mới nếu được người có quyền đăng ký quy định tại Điều 86 của Luật này hoặc người có được thông tin vê sáng chế một cách trực tiếp hoặc gián tiếp từ người đó bộc lộ công khai với điều kiện đơn đăng ký sáng chế được nộp tại Việt Nam trong thời hạn mười hai tháng ké từ ngày bộc lộ.'
+      trang_pdf: 5
+    - dieu: 2
+      khoan: 3
+      noi_dung: '3. Sửa đổi, bổ sung Điều 61 như sau: “Điều 61. Trình độ sáng tạo của sáng chế 1. Sáng chế được coi là có trình độ sáng tạo nếu căn cứ vào các giải pháp kỹ thuật đã được bộc lộ công khai dưới hình thức sử dụng, mô ta bằng văn bản hoặc dưới bất kỳ hình thức nào khác ở trong nước hoặc ở nước ngoài trước ngày nộp đơn hoặc trước ngày ưu tiên của đơn đăng ký sáng chế trong trường hợp đơn đăng ký sáng chế được hưởng quyền ưu tiên, sáng chế đó là một bước tiến sáng tạo, không thé được tạo ra một cách dé dàng đối với người có hiểu biết trung bình về lĩnh vực kỹ thuật tương ứng.'
+      trang_pdf: 5
+    - dieu: 2
+      khoan: 5
+      noi_dung: '5. Bỗ sung khoản 3 vào sau khoản 2 Điều 89 như sau: “3. Đơn đăng ký xác lập quyền sở hữu công nghiệp được nộp dưới hình thức văn bản ở đạng giấy cho cơ quan quản lý nhà nước về quyền sở hữu công nghiệp hoặc dạng điện tử theo hệ thống nộp đơn trực tuyến.”.'
+      trang_pdf: 6
+    - dieu: 2
+      khoan: 7
+      noi_dung: '7. Bé sung Điều 120a vào sau Điều 120 trong Mục 4 Chương VHI như sau: “Điều 120a. Đề nghị quốc tế và xử lý đề nghị quốc tế về chi dẫn địa lý 1. Đề nghị công nhận và bảo hộ chỉ dẫn địa lý theo điều ước quốc tế mà Cộng hỏa xã hội chủ nghĩa Việt Nam dang dam phần gọi 14 dé nghị quốc tế.'
+      trang_pdf: 6
+    - dieu: 2
+      khoan: 8
+      noi_dung: '8. Sửa đối, bd sung khoản 2 Điều 136 như sau: “2. Chủ sở hữu nhãn hiệu có nghĩa vụ sử dụng liên tục nhãn hiệu. Việc sử dụng nhãn hiệu bởi bên nhận chuyển quyền theo hợp đồng sử dụng nhãn hiệu cũng được coi là hành vi sử dung nhãn hiệu của chủ sở hữu nhãn hiệu. Trong trường hợp nhãn hiệu không được sử dụng liên tục từ năm năm trở lên thì Giấy chứng nhận đăng l nhãn hiệu đó bị chấm dứt hiệu lực theo quy định tại Điều 95 của Luật này.”'
+      trang_pdf: 6
+    - dieu: 2
+      khoan: 9
+      noi_dung: '9. Sửa déi, bd sung Điều 148 như sau: “Điều 148. Hiệu lực của hợp đồng chuyển giao quyền sở hữu công nghiệp 1. Đối với các loại quyên sở hữu công nghiệp được xác lập trên cơ sở đăng ký theo quy định tại điểm a khoản 3 Điều 6 của Luật này, hợp đồng chuyên nhượng quyền sở hữu công nghiệp chỉ có hiệu lực khi đã được đăng ký tại cơ quan quản lý nhà nước về quyền sở hữu công nghiệp.'
+      trang_pdf: 6
+    - dieu: 2
+      khoan: 10
+      noi_dung: '10. Bỗ sung khoản 4 và khoản 5 vào sau khoản 3 Điều 198 như sau: “A. Tổ chức, cá nhân là bị đơn trong vụ kiện xâm phạm quyền sở hữu trí tuệ, nếu được Tòa án kết luận là không thực hiện hành vi xâm phạm có quyền yêu cầu Tòa án buộc nguyên đơn thanh toán cho mình chỉ phí hợp lý để thuê luật sư hoặc các chi phí khác theo quy định của pháp luật.'
+      trang_pdf: 7
+    - dieu: 2
+      khoan: 11
+      noi_dung: '11. Sửa đổi, bỗ sung khoản 1 Điều 205 như sau: “1. Trong trường hợp nguyên đơn chứng minh được hành vi xâm phạm quyền sở hữu trí tuệ đã gây thiệt hại về vật chất cho mình thì có quyền yêu cầu Tòa án quyết định mức bồi thường theo một trong các căn cứ sau đây: a) Tổng thiệt hại vật chất tính bằng tiền cộng với khoản lợi nhuận mà bị đơn đã thu được do thực hiện hành vi xâm phạm quyền sở hữu trí tuệ, nếu khoản lợi nhuận bị giảm sút của nguyên đơn chưa được tính vào tong thiệt hại vật chất;'
+      trang_pdf: 7
+    - dieu: 2
+      khoan: 12
+      noi_dung: '12. Sửa đổi, bd sung khoản 1 Điều 218 như sau: “1, Khi người yêu cầu tạm dừng làm thủ tục hải quan đã thực hiện đầy đủ các nghĩa vụ quy định tại Điều 217 của Luật này thì cơ quan hải quan ra quyết định tạm dừng làm thủ tục hải quan đối với lô hàng. Cơ quan hải quan cung cấp cho chủ thể quyền sở hữu trí tuệ thông tin về tên và địa chỉ của người gửi hàng; nhà xuat khẩu, người nhận hàng hoặc nhà nhập khẩu; bản mô tả hang hóa; so lượng hàng hóa; nước xuất xứ của hàng hóa nếu biết, trong thời hạn ba mươi ngày ké từ ngày ra quyết định á áp dụng biện pháp hành chính dé xử lý đối với hàng hóa giả mạo vệ nhãn hiệu và hàng hóa sao chép lậu theo quy định tại khoản 4 Điều 216 của Luật này.”.'
+      trang_pdf: 7
     - dieu: 3
       noi_dung: 'Điều 3. Hiệu lực thi hành 1. Luật này có hiệu lực thi hành từ ngày 01 tháng 11 năm 2019, trừ trường hợp quy định tại khoản 4 Điều này. 2. Bỗ sung mục 32a vào sau mục 32 Phụ lục 4 Danh mục ngành, nghề đầu tư kinh doanh có điều kiện của Luật Đầu tư số 67/2014/QH13 đã được sửa đổi, bd sung một số điều theo Luật số 90/2015/QH13, Luật số 03/2016/QH14, Luật số 04/2017/QH14 và Luật số 28/2018/QH14 như sau:'
       trang_pdf: 8

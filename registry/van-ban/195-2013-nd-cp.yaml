@@ -21,7 +21,7 @@ xac_minh:
   muc: NGUON_A
   pham_vi: 'Đối chiếu Công báo Chính phủ (id=4253, Công báo số 225+226 năm 2014) và cổng Bộ KH&CN (mst.gov.vn/van-ban-phap-luat/10106.htm, Thủ tướng Nguyễn Tấn Dũng ký): số hiệu, tiêu đề, ngày ban hành 21-11-2013 (hiệu đính từ 14-11-2013 ở bản ghi cũ), có hiệu lực từ 01-03-2014; đang còn hiệu lực (được sửa đổi, bổ sung một phần bởi Nghị định 60/2014/NĐ-CP, Nghị định 25/2018/NĐ-CP và Nghị định 150/2018/NĐ-CP)'
   hieu_luc_da_doi_chieu: true
-  ngay: '2026-11-14'
+  ngay: '2026-11-22'
   boi: tho-bo-ba-01@ozvietnam
   dieu_khoan:
     - dieu: 1
@@ -36,6 +36,10 @@ xac_minh:
       noi_dung: Điều 3. Trách nhiệm của các Bộ, cơ quan ngang Bộ trong việc quản lý nhà nước về hoạt động xuất bản 1. Bộ Công an chủ trì, phối hợp với Bộ Thông tin và Truyền thông quy định theo thẩm quyền hoặc trình cơ quan có thẩm quyền quy định và hướng dẫn thực hiện các biện pháp bảo đảm an ninh - trật tự và phòng, chống tội phạm trong hoạt động xuất bản.
       trang_pdf: 2
       sha256_pdf: a0b5d8399f2323f21c3189ee0a46a09672a84c90715d221520be1a948e2852af
+    - dieu: 6
+      noi_dung: 'Điều 6. Điều kiện thành lập, nội dung hoạt động của văn phòng đại diện tại Việt Nam của nhà xuất bản nước ngoài, của tổ chức phát hành xuất bản phẩm nước ngoài 1. Điều kiện thành lập: a) Nhà xuất bản, tổ chức phát hành xuất bản phẩm đang hoạt động hợp pháp tại nước ngoài;'
+      trang_pdf: 4
+      sha256_pdf: a0b5d8399f2323f21c3189ee0a46a09672a84c90715d221520be1a948e2852af
     - dieu: 7
       noi_dung: 'Điều 7. Cấp, cấp lại, gia hạn giấy phép thành lập văn phòng đại diện tại Việt Nam của nhà xuất bản nước ngoài, của tổ chức phát hành xuất bản phẩm nước ngoài 1. Việc cấp giấy phép thành lập văn phòng đại diện thực hiện theo quy định sau đây: a) Hồ sơ đề nghị cấp giấy phép thành lập văn phòng đại diện (bằng tiếng Việt và tiếng Anh có công chứng) gửi Bộ Thông tin và Truyền thông gồm có: Đơn đề nghị cấp giấy phép;'
       trang_pdf: 4
@@ -48,21 +52,41 @@ xac_minh:
       noi_dung: 'Điều 13. Điều kiện, hồ sơ cấp giấy phép hoạt động in xuất bản phẩm và các trường hợp thu hồi giấy phép hoạt động in xuất bản phẩm 1. Cơ sở in được cấp giấy phép hoạt động in xuất bản phẩm (bao gồm các công đoạn chế bản, in, gia công sau in) khi có đủ các điều kiện sau đây: a) Theo quy định tại Khoản 1 Điều 32 Luật xuất bản; b) Chủ sở hữu là tổ chức, cá nhân Việt Nam.'
       trang_pdf: 9
       sha256_pdf: a0b5d8399f2323f21c3189ee0a46a09672a84c90715d221520be1a948e2852af
+    - dieu: 14
+      noi_dung: 'Điều 14. Cấp, cấp lại, thu hồi giấy phép hoạt động kinh doanh nhập khẩu xuất bản phẩm 1. Cơ sở hoạt động kinh doanh nhập khẩu xuất bản phẩm (gọi tắt là cơ sở nhập khẩu xuất bản phẩm) được Bộ Thông tin và Truyền thông cấp giấy phép hoạt động kinh doanh nhập khẩu xuất bản phẩm khi có đủ điều kiện sau đây: a) Đáp ứng quy định tại Điểm a và Điểm b Khoản 3 Điều 38 Luật xuất bản, trong đó văn bằng do cơ sở đào tạo chuyên ngành cấp cho người đứng đầu cơ sở nhập khẩu xuất bản phẩm phải là bằng tốt nghiệp đại học trở lên về chuyên ngành phát hành xuất bản phẩm.'
+      trang_pdf: 10
+      sha256_pdf: a0b5d8399f2323f21c3189ee0a46a09672a84c90715d221520be1a948e2852af
     - dieu: 15
       noi_dung: 'Điều 15. Từ chối xác nhận đăng ký nhập khẩu xuất bản phẩm để kinh doanh Bộ Thông tin và Truyền thông từ chối xác nhận đăng ký nhập khẩu xuất bản phẩm để kinh doanh đối với cơ sở nhập khẩu xuất bản phẩm trong các trường hợp sau đây: 1. Xuất bản phẩm có dấu hiệu vi phạm pháp luật. 2. Xuất bản phẩm nhập khẩu đã được yêu cầu thẩm định nội dung nhưng cơ sở nhập khẩu không báo cáo kết quả thẩm định nội dung.'
+      trang_pdf: 11
+      sha256_pdf: a0b5d8399f2323f21c3189ee0a46a09672a84c90715d221520be1a948e2852af
+    - dieu: 16
+      noi_dung: 'Điều 16. Trách nhiệm thẩm định nội dung xuất bản phẩm nhập khẩu của cơ sở nhập khẩu xuất bản phẩm 1. Trong thời hạn 30 ngày, kể từ ngày được cấp giấy phép hoạt động kinh doanh nhập khẩu xuất bản phẩm, cơ sở nhập khẩu xuất bản phẩm phải ban hành quy chế nội bộ về thẩm định nội dung xuất bản phẩm nhập khẩu gửi Bộ Thông tin và Truyền thông và có trách nhiệm triển khai thực hiện đúng quy chế trong quá trình hoạt động.'
       trang_pdf: 11
       sha256_pdf: a0b5d8399f2323f21c3189ee0a46a09672a84c90715d221520be1a948e2852af
     - dieu: 18
       noi_dung: 'Điều 18. Thẩm định đề án và đăng ký hoạt động xuất bản, phát hành xuất bản phẩm điện tử 1. Việc thẩm định đề án hoạt động xuất bản và phát hành xuất bản phẩm điện tử thực hiện như sau: a) Nhà xuất bản phải có đề án hoạt động xuất bản điện tử và tổ chức, cá nhân phải có đề án hoạt động phát hành xuất bản phẩm điện tử gửi Bộ Thông tin và Truyền thông;'
       trang_pdf: 13
       sha256_pdf: a0b5d8399f2323f21c3189ee0a46a09672a84c90715d221520be1a948e2852af
+    - dieu: 20
+      noi_dung: 'Điều 20. Nhập khẩu xuất bản phẩm điện tử để kinh doanh 1. Cơ sở phát hành có giấy phép hoạt động kinh doanh nhập khẩu xuất bản phẩm theo quy định tại Điều 14 của Nghị định này được nhập khẩu xuất bản phẩm điện tử để kinh doanh. 2. Hoạt động nhập khẩu xuất bản phẩm điện tử để kinh doanh thực hiện theo quy định sau đây: a) Trước khi nhập khẩu xuất bản phẩm điện tử trong thiết bị lưu trữ dữ liệu, cơ sở nhập khẩu xuất bản phẩm phải đăng ký nhập khẩu theo quy định tại Điều 39 Luật xuất bản;'
+      trang_pdf: 15
+      sha256_pdf: a0b5d8399f2323f21c3189ee0a46a09672a84c90715d221520be1a948e2852af
     - dieu: 21
       noi_dung: Điều 21. Nộp lưu chiểu xuất bản phẩm điện tử 1. Khi nộp lưu chiểu xuất bản phẩm điện tử cho cơ quan quản lý nhà nước về hoạt động xuất bản theo quy định tại Điều 48 Luật xuất bản, nhà xuất bản, cơ quan, tổ chức được cấp giấy phép xuất bản phải nộp xuất bản phẩm điện tử dưới dạng 01 (một) bản ghi trong thiết bị lưu trữ dữ liệu hoặc nộp qua mạng Internet bằng định dạng số theo quy định của Bộ trưởng Bộ Thông tin và Truyền thông về định dạng tệp
       trang_pdf: 15
       sha256_pdf: a0b5d8399f2323f21c3189ee0a46a09672a84c90715d221520be1a948e2852af
+    - dieu: 24
+      noi_dung: 'Điều 24. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành kể từ ngày 01 tháng 3 năm 2014. 2. Kể từ ngày Nghị định này có hiệu lực thi hành, các văn bản quy phạm pháp luật và quy định sau đây hết hiệu lực: a) Nghị định số 111/2005/NĐ-CP ngày 26 tháng 8 năm 2005 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật xuất bản;'
+      trang_pdf: 17
+      sha256_pdf: a0b5d8399f2323f21c3189ee0a46a09672a84c90715d221520be1a948e2852af
     - dieu: 25
       noi_dung: Điều 25. Cấp đổi giấy phép trong hoạt động xuất bản và đăng ký hoạt động phát hành xuất bản phẩm 1. Trong thời hạn 18 tháng, kể từ ngày Nghị định này có hiệu lực thi hành, cơ quan chủ quản nhà xuất bản phải làm thủ tục đề nghị cấp đổi giấy phép thành lập nhà xuất bản.
       trang_pdf: 17
+      sha256_pdf: a0b5d8399f2323f21c3189ee0a46a09672a84c90715d221520be1a948e2852af
+    - dieu: 26
+      noi_dung: 'Điều 26. Trách nhiệm thi hành Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương và các cơ quan, tổ chức liên quan chịu trách nhiệm thi hành Nghị định này./.'
+      trang_pdf: 18
       sha256_pdf: a0b5d8399f2323f21c3189ee0a46a09672a84c90715d221520be1a948e2852af
 ghi_chu: Điều kiện hoạt động in — nhập thiết bị in phải đáp ứng điều kiện này.
 tu_khoa:
