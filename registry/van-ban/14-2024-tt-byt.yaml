@@ -14,8 +14,32 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-15'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng Thông tư này hướng dẫn phương pháp chế biến dược liệu và vị thuốc cổ truyền tại các cơ sở khám bệnh, chữa bệnh bằng y dược cổ truyền; cơ sở sản xuất, kinh doanh dược liệu, vị thuốc cổ truyền, thuốc cổ truyền, thuốc dược liệu (sau đây viết tắt là cơ sở).
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Giải thích từ ngữ Trong Thông tư này, những từ ngữ dưới đây được hiểu như sau: 1. Chế biến dược liệu là quá trình sơ chế hoặc phức chế dược liệu. 2. Sơ chế dược liệu là quá trình thực hiện một hoặc nhiều thao tác sau: loại tạp, ngâm, rửa, ủ, cắt đoạn, thái phiến, phơi, sấy để tạo thành dược liệu sơ chế.'
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Ban hành phương pháp chế biến dược liệu và vị thuốc cổ truyền 1. Phương pháp chung chế biến dược liệu, vị thuốc cổ truyền quy định tại Phụ lục I ban hành kèm theo Thông tư này. 2. Phương pháp chế biến cụ thể của một số vị thuốc cổ truyền quy định tại Phụ lục II ban hành kèm theo Thông tư này.
+      trang_pdf: 1
+    - dieu: 4
+      noi_dung: Điều 4. Hướng dẫn sử dụng 1. Phương pháp chế biến dược liệu, vị thuốc cổ truyền ban hành kèm theo Thông tư này làm căn cứ để cơ sở xây dựng quy trình sản xuất dược liệu, vị thuốc cổ truyền.
+      trang_pdf: 1
+    - dieu: 5
+      noi_dung: Điều 5. Hiệu lực thi hành 1. Thông tư này có hiệu lực kể từ ngày 28 tháng 10 năm 2024. 2. Thông tư số 30/2017/TT-BYT ngày 11 tháng 07 năm 2017 của Bộ trưởng Bộ Y tế hướng dẫn phương pháp chế biến các vị thuốc cổ truyền hết hiệu lực kể từ ngày Thông tư này có hiệu lực.
+      trang_pdf: 1
+    - dieu: 6
+      noi_dung: Điều 6. Điều khoản chuyển tiếp 1. Các lô thuốc, vị thuốc cổ truyền đã sản xuất theo Giấy đăng ký lưu hành được cấp trước ngày Thông tư này có hiệu lực thì được tiếp tục lưu hành đến hết hạn dùng theo quy định, kể cả phương pháp chế biến dược liệu khác so với phương pháp chế biến dược liệu quy định tại Thông tư này.
+      trang_pdf: 1
+    - dieu: 7
+      noi_dung: Điều 7. Trách nhiệm thi hành Chánh Văn phòng Bộ; Cục trưởng Cục Quản lý Y, Dược cổ truyền; Thủ trưởng các đơn vị thuộc và trực thuộc Bộ Y tế; Giám đốc Sở Y tế các tỉnh, thành phố trực thuộc Trung ương; Thủ trưởng cơ quan y tế các Bộ, ngành và các cơ quan tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Thông tư này.
+      trang_pdf: 1
 ghi_chu: Hướng dẫn phương pháp chế biến dược liệu và vị thuốc cổ truyền.
-toan_van: raw/download/vbpl.vn/14-2024-tt-byt.html
+toan_van:
+  - raw/download/vbpl-bientap-gateway.moj.gov.vn/14-2024-tt-byt.doc
+  - raw/download/vbpl-bientap-gateway.moj.gov.vn/14-2024-tt-byt.txt
 nguon:
   - url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-14-2024-tt-byt-huong-dan-phuong-phap-che-bien-duoc-lieu-va-vi-thuoc-co-truyen-do-bo-truong-bo-y-te-ban-hanh--170600
     truy_cap: '2026-11-15'

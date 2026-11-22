@@ -18,10 +18,55 @@ nguon:
     truy_cap: '2026-11-14'
   - url: https://www.hiephoixangdau.org/nd/tin-trong-nuoc/ban-hanh-thong-tu-huong-dan-nghi-dinh-83-2014-nd-cp.html
     truy_cap: '2026-10-28'
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-38-2014-tt-bct-14534.htm
+    truy_cap: '2026-11-22'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2014/10/14534/9591-1-2014977-978-382014tt-bctpdf
+    truy_cap: '2026-11-22'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'Đối chiếu cổng văn bản hợp nhất Bộ Công Thương (moit.gov.vn, VBHN 21/VBHN-BCT ngày 18-03-2020 đính kèm toàn văn docx), Điều 4 và Phụ lục IV VBHN 74/2026/VBHN-TT-BCT (74-vbhn-bct.signed.pdf) và hồ sơ hợp nhất 51/VBHN-BCT ngày 09-06-2026 trong sổ: Thông tư 38/2014/TT-BCT ban hành ngày 24-10-2014, có hiệu lực từ 01-11-2014, hướng dẫn Nghị định 83/2014/NĐ-CP; đối chiếu đang còn hiệu lực (được sửa đổi, bổ sung bởi Thông tư 28/2017/TT-BCT, 41/2019/TT-BCT, 42/2019/TT-BCT và các thông tư sửa đổi tiếp theo hợp nhất tại 51/VBHN-BCT)'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-toan_van: raw/download/moit.gov.vn/38-2014-tt-bct.html
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng 1. Thông tư này quy định chi tiết một số điều của Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ về kinh doanh xăng dầu. 2. Thông tư này áp dụng đối với thương nhân Việt Nam kinh doanh xăng dầu tại thị trường Việt Nam.
+      trang_pdf: 1
+      sha256_pdf: 2fae0d2a6092f7fcc3fc84b89b938ce25d503d238602b9dea28d8288caa00d85
+    - dieu: 2
+      noi_dung: 'Điều 2. Giải thích từ ngữ 1. Bên giao đại lý: là thương nhân đầu mối hoặc thương nhân phân phối xăng dầu hoặc tổng đại lý kinh doanh xăng dầu khi giao xăng dầu cho bên đại lý. 2. Bên đại lý: là tổng đại lý kinh doanh xăng dầu hoặc đại lý bán lẻ xăng dầu khi nhận xăng dầu của bên giao đại lý. 3. Bên bán xăng dầu: a) Là thương nhân đầu mối bán xăng dầu cho thương nhân đầu mối khác hoặc cho thương nhân phân phối xăng dầu;'
+      trang_pdf: 1
+      sha256_pdf: 2fae0d2a6092f7fcc3fc84b89b938ce25d503d238602b9dea28d8288caa00d85
+    - dieu: 3
+      noi_dung: 'Điều 3. Hợp đồng đại lý xăng dầu 1. Hợp đồng đại lý xăng dầu phải được lập thành văn bản, có các nội dung chủ yếu sau: a) Tên, địa chỉ, mã số thuế của bên đại lý và bên giao đại lý; hình thức đại lý; số lượng, chất lượng, chủng loại xăng dầu, cách thức giao nhận, giá bán, thù lao đại lý; các cam kết khác theo quy định của pháp luật và của Thông tư này; b) Trách nhiệm của các bên đối với chất lượng xăng dầu;'
+      trang_pdf: 2
+      sha256_pdf: 2fae0d2a6092f7fcc3fc84b89b938ce25d503d238602b9dea28d8288caa00d85
+    - dieu: 6
+      noi_dung: Điều 6. Kiểm tra và cấp Giấy phép, Giấy xác nhận, Giấy chứng nhận 1. Trong thời hạn ba mươi (30) ngày làm việc kể từ khi nhận được hồ sơ đầy đủ và hợp lệ, Bộ Công Thương có trách nhiệm xem xét, thẩm định, kiểm tra năng lực thực tế và cấp Giấy phép kinh doanh xuất khẩu, nhập khẩu xăng dầu; Giấy xác nhận đủ điều kiện làm thương nhân phân phối xăng dầu;
+      trang_pdf: 3
+      sha256_pdf: 2fae0d2a6092f7fcc3fc84b89b938ce25d503d238602b9dea28d8288caa00d85
+    - dieu: 8
+      noi_dung: 'Điều 8. Thương nhân phân phối xăng dầu Thương nhân phân phối xăng dầu có trách nhiệm: 1. Đăng ký định kỳ hệ thống phân phối xăng dầu với Bộ Công Thương trước ngày 31 tháng 01 hàng năm, theo Mẫu số 1 tại Phụ lục ban hành kèm theo Thông tư này. Khi có sự thay đổi trong hệ thống phân phối xăng dầu của mình, trong vòng mười (10) ngày làm việc từ khi có sự thay đổi, thương nhân phải gửi đăng ký điều chỉnh về Bộ Công Thương.'
+      trang_pdf: 5
+      sha256_pdf: 2fae0d2a6092f7fcc3fc84b89b938ce25d503d238602b9dea28d8288caa00d85
+    - dieu: 10
+      noi_dung: 'Điều 10. Đại lý bán lẻ xăng dầu Thương nhân là đại lý bán lẻ xăng dầu có trách nhiệm:'
+      trang_pdf: 6
+      sha256_pdf: 2fae0d2a6092f7fcc3fc84b89b938ce25d503d238602b9dea28d8288caa00d85
+    - dieu: 11
+      noi_dung: 'Điều 11. Thương nhân nhận quyền bán lẻ xăng dầu Thương nhân nhận quyền bán lẻ xăng dầu có trách nhiệm: 1. Đăng ký định kỳ hệ thống phân phối xăng dầu của thương nhân nhận quyền bán lẻ xăng dầu với bên nhượng quyền, Sở Công Thương nơi thương nhân có hệ thống phân phối và Bộ Công Thương trước ngày 05 tháng 01 hàng năm, theo Mẫu số 1 tại Phụ lục ban hành kèm theo Thông tư này.'
+      trang_pdf: 7
+      sha256_pdf: 2fae0d2a6092f7fcc3fc84b89b938ce25d503d238602b9dea28d8288caa00d85
+    - dieu: 13
+      noi_dung: Điều 13. Xuất khẩu xăng dầu và nguyên liệu 1. Thương nhân kinh doanh xuất khẩu, nhập khẩu xăng dầu chỉ được phép xuất khẩu xăng dầu sau khi Bộ Công Thương chấp thuận. 2. Bộ Công Thương xem xét đề nghị xuất khẩu xăng dầu của thương nhân trên cơ sở cân đối nguồn cung, nhu cầu tiêu thụ trong nước, để đảm bảo việc xuất khẩu không ảnh hưởng đến cung cầu xăng dầu tại thị trường trong nước.
+      trang_pdf: 8
+      sha256_pdf: 2fae0d2a6092f7fcc3fc84b89b938ce25d503d238602b9dea28d8288caa00d85
+    - dieu: 15
+      noi_dung: Điều 15. Sản xuất xăng dầu, nhập khẩu nguyên liệu để sản xuất xăng dầu 1. Thương nhân sản xuất xăng dầu phải đăng ký kế hoạch sản xuất xăng dầu, nhập khẩu nguyên liệu để sản xuất xăng dầu, tiêu thụ sản phẩm xăng dầu với Bộ Công Thương. 2. Việc nhập khẩu nguyên liệu để sản xuất xăng dầu, việc xuất khẩu xăng dầu do thương nhân sản xuất ra thực hiện theo kế hoạch đăng ký và được Bộ Công Thương xác nhận.
+      trang_pdf: 9
+      sha256_pdf: 2fae0d2a6092f7fcc3fc84b89b938ce25d503d238602b9dea28d8288caa00d85
+    - dieu: 18
+      noi_dung: Điều 18. Hiệu lực thi hành Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 11 năm 2014.
+      trang_pdf: 11
+      sha256_pdf: 2fae0d2a6092f7fcc3fc84b89b938ce25d503d238602b9dea28d8288caa00d85
+toan_van: raw/download/congbaocdn.chinhphu.vn/38-2014-tt-bct.pdf

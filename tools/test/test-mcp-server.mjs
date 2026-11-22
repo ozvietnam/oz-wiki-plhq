@@ -352,13 +352,13 @@ try {
     jsonrpc: '2.0',
     id: 192,
     method: 'tools/call',
-    params: { name: 'plhq_hoi_phap_luat', arguments: { cau_hoi: 'Luật Thương mại 36/2005/QH11 quy định gì?', limit: 5 } },
+    params: { name: 'plhq_hoi_phap_luat', arguments: { cau_hoi: 'Quy trình thủ tục hải quan 2538/QĐ-TCHQ quy định gì?', limit: 5 } },
   });
   const hoiPinSc = hoiPinBlind?.result?.structuredContent;
   t(
-    'tools/call plhq_hoi_phap_luat: ghim 36/2005/QH11 lên #1 kèm chua_co_toan_van_trong_kho & goi_y_du_phong sang lớp 2',
+    'tools/call plhq_hoi_phap_luat: ghim 2538/QĐ-TCHQ lên #1 kèm chua_co_toan_van_trong_kho & goi_y_du_phong sang lớp 2',
     !hoiPinBlind?.result?.isError
-      && hoiPinSc?.van_ban_lien_quan?.[0]?.so_hieu === '36/2005/QH11'
+      && hoiPinSc?.van_ban_lien_quan?.[0]?.so_hieu === '2538/QĐ-TCHQ'
       && hoiPinSc?.van_ban_lien_quan?.[0]?.khop_so_hieu_truc_tiep === true
       && hoiPinSc?.van_ban_lien_quan?.[0]?.chua_co_toan_van_trong_kho === true
       && hoiPinSc?.do_tin_cay_tra_loi !== 'CAO'

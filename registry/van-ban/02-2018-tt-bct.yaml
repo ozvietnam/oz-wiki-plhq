@@ -11,10 +11,35 @@ nhanh:
 nguon:
   - url: https://moit.gov.vn/van-ban-phap-luat/van-ban-phap-quy/-thong-tu-quy-dinh-chi-tiet-danh-muc-hang-hoa-mua-ban-trao-d.html
     truy_cap: '2026-10-04'
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-02-2018-tt-bct-26085.htm
+    truy_cap: '2026-11-22'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/2/26085/21712-1-2018455-45602-2018-tt-bct.pdf
+    truy_cap: '2026-11-22'
 xac_minh:
   muc: NGUON_A
   pham_vi: TT 02/2018/TT-BCT (Bộ Công Thương, ban hành 27/02/2018) — Quy định chi tiết Danh mục hàng hóa mua bán, trao đổi của cư dân biên giới. Hiệu lực từ 27/02/2018. Đã sửa đổi bởi TT 34/2025/TT-BCT (hiệu lực 21/07/2025) — vẫn còn hiệu lực ở mức cơ bản.
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-12'
   boi: legal-customs@ozvietnam
-toan_van: raw/download/moit.gov.vn/02-2018-tt-bct.html
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Phạm vi điều chỉnh Thông tư này quy định chi tiết Danh mục hàng hóa mua bán, trao đổi qua biên giới của cư dân biên giới theo quy định tại khoản 2 Điều 12 Nghị định số 14/2018/NĐ-CP ngày 23 tháng 01 năm 2018 của Chính phủ quy định chi tiết về hoạt động thương mại biên giới.
+      trang_pdf: 1
+      sha256_pdf: 14ee3e08255c4f722f7fc024301fb52fd555f5e441c0edb45af2b21616411223
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng 1. Cư dân biên giới mua bán, trao đổi hàng hóa qua biên giới quy định tại khoản 3 Điều 3 Nghị định số 14/2018/NĐ-CP. 2. Các cơ quan, tổ chức quản lý và điều hành hoạt động thương mại biên giới. 3. Các cơ quan, tổ chức, cá nhân khác có liên quan đến hoạt động thương mại biên giới.
+      trang_pdf: 1
+      sha256_pdf: 14ee3e08255c4f722f7fc024301fb52fd555f5e441c0edb45af2b21616411223
+    - dieu: 3
+      noi_dung: Điều 3. Danh mục hàng hóa nhập khẩu dưới hình thức mua bán, trao đổi qua biên giới của cư dân biên giới 1. Ban hành danh mục hàng hóa được nhập khẩu dưới hình thức mua bán, trao đổi của cư dân biên giới quy định tại Phụ lục I kèm theo Thông tư này. 2. Các mặt hàng ngoài danh mục quy định tại khoản 1 Điều này không được nhập khẩu dưới hình thức mua bán, trao đổi hàng hóa của cư dân biên giới.
+      trang_pdf: 1
+      sha256_pdf: 14ee3e08255c4f722f7fc024301fb52fd555f5e441c0edb45af2b21616411223
+    - dieu: 4
+      noi_dung: 'Điều 4. Tổ chức thực hiện 1. Bộ Công Thương có trách nhiệm: Hướng dẫn, kiểm tra các cơ quan, tổ chức, cá nhân có liên quan trong việc thực hiện quy định tại Thông tư này.'
+      trang_pdf: 2
+      sha256_pdf: 14ee3e08255c4f722f7fc024301fb52fd555f5e441c0edb45af2b21616411223
+    - dieu: 5
+      noi_dung: Điều 5. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày ký. 2. Bãi bỏ Thông tư số 54/2015/TT-BCT ngày 30 tháng 12 năm 2015 của Bộ Công Thương quy định Danh mục hàng hóa mua bán, trao đổi của cư dân biên giới tại Quyết định số 52/2015/QĐ-TTg ngày 20 tháng 10 năm 2015 của Thủ tướng Chính phủ về việc quản lý hoạt động thương mại biên giới với các nước có chung biên giới.
+      trang_pdf: 2
+      sha256_pdf: 14ee3e08255c4f722f7fc024301fb52fd555f5e441c0edb45af2b21616411223
+toan_van: raw/download/congbaocdn.chinhphu.vn/02-2018-tt-bct.pdf
