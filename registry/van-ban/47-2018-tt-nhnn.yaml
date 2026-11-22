@@ -24,12 +24,25 @@ danh_muc_hs:
   trich_boi: cursor-agent@ozvietnam
   ngay: '2026-10-12'
   da_doi_chieu: false
-  ghi_chu: 'Bảng CSV sẵn có trên main (4 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
+  ghi_chu: Bảng CSV sẵn có trên main (4 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.
 xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF Công báo số 65+66 ngày 18-01-2019 (lớp chữ): Điều 2 hiệu lực 12-02-2019; lược đồ Công báo không ghi văn bản thay/bãi; vbpl.vn ItemID=133842 thẻ «Hiệu lực: Còn hiệu lực» (kiểm đến 04-10-2026)'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Ban hành kèm theo Thông tư này Danh mục hàng hóa xuất khẩu, nhập khẩu kèm theo mã HS thuộc phạm vi quản lý của Ngân hàng Nhà nước Việt Nam trong lĩnh vực vàng.
+      trang_pdf: 1
+      sha256_pdf: 13a198e81b0f6edfa370a36188485646cdd61fdb1fbc39bd2e749dd293043348
+    - dieu: 2
+      noi_dung: Điều 2. Hiệu lực thi hành Thông tư này có hiệu lực thi hành kể từ ngày 12 tháng 02 năm 2019.
+      trang_pdf: 1
+      sha256_pdf: 13a198e81b0f6edfa370a36188485646cdd61fdb1fbc39bd2e749dd293043348
+    - dieu: 3
+      noi_dung: Điều 3. Trách nhiệm tổ chức thực hiện Chánh Văn phòng, Vụ trưởng Vụ Quản lý ngoại hối, Giám đốc Sở Giao dịch, Giám đốc Ngân hàng Nhà nước chi nhánh các tỉnh, thành phố trực thuộc Trung ương; Chủ tịch Hội đồng quản trị, Chủ tịch Hội đồng Thành viên, Chủ tịch công ty, Tổng Giám đốc (Giám đốc) các doanh nghiệp xuất khẩu, nhập khẩu vàng nguyên liệu chịu trách nhiệm tổ chức thực hiện Thông tư này./. KT. THỐNG ĐỐC PHÓ THỐNG ĐỐC Nguyễn Thị Hồng
+      trang_pdf: 1
+      sha256_pdf: 13a198e81b0f6edfa370a36188485646cdd61fdb1fbc39bd2e749dd293043348
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (2 mã HS). GHI CHÚ NGHIỆP VỤ: Vàng nguyên liệu (HS 7108.12.10; 7108.12.90) thuộc quản lý NHNN. PDF datafiles cũ là ảnh — dùng bản Công báo CDN có lớp chữ.'
 toan_van: raw/download/congbaocdn.chinhphu.vn/47-2018-tt-nhnn.pdf

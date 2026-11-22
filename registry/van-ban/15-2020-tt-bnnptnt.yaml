@@ -27,5 +27,18 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Ban hành kèm theo Thông tư này Quy chuẩn kỹ thuật quốc gia về yêu cầu đối với vật thể thuộc diện kiểm dịch thực vật nhập khẩu. Ký hiệu: QCVN 01-192: 2020/BNNPTNT'
+      trang_pdf: 2
+      sha256_pdf: c2ac73e04bc5d2e1b8225b33e29d9207640712307babc35b76c7e49f73f2dae9
+    - dieu: 2
+      noi_dung: Điều 2. Hiệu lực thi hành Thông tư này có hiệu lực thi hành kể từ ngày 25 tháng 6 năm 2021.
+      trang_pdf: 2
+      sha256_pdf: c2ac73e04bc5d2e1b8225b33e29d9207640712307babc35b76c7e49f73f2dae9
+    - dieu: 3
+      noi_dung: Điều 3. Tổ chức thực hiện Chánh Văn phòng Bộ, Vụ trưởng Vụ Khoa học Công nghệ và Môi trường, Cục trưởng Cục Bảo vệ thực vật, Thủ trưởng các cơ quan, tổ chức và cá nhân có liên quan chịu trách nhiệm thi hành Thông tư này. Trong quá trình thực hiện, nếu có vướng mắc, đề nghị các cơ quan, tổ chức, cá nhân kịp thời phản ánh về Bộ Nông nghiệp và Phát triển nông thôn (Cục Bảo vệ thực vật) để nghiên cứu, sửa đổi, bổ sung./.
+      trang_pdf: 2
+      sha256_pdf: c2ac73e04bc5d2e1b8225b33e29d9207640712307babc35b76c7e49f73f2dae9
 ghi_chu: 'Ban hành kèm theo QCVN 01-192:2020/BNNPTNT về yêu cầu đối với vật thể thuộc diện kiểm dịch thực vật nhập khẩu (hiệu lực từ 25-06-2021). Issue #237 mô tả TT 15/2020 là "trình tự thủ tục + danh mục" — KHÔNG ĐÚNG: TT 15/2020 là thông tư QCVN kỹ thuật nhập khẩu. Trình tự thủ tục nằm ở chuỗi TT 33/2014 (sửa 34/2018, 15/2021; 03/2024 bãi một phần 34/2018) — VBHN 19/2024; danh mục vật thể + PRA ở TT 30/2014 → TT 14/2024. Nạp để khách tra tên này không trượt, kèm điều chỉnh hiểu nhầm.'
 toan_van: raw/download/congbaocdn.chinhphu.vn/15-2020-tt-bnnptnt.pdf

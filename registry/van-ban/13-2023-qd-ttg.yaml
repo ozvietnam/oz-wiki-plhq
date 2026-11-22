@@ -25,12 +25,29 @@ danh_muc_hs:
   trich_boi: cursor-agent@ozvietnam
   ngay: '2026-10-12'
   da_doi_chieu: false
-  ghi_chu: 'Bảng CSV sẵn có trên main (24 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
+  ghi_chu: Bảng CSV sẵn có trên main (24 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.
 xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF Công báo số 723+724 ngày 31-05-2023 (lớp chữ): Điều 4 khoản 1 hiệu lực 01-06-2023 và thay thế 28/2020/QĐ-TTg; tình trạng hiện tại: sổ không có văn bản sau ghi thay/bãi QĐ 13/2023'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-10-04'
   boi: cursor-agent@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Ban hành kèm theo Quyết định này Danh mục phế liệu được phép nhập khẩu từ nước ngoài làm nguyên liệu sản xuất.
+      trang_pdf: 1
+      sha256_pdf: b65748ef1603ada729a4d137336739d6b7437d37908ffd8bfc5c8f36241dd607
+    - dieu: 2
+      noi_dung: Điều 2. Tổ chức, cá nhân trực tiếp nhập khẩu phế liệu làm nguyên liệu sản xuất chỉ được nhập khẩu phế liệu làm nguyên liệu sản xuất cho cơ sở của mình theo đúng công suất thiết kế để sản xuất ra các sản phẩm, hàng hóa.
+      trang_pdf: 1
+      sha256_pdf: b65748ef1603ada729a4d137336739d6b7437d37908ffd8bfc5c8f36241dd607
+    - dieu: 3
+      noi_dung: Điều 3. Điều khoản chuyển tiếp 1. Phế liệu giấy có mã HS 4707 90 00 được phép nhập khẩu từ nước ngoài theo giấy phép môi trường thành phần (Giấy xác nhận đủ điều kiện về bảo vệ môi trường trong nhập khẩu phế liệu làm nguyên liệu sản xuất) đã được cơ quan có thẩm quyền cấp trước ngày Quyết định này có hiệu lực thi hành được tiếp tục nhập khẩu đến hết hiệu lực của giấy phép môi trường thành phần.
+      trang_pdf: 1
+      sha256_pdf: b65748ef1603ada729a4d137336739d6b7437d37908ffd8bfc5c8f36241dd607
+    - dieu: 4
+      noi_dung: Điều 4. Điều khoản thi hành 1. Quyết định này có hiệu lực thi hành từ ngày 01 tháng 6 năm 2023 và thay thế Quyết định số 28/2020/QĐ-TTg ngày 24 tháng 9 năm 2020 của Thủ tướng Chính phủ ban hành Danh mục phế liệu được phép nhập khẩu từ nước ngoài làm nguyên liệu sản xuất.
+      trang_pdf: 2
+      sha256_pdf: b65748ef1603ada729a4d137336739d6b7437d37908ffd8bfc5c8f36241dd607
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 24 mã HS).
 toan_van: raw/download/congbaocdn.chinhphu.vn/13-2023-qd-ttg.pdf

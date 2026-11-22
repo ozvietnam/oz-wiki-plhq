@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 22/2018/TT-BTTTT
 loai: THONG_TU
-ten: 'Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm'
+ten: Ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm
 co_quan: BTTTT
 ngay_ban_hanh: '2018-12-28'
 hieu_luc_tu: '2019-02-12'
@@ -15,9 +15,9 @@ quan_he:
     - 25/2018/NĐ-CP
   thay_the:
     - so_hieu: 16/2015/TT-BTTTT
-      pham_vi: 'Toàn bộ Thông tư số 16/2015/TT-BTTTT ngày 17/6/2015 quy định chi tiết thi hành Nghị định số 187/2013/NĐ-CP về xuất khẩu, nhập khẩu hàng hóa trong lĩnh vực in, phát hành xuất bản phẩm (cùng Thông tư sửa đổi, bổ sung số 41/2016/TT-BTTTT ngày 26/12/2016)'
+      pham_vi: Toàn bộ Thông tư số 16/2015/TT-BTTTT ngày 17/6/2015 quy định chi tiết thi hành Nghị định số 187/2013/NĐ-CP về xuất khẩu, nhập khẩu hàng hóa trong lĩnh vực in, phát hành xuất bản phẩm (cùng Thông tư sửa đổi, bổ sung số 41/2016/TT-BTTTT ngày 26/12/2016)
       tu_ngay: '2019-02-12'
-      can_cu: 'Điều 2 khoản 1 điểm a, b TT 22/2018/TT-BTTTT'
+      can_cu: Điều 2 khoản 1 điểm a, b TT 22/2018/TT-BTTTT
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-22-2018-tt-btttt-28195.htm
     truy_cap: '2026-11-12'
@@ -50,7 +50,18 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-12'
   boi: tho-bo-ba-01@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm Ban hành kèm theo Thông tư này Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm, bao gồm:'
+      trang_pdf: 1
+      sha256_pdf: 45bf2810296379f26c72be20e945451a415d895d9c35a6fdfc0b0e9316a65382
+    - dieu: 2
+      noi_dung: 'Điều 2. Điều khoản thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 12 tháng 02 năm 2019 và thay thế các Thông tư sau đây: a) Thông tư số 16/2015/TT-BTTTT ngày 17 tháng 6 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết thi hành Nghị định số 187/2013/NĐ-CP ngày 20 tháng 11 năm 2013 của Chính phủ về xuất khẩu, nhập khẩu hàng hóa trong lĩnh vực in, phát hành xuất bản phẩm;'
+      trang_pdf: 2
+      sha256_pdf: 45bf2810296379f26c72be20e945451a415d895d9c35a6fdfc0b0e9316a65382
 ghi_chu: 'Đã hiệu đính ten, ngay_ban_hanh (từ 2018-11-16 sai ở bản ghi NGUON_B cũ về đúng ngày ký 2018-12-28) và bổ sung hieu_luc_tu: 2019-02-12 theo đúng nguyên bản ký số trên Công báo. Điểm b khoản 1 Điều 2 thay thế thêm Thông tư số 41/2016/TT-BTTTT ngày 26-12-2016 nhưng văn bản này chưa có mục riêng trong registry/van-ban/ nên ghi nhận tại pham_vi và ghi_chu. Phần căn cứ còn nêu Luật Xuất bản số 19/2012/QH13 (chưa mở mục trong sổ) và Nghị định 69/2018/NĐ-CP (đã hết hiệu lực, thay bởi NĐ 95/2026/NĐ-CP). Toàn văn hợp nhất hiện hành của TT 22/2018/TT-BTTTT sau khi sửa đổi bởi TT 11/2024/TT-BTTTT là Văn bản hợp nhất số 09/VBHN-BTTTT ngày 21-10-2024 (https://vanban.chinhphu.vn/?pageid=27160&docid=211488, đã mở mục riêng trong sổ tại registry/van-ban/09-vbhn-btttt-2024.yaml).'
 toan_van: raw/download/congbaocdn.chinhphu.vn/22-2018-tt-btttt.pdf
-tu_khoa: [xuat-ban, in, xuat-nhap-khau]
-
+tu_khoa:
+  - xuat-ban
+  - in
+  - xuat-nhap-khau
