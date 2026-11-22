@@ -5,13 +5,13 @@
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
  "canh_bao_tang_nhap": "Tầng TOM_TAT_NHAP được trích tự động bởi LLM (da_soat: false) — CHỈ dùng để định vị điều khoản, KHÔNG trích dẫn nguyên văn hay làm căn cứ pháp lý; chỉ dùng NGUYEN_VAN_NGUON_A để trích dẫn căn cứ.",
  "thong_ke": {
-  "so_van_ban_nguon_a": 345,
-  "so_dieu_khoan_nguon_a": 3041,
+  "so_van_ban_nguon_a": 351,
+  "so_dieu_khoan_nguon_a": 3091,
   "so_van_ban_tom_tat_nhap": 88,
-  "so_dieu_khoan_tom_tat_nhap": 3674,
+  "so_dieu_khoan_tom_tat_nhap": 3684,
   "so_tep_doc_hieu": 91,
   "so_dong_loi": 0,
-  "so_dong_rac_da_loc": 1048
+  "so_dong_rac_da_loc": 0
  },
  "nguyen_van_nguon_a": [
   {
@@ -953,6 +953,91 @@
    ]
   },
   {
+   "so_hieu": "03/2015/TT-BTTTT",
+   "slug": "03-2015-tt-btttt",
+   "ten": "Quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in",
+   "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+   "hieu_luc_tu": "2015-05-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-03-2015-tt-btttt-8741.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Thông tư này quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ về hoạt động in (sau đây được viết tắt là Nghị định số 60/2014/NĐ-CP).",
+     "trang_pdf": 1,
+     "sha256_pdf": "475ccee7e6bc39503729d031af81380fc3f033bcf789aae8df508f8fc9d0b720"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Tiếp nhận hồ sơ và giải quyết thủ tục hành chính trong hoạt động in 1. Đối với các thủ tục hành chính thuộc thẩm quyền giải quyết của Bộ Thông tin và Truyền thông quy định tại Nghị định số 60/2014/NĐ-CP và Thông tư này, Cục Xuất bản, In và Phát hành có trách nhiệm tiếp nhận hồ sơ và giải quyết theo chức năng, nhiệm vụ, quyền hạn được giao.",
+     "trang_pdf": 1,
+     "sha256_pdf": "475ccee7e6bc39503729d031af81380fc3f033bcf789aae8df508f8fc9d0b720"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Trách nhiệm tổ chức tập huấn và bồi dưỡng kiến thức pháp luật, nghiệp vụ trong hoạt động in 1. Cục Xuất bản, In và Phát hành chủ trì, phối hợp với cơ quan, đơn vị liên quan tổ chức tập huấn, bồi dưỡng kiến thức pháp luật, nghiệp vụ trong hoạt động in trên phạm vi cả nước.",
+     "trang_pdf": 2,
+     "sha256_pdf": "475ccee7e6bc39503729d031af81380fc3f033bcf789aae8df508f8fc9d0b720"
+    },
+    {
+     "dieu": 4,
+     "noi_dung": "Điều 4. Chế độ báo cáo định kỳ hoạt động in, dịch vụ photocopy quy định tại Điều 8 Nghị định số 60/2014/NĐ-CP 1. Chủ thể thực hiện chế độ báo cáo và nơi gửi báo cáo: a) Cơ sở chế bản, in, gia công sau in ở Trung ương phải báo cáo bằng văn bản (theo mẫu) với Bộ Thông tin và Truyền thông (qua Cục Xuất bản, In và Phát hành); b) Cơ sở chế bản, in, gia công sau in ở địa phương phải báo cáo bằng văn bản (theo mẫu) với Sở Thông tin và Truyền thông;",
+     "trang_pdf": 2,
+     "sha256_pdf": "475ccee7e6bc39503729d031af81380fc3f033bcf789aae8df508f8fc9d0b720"
+    },
+    {
+     "dieu": 5,
+     "noi_dung": "Điều 5. Tổ chức liên ngành phòng, chống các hành vi vi phạm pháp luật trong hoạt động in quy định tại Khoản 7 Điều 5 và Điểm d Khoản 1 Điều 7 Nghị định số 60/2014/NĐ-CP 1. Tổ chức liên ngành là tổ chức phối hợp hoạt động của các cơ quan liên quan để phòng, chống các hành vi vi phạm pháp luật trong hoạt động in.",
+     "trang_pdf": 3,
+     "sha256_pdf": "475ccee7e6bc39503729d031af81380fc3f033bcf789aae8df508f8fc9d0b720"
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Điều 6. Quy định chi tiết Điểm b Khoản 1 Điều 11 Nghị định số 60/2014/ NĐ-CP về thiết bị in phải có để thực hiện một hoặc các công đoạn chế bản, in, gia công sau in Cơ sở in thực hiện một hoặc các công đoạn chế bản, in, gia công sau in phải có thiết bị tương ứng với từng công đoạn:",
+     "trang_pdf": 3,
+     "sha256_pdf": "475ccee7e6bc39503729d031af81380fc3f033bcf789aae8df508f8fc9d0b720"
+    },
+    {
+     "dieu": 7,
+     "noi_dung": "Điều 7. Trình tự, thủ tục thu hồi giấy phép hoạt động in quy định tại Khoản 2 Điều 13 Nghị định số 60/2014/NĐ-CP 1. Việc xác định cơ sở in bị thu hồi giấy phép hoạt động in phải được thực hiện qua công tác kiểm tra, thanh tra thuộc chuyên ngành thông tin và truyền thông. 2. Cơ quan, người có thẩm quyền tiến hành kiểm tra, thanh tra tại cơ sở in và lập biên bản.",
+     "trang_pdf": 4,
+     "sha256_pdf": "475ccee7e6bc39503729d031af81380fc3f033bcf789aae8df508f8fc9d0b720"
+    },
+    {
+     "dieu": 8,
+     "noi_dung": "Điều 8. Lưu giữ, quản lý hồ sơ liên quan đến sản phẩm nhận chế bản, in và gia công sau in quy định tại Khoản 5 Điều 15 Nghị định số 60/2014/NĐ-CP Người đứng đầu cơ sở in phải tổ chức thực hiện lưu giữ và quản lý hồ sơ nhận chế bản, in, gia công sau in trong 24 tháng, kể từ ngày ký hợp đồng in.",
+     "trang_pdf": 5,
+     "sha256_pdf": "475ccee7e6bc39503729d031af81380fc3f033bcf789aae8df508f8fc9d0b720"
+    },
+    {
+     "dieu": 9,
+     "noi_dung": "Điều 9. Quy định chi tiết về chủng loại thiết bị in phải có giấy phép nhập khẩu tại Khoản 1 Điều 27 Nghị định số 60/2014/NĐ-CP 1. Máy chế bản ghi phim, ghi kẽm, tạo khuôn in là máy chuyên dùng phục vụ khâu chế bản (trước in) trong hoạt động in. 2. Máy in sử dụng công nghệ kỹ thuật số có tốc độ trên 50 tờ/phút A4 hoặc có khổ in trên A3. 3. Máy in sử dụng công nghệ in ốp - xét (offset), flexo, ống đồng; máy in lưới (lụa).",
+     "trang_pdf": 5,
+     "sha256_pdf": "475ccee7e6bc39503729d031af81380fc3f033bcf789aae8df508f8fc9d0b720"
+    },
+    {
+     "dieu": 10,
+     "noi_dung": "Điều 10. Sử dụng, đăng ký, chuyển nhượng máy photocopy màu, máy in có chức năng photocopy màu quy định tại Khoản 2, 3 và Khoản 4 Điều 30 Nghị định số 60/2014/NĐ-CP 1. Sử dụng máy in có chức năng photocopy màu quy định tại Điểm b Khoản 1 Điều 30 Nghị định số 60/2014/NĐ-CP như sau:",
+     "trang_pdf": 5,
+     "sha256_pdf": "475ccee7e6bc39503729d031af81380fc3f033bcf789aae8df508f8fc9d0b720"
+    },
+    {
+     "dieu": 11,
+     "noi_dung": "Điều 11. Ban hành biểu mẫu Ban hành kèm theo Thông tư này 01 phụ lục gồm 24 mẫu, biểu mẫu sử dụng trong hoạt động in.",
+     "trang_pdf": 7,
+     "sha256_pdf": "475ccee7e6bc39503729d031af81380fc3f033bcf789aae8df508f8fc9d0b720"
+    },
+    {
+     "dieu": 12,
+     "noi_dung": "Điều 12. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 5 năm 2015. 2. Các văn bản quy phạm pháp luật sau đây hết hiệu lực, kể từ ngày Thông tư này có hiệu lực thi hành: a) Thông tư số 04/2008/TT-BTTTT ngày 09 tháng 7 năm 2008 của Bộ trưởng Bộ Thông tin và Truyền thông hướng dẫn thực hiện một số nội dung của Nghị định số 105/2007/NĐ-CP ngày 21 tháng 6 năm 2007 của Chính phủ về hoạt động in các sản phẩm không phải là",
+     "trang_pdf": 7,
+     "sha256_pdf": "475ccee7e6bc39503729d031af81380fc3f033bcf789aae8df508f8fc9d0b720"
+    }
+   ]
+  },
+  {
    "so_hieu": "03/2019/TT-BCT",
    "slug": "03-2019-tt-bct",
    "ten": "Quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương",
@@ -1728,6 +1813,91 @@
    ]
   },
   {
+   "so_hieu": "05/2016/TT-BTTTT",
+   "slug": "05-2016-tt-btttt",
+   "ten": "Quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế",
+   "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+   "hieu_luc_tu": "2016-08-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-05-2016-tt-btttt-19218.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng 1. Thông tư này quy định chi tiết và hướng dẫn việc cấp, quản lý, yêu cầu kỹ thuật, vị trí, kích thước, màu sắc, cách thức ghi mã số sách tiêu chuẩn quốc tế International Standard Books Number (sau đây gọi tắt là mã số ISBN). 2. Thông tư này áp dụng đối với các đối tượng sau đây: a) Cục Xuất bản, In và Phát hành; b) Các nhà xuất bản.",
+     "trang_pdf": 1,
+     "sha256_pdf": "efcb4e9ec0787f522dbdba3cbd2b71335258c862f3efd96412899de626ba2678"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Trách nhiệm của cơ quan quản lý mã số ISBN 1. Cục Xuất bản, In và Phát hành là cơ quan quản lý mã số ISBN tại Việt Nam có trách nhiệm cấp, quản lý và thu hồi mã số ISBN. 2. Hàng năm, Cục Xuất bản, In và Phát hành báo cáo về tình hình sử dụng mã số ISBN ở Việt Nam và đóng phí hoạt động cho tổ chức ISBN quốc tế.",
+     "trang_pdf": 1,
+     "sha256_pdf": "efcb4e9ec0787f522dbdba3cbd2b71335258c862f3efd96412899de626ba2678"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Chế độ báo cáo Các nhà xuất bản báo cáo Cục Xuất bản, In và Phát hành về việc sử dụng mã số ISBN được cấp, thông báo mã số ISBN chưa sử dụng trước ngày 31 tháng 3 của năm liền sau năm được cấp mã số ISBN.",
+     "trang_pdf": 2,
+     "sha256_pdf": "efcb4e9ec0787f522dbdba3cbd2b71335258c862f3efd96412899de626ba2678"
+    },
+    {
+     "dieu": 4,
+     "noi_dung": "Điều 4. Đối tượng phải ghi mã số ISBN Nhà xuất bản phải ghi mã số ISBN trên sách và tài liệu dạng sách, bao gồm cả bản đồ, sách điện tử, sách chữ nổi (sau đây gọi chung là sách). Chương II TẠO LẬP VÀ SỬ DỤNG MÃ SỐ ISBN",
+     "trang_pdf": 2,
+     "sha256_pdf": "efcb4e9ec0787f522dbdba3cbd2b71335258c862f3efd96412899de626ba2678"
+    },
+    {
+     "dieu": 5,
+     "noi_dung": "Điều 5. Nguyên tắc tạo lập và sử dụng mã số ISBN 1. Mã số ISBN được tạo lập và sử dụng tại Việt Nam là ISBN-13 và phải tích hợp với mã vạch theo chuẩn EAN-13, đảm bảo các yêu cầu sau: a) Đọc được bằng máy hoặc phần mềm đọc mã thông dụng; b) Chứa các thông tin của sách quy định tại Khoản 1 Điều 6 Thông tư này; c) Có liên kết đến thông tin của xuất bản phẩm trong hệ thống cơ sở dữ liệu của Cục Xuất bản, In và Phát hành;",
+     "trang_pdf": 2,
+     "sha256_pdf": "efcb4e9ec0787f522dbdba3cbd2b71335258c862f3efd96412899de626ba2678"
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Điều 6. Cơ sở dữ liệu tích hợp với mã số ISBN 1. Mã số ISBN tích hợp với mã vạch EAN-13 phải chứa các thông tin sau: a) Tên nhà xuất bản; b) Tên sách; c) Tên tác giả, tên dịch giả (đối với sách dịch); d) Năm xuất bản; đ) Khuôn khổ, số trang; e) Thể loại; g) Tóm tắt nội dung, chủ đề, đề tài; h) Số xác nhận đăng ký xuất bản của Cục Xuất bản, In và Phát hành; i) Số quyết định xuất bản của nhà xuất bản;",
+     "trang_pdf": 2,
+     "sha256_pdf": "efcb4e9ec0787f522dbdba3cbd2b71335258c862f3efd96412899de626ba2678"
+    },
+    {
+     "dieu": 7,
+     "noi_dung": "Điều 7. Vị trí và trình bày mã số ISBN 1. Đối với sách in: a) Mã số ISBN tích hợp mã vạch phải in tại góc dưới bên phải bìa 4. Nếu là sách có bìa bọc thì in trên bìa bọc; b) Phía trên mã vạch phải có dòng chữ “ISBN” và tiếp sau là các thành phần của mã số, cách nhau bởi dấu gạch nối. Phần dãy số phía dưới trùng với dãy số phía trên, nhưng không có gạch nối (như hình minh họa).",
+     "trang_pdf": 3,
+     "sha256_pdf": "efcb4e9ec0787f522dbdba3cbd2b71335258c862f3efd96412899de626ba2678"
+    },
+    {
+     "dieu": 8,
+     "noi_dung": "Điều 8. Yêu cầu kỹ thuật thể hiện đối với mã vạch EAN-13 khi tích hợp với mã số ISBN 1. Kích thước: a) Kích thước tiêu chuẩn của mã vạch có chiều cao 22,85mm, rộng 31,35mm. Nếu rút ngắn chiều cao phải đảm bảo để máy đọc mã vạch nhận biết được;",
+     "trang_pdf": 3,
+     "sha256_pdf": "efcb4e9ec0787f522dbdba3cbd2b71335258c862f3efd96412899de626ba2678"
+    },
+    {
+     "dieu": 9,
+     "noi_dung": "Điều 9. Nguyên tắc cấp mã số ISBN 1. Mỗi tên sách thuộc các trường hợp sau đây được cấp một mã số ISBN riêng biệt: a) Sách xuất bản lần đầu; b) Sách tái bản mà nội dung có sửa chữa, bổ sung; c) Sách xuất bản với nhiều ngôn ngữ và được in riêng từng cuốn cho từng ngôn ngữ; d) Sách cùng nội dung mà xuất bản dưới các hình thức khác nhau (sách in bìa cứng, sách in bìa mềm, sách kèm đĩa, sách điện tử, sách chữ nổi);",
+     "trang_pdf": 4,
+     "sha256_pdf": "efcb4e9ec0787f522dbdba3cbd2b71335258c862f3efd96412899de626ba2678"
+    },
+    {
+     "dieu": 10,
+     "noi_dung": "Điều 10. Cách thức cấp mã số ISBN Cục Xuất bản, In và Phát hành cấp mã số ISBN kèm theo xác nhận đăng ký xuất bản cho từng tên sách.",
+     "trang_pdf": 4,
+     "sha256_pdf": "efcb4e9ec0787f522dbdba3cbd2b71335258c862f3efd96412899de626ba2678"
+    },
+    {
+     "dieu": 11,
+     "noi_dung": "Điều 11. Thu hồi mã số ISBN 1. Cục Xuất bản, In và Phát hành thu hồi mã số ISBN đã cấp đối với trường hợp mã số ISBN không được sử dụng theo quy định. 2. Cách thức thu hồi mã số ISBN: Nhà xuất bản nộp lại mã số ISBN đã được cấp thông qua báo cáo hàng năm theo quy định tại Điều 3 Thông tư này. Chương IV ĐIỀU KHOẢN THI HÀNH",
+     "trang_pdf": 5,
+     "sha256_pdf": "efcb4e9ec0787f522dbdba3cbd2b71335258c862f3efd96412899de626ba2678"
+    },
+    {
+     "dieu": 12,
+     "noi_dung": "Điều 12. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 8 năm 2016. 2. Chánh Văn phòng, Cục trưởng Cục Xuất bản, In và Phát hành, Thủ trưởng cơ quan, tổ chức có liên quan chịu trách nhiệm thi hành Thông tư này.",
+     "trang_pdf": 5,
+     "sha256_pdf": "efcb4e9ec0787f522dbdba3cbd2b71335258c862f3efd96412899de626ba2678"
+    }
+   ]
+  },
+  {
    "so_hieu": "05/2017/QH14",
    "slug": "05-2017-qh14",
    "ten": "Luật Quản lý ngoại thương",
@@ -1865,6 +2035,64 @@
      "noi_dung": "Điều 12. Hiệu lực thi hành Thông tư này có hiệu lực thi hành kể từ ngày 03 tháng 4 năm 2018./. BỘ TRƯỞNG Trần Tuấn Anh",
      "trang_pdf": 9,
      "sha256_pdf": "1fa7fb9e8281beff519acb7b05c2a001f3cf007a555ac1498c7dbe5942fa06d1"
+    }
+   ]
+  },
+  {
+   "so_hieu": "05/2022/TT-BYT",
+   "slug": "05-2022-tt-byt",
+   "ten": "Quy định chi tiết thi hành một số điều của Nghị định số 98/2021/NĐ-CP ngày 08 tháng 11 năm 2021 của Chính phủ về quản lý trang thiết bị y tế",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2022-08-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-05-2022-tt-byt-quy-dinh-chi-tiet-thi-hanh-mot-so-dieu-cua-nghi-dinh-so-98-2021-nd-cp-ngay-08-thang-11-nam-2021-cua-chinh-phu-ve-quan-ly-trang-thiet-bi-y-te--155154",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Pham vi điều chính 1. Thông tư này quy định chỉ tiết thi hành một số điều của Nghị định số 98/2021/NĐ-CP ngày 08 tháng 11 năm 2021 của Chính phủ về quản lý trang thiết bị y tế (sau đây viết tắt là Nghị định số 98/2021/NĐ-CP) gồm: a) Phân loại trang thiết bị y tế quy định tại khoản 5 Điều 5 Nghị định số 98/2021/NĐ-CP;",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Quy định việc phân loại trang thiết bị y tế 1. Trang thiết bị y té duge phan loại theo một hoặc một nhóm dé xác định mức độ rủi ro và cap sô lưu hành. 2. Việc phân loại một hoặc một nhóm trang thiết bị y tế phải dựa trên cơ sở quy tắc phân loại về mức độ rủi ro A, B, C, D (quy dinh cu thé tai Phu luc I ban hành kèm theo Thông tư này). 3. Mẫu bản kết quả phân loại trang thiết bị y tế được thực hiện theo Phụ lục II của Thông tư này.",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Bỗ sung danh mục trang thiết bị y tế chan đoán in vitro không phải thực hiện đánh giá chất lượng bởi cơ quan có thẩm quyền của Việt Nam quy định tại điểm đ khoản 3 Điều 30 Nghị định số 98/2021/NĐ-CP 1. Đã được cấp giấy chứng nhận lưu hành tự do (Certificate of Free Sale) của một trong các nước, tô chức sau: a) Cục Quản lý Thực phẩm và Dược phẩm Hoa Kỳ (FDA) - My; b) Cục Quan ly hàng hóa trị liệu (TGA) - Úc;",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 4,
+     "noi_dung": "Điều 4. Danh mục trang thiết bị y tế thuộc loại B, C, D được mua, bán như các hàng hóa thông thường theo quy định tại khoản 1 Điều 42 Nghị định số 98/2021/NĐ-CP 1. Máy đo huyết áp cá nhân.",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 5,
+     "noi_dung": "Điều 5. Danh mục trang thiết bị y tế phải được kiểm định về an toàn và tính năng kỹ thuật theo quy định tại khoản 10 Điều 70 Nghị định số 98/2021/NĐ-CP 1. Máy thở. 2. Máy gây mê kèm thở. 3. Dao mô điện. 4. Lồng ấp trẻ sơ sinh. 5. Máy phá rung tim. 6. Máy thận nhân tạo.",
+     "trang_pdf": 3
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Điều 6. Danh mục trang thiết bị y tế cấp giấy phép nhập khẩu để thực hiện quy định tại điểm d khoản 2 Điều 76 Nghị định số 98/2021/NĐ-CP 1. Các thiết bị chân đoán hình anh dùng tia X. 2. Hệ thống cộng hưởng từ. 3. Máy siêu âm chân đoán. 4. Hệ thông nội soi chân đoán. 5. Hệ thông Cyclotron.",
+     "trang_pdf": 3
+    },
+    {
+     "dieu": 7,
+     "noi_dung": "Điều 7. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành ké từ ngày 0/ thang 8 năm 2022. 2. Các nội dung quy định chỉ tiết thi hành một số điều của Nghị định số 98/2021/NĐ-CP tại Thông tư này được áp dụng từ ngày Nghị định số 98/2021/NĐ-CP có hiệu lực thi hành.",
+     "trang_pdf": 5
+    },
+    {
+     "dieu": 8,
+     "noi_dung": "Điều 8. Lộ trình thực hiện 1. Đối với các trang thiết bị y tế quy định tại các khoản 1, 2 và 3 Điều 5 Thông tư này: a) Nếu mua sắm sau ngày 31 tháng 12 năm 2022 phải kiêm định an toàn và tính năng kỹ thuật của trang thiết bị y tế theo đúng quy trình kiểm định do Bộ trưởng Bộ Y tế ban hành;",
+     "trang_pdf": 6
+    },
+    {
+     "dieu": 9,
+     "noi_dung": "Điều 9. Tổ chức thực hiện Chánh Văn phòng Bộ; Chánh Thanh tra Bộ; Vụ trưởng, Cục trưởng, Tổng Cục trưởng thuộc Bộ Y tế; Giám đốc Sở Y tế các tỉnh, thành phó trực thuộc Trung ương và cơ quan, tô chức, cá nhân có liên quan chịu trách nhiệm thi hành Thông tư này. Trong quá trình thực hiện nếu có khó khăn, vướng mắc, đề nghị các cơ quan, tô chức, cá nhân phản ánh kịp thời về Bộ Y tế dé xem xét, giải quyết./.",
+     "trang_pdf": 6
     }
    ]
   },
@@ -16042,6 +16270,34 @@
    ]
   },
   {
+   "so_hieu": "366/QĐ-BKHCN",
+   "slug": "366-qd-bkhcn-2023",
+   "ten": "Về việc công bố bổ sung sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2023-03-14",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=207620",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Công bố bỗ sung sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ tại Phụ lục ban hành kèm theo Quyết . định này, bao gồm mã HS, quy chuẩn kỹ thuật quốc gia (QCVN) tương ứng và văn bản quy phạm pháp luật quản lý.",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Quyết định này có hiệu lực ké từ ngày ký ban hành.",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Tổng cục trưởng Tổng cục Tiêu chuẩn Do lường Chất lượng, Vụ trưởng Vụ Pháp chế và các tổ chức, cá nhân liên quan có trách nhiệm thi hành Quyết định này./.",
+     "trang_pdf": 2
+    }
+   ]
+  },
+  {
    "so_hieu": "37/2013/TT-BCT",
    "slug": "37-2013-tt-bct",
    "ten": "Quy định nhập khẩu thuốc lá điếu, xì gà",
@@ -17420,6 +17676,79 @@
      "dieu": 2,
      "noi_dung": "Điều 2. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kế từ ngày AZ tháng 3 năm 2026. 2. Trong quá trình thực hiện Thông tư này, nếu phát sinh vướng mắc, thương nhân, các cơ quan, tô chức có liên quan phản ánh băng văn bản về Bộ",
      "trang_pdf": 1
+    }
+   ]
+  },
+  {
+   "so_hieu": "43/2013/TT-BCT",
+   "slug": "43-2013-tt-bct",
+   "ten": "Quy định nội dung, trình tự, thủ tục lập, thẩm định, phê duyệt và điều chỉnh Quy hoạch phát triển điện lực",
+   "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+   "hieu_luc_tu": "2014-02-15",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-43-2013-tt-bct-5486.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Thông tư này quy định về: 1. Nội dung, trình tự, thủ tục lập, thẩm định và phê duyệt Quy hoạch phát triển điện lực quốc gia và Quy hoạch phát triển điện lực tỉnh, thành phố trực thuộc Trung ương. 2. Nội dung, trình tự, thủ tục lập, thẩm định và phê duyệt điều chỉnh Quy hoạch phát triển điện lực quốc gia và Quy hoạch phát triển điện lực tỉnh, thành phố trực thuộc Trung ương.",
+     "trang_pdf": 1,
+     "sha256_pdf": "721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Đối tượng áp dụng Thông tư này áp dụng cho các đối tượng sau:",
+     "trang_pdf": 1,
+     "sha256_pdf": "721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Giải thích từ ngữ Trong Thông tư này, các từ ngữ dưới đây được hiểu như sau: 1. Quy hoạch phát triển điện lực là quy hoạch chuyên ngành điện, bao gồm hai cấp sau: a) Quy hoạch phát triển điện lực quốc gia;",
+     "trang_pdf": 2,
+     "sha256_pdf": "721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1"
+    },
+    {
+     "dieu": 8,
+     "noi_dung": "Điều 8. Trình tự, thủ tục thẩm định và phê duyệt Quy hoạch phát triển điện lực quốc gia 1. Trong thời hạn năm (05) ngày làm việc kể từ khi nhận được hồ sơ, Tổng cục Năng lượng phải có văn bản yêu cầu bổ sung nếu hồ sơ quy hoạch chưa đầy đủ, hợp lệ. 2. Sau khi nhận đủ hồ sơ hợp lệ, Tổng cục Năng lượng trình Bộ trưởng Bộ Công Thương quyết định thành lập Hội đồng thẩm định Quy hoạch phát triển điện lực quốc gia.",
+     "trang_pdf": 6,
+     "sha256_pdf": "721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1"
+    },
+    {
+     "dieu": 12,
+     "noi_dung": "Điều 12. Trình tự, thủ tục thẩm định và phê duyệt Quy hoạch phát triển điện lực tỉnh 1. Đối với Hợp phần Quy hoạch phát triển hệ thống điện 110kV: a) Sau khi Hội đồng nhân dân tỉnh hoặc Thường trực Hội đồng nhân dân tỉnh thông qua nội dung Hợp phần quy hoạch, Ủy ban nhân dân tỉnh hoàn chỉnh hồ sơ, gửi Tổng cục Năng lượng thẩm định để trình Bộ trưởng Bộ Công Thương phê duyệt;",
+     "trang_pdf": 10,
+     "sha256_pdf": "721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1"
+    },
+    {
+     "dieu": 16,
+     "noi_dung": "Điều 16. Trình tự, thủ tục lập và phê duyệt đề cương, dự toán cho điều chỉnh Quy hoạch phát triển điện lực quốc gia theo chu kỳ 5 năm 1. Chậm nhất mười hai (12) tháng trước khi kết thúc năm (05) năm đầu tiên của chu kỳ quy hoạch, Tổng cục Năng lượng tổ chức lập và trình Bộ trưởng Bộ Công Thương phê duyệt đề cương, dự toán cho điều chỉnh Quy hoạch phát triển điện lực quốc gia cho các năm còn lại.",
+     "trang_pdf": 13,
+     "sha256_pdf": "721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1"
+    },
+    {
+     "dieu": 20,
+     "noi_dung": "Điều 20. Thẩm quyền điều chỉnh Quy hoạch phát triển điện lực điện tỉnh 1. Đối với bổ sung điều chỉnh Hợp phần Quy hoạch phát triển hệ thống điện 110kV: Trên cơ sở văn bản đề nghị bổ sung, điều chỉnh quy hoạch của chủ đầu tư dự án nguồn điện vừa và nhỏ và lưới điện 110kV hoặc kiến nghị của các khách hàng điện lớn, Ủy ban nhân dân tỉnh xem xét gửi Tổng cục Năng lượng thẩm định để trình Bộ trưởng Bộ Công Thương phê duyệt.",
+     "trang_pdf": 15,
+     "sha256_pdf": "721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1"
+    },
+    {
+     "dieu": 24,
+     "noi_dung": "Điều 24. Trình tự, thủ tục lập điều chỉnh Quy hoạch phát triển điện lực tỉnh theo chu kỳ 5 năm 1. Đối với điều chỉnh Hợp phần Quy hoạch phát triển hệ thống điện 110kV: a) Trên cơ sở kế hoạch vốn được duyệt cho điều chỉnh Hợp phần Quy hoạch phát triển hệ thống điện 110kV tỉnh, Sở Công Thương tổ chức lựa chọn đơn vị tư vấn lập điều chỉnh Hợp phần quy hoạch trình Chủ tịch Ủy ban nhân dân tỉnh phê duyệt;",
+     "trang_pdf": 17,
+     "sha256_pdf": "721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1"
+    },
+    {
+     "dieu": 28,
+     "noi_dung": "Điều 28. Công bố quy hoạch phát triển điện lực 1. Sau khi Đề án Quy hoạch phát triển điện lực được cấp có thẩm quyền phê duyệt, Cơ quan tổ chức lập quy hoạch chỉ đạo đơn vị tư vấn hoàn thiện đề án kèm theo file mềm gửi Tổng cục Năng lượng - Bộ Công Thương và Ủy ban nhân dân tỉnh. 2. Quy hoạch phát triển điện lực các cấp được cơ quan nhà nước có thẩm quyền phê duyệt được công bố công khai.",
+     "trang_pdf": 21,
+     "sha256_pdf": "721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1"
+    },
+    {
+     "dieu": 33,
+     "noi_dung": "Điều 33. Hiệu lực thi hành Thông tư này có hiệu lực thi hành kể từ ngày 15 tháng 02 năm 2014 và thay thế Quyết định số 42/2005/QĐ-BCN ngày 30 tháng 12 năm 2005 của Bộ trưởng Bộ Công nghiệp quy định nội dung, trình tự, thủ tục lập và thẩm định quy hoạch phát triển điện lực./.",
+     "trang_pdf": 22,
+     "sha256_pdf": "721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1"
     }
    ]
   },
@@ -20064,6 +20393,39 @@
     {
      "dieu": 115,
      "noi_dung": "Điều 115. Ðiều khoản chuyển tiếp 1. Cơ sở kinh doanh dược đã được cấp Giấy chứng nhận đủ điều kiện kinh doanh dược theo quy định của Luật Dược số 34/2005/QH11 được tiếp tục kinh doanh thuốc cho đến hết thời hạn hiệu lực của Giấy chứng nhận đủ điều kiện kinh doanh dược. Trường hợp Giấy chứng nhận đủ điều kiện kinh doanh dược không ghi thời hạn hiệu lực, cơ sở được phép kinh doanh đến hết thời hạn ghi trên giấy chứng nhận thực hành tốt đã được cấp."
+    }
+   ]
+  },
+  {
+   "so_hieu": "765/QĐ-BCT",
+   "slug": "765-qd-bct-2019",
+   "ten": "Về việc công bố Danh mục các mặt hàng (kèm theo mã HS) đã được cắt giảm kiểm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2019-03-29",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://moit.gov.vn/van-ban-phap-luat/van-ban-dieu-hanh/-cong-bo-danh-muc-cac-mat-hang-kem-theo-ma-hs-da-duoc-cat-gi.html",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Công bố danh mục các mặt hàng (kèm theo mã HS) đã được cắt giám kiềm tra chuyên ngành thuộc trách nhiệm quản lý của Bộ Công Thương tại Phụ lục kèm theo Quyết định này. Các tổ chức, cá nhân không phải nộp cho cơ quan Hải quan chứng từ liên quan đến kết quả kiểm tra chuyên ngành đối với các sản phẩm, hàng hóa tại Phụ lục kèm theo Quyết định này để thông quan hàng hóa.",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Giao Vụ Khoa học và Công nghệ chủ trì, phối hợp với các cơ quan, đơn vị có liên quan tổ chức thực hiện Quyết định này, kịp thời hướng dẫn và giải đáp những vướng mắc, phát sinh (nếu có).",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Quyết định này có hiệu lực thi hành kể từ ngày ký ban hành.",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 4,
+     "noi_dung": "Điều 4. Chánh Văn phòng Bộ; Vụ trưởng Vụ Khoa học và Công nghệ, Thủ trưởng các đơn vị thuộc Bộ Công Thương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Quyết định này./.",
+     "trang_pdf": 2
     }
    ]
   },
@@ -25208,6 +25570,16 @@
      "da_soat": false
     },
     {
+     "dieu": "Điều 14a (chi tiết)",
+     "ten": "Không có tiêu đề điều luật rõ ràng (Phần mô tả chung)",
+     "tom_tat": "Mô tả việc hỗ trợ nhà khoa học xuất sắc nước ngoài đến Việt Nam trao đổi học thuật ngắn hạn và nội dung hỗ trợ bao gồm chi phí lưu trú, ăn uống, đi lại và dịch thuật.",
+     "nghia_vu_xnk": [
+      "Hỗ trợ nhà khoa học xuất sắc nước ngoài đến Việt Nam trao đổi học thuật ngắn hạn (thực hiện qua hoạt động tiếp chuyên gia nước ngoài làm việc, hợp tác nghiên cứu)."
+     ],
+     "nguon_trich": null,
+     "da_soat": false
+    },
+    {
      "dieu": "Điều 14b",
      "ten": "Nâng cao năng lực tổ chức nghiên cứu cơ bản đạt trình độ khu vực và thế giới",
      "tom_tat": "Quy định về mục tiêu hỗ trợ của Quỹ nhằm nâng cao năng lực các tổ chức nghiên cứu cơ bản tại Việt Nam.",
@@ -25309,6 +25681,38 @@
      "dieu": "4",
      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 15/2016/TT-BKHCN ngày 30 tháng 6 năm 2016 của Bộ trưởng Bộ Khoa học và Công nghệ quy định quản lý đề tài nghiên cứu ứng dụng do Quỹ Phát triển khoa học và công nghệ Quốc gia tài trợ",
      "tom_tat": "Điều khoản này quy định việc sửa đổi, bổ sung các điều khoản trong Thông tư số 15/2016/TT-BKHCN.",
+     "nghia_vu_xnk": [],
+     "nguon_trich": null,
+     "da_soat": false
+    },
+    {
+     "dieu": "Điều 4 (sửa đổi Điều 2)",
+     "ten": "Sửa đôi khoản 1, bỗ sung khoản 1a Điều 2 như sau: “1. Tạp chí quốc tế có uy tín là các tạp chí khoa học được lựa chọn từ các danh mục tạp chí được xếp hạng và phân loại theo cơ sở dữ liệu học phô biến trên thê giới, do Hội đồng quản lý Quỹ phê duyệt. la. Tác giả chính của bài báo công bố trên các tạp chí khoa học là tác giả có đóng góp quan trọng trong việc hình thành ý tưởng, tổ chức triển khai nghiên cứu và công bố các kết quả nghiên cứu.”",
+     "tom_tat": "Quy định về tiêu chuẩn xác định tạp chí quốc tế uy tín và định nghĩa tác giả chính bài báo khoa học.",
+     "nghia_vu_xnk": [],
+     "nguon_trich": null,
+     "da_soat": false
+    },
+    {
+     "dieu": "Điều 4 (sửa đổi Điều 3)",
+     "ten": "Sửa đổi, bỗ sung điểm a khoản 1 của Điều 3 như sau: *a) Đánh giá thông qua Hội đồng khoa học và công nghệ (sau đây gọi là Hội đông khoa học) và chuyên gia tư vân độc lập (ngoài Hội đông khoa học);”.",
+     "tom_tat": "Bổ sung tiêu chí đánh giá đề tài bao gồm sự tham gia của Hội đồng khoa học và chuyên gia tư vấn độc lập.",
+     "nghia_vu_xnk": [],
+     "nguon_trich": null,
+     "da_soat": false
+    },
+    {
+     "dieu": "Điều 4 (sửa đổi Điều 4)",
+     "ten": "Bổ sung khoản 3 Điều 4 như sau: *3. Tham dự và trình bày các kết quả của đề tài tại hội nghị, hội thảo khoa học quôc tê ở nước ngoài.”.",
+     "tom_tat": "Bổ sung hoạt động tham dự và trình bày kết quả nghiên cứu tại hội nghị quốc tế là một tiêu chí đánh giá/thực hiện đề tài.",
+     "nghia_vu_xnk": [],
+     "nguon_trich": null,
+     "da_soat": false
+    },
+    {
+     "dieu": "Điều 4 (sửa đổi Điều 10)",
+     "ten": "Sửa đối, „ sung một số khoản Điều 10 như sau: a) Sửa đôi, bỗ sung khoản 1 Điều 10 như sau: =1. Quỹ thực hiện việc đánh giá xét chọn đề tài theo nguyên tắc quy định tại khoản 1 Điều 3 Thông tư này.”; b) Sửa đổi, bổ sung khoản 3 Điều 10 như sau: “3. Hội đồng quản lý Quỹ quy định cụ thể về trình tự tổ chức đánh giá xét chọn và MSr2 thức làm việc của Hội đồng khoa học tại các phiên họp đánh giá xét chọn đề tài.”",
+     "tom_tat": "Quy định về nguyên tắc và cơ chế Hội đồng quản lý Quỹ xác định quy trình đánh giá xét chọn đề tài.",
      "nghia_vu_xnk": [],
      "nguon_trich": null,
      "da_soat": false
@@ -40212,6 +40616,19 @@
    "da_soat": false,
    "dieu_khoan": [
     {
+     "dieu": "Điều 80, khoản 6",
+     "ten": "Về lấy mẫu",
+     "tom_tat": "Các nguyên tắc chung về việc lấy mẫu trong quá trình kiểm tra chất lượng sản phẩm, hàng hóa khi lưu thông.",
+     "nghia_vu_xnk": [
+      "Việc lấy mẫu được thực hiện theo tiêu chuẩn về phương pháp lấy mẫu hoặc quy định của pháp luật có liên quan.",
+      "Nếu không đủ số lượng để lấy mẫu hoặc không xác định được lô hàng, Đoàn kiểm tra phải thực hiện lấy mẫu khảo sát chất lượng sản phẩm, hàng hóa theo quy định tại Điểm a khoản này hoặc quy định của pháp luật.",
+      "Mẫu sau khi lấy phải được niêm phong và lập biên bản lấy mẫu có chữ ký của người lấy mẫu và đại diện cơ sở.",
+      "Việc bàn giao mẫu cho tổ chức thử nghiệm phải có biên bản giao nhận mẫu và lô chức thử nghiệm phải xác nhận nguyên trạng niêm phong trước khi nhận mẫu."
+     ],
+     "nguon_trich": null,
+     "da_soat": false
+    },
+    {
      "dieu": "Điều 81",
      "ten": "Trình tự, thủ tục và xử lý vi phạm trong quá trình kiểm tra chất lượng sản phẫm, hàng hóa trong sản xuất",
      "tom_tat": "Quy định về các bước thực hiện quy trình kiểm tra chất lượng sản phẩm/hàng hóa trong sản xuất.",
@@ -45221,6 +45638,24 @@
      "da_soat": false
     },
     {
+     "dieu": "Điều 8 (Điểm c)",
+     "ten": "",
+     "tom_tat": "Nếu phát hiện hàng hóa lưu thông không phù hợp quy chuẩn hoặc qua kiểm tra đột xuất kết quả đánh giá không đạt yêu cầu và cơ quan kiểm tra xác minh được sự thật, họ sẽ ra văn bản thông báo áp dụng chế độ miễn kiểm tra.",
+     "nghia_vu_xnk": [
+      "cơ quan kiểm tra có văn bản thông báo đừng á áp dụng chế độ miễn kiểm tra."
+     ],
+     "nguon_trich": null,
+     "da_soat": false
+    },
+    {
+     "dieu": "Điều 8 (đoạn cuối)",
+     "ten": "",
+     "tom_tat": "Bộ Khoa học và Công nghệ quy định trình tự, nội dung kiểm tra chất lượng sản phẩm, hàng hóa trong quá trình sản xuất.",
+     "nghia_vu_xnk": [],
+     "nguon_trich": null,
+     "da_soat": false
+    },
+    {
      "dieu": "9",
      "ten": "Kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu là trách nhiệm của cơ quan được phân công, phân cấp thực hiện nhiệm vụ quản lý nhà nước về chất lượng sản phẩm, hàng hoá thuộc bộ quản lý ngành, lĩnh vực, cơ quan chuyên môn thuộc Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương; việc công bố hợp quy thực hiện theo quy định của pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật.",
      "tom_tat": "Xác định trách nhiệm kiểm tra chất lượng hàng hóa nhập khẩu cho các cơ quan quản lý nhà nước liên quan đến ngành/lĩnh vực.",
@@ -47020,6 +47455,22 @@
      "dieu": "Điều 34. Hiệu lực thi hành",
      "ten": "Hiệu lực thi hành",
      "tom_tat": "Thông tư có hiệu lực từ ngày 01/01/2020 và các quy định cũ tại nhiều điều khoản khác cũng được giữ hiệu lực đến một thời điểm nhất định.",
+     "nghia_vu_xnk": [],
+     "nguon_trich": null,
+     "da_soat": false
+    },
+    {
+     "dieu": "Điều 34, khoản 3",
+     "ten": "Các văn bản liên quan thay thế hoặc bổ sung",
+     "tom_tat": "Nếu có các văn bản liên quan đề cập trong thông tư này được sửa đổi, bổ sung hoặc thay thế thì sẽ thực hiện theo văn bản mới đó.",
+     "nghia_vu_xnk": [],
+     "nguon_trich": null,
+     "da_soat": false
+    },
+    {
+     "dieu": "Điều 34, khoản 4",
+     "ten": "Phát sinh vướng mắc",
+     "tom_tat": "Trường hợp phát sinh vướng mắc, các tổ chức, cá nhân cần phản ánh kịp thời về Bộ Tài chính hoặc Tổng cục Hải quan để được hướng dẫn giải quyết.",
      "nghia_vu_xnk": [],
      "nguon_trich": null,
      "da_soat": false

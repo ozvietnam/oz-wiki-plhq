@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-22",
-  "tong": 3136,
+  "tong": 3103,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -25599,38 +25599,11 @@
       "trongSo": 0
     },
     {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "01/2026/TT-BNNMT (data/doc-hieu/01-2026-tt-bnnmt.dieu.jsonl): có 48 dòng điều rác / placeholder",
-      "muc_tieu": "01/2026/TT-BNNMT",
-      "viec": "Rà lại data/doc-hieu/01-2026-tt-bnnmt.dieu.jsonl: loại bỏ 48 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "02/2024/TT-BTTTT (data/doc-hieu/02-2024-tt-btttt.dieu.jsonl): có 68 dòng điều rác / placeholder",
-      "muc_tieu": "02/2024/TT-BTTTT",
-      "viec": "Rà lại data/doc-hieu/02-2024-tt-btttt.dieu.jsonl: loại bỏ 68 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
       "ma": "DOC_HIEU_THIEU_NGHIA_VU",
       "muc": "Thấp",
       "tieuDe": "07/2023/TT-NHNN (data/doc-hieu/07-2023-tt-nhnn-body.dieu.jsonl): 3/4 (75%) điều hợp lệ trống nghia_vu_xnk",
       "muc_tieu": "07/2023/TT-NHNN",
       "viec": "Soát tay data/doc-hieu/07-2023-tt-nhnn-body.dieu.jsonl: 3/4 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "09/2025/TT-BNV (data/doc-hieu/09-2025-tt-bnv.dieu.jsonl): có 1 dòng điều rác / placeholder",
-      "muc_tieu": "09/2025/TT-BNV",
-      "viec": "Rà lại data/doc-hieu/09-2025-tt-bnv.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
       "luong": "doc-hieu",
       "trongSo": 0
     },
@@ -25653,56 +25626,11 @@
       "trongSo": 0
     },
     {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "10/2022/TT-BTTTT (data/doc-hieu/10-2022-tt-btttt-body.dieu.jsonl): có 17 dòng điều rác / placeholder",
-      "muc_tieu": "10/2022/TT-BTTTT",
-      "viec": "Rà lại data/doc-hieu/10-2022-tt-btttt-body.dieu.jsonl: loại bỏ 17 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "10/2022/TT-BTTTT (data/doc-hieu/10-2022-tt-btttt.dieu.jsonl): có 49 dòng điều rác / placeholder",
-      "muc_tieu": "10/2022/TT-BTTTT",
-      "viec": "Rà lại data/doc-hieu/10-2022-tt-btttt.dieu.jsonl: loại bỏ 49 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "10/2024/TT-BKHCN (data/doc-hieu/10-2024-tt-bkhcn.dieu.jsonl): có 5 dòng điều rác / placeholder",
-      "muc_tieu": "10/2024/TT-BKHCN",
-      "viec": "Rà lại data/doc-hieu/10-2024-tt-bkhcn.dieu.jsonl: loại bỏ 5 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "107/2016/QH13 (data/doc-hieu/107-2016-qh13.dieu.jsonl): có 2 dòng điều rác / placeholder",
-      "muc_tieu": "107/2016/QH13",
-      "viec": "Rà lại data/doc-hieu/107-2016-qh13.dieu.jsonl: loại bỏ 2 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
       "ma": "DOC_HIEU_THIEU_NGHIA_VU",
       "muc": "Thấp",
       "tieuDe": "107/2016/QH13 (data/doc-hieu/107-2016-qh13.dieu.jsonl): 49/66 (74%) điều hợp lệ trống nghia_vu_xnk",
       "muc_tieu": "107/2016/QH13",
       "viec": "Soát tay data/doc-hieu/107-2016-qh13.dieu.jsonl: 49/66 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "11/2017/TT-BCT (data/doc-hieu/11-2017-tt-bct.dieu.jsonl): có 13 dòng điều rác / placeholder",
-      "muc_tieu": "11/2017/TT-BCT",
-      "viec": "Rà lại data/doc-hieu/11-2017-tt-bct.dieu.jsonl: loại bỏ 13 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
       "luong": "doc-hieu",
       "trongSo": 0
     },
@@ -25725,15 +25653,6 @@
       "trongSo": 0
     },
     {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "11/2021/TT-BNNPTNT (data/doc-hieu/11-2021-tt-bnnptnt.dieu.jsonl): có 279 dòng điều rác / placeholder",
-      "muc_tieu": "11/2021/TT-BNNPTNT",
-      "viec": "Rà lại data/doc-hieu/11-2021-tt-bnnptnt.dieu.jsonl: loại bỏ 279 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
       "ma": "DOC_HIEU_THIEU_NGHIA_VU",
       "muc": "Thấp",
       "tieuDe": "11/2021/TT-BNNPTNT (data/doc-hieu/11-2021-tt-bnnptnt.dieu.jsonl): 313/323 (97%) điều hợp lệ trống nghia_vu_xnk",
@@ -25748,24 +25667,6 @@
       "tieuDe": "11/2026/TT-BXD (data/doc-hieu/11-2026-tt-bxd-body.dieu.jsonl): 3/5 (60%) điều hợp lệ trống nghia_vu_xnk",
       "muc_tieu": "11/2026/TT-BXD",
       "viec": "Soát tay data/doc-hieu/11-2026-tt-bxd-body.dieu.jsonl: 3/5 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "125/2021/TT-BCA (data/doc-hieu/125-2021-tt-bca-body.dieu.jsonl): có 32 dòng điều rác / placeholder",
-      "muc_tieu": "125/2021/TT-BCA",
-      "viec": "Rà lại data/doc-hieu/125-2021-tt-bca-body.dieu.jsonl: loại bỏ 32 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "125/2021/TT-BCA (data/doc-hieu/125-2021-tt-bca.dieu.jsonl): có 34 dòng điều rác / placeholder",
-      "muc_tieu": "125/2021/TT-BCA",
-      "viec": "Rà lại data/doc-hieu/125-2021-tt-bca.dieu.jsonl: loại bỏ 34 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
       "luong": "doc-hieu",
       "trongSo": 0
     },
@@ -25797,24 +25698,6 @@
       "trongSo": 0
     },
     {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "15/2018/NĐ-CP (data/doc-hieu/15-2018-nd-cp.dieu.jsonl): có 1 dòng điều rác / placeholder",
-      "muc_tieu": "15/2018/NĐ-CP",
-      "viec": "Rà lại data/doc-hieu/15-2018-nd-cp.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "15/2024/TT-BYT (data/doc-hieu/15-2024-tt-byt-body.dieu.jsonl): có 1 dòng điều rác / placeholder",
-      "muc_tieu": "15/2024/TT-BYT",
-      "viec": "Rà lại data/doc-hieu/15-2024-tt-byt-body.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
       "ma": "DOC_HIEU_THIEU_NGHIA_VU",
       "muc": "Thấp",
       "tieuDe": "154/2018/NĐ-CP (data/doc-hieu/154-2018-nd-cp.dieu.jsonl): 7/10 (70%) điều hợp lệ trống nghia_vu_xnk",
@@ -25842,29 +25725,11 @@
       "trongSo": 0
     },
     {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "17/2023/TT-BNNPTNT (data/doc-hieu/17-2023-tt-bnnptnt-body.dieu.jsonl): có 111 dòng điều rác / placeholder",
-      "muc_tieu": "17/2023/TT-BNNPTNT",
-      "viec": "Rà lại data/doc-hieu/17-2023-tt-bnnptnt-body.dieu.jsonl: loại bỏ 111 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
       "ma": "DOC_HIEU_THIEU_NGHIA_VU",
       "muc": "Thấp",
       "tieuDe": "1725/QĐ-BCT (data/doc-hieu/1725-qd-bct.dieu.jsonl): 3/4 (75%) điều hợp lệ trống nghia_vu_xnk",
       "muc_tieu": "1725/QĐ-BCT",
       "viec": "Soát tay data/doc-hieu/1725-qd-bct.dieu.jsonl: 3/4 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "174/2025/NĐ-CP (data/doc-hieu/174-2025-nd-cp.dieu.jsonl): có 25 dòng điều rác / placeholder",
-      "muc_tieu": "174/2025/NĐ-CP",
-      "viec": "Rà lại data/doc-hieu/174-2025-nd-cp.dieu.jsonl: loại bỏ 25 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
       "luong": "doc-hieu",
       "trongSo": 0
     },
@@ -25887,29 +25752,11 @@
       "trongSo": 0
     },
     {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "26/2018/TT-BLĐTBXH (data/doc-hieu/26-2018-tt-bldtbxh.dieu.jsonl): có 9 dòng điều rác / placeholder",
-      "muc_tieu": "26/2018/TT-BLĐTBXH",
-      "viec": "Rà lại data/doc-hieu/26-2018-tt-bldtbxh.dieu.jsonl: loại bỏ 9 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
       "ma": "DOC_HIEU_THIEU_NGHIA_VU",
       "muc": "Thấp",
       "tieuDe": "26/2018/TT-BLĐTBXH (data/doc-hieu/26-2018-tt-bldtbxh.dieu.jsonl): 8/16 (50%) điều hợp lệ trống nghia_vu_xnk",
       "muc_tieu": "26/2018/TT-BLĐTBXH",
       "viec": "Soát tay data/doc-hieu/26-2018-tt-bldtbxh.dieu.jsonl: 8/16 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "27/2026/TT-BNNMT (data/doc-hieu/27-2026-tt-bnnmt-body.dieu.jsonl): có 58 dòng điều rác / placeholder",
-      "muc_tieu": "27/2026/TT-BNNMT",
-      "viec": "Rà lại data/doc-hieu/27-2026-tt-bnnmt-body.dieu.jsonl: loại bỏ 58 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
       "luong": "doc-hieu",
       "trongSo": 0
     },
@@ -25932,33 +25779,6 @@
       "trongSo": 0
     },
     {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "2711/QĐ-BKHCN (data/doc-hieu/2711-qd-bkhcn.dieu.jsonl): có 1 dòng điều rác / placeholder",
-      "muc_tieu": "2711/QĐ-BKHCN",
-      "viec": "Rà lại data/doc-hieu/2711-qd-bkhcn.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "28/2021/TT-BYT (data/doc-hieu/28-2021-tt-byt.dieu.jsonl): có 47 dòng điều rác / placeholder",
-      "muc_tieu": "28/2021/TT-BYT",
-      "viec": "Rà lại data/doc-hieu/28-2021-tt-byt.dieu.jsonl: loại bỏ 47 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "28/2026/TT-BCT (data/doc-hieu/28-2026-tt-bct.dieu.jsonl): có 1 dòng điều rác / placeholder",
-      "muc_tieu": "28/2026/TT-BCT",
-      "viec": "Rà lại data/doc-hieu/28-2026-tt-bct.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
       "ma": "DOC_HIEU_THIEU_NGHIA_VU",
       "muc": "Thấp",
       "tieuDe": "28/2026/TT-BCT (data/doc-hieu/28-2026-tt-bct.dieu.jsonl): 24/26 (92%) điều hợp lệ trống nghia_vu_xnk",
@@ -25973,15 +25793,6 @@
       "tieuDe": "31/2015/TT-BTTTT (data/doc-hieu/31-2015-tt-btttt.dieu.jsonl): 4/7 (57%) điều hợp lệ trống nghia_vu_xnk",
       "muc_tieu": "31/2015/TT-BTTTT",
       "viec": "Soát tay data/doc-hieu/31-2015-tt-btttt.dieu.jsonl: 4/7 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "31/2018/TT-BCT (data/doc-hieu/31-2018-tt-bct.dieu.jsonl): có 11 dòng điều rác / placeholder",
-      "muc_tieu": "31/2018/TT-BCT",
-      "viec": "Rà lại data/doc-hieu/31-2018-tt-bct.dieu.jsonl: loại bỏ 11 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
       "luong": "doc-hieu",
       "trongSo": 0
     },
@@ -26004,29 +25815,11 @@
       "trongSo": 0
     },
     {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "33/2014/TT-BNNPTNT (data/doc-hieu/33-2014-tt-bnnptnt.dieu.jsonl): có 7 dòng điều rác / placeholder",
-      "muc_tieu": "33/2014/TT-BNNPTNT",
-      "viec": "Rà lại data/doc-hieu/33-2014-tt-bnnptnt.dieu.jsonl: loại bỏ 7 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
       "ma": "DOC_HIEU_THIEU_NGHIA_VU",
       "muc": "Thấp",
       "tieuDe": "367/QĐ-BKHCN (data/doc-hieu/367-qd-bkhcn-2024.dieu.jsonl): 2/3 (67%) điều hợp lệ trống nghia_vu_xnk",
       "muc_tieu": "367/QĐ-BKHCN",
       "viec": "Soát tay data/doc-hieu/367-qd-bkhcn-2024.dieu.jsonl: 2/3 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "37/2026/NĐ-CP (data/doc-hieu/37-2026-nd-cp.dieu.jsonl): có 1 dòng điều rác / placeholder",
-      "muc_tieu": "37/2026/NĐ-CP",
-      "viec": "Rà lại data/doc-hieu/37-2026-nd-cp.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
       "luong": "doc-hieu",
       "trongSo": 0
     },
@@ -26058,24 +25851,6 @@
       "trongSo": 0
     },
     {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "45/2023/TT-BCT (data/doc-hieu/45-2023-tt-bct-body.dieu.jsonl): có 2 dòng điều rác / placeholder",
-      "muc_tieu": "45/2023/TT-BCT",
-      "viec": "Rà lại data/doc-hieu/45-2023-tt-bct-body.dieu.jsonl: loại bỏ 2 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "48/2026/TT-BCT (data/doc-hieu/48-2026-tt-bct-body.dieu.jsonl): có 10 dòng điều rác / placeholder",
-      "muc_tieu": "48/2026/TT-BCT",
-      "viec": "Rà lại data/doc-hieu/48-2026-tt-bct-body.dieu.jsonl: loại bỏ 10 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
       "ma": "DOC_HIEU_THIEU_NGHIA_VU",
       "muc": "Thấp",
       "tieuDe": "48/2026/TT-BCT (data/doc-hieu/48-2026-tt-bct-body.dieu.jsonl): 61/93 (66%) điều hợp lệ trống nghia_vu_xnk",
@@ -26090,15 +25865,6 @@
       "tieuDe": "51/2018/TT-BCT (data/doc-hieu/51-2018-tt-bct.dieu.jsonl): 3/5 (60%) điều hợp lệ trống nghia_vu_xnk",
       "muc_tieu": "51/2018/TT-BCT",
       "viec": "Soát tay data/doc-hieu/51-2018-tt-bct.dieu.jsonl: 3/5 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "58/2015/TTLT-BCT-BKHCN (data/doc-hieu/58-2015-ttlt-bct-bkhcn.dieu.jsonl): có 1 dòng điều rác / placeholder",
-      "muc_tieu": "58/2015/TTLT-BCT-BKHCN",
-      "viec": "Rà lại data/doc-hieu/58-2015-ttlt-bct-bkhcn.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
       "luong": "doc-hieu",
       "trongSo": 0
     },
@@ -26121,56 +25887,11 @@
       "trongSo": 0
     },
     {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "74/2018/NĐ-CP (data/doc-hieu/74-2018-nd-cp.dieu.jsonl): có 2 dòng điều rác / placeholder",
-      "muc_tieu": "74/2018/NĐ-CP",
-      "viec": "Rà lại data/doc-hieu/74-2018-nd-cp.dieu.jsonl: loại bỏ 2 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "81/2019/TT-BTC (data/doc-hieu/81-2019-tt-btc.dieu.jsonl): có 2 dòng điều rác / placeholder",
-      "muc_tieu": "81/2019/TT-BTC",
-      "viec": "Rà lại data/doc-hieu/81-2019-tt-btc.dieu.jsonl: loại bỏ 2 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "89/2018/NĐ-CP (data/doc-hieu/89-2018-nd-cp.dieu.jsonl): có 1 dòng điều rác / placeholder",
-      "muc_tieu": "89/2018/NĐ-CP",
-      "viec": "Rà lại data/doc-hieu/89-2018-nd-cp.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "data/doc-hieu/tt-31-2022-cb-523-524.dieu.jsonl: có 89 dòng điều rác / placeholder",
-      "muc_tieu": "tt-31-2022-cb-523-524",
-      "viec": "Rà lại data/doc-hieu/tt-31-2022-cb-523-524.dieu.jsonl: loại bỏ 89 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
       "ma": "DOC_HIEU_THIEU_NGHIA_VU",
       "muc": "Thấp",
       "tieuDe": "data/doc-hieu/tt-31-2022-cb-523-524.dieu.jsonl: 353/359 (98%) điều hợp lệ trống nghia_vu_xnk",
       "muc_tieu": "tt-31-2022-cb-523-524",
       "viec": "Soát tay data/doc-hieu/tt-31-2022-cb-523-524.dieu.jsonl: 353/359 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "data/doc-hieu/tt-31-2022-cb-545-546.dieu.jsonl: có 49 dòng điều rác / placeholder",
-      "muc_tieu": "tt-31-2022-cb-545-546",
-      "viec": "Rà lại data/doc-hieu/tt-31-2022-cb-545-546.dieu.jsonl: loại bỏ 49 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
       "luong": "doc-hieu",
       "trongSo": 0
     },
@@ -26184,29 +25905,11 @@
       "trongSo": 0
     },
     {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "data/doc-hieu/tt-31-2022-cb-549-550.dieu.jsonl: có 42 dòng điều rác / placeholder",
-      "muc_tieu": "tt-31-2022-cb-549-550",
-      "viec": "Rà lại data/doc-hieu/tt-31-2022-cb-549-550.dieu.jsonl: loại bỏ 42 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
       "ma": "DOC_HIEU_THIEU_NGHIA_VU",
       "muc": "Thấp",
       "tieuDe": "data/doc-hieu/tt-31-2022-cb-549-550.dieu.jsonl: 384/384 (100%) điều hợp lệ trống nghia_vu_xnk",
       "muc_tieu": "tt-31-2022-cb-549-550",
       "viec": "Soát tay data/doc-hieu/tt-31-2022-cb-549-550.dieu.jsonl: 384/384 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_DIEU_RAC",
-      "muc": "Thấp",
-      "tieuDe": "data/doc-hieu/tt-31-2022-cb-557-558.dieu.jsonl: có 29 dòng điều rác / placeholder",
-      "muc_tieu": "tt-31-2022-cb-557-558",
-      "viec": "Rà lại data/doc-hieu/tt-31-2022-cb-557-558.dieu.jsonl: loại bỏ 29 dòng không có số điều thực (dieu rỗng / \"-\" / placeholder) hoặc trích lại phần điều khoản.",
       "luong": "doc-hieu",
       "trongSo": 0
     },

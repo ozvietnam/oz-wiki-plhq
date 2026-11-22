@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-11-22
 
-Tổng 3136 điểm: **9 cao**, 132 vừa, 2995 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 3103 điểm: **9 cao**, 132 vừa, 2962 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -16,7 +16,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | TB-TCHQ cá biệt chưa đối chiếu nguồn A | Thấp | 1367 | `tb-tchq` |
 | Mã HS AHTN cũ đã ánh xạ sang biểu thuế EN2022 | Thấp | 131 | `danh-muc-hs` |
 | Tệp doc-hieu thiếu nghĩa vụ XNK (≥50% điều hợp lệ trống) | Thấp | 36 | `doc-hieu` |
-| Tệp doc-hieu chứa dòng điều rác / placeholder | Thấp | 33 | `doc-hieu` |
 | Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay | Thấp | 18 | `hieu-luc` |
 | Hiệu lực chưa đối chiếu nguồn A | Thấp | 15 | `hieu-luc` |
 | Văn bản của cơ quan đã sáp nhập | Thấp | 12 | `do-tham` |
@@ -314,42 +313,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **data/doc-hieu/tt-31-2022-cb-545-546.dieu.jsonl: 144/156 (92%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/tt-31-2022-cb-545-546.dieu.jsonl: 144/156 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
 - [ ] **data/doc-hieu/tt-31-2022-cb-549-550.dieu.jsonl: 384/384 (100%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/tt-31-2022-cb-549-550.dieu.jsonl: 384/384 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
 - [ ] **data/doc-hieu/tt-31-2022-cb-557-558.dieu.jsonl: 135/159 (85%) điều hợp lệ trống nghia_vu_xnk** — Soát tay data/doc-hieu/tt-31-2022-cb-557-558.dieu.jsonl: 135/159 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.
-
-## Tệp doc-hieu chứa dòng điều rác / placeholder (33)
-
-- [ ] **01/2026/TT-BNNMT (data/doc-hieu/01-2026-tt-bnnmt.dieu.jsonl): có 48 dòng điều rác / placeholder** — Rà lại data/doc-hieu/01-2026-tt-bnnmt.dieu.jsonl: loại bỏ 48 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **02/2024/TT-BTTTT (data/doc-hieu/02-2024-tt-btttt.dieu.jsonl): có 68 dòng điều rác / placeholder** — Rà lại data/doc-hieu/02-2024-tt-btttt.dieu.jsonl: loại bỏ 68 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **09/2025/TT-BNV (data/doc-hieu/09-2025-tt-bnv.dieu.jsonl): có 1 dòng điều rác / placeholder** — Rà lại data/doc-hieu/09-2025-tt-bnv.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **10/2022/TT-BTTTT (data/doc-hieu/10-2022-tt-btttt-body.dieu.jsonl): có 17 dòng điều rác / placeholder** — Rà lại data/doc-hieu/10-2022-tt-btttt-body.dieu.jsonl: loại bỏ 17 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **10/2022/TT-BTTTT (data/doc-hieu/10-2022-tt-btttt.dieu.jsonl): có 49 dòng điều rác / placeholder** — Rà lại data/doc-hieu/10-2022-tt-btttt.dieu.jsonl: loại bỏ 49 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **10/2024/TT-BKHCN (data/doc-hieu/10-2024-tt-bkhcn.dieu.jsonl): có 5 dòng điều rác / placeholder** — Rà lại data/doc-hieu/10-2024-tt-bkhcn.dieu.jsonl: loại bỏ 5 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **107/2016/QH13 (data/doc-hieu/107-2016-qh13.dieu.jsonl): có 2 dòng điều rác / placeholder** — Rà lại data/doc-hieu/107-2016-qh13.dieu.jsonl: loại bỏ 2 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **11/2017/TT-BCT (data/doc-hieu/11-2017-tt-bct.dieu.jsonl): có 13 dòng điều rác / placeholder** — Rà lại data/doc-hieu/11-2017-tt-bct.dieu.jsonl: loại bỏ 13 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **11/2021/TT-BNNPTNT (data/doc-hieu/11-2021-tt-bnnptnt.dieu.jsonl): có 279 dòng điều rác / placeholder** — Rà lại data/doc-hieu/11-2021-tt-bnnptnt.dieu.jsonl: loại bỏ 279 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **125/2021/TT-BCA (data/doc-hieu/125-2021-tt-bca-body.dieu.jsonl): có 32 dòng điều rác / placeholder** — Rà lại data/doc-hieu/125-2021-tt-bca-body.dieu.jsonl: loại bỏ 32 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **125/2021/TT-BCA (data/doc-hieu/125-2021-tt-bca.dieu.jsonl): có 34 dòng điều rác / placeholder** — Rà lại data/doc-hieu/125-2021-tt-bca.dieu.jsonl: loại bỏ 34 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **15/2018/NĐ-CP (data/doc-hieu/15-2018-nd-cp.dieu.jsonl): có 1 dòng điều rác / placeholder** — Rà lại data/doc-hieu/15-2018-nd-cp.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **15/2024/TT-BYT (data/doc-hieu/15-2024-tt-byt-body.dieu.jsonl): có 1 dòng điều rác / placeholder** — Rà lại data/doc-hieu/15-2024-tt-byt-body.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **17/2023/TT-BNNPTNT (data/doc-hieu/17-2023-tt-bnnptnt-body.dieu.jsonl): có 111 dòng điều rác / placeholder** — Rà lại data/doc-hieu/17-2023-tt-bnnptnt-body.dieu.jsonl: loại bỏ 111 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **174/2025/NĐ-CP (data/doc-hieu/174-2025-nd-cp.dieu.jsonl): có 25 dòng điều rác / placeholder** — Rà lại data/doc-hieu/174-2025-nd-cp.dieu.jsonl: loại bỏ 25 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **26/2018/TT-BLĐTBXH (data/doc-hieu/26-2018-tt-bldtbxh.dieu.jsonl): có 9 dòng điều rác / placeholder** — Rà lại data/doc-hieu/26-2018-tt-bldtbxh.dieu.jsonl: loại bỏ 9 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **27/2026/TT-BNNMT (data/doc-hieu/27-2026-tt-bnnmt-body.dieu.jsonl): có 58 dòng điều rác / placeholder** — Rà lại data/doc-hieu/27-2026-tt-bnnmt-body.dieu.jsonl: loại bỏ 58 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **2711/QĐ-BKHCN (data/doc-hieu/2711-qd-bkhcn.dieu.jsonl): có 1 dòng điều rác / placeholder** — Rà lại data/doc-hieu/2711-qd-bkhcn.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **28/2021/TT-BYT (data/doc-hieu/28-2021-tt-byt.dieu.jsonl): có 47 dòng điều rác / placeholder** — Rà lại data/doc-hieu/28-2021-tt-byt.dieu.jsonl: loại bỏ 47 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **28/2026/TT-BCT (data/doc-hieu/28-2026-tt-bct.dieu.jsonl): có 1 dòng điều rác / placeholder** — Rà lại data/doc-hieu/28-2026-tt-bct.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **31/2018/TT-BCT (data/doc-hieu/31-2018-tt-bct.dieu.jsonl): có 11 dòng điều rác / placeholder** — Rà lại data/doc-hieu/31-2018-tt-bct.dieu.jsonl: loại bỏ 11 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **33/2014/TT-BNNPTNT (data/doc-hieu/33-2014-tt-bnnptnt.dieu.jsonl): có 7 dòng điều rác / placeholder** — Rà lại data/doc-hieu/33-2014-tt-bnnptnt.dieu.jsonl: loại bỏ 7 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **37/2026/NĐ-CP (data/doc-hieu/37-2026-nd-cp.dieu.jsonl): có 1 dòng điều rác / placeholder** — Rà lại data/doc-hieu/37-2026-nd-cp.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **45/2023/TT-BCT (data/doc-hieu/45-2023-tt-bct-body.dieu.jsonl): có 2 dòng điều rác / placeholder** — Rà lại data/doc-hieu/45-2023-tt-bct-body.dieu.jsonl: loại bỏ 2 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **48/2026/TT-BCT (data/doc-hieu/48-2026-tt-bct-body.dieu.jsonl): có 10 dòng điều rác / placeholder** — Rà lại data/doc-hieu/48-2026-tt-bct-body.dieu.jsonl: loại bỏ 10 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **58/2015/TTLT-BCT-BKHCN (data/doc-hieu/58-2015-ttlt-bct-bkhcn.dieu.jsonl): có 1 dòng điều rác / placeholder** — Rà lại data/doc-hieu/58-2015-ttlt-bct-bkhcn.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **74/2018/NĐ-CP (data/doc-hieu/74-2018-nd-cp.dieu.jsonl): có 2 dòng điều rác / placeholder** — Rà lại data/doc-hieu/74-2018-nd-cp.dieu.jsonl: loại bỏ 2 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **81/2019/TT-BTC (data/doc-hieu/81-2019-tt-btc.dieu.jsonl): có 2 dòng điều rác / placeholder** — Rà lại data/doc-hieu/81-2019-tt-btc.dieu.jsonl: loại bỏ 2 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **89/2018/NĐ-CP (data/doc-hieu/89-2018-nd-cp.dieu.jsonl): có 1 dòng điều rác / placeholder** — Rà lại data/doc-hieu/89-2018-nd-cp.dieu.jsonl: loại bỏ 1 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **data/doc-hieu/tt-31-2022-cb-523-524.dieu.jsonl: có 89 dòng điều rác / placeholder** — Rà lại data/doc-hieu/tt-31-2022-cb-523-524.dieu.jsonl: loại bỏ 89 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **data/doc-hieu/tt-31-2022-cb-545-546.dieu.jsonl: có 49 dòng điều rác / placeholder** — Rà lại data/doc-hieu/tt-31-2022-cb-545-546.dieu.jsonl: loại bỏ 49 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **data/doc-hieu/tt-31-2022-cb-549-550.dieu.jsonl: có 42 dòng điều rác / placeholder** — Rà lại data/doc-hieu/tt-31-2022-cb-549-550.dieu.jsonl: loại bỏ 42 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
-- [ ] **data/doc-hieu/tt-31-2022-cb-557-558.dieu.jsonl: có 29 dòng điều rác / placeholder** — Rà lại data/doc-hieu/tt-31-2022-cb-557-558.dieu.jsonl: loại bỏ 29 dòng không có số điều thực (dieu rỗng / "-" / placeholder) hoặc trích lại phần điều khoản.
 
 ## Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay (18)
 
