@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-22
 
-3064 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3068 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2368 văn bản, 2368 chưa hết hiệu lực.
+2372 văn bản, 2372 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -660,8 +660,12 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [1259/TB-CHQ/2025](../registry/van-ban/1259-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Polymer acrylic nguyên sinh dạng phân tán trong nước GJ-901 ACRYLIC POLYMER hàm lượng rắn 55%, mã số 3906.90.20)
 - 🟢 [1141/TB-CHQ/2025](../registry/van-ban/1141-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Khung máy chủ phiến Dell PowerEdge MX7000 Modular Chassis, Regulatory Model E44S, mã số 8473.30.90)
 - 🟢 [1150/TB-CHQ/2025](../registry/van-ban/1150-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Bản mạch in đã lắp ráp Source PCB Assembly của mô-đun màn hình OLED 15.6 inch trên ô tô, mã hiệu 6871L-8301A, mã số 8529.90.53)
+- 🟢 [1151/TB-CHQ/2025](../registry/van-ban/1151-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Bộ ổ cắm điện dưới 1000V, dòng điện dưới 16A, ký mã hiệu T411, 250VAC - 10A, 2500W, mã số 8536.69.92)
+- 🟢 [1152/TB-CHQ/2025](../registry/van-ban/1152-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Bộ ổ cắm điện dưới 1000V, dòng điện dưới 16A, ký mã hiệu T414, 250VAC - 10A, 2500W, mã số 8536.69.92)
+- 🟢 [1174/TB-CHQ/2025](../registry/van-ban/1174-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Sáp thực vật Carnauba wax làm bóng bánh kẹo tráng đường, ký mã hiệu Shellglaze CTP, mã số 1521.10.00)
 - 🟢 [1175/TB-CHQ/2025](../registry/van-ban/1175-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
 - 🟢 [1184/TB-CHQ/2025](../registry/van-ban/1184-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2936.90.00)
+- 🟢 [974/TB-CHQ/2025](../registry/van-ban/974-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Bộ phụ kiện điều khiển và vận hành kính hiển vi quang học kỹ thuật số VHX-7000/7000N, ký mã hiệu VHX-A70E, mã số 8537.10.19)
 - 🟢 [975/TB-CHQ/2025](../registry/van-ban/975-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3824.99.99)
 - 🟢 [976/TB-CHQ/2025](../registry/van-ban/976-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3824.99.99)
 - 🟢 [977/TB-CHQ/2025](../registry/van-ban/977-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3824.99.99)
