@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 5639/TB-CHQ/2025
+so_hieu_khac:
+  - 5639/TB-CHQ
+loai: THONG_BAO
+ten: 'Thông báo việc phát hành tem điện tử rượu nhập khẩu'
+co_quan: CHQ
+ngay_ban_hanh: '2025-05-20'
+hieu_luc_tu: '2025-05-21'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - hai-quan/so-tay-nghiep-vu
+  - hai-quan/thu-tuc
+  - hai-quan/kiem-tra-giam-sat
+# Chưa gắn quan_he.can_cu → 23/2021/TT-BTC vì chưa có trong sổ (gắn sẽ tạo điểm mù Cao "Được nhắc nhưng chưa có trong sổ").
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=100175&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/5/27/VB_5639.pdf
+    truy_cap: '2026-11-24'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF bậc A có chữ ký số trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/5/27/VB_5639.pdf, id=100175, SHA-256 d0ad5276d30a0baa5a2b508d9665424a504becd17bfa2b4aaf1ac79787f964de): Thông báo số 5639/TB-CHQ ngày 20-05-2025 (ký số 21-05-2025 11:53:10 +07:00) của Cục Hải quan về việc phát hành tem điện tử rượu nhập khẩu từ ngày 21-05-2025 (căn cứ Thông tư 23/2021/TT-BTC ngày 30-03-2021 của Bộ trưởng Bộ Tài chính): (1) Tem điện tử rượu nhập khẩu độ cồn >=30 độ: ký hiệu mẫu RT30, ký hiệu tem BA/2024, số lượng 4.000.000 chiếc (từ số 1500001 đến số 5500001), giá bán 851 đồng/chiếc, ngày bắt đầu sử dụng 21/5/2025; (2) Tem điện tử rượu nhập khẩu độ cồn <30 độ: ký hiệu mẫu RD30, giá bán 851 đồng/chiếc, ngày bắt đầu sử dụng 21/5/2025, gồm 2 dải: AB/2024 (3.999.999 chiếc, từ 6000001 đến 9999999) và AC/2024 (6.000.000 chiếc, từ 0000001 đến 6000000); người ký Trịnh Văn Nhuận (TL. Cục trưởng, Trưởng ban Tài vụ - Quản trị)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+ghi_chu: 'TB hành chính/nghiệp vụ — không phải XDTMS: phát hành tem điện tử rượu nhập khẩu từ ngày 21-05-2025 (mẫu RT30 ký hiệu BA/2024 cho rượu NK độ cồn >=30 độ: 4.000.000 chiếc từ 1500001 đến 5500001; mẫu RD30 cho rượu NK độ cồn <30 độ gồm 2 dải AB/2024 từ 6000001 đến 9999999 và AC/2024 từ 0000001 đến 6000000; đồng giá bán 851 đồng/chiếc). Bản PDF gốc đóng dấu và ký số Cục Hải quan (CSV Cổng Hải quan ghi nhầm cơ quan thành Tổng cục Hải quan). Chưa gắn quan_he tới 23/2021/TT-BTC vì chưa có trong sổ (tránh điểm mù Cao).'
+toan_van: raw/download/files.customs.gov.vn/5639-tb-chq-2025.pdf
