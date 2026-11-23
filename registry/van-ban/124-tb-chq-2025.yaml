@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 124/TB-CHQ/2025
+so_hieu_khac:
+  - 124/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-23'
+ten: 'Thông báo về kết quả xác định trước mã số (Họng ga xe máy Throttle body kèm cảm biến vị trí bướm ga và van không tải, không kèm ECU, ký mã hiệu 1D000063R, mã số 8481.80.99)'
+co_quan: CHQ
+ngay_ban_hanh: '2025-03-13'
+hieu_luc_tu: '2025-03-13'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=99600&cid=1294
+    truy_cap: '2026-11-23'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/17/VB_124.pdf
+    truy_cap: '2026-11-23'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/17/VB_124.pdf, id=99600, SHA-256 749154877493a1fd77b2ff1ac5dbbd8cdeee1e0681be114545104f129a031549): Thông báo số 124/TB-CHQ ngày 13-03-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Họng ga xe máy (Throttle body, ký mã hiệu 1D000063R; gồm thân họng ga hình trụ có van bướm, cảm biến vị trí bướm ga TPS và van không tải, không kèm ECU; đường kính ngoài 36,5mm ± 0,4mm, đường kính trong 27,2mm ± 0,32mm; dùng điều tiết lưu lượng không khí vào động cơ; nhà sản xuất MAGNETI MARELLI (CHINA) CO., LTD), phân loại vào nhóm 84.81, phân nhóm 8481.80, mã số 8481.80.99; có hiệu lực từ ngày ban hành'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-23'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Họng ga xe máy (Throttle body) kèm cảm biến vị trí bướm ga và van không tải, không kèm ECU, dùng điều tiết lưu lượng không khí vào động cơ (ký mã hiệu 1D000063R, đường kính ngoài 36,5mm ± 0,4mm, đường kính trong 27,2mm ± 0,32mm; nhà sản xuất MAGNETI MARELLI (CHINA) CO., LTD) thuộc nhóm 84.81, phân nhóm 8481.80, mã số 8481.80.99.'
+toan_van: raw/download/files.customs.gov.vn/124-tb-chq-2025.pdf
