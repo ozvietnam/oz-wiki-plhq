@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-23",
   "luoc_do_phien_ban": "1.5.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 3107,
+  "tong": 3113,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -15847,6 +15847,38 @@
         "raw/download/congbao.chinhphu.vn/114-2025-qh15.html"
       ],
       "slug": "114-2025-qh15",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "114/2026/VBHN-TT-BNNMT",
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Văn bản hợp nhất Quy chuẩn kỹ thuật quốc gia về Kiểm dịch và Bảo vệ thực vật",
+      "co_quan": "BNNMT",
+      "ngay_ban_hanh": "2026-11-14",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/thuc-pham/van-ban-hop-nhat-114-2026-vbhn-tt-bnnmt-2026-ve-quy-chuan-ky-thuat-quoc-gia-kiem-dich-va-bao-ve-thuc-vat-456803-d5.html",
+          "truy_cap": "2026-11-23"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/114-vbhn-bnnmt.signed.pdf",
+          "truy_cap": "2026-11-23"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "số hiệu + tên + ngày ban hành 14-11-2026 (luatvietnam + PDF chính thức datafiles.chinhphu.vn); đổi danh xưng bộ theo TT 12/2025",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-23",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám đêm 23/11. Đủ cặp với 115/VBHN (nạp 18/11) — họ QCVN kiểm dịch + bảo vệ thực vật.",
+      "slug": "114-2026-vbhn-tt-bnnmt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -50243,6 +50275,45 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "20117/TB-CHQ/2025",
+      "so_hieu_khac": [
+        "20117/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "ten": "Thông báo việc phát hành Tem điện tử rượu nhập khẩu",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2025-08-19",
+      "hieu_luc_tu": "2025-08-19",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/so-tay-nghiep-vu",
+        "hai-quan/thu-tuc",
+        "hai-quan/kiem-tra-giam-sat"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=101052&cid=1294",
+          "truy_cap": "2026-11-24"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/8/19/10.VB_20117.pdf",
+          "truy_cap": "2026-11-24"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF bậc A có chữ ký số trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/8/19/10.VB_20117.pdf, id=101052, SHA-256 0dbbebe5085e3e9b8d261808b48fea1523a239b6bad0a02c9d71793eed01e230): Thông báo số 20117/TB-CHQ ngày 19-08-2025 của Cục Hải quan về việc phát hành Tem điện tử rượu nhập khẩu từ ngày 19-08-2025 (căn cứ Thông tư 23/2021/TT-BTC ngày 30-03-2021 và Thông tư 31/2025/TT-BTC ngày 31-05-2025 của Bộ trưởng Bộ Tài chính): (1) Tem điện tử rượu nhập khẩu độ cồn >=30 độ: ký hiệu mẫu RT30, ký hiệu tem BA/2024, số lượng 2.300.000 chiếc (từ số 5500001 đến số 7800000), giá bán 851 đồng/chiếc, ngày bắt đầu sử dụng 19/8/2025; (2) Tem điện tử rượu nhập khẩu độ cồn <30 độ: ký hiệu mẫu RD30, giá bán 851 đồng/chiếc, ngày bắt đầu sử dụng 19/8/2025, gồm 4 dải: AC/2024 (3.999.999 chiếc, từ 6000001 đến 9999999), AD/2024 (9.999.999 chiếc, từ 0000001 đến 9999999), AE/2024 (9.999.999 chiếc, từ 0000001 đến 9999999), AG/2024 (3.000.005 chiếc, từ 0000001 đến 3000005); người ký Trịnh Văn Nhuận (TL. Cục trưởng, Trưởng ban Tài vụ - Quản trị)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-24",
+        "boi": "gd-bo-ba@ozvietnam"
+      },
+      "ghi_chu": "TB hành chính/nghiệp vụ — không phải XDTMS: phát hành Tem điện tử rượu nhập khẩu từ ngày 19-08-2025 (mẫu RT30 ký hiệu BA/2024 cho rượu NK độ cồn >=30 độ: 2.300.000 chiếc từ 5500001 đến 7800000; mẫu RD30 cho rượu NK độ cồn <30 độ gồm 4 dải AC/2024, AD/2024, AE/2024, AG/2024; đồng giá bán 851 đồng/chiếc). Chưa gắn quan_he tới 23/2021/TT-BTC và 31/2025/TT-BTC vì chưa có trong sổ (tránh điểm mù Cao).",
+      "toan_van": "raw/download/files.customs.gov.vn/20117-tb-chq-2025.pdf",
+      "slug": "20117-tb-chq-2025",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "2014/TB-TCHQ/2023",
       "loai": "THONG_BAO",
       "loai_phan_loai": "XAC_DINH_TRUOC",
@@ -65578,6 +65649,34 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "26/2026/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số quy định về cấp Giấy chứng nhận xuất xứ hàng hóa và chấp thuận thương nhân tự chứng nhận xuất xứ theo Thông tư 40/2025/TT-BCT",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2026-05-25",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "xuat-xu-fta/quy-tac-xuat-xu"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn",
+          "truy_cap": "2026-11-23"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "số hiệu + ngày ban hành 25-05-2026, hiệu lực 29-05-2026 (K3 Đ19 từ 01-08-2026) — TVPL tổng hợp phân cấp cấp C/O về Sở Công Thương; cần nguồn chính thống khi lên A",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-23",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám đêm 23/11. Phân cấp cấp C/O mạnh về Sở CT + 12 mẫu C/O FTA lớn DN tự chứng nhận — đụng trực tiếp luồng xin C/O của khách. Đúng họ 40/2025 đã có.",
+      "slug": "26-2026-tt-bct",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "26/2026/TT-BYT",
@@ -103588,6 +103687,34 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "4502/QĐ-BKHCN",
+      "loai": "QUYET_DINH",
+      "ten": "Công bố thủ tục hành chính mới về cấp giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu trong lĩnh vực quản lý nhà nước của Bộ Khoa học và Công nghệ",
+      "co_quan": "BKHCN",
+      "ngay_ban_hanh": "2026-11-19",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn",
+          "truy_cap": "2026-11-23"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "số hiệu + ngày ban hành 19-11-2026 (tổng hợp TVPL trong bản tin tuần); TTHC cấp GP XK/tạm nhập tái xuất/chuyển khẩu — cần nguồn chính thống mst.gov.vn khi lên A",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-23",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám đêm 23/11. GP XNK mảng khoa học công nghệ (thiết bị nghiên cứu, mẫu vật...) — luồng giấy phép ít khi gặp nhưng đúng phạm vi.",
+      "slug": "4502-2026-qd-bkhcn",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "451/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -106734,6 +106861,34 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "48/2026/VBHN-BCT",
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Hợp nhất quy định về cấp Giấy chứng nhận xuất xứ hàng hóa và chấp thuận thương nhân tự chứng nhận xuất xứ hàng hóa",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2026-06-25",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "xuat-xu-fta/quy-tac-xuat-xu"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn",
+          "truy_cap": "2026-11-23"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "số hiệu + ngày ban hành 25-06-2026 (TVPL tổng hợp) — hợp nhất TT 40/2025 + sửa đổi 26/2026 về cấp C/O",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-23",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám đêm 23/11. Bản hợp nhất họ C/O (40/2025 → 26/2026 → VBHN này) — tra cứu một chỗ cho khách xin C/O.",
+      "slug": "48-2026-vbhn-bct",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "480/TB-TCHQ/2019",
