@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 17608/TB-CHQ/2025
+so_hieu_khac:
+  - 17608/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-23'
+ten: 'Thông báo về kết quả xác định trước mã số (Thiết bị theo dõi vị trí thông minh GPS Tracker, ký hiệu CD01HFS01X, mã số 8526.91.94)'
+co_quan: CHQ
+ngay_ban_hanh: '2025-08-05'
+hieu_luc_tu: '2025-08-05'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=100923&cid=1294
+    truy_cap: '2026-11-23'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/8/8/13%20VB_17608.pdf
+    truy_cap: '2026-11-23'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/8/8/13 VB_17608.pdf, id=100923, SHA-256 9b123b9e4df713ea5b9838e83309bb32dc6fd354f8ecab21e6a63d3d59bac98b): Thông báo số 17608/TB-CHQ ngày 05-08-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Thiết bị theo dõi vị trí thông minh (GPS Tracker; ký mã hiệu CD01HFS01X; gồm mô đun Wifi, Bluetooth-MCU, NFC/RFID, UWB, GPS, cảm biến nhiệt độ/độ ẩm và gia tốc trong vỏ nhựa), phân loại vào nhóm 85.26, phân nhóm 8526.91, mã số 8526.91.94; có hiệu lực kể từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-23'
+  boi: gd-bo-ba@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Thiết bị theo dõi vị trí thông minh GPS Tracker (ký hiệu CD01HFS01X; định vị GPS kèm cảm biến môi trường/chuyển động) thuộc nhóm 85.26, phân nhóm 8526.91, mã số 8526.91.94.'
+toan_van: raw/download/files.customs.gov.vn/17608-tb-chq-2025.pdf
