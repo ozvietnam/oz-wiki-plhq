@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-23
 
-3084 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3088 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2388 văn bản, 2388 chưa hết hiệu lực.
+2392 văn bản, 2392 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -693,6 +693,10 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [93/TB-CHQ/2025](../registry/van-ban/93-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Mô đun camera / Webcam Newton Eye Camera Module chụp và gửi hình ảnh hàng hóa trên kệ hàng về máy chủ, ký mã hiệu EC120THWXC/WWW, mã số 8525.89.30)
 - 🟢 [94/TB-CHQ/2025](../registry/van-ban/94-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Bộ cổng nối truyền dẫn tín hiệu và cấp điện cho bảng giá điện tử ESL dạng thanh ray Power Rail Gateway Set, ký mã hiệu ER100XABX0/WWW, mã số 8517.62.59)
 - 🟢 [95/TB-CHQ/2025](../registry/van-ban/95-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Nhẫn thông minh theo dõi sức khỏe GALAXY RING đeo ngón tay, không làm từ kim loại quý, đi kèm hộp sạc, ký mã hiệu SM-Q508, mã số 9031.80.90)
+- 🟢 [96/TB-CHQ/2025](../registry/van-ban/96-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thực phẩm bảo vệ sức khỏe Pharmaton Kiddi Syrup dạng xi-rô bổ sung lysin, calci và vitamin cho trẻ em 1-18 tuổi, chai 100ml, mã số 2202.99.50)
+- 🟢 [97/TB-CHQ/2025](../registry/van-ban/97-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thực phẩm bảo vệ sức khỏe Pharmaton Energy Fizzi dạng viên nén sủi bổ sung chiết xuất Nhân sâm G115, vitamin và khoáng chất, mã số 2106.90.71)
+- 🟢 [98/TB-CHQ/2025](../registry/van-ban/98-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Hạt nhựa PET tái sinh SKYPET CR SB dùng làm nguyên liệu sản xuất các loại sợi, mã số 3907.69.10)
+- 🟢 [99/TB-CHQ/2025](../registry/van-ban/99-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Cần liên động / Thanh truyền CONNECTING ROD bằng hợp kim nhôm đúc ADC12 dùng cho động cơ 4 kỳ chạy xăng máy phát điện/làm vườn, ký mã hiệu 170FAE F1, mã số 8409.91.79)
 - 🟢 [1005/TB-TCHQ/2025](../registry/van-ban/1005-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2710.19.89)
 - 🟢 [638/TB-TCHQ/2025](../registry/van-ban/638-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.99)
 - 🟢 [619/TB-TCHQ/2025](../registry/van-ban/619-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3006.40.10)
