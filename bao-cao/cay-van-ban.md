@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-23
 
-3080 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3084 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2384 văn bản, 2384 chưa hết hiệu lực.
+2388 văn bản, 2388 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -689,6 +689,10 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [89/TB-CHQ/2025](../registry/van-ban/89-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Cổng kết nối truyền tín hiệu cho bảng giá điện tử ESL Newton Gateway, ký mã hiệu EGS501NA0S/WWW, mã số 8517.62.43)
 - 🟢 [90/TB-CHQ/2025](../registry/van-ban/90-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Dung dịch xịt mũi Nasatoin Nasal Spray chứa Ectoin 2%, mã sản phẩm SNS01, chai xịt 20 ml, mã số 3004.90.99)
 - 🟢 [91/TB-CHQ/2025](../registry/van-ban/91-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Miếng dán chống muỗi MozzieGuard+ bằng vải rayon tẩm tinh dầu sả và menthol, hộp 54 miếng dán, mã số 3808.91.99)
+- 🟢 [92/TB-CHQ/2025](../registry/van-ban/92-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị truyền nhận dữ liệu gồm 02 thiết bị SFP+ gắn ở hai đầu sợi cáp truyền dữ liệu HPE Aruba Networking 10G SFP+ to SFP+ 1m Direct Attach Copper Cable / DAC Cable, ký mã hiệu J9281D, mã số 8517.62.49)
+- 🟢 [93/TB-CHQ/2025](../registry/van-ban/93-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Mô đun camera / Webcam Newton Eye Camera Module chụp và gửi hình ảnh hàng hóa trên kệ hàng về máy chủ, ký mã hiệu EC120THWXC/WWW, mã số 8525.89.30)
+- 🟢 [94/TB-CHQ/2025](../registry/van-ban/94-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Bộ cổng nối truyền dẫn tín hiệu và cấp điện cho bảng giá điện tử ESL dạng thanh ray Power Rail Gateway Set, ký mã hiệu ER100XABX0/WWW, mã số 8517.62.59)
+- 🟢 [95/TB-CHQ/2025](../registry/van-ban/95-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Nhẫn thông minh theo dõi sức khỏe GALAXY RING đeo ngón tay, không làm từ kim loại quý, đi kèm hộp sạc, ký mã hiệu SM-Q508, mã số 9031.80.90)
 - 🟢 [1005/TB-TCHQ/2025](../registry/van-ban/1005-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2710.19.89)
 - 🟢 [638/TB-TCHQ/2025](../registry/van-ban/638-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.99)
 - 🟢 [619/TB-TCHQ/2025](../registry/van-ban/619-tb-tchq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3006.40.10)

@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-23",
   "luoc_do_phien_ban": "1.5.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 3080,
+  "tong": 3084,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -137727,6 +137727,46 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "92/TB-CHQ/2025",
+      "so_hieu_khac": [
+        "92/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-22",
+      "ten": "Thông báo về kết quả xác định trước mã số (Thiết bị truyền nhận dữ liệu gồm 02 thiết bị SFP+ gắn ở hai đầu sợi cáp truyền dữ liệu HPE Aruba Networking 10G SFP+ to SFP+ 1m Direct Attach Copper Cable / DAC Cable, ký mã hiệu J9281D, mã số 8517.62.49)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2025-03-12",
+      "hieu_luc_tu": "2025-03-12",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=99617&cid=1294",
+          "truy_cap": "2026-11-22"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/18/VB_92.pdf",
+          "truy_cap": "2026-11-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/18/VB_92.pdf, id=99617, SHA-256 62ff4c3821a26d1ea09b38f67f1738358db61bffa58f3b53a228da4ae7edba8a): Thông báo số 92/TB-CHQ ngày 12-03-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Thiết bị truyền nhận dữ liệu bao gồm 02 thiết bị SFP+ (Small Form-factor Pluggable plus) giống nhau được gắn ở hai đầu của sợi cáp truyền dữ liệu (tên thương mại HPE Aruba Networking 10G SFP+ to SFP+ 1m Direct Attach Copper Cable / DAC Cable, ký mã hiệu J9281D, nhà sản xuất HPE; chiều dài cáp 1m, tiêu chuẩn dây AWG30, cách điện bằng PVC, tốc độ dữ liệu hỗ trợ 1.0625-10.52 Gbps, hỗ trợ kết nối 10G/Gigabit Ethernet, 1G/2G/4G/8G/10G Fiber Channel, CPRI tùy chọn 2 và 3, hỗ trợ DDM/DOM, khả năng truyền tải dòng điện dưới 80V, không dùng cho viễn thông), phân loại vào nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.49; có hiệu lực từ ngày ký",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-22",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Xác định trước mã số mặt hàng Thiết bị truyền nhận dữ liệu gồm 02 thiết bị SFP+ gắn ở hai đầu sợi cáp truyền dữ liệu dài 1m (HPE Aruba Networking 10G SFP+ to SFP+ 1m Direct Attach Copper Cable / DAC Cable, ký mã hiệu J9281D, tốc độ 1.0625-10.52 Gbps, dây AWG30, điện áp dưới 80V, không dùng cho viễn thông) thuộc nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.49.",
+      "toan_van": "raw/download/files.customs.gov.vn/92-tb-chq-2025.pdf",
+      "slug": "92-tb-chq-2025",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "92/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -138348,6 +138388,46 @@
       }
     },
     {
+      "so_hieu": "93/TB-CHQ/2025",
+      "so_hieu_khac": [
+        "93/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-22",
+      "ten": "Thông báo về kết quả xác định trước mã số (Mô đun camera / Webcam Newton Eye Camera Module chụp và gửi hình ảnh hàng hóa trên kệ hàng về máy chủ, ký mã hiệu EC120THWXC/WWW, mã số 8525.89.30)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2025-03-12",
+      "hieu_luc_tu": "2025-03-12",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=99618&cid=1294",
+          "truy_cap": "2026-11-22"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/18/VB_93.pdf",
+          "truy_cap": "2026-11-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/18/VB_93.pdf, id=99618, SHA-256 97b334f70f8ae77de5ea67da00547b31f7e40ac2b291b2d933cebd51a5e7767a): Thông báo số 93/TB-CHQ ngày 12-03-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Mô đun camera / Webcam dùng để chụp và gửi hình ảnh hàng hóa trên kệ hàng về máy chủ hỗ trợ phân tích, quản lý và tối ưu hóa quá trình vận hành của cửa hàng (tên thương mại Newton Eye Camera Module, ký mã hiệu EC120THWXC/WWW; cấu tạo gồm vỏ nhựa, bản mạch tích hợp camera kỹ thuật số FOV 120 độ độ phân giải FF 5M Pixel 2593x1944 mã hóa JPEG, tiêu cự nhỏ nhất 80cm, khoảng cách phù hợp tiêu cự 0.8~3m, vi xử lý MCU BLE IC NRF8211 và WiFi IC RTL8735B băng tần 2.4/5GHz, IC NFC TNB132M, bộ nhớ Flash 128Mbit, không có khe cắm thẻ nhớ ngoài, cấp nguồn 5V qua cổng USB Type-C), phân loại vào nhóm 85.25, phân nhóm 8525.89, mã số 8525.89.30; có hiệu lực từ ngày ký",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-22",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Xác định trước mã số mặt hàng Mô đun camera / Webcam dùng chụp và gửi hình ảnh hàng hóa trên kệ hàng về máy chủ hỗ trợ quản lý cửa hàng (Newton Eye Camera Module, ký mã hiệu EC120THWXC/WWW, độ phân giải FF 5M Pixel 2593x1944 JPEG, góc nhìn tối đa 120 độ, khoảng cách tiêu cự 0.8~3m, kết nối BLE/WiFi 2.4/5GHz, nguồn 5V USB Type-C) thuộc nhóm 85.25, phân nhóm 8525.89, mã số 8525.89.30.",
+      "toan_van": "raw/download/files.customs.gov.vn/93-tb-chq-2025.pdf",
+      "slug": "93-tb-chq-2025",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "94/2025/NĐ-CP",
       "loai": "NGHI_DINH",
       "ten": "Quy định về Cơ chế thử nghiệm có kiểm soát trong lĩnh vực ngân hàng",
@@ -138431,6 +138511,46 @@
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/94-2025-nd-cp.pdf",
       "ghi_chu": "Quy định về Cơ chế thử nghiệm có kiểm soát trong lĩnh vực ngân hàng.",
       "slug": "94-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "94/TB-CHQ/2025",
+      "so_hieu_khac": [
+        "94/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-22",
+      "ten": "Thông báo về kết quả xác định trước mã số (Bộ cổng nối truyền dẫn tín hiệu và cấp điện cho bảng giá điện tử ESL dạng thanh ray Power Rail Gateway Set, ký mã hiệu ER100XABX0/WWW, mã số 8517.62.59)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2025-03-12",
+      "hieu_luc_tu": "2025-03-12",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=99620&cid=1294",
+          "truy_cap": "2026-11-22"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/18/VB_94.pdf",
+          "truy_cap": "2026-11-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/18/VB_94.pdf, id=99620, SHA-256 a611c87ab8ff3656c2ad285148a3e87ff6c192e52e41e24bc812dbd323ee61b1): Thông báo số 94/TB-CHQ ngày 12-03-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Bộ cổng nối truyền dẫn tín hiệu và cấp điện cho bảng giá điện tử ESL dạng thanh ray (tên thương mại Power Rail Gateway Set / Power Rail Gateway + Rail, ký mã hiệu ER100XABX0/WWW; cấu tạo gồm thanh ray nhựa ABS gắn thanh cái Busbar có 04 dải tiếp điểm bằng đồng chạy dọc chiều dài thanh ray và cổng nối Power Rail Gateway tích hợp IC bộ nhớ Flash, bộ vi điều khiển MCU truyền nhận Bluetooth năng lượng thấp BLE 2.4GHz, khối UART, đèn LED và 4 chân tiếp điểm GND/SDA/SCL/VCC giao tiếp I2C; dùng gắn bảng giá điện tử ESL, nhận nguồn 3V từ bộ pin ngoài và truyền dẫn tín hiệu hiển thị từ máy chủ qua Gateway tới bảng giá điện tử ESL), phân loại vào nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.59; có hiệu lực từ ngày ký",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-22",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Xác định trước mã số mặt hàng Bộ cổng nối truyền dẫn tín hiệu và cấp điện cho bảng giá điện tử ESL dạng thanh ray (Power Rail Gateway Set / Power Rail Gateway + Rail, ký mã hiệu ER100XABX0/WWW, gồm thanh ray nhựa ABS gắn thanh cái Busbar 4 dải tiếp điểm đồng và cổng nối Power Rail Gateway tích hợp MCU BLE 2.4GHz giao tiếp I2C dùng cấp điện và truyền dẫn tín hiệu hiển thị cho bảng giá điện tử ESL) thuộc nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.59.",
+      "toan_van": "raw/download/files.customs.gov.vn/94-tb-chq-2025.pdf",
+      "slug": "94-tb-chq-2025",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -138723,6 +138843,46 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "95/TB-CHQ/2025",
+      "so_hieu_khac": [
+        "95/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-22",
+      "ten": "Thông báo về kết quả xác định trước mã số (Nhẫn thông minh theo dõi sức khỏe GALAXY RING đeo ngón tay, không làm từ kim loại quý, đi kèm hộp sạc, ký mã hiệu SM-Q508, mã số 9031.80.90)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2025-03-12",
+      "hieu_luc_tu": "2025-03-12",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=99615&cid=1294",
+          "truy_cap": "2026-11-22"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/18/VB_95.pdf",
+          "truy_cap": "2026-11-22"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/18/VB_95.pdf, id=99615, SHA-256 93da6a5101f6a917c4e85a6a83fe5892425acd3c10e17e0a249242a7be9269c0): Thông báo số 95/TB-CHQ ngày 12-03-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Nhẫn thông minh theo dõi sức khỏe đeo trên ngón tay, không làm từ kim loại quý, đi kèm hộp sạc (tên thương mại GALAXY RING, SM-Q508, ký mã hiệu SM-Q508; cấu tạo gồm vỏ ngoài bằng Titanium, pin uốn cong 18.5 mAh và bản mạch PBA chứa 03 cảm biến gồm cảm biến nhịp tim quang học PPG, cảm biến gia tốc và cảm biến nhiệt độ hồng ngoại, kháng nước 10 ATM/IP68, ROM 8MB, không có màn hình hiển thị; kết nối Bluetooth với điện thoại thông minh để đo và truyền dữ liệu nhịp tim, SpO2, mức độ căng thẳng, bước chân, giấc ngủ, nhiệt độ da về ứng dụng Samsung Health), phân loại vào nhóm 90.31, phân nhóm 9031.80, mã số 9031.80.90; có hiệu lực từ ngày ký",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-22",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Xác định trước mã số mặt hàng Nhẫn thông minh theo dõi sức khỏe đeo ngón tay, không làm từ kim loại quý, đi kèm hộp sạc (GALAXY RING, ký mã hiệu SM-Q508, vỏ Titanium, tích hợp 3 cảm biến nhịp tim quang học PPG, gia tốc và nhiệt độ hồng ngoại, kết nối Bluetooth truyền dữ liệu sức khỏe và giấc ngủ về điện thoại thông minh, không có màn hình hiển thị) thuộc nhóm 90.31, phân nhóm 9031.80, mã số 9031.80.90.",
+      "toan_van": "raw/download/files.customs.gov.vn/95-tb-chq-2025.pdf",
+      "slug": "95-tb-chq-2025",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "950/TB-TCHQ/2018",

@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 92/TB-CHQ/2025
+so_hieu_khac:
+  - 92/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-22'
+ten: 'Thông báo về kết quả xác định trước mã số (Thiết bị truyền nhận dữ liệu gồm 02 thiết bị SFP+ gắn ở hai đầu sợi cáp truyền dữ liệu HPE Aruba Networking 10G SFP+ to SFP+ 1m Direct Attach Copper Cable / DAC Cable, ký mã hiệu J9281D, mã số 8517.62.49)'
+co_quan: CHQ
+ngay_ban_hanh: '2025-03-12'
+hieu_luc_tu: '2025-03-12'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=99617&cid=1294
+    truy_cap: '2026-11-22'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/18/VB_92.pdf
+    truy_cap: '2026-11-22'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/18/VB_92.pdf, id=99617, SHA-256 62ff4c3821a26d1ea09b38f67f1738358db61bffa58f3b53a228da4ae7edba8a): Thông báo số 92/TB-CHQ ngày 12-03-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Thiết bị truyền nhận dữ liệu bao gồm 02 thiết bị SFP+ (Small Form-factor Pluggable plus) giống nhau được gắn ở hai đầu của sợi cáp truyền dữ liệu (tên thương mại HPE Aruba Networking 10G SFP+ to SFP+ 1m Direct Attach Copper Cable / DAC Cable, ký mã hiệu J9281D, nhà sản xuất HPE; chiều dài cáp 1m, tiêu chuẩn dây AWG30, cách điện bằng PVC, tốc độ dữ liệu hỗ trợ 1.0625-10.52 Gbps, hỗ trợ kết nối 10G/Gigabit Ethernet, 1G/2G/4G/8G/10G Fiber Channel, CPRI tùy chọn 2 và 3, hỗ trợ DDM/DOM, khả năng truyền tải dòng điện dưới 80V, không dùng cho viễn thông), phân loại vào nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.49; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-22'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Thiết bị truyền nhận dữ liệu gồm 02 thiết bị SFP+ gắn ở hai đầu sợi cáp truyền dữ liệu dài 1m (HPE Aruba Networking 10G SFP+ to SFP+ 1m Direct Attach Copper Cable / DAC Cable, ký mã hiệu J9281D, tốc độ 1.0625-10.52 Gbps, dây AWG30, điện áp dưới 80V, không dùng cho viễn thông) thuộc nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.49.'
+toan_van: raw/download/files.customs.gov.vn/92-tb-chq-2025.pdf
