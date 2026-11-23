@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-23
 
-3100 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3104 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2404 văn bản, 2404 chưa hết hiệu lực.
+2408 văn bản, 2408 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -514,7 +514,11 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [15382/TB-CHQ/2026](../registry/van-ban/15382-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thuốc kem bôi ngoài da Hirudoid chứa hoạt chất Mucopolysaccharide polysulfate 0,3 g/100 g kem, đóng gói hộp 1 tuýp 14 g, mã số 3004.90.99)
 - 🟢 [15384/TB-CHQ/2026](../registry/van-ban/15384-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bo mạch chủ dành cho máy tính xách tay có chứa CPU Intel Core Ultra 7 265H và GPU NVIDIA GeForce RTX 5060, ký mã hiệu MTM40, mã số 8471.50.10)
 - 🟢 [15042/TB-CHQ/2026](../registry/van-ban/15042-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bảng mẫu vải Swatch card, ký mã hiệu 778CARD, gồm 2 miếng vải sơnin 100% polyester đã tráng phủ dán trên bảng giấy bìa 4,25 x 9 inch, mã số 6307.90.90)
+- 🟢 [14912/TB-CHQ/2026](../registry/van-ban/14912-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Kit thuốc nghiên cứu - Bộ dụng cụ thử nghiệm lâm sàng AZD6793 5mg, 15mg, 45mg hoặc Placebo dùng trong nghiên cứu mù đôi PRESTO mã số D7860C00006, đóng lọ 35 viên nén bao phim, mã số 3006.93.00)
+- 🟢 [14825/TB-CHQ/2026](../registry/van-ban/14825-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chế phẩm diệt khuẩn, khử trùng Nipacide BIT 20 Plus chứa 1,2-benzisothiazolin-3-one 10-25% dạng lỏng làm chất bảo quản trong sản xuất nước giặt, xả vải, đóng gói 25 kg/thùng, mã số 3808.94.90)
+- 🟢 [14826/TB-CHQ/2026](../registry/van-ban/14826-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bột chiên giòn Premium Bake SB 050 NE từ bánh mì nướng chín nghiền vụn sấy khô, bột mì 95,9%, dùng tạo độ giòn thực phẩm, đóng gói 20 kg hoặc 650 kg/túi, mã số 1905.90.90)
 - 🟢 [13727/TB-CHQ/2026](../registry/van-ban/13727-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Máy plasma lạnh hỗ trợ điều trị vết thương PlasmaMED-GAP, ký mã hiệu PlasmaMED-BV-M3, mã số 9018.90.31)
+- 🟢 [13270/TB-CHQ/2026](../registry/van-ban/13270-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ toan áo phẫu thuật khớp gối Arthroscopy Pack, ký mã hiệu V-ATP-005, vải không dệt polypropylene tiệt trùng bằng khí EO dùng 1 lần, mã số 6307.90.90)
 - 🟢 [13271/TB-CHQ/2026](../registry/van-ban/13271-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ toan áo phẫu thuật thần kinh sọ não Neuro Pack with Pouch, ký mã hiệu V-NSP-002, vải không dệt polypropylene tiệt trùng bằng khí EO dùng 1 lần, mã số 6307.90.90)
 - 🟢 [13272/TB-CHQ/2026](../registry/van-ban/13272-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ toan áo phẫu thuật cột sống Spinal Laminectomy Pack, ký mã hiệu V-SLP-002, vải không dệt polypropylene tiệt trùng bằng khí EO dùng 1 lần, mã số 6307.90.90)
 - 🟢 [13273/TB-CHQ/2026](../registry/van-ban/13273-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ toan áo phẫu thuật chỉnh hình cơ xương khớp chung Orthopedic Pack, ký mã hiệu V-OPP-002, vải không dệt polypropylene tiệt trùng bằng khí EO dùng 1 lần, mã số 6307.90.90)
