@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-23",
   "luoc_do_phien_ban": "1.5.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 3107,
+  "tong": 3113,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -15847,6 +15847,38 @@
         "raw/download/congbao.chinhphu.vn/114-2025-qh15.html"
       ],
       "slug": "114-2025-qh15",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "114/2026/VBHN-TT-BNNMT",
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Văn bản hợp nhất Quy chuẩn kỹ thuật quốc gia về Kiểm dịch và Bảo vệ thực vật",
+      "co_quan": "BNNMT",
+      "ngay_ban_hanh": "2026-11-14",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/kiem-dich"
+      ],
+      "nguon": [
+        {
+          "url": "https://luatvietnam.vn/thuc-pham/van-ban-hop-nhat-114-2026-vbhn-tt-bnnmt-2026-ve-quy-chuan-ky-thuat-quoc-gia-kiem-dich-va-bao-ve-thuc-vat-456803-d5.html",
+          "truy_cap": "2026-11-23"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/114-vbhn-bnnmt.signed.pdf",
+          "truy_cap": "2026-11-23"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "số hiệu + tên + ngày ban hành 14-11-2026 (luatvietnam + PDF chính thức datafiles.chinhphu.vn); đổi danh xưng bộ theo TT 12/2025",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-23",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám đêm 23/11. Đủ cặp với 115/VBHN (nạp 18/11) — họ QCVN kiểm dịch + bảo vệ thực vật.",
+      "slug": "114-2026-vbhn-tt-bnnmt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -65580,6 +65612,34 @@
       }
     },
     {
+      "so_hieu": "26/2026/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số quy định về cấp Giấy chứng nhận xuất xứ hàng hóa và chấp thuận thương nhân tự chứng nhận xuất xứ theo Thông tư 40/2025/TT-BCT",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2026-05-25",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "xuat-xu-fta/quy-tac-xuat-xu"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn",
+          "truy_cap": "2026-11-23"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "số hiệu + ngày ban hành 25-05-2026, hiệu lực 29-05-2026 (K3 Đ19 từ 01-08-2026) — TVPL tổng hợp phân cấp cấp C/O về Sở Công Thương; cần nguồn chính thống khi lên A",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-23",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám đêm 23/11. Phân cấp cấp C/O mạnh về Sở CT + 12 mẫu C/O FTA lớn DN tự chứng nhận — đụng trực tiếp luồng xin C/O của khách. Đúng họ 40/2025 đã có.",
+      "slug": "26-2026-tt-bct",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "26/2026/TT-BYT",
       "loai": "THONG_TU",
       "ten": "Danh mục dược liệu, thuốc cổ truyền theo mức độ rủi ro (rủi ro trung bình)",
@@ -66869,6 +66929,43 @@
       "toan_van": "chua_co",
       "slug": "2709-tb-tchq-2023",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "27091/TB-CHQ/2025",
+      "so_hieu_khac": [
+        "27091/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "ten": "Thông báo về thông tin tài khoản thu NSNN (cập nhật sửa đổi, bổ sung thông tin thu của Hải quan Buôn Ma Thuột thuộc Chi cục HQKV XIV — tiếp theo 11801/TB-CHQ)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2025-10-01",
+      "hieu_luc_tu": "2025-10-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=101520&cid=1294",
+          "truy_cap": "2026-11-24"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/10/2/VBDI_27091.pdf",
+          "truy_cap": "2026-11-24"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/10/2/VBDI_27091.pdf, id=101520, SHA-256 c795720bf0bfa7c2fdb364fab550b190a0e09e201a59fa1bd0cfc1b053926eb3): Thông báo số 27091/TB-CHQ ngày 01-10-2025 của Cục Hải quan về thông tin tài khoản thu NSNN; căn cứ QĐ 382/QĐ-BTC (26-02-2025) sửa đổi bởi QĐ 2019/QĐ-BTC (11-06-2025); tiếp theo Thông báo 11801/TB-CHQ ngày 30-06-2025, cập nhật sửa đổi, bổ sung thông tin thu của đơn vị Hải quan Buôn Ma Thuột thuộc Chi cục Hải quan khu vực XIV (mã đơn vị 40BC, mã cơ quan thu 2995067, mã KBNN 2961, mã NH 66701001, Kho bạc Nhà nước khu vực XIV - Phòng Nghiệp vụ 2 / KBNN Đắk Lắk, TK 7111/3511/3591); người ký Mai Thị Vân Anh; có hiệu lực kể từ ngày ban hành",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-24",
+        "boi": "gd-bo-ba@ozvietnam"
+      },
+      "ghi_chu": "TB tài khoản thu NSNN — không phải XDTMS. Cập nhật thông tin KBNN/tài khoản thu của Hải quan Buôn Ma Thuột (mã 40BC, mã cơ quan thu 2995067, mã KBNN 2961, mã NH 66701001, Kho bạc Nhà nước khu vực XIV - Phòng Nghiệp vụ 2 / KBNN Đắk Lắk, các tài khoản 7111 thu nộp NSNN, 3511 thu phí lệ phí HQ, 3591 tạm thu chờ nộp NSNN) thuộc Chi cục HQKV XIV (tiêu đề trên trang cổng ghi nhầm là khu vực XIX nhưng toàn văn và phụ lục PDF ký số đều ghi rõ Chi cục HQKV XIV). Văn bản gốc nêu tiếp theo 11801/TB-CHQ ngày 30-06-2025 — 11801 chưa có trong sổ nên chưa gắn quan_he.sua_doi (tránh điểm mù Cao); nạp 11801 rồi bổ sung quan hệ.",
+      "toan_van": "raw/download/files.customs.gov.vn/27091-tb-chq-2025.pdf",
+      "slug": "27091-tb-chq-2025",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -103588,6 +103685,34 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "4502/QĐ-BKHCN",
+      "loai": "QUYET_DINH",
+      "ten": "Công bố thủ tục hành chính mới về cấp giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu trong lĩnh vực quản lý nhà nước của Bộ Khoa học và Công nghệ",
+      "co_quan": "BKHCN",
+      "ngay_ban_hanh": "2026-11-19",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn",
+          "truy_cap": "2026-11-23"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "số hiệu + ngày ban hành 19-11-2026 (tổng hợp TVPL trong bản tin tuần); TTHC cấp GP XK/tạm nhập tái xuất/chuyển khẩu — cần nguồn chính thống mst.gov.vn khi lên A",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-23",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám đêm 23/11. GP XNK mảng khoa học công nghệ (thiết bị nghiên cứu, mẫu vật...) — luồng giấy phép ít khi gặp nhưng đúng phạm vi.",
+      "slug": "4502-2026-qd-bkhcn",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "451/TB-TCHQ/2019",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -106734,6 +106859,34 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "48/2026/VBHN-BCT",
+      "loai": "VAN_BAN_HOP_NHAT",
+      "ten": "Hợp nhất quy định về cấp Giấy chứng nhận xuất xứ hàng hóa và chấp thuận thương nhân tự chứng nhận xuất xứ hàng hóa",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2026-06-25",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "xuat-xu-fta/quy-tac-xuat-xu"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn",
+          "truy_cap": "2026-11-23"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "số hiệu + ngày ban hành 25-06-2026 (TVPL tổng hợp) — hợp nhất TT 40/2025 + sửa đổi 26/2026 về cấp C/O",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-23",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám đêm 23/11. Bản hợp nhất họ C/O (40/2025 → 26/2026 → VBHN này) — tra cứu một chỗ cho khách xin C/O.",
+      "slug": "48-2026-vbhn-bct",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "480/TB-TCHQ/2019",
