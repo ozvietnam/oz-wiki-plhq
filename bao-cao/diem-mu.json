@@ -1,6 +1,6 @@
 {
-  "ngay": "2026-11-22",
-  "tong": 3014,
+  "ngay": "2026-11-23",
+  "tong": 3018,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -26931,6 +26931,33 @@
       "trongSo": 0
     },
     {
+      "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
+      "muc": "Thấp",
+      "tieuDe": "Hàng thật mã 34060000 chưa đối chiếu danh mục KTCN 2026",
+      "muc_tieu": "34060000",
+      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-11-16) mang mã 34060000 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Chưa bảng KTCN 2026 nào có dòng nhóm 3406 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
+      "luong": "danh-muc-hs",
+      "trongSo": 1000
+    },
+    {
+      "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
+      "muc": "Thấp",
+      "tieuDe": "Hàng thật mã 84135090 chưa đối chiếu danh mục KTCN 2026",
+      "muc_tieu": "84135090",
+      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-11-16) mang mã 84135090 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Bảng KTCN 2026 có dòng cùng nhóm 8413: 125/2026/TT-BCA — mở bản gốc đối chiếu xem mã 84135090 có bị trích sót không. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
+      "luong": "danh-muc-hs",
+      "trongSo": 1500
+    },
+    {
+      "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
+      "muc": "Thấp",
+      "tieuDe": "Hàng thật mã 84718010 chưa đối chiếu danh mục KTCN 2026",
+      "muc_tieu": "84718010",
+      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-11-16) mang mã 84718010 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Biểu thuế đang dẫn: 08/2023/TT-BCT, 11/2018/TT-BTTTT. Bảng KTCN 2026 có dòng cùng nhóm 8471: 126/2026/TT-BQP, 36/2026/TT-BKHCN — mở bản gốc đối chiếu xem mã 84718010 có bị trích sót không. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
+      "luong": "danh-muc-hs",
+      "trongSo": 1500
+    },
+    {
       "ma": "HS_API_CHO_MO_CHAN",
       "muc": "Thấp",
       "tieuDe": "Chờ mở chặn 6266/QĐ-BCA (THIEU_PDF_A) — 19 mã HS",
@@ -26965,6 +26992,15 @@
       "viec": "Đã ghi xac_minh.chan: SO_HIEU_LECH (2026-10-04). Việc tiếp: Đối chiếu mã HS bên hs-code-api — Công báo không có 45/2024/TT-BCT (có 45/2024/TT-BTC, 45/2025/TT-BCT). Mở issue hs-code-api nếu lệch số hiệu.. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.",
       "luong": "hieu-luc",
       "trongSo": 1
+    },
+    {
+      "ma": "HS_API_LECH_THU_VIEN",
+      "muc": "Vừa",
+      "tieuDe": "3546/QĐ-BCT: hs-code-api ghi ACTIVE, sổ ghi HET_HIEU_LUC",
+      "muc_tieu": "3546/QĐ-BCT",
+      "viec": "Thư viện /api/legal-docs của hs-code-api (3546/QD-BCT-2025) ghi khác sổ. Đối chiếu nguồn A: sổ sai thì sửa sổ; sổ đúng thì ghi hieu_luc_da_doi_chieu: true và mở issue bên hs-code-api.",
+      "luong": "hieu-luc",
+      "trongSo": 0
     },
     {
       "ma": "BIEU_THUE_HIEN_HANH_DA_HET",

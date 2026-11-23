@@ -1,8 +1,8 @@
 {
  "_comment": "Chụp từ hs-code-api GET /api/demand bằng node tools/nhu-cau.mjs — KHÔNG sửa tay. tools/diem-mu.mjs đọc tệp này.",
  "nguon": "https://hs-kb.uythacnhapkhau.com/api/demand",
- "ngay": "2026-11-16",
- "tuNgay": "2026-08-18",
+ "ngay": "2026-11-23",
+ "tuNgay": "2026-08-25",
  "maHs": [
   {
    "hs": "90049010",
@@ -82,6 +82,13 @@
    "mucChinhSach": "NONE",
    "vanBanDangDan": [],
    "gapGanNhat": "2026-11-02"
+  },
+  {
+   "hs": "34060000",
+   "uuTien": "Thấp",
+   "mucChinhSach": "NONE",
+   "vanBanDangDan": [],
+   "gapGanNhat": "2026-11-16"
   },
   {
    "hs": "36069010",
@@ -218,6 +225,13 @@
    "gapGanNhat": "2026-10-19"
   },
   {
+   "hs": "84135090",
+   "uuTien": "Thấp",
+   "mucChinhSach": "NONE",
+   "vanBanDangDan": [],
+   "gapGanNhat": "2026-11-16"
+  },
+  {
    "hs": "84198110",
    "uuTien": "Thấp",
    "mucChinhSach": "NOTICE",
@@ -279,6 +293,16 @@
     "11/2018/TT-BTTTT"
    ],
    "gapGanNhat": "2026-11-02"
+  },
+  {
+   "hs": "84718010",
+   "uuTien": "Thấp",
+   "mucChinhSach": "NOTICE",
+   "vanBanDangDan": [
+    "08/2023/TT-BCT",
+    "11/2018/TT-BTTTT"
+   ],
+   "gapGanNhat": "2026-11-16"
   },
   {
    "hs": "85158090",
