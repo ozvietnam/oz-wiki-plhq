@@ -475,6 +475,8 @@ flowchart LR
   n_1671_Q__TCHQ["1671/QĐ-TCHQ<br/>hết hiệu lực"]
   n_17_2021_TT_BTC["17/2021/TT-BTC<br/>hết hiệu lực"]
   n_1966_Q__TCHQ["1966/QĐ-TCHQ<br/>hết hiệu lực"]
+  n_19758_TB_CHQ_2025["19758/TB-CHQ/2025<br/>còn hiệu lực"]
+  n_18172_TB_CHQ_2025["18172/TB-CHQ/2025<br/>hết hiệu lực"]
   n_2131_Q__TCHQ["2131/QĐ-TCHQ<br/>hết hiệu lực"]
   n_4023_Q__TCHQ["4023/QĐ-TCHQ<br/>hết hiệu lực"]
   n_2169_Q__CHQ["2169/QĐ-CHQ<br/>còn hiệu lực"]
@@ -495,6 +497,7 @@ flowchart LR
   n_1628_Q__TCHQ -->|thay thế toàn bộ từ 2010-08-01| n_1671_Q__TCHQ
   n_17_2021_TT_BTC -->|sửa đổi| n_14_2015_TT_BTC
   n_1921_Q__TCHQ -->|bãi bỏ Điều 52, Điều 53, Điều 54 Quy trình thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo Quyết định 1966/QĐ-TCHQ từ 2018-06-28| n_1966_Q__TCHQ
+  n_19758_TB_CHQ_2025 -->|thay thế toàn bộ từ 2025-08-15| n_18172_TB_CHQ_2025
   n_2131_Q__TCHQ -->|thay thế toàn bộ từ 2015-07-31| n_4023_Q__TCHQ
   n_2169_Q__CHQ -->|thay thế từ 2026-02-01| n_2999_Q__TCHQ
   n_2169_Q__CHQ -->|thay thế từ 2026-02-01| n_2166_Q__TCHQ
