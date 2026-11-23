@@ -1,0 +1,26 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 16753/TB-CHQ/2026
+so_hieu_khac:
+  - 16753/TB-CHQ
+loai: THONG_BAO
+ten: 'Thông báo về thông tin tài khoản thu NSNN (Chi cục HQKV XV)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-05-26'
+hieu_luc_tu: '2026-06-01'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - thue
+# Chưa gắn quan_he.can_cu → 832/QĐ-CHQ/2025, 681/QĐ-CHQ/2026, 838/QĐ-CHQ/2026 vì chưa có trong sổ (gắn sẽ tạo điểm mù Cao "Được nhắc nhưng chưa có trong sổ").
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=104048&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/5/27/VB_16753.pdf
+    truy_cap: '2026-11-24'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/5/27/VB_16753.pdf, id=104048, SHA-256 a54bd3ff84561d0946ed54d3c47650f78fa0dc6aecca41bcd12ef91587cfcac9): Thông báo hỏa tốc số 16753/TB-CHQ đóng dấu ngày 26-05-2026 (ký số 27-05-2026 09:56:28 +07:00) của Cục Hải quan về thông tin tài khoản thu NSNN; căn cứ QĐ 832/QĐ-CHQ (30-06-2025) sửa đổi, bổ sung tại QĐ 681/QĐ-CHQ (04-05-2026) và QĐ 838/QĐ-CHQ (22-05-2026); thông báo mã đơn vị, tài khoản chuyên thu/tạm thu/tạm giữ (7111/3511/3512/3591/3942) và KBNN nơi mở tài khoản của 02 đơn vị thuộc Chi cục HQKV XV: (1) Hải quan cửa khẩu sân bay quốc tế Tân Sơn Nhất (mã 06B1, mã cơ quan thu 2995081, mã KBNN 0120, mã NH 79701013, Phòng Giao dịch số 6 - KBNN khu vực II), (2) Hải quan Chuyển phát nhanh (mã 06DS, mã cơ quan thu 2995431, mã KBNN 0122, mã NH 79701024, Phòng Giao dịch số 7 - KBNN khu vực II); người ký Bùi Tuấn Hải; có hiệu lực kể từ ngày 01-06-2026'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+ghi_chu: 'TB tài khoản thu NSNN — không phải XDTMS. Thông báo thông tin mã cơ quan hải quan, tài khoản chuyên thu, tạm thu, tạm giữ (7111 thu nộp NSNN, 3511 tiền gửi lệ phí hải quan, 3512 tiền gửi thuế tạm thu, 3591 tiền gửi nộp khoản đảm bảo, 3942 tiền gửi phạt VPHC) và KBNN mở tài khoản của 02 đơn vị thuộc Chi cục Hải quan khu vực XV có hiệu lực từ 01-06-2026: (1) Hải quan cửa khẩu sân bay quốc tế Tân Sơn Nhất (mã 06B1, mã cơ quan thu 2995081, mã KBNN 0120, mã NH 79701013, Phòng Giao dịch số 6 - KBNN khu vực II); (2) Hải quan Chuyển phát nhanh (mã 06DS, mã cơ quan thu 2995431, mã KBNN 0122, mã NH 79701024, Phòng Giao dịch số 7 - KBNN khu vực II). Văn bản đóng dấu ngày 26-05-2026, chữ ký số và trang cổng ghi ngày 27-05-2026. Các QĐ 832/QĐ-CHQ/2025, 681/QĐ-CHQ/2026, 838/QĐ-CHQ/2026 chưa có trong sổ nên chưa gắn quan_he.can_cu (tránh điểm mù Cao).'
+toan_van: raw/download/files.customs.gov.vn/16753-tb-chq-2026.pdf
