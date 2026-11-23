@@ -1,0 +1,34 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 19758/TB-CHQ/2025
+so_hieu_khac:
+  - 19758/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-24'
+ten: 'Thông báo về sửa đổi, thay thế Thông báo kết quả xác định trước mã số (Khung điện thoại bằng nhôm hợp kim dùng cho điện thoại di động Samsung A56, ký mã hiệu CNC8, kích thước 162.137 x 77.835 x 7.449 mm, mã số 8517.79.21 — thay 18172/TB-CHQ)'
+co_quan: CHQ
+ngay_ban_hanh: '2025-08-15'
+hieu_luc_tu: '2025-08-15'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+quan_he:
+  thay_the:
+    - so_hieu: 18172/TB-CHQ/2025
+      pham_vi: toàn bộ
+      tu_ngay: '2025-08-15'
+      can_cu: Điểm 3 Thông báo 19758/TB-CHQ ngày 15-08-2025 (thay thế Thông báo 18172/TB-CHQ ngày 07-08-2025; xác định lại mã số hàng hóa)
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=101031&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/8/18/3.VB_19758.pdf
+    truy_cap: '2026-11-24'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/8/18/3.VB_19758.pdf, id=101031, SHA-256 dcfda6f0194602182da787e7759a2b21df8d5f5a483cc69c2d4df6a45e2d0e0c): Thông báo số 19758/TB-CHQ ngày 15-08-2025 của Cục Hải quan về sửa đổi, thay thế Thông báo kết quả xác định trước mã số số 18172/TB-CHQ ngày 07-08-2025; mặt hàng Khung điện thoại (ký mã hiệu CNC8; nhôm hợp kim Al balance, Si 0.5-0.8%, Fe<=0.2%, Cu 0.55-0.75%, Mn 0.1-0.2%, Mg 0.8-1.05%, Cr/Zn/Ti<=0.1%; kích thước 162.137 x 77.835 x 7.449 mm, trọng lượng 0.039 kg; bán thành phẩm giai đoạn gia công cuối cùng dùng cho điện thoại di động Samsung A56), phân loại vào nhóm 85.17, phân nhóm 8517.79, mã số 8517.79.21; lý do sửa đổi: xác định lại mã số hàng hóa; có hiệu lực kể từ ngày ban hành'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+ghi_chu: 'Sửa đổi/thay thế 18172/TB-CHQ: cùng mặt hàng khung điện thoại nhôm hợp kim CNC8 cho Samsung A56, đổi mã số từ 8517.79.99 sang 8517.79.21 (của điện thoại di động cellular).'
+toan_van: raw/download/files.customs.gov.vn/19758-tb-chq-2025.pdf
