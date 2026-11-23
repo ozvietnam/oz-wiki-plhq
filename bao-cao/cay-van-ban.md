@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-23
 
-3107 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3109 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2411 văn bản, 2410 chưa hết hiệu lực.
+2413 văn bản, 2411 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -596,6 +596,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [24534/TB-CHQ/2025](../registry/van-ban/24534-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị lưu trữ dữ liệu phân tán dùng cho mạng nội bộ và trung tâm dữ liệu, ký mã hiệu OceanStor Pacific 9920, mã số 8471.70.90)
 - 🟢 [24187/TB-CHQ/2025](../registry/van-ban/24187-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị truyền tín hiệu một chiều từ khu vực mạng an toàn ra khu vực mạng ngoài, ký mã hiệu NnetDiode U type, mã số 8517.62.49)
 - 🟢 [24188/TB-CHQ/2025](../registry/van-ban/24188-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị tường lửa thế hệ mới để phát hiện và ngăn chặn các cuộc tấn công mạng bảo vệ hệ thống mạng nội bộ, ký mã hiệu Axgate 13000S, mã số 8517.62.49)
+- 🟢 [23956/TB-CHQ/2025](../registry/van-ban/23956-tb-chq-2025.yaml) — Thông báo về sửa đổi, thay thế Thông báo kết quả xác định trước mã số (Xe chở hàng 4 bánh hiệu Club Car CARRYALL 500 ELEC, động cơ điện DC 48V, mã số 8704.60.29 — thay 4967/TB-TCHQ)
 - 🟢 [24028/TB-CHQ/2025](../registry/van-ban/24028-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Gối đỡ công nghiệp dùng ổ bi bằng gang đúc đã gắn ổ bi dùng cho máy móc thiết bị công nghiệp, ký mã hiệu SRBF UCP-205, mã số 8483.20.90)
 - 🟢 [24068/TB-CHQ/2025](../registry/van-ban/24068-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.99)
 - 🟢 [24069/TB-CHQ/2025](../registry/van-ban/24069-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.99)
@@ -782,7 +783,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [5196/TB-TCHQ/2024](../registry/van-ban/5196-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3926.90.93)
 - 🟢 [5197/TB-TCHQ/2024](../registry/van-ban/5197-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3002.49.00)
 - 🟢 [5198/TB-TCHQ/2024](../registry/van-ban/5198-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (3919.90.92)
-- 🟢 [4967/TB-TCHQ/2024](../registry/van-ban/4967-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
+- ⚫ [4967/TB-TCHQ/2024](../registry/van-ban/4967-tb-tchq-2024.yaml) — Kết quả xác định trước mã số _(hết hiệu lực 2025-09-12)_
 - 🟢 [4856/TB-TCHQ/2024](../registry/van-ban/4856-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (2936.90.00)
 - 🟢 [4874/TB-TCHQ/2024](../registry/van-ban/4874-tb-tchq-2024.yaml) — Phân loại mã HS theo tracuuhs.com (2843.90.00)
 - 🟢 [4777/TB-TCHQ/2024](../registry/van-ban/4777-tb-tchq-2024.yaml) — Kết quả xác định trước mã số
