@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-23
 
-3088 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3092 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2392 văn bản, 2392 chưa hết hiệu lực.
+2396 văn bản, 2396 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -682,9 +682,13 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [379/TB-CHQ/2025](../registry/van-ban/379-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Họng ga xe máy Throttle body kèm cảm biến vị trí bướm ga, ký mã hiệu 1D001039 / ID001039, mã số 8481.80.99)
 - 🟢 [381/TB-CHQ/2025](../registry/van-ban/381-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Bản lề bằng kim loại dùng cho máy tính xách tay ASSY HINGE-L, ký mã hiệu BA98-03945A, mã số 8302.10.00)
 - 🟢 [223/TB-CHQ/2025](../registry/van-ban/223-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.59)
+- 🟢 [119/TB-CHQ/2025](../registry/van-ban/119-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thực phẩm bảo vệ sức khỏe DRLIFE ULTRA BRAIN dạng viên nang mềm chứa dầu cá Omega 3 EPA 180mg, DHA 120mg hỗ trợ sức khỏe tim mạch, não bộ và thị lực, lọ 60 viên, mã số 2106.90.72)
 - 🟢 [120/TB-CHQ/2025](../registry/van-ban/120-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
 - 🟢 [121/TB-CHQ/2025](../registry/van-ban/121-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
 - 🟢 [122/TB-CHQ/2025](../registry/van-ban/122-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.59)
+- 🟢 [123/TB-CHQ/2025](../registry/van-ban/123-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Họng ga xe máy Throttle body kèm cảm biến vị trí bướm ga TPS và van không tải, không kèm ECU, ký mã hiệu 1A008379, mã số 8481.80.99)
+- 🟢 [124/TB-CHQ/2025](../registry/van-ban/124-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Họng ga xe máy Throttle body kèm cảm biến vị trí bướm ga và van không tải, không kèm ECU, ký mã hiệu 1D000063R, mã số 8481.80.99)
+- 🟢 [125/TB-CHQ/2025](../registry/van-ban/125-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Họng ga xe máy Throttle body kèm cảm biến vị trí bướm ga và van không tải, không kèm ECU, ký mã hiệu 58282R, mã số 8481.80.99)
 - 🟢 [88/TB-CHQ/2025](../registry/van-ban/88-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Miếng điều hướng dây giày bằng vải dệt thoi khổ hẹp dạng cuộn chưa cắt Lace Guide BaseTX2 15mm, ký mã hiệu 2024852, nhãn hiệu BOA, mã số 5806.32.90)
 - 🟢 [89/TB-CHQ/2025](../registry/van-ban/89-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Cổng kết nối truyền tín hiệu cho bảng giá điện tử ESL Newton Gateway, ký mã hiệu EGS501NA0S/WWW, mã số 8517.62.43)
 - 🟢 [90/TB-CHQ/2025](../registry/van-ban/90-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Dung dịch xịt mũi Nasatoin Nasal Spray chứa Ectoin 2%, mã sản phẩm SNS01, chai xịt 20 ml, mã số 3004.90.99)
