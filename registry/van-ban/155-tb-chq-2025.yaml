@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 155/TB-CHQ/2025
+so_hieu_khac:
+  - 155/TB-CHQ
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-23'
+ten: 'Thông báo về kết quả xác định trước mã số (Cáp truyền tín hiệu đã gắn đầu nối Type C sang RJ45 có gắn bản mạch PCBA chuyển đổi tín hiệu USB sang mạng LAN, ký hiệu LE2UD016-CS-R, mã số 8517.62.43)'
+co_quan: CHQ
+ngay_ban_hanh: '2025-03-14'
+hieu_luc_tu: '2025-03-14'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=99593&cid=1294
+    truy_cap: '2026-11-23'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/17/VB_155.pdf
+    truy_cap: '2026-11-23'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/17/VB_155.pdf, id=99593, SHA-256 c2441895c5ff43cb174cd6aac9273d534495325df17e883e30e6e53d596cc543): Thông báo số 155/TB-CHQ ngày 14-03-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Cáp truyền tín hiệu đã gắn đầu nối sử dụng cho thiết bị có cổng Type C (ký mã hiệu LE2UD016-CS-R; bọc cách điện bằng nhựa, 1 đầu Type C, 1 đầu RJ45, lõi dây đồng 10 lõi/dây đường kính không quá 3.8 mm, điện áp 5V, dòng điện 0.2A, khối lượng 0.019 kg, gắn PCBA chuyển đổi tín hiệu vi sai USB thành tín hiệu mạng LAN), phân loại vào nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.43; có hiệu lực kể từ ngày ban hành'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-23'
+  boi: tho-bo-ba-01@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Cáp truyền tín hiệu đã gắn đầu nối Type C sang RJ45 (ký hiệu LE2UD016-CS-R; lõi dây đồng 10 lõi, điện áp 5V, dòng điện 0.2A, tích hợp PCBA chuyển đổi tín hiệu vi sai USB thành tín hiệu mạng LAN có dây) thuộc nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.43.'
+toan_van: raw/download/files.customs.gov.vn/155-tb-chq-2025.pdf

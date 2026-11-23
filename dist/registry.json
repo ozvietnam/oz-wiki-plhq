@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-23",
   "luoc_do_phien_ban": "1.5.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 3096,
+  "tong": 3100,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -33278,6 +33278,46 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "155/TB-CHQ/2025",
+      "so_hieu_khac": [
+        "155/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-23",
+      "ten": "Thông báo về kết quả xác định trước mã số (Cáp truyền tín hiệu đã gắn đầu nối Type C sang RJ45 có gắn bản mạch PCBA chuyển đổi tín hiệu USB sang mạng LAN, ký hiệu LE2UD016-CS-R, mã số 8517.62.43)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2025-03-14",
+      "hieu_luc_tu": "2025-03-14",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=99593&cid=1294",
+          "truy_cap": "2026-11-23"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/17/VB_155.pdf",
+          "truy_cap": "2026-11-23"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/17/VB_155.pdf, id=99593, SHA-256 c2441895c5ff43cb174cd6aac9273d534495325df17e883e30e6e53d596cc543): Thông báo số 155/TB-CHQ ngày 14-03-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Cáp truyền tín hiệu đã gắn đầu nối sử dụng cho thiết bị có cổng Type C (ký mã hiệu LE2UD016-CS-R; bọc cách điện bằng nhựa, 1 đầu Type C, 1 đầu RJ45, lõi dây đồng 10 lõi/dây đường kính không quá 3.8 mm, điện áp 5V, dòng điện 0.2A, khối lượng 0.019 kg, gắn PCBA chuyển đổi tín hiệu vi sai USB thành tín hiệu mạng LAN), phân loại vào nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.43; có hiệu lực kể từ ngày ban hành",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-23",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Xác định trước mã số mặt hàng Cáp truyền tín hiệu đã gắn đầu nối Type C sang RJ45 (ký hiệu LE2UD016-CS-R; lõi dây đồng 10 lõi, điện áp 5V, dòng điện 0.2A, tích hợp PCBA chuyển đổi tín hiệu vi sai USB thành tín hiệu mạng LAN có dây) thuộc nhóm 85.17, phân nhóm 8517.62, mã số 8517.62.43.",
+      "toan_van": "raw/download/files.customs.gov.vn/155-tb-chq-2025.pdf",
+      "slug": "155-tb-chq-2025",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "155/VBHN-VPQH",
       "loai": "VAN_BAN_HOP_NHAT",
       "ten": "Văn bản hợp nhất Luật Sở hữu trí tuệ",
@@ -34899,6 +34939,46 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "160/TB-CHQ/2025",
+      "so_hieu_khac": [
+        "160/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-23",
+      "ten": "Thông báo về kết quả xác định trước mã số (Máy pha sữa công thức tự động bằng điện Fatzbaby Formulus 1, ký hiệu FB8502AH, công suất 1350W, mã số 8516.79.90)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2025-03-14",
+      "hieu_luc_tu": "2025-03-14",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=99594&cid=1294",
+          "truy_cap": "2026-11-23"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/17/VB_160.pdf",
+          "truy_cap": "2026-11-23"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/17/VB_160.pdf, id=99594, SHA-256 433d99187b63f2d311516ca6e617f775e3a87cdf1637bd5761504b99f7d6800c): Thông báo số 160/TB-CHQ ngày 14-03-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Máy pha sữa công thức tự động hoạt động bằng điện hiệu Fatzbaby Formulus 1 (ký mã hiệu FB8502AH, nhà sản xuất Ningbo Hawk Electrical Appliance Co., Ltd.; chức năng làm ấm nước 37-70°C và pha trộn nước ấm với sữa bột theo định lượng 30-240 ml; điện áp AC 220-240V 50Hz, công suất 1350W, bình nước 1.4L, khoang chứa bột 300g), phân loại vào nhóm 85.16, phân nhóm 8516.79, mã số 8516.79.90; có hiệu lực từ ngày ký",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-23",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Xác định trước mã số mặt hàng Máy pha sữa công thức tự động hoạt động bằng điện hiệu Fatzbaby Formulus 1 (ký hiệu FB8502AH, nhà sản xuất Ningbo Hawk Electrical Appliance Co., Ltd.; công suất 1350W, dung tích bình nước 1.4L, khoang chứa bột 300g, nhiệt độ gia nhiệt 37-70°C) thuộc nhóm 85.16, phân nhóm 8516.79, mã số 8516.79.90.",
+      "toan_van": "raw/download/files.customs.gov.vn/160-tb-chq-2025.pdf",
+      "slug": "160-tb-chq-2025",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "16011/TB-TCHQ/2024",
@@ -91979,6 +92059,46 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "382/TB-CHQ/2025",
+      "so_hieu_khac": [
+        "382/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-23",
+      "ten": "Thông báo về kết quả xác định trước mã số (Ghế thư giãn kèm hệ thống nghe nhạc có thể gấp gọn PSiO TRANS, khung thép bọc vải bố có đệm, mã số 9401.71.00)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2025-03-21",
+      "hieu_luc_tu": "2025-03-21",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=99695&cid=1294",
+          "truy_cap": "2026-11-23"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/25/VB_382.pdf",
+          "truy_cap": "2026-11-23"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/3/25/VB_382.pdf, id=99695, SHA-256 6e35049a240a570df9eee7b0fd8cc6b3ef6ce95f4471307963b0ef94bd19bd12): Thông báo số 382/TB-CHQ ngày 21-03-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Ghế thư giãn kèm hệ thống nghe nhạc có thể gấp gọn PSiO TRANS (ký mã hiệu PSiO TRANS Reclined Seat, nhà sản xuất PSYCHOMED.COM SA; khung thép, bọc vải bố có đệm nằm kích thước 85x85x170 cm, tải trọng tối đa 110 kg, không có chức năng massage, gắn ampli 2x60W Bluetooth 4.2 + 2 loa 50W 8 Ohms và giá đỡ điện thoại), phân loại vào nhóm 94.01, mã số 9401.71.00; có hiệu lực kể từ ngày ban hành",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-23",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Xác định trước mã số mặt hàng Ghế thư giãn kèm hệ thống nghe nhạc có thể gấp gọn PSiO TRANS (nhà sản xuất PSYCHOMED.COM SA; khung thép bọc vải bố có đệm nằm, không có chức năng massage, gắn ampli và 2 loa nhỏ) thuộc nhóm 94.01, phân nhóm ghế khác có khung bằng kim loại, mã số 9401.71.00.",
+      "toan_van": "raw/download/files.customs.gov.vn/382-tb-chq-2025.pdf",
+      "slug": "382-tb-chq-2025",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "3820/TB-TCHQ/2022",
       "loai": "THONG_BAO",
       "loai_phan_loai": "XAC_DINH_TRUOC",
@@ -116190,6 +116310,46 @@
       ],
       "toan_van": "chua_co",
       "slug": "5682-tb-tchq-2023",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "5684/TB-CHQ/2025",
+      "so_hieu_khac": [
+        "5684/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-23",
+      "ten": "Thông báo về kết quả xác định trước mã số (Máy đào Bitcoin Bitmain Antminer S21 200Th/s tích hợp chip ASIC giải thuật SHA-256, công suất 3500W, mã số 8471.80.90)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2025-05-21",
+      "hieu_luc_tu": "2025-05-21",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=100165&cid=1294",
+          "truy_cap": "2026-11-23"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/5/27/VB_5684-ban%20cap%20nhat.pdf.PDF",
+          "truy_cap": "2026-11-23"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/5/27/VB_5684-ban%20cap%20nhat.pdf.PDF, id=100165, SHA-256 92ccfee520a908465fdc9c19d4a7c7121699091a39846a95b4ac7f94da665e82): Thông báo số 5684/TB-CHQ ngày 21-05-2025 của Cục Hải quan về kết quả xác định trước mã số đối với mặt hàng Máy đào Bitcoin Antminer S21 (mã hiệu S21 200Th/s, chủng loại ASIC Miner / Bitcoin Miner, nhà sản xuất Bitmain; tích hợp chip ASIC giải thuật SHA-256, bộ nhớ flash NAND chạy hệ điều hành Linux và Firmware nhúng, cổng Ethernet, bộ nguồn PSU, công suất 3500W, điện áp 220-277V AC, kích thước 400x195x290 mm, khối lượng 15.4 kg), phân loại vào nhóm 84.71, phân nhóm 8471.80, mã số 8471.80.90; có hiệu lực kể từ ngày ban hành",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-23",
+        "boi": "tho-bo-ba-01@ozvietnam"
+      },
+      "ghi_chu": "Xác định trước mã số mặt hàng Máy đào Bitcoin Antminer S21 (mã hiệu S21 200Th/s, nhà sản xuất Bitmain; thiết bị phần cứng chuyên dụng khai thác Bitcoin dùng chip ASIC giải thuật SHA-256, công suất 3500W, kết nối mạng qua cổng Ethernet) thuộc nhóm 84.71, phân nhóm các bộ khác của máy xử lý dữ liệu tự động, mã số 8471.80.90.",
+      "toan_van": "raw/download/files.customs.gov.vn/5684-tb-chq-2025.pdf",
+      "slug": "5684-tb-chq-2025",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
