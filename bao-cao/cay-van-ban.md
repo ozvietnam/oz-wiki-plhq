@@ -33,7 +33,7 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Thủ tục hải quan, khai báo, hồ sơ `hai-quan/thu-tuc`
 
-55 văn bản, 32 chưa hết hiệu lực.
+54 văn bản, 31 chưa hết hiệu lực.
 
 - 🟢 [3318/QĐ-BTC](../registry/van-ban/3318-qd-btc-2026.yaml) — Công bố danh mục 133 thủ tục hành chính trong lĩnh vực hải quan thực hiện không phụ thuộc vào địa giới hành chính
 - 🔵 [154/2026/TT-BTC](../registry/van-ban/154-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 80/2019/TT-BTC ngày 15 tháng 11 năm 2019 của Bộ trưởng Bộ Tài chính quy định về thủ tục hải quan, quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu mua gom của người nước ngoài
@@ -41,7 +41,6 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 - 🟢 [142/2026/TT-BTC](../registry/van-ban/142-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của các Thông tư quy định thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định và dịch vụ chuyển phát nhanh quốc tế
 - 🟢 [127/2026/TT-BTC](../registry/van-ban/127-2026-tt-btc.yaml) — Quy định về chỉ tiêu thông tin, mẫu chứng từ khai báo khi làm thủ tục xuất cảnh, nhập cảnh, quá cảnh đối với phương tiện vận tải qua cửa khẩu, cảng hàng không quốc tế
 - 🟢 [293/2026/NĐ-CP](../registry/van-ban/293-2026-nd-cp.yaml) — Hướng dẫn thực thi Công ước La Hay ngày 05 tháng 10 năm 1961 về miễn hợp pháp hóa đối với giấy tờ công của nước ngoài (Công ước Apostille)
-- 🟢 [18689/TB-CHQ/2026](../registry/van-ban/18689-tb-chq-2026.yaml) — Thông báo việc phát hành ấn chỉ bán thu tiền
 - 🟢 [273/2026/NĐ-CP](../registry/van-ban/273-2026-nd-cp.yaml) — Về kinh doanh hàng miễn thuế
 - 🟢 [78/2026/TT-BTC](../registry/van-ban/78-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 203/2014/TT-BTC ngày 22 tháng 12 năm 2014 của Bộ trưởng Bộ Tài chính hướng dẫn xử lý hàng hóa tồn đọng thuộc địa bàn hoạt động hải quan
 - 🟢 [83/2026/TT-BTC](../registry/van-ban/83-2026-tt-btc.yaml) — Quy định tiêu chuẩn hoạt động đại lý làm thủ tục hải quan, tiêu chuẩn nhân viên đại lý làm thủ tục hải quan; tổ chức thi, cấp chứng chỉ nghiệp vụ khai hải quan; quản lý hoạt động đại lý làm thủ tục hải quan, nhân viên đại lý làm thủ tục hải quan
@@ -93,13 +92,12 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Kiểm tra, giám sát, kiểm soát hải quan `hai-quan/kiem-tra-giam-sat`
 
-49 văn bản, 37 chưa hết hiệu lực.
+48 văn bản, 36 chưa hết hiệu lực.
 
 - 🟢 [166/2026/TT-BTC](../registry/van-ban/166-2026-tt-btc.yaml) — Bãi bỏ một số thông tư liên tịch do Bộ trưởng Bộ Tài chính liên tịch ban hành liên quan đến lĩnh vực tài chính
 - 🟢 [66/2026/TT-BKHCN](../registry/van-ban/66-2026-tt-bkhcn.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 11/2015/TT-BKHCN ngày 26 tháng 6 năm 2015 của Bộ trưởng Bộ Khoa học và Công nghệ
 - 🟢 [25/VBHN-BKHCN](../registry/van-ban/25-vbhn-bkhcn-2026.yaml) — Văn bản hợp nhất Nghị định số 99/2013/NĐ-CP ngày 29 tháng 8 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp
 - 🟢 [128/2026/TT-BTC](../registry/van-ban/128-2026-tt-btc.yaml) — Quy định về kiểm tra, giám sát và quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh và phương tiện vận tải hoạt động trong khu vực cửa khẩu thông minh
-- 🟢 [18689/TB-CHQ/2026](../registry/van-ban/18689-tb-chq-2026.yaml) — Thông báo việc phát hành ấn chỉ bán thu tiền
 - 🟢 [186/2026/NĐ-CP](../registry/van-ban/186-2026-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 99/2013/NĐ-CP ngày 29 tháng 8 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp đã được sửa đổi, bổ sung một số điều theo Nghị định số 126/2021/NĐ-CP ngày 30 tháng 12 năm 2021 và Nghị định số 46/2024/NĐ-CP ngày 04 tháng 5 năm 2024 của Chính phủ
 - 🟢 [06/2026/TT-BTC](../registry/van-ban/06-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 13/2015/TT-BTC quy định về kiểm tra, giám sát, tạm dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo vệ quyền sở hữu trí tuệ
 - 🟢 [05/2026/TT-BTC](../registry/van-ban/05-2026-tt-btc.yaml) — Quy định về phân cấp trong hoạt động kiểm tra chuyên ngành trong một số lĩnh vực của Bộ Tài chính
@@ -176,10 +174,9 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung (không phải văn bản quy phạm nhưng thực tế áp dụng)._
 
-12 văn bản, 9 chưa hết hiệu lực.
+11 văn bản, 8 chưa hết hiệu lực.
 
 - 🟢 [1813/2026/QĐ-CHQ](../registry/van-ban/1813-2026-qd-chq.yaml) — Về việc ban hành Quy định về định dạng thông điệp dữ liệu tờ khai hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định, dịch vụ chuyển phát nhanh quốc tế
-- 🟢 [18689/TB-CHQ/2026](../registry/van-ban/18689-tb-chq-2026.yaml) — Thông báo việc phát hành ấn chỉ bán thu tiền
 - 🟢 [15289/CHQ-NVTHQ](../registry/van-ban/15289-chq-nvthq-2026.yaml) — Về việc áp dụng mức thuế bảo vệ môi trường, thuế giá trị gia tăng, thuế tiêu thụ đặc biệt đối với xăng, dầu và nhiên liệu bay theo Nghị quyết số 19/2026/QH16
 - 🟢 [117/QĐ-CHQ](../registry/van-ban/117-qd-chq-2026.yaml) — Ban hành Quy trình Xác định trước mã số; Kiểm tra tên hàng, mô tả hàng hóa, mã số, mức thuế, đơn vị tính của hàng hóa xuất khẩu, nhập khẩu trong thông quan; Thống nhất công tác phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu, nhập khẩu
 - 🟢 [2123/QĐ-CHQ](../registry/van-ban/2123-qd-chq-2025.yaml) — Ban hành Quy trình Kiểm tra sau thông quan và quản lý chế độ ưu tiên
@@ -398,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2412 văn bản, 2411 chưa hết hiệu lực.
+2413 văn bản, 2411 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
