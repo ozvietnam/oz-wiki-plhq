@@ -3,7 +3,7 @@ id: 11-2018-tt-btttt
 title: "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS"
 type: source
 created: 2026-11-21
-updated: 2026-11-21
+updated: 2026-11-24
 authors:
   - BTTTT
 year: 2018
@@ -130,21 +130,24 @@ Thủ trưởng các cơ quan, đơn vị thuộc Bộ TTTT và các cơ quan, t
 
 ## Related concepts
 
+- [[summary/van-ban-sap-het-hieu-luc-2026-2027]]
 - [[concepts/hang-cu-cam-nhap-khau]]
 - [[concepts/phan-loai-ma-hs]]
 - [[concepts/co-quan-tiep-nhan-sau-sap-nhap]]
 - [[concepts/thu-tuc-hai-quan-xnk]]
+- [[concepts/doc-tinh-trang-hieu-luc]]
 
 ## Related sources
 
 - [[sources/31-2015-tt-btttt]] (Thông tư bị thay thế Điều 3 và Phụ lục số 01 kể từ ngày 30/11/2018)
-- 63-2026-tt-bkhcn (Thông tư của Bộ Khoa học và Công nghệ công bố Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu — thay thế TT 11/2018/TT-BTTTT kể từ ngày 01/01/2027)
-- 292-2026-nd-cp (Nghị định quy định chi tiết Luật Quản lý ngoại thương — khoản 4 Điều 64 cho phép TT 11/2018/TT-BTTTT tiếp tục thực hiện đến hết 31/12/2026)
+- [[sources/63-2026-tt-bkhcn]] (Thông tư của Bộ Khoa học và Công nghệ công bố Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu — thay thế TT 11/2018/TT-BTTTT kể từ ngày 01/01/2027)
+- [[sources/292-2026-nd-cp]] (Nghị định quy định chi tiết Luật Quản lý ngoại thương — khoản 4 Điều 64 cho phép TT 11/2018/TT-BTTTT tiếp tục thực hiện đến hết 31/12/2026)
 - 31-2022-tt-btc (Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam hiện hành, thay thế văn bản lịch sử đã hết hiệu lực 65/2017/TT-BTC)
 
 ## Open questions
 
 - Trong bảng `danh-muc/11-2018-tt-btttt.csv` (39 dòng), hiện có 2 dòng tiêu đề nhóm 4 số cha (`8443` và `8544`) đi kèm các dòng mã 8 số con; cần lưu ý khi đối chiếu tự động theo điểm a khoản 2 Điều 2 (nhóm `8443` và `8544` chỉ cấm các mã 8 số được liệt kê chi tiết, không cấm toàn bộ nhóm 4 số như bảng `danh-muc/63-2026-tt-bkhcn.csv` đã chuẩn hóa thành 37 dòng lá).
+- **Kịch bản cắt chuyển trạng thái tại mốc `31/12/2026` – `01/01/2027`:** Chuyển `tinh_trang: CON_HIEU_LUC` → `HET_HIEU_LUC` trên `registry/van-ban/11-2018-tt-btttt.yaml` đồng bộ với việc chuyển `63-2026-tt-bkhcn.yaml` sang `CON_HIEU_LUC` từ ngày `01/01/2027` (xem [[summary/van-ban-sap-het-hieu-luc-2026-2027]]).
 
 ## Notes
 
