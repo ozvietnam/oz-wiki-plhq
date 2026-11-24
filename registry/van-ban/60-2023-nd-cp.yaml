@@ -1,0 +1,33 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 60/2023/NĐ-CP
+loai: NGHI_DINH
+ten: 'Quy định về việc kiểm tra, chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường ô tô nhập khẩu và linh kiện nhập khẩu theo các Điều ước quốc tế mà Việt Nam là thành viên'
+co_quan: CP
+ngay_ban_hanh: '2023-08-16'
+hieu_luc_tu: '2023-10-01'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - dieu-uoc-quoc-te
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=87533&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/8/24/576638.pdf
+    truy_cap: '2026-11-24'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu PDF trên Cổng Hải quan (id=87533, 31 trang, Phó Thủ tướng Trần Hồng Hà ký ngày 16-08-2023, SHA-256 b80811ee27ff611bbe79562809973b469abb97dd4a1c8946104517750b300e42): quy định kiểm tra, chứng nhận chất lượng ATKT & BVMT ô tô nguyên chiếc loại M1 chưa qua sử dụng và linh kiện ô tô chưa qua sử dụng nhập khẩu theo Hiệp định EVFTA và Hiệp định UKVFTA trên cơ sở Giấy chứng nhận phê duyệt kiểu loại VTA/TA (UNECE, EC), tài liệu COP và CoC/DoC; cơ quan kiểm tra là Cục Đăng kiểm Việt Nam; có hiệu lực từ 01-10-2023 (áp dụng cho linh kiện từ 01-10-2023, cho ô tô từ 01-08-2025 theo Điều 11)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Quy định việc kiểm tra, chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường ô tô nhập khẩu và linh kiện nhập khẩu theo Hiệp định EVFTA và Hiệp định UKVFTA.'
+      sha256_pdf: b80811ee27ff611bbe79562809973b469abb97dd4a1c8946104517750b300e42
+    - dieu: 4
+      noi_dung: 'Hồ sơ đăng ký kiểm tra đối với ô tô nhập khẩu (Bản đăng ký Phụ lục I, Bản thông tin Phụ lục IV, CoC/DoC, VTA, COP, C/O, bản giải mã số VIN, hóa đơn thương mại, tờ khai nhập khẩu) và linh kiện nhập khẩu (Phụ lục II, Phụ lục XII, COP, TA, C/O, hóa đơn, tờ khai nhập khẩu).'
+      sha256_pdf: b80811ee27ff611bbe79562809973b469abb97dd4a1c8946104517750b300e42
+    - dieu: 11
+      noi_dung: 'Có hiệu lực thi hành từ ngày 01-10-2023; áp dụng đối với linh kiện từ ngày 01-10-2023 và đối với ô tô từ ngày 01-08-2025.'
+      sha256_pdf: b80811ee27ff611bbe79562809973b469abb97dd4a1c8946104517750b300e42
+ghi_chu: 'Gồm 4 Chương, 12 Điều và 12 Phụ lục hướng dẫn kiểm tra, chứng nhận chất lượng ATKT & BVMT ô tô M1 và linh kiện nhập khẩu theo Hiệp định EVFTA và UKVFTA.'
+toan_van: raw/download/files.customs.gov.vn/60-2023-nd-cp.pdf
