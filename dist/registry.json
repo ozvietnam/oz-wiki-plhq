@@ -1,5 +1,5 @@
 {
-  "phien_ban": "2026-11-23",
+  "phien_ban": "2026-11-24",
   "luoc_do_phien_ban": "1.5.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
   "tong": 3115,
@@ -61447,6 +61447,56 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "23956/TB-CHQ/2025",
+      "so_hieu_khac": [
+        "23956/TB-CHQ"
+      ],
+      "loai": "THONG_BAO",
+      "loai_phan_loai": "XAC_DINH_TRUOC",
+      "loai_phan_loai_can_cu": "title_xac_dinh_truoc",
+      "loai_phan_loai_ngay": "2026-11-24",
+      "ten": "Thông báo về sửa đổi, thay thế Thông báo kết quả xác định trước mã số (Xe chở hàng 4 bánh hiệu Club Car CARRYALL 500 ELEC, động cơ điện DC 48V, mã số 8704.60.29 — thay 4967/TB-TCHQ)",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2025-09-12",
+      "hieu_luc_tu": "2025-09-12",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "phan-loai-hs"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "4967/TB-TCHQ/2024",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2025-09-12",
+            "can_cu": "Điểm 3 Thông báo 23956/TB-CHQ ngày 12-09-2025 (thay thế Thông báo 4967/TB-TCHQ ngày 14-10-2024; xác định lại mã số hàng hóa)"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=101318&cid=1294",
+          "truy_cap": "2026-11-24"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/9/15/28.VBDI_23956.pdf",
+          "truy_cap": "2026-11-24"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/9/15/28.VBDI_23956.pdf, id=101318, SHA-256 5a00182d10397beeafb776b51c709c15ff10c04cb75dcd6faf6c2eda2e1c4fb4): Thông báo số 23956/TB-CHQ ngày 12-09-2025 của Cục Hải quan về sửa đổi, thay thế Thông báo kết quả xác định trước mã số số 4967/TB-TCHQ ngày 14-10-2024; mặt hàng CARRY ALL 500 (ELECTRICAL UTILITY VEHICLE) — xe chở hàng 4 bánh hiệu Club Car, có mui, 2 chỗ ngồi (kể cả lái xe), động cơ điện DC 48V, trọng lượng toàn bộ 632 kg, thùng hàng tối đa 363 kg, dùng trong nhà kho sân gôn, không tham gia giao thông (ký mã hiệu CARRYALL 500 ELEC, nhà sản xuất Club Car Jiaxing), phân loại vào nhóm 87.04, phân nhóm 8704.60, mã số 8704.60.29; lý do sửa đổi: xác định lại mã số hàng hóa; có hiệu lực kể từ ngày ban hành",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-24",
+        "boi": "gd-bo-ba@ozvietnam"
+      },
+      "ghi_chu": "Sửa đổi/thay thế 4967/TB-TCHQ: cùng mặt hàng xe điện chở hàng Club Car CARRYALL 500 ELEC (DC 48V, 632 kg), xác định lại mã số 8704.60.29 (nhóm 87.04 — xe có động cơ dùng để chở hàng, chỉ dùng động cơ điện).",
+      "toan_van": "raw/download/files.customs.gov.vn/23956-tb-chq-2025.pdf",
+      "slug": "23956-tb-chq-2025",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "2396/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -108597,7 +108647,8 @@
       "co_quan": "TCHQ",
       "ngay_ban_hanh": "2024-10-14",
       "hieu_luc_tu": "2024-10-14",
-      "tinh_trang": "CON_HIEU_LUC",
+      "het_hieu_luc_tu": "2025-09-12",
+      "tinh_trang": "HET_HIEU_LUC",
       "nhanh": [
         "phan-loai-hs"
       ],
@@ -108621,7 +108672,18 @@
       "toan_van": "chua_co",
       "slug": "4967-tb-tchq-2024",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "23956/TB-CHQ/2025",
+            "quan_he": "thay_the",
+            "so_hieu": "4967/TB-TCHQ/2024",
+            "pham_vi": "toàn bộ",
+            "tu_ngay": "2025-09-12",
+            "can_cu": "Điểm 3 Thông báo 23956/TB-CHQ ngày 12-09-2025 (thay thế Thông báo 4967/TB-TCHQ ngày 14-10-2024; xác định lại mã số hàng hóa)"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "4977/TB-TCHQ/2023",
