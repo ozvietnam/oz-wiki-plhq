@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2412 văn bản, 2411 chưa hết hiệu lực.
+2413 văn bản, 2411 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -3465,7 +3465,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 _Cần để biết cơ quan nào đang quản lý sau sáp nhập 2025–2026._
 
-35 văn bản, 21 chưa hết hiệu lực.
+34 văn bản, 20 chưa hết hiệu lực.
 
 - 🟢 [351/2026/NĐ-CP](../registry/van-ban/351-2026-nd-cp.yaml) — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương
 - 🟢 [354/2026/NĐ-CP](../registry/van-ban/354-2026-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 33/2025/NĐ-CP ngày 25 tháng 02 năm 2025 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Xây dựng
@@ -3474,7 +3474,6 @@ _Cần để biết cơ quan nào đang quản lý sau sáp nhập 2025–2026._
 - 🟢 [50/VBHN-BXD](../registry/van-ban/50-vbhn-bxd-2026.yaml) — Nghị định về thoát nước và xử lý nước thải
 - 🟢 [155/2026/NĐ-CP](../registry/van-ban/155-2026-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 124/2020/NĐ-CP quy định chi tiết một số điều và biện pháp thi hành Luật Khiếu nại
 - 🟢 [112/2025/QH15](../registry/van-ban/112-2025-qh15.yaml) — Luật Quy hoạch
-- 🟢 [13961/TB-CHQ/2025](../registry/van-ban/13961-tb-chq-2025.yaml) — Thông báo về việc thay đổi địa chỉ Trụ sở làm việc do điều chỉnh địa giới hành chính
 - 🟢 [81/2025/QH15](../registry/van-ban/81-2025-qh15.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Tổ chức Tòa án nhân dân, Luật Tố tụng hành chính, Luật Khiếu nại và Luật Thi hành án dân sự
 - 🟢 [94/2025/NĐ-CP](../registry/van-ban/94-2025-nd-cp.yaml) — Quy định về Cơ chế thử nghiệm có kiểm soát trong lĩnh vực ngân hàng
 - 🟢 [40/2025/NĐ-CP](../registry/van-ban/40-2025-nd-cp.yaml) — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương
