@@ -1,6 +1,6 @@
-# Cây văn bản pháp luật XNK — 2026-11-23
+# Cây văn bản pháp luật XNK — 2026-11-24
 
-3107 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3115 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -395,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2411 văn bản, 2410 chưa hết hiệu lực.
+2415 văn bản, 2414 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -450,12 +450,15 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [20860/TB-CHQ/2026](../registry/van-ban/20860-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Tấm phim hiển thị giấy điện tử EPD dùng trong sản xuất màn hình giấy điện tử, ký mã hiệu 0711-13070002, mã số 3920.59.00)
 - 🟢 [20862/TB-CHQ/2026](../registry/van-ban/20862-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Đồng lá mỏng bằng đồng tinh luyện chắn nhiễu điện từ dạng cuộn, ký hiệu HSF-USB3-2.0, mã số 7410.21.00)
 - 🟢 [20863/TB-CHQ/2026](../registry/van-ban/20863-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Đồng lá mỏng bằng đồng tinh luyện chắn nhiễu điện từ dạng cuộn, ký hiệu HSF-USB3-3.0, mã số 7410.21.00)
+- 🟢 [20879/TB-CHQ/2026](../registry/van-ban/20879-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thuốc viên nang mềm Sinupan Forte 200mg chứa Cineol 200mg điều trị triệu chứng cảm lạnh, viêm phế quản, viêm xoang, mã số 3004.90.59)
 - 🟢 [20639/TB-CHQ/2026](../registry/van-ban/20639-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị theo dõi đa chức năng Tive Solo 5G tích hợp định vị GPS và cảm biến môi trường, ký mã hiệu TT-7000, mã số 8526.91.90)
+- 🟢 [20695/TB-CHQ/2026](../registry/van-ban/20695-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hạt nhựa tái sinh Polycarbonate MJ-314 dạng nguyên sinh, dạng hạt 100% Polycarbonate CAS 25971-63-5, mã số 3907.40.00)
 - 🟢 [20717/TB-CHQ/2026](../registry/van-ban/20717-tb-chq-2026.yaml) — Thông báo đính chính Thông báo kết quả xác định trước mã số (đính chính Mục 2 và Mục 3 Thông báo số 19997/TB-CHQ ngày 07-08-2026 về thành phần Ethyl acetate hàm lượng 50%-80%)
 - 🟢 [20508/TB-CHQ/2026](../registry/van-ban/20508-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (LED COB PCB module, ký mã hiệu COB160110-600W, các đi-ốt phát quang LED lắp ráp trên tấm mạch in PCB, không có mạch điện điều khiển điện áp và dòng điện DC, công suất 600W, điện áp vào 168-185VDC, dùng chiếu ánh sáng LED ngoài trời, mã số 8541.41.00)
 - 🟢 [20421/TB-CHQ/2026](../registry/van-ban/20421-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Son dưỡng môi URGO Lèvres Abimées dạng balm đặc mềm, mã công thức 4398A, quy cách 10ml/tuýp/hộp, tạo lớp màng bảo vệ và dưỡng ẩm môi, mã số 3304.99.90)
 - 🟢 [20320/TB-CHQ/2026](../registry/van-ban/20320-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ cấp nguồn điện có khả năng chống nước Waterproof Power Supply sử dụng cho đèn LED, ký mã hiệu RSE-1K0N-375Z, chuyển đổi nguồn xoay chiều AC 180-260VAC thành một chiều DC 230-375VDC, công suất tối đa 1000W, mã số 8504.40.30)
 - 🟢 [20233/TB-CHQ/2026](../registry/van-ban/20233-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cụm IP / MODULE ASSY-COCKPIT, ký mã hiệu 84700-I7AA0TC2, cụm bảng táp-lô trung tâm điều khiển lắp ráp thống nhất từ xương IP kim loại, thân IP, trục lái, dây điện, cửa gió, cụm điều khiển điều hòa, túi khí hành khách, hộp điều khiển AVN, cụm đồng hồ táp-lô lắp trên xe ô tô chở người dưới 9 chỗ ngồi, mã số 8708.29.95)
+- 🟢 [20274/TB-CHQ/2026](../registry/van-ban/20274-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Tấm nhôm hợp kim hình tam giác mạ niken dùng sản xuất thiết bị tản nhiệt, ký mã hiệu 401028050-GP2, mã số 7616.99.90)
 - 🟢 [19770/TB-CHQ/2026](../registry/van-ban/19770-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cảm biến hồng ngoại IR OPTICS SENSOR, ký mã hiệu IMS1910, gồm vi mạch tích hợp đèn LED hồng ngoại và đi-ốt quang trên bảng mạch in FR-4 tích hợp bộ chuyển đổi ADC, dùng lắp trên thiết bị đeo thông minh để phát hiện tiếp xúc với da, mã số 9031.49.90)
 - 🟢 [19783/TB-CHQ/2026](../registry/van-ban/19783-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Vỏ thùng rác thép không gỉ SUS304 sử dụng nơi công cộng có in sẵn logo và hướng dẫn phân loại rác, mã số 7323.93.00)
 - 🟢 [19468/TB-CHQ/2026](../registry/van-ban/19468-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thuốc không kê đơn ZY-10 Forte dạng viên nang mềm chứa Ubidecarenone 100mg, mã số 3004.90.89)
@@ -2869,10 +2872,12 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Quy tắc xuất xứ, chứng nhận và kiểm tra xuất xứ `xuat-xu-fta/quy-tac-xuat-xu`
 
-10 văn bản, 9 chưa hết hiệu lực.
+12 văn bản, 11 chưa hết hiệu lực.
 
 - 🟢 [384/2026/NĐ-CP](../registry/van-ban/384-2026-nd-cp.yaml) — Quy định xác định xuất xứ Việt Nam đối với hàng hóa sản xuất và lưu thông trong nước
 - 🟢 [124/2026/TT-BTC](../registry/van-ban/124-2026-tt-btc.yaml) — Bổ sung khoản 10 Điều 15 Thông tư số 33/2023/TT-BTC quy định về xác định xuất xứ hàng hoá xuất khẩu, nhập khẩu
+- 🟢 [48/2026/VBHN-BCT](../registry/van-ban/48-2026-vbhn-bct.yaml) — Hợp nhất quy định về cấp Giấy chứng nhận xuất xứ hàng hóa và chấp thuận thương nhân tự chứng nhận xuất xứ hàng hóa
+- 🟢 [26/2026/TT-BCT](../registry/van-ban/26-2026-tt-bct.yaml) — Sửa đổi, bổ sung một số quy định về cấp Giấy chứng nhận xuất xứ hàng hóa và chấp thuận thương nhân tự chứng nhận xuất xứ theo Thông tư 40/2025/TT-BCT
 - 🟢 [33/2023/TT-BTC](../registry/van-ban/33-2023-tt-btc.yaml) — Quy định về xác định xuất xứ hàng hoá xuất khẩu, nhập khẩu
 - 🟢 [10/2022/TT-BCT](../registry/van-ban/10-2022-tt-bct.yaml) — Sửa đổi, bổ sung một số Thông tư quy định thực hiện Quy tắc xuất xứ hàng hóa trong Hiệp định Thương mại hàng hóa ASEAN
 - ❔ [755/TCHQ-GSQL](../registry/van-ban/755-tchq-gsql-2020.yaml) — Kiểm tra, xác định xuất xứ, chống gian lận, giả mạo xuất xứ, ghi nhãn hàng hóa, chuyển tải bất hợp pháp và thủ tục hải quan
@@ -2986,8 +2991,9 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Giấy phép, hạn ngạch, hàng cấm, tạm ngừng `quan-ly-ngoai-thuong/giay-phep`
 
-39 văn bản, 29 chưa hết hiệu lực.
+40 văn bản, 30 chưa hết hiệu lực.
 
+- 🟢 [4502/QĐ-BKHCN](../registry/van-ban/4502-2026-qd-bkhcn.yaml) — Công bố thủ tục hành chính mới về cấp giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu trong lĩnh vực quản lý nhà nước của Bộ Khoa học và Công nghệ
 - 🟢 [68/2026/TT-BCT](../registry/van-ban/68-2026-tt-bct.yaml) — Quy định tỷ lệ hao hụt xăng dầu trong hoạt động kinh doanh xăng dầu
 - 🟢 [135/2026/VBHN-TT-BCT](../registry/van-ban/135-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước, trích lập Quỹ bình ổn giá xăng dầu và hoàn trả tạm ứng ngân sách nhà nước
 - 🟢 [67/2026/TT-BCT](../registry/van-ban/67-2026-tt-bct.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 19/2026/TT-BCT ngày 03 tháng 4 năm 2026 của Bộ Công Thương quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước
@@ -3099,9 +3105,10 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Kiểm dịch động vật, thực vật, thuỷ sản, y tế `kiem-tra-chuyen-nganh/kiem-dich`
 
-34 văn bản, 31 chưa hết hiệu lực.
+35 văn bản, 32 chưa hết hiệu lực.
 
 - 🟢 [115/2026/VBHN-TT-BNNMT](../registry/van-ban/115-2026-vbhn-tt-bnnmt.yaml) — Ban hành Quy chuẩn kỹ thuật Quốc gia về Kiểm dịch và Bảo vệ thực vật
+- 🟢 [114/2026/VBHN-TT-BNNMT](../registry/van-ban/114-2026-vbhn-tt-bnnmt.yaml) — Văn bản hợp nhất Quy chuẩn kỹ thuật quốc gia về Kiểm dịch và Bảo vệ thực vật
 - 🟢 [110/2026/VBHN-TT-BNNMT](../registry/van-ban/110-2026-vbhn-tt-bnnmt.yaml) — Ban hành quy định về quy trình phân tích nguy cơ dịch hại đối với vật thể thuộc diện kiểm dịch thực vật phải phân tích nguy cơ trước khi nhập khẩu vào Việt Nam
 - 🟢 [111/2026/VBHN-TT-BNNMT](../registry/van-ban/111-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư ban hành Quy chuẩn kỹ thuật quốc gia về yêu cầu đối với vật thể thuộc diện kiểm dịch thực vật nhập khẩu
 - 🟢 [108/2026/VBHN-TT-BNNMT](../registry/van-ban/108-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư quy định về kiểm dịch thực vật nội địa
