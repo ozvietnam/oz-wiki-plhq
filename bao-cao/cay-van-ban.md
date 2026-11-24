@@ -190,12 +190,11 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Thuế xuất khẩu, nhập khẩu và các thuế khác khâu nhập khẩu `thue`
 
-18 văn bản, 11 chưa hết hiệu lực.
+17 văn bản, 10 chưa hết hiệu lực.
 
 - 🟢 [86/2026/TT-BTC](../registry/van-ban/86-2026-tt-btc.yaml) — Quy định về quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu
 - 🟢 [346/2025/NĐ-CP](../registry/van-ban/346-2025-nd-cp.yaml) — Quy định phí bảo vệ môi trường đối với nước thải
 - 🟢 [108/2025/QH15](../registry/van-ban/108-2025-qh15.yaml) — Luật Quản lý thuế
-- 🟢 [27091/TB-CHQ/2025](../registry/van-ban/27091-tb-chq-2025.yaml) — Thông báo về thông tin tài khoản thu NSNN (cập nhật sửa đổi, bổ sung thông tin thu của Hải quan Buôn Ma Thuột thuộc Chi cục HQKV XIV — tiếp theo 11801/TB-CHQ)
 - 🟢 [3702/TB-TCHQ/2024](../registry/van-ban/3702-tb-tchq-2024.yaml) — V/v Chính sách thuế hàng hóa xuất khẩu (Công ty TNHH Vĩnh Thắng)
 - 🟢 [963/TB-TCHQ/2024](../registry/van-ban/963-tb-tchq-2024.yaml) — V/v Hàng hóa nhập khẩu để sản xuất xuất khẩu giao gia công lại (Công ty Cổ phần XNK May Anh Vũ)
 - 🟢 [428/TB-TCHQ/2024](../registry/van-ban/428-tb-tchq-2024.yaml) — V/v Chính sách thuế hàng hóa nhập khẩu sau đó tái xuất (Công ty TNHH XNK gỗ An Lạc)
@@ -396,7 +395,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2412 văn bản, 2411 chưa hết hiệu lực.
+2413 văn bản, 2411 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
