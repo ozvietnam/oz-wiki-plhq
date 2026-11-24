@@ -1,6 +1,6 @@
 {
-  "ngay": "2026-11-23",
-  "tong": 3018,
+  "ngay": "2026-11-24",
+  "tong": 3029,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -1602,6 +1602,24 @@
       "muc_tieu": "1139/TB-TCHQ/2020",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "114/2026/VBHN-TT-BNNMT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "114/2026/VBHN-TT-BNNMT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "114/2026/VBHN-TT-BNNMT: chưa có toàn văn trong raw/",
+      "muc_tieu": "114/2026/VBHN-TT-BNNMT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"114/2026/VBHN-TT-BNNMT\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -9453,6 +9471,33 @@
       "trongSo": 0
     },
     {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "26/2026/TT-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
+      "muc_tieu": "26/2026/TT-BCT",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "26/2026/TT-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "26/2026/TT-BCT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "26/2026/TT-BCT: chưa có toàn văn trong raw/",
+      "muc_tieu": "26/2026/TT-BCT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"26/2026/TT-BCT\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
       "ma": "TB_TCHQ_KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "26/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống",
@@ -16473,6 +16518,33 @@
       "trongSo": 0
     },
     {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "4502/QĐ-BKHCN: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
+      "muc_tieu": "4502/QĐ-BKHCN",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "4502/QĐ-BKHCN: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "4502/QĐ-BKHCN",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "4502/QĐ-BKHCN: chưa có toàn văn trong raw/",
+      "muc_tieu": "4502/QĐ-BKHCN",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"4502/QĐ-BKHCN\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
       "ma": "TB_TCHQ_KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "451/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống",
@@ -16830,6 +16902,33 @@
       "muc_tieu": "479/TB-TCHQ/2019",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "48/2026/VBHN-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
+      "muc_tieu": "48/2026/VBHN-BCT",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "48/2026/VBHN-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "48/2026/VBHN-BCT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "48/2026/VBHN-BCT: chưa có toàn văn trong raw/",
+      "muc_tieu": "48/2026/VBHN-BCT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"48/2026/VBHN-BCT\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
