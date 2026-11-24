@@ -1,4 +1,4 @@
-# Quan hệ cũ – mới giữa các văn bản — 2026-11-23
+# Quan hệ cũ – mới giữa các văn bản — 2026-11-24
 
 Mũi tên đi từ văn bản MỚI tới văn bản bị tác động. Sinh tự động bằng `node tools/dung.mjs`.
 
@@ -482,6 +482,8 @@ flowchart LR
   n_2169_Q__CHQ["2169/QĐ-CHQ<br/>còn hiệu lực"]
   n_2999_Q__TCHQ["2999/QĐ-TCHQ<br/>hết hiệu lực"]
   n_2166_Q__TCHQ["2166/QĐ-TCHQ<br/>hết hiệu lực"]
+  n_23956_TB_CHQ_2025["23956/TB-CHQ/2025<br/>còn hiệu lực"]
+  n_4967_TB_TCHQ_2024["4967/TB-TCHQ/2024<br/>hết hiệu lực"]
   n_31_2022_TT_BTC["31/2022/TT-BTC<br/>còn hiệu lực"]
   n_65_2017_TT_BTC["65/2017/TT-BTC<br/>hết hiệu lực"]
   n_09_2019_TT_BTC["09/2019/TT-BTC<br/>hết hiệu lực"]
@@ -501,6 +503,7 @@ flowchart LR
   n_2131_Q__TCHQ -->|thay thế toàn bộ từ 2015-07-31| n_4023_Q__TCHQ
   n_2169_Q__CHQ -->|thay thế từ 2026-02-01| n_2999_Q__TCHQ
   n_2169_Q__CHQ -->|thay thế từ 2026-02-01| n_2166_Q__TCHQ
+  n_23956_TB_CHQ_2025 -->|thay thế toàn bộ từ 2025-09-12| n_4967_TB_TCHQ_2024
   n_31_2022_TT_BTC -->|thay thế toàn bộ Danh mục từ 2022-12-01| n_65_2017_TT_BTC
   n_31_2022_TT_BTC -->|thay thế toàn bộ từ 2022-12-01| n_09_2019_TT_BTC
   n_4023_Q__TCHQ -->|thay thế toàn bộ từ 2013-12-09| n_1628_Q__TCHQ
