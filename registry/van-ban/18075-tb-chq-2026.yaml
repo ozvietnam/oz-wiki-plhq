@@ -1,0 +1,30 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 18075/TB-CHQ/2026
+so_hieu_khac:
+  - 18075/TB-CHQ
+  - 18075/CHQ-NVTHQ
+  - 18075/CHQ-NVTHQ/2026
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-24'
+ten: 'Thông báo về kết quả xác định trước mã số (Thực phẩm chế biến sẵn dạng nước uống Yến chưng đường phèn, mã số 2202.99.50)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-06-25'
+hieu_luc_tu: '2026-06-25'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=104906&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/6/26/VB_18075.pdf
+    truy_cap: '2026-11-24'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/6/26/VB_18075.pdf, id=104906, SHA-256 43c0e71c4d4e23481617ef9c892bfbd0783772ea9f48bb6a1b438778501e700e): Thông báo số 18075/TB-CHQ ngày 25-06-2026 của Cục Hải quan (ký số 26-06-2026, trên mục lục cổng ghi ký hiệu 18075/CHQ-NVTHQ ngày 26/06/2026) về kết quả xác định trước mã số đối với mặt hàng Yến chưng đường phèn (thực phẩm chế biến sẵn dạng nước uống làm từ tổ yến chưng với đường phèn, dùng trực tiếp; thành phần tính theo trọng lượng gồm Nước 77.2%, Tổ yến tươi 14.3% tương ứng 10g/hũ 70ml, Đường phèn 8% tương ứng 5.6g/hũ 70ml, Phụ gia 0.5% gồm chất làm dày INS 327, INS 415, chất bảo quản INS 202 và hương yến tổng hợp; tiệt trùng ở 119 độ C trong 15-38 phút; quy cách hũ 70 ml, hộp 6 hũ x 70 ml, chai 180 ml hoặc thể tích thực khác), phân loại vào nhóm 22.02, phân nhóm 2202.99, mã số 2202.99.50; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Yến chưng đường phèn (thực phẩm chế biến sẵn dạng nước uống dùng trực tiếp không có ga, thành phần gồm nước 77.2%, tổ yến tươi 14.3%, đường phèn 8%, phụ gia INS 327, INS 415, INS 202 và hương yến tổng hợp 0.5%, tiệt trùng ở 119 độ C) thuộc nhóm 22.02, phân nhóm 2202.99, mã số 2202.99.50.'
+toan_van: raw/download/files.customs.gov.vn/18075-tb-chq-2026.pdf
