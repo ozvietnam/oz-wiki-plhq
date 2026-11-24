@@ -1,0 +1,45 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 18/2024/TT-BCT
+loai: THONG_TU
+ten: 'Quy định về danh mục phế liệu tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu'
+co_quan: BCT
+ngay_ban_hanh: '2024-10-08'
+hieu_luc_tu: '2025-01-01'
+het_hieu_luc_tu: '2030-01-01'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - quan-ly-ngoai-thuong/giay-phep
+  - kiem-tra-chuyen-nganh/bct
+quan_he:
+  huong_dan:
+    - 69/2018/NĐ-CP
+    - 31/2022/TT-BTC
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=97342&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2024/11/4/Th%C3%B4ng%20t%C6%B0%2018.2024.pdf
+    truy_cap: '2026-11-24'
+danh_muc_hs:
+  tep: danh-muc/18-2024-tt-bct.csv
+  nguon: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2024/11/4/Th%C3%B4ng%20t%C6%B0%2018.2024.pdf
+  trich_boi: gd-bo-ba@ozvietnam
+  ngay: '2026-11-24'
+  da_doi_chieu: true
+  ghi_chu: 'Phụ lục Danh mục phế liệu tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu (35 dòng mã HS thuộc 17 chương, trang 3–6 PDF).'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu PDF trên Cổng Hải quan (id=97342, 6 trang, Thứ trưởng Nguyễn Sinh Nhật Tân ký ngày 08-10-2024, SHA-256 4111149d79c3c0cf8fd28f347a599841529c22b339f63898e3d88db595c5d896): ban hành Danh mục phế liệu tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu (Phụ lục gồm 17 chương thuộc Danh mục hàng hóa XNK VN theo TT 31/2022/TT-BTC; không áp dụng với chuyển khẩu vận chuyển thẳng không qua cửa khẩu VN); hiệu lực từ 01-01-2025 đến hết 31-12-2029 (Điều 5)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+  dieu_khoan:
+    - dieu: 3
+      noi_dung: 'Ban hành Danh mục phế liệu tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu tại Phụ lục kèm theo; không áp dụng cho chuyển khẩu vận chuyển thẳng không qua cửa khẩu Việt Nam.'
+      trang_pdf: 1
+      sha256_pdf: 4111149d79c3c0cf8fd28f347a599841529c22b339f63898e3d88db595c5d896
+    - dieu: 5
+      noi_dung: 'Thông tư có hiệu lực từ ngày 01-01-2025 đến hết ngày 31-12-2029.'
+      trang_pdf: 2
+      sha256_pdf: 4111149d79c3c0cf8fd28f347a599841529c22b339f63898e3d88db595c5d896
+ghi_chu: 'Danh mục phế liệu tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu giai đoạn 2025–2029 (riêng các mã 3919, 3920, 3921, 3923.21, 3923.29 chỉ áp dụng đối với hàng hóa đã qua sử dụng).'
+toan_van: raw/download/files.customs.gov.vn/18-2024-tt-bct.pdf
