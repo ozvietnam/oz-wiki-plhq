@@ -20,9 +20,9 @@ danh_muc_hs:
   tep: danh-muc/08-2023-tt-bct.csv
   nguon: https://congbaocdn.chinhphu.vn/180507251028987904/2026/9/23/470460-1789953490_v1_1790125719_signed.pdf
   trich_boi: cursor-agent@ozvietnam
-  ngay: '2026-10-12'
-  da_doi_chieu: false
-  ghi_chu: 'Bảng CSV sẵn có trên main (465 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
+  ngay: '2026-11-24'
+  da_doi_chieu: true
+  ghi_chu: 'Đã đối chiếu người thứ hai (2026-11-24) dòng-by-dòng với PDF Công báo số 663+664: chuẩn hóa 427 dòng lá trên 5 Phụ lục I–V (loại bỏ 38 dòng tiêu đề nhóm cha khi đã chi tiết mã con 6/8 số theo nguyên tắc áp dụng, bổ sung mã 4813.20.22 tại Phụ lục IV, tách rõ dieu_kien Mục I–II đã hết hiệu lực từ 05-09-2026 với Mục III thiết bị y tế 9018–9022 còn chuyển tiếp đến 31-12-2026 tại Phụ lục I và phạm vi tạm ngừng TNTX hàng đã qua sử dụng tại Phụ lục II).'
 xac_minh:
   muc: NGUON_A
   pham_vi: 'PDF Công báo số 663+664 ngày 14-04-2023 (lớp chữ): Điều 3 khoản 1 hiệu lực 16-05-2023; tình trạng hiện tại: Điều 20 khoản 3 điểm c TT 48/2026/TT-BCT (PDF Công báo số 521 ngày 23-09-2026) bãi bỏ khoản 1 Điều 1 và Phụ lục I từ 05-09-2026; Điều 21 khoản 3 cho danh mục thiết bị y tế đã qua sử dụng cấm nhập khẩu (Phụ lục I TT 12/2018 sửa bởi Phụ lục I TT 08/2023) tiếp tục thực hiện đến hết 31-12-2026'

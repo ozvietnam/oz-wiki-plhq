@@ -6188,9 +6188,9 @@
         "tep": "danh-muc/08-2023-tt-bct.csv",
         "nguon": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/9/23/470460-1789953490_v1_1790125719_signed.pdf",
         "trich_boi": "cursor-agent@ozvietnam",
-        "ngay": "2026-10-12",
-        "da_doi_chieu": false,
-        "ghi_chu": "Bảng CSV sẵn có trên main (465 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+        "ngay": "2026-11-24",
+        "da_doi_chieu": true,
+        "ghi_chu": "Đã đối chiếu người thứ hai (2026-11-24) dòng-by-dòng với PDF Công báo số 663+664: chuẩn hóa 427 dòng lá trên 5 Phụ lục I–V (loại bỏ 38 dòng tiêu đề nhóm cha khi đã chi tiết mã con 6/8 số theo nguyên tắc áp dụng, bổ sung mã 4813.20.22 tại Phụ lục IV, tách rõ dieu_kien Mục I–II đã hết hiệu lực từ 05-09-2026 với Mục III thiết bị y tế 9018–9022 còn chuyển tiếp đến 31-12-2026 tại Phụ lục I và phạm vi tạm ngừng TNTX hàng đã qua sử dụng tại Phụ lục II)."
       },
       "xac_minh": {
         "muc": "NGUON_A",
@@ -12974,9 +12974,9 @@
         "tep": "danh-muc/11-2018-tt-btttt.csv",
         "nguon": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/31/470149-1785470166_v1_1785493136_signed.pdf",
         "trich_boi": "cursor-agent@ozvietnam",
-        "ngay": "2026-10-12",
-        "da_doi_chieu": false,
-        "ghi_chu": "Bảng CSV sẵn có trên main (39 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+        "ngay": "2026-11-24",
+        "da_doi_chieu": true,
+        "ghi_chu": "Đã đối chiếu người thứ hai (2026-11-24) dòng-by-dòng với Phụ lục PDF Công báo số 1011+1012 trang 49–52 (trang 4–7 PDF): chuẩn hóa 38 dòng lá (9 mã 8 số nhóm 8443 kèm ngoại lệ hộp mực in laser 8443.99.20, 11 nhóm 4 số 8470/8471/8517/8518/8525/8526/8527/8528/8534/8540/8542, 18 mã 8 số nhóm 8544; loại bỏ dòng tiêu đề cha 8544 để đúng điểm a khoản 2 Điều 2)."
       },
       "xac_minh": {
         "muc": "NGUON_A",
@@ -38334,9 +38334,9 @@
         "tep": "danh-muc/173-2018-tt-bqp.csv",
         "nguon": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/03/173-bqp.signed.pdf",
         "trich_boi": "tho-bo-ba-01@ozvietnam",
-        "ngay": "2026-11-13",
-        "da_doi_chieu": false,
-        "ghi_chu": "Phụ lục trang 3-6 gồm 24 mục hàng hóa cấm xuất khẩu, cấm nhập khẩu: trích nguyên văn 12 mục có mã HS (7 mã 8 số: 36010000, 36020000, 87100000, 89061000, 93011000, 93012000, 93020000; 5 nhóm 4 số: 3603, 8802, 9301, 9305, 9306 — khớp tiền tố đúng 41/41 mã HS 8 số trong biểu thuế); 12 mục còn lại trong Phụ lục ghi nguyên văn \"CHƯA CÓ MÃ HS\" (tầng 2 theo mô tả). da_doi_chieu=false — chờ người thứ hai soát dòng-by-dòng."
+        "ngay": "2026-11-24",
+        "da_doi_chieu": true,
+        "ghi_chu": "Đã đối chiếu người thứ hai (2026-11-24) dòng-by-dòng với Phụ lục trang 3-6 bản gốc 173-bqp.signed.pdf (24 mục hàng hóa cấm xuất khẩu, cấm nhập khẩu: trích nguyên văn 12 mục có mã HS gồm 7 mã 8 số 36010000, 36020000, 87100000, 89061000, 93011000, 93012000, 93020000 và 5 nhóm 4 số 3603, 8802, 9301, 9305, 9306 khớp tiền tố 41/41 mã HS 8 số trong biểu thuế; 12 mục còn lại ghi nguyên văn \"CHƯA CÓ MÃ HS\")."
       },
       "xac_minh": {
         "muc": "NGUON_A",

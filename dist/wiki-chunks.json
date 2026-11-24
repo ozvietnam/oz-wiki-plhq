@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-24).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 5458,
+ "tong": 5459,
  "chunks": [
   {
    "chunk_id": "dong-bo-quan-diem-phan-loai#1",
@@ -4236,7 +4236,7 @@
    "loai_trang": "summary",
    "tieu_de": "Cẩm nang hành động: 8 văn bản sắp hết hiệu lực & 3 văn bản sắp có hiệu lực 31/12/2026 – 01/01/2027",
    "muc": "Key themes > 4. Nhóm hàng đã qua sử dụng & chuyển tiếp theo `292/2026/NĐ-CP` (`11/2018/TT-BTTTT`, `12/2018/TT-BCT`, `08/2023/TT-BCT`)",
-   "noi_dung": "Theo Điều 64 khoản 4 `292/2026/NĐ-CP` (hiệu lực từ `05/09/2026`, thay thế văn bản lịch sử đã hết hiệu lực `69/2018/NĐ-CP`), các thông tư đang có hiệu lực hướng dẫn `69/2018/NĐ-CP` chỉ được tiếp tục thực hiện **đến hết ngày `31/12/2026`**:\n\n- **Sản phẩm CNTT / công nghệ số đã qua sử dụng (`11/2018/TT-BTTTT` → `63/2026/TT-BKHCN`):**\n  - `11/2018/TT-BTTTT` (`CON_HIEU_LUC` đến hết `2026-12-31`, [[sources/11-2018-tt-btttt]]) hiện điều chỉnh Danh mục sản phẩm CNTT đã qua sử dụng cấm nhập khẩu (`danh-muc/11-2018-tt-btttt.csv`, 39 dòng / `186` mã HS biểu thuế).\n  - Sau hợp nhất `BTTTT` → `BKHCN` ([[concepts/co-quan-tiep-nhan-sau-sap-nhap]]), Bộ KH&CN đã ban hành **`63/2026/TT-BKHCN`** (`CHUA_CO_HIEU_LUC`, hiệu lực từ `2027-01-01`, `NGUON_A`). Kể từ `01/01/2027`, thông tư mới này sẽ thay thế toàn bộ `11/2018/TT-BTTTT` (trừ chuyển tiếp giấy phép đã cấp theo Điều 3 khoản 3). `danh-muc/63-2026-tt-bkhcn.csv` gồm **37 dòng lá** (8 mã nhóm `8443`, 11 nhóm 4 số, 18 mã nhóm `8544`), đã bỏ mã `8443.32.49` theo `31/2022/TT-BTC` và bỏ 2 dòng tiêu đề cha `8443`/`8544`.\n  - Lưu ý phạm vi: quy định này tách biệt với thông tư cấp phép sản phẩm an toàn thông tin mạng (`10/2022/TT-BTTTT`, `CON_HIEU_LUC`) và sửa đổi danh mục in/xuất bản phẩm/CNTT (`11/2024/TT-BTTTT`, `CON_HIEU_LUC`).\n- **Hàng tiêu dùng, phương tiện & thiết bị y tế đã qua sử dụng (`12/2018/TT-BCT` & `08/2023/TT-BCT`):**\n  - Cả `12/2018/TT-BCT` và `08/2023/TT-BCT` đều ở trạng thái **`HET_HIEU_LUC_MOT_PHAN`**, không phải `CON_HIEU_LUC` nguyên vẹn và cũng chưa `HET_HIEU_LUC` toàn phần!\n  - Cụ thể: từ `05/09/2026`, [[sources/48-2026-tt-bct]] (`48/2026/TT-BCT`) Điều 20 bãi bỏ toàn bộ `12/2018/TT-BCT` và bãi bỏ **khoản 1 Điều 1 + Phụ lục I** của `08/2023/TT-BCT` (chuyển hàng tiêu dùng và phương tiện đã qua sử dụng cấm nhập khẩu sang Phụ lục I, II của `48/2026/TT-BCT` — xem [[concepts/hang-cu-cam-nhap-khau]]).\n  - Tuy nhiên, Điều 21 khoản 3 `48/2026/TT-BCT` cho phép **Danh mục thiết bị y tế đã qua sử dụng cấm nhập khẩu** (Mục III Phụ lục I `12/2018/TT-BCT` sửa đổi bởi Phụ lục I `08/2023/TT-BCT`, gồm 5 nhóm `9018`–`9022`) tiếp tục thực hiện **đến hết `31/12/2026`**.\n  - **Cảnh báo dễ nhầm đối với `08/2023/TT-BCT` ([[sources/08-2023-tt-bct]]):** Khoản 2 Điều 1 (**Phụ lục II** — tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu) và Điều 2 (**Phụ lục III, IV, V** sửa đổi `41/2019/TT-BCT` về thóc gạo xuất khẩu, nguyên liệu/giấy thuốc lá, máy móc thiết bị chuyên ngành thuốc lá) **vẫn còn hiệu lực** và **không** hết hiệu lực vào `31/12/2026`.\n  - **Điểm mù trung thực phần thiết bị y tế cũ:** Theo Phụ lục I Mục II `292/2026/NĐ-CP`, thẩm quyền quản lý `\"Thiết bị y tế đã qua sử dụng\"` thuộc **Bộ Y tế** (trong khi `07/2023/NĐ-CP` sửa đổi `98/2021/NĐ-CP` tại Điều 46 khoản 6 lại dẫn chiếu về pháp luật quản lý ngoại thương). Đến `22/11/2026`, **chưa có** Thông tư mới của Bộ Công Thương hay Bộ Y tế trong sổ ban hành danh mục mã HS thay thế riêng cho Mục III Phụ lục I sau `31/12/2026`. Ngoài ra `danh-muc/08-2023-tt-bct.csv` (`464` dòng) đang ghi `da_doi_chieu: false`.",
+   "noi_dung": "Theo Điều 64 khoản 4 `292/2026/NĐ-CP` (hiệu lực từ `05/09/2026`, thay thế văn bản lịch sử đã hết hiệu lực `69/2018/NĐ-CP`), các thông tư đang có hiệu lực hướng dẫn `69/2018/NĐ-CP` chỉ được tiếp tục thực hiện **đến hết ngày `31/12/2026`**:\n\n- **Sản phẩm CNTT / công nghệ số đã qua sử dụng (`11/2018/TT-BTTTT` → `63/2026/TT-BKHCN`):**\n  - `11/2018/TT-BTTTT` (`CON_HIEU_LUC` đến hết `2026-12-31`, [[sources/11-2018-tt-btttt]]) hiện điều chỉnh Danh mục sản phẩm CNTT đã qua sử dụng cấm nhập khẩu (`danh-muc/11-2018-tt-btttt.csv`, 38 dòng lá, `da_doi_chieu: true` / `186` mã HS biểu thuế).\n  - Sau hợp nhất `BTTTT` → `BKHCN` ([[concepts/co-quan-tiep-nhan-sau-sap-nhap]]), Bộ KH&CN đã ban hành **`63/2026/TT-BKHCN`** (`CHUA_CO_HIEU_LUC`, hiệu lực từ `2027-01-01`, `NGUON_A`). Kể từ `01/01/2027`, thông tư mới này sẽ thay thế toàn bộ `11/2018/TT-BTTTT` (trừ chuyển tiếp giấy phép đã cấp theo Điều 3 khoản 3). `danh-muc/63-2026-tt-bkhcn.csv` gồm **37 dòng lá** (8 mã nhóm `8443`, 11 nhóm 4 số, 18 mã nhóm `8544`), đã bỏ mã `8443.32.49` theo `31/2022/TT-BTC` và bỏ 2 dòng tiêu đề cha `8443`/`8544`.\n  - Lưu ý phạm vi: quy định này tách biệt với thông tư cấp phép sản phẩm an toàn thông tin mạng (`10/2022/TT-BTTTT`, `CON_HIEU_LUC`) và sửa đổi danh mục in/xuất bản phẩm/CNTT (`11/2024/TT-BTTTT`, `CON_HIEU_LUC`).\n- **Hàng tiêu dùng, phương tiện & thiết bị y tế đã qua sử dụng (`12/2018/TT-BCT` & `08/2023/TT-BCT`):**\n  - Cả `12/2018/TT-BCT` và `08/2023/TT-BCT` đều ở trạng thái **`HET_HIEU_LUC_MOT_PHAN`**, không phải `CON_HIEU_LUC` nguyên vẹn và cũng chưa `HET_HIEU_LUC` toàn phần!\n  - Cụ thể: từ `05/09/2026`, [[sources/48-2026-tt-bct]] (`48/2026/TT-BCT`) Điều 20 bãi bỏ toàn bộ `12/2018/TT-BCT` và bãi bỏ **khoản 1 Điều 1 + Phụ lục I** của `08/2023/TT-BCT` (chuyển hàng tiêu dùng và phương tiện đã qua sử dụng cấm nhập khẩu sang Phụ lục I, II của `48/2026/TT-BCT` — xem [[concepts/hang-cu-cam-nhap-khau]]).\n  - Tuy nhiên, Điều 21 khoản 3 `48/2026/TT-BCT` cho phép **Danh mục thiết bị y tế đã qua sử dụng cấm nhập khẩu** (Mục III Phụ lục I `12/2018/TT-BCT` sửa đổi bởi Phụ lục I `08/2023/TT-BCT`, gồm 5 nhóm `9018`–`9022`) tiếp tục thực hiện **đến hết `31/12/2026`**.\n  - **Cảnh báo dễ nhầm đối với `08/2023/TT-BCT` ([[sources/08-2023-tt-bct]]):** Khoản 2 Điều 1 (**Phụ lục II** — tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu) và Điều 2 (**Phụ lục III, IV, V** sửa đổi `41/2019/TT-BCT` về thóc gạo xuất khẩu, nguyên liệu/giấy thuốc lá, máy móc thiết bị chuyên ngành thuốc lá) **vẫn còn hiệu lực** và **không** hết hiệu lực vào `31/12/2026`.\n  - **Điểm mù trung thực phần thiết bị y tế cũ:** Theo Phụ lục I Mục II `292/2026/NĐ-CP`, thẩm quyền quản lý `\"Thiết bị y tế đã qua sử dụng\"` thuộc **Bộ Y tế** (trong khi `07/2023/NĐ-CP` sửa đổi `98/2021/NĐ-CP` tại Điều 46 khoản 6 lại dẫn chiếu về pháp luật quản lý ngoại thương). Đến `24/11/2026`, **chưa có** Thông tư mới của Bộ Công Thương hay Bộ Y tế trong sổ ban hành danh mục mã HS thay thế riêng cho Mục III Phụ lục I sau `31/12/2026`. Bảng `danh-muc/08-2023-tt-bct.csv` (`427` dòng lá) đã hoàn tất đối chiếu người thứ hai (`da_doi_chieu: true`), tách rõ `dieu_kien` giữa Mục I–II đã hết hiệu lực từ `05/09/2026` với Mục III (`9018`–`9022`) còn chuyển tiếp đến hết `31/12/2026` và Phụ lục II–V còn hiệu lực.",
    "tags": [
     "sap-het-hieu-luc",
     "sap-co-hieu-luc",
@@ -4400,7 +4400,7 @@
    "loai_trang": "summary",
    "tieu_de": "Cẩm nang hành động: 8 văn bản sắp hết hiệu lực & 3 văn bản sắp có hiệu lực 31/12/2026 – 01/01/2027",
    "muc": "Key themes > 5. Hàng hóa cấm XK/NK chuyên ngành Quốc phòng (`173/2018/TT-BQP`) & mốc chuyển tiếp `31/12/2026` khác",
-   "noi_dung": "- **`173/2018/TT-BQP` (`CON_HIEU_LUC`, `2019-01-01` → `het_hieu_luc_tu: 2026-12-31`):** Ban hành 24 mục hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành Bộ Quốc phòng (thay thế văn bản lịch sử đã hết hiệu lực `40/2017/TT-BQP`), gồm 12 mục có mã HS trích tại `danh-muc/173-2018-tt-bqp.csv` (phủ `41` mã HS trong biểu thuế) và 12 mục không gắn mã HS.\n  - **Vì sao hết hạn `31/12/2026`:** `173/2018/TT-BQP` hướng dẫn văn bản lịch sử đã hết hiệu lực `69/2018/NĐ-CP`, nên chỉ còn hiệu lực chuyển tiếp đến hết `31/12/2026` theo Điều 64 khoản 4 `292/2026/NĐ-CP`. Trong khi đó, Điều 9 khoản 1 `292/2026/NĐ-CP` giao Bộ trưởng Bộ Quốc phòng quyết định danh mục hàng hóa XNK phục vụ quốc phòng, an ninh và cấp phép XNK.\n  - **Điểm mù trung thực cần nêu rõ:** (1) Đến `24/11/2026` (Công báo số 584), **chưa có** Thông tư BQP mới trên nguồn bậc A thay thế danh mục cấm XK/NK của `173/2018/TT-BQP` (lưu ý `126/2026/TT-BQP` là danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn phục vụ KTCN, không thay thế `173/2018/TT-BQP`); (2) PDF gốc `173-2018-tt-bqp.pdf` đã được OCR và trích nguyên văn Điều 1, Điều 2, Điều 3 vào `xac_minh.dieu_khoan`, riêng bảng `danh-muc/173-2018-tt-bqp.csv` (12 mục có mã HS) đang ở trạng thái `da_doi_chieu: false`.\n- **Các mốc chuyển tiếp `31/12/2026` liên quan về hóa chất, tiền chất & hạn ngạch:**\n  - Về hóa chất và tiền chất (xem chi tiết tại [[concepts/hoa-chat-tien-chat-cas-xnk]]): **trước ngày `31/12/2026`**, doanh nghiệp kinh doanh/sử dụng hợp pháp **1,4-Butanediol (`BDO`, CAS `110-63-4`)** phải tuân thủ quy định quản lý tiền chất theo Điều 3 khoản 4 `28/2026/NĐ-CP`; các cơ sở có hóa chất mới thuộc diện kiểm soát đặc biệt/có điều kiện và lập Kế hoạch ứng phó sự cố hóa chất cũng có mốc hoàn tất trước `31/12/2026` theo Điều 30 khoản 3, 4, 7 `26/2026/NĐ-CP` và Điều 40 khoản 2 `25/2026/NĐ-CP`.\n  - Về hạn ngạch thuế quan theo cam kết song phương trong Phụ lục IV `48/2026/TT-BCT`: các mục **XIII** (Việt Nam – Campuchia), **XIV** (Nghị định thư Việt Nam – Nga) và **XV** (Nghị định thư Việt Nam – Bê-la-rút) đều có mốc hiệu lực ghi đến `31/12/2026`.",
+   "noi_dung": "- **`173/2018/TT-BQP` (`CON_HIEU_LUC`, `2019-01-01` → `het_hieu_luc_tu: 2026-12-31`):** Ban hành 24 mục hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành Bộ Quốc phòng (thay thế văn bản lịch sử đã hết hiệu lực `40/2017/TT-BQP`), gồm 12 mục có mã HS trích tại `danh-muc/173-2018-tt-bqp.csv` (phủ `41` mã HS trong biểu thuế, `da_doi_chieu: true`) và 12 mục không gắn mã HS.\n  - **Vì sao hết hạn `31/12/2026`:** `173/2018/TT-BQP` hướng dẫn văn bản lịch sử đã hết hiệu lực `69/2018/NĐ-CP`, nên chỉ còn hiệu lực chuyển tiếp đến hết `31/12/2026` theo Điều 64 khoản 4 `292/2026/NĐ-CP`. Trong khi đó, Điều 9 khoản 1 `292/2026/NĐ-CP` giao Bộ trưởng Bộ Quốc phòng quyết định danh mục hàng hóa XNK phục vụ quốc phòng, an ninh và cấp phép XNK.\n  - **Điểm mù trung thực cần nêu rõ:** (1) Đến `24/11/2026` (Công báo số 584), **chưa có** Thông tư BQP mới trên nguồn bậc A thay thế danh mục cấm XK/NK của `173/2018/TT-BQP` (lưu ý `126/2026/TT-BQP` là danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn phục vụ KTCN, không thay thế `173/2018/TT-BQP`); (2) PDF gốc `173-2018-tt-bqp.pdf` đã được OCR, trích nguyên văn Điều 1, Điều 2, Điều 3 vào `xac_minh.dieu_khoan` và bảng `danh-muc/173-2018-tt-bqp.csv` (12 mục có mã HS) đã hoàn tất đối chiếu người thứ hai (`da_doi_chieu: true`).\n- **Các mốc chuyển tiếp `31/12/2026` liên quan về hóa chất, tiền chất & hạn ngạch:**\n  - Về hóa chất và tiền chất (xem chi tiết tại [[concepts/hoa-chat-tien-chat-cas-xnk]]): **trước ngày `31/12/2026`**, doanh nghiệp kinh doanh/sử dụng hợp pháp **1,4-Butanediol (`BDO`, CAS `110-63-4`)** phải tuân thủ quy định quản lý tiền chất theo Điều 3 khoản 4 `28/2026/NĐ-CP`; các cơ sở có hóa chất mới thuộc diện kiểm soát đặc biệt/có điều kiện và lập Kế hoạch ứng phó sự cố hóa chất cũng có mốc hoàn tất trước `31/12/2026` theo Điều 30 khoản 3, 4, 7 `26/2026/NĐ-CP` và Điều 40 khoản 2 `25/2026/NĐ-CP`.\n  - Về hạn ngạch thuế quan theo cam kết song phương trong Phụ lục IV `48/2026/TT-BCT`: các mục **XIII** (Việt Nam – Campuchia), **XIV** (Nghị định thư Việt Nam – Nga) và **XV** (Nghị định thư Việt Nam – Bê-la-rút) đều có mốc hiệu lực ghi đến `31/12/2026`.",
    "tags": [
     "sap-het-hieu-luc",
     "sap-co-hieu-luc",
@@ -5237,7 +5237,7 @@
    "loai_trang": "summary",
    "tieu_de": "Cẩm nang hành động: 8 văn bản sắp hết hiệu lực & 3 văn bản sắp có hiệu lực 31/12/2026 – 01/01/2027",
    "muc": "Open questions",
-   "noi_dung": "- Quốc hội và Chính phủ có ban hành nghị quyết gia hạn chính sách giảm thuế GTGT `8%` (`204/2025/QH15`, `174/2025/NĐ-CP`) và ưu đãi thuế xăng dầu (`43/2026/NQ-CP`, `72/2026/NĐ-CP`, `19/2026/QH16`) cho giai đoạn từ `01/01/2027` hay không?\n- Bộ Y tế (theo thẩm quyền Phụ lục I `292/2026/NĐ-CP`) và Bộ Công Thương sẽ ban hành văn bản hướng dẫn chi tiết mã HS nào đối với **thiết bị y tế đã qua sử dụng** sau khi chuyển tiếp tại Điều 21 khoản 3 `48/2026/TT-BCT` kết thúc ngày `31/12/2026`?\n- Bộ Quốc phòng có ban hành Thông tư mới thay thế danh mục hàng hóa cấm XK/NK trong `173/2018/TT-BQP` theo Điều 9 khoản 1 `292/2026/NĐ-CP` trước ngày `31/12/2026` hay không?\n- Khi nào hoàn tất đối chiếu dòng-theo-dòng người thứ hai (`da_doi_chieu: true`) cho 3 bảng mã HS đang áp dụng đến `31/12/2026`: `danh-muc/08-2023-tt-bct.csv`, `danh-muc/11-2018-tt-btttt.csv` và `danh-muc/173-2018-tt-bqp.csv`?",
+   "noi_dung": "- Quốc hội và Chính phủ có ban hành nghị quyết gia hạn chính sách giảm thuế GTGT `8%` (`204/2025/QH15`, `174/2025/NĐ-CP`) và ưu đãi thuế xăng dầu (`43/2026/NQ-CP`, `72/2026/NĐ-CP`, `19/2026/QH16`) cho giai đoạn từ `01/01/2027` hay không?\n- Bộ Y tế (theo thẩm quyền Phụ lục I `292/2026/NĐ-CP`) và Bộ Công Thương sẽ ban hành văn bản hướng dẫn chi tiết mã HS nào đối với **thiết bị y tế đã qua sử dụng** sau khi chuyển tiếp tại Điều 21 khoản 3 `48/2026/TT-BCT` kết thúc ngày `31/12/2026`?\n- Bộ Quốc phòng có ban hành Thông tư mới thay thế danh mục hàng hóa cấm XK/NK trong `173/2018/TT-BQP` theo Điều 9 khoản 1 `292/2026/NĐ-CP` trước ngày `31/12/2026` hay không?",
    "tags": [
     "sap-het-hieu-luc",
     "sap-co-hieu-luc",
@@ -35905,7 +35905,7 @@
    "loai_trang": "sources",
    "tieu_de": "TT 08/2023/TT-BCT — Sửa đổi Danh mục chi tiết theo mã số HS hàng hóa xuất nhập khẩu của Bộ Công Thương",
    "muc": "Summary",
-   "noi_dung": "**Thông tư 08/2023/TT-BCT** do Thứ trưởng Bộ Công Thương Nguyễn Sinh Nhật Tân ký ban hành ngày **31/03/2023**, có hiệu lực thi hành từ ngày **16/05/2023**, sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS (theo Danh mục AHTN 2022) của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo **Thông tư 12/2018/TT-BCT** ngày 15/06/2018 và **Thông tư 41/2019/TT-BCT** ngày 16/12/2019 của Bộ trưởng Bộ Công Thương.\n\nVăn bản gồm **3 điều và 5 Phụ lục** (đã trích xuất 464 dòng dữ liệu mã HS tại `danh-muc/08-2023-tt-bct.csv`, được biểu thuế XNK dẫn chiếu tại 1.964 mã HS). Từ ngày **05/09/2026**, khoản 1 Điều 1 và Phụ lục I của Thông tư bị bãi bỏ theo điểm c khoản 3 Điều 20 **Thông tư 48/2026/TT-BCT**; tuy nhiên theo khoản 3 Điều 21 Thông tư 48/2026/TT-BCT, Danh mục thiết bị y tế đã qua sử dụng cấm nhập khẩu tại Phụ lục I vẫn tiếp tục được áp dụng chuyển tiếp đến hết ngày **31/12/2026**, và các quy định còn lại (khoản 2 Điều 1, Điều 2 và các Phụ lục II, III, IV, V) **vẫn đang còn hiệu lực** (`HET_HIEU_LUC_MOT_PHAN`).",
+   "noi_dung": "**Thông tư 08/2023/TT-BCT** do Thứ trưởng Bộ Công Thương Nguyễn Sinh Nhật Tân ký ban hành ngày **31/03/2023**, có hiệu lực thi hành từ ngày **16/05/2023**, sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS (theo Danh mục AHTN 2022) của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo **Thông tư 12/2018/TT-BCT** ngày 15/06/2018 và **Thông tư 41/2019/TT-BCT** ngày 16/12/2019 của Bộ trưởng Bộ Công Thương.\n\nVăn bản gồm **3 điều và 5 Phụ lục** (đã chuẩn hóa và đối chiếu 427 dòng lá dữ liệu mã HS tại `danh-muc/08-2023-tt-bct.csv`, `da_doi_chieu: true`, được biểu thuế XNK dẫn chiếu tại 1.964 mã HS). Từ ngày **05/09/2026**, khoản 1 Điều 1 và Phụ lục I của Thông tư bị bãi bỏ theo điểm c khoản 3 Điều 20 **Thông tư 48/2026/TT-BCT**; tuy nhiên theo khoản 3 Điều 21 Thông tư 48/2026/TT-BCT, Danh mục thiết bị y tế đã qua sử dụng cấm nhập khẩu tại Phụ lục I vẫn tiếp tục được áp dụng chuyển tiếp đến hết ngày **31/12/2026**, và các quy định còn lại (khoản 2 Điều 1, Điều 2 và các Phụ lục II, III, IV, V) **vẫn đang còn hiệu lực** (`HET_HIEU_LUC_MOT_PHAN`).",
    "tags": [
     "thong-tu",
     "bct",
@@ -36041,7 +36041,7 @@
    "loai_trang": "sources",
    "tieu_de": "TT 08/2023/TT-BCT — Sửa đổi Danh mục chi tiết theo mã số HS hàng hóa xuất nhập khẩu của Bộ Công Thương",
    "muc": "Cấu trúc (3 điều và 5 Phụ lục)",
-   "noi_dung": "| Phần | Nội dung | Văn bản được sửa đổi & Tình trạng hiện tại |\n|---|---|---|\n| Điều 1 khoản 1 & **Phụ lục I** | Thay thế Phụ lục I (Điều 3 Thông tư 12/2018/TT-BCT): **Danh mục hàng tiêu dùng, thiết bị y tế, phương tiện đã qua sử dụng cấm nhập khẩu** (trang 19–32 Công báo) | Đã bị bãi bỏ từ 05/09/2026 bởi [[sources/48-2026-tt-bct]] (riêng Mục III — thiết bị y tế đã qua sử dụng nhóm `9018`–`9022` chuyển tiếp đến hết 31/12/2026) |\n| Điều 1 khoản 2 & **Phụ lục II** | Thay thế Phụ lục II (khoản 1 Điều 4 Thông tư 12/2018/TT-BCT): **Danh mục hàng hóa tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu** (trang 33–49 Công báo) | **Đang còn hiệu lực** (chỉ áp dụng đối với hàng hóa đã qua sử dụng) |\n| Điều 2 khoản 1 & **Phụ lục III** | Thay thế Phụ lục I (Điều 1 Thông tư 41/2019/TT-BCT): **Danh mục chi tiết theo mã HS đối với thóc, gạo xuất khẩu** (trang 50 Công báo) | **Đang còn hiệu lực** (nhóm `10.06` — 14 mã HS 8 số) |\n| Điều 2 khoản 2 & **Phụ lục IV** | Thay thế Phụ lục VI (khoản 1 Điều 6 Thông tư 41/2019/TT-BCT): **Danh mục chi tiết theo mã HS đối với nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá** (trang 51–53 Công báo) | **Đang còn hiệu lực** (nhóm `24.01`, `24.03`, `48.13` — 36 mã HS 8 số) |\n| Điều 2 khoản 3 & **Phụ lục V** | Thay thế Phụ lục VII (khoản 2 Điều 6 Thông tư 41/2019/TT-BCT): **Danh mục chi tiết theo mã HS đối với máy móc, thiết bị chuyên ngành thuốc lá** (trang 54–55 Công báo) | **Đang còn hiệu lực** (4 dây chuyền công nghệ thuộc các mã `8478.10.10`, `8478.90.00`, `8423.20.10`, `8422.40.00`) |\n| Điều 3 | Hiệu lực thi hành (từ ngày 16/05/2023) và tổ chức thực hiện | **Đang còn hiệu lực** |",
+   "noi_dung": "| Phần | Nội dung | Văn bản được sửa đổi & Tình trạng hiện tại |\n|---|---|---|\n| Điều 1 khoản 1 & **Phụ lục I** | Thay thế Phụ lục I (Điều 3 Thông tư 12/2018/TT-BCT): **Danh mục hàng tiêu dùng, thiết bị y tế, phương tiện đã qua sử dụng cấm nhập khẩu** (trang 19–32 Công báo) | Đã bị bãi bỏ từ 05/09/2026 bởi [[sources/48-2026-tt-bct]] (riêng Mục III — thiết bị y tế đã qua sử dụng nhóm `9018`–`9022` chuyển tiếp đến hết 31/12/2026) |\n| Điều 1 khoản 2 & **Phụ lục II** | Thay thế Phụ lục II (khoản 1 Điều 4 Thông tư 12/2018/TT-BCT): **Danh mục hàng hóa tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu** (trang 33–49 Công báo) | **Đang còn hiệu lực** (chỉ áp dụng đối với hàng hóa đã qua sử dụng) |\n| Điều 2 khoản 1 & **Phụ lục III** | Thay thế Phụ lục I (Điều 1 Thông tư 41/2019/TT-BCT): **Danh mục chi tiết theo mã HS đối với thóc, gạo xuất khẩu** (trang 50 Công báo) | **Đang còn hiệu lực** (nhóm `10.06` — 13 mã HS 8 số) |\n| Điều 2 khoản 2 & **Phụ lục IV** | Thay thế Phụ lục VI (khoản 1 Điều 6 Thông tư 41/2019/TT-BCT): **Danh mục chi tiết theo mã HS đối với nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá** (trang 51–53 Công báo) | **Đang còn hiệu lực** (nhóm `24.01`, `24.03`, `48.13` — 37 mã HS 8 số) |\n| Điều 2 khoản 3 & **Phụ lục V** | Thay thế Phụ lục VII (khoản 2 Điều 6 Thông tư 41/2019/TT-BCT): **Danh mục chi tiết theo mã HS đối với máy móc, thiết bị chuyên ngành thuốc lá** (trang 54–55 Công báo) | **Đang còn hiệu lực** (4 dây chuyền công nghệ thuộc các mã `8478.10.10`, `8478.90.00`, `8423.20.10`, `8422.40.00`) |\n| Điều 3 | Hiệu lực thi hành (từ ngày 16/05/2023) và tổ chức thực hiện | **Đang còn hiệu lực** |",
    "tags": [
     "thong-tu",
     "bct",
@@ -36131,7 +36131,7 @@
    "loai_trang": "sources",
    "tieu_de": "TT 08/2023/TT-BCT — Sửa đổi Danh mục chi tiết theo mã số HS hàng hóa xuất nhập khẩu của Bộ Công Thương",
    "muc": "Nội dung chi tiết các điều và 5 Phụ lục > Điều 2. Sửa đổi, bổ sung một số điều của Thông tư 41/2019/TT-BCT *(đang còn hiệu lực)*",
-   "noi_dung": "#### 1. Phụ lục III — Danh mục chi tiết theo mã HS đối với thóc, gạo xuất khẩu (thay thế Phụ lục I Thông tư 41/2019/TT-BCT)\nChi tiết toàn bộ nhóm **`10.06` (Lúa gạo)** gồm **14 mã HS 8 số**:\n- **Thóc (`1006.10`):** `1006.10.10` (phù hợp để gieo trồng), `1006.10.90` (loại khác).\n- **Gạo lứt (`1006.20`):** `1006.20.10` (Gạo Hom Mali), `1006.20.90` (loại khác).\n- **Gạo đã xát toàn bộ hoặc sơ bộ (`1006.30`):** `1006.30.30` (Gạo nếp), `1006.30.40` (Gạo Hom Mali), `1006.30.50` (Gạo Basmati), `1006.30.60` (Gạo Malys), `1006.30.70` (Gạo thơm khác), `1006.30.91` (Gạo đồ), `1006.30.99` (loại khác).\n- **Tấm (`1006.40`):** `1006.40.10` (loại dùng làm thức ăn chăn nuôi), `1006.40.90` (loại khác).\n\n#### 2. Phụ lục IV — Danh mục chi tiết theo mã HS đối với nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá (thay thế Phụ lục VI Thông tư 41/2019/TT-BCT)\nGồm 3 nhóm hàng chính (**36 mã HS 8 số**):\n- **Nhóm `24.01` (Lá thuốc lá chưa chế biến; phế liệu lá thuốc lá — 13 mã 8 số):**\n  - Chưa tước cọng (`2401.10`): `2401.10.10`, `2401.10.20`, `2401.10.40`, `2401.10.50`, `2401.10.90`.\n  - Đã tước cọng một phần hoặc toàn bộ (`2401.20`): `2401.20.10`, `2401.20.20`, `2401.20.30`, `2401.20.40`, `2401.20.50`, `2401.20.90`.\n  - Phế liệu lá thuốc lá (`2401.30`): `2401.30.10` (cọng thuốc lá), `2401.30.90` (loại khác).\n- **Nhóm `24.03` (Lá thuốc lá đã chế biến khác; thuốc lá “thuần nhất” hoặc “hoàn nguyên”; chiết xuất và tinh chất — 10 mã 8 số):**\n  - Phân nhóm `2403.19`: `2403.19.11`, `2403.19.19`, `2403.19.20`, `2403.19.91`, `2403.19.99`.\n  - Phân nhóm `2403.91` (thuốc lá thuần nhất/hoàn nguyên): `2403.91.10`, `2403.91.90`.\n  - Phân nhóm `2403.99`: `2403.99.10`, `2403.99.30`, `2403.99.90`.\n- **Nhóm `48.13` (Giấy cuốn thuốc lá điếu — 13 mã 8 số):**\n  - `4813.10.00` (dạng tập hoặc cuốn sẵn thành ống).\n  - `4813.20` (dạng cuộn chiều rộng $\\le 5$ cm): `4813.20.10`, `4813.20.21`, `4813.20.22`, `4813.20.23`, `4813.20.29`, `4813.20.31`, `4813.20.32`, `4813.20.39`.\n  - `4813.90` (loại khác, chiều rộng $> 5$ cm): `4813.90.11`, `4813.90.12`, `4813.90.19`, `4813.90.91`, `4813.90.99`.\n- *Ghi chú cuối Phụ lục IV:* Việc nhập khẩu thuốc lá theo hạn ngạch thuế quan được thực hiện theo các Thông tư quy định về hạn ngạch thuế quan nhập khẩu.\n\n#### 3. Phụ lục V — Danh mục chi tiết theo mã HS đối với máy móc, thiết bị chuyên ngành thuốc lá (thay thế Phụ lục VII Thông tư 41/2019/TT-BCT)\nPhân theo **4 dây chuyền công nghệ** với **4 mã HS 8 số** (`8478.10.10`, `8478.90.00`, `8423.20.10`, `8422.40.00`):\n- **I. Dây chuyền chế biến nguyên liệu lá thuốc lá:**\n  - *A. Công đoạn chế biến lá:* Máy cắt đầu lá, xy lanh làm ẩm (`8478.10.10`, `8478.90.00`); hầm ủ lá (`8478.90.00`); máy sấy lá (`8478.10.10`, `8478.90.00`); hệ thống cân và đóng (ép) kiện lá (`8423.20.10`).\n  - *B. Công đoạn chế biến cọng:* Xy lanh làm ẩm cọng lần 1, lần 2, hệ thống tước cọng tách lá, máy sấy cọng, máy phân loại làm sạch cọng (`8478.10.10`, `8478.90.00`); hệ thống cân và đóng (ép) kiện cọng (`8423.20.10`).\n- **II. Dây chuyền chế biến sợi thuốc lá:**\n  - *A. Công đoạn lá:* Thiết bị hấp chân không, máy cắt kiện lá, xy lanh làm ẩm lá, xy lanh gia liệu (`8478.10.10`, `8478.90.00`); hầm ủ lá (`8478.90.00`); thiết bị dò kim loại, máy thái lá, thiết bị trương nở sợi, thiết bị sấy, thiết bị phân ly sợi (`8478.10.10`, `8478.90.00`); hệ thống các cân định lượng (`8423.20.10`).\n  - *B. Công đoạn cọng:* Máy tước cọng, thiết bị gia ẩm cọng lần 1 (`8478.10.10`, `8478.90.00`); hầm ủ cọng (`8478.90.00`); thiết bị gia ẩm cọng lần 2, thiết bị cán cọng, máy thái cọng, thiết bị trương nở cọng, thiết bị sấy cọng, thiết bị phân ly cọng (`8478.10.10`, `8478.90.00`); hầm ủ sợi cọng (`8478.90.00`); hệ thống các cân định lượng (`8423.20.10`).\n  - *C. Công đoạn phối trộn sợi:* Thiết bị phun hương (`8478.10.10`, `8478.90.00`); hầm ủ sợi, hệ thống vận chuyển sợi thuốc lá đến máy cuốn điếu (`8478.90.00`).\n- **III. Dây chuyền chế biến thuốc lá tấm và các chế phẩm thay thế khác dùng để sản xuất các sản phẩm thuốc lá:** `8478.10.10`, `8478.90.00`.\n- **IV. Máy móc thiết bị sản xuất thuốc lá điếu:**\n  - *A. Công đoạn cuốn điếu – ghép đầu lọc:* Máy cuốn điếu (`8478.10.10`); máy ghép đầu lọc, máy nạp khay (`8478.90.00`).\n  - *B. Công đoạn đóng bao:* Máy đóng bao, máy đóng bóng kính bao, máy đóng tút, máy đóng bóng kính tút, máy đóng thùng carton (`8422.40.00`).",
+   "noi_dung": "#### 1. Phụ lục III — Danh mục chi tiết theo mã HS đối với thóc, gạo xuất khẩu (thay thế Phụ lục I Thông tư 41/2019/TT-BCT)\nChi tiết toàn bộ nhóm **`10.06` (Lúa gạo)** gồm **13 mã HS 8 số**:\n- **Thóc (`1006.10`):** `1006.10.10` (phù hợp để gieo trồng), `1006.10.90` (loại khác).\n- **Gạo lứt (`1006.20`):** `1006.20.10` (Gạo Hom Mali), `1006.20.90` (loại khác).\n- **Gạo đã xát toàn bộ hoặc sơ bộ (`1006.30`):** `1006.30.30` (Gạo nếp), `1006.30.40` (Gạo Hom Mali), `1006.30.50` (Gạo Basmati), `1006.30.60` (Gạo Malys), `1006.30.70` (Gạo thơm khác), `1006.30.91` (Gạo đồ), `1006.30.99` (loại khác).\n- **Tấm (`1006.40`):** `1006.40.10` (loại dùng làm thức ăn chăn nuôi), `1006.40.90` (loại khác).\n\n#### 2. Phụ lục IV — Danh mục chi tiết theo mã HS đối với nguyên liệu thuốc lá, giấy cuốn điếu thuốc lá (thay thế Phụ lục VI Thông tư 41/2019/TT-BCT)\nGồm 3 nhóm hàng chính (**37 mã HS 8 số**):\n- **Nhóm `24.01` (Lá thuốc lá chưa chế biến; phế liệu lá thuốc lá — 13 mã 8 số):**\n  - Chưa tước cọng (`2401.10`): `2401.10.10`, `2401.10.20`, `2401.10.40`, `2401.10.50`, `2401.10.90`.\n  - Đã tước cọng một phần hoặc toàn bộ (`2401.20`): `2401.20.10`, `2401.20.20`, `2401.20.30`, `2401.20.40`, `2401.20.50`, `2401.20.90`.\n  - Phế liệu lá thuốc lá (`2401.30`): `2401.30.10` (cọng thuốc lá), `2401.30.90` (loại khác).\n- **Nhóm `24.03` (Lá thuốc lá đã chế biến khác; thuốc lá “thuần nhất” hoặc “hoàn nguyên”; chiết xuất và tinh chất — 10 mã 8 số):**\n  - Phân nhóm `2403.19`: `2403.19.11`, `2403.19.19`, `2403.19.20`, `2403.19.91`, `2403.19.99`.\n  - Phân nhóm `2403.91` (thuốc lá thuần nhất/hoàn nguyên): `2403.91.10`, `2403.91.90`.\n  - Phân nhóm `2403.99`: `2403.99.10`, `2403.99.30`, `2403.99.90`.\n- **Nhóm `48.13` (Giấy cuốn thuốc lá điếu — 14 mã 8 số):**\n  - `4813.10.00` (dạng tập hoặc cuốn sẵn thành ống).\n  - `4813.20` (dạng cuộn chiều rộng $\\le 5$ cm): `4813.20.10`, `4813.20.21`, `4813.20.22`, `4813.20.23`, `4813.20.29`, `4813.20.31`, `4813.20.32`, `4813.20.39`.\n  - `4813.90` (loại khác, chiều rộng $> 5$ cm): `4813.90.11`, `4813.90.12`, `4813.90.19`, `4813.90.91`, `4813.90.99`.\n- *Ghi chú cuối Phụ lục IV:* Việc nhập khẩu thuốc lá theo hạn ngạch thuế quan được thực hiện theo các Thông tư quy định về hạn ngạch thuế quan nhập khẩu.\n\n#### 3. Phụ lục V — Danh mục chi tiết theo mã HS đối với máy móc, thiết bị chuyên ngành thuốc lá (thay thế Phụ lục VII Thông tư 41/2019/TT-BCT)\nPhân theo **4 dây chuyền công nghệ** với **4 mã HS 8 số** (`8478.10.10`, `8478.90.00`, `8423.20.10`, `8422.40.00`):\n- **I. Dây chuyền chế biến nguyên liệu lá thuốc lá:**\n  - *A. Công đoạn chế biến lá:* Máy cắt đầu lá, xy lanh làm ẩm (`8478.10.10`, `8478.90.00`); hầm ủ lá (`8478.90.00`); máy sấy lá (`8478.10.10`, `8478.90.00`); hệ thống cân và đóng (ép) kiện lá (`8423.20.10`).\n  - *B. Công đoạn chế biến cọng:* Xy lanh làm ẩm cọng lần 1, lần 2, hệ thống tước cọng tách lá, máy sấy cọng, máy phân loại làm sạch cọng (`8478.10.10`, `8478.90.00`); hệ thống cân và đóng (ép) kiện cọng (`8423.20.10`).\n- **II. Dây chuyền chế biến sợi thuốc lá:**\n  - *A. Công đoạn lá:* Thiết bị hấp chân không, máy cắt kiện lá, xy lanh làm ẩm lá, xy lanh gia liệu (`8478.10.10`, `8478.90.00`); hầm ủ lá (`8478.90.00`); thiết bị dò kim loại, máy thái lá, thiết bị trương nở sợi, thiết bị sấy, thiết bị phân ly sợi (`8478.10.10`, `8478.90.00`); hệ thống các cân định lượng (`8423.20.10`).\n  - *B. Công đoạn cọng:* Máy tước cọng, thiết bị gia ẩm cọng lần 1 (`8478.10.10`, `8478.90.00`); hầm ủ cọng (`8478.90.00`); thiết bị gia ẩm cọng lần 2, thiết bị cán cọng, máy thái cọng, thiết bị trương nở cọng, thiết bị sấy cọng, thiết bị phân ly cọng (`8478.10.10`, `8478.90.00`); hầm ủ sợi cọng (`8478.90.00`); hệ thống các cân định lượng (`8423.20.10`).\n  - *C. Công đoạn phối trộn sợi:* Thiết bị phun hương (`8478.10.10`, `8478.90.00`); hầm ủ sợi, hệ thống vận chuyển sợi thuốc lá đến máy cuốn điếu (`8478.90.00`).\n- **III. Dây chuyền chế biến thuốc lá tấm và các chế phẩm thay thế khác dùng để sản xuất các sản phẩm thuốc lá:** `8478.10.10`, `8478.90.00`.\n- **IV. Máy móc thiết bị sản xuất thuốc lá điếu:**\n  - *A. Công đoạn cuốn điếu – ghép đầu lọc:* Máy cuốn điếu (`8478.10.10`); máy ghép đầu lọc, máy nạp khay (`8478.90.00`).\n  - *B. Công đoạn đóng bao:* Máy đóng bao, máy đóng bóng kính bao, máy đóng tút, máy đóng bóng kính tút, máy đóng thùng carton (`8422.40.00`).",
    "tags": [
     "thong-tu",
     "bct",
@@ -36233,7 +36233,7 @@
    "loai_trang": "sources",
    "tieu_de": "TT 08/2023/TT-BCT — Sửa đổi Danh mục chi tiết theo mã số HS hàng hóa xuất nhập khẩu của Bộ Công Thương",
    "muc": "Căn cứ pháp lý",
-   "noi_dung": "- **Luật Quản lý ngoại thương** số 05/2017/QH14 ngày 12/06/2017.\n- **Nghị định 69/2018/NĐ-CP** ngày 15/05/2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương (văn bản lịch sử nay đã hết hiệu lực, bị thay thế bởi **Nghị định 46/2026/NĐ-CP** — [[sources/46-2026-nd-cp]]).\n- **Nghị định 96/2022/NĐ-CP** ngày 29/11/2022 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương (văn bản lịch sử đã hết hiệu lực).",
+   "noi_dung": "- **Luật Quản lý ngoại thương** số 05/2017/QH14 ngày 12/06/2017.\n- **Nghị định 69/2018/NĐ-CP** ngày 15/05/2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương (văn bản lịch sử nay đã hết hiệu lực, bị thay thế bởi **Nghị định 292/2026/NĐ-CP** — [[sources/292-2026-nd-cp]]).\n- **Nghị định 96/2022/NĐ-CP** ngày 29/11/2022 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương (văn bản lịch sử đã hết hiệu lực).",
    "tags": [
     "thong-tu",
     "bct",
@@ -36268,14 +36268,14 @@
      "nguon_a": "https://vanban.chinhphu.vn/?docid=193756&pageid=27160"
     },
     {
-     "so_hieu": "46/2026/NĐ-CP",
-     "tinh_trang": "TAM_NGUNG_HIEU_LUC",
-     "hieu_luc_tu": null,
+     "so_hieu": "292/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-05",
      "het_hieu_luc_tu": null,
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
-     "nguon_a": "https://vanban.chinhphu.vn/?docid=216827&pageid=27160"
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-292-2026-nd-cp-470149.htm"
     },
     {
      "so_hieu": "96/2022/NĐ-CP",
@@ -36297,7 +36297,7 @@
    "loai_trang": "sources",
    "tieu_de": "TT 08/2023/TT-BCT — Sửa đổi Danh mục chi tiết theo mã số HS hàng hóa xuất nhập khẩu của Bộ Công Thương",
    "muc": "Related concepts",
-   "noi_dung": "- [[concepts/hang-cu-cam-nhap-khau]]\n- [[concepts/nhap-khau-thuoc-la]]\n- [[concepts/han-ngach-thue-quan]]\n- [[concepts/phan-loai-ma-hs]]",
+   "noi_dung": "- [[summary/van-ban-sap-het-hieu-luc-2026-2027]]\n- [[concepts/hang-cu-cam-nhap-khau]]\n- [[concepts/nhap-khau-thuoc-la]]\n- [[concepts/han-ngach-thue-quan]]\n- [[concepts/phan-loai-ma-hs]]\n- [[concepts/doc-tinh-trang-hieu-luc]]",
    "tags": [
     "thong-tu",
     "bct",
@@ -36318,7 +36318,7 @@
    "loai_trang": "sources",
    "tieu_de": "TT 08/2023/TT-BCT — Sửa đổi Danh mục chi tiết theo mã số HS hàng hóa xuất nhập khẩu của Bộ Công Thương",
    "muc": "Related sources",
-   "noi_dung": "- 12-2018-tt-bct (Thông tư quy định chi tiết một số điều của Luật Quản lý ngoại thương — được Điều 1 Thông tư 08/2023/TT-BCT thay thế Phụ lục I và Phụ lục II từ 16/05/2023)\n- 41-2019-tt-bct (Thông tư bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất nhập khẩu — được Điều 2 Thông tư 08/2023/TT-BCT thay thế Phụ lục I, VI, VII từ 16/05/2023)\n- [[sources/48-2026-tt-bct]] (Thông tư ngày 20/07/2026 bãi bỏ khoản 1 Điều 1 và Phụ lục I của Thông tư 08/2023/TT-BCT từ 05/09/2026, đồng thời quy định chuyển tiếp đối với thiết bị y tế đã qua sử dụng đến hết 31/12/2026)\n- [[sources/46-2026-nd-cp]] (Nghị định quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương, thay thế Nghị định 69/2018/NĐ-CP)",
+   "noi_dung": "- [[sources/12-2018-tt-bct]] (Thông tư quy định chi tiết một số điều của Luật Quản lý ngoại thương — được Điều 1 Thông tư 08/2023/TT-BCT thay thế Phụ lục I và Phụ lục II từ 16/05/2023)\n- [[sources/41-2019-tt-bct]] (Thông tư bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất nhập khẩu — được Điều 2 Thông tư 08/2023/TT-BCT thay thế Phụ lục I, VI, VII từ 16/05/2023)\n- [[sources/48-2026-tt-bct]] (Thông tư ngày 20/07/2026 bãi bỏ khoản 1 Điều 1 và Phụ lục I của Thông tư 08/2023/TT-BCT từ 05/09/2026, đồng thời quy định chuyển tiếp đối với thiết bị y tế đã qua sử dụng đến hết 31/12/2026)\n- [[sources/292-2026-nd-cp]] (Nghị định quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương, thay thế văn bản lịch sử đã hết hiệu lực Nghị định 69/2018/NĐ-CP)",
    "tags": [
     "thong-tu",
     "bct",
@@ -36364,7 +36364,7 @@
    "loai_trang": "sources",
    "tieu_de": "TT 08/2023/TT-BCT — Sửa đổi Danh mục chi tiết theo mã số HS hàng hóa xuất nhập khẩu của Bộ Công Thương",
    "muc": "Open questions",
-   "noi_dung": "- Bảng `danh-muc/08-2023-tt-bct.csv` hiện có 464 dòng dữ liệu mã HS (chủ yếu trích từ Phụ lục I và Phụ lục II) với trạng thái `da_doi_chieu: false`; cần rà soát dòng-theo-dòng và bổ sung đầy đủ các dòng của Phụ lục III, IV, V để nâng trạng thái đối chiếu lên `da_doi_chieu: true`.\n- Sau ngày 31/12/2026 khi hết thời hạn chuyển tiếp của Mục III Phụ lục I (thiết bị y tế đã qua sử dụng nhóm `9018`–`9022`), cần cập nhật lại ghi chú phạm vi của `08-2023-tt-bct.yaml` (các Phụ lục II, III, IV, V vẫn còn hiệu lực cho đến khi có Thông tư mới thay thế).",
+   "noi_dung": "- Bảng `danh-muc/08-2023-tt-bct.csv` đã hoàn tất đối chiếu người thứ hai (`da_doi_chieu: true`, 427 dòng lá trên đủ 5 Phụ lục I–V: đã loại bỏ 38 dòng tiêu đề nhóm cha khi có mã con 6/8 số chi tiết, bổ sung mã `4813.20.22` ở Phụ lục IV và tách bạch rõ `dieu_kien` giữa Mục I–II đã hết hiệu lực từ 05/09/2026 với Mục III thiết bị y tế cũ còn chuyển tiếp đến 31/12/2026).\n- **Kịch bản cắt chuyển trạng thái tại mốc `31/12/2026` – `01/01/2027`:** Sau ngày `31/12/2026` khi hết thời hạn chuyển tiếp của Mục III Phụ lục I (thiết bị y tế đã qua sử dụng nhóm `9018`–`9022`), trên `registry/van-ban/08-2023-tt-bct.yaml` cần **giữ nguyên `tinh_trang: HET_HIEU_LUC_MOT_PHAN`**, **bỏ** trường `het_hieu_luc_tu: '2026-12-31'` và cập nhật `ghi_chu` vì các Phụ lục II, III, IV, V vẫn đang còn hiệu lực (xem [[summary/van-ban-sap-het-hieu-luc-2026-2027]]).",
    "tags": [
     "thong-tu",
     "bct",
@@ -46805,7 +46805,7 @@
    "loai_trang": "sources",
    "tieu_de": "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS",
    "muc": "Summary",
-   "noi_dung": "**Thông tư 11/2018/TT-BTTTT** do Quyền Bộ trưởng Bộ Thông tin và Truyền thông Nguyễn Mạnh Hùng ký ban hành ngày **15/10/2018**, có hiệu lực thi hành từ ngày **30/11/2018**, công bố chi tiết Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm theo mã số HS và nguyên tắc, quy định áp dụng Danh mục này.\n\nVăn bản gồm **4 điều và 01 Phụ lục** (39 dòng danh mục thuộc Chương 84 và Chương 85 tại `danh-muc/11-2018-tt-btttt.csv`, tương ứng **186 mã HS** trong biểu thuế xuất nhập khẩu). Theo khoản 4 Điều 64 **Nghị định 292/2026/NĐ-CP**, Thông tư tiếp tục được thực hiện trong giai đoạn chuyển tiếp đến hết ngày **31/12/2026** và sẽ bị thay thế kể từ ngày **01/01/2027** bởi **Thông tư 63/2026/TT-BKHCN**.",
+   "noi_dung": "**Thông tư 11/2018/TT-BTTTT** do Quyền Bộ trưởng Bộ Thông tin và Truyền thông Nguyễn Mạnh Hùng ký ban hành ngày **15/10/2018**, có hiệu lực thi hành từ ngày **30/11/2018**, công bố chi tiết Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm theo mã số HS và nguyên tắc, quy định áp dụng Danh mục này.\n\nVăn bản gồm **4 điều và 01 Phụ lục** (38 dòng lá thuộc Chương 84 và Chương 85 tại `danh-muc/11-2018-tt-btttt.csv`, `da_doi_chieu: true`, tương ứng **186 mã HS** trong biểu thuế xuất nhập khẩu). Theo khoản 4 Điều 64 **Nghị định 292/2026/NĐ-CP**, Thông tư tiếp tục được thực hiện trong giai đoạn chuyển tiếp đến hết ngày **31/12/2026** và sẽ bị thay thế kể từ ngày **01/01/2027** bởi **Thông tư 63/2026/TT-BKHCN**.",
    "tags": [
     "thong-tu",
     "btttt",
@@ -47225,7 +47225,7 @@
    "loai_trang": "sources",
    "tieu_de": "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS",
    "muc": "Related concepts",
-   "noi_dung": "- [[concepts/hang-cu-cam-nhap-khau]]\n- [[concepts/phan-loai-ma-hs]]\n- [[concepts/co-quan-tiep-nhan-sau-sap-nhap]]\n- [[concepts/thu-tuc-hai-quan-xnk]]",
+   "noi_dung": "- [[summary/van-ban-sap-het-hieu-luc-2026-2027]]\n- [[concepts/hang-cu-cam-nhap-khau]]\n- [[concepts/phan-loai-ma-hs]]\n- [[concepts/co-quan-tiep-nhan-sau-sap-nhap]]\n- [[concepts/thu-tuc-hai-quan-xnk]]\n- [[concepts/doc-tinh-trang-hieu-luc]]",
    "tags": [
     "thong-tu",
     "btttt",
@@ -47245,7 +47245,7 @@
    "loai_trang": "sources",
    "tieu_de": "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS",
    "muc": "Related sources",
-   "noi_dung": "- [[sources/31-2015-tt-btttt]] (Thông tư bị thay thế Điều 3 và Phụ lục số 01 kể từ ngày 30/11/2018)\n- 63-2026-tt-bkhcn (Thông tư của Bộ Khoa học và Công nghệ công bố Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu — thay thế TT 11/2018/TT-BTTTT kể từ ngày 01/01/2027)\n- 292-2026-nd-cp (Nghị định quy định chi tiết Luật Quản lý ngoại thương — khoản 4 Điều 64 cho phép TT 11/2018/TT-BTTTT tiếp tục thực hiện đến hết 31/12/2026)\n- 31-2022-tt-btc (Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam hiện hành, thay thế văn bản lịch sử đã hết hiệu lực 65/2017/TT-BTC)",
+   "noi_dung": "- [[sources/31-2015-tt-btttt]] (Thông tư bị thay thế Điều 3 và Phụ lục số 01 kể từ ngày 30/11/2018)\n- [[sources/63-2026-tt-bkhcn]] (Thông tư của Bộ Khoa học và Công nghệ công bố Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu — thay thế TT 11/2018/TT-BTTTT kể từ ngày 01/01/2027)\n- [[sources/292-2026-nd-cp]] (Nghị định quy định chi tiết Luật Quản lý ngoại thương — khoản 4 Điều 64 cho phép TT 11/2018/TT-BTTTT tiếp tục thực hiện đến hết 31/12/2026)\n- 31-2022-tt-btc (Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam hiện hành, thay thế văn bản lịch sử đã hết hiệu lực 65/2017/TT-BTC)",
    "tags": [
     "thong-tu",
     "btttt",
@@ -47290,7 +47290,7 @@
    "loai_trang": "sources",
    "tieu_de": "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS",
    "muc": "Open questions",
-   "noi_dung": "- Trong bảng `danh-muc/11-2018-tt-btttt.csv` (39 dòng), hiện có 2 dòng tiêu đề nhóm 4 số cha (`8443` và `8544`) đi kèm các dòng mã 8 số con; cần lưu ý khi đối chiếu tự động theo điểm a khoản 2 Điều 2 (nhóm `8443` và `8544` chỉ cấm các mã 8 số được liệt kê chi tiết, không cấm toàn bộ nhóm 4 số như bảng `danh-muc/63-2026-tt-bkhcn.csv` đã chuẩn hóa thành 37 dòng lá).",
+   "noi_dung": "- Bảng `danh-muc/11-2018-tt-btttt.csv` đã hoàn tất đối chiếu người thứ hai (`da_doi_chieu: true`, 38 dòng lá: 9 mã 8 số nhóm `8443` kèm ngoại lệ hộp mực in laser `8443.99.20`, 11 nhóm 4 số, 18 mã 8 số nhóm `8544`; đã loại bỏ dòng tiêu đề cha `8544` để khớp đúng điểm a khoản 2 Điều 2 và đồng bộ cấu trúc lá với `danh-muc/63-2026-tt-bkhcn.csv`).\n- **Kịch bản cắt chuyển trạng thái tại mốc `31/12/2026` – `01/01/2027`:** Chuyển `tinh_trang: CON_HIEU_LUC` → `HET_HIEU_LUC` trên `registry/van-ban/11-2018-tt-btttt.yaml` đồng bộ với việc chuyển `63-2026-tt-bkhcn.yaml` sang `CON_HIEU_LUC` từ ngày `01/01/2027` (xem [[summary/van-ban-sap-het-hieu-luc-2026-2027]]).",
    "tags": [
     "thong-tu",
     "btttt",
@@ -47310,7 +47310,7 @@
    "loai_trang": "sources",
    "tieu_de": "TT 11/2018/TT-BTTTT — Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm mã số HS",
    "muc": "Notes",
-   "noi_dung": "- Đã đọc toàn văn từ tệp PDF Công báo Số 1011 + 1012 ngày 30/10/2018 (`raw/download/congbaocdn.chinhphu.vn/11-2018-tt-btttt.pdf`, 7 trang, từ trang 46 đến trang 52 Công báo, có lớp chữ điện tử ký số bởi Văn phòng Chính phủ ngày 02/11/2018).\n- Bảng mã HS đã trích xuất tại `danh-muc/11-2018-tt-btttt.csv` (39 dòng dữ liệu, được dẫn tại 186 mã HS trong biểu thuế).",
+   "noi_dung": "- Đã đọc toàn văn từ tệp PDF Công báo Số 1011 + 1012 ngày 30/10/2018 (`raw/download/congbaocdn.chinhphu.vn/11-2018-tt-btttt.pdf`, 7 trang, từ trang 46 đến trang 52 Công báo, có lớp chữ điện tử ký số bởi Văn phòng Chính phủ ngày 02/11/2018).\n- Bảng mã HS đã trích xuất và đối chiếu tại `danh-muc/11-2018-tt-btttt.csv` (38 dòng lá, `da_doi_chieu: true`, được dẫn tại 186 mã HS trong biểu thuế).",
    "tags": [
     "thong-tu",
     "btttt",
@@ -58180,7 +58180,7 @@
    "loai_trang": "sources",
    "tieu_de": "12/2018/TT-BCT — Quy định chi tiết Luật Quản lý ngoại thương và Nghị định 69/2018/NĐ-CP",
    "muc": "Related concepts & cross-references",
-   "noi_dung": "- [[concepts/hang-cu-cam-nhap-khau]]\n- [[concepts/han-ngach-thue-quan]]\n- [[concepts/phuong-tien-giao-thong-van-tai]]\n- [[concepts/thu-tuc-hai-quan-xnk]]\n\n---",
+   "noi_dung": "- [[summary/van-ban-sap-het-hieu-luc-2026-2027]]\n- [[concepts/hang-cu-cam-nhap-khau]]\n- [[concepts/han-ngach-thue-quan]]\n- [[concepts/phuong-tien-giao-thong-van-tai]]\n- [[concepts/thu-tuc-hai-quan-xnk]]\n- [[concepts/doc-tinh-trang-hieu-luc]]\n\n---",
    "tags": [
     "hang-da-qua-su-dung",
     "tam-nhap-tai-xuat",
@@ -58199,7 +58199,7 @@
    "loai_trang": "sources",
    "tieu_de": "12/2018/TT-BCT — Quy định chi tiết Luật Quản lý ngoại thương và Nghị định 69/2018/NĐ-CP",
    "muc": "Notes",
-   "noi_dung": "- Toàn văn Công báo lưu tại `raw/download/congbaocdn.chinhphu.vn/12-2018-tt-bct.pdf`. Kể từ ngày `05/09/2026`, chỉ tra cứu Phụ lục I trong giai đoạn chuyển tiếp tới hết `31/12/2026`; các nội dung TNTX, CFS và hạn ngạch thuế quan phải áp dụng theo [[sources/48-2026-tt-bct]].",
+   "noi_dung": "- Toàn văn Công báo lưu tại `raw/download/congbaocdn.chinhphu.vn/12-2018-tt-bct.pdf`. Kể từ ngày `05/09/2026`, chỉ tra cứu Phụ lục I trong giai đoạn chuyển tiếp tới hết `31/12/2026`; các nội dung TNTX, CFS và hạn ngạch thuế quan phải áp dụng theo [[sources/48-2026-tt-bct]].\n- **Kịch bản cắt chuyển trạng thái tại mốc `31/12/2026` – `01/01/2027`:** Sau ngày `31/12/2026` khi phần chuyển tiếp Phụ lục I (thiết bị y tế đã qua sử dụng cấm nhập khẩu theo khoản 3 Điều 21 `48/2026/TT-BCT`) kết thúc, chuyển `tinh_trang: HET_HIEU_LUC_MOT_PHAN` → `HET_HIEU_LUC` trên `registry/van-ban/12-2018-tt-bct.yaml` (xem [[summary/van-ban-sap-het-hieu-luc-2026-2027]]).",
    "tags": [
     "hang-da-qua-su-dung",
     "tam-nhap-tai-xuat",
@@ -58208,7 +58208,18 @@
     "bo-cong-thuong"
    ],
    "confidence": "high",
-   "van_ban_lien_quan": [],
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "48/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-48-2026-tt-bct-470460.htm"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -85122,7 +85133,7 @@
    "loai_trang": "sources",
    "tieu_de": "173/2018/TT-BQP — Danh mục hàng hóa cấm XK, cấm NK chuyên ngành Bộ Quốc phòng",
    "muc": "Tình trạng hiệu lực",
-   "noi_dung": "| Thuộc tính | Giá trị |\n| :--- | :--- |\n| **Số hiệu** | `173/2018/TT-BQP` |\n| **Cơ quan ban hành** | Bộ Quốc phòng (`BQP`) |\n| **Ngày ban hành** | `2018-12-31` |\n| **Ngày có hiệu lực** | `2019-01-01` (Điều 2) |\n| **Dự kiến hết hiệu lực** | `2026-12-31` *(theo khoản 4 Điều 64 [[sources/292-2026-nd-cp]])* |\n| **Tình trạng hiệu lực** | `CON_HIEU_LUC` |\n| **Thay thế** | [[sources/40-2017-tt-bqp]] ngày 23/02/2017 (Điều 2) |\n| **Dữ liệu mã HS trích xuất** | `danh-muc/173-2018-tt-bqp.csv` (`12 dòng` trích từ 12 mục có mã HS, phủ 41 mã HS 8 số; `da_doi_chieu: false`) |\n\n---",
+   "noi_dung": "| Thuộc tính | Giá trị |\n| :--- | :--- |\n| **Số hiệu** | `173/2018/TT-BQP` |\n| **Cơ quan ban hành** | Bộ Quốc phòng (`BQP`) |\n| **Ngày ban hành** | `2018-12-31` |\n| **Ngày có hiệu lực** | `2019-01-01` (Điều 2) |\n| **Dự kiến hết hiệu lực** | `2026-12-31` *(theo khoản 4 Điều 64 [[sources/292-2026-nd-cp]])* |\n| **Tình trạng hiệu lực** | `CON_HIEU_LUC` |\n| **Thay thế** | [[sources/40-2017-tt-bqp]] ngày 23/02/2017 (Điều 2) |\n| **Dữ liệu mã HS trích xuất** | `danh-muc/173-2018-tt-bqp.csv` (`12 dòng` trích từ 12 mục có mã HS, phủ 41 mã HS 8 số; `da_doi_chieu: true`) |\n\n---",
    "tags": [
     "hang-cam-xnk",
     "bo-quoc-phong",
@@ -85256,7 +85267,7 @@
    "loai_trang": "sources",
    "tieu_de": "173/2018/TT-BQP — Danh mục hàng hóa cấm XK, cấm NK chuyên ngành Bộ Quốc phòng",
    "muc": "Related concepts & cross-references",
-   "noi_dung": "- [[concepts/phan-loai-ma-hs]]\n- [[concepts/kiem-tra-chuyen-nganh]]\n\n---",
+   "noi_dung": "- [[summary/van-ban-sap-het-hieu-luc-2026-2027]]\n- [[concepts/phan-loai-ma-hs]]\n- [[concepts/kiem-tra-chuyen-nganh]]\n- [[concepts/doc-tinh-trang-hieu-luc]]\n\n---",
    "tags": [
     "hang-cam-xnk",
     "bo-quoc-phong",
@@ -85274,7 +85285,7 @@
    "loai_trang": "sources",
    "tieu_de": "173/2018/TT-BQP — Danh mục hàng hóa cấm XK, cấm NK chuyên ngành Bộ Quốc phòng",
    "muc": "Notes",
-   "noi_dung": "- Toàn văn PDF và bản OCR lưu tại `raw/download/datafiles.chinhphu.vn/173-2018-tt-bqp.pdf` và `raw/ocr/173-2018-tt-bqp.ocr.txt`. Khi kiểm tra mã HS nhóm 88, 93, 36, 87, 89 cần kết hợp đọc cả 12 mục mô tả `\"CHƯA CÓ MÃ HS\"` trong Phụ lục.",
+   "noi_dung": "- Toàn văn PDF và bản OCR lưu tại `raw/download/datafiles.chinhphu.vn/173-2018-tt-bqp.pdf` và `raw/ocr/173-2018-tt-bqp.ocr.txt`. Khi kiểm tra mã HS nhóm 88, 93, 36, 87, 89 cần kết hợp đọc cả 12 mục mô tả `\"CHƯA CÓ MÃ HS\"` trong Phụ lục.\n- **Theo dõi & kịch bản cắt chuyển trạng thái tại mốc `31/12/2026` – `01/01/2027`:** Đối chiếu đến ngày `24/11/2026` (Công báo số 584) chưa có Thông tư mới của Bộ Quốc phòng thay thế danh mục cấm XK/NK theo khoản 1 Điều 9 `292/2026/NĐ-CP`. Khi hết hạn chuyển tiếp ngày `31/12/2026`, chuyển `tinh_trang: CON_HIEU_LUC` → `HET_HIEU_LUC` trên `registry/van-ban/173-2018-tt-bqp.yaml` (hoặc gắn `quan_he.thay_the` từ văn bản mới nếu ban hành kịp — xem [[summary/van-ban-sap-het-hieu-luc-2026-2027]]).",
    "tags": [
     "hang-cam-xnk",
     "bo-quoc-phong",
@@ -85282,7 +85293,18 @@
     "vat-lieu-no"
    ],
    "confidence": "high",
-   "van_ban_lien_quan": [],
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "292/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-292-2026-nd-cp-470149.htm"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -85557,8 +85579,8 @@
    "duong_dan": "wiki/sources/174-2025-nd-cp.md",
    "loai_trang": "sources",
    "tieu_de": "NĐ 174/2025/NĐ-CP — Giảm thuế GTGT 10% xuống 8% theo NQ 204/2025/QH15",
-   "muc": "Related sources (chưa có wiki)",
-   "noi_dung": "- 204-2025-qh15 (NQ gốc)\n- 26-2023-nd-cp (Biểu thuế XK NK ưu đãi)\n- [[sources/107-2016-qh13]] — Luật Thuế XK NK",
+   "muc": "Related concepts",
+   "noi_dung": "- [[summary/van-ban-sap-het-hieu-luc-2026-2027]]\n- [[concepts/thue-gtgt-hang-nhap-khau]]\n- [[concepts/thu-tuc-hai-quan-xnk]]\n- [[concepts/doc-tinh-trang-hieu-luc]]",
    "tags": [
     "nd-cp",
     "thue-gtgt",
@@ -85576,8 +85598,48 @@
    "duong_dan": "wiki/sources/174-2025-nd-cp.md",
    "loai_trang": "sources",
    "tieu_de": "NĐ 174/2025/NĐ-CP — Giảm thuế GTGT 10% xuống 8% theo NQ 204/2025/QH15",
+   "muc": "Related sources",
+   "noi_dung": "- [[sources/204-2025-qh15]] — Nghị quyết 204/2025/QH15 về giảm 2% thuế suất thuế GTGT (căn cứ gốc)\n- [[sources/181-2025-nd-cp]] — Nghị định 181/2025/NĐ-CP quy định chi tiết Luật Thuế GTGT 2024\n- [[sources/26-2023-nd-cp]] — Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi (MFN)\n- [[sources/107-2016-qh13]] — Luật Thuế xuất khẩu, thuế nhập khẩu",
+   "tags": [
+    "nd-cp",
+    "thue-gtgt",
+    "giam-thue",
+    "vat-8",
+    "khai-bao-hai-quan"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "204/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=217343&pageid=27160"
+    },
+    {
+     "so_hieu": "181/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-181-2025-nd-cp-45379.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "174-2025-nd-cp#11",
+   "slug": "174-2025-nd-cp",
+   "duong_dan": "wiki/sources/174-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "NĐ 174/2025/NĐ-CP — Giảm thuế GTGT 10% xuống 8% theo NQ 204/2025/QH15",
    "muc": "Open questions",
-   "noi_dung": "- Phụ lục II (TTĐB) có cần đọc chi tiết để liệt kê đầy đủ HS code?\n- Có VB hướng dẫn chi tiết nào của BTC ban hành sau NĐ này không?",
+   "noi_dung": "- Phụ lục II (TTĐB) có cần đọc chi tiết để liệt kê đầy đủ HS code?\n- **Theo dõi & kịch bản cắt chuyển trạng thái tại mốc `31/12/2026` – `01/01/2027`:** Đối chiếu đến ngày `24/11/2026` (Công báo số 584) chưa có Nghị quyết Quốc hội hoặc Nghị định Chính phủ mới gia hạn chính sách giảm thuế GTGT 8% sang năm 2027. Nếu không có văn bản gia hạn mới, sau ngày `31/12/2026` chuyển `tinh_trang: CON_HIEU_LUC` → `HET_HIEU_LUC` trên `registry/van-ban/174-2025-nd-cp.yaml` (xem [[summary/van-ban-sap-het-hieu-luc-2026-2027]]).",
    "tags": [
     "nd-cp",
     "thue-gtgt",
@@ -85590,7 +85652,7 @@
    "canh_bao_hieu_luc": false
   },
   {
-   "chunk_id": "174-2025-nd-cp#11",
+   "chunk_id": "174-2025-nd-cp#12",
    "slug": "174-2025-nd-cp",
    "duong_dan": "wiki/sources/174-2025-nd-cp.md",
    "loai_trang": "sources",
@@ -92348,7 +92410,7 @@
    "loai_trang": "sources",
    "tieu_de": "NQ 204/2025/QH15 — Giảm 2% thuế suất thuế giá trị gia tăng (còn 8%) từ 01/07/2025 đến 31/12/2026",
    "muc": "Related concepts",
-   "noi_dung": "- [[concepts/thue-gtgt-hang-nhap-khau]]\n- [[concepts/thu-tuc-hai-quan-xnk]]",
+   "noi_dung": "- [[summary/van-ban-sap-het-hieu-luc-2026-2027]]\n- [[concepts/thue-gtgt-hang-nhap-khau]]\n- [[concepts/thu-tuc-hai-quan-xnk]]\n- [[concepts/doc-tinh-trang-hieu-luc]]",
    "tags": [
     "nghi-quyet",
     "qh",
@@ -92367,7 +92429,7 @@
    "loai_trang": "sources",
    "tieu_de": "NQ 204/2025/QH15 — Giảm 2% thuế suất thuế giá trị gia tăng (còn 8%) từ 01/07/2025 đến 31/12/2026",
    "muc": "Related sources",
-   "noi_dung": "- [[sources/174-2025-nd-cp]] (Nghị định 174/2025/NĐ-CP quy định chi tiết chính sách giảm thuế GTGT theo NQ 204/2025/QH15, kèm Phụ lục I, II mã HS loại trừ)\n- [[sources/101-2023-qh15]] (Nghị quyết Kỳ họp thứ 5 Quốc hội khóa XV — chính sách giảm 2% thuế GTGT giai đoạn 01/07/2023 – 31/12/2023)",
+   "noi_dung": "- [[sources/174-2025-nd-cp]] (Nghị định 174/2025/NĐ-CP quy định chi tiết chính sách giảm thuế GTGT theo NQ 204/2025/QH15, kèm Phụ lục I, II mã HS loại trừ)\n- [[sources/181-2025-nd-cp]] (Nghị định 181/2025/NĐ-CP quy định chi tiết thi hành Luật Thuế GTGT 2024)\n- [[sources/101-2023-qh15]] (Nghị quyết Kỳ họp thứ 5 Quốc hội khóa XV — chính sách giảm 2% thuế GTGT giai đoạn 01/07/2023 – 31/12/2023)",
    "tags": [
     "nghi-quyet",
     "qh",
@@ -92396,6 +92458,16 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?docid=217343&pageid=27160"
+    },
+    {
+     "so_hieu": "181/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-181-2025-nd-cp-45379.htm"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -92407,7 +92479,7 @@
    "loai_trang": "sources",
    "tieu_de": "NQ 204/2025/QH15 — Giảm 2% thuế suất thuế giá trị gia tăng (còn 8%) từ 01/07/2025 đến 31/12/2026",
    "muc": "Open questions",
-   "noi_dung": "- Theo kiểm tra trên `vanban.chinhphu.vn` đến ngày **20/11/2026**, chưa có Nghị quyết mới của Quốc hội kéo dài chính sách giảm thuế GTGT 8% sang năm 2027 (Nghị quyết `353-nq-cp` ngày 06/11/2026 mới giao Bộ Tài chính nghiên cứu). Cần theo dõi sát trước mốc **31/12/2026** để cập nhật cho tờ khai nhập khẩu đăng ký từ ngày 01/01/2027.",
+   "noi_dung": "- Theo kiểm tra trên `vanban.chinhphu.vn` và Công báo đến số 584 (ngày **24/11/2026**), chưa có Nghị quyết mới của Quốc hội kéo dài chính sách giảm thuế GTGT 8% sang năm 2027 (Nghị quyết `353-nq-cp` ngày 06/11/2026 mới giao Bộ Tài chính nghiên cứu).\n- **Kịch bản cắt chuyển trạng thái tại mốc `31/12/2026` – `01/01/2027`:** Nếu Quốc hội không ban hành Nghị quyết gia hạn mới, sau ngày `31/12/2026` chuyển `tinh_trang: CON_HIEU_LUC` → `HET_HIEU_LUC` trên `registry/van-ban/204-2025-qh15.yaml` (xem [[summary/van-ban-sap-het-hieu-luc-2026-2027]]).",
    "tags": [
     "nghi-quyet",
     "qh",
@@ -136594,7 +136666,7 @@
    "loai_trang": "sources",
    "tieu_de": "NQ 43/2026/NQ-CP — Kéo dài thời hạn ưu đãi thuế NK, thuế BVMT, thuế GTGT xăng dầu đến 31/12/2026",
    "muc": "Related concepts",
-   "noi_dung": "- [[concepts/thu-tuc-hai-quan-xnk]]\n- [[concepts/thue-gtgt-hang-nhap-khau]]\n- [[concepts/doc-tinh-trang-hieu-luc]]",
+   "noi_dung": "- [[summary/van-ban-sap-het-hieu-luc-2026-2027]]\n- [[concepts/thu-tuc-hai-quan-xnk]]\n- [[concepts/thue-gtgt-hang-nhap-khau]]\n- [[concepts/doc-tinh-trang-hieu-luc]]",
    "tags": [
     "nghi-quyet",
     "cp",
@@ -136638,7 +136710,7 @@
    "loai_trang": "sources",
    "tieu_de": "NQ 43/2026/NQ-CP — Kéo dài thời hạn ưu đãi thuế NK, thuế BVMT, thuế GTGT xăng dầu đến 31/12/2026",
    "muc": "Open questions",
-   "noi_dung": "- **Theo dõi mốc `31/12/2026`:** Đến ngày `20/11/2026` (kiểm tra danh mục nghị quyết Chính phủ đến `47-2026-nq-cp`), chưa có văn bản mới gia hạn thuế NK ưu đãi, BVMT và GTGT xăng, dầu sang năm 2027 (nghị quyết `45-2026-nq-cp` ngày 31/10/2026 chỉ về thuế TTĐB xăng `0%` đến `31/03/2027`). Nếu không có nghị quyết gia hạn mới, từ `01/01/2027` thuế NK quay về [[sources/26-2023-nd-cp]] và thuế BVMT quay về `579-2018-ubtvqh14` (trừ khi có NQ mới của UBTVQH).",
+   "noi_dung": "- **Theo dõi & kịch bản cắt chuyển trạng thái tại mốc `31/12/2026` – `01/01/2027`:** Đến ngày `24/11/2026` (Công báo số 584), chưa có văn bản mới gia hạn thuế NK ưu đãi, BVMT và GTGT xăng, dầu sang năm 2027 (nghị quyết `45-2026-nq-cp` ngày 31/10/2026 chỉ về thuế TTĐB xăng `0%` đến `31/03/2027`). Khi hết thời hạn hiệu lực ngày `31/12/2026`, chuyển `tinh_trang: CON_HIEU_LUC` → `HET_HIEU_LUC` trên `registry/van-ban/43-2026-nq-cp.yaml`; nếu không có nghị quyết gia hạn mới, từ `01/01/2027` thuế NK quay về [[sources/26-2023-nd-cp]] và thuế BVMT quay về `579-2018-ubtvqh14` (xem [[summary/van-ban-sap-het-hieu-luc-2026-2027]]).",
    "tags": [
     "nghi-quyet",
     "cp",
@@ -153583,7 +153655,7 @@
    "loai_trang": "sources",
    "tieu_de": "NĐ 72/2026/NĐ-CP — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu",
    "muc": "Related concepts",
-   "noi_dung": "- [[concepts/phan-loai-ma-hs]]\n- [[concepts/thu-tuc-hai-quan-xnk]]\n- [[concepts/thue-gtgt-hang-nhap-khau]]",
+   "noi_dung": "- [[summary/van-ban-sap-het-hieu-luc-2026-2027]]\n- [[concepts/phan-loai-ma-hs]]\n- [[concepts/thu-tuc-hai-quan-xnk]]\n- [[concepts/thue-gtgt-hang-nhap-khau]]\n- [[concepts/doc-tinh-trang-hieu-luc]]",
    "tags": [
     "nghi-dinh",
     "bieu-thue",
@@ -153603,7 +153675,7 @@
    "loai_trang": "sources",
    "tieu_de": "NĐ 72/2026/NĐ-CP — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu",
    "muc": "Related sources",
-   "noi_dung": "- [[sources/26-2023-nd-cp]] (Nghị định gốc ban hành Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi MFN)\n- 43-2026-nq-cp (Nghị quyết ngày 30/09/2026 của Chính phủ kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường và thuế GTGT đối với xăng, dầu đến hết ngày 31/12/2026)\n- [[sources/107-2016-qh13]] (Luật Thuế xuất khẩu, thuế nhập khẩu)\n- [[sources/54-2014-qh13]] (Luật Hải quan)\n- [[sources/38-2019-qh14]] (Luật Quản lý thuế)",
+   "noi_dung": "- [[sources/26-2023-nd-cp]] (Nghị định gốc ban hành Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi MFN)\n- [[sources/43-2026-nq-cp]] (Nghị quyết ngày 30/09/2026 của Chính phủ kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường và thuế GTGT đối với xăng, dầu đến hết ngày 31/12/2026)\n- [[sources/107-2016-qh13]] (Luật Thuế xuất khẩu, thuế nhập khẩu)\n- [[sources/54-2014-qh13]] (Luật Hải quan)\n- [[sources/38-2019-qh14]] (Luật Quản lý thuế)",
    "tags": [
     "nghi-dinh",
     "bieu-thue",
@@ -153623,7 +153695,7 @@
    "loai_trang": "sources",
    "tieu_de": "NĐ 72/2026/NĐ-CP — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu",
    "muc": "Open questions",
-   "noi_dung": "- Thời hạn kéo dài theo Nghị quyết 43/2026/NQ-CP sẽ kết thúc vào ngày **31/12/2026**; cần theo dõi danh mục Nghị quyết Chính phủ trong tháng 12/2026 để cập nhật kịp thời nếu Chính phủ ban hành Nghị quyết tiếp tục kéo dài sang năm 2027 hoặc để thuế suất MFN xăng dầu tự động quay về Phụ lục II Nghị định 26/2023/NĐ-CP từ ngày 01/01/2027.",
+   "noi_dung": "- **Theo dõi & kịch bản cắt chuyển trạng thái tại mốc `31/12/2026` – `01/01/2027`:** Thời hạn kéo dài theo [[sources/43-2026-nq-cp]] sẽ kết thúc vào ngày **31/12/2026** (`het_hieu_luc_tu: '2027-01-01'`); đến ngày `24/11/2026` (Công báo số 584) chưa có Nghị quyết Chính phủ mới kéo dài sang năm 2027. Từ ngày `01/01/2027`, nếu không có Nghị quyết mới theo khoản 2 Điều 2, chuyển `tinh_trang: CON_HIEU_LUC` → `HET_HIEU_LUC` trên `registry/van-ban/72-2026-nd-cp.yaml` và thuế suất MFN xăng dầu tự động quay về Phụ lục II [[sources/26-2023-nd-cp]] (xem [[summary/van-ban-sap-het-hieu-luc-2026-2027]]).",
    "tags": [
     "nghi-dinh",
     "bieu-thue",
@@ -153633,28 +153705,7 @@
     "con-hieu-luc"
    ],
    "confidence": "high",
-   "van_ban_lien_quan": [
-    {
-     "so_hieu": "43/2026/NQ-CP",
-     "tinh_trang": "CON_HIEU_LUC",
-     "hieu_luc_tu": "2026-10-01",
-     "het_hieu_luc_tu": "2026-12-31",
-     "hieu_luc_da_doi_chieu": true,
-     "bi_thay_the_boi": [],
-     "bi_bai_bo_boi": [],
-     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=219739"
-    },
-    {
-     "so_hieu": "26/2023/NĐ-CP",
-     "tinh_trang": "CON_HIEU_LUC",
-     "hieu_luc_tu": "2023-07-15",
-     "het_hieu_luc_tu": null,
-     "hieu_luc_da_doi_chieu": true,
-     "bi_thay_the_boi": [],
-     "bi_bai_bo_boi": [],
-     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=208020&pageid=27160"
-    }
-   ],
+   "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
   {

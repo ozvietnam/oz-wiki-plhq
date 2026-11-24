@@ -1,11 +1,11 @@
 {
- "phien_ban": "2026-11-23",
+ "phien_ban": "2026-11-24",
  "luoc_do_phien_ban": "1.5.0",
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "luoc_do": "docs/luoc-do-danh-muc-hs.md",
  "cach_tra": "Khoá là nhóm mã HS trong bảng (4, 6 hoặc 8 số). Tra mã 8 số: ghép mọi khoá là tiền tố của mã (độ dài 4, 6) và khoá trùng 8 số. Cạnh giữ nguyên dieu_kien — \"trừ loại…\" là trừ diện, không phải diện áp. canh_bao_ma = nhóm mã không có trong biểu thuế đối chiếu — tra ra các khoá này thì dừng và đối chiếu lại văn bản gốc, đừng kết luận diện áp. tien_le_tb_tchq = mật độ thông báo phân loại của Tổng cục (bậc C, tham khảo).",
- "tong_nhom_ma": 5602,
- "tong_canh": 11059,
+ "tong_nhom_ma": 5576,
+ "tong_canh": 11021,
  "bieu_thue_doi_chieu": {
   "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/tax.json",
   "phien_ban": "2026-11-21",
@@ -10010,7 +10010,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -10054,7 +10054,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -10068,7 +10068,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -10098,7 +10098,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -10112,7 +10112,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -10156,7 +10156,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -10170,7 +10170,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -10200,7 +10200,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026; trừ lá chắn chống bạo loạn, đinh phản quang và màn lưới thẩm thuốc diệt muỗi",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT); trừ lá chắn chống bạo loạn, đinh phản quang và màn lưới thẩm thuốc diệt muỗi",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -10214,7 +10214,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -10263,52 +10263,6 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục"
-   }
-  ],
-  "4015": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "CAM_NHAP_KHAU",
-    "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
-   }
-  ],
-  "4016": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "CAM_NHAP_KHAU",
-    "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
-    "nhom": "I",
-    "phu_luc": "Phụ lục I"
-   },
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
    }
   ],
   "4101": [
@@ -10370,7 +10324,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -10384,7 +10338,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -10414,7 +10368,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -10428,7 +10382,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -10502,7 +10456,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -10546,7 +10500,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -10560,7 +10514,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -10964,7 +10918,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -11072,7 +11026,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -11086,7 +11040,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -11130,7 +11084,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -11144,7 +11098,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -11188,7 +11142,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -11202,7 +11156,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -11269,22 +11223,6 @@
     "phu_luc": "Phụ lục V"
    }
   ],
-  "4823": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
   "5007": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -11296,7 +11234,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -11404,7 +11342,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -11448,7 +11386,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -11462,7 +11400,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -11554,7 +11492,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -11598,7 +11536,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -11612,7 +11550,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -11656,7 +11594,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -11670,7 +11608,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -11714,7 +11652,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -11728,7 +11666,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -11772,7 +11710,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -11786,7 +11724,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -11950,7 +11888,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -11994,7 +11932,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -12008,7 +11946,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -12052,7 +11990,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -12066,7 +12004,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -12142,7 +12080,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -12186,7 +12124,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -12200,7 +12138,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -12276,7 +12214,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -12320,7 +12258,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -12334,7 +12272,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -12378,7 +12316,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -12392,7 +12330,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -12436,7 +12374,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -12450,7 +12388,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -12494,7 +12432,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -12508,7 +12446,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -14242,7 +14180,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -14300,7 +14238,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -14314,7 +14252,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -14372,7 +14310,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -14386,7 +14324,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -14444,7 +14382,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -14458,7 +14396,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -14596,7 +14534,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026; trừ dạng dải",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT); trừ dạng dải",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -14610,7 +14548,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": "trừ dạng dải",
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực); trừ dạng dải",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -14643,22 +14581,6 @@
     "phu_luc": "Phụ lục"
    }
   ],
-  "6506": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
   "6601": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -14670,7 +14592,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -14700,7 +14622,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -14730,7 +14652,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -14744,7 +14666,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -14790,7 +14712,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -14820,7 +14742,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -14834,7 +14756,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -14878,7 +14800,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -14892,7 +14814,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -14922,7 +14844,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -14936,7 +14858,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -14982,7 +14904,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026; trừ các sản phẩm thuộc nhóm 70.10 hoặc 70.18",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT); trừ các sản phẩm thuộc nhóm 70.10 hoặc 70.18",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -15012,7 +14934,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -15508,7 +15430,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -15538,7 +15460,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -15552,7 +15474,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -15596,7 +15518,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -15610,7 +15532,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -15640,7 +15562,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -15670,7 +15592,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -15732,7 +15654,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -15746,7 +15668,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -15776,7 +15698,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -15790,7 +15712,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -15823,22 +15745,6 @@
     "phu_luc": "Phụ lục I"
    }
   ],
-  "8302": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
   "8306": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -15850,7 +15756,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -15864,7 +15770,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -15917,20 +15823,6 @@
   ],
   "8418": [
    {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   },
-   {
     "so_hieu": "292/2026/NĐ-CP",
     "slug": "292-2026-nd-cp",
     "ten": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương",
@@ -15943,54 +15835,6 @@
     "dieu_kien": "cấm kinh doanh tạm nhập, tái xuất, chuyển khẩu; không áp dụng chuyển khẩu hàng vận chuyển thẳng không qua cửa khẩu Việt Nam; chỉ áp dụng loại có sử dụng dung môi chất lạnh C.F.C12 (R12) — Dichlorodifluoromethane, CF2Cl2",
     "nhom": "Chương 84",
     "phu_luc": "Phụ lục V"
-   }
-  ],
-  "8419": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": "trừ lò luyện, nung, sấy và các thiết bị khác thuộc nhóm 85.14",
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "8421": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "8422": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
    }
   ],
   "8426": [
@@ -16201,22 +16045,6 @@
     "phu_luc": "Phụ lục"
    }
   ],
-  "8450": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
   "8470": [
    {
     "so_hieu": "11/2018/TT-BTTTT",
@@ -16380,7 +16208,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -16394,7 +16222,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -16424,7 +16252,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -16438,7 +16266,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -16468,7 +16296,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -16482,7 +16310,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -16533,20 +16361,6 @@
   ],
   "8518": [
    {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   },
-   {
     "so_hieu": "11/2018/TT-BTTTT",
     "slug": "11-2018-tt-btttt",
     "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm theo mã số HS",
@@ -16575,22 +16389,6 @@
     "phu_luc": "Phụ lục"
    }
   ],
-  "8519": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
   "8521": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -16602,7 +16400,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -16616,7 +16414,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -16646,7 +16444,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -16660,7 +16458,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -16750,7 +16548,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -16764,7 +16562,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -16838,7 +16636,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -16852,7 +16650,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -16918,20 +16716,6 @@
    }
   ],
   "8539": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   },
    {
     "so_hieu": "34/2025/TT-BCT",
     "slug": "34-2025-tt-bct",
@@ -17008,20 +16792,6 @@
    }
   ],
   "8544": [
-   {
-    "so_hieu": "11/2018/TT-BTTTT",
-    "slug": "11-2018-tt-btttt",
-    "ten": "Công bố chi tiết Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm theo mã số HS",
-    "tinh_trang": "CON_HIEU_LUC",
-    "hieu_luc_tu": "2018-11-30",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "CAM_NHAP_KHAU",
-    "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này)",
-    "nhom": null,
-    "phu_luc": "Phụ lục"
-   },
    {
     "so_hieu": "34/2025/TT-BCT",
     "slug": "34-2025-tt-bct",
@@ -17446,7 +17216,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "II",
     "phu_luc": "Phụ lục I"
    },
@@ -17490,7 +17260,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026; trừ xe đạp đua mã HS 8712.00.10",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT); trừ xe đạp đua mã HS 8712.00.10",
     "nhom": "II",
     "phu_luc": "Phụ lục I"
    },
@@ -17504,7 +17274,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": "trừ xe đạp đua mã HS 8712.00.10",
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực); trừ xe đạp đua mã HS 8712.00.10",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -17534,7 +17304,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026; trừ bộ phận và phụ tùng của nhóm 8713",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT); trừ bộ phận và phụ tùng của nhóm 8713",
     "nhom": "II",
     "phu_luc": "Phụ lục I"
    },
@@ -17548,7 +17318,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": "trừ bộ phận và phụ kiện của nhóm 87.13",
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực); trừ bộ phận và phụ kiện của nhóm 87.13",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -17656,7 +17426,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm thiết bị y tế ĐÃ QUA SỬ DỤNG; Mục III Phụ lục I tiếp tục áp dụng chuyển tiếp đến hết 31-12-2026 theo khoản 3 Điều 21 TT 48/2026/TT-BCT",
     "nhom": "III",
     "phu_luc": "Phụ lục I"
    }
@@ -17672,7 +17442,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm thiết bị y tế ĐÃ QUA SỬ DỤNG; Mục III Phụ lục I tiếp tục áp dụng chuyển tiếp đến hết 31-12-2026 theo khoản 3 Điều 21 TT 48/2026/TT-BCT",
     "nhom": "III",
     "phu_luc": "Phụ lục I"
    },
@@ -17702,7 +17472,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm thiết bị y tế ĐÃ QUA SỬ DỤNG; Mục III Phụ lục I tiếp tục áp dụng chuyển tiếp đến hết 31-12-2026 theo khoản 3 Điều 21 TT 48/2026/TT-BCT",
     "nhom": "III",
     "phu_luc": "Phụ lục I"
    },
@@ -17732,7 +17502,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm thiết bị y tế ĐÃ QUA SỬ DỤNG; Mục III Phụ lục I tiếp tục áp dụng chuyển tiếp đến hết 31-12-2026 theo khoản 3 Điều 21 TT 48/2026/TT-BCT",
     "nhom": "III",
     "phu_luc": "Phụ lục I"
    }
@@ -17748,7 +17518,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm thiết bị y tế ĐÃ QUA SỬ DỤNG; Mục III Phụ lục I tiếp tục áp dụng chuyển tiếp đến hết 31-12-2026 theo khoản 3 Điều 21 TT 48/2026/TT-BCT",
     "nhom": "III",
     "phu_luc": "Phụ lục I"
    }
@@ -17764,7 +17534,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -17794,7 +17564,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -17808,7 +17578,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -17838,7 +17608,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -17852,7 +17622,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -17882,7 +17652,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026; trừ đồng hồ đo thời gian hàng hải mã HS 9105.91.10, 9105.99.10 và máy tương tự",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT); trừ đồng hồ đo thời gian hàng hải mã HS 9105.91.10, 9105.99.10 và máy tương tự",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -17896,7 +17666,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": "trừ đồng hồ đo thời gian hàng hải mã HS 9105.91.10, 9105.99.10 và máy tương tự",
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực); trừ đồng hồ đo thời gian hàng hải mã HS 9105.91.10, 9105.99.10 và máy tương tự",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -18006,7 +17776,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -18020,7 +17790,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -18064,7 +17834,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -18094,7 +17864,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -18108,7 +17878,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -18170,7 +17940,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -18184,7 +17954,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -18214,7 +17984,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -18228,7 +17998,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -18258,7 +18028,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -18272,7 +18042,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -18437,20 +18207,6 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục II"
-   },
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục III"
    }
   ],
   "100620": [
@@ -18495,20 +18251,6 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục II"
-   },
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục III"
    }
   ],
   "100630": [
@@ -18597,20 +18339,6 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục II"
-   },
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục III"
    }
   ],
   "110290": [
@@ -21423,20 +21151,6 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục II"
-   },
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục IV"
    }
   ],
   "240120": [
@@ -21453,20 +21167,6 @@
     "dieu_kien": null,
     "nhom": "Mục 9",
     "phu_luc": "Phụ lục I"
-   },
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục IV"
    },
    {
     "so_hieu": "48/2026/TT-BCT",
@@ -21511,20 +21211,6 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục II"
-   },
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục IV"
    }
   ],
   "240311": [
@@ -21557,52 +21243,6 @@
     "dieu_kien": null,
     "nhom": null,
     "phu_luc": "Phụ lục II"
-   },
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục IV"
-   }
-  ],
-  "240391": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục IV"
-   }
-  ],
-  "240399": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục IV"
    }
   ],
   "240412": [
@@ -23236,7 +22876,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -23294,7 +22934,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -23308,7 +22948,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -25439,38 +25079,6 @@
     "phu_luc": "Phụ lục I"
    }
   ],
-  "481320": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục IV"
-   }
-  ],
-  "481390": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "GIAY_PHEP",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục IV"
-   }
-  ],
   "481420": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -25482,7 +25090,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -25499,22 +25107,6 @@
     "dieu_kien": "Chỉ áp dụng đối với hàng tiêu dùng đã qua sử dụng",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
-   }
-  ],
-  "482390": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
    }
   ],
   "500710": [
@@ -28328,7 +27920,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -28342,7 +27934,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -28402,7 +27994,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -28416,7 +28008,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -28446,7 +28038,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    }
@@ -28828,7 +28420,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -28842,7 +28434,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -28968,7 +28560,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -29012,7 +28604,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -29042,7 +28634,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -29072,7 +28664,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -29102,7 +28694,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -29116,7 +28708,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -29160,7 +28752,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -29174,7 +28766,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -29218,7 +28810,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -29232,7 +28824,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -29251,22 +28843,6 @@
     "phu_luc": "Phụ lục I"
    }
   ],
-  "841590": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
   "841821": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -29278,7 +28854,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -29324,7 +28900,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -29338,7 +28914,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -29357,38 +28933,6 @@
     "phu_luc": "Phụ lục I"
    }
   ],
-  "841911": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "841919": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
   "841981": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -29400,7 +28944,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -29414,7 +28958,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -29431,22 +28975,6 @@
     "dieu_kien": "Chỉ áp dụng đối với hàng tiêu dùng đã qua sử dụng",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
-   }
-  ],
-  "842121": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
    }
   ],
   "842129": [
@@ -29476,7 +29004,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -29490,23 +29018,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "842290": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    }
@@ -29522,7 +29034,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -29536,7 +29048,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -29566,7 +29078,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -29580,7 +29092,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -29674,7 +29186,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -29704,7 +29216,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -29734,7 +29246,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -29753,38 +29265,6 @@
     "phu_luc": "Phụ lục I"
    }
   ],
-  "845090": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "845130": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
   "847130": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -29796,7 +29276,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -29826,7 +29306,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    }
@@ -29842,7 +29322,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    }
@@ -29911,22 +29391,6 @@
     "phu_luc": "Phụ lục V"
    }
   ],
-  "850870": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
   "851220": [
    {
     "so_hieu": "49/2026/TT-BXD",
@@ -29970,7 +29434,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    }
@@ -29986,25 +29450,9 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
-   }
-  ],
-  "851830": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
    }
   ],
   "851840": [
@@ -30018,7 +29466,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -30032,7 +29480,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    }
@@ -30048,7 +29496,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    }
@@ -30064,7 +29512,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -30078,23 +29526,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "851981": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    }
@@ -30110,7 +29542,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    }
@@ -30126,7 +29558,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    }
@@ -30142,7 +29574,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    }
@@ -30158,7 +29590,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    }
@@ -30174,41 +29606,9 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
-   }
-  ],
-  "853922": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
-   }
-  ],
-  "853929": [
-   {
-    "so_hieu": "08/2023/TT-BCT",
-    "slug": "08-2023-tt-bct",
-    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
-    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
-    "hieu_luc_tu": "2023-05-16",
-    "het_hieu_luc_tu": "2026-12-31",
-    "hieu_luc_da_doi_chieu": true,
-    "loai_tac_dong": "KHAC",
-    "muc_rui_ro": null,
-    "dieu_kien": null,
-    "nhom": null,
-    "phu_luc": "Phụ lục II"
    }
   ],
   "853931": [
@@ -30222,7 +29622,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    }
@@ -30238,7 +29638,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -30252,7 +29652,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -30504,7 +29904,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -30518,7 +29918,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -30548,7 +29948,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -30562,7 +29962,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -30592,7 +29992,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -30606,7 +30006,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -30650,7 +30050,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -30664,7 +30064,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -30694,7 +30094,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -30708,7 +30108,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -30738,7 +30138,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -30752,7 +30152,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -30830,7 +30230,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -30844,7 +30244,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -71624,7 +71024,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    }
@@ -71640,7 +71040,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -71654,7 +71054,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -71684,7 +71084,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -71714,7 +71114,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    }
@@ -71874,7 +71274,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -79259,6 +78659,22 @@
     "phu_luc": "Phụ lục IV"
    }
   ],
+  "48132022": [
+   {
+    "so_hieu": "08/2023/TT-BCT",
+    "slug": "08-2023-tt-bct",
+    "ten": "Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương",
+    "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+    "hieu_luc_tu": "2023-05-16",
+    "het_hieu_luc_tu": "2026-12-31",
+    "hieu_luc_da_doi_chieu": true,
+    "loai_tac_dong": "GIAY_PHEP",
+    "muc_rui_ro": null,
+    "dieu_kien": null,
+    "nhom": null,
+    "phu_luc": "Phụ lục IV"
+   }
+  ],
   "48132023": [
    {
     "so_hieu": "08/2023/TT-BCT",
@@ -79510,7 +78926,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -79524,7 +78940,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -79554,7 +78970,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -79568,7 +78984,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -79598,7 +79014,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -79612,7 +79028,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -79786,7 +79202,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -80752,7 +80168,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -80766,7 +80182,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -105118,7 +104534,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -105132,7 +104548,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -105190,7 +104606,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -105204,7 +104620,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -105544,7 +104960,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -105740,7 +105156,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -105754,7 +105170,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -105800,7 +105216,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -105814,7 +105230,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -105844,7 +105260,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -105858,7 +105274,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -106474,7 +105890,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -106488,7 +105904,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -111752,7 +111168,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -111782,7 +111198,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -111796,7 +111212,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -111826,7 +111242,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -111840,7 +111256,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -111870,7 +111286,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -111900,7 +111316,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -111914,7 +111330,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -111944,7 +111360,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -111958,7 +111374,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -112696,7 +112112,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -112710,7 +112126,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -112740,7 +112156,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -112800,7 +112216,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -112920,7 +112336,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -112978,7 +112394,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -113066,7 +112482,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -113266,7 +112682,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -113280,7 +112696,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -113310,7 +112726,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -113324,7 +112740,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -113386,7 +112802,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -113432,7 +112848,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -113446,7 +112862,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -113538,7 +112954,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -113584,7 +113000,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -113598,7 +113014,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -115294,7 +114710,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (hàng mới không thuộc danh mục này); không cấm: máy in/photocopy kỹ thuật số đơn sắc (đen trắng) khổ A0 hoặc tốc độ từ 35 bản/phút khổ A4 trở lên; hộp mực laser đã qua sử dụng (theo Điều 2 khoản 2 điểm c)",
+    "dieu_kien": "Chỉ cấm sản phẩm ĐÃ QUA SỬ DỤNG (loại trừ hộp mực cho máy in laser đã qua sử dụng mã HS 8443.99.20 theo điểm c khoản 2 Điều 2 và Phụ lục)",
     "nhom": null,
     "phu_luc": "Phụ lục"
    },
@@ -115508,7 +114924,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -115522,7 +114938,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -115552,7 +114968,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -115566,7 +114982,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -115596,7 +115012,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -115610,7 +115026,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -116100,7 +115516,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -116510,7 +115926,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -118726,7 +118142,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -118770,7 +118186,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -118830,7 +118246,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -118844,7 +118260,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -119286,7 +118702,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -119360,7 +118776,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -119418,7 +118834,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -119560,7 +118976,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -121440,7 +120856,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -121454,7 +120870,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -121484,7 +120900,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -121498,7 +120914,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -121528,7 +120944,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -121542,7 +120958,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -121572,7 +120988,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -121586,7 +121002,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -121632,7 +121048,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -121646,7 +121062,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -121676,7 +121092,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -121690,7 +121106,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -121720,7 +121136,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -121734,7 +121150,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -121764,7 +121180,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -121778,7 +121194,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -121808,7 +121224,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -121822,7 +121238,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -121852,7 +121268,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -121866,7 +121282,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -121896,7 +121312,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -121910,7 +121326,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -121940,7 +121356,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -121954,7 +121370,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -123628,7 +123044,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    }
@@ -124524,7 +123940,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -124538,7 +123954,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -124568,7 +123984,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    }
@@ -124584,7 +124000,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -124598,7 +124014,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -124628,7 +124044,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -124642,7 +124058,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -124672,7 +124088,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -124686,7 +124102,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -124716,7 +124132,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -124762,7 +124178,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -127376,7 +126792,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -128494,7 +127910,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -128508,7 +127924,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -128538,7 +127954,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -128552,7 +127968,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -128582,7 +127998,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -128596,7 +128012,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -128626,7 +128042,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -128640,7 +128056,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -128670,7 +128086,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -128684,7 +128100,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -128714,7 +128130,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -128728,7 +128144,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -128758,7 +128174,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    }
@@ -128788,7 +128204,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -128802,7 +128218,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -128864,7 +128280,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -128878,7 +128294,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -128938,7 +128354,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -128952,7 +128368,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -129108,7 +128524,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -129122,7 +128538,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -129166,7 +128582,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -129180,7 +128596,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -129238,7 +128654,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -129252,7 +128668,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -129310,7 +128726,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -129324,7 +128740,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -129400,7 +128816,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -129414,7 +128830,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -129458,7 +128874,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -129472,7 +128888,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -129916,7 +129332,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -129930,7 +129346,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -129988,7 +129404,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -130002,7 +129418,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -130076,7 +129492,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -130090,7 +129506,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -130164,7 +129580,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -130178,7 +129594,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -130222,7 +129638,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -130236,7 +129652,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -130266,7 +129682,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -130280,7 +129696,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -130422,7 +129838,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -130436,7 +129852,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -130466,7 +129882,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -130480,7 +129896,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -130510,7 +129926,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -130524,7 +129940,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -130554,7 +129970,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -130568,7 +129984,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -130966,7 +130382,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -130996,7 +130412,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -131010,7 +130426,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -131056,7 +130472,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -131070,7 +130486,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },
@@ -131100,7 +130516,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "CAM_NHAP_KHAU",
     "muc_rui_ro": null,
-    "dieu_kien": "Chỉ cấm hàng tiêu dùng, thiết bị y tế ĐÃ QUA SỬ DỤNG; Phụ lục I bị TT 48/2026/TT-BCT bãi từ 05-09-2026, chuyển tiếp đến hết 31-12-2026",
+    "dieu_kien": "Chỉ cấm hàng tiêu dùng, phương tiện ĐÃ QUA SỬ DỤNG; Mục I–II Phụ lục I đã bị TT 48/2026/TT-BCT bãi bỏ từ 05-09-2026 (áp dụng theo Phụ lục I–II TT 48/2026/TT-BCT)",
     "nhom": "I",
     "phu_luc": "Phụ lục I"
    },
@@ -131114,7 +130530,7 @@
     "hieu_luc_da_doi_chieu": true,
     "loai_tac_dong": "KHAC",
     "muc_rui_ro": null,
-    "dieu_kien": null,
+    "dieu_kien": "Tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu đối với hàng hóa ĐÃ QUA SỬ DỤNG (Phụ lục II còn hiệu lực)",
     "nhom": null,
     "phu_luc": "Phụ lục II"
    },

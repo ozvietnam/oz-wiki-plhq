@@ -29,7 +29,7 @@ raw_paths:
 
 **Thông tư 11/2018/TT-BTTTT** do Quyền Bộ trưởng Bộ Thông tin và Truyền thông Nguyễn Mạnh Hùng ký ban hành ngày **15/10/2018**, có hiệu lực thi hành từ ngày **30/11/2018**, công bố chi tiết Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm theo mã số HS và nguyên tắc, quy định áp dụng Danh mục này.
 
-Văn bản gồm **4 điều và 01 Phụ lục** (39 dòng danh mục thuộc Chương 84 và Chương 85 tại `danh-muc/11-2018-tt-btttt.csv`, tương ứng **186 mã HS** trong biểu thuế xuất nhập khẩu). Theo khoản 4 Điều 64 **Nghị định 292/2026/NĐ-CP**, Thông tư tiếp tục được thực hiện trong giai đoạn chuyển tiếp đến hết ngày **31/12/2026** và sẽ bị thay thế kể từ ngày **01/01/2027** bởi **Thông tư 63/2026/TT-BKHCN**.
+Văn bản gồm **4 điều và 01 Phụ lục** (38 dòng lá thuộc Chương 84 và Chương 85 tại `danh-muc/11-2018-tt-btttt.csv`, `da_doi_chieu: true`, tương ứng **186 mã HS** trong biểu thuế xuất nhập khẩu). Theo khoản 4 Điều 64 **Nghị định 292/2026/NĐ-CP**, Thông tư tiếp tục được thực hiện trong giai đoạn chuyển tiếp đến hết ngày **31/12/2026** và sẽ bị thay thế kể từ ngày **01/01/2027** bởi **Thông tư 63/2026/TT-BKHCN**.
 
 ## Tình trạng hiệu lực
 
@@ -146,10 +146,10 @@ Thủ trưởng các cơ quan, đơn vị thuộc Bộ TTTT và các cơ quan, t
 
 ## Open questions
 
-- Trong bảng `danh-muc/11-2018-tt-btttt.csv` (39 dòng), hiện có 2 dòng tiêu đề nhóm 4 số cha (`8443` và `8544`) đi kèm các dòng mã 8 số con; cần lưu ý khi đối chiếu tự động theo điểm a khoản 2 Điều 2 (nhóm `8443` và `8544` chỉ cấm các mã 8 số được liệt kê chi tiết, không cấm toàn bộ nhóm 4 số như bảng `danh-muc/63-2026-tt-bkhcn.csv` đã chuẩn hóa thành 37 dòng lá).
+- Bảng `danh-muc/11-2018-tt-btttt.csv` đã hoàn tất đối chiếu người thứ hai (`da_doi_chieu: true`, 38 dòng lá: 9 mã 8 số nhóm `8443` kèm ngoại lệ hộp mực in laser `8443.99.20`, 11 nhóm 4 số, 18 mã 8 số nhóm `8544`; đã loại bỏ dòng tiêu đề cha `8544` để khớp đúng điểm a khoản 2 Điều 2 và đồng bộ cấu trúc lá với `danh-muc/63-2026-tt-bkhcn.csv`).
 - **Kịch bản cắt chuyển trạng thái tại mốc `31/12/2026` – `01/01/2027`:** Chuyển `tinh_trang: CON_HIEU_LUC` → `HET_HIEU_LUC` trên `registry/van-ban/11-2018-tt-btttt.yaml` đồng bộ với việc chuyển `63-2026-tt-bkhcn.yaml` sang `CON_HIEU_LUC` từ ngày `01/01/2027` (xem [[summary/van-ban-sap-het-hieu-luc-2026-2027]]).
 
 ## Notes
 
 - Đã đọc toàn văn từ tệp PDF Công báo Số 1011 + 1012 ngày 30/10/2018 (`raw/download/congbaocdn.chinhphu.vn/11-2018-tt-btttt.pdf`, 7 trang, từ trang 46 đến trang 52 Công báo, có lớp chữ điện tử ký số bởi Văn phòng Chính phủ ngày 02/11/2018).
-- Bảng mã HS đã trích xuất tại `danh-muc/11-2018-tt-btttt.csv` (39 dòng dữ liệu, được dẫn tại 186 mã HS trong biểu thuế).
+- Bảng mã HS đã trích xuất và đối chiếu tại `danh-muc/11-2018-tt-btttt.csv` (38 dòng lá, `da_doi_chieu: true`, được dẫn tại 186 mã HS trong biểu thuế).
