@@ -59,8 +59,8 @@ function soGia(vanBan, { wiki = {}, docHieu = {}, danhMuc = {}, extra = {} } = {
 }
 
 try {
-  // 1. Phiên bản lược đồ 1.5.0
-  t('lược đồ: LUOC_DO_PHIEN_BAN = 1.5.0', LUOC_DO_PHIEN_BAN === '1.5.0');
+  // 1. Phiên bản lược đồ
+  t(`lược đồ: LUOC_DO_PHIEN_BAN = ${LUOC_DO_PHIEN_BAN}`, LUOC_DO_PHIEN_BAN === '1.6.0');
 
   // 2. Regex + frontmatter + tachChunks
   const hitsRe = 'Theo 28/2026/TT-BCT, 08/2015/NĐ-CP, 1182/QĐ-BCT và 54/2014/QH13.'.match(RE_SO_HIEU_WIKI) || [];
@@ -135,7 +135,7 @@ try {
   const wRes = dungWikiDist(napSo(rWiki), rWiki, '2026-11-21');
   t('wiki-dist: đủ metadata chung + bỏ qua graph/index/log/chuan-mau',
     wRes.index.phien_ban === '2026-11-21'
-    && wRes.index.luoc_do_phien_ban === '1.5.0'
+    && wRes.index.luoc_do_phien_ban === LUOC_DO_PHIEN_BAN
     && wRes.index.giay_phep === 'CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/'
     && wRes.index.ghi_nguon_chuan.includes('oz-wiki-plhq')
     && wRes.index.mien_tru.length > 10
@@ -195,7 +195,7 @@ try {
   });
   const dkRes = dungDieuKhoan(napSo(rDk), rDk, '2026-11-21');
   t('dieu-khoan: tách 2 tầng NGUYEN_VAN_NGUON_A & TOM_TAT_NHAP, bỏ dòng JSON lỗi, gắn da_soat: false',
-    dkRes.luoc_do_phien_ban === '1.5.0'
+    dkRes.luoc_do_phien_ban === LUOC_DO_PHIEN_BAN
     && dkRes.canh_bao_tang_nhap.includes('TOM_TAT_NHAP')
     && dkRes.nguyen_van_nguon_a.length === 1
     && dkRes.nguyen_van_nguon_a[0].tang_tin_cay === 'NGUYEN_VAN_NGUON_A'
@@ -220,7 +220,7 @@ try {
 
   const casRes = dungCasIndex(napSo(rDk), rDk, '2026-11-21');
   t('cas-index: nối 24-2026-nd-cp-cas.csv, gộp nhiều phụ lục theo mã CAS, lọc bảng lỗi và tách khong_co_cas',
-    casRes.luoc_do_phien_ban === '1.5.0'
+    casRes.luoc_do_phien_ban === LUOC_DO_PHIEN_BAN
     && casRes.thong_ke.so_tep === 1
     && casRes.thong_ke.so_tep_loi === 1
     && casRes.theo_cas['106-99-0']?.length === 2
@@ -396,7 +396,7 @@ try {
 
   t('kho thật (RAM): chinh-sach-mo-ta (14 quy tắc, 25 viết tắt, đủ can_cu_chi_tiet, 0 lỗi kiểm)',
     kiemChinhSachMoTa(csDataReal, soReal).length === 0
-    && csOutReal.luoc_do_phien_ban === '1.5.0'
+    && csOutReal.luoc_do_phien_ban === LUOC_DO_PHIEN_BAN
     && csOutReal.tong_quy_tac === 14
     && csOutReal.quy_tac.length === 14
     && Object.keys(TU_DIEN_VIET_TAT_PLHQ).length === 25
@@ -423,15 +423,15 @@ try {
   const allPresent = expectedFiles.every((f) => existsSync(join(tmpOut, 'dist', f)));
   const allSchemaOk = allPresent && expectedFiles.every((f) => {
     const obj = JSON.parse(readFileSync(join(tmpOut, 'dist', f), 'utf8'));
-    return obj.luoc_do_phien_ban === '1.5.0';
+    return obj.luoc_do_phien_ban === LUOC_DO_PHIEN_BAN;
   });
   const hsTheoMaOut = allPresent ? JSON.parse(readFileSync(join(tmpOut, 'dist', 'hs-index-theo-ma.json'), 'utf8')) : null;
   const csOutFile = allPresent ? JSON.parse(readFileSync(join(tmpOut, 'dist', 'chinh-sach-mo-ta.json'), 'utf8')) : null;
   const dkOutFile = allPresent ? JSON.parse(readFileSync(join(tmpOut, 'dist', 'dieu-khoan.json'), 'utf8')) : null;
   const noBoundaryLeak = !existsSync(join(tmpOut, 'dist', 'chu-giai-hs.json'))
     && !existsSync(join(tmpOut, 'dist', 'chu-giai-chuong.json'));
-  t('CLI tools/dung.mjs --out tmpdir: xuất đủ 8 tệp dist/*.json (luoc_do_phien_ban = 1.5.0), không sinh chu-giai-hs/chuong',
-    allPresent && allSchemaOk && noBoundaryLeak && dungJson(napSo(rWiki)).luoc_do_phien_ban === '1.5.0'
+  t(`CLI tools/dung.mjs --out tmpdir: xuất đủ 8 tệp dist/*.json (luoc_do_phien_ban = ${LUOC_DO_PHIEN_BAN}), không sinh chu-giai-hs/chuong`,
+    allPresent && allSchemaOk && noBoundaryLeak && dungJson(napSo(rWiki)).luoc_do_phien_ban === LUOC_DO_PHIEN_BAN
     && dungStdout.includes('dist/chinh-sach-mo-ta.json')
     && hsTheoMaOut?.anh_xa_ahtn_cu?.tong_duoc_anh_xa >= 100
     && csOutFile?.tong_quy_tac === 14

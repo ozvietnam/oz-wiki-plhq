@@ -8,6 +8,7 @@ import { napSo, khoa, slugTuSoHieu, bacNguon, chuanCanh, dungDoThi, homNay, ROOT
   LOAI, TINH_TRANG, MUC_XAC_MINH, CHAN_HIEU_LUC, QUAN_HE } from './lib/registry.mjs';
 import { napDanhMuc, kiemDinhDang, kiemDanhMucCas, docCsv, docAnhXaAhtn, kiemAnhXaAhtn, docBieuThue } from './lib/danh-muc.mjs';
 import { docChinhSachMoTa, kiemChinhSachMoTa } from './lib/chinh-sach-mo-ta.mjs';
+import { kiemTraSuaDoiDieu } from './lib/sua-doi-dieu.mjs';
 
 const NGAY = /^\d{4}-\d{2}-\d{2}$/;
 const TRUONG = new Set(['so_hieu', 'loai', 'ten', 'co_quan', 'ngay_ban_hanh', 'hieu_luc_tu', 'het_hieu_luc_tu',
@@ -22,6 +23,7 @@ export function kiemTra(so, opts = {}) {
   const { today = homNay(), root = ROOT } = opts;
   const checkChinhSachMoTa = opts.kiemChinhSachMoTa ?? opts.kiemMoTa ?? (opts.root !== undefined);
   const checkAnhXaAhtn = opts.kiemAnhXaAhtn ?? opts.kiemAnhXa ?? (opts.root !== undefined);
+  const checkSuaDoiDieu = opts.kiemSuaDoiDieu ?? (opts.root !== undefined);
   const loi = [];
   const canhBao = [];
   const L = (file, msg) => loi.push({ file, msg });
@@ -253,6 +255,12 @@ export function kiemTra(so, opts = {}) {
     }
   }
 
+  if (checkSuaDoiDieu) {
+    const ktSd = kiemTraSuaDoiDieu(so, root);
+    for (const e of ktSd.loi) L(e.file, e.msg);
+    for (const w of ktSd.canhBao) W(w.file, w.msg);
+  }
+
   // Chu trình thay thế (A thay B, B thay A)
   const { nguoc } = dungDoThi(so);
   for (const d of so.vanBan) {
@@ -266,7 +274,7 @@ export function kiemTra(so, opts = {}) {
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
-  const r = kiemTra(napSo(), { root: ROOT, kiemChinhSachMoTa: true, kiemAnhXaAhtn: true });
+  const r = kiemTra(napSo(), { root: ROOT, kiemChinhSachMoTa: true, kiemAnhXaAhtn: true, kiemSuaDoiDieu: true });
   if (process.argv.includes('--json')) console.log(JSON.stringify(r, null, 2));
   else {
     for (const w of r.canhBao) console.log(`CẢNH BÁO ${w.file}: ${w.msg}`);
