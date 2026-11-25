@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 35822/TB-CHQ/2025
+so_hieu_khac:
+  - 35822/TB-CHQ
+loai: THONG_BAO
+ten: 'Thông báo việc phát hành ấn chỉ nghiệp vụ hải quan'
+co_quan: CHQ
+ngay_ban_hanh: '2025-11-14'
+hieu_luc_tu: '2025-11-14'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - hai-quan/so-tay-nghiep-vu
+  - hai-quan/thu-tuc
+  - hai-quan/kiem-tra-giam-sat
+# Chưa gắn quan_he.can_cu → 23/2021/TT-BTC, 31/2025/TT-BTC, 4281/QĐ-TCHQ/2016, 4010/QĐ-TCHQ/2017 vì chưa có trong sổ (gắn sẽ tạo điểm mù Cao "Được nhắc nhưng chưa có trong sổ").
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=101872&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/11/18/VB_35822.pdf
+    truy_cap: '2026-11-24'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF bậc A có chữ ký số trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/11/18/VB_35822.pdf, id=101872, SHA-256 c1017f142185ff4b79252881100ed02d325c9738b748499d69970d75406c0d44): Thông báo số 35822/TB-CHQ ngày 14-11-2025 (ký số 14-11-2025 17:06:36 +07:00) của Cục Hải quan về việc phát hành ấn chỉ nghiệp vụ hải quan từ ngày 14-11-2025 (căn cứ Thông tư 23/2021/TT-BTC ngày 30-03-2021, Thông tư 31/2025/TT-BTC ngày 31-05-2025 của Bộ trưởng Bộ Tài chính; Quyết định 4281/QĐ-TCHQ ngày 09-12-2016 và Quyết định 4010/QĐ-TCHQ ngày 22-11-2017 của Tổng cục trưởng Tổng cục Hải quan): (1) Tem điện tử rượu nhập khẩu độ cồn <30 độ: ký hiệu mẫu RD30, ký hiệu tem AA/2025, số lượng 5.849.832 chiếc (từ số 0000001 đến số 5849832), giá bán 868 đồng/chiếc, ngày bắt đầu sử dụng 14/11/2025; (2) Tem miễn thuế "VIETNAM DUTY NOT PAID" (loại nhỏ): ký hiệu mẫu MT-01, giá bán 516 đồng/chiếc, ngày bắt đầu sử dụng 14/11/2025, gồm 4 dải: AA/2025, AB/2025, AC/2025 (mỗi dải 999.999 chiếc, từ 000001 đến 999999) và AD/2025 (200.003 chiếc, từ 000001 đến 200003); người ký Trịnh Văn Nhuận (TL. Cục trưởng, Trưởng ban Tài vụ - Quản trị)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+ghi_chu: 'TB hành chính/nghiệp vụ — không phải XDTMS: phát hành ấn chỉ nghiệp vụ hải quan từ ngày 14-11-2025: (1) Tem điện tử rượu nhập khẩu độ cồn <30 độ mẫu RD30, ký hiệu tem AA/2025, số lượng 5.849.832 chiếc (từ 0000001 đến 5849832), giá bán 868 đồng/chiếc; (2) Tem miễn thuế "VIETNAM DUTY NOT PAID" (loại nhỏ) mẫu MT-01, giá bán 516 đồng/chiếc, gồm 4 dải AA/2025, AB/2025, AC/2025 (mỗi dải 999.999 chiếc, từ 000001 đến 999999) và AD/2025 (200.003 chiếc, từ 000001 đến 200003). Chưa gắn quan_he tới 23/2021/TT-BTC, 31/2025/TT-BTC, 4281/QĐ-TCHQ/2016, 4010/QĐ-TCHQ/2017 vì chưa có trong sổ (tránh điểm mù Cao).'
+toan_van: raw/download/files.customs.gov.vn/35822-tb-chq-2025.pdf
