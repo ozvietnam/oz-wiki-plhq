@@ -1030,7 +1030,8 @@
           {
             "tu": "26/2026/TT-BCT",
             "quan_he": "sua_doi",
-            "so_hieu": "01/2026/TT-BCT"
+            "so_hieu": "01/2026/TT-BCT",
+            "tu_ngay": "2026-05-29"
           }
         ]
       }
@@ -6453,7 +6454,8 @@
           {
             "tu": "59/2018/NĐ-CP",
             "quan_he": "sua_doi",
-            "so_hieu": "08/2015/NĐ-CP"
+            "so_hieu": "08/2015/NĐ-CP",
+            "tu_ngay": "2018-06-05"
           }
         ]
       }
@@ -9767,7 +9769,8 @@
           {
             "tu": "120/2024/NĐ-CP",
             "quan_he": "sua_doi",
-            "so_hieu": "102/2020/NĐ-CP"
+            "so_hieu": "102/2020/NĐ-CP",
+            "tu_ngay": "2024-11-15"
           }
         ]
       }
@@ -13378,7 +13381,8 @@
           {
             "tu": "26/2026/TT-BCT",
             "quan_he": "sua_doi",
-            "so_hieu": "11/2015/TT-BCT"
+            "so_hieu": "11/2015/TT-BCT",
+            "tu_ngay": "2026-05-29"
           }
         ]
       }
@@ -16086,6 +16090,7 @@
             "tu": "82/2022/NĐ-CP",
             "quan_he": "sua_doi",
             "so_hieu": "113/2017/NĐ-CP",
+            "tu_ngay": "2022-12-22",
             "can_cu": "Điều 1–2 NĐ 82/2022/NĐ-CP (PDF Công báo)"
           }
         ]
@@ -19102,6 +19107,7 @@
             "tu": "12377/TB-CHQ/2025",
             "quan_he": "sua_doi",
             "so_hieu": "11801/TB-CHQ/2025",
+            "tu_ngay": "2025-07-03",
             "pham_vi": "thông tin thu (KBNN, tài khoản) của một số đơn vị thuộc Chi cục HQKV II, XII, XIX tại Phụ lục — «Tiếp theo Thông báo số 11801/TB-CHQ… cập nhật sửa đổi, bổ sung thông tin thu…»"
           }
         ]
@@ -20502,7 +20508,8 @@
           {
             "tu": "26/2026/TT-BCT",
             "quan_he": "sua_doi",
-            "so_hieu": "12/2018/TT-BCT"
+            "so_hieu": "12/2018/TT-BCT",
+            "tu_ngay": "2026-05-29"
           }
         ],
         "bi_bai_bo_boi": [
@@ -20982,7 +20989,10 @@
       ],
       "quan_he": {
         "sua_doi": [
-          "102/2020/NĐ-CP"
+          {
+            "so_hieu": "102/2020/NĐ-CP",
+            "tu_ngay": "2024-11-15"
+          }
         ]
       },
       "nguon": [
@@ -23328,6 +23338,7 @@
         "sua_doi": [
           {
             "so_hieu": "11801/TB-CHQ/2025",
+            "tu_ngay": "2025-07-03",
             "pham_vi": "thông tin thu (KBNN, tài khoản) của một số đơn vị thuộc Chi cục HQKV II, XII, XIX tại Phụ lục — «Tiếp theo Thông báo số 11801/TB-CHQ… cập nhật sửa đổi, bổ sung thông tin thu…»"
           }
         ]
@@ -23498,7 +23509,8 @@
           {
             "tu": "155/2026/NĐ-CP",
             "quan_he": "sua_doi",
-            "so_hieu": "124/2020/NĐ-CP"
+            "so_hieu": "124/2020/NĐ-CP",
+            "tu_ngay": "2026-07-01"
           }
         ]
       }
@@ -25838,10 +25850,12 @@
       "quan_he": {
         "sua_doi": [
           {
-            "so_hieu": "91/2016/NĐ-CP"
+            "so_hieu": "91/2016/NĐ-CP",
+            "tu_ngay": "2024-11-30"
           },
           {
-            "so_hieu": "155/2018/NĐ-CP"
+            "so_hieu": "155/2018/NĐ-CP",
+            "tu_ngay": "2024-11-30"
           }
         ]
       },
@@ -28757,12 +28771,14 @@
           {
             "tu": "18/2021/NĐ-CP",
             "quan_he": "sua_doi",
-            "so_hieu": "134/2016/NĐ-CP"
+            "so_hieu": "134/2016/NĐ-CP",
+            "tu_ngay": "2021-04-25"
           },
           {
             "tu": "182/2025/NĐ-CP",
             "quan_he": "sua_doi",
-            "so_hieu": "134/2016/NĐ-CP"
+            "so_hieu": "134/2016/NĐ-CP",
+            "tu_ngay": "2025-07-01"
           }
         ]
       }
@@ -29241,7 +29257,10 @@
       ],
       "quan_he": {
         "sua_doi": [
-          "4286/QĐ-TCHQ"
+          {
+            "so_hieu": "4286/QĐ-TCHQ",
+            "tu_ngay": "2016-01-25"
+          }
         ]
       },
       "nguon": [
@@ -30119,7 +30138,8 @@
           {
             "tu": "17/2021/TT-BTC",
             "quan_he": "sua_doi",
-            "so_hieu": "14/2015/TT-BTC"
+            "so_hieu": "14/2015/TT-BTC",
+            "tu_ngay": "2021-04-12"
           }
         ],
         "bi_thay_the_boi": [
@@ -35740,7 +35760,8 @@
           {
             "tu": "129/2024/NĐ-CP",
             "quan_he": "sua_doi",
-            "so_hieu": "155/2018/NĐ-CP"
+            "so_hieu": "155/2018/NĐ-CP",
+            "tu_ngay": "2024-11-30"
           }
         ],
         "duoc_huong_dan_boi": [
@@ -35776,7 +35797,8 @@
       "quan_he": {
         "sua_doi": [
           {
-            "so_hieu": "124/2020/NĐ-CP"
+            "so_hieu": "124/2020/NĐ-CP",
+            "tu_ngay": "2026-07-01"
           }
         ]
       },
@@ -36999,7 +37021,8 @@
           {
             "tu": "662/QĐ-BCT",
             "quan_he": "sua_doi",
-            "so_hieu": "1578/QĐ-BCT"
+            "so_hieu": "1578/QĐ-BCT",
+            "tu_ngay": "2025-03-27"
           }
         ],
         "duoc_huong_dan_boi": [
@@ -37385,7 +37408,8 @@
           {
             "tu": "41/2016/TT-BTTTT",
             "quan_he": "sua_doi",
-            "so_hieu": "16/2015/TT-BTTTT"
+            "so_hieu": "16/2015/TT-BTTTT",
+            "tu_ngay": "2017-03-01"
           }
         ]
       }
@@ -40052,7 +40076,10 @@
       ],
       "quan_he": {
         "sua_doi": [
-          "14/2015/TT-BTC"
+          {
+            "so_hieu": "14/2015/TT-BTC",
+            "tu_ngay": "2021-04-12"
+          }
         ]
       },
       "nguon": [
@@ -44401,7 +44428,10 @@
       ],
       "quan_he": {
         "sua_doi": [
-          "134/2016/NĐ-CP"
+          {
+            "so_hieu": "134/2016/NĐ-CP",
+            "tu_ngay": "2021-04-25"
+          }
         ]
       },
       "nguon": [
@@ -46323,7 +46353,10 @@
       ],
       "quan_he": {
         "sua_doi": [
-          "134/2016/NĐ-CP"
+          {
+            "so_hieu": "134/2016/NĐ-CP",
+            "tu_ngay": "2025-07-01"
+          }
         ]
       },
       "nguon": [
@@ -50258,12 +50291,14 @@
           {
             "tu": "29/2025/TT-BTC",
             "quan_he": "sua_doi",
-            "so_hieu": "191/2015/TT-BTC"
+            "so_hieu": "191/2015/TT-BTC",
+            "tu_ngay": "2025-07-09"
           },
           {
             "tu": "56/2019/TT-BTC",
             "quan_he": "sua_doi",
-            "so_hieu": "191/2015/TT-BTC"
+            "so_hieu": "191/2015/TT-BTC",
+            "tu_ngay": "2019-10-15"
           }
         ]
       }
@@ -53283,7 +53318,8 @@
           {
             "tu": "662/QĐ-BCT",
             "quan_he": "sua_doi",
-            "so_hieu": "1989/QĐ-BCT"
+            "so_hieu": "1989/QĐ-BCT",
+            "tu_ngay": "2025-03-27"
           }
         ]
       }
@@ -60148,7 +60184,10 @@
       ],
       "quan_he": {
         "sua_doi": [
-          "438/CHQ-NVTHQ"
+          {
+            "so_hieu": "438/CHQ-NVTHQ",
+            "tu_ngay": "2025-04-16"
+          }
         ],
         "huong_dan": [
           "662/QĐ-BCT"
@@ -71778,10 +71817,22 @@
       ],
       "quan_he": {
         "sua_doi": [
-          "40/2025/TT-BCT",
-          "12/2018/TT-BCT",
-          "11/2015/TT-BCT",
-          "01/2026/TT-BCT"
+          {
+            "so_hieu": "40/2025/TT-BCT",
+            "tu_ngay": "2026-05-29"
+          },
+          {
+            "so_hieu": "12/2018/TT-BCT",
+            "tu_ngay": "2026-05-29"
+          },
+          {
+            "so_hieu": "11/2015/TT-BCT",
+            "tu_ngay": "2026-05-29"
+          },
+          {
+            "so_hieu": "01/2026/TT-BCT",
+            "tu_ngay": "2026-05-29"
+          }
         ]
       },
       "nguon": [
@@ -73089,7 +73140,8 @@
           {
             "tu": "44/2026/TT-BNNMT",
             "quan_he": "sua_doi",
-            "so_hieu": "27/2026/TT-BNNMT"
+            "so_hieu": "27/2026/TT-BNNMT",
+            "tu_ngay": "2026-10-09"
           }
         ]
       }
@@ -78156,7 +78208,10 @@
       ],
       "quan_he": {
         "sua_doi": [
-          "191/2015/TT-BTC"
+          {
+            "so_hieu": "191/2015/TT-BTC",
+            "tu_ngay": "2025-07-09"
+          }
         ]
       },
       "nguon": [
@@ -79341,7 +79396,8 @@
           {
             "tu": "662/QĐ-BCT",
             "quan_he": "sua_doi",
-            "so_hieu": "2961/QĐ-BCT"
+            "so_hieu": "2961/QĐ-BCT",
+            "tu_ngay": "2025-03-27"
           }
         ]
       }
@@ -99220,7 +99276,8 @@
           {
             "tu": "39/2018/TT-BTC",
             "quan_he": "sua_doi",
-            "so_hieu": "38/2015/TT-BTC"
+            "so_hieu": "38/2015/TT-BTC",
+            "tu_ngay": "2018-06-05"
           }
         ],
         "bi_bai_bo_boi": [
@@ -101485,7 +101542,8 @@
           {
             "tu": "60/2019/TT-BTC",
             "quan_he": "sua_doi",
-            "so_hieu": "39/2015/TT-BTC"
+            "so_hieu": "39/2015/TT-BTC",
+            "tu_ngay": "2019-10-15"
           }
         ]
       }
@@ -101503,7 +101561,10 @@
       ],
       "quan_he": {
         "sua_doi": [
-          "38/2015/TT-BTC"
+          {
+            "so_hieu": "38/2015/TT-BTC",
+            "tu_ngay": "2018-06-05"
+          }
         ]
       },
       "xac_minh": {
@@ -103508,7 +103569,8 @@
           {
             "tu": "26/2026/TT-BCT",
             "quan_he": "sua_doi",
-            "so_hieu": "40/2025/TT-BCT"
+            "so_hieu": "40/2025/TT-BCT",
+            "tu_ngay": "2026-05-29"
           }
         ]
       }
@@ -105418,7 +105480,8 @@
       "quan_he": {
         "sua_doi": [
           {
-            "so_hieu": "16/2015/TT-BTTTT"
+            "so_hieu": "16/2015/TT-BTTTT",
+            "tu_ngay": "2017-03-01"
           }
         ]
       },
@@ -109117,7 +109180,8 @@
           {
             "tu": "136/QĐ-TCHQ",
             "quan_he": "sua_doi",
-            "so_hieu": "4286/QĐ-TCHQ"
+            "so_hieu": "4286/QĐ-TCHQ",
+            "tu_ngay": "2016-01-25"
           }
         ]
       }
@@ -110356,7 +110420,8 @@
           {
             "tu": "2177/CHQ-NVTHQ",
             "quan_he": "sua_doi",
-            "so_hieu": "438/CHQ-NVTHQ"
+            "so_hieu": "438/CHQ-NVTHQ",
+            "tu_ngay": "2025-04-16"
           }
         ]
       }
@@ -110636,7 +110701,8 @@
       "quan_he": {
         "sua_doi": [
           {
-            "so_hieu": "27/2026/TT-BNNMT"
+            "so_hieu": "27/2026/TT-BNNMT",
+            "tu_ngay": "2026-10-09"
           }
         ]
       },
@@ -115955,7 +116021,8 @@
           {
             "tu": "56/2019/TT-BTC",
             "quan_he": "sua_doi",
-            "so_hieu": "49/2015/TT-BTC"
+            "so_hieu": "49/2015/TT-BTC",
+            "tu_ngay": "2019-10-15"
           }
         ]
       }
@@ -124593,8 +124660,14 @@
       ],
       "quan_he": {
         "sua_doi": [
-          "49/2015/TT-BTC",
-          "191/2015/TT-BTC"
+          {
+            "so_hieu": "49/2015/TT-BTC",
+            "tu_ngay": "2019-10-15"
+          },
+          {
+            "so_hieu": "191/2015/TT-BTC",
+            "tu_ngay": "2019-10-15"
+          }
         ]
       },
       "nguon": [
@@ -125663,7 +125736,8 @@
           {
             "tu": "90/2024/NĐ-CP",
             "quan_he": "sua_doi",
-            "so_hieu": "57/2022/NĐ-CP"
+            "so_hieu": "57/2022/NĐ-CP",
+            "tu_ngay": "2024-07-17"
           }
         ]
       }
@@ -127199,7 +127273,10 @@
       ],
       "quan_he": {
         "sua_doi": [
-          "08/2015/NĐ-CP"
+          {
+            "so_hieu": "08/2015/NĐ-CP",
+            "tu_ngay": "2018-06-05"
+          }
         ]
       },
       "xac_minh": {
@@ -128208,7 +128285,10 @@
       ],
       "quan_he": {
         "sua_doi": [
-          "39/2015/TT-BTC"
+          {
+            "so_hieu": "39/2015/TT-BTC",
+            "tu_ngay": "2019-10-15"
+          }
         ]
       },
       "xac_minh": {
@@ -133813,9 +133893,18 @@
       ],
       "quan_he": {
         "sua_doi": [
-          "1578/QĐ-BCT",
-          "2961/QĐ-BCT",
-          "1989/QĐ-BCT"
+          {
+            "so_hieu": "1578/QĐ-BCT",
+            "tu_ngay": "2025-03-27"
+          },
+          {
+            "so_hieu": "2961/QĐ-BCT",
+            "tu_ngay": "2025-03-27"
+          },
+          {
+            "so_hieu": "1989/QĐ-BCT",
+            "tu_ngay": "2025-03-27"
+          }
         ],
         "huong_dan": [
           "05/2017/QH14",
@@ -144999,6 +145088,7 @@
         "sua_doi": [
           {
             "so_hieu": "113/2017/NĐ-CP",
+            "tu_ngay": "2022-12-22",
             "can_cu": "Điều 1–2 NĐ 82/2022/NĐ-CP (PDF Công báo)"
           }
         ]
@@ -147617,7 +147707,8 @@
       "quan_he": {
         "sua_doi": [
           {
-            "so_hieu": "57/2022/NĐ-CP"
+            "so_hieu": "57/2022/NĐ-CP",
+            "tu_ngay": "2024-07-17"
           }
         ]
       },
@@ -148156,7 +148247,8 @@
           {
             "tu": "129/2024/NĐ-CP",
             "quan_he": "sua_doi",
-            "so_hieu": "91/2016/NĐ-CP"
+            "so_hieu": "91/2016/NĐ-CP",
+            "tu_ngay": "2024-11-30"
           }
         ]
       }

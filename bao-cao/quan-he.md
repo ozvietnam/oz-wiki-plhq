@@ -28,7 +28,7 @@ flowchart LR
   n_112_2025_QH15 -->|sửa đổi Bãi bỏ cụm từ “phê duyệt quy hoạch hệ thống kiểm nghiệm của Nhà nước,” tại khoản 5 Điều 104 Luật Dược từ 2026-03-01| n_105_2016_QH13
   n_112_2025_QH15 -->|sửa đổi Sửa đổi một số cụm từ về quy hoạch ngành đường sắt tại Điều 9, Điều 14, Điều 19 và Điều 37 Luật Đường sắt từ 2026-03-01| n_95_2025_QH15
   n_124_2020_N__CP -->|thay thế từ 2020-12-10| n_81_2013_N__CP
-  n_155_2026_N__CP -->|sửa đổi| n_124_2020_N__CP
+  n_155_2026_N__CP -->|sửa đổi từ 2026-07-01| n_124_2020_N__CP
   n_35_2026_TT_BTC -->|thay thế từ 2026-05-18| n_71_2018_TT_BTC
   n_50_VBHN_BXD -->|hợp nhất| n_80_2014_N__CP
   n_81_2025_QH15 -->|sửa đổi| n_02_2011_QH13
@@ -152,22 +152,22 @@ flowchart LR
   n_28_2017_N__CP -->|sửa đổi từ 2017-05-05| n_158_2013_N__CP
   n_285_2025_N__CP -->|bãi bỏ toàn bộ từ 2025-12-30| n_105_2006_N__CP
   n_285_2025_N__CP -->|bãi bỏ toàn bộ từ 2025-12-30| n_119_2010_N__CP
-  n_29_2025_TT_BTC -->|sửa đổi| n_191_2015_TT_BTC
+  n_29_2025_TT_BTC -->|sửa đổi từ 2025-07-09| n_191_2015_TT_BTC
   n_31_2026_Q__TTg -->|thay thế từ 2026-08-14| n_23_2019_Q__TTg
   n_336_2026_N__CP -->|thay thế từ 2026-10-15| n_85_2019_N__CP
   n_35_2018_QH14 -->|sửa đổi từ 2019-01-01| n_54_2014_QH13
   n_35_2024_QH15 -->|thay thế toàn bộ (cùng Luật 36/2024/QH15) từ 2025-01-01| n_23_2008_QH12
   n_36_2009_QH12 -->|sửa đổi từ 2010-01-01| n_50_2005_QH11
-  n_39_2018_TT_BTC -->|sửa đổi| n_38_2015_TT_BTC
+  n_39_2018_TT_BTC -->|sửa đổi từ 2018-06-05| n_38_2015_TT_BTC
   n_42_2005_QH11 -->|sửa đổi từ 2006-01-01| n_29_2001_QH10
   n_42_2019_QH14 -->|sửa đổi từ 2019-11-01| n_50_2005_QH11
   n_46_2024_N__CP -->|sửa đổi từ 2024-07-01| n_99_2013_N__CP
   n_54_2026_VBHN_TT_BTC -->|hợp nhất| n_142_2026_TT_BTC
   n_54_VBHN_VPQH -->|hợp nhất| n_54_2014_QH13
-  n_56_2019_TT_BTC -->|sửa đổi| n_49_2015_TT_BTC
-  n_56_2019_TT_BTC -->|sửa đổi| n_191_2015_TT_BTC
-  n_59_2018_N__CP -->|sửa đổi| n_08_2015_N__CP
-  n_60_2019_TT_BTC -->|sửa đổi| n_39_2015_TT_BTC
+  n_56_2019_TT_BTC -->|sửa đổi từ 2019-10-15| n_49_2015_TT_BTC
+  n_56_2019_TT_BTC -->|sửa đổi từ 2019-10-15| n_191_2015_TT_BTC
+  n_59_2018_N__CP -->|sửa đổi từ 2018-06-05| n_08_2015_N__CP
+  n_60_2019_TT_BTC -->|sửa đổi từ 2019-10-15| n_39_2015_TT_BTC
   n_65_2023_N__CP -->|thay thế từ 2023-08-23| n_103_2006_N__CP
   n_66_2026_TT_BKHCN -->|sửa đổi từ 2027-01-01| n_11_2015_TT_BKHCN
   n_76_VBHN_VPQH -->|hợp nhất| n_105_2016_QH13
@@ -392,9 +392,9 @@ flowchart LR
   n_114_2026_VBHN_TT_BNNMT -->|hợp nhất| n_15_2023_TT_BNNPTNT
   n_114_2026_VBHN_TT_BNNMT -->|hợp nhất| n_12_2025_TT_BNNMT
   n_12_2022_TT_BGTVT -->|thay thế toàn bộ từ 2022-08-15| n_41_2018_TT_BGTVT
-  n_120_2024_N__CP -->|sửa đổi| n_102_2020_N__CP
-  n_129_2024_N__CP -->|sửa đổi| n_91_2016_N__CP
-  n_129_2024_N__CP -->|sửa đổi| n_155_2018_N__CP
+  n_120_2024_N__CP -->|sửa đổi từ 2024-11-15| n_102_2020_N__CP
+  n_129_2024_N__CP -->|sửa đổi từ 2024-11-30| n_91_2016_N__CP
+  n_129_2024_N__CP -->|sửa đổi từ 2024-11-30| n_155_2018_N__CP
   n_14_2024_TT_BNNPTNT -->|thay thế từ 2024-12-15| n_30_2014_TT_BNNPTNT
   n_146_2025_QH15 -->|sửa đổi| n_41_2013_QH13
   n_146_2025_QH15 -->|sửa đổi| n_79_2015_QH13
@@ -462,10 +462,10 @@ flowchart LR
   n_37_2026_N__CP -->|bãi bỏ từ 2026-07-01| n_13_2022_N__CP
   n_37_2026_N__CP -->|bãi bỏ từ 2026-01-23| n_43_2017_N__CP
   n_37_2026_N__CP -->|bãi bỏ từ 2026-01-23| n_111_2021_N__CP
-  n_41_2016_TT_BTTTT -->|sửa đổi| n_16_2015_TT_BTTTT
+  n_41_2016_TT_BTTTT -->|sửa đổi từ 2017-03-01| n_16_2015_TT_BTTTT
   n_41_2026_TT_BXD -->|bãi bỏ toàn bộ từ 2026-07-01| n_10_2024_TT_BXD
   n_44_2024_QH15 -->|sửa đổi Điều 2 (giải thích từ ngữ), Điều 11 (chứng chỉ hành nghề), khoản 4, 5, 9, điểm a và c khoản 18, điểm d và đ khoản 32, khoản 33, 39, 43 Điều 1 từ 2025-07-01| n_105_2016_QH13
-  n_44_2026_TT_BNNMT -->|sửa đổi| n_27_2026_TT_BNNMT
+  n_44_2026_TT_BNNMT -->|sửa đổi từ 2026-10-09| n_27_2026_TT_BNNMT
   n_46_2026_N__CP -->|thay thế| n_15_2018_N__CP
   n_4814_Q__BCA -->|bãi bỏ từ 2026-07-28| n_8378_Q__BCA
   n_49_2026_TT_BXD -->|bãi bỏ từ 2026-07-01| n_12_2022_TT_BGTVT
@@ -479,9 +479,9 @@ flowchart LR
   n_69_2025_QH15 -->|thay thế từ 2026-01-01| n_06_2007_QH12
   n_73_2021_QH14 -->|thay thế từ 2022-01-01| n_23_2000_QH10
   n_78_2025_QH15 -->|sửa đổi| n_05_2007_QH12
-  n_82_2022_N__CP -->|sửa đổi| n_113_2017_N__CP
+  n_82_2022_N__CP -->|sửa đổi từ 2022-12-22| n_113_2017_N__CP
   n_8378_Q__BCA -->|thay thế từ 2025-10-14| n_6266_Q__BCA
-  n_90_2024_N__CP -->|sửa đổi| n_57_2022_N__CP
+  n_90_2024_N__CP -->|sửa đổi từ 2024-07-17| n_57_2022_N__CP
   n_96_2023_N__CP -->|sửa đổi sửa đổi tên Chương IV; sửa đổi, bổ sung các Điều 12, 13, 14, 15, 16, 17, 18, 19, 20, 30 và bổ sung Điều 32a (riêng khoản 19 Điều 147 sửa đổi, bổ sung Điều 30 áp dụng từ 01/01/2026) từ 2024-01-01| n_98_2021_N__CP
   n_96_2023_N__CP -->|bãi bỏ Điều 11 từ 2024-01-01| n_155_2018_N__CP
   n_99_2026_VBHN_TT_BNNMT -->|hợp nhất| n_20_2021_TT_BNNPTNT
@@ -521,7 +521,7 @@ flowchart LR
   n_117_Q__CHQ -->|bãi bỏ từ 2026-02-01| n_1921_Q__TCHQ
   n_14_2015_TT_BTC -->|bãi bỏ từ 2015-03-16| n_49_2010_TT_BTC
   n_1628_Q__TCHQ -->|thay thế toàn bộ từ 2010-08-01| n_1671_Q__TCHQ
-  n_17_2021_TT_BTC -->|sửa đổi| n_14_2015_TT_BTC
+  n_17_2021_TT_BTC -->|sửa đổi từ 2021-04-12| n_14_2015_TT_BTC
   n_1921_Q__TCHQ -->|bãi bỏ Điều 52, Điều 53, Điều 54 Quy trình thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo Quyết định 1966/QĐ-TCHQ từ 2018-06-28| n_1966_Q__TCHQ
   n_19758_TB_CHQ_2025 -->|thay thế toàn bộ từ 2025-08-15| n_18172_TB_CHQ_2025
   n_2131_Q__TCHQ -->|thay thế toàn bộ từ 2015-07-31| n_4023_Q__TCHQ
@@ -574,11 +574,11 @@ flowchart LR
   n_1400_Q__BCT -->|thay thế từ 2026-06-14| n_228_Q__BCT
   n_2105_Q__BCT -->|sửa đổi Sửa đổi, bổ sung một số nội dung của Quyết định 1989/QĐ-BCT ngày 03-08-2023 về kết quả rà soát lần thứ nhất việc áp dụng biện pháp CBPG và CTC đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan từ 2025-07-21| n_1989_Q__BCT
   n_2174_Q__BCT -->|thay thế Kết thúc giai đoạn điều tra khởi xướng tại Quyết định 2333/QĐ-BCT và chuyển sang áp dụng thuế chống bán phá giá chính thức đối với vụ việc AD23 từ 2026-09-22| n_2333_Q__BCT
-  n_2177_CHQ_NVTHQ -->|sửa đổi| n_438_CHQ_NVTHQ
+  n_2177_CHQ_NVTHQ -->|sửa đổi từ 2025-04-16| n_438_CHQ_NVTHQ
   n_2652_Q__BCT -->|thay thế Kết thúc rà soát cuối kỳ vụ việc ER01.AD10 và ban hành kết quả rà soát lần thứ hai / cuối kỳ áp dụng biện pháp chống bán phá giá sợi polyester từ 2026-10-16| n_3546_Q__BCT
-  n_662_Q__BCT -->|sửa đổi| n_1578_Q__BCT
-  n_662_Q__BCT -->|sửa đổi| n_2961_Q__BCT
-  n_662_Q__BCT -->|sửa đổi| n_1989_Q__BCT
+  n_662_Q__BCT -->|sửa đổi từ 2025-03-27| n_1578_Q__BCT
+  n_662_Q__BCT -->|sửa đổi từ 2025-03-27| n_2961_Q__BCT
+  n_662_Q__BCT -->|sửa đổi từ 2025-03-27| n_1989_Q__BCT
   n_86_2025_N__CP -->|thay thế từ 2025-07-01| n_10_2018_N__CP
   n_915_Q__BCT -->|thay thế Kết thúc rà soát cuối kỳ vụ việc ER01.AD12 khởi xướng tại Quyết định 1978/QĐ-BCT và quyết định không gia hạn biện pháp chống bán phá giá tại Quyết định 1975/QĐ-BCT từ 2026-04-16| n_1978_Q__BCT
   n_915_Q__BCT -->|thay thế Không gia hạn áp dụng biện pháp chống bán phá giá đối với thép hình chữ H xuất xứ từ Ma-lai-xi-a (vụ việc ER01.AD12) từ 2026-04-16| n_1975_Q__BCT
@@ -803,15 +803,15 @@ flowchart LR
   n_122_2016_N__CP -->|bãi bỏ toàn bộ từ 2016-09-01| n_182_2015_TT_BTC
   n_122_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_159_2017_N__CP
   n_123_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_07_2020_N__CP
-  n_12377_TB_CHQ_2025 -->|sửa đổi thông tin thu (KBNN, tài khoản) của một số đơn vị thuộc Chi cục HQKV II, XII, XIX tại Phụ lục — «Tiếp theo Thông báo số 11801/TB-CHQ… cập nhật sửa đổi, bổ sung thông tin thu…»| n_11801_TB_CHQ_2025
+  n_12377_TB_CHQ_2025 -->|sửa đổi thông tin thu (KBNN, tài khoản) của một số đơn vị thuộc Chi cục HQKV II, XII, XIX tại Phụ lục — «Tiếp theo Thông báo số 11801/TB-CHQ… cập nhật sửa đổi, bổ sung thông tin thu…» từ 2025-07-03| n_11801_TB_CHQ_2025
   n_124_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_155_2017_N__CP
   n_125_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_149_2017_N__CP
   n_126_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_156_2017_N__CP
   n_13_2025_N__CP -->|sửa đổi từ 2025-01-21| n_115_2022_N__CP
   n_144_2024_N__CP -->|sửa đổi từ 2024-12-16| n_26_2023_N__CP
   n_15_2023_Q__TTg -->|bãi bỏ toàn bộ từ 2023-07-15| n_45_2017_Q__TTg
-  n_18_2021_N__CP -->|sửa đổi| n_134_2016_N__CP
-  n_182_2025_N__CP -->|sửa đổi| n_134_2016_N__CP
+  n_18_2021_N__CP -->|sửa đổi từ 2021-04-25| n_134_2016_N__CP
+  n_182_2025_N__CP -->|sửa đổi từ 2025-07-01| n_134_2016_N__CP
   n_199_2025_N__CP -->|sửa đổi bổ sung điểm c.3.6, c.3.7 và bãi bỏ điểm a.7 khoản 3 Điều 8; bãi bỏ điểm 1 phần Chú giải mặt hàng Chương 72 Mục I Phụ lục II; sửa đổi mức thuế suất thuế xuất khẩu tại Phụ lục I (nhóm 28.04) và thuế suất thuế nhập khẩu ưu đãi tại Phụ lục II (nhóm 39.01, 39.02, 72.09) từ 2025-07-08| n_26_2023_N__CP
   n_20_2019_N__CP -->|sửa đổi từ 2019-04-10| n_140_2016_N__CP
   n_201_2026_N__CP -->|sửa đổi Phụ lục I — thuế suất thuế xuất khẩu một số mặt hàng thuộc nhóm 25.29 và 81.06 từ 2026-07-23| n_26_2023_N__CP
@@ -882,10 +882,10 @@ flowchart LR
   n_124_2026_TT_BTC -->|sửa đổi bổ sung khoản 10 Điều 15 từ 2026-08-22| n_33_2023_TT_BTC
   n_126_Q__TTg -->|thay thế từ 2026-01-16| n_1175_Q__TTg
   n_127_Q__TTg -->|thay thế từ 2026-01-16| n_734_Q__TTg
-  n_136_Q__TCHQ -->|sửa đổi| n_4286_Q__TCHQ
-  n_26_2026_TT_BCT -->|sửa đổi| n_40_2025_TT_BCT
-  n_26_2026_TT_BCT -->|sửa đổi| n_12_2018_TT_BCT
-  n_26_2026_TT_BCT -->|sửa đổi| n_11_2015_TT_BCT
-  n_26_2026_TT_BCT -->|sửa đổi| n_01_2026_TT_BCT
+  n_136_Q__TCHQ -->|sửa đổi từ 2016-01-25| n_4286_Q__TCHQ
+  n_26_2026_TT_BCT -->|sửa đổi từ 2026-05-29| n_40_2025_TT_BCT
+  n_26_2026_TT_BCT -->|sửa đổi từ 2026-05-29| n_12_2018_TT_BCT
+  n_26_2026_TT_BCT -->|sửa đổi từ 2026-05-29| n_11_2015_TT_BCT
+  n_26_2026_TT_BCT -->|sửa đổi từ 2026-05-29| n_01_2026_TT_BCT
 ```
 
