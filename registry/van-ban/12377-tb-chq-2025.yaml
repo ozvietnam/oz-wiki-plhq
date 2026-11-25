@@ -10,7 +10,10 @@ hieu_luc_tu: '2025-07-03'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - thue
-# Chưa gắn quan_he.sua_doi → 11801/TB-CHQ/2025 vì 11801 chưa có trong sổ (gắn sẽ tạo điểm mù Cao "Được nhắc nhưng chưa có trong sổ"). Nạp 11801 rồi bổ sung quan_he.
+quan_he:
+  sua_doi:
+    - so_hieu: 11801/TB-CHQ/2025
+      pham_vi: 'thông tin thu (KBNN, tài khoản) của một số đơn vị thuộc Chi cục HQKV II, XII, XIX tại Phụ lục — «Tiếp theo Thông báo số 11801/TB-CHQ… cập nhật sửa đổi, bổ sung thông tin thu…»'
 nguon:
   - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=100568&cid=1294
     truy_cap: '2026-11-24'
@@ -22,5 +25,5 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-24'
   boi: gd-bo-ba@ozvietnam
-ghi_chu: 'TB tài khoản thu NSNN — không phải XDTMS. Cập nhật thông tin KBNN/tài khoản thu của đơn vị thuộc HQKV II (cảng Phú Mỹ, Cái Mép, KCN Việt Hương…), HQKV XII (cảng Kỳ Hà), HQKV XIX (cửa khẩu Vĩnh Long). Văn bản gốc nêu tiếp theo 11801/TB-CHQ ngày 30-06-2025 — 11801 chưa có trong sổ nên chưa gắn quan_he.sua_doi (tránh điểm mù Cao); nạp 11801 rồi bổ sung quan hệ.'
+ghi_chu: 'TB tài khoản thu NSNN — không phải XDTMS. Cập nhật thông tin KBNN/tài khoản thu của đơn vị thuộc HQKV II (cảng Phú Mỹ, Cái Mép, KCN Việt Hương…), HQKV XII (cảng Kỳ Hà), HQKV XIX (cửa khẩu Vĩnh Long). Văn bản gốc nêu tiếp theo 11801/TB-CHQ ngày 30-06-2025 và cập nhật sửa đổi, bổ sung thông tin thu — đã gắn quan_he.sua_doi → 11801/TB-CHQ/2025 (OZV-2042).'
 toan_van: raw/download/files.customs.gov.vn/12377-tb-chq-2025.pdf
