@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-25",
   "luoc_do_phien_ban": "1.5.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 3225,
+  "tong": 3241,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -4403,6 +4403,36 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "06/2015/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu thuộc nhóm 27.10 tại Biểu thuế nhập khẩu ưu đãi",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2015-01-20",
+      "hieu_luc_tu": "2015-01-20",
+      "het_hieu_luc_tu": "2015-01-21",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/x--48801",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu CSDLQG vbpl.vn (ID 48801) và Thông tư 07/2015/TT-BTC (đã có toàn văn PDF Công báo trong sổ): ban hành ngày 20-01-2015, bị bãi bỏ từ ngày 21-01-2015 theo Điều 1 Thông tư 07/2015/TT-BTC",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam"
+      },
+      "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #393). Đã hết hiệu lực ngay từ 21-01-2015 (bị bãi bỏ bởi TT 07/2015/TT-BTC).",
+      "slug": "06-2015-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "06/2017/TT-BTC",
@@ -26000,6 +26030,78 @@
       }
     },
     {
+      "so_hieu": "13/2024/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Hướng dẫn việc xác định nguồn kinh phí và việc lập dự toán, quản lý, sử dụng và quyết toán kinh phí thực hiện chính sách tinh giản biên chế",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2024-02-23",
+      "hieu_luc_tu": "2024-04-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-13-2024-tt-btc-41563.htm",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/2/41563/49463-1-2024493-49413-2024-tt-btc.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/13-2024-tt-btc.pdf",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn Công báo số 493+494 ngày 09-04-2024 (12 trang có lớp chữ, SHA-256 a38d61a36527...): ban hành ngày 23-02-2024, hiệu lực từ 15-04-2024, đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng 1. Phạm vi điều chỉnh: Thông tư này quy định việc xác định nguồn kinh phí và việc lập dự toán, quản lý, sử dụng và quyết toán kinh phí thực hiện chính sách tinh giản biên chế quy định tại Nghị định số 29/2023/NĐ-CP ngày 03 tháng 6 năm 2023 của Chính phủ quy định về tinh giản biên chế (sau đây viết tắt là Nghị định số 29/2023/NĐ-CP).",
+            "trang_pdf": 1,
+            "sha256_pdf": "a38d61a36527748f753432b1d26fd4a7c23e85919aaf6318a1b8519eb0aa1429"
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Nguồn kinh phí thực hiện chính sách tinh giản biên chế đối với cán bộ, công chức, người làm việc theo chế độ hợp đồng lao động không xác định thời hạn trong cơ quan hành chính được áp dụng chế độ, chính sách như công chức, người hoạt động không chuyên trách cấp xã tại khoản 1 và khoản 3 Điều 2 Nghị định số 29/2023/NĐ-CP trong các cơ quan, tổ chức của Đảng, Nhà nước, tổ chức chính trị - xã hội từ Trung ương đến cấp xã Kinh phí giải quyết",
+            "trang_pdf": 2,
+            "sha256_pdf": "a38d61a36527748f753432b1d26fd4a7c23e85919aaf6318a1b8519eb0aa1429"
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Nguồn kinh phí giải quyết chính sách tinh giản biên chế trong các đơn vị sự nghiệp công lập Kinh phí thực hiện chính sách tinh giản biên chế đối với viên chức (bao gồm cả viên chức theo quy định tại điểm b khoản 1 Điều 9 Nghị định số 29/2023/NĐ-CP), người làm việc theo chế độ hợp đồng lao động không xác định thời hạn thực hiện các công việc chuyên môn nghiệp vụ thuộc danh mục vị trí việc làm chức danh nghề nghiệp chuyên ngành và vị trí",
+            "trang_pdf": 3,
+            "sha256_pdf": "a38d61a36527748f753432b1d26fd4a7c23e85919aaf6318a1b8519eb0aa1429"
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Điều 4. Nguồn kinh phí thực hiện chính sách tinh giản biên chế đối với các trường hợp khác Nguồn kinh phí thực hiện chính sách tinh giản biên chế đối với các đối tượng quy định tại khoản 1, khoản 2, khoản 3 và khoản 4 Điều 18 Nghị định số 29/2023/NĐ-CP thực hiện theo quy định tại khoản 3, khoản 4, khoản 5 Điều 11 Nghị định số 29/2023/NĐ-CP.",
+            "trang_pdf": 4,
+            "sha256_pdf": "a38d61a36527748f753432b1d26fd4a7c23e85919aaf6318a1b8519eb0aa1429"
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Điều 5. Lập dự toán, phân bổ, sử dụng và quyết toán kinh phí ngân sách nhà nước thực hiện chính sách tinh giản biên chế Việc lập dự toán, phân bổ, sử dụng và quyết toán kinh phí ngân sách nhà nước thực hiện chính sách tinh giản biên chế thực hiện theo quy định của Luật Ngân sách nhà nước và các văn bản hướng dẫn Luật.",
+            "trang_pdf": 4,
+            "sha256_pdf": "a38d61a36527748f753432b1d26fd4a7c23e85919aaf6318a1b8519eb0aa1429"
+          },
+          {
+            "dieu": 6,
+            "noi_dung": "Điều 6. Tổ chức thực hiện 1. Thông tư này có hiệu lực thi hành kể từ ngày 15 tháng 4 năm 2024. 2. Thông tư số 31/2019/TT-BTC ngày 05 tháng 6 năm 2019 của Bộ trưởng Bộ trưởng Bộ Tài chính hướng dẫn việc xác định nguồn kinh phí và việc lập dự toán, quản lý, sử dụng và quyết toán kinh phí thực hiện chính sách tinh giản biên chế, Thông tư số 117/2021/TT-BTC ngày 22 tháng 12 năm 2021 của Bộ trưởng Bộ Tài chính sửa đổi, bổ sung một số điều của Thông",
+            "trang_pdf": 6,
+            "sha256_pdf": "a38d61a36527748f753432b1d26fd4a7c23e85919aaf6318a1b8519eb0aa1429"
+          }
+        ]
+      },
+      "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #372). Kinh phí thực hiện chính sách tinh giản biên chế theo NĐ 29/2023/NĐ-CP.",
+      "slug": "13-2024-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "13/2025/NĐ-CP",
       "loai": "NGHI_DINH",
       "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 115/2022/NĐ-CP ngày 30 tháng 12 năm 2022 của Chính phủ ban hành Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương giai đoạn 2022 - 2027 đã được sửa đổi, bổ sung một số điều theo Nghị định số 68/2023/NĐ-CP ngày 07 tháng 9 năm 2023 của Chính phủ",
@@ -29333,6 +29435,96 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "14/2017/QH14",
+      "loai": "LUAT",
+      "ten": "Luật Quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2017-06-20",
+      "hieu_luc_tu": "2018-07-01",
+      "het_hieu_luc_tu": "2025-01-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=190300",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2017/07/14.signed.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/14-2017-qh14.pdf",
+        "raw/ocr/14-2017-qh14.ocr.txt"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu Cổng TTĐT Chính phủ (docid=190300) và toàn văn PDF ký số 55 trang đã OCR (SHA-256 cf0a7304f40c...): Quốc hội khóa XIV thông qua ngày 20-06-2017, hiệu lực từ 01-07-2018; hết hiệu lực từ 01-01-2025 do Luật Quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ số 42/2024/QH15 thay thế",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh Luật này quy định về quản lý, sử dụng vũ khí, vật liệu nỗ, tiền chất thuốc nd, công cụ hỗ trợ; nguyên tắc, trách nhiệm của cơ quan, tổ chức, cá nhân trong quan lý, sử dụng võ khí, vật liệu nỗ, tiền chất thuốc nỗ, công cụ hỗ. trợ nhằm bảo vệ an ninh quôc gia, bảo đảm trật tự, an toàn xã hội, bảo vệ quyền con người, quyền công dân và phục vụ phát triển kinh tế - xã hội.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Đối tượng áp dụng Luật này áp dụng đối với cơ quan, tổ chức, cá nhân liên quan đến quản lý, sử dụng vũ khí, vật liệu nõ, tiên chat thuốc nô, công cụ hé trợ.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Giải thích từ ngữ Trong Luật nay, các từ ngữ dưới đây được hiểu như sau: 1, Vã khí là thiết bị, phương tiện hoặc tổ hợp những phương tiện được chế tạo, sản xuất có khả năng gây sát thương, nguy hại cho tính mạng, sức khỏe của con người, phá hủy kết cấu vật chất, bao gôm: vũ khí quân dụng, súng săn, vũ khí thô sơ, vũ khí thể thao và vũ khí khác có tính năng, tác dụng tương tự.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Điều 5. Các hành vi bị nghiêm cam trong quản lý, sử dung vũ khí, vật oA A «A A & Ax aA x liệu no, tiên chat thudc no va công cụ hồ trợ 1. Cá nhân sở hữu vũ khí, vật liệu nd, công cụ hỗ trợ, trừ vũ khí thô sơ là hiện vat dé trưng bày, trién lãm, đô gia bảo.",
+            "trang_pdf": 4
+          },
+          {
+            "dieu": 6,
+            "noi_dung": "Điều 6. Trách nhiệm của người đứng đầu cơ quan, t6 chức, doanh nghiệp được trang bị, sử dụng vũ khí, vật liệu nỗ, tiền chất thuốc nỗ, công cụ ho trợ 1. Chỉ đạo, tổ chức thực hiện và chịu trách nhiệm trong việc quản lý, sử dụng vũ khí, vật liệu nô, tiền chat thuôc nô, công cụ hồ trợ. 2. Chỉ được giao vũ khí, vật liệu nỗ, công cụ hỗ trợ cho người có đủ điều kiện quy định tại khoản 1 Điêu 7 của Luật này.",
+            "trang_pdf": 5
+          },
+          {
+            "dieu": 7,
+            "noi_dung": "Điều 7. Điều kiện, trách nhiệm của người được giao sử dụng vũ khí, vật liệu nô, công cụ hỗ trợ 1. Người được giao sử dụng vũ khí, vật liệu nỗ, công cụ hỗ trợ phải bảo đảm đủ điêu kiện sau đây: a) Có năng lực hành vi dân sự đầy đủ; b) Có phẩm chất đạo đức tốt, đủ sức khỏe phù hợp với công việc được giao;",
+            "trang_pdf": 5
+          },
+          {
+            "dieu": 9,
+            "noi_dung": "Điều 9. Quan lý, bảo quản vũ khí, vật liệu nỗ, tiền chất thuốc nỗ, công cụ hỗ trợ 1. Vũ khí, vật liệu nỗ, tiền chất thuốc nỗ, công cụ hỗ trợ phải được quan lý, bảo quản theo đúng chê độ, đúng quy trình, bảo dam an toàn, không dé mat, hư hỏng.",
+            "trang_pdf": 6
+          },
+          {
+            "dieu": 10,
+            "noi_dung": "Điều 10. Thu hồi vũ khí, vật liệu nỗ quân dụng, công cụ hỗ trợ và giấy phép, giấy xác nhận, giấy chứng nhận, chứng chỉ về quản lý, sử dung vũ khí, vật liệu nỗ, tiền chất thuốc no, công cu hé trợ 1. Vũ khí, vật liệu nỗ quân dụng, công cụ hỗ trợ trang bị cho cơ quan, tổ chức, doanh nghiệp được thu hồi trong trường hợp sau đây: a) Cơ quan, tổ chức, doanh nghiệp giải thể, chuyến đổi, chia, tách, hợp nhất, sáp nhập;",
+            "trang_pdf": 7
+          },
+          {
+            "dieu": 11,
+            "noi_dung": "Điều 11. Thủ tục thu hồi vũ khí, vật liệu nỗ quân dụng, công cụ hỗ trợ và giấy phép, giấy xác nhận, giấy chứng nhận, chứng chỉ về quản lý, sử dụng vũ khí, vật liệu nỗ, tiền chất thuốc nỗ, công cụ hỗ trợ 1. Cơ quan, tổ chức, doanh nghiệp thuộc trường hợp quy định tại Điều 10 của Luật này có trách nhiệm lập hồ sơ, làm thủ tục dé nghị thu hồi. Hồ sơ đề nghị bao gôm: a) Văn bản đề nghị thu hồi;",
+            "trang_pdf": 8
+          },
+          {
+            "dieu": 15,
+            "noi_dung": "Điều 15. Quản lý, sử dụng vũ khí, vật liệu nỗ, công cụ hỗ trợ để triển lãm, trưng bày, chào hàng, giới thiệu san phẩm hoặc làm đạo cụ trong hoạt động văn hóa, nghệ thuật 1. Vũ khí, công cụ hỗ trợ được sử dụng để triển lãm, trưng bày hoặc làm dao cụ trong hoạt động văn hóa, nghệ thuật phải làm mat tinh năng, tác dụng. 2. Vũ khí, công cụ hỗ trợ chỉ được chào hàng, giới thiệu sản phẩm theo thời gian, địa điểm đã đăng ký với cơ quan có thẩm quyền.",
+            "trang_pdf": 10
+          }
+        ]
+      },
+      "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #373). Đã hết hiệu lực từ 01-01-2025, thay bằng Luật 42/2024/QH15 (đã có trong sổ).",
+      "slug": "14-2017-qh14",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "14/2018/NĐ-CP",
@@ -48812,6 +49004,11 @@
             "tu": "29/2025/TT-BTC",
             "quan_he": "sua_doi",
             "so_hieu": "191/2015/TT-BTC"
+          },
+          {
+            "tu": "56/2019/TT-BTC",
+            "quan_he": "sua_doi",
+            "so_hieu": "191/2015/TT-BTC"
           }
         ]
       }
@@ -61279,6 +61476,41 @@
       }
     },
     {
+      "so_hieu": "23/2008/QH12",
+      "loai": "LUAT",
+      "ten": "Luật Giao thông đường bộ",
+      "co_quan": "QH",
+      "ngay_ban_hanh": "2008-11-13",
+      "hieu_luc_tu": "2009-07-01",
+      "het_hieu_luc_tu": "2025-01-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/kiem-tra-giam-sat",
+        "quan-ly-ngoai-thuong/giay-phep"
+      ],
+      "nguon": [
+        {
+          "url": "https://vbpl.vn/van-ban/chi-tiet/luat-giao-thong-duong-bo-so-23-2008-qh12--12333",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=80618",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu CSDLQG vbpl.vn (ID 12333) và Cổng TTĐT Chính phủ (docid=80618): Quốc hội khóa XII thông qua ngày 13-11-2008, hiệu lực từ 01-07-2009; hết hiệu lực từ ngày 01-01-2025 khi Luật Đường bộ 35/2024/QH15 và Luật Trật tự, an toàn giao thông đường bộ 36/2024/QH15 có hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam"
+      },
+      "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #422). Đã hết hiệu lực từ 01-01-2025, thay bằng Luật 35/2024/QH15 và Luật 36/2024/QH15.",
+      "slug": "23-2008-qh12",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "23/2016/TT-BCT",
       "loai": "THONG_TU",
       "ten": "Bãi bỏ Thông tư số 37/2015/TT-BCT ngày 30 tháng 10 năm 2015 của Bộ trưởng Bộ Công Thương quy định về mức giới hạn và việc kiểm tra hàm lượng formaldehyt và amin thơm chuyển hóa từ thuốc nhuộm azo trong sản phẩm dệt may",
@@ -67190,6 +67422,56 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "25/2016/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với mặt hàng Diamoni hydro orthophosphat (diamoni phosphat) thuộc mã hàng 3105.30.00 tại Biểu thuế nhập khẩu ưu đãi",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2016-02-16",
+      "hieu_luc_tu": "2016-04-03",
+      "het_hieu_luc_tu": "2016-09-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/?pageid=27160&docid=184149",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/04/25-btc.signed.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/25-2016-tt-btc.pdf",
+        "raw/ocr/25-2016-tt-btc.ocr.txt"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu Cổng TTĐT Chính phủ (docid=184149) và PDF ký số 2 trang đã OCR (SHA-256 68973cc3e17f...): Thứ trưởng Vũ Thị Mai ký ngày 16-02-2016, hiệu lực 03-04-2016; hết hiệu lực từ 01-09-2016 khi Nghị định 122/2016/NĐ-CP thay thế Biểu thuế MFN theo Thông tư 182/2015/TT-BTC",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với mặt hàng Diamoni hydro orthophosphat (diamoni phosphat) thuộc mã hàng 3105.30.00 tại Biểu thuế nhập khẩu ưu đãi.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Thông tư này có hiệu lực thi hành kể từ ngày63tháng0£năm 2016./ 4",
+            "trang_pdf": 2
+          }
+        ]
+      },
+      "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #406). Liên quan phân bón DAP mã 3105.30.00 giai đoạn 2016, đã hết hiệu lực.",
+      "slug": "25-2016-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "25/2018/NĐ-CP",
       "loai": "NGHI_DINH",
       "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in",
@@ -69405,6 +69687,70 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "26/2025/NĐ-CP",
+      "loai": "NGHI_DINH",
+      "ten": "Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Ngân hàng Nhà nước Việt Nam",
+      "co_quan": "CP",
+      "ngay_ban_hanh": "2025-02-24",
+      "hieu_luc_tu": "2025-03-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "bo-may"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=212835",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/02/26-cp.signed.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/26-2025-nd-cp.pdf",
+        "raw/ocr/26-2025-nd-cp.ocr.txt"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu Cổng TTĐT Chính phủ (docid=212835) và PDF ký số 9 trang đã OCR (SHA-256 86824626edaf...): Phó Thủ tướng Hồ Đức Phớc ký ngày 24-02-2025, hiệu lực từ 01-03-2025, đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Vị trí và chức năng Ngân hàng Nhà nước Việt Nam (sau đây gọi tắt là Ngân hàng Nhà nước) là cơ quan ngang bộ của Chính phủ, Ngân hàng Trung ương của nước Cộng hoà xã hội chủ nghĩa Việt Nam; thực hiện chức năng quản lý nhà nước về tiền tệ, hoạt động ngân hàng và ngoại hỗi (sau đây gọi là tiền tệ và ngân hàng) và các dịch vụ công thuộc phạm vi quản ly của Ngân hang Nhà nước;",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Nhiệm vụ và quyền hạn Ngân hàng Nhà nước thực hiện các nhiệm vụ, quyền hạn quy định tại Luật Ngân hàng Nhà nước Việt Nam, Luật Tổ chức Chính phủ, quy định của Chính phủ vê chức năng, nhiệm vụ, quyền hạn và cơ cấu tô chức của bộ, cơ quan ngang bộ và những nhiệm vụ, quyền hạn cụ thê sau:",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Cơ cau tô chức 1. Vụ Chính sách tiền tệ. 2. Vụ Thanh toán. 3. Vụ Tín dụng các ngành kinh tế. 4. Vụ Dự báo, thống kê - Ôn định tiền tệ, tài chính. 5. Vụ Hợp tác quốc tế. 6. Vụ Pháp chế. 7. Vụ Tài chính - Kế toán. 8. Vụ Tổ chức cán bộ. 9. Văn phòng. 10. Thanh tra Ngân hàng Nhà nước. 11. Sở Giao dịch. 12. Cục Công nghệ thông tin. 13. Cục Phát hành và kho quỹ. 14. Cục Quản lý ngoại hối. 15. Cục Phòng, chống rửa tiền.",
+            "trang_pdf": 7
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Điều 4. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 3 năm 2025. 2. Nghị định này bãi bỏ: a) Nghị định số 102/2022/NĐ-CP ngày 12 tháng 12 năm 2022 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tô chức của Ngân hàng Nhà nước Việt Nam; b) Nghị định số 26/2014/NĐ-CP ngày 07 tháng 4 năm 2014 của Chính phủ về tổ chức và hoạt động của Thanh tra, giám sát ngành Ngân hàng:",
+            "trang_pdf": 8
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Điều 5. Trách nhiệm thi hành Thống đốc Ngân hàng Nhà nước, các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương chịu trách nhiệm thi hành Nghị định này,",
+            "trang_pdf": 9
+          }
+        ]
+      },
+      "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #407). Quy định tổ chức bộ máy Ngân hàng Nhà nước sau sắp xếp 2025.",
+      "slug": "26-2025-nd-cp",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "26/2025/TT-BNNMT",
@@ -72790,6 +73136,43 @@
       "toan_van": "chua_co",
       "slug": "2795-tb-tchq-2018",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "28/2016/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí sử dụng đường bộ trạm thu phí tại Km152+080 quốc lộ 1, tỉnh Bắc Ninh",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2016-02-22",
+      "hieu_luc_tu": "2016-04-08",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/?pageid=27160&docid=184235",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/04/28-btc.signed.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/28-2016-tt-btc.pdf",
+        "raw/ocr/28-2016-tt-btc.ocr.txt"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu Cổng TTĐT Chính phủ (docid=184235) và PDF ký số 4 trang đã OCR (SHA-256 7ae830e557e8...): Thứ trưởng Vũ Thị Mai ký ngày 22-02-2016, hiệu lực 08-04-2016; quy định phí BOT trạm thu phí cũ, đã hết hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam"
+      },
+      "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #408). Thông tư phí BOT quốc lộ 1 Bắc Ninh (chế độ phí cũ).",
+      "slug": "28-2016-tt-btc",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -77625,6 +78008,60 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "30/2024/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Ban hành các chuẩn mực thẩm định giá Việt Nam về quy tắc đạo đức nghề nghiệp thẩm định giá, phạm vi công việc thẩm định giá, cơ sở giá trị thẩm định giá, hồ sơ thẩm định giá",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2024-05-16",
+      "hieu_luc_tu": "2024-07-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-30-2024-tt-btc-42051/50470.htm",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/5/42051/50470-1-2024737-73830-2024-tt-btc.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/30-2024-tt-btc.pdf",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn Công báo số 737+738 ngày 22-06-2024 (25 trang có lớp chữ, SHA-256 438412f5f1f1...): ban hành ngày 16-05-2024, hiệu lực từ 01-07-2024, đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Ban hành kèm theo Thông tư này các chuẩn mực thẩm định giá Việt Nam sau: - Chuẩn mực thẩm định giá Việt Nam về Quy tắc đạo đức nghề nghiệp thẩm định giá; - Chuẩn mực thẩm định giá Việt Nam về Phạm vi công việc thẩm định giá; - Chuẩn mực thẩm định giá Việt Nam về Cơ sở giá trị thẩm định giá; - Chuẩn mực thẩm định giá Việt Nam về Hồ sơ thẩm định giá.",
+            "trang_pdf": 1,
+            "sha256_pdf": "438412f5f1f1a982857c65e91f6287f523b99df058f4cc5b17ec631da268f8ce"
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 7 năm 2024. 2. Thông tư số 158/2014/TT-BTC ngày 27/10/2014 của Bộ trưởng Bộ Tài chính ban hành Tiêu chuẩn thẩm định giá Việt Nam số 01, 02, 03 và 04 và Thông tư số 28/2015/TT-BTC ngày 06/3/2015 của Bộ trưởng Bộ Tài chính ban hành",
+            "trang_pdf": 1,
+            "sha256_pdf": "438412f5f1f1a982857c65e91f6287f523b99df058f4cc5b17ec631da268f8ce"
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Tổ chức thực hiện 1. Các tổ chức, cá nhân có liên quan chịu trách nhiệm thực hiện Chuẩn mực thẩm định giá Việt Nam ban hành kèm theo Thông tư này. 2. Trong quá trình thực hiện nếu có vướng mắc đề nghị các tổ chức cá nhân phản ánh kịp thời về Bộ Tài chính để nghiên cứu, giải quyết./.",
+            "trang_pdf": 2,
+            "sha256_pdf": "438412f5f1f1a982857c65e91f6287f523b99df058f4cc5b17ec631da268f8ce"
+          }
+        ]
+      },
+      "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #409). Chuẩn mực thẩm định giá Việt Nam hướng dẫn Luật Giá 16/2023/QH15.",
+      "slug": "30-2024-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "3000/TB-TCHQ/2019",
@@ -92204,6 +92641,54 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "36/2017/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 217/2013/TT-BTC ngày 31 tháng 12 năm 2013 hướng dẫn thực hiện xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2017-04-27",
+      "hieu_luc_tu": "2017-06-15",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "xu-phat"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-36-2017-tt-btc-23989/18015.htm",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2017/4/23989/18015-1-2017451-45236-2017-tt-btc.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/36-2017-tt-btc.pdf",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn Công báo số 451+452 ngày 20-06-2017 (8 trang có lớp chữ, SHA-256 de3b8700c33b...): Thứ trưởng Trần Xuân Hà ký ngày 27-04-2017, hiệu lực 15-06-2017; văn bản gốc 217/2013/TT-BTC đã hết hiệu lực khi khung Luật Chứng khoán 2019 và NĐ 156/2020/NĐ-CP có hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Sửa đổi, bổ sung một số điều của Thông tư số 217/2013/TT-BTC ngày 31 tháng 12 năm 2013 của Bộ trưởng Bộ Tài chính hướng dẫn thực hiện xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán như sau: 1. Điểm a và Điểm b Khoản 2 Điều 2 được sửa đổi, bổ sung như sau: “a) Đối với hành vi vi phạm quy định về thực hiện chào bán, phát hành chứng khoán tại các Điểm b, c và d Khoản 3 Điều 4, Khoản 4 và Khoản 5 Điều 6,",
+            "trang_pdf": 2,
+            "sha256_pdf": "de3b8700c33b5e91fad38ab56db8251f71d302dbf8cdf3e44bbff6b18600c969"
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Điều khoản thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 15 tháng 6 năm 2017. 2. Chủ tịch Ủy ban Chứng khoán Nhà nước chịu trách nhiệm tổ chức và chỉ đạo việc xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán theo đúng các quy định của pháp luật. 3. Trong quá trình thực hiện, nếu có khó khăn, vướng mắc đề nghị phản ánh kịp thời về Bộ Tài chính để xem xét, giải quyết./.",
+            "trang_pdf": 8,
+            "sha256_pdf": "de3b8700c33b5e91fad38ab56db8251f71d302dbf8cdf3e44bbff6b18600c969"
+          }
+        ]
+      },
+      "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #411). Lĩnh vực chứng khoán, đã hết hiệu lực.",
+      "slug": "36-2017-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "36/2024/QH15",
       "loai": "LUAT",
       "ten": "Luật Trật tự, an toàn giao thông đường bộ",
@@ -96458,6 +96943,95 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "38/2016/QĐ-TTg",
+      "loai": "QUYET_DINH",
+      "ten": "Về việc ban hành một số chính sách bảo vệ, phát triển rừng và đầu tư hỗ trợ kết cấu hạ tầng, giao nhiệm vụ công ích đối với các công ty nông, lâm nghiệp",
+      "co_quan": "TTG",
+      "ngay_ban_hanh": "2016-09-14",
+      "hieu_luc_tu": "2016-11-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/?pageid=27160&docid=186400",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/09/38.signed.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/38-2016-qd-ttg.pdf",
+        "raw/ocr/38-2016-qd-ttg.ocr.txt"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu Cổng TTĐT Chính phủ (docid=186400) và PDF ký số 22 trang đã OCR (SHA-256 b0af06415c23...): Phó Thủ tướng Vương Đình Huệ ký ngày 14-09-2016, hiệu lực từ 01-11-2016",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Quan điểm chỉ đạo phát triển rừng 1. Nhà nước khuyến khích các tổ chức, hộ gia đình, cá nhân thuộc các thành phần. kinh tế đầu tư trồng rừng và chế biến lâm sản theo quy định của pháp luật về bảo vệ và phát triển rừng. . 2. Rùng sản xuất là rừng đa mục tiêu, trồng rừng sản xuất nhằm tăng thu nhập cho người làm nghề rừng và góp phần bảo vệ môi trường, sinh thái.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Phạm vi điều chỉnh và đối tượng áp dụng 1. Phạm vi điều chỉnh: Quyết định này quy định một sỐ cơ chế, chính sách đối với việc bảo vệ rừng và phát triển ngành lâm nghiệp bền vững.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Mục tiêu phát triển rừng 1. Mục tiêu đến năm 2020: Trồng 900.000 ha rừng sản xuất, bình quân mỗi năm trồng 180.000 ha. Trồng 75.000 ha rừng phòng hộ, đặc dụng, mỗi năm trồng 15.000 ha. Khoanh nuôi tái sinh rừng 360.000 ha. 2. Giải quyết việc làm, tăng thu nhập nhằm én định đời sống cho đồng bào miền núi.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 6,
+            "noi_dung": "Điều 6. Hỗ trợ trồng rừng phòng hộ, đặc dụng, khoanh nuôi tái sinh rừng, khoán quản lý bảo vệ rừng 1. Đầu tư trồng rừng phòng hộ, đặc dụng: Mức kế hoạch vốn từ ngân sách trung ương là 30 triệu đồng/ha; mức đầu. tư cụ thể được xác định trên cơ sở định mức kinh tế kỹ thuật và dự án được cấp có thâm quyền phê duyệt, Ủy ban nhân dân cấp tỉnh và cơ quan quyết định đầu tư trung ương tự cân đối bổ sung phần ngân sách còn thiếu theo dự toán được duyệt.",
+            "trang_pdf": 4
+          },
+          {
+            "dieu": 9,
+            "noi_dung": "Điều 9. Quyền và nghĩa vụ tổ chức, hộ gia đình, cá nhân và cộng đồng (gọi tắt là chủ rừng) khi trồng rùng phòng hộ; bảo vệ, khoanh nuôi tái sinh rừng tự nhiên 1. Quyền lợi: Được hưởng hỗ trợ của ngân sách nhà nước theo quy định tại Quyết định này và toàn bộ sản phâm của rừng mang lại khi được phép khai thác từ rừng theo quy định của Nhà nước.",
+            "trang_pdf": 6
+          },
+          {
+            "dieu": 11,
+            "noi_dung": "Điều 11. Hỗ trợ đầu tư xây dựng các trung tâm sản xuất giống cây rừng chất lượng cao 1. Tiêu chí trung tâm giống được hỗ trợ: a) Là cơ sở nuôi cấy mô có quy mô tối thiểu 1 triệu cây/năm. b) Diện tích đất tập trung xây dựng trung tâm giống tối thiểu là 3,0 ha (bao gồm đất dé xây dựng nhà, xưởng, dat làm vườn ươm). 2. Điều kiện nhận hỗ trợ đầu tư: a) Đối với tỉnh chưa có cơ sở nuôi cấy mô thì được hỗ trợ đầu tư xây",
+            "trang_pdf": 7
+          },
+          {
+            "dieu": 13,
+            "noi_dung": "Điều 13. Hỗ trợ đầu tư đường lâm nghiệp 1. Đường ranh phòng chống cháy rừng (đường ranh can lửa) a) Tiêu chuẩn hỗ trợ: Đường ranh phòng chống cháy rừng kết hợp làm đường vận xuất, vận chuyển cây giống, vật tư, trong nội vùng dự án được quy hoạch với mức 15 - 20 mét đường/ha.",
+            "trang_pdf": 8
+          },
+          {
+            "dieu": 15,
+            "noi_dung": "Điều 15. Hỗ trợ đầu tư và đặt hàng đối với các công ty nông lâm nghiệp (quy định tại khoản 2 Điều 1 Nghị định số 118/2014/NĐ-CP)",
+            "trang_pdf": 10
+          },
+          {
+            "dieu": 18,
+            "noi_dung": "Điều 18. Về đất đai 1, Đối với đất được quy hoạch để trồng rừng sản xuất mà hiện nay do các tô chức của Nhà nước quản lý nếu chưa có đủ điều kiện để giao đất cho các tổ chức, hộ gia đình, cá nhân và cộng đồng thì trước khi áp dụng Quyết",
+            "trang_pdf": 11
+          },
+          {
+            "dieu": 21,
+            "noi_dung": "Điều 21. Hiệu lực thi hành 1. Quyết định này có hiệu lực thi hành từ ngày 01 tháng 11 năm 2016 và thay thế Quyết định sô 147/2007/QD- -TTg ngày 07 thang 9 năm 2007 về một sô chính sách phát triển rừng sản xuất giai đoạn 2007 - 2015 và Quyết định số 66/2011/QĐ-TTg ngày 09 tháng 12 năm 201 lcủa Thủ Tướng Chính phủ về sửa đổi, bd sung một số Điều của Quyết định số 147/2007/QĐ-TTg.",
+            "trang_pdf": 15
+          }
+        ]
+      },
+      "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #381). Chính sách hỗ trợ bảo vệ, phát triển rừng và công ty nông lâm nghiệp.",
+      "slug": "38-2016-qd-ttg",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "38/2018/TT-NHNN",
@@ -108254,6 +108828,70 @@
       }
     },
     {
+      "so_hieu": "45/2016/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí sử dụng đường bộ trạm thu phí tại Km1064+730 quốc lộ 1, tỉnh Quảng Ngãi",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2016-03-04",
+      "hieu_luc_tu": "2016-05-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/?pageid=27160&docid=184142",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/04/45-btc.signed.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/45-2016-tt-btc.pdf",
+        "raw/ocr/45-2016-tt-btc.ocr.txt"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu Cổng TTĐT Chính phủ (docid=184142) và PDF ký số 4 trang đã OCR (SHA-256 44c19b5e2e8a...): Thứ trưởng Vũ Thị Mai ký ngày 04-03-2016, hiệu lực 01-05-2016; quy định phí BOT trạm thu phí cũ, đã hết hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Đối tượng áp dụng Đối tượng áp dụng thu phí sử dụng đường bộ trạm thu phí tại Km 1064 + 30 quốc lộ 1, tỉnh Quảng Ngãi thực hiện theo quy định tại Điều 3, Điều 4 và Điều 5 Thông tư số 159/2013/TT-BTC ngày 14/11/2013 của Bộ Tài chính hướng dẫn chế độ thu, nộp, quản lý và sử dụng phí sử dụng đường bộ để hoàn vốn đầu tư xây dựng đường bộ.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Biểu mức thu Ban hành kèm theo Thong tư này Biểu mức thu phi sử dung đường bộ trạm thu phí tại Km 1064 + 730 quốc lộ 1, tỉnh Quảng Ngãi (Mức thu đã bao gồm thuế giá trị gia tăng).",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Chứng từ thu phí Chứng từ thu phí sử dụng đường bộ trạm thu phí tại Km 1064 + 730 quốc lộ 1, tỉnh Quảng Ngãi thực hiện theo quy định tại Điều 9 Thông tư số 159/2013/TT-BTC.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Điều 4. Quản lý, sử dụng tiền phí thu được 1. Phí sử dụng đường bộ tram thu phí tại Km 1064 + 730 quốc lộ 1, tỉnh Quản Ngãi được thu, nộp, quản lý, sử dụng theo quy định tại Điều 8 Thông tư số 1",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Điều 5. Té chức thưc hiên 1. Thông tư này có hiệu lực thi hành ké từ ngày 01 tháng 5 năm 2016. Thời gian bắt đầu thu phí theo mức phí tại Thông tư này kể từ khi có đủ điều kiện sau: a) Dự án được Bộ Giao thông vận tải cho phép và đã thực hiện nghiệm thu hoàn thành, đưa vào sử dụng: b) Được Bộ Giao thông vận tải ban hành Quyết định cho phép thu phí.",
+            "trang_pdf": 2
+          }
+        ]
+      },
+      "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #392). Thông tư phí BOT quốc lộ 1 Quảng Ngãi (chế độ phí cũ).",
+      "slug": "45-2016-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "45/2017/QĐ-TTg",
       "loai": "QUYET_DINH",
       "ten": "Sửa đổi, bổ sung Quyết định số 36/2016/QĐ-TTg ngày 01 tháng 9 năm 2016 của Thủ tướng Chính phủ quy định việc áp dụng thuế suất thông thường đối với hàng hóa nhập khẩu",
@@ -112670,7 +113308,15 @@
       ],
       "slug": "49-2015-tt-btc",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "56/2019/TT-BTC",
+            "quan_he": "sua_doi",
+            "so_hieu": "49/2015/TT-BTC"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "49/2025/TT-BCT",
@@ -121286,6 +121932,76 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "56/2019/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 49/2015/TT-BTC ngày 14 tháng 4 năm 2015 quy định thủ tục hải quan đối với thư, gói, kiện hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định và Thông tư số 191/2015/TT-BTC ngày 24 tháng 11 năm 2015 quy định thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh gửi qua dịch vụ chuyển phát nhanh quốc tế",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2019-08-23",
+      "hieu_luc_tu": "2019-10-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          "49/2015/TT-BTC",
+          "191/2015/TT-BTC"
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/?pageid=27160&docid=197800",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/09/56-btc.signed.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/56-2019-tt-btc.pdf",
+        "raw/ocr/56-2019-tt-btc.ocr.txt"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu Cổng TTĐT Chính phủ (docid=197800) và toàn văn PDF ký số 105 trang đã OCR (SHA-256 2228e2c4c4be...): Thứ trưởng Vũ Thị Mai ký ngày 23-08-2019, hiệu lực từ 15-10-2019; sửa đổi, bổ sung TT 49/2015/TT-BTC (bưu chính) và TT 191/2015/TT-BTC (chuyển phát nhanh quốc tế), được sửa đổi tiếp bởi TT 29/2025/TT-BTC và TT 142/2026/TT-BTC (đã hợp nhất phần bưu chính tại 54/2026/VBHN-TT-BTC)",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Sửa đổi, bd sung một số điều của Thông tư số 49/2015/TT-BTC ngày 14 tháng 4 năm 2015 quy định thủ tục hải quan đối với thư, gói, kiện hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định 1. Bé sung khoản 4 Điều 2 như sau: A, Doanh nghiép kinh doanh dia điểm tập kết, kiểm tra, giám sát tập trung đôi với hàng bưu chính, chuyên phát nhanh.” -",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Sửa đỗi, bé sung một số Điều của Thông tw số 191/2015/TT- BTC ngay 24 tháng 11 nam 2015 quy định thú tục hai quan đối với hàng hoá xuất khẩu, nhập khẩu, quá cảnh gửi qua dịch vụ chuyển phát nhanh quốc tế",
+            "trang_pdf": 16
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Điều khoản. chuyển tiếp Trong thời gian nâng cấp Hệ thống xử lý dữ liệu điện tử hải quan dé đáp ứng các quy định tại Thông tư này: 1. Đối với doanh nghiệp được chỉ định theo quy định của Luật Bưu chính: Thực hiện thủ tục hải quan đối với gói, kiện hàng hóa xuất khâu, nhập khâu nhóm | theo quy định tại khoản 4 Điêu 1 Thông tư này. 2. Đối với doanh nghiệp chuyển phát nhanh:",
+            "trang_pdf": 33
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Điều 4. Trách nhiệm tổ chức thực hiện 1. Tổng cục Hải quan có trách nhiệm xây dựng Hệ thống xử ly dit liệu điện tử hải quan đáp ứng các yêu câu quy định tại Thông tư này. 2. _ Trường hợp theo Điều ước quốc tế mà Việt Nam là thành viên có quy định về thời gian giải phóng hàng, Tổng, cục Hải quan có trách nhiệm tổ chức thực hiện đảm bảo theo đúng điều ước quốc tế đó.",
+            "trang_pdf": 33
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Điều 5. Hiệu lực thi hành 1. Thông tư này có hiệu lực kế từ ngày 15 tháng 10 năm 2019. 2. Thông tư này bãi bỏ: a) Điều 12, Điều 13, Điều 14, Điều 15, Điều 16 và Điều 17 Thông tư số",
+            "trang_pdf": 33
+          }
+        ]
+      },
+      "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #413). Mắt xích cốt lõi trong chuỗi thủ tục hải quan hàng bưu chính (49/2015) và chuyển phát nhanh quốc tế (191/2015).",
+      "slug": "56-2019-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "56/2024/QH15",
       "loai": "LUAT",
       "ten": "Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách nhà nước, Luật Quản lý, sử dụng tài sản công, Luật Quản lý thuế, Luật Thuế thu nhập cá nhân, Luật Dự trữ quốc gia, Luật Xử lý vi phạm hành chính",
@@ -125604,6 +126320,96 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "61/2016/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Hướng dẫn thu, nộp và quản lý khoản lợi nhuận, cổ tức được chia cho phần vốn nhà nước đầu tư tại doanh nghiệp",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2016-04-11",
+      "hieu_luc_tu": "2016-05-26",
+      "het_hieu_luc_tu": "2022-01-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/?pageid=27160&docid=185183",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/06/61-btc.signed.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/61-2016-tt-btc.pdf",
+        "raw/ocr/61-2016-tt-btc.ocr.txt"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu Cổng TTĐT Chính phủ (docid=185183) và PDF ký số 16 trang đã OCR (SHA-256 f083cada5511...): Thứ trưởng Đỗ Hoàng Anh Tuấn ký ngày 11-04-2016, hiệu lực 26-05-2016; hết hiệu lực từ 01-01-2022 theo Thông tư 85/2021/TT-BTC",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh Thông tư này quy định chỉ tiết việc thu, nộp lợi nhuận sau thuế còn lại sau khi trích lập các quỹ đôi với công ty mẹ của các Tập đoàn kinh tế nhà nước, công ty mẹ của các Tông công ty nhà nước, công ty mẹ trong nhóm công ty mẹ - công ty con, công ty trách nhiệm hữu hạn một thành viên độc lập do Nhà nước nắm giữ 100% von điều lệ;",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Đối tượng áp dung 1. Doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ, bao gồm: a) Công ty trách nhiệm hữu hạn một thành viên là công ty mẹ của các tập đoàn kinh tê nhà nước; b) Công ty trách nhiệm hữu hạn một thành viên là công ty mẹ của téng công ty nha nước (gom cả Tong công ty dau tư và kinh doanh vốn nhà nước - gọi tắt là SCIC); , c) Công ty trách nhiệm hữu hạn một thành viên là công ty me trong nhóm công ty mẹ - công ty con;",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Điều 4. Xác định lợi nhuận sau thuế còn lại sau khi trích lập các quỹ nộp ngân sách nhà nước 1. Lợi nhuận sau thuế còn lại sau khi trích lập các quỹ nộp ngân sách nhà nước của doanh nghiệp quy định tại Khoản 1 Điều 2 Chương I Thông tư này là lợi nhuận được xác định theo quy định của pháp luật ve kế toán (đã được trừ đi các khoản chỉ không được trừ khi xác định thuế thu nhập doanh nghiệp nhưng phù hợp với quy định của pháp luật về kế toán) sau",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Điều 5. Khai, nộp ngân sách nhà nước đối với lợi nhuận sau thuế còn lại sau khi trích lập các quỹ 1. Khai, nộp lợi nhuận sau thuế còn lại sau khi trích lập các quỹ:",
+            "trang_pdf": 5
+          },
+          {
+            "dieu": 6,
+            "noi_dung": "Điều 6. Phân chia ngân sách nhà nước a) Lợi nhuận sau thuế còn lại sau khi trích lập các quỹ nộp ngân sách nhà nước quy định tại Điều này của doanh nghiệp. Trung ương được phân chia 100% cho ngân sách Trung ương. Doanh nghiệp thực hiện nộp vào tài khoản thu ngân sách nhà nước mở tại Sở giao dịch kho bạc nhà nước Trung ương.",
+            "trang_pdf": 6
+          },
+          {
+            "dieu": 7,
+            "noi_dung": "Điều 7. Xứ lý vi phạm đối với hành vi chậm nộp hồ sơ khai lợi nhuận sau thuế còn lại sau khi trích lập các quỹ và chậm nộp lợi nhuận sau thuế còn lại sau khi trích lập các quỹ vào ngân sách nhà nước 1. Doanh nghiệp chậm nộp hồ sơ khai lợi nhuận sau thuế còn lại sau khi trích lập các quỹ so với thời hạn quy định tại Điều 5 Chương II Thông tư này thì bị xử phạt về hành vi chậm nộp hé sơ khai thuế theo quy định tại Luật Quản lý thuế.",
+            "trang_pdf": 6
+          },
+          {
+            "dieu": 9,
+            "noi_dung": "Điều 9. Khai, nộp ngân sách nhà nước đối với cỗ tức, lợi nhuận được chia 1. Khai, nộp cỗ tức, lợi nhuận được chia: Doanh nghiệp quy định tại Điều 8 Thông tư này thực hiện khai số cỗ tức, lợi nhuận được chia cho phần vốn nhà nước theo mẫu Tờ khai số 01/CTLNDC ban hành kèm theo Thông tư này và thực hiện nộp ngân sách nhà nước trong thời hạn 45 ngày kể từ ngày có thông báo chia cổ tức, lợi nhuận của công ty cé phần, công ty trách nhiệm hữu hạn hai",
+            "trang_pdf": 9
+          },
+          {
+            "dieu": 10,
+            "noi_dung": "Điều 10. Phân chia ngân sách nhà nước a) Cổ tức, lợi nhuận được chia cho phần vốn nhà nước của công ty cô phan, công ty trách nhiệm hữu han hai thành viên trở lên có vốn góp của Nha nước do bộ, ngành đại diện chủ sở hữu được phân chia 100% cho ngân sách Trung ương. Doanh nghiệp thực hiện nộp vào tai khoản thu ngân sách nhà nước mở tại Sở giao địch kho bạc nhà nước Trung ương.",
+            "trang_pdf": 9
+          },
+          {
+            "dieu": 12,
+            "noi_dung": "Điều 12. Hiệu lực thi hành Thông tư này có hiệu lực thi hành kê từ ngày #6 / 5 /2016 và áp dụng cho niên độ từ năm 2016.",
+            "trang_pdf": 10
+          },
+          {
+            "dieu": 13,
+            "noi_dung": "Điều 13. Trách nhiệm thi hành 1. Các bộ, ngành, ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương trong phạm vi thâm quyền theo quy định của pháp luật có trách nhiệm chỉ đạo người đại điện phần vốn nhà nước đầu tư tại các doanh nghiệp theo ủy quyền thực hiện kiểm tra, đôn đốc doanh nghiệp khai, nộp các khoản thu ngân sách nha nước theo quy định tại Thông tư này.",
+            "trang_pdf": 10
+          }
+        ]
+      },
+      "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #414). Đã hết hiệu lực từ 01-01-2022 (thay bởi TT 85/2021/TT-BTC).",
+      "slug": "61-2016-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "6101/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -126976,6 +127782,66 @@
       "toan_van": "chua_co",
       "slug": "629-tb-tchq-2019",
       "bac_nguon_cao_nhat": "C",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "63/2012/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đặc biệt đối với một số nhóm mặt hàng trong các Biểu thuế nhập khẩu ưu đãi đặc biệt",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2012-04-23",
+      "hieu_luc_tu": "2012-06-07",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-63-2012-tt-btc-4569.htm",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2012/4/4569/10812-1-2012367-368-632012tt-btcpdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/63-2012-tt-btc.pdf",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF Công báo số 367+368 ngày 16-05-2012 (32 trang có lớp chữ, SHA-256 cadfc68d47f7...): ban hành ngày 23-04-2012, hiệu lực sau 45 ngày từ ngày ký (07-06-2012); sửa đổi thuế suất thuế NK ưu đãi đặc biệt giai đoạn cũ (nhóm 8702, 8703, 8704, 8708, 8716), nay đã hết hiệu lực khi các Biểu thuế FTA giai đoạn mới có hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đặc biệt của một số mặt hàng thuộc nhóm 8702, 8703, 8704, 8708, 8716 quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện ASEAN - Nhật Bản giai đoạn 2012 - 2015 ban hành kèm theo Thông tư số 20/2012/TT-BTC ngày 15/02/2012 của Bộ Tài chính thành mức thuế suất thuế nhập khẩu ưu đãi đặc biệt mới quy định tại Phụ lục I ban hành kèm theo",
+            "trang_pdf": 2,
+            "sha256_pdf": "cadfc68d47f73c114453026a91146c1c2bb7c9e5b679861d0394314954f8d624"
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đặc biệt của một số mặt hàng thuộc nhóm 8702, 8703, 8704, 8708, 8716 quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế Việt Nam Nhật Bản giai đoạn 2012 - 2015 ban hành kèm theo Thông tư số 21/2012/TT-BTC ngày 15/02/2012 của Bộ Tài chính thành mức thuế suất thuế nhập khẩu ưu đãi đặc biệt mới quy định tại Phụ lục II ban hành kèm theo Thông tư này.",
+            "trang_pdf": 2,
+            "sha256_pdf": "cadfc68d47f73c114453026a91146c1c2bb7c9e5b679861d0394314954f8d624"
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đặc biệt của một số mặt hàng thuộc nhóm 8702, 8703, 8704, 8716 quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Khu vực thương mại tự do ASEAN Úc - Niu Di-lân giai đoạn 2012 - 2014 ban hành kèm theo Thông tư số 44/2012/ TT-BTC ngày 16/3/2012 của Bộ Tài chính thành mức thuế suất thuế nhập khẩu ưu đãi đặc biệt mới quy định tại Phụ lục III ban hành kèm theo",
+            "trang_pdf": 2,
+            "sha256_pdf": "cadfc68d47f73c114453026a91146c1c2bb7c9e5b679861d0394314954f8d624"
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Điều 4. Thông tư này có hiệu lực sau 45 ngày, kể từ ngày ký./.",
+            "trang_pdf": 2,
+            "sha256_pdf": "cadfc68d47f73c114453026a91146c1c2bb7c9e5b679861d0394314954f8d624"
+          }
+        ]
+      },
+      "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #415). Biểu thuế FTA giai đoạn cũ, đã hết hiệu lực.",
+      "slug": "63-2012-tt-btc",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -134056,6 +134922,103 @@
         }
       ],
       "slug": "71-2014-qh13",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "71/2018/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Quy định chế độ tiếp khách nước ngoài vào làm việc tại Việt Nam, chế độ chi tổ chức hội nghị, hội thảo quốc tế tại Việt Nam và chế độ tiếp khách trong nước",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2018-08-10",
+      "hieu_luc_tu": "2018-11-01",
+      "het_hieu_luc_tu": "2026-05-18",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "chua-phan-loai"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-71-2018-tt-btc-27578.htm",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/8/27578/24299-1-20181029-103071-2018-tt-btc.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/71-2018-tt-btc.pdf",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn Công báo số 1029+1030 ngày 10-11-2018 (31 trang có lớp chữ, SHA-256 796856a43b52...): ban hành ngày 10-08-2018, hiệu lực từ 01-11-2018; hết hiệu lực từ 18-05-2026 theo Thông tư 35/2026/TT-BTC ngày 31-03-2026",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Thông tư này quy định chế độ tiếp khách nước ngoài vào làm việc tại Việt Nam, chế độ chi tổ chức hội nghị, hội thảo quốc tế tại Việt Nam và chế độ tiếp khách trong nước của các cơ quan nhà nước, đơn vị sự nghiệp công lập, tổ chức chính trị, các tổ chức chính trị - xã hội, các tổ chức sử dụng kinh phí do ngân sách nhà nước hỗ trợ (sau đây gọi tắt là cơ quan, đơn vị).",
+            "trang_pdf": 2,
+            "sha256_pdf": "796856a43b5211433d21f15f765229de3dc925090002afaca740f376f8bf4b21"
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Đối tượng áp dụng 1. Các Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ, cơ quan nhà nước khác ở trung ương (sau đây gọi tắt là cơ quan Trung ương). 2. Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương (sau đây gọi tắt là địa phương). 3. Tổ chức chính trị, các tổ chức chính trị - xã hội. 4. Cơ quan nhà nước, đơn vị sự nghiệp công lập. 5. Các tổ chức sử dụng kinh phí do ngân sách nhà nước hỗ trợ.",
+            "trang_pdf": 2,
+            "sha256_pdf": "796856a43b5211433d21f15f765229de3dc925090002afaca740f376f8bf4b21"
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Nguồn kinh phí thực hiện chế độ tiếp khách nước ngoài làm việc tại Việt Nam, chế độ tổ chức hội nghị, hội thảo quốc tế tại Việt Nam và chế độ tiếp khách trong nước 1. Ngân sách nhà nước. 2. Nguồn thu từ hoạt động sự nghiệp của đơn vị sự nghiệp công lập. 3. Các khoản đóng góp, ủng hộ, tài trợ của các tổ chức, doanh nghiệp, cá nhân trong và ngoài nước.",
+            "trang_pdf": 2,
+            "sha256_pdf": "796856a43b5211433d21f15f765229de3dc925090002afaca740f376f8bf4b21"
+          },
+          {
+            "dieu": 8,
+            "noi_dung": "Điều 8. Tiêu chuẩn ăn hàng ngày (bao gồm 2 bữa trưa, tối) 1. Mức chi ăn hàng ngày quy định tại Điều này đã bao gồm tiền đồ uống (khuyến khích sử dụng đồ uống sản xuất tại Việt Nam); cụ thể: a) Khách hạng đặc biệt: Thủ trưởng cơ quan, đơn vị được giao nhiệm vụ đón tiếp phê duyệt trong chương trình, đề án đón đoàn; b) Đoàn là khách hạng A: 1.500.000 đồng/ngày/người; c) Đoàn là khách hạng B: 1.000.000 đồng/ngày/người;",
+            "trang_pdf": 5,
+            "sha256_pdf": "796856a43b5211433d21f15f765229de3dc925090002afaca740f376f8bf4b21"
+          },
+          {
+            "dieu": 13,
+            "noi_dung": "Điều 13. Chế độ, tiêu chuẩn chi khi đưa đoàn khách nước ngoài đi công tác địa phương và cơ sở 1. Trường hợp cần thiết phải đưa khách đi thăm, làm việc tại các địa phương hoặc cơ sở theo chương trình, kế hoạch đã được cấp có thẩm quyền quyết định thì tiêu chuẩn đón tiếp như sau: a) Cơ quan, đơn vị chủ trì đón tiếp khách chịu trách nhiệm chi toàn bộ chi phí đưa đón khách từ nơi ở chính tới địa phương, cơ sở và chi phí ăn, nghỉ cho khách trong",
+            "trang_pdf": 9,
+            "sha256_pdf": "796856a43b5211433d21f15f765229de3dc925090002afaca740f376f8bf4b21"
+          },
+          {
+            "dieu": 17,
+            "noi_dung": "Điều 17. Chế độ tiếp các đại sứ, trưởng đại diện các tổ chức quốc tế khi kết thúc nhiệm kỳ công tác tại Việt Nam Cơ quan, đơn vị được tổ chức mời cơm thân mật khi chia tay đại sứ, trưởng đại diện các tổ chức quốc tế khi kết thúc nhiệm kỳ công tác tại Việt Nam, mức chi: 1.000.000 đồng/người bao gồm cả đại diện phía Việt Nam, mức chi này bao gồm cả tiền đồ uống (khuyến khích sử dụng đồ uống sản xuất tại Việt Nam);",
+            "trang_pdf": 11,
+            "sha256_pdf": "796856a43b5211433d21f15f765229de3dc925090002afaca740f376f8bf4b21"
+          },
+          {
+            "dieu": 21,
+            "noi_dung": "Điều 21. Chi tổ chức hội nghị cấp Bộ trưởng 1. Đối với đại biểu và các đoàn khách dự các hội nghị cấp Bộ trưởng a) Đối tượng được Việt Nam đài thọ:",
+            "trang_pdf": 13,
+            "sha256_pdf": "796856a43b5211433d21f15f765229de3dc925090002afaca740f376f8bf4b21"
+          },
+          {
+            "dieu": 25,
+            "noi_dung": "Điều 25. Nội dung và mức chi đặc thù của các hội nghị quốc tế tổ chức theo hình thức luân phiên 1. Nội dung chi Ngoài những nội dung chi quy định tại Thông tư này, trường hợp phát sinh các nội dung chi khác theo thông lệ của các hội nghị quốc tế tổ chức theo hình thức luân phiên, thì thực hiện theo thông lệ của các hội nghị quốc tế này.",
+            "trang_pdf": 20,
+            "sha256_pdf": "796856a43b5211433d21f15f765229de3dc925090002afaca740f376f8bf4b21"
+          },
+          {
+            "dieu": 30,
+            "noi_dung": "Điều 30. Chi giải khát Chi giải khát, mức chi: 30.000 đồng/buổi (nửa ngày)/người.",
+            "trang_pdf": 23,
+            "sha256_pdf": "796856a43b5211433d21f15f765229de3dc925090002afaca740f376f8bf4b21"
+          },
+          {
+            "dieu": 35,
+            "noi_dung": "Điều 35. Hiệu lực thi hành 1. Thông tư này có hiệu lực kể từ ngày 01 tháng 11 năm 2018. 2. Bãi bỏ Thông tư số 01/2010/TT-BTC ngày 06/01/2010 của Bộ Tài chính quy định chế độ chi tiêu đón tiếp khách nước ngoài vào làm việc tại Việt Nam, chi tiêu tổ chức các hội nghị, hội thảo quốc tế tại Việt Nam và chi tiêu tiếp khách trong nước.",
+            "trang_pdf": 28,
+            "sha256_pdf": "796856a43b5211433d21f15f765229de3dc925090002afaca740f376f8bf4b21"
+          }
+        ]
+      },
+      "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #416). Đã hết hiệu lực từ 18-05-2026 (thay bởi TT 35/2026/TT-BTC).",
+      "slug": "71-2018-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -148163,6 +149126,64 @@
         "raw/ocr/qcvn-1-2023-bkhcn.ocr.txt"
       ],
       "slug": "qcvn-1-2023-bkhcn",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "QCVN 12-4:2015/BYT",
+      "so_hieu_khac": [
+        "35/2015/TT-BYT"
+      ],
+      "loai": "TIEU_CHUAN",
+      "ten": "Quy chuẩn kỹ thuật quốc gia về vệ sinh an toàn đối với bao bì, dụng cụ làm bằng thủy tinh, gốm, sứ và tráng men tiếp xúc trực tiếp với thực phẩm (ban hành kèm theo Thông tư số 35/2015/TT-BYT)",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2015-10-28",
+      "hieu_luc_tu": "2016-05-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/an-toan-thuc-pham",
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-35-2015-tt-byt-18091.htm",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2015/10/18091/12699-1-352015tt-byt12702pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "toan_van": [
+        "raw/download/congbaocdn.chinhphu.vn/qcvn-12-4-2015-byt.pdf",
+        "raw/ocr/qcvn-12-4-2015-byt.ocr.txt"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn Công báo số 1153+1154 ngày 28-11-2015 (congbaocdn.chinhphu.vn, đã OCR 10 trang) và Thông tư 35/2015/TT-BYT ngày 28-10-2015 (Thứ trưởng Nguyễn Thanh Long ký): QCVN 12-4:2015/BYT có hiệu lực từ 01-05-2016, quy định giới hạn thôi nhiễm Chì (Pb) và Cadmi (Cd) đối với bao bì, dụng cụ thủy tinh, gốm, sứ, tráng men tiếp xúc trực tiếp thực phẩm; đang còn hiệu lực",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Ban hành kèm theo Thông tư này: QCVN 12-4:2015/BYT - Quy chuẩn kỹ thuật quốc gia về vệ sinh an toàn đối với bao bì, dụng cụ làm bằng thủy tỉnh, gốm, sứ và tráng men tiếp xúc trực tiếp với thực phẩm.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 5 năm 2016.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Cục trưởng Cục An toàn thực phẩm, thủ trưởng các don vi thuộc Bộ Y tê, đơn vị trực thuộc Bộ Y tê; giám đốc Sở Y tê các tỉnh, thành phô trực thuộc trung ương và các cơ quan, tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Thông tư này./.",
+            "trang_pdf": 1
+          }
+        ]
+      },
+      "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #423). QCVN chuyên ngành ATTP bao bì thủy tinh, gốm, sứ, tráng men tiếp xúc thực phẩm.",
+      "slug": "qcvn-12-4-2015-byt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     }

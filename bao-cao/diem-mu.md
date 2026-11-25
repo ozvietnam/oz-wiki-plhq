@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-11-25
 
-Tổng 3065 điểm: **13 cao**, 30 vừa, 3022 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 3082 điểm: **13 cao**, 40 vừa, 3029 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -9,7 +9,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Sắp hết hiệu lực (≤60 ngày) | Cao | 8 | `hieu-luc` |
 | Được nhắc nhưng chưa có trong sổ | Cao | 4 | `he-thong-hoa` |
 | Văn bản hướng dẫn mất gốc | Cao | 1 | `hieu-luc` |
-| Wiki nhắc văn bản chưa đăng ký | Vừa | 22 | `lien-ket-cheo` |
+| Wiki nhắc văn bản chưa đăng ký | Vừa | 32 | `lien-ket-cheo` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
 | Thư viện hs-code-api ghi khác sổ | Vừa | 1 | `hieu-luc` |
 | TB-TCHQ cá biệt chưa có nguồn chính thống | Thấp | 1367 | `tb-tchq` |
@@ -19,6 +19,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Hiệu lực chưa đối chiếu nguồn A | Thấp | 20 | `hieu-luc` |
 | Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay | Thấp | 18 | `hieu-luc` |
 | Chưa có nguồn chính thống | Thấp | 16 | `truy-vet-nguon` |
+| Chưa xếp vào cây | Thấp | 7 | `cay-du-lieu` |
 | Chưa có toàn văn | Thấp | 5 | `nap-lam-sach` |
 | Tệp doc-hieu thiếu nghĩa vụ XNK (≥50% điều hợp lệ trống) | Thấp | 4 | `doc-hieu` |
 | HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp) | Thấp | 4 | `hieu-luc` |
@@ -46,16 +47,20 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 
 - [ ] **2371/QĐ-BTC hướng dẫn văn bản đã hết hiệu lực (38/2019/QH14)** — Kiểm tra văn bản này còn được áp dụng không (thường hết hiệu lực theo văn bản gốc), hoặc đã có văn bản hướng dẫn mới.
 
-## Wiki nhắc văn bản chưa đăng ký (22)
+## Wiki nhắc văn bản chưa đăng ký (32)
 
 - [ ] **Wiki nhắc 71/2010/TT-BNNPTNT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/114-2026-vbhn-tt-bnnmt.md).
 - [ ] **Wiki nhắc 15/2023/TT-BNNPTNT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/114-2026-vbhn-tt-bnnmt.md).
 - [ ] **Wiki nhắc 12/2025/TT-BNNMT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/114-2026-vbhn-tt-bnnmt.md).
+- [ ] **Wiki nhắc 29/2023/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/13-2024-tt-btc.md).
 - [ ] **Wiki nhắc 11/2014/TT-NHNN nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/15029-chq-gsql-2026.md).
 - [ ] **Wiki nhắc 27/2024/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/18-2026-tt-byt.md).
 - [ ] **Wiki nhắc 3235/QĐ-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/18-2026-tt-byt.md).
 - [ ] **Wiki nhắc 178/2011/TT-BTC nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/1813-btc-tchq-2025.md).
+- [ ] **Wiki nhắc 35/2024/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/23-2008-qh12.md).
 - [ ] **Wiki nhắc 90/2024/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/23153-chq-nvthq-2026.md).
+- [ ] **Wiki nhắc 122/2016/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/25-2016-tt-btc.md).
+- [ ] **Wiki nhắc 182/2015/TT-BTC nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/25-2016-tt-btc.md).
 - [ ] **Wiki nhắc 24/2026/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/26-2026-tt-bct.md).
 - [ ] **Wiki nhắc 11/2015/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/26-2026-tt-bct.md).
 - [ ] **Wiki nhắc 23/2024/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/26-2026-tt-bct.md).
@@ -65,11 +70,17 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Wiki nhắc 131/2022/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/295-da-pbp.md).
 - [ ] **Wiki nhắc 22/2022/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/295-da-pbp.md).
 - [ ] **Wiki nhắc 32/2012/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/295-da-pbp.md).
+- [ ] **Wiki nhắc 16/2023/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/30-2024-tt-btc.md).
+- [ ] **Wiki nhắc 217/2013/TT-BTC nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/36-2017-tt-btc.md).
+- [ ] **Wiki nhắc 156/2020/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/36-2017-tt-btc.md).
 - [ ] **Wiki nhắc 23/2021/TT-BTC nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/3982-tchq-gsql.md).
 - [ ] **Wiki nhắc 100/2020/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/3982-tchq-gsql.md).
 - [ ] **Wiki nhắc 4286/QĐ-TCHQ nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/467-qd-chq-2025.md).
 - [ ] **Wiki nhắc 136/QĐ-TCHQ nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/467-qd-chq-2025.md).
+- [ ] **Wiki nhắc 85/2021/TT-BTC nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/61-2016-tt-btc.md).
+- [ ] **Wiki nhắc 35/2026/TT-BTC nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/71-2018-tt-btc.md).
 - [ ] **Wiki nhắc 1647/QĐ-TCHQ nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/787-tchq-txnk-2025.md).
+- [ ] **Wiki nhắc 35/2015/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/qcvn-12-4-2015-byt.md).
 
 ## Sắp có hiệu lực (≤60 ngày) (3)
 
@@ -299,6 +310,16 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **6266/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **8378/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **9981/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
+
+## Chưa xếp vào cây (7)
+
+- [ ] **13/2024/TT-BTC: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **28/2016/TT-BTC: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **30/2024/TT-BTC: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **38/2016/QĐ-TTg: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **45/2016/TT-BTC: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **61/2016/TT-BTC: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
+- [ ] **71/2018/TT-BTC: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
 
 ## Chưa có toàn văn (5)
 

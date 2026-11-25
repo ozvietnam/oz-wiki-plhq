@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-25).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 5556,
+ "tong": 5604,
  "chunks": [
   {
    "chunk_id": "dong-bo-quan-diem-phan-loai#1",
@@ -30747,6 +30747,67 @@
     "pif",
     "bo-y-te"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "06-2015-tt-btc#1",
+   "slug": "06-2015-tt-btc",
+   "duong_dan": "wiki/sources/06-2015-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "06/2015/TT-BTC — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu thuộc nhóm 27.10 tại Biểu thuế nhập khẩu ưu đãi",
+   "muc": "Tóm tắt",
+   "noi_dung": "**06/2015/TT-BTC** (ban hành **2015-01-20**, hiệu lực từ **2015-01-20**, hết hiệu lực từ **2015-01-21**, cơ quan: **Bộ Tài chính**): Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu thuộc nhóm 27.10 tại Biểu thuế nhập khẩu ưu đãi.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "06/2015/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2015-01-20",
+     "het_hieu_luc_tu": "2015-01-21",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/x--48801"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "06-2015-tt-btc#2",
+   "slug": "06-2015-tt-btc",
+   "duong_dan": "wiki/sources/06-2015-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "06/2015/TT-BTC — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu thuộc nhóm 27.10 tại Biểu thuế nhập khẩu ưu đãi",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `HET_HIEU_LUC` (đối chiếu CSDLQG vbpl.vn (ID 48801) và Thông tư 07/2015/TT-BTC (đã có toàn văn PDF Công báo trong sổ): ban hành ngày 20-01-2015, bị bãi bỏ từ ngày 21-01-2015 theo Điều 1 Thông tư 07/2015/TT-BTC).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #393). Đã hết hiệu lực ngay từ 21-01-2015 (bị bãi bỏ bởi TT 07/2015/TT-BTC).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "07/2015/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2015-01-21",
+     "het_hieu_luc_tu": "2016-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-07-2015-tt-btc-6458/3324.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "06-2015-tt-btc#3",
+   "slug": "06-2015-tt-btc",
+   "duong_dan": "wiki/sources/06-2015-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "06/2015/TT-BTC — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu thuộc nhóm 27.10 tại Biểu thuế nhập khẩu ưu đãi",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A`.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
@@ -69326,6 +69387,56 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "13-2024-tt-btc#1",
+   "slug": "13-2024-tt-btc",
+   "duong_dan": "wiki/sources/13-2024-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "13/2024/TT-BTC — Hướng dẫn việc xác định nguồn kinh phí và việc lập dự toán, quản lý, sử dụng và quyết toán kinh phí thực hiện chính sách tinh giản biên chế",
+   "muc": "Tóm tắt",
+   "noi_dung": "**13/2024/TT-BTC** (ban hành **2024-02-23**, hiệu lực từ **2024-04-15**, cơ quan: **Bộ Tài chính**): Hướng dẫn việc xác định nguồn kinh phí và việc lập dự toán, quản lý, sử dụng và quyết toán kinh phí thực hiện chính sách tinh giản biên chế.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "13/2024/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-04-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-13-2024-tt-btc-41563.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "13-2024-tt-btc#2",
+   "slug": "13-2024-tt-btc",
+   "duong_dan": "wiki/sources/13-2024-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "13/2024/TT-BTC — Hướng dẫn việc xác định nguồn kinh phí và việc lập dự toán, quản lý, sử dụng và quyết toán kinh phí thực hiện chính sách tinh giản biên chế",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `CON_HIEU_LUC` (đối chiếu toàn văn Công báo số 493+494 ngày 09-04-2024 (12 trang có lớp chữ, SHA-256 a38d61a36527...): ban hành ngày 23-02-2024, hiệu lực từ 15-04-2024, đang còn hiệu lực).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #372). Kinh phí thực hiện chính sách tinh giản biên chế theo NĐ 29/2023/NĐ-CP.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "13-2024-tt-btc#3",
+   "slug": "13-2024-tt-btc",
+   "duong_dan": "wiki/sources/13-2024-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "13/2024/TT-BTC — Hướng dẫn việc xác định nguồn kinh phí và việc lập dự toán, quản lý, sử dụng và quyết toán kinh phí thực hiện chính sách tinh giản biên chế",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A`.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "13-2025-nd-cp#1",
    "slug": "13-2025-nd-cp",
    "duong_dan": "wiki/sources/13-2025-nd-cp.md",
@@ -73412,6 +73523,67 @@
    "tieu_de": "1392/CHQ-NVTHQ — Về việc phân loại mặt hàng xy lanh điện (Electric Actuator tích hợp động cơ điện không thể tháo rời và cơ cấu trục vít, hộp số thuộc nhóm 85.01)",
    "muc": "Nguồn & đối chiếu",
    "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/phan-loai-ma-hs]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "14-2017-qh14#1",
+   "slug": "14-2017-qh14",
+   "duong_dan": "wiki/sources/14-2017-qh14.md",
+   "loai_trang": "sources",
+   "tieu_de": "14/2017/QH14 — Luật Quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ (hết hiệu lực)",
+   "muc": "Tóm tắt",
+   "noi_dung": "**Luật số 14/2017/QH14** (thông qua **20/06/2017**, hiệu lực từ **01/07/2018**) là Luật Quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ giai đoạn 2018–2024.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "14/2017/QH14",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-07-01",
+     "het_hieu_luc_tu": "2025-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=190300"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "14-2017-qh14#2",
+   "slug": "14-2017-qh14",
+   "duong_dan": "wiki/sources/14-2017-qh14.md",
+   "loai_trang": "sources",
+   "tieu_de": "14/2017/QH14 — Luật Quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ (hết hiệu lực)",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "- **Đã hết hiệu lực từ ngày 01/01/2025:** Được thay thế bởi **Luật số 42/2024/QH15** (cơ sở mới về quản lý XNK vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "42/2024/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=211200"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "14-2017-qh14#3",
+   "slug": "14-2017-qh14",
+   "duong_dan": "wiki/sources/14-2017-qh14.md",
+   "loai_trang": "sources",
+   "tieu_de": "14/2017/QH14 — Luật Quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ (hết hiệu lực)",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã đối chiếu Cổng TTĐT Chính phủ (`docid=190300`) và PDF ký số 55 trang đã OCR (`raw/ocr/14-2017-qh14.ocr.txt`), tình trạng `HET_HIEU_LUC`.\n- Tham chiếu liên quan: [[concepts/kiem-tra-chuyen-nganh]], [[sources/42-2024-qh15]].",
    "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
@@ -99277,6 +99449,67 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "23-2008-qh12#1",
+   "slug": "23-2008-qh12",
+   "duong_dan": "wiki/sources/23-2008-qh12.md",
+   "loai_trang": "sources",
+   "tieu_de": "23/2008/QH12 — Luật Giao thông đường bộ",
+   "muc": "Tóm tắt",
+   "noi_dung": "**23/2008/QH12** (ban hành **2008-11-13**, hiệu lực từ **2009-07-01**, hết hiệu lực từ **2025-01-01**, cơ quan: **Quốc hội**): Luật Giao thông đường bộ.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "23/2008/QH12",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2009-07-01",
+     "het_hieu_luc_tu": "2025-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/luat-giao-thong-duong-bo-so-23-2008-qh12--12333"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "23-2008-qh12#2",
+   "slug": "23-2008-qh12",
+   "duong_dan": "wiki/sources/23-2008-qh12.md",
+   "loai_trang": "sources",
+   "tieu_de": "23/2008/QH12 — Luật Giao thông đường bộ",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `HET_HIEU_LUC` (đối chiếu CSDLQG vbpl.vn (ID 12333) và Cổng TTĐT Chính phủ (docid=80618): Quốc hội khóa XII thông qua ngày 13-11-2008, hiệu lực từ 01-07-2009; hết hiệu lực từ ngày 01-01-2025 khi Luật Đường bộ 35/2024/QH15 và Luật Trật tự, an toàn giao thông đường bộ 36/2024/QH15 có hiệu lực).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #422). Đã hết hiệu lực từ 01-01-2025, thay bằng Luật 35/2024/QH15 và Luật 36/2024/QH15.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "36/2024/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=211194"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "23-2008-qh12#3",
+   "slug": "23-2008-qh12",
+   "duong_dan": "wiki/sources/23-2008-qh12.md",
+   "loai_trang": "sources",
+   "tieu_de": "23/2008/QH12 — Luật Giao thông đường bộ",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A`.\n- Tham chiếu liên quan: [[concepts/phuong-tien-giao-thong-van-tai]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "23-2016-tt-bct#1",
    "slug": "23-2016-tt-bct",
    "duong_dan": "wiki/sources/23-2016-tt-bct.md",
@@ -102763,6 +102996,56 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "25-2016-tt-btc#1",
+   "slug": "25-2016-tt-btc",
+   "duong_dan": "wiki/sources/25-2016-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "25/2016/TT-BTC — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với mặt hàng Diamoni hydro orthophosphat (diamoni phosphat) thuộc mã hàng 3105.30.00 tại Biểu thuế nhập khẩu ưu đãi",
+   "muc": "Tóm tắt",
+   "noi_dung": "**25/2016/TT-BTC** (ban hành **2016-02-16**, hiệu lực từ **2016-04-03**, hết hiệu lực từ **2016-09-01**, cơ quan: **Bộ Tài chính**): Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với mặt hàng Diamoni hydro orthophosphat (diamoni phosphat) thuộc mã hàng 3105.30.00 tại Biểu thuế nhập khẩu ưu đãi.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "25/2016/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2016-04-03",
+     "het_hieu_luc_tu": "2016-09-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=184149"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "25-2016-tt-btc#2",
+   "slug": "25-2016-tt-btc",
+   "duong_dan": "wiki/sources/25-2016-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "25/2016/TT-BTC — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với mặt hàng Diamoni hydro orthophosphat (diamoni phosphat) thuộc mã hàng 3105.30.00 tại Biểu thuế nhập khẩu ưu đãi",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `HET_HIEU_LUC` (đối chiếu Cổng TTĐT Chính phủ (docid=184149) và PDF ký số 2 trang đã OCR (SHA-256 68973cc3e17f...): Thứ trưởng Vũ Thị Mai ký ngày 16-02-2016, hiệu lực 03-04-2016; hết hiệu lực từ 01-09-2016 khi Nghị định 122/2016/NĐ-CP thay thế Biểu thuế MFN theo Thông tư 182/2015/TT-BTC).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #406). Liên quan phân bón DAP mã 3105.30.00 giai đoạn 2016, đã hết hiệu lực.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "25-2016-tt-btc#3",
+   "slug": "25-2016-tt-btc",
+   "duong_dan": "wiki/sources/25-2016-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "25/2016/TT-BTC — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với mặt hàng Diamoni hydro orthophosphat (diamoni phosphat) thuộc mã hàng 3105.30.00 tại Biểu thuế nhập khẩu ưu đãi",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A`.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "25-2018-nd-cp#1",
    "slug": "25-2018-nd-cp",
    "duong_dan": "wiki/sources/25-2018-nd-cp.md",
@@ -105079,6 +105362,56 @@
     "chuong-98",
     "con-hieu-luc"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "26-2025-nd-cp#1",
+   "slug": "26-2025-nd-cp",
+   "duong_dan": "wiki/sources/26-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "26/2025/NĐ-CP — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Ngân hàng Nhà nước Việt Nam",
+   "muc": "Tóm tắt",
+   "noi_dung": "**26/2025/NĐ-CP** (ban hành **2025-02-24**, hiệu lực từ **2025-03-01**, cơ quan: **Chính phủ**): Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Ngân hàng Nhà nước Việt Nam.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "26/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-03-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=212835"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "26-2025-nd-cp#2",
+   "slug": "26-2025-nd-cp",
+   "duong_dan": "wiki/sources/26-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "26/2025/NĐ-CP — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Ngân hàng Nhà nước Việt Nam",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `CON_HIEU_LUC` (đối chiếu Cổng TTĐT Chính phủ (docid=212835) và PDF ký số 9 trang đã OCR (SHA-256 86824626edaf...): Phó Thủ tướng Hồ Đức Phớc ký ngày 24-02-2025, hiệu lực từ 01-03-2025, đang còn hiệu lực).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #407). Quy định tổ chức bộ máy Ngân hàng Nhà nước sau sắp xếp 2025.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "26-2025-nd-cp#3",
+   "slug": "26-2025-nd-cp",
+   "duong_dan": "wiki/sources/26-2025-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "26/2025/NĐ-CP — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Ngân hàng Nhà nước Việt Nam",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A`.\n- Tham chiếu liên quan: [[concepts/co-quan-tiep-nhan-sau-sap-nhap]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
@@ -108669,6 +109002,56 @@
     "thay-the",
     "con-hieu-luc"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "28-2016-tt-btc#1",
+   "slug": "28-2016-tt-btc",
+   "duong_dan": "wiki/sources/28-2016-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "28/2016/TT-BTC — Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí sử dụng đường bộ trạm thu phí tại Km152+080 quốc lộ 1, tỉnh Bắc Ninh",
+   "muc": "Tóm tắt",
+   "noi_dung": "**28/2016/TT-BTC** (ban hành **2016-02-22**, hiệu lực từ **2016-04-08**, cơ quan: **Bộ Tài chính**): Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí sử dụng đường bộ trạm thu phí tại Km152+080 quốc lộ 1, tỉnh Bắc Ninh.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "28/2016/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2016-04-08",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=184235"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "28-2016-tt-btc#2",
+   "slug": "28-2016-tt-btc",
+   "duong_dan": "wiki/sources/28-2016-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "28/2016/TT-BTC — Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí sử dụng đường bộ trạm thu phí tại Km152+080 quốc lộ 1, tỉnh Bắc Ninh",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `HET_HIEU_LUC` (đối chiếu Cổng TTĐT Chính phủ (docid=184235) và PDF ký số 4 trang đã OCR (SHA-256 7ae830e557e8...): Thứ trưởng Vũ Thị Mai ký ngày 22-02-2016, hiệu lực 08-04-2016; quy định phí BOT trạm thu phí cũ, đã hết hiệu lực).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #408). Thông tư phí BOT quốc lộ 1 Bắc Ninh (chế độ phí cũ).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "28-2016-tt-btc#3",
+   "slug": "28-2016-tt-btc",
+   "duong_dan": "wiki/sources/28-2016-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "28/2016/TT-BTC — Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí sử dụng đường bộ trạm thu phí tại Km152+080 quốc lộ 1, tỉnh Bắc Ninh",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A`.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
@@ -114727,6 +115110,56 @@
     "khai-bao-hai-quan"
    ],
    "confidence": "medium",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "30-2024-tt-btc#1",
+   "slug": "30-2024-tt-btc",
+   "duong_dan": "wiki/sources/30-2024-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "30/2024/TT-BTC — Ban hành các chuẩn mực thẩm định giá Việt Nam về quy tắc đạo đức nghề nghiệp thẩm định giá, phạm vi công việc thẩm định giá, cơ sở giá trị thẩm định giá, hồ sơ thẩm định giá",
+   "muc": "Tóm tắt",
+   "noi_dung": "**30/2024/TT-BTC** (ban hành **2024-05-16**, hiệu lực từ **2024-07-01**, cơ quan: **Bộ Tài chính**): Ban hành các chuẩn mực thẩm định giá Việt Nam về quy tắc đạo đức nghề nghiệp thẩm định giá, phạm vi công việc thẩm định giá, cơ sở giá trị thẩm định giá, hồ sơ thẩm định giá.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "30/2024/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-30-2024-tt-btc-42051/50470.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "30-2024-tt-btc#2",
+   "slug": "30-2024-tt-btc",
+   "duong_dan": "wiki/sources/30-2024-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "30/2024/TT-BTC — Ban hành các chuẩn mực thẩm định giá Việt Nam về quy tắc đạo đức nghề nghiệp thẩm định giá, phạm vi công việc thẩm định giá, cơ sở giá trị thẩm định giá, hồ sơ thẩm định giá",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `CON_HIEU_LUC` (đối chiếu toàn văn Công báo số 737+738 ngày 22-06-2024 (25 trang có lớp chữ, SHA-256 438412f5f1f1...): ban hành ngày 16-05-2024, hiệu lực từ 01-07-2024, đang còn hiệu lực).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #409). Chuẩn mực thẩm định giá Việt Nam hướng dẫn Luật Giá 16/2023/QH15.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "30-2024-tt-btc#3",
+   "slug": "30-2024-tt-btc",
+   "duong_dan": "wiki/sources/30-2024-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "30/2024/TT-BTC — Ban hành các chuẩn mực thẩm định giá Việt Nam về quy tắc đạo đức nghề nghiệp thẩm định giá, phạm vi công việc thẩm định giá, cơ sở giá trị thẩm định giá, hồ sơ thẩm định giá",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A`.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -128304,6 +128737,56 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "36-2017-tt-btc#1",
+   "slug": "36-2017-tt-btc",
+   "duong_dan": "wiki/sources/36-2017-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "36/2017/TT-BTC — Sửa đổi, bổ sung một số điều của Thông tư số 217/2013/TT-BTC ngày 31 tháng 12 năm 2013 hướng dẫn thực hiện xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán",
+   "muc": "Tóm tắt",
+   "noi_dung": "**36/2017/TT-BTC** (ban hành **2017-04-27**, hiệu lực từ **2017-06-15**, cơ quan: **Bộ Tài chính**): Sửa đổi, bổ sung một số điều của Thông tư số 217/2013/TT-BTC ngày 31 tháng 12 năm 2013 hướng dẫn thực hiện xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "36/2017/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-06-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-36-2017-tt-btc-23989/18015.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "36-2017-tt-btc#2",
+   "slug": "36-2017-tt-btc",
+   "duong_dan": "wiki/sources/36-2017-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "36/2017/TT-BTC — Sửa đổi, bổ sung một số điều của Thông tư số 217/2013/TT-BTC ngày 31 tháng 12 năm 2013 hướng dẫn thực hiện xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `HET_HIEU_LUC` (đối chiếu toàn văn Công báo số 451+452 ngày 20-06-2017 (8 trang có lớp chữ, SHA-256 de3b8700c33b...): Thứ trưởng Trần Xuân Hà ký ngày 27-04-2017, hiệu lực 15-06-2017; văn bản gốc 217/2013/TT-BTC đã hết hiệu lực khi khung Luật Chứng khoán 2019 và NĐ 156/2020/NĐ-CP có hiệu lực).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #411). Lĩnh vực chứng khoán, đã hết hiệu lực.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "36-2017-tt-btc#3",
+   "slug": "36-2017-tt-btc",
+   "duong_dan": "wiki/sources/36-2017-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "36/2017/TT-BTC — Sửa đổi, bổ sung một số điều của Thông tư số 217/2013/TT-BTC ngày 31 tháng 12 năm 2013 hướng dẫn thực hiện xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A`.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "36-2024-qh15#1",
    "slug": "36-2024-qh15",
    "duong_dan": "wiki/sources/36-2024-qh15.md",
@@ -132296,6 +132779,56 @@
      "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-21-2012-qh13-952.htm"
     }
    ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "38-2016-qd-ttg#1",
+   "slug": "38-2016-qd-ttg",
+   "duong_dan": "wiki/sources/38-2016-qd-ttg.md",
+   "loai_trang": "sources",
+   "tieu_de": "38/2016/QĐ-TTg — Về việc ban hành một số chính sách bảo vệ, phát triển rừng và đầu tư hỗ trợ kết cấu hạ tầng, giao nhiệm vụ công ích đối với các công ty nông, lâm nghiệp",
+   "muc": "Tóm tắt",
+   "noi_dung": "**38/2016/QĐ-TTg** (ban hành **2016-09-14**, hiệu lực từ **2016-11-01**, cơ quan: **Thủ tướng Chính phủ**): Về việc ban hành một số chính sách bảo vệ, phát triển rừng và đầu tư hỗ trợ kết cấu hạ tầng, giao nhiệm vụ công ích đối với các công ty nông, lâm nghiệp.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "38/2016/QĐ-TTg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-11-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=186400"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "38-2016-qd-ttg#2",
+   "slug": "38-2016-qd-ttg",
+   "duong_dan": "wiki/sources/38-2016-qd-ttg.md",
+   "loai_trang": "sources",
+   "tieu_de": "38/2016/QĐ-TTg — Về việc ban hành một số chính sách bảo vệ, phát triển rừng và đầu tư hỗ trợ kết cấu hạ tầng, giao nhiệm vụ công ích đối với các công ty nông, lâm nghiệp",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `CON_HIEU_LUC` (đối chiếu Cổng TTĐT Chính phủ (docid=186400) và PDF ký số 22 trang đã OCR (SHA-256 b0af06415c23...): Phó Thủ tướng Vương Đình Huệ ký ngày 14-09-2016, hiệu lực từ 01-11-2016).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #381). Chính sách hỗ trợ bảo vệ, phát triển rừng và công ty nông lâm nghiệp.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "38-2016-qd-ttg#3",
+   "slug": "38-2016-qd-ttg",
+   "duong_dan": "wiki/sources/38-2016-qd-ttg.md",
+   "loai_trang": "sources",
+   "tieu_de": "38/2016/QĐ-TTg — Về việc ban hành một số chính sách bảo vệ, phát triển rừng và đầu tư hỗ trợ kết cấu hạ tầng, giao nhiệm vụ công ích đối với các công ty nông, lâm nghiệp",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A`.\n- Tham chiếu liên quan: [[concepts/go-rung]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
   {
@@ -139147,6 +139680,56 @@
     "duoc-pham",
     "tuong-duong-sinh-hoc"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "45-2016-tt-btc#1",
+   "slug": "45-2016-tt-btc",
+   "duong_dan": "wiki/sources/45-2016-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "45/2016/TT-BTC — Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí sử dụng đường bộ trạm thu phí tại Km1064+730 quốc lộ 1, tỉnh Quảng Ngãi",
+   "muc": "Tóm tắt",
+   "noi_dung": "**45/2016/TT-BTC** (ban hành **2016-03-04**, hiệu lực từ **2016-05-01**, cơ quan: **Bộ Tài chính**): Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí sử dụng đường bộ trạm thu phí tại Km1064+730 quốc lộ 1, tỉnh Quảng Ngãi.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "45/2016/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2016-05-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=184142"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "45-2016-tt-btc#2",
+   "slug": "45-2016-tt-btc",
+   "duong_dan": "wiki/sources/45-2016-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "45/2016/TT-BTC — Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí sử dụng đường bộ trạm thu phí tại Km1064+730 quốc lộ 1, tỉnh Quảng Ngãi",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `HET_HIEU_LUC` (đối chiếu Cổng TTĐT Chính phủ (docid=184142) và PDF ký số 4 trang đã OCR (SHA-256 44c19b5e2e8a...): Thứ trưởng Vũ Thị Mai ký ngày 04-03-2016, hiệu lực 01-05-2016; quy định phí BOT trạm thu phí cũ, đã hết hiệu lực).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #392). Thông tư phí BOT quốc lộ 1 Quảng Ngãi (chế độ phí cũ).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "45-2016-tt-btc#3",
+   "slug": "45-2016-tt-btc",
+   "duong_dan": "wiki/sources/45-2016-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "45/2016/TT-BTC — Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí sử dụng đường bộ trạm thu phí tại Km1064+730 quốc lộ 1, tỉnh Quảng Ngãi",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A`.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
@@ -148509,6 +149092,117 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "56-2019-tt-btc#1",
+   "slug": "56-2019-tt-btc",
+   "duong_dan": "wiki/sources/56-2019-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "56/2019/TT-BTC — Sửa đổi thủ tục hải quan hàng bưu chính (TT 49/2015) và chuyển phát nhanh (TT 191/2015)",
+   "muc": "Tóm tắt",
+   "noi_dung": "**Thông tư 56/2019/TT-BTC** (ban hành **23/08/2019**, hiệu lực từ **15/10/2019**) sửa đổi, bổ sung nhiều quy định tại **Thông tư 49/2015/TT-BTC** (thủ tục hải quan hàng gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định) và **Thông tư 191/2015/TT-BTC** (thủ tục hải quan hàng hóa XNK, quá cảnh gửi qua dịch vụ chuyển phát nhanh quốc tế).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "56/2019/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2019-10-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=197800"
+    },
+    {
+     "so_hieu": "49/2015/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-05-29",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=179820"
+    },
+    {
+     "so_hieu": "191/2015/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=182774"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "56-2019-tt-btc#2",
+   "slug": "56-2019-tt-btc",
+   "duong_dan": "wiki/sources/56-2019-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "56/2019/TT-BTC — Sửa đổi thủ tục hải quan hàng bưu chính (TT 49/2015) và chuyển phát nhanh (TT 191/2015)",
+   "muc": "Vị trí trong hệ thống văn bản",
+   "noi_dung": "- Là văn bản sửa đổi trực tiếp **49/2015/TT-BTC** và **191/2015/TT-BTC**, sau đó tiếp tục được sửa đổi bởi **29/2025/TT-BTC** (phần chuyển phát nhanh) và **142/2026/TT-BTC** (hiệu lực 16/11/2026); phần bưu chính đã được hợp nhất tại **54/2026/VBHN-TT-BTC**.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "49/2015/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-05-29",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=179820"
+    },
+    {
+     "so_hieu": "191/2015/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=182774"
+    },
+    {
+     "so_hieu": "29/2025/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-09",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=213831&classid=1"
+    },
+    {
+     "so_hieu": "142/2026/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-11-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=219685&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "56-2019-tt-btc#3",
+   "slug": "56-2019-tt-btc",
+   "duong_dan": "wiki/sources/56-2019-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "56/2019/TT-BTC — Sửa đổi thủ tục hải quan hàng bưu chính (TT 49/2015) và chuyển phát nhanh (TT 191/2015)",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã đối chiếu Cổng TTĐT Chính phủ (`docid=197800`) và PDF ký số 105 trang đã OCR (`raw/ocr/56-2019-tt-btc.ocr.txt`), tình trạng `CON_HIEU_LUC`.\n- Tham chiếu liên quan: [[concepts/thu-tuc-hai-quan-xnk]], [[sources/54-2026-vbhn-tt-btc]], [[sources/142-2026-tt-btc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "56-2026-nd-cp#1",
    "slug": "56-2026-nd-cp",
    "duong_dan": "wiki/sources/56-2026-nd-cp.md",
@@ -150295,6 +150989,56 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "61-2016-tt-btc#1",
+   "slug": "61-2016-tt-btc",
+   "duong_dan": "wiki/sources/61-2016-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "61/2016/TT-BTC — Hướng dẫn thu, nộp và quản lý khoản lợi nhuận, cổ tức được chia cho phần vốn nhà nước đầu tư tại doanh nghiệp",
+   "muc": "Tóm tắt",
+   "noi_dung": "**61/2016/TT-BTC** (ban hành **2016-04-11**, hiệu lực từ **2016-05-26**, hết hiệu lực từ **2022-01-01**, cơ quan: **Bộ Tài chính**): Hướng dẫn thu, nộp và quản lý khoản lợi nhuận, cổ tức được chia cho phần vốn nhà nước đầu tư tại doanh nghiệp.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "61/2016/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2016-05-26",
+     "het_hieu_luc_tu": "2022-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=185183"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "61-2016-tt-btc#2",
+   "slug": "61-2016-tt-btc",
+   "duong_dan": "wiki/sources/61-2016-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "61/2016/TT-BTC — Hướng dẫn thu, nộp và quản lý khoản lợi nhuận, cổ tức được chia cho phần vốn nhà nước đầu tư tại doanh nghiệp",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `HET_HIEU_LUC` (đối chiếu Cổng TTĐT Chính phủ (docid=185183) và PDF ký số 16 trang đã OCR (SHA-256 f083cada5511...): Thứ trưởng Đỗ Hoàng Anh Tuấn ký ngày 11-04-2016, hiệu lực 26-05-2016; hết hiệu lực từ 01-01-2022 theo Thông tư 85/2021/TT-BTC).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #414). Đã hết hiệu lực từ 01-01-2022 (thay bởi TT 85/2021/TT-BTC).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "61-2016-tt-btc#3",
+   "slug": "61-2016-tt-btc",
+   "duong_dan": "wiki/sources/61-2016-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "61/2016/TT-BTC — Hướng dẫn thu, nộp và quản lý khoản lợi nhuận, cổ tức được chia cho phần vốn nhà nước đầu tư tại doanh nghiệp",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A`.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "6156-tchq-gsql-2023#1",
    "slug": "6156-tchq-gsql-2023",
    "duong_dan": "wiki/sources/6156-tchq-gsql-2023.md",
@@ -150593,6 +151337,56 @@
     "can-tai-toan-van"
    ],
    "confidence": "low",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "63-2012-tt-btc#1",
+   "slug": "63-2012-tt-btc",
+   "duong_dan": "wiki/sources/63-2012-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "63/2012/TT-BTC — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đặc biệt đối với một số nhóm mặt hàng trong các Biểu thuế nhập khẩu ưu đãi đặc biệt",
+   "muc": "Tóm tắt",
+   "noi_dung": "**63/2012/TT-BTC** (ban hành **2012-04-23**, hiệu lực từ **2012-06-07**, cơ quan: **Bộ Tài chính**): Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đặc biệt đối với một số nhóm mặt hàng trong các Biểu thuế nhập khẩu ưu đãi đặc biệt.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "63/2012/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2012-06-07",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-63-2012-tt-btc-4569.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "63-2012-tt-btc#2",
+   "slug": "63-2012-tt-btc",
+   "duong_dan": "wiki/sources/63-2012-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "63/2012/TT-BTC — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đặc biệt đối với một số nhóm mặt hàng trong các Biểu thuế nhập khẩu ưu đãi đặc biệt",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `HET_HIEU_LUC` (đối chiếu toàn văn PDF Công báo số 367+368 ngày 16-05-2012 (32 trang có lớp chữ, SHA-256 cadfc68d47f7...): ban hành ngày 23-04-2012, hiệu lực sau 45 ngày từ ngày ký (07-06-2012); sửa đổi thuế suất thuế NK ưu đãi đặc biệt giai đoạn cũ (nhóm 8702, 8703, 8704, 8708, 8716), nay đã hết hiệu lực khi các Biểu thuế FTA giai đoạn mới có hiệu lực).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #415). Biểu thuế FTA giai đoạn cũ, đã hết hiệu lực.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "63-2012-tt-btc#3",
+   "slug": "63-2012-tt-btc",
+   "duong_dan": "wiki/sources/63-2012-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "63/2012/TT-BTC — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đặc biệt đối với một số nhóm mặt hàng trong các Biểu thuế nhập khẩu ưu đãi đặc biệt",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A`.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -154800,6 +155594,56 @@
     "nong-nghiep",
     "nhap-khau"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "71-2018-tt-btc#1",
+   "slug": "71-2018-tt-btc",
+   "duong_dan": "wiki/sources/71-2018-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "71/2018/TT-BTC — Quy định chế độ tiếp khách nước ngoài vào làm việc tại Việt Nam, chế độ chi tổ chức hội nghị, hội thảo quốc tế tại Việt Nam và chế độ tiếp khách trong nước",
+   "muc": "Tóm tắt",
+   "noi_dung": "**71/2018/TT-BTC** (ban hành **2018-08-10**, hiệu lực từ **2018-11-01**, hết hiệu lực từ **2026-05-18**, cơ quan: **Bộ Tài chính**): Quy định chế độ tiếp khách nước ngoài vào làm việc tại Việt Nam, chế độ chi tổ chức hội nghị, hội thảo quốc tế tại Việt Nam và chế độ tiếp khách trong nước.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "71/2018/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-11-01",
+     "het_hieu_luc_tu": "2026-05-18",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-71-2018-tt-btc-27578.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "71-2018-tt-btc#2",
+   "slug": "71-2018-tt-btc",
+   "duong_dan": "wiki/sources/71-2018-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "71/2018/TT-BTC — Quy định chế độ tiếp khách nước ngoài vào làm việc tại Việt Nam, chế độ chi tổ chức hội nghị, hội thảo quốc tế tại Việt Nam và chế độ tiếp khách trong nước",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `HET_HIEU_LUC` (đối chiếu toàn văn Công báo số 1029+1030 ngày 10-11-2018 (31 trang có lớp chữ, SHA-256 796856a43b52...): ban hành ngày 10-08-2018, hiệu lực từ 01-11-2018; hết hiệu lực từ 18-05-2026 theo Thông tư 35/2026/TT-BTC ngày 31-03-2026).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #416). Đã hết hiệu lực từ 18-05-2026 (thay bởi TT 35/2026/TT-BTC).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "71-2018-tt-btc#3",
+   "slug": "71-2018-tt-btc",
+   "duong_dan": "wiki/sources/71-2018-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "71/2018/TT-BTC — Quy định chế độ tiếp khách nước ngoài vào làm việc tại Việt Nam, chế độ chi tổ chức hội nghị, hội thảo quốc tế tại Việt Nam và chế độ tiếp khách trong nước",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A`.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
@@ -171501,6 +172345,67 @@
     "ma-hs",
     "con-hieu-luc"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "qcvn-12-4-2015-byt#1",
+   "slug": "qcvn-12-4-2015-byt",
+   "duong_dan": "wiki/sources/qcvn-12-4-2015-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "QCVN 12-4:2015/BYT — Quy chuẩn kỹ thuật quốc gia về vệ sinh an toàn đối với bao bì, dụng cụ làm bằng thủy tinh, gốm, sứ và tráng men tiếp xúc trực tiếp với thực phẩm (ban hành kèm theo Thông tư số 35/2015/TT-BYT)",
+   "muc": "Tóm tắt",
+   "noi_dung": "**QCVN 12-4:2015/BYT** (ban hành **2015-10-28**, hiệu lực từ **2016-05-01**, cơ quan: **Bộ Y tế**): Quy chuẩn kỹ thuật quốc gia về vệ sinh an toàn đối với bao bì, dụng cụ làm bằng thủy tinh, gốm, sứ và tráng men tiếp xúc trực tiếp với thực phẩm (ban hành kèm theo Thông tư số 35/2015/TT-BYT).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "QCVN 12-4:2015/BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-05-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-35-2015-tt-byt-18091.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "qcvn-12-4-2015-byt#2",
+   "slug": "qcvn-12-4-2015-byt",
+   "duong_dan": "wiki/sources/qcvn-12-4-2015-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "QCVN 12-4:2015/BYT — Quy chuẩn kỹ thuật quốc gia về vệ sinh an toàn đối với bao bì, dụng cụ làm bằng thủy tinh, gốm, sứ và tráng men tiếp xúc trực tiếp với thực phẩm (ban hành kèm theo Thông tư số 35/2015/TT-BYT)",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `CON_HIEU_LUC` (đối chiếu toàn văn Công báo số 1153+1154 ngày 28-11-2015 (congbaocdn.chinhphu.vn, đã OCR 10 trang) và Thông tư 35/2015/TT-BYT ngày 28-10-2015 (Thứ trưởng Nguyễn Thanh Long ký): QCVN 12-4:2015/BYT có hiệu lực từ 01-05-2016, quy định giới hạn thôi nhiễm Chì (Pb) và Cadmi (Cd) đối với bao bì, dụng cụ thủy tinh, gốm, sứ, tráng men tiếp xúc trực tiếp thực phẩm; đang còn hiệu lực).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #423). QCVN chuyên ngành ATTP bao bì thủy tinh, gốm, sứ, tráng men tiếp xúc thực phẩm.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "QCVN 12-4:2015/BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-05-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-35-2015-tt-byt-18091.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "qcvn-12-4-2015-byt#3",
+   "slug": "qcvn-12-4-2015-byt",
+   "duong_dan": "wiki/sources/qcvn-12-4-2015-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "QCVN 12-4:2015/BYT — Quy chuẩn kỹ thuật quốc gia về vệ sinh an toàn đối với bao bì, dụng cụ làm bằng thủy tinh, gốm, sứ và tráng men tiếp xúc trực tiếp với thực phẩm (ban hành kèm theo Thông tư số 35/2015/TT-BYT)",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A`.\n- Tham chiếu liên quan: [[concepts/vat-lieu-bao-bi-tiep-xuc-thuc-pham]], [[concepts/ktcl-byt-attp-2024]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false

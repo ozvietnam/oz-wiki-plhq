@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-25
 
-3225 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3241 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -33,7 +33,7 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Thủ tục hải quan, khai báo, hồ sơ `hai-quan/thu-tuc`
 
-82 văn bản, 58 chưa hết hiệu lực.
+83 văn bản, 59 chưa hết hiệu lực.
 
 - 🟢 [417/2026/NĐ-CP](../registry/van-ban/417-2026-nd-cp.yaml) — Quy định về quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu qua nền tảng thương mại điện tử
 - 🟢 [3318/QĐ-BTC](../registry/van-ban/3318-qd-btc-2026.yaml) — Công bố danh mục 133 thủ tục hành chính trong lĩnh vực hải quan thực hiện không phụ thuộc vào địa giới hành chính
@@ -91,6 +91,7 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 - ❔ [755/TCHQ-GSQL](../registry/van-ban/755-tchq-gsql-2020.yaml) — Kiểm tra, xác định xuất xứ, chống gian lận, giả mạo xuất xứ, ghi nhãn hàng hóa, chuyển tải bất hợp pháp và thủ tục hải quan
 - 🟢 [80/2019/TT-BTC](../registry/van-ban/80-2019-tt-btc.yaml) — Hướng dẫn thủ tục hải quan, quản lý thuế, phí và lệ phí đối với hàng hóa xuất khẩu, nhập khẩu theo Nghị định số 14/2018/NĐ-CP ngày 23 tháng 01 năm 2018 của Chính phủ quy định chi tiết về hoạt động thương mại biên giới
 - 🟢 [81/2019/TT-BTC](../registry/van-ban/81-2019-tt-btc.yaml) — Quy định quản lý rủi ro trong hoạt động nghiệp vụ hải quan
+- 🟢 [56/2019/TT-BTC](../registry/van-ban/56-2019-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 49/2015/TT-BTC ngày 14 tháng 4 năm 2015 quy định thủ tục hải quan đối với thư, gói, kiện hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định và Thông tư số 191/2015/TT-BTC ngày 24 tháng 11 năm 2015 quy định thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh gửi qua dịch vụ chuyển phát nhanh quốc tế
 - ⚫ [23/2019/QĐ-TTg](../registry/van-ban/23-2019-qd-ttg.yaml) — Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập _(hết hiệu lực 2026-08-14)_
 - 🟢 [18/2019/QĐ-TTg](../registry/van-ban/18-2019-qd-ttg.yaml) — Quy định việc nhập khẩu máy móc, thiết bị, dây chuyền công nghệ đã qua sử dụng
 - 🟡 [07/2019/TT-BTC](../registry/van-ban/07-2019-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 72/2015/TT-BTC ngày 12 tháng 5 năm 2015 của Bộ trưởng Bộ Tài chính quy định áp dụng chế độ ưu tiên trong việc thực hiện thủ tục hải quan, kiểm tra, giám sát hải quan đối với hàng hóa xuất khẩu, nhập khẩu của doanh nghiệp
@@ -120,7 +121,7 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Kiểm tra, giám sát, kiểm soát hải quan `hai-quan/kiem-tra-giam-sat`
 
-58 văn bản, 46 chưa hết hiệu lực.
+59 văn bản, 46 chưa hết hiệu lực.
 
 - 🟢 [166/2026/TT-BTC](../registry/van-ban/166-2026-tt-btc.yaml) — Bãi bỏ một số thông tư liên tịch do Bộ trưởng Bộ Tài chính liên tịch ban hành liên quan đến lĩnh vực tài chính
 - 🟢 [66/2026/TT-BKHCN](../registry/van-ban/66-2026-tt-bkhcn.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 11/2015/TT-BKHCN ngày 26 tháng 6 năm 2015 của Bộ trưởng Bộ Khoa học và Công nghệ
@@ -176,6 +177,7 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 - ⚫ [119/2010/NĐ-CP](../registry/van-ban/119-2010-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 105/2006/NĐ-CP _(hết hiệu lực 2023-04-26)_
 - 🟢 [36/2009/QH12](../registry/van-ban/36-2009-qh12.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ
 - ⚫ [47/2009/NĐ-CP](../registry/van-ban/47-2009-nd-cp.yaml) — Quy định xử phạt vi phạm hành chính về quyền tác giả, quyền liên quan _(hết hiệu lực 2013-12-15)_
+- ⚫ [23/2008/QH12](../registry/van-ban/23-2008-qh12.yaml) — Luật Giao thông đường bộ _(hết hiệu lực 2025-01-01)_
 - ⚫ [103/2006/NĐ-CP](../registry/van-ban/103-2006-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Sở hữu trí tuệ về sở hữu công nghiệp _(hết hiệu lực 2023-08-23)_
 - ⚫ [105/2006/NĐ-CP](../registry/van-ban/105-2006-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Sở hữu trí tuệ về bảo vệ quyền sở hữu trí tuệ và quản lý nhà nước về sở hữu trí tuệ _(hết hiệu lực 2025-12-30)_
 - ⚫ [154/2005/NĐ-CP](../registry/van-ban/154-2005-nd-cp.yaml) — Quy định chi tiết một số điều của Luật Hải quan về thủ tục hải quan, kiểm tra, giám sát hải quan _(hết hiệu lực 2015-03-15)_
@@ -309,7 +311,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Biểu thuế XK, NK ưu đãi và biểu thuế FTA `thue/bieu-thue`
 
-66 văn bản, 46 chưa hết hiệu lực.
+69 văn bản, 46 chưa hết hiệu lực.
 
 - 🟢 [22446/CHQ-NVTHQ](../registry/van-ban/22446-chq-nvthq-2026.yaml) — Về việc áp dụng mức thuế (kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường, thuế giá trị gia tăng đối với mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu và nhiên liệu bay theo Nghị quyết số 43/2026/NQ-CP)
 - 🟢 [43/2026/NQ-CP](../registry/van-ban/43-2026-nq-cp.yaml) — Về việc kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường, thuế giá trị gia tăng đối với xăng, dầu, nguyên liệu sản xuất xăng, dầu và nhiên liệu bay _(hết hiệu lực 2026-12-31)_
@@ -376,7 +378,10 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - ⚫ [149/2017/NĐ-CP](../registry/van-ban/149-2017-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do Việt Nam - Hàn Quốc giai đoạn 2018 - 2022 _(hết hiệu lực 2022-12-30)_
 - ⚫ [150/2017/NĐ-CP](../registry/van-ban/150-2017-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Thương mại tự do giữa một bên là Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam và bên kia là Liên minh Kinh tế Á - Âu và các nước thành viên giai đoạn 2018 - 2022 _(hết hiệu lực 2022-12-30)_
 - ⚫ [45/2017/QĐ-TTg](../registry/van-ban/45-2017-qd-ttg.yaml) — Sửa đổi, bổ sung Quyết định số 36/2016/QĐ-TTg ngày 01 tháng 9 năm 2016 của Thủ tướng Chính phủ quy định việc áp dụng thuế suất thông thường đối với hàng hóa nhập khẩu _(hết hiệu lực 2023-07-15)_
+- ⚫ [25/2016/TT-BTC](../registry/van-ban/25-2016-tt-btc.yaml) — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với mặt hàng Diamoni hydro orthophosphat (diamoni phosphat) thuộc mã hàng 3105.30.00 tại Biểu thuế nhập khẩu ưu đãi _(hết hiệu lực 2016-09-01)_
 - ⚫ [07/2015/TT-BTC](../registry/van-ban/07-2015-tt-btc.yaml) — Bãi bỏ Thông tư số 06/2015/TT-BTC ngày 20/01/2015 của Bộ trưởng Bộ Tài chính về việc sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu thuộc nhóm 27.10 tại Biểu thuế nhập khẩu ưu đãi _(hết hiệu lực 2016-01-01)_
+- ⚫ [06/2015/TT-BTC](../registry/van-ban/06-2015-tt-btc.yaml) — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu thuộc nhóm 27.10 tại Biểu thuế nhập khẩu ưu đãi _(hết hiệu lực 2015-01-21)_
+- ⚫ [63/2012/TT-BTC](../registry/van-ban/63-2012-tt-btc.yaml) — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đặc biệt đối với một số nhóm mặt hàng trong các Biểu thuế nhập khẩu ưu đãi đặc biệt
 
 ### Biểu thuế XNK (TT-BCT, quy tắc mặt hàng cụ thể các FTA) `thue/bieu-thue-xnk`
 
@@ -3133,7 +3138,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Giấy phép, hạn ngạch, hàng cấm, tạm ngừng `quan-ly-ngoai-thuong/giay-phep`
 
-46 văn bản, 35 chưa hết hiệu lực.
+48 văn bản, 35 chưa hết hiệu lực.
 
 - 🟢 [4502/QĐ-BKHCN](../registry/van-ban/4502-2026-qd-bkhcn.yaml) — Công bố thủ tục hành chính mới về cấp giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu trong lĩnh vực quản lý nhà nước của Bộ Khoa học và Công nghệ
 - 🟢 [68/2026/TT-BCT](../registry/van-ban/68-2026-tt-bct.yaml) — Quy định tỷ lệ hao hụt xăng dầu trong hoạt động kinh doanh xăng dầu
@@ -3174,12 +3179,14 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [173/2018/TT-BQP](../registry/van-ban/173-2018-tt-bqp.yaml) — Công bố danh mục cụ thể hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành của Bộ Quốc phòng theo quy định tại Nghị định số 69/2018/NĐ-CP ngày 15/5/2018 của Chính phủ _(hết hiệu lực 2026-12-31)_
 - 🟢 [47/2018/TT-NHNN](../registry/van-ban/47-2018-tt-nhnn.yaml) — Ban hành Danh mục hàng hóa xuất khẩu, nhập khẩu kèm theo mã HS thuộc phạm vi quản lý của Ngân hàng Nhà nước Việt Nam trong lĩnh vực vàng
 - ⚫ [11/2017/TT-BCT](../registry/van-ban/11-2017-tt-bct.yaml) — Quy định về hoạt động tạm nhập, tái xuất; tạm xuất, tái nhập và chuyển khẩu _(hết hiệu lực 2018-06-15)_
+- ⚫ [14/2017/QH14](../registry/van-ban/14-2017-qh14.yaml) — Luật Quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ _(hết hiệu lực 2025-01-01)_
 - 🟢 [108/2016/NĐ-CP](../registry/van-ban/108-2016-nd-cp.yaml) — Quy định chi tiết điều kiện kinh doanh sản phẩm, dịch vụ an toàn thông tin mạng
 - 🟢 [38/2014/TT-BCT](../registry/van-ban/38-2014-tt-bct.yaml) — Quy định chi tiết một số điều của Nghị định số 83/2014/NĐ-CP ngày 03 tháng 9 năm 2014 của Chính phủ về kinh doanh xăng dầu
 - 🟢 [83/2014/NĐ-CP](../registry/van-ban/83-2014-nd-cp.yaml) — Về kinh doanh xăng dầu
 - 🟡 [37/2013/TT-BCT](../registry/van-ban/37-2013-tt-bct.yaml) — Quy định nhập khẩu thuốc lá điếu, xì gà
 - ⚫ [47/2011/TTLT-BCT-BTNMT](../registry/van-ban/47-2011-ttlt-bct-btnmt.yaml) — Quy định việc quản lý nhập khẩu, xuất khẩu và tạm nhập - tái xuất các chất làm suy giảm tầng ô-dôn theo quy định của Nghị định thư Montreal về các chất làm suy giảm tầng ô-dôn _(hết hiệu lực 2022-02-20)_
 - ❔ [15/2009/TT-BKHCN](../registry/van-ban/15-2009-tt-bkhcn.yaml) — Hướng dẫn trình tự, thủ tục đăng ký việc sử dụng phụ gia không thông dụng để sản xuất, chế biến, pha chế xăng và nhiên liệu
+- ⚫ [23/2008/QH12](../registry/van-ban/23-2008-qh12.yaml) — Luật Giao thông đường bộ _(hết hiệu lực 2025-01-01)_
 - ⚫ [23/2000/QH10](../registry/van-ban/23-2000-qh10.yaml) — Luật Phòng, chống ma túy _(hết hiệu lực 2022-01-01)_
 
 ### Hàng đã qua sử dụng `quan-ly-ngoai-thuong/hang-da-qua-su-dung`
@@ -3238,7 +3245,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Kiểm tra nhà nước về an toàn thực phẩm `kiem-tra-chuyen-nganh/an-toan-thuc-pham`
 
-15 văn bản, 13 chưa hết hiệu lực.
+16 văn bản, 14 chưa hết hiệu lực.
 
 - 🟢 [27/2026/TT-BYT](../registry/van-ban/27-2026-tt-byt.yaml) — Ban hành Danh mục thực phẩm; dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm có mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Y tế
 - 🟢 [28/2026/TT-BCT](../registry/van-ban/28-2026-tt-bct.yaml) — Ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã số HS) thực hiện kiểm tra nhà nước về an toàn thực phẩm thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương
@@ -3254,6 +3261,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [155/2018/NĐ-CP](../registry/van-ban/155-2018-nd-cp.yaml) — Sửa đổi, bổ sung một số quy định liên quan đến điều kiện đầu tư kinh doanh thuộc phạm vi quản lý nhà nước của Bộ Y tế
 - ⚫ [05/2018/TT-BYT](../registry/van-ban/05-2018-tt-byt.yaml) — Ban hành Danh mục thực phẩm, phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm và dụng cụ, vật liệu bao gói, chứa đựng thực phẩm được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam _(hết hiệu lực 2022-02-02)_
 - 🟢 [15/2018/NĐ-CP](../registry/van-ban/15-2018-nd-cp.yaml) — Quy định chi tiết thi hành một số điều của Luật An toàn thực phẩm
+- 🟢 [QCVN 12-4:2015/BYT](../registry/van-ban/qcvn-12-4-2015-byt.yaml) — Quy chuẩn kỹ thuật quốc gia về vệ sinh an toàn đối với bao bì, dụng cụ làm bằng thủy tinh, gốm, sứ và tráng men tiếp xúc trực tiếp với thực phẩm (ban hành kèm theo Thông tư số 35/2015/TT-BYT)
 - 🟢 [55/2010/QH12](../registry/van-ban/55-2010-qh12.yaml) — Luật An toàn thực phẩm
 
 ### Kiểm dịch động vật, thực vật, thuỷ sản, y tế `kiem-tra-chuyen-nganh/kiem-dich`
@@ -3363,7 +3371,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Y tế `kiem-tra-chuyen-nganh/byt`
 
-54 văn bản, 39 chưa hết hiệu lực.
+55 văn bản, 40 chưa hết hiệu lực.
 
 - 🟢 [44/2026/TT-BYT](../registry/van-ban/44-2026-tt-byt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 07/2022/TT-BYT của Bộ trưởng Bộ Y tế quy định thuốc phải thử tương đương sinh học và các yêu cầu đối với hồ sơ báo cáo số liệu nghiên cứu tương đương sinh học trong đăng ký lưu hành thuốc tại Việt Nam
 - 🟢 [23153/CHQ-NVTHQ](../registry/van-ban/23153-chq-nvthq-2026.yaml) — Về việc xác nhận mã HS code đối với sản phẩm Đông trùng hạ thảo nhập khẩu (Cordyceps Sinensis dạng khô nguyên con, nhóm 12.11, mã số 1211.90.19 / 1211.90.99)
@@ -3413,6 +3421,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - ⚫ [54/2017/NĐ-CP](../registry/van-ban/54-2017-nd-cp.yaml) — Quy định chi tiết một số điều và biện pháp thi hành Luật Dược _(hết hiệu lực 2025-07-01)_
 - 🟢 [91/2016/NĐ-CP](../registry/van-ban/91-2016-nd-cp.yaml) — Về quản lý hóa chất, chế phẩm diệt côn trùng, diệt khuẩn dùng trong lĩnh vực gia dụng và y tế
 - 🟢 [105/2016/QH13](../registry/van-ban/105-2016-qh13.yaml) — Luật Dược
+- 🟢 [QCVN 12-4:2015/BYT](../registry/van-ban/qcvn-12-4-2015-byt.yaml) — Quy chuẩn kỹ thuật quốc gia về vệ sinh an toàn đối với bao bì, dụng cụ làm bằng thủy tinh, gốm, sứ và tráng men tiếp xúc trực tiếp với thực phẩm (ban hành kèm theo Thông tư số 35/2015/TT-BYT)
 - 🟢 [09/2015/TT-BYT](../registry/van-ban/09-2015-tt-byt.yaml) — Quy định về xác nhận nội dung quảng cáo đối với sản phẩm, hàng hóa, dịch vụ đặc biệt thuộc lĩnh vực quản lý của Bộ Y tế
 - ⚫ [10/2015/TT-BTC](../registry/van-ban/10-2015-tt-btc.yaml) — Quy định chi tiết thi hành Quyết định số 54/2014/QĐ-TTg ngày 19/9/2014 của Thủ tướng Chính phủ về việc miễn thuế nhập khẩu đối với linh kiện nhập khẩu để sản xuất, lắp ráp sản phẩm trang thiết bị y tế cần được ưu tiên nghiên cứu, chế tạo _(hết hiệu lực 2019-01-15)_
 - ⚫ [176/2013/NĐ-CP](../registry/van-ban/176-2013-nd-cp.yaml) — Quy định xử phạt vi phạm hành chính trong lĩnh vực y tế _(hết hiệu lực 2020-11-15)_
@@ -3606,7 +3615,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ## Xử phạt vi phạm hành chính, cưỡng chế, khiếu nại `xu-phat`
 
-21 văn bản, 9 chưa hết hiệu lực.
+22 văn bản, 9 chưa hết hiệu lực.
 
 - 🟢 [169/2026/NĐ-CP](../registry/van-ban/169-2026-nd-cp.yaml) — Quy định xử phạt vi phạm hành chính trong lĩnh vực hải quan
 - 🟢 [282/2025/NĐ-CP](../registry/van-ban/282-2025-nd-cp.yaml) — Quy định xử phạt vi phạm hành chính trong lĩnh vực an ninh, trật tự, an toàn xã hội; phòng, chống tệ nạn xã hội; phòng, chống bạo lực gia đình
@@ -3616,6 +3625,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - ⚫ [128/2020/NĐ-CP](../registry/van-ban/128-2020-nd-cp.yaml) — Quy định xử phạt vi phạm hành chính trong lĩnh vực hải quan _(hết hiệu lực 2026-07-01)_
 - 🟡 [15/2020/NĐ-CP](../registry/van-ban/15-2020-nd-cp.yaml) — Quy định xử phạt vi phạm hành chính trong lĩnh vực bưu chính, viễn thông, tần số vô tuyến điện, công nghệ thông tin và giao dịch điện tử
 - 🟢 [35/2019/NĐ-CP](../registry/van-ban/35-2019-nd-cp.yaml) — Quy định xử phạt vi phạm hành chính trong lĩnh vực Lâm nghiệp
+- ⚫ [36/2017/TT-BTC](../registry/van-ban/36-2017-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 217/2013/TT-BTC ngày 31 tháng 12 năm 2013 hướng dẫn thực hiện xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán
 - ⚫ [06/2017/TT-BTC](../registry/van-ban/06-2017-tt-btc.yaml) — Sửa đổi, bổ sung khoản 1 Điều 34a Thông tư số 156/2013/TT-BTC ngày 06/11/2013 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế (đã được bổ sung tại Khoản 10 Điều 2 Thông tư số 26/2015/TT-BTC) _(hết hiệu lực 2022-01-01)_
 - ⚫ [155/2016/TT-BTC](../registry/van-ban/155-2016-tt-btc.yaml) — Quy định chi tiết thi hành Nghị định số 127/2013/NĐ-CP ngày 15 tháng 10 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính và cưỡng chế thi hành quyết định hành chính trong lĩnh vực hải quan và Nghị định số 45/2016/NĐ-CP ngày 26 tháng 5 năm 2016 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 127/2013/NĐ-CP _(hết hiệu lực 2020-12-26)_
 - 🟢 [101/2015/QH13](../registry/van-ban/101-2015-qh13.yaml) — Bộ luật Tố tụng hình sự
@@ -3642,7 +3652,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 _Cần để biết cơ quan nào đang quản lý sau sáp nhập 2025–2026._
 
-36 văn bản, 22 chưa hết hiệu lực.
+37 văn bản, 23 chưa hết hiệu lực.
 
 - 🟢 [21582/TB-CHQ/2026](../registry/van-ban/21582-tb-chq-2026.yaml) — Thông báo về việc triển khai thực hiện Nghị định số 286/2026/NĐ-CP ngày 17/7/2026 của Chính phủ
 - 🟢 [351/2026/NĐ-CP](../registry/van-ban/351-2026-nd-cp.yaml) — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương
@@ -3657,6 +3667,7 @@ _Cần để biết cơ quan nào đang quản lý sau sáp nhập 2025–2026._
 - 🟢 [94/2025/NĐ-CP](../registry/van-ban/94-2025-nd-cp.yaml) — Quy định về Cơ chế thử nghiệm có kiểm soát trong lĩnh vực ngân hàng
 - 🟢 [40/2025/NĐ-CP](../registry/van-ban/40-2025-nd-cp.yaml) — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương
 - 🟢 [33/2025/NĐ-CP](../registry/van-ban/33-2025-nd-cp.yaml) — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Xây dựng
+- 🟢 [26/2025/NĐ-CP](../registry/van-ban/26-2025-nd-cp.yaml) — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Ngân hàng Nhà nước Việt Nam
 - 🟢 [1092/QĐ-BTC](../registry/van-ban/1092-qd-btc-2024.yaml) — Về việc công bố kết quả hệ thống hóa văn bản quy phạm pháp luật thuộc lĩnh vực quản lý nhà nước của Bộ Tài chính kỳ 2019 - 2023
 - ⚫ [28/2023/NĐ-CP](../registry/van-ban/28-2023-nd-cp.yaml) — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Khoa học và Công nghệ _(hết hiệu lực 2025-03-01)_
 - ⚫ [06/2023/TT-BTC](../registry/van-ban/06-2023-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 36/2018/TT-BTC ngày 30 tháng 3 năm 2018 của Bộ trưởng Bộ Tài chính hướng dẫn việc lập dự toán, quản lý, sử dụng và quyết toán kinh phí dành cho công tác đào tạo, bồi dưỡng cán bộ, công chức, viên chức _(hết hiệu lực 2025-10-28)_
@@ -3683,5 +3694,13 @@ _Cần để biết cơ quan nào đang quản lý sau sáp nhập 2025–2026._
 
 ## Chưa phân loại — chờ luồng Hệ thống hoá xếp vào cây `chua-phan-loai`
 
-_Chưa có văn bản — điểm mù, xem bao-cao/diem-mu.md._
+7 văn bản, 3 chưa hết hiệu lực.
+
+- 🟢 [30/2024/TT-BTC](../registry/van-ban/30-2024-tt-btc.yaml) — Ban hành các chuẩn mực thẩm định giá Việt Nam về quy tắc đạo đức nghề nghiệp thẩm định giá, phạm vi công việc thẩm định giá, cơ sở giá trị thẩm định giá, hồ sơ thẩm định giá
+- 🟢 [13/2024/TT-BTC](../registry/van-ban/13-2024-tt-btc.yaml) — Hướng dẫn việc xác định nguồn kinh phí và việc lập dự toán, quản lý, sử dụng và quyết toán kinh phí thực hiện chính sách tinh giản biên chế
+- ⚫ [71/2018/TT-BTC](../registry/van-ban/71-2018-tt-btc.yaml) — Quy định chế độ tiếp khách nước ngoài vào làm việc tại Việt Nam, chế độ chi tổ chức hội nghị, hội thảo quốc tế tại Việt Nam và chế độ tiếp khách trong nước _(hết hiệu lực 2026-05-18)_
+- 🟢 [38/2016/QĐ-TTg](../registry/van-ban/38-2016-qd-ttg.yaml) — Về việc ban hành một số chính sách bảo vệ, phát triển rừng và đầu tư hỗ trợ kết cấu hạ tầng, giao nhiệm vụ công ích đối với các công ty nông, lâm nghiệp
+- ⚫ [61/2016/TT-BTC](../registry/van-ban/61-2016-tt-btc.yaml) — Hướng dẫn thu, nộp và quản lý khoản lợi nhuận, cổ tức được chia cho phần vốn nhà nước đầu tư tại doanh nghiệp _(hết hiệu lực 2022-01-01)_
+- ⚫ [45/2016/TT-BTC](../registry/van-ban/45-2016-tt-btc.yaml) — Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí sử dụng đường bộ trạm thu phí tại Km1064+730 quốc lộ 1, tỉnh Quảng Ngãi
+- ⚫ [28/2016/TT-BTC](../registry/van-ban/28-2016-tt-btc.yaml) — Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí sử dụng đường bộ trạm thu phí tại Km152+080 quốc lộ 1, tỉnh Bắc Ninh
 

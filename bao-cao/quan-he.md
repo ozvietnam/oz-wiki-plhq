@@ -92,6 +92,8 @@ flowchart LR
   n_54_2026_VBHN_TT_BTC["54/2026/VBHN-TT-BTC<br/>còn hiệu lực"]
   n_142_2026_TT_BTC["142/2026/TT-BTC<br/>còn hiệu lực"]
   n_54_VBHN_VPQH["54/VBHN-VPQH<br/>còn hiệu lực"]
+  n_56_2019_TT_BTC["56/2019/TT-BTC<br/>còn hiệu lực"]
+  n_49_2015_TT_BTC["49/2015/TT-BTC<br/>còn hiệu lực"]
   n_60_2019_TT_BTC["60/2019/TT-BTC<br/>còn hiệu lực"]
   n_39_2015_TT_BTC["39/2015/TT-BTC<br/>còn hiệu lực"]
   n_65_2023_N__CP["65/2023/NĐ-CP<br/>còn hiệu lực"]
@@ -153,6 +155,8 @@ flowchart LR
   n_46_2024_N__CP -->|sửa đổi từ 2024-07-01| n_99_2013_N__CP
   n_54_2026_VBHN_TT_BTC -->|hợp nhất| n_142_2026_TT_BTC
   n_54_VBHN_VPQH -->|hợp nhất| n_54_2014_QH13
+  n_56_2019_TT_BTC -->|sửa đổi| n_49_2015_TT_BTC
+  n_56_2019_TT_BTC -->|sửa đổi| n_191_2015_TT_BTC
   n_59_2018_N__CP -->|sửa đổi| n_08_2015_N__CP
   n_60_2019_TT_BTC -->|sửa đổi| n_39_2015_TT_BTC
   n_65_2023_N__CP -->|thay thế từ 2023-08-23| n_103_2006_N__CP
