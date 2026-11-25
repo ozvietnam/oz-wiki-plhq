@@ -1,6 +1,6 @@
 # Yêu cầu tích hợp từ ozplugin ("Cổng OZ")
 
-> Chỉ là tài liệu yêu cầu khởi tạo (10/10/2026). **Cập nhật 25/11/2026:** Toàn bộ **W1–W4 đã hoàn tất** trên `main` (lược đồ `1.5.0`, phát hành bất biến GitHub Release `dist-YYYY-MM-DD` kèm `SHA256SUMS`, hợp đồng trường ổn định trong `docs/tich-hop.md`, chuỗi CC BY 4.0 thống nhất trong `README.md` / `LICENSE.md` / `dist/*.json` / `site/`).
+> Chỉ là tài liệu yêu cầu khởi tạo (10/10/2026). **Cập nhật Wave 29:** Toàn bộ **W1–W4 đã hoàn tất** và được mở rộng tương thích ngược lên lược đồ **`1.6.0`** (đồ thị sửa đổi cấp Điều khoản `trang_thai_dieu` + `lich_su_tac_dong`, tra cứu theo ngày `tai_ngay`, 2 tuyến `sap_co_hieu_luc`, cổng OOS `ngoai_pham_vi`, MCP resource `plhq://huong-dan/quy-trinh-agent`, phát hành GitHub Release `dist-YYYY-MM-DD` kèm `SHA256SUMS` và chuỗi CC BY 4.0 thống nhất).
 
 ## Bối cảnh
 

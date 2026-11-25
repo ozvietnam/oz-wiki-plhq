@@ -1,6 +1,6 @@
 # Dùng sổ đăng ký và gói tri thức trong ứng dụng khác
 
-Kho này xuất bộ dữ liệu máy `dist/` (phiên bản lược đồ `1.5.0`, dựng bằng `npm run dung`, tự cập nhật sau mỗi lần gộp PR và mỗi thứ Hai). Ứng dụng khác chỉ **đọc** các tệp này; muốn sửa dữ liệu thì mở PR vào `registry/`, `danh-muc/`, `wiki/` hoặc `data/doc-hieu/` — không sửa bản chụp ở phía ứng dụng.
+Kho này xuất bộ dữ liệu máy `dist/` (phiên bản lược đồ `1.6.0`, tương thích ngược `1.x`, dựng bằng `npm run dung`, tự cập nhật sau mỗi lần gộp PR và mỗi thứ Hai). Ứng dụng khác chỉ **đọc** các tệp này; muốn sửa dữ liệu thì mở PR vào `registry/`, `danh-muc/`, `data/sua-doi-dieu/`, `wiki/` hoặc `data/doc-hieu/` — không sửa bản chụp ở phía ứng dụng.
 
 > Ranh giới dữ liệu giữa `oz-wiki-plhq`, `hs-code-api` và Cổng MCP (`ozplugin`): xem **[SO-DO-HE-THONG.md](SO-DO-HE-THONG.md)**. Kho này **không** xuất `chu-giai-chuong.json` hay `chu-giai-hs.json` ra `dist/` (GIR và chú giải HS thuộc `hs-code-api`).
 
@@ -8,7 +8,7 @@ URL ổn định trên nhánh `main`: `https://raw.githubusercontent.com/ozvietn
 
 ## Phát hành ổn định (bản chụp gắn thẻ)
 
-Ngoài URL `main`, mỗi lần **bất kỳ** tệp nào trong gói `dist/` **đổi** so với `HEAD`, workflow `dung-lai-va-bao-hs-code-api` (`.github/workflows/bao-hs-code-api.yml`) tạo một GitHub Release gắn thẻ `dist-YYYY-MM-DD` (hậu tố `.N` nếu trùng ngày), đính kèm đủ bộ **8 tệp dữ liệu máy** (`1.5.0`, do `npm run dung` xuất đồng bộ) cùng bản băm:
+Ngoài URL `main`, mỗi lần **bất kỳ** tệp nào trong gói `dist/` **đổi** so với `HEAD`, workflow `dung-lai-va-bao-hs-code-api` (`.github/workflows/bao-hs-code-api.yml`) tạo một GitHub Release gắn thẻ `dist-YYYY-MM-DD` (hậu tố `.N` nếu trùng ngày), đính kèm đủ bộ **8 tệp dữ liệu máy** (`1.6.0`, do `npm run dung` xuất đồng bộ) cùng bản băm:
 
 - `registry.json`
 - `hs-index.json`
@@ -38,7 +38,7 @@ dẫn dữ liệu kho, kèm ngày `phien_ban` của bản đang dùng):
 ## Cấu trúc
 
 Tất cả **8 tệp** máy trong `dist/` (`registry.json`, `hs-index.json`, `hs-index-theo-ma.json`, `wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`, `chinh-sach-mo-ta.json` — đều do `tools/dung.mjs` ghi đồng bộ) mang `luoc_do_phien_ban` — số semver chung của
-**cấu trúc** (hiện tại `1.5.0` trong `tools/lib/registry.mjs`; riêng `phien_ban` là ngày dựng). Bên đọc
+**cấu trúc** (hiện tại `1.6.0` trong `tools/lib/registry.mjs`; riêng `phien_ban` là ngày dựng). Bên đọc
 so **major**: lệch major thì từ chối bản chụp và báo lỗi, thay vì trả sai tình trạng hiệu lực. Lịch sử
 lược đồ: [docs/luoc-do-so-dang-ky.md](luoc-do-so-dang-ky.md#lịch-sử-lược-đồ-tệp-máy).
 
@@ -167,7 +167,7 @@ Dựng từ `danh-muc/chinh-sach-mo-ta.yaml` bằng `dungChinhSachMoTa(so, root,
    được đối chiếu nguồn A — hiển thị như cảnh báo cần kiểm lại, không như kết luận.
 3. **Không tự suy hiệu lực từ ngày**: dùng `tinh_trang` + `het_hieu_luc_tu`; quan hệ có `pham_vi` là tác
    động một phần.
-4. **Tôn trọng cờ hiệu lực wiki & phân tầng điều khoản (`1.5.0`):** không kết luận từ chunk có `canh_bao_hieu_luc: true`; không trích `TOM_TAT_NHAP` như nguyên văn căn cứ pháp lý.
+4. **Tôn trọng cờ hiệu lực wiki & phân tầng điều khoản (`1.6.0`):** không kết luận từ chunk có `canh_bao_hieu_luc: true`; không trích `TOM_TAT_NHAP` như nguyên văn căn cứ pháp lý; kiểm tra `trang_thai_dieu` & `lich_su_tac_dong` khi điều khoản bị sửa/bãi bỏ; ưu tiên truyền `tai_ngay` cho tờ khai quá khứ/tương lai.
 5. Thấy sai → mở issue mẫu "Sai hiệu lực" ở kho này.
 
 ## Ứng dụng đang dùng
@@ -176,8 +176,8 @@ Dựng từ `danh-muc/chinh-sach-mo-ta.yaml` bằng `dungChinhSachMoTa(so, root,
   `data/plhq-registry.json`; `/api/tax` trả `legalBasisRegistry` (hiệu lực từng văn bản mà cột chính sách
   của mã HS dẫn) và đưa văn bản hết hiệu lực/tạm ngưng vào `policyBasisReview`. `scripts/bench-plhq.mjs` đo
   độ phủ trên toàn biểu thuế và in danh sách văn bản cần kho này đối chiếu trước (theo số mã HS chịu ảnh hưởng).
-- **Cổng MCP `ozplugin` ("Cổng OZ") & MCP/CLI cục bộ** — tiêu thụ trọn gói `dist/` `1.5.0` (**8 tệp**) cho hỏi đáp PLHQ (hiệu lực VBQPPL, danh mục HS/CAS & gợi ý AHTN, wiki chunks, điều khoản 2 tầng, Tầng 2 theo mô tả & 25 viết tắt PLHQ), phối hợp với `hs-code-api` cho phân loại HS, biểu thuế và tiền lệ (xem [docs/yeu-cau/ozplugin.md](yeu-cau/ozplugin.md), [docs/mcp-server.md](mcp-server.md) và [docs/SO-DO-HE-THONG.md](SO-DO-HE-THONG.md)). Chất lượng truy hồi sống và độ phủ dữ liệu được đo kiểm định kỳ bằng `npm run eval:qa` & `npm run eval:retrieval` trên **60 câu** (`eval/cau-hoi-nghiep-vu.yaml`).
-- **Cổng tra cứu web công khai V2 (`site/` trên GitHub Pages)** — dựng tĩnh `0` CDN bằng `npm run dung:web` (`.github/workflows/trang-web.yml`) với **5 tab** và **7 tệp** `site/data/*.json` (rút gọn `registry.json`, `wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`, `hs-policy.json`, `sap-het-hieu-luc.json`).
+- **Cổng MCP `ozplugin` ("Cổng OZ") & MCP/CLI cục bộ** — tiêu thụ trọn gói `dist/` `1.6.0` (**8 tệp**) hoặc kết nối trực tiếp MCP server (`6 tools + 3 resources`, gồm `plhq://huong-dan/quy-trinh-agent`, hỗ trợ `tai_ngay`, đồ thị sửa đổi cấp Điều `trang_thai_dieu` & 2 tuyến `sap_co_hieu_luc`), phối hợp với `hs-code-api` cho phân loại HS, biểu thuế và tiền lệ (xem [docs/yeu-cau/ozplugin.md](yeu-cau/ozplugin.md), [docs/mcp-server.md](mcp-server.md) và [docs/SO-DO-HE-THONG.md](SO-DO-HE-THONG.md)). Chất lượng truy hồi sống và độ phủ được kiểm định kỳ bằng `eval:qa`, `eval:retrieval` (**60 câu**) và `eval:holdout --strict` (**48 ca holdout mù**).
+- **Cổng tra cứu web công khai V2 (`site/` trên GitHub Pages)** — dựng tĩnh `0` CDN bằng `npm run dung:web` (`.github/workflows/trang-web.yml`) với **5 tab**, **8 tệp** `site/data/*.json` + mảnh `data/dk/*.json`, hỗ trợ badge sửa đổi cấp Điều, nút nhảy `#dk=` và bộ lọc ngày tờ khai `tai_ngay` ở Tab 1 & Tab 3.
 
 ### Cầu nối tự động hai chiều
 

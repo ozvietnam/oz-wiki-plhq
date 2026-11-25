@@ -303,6 +303,13 @@ export function TAO_DANH_SACH_TAI_NGUYEN() {
         'Danh sách văn bản có ngày hết hiệu lực trong vòng <= 60 ngày, phục vụ rà soát kịp thời văn bản thay thế.',
       mimeType: 'application/json',
     },
+    {
+      uri: 'plhq://huong-dan/quy-trinh-agent',
+      name: 'Quy trình chuẩn cho Agent & ozplugin (2 bước xác minh hiệu lực + trích dẫn nguồn A)',
+      description:
+        'Hướng dẫn thao tác chuẩn cho ozplugin và AI Agent: tham số tai_ngay, quy trình 2 bước nguồn bậc A, đồ thị sửa đổi cấp Điều, 2 tuyến hiệu lực, cổng OOS và ranh giới 0% hs-code-api.',
+      mimeType: 'text/markdown',
+    },
   ];
 }
 
@@ -465,6 +472,9 @@ function dinhDangHoiPhapLuat(res) {
   if (res?.do_tin_cay_tra_loi) {
     lines.push(`- Độ tin cậy trả lời: **${res.do_tin_cay_tra_loi}**`);
   }
+  if (res?.ngoai_pham_vi) {
+    lines.push('- ⚠️ Ngoài phạm vi PLHQ (`ngoai_pham_vi: true`) — không suy diễn ngoài kho.');
+  }
 
   if (res?.goi_y_du_phong) {
     const dp = res.goi_y_du_phong;
@@ -505,7 +515,9 @@ function dinhDangHoiPhapLuat(res) {
   if (dieuKhoanA.length) {
     lines.push('', '### Điều khoản nguyên văn nguồn A (`NGUYEN_VAN_NGUON_A`)');
     for (const dk of dieuKhoanA) {
-      lines.push(`- **[${dk.so_hieu}]** Điều ${dk.dieu ?? '?'}${dk.khoan ? ` Khoản ${dk.khoan}` : ''}: ${dk.noi_dung || ''}`);
+      const ttBadge = dk.trang_thai_dieu && dk.trang_thai_dieu !== 'NGUYEN_BAN' ? ` [${dk.trang_thai_dieu}]` : '';
+      lines.push(`- **[${dk.so_hieu}]** Điều ${dk.dieu ?? '?'}${dk.khoan ? ` Khoản ${dk.khoan}` : ''}${ttBadge}: ${dk.noi_dung || ''}`);
+      if (dk.canh_bao_sua_doi) lines.push(`  ⚠️ ${dk.canh_bao_sua_doi}`);
     }
   }
 
@@ -516,7 +528,18 @@ function dinhDangHoiPhapLuat(res) {
     }
   }
 
-  if (!ketQua.length && !dieuKhoanA.length && !dieuKhoanNhap.length) {
+  const sapCoHieuLuc = Array.isArray(res?.sap_co_hieu_luc) ? res.sap_co_hieu_luc : [];
+  if (sapCoHieuLuc.length) {
+    lines.push('', '### Tuyến 2 — Văn bản sắp có hiệu lực (`CHUA_CO_HIEU_LUC` — chỉ tham khảo chuẩn bị)');
+    for (const sc of sapCoHieuLuc) {
+      const nhan = sc.so_hieu || sc.tieu_de || sc.slug || '?';
+      lines.push(
+        `- **[${nhan}]**${sc.hieu_luc_tu ? ` (hiệu lực từ ${sc.hieu_luc_tu})` : ''}: ${sc.canh_bao || sc.noi_dung?.slice(0, 200) || ''}`,
+      );
+    }
+  }
+
+  if (!ketQua.length && !dieuKhoanA.length && !dieuKhoanNhap.length && !sapCoHieuLuc.length) {
     lines.push('', 'Không tìm thấy nội dung phù hợp trong kho wiki và điều khoản nguồn A.');
   }
   return lines.join('\n');
@@ -632,12 +655,24 @@ function taoThongTinLuocDo(store) {
           quy_tac: 'Tóm tắt nháp trích tự động (da_soat: false) — CHỈ dùng định vị điều luật, KHÔNG trích làm nguyên văn.',
         },
       },
+      sua_doi_cap_dieu: {
+        so_tep: dkStats.so_tep_sua_doi_dieu ?? 0,
+        so_tac_dong: dkStats.so_tac_dong_dieu ?? 0,
+        so_dieu_co_lich_su: dkStats.so_dieu_co_lich_su_sua_doi ?? 0,
+      },
       wiki: wikiStats,
       cas: {
         so_ma_cas_duy_nhat: casStats.so_ma_cas_duy_nhat ?? Object.keys(store?.casIndex?.theo_cas || {}).length,
         so_dong_khong_co_cas: casStats.so_dong_khong_co_cas ?? store?.casIndex?.khong_co_cas?.length ?? 0,
       },
       hs_theo_ma: hsStats,
+    },
+    tinh_nang_ozplugin: {
+      ho_tro_tai_ngay: true,
+      hai_tuyen_sap_co_hieu_luc: true,
+      do_thi_sua_doi_cap_dieu: true,
+      cong_ngoai_pham_vi: true,
+      tai_nguyen_quy_trinh: 'plhq://huong-dan/quy-trinh-agent',
     },
     ranh_gioi_hs_code_api: CHI_DAN_RANH_GIOI_HS,
   };
@@ -802,6 +837,44 @@ export function taoMayChuMcp({ store: initialStore, distDir, root } = {}) {
             uri,
             mimeType: 'application/json',
             text: JSON.stringify(payload, null, 2),
+          },
+        ],
+      };
+    }
+    if (uri === 'plhq://huong-dan/quy-trinh-agent') {
+      const md = [
+        '# Quy trình chuẩn cho AI Agent & ozplugin (`oz-wiki-plhq`)',
+        '',
+        '1. **Đối chiếu hiệu lực theo ngày tờ khai (`tai_ngay`):**',
+        '   - Khi kiểm tra hồ sơ/tờ khai quá khứ hoặc tương lai, luôn truyền `tai_ngay` (`YYYY-MM-DD`, vd ngày đăng ký tờ khai) vào `plhq_hoi_phap_luat`, `plhq_tra_hieu_luc`, `plhq_tra_dieu_khoan` và `plhq_chinh_sach_theo_hs`.',
+        '   - Nếu kết quả trả `do_chinh_xac_ngay: "THIEU_NGAY_HIEU_LUC"`, không tự suy đoán trạng thái ngày quá khứ mà báo rõ cần đối chiếu nguồn bậc A.',
+        '',
+        '2. **Quy trình 2 bước xác minh & trích dẫn nguồn A:**',
+        '   - **Bước 1:** Gọi `plhq_hoi_phap_luat` để định vị văn bản hiện hành, wiki nghiệp vụ và danh sách điều khoản liên quan.',
+        '   - **Bước 2:** Xác nhận hiệu lực bằng `plhq_tra_hieu_luc` và lấy nguyên văn bằng `plhq_tra_dieu_khoan` (`chi_nguyen_van: true`).',
+        '   - Tuyệt đối chỉ trích dẫn `NGUYEN_VAN_NGUON_A` làm căn cứ pháp lý; `TOM_TAT_NHAP` (`da_soat: false`) chỉ dùng định vị điều luật.',
+        '',
+        '3. **Xử lý đồ thị sửa đổi cấp Điều (`trang_thai_dieu`):**',
+        '   - Nếu điều khoản có `trang_thai_dieu` là `DA_SUA_DOI`, `DA_BAI_BO`, `DA_BO_SUNG` hoặc `TAM_NGUNG`, bắt buộc đọc `lich_su_tac_dong[]` và `canh_bao_sua_doi` để lần sang `dieu_khoan_sua_doi_lien_quan` (văn bản sửa đổi mới hơn) trước khi kết luận.',
+        '',
+        '4. **Quy tắc 2 tuyến (`ket_qua` vs `sap_co_hieu_luc`):**',
+        '   - `ket_qua` chứa văn bản đang có hiệu lực theo mốc ngày; `sap_co_hieu_luc` chứa văn bản `CHUA_CO_HIEU_LUC` để tham khảo chuẩn bị trước thời điểm hiệu lực.',
+        '',
+        '5. **Cổng ngoài phạm vi (OOS) & dự phòng 3 tầng:**',
+        '   - Khi `ngoai_pham_vi: true` hoặc `do_tin_cay_tra_loi: "KHONG_TIM_THAY"`, tuyệt đối không suy diễn điều luật ngoài kho; thực hiện đúng `goi_y_du_phong` (`tim_van_ban_lop_2` + mở thẻ `[BỔ SUNG SỔ]` nếu thiếu).',
+        '',
+        '6. **Ranh giới 0% trùng lặp với `hs-code-api`:**',
+        '   - Phân loại/áp mã HS từ mô tả hàng hóa, 6 quy tắc GIR, chú giải HS WCO/AHTN, thuế suất và tiền lệ phân loại thuộc **`hs-code-api`** (`chuyen_huong.he_thong === "hs-code-api"`).',
+        '',
+        `> ${GHI_NGUON_CC_BY}`,
+        `> ${MIEN_TRU_PHAP_LY}`,
+      ].join('\n');
+      return {
+        contents: [
+          {
+            uri,
+            mimeType: 'text/markdown',
+            text: md,
           },
         ],
       };

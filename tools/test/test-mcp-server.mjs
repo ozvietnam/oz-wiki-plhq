@@ -127,10 +127,11 @@ try {
 
   const resList = TAO_DANH_SACH_TAI_NGUYEN();
   t(
-    'TAO_DANH_SACH_TAI_NGUYEN: đủ 2 resource chuẩn',
-    resList.length === 2
+    'TAO_DANH_SACH_TAI_NGUYEN: đủ 3 resource chuẩn',
+    resList.length === 3
       && resList.some((r) => r.uri === 'plhq://meta/luoc-do' && r.mimeType === 'application/json')
-      && resList.some((r) => r.uri === 'plhq://bao-cao/sap-het-hieu-luc' && r.mimeType === 'application/json'),
+      && resList.some((r) => r.uri === 'plhq://bao-cao/sap-het-hieu-luc' && r.mimeType === 'application/json')
+      && resList.some((r) => r.uri === 'plhq://huong-dan/quy-trinh-agent' && r.mimeType === 'text/markdown'),
   );
 
   // 2. Giao thức in-process (initialize, notifications, ping, list)
@@ -180,7 +181,7 @@ try {
   t('tools/list: trả đúng 6 công cụ', toolsRpc?.result?.tools?.length === 6);
 
   const resRpc = await server.xuLyYeuCau({ jsonrpc: '2.0', id: 4, method: 'resources/list' });
-  t('resources/list: trả đúng 2 tài nguyên', resRpc?.result?.resources?.length === 2);
+  t('resources/list: trả đúng 3 tài nguyên', resRpc?.result?.resources?.length === 3);
 
   // 3. Cả 6 tools/call trên kho dữ liệu thật
   // 3a. plhq_tra_hieu_luc (chính xác + so_hieu_khac + không thấy + thiếu tham số)
@@ -546,7 +547,7 @@ try {
   });
   t('tools/call plhq_sap_het_hieu_luc: trong_so_ngay âm trả isError=true', sapHetErr?.result?.isError === true);
 
-  // 4. resources/read (2 tài nguyên)
+  // 4. resources/read (3 tài nguyên)
   const rMeta = await server.xuLyYeuCau({
     jsonrpc: '2.0',
     id: 30,
@@ -555,13 +556,16 @@ try {
   });
   const metaJson = JSON.parse(rMeta?.result?.contents?.[0]?.text || '{}');
   t(
-    `resources/read plhq://meta/luoc-do: đủ metadata 1.x khớp dist/, thống kê 2 tầng, CC BY & ranh giới hs-code-api`,
+    `resources/read plhq://meta/luoc-do: đủ metadata 1.x khớp dist/, thống kê 2 tầng, tính năng ozplugin, CC BY & ranh giới hs-code-api`,
     rMeta?.result?.contents?.[0]?.mimeType === 'application/json'
       && /^\d+\.\d+\.\d+$/.test(String(metaJson.luoc_do_phien_ban || ''))
       && String(metaJson.luoc_do_phien_ban || '').startsWith(`${LUOC_DO_PHIEN_BAN.split('.')[0]}.`)
       && metaJson.thong_ke?.so_van_ban > 2000
       && metaJson.thong_ke?.dieu_khoan_2_tang?.nguyen_van_nguon_a?.so_van_ban > 0
       && metaJson.thong_ke?.dieu_khoan_2_tang?.tom_tat_nhap?.da_soat === false
+      && typeof metaJson.thong_ke?.sua_doi_cap_dieu?.so_dieu_co_lich_su === 'number'
+      && metaJson.tinh_nang_ozplugin?.ho_tro_tai_ngay === true
+      && metaJson.tinh_nang_ozplugin?.tai_nguyen_quy_trinh === 'plhq://huong-dan/quy-trinh-agent'
       && metaJson.ghi_nguon === GHI_NGUON_CC_BY
       && String(metaJson.ranh_gioi_hs_code_api || '').includes('hs-code-api'),
   );
@@ -579,6 +583,37 @@ try {
       && sapHetResJson.trong_so_ngay === 60
       && Array.isArray(sapHetResJson.ket_qua)
       && sapHetResJson.ghi_nguon === GHI_NGUON_CC_BY,
+  );
+
+  const rGuide = await server.xuLyYeuCau({
+    jsonrpc: '2.0',
+    id: 32,
+    method: 'resources/read',
+    params: { uri: 'plhq://huong-dan/quy-trinh-agent' },
+  });
+  const guideText = rGuide?.result?.contents?.[0]?.text || '';
+  t(
+    'resources/read plhq://huong-dan/quy-trinh-agent: trả Markdown hướng dẫn tai_ngay, 2 bước, sap_co_hieu_luc & hs-code-api',
+    rGuide?.result?.contents?.[0]?.mimeType === 'text/markdown'
+      && guideText.includes('tai_ngay')
+      && guideText.includes('NGUYEN_VAN_NGUON_A')
+      && guideText.includes('sap_co_hieu_luc')
+      && guideText.includes('hs-code-api')
+      && guideText.includes('CC BY 4.0'),
+  );
+
+  const rOos = await server.xuLyYeuCau({
+    jsonrpc: '2.0',
+    id: 33,
+    method: 'tools/call',
+    params: { name: 'plhq_hoi_phap_luat', arguments: { cau_hoi: 'luật ly hôn chia tài sản thừa kế' } },
+  });
+  const oosText = rOos?.result?.content?.[0]?.text || '';
+  t(
+    'tools/call plhq_hoi_phap_luat OOS: hiển thị rõ ngoai_pham_vi và do_tin_cay=KHONG_TIM_THAY',
+    rOos?.result?.structuredContent?.ngoai_pham_vi === true
+      && rOos?.result?.structuredContent?.do_tin_cay_tra_loi === 'KHONG_TIM_THAY'
+      && oosText.includes('ngoai_pham_vi: true'),
   );
 
   // 5. Lỗi JSON-RPC chuẩn: -32600, -32601, -32602, -32700

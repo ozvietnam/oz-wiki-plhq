@@ -1,11 +1,11 @@
 # Cổng MCP & CLI tra cứu pháp luật hải quan (`oz-wiki-plhq`)
 
-Kho **`oz-wiki-plhq`** cung cấp sẵn hai đường tra cứu tại máy (**0 dependency ngoài mới**, thuần Node.js `>= 20`, dùng trực tiếp gói dữ liệu máy lược đồ `1.5.0` trong `dist/` hoặc tự dựng in-memory từ `registry/`, `wiki/`, `danh-muc/`, `data/doc-hieu/` khi chưa có `dist/`):
+Kho **`oz-wiki-plhq`** cung cấp sẵn hai đường tra cứu tại máy (**0 dependency ngoài mới**, thuần Node.js `>= 20`, dùng trực tiếp gói dữ liệu máy lược đồ `1.6.0` trong `dist/` hoặc tự dựng in-memory từ `registry/`, `wiki/`, `danh-muc/`, `data/sua-doi-dieu/`, `data/doc-hieu/` khi chưa có `dist/`):
 
 1. **MCP Stdio Server (`npm run mcp:server`):** máy chủ [Model Context Protocol](https://modelcontextprotocol.io/) chạy giao thức JSON-RPC 2.0 qua `stdin`/`stdout` cho **Claude Desktop**, **Antigravity**, **Cursor**, **Cổng MCP `ozplugin`** và các agent tương thích.
 2. **CLI tra cứu (`npm run tra-cuu`):** công cụ dòng lệnh cho người làm xuất nhập khẩu, kỹ sư và script tự động.
 
-> **Kiến trúc & lược đồ dữ liệu:** Xem [docs/SO-DO-HE-THONG.md](SO-DO-HE-THONG.md) và [docs/tich-hop.md](tich-hop.md) để nắm chi tiết gói **8 tệp** `dist/*.json` (`1.5.0`) và hợp đồng trường ổn định *(engine `tools/lib/tra-cuu-plhq.mjs` nạp 6 tệp cốt lõi phục vụ tra cứu: `registry.json`, `hs-index-theo-ma.json`, `wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`, hoặc tự dựng in-memory khi thiếu `dist/`)*.
+> **Kiến trúc & lược đồ dữ liệu:** Xem [docs/SO-DO-HE-THONG.md](SO-DO-HE-THONG.md) và [docs/tich-hop.md](tich-hop.md) để nắm chi tiết gói **8 tệp** `dist/*.json` (`1.6.0`) và hợp đồng trường ổn định *(engine `tools/lib/tra-cuu-plhq.mjs` nạp 6 tệp cốt lõi phục vụ tra cứu: `registry.json`, `hs-index-theo-ma.json`, `wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`, hoặc tự dựng in-memory khi thiếu `dist/`)*.
 
 ---
 
@@ -32,7 +32,7 @@ npm install
 ```
 
 - **Node.js `>= 20`** (`package.json` khai báo `"engines": { "node": ">=20" }`).
-- Kho có sẵn dữ liệu trong `registry/`, `wiki/`, `danh-muc/`, `data/doc-hieu/`. Để tốc độ nạp nhanh nhất trên MCP server và CLI, nên dựng sẵn gói `dist/` (`1.5.0`):
+- Kho có sẵn dữ liệu trong `registry/`, `wiki/`, `danh-muc/`, `data/sua-doi-dieu/`, `data/doc-hieu/`. Để tốc độ nạp nhanh nhất trên MCP server và CLI, nên dựng sẵn gói `dist/` (`1.6.0`):
 
 ```bash
 npm run dung
@@ -55,23 +55,24 @@ Tệp thực thi: [`tools/mcp-server.mjs`](../tools/mcp-server.mjs) (chạy tr�
 
 | Tên tool | Tham số | Chức năng & quy tắc đầu ra |
 |---|---|---|
-| `plhq_tra_hieu_luc` | `so_hieu` *(bắt buộc)* | Tra cứu tình trạng hiệu lực (`tinh_trang`), `hieu_luc_tu`, `het_hieu_luc_tu`, `ngay_ban_hanh`, `co_quan`, đầy đủ `quan_he` chiều đi và `quan_he_nguoc` (bị thay thế/sửa đổi/bãi bỏ/tạm ngưng/hướng dẫn bởi), URL nguồn bậc A (`nguon_bac_a`), và cờ `xac_minh.hieu_luc_da_doi_chieu` (kèm cảnh báo khi chưa đối chiếu nguồn A). So khớp chuẩn qua `khoa()` trên cả `so_hieu` và `so_hieu_khac`, có gợi ý gần đúng nếu không khớp tuyệt đối. |
-| `plhq_tra_dieu_khoan` | `so_hieu?`, `dieu?`, `khoan?`, `diem?`, `tu_khoa?`, `chi_nguyen_van?`, `limit?` | Tra điều khoản pháp luật theo số hiệu văn bản, số điều/khoản/điểm hoặc từ khóa. **Luôn ưu tiên tầng `NGUYEN_VAN_NGUON_A`** (kèm `trang_pdf`, `sha256_pdf`, `nguyen_van_da_xac_minh: true`). Chỉ khi `chi_nguyen_van !== true` và cần mở rộng mới trả thêm tầng `TOM_TAT_NHAP` kèm cảnh báo `da_soat: false`. |
-| `plhq_hoi_phap_luat` | `cau_hoi` *(bắt buộc)*, `nhanh?`, `limit?` | Tìm kiếm mở rộng từ viết tắt (`ATTP`, `KTCN`, `VPHC`, `TNTX`, `GTGT`, `C/O`...), ghim số hiệu hỏi đích danh, xếp văn bản hiện hành lên trên `HET_HIEU_LUC` và lọc nhiễu `NGUYEN_VAN_NGUON_A` (có tách riêng tầng định vị `dieu_khoan_tom_tat_nhap` mang `da_soat: false`). Trả kèm `do_tin_cay_tra_loi` (`CAO \| TRUNG_BINH \| THAP \| KHONG_TIM_THAY`), `pham_vi_du_lieu` và `goi_y_du_phong` (trỏ sang `tim_van_ban_lop_2` + URL bậc A + thẻ `[BỔ SUNG SỔ]` khi thiếu toàn văn / ngoài kho — không suy diễn). Nếu câu hỏi thuộc phân loại mã HS / GIR / thuế suất / tiền lệ → trả `chuyen_huong` sang `hs-code-api`. |
+| `plhq_tra_hieu_luc` | `so_hieu` *(bắt buộc)*, `tai_ngay?` *(YYYY-MM-DD)* | Tra cứu tình trạng hiệu lực hiện tại (và tại ngày `tai_ngay` qua `tinh_trang_tai_ngay`, `do_chinh_xac_ngay`), ngày ban hành/hiệu lực/hết hiệu lực, `quan_he` chiều đi & `quan_he_nguoc`, URL nguồn bậc A (`nguon_bac_a`) và cờ `xac_minh.hieu_luc_da_doi_chieu`. |
+| `plhq_tra_dieu_khoan` | `so_hieu?`, `dieu?`, `khoan?`, `diem?`, `tu_khoa?`, `chi_nguyen_van?`, `tai_ngay?`, `limit?` | Tra điều khoản tách tuyệt đối **2 tầng** (`NGUYEN_VAN_NGUON_A` vs `TOM_TAT_NHAP`), kèm `trang_thai_dieu`, `lich_su_tac_dong[]`, `canh_bao_sua_doi` và `dieu_khoan_sua_doi_lien_quan` (lọc đúng theo mốc `tai_ngay` nếu truyền). |
+| `plhq_hoi_phap_luat` | `cau_hoi` *(bắt buộc)*, `nhanh?`, `tai_ngay?`, `limit?` | Xếp hạng lai ghép (BM25 thuần Node + viết tắt + ưu tiên văn bản thay thế lên trên `HET_HIEU_LUC`), tách 2 tuyến `ket_qua` (hiện hành) vs `sap_co_hieu_luc` (`CHUA_CO_HIEU_LUC`), có cổng ngoài phạm vi (`ngoai_pham_vi: true` + `do_tin_cay_tra_loi: "KHONG_TIM_THAY"`) và tự động chuyển hướng `hs-code-api` cho bài toán áp mã HS/GIR/thuế suất. |
 | `plhq_tra_cas` | `query` *(bắt buộc)*, `phu_luc?`, `limit?` | Tra hóa chất trong danh mục NĐ `24/2026/NĐ-CP` (`cas-index.json`) theo mã CAS, tên chất (`ten_chat`), tên khoa học/mã hóa chất (`ma_hoa_chat`) hoặc công thức (`cong_thuc`), lọc tùy chọn `phu_luc` (`I`..`IV`), tìm cả mục `khong_co_cas`, trả đủ mọi phụ lục mà chất thuộc về kèm ngưỡng `nguong_kg` (nếu có). |
-| `plhq_chinh_sach_theo_hs` | `ma_hs` *(bắt buộc)*, `limit?` | Tra cứu theo tiền tố mã HS 4/6/8 số **đã biết** trên `hs-index-theo-ma.json` để liệt kê văn bản KTCN, cấm/tạm ngừng, giấy phép, phòng vệ thương mại áp lên mã đó kèm `tinh_trang` hiệu lực và cảnh báo `canh_bao_ma` khi mã nằm ngoài biểu thuế đối chiếu (xem thêm `anh_xa_ahtn_cu` từ `registry/phien-ban-bieu-thue-mapping.yaml` trong `dist/hs-index-theo-ma.json`). Không dùng để suy đoán hay áp mã HS mới (việc của `hs-code-api`). |
+| `plhq_chinh_sach_theo_hs` | `ma_hs` *(bắt buộc)*, `tai_ngay?`, `limit?` | Tra cứu theo tiền tố mã HS 4/6/8 số **đã biết** trên `hs-index-theo-ma.json` để liệt kê văn bản KTCN/cấm/giấy phép/PVTM (lọc/đánh giá hiệu lực tại `tai_ngay` nếu truyền) kèm cảnh báo `canh_bao_ma` & `anh_xa_ahtn_cu`. Không dùng để áp mã HS mới (việc của `hs-code-api`). |
 | `plhq_sap_het_hieu_luc` | `trong_so_ngay?`, `hom_nay?` | Liệt kê các văn bản có `het_hieu_luc_tu` trong vòng `<= trong_so_ngay` ngày (mặc định `60` ngày) tính từ `hom_nay` (mặc định theo ngày `phien_ban` dữ liệu hoặc ngày hiện tại), sắp tăng dần theo ngày hết hiệu lực. |
 
 Mỗi lời gọi `tools/call` đều trả đồng thời:
 - `content`: văn bản tiếng Việt có cấu trúc, kèm sẵn chuỗi ghi nguồn CC BY 4.0 và câu miễn trừ pháp lý.
 - `structuredContent`: đối tượng JSON có cấu trúc để agent/ứng dụng đọc lập trình chính xác.
 
-### Bảng 2 MCP Resources
+### Bảng 3 MCP Resources
 
 | URI resource | MIME type | Nội dung trả về |
 |---|---|---|
-| `plhq://meta/luoc-do` | `application/json` | Metadata phiên bản lược đồ (`1.5.0`), ngày `phien_ban`, nguồn dữ liệu (`dist` hoặc in-memory), tổng số văn bản trong sổ, thống kê 2 tầng điều khoản (`NGUYEN_VAN_NGUON_A` vs `TOM_TAT_NHAP`), quy tắc CC BY 4.0, miễn trừ pháp lý và ranh giới `hs-code-api`. |
+| `plhq://meta/luoc-do` | `application/json` | Metadata phiên bản lược đồ (`1.6.0`), ngày `phien_ban`, thống kê 2 tầng điều khoản, `thong_ke.sua_doi_cap_dieu`, cờ năng lực `tinh_nang_ozplugin` (`ho_tro_tai_ngay`, `hai_tuyen_sap_co_hieu_luc`, `do_thi_sua_doi_cap_dieu`, `cong_ngoai_pham_vi`), CC BY 4.0 và ranh giới `hs-code-api`. |
 | `plhq://bao-cao/sap-het-hieu-luc` | `application/json` | Danh sách JSON các văn bản sắp hết hiệu lực trong vòng `<= 60` ngày để client chủ động rà soát trước khi áp dụng. |
+| `plhq://huong-dan/quy-trinh-agent` | `text/markdown` | Quy trình thao tác chuẩn cho AI Agent & `ozplugin`: dùng `tai_ngay`, quy trình 2 bước `NGUYEN_VAN_NGUON_A`, xử lý `trang_thai_dieu`, 2 tuyến `sap_co_hieu_luc`, cổng OOS và ranh giới `hs-code-api`. |
 
 ### Cấu hình JSON mẫu (copy-paste cho Claude Desktop / Cursor / Antigravity)
 
@@ -105,14 +106,14 @@ Tệp thực thi: [`tools/tra-cuu.mjs`](../tools/tra-cuu.mjs). Có thể gọi t
 
 | Lệnh con | Tham số & cờ | Mục đích |
 |---|---|---|
-| `hieu-luc <so_hieu>` | `--so-hieu <so_hieu>`, `--json` | Tra tình trạng hiệu lực, quan hệ cũ–mới và link nguồn bậc A |
-| `dieu-khoan [<so_hieu>]` | `--so-hieu <so_hieu>`, `--dieu <N>`, `--khoan <N>`, `--diem <ký_tự>`, `--tu-khoa "<từ>"`, `--nguyen-van` *(hoặc `--chi-nguyen-van`)*, `--limit <N>`, `--json` | Tra điều khoản pháp luật (ưu tiên `NGUYEN_VAN_NGUON_A`; bật `--nguyen-van` để lọc tuyệt đối tầng bậc A; `<so_hieu>` tùy chọn khi truyền `--tu-khoa` hoặc `--dieu`) |
-| `hoi "<cau_hoi>"` | `--nhanh <nhánh>`, `--limit <N>`, `--json` | Hỏi đáp nghiệp vụ PLHQ trên wiki + điều khoản bậc A (tự chuyển hướng khi hỏi áp mã HS/thuế suất) |
+| `hieu-luc <so_hieu>` | `--so-hieu <so_hieu>`, `--tai-ngay <YYYY-MM-DD>`, `--json` | Tra tình trạng hiệu lực hiện tại hoặc tại ngày `tai_ngay`, quan hệ cũ–mới và link nguồn bậc A |
+| `dieu-khoan [<so_hieu>]` | `--so-hieu <so_hieu>`, `--dieu <N>`, `--khoan <N>`, `--diem <ký_tự>`, `--tu-khoa "<từ>"`, `--nguyen-van`, `--tai-ngay <YYYY-MM-DD>`, `--limit <N>`, `--json` | Tra điều khoản pháp luật (ưu tiên `NGUYEN_VAN_NGUON_A`, gắn `trang_thai_dieu` & `lich_su_tac_dong` lọc theo `--tai-ngay`) |
+| `hoi "<cau_hoi>"` | `--nhanh <nhánh>`, `--tai-ngay <YYYY-MM-DD>`, `--limit <N>`, `--json` | Hỏi đáp nghiệp vụ PLHQ trên wiki + điều khoản bậc A (BM25 + 2 tuyến + cổng OOS, tự chuyển hướng khi hỏi áp mã HS/thuế suất) |
 | `cas "<query>"` | `--phu-luc <I\|II\|III\|IV>`, `--limit <N>`, `--json` | Tra hóa chất NĐ `24/2026/NĐ-CP` theo mã CAS, tên chất hoặc công thức (có thể lọc riêng `--phu-luc`) |
-| `chinh-sach <ma_hs>` | `--limit <N>`, `--json` | Tra văn bản KTCN / giấy phép / cấm theo mã HS đã biết |
+| `chinh-sach <ma_hs>` | `--tai-ngay <YYYY-MM-DD>`, `--limit <N>`, `--json` | Tra văn bản KTCN / giấy phép / cấm theo mã HS đã biết (lọc hiệu lực theo `--tai-ngay`) |
 | `sap-het-hieu-luc` | `--ngay <số_ngày>` *(hoặc `--trong-so-ngay`)*, `--hom-nay <YYYY-MM-DD>`, `--limit <N>`, `--json` | Liệt kê văn bản sắp hết hiệu lực trong `N` ngày tới (mặc định `60`) |
 
-Cờ dùng chung cho mọi lệnh con: `--json`, `--limit <N>`, `--dist <thư_mục>`, `--root <thư_mục>`, `-h` / `--help`.
+Cờ dùng chung cho mọi lệnh con: `--tai-ngay <YYYY-MM-DD>`, `--json`, `--limit <N>`, `--dist <thư_mục>`, `--root <thư_mục>`, `-h` / `--help`.
 
 ### Ví dụ chạy trực tiếp bằng `node tools/tra-cuu.mjs`
 
