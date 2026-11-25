@@ -7,7 +7,15 @@ permissions:
   contents: read
 jobs:
   test:
-    runs-on: ubuntu-latest
+    # Ghim image Ubuntu (không dùng ubuntu-latest) + ghim bản poppler-utils ở env bên dưới:
+    # cùng một dữ liệu phải cho cùng một kết quả trích nguyên văn, không trôi theo image mới (OZV-2290).
+    runs-on: ubuntu-26.04
+    env:
+      # Poppler 26.01.0 là bản CI đã đối chiếu khớp ở OZV-2288 (PR #764).
+      # Bản deb có trong kho ubuntu-26.04: Release 26.01.0-2build2, Updates/Security 26.01.0-2ubuntu0.3.
+      # Khi cần đổi bản: tra `apt-cache madison poppler-utils` trên runner rồi sửa đây;
+      # đổi Ubuntu LTS thì sửa cả runs-on. CI đỏ ở bước cài = bản ghim không còn trong kho, cập nhật có ý thức.
+      POPPLER_UTILS_VERSION: "26.01.0-2ubuntu0.3"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -16,8 +24,18 @@ jobs:
           cache: npm
       - name: Cài pdftotext (poppler-utils) để đối chiếu nguyên văn điều khoản
         run: |
+          set -euo pipefail
           sudo apt-get update -qq
-          sudo apt-get install -y -qq --no-install-recommends poppler-utils
+          sudo apt-get install -y -qq --no-install-recommends "poppler-utils=${POPPLER_UTILS_VERSION}"
+          # In bản đang dùng ra log + summary để lộ ngay lệch bản poppler giữa CI và máy soát (OZV-2290).
+          INSTALLED="$(dpkg-query -W -f='${Version}' poppler-utils)"
+          echo "poppler-utils (deb) : ${INSTALLED}"
+          pdftotext -v 2>&1 | head -1
+          { echo "## Bản poppler trên CI"; echo "poppler-utils ${INSTALLED}"; pdftotext -v 2>&1 | head -1; } >> "$GITHUB_STEP_SUMMARY"
+          if [ "${INSTALLED}" != "${POPPLER_UTILS_VERSION}" ]; then
+            echo "::error::poppler-utils cài được (${INSTALLED}) khác bản ghim (${POPPLER_UTILS_VERSION}) — cập nhật POPPLER_UTILS_VERSION trong .github/workflows/kiem-tra.yml"
+            exit 1
+          fi
       - run: npm ci
       - name: Kiểm nguyên văn điều khoản với PDF (bắt buộc có pdftotext)
         shell: bash
