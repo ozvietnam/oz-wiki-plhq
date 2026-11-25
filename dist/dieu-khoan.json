@@ -5,8 +5,8 @@
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
  "canh_bao_tang_nhap": "Tầng TOM_TAT_NHAP được trích tự động bởi LLM (da_soat: false) — CHỈ dùng để định vị điều khoản, KHÔNG trích dẫn nguyên văn hay làm căn cứ pháp lý; chỉ dùng NGUYEN_VAN_NGUON_A để trích dẫn căn cứ.",
  "thong_ke": {
-  "so_van_ban_nguon_a": 443,
-  "so_dieu_khoan_nguon_a": 3718,
+  "so_van_ban_nguon_a": 447,
+  "so_dieu_khoan_nguon_a": 3746,
   "so_van_ban_tom_tat_nhap": 88,
   "so_dieu_khoan_tom_tat_nhap": 3684,
   "so_tep_doc_hieu": 91,
@@ -556,14 +556,12 @@
    "dieu_khoan": [
     {
      "dieu": 1,
-     "tieu_de": "Bãi bỏ toàn bộ Quyết định",
-     "noi_dung": "Điều 1. Bãi bỏ toàn bộ Quyết định. Bãi bỏ toàn bộ Quyết định số 78/2010/QĐ-TTg ngày 30 tháng 11 năm 2010 của Thủ tướng Chính phủ về mức giá trị hàng hóa nhập khẩu gửi qua dịch vụ chuyển phát nhanh được miễn thuế.",
+     "noi_dung": "Điều 1. Bãi bỏ toàn bộ Quyết định Bãi bỏ toàn bộ Quyết định sé 78/2010/QĐ-TTg ngày 30 tháng 11 năm 2010 của Thủ tướng Chính phủ về mức giá trị hàng hóa nhập khâu gửi qua dịch vụ chuyên phát nhanh được miễn thuế.",
      "trang_pdf": 1
     },
     {
      "dieu": 2,
-     "tieu_de": "Điều khoản thi hành",
-     "noi_dung": "Điều 2. Điều khoản thi hành. 1. Quyết định này có hiệu lực thi hành từ ngày 18 tháng 02 năm 2025. 2. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các đơn vị có liên quan chịu trách nhiệm thi hành Quyết định này.",
+     "noi_dung": "Điều 2. Điều khoản thi hành 1. Quyết định này có hiệu lực thi hành từ ngày 18 tháng 02 năm 2025.",
      "trang_pdf": 1
     }
    ]
@@ -6181,6 +6179,37 @@
    ]
   },
   {
+   "so_hieu": "114/2026/VBHN-TT-BNNMT",
+   "slug": "114-2026-vbhn-tt-bnnmt",
+   "ten": "Văn bản hợp nhất Quy chuẩn kỹ thuật quốc gia về Kiểm dịch và Bảo vệ thực vật",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": null,
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/114-vbhn-bnnmt.signed.pdf",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Ban hành kèm theo Thông tư này các Quy chuẩn kỹ thuật quốc gia về lĩnh vực Kiểm dịch và Bảo vệ thực vật: 1.2 (được bãi bỏ) 2.3 (được bãi bỏ) 3.4 (được bãi bỏ) 4. Quy chuẩn kỹ thuật quốc gia về quy trình kiểm dịch nấm có ích nhập khẩu trong khu cách ly kiểm dịch thực vật Ký hiệu: QCVN 01-32 : 2010/BNNPTNT.",
+     "trang_pdf": 2,
+     "sha256_pdf": "fcd47203575e2323c3029554dc53ac22b9d6980e9c5e09a3deb6aadb82ce8a9e"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Thông tư này có hiệu lực sau 6 tháng, kể từ ngày ký ban hành.10",
+     "trang_pdf": 3,
+     "sha256_pdf": "fcd47203575e2323c3029554dc53ac22b9d6980e9c5e09a3deb6aadb82ce8a9e"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Chánh Văn phòng Bộ, Vụ trưởng Vụ Khoa học và Công nghệ 11, Cục trưởng Cục Trồng trọt và Bảo vệ thực vật 12, Thủ trưởng các đơn vị và cá nhân có liên quan chịu trách nhiệm tổ chức thực hiện. Khoản này được bãi bỏ theo quy định tại khoản 3 Điều 2 Thông tư số 15/2023/TTBNNPTNT, có hiệu lực kể từ ngày 05 tháng 02 năm 2024.",
+     "trang_pdf": 3,
+     "sha256_pdf": "fcd47203575e2323c3029554dc53ac22b9d6980e9c5e09a3deb6aadb82ce8a9e"
+    }
+   ]
+  },
+  {
    "so_hieu": "115/2022/NĐ-CP",
    "slug": "115-2022-nd-cp",
    "ten": "Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương giai đoạn 2022 - 2027",
@@ -9352,21 +9381,18 @@
    "dieu_khoan": [
     {
      "dieu": 1,
-     "noi_dung": "Điều 1. Công bố công khai số liệu điều chỉnh dự toán chi ngân sách nhà nước năm 2026 của Cục Hải quan (chi tiết theo phụ lục đính kèm).",
-     "trang_pdf": 1,
-     "sha256_pdf": "e1bef93d4889be43307a88cfc4059b01f0ed9afc43a79519fde7577624f89cda"
+     "noi_dung": "Điều 1. Công bố công khai số liệu điều chỉnh dự toán chỉ ngân sách nhà nước năm 2026 của Cục Hải quan (chi tiết theo phụ lục đính kèm).",
+     "trang_pdf": 1
     },
     {
      "dieu": 2,
-     "noi_dung": "Điều 2. Quyết định này có hiệu lực kể từ ngày ký.",
-     "trang_pdf": 1,
-     "sha256_pdf": "e1bef93d4889be43307a88cfc4059b01f0ed9afc43a79519fde7577624f89cda"
+     "noi_dung": "Điều 2. Quyết định này có hiệu lực ké từ ngày ký.",
+     "trang_pdf": 1
     },
     {
      "dieu": 3,
-     "noi_dung": "Điều 3. Chánh Văn phòng, Trưởng ban Tài vụ-Quản trị và Thủ trưởng các đơn vị dự toán thuộc Cục Hải quan theo Điều 1 chịu trách nhiệm thi hành Quyết định này.",
-     "trang_pdf": 2,
-     "sha256_pdf": "e1bef93d4889be43307a88cfc4059b01f0ed9afc43a79519fde7577624f89cda"
+     "noi_dung": "Điều 3. Chánh Văn phòng, Trưởng ban Tài vụ-Quản trị và Thủ trưởng các đơn vị dự toán thuộc Cục Hải quan theo Điều 1 chịu trách nhiệm thi hành Quyết định này./. dot",
+     "trang_pdf": 2
     }
    ]
   },
@@ -12129,6 +12155,79 @@
    ]
   },
   {
+   "so_hieu": "18/2026/TT-BYT",
+   "slug": "18-2026-tt-byt",
+   "ten": "Quy định chi tiết một số điều của Luật Dược và Nghị định 163/2025/NĐ-CP về thuốc và nguyên liệu làm thuốc phải kiểm soát đặc biệt",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-07-16",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-18-2026-tt-byt-469674.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Thông tư này quy định chi tiết một số điều của Luật Dược số 105/2016/QH13 được sửa đổi, bổ sung bởi Luật số 44/2024/QH15 (sau đây gọi tắt là Luật Dược) và Nghị định số 163/2025/NĐ-CP về: 1. Các danh mục liên quan đến thuốc, nguyên liệu làm thuốc phải kiểm soát đặc biệt bao gồm: a) Danh mục dược chất gây nghiện theo quy định tại khoản 17 Điều 2 Luật Dược;",
+     "trang_pdf": 1,
+     "sha256_pdf": "754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Ban hành danh mục thuốc phải kiểm soát đặc biệt và bảng giới hạn nồng độ, hàm lượng dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc trong thuốc dạng phối hợp 1. Danh mục dược chất gây nghiện quy định tại Phụ lục I kèm theo Thông tư này và Bảng giới hạn nồng độ, hàm lượng dược chất gây nghiện trong thuốc dạng phối hợp theo quy định tại Phụ lục IV kèm theo Thông tư này.",
+     "trang_pdf": 2,
+     "sha256_pdf": "754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Bảo quản 1. Cơ sở có hoạt động dược không vì mục đích thương mại phải tuân thủ yêu cầu về Thực hành tốt bảo quản thuốc, nguyên liệu làm thuốc trong đó: a) Thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, nguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc phải được bảo quản tại kho, tủ riêng có khóa chắc chắn và không được để cùng các thuốc, nguyên liệu làm thuốc khác.",
+     "trang_pdf": 3,
+     "sha256_pdf": "754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04"
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Điều 6. Giao nhận, vận chuyển 1. Việc giao nhận, vận chuyển thuốc, nguyên liệu làm thuốc phải kiểm soát đặc biệt giữa các cơ sở phải thực hiện theo quy định chung về giao nhận, vận chuyển thuốc, nguyên liệu làm thuốc và các quy định tại Điều 33 Nghị định số 163/2025/NĐ-CP, trong đó, người giao, người nhận thuốc, nguyên liệu làm thuốc phải kiểm soát đặc biệt phải có bằng tốt nghiệp trung cấp ngành dược trở lên hoặc người được người đứng đầu cơ sở",
+     "trang_pdf": 6,
+     "sha256_pdf": "754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04"
+    },
+    {
+     "dieu": 7,
+     "noi_dung": "Điều 7. Báo cáo 1. Trước ngày 15 tháng 01 hàng năm, cơ sở có hoạt động dược không vì mục đích thương mại lập báo cáo xuất, nhập, tồn kho, sử dụng thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, thuốc phóng xạ, thuốc dạng phối hợp có chứa tiền chất theo mẫu báo cáo quy định tại Phụ lục IX kèm theo Thông tư này và gửi các cơ quan sau: a) Cục Quân y - Bộ Quốc phòng đối với trường hợp cơ sở thuộc phạm vi quản lý của Bộ Quốc phòng;",
+     "trang_pdf": 6,
+     "sha256_pdf": "754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04"
+    },
+    {
+     "dieu": 9,
+     "noi_dung": "Điều 9. Hồ sơ, sổ sách đối với cơ sở sản xuất 1. Cơ sở sản xuất thuốc gây nghiện; thuốc hướng thần; thuốc tiền chất; nguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc phải lập, quản lý và lưu trữ đầy đủ các loại hồ sơ, sổ theo dõi sau đây: a) Sổ theo dõi pha chế, sản xuất thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất theo mẫu sổ quy định tại Phụ lục XIV kèm theo Thông tư này;",
+     "trang_pdf": 8,
+     "sha256_pdf": "754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04"
+    },
+    {
+     "dieu": 11,
+     "noi_dung": "Điều 11. Hồ sơ, sổ sách đối với cơ sở bán buôn, cơ sở tổ chức chuỗi nhà thuốc 1. Cơ sở bán buôn, cơ sở tổ chức chuỗi nhà thuốc có kinh doanh thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất phải lập, quản lý và lưu trữ đầy đủ các loại hồ sơ, sổ theo dõi sau đây: a) Sổ theo dõi xuất, nhập, tồn kho thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất theo mẫu sổ quy định tại Phụ lục VIII kèm theo Thông tư này;",
+     "trang_pdf": 10,
+     "sha256_pdf": "754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04"
+    },
+    {
+     "dieu": 13,
+     "noi_dung": "Điều 13. Hồ sơ, sổ sách đối với cơ sở kinh doanh dịch vụ bảo quản thuốc, kinh doanh dịch vụ thử thuốc trên lâm sàng, kinh doanh dịch vụ thử tương đương sinh học của thuốc, kinh doanh dịch vụ kiểm nghiệm 1. Đối với thuốc gây nghiện; thuốc hướng thần; thuốc tiền chất;",
+     "trang_pdf": 12,
+     "sha256_pdf": "754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04"
+    },
+    {
+     "dieu": 14,
+     "noi_dung": "Điều 14. Hồ sơ, sổ sách đối với cơ sở có hoạt động dược không vì mục đích thương mại 1. Các cơ sở có hoạt động dược không vì mục đích thương mại, trừ cơ sở điều trị nghiện chất dạng thuốc phiện bằng thuốc thay thế, cơ sở cai nghiện ma túy, phải lập, quản lý và lưu trữ đầy đủ các loại hồ sơ, sổ theo dõi sau đây: a) Sổ pha chế thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, thuốc phóng xạ theo mẫu sổ quy định tại Phụ lục XIV và Phụ lục XVII",
+     "trang_pdf": 12,
+     "sha256_pdf": "754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04"
+    },
+    {
+     "dieu": 17,
+     "noi_dung": "Điều 17. Điều khoản chuyển tiếp 1. Việc quản lý đối với dược chất Etomidate, Carisoprodol và các thuốc có chứa dược chất Etomidate, Carisoprodol từ ngày 01 tháng 6 năm 2026 đến trước ngày Thông tư này có hiệu lực thực hiện theo quy định về thuốc hướng thần, nguyên liệu làm thuốc là dược chất hướng thần tại Thông tư số 20/2017/TT-BYT được sửa đổi, bổ sung bởi Thông tư số 27/2024/TT-BYT và các quy định của pháp luật có liên quan về thuốc hướng",
+     "trang_pdf": 14,
+     "sha256_pdf": "754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04"
+    }
+   ]
+  },
+  {
    "so_hieu": "18/2026/VBHN-QĐ-BYT",
    "slug": "18-2026-vbhn-qd-byt",
    "ten": "Hợp nhất Quyết định về việc triển khai áp dụng và hướng dẫn thực hiện các nguyên tắc, tiêu chuẩn \"Thực hành tốt sản xuất mỹ phẩm\" của Hiệp hội các nước Đông Nam Á",
@@ -14324,19 +14423,19 @@
     {
      "dieu": 1,
      "tieu_de": "Công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực hải quan",
-     "noi_dung": "Điều 1. Công bố kèm theo Quyết định này 01 thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực hải quan thuộc phạm vi chức năng quản lý của Bộ Tài chính.",
+     "noi_dung": "Điều 1. Công bố kèm theo Quyết định này 01 thủ tục hành chính được sửa đôi, bô sung trong lĩnh vực hải quan thuộc phạm vi chức năng quản lý của Bộ Tài chính.",
      "trang_pdf": 1
     },
     {
      "dieu": 2,
      "tieu_de": "Hiệu lực thi hành",
-     "noi_dung": "Điều 2. Quyết định này có hiệu lực từ ngày 01 tháng 7 năm 2025. Bãi bỏ nội dung đã được công bố tại Stt 3 Mục B Phần I và Stt 3 Mục II Phần II Phụ lục ban hành kèm theo Quyết định số 814/QĐ-BTC ngày 03 tháng 6 năm 2020 của Bộ trưởng Bộ Tài chính về công bố thủ tục hành chính trong lĩnh vực hải quan và Stt 182 Mục I lĩnh vực hải quan ban hành kèm theo Quyết định số 1474/QĐ-BTC ngày 24 tháng 4 năm 2025 của Bộ trưởng Bộ Tài chính về công bố danh mục thủ tục hành chính thuộc phạm vi chức năng quản lý của Bộ Tài chính.",
+     "noi_dung": "Điều 2. Quyết định này có hiệu lực từ ngày 01 tháng 7 năm 2025. Bai bỏ nội dung đã được công bố tại Stt 3 Mục B Phan I và Stt 3 Mục II Phân II Phụ lục ban hành kèm theo Quyêt định sỐ 814/QĐ-BTC ngày 03 tháng 6 năm 2020 của Bộ trưởng Bộ Tài chính về công bô thủ tục hành chính trong lĩnh vực hai quan và Stt 182 Mục I lĩnh vực hai quan ban hành kèm theo Quyệt định sô 1474/QĐ-BTC ngày 24 tháng 4 năm 2025 của Bộ trưởng Bộ Tài chính về công bô danh mục thủ tục hành chính thuộc phạm vi chức năng quản lý của Bộ Tài chính.",
      "trang_pdf": 1
     },
     {
      "dieu": 3,
      "tieu_de": "Trách nhiệm thi hành",
-     "noi_dung": "Điều 3. Chánh Văn phòng Bộ, Cục trưởng Cục Quản lý, giám sát chính sách, thuế, phí và lệ phí, Cục trưởng Cục Thuế, Cục trưởng Cục Hải quan, Chi cục trưởng các Chi cục Hải quan khu vực và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Quyết định này.",
+     "noi_dung": "Điều 3. Chánh Văn phòng Bộ, Cục trưởng Cục Quản lý, giám sát chính sách, thuế, phí và lệ phí, Cục trưởng Cục Thuế, Cục trưởng Cục Hải quan, Chi cục trưởng các Chi cục Hai quan khu vực và các tô chức, cá nhân có liên quan chịu trách nhiệm thi hành Quyết định này.",
      "trang_pdf": 2
     }
    ]
@@ -14776,19 +14875,19 @@
    "dieu_khoan": [
     {
      "dieu": 1,
-     "noi_dung": "Điều 1. Kéo dài thời hạn áp dụng của Nghị định số 72/2026/NĐ-CP ngày 09 tháng 3 năm 2026 của Chính phủ sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu tại Biểu thuế nhập khẩu ưu đãi ban hành kèm theo Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan: Kéo dài thời hạn áp dụng của Nghị định số 72/2026/NĐ-CP đến hết ngày 30 tháng 6 năm 2026.",
+     "noi_dung": "Điều 1. Kéo dài thời hạn áp dụng của Nghị định số 72/2026/NĐ-CP ngày 09 tháng 3 năm 2026 của Chính phủ sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu tại Biểu thuế nhập khẩu ưu đãi ban hành kèm theo Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu",
      "trang_pdf": 1,
      "sha256_pdf": "1d6f94f091f6f8bcbc56c5a256123101f5fb57dfc822bdb7557df2629524dbab"
     },
     {
      "dieu": 2,
-     "noi_dung": "Điều 2. Mức thuế suất thuế nhập khẩu ưu đãi của một số mặt hàng nguyên liệu sản xuất xăng, dầu: Mức thuế suất thuế nhập khẩu ưu đãi của một số mặt hàng nguyên liệu sản xuất xăng, dầu thuộc mã hàng 2710.19.20 (Dầu thô đã tách phần nhẹ); 2710.19.89 (Dầu trung khác và các chế phẩm) và 2711.19.00 (Loại khác) là 0%.",
+     "noi_dung": "Điều 2. Mức thuế suất thuế nhập khẩu ưu đãi của một số mặt hàng nguyên liệu sản xuất xăng, dầu Mức thuế suất thuế nhập khẩu ưu đãi của một số mặt hàng nguyên liệu sản xuất xăng, dầu thuộc mã hàng 2710.19.20 (Dầu thô đã tách phần nhẹ); 2710.19.89 (Dầu trung khác và các chế phẩm) và 2711.19.00 (Loại khác) là 0%.",
      "trang_pdf": 2,
      "sha256_pdf": "1d6f94f091f6f8bcbc56c5a256123101f5fb57dfc822bdb7557df2629524dbab"
     },
     {
      "dieu": 3,
-     "noi_dung": "Điều 3. Điều khoản thi hành: 1. Nghị quyết này có hiệu lực thi hành kể từ ngày 01 tháng 5 năm 2026 đến hết ngày 30 tháng 6 năm 2026. Từ ngày 01 tháng 7 năm 2026, mức thuế suất thuế nhập khẩu ưu đãi của các mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu quy định tại Điều 2 Nghị quyết này và Nghị định số 72/2026/NĐ-CP thực hiện theo quy định tại Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ. 2. Trong thời gian Nghị quyết này có hiệu lực thi hành, trường hợp có sự khác nhau giữa quy định tại Nghị quyết này với Nghị định số 26/2023/NĐ-CP và các Nghị định sửa đổi, bổ sung Nghị định số 26/2023/NĐ-CP (nếu có) về mức thuế suất thuế nhập khẩu ưu đãi của các mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu quy định tại Điều 2 Nghị quyết này và Nghị định số 72/2026/NĐ-CP thì thực hiện theo quy định tại Nghị quyết này.",
+     "noi_dung": "Điều 3. Điều khoản thi hành 1. Nghị quyết này có hiệu lực thi hành kể từ ngày 01 tháng 5 năm 2026 đến hết ngày 30 tháng 6 năm 2026.",
      "trang_pdf": 2,
      "sha256_pdf": "1d6f94f091f6f8bcbc56c5a256123101f5fb57dfc822bdb7557df2629524dbab"
     }
@@ -15176,6 +15275,69 @@
      "noi_dung": "Điều 31. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành kể từ ngày ký ban hành. 2. Quy định về Giấy chứng nhận đủ điều kiện hoạt động dịch vụ tồn trữ hóa chất tại Điều 19, Điều 20 Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026.",
      "trang_pdf": 42,
      "sha256_pdf": "e75a28f83e47aaf86858859afa42da0677deac34f82f926b996b095c0d7656d6"
+    }
+   ]
+  },
+  {
+   "so_hieu": "26/2026/TT-BCT",
+   "slug": "26-2026-tt-bct",
+   "ten": "Sửa đổi, bổ sung một số quy định về phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính trong các lĩnh vực thuộc phạm vi quản lý của Bộ Công Thương",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-05-29",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=218236",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Sửa déi, bố sung một số điều của | Thong tư số 23/2024/T T-BCT của Bộ trưởng Bộ Công Thương quy định về quản lý, sử dụng vật liệu nỗ công nghiệp, tiền chất thuốc nỗ thuộc thấm quyền quản lý của Bộ Công Thương 1. Sửa đổi, bô sung Điều 4 như sau:",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Bãi bỏ khoản 1, khoản 2 và khoản 3 Điều 1 Thông tư số 38/2025/TT-BCT của Bộ trưởng Bộ Công Thương sửa déi, bỗ sung một số quy định về phân cấp thực hiện thủ tục hành chính trong các lĩnh vực tthuộc phạm vi quản lý của Bộ Công Thương.",
+     "trang_pdf": 4
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Bãi bỏ khoản 1 Điều 1 Thông tư số 15/2026/TT-BCT của Bộ trưởng Bộ Công Thương sửa đổi, bỗ sung một số điều của Thông tư số 38/2025/TT-BCT của Bộ trưởng Bộ Công Thương sửa đổi, bố sung một số quy định về phân cấp thực hiện thủ tục hành chính trong các lĩnh vực thuộc phạm vi quản lý của Bộ Công Thương. #ˆ",
+     "trang_pdf": 4
+    },
+    {
+     "dieu": 7,
+     "noi_dung": "Điều 7. Sửa đổi, bổ sung, bãi bỏ một số điều khoản của Thông tư số 43/2023/TT-BCT của Bộ trưởng Bộ Công Thương sửa đổi, bố sung một số điều của Thông tư số 57/2018/TT-BCT ngày 26 tháng 12 năm 2018 của Bộ trưởng Bộ Công Thương quy định chỉ tiết một số điều của các Nghị định liên quan đến kinh doanh thuốc lá 1. Sửa đôi, bố sung Điều 3 như sau:",
+     "trang_pdf": 9
+    },
+    {
+     "dieu": 11,
+     "noi_dung": "Điều 11. Bãi bỏ khoản 2 Điều 2 Thông tư số 18/2025/TT-BCT của Bộ trưởng Bộ Công Thương sửa đối, bo sung, bãi bỏ một số quy định tại các Thông tư quy định về kinh doanh xăng dau.",
+     "trang_pdf": 11
+    },
+    {
+     "dieu": 14,
+     "noi_dung": "Điều 14. Sửa đối, bỗ sung một số điều của Thông tư số 11/2015/TT- BCT của Bộ trưởng Bộ Công Thương quy định về qua cảnh hàng hóa của nước Cộng hòa nhân dân Trung Hoa qua lãnh thé nước Cộng hòa xã hội chủ nghĩa Việt Nam 1. Sửa đối, bé sung khoản 2 Điều 3 như sau: “2, Đối với hàng hóa không thuộc trường hợp quy định tại Khoản | Điều này, việc quá cảnh lãnh thô \"Việt Nam chỉ được thực hiện sau khi có giấy phép của cơ quan có thầm quyên.”",
+     "trang_pdf": 12
+    },
+    {
+     "dieu": 18,
+     "noi_dung": "Điều 18. Sửa đổi, bổ sung, bãi bỏ một số quy định của Thông tư số 12/2018/TT-BCT của Bộ trưởng Bộ Công Thương quy định chỉ tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 69/2018/NĐ-CP 1. Bãi bỏ khoản 3 Điều 9. 2. Thay thế Phụ lục X, XI ban hành kèm theo Thông tư số 12/2018/TT- BCT tương ứng bằng các Mẫu số 15, 16 Phần II Phụ lục ban hành kèm theo Thông tư này.",
+     "trang_pdf": 16
+    },
+    {
+     "dieu": 21,
+     "noi_dung": "Điều 21. Bãi bỏ khoản 2, khoản 3, khoản 4, khoản 5 Điều 19, khoản 2 Điều 20, Điều 21, khoản 1, khoản 3, khoản 4 Điều 22 Thông tư số 38/2025/TT-BCT.",
+     "trang_pdf": 17
+    },
+    {
+     "dieu": 24,
+     "noi_dung": "Điều 24. Sửa đỗi, bé sung, bai bo mot số điều khoản của Thông tư số 01/2026/TT-BCT của Bộ trưởng Bộ Công Thương quy định chỉ tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số 26/2026/NĐ- CP của Chính phủ quy định chỉ tiết và hướng dẫn thi hành một số điều của Luật Hóa chat về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa 1. Sửa đổi, bố sung điểm a khoản 1 Điều | như sau:",
+     "trang_pdf": 18
+    },
+    {
+     "dieu": 28,
+     "noi_dung": "Điều 28. Điều khoản chuyền tiếp 1. Đối với hồ sơ đề nghị giải quyết thủ tục hành chính thuộc các lĩnh vực được quy định tại Thông tu này đã được cơ quan có thầm quyền tiếp nhận hoặc đã được đóng dấu bưu chính trước ngày Thông tư này có hiệu lực thì thực hiện theo quy định của pháp luật đang có hiệu lực điều chỉnh trong lĩnh vực đó tại thời điểm hồ sơ được tiếp nhận.",
+     "trang_pdf": 21
     }
    ]
   },
@@ -19423,6 +19585,16 @@
      "trang_pdf": 22
     },
     {
+     "dieu": 39,
+     "noi_dung": "Điều 39. Ngôn ngữ trình bày nhãn hàng hóa 1. Những nội dung bắt buộc thê hiện trên nhãn hàng hóa lưu thông tại thị trường Việt Nam phải ghi bằng tiếng Việt, trừ hàng hóa xuất khẩu không tiêu thụ trong nước và trừ trường hợp quy định tại khoản 4 Điều này. Tên riêng của tổ chức, cá nhân và địa danh ghi trên nhãn hàng hóa lưu thông tại thị trường Việt Nam không được viết tắt. Từ chỉ đơn vị hành chính có thể viết tắt. Tên nước hoặc vùng lãnh thé sản xuất ra hàng hóa hoặc nơi thực hiện công đoạn cuối cùng dé hoàn thiện hàng hóa ghi trên nhãn hàng hóa lưu thông tại thị trường Việt Nam không được viết tắt. 2. Hàng hóa được sản xuất và lưu thông trong nước, ngoài việc thực hiện quy định tại khoản 1 Điều này, nội dung thể hiện trên nhãn có thé được ghi thêm bằng ngôn ngữ khác, nội dung bằng ngôn ngữ khác không bắt buộc phải dịch toàn bộ tiếng Việt, không được mâu thuẫn hoặc làm sai lệch nội dung tiếng Việt, không được gây hiểu nhầm về bản chất, công dụng, xuất xứ hàng hóa; kích thước chữ của ngôn ngữ khác không được lớn hơn kích thước chữ tiếng Việt. 3. Hàng hóa nhập khẩu vào Việt Nam ma trên nhãn chưa thé hiện hoặc thé hiện chưa đủ những nội dung bắt buộc bằng tiếng Việt thì phải có nhãn phụ thê hiện những nội dung bắt buộc bằng tiếng Việt và giữ nguyên nhãn gốc của hàng hóa. Nội dung ghi bằng tiếng Việt phải tương ứng với nội dung ghi trên nhãn gốc.",
+     "trang_pdf": 33
+    },
+    {
+     "dieu": 40,
+     "noi_dung": "Điều 40. Ghi nhãn phụ 1. Nhãn phụ sử dụng đối với hàng hóa xuất khẩu quy định tại khoản 4 Điều 42 và hàng hóa nhập khẩu quy định tại khoản 2 Điều 42 của Nghị định này. 2. Nhãn phụ phải được gắn trên hàng hóa hoặc bao bì thương phẩm của hàng hóa và không được che khuất những nội dung bắt buộc của nhãn gốc theo quy định của pháp luật Việt Nam. Nhãn phụ có thể được thể hiện bằng nhãn điện tử theo quy định tại Chương IV Nghị định này, nhưng phải giữ nguyên nhãn gốc của hàng hóa và phải chỉ dẫn rõ để người tiêu dùng nhận biết. 3. Nội dung ghi trên nhãn phụ là nội dung dịch ra tiếng Việt từ các nội dung bắt buộc ghi trên nhãn gốc và bô sung các nội dung bắt buộc khác còn thiếu theo tính chất của hàng hóa theo quy định tại Nghị định này.",
+     "trang_pdf": 34
+    },
+    {
      "dieu": 45,
      "noi_dung": "Điều 45. Định lượng hàng hóa 1. Hàng hóa định lượng bằng đại lượng đo lường thì phải ghi định lượng theo quy định của pháp luật vê đo lường. 2. Hàng hóa định lượng bằng số đếm thì phải ghi định lượng theo số đếm tự nhiên. 3. Trường hợp trong một bao bì thương phẩm có nhiều đơn vị hàng hóa thì phải ghi định lượng của từng đơn vị hàng hóa và định lượng tông của các đơn vị hàng hóa.",
      "trang_pdf": 39
@@ -21614,26 +21786,50 @@
    "dieu_khoan": [
     {
      "dieu": 1,
-     "tieu_de": "Áp dụng thuế chống bán phá giá tạm thời đối với thép cán nóng từ Trung Quốc",
-     "noi_dung": "Điều 1. Áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm thép cán nóng có xuất xứ từ Cộng hòa nhân dân Trung Hoa được phân loại theo các mã HS 7208.25.00, 7208.26.00, 7208.27.19, 7208.27.99, 7208.36.00, 7208.37.00, 7208.38.00, 7208.39.20, 7208.39.40, 7208.39.90, 7208.51.00, 7208.52.00, 7208.53.00, 7208.54.90, 7208.90.90, 7211.14.15, 7211.14.16, 7211.14.19, 7211.19.13, 7211.19.19, 7211.90.12, 7211.90.19, 7225.30.90, 7225.40.90, 7225.99.90, 7226.91.10, 7226.91.90 (mã vụ việc: AD20) với nội dung chi tiết nêu tại Thông báo kèm theo Quyết định này.",
+     "noi_dung": "Điều 1. Áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm thép cán nóng có xuất xứ từ Cộng hòa nhân dân Trung Hoa được phân loại theo các mã HS 7208.25.00, 7208.26.00, 7208.27.19, 7208.27.99, 7208.36.00, 7208.37.00, 7208.38.00, 7208.39.20, 7208.39.40, 7208.39.90, 7208.51.00, 7208.52.00, 7208.53.00, 7208.54.90, 7208.90.90, 7211.14.15, 7211.14.16, 7211.14.19, 7211.19.13, 7211.19.19, 7211.90.12, 7211.90.19, 7225.30.90, 7225.40.90,",
      "trang_pdf": 2
     },
     {
      "dieu": 2,
-     "tieu_de": "Không áp dụng thuế chống bán phá giá tạm thời đối với thép cán nóng từ Ấn Độ",
-     "noi_dung": "Điều 2. Không áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm thép cán nóng có xuất xứ từ Cộng hòa Ấn Độ được phân loại theo các mã HS 7208.25.00, 7208.26.00, 7208.27.19, 7208.27.99, 7208.36.00, 7208.37.00, 7208.38.00, 7208.39.20, 7208.39.40, 7208.39.90, 7208.51.00, 7208.52.00, 7208.53.00, 7208.54.90, 7208.90.90, 7211.14.15, 7211.14.16, 7211.14.19, 7211.19.13, 7211.19.19, 7211.90.12, 7211.90.19, 7225.30.90, 7225.40.90, 7225.99.90, 7226.91.10, 7226.91.90 theo quy định tại khoản 3 Điều 78 Luật Quản lý ngoại thương số 05/2017/QH14.",
+     "noi_dung": "Điều 2. Không áp dụng thuế chống ban phá giá tạm thời đối với một số sản phẩm thép cán nóng có xuất xứ từ Cộng hòa Án Độ được phân loại theo các mã HS 7208.25.00, 7208.26.00, 7208.27.19, 7208.27.99, 7208.36.00, 7208.37.00, 7208.38.00, 7208.39.20, 7208.39.40, 7208.39.90, 7208.51.00, 7208.52.00, 7208.53.00, 7208.54.90, 7208.90.90, 7211.14.15, 7211.14.16, 7211.14.19, 7211.19.13, 7211.19.19, 7211.90.12, 7211.90.19, 7225.30.90, 7225.40.90,",
      "trang_pdf": 2
     },
     {
      "dieu": 3,
-     "tieu_de": "Hiệu lực thi hành",
      "noi_dung": "Điều 3. Quyết định này có hiệu lực sau 15 ngày kể từ ngày ban hành.",
      "trang_pdf": 2
     },
     {
      "dieu": 4,
-     "tieu_de": "Trách nhiệm thi hành",
-     "noi_dung": "Điều 4. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và Thủ trưởng các đơn vị, các bên liên quan chịu trách nhiệm thi hành Quyết định này.",
+     "noi_dung": "Điều 4. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và Thủ trưởng các đơn vị, các bên liên quan chịu trách nhiệm thi hành Quyết định này. Vấn . BỘ TRƯỞNG",
+     "trang_pdf": 2
+    }
+   ]
+  },
+  {
+   "so_hieu": "467/QĐ-CHQ",
+   "slug": "467-qd-chq-2025",
+   "ten": "Về việc ban hành Quy trình kiểm tra, xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2025-04-29",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=99988&cid=1294",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Ban hành kèm theo Quyết định này: 1. Quy trình kiểm tra, xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu; 2. Các Phụ lục kèm Quy trình: a) Phụ lục I. Trang thông tin điện tử của co quan có thâm quyền của nước xuất khẩu/Tra cứu mã nhà xuất khẩu đủ điều kiện cấp chứng từ tự chứng nhận xuât xứ. b) Phụ lục II. Các biéu mẫu Thông báo của Cục trưởng Cục Hải quan.",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Quyết định này có hiệu lực thi hành ké từ ngày ký và thay thế Quyết định số 4286/QD-TCHQ ngày 31/12/2015 của Tông cục trưởng Tổng cục Hải quan về việc ban hành Quy trình kiểm tra, xác định xuất xứ hàng hóa xuất khâu, nhập khẩu; Quyết định số 136/QD-TCHQ ngày 25/01/2016 bổ sung Quyết định sô 4286/QD-TCHQ ngày 31/12/2015 của Tổng cục trưởng Cục Hải quan về việc ban hành Quy trình kiếm tra, xác định xuất xứ hàng hóa xuất khâu, nhập khẩu.",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Thủ trưởng các đơn vị thuộc và trực thuộc Cục Hải quan chịu trách nhiệm tô chức thi hành Quyết định này. Trong quá trình thực hiện, nêu phát sinh vướng mắc, các đơn vị báo cáo, đề xuất dé Cục Hải quan xem xét, điều chỉnh cho phù hợp..ƒ|z",
      "trang_pdf": 2
     }
    ]
@@ -21786,15 +21982,13 @@
    "dieu_khoan": [
     {
      "dieu": 1,
-     "noi_dung": "Điều 1. Mức thuế bảo vệ môi trường, thuế giá trị gia tăng, thuế tiêu thụ đặc biệt đối với xăng, dầu và nhiên liệu bay: 1. Mức thuế bảo vệ môi trường đối với xăng (trừ etanol), dầu diezel và nhiên liệu bay là 0 đồng/lít. 2. Xăng, dầu diezel và nhiên liệu bay thuộc đối tượng không phải kê khai, tính nộp thuế giá trị gia tăng nhưng được khấu trừ thuế giá trị gia tăng đầu vào. 3. Mức thuế suất thuế tiêu thụ đặc biệt đối với xăng các loại là 0%.",
-     "trang_pdf": 1,
-     "sha256_pdf": "7774d7b8c4cb61061b6857a4af63dae440af255aacc84baa01085ea4e81a646f"
+     "noi_dung": "Điều 1. Mức thuế bảo vệ môi trường, thuế giá trị gia tăng, thuế tiêu thụ đặc biệt đối với xăng, dầu và nhiên liệu bay 1. Mức thuế bảo vệ môi trường đối với xăng (trừ etanol), dầu diezel và nhiên liệu bay là 0 đồng/lít. 2. Xăng, dầu diezel và nhiên liệu bay thuộc đối tượng không phải kê khai, tính nộp thuế giá trị gia tăng nhưng được khấu trừ thuế gia tri gia tang dau vao. 3. Mức thuế suất thuế tiêu thụ đặc biệt đối với xăng các loại là 0%.",
+     "trang_pdf": 1
     },
     {
      "dieu": 2,
-     "noi_dung": "Điều 2. Điều khoản thi hành: 1. Quyết định này có hiệu lực thi hành kể từ 24 giờ 00 phút ngày 26 tháng 3 năm 2026 đến hết ngày 15 tháng 4 năm 2026. 2. Trong thời gian Quyết định này có hiệu lực thi hành: a) Các văn bản quy phạm pháp luật có quy định mức thuế bảo vệ môi trường, thuế giá trị gia tăng, thuế tiêu thụ đặc biệt đối với xăng, dầu và nhiên liệu bay khác quy định tại Quyết định này thì thực hiện theo quy định của Quyết định này. b) Cơ sở kinh doanh, người nhập khẩu xăng, dầu diezel và nhiên liệu bay không phải kê khai, tính nộp thuế giá trị gia tăng khi bán ra và ở khâu nhập khẩu.",
-     "trang_pdf": 1,
-     "sha256_pdf": "7774d7b8c4cb61061b6857a4af63dae440af255aacc84baa01085ea4e81a646f"
+     "noi_dung": "Điều 2. Điều khoản thi hành 1. Quyết định này có hiệu lực thi hành kể từ 24 giờ 00 phút ngày 26 tháng 3 năm 2026 đến hết ngày 15 tháng 4 năm 2026. 2. Trong thời gian Quyết định này có hiệu lực thi hành:",
+     "trang_pdf": 1
     }
    ]
   },
@@ -23681,26 +23875,22 @@
    "dieu_khoan": [
     {
      "dieu": 1,
-     "tieu_de": "Áp dụng biện pháp chống lẩn tránh biện pháp phòng vệ thương mại đối với sản phẩm đường mía",
-     "noi_dung": "Điều 1. Áp dụng biện pháp chống lẩn tránh biện pháp phòng vệ thương mại đối với một số sản phẩm đường mía, thuộc các mã HS 1701.13.00; 1701.14.00; 1701.91.00; 1701.99.10; 1701.99.90; và 1702.90.91 được nhập khẩu vào Việt Nam do công ty PT. Kebun Tebu Mas (Cộng hòa In-đô-nê-xi-a) sản xuất với nội dung chi tiết nêu trong Thông báo ban hành kèm theo Quyết định này.",
+     "noi_dung": "Điều 1. Áp dụng biện pháp chống lần tránh biện pháp phòng vệ thương mại đối với một số sản phẩm đường mía, thuộc các mã HS 1701.13.00; 1701.14.00; 1701.91.00; 1701.99.10; 1701.99.90; và 1702.90.91 được nhập khẩu vào Việt Nam do công ty PT. Kebun Tebu Mas (Cộng hòa In-đô-nê-xi-a) sản xuất với nội dung chỉ tiết nêu trong Thông báo ban hành kèm theo Quyết định này.",
      "trang_pdf": 2
     },
     {
      "dieu": 2,
-     "tieu_de": "Thực hiện các nội dung khác theo Quyết định số 1514/QĐ-BCT và Quyết định số 2960/QĐ-BCT",
-     "noi_dung": "Điều 2. Các nội dung khác thực hiện theo Quyết định số 1514/QĐ-BCT ngày 01 tháng 8 năm 2022 về việc áp dụng biện pháp chống lẩn tránh biện pháp phòng vệ thương mại đối với một số sản phẩm đường mía và Quyết định số 2960/QĐ-BCT ngày 30 tháng 12 năm 2022 của Bộ trưởng Bộ Công Thương về việc sửa đổi, bổ sung Quyết định số 1514/QĐ-BCT ngày 01 tháng 8 năm 2022 của Bộ trưởng Bộ Công Thương về việc áp dụng biện pháp chống lẩn tránh biện pháp phòng vệ thương mại đối với một số sản phẩm đường mía.",
+     "noi_dung": "Điều 2. Các nội dung khác thực hiện theo Quyết định số 1514/QĐ-BCT ngày 01 tháng 8 năm 2022 về việc áp dụng biện pháp chống lần tránh biện pháp phòng vệ thương mại đối với một số sản phẩm đường mía và Quyết định số 2960/QĐ-BCT ngày 30 tháng 12 năm 2022 của Bộ trưởng Bộ Công Thương về",
      "trang_pdf": 2
     },
     {
      "dieu": 3,
-     "tieu_de": "Hiệu lực thi hành",
-     "noi_dung": "Điều 3. Quyết định này có hiệu lực thi hành sau 15 ngày kể từ ngày ban hành.",
+     "noi_dung": "Điều 3. Quyết định này có hiệu lực thi hành sau 15 ngày ké từ ngày ban hành.",
      "trang_pdf": 3
     },
     {
      "dieu": 4,
-     "tieu_de": "Trách nhiệm thi hành",
-     "noi_dung": "Điều 4. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và Thủ trưởng các đơn vị, các bên liên quan chịu trách nhiệm thi hành Quyết định này.",
+     "noi_dung": "Điều 4. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và Thủ trưởng các đơn vi, các bên liên quan chịu trách nhiệm thi hành Quyết định này Ý „",
      "trang_pdf": 3
     }
    ]
@@ -26009,20 +26199,17 @@
    "dieu_khoan": [
     {
      "dieu": 1,
-     "tieu_de": "Áp dụng thuế chống bán phá giá tạm thời đối với sản phẩm thép mạ từ Trung Quốc và Hàn Quốc",
-     "noi_dung": "Điều 1. Áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm thép mạ có xuất xứ từ Cộng hòa nhân dân Trung Hoa và Đại Hàn Dân Quốc được phân loại theo các mã HS 7210.41.11, 7210.41.12, 7210.41.19, 7210.49.11, 7210.49.14, 7210.49.15, 7210.49.16, 7210.49.17, 7210.49.18, 7210.49.19, 7210.50.00, 7210.61.11, 7210.61.12, 7210.61.19, 7210.69.11, 7210.69.19, 7210.90.10, 7210.90.90, 7212.30.11, 7212.30.12, 7212.30.13, 7212.30.14, 7212.30.19, 7212.50.14, 7212.50.19, 7212.50.23, 7212.50.24, 7212.50.29, 7212.50.93, 7212.50.94, 7212.50.99, 7212.60.11, 7212.60.12, 7212.60.19, 7225.92.20, 7225.92.90, 7226.99.11, 7226.99.91 (mã vụ việc: AD19) với nội dung chi tiết nêu tại Thông báo kèm theo Quyết định này.",
+     "noi_dung": "Điều 1. Áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm thép mạ có xuất xứ từ Cộng hòa nhân dân Trung Hoa và Đại Hàn Dân Quốc được phân loại theo các mã HS 7210.41.11, 7210.41.12, 7210.41.19, 7210.49.11, 7210.49.14, 7210.49.15, 7210.49.16, 7210.49.17, 7210.49.18, 7210.49.19, 7210.50.00, 7210.61.11, 7210.61.12, 7210.61.19, 7210.69.11, 7210.69.19, 7210.90.10, 7210.90.90, 7212.30.11, 7212.30.12, 7212.30.13, 7212.30.14, 7212.30.19,",
      "trang_pdf": 2
     },
     {
      "dieu": 2,
-     "tieu_de": "Hiệu lực thi hành",
-     "noi_dung": "Điều 2. Quyết định này có hiệu lực sau 15 ngày kể từ ngày ban hành.",
+     "noi_dung": "Điều 2. Quyết định này có hiệu lực sau 15 ngày ké từ ngày ban hành.",
      "trang_pdf": 2
     },
     {
      "dieu": 3,
-     "tieu_de": "Trách nhiệm thi hành",
-     "noi_dung": "Điều 3. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và Thủ trưởng các đơn vị, các bên liên quan chịu trách nhiệm thi hành Quyết định này.",
+     "noi_dung": "Điều 3. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và Thủ trưởng các đơn vị, các bên liên quan chịu trách nhiệm thi hành Quyết định này./ AZ",
      "trang_pdf": 2
     }
    ]

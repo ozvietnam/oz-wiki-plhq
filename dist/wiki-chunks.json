@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-25).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 5462,
+ "tong": 5556,
  "chunks": [
   {
    "chunk_id": "dong-bo-quan-diem-phan-loai#1",
@@ -13327,40 +13327,16 @@
    "slug": "nhan-hang-hoa-nhap-khau",
    "duong_dan": "wiki/concepts/nhan-hang-hoa-nhap-khau.md",
    "loai_trang": "concepts",
-   "tieu_de": "Nhãn hàng hoá nhập khẩu (điểm mù sau 23/01/2026)",
+   "tieu_de": "Nhãn hàng hóa nhập khẩu và nhãn phụ tiếng Việt",
    "muc": "Definition",
-   "noi_dung": "Nhãn hàng hoá (kể cả nhãn phụ tiếng Việt cho hàng nhập khẩu) từng được điều chỉnh chủ yếu bởi `43/2017/NĐ-CP` và văn bản sửa `111/2021/NĐ-CP`. Theo sổ đăng ký, cả hai đã `HET_HIEU_LUC` từ `2026-01-23`. Quan hệ bãi bỏ được ghi trên `37/2026/NĐ-CP` (`quan_he.bai_bo`, căn cứ Điều 97 khoản 4 điểm b/c). **Văn bản nào đang điều chỉnh nhãn hàng hoá sau mốc đó: sổ ghi CHƯA XÁC MINH** — đây là điểm mù có chủ đích, không được suy diễn.",
+   "noi_dung": "Từ ngày **23/01/2026**, quy định về **ghi nhãn hàng hóa và nhãn phụ tiếng Việt đối với hàng hóa nhập khẩu** được điều chỉnh thống nhất bởi **[[sources/37-2026-nd-cp|Nghị định 37/2026/NĐ-CP]]** (Chương III và Chương IV, trọng tâm Điều 35–42). Văn bản này đồng thời **bãi bỏ hoàn toàn** khung nhãn hàng hóa cũ là [[sources/43-2017-nd-cp]] (`43/2017/NĐ-CP`) và [[sources/111-2021-nd-cp]] (`111/2021/NĐ-CP`) theo điểm b, c khoản 4 Điều 97.",
    "tags": [
     "nhan-hang-hoa",
-    "diem-mu",
+    "nhan-phu",
     "2026"
    ],
-   "confidence": "low",
+   "confidence": "high",
    "van_ban_lien_quan": [
-    {
-     "so_hieu": "43/2017/NĐ-CP",
-     "tinh_trang": "HET_HIEU_LUC",
-     "hieu_luc_tu": "2017-06-01",
-     "het_hieu_luc_tu": "2026-01-23",
-     "hieu_luc_da_doi_chieu": true,
-     "bi_thay_the_boi": [],
-     "bi_bai_bo_boi": [
-      "37/2026/NĐ-CP"
-     ],
-     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=189385"
-    },
-    {
-     "so_hieu": "111/2021/NĐ-CP",
-     "tinh_trang": "HET_HIEU_LUC",
-     "hieu_luc_tu": null,
-     "het_hieu_luc_tu": "2026-01-23",
-     "hieu_luc_da_doi_chieu": true,
-     "bi_thay_the_boi": [],
-     "bi_bai_bo_boi": [
-      "37/2026/NĐ-CP"
-     ],
-     "nguon_a": "https://vanban.chinhphu.vn/?docid=204681&pageid=27160"
-    },
     {
      "so_hieu": "37/2026/NĐ-CP",
      "tinh_trang": "CON_HIEU_LUC",
@@ -13370,25 +13346,7 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?docid=216764&pageid=27160"
-    }
-   ],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "nhan-hang-hoa-nhap-khau#2",
-   "slug": "nhan-hang-hoa-nhap-khau",
-   "duong_dan": "wiki/concepts/nhan-hang-hoa-nhap-khau.md",
-   "loai_trang": "concepts",
-   "tieu_de": "Nhãn hàng hoá nhập khẩu (điểm mù sau 23/01/2026)",
-   "muc": "Variants",
-   "noi_dung": "| Văn bản | Tình trạng sổ | Ngày hết (sổ) | Ghi chú |\n|---|---|---|---|\n| `43/2017/NĐ-CP` | `HET_HIEU_LUC` | `2026-01-23` | Nhánh `kiem-tra-chuyen-nganh/nhan-hang-hoa`; ghi chú: hết hiệu lực 23/01/2026 (không phải 01/7/2026) |\n| `111/2021/NĐ-CP` | `HET_HIEU_LUC` | `2026-01-23` | `quan_he.sua_doi` → `43/2017/NĐ-CP` |\n| `37/2026/NĐ-CP` | `CON_HIEU_LUC` | — | Bãi bỏ hai nghị định trên; đồng thời là khung rủi ro chất lượng — xem [[concepts/muc-do-rui-ro-hang-hoa]] |\n\n**Cách đọc an toàn:** (1) không dẫn `43/2017/NĐ-CP` / `111/2021/NĐ-CP` như còn hiệu lực sau `2026-01-23`; (2) không khẳng định `37/2026/NĐ-CP` đã thay toàn bộ chế độ nhãn phụ nếu chưa mở nguồn A và trích điều; (3) mở issue điểm mù / luồng hiệu lực + truy vết nguồn khi có ứng viên văn bản mới.",
-   "tags": [
-    "nhan-hang-hoa",
-    "diem-mu",
-    "2026"
-   ],
-   "confidence": "low",
-   "van_ban_lien_quan": [
+    },
     {
      "so_hieu": "43/2017/NĐ-CP",
      "tinh_trang": "HET_HIEU_LUC",
@@ -13412,7 +13370,25 @@
       "37/2026/NĐ-CP"
      ],
      "nguon_a": "https://vanban.chinhphu.vn/?docid=204681&pageid=27160"
-    },
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "nhan-hang-hoa-nhap-khau#2",
+   "slug": "nhan-hang-hoa-nhap-khau",
+   "duong_dan": "wiki/concepts/nhan-hang-hoa-nhap-khau.md",
+   "loai_trang": "concepts",
+   "tieu_de": "Nhãn hàng hóa nhập khẩu và nhãn phụ tiếng Việt",
+   "muc": "Quy định hiện hành về nhãn phụ tiếng Việt (37/2026/NĐ-CP)",
+   "noi_dung": "- **Nguyên tắc ngôn ngữ và bắt buộc nhãn phụ (khoản 3 Điều 39):** Hàng hóa nhập khẩu vào Việt Nam mà trên nhãn gốc chưa thể hiện hoặc thể hiện chưa đủ nội dung bắt buộc bằng tiếng Việt thì **phải có nhãn phụ** thể hiện đủ nội dung bắt buộc bằng tiếng Việt và **giữ nguyên nhãn gốc**; nội dung tiếng Việt phải tương ứng với nhãn gốc.\n- **Cách gắn và hình thức nhãn phụ (Điều 40):**\n  - Nhãn phụ áp dụng cho hàng hóa nhập khẩu quy định tại khoản 2 Điều 42 (khoản 1 Điều 40).\n  - Phải gắn trên hàng hóa hoặc bao bì thương phẩm, **không che khuất** nội dung bắt buộc của nhãn gốc; được phép thể hiện bằng **nhãn điện tử** theo Chương IV nếu giữ nguyên nhãn gốc và chỉ dẫn rõ để người tiêu dùng nhận biết (khoản 2 Điều 40).\n  - Nội dung nhãn phụ dịch ra tiếng Việt từ nhãn gốc và bổ sung nội dung bắt buộc còn thiếu theo tính chất hàng hóa; không được làm hiểu sai bản chất, nguồn gốc hàng hóa (khoản 3 Điều 40).\n  - Các trường hợp **miễn ghi nhãn phụ** (khoản 4 Điều 40): linh kiện thay thế bảo hành không bán ra thị trường; nguyên liệu, phụ gia thực phẩm, chất hỗ trợ chế biến, linh kiện nhập khẩu để sản xuất không bán ra thị trường; hàng mẫu thử nghiệm/nghiên cứu/triển lãm không tiêu thụ; thiết bị hỗ trợ máy móc sản xuất không bán ra thị trường.",
+   "tags": [
+    "nhan-hang-hoa",
+    "nhan-phu",
+    "2026"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
     {
      "so_hieu": "37/2026/NĐ-CP",
      "tinh_trang": "CON_HIEU_LUC",
@@ -13431,16 +13407,51 @@
    "slug": "nhan-hang-hoa-nhap-khau",
    "duong_dan": "wiki/concepts/nhan-hang-hoa-nhap-khau.md",
    "loai_trang": "concepts",
-   "tieu_de": "Nhãn hàng hoá nhập khẩu (điểm mù sau 23/01/2026)",
-   "muc": "Key sources",
-   "noi_dung": "- [[sources/755-tchq-gsql-2020]] — CV 755/TCHQ-GSQL (2020) nêu các vụ ghi nhãn sai, giả \"Made in Vietnam\" (mục 3, theo bản dịch bậc C); không phải văn bản quy định nhãn.\n\nChưa có trang nguồn. Căn cứ quan hệ/hiệu lực: `registry/van-ban/43-2017-nd-cp.yaml`, `111-2021-nd-cp.yaml`, `37-2026-nd-cp.yaml` (mức `NGUON_THU_CAP`).",
+   "tieu_de": "Nhãn hàng hóa nhập khẩu và nhãn phụ tiếng Việt",
+   "muc": "Bảng đối chiếu văn bản cũ – mới & chuyển tiếp",
+   "noi_dung": "| Văn bản | Tình trạng sổ | Mốc hiệu lực | Nội dung chính |\n|---|---|---|---|\n| [[sources/37-2026-nd-cp]] | `CON_HIEU_LUC` | `2026-01-23` | Quy định hiện hành về ghi nhãn hàng hóa, nhãn phụ tiếng Việt (Điều 35–42), nhãn điện tử và phân loại rủi ro KTCN |\n| [[sources/43-2017-nd-cp]] | `HET_HIEU_LUC` | Hết `2026-01-23` | Nghị định cũ về nhãn hàng hóa, bị bãi bỏ theo Điều 97 khoản 4 điểm b NĐ 37/2026/NĐ-CP |\n| [[sources/111-2021-nd-cp]] | `HET_HIEU_LUC` | Hết `2026-01-23` | Sửa đổi NĐ 43/2017/NĐ-CP, bị bãi bỏ theo Điều 97 khoản 4 điểm c NĐ 37/2026/NĐ-CP |\n\n**Điều khoản chuyển tiếp (khoản 3–4 Điều 98 NĐ 37/2026/NĐ-CP):** Hàng hóa có nhãn đúng quy định NĐ 43/2017/NĐ-CP và NĐ 111/2021/NĐ-CP đã sản xuất, nhập khẩu, lưu thông trước `23/01/2026` được tiếp tục lưu thông đến hết hạn sử dụng; nhãn và bao bì thương phẩm đã sản xuất, in ấn trước `23/01/2026` được tiếp tục sử dụng không quá **02 năm** kể từ `23/01/2026`.",
    "tags": [
     "nhan-hang-hoa",
-    "diem-mu",
+    "nhan-phu",
     "2026"
    ],
-   "confidence": "low",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "37/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-23",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=216764&pageid=27160"
+    },
+    {
+     "so_hieu": "43/2017/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2017-06-01",
+     "het_hieu_luc_tu": "2026-01-23",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "37/2026/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=189385"
+    },
+    {
+     "so_hieu": "111/2021/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": "2026-01-23",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "37/2026/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=204681&pageid=27160"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -13448,15 +13459,15 @@
    "slug": "nhan-hang-hoa-nhap-khau",
    "duong_dan": "wiki/concepts/nhan-hang-hoa-nhap-khau.md",
    "loai_trang": "concepts",
-   "tieu_de": "Nhãn hàng hoá nhập khẩu (điểm mù sau 23/01/2026)",
-   "muc": "Related concepts",
-   "noi_dung": "- [[concepts/muc-do-rui-ro-hang-hoa]] — `37/2026/NĐ-CP` vừa bãi nhãn cũ vừa đặt khung rủi ro.\n- [[concepts/doc-tinh-trang-hieu-luc]] — phân biệt bãi bỏ và thay thế.\n- [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]] — nhãn/thông tin thực phẩm có thể giao với ATTP; không gộp hai khung.",
+   "tieu_de": "Nhãn hàng hóa nhập khẩu và nhãn phụ tiếng Việt",
+   "muc": "Key sources",
+   "noi_dung": "- `37/2026/NĐ-CP` ([[sources/37-2026-nd-cp]]) — Chương III (Điều 35–52, trọng tâm Điều 39–42 về ngôn ngữ và nhãn phụ), Chương IV (nhãn điện tử) và Điều 97–98 (hiệu lực & chuyển tiếp).\n- [[sources/755-tchq-gsql-2020]] — Công văn hướng dẫn xử lý vi phạm ghi nhãn, giả xuất xứ Việt Nam trong kiểm tra hải quan.",
    "tags": [
     "nhan-hang-hoa",
-    "diem-mu",
+    "nhan-phu",
     "2026"
    ],
-   "confidence": "low",
+   "confidence": "high",
    "van_ban_lien_quan": [
     {
      "so_hieu": "37/2026/NĐ-CP",
@@ -13476,16 +13487,27 @@
    "slug": "nhan-hang-hoa-nhap-khau",
    "duong_dan": "wiki/concepts/nhan-hang-hoa-nhap-khau.md",
    "loai_trang": "concepts",
-   "tieu_de": "Nhãn hàng hoá nhập khẩu (điểm mù sau 23/01/2026)",
-   "muc": "Mentioned in",
-   "noi_dung": "- [[summary/khung-thu-tuc-hai-quan]]\n- [[summary/khung-kiem-tra-chuyen-nganh-2026]]",
+   "tieu_de": "Nhãn hàng hóa nhập khẩu và nhãn phụ tiếng Việt",
+   "muc": "Related concepts",
+   "noi_dung": "- [[concepts/muc-do-rui-ro-hang-hoa]] — Khung rủi ro chất lượng theo NĐ 37/2026/NĐ-CP.\n- [[concepts/doc-tinh-trang-hieu-luc]] — Cách tra cứu hiệu lực và điều khoản chuyển tiếp.\n- [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]] — Phối hợp kiểm tra nhãn thực phẩm nhập khẩu.",
    "tags": [
     "nhan-hang-hoa",
-    "diem-mu",
+    "nhan-phu",
     "2026"
    ],
-   "confidence": "low",
-   "van_ban_lien_quan": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "37/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-23",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=216764&pageid=27160"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -13493,15 +13515,15 @@
    "slug": "nhan-hang-hoa-nhap-khau",
    "duong_dan": "wiki/concepts/nhan-hang-hoa-nhap-khau.md",
    "loai_trang": "concepts",
-   "tieu_de": "Nhãn hàng hoá nhập khẩu (điểm mù sau 23/01/2026)",
-   "muc": "Notes",
-   "noi_dung": "Câu hỏi mẫu #15 đánh dấu **chưa — điểm mù**. Độ tin cậy trang này: **thấp** về «luật nhãn hiện hành», **trung bình** về việc hai nghị định cũ đã hết theo sổ.",
+   "tieu_de": "Nhãn hàng hóa nhập khẩu và nhãn phụ tiếng Việt",
+   "muc": "Mentioned in",
+   "noi_dung": "- [[summary/khung-thu-tuc-hai-quan]]\n- [[summary/khung-kiem-tra-chuyen-nganh-2026]]",
    "tags": [
     "nhan-hang-hoa",
-    "diem-mu",
+    "nhan-phu",
     "2026"
    ],
-   "confidence": "low",
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -52768,6 +52790,45 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "114-2026-vbhn-tt-bnnmt#1",
+   "slug": "114-2026-vbhn-tt-bnnmt",
+   "duong_dan": "wiki/sources/114-2026-vbhn-tt-bnnmt.md",
+   "loai_trang": "sources",
+   "tieu_de": "114/2026/VBHN-TT-BNNMT — Văn bản hợp nhất Quy chuẩn kỹ thuật quốc gia về Kiểm dịch và Bảo vệ thực vật",
+   "muc": "Tóm tắt",
+   "noi_dung": "**Văn bản hợp nhất 114/2026/VBHN-TT-BNNMT** (ký xác thực ngày **17/11/2026**, Bộ Nông nghiệp và Môi trường) hợp nhất Thông tư **71/2010/TT-BNNPTNT** ban hành Quy chuẩn kỹ thuật quốc gia về Kiểm dịch và Bảo vệ thực vật, đã được sửa đổi, bổ sung bởi **15/2023/TT-BNNPTNT** (hiệu lực 05/02/2024) và **12/2025/TT-BNNMT** (hiệu lực 01/07/2025).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "114-2026-vbhn-tt-bnnmt#2",
+   "slug": "114-2026-vbhn-tt-bnnmt",
+   "duong_dan": "wiki/sources/114-2026-vbhn-tt-bnnmt.md",
+   "loai_trang": "sources",
+   "tieu_de": "114/2026/VBHN-TT-BNNMT — Văn bản hợp nhất Quy chuẩn kỹ thuật quốc gia về Kiểm dịch và Bảo vệ thực vật",
+   "muc": "Nội dung chính",
+   "noi_dung": "1. **QCVN hiện còn hiệu lực trong VBHN:** Điều 1 hiện chỉ còn giữ **QCVN 01-32:2010/BNNPTNT** — Quy chuẩn kỹ thuật quốc gia về **quy trình kiểm dịch nấm có ích nhập khẩu trong khu cách ly kiểm dịch thực vật** (khoản 4 Điều 1).\n2. **Các QCVN đã được bãi bỏ bởi TT 15/2023/TT-BNNPTNT:** Các QCVN 01-29, 01-30, 01-31, 01-33, 01-34, 01-35, 01-36, 01-37, 01-38:2010/BNNPTNT trong văn bản gốc đã được bãi bỏ từ 05/02/2024.\n3. **Cập nhật thẩm quyền sau sáp nhập:** Thông tư 12/2025/TT-BNNMT (từ 01/07/2025) cập nhật tên cơ quan đầu mối thành Bộ Nông nghiệp và Môi trường / Cục Trồng trọt và Bảo vệ thực vật.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "114-2026-vbhn-tt-bnnmt#3",
+   "slug": "114-2026-vbhn-tt-bnnmt",
+   "duong_dan": "wiki/sources/114-2026-vbhn-tt-bnnmt.md",
+   "loai_trang": "sources",
+   "tieu_de": "114/2026/VBHN-TT-BNNMT — Văn bản hợp nhất Quy chuẩn kỹ thuật quốc gia về Kiểm dịch và Bảo vệ thực vật",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã đối chiếu toàn văn PDF ký số xác thực trên Cổng TTĐT Chính phủ (`datafiles.chinhphu.vn`, 22 trang, SHA-256 `fcd4720357...`), tình trạng `CON_HIEU_LUC`.\n- Tham chiếu liên quan: [[concepts/kiem-dich-dong-thuc-vat]], [[concepts/thu-tuc-hai-quan-xnk]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "115-2022-nd-cp#1",
    "slug": "115-2022-nd-cp",
    "duong_dan": "wiki/sources/115-2022-nd-cp.md",
@@ -53390,6 +53451,56 @@
    "tieu_de": "115/2026/VBHN-TT-BNNMT — Hệ thống 06 Quy chuẩn kỹ thuật quốc gia về quy trình xử lý và kiểm dịch thực vật nhập khẩu",
    "muc": "Notes",
    "noi_dung": "- Toàn văn tham chiếu: `raw/download/datafiles.chinhphu.vn/115-2026-vbhn-tt-bnnmt.pdf` (xác thực `17/11/2026`).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "1153-chq-nvthq-2025#1",
+   "slug": "1153-chq-nvthq-2025",
+   "duong_dan": "wiki/sources/1153-chq-nvthq-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "1153/CHQ-NVTHQ — Về việc nguyên tắc phân loại hàng hóa đối với mặt hàng Bộ cửa nhôm nhập khẩu theo khoản 1 Điều 26 Luật Hải quan",
+   "muc": "Tóm tắt",
+   "noi_dung": "**1153/CHQ-NVTHQ** (ban hành **2025-04-04**, hiệu lực từ **2025-04-04**, cơ quan: **Cục Hải quan**): Về việc nguyên tắc phân loại hàng hóa đối với mặt hàng Bộ cửa nhôm nhập khẩu theo khoản 1 Điều 26 Luật Hải quan.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "1153-chq-nvthq-2025#2",
+   "slug": "1153-chq-nvthq-2025",
+   "duong_dan": "wiki/sources/1153-chq-nvthq-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "1153/CHQ-NVTHQ — Về việc nguyên tắc phân loại hàng hóa đối với mặt hàng Bộ cửa nhôm nhập khẩu theo khoản 1 Điều 26 Luật Hải quan",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Nguyên tắc phân loại mặt hàng Bộ cửa nhôm theo khoản 1 Điều 26 Luật Hải quan 54/2014/QH13: cần có chứng thư giám định thành phần hàm lượng và tài liệu kỹ thuật chi tiết về cấu tạo, cách thức sử dụng đối chiếu với thực tế hàng hóa nhập khẩu; không đủ cơ sở xác định mã số nếu chỉ có tên hàng, hình ảnh và mô tả khái quát.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/DONG_NAI/2025/4/4/1153_CHQ_NVTHQ_04_04_2025.pdf, id=99764, SHA-256 bcfb7767210cfe7c79eaeb969dab5a8ed8d83e59528a3ba2040be40b6ce5d761): Công văn số 1153/CHQ-NVTHQ ngày 04-04-2025 của Cục Hải quan hướng dẫn nguyên tắc phân loại mặt hàng Bộ cửa nhôm: căn cứ khoản 1 Điều 26 Luật Hải quan số 54/2014/QH13 (\"Khi phân loại hàng hóa phải căn cứ hồ sơ hải quan, tài liệu kỹ thuật và các thông tin khác có liên quan đến hàng hóa xuất khẩu, nhập khẩu để xác định tên gọi, mã số của hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam\"), trường hợp chỉ cung cấp tên hàng, một số hình ảnh, thông tin khái quát về mục đích sử dụng, cấu tạo, nguyên lý vận hành và các bước gia công lắp đặt nhưng không có chứng thư giám định về thành phần hàm lượng mặt hàng và không có tài liệu kỹ thuật chi tiết về cấu tạo, cách thức sử dụng để đối chiếu thì chưa đủ cơ sở hướng dẫn áp mã số cụ thể; việc khai báo mã số phải căn cứ thực tế hàng hóa nhập khẩu và tài liệu kỹ thuật liên quan; đang còn hiệu lực\n- **Văn bản dẫn chiếu liên quan:** `54/2014/QH13`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "54/2014/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=175358&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "1153-chq-nvthq-2025#3",
+   "slug": "1153-chq-nvthq-2025",
+   "duong_dan": "wiki/sources/1153-chq-nvthq-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "1153/CHQ-NVTHQ — Về việc nguyên tắc phân loại hàng hóa đối với mặt hàng Bộ cửa nhôm nhập khẩu theo khoản 1 Điều 26 Luật Hải quan",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/phan-loai-ma-hs]].",
    "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
@@ -61440,6 +61551,67 @@
     "sua-doi",
     "con-hieu-luc"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "12232-chq-nvthq-2026#1",
+   "slug": "12232-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/12232-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "12232/CHQ-NVTHQ — Về việc thực hiện Nghị định số 56/2026/NĐ-CP ngày 12/02/2026 (Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam thực hiện Bản Thỏa thuận thúc đẩy thương mại song phương Việt Nam - Campuchia giai đoạn 2025-2026)",
+   "muc": "Tóm tắt",
+   "noi_dung": "**12232/CHQ-NVTHQ** (ban hành **2026-02-12**, hiệu lực từ **2026-02-12**, cơ quan: **Cục Hải quan**): Về việc thực hiện Nghị định số 56/2026/NĐ-CP ngày 12/02/2026 (Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam thực hiện Bản Thỏa thuận thúc đẩy thương mại song phương Việt Nam - Campuchia giai đoạn 2025-2026).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "56/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-02-12",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=216953&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "12232-chq-nvthq-2026#2",
+   "slug": "12232-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/12232-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "12232/CHQ-NVTHQ — Về việc thực hiện Nghị định số 56/2026/NĐ-CP ngày 12/02/2026 (Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam thực hiện Bản Thỏa thuận thúc đẩy thương mại song phương Việt Nam - Campuchia giai đoạn 2025-2026)",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Hướng dẫn triển khai Nghị định 56/2026/NĐ-CP về Biểu thuế nhập khẩu ưu đãi đặc biệt Việt Nam - Campuchia giai đoạn 2025-2026 và xử lý thuế hồi tố theo khoản 2 Điều 6 cho các tờ khai mặt hàng Phụ lục I đăng ký từ 28/04/2025 đến trước 12/02/2026.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/2/25/VB_12232.pdf, id=102643, 1 trang, Phó Trưởng ban Nghiệp vụ thuế HQ Đào Thu Hương ký ngày 12-02-2026, SHA-256 4ef32f013e47d103a1e3ddf648bacc21040fb94c815dfcbd6d7867030a9b52ad): Công văn hỏa tốc số 12232/CHQ-NVTHQ ngày 12-02-2026 của Cục Hải quan yêu cầu các Chi cục Hải quan khu vực phổ biến, hướng dẫn cán bộ, công chức hải quan và doanh nghiệp thực hiện khai báo theo Nghị định số 56/2026/NĐ-CP ngày 12-02-2026 về Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Bản Thỏa thuận thúc đẩy thương mại song phương Việt Nam - Campuchia giai đoạn 2025-2026 (có hiệu lực từ ngày 12-02-2026), lưu ý quy định tại khoản 2 Điều 6 áp dụng đối với các tờ khai hải quan của các mặt hàng nêu tại Phụ lục I đăng ký từ ngày 28-04-2025 đến trước ngày Nghị định có hiệu lực thi hành\n- **Văn bản dẫn chiếu liên quan:** `56/2026/NĐ-CP`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "56/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-02-12",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=216953&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "12232-chq-nvthq-2026#3",
+   "slug": "12232-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/12232-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "12232/CHQ-NVTHQ — Về việc thực hiện Nghị định số 56/2026/NĐ-CP ngày 12/02/2026 (Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam thực hiện Bản Thỏa thuận thúc đẩy thương mại song phương Việt Nam - Campuchia giai đoạn 2025-2026)",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/thu-tuc-hai-quan-xnk]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
@@ -70891,6 +71063,124 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "13251-chq-nvthq-2026#1",
+   "slug": "13251-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/13251-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "13251/CHQ-NVTHQ — Về việc chính sách thuế nhập khẩu và thủ tục hải quan đối với loại hình gia công lại",
+   "muc": "Tóm tắt",
+   "noi_dung": "**13251/CHQ-NVTHQ** (ban hành **2026-03-04**, hiệu lực từ **2026-03-04**, cơ quan: **Cục Hải quan**): Về việc chính sách thuế nhập khẩu và thủ tục hải quan đối với loại hình gia công lại.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "13251-chq-nvthq-2026#2",
+   "slug": "13251-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/13251-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "13251/CHQ-NVTHQ — Về việc chính sách thuế nhập khẩu và thủ tục hải quan đối với loại hình gia công lại",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Điều kiện miễn thuế nhập khẩu khi thuê gia công lại theo Nghị định 18/2021/NĐ-CP và Thông tư 121/2025/TT-BTC (khoản 34, khoản 42 Điều 1): phải thông báo cơ sở sản xuất gia công lại và hợp đồng/phụ lục hợp đồng gia công lại một lần trước khi giao nguyên liệu, vật tư; giao nhận nội địa không phải làm thủ tục hải quan nhưng phải lưu giữ chứng từ kế toán, kiểm toán.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/DONG_NAI/2026/3/5/13251_CHQ_GSQL_04_03_2026.pdf, id=102674, SHA-256 70df20b7ece39730989d744860d8cf1b35ba78a8de10a300b91e26de58768a23): Công văn số 13251/CHQ-NVTHQ ngày 04-03-2026 của Cục Hải quan (Phó Trưởng ban Nghiệp vụ thuế HQ Mai Thị Vân Anh ký) hướng dẫn chính sách miễn thuế nhập khẩu và thủ tục hải quan đối với hàng hóa đưa đi gia công lại: căn cứ khoản 6 và khoản 7 Điều 16 Luật Thuế xuất khẩu, thuế nhập khẩu số 107/2016/QH13, khoản 1 và khoản 2 Điều 10, khoản 1 và khoản 2 Điều 12 Nghị định 134/2016/NĐ-CP (được sửa đổi, bổ sung tại khoản 4 và khoản 6 Điều 1 Nghị định 18/2021/NĐ-CP) và Điều 62, Điều 70 Thông tư 38/2015/TT-BTC (được sửa đổi, bổ sung tại khoản 48 Điều 1 Thông tư 39/2018/TT-BTC và khoản 34, khoản 42 Điều 1 Thông tư 121/2025/TT-BTC ngày 18-12-2025), người nộp thuế giao một phần hoặc toàn bộ hàng hóa nhập khẩu hoặc bán thành phẩm để thuê tổ chức, cá nhân khác có quyền sở hữu hoặc quyền sử dụng cơ sở sản xuất, gia công và máy móc, thiết bị trên lãnh thổ Việt Nam gia công một số hoặc toàn bộ công đoạn rồi nhận lại bán thành phẩm/thành phẩm để xuất khẩu thì được miễn thuế nhập khẩu nếu thực hiện thông báo cơ sở sản xuất, gia công lại và hợp đồng/phụ lục hợp đồng gia công lại cho cơ quan hải quan trước khi giao nguyên liệu, vật tư; hàng hóa giao, nhận giữa các tổ chức, cá nhân Việt Nam với nhau không phải làm thủ tục hải quan nhưng phải lưu giữ chứng từ theo quy định về chế độ kế toán, kiểm toán; đang còn hiệu lực\n- **Văn bản dẫn chiếu liên quan:** `107/2016/QH13`, `134/2016/NĐ-CP`, `18/2021/NĐ-CP`, `69/2018/NĐ-CP`, `38/2015/TT-BTC`, `39/2018/TT-BTC`, `121/2025/TT-BTC`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "18/2021/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2021-04-25",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=202806&pageid=27160"
+    },
+    {
+     "so_hieu": "121/2025/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-02-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-121-2025-tt-btc-468755.htm"
+    },
+    {
+     "so_hieu": "107/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=184599&pageid=27160"
+    },
+    {
+     "so_hieu": "134/2016/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=186707&pageid=27160"
+    },
+    {
+     "so_hieu": "38/2015/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-04-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-38-2015-tt-btc-9949.htm"
+    },
+    {
+     "so_hieu": "39/2018/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-06-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193970&pageid=27160"
+    },
+    {
+     "so_hieu": "69/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-05-15",
+     "het_hieu_luc_tu": "2026-09-05",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "292/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193756&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "13251-chq-nvthq-2026#3",
+   "slug": "13251-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/13251-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "13251/CHQ-NVTHQ — Về việc chính sách thuế nhập khẩu và thủ tục hải quan đối với loại hình gia công lại",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/thu-tuc-hai-quan-xnk]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "133-2025-qh15#1",
    "slug": "133-2025-qh15",
    "duong_dan": "wiki/sources/133-2025-qh15.md",
@@ -71529,6 +71819,45 @@
      "nguon_a": "https://vanban.chinhphu.vn/?docid=214329&pageid=27160"
     }
    ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "1340-btnmt-ksonmt-2025#1",
+   "slug": "1340-btnmt-ksonmt-2025",
+   "duong_dan": "wiki/sources/1340-btnmt-ksonmt-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "1340/BTNMT-KSONMT — Quy định bảo vệ môi trường đối với nhập khẩu máy kéo để sửa chữa",
+   "muc": "Tóm tắt",
+   "noi_dung": "**Công văn 1340/BTNMT-KSONMT** (ban hành ngày **27/02/2025** bởi Cục Kiểm soát ô nhiễm môi trường, Bộ Tài nguyên và Môi trường gửi Tổng cục Hải quan) hướng dẫn thực thi quy định bảo vệ môi trường đối với hoạt động nhập khẩu máy kéo đã qua sử dụng để sửa chữa (trả lời Công văn 136/TCHQ-GSQL ngày 09/01/2025).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "1340-btnmt-ksonmt-2025#2",
+   "slug": "1340-btnmt-ksonmt-2025",
+   "duong_dan": "wiki/sources/1340-btnmt-ksonmt-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "1340/BTNMT-KSONMT — Quy định bảo vệ môi trường đối với nhập khẩu máy kéo để sửa chữa",
+   "muc": "Nội dung chính",
+   "noi_dung": "1. **Nguyên tắc cấm nhập khẩu để tái chế hoặc phá dỡ:** Dẫn Điều 70 Luật Bảo vệ môi trường, tổ chức, cá nhân **không được nhập khẩu** máy móc, thiết bị, phương tiện đã qua sử dụng để phá dỡ (trừ tàu biển đã qua sử dụng đáp ứng quy chuẩn kỹ thuật môi trường theo quy định Chính phủ).\n2. **Trường hợp máy kéo đã qua sử dụng kèm máy công cụ chuyên dùng:** Đối với hồ sơ nhập khẩu máy kéo đã qua sử dụng để sửa chữa, thay thế phụ tùng rồi xuất khẩu thành phẩm kèm máy công cụ (máy CNC, máy cưa sắt, máy roa điện, máy tiện ngang...), cơ quan môi trường yêu cầu làm rõ công đoạn có hoạt động tái chế hay phá dỡ hay không; **nếu nhập khẩu máy kéo đã qua sử dụng để tái chế hoặc phá dỡ thì không phù hợp** quy định pháp luật bảo vệ môi trường.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "1340-btnmt-ksonmt-2025#3",
+   "slug": "1340-btnmt-ksonmt-2025",
+   "duong_dan": "wiki/sources/1340-btnmt-ksonmt-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "1340/BTNMT-KSONMT — Quy định bảo vệ môi trường đối với nhập khẩu máy kéo để sửa chữa",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã đối chiếu bản PDF gốc (1 trang) trên Cổng thông tin Hải quan (`id=100250`, SHA-256 `9f2eb2b380...`), tình trạng `CON_HIEU_LUC`.\n- Tham chiếu liên quan: [[concepts/hang-cu-cam-nhap-khau]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
   {
@@ -72863,6 +73192,226 @@
    "tieu_de": "138/2026/VBHN-TT-BXD — Hợp nhất Thông tư ban hành Quy chuẩn kỹ thuật quốc gia về sản phẩm, hàng hóa vật liệu xây dựng (QCVN 16:2023/BXD)",
    "muc": "Ghi chú nguồn",
    "noi_dung": "- Tổng hợp từ toàn văn PDF Công báo Chính phủ số 577-VBHN ngày 02/11/2026 (`raw/download/congbaocdn.chinhphu.vn/138-2026-vbhn-tt-bxd.pdf`, 175 trang theo Công báo).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "139-txnk-cst-2025#1",
+   "slug": "139-txnk-cst-2025",
+   "duong_dan": "wiki/sources/139-txnk-cst-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "139/TXNK-CST — Mã khai báo thuế CBPG (G158–G171) áp dụng Quyết định 143/QĐ-BCT",
+   "muc": "Tóm tắt",
+   "noi_dung": "**Công văn 139/TXNK-CST** (ban hành ngày **23/01/2025**, hiệu lực áp dụng từ **29/01/2025 đến hết 28/01/2030**) hướng dẫn cập nhật bảng mã khai báo thuế chống bán phá giá (CBPG) trên hệ thống VNACCS/VCIS theo [[sources/143-qd-bct-2025|Quyết định 143/QĐ-BCT]] (mã vụ việc **AD17** đối với sản phẩm cáp thép dự ứng lực).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "143/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-29",
+     "het_hieu_luc_tu": "2030-01-29",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20143_ap%20thue%20chinh%20thuc%20AD17.pdf"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "139-txnk-cst-2025#2",
+   "slug": "139-txnk-cst-2025",
+   "duong_dan": "wiki/sources/139-txnk-cst-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "139/TXNK-CST — Mã khai báo thuế CBPG (G158–G171) áp dụng Quyết định 143/QĐ-BCT",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Phạm vi mã HS:** `7312.10.91` và `7312.10.99`.\n- **Bảng mã khai báo VNACCS/VCIS (`G158` → `G171`):**\n  - **Malaysia:** `G158` (`9,79%`), `G159` (`10,99%`), `G160` (`12,06%`).\n  - **Thái Lan:** `G161`–`G163` (`11%`).\n  - **Trung Quốc:** `G164`–`G166` (`28%`), `G167` (`18,74%`), `G168` (`10,48%`), `G169`–`G170` (`28%`).\n  - **Không nộp C/O hợp lệ:** `G171` (`28%`).\n- Thực hiện khai báo đồng bộ với [[sources/38-2015-tt-btc]] và [[sources/39-2018-tt-btc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "139-txnk-cst-2025#3",
+   "slug": "139-txnk-cst-2025",
+   "duong_dan": "wiki/sources/139-txnk-cst-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "139/TXNK-CST — Mã khai báo thuế CBPG (G158–G171) áp dụng Quyết định 143/QĐ-BCT",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Bản PDF gốc trên Cổng thông tin Hải quan (`id=98767`, SHA-256 `a5ed76cd08...`), mức `NGUON_A`, tình trạng `CON_HIEU_LUC`.\n- Liên kết chuyên đề: [[sources/143-qd-bct-2025]], [[concepts/thue-chong-ban-pha-gia-thep]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "1391-chq-nvthq-2025#1",
+   "slug": "1391-chq-nvthq-2025",
+   "duong_dan": "wiki/sources/1391-chq-nvthq-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "1391/CHQ-NVTHQ — Về việc phân loại hàng hóa và hướng dẫn hồ sơ xác định trước mã số đối với thiết bị thang máy nhập khẩu",
+   "muc": "Tóm tắt",
+   "noi_dung": "**1391/CHQ-NVTHQ** (ban hành **2025-04-09**, hiệu lực từ **2025-04-09**, cơ quan: **Cục Hải quan**): Về việc phân loại hàng hóa và hướng dẫn hồ sơ xác định trước mã số đối với thiết bị thang máy nhập khẩu.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "1391-chq-nvthq-2025#2",
+   "slug": "1391-chq-nvthq-2025",
+   "duong_dan": "wiki/sources/1391-chq-nvthq-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "1391/CHQ-NVTHQ — Về việc phân loại hàng hóa và hướng dẫn hồ sơ xác định trước mã số đối với thiết bị thang máy nhập khẩu",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Yêu cầu thông tin kỹ thuật khi phân loại thiết bị thang máy nhập khẩu: phải làm rõ danh mục thành phần đầy đủ của thang máy hoàn chỉnh, trạng thái nhập khẩu nguyên chiếc hay tháo rời, quy trình lắp ráp và gia công thêm; hướng dẫn hồ sơ xác định trước mã số theo mẫu 01/XĐTMS/TXNK Phụ lục VI Thông tư 39/2018/TT-BTC.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/DONG_NAI/2025/4/9/1391_CHQ_NVTHQ_09_04_2025.pdf, id=99782, SHA-256 5464045f35141baeecbcf558bac571d15eaa39fb4e26038963456b591e3ca230): Công văn số 1391/CHQ-NVTHQ ngày 09-04-2025 của Cục Hải quan hướng dẫn nguyên tắc phân loại và thủ tục xác định trước mã số đối với thiết bị thang máy nhập khẩu: căn cứ Luật Hải quan số 54/2014/QH13, Nghị định 08/2015/NĐ-CP (sửa đổi, bổ sung tại Nghị định 59/2018/NĐ-CP) và Thông tư 38/2015/TT-BTC (sửa đổi, bổ sung tại Thông tư 39/2018/TT-BTC), khi phân loại phải căn cứ hồ sơ hải quan, tài liệu kỹ thuật xác định rõ các thành phần đầy đủ của một thiết bị thang máy hoàn chỉnh, quy cách hàng hóa dự kiến nhập khẩu là nguyên chiếc hay tháo rời, quy trình lắp ráp sản phẩm hoàn thiện và có trải qua quá trình gia công thêm nào không; trường hợp hàng hóa dự kiến nhập khẩu thì thực hiện thủ tục xác định trước mã số theo Điều 24 Nghị định 08/2015/NĐ-CP (sửa đổi tại khoản 11 Điều 1 Nghị định 59/2018/NĐ-CP) với đơn theo mẫu số 01/XĐTMS/TXNK Phụ lục VI Thông tư 39/2018/TT-BTC kèm tài liệu kỹ thuật và mẫu hàng hóa (nếu có); đang còn hiệu lực\n- **Văn bản dẫn chiếu liên quan:** `54/2014/QH13`, `08/2015/NĐ-CP`, `59/2018/NĐ-CP`, `38/2015/TT-BTC`, `39/2018/TT-BTC`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "39/2018/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-06-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193970&pageid=27160"
+    },
+    {
+     "so_hieu": "54/2014/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=175358&pageid=27160"
+    },
+    {
+     "so_hieu": "08/2015/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-03-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=178689&pageid=27160"
+    },
+    {
+     "so_hieu": "59/2018/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-06-05",
+     "het_hieu_luc_tu": "2025-08-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "167/2025/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193550&pageid=27160"
+    },
+    {
+     "so_hieu": "38/2015/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-04-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-38-2015-tt-btc-9949.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "1391-chq-nvthq-2025#3",
+   "slug": "1391-chq-nvthq-2025",
+   "duong_dan": "wiki/sources/1391-chq-nvthq-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "1391/CHQ-NVTHQ — Về việc phân loại hàng hóa và hướng dẫn hồ sơ xác định trước mã số đối với thiết bị thang máy nhập khẩu",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/phan-loai-ma-hs]], [[concepts/thu-tuc-hai-quan-xnk]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "1392-chq-nvthq-2025#1",
+   "slug": "1392-chq-nvthq-2025",
+   "duong_dan": "wiki/sources/1392-chq-nvthq-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "1392/CHQ-NVTHQ — Về việc phân loại mặt hàng xy lanh điện (Electric Actuator tích hợp động cơ điện không thể tháo rời và cơ cấu trục vít, hộp số thuộc nhóm 85.01)",
+   "muc": "Tóm tắt",
+   "noi_dung": "**1392/CHQ-NVTHQ** (ban hành **2025-04-09**, hiệu lực từ **2025-04-09**, cơ quan: **Cục Hải quan**): Về việc phân loại mặt hàng xy lanh điện (Electric Actuator tích hợp động cơ điện không thể tháo rời và cơ cấu trục vít, hộp số thuộc nhóm 85.01).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "1392-chq-nvthq-2025#2",
+   "slug": "1392-chq-nvthq-2025",
+   "duong_dan": "wiki/sources/1392-chq-nvthq-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "1392/CHQ-NVTHQ — Về việc phân loại mặt hàng xy lanh điện (Electric Actuator tích hợp động cơ điện không thể tháo rời và cơ cấu trục vít, hộp số thuộc nhóm 85.01)",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Hướng dẫn phân loại xy lanh điện (Electric Actuator có động cơ điện gắn liền không thể tháo rời kết hợp trục vít, thanh cần, hộp số tạo chuyển động tịnh tiến): thuộc nhóm 85.01 theo Chú giải Chi tiết nhóm 85.01 và tương tự Thông báo 3609/TB-TCHQ ngày 25/07/2024; phân nhóm và mã số 8 chữ số xác định theo dòng điện (AC/DC, 1 pha/3 pha) và công suất động cơ.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/DONG_NAI/2025/4/9/1392_CHQ_NVTHQ_09_04_2025.pdf, id=99783, SHA-256 85beb9739383859efcde6f8f5ec4f93ca3ea3a91cc981f422fc3b12386e17ed8): Công văn số 1392/CHQ-NVTHQ ngày 09-04-2025 của Cục Hải quan hướng dẫn phân loại mặt hàng \"xy lanh điện\" (Electric Actuator — sản phẩm hoàn chỉnh dùng cho các bộ phận vận hành máy móc công nghiệp, cấu tạo gồm phần động cơ điện không thể tháo rời tạo chuyển động quay và phần xy lanh bên trong có trục vít screw shaft, thanh cần rod, hộp số gear biến chuyển động quay của động cơ điện thành chuyển động tuyến tính tịnh tiến của cần xy lanh để nâng hạ hoặc đóng mở máy móc, thiết bị công nghiệp): căn cứ Thông tư 14/2015/TT-BTC (sửa đổi, bổ sung tại Thông tư 17/2021/TT-BTC), Thông tư 31/2022/TT-BTC, tham khảo Chú giải Chi tiết nhóm 85.01 và Thông báo số 3609/TB-TCHQ ngày 25-07-2024 về xác định trước mã số cho mặt hàng \"Xylanh điện\" (Electric Actuator), mặt hàng phù hợp phân loại vào nhóm 85.01, mã số chi tiết tùy thuộc vào đặc điểm (một pha hay ba pha, xoay chiều hay một chiều) và công suất của động cơ; đang còn hiệu lực\n- **Văn bản dẫn chiếu liên quan:** `14/2015/TT-BTC`, `17/2021/TT-BTC`, `31/2022/TT-BTC`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "14/2015/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2015-03-16",
+     "het_hieu_luc_tu": "2026-09-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "85/2026/TT-BTC"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-85-2026-tt-btc-469982.htm"
+    },
+    {
+     "so_hieu": "17/2021/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2021-04-12",
+     "het_hieu_luc_tu": "2026-09-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "85/2026/TT-BTC"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-85-2026-tt-btc-469982.htm"
+    },
+    {
+     "so_hieu": "31/2022/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-31-2022-tt-btc-37431.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "1392-chq-nvthq-2025#3",
+   "slug": "1392-chq-nvthq-2025",
+   "duong_dan": "wiki/sources/1392-chq-nvthq-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "1392/CHQ-NVTHQ — Về việc phân loại mặt hàng xy lanh điện (Electric Actuator tích hợp động cơ điện không thể tháo rời và cơ cấu trục vít, hộp số thuộc nhóm 85.01)",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/phan-loai-ma-hs]].",
    "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
@@ -77730,6 +78279,45 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "15029-chq-gsql-2026#1",
+   "slug": "15029-chq-gsql-2026",
+   "duong_dan": "wiki/sources/15029-chq-gsql-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "15029/CHQ-GSQL — Thủ tục hải quan đối với người nhập cảnh mang theo vàng trang sức",
+   "muc": "Tóm tắt",
+   "noi_dung": "**Công văn 15029/CHQ-GSQL** (ban hành ngày **09/04/2026**) của Cục Hải quan hướng dẫn thực hiện thủ tục hải quan đối với người nhập cảnh mang theo vàng trang sức, mỹ nghệ vượt định mức miễn thuế (trả lời Chi cục Hải quan khu vực I).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "15029-chq-gsql-2026#2",
+   "slug": "15029-chq-gsql-2026",
+   "duong_dan": "wiki/sources/15029-chq-gsql-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "15029/CHQ-GSQL — Thủ tục hải quan đối với người nhập cảnh mang theo vàng trang sức",
+   "muc": "Nội dung chính",
+   "noi_dung": "1. **Ngưỡng phải khai báo hải quan:** Theo khoản 2 Điều 2 Thông tư `11/2014/TT-NHNN`, cá nhân xuất cảnh, nhập cảnh bằng hộ chiếu mang theo vàng trang sức, mỹ nghệ có tổng khối lượng **từ 300g trở lên** phải khai báo với cơ quan hải quan.\n2. **Hồ sơ hải quan hành lý vượt định mức:** Thực hiện theo khoản 2 Điều 60 [[sources/08-2015-nd-cp]] (được sửa đổi tại khoản 30 Điều 1 [[sources/167-2025-nd-cp]]), gồm tờ khai hải quan theo [[sources/38-2015-tt-btc]], [[sources/39-2018-tt-btc]], [[sources/121-2025-tt-btc]] (2 bản chính), hộ chiếu/giấy tờ thay thế, tờ khai xuất nhập cảnh và chứng từ vận tải (nếu gửi trước/sau chuyến đi).\n3. **Chứng từ chứng minh nguồn gốc:** Bộ Tài chính đã có Công văn 279/BTC-CHQ trao đổi với Ngân hàng Nhà nước; trong thời gian chờ hướng dẫn mới, thực hiện khai báo và kiểm tra theo quy định hành lý nhập cảnh hiện hành của [[sources/54-2014-qh13]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "15029-chq-gsql-2026#3",
+   "slug": "15029-chq-gsql-2026",
+   "duong_dan": "wiki/sources/15029-chq-gsql-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "15029/CHQ-GSQL — Thủ tục hải quan đối với người nhập cảnh mang theo vàng trang sức",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Bản PDF gốc (2 trang) trên Cổng thông tin Hải quan (`id=103114`, SHA-256 `39d11b06f4...`), mức `NGUON_A`, `CON_HIEU_LUC`.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "15289-chq-nvthq-2026#1",
    "slug": "15289-chq-nvthq-2026",
    "duong_dan": "wiki/sources/15289-chq-nvthq-2026.md",
@@ -79883,6 +80471,66 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "15987-chq-nvthq-2026#1",
+   "slug": "15987-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/15987-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "15987/CHQ-NVTHQ — Về việc phân loại hàng hóa phụ gia thực phẩm nhập khẩu (nhóm 38.24 và nhóm 34.04 theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam)",
+   "muc": "Tóm tắt",
+   "noi_dung": "**15987/CHQ-NVTHQ** (ban hành **2026-05-07**, hiệu lực từ **2026-05-07**, cơ quan: **Cục Hải quan**): Về việc phân loại hàng hóa phụ gia thực phẩm nhập khẩu (nhóm 38.24 và nhóm 34.04 theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "15987-chq-nvthq-2026#2",
+   "slug": "15987-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/15987-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "15987/CHQ-NVTHQ — Về việc phân loại hàng hóa phụ gia thực phẩm nhập khẩu (nhóm 38.24 và nhóm 34.04 theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam)",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Hướng dẫn phân loại phụ gia thực phẩm nhũ hóa (RIKEMAL P-200S, RIKEN DMG TYPE P(V), RIMULSOFT SUPER (V)) giữa nhóm 38.24 và nhóm 34.04: phải căn cứ tài liệu kỹ thuật và thực tế hàng hóa nhập khẩu theo khoản 1 Điều 26 Luật Hải quan 54/2014/QH13 và Thông tư 31/2022/TT-BTC, không xác định mã số chỉ dựa trên tên thương mại hay việc thay đổi mã HS của nước xuất khẩu.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/DONG_NAI/2026/5/8/15987_CHQ_GSQL_07_05_2026.pdf, id=103573, SHA-256 c1582928f3c4dae426eeba4d76c637ba9175b040683a695daeb0b8e0b194be1f): Công văn số 15987/CHQ-NVTHQ ngày 07-05-2026 của Cục Hải quan hướng dẫn việc phân loại mặt hàng phụ gia thực phẩm (RIKEMAL P-200S, RIKEN DMG TYPE P(V), RIMULSOFT SUPER (V)) khi doanh nghiệp đề nghị thay đổi mã HS nước nhập khẩu theo mã HS nước xuất khẩu: căn cứ khoản 1 Điều 26 Luật Hải quan số 54/2014/QH13 và Thông tư 31/2022/TT-BTC (nội dung nhóm 38.24 \"Chất gắn đã điều chế dùng cho các loại khuôn đúc hoặc lõi đúc; các sản phẩm và chế phẩm hóa học của ngành công nghiệp hóa chất hoặc các ngành công nghiệp có liên quan...\" và nhóm 34.04 \"Sáp nhân tạo và sáp đã được chế biến\"), việc phân loại phải căn cứ hồ sơ hải quan, tài liệu kỹ thuật và thực tế hàng hóa nhập khẩu chứ không chỉ dựa vào tên thương mại hoặc mã HS nước xuất khẩu; đang còn hiệu lực\n- **Văn bản dẫn chiếu liên quan:** `54/2014/QH13`, `31/2022/TT-BTC`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "54/2014/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=175358&pageid=27160"
+    },
+    {
+     "so_hieu": "31/2022/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-31-2022-tt-btc-37431.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "15987-chq-nvthq-2026#3",
+   "slug": "15987-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/15987-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "15987/CHQ-NVTHQ — Về việc phân loại hàng hóa phụ gia thực phẩm nhập khẩu (nhóm 38.24 và nhóm 34.04 theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam)",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/phan-loai-ma-hs]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "16-2015-tt-btttt#1",
    "slug": "16-2015-tt-btttt",
    "duong_dan": "wiki/sources/16-2015-tt-btttt.md",
@@ -81121,6 +81769,112 @@
     "mu-bao-ho",
     "mat-na-phong-doc"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "16107-chq-nvthq-2026#1",
+   "slug": "16107-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/16107-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "16107/CHQ-NVTHQ — Về việc phân loại hàng hóa thiết bị ghi hình hệ thống phẫu thuật nội soi (Chú giải 1(h) Chương 90 và nhóm 85.25)",
+   "muc": "Tóm tắt",
+   "noi_dung": "**16107/CHQ-NVTHQ** (ban hành **2026-05-12**, hiệu lực từ **2026-05-12**, cơ quan: **Cục Hải quan**): Về việc phân loại hàng hóa thiết bị ghi hình hệ thống phẫu thuật nội soi (Chú giải 1(h) Chương 90 và nhóm 85.25).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "16107-chq-nvthq-2026#2",
+   "slug": "16107-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/16107-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "16107/CHQ-NVTHQ — Về việc phân loại hàng hóa thiết bị ghi hình hệ thống phẫu thuật nội soi (Chú giải 1(h) Chương 90 và nhóm 85.25)",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Nguyên tắc loại trừ theo Chú giải 1(h) Chương 90: camera truyền hình, camera kỹ thuật số và camera ghi hình ảnh thuộc nhóm 85.25 không phân loại vào Chương 90; việc phân loại thiết bị y tế nội soi phụ thuộc vào trạng thái nhập khẩu riêng biệt hay đồng bộ kèm ống nội soi/bộ xử lý hình ảnh.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/DONG_NAI/2026/5/13/16107_CHQ_NVTHQ_12_05_2026.pdf, id=103641, SHA-256 50180a0f5ee5dda08070d28503767a723c86d4c98a4d07c3212618f3c7e16b0c): Công văn số 16107/CHQ-NVTHQ ngày 12-05-2026 của Cục Hải quan hướng dẫn nguyên tắc phân loại thiết bị thuộc hệ thống phẫu thuật nội soi: theo Chú giải 1(h) Chương 90 thì Chương 90 không bao gồm \"camera truyền hình, camera kỹ thuật số và camera ghi hình ảnh (nhóm 85.25)\", do đó trường hợp mặt hàng được xác định là camera tại nhóm 85.25 thì không phân loại vào các nhóm thuộc Chương 90; khi phân loại cần xác định rõ mặt hàng nhập khẩu riêng biệt hay đồng bộ theo hệ thống phẫu thuật nội soi, lắp đặt sẵn với ống nội soi hay bộ xử lý hình ảnh; hướng dẫn thủ tục xác định trước mã số theo Điều 24 Nghị định 08/2015/NĐ-CP (sửa đổi tại khoản 11 Điều 1 Nghị định 167/2025/NĐ-CP) và Điều 7 Thông tư 38/2015/TT-BTC (sửa đổi tại Điều 1 Thông tư 39/2018/TT-BTC và Thông tư 121/2025/TT-BTC); đang còn hiệu lực\n- **Văn bản dẫn chiếu liên quan:** `54/2014/QH13`, `08/2015/NĐ-CP`, `167/2025/NĐ-CP`, `38/2015/TT-BTC`, `39/2018/TT-BTC`, `121/2025/TT-BTC`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "08/2015/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-03-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=178689&pageid=27160"
+    },
+    {
+     "so_hieu": "167/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-08-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214375"
+    },
+    {
+     "so_hieu": "38/2015/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-04-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-38-2015-tt-btc-9949.htm"
+    },
+    {
+     "so_hieu": "39/2018/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-06-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193970&pageid=27160"
+    },
+    {
+     "so_hieu": "121/2025/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-02-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-121-2025-tt-btc-468755.htm"
+    },
+    {
+     "so_hieu": "54/2014/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=175358&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "16107-chq-nvthq-2026#3",
+   "slug": "16107-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/16107-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "16107/CHQ-NVTHQ — Về việc phân loại hàng hóa thiết bị ghi hình hệ thống phẫu thuật nội soi (Chú giải 1(h) Chương 90 và nhóm 85.25)",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/phan-loai-ma-hs]], [[concepts/thu-tuc-hai-quan-xnk]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
@@ -86235,6 +86989,107 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "18-2026-tt-byt#1",
+   "slug": "18-2026-tt-byt",
+   "duong_dan": "wiki/sources/18-2026-tt-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "18/2026/TT-BYT — Thuốc và nguyên liệu làm thuốc phải kiểm soát đặc biệt",
+   "muc": "Tóm tắt",
+   "noi_dung": "**Thông tư 18/2026/TT-BYT** (ban hành ngày **01/06/2026**, hiệu lực chung từ **16/07/2026**) quy định chi tiết một số điều của Luật Dược số 105/2016/QH13 (sửa đổi bởi Luật 44/2024/QH15), Nghị định **163/2025/NĐ-CP** và Nghị định **28/2026/NĐ-CP** về thuốc và nguyên liệu làm thuốc phải kiểm soát đặc biệt.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "18/2026/TT-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-07-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-18-2026-tt-byt-469674.htm"
+    },
+    {
+     "so_hieu": "105/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+    },
+    {
+     "so_hieu": "44/2024/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-44-2024-qh15-43548.htm"
+    },
+    {
+     "so_hieu": "163/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214322"
+    },
+    {
+     "so_hieu": "28/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-19",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216717"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "18-2026-tt-byt#2",
+   "slug": "18-2026-tt-byt",
+   "duong_dan": "wiki/sources/18-2026-tt-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "18/2026/TT-BYT — Thuốc và nguyên liệu làm thuốc phải kiểm soát đặc biệt",
+   "muc": "Nội dung chính",
+   "noi_dung": "1. **Bãi bỏ văn bản cũ (Điều 16 khoản 4):** Kể từ ngày **16/07/2026**, bãi bỏ **Thông tư 20/2017/TT-BYT** và **Thông tư 27/2024/TT-BYT** về thuốc, nguyên liệu làm thuốc phải kiểm soát đặc biệt.\n2. **Danh mục quản lý (Điều 1–2):** Ban hành danh mục dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc và bảng giới hạn nồng độ, hàm lượng trong thuốc dạng phối hợp (kèm hệ thống Phụ lục).\n3. **Hiệu lực sớm & chuyển tiếp (Điều 16–17):** Dược chất Etomidate, Carisoprodol và thuốc chứa các hoạt chất này được quản lý là thuốc hướng thần từ ngày **01/06/2026**; Quyết định 3235/QĐ-BYT ngày 01/11/2024 tiếp tục áp dụng cho tới khi có danh mục thay thế.\n4. **Bảo quản, giao nhận, báo cáo (Điều 3, 6, 7, 9, 11, 13, 14):** Kho/tủ riêng khóa chắc chắn, nhân sự giao nhận đáp ứng trình độ trung cấp dược trở lên, chế độ báo cáo xuất-nhập-tồn trước 15/01 hằng năm.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "20/2017/TT-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2017-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-20-2017-tt-byt-24490.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "18-2026-tt-byt#3",
+   "slug": "18-2026-tt-byt",
+   "duong_dan": "wiki/sources/18-2026-tt-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "18/2026/TT-BYT — Thuốc và nguyên liệu làm thuốc phải kiểm soát đặc biệt",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã đối chiếu toàn văn Công báo điện tử số 329 ngày 14/06/2026 PDF ký số (45 trang, SHA-256 `754c244801...`), tình trạng `CON_HIEU_LUC`.\n- Tham chiếu liên quan: [[concepts/thuoc-theo-luat-duoc-2016]], [[concepts/duoc-lieu-theo-luat-duoc-2016]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "18-2026-vbhn-qd-byt#1",
    "slug": "18-2026-vbhn-qd-byt",
    "duong_dan": "wiki/sources/18-2026-vbhn-qd-byt.md",
@@ -86916,6 +87771,119 @@
    "tieu_de": "1813/2026/QĐ-CHQ (1813-qd-chq) — Định dạng thông điệp dữ liệu tờ khai hàng hóa XNK gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định và chuyển phát nhanh quốc tế",
    "muc": "Ghi chú nguồn",
    "noi_dung": "- Tổng hợp từ toàn văn PDF 197 trang trên Cổng TTĐT Cục Hải quan (`raw/download/files.customs.gov.vn/1813-2026-qd-chq.pdf`) và bản OCR (`raw/ocr/1813-2026-qd-chq.ocr.txt`).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "1813-btc-tchq-2025#1",
+   "slug": "1813-btc-tchq-2025",
+   "duong_dan": "wiki/sources/1813-btc-tchq-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "1813/BTC-TCHQ — Về việc thực hiện Quyết định số 01/2025/QĐ-TTg ngày 03/01/2025 của Thủ tướng Chính phủ",
+   "muc": "Tóm tắt",
+   "noi_dung": "**1813/BTC-TCHQ** (ban hành **2025-02-17**, hiệu lực từ **2025-02-18**, cơ quan: **Bộ Tài chính**): Về việc thực hiện Quyết định số 01/2025/QĐ-TTg ngày 03/01/2025 của Thủ tướng Chính phủ.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "01/2025/QĐ-TTg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-02-18",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=98391&cid=1294"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "1813-btc-tchq-2025#2",
+   "slug": "1813-btc-tchq-2025",
+   "duong_dan": "wiki/sources/1813-btc-tchq-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "1813/BTC-TCHQ — Về việc thực hiện Quyết định số 01/2025/QĐ-TTg ngày 03/01/2025 của Thủ tướng Chính phủ",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Hướng dẫn kê khai, thu nộp thuế GTGT (5%, 8%, 10%) đối với hàng hóa nhập khẩu trị giá thấp nhóm 2 gửi qua dịch vụ chuyển phát nhanh quốc tế từ ngày 18/02/2025 theo Quyết định số 01/2025/QĐ-TTg (trên tờ khai MIC đối với đường hàng không/đường biển và tờ khai HQ/2015/NK đối với đường bộ/đường sắt).\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A của Bộ Tài chính trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/2/18/1813_2025.BTC.TCHQ.pdf, id=99001, SHA-256 c3e0d03db56ec8f2c0ca45660f31312148e570ccdcf70b03aa7e0d3bf5872b69): Công văn số 1813/BTC-TCHQ ngày 17-02-2025 của Bộ Tài chính (TL. Bộ trưởng, KT. Tổng cục trưởng Tổng cục Hải quan, Phó Tổng cục trưởng Âu Anh Tuấn ký) hướng dẫn các Cục Hải quan tỉnh, thành phố thực hiện Quyết định số 01/2025/QĐ-TTg ngày 03-01-2025 về việc thu thuế giá trị gia tăng (GTGT) đối với hàng hóa nhập khẩu trị giá thấp thuộc nhóm 2 gửi qua dịch vụ chuyển phát nhanh kể từ ngày 18-02-2025 (mục 1 về chính sách thuế GTGT và miễn thuế nhập khẩu; mục 2 về khai tờ khai MIC trên VNACCS kèm Bảng kê Mẫu số 02-BKTKTGT đối với đường không, đường biển và tờ khai HQ/2015/NK kèm file HYS đối với đường bộ, đường sắt; mục 3 về biên lai điện tử thu thuế, phí hải quan theo Nghị định 123/2020/NĐ-CP và Thông tư 178/2011/TT-BTC; kèm Phụ lục mẫu Bảng kê tờ khai hàng hóa xuất khẩu, nhập khẩu trị giá thấp tính thuế để thông quan)\n- **Văn bản dẫn chiếu liên quan:** `01/2025/QĐ-TTg`, `107/2016/QH13`, `134/2016/NĐ-CP`, `18/2021/NĐ-CP`, `38/2015/TT-BTC`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "01/2025/QĐ-TTg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-02-18",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=98391&cid=1294"
+    },
+    {
+     "so_hieu": "123/2020/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=201365"
+    },
+    {
+     "so_hieu": "107/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=184599&pageid=27160"
+    },
+    {
+     "so_hieu": "134/2016/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=186707&pageid=27160"
+    },
+    {
+     "so_hieu": "18/2021/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2021-04-25",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=202806&pageid=27160"
+    },
+    {
+     "so_hieu": "38/2015/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-04-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-38-2015-tt-btc-9949.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "1813-btc-tchq-2025#3",
+   "slug": "1813-btc-tchq-2025",
+   "duong_dan": "wiki/sources/1813-btc-tchq-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "1813/BTC-TCHQ — Về việc thực hiện Quyết định số 01/2025/QĐ-TTg ngày 03/01/2025 của Thủ tướng Chính phủ",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/thue-gtgt-hang-nhap-khau]], [[concepts/thu-tuc-hai-quan-xnk]].",
    "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
@@ -87671,6 +88639,45 @@
     "sua-doi",
     "con-hieu-luc"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "18837-chq-gsql-2026#1",
+   "slug": "18837-chq-gsql-2026",
+   "duong_dan": "wiki/sources/18837-chq-gsql-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "18837/CHQ-GSQL — Về việc triển khai các giải pháp tạo thuận lợi thông quan đối với hàng hóa nông sản xuất khẩu",
+   "muc": "Tóm tắt",
+   "noi_dung": "**18837/CHQ-GSQL** (ban hành **2026-07-15**, hiệu lực từ **2026-07-15**, cơ quan: **Cục Hải quan**): Về việc triển khai các giải pháp tạo thuận lợi thông quan đối với hàng hóa nông sản xuất khẩu.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "18837-chq-gsql-2026#2",
+   "slug": "18837-chq-gsql-2026",
+   "duong_dan": "wiki/sources/18837-chq-gsql-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "18837/CHQ-GSQL — Về việc triển khai các giải pháp tạo thuận lợi thông quan đối với hàng hóa nông sản xuất khẩu",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Hướng dẫn giải quyết thủ tục thông quan nhanh trong ngày (kể cả ngoài giờ hành chính, ngày nghỉ, lễ) và ưu tiên thủ tục tái nhập cho hàng nông, lâm, thủy sản xuất khẩu (đặc biệt là sầu riêng xuất khẩu qua cửa khẩu biên giới phía Bắc).\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/7/17/VB_18837.pdf, id=105149, 2 trang, ký số ngày 15-07-2026 11:02:29 +07:00, SHA-256 4bc91d24455034b2888cd34e92d9fe703a3bc23fd104cda22d8a3912450c98ac): Công văn khẩn số 18837/CHQ-GSQL ngày 15-07-2026 của Cục Hải quan chỉ đạo các Chi cục Hải quan khu vực triển khai 6 giải pháp tạo thuận lợi thông quan đối với hàng hóa nông, lâm, thủy sản xuất khẩu (đặc biệt là sầu riêng, quả vải xuất khẩu sang Trung Quốc theo Công văn 5903/VPCP-KTTH ngày 23-06-2026 và Thông báo 361/TB-VPCP ngày 08-07-2026): (1) thông quan nhanh trong ngày kể cả ngoài giờ hành chính, ngày nghỉ, ngày lễ; (2) phối hợp doanh nghiệp kho bãi cửa khẩu bố trí địa điểm bảo quản, phân loại; (3) cập nhật tình hình xuất khẩu, điều tiết giao thông tránh ùn tắc; (4) trao đổi với Hải quan cửa khẩu Trung Quốc và thông báo thay đổi chính sách kiểm tra cho doanh nghiệp; (5) ưu tiên giải quyết nhanh thủ tục tái nhập đối với lô hàng đã thực xuất nhưng không đủ điều kiện nhập khẩu vào Trung Quốc; (6) nghiêm cấm gây phiền hà, kéo dài thời gian thông quan",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "18837-chq-gsql-2026#3",
+   "slug": "18837-chq-gsql-2026",
+   "duong_dan": "wiki/sources/18837-chq-gsql-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "18837/CHQ-GSQL — Về việc triển khai các giải pháp tạo thuận lợi thông quan đối với hàng hóa nông sản xuất khẩu",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/thu-tuc-hai-quan-xnk]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
@@ -90635,6 +91642,80 @@
     "con-hieu-luc",
     "quantrong"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "19525-chq-nvthq-2026#1",
+   "slug": "19525-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/19525-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "19525/CHQ-NVTHQ — Về việc bổ sung Tuyển tập ý kiến phân loại của WCO tại phiên họp lần thứ 77 (WP77 và HSC77 tháng 03/2026)",
+   "muc": "Tóm tắt",
+   "noi_dung": "**19525/CHQ-NVTHQ** (ban hành **2026-07-28**, hiệu lực từ **2026-07-28**, cơ quan: **Cục Hải quan**): Về việc bổ sung Tuyển tập ý kiến phân loại của WCO tại phiên họp lần thứ 77 (WP77 và HSC77 tháng 03/2026).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "19525-chq-nvthq-2026#2",
+   "slug": "19525-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/19525-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "19525/CHQ-NVTHQ — Về việc bổ sung Tuyển tập ý kiến phân loại của WCO tại phiên họp lần thứ 77 (WP77 và HSC77 tháng 03/2026)",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Bản dịch song ngữ Anh - Việt Phụ lục bổ sung Tuyển tập ý kiến phân loại của WCO tại phiên họp lần thứ 77 (WP77 và HSC77 tháng 03/2026, 13 trang). Lưu ý lỗi gõ tại dòng tiêu đề Phụ lục trang 2 ghi \"ngày 28 tháng 7 năm 2025\" (trang 1 công văn và chữ ký số Cục Hải quan ký ngày 28/07/2026 15:51:51 +07:00).\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/7/30/VB_19525.pdf, id=105268, SHA-256 5abfd1192eb089f1f4a3357e4dbb58f84205c7a4d122c47f736bb31f03281a4c): Công văn số 19525/CHQ-NVTHQ ngày 28-07-2026 của Cục Hải quan thông báo bổ sung Tuyển tập ý kiến phân loại của Tổ chức Hải quan Thế giới (WCO) theo kết quả phiên họp lần thứ 77 của Nhóm công tác và Ủy ban HS tại Brussels (Bỉ) tháng 03/2026 (WP77 và HSC77) làm tài liệu tham khảo phục vụ phân loại hàng hóa xuất khẩu, nhập khẩu theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam (gồm 14 ý kiến phân loại thuộc các phân nhóm: 1806.20 mục 1 chế phẩm thực phẩm bột whey protein trên 80% chứa bột ca cao giảm béo đóng gói bán lẻ 2,27 kg; 2103.10 mục 1 nước xốt đậu tương vị nấm dạng lỏng; 2715.00 mục 3 hỗn hợp bitum dầu mỏ biến tính bằng polyme; 3920.49 mục 1 màng trang trí PVC không xốp; 6307.90 mục 9 khăn quấn trẻ sơ sinh bằng vải; 7223.00 mục 1 và 2 sản phẩm thép không gỉ tạo hình nguội theo Chú giải 1(e) và 1(o) Chương 72; 8517.79 mục 6 khối thu phát vô tuyến từ xa RRU trạm gốc theo Chú giải 2(b) Phần XVI; 8536.69 mục 1 bộ chia ổ cắm đa năng 4 ổ cắm; 8544.42 mục 1, 2 và 3 ổ cắm điện kéo dài nhiều ổ cắm và cuộn cáp 4 ổ cắm theo Chú giải 3 Phần XVI; 8704.10 mục 1 xe tự đổ chạy động cơ diesel sử dụng ngoài đường trường; 9619.00 mục 1 và 2 tã vải và miếng lót bỉm có thể giặt được); trường hợp có sự không thống nhất giữa mô tả tiếng Việt và tiếng Anh thì áp dụng mô tả tiếng Anh; đang còn hiệu lực\n- **Văn bản dẫn chiếu liên quan:** `14/2015/TT-BTC`, `17/2021/TT-BTC`, `31/2022/TT-BTC`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "14/2015/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2015-03-16",
+     "het_hieu_luc_tu": "2026-09-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "85/2026/TT-BTC"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-85-2026-tt-btc-469982.htm"
+    },
+    {
+     "so_hieu": "17/2021/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2021-04-12",
+     "het_hieu_luc_tu": "2026-09-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "85/2026/TT-BTC"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-85-2026-tt-btc-469982.htm"
+    },
+    {
+     "so_hieu": "31/2022/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-31-2022-tt-btc-37431.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "19525-chq-nvthq-2026#3",
+   "slug": "19525-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/19525-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "19525/CHQ-NVTHQ — Về việc bổ sung Tuyển tập ý kiến phân loại của WCO tại phiên họp lần thứ 77 (WP77 và HSC77 tháng 03/2026)",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/phan-loai-ma-hs]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
@@ -97711,6 +98792,107 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "22446-chq-nvthq-2026#1",
+   "slug": "22446-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/22446-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "22446/CHQ-NVTHQ — Về việc áp dụng mức thuế (kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường, thuế giá trị gia tăng đối với mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu và nhiên liệu bay theo Nghị quyết số 43/2026/NQ-CP)",
+   "muc": "Tóm tắt",
+   "noi_dung": "**22446/CHQ-NVTHQ** (ban hành **2026-10-01**, hiệu lực từ **2026-10-01**, cơ quan: **Cục Hải quan**): Về việc áp dụng mức thuế (kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường, thuế giá trị gia tăng đối với mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu và nhiên liệu bay theo Nghị quyết số 43/2026/NQ-CP).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "43/2026/NQ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-10-01",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=219739"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "22446-chq-nvthq-2026#2",
+   "slug": "22446-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/22446-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "22446/CHQ-NVTHQ — Về việc áp dụng mức thuế (kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường, thuế giá trị gia tăng đối với mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu và nhiên liệu bay theo Nghị quyết số 43/2026/NQ-CP)",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Hướng dẫn khai báo trên VNACCS/VCIS theo Nghị quyết 43/2026/NQ-CP: mục 2 quy định tiếp tục sử dụng mã VK240 tại chỉ tiêu \"Mã áp dụng thuế suất/mức thuế và thu khác\" từ ngày 01/10/2026 đến hết ngày 31/12/2026 cho mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu và nhiên liệu bay thuộc đối tượng không phải kê khai, tính nộp thuế GTGT.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/10/1/739VB_22446.pdf, id=106225, SHA-256 2450960b212c6e375473bcaac78d78d53ff9e86f49678f05624752a5db48c77c): Công văn hỏa tốc số 22446/CHQ-NVTHQ ngày 01-10-2026 của Cục Hải quan (Phó Trưởng ban Nghiệp vụ thuế HQ Đào Thu Hương ký) hướng dẫn thực hiện Nghị quyết số 43/2026/NQ-CP ngày 30-09-2026 của Chính phủ (kéo dài thời hạn áp dụng Nghị quyết 25/2026/NQ-CP và Nghị định 72/2026/NĐ-CP về thuế nhập khẩu ưu đãi đối với xăng, dầu, nguyên liệu sản xuất xăng, dầu; kéo dài thời hạn áp dụng Điều 1 và Điều 2 Nghị quyết 19/2026/QH16 về thuế bảo vệ môi trường và thuế giá trị gia tăng đối với xăng, dầu, nguyên liệu sản xuất xăng, dầu và nhiên liệu bay đến hết ngày 31-12-2026; thuế tiêu thụ đặc biệt đối với xăng thực hiện theo Luật Thuế tiêu thụ đặc biệt số 66/2025/QH15) và hướng dẫn tiếp tục sử dụng mã VK240 tại ô chỉ tiêu \"Mã áp dụng thuế suất/mức thuế và thu khác\" trên tờ khai hải quan điện tử nhập khẩu hệ thống VNACCS/VCIS kể từ ngày 01-10-2026 đến hết ngày 31-12-2026 để khai báo thuế GTGT đối với hàng hóa thuộc đối tượng không phải kê khai, tính nộp thuế GTGT; đang còn hiệu lực\n- **Văn bản dẫn chiếu liên quan:** `43/2026/NQ-CP`, `25/2026/NQ-CP`, `72/2026/NĐ-CP`, `19/2026/QH16`, `66/2025/QH15`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "43/2026/NQ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-10-01",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=219739"
+    },
+    {
+     "so_hieu": "25/2026/NQ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-05-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=103502&cid=1294"
+    },
+    {
+     "so_hieu": "72/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-03-09",
+     "het_hieu_luc_tu": "2027-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-72-2026-nd-cp-469066.htm"
+    },
+    {
+     "so_hieu": "19/2026/QH16",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=103261&cid=1294"
+    },
+    {
+     "so_hieu": "66/2025/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=214598&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "22446-chq-nvthq-2026#3",
+   "slug": "22446-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/22446-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "22446/CHQ-NVTHQ — Về việc áp dụng mức thuế (kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường, thuế giá trị gia tăng đối với mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu và nhiên liệu bay theo Nghị quyết số 43/2026/NQ-CP)",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/thu-tuc-hai-quan-xnk]], [[concepts/thue-gtgt-hang-nhap-khau]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "2284-qd-bkhcn#1",
    "slug": "2284-qd-bkhcn",
    "duong_dan": "wiki/sources/2284-qd-bkhcn.md",
@@ -99292,6 +100474,166 @@
     "ma-hs",
     "con-hieu-luc"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "23153-chq-nvthq-2026#1",
+   "slug": "23153-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/23153-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "23153/CHQ-NVTHQ — Về việc xác nhận mã HS code đối với sản phẩm Đông trùng hạ thảo nhập khẩu (Cordyceps Sinensis dạng khô nguyên con, nhóm 12.11, mã số 1211.90.19 / 1211.90.99)",
+   "muc": "Tóm tắt",
+   "noi_dung": "**23153/CHQ-NVTHQ** (ban hành **2026-10-19**, hiệu lực từ **2026-10-19**, cơ quan: **Cục Hải quan**): Về việc xác nhận mã HS code đối với sản phẩm Đông trùng hạ thảo nhập khẩu (Cordyceps Sinensis dạng khô nguyên con, nhóm 12.11, mã số 1211.90.19 / 1211.90.99).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "23153-chq-nvthq-2026#2",
+   "slug": "23153-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/23153-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "23153/CHQ-NVTHQ — Về việc xác nhận mã HS code đối với sản phẩm Đông trùng hạ thảo nhập khẩu (Cordyceps Sinensis dạng khô nguyên con, nhóm 12.11, mã số 1211.90.19 / 1211.90.99)",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Hướng dẫn phân loại Đông trùng hạ thảo (Cordyceps Sinensis) dạng khô nguyên con: thuộc nhóm 12.11 khi đáp ứng công dụng làm dược phẩm/nước hoa/thuốc diệt nấm (chủ yếu làm dược liệu: 1211.90.19; loại khác trong nhóm 12.11: 1211.90.99). Lưu ý lỗi gõ trong văn bản gốc: trang 2 ghi \"Thông tư số 90/2024/TT-BYT ngày 11/6/2024\" thực chất là Thông tư 09/2024/TT-BYT ngày 11/06/2024 (STT 130 Danh mục 11).\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/DONG_NAI/2026/10/20/23153_CHQ_NVTHQ_19_10_2026.pdf, id=106445, SHA-256 5e43312b20efd7ebb80aa265023dc798c2c64e376a1cac09c67b9c924b74ccf2): Công văn số 23153/CHQ-NVTHQ ngày 19-10-2026 của Cục Hải quan hướng dẫn phân loại mặt hàng Đông trùng hạ thảo (Cordyceps Sinensis) dạng khô, nguyên con, chưa cắt, nghiền hoặc xay thành bột: nếu chủ yếu dùng làm nước hoa, làm dược phẩm hoặc thuốc trừ sâu, thuốc diệt nấm hoặc các mục đích tương tự theo mô tả nhóm 12.11 Thông tư 31/2022/TT-BTC thì phân loại vào mã số 1211.90.19 đối với loại chủ yếu dùng làm dược liệu (dẫn chiếu STT 130 Danh mục 11 dược liệu làm thuốc ban hành kèm Thông tư 09/2024/TT-BYT ngày 11-06-2024 của Bộ Y tế — trong bản PDF công văn gõ nhầm số hiệu thành 90/2024/TT-BYT — gồm 1211.90.17 dạng tươi/khô đã cắt nghiền bột, 1211.90.18 dạng đã cắt nghiền bột, 1211.90.19 dạng khác), hoặc mã số 1211.90.99 nếu không phải loại chủ yếu dùng làm dược liệu; trường hợp không xác định được công dụng theo mô tả nhóm 12.11 hoặc thiếu giấy chứng nhận của cơ quan có thẩm quyền chứng minh mục đích dùng làm thực phẩm thì không thuộc nhóm 12.11; đang còn hiệu lực\n- **Văn bản dẫn chiếu liên quan:** `54/2014/QH13`, `31/2022/TT-BTC`, `09/2024/TT-BYT`, `85/2026/TT-BTC`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "09/2024/TT-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-07-26",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/TW/Pages/ivbpq-toanvan.aspx?ItemID=169844"
+    },
+    {
+     "so_hieu": "31/2022/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-31-2022-tt-btc-37431.htm"
+    },
+    {
+     "so_hieu": "54/2014/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=175358&pageid=27160"
+    },
+    {
+     "so_hieu": "85/2026/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-85-2026-tt-btc-469982.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "23153-chq-nvthq-2026#3",
+   "slug": "23153-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/23153-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "23153/CHQ-NVTHQ — Về việc xác nhận mã HS code đối với sản phẩm Đông trùng hạ thảo nhập khẩu (Cordyceps Sinensis dạng khô nguyên con, nhóm 12.11, mã số 1211.90.19 / 1211.90.99)",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/phan-loai-ma-hs]], [[concepts/duoc-lieu-theo-luat-duoc-2016]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "23489-chq-nvthq-2026#1",
+   "slug": "23489-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/23489-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "23489/CHQ-NVTHQ — Về việc mã HS và thuế chống bán phá giá đối với mặt hàng thanh nhôm hợp kim nhập khẩu (A6061 T6 cán nóng cắt cơ học 50 x 414 x 2805 mm, mã số 7604.29.90)",
+   "muc": "Tóm tắt",
+   "noi_dung": "**23489/CHQ-NVTHQ** (ban hành **2026-10-26**, hiệu lực từ **2026-10-26**, cơ quan: **Cục Hải quan**): Về việc mã HS và thuế chống bán phá giá đối với mặt hàng thanh nhôm hợp kim nhập khẩu (A6061 T6 cán nóng cắt cơ học 50 x 414 x 2805 mm, mã số 7604.29.90).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "23489-chq-nvthq-2026#2",
+   "slug": "23489-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/23489-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "23489/CHQ-NVTHQ — Về việc mã HS và thuế chống bán phá giá đối với mặt hàng thanh nhôm hợp kim nhập khẩu (A6061 T6 cán nóng cắt cơ học 50 x 414 x 2805 mm, mã số 7604.29.90)",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Tiêu chí phân biệt thanh/que nhôm (nhóm 76.04) với tấm/lá nhôm (nhóm 76.06) theo Chú giải 9(a) Phần XV Thông tư 31/2022/TT-BTC: sản phẩm cán nóng cắt cơ học không ở dạng cuộn, mặt cắt ngang hình chữ nhật có chiều dày vượt quá 1/10 chiều rộng (50/414 ≈ 0,121 > 0,1) vẫn thuộc khái niệm thanh và que nhôm hợp kim mã 7604.29.90 dù không sản xuất bằng đùn ép.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/DONG_NAI/2026/10/27/23489_CHQ_NVTHQ_27_10_2026.pdf, id=106545, SHA-256 02bc2bb7853cd9e9d7e3d40b4c8f40e43c3d8861fef9e2fe5e12f11acca6f136): Công văn số 23489/CHQ-NVTHQ ngày 26-10-2026 của Cục Hải quan hướng dẫn phân loại mã HS và thuế chống bán phá giá đối với mặt hàng Thanh nhôm hợp kim A6061 T6 kích thước 50 x 414 x 2805 mm sản xuất bằng phương pháp cán nóng (không đùn ép) rồi cắt cơ học từ tấm nhôm 50 x 1.500 x 3.000 mm, có tỷ lệ chiều dày/chiều rộng 50/414 ≈ 0,121 lớn hơn 1/10 nên đáp ứng định nghĩa \"Thanh và que\" tại Chú giải 9(a) Phần XV Thông tư 31/2022/TT-BTC, phù hợp phân loại vào nhóm 76.04 (\"Nhôm ở dạng thanh, que và hình\"), phân nhóm 7604.29, mã số 7604.29.90; việc xác định đối tượng, kiểm tra hồ sơ và miễn trừ áp dụng biện pháp phòng vệ thương mại (thuế CBPG) thuộc thẩm quyền của Bộ Công Thương theo khoản 3 Điều 15 Luật Thuế xuất khẩu, thuế nhập khẩu số 107/2016/QH13 và Điều 67 Luật Quản lý ngoại thương số 05/2017/QH14; đang còn hiệu lực\n- **Văn bản dẫn chiếu liên quan:** `54/2014/QH13`, `107/2016/QH13`, `05/2017/QH14`, `31/2022/TT-BTC`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "31/2022/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-31-2022-tt-btc-37431.htm"
+    },
+    {
+     "so_hieu": "107/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=184599&pageid=27160"
+    },
+    {
+     "so_hieu": "05/2017/QH14",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=190308&pageid=27160"
+    },
+    {
+     "so_hieu": "54/2014/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=175358&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "23489-chq-nvthq-2026#3",
+   "slug": "23489-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/23489-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "23489/CHQ-NVTHQ — Về việc mã HS và thuế chống bán phá giá đối với mặt hàng thanh nhôm hợp kim nhập khẩu (A6061 T6 cán nóng cắt cơ học 50 x 414 x 2805 mm, mã số 7604.29.90)",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/phan-loai-ma-hs]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
@@ -104208,6 +105550,99 @@
     "nd-cp",
     "2026"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "26-2026-tt-bct#1",
+   "slug": "26-2026-tt-bct",
+   "duong_dan": "wiki/sources/26-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "26/2026/TT-BCT — Phân cấp, cắt giảm, đơn giản hóa TTHC thuộc phạm vi Bộ Công Thương",
+   "muc": "Tóm tắt",
+   "noi_dung": "**Thông tư 26/2026/TT-BCT** (ban hành ngày **20/05/2026**, hiệu lực chung từ **29/05/2026**) sửa đổi, bổ sung quy định về phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính trong 8 lĩnh vực quản lý của Bộ Công Thương (28 Điều, 9 Chương, kèm Phụ lục mẫu biểu).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "26/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-05-29",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=218236"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "26-2026-tt-bct#2",
+   "slug": "26-2026-tt-bct",
+   "duong_dan": "wiki/sources/26-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "26/2026/TT-BCT — Phân cấp, cắt giảm, đơn giản hóa TTHC thuộc phạm vi Bộ Công Thương",
+   "muc": "Nội dung tác động đến XNK & Hải quan",
+   "noi_dung": "1. **Xuất xứ hàng hóa C/O (Điều 19, Điều 20, Điều 21):** Sửa đổi Điều 4, Điều 8 và thay Phụ lục I, II **Thông tư 40/2025/TT-BCT** — phân định thẩm quyền cấp C/O giữa Cục Xuất nhập khẩu (Phụ lục I) và **Ủy ban nhân dân cấp tỉnh** (Phụ lục II) trên cơ sở tự đánh giá điều kiện; sửa Khoản 2 Điều 4 **Thông tư 24/2026/TT-BCT** (C/O mẫu UAE-VN do UBND cấp tỉnh cấp). Khoản 3 Điều 19 hiệu lực từ **01/08/2026**.\n2. **Quản lý ngoại thương & quá cảnh (Điều 14, 18):** Sửa **Thông tư 11/2015/TT-BCT** về quá cảnh hàng hóa Trung Quốc qua lãnh thổ Việt Nam; bãi bỏ khoản 3 Điều 9 và thay Phụ lục X, XI **Thông tư 12/2018/TT-BCT** (thẩm quyền địa phương tại Điều 15, 16 hiệu lực từ **01/01/2027**).\n3. **Hóa chất (Điều 24):** Sửa đổi, bổ sung, bãi bỏ một số quy định của **Thông tư 01/2026/TT-BCT** hướng dẫn Luật Hóa chất và Nghị định **26/2026/NĐ-CP**.\n4. **Vật liệu nổ công nghiệp, thuốc lá, xăng dầu (Điều 1–13):** Sửa đổi, bãi bỏ thủ tục trong **23/2024/TT-BCT** (UBND cấp tỉnh cấp phép XK/NK VLNCN từ **01/07/2026**), **43/2023/TT-BCT**, **18/2025/TT-BCT**, **38/2025/TT-BCT**.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "40/2025/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214398"
+    },
+    {
+     "so_hieu": "12/2018/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2018-06-15",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "48/2026/TT-BCT"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-12-2018-tt-bct-26878/23046.htm"
+    },
+    {
+     "so_hieu": "01/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-17",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216719"
+    },
+    {
+     "so_hieu": "26/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-17",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-26-2026-nd-cp-468804.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "26-2026-tt-bct#3",
+   "slug": "26-2026-tt-bct",
+   "duong_dan": "wiki/sources/26-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "26/2026/TT-BCT — Phân cấp, cắt giảm, đơn giản hóa TTHC thuộc phạm vi Bộ Công Thương",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã đối chiếu Cổng TTĐT Chính phủ (`docid=218236`), Cổng Bộ Công Thương (`moit.gov.vn`) và toàn văn PDF scan 22 trang đã OCR (`raw/ocr/26-2026-tt-bct.ocr.txt`), tình trạng `CON_HIEU_LUC`.\n- Tham chiếu liên quan: [[concepts/quy-tac-xuat-xu]], [[concepts/xuat-xu-fta]], [[concepts/ktcl-bct-2026]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
@@ -112708,6 +114143,45 @@
     "thu-tuc-hai-quan",
     "giay-to-cong"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "295-da-pbp#1",
+   "slug": "295-da-pbp",
+   "duong_dan": "wiki/sources/295-da-pbp.md",
+   "loai_trang": "sources",
+   "tieu_de": "295/ĐA-PBP — V/v không cấp giấy phép nhập khẩu văn hóa phẩm không nhằm mục đích kinh doanh có nội dung là phim từ 01/01/2023",
+   "muc": "Tóm tắt",
+   "noi_dung": "**295/ĐA-PBP** (ban hành **2023-03-20**, hiệu lực từ **2023-03-20**, cơ quan: **Bộ Văn hóa, Thể thao và Du lịch**): V/v không cấp giấy phép nhập khẩu văn hóa phẩm không nhằm mục đích kinh doanh có nội dung là phim từ 01/01/2023.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "295-da-pbp#2",
+   "slug": "295-da-pbp",
+   "duong_dan": "wiki/sources/295-da-pbp.md",
+   "loai_trang": "sources",
+   "tieu_de": "295/ĐA-PBP — V/v không cấp giấy phép nhập khẩu văn hóa phẩm không nhằm mục đích kinh doanh có nội dung là phim từ 01/01/2023",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Cục Điện ảnh (Bộ VHTTDL) thông báo cho Tổng cục Hải quan về việc từ 01-01-2023 không cấp giấy phép nhập khẩu và biên bản giám định văn hóa phẩm không nhằm mục đích kinh doanh có nội dung là phim; việc nhập khẩu phim thực hiện theo Điều 17 Luật Điện ảnh 2022 và khoản 5 Điều 21 Nghị định 131/2022/NĐ-CP.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu PDF sao y bản chính của Tổng cục Hải quan (số 37/SY-TCHQ ngày 28-03-2023) trên Cổng Hải quan (id=84213, 2 trang, Cục trưởng Cục Điện ảnh - Bộ Văn hóa, Thể thao và Du lịch Vi Kiến Thành ký ngày 20-03-2023, SHA-256 82c062b3e2d3a336d6af3db3d8b41cf6b6a9f0df1a2e6a582f2fb0463ba94f26): thông báo kể từ ngày 01-01-2023 (ngày Luật Điện ảnh ngày 15-06-2022 và Nghị định 131/2022/NĐ-CP ngày 31-12-2022 có hiệu lực, khoản 5 Điều 21 NĐ 131/2022/NĐ-CP bãi bỏ Nghị định 22/2022/NĐ-CP sửa đổi Nghị định 32/2012/NĐ-CP), Cục Điện ảnh không cấp giấy phép nhập khẩu văn hóa phẩm và biên bản giám định văn hóa phẩm không nhằm mục đích kinh doanh có nội dung là phim nhập khẩu qua Hải quan; tổ chức, cá nhân nhập khẩu phim thực hiện cam kết bằng văn bản về nội dung phim không vi phạm Điều 9 theo Điều 17 Luật Điện ảnh 2022",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "295-da-pbp#3",
+   "slug": "295-da-pbp",
+   "duong_dan": "wiki/sources/295-da-pbp.md",
+   "loai_trang": "sources",
+   "tieu_de": "295/ĐA-PBP — V/v không cấp giấy phép nhập khẩu văn hóa phẩm không nhằm mục đích kinh doanh có nội dung là phim từ 01/01/2023",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/kiem-tra-chuyen-nganh]], [[concepts/thu-tuc-hai-quan-xnk]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
@@ -131878,6 +133352,100 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "3894-tchq-gsql-2024#1",
+   "slug": "3894-tchq-gsql-2024",
+   "duong_dan": "wiki/sources/3894-tchq-gsql-2024.md",
+   "loai_trang": "sources",
+   "tieu_de": "3894/TCHQ-GSQL — Về việc doanh nghiệp nội địa bán hàng hóa cho doanh nghiệp chế xuất",
+   "muc": "Tóm tắt",
+   "noi_dung": "**3894/TCHQ-GSQL** (ban hành **2024-08-16**, hiệu lực từ **2024-08-16**, cơ quan: **Tổng cục Hải quan**): Về việc doanh nghiệp nội địa bán hàng hóa cho doanh nghiệp chế xuất.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "3894-tchq-gsql-2024#2",
+   "slug": "3894-tchq-gsql-2024",
+   "duong_dan": "wiki/sources/3894-tchq-gsql-2024.md",
+   "loai_trang": "sources",
+   "tieu_de": "3894/TCHQ-GSQL — Về việc doanh nghiệp nội địa bán hàng hóa cho doanh nghiệp chế xuất",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Hướng dẫn trường hợp doanh nghiệp nội địa bán mặt hàng hơi nước cho DNCX làm nguyên liệu, vật tư tiêu hao trong quá trình sản xuất (không phải làm thủ tục hải quan theo khoản 2 Điều 74 TT 38/2015/TT-BTC sửa đổi tại TT 39/2018/TT-BTC) và định hướng phân loại mã HS 2853.90.90.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu PDF bản gốc trên Cổng Hải quan (id=96395, 2 trang, Phó Cục trưởng Cục GSQL Nguyễn Bắc Hải ký ngày 16-08-2024, SHA-256 336d2d136f9db0d76a2911f43fe6c7b51873eb259d3d940a933d0a3bbd366cad): hướng dẫn thủ tục hải quan và mã HS mặt hàng hơi nước khi doanh nghiệp nội địa bán cho DNCX làm nguyên liệu, vật tư tiêu hao phục vụ sản xuất (khoản 2 Điều 74 TT 38/2015/TT-BTC sửa đổi tại khoản 50 Điều 1 TT 39/2018/TT-BTC; mã HS tham khảo 2853.90.90 theo TT 31/2022/TT-BTC)\n- **Văn bản dẫn chiếu liên quan:** `54/2014/QH13`, `08/2015/NĐ-CP`, `38/2015/TT-BTC`, `39/2018/TT-BTC`, `31/2022/TT-BTC`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "38/2015/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-04-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-38-2015-tt-btc-9949.htm"
+    },
+    {
+     "so_hieu": "39/2018/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-06-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193970&pageid=27160"
+    },
+    {
+     "so_hieu": "31/2022/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-31-2022-tt-btc-37431.htm"
+    },
+    {
+     "so_hieu": "54/2014/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=175358&pageid=27160"
+    },
+    {
+     "so_hieu": "08/2015/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-03-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=178689&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "3894-tchq-gsql-2024#3",
+   "slug": "3894-tchq-gsql-2024",
+   "duong_dan": "wiki/sources/3894-tchq-gsql-2024.md",
+   "loai_trang": "sources",
+   "tieu_de": "3894/TCHQ-GSQL — Về việc doanh nghiệp nội địa bán hàng hóa cho doanh nghiệp chế xuất",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/thu-tuc-hai-quan-xnk]], [[concepts/phan-loai-ma-hs]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "39-2015-tt-btc#1",
    "slug": "39-2015-tt-btc",
    "duong_dan": "wiki/sources/39-2015-tt-btc.md",
@@ -132207,6 +133775,45 @@
      "nguon_a": "https://vanban.chinhphu.vn/?docid=193970&pageid=27160"
     }
    ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "3982-tchq-gsql#1",
+   "slug": "3982-tchq-gsql",
+   "duong_dan": "wiki/sources/3982-tchq-gsql.md",
+   "loai_trang": "sources",
+   "tieu_de": "3982/TCHQ-GSQL — V/v xử lý vướng mắc trong quá trình thực hiện Thông tư 23/2021/TT-BTC",
+   "muc": "Tóm tắt",
+   "noi_dung": "**3982/TCHQ-GSQL** (ban hành **2022-09-26**, hiệu lực từ **2022-09-26**, cơ quan: **Tổng cục Hải quan**): V/v xử lý vướng mắc trong quá trình thực hiện Thông tư 23/2021/TT-BTC.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "3982-tchq-gsql#2",
+   "slug": "3982-tchq-gsql",
+   "duong_dan": "wiki/sources/3982-tchq-gsql.md",
+   "loai_trang": "sources",
+   "tieu_de": "3982/TCHQ-GSQL — V/v xử lý vướng mắc trong quá trình thực hiện Thông tư 23/2021/TT-BTC",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Hướng dẫn nghiệp vụ hải quan thực hiện Thông tư 23/2021/TT-BTC về quản lý, thông quan, bàn giao, điều chuyển và thủ tục tạm xuất - tái nhập tem điện tử rượu, thuốc lá nhập khẩu.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu PDF ký số trên Cổng Hải quan (id=80999, 2 trang, Phó Tổng cục trưởng Mai Xuân Thành ký ngày 26-09-2022, SHA-256 f12032b3ac0390bd1df8bc119c51950fcbda240e915242f714d6e5871e2779bb): hướng dẫn Cục Hải quan các tỉnh, thành phố xử lý 4 nhóm vướng mắc khi thực hiện Thông tư 23/2021/TT-BTC ngày 30-03-2021 về in, phát hành, quản lý và sử dụng tem điện tử rượu và tem điện tử thuốc lá nhập khẩu: (1) phạm vi điều chỉnh: chỉ áp dụng cho rượu, thuốc lá nhập khẩu để kinh doanh tiêu dùng trong nước, hàng bán tại cửa hàng miễn thuế thực hiện theo Nghị định 100/2020/NĐ-CP; (2) thủ tục thông quan: sau khi hoàn thành thủ tục hải quan, Chi cục hải quan thông quan lô hàng và lập biên bản bàn giao tem điện tử tương ứng lượng hàng thực tế nhập khẩu để doanh nghiệp dán tem trước khi đưa ra thị trường (khoản 4 Điều 3 TT 23/2021/TT-BTC); (3) lập, điều chỉnh kế hoạch sử dụng tem điện tử trên Hệ thống trước 30/4 và 31/8, đăng ký bổ sung khi phát sinh nhu cầu nhập khẩu hoặc mua hàng tịch thu/đấu giá, và điều chuyển tem giữa các Chi cục/Cục Hải quan; (4) thủ tục mở tờ khai tạm xuất - tái nhập tem điện tử khi đưa tem ra cơ sở sản xuất ở nước ngoài để dán trên sản phẩm và xử lý báo cáo tem hư hỏng, nhàu nát",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "3982-tchq-gsql#3",
+   "slug": "3982-tchq-gsql",
+   "duong_dan": "wiki/sources/3982-tchq-gsql.md",
+   "loai_trang": "sources",
+   "tieu_de": "3982/TCHQ-GSQL — V/v xử lý vướng mắc trong quá trình thực hiện Thông tư 23/2021/TT-BTC",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/thu-tuc-hai-quan-xnk]], [[concepts/thue-gtgt-hang-nhap-khau]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
   {
@@ -136861,6 +138468,91 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "438-tchq-txnk-2025#1",
+   "slug": "438-tchq-txnk-2025",
+   "duong_dan": "wiki/sources/438-tchq-txnk-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "438/TCHQ-TXNK — Về việc thực hiện Quyết định 143/QĐ-BCT của Bộ Công Thương (áp dụng biện pháp chống bán phá giá chính thức đối với một số sản phẩm cáp thép dự ứng lực có xuất xứ từ Ma-lai-xi-a, Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa)",
+   "muc": "Tóm tắt",
+   "noi_dung": "**438/TCHQ-TXNK** (ban hành **2025-01-23**, hiệu lực từ **2025-01-29**, cơ quan: **Tổng cục Hải quan**): Về việc thực hiện Quyết định 143/QĐ-BCT của Bộ Công Thương (áp dụng biện pháp chống bán phá giá chính thức đối với một số sản phẩm cáp thép dự ứng lực có xuất xứ từ Ma-lai-xi-a, Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "143/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-29",
+     "het_hieu_luc_tu": "2030-01-29",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20143_ap%20thue%20chinh%20thuc%20AD17.pdf"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "438-tchq-txnk-2025#2",
+   "slug": "438-tchq-txnk-2025",
+   "duong_dan": "wiki/sources/438-tchq-txnk-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "438/TCHQ-TXNK — Về việc thực hiện Quyết định 143/QĐ-BCT của Bộ Công Thương (áp dụng biện pháp chống bán phá giá chính thức đối với một số sản phẩm cáp thép dự ứng lực có xuất xứ từ Ma-lai-xi-a, Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa)",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Hướng dẫn kê khai mã thuế chống bán phá giá chính thức trên hệ thống VNACCS (mã GK tại chỉ tiêu 1.95, các mã G160, G163, G170, G171 và mã theo từng nhà sản xuất/xuất khẩu) đối với cáp thép dự ứng lực (HS 7312.10.91, 7312.10.99; mã vụ việc AD17) theo Quyết định số 143/QĐ-BCT ngày 14/01/2025.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/1/24/438.TCHQ.pdf, id=98768, SHA-256 ac0f9a743a79c24af87a024247458fdcf9c5a00242459126152a6d375be0ee75): Công văn hỏa tốc số 438/TCHQ-TXNK ngày 23-01-2025 của Tổng cục Hải quan (Phó Tổng cục trưởng Âu Anh Tuấn ký, đính kèm toàn văn Quyết định số 143/QĐ-BCT) hướng dẫn các Cục Hải quan tỉnh, thành phố thực hiện Quyết định số 143/QĐ-BCT ngày 14-01-2025 của Bộ trưởng Bộ Công Thương về việc áp dụng biện pháp chống bán phá giá chính thức đối với sản phẩm cáp thép dự ứng lực (HS 7312.10.91 và 7312.10.99, mã vụ việc AD17) có xuất xứ từ Malaysia, Thái Lan và Trung Quốc (hướng dẫn khai báo mã G160 mức 12,06% đối với hàng xuất xứ Malaysia, G163 mức 11% đối với hàng xuất xứ Thái Lan, G170 mức 28% đối với hàng xuất xứ Trung Quốc khi không có/không khớp Giấy chứng nhận nhà sản xuất, và mã G171 mức 28% khi không nộp C/O); đang còn hiệu lực theo thời hạn 05 năm của Quyết định 143/QĐ-BCT (từ 29-01-2025 đến hết 28-01-2030)\n- **Văn bản dẫn chiếu liên quan:** `143/QĐ-BCT`, `38/2015/TT-BTC`, `39/2018/TT-BTC`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "143/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-29",
+     "het_hieu_luc_tu": "2030-01-29",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20143_ap%20thue%20chinh%20thuc%20AD17.pdf"
+    },
+    {
+     "so_hieu": "38/2015/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-04-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-38-2015-tt-btc-9949.htm"
+    },
+    {
+     "so_hieu": "39/2018/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-06-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193970&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "438-tchq-txnk-2025#3",
+   "slug": "438-tchq-txnk-2025",
+   "duong_dan": "wiki/sources/438-tchq-txnk-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "438/TCHQ-TXNK — Về việc thực hiện Quyết định 143/QĐ-BCT của Bộ Công Thương (áp dụng biện pháp chống bán phá giá chính thức đối với một số sản phẩm cáp thép dự ứng lực có xuất xứ từ Ma-lai-xi-a, Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa)",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/thue-chong-ban-pha-gia-thep]], [[concepts/thu-tuc-hai-quan-xnk]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "44-2024-qh15#1",
    "slug": "44-2024-qh15",
    "duong_dan": "wiki/sources/44-2024-qh15.md",
@@ -139240,6 +140932,77 @@
     "2026"
    ],
    "confidence": "medium",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "467-qd-chq-2025#1",
+   "slug": "467-qd-chq-2025",
+   "duong_dan": "wiki/sources/467-qd-chq-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "467/QĐ-CHQ — Về việc ban hành Quy trình kiểm tra, xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu",
+   "muc": "Tóm tắt",
+   "noi_dung": "**467/QĐ-CHQ** (ban hành **2025-04-29**, hiệu lực từ **2025-04-29**, cơ quan: **Cục Hải quan**): Về việc ban hành Quy trình kiểm tra, xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "467/QĐ-CHQ",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-04-29",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=99988&cid=1294"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "467-qd-chq-2025#2",
+   "slug": "467-qd-chq-2025",
+   "duong_dan": "wiki/sources/467-qd-chq-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "467/QĐ-CHQ — Về việc ban hành Quy trình kiểm tra, xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Quy trình nghiệp vụ kiểm tra, xác định xuất xứ hàng hóa XNK của Cục Hải quan từ 29-04-2025.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu PDF ký số bậc A trên Cổng Hải quan (VB_467.pdf, id=99988, 36 trang, Phó Cục trưởng Âu Anh Tuấn ký ngày 29-04-2025, SHA-256 b4daa7e13c814477d6bce30b62844391fe19dbdba567daa84eb3572f3248c09e): ban hành Quy trình kiểm tra, xác định xuất xứ hàng hóa XNK và 2 phụ lục; hiệu lực từ ngày ký, thay thế QĐ 4286/QĐ-TCHQ (2015) và QĐ 136/QĐ-TCHQ (2016)\n- **Văn bản dẫn chiếu liên quan:** `31/2018/NĐ-CP`, `33/2023/TT-BTC`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "31/2018/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-03-08",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193105&pageid=27160"
+    },
+    {
+     "so_hieu": "33/2023/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2023-07-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=208028&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "467-qd-chq-2025#3",
+   "slug": "467-qd-chq-2025",
+   "duong_dan": "wiki/sources/467-qd-chq-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "467/QĐ-CHQ — Về việc ban hành Quy trình kiểm tra, xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/quy-tac-xuat-xu]], [[concepts/thu-tuc-hai-quan-xnk]].",
+   "tags": [],
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -147187,6 +148950,107 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "581-chq-nvthq-2026#1",
+   "slug": "581-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/581-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "581/CHQ-NVTHQ — Về việc triển khai thực hiện Thông tư số 121/2025/TT-BTC ngày 18/12/2025 (hướng dẫn thủ tục xác nhận hoàn thành nghĩa vụ nộp thuế theo khoản 61 Điều 1 sửa đổi Điều 140 Thông tư số 38/2015/TT-BTC)",
+   "muc": "Tóm tắt",
+   "noi_dung": "**581/CHQ-NVTHQ** (ban hành **2026-01-07**, hiệu lực từ **2026-02-01**, cơ quan: **Cục Hải quan**): Về việc triển khai thực hiện Thông tư số 121/2025/TT-BTC ngày 18/12/2025 (hướng dẫn thủ tục xác nhận hoàn thành nghĩa vụ nộp thuế theo khoản 61 Điều 1 sửa đổi Điều 140 Thông tư số 38/2015/TT-BTC).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "121/2025/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-02-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-121-2025-tt-btc-468755.htm"
+    },
+    {
+     "so_hieu": "38/2015/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-04-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-38-2015-tt-btc-9949.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "581-chq-nvthq-2026#2",
+   "slug": "581-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/581-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "581/CHQ-NVTHQ — Về việc triển khai thực hiện Thông tư số 121/2025/TT-BTC ngày 18/12/2025 (hướng dẫn thủ tục xác nhận hoàn thành nghĩa vụ nộp thuế theo khoản 61 Điều 1 sửa đổi Điều 140 Thông tư số 38/2015/TT-BTC)",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Hướng dẫn thủ tục và thẩm quyền tiếp nhận hồ sơ xác nhận hoàn thành nghĩa vụ nộp thuế từ ngày 01/02/2026 theo khoản 61 Điều 1 Thông tư 121/2025/TT-BTC (mẫu điện tử số 05 Phụ lục IIa hoặc mẫu giấy 34/CVXNHT/NVTHQ Phụ lục VI nộp tại Chi cục HQ khu vực/đơn vị HQ gần nhất).\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/1/10/VB_581.pdf, id=102323, 2 trang, Phó Cục trưởng Nguyễn Thành Hưng ký ngày 07-01-2026, SHA-256 447c16824b77c86a3d8cdd21abdbf1ed0daa6034e7debcb0fd69132795f653e2): Công văn số 581/CHQ-NVTHQ ngày 07-01-2026 của Cục Hải quan hướng dẫn các Chi cục Hải quan khu vực triển khai khoản 61 Điều 1 Thông tư số 121/2025/TT-BTC ngày 18-12-2025 (sửa đổi, bổ sung Điều 140 Thông tư 38/2015/TT-BTC đã sửa đổi bởi khoản 71 Điều 1 Thông tư 39/2018/TT-BTC) kể từ ngày 01-02-2026: người nộp thuế hoặc cơ quan quản lý nhà nước có thẩm quyền gửi văn bản đề nghị xác nhận hoàn thành nghĩa vụ nộp thuế theo mẫu số 05 Phụ lục IIa qua Hệ thống xử lý dữ liệu điện tử hải quan, hoặc nộp hồ sơ giấy theo mẫu số 34/CVXNHT/NVTHQ Phụ lục VI đến Chi cục Hải quan khu vực hoặc đơn vị Hải quan nơi tổ chức, cá nhân có trụ sở chính, trụ sở chi nhánh hoặc cơ sở sản xuất gần nhất\n- **Văn bản dẫn chiếu liên quan:** `121/2025/TT-BTC`, `38/2015/TT-BTC`, `39/2018/TT-BTC`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "121/2025/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-02-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-121-2025-tt-btc-468755.htm"
+    },
+    {
+     "so_hieu": "38/2015/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-04-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-38-2015-tt-btc-9949.htm"
+    },
+    {
+     "so_hieu": "39/2018/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-06-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=193970&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "581-chq-nvthq-2026#3",
+   "slug": "581-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/581-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "581/CHQ-NVTHQ — Về việc triển khai thực hiện Thông tư số 121/2025/TT-BTC ngày 18/12/2025 (hướng dẫn thủ tục xác nhận hoàn thành nghĩa vụ nộp thuế theo khoản 61 Điều 1 sửa đổi Điều 140 Thông tư số 38/2015/TT-BTC)",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/thu-tuc-hai-quan-xnk]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "59-2018-nd-cp#1",
    "slug": "59-2018-nd-cp",
    "duong_dan": "wiki/sources/59-2018-nd-cp.md",
@@ -148427,6 +150291,45 @@
     "con-hieu-luc"
    ],
    "confidence": "medium",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "6156-tchq-gsql-2023#1",
+   "slug": "6156-tchq-gsql-2023",
+   "duong_dan": "wiki/sources/6156-tchq-gsql-2023.md",
+   "loai_trang": "sources",
+   "tieu_de": "6156/TCHQ-GSQL — Về việc thủ tục hải quan đối với hàng hóa gửi qua dịch vụ chuyển phát nhanh",
+   "muc": "Tóm tắt",
+   "noi_dung": "**6156/TCHQ-GSQL** (ban hành **2023-11-29**, hiệu lực từ **2023-11-29**, cơ quan: **Tổng cục Hải quan**): Về việc thủ tục hải quan đối với hàng hóa gửi qua dịch vụ chuyển phát nhanh.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "6156-tchq-gsql-2023#2",
+   "slug": "6156-tchq-gsql-2023",
+   "duong_dan": "wiki/sources/6156-tchq-gsql-2023.md",
+   "loai_trang": "sources",
+   "tieu_de": "6156/TCHQ-GSQL — Về việc thủ tục hải quan đối với hàng hóa gửi qua dịch vụ chuyển phát nhanh",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Hướng dẫn khai chỉ tiêu mã loại hình H11 (nhập khẩu), H21 (xuất khẩu) và cách ghi tờ khai giấy đối với hàng hóa gửi qua dịch vụ chuyển phát nhanh.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu PDF bản gốc trên Cổng Hải quan (id=89833, 1 trang, Phó Cục trưởng Cục GSQL Nguyễn Bắc Hải ký ngày 29-11-2023, SHA-256 50aa08d788599cbe6660387824a434cc842c0cd2996c1d1c018a2761cea6ebc6): hướng dẫn bổ sung Công văn 6110/TCHQ-GSQL ngày 24-11-2023 về khai báo tờ khai giấy hàng chuyển phát nhanh (khai tên hàng đại diện và mã HS tại ô 15, 16 tờ khai XK và ô 18, 19 tờ khai NK; mã loại hình H11 đối với NK và H21 đối với XK tại ô số 5; quy định số niêm phong tại Phụ lục II và chữ ký tại Phụ lục III)",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "6156-tchq-gsql-2023#3",
+   "slug": "6156-tchq-gsql-2023",
+   "duong_dan": "wiki/sources/6156-tchq-gsql-2023.md",
+   "loai_trang": "sources",
+   "tieu_de": "6156/TCHQ-GSQL — Về việc thủ tục hải quan đối với hàng hóa gửi qua dịch vụ chuyển phát nhanh",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/thu-tuc-hai-quan-xnk]].",
+   "tags": [],
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -152906,14 +154809,11 @@
    "slug": "71-2025-tt-bxd",
    "duong_dan": "wiki/sources/71-2025-tt-bxd.md",
    "loai_trang": "sources",
-   "tieu_de": "TT 71/2025/TT-BXD (bãi một phần bởi 49/2026/TT-BXD)",
-   "muc": "Summary",
-   "noi_dung": "**Thông tư 71/2025/TT-BXD** ngày 31/12/2025 - \"Sửa đổi, bổ sung một số điều của các Thông tư để cắt giảm, đơn giản hóa thủ tục hành chính trong lĩnh vực **đăng kiểm, hàng không dân dụng và thanh tra** thuộc BXD\".\n\n**Bị bãi MỘT PHẦN** từ 01/7/2026 theo Điều 6 khoản 3 điểm c TT 49/2026/TT-BXD:\n- Chương X\n- Phụ lục II\n- Phụ lục III\n\nPhần còn lại (ngoài Ch.X, PL II, PL III) **vẫn còn hiệu lực**.",
-   "tags": [
-    "bxd",
-    "bi-bai-bo-mot-phan"
-   ],
-   "confidence": "medium",
+   "tieu_de": "71/2025/TT-BXD — Sửa đổi, bổ sung các Thông tư về đăng kiểm, hàng không dân dụng và thanh tra BXD",
+   "muc": "Tóm tắt",
+   "noi_dung": "**Thông tư 71/2025/TT-BXD** (ban hành và có hiệu lực từ **31/12/2025** theo Điều 65; đăng Công báo số 90 ngày 08/02/2026) gồm **13 Chương, 66 Điều và 04 Phụ lục (Phụ lục I–IV)** sửa đổi, bổ sung một số điều của các Thông tư thuộc phạm vi quản lý của Bộ Xây dựng nhằm cắt giảm, đơn giản hóa thủ tục hành chính trong ba mảng: **hàng không dân dụng**, **đăng kiểm phương tiện GTVT** và **thanh tra xây dựng**.",
+   "tags": [],
+   "confidence": "high",
    "van_ban_lien_quan": [
     {
      "so_hieu": "71/2025/TT-BXD",
@@ -152926,16 +154826,6 @@
       "49/2026/TT-BXD"
      ],
      "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-71-2025-tt-bxd-468849.htm"
-    },
-    {
-     "so_hieu": "49/2026/TT-BXD",
-     "tinh_trang": "CON_HIEU_LUC",
-     "hieu_luc_tu": "2026-07-01",
-     "het_hieu_luc_tu": null,
-     "hieu_luc_da_doi_chieu": true,
-     "bi_thay_the_boi": [],
-     "bi_bai_bo_boi": [],
-     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd.signed.pdf"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -152945,14 +154835,11 @@
    "slug": "71-2025-tt-bxd",
    "duong_dan": "wiki/sources/71-2025-tt-bxd.md",
    "loai_trang": "sources",
-   "tieu_de": "TT 71/2025/TT-BXD (bãi một phần bởi 49/2026/TT-BXD)",
-   "muc": "Phần còn hiệu lực (giá trị tham chiếu)",
-   "noi_dung": "⚠️ **CHƯA đọc toàn văn** - chỉ biết phạm vi qua tên VB. Cần bổ sung nếu dùng lại.\n\n### Lĩnh vực còn hiệu lực\n- Đăng kiểm (phương tiện cơ giới đường bộ)\n- Hàng không dân dụng\n- Thanh tra BXD",
-   "tags": [
-    "bxd",
-    "bi-bai-bo-mot-phan"
-   ],
-   "confidence": "medium",
+   "tieu_de": "71/2025/TT-BXD — Sửa đổi, bổ sung các Thông tư về đăng kiểm, hàng không dân dụng và thanh tra BXD",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện hành:** **Hết hiệu lực một phần (`HET_HIEU_LUC_MOT_PHAN`)**.\n  - Từ `31/12/2025`: toàn bộ Thông tư có hiệu lực theo Điều 65.\n  - Từ **`01/07/2026`**: điểm c khoản 3 Điều 6 Thông tư [[sources/49-2026-tt-bxd]] bãi bỏ **Chương X (Điều 62)**, **Phụ lục II** và **Phụ lục III** (nội dung sửa đổi, thay thế danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Xây dựng/GTVT trước đây tại [[sources/12-2022-tt-bgtvt]] và [[sources/62-2024-tt-bgtvt]]).\n  - **Các phần vẫn còn hiệu lực:** Chương I–IX, Chương XI–XIII (Điều 1–61, Điều 63–66), Phụ lục I và Phụ lục IV.",
+   "tags": [],
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -152961,26 +154848,12 @@
    "slug": "71-2025-tt-bxd",
    "duong_dan": "wiki/sources/71-2025-tt-bxd.md",
    "loai_trang": "sources",
-   "tieu_de": "TT 71/2025/TT-BXD (bãi một phần bởi 49/2026/TT-BXD)",
-   "muc": "Phần bị bãi (ghi chú cẩn thận)",
-   "noi_dung": "Theo Điều 6 khoản 3 điểm c TT 49/2026/TT-BXD, các phần sau **hết hiệu lực từ 01/7/2026**:\n- **Chương X** (chưa rõ nội dung)\n- **Phụ lục II** (chưa rõ nội dung)\n- **Phụ lục III** (chưa rõ nội dung)\n\n→ Có thể liên quan đến danh mục KTCL phương tiện GTVT (sẽ thay bằng PL I + PL II của 49/2026/TT-BXD).",
-   "tags": [
-    "bxd",
-    "bi-bai-bo-mot-phan"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [
-    {
-     "so_hieu": "49/2026/TT-BXD",
-     "tinh_trang": "CON_HIEU_LUC",
-     "hieu_luc_tu": "2026-07-01",
-     "het_hieu_luc_tu": null,
-     "hieu_luc_da_doi_chieu": true,
-     "bi_thay_the_boi": [],
-     "bi_bai_bo_boi": [],
-     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd.signed.pdf"
-    }
-   ],
+   "tieu_de": "71/2025/TT-BXD — Sửa đổi, bổ sung các Thông tư về đăng kiểm, hàng không dân dụng và thanh tra BXD",
+   "muc": "Cấu trúc văn bản (13 Chương, 66 Điều, 04 Phụ lục)",
+   "noi_dung": "- **Chương I–VI (Điều 1–39):** Sửa đổi, bổ sung các Thông tư về quản lý, bảo đảm hoạt động bay, phương tiện/thiết bị kỹ thuật hàng không, bộ quy chế an toàn hàng không dân dụng, quy trình kiểm định kỹ thuật và thanh tra chuyên ngành.\n- **Chương VII–IX (Điều 40–61):** Sửa đổi quy trình, mẫu phiếu kiểm định an toàn kỹ thuật và bảo vệ môi trường đối với xe cơ giới, xe máy chuyên dùng, xe mô tô/xe gắn máy và phụ tùng (kèm **Phụ lục IV** và các mẫu phiếu kiểm soát).\n- **Chương X (Điều 62) & Phụ lục II, III *(đã bị bãi bỏ từ 01/07/2026)*:** Trước đây thay thế Phụ lục I, II ban hành kèm theo [[sources/12-2022-tt-bgtvt]] và [[sources/62-2024-tt-bgtvt]]; nay thực hiện theo danh mục hàng hóa kiểm tra chất lượng của [[sources/49-2026-tt-bxd]] ([[sources/49-pl1-2026-tt-bxd]] và [[sources/49-pl2-2026-tt-bxd]]).\n- **Chương XI–XIII (Điều 63–66):** Sửa đổi, bãi bỏ các quy định TTHC liên quan khác, quy định chuyển tiếp và hiệu lực thi hành từ **31/12/2025**.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
   {
@@ -152988,24 +154861,23 @@
    "slug": "71-2025-tt-bxd",
    "duong_dan": "wiki/sources/71-2025-tt-bxd.md",
    "loai_trang": "sources",
-   "tieu_de": "TT 71/2025/TT-BXD (bãi một phần bởi 49/2026/TT-BXD)",
-   "muc": "Cầu nối hs-code-api",
-   "noi_dung": "Tham khảo `data/ktcn-regime-2026.json` → `lists[bxd-ptgt]` (49/2026/TT-BXD) để thấy quan hệ thay thế.",
-   "tags": [
-    "bxd",
-    "bi-bai-bo-mot-phan"
-   ],
-   "confidence": "medium",
+   "tieu_de": "71/2025/TT-BXD — Sửa đổi, bổ sung các Thông tư về đăng kiểm, hàng không dân dụng và thanh tra BXD",
+   "muc": "Ý nghĩa áp dụng khi làm thủ tục XNK",
+   "noi_dung": "- Khi tra cứu **danh mục mã HS hàng hóa nhập khẩu phải kiểm tra chuyên ngành Bộ Xây dựng (phương tiện GTVT)** từ `01/07/2026` trở đi: **không dùng Chương X / Phụ lục II–III của 71/2025/TT-BXD**, mà áp dụng [[sources/49-2026-tt-bxd]] đồng bộ với khung rủi ro tại [[sources/37-2026-nd-cp]].\n- Các mẫu phiếu và quy trình đăng kiểm cơ giới chuyên ngành ngoài phạm vi Chương X vẫn áp dụng theo phần còn hiệu lực của `71/2025/TT-BXD`.",
+   "tags": [],
+   "confidence": "high",
    "van_ban_lien_quan": [
     {
-     "so_hieu": "49/2026/TT-BXD",
-     "tinh_trang": "CON_HIEU_LUC",
-     "hieu_luc_tu": "2026-07-01",
+     "so_hieu": "71/2025/TT-BXD",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2025-12-31",
      "het_hieu_luc_tu": null,
      "hieu_luc_da_doi_chieu": true,
      "bi_thay_the_boi": [],
-     "bi_bai_bo_boi": [],
-     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd.signed.pdf"
+     "bi_bai_bo_boi": [
+      "49/2026/TT-BXD"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-71-2025-tt-bxd-468849.htm"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -153015,26 +154887,12 @@
    "slug": "71-2025-tt-bxd",
    "duong_dan": "wiki/sources/71-2025-tt-bxd.md",
    "loai_trang": "sources",
-   "tieu_de": "TT 71/2025/TT-BXD (bãi một phần bởi 49/2026/TT-BXD)",
-   "muc": "Evidence",
-   "noi_dung": "- `registry/van-ban/71-2025-tt-bxd.yaml` (metadata cơ bản)\n- TT 49/2026/TT-BXD, Điều 6 khoản 3 điểm c (căn cứ bãi một phần)\n- Công báo số 468849 (URL: https://congbao.chinhphu.vn/van-ban/thong-tu-so-71-2025-tt-bxd-468849.htm)",
-   "tags": [
-    "bxd",
-    "bi-bai-bo-mot-phan"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [
-    {
-     "so_hieu": "49/2026/TT-BXD",
-     "tinh_trang": "CON_HIEU_LUC",
-     "hieu_luc_tu": "2026-07-01",
-     "het_hieu_luc_tu": null,
-     "hieu_luc_da_doi_chieu": true,
-     "bi_thay_the_boi": [],
-     "bi_bai_bo_boi": [],
-     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/49-bxd.signed.pdf"
-    }
-   ],
+   "tieu_de": "71/2025/TT-BXD — Sửa đổi, bổ sung các Thông tư về đăng kiểm, hàng không dân dụng và thanh tra BXD",
+   "muc": "Nguồn bậc A đối chiếu",
+   "noi_dung": "- Công báo Chính phủ số 90 ngày 08/02/2026 (`congbao.chinhphu.vn/van-ban/thong-tu-so-71-2025-tt-bxd-468849.htm`).\n- Bản PDF ký số Công báo: `raw/download/congbaocdn.chinhphu.vn/71-2025-tt-bxd.pdf` (`sha256: 0b...`, `xac_minh.dieu_khoan` trong `registry/van-ban/71-2025-tt-bxd.yaml`).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
   {
@@ -153042,46 +154900,11 @@
    "slug": "71-2025-tt-bxd",
    "duong_dan": "wiki/sources/71-2025-tt-bxd.md",
    "loai_trang": "sources",
-   "tieu_de": "TT 71/2025/TT-BXD (bãi một phần bởi 49/2026/TT-BXD)",
-   "muc": "Related concepts",
-   "noi_dung": "- [[concepts/kiem-tra-chat-luong-bxd]] — KTCL BXD",
-   "tags": [
-    "bxd",
-    "bi-bai-bo-mot-phan"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "71-2025-tt-bxd#7",
-   "slug": "71-2025-tt-bxd",
-   "duong_dan": "wiki/sources/71-2025-tt-bxd.md",
-   "loai_trang": "sources",
-   "tieu_de": "TT 71/2025/TT-BXD (bãi một phần bởi 49/2026/TT-BXD)",
-   "muc": "Related sources",
-   "noi_dung": "- [[sources/49-2026-tt-bxd]] — VB thay thế một phần\n- [[sources/49-pl1-2026-tt-bxd]] — PL I mới\n- [[sources/49-pl2-2026-tt-bxd]] — PL II mới",
-   "tags": [
-    "bxd",
-    "bi-bai-bo-mot-phan"
-   ],
-   "confidence": "medium",
-   "van_ban_lien_quan": [],
-   "canh_bao_hieu_luc": false
-  },
-  {
-   "chunk_id": "71-2025-tt-bxd#8",
-   "slug": "71-2025-tt-bxd",
-   "duong_dan": "wiki/sources/71-2025-tt-bxd.md",
-   "loai_trang": "sources",
-   "tieu_de": "TT 71/2025/TT-BXD (bãi một phần bởi 49/2026/TT-BXD)",
-   "muc": "Notes",
-   "noi_dung": "- **Chưa đọc toàn văn** - chỉ có metadata + quan hệ thay thế\n- Nếu cần tra cứu nội dung, xem Công báo trực tiếp\n- Tên VB ngắn gọn dễ gây nhầm với các TT 71 khác - cần verify số Công báo",
-   "tags": [
-    "bxd",
-    "bi-bai-bo-mot-phan"
-   ],
-   "confidence": "medium",
+   "tieu_de": "71/2025/TT-BXD — Sửa đổi, bổ sung các Thông tư về đăng kiểm, hàng không dân dụng và thanh tra BXD",
+   "muc": "Liên kết nội bộ",
+   "noi_dung": "- [[concepts/kiem-tra-chat-luong-bxd]] — Tổng hợp KTCN Bộ Xây dựng\n- [[sources/49-2026-tt-bxd]] ([[sources/49-pl1-2026-tt-bxd]], [[sources/49-pl2-2026-tt-bxd]]) — Văn bản thay thế danh mục KTCN phương tiện GTVT từ `01/07/2026`\n- [[sources/12-2022-tt-bgtvt]], [[sources/62-2024-tt-bgtvt]] — Các thông tư danh mục cũ liên quan",
+   "tags": [],
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -155256,6 +157079,97 @@
     "ma-hs",
     "thuoc-la"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "738-nvthq-pl-2026#1",
+   "slug": "738-nvthq-pl-2026",
+   "duong_dan": "wiki/sources/738-nvthq-pl-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "738/NVTHQ-PL — Về việc cập nhật Nghị định Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi theo Nghị quyết số 25/2026/NQ-CP ngày 30/4/2026 của Chính phủ",
+   "muc": "Tóm tắt",
+   "noi_dung": "**738/NVTHQ-PL** (ban hành **2026-04-30**, hiệu lực từ **2026-05-01**, cơ quan: **Cục Hải quan**): Về việc cập nhật Nghị định Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi theo Nghị quyết số 25/2026/NQ-CP ngày 30/4/2026 của Chính phủ.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "25/2026/NQ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-05-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=103502&cid=1294"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "738-nvthq-pl-2026#2",
+   "slug": "738-nvthq-pl-2026",
+   "duong_dan": "wiki/sources/738-nvthq-pl-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "738/NVTHQ-PL — Về việc cập nhật Nghị định Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi theo Nghị quyết số 25/2026/NQ-CP ngày 30/4/2026 của Chính phủ",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Bản gốc PDF ghi ngày ký 30/04/2026 (Cổng Hải quan đăng ngày 04/05/2026); hướng dẫn cập nhật biểu thuế trên hệ thống VNACCS/VCIS đối với thời hạn áp dụng Nghị định 72/2026/NĐ-CP và 3 mã hàng nguyên liệu sản xuất xăng, dầu (2710.19.20, 2710.19.89, 2711.19.00) tại Điều 2 Nghị quyết 25/2026/NQ-CP.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF bản gốc trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/5/4/VB_738.pdf, id=103502, SHA-256 3f7dc1d0f0256f41c86ac0612af5b41fa63d18973f49065b5eedb7b2b0aaa11e): Công văn hỏa tốc số 738/NVTHQ-PL ngày 30-04-2026 (đăng Cổng Hải quan ngày 04-05-2026) của Ban Nghiệp vụ thuế hải quan - Cục Hải quan (Phó Trưởng ban Đào Thu Hương ký) đề nghị Ban Công nghệ thông tin và Thống kê Hải quan cùng Văn phòng cập nhật trên hệ thống VNACCS/VCIS, hệ thống CCES và Website Cục Hải quan nội dung Nghị quyết số 25/2026/NQ-CP ngày 30-04-2026 của Chính phủ (kéo dài thời hạn áp dụng Nghị định số 72/2026/NĐ-CP ngày 09-03-2026 và cập nhật mức thuế suất thuế nhập khẩu ưu đãi 0% thay đổi của 3 mã hàng nguyên liệu sản xuất xăng, dầu tại Điều 2 Nghị quyết số 25/2026/NQ-CP trên hệ thống VNACCS/VCIS); đang còn hiệu lực (thời hạn áp dụng Nghị quyết 25/2026/NQ-CP và Nghị định 72/2026/NĐ-CP được Điều 1 Nghị quyết 43/2026/NQ-CP kéo dài đến hết ngày 31-12-2026)\n- **Văn bản dẫn chiếu liên quan:** `25/2026/NQ-CP`, `72/2026/NĐ-CP`, `26/2023/NĐ-CP`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "72/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-03-09",
+     "het_hieu_luc_tu": "2027-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-72-2026-nd-cp-469066.htm"
+    },
+    {
+     "so_hieu": "25/2026/NQ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-05-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=103502&cid=1294"
+    },
+    {
+     "so_hieu": "43/2026/NQ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-10-01",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=219739"
+    },
+    {
+     "so_hieu": "26/2023/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2023-07-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?docid=208020&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "738-nvthq-pl-2026#3",
+   "slug": "738-nvthq-pl-2026",
+   "duong_dan": "wiki/sources/738-nvthq-pl-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "738/NVTHQ-PL — Về việc cập nhật Nghị định Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi theo Nghị quyết số 25/2026/NQ-CP ngày 30/4/2026 của Chính phủ",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/thu-tuc-hai-quan-xnk]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
@@ -158308,6 +160222,77 @@
     "hai-quan",
     "hang-ton-dong"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "787-tchq-txnk-2025#1",
+   "slug": "787-tchq-txnk-2025",
+   "duong_dan": "wiki/sources/787-tchq-txnk-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "787/TCHQ-TXNK — Về việc cập nhật nghĩa vụ thuế theo Quyết định số 01/2025/QĐ-TTg ngày 03/01/2025 của Thủ tướng Chính phủ",
+   "muc": "Tóm tắt",
+   "noi_dung": "**787/TCHQ-TXNK** (ban hành **2025-02-18**, hiệu lực từ **2025-02-18**, cơ quan: **Tổng cục Hải quan**): Về việc cập nhật nghĩa vụ thuế theo Quyết định số 01/2025/QĐ-TTg ngày 03/01/2025 của Thủ tướng Chính phủ.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "01/2025/QĐ-TTg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-02-18",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=98391&cid=1294"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "787-tchq-txnk-2025#2",
+   "slug": "787-tchq-txnk-2025",
+   "duong_dan": "wiki/sources/787-tchq-txnk-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "787/TCHQ-TXNK — Về việc cập nhật nghĩa vụ thuế theo Quyết định số 01/2025/QĐ-TTg ngày 03/01/2025 của Thủ tướng Chính phủ",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Hướng dẫn nghiệp vụ tạo số tờ khai (quy tắc 11YYAAAAxxxx, loại hình A45), cập nhật thông báo thuế, hạch toán NSNN và trừ lùi ký quỹ trên hệ thống Kế toán thuế tập trung (KTTTT) đối với thuế GTGT hàng nhập khẩu trị giá thấp gửi qua chuyển phát nhanh theo Quyết định số 01/2025/QĐ-TTg.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/2/18/787.TCHQ-TXNK.pdf, id=99017, SHA-256 4068214721783d7ca49e6bf8f20a2826e5bc60292df39ad6276747d02ed4fdc5): Công văn hỏa tốc số 787/TCHQ-TXNK ngày 18-02-2025 của Tổng cục Hải quan (Phó Tổng cục trưởng Âu Anh Tuấn ký) hướng dẫn các Cục Hải quan tỉnh, thành phố cập nhật nghĩa vụ thuế GTGT phát sinh đối với hàng hóa nhập khẩu trị giá thấp nhóm 2 gửi qua dịch vụ chuyển phát nhanh trên hệ thống Kế toán thuế tập trung (KTTTT) theo Quyết định số 01/2025/QĐ-TTg và Công văn số 1813/BTC-TCHQ (quy tắc cấp số tờ khai 11YYAAAAxxxx loại hình A45 cho bảng kê 02-BKTKTGT đối với đường không, đường biển; nhập số tờ khai giấy đối với đường bộ, đường sắt; hạch toán thu NSNN, trừ lùi số tiền ký quỹ/bảo lãnh chung trên TK 138, TK 131, TK 132 theo Quyết định 1647/QĐ-TCHQ và Thông tư 191/2015/TT-BTC)\n- **Văn bản dẫn chiếu liên quan:** `01/2025/QĐ-TTg`, `1813/BTC-TCHQ`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "01/2025/QĐ-TTg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-02-18",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=98391&cid=1294"
+    },
+    {
+     "so_hieu": "191/2015/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2016-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=182774"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "787-tchq-txnk-2025#3",
+   "slug": "787-tchq-txnk-2025",
+   "duong_dan": "wiki/sources/787-tchq-txnk-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "787/TCHQ-TXNK — Về việc cập nhật nghĩa vụ thuế theo Quyết định số 01/2025/QĐ-TTg ngày 03/01/2025 của Thủ tướng Chính phủ",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/thue-gtgt-hang-nhap-khau]], [[concepts/thu-tuc-hai-quan-xnk]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
@@ -163801,6 +165786,191 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "8881-chq-gsql-2026#1",
+   "slug": "8881-chq-gsql-2026",
+   "duong_dan": "wiki/sources/8881-chq-gsql-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "8881/CHQ-GSQL — Kiểm dịch, kiểm tra nhà nước về ATTP đối với sản phẩm động vật, thủy sản nhập khẩu",
+   "muc": "Tóm tắt",
+   "noi_dung": "**Công văn hỏa tốc 8881/CHQ-GSQL** (ban hành ngày **04/02/2026**) của Cục Hải quan gửi Cục Chăn nuôi và Thú y (Bộ Nông nghiệp và Môi trường) kiến nghị hướng dẫn chuyển tiếp giải quyết thủ tục kiểm dịch kết hợp kiểm tra nhà nước về an toàn thực phẩm (ATTP) khi [[sources/46-2026-nd-cp]] thay thế [[sources/15-2018-nd-cp]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "8881-chq-gsql-2026#2",
+   "slug": "8881-chq-gsql-2026",
+   "duong_dan": "wiki/sources/8881-chq-gsql-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "8881/CHQ-GSQL — Kiểm dịch, kiểm tra nhà nước về ATTP đối với sản phẩm động vật, thủy sản nhập khẩu",
+   "muc": "Nội dung chính",
+   "noi_dung": "- Do [[sources/46-2026-nd-cp]] (ban hành ngày 26/01/2026) thay thế [[sources/15-2018-nd-cp]] nhưng chưa có điều khoản chuyển tiếp riêng cho trình tự kiểm tra ATTP đối với **sản phẩm động vật trên cạn, sản phẩm thủy sản nhập khẩu làm thực phẩm** (thuộc diện vừa kiểm dịch vừa kiểm tra ATTP), Cục Hải quan đề nghị Cục Chăn nuôi và Thú y xem xét hướng dẫn cho phép thông quan trên cơ sở **Giấy chứng nhận kiểm dịch nhập khẩu** (mẫu `15b`, mẫu `10TS`) tương tự Công văn 358/TY-KD ngày 08/03/2019 để kịp thời giải tỏa ùn tắc tại cửa khẩu.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "8881-chq-gsql-2026#3",
+   "slug": "8881-chq-gsql-2026",
+   "duong_dan": "wiki/sources/8881-chq-gsql-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "8881/CHQ-GSQL — Kiểm dịch, kiểm tra nhà nước về ATTP đối với sản phẩm động vật, thủy sản nhập khẩu",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Bản PDF gốc (4 trang, kèm Công văn 358/TY-KD) trên Cổng thông tin Hải quan (`id=102550`, SHA-256 `97e6e0c202...`), mức `NGUON_A`, `CON_HIEU_LUC`.\n- Liên kết chuyên đề: [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]], [[concepts/kiem-dich-dong-thuc-vat]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "8882-chq-gsql-2026#1",
+   "slug": "8882-chq-gsql-2026",
+   "duong_dan": "wiki/sources/8882-chq-gsql-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "8882/CHQ-GSQL — Về việc kiểm tra an toàn thực phẩm đối với dụng cụ, bao bì chứa đựng, tiếp xúc trực tiếp với thực phẩm",
+   "muc": "Tóm tắt",
+   "noi_dung": "**8882/CHQ-GSQL** (ban hành **2026-02-04**, hiệu lực từ **2026-02-04**, cơ quan: **Cục Hải quan**): Về việc kiểm tra an toàn thực phẩm đối với dụng cụ, bao bì chứa đựng, tiếp xúc trực tiếp với thực phẩm.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "8882-chq-gsql-2026#2",
+   "slug": "8882-chq-gsql-2026",
+   "duong_dan": "wiki/sources/8882-chq-gsql-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "8882/CHQ-GSQL — Về việc kiểm tra an toàn thực phẩm đối với dụng cụ, bao bì chứa đựng, tiếp xúc trực tiếp với thực phẩm",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Nêu rõ phạm vi dụng cụ, bao bì tiếp xúc trực tiếp với thực phẩm thuộc diện kiểm tra ATTP theo Thông tư 15/2024/TT-BYT, Thông tư 01/2024/TT-BNNPTNT, Quyết định 1182/QĐ-BCT và vướng mắc chuyển tiếp khi áp dụng Phụ lục II, III, IV Nghị định 46/2026/NĐ-CP.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/2/4/8882.pdf, id=102549, 2 trang, Phó Cục trưởng Âu Anh Tuấn ký ngày 04-02-2026, SHA-256 4c79f0e1c24e4341b9f8bb4b5fa660caecf7d0f0f5a0dccde9a14c46f97e917e): Công văn hỏa tốc số 8882/CHQ-GSQL ngày 04-02-2026 của Cục Hải quan gửi Bộ Y tế, Bộ Công Thương, Bộ Nông nghiệp và Môi trường trao đổi vướng mắc khi triển khai các Điều 4, 19, 21, 45, 46, 47 và Phụ lục II, III, IV Nghị định số 46/2026/NĐ-CP ngày 26-01-2026: trước đây theo các văn bản hướng dẫn Nghị định 15/2018/NĐ-CP (Thông tư 15/2024/TT-BYT, Thông tư 01/2024/TT-BNNPTNT, Quyết định 1182/QĐ-BCT) chỉ có Thông tư 15/2024/TT-BYT quy định kiểm tra nhà nước về ATTP đối với dụng cụ, bao bì bằng nhựa tổng hợp và núm vú bình ăn trẻ em bằng cao su; trong khi chờ ban hành văn bản hướng dẫn Nghị định 46/2026/NĐ-CP, Cục Hải quan đề nghị 3 Bộ có ý kiến đối với các mặt hàng dụng cụ, bao bì chứa đựng, tiếp xúc trực tiếp với thực phẩm nằm ngoài danh mục cũ có phải kiểm tra ATTP hay không\n- **Văn bản dẫn chiếu liên quan:** `46/2026/NĐ-CP`, `15/2018/NĐ-CP`, `15/2024/TT-BYT`, `01/2024/TT-BNNPTNT`, `1182/QĐ-BCT`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "15/2024/TT-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-11-02",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-15-2024-tt-byt-44656.htm"
+    },
+    {
+     "so_hieu": "01/2024/TT-BNNPTNT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-03-20",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?docid=209723&pageid=27160"
+    },
+    {
+     "so_hieu": "1182/QĐ-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2021-04-06",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "1725/QĐ-BCT"
+     ],
+     "bi_bai_bo_boi": [
+      "28/2026/TT-BCT"
+     ],
+     "nguon_a": "https://moit.gov.vn/van-ban-phap-luat/van-ban-dieu-hanh/quyet-dinh-ve-viec-ban-hanh-danh-muc-cac-mat-hang-nhap-khau-.html"
+    },
+    {
+     "so_hieu": "46/2026/NĐ-CP",
+     "tinh_trang": "TAM_NGUNG_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=216827&pageid=27160"
+    },
+    {
+     "so_hieu": "15/2018/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-02-02",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "46/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=192829&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "8882-chq-gsql-2026#3",
+   "slug": "8882-chq-gsql-2026",
+   "duong_dan": "wiki/sources/8882-chq-gsql-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "8882/CHQ-GSQL — Về việc kiểm tra an toàn thực phẩm đối với dụng cụ, bao bì chứa đựng, tiếp xúc trực tiếp với thực phẩm",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]], [[concepts/thu-tuc-hai-quan-xnk]], [[concepts/vat-lieu-bao-bi-tiep-xuc-thuc-pham]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "8883-chq-gsql-2026#1",
+   "slug": "8883-chq-gsql-2026",
+   "duong_dan": "wiki/sources/8883-chq-gsql-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "8883/CHQ-GSQL — Về việc thông quan thực phẩm nhập khẩu (triển khai Công điện số 08/CĐ-TTg ngày 03/02/2026 của Thủ tướng Chính phủ)",
+   "muc": "Tóm tắt",
+   "noi_dung": "**8883/CHQ-GSQL** (ban hành **2026-02-04**, hiệu lực từ **2026-02-04**, cơ quan: **Cục Hải quan**): Về việc thông quan thực phẩm nhập khẩu (triển khai Công điện số 08/CĐ-TTg ngày 03/02/2026 của Thủ tướng Chính phủ).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "8883-chq-gsql-2026#2",
+   "slug": "8883-chq-gsql-2026",
+   "duong_dan": "wiki/sources/8883-chq-gsql-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "8883/CHQ-GSQL — Về việc thông quan thực phẩm nhập khẩu (triển khai Công điện số 08/CĐ-TTg ngày 03/02/2026 của Thủ tướng Chính phủ)",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Chỉ đạo trực 24/7 giải quyết thông quan nhanh thực phẩm nhập khẩu theo Công điện 08/CĐ-TTg ngày 03/02/2026 và chế độ báo cáo tồn đọng theo 3 nhóm hàng tại Phụ lục II, III, IV Nghị định 46/2026/NĐ-CP.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF bản gốc trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/2/4/VBDI_8883.pdf.PDF, id=102552, 1 trang, Phó Cục trưởng Âu Anh Tuấn ký ngày 04-02-2026, SHA-256 d4e1737a17a2f63746619f1bd57a964d419b9af62e7c09910fb0be43e4b58847): Công văn hỏa tốc số 8883/CHQ-GSQL ngày 04-02-2026 của Cục Hải quan triển khai Công điện số 08/CĐ-TTg ngày 03-02-2026 của Thủ tướng Chính phủ về tháo gỡ ngay các vướng mắc, khó khăn trong kiểm tra thực phẩm, hàng hóa xuất nhập khẩu: (1) Chi cục trưởng các Chi cục Hải quan khu vực bố trí lãnh đạo, công chức trực 24/7 để giải quyết thông quan nhanh hàng hóa XNK, ưu tiên thông quan ngay thực phẩm nhập khẩu đã đảm bảo hồ sơ theo quy định và hướng dẫn của các Bộ chuyên ngành; báo cáo số liệu thực phẩm tồn đọng tại cảng chưa thông quan vào 8h00 và 13h30 hàng ngày theo 3 nhóm hàng hóa tại Phụ lục II, III, IV Nghị định 46/2026/NĐ-CP; (2) Ban CNTT và Thống kê hải quan bố trí cán bộ trực đảm bảo hệ thống xử lý dữ liệu điện tử hải quan hoạt động thông suốt\n- **Văn bản dẫn chiếu liên quan:** `46/2026/NĐ-CP`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "46/2026/NĐ-CP",
+     "tinh_trang": "TAM_NGUNG_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=216827&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "8883-chq-gsql-2026#3",
+   "slug": "8883-chq-gsql-2026",
+   "duong_dan": "wiki/sources/8883-chq-gsql-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "8883/CHQ-GSQL — Về việc thông quan thực phẩm nhập khẩu (triển khai Công điện số 08/CĐ-TTg ngày 03/02/2026 của Thủ tướng Chính phủ)",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]], [[concepts/thu-tuc-hai-quan-xnk]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "89-2018-nd-cp#1",
    "slug": "89-2018-nd-cp",
    "duong_dan": "wiki/sources/89-2018-nd-cp.md",
@@ -163961,6 +166131,80 @@
     "khai-bao-hai-quan"
    ],
    "confidence": "medium",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "8997-chq-nvthq-2026#1",
+   "slug": "8997-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/8997-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "8997/CHQ-NVTHQ — Về việc bổ sung Tuyển tập ý kiến phân loại của WCO tại phiên họp lần thứ 76 (WP76 và HSC76 tháng 09/2025)",
+   "muc": "Tóm tắt",
+   "noi_dung": "**8997/CHQ-NVTHQ** (ban hành **2026-02-04**, hiệu lực từ **2026-02-04**, cơ quan: **Cục Hải quan**): Về việc bổ sung Tuyển tập ý kiến phân loại của WCO tại phiên họp lần thứ 76 (WP76 và HSC76 tháng 09/2025).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "8997-chq-nvthq-2026#2",
+   "slug": "8997-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/8997-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "8997/CHQ-NVTHQ — Về việc bổ sung Tuyển tập ý kiến phân loại của WCO tại phiên họp lần thứ 76 (WP76 và HSC76 tháng 09/2025)",
+   "muc": "Nội dung chính",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Bản dịch song ngữ Anh - Việt Phụ lục bổ sung Tuyển tập ý kiến phân loại của WCO tại phiên họp lần thứ 76 (WP76 và HSC76 tháng 09/2025, 16 trang): ưu tiên áp dụng mô tả hàng hóa bằng tiếng Anh nếu có sự không thống nhất giữa bản tiếng Việt và tiếng Anh.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/2/24/VB_8997.pdf, id=102639, SHA-256 c421ab794e4156f5120260e9826689a06bb9af7d46a8951eb07a0beba426f3de): Công văn số 8997/CHQ-NVTHQ ngày 04-02-2026 của Cục Hải quan thông báo bổ sung Tuyển tập ý kiến phân loại của Tổ chức Hải quan Thế giới (WCO) theo kết quả phiên họp lần thứ 76 của Nhóm công tác và Ủy ban HS tại Brussels (Bỉ) tháng 09/2025 (WP76 và HSC76) làm tài liệu tham khảo phục vụ phân loại hàng hóa xuất khẩu, nhập khẩu theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam (gồm 18 ý kiến phân loại thuộc các phân nhóm: 2005.99 mục 5 đồ ăn nhẹ giòn từ bột đậu gà, bột gạo, đậu Hà Lan; 2106.90 mục 46 và 47 chế phẩm sản xuất đồ uống; 2309.90 mục 11, 12 và 13 chế phẩm premix dùng trong chăn nuôi động vật; 2607.00 mục 1 tinh quặng chì chứa galena; 2853.90 mục 1 Lithium bis(fluorosulfonyl)imide; 3004.90 mục 9 thuốc phòng ngừa triệu chứng lâm sàng ở động vật; 4407.91 mục 1 ván gỗ sồi chưa cắt cạnh cưa dọc; 5208.59 mục 1 vải cotton đã in 180 g/m2; 7116.20 mục 2 vòng tay dây da gắn đá; 7314.41 mục 1 lưới thép mạ kẽm cứng; 7326.20 mục 3 lồng chim bằng dây sắt; 8412.90 mục 1 cánh tua bin gió chưa sơn; 8422.30 mục 1 máy đóng viên nang cứng; 8543.40 mục 2 đầu pod tích hợp sẵn lõi đốt; 8543.90 mục 1 buồng chứa cartridge không kèm lõi đốt; 8705.40 mục 2 xe trộn bê tông tự nạp liệu; 8716.40 mục 1 sơ mi rơ-moóc chuyên dụng; 9304.00 mục 1 súng hơi hạng nhẹ Airsoft); trường hợp có sự không thống nhất giữa mô tả tiếng Việt và tiếng Anh thì áp dụng mô tả tiếng Anh; đang còn hiệu lực\n- **Văn bản dẫn chiếu liên quan:** `14/2015/TT-BTC`, `17/2021/TT-BTC`, `31/2022/TT-BTC`",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "14/2015/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2015-03-16",
+     "het_hieu_luc_tu": "2026-09-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "85/2026/TT-BTC"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-85-2026-tt-btc-469982.htm"
+    },
+    {
+     "so_hieu": "17/2021/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2021-04-12",
+     "het_hieu_luc_tu": "2026-09-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "85/2026/TT-BTC"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-85-2026-tt-btc-469982.htm"
+    },
+    {
+     "so_hieu": "31/2022/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-12-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-31-2022-tt-btc-37431.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "8997-chq-nvthq-2026#3",
+   "slug": "8997-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/8997-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "8997/CHQ-NVTHQ — Về việc bổ sung Tuyển tập ý kiến phân loại của WCO tại phiên họp lần thứ 76 (WP76 và HSC76 tháng 09/2025)",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Tình trạng pháp lý: `CON_HIEU_LUC`, mức xác minh: `NGUON_A` (đã chạy OCR toàn văn trong repo).\n- Tham chiếu liên quan: [[concepts/phan-loai-ma-hs]].",
+   "tags": [],
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },

@@ -226,6 +226,10 @@ flowchart LR
   n_113_2017_N__CP["113/2017/NĐ-CP<br/>hết hiệu lực"]
   n_108_2008_N__CP["108/2008/NĐ-CP<br/>hết hiệu lực"]
   n_26_2011_N__CP["26/2011/NĐ-CP<br/>hết hiệu lực"]
+  n_114_2026_VBHN_TT_BNNMT["114/2026/VBHN-TT-BNNMT<br/>còn hiệu lực"]
+  n_71_2010_TT_BNNPTNT["71/2010/TT-BNNPTNT<br/>chưa có trong sổ"]
+  n_15_2023_TT_BNNPTNT["15/2023/TT-BNNPTNT<br/>chưa có trong sổ"]
+  n_12_2025_TT_BNNMT["12/2025/TT-BNNMT<br/>chưa có trong sổ"]
   n_12_2022_TT_BGTVT["12/2022/TT-BGTVT<br/>hết hiệu lực"]
   n_41_2018_TT_BGTVT["41/2018/TT-BGTVT<br/>hết hiệu lực"]
   n_120_2024_N__CP["120/2024/NĐ-CP<br/>còn hiệu lực"]
@@ -369,6 +373,9 @@ flowchart LR
   n_111_2026_VBHN_TT_BNNMT -->|hợp nhất| n_15_2020_TT_BNNPTNT
   n_113_2017_N__CP -->|thay thế từ 2017-11-25| n_108_2008_N__CP
   n_113_2017_N__CP -->|thay thế từ 2017-11-25| n_26_2011_N__CP
+  n_114_2026_VBHN_TT_BNNMT -->|hợp nhất| n_71_2010_TT_BNNPTNT
+  n_114_2026_VBHN_TT_BNNMT -->|hợp nhất| n_15_2023_TT_BNNPTNT
+  n_114_2026_VBHN_TT_BNNMT -->|hợp nhất| n_12_2025_TT_BNNMT
   n_12_2022_TT_BGTVT -->|thay thế toàn bộ từ 2022-08-15| n_41_2018_TT_BGTVT
   n_120_2024_N__CP -->|sửa đổi| n_102_2020_N__CP
   n_129_2024_N__CP -->|sửa đổi| n_91_2016_N__CP
@@ -841,8 +848,17 @@ flowchart LR
   n_1175_Q__TTg["1175/QĐ-TTg<br/>hết hiệu lực"]
   n_127_Q__TTg["127/QĐ-TTg<br/>còn hiệu lực"]
   n_734_Q__TTg["734/QĐ-TTg<br/>hết hiệu lực"]
+  n_26_2026_TT_BCT["26/2026/TT-BCT<br/>còn hiệu lực"]
+  n_40_2025_TT_BCT["40/2025/TT-BCT<br/>còn hiệu lực"]
+  n_12_2018_TT_BCT["12/2018/TT-BCT<br/>hết hiệu lực một phần"]
+  n_11_2015_TT_BCT["11/2015/TT-BCT<br/>chưa có trong sổ"]
+  n_01_2026_TT_BCT["01/2026/TT-BCT<br/>còn hiệu lực"]
   n_124_2026_TT_BTC -->|sửa đổi bổ sung khoản 10 Điều 15 từ 2026-08-22| n_33_2023_TT_BTC
   n_126_Q__TTg -->|thay thế từ 2026-01-16| n_1175_Q__TTg
   n_127_Q__TTg -->|thay thế từ 2026-01-16| n_734_Q__TTg
+  n_26_2026_TT_BCT -->|sửa đổi| n_40_2025_TT_BCT
+  n_26_2026_TT_BCT -->|sửa đổi| n_12_2018_TT_BCT
+  n_26_2026_TT_BCT -->|sửa đổi| n_11_2015_TT_BCT
+  n_26_2026_TT_BCT -->|sửa đổi| n_01_2026_TT_BCT
 ```
 
