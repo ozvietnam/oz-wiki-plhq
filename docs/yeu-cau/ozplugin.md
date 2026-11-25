@@ -1,7 +1,6 @@
 # Yêu cầu tích hợp từ ozplugin ("Cổng OZ")
 
-> Chỉ là tài liệu yêu cầu; chủ kho quyết. Không merge từ phía ozplugin. Ngày viết: 2026-10-10.
-> Đã đối chiếu với `main` tại commit `64e133d`. Mục nào kho đã có thì ghi rõ "đã có" kèm `tệp:dòng`.
+> Chỉ là tài liệu yêu cầu khởi tạo (10/10/2026). **Cập nhật 25/11/2026:** Toàn bộ **W1–W4 đã hoàn tất** trên `main` (lược đồ `1.5.0`, phát hành bất biến GitHub Release `dist-YYYY-MM-DD` kèm `SHA256SUMS`, hợp đồng trường ổn định trong `docs/tich-hop.md`, chuỗi CC BY 4.0 thống nhất trong `README.md` / `LICENSE.md` / `dist/*.json` / `site/`).
 
 ## Bối cảnh
 
@@ -14,12 +13,12 @@ Cổng chỉ **đọc**; sai dữ liệu thì mở issue "Sai hiệu lực" (`do
 
 ## Tóm tắt
 
-| # | Yêu cầu | Hiện trạng |
+| # | Yêu cầu | Hiện trạng (cập nhật 25/11/2026) |
 |---|---|---|
-| W1 | Số phiên bản lược đồ cho tệp máy | Chưa có |
-| W2 | Phát hành ổn định, không phụ thuộc HEAD | Một phần (URL `main` ổn định, chưa có bản gắn thẻ) |
-| W3 | Giữ ổn định các trường Cổng đọc | Đã có đủ trường; chưa có cam kết ổn định |
-| W4 | Chuỗi ghi nguồn và miễn trừ | Chuỗi ghi nguồn đã có, hai nơi viết khác nhau |
+| W1 | Số phiên bản lược đồ cho tệp máy | **Đã xong** (`LUOC_DO_PHIEN_BAN = "1.5.0"`, xuất kèm lịch sử lược đồ & test semver) |
+| W2 | Phát hành ổn định, không phụ thuộc HEAD | **Đã xong** (`.github/workflows/bao-hs-code-api.yml` phát hành Release `dist-YYYY-MM-DD` + `SHA256SUMS` + `releases/latest/download/`) |
+| W3 | Giữ ổn định các trường Cổng đọc | **Đã xong** (hợp đồng trường khóa tại `docs/tich-hop.md`, thêm `dist/hs-index-theo-ma.json` & `tools/mcp-server.mjs`) |
+| W4 | Chuỗi ghi nguồn và miễn trừ | **Đã xong** (thống nhất chuỗi CC BY 4.0 tại `README.md`, `LICENSE.md`, mọi `dist/*.json`, MCP/CLI & Web V2) |
 
 ## W1. Phiên bản lược đồ cho dữ liệu máy
 

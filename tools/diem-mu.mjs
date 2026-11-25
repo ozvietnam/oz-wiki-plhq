@@ -139,8 +139,11 @@ function kiemTraChatLuongDocHieu({ root, so, add }) {
     const nhanVb = d ? `${d.so_hieu} (data/doc-hieu/${f})` : `data/doc-hieu/${f}`;
     const raw = readFileSync(join(dhDir, f), 'utf8');
     let soRac = 0;
+    let soMaHs = 0;
     let soHopLe = 0;
     let soThieuNghiaVu = 0;
+    let soDieuThuc = 0;
+    let soDieuThucThieuNv = 0;
     for (const line of raw.split(/\r?\n/)) {
       const s = line.trim();
       if (!s) continue;
@@ -155,11 +158,20 @@ function kiemTraChatLuongDocHieu({ root, so, add }) {
         soRac += 1;
         continue;
       }
+      const dieuStr = String(rec.dieu || '').trim();
+      if (/^\d{2}\.\d{2}\b|^\d{4}\.\d{2}\b/.test(dieuStr)) {
+        soMaHs += 1;
+        continue;
+      }
       soHopLe += 1;
       const nv = Array.isArray(rec.nghia_vu_xnk)
         ? rec.nghia_vu_xnk.map(String).filter((x) => x.trim())
         : [];
       if (!nv.length) soThieuNghiaVu += 1;
+      if (/^Điều\s+\d+/i.test(dieuStr)) {
+        soDieuThuc += 1;
+        if (!nv.length) soDieuThucThieuNv += 1;
+      }
     }
     if (soRac > 0) {
       add(
@@ -171,14 +183,18 @@ function kiemTraChatLuongDocHieu({ root, so, add }) {
         'doc-hieu',
       );
     }
-    if (soHopLe > 0 && soThieuNghiaVu * 2 >= soHopLe) {
-      const tyLe = Math.round((soThieuNghiaVu * 100) / soHopLe);
+    // Với tệp tách biểu thuế/chú giải HS (≥50% dòng là mã HS), chỉ đánh giá thiếu nghĩa vụ trên các dòng "Điều N" thực sự.
+    const laBangBieuThue = soMaHs > 0 && soMaHs >= soHopLe;
+    const mauSo = laBangBieuThue ? soDieuThuc : soHopLe;
+    const tuSo = laBangBieuThue ? soDieuThucThieuNv : soThieuNghiaVu;
+    if (mauSo > 0 && tuSo * 2 >= mauSo) {
+      const tyLe = Math.round((tuSo * 100) / mauSo);
       add(
         'DOC_HIEU_THIEU_NGHIA_VU',
         MUC.THAP,
-        `${nhanVb}: ${soThieuNghiaVu}/${soHopLe} (${tyLe}%) điều hợp lệ trống nghia_vu_xnk`,
+        `${nhanVb}: ${tuSo}/${mauSo} (${tyLe}%) điều hợp lệ trống nghia_vu_xnk`,
         mucTieu,
-        `Soát tay data/doc-hieu/${f}: ${soThieuNghiaVu}/${soHopLe} điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.`,
+        `Soát tay data/doc-hieu/${f}: ${tuSo}/${mauSo} điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.`,
         'doc-hieu',
       );
     }
@@ -393,8 +409,12 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
     }
   }
 
-  // D11 — số hiệu nhắc trong wiki chưa có trong sổ
-  const daDangKy = new Set(so.vanBan.map((d) => khoa(d.so_hieu)));
+  // D11 — số hiệu nhắc trong wiki chưa có trong sổ (kể cả so_hieu_khac)
+  const daDangKy = new Set();
+  for (const d of so.vanBan) {
+    daDangKy.add(khoa(d.so_hieu));
+    for (const alias of d.so_hieu_khac || []) daDangKy.add(khoa(alias));
+  }
   const nhacWiki = new Map();
   for (const f of quetWiki(root)) {
     const txt = readFileSync(f, 'utf8');
