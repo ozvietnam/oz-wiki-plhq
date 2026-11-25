@@ -1,0 +1,41 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 45/2016/TT-BTC
+loai: THONG_TU
+ten: Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí sử dụng đường bộ trạm thu phí tại Km1064+730 quốc lộ 1, tỉnh Quảng Ngãi
+co_quan: BTC
+ngay_ban_hanh: '2016-03-04'
+hieu_luc_tu: '2016-05-01'
+tinh_trang: HET_HIEU_LUC
+nhanh:
+  - chua-phan-loai
+nguon:
+  - url: https://chinhphu.vn/?pageid=27160&docid=184142
+    truy_cap: '2026-11-25'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/04/45-btc.signed.pdf
+    truy_cap: '2026-11-25'
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/45-2016-tt-btc.pdf
+  - raw/ocr/45-2016-tt-btc.ocr.txt
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu Cổng TTĐT Chính phủ (docid=184142) và PDF ký số 4 trang đã OCR (SHA-256 44c19b5e2e8a...): Thứ trưởng Vũ Thị Mai ký ngày 04-03-2016, hiệu lực 01-05-2016; quy định phí BOT trạm thu phí cũ, đã hết hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-25'
+  boi: antigravity@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Đối tượng áp dụng Đối tượng áp dụng thu phí sử dụng đường bộ trạm thu phí tại Km 1064 + 30 quốc lộ 1, tỉnh Quảng Ngãi thực hiện theo quy định tại Điều 3, Điều 4 và Điều 5 Thông tư số 159/2013/TT-BTC ngày 14/11/2013 của Bộ Tài chính hướng dẫn chế độ thu, nộp, quản lý và sử dụng phí sử dụng đường bộ để hoàn vốn đầu tư xây dựng đường bộ.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Biểu mức thu Ban hành kèm theo Thong tư này Biểu mức thu phi sử dung đường bộ trạm thu phí tại Km 1064 + 730 quốc lộ 1, tỉnh Quảng Ngãi (Mức thu đã bao gồm thuế giá trị gia tăng).
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Chứng từ thu phí Chứng từ thu phí sử dụng đường bộ trạm thu phí tại Km 1064 + 730 quốc lộ 1, tỉnh Quảng Ngãi thực hiện theo quy định tại Điều 9 Thông tư số 159/2013/TT-BTC.
+      trang_pdf: 1
+    - dieu: 4
+      noi_dung: Điều 4. Quản lý, sử dụng tiền phí thu được 1. Phí sử dụng đường bộ tram thu phí tại Km 1064 + 730 quốc lộ 1, tỉnh Quản Ngãi được thu, nộp, quản lý, sử dụng theo quy định tại Điều 8 Thông tư số 1
+      trang_pdf: 1
+    - dieu: 5
+      noi_dung: 'Điều 5. Té chức thưc hiên 1. Thông tư này có hiệu lực thi hành ké từ ngày 01 tháng 5 năm 2016. Thời gian bắt đầu thu phí theo mức phí tại Thông tư này kể từ khi có đủ điều kiện sau: a) Dự án được Bộ Giao thông vận tải cho phép và đã thực hiện nghiệm thu hoàn thành, đưa vào sử dụng: b) Được Bộ Giao thông vận tải ban hành Quyết định cho phép thu phí.'
+      trang_pdf: 2
+ghi_chu: 'Nạp từ nhu cầu khách tra (issue [miss] #392). Thông tư phí BOT quốc lộ 1 Quảng Ngãi (chế độ phí cũ).'

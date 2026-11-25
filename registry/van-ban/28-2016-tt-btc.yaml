@@ -1,0 +1,29 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 28/2016/TT-BTC
+loai: THONG_TU
+ten: >-
+  Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí sử dụng đường bộ trạm thu phí tại Km152+080 quốc lộ 1, tỉnh
+  Bắc Ninh
+co_quan: BTC
+ngay_ban_hanh: '2016-02-22'
+hieu_luc_tu: '2016-04-08'
+tinh_trang: HET_HIEU_LUC
+nhanh:
+  - chua-phan-loai
+nguon:
+  - url: https://chinhphu.vn/?pageid=27160&docid=184235
+    truy_cap: '2026-11-25'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/04/28-btc.signed.pdf
+    truy_cap: '2026-11-25'
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/28-2016-tt-btc.pdf
+  - raw/ocr/28-2016-tt-btc.ocr.txt
+xac_minh:
+  muc: NGUON_A
+  pham_vi: >-
+    đối chiếu Cổng TTĐT Chính phủ (docid=184235) và PDF ký số 4 trang đã OCR (SHA-256 7ae830e557e8...): Thứ trưởng Vũ
+    Thị Mai ký ngày 22-02-2016, hiệu lực 08-04-2016; quy định phí BOT trạm thu phí cũ, đã hết hiệu lực
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-25'
+  boi: antigravity@ozvietnam
+ghi_chu: 'Nạp từ nhu cầu khách tra (issue [miss] #408). Thông tư phí BOT quốc lộ 1 Bắc Ninh (chế độ phí cũ).'
