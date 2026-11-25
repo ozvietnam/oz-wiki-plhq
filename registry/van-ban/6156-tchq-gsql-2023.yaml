@@ -1,0 +1,26 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 6156/TCHQ-GSQL
+so_hieu_khac:
+  - 6156/TCHQ-GSQL/2023
+loai: CONG_VAN
+ten: 'Về việc thủ tục hải quan đối với hàng hóa gửi qua dịch vụ chuyển phát nhanh'
+co_quan: TCHQ
+ngay_ban_hanh: '2023-11-29'
+hieu_luc_tu: '2023-11-29'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - hai-quan/thu-tuc
+  - hai-quan/loai-hinh
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=89833&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/12/4/CV61562023TCHQ.PDF
+    truy_cap: '2026-11-24'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu PDF bản gốc trên Cổng Hải quan (id=89833, 1 trang, Phó Cục trưởng Cục GSQL Nguyễn Bắc Hải ký ngày 29-11-2023, SHA-256 50aa08d788599cbe6660387824a434cc842c0cd2996c1d1c018a2761cea6ebc6): hướng dẫn bổ sung Công văn 6110/TCHQ-GSQL ngày 24-11-2023 về khai báo tờ khai giấy hàng chuyển phát nhanh (khai tên hàng đại diện và mã HS tại ô 15, 16 tờ khai XK và ô 18, 19 tờ khai NK; mã loại hình H11 đối với NK và H21 đối với XK tại ô số 5; quy định số niêm phong tại Phụ lục II và chữ ký tại Phụ lục III)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+ghi_chu: 'Hướng dẫn khai chỉ tiêu mã loại hình H11 (nhập khẩu), H21 (xuất khẩu) và cách ghi tờ khai giấy đối với hàng hóa gửi qua dịch vụ chuyển phát nhanh.'
+toan_van: raw/download/files.customs.gov.vn/6156-tchq-gsql-2023.pdf

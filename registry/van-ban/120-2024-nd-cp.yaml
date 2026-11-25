@@ -1,0 +1,34 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 120/2024/NĐ-CP
+loai: NGHI_DINH
+ten: 'Sửa đổi, bổ sung một số điều của Nghị định số 102/2020/NĐ-CP ngày 01 tháng 9 năm 2020 của Chính phủ quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam'
+co_quan: CP
+ngay_ban_hanh: '2024-09-30'
+hieu_luc_tu: '2024-11-15'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - kiem-tra-chuyen-nganh/bnnmt
+  - quan-ly-ngoai-thuong/giay-phep
+quan_he:
+  sua_doi:
+    - 102/2020/NĐ-CP
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=96974&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2024/10/10/ND120%20sdbs%20quy%20dinh%20ve%20go.pdf
+    truy_cap: '2026-11-24'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu PDF trên Cổng Hải quan (id=96974, 27 trang, Phó Thủ tướng Trần Hồng Hà ký ngày 30-09-2024, SHA-256 a0b99b467b12986a9cb737b32124c90a509daef17a9a63449ed370fdfb1101a6): sửa đổi, bổ sung NĐ 102/2020/NĐ-CP về VNTLAS, hồ sơ gỗ nhập khẩu/xuất khẩu, phân loại doanh nghiệp và cấp phép FLEGT; hiệu lực từ 15-11-2024 (riêng phân loại đối tượng ngoài doanh nghiệp chế biến và xuất khẩu gỗ có hiệu lực sau 18 tháng)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Sửa đổi, bổ sung các Điều 1, 3, 4, 5, 6, 7, 8, 9, 10, Chương III (Điều 11, 12, 13), Điều 14, 15, 16, 27 và 28 của Nghị định 102/2020/NĐ-CP.'
+      sha256_pdf: a0b99b467b12986a9cb737b32124c90a509daef17a9a63449ed370fdfb1101a6
+    - dieu: 5
+      noi_dung: 'Có hiệu lực từ ngày 15-11-2024; quy định phân loại đối với đối tượng ngoài doanh nghiệp chế biến và xuất khẩu gỗ có hiệu lực sau 18 tháng.'
+      sha256_pdf: a0b99b467b12986a9cb737b32124c90a509daef17a9a63449ed370fdfb1101a6
+ghi_chu: 'Sửa đổi, bổ sung Nghị định 102/2020/NĐ-CP về Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS), thay thế các Mẫu số 01, 04, 05, 06, 08, 14 Phụ lục I và Phụ lục II, bãi bỏ Mẫu số 02, 03 Phụ lục I và Phụ lục III.'
+toan_van: raw/download/files.customs.gov.vn/120-2024-nd-cp.pdf
