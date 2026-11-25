@@ -1,0 +1,31 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 8881/CHQ-GSQL
+so_hieu_khac:
+  - 8881/CHQ-GSQL/2026
+loai: CONG_VAN
+ten: 'Về việc kiểm dịch, kiểm tra nhà nước về an toàn thực phẩm đối với các lô hàng là sản phẩm động vật, thủy sản nhập khẩu làm thực phẩm'
+co_quan: CHQ
+ngay_ban_hanh: '2026-02-04'
+hieu_luc_tu: '2026-02-04'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - kiem-tra-chuyen-nganh/an-toan-thuc-pham
+  - kiem-tra-chuyen-nganh/kiem-dich
+  - hai-quan/thu-tuc
+quan_he:
+  huong_dan:
+    - 46/2026/NĐ-CP
+    - 15/2018/NĐ-CP
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=102550&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/2/4/VB_8881.pdf.PDF
+    truy_cap: '2026-11-24'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF bản gốc trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/2/4/VB_8881.pdf.PDF, id=102550, 4 trang gồm cả công văn 358/TY-KD ngày 08-03-2019 đính kèm, Phó Cục trưởng Âu Anh Tuấn ký ngày 04-02-2026, SHA-256 97e6e0c20223be02fc26763d238211c6923aa116addf391fca3f51e97a4775d8): Công văn hỏa tốc số 8881/CHQ-GSQL ngày 04-02-2026 của Cục Hải quan gửi Cục Chăn nuôi và Thú y (Bộ Nông nghiệp và Môi trường) phản ánh vướng mắc khi Nghị định số 46/2026/NĐ-CP ngày 26-01-2026 thay thế Nghị định 15/2018/NĐ-CP nhưng chưa có quy định chuyển tiếp về trình tự, thủ tục kiểm tra ATTP đối với sản phẩm động vật trên cạn, sản phẩm thủy sản nhập khẩu làm thực phẩm (vừa phải kiểm dịch vừa phải kiểm tra ATTP), đề nghị Cục Chăn nuôi và Thú y xem xét hướng dẫn thực hiện thông quan trên cơ sở Giấy chứng nhận kiểm dịch nhập khẩu (mẫu 15b, mẫu 10TS) như đã hướng dẫn tại công văn 358/TY-KD ngày 08-03-2019 để kịp thời giải tỏa ùn tắc tại cửa khẩu'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+ghi_chu: 'Phản ánh vướng mắc chuyển tiếp của Nghị định 46/2026/NĐ-CP và đề xuất tháo gỡ thủ tục kiểm dịch kết hợp kiểm tra nhà nước về ATTP đối với sản phẩm động vật trên cạn, thủy sản nhập khẩu làm thực phẩm.'
+toan_van: raw/download/files.customs.gov.vn/8881-chq-gsql-2026.pdf
