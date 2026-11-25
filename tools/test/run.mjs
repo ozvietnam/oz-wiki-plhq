@@ -642,6 +642,18 @@ t('lược đồ: hai tệp máy có luoc_do_phien_ban khớp semver và bằng 
   semverOk(regDist.luoc_do_phien_ban) && semverOk(hsDist.luoc_do_phien_ban) && regDist.luoc_do_phien_ban === hsDist.luoc_do_phien_ban,
   JSON.stringify({ reg: regDist.luoc_do_phien_ban, hs: hsDist.luoc_do_phien_ban }));
 
+// 10. WIKI_NHAC_CHUA_DANG_KY không báo giả khi số hiệu nằm trong so_hieu_khac
+const rAliasWiki = soGia({
+  'qcvn-12-4-2015-byt.yaml': `so_hieu: QCVN 12-4:2015/BYT\nso_hieu_khac:\n  - 35/2015/TT-BYT\nloai: TIEU_CHUAN\nten: QCVN bao bì\nco_quan: BYT\ntinh_trang: CON_HIEU_LUC\nnhanh: [chua-phan-loai]\n${XM}\n`,
+});
+mkdirSync(join(rAliasWiki, 'wiki', 'sources'), { recursive: true });
+writeFileSync(join(rAliasWiki, 'wiki', 'sources', 'qcvn-12-4-2015-byt.md'), 'Ban hành kèm Thông tư 35/2015/TT-BYT và chưa có 999/2099/TT-BTC.\n');
+const dmAliasWiki = timDiemMu(napSo(rAliasWiki), { today: '2026-11-25', root: rAliasWiki, nhuCau: null });
+t('điểm mù: WIKI_NHAC_CHUA_DANG_KY nhận diện so_hieu_khac, chỉ báo số hiệu thực sự thiếu',
+  !dmAliasWiki.some((d) => d.ma === 'WIKI_NHAC_CHUA_DANG_KY' && d.muc_tieu === '35/2015/TT-BYT')
+  && dmAliasWiki.some((d) => d.ma === 'WIKI_NHAC_CHUA_DANG_KY' && d.muc_tieu === '999/2099/TT-BTC'),
+  JSON.stringify(dmAliasWiki.filter((d) => d.ma === 'WIKI_NHAC_CHUA_DANG_KY')));
+
 function readFileSyncSafe(p) { try { return readFileSync(join(ROOT, p), 'utf8'); } catch { return null; } }
 function execSyncNode(cmd) { return execSync(cmd, { cwd: ROOT, encoding: 'utf8' }); }
 function existsSyncSafe(p) { try { return existsSync(join(ROOT, p)); } catch { return false; } }

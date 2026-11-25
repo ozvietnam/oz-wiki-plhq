@@ -288,6 +288,7 @@ const rDh = soGia({
   '10-2024-tt-btc.yaml': `so_hieu: 10/2024/TT-BTC\nloai: THONG_TU\nten: Thông tư 1 dòng trống nghĩa vụ\nco_quan: BTC\ntinh_trang: CON_HIEU_LUC\nnhanh: [hai-quan/thu-tuc]\n${XM_A}\n`,
   '11-2024-tt-btc.yaml': `so_hieu: 11/2024/TT-BTC\nloai: THONG_TU\nten: Thông tư dưới ngưỡng 50%\nco_quan: BTC\ntinh_trang: CON_HIEU_LUC\nnhanh: [hai-quan/thu-tuc]\n${XM_A}\n`,
   '12-2024-tt-btc.yaml': `so_hieu: 12/2024/TT-BTC\nloai: THONG_TU\nten: Thông tư chỉ có dòng rác\nco_quan: BTC\ntinh_trang: CON_HIEU_LUC\nnhanh: [hai-quan/thu-tuc]\n${XM_A}\n`,
+  '31-2022-tt-btc.yaml': `so_hieu: 31/2022/TT-BTC\nloai: THONG_TU\nten: Danh mục HS\nco_quan: BTC\ntinh_trang: CON_HIEU_LUC\nnhanh: [phan-loai-hs]\n${XM_A}\n`,
 }, {
   docHieu: {
     // 2 rác (-, N/A), 1 JSON hỏng, 2 hợp lệ (1 có NV, 1 trống → 1/2 = 50% đạt ngưỡng)
@@ -311,6 +312,11 @@ const rDh = soGia({
       JSON.stringify({ dieu: '', ten: 'Trống', nghia_vu_xnk: [] }),
       JSON.stringify({ dieu: '—', ten: 'Gạch dài', nghia_vu_xnk: [] }),
     ].join('\n') + '\n',
+    // Các dòng nhóm/phân nhóm HS (84.53, 8453.10 - ...) trong biểu thuế không tính vào mẫu số DOC_HIEU_THIEU_NGHIA_VU
+    'tt-31-2022-cb-549-550.dieu.jsonl': [
+      JSON.stringify({ dieu: '84.53', ten: 'Máy thuộc da', nghia_vu_xnk: [] }),
+      JSON.stringify({ dieu: '8453.10 - Máy dùng để sơ chế', ten: 'Chi tiết', nghia_vu_xnk: [] }),
+    ].join('\n') + '\n',
   },
 });
 
@@ -327,12 +333,12 @@ try {
     && !dhRac.some((d) => ['10/2024/TT-BTC', '11/2024/TT-BTC'].includes(d.muc_tieu)),
     JSON.stringify(dhRac));
 
-  t('DOC_HIEU_THIEU_NGHIA_VU ngưỡng ≥50% & 1–2 dòng: phát cho 1/2 (50%) và 1/1 (100%), bỏ qua 1/3 (33%) và 0/0',
+  t('DOC_HIEU_THIEU_NGHIA_VU ngưỡng ≥50% & 1–2 dòng: phát cho 1/2 (50%) và 1/1 (100%), bỏ qua 1/3 (33%), 0/0 và dòng mã HS',
     dhThieu.length === 2
     && dhThieu.every((d) => d.muc === 'Thấp' && d.luong === 'doc-hieu')
     && dhThieu.some((d) => d.muc_tieu === '07/2023/TT-NHNN' && /1\/2 \(50%\)/.test(d.tieuDe))
     && dhThieu.some((d) => d.muc_tieu === '10/2024/TT-BTC' && /1\/1 \(100%\)/.test(d.tieuDe))
-    && !dhThieu.some((d) => ['11/2024/TT-BTC', '12/2024/TT-BTC'].includes(d.muc_tieu)),
+    && !dhThieu.some((d) => ['11/2024/TT-BTC', '12/2024/TT-BTC', '31/2022/TT-BTC'].includes(d.muc_tieu)),
     JSON.stringify(dhThieu));
 } finally {
   rmSync(rDh, { recursive: true, force: true });
@@ -365,9 +371,8 @@ t('kho thật: HS_KHONG_TON_TAI < 100 (≥ 0) và HS_AHTN_CU_DA_ANH_XA > 100 (m�
   && dmThat.filter((d) => d.ma === 'HS_AHTN_CU_DA_ANH_XA').every((d) => d.muc === 'Thấp' && d.luong === 'danh-muc-hs'),
   JSON.stringify({ HS_KHONG_TON_TAI: nKhongTonTaiThat, HS_AHTN_CU_DA_ANH_XA: nAnhXaThat }));
 
-t('kho thật: kiểm tra DOC_HIEU_DIEU_RAC (>= 0) và DOC_HIEU_THIEU_NGHIA_VU trên data/doc-hieu/',
-  nDocHieuRacThat >= 0 && nDocHieuThieuThat > 0
-  && dmThat.filter((d) => d.ma === 'DOC_HIEU_DIEU_RAC' || d.ma === 'DOC_HIEU_THIEU_NGHIA_VU').every((d) => d.muc === 'Thấp' && d.luong === 'doc-hieu'),
+t('kho thật: kiểm tra DOC_HIEU_DIEU_RAC (= 0) và DOC_HIEU_THIEU_NGHIA_VU (= 0) trên data/doc-hieu/',
+  nDocHieuRacThat === 0 && nDocHieuThieuThat === 0,
   JSON.stringify({ DOC_HIEU_DIEU_RAC: nDocHieuRacThat, DOC_HIEU_THIEU_NGHIA_VU: nDocHieuThieuThat }));
 
 t('kho thật: TEN_MA dịch đủ 7 mã mới (4 mã Wave trước + 3 mã Wave 8) sang tiếng Việt trong veMarkdown()',
