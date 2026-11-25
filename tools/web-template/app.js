@@ -101,6 +101,92 @@
   };
 
   const THU_TU_PHU_LUC = { I: 1, II: 2, III: 3, IV: 4 };
+  const TEN_TRANG_THAI_DIEU = {
+    DA_SUA_DOI: 'Đã sửa đổi',
+    DA_BAI_BO: 'Đã bãi bỏ',
+    DA_BO_SUNG: 'Đã bổ sung',
+    TAM_NGUNG: 'Đang tạm ngưng',
+  };
+  const CLASS_TRANG_THAI_DIEU = {
+    DA_SUA_DOI: 'badge-clause-amended',
+    DA_BAI_BO: 'badge-clause-repealed',
+    TAM_NGUNG: 'badge-clause-repealed',
+    DA_BO_SUNG: 'badge-clause-added',
+  };
+  const TEN_TAC_DONG_DIEU = {
+    SUA_DOI: 'Sửa đổi',
+    BO_SUNG: 'Bổ sung',
+    BAI_BO: 'Bãi bỏ',
+    THAY_THE_CUM_TU: 'Thay cụm từ',
+    TAM_NGUNG: 'Tạm ngưng',
+  };
+
+  function isIsoDateValid(s) {
+    const m = String(s || '').trim().match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (!m) return false;
+    const y = Number(m[1]);
+    const mo = Number(m[2]);
+    const d = Number(m[3]);
+    if (mo < 1 || mo > 12 || d < 1) return false;
+    const isLeap = (y % 4 === 0 && y % 100 !== 0) || y % 400 === 0;
+    const maxDays = [31, isLeap ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][mo - 1];
+    return d <= maxDays;
+  }
+
+  function tinhTinhTrangTaiNgayClient(doc, taiNgay) {
+    if (!doc) return { tinh_trang: 'CHUA_XAC_MINH', thieu_moc: false };
+    if (!isIsoDateValid(taiNgay)) {
+      return { tinh_trang: doc.tinh_trang || 'CHUA_XAC_MINH', thieu_moc: false };
+    }
+    if (doc.hieu_luc_tu && taiNgay < doc.hieu_luc_tu) {
+      return { tinh_trang: 'CHUA_CO_HIEU_LUC', thieu_moc: false };
+    }
+    if (doc.het_hieu_luc_tu && taiNgay >= doc.het_hieu_luc_tu) {
+      return { tinh_trang: 'HET_HIEU_LUC', thieu_moc: false };
+    }
+    if (doc.tinh_trang === 'HET_HIEU_LUC' && !doc.het_hieu_luc_tu) {
+      return { tinh_trang: 'HET_HIEU_LUC', thieu_moc: true };
+    }
+    if (!doc.hieu_luc_tu) {
+      return { tinh_trang: doc.tinh_trang || 'CHUA_XAC_MINH', thieu_moc: true };
+    }
+    const partialRepeals = doc.quan_he_nguoc?.bi_bai_bo_boi || [];
+    if (partialRepeals.length > 0 || doc.tinh_trang === 'HET_HIEU_LUC_MOT_PHAN') {
+      const dates = partialRepeals.map((e) => (isIsoDateValid(e?.tu_ngay) ? String(e.tu_ngay) : null));
+      if (dates.some((d) => d !== null && d <= taiNgay)) {
+        return { tinh_trang: 'HET_HIEU_LUC_MOT_PHAN', thieu_moc: false };
+      }
+      if (dates.length > 0 && dates.every((d) => d !== null && d > taiNgay)) {
+        return { tinh_trang: 'CON_HIEU_LUC', thieu_moc: false };
+      }
+      if (doc.tinh_trang === 'HET_HIEU_LUC_MOT_PHAN') {
+        return { tinh_trang: 'HET_HIEU_LUC_MOT_PHAN', thieu_moc: true };
+      }
+    }
+    return { tinh_trang: 'CON_HIEU_LUC', thieu_moc: false };
+  }
+
+  function locLichSuDieuClient(lichSu, taiNgay, defaultStatus = 'NGUYEN_BAN') {
+    const raw = Array.isArray(lichSu) ? lichSu.filter(Boolean) : [];
+    if (!isIsoDateValid(taiNgay)) {
+      return { lich_su: raw, trang_thai: defaultStatus || 'NGUYEN_BAN' };
+    }
+    const filtered = raw.filter((e) => !e.tu_ngay || String(e.tu_ngay) <= taiNgay);
+    if (!filtered.length) return { lich_su: [], trang_thai: 'NGUYEN_BAN' };
+    if (filtered.some((e) => e.loai === 'BAI_BO' && e.khoan_dich == null)) {
+      return { lich_su: filtered, trang_thai: 'DA_BAI_BO' };
+    }
+    if (filtered[filtered.length - 1]?.loai === 'TAM_NGUNG') {
+      return { lich_su: filtered, trang_thai: 'TAM_NGUNG' };
+    }
+    if (filtered.some((e) => e.loai === 'SUA_DOI' || e.loai === 'THAY_THE_CUM_TU' || e.loai === 'BAI_BO')) {
+      return { lich_su: filtered, trang_thai: 'DA_SUA_DOI' };
+    }
+    if (filtered.some((e) => e.loai === 'BO_SUNG')) {
+      return { lich_su: filtered, trang_thai: 'DA_BO_SUNG' };
+    }
+    return { lich_su: filtered, trang_thai: 'NGUYEN_BAN' };
+  }
 
   const state = {
     activeTab: 'hieu-luc',
@@ -121,6 +207,7 @@
       muc: '',
       loai: '',
       nhanh: '',
+      taiNgay: '',
       onlyRel: false,
       onlyExpiring: false,
       page: 1,
@@ -130,7 +217,7 @@
       missingSlug: '',
     },
     wiki: { q: '', loai: '', mode: 'auto', onlyOld: false, slugFilter: '', page: 1, expanded: {} },
-    dk: { q: '', tier: '', docKey: '', dieuFilter: '', pendingRoute: null, missingRoute: null, page: 1, expandedDocs: {} },
+    dk: { q: '', tier: '', docKey: '', taiNgay: '', dieuFilter: '', pendingRoute: null, missingRoute: null, page: 1, expandedDocs: {} },
     cas: { q: '', phuLuc: '', casMode: 'all', page: 1 },
     hs: { q: '', tinhTrang: '', loaiTacDong: '', page: 1 },
   };
@@ -317,6 +404,14 @@
     containerEl.querySelectorAll('[data-jump-doc]').forEach((btn) => {
       btn.addEventListener('click', () => jumpToDoc(btn.getAttribute('data-jump-doc')));
     });
+    containerEl.querySelectorAll('[data-jump-dk]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const dkRef = btn.getAttribute('data-jump-dk') || '';
+        if (!dkRef) return;
+        applyHashRoute(`#dk=${dkRef}`, { updateHash: true, push: true });
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
     containerEl.querySelectorAll('[data-copy-link]').forEach((btn) => {
       btn.addEventListener('click', () => {
         const hash = btn.getAttribute('data-copy-link') || '';
@@ -429,6 +524,7 @@
       'reg-muc': state.reg.muc,
       'reg-loai': state.reg.loai,
       'reg-nhanh': state.reg.nhanh,
+      'reg-tai-ngay': state.reg.taiNgay || '',
     };
     for (const [id, val] of Object.entries(map)) {
       const el = document.getElementById(id);
@@ -634,9 +730,18 @@
       return (d.slug && expData._bySlug?.get(d.slug)) || expData._byDocKey?.get(d._docKey) || null;
     };
 
+    const regTaiNgay = isIsoDateValid(state.reg.taiNgay) ? state.reg.taiNgay : '';
+    const statusMap = new Map();
+    const getEffStatus = (d) => {
+      if (!statusMap.has(d)) {
+        statusMap.set(d, regTaiNgay ? tinhTinhTrangTaiNgayClient(d, regTaiNgay) : { tinh_trang: d.tinh_trang || 'CHUA_XAC_MINH', thieu_moc: false });
+      }
+      return statusMap.get(d);
+    };
+
     const total = docs.length;
-    const conHL = docs.filter((d) => d.tinh_trang === 'CON_HIEU_LUC').length;
-    const hetHL = docs.filter((d) => d.tinh_trang === 'HET_HIEU_LUC').length;
+    const conHL = docs.filter((d) => getEffStatus(d).tinh_trang === 'CON_HIEU_LUC').length;
+    const hetHL = docs.filter((d) => getEffStatus(d).tinh_trang === 'HET_HIEU_LUC').length;
     const sapHetHL = expData
       ? docs.filter((d) => Boolean(getExp(d))).length || (expData.danh_sach || []).length
       : 0;
@@ -718,7 +823,8 @@
     const { tinhTrang, muc, loai, nhanh, onlyRel, onlyExpiring } = state.reg;
 
     let filtered = state.reg.missingSlug ? [] : docs.filter((d) => {
-      if (tinhTrang && d.tinh_trang !== tinhTrang) return false;
+      const effTt = getEffStatus(d).tinh_trang;
+      if (tinhTrang && effTt !== tinhTrang) return false;
       if (muc && (d.xac_minh?.muc || 'CHUA_XAC_MINH') !== muc) return false;
       if (loai === '__VBQPPL__' && d.loai === 'THONG_BAO') return false;
       if (loai && loai !== '__VBQPPL__' && d.loai !== loai) return false;
@@ -756,7 +862,7 @@
     const start = (state.reg.page - 1) * PAGE_SIZE.reg;
     const slice = filtered.slice(start, start + PAGE_SIZE.reg);
 
-    summaryEl.innerHTML = `<span>Tìm thấy <strong>${fmtNum(filtered.length)}</strong> / ${fmtNum(total)} văn bản</span>`
+    summaryEl.innerHTML = `<span>Tìm thấy <strong>${fmtNum(filtered.length)}</strong> / ${fmtNum(total)} văn bản${regTaiNgay ? ` · <strong>Tại ngày ${esc(regTaiNgay)}</strong>` : ''}</span>`
       + (filtered.length ? `<span>Hiển thị ${start + 1}–${Math.min(start + PAGE_SIZE.reg, filtered.length)}</span>` : '');
 
     if (!slice.length) {
@@ -835,7 +941,12 @@
               <span class="badge badge-soft">${esc(TEN_LOAI_VB[d.loai] || d.loai || 'Văn bản')}</span>
             </div>
             <div class="card-badges">
-              ${badgeTinhTrang(d.tinh_trang)}
+              ${(() => {
+                const eff = getEffStatus(d);
+                const datePill = regTaiNgay ? `<span class="badge badge-date">Tại ngày ${esc(regTaiNgay)}</span>` : '';
+                const missingPill = regTaiNgay && eff.thieu_moc ? '<span class="badge badge-unknown">Thiếu mốc ngày</span>' : '';
+                return `${badgeTinhTrang(eff.tinh_trang)}${datePill}${missingPill}`;
+              })()}
               ${expBadge}
               ${badgeMucXacMinh(d.xac_minh?.muc)}
               ${doiChieu}
@@ -1364,6 +1475,9 @@
     const nguonUrl = safeUrl(doc.nguon_a);
     const docSlugOrNo = doc.slug || doc.so_hieu || '';
     const docDkHash = `#dk=${encodeURIComponent(docSlugOrNo)}`;
+    const dkTaiNgay = isIsoDateValid(state.dk.taiNgay) ? state.dk.taiNgay : '';
+    const docEff = dkTaiNgay ? tinhTinhTrangTaiNgayClient(doc, dkTaiNgay) : null;
+    const docStatus = docEff ? docEff.tinh_trang : doc.tinh_trang;
 
     const clausesHtml = shown.length
       ? shown.map((it) => {
@@ -1378,16 +1492,37 @@
           if (it.khoan !== undefined && it.khoan !== null && it.khoan !== '') parts.push(`Khoản ${it.khoan}`);
           if (it.diem !== undefined && it.diem !== null && it.diem !== '') parts.push(`Điểm ${it.diem}`);
           const shaShort = it.sha256_pdf ? `${String(it.sha256_pdf).slice(0, 12)}…` : null;
+          const clauseView = locLichSuDieuClient(it.lich_su_tac_dong, dkTaiNgay, it.trang_thai_dieu || 'NGUYEN_BAN');
+          const amendBadge = clauseView.trang_thai && clauseView.trang_thai !== 'NGUYEN_BAN'
+            ? `<span class="badge ${CLASS_TRANG_THAI_DIEU[clauseView.trang_thai] || 'badge-clause-amended'}">${esc(TEN_TRANG_THAI_DIEU[clauseView.trang_thai] || clauseView.trang_thai)}</span>`
+            : '';
+          const historyHtml = clauseView.lich_su.length
+            ? `<div class="clause-history">
+                <div class="clause-history-title">Lịch sử tác động cấp Điều (${clauseView.lich_su.length}):</div>
+                <ul class="clause-history-list">${clauseView.lich_su.map((e) => {
+                  const loaiNhan = TEN_TAC_DONG_DIEU[e.loai] || e.loai || 'Tác động';
+                  const nguonLabel = `${e.van_ban_nguon || '?'}${e.dieu_nguon != null ? ` Điều ${e.dieu_nguon}` : ''}${e.khoan_nguon != null ? ` khoản ${e.khoan_nguon}` : ''}`;
+                  const jumpTarget = (e.slug_nguon || e.van_ban_nguon) && e.dieu_nguon != null
+                    ? `${encodeURIComponent(e.slug_nguon || e.van_ban_nguon)}:${encodeURIComponent(String(e.dieu_nguon))}`
+                    : '';
+                  const srcNode = jumpTarget
+                    ? `<button type="button" class="btn-link" data-jump-dk="${esc(jumpTarget)}">${esc(nguonLabel)}</button>`
+                    : `<span>${esc(nguonLabel)}</span>`;
+                  return `<li><strong>${esc(loaiNhan)}</strong> bởi ${srcNode}${e.tu_ngay ? ` (từ ${esc(e.tu_ngay)})` : ''}${e.can_cu ? ` — ${esc(e.can_cu)}` : ''}</li>`;
+                }).join('')}</ul>
+              </div>`
+            : '';
           return `
             <div class="clause-item${isDieuMatch ? ' clause-item-highlight' : ''}">
               <div class="clause-head">
-                <span class="clause-cite">${esc(parts.join(' · '))}</span>
+                <span class="clause-cite">${esc(parts.join(' · '))}${amendBadge ? ` ${amendBadge}` : ''}</span>
                 <span class="clause-proof">
                   ${it.trang_pdf != null ? `<span>Trang PDF: ${esc(it.trang_pdf)}</span>` : ''}
                   ${shaShort ? `<span title="SHA-256 PDF: ${esc(it.sha256_pdf)}">SHA-256: ${esc(shaShort)}</span>` : ''}
                 </span>
               </div>
               <div class="clause-text">${esc(it.noi_dung)}</div>
+              ${historyHtml}
               <div class="clause-actions">
                 <button type="button" class="btn-small btn-cite" data-cite-doc="${esc(doc._key)}" data-cite-idx="${it._idx}">📋 Sao chép trích dẫn chuẩn pháp lý</button>
                 <button type="button" class="btn-small btn-copy" data-copy-link="${esc(clauseHash)}">🔗 Sao chép liên kết</button>
@@ -1432,7 +1567,8 @@
               : '<span class="badge badge-tier-draft">Tóm tắt nháp — chưa đối chiếu nguyên văn</span>'}
           </div>
           <div class="card-badges">
-            ${doc.tinh_trang ? badgeTinhTrang(doc.tinh_trang) : ''}
+            ${docStatus ? badgeTinhTrang(docStatus) : ''}
+            ${dkTaiNgay ? `<span class="badge badge-date">Tại ngày ${esc(dkTaiNgay)}</span>` : ''}
             <span class="badge badge-soft">${fmtNum(matchedItems.length)} mục khớp</span>
             <button type="button" class="btn-small btn-copy" data-copy-link="${esc(docDkHash)}">🔗 Sao chép liên kết</button>
           </div>
@@ -2305,6 +2441,16 @@
       state.reg.page = 1;
       renderTabRegistry();
     });
+    document.getElementById('reg-tai-ngay')?.addEventListener('change', (e) => {
+      state.reg.taiNgay = e.target.value;
+      state.reg.page = 1;
+      renderTabRegistry();
+    });
+    document.getElementById('reg-tai-ngay')?.addEventListener('input', (e) => {
+      state.reg.taiNgay = e.target.value;
+      state.reg.page = 1;
+      renderTabRegistry();
+    });
     document.getElementById('reg-reset')?.addEventListener('click', () => {
       state.reg = {
         q: '',
@@ -2312,6 +2458,7 @@
         muc: '',
         loai: '',
         nhanh: '',
+        taiNgay: '',
         onlyRel: false,
         onlyExpiring: false,
         page: 1,
@@ -2376,11 +2523,23 @@
       state.dk.page = 1;
       renderTabDieuKhoan();
     });
+    document.getElementById('dk-tai-ngay')?.addEventListener('change', (e) => {
+      state.dk.taiNgay = e.target.value;
+      state.dk.page = 1;
+      renderTabDieuKhoan();
+    });
+    document.getElementById('dk-tai-ngay')?.addEventListener('input', (e) => {
+      state.dk.taiNgay = e.target.value;
+      state.dk.page = 1;
+      renderTabDieuKhoan();
+    });
     document.getElementById('dk-reset')?.addEventListener('click', () => {
-      state.dk = { q: '', tier: '', docKey: '', dieuFilter: '', pendingRoute: null, missingRoute: null, page: 1, expandedDocs: {} };
+      state.dk = { q: '', tier: '', docKey: '', taiNgay: '', dieuFilter: '', pendingRoute: null, missingRoute: null, page: 1, expandedDocs: {} };
       document.getElementById('dk-q').value = '';
       document.getElementById('dk-tier').value = '';
       document.getElementById('dk-doc').value = '';
+      const dkTn = document.getElementById('dk-tai-ngay');
+      if (dkTn) dkTn.value = '';
       setUrlHash('#tab=dieu-khoan');
       renderTabDieuKhoan();
     });

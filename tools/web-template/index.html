@@ -164,6 +164,11 @@
               <option value="">Tất cả nhánh</option>
             </select>
           </label>
+
+          <label class="filter-field">
+            <span>Tại ngày (tờ khai)</span>
+            <input type="date" id="reg-tai-ngay" class="date-input" aria-label="Đối chiếu hiệu lực tại ngày cụ thể">
+          </label>
         </div>
         <div class="filter-checks">
           <label class="check-inline">
@@ -262,7 +267,7 @@
           >
           <button type="button" id="dk-reset" class="btn-secondary">Đặt lại</button>
         </div>
-        <div class="filters-grid filters-grid-2">
+        <div class="filters-grid filters-grid-3">
           <label class="filter-field">
             <span>Tầng tin cậy</span>
             <select id="dk-tier">
@@ -276,6 +281,10 @@
             <select id="dk-doc">
               <option value="">Tất cả văn bản có điều khoản</option>
             </select>
+          </label>
+          <label class="filter-field">
+            <span>Tại ngày (tờ khai)</span>
+            <input type="date" id="dk-tai-ngay" class="date-input" aria-label="Đối chiếu trạng thái sửa đổi điều khoản tại ngày cụ thể">
           </label>
         </div>
         <div id="dk-active-filter" class="active-chip-row hidden" hidden></div>

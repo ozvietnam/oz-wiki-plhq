@@ -882,14 +882,16 @@ try {
     && !existsSync(join(outHsInMem, 'data', 'chu-giai-hs.json'))
     && !existsSync(join(outHsInMem, 'data', 'chu-giai-chuong.json')));
 
-  // 10. Kiểm tra giao diện HTML V2: đủ 5 tab gồm chinh-sach-hs, alert ribbon, lọc <=60 ngày, toast, 0 CDN
-  t('HTML V2 có đủ 5 tab (gồm 5. Chính sách theo mã HS / chinh-sach-hs), alert ribbon, lọc ≤60 ngày & 0 CDN',
+  // 10. Kiểm tra giao diện HTML V2: đủ 5 tab gồm chinh-sach-hs, alert ribbon, lọc <=60 ngày, tai_ngay, toast, 0 CDN
+  t('HTML V2 có đủ 5 tab (gồm 5. Chính sách theo mã HS / chinh-sach-hs), alert ribbon, lọc ≤60 ngày, tai_ngay & 0 CDN',
     html.includes('data-tab="chinh-sach-hs"')
     && html.includes('5. Chính sách theo mã HS')
     && html.includes('id="panel-chinh-sach-hs"')
     && html.includes('id="expiry-ribbon"')
     && html.includes('id="expiry-ribbon-btn"')
     && html.includes('id="reg-only-expiring"')
+    && html.includes('id="reg-tai-ngay"')
+    && html.includes('id="dk-tai-ngay"')
     && html.includes('Sắp hết hiệu lực (≤60 ngày)')
     && html.includes('id="hs-boundary-notice"')
     && html.includes('id="copy-toast"')
@@ -1145,10 +1147,53 @@ try {
     ...(dkIndexReal.nguyen_van_nguon_a || []).map((d) => d.shard),
     ...(dkIndexReal.tom_tat_nhap || []).map((d) => d.shard),
   ];
-  t('dieu-khoan-index.json & data/dk/<tier>-<slug>.json tạo đủ mảnh cho mọi văn bản (không chứa đường dẫn nguy hiểm)',
+  t('dieu-khoan-index.json & data/dk/<tier>-<slug>.json tạo đủ mảnh cho mọi văn bản, giữ thống kê sửa đổi & không chứa đường dẫn nguy hiểm',
     allShardPaths.length > 0
+    && Number(dkIndexReal.thong_ke?.so_dieu_co_lich_su_sua_doi || 0) >= 200
     && allShardPaths.every((p) => /^dk\/[ab]-[a-z0-9._-]+\.json$/.test(p) && !p.includes('..') && existsSync(join(outCli, 'data', p))),
-    JSON.stringify({ count: allShardPaths.length, sample: allShardPaths.slice(0, 3) }));
+    JSON.stringify({ count: allShardPaths.length, sample: allShardPaths.slice(0, 3), dkSuaDoi: dkIndexReal.thong_ke?.so_dieu_co_lich_su_sua_doi }));
+
+  // 13b. Kiểm tra Web V2 Wave 29: hiển thị trạng thái sửa đổi cấp Điều, nút nhảy #dk= và bộ lọc tai_ngay ở Tab 1 & Tab 3
+  const shard38 = JSON.parse(readFileSync(join(outCli, 'data', 'dk', 'a-38-2015-tt-btc.json'), 'utf8'));
+  const d22Shard = (shard38.dieu_khoan || []).find((it) => String(it.dieu) === '22');
+  t('Mảnh dk/a-38-2015-tt-btc.json giữ trang_thai_dieu=DA_SUA_DOI & lich_su_tac_dong cho Điều 22',
+    d22Shard?.trang_thai_dieu === 'DA_SUA_DOI'
+    && Array.isArray(d22Shard?.lich_su_tac_dong)
+    && d22Shard.lich_su_tac_dong.some((e) => e.van_ban_nguon === '39/2018/TT-BTC')
+    && d22Shard.lich_su_tac_dong.some((e) => e.van_ban_nguon === '121/2025/TT-BTC'));
+
+  await vmReal.triggerHashChange('#dk=38-2015-tt-btc:22');
+  const dk38HtmlNow = vmReal.elMap.get('dk-list').innerHTML;
+  const dk38JumpBtns = vmReal.elMap.get('dk-list').querySelectorAll('[data-jump-dk]');
+  const dkTaiNgayEl = vmReal.elMap.get('dk-tai-ngay');
+  dkTaiNgayEl.value = '2024-06-01';
+  await dkTaiNgayEl.listeners.change[0]({ target: dkTaiNgayEl });
+  await vmReal.flush();
+  const dk38Html2024 = vmReal.elMap.get('dk-list').innerHTML;
+
+  await vmReal.clickTab('hieu-luc');
+  const regQEl = vmReal.elMap.get('reg-q');
+  const regTnEl = vmReal.elMap.get('reg-tai-ngay');
+  regQEl.value = '14/2015/TT-BTC';
+  await regQEl.listeners.input[0]({ target: regQEl });
+  regTnEl.value = '2024-06-01';
+  await regTnEl.listeners.change[0]({ target: regTnEl });
+  const reg14_2024 = vmReal.elMap.get('reg-list').innerHTML;
+  regTnEl.value = '2026-11-25';
+  await regTnEl.listeners.change[0]({ target: regTnEl });
+  const reg14_2026 = vmReal.elMap.get('reg-list').innerHTML;
+
+  t('VM Web V2 (Wave 29): Tab 3 hiện badge sửa đổi + nút nhảy #dk= và lọc lich_su_tac_dong theo tai_ngay; Tab 1 đổi tình trạng 14/2015 theo tai_ngay',
+    dk38HtmlNow.includes('badge-clause-amended')
+    && dk38HtmlNow.includes('121/2025/TT-BTC')
+    && dk38HtmlNow.includes('39/2018/TT-BTC')
+    && dk38JumpBtns.length >= 1
+    && dk38Html2024.includes('39/2018/TT-BTC')
+    && !dk38Html2024.includes('121/2025/TT-BTC')
+    && reg14_2024.includes('Tại ngày 2024-06-01')
+    && reg14_2024.includes('Còn hiệu lực')
+    && reg14_2026.includes('Tại ngày 2026-11-25')
+    && reg14_2026.includes('Hết hiệu lực'));
 
   const vmLazy = await runAppInVm(outV2);
   await vmLazy.clickTab('wiki');

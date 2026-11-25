@@ -27,7 +27,8 @@ Agent phải làm việc như một người đóng góp cẩn thận: có ngu�
 - **Không sửa `raw/` đã có.** Chỉ thêm tệp mới qua `tools/nap.mjs` hoặc skill LuminaWiki.
 - **Không xoá văn bản khỏi sổ.** Văn bản hết hiệu lực vẫn giữ — người khai cần biết vì sao không dùng nữa.
 - **Không đưa thông tin khách hàng, tờ khai, hợp đồng, giá** vào kho.
-- Chạy `npm test` trước khi mở PR. Đỏ thì sửa, không bỏ qua test.
+- Chạy `npm test` (và `npm run eval:retrieval`, `npm run eval:holdout -- --strict` khi đụng công cụ tra cứu/sửa đổi cấp Điều) trước khi mở PR. Đỏ thì sửa, không bỏ qua test.
+- Khi thêm văn bản sửa đổi/bổ sung/bãi bỏ từng Điều khoản, cập nhật đồng bộ `data/sua-doi-dieu/<slug>.json` (bắt buộc kèm `tu_ngay: YYYY-MM-DD`) và chạy `node tools/kiem-tra.mjs` để kiểm chứng đồ thị cấp Điều.
 - **Không commit `dist/` và `bao-cao/`.** Đó là tệp sinh tự động; bot dựng lại ngay sau khi PR được gộp
   (workflow `dung-lai-va-bao-hs-code-api`). Commit chúng làm mọi PR mở song song xung đột với nhau. Chạy
   `node tools/dung.mjs && node tools/diem-mu.mjs` để tự xem kết quả thì được, nhưng trước khi commit:
