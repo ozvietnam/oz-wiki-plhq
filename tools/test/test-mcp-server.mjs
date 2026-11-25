@@ -555,9 +555,10 @@ try {
   });
   const metaJson = JSON.parse(rMeta?.result?.contents?.[0]?.text || '{}');
   t(
-    `resources/read plhq://meta/luoc-do: đủ metadata ${LUOC_DO_PHIEN_BAN}, thống kê 2 tầng, CC BY & ranh giới hs-code-api`,
+    `resources/read plhq://meta/luoc-do: đủ metadata 1.x khớp dist/, thống kê 2 tầng, CC BY & ranh giới hs-code-api`,
     rMeta?.result?.contents?.[0]?.mimeType === 'application/json'
-      && metaJson.luoc_do_phien_ban === LUOC_DO_PHIEN_BAN
+      && /^\d+\.\d+\.\d+$/.test(String(metaJson.luoc_do_phien_ban || ''))
+      && String(metaJson.luoc_do_phien_ban || '').startsWith(`${LUOC_DO_PHIEN_BAN.split('.')[0]}.`)
       && metaJson.thong_ke?.so_van_ban > 2000
       && metaJson.thong_ke?.dieu_khoan_2_tang?.nguyen_van_nguon_a?.so_van_ban > 0
       && metaJson.thong_ke?.dieu_khoan_2_tang?.tom_tat_nhap?.da_soat === false

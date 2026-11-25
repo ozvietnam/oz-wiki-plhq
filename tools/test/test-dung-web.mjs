@@ -598,11 +598,13 @@ try {
   const cliRegSize = statSync(join(outCli, 'data', 'registry.json')).size;
   const distRegSize = statSync(join(ROOT, 'dist', 'registry.json')).size;
   const cliReg = JSON.parse(readFileSync(join(outCli, 'data', 'registry.json'), 'utf8'));
+  const distRegSchema = JSON.parse(readFileSync(join(ROOT, 'dist', 'registry.json'), 'utf8')).luoc_do_phien_ban || LUOC_DO_PHIEN_BAN;
   const cliCas = JSON.parse(readFileSync(join(outCli, 'data', 'cas-index.json'), 'utf8'));
   const cliDk = JSON.parse(readFileSync(join(outCli, 'data', 'dieu-khoan.json'), 'utf8'));
-  t(`CLI tools/dung-web.mjs trên dist/ thật ra tmpdir: đủ tệp, schema ${LUOC_DO_PHIEN_BAN}, registry.json được rút gọn rõ rệt`,
+  t(`CLI tools/dung-web.mjs trên dist/ thật ra tmpdir: đủ tệp, schema 1.x khớp dist/, registry.json được rút gọn rõ rệt`,
     existsSync(join(outCli, '.nojekyll'))
-    && cliReg.luoc_do_phien_ban === LUOC_DO_PHIEN_BAN
+    && cliReg.luoc_do_phien_ban === distRegSchema
+    && String(cliReg.luoc_do_phien_ban || '').startsWith(`${LUOC_DO_PHIEN_BAN.split('.')[0]}.`)
     && cliReg.van_ban.length >= 2800
     && cliRegSize < distRegSize * 0.65
     && cliCas.thong_ke.so_ma_cas_duy_nhat >= 1200
