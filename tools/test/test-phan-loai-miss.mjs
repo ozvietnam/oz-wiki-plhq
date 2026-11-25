@@ -225,7 +225,24 @@ try {
   // 5. CLI --file <path> (Markdown & --json) và kiểm chứng trên sổ thật napSo(ROOT)
   const tmpDir = makeTmp();
   const fixturePath = join(tmpDir, 'issues.json');
-  writeFileSync(fixturePath, JSON.stringify(issuesMau, null, 2));
+  const issuesCli = issuesMau.map((it) => {
+    if (it.number === 105) {
+      return {
+        ...it,
+        title: '[miss] 999/2099/TT-BTC — khách tra 1 lần, sổ chưa có',
+        body: 'Khách tra hiệu lực **999/2099/TT-BTC** nhưng chưa có. Nguồn log: `hs-code-api/data/legal-status-miss.jsonl`.',
+      };
+    }
+    if (it.number === 106) {
+      return {
+        ...it,
+        title: '[miss] 99999/2099/CHQ-NVTHQ — sổ chưa có (chờ nguồn chính thống bậc A)',
+        body: 'Công văn **99999/2099/CHQ-NVTHQ** hướng dẫn giảm thuế GTGT theo **Nghị định 174/2025/NĐ-CP**.',
+      };
+    }
+    return it;
+  });
+  writeFileSync(fixturePath, JSON.stringify(issuesCli, null, 2));
 
   const cliJson = spawnSync(
     process.execPath,

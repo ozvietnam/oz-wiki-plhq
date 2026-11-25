@@ -1223,7 +1223,10 @@ function kiemVanBanChuaCoToanVan(doc, store) {
   const coWiki = Boolean(doc.slug && store.wikiTrangBySlug.has(doc.slug));
   const coDka = Boolean(k && store.dkNguonAByKhoa.has(k));
   const coDh = Boolean(k && store.dkTomTatByKhoa.has(k));
-  return !coWiki && !coDka && !coDh;
+  if (!coWiki && !coDka && !coDh) return true;
+  const maChan = doc.xac_minh?.chan?.ma;
+  const coToanVan = Array.isArray(doc.toan_van) ? doc.toan_van.length > 0 : Boolean(doc.toan_van);
+  return (maChan === 'THIEU_PDF_A' || maChan === 'CHO_CONG_BO_A') && !coToanVan && !coDka && !coDh;
 }
 
 function laTbTchq(doc) {
