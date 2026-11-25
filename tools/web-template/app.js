@@ -104,8 +104,15 @@
 
   const state = {
     activeTab: 'hieu-luc',
-    cache: {},
-    loading: {},
+    cache: {
+      dkShards: new Map(),
+      dieuKhoanFull: false,
+    },
+    loading: {
+      dkShards: {},
+    },
+    wikiRenderSeq: 0,
+    dkRenderSeq: 0,
     lastCopiedText: '',
     toastTimer: null,
     reg: {
@@ -870,8 +877,8 @@
       || vb?.tinh_trang === 'TAM_NGUNG_HIEU_LUC';
   }
 
-  function prepareWiki(wikiIndex, wikiChunks) {
-    if (!wikiIndex._prepared) {
+  function prepareWikiIndex(wikiIndex) {
+    if (wikiIndex && !wikiIndex._prepared) {
       for (const p of wikiIndex.trang || []) {
         const refs = (p.van_ban_lien_quan || []).map((v) => v.so_hieu).join(' ');
         p._hasExpiredRef = Boolean(
@@ -882,7 +889,10 @@
       }
       wikiIndex._prepared = true;
     }
-    if (!wikiChunks._prepared) {
+  }
+
+  function prepareWikiChunks(wikiChunks) {
+    if (wikiChunks && !wikiChunks._prepared) {
       for (const c of wikiChunks.chunks || []) {
         const refs = (c.van_ban_lien_quan || []).map((v) => v.so_hieu).join(' ');
         c._hasExpiredRef = Boolean(
@@ -894,6 +904,11 @@
       }
       wikiChunks._prepared = true;
     }
+  }
+
+  function prepareWiki(wikiIndex, wikiChunks) {
+    prepareWikiIndex(wikiIndex);
+    prepareWikiChunks(wikiChunks);
   }
 
   function renderVanBanLienQuan(refs) {
@@ -922,9 +937,10 @@
 
   function renderTabWiki() {
     const wikiIndex = state.cache.wikiIndex;
+    if (!wikiIndex) return;
+    prepareWikiIndex(wikiIndex);
     const wikiChunks = state.cache.wikiChunks;
-    if (!wikiIndex || !wikiChunks) return;
-    prepareWiki(wikiIndex, wikiChunks);
+    if (wikiChunks) prepareWikiChunks(wikiChunks);
 
     const statsEl = document.getElementById('wiki-stats');
     const listEl = document.getElementById('wiki-list');
@@ -933,12 +949,17 @@
     const slugRow = document.getElementById('wiki-slug-filter');
 
     const pages = wikiIndex.trang || [];
-    const chunks = wikiChunks.chunks || [];
-    const warnCount = chunks.filter((c) => c.canh_bao_hieu_luc).length;
+    const chunks = wikiChunks?.chunks || [];
+    const totalChunks = wikiChunks
+      ? chunks.length
+      : (wikiIndex.thong_ke?.so_doan ?? pages.reduce((n, p) => n + (Number(p.so_chunks) || 0), 0));
+    const warnCount = wikiChunks
+      ? chunks.filter((c) => c.canh_bao_hieu_luc).length
+      : pages.filter((p) => p.canh_bao_hieu_luc).length;
 
     statsEl.innerHTML = `
       <div class="stat-tile"><div class="stat-num">${fmtNum(pages.length)}</div><div class="stat-label">Trang Wiki</div></div>
-      <div class="stat-tile"><div class="stat-num">${fmtNum(chunks.length)}</div><div class="stat-label">Đoạn trích mục</div></div>
+      <div class="stat-tile"><div class="stat-num">${fmtNum(totalChunks)}</div><div class="stat-label">Đoạn trích mục</div></div>
       <div class="stat-tile"><div class="stat-num">${fmtNum(pages.filter((p) => p.loai_trang === 'summary').length)}</div><div class="stat-label">Trang tổng hợp</div></div>
       <div class="stat-tile"><div class="stat-num">${fmtNum(warnCount)}</div><div class="stat-label">Cảnh báo dẫn chiếu cũ</div></div>
     `;
@@ -966,6 +987,22 @@
     const qNorm = normText(state.wiki.q);
     const { loai, mode, onlyOld, slugFilter } = state.wiki;
     const effectiveMode = slugFilter ? 'chunks' : (mode === 'auto' ? (qNorm ? 'chunks' : 'pages') : mode);
+
+    if (effectiveMode === 'chunks' && !wikiChunks) {
+      const renderSeq = ++state.wikiRenderSeq;
+      summaryEl.innerHTML = '<span>Đang tải các đoạn trích Wiki để tra cứu…</span>';
+      listEl.innerHTML = '<div class="loading-box">Đang tải dữ liệu đoạn trích Wiki…</div>';
+      pagerEl.innerHTML = '';
+      return fetchJson('wikiChunks', 'data/wiki-chunks.json')
+        .then(() => {
+          if (state.wikiRenderSeq === renderSeq) {
+            renderTabWiki();
+          }
+        })
+        .catch((err) => {
+          showGlobalAlert(thongBaoLoiTaiDuLieu(err));
+        });
+    }
 
     let items;
     if (effectiveMode === 'pages') {
@@ -1119,49 +1156,57 @@
     return s;
   }
 
+  function prepareDieuKhoanItems(doc) {
+    const items = Array.isArray(doc?.dieu_khoan) ? doc.dieu_khoan : [];
+    const isTierA = doc?._tier === 'NGUYEN_VAN_NGUON_A';
+    items.forEach((it, idx) => {
+      it._idx = idx;
+      it._search = isTierA
+        ? normText([
+          it.dieu != null ? `dieu ${it.dieu}` : '',
+          it.khoan != null ? `khoan ${it.khoan}` : '',
+          it.diem != null ? `diem ${it.diem}` : '',
+          it.noi_dung,
+        ].join(' '))
+        : normText([
+          it.dieu,
+          it.ten,
+          it.tom_tat,
+          ...(it.nghia_vu_xnk || []),
+        ].join(' '));
+    });
+    return items;
+  }
+
   function prepareDieuKhoan(dk) {
     if (dk._prepared) return dk;
     const allDocs = [];
     const byKey = new Map();
 
     for (const doc of dk.nguyen_van_nguon_a || []) {
-      const items = doc.dieu_khoan || [];
-      items.forEach((it, idx) => {
-        it._idx = idx;
-        it._search = normText([
-          it.dieu != null ? `dieu ${it.dieu}` : '',
-          it.khoan != null ? `khoan ${it.khoan}` : '',
-          it.diem != null ? `diem ${it.diem}` : '',
-          it.noi_dung,
-        ].join(' '));
-      });
+      const hasInline = Array.isArray(doc.dieu_khoan);
       const wrapped = {
         ...doc,
         _tier: 'NGUYEN_VAN_NGUON_A',
         _key: `A:${doc.slug || doc.so_hieu}`,
         _docSearch: normText([doc.so_hieu, doc.slug, doc.ten].join(' ')),
+        _shardLoaded: hasInline,
       };
+      if (hasInline) prepareDieuKhoanItems(wrapped);
       allDocs.push(wrapped);
       byKey.set(wrapped._key, wrapped);
     }
 
     for (const doc of dk.tom_tat_nhap || []) {
-      const items = doc.dieu_khoan || [];
-      items.forEach((it, idx) => {
-        it._idx = idx;
-        it._search = normText([
-          it.dieu,
-          it.ten,
-          it.tom_tat,
-          ...(it.nghia_vu_xnk || []),
-        ].join(' '));
-      });
+      const hasInline = Array.isArray(doc.dieu_khoan);
       const wrapped = {
         ...doc,
         _tier: 'TOM_TAT_NHAP',
         _key: `B:${doc.slug || doc.so_hieu}`,
         _docSearch: normText([doc.so_hieu, doc.slug].join(' ')),
+        _shardLoaded: hasInline,
       };
+      if (hasInline) prepareDieuKhoanItems(wrapped);
       allDocs.push(wrapped);
       byKey.set(wrapped._key, wrapped);
     }
@@ -1177,7 +1222,8 @@
       for (const doc of allDocs.filter((d) => d._tier === 'NGUYEN_VAN_NGUON_A')) {
         const opt = document.createElement('option');
         opt.value = doc._key;
-        opt.textContent = `${doc.so_hieu} (${(doc.dieu_khoan || []).length} mục)`;
+        const nClauses = doc.so_dieu ?? (doc.dieu_khoan || []).length;
+        opt.textContent = `${doc.so_hieu} (${nClauses} mục)`;
         grpA.appendChild(opt);
       }
       const grpB = document.createElement('optgroup');
@@ -1185,7 +1231,8 @@
       for (const doc of allDocs.filter((d) => d._tier === 'TOM_TAT_NHAP')) {
         const opt = document.createElement('option');
         opt.value = doc._key;
-        opt.textContent = `${doc.so_hieu || doc.slug} (${(doc.dieu_khoan || []).length} mục nháp)`;
+        const nClauses = doc.so_dieu ?? (doc.dieu_khoan || []).length;
+        opt.textContent = `${doc.so_hieu || doc.slug} (${nClauses} mục nháp)`;
         grpB.appendChild(opt);
       }
       selDoc.appendChild(grpA);
@@ -1198,6 +1245,106 @@
     }
 
     return dk;
+  }
+
+  async function loadDieuKhoanIndex() {
+    if (state.cache.dieuKhoan) return prepareDieuKhoan(state.cache.dieuKhoan);
+    if (state.loading.dieuKhoanIndex) return state.loading.dieuKhoanIndex;
+
+    state.loading.dieuKhoanIndex = (async () => {
+      try {
+        const res = await fetch('data/dieu-khoan-index.json');
+        if (res.ok) {
+          const data = await res.json();
+          state.cache.dieuKhoan = prepareDieuKhoan(data);
+          state.cache.dieuKhoanFull = false;
+          return state.cache.dieuKhoan;
+        }
+      } catch {
+        // Bỏ qua để fallback sang dieu-khoan.json cho tương thích ngược
+      }
+      const fullData = await fetchJson('dieuKhoan', 'data/dieu-khoan.json');
+      state.cache.dieuKhoanFull = true;
+      return prepareDieuKhoan(fullData);
+    })().finally(() => {
+      delete state.loading.dieuKhoanIndex;
+    });
+
+    return state.loading.dieuKhoanIndex;
+  }
+
+  async function ensureDkFullLoaded() {
+    if (state.cache.dieuKhoanFull && state.cache.dieuKhoan) return state.cache.dieuKhoan;
+    if (state.loading.dieuKhoanFull) return state.loading.dieuKhoanFull;
+
+    state.loading.dieuKhoanFull = fetch('data/dieu-khoan.json')
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status} khi tải data/dieu-khoan.json`);
+        return res.json();
+      })
+      .then((fullData) => {
+        if (!state.cache.dieuKhoan) {
+          state.cache.dieuKhoan = prepareDieuKhoan(fullData);
+        } else {
+          const byKey = state.cache.dieuKhoan._byKey;
+          for (const rawDoc of fullData.nguyen_van_nguon_a || []) {
+            const target = byKey?.get(`A:${rawDoc.slug || rawDoc.so_hieu}`);
+            if (target) {
+              target.dieu_khoan = Array.isArray(rawDoc.dieu_khoan) ? rawDoc.dieu_khoan : [];
+              prepareDieuKhoanItems(target);
+              target._shardLoaded = true;
+            }
+          }
+          for (const rawDoc of fullData.tom_tat_nhap || []) {
+            const target = byKey?.get(`B:${rawDoc.slug || rawDoc.so_hieu}`);
+            if (target) {
+              target.dieu_khoan = Array.isArray(rawDoc.dieu_khoan) ? rawDoc.dieu_khoan : [];
+              prepareDieuKhoanItems(target);
+              target._shardLoaded = true;
+            }
+          }
+        }
+        state.cache.dieuKhoanFull = true;
+        delete state.loading.dieuKhoanFull;
+        return state.cache.dieuKhoan;
+      })
+      .catch((err) => {
+        delete state.loading.dieuKhoanFull;
+        throw err;
+      });
+
+    return state.loading.dieuKhoanFull;
+  }
+
+  async function ensureDkShard(doc) {
+    if (!doc || doc._shardLoaded) return doc;
+    if (!doc.shard) {
+      await ensureDkFullLoaded();
+      return doc;
+    }
+    if (state.loading.dkShards[doc._key]) return state.loading.dkShards[doc._key];
+
+    state.loading.dkShards[doc._key] = (async () => {
+      try {
+        const res = await fetch(`data/${doc.shard}`);
+        if (res.ok) {
+          const shardData = await res.json();
+          doc.dieu_khoan = Array.isArray(shardData.dieu_khoan) ? shardData.dieu_khoan : [];
+          prepareDieuKhoanItems(doc);
+          doc._shardLoaded = true;
+          state.cache.dkShards.set(doc._key, doc);
+          return doc;
+        }
+      } catch {
+        // Fallback xuống full dataset nếu thiếu shard
+      }
+      await ensureDkFullLoaded();
+      return doc;
+    })().finally(() => {
+      delete state.loading.dkShards[doc._key];
+    });
+
+    return state.loading.dkShards[doc._key];
   }
 
   function renderDieuKhoanCard(doc, qNorm) {
@@ -1302,11 +1449,12 @@
     `;
   }
 
-  function renderTabDieuKhoan() {
+  async function renderTabDieuKhoan() {
     const dk = state.cache.dieuKhoan;
     if (!dk) return;
     prepareDieuKhoan(dk);
 
+    const renderSeq = ++state.dkRenderSeq;
     const statsEl = document.getElementById('dk-stats');
     const listEl = document.getElementById('dk-list');
     const summaryEl = document.getElementById('dk-summary');
@@ -1314,10 +1462,22 @@
     const chipEl = document.getElementById('dk-active-filter');
     const tk = dk.thong_ke || {};
 
+    statsEl.innerHTML = `
+      <div class="stat-tile"><div class="stat-num">${fmtNum(tk.so_van_ban_nguon_a)}</div><div class="stat-label">VB nguyên văn nguồn A</div></div>
+      <div class="stat-tile"><div class="stat-num">${fmtNum(tk.so_dieu_khoan_nguon_a)}</div><div class="stat-label">Điều khoản nguồn A</div></div>
+      <div class="stat-tile"><div class="stat-num">${fmtNum(tk.so_van_ban_tom_tat_nhap)}</div><div class="stat-label">VB tóm tắt nháp</div></div>
+      <div class="stat-tile"><div class="stat-num">${fmtNum(tk.so_dieu_khoan_tom_tat_nhap)}</div><div class="stat-label">Mục tóm tắt nháp</div></div>
+    `;
+
     if (state.dk.pendingRoute) {
       const { slug, dieu } = state.dk.pendingRoute;
       const normTarget = normDocNo(slug);
       const matches = dk._allDocs.filter((d) => d.slug === slug || normDocNo(d.so_hieu) === normTarget);
+      if (matches.length && dieu && matches.some((m) => !m._shardLoaded)) {
+        listEl.innerHTML = `<div class="loading-box">Đang tải điều khoản cho ${esc(slug)}…</div>`;
+        await Promise.all(matches.map(ensureDkShard));
+        if (state.dkRenderSeq !== renderSeq) return;
+      }
       let chosen = null;
       if (matches.length) {
         const tierA = matches.find((d) => d._tier === 'NGUYEN_VAN_NGUON_A');
@@ -1364,15 +1524,30 @@
       }
     }
 
-    statsEl.innerHTML = `
-      <div class="stat-tile"><div class="stat-num">${fmtNum(tk.so_van_ban_nguon_a)}</div><div class="stat-label">VB nguyên văn nguồn A</div></div>
-      <div class="stat-tile"><div class="stat-num">${fmtNum(tk.so_dieu_khoan_nguon_a)}</div><div class="stat-label">Điều khoản nguồn A</div></div>
-      <div class="stat-tile"><div class="stat-num">${fmtNum(tk.so_van_ban_tom_tat_nhap)}</div><div class="stat-label">VB tóm tắt nháp</div></div>
-      <div class="stat-tile"><div class="stat-num">${fmtNum(tk.so_dieu_khoan_tom_tat_nhap)}</div><div class="stat-label">Mục tóm tắt nháp</div></div>
-    `;
-
     const qNorm = normText(state.dk.q);
     const { tier, docKey, dieuFilter } = state.dk;
+
+    if (!state.dk.missingRoute && qNorm && !docKey && !state.cache.dieuKhoanFull) {
+      summaryEl.innerHTML = '<span>Đang tải toàn bộ điều khoản để tìm kiếm từ khóa…</span>';
+      listEl.innerHTML = '<div class="loading-box">Đang tải dữ liệu toàn văn điều khoản…</div>';
+      pagerEl.innerHTML = '';
+      try {
+        await ensureDkFullLoaded();
+      } catch (err) {
+        showGlobalAlert(thongBaoLoiTaiDuLieu(err));
+        return;
+      }
+      if (state.dkRenderSeq !== renderSeq) return;
+    }
+
+    if (docKey) {
+      const selectedDoc = dk._byKey?.get(docKey);
+      if (selectedDoc && !selectedDoc._shardLoaded) {
+        listEl.innerHTML = `<div class="loading-box">Đang tải điều khoản cho ${esc(selectedDoc.so_hieu || selectedDoc.slug)}…</div>`;
+        await ensureDkShard(selectedDoc);
+        if (state.dkRenderSeq !== renderSeq) return;
+      }
+    }
 
     const filtered = state.dk.missingRoute ? [] : dk._allDocs.filter((doc) => {
       if (tier && doc._tier !== tier) return false;
@@ -1390,6 +1565,16 @@
     if (state.dk.page > totalPages) state.dk.page = totalPages;
     const start = (state.dk.page - 1) * PAGE_SIZE.dk;
     const slice = filtered.slice(start, start + PAGE_SIZE.dk);
+
+    const unloadedSlice = slice.filter((d) => !d._shardLoaded);
+    if (unloadedSlice.length) {
+      summaryEl.innerHTML = `<span>Tìm thấy <strong>${fmtNum(filtered.length)}</strong> văn bản có điều khoản</span>`
+        + (filtered.length ? `<span>Đang tải ${start + 1}–${Math.min(start + PAGE_SIZE.dk, filtered.length)}…</span>` : '');
+      listEl.innerHTML = `<div class="loading-box">Đang tải chi tiết ${fmtNum(unloadedSlice.length)} văn bản…</div>`;
+      pagerEl.innerHTML = '';
+      await Promise.all(unloadedSlice.map(ensureDkShard));
+      if (state.dkRenderSeq !== renderSeq) return;
+    }
 
     summaryEl.innerHTML = `<span>Tìm thấy <strong>${fmtNum(filtered.length)}</strong> văn bản có điều khoản</span>`
       + (filtered.length ? `<span>Hiển thị ${start + 1}–${Math.min(start + PAGE_SIZE.dk, filtered.length)}</span>` : '');
@@ -1864,20 +2049,27 @@
       }
       renderTabRegistry();
     } else if (tabName === 'wiki') {
-      if (!state.cache.wikiIndex || !state.cache.wikiChunks) {
-        document.getElementById('wiki-list').innerHTML = '<div class="loading-box">Đang tải dữ liệu Wiki &amp; các đoạn trích…</div>';
-        await Promise.all([
-          fetchJson('wikiIndex', 'data/wiki-index.json'),
-          fetchJson('wikiChunks', 'data/wiki-chunks.json'),
-        ]);
+      const needChunks = state.wiki.mode === 'chunks'
+        || Boolean(state.wiki.slugFilter)
+        || Boolean(normText(state.wiki.q));
+      if (!state.cache.wikiIndex || (needChunks && !state.cache.wikiChunks)) {
+        document.getElementById('wiki-list').innerHTML = '<div class="loading-box">Đang tải dữ liệu Wiki…</div>';
+        if (needChunks) {
+          await Promise.all([
+            fetchJson('wikiIndex', 'data/wiki-index.json'),
+            fetchJson('wikiChunks', 'data/wiki-chunks.json'),
+          ]);
+        } else {
+          await fetchJson('wikiIndex', 'data/wiki-index.json');
+        }
       }
       renderTabWiki();
     } else if (tabName === 'dieu-khoan') {
       if (!state.cache.dieuKhoan) {
-        document.getElementById('dk-list').innerHTML = '<div class="loading-box">Đang tải điều khoản bậc A &amp; tóm tắt nháp…</div>';
-        await fetchJson('dieuKhoan', 'data/dieu-khoan.json');
+        document.getElementById('dk-list').innerHTML = '<div class="loading-box">Đang tải mục lục điều khoản bậc A &amp; tóm tắt nháp…</div>';
+        await loadDieuKhoanIndex();
       }
-      renderTabDieuKhoan();
+      await renderTabDieuKhoan();
     } else if (tabName === 'cas') {
       if (!state.cache.casIndex) {
         document.getElementById('cas-list').innerHTML = '<div class="loading-box">Đang tải danh mục hóa chất CAS (NĐ 24/2026)…</div>';
@@ -2137,17 +2329,17 @@
     document.getElementById('wiki-q')?.addEventListener('input', (e) => {
       state.wiki.q = e.target.value;
       state.wiki.page = 1;
-      renderTabWiki();
+      return renderTabWiki();
     });
     document.getElementById('wiki-loai')?.addEventListener('change', (e) => {
       state.wiki.loai = e.target.value;
       state.wiki.page = 1;
-      renderTabWiki();
+      return renderTabWiki();
     });
     document.getElementById('wiki-mode')?.addEventListener('change', (e) => {
       state.wiki.mode = e.target.value;
       state.wiki.page = 1;
-      renderTabWiki();
+      return renderTabWiki();
     });
     document.getElementById('wiki-only-old')?.addEventListener('change', (e) => {
       state.wiki.onlyOld = e.target.checked;

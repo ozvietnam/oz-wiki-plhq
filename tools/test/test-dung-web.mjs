@@ -170,6 +170,7 @@ async function runAppInVm(siteDir, { initialHash = '' } = {}) {
   const docListeners = {};
   const winListeners = {};
   const clipboardWrites = [];
+  const fetchedUrls = [];
   const locationObj = {
     protocol: 'https:',
     href: `https://ozvietnam.github.io/oz-wiki-plhq/${initialHash}`,
@@ -231,6 +232,7 @@ async function runAppInVm(siteDir, { initialHash = '' } = {}) {
       addEventListener(ev, fn) { (docListeners[ev] ||= []).push(fn); },
     },
     fetch: async (path) => {
+      fetchedUrls.push(String(path));
       const fullPath = join(siteDir, path);
       if (!existsSync(fullPath)) {
         return { ok: false, status: 404, json: async () => ({}) };
@@ -255,6 +257,7 @@ async function runAppInVm(siteDir, { initialHash = '' } = {}) {
     panels,
     hsSampleBtns,
     clipboardWrites,
+    fetchedUrls,
     locationObj,
     flush,
     async triggerHashChange(newHash) {
@@ -1133,6 +1136,59 @@ try {
     && realCiteBtns.length >= 1
     && /^Điều 4\b.*85\/2026\/TT-BTC \(nguồn A, trang PDF \d+, SHA-256 [a-f0-9]{64}\): ".*" — Nguồn: oz-wiki-plhq — https:\/\/github\.com\/ozvietnam\/oz-wiki-plhq \(CC BY 4\.0\)\.$/.test(realCiteStr),
     JSON.stringify({ realRibbonText, realCiteCount: realCiteBtns.length, realCiteStr: realCiteStr.slice(0, 140) }));
+
+  // 13. Kiểm chia mảnh dieu-khoan-index.json + data/dk/*.json & tải lười wiki-chunks.json + dieu-khoan.json (Wave 23)
+  const dkIndexReal = JSON.parse(readFileSync(join(outCli, 'data', 'dieu-khoan-index.json'), 'utf8'));
+  const allShardPaths = [
+    ...(dkIndexReal.nguyen_van_nguon_a || []).map((d) => d.shard),
+    ...(dkIndexReal.tom_tat_nhap || []).map((d) => d.shard),
+  ];
+  t('dieu-khoan-index.json & data/dk/<tier>-<slug>.json tạo đủ mảnh cho mọi văn bản (không chứa đường dẫn nguy hiểm)',
+    allShardPaths.length > 0
+    && allShardPaths.every((p) => /^dk\/[ab]-[a-z0-9._-]+\.json$/.test(p) && !p.includes('..') && existsSync(join(outCli, 'data', p))),
+    JSON.stringify({ count: allShardPaths.length, sample: allShardPaths.slice(0, 3) }));
+
+  const vmLazy = await runAppInVm(outV2);
+  await vmLazy.clickTab('wiki');
+  const wikiFetchedTab2Init = [...vmLazy.fetchedUrls];
+  const wikiPagesRendered = vmLazy.elMap.get('wiki-list').innerHTML;
+
+  const wikiQEl = vmLazy.elMap.get('wiki-q');
+  wikiQEl.value = 'TT 85/2026';
+  await wikiQEl.listeners.input[0]({ target: wikiQEl });
+  await vmLazy.flush();
+  const wikiChunksRendered = vmLazy.elMap.get('wiki-list').innerHTML;
+  const wikiFetchedAfterSearch = [...vmLazy.fetchedUrls];
+
+  t('VM Web V2 (Wave 23): Tab 2 wiki chỉ tải wiki-index.json khi mở trang & chỉ tải lười wiki-chunks.json khi tìm kiếm',
+    wikiFetchedTab2Init.includes('data/wiki-index.json')
+    && !wikiFetchedTab2Init.includes('data/wiki-chunks.json')
+    && wikiPagesRendered.includes('Phân loại hàng hóa XNK')
+    && wikiFetchedAfterSearch.includes('data/wiki-chunks.json')
+    && wikiChunksRendered.includes('phan-loai-hang#1'),
+    JSON.stringify({ wikiFetchedTab2Init, wikiFetchedAfterSearch }));
+
+  const vmDkShard = await runAppInVm(outV2, { initialHash: '#dk=85-2026-tt-btc:4' });
+  const dkFetchedSingle = [...vmDkShard.fetchedUrls];
+  const dkSingleHtml = vmDkShard.elMap.get('dk-list').innerHTML;
+
+  await vmDkShard.elMap.get('dk-reset').listeners.click[0]();
+  await vmDkShard.flush();
+  const dkQEl = vmDkShard.elMap.get('dk-q');
+  dkQEl.value = 'hồ sơ lưu';
+  await dkQEl.listeners.input[0]({ target: dkQEl });
+  await vmDkShard.flush();
+  const dkFetchedGlobalSearch = [...vmDkShard.fetchedUrls];
+  const dkGlobalSearchHtml = vmDkShard.elMap.get('dk-list').innerHTML;
+
+  t('VM Web V2 (Wave 23): Tab 3 #dk=<slug> chỉ tải dieu-khoan-index + đúng mảnh dk/a-...json; tìm kiếm toàn văn mới tải lười dieu-khoan.json',
+    dkFetchedSingle.includes('data/dieu-khoan-index.json')
+    && dkFetchedSingle.includes('data/dk/a-85-2026-tt-btc.json')
+    && !dkFetchedSingle.includes('data/dieu-khoan.json')
+    && dkSingleHtml.includes('Một mặt hàng chỉ có một mã số duy nhất.')
+    && dkFetchedGlobalSearch.includes('data/dieu-khoan.json')
+    && dkGlobalSearchHtml.includes('Hồ sơ lưu tại cơ quan hải quan.'),
+    JSON.stringify({ dkFetchedSingle, dkFetchedGlobalSearch }));
 } finally {
   for (const d of tmpDirs) {
     try {
