@@ -234,7 +234,73 @@ try {
     }
   });
 
-  console.log(`\n${passed}/4 test điều khoản đầy đủ đạt.`);
+  // 5. Wave 25: Tách khoản cho văn bản sửa đổi gộp (Điều 1 gồm nhiều khoản) & gopDieuKhoanNguonA giữ đủ các khoản
+  await test('Wave 25: trichKhoanSuaDoiTuKhoi tách đúng các khoản sửa đổi & gopDieuKhoanNguonA giữ nguyên mọi khoản', async () => {
+    const tmp = makeTmp();
+    mkdirSync(join(tmp, 'raw'), { recursive: true });
+    const padded = [
+      'Điều 1. Sửa đổi, bổ sung một số điều của Thông tư gốc',
+      '1. Sửa đổi, bổ sung Điều 3 về khai hải quan điện tử tại cửa khẩu quốc tế và cảng biển với độ dài đủ lớn ' + 'a '.repeat(500) + '.',
+      '2. Sửa đổi, bổ sung khoản 2 Điều 22 về hủy tờ khai hải quan khi quá hạn 15 ngày kể từ ngày đăng ký ' + 'b '.repeat(500) + '.',
+      '3. Bãi bỏ Điều 30 và Phụ lục II ban hành kèm theo Thông tư gốc kể từ ngày có hiệu lực thi hành văn bản quy phạm pháp luật này.',
+      'Điều 2. Hiệu lực thi hành',
+      'Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 02 năm 2026; các cơ quan hải quan, người khai hải quan chịu trách nhiệm tổ chức thi hành thống nhất.',
+    ].join('\n\n');
+    writeFileSync(join(tmp, 'raw', 'sua.txt'), padded, 'utf8');
+    writeMinimalRegistry(tmp, [
+      {
+        slug: 'goc',
+        data: {
+          so_hieu: '38/2015/TT-BTC',
+          loai: 'THONG_TU',
+          ten: 'Thông tư gốc',
+          co_quan: 'BTC',
+          ngay_ban_hanh: '2015-03-25',
+          tinh_trang: 'CON_HIEU_LUC',
+          nguon: [{ url: 'https://vbpl.vn/goc', truy_cap: '2026-01-01' }],
+          xac_minh: { muc: 'NGUON_A', hieu_luc_da_doi_chieu: true, ngay: '2026-01-01' },
+        },
+      },
+      {
+        slug: 'sua',
+        data: {
+          so_hieu: '121/2025/TT-BTC',
+          loai: 'THONG_TU',
+          ten: 'Thông tư sửa đổi',
+          co_quan: 'BTC',
+          ngay_ban_hanh: '2025-12-18',
+          tinh_trang: 'CON_HIEU_LUC',
+          quan_he: { sua_doi: ['38/2015/TT-BTC'] },
+          nguon: [{ url: 'https://vbpl.vn/sua', truy_cap: '2026-01-01' }],
+          toan_van: 'raw/sua.txt',
+          xac_minh: {
+            muc: 'NGUON_A',
+            hieu_luc_da_doi_chieu: true,
+            ngay: '2026-01-01',
+            dieu_khoan: [
+              { dieu: 1, khoan: 1, noi_dung: '1. Sửa đổi, bổ sung Điều 3 về khai hải quan điện tử' },
+            ],
+          },
+        },
+      },
+    ]);
+
+    const res = chayTrichDieuKhoanDayDu({ root: tmp, slugs: ['sua'], write: true, coPdftotext: false });
+    assert.equal(res.da_trich, 1);
+    assert.equal(res.tong_dieu_khoan, 4); // 3 khoản của Điều 1 + Điều 2
+
+    const soTmp = napSo(tmp);
+    const dkDist = dungDieuKhoan(soTmp, tmp, '2026-11-25');
+    const vbSua = dkDist.nguyen_van_nguon_a.find((x) => x.so_hieu === '121/2025/TT-BTC');
+    assert.ok(vbSua && vbSua.dieu_khoan.length === 4, `Mong đợi 4 mục, nhận ${vbSua?.dieu_khoan?.length}`);
+    assert.ok(vbSua.dieu_khoan.some((x) => x.dieu === 1 && x.khoan === 2));
+    assert.ok(vbSua.dieu_khoan.some((x) => x.dieu === 1 && x.khoan === 3));
+
+    const ver = kiemTraDieuKhoan(soTmp, { root: tmp, coPdftotext: false });
+    assert.equal(ver.loi.length, 0, JSON.stringify(ver.loi));
+  });
+
+  console.log(`\n${passed}/5 test điều khoản đầy đủ đạt.`);
 } finally {
   for (const d of tmpDirs) {
     rmSync(d, { recursive: true, force: true });
