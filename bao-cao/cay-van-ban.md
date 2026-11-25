@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-25
 
-3216 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3225 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -487,7 +487,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2453 văn bản, 2451 chưa hết hiệu lực.
+2462 văn bản, 2460 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -635,6 +635,8 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [14912/TB-CHQ/2026](../registry/van-ban/14912-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Kit thuốc nghiên cứu - Bộ dụng cụ thử nghiệm lâm sàng AZD6793 5mg, 15mg, 45mg hoặc Placebo dùng trong nghiên cứu mù đôi PRESTO mã số D7860C00006, đóng lọ 35 viên nén bao phim, mã số 3006.93.00)
 - 🟢 [14825/TB-CHQ/2026](../registry/van-ban/14825-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chế phẩm diệt khuẩn, khử trùng Nipacide BIT 20 Plus chứa 1,2-benzisothiazolin-3-one 10-25% dạng lỏng làm chất bảo quản trong sản xuất nước giặt, xả vải, đóng gói 25 kg/thùng, mã số 3808.94.90)
 - 🟢 [14826/TB-CHQ/2026](../registry/van-ban/14826-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bột chiên giòn Premium Bake SB 050 NE từ bánh mì nướng chín nghiền vụn sấy khô, bột mì 95,9%, dùng tạo độ giòn thực phẩm, đóng gói 20 kg hoặc 650 kg/túi, mã số 1905.90.90)
+- 🟢 [14742/TB-CHQ/2026](../registry/van-ban/14742-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Mảnh vải vụn từ sợi PA 66 có phủ silicone PA66-COATED, mã số 6310.10.10)
+- 🟢 [14743/TB-CHQ/2026](../registry/van-ban/14743-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Mảnh vải vụn từ sợi PA 66 không tráng phủ PA66-NON-COAT, mã số 6310.10.10)
 - 🟢 [13727/TB-CHQ/2026](../registry/van-ban/13727-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Máy plasma lạnh hỗ trợ điều trị vết thương PlasmaMED-GAP, ký mã hiệu PlasmaMED-BV-M3, mã số 9018.90.31)
 - 🟢 [13270/TB-CHQ/2026](../registry/van-ban/13270-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ toan áo phẫu thuật khớp gối Arthroscopy Pack, ký mã hiệu V-ATP-005, vải không dệt polypropylene tiệt trùng bằng khí EO dùng 1 lần, mã số 6307.90.90)
 - 🟢 [13271/TB-CHQ/2026](../registry/van-ban/13271-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ toan áo phẫu thuật thần kinh sọ não Neuro Pack with Pouch, ký mã hiệu V-NSP-002, vải không dệt polypropylene tiệt trùng bằng khí EO dùng 1 lần, mã số 6307.90.90)
@@ -646,6 +648,8 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [9572/TB-CHQ/2026](../registry/van-ban/9572-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị đo độ ẩm đất bằng bức xạ vi sóng thụ động TurfRad Moisture Sensor, ký mã hiệu TurfRad Rev. 1.4, băng tần L 1400-1427 MHz chỉ thu, mã số 9027.89.90)
 - 🟢 [8848/TB-CHQ/2026](../registry/van-ban/8848-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Dụng cụ kiểm tra độ thẳng hàng chân pin tiếp xúc mạch điện bằng thép không gỉ, ký mã hiệu 7386-8850A00 49YC002837, mã số 9031.80.90)
 - 🟢 [8997/CHQ-NVTHQ](../registry/van-ban/8997-chq-nvthq-2026.yaml) — Về việc bổ sung Tuyển tập ý kiến phân loại của WCO tại phiên họp lần thứ 76 (WP76 và HSC76 tháng 09/2025)
+- 🟢 [8846/TB-CHQ/2026](../registry/van-ban/8846-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Ống nhôm hợp kim chưa gia công A6063S, mã số 7604.21.90)
+- 🟢 [8847/TB-CHQ/2026](../registry/van-ban/8847-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cà phê sữa viên nén DOLCE GUSTO - SBUX CAPPUCCINO 12Caps 3x120gN2XX, mã số 0901.21.20)
 - 🟢 [7700/TB-CHQ/2026](../registry/van-ban/7700-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Nguyên liệu thực phẩm AQUAMIN F từ tảo biển đỏ Lithothamnion sp. dạng bột bổ sung canxi và khoáng chất tự nhiên, mã số 1212.21.90)
 - 🟢 [7911/TB-CHQ/2026](../registry/van-ban/7911-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Màn hình hiển thị Left Monitor for Room 70 Dual cho hệ thống hội nghị truyền hình Webex Room 70D, ký mã hiệu CS-ROOM70D-MON-L, mã số 8528.52.00)
 - 🟢 [7912/TB-CHQ/2026](../registry/van-ban/7912-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Màn hình hiển thị Monitor for Room 70S cho hệ thống hội nghị truyền hình Webex Room 70S, ký mã hiệu CS-ROOM70S-MON-S=, mã số 8528.52.00)
@@ -653,6 +657,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [7914/TB-CHQ/2026](../registry/van-ban/7914-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Màn hình hiển thị Left Monitor for MX800 70 Dual Screen w/Dual Camera cho hệ thống hội nghị truyền hình TelePresence MX800, ký mã hiệu CTS-MX800-MON-L-D=, mã số 8528.52.00)
 - 🟢 [7915/TB-CHQ/2026](../registry/van-ban/7915-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Màn hình hiển thị Right Monitor for Room 70 Dual cho hệ thống hội nghị truyền hình Webex Room 70D, ký mã hiệu CS-ROOM70D-MON-R=, mã số 8528.52.00)
 - 🟢 [7920/TB-CHQ/2026](../registry/van-ban/7920-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ thu nhận tín hiệu truyền hình tivi (tuner), Part No DTVS20EH7A, Model BN40-00329A, mã số 8529.90.91)
+- 🟢 [7306/TB-CHQ/2026](../registry/van-ban/7306-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Viên nén trà xanh Dolce Gusto - Sbux Matcha Latte 12Cap 3x148.2g XX, mã số 2101.20.30)
 - 🟢 [6740/TB-CHQ/2026](../registry/van-ban/6740-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bảng mạch chuyển đổi nguồn và xử lý tín hiệu cho TV, Maker PN VT32HM075A3PVD, Model BN96-50993F, mã số 8529.90.54)
 - 🟢 [6746/TB-CHQ/2026](../registry/van-ban/6746-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bình tích áp bằng thép dung tích 21 lít kèm theo van dùng cho máy lọc nước gia đình, ký mã hiệu RO-152, mã số 8421.99.94)
 - 🟢 [6560/TB-CHQ/2026](../registry/van-ban/6560-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Keo nóng chảy Hot Melt Adhesive, ký mã hiệu LG-905S, mã số 3506.91.90)
@@ -708,11 +713,14 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [28738/TB-CHQ/2025](../registry/van-ban/28738-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.90)
 - 🟢 [28739/TB-CHQ/2025](../registry/van-ban/28739-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
 - 🟢 [28740/TB-CHQ/2025](../registry/van-ban/28740-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3302.10.30)
+- 🟢 [26548/TB-CHQ/2025](../registry/van-ban/26548-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiếc dạng bán cầu TBC20 đường kính 20mm, mã số 8001.10.00)
 - 🟢 [26287/TB-CHQ/2025](../registry/van-ban/26287-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2202.99.50)
 - 🟢 [25954/TB-CHQ/2025](../registry/van-ban/25954-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Hộp đựng đồ bên hông xe máy bằng nhựa ABS dung tích 15 lít, ký mã hiệu Motocycle Side box TD25, mã số 4202.12.99)
 - 🟢 [25148/TB-CHQ/2025](../registry/van-ban/25148-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
 - 🟢 [25150/TB-CHQ/2025](../registry/van-ban/25150-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (7312.10.99)
 - 🟢 [25114/TB-CHQ/2025](../registry/van-ban/25114-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.32.90)
+- 🟢 [25123/TB-CHQ/2025](../registry/van-ban/25123-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Xe vận chuyển hành lý nội khu chạy điện LEROAD SHUTTLE 2 WITH VAN BOX LRGD/2, mã số 8704.60.29)
+- 🟢 [25124/TB-CHQ/2025](../registry/van-ban/25124-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Xe vận chuyển hàng hóa phạm vi hẹp chạy điện LEROAD SHUTTLE 2 WITH CARGO BED LRGD/2, mã số 8704.60.29)
 - 🟢 [24778/TB-CHQ/2025](../registry/van-ban/24778-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Module màn hình tinh thể lỏng LCD 14 inch dùng cho máy tính xách tay, ký mã hiệu B140XTN07.4, mã số 8524.91.00)
 - 🟢 [24779/TB-CHQ/2025](../registry/van-ban/24779-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Loa chưa lắp vào vỏ loa dùng sản xuất loa siêu trầm, ký mã hiệu HUNFW00029A, mã số 8518.29.90)
 - 🟢 [24780/TB-CHQ/2025](../registry/van-ban/24780-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Loa chưa lắp vào vỏ loa Unit speaker, ký hiệu HUNFW00022A, mã số 8518.29.90)
@@ -751,6 +759,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [16238/TB-CHQ/2025](../registry/van-ban/16238-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3919.90.92)
 - 🟢 [16460/TB-CHQ/2025](../registry/van-ban/16460-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Đầu cắm mạch in 24 chân MX34024NF1 dùng cho hệ thống điều khiển tay nắm cửa ô tô, mã số 8536.69.32)
 - 🟢 [15745/TB-CHQ/2025](../registry/van-ban/15745-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.99)
+- 🟢 [15805/TB-CHQ/2025](../registry/van-ban/15805-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Cà phê hòa tan sấy phun Spray Dried Instant Coffee SD9010, mã số 2101.12.99)
 - 🟢 [15622/TB-CHQ/2025](../registry/van-ban/15622-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (1517.90.30)
 - 🟢 [15668/TB-CHQ/2025](../registry/van-ban/15668-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2103.90.29)
 - 🟢 [15674/TB-CHQ/2025](../registry/van-ban/15674-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
