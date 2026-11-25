@@ -44,9 +44,10 @@ Kho mở, miễn phí, cho cộng đồng làm xuất nhập khẩu: **văn bả
     - `node tools/trich-dieu-khoan.mjs --slug <slug>` (hoặc `--all-ready`) — trích điều khoản nguyên văn vào `xac_minh.dieu_khoan` từ `.ocr.txt`/`.txt`/`.md`/PDF lớp chữ/`.docx` kèm tự kiểm chứng `chuanHoaKhopNguyenVan` + `sha256_pdf`
   - `npm run diem-mu` — sinh báo cáo điểm mù (tách tầng TB-TCHQ vs VBQPPL, ghi nhận `HS_AHTN_CU_DA_ANH_XA`, `DOC_HIEU_DIEU_RAC`/`DOC_HIEU_THIEU_NGHIA_VU`, phát hiện trang wiki dẫn văn bản hết hiệu lực)
   - `npm run eval:qa` — đo độ phủ **60 câu** (`CH-01..CH-60`) hỏi nghiệp vụ PLHQ & XNK
-  - `npm run eval:retrieval` — cổng đo truy hồi sống của `hoiPhapLuat` trên bộ **60 câu** nghiệp vụ + câu ghim số hiệu + viết tắt + ngoài kho
+  - `npm run eval:retrieval` — cổng đo truy hồi sống của `hoiPhapLuat` trên bộ **60 câu** nghiệp vụ + câu ghim số hiệu + viết tắt + ngoài kho (đạt `60/60 (100.0%)` cho `hitAny`/`hitAll`/`hitTop1`)
   - `npm run triage:miss` — công cụ **chỉ đọc** (`phan-loai-miss`) phân loại issue `[miss]` thành 5 nhóm (`DA_CO_TRONG_SO`, `THUOC_HS_CODE_API`, `THIEU_VAN_BAN_MOI`, `THIEU_WIKI_HOAC_DIEU_KHOAN`, `KHAC_CAN_RA_SOAT`)
-  - `npm run dung && npm run dung:web` — dựng **8 tệp** `dist/*.json` (`1.5.0`) + báo cáo và dựng cổng tra cứu web tĩnh V2 (5 thẻ, 7 tệp `site/data/*.json`) ra `site/`
+  - `npm run chuyen-hieu-luc -- --ngay YYYY-MM-DD [--ghi]` — công cụ rà soát & cắt chuyển `tinh_trang` theo mốc ngày hiệu lực (mặc định dry-run, khóa bảo vệ `HET_HIEU_LUC_MOT_PHAN` vào danh sách soát tay và báo trước trang wiki cần rà lại)
+  - `npm run dung && npm run dung:web` — dựng **8 tệp** `dist/*.json` (`1.5.0`) + báo cáo và dựng cổng tra cứu web tĩnh V2 (5 thẻ, tải lười `wiki-chunks.json` + mục lục `dieu-khoan-index.json` và chia mảnh `data/dk/*.json`) ra `site/`
 
 ## Ranh giới 0% trùng lặp với `hs-code-api`
 

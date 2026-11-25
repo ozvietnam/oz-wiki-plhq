@@ -1,9 +1,9 @@
 ---
 id: van-ban-sap-het-hieu-luc-2026-2027
-title: "Cẩm nang hành động: 8 văn bản sắp hết hiệu lực & 3 văn bản sắp có hiệu lực 31/12/2026 – 01/01/2027"
+title: "Cẩm nang hành động: 8 văn bản sắp hết hiệu lực & 5 văn bản sắp có hiệu lực 2026 – 2027"
 type: summary
 created: 2026-11-22
-updated: 2026-11-24
+updated: 2026-11-25
 covers:
   - thue-gtgt-hang-nhap-khau
   - hang-cu-cam-nhap-khau
@@ -52,7 +52,7 @@ Số liệu đối chiếu trực tiếp từ từng tệp YAML trong `registry/
 - **Cấu trúc hiệu lực:** `204/2025/QH15` (`CON_HIEU_LUC`, ban hành `17/06/2025`, hiệu lực `01/07/2025 – 31/12/2026`) là nghị quyết gốc của Quốc hội; `174/2025/NĐ-CP` (`CON_HIEU_LUC`, ban hành `30/06/2025`, hiệu lực `01/07/2025 – 31/12/2026`) hướng dẫn thi hành, quy định giảm thuế GTGT từ `10%` xuống `8%` thống nhất ở các khâu nhập khẩu, sản xuất, gia công, kinh doanh thương mại (xem [[concepts/thue-gtgt-hang-nhap-khau]] và [[sources/174-2025-nd-cp]]).
 - **Phạm vi loại trừ hiện hành:** Không áp dụng cho hàng hóa/dịch vụ thuộc **Phụ lục I** (viễn thông, tài chính, ngân hàng, chứng khoán, bảo hiểm, bất động sản, kim loại, sản phẩm khai khoáng...) và **Phụ lục II** (hàng chịu thuế TTĐB, **trừ xăng** được hưởng giảm 8%); hàng đã thuộc diện không chịu thuế hoặc thuế suất `5%` thực hiện theo Luật Thuế GTGT hiện hành (`181/2025/NĐ-CP`).
 - **Tác động thời điểm đăng ký tờ khai:** Theo Điều 15 khoản 2 `181/2025/NĐ-CP`, thời điểm xác định thuế GTGT đối với hàng hóa nhập khẩu là **thời điểm xác định thuế nhập khẩu** (ngày đăng ký tờ khai hải quan). Tờ khai đăng ký đến hết `31/12/2026` áp dụng chính sách của `204/2025/QH15` và `174/2025/NĐ-CP`; từ `01/01/2027`, nếu Quốc hội/Chính phủ chưa ban hành văn bản gia hạn mới thì chính sách giảm 2% mặc định kết thúc (quay về `10%` theo quy định chung).
-- **Điểm mù trung thực:** Trên nguồn bậc A đến `22/11/2026`, **chưa có** Nghị quyết Quốc hội hoặc Nghị định mới kéo dài giảm thuế GTGT 8% sang năm 2027 (việc Chính phủ giao Bộ Tài chính nghiên cứu phương án thuế hết hiệu lực từ `01/01/2027` chưa phải văn bản quy phạm kéo dài hiệu lực). Doanh nghiệp và Cổng MCP cần theo dõi sát công báo cuối tháng 11–12/2026 và không tự khẳng định mức `8%` cho lô hàng mở tờ khai từ `01/01/2027`.
+- **Điểm mù trung thực (cập nhật đến `25/11/2026`):** Trên nguồn bậc A đến `25/11/2026`, **chưa có** Nghị quyết Quốc hội hoặc Nghị định mới ban hành kéo dài giảm thuế GTGT 8% sang năm 2027 (việc Chính phủ giao Bộ Tài chính nghiên cứu phương án chính sách thuế hết hiệu lực từ `01/01/2027` chưa phải văn bản quy phạm kéo dài hiệu lực). Doanh nghiệp và Cổng MCP cần theo dõi sát Công báo cuối tháng 11–12/2026 và không tự khẳng định mức `8%` cho lô hàng mở tờ khai từ `01/01/2027`.
 
 ### 3. Nhóm ưu đãi thuế xăng, dầu & nguyên liệu (`72/2026/NĐ-CP` + `43/2026/NQ-CP` + `19/2026/QH16`)
 
@@ -65,7 +65,7 @@ Chính sách thuế đối với xăng, dầu và nhiên liệu bay cuối năm 
 2. **Lớp thuế BVMT & GTGT xăng dầu — `43/2026/NQ-CP` (`het_hieu_luc_tu: 2026-12-31`) sửa đổi thời hạn của `19/2026/QH16`:**
    - Điều 2 `43/2026/NQ-CP` (`CON_HIEU_LUC`, hiệu lực `01/10/2026 – 31/12/2026`) kéo dài đến hết `31/12/2026` việc áp dụng **Điều 1** (thuế bảo vệ môi trường `0 đồng/lít` đối với xăng trừ etanol, dầu diesel, dầu hỏa, dầu mazut và nhiên liệu bay) và **Điều 2** (thuộc đối tượng không phải kê khai, tính nộp thuế GTGT nhưng được khấu trừ thuế GTGT đầu vào) của Nghị quyết `19/2026/QH16`.
    - **Tách bạch với thuế TTĐB:** `43/2026/NQ-CP` Điều 3 khoản 2 chỉ kéo dài Điều 1 và Điều 2 của `19/2026/QH16`, **không** kéo dài Điều 3 (thuế TTĐB `0%` đối với xăng các loại), mà dẫn về Luật Thuế TTĐB `66/2025/QH15` và các văn bản hướng dẫn thi hành (trước khi có nghị quyết mới của Chính phủ nếu có).
-- **Điểm mù trung thực:** Đến `22/11/2026`, trên nguồn bậc A **chưa có** Nghị quyết Chính phủ mới kéo dài hiệu lực của `72/2026/NĐ-CP` (thuế MFN) và Điều 1–2 `19/2026/QH16` (BVMT `0` đồng & miễn kê khai GTGT) qua mốc `31/12/2026`. Lưu ý phụ trợ: `80/2023/NĐ-CP` (`CON_HIEU_LUC`, sửa đổi, bổ sung một số điều của `83/2014/NĐ-CP` và `95/2021/NĐ-CP` đều đang `CON_HIEU_LUC`) vẫn còn hiệu lực ổn định về điều kiện đầu mối/phân phối và nhập khẩu phụ gia nhiên liệu.
+- **Điểm mù trung thực (cập nhật đến `25/11/2026`):** Đến `25/11/2026`, trên nguồn bậc A **chưa có** Nghị quyết Chính phủ mới kéo dài hiệu lực của `72/2026/NĐ-CP` (thuế MFN) và Điều 1–2 `19/2026/QH16` (BVMT `0` đồng & miễn kê khai GTGT) qua mốc `31/12/2026` (mặc định hết hạn quay về biểu thuế MFN `26/2023/NĐ-CP` và mức BVMT chuẩn nếu không có gia hạn mới). Lưu ý phụ trợ: `80/2023/NĐ-CP` (`CON_HIEU_LUC`, sửa đổi, bổ sung một số điều của `83/2014/NĐ-CP` và `95/2021/NĐ-CP` đều đang `CON_HIEU_LUC`) vẫn còn hiệu lực ổn định về điều kiện đầu mối/phân phối và nhập khẩu phụ gia nhiên liệu.
 
 ### 4. Nhóm hàng đã qua sử dụng & chuyển tiếp theo `292/2026/NĐ-CP` (`11/2018/TT-BTTTT`, `12/2018/TT-BCT`, `08/2023/TT-BCT`)
 
@@ -86,7 +86,7 @@ Theo Điều 64 khoản 4 `292/2026/NĐ-CP` (hiệu lực từ `05/09/2026`, tha
 
 - **`173/2018/TT-BQP` (`CON_HIEU_LUC`, `2019-01-01` → `het_hieu_luc_tu: 2026-12-31`):** Ban hành 24 mục hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành Bộ Quốc phòng (thay thế văn bản lịch sử đã hết hiệu lực `40/2017/TT-BQP`), gồm 12 mục có mã HS trích tại `danh-muc/173-2018-tt-bqp.csv` (phủ `41` mã HS trong biểu thuế, `da_doi_chieu: true`) và 12 mục không gắn mã HS.
   - **Vì sao hết hạn `31/12/2026`:** `173/2018/TT-BQP` hướng dẫn văn bản lịch sử đã hết hiệu lực `69/2018/NĐ-CP`, nên chỉ còn hiệu lực chuyển tiếp đến hết `31/12/2026` theo Điều 64 khoản 4 `292/2026/NĐ-CP`. Trong khi đó, Điều 9 khoản 1 `292/2026/NĐ-CP` giao Bộ trưởng Bộ Quốc phòng quyết định danh mục hàng hóa XNK phục vụ quốc phòng, an ninh và cấp phép XNK.
-  - **Điểm mù trung thực cần nêu rõ:** (1) Đến `24/11/2026` (Công báo số 584), **chưa có** Thông tư BQP mới trên nguồn bậc A thay thế danh mục cấm XK/NK của `173/2018/TT-BQP` (lưu ý `126/2026/TT-BQP` là danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn phục vụ KTCN, không thay thế `173/2018/TT-BQP`); (2) PDF gốc `173-2018-tt-bqp.pdf` đã được OCR, trích nguyên văn Điều 1, Điều 2, Điều 3 vào `xac_minh.dieu_khoan` và bảng `danh-muc/173-2018-tt-bqp.csv` (12 mục có mã HS) đã hoàn tất đối chiếu người thứ hai (`da_doi_chieu: true`).
+  - **Điểm mù trung thực cần nêu rõ (cập nhật đến `25/11/2026`):** (1) Đến `25/11/2026`, **chưa có** Thông tư BQP mới trên nguồn bậc A thay thế danh mục hàng hóa cấm XK/NK của `173/2018/TT-BQP` (lưu ý `126/2026/TT-BQP` là danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn phục vụ KTCN, không thay thế `173/2018/TT-BQP`); (2) PDF gốc `173-2018-tt-bqp.pdf` đã được OCR, trích nguyên văn Điều 1, Điều 2, Điều 3 vào `xac_minh.dieu_khoan` và bảng `danh-muc/173-2018-tt-bqp.csv` (12 mục có mã HS) đã hoàn tất đối chiếu người thứ hai (`da_doi_chieu: true`).
 - **Các mốc chuyển tiếp `31/12/2026` liên quan về hóa chất, tiền chất & hạn ngạch:**
   - Về hóa chất và tiền chất (xem chi tiết tại [[concepts/hoa-chat-tien-chat-cas-xnk]]): **trước ngày `31/12/2026`**, doanh nghiệp kinh doanh/sử dụng hợp pháp **1,4-Butanediol (`BDO`, CAS `110-63-4`)** phải tuân thủ quy định quản lý tiền chất theo Điều 3 khoản 4 `28/2026/NĐ-CP`; các cơ sở có hóa chất mới thuộc diện kiểm soát đặc biệt/có điều kiện và lập Kế hoạch ứng phó sự cố hóa chất cũng có mốc hoàn tất trước `31/12/2026` theo Điều 30 khoản 3, 4, 7 `26/2026/NĐ-CP` và Điều 40 khoản 2 `25/2026/NĐ-CP`.
   - Về hạn ngạch thuế quan theo cam kết song phương trong Phụ lục IV `48/2026/TT-BCT`: các mục **XIII** (Việt Nam – Campuchia), **XIV** (Nghị định thư Việt Nam – Nga) và **XV** (Nghị định thư Việt Nam – Bê-la-rút) đều có mốc hiệu lực ghi đến `31/12/2026`.
@@ -119,12 +119,23 @@ Song song với 8 văn bản sắp hết hiệu lực, sổ đăng ký ghi nhậ
 | [[sources/372-2026-nd-cp]] (`372/2026/NĐ-CP`) | `CP` (`29/09/2026`) | `2027-01-01` | Quy định Nền tảng quốc gia về định danh, xác thực và truy xuất nguồn gốc (`VnUID`) và mã `UID` (GS1 Digital Link / W3C `DID` / TCVN 13274:2020): **bắt buộc** đối với **hàng hóa mức độ rủi ro cao** theo `37/2026/NĐ-CP` (gồm dữ liệu chủ chuẩn hóa mã HS, sự kiện trọng yếu thông quan/hóa đơn, số hóa C/O và chứng nhận chất lượng thành chứng chỉ số), khuyến khích tự nguyện với rủi ro trung bình/thấp & hàng XK, loại trừ TNTX/quá cảnh/chuyển khẩu/kho ngoại quan; chuyển tiếp kết nối tối đa `06` tháng từ khi công bố Nền tảng đủ điều kiện. |
 | [[sources/63-2026-tt-bkhcn]] (`63/2026/TT-BKHCN`) | `BKHCN` (`27/10/2026`) | `2027-01-01` | Thay thế toàn bộ `11/2018/TT-BTTTT` về Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm mã HS theo `292/2026/NĐ-CP` (chuẩn hóa `37` dòng lá trong `danh-muc/63-2026-tt-bkhcn.csv` theo `31/2022/TT-BTC`, bỏ mã `8443.32.49`), bổ sung **ngoại lệ mới** cho máy móc/dây chuyền phục vụ dự án sản xuất, đóng gói, kiểm thử **vi mạch bán dẫn** hoặc đào tạo, R&D công nghệ số (điểm e khoản 2 Điều 2) và chuyển tiếp giấy phép đã cấp trước `01/01/2027` (khoản 3 Điều 3). |
 
+Bổ sung mốc kế tiếp **`01/03/2027`** (**2 văn bản `CHUA_CO_HIEU_LUC`** đã có trong sổ đăng ký & `wiki/sources/`):
+
+| Văn bản (`wiki/sources/`) | Cơ quan / Ban hành | Hiệu lực từ | Tác động nghiệp vụ XNK từ `01/03/2027` |
+|---|---|---|---|
+| [[sources/11-2026-qh16]] (`11/2026/QH16`) | `QH` (`23/08/2026`) | `2027-03-01` | Luật sửa đổi, bổ sung một số điều của Luật Hải quan `54/2014/QH13` (`NGUON_A`, `hieu_luc_da_doi_chieu: true`). |
+| [[sources/417-2026-nd-cp]] (`417/2026/NĐ-CP`) | `CP` (`20/11/2026`) | `2027-03-01` | Quản lý hải quan đối với hàng hóa XNK qua nền tảng thương mại điện tử và quy định miễn thuế NK đối với đơn hàng TMĐT trị giá từ `1` triệu đồng trở xuống (Điều 12). |
+
 ### 8. Kịch bản cắt chuyển trạng thái sổ đăng ký (`registry/van-ban/`) tại mốc `31/12/2026` – `01/01/2027`
 
-Do cổng kiểm tự động `tools/kiem-tra.mjs` chặn việc đặt `tinh_trang: HET_HIEU_LUC` khi `het_hieu_luc_tu > today` (và chặn giữ `CON_HIEU_LUC` khi `het_hieu_luc_tu <= today`), việc cập nhật sổ đăng ký được chia thành **2 pha rõ ràng**:
+Do cổng kiểm tự động `tools/kiem-tra.mjs` chặn việc đặt `tinh_trang: HET_HIEU_LUC` khi `het_hieu_luc_tu > today` (và chặn giữ `CON_HIEU_LUC` khi `het_hieu_luc_tu <= today`), việc cập nhật sổ đăng ký được chia thành **2 pha rõ ràng** và được tự động hóa an toàn bằng công cụ **`npm run chuyen-hieu-luc`** (`tools/chuyen-hieu-luc.mjs`, mặc định dry-run):
 
-1. **Pha trước `15/12/2026`:** Hoàn tất toàn bộ 8/8 trang `wiki/sources/` và đồng bộ các trang `wiki/concepts/`, `wiki/summary/`; canh Công báo mỗi kỳ đối với 7 văn bản chưa có văn bản kế nhiệm/gia hạn (nếu có văn bản mới ban hành thì nạp ngay toàn văn bậc A và gắn `quan_he.thay_the` / `sua_doi`).
-2. **Pha cắt chuyển đúng hạn (`31/12/2026` – `01/01/2027`):** Nếu đến ngày hết hạn mà cơ quan có thẩm quyền không ban hành văn bản gia hạn mới, áp dụng bảng chuyển trạng thái YAML chuẩn dưới đây:
+1. **Pha trước `15/12/2026`:** Hoàn tất toàn bộ 8/8 trang `wiki/sources/` và đồng bộ các trang `wiki/concepts/`, `wiki/summary/`; canh Công báo mỗi kỳ đối với 7 văn bản chưa có văn bản kế nhiệm/gia hạn (nếu có văn bản mới ban hành thì nạp ngay toàn văn bậc A và gắn `quan_he.thay_the` / `sua_doi`). Chạy xem trước kịch bản cắt chuyển bất kỳ lúc nào bằng:
+   - `npm run chuyen-hieu-luc -- --ngay 2027-01-01` (liệt kê `6` văn bản `CON_HIEU_LUC → HET_HIEU_LUC`, `3` văn bản `CHUA_CO_HIEU_LUC → CON_HIEU_LUC`, khóa bảo vệ **`2` văn bản `HET_HIEU_LUC_MOT_PHAN` (`12/2018/TT-BCT`, `08/2023/TT-BCT`) vào danh sách `can_soat_tay`** và xuất danh sách trang wiki cần rà lại để tránh `WIKI_DAN_VB_HET_HIEU_LUC`).
+2. **Pha cắt chuyển đúng hạn (`31/12/2026` – `01/01/2027`):** Nếu đến ngày hết hạn mà cơ quan có thẩm quyền không ban hành văn bản gia hạn mới:
+   - Bước 1: Chạy `npm run chuyen-hieu-luc -- --ngay 2027-01-01 --ghi` để cắt chuyển an toàn 9 văn bản `CON_HIEU_LUC`/`CHUA_CO_HIEU_LUC`.
+   - Bước 2: Soát tay 2 tệp `HET_HIEU_LUC_MOT_PHAN` theo bảng dưới (`12-2018-tt-bct.yaml` → `HET_HIEU_LUC`; `08-2023-tt-bct.yaml` → giữ `HET_HIEU_LUC_MOT_PHAN` và bỏ `het_hieu_luc_tu`).
+   - Bước 3: Rà các trang wiki trong `wiki_can_ra_soat` và chạy `npm run kiem-tra && npm run diem-mu && npm test` trước khi mở PR.
 
 | Tệp `registry/van-ban/` | Trạng thái hiện tại | Thao tác cắt chuyển tại mốc `31/12/2026` – `01/01/2027` (nếu không có VB gia hạn mới) | Lý do & kiểm chứng `kiem-tra.mjs` |
 |---|---|---|---|
@@ -146,10 +157,11 @@ Do cổng kiểm tự động `tools/kiem-tra.mjs` chặn việc đặt `tinh_tr
   - [[sources/11-2018-tt-btttt]] (`11/2018/TT-BTTTT`) — kèm văn bản kế nhiệm [[sources/63-2026-tt-bkhcn]] (`63/2026/TT-BKHCN`).
   - [[sources/12-2018-tt-bct]] (`12/2018/TT-BCT`) & [[sources/08-2023-tt-bct]] (`08/2023/TT-BCT`) — kèm [[sources/48-2026-tt-bct]] (`48/2026/TT-BCT`), `registry/van-ban/98-2021-nd-cp.yaml` (`98/2021/NĐ-CP`), [[sources/07-2023-nd-cp]] (`07/2023/NĐ-CP`).
   - [[sources/173-2018-tt-bqp]] (`173/2018/TT-BQP`) — gắn điều khoản chuyển tiếp của [[sources/292-2026-nd-cp]] (`292/2026/NĐ-CP`, thay thế văn bản lịch sử đã hết hiệu lực `69/2018/NĐ-CP`).
-- **3 văn bản `SAP_CO_HIEU_LUC` hiệu lực `01/01/2027`:**
+- **Văn bản `CHUA_CO_HIEU_LUC` hiệu lực `01/01/2027` & `01/03/2027` (`SAP_CO_HIEU_LUC` & kế tiếp):**
   - [[sources/154-2026-tt-btc]] (`154/2026/TT-BTC`, sửa đổi `80/2019/TT-BTC`, kèm [[sources/14-2018-nd-cp]], [[sources/122-2024-nd-cp]], [[sources/34-2025-tt-bct]]).
   - [[sources/372-2026-nd-cp]] (`372/2026/NĐ-CP`, gắn với [[sources/37-2026-nd-cp]]).
   - [[sources/63-2026-tt-bkhcn]] (`63/2026/TT-BKHCN`, thay thế [[sources/11-2018-tt-btttt]] từ `01/01/2027`).
+  - [[sources/11-2026-qh16]] (`11/2026/QH16`, hiệu lực `01/03/2027`) & [[sources/417-2026-nd-cp]] (`417/2026/NĐ-CP`, hiệu lực `01/03/2027`).
 - **Văn bản khung & hóa chất liên quan mốc `31/12/2026`:** [[sources/181-2025-nd-cp]] (`181/2025/NĐ-CP`), [[sources/28-2026-nd-cp]] (`28/2026/NĐ-CP`), [[sources/26-2026-nd-cp]] (`26/2026/NĐ-CP`), `registry/van-ban/25-2026-nd-cp.yaml` (`25/2026/NĐ-CP`), `registry/van-ban/31-2022-tt-btc.yaml` (`31/2022/TT-BTC`).
 
 ## Key concepts
