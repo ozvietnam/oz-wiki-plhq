@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-25
 
-3179 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3216 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -33,16 +33,19 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Thủ tục hải quan, khai báo, hồ sơ `hai-quan/thu-tuc`
 
-76 văn bản, 52 chưa hết hiệu lực.
+82 văn bản, 58 chưa hết hiệu lực.
 
 - 🟢 [417/2026/NĐ-CP](../registry/van-ban/417-2026-nd-cp.yaml) — Quy định về quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu qua nền tảng thương mại điện tử
 - 🟢 [3318/QĐ-BTC](../registry/van-ban/3318-qd-btc-2026.yaml) — Công bố danh mục 133 thủ tục hành chính trong lĩnh vực hải quan thực hiện không phụ thuộc vào địa giới hành chính
 - 🔵 [154/2026/TT-BTC](../registry/van-ban/154-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 80/2019/TT-BTC ngày 15 tháng 11 năm 2019 của Bộ trưởng Bộ Tài chính quy định về thủ tục hải quan, quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu mua gom của người nước ngoài
 - 🟢 [54/2026/VBHN-TT-BTC](../registry/van-ban/54-2026-vbhn-tt-btc.yaml) — Hợp nhất Thông tư quy định thủ tục hải quan đối với thư, gói, kiện hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định
+- 🟢 [22660/TB-CHQ/2026](../registry/van-ban/22660-tb-chq-2026.yaml) — Thông báo việc phát hành ấn chỉ bán thu tiền
 - 🟢 [142/2026/TT-BTC](../registry/van-ban/142-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của các Thông tư quy định thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định và dịch vụ chuyển phát nhanh quốc tế
 - 🟢 [127/2026/TT-BTC](../registry/van-ban/127-2026-tt-btc.yaml) — Quy định về chỉ tiêu thông tin, mẫu chứng từ khai báo khi làm thủ tục xuất cảnh, nhập cảnh, quá cảnh đối với phương tiện vận tải qua cửa khẩu, cảng hàng không quốc tế
+- 🟢 [20245/TB-CHQ/2026](../registry/van-ban/20245-tb-chq-2026.yaml) — Thông báo việc phát hành ấn chỉ bán thu tiền
 - 🟢 [293/2026/NĐ-CP](../registry/van-ban/293-2026-nd-cp.yaml) — Hướng dẫn thực thi Công ước La Hay ngày 05 tháng 10 năm 1961 về miễn hợp pháp hóa đối với giấy tờ công của nước ngoài (Công ước Apostille)
 - 🟢 [18837/CHQ-GSQL](../registry/van-ban/18837-chq-gsql-2026.yaml) — Về việc triển khai các giải pháp tạo thuận lợi thông quan đối với hàng hóa nông sản xuất khẩu
+- 🟢 [18689/TB-CHQ/2026](../registry/van-ban/18689-tb-chq-2026.yaml) — Thông báo việc phát hành ấn chỉ bán thu tiền
 - 🟢 [273/2026/NĐ-CP](../registry/van-ban/273-2026-nd-cp.yaml) — Về kinh doanh hàng miễn thuế
 - 🟢 [78/2026/TT-BTC](../registry/van-ban/78-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 203/2014/TT-BTC ngày 22 tháng 12 năm 2014 của Bộ trưởng Bộ Tài chính hướng dẫn xử lý hàng hóa tồn đọng thuộc địa bàn hoạt động hải quan
 - 🟢 [83/2026/TT-BTC](../registry/van-ban/83-2026-tt-btc.yaml) — Quy định tiêu chuẩn hoạt động đại lý làm thủ tục hải quan, tiêu chuẩn nhân viên đại lý làm thủ tục hải quan; tổ chức thi, cấp chứng chỉ nghiệp vụ khai hải quan; quản lý hoạt động đại lý làm thủ tục hải quan, nhân viên đại lý làm thủ tục hải quan
@@ -59,11 +62,14 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 - 🟢 [8883/CHQ-GSQL](../registry/van-ban/8883-chq-gsql-2026.yaml) — Về việc thông quan thực phẩm nhập khẩu (triển khai Công điện số 08/CĐ-TTg ngày 03/02/2026 của Thủ tướng Chính phủ)
 - 🟢 [581/CHQ-NVTHQ](../registry/van-ban/581-chq-nvthq-2026.yaml) — Về việc triển khai thực hiện Thông tư số 121/2025/TT-BTC ngày 18/12/2025 (hướng dẫn thủ tục xác nhận hoàn thành nghĩa vụ nộp thuế theo khoản 61 Điều 1 sửa đổi Điều 140 Thông tư số 38/2015/TT-BTC)
 - 🟢 [121/2025/TT-BTC](../registry/van-ban/121-2025-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của các Thông tư quy định về thủ tục hải quan, kiểm tra, giám sát hải quan, thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu
+- 🟢 [35822/TB-CHQ/2025](../registry/van-ban/35822-tb-chq-2025.yaml) — Thông báo việc phát hành ấn chỉ nghiệp vụ hải quan
+- 🟢 [20117/TB-CHQ/2025](../registry/van-ban/20117-tb-chq-2025.yaml) — Thông báo việc phát hành Tem điện tử rượu nhập khẩu
 - 🟢 [211/2025/NĐ-CP](../registry/van-ban/211-2025-nd-cp.yaml) — Quy định về hoạt động mật mã dân sự và sửa đổi, bổ sung một số điều của Nghị định số 15/2020/NĐ-CP ngày 03 tháng 02 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bưu chính, viễn thông, tần số vô tuyến điện, công nghệ thông tin và giao dịch điện tử được sửa đổi, bổ sung một số điều tại Nghị định số 14/2022/NĐ-CP ngày 27 tháng 01 năm 2022 của Chính phủ
 - 🟢 [2371/QĐ-BTC](../registry/van-ban/2371-qd-btc-2025.yaml) — Về việc công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực hải quan thuộc phạm vi chức năng quản lý của Bộ Tài chính
 - 🟢 [2122/QĐ-BTC](../registry/van-ban/2122-qd-btc-2025.yaml) — Về việc công bố thủ tục hành chính được sửa đổi, bổ sung, bị bãi bỏ trong lĩnh vực quản lý thuế, hải quan thuộc phạm vi chức năng quản lý của Bộ Tài chính
 - 🟢 [47/2025/TT-BTC](../registry/van-ban/47-2025-tt-btc.yaml) — Bãi bỏ các Thông tư quy định về thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu do Bộ trưởng Bộ Tài chính ban hành trong bối cảnh dịch Covid-19
 - 🟢 [29/2025/TT-BTC](../registry/van-ban/29-2025-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư 191/2015/TT-BTC quy định thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh gửi qua dịch vụ chuyển phát nhanh quốc tế
+- 🟢 [5639/TB-CHQ/2025](../registry/van-ban/5639-tb-chq-2025.yaml) — Thông báo việc phát hành tem điện tử rượu nhập khẩu
 - 🟢 [1391/CHQ-NVTHQ](../registry/van-ban/1391-chq-nvthq-2025.yaml) — Về việc phân loại hàng hóa và hướng dẫn hồ sơ xác định trước mã số đối với thiết bị thang máy nhập khẩu
 - 🟢 [1813/BTC-TCHQ](../registry/van-ban/1813-btc-tchq-2025.yaml) — Về việc thực hiện Quyết định số 01/2025/QĐ-TTg ngày 03/01/2025 của Thủ tướng Chính phủ
 - 🟢 [4151/TB-TCHQ/2024](../registry/van-ban/4151-tb-tchq-2024.yaml) — V/v Thủ tục hải quan, chính sách thuế (Công ty TNHH Gotech)
@@ -114,23 +120,29 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Kiểm tra, giám sát, kiểm soát hải quan `hai-quan/kiem-tra-giam-sat`
 
-52 văn bản, 40 chưa hết hiệu lực.
+58 văn bản, 46 chưa hết hiệu lực.
 
 - 🟢 [166/2026/TT-BTC](../registry/van-ban/166-2026-tt-btc.yaml) — Bãi bỏ một số thông tư liên tịch do Bộ trưởng Bộ Tài chính liên tịch ban hành liên quan đến lĩnh vực tài chính
 - 🟢 [66/2026/TT-BKHCN](../registry/van-ban/66-2026-tt-bkhcn.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 11/2015/TT-BKHCN ngày 26 tháng 6 năm 2015 của Bộ trưởng Bộ Khoa học và Công nghệ
+- 🟢 [22660/TB-CHQ/2026](../registry/van-ban/22660-tb-chq-2026.yaml) — Thông báo việc phát hành ấn chỉ bán thu tiền
 - 🟢 [25/VBHN-BKHCN](../registry/van-ban/25-vbhn-bkhcn-2026.yaml) — Văn bản hợp nhất Nghị định số 99/2013/NĐ-CP ngày 29 tháng 8 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp
 - 🟢 [21582/TB-CHQ/2026](../registry/van-ban/21582-tb-chq-2026.yaml) — Thông báo về việc triển khai thực hiện Nghị định số 286/2026/NĐ-CP ngày 17/7/2026 của Chính phủ
 - 🟢 [128/2026/TT-BTC](../registry/van-ban/128-2026-tt-btc.yaml) — Quy định về kiểm tra, giám sát và quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh và phương tiện vận tải hoạt động trong khu vực cửa khẩu thông minh
+- 🟢 [20245/TB-CHQ/2026](../registry/van-ban/20245-tb-chq-2026.yaml) — Thông báo việc phát hành ấn chỉ bán thu tiền
 - 🟢 [18837/CHQ-GSQL](../registry/van-ban/18837-chq-gsql-2026.yaml) — Về việc triển khai các giải pháp tạo thuận lợi thông quan đối với hàng hóa nông sản xuất khẩu
+- 🟢 [18689/TB-CHQ/2026](../registry/van-ban/18689-tb-chq-2026.yaml) — Thông báo việc phát hành ấn chỉ bán thu tiền
 - 🟢 [186/2026/NĐ-CP](../registry/van-ban/186-2026-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 99/2013/NĐ-CP ngày 29 tháng 8 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp đã được sửa đổi, bổ sung một số điều theo Nghị định số 126/2021/NĐ-CP ngày 30 tháng 12 năm 2021 và Nghị định số 46/2024/NĐ-CP ngày 04 tháng 5 năm 2024 của Chính phủ
 - 🟢 [15029/CHQ-GSQL](../registry/van-ban/15029-chq-gsql-2026.yaml) — Về việc thực hiện thủ tục hải quan đối với người nhập cảnh mang theo vàng trang sức
 - 🟢 [13582/TB-CHQ/2026](../registry/van-ban/13582-tb-chq-2026.yaml) — Thông báo việc phát hành Tem điện tử rượu nhập khẩu
 - 🟢 [06/2026/TT-BTC](../registry/van-ban/06-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 13/2015/TT-BTC quy định về kiểm tra, giám sát, tạm dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo vệ quyền sở hữu trí tuệ
 - 🟢 [05/2026/TT-BTC](../registry/van-ban/05-2026-tt-btc.yaml) — Quy định về phân cấp trong hoạt động kiểm tra chuyên ngành trong một số lĩnh vực của Bộ Tài chính
 - 🟢 [2123/QĐ-CHQ](../registry/van-ban/2123-qd-chq-2025.yaml) — Ban hành Quy trình Kiểm tra sau thông quan và quản lý chế độ ưu tiên
+- 🟢 [35822/TB-CHQ/2025](../registry/van-ban/35822-tb-chq-2025.yaml) — Thông báo việc phát hành ấn chỉ nghiệp vụ hải quan
 - 🟢 [285/2025/NĐ-CP](../registry/van-ban/285-2025-nd-cp.yaml) — Bãi bỏ một số nghị định của Chính phủ
 - 🟢 [155/VBHN-VPQH](../registry/van-ban/155-vbhn-vpqh-2025.yaml) — Văn bản hợp nhất Luật Sở hữu trí tuệ
+- 🟢 [20117/TB-CHQ/2025](../registry/van-ban/20117-tb-chq-2025.yaml) — Thông báo việc phát hành Tem điện tử rượu nhập khẩu
 - 🟢 [93/2025/QH15](../registry/van-ban/93-2025-qh15.yaml) — Luật Khoa học, công nghệ và đổi mới sáng tạo
+- 🟢 [5639/TB-CHQ/2025](../registry/van-ban/5639-tb-chq-2025.yaml) — Thông báo việc phát hành tem điện tử rượu nhập khẩu
 - 🟢 [04/VBHN-BKHCN](../registry/van-ban/04-vbhn-bkhcn-2024.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Nghị định số 99/2013/NĐ-CP ngày 29 tháng 8 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp
 - 🟢 [06/2024/TT-BKHCN](../registry/van-ban/06-2024-tt-bkhcn.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 11/2015/TT-BKHCN ngày 26 tháng 6 năm 2015 của Bộ trưởng Bộ Khoa học và Công nghệ quy định chi tiết và hướng dẫn thi hành một số điều của Nghị định số 99/2013/NĐ-CP ngày 29 tháng 8 năm 2013 của Chính phủ quy định về xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp
 - 🟢 [36/2024/QH15](../registry/van-ban/36-2024-qh15.yaml) — Luật Trật tự, an toàn giao thông đường bộ
@@ -201,13 +213,16 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung (không phải văn bản quy phạm nhưng thực tế áp dụng)._
 
-32 văn bản, 23 chưa hết hiệu lực.
+38 văn bản, 29 chưa hết hiệu lực.
 
 - 🟢 [1813/2026/QĐ-CHQ](../registry/van-ban/1813-2026-qd-chq.yaml) — Về việc ban hành Quy định về định dạng thông điệp dữ liệu tờ khai hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định, dịch vụ chuyển phát nhanh quốc tế
+- 🟢 [22660/TB-CHQ/2026](../registry/van-ban/22660-tb-chq-2026.yaml) — Thông báo việc phát hành ấn chỉ bán thu tiền
 - 🟢 [22446/CHQ-NVTHQ](../registry/van-ban/22446-chq-nvthq-2026.yaml) — Về việc áp dụng mức thuế (kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường, thuế giá trị gia tăng đối với mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu và nhiên liệu bay theo Nghị quyết số 43/2026/NQ-CP)
 - 🟢 [21582/TB-CHQ/2026](../registry/van-ban/21582-tb-chq-2026.yaml) — Thông báo về việc triển khai thực hiện Nghị định số 286/2026/NĐ-CP ngày 17/7/2026 của Chính phủ
+- 🟢 [20245/TB-CHQ/2026](../registry/van-ban/20245-tb-chq-2026.yaml) — Thông báo việc phát hành ấn chỉ bán thu tiền
 - 🟢 [1336/QĐ-CHQ](../registry/van-ban/1336-qd-chq-2026.yaml) — Về việc công bố công khai điều chỉnh dự toán chi ngân sách nhà nước năm 2026 của Cục Hải quan
 - 🟢 [18837/CHQ-GSQL](../registry/van-ban/18837-chq-gsql-2026.yaml) — Về việc triển khai các giải pháp tạo thuận lợi thông quan đối với hàng hóa nông sản xuất khẩu
+- 🟢 [18689/TB-CHQ/2026](../registry/van-ban/18689-tb-chq-2026.yaml) — Thông báo việc phát hành ấn chỉ bán thu tiền
 - 🟢 [738/NVTHQ-PL](../registry/van-ban/738-nvthq-pl-2026.yaml) — Về việc cập nhật Nghị định Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi theo Nghị quyết số 25/2026/NQ-CP ngày 30/4/2026 của Chính phủ
 - 🟢 [15289/CHQ-NVTHQ](../registry/van-ban/15289-chq-nvthq-2026.yaml) — Về việc áp dụng mức thuế bảo vệ môi trường, thuế giá trị gia tăng, thuế tiêu thụ đặc biệt đối với xăng, dầu và nhiên liệu bay theo Nghị quyết số 19/2026/QH16
 - 🟢 [15029/CHQ-GSQL](../registry/van-ban/15029-chq-gsql-2026.yaml) — Về việc thực hiện thủ tục hải quan đối với người nhập cảnh mang theo vàng trang sức
@@ -218,7 +233,10 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [117/QĐ-CHQ](../registry/van-ban/117-qd-chq-2026.yaml) — Ban hành Quy trình Xác định trước mã số; Kiểm tra tên hàng, mô tả hàng hóa, mã số, mức thuế, đơn vị tính của hàng hóa xuất khẩu, nhập khẩu trong thông quan; Thống nhất công tác phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu, nhập khẩu
 - 🟢 [581/CHQ-NVTHQ](../registry/van-ban/581-chq-nvthq-2026.yaml) — Về việc triển khai thực hiện Thông tư số 121/2025/TT-BTC ngày 18/12/2025 (hướng dẫn thủ tục xác nhận hoàn thành nghĩa vụ nộp thuế theo khoản 61 Điều 1 sửa đổi Điều 140 Thông tư số 38/2015/TT-BTC)
 - 🟢 [2123/QĐ-CHQ](../registry/van-ban/2123-qd-chq-2025.yaml) — Ban hành Quy trình Kiểm tra sau thông quan và quản lý chế độ ưu tiên
+- 🟢 [35822/TB-CHQ/2025](../registry/van-ban/35822-tb-chq-2025.yaml) — Thông báo việc phát hành ấn chỉ nghiệp vụ hải quan
 - ⚫ [23606/CHQ-NVTHQ](../registry/van-ban/23606-chq-nvthq-2025.yaml) — Về việc thực hiện Quyết định số 2491/QĐ-BCT của Bộ Công Thương (áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm ván sợi gỗ có xuất xứ từ Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa) _(hết hiệu lực 2026-01-18)_
+- 🟢 [20117/TB-CHQ/2025](../registry/van-ban/20117-tb-chq-2025.yaml) — Thông báo việc phát hành Tem điện tử rượu nhập khẩu
+- 🟢 [5639/TB-CHQ/2025](../registry/van-ban/5639-tb-chq-2025.yaml) — Thông báo việc phát hành tem điện tử rượu nhập khẩu
 - ⚫ [333/NVTHQ-QLT](../registry/van-ban/333-nvthq-qlt-2025.yaml) — Thực hiện Quyết định số 1204/QĐ-BCT ngày 28/4/2025 của Bộ Công Thương về việc sửa đổi, bổ sung Quyết định số 460/QĐ-BCT ngày 21/02/2025 về việc áp dụng biện pháp chống bán phá giá tạm thời đối với một số sản phẩm thép cán nóng có xuất xứ từ Cộng hòa Ấn Độ và Cộng hòa nhân dân Trung Hoa _(hết hiệu lực 2025-07-06)_
 - 🟢 [467/QĐ-CHQ](../registry/van-ban/467-qd-chq-2025.yaml) — Về việc ban hành Quy trình kiểm tra, xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu
 - ⚫ [2177/CHQ-NVTHQ](../registry/van-ban/2177-chq-nvthq-2025.yaml) — Về việc đính chính văn bản (đính chính thời hạn hiệu lực của Quyết định số 662/QĐ-BCT tại Công văn số 438/CHQ-NVTHQ ngày 25/03/2025) _(hết hiệu lực 2026-06-16)_
@@ -469,7 +487,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2422 văn bản, 2420 chưa hết hiệu lực.
+2453 văn bản, 2451 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
@@ -484,6 +502,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [23454/TB-CHQ/2026](../registry/van-ban/23454-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Khung từ Coil ass'y mã hiệu HP74422 cấu tạo gồm dây nhôm Al coil 13-14 gram quấn quanh lõi cuốn nhựa chịu nhiệt Bobbin và 01 linh kiện bán dẫn Diode, lắp cố định với lõi sắt tạo ra cuộn dây nam châm điện của còi xe ô tô 12V/24V, mã số 8505.90.90)
 - 🟢 [23348/TB-CHQ/2026](../registry/van-ban/23348-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Module diode phát quang LED mã hiệu ZYE004-081 cấu tạo gồm 01 bản mạch in điện tử tấm đế vật liệu cách điện FR4, 01 diode phát quang LED, 01 diode biến đổi nguồn xoay chiều thành 1 chiều và 02 điện trở, kích thước 15x12x4mm, điện áp 12V/1A, công suất 0,35W, dùng làm linh kiện sản xuất đèn chiếu sáng cốp xe máy, mã số 8539.51.00)
 - 🟢 [23282/TB-CHQ/2026](../registry/van-ban/23282-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương vải LYCHEE FLAVOR S2313394, dạng chất lỏng, thành phần Propylene glycol 80-100%, hương liệu 5-10%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
+- 🟢 [23123/TB-CHQ/2026](../registry/van-ban/23123-tb-chq-2026.yaml) — Thông báo đính chính Thông báo kết quả xác định trước mã số (đính chính thông tin tên tổ chức tại Thông báo số 22584/TB-CHQ ngày 06/10/2026 về mặt hàng Hóa chất COS-540 dạng lỏng, mã số 3208.20.90)
 - 🟢 [23153/CHQ-NVTHQ](../registry/van-ban/23153-chq-nvthq-2026.yaml) — Về việc xác nhận mã HS code đối với sản phẩm Đông trùng hạ thảo nhập khẩu (Cordyceps Sinensis dạng khô nguyên con, nhóm 12.11, mã số 1211.90.19 / 1211.90.99)
 - 🟢 [23161/TB-CHQ/2026](../registry/van-ban/23161-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hóa chất JS-12000 dạng lỏng gồm Acrylic Copolymer 36-38%, Ethyl acetate 43-46%, Toluene 12-15% và Acetone 2-4%, nguyên liệu polymer trung gian dùng chế tạo chất keo nhạy áp PSA sản xuất băng keo điện tử và màng bảo vệ, mã số 3208.20.90)
 - 🟢 [23022/TB-CHQ/2026](../registry/van-ban/23022-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thức ăn chăn nuôi bổ sung dạng hỗn hợp axit hữu cơ FORMI STABLE dạng bột, thành phần Axit Formic 30,6-37,4%, Natri Formate 45-55%, khoáng Diatomaceous Earth 12,6-15,4%, bổ sung vào thức ăn hỗn hợp cho gia súc và gia cầm, mã số 2309.90.20)
@@ -498,11 +517,15 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [22772/TB-CHQ/2026](../registry/van-ban/22772-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị trị liệu nhiệt cứu dùng pin Model LJ-001, công suất 30W, có chức năng làm nóng miếng thảo mộc kinh lạc, không có chức năng massage cơ học, mã số 8516.79.90)
 - 🟢 [22776/TB-CHQ/2026](../registry/van-ban/22776-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị điện tử đặt chân iTera-Bio Foot Massager Model JC-02A, điện áp 220-240V, công suất 245W, tích hợp màng gia nhiệt dưới hai tấm kim loại, không có cơ cấu massage cơ học, mã số 8516.79.90)
 - 🟢 [22687/TB-CHQ/2026](../registry/van-ban/22687-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chế phẩm Energydot dạng dung dịch màu đen, thành phần chính gồm các hạt Nano Carbon chấm lượng tử Quantum Carbon Dots kích thước < 10nm với hàm lượng chất hữu cơ 45%, tổng carbon hữu cơ 20%, phụ gia PEG 5%, TWEEN 80 2% và nước, dùng phun hoặc trộn lẫn với phân bón lá trong nông nghiệp, mã số 3824.99.99)
+- 🟢 [22583/TB-CHQ/2026](../registry/van-ban/22583-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thực phẩm bổ sung Sữa chua uống Vilac / Vilac yogurt drink, mã số 2202.99.50)
 - 🟢 [22584/TB-CHQ/2026](../registry/van-ban/22584-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hóa chất COS-540 dạng lỏng, thành phần gồm Acrylic ester co-polymer CAS 35239-19-1 hàm lượng 32 ± 1,0%, Ethyl acetate CAS 141-78-6 hàm lượng 52-59%, Toluene CAS 108-88-3 hàm lượng 9-12%, đóng gói 180 Kg/Drum, dùng làm nguyên liệu polymer trung gian trong sản xuất chất bám dính và băng keo PSA, mã số 3208.20.90)
 - 🟢 [22555/TB-CHQ/2026](../registry/van-ban/22555-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị đeo tay thông minh Watch GT 6 phiên bản đường kính 46mm, ký mã hiệu ATM-B19, màn hình cảm ứng AMOLED 1.47 inch, thân máy bằng thép không gỉ, tích hợp loa, micro, cảm biến IMU 9 trục, cảm biến nhịp tim quang học, hỗ trợ Bluetooth 6.0, GPS, NFC, không hỗ trợ Wi-Fi và eSIM, mã số 8517.62.59)
 - 🟢 [22556/TB-CHQ/2026](../registry/van-ban/22556-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị đeo tay thông minh Watch GT 6 phiên bản đường kính 41mm, ký mã hiệu KSU-B19, màn hình cảm ứng AMOLED 1.32 inch, thân máy bằng thép không gỉ, tích hợp loa, micro, cảm biến IMU 9 trục, cảm biến nhịp tim quang học, hỗ trợ Bluetooth 6.0, GPS, NFC, không hỗ trợ Wi-Fi và eSIM, mã số 8517.62.59)
 - 🟢 [22557/TB-CHQ/2026](../registry/van-ban/22557-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị đeo tay thông minh Watch GT 6 Pro phiên bản đường kính 46mm, ký mã hiệu ATM-B29, màn hình cảm ứng AMOLED 1.47 inch, thân máy bằng hợp kim titanium, tích hợp loa, micro, cảm biến IMU 9 trục, cảm biến nhịp tim quang học, hỗ trợ Bluetooth 6.0, GPS, NFC, không hỗ trợ Wi-Fi và eSIM, mã số 8517.62.59)
 - 🟢 [22419/TB-CHQ/2026](../registry/van-ban/22419-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cao su hỗn hợp chưa lưu hóa dạng tấm Compounding Masterbatch dùng trong sản xuất lốp xe, mã số 4005.10.90)
+- 🟢 [22420/TB-CHQ/2026](../registry/van-ban/22420-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chất bảo quản dạng màng khô dùng để bảo vệ lớp phủ bề mặt, sơn và các sản phẩm tương tự khỏi sự phát triển của nấm mốc và tảo Biox AM492, mã số 3808.92.90)
+- 🟢 [22421/TB-CHQ/2026](../registry/van-ban/22421-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chất bảo quản dạng màng khô cho sơn, lớp phủ và vữa Biox AM138, mã số 3808.92.90)
+- 🟢 [22341/TB-CHQ/2026](../registry/van-ban/22341-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hạt nhựa siêu thấm hút nước Super Absorbent Polymer CV30W, thành phần Copolymer of acrylic acid and sodium acrylate >= 94%, nước <= 6%, dùng cho sản phẩm vệ sinh dùng một lần, mã số 3906.90.99)
 - 🟢 [22371/TB-CHQ/2026](../registry/van-ban/22371-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Mô-đun đèn nền bàn phím máy tính D90/D100 Backlight Module, mã số 8473.30.90)
 - 🟢 [22272/TB-CHQ/2026](../registry/van-ban/22272-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Mô-đun nguồn cho trạm sạc xe điện EV POWER MODULE 30 kW, chuyển đổi AC 3 pha 380V sang DC 150-1000V, mã số 8504.40.90)
 - 🟢 [22273/TB-CHQ/2026](../registry/van-ban/22273-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Module truyền nhận tín hiệu vô tuyến không dây LoRa Module băng tần 920 MHz, Model TLT01CSI, mã số 8517.62.59)
@@ -511,6 +534,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [22012/TB-CHQ/2026](../registry/van-ban/22012-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chất xử lý bề mặt giày Treatment Agent RB-76, quy cách 15 kg/thùng, mã số 3208.90.90)
 - 🟢 [21794/TB-CHQ/2026](../registry/van-ban/21794-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hộp carton bằng bột giấy nén MPP Cushion dùng đựng máy tính xách tay và phụ kiện, kích thước 396x277x61 mm, mã số 4202.19.90)
 - 🟢 [21728/TB-CHQ/2026](../registry/van-ban/21728-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thuốc kê đơn OLESOM T chứa Terbutaline sulfate 1,5 mg và Guaifenesin 66,5 mg/5 ml siro, hộp 1 chai 60 ml, mã số 3004.90.99)
+- 🟢 [21662/TB-CHQ/2026](../registry/van-ban/21662-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hóa chất 1,4-Butanediol (BDO) / Bio-BDO® C4H10O2, CAS 110-63-4, độ tinh khiết > 99%, sản xuất theo quy trình lên men sinh học GENO BDO™, mã số 2905.39.00)
 - 🟢 [73/2026/VBHN-TT-BCT](../registry/van-ban/73-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư sửa đổi quy định Danh mục chi tiết theo mã HS của hàng hóa xuất khẩu, nhập khẩu
 - 🟢 [74/2026/VBHN-TT-BCT](../registry/van-ban/74-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư bổ sung Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu quy định tại một số Thông tư của Bộ Công Thương
 - 🟢 [21112/TB-CHQ/2026](../registry/van-ban/21112-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cáp điện ALVSH035F lõi nhôm bọc cách điện bằng plastic dùng cho xe ô tô, điện áp định mức 60VDC hoặc 25VAC, mã số 8544.49.22)
@@ -521,17 +545,24 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [21132/TB-CHQ/2026](../registry/van-ban/21132-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ nguồn chuyển mạch dùng cho máy tính Power Supply Unit 155W, chuyển đổi AC 100-240V sang DC 12,6V, mã số 8504.40.19)
 - 🟢 [21133/TB-CHQ/2026](../registry/van-ban/21133-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Module nguồn sử dụng trong hệ thống cung cấp nguồn cho máy chủ Power Module 532W, chuyển đổi DC 40-60V sang DC 3,85V, mã số 8504.40.19)
 - 🟢 [21168/TB-CHQ/2026](../registry/van-ban/21168-tb-chq-2026.yaml) — Thông báo kết quả xác định trước mã số (Thiết bị cung cấp nguồn cho máy chủ Power Supply Unit for Server 800W, chuyển đổi AC 100-240V hoặc DC 200-240V sang DC 12V/5V, mã số 8504.40.19)
+- 🟢 [21201/TB-CHQ/2026](../registry/van-ban/21201-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Tấm phim bảo vệ và chống phản xạ ánh sáng QD FILM / AR6.0(AR) cho tấm nền hiển thị OLED dạng băng dính, ký hiệu LJ01-13783C, mã số 3919.90.92)
 - 🟢 [21205/TB-CHQ/2026](../registry/van-ban/21205-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chất béo bánh kẹo Wilfil 420 từ phân đoạn dầu hạt cọ đã tinh chế và hydro hóa, số CAS 68990-82-9, mã số 1517.90.50)
+- 🟢 [21221/TB-CHQ/2026](../registry/van-ban/21221-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Tấm phim bảo vệ và chống chói QD FILM / GFB2.0(AG) cho tấm nền hiển thị OLED dạng băng dính, ký hiệu LJ01-13580C, mã số 3919.90.92)
+- 🟢 [21222/TB-CHQ/2026](../registry/van-ban/21222-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiếc hàn dạng hạt Lead Free Ball hợp kim SAC 305 chứa 2,9–3,1% bạc, mã số 7106.91.00)
 - 🟢 [20996/TB-CHQ/2026](../registry/van-ban/20996-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ thực hành AI nâng cao dùng cho cấp THCS AI Advanced Kit for Secondary School, Model WB1012, mã số 9503.00.99)
 - 🟢 [20860/TB-CHQ/2026](../registry/van-ban/20860-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Tấm phim hiển thị giấy điện tử EPD dùng trong sản xuất màn hình giấy điện tử, ký mã hiệu 0711-13070002, mã số 3920.59.00)
 - 🟢 [20862/TB-CHQ/2026](../registry/van-ban/20862-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Đồng lá mỏng bằng đồng tinh luyện chắn nhiễu điện từ dạng cuộn, ký hiệu HSF-USB3-2.0, mã số 7410.21.00)
 - 🟢 [20863/TB-CHQ/2026](../registry/van-ban/20863-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Đồng lá mỏng bằng đồng tinh luyện chắn nhiễu điện từ dạng cuộn, ký hiệu HSF-USB3-3.0, mã số 7410.21.00)
+- 🟢 [20879/TB-CHQ/2026](../registry/van-ban/20879-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thuốc viên nang mềm Sinupan Forte 200mg chứa Cineol 200mg điều trị triệu chứng cảm lạnh, viêm phế quản, viêm xoang, mã số 3004.90.59)
 - 🟢 [20639/TB-CHQ/2026](../registry/van-ban/20639-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị theo dõi đa chức năng Tive Solo 5G tích hợp định vị GPS và cảm biến môi trường, ký mã hiệu TT-7000, mã số 8526.91.90)
+- 🟢 [20695/TB-CHQ/2026](../registry/van-ban/20695-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hạt nhựa tái sinh Polycarbonate MJ-314 dạng nguyên sinh, dạng hạt 100% Polycarbonate CAS 25971-63-5, mã số 3907.40.00)
 - 🟢 [20717/TB-CHQ/2026](../registry/van-ban/20717-tb-chq-2026.yaml) — Thông báo đính chính Thông báo kết quả xác định trước mã số (đính chính Mục 2 và Mục 3 Thông báo số 19997/TB-CHQ ngày 07-08-2026 về thành phần Ethyl acetate hàm lượng 50%-80%)
 - 🟢 [20508/TB-CHQ/2026](../registry/van-ban/20508-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (LED COB PCB module, ký mã hiệu COB160110-600W, các đi-ốt phát quang LED lắp ráp trên tấm mạch in PCB, không có mạch điện điều khiển điện áp và dòng điện DC, công suất 600W, điện áp vào 168-185VDC, dùng chiếu ánh sáng LED ngoài trời, mã số 8541.41.00)
 - 🟢 [20421/TB-CHQ/2026](../registry/van-ban/20421-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Son dưỡng môi URGO Lèvres Abimées dạng balm đặc mềm, mã công thức 4398A, quy cách 10ml/tuýp/hộp, tạo lớp màng bảo vệ và dưỡng ẩm môi, mã số 3304.99.90)
 - 🟢 [20320/TB-CHQ/2026](../registry/van-ban/20320-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ cấp nguồn điện có khả năng chống nước Waterproof Power Supply sử dụng cho đèn LED, ký mã hiệu RSE-1K0N-375Z, chuyển đổi nguồn xoay chiều AC 180-260VAC thành một chiều DC 230-375VDC, công suất tối đa 1000W, mã số 8504.40.30)
 - 🟢 [20233/TB-CHQ/2026](../registry/van-ban/20233-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cụm IP / MODULE ASSY-COCKPIT, ký mã hiệu 84700-I7AA0TC2, cụm bảng táp-lô trung tâm điều khiển lắp ráp thống nhất từ xương IP kim loại, thân IP, trục lái, dây điện, cửa gió, cụm điều khiển điều hòa, túi khí hành khách, hộp điều khiển AVN, cụm đồng hồ táp-lô lắp trên xe ô tô chở người dưới 9 chỗ ngồi, mã số 8708.29.95)
+- 🟢 [20274/TB-CHQ/2026](../registry/van-ban/20274-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Tấm nhôm hợp kim hình tam giác mạ niken dùng sản xuất thiết bị tản nhiệt, ký mã hiệu 401028050-GP2, mã số 7616.99.90)
+- 🟢 [19997/TB-CHQ/2026](../registry/van-ban/19997-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chất đóng rắn Curing Agent LG-RFE-N chứa Poly isocyanate và Ethyl acetate, mã số 3208.90.90)
 - 🟢 [19770/TB-CHQ/2026](../registry/van-ban/19770-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cảm biến hồng ngoại IR OPTICS SENSOR, ký mã hiệu IMS1910, gồm vi mạch tích hợp đèn LED hồng ngoại và đi-ốt quang trên bảng mạch in FR-4 tích hợp bộ chuyển đổi ADC, dùng lắp trên thiết bị đeo thông minh để phát hiện tiếp xúc với da, mã số 9031.49.90)
 - 🟢 [19783/TB-CHQ/2026](../registry/van-ban/19783-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Vỏ thùng rác thép không gỉ SUS304 sử dụng nơi công cộng có in sẵn logo và hướng dẫn phân loại rác, mã số 7323.93.00)
 - 🟢 [19525/CHQ-NVTHQ](../registry/van-ban/19525-chq-nvthq-2026.yaml) — Về việc bổ sung Tuyển tập ý kiến phân loại của WCO tại phiên họp lần thứ 77 (WP77 và HSC77 tháng 03/2026)
@@ -550,13 +581,19 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [18590/TB-CHQ/2026](../registry/van-ban/18590-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cụm cản sau ô tô / Ba đờ xốc BUMPER ASSY-RR, mã số 8708.10.90)
 - 🟢 [18591/TB-CHQ/2026](../registry/van-ban/18591-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cụm cản trước / Ba đờ xốc ô tô BUMPER ASSY-FR, ký mã hiệu 86511-K6504TC, mã số 8708.10.90)
 - 🟢 [18595/TB-CHQ/2026](../registry/van-ban/18595-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Đuôi gió ô tô SPOILER ASSY-RR, ký mã hiệu 87200-I7000TC, mã số 8708.29.95)
+- 🟢 [18550/TB-CHQ/2026](../registry/van-ban/18550-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bột từ gan gà Chicken Liver Powder T-742E dùng làm nguyên liệu tạo hương vị trong chế biến thực phẩm, mã số 0210.99.90)
+- 🟢 [18387/TB-CHQ/2026](../registry/van-ban/18387-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Nguyên liệu chế phẩm thực phẩm từ bột ngũ cốc đã làm chín Instant Multigrain Powder gồm 21 loại hạt, mã số 1901.90.99)
 - 🟢 [18180/TB-CHQ/2026](../registry/van-ban/18180-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cảm biến tiệm cận / Cảm biến từ Proximity Sensor, mã số 8536.50.51)
 - 🟢 [18181/TB-CHQ/2026](../registry/van-ban/18181-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cảm biến quang siêu nhỏ hình chữ U phát hiện vật cản bằng tia hồng ngoại, mã số 8536.50.51)
+- 🟢 [18100/TB-CHQ/2026](../registry/van-ban/18100-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thực phẩm chế biến sẵn dạng lỏng sệt Nước yến đường phèn hàm lượng tổ yến 100 mg/lít, mã số 2202.99.50)
 - 🟢 [18134/TB-CHQ/2026](../registry/van-ban/18134-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Máy đọc sách điện tử màn hình E-Ink có chức năng từ điển, mã số 8543.70.30)
 - 🟢 [18154/TB-CHQ/2026](../registry/van-ban/18154-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ linh kiện đồng bộ dùng để sản xuất bình chữa cháy khí CO2 MT3 3kg dạng chưa lắp ráp, mã số 8424.10.90)
 - 🟢 [18155/TB-CHQ/2026](../registry/van-ban/18155-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bộ linh kiện đồng bộ sản xuất bình chữa cháy bột khô ABC-8kg bán thành phẩm chưa lắp ráp CKD-ABC8, mã số 8424.10.90)
+- 🟢 [18075/TB-CHQ/2026](../registry/van-ban/18075-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thực phẩm chế biến sẵn dạng nước uống Yến chưng đường phèn, mã số 2202.99.50)
+- 🟢 [17752/TB-CHQ/2026](../registry/van-ban/17752-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Nước làm kem đá vị xoài Sun Lolly Water Ice With Mango Flavour For Freezing dạng lỏng dùng cấp đông, mã số 2106.90.99)
 - 🟢 [17787/TB-CHQ/2026](../registry/van-ban/17787-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cuộn cảm đa chức năng ANTENNA COIL-NFC/MST/WPC S938U, ký mã hiệu GH42-07118A, mã số 8504.50.10)
 - 🟢 [17792/TB-CHQ/2026](../registry/van-ban/17792-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thuốc nhỏ mắt Levo JP Eye Drops 0.5% dạng dung dịch chứa Levofloxacin hydrate JP 25 mg/5 mL, mã số 3004.90.99)
+- 🟢 [17693/TB-CHQ/2026](../registry/van-ban/17693-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cây máy tính công nghiệp Industrial PC ND100U-RX-1532G, mã số 8471.50.90)
 - 🟢 [17694/TB-CHQ/2026](../registry/van-ban/17694-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Máy chủ server Dell PowerEdge R770 khung 2U, mã số 8471.50.90)
 - 🟢 [17719/TB-CHQ/2026](../registry/van-ban/17719-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thanh dẫn điện hai lớp nhôm bọc đồng Copper clad aluminum flat bar CCA Busbar Cu/Al 30/70, mã số 7407.10.41)
 - 🟢 [17578/TB-CHQ/2026](../registry/van-ban/17578-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương liệu thực phẩm giống tự nhiên GRILLED SQUID LEG FLAVOR S2601107, mã số 3302.10.30)
@@ -565,6 +602,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [17480/TB-CHQ/2026](../registry/van-ban/17480-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Công tắc điện cơ bật nhanh dạng dán bề mặt Tact Switch JTP1135J, mã số 8536.50.51)
 - 🟢 [17494/TB-CHQ/2026](../registry/van-ban/17494-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Đồng lá mỏng bằng đồng tinh luyện đã bồi dùng chắn nhiễu điện từ HSF-USB3-3.0, mã số 7410.21.00)
 - 🟢 [17459/TB-CHQ/2026](../registry/van-ban/17459-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị trộn tần số tín hiệu truyền hình RF thụ động Combiner CHA-5800C, mã số 8543.70.90)
+- 🟢 [17393/TB-CHQ/2026](../registry/van-ban/17393-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Máy phủ hóa chất bảo vệ thực vật hoặc polymer dạng lỏng lên bề mặt hạt giống SEED COATING MACHINE RAS 1060WM, mã số 8436.80.11)
 - 🟢 [17344/TB-CHQ/2026](../registry/van-ban/17344-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Băng keo hai mặt DS10A1 dạng cuộn jumbo nền giấy tissue phủ keo acrylic, mã số 3506.91.90)
 - 🟢 [17345/TB-CHQ/2026](../registry/van-ban/17345-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Băng keo hai mặt DS10G dạng cuộn jumbo nền vải không dệt tissue phủ keo acrylic, mã số 3506.91.90)
 - 🟢 [16859/TB-CHQ/2026](../registry/van-ban/16859-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Polystyrene ở dạng cục tái chế nóng chảy dạng nguyên sinh hàm lượng > 99%, mã số 3903.19.90)
@@ -592,6 +630,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [15379/TB-CHQ/2026](../registry/van-ban/15379-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Máy tiêm gia cầm tự động 4 chức năng Yiyishenghui Integrated Immunization Machine HS-MY4, công suất 70 W, dùng tiêm chủng gia cầm từ 3 ngày tuổi, mã số 9018.90.39)
 - 🟢 [15382/TB-CHQ/2026](../registry/van-ban/15382-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thuốc kem bôi ngoài da Hirudoid chứa hoạt chất Mucopolysaccharide polysulfate 0,3 g/100 g kem, đóng gói hộp 1 tuýp 14 g, mã số 3004.90.99)
 - 🟢 [15384/TB-CHQ/2026](../registry/van-ban/15384-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bo mạch chủ dành cho máy tính xách tay có chứa CPU Intel Core Ultra 7 265H và GPU NVIDIA GeForce RTX 5060, ký mã hiệu MTM40, mã số 8471.50.10)
+- 🟢 [15043/TB-CHQ/2026](../registry/van-ban/15043-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bảng mẫu vải Swatch Pearl 77805SW, mã số 6307.90.90)
 - 🟢 [15042/TB-CHQ/2026](../registry/van-ban/15042-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Bảng mẫu vải Swatch card, ký mã hiệu 778CARD, gồm 2 miếng vải sơnin 100% polyester đã tráng phủ dán trên bảng giấy bìa 4,25 x 9 inch, mã số 6307.90.90)
 - 🟢 [14912/TB-CHQ/2026](../registry/van-ban/14912-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Kit thuốc nghiên cứu - Bộ dụng cụ thử nghiệm lâm sàng AZD6793 5mg, 15mg, 45mg hoặc Placebo dùng trong nghiên cứu mù đôi PRESTO mã số D7860C00006, đóng lọ 35 viên nén bao phim, mã số 3006.93.00)
 - 🟢 [14825/TB-CHQ/2026](../registry/van-ban/14825-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chế phẩm diệt khuẩn, khử trùng Nipacide BIT 20 Plus chứa 1,2-benzisothiazolin-3-one 10-25% dạng lỏng làm chất bảo quản trong sản xuất nước giặt, xả vải, đóng gói 25 kg/thùng, mã số 3808.94.90)
@@ -622,6 +661,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [5644/TB-CHQ/2026](../registry/van-ban/5644-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2309.90.20)
 - 🟢 [1489/TB-CHQ/2026](../registry/van-ban/1489-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
 - 🟢 [1633/TB-CHQ/2026](../registry/van-ban/1633-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (2710.12.99)
+- 🟢 [898/TB-CHQ/2026](../registry/van-ban/898-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị đo chỉ số carotenoid dưới da bằng bức xạ quang học Prysm iO, ký hiệu PD1R, mã số 9027.50.00)
 - 🟢 [12578/TB-CHQ/2026](../registry/van-ban/12578-tb-chq-2026.yaml) — Thông báo xác định trước mã số Công ty TNHH Công nghệ Lens Việt Nam (ốp lưng iPad 12, nhóm 4202.92.90)
 - 🟢 [577/TB-CHQ/2026](../registry/van-ban/577-tb-chq-2026.yaml) — Phân loại mã HS theo tracuuhs.com (3506.10.00)
 - 🟢 [07/TB-CHQ/2026](../registry/van-ban/07-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số của Công ty TNHH Shen Yu (Việt Nam) (Cáp đồng trục, loại chưa gắn với đầu nối, điện áp tối đa 30V, cách điện và vỏ bọc bằng nhựa FEP, mã số 8544.20.21)
@@ -644,13 +684,16 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [37695/TB-CHQ/2025](../registry/van-ban/37695-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị đeo tay thông minh Huawei Watch Fit 4 phiên bản dây cao su, ký mã hiệu SYA-B09, mã số 8517.62.59)
 - 🟢 [37698/TB-CHQ/2025](../registry/van-ban/37698-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thanh đèn LED, ký mã hiệu CPX LED lighting, mã số 8541.41.00)
 - 🟢 [37700/TB-CHQ/2025](../registry/van-ban/37700-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Cáp tín hiệu có lưới cách điện bằng silicon 1PR x 1.5mm2 hiệu Benka, mã số 8544.49.24)
+- 🟢 [37701/TB-CHQ/2025](../registry/van-ban/37701-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Cáp tín hiệu cách điện PE Benka Data & Signal Cable 1PR x 18 AWG, điện áp 30V, mã số 8544.49.24)
 - 🟢 [35802/TB-CHQ/2025](../registry/van-ban/35802-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Đầu cắm kết nối/Connector dạng đầu cái hàn lên bảng mạch in SMD, ký mã hiệu CONNECTOR,05010HR-24A00G,24PIN, mã số 8536.69.32)
+- 🟢 [35952/TB-CHQ/2025](../registry/van-ban/35952-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Dung môi thơm C9+ / Naphtha petroleum hỗn hợp vòng thơm nhẹ hydro hóa, mã số 2707.50.00)
 - 🟢 [35621/TB-CHQ/2025](../registry/van-ban/35621-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.99)
 - 🟢 [35627/TB-CHQ/2025](../registry/van-ban/35627-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Nhẫn thông minh RingConn Gen 2 Air Smart Ring, ký mã hiệu RCA-02-8, mã số 9031.80.90)
 - 🟢 [35250/TB-CHQ/2025](../registry/van-ban/35250-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2202.10.20)
 - 🟢 [35251/TB-CHQ/2025](../registry/van-ban/35251-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2202.10.20)
 - 🟢 [35252/TB-CHQ/2025](../registry/van-ban/35252-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2202.10.20)
 - 🟢 [35253/TB-CHQ/2025](../registry/van-ban/35253-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3304.99.90)
+- 🟢 [35254/TB-CHQ/2025](../registry/van-ban/35254-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Cáp mạng Lan UTP Cat6 4X2X24 AWG hiệu Benka, mã số 8544.49.24)
 - 🟢 [33593/TB-CHQ/2025](../registry/van-ban/33593-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Module màn hình giấy điện tử E-paper 4.2 inch, ký mã hiệu Model DVHG0420SYS683F5SHP-H0, mã số 8524.99.00)
 - 🟢 [32816/TB-CHQ/2025](../registry/van-ban/32816-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3901.40.00)
 - 🟢 [32817/TB-CHQ/2025](../registry/van-ban/32817-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3901.40.00)
@@ -672,6 +715,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [25114/TB-CHQ/2025](../registry/van-ban/25114-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.32.90)
 - 🟢 [24778/TB-CHQ/2025](../registry/van-ban/24778-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Module màn hình tinh thể lỏng LCD 14 inch dùng cho máy tính xách tay, ký mã hiệu B140XTN07.4, mã số 8524.91.00)
 - 🟢 [24779/TB-CHQ/2025](../registry/van-ban/24779-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Loa chưa lắp vào vỏ loa dùng sản xuất loa siêu trầm, ký mã hiệu HUNFW00029A, mã số 8518.29.90)
+- 🟢 [24780/TB-CHQ/2025](../registry/van-ban/24780-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Loa chưa lắp vào vỏ loa Unit speaker, ký hiệu HUNFW00022A, mã số 8518.29.90)
 - 🟢 [24781/TB-CHQ/2025](../registry/van-ban/24781-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Loa chưa lắp vào vỏ loa/Unit speaker dùng sản xuất loa thanh soundbar, ký mã hiệu HUNFF00010A, mã số 8518.29.90)
 - 🟢 [24534/TB-CHQ/2025](../registry/van-ban/24534-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị lưu trữ dữ liệu phân tán dùng cho mạng nội bộ và trung tâm dữ liệu, ký mã hiệu OceanStor Pacific 9920, mã số 8471.70.90)
 - 🟢 [24187/TB-CHQ/2025](../registry/van-ban/24187-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị truyền tín hiệu một chiều từ khu vực mạng an toàn ra khu vực mạng ngoài, ký mã hiệu NnetDiode U type, mã số 8517.62.49)
@@ -700,7 +744,12 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [19307/TB-CHQ/2025](../registry/van-ban/19307-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Dầu nhựa nhiệt phân Plastic Pyrolysis Oil chứa trên 70% hydrocacbon từ nhựa đã qua sử dụng nhiệt phân ở nhiệt độ cao dùng làm nguyên liệu sản xuất dầu diesel và naphtha, mã số 2710.19.89)
 - 🟢 [18804/TB-CHQ/2025](../registry/van-ban/18804-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị đeo tay thông minh Huawei Band 10 khung nhựa gia cường, màn hình cảm ứng AMOLED 1.47 inch, kết nối Bluetooth 5.0, chống nước 5 ATM, không hỗ trợ GPS/NFC/loa/mic, mã số 9102.12.00)
 - ⚫ [18172/TB-CHQ/2025](../registry/van-ban/18172-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Khung điện thoại bằng nhôm hợp kim dùng cho điện thoại di động Samsung A56, ký mã hiệu CNC8, kích thước 162.137 x 77.835 x 7.449 mm, mã số 8517.79.99) _(hết hiệu lực 2025-08-15)_
+- 🟢 [17608/TB-CHQ/2025](../registry/van-ban/17608-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị theo dõi vị trí thông minh GPS Tracker, ký hiệu CD01HFS01X, mã số 8526.91.94)
+- 🟢 [17611/TB-CHQ/2025](../registry/van-ban/17611-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Tai nghe bluetooth Huawei Freebuds Pro 4, ký hiệu T0022, mã số 8518.30.20)
+- 🟢 [17612/TB-CHQ/2025](../registry/van-ban/17612-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Tai nghe bluetooth Huawei FreeArc, ký hiệu T0021, mã số 8518.30.20)
+- 🟢 [17543/TB-CHQ/2025](../registry/van-ban/17543-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Đầu nối Modular Jack RJ45 đầu âm, ký hiệu 9-1375055-2, mã số 8536.69.92)
 - 🟢 [16238/TB-CHQ/2025](../registry/van-ban/16238-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3919.90.92)
+- 🟢 [16460/TB-CHQ/2025](../registry/van-ban/16460-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Đầu cắm mạch in 24 chân MX34024NF1 dùng cho hệ thống điều khiển tay nắm cửa ô tô, mã số 8536.69.32)
 - 🟢 [15745/TB-CHQ/2025](../registry/van-ban/15745-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3004.90.99)
 - 🟢 [15622/TB-CHQ/2025](../registry/van-ban/15622-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (1517.90.30)
 - 🟢 [15668/TB-CHQ/2025](../registry/van-ban/15668-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2103.90.29)
