@@ -737,6 +737,8 @@ flowchart LR
   n_159_2017_N__CP["159/2017/NĐ-CP<br/>hết hiệu lực"]
   n_123_2022_N__CP["123/2022/NĐ-CP<br/>còn hiệu lực"]
   n_07_2020_N__CP["07/2020/NĐ-CP<br/>hết hiệu lực"]
+  n_12377_TB_CHQ_2025["12377/TB-CHQ/2025<br/>còn hiệu lực"]
+  n_11801_TB_CHQ_2025["11801/TB-CHQ/2025<br/>còn hiệu lực"]
   n_124_2022_N__CP["124/2022/NĐ-CP<br/>còn hiệu lực"]
   n_155_2017_N__CP["155/2017/NĐ-CP<br/>hết hiệu lực"]
   n_125_2022_N__CP["125/2022/NĐ-CP<br/>còn hiệu lực"]
@@ -796,6 +798,7 @@ flowchart LR
   n_122_2016_N__CP -->|bãi bỏ toàn bộ từ 2016-09-01| n_182_2015_TT_BTC
   n_122_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_159_2017_N__CP
   n_123_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_07_2020_N__CP
+  n_12377_TB_CHQ_2025 -->|sửa đổi thông tin thu (KBNN, tài khoản) của một số đơn vị thuộc Chi cục HQKV II, XII, XIX tại Phụ lục — «Tiếp theo Thông báo số 11801/TB-CHQ… cập nhật sửa đổi, bổ sung thông tin thu…»| n_11801_TB_CHQ_2025
   n_124_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_155_2017_N__CP
   n_125_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_149_2017_N__CP
   n_126_2022_N__CP -->|thay thế toàn bộ từ 2022-12-30| n_156_2017_N__CP

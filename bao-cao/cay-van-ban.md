@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-25
 
-3264 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3265 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -265,7 +265,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Thuế xuất khẩu, nhập khẩu và các thuế khác khâu nhập khẩu `thue`
 
-24 văn bản, 17 chưa hết hiệu lực.
+25 văn bản, 18 chưa hết hiệu lực.
 
 - 🟢 [86/2026/TT-BTC](../registry/van-ban/86-2026-tt-btc.yaml) — Quy định về quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu
 - 🟢 [17920/TB-CHQ/2026](../registry/van-ban/17920-tb-chq-2026.yaml) — Thông báo về thông tin tài khoản thu NSNN (các đơn vị Hải quan thống nhất 1 mã từ 01/07/2026 và các đơn vị thay đổi mã Hải quan)
@@ -277,6 +277,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [27091/TB-CHQ/2025](../registry/van-ban/27091-tb-chq-2025.yaml) — Thông báo về thông tin tài khoản thu NSNN (cập nhật sửa đổi, bổ sung thông tin thu của Hải quan Buôn Ma Thuột thuộc Chi cục HQKV XIV — tiếp theo 11801/TB-CHQ)
 - 🟢 [17501/TB-CHQ/2025](../registry/van-ban/17501-tb-chq-2025.yaml) — Thông báo về thông tin tài khoản thu NSNN (cập nhật sửa đổi, bổ sung thông tin thu một số đơn vị HQKV X, XIII, XIV, XIX — tiếp theo 11801/TB-CHQ)
 - 🟢 [12377/TB-CHQ/2025](../registry/van-ban/12377-tb-chq-2025.yaml) — Thông báo về thông tin tài khoản thu NSNN (cập nhật sửa đổi, bổ sung thông tin thu một số đơn vị HQKV II, XII, XIX — tiếp theo 11801/TB-CHQ)
+- 🟢 [11801/TB-CHQ/2025](../registry/van-ban/11801-tb-chq-2025.yaml) — Thông báo về thông tin tài khoản thu NSNN (mã cơ quan hải quan, tài khoản chuyên thu, tạm thu, tạm giữ và KBNN nơi mở tài khoản của các đơn vị Hải quan cửa khẩu/ngoài cửa khẩu thuộc Chi cục Hải quan khu vực)
 - 🟢 [3702/TB-TCHQ/2024](../registry/van-ban/3702-tb-tchq-2024.yaml) — V/v Chính sách thuế hàng hóa xuất khẩu (Công ty TNHH Vĩnh Thắng)
 - 🟢 [963/TB-TCHQ/2024](../registry/van-ban/963-tb-tchq-2024.yaml) — V/v Hàng hóa nhập khẩu để sản xuất xuất khẩu giao gia công lại (Công ty Cổ phần XNK May Anh Vũ)
 - 🟢 [428/TB-TCHQ/2024](../registry/van-ban/428-tb-tchq-2024.yaml) — V/v Chính sách thuế hàng hóa nhập khẩu sau đó tái xuất (Công ty TNHH XNK gỗ An Lạc)
