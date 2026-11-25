@@ -12,10 +12,14 @@ nhanh:
   - kiem-tra-chuyen-nganh/bct
 quan_he:
   sua_doi:
-    - 40/2025/TT-BCT
-    - 12/2018/TT-BCT
-    - 11/2015/TT-BCT
-    - 01/2026/TT-BCT
+    - so_hieu: 40/2025/TT-BCT
+      tu_ngay: '2026-05-29'
+    - so_hieu: 12/2018/TT-BCT
+      tu_ngay: '2026-05-29'
+    - so_hieu: 11/2015/TT-BCT
+      tu_ngay: '2026-05-29'
+    - so_hieu: 01/2026/TT-BCT
+      tu_ngay: '2026-05-29'
 nguon:
   - url: https://chinhphu.vn/?pageid=27160&docid=218236
     truy_cap: '2026-11-25'

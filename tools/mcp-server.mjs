@@ -7,6 +7,7 @@ import { realpathSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { LUOC_DO_PHIEN_BAN } from './lib/registry.mjs';
+import { chuanHoaTaiNgay } from './lib/hieu-luc-theo-ngay.mjs';
 import {
   GHI_NGUON_CC_BY,
   MIEN_TRU_PHAP_LY,
@@ -119,6 +120,11 @@ export function TAO_DANH_SACH_CONG_CU() {
             type: 'string',
             description: 'Số hiệu văn bản cần tra (ví dụ: "38/2015/TT-BTC", "85/2026/TT-BTC", "24/2026/NĐ-CP").',
           },
+          tai_ngay: {
+            type: 'string',
+            pattern: '^\\d{4}-\\d{2}-\\d{2}$',
+            description: 'Ngày đối chiếu hiệu lực YYYY-MM-DD (ví dụ ngày đăng ký tờ khai). Bỏ trống để tra theo hiện hành.',
+          },
         },
         required: ['so_hieu'],
       },
@@ -155,6 +161,11 @@ export function TAO_DANH_SACH_CONG_CU() {
             type: 'boolean',
             description: 'Nếu true, chỉ trả kết quả thuộc tầng NGUYEN_VAN_NGUON_A.',
           },
+          tai_ngay: {
+            type: 'string',
+            pattern: '^\\d{4}-\\d{2}-\\d{2}$',
+            description: 'Ngày đối chiếu hiệu lực YYYY-MM-DD để lọc lịch sử sửa đổi/bãi bỏ cấp điều tại ngày đó.',
+          },
           limit: {
             type: 'integer',
             minimum: 1,
@@ -180,6 +191,11 @@ export function TAO_DANH_SACH_CONG_CU() {
           nhanh: {
             type: 'string',
             description: 'Lọc theo nhánh cây XNK (ví dụ: "hai-quan/thu-tuc").',
+          },
+          tai_ngay: {
+            type: 'string',
+            pattern: '^\\d{4}-\\d{2}-\\d{2}$',
+            description: 'Ngày đối chiếu hiệu lực YYYY-MM-DD (ví dụ ngày đăng ký tờ khai) để phân hạng văn bản theo hiệu lực tại ngày đó.',
           },
           limit: {
             type: 'integer',
@@ -228,6 +244,11 @@ export function TAO_DANH_SACH_CONG_CU() {
           ma_hs: {
             type: 'string',
             description: 'Mã HS đã biết (4, 6 hoặc 8 chữ số, ví dụ: "3808", "84148099").',
+          },
+          tai_ngay: {
+            type: 'string',
+            pattern: '^\\d{4}-\\d{2}-\\d{2}$',
+            description: 'Ngày đối chiếu hiệu lực YYYY-MM-DD (ví dụ ngày đăng ký tờ khai) cho các văn bản quản lý chuyên ngành.',
           },
           limit: {
             type: 'integer',
@@ -312,6 +333,9 @@ function dinhDangTraHieuLuc(res) {
     vb.ten ? `- Tên: ${vb.ten}` : '',
     vb.co_quan ? `- Cơ quan ban hành: ${vb.co_quan}${vb.co_quan_ten ? ` (${vb.co_quan_ten})` : ''}` : '',
     `- Tình trạng: **${vb.tinh_trang || 'CHUA_XAC_MINH'}**`,
+    res.tai_ngay
+      ? `- Hiệu lực tại ngày **${res.tai_ngay}**: **${res.tinh_trang_tai_ngay}**${res.do_chinh_xac_ngay ? ` (${res.do_chinh_xac_ngay})` : ''}`
+      : '',
     vb.ngay_ban_hanh ? `- Ngày ban hành: ${vb.ngay_ban_hanh}` : '',
     vb.hieu_luc_tu ? `- Hiệu lực từ: ${vb.hieu_luc_tu}` : '',
     vb.het_hieu_luc_tu ? `- Hết hiệu lực từ: ${vb.het_hieu_luc_tu}` : '',
@@ -369,6 +393,7 @@ function dinhDangTraDieuKhoan(res) {
   const dsA = Array.isArray(res?.nguyen_van_nguon_a) ? res.nguyen_van_nguon_a : [];
   const dsNhap = Array.isArray(res?.tom_tat_nhap) ? res.tom_tat_nhap : [];
   const lines = ['## Kết quả tra cứu điều khoản (tách 2 tầng tin cậy)'];
+  if (res?.tai_ngay) lines.push(`- Ngày đối chiếu hiệu lực: **${res.tai_ngay}**`);
 
   if (dsA.length) {
     lines.push('', `### Tầng 1 — NGUYEN_VAN_NGUON_A (${dsA.length} mục, dùng làm căn cứ trích dẫn)`);
@@ -434,6 +459,9 @@ function dinhDangHoiPhapLuat(res) {
   const dieuKhoanA = Array.isArray(res?.dieu_khoan_nguon_a) ? res.dieu_khoan_nguon_a : [];
   const dieuKhoanNhap = Array.isArray(res?.dieu_khoan_tom_tat_nhap) ? res.dieu_khoan_tom_tat_nhap : [];
   const lines = [`## Kết quả hỏi đáp pháp luật PLHQ (${ketQua.length} đoạn wiki, ${dieuKhoanA.length} điều khoản nguồn A)`];
+  if (res?.tai_ngay) {
+    lines.push(`- Ngày đối chiếu hiệu lực: **${res.tai_ngay}**`);
+  }
   if (res?.do_tin_cay_tra_loi) {
     lines.push(`- Độ tin cậy trả lời: **${res.do_tin_cay_tra_loi}**`);
   }
@@ -526,6 +554,9 @@ function dinhDangChinhSachHs(res) {
   const tongTruoc = res?.tong_truoc_gioi_han;
   const demStr = typeof tongTruoc === 'number' && tongTruoc > ds.length ? `${ds.length}/${tongTruoc}` : `${ds.length}`;
   const lines = [`## Văn bản chính sách / KTCN theo mã HS đã biết \`${res?.ma_hs || ''}\` (${demStr} mục)`];
+  if (res?.tai_ngay) {
+    lines.push(`- Ngày đối chiếu hiệu lực: **${res.tai_ngay}**`);
+  }
   if (res?.canh_bao_ma?.length) {
     lines.push(`- ⚠️ Cảnh báo mã ngoài biểu thuế đối chiếu: ${res.canh_bao_ma.join(', ')} — cần đối chiếu lại văn bản gốc, không tự kết luận diện áp.`);
   }
@@ -627,12 +658,25 @@ export function taoMayChuMcp({ store: initialStore, distDir, root } = {}) {
 
   async function goiCongCu(name, args) {
     const store = await layKho();
+    const kiemTraTaiNgay = () => {
+      if (args.tai_ngay === undefined || args.tai_ngay === null || args.tai_ngay === '') {
+        return { hopLe: true, giaTri: null };
+      }
+      if (typeof args.tai_ngay !== 'string') {
+        return { hopLe: false, loi: 'Tham số "tai_ngay" phải là chuỗi YYYY-MM-DD.' };
+      }
+      return chuanHoaTaiNgay(args.tai_ngay);
+    };
     switch (name) {
       case 'plhq_tra_hieu_luc': {
         if (!laChuoiKhongRong(args.so_hieu)) {
           return taoLoiCongCu(name, 'Thiếu tham số bắt buộc "so_hieu" (chuỗi số hiệu văn bản).');
         }
-        const res = traHieuLuc(store, args.so_hieu.trim());
+        const tn = kiemTraTaiNgay();
+        if (!tn.hopLe) return taoLoiCongCu(name, tn.loi);
+        const res = traHieuLuc(store, args.so_hieu.trim(), {
+          ...(tn.giaTri ? { tai_ngay: tn.giaTri } : {}),
+        });
         return taoPhanHoiCongCu(dinhDangTraHieuLuc(res), res);
       }
 
@@ -640,6 +684,8 @@ export function taoMayChuMcp({ store: initialStore, distDir, root } = {}) {
         if (args.so_hieu !== undefined && typeof args.so_hieu !== 'string') {
           return taoLoiCongCu(name, 'Tham số "so_hieu" phải là chuỗi.');
         }
+        const tn = kiemTraTaiNgay();
+        if (!tn.hopLe) return taoLoiCongCu(name, tn.loi);
         const lim = chuanSoNguyenDuong(args.limit, 'limit');
         if (!lim.hopLe) return taoLoiCongCu(name, lim.loi);
         if (args.chi_nguyen_van !== undefined && typeof args.chi_nguyen_van !== 'boolean') {
@@ -656,6 +702,7 @@ export function taoMayChuMcp({ store: initialStore, distDir, root } = {}) {
           ...(laChuoiKhongRong(args.diem) ? { diem: args.diem.trim() } : {}),
           ...(laChuoiKhongRong(args.tu_khoa) ? { tu_khoa: args.tu_khoa.trim() } : {}),
           ...(args.chi_nguyen_van !== undefined ? { chi_nguyen_van: args.chi_nguyen_van } : {}),
+          ...(tn.giaTri ? { tai_ngay: tn.giaTri } : {}),
           ...(lim.giaTri !== undefined ? { limit: lim.giaTri } : {}),
         };
         const res = traDieuKhoan(store, opts);
@@ -666,10 +713,13 @@ export function taoMayChuMcp({ store: initialStore, distDir, root } = {}) {
         if (!laChuoiKhongRong(args.cau_hoi)) {
           return taoLoiCongCu(name, 'Thiếu tham số bắt buộc "cau_hoi".');
         }
+        const tn = kiemTraTaiNgay();
+        if (!tn.hopLe) return taoLoiCongCu(name, tn.loi);
         const lim = chuanSoNguyenDuong(args.limit, 'limit');
         if (!lim.hopLe) return taoLoiCongCu(name, lim.loi);
         const opts = {
           ...(laChuoiKhongRong(args.nhanh) ? { nhanh: args.nhanh.trim() } : {}),
+          ...(tn.giaTri ? { tai_ngay: tn.giaTri } : {}),
           ...(lim.giaTri !== undefined ? { limit: lim.giaTri } : {}),
         };
         const res = hoiPhapLuat(store, args.cau_hoi.trim(), opts);
@@ -694,9 +744,14 @@ export function taoMayChuMcp({ store: initialStore, distDir, root } = {}) {
         if (!laChuoiKhongRong(args.ma_hs)) {
           return taoLoiCongCu(name, 'Thiếu tham số bắt buộc "ma_hs" (mã HS 4, 6 hoặc 8 số đã biết).');
         }
+        const tn = kiemTraTaiNgay();
+        if (!tn.hopLe) return taoLoiCongCu(name, tn.loi);
         const lim = chuanSoNguyenDuong(args.limit, 'limit');
         if (!lim.hopLe) return taoLoiCongCu(name, lim.loi);
-        const opts = lim.giaTri !== undefined ? { limit: lim.giaTri } : {};
+        const opts = {
+          ...(tn.giaTri ? { tai_ngay: tn.giaTri } : {}),
+          ...(lim.giaTri !== undefined ? { limit: lim.giaTri } : {}),
+        };
         const res = traChinhSachTheoMaHs(store, args.ma_hs.trim(), opts);
         return taoPhanHoiCongCu(dinhDangChinhSachHs(res), res, Boolean(res?.loi));
       }

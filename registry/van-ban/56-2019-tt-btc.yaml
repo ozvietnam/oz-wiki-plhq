@@ -10,8 +10,10 @@ nhanh:
   - hai-quan/thu-tuc
 quan_he:
   sua_doi:
-    - 49/2015/TT-BTC
-    - 191/2015/TT-BTC
+    - so_hieu: 49/2015/TT-BTC
+      tu_ngay: '2019-10-15'
+    - so_hieu: 191/2015/TT-BTC
+      tu_ngay: '2019-10-15'
 nguon:
   - url: https://chinhphu.vn/?pageid=27160&docid=197800
     truy_cap: '2026-11-25'

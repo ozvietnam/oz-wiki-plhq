@@ -47,6 +47,7 @@ function inTroGiup() {
     '  sap-het-hieu-luc [--ngay 60]          Liệt kê văn bản sắp hết hiệu lực trong <= N ngày',
     '',
     'Cờ dùng chung:',
+    '  --tai-ngay <YYYY-MM-DD>               Đối chiếu hiệu lực & lịch sử sửa đổi tại ngày cụ thể (vd ngày tờ khai)',
     '  --json                                Xuất JSON chuẩn',
     '  --limit <N>                           Giới hạn số kết quả',
     '  --dist <dir>                          Thư mục dist/ tùy chọn',
@@ -73,6 +74,7 @@ export function phanTichThamSoCli(argv) {
     phuLuc: undefined,
     ngay: undefined,
     homNay: undefined,
+    taiNgay: undefined,
     soHieu: undefined,
     dist: undefined,
     root: undefined,
@@ -116,6 +118,7 @@ export function phanTichThamSoCli(argv) {
         '--ngay': 'ngay',
         '--trong-so-ngay': 'ngay',
         '--hom-nay': 'homNay',
+        '--tai-ngay': 'taiNgay',
         '--so-hieu': 'soHieu',
         '--dist': 'dist',
         '--root': 'root',
@@ -160,7 +163,7 @@ function fmtHieuLuc(res) {
   const lines = [
     `Văn bản: ${res.so_hieu}${res.khop_qua_so_hieu_khac ? ` (khớp qua tên khác "${res.truy_van}")` : ''}`,
     `Tên: ${res.ten || '(không rõ)'}`,
-    `Tình trạng: ${res.tinh_trang}`,
+    `Tình trạng: ${res.tinh_trang}${res.tai_ngay ? ` (Tại ngày ${res.tai_ngay}: ${res.tinh_trang_tai_ngay}${res.do_chinh_xac_ngay ? ` · ${res.do_chinh_xac_ngay}` : ''})` : ''}`,
     `Hiệu lực từ: ${res.hieu_luc_tu || '—'} | Hết hiệu lực từ: ${res.het_hieu_luc_tu || '—'} | Ban hành: ${res.ngay_ban_hanh || '—'}`,
     `Cơ quan: ${res.co_quan || '—'}${res.co_quan_ten ? ` (${res.co_quan_ten})` : ''}`,
     `Xác minh: ${res.xac_minh.muc} | Đã đối chiếu nguồn A: ${res.xac_minh.hieu_luc_da_doi_chieu ? 'Có' : 'CHƯA'}`,
@@ -212,9 +215,13 @@ function fmtHieuLuc(res) {
 
 function fmtDieuKhoan(res) {
   const lines = [
-    `Tra điều khoản — Văn bản: ${res.truy_van.so_hieu || '(tất cả)'}${res.truy_van.dieu ? ` · Điều ${res.truy_van.dieu}` : ''}${res.truy_van.khoan ? ` · Khoản ${res.truy_van.khoan}` : ''}${res.truy_van.diem ? ` · Điểm ${res.truy_van.diem}` : ''}${res.truy_van.tu_khoa ? ` · Từ khóa "${res.truy_van.tu_khoa}"` : ''}`,
+    `Tra điều khoản — Văn bản: ${res.truy_van.so_hieu || '(tất cả)'}${res.tai_ngay ? ` · Tại ngày: ${res.tai_ngay}` : ''}${res.truy_van.dieu ? ` · Điều ${res.truy_van.dieu}` : ''}${res.truy_van.khoan ? ` · Khoản ${res.truy_van.khoan}` : ''}${res.truy_van.diem ? ` · Điểm ${res.truy_van.diem}` : ''}${res.truy_van.tu_khoa ? ` · Từ khóa "${res.truy_van.tu_khoa}"` : ''}`,
     `Kết quả: ${res.tong_nguyen_van} mục NGUYEN_VAN_NGUON_A · ${res.tong_tom_tat_nhap} mục TOM_TAT_NHAP`,
   ];
+  if (res.loi) {
+    lines.push(`Lỗi: ${res.loi}`, '', res.ghi_nguon, res.mien_tru);
+    return lines.join('\n');
+  }
 
   if (res.nguyen_van_nguon_a.length) {
     lines.push('', '=== TẦNG 1: NGUYÊN VĂN NGUỒN BẬC A (ĐÃ XÁC MINH) ===');
@@ -274,7 +281,11 @@ function fmtHoi(res) {
   }
 
   const dkNguonA = Array.isArray(res.dieu_khoan_nguon_a) ? res.dieu_khoan_nguon_a : [];
-  const lines = [`Câu hỏi: ${res.cau_hoi}`, `Tìm thấy ${res.tong} kết quả wiki · ${dkNguonA.length} điều khoản nguồn A:`];
+  const lines = [`Câu hỏi: ${res.cau_hoi}${res.tai_ngay ? ` (Tại ngày: ${res.tai_ngay})` : ''}`, `Tìm thấy ${res.tong} kết quả wiki · ${dkNguonA.length} điều khoản nguồn A:`];
+  if (res.loi) {
+    lines.push(`Lỗi: ${res.loi}`, '', res.ghi_nguon, res.mien_tru);
+    return lines.join('\n');
+  }
   for (const item of res.ket_qua) {
     lines.push(
       '',
@@ -328,7 +339,7 @@ function fmtCas(res) {
 
 function fmtChinhSach(res) {
   const lines = [
-    `Tra chính sách theo mã HS đã biết: ${res.ma_hs || res.ma_hs_goc || '—'}`,
+    `Tra chính sách theo mã HS đã biết: ${res.ma_hs || res.ma_hs_goc || '—'}${res.tai_ngay ? ` (Tại ngày: ${res.tai_ngay})` : ''}`,
     `Ranh giới: ${res.ranh_gioi}`,
   ];
   if (res.loi) {
@@ -405,8 +416,11 @@ export async function chayCli(argv = process.argv.slice(2)) {
         process.stderr.write('Thiếu <so_hieu> cho lệnh hieu-luc.\n');
         return 1;
       }
-      xuatKetQua(traHieuLuc(store, soHieu), flags.json, fmtHieuLuc);
-      return 0;
+      const res = traHieuLuc(store, soHieu, {
+        ...(flags.taiNgay !== undefined ? { tai_ngay: flags.taiNgay } : {}),
+      });
+      xuatKetQua(res, flags.json, fmtHieuLuc);
+      return res?.loi ? 1 : 0;
     }
 
     case 'dieu-khoan': {
@@ -422,10 +436,11 @@ export async function chayCli(argv = process.argv.slice(2)) {
         diem: flags.diem,
         tu_khoa: flags.tuKhoa,
         chi_nguyen_van: flags.nguyenVan,
+        ...(flags.taiNgay !== undefined ? { tai_ngay: flags.taiNgay } : {}),
         limit: limitNum ?? 15,
       });
       xuatKetQua(res, flags.json, fmtDieuKhoan);
-      return 0;
+      return res?.loi ? 1 : 0;
     }
 
     case 'hoi': {
@@ -436,10 +451,11 @@ export async function chayCli(argv = process.argv.slice(2)) {
       }
       const res = hoiPhapLuat(store, cauHoi, {
         nhanh: flags.nhanh,
+        ...(flags.taiNgay !== undefined ? { tai_ngay: flags.taiNgay } : {}),
         limit: limitNum ?? 8,
       });
       xuatKetQua(res, flags.json, fmtHoi);
-      return 0;
+      return res?.loi ? 1 : 0;
     }
 
     case 'cas': {
@@ -462,9 +478,12 @@ export async function chayCli(argv = process.argv.slice(2)) {
         process.stderr.write('Thiếu <ma_hs> cho lệnh chinh-sach.\n');
         return 1;
       }
-      const res = traChinhSachTheoMaHs(store, maHs, { limit: limitNum ?? 25 });
+      const res = traChinhSachTheoMaHs(store, maHs, {
+        limit: limitNum ?? 25,
+        ...(flags.taiNgay !== undefined ? { tai_ngay: flags.taiNgay } : {}),
+      });
       xuatKetQua(res, flags.json, fmtChinhSach);
-      return 0;
+      return res?.loi ? 1 : 0;
     }
 
     case 'sap-het-hieu-luc': {
