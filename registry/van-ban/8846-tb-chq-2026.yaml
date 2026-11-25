@@ -1,0 +1,30 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 8846/TB-CHQ/2026
+so_hieu_khac:
+  - 8846/TB-CHQ
+  - 8846/CHQ-NVTHQ
+  - 8846/CHQ-NVTHQ/2026
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-24'
+ten: 'Thông báo về kết quả xác định trước mã số (Ống nhôm hợp kim chưa gia công A6063S, mã số 7604.21.90)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-02-03'
+hieu_luc_tu: '2026-02-03'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=102572&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/2/6/VB_8846.pdf
+    truy_cap: '2026-11-24'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/2/6/VB_8846.pdf, id=102572, SHA-256 243a7821eeaf8dfe916f36f92cf1a173ee17051ca28698d79417d86650746026): Thông báo số 8846/TB-CHQ ngày 03-02-2026 của Cục Hải quan (ký số 05-02-2026, trên mục lục cổng ghi ký hiệu 8846/CHQ-NVTHQ) về kết quả xác định trước mã số đối với mặt hàng Ống nhôm hợp kim, chưa gia công, ký mã hiệu A6063S (nhôm thô ép đùn từ phôi hợp kim nhôm và xử lý nhiệt hóa già, dạng ống rỗng hai lớp đồng tâm giữ cố định nhờ các vách liên kết, đường kính ống ngoài ~18 mm, đường kính ống trong ~11 mm, chiều dài 313,5 mm, chiều dày thành ống ~3,5 mm, bề mặt chưa gia công, thành phần Al 98,506%, Mg 0,550%, Si 0,426%, Fe 0,239%, dùng làm nguyên liệu sản xuất trục lăn - linh kiện trong máy in, máy photocopy, nhà sản xuất Công ty Cổ phần Tập đoàn Fravi Việt Nam), phân loại vào nhóm 76.04, phân nhóm 7604.21, mã số 7604.21.90; có hiệu lực từ ngày ban hành'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Ống nhôm hợp kim chưa gia công model A6063S (nhôm thô ép đùn xử lý nhiệt hóa già, dạng ống rỗng hai lớp đồng tâm có vách liên kết, OD ~18 mm, ID ~11 mm, dài 313,5 mm, Al 98,506%, dùng làm nguyên liệu sản xuất trục lăn máy in/photocopy) thuộc nhóm 76.04, phân nhóm 7604.21, mã số 7604.21.90.'
+toan_van: raw/download/files.customs.gov.vn/8846-tb-chq-2026.pdf
