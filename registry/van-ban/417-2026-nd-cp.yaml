@@ -1,21 +1,68 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 417/2026/NĐ-CP
 loai: NGHI_DINH
-ten: 'Quy định về quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu qua nền tảng thương mại điện tử'
+ten: Quy định về quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu qua nền tảng thương mại điện tử
 co_quan: CP
-ngay_ban_hanh: '2026-11-24'
-tinh_trang: CON_HIEU_LUC
+ngay_ban_hanh: '2026-11-20'
+hieu_luc_tu: '2027-03-01'
+tinh_trang: CHUA_CO_HIEU_LUC
 nhanh:
   - hai-quan/thu-tuc
+quan_he:
+  huong_dan:
+    - so_hieu: 54/2014/QH13
+      tu_ngay: '2027-03-01'
+      pham_vi: Quy định chi tiết quản lý hải quan đối với hàng hóa XNK qua nền tảng thương mại điện tử
+    - so_hieu: 107/2016/QH13
+      tu_ngay: '2027-03-01'
+      pham_vi: Quy định miễn thuế nhập khẩu đối với đơn hàng thương mại điện tử trị giá hải quan từ 1 triệu đồng trở xuống (Điều 12)
 nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=220347
+    truy_cap: '2026-11-25'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/417_2026_ndcp_20112026-signed.signed.pdf
+    truy_cap: '2026-11-25'
   - url: https://cafef.vn/don-hang-thuong-mai-dien-tu-duoi-1-trieu-dong-duoc-mien-thue-nhap-khau-188261124074212041.chn
     truy_cap: '2026-11-24'
   - url: https://vtv.vn/don-hang-thuong-mai-dien-tu-duoi-1-trieu-dong-duoc-mien-thue-nhap-khau-100261124063724894.htm
     truy_cap: '2026-11-24'
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/417-2026-nd-cp.pdf
+  - raw/ocr/417-2026-nd-cp.ocr.txt
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + nội dung miễn thuế NK đơn TMĐT <1 triệu đồng, hiệu lực 01-03-2027 (CafeF/VTV/VOV 24-11); triển khai K4 Đ1 Luật HQ 11/2026 — cần văn bản gốc khi lên A'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-24'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Cổng TTĐT Chính phủ (docid=220347, 417_2026_ndcp_20112026-signed.signed.pdf 31 trang, đã OCR): ban hành 20-11-2026, hiệu lực từ 01-03-2027 (Điều 30, thay thế định mức miễn thuế NK theo NĐ 134/2016 đối với hàng TMĐT tại Điều 12 — miễn thuế NK đơn hàng ≤ 1.000.000đ, tối đa 48 triệu đ/năm); ghi tình trạng CHUA_CO_HIEU_LUC.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-25'
+  boi: antigravity@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Nghị định này quy định về: I. Hệ thong xử lý dữ liệu điện tử hải quan đối với hàng hóa xuất khẩu, nhập khâu qua nên tảng thương mại điện tử (sau đây gọi tắt là Hệ thông xử lý dữ liệu hải quan về thương mại điện tử). 2. Chính sách quản lý, kiểm tra chuyên ngành, chính sách thuế đối với hàng hóa xuât khâu, nhập khẩu qua nền tảng thương mại điện tử.'
+      trang_pdf: 2
+    - dieu: 2
+      noi_dung: Điều 2. Đối tượng áp dụng 1. Chủ quản nền tảng thương mại điện tử. 2. Doanh nghiệp vận chuyền hàng hóa xuất khẩu, nhập khẩu qua nền tảng thương mại điện tử hoặc đại lý của doanh nghiệp vận chuyên hàng hóa tại Việt Nam. 3. Đại lý làm thủ tục hải quan. 4. Chủ hàng hóa xuất khẩu, nhập khẩu qua nền tảng thương mại điện tử. 5. Doanh nghiệp kinh doanh kho ngoại quan.
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: Điều 3. Giải thích từ ngữ Hệ thống xử lý dữ liệu hải quan về thương mại điện tử là Hệ thống cho phép thực hiện thủ tục hải quan, tiép nhận, phản hôi, chia sẻ, xử lý và lưu trữ thông tin liên quan đên xuât khâu, nhập khâu hàng hóa qua nên tảng thương mại điện tử. Hệ thông xử lý dữ liệu hải quan về thương mại điện tử là một phân không tách rời của Hệ thông xử lý dữ liệu điện tử hải quan do Bộ Tài chính quản lý và vận hành.
+      trang_pdf: 3
+    - dieu: 8
+      noi_dung: Điều 8. Trách nhiệm của tổ chức tham gia sử dụng Hệ thống xử lý dữ liệu hải quan về thương mại điện tử 1. Tô chức thực hiện thủ tục hai quan và cung cấp, trao đổi thông tin liên quan đên hàng hóa xuât khâu, nhập khẩu qua nên tảng thương mại điện tử trên
+      trang_pdf: 5
+    - dieu: 12
+      noi_dung: Điều 12. Chính sách thuế đối với hang hóa xuất khẩu, nhập khẩu qua nền tảng thương mại điện tử 1. Hàng hóa nhập khẩu qua nền tảng thương mại điện tử có trị giá hải quan theo từng đơn hàng từ 1.000.000 đông Việt Nam trở xuông được miên thuê nhập khâu. Mỗi tổ chức, cá nhân mua hàng chỉ được hưởng tiêu chuẩn miễn thuế đối với hàng hóa nhập khâu quy định tại khoản này không quá 48.000.000 đông Việt Nam/năm.
+      trang_pdf: 11
+    - dieu: 15
+      noi_dung: 'Điều 15. Địa điểm làm thủ tục hải quan 1. Đối với hàng hóa xuất khẩu: người khai hải quan được lựa chọn đơn vị Hải quan dé thực hiện thủ tục hải quan xuất khẩu. 2. Đối với hàng hóa nhập khẩu: a) Đơn vị Hải quan quản lý địa điểm tập kết, kiểm tra, giám sát tập trung đối với hàng bưu chính, chuyển phát nhanh trong trường hợp hàng hóa nhập khẩu qua nền tảng thương mại điện tử gửi qua dịch vụ bưu chính, chuyên phát nhanh;'
+      trang_pdf: 12
+    - dieu: 19
+      noi_dung: 'Điều 19. Cung cấp thông tin vận chuyển, thông tin xuất kho ngoại quan 1. Tô chức cung cấp thông tin vận chuyền, thông tin xuất kho ngoại quan l a) Tổ chức cung cấp thông tin vận chuyên: doanh nghiệp vận chuyền hoặc đại lý của doanh nghiệp vận chuyên hàng hóa đến cửa khẩu;'
+      trang_pdf: 15
+    - dieu: 22
+      noi_dung: 'Điều 22. Thủ tục hủy tờ khai hải quan đối với hàng hóa xuất khẩu, nhập khâu nhóm 1 1. Các trường hợp hủy tờ khai hải quan xuất khẩu: a) Hết thời hạn 15 ngày kế từ ngày đăng ký tờ khai hải quan xuất khẩu, hàng hóa được miễn kiểm tra thực tế nhưng chưa đưa hàng hóa vào khu vực giám sát hải quan tại cửa khâu xuất;'
+      trang_pdf: 20
+    - dieu: 26
+      noi_dung: Điều 26. Giám sát hàng hóa xuất khẩu 1. Trách nhiệm của doanh nghiệp quản lý kho, địa điểm lưu giữ hàng hóa
+      trang_pdf: 25
+    - dieu: 30
+      noi_dung: Điều 30. Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 01 tháng 03 năm 2027.
+      trang_pdf: 30
 ghi_chu: 'Trinh thám đêm 24/11 — NĐ hot trong ngày: khung hải quan riêng hàng TMĐT (chia nhóm theo đơn hàng, miễn thuế <1tr/đơn). Ưu tiên lên A cùng Luật HQ 11/2026 đã có.'

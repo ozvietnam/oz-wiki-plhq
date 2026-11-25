@@ -1,23 +1,40 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 3318/QĐ-BTC
 loai: QUYET_DINH
-ten: 'Công bố danh mục 133 thủ tục hành chính trong lĩnh vực hải quan thực hiện không phụ thuộc vào địa giới hành chính'
+ten: Công bố danh mục 133 thủ tục hành chính trong lĩnh vực hải quan thực hiện không phụ thuộc vào địa giới hành chính
 co_quan: BTC
 ngay_ban_hanh: '2026-11-12'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - hai-quan/thu-tuc
 nguon:
+  - url: https://www.mof.gov.vn/cong-nghe-thong-tin-va-chuyen-doi-so/tin-tuc-su-kien-3/bo-tai-chinh-cong-bo-255-thu-tuc-hanh-chinh-khong-phu-thuoc-dia-gioi-hanh-chinh
+    truy_cap: '2026-11-25'
+  - url: https://xaydungchinhsach.chinhphu.vn/danh-muc-tthc-thuoc-pham-vi-quan-ly-cua-bo-tai-chinh-thuc-hien-khong-phu-thuoc-vao-dia-gioi-hanh-chinh-119261116104324838.htm
+    truy_cap: '2026-11-25'
   - url: https://thuanloi.dongnai.gov.vn/vi/laws/detail/Ve-ve-cong-bo-danh-muc-thu-tuc-hanh-chinh-cua-Bo-Tai-chinh-khong-phu-thuoc-dia-gioi-hanh-chinh-trong-pham-vi-toan-quoc-34/
     truy_cap: '2026-11-22'
   - url: https://thuehaiquan.tapchikinhtetaichinh.vn/133-thu-tuc-hai-quan-duoc-thuc-hien-khong-phu-thuoc-dia-gioi-hanh-chinh-172492.html
     truy_cap: '2026-11-22'
   - url: https://bkhub.vn/news/quyet-dinh-3318-qd-btc-133-thu-tuc-hai-quan-khong-phu-thuoc-dia-gioi-hanh-chinh
     truy_cap: '2026-11-22'
+toan_van:
+  - raw/download/thuanloi.dongnai.gov.vn/3318-qd-btc-2026.pdf
+  - raw/ocr/3318-qd-btc-2026.ocr.txt
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + ngày ban hành 12-11-2026, áp dụng ngay 12-11 (cổng thông tin chính quyền thuanloi.dongnai.gov.vn đính kèm bản ký quyet-dinh-3318-qd-btc.pdf, Tạp chí Kinh tế - Tài chính / Thuế & Hải quan Online và bkhub dẫn QĐ); cần nạp PDF gốc customs.gov.vn khi lên A'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-22'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh thám đêm 22/11. 133 TTHC hải quan làm được ở bất kỳ Chi cục nào (không giới hạn theo trụ sở) — ảnh hưởng trực tiếp chọn cửa khẩu khai báo của khách. Đúng họ với 344/QĐ-BTC đã có.'
+  muc: NGUON_A
+  pham_vi: 'Cổng Bộ Tài chính (mof.gov.vn) & Cổng Chính phủ (xaydungchinhsach.chinhphu.vn) cùng bản PDF ký số Bộ Tài chính 29 trang (đã OCR, SHA ký số 12-11-2026 18:23:26): công bố 255 TTHC (gồm 133 TTHC hải quan) không phụ thuộc địa giới hành chính; Điều 2 có hiệu lực kể từ ngày ký 12-11-2026.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-25'
+  boi: antigravity@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Công bố kèm theo Quyết định này Danh mục thủ tục hành chính thuộc phạm vi quản lý của Bộ Tài chính thực hiện không phụ thuộc vào địa giới hành chính trong phạm vi toàn quốc.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Quyết định này có hiệu lực thi hành kê từ ngày ký.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Chánh Văn phòng Bộ, Cục trưởng Cục Công nghệ thông tin và chuyên đổi số, Thủ trưởng các đơn vi thuộc Bộ và các tô chức, cá nhân có liên quan chịu trách nhiệm thi hành Quyết định này. se
+      trang_pdf: 1
+ghi_chu: Trinh thám đêm 22/11. 133 TTHC hải quan làm được ở bất kỳ Chi cục nào (không giới hạn theo trụ sở) — ảnh hưởng trực tiếp chọn cửa khẩu khai báo của khách. Đúng họ với 344/QĐ-BTC đã có.

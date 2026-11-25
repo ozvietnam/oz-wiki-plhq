@@ -1,21 +1,43 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 03/2026/TT-BCT
 loai: THONG_TU
-ten: 'Quy định về hạn ngạch thuế quan nhập khẩu mặt hàng muối và trứng gia cầm năm 2026'
+ten: Quy định về hạn ngạch thuế quan nhập khẩu mặt hàng muối và trứng gia cầm năm 2026
 co_quan: BCT
 ngay_ban_hanh: '2026-01-26'
+hieu_luc_tu: '2026-03-15'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong
 nguon:
   - url: https://vanban.chinhphu.vn/?pageid=27160&docid=216801
     truy_cap: '2026-11-24'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/03-bct.pdf
+    truy_cap: '2026-11-25'
   - url: https://sct.tayninh.gov.vn/news-78413/bo-cong-thuong-ban-hanh-thong-tu-quy-dinh-ve-han-ngach-thue-quan-nhap-khau-mat-hang-muoi-trung-g-1046167
     truy_cap: '2026-11-24'
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/03-2026-tt-bct.pdf
+  - raw/ocr/03-2026-tt-bct.ocr.txt
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + ngày ban hành 26-01-2026, hiệu lực 15-03-2026 (vanban.chinhphu.vn docid 216801 + Sở CT Tây Ninh)'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-24'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Cổng TTĐT Chính phủ (docid=216801, 03-bct.pdf ký số BCT 3 trang, đã OCR): ban hành 26-01-2026, hiệu lực 15-03-2026 đến hết 31-12-2026 (bản OCR nhận nhầm "15 tháng 2" ở Điều 5; CSDL docid=216801 xác nhận 15-03-2026), hạn ngạch thuế quan NK muối (97.020 tấn) và trứng gia cầm (75.809 tá) năm 2026.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-25'
+  boi: antigravity@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Lượng hạn ngạch thuế quan nhập khẩu mặt hàng muối, trứng gia cam năm 2026 A ° TT Mã số hàng hóa Tên hàng aon E0 Ghi vị | lượng chú 0407.21.00 và 0407.90.10 | Trứng gà Trứng Tá thương 1 | 0407.29.10 và 0407.90.20 | Trứng vịt, ngan 75.809 phâm không 0407.29.90 và 0407.90.90 | Loại khác có phôi Saas
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Phương thức phân giao hạn ngạch thuế quan nhập khẩu mặt hàng muối, trứng gia cầm năm 2026 Hạn ngạch thuế quan nhập khẩu mặt hàng muối, trứng gia cam năm 2026 được phân giao theo phương thức cấp giấy phép nhập khẩu quy định tại Nghị định số 69/2018/NĐ-CP ngày 15 tháng 5 năm 2018 của Chính phủ quy định chỉ tiết một số điều của Luật Quản lý ngoại thương và Thông tư số 12/2018/TT- BCT ngày 15 tháng 6 năm 2018 của Bộ trưởng Bộ Công Thương quy
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: Điều 3. Đối tượng phân giao hạn ngạch thuế quan nhập khẩu mặt hàng muối, trứng gia cầm năm 2026 1. Hạn ngạch thuế quan nhập khâu mặt hàng muối được phân giao cho thương nhân trực tiép sử dung muôi làm nguyên liệu sản xuat thuôc, sản phẩm y tế và làm nguyên liệu sản xuất hóa chất. 2. Hạn ngạch thuế quan nhập khâu mặt hàng trứng gia cầm được phân giao cho thương nhân trực tiêp sử dụng trứng gia câm làm nguyên liệu sản xuất. yy “4 5 Ũ \ \ \ \,
+      trang_pdf: 2
+    - dieu: 4
+      noi_dung: Điều 4. Thời điểm bắt đầu phân giao hạn ngạch thuế quan nhập khẩu mặt hàng muối, trứng gia cam năm 2026 1. Thời điểm bắt đầu phân giao hạn ngạch thuế quan nhập khẩu mặt hàng muối làm nguyên liệu sản xuất thuốc và sản phẩm y tế năm 2026 là kể từ khi Thông tư này có hiệu lực thi hành.
+      trang_pdf: 3
+    - dieu: 5
+      noi_dung: Điều 5. Hiệu lực thi hành __ Thông tư này có hiệu lực thi hành kế từ ngay/ 5 tháng 2 năm 2026 đến hệt ngày 31 tháng 12 năm 2026./ —=>=—
+      trang_pdf: 3
 ghi_chu: 'Trinh thám đêm 24/11 nạp bù: hạn ngạch muối (nguyên liệu thuốc/Y tế) + trứng gia cầm 2026 — quota NK.'
