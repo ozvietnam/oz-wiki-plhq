@@ -105,10 +105,120 @@ function gopDieuKhoanNhieuTep(existing, incoming) {
   return out;
 }
 
+function sapXepDieuKhoanNguonA(items) {
+  return [...items].sort((a, b) => {
+    const da = Number(a.dieu ?? 0);
+    const db = Number(b.dieu ?? 0);
+    if (da !== db) return da - db;
+    const ka = a.khoan != null ? Number(a.khoan) : -1;
+    const kb = b.khoan != null ? Number(b.khoan) : -1;
+    if (ka !== kb) return ka - kb;
+    return String(a.diem ?? '').localeCompare(String(b.diem ?? ''));
+  });
+}
+
+/**
+ * Gộp `xac_minh.dieu_khoan` biên tập trong YAML với bản trích đầy đủ từ `data/dieu-khoan-day-du/*.dieu.jsonl`.
+ * Bảo toàn 100% mục có phân `khoan`/`diem` trong YAML; nâng cấp mục mức Điều nếu bản đầy đủ dài hơn;
+ * bổ sung mọi `Điều N` chưa có trong YAML.
+ */
+export function gopDieuKhoanNguonA(yamlClauses = [], fullClauses = []) {
+  const base = Array.isArray(yamlClauses) ? [...yamlClauses] : [];
+  if (!Array.isArray(fullClauses) || fullClauses.length === 0) return base;
+
+  const dieuCoPhanCap = new Set();
+  const idxMucDieuDon = new Map();
+  base.forEach((yc, idx) => {
+    const dNum = Number(yc?.dieu);
+    if (!Number.isInteger(dNum) || dNum < 1) return;
+    if (yc.khoan != null || yc.diem != null) {
+      dieuCoPhanCap.add(dNum);
+    } else if (!idxMucDieuDon.has(dNum)) {
+      idxMucDieuDon.set(dNum, idx);
+    }
+  });
+
+  const out = [...base];
+  for (const fc of fullClauses) {
+    const dNum = Number(fc?.dieu);
+    if (!Number.isInteger(dNum) || dNum < 1) continue;
+    if (dieuCoPhanCap.has(dNum)) continue;
+    if (idxMucDieuDon.has(dNum)) {
+      const idx = idxMucDieuDon.get(dNum);
+      if (String(fc.noi_dung || '').length > String(out[idx]?.noi_dung || '').length) {
+        out[idx] = fc;
+      }
+      continue;
+    }
+    idxMucDieuDon.set(dNum, out.length);
+    out.push(fc);
+  }
+  return sapXepDieuKhoanNguonA(out);
+}
+
+function docDieuKhoanDayDu(root) {
+  const dir = join(root, 'data', 'dieu-khoan-day-du');
+  const fullBySlug = new Map();
+  let soTep = 0;
+  let soDongLoi = 0;
+  if (!existsSync(dir)) return { fullBySlug, soTep, soDongLoi };
+
+  const files = readdirSync(dir).filter((f) => f.endsWith('.dieu.jsonl')).sort();
+  for (const f of files) {
+    soTep += 1;
+    const slug = f.replace(/\.dieu\.jsonl$/, '');
+    const raw = readFileSync(join(dir, f), 'utf8');
+    const items = [];
+    for (const line of raw.split(/\r?\n/)) {
+      const s = line.trim();
+      if (!s) continue;
+      try {
+        const rec = JSON.parse(s);
+        if (
+          !rec
+          || typeof rec !== 'object'
+          || Array.isArray(rec)
+          || !Number.isInteger(rec.dieu)
+          || rec.dieu < 1
+          || typeof rec.noi_dung !== 'string'
+          || !rec.noi_dung.trim()
+        ) {
+          soDongLoi += 1;
+          continue;
+        }
+        const entry = {
+          dieu: rec.dieu,
+          noi_dung: rec.noi_dung,
+        };
+        if (rec.khoan != null) entry.khoan = rec.khoan;
+        if (rec.diem != null) entry.diem = rec.diem;
+        if (rec.trang_pdf != null) entry.trang_pdf = rec.trang_pdf;
+        if (rec.sha256_pdf != null) entry.sha256_pdf = rec.sha256_pdf;
+        items.push(entry);
+      } catch {
+        soDongLoi += 1;
+      }
+    }
+    if (items.length > 0) fullBySlug.set(slug, items);
+  }
+  return { fullBySlug, soTep, soDongLoi };
+}
+
 export function dungDieuKhoan(so, root = ROOT, today = homNay()) {
-  const nguyen_van_nguon_a = so.vanBan
-    .filter((d) => Array.isArray(d.xac_minh?.dieu_khoan) && d.xac_minh.dieu_khoan.length)
-    .map((d) => ({
+  const {
+    fullBySlug,
+    soTep: soTepDieuKhoanDayDu,
+    soDongLoi: soDongLoiDayDu,
+  } = docDieuKhoanDayDu(root);
+
+  const nguyen_van_nguon_a = [];
+  for (const d of so.vanBan) {
+    const yamlClauses = Array.isArray(d.xac_minh?.dieu_khoan) ? d.xac_minh.dieu_khoan : [];
+    const duDieuKienNguonA = d.xac_minh?.muc === 'NGUON_A' || yamlClauses.length > 0;
+    const fullClauses = duDieuKienNguonA ? (fullBySlug.get(d._slug) || []) : [];
+    const merged = gopDieuKhoanNguonA(yamlClauses, fullClauses);
+    if (merged.length === 0) continue;
+    nguyen_van_nguon_a.push({
       so_hieu: d.so_hieu,
       slug: d._slug,
       ten: d.ten,
@@ -118,8 +228,9 @@ export function dungDieuKhoan(so, root = ROOT, today = homNay()) {
       hieu_luc_da_doi_chieu: d.xac_minh?.hieu_luc_da_doi_chieu === true,
       nguon_a: nguonADauTien(d, so.nguon),
       tang_tin_cay: 'NGUYEN_VAN_NGUON_A',
-      dieu_khoan: d.xac_minh.dieu_khoan,
-    }));
+      dieu_khoan: merged,
+    });
+  }
 
   const bySlug = new Map(so.vanBan.map((d) => [d._slug, d]));
   const dhDir = join(root, 'data', 'doc-hieu');
@@ -197,7 +308,8 @@ export function dungDieuKhoan(so, root = ROOT, today = homNay()) {
       so_van_ban_tom_tat_nhap: tom_tat_nhap.length,
       so_dieu_khoan_tom_tat_nhap: soDieuKhoanTomTat,
       so_tep_doc_hieu: soTepDocHieu,
-      so_dong_loi: soDongLoi,
+      so_tep_dieu_khoan_day_du: soTepDieuKhoanDayDu,
+      so_dong_loi: soDongLoi + soDongLoiDayDu,
       so_dong_rac_da_loc: soDongRacDaLoc,
     },
     nguyen_van_nguon_a,

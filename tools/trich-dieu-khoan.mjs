@@ -29,7 +29,7 @@ const RE_CUOI_VAN_BAN = /^\s*(?:N[oơ]i nhận\s*:|TM\.\s*(?:CH[IÍ]NH PH[UỦ]|
 const RE_THAM_CHIEU_NOI_TIEP = /\b(?:tại|theo|của|trong|với|và|hoặc|các|như|khoản\s+\d+|điểm\s+[a-zđ])\s*$/iu;
 const RE_MO_TRICH_DAN = /như sau\s*:\s*$/iu;
 
-function phatHienCongCu(bin, args = ['-v']) {
+export function phatHienCongCu(bin, args = ['-v']) {
   try {
     const r = spawnSync(bin, args, { encoding: 'utf8' });
     return !r.error && (r.status === 0 || r.status === 1 || String(`${r.stdout || ''}${r.stderr || ''}`).length > 0);
@@ -105,7 +105,7 @@ export function layDanhSachToanVan(d, root = ROOT) {
   return out;
 }
 
-function uuTienNguonDoc(fileInfo) {
+export function uuTienNguonDoc(fileInfo) {
   if (fileInfo.isOcrTxt) return 0;
   if (fileInfo.ext === '.txt') return 1;
   if (fileInfo.ext === '.md' && !fileInfo.isWiki) return 2;
@@ -128,7 +128,7 @@ function laPdfBanScan(out, pages) {
   return false;
 }
 
-function docMotTep(fileInfo, { coPdftotext, docPdf, coUnzip, docDocx }) {
+export function docMotTep(fileInfo, { coPdftotext, docPdf, coUnzip, docDocx }) {
   if (fileInfo.ext === '.txt' || fileInfo.ext === '.md') {
     const raw = readFileSync(fileInfo.abs, 'utf8');
     const pages = tachTrang(raw);
@@ -361,7 +361,7 @@ export function phanTichCacKhoiDieu(pages) {
   return out;
 }
 
-function kiemKhopCuaSoTrang(pages, trangPdf, normNoiDung) {
+export function kiemKhopCuaSoTrang(pages, trangPdf, normNoiDung) {
   if (trangPdf == null) {
     const full = pages.join('\n');
     if (chuanHoaKhopNguyenVan(full).includes(normNoiDung)) return true;
@@ -378,7 +378,7 @@ function kiemKhopCuaSoTrang(pages, trangPdf, normNoiDung) {
   return chuanHoaKhopNguyenVan(cleanSlice).includes(normNoiDung);
 }
 
-function trichDoanTuKhoi(block, docData) {
+export function trichDoanTuKhoi(block, docData) {
   const { pages, kind } = docData;
   const candidates = [];
   for (const seg of block.segments) {
@@ -482,7 +482,7 @@ export function chonLocDieuKhoan(items, maxClauses = MAC_DINH_MAX_CLAUSES) {
   return [...chosen].sort((a, b) => a - b).map((idx) => items[idx]);
 }
 
-function ganShaPdfNeuKhop(items, docData, pdfFiles, pdfReadOpts) {
+export function ganShaPdfNeuKhop(items, docData, pdfFiles, pdfReadOpts) {
   if (docData.kind === 'docx') return items;
   if (docData.kind === 'pdf') {
     return items.map((it) => ({ ...it, sha256_pdf: docData.sha256 }));
@@ -618,7 +618,7 @@ export function trichDieuKhoanChoVanBan(
   };
 }
 
-function laTbTchq(doc) {
+export function laTbTchq(doc) {
   return doc?.loai === 'TB_TCHQ'
     || /TB-T?CHQ/i.test(String(doc?.so_hieu || ''))
     || String(doc?._slug || '').includes('tb-tchq')

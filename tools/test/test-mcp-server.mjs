@@ -7,7 +7,7 @@ import { spawn } from 'node:child_process';
 import { cpSync, mkdtempSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { ROOT, LUOC_DO_PHIEN_BAN } from '../lib/registry.mjs';
+import { ROOT, LUOC_DO_PHIEN_BAN, khoa } from '../lib/registry.mjs';
 import { GHI_NGUON_CC_BY, MIEN_TRU_PHAP_LY, taoKhoTraCuu } from '../lib/tra-cuu-plhq.mjs';
 import {
   LOI_PARSE,
@@ -250,17 +250,27 @@ try {
       && dk85Text.includes(GHI_NGUON_CC_BY),
   );
 
+  const khoTest = await taoKhoTraCuu({ root: ROOT });
+  const vbChiTomTat = (khoTest.dieuKhoan?.tom_tat_nhap || []).find(
+    (x) => x.so_hieu
+      && Array.isArray(x.dieu_khoan)
+      && x.dieu_khoan.length > 0
+      && !khoTest.dkNguonAByKhoa.has(khoa(x.so_hieu)),
+  );
+  const soHieuChiTomTat = vbChiTomTat?.so_hieu || '';
+
   const dkNhap = await server.xuLyYeuCau({
     jsonrpc: '2.0',
     id: 14,
     method: 'tools/call',
-    params: { name: 'plhq_tra_dieu_khoan', arguments: { so_hieu: '1725/QĐ-BCT', limit: 4 } },
+    params: { name: 'plhq_tra_dieu_khoan', arguments: { so_hieu: soHieuChiTomTat, limit: 4 } },
   });
   const dkNhapSc = dkNhap?.result?.structuredContent;
   const dkNhapText = dkNhap?.result?.content?.[0]?.text || '';
   t(
-    'tools/call plhq_tra_dieu_khoan (1725/QĐ-BCT): phân tách rõ TOM_TAT_NHAP (da_soat=false) và cảnh báo',
-    dkNhapSc?.tong_nguyen_van === 0
+    `tools/call plhq_tra_dieu_khoan (${soHieuChiTomTat || 'chỉ TOM_TAT_NHAP'}): phân tách rõ TOM_TAT_NHAP (da_soat=false) và cảnh báo`,
+    Boolean(soHieuChiTomTat)
+      && dkNhapSc?.tong_nguyen_van === 0
       && dkNhapSc.tong_tom_tat_nhap > 0
       && dkNhapSc.tom_tat_nhap.every((x) => x.tang_tin_cay === 'TOM_TAT_NHAP' && x.da_soat === false)
       && Boolean(dkNhapSc.canh_bao_tang_nhap)
@@ -272,11 +282,12 @@ try {
     jsonrpc: '2.0',
     id: 15,
     method: 'tools/call',
-    params: { name: 'plhq_tra_dieu_khoan', arguments: { so_hieu: '1725/QĐ-BCT', chi_nguyen_van: true } },
+    params: { name: 'plhq_tra_dieu_khoan', arguments: { so_hieu: soHieuChiTomTat, chi_nguyen_van: true } },
   });
   t(
     'tools/call plhq_tra_dieu_khoan (chi_nguyen_van=true): không lẫn TOM_TAT_NHAP',
-    dkChiA?.result?.structuredContent?.tong_tom_tat_nhap === 0
+    Boolean(soHieuChiTomTat)
+      && dkChiA?.result?.structuredContent?.tong_tom_tat_nhap === 0
       && dkChiA.result.structuredContent.tom_tat_nhap.length === 0,
   );
 

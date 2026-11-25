@@ -4,13 +4,13 @@
 //   node tools/kiem-tra-dieu-khoan.mjs [--json] [--no-pdf]
 import { createHash } from 'node:crypto';
 import { spawnSync } from 'node:child_process';
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { extname, isAbsolute, join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { napSo, ROOT } from './lib/registry.mjs';
 
 const RE_SHA256 = /^[0-9a-f]{64}$/i;
-const RE_CONG_BAO_HEADER = /^\s*CÔNG BÁO\/Số[^\r\n]*(?:\r?\n+\s*\d{1,4}\s*(?=\r?\n|$))?/i;
+const RE_CONG_BAO_HEADER = /^\s*CÔNG BÁO\/Số[^\r\n]*(?:\r?\n+\s*\d{1,4}\s*(?=\r?\n|$))?/gim;
 const MAX_PDFTOTEXT_BUFFER = 64 * 1024 * 1024;
 const NGUONG_KY_TU_LOP_CHU = 50;
 
@@ -122,6 +122,10 @@ function taoMucLoi(d, it, msg) {
 
 function kiemTraKhopTrenTaiLieu(docRes, it, normNoiDung) {
   const { pages, out } = docRes;
+  if (!docRes._normPages) {
+    docRes._normPages = pages.map((p) => chuanHoaKhopNguyenVan(p));
+    docRes._cleanNormPages = pages.map((p) => chuanHoaKhopNguyenVan(boHeaderCongBaoDauTrang(p)));
+  }
   if (it.trang_pdf != null) {
     const p = it.trang_pdf;
     if (p < 1 || p > pages.length) {
@@ -132,20 +136,23 @@ function kiemTraKhopTrenTaiLieu(docRes, it, normNoiDung) {
     }
     const start = Math.max(0, p - 2);
     const end = Math.min(pages.length, p + 1);
-    const slice = pages.slice(start, end).join('\n');
-    if (chuanHoaKhopNguyenVan(slice).includes(normNoiDung)) return { ok: true };
-    const cleanSlice = pages.slice(start, end).map(boHeaderCongBaoDauTrang).join('\n');
-    if (chuanHoaKhopNguyenVan(cleanSlice).includes(normNoiDung)) return { ok: true };
+    const normSlice = docRes._normPages.slice(start, end).filter(Boolean).join(' ');
+    if (normSlice.includes(normNoiDung)) return { ok: true };
+    const cleanNormSlice = docRes._cleanNormPages.slice(start, end).filter(Boolean).join(' ');
+    if (cleanNormSlice.includes(normNoiDung)) return { ok: true };
     return {
       ok: false,
       reason: `không khớp nguyên văn tại trang_pdf=${p} (đã kiểm trang ${start + 1}..${end})`,
     };
   }
-  if (chuanHoaKhopNguyenVan(out).includes(normNoiDung)) return { ok: true };
-  if (pages.length > 1) {
-    const cleanOut = pages.map(boHeaderCongBaoDauTrang).join('\n');
-    if (chuanHoaKhopNguyenVan(cleanOut).includes(normNoiDung)) return { ok: true };
+  if (docRes._normOut == null) {
+    docRes._normOut = chuanHoaKhopNguyenVan(out);
+    docRes._cleanNormOut = pages.length > 1
+      ? docRes._cleanNormPages.filter(Boolean).join(' ')
+      : docRes._normOut;
   }
+  if (docRes._normOut.includes(normNoiDung)) return { ok: true };
+  if (pages.length > 1 && docRes._cleanNormOut.includes(normNoiDung)) return { ok: true };
   return { ok: false, reason: 'không khớp nguyên văn trong toàn bộ văn bản' };
 }
 
@@ -185,34 +192,27 @@ export function kiemTraDieuKhoan(
     soDieuKhoanKhop: 0,
     soDieuKhoanBoQuaPdfScan: 0,
     soDieuKhoanBoQuaThieuPdftotext: 0,
+    soTepDieuKhoanDayDu: 0,
+    soDieuKhoanDayDu: 0,
     soLoi: 0,
     soCanhBao: 0,
     soThongTin: 0,
   };
 
-  for (const d of dsVanBan) {
-    const dkRaw = d?.xac_minh?.dieu_khoan;
-    if (dkRaw == null) continue;
-    if (!Array.isArray(dkRaw)) {
-      loi.push(taoMucLoi(d, null, `${d.so_hieu || d._file}: xac_minh.dieu_khoan phải là danh sách`));
-      continue;
-    }
-    if (dkRaw.length === 0) continue;
-
-    thongKe.soVanBanCoDieuKhoan += 1;
-    thongKe.soDieuKhoan += dkRaw.length;
+  function kiemTraDanhSachMuc(d, dkRaw, sourceLabel) {
     const toanVanList = layDanhSachToanVan(d, root);
     let daGhiThongTinThieuPdftotext = false;
+    let daGhiThongTinUnsupported = false;
     let daGhiThongTinScan = false;
 
     for (let i = 0; i < dkRaw.length; i++) {
       const it = dkRaw[i];
       if (!it || typeof it !== 'object' || Array.isArray(it)) {
-        loi.push(taoMucLoi(d, null, `${d.so_hieu || d._file} [${i}]: mục dieu_khoan phải là object`));
+        loi.push(taoMucLoi(d, null, `${sourceLabel} [${i}]: mục dieu_khoan phải là object`));
         continue;
       }
 
-      const label = `${d.so_hieu || d._file} Điều ${it.dieu ?? '?'} (mục [${i}])`;
+      const label = `${sourceLabel} Điều ${it.dieu ?? '?'} (mục [${i}])`;
       let mucHopLe = true;
 
       if (typeof it.dieu !== 'number' || !Number.isInteger(it.dieu) || it.dieu < 1) {
@@ -299,11 +299,14 @@ export function kiemTraDieuKhoan(
       // Trường hợp định dạng không phải .txt/.md/.pdf
       const checkableDocs = readyDocs.filter(({ res }) => !res.skippedMissingPdftotext && !res.skippedUnsupported);
       if (checkableDocs.length === 0) {
-        thongTin.push({
-          file: d._file,
-          so_hieu: d.so_hieu || null,
-          msg: `${d.so_hieu || d._file}: định dạng toan_van chưa hỗ trợ đối chiếu lớp chữ (${existingFiles.map((f) => f.ext || f.rel).join(', ')})`,
-        });
+        if (!daGhiThongTinUnsupported) {
+          thongTin.push({
+            file: d._file,
+            so_hieu: d.so_hieu || null,
+            msg: `${d.so_hieu || d._file}: định dạng toan_van chưa hỗ trợ đối chiếu lớp chữ (${existingFiles.map((f) => f.ext || f.rel).join(', ')})`,
+          });
+          daGhiThongTinUnsupported = true;
+        }
         continue;
       }
 
@@ -345,6 +348,60 @@ export function kiemTraDieuKhoan(
     }
   }
 
+  for (const d of dsVanBan) {
+    const dkRaw = d?.xac_minh?.dieu_khoan;
+    if (dkRaw == null) continue;
+    if (!Array.isArray(dkRaw)) {
+      loi.push(taoMucLoi(d, null, `${d.so_hieu || d._file}: xac_minh.dieu_khoan phải là danh sách`));
+      continue;
+    }
+    if (dkRaw.length === 0) continue;
+
+    thongKe.soVanBanCoDieuKhoan += 1;
+    thongKe.soDieuKhoan += dkRaw.length;
+    kiemTraDanhSachMuc(d, dkRaw, d.so_hieu || d._file);
+  }
+
+  const dayDuDir = join(root, 'data', 'dieu-khoan-day-du');
+  if (existsSync(dayDuDir)) {
+    const bySlug = new Map(dsVanBan.filter((d) => d?._slug).map((d) => [d._slug, d]));
+    const files = readdirSync(dayDuDir).filter((f) => f.endsWith('.dieu.jsonl')).sort();
+    for (const f of files) {
+      thongKe.soTepDieuKhoanDayDu += 1;
+      const slug = f.replace(/\.dieu\.jsonl$/, '');
+      const rel = `data/dieu-khoan-day-du/${f}`;
+      const d = bySlug.get(slug);
+      if (!d) {
+        loi.push({ file: rel, so_hieu: null, dieu: null, trang_pdf: null, msg: `${rel}: tệp điều khoản đầy đủ mồ côi (không tìm thấy slug "${slug}" trong sổ)` });
+        continue;
+      }
+      if (d.xac_minh?.muc !== 'NGUON_A' && !(Array.isArray(d.xac_minh?.dieu_khoan) && d.xac_minh.dieu_khoan.length > 0)) {
+        loi.push(taoMucLoi(d, null, `${rel}: văn bản "${slug}" không thuộc NGUON_A`));
+        continue;
+      }
+      const raw = readFileSync(join(dayDuDir, f), 'utf8');
+      const lines = raw.split(/\r?\n/).filter((l) => l.trim().length > 0);
+      if (lines.length === 0) {
+        loi.push(taoMucLoi(d, null, `${rel}: tệp rỗng`));
+        continue;
+      }
+      const items = [];
+      let jsonLoi = false;
+      lines.forEach((line, idx) => {
+        try {
+          items.push(JSON.parse(line));
+        } catch (e) {
+          jsonLoi = true;
+          loi.push(taoMucLoi(d, null, `${rel} dòng ${idx + 1}: JSON không hợp lệ (${e.message})`));
+        }
+      });
+      if (!jsonLoi) {
+        thongKe.soDieuKhoanDayDu += items.length;
+        kiemTraDanhSachMuc(d, items, rel);
+      }
+    }
+  }
+
   thongKe.soLoi = loi.length;
   thongKe.soCanhBao = canhBao.length;
   thongKe.soThongTin = thongTin.length;
@@ -361,9 +418,10 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
     for (const w of r.canhBao) console.log(`CẢNH BÁO  ${w.file}: ${w.msg}`);
     for (const e of r.loi) console.log(`LỖI       ${e.file}: ${e.msg}`);
     const k = r.thongKe;
+    const dayDuNote = k.soTepDieuKhoanDayDu ? ` + đầy đủ ${k.soTepDieuKhoanDayDu} tệp (${k.soDieuKhoanDayDu} mục)` : '';
     console.log(
-      `\n${k.soVanBanCoDieuKhoan} văn bản có điều khoản (${k.soDieuKhoan} mục) · khớp nguyên văn ${k.soDieuKhoanKhop}/${k.soDieuKhoanDaDoiChieu} đã đối chiếu · bỏ qua scan ${k.soDieuKhoanBoQuaPdfScan} · ${k.soLoi} lỗi · ${k.soCanhBao} cảnh báo`,
+      `\n${k.soVanBanCoDieuKhoan} văn bản có điều khoản (${k.soDieuKhoan} mục)${dayDuNote} · khớp nguyên văn ${k.soDieuKhoanKhop}/${k.soDieuKhoanDaDoiChieu} đã đối chiếu · bỏ qua scan ${k.soDieuKhoanBoQuaPdfScan} · ${k.soLoi} lỗi · ${k.soCanhBao} cảnh báo`,
     );
   }
-  process.exit(r.loi.length ? 1 : 0);
+  process.exitCode = r.loi.length ? 1 : 0;
 }
