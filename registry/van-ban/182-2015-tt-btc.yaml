@@ -1,0 +1,45 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 182/2015/TT-BTC
+loai: THONG_TU
+ten: Ban hành Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi theo danh mục mặt hàng chịu thuế
+co_quan: BTC
+ngay_ban_hanh: '2015-11-16'
+hieu_luc_tu: '2016-01-01'
+het_hieu_luc_tu: '2016-09-01'
+tinh_trang: HET_HIEU_LUC
+nhanh:
+  - thue/bieu-thue
+nguon:
+  - url: https://chinhphu.vn/default.aspx?pageid=27160&docid=183099
+    truy_cap: '2026-11-25'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/01/182-btc.signed.pdf
+    truy_cap: '2026-11-25'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'Đối chiếu PDF ký số Chính phủ 6 trang đã OCR (SHA-256 d57aa7d8c963715d2d59af79e58e0d4be89e05ba6c959a48fc9aebc6b6a9cc1e): ban hành 16-11-2015, hiệu lực từ 01-01-2016; hết hiệu lực từ ngày 01-09-2016 khi Nghị định 122/2016/NĐ-CP ban hành Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi có hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-25'
+  boi: antigravity@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Ban hành Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi theo danh mục mặt hàng chịu thuế Ban hành kèm theo Thông tư này: 1. Biểu thuế xuất khẩu theo danh mục mặt hàng chịu thuế quy định tại Phụ lục I. 2. Biểu thuế nhập khẩu ưu đãi theo danh mục mặt hàng chịu thuế quy định tại'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Biểu thuế xuất khẩu theo danh mục mặt hàng chịu thuế 1. Biểu thuế xuất khẩu theo danh mục mặt hàng chịu thuế quy định tại Phụ lục I gồm mô tả hàng hoá và mã hàng (08 chữ số hoặc 10 chữ số), mức thuế suất thuế xuất khẩu quy định cho từng mặt hàng chịu thuế xuất khẩu.
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: 'Điều 3. Biểu thuế nhập khẫu ưu đãi theo danh mục mặt hàng chịu thuế Biểu thuế. nhập khẩu ưu đãi theo danh mục mặt hàng chịu thuế quy định tại Phụ lục H bao gôm:'
+      trang_pdf: 3
+    - dieu: 4
+      noi_dung: Điều 4. Thuế suất thuế nhập khẩu ưu đãi đối với các mặt hàng máy gia công cơ khí trong nước chưa sản xuất được thuộc Chương 84.
+      trang_pdf: 4
+    - dieu: 5
+      noi_dung: 'Điều 5. Thuế nhập khẩu ưu đãi đối với mặt hàng ô tô đã qua sử dụng nhập khẩu Thuế nhập khẩu ưu đãi đối với mặt hàng ô tô đã qua sử dụng nhập khẩu được quy định như sau:'
+      trang_pdf: 4
+    - dieu: 6
+      noi_dung: 'Điều 6. Tổ chức thực hiện 1. Thông tư này có hiệu lực thi hành ké từ ngày 01 tháng 01 năm 2016. 2. Thông tư này bãi bỏ:'
+      trang_pdf: 4
+ghi_chu: Biểu thuế MFN 2016 — đã hết hiệu lực từ 01-09-2016 (thay thế bởi NĐ 122/2016/NĐ-CP, sau đó là NĐ 26/2023/NĐ-CP).
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/182-2015-tt-btc.pdf
+  - raw/ocr/182-2015-tt-btc.ocr.txt
