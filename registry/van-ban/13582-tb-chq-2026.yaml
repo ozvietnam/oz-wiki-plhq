@@ -1,0 +1,28 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 13582/TB-CHQ/2026
+so_hieu_khac:
+  - 13582/TB-CHQ
+loai: THONG_BAO
+ten: 'Thông báo việc phát hành Tem điện tử rượu nhập khẩu'
+co_quan: CHQ
+ngay_ban_hanh: '2026-03-10'
+hieu_luc_tu: '2026-03-10'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - hai-quan/so-tay-nghiep-vu
+  - hai-quan/thu-tuc
+  - hai-quan/kiem-tra-giam-sat
+# Chưa gắn quan_he.can_cu → 23/2021/TT-BTC, 31/2025/TT-BTC và 1887/QĐ-CHQ/2025 vì chưa có trong sổ (gắn sẽ tạo điểm mù Cao "Được nhắc nhưng chưa có trong sổ").
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=102804&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/3/12/VB_13582.pdf
+    truy_cap: '2026-11-24'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF bậc A có chữ ký số trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/3/12/VB_13582.pdf, id=102804, SHA-256 360f836f3f83eb1452f48519d0afac56b4bd174eed5fad420bd25a62e6eaa5b6): Thông báo số 13582/TB-CHQ ngày 10-03-2026 của Cục Hải quan (ký số 10/03/2026 16:39:57 +07:00) về việc phát hành Tem điện tử rượu nhập khẩu từ ngày 10-03-2026 (căn cứ Thông tư 23/2021/TT-BTC ngày 30-03-2021, Thông tư 31/2025/TT-BTC ngày 31-05-2025 của Bộ trưởng Bộ Tài chính và Quyết định 1887/QĐ-CHQ ngày 25-11-2025 của Cục trưởng Cục Hải quan): (1) Tem điện tử rượu nhập khẩu độ cồn >=30 độ: ký hiệu mẫu RT30, ký hiệu tem BA/2025, số lượng 4.300.000 chiếc (từ số 0000001 đến số 4300000), giá bán 868 đồng/chiếc, ngày bắt đầu sử dụng 10/3/2026; (2) Tem điện tử rượu nhập khẩu độ cồn <30 độ: ký hiệu mẫu RD30, ký hiệu tem AB/2025, số lượng 5.000.000 chiếc (từ số 0000001 đến số 5000000), giá bán 868 đồng/chiếc, ngày bắt đầu sử dụng 10/3/2026; người ký Trịnh Văn Nhuận (TL. Cục trưởng, Trưởng ban Tài vụ - Quản trị)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+ghi_chu: 'TB hành chính/nghiệp vụ — không phải XDTMS: phát hành Tem điện tử rượu nhập khẩu từ ngày 10-03-2026 (mẫu RT30 ký hiệu BA/2025 cho rượu NK độ cồn >=30 độ: 4.300.000 chiếc từ 0000001 đến 4300000; mẫu RD30 ký hiệu AB/2025 cho rượu NK độ cồn <30 độ: 5.000.000 chiếc từ 0000001 đến 5000000; đồng giá bán 868 đồng/chiếc). Chưa gắn quan_he tới 23/2021/TT-BTC, 31/2025/TT-BTC và 1887/QĐ-CHQ/2025 vì chưa có trong sổ (tránh điểm mù Cao).'
+toan_van: raw/download/files.customs.gov.vn/13582-tb-chq-2026.pdf
