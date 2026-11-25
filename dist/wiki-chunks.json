@@ -17060,7 +17060,7 @@
    "loai_trang": "concepts",
    "tieu_de": "Thuế chống bán phá giá đối với mặt hàng thép nhập khẩu",
    "muc": "Definition",
-   "noi_dung": "Thuế chống bán phá giá (CBPG) đối với mặt hàng thép nhập khẩu là biện pháp phòng vệ thương mại bổ sung do Bộ Công Thương quyết định áp dụng theo Luật Quản lý ngoại thương `05/2017/QH14` và Nghị định **`86/2025/NĐ-CP`** (`CON_HIEU_LUC`, `NGUON_A`, có hiệu lực từ `01/07/2025`, thay thế Nghị định `10/2018/NĐ-CP` **đã hết hiệu lực**). Theo bộ câu hỏi nghiệp vụ `CH-16` và sổ đăng ký `registry/van-ban/`, hiện có **07 quyết định thép còn hiệu lực** (`NGUON_A` về hiệu lực) cần phân biệt rạch ròi với **03 quyết định thép đã hết hiệu lực** (`691/QĐ-BCT`, `693/QĐ-BCT`, `1975/QĐ-BCT`).\n\n> **Ranh giới tuyệt đối với `hs-code-api` (0% trùng lặp):** Trang này chỉ tổng hợp khung pháp lý phòng vệ thương mại, tình trạng hiệu lực văn bản và nguyên tắc kiểm tra chứng từ. Wiki **không** lưu bảng thuế suất chi tiết theo từng nhà sản xuất/xuất khẩu, **không** xây dựng công thức hay động cơ tính thuế CBPG, và **không** thực hiện áp mã HS — việc tra mã HS và tính thuế theo ngày đăng ký tờ khai thuộc phạm vi `hs-code-api`.",
+   "noi_dung": "Thuế chống bán phá giá (CBPG) đối với mặt hàng thép nhập khẩu là biện pháp phòng vệ thương mại bổ sung do Bộ Công Thương quyết định áp dụng theo Luật Quản lý ngoại thương `05/2017/QH14` và Nghị định **`86/2025/NĐ-CP`** (`CON_HIEU_LUC`, `NGUON_A`, có hiệu lực từ `01/07/2025`, thay thế Nghị định `10/2018/NĐ-CP` **đã hết hiệu lực**). Theo bộ câu hỏi nghiệp vụ `CH-16` và sổ đăng ký `registry/van-ban/`, hiện có **07 quyết định thép còn hiệu lực** (`NGUON_A` về hiệu lực): [[sources/143-qd-bct-2025]] (`143/QĐ-BCT`), [[sources/1959-qd-bct]] (`1959/QĐ-BCT`), [[sources/2310-qd-bct-2025]] (`2310/QĐ-BCT`), [[sources/2822-qd-bct-2024]] (`2822/QĐ-BCT`), [[sources/3011-qd-bct]] (`3011/QĐ-BCT`), [[sources/3176-qd-bct-2025]] (`3176/QĐ-BCT`) và [[sources/3765-qd-bct-2025]] (`3765/QĐ-BCT`); cần phân biệt rạch ròi với **03 quyết định thép đã hết hiệu lực** (`691/QĐ-BCT`, `693/QĐ-BCT`, `1975/QĐ-BCT`).\n\n> **Ranh giới tuyệt đối với `hs-code-api` (0% trùng lặp):** Trang này chỉ tổng hợp khung pháp lý phòng vệ thương mại, tình trạng hiệu lực văn bản và nguyên tắc kiểm tra chứng từ. Wiki **không** lưu bảng thuế suất chi tiết theo từng nhà sản xuất/xuất khẩu, **không** xây dựng công thức hay động cơ tính thuế CBPG, và **không** thực hiện áp mã HS — việc tra mã HS và tính thuế theo ngày đăng ký tờ khai thuộc phạm vi `hs-code-api`.",
    "tags": [
     "phong-ve-thuong-mai",
     "chong-ban-pha-gia",
@@ -17101,6 +17101,76 @@
      ],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-10-2018-nd-cp-25762.htm"
+    },
+    {
+     "so_hieu": "143/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-29",
+     "het_hieu_luc_tu": "2030-01-29",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20143_ap%20thue%20chinh%20thuc%20AD17.pdf"
+    },
+    {
+     "so_hieu": "1959/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-06",
+     "het_hieu_luc_tu": "2030-07-06",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%201959%20ap%20dung%20thue%20CBPG%20chinh%20thuc%20thep%20can%20nong.pdf"
+    },
+    {
+     "so_hieu": "2310/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-08-14",
+     "het_hieu_luc_tu": "2030-08-14",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%202310%20ap%20thue%20chinh%20thuc.pdf"
+    },
+    {
+     "so_hieu": "2822/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-10-24",
+     "het_hieu_luc_tu": "2029-10-24",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-ban-hanh-quyet-dinh-ve-ket-qua-ra-soat-cuoi-ky-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pha.html"
+    },
+    {
+     "so_hieu": "3011/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-11-12",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-hoan-tat-dieu-tra-ra-soat-cuoi-ky-viec-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pham-thep-k.html"
+    },
+    {
+     "so_hieu": "3176/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-10-27",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-khoi-xuong-dieu-tra-chong-lan-tranh-bien-phap-phong-ve-thuong-mai-doi-voi-mot-so-san-pham-thep-can-nong-c.html"
+    },
+    {
+     "so_hieu": "3765/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-12-28",
+     "het_hieu_luc_tu": "2030-12-28",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/12_%20QD%203765%20gia%20han%20ap%20dung%20bien%20phap%20CBPG%20thep%20can%20nguoi.pdf"
     },
     {
      "so_hieu": "691/QĐ-BCT",
@@ -17390,7 +17460,7 @@
    "loai_trang": "concepts",
    "tieu_de": "Thuế chống bán phá giá đối với mặt hàng thép nhập khẩu",
    "muc": "Variants > 4. Điểm mù tài liệu cần ghi nhận trung thực",
-   "noi_dung": "- **PDF PVTM là bản scan ảnh chưa trích điều khoản chi tiết:** Ngoại trừ `3765/QĐ-BCT` (`pdftotext` đọc được `9.599` ký tự lớp chữ), toàn bộ 06/07 quyết định thép còn hiệu lực còn lại (`143/QĐ-BCT`, `1959/QĐ-BCT`, `2310/QĐ-BCT`, `2822/QĐ-BCT`, `3011/QĐ-BCT`, `3176/QĐ-BCT`), cùng `915/QĐ-BCT` và các quyết định lịch sử đã hết hiệu lực (`691/QĐ-BCT`, `693/QĐ-BCT`, `1975/QĐ-BCT`) trong `raw/` đều là bản **PDF scan ảnh** (`pdftotext` trả về `0` ký tự với các tệp từ `pvtm.gov.vn`/`moit.gov.vn` và chỉ `116` ký tự với `1975/QĐ-BCT`), nên hiện **chưa trích xuất** `xac_minh.dieu_khoan`, `data/doc-hieu/*.dieu.jsonl` hay bảng phụ lục `danh-muc/*.csv`, và chưa có trang riêng trong `wiki/sources/`.\n- **Toàn văn `86/2025/NĐ-CP` chưa bóc tách điều khoản:** Hồ sơ `registry/van-ban/86-2025-nd-cp.yaml` đã đối chiếu `NGUON_A` về hiệu lực, nhưng tệp `raw/download/congbao.chinhphu.vn/86-2025-nd-cp.html` mới là trang thông tin Công báo (chưa nạp toàn văn PDF/DOC để trích điều khoản). Vì điểm mù này, câu hỏi `CH-16` hiện đạt tiêu chí (a) và (b) nhưng **chưa đạt tiêu chí (c)** trên `eval:qa`.",
+   "noi_dung": "- **PDF PVTM là bản scan ảnh chưa trích điều khoản chi tiết:** Ngoại trừ `3765/QĐ-BCT` (`pdftotext` đọc được `9.599` ký tự lớp chữ), toàn bộ 06/07 quyết định thép còn hiệu lực còn lại (`143/QĐ-BCT`, `1959/QĐ-BCT`, `2310/QĐ-BCT`, `2822/QĐ-BCT`, `3011/QĐ-BCT`, `3176/QĐ-BCT`), cùng `915/QĐ-BCT` và các quyết định lịch sử đã hết hiệu lực (`691/QĐ-BCT`, `693/QĐ-BCT`, `1975/QĐ-BCT`) trong `raw/` đều là bản **PDF scan ảnh** (`pdftotext` trả về `0` ký tự với các tệp từ `pvtm.gov.vn`/`moit.gov.vn` và chỉ `116` ký tự với `1975/QĐ-BCT`), nên hiện **chưa trích xuất** đầy đủ `xac_minh.dieu_khoan` hay bảng phụ lục `danh-muc/*.csv`, và đã có trang tóm tắt nguồn trong `wiki/sources/`.\n- **Toàn văn `86/2025/NĐ-CP` chưa bóc tách điều khoản:** Hồ sơ `registry/van-ban/86-2025-nd-cp.yaml` đã đối chiếu `NGUON_A` về hiệu lực, nhưng tệp `raw/download/congbao.chinhphu.vn/86-2025-nd-cp.html` mới là trang thông tin Công báo (chưa nạp toàn văn PDF/DOC để trích điều khoản). Vì điểm mù này, câu hỏi `CH-16` hiện đạt tiêu chí (a) và (b) nhưng **chưa đạt tiêu chí (c)** trên `eval:qa`.",
    "tags": [
     "phong-ve-thuong-mai",
     "chong-ban-pha-gia",
@@ -53445,7 +53515,7 @@
    "loai_trang": "sources",
    "tieu_de": "NĐ 115/2022/NĐ-CP — Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt thực hiện Hiệp định CPTPP giai đoạn 2022–2027",
    "muc": "Related sources",
-   "noi_dung": "- 57-2019-nd-cp (Nghị định lịch sử đã hết hiệu lực từ 30/12/2022 về Biểu thuế XK ưu đãi, Biểu thuế NK ưu đãi đặc biệt thực hiện Hiệp định CPTPP giai đoạn 2019–2022 — bị thay thế toàn bộ bởi Nghị định 115/2022/NĐ-CP)\n- 13-2025-nd-cp (Nghị định ngày 21/01/2025 sửa đổi, bổ sung Nghị định 115/2022/NĐ-CP để thực thi cam kết thuế quan CPTPP đối với Liên hiệp Vương quốc Anh và Bắc Ai-len từ ngày 15/12/2024)\n- [[sources/26-2023-nd-cp]] (Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi MFN, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan)\n- [[sources/107-2016-qh13]] (Luật Thuế xuất khẩu, thuế nhập khẩu 2016)\n- [[sources/127-qd-ttg-2026]] (Quyết định chỉ định cơ quan đầu mối triển khai Hiệp định CPTPP)",
+   "noi_dung": "- [[sources/03-2019-tt-bct]] (Thông tư `03/2019/TT-BCT` — Quy tắc xuất xứ hàng hóa trong Hiệp định CPTPP: cộng gộp, De Minimis, miễn C/O, lưu trữ hồ sơ)\n- 57-2019-nd-cp (Nghị định lịch sử đã hết hiệu lực từ 30/12/2022 về Biểu thuế XK ưu đãi, Biểu thuế NK ưu đãi đặc biệt thực hiện Hiệp định CPTPP giai đoạn 2019–2022 — bị thay thế toàn bộ bởi Nghị định 115/2022/NĐ-CP)\n- 13-2025-nd-cp (Nghị định ngày 21/01/2025 sửa đổi, bổ sung Nghị định 115/2022/NĐ-CP để thực thi cam kết thuế quan CPTPP đối với Liên hiệp Vương quốc Anh và Bắc Ai-len từ ngày 15/12/2024)\n- [[sources/26-2023-nd-cp]] (Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi MFN, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan)\n- [[sources/107-2016-qh13]] (Luật Thuế xuất khẩu, thuế nhập khẩu 2016)\n- [[sources/127-qd-ttg-2026]] (Quyết định chỉ định cơ quan đầu mối triển khai Hiệp định CPTPP)",
    "tags": [
     "nghi-dinh",
     "btc",
@@ -53458,6 +53528,16 @@
    ],
    "confidence": "high",
    "van_ban_lien_quan": [
+    {
+     "so_hieu": "03/2019/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2019-03-08",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=196497"
+    },
     {
      "so_hieu": "115/2022/NĐ-CP",
      "tinh_trang": "CON_HIEU_LUC",
@@ -69701,7 +69781,7 @@
    "loai_trang": "sources",
    "tieu_de": "NĐ 13/2025/NĐ-CP — Sửa đổi NĐ 115/2022/NĐ-CP về Biểu thuế XK ưu đãi, NK ưu đãi đặc biệt CPTPP giai đoạn 2022–2027 (bổ sung Vương quốc Anh)",
    "muc": "Summary",
-   "noi_dung": "**Nghị định 13/2025/NĐ-CP** do Phó Thủ tướng Chính phủ Hồ Đức Phớc ký ban hành ngày **21/01/2025**, có hiệu lực thi hành kể từ ngày ký (**21/01/2025**) đến hết ngày **31/12/2027**, sửa đổi, bổ sung một số điều của **Nghị định 115/2022/NĐ-CP** ngày 30/12/2022 của Chính phủ ban hành Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (**Hiệp định CPTPP**) giai đoạn 2022 – 2027 (đã được sửa đổi, bổ sung một số điều vào ngày 07/09/2023) nhằm thực thi Văn kiện gia nhập Hiệp định CPTPP của **Liên hiệp Vương quốc Anh và Bắc Ai-len** có hiệu lực kể từ ngày **15/12/2024**.\n\nVăn bản gồm **3 điều** (4 trang PDF, đăng Công báo số 241 + 242 ngày 02/02/2025, trang 3–6), bổ sung **Liên hiệp Vương quốc Anh và Bắc Ai-len (bao gồm cả 3 vùng lãnh thổ gồm Địa hạt Gu-en-xi, Địa hạt Giơ-xy và Đảo Man)** vào danh sách các nước thành viên Hiệp định CPTPP được hưởng thuế suất xuất khẩu ưu đãi (Phụ lục I) và thuế suất nhập khẩu ưu đãi đặc biệt (Phụ lục II) theo lộ trình cột `(IV)` từ ngày 15/12/2024 đến hết năm 2027 (cột `(VII)`), đồng thời quy định cơ chế **xử lý tiền thuế nộp thừa hồi tố** cho các tờ khai hải quan đăng ký từ ngày **15/12/2024** đến trước ngày **21/01/2025**. **Hiện đang còn hiệu lực** đến hết ngày 31/12/2027.",
+   "noi_dung": "**Nghị định 13/2025/NĐ-CP** do Phó Thủ tướng Chính phủ Hồ Đức Phớc ký ban hành ngày **21/01/2025**, có hiệu lực thi hành kể từ ngày ký (**21/01/2025**) đến hết ngày **31/12/2027**, sửa đổi, bổ sung một số điều của **Nghị định 115/2022/NĐ-CP** ngày 30/12/2022 của Chính phủ ban hành Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (**Hiệp định CPTPP**) giai đoạn 2022 – 2027 (đã được sửa đổi, bổ sung một số điều vào ngày 07/09/2023) nhằm thực thi Văn kiện gia nhập Hiệp định CPTPP của **Liên hiệp Vương quốc Anh và Bắc Ai-len** có hiệu lực kể từ ngày **15/12/2024**.\n\nVăn bản gồm **3 điều** (4 trang PDF, đăng Công báo số 241 + 242 ngày 02/02/2025, trang 3–6), bổ sung **Liên hiệp Vương quốc Anh và Bắc Ai-len (bao gồm cả 3 vùng lãnh thổ gồm Địa hạt Gu-en-xi, Địa hạt Giơ-xy và Đảo Man)** vào danh sách các nước thành viên Hiệp định CPTPP được hưởng thuế suất xuất khẩu ưu đãi (Phụ lục I) và thuế suất nhập khẩu ưu đãi đặc biệt (Phụ lục II) theo lộ trình cột `(IV)` từ ngày 15/12/2024 đến hết năm 2027 (cột `(VII)`), đồng thời quy định cơ chế **xử lý tiền thuế nộp thừa hồi tố** cho các tờ khai hải quan đăng ký từ ngày **15/12/2024** đến trước ngày **21/01/2025**. Về **quy tắc xuất xứ CPTPP** (cộng gộp, *De Minimis*, miễn C/O, lưu trữ hồ sơ), đối chiếu thêm Thông tư `03/2019/TT-BCT` ([[sources/03-2019-tt-bct]]). **Hiện đang còn hiệu lực** đến hết ngày 31/12/2027.",
    "tags": [
     "nghi-dinh",
     "thue-xk-nk",
@@ -69732,6 +69812,16 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=207349"
+    },
+    {
+     "so_hieu": "03/2019/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2019-03-08",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=196497"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -127619,7 +127709,7 @@
    "loai_trang": "sources",
    "tieu_de": "NĐ 35/2019/NĐ-CP — Quy định xử phạt vi phạm hành chính trong lĩnh vực Lâm nghiệp",
    "muc": "Summary",
-   "noi_dung": "**Nghị định 35/2019/NĐ-CP** do Thủ tướng Chính phủ Nguyễn Xuân Phúc ký ban hành ngày **25/04/2019**, có hiệu lực thi hành từ ngày **10/06/2019**, quy định về hành vi vi phạm, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả, thẩm quyền lập biên bản và thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực **Lâm nghiệp** theo **Luật Lâm nghiệp năm 2017** và **Luật Xử lý vi phạm hành chính năm 2012**.\n\nVăn bản gồm **4 chương, 38 điều** (76 trang PDF, đăng Công báo số 419 + 420 ngày 05/05/2019, trang 3–78), thay thế **Nghị định `157-2013-nd-cp`** ngày 11/11/2013 và **Điều 3 Nghị định `41-2017-nd-cp`** ngày 05/04/2017. Đối với nghiệp vụ hải quan và xuất nhập khẩu lâm sản, Nghị định thiết lập mức phạt tiền tối đa đến **500.000.000 đồng đối với cá nhân** và **1.000.000.000 đồng đối với tổ chức** (khoản 1 Điều 6); quy định nguyên tắc áp dụng khung xử phạt tương đương Nhóm I, Nhóm II đối với mẫu vật các loài thuộc **Phụ lục I, Phụ lục II Công ước CITES** (khoản 3, khoản 4 Điều 6 — [[concepts/cites-vn]]); quy định hệ số quy đổi gỗ xẻ, gỗ đẽo thành gỗ tròn bằng cách **nhân với hệ số 1,6** (khoản 3 Điều 5 — [[concepts/go-rung]]); quy định khung xử phạt đối với hành vi vận chuyển, tàng trữ, mua bán, chế biến lâm sản trái pháp luật (bao gồm gỗ Nhóm IA/IIA, động vật rừng Nhóm IB/IIB, ngà voi, sừng tê giác tại Điều 22, Điều 23) và vi phạm quản lý **hồ sơ lâm sản có nguồn gốc nhập khẩu** (điểm a khoản 3 Điều 24); đồng thời trao thẩm quyền xử phạt trực tiếp cho **lực lượng Hải quan** đối với các hành vi tại Điều 22 và Điều 23 (Điều 33 & khoản 5 Điều 34). **Hiện đang còn hiệu lực** (đã được sửa đổi, bổ sung một số điều bởi **Nghị định `07-2022-nd-cp`** ngày 10/01/2022).",
+   "noi_dung": "**Nghị định 35/2019/NĐ-CP** do Thủ tướng Chính phủ Nguyễn Xuân Phúc ký ban hành ngày **25/04/2019**, có hiệu lực thi hành từ ngày **10/06/2019**, quy định về hành vi vi phạm, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả, thẩm quyền lập biên bản và thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực **Lâm nghiệp** theo **Luật Lâm nghiệp năm 2017** và **Luật Xử lý vi phạm hành chính năm 2012**.\n\nVăn bản gồm **4 chương, 38 điều** (76 trang PDF, đăng Công báo số 419 + 420 ngày 05/05/2019, trang 3–78), thay thế **Nghị định `157-2013-nd-cp`** ngày 11/11/2013 và **Điều 3 Nghị định `41-2017-nd-cp`** ngày 05/04/2017. Đối với nghiệp vụ hải quan và xuất nhập khẩu lâm sản, Nghị định thiết lập mức phạt tiền tối đa đến **500.000.000 đồng đối với cá nhân** và **1.000.000.000 đồng đối với tổ chức** (khoản 1 Điều 6); quy định nguyên tắc áp dụng khung xử phạt tương đương Nhóm I, Nhóm II đối với mẫu vật các loài thuộc **Phụ lục I, Phụ lục II Công ước CITES** (khoản 3, khoản 4 Điều 6 — [[concepts/cites-vn]], đối chiếu Bảng mã HS thực vật/động vật rừng CITES tại [[sources/17-2023-tt-bnnptnt]] `17/2023/TT-BNNPTNT`); quy định hệ số quy đổi gỗ xẻ, gỗ đẽo thành gỗ tròn bằng cách **nhân với hệ số 1,6** (khoản 3 Điều 5 — [[concepts/go-rung]]); quy định khung xử phạt đối với hành vi vận chuyển, tàng trữ, mua bán, chế biến lâm sản trái pháp luật (bao gồm gỗ Nhóm IA/IIA, động vật rừng Nhóm IB/IIB, ngà voi, sừng tê giác tại Điều 22, Điều 23) và vi phạm quản lý **hồ sơ lâm sản có nguồn gốc nhập khẩu** (điểm a khoản 3 Điều 24); đồng thời trao thẩm quyền xử phạt trực tiếp cho **lực lượng Hải quan** đối với các hành vi tại Điều 22 và Điều 23 (Điều 33 & khoản 5 Điều 34). **Hiện đang còn hiệu lực** (đã được sửa đổi, bổ sung một số điều bởi **Nghị định `07-2022-nd-cp`** ngày 10/01/2022).",
    "tags": [
     "nghi-dinh",
     "bnnmt",
@@ -127640,6 +127730,16 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-35-2019-nd-cp-28907.htm"
+    },
+    {
+     "so_hieu": "17/2023/TT-BNNPTNT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-01-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-17-2023-tt-bnnptnt-40996/48231.htm"
     }
    ],
    "canh_bao_hieu_luc": false
