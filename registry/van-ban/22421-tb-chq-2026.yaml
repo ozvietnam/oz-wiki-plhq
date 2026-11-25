@@ -1,0 +1,30 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 22421/TB-CHQ/2026
+so_hieu_khac:
+  - 22421/TB-CHQ
+  - 22421/CHQ-NVTHQ
+  - 22421/CHQ-NVTHQ/2026
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-24'
+ten: 'Thông báo về kết quả xác định trước mã số (Chất bảo quản dạng màng khô cho sơn, lớp phủ và vữa Biox AM138, mã số 3808.92.90)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-09-30'
+hieu_luc_tu: '2026-09-30'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=106217&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/10/1/6afece0e-1aea-4321-ab56-5d1990b639e3.pdf
+    truy_cap: '2026-11-24'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/10/1/6afece0e-1aea-4321-ab56-5d1990b639e3.pdf, id=106217, SHA-256 8c6af4ac0e75a3a64ed993b0a822c3bcf59d81bdf5e1aa61ec61d588b4bb8d79): Thông báo số 22421/TB-CHQ ngày 30-09-2026 của Cục Hải quan (trên mục lục cổng ghi ký hiệu 22421/CHQ-NVTHQ) về kết quả xác định trước mã số đối với mặt hàng Biox AM138 — Chất bảo quản dạng màng khô cho sơn, lớp phủ và vữa (chứa Diuron >=15-<25%, Carbendazim >=7-<10%, 2-octyl-2H-isothiazol-3-one >=1,5-<2,5%, 5-Chloro-2-methyl-3(2H)isothiazolone mixt. with 2-Methyl-3(2H)isothiazolone >=0,0025-<0,025%, nước >=60-<70%; dạng dung dịch đậm đặc có thể chảy, đóng gói 1000 KG/thùng IBC, nhà sản xuất Lanxess Pte. Ltd), phân loại vào nhóm 38.08, phân nhóm 3808.92, mã số 3808.92.90; có hiệu lực kể từ ngày ban hành'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Biox AM138 — Chất bảo quản dạng màng khô cho sơn, lớp phủ và vữa (chứa Diuron, Carbendazim, 2-octyl-2H-isothiazol-3-one, CMIT/MIT trong nước) thuộc nhóm 38.08, phân nhóm 3808.92, mã số 3808.92.90.'
+toan_van: raw/download/files.customs.gov.vn/22421-tb-chq-2026.pdf
