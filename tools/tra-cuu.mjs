@@ -226,9 +226,13 @@ function fmtDieuKhoan(res) {
       ]
         .filter(Boolean)
         .join(' ');
+      const statusBadge = item.trang_thai_dieu && item.trang_thai_dieu !== 'NGUYEN_BAN'
+        ? ` · ${item.trang_thai_dieu}`
+        : '';
       lines.push(
-        `• ${item.so_hieu} [${item.tinh_trang || '?'}] — ${refLoc} (trang_pdf: ${item.trang_pdf ?? '—'}, sha256_pdf: ${item.sha256_pdf || '—'})`,
+        `• ${item.so_hieu} [${item.tinh_trang || '?'}${statusBadge}] — ${refLoc} (trang_pdf: ${item.trang_pdf ?? '—'}, sha256_pdf: ${item.sha256_pdf || '—'})`,
       );
+      if (item.canh_bao_sua_doi) lines.push(`  ⚠ ${item.canh_bao_sua_doi}`);
       lines.push(`  ${item.noi_dung}`);
       if (item.nguon_a) lines.push(`  Nguồn A: ${item.nguon_a}`);
     }

@@ -3,6 +3,7 @@ import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { ROOT, bacNguon, homNay, LUOC_DO_PHIEN_BAN } from './registry.mjs';
 import { docCsv, kiemDanhMucCas, COT_CAS } from './danh-muc.mjs';
+import { khoaDieuDich, napSuaDoiDieu, tinhTrangThaiDieu } from './sua-doi-dieu.mjs';
 
 export const GIAY_PHEP = 'CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/';
 export const MIEN_TRU = 'Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.';
@@ -185,7 +186,7 @@ export function gopDieuKhoanNguonA(yamlClauses = [], fullClauses = []) {
   return sapXepDieuKhoanNguonA(out);
 }
 
-function docDieuKhoanDayDu(root) {
+export function docDieuKhoanDayDu(root = ROOT) {
   const dir = join(root, 'data', 'dieu-khoan-day-du');
   const fullBySlug = new Map();
   let soTep = 0;
@@ -239,6 +240,8 @@ export function dungDieuKhoan(so, root = ROOT, today = homNay()) {
     soTep: soTepDieuKhoanDayDu,
     soDongLoi: soDongLoiDayDu,
   } = docDieuKhoanDayDu(root);
+  const suaDoi = napSuaDoiDieu(root);
+  const dieuCoLichSu = new Set();
 
   const nguyen_van_nguon_a = [];
   for (const d of so.vanBan) {
@@ -247,6 +250,16 @@ export function dungDieuKhoan(so, root = ROOT, today = homNay()) {
     const fullClauses = duDieuKienNguonA ? (fullBySlug.get(d._slug) || []) : [];
     const merged = gopDieuKhoanNguonA(yamlClauses, fullClauses);
     if (merged.length === 0) continue;
+    const enriched = merged.map((c) => {
+      const kd = khoaDieuDich(d.so_hieu, c.dieu);
+      const lichSu = kd ? (suaDoi.theoDich.get(kd) || []) : [];
+      if (lichSu.length > 0 && kd) dieuCoLichSu.add(kd);
+      return {
+        ...c,
+        trang_thai_dieu: tinhTrangThaiDieu(lichSu),
+        lich_su_tac_dong: lichSu,
+      };
+    });
     nguyen_van_nguon_a.push({
       so_hieu: d.so_hieu,
       slug: d._slug,
@@ -257,7 +270,7 @@ export function dungDieuKhoan(so, root = ROOT, today = homNay()) {
       hieu_luc_da_doi_chieu: d.xac_minh?.hieu_luc_da_doi_chieu === true,
       nguon_a: nguonADauTien(d, so.nguon),
       tang_tin_cay: 'NGUYEN_VAN_NGUON_A',
-      dieu_khoan: merged,
+      dieu_khoan: enriched,
     });
   }
 
@@ -338,6 +351,9 @@ export function dungDieuKhoan(so, root = ROOT, today = homNay()) {
       so_dieu_khoan_tom_tat_nhap: soDieuKhoanTomTat,
       so_tep_doc_hieu: soTepDocHieu,
       so_tep_dieu_khoan_day_du: soTepDieuKhoanDayDu,
+      so_tep_sua_doi_dieu: suaDoi.tep,
+      so_tac_dong_dieu: suaDoi.banGhi.reduce((n, b) => n + (b.tac_dong?.length || 0), 0),
+      so_dieu_co_lich_su_sua_doi: dieuCoLichSu.size,
       so_dong_loi: soDongLoi + soDongLoiDayDu,
       so_dong_rac_da_loc: soDongRacDaLoc,
     },

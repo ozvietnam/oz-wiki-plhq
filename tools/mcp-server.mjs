@@ -382,9 +382,13 @@ function dinhDangTraDieuKhoan(res) {
         item.trang_pdf ? `trang PDF ${item.trang_pdf}` : '',
         item.sha256_pdf ? `sha256: ${String(item.sha256_pdf).slice(0, 12)}…` : '',
       ].filter(Boolean).join(', ');
+      const trangThaiTag = item.trang_thai_dieu && item.trang_thai_dieu !== 'NGUYEN_BAN'
+        ? ` [${item.trang_thai_dieu}]`
+        : '';
       lines.push(
-        `- **[${item.so_hieu || '?'}]** ${viTri || 'Mục'}${item.tinh_trang ? ` (${item.tinh_trang})` : ''}${refPdf ? ` [${refPdf}]` : ''}: ${item.noi_dung || ''}`,
+        `- **[${item.so_hieu || '?'}]** ${viTri || 'Mục'}${item.tinh_trang ? ` (${item.tinh_trang})` : ''}${trangThaiTag}${refPdf ? ` [${refPdf}]` : ''}: ${item.noi_dung || ''}`,
       );
+      if (item.canh_bao_sua_doi) lines.push(`  Cảnh báo sửa đổi: ${item.canh_bao_sua_doi}`);
       if (item.nguon_a) lines.push(`  Nguồn A: ${item.nguon_a}`);
     }
   } else {

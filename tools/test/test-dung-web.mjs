@@ -285,7 +285,7 @@ try {
 
   const mockReg = {
     phien_ban: '2026-11-21',
-    luoc_do_phien_ban: '1.5.0',
+    luoc_do_phien_ban: LUOC_DO_PHIEN_BAN,
     giay_phep: 'CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/',
     tong: 2,
     van_ban: [
@@ -337,7 +337,7 @@ try {
 
   const mockWikiIndex = {
     phien_ban: '2026-11-21',
-    luoc_do_phien_ban: '1.5.0',
+    luoc_do_phien_ban: LUOC_DO_PHIEN_BAN,
     giay_phep: 'CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/',
     ghi_nguon_chuan: 'Nguồn: oz-wiki-plhq',
     mien_tru: 'Tham khảo.',
@@ -361,7 +361,7 @@ try {
 
   const mockWikiChunks = {
     phien_ban: '2026-11-21',
-    luoc_do_phien_ban: '1.5.0',
+    luoc_do_phien_ban: LUOC_DO_PHIEN_BAN,
     giay_phep: 'CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/',
     ghi_nguon_chuan: 'Nguồn: oz-wiki-plhq',
     mien_tru: 'Tham khảo.',
@@ -385,7 +385,7 @@ try {
 
   const mockDk = {
     phien_ban: '2026-11-21',
-    luoc_do_phien_ban: '1.5.0',
+    luoc_do_phien_ban: LUOC_DO_PHIEN_BAN,
     giay_phep: 'CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/',
     mien_tru: 'Tham khảo.',
     canh_bao_tang_nhap: 'Tầng TOM_TAT_NHAP chưa đối chiếu nguyên văn.',
@@ -426,7 +426,7 @@ try {
 
   const mockCas = {
     phien_ban: '2026-11-21',
-    luoc_do_phien_ban: '1.5.0',
+    luoc_do_phien_ban: LUOC_DO_PHIEN_BAN,
     giay_phep: 'CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/',
     mien_tru: 'Tham khảo.',
     thong_ke: { so_tep: 1, so_tep_loi: 0, tong_dong: 2, so_dong_co_cas: 1, so_ma_cas_duy_nhat: 1, so_dong_khong_co_cas: 1 },
@@ -516,7 +516,7 @@ try {
   const combinedWeb = `${html}\n${js}\n${css}`;
 
   t('chèn phiên bản lược đồ & thời điểm dựng sạch sẽ (không sót placeholder {{...}})',
-    html.includes('v1.5.0')
+    html.includes(`v${LUOC_DO_PHIEN_BAN}`)
     && html.includes('2026-11-21')
     && !/\{\{(?:LUOC_DO_PHIEN_BAN|PHIEN_BAN|THOI_DIEM_DUNG)\}\}/.test(combinedWeb));
 
@@ -600,7 +600,7 @@ try {
   const cliReg = JSON.parse(readFileSync(join(outCli, 'data', 'registry.json'), 'utf8'));
   const cliCas = JSON.parse(readFileSync(join(outCli, 'data', 'cas-index.json'), 'utf8'));
   const cliDk = JSON.parse(readFileSync(join(outCli, 'data', 'dieu-khoan.json'), 'utf8'));
-  t('CLI tools/dung-web.mjs trên dist/ thật ra tmpdir: đủ tệp, schema 1.5.0, registry.json được rút gọn rõ rệt',
+  t(`CLI tools/dung-web.mjs trên dist/ thật ra tmpdir: đủ tệp, schema ${LUOC_DO_PHIEN_BAN}, registry.json được rút gọn rõ rệt`,
     existsSync(join(outCli, '.nojekyll'))
     && cliReg.luoc_do_phien_ban === LUOC_DO_PHIEN_BAN
     && cliReg.van_ban.length >= 2800
@@ -747,7 +747,7 @@ try {
 
   const mockHsTheoMa = {
     phien_ban: '2026-11-22',
-    luoc_do_phien_ban: '1.5.0',
+    luoc_do_phien_ban: LUOC_DO_PHIEN_BAN,
     bieu_thue_doi_chieu: { tong_ma: 11871 },
     canh_bao_ma: ['99999999'],
     tien_le_tb_tchq: { theo_ma_8: { '38089199': 3 } },
@@ -918,7 +918,7 @@ try {
   const sha15 = 'c'.repeat(64);
   const regV2 = {
     phien_ban: '2026-11-22',
-    luoc_do_phien_ban: '1.5.0',
+    luoc_do_phien_ban: LUOC_DO_PHIEN_BAN,
     giay_phep: 'CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/',
     tong: 4,
     van_ban: [

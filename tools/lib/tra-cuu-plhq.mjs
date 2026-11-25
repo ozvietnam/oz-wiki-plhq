@@ -1071,6 +1071,30 @@ export function traDieuKhoan(
         kwInfo,
       );
       if (kwInfo.norm && kwScore === 0) continue;
+      const lichSuTacDong = Array.isArray(dk.lich_su_tac_dong) ? dk.lich_su_tac_dong : [];
+      const trangThaiDieu = dk.trang_thai_dieu || (lichSuTacDong.length > 0 ? 'DA_SUA_DOI' : 'NGUYEN_BAN');
+      const canhBaoSuaDoi = lichSuTacDong.length > 0
+        ? `Điều này ở trạng thái ${trangThaiDieu}: bị tác động bởi ${lichSuTacDong.map((e) => `${e.can_cu || e.van_ban_nguon}${e.tu_ngay ? ` (hiệu lực ${e.tu_ngay})` : ''}`).join('; ')}.`
+        : null;
+      const dieuKhoanSuaDoiLienQuan = lichSuTacDong.length > 0 && store.dkNguonAByKhoa instanceof Map
+        ? lichSuTacDong.slice(-3).map((e) => {
+          const vbSrc = store.dkNguonAByKhoa.get(khoa(e.van_ban_nguon));
+          const hitSrc = (vbSrc?.dieu_khoan || []).find(
+            (x) => String(x.dieu) === String(e.dieu_nguon)
+              && (e.khoan_nguon == null || String(x.khoan) === String(e.khoan_nguon)),
+          );
+          if (!hitSrc) return null;
+          return {
+            loai: e.loai,
+            so_hieu: vbSrc.so_hieu,
+            dieu: hitSrc.dieu,
+            khoan: hitSrc.khoan ?? null,
+            tu_ngay: e.tu_ngay ?? null,
+            trang_pdf: hitSrc.trang_pdf ?? null,
+            noi_dung: String(hitSrc.noi_dung || '').slice(0, 800),
+          };
+        }).filter(Boolean)
+        : [];
       hitsA.push({
         _score: kwScore,
         tang_tin_cay: 'NGUYEN_VAN_NGUON_A',
@@ -1089,6 +1113,10 @@ export function traDieuKhoan(
         noi_dung: dk.noi_dung,
         trang_pdf: dk.trang_pdf ?? null,
         sha256_pdf: dk.sha256_pdf ?? null,
+        trang_thai_dieu: trangThaiDieu,
+        lich_su_tac_dong: lichSuTacDong,
+        ...(canhBaoSuaDoi ? { canh_bao_sua_doi: canhBaoSuaDoi } : {}),
+        ...(dieuKhoanSuaDoiLienQuan.length > 0 ? { dieu_khoan_sua_doi_lien_quan: dieuKhoanSuaDoiLienQuan } : {}),
       });
     }
   }

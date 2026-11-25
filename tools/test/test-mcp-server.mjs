@@ -143,7 +143,7 @@ try {
     params: { protocolVersion: '2024-11-05', clientInfo: { name: 'test-client', version: '1.0' } },
   });
   t(
-    'initialize (2024-11-05): trả đúng protocolVersion, capabilities, serverInfo 1.5.0',
+    `initialize (2024-11-05): trả đúng protocolVersion, capabilities, serverInfo ${LUOC_DO_PHIEN_BAN}`,
     init24?.result?.protocolVersion === '2024-11-05'
       && init24.result.serverInfo?.name === 'oz-wiki-plhq'
       && init24.result.serverInfo?.version === LUOC_DO_PHIEN_BAN
@@ -555,7 +555,7 @@ try {
   });
   const metaJson = JSON.parse(rMeta?.result?.contents?.[0]?.text || '{}');
   t(
-    'resources/read plhq://meta/luoc-do: đủ metadata 1.5.0, thống kê 2 tầng, CC BY & ranh giới hs-code-api',
+    `resources/read plhq://meta/luoc-do: đủ metadata ${LUOC_DO_PHIEN_BAN}, thống kê 2 tầng, CC BY & ranh giới hs-code-api`,
     rMeta?.result?.contents?.[0]?.mimeType === 'application/json'
       && metaJson.luoc_do_phien_ban === LUOC_DO_PHIEN_BAN
       && metaJson.thong_ke?.so_van_ban > 2000

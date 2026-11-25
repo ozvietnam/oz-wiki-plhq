@@ -109,9 +109,9 @@ Từ **1.2.0** tệp này thêm ba khối đồng bộ quan điểm phân loại
 | `tien_le_tb_tchq` | Mật độ thông báo phân loại Tổng cục: `theo_ma_8` (721 mã 8 số, customs.gov.vn) + `theo_nhom_4` (397 nhóm, tracuuhs) | Chỉ tham khảo — văn bản cá biệt bậc C; tra chi tiết `npm run tien-le` |
 | `anh_xa_ahtn_cu` *(tuỳ chọn, `1.5.0` cộng thêm)* | Gợi ý ánh xạ mã trong `canh_bao_ma` sang EN2022 từ [`registry/phien-ban-bieu-thue-mapping.yaml`](../registry/phien-ban-bieu-thue-mapping.yaml) (được `kiemAnhXaAhtn` trong `npm run kiem-tra` đối chiếu `nhu-cau/bieu-thue.json` và ghi nhận `HS_AHTN_CU_DA_ANH_XA` trong `npm run diem-mu`): `{ phien_ban_cu, phien_ban_moi, tong_duoc_anh_xa, ghi_chu, mapping: { [maCu]: { hs_moi, loai } } }` | Chỉ dùng để định vị đối chiếu sang biểu thuế EN2022; **không** tự áp mã HS thay cho kiểm tra văn bản gốc & `hs-code-api` |
 
-### Gói dữ liệu `1.5.0` phục vụ Cổng MCP hỏi đáp PLHQ (`ozplugin`)
+### Gói dữ liệu `1.6.0` phục vụ Cổng MCP hỏi đáp PLHQ (`ozplugin`)
 
-Từ phiên bản lược đồ `1.5.0`, bộ dữ liệu máy `dist/` do `npm run dung` xuất gồm đủ **8 tệp JSON**: 3 tệp nền (`registry.json`, `hs-index.json`, `hs-index-theo-ma.json`) và 5 tệp chuyên biệt phục vụ hỏi đáp PLHQ & Cổng MCP (`wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`, `chinh-sach-mo-ta.json`), tuyệt đối không xuất `chu-giai-hs.json` hay `chu-giai-chuong.json`; mọi tệp đều kèm `phien_ban`, `luoc_do_phien_ban`, `giay_phep`, `mien_tru`:
+Từ phiên bản lược đồ `1.5.0` (nâng cấp tương thích ngược lên `1.6.0` với đồ thị sửa đổi cấp Điều khoản), bộ dữ liệu máy `dist/` do `npm run dung` xuất gồm đủ **8 tệp JSON**: 3 tệp nền (`registry.json`, `hs-index.json`, `hs-index-theo-ma.json`) và 5 tệp chuyên biệt phục vụ hỏi đáp PLHQ & Cổng MCP (`wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`, `chinh-sach-mo-ta.json`), tuyệt đối không xuất `chu-giai-hs.json` hay `chu-giai-chuong.json`; mọi tệp đều kèm `phien_ban`, `luoc_do_phien_ban`, `giay_phep`, `mien_tru`:
 
 #### 1. `dist/wiki-index.json` & `dist/wiki-chunks.json` (chỉ mục & đoạn wiki có neo hiệu lực)
 
@@ -129,9 +129,9 @@ Sinh từ `wiki/summary/*.md`, `wiki/concepts/*.md`, `wiki/sources/*.md` (bỏ q
 
 Phân tách tuyệt đối hai tầng dữ liệu điều khoản để Cổng MCP **không trộn nháp LLM với nguyên văn đã xác minh**:
 
-- **Đầu tệp:** `phien_ban`, `luoc_do_phien_ban`, `giay_phep`, `mien_tru`, `canh_bao_tang_nhap`, `thong_ke` (`so_van_ban_nguon_a`, `so_dieu_khoan_nguon_a`, `so_van_ban_tom_tat_nhap`, `so_dieu_khoan_tom_tat_nhap`, `so_tep_doc_hieu`, `so_dong_loi`, `so_dong_rac_da_loc`).
+- **Đầu tệp:** `phien_ban`, `luoc_do_phien_ban`, `giay_phep`, `mien_tru`, `canh_bao_tang_nhap`, `thong_ke` (`so_van_ban_nguon_a`, `so_dieu_khoan_nguon_a`, `so_van_ban_tom_tat_nhap`, `so_dieu_khoan_tom_tat_nhap`, `so_tep_doc_hieu`, `so_tep_dieu_khoan_day_du`, `so_tep_sua_doi_dieu`, `so_tac_dong_dieu`, `so_dieu_co_lich_su_sua_doi`, `so_dong_loi`, `so_dong_rac_da_loc`).
 - **Tầng 1 — `nguyen_van_nguon_a[]`** (từ `xac_minh.dieu_khoan` trong `registry/van-ban/*.yaml`, do `tools/trich-dieu-khoan.mjs` trích từ `.ocr.txt`/PDF lớp chữ/toàn văn hoặc soát tay và được `npm run kiem-tra:dieu-khoan` đối chiếu nguyên văn):
-  - Trường: `so_hieu`, `slug`, `ten`, `tinh_trang`, `hieu_luc_tu`, `het_hieu_luc_tu`, `hieu_luc_da_doi_chieu`, `nguon_a`, `tang_tin_cay: "NGUYEN_VAN_NGUON_A"`, `dieu_khoan[]` (`dieu`, `noi_dung` nguyên văn; tuỳ chọn `khoan`, `diem`, `trang_pdf`, `sha256_pdf`).
+  - Trường: `so_hieu`, `slug`, `ten`, `tinh_trang`, `hieu_luc_tu`, `het_hieu_luc_tu`, `hieu_luc_da_doi_chieu`, `nguon_a`, `tang_tin_cay: "NGUYEN_VAN_NGUON_A"`, `dieu_khoan[]` (`dieu`, `noi_dung` nguyên văn; tuỳ chọn `khoan`, `diem`, `trang_pdf`, `sha256_pdf`; từ `1.6.0` có thêm `trang_thai_dieu` & `lich_su_tac_dong[]` biên dịch từ `data/sua-doi-dieu/*.json`).
   - **Quy tắc dùng:** **được trích dẫn trực tiếp làm căn cứ pháp lý** trong câu trả lời, kèm `nguon_a`.
 - **Tầng 2 — `tom_tat_nhap[]`** (từ `data/doc-hieu/*.dieu.jsonl` đã được `laDieuRac` / `tools/gop-doc-hieu.py` lọc dòng rác và chuẩn hoá hậu tố `-body`, `-ocr`, `-tiep`, `-toanvan` về slug văn bản):
   - Trường: `so_hieu`, `slug`, `tinh_trang`, `hieu_luc_tu`, `het_hieu_luc_tu`, `nguon_a`, `tang_tin_cay: "TOM_TAT_NHAP"`, `da_soat: false`, `dieu_khoan[]` (`dieu`, `ten`, `tom_tat`, `nghia_vu_xnk[]`, `nguon_trich`, `da_soat: false`).
